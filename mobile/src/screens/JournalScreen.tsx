@@ -12,7 +12,7 @@ import {
   Animated,
 } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import { useAppStore } from '../store/useAppStore';
+import { useAppStore, JOURNAL_BLESS } from '../store/useAppStore';
 import { getCurrentPrompt } from '../data/journalPrompts';
 import { colors, spacing, radius } from '../theme';
 
@@ -27,12 +27,15 @@ export default function JournalScreen() {
 
   const [text,      setText]      = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const [blessLine, setBlessLine] = useState('');
   const fadeAnim  = useRef(new Animated.Value(1)).current;
   const thankAnim = useRef(new Animated.Value(0)).current;
 
   function handleSubmit() {
     if (!text.trim()) return;
     addJournalEntry(prompt.id, prompt.text, text.trim());
+    // A blessing in words after the truest thing is said — never numbers.
+    setBlessLine(JOURNAL_BLESS[Math.floor(Math.random() * JOURNAL_BLESS.length)] ?? '');
 
     Animated.sequence([
       Animated.timing(fadeAnim, { toValue: 0, duration: 300, useNativeDriver: true }),
@@ -81,6 +84,7 @@ export default function JournalScreen() {
               pointerEvents={submitted ? 'auto' : 'none'}
             >
               <Text style={styles.thankText}>Written.</Text>
+              {blessLine ? <Text style={styles.blessLine}>{blessLine}</Text> : null}
               <TouchableOpacity onPress={handleWriteMore} activeOpacity={0.7}>
                 <Text style={styles.writeMoreText}>Write again →</Text>
               </TouchableOpacity>
@@ -200,6 +204,15 @@ const styles = StyleSheet.create({
     fontFamily: 'Georgia',
     color:      colors.gold,
     fontStyle:  'italic',
+  },
+  blessLine: {
+    fontSize:   13,
+    fontFamily: 'Georgia',
+    fontStyle:  'italic',
+    color:      colors.textDim,
+    textAlign:  'center',
+    lineHeight: 20,
+    paddingHorizontal: spacing.md,
   },
   writeMoreText: {
     fontSize:   13,

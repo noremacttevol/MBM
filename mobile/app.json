@@ -29,8 +29,15 @@
       "expo-secure-store",
       [
         "expo-sqlite",
-        { "enableFTS": true }
+        {
+          "enableFTS": true
+        }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0f5ca732-8dd3-4223-a715-8252870bf85d"
+      }
+    }
   }
 }

@@ -1,16 +1,19 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons } from '@expo/vector-icons';
 
-import HookScreen    from '../screens/HookScreen';
-import OnboardScreen from '../screens/OnboardScreen';
-import FeedScreen    from '../screens/FeedScreen';
-import JournalScreen from '../screens/JournalScreen';
-import ChatScreen    from '../screens/ChatScreen';
-import ProfileScreen from '../screens/ProfileScreen';
-import ErrorBoundary from '../components/ErrorBoundary';
+import HookScreen        from '../screens/HookScreen';
+import OnboardScreen     from '../screens/OnboardScreen';
+import WelcomeBackScreen from '../screens/WelcomeBackScreen';
+import FeedScreen        from '../screens/FeedScreen';
+import JournalScreen     from '../screens/JournalScreen';
+import ChatScreen        from '../screens/ChatScreen';
+import ProfileScreen     from '../screens/ProfileScreen';
+import ErrorBoundary     from '../components/ErrorBoundary';
+import { useAppStore }   from '../store/useAppStore';
 import { colors } from '../theme';
 
 // Wraps a screen so a crash inside it shows a calm fallback instead of blanking
@@ -26,19 +29,21 @@ function guard<P extends object>(Component: React.ComponentType<P>, label: strin
   };
 }
 
-const GuardedHook    = guard(HookScreen,    'Hook');
-const GuardedOnboard = guard(OnboardScreen, 'Onboard');
-const GuardedFeed    = guard(FeedScreen,    'Feed');
-const GuardedJournal = guard(JournalScreen, 'Journal');
-const GuardedChat    = guard(ChatScreen,    'Chat');
-const GuardedProfile = guard(ProfileScreen, 'Profile');
+const GuardedHook        = guard(HookScreen,        'Hook');
+const GuardedOnboard     = guard(OnboardScreen,     'Onboard');
+const GuardedWelcomeBack = guard(WelcomeBackScreen, 'WelcomeBack');
+const GuardedFeed        = guard(FeedScreen,        'Feed');
+const GuardedJournal     = guard(JournalScreen,     'Journal');
+const GuardedChat        = guard(ChatScreen,        'Chat');
+const GuardedProfile     = guard(ProfileScreen,     'Profile');
 
 // ── Type maps ────────────────────────────────────────────────────────────────
 
 export type RootStackParamList = {
-  Hook:    undefined;
-  Onboard: undefined;
-  Main:    undefined;
+  Hook:        undefined;
+  Onboard:     undefined;
+  WelcomeBack: undefined;
+  Main:        undefined;
 };
 
 export type MainTabParamList = {
@@ -98,10 +103,27 @@ function MainTabs() {
 }
 
 export default function AppNavigator() {
+  // Wait for the persisted store to rehydrate before choosing the entry screen,
+  // so a returning person is met with WelcomeBack — never a cold restart (Law 5).
+  const [hydrated, setHydrated] = useState(() => useAppStore.persist.hasHydrated());
+
+  useEffect(() => {
+    const unsub = useAppStore.persist.onFinishHydration(() => setHydrated(true));
+    if (useAppStore.persist.hasHydrated()) setHydrated(true);
+    return unsub;
+  }, []);
+
+  if (!hydrated) {
+    return <View style={{ flex: 1, backgroundColor: colors.bg }} />;
+  }
+
+  const onboardingComplete = useAppStore.getState().onboardingComplete;
+  const initialRouteName: keyof RootStackParamList = onboardingComplete ? 'WelcomeBack' : 'Hook';
+
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="Hook"
+        initialRouteName={initialRouteName}
         screenOptions={{
           headerShown:    false,
           animation:      'fade',
@@ -109,9 +131,10 @@ export default function AppNavigator() {
           gestureEnabled: false,
         }}
       >
-        <Stack.Screen name="Hook"    component={GuardedHook} />
-        <Stack.Screen name="Onboard" component={GuardedOnboard} />
-        <Stack.Screen name="Main"    component={MainTabs} />
+        <Stack.Screen name="Hook"        component={GuardedHook} />
+        <Stack.Screen name="Onboard"     component={GuardedOnboard} />
+        <Stack.Screen name="WelcomeBack" component={GuardedWelcomeBack} />
+        <Stack.Screen name="Main"        component={MainTabs} />
       </Stack.Navigator>
     </NavigationContainer>
   );

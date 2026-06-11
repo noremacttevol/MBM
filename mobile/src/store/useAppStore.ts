@@ -18,7 +18,7 @@ import {
   assessJourney,
   assessConnection,
 } from '../engine/connect';
-import { MINISTER_SYSTEM_PROMPT } from '../engine/minister';
+import { MINISTER_SYSTEM_PROMPT, MINISTER_MODEL } from '../engine/minister';
 import {
   harvestSignals,
   stripSignalReport,
@@ -173,14 +173,51 @@ export interface SessionMemory {
   lastWords: string;  // the last thing they said, to gently recall on return
 }
 
-// ── Key proxy (the API key lives server-side, NEVER in the app) ───────────────
-// The bundled-API-key problem is gone: the app no longer holds the Anthropic key.
-// It talks to a small proxy that holds the key server-side and forwards to Claude.
-// SERVER_URL is read from EXPO_PUBLIC_SERVER_URL (mobile/.env).
-const SERVER_URL = (process.env.EXPO_PUBLIC_SERVER_URL ?? '').trim().replace(/\/+$/, '');
+// ── Anthropic (local-first: the app calls Claude directly) ───────────────────
+// Per CLAUDE.md the app is local-first and runs with no server terminal. The key
+// is read from EXPO_PUBLIC_ANTHROPIC_API_KEY (mobile/.env, which is gitignored).
+const ANTHROPIC_API_KEY = (process.env.EXPO_PUBLIC_ANTHROPIC_API_KEY ?? '').trim();
+const ANTHROPIC_URL     = 'https://api.anthropic.com/v1/messages';
+const ANTHROPIC_MODEL   = MINISTER_MODEL;
+const ANTHROPIC_VERSION = '2023-06-01';
+const MAX_REPLY_TOKENS  = 512;
 
 function generateId(): string {
   return Math.random().toString(36).slice(2) + Date.now().toString(36);
+}
+
+// Blessing pools — encouragement in WORDS, never numbers. The way Jesus affirmed
+// people: specific, warm, right after the reach. Ported verbatim from the prototype.
+export const BLESS_DIALOGUE = [
+  'Thank you for letting yourself be asked.',
+  'Most people never answer that honestly. You just did.',
+  'Your courage is showing.',
+  'Noticing that about yourself is its own kind of light.',
+];
+export const BLESS_HEART = [
+  'What moves you says something good about you.',
+  'Kept. What resonates with you is worth following.',
+  'Good eye. That one matters.',
+];
+export const JOURNAL_BLESS = [
+  'Some things only become clear once they are said. You just said one.',
+  'You said the true thing. That takes more courage than it looks.',
+  'That is yours now — named, and a little lighter for it.',
+];
+
+function pickLine(pool: string[]): string {
+  return pool[Math.floor(Math.random() * pool.length)] ?? '';
+}
+
+// Small, clamped trait nudge — the way the prototype's nudgedTraits worked.
+function nudgeTraits(scores: TraitScores, deltas: Partial<TraitScores>): TraitScores {
+  const next: TraitScores = { ...scores };
+  for (const [k, d] of Object.entries(deltas)) {
+    const key = k as keyof TraitScores;
+    const cur = next[key] ?? 5;
+    next[key] = Math.round(Math.max(TRAIT_MIN, Math.min(TRAIT_MAX, cur + (d ?? 0))) * 1000) / 1000;
+  }
+  return next;
 }
 
 // Merge newly-heard signals into the existing set without duplicates. The engine
@@ -235,10 +272,21 @@ interface AppState {
 
   // Spiritual exercises (invite → try → report → learn)
   activeExercise:      SpiritualExercise | null;
+  acceptedSession:     number | null;   // which session # the active exercise was accepted in
   doneExerciseIds:     string[];
+
+  // Session counter — increments once per app launch, so a follow-up becomes "due"
+  // only after the person went away and came back (prototype's `session`).
+  sessionCount:        number;
 
   // Return-visit memory (no cold restarts)
   session:             SessionMemory | null;
+
+  // A blessing toast — words only, shown briefly after a meaningful act.
+  blessing:            string | null;
+
+  // A draft pre-filled into Chat from a "Talk about it" / "Ask about this" tap.
+  chatDraft:           string;
 }
 
 interface AppActions {
@@ -249,6 +297,7 @@ interface AppActions {
   bookmark:            (id: number) => void;
   keepSimple:          () => void;
   goDeeper:            () => void;
+  refreshFeed:         () => void;
   resetSession:        () => void;
   answerQuestion:      (questionId: number, answerValue: string, answerText?: string) => void;
   addJournalEntry:     (promptId: string, promptText: string, text: string) => void;
@@ -257,10 +306,16 @@ interface AppActions {
   appendAssistantMessage: (text: string) => void;
   submitConnectRequest: (note: string) => void;
   setName:             (name: string) => void;
-  recordFaithBackground: (text: string) => void;
+  recordFaithBackground: (choiceKey: string, text: string) => void;
   addMoment:           (title: string, text: string) => void;
-  offerExercise:       () => SpiritualExercise | null;
-  completeExercise:    (id: string) => void;
+  acceptExercise:      (ex: SpiritualExercise) => void;
+  passExercise:        (ex: SpiritualExercise) => void;
+  answerFollowUp:      (value: 'something' | 'good' | 'nothing' | 'not_yet', note?: string) => void;
+  reflectOnContent:    (item: ContentItem, text: string) => void;
+  prefillChat:         (text: string) => void;
+  clearChatDraft:      () => void;
+  bless:               (pool: string[]) => void;
+  clearBlessing:       () => void;
 }
 
 // ── Initial state ─────────────────────────────────────────────────────────────
@@ -288,13 +343,17 @@ const initialState: AppState = {
   faithWords:          [],
   moments:             [],
   activeExercise:      null,
+  acceptedSession:     null,
   doneExerciseIds:     [],
+  sessionCount:        1,
   session:             null,
+  blessing:            null,
+  chatDraft:           '',
 };
 
 // ── Persisted state shape (Sets become arrays for JSON storage) ───────────────
 
-type PersistedState = Omit<AppState, 'seenIds' | 'openedIds' | 'chatLoading' | 'conversationId'> & {
+type PersistedState = Omit<AppState, 'seenIds' | 'openedIds' | 'chatLoading' | 'conversationId' | 'blessing'> & {
   conversationId: string;
   seenIds:   number[];
   openedIds: number[];
@@ -342,6 +401,13 @@ export const useAppStore = create<AppState & AppActions>()(
           answeredPromptIds:   [],
           chatMessages:        [],
           chatLoading:         false,
+          activeExercise:      null,
+          acceptedSession:     null,
+          doneExerciseIds:     [],
+          chatDraft:           '',
+          blessing:            null,
+          // YOUR STORY SO FAR begins the moment they walk in.
+          moments: [{ title: 'You walked in', text: 'You came, and you stayed long enough to be met.', ts: Date.now() }],
         });
       },
 
@@ -381,6 +447,7 @@ export const useAppStore = create<AppState & AppActions>()(
                                                                   : routeFeedTag(dialogueSignals);
         const feed = buildFeed(newTag, seenIds);
         set({ positiveCount: newCount, feedTag: newTag, feed });
+        get().bless(BLESS_HEART);
       },
 
       bookmark(id) {
@@ -405,6 +472,14 @@ export const useAppStore = create<AppState & AppActions>()(
         const newTag = deeperFeedTag(feedTag, dialogueSignals);
         const feed   = buildFeed(newTag, seenIds);
         set({ feedTag: newTag, feed, positiveCount: 0 });
+      },
+
+      refreshFeed() {
+        // "Show me more →" — rebuild WITHIN the current track only. Never a gate,
+        // never a jump: the same kind of content, freshly drawn. Routing stays
+        // invisible and obeys the milk law because the track does not change.
+        const { feedTag, seenIds } = get();
+        set({ feed: buildFeed(feedTag, seenIds) });
       },
 
       resetSession() {
@@ -492,6 +567,7 @@ export const useAppStore = create<AppState & AppActions>()(
           feed:                trackMoved ? buildFeed(nextTag, seenIds) : prevFeed,
           faithWords:          faithCapture ? [faithCapture, ...faithWords] : faithWords,
         });
+        get().bless(BLESS_DIALOGUE);
       },
 
       addJournalEntry(promptId, promptText, text) {
@@ -540,10 +616,9 @@ export const useAppStore = create<AppState & AppActions>()(
       },
 
       submitConnectRequest(note) {
-        // Capture the request ON-DEVICE first — the on-device queue is always the
-        // source of truth. Then fire-and-forget to the proxy's owner inbox so a
-        // real human actually receives it. The on-device entry's `delivered`
-        // flips true only when the proxy confirms 200.
+        // Capture the request ON-DEVICE. The on-device queue is the source of
+        // truth — Cameron reviews it in admin (Phase 1). A real human is always
+        // one tap away.
         const { dialogueSignals, conversationId } = get();
         const entry: ConnectRequest = {
           id:             generateId(),
@@ -554,33 +629,6 @@ export const useAppStore = create<AppState & AppActions>()(
           delivered:      false,
         };
         set(s => ({ connectRequests: [entry, ...s.connectRequests] }));
-
-        if (SERVER_URL) {
-          fetch(`${SERVER_URL}/api/connect`, {
-            method:  'POST',
-            headers: { 'content-type': 'application/json' },
-            body: JSON.stringify({
-              id:             entry.id,
-              note:           entry.note,
-              journeyStage:   entry.journeyStage,
-              conversationId: entry.conversationId,
-              timestamp:      entry.timestamp,
-            }),
-          })
-            .then(res => {
-              if (res.ok) {
-                set(s => ({
-                  connectRequests: s.connectRequests.map(r =>
-                    r.id === entry.id ? { ...r, delivered: true } : r,
-                  ),
-                }));
-              }
-            })
-            .catch(() => {
-              // Network down: the on-device queue keeps the request safe and a
-              // later session/admin sync can deliver it. Never lose it.
-            });
-        }
       },
 
       setName(name) {
@@ -588,28 +636,45 @@ export const useAppStore = create<AppState & AppActions>()(
         set({ name: clean.length ? clean : null });
       },
 
-      recordFaithBackground(text) {
-        // The FAITH BACKGROUND onboarding page: store the words VERBATIM, seed
-        // routing from what they said, and mark question 2.5 answered so the
-        // dialogue engine doesn't ask it again.
+      recordFaithBackground(choiceKey, text) {
+        // The FAITH BACKGROUND onboarding page (a disciple asks openly — Law 9,
+        // names no church for them). The chosen option seeds routing signals; the
+        // words are kept VERBATIM; question 2.5 is marked answered. Their own words
+        // can carry anything — including a legitimate member self-ID.
+        const FAITH_META: Record<string, { signals: string[]; label: string }> = {
+          active:       { signals: ['active_faith_tradition'], label: "I'm part of a church or faith community now." },
+          stepped_away: { signals: ['has_history_with_faith'], label: 'I grew up in one, but I have stepped away.' },
+          none:         { signals: [], label: "I've never really had one." },
+          complicated:  { signals: [], label: "It's complicated." },
+          private:      { signals: [], label: '' },
+        };
+        const meta  = FAITH_META[choiceKey] ?? FAITH_META.private;
         const clean = (text ?? '').trim();
-        if (!clean) return;
 
-        const heur          = harvestSignals(clean);
+        const faithSignals = [...meta.signals, ...(clean ? harvestSignals(clean) : [])];
         const { dialogueSignals, answeredQuestionIds, openedIds } = get();
-        const merged        = mergeSignals(dialogueSignals, heur);
-        const newAnswered   = answeredQuestionIds.includes(2.5)
-          ? answeredQuestionIds
-          : [...answeredQuestionIds, 2.5];
+        const merged = mergeSignals(dialogueSignals, faithSignals);
 
+        const newWords: FaithWord[] = [];
+        if (meta.label && choiceKey !== 'private') newWords.push({ text: meta.label, ts: Date.now() });
+        if (clean) newWords.push({ text: clean.slice(0, 140), ts: Date.now() });
+
+        const newAnswered = (choiceKey && choiceKey !== 'private' && !answeredQuestionIds.includes(2.5))
+          ? [...answeredQuestionIds, 2.5]
+          : answeredQuestionIds;
+
+        const momentDetail = `“${(clean || meta.label).slice(0, 90)}”`;
         const nextTag = routeFeedTag(merged);
         set(s => ({
-          faithWords:      [{ text: clean.slice(0, 140), ts: Date.now() }, ...s.faithWords],
+          faithWords:      [...newWords, ...s.faithWords],
           dialogueSignals: merged,
           answeredQuestionIds: newAnswered,
           feedTag:         nextTag,
           feed:            buildFeed(nextTag, s.seenIds),
           currentQuestion: computeNextQuestion(newAnswered, merged, openedIds.size),
+          moments: newWords.length > 0
+            ? [{ title: 'Your faith, as you told it', text: momentDetail, ts: Date.now() }, ...s.moments]
+            : s.moments,
         }));
       },
 
@@ -620,22 +685,135 @@ export const useAppStore = create<AppState & AppActions>()(
         set(s => ({ moments: [{ title: t || 'A moment', text: b, ts: Date.now() }, ...s.moments] }));
       },
 
-      offerExercise() {
-        // Invite → try → report → learn. Pick an exercise that fits the signals
-        // and hasn't been offered yet, and hold it as the active invitation.
-        const { dialogueSignals, doneExerciseIds } = get();
-        const ex = pickExercise(dialogueSignals, doneExerciseIds);
-        if (ex) set({ activeExercise: ex });
-        return ex;
+      acceptExercise(ex) {
+        // They said "I'll try it." Hold it as active, stamp the session it was
+        // accepted in (so a follow-up only becomes due on a LATER launch), and
+        // keep a moment of the step they took. Bless it — words only.
+        set(s => ({
+          activeExercise:  ex,
+          acceptedSession: s.sessionCount,
+          moments: [
+            { title: 'An invitation you accepted', text: `“${ex.text.slice(0, 80)}…”`, ts: Date.now() },
+            ...s.moments,
+          ],
+        }));
+        get().bless([
+          'That is the kind of step most people never take.',
+          'Quietly trying is its own kind of faith.',
+          'No one is watching. That is what makes it real.',
+        ]);
       },
 
-      completeExercise(id) {
+      passExercise(ex) {
+        // Left free, no guilt — just don't offer the same one again soon.
         set(s => ({
-          doneExerciseIds: s.doneExerciseIds.includes(id)
+          doneExerciseIds: s.doneExerciseIds.includes(ex.id)
             ? s.doneExerciseIds
-            : [...s.doneExerciseIds, id],
-          activeExercise: s.activeExercise?.id === id ? null : s.activeExercise,
+            : [...s.doneExerciseIds, ex.id],
         }));
+      },
+
+      answerFollowUp(value, note) {
+        const { activeExercise, doneExerciseIds, traitScores, dialogueSignals,
+                feedTag: prevTag, seenIds, feed: prevFeed, sessionCount } = get();
+        const ex = activeExercise;
+        if (!ex) return;
+        const trimmed = (note ?? '').trim();
+
+        if (value === 'not_yet') {
+          // No rush — re-arm it for next time, gentle nudge to sincerity.
+          set({
+            activeExercise:  ex,
+            acceptedSession: sessionCount,
+            traitScores:     nudgeTraits(traitScores, { sincerity: 0.05 }),
+          });
+          get().bless(['No rush. It will keep.']);
+          return;
+        }
+
+        const OUTCOME: Record<string, { signals: string[]; traits: Partial<TraitScores>; detail: string }> = {
+          something: { signals: ['had_spiritual_experience', 'open_to_god'], traits: { openness: 0.35, hunger: 0.3, sincerity: 0.2 }, detail: 'Something came back you could not quite name.' },
+          good:      { signals: ['open_to_god'], traits: { sincerity: 0.25, openness: 0.2 }, detail: 'Quieter than expected — but good.' },
+          nothing:   { signals: [], traits: { honest_inquiry: 0.3, courage: 0.2 }, detail: 'Nothing came back — and you said so honestly.' },
+        };
+        const o      = OUTCOME[value] ?? OUTCOME.nothing;
+        const detail = trimmed ? `“${trimmed.slice(0, 90)}${trimmed.length > 90 ? '…' : ''}”` : o.detail;
+
+        // Their own words about what came back are the richest signal of all.
+        const heard    = mergeSignals(dialogueSignals, [...o.signals, ...harvestSignals(trimmed)]);
+        const nextTag  = routeFeedTag(heard);
+        const moved    = nextTag !== prevTag;
+        const traitDeltas = trimmed ? { ...o.traits, sincerity: (o.traits.sincerity ?? 0) + 0.1 } : o.traits;
+
+        set(s => ({
+          activeExercise:  null,
+          acceptedSession: null,
+          doneExerciseIds: s.doneExerciseIds.includes(ex.id) ? s.doneExerciseIds : [...s.doneExerciseIds, ex.id],
+          dialogueSignals: heard,
+          traitScores:     nudgeTraits(traitScores, traitDeltas),
+          feedTag:         moved ? nextTag : prevTag,
+          feed:            moved ? buildFeed(nextTag, seenIds) : prevFeed,
+          moments: [
+            { title: `You tried it: ${ex.ref.split(' —')[0]}`, text: detail, ts: Date.now() },
+            ...s.moments,
+          ],
+        }));
+
+        get().bless(value === 'nothing'
+          ? ['Honest nothing is worth more than a performed something.', 'Thank you for telling the truth about it.']
+          : ['Pay attention to that. It usually is not nothing.', 'Worth keeping. Worth following.']);
+      },
+
+      reflectOnContent(item, text) {
+        // "Reflect on this →" — save the reflection to the journal, keep a moment,
+        // harvest its signals, and bless. The truest things are said quietly.
+        const t = (text ?? '').trim();
+        if (!t) return;
+        const entry: JournalEntry = {
+          id:         Date.now().toString(),
+          promptId:   'content_' + item.id,
+          promptText: `Reflecting on “${item.title}” (${item.scriptureRef})`,
+          text:       t,
+          timestamp:  Date.now(),
+        };
+        const { traitScores, dialogueSignals, feedTag: prevTag, seenIds, feed: prevFeed } = get();
+        const heard   = mergeSignals(dialogueSignals, harvestSignals(t));
+        const nextTag = routeFeedTag(heard);
+        const moved   = nextTag !== prevTag;
+        set(s => ({
+          journalEntries:  [entry, ...s.journalEntries],
+          dialogueSignals: heard,
+          traitScores:     nudgeTraits(traitScores, { sincerity: 0.2, hunger: 0.1 }),
+          feedTag:         moved ? nextTag : prevTag,
+          feed:            moved ? buildFeed(nextTag, seenIds) : prevFeed,
+          moments: [
+            { title: `You sat with “${item.title}”`, text: `“${t.slice(0, 80)}${t.length > 80 ? '…' : ''}”`, ts: Date.now() },
+            ...s.moments,
+          ],
+        }));
+        get().bless(['Kept — in your journal now.', 'Sitting with a thing is how it takes root.']);
+      },
+
+      prefillChat(text) {
+        set({ chatDraft: text });
+      },
+
+      clearChatDraft() {
+        set({ chatDraft: '' });
+      },
+
+      bless(pool) {
+        const line = pickLine(pool);
+        if (!line) return;
+        set({ blessing: line });
+        setTimeout(() => {
+          // Only clear if this same blessing is still showing.
+          if (get().blessing === line) set({ blessing: null });
+        }, 3400);
+      },
+
+      clearBlessing() {
+        set({ blessing: null });
       },
 
       async sendChatMessage(text) {
@@ -790,7 +968,7 @@ ${guidance}${SIGNAL_REPORT_INSTRUCTION}`;
           content: m.text,
         }));
 
-        if (!SERVER_URL) {
+        if (!ANTHROPIC_API_KEY) {
           get().appendAssistantMessage(
             "I'm not connected to my voice right now. Whatever you were thinking — it's worth writing down in the journal while you wait.",
           );
@@ -798,18 +976,35 @@ ${guidance}${SIGNAL_REPORT_INSTRUCTION}`;
         }
 
         try {
-          // ── Call the key proxy (the API key never leaves the server) ───────
-          const response = await fetch(`${SERVER_URL}/api/chat`, {
+          // ── Call Anthropic directly (local-first) ─────────────────────────
+          const response = await fetch(ANTHROPIC_URL, {
             method:  'POST',
-            headers: { 'content-type': 'application/json' },
-            body: JSON.stringify({ system: systemPrompt, messages: history }),
+            headers: {
+              'content-type':                        'application/json',
+              'x-api-key':                           ANTHROPIC_API_KEY,
+              'anthropic-version':                   ANTHROPIC_VERSION,
+              'anthropic-dangerous-direct-browser-access': 'true',
+            },
+            body: JSON.stringify({
+              model:      ANTHROPIC_MODEL,
+              max_tokens: MAX_REPLY_TOKENS,
+              system:     systemPrompt,
+              messages:   history,
+            }),
           });
 
           if (!response.ok) {
-            throw new Error('proxy ' + response.status);
+            throw new Error('anthropic ' + response.status);
           }
 
-          const { text: rawReply } = await response.json();
+          const data = await response.json();
+          const rawReply = Array.isArray(data?.content)
+            ? data.content
+                .filter((b: any) => b?.type === 'text')
+                .map((b: any) => b?.text ?? '')
+                .join('')
+                .trim()
+            : '';
 
           // ── The ear, part two: strip the model's hidden signal report and
           // fold what it heard into the engine. The gate can open right here.
@@ -873,7 +1068,10 @@ ${guidance}${SIGNAL_REPORT_INSTRUCTION}`;
         faithWords:          state.faithWords,
         moments:             state.moments,
         activeExercise:      state.activeExercise,
+        acceptedSession:     state.acceptedSession,
         doneExerciseIds:     state.doneExerciseIds,
+        sessionCount:        state.sessionCount,
+        chatDraft:           state.chatDraft,
         session:             state.session,
       }),
       // Convert arrays back to Sets when rehydrating, and SELF-HEAL the routing:
@@ -913,6 +1111,10 @@ ${guidance}${SIGNAL_REPORT_INSTRUCTION}`;
           seenIds:    seenSet,
           openedIds:  new Set<number>((p.openedIds as number[] | undefined) ?? []),
           chatLoading: false, // never persist a loading spinner
+          blessing:    null,  // never restore a stale toast
+          // A new launch is a new session — a follow-up only becomes "due" after
+          // the person went away and came back (prototype's session counter).
+          sessionCount: ((p.sessionCount as number | undefined) ?? 1) + 1,
         };
       },
     },

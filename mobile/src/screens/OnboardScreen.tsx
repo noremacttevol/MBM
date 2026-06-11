@@ -376,15 +376,28 @@ function pickStory(): Story {
   return STORIES[Math.floor(Math.random() * STORIES.length)];
 }
 
+// ── Faith background page ───────────────────────────────────────────────────
+// A disciple asks openly where faith lives for them — naming no church for them
+// (Law 9). Their own words can carry anything, including a member self-ID.
+const FAITH_OPTIONS: { key: string; text: string }[] = [
+  { key: 'active',       text: "I'm part of a church or faith community now." },
+  { key: 'stepped_away', text: 'I grew up in one, but I have stepped away.' },
+  { key: 'none',         text: "I've never really had one." },
+  { key: 'complicated',  text: "It's complicated." },
+  { key: 'private',      text: "I'd rather not say." },
+];
+
 // ── Screen ────────────────────────────────────────────────────────────────────
 
 // The opening welcome now lives on the Hook screen (the single front door), so
 // onboarding begins directly with the story — no second "you are welcome here"
 // screen repeating what the Hook already said.
-type Phase = 'story' | 'question' | 'reflection';
+type Phase = 'story' | 'question' | 'reflection' | 'faith';
 
 export default function OnboardScreen({ navigation }: Props) {
-  const completeOnboarding = useAppStore(s => s.completeOnboarding);
+  const completeOnboarding    = useAppStore(s => s.completeOnboarding);
+  const setName               = useAppStore(s => s.setName);
+  const recordFaithBackground = useAppStore(s => s.recordFaithBackground);
 
   const [phase,       setPhase]       = useState<Phase>('story');
   const [story]                       = useState<Story>(pickStory);
@@ -392,6 +405,11 @@ export default function OnboardScreen({ navigation }: Props) {
   const [freeText,    setFreeText]    = useState('');
   const [showFree,    setShowFree]    = useState(false);
   const [reflection,  setReflection]  = useState('');
+
+  // Reflection-step name + the dedicated faith-background page.
+  const [nameDraft,   setNameDraft]   = useState('');
+  const [faithChoice, setFaithChoice] = useState<string | null>(null);
+  const [faithText,   setFaithText]   = useState('');
 
   const fadeAnim  = useRef(new Animated.Value(0)).current;
   const slideAnim = useRef(new Animated.Value(24)).current;
@@ -430,6 +448,10 @@ export default function OnboardScreen({ navigation }: Props) {
   }
 
   function handleEnter() {
+    // The faith page is the final step — a choice must be made (even "I'd rather
+    // not say") before entering, matching the prototype's onFaithEnter guard.
+    if (!faithChoice) return;
+
     if (selectedKey === 'E') {
       completeOnboarding('E', freeText, undefined, undefined);
     } else {
@@ -438,6 +460,11 @@ export default function OnboardScreen({ navigation }: Props) {
       // connection ladder receive what the person revealed from screen one.
       completeOnboarding(choice.key, undefined, choice.feedTag, choice.signal);
     }
+    // Their name, then their faith in their own words — both fold into the engine
+    // AFTER onboarding resets state, so they survive into the app.
+    if (nameDraft.trim()) setName(nameDraft.trim());
+    recordFaithBackground(faithChoice, faithText);
+
     navigation.replace('Main');
   }
 
@@ -537,24 +564,116 @@ export default function OnboardScreen({ navigation }: Props) {
     );
   }
 
+  // ── FAITH BACKGROUND ───────────────────────────────────────────────────────
+  if (phase === 'faith') {
+    return (
+      <KeyboardAvoidingView
+        style={{ flex: 1, backgroundColor: colors.bg }}
+        behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+      >
+        <ScrollView
+          style={styles.scroll}
+          contentContainerStyle={styles.scrollContent}
+          keyboardShouldPersistTaps="handled"
+        >
+          <StatusBar style="light" />
+          <Animated.View style={animStyle}>
+            <Text style={styles.faithIntro}>
+              One more thing — so we can walk with you honestly.
+            </Text>
+            <Text style={styles.faithQuestion}>
+              Where does faith live for you — today, or in your past?
+            </Text>
+
+            <View style={styles.choices}>
+              {FAITH_OPTIONS.map(opt => {
+                const selected = faithChoice === opt.key;
+                return (
+                  <TouchableOpacity
+                    key={opt.key}
+                    style={[styles.faithOptBtn, selected && styles.faithOptBtnSelected]}
+                    activeOpacity={0.7}
+                    onPress={() => setFaithChoice(opt.key)}
+                  >
+                    <Text style={[styles.faithOptText, selected && styles.faithOptTextSelected]}>
+                      {opt.text}
+                    </Text>
+                  </TouchableOpacity>
+                );
+              })}
+            </View>
+
+            <Text style={styles.faithHint}>
+              If you'd like, name it — which church or tradition, and what it has
+              been like for you. Your words stay yours.
+            </Text>
+            <TextInput
+              style={styles.faithInput}
+              placeholder="e.g. raised Baptist… Catholic, but drifting… never had one…"
+              placeholderTextColor={colors.textMuted}
+              multiline
+              numberOfLines={4}
+              maxLength={400}
+              value={faithText}
+              onChangeText={setFaithText}
+              textAlignVertical="top"
+            />
+
+            <TouchableOpacity
+              style={[styles.primaryBtn, !faithChoice && styles.primaryBtnDisabled]}
+              activeOpacity={0.75}
+              disabled={!faithChoice}
+              onPress={handleEnter}
+            >
+              <Text style={styles.primaryBtnText}>Enter →</Text>
+            </TouchableOpacity>
+          </Animated.View>
+        </ScrollView>
+      </KeyboardAvoidingView>
+    );
+  }
+
   // ── REFLECTION ─────────────────────────────────────────────────────────────
   return (
-    <ScrollView style={styles.scroll} contentContainerStyle={styles.scrollContent}>
-      <StatusBar style="light" />
-      <Animated.View style={animStyle}>
-        <Text style={styles.reflectionText}>{reflection}</Text>
-        <Text style={styles.reflectionCoda}>
-          That is where we start.{'\n'}Not with a statement. With you.
-        </Text>
-        <TouchableOpacity
-          style={styles.primaryBtn}
-          activeOpacity={0.75}
-          onPress={handleEnter}
-        >
-          <Text style={styles.primaryBtnText}>Enter →</Text>
-        </TouchableOpacity>
-      </Animated.View>
-    </ScrollView>
+    <KeyboardAvoidingView
+      style={{ flex: 1, backgroundColor: colors.bg }}
+      behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+    >
+      <ScrollView
+        style={styles.scroll}
+        contentContainerStyle={styles.scrollContent}
+        keyboardShouldPersistTaps="handled"
+      >
+        <StatusBar style="light" />
+        <Animated.View style={animStyle}>
+          <Text style={styles.reflectionText}>{reflection}</Text>
+          <Text style={styles.reflectionCoda}>
+            That is where we start.{'\n'}Not with a statement. With you.
+          </Text>
+
+          <Text style={styles.nameHint}>
+            If you'd like, tell us what to call you. A first name is plenty — or skip it.
+          </Text>
+          <TextInput
+            style={styles.nameInput}
+            placeholder="Your name (optional)"
+            placeholderTextColor={colors.textMuted}
+            maxLength={40}
+            value={nameDraft}
+            onChangeText={setNameDraft}
+            autoCapitalize="words"
+          />
+
+          <TouchableOpacity
+            style={styles.primaryBtn}
+            activeOpacity={0.75}
+            onPress={() => setPhase('faith')}
+          >
+            <Text style={styles.primaryBtnText}>Continue →</Text>
+          </TouchableOpacity>
+        </Animated.View>
+      </ScrollView>
+    </KeyboardAvoidingView>
   );
 }
 
@@ -636,5 +755,43 @@ const styles = StyleSheet.create({
   reflectionCoda: {
     fontSize: 14, fontFamily: 'Georgia', color: colors.textMuted,
     lineHeight: 22, marginBottom: spacing.lg,
+  },
+
+  nameHint: {
+    fontSize: 13, fontFamily: 'Georgia', fontStyle: 'italic',
+    color: colors.textMuted, lineHeight: 20, marginBottom: spacing.sm,
+  },
+  nameInput: {
+    backgroundColor: colors.bgInput, borderWidth: 1, borderColor: colors.borderDim,
+    borderRadius: radius.md, color: colors.textMid, fontSize: 15,
+    fontFamily: 'Georgia', paddingVertical: 12, paddingHorizontal: 14,
+    alignSelf: 'flex-start', minWidth: 220,
+  },
+
+  faithIntro: {
+    fontSize: 18, fontFamily: 'Georgia', color: colors.text,
+    lineHeight: 30, marginBottom: spacing.sm, fontStyle: 'italic',
+  },
+  faithQuestion: {
+    fontSize: 15, fontFamily: 'Georgia', color: colors.textDim,
+    lineHeight: 24, marginBottom: spacing.lg,
+  },
+  faithOptBtn: {
+    backgroundColor: colors.bgInput, borderWidth: 1, borderColor: colors.borderDim,
+    borderRadius: radius.md, paddingVertical: 14, paddingHorizontal: 18,
+  },
+  faithOptBtnSelected: { borderColor: colors.gold },
+  faithOptText: {
+    fontSize: 14, fontFamily: 'Georgia', color: colors.textMid, lineHeight: 22,
+  },
+  faithOptTextSelected: { color: colors.gold },
+  faithHint: {
+    fontSize: 13, fontFamily: 'Georgia', fontStyle: 'italic',
+    color: colors.textMuted, lineHeight: 20, marginTop: spacing.md, marginBottom: spacing.sm,
+  },
+  faithInput: {
+    backgroundColor: colors.bgInput, borderWidth: 1, borderColor: colors.borderDim,
+    borderRadius: radius.md, color: colors.textMid, fontSize: 14,
+    fontFamily: 'Georgia', padding: 12, minHeight: 84, lineHeight: 22,
   },
 });

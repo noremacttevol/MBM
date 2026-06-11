@@ -1,13 +1,24 @@
+/**
+ * ProfileScreen — a mirror of the person's own words + their growing virtues.
+ *
+ * Owner amendments (Law 4): routing state — the feed track, the milk gate, the
+ * count of active signals — is OWNER-ONLY, forever. None of it appears here.
+ * What the person sees is theirs: what we sense about them, the virtues growing
+ * in them, their faith in their own words, and the story they have told so far.
+ */
+
 import React from 'react';
 import {
   View,
   Text,
   ScrollView,
+  TouchableOpacity,
   StyleSheet,
   SafeAreaView,
 } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import { useAppStore } from '../store/useAppStore';
+import { useNavigation } from '@react-navigation/native';
+import { useAppStore, isMemberSignal } from '../store/useAppStore';
 import { TraitKey } from '../data/questionBank';
 import { colors, spacing, radius } from '../theme';
 
@@ -49,6 +60,7 @@ function interpretTraits(scores: Record<TraitKey, number>, feedTag: string): str
     .slice(0, 2)
     .map(t => TRAIT_LABELS[t.key].toLowerCase());
 
+  // Internal routing context only — the tag name is NEVER shown to the person.
   const tagContext: Record<string, string> = {
     MILK:        'You seem to be someone who has felt something — in a quiet moment, in a loss, in the way beauty sometimes arrives uninvited.',
     BRIDGE:      'You carry real questions and you take them seriously. That kind of honesty is rarer than it looks.',
@@ -80,22 +92,41 @@ function interpretTraits(scores: Record<TraitKey, number>, feedTag: string): str
   return `${opening} ${traitLine} ${closing}`;
 }
 
+// "A faith you grew up in…" — describes their faith from signals WITHOUT ever
+// naming a track or a category to them. Member self-ID is honored, in their words.
+function faithStatusLine(signals: string[]): string {
+  if (isMemberSignal(signals)) return 'A Latter-day Saint — you told us yourself.';
+  if (signals.includes('active_faith_tradition')) return 'Part of a faith community today — in your words below.';
+  if (signals.includes('has_history_with_faith')) return 'A faith you grew up in, at some distance now — in your words below.';
+  return 'Still taking shape — in your words below.';
+}
+
+function fmtDate(ts: number): string {
+  return new Date(ts).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
+
 export default function ProfileScreen() {
-  const traitScores        = useAppStore(s => s.traitScores);
-  const feedTag            = useAppStore(s => s.feedTag);
-  const openedIds          = useAppStore(s => s.openedIds);
+  const traitScores         = useAppStore(s => s.traitScores);
+  const feedTag             = useAppStore(s => s.feedTag);
+  const openedIds           = useAppStore(s => s.openedIds);
   const answeredQuestionIds = useAppStore(s => s.answeredQuestionIds);
-  const journalEntries     = useAppStore(s => s.journalEntries);
-  const dialogueSignals    = useAppStore(s => s.dialogueSignals);
+  const journalEntries      = useAppStore(s => s.journalEntries);
+  const dialogueSignals     = useAppStore(s => s.dialogueSignals);
+  const faithWords          = useAppStore(s => s.faithWords);
+  const moments             = useAppStore(s => s.moments);
+  const prefillChat         = useAppStore(s => s.prefillChat);
+
+  const navigation = useNavigation<any>();
 
   const interpretation = interpretTraits(traitScores, feedTag);
+  const hasFaithWords  = faithWords.length > 0 || isMemberSignal(dialogueSignals);
 
-  const TAG_LABEL: Record<string, string> = {
-    MILK:        'Foundation',
-    BRIDGE:      'Evidence',
-    RESTORATION: 'The Restoration',
-    MAINTENANCE: 'Discipleship',
-  };
+  function askAbout(title: string) {
+    prefillChat(
+      `I want to ask about something from my story here — ${title} — what did you make of that about me?`,
+    );
+    navigation.navigate('Chat');
+  }
 
   return (
     <SafeAreaView style={styles.safe}>
@@ -106,25 +137,38 @@ export default function ProfileScreen() {
         contentContainerStyle={styles.container}
         showsVerticalScrollIndicator={false}
       >
-        {/* ── Header ──────────────────────────────────────────────────── */}
         <Text style={styles.header}>Your journey</Text>
 
-        {/* ── AI interpretation paragraph ─────────────────────────────── */}
-        <View style={styles.interpretCard}>
-          <Text style={styles.interpretLabel}>WHAT WE SENSE ABOUT YOU</Text>
+        {/* ── WHAT WE SENSE ABOUT YOU ─────────────────────────────────── */}
+        <View style={styles.card}>
+          <Text style={styles.sectionLabel}>WHAT WE SENSE ABOUT YOU</Text>
           <Text style={styles.interpretText}>{interpretation}</Text>
         </View>
 
-        {/* ── Trait bars ──────────────────────────────────────────────── */}
-        <View style={styles.traitsCard}>
-          <Text style={styles.sectionLabel}>SPIRITUAL TRAITS</Text>
+        {/* ── YOUR FAITH, AS YOU'VE TOLD IT ───────────────────────────── */}
+        {hasFaithWords && (
+          <View style={styles.card}>
+            <Text style={styles.sectionLabel}>YOUR FAITH, AS YOU'VE TOLD IT</Text>
+            <Text style={styles.faithStatus}>{faithStatusLine(dialogueSignals)}</Text>
+            {faithWords.map((w, i) => (
+              <View key={`${w.ts}-${i}`} style={styles.faithRow}>
+                <Text style={styles.faithWordText}>"{w.text}"</Text>
+                <Text style={styles.faithWordDate}>{fmtDate(w.ts)}</Text>
+              </View>
+            ))}
+          </View>
+        )}
+
+        {/* ── WHAT'S GROWING IN YOU (the virtues belong to the person) ─── */}
+        <View style={styles.card}>
+          <Text style={styles.sectionLabel}>WHAT'S GROWING IN YOU</Text>
           <Text style={styles.sectionNote}>
-            Built from your dialogue answers. Updates as you engage.
+            These are yours — they grow as you engage honestly. There is no score to beat.
           </Text>
 
           {TRAIT_ORDER.map(key => {
-            const score  = traitScores[key] ?? 5;
-            const pct    = Math.round((score / 10) * 100);
+            const score = traitScores[key] ?? 5;
+            const pct   = Math.round((score / 10) * 100);
             return (
               <View key={key} style={styles.traitRow}>
                 <View style={styles.traitMeta}>
@@ -140,6 +184,28 @@ export default function ProfileScreen() {
           })}
         </View>
 
+        {/* ── YOUR STORY SO FAR ───────────────────────────────────────── */}
+        {moments.length > 0 && (
+          <View style={styles.card}>
+            <Text style={styles.sectionLabel}>YOUR STORY SO FAR</Text>
+            <Text style={styles.sectionNote}>
+              Every step you've taken here, kept for you. Ask about any of them.
+            </Text>
+            {moments.map((m, i) => (
+              <View key={`${m.ts}-${i}`} style={styles.momentRow}>
+                <View style={styles.momentHead}>
+                  <Text style={styles.momentTitle}>{m.title}</Text>
+                  <Text style={styles.momentDate}>{fmtDate(m.ts)}</Text>
+                </View>
+                <Text style={styles.momentDetail}>{m.text}</Text>
+                <TouchableOpacity activeOpacity={0.7} onPress={() => askAbout(m.title)}>
+                  <Text style={styles.askText}>Ask about this →</Text>
+                </TouchableOpacity>
+              </View>
+            ))}
+          </View>
+        )}
+
         {/* ── Session stats ───────────────────────────────────────────── */}
         <View style={styles.statsRow}>
           <View style={styles.statCard}>
@@ -154,17 +220,6 @@ export default function ProfileScreen() {
             <Text style={styles.statValue}>{journalEntries.length}</Text>
             <Text style={styles.statLabel}>Journal entries</Text>
           </View>
-        </View>
-
-        {/* ── Current feed tier ───────────────────────────────────────── */}
-        <View style={styles.tierCard}>
-          <Text style={styles.tierLabel}>CURRENT PATHWAY</Text>
-          <Text style={styles.tierValue}>{TAG_LABEL[feedTag] ?? feedTag}</Text>
-          {dialogueSignals.length > 0 && (
-            <Text style={styles.tierNote}>
-              {dialogueSignals.length} signal{dialogueSignals.length !== 1 ? 's' : ''} active
-            </Text>
-          )}
         </View>
 
         {/* ── Footer note ─────────────────────────────────────────────── */}
@@ -198,30 +253,7 @@ const styles = StyleSheet.create({
     marginBottom: spacing.lg,
   },
 
-  interpretCard: {
-    borderWidth:     1,
-    borderColor:     colors.borderDim,
-    backgroundColor: colors.bgCard,
-    borderRadius:    radius.lg,
-    padding:         spacing.md,
-    marginBottom:    spacing.md,
-  },
-  interpretLabel: {
-    fontSize:      10,
-    letterSpacing: 1.5,
-    color:         colors.textMuted,
-    fontFamily:    'Georgia',
-    marginBottom:  spacing.sm,
-  },
-  interpretText: {
-    fontSize:   15,
-    fontFamily: 'Georgia',
-    color:      colors.textDim,
-    lineHeight: 24,
-    fontStyle:  'italic',
-  },
-
-  traitsCard: {
+  card: {
     borderWidth:     1,
     borderColor:     colors.borderDim,
     backgroundColor: colors.bgCard,
@@ -234,14 +266,48 @@ const styles = StyleSheet.create({
     letterSpacing: 1.5,
     color:         colors.textMuted,
     fontFamily:    'Georgia',
-    marginBottom:  spacing.xs,
+    marginBottom:  spacing.sm,
   },
   sectionNote: {
     fontSize:     11,
     fontFamily:   'Georgia',
     fontStyle:    'italic',
     color:        colors.textMuted,
+    lineHeight:   17,
     marginBottom: spacing.md,
+  },
+  interpretText: {
+    fontSize:   15,
+    fontFamily: 'Georgia',
+    color:      colors.textDim,
+    lineHeight: 24,
+    fontStyle:  'italic',
+  },
+
+  faithStatus: {
+    fontSize:     14,
+    fontFamily:   'Georgia',
+    color:        colors.textMid,
+    lineHeight:   22,
+    marginBottom: spacing.sm,
+  },
+  faithRow: {
+    borderTopWidth: 1,
+    borderTopColor: colors.border,
+    paddingVertical: spacing.sm,
+  },
+  faithWordText: {
+    fontSize:   13,
+    fontFamily: 'Georgia',
+    color:      colors.textDim,
+    lineHeight: 20,
+    fontStyle:  'italic',
+  },
+  faithWordDate: {
+    fontSize:  10,
+    fontFamily: 'Georgia',
+    color:     colors.textMuted,
+    marginTop: 2,
   },
 
   traitRow: {
@@ -250,9 +316,7 @@ const styles = StyleSheet.create({
     marginBottom:  spacing.sm + 2,
     gap:           spacing.sm,
   },
-  traitMeta: {
-    width: 110,
-  },
+  traitMeta: { width: 110 },
   traitName: {
     fontSize:   12,
     fontFamily: 'Georgia',
@@ -285,6 +349,45 @@ const styles = StyleSheet.create({
     textAlign:  'right',
   },
 
+  momentRow: {
+    borderTopWidth:  1,
+    borderTopColor:  colors.border,
+    paddingVertical: spacing.sm + 4,
+  },
+  momentHead: {
+    flexDirection:  'row',
+    justifyContent: 'space-between',
+    gap:            spacing.sm,
+    marginBottom:   spacing.xs,
+  },
+  momentTitle: {
+    flex:       1,
+    fontSize:   13,
+    fontFamily: 'Georgia',
+    color:      colors.textMid,
+    lineHeight: 19,
+  },
+  momentDate: {
+    fontSize:  10,
+    fontFamily: 'Georgia',
+    color:     colors.textMuted,
+    paddingTop: 3,
+  },
+  momentDetail: {
+    fontSize:   12,
+    fontFamily: 'Georgia',
+    color:      colors.textDim,
+    lineHeight: 18,
+    fontStyle:  'italic',
+    marginBottom: 6,
+  },
+  askText: {
+    fontSize:   11,
+    fontFamily: 'Georgia',
+    fontStyle:  'italic',
+    color:      colors.blue,
+  },
+
   statsRow: {
     flexDirection: 'row',
     gap:           spacing.sm,
@@ -310,34 +413,6 @@ const styles = StyleSheet.create({
     fontFamily: 'Georgia',
     color:      colors.textMuted,
     textAlign:  'center',
-  },
-
-  tierCard: {
-    borderWidth:     1,
-    borderColor:     colors.borderDim,
-    backgroundColor: colors.bgCard,
-    borderRadius:    radius.md,
-    padding:         spacing.md,
-    marginBottom:    spacing.md,
-  },
-  tierLabel: {
-    fontSize:      10,
-    letterSpacing: 1.5,
-    color:         colors.textMuted,
-    fontFamily:    'Georgia',
-    marginBottom:  spacing.xs,
-  },
-  tierValue: {
-    fontSize:   16,
-    fontFamily: 'Georgia',
-    color:      colors.gold,
-  },
-  tierNote: {
-    fontSize:   11,
-    fontFamily: 'Georgia',
-    color:      colors.textMuted,
-    marginTop:  spacing.xs,
-    fontStyle:  'italic',
   },
 
   footerNote: {

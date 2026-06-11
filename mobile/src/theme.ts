@@ -10,6 +10,7 @@ export const colors = {
   textMuted:   '#5a5240',
   gold:        '#d4c89a',
   goldLight:   '#f0e6c8',
+  onAccent:    '#15110a',
   green:       '#7ab87a',
   redDim:      '#8a4a40',
   blue:        '#6a9ab0',

@@ -33,11 +33,12 @@ milk-before-meat law.
 - `data/questionBank.ts` — targeted dialogue routing (background → picture of God
   → God still speaks → the reach).
 
-**The key proxy** (`server/`) — Express. Holds the Anthropic key server-side so
-it never ships in the app. Endpoints: `POST /api/chat`, `POST /api/connect`,
-`POST /api/factcheck`, `GET /api/admin/queue` (token-protected), `GET /health`.
-Connect requests land in the owner inbox — "a human one tap away" is delivered,
-not just captured.
+**Anthropic transport (local-first)** — Per CLAUDE.md the app is local-first and
+runs with no server terminal. The store calls Anthropic directly using
+`EXPO_PUBLIC_ANTHROPIC_API_KEY` from `mobile/.env` (gitignored, never committed).
+Connect requests are captured on-device and reviewed by Cameron in admin
+(Phase 1). The `server/` proxy is kept in the repo as an optional Phase-2 path
+but is not used by the shipping app.
 
 ## Verification
 
@@ -48,11 +49,14 @@ not just captured.
 
 ## What still needs an account (owner-only)
 
-1. **Deploy the proxy** (`server/`) to Railway/Render/Fly and set env vars
-   `ANTHROPIC_API_KEY` and `ADMIN_TOKEN`. Then set
-   `EXPO_PUBLIC_SERVER_URL` in `mobile/.env` to the deployed URL.
-2. **Build the APK** with EAS cloud build (`npx eas-cli login` then
-   `npx eas-cli build -p android --profile preview`).
+1. **Build the APK** with EAS cloud build. Run these from inside the mobile
+   folder (this is where the earlier build failed — it was run from `~`):
+
+   ```
+   cd ~/Desktop/Brain/MBM/mobile
+   npx eas-cli login
+   npx eas-cli build -p android --profile preview
+   ```
 
 ## Layout
 

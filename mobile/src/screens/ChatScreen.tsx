@@ -2,11 +2,12 @@ import React, { useState, useRef, useEffect } from 'react';
 import {
   View, Text, TextInput, TouchableOpacity, ScrollView,
   StyleSheet, SafeAreaView, KeyboardAvoidingView, Platform,
-  ActivityIndicator, Linking, Alert,
+  ActivityIndicator, Alert,
 } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { useAppStore } from '../store/useAppStore';
-import { humanContactMailto } from '../engine/connect';
+import ConnectCard from '../components/ConnectCard';
+import BlessingToast from '../components/BlessingToast';
 import { colors, spacing, radius } from '../theme';
 
 // Server URL — same as store
@@ -17,14 +18,26 @@ export default function ChatScreen() {
   const chatMessages    = useAppStore(s => s.chatMessages);
   const chatLoading     = useAppStore(s => s.chatLoading);
   const sendChatMessage = useAppStore(s => s.sendChatMessage);
+  const chatDraft       = useAppStore(s => s.chatDraft);
+  const clearChatDraft  = useAppStore(s => s.clearChatDraft);
 
   const [draft,          setDraft]          = useState('');
   const [submittingFC,   setSubmittingFC]   = useState(false);
+  const [showConnect,    setShowConnect]    = useState(false);
   const scrollRef = useRef<ScrollView>(null);
 
   useEffect(() => {
     scrollRef.current?.scrollToEnd({ animated: true });
   }, [chatMessages, chatLoading]);
+
+  // A "Talk about it →" / "Ask about this →" tap elsewhere fills the chat draft.
+  // Pull it into the input the moment it arrives, then clear the store copy.
+  useEffect(() => {
+    if (chatDraft) {
+      setDraft(chatDraft);
+      clearChatDraft();
+    }
+  }, [chatDraft]);
 
   async function handleSend() {
     const text = draft.trim();
@@ -79,15 +92,23 @@ export default function ChatScreen() {
       {/* ── Header ────────────────────────────────────────────────────────── */}
       <View style={styles.header}>
         <Text style={styles.headerTitle}>Ask anything.</Text>
-        {/* A real person is ALWAYS one tap away — never gated (CLAUDE.md law). */}
+        {/* A real person is ALWAYS one tap away — never gated (CLAUDE.md law).
+            This opens the in-app connect capture, never a dead-end mailto. */}
         <TouchableOpacity
           style={styles.missionaryBtn}
           activeOpacity={0.75}
-          onPress={() => Linking.openURL(humanContactMailto()).catch(() => {})}
+          onPress={() => setShowConnect(v => !v)}
         >
           <Text style={styles.missionaryBtnText}>Talk to a real person →</Text>
         </TouchableOpacity>
       </View>
+
+      {/* In-app human-connect capture — saved on-device, no mailto (Phase 1). */}
+      {showConnect && (
+        <View style={styles.connectPanel}>
+          <ConnectCard compact />
+        </View>
+      )}
 
       {/* ── Message list ──────────────────────────────────────────────────── */}
       <KeyboardAvoidingView
@@ -176,6 +197,8 @@ export default function ChatScreen() {
           </TouchableOpacity>
         </View>
       </KeyboardAvoidingView>
+
+      <BlessingToast />
     </SafeAreaView>
   );
 }
@@ -195,6 +218,10 @@ const styles = StyleSheet.create({
     paddingVertical: 6, paddingHorizontal: 10,
   },
   missionaryBtnText: { color: colors.green, fontSize: 11, fontFamily: 'Georgia' },
+
+  connectPanel: {
+    paddingHorizontal: spacing.md, paddingTop: spacing.sm,
+  },
 
   messageList: { flex: 1 },
   messageListContent: {
