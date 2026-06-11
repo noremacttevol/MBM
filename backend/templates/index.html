@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MBM</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+
+  <!-- ── SCREEN 1: Hook ────────────────────────────────────────────── -->
+  <div id="screen-hook" class="screen active">
+    <div class="tomb-container">
+      <div class="tomb-stone"></div>
+      <div class="tomb-light"></div>
+    </div>
+    <p class="risen-text">He Is Risen.</p>
+    <p class="risen-sub">Every moment of pure peace you have ever felt has a source.</p>
+    <button class="btn-continue" onclick="showOnboarding()">I want to understand that →</button>
+  </div>
+
+  <!-- ── SCREEN 2: Onboarding ──────────────────────────────────────── -->
+  <div id="screen-onboard" class="screen">
+    <p class="onboard-question">
+      How did the very first time you ever heard about Jesus Christ defying death make you feel?
+    </p>
+    <div class="choices" id="choices">
+      <button class="choice" onclick="choose('A')">My parents told me it was our God, so I just believed it.</button>
+      <button class="choice" onclick="choose('B')">I questioned it heavily — it sounded completely impossible.</button>
+      <button class="choice" onclick="choose('C')">It gave me a deep sense of peace and hope.</button>
+      <button class="choice" onclick="choose('D')">I have never really thought about it until now.</button>
+      <button class="choice choice-other" onclick="showOther()">Other — I want to tell you in my own words.</button>
+    </div>
+    <div id="other-box" style="display:none; margin-top:1.5rem; width:100%; max-width:560px;">
+      <textarea id="other-text" rows="4" maxlength="500" placeholder="Share what comes to mind…"></textarea>
+      <button class="btn-continue" style="margin-top:0.75rem;" onclick="choose('E')">Continue →</button>
+    </div>
+    <p id="onboard-error" class="error-msg" style="display:none;">Something went wrong. Please try again.</p>
+  </div>
+
+  <!-- ── SCREEN 3: Feed ────────────────────────────────────────────── -->
+  <div id="screen-feed" class="screen">
+    <div id="feed-loading" class="loading-msg">Finding what matters to you…</div>
+
+    <!-- Transparency card (one-time, injected when user reaches RESTORATION) -->
+    <div id="transparency-card" class="card card-special" style="display:none;">
+      <p class="special-label">About this app</p>
+      <h2 class="card-title" id="transparency-title"></h2>
+      <p class="card-desc" id="transparency-body"></p>
+      <button class="btn-special-cta" id="transparency-cta" onclick="ackTransparency()"></button>
+    </div>
+
+    <!-- Invitation card (shown on demand or after sufficient engagement) -->
+    <div id="invitation-card" class="card card-invitation" style="display:none;">
+      <p class="special-label">An invitation</p>
+      <h2 class="card-title" id="invitation-title"></h2>
+      <p class="card-desc" id="invitation-body"></p>
+      <div id="invitation-buttons" class="invite-actions">
+        <a id="btn-missionary-referral" class="btn-invite-yes" href="#" target="_blank" rel="noopener"
+           onclick="logReferralClick()">Request a visit from missionaries →</a>
+        <button class="btn-invite-later" onclick="showConnectForm()">Send us a message instead</button>
+        <button class="btn-invite-no" onclick="dismissInvite('decline')">No thank you</button>
+      </div>
+      <div id="connect-form" style="display:none;" class="connect-form">
+        <p style="font-size:0.78rem;color:var(--text-muted);margin-bottom:0.5rem;">
+          Leave your name and a way to reach you. We'll read it personally.
+        </p>
+        <input id="connect-name"    type="text"  placeholder="Your name (optional)" maxlength="100" />
+        <input id="connect-contact" type="text"  placeholder="Email or phone *"     maxlength="200" required />
+        <textarea id="connect-message" rows="3"  placeholder="What's on your mind? (optional)" maxlength="500"></textarea>
+        <div class="connect-form-actions">
+          <button class="btn-special-cta" onclick="submitConnect()">Send →</button>
+          <button class="btn-invite-later" onclick="cancelConnect()">Cancel</button>
+        </div>
+        <p id="connect-error" class="error-msg" style="display:none;">Please include a way to reach you.</p>
+        <p id="connect-thanks" class="thanks-msg" style="display:none;">We'll be in touch. Thank you for reaching out.</p>
+      </div>
+    </div>
+
+    <!-- AI response card (appears after a question is submitted) -->
+    <div id="ai-response-card" class="card card-ai-response" style="display:none;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.4rem;">
+        <p class="special-label" style="margin:0">A response to your question</p>
+        <span class="ai-badge">AI — not a person</span>
+      </div>
+      <p class="ai-question-echo" id="ai-question-echo"></p>
+      <div class="ai-response-text" id="ai-response-text"></div>
+      <p class="ai-uncertainty" id="ai-uncertainty" style="display:none;">
+        I want to be honest — I'm not fully certain about all of this.
+        A real person can sit with this question better than I can.
+      </p>
+      <div class="ai-response-actions">
+        <button class="btn-special-cta" onclick="requestHuman()">Talk to someone →</button>
+        <button class="btn-invite-later" onclick="closeAIResponse()">Close</button>
+      </div>
+    </div>
+
+    <!-- Content feed — dialogue question is injected here after first card -->
+    <div id="feed-items" style="display:none; width:100%;"></div>
+
+    <!-- Dialogue question card — lives here, gets moved into feed on render -->
+    <div id="dialogue-card" class="card card-dialogue" style="display:none;">
+      <p class="special-label" id="dialogue-stage-label">A question for you</p>
+      <p class="dialogue-question-text" id="dialogue-question-text"></p>
+      <p class="dialogue-reference" id="dialogue-reference"></p>
+      <div id="dialogue-answer-area"></div>
+      <p class="dialogue-skip-link"><button class="btn-dialogue-skip" onclick="skipDialogue()">Not ready for this one →</button></p>
+    </div>
+
+    <!-- Doubt / question input -->
+    <div id="question-area" style="display:none;" class="question-area">
+      <textarea id="question-text" rows="3" maxlength="500" placeholder="What's on your mind?"></textarea>
+      <div style="display:flex; gap:0.5rem; margin-top:0.5rem;">
+        <button class="btn-special-cta" onclick="submitQuestion()">Send →</button>
+        <button class="btn-invite-later" onclick="hideQuestion()">Cancel</button>
+      </div>
+      <p class="question-note">Your question will help shape what you see next. You won't be identified.</p>
+    </div>
+
+    <div class="feed-controls" id="feed-controls" style="display:none;">
+      <button class="btn-simple"    onclick="signal('keep_simple')">← Simpler</button>
+      <button class="btn-question"  onclick="toggleQuestion()">I have a question</button>
+      <button class="btn-depth"     onclick="signal('more_depth')">Deeper →</button>
+      <button class="btn-bookmarks" onclick="toggleBookmarks()">Saved</button>
+    </div>
+
+    <div id="time-cap" style="display:none;" class="time-cap">
+      <p>You have filled your cup with light for today.</p>
+      <p>Close the app. Step away from the screen.<br>Go share that light with someone in the real world.</p>
+    </div>
+  </div>
+
+  <!-- ── SCREEN 4: Bookmarks ───────────────────────────────────────── -->
+  <div id="screen-bookmarks" class="screen">
+    <div class="bookmarks-header">
+      <button class="btn-back" onclick="showFeed()">← Back</button>
+      <h2 class="bookmarks-title">Saved</h2>
+    </div>
+    <div id="bookmark-items" style="width:100%;"></div>
+    <p id="bookmark-empty" class="empty-msg" style="display:none;">Nothing saved yet.</p>
+  </div>
+
+  <!-- ── Always-visible "Talk to Someone" button ───────────────────── -->
+  <button id="talk-btn" class="btn-talk" onclick="requestHuman()" style="display:none;">
+    Talk to Someone
+  </button>
+
+  <script>
+    const VIEW_CAP  = 10;   // number of articles actually READ before time cap
+    const viewedIds = new Set();
+    const bookmarkedSet = new Set();
+    let MISSIONARY_REFERRAL_URL = '';
+
+    // ── Boot ────────────────────────────────────────────────────────────
+    window.addEventListener('load', async () => {
+      try {
+        const cfg = await (await fetch('/api/config')).json();
+        MISSIONARY_REFERRAL_URL = cfg.missionary_referral_url || '';
+      } catch { /* non-fatal */ }
+      try {
+        const res  = await fetch('/api/session/check');
+        const data = await res.json();
+        if (data.active) { switchScreen('screen-feed'); await loadFeed(); }
+      } catch { /* first visit */ }
+    });
+
+    // ── Onboarding ──────────────────────────────────────────────────────
+    function showOnboarding() { switchScreen('screen-onboard'); }
+
+    function showOther() {
+      document.getElementById('other-box').style.display   = 'block';
+      document.getElementById('choices').style.display     = 'none';
+    }
+
+    function setChoicesDisabled(v) {
+      document.querySelectorAll('.choice').forEach(b => b.disabled = v);
+      const c = document.querySelector('#other-box .btn-continue');
+      if (c) c.disabled = v;
+    }
+
+    async function choose(key) {
+      setChoicesDisabled(true);
+      document.getElementById('onboard-error').style.display = 'none';
+      const freeText = key === 'E' ? document.getElementById('other-text').value.trim() : '';
+      try {
+        const res = await post('/api/onboard', { answer: key, free_text: freeText });
+        if (!res.ok) throw new Error();
+        switchScreen('screen-feed');
+        await loadFeed();
+      } catch {
+        setChoicesDisabled(false);
+        document.getElementById('onboard-error').style.display = 'block';
+      }
+    }
+
+    // ── Feed ────────────────────────────────────────────────────────────
+    async function loadFeed() {
+      try {
+        const res  = await fetch('/api/feed');
+        if (!res.ok) throw new Error();
+        const data = await res.json();
+        renderFeed(data, true);
+      } catch {
+        document.getElementById('feed-loading').textContent = 'Could not load. Please refresh.';
+      }
+    }
+
+    function renderFeed(data, fresh = false) {
+      document.getElementById('feed-loading').style.display = 'none';
+      renderSpecial(data.special || {});
+      // Only update dialogue question if the response explicitly includes it
+      if ('dialogue_question' in data) {
+        renderDialogueQuestion(data.dialogue_question || null);
+      }
+      renderItems(data.items || [], fresh);
+    }
+
+    // ── Special cards ───────────────────────────────────────────────────
+    function renderSpecial(special) {
+      const tc = document.getElementById('transparency-card');
+      if (special.transparency) {
+        document.getElementById('transparency-title').textContent = special.transparency.title;
+        document.getElementById('transparency-body').textContent  = special.transparency.body;
+        document.getElementById('transparency-cta').textContent   = special.transparency.cta;
+        tc.style.display = 'block';
+      } else {
+        tc.style.display = 'none';
+      }
+
+      const ic = document.getElementById('invitation-card');
+      if (special.invitation) {
+        document.getElementById('invitation-title').textContent = special.invitation.title;
+        document.getElementById('invitation-body').textContent  = special.invitation.body;
+        document.getElementById('btn-missionary-referral').href = MISSIONARY_REFERRAL_URL || '#';
+        ic.style.display = 'block';
+      } else if (!special.invitation && ic.style.display === 'none') {
+        // leave as-is — don't hide it if user opened it manually
+      }
+    }
+
+    // ── Dialogue questions ──────────────────────────────────────────────
+    let _currentQuestionId = null;
+
+    function renderDialogueQuestion(q) {
+      if (!q) {
+        document.getElementById('dialogue-card').style.display = 'none';
+        return;
+      }
+
+      _currentQuestionId = q.id;
+      const stageLabels = { ENTRY: 'A question to start', EARLY: 'Getting to know you',
+                            MID: 'Going deeper', DEEP: 'The real question' };
+      document.getElementById('dialogue-stage-label').textContent =
+        stageLabels[q.stage] || 'A question for you';
+      document.getElementById('dialogue-question-text').textContent = q.question_text;
+      const refEl = document.getElementById('dialogue-reference');
+      if (q.jesus_reference) {
+        refEl.textContent = q.jesus_reference;
+        refEl.style.display = 'block';
+      } else {
+        refEl.style.display = 'none';
+      }
+
+      const area = document.getElementById('dialogue-answer-area');
+      area.innerHTML = '';
+
+      if (q.answer_type === 'SCALE') {
+        area.innerHTML = `
+          <div class="dialogue-scale">
+            <span class="scale-label-low">${q.scale_low}</span>
+            <input type="range" min="1" max="10" value="5" id="dialogue-scale-input"
+                   class="dialogue-slider" oninput="updateScaleDisplay(this.value)" />
+            <span class="scale-label-high">${q.scale_high}</span>
+          </div>
+          <p class="scale-value-display" id="scale-display">5 / 10</p>
+          <button class="btn-dialogue-submit" onclick="submitDialogueScale()">That's where I am →</button>`;
+
+      } else if (q.answer_type === 'FREE_TEXT') {
+        area.innerHTML = `
+          <textarea id="dialogue-text-input" rows="4" maxlength="600"
+                    placeholder="Take your time…" class="dialogue-textarea"></textarea>
+          <button class="btn-dialogue-submit" onclick="submitDialogueFreeText()" style="margin-top:0.5rem;">
+            Share →
+          </button>`;
+
+      } else {
+        const options = JSON.parse(q.answer_options || '[]');
+        options.forEach(opt => {
+          const btn = document.createElement('button');
+          btn.className   = 'btn-dialogue-choice';
+          btn.textContent = opt.text;
+          btn.onclick     = () => submitDialogueChoice(opt.value, btn);
+          area.appendChild(btn);
+        });
+      }
+
+      // Don't show/hide yet — renderItems will place it in the feed
+      document.getElementById('dialogue-card').style.display = 'block';
+    }
+
+    function updateScaleDisplay(val) {
+      document.getElementById('scale-display').textContent = val + ' / 10';
+    }
+
+    async function submitDialogueChoice(value, btn) {
+      document.querySelectorAll('.btn-dialogue-choice').forEach(b => b.disabled = true);
+      btn.classList.add('selected');
+      await _sendDialogueResponse(value, '');
+    }
+
+    async function submitDialogueScale() {
+      const val = document.getElementById('dialogue-scale-input').value;
+      await _sendDialogueResponse(val, '');
+    }
+
+    async function submitDialogueFreeText() {
+      const text = document.getElementById('dialogue-text-input').value.trim();
+      if (!text) return;
+      await _sendDialogueResponse('free_text', text);
+    }
+
+    async function skipDialogue() {
+      document.getElementById('dialogue-card').style.display = 'none';
+      try { await post('/api/interact', { action: 'dialogue_skip' }); } catch { /* silent */ }
+    }
+
+    async function _sendDialogueResponse(value, text) {
+      try {
+        const res  = await post('/api/dialogue/respond', {
+          question_id: _currentQuestionId, answer_value: value, answer_text: text
+        });
+        const data = await res.json();
+        renderFeed(data, false);
+      } catch { /* silent */ }
+    }
+
+    async function ackTransparency() {
+      document.getElementById('transparency-card').style.display = 'none';
+      try {
+        const res  = await post('/api/transparency/ack', {});
+        const data = await res.json();
+        renderFeed(data, true);
+      } catch { /* silent */ }
+    }
+
+    function showConnectForm() {
+      document.getElementById('invitation-buttons').style.display = 'none';
+      document.getElementById('connect-form').style.display       = 'block';
+    }
+
+    function cancelConnect() {
+      document.getElementById('connect-form').style.display       = 'none';
+      document.getElementById('invitation-buttons').style.display = 'flex';
+    }
+
+    async function submitConnect() {
+      const contact = document.getElementById('connect-contact').value.trim();
+      if (!contact) {
+        document.getElementById('connect-error').style.display = 'block';
+        return;
+      }
+      document.getElementById('connect-error').style.display = 'none';
+      const name    = document.getElementById('connect-name').value.trim();
+      const message = document.getElementById('connect-message').value.trim();
+      try {
+        await post('/api/connect', { name, contact, message });
+        document.getElementById('connect-form').innerHTML =
+          '<p class="thanks-msg">We\'ll be in touch. Thank you for reaching out.</p>';
+      } catch { /* silent */ }
+    }
+
+    async function dismissInvite(response) {
+      document.getElementById('invitation-card').style.display = 'none';
+      try { await post('/api/invite/respond', { response }); } catch { /* silent */ }
+    }
+
+    // ── Feed items ──────────────────────────────────────────────────────
+    function renderItems(items, fresh = false) {
+      if (fresh) { viewedIds.clear(); }
+
+      const container = document.getElementById('feed-items');
+      container.style.display = 'block';
+      container.innerHTML     = '';
+
+      const dialogueCard = document.getElementById('dialogue-card');
+      const dialogueReady = dialogueCard && dialogueCard.style.display !== 'none';
+
+      items.forEach((item, index) => {
+        const card = document.createElement('div');
+        card.className      = 'card';
+        card.dataset.loadedAt = Date.now();
+        card.innerHTML = item.content_type === 'prompt'
+          ? buildPromptCard(item)
+          : buildLinkCard(item);
+        container.appendChild(card);
+
+        // Inject dialogue question after the first content card
+        if (index === 0 && dialogueReady) {
+          container.appendChild(dialogueCard);
+        }
+      });
+
+      // If no content cards yet, show dialogue at top
+      if (items.length === 0 && dialogueReady) {
+        container.appendChild(dialogueCard);
+      }
+
+      document.getElementById('feed-controls').style.display = 'flex';
+      document.getElementById('talk-btn').style.display      = 'block';
+
+      if (viewedIds.size >= VIEW_CAP) showTimeCap();
+    }
+
+    function buildLinkCard(item) {
+      const social = item.upvote_count > 0
+        ? `<p class="social-proof">${item.upvote_count} ${item.upvote_count === 1 ? 'person' : 'people'} found this helpful</p>` : '';
+      return `
+        <div class="card-meta">
+          <span class="card-ref">${item.scripture_ref || item.media_type || ''}</span>
+          ${item.estimated_read_minutes ? `<span class="card-read-time">${item.estimated_read_minutes} min</span>` : ''}
+        </div>
+        <h2 class="card-title">${item.title}</h2>
+        <p class="card-desc">${item.description}</p>
+        ${social}
+        <div class="card-actions">
+          <a href="${item.url}" target="_blank" rel="noopener"
+             onclick="logView(${item.id}, this.closest('.card'))" class="btn-read">Read →</a>
+          <button onclick="react(${item.id}, 'thumbs_up',   this.closest('.card'))" class="btn-react">Helpful</button>
+          <button onclick="react(${item.id}, 'thumbs_down', this.closest('.card'))" class="btn-react muted">Not for me</button>
+          <button onclick="doBookmark(${item.id}, this)" class="btn-bookmark ${bookmarkedSet.has(item.id) ? 'active' : ''}" title="Save">Save</button>
+        </div>`;
+    }
+
+    function buildPromptCard(item) {
+      return `
+        <p class="prompt-label">A question for you</p>
+        <p class="prompt-question">${item.description}</p>
+        <div class="prompt-actions" id="prompt-actions-${item.id}">
+          <button onclick="promptReact(${item.id}, 'prompt_yes', this)" class="btn-prompt-yes">Yes, this resonates</button>
+          <button onclick="promptReact(${item.id}, 'prompt_no',  this)" class="btn-prompt-no">Not really</button>
+          <button onclick="showPromptReflect(${item.id})" class="btn-prompt-reflect">I'd like to reflect on this →</button>
+        </div>
+        <div id="prompt-reflect-${item.id}" style="display:none;" class="prompt-reflect-area">
+          <textarea id="prompt-text-${item.id}" rows="3" maxlength="500" placeholder="Share what comes to mind…"></textarea>
+          <button onclick="submitPromptReflect(${item.id})" class="btn-special-cta" style="margin-top:0.5rem;">Share →</button>
+        </div>`;
+    }
+
+    // ── Interaction handlers ────────────────────────────────────────────
+    function getDwell(card) {
+      if (!card || !card.dataset.loadedAt) return 0;
+      return Math.round((Date.now() - parseInt(card.dataset.loadedAt)) / 1000);
+    }
+
+    async function logView(contentId, card) {
+      viewedIds.add(contentId);   // only counts when user actually taps Read
+      try { await post('/api/interact', { content_id: contentId, action: 'view', dwell_seconds: getDwell(card) }); }
+      catch { /* silent */ }
+      if (viewedIds.size >= VIEW_CAP) showTimeCap();
+    }
+
+    async function react(contentId, action, card) {
+      try {
+        const res  = await post('/api/interact', { content_id: contentId, action, dwell_seconds: getDwell(card) });
+        const data = await res.json();
+        renderFeed(data);
+      } catch { /* silent */ }
+    }
+
+    async function doBookmark(contentId, btn) {
+      bookmarkedSet.add(contentId);
+      btn.classList.add('active');
+      btn.textContent = 'Saved';
+      try { await post('/api/interact', { content_id: contentId, action: 'bookmark' }); }
+      catch { /* silent */ }
+    }
+
+    async function promptReact(contentId, action, btn) {
+      btn.closest('.prompt-actions').querySelectorAll('button').forEach(b => b.disabled = true);
+      try {
+        const res  = await post('/api/interact', { content_id: contentId, action });
+        const data = await res.json();
+        renderFeed(data);
+      } catch { /* silent */ }
+    }
+
+    function showPromptReflect(contentId) {
+      document.getElementById(`prompt-actions-${contentId}`).style.display  = 'none';
+      document.getElementById(`prompt-reflect-${contentId}`).style.display  = 'block';
+    }
+
+    async function submitPromptReflect(contentId) {
+      const text = document.getElementById(`prompt-text-${contentId}`).value.trim();
+      if (!text) return;
+      try {
+        const res  = await post('/api/interact', {
+          content_id: contentId, action: 'prompt_reflect', reflect_text: text
+        });
+        const data = await res.json();
+        renderFeed(data, true);
+      } catch { /* silent */ }
+    }
+
+    // ── Depth signals ───────────────────────────────────────────────────
+    async function signal(action) {
+      try {
+        const res  = await post('/api/interact', { action });
+        const data = await res.json();
+        renderFeed(data, true);
+      } catch { /* silent */ }
+    }
+
+    // ── Doubt / question ────────────────────────────────────────────────
+    function toggleQuestion() {
+      const area = document.getElementById('question-area');
+      area.style.display = area.style.display === 'none' ? 'block' : 'none';
+      if (area.style.display === 'block') document.getElementById('question-text').focus();
+    }
+
+    function hideQuestion() {
+      document.getElementById('question-area').style.display = 'none';
+    }
+
+    async function submitQuestion() {
+      const text = document.getElementById('question-text').value.trim();
+      if (!text) return;
+      document.getElementById('question-text').value = '';
+      hideQuestion();
+      try {
+        const res  = await post('/api/question', { question: text });
+        const data = await res.json();
+        renderFeed(data, true);
+        if (data.ai_response) renderAIResponse(data.ai_response, text);
+      } catch { /* silent */ }
+    }
+
+    function renderAIResponse(ai, questionText) {
+      const card = document.getElementById('ai-response-card');
+      document.getElementById('ai-question-echo').textContent = '"' + questionText + '"';
+      document.getElementById('ai-response-text').textContent = ai.response_text || '';
+      const unc = document.getElementById('ai-uncertainty');
+      unc.style.display = (!ai.is_certain || ai.error) ? 'block' : 'none';
+      card.style.display = 'block';
+      card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    function closeAIResponse() {
+      document.getElementById('ai-response-card').style.display = 'none';
+    }
+
+    function requestHuman() {
+      closeAIResponse();
+      const ic = document.getElementById('invitation-card');
+      document.getElementById('invitation-title').textContent = 'Talk to someone';
+      document.getElementById('invitation-body').textContent  =
+        'A real person would be glad to sit with this question with you. No agenda. No pressure.';
+      document.getElementById('btn-missionary-referral').href = MISSIONARY_REFERRAL_URL || '#';
+      document.getElementById('invitation-buttons').style.display = 'flex';
+      document.getElementById('connect-form').style.display = 'none';
+      ic.style.display = 'block';
+      ic.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    async function logReferralClick() {
+      try { await post('/api/interact', { action: 'referral_click' }); } catch { /* silent */ }
+    }
+
+    // ── Time cap ────────────────────────────────────────────────────────
+    function showTimeCap() {
+      document.getElementById('feed-items').style.display    = 'none';
+      document.getElementById('feed-controls').style.display = 'none';
+      document.getElementById('talk-btn').style.display      = 'none';
+      document.getElementById('time-cap').style.display      = 'block';
+    }
+
+    // ── Bookmarks ───────────────────────────────────────────────────────
+    function toggleBookmarks() { switchScreen('screen-bookmarks'); loadBookmarks(); }
+    function showFeed()        { switchScreen('screen-feed'); }
+
+    async function loadBookmarks() {
+      const container = document.getElementById('bookmark-items');
+      const empty     = document.getElementById('bookmark-empty');
+      container.innerHTML = '';
+      empty.style.display = 'none';
+      try {
+        const res  = await fetch('/api/bookmarks');
+        const data = await res.json();
+        if (!data.items || !data.items.length) { empty.style.display = 'block'; return; }
+        data.items.forEach(item => {
+          const card = document.createElement('div');
+          card.className   = 'card';
+          card.innerHTML   = `
+            <div class="card-meta">
+              <span class="card-ref">${item.scripture_ref || item.media_type || ''}</span>
+              ${item.estimated_read_minutes ? `<span class="card-read-time">${item.estimated_read_minutes} min</span>` : ''}
+            </div>
+            <h2 class="card-title">${item.title}</h2>
+            <p class="card-desc">${item.description}</p>
+            <div class="card-actions">
+              <a href="${item.url}" target="_blank" rel="noopener" class="btn-read">Read →</a>
+            </div>`;
+          container.appendChild(card);
+        });
+      } catch { /* silent */ }
+    }
+
+    // ── Utilities ───────────────────────────────────────────────────────
+    function post(url, data) {
+      return fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) });
+    }
+
+    function switchScreen(id) {
+      document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+      // show/hide talk button based on screen
+      const talkBtn = document.getElementById('talk-btn');
+      if (talkBtn) talkBtn.style.display = (id === 'screen-feed') ? 'block' : 'none';
+    }
+  </script>
+</body>
+</html>

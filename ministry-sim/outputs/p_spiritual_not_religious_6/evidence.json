@@ -1,0 +1,14 @@
+{
+  "readiness_good_god": {
+    "GENTLE_EXPLORE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "grief_pain": {
+    "GENTLE_EXPLORE": {
+      "good": 1,
+      "bad": 0
+    }
+  }
+}

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MBM Admin</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #0d0d12; color: #ccc; font-family: monospace; padding: 2rem; }
+    h1 { color: #e8e0c8; font-size: 1.2rem; margin-bottom: 2rem; letter-spacing: 0.1em; }
+    h2 { color: #9a9080; font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase;
+         margin: 2rem 0 0.75rem; border-bottom: 1px solid #2a2820; padding-bottom: 0.5rem; }
+    .stat-row { display: flex; gap: 2rem; flex-wrap: wrap; margin-bottom: 1rem; }
+    .stat { background: #141418; border: 1px solid #2a2820; padding: 1rem 1.5rem; border-radius: 4px; }
+    .stat-val { font-size: 1.6rem; color: #d4c89a; }
+    .stat-lbl { font-size: 0.7rem; color: #5a5240; margin-top: 0.25rem; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
+    th { text-align: left; color: #5a5240; padding: 0.4rem 0.6rem; border-bottom: 1px solid #2a2820; }
+    td { padding: 0.4rem 0.6rem; border-bottom: 1px solid #1a1818; color: #9a9080; max-width: 300px;
+         overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    tr:hover td { background: #141418; }
+    .tag-milk { color: #7ab87a; }
+    .tag-bridge { color: #7a9ab8; }
+    .tag-restoration { color: #b87a9a; }
+    .tag-maint { color: #c8a87a; }
+    .score-bar { display: inline-block; background: #2a2820; height: 6px;
+                 border-radius: 3px; vertical-align: middle; }
+    .score-fill { background: #d4c89a; height: 6px; border-radius: 3px; }
+    form.add-form { background: #141418; border: 1px solid #2a2820; padding: 1.5rem;
+                    border-radius: 4px; max-width: 700px; }
+    form.add-form label { display: block; font-size: 0.75rem; color: #5a5240; margin: 0.75rem 0 0.25rem; }
+    form.add-form input, form.add-form select, form.add-form textarea {
+      width: 100%; background: #0d0d12; border: 1px solid #2a2820; color: #c8bfa8;
+      padding: 0.5rem; font-family: monospace; font-size: 0.8rem; border-radius: 3px; }
+    form.add-form textarea { resize: vertical; }
+    form.add-form button { margin-top: 1rem; background: none; border: 1px solid #5a5240;
+      color: #d4c89a; padding: 0.5rem 1.5rem; cursor: pointer; font-family: monospace; }
+    form.add-form button:hover { border-color: #d4c89a; }
+    #add-msg { margin-top: 0.75rem; font-size: 0.8rem; color: #7ab87a; display: none; }
+    .dist-row { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .dist-item { background: #141418; border: 1px solid #2a2820; padding: 0.5rem 1rem;
+                 border-radius: 3px; font-size: 0.8rem; }
+    .dist-item span { color: #d4c89a; font-size: 1rem; margin-left: 0.5rem; }
+  </style>
+</head>
+<body>
+  <h1>MBM — Admin Panel</h1>
+  <div id="stats-area"><p style="color:#5a5240">Loading…</p></div>
+
+  <h2>Connection Requests</h2>
+  <div id="connections-area"><p style="color:#5a5240;font-size:0.8rem">Loading…</p></div>
+
+  <h2>User Questions</h2>
+  <div id="questions-area"><p style="color:#5a5240;font-size:0.8rem">Loading…</p></div>
+
+  <h2>AI Responses — Review Queue</h2>
+  <p style="color:#5a5240;font-size:0.75rem;margin-bottom:0.75rem;">
+    Confirm answers the AI got right. Correct ones it got wrong. Both build the learning dataset.
+  </p>
+  <div id="ai-responses-area"><p style="color:#5a5240;font-size:0.8rem">Loading…</p></div>
+
+  <h2>Add Content</h2>
+  <form class="add-form" onsubmit="addContent(event)">
+    <label>Tag</label>
+    <select name="tag">
+      <option value="MILK">MILK — Foundational / accessible</option>
+      <option value="BRIDGE">BRIDGE — Apologetics / skeptics</option>
+      <option value="RESTORATION">RESTORATION — The restoration story</option>
+      <option value="MAINTENANCE">MAINTENANCE — LDS members</option>
+    </select>
+    <label>Title</label>
+    <input name="title" required />
+    <label>Description</label>
+    <textarea name="description" rows="3" required></textarea>
+    <label>URL</label>
+    <input name="url" type="url" required />
+    <label>Resonance Style</label>
+    <select name="resonance_style">
+      <option>emotional</option><option>logical</option><option>moral</option>
+      <option>comfort</option><option>historical</option><option>doctrinal</option>
+      <option>foundational</option><option>personal</option><option>philosophical</option>
+      <option>devotional</option><option>study</option>
+    </select>
+    <label>Scripture Ref (optional)</label>
+    <input name="scripture_ref" />
+    <label>Media Type</label>
+    <select name="media_type">
+      <option>article</option><option>scripture</option><option>video</option>
+      <option>talk</option><option>podcast</option>
+    </select>
+    <label>Sequence Group (optional — groups related items into a journey)</label>
+    <input name="sequence_group" placeholder="e.g. resurrection_case" />
+    <label>Sequence Order</label>
+    <input name="sequence_order" type="number" value="0" min="0" />
+    <label>Est. Read Minutes</label>
+    <input name="estimated_read_minutes" type="number" value="5" min="1" />
+    <button type="submit">Add Content</button>
+    <p id="add-msg">Content added.</p>
+  </form>
+
+  <script>
+    const PW = new URLSearchParams(location.search).get('pw') || '';
+
+    async function loadStats() {
+      const res  = await fetch(`/api/admin/stats?pw=${PW}`);
+      const data = await res.json();
+      if (data.error) { document.getElementById('stats-area').textContent = data.error; return; }
+
+      const tagClass = { MILK: 'tag-milk', BRIDGE: 'tag-bridge', MAINTENANCE: 'tag-maint' };
+
+      document.getElementById('stats-area').innerHTML = `
+        <h2>Overview</h2>
+        <div class="stat-row">
+          <div class="stat"><div class="stat-val">${data.total_sessions}</div><div class="stat-lbl">Total Sessions</div></div>
+          <div class="stat"><div class="stat-val">${data.total_interactions}</div><div class="stat-lbl">Total Interactions</div></div>
+          <div class="stat"><div class="stat-val">${data.avg_interactions}</div><div class="stat-lbl">Avg Interactions / Session</div></div>
+        </div>
+
+        <h2>Feed Tag Distribution</h2>
+        <div class="dist-row">
+          ${data.tag_distribution.map(t =>
+            `<div class="dist-item"><span class="${tagClass[t.feed_tag] || ''}">${t.feed_tag}</span> — ${t.count} sessions</div>`
+          ).join('')}
+        </div>
+
+        <h2>Action Distribution</h2>
+        <div class="dist-row">
+          ${data.action_distribution.map(a =>
+            `<div class="dist-item">${a.action} <span>${a.count}</span></div>`
+          ).join('')}
+        </div>
+
+        <h2>Top Performing Content</h2>
+        <table>
+          <thead>
+            <tr><th>Tag</th><th>Title</th><th>Views</th><th>Up</th><th>Down</th><th>Score</th></tr>
+          </thead>
+          <tbody>
+            ${data.top_content.map(c => `
+              <tr>
+                <td class="${tagClass[c.tag] || ''}">${c.tag}</td>
+                <td title="${c.title}">${c.title}</td>
+                <td>${c.view_count}</td>
+                <td>${c.upvote_count}</td>
+                <td>${c.downvote_count}</td>
+                <td>
+                  <div class="score-bar" style="width:60px">
+                    <div class="score-fill" style="width:${Math.round(c.score * 60)}px"></div>
+                  </div>
+                  ${c.score}
+                </td>
+              </tr>`).join('')}
+          </tbody>
+        </table>
+      `;
+    }
+
+    async function addContent(e) {
+      e.preventDefault();
+      const form = e.target;
+      const data = Object.fromEntries(new FormData(form).entries());
+      data.sequence_order         = parseInt(data.sequence_order) || 0;
+      data.estimated_read_minutes = parseInt(data.estimated_read_minutes) || 5;
+
+      const res = await fetch(`/api/admin/content?pw=${PW}`, {
+        method:  'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body:    JSON.stringify(data),
+      });
+      if (res.ok) {
+        document.getElementById('add-msg').style.display = 'block';
+        form.reset();
+        loadStats();
+        setTimeout(() => document.getElementById('add-msg').style.display = 'none', 3000);
+      }
+    }
+
+    async function loadQuestions() {
+      const res  = await fetch(`/api/admin/questions?pw=${PW}`);
+      const data = await res.json();
+      const area = document.getElementById('questions-area');
+      if (!data.questions || !data.questions.length) {
+        area.innerHTML = '<p style="color:#5a5240;font-size:0.8rem">No questions yet.</p>'; return;
+      }
+      area.innerHTML = `<table>
+        <thead><tr><th>When</th><th>Tag</th><th>Question</th></tr></thead>
+        <tbody>${data.questions.map(q => `
+          <tr>
+            <td style="white-space:nowrap">${q.asked_at.slice(0,16)}</td>
+            <td class="${tagClass[q.feed_tag] || ''}">${q.feed_tag || ''}</td>
+            <td style="white-space:normal;max-width:500px">${q.question_text}</td>
+          </tr>`).join('')}
+        </tbody></table>`;
+    }
+
+    async function loadConnections() {
+      const res  = await fetch(`/api/admin/connections?pw=${PW}`);
+      const data = await res.json();
+      const area = document.getElementById('connections-area');
+      if (!data.connections || !data.connections.length) {
+        area.innerHTML = '<p style="color:#5a5240;font-size:0.8rem">No connection requests yet.</p>'; return;
+      }
+      area.innerHTML = `<table>
+        <thead><tr><th>When</th><th>Tag</th><th>Name</th><th>Contact</th><th>Message</th></tr></thead>
+        <tbody>${data.connections.map(c => `
+          <tr>
+            <td style="white-space:nowrap">${c.created_at.slice(0,16)}</td>
+            <td class="${tagClass[c.feed_tag] || ''}">${c.feed_tag || ''}</td>
+            <td>${c.name || '—'}</td>
+            <td>${c.contact}</td>
+            <td style="white-space:normal;max-width:300px">${c.message || '—'}</td>
+          </tr>`).join('')}
+        </tbody></table>`;
+    }
+
+    const tagClass = { MILK: 'tag-milk', BRIDGE: 'tag-bridge', MAINTENANCE: 'tag-maint', RESTORATION: 'tag-restoration' };
+
+    async function loadAIResponses() {
+      const res  = await fetch(`/api/admin/ai_responses?pw=${PW}`);
+      const data = await res.json();
+      const area = document.getElementById('ai-responses-area');
+      if (!data.responses || !data.responses.length) {
+        area.innerHTML = '<p style="color:#5a5240;font-size:0.8rem">No AI responses yet.</p>'; return;
+      }
+      area.innerHTML = data.responses.map(r => {
+        const statusColor = r.human_status === 'confirmed' ? '#7ab87a'
+                          : r.human_status === 'corrected' ? '#c8a87a' : '#5a5240';
+        const certaintyLabel = r.is_certain ? '' : '<span style="color:#9a8060;font-size:0.72rem;margin-left:0.5rem">⚠ uncertain</span>';
+        return `
+        <div id="ai-row-${r.id}" style="background:#141418;border:1px solid #2a2820;border-radius:4px;padding:1rem;margin-bottom:0.75rem;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem;">
+            <span style="font-size:0.68rem;color:${statusColor};letter-spacing:0.1em;text-transform:uppercase">${r.human_status}${certaintyLabel}</span>
+            <span style="font-size:0.68rem;color:#5a5240">${(r.created_at||'').slice(0,16)}</span>
+          </div>
+          <p style="font-size:0.78rem;color:#7a9ab8;font-style:italic;margin-bottom:0.5rem" id="ai-q-${r.id}"></p>
+          <p style="font-size:0.82rem;color:#9a9080;line-height:1.65;margin-bottom:0.75rem;white-space:pre-wrap" id="ai-a-${r.id}"></p>
+          ${r.human_status === 'pending' ? `
+          <div style="display:flex;gap:0.5rem;flex-wrap:wrap;align-items:flex-start">
+            <button onclick="confirmAI(${r.id})"
+              style="background:none;border:1px solid #7ab87a;color:#7ab87a;padding:0.35rem 0.9rem;font-family:monospace;font-size:0.75rem;cursor:pointer;border-radius:3px">
+              Confirm ✓
+            </button>
+            <div style="display:flex;flex-direction:column;gap:0.35rem;flex:1;min-width:200px">
+              <textarea id="ai-note-${r.id}" rows="2" placeholder="Write the correct answer…"
+                style="width:100%;background:#0d0d12;border:1px solid #2a2820;color:#c8bfa8;padding:0.4rem;font-family:monospace;font-size:0.75rem;border-radius:3px;resize:vertical"></textarea>
+              <button onclick="correctAI(${r.id})"
+                style="background:none;border:1px solid #c8a87a;color:#c8a87a;padding:0.35rem 0.9rem;font-family:monospace;font-size:0.75rem;cursor:pointer;border-radius:3px;align-self:flex-start">
+                Correct ✎
+              </button>
+            </div>
+          </div>` : (r.human_note ? `<p style="font-size:0.78rem;color:#c8a87a;border-left:2px solid #3a3020;padding-left:0.5rem;margin-top:0.25rem" id="ai-note-display-${r.id}"></p>` : '')}
+        </div>`;
+      }).join('');
+
+      data.responses.forEach(r => {
+        const qEl = document.getElementById(`ai-q-${r.id}`);
+        const aEl = document.getElementById(`ai-a-${r.id}`);
+        if (qEl) qEl.textContent = '"' + r.question_text + '"';
+        if (aEl) aEl.textContent = r.response_text;
+        if (r.human_note) {
+          const nd = document.getElementById(`ai-note-display-${r.id}`);
+          if (nd) nd.textContent = 'Human correction: ' + r.human_note;
+        }
+      });
+    }
+
+    async function confirmAI(id) {
+      await fetch(`/api/admin/ai/confirm?pw=${PW}`, {
+        method: 'POST', headers: {'Content-Type':'application/json'},
+        body: JSON.stringify({ id }),
+      });
+      loadAIResponses();
+    }
+
+    async function correctAI(id) {
+      const note = document.getElementById(`ai-note-${id}`).value.trim();
+      if (!note) { alert('Please write a correction first.'); return; }
+      await fetch(`/api/admin/ai/correct?pw=${PW}`, {
+        method: 'POST', headers: {'Content-Type':'application/json'},
+        body: JSON.stringify({ id, note }),
+      });
+      loadAIResponses();
+    }
+
+    loadStats();
+    loadQuestions();
+    loadConnections();
+    loadAIResponses();
+  </script>
+</body>
+</html>

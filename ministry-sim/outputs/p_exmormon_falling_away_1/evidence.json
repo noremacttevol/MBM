@@ -1,0 +1,24 @@
+{
+  "grief_pain": {
+    "HONEST_EVIDENCE": {
+      "good": 1,
+      "bad": 0
+    },
+    "PRESENCE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "disengage": {
+    "HONOR_AND_RELEASE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "readiness_good_god": {
+    "GENTLE_EXPLORE": {
+      "good": 1,
+      "bad": 0
+    }
+  }
+}

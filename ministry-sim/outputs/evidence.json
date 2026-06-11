@@ -1,0 +1,166 @@
+{
+  "grief_pain": {
+    "GENTLE_EXPLORE": {
+      "good": 79,
+      "bad": 0
+    },
+    "PRESENCE": {
+      "good": 92,
+      "bad": 0
+    },
+    "HONOR_AND_RELEASE": {
+      "good": 8,
+      "bad": 0
+    },
+    "COMPARISON": {
+      "good": 6,
+      "bad": 0
+    },
+    "HONEST_EVIDENCE": {
+      "good": 14,
+      "bad": 0
+    },
+    "GENTLE_QUESTION": {
+      "good": 2,
+      "bad": 0
+    }
+  },
+  "god_not_good_wound": {
+    "COMPARISON": {
+      "good": 30,
+      "bad": 1
+    },
+    "GENTLE_EXPLORE": {
+      "good": 6,
+      "bad": 0
+    },
+    "HONOR_AND_RELEASE": {
+      "good": 2,
+      "bad": 0
+    },
+    "HONEST_EVIDENCE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "readiness_good_god": {
+    "GENTLE_EXPLORE": {
+      "good": 147,
+      "bad": 0
+    },
+    "HONEST_EVIDENCE": {
+      "good": 21,
+      "bad": 0
+    },
+    "COMPARISON": {
+      "good": 27,
+      "bad": 0
+    },
+    "PRESENCE": {
+      "good": 6,
+      "bad": 1
+    },
+    "HONOR_AND_RELEASE": {
+      "good": 6,
+      "bad": 0
+    }
+  },
+  "analytical_debate": {
+    "COMPARISON": {
+      "good": 40,
+      "bad": 0
+    },
+    "HONEST_EVIDENCE": {
+      "good": 64,
+      "bad": 0
+    },
+    "HONOR_AND_RELEASE": {
+      "good": 4,
+      "bad": 0
+    }
+  },
+  "readiness_revelation": {
+    "GENTLE_EXPLORE": {
+      "good": 45,
+      "bad": 2
+    },
+    "COMPARISON": {
+      "good": 6,
+      "bad": 0
+    },
+    "HONEST_EVIDENCE": {
+      "good": 8,
+      "bad": 1
+    },
+    "HONOR_AND_RELEASE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "neutral": {
+    "GENTLE_EXPLORE": {
+      "good": 13,
+      "bad": 0
+    }
+  },
+  "anger_betrayal": {
+    "GENTLE_EXPLORE": {
+      "good": 23,
+      "bad": 1
+    },
+    "HONEST_EVIDENCE": {
+      "good": 1,
+      "bad": 0
+    },
+    "HONOR_AND_RELEASE": {
+      "good": 5,
+      "bad": 0
+    },
+    "PRESENCE": {
+      "good": 2,
+      "bad": 0
+    },
+    "COMPARISON": {
+      "good": 6,
+      "bad": 0
+    }
+  },
+  "warmth_devotional": {
+    "GENTLE_EXPLORE": {
+      "good": 20,
+      "bad": 0
+    },
+    "HONEST_EVIDENCE": {
+      "good": 13,
+      "bad": 0
+    },
+    "GENTLE_QUESTION": {
+      "good": 2,
+      "bad": 0
+    },
+    "COMPARISON": {
+      "good": 2,
+      "bad": 0
+    }
+  },
+  "disengage": {
+    "HONOR_AND_RELEASE": {
+      "good": 23,
+      "bad": 0
+    }
+  },
+  "curiosity": {
+    "HONEST_EVIDENCE": {
+      "good": 2,
+      "bad": 0
+    },
+    "GENTLE_EXPLORE": {
+      "good": 6,
+      "bad": 0
+    },
+    "HONOR_AND_RELEASE": {
+      "good": 1,
+      "bad": 0
+    }
+  }
+}

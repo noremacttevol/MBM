@@ -1,0 +1,20 @@
+{
+  "neutral": {
+    "GENTLE_EXPLORE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "god_not_good_wound": {
+    "COMPARISON": {
+      "good": 0,
+      "bad": 1
+    }
+  },
+  "readiness_good_god": {
+    "GENTLE_EXPLORE": {
+      "good": 1,
+      "bad": 0
+    }
+  }
+}

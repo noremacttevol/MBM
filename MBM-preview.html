@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MBM — see the app</title>
+<style>
+  :root{
+    --bg:#0a0a0f; --bgCard:#111116; --bgInput:#141418; --border:#1e1c18;
+    --borderDim:#2a2820; --text:#e8e4d8; --textMid:#c8bfa8; --textDim:#9a9080;
+    --textMuted:#5a5240; --gold:#d4c89a; --goldLight:#f0e6c8; --green:#7ab87a;
+    --blue:#6a9ab0;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-font-smoothing:antialiased;}
+  body{
+    background:#050507;font-family:Georgia,'Times New Roman',serif;color:var(--text);
+    min-height:100vh;display:flex;flex-direction:column;align-items:center;
+    padding:32px 16px 64px;gap:20px;
+  }
+  .intro{max-width:380px;text-align:center;color:var(--textDim);font-size:14px;line-height:22px;}
+  .intro b{color:var(--goldLight);font-weight:normal;}
+  /* phone frame */
+  .phone{
+    width:360px;height:740px;background:var(--bg);border-radius:38px;
+    border:10px solid #16140f;box-shadow:0 24px 70px rgba(0,0,0,.7),0 0 0 1px #2a2820;
+    overflow:hidden;position:relative;display:flex;flex-direction:column;
+  }
+  .notch{position:absolute;top:0;left:50%;transform:translateX(-50%);
+    width:120px;height:22px;background:#16140f;border-radius:0 0 16px 16px;z-index:50;}
+  .screen{flex:1;display:none;flex-direction:column;overflow:hidden;position:relative;
+    animation:fade .5s ease;}
+  .screen.active{display:flex;}
+  @keyframes fade{from{opacity:0;}to{opacity:1;}}
+  .pad{padding:0 28px;}
+  .center{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;}
+
+  /* shared buttons */
+  .cta{margin:0 28px 38px;border:1px solid var(--gold);border-radius:6px;
+    padding:15px;text-align:center;color:var(--gold);font-size:15px;font-family:Georgia;
+    cursor:pointer;background:transparent;transition:.25s;letter-spacing:.5px;}
+  .cta:hover{background:rgba(212,200,154,.08);}
+  .choice{border:1px solid var(--borderDim);background:var(--bgCard);border-radius:6px;
+    padding:14px 16px;margin-bottom:10px;color:var(--textMid);font-size:14px;line-height:20px;
+    font-family:Georgia;cursor:pointer;transition:.2s;text-align:left;}
+  .choice:hover{border-color:var(--gold);color:var(--goldLight);}
+  .choice.dashed{border-style:dashed;color:var(--textDim);font-style:italic;}
+
+  /* SANCTUARY / HOOK */
+  #hook{justify-content:space-between;}
+  .glow{width:170px;height:170px;border-radius:50%;margin:0 auto;
+    background:radial-gradient(circle,rgba(212,200,154,.28),rgba(212,200,154,.05) 55%,transparent 72%);
+    filter:blur(2px);animation:breathe 5s ease-in-out infinite;}
+  @keyframes breathe{0%,100%{transform:scale(1);opacity:.85;}50%{transform:scale(1.12);opacity:1;}}
+  .stone{width:74px;height:74px;border-radius:50%;margin:-122px auto 0;
+    background:linear-gradient(145deg,#2a2820,#16140f);box-shadow:inset -6px -6px 14px rgba(0,0,0,.6),0 6px 16px rgba(0,0,0,.5);}
+  .risen{font-size:32px;color:var(--goldLight);letter-spacing:2px;margin-top:70px;line-height:42px;}
+  .sub{font-size:15px;color:var(--textMuted);line-height:24px;margin-top:18px;font-style:italic;}
+
+  /* SANCTUARY (onboard step 1) */
+  .bighead{font-size:34px;color:var(--gold);letter-spacing:1px;line-height:44px;}
+  .bodytext{font-size:15px;color:var(--textDim);line-height:25px;margin-top:22px;font-style:italic;}
+
+  /* STORY */
+  .narr{font-size:17px;color:var(--textMid);line-height:30px;margin-bottom:18px;}
+  .narr.last{color:var(--goldLight);}
+  .story-scroll{flex:1;overflow-y:auto;padding:54px 28px 20px;}
+  .qtext{font-size:18px;color:var(--gold);line-height:28px;margin:6px 28px 22px;}
+
+  /* REFLECTION */
+  .refl{font-size:17px;color:var(--textMid);line-height:29px;}
+  .coda{font-size:15px;color:var(--textMuted);line-height:24px;margin-top:24px;white-space:pre-line;font-style:italic;}
+
+  /* CHAT */
+  .chat-head{display:flex;justify-content:space-between;align-items:center;
+    padding:16px;border-bottom:1px solid var(--borderDim);}
+  .chat-title{font-size:18px;color:var(--textMid);}
+  .human-btn{border:1px solid var(--green);border-radius:4px;padding:6px 10px;
+    color:var(--green);font-size:11px;cursor:pointer;}
+  .msgs{flex:1;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:8px;}
+  .bub{max-width:82%;border-radius:12px;padding:12px;font-size:14px;line-height:22px;}
+  .ai{align-self:flex-start;background:var(--bgCard);border:1px solid var(--borderDim);color:var(--textDim);}
+  .me{align-self:flex-end;background:#1a1a12;border:1px solid var(--border);color:var(--textMid);}
+  .time{font-size:10px;color:var(--textMuted);margin-top:5px;text-align:right;}
+  .tag{font-size:9px;letter-spacing:1px;color:var(--textMuted);text-transform:uppercase;
+    margin-top:6px;border-top:1px dashed var(--borderDim);padding-top:5px;}
+  .inputbar{display:flex;gap:8px;align-items:center;padding:12px 16px;border-top:1px solid var(--borderDim);}
+  .inputbar .fake{flex:1;background:var(--bgInput);border:1px solid var(--border);border-radius:6px;
+    padding:11px;color:var(--textMuted);font-size:14px;font-style:italic;}
+  .send{width:40px;height:40px;border:1px solid var(--gold);border-radius:6px;background:var(--bgCard);
+    color:var(--gold);font-size:18px;display:flex;align-items:center;justify-content:center;}
+  .next-prompt{border:1px solid var(--borderDim);margin:0 16px 12px;border-radius:6px;padding:11px 14px;
+    color:var(--gold);font-size:13px;text-align:center;cursor:pointer;transition:.2s;}
+  .next-prompt:hover{border-color:var(--gold);background:rgba(212,200,154,.06);}
+
+  .restart{color:var(--textMuted);font-size:12px;cursor:pointer;text-decoration:underline;margin-top:4px;}
+  .stepnote{font-size:11px;color:var(--textMuted);letter-spacing:1px;text-transform:uppercase;
+    text-align:center;padding-top:46px;}
+</style>
+</head>
+<body>
+
+<div class="intro">
+  This is <b>the actual app</b> — the real screens, the real words, the real flow.
+  Tap through it like a person opening it for the first time. Nothing here is a mockup of
+  ideas; it's the sanctuary, the story, the mirror, and the conversation, exactly as they're written.
+</div>
+
+<div class="phone">
+  <div class="notch"></div>
+
+  <!-- 1. HOOK / SANCTUARY OPEN -->
+  <div class="screen active" id="hook">
+    <div class="stepnote">the first thing they see</div>
+    <div class="center pad">
+      <div class="glow"></div>
+      <div class="stone"></div>
+      <div class="risen">Come to me,<br>all who are weary.</div>
+      <div class="sub">Every moment of pure peace you have ever felt has a source — and a door is open to you here.</div>
+    </div>
+    <div class="cta" onclick="go('sanctuary')">Come and see →</div>
+  </div>
+
+  <!-- 2. SANCTUARY (onboard) -->
+  <div class="screen" id="sanctuary">
+    <div class="stepnote">nothing is asked of you yet</div>
+    <div class="center pad">
+      <div class="bighead">You are welcome here.</div>
+      <div class="bodytext">However you arrived — weary, hopeful, guarded, or unsure why you opened this — nothing is asked of you. Just stay a moment.</div>
+    </div>
+    <div class="cta" onclick="go('story')">Step inside →</div>
+  </div>
+
+  <!-- 3. STORY -->
+  <div class="screen" id="story">
+    <div class="story-scroll">
+      <div class="stepnote" style="padding-top:0;margin-bottom:30px;">a story, told first — always</div>
+      <div class="narr">She had been bleeding for twelve years. Every doctor, every coin, every hope — spent. And still, worse.</div>
+      <div class="narr">Then she heard he was passing through. She didn't ask. She didn't explain. In the crush of the crowd she just reached out and touched the edge of his cloak.</div>
+      <div class="narr">And he stopped. He turned. In a sea of people pressing in on him, he felt that one quiet, desperate reach — and he looked for her.</div>
+      <div class="narr last">He called her daughter. Her faith, he said, had made her well.</div>
+    </div>
+    <div class="cta" onclick="go('question')">Continue →</div>
+  </div>
+
+  <!-- 4. MIRROR QUESTION -->
+  <div class="screen" id="question">
+    <div class="story-scroll">
+      <div class="stepnote" style="padding-top:0;margin-bottom:26px;">a question that comes from the story</div>
+      <div class="qtext">She didn't even ask. She just reached. Jesus turned and found her and called her daughter. What would it mean to you if someone saw you like that?</div>
+      <div style="padding:0 28px;">
+        <div class="choice" onclick="go('reflection')">I think I've been reaching for a long time without anyone noticing.</div>
+        <div class="choice" onclick="go('reflection')">It's hard to believe I'd be the one he'd turn around for.</div>
+        <div class="choice" onclick="go('reflection')">I want that to be real, but I've been let down before.</div>
+        <div class="choice" onclick="go('reflection')">Honestly I'm just curious what this is.</div>
+        <div class="choice dashed" onclick="go('reflection')">I want to say it in my own words.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. REFLECTION -->
+  <div class="screen" id="reflection">
+    <div class="center pad">
+      <div class="stepnote" style="position:absolute;top:46px;left:0;right:0;">you are seen, before any content</div>
+      <div class="refl">Thank you for that. It sounds like you've been carrying something quietly for a long time — reaching, even when it felt like no one turned around. That is exactly the kind of thing Jesus paid attention to.</div>
+      <div class="coda">That is where we start.
+Not with a statement. With you.</div>
+    </div>
+    <div class="cta" onclick="go('chat')">Enter →</div>
+  </div>
+
+  <!-- 6. CHAT -->
+  <div class="screen" id="chat">
+    <div class="chat-head">
+      <div class="chat-title">Ask anything.</div>
+      <div class="human-btn">Talk to a real person →</div>
+    </div>
+    <div class="msgs" id="msgs">
+      <div class="bub ai">He is risen — and from the way you carry it, I think that's good news you already hold. What's on your heart today — something you're carrying, something you're thankful for, or anything you'd like to talk through? I'm here to listen.
+        <div class="time">9:14 AM</div>
+      </div>
+    </div>
+    <div class="next-prompt" id="nextp" onclick="advanceChat()">▸ tap to see how it answers when someone is ready</div>
+    <div class="inputbar">
+      <div class="fake">Say something…</div>
+      <div class="send">→</div>
+    </div>
+  </div>
+
+</div>
+
+<div class="restart" onclick="go('hook')">↺ start over from the beginning</div>
+
+<script>
+  function go(id){
+    document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+    window.scrollTo({top:0,behavior:'smooth'});
+  }
+
+  // scripted chat that demonstrates the milk -> meat arc, ending in ministering the restored gospel
+  const turns = [
+    {role:'me', text:"He is risen indeed — that's pretty settled for me. What's on my heart is harder to name. I feel like there's a fuller picture I haven't been shown. Like I've got the foundation but not the whole house."},
+    {role:'ai', text:"That's not restlessness — that's hunger, and it's honest. You trust that God is good; you're sensing there may be more to know. When you picture that fuller house, does it feel like understanding what you already believe more deeply — or like there might be genuinely new things you haven't met yet?", tag:"reading them — asked more than answered"},
+    {role:'me', text:"The second one. When I close my Bible I sometimes wonder — did God just go quiet after the last page? Why would the God who spoke to Moses and the prophets suddenly stop? That feels off to me."},
+    {role:'ai', text:"You just named both things that tell me it's time to be direct rather than cautious: you believe God is good, and you're open to Him still speaking. So here's the honest truth about where you've landed — this app was built by members of The Church of Jesus Christ of Latter-day Saints, people who believe exactly what you're sensing: God did not go quiet. He has kept speaking through living prophets, and there's a restored gospel that answers the very question you just asked. That's a lot to land. What rises up in you when you hear it?", tag:"both signals present → ministering the meat, honestly"},
+    {role:'me', text:"Okay — that's a lot. I appreciate you being upfront. My guard's up a little, but not because I think you're lying. What makes this different from any other group that says God spoke to them and everyone else missed it?"},
+    {role:'ai', text:"That's the right question, and your guard is wisdom, not closed-mindedness. Honest answer: I can't prove it to you — and I won't pretend to. What's different is that it doesn't ask you to take my word. It points to a specific book, the Book of Mormon, and a specific promise: read it, ask God sincerely, and He'll tell you Himself. The verification comes from Him, not from me or the people who built this. And because you deserve more than an app on this — there's a real person who has actually walked this who can sit with your hardest questions alongside you. Not instead of your own thinking. With it. Want me to open that door, or keep talking here first?", tag:"answers plainly + offers a human IN ADDITION — never as a dodge"},
+  ];
+  let idx=0;
+  function advanceChat(){
+    const box=document.getElementById('msgs');
+    const t=turns[idx];
+    const d=document.createElement('div');
+    d.className='bub '+(t.role==='me'?'me':'ai');
+    d.innerHTML=t.text+(t.tag?'<div class="tag">'+t.tag+'</div>':'')+'<div class="time">9:1'+(5+idx)+' AM</div>';
+    box.appendChild(d);
+    box.scrollTop=box.scrollHeight;
+    idx++;
+    const p=document.getElementById('nextp');
+    if(idx>=turns.length){ p.style.display='none'; }
+    else if(turns[idx].role==='me'){ p.textContent='▸ tap — the person replies'; }
+    else { p.textContent='▸ tap — see how it responds'; }
+  }
+</script>
+</body>
+</html>

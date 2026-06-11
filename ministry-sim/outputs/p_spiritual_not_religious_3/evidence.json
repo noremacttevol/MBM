@@ -1,0 +1,12 @@
+{
+  "readiness_good_god": {
+    "COMPARISON": {
+      "good": 1,
+      "bad": 0
+    },
+    "GENTLE_EXPLORE": {
+      "good": 3,
+      "bad": 0
+    }
+  }
+}

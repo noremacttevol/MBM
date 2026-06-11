@@ -1,0 +1,113 @@
+# Project Specification: Project MBM (Milk Before Meat)
+## System Architecture, Global Logic, and Phase 1 Implementation Blueprint
+
+---
+
+## 1. Executive Summary & Core Mission
+Project MBM is a digital ministering system engineered to counter the spiritual fragmentation and addictive "brain rot" loops of secular social media algorithms. Instead of optimizing for outrage, vanity, or endless consumption, MBM utilizes progressive machine learning to identify a user's current spiritual state, isolate their inherent recognition of goodness (the Light of Christ), and dynamically route them toward deeper spiritual truths. 
+
+Patterned directly after the Savior’s method of meeting individuals exactly where they are—delivering foundational principles ("milk") before introducing advanced structural doctrines ("meat")—the app operates as a private, judgment-free digital gateway. The ultimate, uncompromised objective is to help users recognize that all goodness in the world comes from Jesus Christ, progressively steering them toward the restored gospel and the Church of Jesus Christ of Latter-day Saints purely through voluntary, pull-based interaction.
+
+---
+
+## 2. Onboarding Architecture: The "Empty State" Initial Fork
+When a brand-new user downloads and opens the app, the system collects zero initial profile data and requires no journal entries. It minimizes friction to optimize immediate spiritual hook and data capture.
+
+### Step 1: The Cinematic/Animated Hook
+*   **Visual Asset:** A high-impact, clean, loopable animated sequence of the empty tomb.
+*   **Text Overlay:** **"He Is Risen."** 
+*   **Core Realization:** A universal message establishing that every moment of pure peace, awe, or goodness in human life originates from Him.
+
+### Step 2: The Multi-Choice Segmentation Engine
+Immediately following the animation, the user is presented with a single, profound, universally applicable question designed to map their exact lifelong faith orientation.
+
+> **Onboarding Question:** *"How did the very first time you ever heard about Jesus Christ defying death make you feel?"*
+
+The system evaluates the multi-choice selections behind the scenes using a completely hidden backend routing matrix:
+
+| User Selection | Identified Faith Root | Hidden System Feed Assignment |
+| :--- | :--- | :--- |
+| **"My parents told me it was our God, so I just believed it."** | Cultural/Devoted Christian or Active Latter-day Saint | **The Discipleship/Maintenance Feed** |
+| **"I questioned it heavily—it sounded completely impossible."** | Analytical Skeptic, Atheist/Agnostic, or Faith Transition | **The Bridge/Apologetics Feed** |
+| **"It gave me a deep sense of peace and hope."** | Spiritually Sensitive Seeker / Mainstream Christian | **The Foundational Light Feed (Milk)** |
+| **"I have actually never really thought about it until now."** | Secular / Zero Gospel Exposure | **The Foundational Light Feed (Milk)** |
+| **"Other (Tell us in your own words...)"** | Raw Qualitative Text String | **NLP Sentiment Tagging Engine** (Routes dynamically based on text analysis) |
+
+---
+
+## 3. Global Workflow & Data Routing Strategy
+The system segments the global population into three distinct backend profiles. The logic modifies the delivery style based on what each demographic fundamentally stands on, shifting them away from their current reality toward objective truth.[User Opens App: "He Is Risen" Animation]
+                                  │
+        ┌─────────────────────────┼─────────────────────────┐
+        ▼                         ▼                         ▼
+[Sovereign/Rigid Root]     [General Christian Root]    [Secular/Agnostic Root]
+│                         │                         │
+• Focus: Universal Atonement  • Focus: Modern Relevance  • Focus: Inherent Goodness
+• Deconstruct Lottery Bias   • Substitute Screen Time   • Name the Spirit (Light)
+• Shift: Agency & Premortal  • Shift: Restoration Need  • Shift: Foundational Gospels
+│                         │                         │
+└─────────────────────────┼─────────────────────────┘
+▼
+[Interaction Feedback Loop: Track Resonance Metrics]
+│
+▼
+[User Triggers Dynamic Pull: "What is Next?"]
+│
+▼
+[The Meat: Restored Gospel Covenants & Offline Transition]
+
+
+### Profile A: The Rigid Traditional Believer (Sovereign/Calvinist Roots)
+*   **The Mindset:** Believes in absolute predetermination, limited salvation architectures, or rigid institutional boundaries. They approach faith through a lens of strict judgment or selective election.
+*   **The App Strategy:** Do not engage in aggressive, upfront debates regarding organizational authority. Shift the focus entirely to the *nature and character of God*.
+*   **The Feed Loop:** Surface high-quality, verified historical and textual content emphasizing the **Universal and Infinite Atonement**. Progressively introduce the principles of **Pre-mortal Existence and Divine Agency**, dismantling the concept of arbitrary damnation by demonstrating that everything good in their life is from an actively loving Father.
+
+### Profile B: The General Mainstream Christian (Culture/Family Roots)
+*   **The Mindset:** Believes generally in the Bible, the Trinity, and the Resurrection due to family tradition or passive culture, but experiences high rates of screen time addiction, quiet guilt, and systemic anxiety.
+*   **The App Strategy:** Substitute addictive secular loops with highly engaging, emotionally resonant short-form gospel media that addresses their daily functional anxieties (burnout, family, grief).
+*   **The Feed Loop:** Serve foundational New Testament truths focusing heavily on **The Living Christ**. As spiritual stability is established, the algorithm introduces the historical pattern of modern revelation, priesthood authority, and the absolute necessity of the **Restoration**.
+
+### Profile C: The Secular Seeker (Agnostic/No Exposure Roots)
+*   **The Mindset:** Completely non-religious, relativistic, or agnostic. Immersed heavily in algorithms optimized for vanity or consumerism, resulting in high rates of isolation and a subconscious hunger for meaning.
+*   **The App Strategy:** Do not launch with heavy doctrine, scripture references, or institutional names. Start precisely where the Light of Christ naturally prompts their conscience: their native recognition of moral goodness.
+*   **The Feed Loop:** Serve beautiful, captivating, cinematic media depicting selflessness, the order of creation, and profound human goodness. When the user interacts positively with these elements, the system explicitly names the experience: *"That feeling of profound peace and truth you are experiencing right now has a name. It is the Light of Christ."* This transitions them safely into foundational biblical history.
+
+---
+
+## 4. The Active Latter-day Saint Sub-System (Faith Maintenance)
+If the initial onboarding or interaction data flags the user as an existing, active member of the Church of Jesus Christ of Latter-day Saints, the platform dynamically re-routes its operational purpose.
+*   **The Objective:** Maintain devotion, deepen personal conversion, and refine testimony.
+*   **The Features:** 
+    *   **Clarification Engine:** A targeted workspace where members can clarify deep doctrinal questions, analyze scriptural meanings, and access historical contexts safely.
+    *   **Private Daily Journaling:** A quiet interface within their screen time boundaries where they can document daily thoughts, spiritual promptings, and personal victories over secular distractions.
+    *   **Uplifting Micro-Feeds:** Specialized media feeds aimed at strengthening their capacity to minister offline to others.
+
+---
+
+## 5. Machine Learning Rules & System Guardrails
+
+### Rule 1: Zero Hallucination Target Corpus
+To eliminate the severe theological risks associated with generative AI text or spontaneous content creation, Version 1.0 **prohibits generative AI text models from writing doctrine**. The app functions exclusively as an **intelligent content router**. The corpus must consist entirely of pre-verified, authenticated scriptures, General Conference talks, professional biblical dramatizations, and historically vetted religious discussions or scholar debates.
+
+### Rule 2: Tracking Resonance Over Retention
+Traditional algorithms measure engagement to optimize watch-time and ad consumption. MBM's machine learning model measures **Spiritual Resonance**. 
+*   The system analyzes user interactions (voluntary multiple-choice inputs, explicit thumbs-up/down feedback, and voluntary journaling or resource searches).
+*   The ML loops map *how* a person naturally processes truth (e.g., whether they respond best to emotional, historical, or intensely logical/apologetic material) and customizes the *delivery style* of the verified corpus to fit their natural cognitive pattern.
+
+### Rule 3: Hidden Progression Logic (Milk to Meat)
+The categorical tiers ("Milk", "Bridge", "Meat") remain entirely hidden from the user interface. The user interacts with what appears to be a seamless, simple gospel application. The introduction of the "Meat"—the restored gospel, modern scripture, covenant definitions, and direct links to the Church of Jesus Christ of Latter-day Saints—is strictly **pull-based**. It is only unlocked when the user's voluntary search history, direct requests for "more depth," or active prompt selections trigger the system for next steps. 
+
+### Rule 4: The Safety Loop Emergency Valve
+If a user is routed into deeper structural content ("Meat" or "Bridge") and their interaction drops, or if they explicitly indicate that the content is confusing or unhelpful, the system automatically triggers a safety valve. It resets their profile state, bypasses the complex material, and loops them cleanly back to foundational, comforting biblical "Milk," acting as a permanent, safe space for general spiritual refreshment.
+
+### Rule 5: Designed Time Demarcation
+To demonstrate that this is a tool built by disciples to rescue souls from phone addiction rather than exploit them, the app integrates built-in screen boundaries. After a designated threshold of healthy engagement (e.g., 15–20 minutes), the algorithm pauses the feed and outputs a clear prompt: *"You have filled your cup with light for today. Go close the app, step away from the screen, and go share that light with someone in the real world."*
+
+---
+
+## 6. Implementation Roadmap for Claude AI Prototype (Version 1.0)
+To get a working prototype built immediately without heavy developmental overhead, instruct your Claude code generator to execute the following modular development files:
+
+1.  **Module A (Front-End Mobile Web UI):** Create a single-page responsive application interface. Build the initial simple animation loop container for "He Is Risen," followed by a clean rendering of the 5-choice onboarding question.
+2.  **Module B (Database Schema & Hardcoded Corpus):** Setup a local relational database structure. Populate it with a mock library of 30–50 existing external links categorized cleanly into three simple target tags (`FOUNDATIONAL_MILK`, `APOLOGETIC_BRIDGE`, `MEMBER_MAINTENANCE`).
+3.  **Module C (Hidden Routing Logic Script):** Write a clean Python backend script that captures the onboarding selection, maps it to the designated backend feed without displaying any tags to the user, and serves the corresponding links. Include a basic mechanism where clicking a "Tell Me More" button elevates their content access tier, and a "Keep It Simple" button drops them back to foundational links.

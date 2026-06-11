@@ -1,0 +1,14 @@
+{
+  "neutral": {
+    "GENTLE_EXPLORE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "readiness_revelation": {
+    "HONEST_EVIDENCE": {
+      "good": 1,
+      "bad": 0
+    }
+  }
+}

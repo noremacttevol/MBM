@@ -1,0 +1,26 @@
+{
+  "warmth_devotional": {
+    "GENTLE_EXPLORE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "curiosity": {
+    "GENTLE_EXPLORE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "grief_pain": {
+    "GENTLE_QUESTION": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "analytical_debate": {
+    "HONEST_EVIDENCE": {
+      "good": 1,
+      "bad": 0
+    }
+  }
+}

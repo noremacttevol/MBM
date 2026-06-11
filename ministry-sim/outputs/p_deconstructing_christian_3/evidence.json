@@ -1,0 +1,14 @@
+{
+  "god_not_good_wound": {
+    "COMPARISON": {
+      "good": 3,
+      "bad": 0
+    }
+  },
+  "analytical_debate": {
+    "HONEST_EVIDENCE": {
+      "good": 1,
+      "bad": 0
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "readiness_good_god": {
+    "COMPARISON": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "analytical_debate": {
+    "COMPARISON": {
+      "good": 3,
+      "bad": 0
+    }
+  }
+}

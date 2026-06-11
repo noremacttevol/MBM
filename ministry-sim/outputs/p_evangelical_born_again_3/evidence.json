@@ -1,0 +1,26 @@
+{
+  "analytical_debate": {
+    "COMPARISON": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "readiness_revelation": {
+    "GENTLE_EXPLORE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "readiness_good_god": {
+    "COMPARISON": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "grief_pain": {
+    "COMPARISON": {
+      "good": 1,
+      "bad": 0
+    }
+  }
+}

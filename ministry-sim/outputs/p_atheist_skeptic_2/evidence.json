@@ -1,0 +1,24 @@
+{
+  "readiness_good_god": {
+    "HONEST_EVIDENCE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "grief_pain": {
+    "PRESENCE": {
+      "good": 1,
+      "bad": 0
+    },
+    "HONEST_EVIDENCE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "analytical_debate": {
+    "HONEST_EVIDENCE": {
+      "good": 1,
+      "bad": 0
+    }
+  }
+}

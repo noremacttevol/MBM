@@ -1,0 +1,14 @@
+{
+  "grief_pain": {
+    "PRESENCE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "disengage": {
+    "HONOR_AND_RELEASE": {
+      "good": 1,
+      "bad": 0
+    }
+  }
+}

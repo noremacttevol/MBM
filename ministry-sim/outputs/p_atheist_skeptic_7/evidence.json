@@ -1,0 +1,14 @@
+{
+  "grief_pain": {
+    "HONEST_EVIDENCE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "anger_betrayal": {
+    "GENTLE_EXPLORE": {
+      "good": 1,
+      "bad": 0
+    }
+  }
+}

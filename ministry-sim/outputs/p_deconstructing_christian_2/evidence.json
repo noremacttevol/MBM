@@ -1,0 +1,24 @@
+{
+  "anger_betrayal": {
+    "HONOR_AND_RELEASE": {
+      "good": 1,
+      "bad": 0
+    },
+    "COMPARISON": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "grief_pain": {
+    "PRESENCE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "god_not_good_wound": {
+    "COMPARISON": {
+      "good": 1,
+      "bad": 0
+    }
+  }
+}

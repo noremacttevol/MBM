@@ -1,0 +1,18 @@
+{
+  "readiness_good_god": {
+    "HONOR_AND_RELEASE": {
+      "good": 1,
+      "bad": 0
+    },
+    "HONEST_EVIDENCE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "analytical_debate": {
+    "HONEST_EVIDENCE": {
+      "good": 2,
+      "bad": 0
+    }
+  }
+}

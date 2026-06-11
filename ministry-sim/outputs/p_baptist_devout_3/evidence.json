@@ -1,0 +1,14 @@
+{
+  "readiness_good_god": {
+    "GENTLE_EXPLORE": {
+      "good": 2,
+      "bad": 0
+    }
+  },
+  "readiness_revelation": {
+    "GENTLE_EXPLORE": {
+      "good": 2,
+      "bad": 0
+    }
+  }
+}

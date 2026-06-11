@@ -1,0 +1,26 @@
+{
+  "grief_pain": {
+    "PRESENCE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "anger_betrayal": {
+    "GENTLE_EXPLORE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "warmth_devotional": {
+    "HONEST_EVIDENCE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "god_not_good_wound": {
+    "COMPARISON": {
+      "good": 1,
+      "bad": 0
+    }
+  }
+}

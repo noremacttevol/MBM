@@ -1,0 +1,14 @@
+{
+  "readiness_revelation": {
+    "GENTLE_EXPLORE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "god_not_good_wound": {
+    "COMPARISON": {
+      "good": 1,
+      "bad": 0
+    }
+  }
+}

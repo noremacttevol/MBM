@@ -1,0 +1,20 @@
+{
+  "readiness_revelation": {
+    "GENTLE_EXPLORE": {
+      "good": 0,
+      "bad": 1
+    }
+  },
+  "analytical_debate": {
+    "HONEST_EVIDENCE": {
+      "good": 2,
+      "bad": 0
+    }
+  },
+  "grief_pain": {
+    "HONEST_EVIDENCE": {
+      "good": 1,
+      "bad": 0
+    }
+  }
+}

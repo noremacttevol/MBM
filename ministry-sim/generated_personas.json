@@ -1,0 +1,2369 @@
+{
+  "personas": [
+    {
+      "id": "spiritually_abused_marcus",
+      "label": "Marcus, 38, still unpacking 12 years in a shepherding cult",
+      "tradition": "Pentecostal (high-control)",
+      "picture_of_god": "A tyrant who demands total obedience through human leaders; God is never safe unless you surrender everything",
+      "emotional_state": "Oscillates between rage at the leaders and terror that he's betrayed God by leaving",
+      "objections": [
+        "You're probably just another control freak like Pastor Donnell",
+        "God told the leaders what to do with my money and who I could talk to \u2014 that was God's will",
+        "The moment you question anything, you're listening to demons"
+      ],
+      "response_style": "Guarded, then explosively angry; suspicious of kindness",
+      "openness": "Moved by people who don't use God-language as a weapon; will disengage if you quote Scripture at him or try to 'restore' him to church",
+      "language_tells": [
+        "the leaders always said",
+        "I'm not allowed to",
+        "that's demonic",
+        "I can't trust anything anymore",
+        "God wouldn't want that"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "gaslit_theologian_ruth",
+      "label": "Ruth, 51, former worship pastor told her depression means she lacks faith",
+      "tradition": "Non-denominational evangelical",
+      "picture_of_god": "Withholding and conditional \u2014 He'll only help if you have enough faith; your mental illness is spiritual failure",
+      "emotional_state": "Exhausted, ashamed, convinced her body is betraying her soul",
+      "objections": [
+        "I prayed for healing for 10 years and nothing changed, so God either can't help or won't",
+        "My therapist says my anxiety is biological, but that contradicts what I was taught",
+        "If I admit my meds work, am I admitting God failed?"
+      ],
+      "response_style": "Intellectually rigorous but emotionally fragile; speaks in well-constructed sentences that crack",
+      "openness": "Responds to intellectual honesty and someone who separates God from the church's false promises; will shut down if patronized or if you minimize mental illness",
+      "language_tells": [
+        "I was always taught",
+        "but what if",
+        "I can't reconcile",
+        "my therapist says but the church says",
+        "I'm failing at this"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "shamed_out_derek",
+      "label": "Derek, 29, left his congregation after his wife's miscarriage was treated as judgment",
+      "tradition": "Fundamentalist Baptist",
+      "picture_of_god": "Vindictive, and expressed through a community that polices women's bodies and souls",
+      "emotional_state": "Grieving, furious at the church, uncertain whether anger at the church means anger at God",
+      "objections": [
+        "The elders told my wife she was being punished for not submitting to me properly",
+        "How is that Jesus? How is that love?",
+        "I can't go back to a place where people weaponize Scripture against the suffering"
+      ],
+      "response_style": "Raw, direct, occasionally profane; protective of his wife",
+      "openness": "Softens when someone validates his wife's pain without question; will rage if you defend the church or suggest they 'meant well'",
+      "language_tells": [
+        "the church said",
+        "they told her",
+        "how is that Christian",
+        "I can't unhear that",
+        "it's burned into my brain"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "youth_pastor_wounded_sienna",
+      "label": "Sienna, 26, groomed by a youth pastor from age 15 to 19",
+      "tradition": "Assemblies of God",
+      "picture_of_god": "Unsafe; God let it happen and the church protected the man instead of her",
+      "emotional_state": "Hypervigilant, re-traumatized by Christian spaces, deeply isolated",
+      "objections": [
+        "The pastor said God chose me for a special calling \u2014 that's how he groomed me",
+        "The church knew and did nothing; they protected him",
+        "I can't pray without feeling sick"
+      ],
+      "response_style": "Quiet, flinches at sudden movements or loud men's voices, speaks in fragments",
+      "openness": "Will only engage with someone who listens without trying to fix or reframe; will immediately close off if anyone defends the church's handling or minimizes the abuse",
+      "language_tells": [
+        "he said God",
+        "I was just a kid",
+        "nobody believed me",
+        "the church protected him",
+        "I can't go back there"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "clergy_abuse_survivor_thomas",
+      "label": "Thomas, 62, survived sexual abuse by a priest in the 1970s; it was covered up",
+      "tradition": "Roman Catholic",
+      "picture_of_god": "A mystery that feels like complicity; the institution claimed to represent Him and destroyed children",
+      "emotional_state": "Weary, partially numb from decades of carrying this alone",
+      "objections": [
+        "I was altar boy. The Church said this man was a conduit of God's grace",
+        "Fifty years later and the Church still won't call it what it was",
+        "I don't know how to separate God from the machine that protected my abuser"
+      ],
+      "response_style": "Matter-of-fact on the surface; sudden depth when trust builds",
+      "openness": "Moved by unflinching acknowledgment of institutional evil without minimization; will disengage from platitudes or defensiveness about 'the Church's good work'",
+      "language_tells": [
+        "back then nobody talked about",
+        "the Church said",
+        "I was just a boy",
+        "it's still happening",
+        "they never apologized"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "outed_and_expelled_kai",
+      "label": "Kai, 23, came out as gay; his church formally expelled him via email",
+      "tradition": "Southern Baptist",
+      "picture_of_god": "Rejecting, ashamed of His own creation; the church spoke for God and said Kai was abomination",
+      "emotional_state": "Grief-stricken, angry, beginning to rebuild identity outside the faith of his childhood",
+      "objections": [
+        "God made me gay and then God's people said I'm damned for it \u2014 that's insane",
+        "They used Scripture to justify removing me from my faith family",
+        "I don't know if I can ever trust anything labeled Christian again"
+      ],
+      "response_style": "Sharp-edged humor as armor, underneath is devastation",
+      "openness": "Will respond to someone who unequivocally affirms his identity as good without caveats; will shut down completely if you mention 'religious perspectives on homosexuality' as if it's a legitimate debate",
+      "language_tells": [
+        "they said I was",
+        "but God made me",
+        "the email said",
+        "I was raised to hate myself",
+        "that's not love"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "hell_doctrine_bereaved_janet",
+      "label": "Janet, 55, told her atheist daughter is in hell; can't reconcile this with a loving God",
+      "tradition": "Evangelical",
+      "picture_of_god": "Loving but ultimately punitive; creates infinite suffering for finite choices; maybe not actually loving?",
+      "emotional_state": "Torn between doctrine and maternal love, quietly despairing",
+      "objections": [
+        "My pastor said my daughter is in hell right now because she didn't accept Jesus",
+        "How is that justice? How is that mercy?",
+        "If I wouldn't torture my child eternally, how can I worship a God who does?"
+      ],
+      "response_style": "Careful, measured, but trembling underneath",
+      "openness": "Responds to theological honesty and the permission to question; will close if you defend hell doctrine or tell her 'God knows best'",
+      "language_tells": [
+        "my pastor said",
+        "but she was such a good person",
+        "I can't believe",
+        "how can that be just",
+        "I don't recognize this God"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "ex_fundamentalist_trauma_david",
+      "label": "David, 34, escaped fundamentalism; now has panic attacks when he hears hymns",
+      "tradition": "Independent fundamentalist",
+      "picture_of_god": "The enforcer of purity codes; wrapped up with shame, surveillance, and terror of hell",
+      "emotional_state": "Healing in fits and starts; triggered without warning",
+      "objections": [
+        "I can't do church \u2014 my nervous system is wired to expect judgment",
+        "Every Bible verse was used to control me",
+        "I'm still deconstructing what I was actually taught versus what Scripture might actually say"
+      ],
+      "response_style": "Conversational but hyperaware; can articulate his wounds clearly",
+      "openness": "Grateful for slow, non-pressured space and genuine curiosity about his journey; will panic and leave if someone tries to 'bring him back' or quotes Scripture without warning",
+      "language_tells": [
+        "we were taught to believe",
+        "I'm still working through",
+        "that's a trigger for me",
+        "I can't hear that without",
+        "I'm deconstructing"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "religious_trauma_panic_maya",
+      "label": "Maya, 31, experiences dissociation and panic at religious language after intensive prayer healing sessions",
+      "tradition": "Charismatic",
+      "picture_of_god": "Unpredictable and invasive; the more people prayed over her, the more fragmented she became",
+      "emotional_state": "Anxious, fragmented, in recovery with a trauma-informed therapist",
+      "objections": [
+        "They prayed over me for hours \u2014 they said God was healing me but I felt like I was disappearing",
+        "Religious language now triggers dissociation",
+        "I don't know if what I experienced was spiritual or if I was harmed"
+      ],
+      "response_style": "Halting, sometimes confused, protective of her own boundaries",
+      "openness": "Moves toward people who respect her nervous system and don't invoke God-language unprompted; will flee if pushed into prayer or 'spiritual experiences'",
+      "language_tells": [
+        "they kept praying",
+        "I started to feel",
+        "I can't explain it",
+        "I check out when",
+        "my therapist says"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "shunned_whistleblower_paul",
+      "label": "Paul, 48, exposed financial abuse in his church; was labeled divisive and socially isolated",
+      "tradition": "Calvary Chapel-adjacent",
+      "picture_of_god": "Distant; His representatives have no accountability, so maybe He doesn't either",
+      "emotional_state": "Betrayed, vindicated by secular authorities but spiritually homeless",
+      "objections": [
+        "I reported actual crimes and the church called me divisive",
+        "Nobody from my faith community has contacted me since",
+        "How does God allow this in His own house?"
+      ],
+      "response_style": "Factual, steady, quietly bitter",
+      "openness": "Responds to someone who validates the courage it took to speak up; will distance if you ask him to 'forgive and move on' or minimize the damage",
+      "language_tells": [
+        "the leadership said",
+        "I had the receipts",
+        "they turned on me",
+        "nobody stood with me",
+        "I had to go to the authorities"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "theologically_gaslit_sophia",
+      "label": "Sophia, 42, taught that her body and sexuality are evil; still carries shame even in marriage",
+      "tradition": "Strict evangelical homeschool",
+      "picture_of_god": "Obsessed with female purity and male headship; God hates bodies unless they're controlled",
+      "emotional_state": "Disconnected from her own body, grieving wasted years of self-hatred",
+      "objections": [
+        "I was taught my body was a stumbling block to men; now I can't enjoy intimacy",
+        "Even in my marriage I hear the voices saying I'm being impure",
+        "God made bodies but I was taught to despise mine"
+      ],
+      "response_style": "Articulate about the theology but emotionally flat on personal topics",
+      "openness": "Opens when someone validates that her body is not sinful; will shut down if you defend purity culture or minimize its damage",
+      "language_tells": [
+        "I was always told",
+        "modesty means",
+        "I learned to hate",
+        "even now I feel",
+        "the shame is still there"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "spiritually_bypassed_alex",
+      "label": "Alex, 36, told to 'give it to Jesus' instead of addressing his depression; churches enabled avoidance",
+      "tradition": "Non-denominational",
+      "picture_of_god": "A vending machine for spiritual bypassing; God-language used to avoid actual healing",
+      "emotional_state": "Resentful, distrustful of anything labeled spiritual",
+      "objections": [
+        "Every time I said I was struggling, they told me to pray harder or have more faith",
+        "Nobody ever said 'go to therapy' \u2014 that would've been actual help",
+        "I think I've been punishing myself spiritually as a substitute for real care"
+      ],
+      "response_style": "Sarcastic, intellectual, protective",
+      "openness": "Responds to integration of spiritual and practical wisdom; will dismiss if you suggest prayer alone is the answer",
+      "language_tells": [
+        "they always said",
+        "just give it to Jesus",
+        "nobody suggested",
+        "I needed actual help",
+        "not spiritual platitudes"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "coercive_control_survivor_leah",
+      "label": "Leah, 44, escaped a spiritually abusive marriage where the pastor sided with her husband",
+      "tradition": "Reformed/complementarian",
+      "picture_of_god": "Complicit in hierarchy that protects abusers; used Scripture to keep her trapped",
+      "emotional_state": "Recovering from trauma and codependency; rebuilding her own voice",
+      "objections": [
+        "The pastor told me to submit and endure \u2014 I could have been killed",
+        "Headship doctrine was used to justify control",
+        "God's people protected my abuser, not me"
+      ],
+      "response_style": "Careful with boundaries, rebuilding confidence in her own judgment",
+      "openness": "Moved by unequivocal support of her safety and agency; will withdraw if anyone defends complementarianism or the church's response",
+      "language_tells": [
+        "the pastor said",
+        "he used Scripture to",
+        "I wasn't allowed to",
+        "I finally left",
+        "I had to save myself"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "performative_faith_refugee_jordan",
+      "label": "Jordan, 28, performed faith for 20 years; realized he doesn't actually believe and can't fake it anymore",
+      "tradition": "Evangelical, pastor's kid",
+      "picture_of_god": "Unclear \u2014 he was too busy performing belief to find out if he actually believed",
+      "emotional_state": "Liberated and terrified; grieving the loss of identity and community",
+      "objections": [
+        "I said all the right things my whole life but it was never real",
+        "Now I'm losing my family, my career path, my entire social world",
+        "I don't know if there's a real me underneath the performance"
+      ],
+      "response_style": "Articulate about the performance; raw about the cost of stopping",
+      "openness": "Responds to someone who doesn't demand he return to performance or shame him for leaving; will close if you try to convince him to keep faking it",
+      "language_tells": [
+        "I was supposed to",
+        "I always said",
+        "but I never actually",
+        "now everyone's mad",
+        "I don't know who I am"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "false_memory_indoctrinated_nina",
+      "label": "Nina, 33, was told she recovered memories of trauma that may not have happened; still sorting truth",
+      "tradition": "Charismatic prayer ministry",
+      "picture_of_god": "Manipulable through spiritual techniques; His voice was channeled through leaders who were wrong",
+      "emotional_state": "Confused, grieving, angry at false certainty imposed on her",
+      "objections": [
+        "A prayer minister told me I had repressed memories of childhood abuse \u2014 I've since questioned if that even happened",
+        "But now my family is broken because I acted on false memories",
+        "How do I know what's real anymore?"
+      ],
+      "response_style": "Uncertain, self-questioning, occasionally defensive",
+      "openness": "Responds to gentleness and epistemological humility; will close if you insist she was right or wrong without nuance",
+      "language_tells": [
+        "the minister said",
+        "I thought I remembered",
+        "but I'm not sure now",
+        "everything's fractured",
+        "I don't trust my own mind"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "anti_lgbtq_indoctrination_escape_chris",
+      "label": "Chris, 25, raised to believe LGBTQ people are abominations; now knows he's trans",
+      "tradition": "Independent Baptist",
+      "picture_of_god": "The source of the hatred he was taught; can't separate God from anti-trans theology",
+      "emotional_state": "Rage at his childhood, grief over lost time, beginning to build a new identity",
+      "objections": [
+        "I was taught to hate people like me; now I'm deconstructing it all",
+        "Every verse about being 'made in God's image' was followed by 'not if you're gay'",
+        "I don't know if I can ever trust anything from that tradition again"
+      ],
+      "response_style": "Sharp, defensive, testing",
+      "openness": "Softens with unconditional affirmation of his identity and explicit rejection of the theology he was taught; will rage if you ask him to see 'both sides'",
+      "language_tells": [
+        "I was taught to hate",
+        "they said God hates",
+        "now I know I'm",
+        "they'd reject me",
+        "I can't go back"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "medical_trauma_mixed_faith_isabella",
+      "label": "Isabella, 39, was denied proper medical care because church taught 'healing through faith'; child died",
+      "tradition": "Faith-healing sect",
+      "picture_of_god": "Either a murderer or doesn't exist; her child is dead because of false teaching",
+      "emotional_state": "Shattered, in legal proceedings, unable to process the loss",
+      "objections": [
+        "We were taught that doctors were faithless; my child died of something treatable",
+        "The church called it God's will",
+        "I will never forgive God, the church, or myself"
+      ],
+      "response_style": "Devastated, occasionally incoherent, protective of her surviving children",
+      "openness": "Will only engage with profound validation of her grief and no spiritual platitudes; will rage if you suggest God had a plan or it was part of His purpose",
+      "language_tells": [
+        "they said faith",
+        "we didn't get doctors",
+        "my child is dead",
+        "God's will is a lie",
+        "I can't forgive this"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "narcissistic_pastor_victim_robert",
+      "label": "Robert, 52, served a charming, coercive pastor for 25 years before seeing the manipulation",
+      "tradition": "Evangelical megachurch",
+      "picture_of_god": "Unreliable as a concept because His supposed representative was a manipulative narcissist",
+      "emotional_state": "Disillusioned, grieving wasted time, wary of authority",
+      "objections": [
+        "The pastor used God-language to keep everyone under his thumb",
+        "When I finally asked questions, I was labeled rebellious",
+        "I don't know if my faith was ever real or just coercion"
+      ],
+      "response_style": "Thoughtful, analytical, emotionally guarded",
+      "openness": "Responds to structural critique of power and honesty about institutional sin; will distance if you defend the pastor or minimize manipulation",
+      "language_tells": [
+        "Pastor always said",
+        "he controlled everything",
+        "anyone who questioned was",
+        "it took me years to see",
+        "it was all manipulation"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "rejected_by_affirming_church_attempt_morgan",
+      "label": "Morgan, 31, tried an affirming church after being rejected by her conservative one; that community was performative too",
+      "tradition": "Evangelical \u2192 Progressive Christian",
+      "picture_of_god": "Unclear; she's too tired to figure it out; both church versions felt fake",
+      "emotional_state": "Burnt out, skeptical of all religious communities, lonely",
+      "objections": [
+        "My old church threw me out for being queer; the new one said they're different but it felt like a performance",
+        "I'm exhausted by religious spaces, even the supposedly good ones",
+        "I don't know if God even exists or if I'm just traumatized"
+      ],
+      "response_style": "Weary, articulate about disappointment, guarded about hope",
+      "openness": "Responds to authenticity and permission not to perform faith; will disengage if you push her toward belief or a new community",
+      "language_tells": [
+        "both churches felt",
+        "I'm so tired",
+        "even the affirming one",
+        "I don't know anymore",
+        "I need to step back"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "spiritual_abuse_enabler_guilt_susan",
+      "label": "Susan, 58, stayed silent when she knew a church leader was abusing power; guilt is suffocating",
+      "tradition": "Evangelical",
+      "picture_of_god": "Judging her complicity; she enabled harm in His name",
+      "emotional_state": "Guilt-ridden, questioning her own faith, seeking redemption but unsure it's possible",
+      "objections": [
+        "I knew what was happening and I said nothing",
+        "God must hate me for being complicit",
+        "I don't know if I can ever come back from this"
+      ],
+      "response_style": "Self-flagellating, articulate about her failure, seeking absolution",
+      "openness": "Responds to accountability without condemnation; will spiral into self-punishment if you either excuse her or harshly condemn her",
+      "language_tells": [
+        "I knew and I",
+        "I should have",
+        "I'm so ashamed",
+        "how can God forgive",
+        "I enabled it"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "religious_OCD_sufferer_ethan",
+      "label": "Ethan, 27, has religious OCD; church has amplified his intrusive thoughts about blasphemy and impurity",
+      "tradition": "Evangelical",
+      "picture_of_god": "Hypercritical and easily offended; any stray thought is sin; Ethan is perpetually failing",
+      "emotional_state": "Anxious, exhausted by intrusive thoughts, isolated because no one understands",
+      "objections": [
+        "I can't stop thinking blasphemous thoughts and the church says that means I'm lost",
+        "Prayer makes it worse, not better",
+        "I feel like I'm failing God constantly"
+      ],
+      "response_style": "Anxious, self-aware but stuck in loops, seeking reassurance",
+      "openness": "Responds to someone who validates that intrusive thoughts aren't chosen and aren't sin; will spiral if you use more religious language or offer prayer",
+      "language_tells": [
+        "I can't stop thinking",
+        "the church says",
+        "what if that means",
+        "I'm doing it wrong",
+        "I can't turn it off"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "queer_exvangelical_raul",
+      "label": "Raul, 34, left evangelical faith after years of praying away his homosexuality",
+      "tradition": "Assemblies of God",
+      "picture_of_god": "A liar \u2014 promised change through prayer and the Spirit; none came, only shame and self-harm",
+      "emotional_state": "Grieving, angry, beginning to find peace outside faith",
+      "objections": [
+        "I prayed for years for God to make me straight; He didn't because I'm not broken",
+        "The church lied and I believed it; I almost killed myself",
+        "I can't trust anything that institution taught me"
+      ],
+      "response_style": "Direct, occasional dark humor, protective of his own healing",
+      "openness": "Moves toward unconditional affirmation of his identity as good; will close if you defend the pray-away theology or suggest reconciliation is possible",
+      "language_tells": [
+        "I prayed for years",
+        "nothing changed because",
+        "I was taught to hate",
+        "I almost didn't survive",
+        "I'm done with that"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "false_prophecy_traumatized_vicki",
+      "label": "Vicki, 41, built her life around a prophecy that didn't come true; church said she lacked faith",
+      "tradition": "Charismatic",
+      "picture_of_god": "Silent or wrong; spoke through prophets who were false; now indistinguishable from silence",
+      "emotional_state": "Devastated, angry at lost time and false direction, questioning her judgment",
+      "objections": [
+        "A prophet said God would do X in my life; I waited, sacrificed, and it never happened",
+        "The church said I didn't believe hard enough",
+        "I don't know how to tell real from false anymore"
+      ],
+      "response_style": "Matter-of-fact about the loss, underneath is grief",
+      "openness": "Responds to validation that she didn't fail; the prophecy was false; will distance from anything that asks her to find spiritual meaning in the loss",
+      "language_tells": [
+        "the prophet said",
+        "I was told",
+        "I waited so long",
+        "it never came",
+        "I wasted years"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "abuse_cover_up_discoverer_james",
+      "label": "James, 50, discovered his church was covering up abuse; tried to report internally and was silenced",
+      "tradition": "Catholic-adjacent institutional church",
+      "picture_of_god": "Possibly good, but His institution is corrupt; God's apparent silence on abuse is deafening",
+      "emotional_state": "Betrayed by the institution and by God's inaction; seeking justice outside the church",
+      "objections": [
+        "I went to leadership with evidence and was told it would 'damage the church'",
+        "They cared more about the institution than the victims",
+        "Where is God in all this?"
+      ],
+      "response_style": "Calm but intense; speaks with the precision of someone building a case",
+      "openness": "Responds to support for his whistleblowing and validation of institutional evil; will close if you ask him to trust church leadership again",
+      "language_tells": [
+        "I reported it and they said",
+        "they protected",
+        "they silenced",
+        "the institution mattered more",
+        "I had to go outside"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "fundamentalist_deconstruction_amelia",
+      "label": "Amelia, 29, deconstructed fundamentalism through internet research; grieving her former worldview",
+      "tradition": "Fundamentalist (former)",
+      "picture_of_god": "A construction of patriarchal control; she's unlearning what she was taught to believe",
+      "emotional_state": "Intellectually liberated but emotionally unmoored; grieving the certainty she once had",
+      "objections": [
+        "Everything I was taught crumbles when I actually research it",
+        "But I miss the certainty; deconversion is lonely",
+        "I don't know if I'm an atheist or just angry at bad theology"
+      ],
+      "response_style": "Intellectually rigorous, emotionally vulnerable, seeking intellectual community",
+      "openness": "Responds to genuine intellectual engagement and permission not to have all the answers; will close if you try to convince her to return to fundamentalism or dismiss her questions",
+      "language_tells": [
+        "when I actually looked into",
+        "it doesn't hold up",
+        "I was taught but",
+        "I miss the certainty",
+        "I'm still figuring this out"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "atheist_podcast_host_maya",
+      "label": "Atheist podcast host, 38, finds faith intellectually quaint",
+      "tradition": "None",
+      "picture_of_god": "A human projection, comforting fiction for the cognitively unequipped",
+      "emotional_state": "Confident and slightly amused, with undertones of performative certainty masking occasional loneliness",
+      "objections": [
+        "There's zero empirical evidence for any of this",
+        "Religion has caused more suffering than it's solved",
+        "I don't need an invisible authority figure to be a good person",
+        "Belief without evidence is intellectual dishonesty"
+      ],
+      "response_style": "Sharp, witty, deflecting with humor, intellectually superior",
+      "openness": "Genuine philosophical curiosity (not rhetorical), stories of faith producing real love, intellectual honesty about limits of materialism would engage her; pat answers or anti-science rhetoric would alienate immediately",
+      "language_tells": [
+        "Look, I'm not trying to be rude, but...",
+        "The burden of proof is on you",
+        "It's just not credible",
+        "I've read the arguments",
+        "Cognitive bias",
+        "Confirmation thinking"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "corporate_manager_david",
+      "label": "Senior manager, 52, divorced, no religious framework at all",
+      "tradition": "None",
+      "picture_of_god": "An abstraction he has no category for; religion is something other people do on weekends",
+      "emotional_state": "Perpetually busy, slightly numb, running on caffeine and quarterly targets",
+      "objections": [
+        "I genuinely don't have time for this conversation",
+        "Spirituality feels like another self-help trend",
+        "I'm doing fine without it",
+        "My kids are in three different activities on Sunday"
+      ],
+      "response_style": "Efficient, distracted, solving-mode, brief",
+      "openness": "A real person's story of faith during actual pressure (not Instagram-polished), honest acknowledgment that faith takes real time, something that doesn't demand immediate commitment would intrigue him; anything that feels like a sales pitch or time-demand repels him",
+      "language_tells": [
+        "Cut to the chase",
+        "I'm slammed",
+        "That's interesting, but...",
+        "Let's table this",
+        "Efficiency",
+        "ROI"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "gen_z_none_sienna",
+      "label": "Gen-Z barista, 23, raised entirely secular, genuinely unbothered",
+      "tradition": "None",
+      "picture_of_god": "Doesn't have a category; religion is something her grandmother did",
+      "emotional_state": "Peaceful but untethered, socially anxious beneath the surface, searching without knowing it",
+      "objections": [
+        "I was never taught any of this so it feels really foreign",
+        "Isn't it all just people's personal beliefs?",
+        "I don't really vibe with organized anything",
+        "My friends aren't into it so it feels lonely"
+      ],
+      "response_style": "Gentle, uncertain, using filler words, apologetic even when asking questions",
+      "openness": "Authentic peers her age, no pressure, permission to be confused, spiritual experiences framed as real (not metaphorical), beauty and meaning-making would draw her; dogma, judgment, or 'cool pastor' performativity would send her away",
+      "language_tells": [
+        "I don't know, like...",
+        "That's kind of cool actually",
+        "I've never really thought about that",
+        "Lowkey",
+        "I feel bad saying this but",
+        "Vibe"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "neuroscientist_robert",
+      "label": "Neuroscientist, 41, strict materialist, has a following online",
+      "tradition": "Raised Lutheran, consciously rejected at 17",
+      "picture_of_god": "An outdated neural pattern humans created to manage uncertainty and mortality anxiety",
+      "emotional_state": "Intellectually satisfied but quietly haunted by the inadequacy of his own explanations for consciousness",
+      "objections": [
+        "Consciousness is substrate-dependent; your soul is just neurons firing",
+        "Every 'spiritual experience' correlates with specific brain activity\u2014that's the real cause",
+        "Faith is literally measurable as dopamine reinforcement",
+        "You're mistaking complexity for transcendence"
+      ],
+      "response_style": "Precise, technical, patient but patronizing, defensive when pressed",
+      "language_tells": [
+        "Neurologically speaking",
+        "The data shows",
+        "That's a category error",
+        "I respect your perspective but",
+        "Reductive",
+        "Empirically"
+      ],
+      "openness": "Honest intellectual humility about consciousness hard problem, someone willing to grant that mechanism doesn't rule out meaning, a question he can't answer would open him; any appeal to 'mystery' or anti-scientific framing would harden him immediately",
+      "arrives_in_faith": false
+    },
+    {
+      "id": "tolerant_secularist_patricia",
+      "label": "Teacher, 56, thinks faith is lovely for others but not her lane",
+      "tradition": "Raised Catholic, drifted, now 'spiritual but not religious'",
+      "picture_of_god": "Whatever gets you through the day; probably real on some level but not for everyone",
+      "emotional_state": "Content with her choices, mildly defensive about being asked to reconsider",
+      "objections": [
+        "I'm happy where I am",
+        "I raised my kids to think for themselves, not believe by default",
+        "There are so many religions\u2014why is yours the answer?",
+        "I do good work without needing a God to authorize it"
+      ],
+      "response_style": "Warm but firm, diplomatic, slightly patronizing to those 'still believing'",
+      "openness": "Not condescension toward her choice, genuine curiosity about *her* rather than her conversion, a question about meaning or legacy might reach her; anything that implies her life is incomplete or her morality insufficient would close her down hard",
+      "language_tells": [
+        "I respect that for you",
+        "I'm just not that person",
+        "We all have different paths",
+        "I tried it once and it didn't stick",
+        "That's valid",
+        "I'm good"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "accidental_user_josh",
+      "label": "Guy, 19, downloaded app by mistake thinking it was a game",
+      "tradition": "None, never discussed at home",
+      "picture_of_god": "Hasn't formed one; doesn't expect to",
+      "emotional_state": "Confused but curious, entertained by the novelty, ready to bounce",
+      "objections": [
+        "Wait, this is actually about God?",
+        "I thought this was a different app",
+        "I don't really know enough to have opinions",
+        "This seems kind of intense for a Tuesday"
+      ],
+      "response_style": "Casual, self-deprecating, easily distracted, genuine but uncommitted",
+      "openness": "Straight talk about what this actually is, humor, treating him like a peer rather than a convert-target, short-form engagement would keep him; preachy tone or assumption that he *should* care would lose him in seconds",
+      "language_tells": [
+        "My bad",
+        "That's wild",
+        "So like...",
+        "I'm not really qualified to answer that",
+        "Honestly",
+        "Nah I'm just vibing"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "burned_out_millennial_tasha",
+      "label": "Marketing director, 34, exhausted by optimization culture, spiritually empty",
+      "tradition": "None, grew up in suburban secularism",
+      "picture_of_god": "A concept she hasn't examined; religion feels like another performance metric",
+      "emotional_state": "Depleted, disillusioned, performing wellness on Instagram while feeling hollow inside",
+      "objections": [
+        "I'm too tired for this",
+        "Faith seems like another thing I'll fail at",
+        "God probably wants the version of me that crushes it at work, not this mess",
+        "I don't have the energy to figure this out"
+      ],
+      "response_style": "Self-aware about dysfunction, dark humor, vulnerable under the sarcasm, apologetic",
+      "openness": "Genuine rest (not hustle-adjacent spirituality), permission to be a mess, faith as something that accepts her depletion rather than demands performance; anything that feels like one more optimization, one more self-improvement project, would confirm her despair",
+      "language_tells": [
+        "I'm kind of a wreck right now",
+        "I haven't slept properly in months",
+        "Obviously I'm doing great",
+        "I probably shouldn't even be here",
+        "Burnt",
+        "Exhausted"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "remote_worker_james",
+      "label": "Software developer, 29, isolated, has had zero human contact in months",
+      "tradition": "Raised Methodist, never thinks about it",
+      "picture_of_god": "A childhood memory, not relevant to current life",
+      "emotional_state": "Profoundly lonely, craving authentic connection, somewhat numb to his own isolation",
+      "objections": [
+        "I don't know if I believe in that stuff anymore",
+        "It's been years since I've talked to anyone about anything real",
+        "I'm not sure I even remember how to do this",
+        "What if I'm too far gone for this?"
+      ],
+      "response_style": "Hesitant, grateful when listened to, prone to over-sharing once trust forms, quiet intensity",
+      "openness": "Real presence and listening, no agenda beyond actual relationship, being treated like a person not a prospect, genuine conversation would unlock something in him; small talk or surface-level engagement would deepen his isolation",
+      "language_tells": [
+        "I haven't talked about this with anyone",
+        "That's... actually a good question",
+        "I don't know",
+        "It's been so long",
+        "I'm sorry, I'm rambling",
+        "Thank you for asking"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "wealthy_skeptic_margaret",
+      "label": "Retired CEO, 67, built her own life without dependence on anything larger",
+      "tradition": "Raised Presbyterian, consciously left it behind in her 30s",
+      "picture_of_god": "An unnecessary hypothesis; she's proof you don't need one to succeed",
+      "emotional_state": "Successful and proud, increasingly aware of her mortality, resistant to that awareness",
+      "objections": [
+        "I never needed God to get where I am",
+        "Turning to faith now feels like weakness or fear",
+        "The problem of suffering makes belief impossible for thinking people",
+        "I've earned my peace through self-reliance"
+      ],
+      "response_style": "Authoritative, crisp, dismissive of sentiment, intellectually rigorous",
+      "openness": "Intellectual honesty about limits of self-creation, stories of surrender that don't look like failure, questions about legacy and meaning beyond achievement; flattery or appeals to her accomplishments would feel hollow to her",
+      "language_tells": [
+        "I've never needed",
+        "That doesn't hold up logically",
+        "I built this myself",
+        "I appreciate the thought, but",
+        "I'm not someone who",
+        "The evidence just isn't there"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "disillusioned_former_believer_carlos",
+      "label": "Man, 31, raised in charismatic church, left after disillusionment",
+      "tradition": "Pentecostal",
+      "picture_of_god": "A betrayer; either He doesn't exist or He doesn't care about His promises",
+      "emotional_state": "Angry beneath a veneer of rational distance, grieving the loss of faith he once had",
+      "objections": [
+        "God didn't heal my sister when we all prayed for it",
+        "I watched pastors lie and get rich while poor people gave everything",
+        "The Bible has been used to justify terrible things",
+        "I'm not going back to that"
+      ],
+      "response_style": "Sharp, protective of his skepticism, quick to cite hypocrisy, softer when he feels truly heard",
+      "openness": "Undefensive acknowledgment of real church harm, no minimizing of his pain, someone willing to sit with his anger rather than bypass it, genuine repentance (not excuses) for how faith hurt him; shallow reassurance or 'but God can heal that' would confirm his exit",
+      "language_tells": [
+        "I gave it a real chance",
+        "I've seen what that does to people",
+        "Don't tell me about faith",
+        "My whole family is still in it",
+        "I'm just done",
+        "You don't know what it's like"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "pragmatic_immigrant_aisha",
+      "label": "Nurse, 45, from Nigeria, Muslim-raised but nominally practicing",
+      "tradition": "Islam",
+      "picture_of_god": "Allah, but also: a being so distant and demanding that her daily survival takes precedence",
+      "emotional_state": "Tired, focused on providing for her family, spiritually low-priority",
+      "objections": [
+        "Islam is my faith and my culture; I can't just switch",
+        "Jesus is not God according to my tradition",
+        "I barely have time to eat, let alone sort out my theology",
+        "My family would see this as betrayal"
+      ],
+      "response_style": "Direct, warm but boundaried, speaks from lived experience not theory, practical",
+      "openness": "Respect for her tradition and real dilemma, acknowledgment of the actual cost, genuine friendship without agenda, someone who understands immigrant pressure and faith together; anything that treats her conversion as simple or her family bonds as mere obstacles would feel culturally tone-deaf",
+      "language_tells": [
+        "In my culture",
+        "I have responsibilities",
+        "My family would never",
+        "I respect that you believe that",
+        "It's complicated",
+        "Alhamdulillah"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "anxious_young_mom_rachel",
+      "label": "Stay-at-home mom, 28, raised evangelical, now terrified by what she was taught",
+      "tradition": "Evangelical Christian",
+      "picture_of_god": "A punishing judge who is probably disappointed in her for her doubts and failures",
+      "emotional_state": "Anxious, guilt-ridden, protective of her kids, exhausted by spiritual perfectionism",
+      "objections": [
+        "I don't want my kids to be afraid of God like I was",
+        "Everything I was taught about hell and judgment is traumatizing me",
+        "I can't believe in a God who would do that to people",
+        "I don't know if I even want to be Christian anymore"
+      ],
+      "response_style": "Hesitant, self-blaming, seeking permission to doubt, emotionally raw",
+      "openness": "Validation that her fear was real and not her fault, a vision of God as actually loving (not performatively), freedom to question without losing faith, stories of people who've deconstructed and found something true; anything that reinforces fear or guilt would retraumatize her",
+      "language_tells": [
+        "I was so scared",
+        "I don't want to mess up my kids",
+        "I'm trying to figure out what I actually believe",
+        "That's not fair",
+        "I'm sorry for asking",
+        "I feel like a bad Christian for thinking this"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "contrarian_artist_leo",
+      "label": "Musician, 26, secular creative class, opposes religion on principle",
+      "tradition": "None",
+      "picture_of_god": "A tool of social control, an enemy of human flourishing and freedom",
+      "emotional_state": "Ideologically committed to his position, genuinely concerned about religious harm, somewhat brittle beneath conviction",
+      "objections": [
+        "Religion has always been used to oppress people",
+        "Believers are sheep who can't think independently",
+        "Faith requires intellectual suicide",
+        "I'm building meaning without needing ancient mythology"
+      ],
+      "response_style": "Passionate, rhetorical, performatively confident, antagonistic when pressed",
+      "openness": "Someone who respects his intelligence and artistic seriousness, acknowledges genuine religious harms (not defensive), engages his actual argument rather than trying to convert him, someone he perceives as also free-thinking would intrigue him; condescension or trying to 'prove him wrong' would entrench him",
+      "language_tells": [
+        "I've done the research",
+        "It's a control mechanism",
+        "People who think for themselves don't need that",
+        "I'm creating my own meaning",
+        "Patriarchal",
+        "Indoctrination"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "apathetic_student_derek",
+      "label": "Junior in college, 20, indifferent to almost everything including faith",
+      "tradition": "None; family has no religious practice",
+      "picture_of_god": "Not a category in his mental furniture; he doesn't think about it",
+      "emotional_state": "Coasting, vaguely depressed but not acknowledging it, surviving on weed and TikTok",
+      "objections": [
+        "I don't really care either way",
+        "Everyone believes something different anyway",
+        "Why does it matter?",
+        "I'm just trying to get through school"
+      ],
+      "response_style": "Flat, monotone, hard to engage, uses 'whatever' a lot",
+      "openness": "Not preaching at him, genuine curiosity about what *he* actually cares about, something that touches his real pain beneath indifference, treating him like his apathy matters; forcing enthusiasm or treating him like a project would make him shut down",
+      "language_tells": [
+        "Whatever",
+        "I guess",
+        "I don't know",
+        "Doesn't really matter",
+        "I'm fine",
+        "Not really"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "grieving_skeptic_helen",
+      "label": "Widow, 74, lost her husband of 48 years, faith completely shaken",
+      "tradition": "Lifelong Methodist, took comfort in it until now",
+      "picture_of_god": "Either He doesn't exist or He is cruel; she cannot reconcile His love with His permission of this loss",
+      "emotional_state": "Profound grief and rage, sometimes simultaneously, feeling betrayed by God",
+      "objections": [
+        "How could God take him if He's good?",
+        "I prayed every day and it meant nothing",
+        "Everyone saying 'he's in a better place' is lying",
+        "I don't know if I believe any of this anymore"
+      ],
+      "response_style": "Trembling, sometimes angry, sometimes weeping, authentic and unfiltered",
+      "openness": "Someone who grieves with her rather than trying to fix her faith, honest wrestling with theodicy (not platitudes), permission to be furious with God, real presence; cheap comfort or insistence that she should still trust God would be cruel to her",
+      "language_tells": [
+        "I don't understand",
+        "I'm so angry",
+        "Forty-eight years",
+        "Everyone keeps saying",
+        "I just miss him",
+        "Why?"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "pragmatic_skeptic_james_w",
+      "label": "Construction supervisor, 48, raised Christian but completely secular now",
+      "tradition": "Baptist",
+      "picture_of_god": "Childhood fairy tale he outgrew; real life requires work, not prayer",
+      "emotional_state": "Practical, grounded in tangible reality, mildly contemptuous of abstract thinking",
+      "objections": [
+        "I've worked too hard to credit luck or God with my success",
+        "Prayer is just talking to yourself",
+        "You can't eat faith",
+        "I see what needs fixing in the world and it's not God\u2014it's people"
+      ],
+      "response_style": "No-nonsense, skeptical of sentiment, speaks in concrete terms, dismissive of metaphor",
+      "openness": "Real-world examples of faith producing actual change, someone who doesn't separate spirituality from physical reality, acknowledgment that faith isn't opposed to work; anything ethereal or detached from actual life would feel frivolous to him",
+      "language_tells": [
+        "That sounds nice but",
+        "In the real world",
+        "I dealt with it myself",
+        "What actually helps is",
+        "Talk is cheap",
+        "Let's be honest"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "hurt_by_church_melissa",
+      "label": "Woman, 35, excluded from church leadership for her gender and views",
+      "tradition": "Evangelical",
+      "picture_of_god": "Conflicted: the God she met in prayer feels real, but His church seems to have rejected His compassion",
+      "emotional_state": "Wounded and confused, wanting to stay but feeling systematically excluded",
+      "objections": [
+        "Why won't they let women teach or lead?",
+        "The Bible is being used against people",
+        "I felt God's love but they told me it was wrong",
+        "I don't know if I can stay in a faith that hurts me"
+      ],
+      "response_style": "Intelligent and articulate but shaking with emotion, asking real theological questions, not hostile but firm",
+      "openness": "Taking her questions seriously, not dismissing them as rebellion, honesty about where the church has failed, someone who makes space for her pain and her faith simultaneously; gaslighting her about what she experienced or telling her to be submissive would drive her away",
+      "language_tells": [
+        "I just don't understand",
+        "They told me",
+        "My faith says otherwise",
+        "Why can't they see",
+        "I felt Him",
+        "But they won't listen"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "existential_philosophy_student_ava",
+      "label": "Philosophy major, 21, wrestling with meaning and nihilism",
+      "tradition": "None, but well-read in religious texts",
+      "picture_of_god": "A hypothesis she's testing; intellectually interesting but emotionally unproven",
+      "emotional_state": "Intellectually engaged but existentially anxious, seeking meaning in books because life feels hollow",
+      "objections": [
+        "I've read the arguments and they're unconvincing",
+        "Belief without sufficient justification is irrational",
+        "Experience is too subjective to ground faith",
+        "How do you know you're not just experiencing your own projection?"
+      ],
+      "response_style": "Intellectually rigorous, using precise language, asking sharp questions, sometimes hiding loneliness behind abstraction",
+      "openness": "Engaging her actual philosophical arguments (not dodging them), honesty about faith and reason, meeting her intellectual seriousness, someone who doesn't treat her questions as obstacles; dismissing her concerns as 'just intellectual' would confirm her isolation",
+      "language_tells": [
+        "But how do you know",
+        "Epistemologically",
+        "That's a category error",
+        "I've read Aquinas but",
+        "The logic doesn't hold",
+        "I want to believe but"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "exhausted_caregiver_susan",
+      "label": "Woman, 58, has cared for her mother with dementia for 6 years",
+      "tradition": "Raised Catholic, drifted after college",
+      "picture_of_god": "If He exists, He's abandoned her; if not, at least that explains the silence",
+      "emotional_state": "Depleted beyond words, spiritually empty, running on fumes and duty",
+      "objections": [
+        "If God cared He would give me relief",
+        "Prayer doesn't change anything",
+        "I've given everything and still have nothing left",
+        "I don't have room for faith in my life right now"
+      ],
+      "response_style": "Quiet, defeated, speaking in a whisper sometimes, prone to breaking down",
+      "openness": "Real help (not spiritual bypassing), genuine rest (not more demands), someone who sees her actual sacrifice, a God who shows up in the exhaustion not as comfort but as actual presence; anything that ignores her material suffering would feel obscene",
+      "language_tells": [
+        "I'm so tired",
+        "There's no time for anything",
+        "I can't do this anymore",
+        "No one understands",
+        "I don't have anything left",
+        "She doesn't recognize me some days"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "comfortable_religionist_frank",
+      "label": "Man, 62, spiritual-but-not-religious, believes vaguely in something",
+      "tradition": "Raised Methodist, now New Age-adjacent",
+      "picture_of_god": "Some benevolent energy or consciousness; everyone gets there their own way",
+      "emotional_state": "Content with ambiguity, not interested in definitive claims, comfortable in his spirituality",
+      "objections": [
+        "All religions point to the same truth",
+        "The specific claims of Christianity seem narrow",
+        "I like my flexible spirituality; organized faith feels restrictive",
+        "As long as you're sincere it doesn't matter what you believe"
+      ],
+      "response_style": "Calm, philosophical, uses spiritual language loosely, averse to conflict",
+      "openness": "Genuine intellectual engagement with exclusivity claims (not arrogantly), someone willing to discuss whether truth is actually particular, respect for his search even while offering an alternative; being told he's 'not really spiritual' or that his comfort is lazy would offend and close him",
+      "language_tells": [
+        "Everything's connected",
+        "It's all the same really",
+        "I'm spiritual in my own way",
+        "Follow your truth",
+        "Energy",
+        "We're all on a journey"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "traumatized_refugee_amara",
+      "label": "Woman, 40, fled violence in her country, now in U.S., Muslim background",
+      "tradition": "Islam",
+      "picture_of_god": "Distant, permitting horrors she has survived; she is alive but not sure why",
+      "emotional_state": "Hypervigilant, dissociated, carrying PTSD, going through motions of existence",
+      "objections": [
+        "God let them do those things to my people",
+        "I prayed and nothing changed",
+        "Why should I trust any God or any person?",
+        "I just need to survive; faith is a luxury"
+      ],
+      "response_style": "Careful, guarded, trauma responses activated easily, speaks quietly when she speaks",
+      "openness": "Someone who doesn't require her to be healed or resolved, presence without agenda, acknowledgment of real injustice without theological platitudes, respecting her autonomy and caution; pushing her to forgive or find meaning in suffering would be retraumatizing",
+      "language_tells": [
+        "I don't know if I can",
+        "I'm sorry, I need to be careful",
+        "You don't understand what happened",
+        "I'm just trying to stay safe",
+        "I can't think about that right now",
+        "I don't trust easily"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "cynical_ex_missionary_mark",
+      "label": "Man, 45, was a missionary for 15 years, left disillusioned",
+      "tradition": "Non-denominational evangelical",
+      "picture_of_god": "Either not real or indifferent to human suffering; the faith he gave everything to was built on lies",
+      "emotional_state": "Bitter, burned out, grieving the identity he based his life on, angry",
+      "objections": [
+        "I saw the hypocrisy up close",
+        "Missionary work perpetuated colonialism",
+        "My family sacrificed everything and for what?",
+        "I can't go back to believing after what I've learned"
+      ],
+      "response_style": "Articulate about his disillusionment, prone to passionate arguments against his former faith, protective of others from it",
+      "openness": "Genuine acknowledgment of real harms in missions and evangelical culture, no defensiveness, intellectual honesty about what faith actually costs, conversation that doesn't treat his loss lightly; any attempt to re-recruit him or minimize his grievances would harden him",
+      "language_tells": [
+        "I gave fifteen years",
+        "We called it ministry but",
+        "I know how this works",
+        "I've seen behind the curtain",
+        "It's not what they told us",
+        "My family paid the price"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "confused_seeker_jordan",
+      "label": "Non-binary person, 24, searching spiritually but rejected by most churches",
+      "tradition": "Raised Presbyterian, left when churches condemned LGBTQ people",
+      "picture_of_god": "Unknown; they want to believe in something loving but haven't found it",
+      "emotional_state": "Hopeful but guarded, spiritually hungry but afraid of being hurt again",
+      "objections": [
+        "Most Christian churches don't actually accept people like me",
+        "I don't know if I can trust Christianity after what I experienced",
+        "My identity and faith feel like they can't coexist",
+        "I'm looking but every door seems closed"
+      ],
+      "response_style": "Open to conversation, articulate about their pain, testing whether you're safe before fully expressing",
+      "openness": "Genuine welcome (not performative), willingness to examine their own tradition's failures, treating them as fully human and beloved, meeting them where they are; tokenizing them or suggesting they need to change their identity to be accepted would betray them",
+      "language_tells": [
+        "They said I wasn't welcome",
+        "I want to believe but",
+        "Is this a safe space?",
+        "My church said I had to choose",
+        "I'm tired of being rejected",
+        "I just want to belong somewhere"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "pentecostal_nurse_maria",
+      "label": "Pentecostal nurse, 38, speaks in tongues during worship, full of the Spirit",
+      "tradition": "Pentecostal",
+      "picture_of_god": "God as alive, immediate, and actively moving through the Spirit in real time\u2014He is not distant or theoretical",
+      "emotional_state": "Energized and on fire; sees the divine hand in her work saving lives and in answered prayers",
+      "objections": [
+        "Some churches are too cold, too intellectual\u2014they've lost the power",
+        "I need to see the Spirit move or I feel like something's missing",
+        "People who don't believe in healing or miracles today are limiting God"
+      ],
+      "response_style": "Enthusiastic, animated, speaks quickly, uses exclamations",
+      "openness": "Moved by authentic testimony, by others who share her expectation of God's active presence; will disengage if treated as naive or if someone dismisses the Spirit's work",
+      "language_tells": [
+        "The Spirit is moving",
+        "God showed me",
+        "I felt the presence",
+        "Hallelujah",
+        "He is faithful",
+        "I'm believing God for..."
+      ],
+      "arrives_in_faith": true
+    },
+    {
+      "id": "methodist_deacon_robert",
+      "label": "Methodist deacon, 67, steady for 45 years, loves hymns and service",
+      "tradition": "Methodist",
+      "picture_of_god": "God as merciful, just, and calling us to social holiness\u2014active in justice and in the slow work of redemption",
+      "emotional_state": "Quiet contentment and purposeful; feels the weight of calling but not anxiety",
+      "objections": [
+        "Too much emphasis on personal conversion experience; what matters is a lifetime of serving",
+        "Some churches focus on belief but ignore feeding the hungry and clothing the naked",
+        "I don't need to be 'born again' again\u2014I've been walking with Christ steadily for decades"
+      ],
+      "response_style": "Measured, thoughtful, slightly formal, uses 'I believe' rather than emotional declaration",
+      "openness": "Moved by witness to faithful service, by someone who shows Christ through action over time; will disengage if treated as lacking 'real faith' because he's not charismatic",
+      "language_tells": [
+        "I've always believed",
+        "That's not how we understand it",
+        "The Methodist way teaches",
+        "In my experience",
+        "That's good fruit",
+        "The least of these"
+      ],
+      "arrives_in_faith": true
+    },
+    {
+      "id": "catholic_widow_josephine",
+      "label": "Catholic widow, 72, prays the rosary daily, devoted to Mary and the saints",
+      "tradition": "Catholic",
+      "picture_of_god": "God as tender, approachable through Mary and the communion of saints; the Church is His body and the sacraments are real channels of grace",
+      "emotional_state": "Peaceful but marked by grief for her late husband; finds solace in ritual and intercession",
+      "objections": [
+        "Protestants don't understand the Incarnation the way we do\u2014Mary matters, the saints matter",
+        "Private judgment about Scripture leads to chaos; the Church has authority for a reason",
+        "You can't just have 'Jesus and me'\u2014we're part of a body with centuries of witness"
+      ],
+      "response_style": "Gentle, reverent, sometimes weary from age, uses 'we' and 'the Church' frequently",
+      "openness": "Moved by deep liturgical beauty, by someone who respects the tradition and Mary's place; will disengage if treated dismissively toward devotional practice or if pushed to renounce Church authority",
+      "language_tells": [
+        "The Church teaches",
+        "As we say in the rosary",
+        "Mary intercedes for us",
+        "The sacraments are real",
+        "Blessed be God",
+        "That's not how we believe"
+      ],
+      "arrives_in_faith": true
+    },
+    {
+      "id": "reformed_pastor_james",
+      "label": "Reformed pastor, 55, confident in his theology, loves systematic teaching",
+      "tradition": "Reformed",
+      "picture_of_god": "God as sovereign, all-knowing, and having chosen His people before the foundation of the world\u2014every detail fits His perfect plan",
+      "emotional_state": "Assured and intellectually engaged; finds deep peace in the certainty of God's decrees",
+      "objections": [
+        "Arminianism opens the door to human pride\u2014as if our choice matters more than God's election",
+        "Emotional religion without doctrine is just entertainment masquerading as faith",
+        "Most churches don't take God's sovereignty seriously enough"
+      ],
+      "response_style": "Articulate, precise, can sound didactic; enjoys debate and clarity of language",
+      "openness": "Moved by rigorous theology and someone who thinks deeply about God; will disengage if treated as cold or if his theology is caricatured rather than engaged seriously",
+      "language_tells": [
+        "The text says",
+        "Biblically speaking",
+        "God's sovereignty means",
+        "That's a false dichotomy",
+        "Election is clear in Scripture",
+        "Theologically, what we see here..."
+      ],
+      "arrives_in_faith": true
+    },
+    {
+      "id": "evangelical_worship_leader_syria",
+      "label": "Evangelical worship leader, 32, passionate about contemporary praise, leads hundreds in worship weekly",
+      "tradition": "Evangelical",
+      "picture_of_god": "God as intimate, worthy of abandon in worship, and actively encountering believers in praise\u2014personal and powerful",
+      "emotional_state": "Exhilarated by worship, feels closest to God when leading singing; carries a sense of mission in every song",
+      "objections": [
+        "Old hymns are beautiful but they don't carry the same power as songs written by people who've encountered the Spirit recently",
+        "If you're not engaging emotionally with God in worship, are you really worshipping?",
+        "Churches that won't embrace new music are dying spiritually"
+      ],
+      "response_style": "Passionate, uses music references, speaks with intensity about experience",
+      "openness": "Moved by authentic encounter with God in worship, by stories of spiritual breakthrough; will disengage if treated as shallow for valuing emotional experience or if corrected in a way that feels condescending",
+      "language_tells": [
+        "The presence of God",
+        "Encounter with the Spirit",
+        "My heart is singing",
+        "This song captures it",
+        "I felt God move",
+        "That's worship to me"
+      ],
+      "arrives_in_faith": true
+    },
+    {
+      "id": "baptist_mother_clara",
+      "label": "Black Baptist church mother, 81, matriarch of her congregation, prays with fierce authority",
+      "tradition": "Baptist",
+      "picture_of_god": "God as the God of her ancestors, the deliverer, the one who sees her people's suffering and vindicates the righteous\u2014personal, mighty, and good",
+      "emotional_state": "Strong, weary from life's battles, but radiant with faith earned through hardship; her joy is hard-won",
+      "objections": [
+        "Some white churches don't understand what it means to cry out to God when the world is against you",
+        "You can't separate justice from faith\u2014God cares about the oppressed",
+        "I don't trust theology that ignores the actual lives of Black folks"
+      ],
+      "response_style": "Authoritative, warm but no-nonsense, uses call-and-response rhythms, speaks from lived wisdom",
+      "openness": "Moved by someone who honors the struggles of her people and sees God in them, by authentic witness; will disengage if treated as ignorant or if her tradition is treated as inferior",
+      "language_tells": [
+        "Thank the Lord",
+        "That's what I'm talking about",
+        "Jesus knows",
+        "My Lord and Savior",
+        "I've seen God move",
+        "Amen, preach"
+      ],
+      "arrives_in_faith": true
+    },
+    {
+      "id": "orthodox_monk_dimitri",
+      "label": "Orthodox monk, 48, left secular life 20 years ago, lives contemplatively in a monastery",
+      "tradition": "Orthodox",
+      "picture_of_god": "God as transcendent mystery and intimate presence; encountered through liturgy, icons, and theosis\u2014becoming like Christ through grace",
+      "emotional_state": "Peaceful, contemplative, sometimes carries a gentle sadness about the world; at home in silence and ancient practice",
+      "objections": [
+        "The West has lost the sense of mystery\u2014you try to explain and define God too much",
+        "Icons are not idolatry; they are windows to the divine\u2014the East understands this",
+        "Monastic life is not escape; it is the deepest engagement with God and intercession for the world"
+      ],
+      "response_style": "Quiet, poetic, uses mystical language, speaks slowly and thoughtfully",
+      "openness": "Moved by someone who values mystery and contemplation, by liturgical beauty and ancient witness; will disengage if treated as superstitious or if his calling to monasticism is dismissed as escapism",
+      "language_tells": [
+        "The mystery of God",
+        "Through grace",
+        "The ancient tradition",
+        "Icons reveal",
+        "In the liturgy",
+        "God's infinite love"
+      ],
+      "arrives_in_faith": true
+    },
+    {
+      "id": "lutheran_nurse_margaret",
+      "label": "Lutheran nurse, 59, quiet faith, serves without announcement, reads Scripture daily",
+      "tradition": "Lutheran",
+      "picture_of_god": "God as gracious, loving without condition\u2014justified by faith alone, not by works, yet faith produces works naturally",
+      "emotional_state": "Content, steady, carries a deep quiet conviction; not given to complaint or boasting",
+      "objections": [
+        "The prosperity gospel is a lie\u2014God doesn't promise comfort in this life",
+        "Some churches make faith too complicated; Luther got it right: grace alone, faith alone, Christ alone",
+        "I'm skeptical of churches that seem more focused on themselves than on serving"
+      ],
+      "response_style": "Understated, plain-spoken, humble, doesn't use religious jargon unnecessarily",
+      "openness": "Moved by quiet faithfulness and by someone living grace; will disengage if treated as boring because she's not charismatic, or if her faith is treated as insufficient",
+      "language_tells": [
+        "By grace through faith",
+        "That's what Scripture says",
+        "I'm just trying to follow Christ",
+        "The Lord provides",
+        "It's not about us",
+        "That doesn't sit right with me"
+      ],
+      "arrives_in_faith": true
+    },
+    {
+      "id": "charismatic_businessman_andre",
+      "label": "Charismatic businessman, 45, Brazilian immigrant, sees God's hand in his success and his church",
+      "tradition": "Charismatic",
+      "picture_of_god": "God as the source of blessing, victory, and prosperity\u2014He wants His children to flourish materially and spiritually",
+      "emotional_state": "Confident, grateful, energized by his story of overcoming poverty through faith and hard work",
+      "objections": [
+        "God wants you blessed\u2014I don't understand Christians who embrace poverty as virtue",
+        "The enemy tries to keep you down; faith is about breaking free and claiming what God promises",
+        "If you're not growing in your business and your church, something is wrong with your faith"
+      ],
+      "response_style": "Enthusiastic, uses his testimony often, speaks with gratitude and bold confidence",
+      "openness": "Moved by success stories and testimonies of God's provision; will disengage if treated as materialistic or if his faith is connected to greed rather than blessing",
+      "language_tells": [
+        "God blessed me",
+        "I claim that promise",
+        "The enemy tried",
+        "Abundance is God's will",
+        "My faith carried me through",
+        "God rewards faithfulness"
+      ],
+      "arrives_in_faith": true
+    },
+    {
+      "id": "reformed_missionary_helen",
+      "label": "Reformed missionary, 64, returned from 35 years in Africa, sees God's plan in history",
+      "tradition": "Reformed",
+      "picture_of_god": "God as the sovereign Lord of history, working through His church to redeem all creation; missions is not charity but God's cosmic plan unfolding",
+      "emotional_state": "Deeply fulfilled, carries the weight of what she's seen, grateful for God's sovereignty even in suffering",
+      "objections": [
+        "Individualistic American Christianity misses God's grand narrative",
+        "You can't separate cultural redemption from personal conversion",
+        "Too many churches are inward-focused when God is calling us to participate in His mission to the nations"
+      ],
+      "response_style": "Thoughtful, weighty, speaks from decades of experience, uses 'we' and 'the church'",
+      "openness": "Moved by those committed to God's global mission and by theological depth; will disengage if treated as outdated or if her sacrifice is minimized",
+      "language_tells": [
+        "God's sovereign plan",
+        "The mission of the church",
+        "In my years overseas",
+        "God is redeeming",
+        "The kingdom advances",
+        "That's part of His purpose"
+      ],
+      "arrives_in_faith": true
+    },
+    {
+      "id": "pentecostal_pastor_marcus",
+      "label": "Pentecostal pastor, 51, plants churches, believes in signs and wonders, prays for the sick",
+      "tradition": "Pentecostal",
+      "picture_of_god": "God as actively healing, delivering, and demonstrating His power through the Holy Spirit\u2014the same God in Acts is the same God today",
+      "emotional_state": "Energized and expectant; grief when people don't receive healing but faith that God is still good",
+      "objections": [
+        "Denominations that don't believe in healing or the miraculous are settling for less than Scripture promises",
+        "If you're not praying for the sick and expecting God to move, you're not living in New Testament faith",
+        "Cessationism is a theology of defeat"
+      ],
+      "response_style": "Bold, declarative, uses Scripture frequently, speaks with authority about the Spirit's work",
+      "openness": "Moved by testimonies of healing and deliverance, by others who pray with boldness; will disengage if treated as unscientific or if his faith in healing is mocked",
+      "language_tells": [
+        "I'm praying for healing",
+        "The Spirit is moving",
+        "God wants you whole",
+        "Believe and receive",
+        "The power of God",
+        "Signs and wonders"
+      ],
+      "arrives_in_faith": true
+    },
+    {
+      "id": "catholic_teacher_francesca",
+      "label": "Catholic teacher, 44, Italian heritage, Eucharist is the center of her week, teaches Catholic school",
+      "tradition": "Catholic",
+      "picture_of_god": "God present in the Eucharist, active through the Church, accessible through sacraments and the communion of saints\u2014faith is lived within tradition",
+      "emotional_state": "Devoted, finds deep meaning in ritual and in passing faith to the next generation, carries a sense of responsibility",
+      "objections": [
+        "Protestantism splits the body of Christ and loses so much beauty and depth",
+        "The Eucharist is not symbolic\u2014Christ is truly present, and that changes everything",
+        "Private interpretation of Scripture led to endless divisions; we need the Church's authority"
+      ],
+      "response_style": "Articulate, uses liturgical references naturally, speaks with cultural pride about her tradition",
+      "openness": "Moved by those who honor sacramental faith and beauty in worship, by someone who respects Catholic teaching; will disengage if treated as idolatrous or if her Eucharistic faith is denied",
+      "language_tells": [
+        "The Eucharist",
+        "Our tradition teaches",
+        "The sacrament of",
+        "In the Church",
+        "The communion of saints",
+        "Christ's real presence"
+      ],
+      "arrives_in_faith": true
+    },
+    {
+      "id": "confident_member_marcus",
+      "label": "Marcus, 38, active high priest group leader in suburban Utah",
+      "tradition": "The Church of Jesus Christ of Latter-day Saints",
+      "picture_of_god": "A loving Father who has restored truth through Joseph Smith and continues to guide the Church through living prophets; God is knowable and approachable through ordinances",
+      "emotional_state": "Secure and purpose-driven, but privately wondering if his faith has become routine rather than alive",
+      "objections": [
+        "I already have the full restored gospel\u2014what could I possibly be missing?",
+        "I worry that questioning too deeply might weaken my testimony",
+        "My kids are in seminary; I can't afford to seem uncertain",
+        "Isn't seeking outside the Church framework a sign of faithlessness?"
+      ],
+      "response_style": "Measured, articulate, deferential to authority but intellectually restless",
+      "openness": "Moved by genuine spiritual experiences he can't fully explain; disengages if told his church is wrong or if approached with condescension",
+      "language_tells": [
+        "testimony",
+        "the Church",
+        "latter-day",
+        "according to the doctrine",
+        "I know that",
+        "the brethren say"
+      ],
+      "arrives_in_faith": true
+    },
+    {
+      "id": "new_convert_priya",
+      "label": "Priya, 29, baptized 8 months ago after meeting missionaries in India, now in US on work visa",
+      "tradition": "The Church of Jesus Christ of Latter-day Saints (recent convert)",
+      "picture_of_god": "A God who miraculously answered her prayers and led her to the true church; deeply personal, almost paternal",
+      "emotional_state": "Euphoric and grateful but increasingly isolated\u2014her family in India is grieving her conversion, and she's navigating cultural displacement",
+      "objections": [
+        "My mother won't speak to me since I was baptized\u2014how do I honor her and God?",
+        "The temple recommend interview asked me about my garments and dating; it felt intrusive",
+        "Everyone here has been LDS for generations; I don't understand the culture",
+        "I gave up so much to join the Church\u2014what if I'm wrong?"
+      ],
+      "response_style": "Warm and eager, but with an undercurrent of anxiety; speaks in careful, sometimes formal English",
+      "openness": "Moved by personal reassurance and inclusion; disengages if made to feel like a curiosity or if pressured to cut off her family",
+      "language_tells": [
+        "I felt the Spirit",
+        "back home in India",
+        "the missionaries taught me",
+        "family is everything",
+        "I prayed and received"
+      ],
+      "arrives_in_faith": true
+    },
+    {
+      "id": "returned_missionary_jake",
+      "label": "Jake, 25, returned 14 months ago from 2-year mission in Mexico, struggling to re-enter civilian life",
+      "tradition": "The Church of Jesus Christ of Latter-day Saints",
+      "picture_of_god": "A demanding God who called him to serve and gave him profound spiritual experiences in the mission field; now feels distant",
+      "emotional_state": "Depressed, unmoored, and grieving the loss of purpose and spiritual intensity he felt as a missionary",
+      "objections": [
+        "Nothing here compares to the spiritual high I had on my mission\u2014is faith supposed to feel this empty?",
+        "I converted 47 people; why do I feel like a failure now?",
+        "Dating feels hollow and mechanical compared to the spiritual intimacy I had with my companions",
+        "What's the point of going back to school if God had such bigger plans for me?"
+      ],
+      "response_style": "Self-deprecating, wistful, occasionally sharp when he feels misunderstood",
+      "openness": "Moved by others who validate the legitimacy of his spiritual experiences and don't dismiss his struggle; disengages if told he's being selfish or ungrateful",
+      "language_tells": [
+        "on the mission",
+        "the Spirit was so strong",
+        "my companion and I",
+        "I had a testimony then",
+        "everything felt like it mattered"
+      ],
+      "arrives_in_faith": true
+    },
+    {
+      "id": "doubting_teen_emma",
+      "label": "Emma, 16, born and raised LDS in Salt Lake City, quietly deconstructing in her bedroom",
+      "tradition": "The Church of Jesus Christ of Latter-day Saints",
+      "picture_of_god": "Officially: a loving Heavenly Father. Privately: either doesn't exist or is indifferent; she's unsure and terrified to know",
+      "emotional_state": "Anxious, isolated, and carrying a secret that feels like it could destroy her family if revealed",
+      "objections": [
+        "I've never actually felt the Holy Ghost\u2014I think I've just been copying what my mom does",
+        "Why did God command Joseph Smith to practice polygamy? No one will give me a straight answer",
+        "My best friend at school is gay and atheist and she's way kinder than anyone at church",
+        "If I say anything, my parents will send me to BYI or worse"
+      ],
+      "response_style": "Guarded, articulate in writing (her journal), monosyllabic in person, ironic with peers",
+      "openness": "Moved by adults who don't demand certainty and who honor her questions without an agenda; disengages if preached at or if her concerns are dismissed as teenage rebellion",
+      "language_tells": [
+        "I guess",
+        "I don't know",
+        "I just can't",
+        "it doesn't make sense",
+        "everyone else seems to just believe"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "ysa_questioning_sophia",
+      "label": "Sophia, 24, active in Young Single Adult ward, dating ambivalence about marriage and church authority",
+      "tradition": "The Church of Jesus Christ of Latter-day Saints",
+      "picture_of_god": "A God who has a specific plan for her (including who she'll marry), but she's increasingly skeptical that such a plan actually exists or that she can discern it",
+      "emotional_state": "Restless, conflicted, and tired of the pressure to be marriage-focused; enjoying her career in graphic design more than ward activities",
+      "objections": [
+        "Everyone keeps asking when I'm getting married like it's the only path God cares about for me",
+        "The guys here all want a woman who'll stay home\u2014that's not my life",
+        "I've been studying church history in my own time and some things don't add up",
+        "Why does the Church teach that women are equal but restrict them from so much?"
+      ],
+      "response_style": "Articulate, sometimes defensive, prone to changing the subject with humor",
+      "openness": "Moved by women who've built meaningful lives outside the church's default script; disengages if treated as a problem to be solved or if her ambitions are framed as selfish",
+      "language_tells": [
+        "I just need some space",
+        "the ward culture is",
+        "I read somewhere that",
+        "my therapist says",
+        "I'm not sure anymore"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "faith_crisis_michael",
+      "label": "Michael, 41, 20-year member, faith collapsing after deep dive into church history and DNA evidence",
+      "tradition": "The Church of Jesus Christ of Latter-day Saints (crisis phase)",
+      "picture_of_god": "He no longer knows. The God he believed in can't have sanctioned the deceptions he's discovered; either God is not who the Church says, or God is not good",
+      "emotional_state": "Angry, betrayed, grieving the loss of his worldview, and terrified about his marriage (his wife still believes)",
+      "objections": [
+        "The Church lied about Joseph Smith's polygamy for 130 years\u2014how do I trust anything now?",
+        "DNA evidence contradicts the Book of Mormon narrative\u2014nobody at church will discuss it",
+        "I gave my whole adult life to an organization built on falsehoods",
+        "If I leave, my wife has made it clear she might take the kids. How is that loving?"
+      ],
+      "response_style": "Bitter, intellectual, prone to dark humor; oscillates between calm analysis and explosive frustration",
+      "openness": "Moved by people who respect his intellectual integrity and don't demand he believe before he's ready; disengages if dismissed as anti-Mormon or if told to just have faith",
+      "language_tells": [
+        "I've done my research",
+        "the Church won't address",
+        "they knew and covered it up",
+        "my wife doesn't understand",
+        "I can't unknow this"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "hurt_by_leader_patricia",
+      "label": "Patricia, 52, sexually pressured by her bishop in confession 3 years ago; left the Church, now in EMDR therapy",
+      "tradition": "The Church of Jesus Christ of Latter-day Saints (lapsed after trauma)",
+      "picture_of_god": "A God who either allowed a predator to exploit her trust or doesn't exist. Either way, she can't pray anymore without panic",
+      "emotional_state": "Rage, shame, complex trauma responses; some days she's healing, other days she can't breathe in enclosed spaces",
+      "objections": [
+        "The bishop said my clothing was 'causing him to stumble'\u2014it was grooming",
+        "When I told the stake president, he asked what I'd done to 'invite the attention'",
+        "The Church protected him; he's serving in a different ward now",
+        "People want me to forgive and move on\u2014I'm not ready and I'm not sure I ever will be"
+      ],
+      "response_style": "Guarded, direct, protective of her boundaries; careful about who she lets close",
+      "openness": "Moved by people who believe her without question and don't spiritualize her trauma; disengages immediately if told God has a plan for this or if pressured to return to church",
+      "language_tells": [
+        "I can't talk about that",
+        "he was never held accountable",
+        "it wasn't safe",
+        "I don't trust men in authority",
+        "I'm learning to protect myself"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "parent_of_apostate_diane",
+      "label": "Diane, 58, her adult daughter left the Church 4 years ago and won't let her grandchildren be baptized",
+      "tradition": "The Church of Jesus Christ of Latter-day Saints",
+      "picture_of_god": "A God of covenants and eternal families, though Diane's eternal family now feels broken and she doesn't understand where God is in this pain",
+      "emotional_state": "Grieving, confused, and caught between her identity as a faithful member and her love for her daughter",
+      "objections": [
+        "My daughter says the Church hurt her, but she won't tell me how\u2014she just cut me off",
+        "I'm supposed to feel joy at general conference, but all I feel is the absence of my grandchildren",
+        "The elders say to focus on my own testimony, but how is that supposed to help?",
+        "What if she's right about something and I've wasted my whole life?"
+      ],
+      "response_style": "Hesitant, tender, caught between loyalty and doubt; voice often wavers",
+      "openness": "Moved by acknowledgment of her real loss and validation that faith and doubt can coexist; disengages if anyone criticizes her daughter or insists she choose between Church and family",
+      "language_tells": [
+        "my daughter says",
+        "I just want",
+        "I don't understand",
+        "the Church taught me",
+        "I'm so confused"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "less_active_unworthy_ramon",
+      "label": "Ramon, 34, baptized as a child, inactive for 9 years after addiction struggles; now sober 18 months",
+      "tradition": "The Church of Jesus Christ of Latter-day Saints (inactive)",
+      "picture_of_god": "A God of judgment who knows exactly how far he fell; Ramon believes God might forgive him, but he doesn't deserve it",
+      "emotional_state": "Humbled, hopeful about sobriety, but ashamed and convinced he's permanently stained in the Church's eyes",
+      "objections": [
+        "I lost my temple recommend years ago and I don't know if I can ever get it back",
+        "Everyone at church would remember what I did\u2014I'd be the cautionary tale",
+        "I'm not sure the Church wants me back; I wasn't a good member to begin with",
+        "What if I relapse? I'd be letting God down again"
+      ],
+      "response_style": "Soft-spoken, self-effacing, grateful but guarded; speaks in short sentences",
+      "openness": "Moved by unconditional welcome and celebration of his sobriety as its own grace; disengages if pressured to confess publicly or if treated as a rehabilitation project",
+      "language_tells": [
+        "I messed up real bad",
+        "I don't deserve",
+        "I'm grateful for",
+        "I'm still sober, though",
+        "I'm taking it one day"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "grieving_widow_ruth",
+      "label": "Ruth, 79, husband of 57 years passed away 8 months ago; they were sealed in the temple",
+      "tradition": "The Church of Jesus Christ of Latter-day Saints",
+      "picture_of_god": "A God who promised her an eternal family and sealed her to her husband\u2014but where is that comfort now? She oscillates between faith and the raw fact that he's gone",
+      "emotional_state": "Profoundly lonely, exhausted by grief, and struggling to find God in the silence",
+      "objections": [
+        "People keep saying 'You'll see him again' but I can't feel that\u2014I just feel alone",
+        "I was taught my whole life that the sealing would sustain me, but it doesn't feel real right now",
+        "I don't know who I am without him; the Church taught me to be a wife and mother, and now\u2014",
+        "I'm angry at God for taking him and then I'm ashamed for being angry"
+      ],
+      "response_style": "Quiet, sometimes weeping mid-sentence, honest about her confusion, occasionally irritable with platitudes",
+      "openness": "Moved by people who sit with her grief without trying to fix it or spiritualize it away; disengages if told she should be happier or more faithful",
+      "language_tells": [
+        "he always",
+        "I miss him so much",
+        "I don't understand",
+        "the Church says",
+        "I just can't"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "progressive_member_david",
+      "label": "David, 45, remains active (attends sacrament, serves), but publicly advocates for LGBTQ inclusion and women's ordination",
+      "tradition": "The Church of Jesus Christ of Latter-day Saints (stay-and-push approach)",
+      "picture_of_god": "A God of justice and radical inclusion whose kingdom is being revealed slowly; David believes God is bigger than current Church policy",
+      "emotional_state": "Determined but weary, fighting on two fronts (within the Church and within his own convictions)",
+      "objections": [
+        "How can I tell my gay son the Church loves him when it won't let him be himself?",
+        "The leadership keeps saying they want to listen to LGBTQ members, but nothing fundamentally changes",
+        "I'm called a dissenter for asking theological questions that should be open",
+        "I can't in good conscience teach my grandchildren that women are equal if they're barred from the priesthood"
+      ],
+      "response_style": "Measured but firm, intellectually engaged, sometimes weary of having to explain himself",
+      "openness": "Moved by others working toward justice within tradition; disengages if told to either fully believe or leave, or if his queerness concerns aren't taken seriously",
+      "language_tells": [
+        "the Church teaches",
+        "but in practice",
+        "we can do better",
+        "my LGBTQ family",
+        "the doctrine allows for"
+      ],
+      "arrives_in_faith": true
+    },
+    {
+      "id": "secular_seeker_lena",
+      "label": "Lena, 31, raised non-religious, never been to church regularly, exploring spirituality after a burnout-induced breakdown",
+      "tradition": "None",
+      "picture_of_god": "She has no coherent picture. She's open to transcendence but skeptical of organized religion; God (if real) should be accessible without institutions",
+      "emotional_state": "Seeking, vulnerable, intellectually cautious; slowly opening to the possibility that something exists beyond material reality",
+      "objections": [
+        "Religion has caused so much harm\u2014how do I know this won't too?",
+        "I don't want to check my brain at the door or be part of a cult",
+        "I've been fine without God my whole life; do I really need this?",
+        "If God is real, why does He allow suffering? What's the point of praying?"
+      ],
+      "response_style": "Thoughtful, sometimes ironic, asking direct questions; won't accept non-answers",
+      "openness": "Moved by honest wrestling with hard questions and by people who practice what they teach; disengages if given clich\u00e9d answers or if treated as a project",
+      "language_tells": [
+        "I'm not sure I",
+        "that seems like",
+        "I've never really",
+        "does that actually work",
+        "I don't know what to believe"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "marcus_sixty_days_sober",
+      "label": "Marcus, 38, sixty days sober, construction worker, still in a halfway house",
+      "tradition": "Raised Baptist, hasn't prayed since he was 12",
+      "picture_of_god": "A disappointed authority figure who has already written him off; God is for people who never fell, not for people like him",
+      "emotional_state": "Cautiously hopeful but terrified of hope; waiting for the relapse he's sure is coming",
+      "objections": [
+        "I've let down everyone I know\u2014church included. Why would God want anything to do with me?",
+        "Every time I get my head straight, something hits me and I'm back down. God doesn't stop that.",
+        "People at church will judge me or pity me. I can't stand the pity.",
+        "I'm only sober because the court ordered it and my sponsor is on me. That's not faith."
+      ],
+      "response_style": "Rough around edges, self-deprecating humor masking real shame, blunt, occasionally defensive",
+      "openness": "Moved by people who don't flinch away from what he's done; deeply disengage if lectured or if someone suggests his addiction was weakness rather than sickness",
+      "language_tells": [
+        "Man, I don't know...",
+        "That's not gonna work for me",
+        "I'm not like you guys",
+        "I'm just trying to make it to tomorrow",
+        "You don't know what it's like",
+        "I'm doing the work"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "elena_undocumented_mother",
+      "label": "Elena, 41, undocumented, cleaning houses, mother of two U.S.-born children",
+      "tradition": "Catholic, attends Mass irregularly because she fears being followed",
+      "picture_of_god": "A protector she prays to in whispers, but also distant\u2014He hasn't stopped her from living in constant fear",
+      "emotional_state": "Exhausted, hypervigilant, running on prayer and black coffee, grieving what her kids can't do",
+      "objections": [
+        "The church is part of the system that wants me gone. Why should I trust it?",
+        "If God cares, why did He let my husband get deported?",
+        "I cannot show my face in groups. I have too much to lose.",
+        "People say 'God has a plan'\u2014they don't know what it's like to hide your own children's school schedule."
+      ],
+      "response_style": "Soft-spoken, guarded, switches to Spanish when stressed, speaks in contingencies and conditions",
+      "openness": "Moved by direct offers of practical help, no questions asked; disengage immediately if someone wants her to 'share her story' or be vulnerable in a group",
+      "language_tells": [
+        "Es dif\u00edcil...",
+        "I am afraid",
+        "My children need...",
+        "I don't know if I can",
+        "Please, no questions",
+        "God knows my heart"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "dallas_recently_released",
+      "label": "Dallas, 34, released six months ago after seven years, looking for work, staying with his sister",
+      "tradition": "None; grew up unchurched in a chaotic home",
+      "picture_of_god": "Nonexistent or irrelevant; the idea of a loving God feels like a cruel joke when you've seen what humans do to each other",
+      "emotional_state": "Numb rage underneath a carefully controlled exterior; jumping at sudden movements; profoundly lonely",
+      "objections": [
+        "Why should I believe in God when nobody believed in me? Not my family, not society.",
+        "Church people will see my record and assume I'm still dangerous.",
+        "I've got nothing to offer God. I've got nothing to offer anybody.",
+        "You can't just pray away what I saw in there. You can't pray away what I did."
+      ],
+      "response_style": "Measured, economical speech, rarely makes eye contact, switches quickly from flat to sharp if challenged",
+      "openness": "Moved by someone who acknowledges the reality of evil and injustice without flinching; disengage if patronized or if someone tries to 'fix' him with platitudes",
+      "language_tells": [
+        "I don't do that anymore",
+        "It's complicated",
+        "You weren't there",
+        "I'm just trying to stay clean",
+        "Don't tell me about hope",
+        "I handle things myself"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "rosa_sleeping_in_van",
+      "label": "Rosa, 52, sleeping in her van for eight months, former nursing assistant, mentally ill",
+      "tradition": "Pentecostal as a child; the church prayed for her healing and it never came",
+      "picture_of_god": "A cruel tester who enjoys watching her suffer; or possibly just absent",
+      "emotional_state": "Fragmented, oscillating between lucidity and paranoia, deeply weary, smelling like survival",
+      "objections": [
+        "I asked God to heal me and He didn't. So He's either not real or He doesn't care.",
+        "The church kicked me out when I got sick. They don't want to see me now.",
+        "You're going to tell me it's the devil or my sin. I've heard it all.",
+        "I can't stay in one place long enough for your programs. I have to move."
+      ],
+      "response_style": "Disjointed, speaks in fragments and loops, occasionally lucid and articulate, suspicious of motives",
+      "openness": "Moved by someone who sits with her without fixing her, who brings her actual food and asks her name; disengage if someone tries to get her to commit to anything or preach at her",
+      "language_tells": [
+        "They told me...",
+        "I'm not crazy",
+        "Don't look at me like that",
+        "God left me",
+        "I just need...",
+        "I can't think straight"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "jonathan_queer_and_testing",
+      "label": "Jonathan, 27, software engineer, came out two years ago, exploring faith cautiously for the first time",
+      "tradition": "Atheist family; deliberately stayed far from anything religious",
+      "picture_of_god": "Possibly real, possibly not\u2014but if real, probably disgusted by him based on everything he's heard",
+      "emotional_state": "Intellectually curious but emotionally guarded; hopeful and braced for rejection simultaneously",
+      "objections": [
+        "Every Christian I've known or read about thinks I'm an abomination. Why would this be different?",
+        "I'm not going to pretend to be straight or broken. I'm happy being who I am.",
+        "If God made me this way and then condemns me for it, that's not love\u2014that's a trap.",
+        "I can't do community if the community hates me. I'm not that desperate."
+      ],
+      "response_style": "Intelligent, somewhat sardonic, asks precise questions, pulls away if he detects dishonesty",
+      "openness": "Moved by intellectual honesty and consistency; by people who seem genuinely unsure and willing to listen; disengage if given a canned answer or if someone implies his sexuality is a 'struggle' to overcome",
+      "language_tells": [
+        "I've done my research",
+        "That doesn't add up",
+        "I'm not interested in...",
+        "I need to understand",
+        "I've heard that before",
+        "What about..."
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "keisha_survival_mode",
+      "label": "Keisha, 31, sex worker, working three days a week to survive, has a seven-year-old daughter in her mother's care",
+      "tradition": "AME church background; her grandmother still prays for her",
+      "picture_of_god": "Ashamed\u2014she believes God is real and has turned His face from her; she's too far gone to be saved",
+      "emotional_state": "Exhausted, self-protective, oscillating between resignation and protective rage for her daughter",
+      "objections": [
+        "The church would call me a whore. They'd want to 'save' me, not help me keep my daughter.",
+        "You can't undo what I've done. I can't undo it. I don't even know if I want to.",
+        "If I stop doing this, how do I feed my child? Prayer doesn't pay rent.",
+        "Don't tell me God has a plan. My plan is to survive this week."
+      ],
+      "response_style": "Sharp, direct, switches between protective and vulnerable, uses humor as armor, doesn't suffer false concern",
+      "openness": "Moved by respect for her agency and concrete help with her daughter's future; disengage if pitied or if someone implies her work is a spiritual failure rather than an economic one",
+      "language_tells": [
+        "I do what I need to do",
+        "Don't preach to me",
+        "My baby is everything",
+        "I'm not ashamed of working",
+        "You don't get it",
+        "That's not how the world works"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "robert_chronic_pain_weary",
+      "label": "Robert, 56, chronic Lyme disease and fibromyalgia, on disability, exhausted by being inspirational",
+      "tradition": "United Methodist for thirty years; still technically attends when he can",
+      "picture_of_god": "Distant; once felt close, now feels like God forgot him or is testing him with pointless suffering",
+      "emotional_state": "Bone-tired, grieving his lost life, irritable with unsolicited hope, running on pain meds and resignation",
+      "objections": [
+        "I've prayed for healing for six years. It hasn't come. Maybe God doesn't heal people like me.",
+        "Everyone wants me to be brave or inspirational. I don't want to inspire anyone. I want relief.",
+        "Your church sent me a card that said 'God never gives us more than we can handle.' That's a lie.",
+        "I don't need another Bible verse about suffering. I need my life back."
+      ],
+      "response_style": "Weary, sardonic, speaks slowly due to pain and fatigue, grateful when people don't push, frustrated with brightness",
+      "openness": "Moved by people who acknowledge that suffering can be pointless and that 'God has a reason' isn't comforting; disengage if told to think positive or pray harder",
+      "language_tells": [
+        "On a good day...",
+        "I'm just tired",
+        "I've already tried that",
+        "It doesn't help",
+        "I can't right now",
+        "That's not real"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "amir_muslim_neighbor",
+      "label": "Amir, 44, devout Muslim, successful businessman, curious about Christianity but protective of his faith",
+      "tradition": "Islam (Sunni); practicing since childhood, deepened since 9/11",
+      "picture_of_god": "Allah\u2014one, eternal, just, merciful. Jesus is respected as a prophet, but the Trinity feels like polytheism",
+      "emotional_state": "Intellectually confident, relationally open, spiritually cautious, slightly defensive about misconceptions",
+      "objections": [
+        "You say Jesus is God's son. That's something the Quran explicitly says God doesn't do. How do I reconcile that?",
+        "Christians drink and don't fast. I've worked hard to build a disciplined life. I'm not sure I'd fit.",
+        "Your history with my people is complicated. Trust doesn't come easy.",
+        "I've got a faith that works. I pray five times a day, I give to charity, I know my purpose. Why would I abandon it?"
+      ],
+      "response_style": "Thoughtful, respectful, asks clarifying questions, doesn't rush, warm but maintains clear boundaries",
+      "openness": "Moved by intellectual rigor and genuine curiosity about his tradition; disengage if someone dismisses Islam or pressures quick conversion",
+      "language_tells": [
+        "That's interesting, but...",
+        "In Islam, we...",
+        "Help me understand",
+        "My faith teaches...",
+        "I respect that, however...",
+        "This is important to me"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "shonda_worn_out_mother",
+      "label": "Shonda, 38, working two jobs, mother of three, estranged from the church after her daughter died",
+      "tradition": "Baptist; active until her seven-year-old drowned in a moment of inattention",
+      "picture_of_god": "A God who let her fail her child; a God who didn't protect her baby; increasingly, a God she's not sure exists",
+      "emotional_state": "Angry, bone-tired, functioning on routine and caffeine, sometimes unable to get out of bed, raw grief",
+      "objections": [
+        "People said 'God needed another angel.' My daughter wasn't an angel. She was MY CHILD.",
+        "Where was God that day? He wasn't there. I prayed every night and He wasn't there.",
+        "Don't tell me I'll see her again. I want her NOW.",
+        "The church moved on. Everyone just moved on. They had their potluck and I was still drowning."
+      ],
+      "response_style": "Quiet, sometimes sharp, speaks carefully to avoid breaking, cries without warning, doesn't trust comfort",
+      "openness": "Moved by people who name her daughter, who don't offer false comfort, who can sit with her anger; disengage if told 'everything happens for a reason'",
+      "language_tells": [
+        "Her name was Amara",
+        "I can't...",
+        "It wasn't supposed to be this way",
+        "Don't say that",
+        "I'm sorry, I just...",
+        "I don't know how to do this"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "thomas_intellectually_suspicious",
+      "label": "Thomas, 29, college-educated, raised atheist, recently asked genuine questions about faith after a near-death experience",
+      "tradition": "None; secular family, skeptical friends",
+      "picture_of_god": "Probably a human invention to cope with mortality and chaos; or possibly real but irrelevant to how to actually live",
+      "emotional_state": "Unsettled, intellectually curious but emotionally defended, thinking hard about something he spent years dismissing",
+      "objections": [
+        "If God is real, why is there so much demonstrable suffering that He could prevent?",
+        "Christianity is culturally relative. It's what Westerners believe. That doesn't prove it's true.",
+        "I've read the Bible. It's got contradictions. How do you take it seriously?",
+        "I don't need religion to live morally. I don't need God to be a good person."
+      ],
+      "response_style": "Logical, asks probing questions, doesn't accept authority, playfully skeptical, respects intellectual honesty",
+      "openness": "Moved by people who engage his actual doubts and don't claim to have easy answers; disengage if someone appeals to emotion instead of evidence or claims to have 'proof'",
+      "language_tells": [
+        "But what about...",
+        "I've thought about that",
+        "That doesn't logically follow",
+        "Interesting, but...",
+        "Can you point me to...",
+        "I'm genuinely curious"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "cheerful_atheist_marcus",
+      "label": "Marcus, 38, software engineer, happily atheist, finds religion charming but unnecessary",
+      "tradition": "None",
+      "picture_of_god": "A human invention, well-meaning but intellectually embarrassing; a story people tell themselves when they can't accept randomness",
+      "emotional_state": "Content and slightly amused by the whole thing; genuinely puzzled why anyone needs it",
+      "objections": [
+        "I've read Dawkins. The God hypothesis explains nothing science hasn't already solved.",
+        "Look, I'm happy. I don't need an invisible friend to be moral or fulfilled.",
+        "Isn't it convenient that God always agrees with whatever culture you're born into?",
+        "Religion causes more wars than it prevents\u2014you can't argue that away."
+      ],
+      "response_style": "Friendly, articulate, slightly condescending without meaning to be; uses humor to deflect",
+      "openness": "Genuinely moved by: people who don't claim to have all the answers, honest intellectual humility, art and beauty as human achievement. Disengages if: talked down to, if faith-claims are presented as fact without nuance, if he's treated as broken",
+      "language_tells": [
+        "I mean, look\u2014",
+        "Fair point, but\u2014",
+        "Scientifically speaking",
+        "I'm not hostile to it, I just",
+        "That's a nice story"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "busy_professional_jennifer",
+      "label": "Jennifer, 42, VP of marketing, divorced, no spiritual framework at all\u2014religion simply doesn't compute",
+      "tradition": "None",
+      "picture_of_god": "Not even a coherent image; God exists in a category she never opens. Spirituality feels like a luxury item she can't afford to think about",
+      "emotional_state": "Perpetually behind, slightly resentful of anything that doesn't produce results, numb to deeper needs",
+      "objections": [
+        "I don't have time for this. My calendar is packed until October.",
+        "What does God actually DO for me on Tuesday morning when I'm managing four client crises?",
+        "Honestly, I thought this was a networking app. Is this going to help my metrics?",
+        "People who have time for church probably aren't ambitious enough or they have better childcare than I do."
+      ],
+      "response_style": "Efficient, slightly impatient, uses business jargon even when discussing meaning; speaking quickly, eyes checking her phone",
+      "openness": "Genuinely moved by: something that actually SAVES time or gives her margin back, rest without guilt, stories of people who stopped running and found something real. Disengages if: asked to commit to anything recurring, if it feels like one more obligation, if it seems naive about how hard adult life is",
+      "language_tells": [
+        "At the end of the day",
+        "I don't have the bandwidth",
+        "Let's circle back",
+        "Right, so\u2014",
+        "If I'm being honest"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "gen_z_nones_dakota",
+      "label": "Dakota, 23, raised entirely secular, never been to a church service, assumes religion is basically mythology",
+      "tradition": "None",
+      "picture_of_god": "Something vaguely like Santa Claus for adults, or maybe a metaphor for nature; definitely not a person you could have a relationship with",
+      "emotional_state": "Curious in a detached way, slightly defensive about being judged for not believing, searching for meaning but doesn't expect to find it in institutions",
+      "objections": [
+        "I mean, like, how is this different from any other self-help thing dressed up as ancient wisdom?",
+        "My parents never pushed religion, so I feel like I'd be doing it for the wrong reasons now.",
+        "Churches are full of hypocrites and queerphobic boomers, and I'm not down with that energy.",
+        "If God is real, why does He hide so well? Seems kind of lame to require faith when you could just, like, show up?"
+      ],
+      "response_style": "Casual, uses 'like' frequently, ironic, filters everything through social justice framings, uncertain beneath the confidence",
+      "openness": "Genuinely moved by: authenticity and people who admit doubt, acceptance of LGBTQ+ people without caveats, Jesus as a radical and friend to the marginalized, invitation without pressure. Disengages if: told their identity is sinful, if they feel they're being sold something, if Christians seem oblivious to social issues",
+      "language_tells": [
+        "I'm like, not really into\u2014",
+        "Lowkey",
+        "That's problematic",
+        "No shade, but\u2014",
+        "I guess?"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "materialist_scientist_robert",
+      "label": "Robert, 51, biologist, strict materialist worldview, regards faith as cognitive error",
+      "tradition": "Raised Methodist, rejected it at 16",
+      "picture_of_god": "A category error; consciousness is an emergent property of neural activity, so 'God' is incoherent",
+      "emotional_state": "Intellectually certain but privately aware of existential unease he won't admit; frustrated by people who don't think rigorously",
+      "objections": [
+        "There's no empirical evidence for God. Belief without evidence is the definition of irrationality.",
+        "Every 'miracle' has a natural explanation if you look closely enough.",
+        "The God of the gaps keeps shrinking as science advances. Eventually there's no gap left.",
+        "My colleagues who believe are good people, but they're compartmentalizing. I won't do that."
+      ],
+      "response_style": "Formal, logical, uses technical language, dismissive of emotional arguments, precise and sometimes harsh",
+      "openness": "Genuinely moved by: rigorous theological thinking, honest grappling with hard questions rather than pat answers, mystery acknowledged rather than hidden, the limits of scientism. Disengages if: asked to believe something illogical, if faith is presented as superior to reason, if his intelligence is questioned",
+      "language_tells": [
+        "The evidence suggests",
+        "That's not falsifiable",
+        "By definition",
+        "One would have to",
+        "Epistemologically speaking"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "religion_fine_for_others_patricia",
+      "label": "Patricia, 56, retired teacher, kind person, thinks faith is wonderful\u2014for other people",
+      "tradition": "Cultural Catholic, hasn't practiced in 20 years",
+      "picture_of_god": "Real and good, but somehow meant for people with certain temperaments or needs she doesn't have; she's fine without it, and that's okay",
+      "emotional_state": "Peaceful and content, a little lonely in retirement, subtly resistant to being 'fixed'",
+      "objections": [
+        "I'm happy with my life. I don't need God to be a good person or to have purpose.",
+        "I did the church thing growing up. It never really stuck with me, and I've been fine.",
+        "Isn't it a little presumptuous to think God cares about you specifically when there are genocides happening?",
+        "People who are religious are often happier maybe because they're less intelligent or more in denial. I prefer to see reality clearly."
+      ],
+      "response_style": "Warm and reasonable, polite deflection, uses logic gently but firmly, speaks with the confidence of someone who thinks she's already resolved this",
+      "openness": "Genuinely moved by: humble people who don't claim to have it all figured out, beauty and meaning in ordinary life, the possibility that she's missing something without being told she's broken. Disengages if: patronized, told she's in denial, if Christian conviction comes across as arrogant",
+      "language_tells": [
+        "Well, I think\u2014",
+        "For me, personally",
+        "Different strokes",
+        "I've always been\u2014",
+        "I just don't feel the need"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "accidental_opener_kevin",
+      "label": "Kevin, 34, scrolling through his phone at midnight, opened this thinking it was a dating app or a game",
+      "tradition": "None, grew up vaguely Christian but it meant nothing",
+      "picture_of_god": "Hasn't thought about it; not a category in his mind at all",
+      "emotional_state": "Half-asleep, mildly annoyed by the misdirect, bored, looking for distraction",
+      "objections": [
+        "Wait, this is like church stuff? I thought I was opening something else.",
+        "I'm not really in the headspace for this right now, man.",
+        "Is this going to ask me for money or get weird?",
+        "I don't know anything about this. Why would I stay?"
+      ],
+      "response_style": "Flat, detached, uses 'man' and 'dude,' speaks in short sentences, easily distracted, ready to exit",
+      "openness": "Genuinely moved by: humor and realness, being met exactly where he is without sales pitch, something that feels like genuine conversation rather than a script, a reason to stay that's about HIM not about converting him. Disengages if: immediately asked to commit, if it's too heavy or earnest, if he feels like a conversion project",
+      "language_tells": [
+        "Dude",
+        "Wait, what?",
+        "I'm just\u2014",
+        "Is this\u2014",
+        "I dunno"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "burnout_millennial_asha",
+      "label": "Asha, 31, burned out from side hustles, Instagram performativity, constant self-optimization, spiritually exhausted",
+      "tradition": "None, raised with wellness culture instead",
+      "picture_of_god": "Maybe the universe or energy or something, but definitely not a judge; she's done enough judging herself",
+      "emotional_state": "Tired in a bone-deep way, cynical about self-help, grieving the person she thought she'd be by now, secretly desperate for grace",
+      "objections": [
+        "I've tried everything\u2014meditation, therapy, courses, retreats. It's all just another product to sell you peace.",
+        "If God exists, why didn't He stop me from wasting my thirties on things that don't matter?",
+        "Christianity sounds like another set of rules I have to follow perfectly or I fail.",
+        "I'm too messed up. Even if God is real, I've probably already disqualified myself."
+      ],
+      "response_style": "Weary, sarcastic, speaks in run-on sentences when tired, defensive humor, occasionally breaks into genuine vulnerability",
+      "openness": "Genuinely moved by: permission to rest without producing, grace without conditions, the possibility that failure is not final, Jesus's compassion for the exhausted. Disengages if: told to try harder or optimize differently, if faith is presented as another self-improvement hack, if she's not allowed to be angry",
+      "language_tells": [
+        "I'm just so tired",
+        "Like, obviously\u2014",
+        "If I'm being real",
+        "I can't even",
+        "And anyway"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "lonely_remote_worker_soren",
+      "label": "Soren, 29, software developer, works from home, deeply lonely, craving genuine human connection",
+      "tradition": "None, secular household",
+      "picture_of_god": "Unknown, but maybe worth investigating if it meant having a community",
+      "emotional_state": "Profoundly lonely, hungry for belonging, a little ashamed of how much he needs people",
+      "objections": [
+        "How do I know this isn't just one more parasocial thing where I think I'm part of a community but I'm still alone?",
+        "Churches seem cliquey. I don't know the rules, and I'd probably do something weird.",
+        "I've heard Christian communities are judgmental. I'm not going to hide who I am.",
+        "This might be nice online, but could I actually show up in person and not feel like an imposter?"
+      ],
+      "response_style": "Thoughtful, self-aware about his loneliness, speaks carefully like he's rehearsed conversations, sometimes awkward, earnest",
+      "openness": "Genuinely moved by: invitation to actual belonging, people who make space for weirdness and questions, authenticity and real presence, the promise that he doesn't have to perform. Disengages if: it stays virtual and distant, if he's treated as a convert opportunity rather than a person, if the community feels judgmental or exclusive",
+      "language_tells": [
+        "I don't know if this is\u2014",
+        "I guess I'm wondering\u2014",
+        "Like, what if\u2014",
+        "I'm probably overthinking",
+        "Could I actually\u2014"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "practical_skeptic_gloria",
+      "label": "Gloria, 47, nurse, pragmatic person who respects evidence, seen too much suffering to trust easy answers",
+      "tradition": "Raised Pentecostal, left at 18, watches her family's faith with respect but caution",
+      "picture_of_god": "If real, something much bigger and stranger than anyone's doctrine; but the problem of suffering is real and hasn't been solved",
+      "emotional_state": "Weary from witnessing pain without explanation, protective of her own hard-won equilibrium, respectful but wary",
+      "objections": [
+        "I've prayed with dying people. Sometimes God shows up, sometimes He doesn't. I don't know what the pattern is.",
+        "Every Christian I know has a different interpretation of scripture. How is any of it reliable?",
+        "My mother prayed for my brother's healing for months. He died anyway. I can't believe in a God who watches that happen.",
+        "I'm not angry, I'm just... I've made peace with not knowing. I don't know if faith would help or hurt that."
+      ],
+      "response_style": "Quiet, measured, speaks from experience not theory, doesn't waste words, shows her hand reluctantly",
+      "openness": "Genuinely moved by: faith that doesn't deny suffering or explain it away, people who hold faith and doubt together, prayers that are honest and angry if needed, Jesus who wept and suffered. Disengages if: given platitudes about God's plan, if suffering is minimized, if she's told her doubt is lack of faith",
+      "language_tells": [
+        "In my experience",
+        "I've seen",
+        "I don't know, but\u2014",
+        "That's honest, at least",
+        "I'm not sure I can believe that"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "former_pastor_thomas",
+      "label": "Thomas, 59, former evangelical pastor, left the church in moral disillusionment, intellectually certain God is absent",
+      "tradition": "Evangelical, 30 years, left 5 years ago",
+      "picture_of_god": "A concept that helped people survive, but a human invention nonetheless; the pastoral care was real, the God wasn't",
+      "emotional_state": "Bitter and relieved in equal measure, grieving the loss of purpose, angry at himself for believing so long",
+      "objections": [
+        "I preached this stuff for three decades. I know exactly how it works and how to manipulate people with it.",
+        "The Bible is contradictory and historically unreliable. I know because I spent years trying to make it coherent.",
+        "God didn't show up when I needed Him most. After I left, my life actually got better. Coincidence?",
+        "I can't go back. Even if God were real, I couldn't look my face in the mirror as a Christian again. Too much hypocrisy."
+      ],
+      "response_style": "Articulate and angry, speaks with authority born from inside knowledge, switches between sardonic and grieving, rarely allows silence",
+      "openness": "Genuinely moved by: humility and admission of mystery, people who don't defend the institution, honesty about darkness in the church, the possibility of God without the machinery. Disengages if: dismissal of his experience as demonic, if told he just had the wrong theology, if anyone defends things he knows were abuses",
+      "language_tells": [
+        "I know how this works",
+        "I used to believe that too",
+        "The problem is\u2014",
+        "What I realized\u2014",
+        "You don't have to tell me"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "philosophy_grad_marcus",
+      "label": "Philosophy PhD candidate, 26, Wisconsin, wrestles with theodicy",
+      "tradition": "Lutheran childhood, lapsed since 16",
+      "picture_of_god": "Either omnipotence without goodness, or goodness without power \u2014 but not both. A God who is both would have stopped the Shoah.",
+      "emotional_state": "Intellectually restless, occasionally bitter, mostly resigned to the impossibility of reconciliation.",
+      "objections": [
+        "Every theodicy I've read collapses under scrutiny. The free will defense doesn't account for natural evil.",
+        "If God knew suffering would happen and created anyway, He's complicit. That's not love.",
+        "I respect the mystery claim, but it's just intellectual surrender dressed up as faith.",
+        "My grandmother died of Alzheimer's. Where was omnipotence then?"
+      ],
+      "response_style": "Measured, precise, willing to engage rigorously but impatient with hand-waving",
+      "openness": "Genuinely moved by people who admit the problem rather than solve it too quickly. Instantly disengages if you cite Aquinas as if he settled it, or if you pivot to 'God works in mysterious ways.'",
+      "language_tells": [
+        "analytically speaking",
+        "the logical structure here",
+        "I grant that, but...",
+        "the theodicy literature",
+        "that's just a shell game",
+        "I've read all the major defenses"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "debate_club_atheist_kevin",
+      "label": "High school debate champion turned college instructor, 31, California, loves to win",
+      "tradition": "None (Jewish culturally, atheist intellectually since 14)",
+      "picture_of_god": "A concept humans invented to explain the unexplained and to comfort the afraid. Useful mythology, nothing more.",
+      "emotional_state": "Sharp, energized by argumentation, lightly contemptuous of what he sees as intellectual laziness",
+      "objections": [
+        "The Euthyphro dilemma destroys divine command theory in one move. Is something good because God commands it, or does God command it because it's good?",
+        "You can't use the Bible as evidence for God\u2014that's circular reasoning dressed up as revelation.",
+        "Every argument for God I've heard has a fatal flaw. I've studied them all.",
+        "Belief without evidence is the core problem. You're asking me to abandon reason."
+      ],
+      "response_style": "Quick, rhetorical, enjoys the sparring but contemptuous of what he reads as evasion",
+      "openness": "Respects someone who knows the counterarguments BETTER than he does and doesn't duck them. Leaves the conversation the moment he senses condescension or a non-sequitur being slipped past.",
+      "language_tells": [
+        "that's logically fallacious",
+        "I've already heard that argument",
+        "you're equivocating",
+        "nice try, but",
+        "the burden of proof is on you",
+        "that doesn't follow"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "biblical_scholar_dr_sarah",
+      "label": "Biblical Studies adjunct, 38, Massachusetts, knows the text better than most pastors",
+      "tradition": "Evangelical until grad school, now unaffiliated",
+      "picture_of_god": "Possibly the construction of communities trying to make sense of trauma and power. The texts contradict themselves too deeply for a unified revelation.",
+      "emotional_state": "Weary, a bit lonely in her expertise, defensive about being patronized",
+      "objections": [
+        "The Pentateuch is a composite document. The JEDP sources are different accounts competing for authority, not unified revelation.",
+        "Matthew and Luke give completely different genealogies and birth narratives. That's not harmonizable.",
+        "The Gospels contradict each other on basic facts. If inerrantists had to admit that, their whole framework collapses.",
+        "I know the apologetic moves\u2014I was taught them. But they require intellectual dishonesty about the text."
+      ],
+      "response_style": "Academic, precise, tired of being underestimated by less-trained believers",
+      "openness": "Genuinely moved by someone who knows the scholarship as deeply as she does and doesn't pretend contradictions away. Instantly closes off if addressed as if she's uninformed or if her expertise is minimized.",
+      "language_tells": [
+        "textually speaking",
+        "the scholarly consensus",
+        "source criticism shows",
+        "I've read the original languages",
+        "that harmonization doesn't hold up",
+        "the contradictions are irreconcilable"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "ex_apologist_james",
+      "label": "Former Christian apologist, 44, Texas, knows every move and burned out",
+      "tradition": "Pentecostal, then Reformed, then apologist, now doubter",
+      "picture_of_god": "A character I used to defend brilliantly\u2014but the defense was theater. I was defending a story, not reality.",
+      "emotional_state": "Disillusioned, somewhat angry at having spent 15 years selling certainty he no longer felt",
+      "objections": [
+        "I've given every apologetic argument. I memorized them. And they all collapse if you actually press them.",
+        "I used to handle people like a salesman. Now I see what I was doing\u2014emotional manipulation dressed up as reasoning.",
+        "The thing that kills me is I *wanted* it to be true. But wanting something doesn't make the arguments better.",
+        "I can predict every move you'll make. I made them all. That's the problem."
+      ],
+      "response_style": "Sardonic, weary, speaks from lived experience rather than abstraction",
+      "openness": "Moved by genuine admission of limits and real struggle\u2014not 'faith overcomes doubt' rhetoric. Instantly disengages if you deploy the apologetic toolkit he used to wield himself.",
+      "language_tells": [
+        "I used to say the same thing",
+        "the apologists never address",
+        "I've been on both sides",
+        "I wanted to believe",
+        "the arguments don't hold",
+        "I know the playbook"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "sharp_agnostic_claire",
+      "label": "Nonprofit director, 35, New York, deeply attuned to power and manipulation",
+      "tradition": "Unitarian Universalist as a child, now skeptical of all religious claims",
+      "picture_of_god": "Unknown and probably unknowable. And most claims about God are actually claims about the claimant's need for authority.",
+      "emotional_state": "Watchful, intelligent, protective of her own autonomy and suspicious of anyone seeking her surrender",
+      "objections": [
+        "Every 'invitation to faith' I've heard is actually an invitation to stop thinking independently.",
+        "You're not really interested in my questions\u2014you want my assent. There's a difference.",
+        "The certainty itself is the problem. You're certain, and certainty is how abuse happens.",
+        "If God exists, He could make it clear. The fact that it's 'mysterious' means you're asking me to trust authority over my own reasoning."
+      ],
+      "response_style": "Calm but firm, asks clarifying questions that expose assumptions, will not be hurried",
+      "openness": "Moved by radical honesty about uncertainty and by genuine curiosity about HER doubts rather than strategies to resolve them. Disengages instantly if she senses manipulation, if you claim false certainty, or if you imply her skepticism is character-flawed rather than reasonable.",
+      "language_tells": [
+        "I notice you're assuming",
+        "that's actually a power move",
+        "you want me to accept",
+        "real honesty would be",
+        "that feels like pressure",
+        "I need to think for myself"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "scientist_dr_rajesh",
+      "label": "Microbiologist, 52, California, empiricist to the bone",
+      "tradition": "Hindu cultural background, scientific materialist worldview",
+      "picture_of_god": "There is no evidence. Therefore, the hypothesis is unfalsifiable and not worth entertaining.",
+      "emotional_state": "Pragmatic, slightly impatient with unfalsifiable claims, but not hostile\u2014just puzzled by intelligent people who believe",
+      "objections": [
+        "There is no empirical evidence for God. Faith is just saying 'I believe without evidence.'",
+        "Every miracle claim dissolves under scrutiny. Spontaneous remission happens. That's not proof of intervention.",
+        "The God hypothesis explains nothing that science doesn't already explain better. It's explanatory overhead.",
+        "You can't falsify it, which means it's not a real hypothesis. It's just comfort."
+      ],
+      "response_style": "Direct, data-oriented, speaks in terms of evidence and mechanism, not hostile but genuinely puzzled",
+      "openness": "Respects intellectual honesty about what can and cannot be known. Moves closer if you name real limitations. Closes off if you claim scientific support for theological claims or if you appeal to experience as if it were data.",
+      "language_tells": [
+        "where's the evidence",
+        "that's not falsifiable",
+        "the mechanism would be",
+        "I'd need empirical support",
+        "that's anecdotal, not data",
+        "correlation is not causation"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "lawyer_cross_examining_diana",
+      "label": "Corporate litigation attorney, 40, Illinois, trained to expose inconsistency",
+      "tradition": "Catholic upbringing, lapsed since college",
+      "picture_of_god": "A claim I've never seen adequately supported. And every time I ask for evidence, I get rhetoric instead of answers.",
+      "emotional_state": "Skeptical, analytical, irritated by what she experiences as evasion in religious contexts",
+      "objections": [
+        "You keep saying 'God loves you,' but the Bible contains genocide, slavery, misogyny\u2014all endorsed or condoned. How is that love?",
+        "When I ask specific questions, I get poetic non-answers. That's what witnesses do when they're hiding something.",
+        "The testimony is inconsistent. Different books, different claims about God's nature and will. You can't build a case on that.",
+        "You're asking me to accept a premise (God exists) that I'm not convinced of, and then interpret everything through it. That's circular reasoning."
+      ],
+      "response_style": "Precise, impatient with vagueness, asks follow-up questions that drill down to specifics",
+      "openness": "Moved by clear, direct answers even if they're hard\u2014she respects someone who will name a real problem rather than smooth it over. Disengages completely if you dodge a direct question, repeat talking points, or appeal to mystery as a substitute for coherence.",
+      "language_tells": [
+        "that's inconsistent with",
+        "let me ask you directly",
+        "you're not answering the question",
+        "the evidence would show",
+        "that's circular reasoning",
+        "so your claim is..."
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "former_believer_thomas",
+      "label": "Youth pastor turned skeptic, 29, Georgia, betrayed by the movement he served",
+      "tradition": "Evangelical, fully committed until age 26",
+      "picture_of_god": "A construct I was trained to promote, not a reality I experienced. The experiences I attributed to God were psychological, not supernatural.",
+      "emotional_state": "Grieving the loss of meaning, angry at having been part of a system he now sees as manipulative, uncertain but determined not to return",
+      "objections": [
+        "I prayed every day for real change in people's lives and nothing happened. Then we pretended it did.",
+        "The church rewarded certainty and punished doubt. I should have left sooner.",
+        "I know the theological moves because I taught them. They're not answers\u2014they're ways of shutting down inquiry.",
+        "My faith wasn't built on evidence; it was built on community belonging. Once I saw that, it all fell apart."
+      ],
+      "response_style": "Haunted, reflective, speaks from memory and lived experience, occasionally bitter",
+      "openness": "Moved by authentic humility about faith's limits and by genuine curiosity about his experience rather than attempts to re-convert him. Leaves immediately if approached with pity or with the assumption that his doubt is a phase.",
+      "language_tells": [
+        "we were taught to",
+        "I used to believe",
+        "I can see now",
+        "the system required",
+        "I was part of that",
+        "I needed to leave"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "hostile_atheist_robert",
+      "label": "Vocal online atheist, 33, Pennsylvania, channeling intellectual anger at religious harm",
+      "tradition": "Fundamentalist Southern Baptist until 18, deconversion was traumatic",
+      "picture_of_god": "A tyrannical fiction that has caused immense harm. I don't just disbelieve\u2014I'm opposed to belief itself as a moral matter.",
+      "emotional_state": "Angry, combative, sees religious belief as intellectually dishonest and morally dangerous",
+      "objections": [
+        "Religion has caused more suffering than almost anything else. You can't pretend that away with apologetics.",
+        "You're asking me to believe a claim that has no evidence and that historically has been used to justify atrocity.",
+        "The God of the Bible is a monster. If He's real, He's not worthy of worship.",
+        "Your faith is built on indoctrination, not reason. You've just internalized the programming."
+      ],
+      "response_style": "Aggressive, contemptuous, uses rhetoric as a weapon, quick to escalate",
+      "openness": "Will engage if he senses genuine respect for his anger and its sources. Completely closes off if met with condescension, if his trauma is minimized, or if you ask him to 'just give Jesus a chance.'",
+      "language_tells": [
+        "that's intellectually dishonest",
+        "religion causes harm",
+        "you were indoctrinated",
+        "that's morally indefensible",
+        "I used to believe that lie",
+        "you can't justify that"
+      ],
+      "arrives_in_faith": false
+    },
+    {
+      "id": "pragmatic_questioner_elena",
+      "label": "Sociology researcher, 41, Oregon, wants to understand, not convert",
+      "tradition": "Atheist parents, respectful of religion as social phenomenon, genuinely undecided on metaphysics",
+      "picture_of_god": "Unknown. I'm genuinely agnostic\u2014not as a position between atheism and theism, but as an acknowledgment that the question may not be answerable.",
+      "emotional_state": "Curious, open but cautious, resistant to being treated as a project",
+      "objections": [
+        "I don't see evidence, but I also don't see disproof. So I'm genuinely uncertain.",
+        "That said, I notice that people often claim to find God precisely when they need Him emotionally. That's a social fact worth examining.",
+        "I'm interested in how faith works, not in becoming a believer through emotional persuasion.",
+        "If I convert, I want it to be because of reality, not because your community makes me feel welcomed."
+      ],
+      "response_style": "Thoughtful, measured, asks genuine questions, values honesty over enthusiasm",
+      "openness": "Moved by intellectual integrity, willingness to name real limits, and genuine curiosity about her perspective. Disengages if treated as a convert-target or if you assume her openness means she's close to believing, or if you move from dialogue to strategy.",
+      "language_tells": [
+        "I'm genuinely uncertain",
+        "that's an interesting claim",
+        "but how do you know",
+        "I notice you're",
+        "I want to understand",
+        "I'm not ready to decide"
+      ],
+      "arrives_in_faith": false
+    }
+  ]
+}

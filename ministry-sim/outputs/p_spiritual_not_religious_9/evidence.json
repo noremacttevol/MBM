@@ -1,0 +1,14 @@
+{
+  "readiness_revelation": {
+    "COMPARISON": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "neutral": {
+    "GENTLE_EXPLORE": {
+      "good": 1,
+      "bad": 0
+    }
+  }
+}

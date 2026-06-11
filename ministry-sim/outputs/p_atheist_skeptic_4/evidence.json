@@ -1,0 +1,26 @@
+{
+  "disengage": {
+    "HONOR_AND_RELEASE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "grief_pain": {
+    "HONEST_EVIDENCE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "analytical_debate": {
+    "HONEST_EVIDENCE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "readiness_revelation": {
+    "HONEST_EVIDENCE": {
+      "good": 1,
+      "bad": 0
+    }
+  }
+}

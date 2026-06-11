@@ -1,0 +1,20 @@
+{
+  "god_not_good_wound": {
+    "COMPARISON": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "readiness_good_god": {
+    "COMPARISON": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "analytical_debate": {
+    "COMPARISON": {
+      "good": 2,
+      "bad": 0
+    }
+  }
+}

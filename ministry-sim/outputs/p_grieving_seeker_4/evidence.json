@@ -1,0 +1,12 @@
+{
+  "grief_pain": {
+    "PRESENCE": {
+      "good": 2,
+      "bad": 0
+    },
+    "GENTLE_EXPLORE": {
+      "good": 2,
+      "bad": 0
+    }
+  }
+}

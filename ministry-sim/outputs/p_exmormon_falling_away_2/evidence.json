@@ -1,0 +1,22 @@
+{
+  "analytical_debate": {
+    "HONOR_AND_RELEASE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "grief_pain": {
+    "HONEST_EVIDENCE": {
+      "good": 1,
+      "bad": 0
+    },
+    "PRESENCE": {
+      "good": 1,
+      "bad": 0
+    },
+    "HONOR_AND_RELEASE": {
+      "good": 1,
+      "bad": 0
+    }
+  }
+}
