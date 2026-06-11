@@ -1,9 +1,0 @@
-{
-  "name": "mbm-workspace",
-  "private": true,
-  "scripts": {
-    "mobile:web": "cd mobile && npx expo start --web --clear",
-    "mobile:dev": "cd mobile && npx expo start --clear",
-    "mobile:tunnel": "cd mobile && npx expo start --tunnel"
-  }
-}
