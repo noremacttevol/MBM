@@ -110,7 +110,10 @@ export default function AppNavigator() {
   useEffect(() => {
     const unsub = useAppStore.persist.onFinishHydration(() => setHydrated(true));
     if (useAppStore.persist.hasHydrated()) setHydrated(true);
-    return unsub;
+    // Never let a slow or unavailable storage layer trap the app on the blank
+    // boot screen. If hydration hasn't reported in by now, proceed anyway.
+    const fallback = setTimeout(() => setHydrated(true), 2000);
+    return () => { unsub(); clearTimeout(fallback); };
   }, []);
 
   if (!hydrated) {
