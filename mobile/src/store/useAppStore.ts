@@ -18,11 +18,20 @@ import {
   assessJourney,
   assessConnection,
 } from '../engine/connect';
-import { MINISTER_SYSTEM_PROMPT, MINISTER_MODEL } from '../engine/minister';
+import { MINISTER_SYSTEM_PROMPT } from '../engine/minister';
+import {
+  harvestSignals,
+  stripSignalReport,
+  SIGNAL_REPORT_INSTRUCTION,
+  FAITH_ID_RE,
+} from '../engine/chatEar';
+import {
+  EXERCISES,
+  pickExercise,
+  SpiritualExercise,
+} from '../engine/exercises';
 
 // ── Constants ───────────────────────────────────────────────────────────────
-
-export const VIEW_CAP = 5;
 
 /**
  * INVISIBLE EMERGENT ROUTING — there is no ladder the user climbs.
@@ -141,17 +150,47 @@ export interface ConnectRequest {
   delivered:    boolean;         // flips true once a real channel sends it
 }
 
-// ── Anthropic API (direct, on-device) ────────────────────────────────────────
-// Local-first architecture: the app talks to Claude directly when online.
-// The key is read from EXPO_PUBLIC_ANTHROPIC_API_KEY (mobile/.env).
-const ANTHROPIC_API_KEY = (process.env.EXPO_PUBLIC_ANTHROPIC_API_KEY ?? '').trim();
-const ANTHROPIC_URL     = 'https://api.anthropic.com/v1/messages';
-const ANTHROPIC_MODEL   = MINISTER_MODEL;
-const ANTHROPIC_VERSION = '2023-06-01';
-const MAX_REPLY_TOKENS  = 512;
+// A faith self-description, kept VERBATIM in the person's own words. Never a
+// label — the exact phrase they used. Surfaced back to them in the profile
+// ("YOUR FAITH, AS YOU'VE TOLD IT") so they feel heard, never categorized.
+export interface FaithWord {
+  text: string;
+  ts:   number;
+}
+
+// A titled fragment of the person's story, in their own words — "YOUR STORY SO
+// FAR". The minister is told these exist so it can never claim it cannot see
+// their story.
+export interface StoryMoment {
+  title: string;
+  text:  string;
+  ts:    number;
+}
+
+// Lightweight return-visit memory so a person is never met with a cold restart.
+export interface SessionMemory {
+  lastSeen:  number;
+  lastWords: string;  // the last thing they said, to gently recall on return
+}
+
+// ── Key proxy (the API key lives server-side, NEVER in the app) ───────────────
+// The bundled-API-key problem is gone: the app no longer holds the Anthropic key.
+// It talks to a small proxy that holds the key server-side and forwards to Claude.
+// SERVER_URL is read from EXPO_PUBLIC_SERVER_URL (mobile/.env).
+const SERVER_URL = (process.env.EXPO_PUBLIC_SERVER_URL ?? '').trim().replace(/\/+$/, '');
 
 function generateId(): string {
   return Math.random().toString(36).slice(2) + Date.now().toString(36);
+}
+
+// Merge newly-heard signals into the existing set without duplicates. The engine
+// laws (two-witnesses for god-good, framework blocking, member-only self-ID) all
+// live in connect.ts and read the full set — so a plain union is safe here: a
+// single hint can never by itself open a gate.
+function mergeSignals(existing: string[], incoming: string[]): string[] {
+  const set = new Set(existing);
+  incoming.forEach(s => { if (s) set.add(s); });
+  return Array.from(set);
 }
 
 // ── State shape ──────────────────────────────────────────────────────────────
@@ -170,7 +209,6 @@ interface AppState {
   positiveCount:     number;
 
   // UI state
-  isTimeCapReached:  boolean;
   showTalkToSomeone: boolean;
 
   // Dialogue engine
@@ -189,6 +227,18 @@ interface AppState {
 
   // Human connection requests, captured on-device (Phase 1)
   connectRequests:     ConnectRequest[];
+
+  // The person, in their own words — never labels, never numbers shown to them
+  name:                string | null;
+  faithWords:          FaithWord[];
+  moments:             StoryMoment[];
+
+  // Spiritual exercises (invite → try → report → learn)
+  activeExercise:      SpiritualExercise | null;
+  doneExerciseIds:     string[];
+
+  // Return-visit memory (no cold restarts)
+  session:             SessionMemory | null;
 }
 
 interface AppActions {
@@ -206,6 +256,11 @@ interface AppActions {
   setChatLoading:      (loading: boolean) => void;
   appendAssistantMessage: (text: string) => void;
   submitConnectRequest: (note: string) => void;
+  setName:             (name: string) => void;
+  recordFaithBackground: (text: string) => void;
+  addMoment:           (title: string, text: string) => void;
+  offerExercise:       () => SpiritualExercise | null;
+  completeExercise:    (id: string) => void;
 }
 
 // ── Initial state ─────────────────────────────────────────────────────────────
@@ -219,7 +274,6 @@ const initialState: AppState = {
   seenIds:             new Set(),
   openedIds:           new Set(),
   positiveCount:       0,
-  isTimeCapReached:    false,
   showTalkToSomeone:   false,
   dialogueSignals:     [],
   answeredQuestionIds: [],
@@ -230,6 +284,12 @@ const initialState: AppState = {
   chatMessages:        [],
   chatLoading:         false,
   connectRequests:     [],
+  name:                null,
+  faithWords:          [],
+  moments:             [],
+  activeExercise:      null,
+  doneExerciseIds:     [],
+  session:             null,
 };
 
 // ── Persisted state shape (Sets become arrays for JSON storage) ───────────────
@@ -273,7 +333,6 @@ export const useAppStore = create<AppState & AppActions>()(
           seenIds:             new Set(feed.map(c => c.id)),
           openedIds:           new Set(),
           positiveCount:       0,
-          isTimeCapReached:    false,
           showTalkToSomeone:   false,
           dialogueSignals:     seedSignals,
           answeredQuestionIds: [],
@@ -287,12 +346,13 @@ export const useAppStore = create<AppState & AppActions>()(
       },
 
       markOpened(id) {
+        // No time cap, no lockout (Law 5). Opening content only deepens what the
+        // app knows and keeps the feed fresh — it never counts down to a wall.
         const { openedIds, seenIds, feedTag, dialogueSignals, answeredQuestionIds } = get();
         const newOpenedIds = new Set(openedIds).add(id);
         const newSeenIds   = new Set(seenIds).add(id);
         const openCount    = newOpenedIds.size;
 
-        const isTimeCapReached  = openCount >= VIEW_CAP;
         const showTalkToSomeone = openCount >= 3;
 
         const currentQuestion = computeNextQuestion(
@@ -301,15 +361,10 @@ export const useAppStore = create<AppState & AppActions>()(
           openCount,
         );
 
-        const feed = isTimeCapReached
-          ? get().feed
-          : buildFeed(feedTag, newSeenIds);
-
         set({
           openedIds: newOpenedIds,
           seenIds:   newSeenIds,
-          feed:      isTimeCapReached ? get().feed : feed,
-          isTimeCapReached,
+          feed:      buildFeed(feedTag, newSeenIds),
           showTalkToSomeone,
           currentQuestion,
         });
@@ -339,7 +394,6 @@ export const useAppStore = create<AppState & AppActions>()(
           feedTag:          'MILK',
           feed,
           positiveCount:    0,
-          isTimeCapReached: false,
         });
       },
 
@@ -393,6 +447,11 @@ export const useAppStore = create<AppState & AppActions>()(
           if (answerText && answerText.length > 120) {
             deltas.sincerity = Math.round(((deltas.sincerity ?? 0) + 0.15) * 1000) / 1000;
           }
+          // The ear listens to free-text dialogue answers too — the gate can open
+          // from what they type here, not only from chat.
+          if (answerText) {
+            harvestSignals(answerText).forEach(s => newSignals.add(s));
+          }
         }
 
         for (const [k, delta] of Object.entries(deltas)) {
@@ -412,11 +471,26 @@ export const useAppStore = create<AppState & AppActions>()(
           openedIds.size,
         );
 
+        // Keep a verbatim faith self-description if the free-text answer is one.
+        const faithCapture =
+          question.answerType === 'FREE_TEXT' && answerText && FAITH_ID_RE.test(answerText)
+            ? { text: answerText.slice(0, 140), ts: Date.now() }
+            : null;
+
+        // Emergent routing: re-derive the feed track from what they've now shown
+        // (still milk-law-obeying). Only rebuild the feed if the track moved.
+        const { feedTag: prevTag, seenIds, feed: prevFeed, faithWords } = get();
+        const nextTag    = routeFeedTag(newSignalsArr);
+        const trackMoved = nextTag !== prevTag;
+
         set({
           answeredQuestionIds: newAnsweredIds,
           dialogueSignals:     newSignalsArr,
           traitScores:         newTraits,
           currentQuestion,
+          feedTag:             trackMoved ? nextTag : prevTag,
+          feed:                trackMoved ? buildFeed(nextTag, seenIds) : prevFeed,
+          faithWords:          faithCapture ? [faithCapture, ...faithWords] : faithWords,
         });
       },
 
@@ -428,9 +502,23 @@ export const useAppStore = create<AppState & AppActions>()(
           text,
           timestamp:  Date.now(),
         };
+
+        // The ear listens to journal saves too — what a person writes privately
+        // is often the truest thing they say. The gate can open from here.
+        const heur       = harvestSignals(text);
+        const { dialogueSignals, answeredQuestionIds, openedIds, feedTag: prevTag, seenIds, feed: prevFeed } = get();
+        const merged     = mergeSignals(dialogueSignals, heur);
+        const nextTag    = routeFeedTag(merged);
+        const trackMoved = nextTag !== prevTag;
+
         set(s => ({
           journalEntries:    [entry, ...s.journalEntries],
           answeredPromptIds: [...s.answeredPromptIds, promptId],
+          dialogueSignals:   merged,
+          feedTag:           trackMoved ? nextTag : prevTag,
+          feed:              trackMoved ? buildFeed(nextTag, seenIds) : prevFeed,
+          currentQuestion:   s.currentQuestion
+            ?? computeNextQuestion(answeredQuestionIds, merged, openedIds.size),
         }));
       },
 
@@ -452,9 +540,10 @@ export const useAppStore = create<AppState & AppActions>()(
       },
 
       submitConnectRequest(note) {
-        // Capture the request ON-DEVICE and honestly tell the person a real human
-        // will reach out. No mailto, no dead-end email draft. When the real
-        // delivery channel is built, it reads from this queue and flips delivered.
+        // Capture the request ON-DEVICE first — the on-device queue is always the
+        // source of truth. Then fire-and-forget to the proxy's owner inbox so a
+        // real human actually receives it. The on-device entry's `delivered`
+        // flips true only when the proxy confirms 200.
         const { dialogueSignals, conversationId } = get();
         const entry: ConnectRequest = {
           id:             generateId(),
@@ -465,6 +554,88 @@ export const useAppStore = create<AppState & AppActions>()(
           delivered:      false,
         };
         set(s => ({ connectRequests: [entry, ...s.connectRequests] }));
+
+        if (SERVER_URL) {
+          fetch(`${SERVER_URL}/api/connect`, {
+            method:  'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({
+              id:             entry.id,
+              note:           entry.note,
+              journeyStage:   entry.journeyStage,
+              conversationId: entry.conversationId,
+              timestamp:      entry.timestamp,
+            }),
+          })
+            .then(res => {
+              if (res.ok) {
+                set(s => ({
+                  connectRequests: s.connectRequests.map(r =>
+                    r.id === entry.id ? { ...r, delivered: true } : r,
+                  ),
+                }));
+              }
+            })
+            .catch(() => {
+              // Network down: the on-device queue keeps the request safe and a
+              // later session/admin sync can deliver it. Never lose it.
+            });
+        }
+      },
+
+      setName(name) {
+        const clean = (name ?? '').trim().slice(0, 60);
+        set({ name: clean.length ? clean : null });
+      },
+
+      recordFaithBackground(text) {
+        // The FAITH BACKGROUND onboarding page: store the words VERBATIM, seed
+        // routing from what they said, and mark question 2.5 answered so the
+        // dialogue engine doesn't ask it again.
+        const clean = (text ?? '').trim();
+        if (!clean) return;
+
+        const heur          = harvestSignals(clean);
+        const { dialogueSignals, answeredQuestionIds, openedIds } = get();
+        const merged        = mergeSignals(dialogueSignals, heur);
+        const newAnswered   = answeredQuestionIds.includes(2.5)
+          ? answeredQuestionIds
+          : [...answeredQuestionIds, 2.5];
+
+        const nextTag = routeFeedTag(merged);
+        set(s => ({
+          faithWords:      [{ text: clean.slice(0, 140), ts: Date.now() }, ...s.faithWords],
+          dialogueSignals: merged,
+          answeredQuestionIds: newAnswered,
+          feedTag:         nextTag,
+          feed:            buildFeed(nextTag, s.seenIds),
+          currentQuestion: computeNextQuestion(newAnswered, merged, openedIds.size),
+        }));
+      },
+
+      addMoment(title, text) {
+        const t = (title ?? '').trim().slice(0, 60);
+        const b = (text ?? '').trim().slice(0, 280);
+        if (!b) return;
+        set(s => ({ moments: [{ title: t || 'A moment', text: b, ts: Date.now() }, ...s.moments] }));
+      },
+
+      offerExercise() {
+        // Invite → try → report → learn. Pick an exercise that fits the signals
+        // and hasn't been offered yet, and hold it as the active invitation.
+        const { dialogueSignals, doneExerciseIds } = get();
+        const ex = pickExercise(dialogueSignals, doneExerciseIds);
+        if (ex) set({ activeExercise: ex });
+        return ex;
+      },
+
+      completeExercise(id) {
+        set(s => ({
+          doneExerciseIds: s.doneExerciseIds.includes(id)
+            ? s.doneExerciseIds
+            : [...s.doneExerciseIds, id],
+          activeExercise: s.activeExercise?.id === id ? null : s.activeExercise,
+        }));
       },
 
       async sendChatMessage(text) {
@@ -475,15 +646,32 @@ export const useAppStore = create<AppState & AppActions>()(
           timestamp: Date.now(),
         };
 
+        // ── The ear: harvest signals from THIS message BEFORE the prompt ─────
+        // so the milk gate can open mid-conversation and the guidance below is
+        // built from everything the person has revealed, including just now.
+        const heur            = harvestSignals(text);
+        const priorSignals    = get().dialogueSignals;
+        const combinedSignals = mergeSignals(priorSignals, heur);
+
+        // Keep faith self-descriptions VERBATIM in the person's faith record.
+        const newFaithWord: FaithWord | null = FAITH_ID_RE.test(text)
+          ? { text: text.slice(0, 140), ts: Date.now() }
+          : null;
+
         set(s => ({
           chatMessages: [...s.chatMessages, userMsg],
           chatLoading:  true,
+          dialogueSignals: combinedSignals,
+          faithWords:  newFaithWord ? [newFaithWord, ...s.faithWords] : s.faithWords,
+          session:     { lastSeen: Date.now(), lastWords: text.slice(0, 140) },
         }));
 
         const state = get();
 
         // ── Build system prompt with full user context ──────────────────────
 
+        // SIGNAL_LABELS — every signal the engine can hear, in plain English for
+        // the model's context. Kept in sync with mbm-data.js SIGNAL_LABELS.
         const signalLabels: Record<string, string> = {
           had_spiritual_experience:    'has had an unexplained spiritual experience',
           has_history_with_faith:      'has a past with faith',
@@ -500,10 +688,18 @@ export const useAppStore = create<AppState & AppActions>()(
           open_to_restoration:         'is open to the idea that God still speaks today',
           curious_about_book_of_mormon: 'is curious about the Book of Mormon',
           inactive_member:             'is a less-active Latter-day Saint',
+          active_member:               'is an active Latter-day Saint',
+          covenant_intent:             'already holds faith dear and wants to go deeper',
+          pictures_harsh_god:          'carries a picture of a harsh, score-keeping, or disappointed God (use the comparison method gently)',
+          pictures_distant_god:        'pictures a God who is not paying attention to them',
+          reformed_framework:          'comes from a Reformed/Calvinist framework (the framework itself carries a harsh God — examine the picture gently; NEVER say this analysis to them)',
+          rejects_harsh_god:           'has rejected the harsh picture of God in their own words',
+          nontheistic_framework:       'does not (yet) conceive of God as a person — warm spirituality is not yet trust in a good personal God',
+          active_faith_tradition:      'is part of a faith community today',
           losing_faith:                'is experiencing a faith crisis',
         };
 
-        const signalSentences = state.dialogueSignals
+        const signalSentences = combinedSignals
           .filter(s => signalLabels[s])
           .map(s => signalLabels[s])
           .join('; ');
@@ -523,8 +719,9 @@ export const useAppStore = create<AppState & AppActions>()(
 
         // Live guidance derived from the connection engine — the milk gate, where
         // they are on the journey, and whether a missionary referral is appropriate.
-        const conn       = assessConnection(state.dialogueSignals, text);
-        const mayLds     = isRestorationReady(state.dialogueSignals);
+        // Built from combinedSignals so the gate reflects what was just said.
+        const conn       = assessConnection(combinedSignals, text);
+        const mayLds     = isRestorationReady(combinedSignals);
 
         // NEVER name the admin here. The model only needs to know a real PERSON is
         // available — not who. Leaking a personal name into chat was a real failure.
@@ -543,11 +740,48 @@ export const useAppStore = create<AppState & AppActions>()(
 - May you reference the restored gospel / The Church of Jesus Christ of Latter-day Saints / the Book of Mormon yet? ${mayLds ? 'YES — both readiness signals are present. You may do so gently, honestly, never as a pitch.' : 'NO — the milk-before-meat law is in force. Give only milk: the Jesus and the good God of the Bible. Do not mention the Church, Joseph Smith, the Restoration, the Book of Mormon, or missionaries.'}
 - Missionary referral appropriate? ${conn.missionaryReady ? 'YES — they are reaching toward the church on their own and have passed the milk. You may gently offer to connect them with missionaries.' : 'NO — do not bring up missionaries.'}`;
 
+        // The person's name, if they gave it — address them as a friend would.
+        const nameLine = state.name
+          ? `\n- Their name is ${state.name}. Use it naturally and sparingly, the way a friend would — never as a sales tactic.`
+          : '';
+
+        // YOUR STORY SO FAR — fragments the person has told, in their own words.
+        // The minister is shown these so it can NEVER claim it cannot see their
+        // story. Quote back only what serves them; never read the list aloud.
+        const storyMoments = state.moments.length
+          ? `\n- Their story so far, in their own words (never claim you cannot see their story): ${state.moments
+              .slice(0, 4)
+              .map(m => `${m.title}: "${m.text.slice(0, 120)}"`)
+              .join(' / ')}`
+          : '';
+
+        // Their faith, as they've told it — verbatim self-descriptions.
+        const faithLine = state.faithWords.length
+          ? `\n- How they describe their own faith (their words): ${state.faithWords
+              .slice(0, 3)
+              .map(f => `"${f.text}"`)
+              .join(' / ')}`
+          : '';
+
+        // If a spiritual exercise is in flight, the minister should follow up on
+        // it warmly rather than starting cold — invite, try, report, learn.
+        const exerciseLine = state.activeExercise
+          ? `\n\n[ACTIVE EXERCISE — they were invited to try this: "${state.activeExercise.text}" (${state.activeExercise.ref}). If their message touches on it, follow up gently with: "${state.activeExercise.followUp}" — never demand a report, and never shame them if they didn't.]`
+          : '';
+
+        // MINISTERING PLAN — the framework-discernment note + the one-concrete-
+        // invitation law, both ported from the prototype's buildSystemPrompt.
+        const ministeringPlan = `
+
+[MINISTERING PLAN — how to approach THIS person right now]
+- FRAMEWORK DISCERNMENT (internal only, NEVER spoken): if they come from a Reformed/Calvinist framework, the framework itself carries a harsh, sovereignty-over-goodness picture of God. Do not treat a warm sentence as proof they already trust a good God. Use the comparison method (law 4): set the Jesus they accept beside the harsh picture and ask ONE open question. The god-good gate stays CLOSED until they reject the harsh picture in their OWN words AND affirm God is good — two witnesses, not one.
+- ONE CONCRETE INVITATION: when it genuinely fits, leave them with ONE small, doable thing they could actually try before next time (a verse to sit with, a quiet honest prayer, noticing one good thing) — concrete, never a homework list, never pressure. If the moment doesn't call for it, don't force one.`;
+
         const systemPrompt = `${MINISTER_SYSTEM_PROMPT}
 
 [ABOUT THIS PERSON — what the app has quietly learned. Never read these labels back to them.]
-- Spiritual traits: ${traitSummary}${signalSentences ? `\n- What they have shown: ${signalSentences}` : ''}${recentJournal ? `\n- From their recent journal: ${recentJournal}` : ''}
-${guidance}`;
+- Spiritual traits: ${traitSummary}${nameLine}${signalSentences ? `\n- What they have shown: ${signalSentences}` : ''}${faithLine}${storyMoments}${recentJournal ? `\n- From their recent journal: ${recentJournal}` : ''}${ministeringPlan}${exerciseLine}
+${guidance}${SIGNAL_REPORT_INSTRUCTION}`;
 
         // history already ends with the user's latest message — exactly the
         // shape Anthropic's `messages` array expects (alternating, user-first).
@@ -556,7 +790,7 @@ ${guidance}`;
           content: m.text,
         }));
 
-        if (!ANTHROPIC_API_KEY) {
+        if (!SERVER_URL) {
           get().appendAssistantMessage(
             "I'm not connected to my voice right now. Whatever you were thinking — it's worth writing down in the journal while you wait.",
           );
@@ -564,36 +798,40 @@ ${guidance}`;
         }
 
         try {
-          // ── Call Claude directly (local-first, on-device) ─────────────────
-          const response = await fetch(ANTHROPIC_URL, {
+          // ── Call the key proxy (the API key never leaves the server) ───────
+          const response = await fetch(`${SERVER_URL}/api/chat`, {
             method:  'POST',
-            headers: {
-              'content-type':     'application/json',
-              'x-api-key':        ANTHROPIC_API_KEY,
-              'anthropic-version': ANTHROPIC_VERSION,
-              // Required for the browser/web preview (CORS); harmless on native.
-              'anthropic-dangerous-direct-browser-access': 'true',
-            },
-            body: JSON.stringify({
-              model:      ANTHROPIC_MODEL,
-              max_tokens: MAX_REPLY_TOKENS,
-              system:     systemPrompt,
-              messages:   history,
-            }),
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ system: systemPrompt, messages: history }),
           });
 
           if (!response.ok) {
-            throw new Error(`Anthropic error ${response.status}`);
+            throw new Error('proxy ' + response.status);
           }
 
-          const data = await response.json();
-          const reply = Array.isArray(data?.content)
-            ? data.content
-                .filter((block: { type?: string }) => block?.type === 'text')
-                .map((block: { text?: string }) => block?.text ?? '')
-                .join('')
-                .trim()
-            : '';
+          const { text: rawReply } = await response.json();
+
+          // ── The ear, part two: strip the model's hidden signal report and
+          // fold what it heard into the engine. The gate can open right here.
+          const { reply, found } = stripSignalReport(rawReply ?? '');
+          const heardSignals     = mergeSignals(combinedSignals, found);
+
+          // Re-derive the feed track from everything now heard (still milk-law-
+          // obeying via routeFeedTag). Only rebuild the feed if the track moved.
+          const prevTag  = get().feedTag;
+          const nextTag  = routeFeedTag(heardSignals);
+          const trackMoved = nextTag !== prevTag;
+
+          // Recompute the next dialogue question if there isn't one queued.
+          const nextQuestion = get().currentQuestion
+            ?? computeNextQuestion(get().answeredQuestionIds, heardSignals, get().openedIds.size);
+
+          set(s => ({
+            dialogueSignals: heardSignals,
+            feedTag:         trackMoved ? nextTag : s.feedTag,
+            feed:            trackMoved ? buildFeed(nextTag, s.seenIds) : s.feed,
+            currentQuestion: nextQuestion,
+          }));
 
           if (reply) {
             get().appendAssistantMessage(reply);
@@ -622,7 +860,6 @@ ${guidance}`;
         seenIds:             Array.from(state.seenIds),    // Set → array for JSON
         openedIds:           Array.from(state.openedIds),  // Set → array for JSON
         positiveCount:       state.positiveCount,
-        isTimeCapReached:    state.isTimeCapReached,
         showTalkToSomeone:   state.showTalkToSomeone,
         dialogueSignals:     state.dialogueSignals,
         answeredQuestionIds: state.answeredQuestionIds,
@@ -632,14 +869,48 @@ ${guidance}`;
         answeredPromptIds:   state.answeredPromptIds,
         chatMessages:        state.chatMessages,
         connectRequests:     state.connectRequests,
+        name:                state.name,
+        faithWords:          state.faithWords,
+        moments:             state.moments,
+        activeExercise:      state.activeExercise,
+        doneExerciseIds:     state.doneExerciseIds,
+        session:             state.session,
       }),
-      // Convert arrays back to Sets when rehydrating
+      // Convert arrays back to Sets when rehydrating, and SELF-HEAL the routing:
+      // re-derive the feed track from the persisted signals so a stored state can
+      // never sit ABOVE what the person's signals actually justify (e.g. a
+      // RESTORATION tag left over after the milk law would now block it). If the
+      // persisted track is higher than the signals warrant, route it back down.
       merge: (persistedState, currentState) => {
         const p = persistedState as Partial<PersistedState>;
+        const signals = (p.dialogueSignals as string[] | undefined) ?? [];
+        const justified = routeFeedTag(signals);
+
+        // Order of "depth" — never let the stored tag exceed what signals justify.
+        const RANK: Record<FeedTag, number> = {
+          MILK: 0, BRIDGE: 1, RESTORATION: 2, MAINTENANCE: 3,
+        };
+        const storedTag = (p.feedTag as FeedTag | undefined) ?? 'MILK';
+        // MAINTENANCE is the member track and is justified only by member signals,
+        // which routeFeedTag already accounts for; for seeker tags, downgrade if
+        // the stored tag outranks the justified one.
+        const healedTag: FeedTag =
+          storedTag === 'MAINTENANCE' && justified === 'MAINTENANCE'
+            ? 'MAINTENANCE'
+            : RANK[storedTag] > RANK[justified]
+              ? justified
+              : storedTag;
+
+        const seenSet = new Set<number>((p.seenIds as number[] | undefined) ?? []);
+        const healedFeed =
+          healedTag !== storedTag ? buildFeed(healedTag, seenSet) : (p.feed ?? currentState.feed);
+
         return {
           ...currentState,
           ...p,
-          seenIds:    new Set<number>((p.seenIds   as number[] | undefined) ?? []),
+          feedTag:    healedTag,
+          feed:       healedFeed,
+          seenIds:    seenSet,
           openedIds:  new Set<number>((p.openedIds as number[] | undefined) ?? []),
           chatLoading: false, // never persist a loading spinner
         };

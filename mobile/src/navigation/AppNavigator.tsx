@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
-import { NavigationContainer, useNavigation } from '@react-navigation/native';
-import { createNativeStackNavigator, NativeStackNavigationProp } from '@react-navigation/native-stack';
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons } from '@expo/vector-icons';
 
@@ -10,9 +10,7 @@ import FeedScreen    from '../screens/FeedScreen';
 import JournalScreen from '../screens/JournalScreen';
 import ChatScreen    from '../screens/ChatScreen';
 import ProfileScreen from '../screens/ProfileScreen';
-import TimeCapScreen from '../screens/TimeCapScreen';
 import ErrorBoundary from '../components/ErrorBoundary';
-import { useAppStore } from '../store/useAppStore';
 import { colors } from '../theme';
 
 // Wraps a screen so a crash inside it shows a calm fallback instead of blanking
@@ -34,7 +32,6 @@ const GuardedFeed    = guard(FeedScreen,    'Feed');
 const GuardedJournal = guard(JournalScreen, 'Journal');
 const GuardedChat    = guard(ChatScreen,    'Chat');
 const GuardedProfile = guard(ProfileScreen, 'Profile');
-const GuardedTimeCap = guard(TimeCapScreen, 'TimeCap');
 
 // ── Type maps ────────────────────────────────────────────────────────────────
 
@@ -42,7 +39,6 @@ export type RootStackParamList = {
   Hook:    undefined;
   Onboard: undefined;
   Main:    undefined;
-  TimeCap: undefined;
 };
 
 export type MainTabParamList = {
@@ -57,17 +53,9 @@ export type MainTabParamList = {
 const Stack = createNativeStackNavigator<RootStackParamList>();
 const Tab   = createBottomTabNavigator<MainTabParamList>();
 
-// Watches isTimeCapReached and navigates to TimeCap from inside the tab navigator
+// The tab navigator. There is no time cap and no come-back wipe (Law 5): the app
+// never locks a person out and never erases what it has learned about them.
 function MainTabs() {
-  const navigation     = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
-  const isTimeCapReached = useAppStore(s => s.isTimeCapReached);
-
-  useEffect(() => {
-    if (isTimeCapReached) {
-      navigation.navigate('TimeCap');
-    }
-  }, [isTimeCapReached]);
-
   return (
     <Tab.Navigator
       screenOptions={({ route }: { route: { name: string } }) => ({
@@ -124,7 +112,6 @@ export default function AppNavigator() {
         <Stack.Screen name="Hook"    component={GuardedHook} />
         <Stack.Screen name="Onboard" component={GuardedOnboard} />
         <Stack.Screen name="Main"    component={MainTabs} />
-        <Stack.Screen name="TimeCap" component={GuardedTimeCap} />
       </Stack.Navigator>
     </NavigationContainer>
   );

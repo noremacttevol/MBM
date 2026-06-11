@@ -1,3 +1,5 @@
+import { believesGodGood, openToMore } from '../engine/connect';
+
 export type AnswerType = 'FREE_TEXT' | 'YES_NO' | 'CHOICE';
 export type QuestionStage = 'ENTRY' | 'EARLY' | 'MID' | 'DEEP';
 
@@ -1175,8 +1177,162 @@ export const QUESTION_BANK: DialogueQuestion[] = [
     prerequisiteSignals: [],
     jesusReference: "James 1:5 — If any of you lacks wisdom, let him ask God, who gives generously to all without reproach.",
   },
+
+  // ══════════════════════════════════════════
+  // TARGETED MINISTRY ADDITIONS (ported verbatim from the verified reference,
+  // mbm-data.js — 0 law violations across 270+ engine-sim trials).
+  // ══════════════════════════════════════════
+
+  // id 0 — the confirming question for people whose story tap hinted at faith.
+  // Asked FIRST for them. Names no church: the app learns where their faith lives
+  // without ever disclosing anything itself (Law 8: one click is never identity).
+  {
+    id: 0, stage: 'ENTRY', topic: 'faith_home',
+    questionText: 'It sounds like faith is already part of your life. Where does that faith live right now?',
+    answerType: 'CHOICE',
+    answerOptions: [
+      { text: "In a church family I'm an active part of.", value: 'churched', signals: ['believes_in_jesus'], traitSignals: { sincerity: 0.25, openness: 0.15 } },
+      { text: 'In a faith I grew up in but have drifted from.', value: 'drifted', signals: ['has_history_with_faith'], traitSignals: { honest_inquiry: 0.25, courage: 0.2 } },
+      { text: 'Between me and God — no church right now.', value: 'unchurched', signals: ['open_to_god'], traitSignals: { sincerity: 0.2, openness: 0.2 } },
+      { text: "Honestly — it's complicated right now.", value: 'complicated', traitSignals: { honest_inquiry: 0.25, humility: 0.2 } },
+    ],
+    traitSignals: {}, prerequisiteSignals: ['covenant_intent'],
+    jesusReference: 'John 4:21-23 — Neither on this mountain nor in Jerusalem… true worshipers worship in spirit and in truth.',
+  },
+  // id 2.5 — faith tradition. A modern disciple ASKS, openly and warmly, where
+  // someone's faith lives (Acts 17). Third question for everyone. Names no church.
+  {
+    id: 2.5, stage: 'ENTRY', topic: 'faith_tradition',
+    questionText: "Do you have a faith tradition today — a church, a practice, something you grew up in or chose? However you'd describe it.",
+    answerType: 'CHOICE',
+    answerOptions: [
+      { text: "Yes — I'm part of a faith community now.", value: 'active', signals: ['active_faith_tradition'], traitSignals: { sincerity: 0.2, openness: 0.15 } },
+      { text: "I grew up in one, but I've stepped away.", value: 'stepped_away', signals: ['has_history_with_faith'], traitSignals: { honest_inquiry: 0.25, courage: 0.2 } },
+      { text: "No — I've never really had one.", value: 'none', traitSignals: { honest_inquiry: 0.2 } },
+      { text: "It's complicated — bits and pieces.", value: 'complicated', traitSignals: { humility: 0.2, honest_inquiry: 0.2 } },
+    ],
+    traitSignals: {}, prerequisiteSignals: [],
+    jesusReference: 'Acts 17:22-23 — I see that in every way you are very religious… Paul began with what they already worshiped.',
+  },
+  // id 61 — picture of God: what God thinks of you.
+  {
+    id: 61, stage: 'ENTRY', topic: 'gods_opinion_of_you',
+    questionText: 'If God is real — what do you suspect he actually thinks of you, right now, today?',
+    answerType: 'CHOICE',
+    answerOptions: [
+      { text: "That I'm a disappointment to him.", value: 'disappointment', signals: ['pictures_harsh_god'], traitSignals: { courage: 0.3, sincerity: 0.3 } },
+      { text: "That he's not really paying attention to someone like me.", value: 'unnoticed', signals: ['pictures_distant_god'], traitSignals: { sincerity: 0.25, honest_inquiry: 0.2 } },
+      { text: "Honestly — I think he might be glad I'm asking.", value: 'glad', signals: ['open_to_god'], traitSignals: { openness: 0.3, hunger: 0.25 } },
+      { text: "I can't picture him being real enough to think anything.", value: 'unreal', signals: ['skeptical_of_god'], traitSignals: { honest_inquiry: 0.3, courage: 0.2 } },
+    ],
+    traitSignals: {}, prerequisiteSignals: [],
+    jesusReference: 'Luke 15:20 — While he was still a long way off, his father saw him and was filled with compassion.',
+  },
+  // id 62 — the God you reject (picture-of-God probe for skeptics).
+  {
+    id: 62, stage: 'EARLY', topic: 'god_you_reject',
+    questionText: "Describe the God you don't believe in. What is he like — the one you walked away from or never could accept?",
+    answerType: 'FREE_TEXT', answerOptions: [],
+    traitSignals: { honest_inquiry: 0.4, courage: 0.3, sincerity: 0.25 }, prerequisiteSignals: ['skeptical_of_god'],
+    jesusReference: 'John 8:19 — You know neither me nor my Father. If you knew me, you would know my Father also.',
+  },
+  // id 63 — Jesus in your life.
+  {
+    id: 63, stage: 'MID', topic: 'jesus_in_your_life',
+    questionText: 'If you could watch Jesus walk into one situation from your own life — which one would you pick, and what are you afraid he would do?',
+    answerType: 'FREE_TEXT', answerOptions: [],
+    traitSignals: { courage: 0.35, sincerity: 0.35, hunger: 0.25 }, prerequisiteSignals: [],
+    jesusReference: 'John 11:21 — Lord, if you had been here, my brother would not have died. She told him exactly where it hurt.',
+  },
+  // id 64 — score-keeper vs leaning-in (picture-of-God probe).
+  {
+    id: 64, stage: 'EARLY', topic: 'who_listens',
+    questionText: 'When you pray — or imagine praying — who do you picture listening: someone keeping score, or someone leaning in?',
+    answerType: 'CHOICE',
+    answerOptions: [
+      { text: 'Someone keeping score.', value: 'score', signals: ['pictures_harsh_god'], traitSignals: { courage: 0.25, sincerity: 0.25 } },
+      { text: 'Someone leaning in.', value: 'leaning', signals: ['believes_god_good'], traitSignals: { openness: 0.3, sincerity: 0.25 } },
+      { text: 'No one. Empty air.', value: 'no_one', signals: ['skeptical_of_god'], traitSignals: { honest_inquiry: 0.3 } },
+      { text: 'It depends on the day, honestly.', value: 'depends', traitSignals: { sincerity: 0.25, humility: 0.2 } },
+    ],
+    traitSignals: {}, prerequisiteSignals: [],
+    jesusReference: 'Luke 11:13 — How much more will your Father in heaven give good gifts to those who ask him.',
+  },
+  // id 66 — faith home named. Their own words → harvested. Where an LDS member
+  // self-identifies (Law 3) and a Baptist gets believes_in_jesus.
+  {
+    id: 66, stage: 'EARLY', topic: 'faith_home_named',
+    questionText: "Which church or tradition is home for you — and what's one thing about it you'd never want to lose?",
+    answerType: 'FREE_TEXT', answerOptions: [],
+    traitSignals: { sincerity: 0.3, openness: 0.2 }, prerequisiteSignals: ['active_faith_tradition'],
+    jesusReference: 'Mark 12:34 — You are not far from the kingdom of God. Said to a teacher from another school.',
+  },
+  // id 67 — one true thing (testimony-eliciting).
+  {
+    id: 67, stage: 'EARLY', topic: 'one_true_thing',
+    questionText: "If you had to tell a child one true thing about God — even if you're not sure you fully believe it yourself — what would you say?",
+    answerType: 'FREE_TEXT', answerOptions: [],
+    traitSignals: { sincerity: 0.3, courage: 0.2, hunger: 0.2 }, prerequisiteSignals: [],
+    jesusReference: 'Matthew 18:3 — Unless you change and become like little children…',
+  },
+  // id 68 — what you know (testimony-eliciting).
+  {
+    id: 68, stage: 'MID', topic: 'what_you_know',
+    questionText: 'What do you actually KNOW — not hope, not something borrowed from someone else — from your own life, about God or about goodness?',
+    answerType: 'FREE_TEXT', answerOptions: [],
+    traitSignals: { sincerity: 0.35, courage: 0.3, honest_inquiry: 0.2 }, prerequisiteSignals: [],
+    jesusReference: 'John 9:25 — One thing I do know: I was blind, and now I see.',
+  },
+  // id 69 — tell it as story (testimony-eliciting).
+  {
+    id: 69, stage: 'MID', topic: 'tell_it_as_story',
+    questionText: 'That experience you mentioned — the one you could not explain — tell it like a story. What happened, and what did it leave behind in you?',
+    answerType: 'FREE_TEXT', answerOptions: [],
+    traitSignals: { openness: 0.3, sincerity: 0.3, hunger: 0.25 }, prerequisiteSignals: ['had_spiritual_experience'],
+    jesusReference: 'Mark 5:19 — Go home to your own people and tell them how much the Lord has done for you.',
+  },
+  // id 70 — faith history named (framework probe). Their words → faithWords.
+  {
+    id: 70, stage: 'EARLY', topic: 'faith_history_named',
+    questionText: "The faith you've been around or stepped away from — which church or tradition was it, and what did it teach you about who God is?",
+    answerType: 'FREE_TEXT', answerOptions: [],
+    traitSignals: { honest_inquiry: 0.3, courage: 0.25, sincerity: 0.2 }, prerequisiteSignals: ['has_history_with_faith'],
+    jesusReference: 'Luke 24:17 — What are you discussing as you walk along? He asked what they already carried.',
+  },
+  // id 71 — does everyone get a real chance (the Calvinist-revealing question).
+  {
+    id: 71, stage: 'EARLY', topic: 'who_gets_a_chance',
+    questionText: "Here's a question people rarely get asked plainly: do you believe everyone gets a real chance with God — or only some?",
+    answerType: 'CHOICE',
+    answerOptions: [
+      { text: 'Everyone — somehow, a good God reaches everyone.', value: 'everyone', signals: ['rejects_harsh_god'], traitSignals: { openness: 0.3, compassion: 0.25 } },
+      { text: "Only some — that's what I was taught, and it troubles me.", value: 'troubled', signals: ['pictures_harsh_god'], traitSignals: { courage: 0.3, sincerity: 0.25, honest_inquiry: 0.2 } },
+      { text: "Only some — and I've made peace with that.", value: 'settled', signals: ['pictures_harsh_god', 'reformed_framework'], traitSignals: { sincerity: 0.2 } },
+      { text: "I've honestly never let myself ask.", value: 'never_asked', traitSignals: { humility: 0.25, honest_inquiry: 0.2 } },
+    ],
+    traitSignals: {}, prerequisiteSignals: [],
+    jesusReference: '1 Timothy 2:4 — God our Savior, who will have all men to be saved, and to come unto the knowledge of the truth.',
+  },
+  // id 72 — universal chance (1 Pet 4:6-shaped; gated on pictures_harsh_god).
+  {
+    id: 72, stage: 'MID', topic: 'universal_chance',
+    questionText: 'If it turned out that every soul — living and dead — gets a full, fair chance to know God, would that be better news than what you were taught — or would it break something you need to keep?',
+    answerType: 'CHOICE',
+    answerOptions: [
+      { text: "Better news. I'd want that to be true.", value: 'better', signals: ['rejects_harsh_god', 'open_to_god'], traitSignals: { hunger: 0.3, openness: 0.3 } },
+      { text: 'It would contradict what God has decreed.', value: 'decreed', signals: ['reformed_framework'], traitSignals: { sincerity: 0.2 } },
+      { text: "I don't know — I've never been allowed to ask that.", value: 'not_allowed', traitSignals: { courage: 0.25, honest_inquiry: 0.25 } },
+    ],
+    traitSignals: {}, prerequisiteSignals: ['pictures_harsh_god'],
+    jesusReference: '1 Peter 4:6 — For this cause was the gospel preached also to them that are dead.',
+  },
 ];
 
+// TARGETED MINISTRY (owner direction, 2026-06-11): ask next what the app most
+// needs to learn to lead this person where it is designed to take them.
+// Background → picture of God → God still speaks → the reach. Each answer moves
+// the person one honest step along the path, never at random. Ported verbatim
+// from the verified reference (mbm-data.js).
 export function computeNextQuestion(
   answeredIds:   number[],
   signals:       string[],
@@ -1193,10 +1349,25 @@ export function computeNextQuestion(
 
   if (eligible.length === 0) return null;
 
-  eligible.sort((a, b) => {
+  const knowsBackground =
+    answeredIds.includes(0) || answeredIds.includes(2.5) ||
+    ['active_faith_tradition', 'has_history_with_faith', 'active_member', 'inactive_member'].some(x => activeSignals.has(x));
+  const godGood = believesGodGood(signals);
+  const openMore = openToMore(signals);
+  const PRIORITY_TOPICS = !knowsBackground
+    ? ['faith_home', 'faith_tradition']
+    : !godGood
+      ? ['gods_opinion_of_you', 'who_listens', 'god_feeling', 'god_you_reject', 'who_gets_a_chance', 'universal_chance', 'faith_history_named', 'one_true_thing', 'what_you_know', 'grief_and_god']
+      : !openMore
+        ? ['god_still_speaks', 'unseen', 'spiritual_experience_depth', 'prayer', 'prayer_felt', 'restoration_what_if']
+        : ['book_of_mormon_curiosity', 'restoration_what_if', 'seeking_honest', 'one_question', 'tell_it_as_story'];
+  const prioritized = eligible.filter(q => PRIORITY_TOPICS.includes(q.topic));
+  const pool = prioritized.length > 0 ? prioritized : eligible;
+
+  pool.sort((a, b) => {
     const stageDiff = (STAGE_ORDER[a.stage] ?? 1) - (STAGE_ORDER[b.stage] ?? 1);
     return stageDiff !== 0 ? stageDiff : a.id - b.id;
   });
 
-  return eligible[0];
+  return pool[0];
 }

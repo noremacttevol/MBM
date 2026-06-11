@@ -75,13 +75,17 @@ export type MemberStage = 'DISCIPLE_GROWING';
 // These mirror the readiness logic in knowing_engine.py / connect.py, expressed
 // over the app's dialogue/onboard signal strings.
 
-// (a) believes God is fundamentally good
+// (a) believes God is fundamentally good.
+// ONE CLICK IS NEVER IDENTITY (owner law, 2026-06-11): 'covenant_intent' from a
+// single story tap ("I'm committed but I hold back") is a believer HINT only —
+// it counts toward signal (a) but can never mark someone a member.
 const GOD_GOOD_SIGNALS = new Set<string>([
   'believes_god_good',
   'believes_in_jesus',
   'drawn_to_jesus',
   'open_to_god',
   'had_spiritual_experience',
+  'covenant_intent',
 ]);
 
 // (b) open to the idea that God might still speak today / there could be more
@@ -91,8 +95,10 @@ const OPEN_TO_MORE_SIGNALS = new Set<string>([
 ]);
 
 // Active / less-active Latter-day Saints — a separate track from seekers.
+// Membership comes ONLY from explicit self-identification in the person's own
+// words (chat or dialogue). A single onboarding tap (covenant_intent) is NEVER
+// membership — that misroute lost a tester (CLAUDE.md Law 8).
 const MEMBER_SIGNALS = new Set<string>([
-  'covenant_intent',
   'inactive_member',
   'active_member',
 ]);
@@ -116,8 +122,35 @@ export function isMember(signals: string[]): boolean {
   return hasAny(signals, MEMBER_SIGNALS);
 }
 
+/**
+ * ONE HINT IS NEVER BELIEF (owner law, 2026-06-11). "In the mouth of two or
+ * three witnesses shall every word be established" (2 Cor 13:1):
+ *  - A harsh-God picture OR a framework that carries one (Reformed determinism —
+ *    election, damnation decreed for God's glory; the creation-dilemma: a God who
+ *    creates from nothing owns the evil that follows) BLOCKS the signal even when
+ *    the person loyally SAYS "God is good." Only their own-words rejection of the
+ *    harsh picture, together with the affirmation, opens it.
+ *  - A non-theistic framework ("God is the universe / not a person") blocks until
+ *    they affirm a good personal God explicitly, in their own words.
+ *  - Otherwise an explicit good-God statement counts; absent one, two independent
+ *    soft witnesses are required. This discernment is INTERNAL — never spoken.
+ */
 export function believesGodGood(signals: string[]): boolean {
-  return hasAny(signals, GOD_GOOD_SIGNALS);
+  const sset = new Set(signals);
+  const blocked =
+    sset.has('pictures_harsh_god') ||
+    sset.has('pictures_distant_god') ||
+    sset.has('reformed_framework');
+  if (blocked) {
+    return sset.has('rejects_harsh_god') && sset.has('believes_god_good');
+  }
+  if (sset.has('nontheistic_framework')) return sset.has('believes_god_good');
+  if (sset.has('believes_god_good')) return true;
+  const SOFT = [
+    'open_to_god', 'drawn_to_jesus', 'had_spiritual_experience',
+    'believes_in_jesus', 'covenant_intent', 'rejects_harsh_god',
+  ];
+  return SOFT.filter((x) => sset.has(x)).length >= 2;
 }
 
 export function openToMore(signals: string[]): boolean {
