@@ -1,5 +1,12 @@
 # MBM — Master Instructions for Claude Code
 
+> **THE SINGLE SOURCE OF TRUTH IS [`AGENT-RULES.md`](./AGENT-RULES.md) — read it first,
+> every session, on every platform (Claude Code, the Anthropic app, Claude desktop,
+> any tool).** It consolidates the full vision, the laws, the architecture, the current
+> build state, and how to work across apps. If anything in this file conflicts with
+> `AGENT-RULES.md`, that file wins. The detail below remains valid and is kept for
+> Claude Code's auto-loaded context.
+>
 > Read this every session. This is the operating manual.
 > Also read `.claudecode.md` — it contains the permanent system guardrails that override all defaults.
 
@@ -171,3 +178,37 @@ Separate track from the moment they identify. They never see the skeptic or seek
 
 ### Data collection for refinement
 Every story response, every dialogue turn, every signal detected is stored. The goal is that every conversation makes the app better at doing what Jesus did — meeting the exact person in front of it with exactly what they need. Cameron reviews what is working. Nothing is thrown away.
+
+---
+
+## Locked Product Direction — June 2026 (do not lose this)
+
+> Cameron explained these four directions in full and asked that they be stored so he never has to re-explain. They are now rules. Build toward them; do not regress them.
+
+### 1. Onboarding is short — then a story on every cold open
+- **First launch:** a FAST opening, quicker than the old onboarding. It collects only the basics — chiefly a faith background question (past or present faith), enough to seed routing — then tells ONE great story.
+- **The first story** is the app's strongest, told **by the app in the name of Jesus, quoting real scripture**, rendered for emotional impact, ending in one open question. The user's answer to that first question is recorded to the Profile as the founding entry of who they are in comparison to Christlikeness.
+- **Every cold open after the first** (app opened from a fully closed state): the app tells ANOTHER short, powerful Jesus/God's-love story — **never repeating one already told**. Each is recorded to the Profile with the user's answer, until they have seen them all.
+- This is the engine of return: a growing, personal record of stories seen, answers given, and lessons learned. The Profile **accumulates** these, records the answers, and **summarizes the traits learned** from them.
+- Every story ends with a link into the AI chat to talk about it more.
+- Stories are short-form, scripture-grounded, and high-impact — not recitation. Track completion so the user is motivated to keep coming back and finish them all.
+
+### 2. The story/lesson record lives on the Profile
+The Profile is where the app shows it has learned the person: the stories they've experienced, the answers they gave, and a Christlikeness read summarized from them. This is the visible payoff for coming back.
+
+### 3. Member ("meat") track must be easy to opt into — and hidden, to respect the mystery
+- A person who is baptized, saved, or curious about The Church of Jesus Christ of Latter-day Saints needs their experience tailored deeper — toward the four standard works and prophet-aligned discipleship — distinct from the milk/convert track.
+- **How the app learns to go deeper: detection from their own words (Cameron's choice, June 2026).** There is no visible "I'm a member" toggle. The app infers depth from how they talk and what they engage with, then shifts silently — which already respects the mystery, since nothing is ever waved in front of seekers. (This rides on the existing self-ID signals — `active_member`/`inactive_member` from Law 3 — never on a guessed label.)
+- The member-helping AI must be trained to teach the way Latter-day Saints actually learn and grow — deeper doctrine, keeping pace with the living prophet — NOT the milk used to win converts. Same Christ, different depth.
+
+### 4. The milk AI always defends the goodness of Jesus, and walks others toward the Restoration through their OWN scripture
+- The AI's fixed center: **always and only defend the true goodness of Jesus.**
+- With a Calvinist, Catholic, Southern Baptist, or any tradition: use the scripture **they already accept** to establish that Jesus is good, then carefully navigate their own logic — gently, never by argument — so it begins to align with the theology of The Church of Jesus Christ of Latter-day Saints. Expose the contradiction by letting Jesus's own words do the correcting (see "Never argue doctrine" and the BOM law above — this does not override the milk-before-meat gate).
+- The whole app, milk and meat alike, acts the way our version of Jesus would want an AI to act.
+
+### 5. Multiple-choice answers must not corner people into doubt
+- Current dialogue answer options skew negative — they make "I don't believe because X" look like the expected answer, which demeans and discourages believers.
+- Every such question needs a genuine, **well-framed belief / testimony** answer option, so a believer can testify instead of being boxed into unbelief. Framing matters: give people a good reason to testify, don't make doubt the default-looking choice.
+
+### Testing note
+The on-device store is reset for a clean test by bumping the persist key `name` in `useAppStore.ts` (currently `mbm-app-store-v3`). This is a one-time wipe of local data only and does NOT change how often real users' memory persists. A self-serve "Start fresh" reset for the testing phase may be added to the Profile screen.

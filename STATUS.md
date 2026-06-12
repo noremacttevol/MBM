@@ -1,6 +1,9 @@
 # MBM — Status
 
-_Last updated: 2026-06-11_
+_Last updated: 2026-06-12_
+
+> The master manual is [`AGENT-RULES.md`](./AGENT-RULES.md) — read it first. This file
+> is just the current build state.
 
 MBM (Milk Before Meat) is a mobile-first gospel-outreach app patterned after how
 Jesus ministered: meet people where they are, learn them through their own words,
