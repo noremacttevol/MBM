@@ -8,7 +8,6 @@ import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context'
 import { StatusBar } from 'expo-status-bar';
 import { useAppStore } from '../store/useAppStore';
 import ConnectCard from '../components/ConnectCard';
-import BlessingToast from '../components/BlessingToast';
 import { colors, spacing, radius } from '../theme';
 
 // Server URL — the same proxy the store uses for chat. Public, not a secret.
@@ -143,18 +142,24 @@ export default function ChatScreen() {
           )}
 
           {chatMessages.map(msg => (
-            <View
-              key={msg.id}
-              style={[styles.bubble, msg.role === 'user' ? styles.bubbleUser : styles.bubbleAssistant]}
-            >
-              <Text style={[
-                styles.bubbleText,
-                msg.role === 'user' ? styles.bubbleTextUser : styles.bubbleTextAssistant,
-              ]}>
-                {msg.text}
-              </Text>
-              <Text style={styles.bubbleTime}>{formatTime(msg.timestamp)}</Text>
-            </View>
+            msg.kind === 'meta' ? (
+              <View key={msg.id} style={styles.metaNote}>
+                <Text style={styles.metaText}>{msg.text}</Text>
+              </View>
+            ) : (
+              <View
+                key={msg.id}
+                style={[styles.bubble, msg.role === 'user' ? styles.bubbleUser : styles.bubbleAssistant]}
+              >
+                <Text style={[
+                  styles.bubbleText,
+                  msg.role === 'user' ? styles.bubbleTextUser : styles.bubbleTextAssistant,
+                ]}>
+                  {msg.text}
+                </Text>
+                <Text style={styles.bubbleTime}>{formatTime(msg.timestamp)}</Text>
+              </View>
+            )
           ))}
 
           {chatLoading && (
@@ -201,8 +206,6 @@ export default function ChatScreen() {
           </TouchableOpacity>
         </View>
       </KeyboardAvoidingView>
-
-      <BlessingToast />
     </SafeAreaView>
   );
 }
@@ -268,6 +271,16 @@ const styles = StyleSheet.create({
   bubbleTime: {
     fontSize: 10, fontFamily: 'Georgia', color: colors.textMuted,
     marginTop: 4, alignSelf: 'flex-end',
+  },
+
+  // A quiet, centered note (e.g. a spirit-level change) — not a chat bubble.
+  metaNote: {
+    alignSelf: 'center', maxWidth: '88%',
+    paddingVertical: 4, paddingHorizontal: 8, marginVertical: 2,
+  },
+  metaText: {
+    fontSize: 11, fontFamily: 'Georgia', fontStyle: 'italic',
+    color: colors.textMuted, textAlign: 'center', lineHeight: 16,
   },
 
   factCheckBar: {

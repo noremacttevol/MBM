@@ -138,6 +138,15 @@ export default function ProfileScreen() {
     navigation.navigate('Chat');
   }
 
+  function talkAboutTrait(key: TraitKey) {
+    const label = TRAIT_LABELS[key].toLowerCase();
+    const score = (traitScores[key] ?? 5).toFixed(1);
+    prefillChat(
+      `My ${label} level is at ${score} out of 10. Be honest with me — what have you seen in me that put it there, and what would actually help it grow?`,
+    );
+    navigation.navigate('Chat');
+  }
+
   function startEdit(index: number, current: string) {
     setEditingIndex(index);
     setEditDraft(current);
@@ -275,7 +284,7 @@ export default function ProfileScreen() {
         <View style={styles.card}>
           <Text style={styles.sectionLabel}>WHAT'S GROWING IN YOU</Text>
           <Text style={styles.sectionNote}>
-            These are yours — they grow as you engage honestly. There is no score to beat.
+            An honest reading of your heart, the way Jesus saw people truly. These rise when you show real honesty, humility, or courage — and they can dip too. Tap any one to talk it through.
           </Text>
 
           {TRAIT_ORDER.map(key => {
@@ -286,6 +295,9 @@ export default function ProfileScreen() {
                 <View style={styles.traitMeta}>
                   <Text style={styles.traitName}>{TRAIT_LABELS[key]}</Text>
                   <Text style={styles.traitDesc}>{TRAIT_DESCRIPTIONS[key]}</Text>
+                  <TouchableOpacity activeOpacity={0.7} onPress={() => talkAboutTrait(key)}>
+                    <Text style={styles.askText}>Talk about this →</Text>
+                  </TouchableOpacity>
                 </View>
                 <View style={styles.barTrack}>
                   <View style={[styles.barFill, { width: `${pct}%` as any }]} />

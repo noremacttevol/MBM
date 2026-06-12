@@ -14,6 +14,32 @@ export const VALID_REPORT_TOKENS = new Set([
   'rejects_harsh_god', 'nontheistic_framework',
 ]);
 
+// FAITH-IDENTITY signals describe WHO a person is with regard to faith — their
+// standing, tradition, or history. Unlike engagement signals (grief, hunger,
+// doubt) which accumulate, identity is a fact about the person that can CHANGE:
+// they convert, they leave, they come back. So identity is never kept in the
+// sticky base set — it is owned entirely by the person's own faith words, and
+// re-derived whenever they edit them. Edit or remove the faith line and the app
+// honestly stops thinking it. This is what makes conversion to/from a faith real.
+export const IDENTITY_SIGNALS = new Set([
+  'active_member', 'inactive_member',
+  'active_faith_tradition', 'has_history_with_faith',
+  'believes_in_jesus',
+]);
+
+// Drop any identity tokens from a signal list. Used everywhere engagement
+// signals are written to the base set, so identity can only ever come from
+// (and be removed with) the person's own faith words.
+export function stripIdentity(signals: string[]): string[] {
+  return signals.filter(s => !IDENTITY_SIGNALS.has(s));
+}
+
+// Pull just the identity tokens out of a signal list — used to capture identity
+// that arrived through chat onto a faith word so it stays visible and removable.
+export function identityOnly(signals: string[]): string[] {
+  return signals.filter(s => IDENTITY_SIGNALS.has(s));
+}
+
 export const SIGNAL_REPORT_INSTRUCTION =
   '\n\n[SIGNAL REPORT — system instruction. The person never sees this.]\n' +
   'After your reply, on its own final line, output <signals>token,token</signals> ' +
@@ -33,6 +59,60 @@ export function stripSignalReport(raw: string): { reply: string; found: string[]
     return '';
   }).trim();
   return { reply, found };
+}
+
+// ── The judge: trait deltas reported by the model ───────────────────────────
+// The seven spirit levels are not a vanity meter — they are an honest reading of
+// the person, the way Jesus saw people clearly. The model, having just read what
+// the person actually said, may move any level up OR down. A closed, proud, or
+// dishonest message can lower a level; real openness, courage, or humility raises
+// it. Deltas are clamped hard per message so one exchange can never swing wildly.
+
+export const VALID_TRAIT_KEYS = new Set([
+  'honest_inquiry', 'openness', 'humility', 'hunger',
+  'compassion', 'courage', 'sincerity',
+]);
+
+// The most any single message may move one level. Honest judgment, not whiplash.
+export const MAX_TRAIT_DELTA = 1.5;
+
+export const TRAIT_REPORT_INSTRUCTION =
+  '\n\n[SPIRIT READING — system instruction. The person never sees this.]\n' +
+  'You are the honest judge of seven spirit levels (0–10): honest_inquiry, openness, ' +
+  'humility, hunger, compassion, courage, sincerity. After your reply — on its own ' +
+  'final line, AFTER the signals line — output <traits>key:delta,key:delta</traits> ' +
+  'for any level THIS message genuinely moved, where delta is a number from -1.5 to ' +
+  '1.5. Raise a level when the person truly shows it (real honesty, humility, courage, ' +
+  'hunger, compassion). LOWER it when they genuinely show its opposite — pride, a closed ' +
+  'heart, evasion, contempt, self-righteousness, cruelty. Judge as Jesus judged: firm ' +
+  'with the proud and self-certain, gentle with the wounded and seeking. Do NOT lower a ' +
+  'level for honest doubt, grief, pain, or simply not believing yet — those are not sins. ' +
+  'BE DECISIVE, NOT TIMID. Whenever a message clearly shows or clearly lacks one of these ' +
+  'qualities, REGISTER it — a real act of honesty or courage should move 0.6 to 1.2, a ' +
+  'striking one up to 1.5; clear pride or cruelty should move down by the same. Do not park ' +
+  'at neutral out of caution — a judge who never moves the scale is no judge at all, and the ' +
+  'person needs to feel honestly seen. Only truly flat, small-talk messages move nothing. ' +
+  'Never invent movement the words do not support. If genuinely none, output <traits>none</traits>. ' +
+  'This line is stripped before display; never mention it and never let it change your tone.';
+
+// Strip the <traits> report and return clamped, validated deltas.
+export function stripTraitReport(raw: string): { reply: string; deltas: Record<string, number> } {
+  const deltas: Record<string, number> = {};
+  const reply = (raw || '').replace(/<traits>([\s\S]*?)<\/traits>/gi, (_m, body: string) => {
+    body.split(/[\s,]+/).forEach((pair) => {
+      const [rawKey, rawVal] = pair.split(':');
+      const key = (rawKey || '').trim().toLowerCase();
+      const val = parseFloat((rawVal || '').trim());
+      if (!VALID_TRAIT_KEYS.has(key) || Number.isNaN(val)) return;
+      const clamped = Math.max(-MAX_TRAIT_DELTA, Math.min(MAX_TRAIT_DELTA, val));
+      // If the model lists a key twice, keep the larger-magnitude move.
+      if (deltas[key] === undefined || Math.abs(clamped) > Math.abs(deltas[key])) {
+        deltas[key] = clamped;
+      }
+    });
+    return '';
+  }).trim();
+  return { reply, deltas };
 }
 
 // Conservative keyword harvest — the fast, free backstop. The model report

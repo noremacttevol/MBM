@@ -1,4 +1,4 @@
-import { believesGodGood, openToMore } from '../engine/connect';
+import { believesGodGood, openToMore, mayReferenceLds, isMember } from '../engine/connect';
 
 export type AnswerType = 'FREE_TEXT' | 'YES_NO' | 'CHOICE';
 export type QuestionStage = 'ENTRY' | 'EARLY' | 'MID' | 'DEEP';
@@ -104,6 +104,12 @@ export const QUESTION_BANK: DialogueQuestion[] = [
     answerType: 'CHOICE',
     answerOptions: [
       {
+        text: "Peace — I know him, and I know he's good.",
+        value: 'knows_god',
+        signals: ['believes_god_good', 'open_to_god'],
+        traitSignals: { sincerity: 0.35, courage: 0.25, hunger: 0.2 },
+      },
+      {
         text: 'Something warm — like coming home.',
         value: 'warm',
         signals: ['open_to_god'],
@@ -205,10 +211,10 @@ export const QUESTION_BANK: DialogueQuestion[] = [
         traitSignals: { honest_inquiry: 0.2, hunger: 0.2, openness: 0.2 },
       },
       {
-        text: 'Something I believe in — I have a framework for this.',
+        text: "I believe I'll live again — this life isn't the end.",
         value: 'have_belief',
         signals: ['has_afterlife_belief'],
-        traitSignals: { sincerity: 0.25, openness: 0.15 },
+        traitSignals: { sincerity: 0.3, courage: 0.2, openness: 0.15 },
       },
       {
         text: "I try not to think about it.",
@@ -1222,6 +1228,7 @@ export const QUESTION_BANK: DialogueQuestion[] = [
     answerOptions: [
       { text: "That I'm a disappointment to him.", value: 'disappointment', signals: ['pictures_harsh_god'], traitSignals: { courage: 0.3, sincerity: 0.3 } },
       { text: "That he's not really paying attention to someone like me.", value: 'unnoticed', signals: ['pictures_distant_god'], traitSignals: { sincerity: 0.25, honest_inquiry: 0.2 } },
+      { text: "That he loves me — even the parts I hide.", value: 'loved', signals: ['believes_god_good'], traitSignals: { sincerity: 0.3, openness: 0.25, courage: 0.2 } },
       { text: "Honestly — I think he might be glad I'm asking.", value: 'glad', signals: ['open_to_god'], traitSignals: { openness: 0.3, hunger: 0.25 } },
       { text: "I can't picture him being real enough to think anything.", value: 'unreal', signals: ['skeptical_of_god'], traitSignals: { honest_inquiry: 0.3, courage: 0.2 } },
     ],
@@ -1341,26 +1348,54 @@ export function computeNextQuestion(
   const activeSignals = new Set(signals);
   if (openedCount >= 1) activeSignals.add('viewed_content');
 
+  // THE MILK-BEFORE-MEAT LAW, applied to the question bank. These are the only
+  // questions that NAME the restored gospel — the restored church, the Book of
+  // Mormon, Joseph Smith. They are MEAT, and they must never be asked until the
+  // person has shown BOTH witnesses on their own: they believe God is good AND
+  // they are open to God still speaking. A self-labeled Calvinist who merely
+  // tripped 'open_to_restoration' (but whose framework still pictures a harsh
+  // God) must NEVER be handed the Book of Mormon — that puts them on guard
+  // before they have been won to the good God. mayReferenceLds() is the exact
+  // same two-witness gate the chat uses, and it is false for members too.
+  const RESTORATION_TIER = new Set([
+    'restoration_what_if', 'book_of_mormon_curiosity',
+    'joseph_smith_question', 'restoration_invitation',
+  ]);
+  const meatOk = mayReferenceLds(signals);
+  const member = isMember(signals);
+
+  // Questions that only make sense for a SEEKER deciding what they believe. A
+  // member already settled these — asking them is theatrics, not ministry — so
+  // members never see them even when nothing higher-priority is eligible.
+  const SEEKER_ONLY = new Set(['god_still_speaks']);
+
   const eligible = QUESTION_BANK.filter(q =>
     !answeredIds.includes(q.id) &&
     (q.prerequisiteSignals.length === 0 ||
-      q.prerequisiteSignals.every(s => activeSignals.has(s))),
+      q.prerequisiteSignals.every(s => activeSignals.has(s))) &&
+    (!RESTORATION_TIER.has(q.topic) || meatOk) &&
+    (!member || !SEEKER_ONLY.has(q.topic)),
   );
 
   if (eligible.length === 0) return null;
-
   const knowsBackground =
     answeredIds.includes(0) || answeredIds.includes(2.5) ||
     ['active_faith_tradition', 'has_history_with_faith', 'active_member', 'inactive_member'].some(x => activeSignals.has(x));
   const godGood = believesGodGood(signals);
   const openMore = openToMore(signals);
-  const PRIORITY_TOPICS = !knowsBackground
-    ? ['faith_home', 'faith_tradition']
-    : !godGood
-      ? ['gods_opinion_of_you', 'who_listens', 'god_feeling', 'god_you_reject', 'who_gets_a_chance', 'universal_chance', 'faith_history_named', 'one_true_thing', 'what_you_know', 'grief_and_god']
-      : !openMore
-        ? ['god_still_speaks', 'unseen', 'spiritual_experience_depth', 'prayer', 'prayer_felt', 'restoration_what_if']
-        : ['book_of_mormon_curiosity', 'restoration_what_if', 'seeking_honest', 'one_question', 'tell_it_as_story'];
+  // A member already holds the restored gospel. They did not come to be quizzed
+  // on whether God still speaks or whether the Book of Mormon is true — that is
+  // theatrics to them. They came to be fed. Lead them to the deepening, testimony
+  // and discipleship questions, never the seeker-restoration ladder.
+  const PRIORITY_TOPICS = member
+    ? ['believer_depth', 'jesus_in_your_life', 'jesus_teaching_that_hit', 'scripture_openness', 'forgiveness', 'what_you_know', 'one_true_thing', 'jesus_feeling']
+    : !knowsBackground
+      ? ['faith_home', 'faith_tradition']
+      : !godGood
+        ? ['gods_opinion_of_you', 'who_listens', 'god_feeling', 'god_you_reject', 'who_gets_a_chance', 'universal_chance', 'faith_history_named', 'one_true_thing', 'what_you_know', 'grief_and_god']
+        : !openMore
+          ? ['god_still_speaks', 'unseen', 'spiritual_experience_depth', 'prayer', 'prayer_felt']
+          : ['book_of_mormon_curiosity', 'restoration_what_if', 'seeking_honest', 'one_question', 'tell_it_as_story'];
   const prioritized = eligible.filter(q => PRIORITY_TOPICS.includes(q.topic));
   const pool = prioritized.length > 0 ? prioritized : eligible;
 

@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
-import { useAppStore, JOURNAL_BLESS } from '../store/useAppStore';
+import { useAppStore, generateBlessing } from '../store/useAppStore';
 import { getCurrentPrompt } from '../data/journalPrompts';
 import { colors, spacing, radius } from '../theme';
 
@@ -33,9 +33,19 @@ export default function JournalScreen() {
 
   function handleSubmit() {
     if (!text.trim()) return;
-    addJournalEntry(prompt.id, prompt.text, text.trim());
-    // A blessing in words after the truest thing is said — never numbers.
-    setBlessLine(JOURNAL_BLESS[Math.floor(Math.random() * JOURNAL_BLESS.length)] ?? '');
+    const written = text.trim();
+    addJournalEntry(prompt.id, prompt.text, written);
+    // A blessing in words after the truest thing is said — never numbers, and
+    // never a canned line. The disciple reads what they actually wrote and either
+    // speaks one personal blessing or stays silent. It is handed every line it has
+    // said before, so it never repeats itself; a spoken line is remembered too.
+    setBlessLine('');
+    generateBlessing('journal', written, useAppStore.getState().blessingHistory).then(line => {
+      if (line) {
+        setBlessLine(line);
+        useAppStore.getState().recordBlessing(line);
+      }
+    });
 
     Animated.sequence([
       Animated.timing(fadeAnim, { toValue: 0, duration: 300, useNativeDriver: true }),

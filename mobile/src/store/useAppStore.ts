@@ -22,7 +22,11 @@ import { MINISTER_SYSTEM_PROMPT, MINISTER_MODEL } from '../engine/minister';
 import {
   harvestSignals,
   stripSignalReport,
+  stripTraitReport,
+  stripIdentity,
+  identityOnly,
   SIGNAL_REPORT_INSTRUCTION,
+  TRAIT_REPORT_INSTRUCTION,
   FAITH_ID_RE,
 } from '../engine/chatEar';
 import {
@@ -130,6 +134,9 @@ export interface ChatMessage {
   role:      'user' | 'assistant';
   text:      string;
   timestamp: number;
+  // 'meta' = a quiet system note shown in the thread (e.g. a spirit-level change)
+  // that is NOT part of the conversation sent to the model.
+  kind?:     'meta';
 }
 
 /**
@@ -195,27 +202,130 @@ function generateId(): string {
   return Math.random().toString(36).slice(2) + Date.now().toString(36);
 }
 
-// Blessing pools — encouragement in WORDS, never numbers. The way Jesus affirmed
-// people: specific, warm, right after the reach. Ported verbatim from the prototype.
-export const BLESS_DIALOGUE = [
-  'Thank you for letting yourself be asked.',
-  'Most people never answer that honestly. You just did.',
-  'Your courage is showing.',
-  'Noticing that about yourself is its own kind of light.',
-];
-export const BLESS_HEART = [
-  'What moves you says something good about you.',
-  'Kept. What resonates with you is worth following.',
-  'Good eye. That one matters.',
-];
-export const JOURNAL_BLESS = [
-  'Some things only become clear once they are said. You just said one.',
-  'You said the true thing. That takes more courage than it looks.',
-  'That is yours now — named, and a little lighter for it.',
-];
-
+// Avoid handing back the same blessing twice in a row, so the encouragement
+// never feels canned. Tracks only the last line shown, across all pools.
+let lastBlessing = '';
 function pickLine(pool: string[]): string {
-  return pool[Math.floor(Math.random() * pool.length)] ?? '';
+  if (pool.length === 0) return '';
+  const fresh = pool.filter(l => l !== lastBlessing);
+  const choices = fresh.length > 0 ? fresh : pool;
+  const line = choices[Math.floor(Math.random() * choices.length)] ?? '';
+  lastBlessing = line;
+  return line;
+}
+
+// ── Personalized blessings — one honest word, or silence ─────────────────────
+// There is NO fixed list of compliments and NO instant pre-show. The AI (as a
+// disciple) reads what the person ACTUALLY said and gives ONE of three honest
+// responses: a warm, specific affirmation; a firm, loving correction if they
+// were proud or cruel; or nothing at all if it was a non-answer. It is handed
+// every blessing it has ever spoken so it never repeats itself or sounds canned.
+export type BlessKind = 'dialogue' | 'heart' | 'journal';
+
+const BLESS_KIND_FRAME: Record<BlessKind, string> = {
+  dialogue: 'just answered a tender, honest question about their life and faith',
+  heart:    'was moved by something they read here and chose to keep it',
+  journal:  'wrote something true and vulnerable in their private journal',
+};
+
+// Tidy the model's line: strip wrapping quotes, any leaked label, collapse
+// whitespace, drop a trailing question (a blessing affirms, it does not ask),
+// cap the length, AND honor the model choosing silence (the lone word NONE).
+function cleanBlessing(raw: string): string {
+  let s = (raw || '').trim();
+  s = s.replace(/^["'“”\s]+|["'“”\s]+$/g, '').trim();
+  s = s.replace(/\s+/g, ' ');
+  if (!s) return '';
+  if (/^\(?\s*none[\s.)]*$/i.test(s)) return '';   // the disciple chose silence
+  if (s.length > 220) s = s.slice(0, 217).trimEnd() + '…';
+  if (/\?$/.test(s)) return '';            // never end a blessing on a question
+  return s;
+}
+
+export async function generateBlessing(
+  kind: BlessKind,
+  context: string,
+  recentLines: string[] = [],
+): Promise<string | null> {
+  const useProxy = !!MBM_API_URL;
+  if (!useProxy && !ANTHROPIC_API_KEY) return null;   // offline → say nothing
+
+  // Working memory: the disciple sees what it has already said and must not
+  // repeat any of it, in wording, shape, or opening — so it never sounds rehearsed.
+  const recent = recentLines.filter(Boolean).slice(-40);
+  const memoryNote = recent.length
+    ? '\n\nYou have ALREADY spoken these blessings before. Do NOT repeat any of them, ' +
+      'and do not reuse their wording, sentence shape, or opening — say something genuinely ' +
+      'new:\n- ' + recent.map(l => l.replace(/\s+/g, ' ').trim()).join('\n- ')
+    : '';
+
+  const system =
+    'You are a disciple of Jesus — the honest friend who just watched a person who ' +
+    BLESS_KIND_FRAME[kind] + '. Read what they ACTUALLY said and respond the way Jesus ' +
+    'would to THAT person in THAT moment. Never a generic compliment.\n\n' +
+    'Choose ONE of three honest responses:\n' +
+    '1) GENUINE — if they were honest, searching, or vulnerable even a little: speak ONE ' +
+    'short sentence (two at most) that affirms THEM specifically, naming the real good you ' +
+    'saw in what they said. Tender, personal, unrehearsed.\n' +
+    '2) PROUD — if what they wrote was self-righteous, contemptuous, cruel, or twists God ' +
+    'into a weapon (the spirit of the Pharisee): do NOT flatter them. Speak ONE firm, ' +
+    'loving, truthful sentence that gently exposes it, the way Jesus answered the proud. ' +
+    'Honest — never cruel in return.\n' +
+    '3) HOLLOW — if it was lazy, evasive, joking, or simply not a real answer: output ' +
+    'exactly NONE and nothing else. Silence is the right and normal response to a ' +
+    'non-answer; never manufacture praise no one reached for.\n\n' +
+    'Never quote chapter and verse, never preach, never give a to-do, never ask a question. ' +
+    'Speak straight to them as "you". No greeting, no preamble, no quotation marks, no ' +
+    'emojis, no numbers. Output ONLY the single line — or the lone word NONE.' +
+    memoryNote;
+  const ctx = (context || '').trim().slice(0, 280);
+  // Be ACCURATE about what the context is, per kind — a heart is content they
+  // kept, not words they wrote, so the disciple never praises them for authoring
+  // something they only reached for.
+  const userText = ctx
+    ? (kind === 'heart'
+        ? 'The piece that moved them, which they chose to keep: "' + ctx + '"'
+        : 'What they just said, in their own words: "' + ctx + '"')
+    : 'They took a step here but said almost nothing about it.';
+
+  try {
+    let raw = '';
+    if (useProxy) {
+      const r = await fetch(`${MBM_API_URL}/api/chat`, {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ system, messages: [{ role: 'user', content: userText }], max_tokens: 120 }),
+      });
+      if (!r.ok) return null;
+      const d = await r.json();
+      raw = typeof d?.text === 'string' ? d.text : '';
+    } else {
+      const r = await fetch(ANTHROPIC_URL, {
+        method: 'POST',
+        headers: {
+          'content-type': 'application/json',
+          'x-api-key': ANTHROPIC_API_KEY,
+          'anthropic-version': ANTHROPIC_VERSION,
+          'anthropic-dangerous-direct-browser-access': 'true',
+        },
+        body: JSON.stringify({
+          model: ANTHROPIC_MODEL,
+          max_tokens: 120,
+          system,
+          messages: [{ role: 'user', content: userText }],
+        }),
+      });
+      if (!r.ok) return null;
+      const d = await r.json();
+      raw = Array.isArray(d?.content)
+        ? d.content.filter((b: any) => b?.type === 'text').map((b: any) => b?.text ?? '').join('')
+        : '';
+    }
+    const cleaned = cleanBlessing(raw);
+    return cleaned || null;
+  } catch {
+    return null;
+  }
 }
 
 // Small, clamped trait nudge — the way the prototype's nudgedTraits worked.
@@ -227,6 +337,25 @@ function nudgeTraits(scores: TraitScores, deltas: Partial<TraitScores>): TraitSc
     next[key] = Math.round(Math.max(TRAIT_MIN, Math.min(TRAIT_MAX, cur + (d ?? 0))) * 1000) / 1000;
   }
   return next;
+}
+
+// Plain-English names for the spirit levels, used when telling the person — to
+// their face — that the judge just moved one, so a deduction is never silent.
+const TRAIT_DISPLAY: Record<keyof TraitScores, string> = {
+  honest_inquiry: 'honesty',
+  openness:       'openness',
+  humility:       'humility',
+  hunger:         'hunger for truth',
+  compassion:     'compassion',
+  courage:        'courage',
+  sincerity:      'sincerity',
+};
+
+// Format a level change for display: a real minus sign, no trailing ".0".
+function fmtDelta(d: number): string {
+  const v = Math.round(Math.abs(d) * 10) / 10;
+  const num = Number.isInteger(v) ? String(v) : v.toFixed(1);
+  return (d > 0 ? '+' : '−') + num;
 }
 
 // Merge newly-heard signals into the existing set without duplicates. The engine
@@ -266,6 +395,40 @@ function composeSignals(baseSignals: string[], words: FaithWord[]): string[] {
   return mergeSignals(baseSignals, faithSignalUnion(words));
 }
 
+// Faith IDENTITY (who someone is with regard to faith) never lives in the sticky
+// base set — it is owned by the person's own faith words so it can change when
+// they do. When identity arrives through a dialogue choice or a chat self-ID,
+// capture it onto a verbatim faith line so it stays visible AND removable.
+function captureIdentityWord(verbatim: string, signals: string[]): FaithWord | null {
+  const identity = identityOnly(signals);
+  if (!identity.length) return null;
+  const text = (verbatim ?? '').trim().slice(0, 140);
+  if (!text) return null;
+  return { text, ts: Date.now(), signals: identity };
+}
+
+// Plain-language faith line for an identity token — used only by the legacy
+// migration, to re-home identity that older builds left stuck in the flat
+// signal set. Phrased in the first person so it reads as the person's own line
+// on the faith card, where they can correct or remove it like any other.
+const IDENTITY_LABELS: Record<string, string> = {
+  active_member:          "I'm a Latter-day Saint.",
+  inactive_member:        'I grew up Latter-day Saint.',
+  active_faith_tradition: "I'm part of a church or faith community.",
+  has_history_with_faith: 'I have a history with faith.',
+  believes_in_jesus:      'I believe in Jesus.',
+};
+
+// Turn orphaned legacy identity tokens into one synthesized faith line so the
+// person can SEE and REMOVE what the app thinks of them. Returns null if none.
+function identityWordFromTokens(tokens: string[]): FaithWord | null {
+  const identity = identityOnly(tokens);
+  if (!identity.length) return null;
+  const text = identity.map(t => IDENTITY_LABELS[t]).filter(Boolean).join(' ').slice(0, 140);
+  if (!text) return null;
+  return { text, ts: Date.now(), signals: identity };
+}
+
 // ── State shape ──────────────────────────────────────────────────────────────
 
 interface AppState {
@@ -298,6 +461,10 @@ interface AppState {
   // Chat
   chatMessages:        ChatMessage[];
   chatLoading:         boolean;
+
+  // Every blessing line ever spoken — the disciple's working memory, so it
+  // never repeats a compliment or sounds rehearsed.
+  blessingHistory:     string[];
 
   // Human connection requests, captured on-device (Phase 1)
   connectRequests:     ConnectRequest[];
@@ -341,6 +508,7 @@ interface AppActions {
   sendChatMessage:     (text: string) => Promise<void>;
   setChatLoading:      (loading: boolean) => void;
   appendAssistantMessage: (text: string) => void;
+  appendMetaMessage:   (text: string) => void;
   submitConnectRequest: (note: string) => void;
   setName:             (name: string) => void;
   recordFaithBackground: (choiceKey: string, text: string) => void;
@@ -354,6 +522,9 @@ interface AppActions {
   prefillChat:         (text: string) => void;
   clearChatDraft:      () => void;
   bless:               (pool: string[]) => void;
+  showBlessing:        (line: string) => void;
+  blessPersonalized:   (kind: BlessKind, context?: string) => void;
+  recordBlessing:      (line: string) => void;
   clearBlessing:       () => void;
 }
 
@@ -378,6 +549,7 @@ const initialState: AppState = {
   answeredPromptIds:   [],
   chatMessages:        [],
   chatLoading:         false,
+  blessingHistory:     [],
   connectRequests:     [],
   name:                null,
   faithWords:          [],
@@ -433,8 +605,8 @@ export const useAppStore = create<AppState & AppActions>()(
           openedIds:           new Set(),
           positiveCount:       0,
           showTalkToSomeone:   false,
-          baseSignals:         seedSignals,
-          dialogueSignals:     seedSignals,
+          baseSignals:         stripIdentity(seedSignals),
+          dialogueSignals:     stripIdentity(seedSignals),
           answeredQuestionIds: [],
           traitScores:         { ...DEFAULT_TRAITS },
           currentQuestion,
@@ -442,6 +614,7 @@ export const useAppStore = create<AppState & AppActions>()(
           answeredPromptIds:   [],
           chatMessages:        [],
           chatLoading:         false,
+          blessingHistory:     [],
           activeExercise:      null,
           acceptedSession:     null,
           doneExerciseIds:     [],
@@ -488,7 +661,9 @@ export const useAppStore = create<AppState & AppActions>()(
                                                                   : routeFeedTag(dialogueSignals);
         const feed = buildFeed(newTag, seenIds);
         set({ positiveCount: newCount, feedTag: newTag, feed });
-        get().bless(BLESS_HEART);
+        // Personalize from the very thing that moved them, if we can name it.
+        const item = CONTENT.find(c => c.id === id);
+        get().blessPersonalized('heart', item ? `${item.title} — ${item.description}` : '');
       },
 
       bookmark(id) {
@@ -545,18 +720,24 @@ export const useAppStore = create<AppState & AppActions>()(
         if (!question) return;
 
         const newTraits: TraitScores = { ...traitScores };
-        // Option signals and non-faith free text go to the sticky base set.
+        // Engagement signals go to the sticky base set; faith IDENTITY is split
+        // off and ridden on a faith word so it stays editable and can be unlearned.
         const newBase = new Set(baseSignals);
         let deltas: Partial<TraitScores> = {};
-        // Signals harvested from a free-text answer that IS a faith self-
-        // description belong to that faith line, so removing it later un-learns.
+        // Identity harvested from a free-text faith self-description rides its own
+        // faith line, so removing the line later truly un-learns it.
         let faithHarvest: string[] = [];
+        // A multiple-choice faith answer ("I grew up in a faith but drifted") is
+        // itself a self-description — capture its identity verbatim, removable.
+        let optionFaith: FaithWord | null = null;
 
         if (question.answerType === 'CHOICE' || question.answerType === 'YES_NO') {
           const opt = question.answerOptions.find(o => o.value === answerValue);
           if (opt) {
             deltas = opt.traitSignals ?? {};
-            (opt.signals ?? []).forEach(s => newBase.add(s));
+            const optSignals = opt.signals ?? [];
+            stripIdentity(optSignals).forEach(s => newBase.add(s));
+            optionFaith = captureIdentityWord(opt.text, optSignals);
           }
         } else if (question.answerType === 'FREE_TEXT') {
           const base = question.traitSignals;
@@ -568,11 +749,12 @@ export const useAppStore = create<AppState & AppActions>()(
             deltas.sincerity = Math.round(((deltas.sincerity ?? 0) + 0.15) * 1000) / 1000;
           }
           // The ear listens to free-text dialogue answers too — the gate can open
-          // from what they type here, not only from chat.
+          // from what they type here, not only from chat. Engagement → base,
+          // identity → the faith line built from their own words.
           if (answerText) {
             const harvested = harvestSignals(answerText);
-            if (FAITH_ID_RE.test(answerText)) faithHarvest = harvested;
-            else harvested.forEach(s => newBase.add(s));
+            stripIdentity(harvested).forEach(s => newBase.add(s));
+            faithHarvest = identityOnly(harvested);
           }
         }
 
@@ -585,17 +767,21 @@ export const useAppStore = create<AppState & AppActions>()(
         }
 
         const newAnsweredIds = [...answeredQuestionIds, questionId];
-        const newBaseArr     = Array.from(newBase);
+        // Safety net: identity must never persist in the base set.
+        const newBaseArr     = stripIdentity(Array.from(newBase));
 
-        // Keep a verbatim faith self-description if the free-text answer is one —
-        // carrying the signals it taught, so it can be un-learned on removal.
+        // Keep a verbatim faith self-description if the free-text answer is one
+        // (named a tradition, or harvested identity) — carrying only the identity
+        // it taught, so it can be un-learned on removal.
         const faithCapture: FaithWord | null =
-          question.answerType === 'FREE_TEXT' && answerText && FAITH_ID_RE.test(answerText)
+          question.answerType === 'FREE_TEXT' && answerText &&
+          (FAITH_ID_RE.test(answerText) || faithHarvest.length > 0)
             ? { text: answerText.slice(0, 140), ts: Date.now(), signals: faithHarvest }
             : null;
 
         const { feedTag: prevTag, seenIds, feed: prevFeed, faithWords } = get();
-        const nextWords     = faithCapture ? [faithCapture, ...faithWords] : faithWords;
+        const nextWords     = [optionFaith, faithCapture, ...faithWords]
+          .filter((w): w is FaithWord => w !== null);
         const newSignalsArr = composeSignals(newBaseArr, nextWords);
 
         const currentQuestion = computeNextQuestion(
@@ -619,7 +805,11 @@ export const useAppStore = create<AppState & AppActions>()(
           feed:                trackMoved ? buildFeed(nextTag, seenIds) : prevFeed,
           faithWords:          nextWords,
         });
-        get().bless(BLESS_DIALOGUE);
+        // Personalize the blessing from what they actually answered (the free-text
+        // they wrote, or the option they chose), so it speaks to THIS moment.
+        const chosen = question.answerOptions.find(o => o.value === answerValue);
+        const blessCtx = (answerText && answerText.trim()) || chosen?.text || question.questionText;
+        get().blessPersonalized('dialogue', blessCtx);
       },
 
       addJournalEntry(promptId, promptText, text) {
@@ -634,7 +824,7 @@ export const useAppStore = create<AppState & AppActions>()(
         // The ear listens to journal saves too — what a person writes privately
         // is often the truest thing they say. The gate can open from here.
         // A journal entry is not a faith record, so its signals are sticky base.
-        const heur       = harvestSignals(text);
+        const heur       = stripIdentity(harvestSignals(text));
         const { baseSignals, faithWords, answeredQuestionIds, openedIds, feedTag: prevTag, seenIds, feed: prevFeed } = get();
         const newBase    = mergeSignals(baseSignals, heur);
         const merged     = composeSignals(newBase, faithWords);
@@ -668,6 +858,22 @@ export const useAppStore = create<AppState & AppActions>()(
           chatMessages: [...s.chatMessages, msg],
           chatLoading:  false,
         }));
+      },
+
+      // A quiet, centered note in the thread (e.g. "humility −1.5") that the
+      // person can see and ask about — but which is NEVER sent back to the model
+      // as conversation. Honest about what the judge just did.
+      appendMetaMessage(text) {
+        const clean = (text ?? '').trim();
+        if (!clean) return;
+        const msg: ChatMessage = {
+          id:        Date.now().toString() + '-m',
+          role:      'assistant',
+          text:      clean,
+          timestamp: Date.now(),
+          kind:      'meta',
+        };
+        set(s => ({ chatMessages: [...s.chatMessages, msg] }));
       },
 
       submitConnectRequest(note) {
@@ -708,14 +914,18 @@ export const useAppStore = create<AppState & AppActions>()(
 
         const { baseSignals, faithWords, answeredQuestionIds, openedIds } = get();
 
-        // The chosen option's signals ride on the LABEL line; the free-text
-        // signals ride on the words line — so removing either un-learns its part.
+        // The chosen option's identity rides on the LABEL line; the free-text's
+        // identity rides on the words line — so removing either un-learns its part.
+        // Any non-identity engagement the free text reveals goes to the sticky base.
+        const cleanHarvest = clean ? harvestSignals(clean) : [];
+        const newBase = mergeSignals(baseSignals, stripIdentity(cleanHarvest));
+
         const newWords: FaithWord[] = [];
         if (meta.label && choiceKey !== 'private') newWords.push({ text: meta.label, ts: Date.now(), signals: meta.signals });
-        if (clean) newWords.push({ text: clean.slice(0, 140), ts: Date.now(), signals: harvestSignals(clean) });
+        if (clean) newWords.push({ text: clean.slice(0, 140), ts: Date.now(), signals: identityOnly(cleanHarvest) });
 
         const nextWords = [...newWords, ...faithWords];
-        const merged    = composeSignals(baseSignals, nextWords);
+        const merged    = composeSignals(newBase, nextWords);
 
         const newAnswered = (choiceKey && choiceKey !== 'private' && !answeredQuestionIds.includes(2.5))
           ? [...answeredQuestionIds, 2.5]
@@ -725,6 +935,7 @@ export const useAppStore = create<AppState & AppActions>()(
         const nextTag = routeFeedTag(merged);
         set(s => ({
           faithWords:      nextWords,
+          baseSignals:     newBase,
           dialogueSignals: merged,
           answeredQuestionIds: newAnswered,
           feedTag:         nextTag,
@@ -746,17 +957,22 @@ export const useAppStore = create<AppState & AppActions>()(
         const { faithWords, baseSignals } = get();
         if (index < 0 || index >= faithWords.length) return;
 
+        // The line owns only its IDENTITY (so removing it un-learns who the app
+        // thinks they are); any engagement it reveals stays sticky in the base.
+        const harvested = clean ? harvestSignals(clean) : [];
+        const newBase   = mergeSignals(baseSignals, stripIdentity(harvested));
         const nextWords = [...faithWords];
         if (!clean) {
           nextWords.splice(index, 1);
         } else {
-          nextWords[index] = { text: clean, ts: Date.now(), signals: harvestSignals(clean) };
+          nextWords[index] = { text: clean, ts: Date.now(), signals: identityOnly(harvested) };
         }
 
-        const merged  = composeSignals(baseSignals, nextWords);
+        const merged  = composeSignals(newBase, nextWords);
         const nextTag = routeFeedTag(merged);
         set(s => ({
           faithWords:      nextWords,
+          baseSignals:     newBase,
           dialogueSignals: merged,
           feedTag:         nextTag,
           feed:            nextTag !== s.feedTag ? buildFeed(nextTag, s.seenIds) : s.feed,
@@ -764,16 +980,20 @@ export const useAppStore = create<AppState & AppActions>()(
       },
 
       addFaithWord(text) {
-        // Add a new line to "YOUR FAITH, AS YOU'VE TOLD IT", newest first. The new
-        // line carries its own signals so it can be un-learned if later removed.
+        // Add a new line to "YOUR FAITH, AS YOU'VE TOLD IT", newest first. The
+        // line owns only its IDENTITY so it can be un-learned if later removed;
+        // any engagement it reveals stays sticky in the base.
         const clean = (text ?? '').trim().slice(0, 140);
         if (!clean) return;
         const { baseSignals, faithWords } = get();
-        const nextWords = [{ text: clean, ts: Date.now(), signals: harvestSignals(clean) }, ...faithWords];
-        const merged    = composeSignals(baseSignals, nextWords);
+        const harvested = harvestSignals(clean);
+        const newBase   = mergeSignals(baseSignals, stripIdentity(harvested));
+        const nextWords = [{ text: clean, ts: Date.now(), signals: identityOnly(harvested) }, ...faithWords];
+        const merged    = composeSignals(newBase, nextWords);
         const nextTag   = routeFeedTag(merged);
         set(s => ({
           faithWords:      nextWords,
+          baseSignals:     newBase,
           dialogueSignals: merged,
           feedTag:         nextTag,
           feed:            nextTag !== s.feedTag ? buildFeed(nextTag, s.seenIds) : s.feed,
@@ -843,7 +1063,7 @@ export const useAppStore = create<AppState & AppActions>()(
 
         // Their own words about what came back are the richest signal of all.
         // An exercise report is not a faith record — its signals are sticky base.
-        const newBase  = mergeSignals(baseSignals, [...o.signals, ...harvestSignals(trimmed)]);
+        const newBase  = mergeSignals(baseSignals, stripIdentity([...o.signals, ...harvestSignals(trimmed)]));
         const heard    = composeSignals(newBase, faithWords);
         const nextTag  = routeFeedTag(heard);
         const moved    = nextTag !== prevTag;
@@ -882,7 +1102,7 @@ export const useAppStore = create<AppState & AppActions>()(
           timestamp:  Date.now(),
         };
         const { traitScores, baseSignals, faithWords, feedTag: prevTag, seenIds, feed: prevFeed } = get();
-        const newBase = mergeSignals(baseSignals, harvestSignals(t));
+        const newBase = mergeSignals(baseSignals, stripIdentity(harvestSignals(t)));
         const heard   = composeSignals(newBase, faithWords);
         const nextTag = routeFeedTag(heard);
         const moved   = nextTag !== prevTag;
@@ -898,7 +1118,7 @@ export const useAppStore = create<AppState & AppActions>()(
             ...s.moments,
           ],
         }));
-        get().bless(['Kept — in your journal now.', 'Sitting with a thing is how it takes root.']);
+        get().blessPersonalized('journal', t);
       },
 
       prefillChat(text) {
@@ -909,14 +1129,43 @@ export const useAppStore = create<AppState & AppActions>()(
         set({ chatDraft: '' });
       },
 
-      bless(pool) {
-        const line = pickLine(pool);
-        if (!line) return;
-        set({ blessing: line });
+      showBlessing(line) {
+        const clean = (line ?? '').trim();
+        if (!clean) return;
+        set({ blessing: clean });
+        // Stay up long enough to actually READ it — scaled to length so a longer
+        // blessing never fades mid-sentence. ~55ms/char, floored at 4.5s, up to 12s.
+        const readMs = Math.min(12000, Math.max(4500, clean.length * 55));
         setTimeout(() => {
-          // Only clear if this same blessing is still showing.
-          if (get().blessing === line) set({ blessing: null });
-        }, 3400);
+          // Only clear if this same blessing is still showing — a personalized
+          // upgrade that replaced it keeps its own, fresh timer instead.
+          if (get().blessing === clean) set({ blessing: null });
+        }, readMs);
+      },
+
+      bless(pool) {
+        get().showBlessing(pickLine(pool));
+      },
+
+      // ONE blessing, ever — and only if the disciple has something true to say.
+      // No instant pool pre-show (that was the second box, and the source of the
+      // repeats). The AI reads what they actually did and may answer with a warm
+      // word, a firm correction, or silence (no popup at all). It is handed every
+      // line it has spoken before, so it never repeats itself. Fire-and-forget.
+      blessPersonalized(kind, context) {
+        generateBlessing(kind, context ?? '', get().blessingHistory).then(line => {
+          if (!line) return;            // silence is a valid, honest response
+          get().showBlessing(line);
+          get().recordBlessing(line);
+        });
+      },
+
+      // Remember a spoken blessing so it is never repeated. Capped so memory
+      // stays bounded but deep enough to keep every line fresh.
+      recordBlessing(line) {
+        const clean = (line ?? '').trim();
+        if (!clean) return;
+        set(s => ({ blessingHistory: [...s.blessingHistory, clean].slice(-80) }));
       },
 
       clearBlessing() {
@@ -941,11 +1190,15 @@ export const useAppStore = create<AppState & AppActions>()(
         // A faith self-description is kept VERBATIM AND carries the signals it
         // taught, so removing it later un-learns them. Any other message's signals
         // are sticky base — the app does not un-hear what was freely said in chat.
+        // A faith self-description carries its IDENTITY onto a faith word (so
+        // removing it un-learns who the app thinks they are); any engagement it
+        // also reveals (grief, hunger) still goes to the sticky base. A non-faith
+        // message contributes only engagement — identity is never minted from it.
         const newFaithWord: FaithWord | null = isFaith
-          ? { text: text.slice(0, 140), ts: Date.now(), signals: heur }
+          ? { text: text.slice(0, 140), ts: Date.now(), signals: identityOnly(heur) }
           : null;
         const nextWords       = newFaithWord ? [newFaithWord, ...prior.faithWords] : prior.faithWords;
-        const newBase         = isFaith ? prior.baseSignals : mergeSignals(prior.baseSignals, heur);
+        const newBase         = mergeSignals(prior.baseSignals, stripIdentity(heur));
         const combinedSignals = composeSignals(newBase, nextWords);
 
         set(s => ({
@@ -997,10 +1250,13 @@ export const useAppStore = create<AppState & AppActions>()(
 
         const traits = state.traitScores;
         const traitSummary = [
-          `hunger for truth: ${traits.hunger.toFixed(1)}/10`,
+          `honest inquiry: ${traits.honest_inquiry.toFixed(1)}/10`,
           `openness: ${traits.openness.toFixed(1)}/10`,
-          `sincerity: ${traits.sincerity.toFixed(1)}/10`,
+          `humility: ${traits.humility.toFixed(1)}/10`,
+          `hunger for truth: ${traits.hunger.toFixed(1)}/10`,
+          `compassion: ${traits.compassion.toFixed(1)}/10`,
           `courage: ${traits.courage.toFixed(1)}/10`,
+          `sincerity: ${traits.sincerity.toFixed(1)}/10`,
         ].join(', ');
 
         const recentJournal = state.journalEntries
@@ -1072,14 +1328,18 @@ export const useAppStore = create<AppState & AppActions>()(
 
 [ABOUT THIS PERSON — what the app has quietly learned. Never read these labels back to them.]
 - Spiritual traits: ${traitSummary}${nameLine}${signalSentences ? `\n- What they have shown: ${signalSentences}` : ''}${faithLine}${storyMoments}${recentJournal ? `\n- From their recent journal: ${recentJournal}` : ''}${ministeringPlan}${exerciseLine}
-${guidance}${SIGNAL_REPORT_INSTRUCTION}`;
+${guidance}${SIGNAL_REPORT_INSTRUCTION}${TRAIT_REPORT_INSTRUCTION}`;
 
         // history already ends with the user's latest message — exactly the
         // shape Anthropic's `messages` array expects (alternating, user-first).
-        const history = state.chatMessages.map(m => ({
-          role:    m.role,
-          content: m.text,
-        }));
+        // Meta notes (spirit-level changes) are shown to the person but are NOT
+        // conversation, so they are stripped before the model ever sees them.
+        const history = state.chatMessages
+          .filter(m => m.kind !== 'meta')
+          .map(m => ({
+            role:    m.role,
+            content: m.text,
+          }));
 
         // Preferred path: the server proxy holds the key. Direct-to-Anthropic is
         // a DEV-ONLY fallback (a local key) and is never shipped in a build.
@@ -1140,11 +1400,15 @@ ${guidance}${SIGNAL_REPORT_INSTRUCTION}`;
               : '';
           }
 
-          // ── The ear, part two: strip the model's hidden signal report and
-          // fold what it heard into the engine. The gate can open right here.
-          // What the model reports is an inference about the person, not a faith
-          // self-description — so it lands in the sticky base set.
-          const { reply, found } = stripSignalReport(rawReply ?? '');
+          // ── The ear, part two: strip the model's hidden signal + spirit reports
+          // and fold what it heard into the engine. The gate can open right here.
+          // What the model reports is an INFERENCE about the person, not a faith
+          // self-description — so engagement lands in the sticky base, and any
+          // identity it guessed is dropped (Law 3: who they are with regard to
+          // faith comes ONLY from their own words, never the model's inference).
+          const afterSignals = stripSignalReport(rawReply ?? '');
+          const { reply, deltas } = stripTraitReport(afterSignals.reply);
+          const found        = stripIdentity(afterSignals.found);
           const newBase2     = mergeSignals(get().baseSignals, found);
           const heardSignals = composeSignals(newBase2, get().faithWords);
 
@@ -1158,12 +1422,22 @@ ${guidance}${SIGNAL_REPORT_INSTRUCTION}`;
           const nextQuestion = get().currentQuestion
             ?? computeNextQuestion(get().answeredQuestionIds, heardSignals, get().openedIds.size);
 
+          // The judge: fold the model's clamped spirit deltas into the levels.
+          // These move both ways — honest courage/humility raises, pride/evasion
+          // lowers — exactly as the calibrated-Jesus instruction asks. Compute the
+          // REAL applied change (after the 0–10 clamp) so what we tell the person
+          // matches what actually moved, never the model's raw request.
+          const hasDeltas  = Object.keys(deltas).length > 0;
+          const prevScores = get().traitScores;
+          const nextScores = hasDeltas ? nudgeTraits(prevScores, deltas as Partial<TraitScores>) : prevScores;
+
           set(s => ({
             baseSignals:     newBase2,
             dialogueSignals: heardSignals,
             feedTag:         trackMoved ? nextTag : s.feedTag,
             feed:            trackMoved ? buildFeed(nextTag, s.seenIds) : s.feed,
             currentQuestion: nextQuestion,
+            traitScores:     nextScores,
           }));
 
           if (reply) {
@@ -1173,6 +1447,17 @@ ${guidance}${SIGNAL_REPORT_INSTRUCTION}`;
               "Something went quiet on my end. Would you like to try again, or write something in the journal instead?",
             );
           }
+
+          // Honesty about the judgment: if a level actually moved by half a point
+          // or more, tell the person to their face — so a deduction is never
+          // hidden, and they can ask the chat why right here.
+          const moved = (Object.keys(deltas) as (keyof TraitScores)[])
+            .map(k => ({ k, d: (nextScores[k] ?? 0) - (prevScores[k] ?? 0) }))
+            .filter(({ d }) => Math.abs(d) >= 0.5)
+            .map(({ k, d }) => `${TRAIT_DISPLAY[k]} ${fmtDelta(d)}`);
+          if (moved.length) {
+            get().appendMetaMessage(`Spirit reading moved — ${moved.join(', ')}. Ask me why if it surprises you.`);
+          }
         } catch {
           get().appendAssistantMessage(
             "I wasn't able to connect right now. If you have an internet connection, try again in a moment. Whatever you were thinking — it's worth writing down.",
@@ -1181,7 +1466,7 @@ ${guidance}${SIGNAL_REPORT_INSTRUCTION}`;
       },
     }),
     {
-      name: 'mbm-app-store-v2',
+      name: 'mbm-app-store-v3',
       storage: createJSONStorage(() => AsyncStorage),
       // Only persist meaningful user data — not ephemeral UI state
       partialize: (state): PersistedState => ({
@@ -1202,6 +1487,7 @@ ${guidance}${SIGNAL_REPORT_INSTRUCTION}`;
         journalEntries:      state.journalEntries,
         answeredPromptIds:   state.answeredPromptIds,
         chatMessages:        state.chatMessages,
+        blessingHistory:     state.blessingHistory,
         connectRequests:     state.connectRequests,
         name:                state.name,
         faithWords:          state.faithWords,
@@ -1227,11 +1513,25 @@ ${guidance}${SIGNAL_REPORT_INSTRUCTION}`;
         // dialogueSignals is now DERIVED, so recompute it rather than trusting the
         // persisted copy. This is what makes a removed faith line truly unlearn:
         // its signals vanish from the union the moment the word is gone.
-        const faithWords  = (p.faithWords as FaithWord[] | undefined) ?? [];
-        const baseSignals =
+        const storedWords = (p.faithWords as FaithWord[] | undefined) ?? [];
+        const legacyFlat =
           (p.baseSignals as string[] | undefined) ??
           (p.dialogueSignals as string[] | undefined) ??
           [];
+
+        // Identity must never sit in the sticky base — strip it out on the way in.
+        const baseSignals = stripIdentity(legacyFlat);
+
+        // Any identity the legacy flat set carried that no faith word already owns
+        // is re-homed onto a synthesized faith line, so it stays VISIBLE and
+        // REMOVABLE instead of being lost (or stuck un-removably in base). This is
+        // what lets someone who converted to/from a faith change what the app
+        // thinks of them, even on data saved before the provenance model existed.
+        const ownedIdentity   = identityOnly(faithSignalUnion(storedWords));
+        const orphanIdentity  = identityOnly(legacyFlat).filter(s => !ownedIdentity.includes(s));
+        const orphanWord      = identityWordFromTokens(orphanIdentity);
+        const faithWords      = orphanWord ? [orphanWord, ...storedWords] : storedWords;
+
         const signals   = composeSignals(baseSignals, faithWords);
         const justified = routeFeedTag(signals);
 
@@ -1257,7 +1557,8 @@ ${guidance}${SIGNAL_REPORT_INSTRUCTION}`;
         return {
           ...currentState,
           ...p,
-          baseSignals,                 // migrated/derived above
+          faithWords,                  // includes any re-homed orphan identity
+          baseSignals,                 // migrated/derived above (identity stripped)
           dialogueSignals: signals,    // DERIVED — recomputed, never trusted from disk
           feedTag:    healedTag,
           feed:       healedFeed,
