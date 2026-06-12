@@ -32,16 +32,14 @@ export default function ContentCard({ item, onThumbsUp, onBookmark }: Props) {
   const [reflectText, setReflectText] = useState('');
 
   async function handleRead() {
+    // No canOpenURL() gate: on Android it falsely returns false for
+    // churchofjesuschrist.org (registered app-links), which blocked those links
+    // from ever opening. openURL resolves https to a browser on its own.
     try {
-      const supported = await Linking.canOpenURL(item.url);
-      if (supported) {
-        await Linking.openURL(item.url);
-        markOpened(item.id);
-      } else {
-        Alert.alert('Cannot open link', item.url);
-      }
+      await Linking.openURL(item.url);
+      markOpened(item.id);
     } catch {
-      Alert.alert('Error', 'Could not open this link.');
+      Alert.alert('Could not open this link', item.url);
     }
   }
 

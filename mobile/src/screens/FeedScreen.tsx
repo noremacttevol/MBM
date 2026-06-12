@@ -5,8 +5,10 @@ import {
   ScrollView,
   TouchableOpacity,
   StyleSheet,
-  SafeAreaView,
+  KeyboardAvoidingView,
+  Platform,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
 import { useAppStore } from '../store/useAppStore';
 import ContentCard from '../components/ContentCard';
@@ -47,9 +49,13 @@ export default function FeedScreen() {
   const bottomItems = feed.slice(2);
 
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView style={styles.safe} edges={['top', 'left', 'right']}>
       <StatusBar style="light" />
 
+      <KeyboardAvoidingView
+        style={{ flex: 1 }}
+        behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
+      >
       <ScrollView
         style={styles.scroll}
         contentContainerStyle={styles.container}
@@ -105,6 +111,7 @@ export default function FeedScreen() {
 
         <View style={{ height: spacing.xl }} />
       </ScrollView>
+      </KeyboardAvoidingView>
 
       <BlessingToast />
     </SafeAreaView>

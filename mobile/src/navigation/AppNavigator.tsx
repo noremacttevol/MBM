@@ -3,6 +3,7 @@ import { View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 
 import HookScreen        from '../screens/HookScreen';
@@ -61,6 +62,11 @@ const Tab   = createBottomTabNavigator<MainTabParamList>();
 // The tab navigator. There is no time cap and no come-back wipe (Law 5): the app
 // never locks a person out and never erases what it has learned about them.
 function MainTabs() {
+  // Lift the tab bar above the system nav bar. On phones with on-screen
+  // home/back/recents buttons, insets.bottom is their height, so the app's own
+  // buttons sit just above them. On phones without that bar, insets.bottom is 0
+  // and the tab bar uses the full screen — the same code handles both.
+  const insets = useSafeAreaInsets();
   return (
     <Tab.Navigator
       screenOptions={({ route }: { route: { name: string } }) => ({
@@ -69,9 +75,9 @@ function MainTabs() {
           backgroundColor:  colors.bg,
           borderTopColor:   colors.borderDim,
           borderTopWidth:   1,
-          height:           72,
+          height:           64 + insets.bottom,
           paddingTop:       6,
-          paddingBottom:    10,
+          paddingBottom:    insets.bottom + 8,
         },
         tabBarItemStyle: {
           justifyContent: 'center',

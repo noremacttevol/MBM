@@ -7,15 +7,18 @@
  * in them, their faith in their own words, and the story they have told so far.
  */
 
-import React from 'react';
+import React, { useState } from 'react';
 import {
   View,
   Text,
+  TextInput,
   ScrollView,
   TouchableOpacity,
   StyleSheet,
-  SafeAreaView,
+  KeyboardAvoidingView,
+  Platform,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation } from '@react-navigation/native';
 import { useAppStore, isMemberSignal } from '../store/useAppStore';
@@ -115,11 +118,18 @@ export default function ProfileScreen() {
   const faithWords          = useAppStore(s => s.faithWords);
   const moments             = useAppStore(s => s.moments);
   const prefillChat         = useAppStore(s => s.prefillChat);
+  const editFaithWord       = useAppStore(s => s.editFaithWord);
+  const addFaithWord        = useAppStore(s => s.addFaithWord);
 
   const navigation = useNavigation<any>();
 
+  // Editable faith — Law 4: anything we collect and show, a person can change anytime.
+  const [editingIndex, setEditingIndex] = useState<number | null>(null);
+  const [editDraft,    setEditDraft]    = useState('');
+  const [adding,       setAdding]       = useState(false);
+  const [addDraft,     setAddDraft]     = useState('');
+
   const interpretation = interpretTraits(traitScores, feedTag);
-  const hasFaithWords  = faithWords.length > 0 || isMemberSignal(dialogueSignals);
 
   function askAbout(title: string) {
     prefillChat(
@@ -128,14 +138,50 @@ export default function ProfileScreen() {
     navigation.navigate('Chat');
   }
 
+  function startEdit(index: number, current: string) {
+    setEditingIndex(index);
+    setEditDraft(current);
+    setAdding(false);
+  }
+
+  function saveEdit() {
+    if (editingIndex === null) return;
+    editFaithWord(editingIndex, editDraft);
+    setEditingIndex(null);
+    setEditDraft('');
+  }
+
+  function cancelEdit() {
+    setEditingIndex(null);
+    setEditDraft('');
+  }
+
+  function removeEntry(index: number) {
+    // Saving an empty string removes the entry (store handles the splice).
+    editFaithWord(index, '');
+    if (editingIndex === index) cancelEdit();
+  }
+
+  function saveAdd() {
+    if (!addDraft.trim()) { setAdding(false); setAddDraft(''); return; }
+    addFaithWord(addDraft);
+    setAdding(false);
+    setAddDraft('');
+  }
+
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView style={styles.safe} edges={['top', 'left', 'right']}>
       <StatusBar style="light" />
 
+      <KeyboardAvoidingView
+        style={{ flex: 1 }}
+        behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
+      >
       <ScrollView
         style={styles.scroll}
         contentContainerStyle={styles.container}
         showsVerticalScrollIndicator={false}
+        keyboardShouldPersistTaps="handled"
       >
         <Text style={styles.header}>Your journey</Text>
 
@@ -146,18 +192,84 @@ export default function ProfileScreen() {
         </View>
 
         {/* ── YOUR FAITH, AS YOU'VE TOLD IT ───────────────────────────── */}
-        {hasFaithWords && (
-          <View style={styles.card}>
-            <Text style={styles.sectionLabel}>YOUR FAITH, AS YOU'VE TOLD IT</Text>
-            <Text style={styles.faithStatus}>{faithStatusLine(dialogueSignals)}</Text>
-            {faithWords.map((w, i) => (
-              <View key={`${w.ts}-${i}`} style={styles.faithRow}>
-                <Text style={styles.faithWordText}>"{w.text}"</Text>
-                <Text style={styles.faithWordDate}>{fmtDate(w.ts)}</Text>
+        {/* Always editable — a person can fix a typo or add context anytime. */}
+        <View style={styles.card}>
+          <Text style={styles.sectionLabel}>YOUR FAITH, AS YOU'VE TOLD IT</Text>
+          <Text style={styles.faithStatus}>{faithStatusLine(dialogueSignals)}</Text>
+
+          {faithWords.map((w, i) => (
+            <View key={`${w.ts}-${i}`} style={styles.faithRow}>
+              {editingIndex === i ? (
+                <>
+                  <TextInput
+                    style={styles.faithInput}
+                    value={editDraft}
+                    onChangeText={setEditDraft}
+                    placeholder="In your own words…"
+                    placeholderTextColor={colors.textMuted}
+                    multiline
+                    autoFocus
+                    maxLength={140}
+                  />
+                  <View style={styles.editActions}>
+                    <TouchableOpacity activeOpacity={0.7} onPress={saveEdit}>
+                      <Text style={styles.editSave}>Save</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity activeOpacity={0.7} onPress={cancelEdit}>
+                      <Text style={styles.editCancel}>Cancel</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity activeOpacity={0.7} onPress={() => removeEntry(i)}>
+                      <Text style={styles.editRemove}>Remove</Text>
+                    </TouchableOpacity>
+                  </View>
+                </>
+              ) : (
+                <TouchableOpacity activeOpacity={0.7} onPress={() => startEdit(i, w.text)}>
+                  <Text style={styles.faithWordText}>"{w.text}"</Text>
+                  <View style={styles.faithRowFoot}>
+                    <Text style={styles.faithWordDate}>{fmtDate(w.ts)}</Text>
+                    <Text style={styles.faithEditHint}>Edit →</Text>
+                  </View>
+                </TouchableOpacity>
+              )}
+            </View>
+          ))}
+
+          {/* Add another in-their-words entry */}
+          {adding ? (
+            <View style={styles.faithRow}>
+              <TextInput
+                style={styles.faithInput}
+                value={addDraft}
+                onChangeText={setAddDraft}
+                placeholder="Add more about your faith, in your own words…"
+                placeholderTextColor={colors.textMuted}
+                multiline
+                autoFocus
+                maxLength={140}
+              />
+              <View style={styles.editActions}>
+                <TouchableOpacity activeOpacity={0.7} onPress={saveAdd}>
+                  <Text style={styles.editSave}>Save</Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                  activeOpacity={0.7}
+                  onPress={() => { setAdding(false); setAddDraft(''); }}
+                >
+                  <Text style={styles.editCancel}>Cancel</Text>
+                </TouchableOpacity>
               </View>
-            ))}
-          </View>
-        )}
+            </View>
+          ) : (
+            <TouchableOpacity
+              activeOpacity={0.7}
+              style={styles.addFaithBtn}
+              onPress={() => { setAdding(true); setEditingIndex(null); }}
+            >
+              <Text style={styles.addFaithText}>+ Add more in your own words</Text>
+            </TouchableOpacity>
+          )}
+        </View>
 
         {/* ── WHAT'S GROWING IN YOU (the virtues belong to the person) ─── */}
         <View style={styles.card}>
@@ -230,6 +342,7 @@ export default function ProfileScreen() {
 
         <View style={{ height: spacing.xl }} />
       </ScrollView>
+      </KeyboardAvoidingView>
     </SafeAreaView>
   );
 }
@@ -308,6 +421,64 @@ const styles = StyleSheet.create({
     fontFamily: 'Georgia',
     color:     colors.textMuted,
     marginTop: 2,
+  },
+  faithRowFoot: {
+    flexDirection:  'row',
+    justifyContent: 'space-between',
+    alignItems:     'center',
+    marginTop:      2,
+  },
+  faithEditHint: {
+    fontSize:   10,
+    fontFamily: 'Georgia',
+    fontStyle:  'italic',
+    color:      colors.blue,
+  },
+  faithInput: {
+    borderWidth:     1,
+    borderColor:     colors.border,
+    borderRadius:    radius.sm,
+    backgroundColor: colors.bgInput,
+    color:           colors.text,
+    fontFamily:      'Georgia',
+    fontSize:        13,
+    lineHeight:      20,
+    padding:         spacing.sm,
+    minHeight:       60,
+    textAlignVertical: 'top',
+  },
+  editActions: {
+    flexDirection: 'row',
+    gap:           spacing.md,
+    marginTop:     spacing.sm,
+  },
+  editSave: {
+    fontSize:   12,
+    fontFamily: 'Georgia',
+    color:      colors.gold,
+  },
+  editCancel: {
+    fontSize:   12,
+    fontFamily: 'Georgia',
+    color:      colors.textMuted,
+  },
+  editRemove: {
+    fontSize:   12,
+    fontFamily: 'Georgia',
+    color:      colors.textMuted,
+    marginLeft: 'auto',
+  },
+  addFaithBtn: {
+    borderTopWidth:  1,
+    borderTopColor:  colors.border,
+    paddingTop:      spacing.sm,
+    marginTop:       spacing.xs,
+  },
+  addFaithText: {
+    fontSize:   12,
+    fontFamily: 'Georgia',
+    fontStyle:  'italic',
+    color:      colors.blue,
   },
 
   traitRow: {

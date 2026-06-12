@@ -1,18 +1,21 @@
 import React, { useState, useRef, useEffect } from 'react';
 import {
   View, Text, TextInput, TouchableOpacity, ScrollView,
-  StyleSheet, SafeAreaView, KeyboardAvoidingView, Platform,
+  StyleSheet, KeyboardAvoidingView, Platform,
   ActivityIndicator, Alert,
 } from 'react-native';
+import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
 import { useAppStore } from '../store/useAppStore';
 import ConnectCard from '../components/ConnectCard';
 import BlessingToast from '../components/BlessingToast';
 import { colors, spacing, radius } from '../theme';
 
-// Server URL — same as store
+// Server URL — the same proxy the store uses for chat. Public, not a secret.
 const SERVER_URL =
-  (process.env.EXPO_PUBLIC_SERVER_URL ?? '').trim() || 'http://localhost:3000';
+  (process.env.EXPO_PUBLIC_MBM_API_URL ?? process.env.EXPO_PUBLIC_SERVER_URL ?? '')
+    .trim()
+    .replace(/\/+$/, '');
 
 export default function ChatScreen() {
   const chatMessages    = useAppStore(s => s.chatMessages);
@@ -25,6 +28,7 @@ export default function ChatScreen() {
   const [submittingFC,   setSubmittingFC]   = useState(false);
   const [showConnect,    setShowConnect]    = useState(false);
   const scrollRef = useRef<ScrollView>(null);
+  const insets = useSafeAreaInsets();
 
   useEffect(() => {
     scrollRef.current?.scrollToEnd({ animated: true });
@@ -86,7 +90,7 @@ export default function ChatScreen() {
   const canFactCheck = chatMessages.length >= 2 && !submittingFC;
 
   return (
-    <SafeAreaView style={styles.safe}>
+    <SafeAreaView style={styles.safe} edges={['top', 'left', 'right']}>
       <StatusBar style="light" />
 
       {/* ── Header ────────────────────────────────────────────────────────── */}
@@ -113,8 +117,8 @@ export default function ChatScreen() {
       {/* ── Message list ──────────────────────────────────────────────────── */}
       <KeyboardAvoidingView
         style={{ flex: 1 }}
-        behavior={Platform.OS === 'ios' ? 'padding' : undefined}
-        keyboardVerticalOffset={90}
+        behavior="padding"
+        keyboardVerticalOffset={insets.top + 52}
       >
         <ScrollView
           ref={scrollRef}

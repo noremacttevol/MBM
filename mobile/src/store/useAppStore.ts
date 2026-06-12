@@ -156,6 +156,11 @@ export interface ConnectRequest {
 export interface FaithWord {
   text: string;
   ts:   number;
+  // The routing signals THIS line taught the engine. Stored so that editing or
+  // removing the line can take its signals back — the app un-learns honestly,
+  // instead of holding onto what a person has since deleted. Legacy lines saved
+  // before provenance existed have no signals and simply contribute nothing.
+  signals?: string[];
 }
 
 // A titled fragment of the person's story, in their own words — "YOUR STORY SO
@@ -173,9 +178,13 @@ export interface SessionMemory {
   lastWords: string;  // the last thing they said, to gently recall on return
 }
 
-// ── Anthropic (local-first: the app calls Claude directly) ───────────────────
-// Per CLAUDE.md the app is local-first and runs with no server terminal. The key
-// is read from EXPO_PUBLIC_ANTHROPIC_API_KEY (mobile/.env, which is gitignored).
+// ── AI voice (key-safe: the app NEVER holds the Anthropic key) ───────────────
+// The key lives only on the server (server/index.js, /api/chat). The app posts
+// {system, messages} to the proxy and the proxy adds the key. The proxy URL is
+// NOT a secret, so it is a normal public env var (mobile/.env):
+//   EXPO_PUBLIC_MBM_API_URL=https://your-app.up.railway.app
+// A direct-to-Anthropic key is supported ONLY for local dev and is never shipped.
+const MBM_API_URL       = (process.env.EXPO_PUBLIC_MBM_API_URL ?? '').trim().replace(/\/+$/, '');
 const ANTHROPIC_API_KEY = (process.env.EXPO_PUBLIC_ANTHROPIC_API_KEY ?? '').trim();
 const ANTHROPIC_URL     = 'https://api.anthropic.com/v1/messages';
 const ANTHROPIC_MODEL   = MINISTER_MODEL;
@@ -230,6 +239,33 @@ function mergeSignals(existing: string[], incoming: string[]): string[] {
   return Array.from(set);
 }
 
+// ── Signal provenance ────────────────────────────────────────────────────────
+// dialogueSignals is no longer the source of truth — it is DERIVED. Two sources
+// feed it:
+//   • baseSignals      — everything NOT from a faith self-description (onboarding
+//                        choices, dialogue answers, journal, exercise outcomes,
+//                        the model's signal report). These are sticky: the app
+//                        does not un-hear what a person freely showed elsewhere.
+//   • each FaithWord's signals — what that specific faith line taught.
+// dialogueSignals = baseSignals ∪ (every faith line's signals). When a person
+// edits or removes a faith line, its signals leave the union, so the routing can
+// honestly settle back to what their remaining words justify (it may move the
+// feed toward milk again — that is correct, not a bug). A signal that ALSO came
+// from a non-faith source stays, because it still lives in baseSignals.
+function faithSignalUnion(words: FaithWord[]): string[] {
+  const out: string[] = [];
+  for (const w of words) {
+    for (const s of w.signals ?? []) {
+      if (s && !out.includes(s)) out.push(s);
+    }
+  }
+  return out;
+}
+
+function composeSignals(baseSignals: string[], words: FaithWord[]): string[] {
+  return mergeSignals(baseSignals, faithSignalUnion(words));
+}
+
 // ── State shape ──────────────────────────────────────────────────────────────
 
 interface AppState {
@@ -249,7 +285,8 @@ interface AppState {
   showTalkToSomeone: boolean;
 
   // Dialogue engine
-  dialogueSignals:     string[];
+  dialogueSignals:     string[];   // DERIVED: baseSignals ∪ every faith line's signals
+  baseSignals:         string[];   // non-faith signals (see composeSignals)
   answeredQuestionIds: number[];
   traitScores:         TraitScores;
   currentQuestion:     DialogueQuestion | null;
@@ -307,6 +344,8 @@ interface AppActions {
   submitConnectRequest: (note: string) => void;
   setName:             (name: string) => void;
   recordFaithBackground: (choiceKey: string, text: string) => void;
+  editFaithWord:       (index: number, text: string) => void;
+  addFaithWord:        (text: string) => void;
   addMoment:           (title: string, text: string) => void;
   acceptExercise:      (ex: SpiritualExercise) => void;
   passExercise:        (ex: SpiritualExercise) => void;
@@ -331,6 +370,7 @@ const initialState: AppState = {
   positiveCount:       0,
   showTalkToSomeone:   false,
   dialogueSignals:     [],
+  baseSignals:         [],
   answeredQuestionIds: [],
   traitScores:         { ...DEFAULT_TRAITS },
   currentQuestion:     null,
@@ -393,6 +433,7 @@ export const useAppStore = create<AppState & AppActions>()(
           openedIds:           new Set(),
           positiveCount:       0,
           showTalkToSomeone:   false,
+          baseSignals:         seedSignals,
           dialogueSignals:     seedSignals,
           answeredQuestionIds: [],
           traitScores:         { ...DEFAULT_TRAITS },
@@ -495,7 +536,7 @@ export const useAppStore = create<AppState & AppActions>()(
       answerQuestion(questionId, answerValue, answerText) {
         const {
           answeredQuestionIds,
-          dialogueSignals,
+          baseSignals,
           traitScores,
           openedIds,
         } = get();
@@ -504,14 +545,18 @@ export const useAppStore = create<AppState & AppActions>()(
         if (!question) return;
 
         const newTraits: TraitScores = { ...traitScores };
-        const newSignals = new Set(dialogueSignals);
+        // Option signals and non-faith free text go to the sticky base set.
+        const newBase = new Set(baseSignals);
         let deltas: Partial<TraitScores> = {};
+        // Signals harvested from a free-text answer that IS a faith self-
+        // description belong to that faith line, so removing it later un-learns.
+        let faithHarvest: string[] = [];
 
         if (question.answerType === 'CHOICE' || question.answerType === 'YES_NO') {
           const opt = question.answerOptions.find(o => o.value === answerValue);
           if (opt) {
             deltas = opt.traitSignals ?? {};
-            (opt.signals ?? []).forEach(s => newSignals.add(s));
+            (opt.signals ?? []).forEach(s => newBase.add(s));
           }
         } else if (question.answerType === 'FREE_TEXT') {
           const base = question.traitSignals;
@@ -525,7 +570,9 @@ export const useAppStore = create<AppState & AppActions>()(
           // The ear listens to free-text dialogue answers too — the gate can open
           // from what they type here, not only from chat.
           if (answerText) {
-            harvestSignals(answerText).forEach(s => newSignals.add(s));
+            const harvested = harvestSignals(answerText);
+            if (FAITH_ID_RE.test(answerText)) faithHarvest = harvested;
+            else harvested.forEach(s => newBase.add(s));
           }
         }
 
@@ -538,7 +585,18 @@ export const useAppStore = create<AppState & AppActions>()(
         }
 
         const newAnsweredIds = [...answeredQuestionIds, questionId];
-        const newSignalsArr  = Array.from(newSignals);
+        const newBaseArr     = Array.from(newBase);
+
+        // Keep a verbatim faith self-description if the free-text answer is one —
+        // carrying the signals it taught, so it can be un-learned on removal.
+        const faithCapture: FaithWord | null =
+          question.answerType === 'FREE_TEXT' && answerText && FAITH_ID_RE.test(answerText)
+            ? { text: answerText.slice(0, 140), ts: Date.now(), signals: faithHarvest }
+            : null;
+
+        const { feedTag: prevTag, seenIds, feed: prevFeed, faithWords } = get();
+        const nextWords     = faithCapture ? [faithCapture, ...faithWords] : faithWords;
+        const newSignalsArr = composeSignals(newBaseArr, nextWords);
 
         const currentQuestion = computeNextQuestion(
           newAnsweredIds,
@@ -546,26 +604,20 @@ export const useAppStore = create<AppState & AppActions>()(
           openedIds.size,
         );
 
-        // Keep a verbatim faith self-description if the free-text answer is one.
-        const faithCapture =
-          question.answerType === 'FREE_TEXT' && answerText && FAITH_ID_RE.test(answerText)
-            ? { text: answerText.slice(0, 140), ts: Date.now() }
-            : null;
-
         // Emergent routing: re-derive the feed track from what they've now shown
         // (still milk-law-obeying). Only rebuild the feed if the track moved.
-        const { feedTag: prevTag, seenIds, feed: prevFeed, faithWords } = get();
         const nextTag    = routeFeedTag(newSignalsArr);
         const trackMoved = nextTag !== prevTag;
 
         set({
           answeredQuestionIds: newAnsweredIds,
+          baseSignals:         newBaseArr,
           dialogueSignals:     newSignalsArr,
           traitScores:         newTraits,
           currentQuestion,
           feedTag:             trackMoved ? nextTag : prevTag,
           feed:                trackMoved ? buildFeed(nextTag, seenIds) : prevFeed,
-          faithWords:          faithCapture ? [faithCapture, ...faithWords] : faithWords,
+          faithWords:          nextWords,
         });
         get().bless(BLESS_DIALOGUE);
       },
@@ -581,15 +633,18 @@ export const useAppStore = create<AppState & AppActions>()(
 
         // The ear listens to journal saves too — what a person writes privately
         // is often the truest thing they say. The gate can open from here.
+        // A journal entry is not a faith record, so its signals are sticky base.
         const heur       = harvestSignals(text);
-        const { dialogueSignals, answeredQuestionIds, openedIds, feedTag: prevTag, seenIds, feed: prevFeed } = get();
-        const merged     = mergeSignals(dialogueSignals, heur);
+        const { baseSignals, faithWords, answeredQuestionIds, openedIds, feedTag: prevTag, seenIds, feed: prevFeed } = get();
+        const newBase    = mergeSignals(baseSignals, heur);
+        const merged     = composeSignals(newBase, faithWords);
         const nextTag    = routeFeedTag(merged);
         const trackMoved = nextTag !== prevTag;
 
         set(s => ({
           journalEntries:    [entry, ...s.journalEntries],
           answeredPromptIds: [...s.answeredPromptIds, promptId],
+          baseSignals:       newBase,
           dialogueSignals:   merged,
           feedTag:           trackMoved ? nextTag : prevTag,
           feed:              trackMoved ? buildFeed(nextTag, seenIds) : prevFeed,
@@ -651,13 +706,16 @@ export const useAppStore = create<AppState & AppActions>()(
         const meta  = FAITH_META[choiceKey] ?? FAITH_META.private;
         const clean = (text ?? '').trim();
 
-        const faithSignals = [...meta.signals, ...(clean ? harvestSignals(clean) : [])];
-        const { dialogueSignals, answeredQuestionIds, openedIds } = get();
-        const merged = mergeSignals(dialogueSignals, faithSignals);
+        const { baseSignals, faithWords, answeredQuestionIds, openedIds } = get();
 
+        // The chosen option's signals ride on the LABEL line; the free-text
+        // signals ride on the words line — so removing either un-learns its part.
         const newWords: FaithWord[] = [];
-        if (meta.label && choiceKey !== 'private') newWords.push({ text: meta.label, ts: Date.now() });
-        if (clean) newWords.push({ text: clean.slice(0, 140), ts: Date.now() });
+        if (meta.label && choiceKey !== 'private') newWords.push({ text: meta.label, ts: Date.now(), signals: meta.signals });
+        if (clean) newWords.push({ text: clean.slice(0, 140), ts: Date.now(), signals: harvestSignals(clean) });
+
+        const nextWords = [...newWords, ...faithWords];
+        const merged    = composeSignals(baseSignals, nextWords);
 
         const newAnswered = (choiceKey && choiceKey !== 'private' && !answeredQuestionIds.includes(2.5))
           ? [...answeredQuestionIds, 2.5]
@@ -666,7 +724,7 @@ export const useAppStore = create<AppState & AppActions>()(
         const momentDetail = `“${(clean || meta.label).slice(0, 90)}”`;
         const nextTag = routeFeedTag(merged);
         set(s => ({
-          faithWords:      [...newWords, ...s.faithWords],
+          faithWords:      nextWords,
           dialogueSignals: merged,
           answeredQuestionIds: newAnswered,
           feedTag:         nextTag,
@@ -675,6 +733,50 @@ export const useAppStore = create<AppState & AppActions>()(
           moments: newWords.length > 0
             ? [{ title: 'Your faith, as you told it', text: momentDetail, ts: Date.now() }, ...s.moments]
             : s.moments,
+        }));
+      },
+
+      editFaithWord(index, text) {
+        // The person's own faith words are theirs to revise at any time — fix a
+        // typo, add context, or remove a line entirely (empty text = remove).
+        // Each line carries the signals it taught; re-deriving from base + the
+        // remaining lines means a correction or removal honestly un-learns what
+        // that line had taught (the feed may settle back toward milk — correct).
+        const clean = (text ?? '').trim().slice(0, 140);
+        const { faithWords, baseSignals } = get();
+        if (index < 0 || index >= faithWords.length) return;
+
+        const nextWords = [...faithWords];
+        if (!clean) {
+          nextWords.splice(index, 1);
+        } else {
+          nextWords[index] = { text: clean, ts: Date.now(), signals: harvestSignals(clean) };
+        }
+
+        const merged  = composeSignals(baseSignals, nextWords);
+        const nextTag = routeFeedTag(merged);
+        set(s => ({
+          faithWords:      nextWords,
+          dialogueSignals: merged,
+          feedTag:         nextTag,
+          feed:            nextTag !== s.feedTag ? buildFeed(nextTag, s.seenIds) : s.feed,
+        }));
+      },
+
+      addFaithWord(text) {
+        // Add a new line to "YOUR FAITH, AS YOU'VE TOLD IT", newest first. The new
+        // line carries its own signals so it can be un-learned if later removed.
+        const clean = (text ?? '').trim().slice(0, 140);
+        if (!clean) return;
+        const { baseSignals, faithWords } = get();
+        const nextWords = [{ text: clean, ts: Date.now(), signals: harvestSignals(clean) }, ...faithWords];
+        const merged    = composeSignals(baseSignals, nextWords);
+        const nextTag   = routeFeedTag(merged);
+        set(s => ({
+          faithWords:      nextWords,
+          dialogueSignals: merged,
+          feedTag:         nextTag,
+          feed:            nextTag !== s.feedTag ? buildFeed(nextTag, s.seenIds) : s.feed,
         }));
       },
 
@@ -714,7 +816,7 @@ export const useAppStore = create<AppState & AppActions>()(
       },
 
       answerFollowUp(value, note) {
-        const { activeExercise, doneExerciseIds, traitScores, dialogueSignals,
+        const { activeExercise, doneExerciseIds, traitScores, baseSignals, faithWords,
                 feedTag: prevTag, seenIds, feed: prevFeed, sessionCount } = get();
         const ex = activeExercise;
         if (!ex) return;
@@ -740,7 +842,9 @@ export const useAppStore = create<AppState & AppActions>()(
         const detail = trimmed ? `“${trimmed.slice(0, 90)}${trimmed.length > 90 ? '…' : ''}”` : o.detail;
 
         // Their own words about what came back are the richest signal of all.
-        const heard    = mergeSignals(dialogueSignals, [...o.signals, ...harvestSignals(trimmed)]);
+        // An exercise report is not a faith record — its signals are sticky base.
+        const newBase  = mergeSignals(baseSignals, [...o.signals, ...harvestSignals(trimmed)]);
+        const heard    = composeSignals(newBase, faithWords);
         const nextTag  = routeFeedTag(heard);
         const moved    = nextTag !== prevTag;
         const traitDeltas = trimmed ? { ...o.traits, sincerity: (o.traits.sincerity ?? 0) + 0.1 } : o.traits;
@@ -749,6 +853,7 @@ export const useAppStore = create<AppState & AppActions>()(
           activeExercise:  null,
           acceptedSession: null,
           doneExerciseIds: s.doneExerciseIds.includes(ex.id) ? s.doneExerciseIds : [...s.doneExerciseIds, ex.id],
+          baseSignals:     newBase,
           dialogueSignals: heard,
           traitScores:     nudgeTraits(traitScores, traitDeltas),
           feedTag:         moved ? nextTag : prevTag,
@@ -776,12 +881,14 @@ export const useAppStore = create<AppState & AppActions>()(
           text:       t,
           timestamp:  Date.now(),
         };
-        const { traitScores, dialogueSignals, feedTag: prevTag, seenIds, feed: prevFeed } = get();
-        const heard   = mergeSignals(dialogueSignals, harvestSignals(t));
+        const { traitScores, baseSignals, faithWords, feedTag: prevTag, seenIds, feed: prevFeed } = get();
+        const newBase = mergeSignals(baseSignals, harvestSignals(t));
+        const heard   = composeSignals(newBase, faithWords);
         const nextTag = routeFeedTag(heard);
         const moved   = nextTag !== prevTag;
         set(s => ({
           journalEntries:  [entry, ...s.journalEntries],
+          baseSignals:     newBase,
           dialogueSignals: heard,
           traitScores:     nudgeTraits(traitScores, { sincerity: 0.2, hunger: 0.1 }),
           feedTag:         moved ? nextTag : prevTag,
@@ -827,20 +934,26 @@ export const useAppStore = create<AppState & AppActions>()(
         // ── The ear: harvest signals from THIS message BEFORE the prompt ─────
         // so the milk gate can open mid-conversation and the guidance below is
         // built from everything the person has revealed, including just now.
-        const heur            = harvestSignals(text);
-        const priorSignals    = get().dialogueSignals;
-        const combinedSignals = mergeSignals(priorSignals, heur);
+        const heur    = harvestSignals(text);
+        const isFaith = FAITH_ID_RE.test(text);
+        const prior   = get();
 
-        // Keep faith self-descriptions VERBATIM in the person's faith record.
-        const newFaithWord: FaithWord | null = FAITH_ID_RE.test(text)
-          ? { text: text.slice(0, 140), ts: Date.now() }
+        // A faith self-description is kept VERBATIM AND carries the signals it
+        // taught, so removing it later un-learns them. Any other message's signals
+        // are sticky base — the app does not un-hear what was freely said in chat.
+        const newFaithWord: FaithWord | null = isFaith
+          ? { text: text.slice(0, 140), ts: Date.now(), signals: heur }
           : null;
+        const nextWords       = newFaithWord ? [newFaithWord, ...prior.faithWords] : prior.faithWords;
+        const newBase         = isFaith ? prior.baseSignals : mergeSignals(prior.baseSignals, heur);
+        const combinedSignals = composeSignals(newBase, nextWords);
 
         set(s => ({
           chatMessages: [...s.chatMessages, userMsg],
           chatLoading:  true,
+          baseSignals:     newBase,
           dialogueSignals: combinedSignals,
-          faithWords:  newFaithWord ? [newFaithWord, ...s.faithWords] : s.faithWords,
+          faithWords:      nextWords,
           session:     { lastSeen: Date.now(), lastWords: text.slice(0, 140) },
         }));
 
@@ -968,7 +1081,10 @@ ${guidance}${SIGNAL_REPORT_INSTRUCTION}`;
           content: m.text,
         }));
 
-        if (!ANTHROPIC_API_KEY) {
+        // Preferred path: the server proxy holds the key. Direct-to-Anthropic is
+        // a DEV-ONLY fallback (a local key) and is never shipped in a build.
+        const useProxy = !!MBM_API_URL;
+        if (!useProxy && !ANTHROPIC_API_KEY) {
           get().appendAssistantMessage(
             "I'm not connected to my voice right now. Whatever you were thinking — it's worth writing down in the journal while you wait.",
           );
@@ -976,40 +1092,61 @@ ${guidance}${SIGNAL_REPORT_INSTRUCTION}`;
         }
 
         try {
-          // ── Call Anthropic directly (local-first) ─────────────────────────
-          const response = await fetch(ANTHROPIC_URL, {
-            method:  'POST',
-            headers: {
-              'content-type':                        'application/json',
-              'x-api-key':                           ANTHROPIC_API_KEY,
-              'anthropic-version':                   ANTHROPIC_VERSION,
-              'anthropic-dangerous-direct-browser-access': 'true',
-            },
-            body: JSON.stringify({
-              model:      ANTHROPIC_MODEL,
-              max_tokens: MAX_REPLY_TOKENS,
-              system:     systemPrompt,
-              messages:   history,
-            }),
-          });
+          let rawReply = '';
 
-          if (!response.ok) {
-            throw new Error('anthropic ' + response.status);
+          if (useProxy) {
+            // ── Through the proxy: the app never sees the key ────────────────
+            const response = await fetch(`${MBM_API_URL}/api/chat`, {
+              method:  'POST',
+              headers: { 'content-type': 'application/json' },
+              body: JSON.stringify({
+                system:     systemPrompt,
+                messages:   history,
+                max_tokens: MAX_REPLY_TOKENS,
+              }),
+            });
+            if (!response.ok) {
+              throw new Error('proxy ' + response.status);
+            }
+            const data = await response.json();
+            rawReply = typeof data?.text === 'string' ? data.text.trim() : '';
+          } else {
+            // ── DEV ONLY: direct Anthropic call with a local key ─────────────
+            const response = await fetch(ANTHROPIC_URL, {
+              method:  'POST',
+              headers: {
+                'content-type':                        'application/json',
+                'x-api-key':                           ANTHROPIC_API_KEY,
+                'anthropic-version':                   ANTHROPIC_VERSION,
+                'anthropic-dangerous-direct-browser-access': 'true',
+              },
+              body: JSON.stringify({
+                model:      ANTHROPIC_MODEL,
+                max_tokens: MAX_REPLY_TOKENS,
+                system:     systemPrompt,
+                messages:   history,
+              }),
+            });
+            if (!response.ok) {
+              throw new Error('anthropic ' + response.status);
+            }
+            const data = await response.json();
+            rawReply = Array.isArray(data?.content)
+              ? data.content
+                  .filter((b: any) => b?.type === 'text')
+                  .map((b: any) => b?.text ?? '')
+                  .join('')
+                  .trim()
+              : '';
           }
-
-          const data = await response.json();
-          const rawReply = Array.isArray(data?.content)
-            ? data.content
-                .filter((b: any) => b?.type === 'text')
-                .map((b: any) => b?.text ?? '')
-                .join('')
-                .trim()
-            : '';
 
           // ── The ear, part two: strip the model's hidden signal report and
           // fold what it heard into the engine. The gate can open right here.
+          // What the model reports is an inference about the person, not a faith
+          // self-description — so it lands in the sticky base set.
           const { reply, found } = stripSignalReport(rawReply ?? '');
-          const heardSignals     = mergeSignals(combinedSignals, found);
+          const newBase2     = mergeSignals(get().baseSignals, found);
+          const heardSignals = composeSignals(newBase2, get().faithWords);
 
           // Re-derive the feed track from everything now heard (still milk-law-
           // obeying via routeFeedTag). Only rebuild the feed if the track moved.
@@ -1022,6 +1159,7 @@ ${guidance}${SIGNAL_REPORT_INSTRUCTION}`;
             ?? computeNextQuestion(get().answeredQuestionIds, heardSignals, get().openedIds.size);
 
           set(s => ({
+            baseSignals:     newBase2,
             dialogueSignals: heardSignals,
             feedTag:         trackMoved ? nextTag : s.feedTag,
             feed:            trackMoved ? buildFeed(nextTag, s.seenIds) : s.feed,
@@ -1043,7 +1181,7 @@ ${guidance}${SIGNAL_REPORT_INSTRUCTION}`;
       },
     }),
     {
-      name: 'mbm-app-store-v1',
+      name: 'mbm-app-store-v2',
       storage: createJSONStorage(() => AsyncStorage),
       // Only persist meaningful user data — not ephemeral UI state
       partialize: (state): PersistedState => ({
@@ -1057,6 +1195,7 @@ ${guidance}${SIGNAL_REPORT_INSTRUCTION}`;
         positiveCount:       state.positiveCount,
         showTalkToSomeone:   state.showTalkToSomeone,
         dialogueSignals:     state.dialogueSignals,
+        baseSignals:         state.baseSignals,
         answeredQuestionIds: state.answeredQuestionIds,
         traitScores:         state.traitScores,
         currentQuestion:     state.currentQuestion,
@@ -1081,7 +1220,19 @@ ${guidance}${SIGNAL_REPORT_INSTRUCTION}`;
       // persisted track is higher than the signals warrant, route it back down.
       merge: (persistedState, currentState) => {
         const p = persistedState as Partial<PersistedState>;
-        const signals = (p.dialogueSignals as string[] | undefined) ?? [];
+
+        // Migrate to the provenance model. Legacy stores have no baseSignals —
+        // seed it from the old flat dialogueSignals so nothing already learned is
+        // lost. Faith words own the signals they taught; everything else is base.
+        // dialogueSignals is now DERIVED, so recompute it rather than trusting the
+        // persisted copy. This is what makes a removed faith line truly unlearn:
+        // its signals vanish from the union the moment the word is gone.
+        const faithWords  = (p.faithWords as FaithWord[] | undefined) ?? [];
+        const baseSignals =
+          (p.baseSignals as string[] | undefined) ??
+          (p.dialogueSignals as string[] | undefined) ??
+          [];
+        const signals   = composeSignals(baseSignals, faithWords);
         const justified = routeFeedTag(signals);
 
         // Order of "depth" — never let the stored tag exceed what signals justify.
@@ -1106,6 +1257,8 @@ ${guidance}${SIGNAL_REPORT_INSTRUCTION}`;
         return {
           ...currentState,
           ...p,
+          baseSignals,                 // migrated/derived above
+          dialogueSignals: signals,    // DERIVED — recomputed, never trusted from disk
           feedTag:    healedTag,
           feed:       healedFeed,
           seenIds:    seenSet,
