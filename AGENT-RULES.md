@@ -169,6 +169,25 @@ They are rules. Build toward them; do not walk them back.
    needs a genuine, well-framed belief/testimony option so a believer can testify
    instead of being boxed into unbelief. Doubt must never be the default-looking choice.
 
+6. **The blessing popup STAYS until it is swiped — and a swipe can open a real talk.**
+   The motivation/blessing popup (the one honest word spoken after a dialogue answer, a
+   kept heart, or a journal reflection) does **not** auto-dismiss. It rests on screen so
+   the person can read it slowly and understand it, and so its **absence is felt** when
+   it goes. They control it with a swipe:
+   - **Swipe LEFT → let it go** (dismiss).
+   - **Swipe RIGHT → talk about it.** This carries the **question, their answer, AND the
+     blessing line** into Chat as a pre-filled opening, so a quiet moment can become a
+     real conversation about the content they received — more memorable, more impactful,
+     and a doorway to reaching out.
+   Because the line now persists and can open a conversation, the AI that writes it must
+   weigh it like Jesus weighing what He says to someone He knows will carry it:
+   **criticize and compliment more carefully and respectfully.** An affirmation must be
+   true enough to rest on; a correction must be careful, respectful, and worth opening a
+   conversation over. Never careless, never canned, and silence is still valid for a
+   non-answer. (Implemented in `BlessingToast.tsx` + the `blessing` BlessingCard /
+   `openBlessingInChat` in `useAppStore.ts`; the careful-weighing instruction lives in
+   the `generateBlessing` system prompt.)
+
 ---
 
 ## System Guardrails (from `.claudecode.md`)

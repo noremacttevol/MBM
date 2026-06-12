@@ -222,6 +222,17 @@ function pickLine(pool: string[]): string {
 // every blessing it has ever spoken so it never repeats itself or sounds canned.
 export type BlessKind = 'dialogue' | 'heart' | 'journal';
 
+// A blessing now stays on screen until the person swipes it — left to dismiss,
+// right to carry it into chat. So it must remember WHAT it was about (the
+// question and their answer), not just the line, so a tap-to-talk opens a real
+// conversation about that exact moment.
+export interface BlessingCard {
+  line:      string;       // the one honest word (affirmation or loving correction)
+  kind:      BlessKind;
+  question?: string;       // what prompted it — the dialogue question / content kept
+  answer?:   string;       // what the person actually said or chose, if anything
+}
+
 const BLESS_KIND_FRAME: Record<BlessKind, string> = {
   dialogue: 'just answered a tender, honest question about their life and faith',
   heart:    'was moved by something they read here and chose to keep it',
@@ -274,6 +285,12 @@ export async function generateBlessing(
     '3) HOLLOW — if it was lazy, evasive, joking, or simply not a real answer: output ' +
     'exactly NONE and nothing else. Silence is the right and normal response to a ' +
     'non-answer; never manufacture praise no one reached for.\n\n' +
+    'This line now STAYS on their screen until they choose to swipe it away — and they ' +
+    'can swipe it INTO a conversation to talk about it with you. So it is read slowly, ' +
+    'sat with, and may open a real talk. Weigh it accordingly: an affirmation must be ' +
+    'true enough to rest on, and a correction must be careful, respectful, and worth ' +
+    'opening a conversation over — the way Jesus weighed what He said to a person He ' +
+    'knew would carry it. Make it land honestly and be worth remembering; never careless.\n\n' +
     'Never quote chapter and verse, never preach, never give a to-do, never ask a question. ' +
     'Speak straight to them as "you". No greeting, no preamble, no quotation marks, no ' +
     'emojis, no numbers. Output ONLY the single line — or the lone word NONE.' +
@@ -486,8 +503,9 @@ interface AppState {
   // Return-visit memory (no cold restarts)
   session:             SessionMemory | null;
 
-  // A blessing toast — words only, shown briefly after a meaningful act.
-  blessing:            string | null;
+  // A blessing card — words only. Stays until the person swipes it (left to
+  // dismiss, right to carry it into chat).
+  blessing:            BlessingCard | null;
 
   // A draft pre-filled into Chat from a "Talk about it" / "Ask about this" tap.
   chatDraft:           string;
@@ -522,10 +540,11 @@ interface AppActions {
   prefillChat:         (text: string) => void;
   clearChatDraft:      () => void;
   bless:               (pool: string[]) => void;
-  showBlessing:        (line: string) => void;
-  blessPersonalized:   (kind: BlessKind, context?: string) => void;
+  showBlessing:        (card: BlessingCard) => void;
+  blessPersonalized:   (kind: BlessKind, context?: string, meta?: { question?: string; answer?: string }) => void;
   recordBlessing:      (line: string) => void;
   clearBlessing:       () => void;
+  openBlessingInChat:  () => void;
 }
 
 // ── Initial state ─────────────────────────────────────────────────────────────
@@ -663,7 +682,11 @@ export const useAppStore = create<AppState & AppActions>()(
         set({ positiveCount: newCount, feedTag: newTag, feed });
         // Personalize from the very thing that moved them, if we can name it.
         const item = CONTENT.find(c => c.id === id);
-        get().blessPersonalized('heart', item ? `${item.title} — ${item.description}` : '');
+        const heartCtx = item ? `${item.title} — ${item.description}` : '';
+        get().blessPersonalized('heart', heartCtx, {
+          question: item ? `${item.title} (${item.scriptureRef})` : undefined,
+          answer:   item ? 'You kept this — it moved you.' : undefined,
+        });
       },
 
       bookmark(id) {
@@ -808,8 +831,12 @@ export const useAppStore = create<AppState & AppActions>()(
         // Personalize the blessing from what they actually answered (the free-text
         // they wrote, or the option they chose), so it speaks to THIS moment.
         const chosen = question.answerOptions.find(o => o.value === answerValue);
-        const blessCtx = (answerText && answerText.trim()) || chosen?.text || question.questionText;
-        get().blessPersonalized('dialogue', blessCtx);
+        const answerSaid = (answerText && answerText.trim()) || chosen?.text || '';
+        const blessCtx = answerSaid || question.questionText;
+        get().blessPersonalized('dialogue', blessCtx, {
+          question: question.questionText,
+          answer:   answerSaid || undefined,
+        });
       },
 
       addJournalEntry(promptId, promptText, text) {
@@ -1118,7 +1145,10 @@ export const useAppStore = create<AppState & AppActions>()(
             ...s.moments,
           ],
         }));
-        get().blessPersonalized('journal', t);
+        get().blessPersonalized('journal', t, {
+          question: `Reflecting on “${item.title}” (${item.scriptureRef})`,
+          answer:   t,
+        });
       },
 
       prefillChat(text) {
@@ -1129,22 +1159,17 @@ export const useAppStore = create<AppState & AppActions>()(
         set({ chatDraft: '' });
       },
 
-      showBlessing(line) {
-        const clean = (line ?? '').trim();
+      showBlessing(card) {
+        const clean = (card?.line ?? '').trim();
         if (!clean) return;
-        set({ blessing: clean });
-        // Stay up long enough to actually READ it — scaled to length so a longer
-        // blessing never fades mid-sentence. ~55ms/char, floored at 4.5s, up to 12s.
-        const readMs = Math.min(12000, Math.max(4500, clean.length * 55));
-        setTimeout(() => {
-          // Only clear if this same blessing is still showing — a personalized
-          // upgrade that replaced it keeps its own, fresh timer instead.
-          if (get().blessing === clean) set({ blessing: null });
-        }, readMs);
+        // No timer. The blessing STAYS until the person swipes it — left to
+        // dismiss, right to carry it into chat. Reading is theirs to pace, and
+        // the absence, when it goes, is theirs to feel.
+        set({ blessing: { ...card, line: clean } });
       },
 
       bless(pool) {
-        get().showBlessing(pickLine(pool));
+        get().showBlessing({ line: pickLine(pool), kind: 'heart' });
       },
 
       // ONE blessing, ever — and only if the disciple has something true to say.
@@ -1152,10 +1177,17 @@ export const useAppStore = create<AppState & AppActions>()(
       // repeats). The AI reads what they actually did and may answer with a warm
       // word, a firm correction, or silence (no popup at all). It is handed every
       // line it has spoken before, so it never repeats itself. Fire-and-forget.
-      blessPersonalized(kind, context) {
+      blessPersonalized(kind, context, meta) {
         generateBlessing(kind, context ?? '', get().blessingHistory).then(line => {
           if (!line) return;            // silence is a valid, honest response
-          get().showBlessing(line);
+          // Carry WHAT it was about (the question and their answer), so a
+          // swipe-right opens a real conversation about that exact moment.
+          get().showBlessing({
+            line,
+            kind,
+            question: meta?.question,
+            answer:   meta?.answer ?? ((context ?? '').trim() || undefined),
+          });
           get().recordBlessing(line);
         });
       },
@@ -1170,6 +1202,21 @@ export const useAppStore = create<AppState & AppActions>()(
 
       clearBlessing() {
         set({ blessing: null });
+      },
+
+      // Swipe-right: carry the blessing — the question, the answer, AND the word
+      // spoken over it — into chat, so a quiet moment can become a real talk.
+      // We pre-fill an opening line in the person's input and clear the card; the
+      // Chat screen reads chatDraft and seeds the box (they still choose to send).
+      openBlessingInChat() {
+        const card = get().blessing;
+        if (!card) return;
+        const parts: string[] = [];
+        if (card.question) parts.push(`You asked me: “${card.question.trim()}”`);
+        if (card.answer)   parts.push(`I said: “${card.answer.trim()}”`);
+        if (card.line)     parts.push(`Then this came back to me: “${card.line.trim()}”`);
+        parts.push('Can we talk about it?');
+        set({ chatDraft: parts.join('\n'), blessing: null });
       },
 
       async sendChatMessage(text) {
