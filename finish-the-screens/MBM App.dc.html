@@ -1,0 +1,1538 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>
+    html, body { margin: 0; padding: 0; background: #060608; }
+    * { box-sizing: border-box; }
+    textarea, input, button { font-family: Georgia, serif; }
+    textarea:focus, input:focus { outline: none; }
+    button { cursor: pointer; }
+    a { text-decoration: none; }
+    ::-webkit-scrollbar { width: 0; height: 0; }
+    @keyframes mbmStone { to { transform: translateX(120px) rotate(60deg); opacity: 0; } }
+    @keyframes mbmGlow { from { opacity: 0; transform: scale(0.3); } to { opacity: 1; transform: scale(1); } }
+    @keyframes mbmFade { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes mbmRise { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes mbmPulse { 0%, 100% { opacity: 0.25; } 50% { opacity: 0.9; } }
+    @keyframes mbmToast { 0% { opacity: 0; transform: translateY(8px); } 8% { opacity: 1; transform: translateY(0); } 88% { opacity: 1; } 100% { opacity: 0; } }
+  </style>
+</helmet>
+
+<div data-screen-label="MBM prototype" style="min-height: 100vh; background: #060608; display: flex; align-items: flex-start; justify-content: center; gap: 40px; padding: 48px 32px; flex-wrap: wrap; font-family: Georgia, serif;">
+
+  <!-- ═══════════════════ THE PHONE ═══════════════════ -->
+  <x-import component="IOSDevice" from="./ios-frame.jsx" dark="{{ true }}" hint-size="402,874">
+    <div style="height: 100%; display: flex; flex-direction: column; background: #0a0a0f; font-family: Georgia, serif; position: relative; overflow: hidden;">
+
+      <!-- ── HOOK ─────────────────────────────────────── -->
+      <sc-if value="{{ isHook }}" hint-placeholder-val="{{ true }}">
+        <div data-screen-label="Hook" style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0 32px; background: #0a0a0f;">
+          <div style="width: 110px; height: 110px; display: flex; align-items: flex-end; justify-content: center; margin-bottom: 32px; position: relative;">
+            <div style="position: absolute; top: -10px; left: -10px; width: 130px; height: 130px; border-radius: 65px; background: radial-gradient(circle, rgba(255,235,160,0.5) 0%, rgba(255,220,120,0.16) 55%, transparent 75%); opacity: 0; animation: mbmGlow 0.8s ease 1.9s forwards;"></div>
+            <div style="width: 66px; height: 84px; background: #1a1a22; border-radius: 33px 33px 4px 4px; position: relative;"></div>
+            <div style="position: absolute; bottom: 0; left: 22px; width: 60px; height: 76px; background: #3a3830; border-radius: 30px 30px 6px 6px; animation: mbmStone 0.9s ease 0.8s forwards;"></div>
+          </div>
+          <div style="font-size: 28px; color: #f0e6c8; letter-spacing: 2px; text-align: center; margin-bottom: 16px; opacity: 0; animation: mbmFade 0.6s ease 2.5s forwards;">Come to me, all who are weary.</div>
+          <div style="font-size: 15px; color: #5a5240; text-align: center; line-height: 24px; max-width: 280px; margin-bottom: 48px; opacity: 0; animation: mbmFade 0.7s ease 3.0s forwards;">However you arrived — hopeful, guarded, or unsure why you opened this — nothing is asked of you here. Every bit of real peace you have ever felt has a source.</div>
+          <div style="opacity: 0; animation: mbmFade 0.6s ease 3.6s forwards;">
+            <button onClick="{{ onComeAndSee }}" style="background: #d4c89a; color: #15110a; font-size: 16px; letter-spacing: 0.5px; font-weight: 600; padding: 14px 40px; border-radius: 28px; border: none; box-shadow: 0 0 16px rgba(240,230,200,0.35);">Come and see</button>
+          </div>
+        </div>
+      </sc-if>
+
+      <!-- ── ONBOARD ──────────────────────────────────── -->
+      <sc-if value="{{ isOnboard }}" hint-placeholder-val="{{ false }}">
+        <div data-screen-label="Onboard" style="flex: 1; overflow-y: auto; padding: 76px 24px 48px; background: #0a0a0f;">
+
+          <sc-if value="{{ phaseStory }}" hint-placeholder-val="{{ true }}">
+            <div style="animation: mbmRise 0.7s ease;">
+              <div style="font-size: 17px; color: #e8e4d8; line-height: 28px; margin-bottom: 24px;">{{ storyFirst }}</div>
+              <sc-for list="{{ storyRest }}" as="p" hint-placeholder-count="4">
+                <div style="font-size: 16px; color: #c8bfa8; line-height: 28px; margin-bottom: 24px; font-style: italic;">{{ p.text }}</div>
+              </sc-for>
+              <button onClick="{{ onContinueStory }}" style="background: #d4c89a; color: #15110a; font-size: 15px; letter-spacing: 0.5px; font-weight: 600; padding: 13px 36px; border-radius: 26px; border: none; margin-top: 16px;">Continue →</button>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ phaseQuestion }}" hint-placeholder-val="{{ false }}">
+            <div style="animation: mbmRise 0.6s ease;">
+              <div style="font-size: 18px; color: #e8e4d8; line-height: 30px; margin-bottom: 32px; font-style: italic;">{{ storyQuestion }}</div>
+              <div style="display: flex; flex-direction: column; gap: 8px;">
+                <sc-for list="{{ storyChoices }}" as="c" hint-placeholder-count="4">
+                  <button onClick="{{ c.select }}" style="background: #141418; border: 1px solid #2a2820; border-radius: 6px; padding: 16px 18px; text-align: left; font-size: 14px; color: #c8bfa8; line-height: 22px;" style-hover="border-color: #d4c89a;">{{ c.text }}</button>
+                </sc-for>
+                <sc-if value="{{ showFreeBox }}" hint-placeholder-val="{{ false }}">
+                  <div style="display: flex; flex-direction: column; gap: 8px;">
+                    <textarea value="{{ freeText }}" onChange="{{ onFreeChange }}" placeholder="Share whatever comes to mind…" style="background: #141418; border: 1px solid #2a2820; border-radius: 6px; color: #c8bfa8; font-size: 15px; padding: 14px; min-height: 110px; line-height: 24px; resize: none;"></textarea>
+                    <button onClick="{{ onFreeSubmit }}" style="background: {{ freeBtnBg }}; color: #15110a; font-size: 15px; font-weight: 600; letter-spacing: 0.5px; padding: 13px 36px; border-radius: 26px; border: none; align-self: flex-start; margin-top: 8px;">Continue →</button>
+                  </div>
+                </sc-if>
+                <sc-if value="{{ showOwnWordsBtn }}" hint-placeholder-val="{{ true }}">
+                  <button onClick="{{ onShowFree }}" style="background: #141418; border: 1px dashed #2a2820; border-radius: 6px; padding: 16px 18px; text-align: left; font-size: 14px; color: #5a5240; font-style: italic;">I want to say it in my own words.</button>
+                </sc-if>
+              </div>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ phaseReflection }}" hint-placeholder-val="{{ false }}">
+            <div style="animation: mbmRise 0.6s ease;">
+              <div style="font-size: 17px; color: #c8bfa8; line-height: 30px; margin-bottom: 32px; font-style: italic;">{{ reflectionText }}</div>
+              <div style="font-size: 14px; color: #5a5240; line-height: 22px; margin-bottom: 24px;">That is where we start.<br />Not with a statement. With you.</div>
+              <div style="margin-bottom: 8px;">
+                <div style="font-size: 13px; color: #5a5240; margin-bottom: 8px; font-style: italic;">If you'd like, tell us what to call you. A first name is plenty — or skip it.</div>
+                <input value="{{ nameDraft }}" onChange="{{ onNameDraft }}" placeholder="Your name (optional)" style="background: #141418; border: 1px solid #2a2820; border-radius: 6px; color: #c8bfa8; font-size: 15px; padding: 12px 14px; width: 220px;" />
+              </div>
+              <button onClick="{{ onToFaith }}" style="background: #d4c89a; color: #15110a; font-size: 15px; letter-spacing: 0.5px; font-weight: 600; padding: 13px 36px; border-radius: 26px; border: none;">Continue →</button>
+            </div>
+          </sc-if>
+
+          <!-- ── FAITH BACKGROUND — its own page. A disciple asks openly. ── -->
+          <sc-if value="{{ phaseFaith }}" hint-placeholder-val="{{ false }}">
+            <div data-screen-label="FaithBackground" style="animation: mbmRise 0.6s ease;">
+              <div style="font-size: 18px; color: #e8e4d8; line-height: 30px; margin-bottom: 8px; font-style: italic;">One more thing — so we can walk with you honestly.</div>
+              <div style="font-size: 15px; color: #9a9080; line-height: 24px; margin-bottom: 24px;">Where does faith live for you — today, or in your past?</div>
+              <div style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px;">
+                <sc-for list="{{ faithOptions }}" as="fo" hint-placeholder-count="5">
+                  <button onClick="{{ fo.select }}" style="background: #141418; border: 1px solid {{ fo.border }}; border-radius: 6px; padding: 14px 18px; text-align: left; font-size: 14px; color: {{ fo.color }}; line-height: 22px;">{{ fo.text }}</button>
+                </sc-for>
+              </div>
+              <div style="font-size: 13px; color: #5a5240; margin-bottom: 8px; font-style: italic;">If you'd like, name it — which church or tradition, and what it has been like for you. Your words stay yours.</div>
+              <textarea value="{{ faithText }}" onChange="{{ onFaithText }}" placeholder="e.g. raised Baptist… Catholic, but drifting… Latter-day Saint… never had one…" style="background: #141418; border: 1px solid #2a2820; border-radius: 6px; color: #c8bfa8; font-size: 14px; padding: 12px; min-height: 84px; width: 100%; resize: none; line-height: 22px; margin-bottom: 20px;"></textarea>
+              <button onClick="{{ onFaithEnter }}" style="background: {{ faithEnterBg }}; color: #15110a; font-size: 15px; letter-spacing: 0.5px; font-weight: 600; padding: 13px 36px; border-radius: 26px; border: none;">Enter →</button>
+            </div>
+          </sc-if>
+
+        </div>
+      </sc-if>
+
+      <!-- ── WELCOME BACK ─────────────────────────────── -->
+      <sc-if value="{{ isWelcome }}" hint-placeholder-val="{{ false }}">
+        <div data-screen-label="WelcomeBack" style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0 32px; background: #0a0a0f; animation: mbmFade 0.8s ease;">
+          <div style="width: 60px; height: 1px; background: #2a2820; margin-bottom: 32px;"></div>
+          <div style="font-size: 26px; color: #f0e6c8; text-align: center; line-height: 36px; margin-bottom: 16px;">Welcome back{{ welcomeName }}.</div>
+          <div style="font-size: 14px; color: #9a9080; text-align: center; line-height: 24px; max-width: 280px; margin-bottom: 40px; font-style: italic;">{{ welcomeRecall }}</div>
+          <button onClick="{{ onPickUp }}" style="background: #d4c89a; color: #15110a; font-size: 15px; letter-spacing: 0.5px; font-weight: 600; padding: 13px 36px; border-radius: 26px; border: none;">Pick up where you left off →</button>
+        </div>
+      </sc-if>
+
+      <!-- ── MAIN (tabs) ──────────────────────────────── -->
+      <sc-if value="{{ isMain }}" hint-placeholder-val="{{ false }}">
+        <div style="flex: 1; display: flex; flex-direction: column; min-height: 0; background: #0a0a0f;">
+          <div style="flex: 1; overflow-y: auto; min-height: 0;">
+
+            <!-- FEED -->
+            <sc-if value="{{ tabFeed }}" hint-placeholder-val="{{ true }}">
+              <div data-screen-label="Feed" style="padding: 70px 16px 32px;">
+
+                <!-- Follow-up on a tried exercise — the most personal thing, so it comes first -->
+                <sc-if value="{{ fuVisible }}" hint-placeholder-val="{{ false }}">
+                  <div style="border: 1px solid #3a3526; background: #12100b; border-radius: 6px; padding: 16px; margin-bottom: 16px;">
+                    <div style="font-size: 10px; letter-spacing: 1.5px; color: #8a7d50; margin-bottom: 8px;">YOU TRIED SOMETHING</div>
+                    <div style="font-size: 15px; color: #d0c8b0; line-height: 23px; margin-bottom: 12px;">{{ fuText }}</div>
+                    <textarea value="{{ fuNote }}" onChange="{{ onFuNote }}" placeholder="If you want, say what you noticed — a line is plenty. (optional)" style="width: 100%; border: 1px solid #1e1c18; border-radius: 4px; background: #141418; color: #d0c8b0; font-size: 13px; padding: 8px; min-height: 56px; margin-bottom: 12px; resize: none; line-height: 19px;"></textarea>
+                    <div style="display: flex; flex-direction: column; gap: 4px;">
+                      <button onClick="{{ onFuSomething }}" style="background: none; border: 1px solid #1e1c18; border-radius: 4px; padding: 10px 12px; text-align: left; font-size: 13px; color: #9a9080; line-height: 19px;" style-hover="border-color: #d4c89a; color: #d4c89a;">Something happened that I don't know what to call.</button>
+                      <button onClick="{{ onFuGood }}" style="background: none; border: 1px solid #1e1c18; border-radius: 4px; padding: 10px 12px; text-align: left; font-size: 13px; color: #9a9080; line-height: 19px;" style-hover="border-color: #d4c89a; color: #d4c89a;">It was quieter than I expected — but good.</button>
+                      <button onClick="{{ onFuNothing }}" style="background: none; border: 1px solid #1e1c18; border-radius: 4px; padding: 10px 12px; text-align: left; font-size: 13px; color: #9a9080; line-height: 19px;" style-hover="border-color: #d4c89a; color: #d4c89a;">Honestly? Nothing came back.</button>
+                      <button onClick="{{ onFuNotYet }}" style="background: none; border: 1px dashed #1e1c18; border-radius: 4px; padding: 10px 12px; text-align: left; font-size: 13px; color: #5a5240; font-style: italic;">I didn't get to it yet.</button>
+                    </div>
+                  </div>
+                </sc-if>
+
+                <sc-for list="{{ feedTop }}" as="item" hint-placeholder-count="2">
+                  <div style="background: #111116; border: 1px solid #1e1c18; border-radius: 6px; padding: 16px; margin-bottom: 12px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+                      <span style="font-size: 11px; color: #5a5240; letter-spacing: 1.2px; text-transform: uppercase;">{{ item.scriptureRef }}</span>
+                      <span style="font-size: 11px; color: #5a5240;">{{ item.minText }}</span>
+                    </div>
+                    <div style="font-size: 17px; color: #e8e0c8; margin-bottom: 8px; line-height: 24px;">{{ item.title }}</div>
+                    <div style="font-size: 13px; color: #9a9080; line-height: 21px; margin-bottom: 16px;">{{ item.description }}</div>
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                      <a href="{{ item.url }}" target="_blank" rel="noopener" onClick="{{ item.open }}" style="flex: 1; text-align: left; border-bottom: 1px solid #5a5240; padding: 0 0 3px; color: #d4c89a; font-size: 13px;">Read →</a>
+                      <button onClick="{{ item.heart }}" style="padding: 6px 10px; background: none; border: 1px solid {{ item.heartBorder }}; border-radius: 4px; color: {{ item.heartColor }}; font-size: 14px; line-height: 16px;">♥</button>
+                      <button onClick="{{ item.bm }}" style="padding: 6px 10px; background: none; border: 1px solid {{ item.bmBorder }}; border-radius: 4px; color: {{ item.bmColor }}; font-size: 13px; line-height: 16px;">⚑</button>
+                    </div>
+                    <div style="display: flex; gap: 16px; margin-top: 10px;">
+                      <button onClick="{{ item.reflect }}" style="background: none; border: none; padding: 0; color: #6a9ab0; font-size: 11px; font-style: italic;">Reflect on this →</button>
+                      <button onClick="{{ item.chatAbout }}" style="background: none; border: none; padding: 0; color: #6a9ab0; font-size: 11px; font-style: italic;">Talk about it →</button>
+                    </div>
+                    <sc-if value="{{ item.reflectOpen }}" hint-placeholder-val="{{ false }}">
+                      <div style="margin-top: 10px;">
+                        <textarea value="{{ reflectText }}" onChange="{{ onReflectChange }}" placeholder="What does it stir? A line is plenty." style="width: 100%; border: 1px solid #1e1c18; border-radius: 4px; background: #141418; color: #d0c8b0; font-size: 13px; padding: 8px; min-height: 56px; margin-bottom: 8px; resize: none; line-height: 19px;"></textarea>
+                        <button onClick="{{ item.reflectSave }}" style="background: none; border: 1px solid #d4c89a; border-radius: 4px; padding: 6px 14px; color: #d4c89a; font-size: 12px; float: right;">Keep it →</button>
+                        <div style="clear: both;"></div>
+                      </div>
+                    </sc-if>
+                  </div>
+                </sc-for>
+
+                <sc-if value="{{ hasQuestion }}" hint-placeholder-val="{{ true }}">
+                  <div style="border: 1px solid #2a2820; background: #0d0c0a; border-radius: 6px; padding: 16px; margin-bottom: 16px; min-height: 80px; position: relative;">
+                    <sc-if value="{{ dlgAnswered }}" hint-placeholder-val="{{ false }}">
+                      <div style="display: flex; align-items: center; justify-content: center; min-height: 60px;">
+                        <span style="font-size: 14px; font-style: italic; color: #5a5240; text-align: center;">Thank you for sharing that.</span>
+                      </div>
+                    </sc-if>
+                    <sc-if value="{{ dlgActive }}" hint-placeholder-val="{{ true }}">
+                      <div>
+                        <div style="font-size: 10px; letter-spacing: 1.5px; color: #5a5240; margin-bottom: 8px;">A QUESTION FOR YOU</div>
+                        <div style="font-size: 15px; color: #d0c8b0; line-height: 23px; margin-bottom: 16px;">{{ qText }}</div>
+                        <sc-if value="{{ qIsChoice }}" hint-placeholder-val="{{ false }}">
+                          <div style="display: flex; flex-direction: column; gap: 4px; margin-bottom: 8px;">
+                            <sc-for list="{{ qOptions }}" as="opt" hint-placeholder-count="3">
+                              <button onClick="{{ opt.select }}" style="background: none; border: 1px solid #1e1c18; border-radius: 4px; padding: 10px 12px; text-align: left; font-size: 13px; color: #9a9080; line-height: 19px;" style-hover="border-color: #d4c89a; color: #d4c89a;">{{ opt.text }}</button>
+                            </sc-for>
+                            <sc-if value="{{ dlgOwnVisible }}" hint-placeholder-val="{{ false }}">
+                              <button onClick="{{ onDlgOwnToggle }}" style="background: none; border: 1px dashed #1e1c18; border-radius: 4px; padding: 10px 12px; text-align: left; font-size: 13px; color: #5a5240; font-style: italic;">I want to say it in my own words.</button>
+                            </sc-if>
+                            <sc-if value="{{ dlgOwnOpen }}" hint-placeholder-val="{{ false }}">
+                              <div>
+                                <textarea value="{{ dlgFree }}" onChange="{{ onDlgFreeChange }}" placeholder="Say it however it actually is…" style="width: 100%; border: 1px solid #1e1c18; border-radius: 4px; background: #141418; color: #d0c8b0; font-size: 13px; padding: 8px; min-height: 64px; margin-bottom: 8px; resize: none;"></textarea>
+                                <button onClick="{{ onDlgOwnSubmit }}" style="background: none; border: 1px solid {{ dlgFreeBtnBorder }}; border-radius: 4px; padding: 8px 16px; color: {{ dlgFreeBtnColor }}; font-size: 13px; float: right; margin-bottom: 8px;">Share →</button>
+                                <div style="clear: both;"></div>
+                              </div>
+                            </sc-if>
+                          </div>
+                        </sc-if>
+                        <sc-if value="{{ qIsFree }}" hint-placeholder-val="{{ false }}">
+                          <div>
+                            <textarea value="{{ dlgFree }}" onChange="{{ onDlgFreeChange }}" placeholder="Type your answer…" style="width: 100%; border: 1px solid #1e1c18; border-radius: 4px; background: #141418; color: #d0c8b0; font-size: 13px; padding: 8px; min-height: 72px; margin-bottom: 8px; resize: none;"></textarea>
+                            <button onClick="{{ onDlgFreeSubmit }}" style="background: none; border: 1px solid {{ dlgFreeBtnBorder }}; border-radius: 4px; padding: 8px 16px; color: {{ dlgFreeBtnColor }}; font-size: 13px; float: right; margin-bottom: 8px;">Share →</button>
+                            <div style="clear: both;"></div>
+                          </div>
+                        </sc-if>
+                        <div style="font-size: 11px; font-style: italic; color: #5a5240; line-height: 17px; margin-top: 4px;">{{ qRef }}</div>
+                      </div>
+                    </sc-if>
+                  </div>
+                </sc-if>
+
+                <sc-for list="{{ feedBottom }}" as="item" hint-placeholder-count="3">
+                  <div style="background: #111116; border: 1px solid #1e1c18; border-radius: 6px; padding: 16px; margin-bottom: 12px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+                      <span style="font-size: 11px; color: #5a5240; letter-spacing: 1.2px; text-transform: uppercase;">{{ item.scriptureRef }}</span>
+                      <span style="font-size: 11px; color: #5a5240;">{{ item.minText }}</span>
+                    </div>
+                    <div style="font-size: 17px; color: #e8e0c8; margin-bottom: 8px; line-height: 24px;">{{ item.title }}</div>
+                    <div style="font-size: 13px; color: #9a9080; line-height: 21px; margin-bottom: 16px;">{{ item.description }}</div>
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                      <a href="{{ item.url }}" target="_blank" rel="noopener" onClick="{{ item.open }}" style="flex: 1; text-align: left; border-bottom: 1px solid #5a5240; padding: 0 0 3px; color: #d4c89a; font-size: 13px;">Read →</a>
+                      <button onClick="{{ item.heart }}" style="padding: 6px 10px; background: none; border: 1px solid {{ item.heartBorder }}; border-radius: 4px; color: {{ item.heartColor }}; font-size: 14px; line-height: 16px;">♥</button>
+                      <button onClick="{{ item.bm }}" style="padding: 6px 10px; background: none; border: 1px solid {{ item.bmBorder }}; border-radius: 4px; color: {{ item.bmColor }}; font-size: 13px; line-height: 16px;">⚑</button>
+                    </div>
+                    <div style="display: flex; gap: 16px; margin-top: 10px;">
+                      <button onClick="{{ item.reflect }}" style="background: none; border: none; padding: 0; color: #6a9ab0; font-size: 11px; font-style: italic;">Reflect on this →</button>
+                      <button onClick="{{ item.chatAbout }}" style="background: none; border: none; padding: 0; color: #6a9ab0; font-size: 11px; font-style: italic;">Talk about it →</button>
+                    </div>
+                    <sc-if value="{{ item.reflectOpen }}" hint-placeholder-val="{{ false }}">
+                      <div style="margin-top: 10px;">
+                        <textarea value="{{ reflectText }}" onChange="{{ onReflectChange }}" placeholder="What does it stir? A line is plenty." style="width: 100%; border: 1px solid #1e1c18; border-radius: 4px; background: #141418; color: #d0c8b0; font-size: 13px; padding: 8px; min-height: 56px; margin-bottom: 8px; resize: none; line-height: 19px;"></textarea>
+                        <button onClick="{{ item.reflectSave }}" style="background: none; border: 1px solid #d4c89a; border-radius: 4px; padding: 6px 14px; color: #d4c89a; font-size: 12px; float: right;">Keep it →</button>
+                        <div style="clear: both;"></div>
+                      </div>
+                    </sc-if>
+                  </div>
+                </sc-for>
+
+                <!-- An invitation — something to DO, the way Jesus gave people things to do -->
+                <sc-if value="{{ exVisible }}" hint-placeholder-val="{{ false }}">
+                  <div style="border: 1px solid #3a3526; background: #12100b; border-radius: 6px; padding: 16px; margin-bottom: 16px;">
+                    <div style="font-size: 10px; letter-spacing: 1.5px; color: #8a7d50; margin-bottom: 8px;">AN INVITATION</div>
+                    <div style="font-size: 15px; color: #d0c8b0; line-height: 24px; margin-bottom: 8px;">{{ exText }}</div>
+                    <div style="font-size: 11px; font-style: italic; color: #5a5240; line-height: 17px; margin-bottom: 16px;">{{ exRef }}</div>
+                    <div style="display: flex; align-items: center; gap: 12px;">
+                      <button onClick="{{ onExAccept }}" style="background: #d4c89a; border: none; border-radius: 20px; padding: 10px 24px; color: #15110a; font-size: 13px; font-weight: 600;">I'll try it</button>
+                      <button onClick="{{ onExPass }}" style="background: none; border: none; color: #5a5240; font-size: 12px; font-style: italic; padding: 10px 4px;">Not this time</button>
+                    </div>
+                  </div>
+                </sc-if>
+
+                <!-- Connect card — a real person is ALWAYS one tap away -->
+                <div style="border: 1px solid #2a3a28; background: #0a0f0a; border-radius: 6px; padding: 16px; margin-bottom: 16px;">
+                  <div style="font-size: 16px; color: #c8bfa8; margin-bottom: 8px;">A real person is always here.</div>
+                  <sc-if value="{{ connectSent }}" hint-placeholder-val="{{ false }}">
+                    <div style="font-size: 14px; color: #7ab87a; line-height: 22px; font-style: italic; margin-bottom: 8px;">Thank you for reaching out. A real person will read this and get back to you. You don't have to do anything else — there's no rush, and no pressure.</div>
+                  </sc-if>
+                  <sc-if value="{{ connectClosed }}" hint-placeholder-val="{{ true }}">
+                    <div>
+                      <div style="font-size: 13px; color: #9a9080; line-height: 20px; margin-bottom: 16px;">Anything you want to ask, or just talk through — a real person reads these. No agenda. No pressure. Whenever you're ready.</div>
+                      <button onClick="{{ onConnectOpen }}" style="width: 100%; background: #7ab87a; border: none; border-radius: 4px; padding: 12px 16px; margin-bottom: 8px; color: #0a0f0a; font-size: 14px; font-weight: 600;">Talk to a real person</button>
+                      <div style="font-size: 11px; color: #5a5240; font-style: italic;">Or just keep going — there's no rush.</div>
+                    </div>
+                  </sc-if>
+                  <sc-if value="{{ connectWriting }}" hint-placeholder-val="{{ false }}">
+                    <div>
+                      <textarea value="{{ connectNote }}" onChange="{{ onConnectNoteChange }}" placeholder="Write whatever you'd like to say, or leave it blank — either way, someone will reach out." style="width: 100%; background: #141418; border: 1px solid #2a3a28; border-radius: 6px; color: #c8bfa8; font-size: 14px; padding: 12px; min-height: 96px; line-height: 22px; margin-bottom: 8px; resize: none;"></textarea>
+                      <div style="display: flex; align-items: center; justify-content: space-between;">
+                        <button onClick="{{ onConnectCancel }}" style="background: none; border: none; color: #5a5240; font-size: 13px; padding: 8px 0;">Cancel</button>
+                        <button onClick="{{ onConnectSend }}" style="background: #7ab87a; border: none; border-radius: 4px; padding: 10px 16px; color: #0a0f0a; font-size: 13px; font-weight: 600;">Send to a real person</button>
+                      </div>
+                    </div>
+                  </sc-if>
+                  <sc-if value="{{ missionaryReady }}" hint-placeholder-val="{{ false }}">
+                    <div style="border-top: 1px solid #2a2820; padding-top: 8px; margin-top: 8px;">
+                      <div style="font-size: 12px; color: #9a9080; line-height: 18px; margin-bottom: 8px; font-style: italic;">If you'd like, you can also ask for a visit from people who would be glad to walk this road with you in person. Only if and when you want to.</div>
+                      <a href="https://www.churchofjesuschrist.org/comeuntochrist/requests/missionaries" target="_blank" rel="noopener" style="display: inline-block; border: 1px solid #d4c89a; border-radius: 4px; padding: 8px 12px; color: #d4c89a; font-size: 12px;">Request a visit →</a>
+                    </div>
+                  </sc-if>
+                </div>
+
+                <button onClick="{{ onMoreFeed }}" style="width: 100%; background: none; border: 1px solid #2a2820; border-radius: 4px; padding: 12px; min-height: 48px; color: #5a5240; font-size: 12px; margin-top: 8px;">Show me more →</button>
+              </div>
+            </sc-if>
+
+            <!-- JOURNAL -->
+            <sc-if value="{{ tabJournal }}" hint-placeholder-val="{{ false }}">
+              <div data-screen-label="Journal" style="padding: 70px 16px 32px;">
+                <div style="font-size: 22px; color: #c8bfa8; margin-bottom: 24px;">Journal</div>
+                <div style="border: 1px solid #2a2820; background: #111116; border-radius: 12px; padding: 16px; margin-bottom: 24px; min-height: 220px;">
+                  <div style="font-size: 10px; letter-spacing: 1.5px; color: #5a5240; margin-bottom: 8px;">TODAY'S PROMPT</div>
+                  <sc-if value="{{ journalSaved }}" hint-placeholder-val="{{ false }}">
+                    <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 48px 0;">
+                      <div style="font-size: 18px; color: #d4c89a; font-style: italic;">Written.</div>
+                      <div style="font-size: 13px; color: #9a9080; font-style: italic; text-align: center; line-height: 20px; max-width: 240px;">{{ journalBlessing }}</div>
+                      <button onClick="{{ onWriteAgain }}" style="background: none; border: none; font-size: 13px; color: #5a5240; font-style: italic;">Write again →</button>
+                    </div>
+                  </sc-if>
+                  <sc-if value="{{ journalActive }}" hint-placeholder-val="{{ true }}">
+                    <div>
+                      <div style="font-size: 16px; color: #c8bfa8; line-height: 26px; margin-bottom: 16px;">{{ promptText }}</div>
+                      <textarea value="{{ journalDraft }}" onChange="{{ onJournalDraft }}" placeholder="Write what comes…" style="width: 100%; border: 1px solid #1e1c18; border-radius: 4px; background: #141418; color: #e8e4d8; font-size: 14px; padding: 8px; min-height: 120px; margin-bottom: 8px; resize: none; line-height: 22px;"></textarea>
+                      <button onClick="{{ onJournalSave }}" style="background: none; border: 1px solid {{ journalBtnBorder }}; border-radius: 4px; padding: 8px 16px; color: {{ journalBtnColor }}; font-size: 13px; float: right;">Save →</button>
+                      <div style="clear: both;"></div>
+                    </div>
+                  </sc-if>
+                </div>
+                <sc-if value="{{ hasJournalEntries }}" hint-placeholder-val="{{ false }}">
+                  <div>
+                    <div style="height: 1px; background: #2a2820; margin-bottom: 16px;"></div>
+                    <div style="font-size: 10px; letter-spacing: 1.5px; color: #5a5240; margin-bottom: 16px;">PAST ENTRIES</div>
+                    <sc-for list="{{ journalList }}" as="e" hint-placeholder-count="2">
+                      <div style="border: 1px solid #2a2820; border-radius: 6px; padding: 16px; margin-bottom: 8px;">
+                        <div style="font-size: 10px; color: #5a5240; letter-spacing: 0.8px; margin-bottom: 4px;">{{ e.date }}</div>
+                        <div style="font-size: 12px; font-style: italic; color: #5a5240; line-height: 18px; margin-bottom: 4px;">{{ e.promptText }}</div>
+                        <div style="font-size: 14px; color: #9a9080; line-height: 22px;">{{ e.text }}</div>
+                      </div>
+                    </sc-for>
+                  </div>
+                </sc-if>
+                <sc-if value="{{ noJournalEntries }}" hint-placeholder-val="{{ true }}">
+                  <div style="font-size: 13px; font-style: italic; color: #5a5240; text-align: center; margin-top: 32px;">Your entries will appear here. This is only for you.</div>
+                </sc-if>
+              </div>
+            </sc-if>
+
+            <!-- CHAT -->
+            <sc-if value="{{ tabChat }}" hint-placeholder-val="{{ false }}">
+              <div data-screen-label="Chat" style="display: flex; flex-direction: column; height: 100%; padding-top: 60px;">
+                <div style="padding: 12px 16px 8px; border-bottom: 1px solid #2a2820; display: flex; justify-content: space-between; align-items: center;">
+                  <div style="font-size: 18px; color: #c8bfa8;">Ask anything.</div>
+                  <button onClick="{{ onChatTalkHuman }}" style="background: none; border: 1px solid #7ab87a; border-radius: 4px; padding: 6px 10px; color: #7ab87a; font-size: 11px;">Talk to a real person →</button>
+                </div>
+                <div id="mbm-chat-scroll" style="flex: 1; overflow-y: auto; padding: 16px; min-height: 0;">
+                  <sc-if value="{{ chatEmpty }}" hint-placeholder-val="{{ true }}">
+                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 64px 24px 0; text-align: center;">
+                      <div style="font-size: 18px; color: #c8bfa8; margin-bottom: 16px;">What's on your mind?</div>
+                      <div style="font-size: 14px; color: #9a9080; line-height: 22px; margin-bottom: 24px;">Ask about what you've been reading, a question that won't leave you alone, or anything you're working through.<br /><br />There are no wrong questions here.</div>
+                      <div style="font-size: 12px; font-style: italic; color: #5a5240;">I'll be honest when I'm not sure about something — and I can always submit your question anonymously to a real person who can check it.</div>
+                    </div>
+                  </sc-if>
+                  <sc-for list="{{ chatMsgs }}" as="m" hint-placeholder-count="0">
+                    <div style="{{ m.wrapStyle }}">
+                      <div style="{{ m.bubbleStyle }}">
+                        <div style="{{ m.textStyle }}">{{ m.text }}</div>
+                        <div style="font-size: 10px; color: #5a5240; margin-top: 4px; text-align: right;">{{ m.time }}</div>
+                      </div>
+                    </div>
+                  </sc-for>
+                  <sc-if value="{{ chatLoading }}" hint-placeholder-val="{{ false }}">
+                    <div style="display: flex; justify-content: flex-start; margin-bottom: 8px;">
+                      <div style="background: #111116; border: 1px solid #2a2820; border-radius: 12px; padding: 14px 24px; display: flex; gap: 5px; align-items: center;">
+                        <div style="width: 6px; height: 6px; border-radius: 3px; background: #9a9080; animation: mbmPulse 1.2s ease infinite;"></div>
+                        <div style="width: 6px; height: 6px; border-radius: 3px; background: #9a9080; animation: mbmPulse 1.2s ease 0.2s infinite;"></div>
+                        <div style="width: 6px; height: 6px; border-radius: 3px; background: #9a9080; animation: mbmPulse 1.2s ease 0.4s infinite;"></div>
+                      </div>
+                    </div>
+                  </sc-if>
+                </div>
+                <sc-if value="{{ canFactCheck }}" hint-placeholder-val="{{ false }}">
+                  <button onClick="{{ onFactCheck }}" style="margin: 0 16px 4px; background: none; border: 1px solid #6a9ab0; border-radius: 6px; padding: 8px 12px; text-align: left; font-size: 11px; color: #6a9ab0; font-style: italic; line-height: 16px;">{{ fcText }}</button>
+                </sc-if>
+                <div style="display: flex; align-items: flex-end; padding: 8px 16px 12px; border-top: 1px solid #2a2820; gap: 8px; background: #0a0a0f;">
+                  <textarea value="{{ chatDraft }}" onChange="{{ onChatDraft }}" onKeyDown="{{ onChatKeyDown }}" placeholder="Say something…" rows="{{ 1 }}" style="flex: 1; background: #141418; border: 1px solid #1e1c18; border-radius: 6px; color: #e8e4d8; font-size: 14px; padding: 10px 8px; max-height: 100px; resize: none; line-height: 20px;"></textarea>
+                  <button onClick="{{ onChatSend }}" style="background: #111116; border: 1px solid {{ sendBtnBorder }}; border-radius: 6px; width: 40px; height: 40px; color: #d4c89a; font-size: 18px; flex-shrink: 0;">→</button>
+                </div>
+              </div>
+            </sc-if>
+
+            <!-- PROFILE -->
+            <sc-if value="{{ tabProfile }}" hint-placeholder-val="{{ false }}">
+              <div data-screen-label="Profile" style="padding: 70px 16px 32px;">
+                <div style="font-size: 22px; color: #c8bfa8; margin-bottom: 24px;">Your journey</div>
+                <div style="border: 1px solid #2a2820; background: #111116; border-radius: 12px; padding: 16px; margin-bottom: 16px;">
+                  <div style="font-size: 10px; letter-spacing: 1.5px; color: #5a5240; margin-bottom: 8px;">WHAT WE SENSE ABOUT YOU</div>
+                  <div style="font-size: 15px; color: #9a9080; line-height: 24px; font-style: italic;">{{ interpretation }}</div>
+                </div>
+                <sc-if value="{{ hasFaithWords }}" hint-placeholder-val="{{ false }}">
+                  <div style="border: 1px solid #2a2820; background: #111116; border-radius: 12px; padding: 16px; margin-bottom: 16px;">
+                    <div style="font-size: 10px; letter-spacing: 1.5px; color: #5a5240; margin-bottom: 8px;">YOUR FAITH, AS YOU'VE TOLD IT</div>
+                    <div style="font-size: 14px; color: #c8bfa8; line-height: 22px; margin-bottom: 8px;">{{ faithStatus }}</div>
+                    <sc-for list="{{ faithWordsList }}" as="w" hint-placeholder-count="0">
+                      <div style="border-top: 1px solid #1e1c18; padding: 8px 0;">
+                        <div style="font-size: 13px; color: #9a9080; line-height: 20px; font-style: italic;">"{{ w.text }}"</div>
+                        <div style="font-size: 10px; color: #5a5240; margin-top: 2px;">{{ w.date }}</div>
+                      </div>
+                    </sc-for>
+                  </div>
+                </sc-if>
+
+                <div style="border: 1px solid #2a2820; background: #111116; border-radius: 12px; padding: 16px; margin-bottom: 16px;">
+                  <div style="font-size: 10px; letter-spacing: 1.5px; color: #5a5240; margin-bottom: 4px;">WHAT'S GROWING IN YOU</div>
+                  <div style="font-size: 11px; font-style: italic; color: #5a5240; margin-bottom: 16px;">These are yours — they grow as you engage honestly. There is no score to beat.</div>
+                  <sc-for list="{{ traits }}" as="t" hint-placeholder-count="7">
+                    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px;">
+                      <div style="width: 110px;">
+                        <div style="font-size: 12px; color: #c8bfa8; line-height: 16px;">{{ t.name }}</div>
+                        <div style="font-size: 10px; color: #5a5240; line-height: 14px;">{{ t.desc }}</div>
+                      </div>
+                      <div style="flex: 1; height: 4px; background: #1e1c18; border-radius: 2px; overflow: hidden;">
+                        <div style="{{ t.fillStyle }}"></div>
+                      </div>
+                      <div style="font-size: 11px; color: #5a5240; width: 28px; text-align: right;">{{ t.score }}</div>
+                    </div>
+                  </sc-for>
+                </div>
+
+                <sc-if value="{{ hasMoments }}" hint-placeholder-val="{{ false }}">
+                  <div style="border: 1px solid #2a2820; background: #111116; border-radius: 12px; padding: 16px 16px 4px; margin-bottom: 16px;">
+                    <div style="font-size: 10px; letter-spacing: 1.5px; color: #5a5240; margin-bottom: 4px;">YOUR STORY SO FAR</div>
+                    <div style="font-size: 11px; font-style: italic; color: #5a5240; margin-bottom: 8px;">Every step you've taken here, kept for you. Ask about any of them.</div>
+                    <sc-for list="{{ momentsList }}" as="m" hint-placeholder-count="0">
+                      <div style="border-top: 1px solid #1e1c18; padding: 12px 0;">
+                        <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 4px;">
+                          <div style="font-size: 13px; color: #c8bfa8; line-height: 19px;">{{ m.title }}</div>
+                          <div style="font-size: 10px; color: #5a5240; flex-shrink: 0; padding-top: 3px;">{{ m.date }}</div>
+                        </div>
+                        <div style="font-size: 12px; color: #9a9080; line-height: 18px; font-style: italic; margin-bottom: 6px;">{{ m.detail }}</div>
+                        <button onClick="{{ m.ask }}" style="background: none; border: none; padding: 0; color: #6a9ab0; font-size: 11px; font-style: italic;">Ask about this →</button>
+                      </div>
+                    </sc-for>
+                  </div>
+                </sc-if>
+
+                <div style="display: flex; gap: 8px; margin-bottom: 16px;">
+                  <div style="flex: 1; border: 1px solid #2a2820; background: #111116; border-radius: 6px; padding: 12px 8px; display: flex; flex-direction: column; align-items: center;">
+                    <div style="font-size: 22px; color: #d4c89a; margin-bottom: 2px;">{{ statsOpened }}</div>
+                    <div style="font-size: 10px; color: #5a5240; text-align: center;">Articles opened</div>
+                  </div>
+                  <div style="flex: 1; border: 1px solid #2a2820; background: #111116; border-radius: 6px; padding: 12px 8px; display: flex; flex-direction: column; align-items: center;">
+                    <div style="font-size: 22px; color: #d4c89a; margin-bottom: 2px;">{{ statsAnswered }}</div>
+                    <div style="font-size: 10px; color: #5a5240; text-align: center;">Questions answered</div>
+                  </div>
+                  <div style="flex: 1; border: 1px solid #2a2820; background: #111116; border-radius: 6px; padding: 12px 8px; display: flex; flex-direction: column; align-items: center;">
+                    <div style="font-size: 22px; color: #d4c89a; margin-bottom: 2px;">{{ statsJournal }}</div>
+                    <div style="font-size: 10px; color: #5a5240; text-align: center;">Journal entries</div>
+                  </div>
+                </div>
+                <div style="font-size: 12px; font-style: italic; color: #5a5240; text-align: center; line-height: 18px; padding: 0 16px; margin-top: 16px;">This profile is private and lives only on your device. It exists to serve you, not to route you like a package.</div>
+              </div>
+            </sc-if>
+
+          </div>
+
+          <!-- Tab bar -->
+          <div style="height: 72px; border-top: 1px solid #2a2820; display: flex; align-items: stretch; padding: 6px 0 10px; background: #0a0a0f; flex-shrink: 0; margin-bottom: 16px;">
+            <button onClick="{{ goFeed }}" style="flex: 1; background: none; border: none; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px;">
+              <svg width="22" height="22" viewBox="0 0 22 22"><rect x="3" y="3" width="16" height="16" rx="2" fill="none" stroke="{{ tabFeedColor }}" stroke-width="1.6"></rect><line x1="11" y1="4" x2="11" y2="18" stroke="{{ tabFeedColor }}" stroke-width="1.6"></line></svg>
+            </button>
+            <button onClick="{{ goJournal }}" style="flex: 1; background: none; border: none; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px;">
+              <svg width="22" height="22" viewBox="0 0 22 22"><rect x="4" y="3" width="14" height="16" rx="2" fill="none" stroke="{{ tabJournalColor }}" stroke-width="1.6"></rect><line x1="7" y1="8" x2="15" y2="8" stroke="{{ tabJournalColor }}" stroke-width="1.4"></line><line x1="7" y1="12" x2="15" y2="12" stroke="{{ tabJournalColor }}" stroke-width="1.4"></line></svg>
+            </button>
+            <button onClick="{{ goChat }}" style="flex: 1; background: none; border: none; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px;">
+              <svg width="22" height="22" viewBox="0 0 22 22"><rect x="3" y="4" width="16" height="12" rx="4" fill="none" stroke="{{ tabChatColor }}" stroke-width="1.6"></rect><circle cx="8" cy="10" r="1" fill="{{ tabChatColor }}"></circle><circle cx="11" cy="10" r="1" fill="{{ tabChatColor }}"></circle><circle cx="14" cy="10" r="1" fill="{{ tabChatColor }}"></circle></svg>
+            </button>
+            <button onClick="{{ goProfile }}" style="flex: 1; background: none; border: none; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px;">
+              <svg width="22" height="22" viewBox="0 0 22 22"><circle cx="11" cy="7.5" r="3.5" fill="none" stroke="{{ tabProfileColor }}" stroke-width="1.6"></circle><path d="M4 19c1.2-3.6 3.8-5.4 7-5.4s5.8 1.8 7 5.4" fill="none" stroke="{{ tabProfileColor }}" stroke-width="1.6"></path></svg>
+            </button>
+          </div>
+        </div>
+      </sc-if>
+
+      <!-- ── Moment of blessing (toast) ───────────────── -->
+      <sc-if value="{{ toastVisible }}" hint-placeholder-val="{{ false }}">
+        <div style="position: absolute; left: 24px; right: 24px; bottom: 110px; display: flex; justify-content: center; pointer-events: none; z-index: 80;">
+          <div style="background: rgba(22,20,14,0.94); border: 1px solid #3a3526; border-radius: 20px; padding: 10px 18px; font-size: 13px; font-style: italic; color: #e8dfc0; line-height: 19px; text-align: center; max-width: 280px; animation: mbmToast 3.4s ease forwards; box-shadow: 0 4px 16px rgba(0,0,0,0.5);">{{ toastText }}</div>
+        </div>
+      </sc-if>
+    </div>
+  </x-import>
+
+  <!-- ═══════════════════ OWNER PANEL ═══════════════════ -->
+  <div style="width: 320px; display: flex; flex-direction: column; gap: 16px; padding-top: 8px;">
+    <div>
+      <div style="font-size: 20px; color: #e8e4d8; letter-spacing: 1px; margin-bottom: 6px;">Milk Before Meat</div>
+      <div style="font-size: 13px; color: #6a6354; line-height: 20px;">Interactive prototype built from <span style="font-family: monospace; font-size: 12px; color: #8a8270;">mobile/src</span> — the same routing law, dialogue engine, and minister voice as the app. The chat is live — and the engine now learns from <em>everything</em>: story choice, dialogue answers, journal words, hearts, opens, and the chat itself. Watch the gate below open mid-conversation.</div>
+    </div>
+
+    <div style="background: #0d0d12; border: 1px solid #1e1c18; border-radius: 8px; padding: 16px;">
+      <div style="font-size: 10px; letter-spacing: 1.5px; color: #5a5240; margin-bottom: 12px;">INVISIBLE STATE — OWNER VIEW ONLY</div>
+      <div style="display: flex; flex-direction: column; gap: 8px;">
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+          <span style="font-size: 12px; color: #6a6354;">Journey stage</span>
+          <span style="font-family: monospace; font-size: 11px; color: #c8bfa8;">{{ ownerJourney }}</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+          <span style="font-size: 12px; color: #6a6354;">Content track</span>
+          <span style="font-family: monospace; font-size: 11px; color: #c8bfa8;">{{ ownerTag }}</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+          <span style="font-size: 12px; color: #6a6354;">Milk gate (may reference LDS)</span>
+          <span style="font-family: monospace; font-size: 11px; color: {{ ownerGateColor }};">{{ ownerGate }}</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+          <span style="font-size: 12px; color: #6a6354;">Spiritual exercise</span>
+          <span style="font-family: monospace; font-size: 11px; color: #c8bfa8;">{{ ownerExercise }}</span>
+        </div>
+      </div>
+      <div style="height: 1px; background: #1e1c18; margin: 12px 0;"></div>
+      <div style="font-size: 10px; letter-spacing: 1.5px; color: #5a5240; margin-bottom: 8px;">SIGNALS REVEALED</div>
+      <sc-if value="{{ hasSignals }}" hint-placeholder-val="{{ false }}">
+        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+          <sc-for list="{{ ownerSignals }}" as="s" hint-placeholder-count="0">
+            <span style="font-family: monospace; font-size: 10px; color: #9a9080; background: #15151a; border: 1px solid #1e1c18; border-radius: 4px; padding: 3px 7px;">{{ s.name }}</span>
+          </sc-for>
+        </div>
+      </sc-if>
+      <sc-if value="{{ noSignals }}" hint-placeholder-val="{{ true }}">
+        <div style="font-size: 11px; color: #4a4438; font-style: italic;">None yet — nothing has been revealed.</div>
+      </sc-if>
+      <div style="font-size: 10px; color: #4a4438; font-style: italic; line-height: 15px; margin-top: 12px;">The person never sees any of this. It is shown here so you can watch the milk-before-meat law work.</div>
+    </div>
+
+    <div style="background: #0d0d12; border: 1px solid #1e2a1c; border-radius: 8px; padding: 16px;">
+      <div style="font-size: 10px; letter-spacing: 1.5px; color: #5a5240; margin-bottom: 12px;">CONNECT QUEUE — ON-DEVICE ({{ queueCount }})</div>
+      <sc-if value="{{ hasQueue }}" hint-placeholder-val="{{ false }}">
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+          <sc-for list="{{ queueItems }}" as="r" hint-placeholder-count="0">
+            <div style="background: #10140f; border: 1px solid #1e2a1c; border-radius: 6px; padding: 10px;">
+              <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
+                <span style="font-family: monospace; font-size: 10px; color: #7ab87a;">{{ r.stage }}</span>
+                <span style="font-size: 10px; color: #4a4438;">{{ r.time }}</span>
+              </div>
+              <div style="font-size: 12px; color: #9a9080; line-height: 18px; font-style: italic;">{{ r.note }}</div>
+            </div>
+          </sc-for>
+        </div>
+      </sc-if>
+      <sc-if value="{{ noQueue }}" hint-placeholder-val="{{ true }}">
+        <div style="font-size: 11px; color: #4a4438; font-style: italic;">Empty. Requests from "Talk to a real person" land here — this is the queue the delivery channel (Step 5) will read from.</div>
+      </sc-if>
+    </div>
+
+    <button onClick="{{ onResetPrototype }}" style="align-self: flex-start; background: none; border: 1px solid #2a2820; border-radius: 6px; padding: 8px 16px; color: #6a6354; font-size: 12px; font-family: Georgia, serif;">Reset prototype</button>
+  </div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = {
+    ready: false,
+    screen: 'hook',          // hook | onboard | welcome | main | timecap
+    tab: 'feed',
+    name: '', nameDraft: '',
+    // onboarding
+    phase: 'story', storyIdx: 0, selectedKey: null, showFree: false, freeText: '', reflection: '',
+    faithChoice: null, faithText: '',
+    // store (port of useAppStore)
+    feedTag: 'MILK', feed: [], seenIds: [], openedIds: [], likedIds: [], bmIds: [],
+    dialogueSignals: [], answeredQuestionIds: [],
+    traitScores: { honest_inquiry: 5, openness: 5, humility: 5, hunger: 5, compassion: 5, courage: 5, sincerity: 5 },
+    currentQuestion: null, dlgAnswered: false, dlgFree: '', dlgOwnWords: false, fuNote: '',
+    faithWords: [], cardReflectId: null, reflectText: '',
+    journalEntries: [], answeredPromptIds: [], journalDraft: '', journalSaved: false,
+    chatMessages: [], chatLoading: false, chatDraft: '', fcState: 'idle',
+    connectMode: 'closed', connectNote: '', connectRequests: [],
+    moments: [], toast: null, journalBlessing: '',
+    activeExercise: null, doneExerciseIds: [], session: 1,
+  };
+
+  // ── Spiritual exercise loop: invite → try → report → learn ────────────────
+
+  acceptExercise(ex) {
+    this.save({
+      activeExercise: { id: ex.id, acceptedSession: this.state.session },
+      moments: this.withMoment('exercise', 'An invitation you accepted', '\u201c' + ex.text.slice(0, 80) + '\u2026\u201d'),
+    });
+    this.bless([
+      'That is the kind of step most people never take.',
+      'Quietly trying is its own kind of faith.',
+      'No one is watching. That is what makes it real.',
+    ]);
+  }
+
+  passExercise(ex) {
+    // Left free, no guilt — just don't offer the same one again soon.
+    this.save({ doneExerciseIds: [...this.state.doneExerciseIds, ex.id] });
+  }
+
+  answerFollowUp(value) {
+    const D = this.D;
+    const s = this.state;
+    const ex = s.activeExercise ? D.EXERCISES.find((e) => e.id === s.activeExercise.id) : null;
+    if (!ex) return;
+    const note = (s.fuNote || '').trim();
+    if (value === 'not_yet') {
+      this.save({ activeExercise: { id: ex.id, acceptedSession: s.session }, fuNote: '', traitScores: this.nudgedTraits({ sincerity: 0.05 }) });
+      this.bless(['No rush. It will keep.']);
+      return;
+    }
+    const OUTCOME = {
+      something: { signals: ['had_spiritual_experience', 'open_to_god'], traits: { openness: 0.35, hunger: 0.3, sincerity: 0.2 }, detail: 'Something came back you could not quite name.' },
+      good: { signals: ['open_to_god'], traits: { sincerity: 0.25, openness: 0.2 }, detail: 'Quieter than expected \u2014 but good.' },
+      nothing: { signals: [], traits: { honest_inquiry: 0.3, courage: 0.2 }, detail: 'Nothing came back \u2014 and you said so honestly.' },
+    };
+    const o = OUTCOME[value] || OUTCOME.nothing;
+    // Their own words about what came back are the richest signal of all.
+    const detail = note ? '\u201c' + note.slice(0, 90) + (note.length > 90 ? '\u2026' : '') + '\u201d' : o.detail;
+    this.save({
+      activeExercise: null,
+      doneExerciseIds: [...s.doneExerciseIds, ex.id],
+      fuNote: '',
+      traitScores: this.nudgedTraits(note ? { ...o.traits, sincerity: (o.traits.sincerity || 0) + 0.1 } : o.traits),
+      moments: this.withMoment('exercise', 'You tried it: ' + ex.ref.split(' \u2014')[0], detail),
+    }, () => this.mergeSignals([...o.signals, ...this.harvestSignals(note)]));
+    this.bless(value === 'nothing'
+      ? ['Honest nothing is worth more than a performed something.', 'Thank you for telling the truth about it.']
+      : ['Pay attention to that. It usually is not nothing.', 'Worth keeping. Worth following.']);
+  }
+
+  PERSIST_KEY = 'mbm-prototype-v1';
+
+  // Blessing pools — encouragement in WORDS, never numbers. The way Jesus
+  // affirmed people: specific, warm, right after the reach.
+  BLESS = {
+    dialogue: [
+      'Thank you for letting yourself be asked.',
+      'Most people never answer that honestly. You just did.',
+      'Your courage is showing.',
+      'Noticing that about yourself is its own kind of light.',
+    ],
+    heart: [
+      'What moves you says something good about you.',
+      'Kept. What resonates with you is worth following.',
+      'Good eye. That one matters.',
+    ],
+  };
+
+  JOURNAL_BLESS = [
+    'Some things only become clear once they are said. You just said one.',
+    'You said the true thing. That takes more courage than it looks.',
+    'That is yours now \u2014 named, and a little lighter for it.',
+  ];
+
+  STORY_TITLES = {
+    cloak: 'the woman who reached for his cloak',
+    prodigal: 'the prodigal son',
+    zacchaeus: 'Zacchaeus in the tree',
+    nicodemus: 'Nicodemus, who came at night',
+    bent_woman: 'the woman who stood up straight',
+    two_sons: 'the two sons',
+    peter_water: 'Peter on the water',
+    lost_coin: 'the lost coin',
+    rich_ruler: 'the rich young ruler',
+  };
+
+  withMoment(kind, title, detail) {
+    const m = {
+      id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
+      kind, title, detail, timestamp: Date.now(),
+    };
+    return [m, ...this.state.moments].slice(0, 100);
+  }
+
+  bless(pool) {
+    const text = pool[Math.floor(Math.random() * pool.length)];
+    if (this._toastTimer) clearTimeout(this._toastTimer);
+    this.setState({ toast: text });
+    this._toastTimer = setTimeout(() => this.setState({ toast: null }), 3500);
+  }
+
+  componentDidMount() {
+    import(new URL('./mbm-data.js', document.baseURI).href).then((D) => {
+      this.D = D;
+      let restored = {};
+      try {
+        const raw = localStorage.getItem(this.PERSIST_KEY);
+        if (raw) restored = JSON.parse(raw) || {};
+      } catch (e) { /* fresh start */ }
+      if (restored.storyIdx === undefined) {
+        restored.storyIdx = Math.floor(Math.random() * D.STORIES.length);
+      }
+      // Safety migration: re-derive the track from signals on every load.
+      // ONE CLICK IS NEVER IDENTITY — if a stale state holds MAINTENANCE or
+      // RESTORATION without the signals to justify it, quietly route back down.
+      if (restored.dialogueSignals && restored.feedTag) {
+        const routed = D.routeFeedTag(restored.dialogueSignals);
+        if ((restored.feedTag === 'MAINTENANCE' || restored.feedTag === 'RESTORATION') && routed !== restored.feedTag) {
+          restored.feedTag = routed;
+          restored.feed = D.buildFeed(routed, new Set(restored.seenIds || []));
+        }
+      }
+      // Returning users are KNOWN: if they had entered the app before, greet
+      // them by name and recall their last words instead of a cold restart.
+      const cameBack = restored.screen === 'main' || restored.screen === 'timecap';
+      this.setState({
+        ...restored,
+        screen: cameBack ? 'welcome' : (restored.screen || 'hook'),
+        ready: true, chatLoading: false, fcState: 'idle',
+        session: (restored.session || 0) + 1,
+      });
+    }).catch((e) => {
+      console.error('MBM data module failed to load', e);
+    });
+  }
+
+  // Persist meaningful state after every change (mirror of zustand persist).
+  save(partial, cb) {
+    this.setState(partial, () => {
+      const s = this.state;
+      const persisted = {
+        screen: s.screen === 'welcome' ? 'main' : s.screen,
+        tab: s.tab, phase: s.phase, storyIdx: s.storyIdx, name: s.name,
+        selectedKey: s.selectedKey, freeText: s.freeText, reflection: s.reflection, showFree: s.showFree,
+        feedTag: s.feedTag, feed: s.feed, seenIds: s.seenIds, openedIds: s.openedIds,
+        likedIds: s.likedIds, bmIds: s.bmIds,
+        dialogueSignals: s.dialogueSignals, answeredQuestionIds: s.answeredQuestionIds,
+        traitScores: s.traitScores, currentQuestion: s.currentQuestion,
+        journalEntries: s.journalEntries, answeredPromptIds: s.answeredPromptIds,
+        chatMessages: s.chatMessages, connectRequests: s.connectRequests,
+        moments: s.moments,
+        activeExercise: s.activeExercise, doneExerciseIds: s.doneExerciseIds, session: s.session,
+        faithWords: s.faithWords,
+      };
+      try { localStorage.setItem(this.PERSIST_KEY, JSON.stringify(persisted)); } catch (e) {}
+      if (cb) cb();
+    });
+  }
+
+  // ── Onboarding (OnboardScreen port) ───────────────────────────────────────
+
+  selectChoice(key) {
+    const story = this.D.STORIES[this.state.storyIdx];
+    const choice = story.choices.find((c) => c.key === key);
+    if (!choice) return;
+    this.save({ selectedKey: key, reflection: choice.reflection });
+    setTimeout(() => this.save({ phase: 'reflection' }), 220);
+  }
+
+  submitFree() {
+    const t = this.state.freeText.trim();
+    if (t.length < 3) return;
+    const story = this.D.STORIES[this.state.storyIdx];
+    const preview = t.slice(0, 100) + (t.length > 100 ? '\u2026' : '');
+    this.save({
+      selectedKey: 'E',
+      reflection: story.otherReflection + '"' + preview + '" \u2014 that is worth sitting with. You are in the right place.',
+    });
+    setTimeout(() => this.save({ phase: 'reflection' }), 220);
+  }
+
+  enterApp() {
+    const D = this.D;
+    const story = D.STORIES[this.state.storyIdx];
+    let seedSignals = [];
+    let tag;
+    let momentDetail;
+    if (this.state.selectedKey === 'E') {
+      tag = D.inferTagFromText(this.state.freeText || '');
+      const ft = (this.state.freeText || '').trim();
+      momentDetail = '\u201c' + ft.slice(0, 70) + (ft.length > 70 ? '\u2026' : '') + '\u201d';
+    } else {
+      const choice = story.choices.find((c) => c.key === this.state.selectedKey) || story.choices[0];
+      seedSignals = [choice.signal];
+      tag = D.routeFeedTag(seedSignals); // routeFeedTag is the source of truth — RESTORATION can never surface from onboarding alone
+      momentDetail = '\u201c' + choice.text + '\u201d';
+    }
+    const beginning = {
+      id: Date.now().toString(36), kind: 'beginning',
+      title: 'Where you began: ' + (this.STORY_TITLES[story.id] || 'a story'),
+      detail: momentDetail, timestamp: Date.now(),
+    };
+
+    // ── Faith background page (dedicated onboarding step, owner direction) ──
+    // Their answer seeds signals BEFORE first routing, is kept verbatim in the
+    // faith record, and counts as the faith-tradition question answered.
+    const FAITH_META = {
+      active: { signals: ['active_faith_tradition'], label: "I'm part of a church or faith community now." },
+      stepped_away: { signals: ['has_history_with_faith'], label: 'I grew up in one, but I have stepped away.' },
+      none: { signals: [], label: "I've never really had one." },
+      complicated: { signals: [], label: "It's complicated." },
+      private: { signals: [], label: '' },
+    };
+    const fc = FAITH_META[this.state.faithChoice] || FAITH_META.private;
+    const ft = (this.state.faithText || '').trim();
+    // Own words can carry anything — including legitimate member self-ID.
+    const faithSignals = [...fc.signals, ...(ft ? this.harvestSignals(ft) : [])];
+    seedSignals = [...new Set([...seedSignals, ...faithSignals])];
+    const finalTag = seedSignals.length > 0 ? D.routeFeedTag(seedSignals) : tag;
+    const initialFaithWords = [];
+    if (fc.label && this.state.faithChoice !== 'private') initialFaithWords.push({ text: fc.label, ts: Date.now() });
+    if (ft) initialFaithWords.push({ text: ft, ts: Date.now() });
+    const answeredSeed = this.state.faithChoice && this.state.faithChoice !== 'private' ? [2.5] : [];
+    const initialMoments = initialFaithWords.length > 0
+      ? [{ id: Date.now().toString(36) + 'f', kind: 'faith', title: 'Your faith, as you told it', detail: '\u201c' + (ft || fc.label).slice(0, 90) + '\u201d', timestamp: Date.now() }, beginning]
+      : [beginning];
+    const feed = D.buildFeed(finalTag, new Set());
+    const currentQuestion = D.computeNextQuestion(answeredSeed, seedSignals, 0);
+    this.save({
+      screen: 'main', tab: 'feed', name: this.state.nameDraft.trim().slice(0, 40), feedTag: finalTag, feed,
+      seenIds: feed.map((c) => c.id), openedIds: [], likedIds: [], bmIds: [],
+      dialogueSignals: seedSignals, answeredQuestionIds: answeredSeed,
+      traitScores: { ...D.DEFAULT_TRAITS }, currentQuestion, dlgAnswered: false,
+      journalEntries: [], answeredPromptIds: [], chatMessages: [],
+      moments: initialMoments,
+      activeExercise: null, doneExerciseIds: [],
+      faithWords: initialFaithWords, cardReflectId: null, reflectText: '',
+      faithChoice: null, faithText: '',
+    });
+  }
+
+  // ── Feed actions (useAppStore port) ────────────────────────────────────────
+
+  openItem(item) {
+    // The link itself is a real <a href target=_blank>; this just records the open.
+    const D = this.D;
+    const s = this.state;
+    const openedIds = s.openedIds.includes(item.id) ? s.openedIds : [...s.openedIds, item.id];
+    const seenIds = s.seenIds.includes(item.id) ? s.seenIds : [...s.seenIds, item.id];
+    const openCount = openedIds.length;
+    // No screen-time cap (owner decision 2026-06-11): the app is meant to
+    // replace other apps. Depth and return are the metrics, never a limit.
+    const currentQuestion = D.computeNextQuestion(s.answeredQuestionIds, s.dialogueSignals, openCount);
+    const feed = D.buildFeed(s.feedTag, new Set(seenIds));
+    this.save({
+      openedIds, seenIds, feed, currentQuestion,
+      traitScores: this.nudgedTraits({ hunger: 0.08, openness: 0.05 }),
+      dlgAnswered: false,
+    });
+  }
+
+  thumbsUp(id) {
+    const D = this.D;
+    const s = this.state;
+    if (s.likedIds.includes(id)) return;
+    const routed = D.routeFeedTag(s.dialogueSignals);
+    const newTag = routed === 'MILK' ? s.feedTag : routed;
+    // Resonance teaches the engine: what a person loves says what they reach for.
+    const TAG_NUDGE = {
+      MILK: { openness: 0.1, compassion: 0.05 },
+      BRIDGE: { honest_inquiry: 0.15, courage: 0.05 },
+      RESTORATION: { hunger: 0.15, openness: 0.1 },
+      MAINTENANCE: { sincerity: 0.1, hunger: 0.05 },
+    };
+    const item = D.CONTENT.find((c) => c.id === id);
+    this.save({
+      likedIds: [...s.likedIds, id], feedTag: newTag,
+      traitScores: this.nudgedTraits(item ? TAG_NUDGE[item.tag] : {}),
+      moments: this.withMoment('heart', '\u2665 ' + (item ? item.title : 'Something resonated'), 'This one stayed with you.'),
+    });
+    this.bless(this.BLESS.heart);
+  }
+
+  bookmarkItem(id) {
+    const s = this.state;
+    if (s.bmIds.includes(id)) return;
+    this.save({ bmIds: [...s.bmIds, id] });
+    this.thumbsUp(id);
+  }
+
+  // "Show me more" refreshes the feed WITHIN the current track only. It never
+  // touches routing — the track is decided by what the person reveals
+  // (signals), never by a button everyone would eventually press.
+  refreshFeed() {
+    const D = this.D;
+    const feed = D.buildFeed(this.state.feedTag, new Set(this.state.seenIds));
+    this.save({ feed, seenIds: [...new Set([...this.state.seenIds, ...feed.map((c) => c.id)])] });
+  }
+
+  // ── Whole-app learning: EVERY action feeds the knowing engine ─────────────
+  // The chat is an ear, not just a mouth. Opens, hearts, journal words, and
+  // chat messages all harvest signals + traits, so the milk gate can open
+  // mid-conversation and routing follows — invisibly, as the law requires.
+
+  nudgedTraits(deltas) {
+    const D = this.D;
+    const t = { ...this.state.traitScores };
+    for (const [k, d] of Object.entries(deltas || {})) {
+      const cur = t[k] !== undefined ? t[k] : 5.0;
+      t[k] = Math.round(Math.max(D.TRAIT_MIN, Math.min(D.TRAIT_MAX, cur + d)) * 1000) / 1000;
+    }
+    return t;
+  }
+
+  // Conservative keyword harvest from a person's own words (chat + journal).
+  // The model's signal report does the nuanced reading; this is the fast,
+  // free backstop so the engine hears even when the report is missing.
+  harvestSignals(text) {
+    const lower = (text || '').toLowerCase();
+    const found = [];
+    // Per-sentence: at the breakthrough moment people say both things at once —
+    // "a god who does that is not good. God is good though — the real one."
+    // The rejection must never silence the affirmation (sim finding #1).
+    const NEG = /\b(not|isn't|isnt|never|no)\s+good\b/;
+    if (lower.split(/[.!?\n]+/).some((sn) =>
+      /\bgod is good\b|\bhe sounds good\b|\bhe is good\b|\bgood god\b|\bknow that he was good\b/.test(sn) && !NEG.test(sn)
+    )) found.push('believes_god_good');
+    if (/\bi want to believe\b|\bwant to know (him|god)\b|\bsee if there is a god that is good\b|\bwould love to know\b|\bshow me who (he|god) is\b/.test(lower)) found.push('open_to_god');
+    // Per-sentence with negation guard: "I DON'T think God still speaks" must
+    // never be heard as openness (sim finding #2 — devout Baptist misroute).
+    if (lower.split(/[.!?\n]+/).some((sn) =>
+      (/\bstill speaks?\b|\bspeak today\b|\bis there more\b|\bmore than (the bible|i was (told|taught|handed))\b|\bwhat (do|does) (you|the people|they) (actually )?believe\b|\bwhy would (he|god) (ever )?(have )?stop\b/.test(sn)) &&
+      !/\b(don'?t|doesn'?t|never|stopped|no longer|won'?t|isn'?t|not)\b/.test(sn)
+    )) found.push('open_to_restoration');
+    // Non-theistic framework: warm feelings toward "the universe" are not yet
+    // belief in a good personal God (sim finding #3 — Buddhist misroute).
+    if (/\b(don'?t|do not) think of god as a person\b|\bgod (is|'s) not a person\b|\bno personal god\b|\bgod is (the universe|energy|everything|a force)\b/.test(lower)) found.push('nontheistic_framework');
+    if (/\bbook of mormon\b/.test(lower)) found.push('curious_about_book_of_mormon');
+    if (/\bdrawn to jesus\b|\bjesus sounds\b|\bi like jesus\b/.test(lower)) found.push('drawn_to_jesus');
+    if (/\bget baptized\b|\bjoin the church\b|\bbecome a member\b/.test(lower)) found.push('wants_to_join');
+    if (/\bgrie(f|ving)\b|\blost (my|someone)\b|\bpassed away\b/.test(lower)) found.push('carries_grief');
+    if (/\bso lonely\b|\bi('m| am) (so )?alone\b/.test(lower)) found.push('lonely');
+    // Theological framework markers — the framework, not the affirmation, is
+    // the live picture of God (internal discernment, never spoken):
+    if (/\bcalvinis|\breformed\b|\bpredestin|\bthe elect\b|\btotal depravity\b|\bsovereign grace\b|\bunconditional election\b/.test(lower)) found.push('reformed_framework');
+    if (/\ba god who (does|would do|did) that is not good\b|\bthat('s| is) not the god i\b|\bgod (is not|isn't|wouldn't be|would never be) like that\b|\bi (can('t|not)|don('t|not)) believe in a god who\b/.test(lower)) found.push('rejects_harsh_god');
+    // A named Christian tradition = a believer in Jesus (milk that fits them):
+    if (/\b(baptist|catholic|methodist|presbyterian|pentecostal|evangelical|lutheran|orthodox|non.?denominational|christian church)\b/.test(lower)) found.push('believes_in_jesus');
+    // Membership only ever comes from the person's OWN self-identification:
+    if (/\b(i'?m|i am) (a |an )?(latter.day saint|lds|mormon|member of the church of jesus christ)\b|\bmy ward\b|\brelief society\b|\bserved a mission\b|\btemple recommend\b/.test(lower)) found.push('active_member');
+    if (/\b(grew up|raised) (lds|mormon)\b|\bless.active\b|\binactive member\b/.test(lower)) found.push('inactive_member');
+    return found;
+  }
+
+  // Merge newly revealed signals into the engine and let routing follow.
+  // If the milk gate opens or the track honestly advances, the feed reroutes —
+  // silently. The person never sees a tier change; their next feed just fits.
+  mergeSignals(newSignals) {
+    if (!newSignals || newSignals.length === 0) return;
+    const D = this.D;
+    const s = this.state;
+    const merged = Array.from(new Set([...s.dialogueSignals, ...newSignals]));
+    if (merged.length === s.dialogueSignals.length) return;
+    const routed = D.routeFeedTag(merged);
+    const advance =
+      (routed === 'RESTORATION' && s.feedTag !== 'RESTORATION') ||
+      (routed === 'MAINTENANCE' && s.feedTag !== 'MAINTENANCE') ||
+      (routed === 'BRIDGE' && s.feedTag === 'MILK');
+    const feedTag = advance ? routed : s.feedTag;
+    const feed = advance ? D.buildFeed(feedTag, new Set(s.seenIds)) : s.feed;
+    const seenIds = advance ? [...new Set([...s.seenIds, ...feed.map((c) => c.id)])] : s.seenIds;
+    const currentQuestion = s.currentQuestion
+      ? s.currentQuestion
+      : D.computeNextQuestion(s.answeredQuestionIds, merged, s.openedIds.length);
+    this.save({ dialogueSignals: merged, feedTag, feed, seenIds, currentQuestion });
+  }
+
+  // ── Dialogue engine (answerQuestion port) ─────────────────────────────────
+
+  answerQuestion(answerValue, answerText) {
+    const D = this.D;
+    const s = this.state;
+    const question = s.currentQuestion;
+    if (!question || s.dlgAnswered) return;
+
+    const newTraits = { ...s.traitScores };
+    const newSignals = new Set(s.dialogueSignals);
+    let deltas = {};
+    let momentDetail = 'You answered.';
+
+    if ((question.answerType === 'CHOICE' || question.answerType === 'YES_NO') && answerValue !== '__own') {
+      const opt = question.answerOptions.find((o) => o.value === answerValue);
+      if (opt) {
+        deltas = opt.traitSignals || {};
+        (opt.signals || []).forEach((sig) => newSignals.add(sig));
+        momentDetail = '\u201c' + opt.text + '\u201d';
+      }
+    } else {
+      // Free-text answer — including "in my own words" on any choice question.
+      // Own words carry the most signal; saying it yourself takes sincerity.
+      const base = Object.keys(question.traitSignals || {}).length > 0
+        ? question.traitSignals
+        : { sincerity: 0.25, courage: 0.15 };
+      for (const [k, v] of Object.entries(base)) {
+        deltas[k] = Math.round((v || 0) * 0.7 * 1000) / 1000;
+      }
+      if (answerText && answerText.length > 120) {
+        deltas.sincerity = Math.round(((deltas.sincerity || 0) + 0.15) * 1000) / 1000;
+      }
+    }
+
+    for (const [k, delta] of Object.entries(deltas)) {
+      const current = newTraits[k] !== undefined ? newTraits[k] : 5.0;
+      newTraits[k] = Math.round(Math.max(D.TRAIT_MIN, Math.min(D.TRAIT_MAX, current + (delta || 0))) * 1000) / 1000;
+    }
+
+    const newAnsweredIds = [...s.answeredQuestionIds, question.id];
+    const newSignalsArr = Array.from(newSignals);
+    const currentQuestion = D.computeNextQuestion(newAnsweredIds, newSignalsArr, s.openedIds.length);
+
+    if (question.answerType === 'FREE_TEXT' && answerText) {
+      momentDetail = '\u201c' + answerText.slice(0, 70) + (answerText.length > 70 ? '\u2026' : '') + '\u201d';
+    }
+    // Faith-background answers are kept verbatim — the person's own account of
+    // where their faith lives, mirrored back to them on the Profile.
+    const FAITH_TOPICS = ['faith_tradition', 'faith_home', 'faith_home_named', 'faith_history_named'];
+    const faithWords = FAITH_TOPICS.includes(question.topic)
+      ? [...s.faithWords, { text: (answerText || momentDetail.replace(/[\u201c\u201d]/g, '')), ts: Date.now() }]
+      : s.faithWords;
+    this.save({
+      answeredQuestionIds: newAnsweredIds,
+      dialogueSignals: newSignalsArr,
+      traitScores: newTraits,
+      currentQuestion,
+      dlgAnswered: true,
+      dlgFree: '',
+      dlgOwnWords: false,
+      faithWords,
+      moments: this.withMoment('dialogue', question.questionText.slice(0, 64) + (question.questionText.length > 64 ? '\u2026' : ''), momentDetail),
+    }, () => {
+      // Every free-text answer feeds the ear — the app learns from everything.
+      if (answerText) this.mergeSignals(this.harvestSignals(answerText));
+    });
+    this.bless(this.BLESS.dialogue);
+    setTimeout(() => this.save({ dlgAnswered: false }), 1700);
+  }
+
+  // ── Scripture reflection: every feed card can be kept, pondered, talked over ─
+
+  saveCardReflection(item) {
+    const t = (this.state.reflectText || '').trim();
+    if (!t) return;
+    const entry = {
+      id: Date.now().toString(),
+      promptId: 'content_' + item.id,
+      promptText: 'Reflecting on \u201c' + item.title + '\u201d (' + item.scriptureRef + ')',
+      text: t,
+      timestamp: Date.now(),
+    };
+    this.save({
+      journalEntries: [entry, ...this.state.journalEntries],
+      traitScores: this.nudgedTraits({ sincerity: 0.2, hunger: 0.1 }),
+      moments: this.withMoment('reflection', 'You sat with \u201c' + item.title + '\u201d', '\u201c' + t.slice(0, 80) + (t.length > 80 ? '\u2026' : '') + '\u201d'),
+      cardReflectId: null, reflectText: '',
+    }, () => this.mergeSignals(this.harvestSignals(t)));
+    this.bless(['Kept \u2014 in your journal now.', 'Sitting with a thing is how it takes root.']);
+  }
+
+  chatAboutItem(item) {
+    this.save({
+      tab: 'chat',
+      chatDraft: 'I just read \u201c' + item.title + '\u201d (' + item.scriptureRef + '). Can we talk about it?',
+    }, () => this.scrollChat());
+  }
+
+  // ── Journal ───────────────────────────────────────────────────────────────
+
+  saveJournal() {
+    const t = this.state.journalDraft.trim();
+    if (!t) return;
+    const D = this.D;
+    const prompt = D.getCurrentPrompt(this.state.feedTag, this.state.dialogueSignals, this.state.answeredPromptIds);
+    const entry = { id: Date.now().toString(), promptId: prompt.id, promptText: prompt.text, text: t, timestamp: Date.now() };
+    this.save({
+      journalEntries: [entry, ...this.state.journalEntries],
+      answeredPromptIds: [...this.state.answeredPromptIds, prompt.id],
+      traitScores: this.nudgedTraits({ sincerity: 0.2, courage: t.length > 200 ? 0.2 : 0.1 }),
+      journalDraft: '', journalSaved: true,
+      journalBlessing: this.JOURNAL_BLESS[Math.floor(Math.random() * this.JOURNAL_BLESS.length)],
+      moments: this.withMoment('journal', prompt.text.slice(0, 64) + (prompt.text.length > 64 ? '\u2026' : ''), '\u201c' + t.slice(0, 80) + (t.length > 80 ? '\u2026' : '') + '\u201d'),
+    }, () => this.mergeSignals(this.harvestSignals(t)));
+  }
+
+  // ── Connect (submitConnectRequest port) ───────────────────────────────────
+
+  sendConnect() {
+    const D = this.D;
+    const entry = {
+      id: Math.random().toString(36).slice(2) + Date.now().toString(36),
+      note: (this.state.connectNote || '').trim(),
+      journeyStage: D.assessJourney(this.state.dialogueSignals),
+      timestamp: Date.now(),
+      delivered: false,
+    };
+    this.save({ connectRequests: [entry, ...this.state.connectRequests], connectNote: '', connectMode: 'sent' });
+  }
+
+  // ── Chat (sendChatMessage port — live Claude, minister voice) ─────────────
+
+  buildSystemPrompt(latestText, signalsArr) {
+    const D = this.D;
+    const s = this.state;
+    const sigs = signalsArr || s.dialogueSignals;
+    const signalSentences = sigs.filter((x) => D.SIGNAL_LABELS[x]).map((x) => D.SIGNAL_LABELS[x]).join('; ');
+    const t = s.traitScores;
+    const traitSummary = 'hunger for truth: ' + t.hunger.toFixed(1) + '/10, openness: ' + t.openness.toFixed(1) + '/10, sincerity: ' + t.sincerity.toFixed(1) + '/10, courage: ' + t.courage.toFixed(1) + '/10';
+    const recentJournal = s.journalEntries.slice(0, 2).map((e) => '"' + e.text.slice(0, 120) + '"').join(' / ');
+    const conn = D.assessConnection(sigs, latestText);
+    const mayLds = D.mayReferenceLds(sigs);
+
+    const guidance = conn.isMember
+      ? '\n[LIVE GUIDANCE \u2014 this person is a Latter-day Saint. Run the MEMBER track, not the seeker track.]\n- Where they are: a disciple who already holds the restored gospel (' + conn.journeyStage + ').\n- Do NOT run milk-before-meat on them and do NOT push a human handoff. They did not open this to be converted or to be passed to someone else \u2014 they came to be fed.\n- Your job: help them go DEEPER. Find what part of the scriptures or the gospel they want to understand better, and open it with them. Bring real revelation and insight, not basics.\n- Honor their understanding: assume they know the true gospel. From that footing, ask gentle, non-accusing questions that help them examine whether they are living it the way Christ asks \u2014 prayer, repentance, covenants, loving others \u2014 never as a scold, always as a fellow disciple inviting reflection.\n- A real person is still available if they ever want one, but offer it lightly and rarely \u2014 it is not the point of this conversation.' + (conn.requested ? '\n- They appear to be asking to: ' + conn.requested.replace(/_/g, ' ').toLowerCase() + '.' : '')
+      : '\n[LIVE GUIDANCE \u2014 derived from what this person has revealed]\n- Where they are on the journey toward Christ: ' + conn.journeyStage + '\n- A real human is available right now: YES (always \u2014 a real person reads these). Refer to them only as "a real person," never by name.' + (conn.requested ? '\n- They appear to be asking to: ' + conn.requested.replace(/_/g, ' ').toLowerCase() + '.' : '') + '\n- May you reference the restored gospel / The Church of Jesus Christ of Latter-day Saints / the Book of Mormon yet? ' + (mayLds ? 'YES \u2014 both readiness signals are present. You may do so gently, honestly, never as a pitch. If they ask what you or the people behind this app believe, answer plainly: they are members of The Church of Jesus Christ of Latter-day Saints who believe Christ\u2019s original gospel \u2014 with apostles, revelation, and answers to exactly the kind of question this person is carrying \u2014 has been restored. Connect that honestly to their actual wound (for example: the restored gospel teaches that every person who never knew Christ WILL hear the gospel fully, in this life or the next \u2014 no one is damned for ignorance), then leave them free.' : 'NO \u2014 the milk-before-meat law is in force. Give only milk: the Jesus and the good God of the Bible. Do not mention the Church, Joseph Smith, the Restoration, the Book of Mormon, or missionaries.') + '\n- Missionary referral appropriate? ' + (conn.missionaryReady ? 'YES \u2014 they are reaching toward the church on their own and have passed the milk. You may gently offer to connect them with missionaries.' : 'NO \u2014 do not bring up missionaries.');
+
+    return D.MINISTER_SYSTEM_PROMPT +
+      '\n\n[ABOUT THIS PERSON \u2014 what the app has quietly learned. Never read these labels back to them.]' +
+      (s.name ? '\n- Their first name: ' + s.name + ' (use it naturally and sparingly, the way a friend would \u2014 never in the same breath as an offer or an ask)' : '') +
+      '\n- Spiritual traits: ' + traitSummary +
+      (signalSentences ? '\n- What they have shown: ' + signalSentences : '') +
+      (recentJournal ? '\n- From their recent journal: ' + recentJournal : '') +
+      (s.moments.length > 0 ? '\n- Their story so far IN THIS APP \u2014 things they did or chose here, which they may ask you about (\u201cWhere you began\u201d is the entry story they read and the response THEY chose; \u2665 marks content that resonated): ' + s.moments.slice(0, 10).map((m) => m.title + (m.detail ? ' \u2014 ' + m.detail : '')).join(' | ') + '. You DO have this context \u2014 never claim you cannot see their story; speak to it naturally.' : '') +
+      '\n' + guidance +
+      (conn.isMember ? '' : (() => {
+        // THE MINISTERING PLAN — the quiet aim of this conversation, derived
+        // from where this person actually is. This is what makes the chat a
+        // minister with a direction, not a self-help companion.
+        let plan;
+        if (!D.believesGodGood(sigs)) {
+          const harshFw = sigs.includes('reformed_framework') || sigs.includes('pictures_harsh_god');
+          plan = 'They do not yet trust that God is GOOD. Quiet aim: let Jesus\u2019s own words and deeds show the Father\u2019s goodness against whatever picture they carry (use the comparison method on it). Draw out one testimony-statement \u2014 something they DO know from their own life \u2014 and reflect it back as the seed it is.' +
+            (harshFw ? ' [INTERNAL DISCERNMENT \u2014 never say any of this to them:] Their FRAMEWORK itself carries the harsh God (election, damnation decreed for His glory; a God who creates every soul from nothing owns everything that follows). People inside it often loyally say \u201cGod is good\u201d while the framework denies it \u2014 the affirmation is NOT the signal; the framework is the live picture. Minister to the contradiction: set the Father Jesus actually showed \u2014 the one who runs to prodigals, \u201cwho will have all men to be saved\u201d (1 Tim 2:4), the gospel \u201cpreached also to them that are dead\u201d (1 Pet 4:6) \u2014 beside the decreed-damnation picture, ONE genuinely open question at a time, and let THEM notice. Never debate the system head-on, never name any church, never expose this analysis.' : '');
+        } else if (!D.openToMore(sigs)) {
+          plan = 'They sense God is good but have never considered that he might STILL SPEAK. Quiet aim: awaken that question in THEIR heart \u2014 e.g. \u201cif God spoke to people then, why would he have stopped?\u201d \u2014 asked once, genuinely open, never answered for them. Plant it and let it sit.';
+        } else if (!D.seekingFormal(sigs)) {
+          plan = 'BOTH readiness signals are present. Quiet aim: when they reach, minister the restored gospel directly and connect it to the exact wound or longing they have named \u2014 the fuller picture as the real answer to what they carry. If they reach toward belonging, the door (a real person, missionaries) is offered once, warmly.';
+        } else {
+          plan = 'They are reaching toward the church itself. Quiet aim: help them take the real step \u2014 missionaries or a real person \u2014 their choice, no pressure, full warmth.';
+        }
+        const knowsFaithBg = this.state.faithWords.length > 0 ||
+          ['active_faith_tradition', 'has_history_with_faith', 'active_member', 'inactive_member'].some((x) => sigs.includes(x));
+        return '\n\n[MINISTERING PLAN \u2014 the quiet aim of THIS conversation. Never announce it; weave it. Move one honest inch per exchange, not a mile: ' + plan + ' One testimony-eliciting question is worth three explanations; a single line of scripture lands harder than a paragraph about it.]' +
+          (!knowsFaithBg ? '\n- You do NOT yet know their faith background. Early and naturally, ask plainly where their faith lives \u2014 what tradition or church, if any, they come from. A disciple asks openly, the way a friend would; you never name any church yourself.' : '');
+      })()) +
+      '\n- When a moment genuinely calls for it, do what Jesus did at the well: offer ONE small, concrete thing to DO before tomorrow (say the true thing into the quiet; read one chapter of Mark; quietly cancel one small debt someone owes them) \u2014 an experiment they can run themselves. Offered once, as an open door, never assigned.' +
+      (this.state.activeExercise && D.EXERCISES ? (() => { const aEx = D.EXERCISES.find((e) => e.id === this.state.activeExercise.id); return aEx ? '\n- They recently accepted a small invitation: "' + aEx.text + '" If it fits naturally, ask how it went \u2014 with curiosity, never checking homework.' : ''; })() : '') +
+      '\n\n[SIGNAL REPORT \u2014 system instruction. The person never sees this.]\nAfter your reply, on its own final line, output <signals>token,token</signals> with zero or more of EXACTLY these tokens for what THIS message genuinely revealed in the person\u2019s own words: believes_god_good, open_to_god, drawn_to_jesus, believes_in_jesus, had_spiritual_experience, open_to_restoration, curious_about_book_of_mormon, carries_grief, lonely, searching_for_purpose, skeptical_of_god, hurt_by_church, has_history_with_faith, struggles_with_habits, wants_baptism, wants_to_join, asking_how_to_belong, inactive_member, active_member, losing_faith, pictures_harsh_god, pictures_distant_god, reformed_framework, rejects_harsh_god, nontheistic_framework. Be conservative \u2014 report only what their words clearly show, never what you hope. If none, output <signals>none</signals>. This line is stripped before display; never mention it and never let it change your tone.';
+  }
+
+  async sendChat() {
+    const text = this.state.chatDraft.trim();
+    if (!text || this.state.chatLoading) return;
+    const userMsg = { id: Date.now().toString(), role: 'user', text, timestamp: Date.now() };
+    const history = [...this.state.chatMessages, userMsg];
+    // When someone names their faith in conversation, keep it — verbatim — in
+    // their faith record, so the app actually KNOWS who it is ministering to.
+    const FAITH_ID = /(calvinis|reformed|presbyterian|baptist|catholic|methodist|pentecostal|evangelical|lutheran|orthodox|non.?denominational|latter.day saint|\blds\b|mormon|my ward|atheist|agnostic|muslim|jewish|buddhist|hindu)/i;
+    this.save({
+      chatMessages: history, chatDraft: '', chatLoading: true,
+      faithWords: FAITH_ID.test(text)
+        ? [...this.state.faithWords, { text: text.slice(0, 140), ts: Date.now() }].slice(-12)
+        : this.state.faithWords,
+      moments: this.withMoment('chat', '\u201c' + text.slice(0, 48) + (text.length > 48 ? '\u2026' : '') + '\u201d', 'You brought this to the conversation.'),
+    }, () => this.scrollChat());
+
+    const appendAssistant = (replyText) => {
+      const msg = { id: Date.now().toString() + 'a', role: 'assistant', text: replyText, timestamp: Date.now() };
+      this.save({ chatMessages: [...this.state.chatMessages, msg], chatLoading: false }, () => this.scrollChat());
+    };
+
+    // Harvest signals from the person's own words BEFORE building guidance, so
+    // the milk gate can open mid-conversation — the ear feeds the mouth.
+    const heur = this.harvestSignals(text);
+    const liveSignals = Array.from(new Set([...this.state.dialogueSignals, ...heur]));
+
+    if (!window.claude || !window.claude.complete) {
+      appendAssistant("I'm not connected to my voice right now. Whatever you were thinking \u2014 it's worth writing down in the journal while you wait.");
+      this.mergeSignals(heur);
+      return;
+    }
+
+    try {
+      const systemPrompt = this.buildSystemPrompt(text, liveSignals);
+      // Merge the system prompt into the first user turn (alternating, user-first).
+      const messages = history.map((m, i) => ({
+        role: m.role,
+        content: i === 0
+          ? systemPrompt + '\n\n[THE CONVERSATION BEGINS \u2014 the person says:]\n' + m.text
+          : m.text,
+      }));
+      const raw = (await window.claude.complete({ messages }) || '').trim();
+      // Pull the model's signal report out of the reply, then strip it entirely.
+      const VALID = new Set(['believes_god_good', 'open_to_god', 'drawn_to_jesus', 'believes_in_jesus', 'had_spiritual_experience', 'open_to_restoration', 'curious_about_book_of_mormon', 'carries_grief', 'lonely', 'searching_for_purpose', 'skeptical_of_god', 'hurt_by_church', 'has_history_with_faith', 'struggles_with_habits', 'wants_baptism', 'wants_to_join', 'asking_how_to_belong', 'inactive_member', 'active_member', 'losing_faith', 'pictures_harsh_god', 'pictures_distant_god', 'reformed_framework', 'rejects_harsh_god', 'nontheistic_framework']);
+      const found = [];
+      const reply = raw.replace(/<signals>([\s\S]*?)<\/signals>/gi, (m, body) => {
+        body.split(/[\s,]+/).forEach((tok) => {
+          const k = tok.trim().toLowerCase();
+          if (VALID.has(k)) found.push(k);
+        });
+        return '';
+      }).trim();
+      if (reply) {
+        appendAssistant(reply);
+        this.mergeSignals([...heur, ...found]);
+      } else {
+        appendAssistant('Something went quiet on my end. Would you like to try again, or write something in the journal instead?');
+        this.mergeSignals(heur);
+      }
+    } catch (e) {
+      appendAssistant("I wasn't able to connect right now. If you have an internet connection, try again in a moment. Whatever you were thinking \u2014 it's worth writing down.");
+      this.mergeSignals(heur);
+    }
+  }
+
+  scrollChat() {
+    setTimeout(() => {
+      const el = document.getElementById('mbm-chat-scroll');
+      if (el) el.scrollTop = el.scrollHeight;
+    }, 60);
+  }
+
+  factCheck() {
+    if (this.state.fcState !== 'idle') return;
+    this.setState({ fcState: 'submitting' });
+    setTimeout(() => {
+      this.setState({ fcState: 'done' });
+      setTimeout(() => this.setState({ fcState: 'idle' }), 4000);
+    }, 700);
+  }
+
+  // ── Session reset (resetSession port) ─────────────────────────────────────
+
+  resetSession(fullWipe) {
+    const D = this.D;
+    const keepQueue = fullWipe ? [] : this.state.connectRequests;
+    this.save({
+      screen: 'hook', tab: 'feed', phase: 'story', name: '', nameDraft: '',
+      faithChoice: null, faithText: '',
+      storyIdx: Math.floor(Math.random() * D.STORIES.length),
+      selectedKey: null, showFree: false, freeText: '', reflection: '',
+      feedTag: 'MILK', feed: [], seenIds: [], openedIds: [], likedIds: [], bmIds: [],
+      dialogueSignals: [], answeredQuestionIds: [],
+      traitScores: { ...D.DEFAULT_TRAITS },
+      currentQuestion: D.computeNextQuestion([], [], 0), dlgAnswered: false, dlgFree: '',
+      journalEntries: [], answeredPromptIds: [], journalDraft: '', journalSaved: false,
+      chatMessages: [], chatLoading: false, chatDraft: '', fcState: 'idle',
+      connectMode: 'closed', connectNote: '', connectRequests: keepQueue,
+      moments: [], toast: null, journalBlessing: '',
+      activeExercise: null, doneExerciseIds: [],
+      faithWords: [], cardReflectId: null, reflectText: '',
+    });
+  }
+
+  // ── Profile interpretation (ProfileScreen port) ───────────────────────────
+
+  interpretTraits() {
+    const scores = this.state.traitScores;
+    const feedTag = this.state.feedTag;
+    const LABELS = {
+      honest_inquiry: 'honest inquiry', openness: 'openness', humility: 'humility',
+      hunger: 'hunger', compassion: 'compassion', courage: 'courage', sincerity: 'sincerity',
+    };
+    const ORDER = ['hunger', 'sincerity', 'openness', 'honest_inquiry', 'courage', 'humility', 'compassion'];
+    const dominant = ORDER.map((k) => ({ key: k, val: scores[k] !== undefined ? scores[k] : 5 }))
+      .sort((a, b) => b.val - a.val).slice(0, 2).map((t) => LABELS[t.key]);
+    const tagContext = {
+      MILK: 'You seem to be someone who has felt something \u2014 in a quiet moment, in a loss, in the way beauty sometimes arrives uninvited.',
+      BRIDGE: 'You carry real questions and you take them seriously. That kind of honesty is rarer than it looks.',
+      RESTORATION: 'Something in the story of the restoration has caught your attention. That is worth following.',
+      MAINTENANCE: 'You have covenants you are trying to keep. The fact that you are still here, still asking \u2014 that means something.',
+    };
+    const opening = tagContext[feedTag] || tagContext.MILK;
+    const traitLine = 'What stands out most is your ' + dominant[0] + ' and your ' + dominant[1] + '.';
+    let closing = 'You are still here, still asking. That is enough to start with.';
+    if (scores.hunger >= 7) closing = 'You are looking for something real. That longing is not accidental.';
+    else if (scores.sincerity >= 7) closing = 'You mean what you say. That kind of sincerity is what genuine faith is built on.';
+    else if (scores.courage >= 7) closing = 'You are willing to face things most people avoid. Keep going.';
+    else if (scores.openness >= 7) closing = 'You are staying open even when it would be easier to close. That matters.';
+    else if (scores.humility >= 7) closing = 'You hold your certainties loosely. That is exactly the posture faith requires.';
+    return opening + ' ' + traitLine + ' ' + closing;
+  }
+
+  // ── Render values ─────────────────────────────────────────────────────────
+
+  renderVals() {
+    const s = this.state;
+    const D = this.D;
+    const gold = '#d4c89a', muted = '#5a5240', dimBorder = '#2a2820';
+
+    const mapFeedItem = (item) => ({
+      ...item,
+      minText: item.estimatedMinutes + ' min',
+      open: () => this.openItem(item),
+      heart: () => this.thumbsUp(item.id),
+      bm: () => this.bookmarkItem(item.id),
+      reflectOpen: s.cardReflectId === item.id,
+      reflect: () => this.setState({ cardReflectId: s.cardReflectId === item.id ? null : item.id, reflectText: '' }),
+      reflectSave: () => this.saveCardReflection(item),
+      chatAbout: () => this.chatAboutItem(item),
+      heartColor: s.likedIds.includes(item.id) ? gold : muted,
+      heartBorder: s.likedIds.includes(item.id) ? gold : dimBorder,
+      bmColor: s.bmIds.includes(item.id) ? gold : muted,
+      bmBorder: s.bmIds.includes(item.id) ? gold : dimBorder,
+    });
+
+    const story = D ? D.STORIES[s.storyIdx] : null;
+    const q = s.currentQuestion;
+    const prompt = D ? D.getCurrentPrompt(s.feedTag, s.dialogueSignals, s.answeredPromptIds) : null;
+    const milkOpen = D ? D.mayReferenceLds(s.dialogueSignals) : false;
+    const journey = D ? D.assessJourney(s.dialogueSignals) : 'UNREACHED';
+    const missionReady = D ? D.missionaryReferralReady(s.dialogueSignals) : false;
+
+    const TRAIT_META = [
+      ['hunger', 'Hunger', 'Longing for something more than what you have'],
+      ['sincerity', 'Sincerity', 'Alignment between what you feel and what you do'],
+      ['openness', 'Openness', 'Receptivity to what you might not expect'],
+      ['honest_inquiry', 'Honest Inquiry', 'Willingness to sit with hard questions'],
+      ['courage', 'Courage', 'Willingness to say and face the true thing'],
+      ['humility', 'Humility', 'Ability to hold your certainties loosely'],
+      ['compassion', 'Compassion', 'Capacity to feel what others carry'],
+    ];
+    const TAG_LABEL = { MILK: 'Foundation', BRIDGE: 'Evidence', RESTORATION: 'The Restoration', MAINTENANCE: 'Discipleship' };
+
+    const fmtTime = (ts) => new Date(ts).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+    const fmtDate = (ts) => new Date(ts).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+
+    const tabColor = (t) => (s.tab === t ? gold : muted);
+
+    // Spiritual exercise state: follow-up is due once a NEW session begins
+    // after the invitation was accepted (they went away and came back).
+    const activeEx = (s.activeExercise && D) ? D.EXERCISES.find((e) => e.id === s.activeExercise.id) : null;
+    const fuDue = !!(activeEx && s.activeExercise.acceptedSession < s.session);
+    const invite = (!s.activeExercise && D) ? D.pickExercise(s.dialogueSignals, s.doneExerciseIds) : null;
+
+    return {
+      // spiritual exercises
+      exVisible: !!invite,
+      exText: invite ? invite.text : '',
+      exRef: invite ? invite.ref : '',
+      onExAccept: () => { if (invite) this.acceptExercise(invite); },
+      onExPass: () => { if (invite) this.passExercise(invite); },
+      fuVisible: fuDue,
+      fuText: activeEx ? activeEx.followUp : '',
+      fuNote: s.fuNote,
+      onFuNote: (e) => this.setState({ fuNote: e.target.value }),
+      dlgOwnVisible: !!q && (q.answerType === 'CHOICE' || q.answerType === 'YES_NO') && !s.dlgOwnWords,
+      dlgOwnOpen: !!q && (q.answerType === 'CHOICE' || q.answerType === 'YES_NO') && s.dlgOwnWords,
+      onDlgOwnToggle: () => this.setState({ dlgOwnWords: true }),
+      onDlgOwnSubmit: () => { if (s.dlgFree.trim()) this.answerQuestion('__own', s.dlgFree.trim()); },
+      onFuSomething: () => this.answerFollowUp('something'),
+      onFuGood: () => this.answerFollowUp('good'),
+      onFuNothing: () => this.answerFollowUp('nothing'),
+      onFuNotYet: () => this.answerFollowUp('not_yet'),
+      ownerExercise: activeEx ? activeEx.id + (fuDue ? ' (follow-up due)' : ' (accepted)') : '\u2014',
+      // screens
+      isHook: s.screen === 'hook',
+      isOnboard: s.screen === 'onboard',
+      isWelcome: s.screen === 'welcome',
+      isMain: s.screen === 'main',
+      isTimeCap: s.screen === 'timecap',
+      onComeAndSee: () => this.save({ screen: 'onboard', phase: 'story' }),
+
+      // welcome back — the person is known
+      welcomeName: s.name ? ', ' + s.name : '',
+      welcomeRecall: s.journalEntries.length > 0
+        ? 'Last time you wrote: \u201c' + s.journalEntries[0].text.slice(0, 90) + (s.journalEntries[0].text.length > 90 ? '\u2026' : '') + '\u201d'
+        : (s.chatMessages.length > 0
+          ? 'You were in the middle of a conversation. It\u2019s still here, just as you left it.'
+          : 'Your place here is just as you left it. No rush.'),
+      onPickUp: () => this.save({ screen: 'main' }),
+      nameDraft: s.nameDraft,
+      onNameDraft: (e) => this.setState({ nameDraft: e.target.value }),
+
+      // onboarding
+      phaseStory: s.phase === 'story',
+      phaseQuestion: s.phase === 'question',
+      phaseReflection: s.phase === 'reflection',
+      storyFirst: story ? story.narrative[0] : '',
+      storyRest: story ? story.narrative.slice(1).map((text) => ({ text })) : [],
+      storyQuestion: story ? story.question : '',
+      storyChoices: story ? story.choices.map((c) => ({ ...c, select: () => this.selectChoice(c.key) })) : [],
+      onContinueStory: () => this.save({ phase: 'question' }),
+      showFreeBox: s.showFree,
+      showOwnWordsBtn: !s.showFree,
+      onShowFree: () => this.setState({ showFree: true }),
+      freeText: s.freeText,
+      onFreeChange: (e) => this.setState({ freeText: e.target.value }),
+      onFreeSubmit: () => this.submitFree(),
+      freeBtnBg: s.freeText.trim().length >= 3 ? gold : dimBorder,
+      reflectionText: s.reflection,
+      onToFaith: () => this.save({ phase: 'faith' }),
+
+      // faith background page
+      phaseFaith: s.phase === 'faith',
+      faithOptions: [
+        { key: 'active', text: "I'm part of a church or faith community now." },
+        { key: 'stepped_away', text: 'I grew up in one, but I have stepped away.' },
+        { key: 'none', text: "I've never really had one." },
+        { key: 'complicated', text: "It's complicated." },
+        { key: 'private', text: "I'd rather not say." },
+      ].map((o) => ({
+        ...o,
+        select: () => this.setState({ faithChoice: o.key }),
+        border: s.faithChoice === o.key ? gold : '#2a2820',
+        color: s.faithChoice === o.key ? gold : '#c8bfa8',
+      })),
+      faithText: s.faithText,
+      onFaithText: (e) => this.setState({ faithText: e.target.value }),
+      onFaithEnter: () => { if (this.state.faithChoice) this.enterApp(); },
+      faithEnterBg: s.faithChoice ? gold : dimBorder,
+
+      // tabs
+      tabFeed: s.tab === 'feed', tabJournal: s.tab === 'journal',
+      tabChat: s.tab === 'chat', tabProfile: s.tab === 'profile',
+      goFeed: () => this.save({ tab: 'feed' }),
+      goJournal: () => this.save({ tab: 'journal' }),
+      goChat: () => this.save({ tab: 'chat' }, () => this.scrollChat()),
+      goProfile: () => this.save({ tab: 'profile' }),
+      tabFeedColor: tabColor('feed'), tabJournalColor: tabColor('journal'),
+      tabChatColor: tabColor('chat'), tabProfileColor: tabColor('profile'),
+
+      // feed
+      feedTop: s.feed.slice(0, 2).map(mapFeedItem),
+      feedBottom: s.feed.slice(2).map(mapFeedItem),
+      hasQuestion: !!q,
+      dlgAnswered: s.dlgAnswered,
+      dlgActive: !!q && !s.dlgAnswered,
+      qText: q ? q.questionText : '',
+      qRef: q ? q.jesusReference : '',
+      qIsFree: !!q && q.answerType === 'FREE_TEXT',
+      qIsChoice: !!q && (q.answerType === 'CHOICE' || q.answerType === 'YES_NO'),
+      qOptions: q ? q.answerOptions.map((o) => ({ ...o, select: () => this.answerQuestion(o.value) })) : [],
+      dlgFree: s.dlgFree,
+      onDlgFreeChange: (e) => this.setState({ dlgFree: e.target.value }),
+      onDlgFreeSubmit: () => { if (s.dlgFree.trim()) this.answerQuestion(s.dlgFree.trim(), s.dlgFree.trim()); },
+      dlgFreeBtnBorder: s.dlgFree.trim() ? gold : dimBorder,
+      dlgFreeBtnColor: s.dlgFree.trim() ? gold : muted,
+      onMoreFeed: () => this.refreshFeed(),
+      reflectText: s.reflectText,
+      onReflectChange: (e) => this.setState({ reflectText: e.target.value }),
+
+      // connect
+      connectClosed: s.connectMode === 'closed',
+      connectWriting: s.connectMode === 'writing',
+      connectSent: s.connectMode === 'sent',
+      connectNote: s.connectNote,
+      onConnectOpen: () => this.setState({ connectMode: 'writing' }),
+      onConnectCancel: () => this.setState({ connectMode: 'closed', connectNote: '' }),
+      onConnectNoteChange: (e) => this.setState({ connectNote: e.target.value }),
+      onConnectSend: () => this.sendConnect(),
+      missionaryReady: missionReady && s.connectMode !== 'writing',
+
+      // journal
+      promptText: prompt ? prompt.text : '',
+      journalDraft: s.journalDraft,
+      onJournalDraft: (e) => this.setState({ journalDraft: e.target.value }),
+      onJournalSave: () => this.saveJournal(),
+      journalSaved: s.journalSaved,
+      journalActive: !s.journalSaved,
+      onWriteAgain: () => this.setState({ journalSaved: false, journalDraft: '' }),
+      journalBtnBorder: s.journalDraft.trim() ? gold : dimBorder,
+      journalBtnColor: s.journalDraft.trim() ? gold : muted,
+      hasJournalEntries: s.journalEntries.length > 0,
+      noJournalEntries: s.journalEntries.length === 0,
+      journalList: s.journalEntries.map((e) => ({ ...e, date: fmtDate(e.timestamp) })),
+
+      // chat
+      chatEmpty: s.chatMessages.length === 0,
+      chatMsgs: s.chatMessages.map((m) => ({
+        ...m,
+        time: fmtTime(m.timestamp),
+        wrapStyle: { display: 'flex', justifyContent: m.role === 'user' ? 'flex-end' : 'flex-start', marginBottom: '8px' },
+        bubbleStyle: {
+          maxWidth: '80%', borderRadius: '12px', padding: '12px',
+          background: m.role === 'user' ? '#1a1a12' : '#111116',
+          border: '1px solid ' + (m.role === 'user' ? '#1e1c18' : '#2a2820'),
+        },
+        textStyle: { fontSize: '14px', lineHeight: '22px', color: m.role === 'user' ? '#c8bfa8' : '#9a9080', whiteSpace: 'pre-wrap' },
+      })),
+      chatLoading: s.chatLoading,
+      chatDraft: s.chatDraft,
+      onChatDraft: (e) => this.setState({ chatDraft: e.target.value }),
+      onChatKeyDown: (e) => {
+        if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); this.sendChat(); }
+      },
+      onChatSend: () => this.sendChat(),
+      sendBtnBorder: s.chatDraft.trim() && !s.chatLoading ? gold : dimBorder,
+      canFactCheck: s.chatMessages.length >= 2,
+      onFactCheck: () => this.factCheck(),
+      fcText: s.fcState === 'submitting' ? 'Submitting\u2026'
+        : s.fcState === 'done' ? 'Submitted \u2014 a real person will review that answer. Thank you for helping make this better.'
+        : 'Not sure about my last answer? Send it anonymously for a real person to check \u2192',
+      onChatTalkHuman: () => {
+        this.save({ tab: 'feed', screen: 'main', connectMode: 'writing' });
+      },
+
+      // profile — a mirror of the person's own words + their growing virtues.
+      // (Owner decision 2026-06-11: the seven virtues MAY be shown — they belong
+      // to the person and encourage. Routing, tracks, gate, and signal counts
+      // stay owner-only forever.)
+      interpretation: D ? this.interpretTraits() : '',
+      traits: TRAIT_META.map(([key, name, desc]) => {
+        const score = s.traitScores[key] !== undefined ? s.traitScores[key] : 5;
+        return {
+          name, desc,
+          score: score.toFixed(1),
+          fillStyle: { width: Math.round((score / 10) * 100) + '%', height: '4px', background: gold, borderRadius: '2px' },
+        };
+      }),
+      hasFaithWords: s.faithWords.length > 0 || (D ? D.isMember(s.dialogueSignals) : false),
+      faithStatus: (D && D.isMember(s.dialogueSignals))
+        ? 'A Latter-day Saint \u2014 you told us yourself.'
+        : s.dialogueSignals.includes('active_faith_tradition')
+          ? 'Part of a faith community today \u2014 in your words below.'
+          : s.dialogueSignals.includes('has_history_with_faith')
+            ? 'A faith you grew up in, at some distance now \u2014 in your words below.'
+            : 'Still taking shape \u2014 in your words below.',
+      faithWordsList: s.faithWords.map((w) => ({ text: w.text, date: fmtDate(w.ts) })),
+      statsOpened: s.openedIds.length,
+      statsAnswered: s.answeredQuestionIds.length,
+      statsJournal: s.journalEntries.length,
+      hasSignals: s.dialogueSignals.length > 0,
+      noSignals: s.dialogueSignals.length === 0,
+
+      // encouragement + your story so far
+      toastVisible: !!s.toast,
+      toastText: s.toast || '',
+      journalBlessing: s.journalBlessing || '',
+      hasMoments: s.moments.length > 0,
+      momentsList: s.moments.map((m) => ({
+        ...m,
+        date: fmtDate(m.timestamp),
+        ask: () => this.save({
+          tab: 'chat',
+          chatDraft: 'I want to ask about something from my story here \u2014 ' + m.title + ' \u2014 what did you make of that about me?',
+        }, () => this.scrollChat()),
+      })),
+
+      // owner panel
+      ownerJourney: journey,
+      ownerTag: s.feedTag,
+      ownerGate: milkOpen ? 'OPEN' : 'CLOSED',
+      ownerGateColor: milkOpen ? '#7ab87a' : '#8a4a40',
+      ownerSignals: s.dialogueSignals.map((name) => ({ name })),
+      queueCount: s.connectRequests.length,
+      hasQueue: s.connectRequests.length > 0,
+      noQueue: s.connectRequests.length === 0,
+      queueItems: s.connectRequests.map((r) => ({
+        ...r,
+        stage: r.journeyStage,
+        time: fmtTime(r.timestamp),
+        note: r.note || '(no note \u2014 they just asked for a person)',
+      })),
+      onResetPrototype: () => {
+        try { localStorage.removeItem(this.PERSIST_KEY); } catch (e) {}
+        this.resetSession(true);
+      },
+    };
+  }
+}
+</script>
+</body>
+</html>
