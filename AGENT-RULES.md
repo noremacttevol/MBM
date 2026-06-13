@@ -20,6 +20,13 @@
    happen as far as the next app is concerned.
 4. **Verify before saying "done"** (typecheck, and bundle/screenshot the UI).
 5. **Never re-ask Cameron to explain the vision.** It is written down here.
+6. **Read the design-decision records before building the profile/scoring system:**
+   - `MBM-SESSION-HANDOFF.md` — the settled two-track design (faith-background
+     ladder vs. the Christlike-virtues scale), the honestly-labeled agreement
+     meter, the locked "Christlike ___" labels, the build queue, and the one line
+     not to cross. Do not re-litigate any of it with Cameron.
+   - `CREATION-DILEMMA.md` — the apologetic reasoning the minister uses (meat-only,
+     never a debate).
 
 ---
 
