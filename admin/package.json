@@ -1,0 +1,13 @@
+{
+  "name": "mbm-admin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local-only admin desk for the MBM real-person inbox. Never ships.",
+  "scripts": {
+    "start": "node inbox.mjs"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.7.0"
+  }
+}

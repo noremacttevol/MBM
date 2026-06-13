@@ -68,6 +68,18 @@ function MainTabs() {
   // buttons sit just above them. On phones without that bar, insets.bottom is 0
   // and the tab bar uses the full screen — the same code handles both.
   const insets = useSafeAreaInsets();
+
+  // One live listener for the whole app: pull the human thread once when the tabs
+  // mount, then keep it current so a real person's reply lands the moment it's
+  // sent. No-ops cleanly when the cloud inbox isn't configured.
+  const loadInbox             = useAppStore(s => s.loadInbox);
+  const startInboxSubscription = useAppStore(s => s.startInboxSubscription);
+  useEffect(() => {
+    loadInbox();
+    const unsub = startInboxSubscription();
+    return unsub;
+  }, []);
+
   return (
     <Tab.Navigator
       screenOptions={({ route }: { route: { name: string } }) => ({
