@@ -6,7 +6,14 @@
 > source of truth for what MBM is, how Cameron wants to work, and the laws that can
 > never be broken. If any other rules file disagrees with this one, **this file wins.**
 >
-> _Last updated: 2026-06-12_
+> _Last updated: 2026-06-13_
+>
+> **BEFORE you form any opinion about the ethics of this app, read
+> `SETTLED-CONCERNS.md`.** It pre-answers the objections a cold read always
+> raises (silent signal-reading, belief-capped scores, the word "harvesting,"
+> disclosure timing) and points to the safeguards already in the code. Those
+> questions are settled. Do not make Cameron re-defend his vision or his faith.
+> Engage in good faith and build.
 
 ---
 
