@@ -8,6 +8,7 @@ import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context'
 import { StatusBar } from 'expo-status-bar';
 import { useAppStore } from '../store/useAppStore';
 import ConnectCard from '../components/ConnectCard';
+import SaveNoteLink from '../components/SaveNoteLink';
 import { colors, spacing, radius } from '../theme';
 
 // Server URL — the same proxy the store uses for chat. Public, not a secret.
@@ -146,17 +147,26 @@ export default function ChatScreen() {
               <View key={msg.id} style={styles.metaNote}>
                 <Text style={styles.metaText}>{msg.text}</Text>
               </View>
+            ) : msg.role === 'assistant' ? (
+              // Assistant message + a quiet "Keep this →" so the person can clip
+              // what the minister said into a note and find it later in the Journal.
+              <View key={msg.id} style={styles.assistantBlock}>
+                <View style={[styles.bubble, styles.bubbleAssistant]}>
+                  <Text style={[styles.bubbleText, styles.bubbleTextAssistant]}>{msg.text}</Text>
+                  <Text style={styles.bubbleTime}>{formatTime(msg.timestamp)}</Text>
+                </View>
+                <View style={styles.keepRow}>
+                  <SaveNoteLink
+                    source="chat"
+                    title="From a conversation"
+                    body={msg.text}
+                    label="Keep this →"
+                  />
+                </View>
+              </View>
             ) : (
-              <View
-                key={msg.id}
-                style={[styles.bubble, msg.role === 'user' ? styles.bubbleUser : styles.bubbleAssistant]}
-              >
-                <Text style={[
-                  styles.bubbleText,
-                  msg.role === 'user' ? styles.bubbleTextUser : styles.bubbleTextAssistant,
-                ]}>
-                  {msg.text}
-                </Text>
+              <View key={msg.id} style={[styles.bubble, styles.bubbleUser]}>
+                <Text style={[styles.bubbleText, styles.bubbleTextUser]}>{msg.text}</Text>
                 <Text style={styles.bubbleTime}>{formatTime(msg.timestamp)}</Text>
               </View>
             )
@@ -264,6 +274,10 @@ const styles = StyleSheet.create({
     alignSelf: 'flex-start', backgroundColor: colors.bgCard,
     borderWidth: 1, borderColor: colors.borderDim,
   },
+  // Wraps an assistant bubble + its "Keep this →" link, kept left-aligned.
+  assistantBlock: { alignSelf: 'flex-start', maxWidth: '80%' },
+  keepRow: { paddingLeft: 4, marginTop: -2, marginBottom: spacing.sm },
+
   loadingBubble: { paddingVertical: spacing.md, paddingHorizontal: spacing.lg },
   bubbleText: { fontSize: 14, fontFamily: 'Georgia', lineHeight: 22 },
   bubbleTextUser: { color: colors.textMid },

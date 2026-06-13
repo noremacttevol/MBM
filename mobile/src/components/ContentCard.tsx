@@ -12,6 +12,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import { ContentItem } from '../data/content';
 import { useAppStore } from '../store/useAppStore';
+import SaveNoteLink from './SaveNoteLink';
 import { colors, spacing, radius } from '../theme';
 
 interface Props {
@@ -116,7 +117,7 @@ export default function ContentCard({ item, onThumbsUp, onBookmark }: Props) {
         </TouchableOpacity>
       </View>
 
-      {/* ── Reflect / Talk — quiet invitations under each card ─────────────── */}
+      {/* ── Reflect / Talk / Keep — quiet invitations under each card ──────── */}
       <View style={styles.subActions}>
         <TouchableOpacity activeOpacity={0.7} onPress={() => setReflectOpen(o => !o)}>
           <Text style={styles.subActionText}>Reflect on this →</Text>
@@ -124,6 +125,11 @@ export default function ContentCard({ item, onThumbsUp, onBookmark }: Props) {
         <TouchableOpacity activeOpacity={0.7} onPress={handleTalkAbout}>
           <Text style={styles.subActionText}>Talk about it →</Text>
         </TouchableOpacity>
+        <SaveNoteLink
+          source="feed"
+          title={item.title}
+          body={`${item.title} (${item.scriptureRef})\n\n${item.description}`}
+        />
       </View>
 
       {reflectOpen && (
@@ -220,7 +226,9 @@ const styles = StyleSheet.create({
 
   subActions: {
     flexDirection: 'row',
+    flexWrap:      'wrap',
     gap:           spacing.md,
+    rowGap:        8,
     marginTop:     10,
   },
   subActionText: {

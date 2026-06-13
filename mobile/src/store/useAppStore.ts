@@ -193,6 +193,24 @@ export interface SessionMemory {
   lastWords: string;  // the last thing they said, to gently recall on return
 }
 
+// A note the person CHOSE to keep — clipped from anywhere they were learning
+// (a feed reading, something the minister said in chat, a story, a blessing).
+// The app summarizes what was learned into a short `summary` clip so the notes
+// page reads like a record of growth, while `body` keeps the full original so
+// they can expand and re-read it. Saving a note carries them to the Journal,
+// which opens to the new note.
+export type NoteSource = 'feed' | 'chat' | 'blessing' | 'story' | 'dialogue';
+
+export interface LearnedNote {
+  id:        string;
+  source:    NoteSource;
+  title:     string;       // short heading — the content's title, or where it came from
+  summary:   string;       // the clip: what they can take from it (AI; excerpt offline)
+  body:      string;       // the full original text, kept so they can expand and re-read
+  timestamp: number;
+  pending:   boolean;      // true while the AI summary is still being written
+}
+
 // ── AI voice (key-safe: the app NEVER holds the Anthropic key) ───────────────
 // The key lives only on the server (server/index.js, /api/chat). The app posts
 // {system, messages} to the proxy and the proxy adds the key. The proxy URL is
@@ -353,6 +371,96 @@ export async function generateBlessing(
   }
 }
 
+// ── Note summaries — a short, honest "what you can take from this" ───────────
+// When a person keeps a note, the app reads the source and writes ONE or TWO
+// plain sentences naming what is worth remembering. Never flowery, never a
+// sermon. Offline, the note simply keeps a trimmed excerpt instead (see
+// excerptFallback), so a saved note is always useful even with no connection.
+function excerptFallback(body: string): string {
+  const s = (body || '').replace(/\s+/g, ' ').trim();
+  if (s.length <= 160) return s;
+  return s.slice(0, 157).trimEnd() + '…';
+}
+
+const NOTE_SOURCE_FRAME: Record<NoteSource, string> = {
+  feed:     'a scripture-based reading they were studying',
+  chat:     'something said in their conversation with the app',
+  blessing: 'a word of encouragement that landed on them',
+  story:    'a story about Jesus they just experienced',
+  dialogue: 'a tender question about their faith they just answered',
+};
+
+// Strip wrapping quotes / a leaked label, collapse whitespace, cap the length.
+function cleanSummary(raw: string): string {
+  let s = (raw || '').trim();
+  s = s.replace(/^["'“”\s]+|["'“”\s]+$/g, '').trim();
+  s = s.replace(/\s+/g, ' ');
+  if (!s) return '';
+  if (s.length > 240) s = s.slice(0, 237).trimEnd() + '…';
+  return s;
+}
+
+export async function generateNoteSummary(
+  source: NoteSource,
+  title: string,
+  body: string,
+): Promise<string | null> {
+  const useProxy = !!MBM_API_URL;
+  if (!useProxy && !ANTHROPIC_API_KEY) return null;   // offline → keep the excerpt
+
+  const system =
+    'A person is keeping a note so they can remember something they were learning ' +
+    'in a gospel app. The source is ' + NOTE_SOURCE_FRAME[source] + '. Read it and ' +
+    'write ONE or TWO plain sentences that capture what is worth remembering — the ' +
+    'truth, comfort, or lesson in it — in warm, simple language they would be glad ' +
+    'to reread later. Speak to them as "you." Do NOT add scripture they did not ' +
+    'mention, do not preach, do not greet, and do not use quotation marks. Just the ' +
+    'note itself, nothing else.';
+
+  const userText =
+    (title ? 'Title: ' + title + '\n\n' : '') +
+    'What they kept:\n"' + (body || '').trim() + '"';
+
+  try {
+    let raw = '';
+    if (useProxy) {
+      const r = await fetch(`${MBM_API_URL}/api/chat`, {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ system, messages: [{ role: 'user', content: userText }], max_tokens: 160 }),
+      });
+      if (!r.ok) return null;
+      const d = await r.json();
+      raw = typeof d?.text === 'string' ? d.text : '';
+    } else {
+      const r = await fetch(ANTHROPIC_URL, {
+        method: 'POST',
+        headers: {
+          'content-type': 'application/json',
+          'x-api-key': ANTHROPIC_API_KEY,
+          'anthropic-version': ANTHROPIC_VERSION,
+          'anthropic-dangerous-direct-browser-access': 'true',
+        },
+        body: JSON.stringify({
+          model: ANTHROPIC_MODEL,
+          max_tokens: 160,
+          system,
+          messages: [{ role: 'user', content: userText }],
+        }),
+      });
+      if (!r.ok) return null;
+      const d = await r.json();
+      raw = Array.isArray(d?.content)
+        ? d.content.filter((b: any) => b?.type === 'text').map((b: any) => b?.text ?? '').join('')
+        : '';
+    }
+    const cleaned = cleanSummary(raw);
+    return cleaned || null;
+  } catch {
+    return null;
+  }
+}
+
 // Small, clamped trait nudge — the way the prototype's nudgedTraits worked.
 function nudgeTraits(scores: TraitScores, deltas: Partial<TraitScores>): TraitScores {
   const next: TraitScores = { ...scores };
@@ -483,6 +591,12 @@ interface AppState {
   journalEntries:      JournalEntry[];
   answeredPromptIds:   string[];
 
+  // Notes the person kept from around the app (feed, chat, stories, blessings).
+  // `pendingNoteId` is the note the Journal should open to right after a save —
+  // ephemeral nav state, never persisted.
+  learnedNotes:        LearnedNote[];
+  pendingNoteId:       string | null;
+
   // Chat
   chatMessages:        ChatMessage[];
   chatLoading:         boolean;
@@ -539,6 +653,10 @@ interface AppActions {
   resetSession:        () => void;
   answerQuestion:      (questionId: number, answerValue: string, answerText?: string) => void;
   addJournalEntry:     (promptId: string, promptText: string, text: string) => void;
+  // Keep a note from anywhere in the app. Returns the new note's id so the caller
+  // can navigate to the Journal, which opens to it. The AI summary fills in after.
+  saveLearnedNote:     (input: { source: NoteSource; title: string; body: string }) => string;
+  clearPendingNote:    () => void;
   sendChatMessage:     (text: string) => Promise<void>;
   setChatLoading:      (loading: boolean) => void;
   appendAssistantMessage: (text: string) => void;
@@ -587,6 +705,8 @@ const initialState: AppState = {
   currentQuestion:     null,
   journalEntries:      [],
   answeredPromptIds:   [],
+  learnedNotes:        [],
+  pendingNoteId:       null,
   chatMessages:        [],
   chatLoading:         false,
   blessingHistory:     [],
@@ -610,7 +730,7 @@ const initialState: AppState = {
 
 type PersistedState = Omit<AppState,
   'seenIds' | 'openedIds' | 'chatLoading' | 'conversationId' | 'blessing'
-  | 'inboxMessages' | 'inboxLoading' | 'inboxUnread'> & {
+  | 'inboxMessages' | 'inboxLoading' | 'inboxUnread' | 'pendingNoteId'> & {
   conversationId: string;
   seenIds:   number[];
   openedIds: number[];
@@ -657,6 +777,8 @@ export const useAppStore = create<AppState & AppActions>()(
           currentQuestion,
           journalEntries:      [],
           answeredPromptIds:   [],
+          learnedNotes:        [],
+          pendingNoteId:       null,
           chatMessages:        [],
           chatLoading:         false,
           blessingHistory:     [],
@@ -894,6 +1016,44 @@ export const useAppStore = create<AppState & AppActions>()(
           currentQuestion:   s.currentQuestion
             ?? computeNextQuestion(answeredQuestionIds, merged, openedIds.size),
         }));
+      },
+
+      saveLearnedNote({ source, title, body }) {
+        const clean = (body ?? '').trim();
+        const id = generateId();
+        // Save immediately with an excerpt so the note is useful even offline and
+        // the Journal can open to it at once. Mark it pending while the AI writes
+        // the real "what you can take from this" summary in the background.
+        const note: LearnedNote = {
+          id,
+          source,
+          title:     (title ?? '').trim() || 'A note to keep',
+          summary:   excerptFallback(clean),
+          body:      clean,
+          timestamp: Date.now(),
+          pending:   true,
+        };
+        set(s => ({
+          learnedNotes:  [note, ...s.learnedNotes].slice(0, 200),
+          pendingNoteId: id,
+        }));
+
+        // Fill in the AI clip after the fact; never block the save on the network.
+        generateNoteSummary(source, note.title, clean).then(summary => {
+          set(s => ({
+            learnedNotes: s.learnedNotes.map(n =>
+              n.id === id
+                ? { ...n, summary: summary || n.summary, pending: false }
+                : n,
+            ),
+          }));
+        });
+
+        return id;
+      },
+
+      clearPendingNote() {
+        set({ pendingNoteId: null });
       },
 
       setChatLoading(loading) {
@@ -1611,6 +1771,7 @@ ${guidance}${SIGNAL_REPORT_INSTRUCTION}${TRAIT_REPORT_INSTRUCTION}`;
         currentQuestion:     state.currentQuestion,
         journalEntries:      state.journalEntries,
         answeredPromptIds:   state.answeredPromptIds,
+        learnedNotes:        state.learnedNotes,
         chatMessages:        state.chatMessages,
         blessingHistory:     state.blessingHistory,
         connectRequests:     state.connectRequests,
@@ -1691,6 +1852,7 @@ ${guidance}${SIGNAL_REPORT_INSTRUCTION}${TRAIT_REPORT_INSTRUCTION}`;
           openedIds:  new Set<number>((p.openedIds as number[] | undefined) ?? []),
           chatLoading: false, // never persist a loading spinner
           blessing:    null,  // never restore a stale toast
+          pendingNoteId: null, // ephemeral nav state — never restore an old "open to" target
           inboxMessages: [],  // the human thread is server-sourced, reloaded on open
           inboxLoading:  false,
           inboxUnread:   0,
