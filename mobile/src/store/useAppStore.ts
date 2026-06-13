@@ -34,6 +34,14 @@ import {
   pickExercise,
   SpiritualExercise,
 } from '../engine/exercises';
+import {
+  sendMessage as cloudSendMessage,
+  fetchThread as cloudFetchThread,
+  markRepliesRead as cloudMarkRead,
+  subscribeToThread as cloudSubscribe,
+  isMessagingConfigured,
+  InboxMessage,
+} from '../lib/messaging';
 
 // ── Constants ───────────────────────────────────────────────────────────────
 
@@ -483,8 +491,16 @@ interface AppState {
   // never repeats a compliment or sounds rehearsed.
   blessingHistory:     string[];
 
-  // Human connection requests, captured on-device (Phase 1)
+  // Human connection requests, captured on-device (Phase 1). This is the OFFLINE
+  // fallback queue; when the cloud inbox is configured and reachable, messages go
+  // there too so a real person can reply back INTO the app.
   connectRequests:     ConnectRequest[];
+
+  // The two-way human inbox (server-sourced, never persisted — reloaded on open).
+  // `inboxMessages` is the live thread between this person and a real person.
+  inboxMessages:       InboxMessage[];
+  inboxLoading:        boolean;
+  inboxUnread:         number;   // admin replies the person hasn't seen yet
 
   // The person, in their own words — never labels, never numbers shown to them
   name:                string | null;
@@ -528,6 +544,11 @@ interface AppActions {
   appendAssistantMessage: (text: string) => void;
   appendMetaMessage:   (text: string) => void;
   submitConnectRequest: (note: string) => void;
+  // Two-way human inbox
+  sendConnectMessage:  (note: string, excerpt?: string) => Promise<void>;
+  loadInbox:           () => Promise<void>;
+  markInboxRead:       () => void;
+  startInboxSubscription: () => () => void;
   setName:             (name: string) => void;
   recordFaithBackground: (choiceKey: string, text: string) => void;
   editFaithWord:       (index: number, text: string) => void;
@@ -570,6 +591,9 @@ const initialState: AppState = {
   chatLoading:         false,
   blessingHistory:     [],
   connectRequests:     [],
+  inboxMessages:       [],
+  inboxLoading:        false,
+  inboxUnread:         0,
   name:                null,
   faithWords:          [],
   moments:             [],
@@ -584,7 +608,9 @@ const initialState: AppState = {
 
 // ── Persisted state shape (Sets become arrays for JSON storage) ───────────────
 
-type PersistedState = Omit<AppState, 'seenIds' | 'openedIds' | 'chatLoading' | 'conversationId' | 'blessing'> & {
+type PersistedState = Omit<AppState,
+  'seenIds' | 'openedIds' | 'chatLoading' | 'conversationId' | 'blessing'
+  | 'inboxMessages' | 'inboxLoading' | 'inboxUnread'> & {
   conversationId: string;
   seenIds:   number[];
   openedIds: number[];
@@ -917,6 +943,58 @@ export const useAppStore = create<AppState & AppActions>()(
           delivered:      false,
         };
         set(s => ({ connectRequests: [entry, ...s.connectRequests] }));
+      },
+
+      // Send the person's words to a real human via the cloud inbox, AND keep the
+      // on-device copy as a durable fallback. If the cloud isn't configured or is
+      // unreachable, the on-device queue still holds it — the promise stays honest.
+      async sendConnectMessage(note, excerpt) {
+        const { dialogueSignals } = get();
+        const stage = assessJourney(dialogueSignals);
+        // Always keep the local record (offline-safe).
+        get().submitConnectRequest(note);
+        if (!isMessagingConfigured) return;
+        set({ inboxLoading: true });
+        const saved = await cloudSendMessage(note, excerpt, stage);
+        if (saved) {
+          set(s => ({
+            inboxMessages: [...s.inboxMessages, saved],
+            inboxLoading:  false,
+          }));
+        } else {
+          set({ inboxLoading: false });
+        }
+      },
+
+      // Pull the whole human thread for this device and compute unread admin replies.
+      async loadInbox() {
+        if (!isMessagingConfigured) return;
+        set({ inboxLoading: true });
+        const thread = await cloudFetchThread();
+        const unread = thread.filter(m => m.sender === 'admin' && !m.read_by_user).length;
+        set({ inboxMessages: thread, inboxUnread: unread, inboxLoading: false });
+      },
+
+      // The person opened the thread — clear the unread dot locally and on the server.
+      markInboxRead() {
+        set({ inboxUnread: 0 });
+        if (isMessagingConfigured) cloudMarkRead();
+      },
+
+      // Live updates: a real person's reply lands in the app the moment it's sent.
+      // Returns an unsubscribe fn for the caller to clean up.
+      startInboxSubscription() {
+        if (!isMessagingConfigured) return () => {};
+        return cloudSubscribe(msg => {
+          set(s => {
+            if (s.inboxMessages.some(m => m.id === msg.id)) return s;  // de-dupe
+            const isAdminReply = msg.sender === 'admin' && !msg.read_by_user;
+            return {
+              inboxMessages: [...s.inboxMessages, msg],
+              inboxUnread:   isAdminReply ? s.inboxUnread + 1 : s.inboxUnread,
+            };
+          });
+        });
       },
 
       setName(name) {
@@ -1613,6 +1691,9 @@ ${guidance}${SIGNAL_REPORT_INSTRUCTION}${TRAIT_REPORT_INSTRUCTION}`;
           openedIds:  new Set<number>((p.openedIds as number[] | undefined) ?? []),
           chatLoading: false, // never persist a loading spinner
           blessing:    null,  // never restore a stale toast
+          inboxMessages: [],  // the human thread is server-sourced, reloaded on open
+          inboxLoading:  false,
+          inboxUnread:   0,
           // A new launch is a new session — a follow-up only becomes "due" after
           // the person went away and came back (prototype's session counter).
           sessionCount: ((p.sessionCount as number | undefined) ?? 1) + 1,

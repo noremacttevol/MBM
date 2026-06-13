@@ -12,6 +12,7 @@ import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { StatusBar } from 'expo-status-bar';
 import { RootStackParamList } from '../navigation/AppNavigator';
 import { useAppStore } from '../store/useAppStore';
+import MilkBeforeMeatNote from '../components/MilkBeforeMeatNote';
 import { colors, spacing } from '../theme';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'WelcomeBack'>;
@@ -50,6 +51,9 @@ export default function WelcomeBackScreen({ navigation }: Props) {
           <Text style={styles.btnText}>Pick up where you left off →</Text>
         </TouchableOpacity>
       </Animated.View>
+      <View style={styles.footer}>
+        <MilkBeforeMeatNote />
+      </View>
     </View>
   );
 }
@@ -63,6 +67,12 @@ const styles = StyleSheet.create({
     paddingHorizontal: spacing.xl,
   },
   inner: { alignItems: 'center' },
+  footer: {
+    position: 'absolute',
+    bottom:   40,
+    left:     0,
+    right:    0,
+  },
   hairline: {
     width:           60,
     height:          1,

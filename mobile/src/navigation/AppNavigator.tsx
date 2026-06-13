@@ -14,6 +14,7 @@ import JournalScreen     from '../screens/JournalScreen';
 import ChatScreen        from '../screens/ChatScreen';
 import ProfileScreen     from '../screens/ProfileScreen';
 import ErrorBoundary     from '../components/ErrorBoundary';
+import MilkBeforeMeatNote from '../components/MilkBeforeMeatNote';
 import { useAppStore }   from '../store/useAppStore';
 import { colors } from '../theme';
 
@@ -123,7 +124,11 @@ export default function AppNavigator() {
   }, []);
 
   if (!hydrated) {
-    return <View style={{ flex: 1, backgroundColor: colors.bg }} />;
+    return (
+      <View style={{ flex: 1, backgroundColor: colors.bg, justifyContent: 'flex-end', paddingBottom: 56 }}>
+        <MilkBeforeMeatNote />
+      </View>
+    );
   }
 
   const onboardingComplete = useAppStore.getState().onboardingComplete;
