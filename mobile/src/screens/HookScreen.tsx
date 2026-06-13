@@ -27,6 +27,7 @@ export default function HookScreen({ navigation }: Props) {
   const textOpacity     = useRef(new Animated.Value(0)).current;
   const subOpacity      = useRef(new Animated.Value(0)).current;
   const btnOpacity      = useRef(new Animated.Value(0)).current;
+  const footerOpacity   = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
     // 1. Brief pause so the user sees the stone
@@ -92,6 +93,15 @@ export default function HookScreen({ navigation }: Props) {
       Animated.timing(btnOpacity, {
         toValue:         1,
         duration:        600,
+        useNativeDriver: true,
+      }),
+
+      Animated.delay(500),
+
+      // The honest word, last and quiet — never the headline, but never hidden.
+      Animated.timing(footerOpacity, {
+        toValue:         1,
+        duration:        900,
         useNativeDriver: true,
       }),
     ]);
@@ -167,6 +177,19 @@ export default function HookScreen({ navigation }: Props) {
           <Text style={styles.btnText}>Come and see</Text>
         </TouchableOpacity>
       </Animated.View>
+
+      {/* ── The honest word (Elder Gong, on AI) ───────────────────────────────
+          Subtle, never the headline — but said plainly at the threshold so no one
+          ever mistakes the app for the Lord. Anchored in Elder Gerrit W. Gong's
+          counsel: "Artificial intelligence can answer questions, but it cannot
+          answer prayers... it is not God and cannot be God." What stirs here is a
+          spiritual exercise to take to God and to people who love you — and to let
+          the Spirit, not an app, confirm as true. */}
+      <Animated.Text style={[styles.footerText, { opacity: footerOpacity }]}>
+        This app is not God. It cannot answer a prayer or know you the way Jesus
+        does — it can only point you toward Him. Take what you feel here to God and
+        to people who love you, and let the Spirit, not an app, tell you what is true.
+      </Animated.Text>
     </View>
   );
 }
@@ -241,6 +264,20 @@ const styles = StyleSheet.create({
     lineHeight:      24,
     maxWidth:        280,
     marginBottom:    spacing.xxl,
+  },
+
+  // The honest word — small, dim, low. Present without competing with the invitation.
+  footerText: {
+    position:        'absolute',
+    bottom:          28,
+    fontSize:        11,
+    fontFamily:      'Georgia',
+    fontStyle:       'italic',
+    color:           '#6f6a5c',
+    textAlign:       'center',
+    lineHeight:      17,
+    maxWidth:        300,
+    paddingHorizontal: spacing.lg,
   },
 
   // Button — a filled, inviting pill rather than a thin bare outline.

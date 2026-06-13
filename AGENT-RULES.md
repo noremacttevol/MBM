@@ -188,6 +188,22 @@ They are rules. Build toward them; do not walk them back.
    `openBlessingInChat` in `useAppStore.ts`; the careful-weighing instruction lives in
    the `generateBlessing` system prompt.)
 
+7. **The app must say, plainly, that it is NOT God.** Subtly but never hidden, near the
+   opening, the app declares its own limit: it is not God, it cannot answer a prayer or
+   know a person the way Jesus does — it can only point toward Him. What stirs here is a
+   **spiritual exercise** to take to God and to trusted people, and to confirm by the
+   **Spirit, not the app**, before believing it. This is anchored in Elder Gerrit W.
+   Gong's counsel on AI (Quorum of the Twelve, 2025–2026): *"Artificial intelligence can
+   answer questions, but it cannot answer prayers… it is not God and cannot be God… it
+   can organize information, but it cannot offer revelation, covenant connection or
+   divine truth,"* and *"platforms and technologies cannot substitute for authentic
+   divine and human connection."* His three guideposts — **rely on the Spirit, practice
+   wisdom, choose trusted sources** — and his point that **AI should further, never
+   replace, the four relationships (God, self, others, nature)** are the app's own stance
+   on itself. (Live in `HookScreen.tsx` as the quiet footer; the fuller treatment for
+   devout members lives on the member/MAINTENANCE side, where the app states this stance
+   and why it is right.) Never let a person mistake the app for the Lord.
+
 ---
 
 ## System Guardrails (from `.claudecode.md`)
