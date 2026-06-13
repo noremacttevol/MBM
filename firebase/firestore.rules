@@ -1,0 +1,61 @@
+// ============================================================================
+// MBM — "Talk to a real person" two-way inbox (Firestore security rules)
+// ============================================================================
+// Paste these in the Firebase console: Firestore Database → Rules → Publish.
+//
+// How it stays private with NO login:
+//   Every install signs in ANONYMOUSLY (Firebase Anonymous Auth). That gives the
+//   device a real, hidden auth identity (request.auth.uid) without the person
+//   ever creating an account or giving an email. The rules below scope every
+//   read and write to that identity, so a person can ONLY ever see their own
+//   thread — even though the app ships with the public web config.
+//
+//   The admin (you) reads and replies with the Firebase Admin SDK / service
+//   account, which BYPASSES these rules entirely. That credential lives ONLY in
+//   your local admin page, never in the app and never in git.
+//
+// Data model — collection "messages", one document per message:
+//   userId       string   the person's anonymous auth uid (their thread key)
+//   sender       string   'user' | 'admin'
+//   body         string   the message text
+//   excerpt      string?  optional chat excerpt the person wanted to talk about
+//   journeyStage string?  where they are, for your triage
+//   createdAt    timestamp serverTimestamp()
+//   readByAdmin  bool     you have seen it
+//   readByUser   bool     they have seen your reply
+// ============================================================================
+
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /messages/{messageId} {
+
+      // A person may READ only their own thread (their notes + your replies).
+      allow read: if request.auth != null
+                  && resource.data.userId == request.auth.uid;
+
+      // A person may CREATE only their own messages, only as the 'user' sender.
+      allow create: if request.auth != null
+                    && request.resource.data.userId == request.auth.uid
+                    && request.resource.data.sender == 'user';
+
+      // A person may only mark their own thread as read — and may change NOTHING
+      // else. They cannot edit the body, flip the sender, or touch your replies'
+      // content; they can only set readByUser on their own rows.
+      allow update: if request.auth != null
+                    && resource.data.userId == request.auth.uid
+                    && request.resource.data.userId == resource.data.userId
+                    && request.resource.data.sender == resource.data.sender
+                    && request.resource.data.body == resource.data.body
+                    && request.resource.data.diff(resource.data)
+                         .affectedKeys().hasOnly(['readByUser']);
+
+      // No client may ever delete. (The admin service account bypasses all rules.)
+      allow delete: if false;
+    }
+
+    // Everything not matched above is denied by default.
+  }
+}
