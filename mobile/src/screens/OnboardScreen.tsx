@@ -74,7 +74,7 @@ const STORIES: Story[] = [
         reflection: "That is an honest question and a fair one. She had every reason for the same doubt — twelve years of trying earthly answers with nothing to show for it. Let's start with the honest questions.",
       },
       {
-        key: 'D', feedTag: 'MAINTENANCE', signal: 'covenant_intent',
+        key: 'D', feedTag: 'MILK', signal: 'covenant_intent',
         text: 'I already believe. I am here because I want to go deeper.',
         reflection: "Then you are in good company. Even those who walked closest to Jesus still had moments of reaching, still needed reminding of what they already knew. There is always more.",
       },
@@ -253,7 +253,7 @@ const STORIES: Story[] = [
         reflection: "That honesty is worth more than a performance of faith. The son who said yes and didn't go is the one Jesus used as a warning. Not knowing but showing up is closer to the truth than knowing and not moving.",
       },
       {
-        key: 'D', feedTag: 'MAINTENANCE', signal: 'covenant_intent',
+        key: 'D', feedTag: 'MILK', signal: 'covenant_intent',
         text: 'I have committed and I want to make sure my actions match what I say I believe.',
         reflection: "That self-awareness is rare. The gap between the yes and the going — that is where most of the work happens. Let's close that gap.",
       },
@@ -361,7 +361,7 @@ const STORIES: Story[] = [
         reflection: "The young man had kept every commandment and still felt like something was missing. Doing the right things and feeling empty is its own kind of honesty. That gap is worth exploring.",
       },
       {
-        key: 'D', feedTag: 'MAINTENANCE', signal: 'covenant_intent',
+        key: 'D', feedTag: 'MILK', signal: 'covenant_intent',
         text: 'I am committed but I know there are areas where I hold back.',
         reflection: "The young man was close — genuinely close. Jesus loved him for it. The holding back is where the next layer of growth usually lives. Let's go there.",
       },
