@@ -44,6 +44,15 @@ export default function JournalScreen() {
   const [text,      setText]      = useState('');
   const [submitted, setSubmitted] = useState(false);
   const [blessLine, setBlessLine] = useState('');
+  // Saved entries show as title links that expand to the full text on tap
+  // (Cameron's ask) — the list stays scannable, the full note is one tap away.
+  const [expandedIds, setExpandedIds] = useState<Set<string>>(new Set());
+  const toggleEntry = (id: string) =>
+    setExpandedIds(prev => {
+      const next = new Set(prev);
+      next.has(id) ? next.delete(id) : next.add(id);
+      return next;
+    });
   const fadeAnim  = useRef(new Animated.Value(1)).current;
   const thankAnim = useRef(new Animated.Value(0)).current;
 
@@ -245,13 +254,30 @@ export default function JournalScreen() {
               <View style={styles.sectionDivider} />
               <Text style={styles.sectionLabel}>PAST ENTRIES</Text>
 
-              {journalEntries.map(entry => (
-                <View key={entry.id} style={styles.entryCard}>
-                  <Text style={styles.entryDate}>{formatDate(entry.timestamp)}</Text>
-                  <Text style={styles.entryPrompt}>{entry.promptText}</Text>
-                  <Text style={styles.entryText}>{entry.text}</Text>
-                </View>
-              ))}
+              {journalEntries.map(entry => {
+                const open = expandedIds.has(entry.id);
+                return (
+                  <TouchableOpacity
+                    key={entry.id}
+                    style={styles.entryCard}
+                    activeOpacity={0.7}
+                    onPress={() => toggleEntry(entry.id)}
+                  >
+                    <Text style={styles.entryDate}>{formatDate(entry.timestamp)}</Text>
+                    <View style={styles.entryTitleRow}>
+                      <Text style={[styles.entryPrompt, { flex: 1 }]}>
+                        {entry.promptText || 'A note'}
+                      </Text>
+                      <Text style={styles.entryChevron}>{open ? '▾' : '▸'}</Text>
+                    </View>
+                    {open ? (
+                      <Text style={styles.entryText}>{entry.text}</Text>
+                    ) : (
+                      <Text style={styles.entryPreview} numberOfLines={1}>{entry.text}</Text>
+                    )}
+                  </TouchableOpacity>
+                );
+              })}
             </>
           )}
 
@@ -504,6 +530,23 @@ const styles = StyleSheet.create({
     fontFamily: 'Georgia',
     color:      colors.textDim,
     lineHeight: 22,
+  },
+  entryTitleRow: {
+    flexDirection:  'row',
+    alignItems:     'flex-start',
+    justifyContent: 'space-between',
+  },
+  entryChevron: {
+    fontSize:    12,
+    color:       colors.textMuted,
+    marginLeft:  spacing.sm,
+    marginTop:   1,
+  },
+  entryPreview: {
+    fontSize:   13,
+    fontFamily: 'Georgia',
+    color:      colors.textMuted,
+    lineHeight: 18,
   },
 
   emptyNote: {
