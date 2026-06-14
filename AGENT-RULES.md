@@ -130,7 +130,22 @@ signals **on their own**, in their own words:
 This is not a gate they know they are passing. It is a signal the app detects. The
 RESTORATION feed tag and the meat dialogue questions never appear until both signals
 are present. In code this is `mayReferenceLds(signals)` in `mobile/src/engine/connect.ts`
-— and it is the exact same gate the chat and the question bank use.
+— and it is the exact same gate the chat and the question bank use. As of 2026-06-13
+the chat gate is **`restorationReady(signals, spiritLevels)`**: the gospel now also
+waits for the **seven spirit levels** to be earned (openness, hunger, honest inquiry
+risen above the 5.0 neutral start), not just the two keyword signals. The levels are
+the measurement for *when* the church may be named — Cameron's design.
+
+### The no-duck law (the AI always answers) — PERMANENT, never remove
+The chat AI must **never** duck a question behind "talk to a real person." Every reply
+gives its honest answer **first** — it has real answers, above all about the goodness of
+God. A real person is offered **only in addition** to the answer, never as a substitute:
+for a hard question the shape is *"here is my honest answer… and if you'd like, you can
+share this part of our conversation with a real person who can go deeper."* Answering is
+never arguing — no pressure, no debating to win, no getting firm. This lives in the
+minister prompt (`minister.ts` / `minister.py`, the **"9a. NO-DUCK rule"**), kept in
+sync. Do not weaken or remove it. (Re-verify it with the adversarial Hermes test after
+any prompt change — forcing "always answer" can tip into pressure if worded harshly.)
 
 ### Membership comes only from self-identification (Law 3 / Law 8)
 A person is treated as a member **only** when they say so in their own words
