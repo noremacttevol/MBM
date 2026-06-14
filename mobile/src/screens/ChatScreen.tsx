@@ -23,10 +23,14 @@ export default function ChatScreen() {
   const sendChatMessage = useAppStore(s => s.sendChatMessage);
   const chatDraft       = useAppStore(s => s.chatDraft);
   const clearChatDraft  = useAppStore(s => s.clearChatDraft);
+  const chatSessions    = useAppStore(s => s.chatSessions);
+  const newChat         = useAppStore(s => s.newChat);
+  const openChat        = useAppStore(s => s.openChat);
 
   const [draft,          setDraft]          = useState('');
   const [submittingFC,   setSubmittingFC]   = useState(false);
   const [showConnect,    setShowConnect]    = useState(false);
+  const [showHistory,    setShowHistory]    = useState(false);
   const scrollRef = useRef<ScrollView>(null);
   const insets = useSafeAreaInsets();
 
@@ -48,6 +52,18 @@ export default function ChatScreen() {
     if (!text || chatLoading) return;
     setDraft('');
     await sendChatMessage(text);
+  }
+
+  // Start a fresh AI conversation — the current one is archived into history.
+  function handleNewChat() {
+    newChat();
+    setDraft('');
+    setShowHistory(false);
+    setShowConnect(false);
+  }
+
+  function fmtDay(ts: number) {
+    return new Date(ts).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
   }
 
   // Submit the last Q&A pair anonymously for Cameron to fact-check
@@ -96,16 +112,47 @@ export default function ChatScreen() {
       {/* ── Header ────────────────────────────────────────────────────────── */}
       <View style={styles.header}>
         <Text style={styles.headerTitle}>Ask anything.</Text>
-        {/* A real person is ALWAYS one tap away — never gated (CLAUDE.md law).
-            This opens the in-app connect capture, never a dead-end mailto. */}
-        <TouchableOpacity
-          style={styles.missionaryBtn}
-          activeOpacity={0.75}
-          onPress={() => setShowConnect(v => !v)}
-        >
-          <Text style={styles.missionaryBtnText}>Talk to a real person →</Text>
-        </TouchableOpacity>
+        <View style={styles.headerActions}>
+          <TouchableOpacity style={styles.headerBtn} activeOpacity={0.75} onPress={handleNewChat}>
+            <Text style={styles.headerBtnText}>+ New</Text>
+          </TouchableOpacity>
+          {chatSessions.length > 0 && (
+            <TouchableOpacity
+              style={styles.headerBtn}
+              activeOpacity={0.75}
+              onPress={() => { setShowHistory(v => !v); setShowConnect(false); }}
+            >
+              <Text style={styles.headerBtnText}>History ▾</Text>
+            </TouchableOpacity>
+          )}
+          {/* A real person is ALWAYS one tap away — never gated (CLAUDE.md law). */}
+          <TouchableOpacity
+            style={[styles.headerBtn, styles.personBtn]}
+            activeOpacity={0.75}
+            onPress={() => { setShowConnect(v => !v); setShowHistory(false); }}
+          >
+            <Text style={[styles.headerBtnText, styles.personBtnText]}>Real person</Text>
+          </TouchableOpacity>
+        </View>
       </View>
+
+      {/* History dropdown — past conversations as titles, newest first. */}
+      {showHistory && (
+        <View style={styles.historyPanel}>
+          <Text style={styles.historyHeading}>Past conversations</Text>
+          {chatSessions.map(sess => (
+            <TouchableOpacity
+              key={sess.id}
+              style={styles.historyRow}
+              activeOpacity={0.7}
+              onPress={() => { openChat(sess.id); setShowHistory(false); setShowConnect(false); }}
+            >
+              <Text style={styles.historyTitle} numberOfLines={1}>{sess.title || 'Conversation'}</Text>
+              <Text style={styles.historyDate}>{fmtDay(sess.updatedAt)}</Text>
+            </TouchableOpacity>
+          ))}
+        </View>
+      )}
 
       {/* In-app human-connect capture — saved on-device, no mailto (Phase 1). */}
       {showConnect && (
@@ -230,11 +277,30 @@ const styles = StyleSheet.create({
   },
   headerTitle: { fontSize: 18, fontFamily: 'Georgia', color: colors.textMid },
 
-  missionaryBtn: {
-    borderWidth: 1, borderColor: colors.green, borderRadius: 4,
-    paddingVertical: 6, paddingHorizontal: 10,
+  headerActions: { flexDirection: 'row', alignItems: 'center', gap: spacing.xs },
+  headerBtn: {
+    borderWidth: 1, borderColor: colors.borderDim, borderRadius: 4,
+    paddingVertical: 5, paddingHorizontal: 9,
   },
-  missionaryBtnText: { color: colors.green, fontSize: 11, fontFamily: 'Georgia' },
+  headerBtnText: { color: colors.textDim, fontSize: 11, fontFamily: 'Georgia' },
+  // The real-person action is blue, matching the blue of a real person's replies.
+  personBtn: { borderColor: colors.blue },
+  personBtnText: { color: colors.blue },
+
+  historyPanel: {
+    paddingHorizontal: spacing.md, paddingTop: spacing.sm, paddingBottom: spacing.xs,
+    borderBottomWidth: 1, borderBottomColor: colors.borderDim,
+  },
+  historyHeading: {
+    fontSize: 10, fontFamily: 'Georgia', color: colors.textMuted,
+    textTransform: 'uppercase', letterSpacing: 0.5, marginBottom: spacing.xs,
+  },
+  historyRow: {
+    flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center',
+    paddingVertical: 8, borderBottomWidth: 1, borderBottomColor: colors.borderDim,
+  },
+  historyTitle: { flex: 1, color: colors.textMid, fontSize: 13, fontFamily: 'Georgia' },
+  historyDate: { color: colors.textMuted, fontSize: 11, fontFamily: 'Georgia', marginLeft: spacing.sm },
 
   connectPanel: {
     paddingHorizontal: spacing.md, paddingTop: spacing.sm,

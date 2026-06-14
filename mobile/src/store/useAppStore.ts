@@ -150,6 +150,20 @@ export interface ChatMessage {
 }
 
 /**
+ * A saved past conversation, kept so the person can reopen any of them from a
+ * history dropdown on the Ask page (Cameron's ask). The live conversation stays
+ * in `chatMessages`; when they start a new chat or open an old one, the current
+ * thread is archived here as a titled ChatSession.
+ */
+export interface ChatSession {
+  id:        string;
+  title:     string;   // the first thing they said, trimmed — a scannable title
+  createdAt: number;
+  updatedAt: number;
+  messages:  ChatMessage[];
+}
+
+/**
  * A request to talk to a real person, captured ON-DEVICE.
  *
  * Phase 1 holds these locally and honestly tells the person a real human will
@@ -605,8 +619,9 @@ interface AppState {
   pendingNoteId:       string | null;
 
   // Chat
-  chatMessages:        ChatMessage[];
+  chatMessages:        ChatMessage[];   // the live, currently-open conversation
   chatLoading:         boolean;
+  chatSessions:        ChatSession[];   // saved past conversations, newest first
 
   // Every blessing line ever spoken — the disciple's working memory, so it
   // never repeats a compliment or sounds rehearsed.
@@ -668,6 +683,10 @@ interface AppActions {
   setChatLoading:      (loading: boolean) => void;
   appendAssistantMessage: (text: string) => void;
   appendMetaMessage:   (text: string) => void;
+  // Conversation history: archive the live thread and start fresh, or reopen a
+  // past conversation from the history dropdown on the Ask page.
+  newChat:             () => void;
+  openChat:            (id: string) => void;
   submitConnectRequest: (note: string) => void;
   // Two-way human inbox
   sendConnectMessage:  (note: string, excerpt?: string) => Promise<void>;
@@ -716,6 +735,7 @@ const initialState: AppState = {
   pendingNoteId:       null,
   chatMessages:        [],
   chatLoading:         false,
+  chatSessions:        [],
   blessingHistory:     [],
   connectRequests:     [],
   inboxMessages:       [],
@@ -787,6 +807,7 @@ export const useAppStore = create<AppState & AppActions>()(
           learnedNotes:        [],
           pendingNoteId:       null,
           chatMessages:        [],
+          chatSessions:        [],
           chatLoading:         false,
           blessingHistory:     [],
           activeExercise:      null,
@@ -1094,6 +1115,47 @@ export const useAppStore = create<AppState & AppActions>()(
           kind:      'meta',
         };
         set(s => ({ chatMessages: [...s.chatMessages, msg] }));
+      },
+
+      // Archive the live thread (if it has real content) as a titled session, so
+      // it can be reopened later. Returns the archive list with it prepended.
+      newChat() {
+        set(s => {
+          const real = s.chatMessages.filter(m => m.kind !== 'meta' && m.text.trim());
+          if (real.length === 0) return {};  // nothing worth saving
+          const firstUser = s.chatMessages.find(m => m.role === 'user');
+          const session: ChatSession = {
+            id:        Date.now().toString(),
+            title:     (firstUser?.text ?? real[0].text).trim().slice(0, 60),
+            createdAt: s.chatMessages[0]?.timestamp ?? Date.now(),
+            updatedAt: Date.now(),
+            messages:  s.chatMessages,
+          };
+          return { chatSessions: [session, ...s.chatSessions], chatMessages: [] };
+        });
+      },
+
+      // Reopen a saved conversation: archive whatever is currently open first (so
+      // nothing is lost), then load the chosen one as the live thread.
+      openChat(id) {
+        set(s => {
+          const target = s.chatSessions.find(x => x.id === id);
+          if (!target) return {};
+          const rest = s.chatSessions.filter(x => x.id !== id);
+          const real = s.chatMessages.filter(m => m.kind !== 'meta' && m.text.trim());
+          let archive = rest;
+          if (real.length > 0) {
+            const firstUser = s.chatMessages.find(m => m.role === 'user');
+            archive = [{
+              id:        Date.now().toString(),
+              title:     (firstUser?.text ?? real[0].text).trim().slice(0, 60),
+              createdAt: s.chatMessages[0]?.timestamp ?? Date.now(),
+              updatedAt: Date.now(),
+              messages:  s.chatMessages,
+            }, ...rest];
+          }
+          return { chatSessions: archive, chatMessages: target.messages };
+        });
       },
 
       submitConnectRequest(note) {
@@ -1806,6 +1868,7 @@ ${guidance}${creationDilemma}${SIGNAL_REPORT_INSTRUCTION}${TRAIT_REPORT_INSTRUCT
         answeredPromptIds:   state.answeredPromptIds,
         learnedNotes:        state.learnedNotes,
         chatMessages:        state.chatMessages,
+        chatSessions:        state.chatSessions,
         blessingHistory:     state.blessingHistory,
         connectRequests:     state.connectRequests,
         name:                state.name,
