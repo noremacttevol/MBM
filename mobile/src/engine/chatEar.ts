@@ -12,6 +12,10 @@ export const VALID_REPORT_TOKENS = new Set([
   'inactive_member', 'active_member', 'losing_faith',
   'pictures_harsh_god', 'pictures_distant_god', 'reformed_framework',
   'rejects_harsh_god', 'nontheistic_framework',
+  // A firm refusal to even examine the restored gospel — the "won't look" posture
+  // that, per the binding standard, caps the Christlike scale at 5. A soft "not
+  // right now" must NOT be reported as this; only a clear refusal to look.
+  'declined_restoration',
 ]);
 
 // FAITH-IDENTITY signals describe WHO a person is with regard to faith — their
@@ -139,7 +143,12 @@ export function harvestSignals(text: string): string[] {
     !/\b(don'?t|doesn'?t|never|stopped|no longer|won'?t|isn'?t|not)\b/.test(sn)
   )) found.push('open_to_restoration');
 
-  if (/\bbook of mormon\b/.test(lower)) found.push('curious_about_book_of_mormon');
+  // A firm refusal to even examine the restored gospel — the "won't look" posture.
+  // Conservative on purpose: only a clear refusal, never a soft "not right now."
+  const refusesRestoration = /\b(i (won'?t|will not|am not going to|refuse to) (read|look at|open|consider|touch))\b|\bnot interested in (reading |looking at )?(the )?(book of mormon|joseph smith|your church|the restoration)\b|\bi don'?t (want|care) to (read|see|hear about) (it|that|the book|the book of mormon)\b/.test(lower);
+  if (refusesRestoration) found.push('declined_restoration');
+  // Curiosity about the Book of Mormon — but never when they are refusing it.
+  if (/\bbook of mormon\b/.test(lower) && !refusesRestoration) found.push('curious_about_book_of_mormon');
   if (/\bdrawn to jesus\b|\bjesus sounds\b|\bi like jesus\b/.test(lower)) found.push('drawn_to_jesus');
   if (/\bget baptized\b|\bjoin the church\b|\bbecome a member\b/.test(lower)) found.push('wants_to_join');
   if (/\bgrie(f|ving)\b|\blost (my|someone)\b|\bpassed away\b/.test(lower)) found.push('carries_grief');

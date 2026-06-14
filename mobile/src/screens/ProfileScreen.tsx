@@ -102,11 +102,36 @@ function interpretTraits(scores: Record<TraitKey, number>, feedTag: string): str
 
 // "A faith you grew up in…" — describes their faith from signals WITHOUT ever
 // naming a track or a category to them. Member self-ID is honored, in their words.
-function faithStatusLine(signals: string[]): string {
-  if (isMemberSignal(signals)) return 'A Latter-day Saint — you told us yourself.';
-  if (signals.includes('active_faith_tradition')) return 'Part of a faith community today — in your words below.';
-  if (signals.includes('has_history_with_faith')) return 'A faith you grew up in, at some distance now — in your words below.';
-  return 'Still taking shape — in your words below.';
+// ── The faith-background ladder (the binding standard, Track 1) ──────────────
+// An honest, transparent description of where a person stands in BELIEF — shown to
+// them, explained, and counting NO ONE out. It is never a verdict on worth; it just
+// names, respectfully, the path they're on. It climbs on real steps the person
+// takes (accepting the invitation → investigator; telling us they're a member).
+type FaithRung =
+  | 'TAKING_SHAPE' | 'ATHEIST' | 'AGNOSTIC' | 'OTHER_FAITH'
+  | 'JESUS_BELIEVER' | 'INVESTIGATOR' | 'MEMBER' | 'MEAT';
+
+const FAITH_LADDER: { key: FaithRung; label: string; blurb: string }[] = [
+  { key: 'ATHEIST',        label: 'Not yet sure God is there',       blurb: 'Honest about the doubt — welcome exactly as you are.' },
+  { key: 'AGNOSTIC',       label: 'Open, but unsure',                blurb: 'Holding the question gently. No rush.' },
+  { key: 'OTHER_FAITH',    label: 'Walking another path of faith',   blurb: 'Honored — there is real light in where you are.' },
+  { key: 'JESUS_BELIEVER', label: 'A believer in Jesus',            blurb: 'Christ at the center — churched or not.' },
+  { key: 'INVESTIGATOR',   label: 'A friend of the restored gospel', blurb: 'You opened the door to learn more. Glad to walk it with you.' },
+  { key: 'MEMBER',         label: 'A Latter-day Saint',              blurb: 'You told us yourself.' },
+  { key: 'MEAT',           label: 'Growing deep in the gospel',      blurb: 'Pressing toward the fullness, together.' },
+];
+
+function faithRung(signals: string[], faithText: string): FaithRung {
+  if (isMemberSignal(signals)) return 'MEMBER';
+  if (signals.includes('curious_about_book_of_mormon') ||
+      signals.includes('wants_to_join') ||
+      signals.includes('asking_how_to_belong')) return 'INVESTIGATOR';
+  if (signals.includes('believes_in_jesus') ||
+      /\b(jesus|christ|christian|baptist|catholic|methodist|presbyterian|pentecostal|evangelical|lutheran|orthodox)\b/.test(faithText)) return 'JESUS_BELIEVER';
+  if (/\b(muslim|islam|hindu|jewish|judaism|buddhist|sikh)\b/.test(faithText)) return 'OTHER_FAITH';
+  if (/\bagnostic\b/.test(faithText)) return 'AGNOSTIC';
+  if (/\batheist\b/.test(faithText) || signals.includes('skeptical_of_god')) return 'ATHEIST';
+  return 'TAKING_SHAPE';
 }
 
 function fmtDate(ts: number): string {
@@ -140,6 +165,11 @@ export default function ProfileScreen() {
   // The raw climb is kept underneath (it drives the readiness gate); this only
   // bounds what's displayed, so the number and the "Christlike" label always agree.
   const christlikeCeiling = christlikeCap(dialogueSignals);
+  // The faith-background ladder: where they stand in belief, named honestly and
+  // shown to them, climbing on real steps they take. Counts no one out.
+  const faithText   = faithWords.map(w => w.text).join(' ').toLowerCase();
+  const currentRung = faithRung(dialogueSignals, faithText);
+  const currentRungInfo = FAITH_LADDER.find(r => r.key === currentRung);
 
   function askAbout(title: string) {
     prefillChat(
@@ -214,7 +244,31 @@ export default function ProfileScreen() {
         {/* Always editable — a person can fix a typo or add context anytime. */}
         <View style={styles.card}>
           <Text style={styles.sectionLabel}>YOUR FAITH, AS YOU'VE TOLD IT</Text>
-          <Text style={styles.faithStatus}>{faithStatusLine(dialogueSignals)}</Text>
+          <Text style={styles.faithStatus}>
+            {currentRungInfo ? currentRungInfo.label : 'Still taking shape — in your words below.'}
+          </Text>
+          {currentRungInfo && (
+            <Text style={styles.interpretText}>{currentRungInfo.blurb}</Text>
+          )}
+          {/* The ladder, shown openly — where this can grow, counting no one out. */}
+          <View style={{ marginTop: spacing.sm, marginBottom: spacing.xs }}>
+            {FAITH_LADDER.map(r => {
+              const here = r.key === currentRung;
+              return (
+                <Text
+                  key={r.key}
+                  style={{
+                    color: here ? colors.gold : colors.textMuted,
+                    fontWeight: here ? '700' : '400',
+                    fontSize: 13,
+                    paddingVertical: 1,
+                  }}
+                >
+                  {here ? '› ' : '    '}{r.label}
+                </Text>
+              );
+            })}
+          </View>
 
           {faithWords.map((w, i) => (
             <View key={`${w.ts}-${i}`} style={styles.faithRow}>
