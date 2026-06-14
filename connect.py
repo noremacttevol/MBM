@@ -152,6 +152,58 @@ def may_reference_lds(signals: List[str]) -> bool:
     return believes_god_good(signals) and open_to_more(signals)
 
 
+# ── The seven-spirit-levels readiness gate (mirror of connect.ts) ────────────
+# Cameron's design (2026-06-13): the seven spirit levels are the measurement for
+# WHEN the restored gospel may be named. Levels start at 5.0/10 (neutral) and rise
+# through honest, open, hungry engagement; the gospel is held back until the
+# readiness virtues have genuinely risen above neutral — earned, not keyword-matched.
+# Only the readiness virtues gate timing: openness, hunger, honest_inquiry, with a
+# teachable-humility floor in the average. This never asks the AI to push; the gate
+# just stays quiet until the levels are there. Keep in sync with connect.ts.
+
+# Above the 5.0 neutral start, so readiness must be visibly demonstrated.
+SPIRIT_GATE = {
+    "openness_min":       6.5,
+    "hunger_min":         6.0,
+    "honest_inquiry_min": 5.5,
+    "readiness_avg_min":  6.0,  # avg of openness, hunger, honest_inquiry, humility
+}
+
+# The seven level keys, for reference / validation.
+SPIRIT_LEVEL_KEYS = (
+    "honest_inquiry", "openness", "humility", "hunger",
+    "compassion", "courage", "sincerity",
+)
+
+
+def spirit_ready(levels: Optional[Dict[str, float]]) -> bool:
+    """True once the readiness virtues have risen far enough to hear the gospel."""
+    if not levels:
+        return False
+    openness = levels.get("openness", 0.0)
+    hunger = levels.get("hunger", 0.0)
+    honest_inquiry = levels.get("honest_inquiry", 0.0)
+    humility = levels.get("humility", 0.0)
+    avg = (openness + hunger + honest_inquiry + humility) / 4.0
+    return (
+        openness >= SPIRIT_GATE["openness_min"]
+        and hunger >= SPIRIT_GATE["hunger_min"]
+        and honest_inquiry >= SPIRIT_GATE["honest_inquiry_min"]
+        and avg >= SPIRIT_GATE["readiness_avg_min"]
+    )
+
+
+def restoration_ready(signals: List[str], levels: Optional[Dict[str, float]]) -> bool:
+    """
+    The full restored-gospel gate: belief signals (milk-before-meat) AND the spirit
+    levels both ready. Stricter than may_reference_lds alone, on purpose — this is
+    the fix for naming the church too early. Members never run this gate.
+    """
+    if is_member(signals):
+        return False
+    return may_reference_lds(signals) and spirit_ready(levels)
+
+
 def seeking_formal(signals: List[str]) -> bool:
     return _has_any(signals, SEEKING_FORMAL_SIGNALS)
 

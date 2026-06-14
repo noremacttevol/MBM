@@ -84,8 +84,10 @@ export const TRAIT_REPORT_INSTRUCTION =
   'for any level THIS message genuinely moved, where delta is a number from -1.5 to ' +
   '1.5. Raise a level when the person truly shows it (real honesty, humility, courage, ' +
   'hunger, compassion). LOWER it when they genuinely show its opposite — pride, a closed ' +
-  'heart, evasion, contempt, self-righteousness, cruelty. Judge as Jesus judged: firm ' +
-  'with the proud and self-certain, gentle with the wounded and seeking. Do NOT lower a ' +
+  'heart, evasion, contempt, self-righteousness, cruelty. Read clear-eyed and honest — ' +
+  'see pride or a closed heart for what it is, and real openness for what it is — but this ' +
+  'reading NEVER changes how you speak to them: your reply stays warm and gentle no matter ' +
+  'what you score, and you never argue, pressure, or get firm with anyone. Do NOT lower a ' +
   'level for honest doubt, grief, pain, or simply not believing yet — those are not sins. ' +
   'BE DECISIVE, NOT TIMID. Whenever a message clearly shows or clearly lacks one of these ' +
   'qualities, REGISTER it — a real act of honesty or courage should move 0.6 to 1.2, a ' +

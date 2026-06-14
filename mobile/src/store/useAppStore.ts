@@ -13,6 +13,8 @@ import {
 } from '../data/questionBank';
 import {
   mayReferenceLds as engineMayReferenceLds,
+  restorationReady as engineRestorationReady,
+  spiritReady as engineSpiritReady,
   missionaryReferralReady as engineMissionaryReady,
   isMember as engineIsMember,
   assessJourney,
@@ -1553,7 +1555,14 @@ export const useAppStore = create<AppState & AppActions>()(
         // they are on the journey, and whether a missionary referral is appropriate.
         // Built from combinedSignals so the gate reflects what was just said.
         const conn       = assessConnection(combinedSignals, text);
-        const mayLds     = isRestorationReady(combinedSignals);
+        // Milk-before-meat now also requires the seven spirit levels to be EARNED.
+        // The restored gospel is named only once BOTH the belief signals and the
+        // spirit-readiness levels are present (Cameron's design: the levels are the
+        // gate). This is what holds the church back until the person has genuinely
+        // risen above neutral on openness, hunger, and honest inquiry.
+        const beliefReady = isRestorationReady(combinedSignals);
+        const spiritOk    = engineSpiritReady(state.traitScores);
+        const mayLds      = engineRestorationReady(combinedSignals, state.traitScores);
 
         // NEVER name the admin here. The model only needs to know a real PERSON is
         // available — not who. Leaking a personal name into chat was a real failure.
@@ -1569,7 +1578,7 @@ export const useAppStore = create<AppState & AppActions>()(
 [LIVE GUIDANCE — derived from what this person has revealed]
 - Where they are on the journey toward Christ: ${conn.journeyStage}
 - A real human is available right now: YES (always — a real person reads these). Refer to them only as "a real person," never by name.${conn.requested ? `\n- They appear to be asking to: ${conn.requested.replace(/_/g, ' ').toLowerCase()}.` : ''}
-- May you reference the restored gospel / The Church of Jesus Christ of Latter-day Saints / the Book of Mormon yet? ${mayLds ? 'YES — both readiness signals are present. You may do so gently, honestly, never as a pitch.' : 'NO — the milk-before-meat law is in force. Give only milk: the Jesus and the good God of the Bible. Do not mention the Church, Joseph Smith, the Restoration, the Book of Mormon, or missionaries.'}
+- May you reference the restored gospel / The Church of Jesus Christ of Latter-day Saints / the Book of Mormon yet? ${mayLds ? 'YES — the belief readiness AND the spirit levels are both present. You may do so gently, honestly, never as a pitch.' : `NO — the milk-before-meat law is in force${beliefReady && !spiritOk ? ' (they believe, but their openness/hunger/honest-inquiry levels are not yet there — keep drawing them out, do not name the Church yet)' : !beliefReady ? ' (the belief readiness is not yet present)' : ''}. Give only milk: the Jesus and the good God of the Bible. Do not mention the Church, Joseph Smith, the Restoration, the Book of Mormon, or missionaries.`}
 - Missionary referral appropriate? ${conn.missionaryReady ? 'YES — they are reaching toward the church on their own and have passed the milk. You may gently offer to connect them with missionaries.' : 'NO — do not bring up missionaries.'}`;
 
         // The person's name, if they gave it — address them as a friend would.

@@ -167,6 +167,74 @@ export function mayReferenceLds(signals: string[]): boolean {
   return believesGodGood(signals) && openToMore(signals);
 }
 
+// ── The seven-spirit-levels readiness gate ──────────────────────────────────
+// The restored gospel is "meat." Cameron's design (2026-06-13): the seven spirit
+// levels are the measurement for WHEN the church may be named. A person's words
+// raise the levels through honest, open, hungry engagement; only when the
+// readiness levels have genuinely risen above neutral is the restored gospel
+// revealed. The levels start at 5.0/10 (neutral), so crossing these thresholds
+// means the person has DEMONSTRATED readiness in the conversation — not merely
+// said a keyword. This is what holds the gospel back until it is actually earned,
+// and it never asks the AI to push: the gate simply stays quiet until then.
+//
+// Only the readiness virtues gate the gospel — openness (to more / to revelation),
+// hunger (for truth), and honest_inquiry (genuine seeking, not testing), with a
+// teachable-humility floor folded into the average. Compassion, courage, and
+// sincerity are part of who the person is but are not what makes someone ready to
+// hear about continuing revelation, so they do not gate timing.
+
+export interface SpiritLevels {
+  honest_inquiry: number;
+  openness:       number;
+  humility:       number;
+  hunger:         number;
+  compassion:     number;
+  courage:        number;
+  sincerity:      number;
+}
+
+// Thresholds are above the 5.0 neutral start, so the person must have visibly
+// risen on the readiness virtues before the gospel is named. Tuned to be
+// reachable for a genuine seeker over a real conversation, yet to block a single
+// keyword from opening the gate prematurely (the early-mention problem).
+export const SPIRIT_GATE = {
+  opennessMin:      6.5,
+  hungerMin:        6.0,
+  honestInquiryMin: 5.5,
+  readinessAvgMin:  6.0, // average of openness, hunger, honest_inquiry, humility
+};
+
+/**
+ * Has the person risen far enough on the readiness virtues to be ready to hear
+ * the restored gospel? Returns false until the levels are genuinely earned.
+ */
+export function spiritReady(levels: SpiritLevels | null | undefined): boolean {
+  if (!levels) return false;
+  const { openness, hunger, honest_inquiry, humility } = levels;
+  const avg = (openness + hunger + honest_inquiry + humility) / 4;
+  return (
+    openness       >= SPIRIT_GATE.opennessMin &&
+    hunger         >= SPIRIT_GATE.hungerMin &&
+    honest_inquiry >= SPIRIT_GATE.honestInquiryMin &&
+    avg            >= SPIRIT_GATE.readinessAvgMin
+  );
+}
+
+/**
+ * The full restored-gospel gate: the belief signals (milk-before-meat) AND the
+ * spirit levels both have to be ready. This is what the app should ask before it
+ * lets the minister name the Church / Book of Mormon / Restoration. Stricter than
+ * mayReferenceLds alone, on purpose — it is the fix for mentioning the church too
+ * early. Members never run this gate (they already hold the gospel).
+ */
+export function restorationReady(
+  signals: string[],
+  levels: SpiritLevels | null | undefined,
+): boolean {
+  if (isMember(signals)) return false;
+  return mayReferenceLds(signals) && spiritReady(levels);
+}
+
 export function seekingFormal(signals: string[]): boolean {
   return hasAny(signals, SEEKING_FORMAL_SIGNALS);
 }
