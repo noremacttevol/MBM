@@ -26,6 +26,9 @@ export default function ChatScreen() {
   const chatSessions    = useAppStore(s => s.chatSessions);
   const newChat         = useAppStore(s => s.newChat);
   const openChat        = useAppStore(s => s.openChat);
+  const escalateToRealPerson = useAppStore(s => s.escalateToRealPerson);
+  const inboxMessages   = useAppStore(s => s.inboxMessages);
+  const inboxUnread     = useAppStore(s => s.inboxUnread);
 
   const [draft,          setDraft]          = useState('');
   const [submittingFC,   setSubmittingFC]   = useState(false);
@@ -67,34 +70,23 @@ export default function ChatScreen() {
   }
 
   // Submit the last Q&A pair anonymously for Cameron to fact-check
+  // Bring THIS conversation to a real person: summarize the AI's answer, send it
+  // into the separate real-person thread, and leave it waiting for their reply.
   async function handleFactCheck() {
-    const msgs = chatMessages;
-    if (msgs.length < 2) return;
-
-    // Find last user message and last assistant message
-    const lastUser = [...msgs].reverse().find(m => m.role === 'user');
-    const lastAI   = [...msgs].reverse().find(m => m.role === 'assistant');
-    if (!lastUser || !lastAI) return;
-
+    if (chatMessages.length < 2) return;
     setSubmittingFC(true);
-    try {
-      await fetch(`${SERVER_URL}/api/factcheck`, {
-        method:  'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          question:  lastUser.text,
-          ai_answer: lastAI.text,
-        }),
-      });
+    const ok = await escalateToRealPerson();
+    setSubmittingFC(false);
+    if (ok) {
+      setShowConnect(true);   // open the real-person thread (the blue one)
+      setShowHistory(false);
       Alert.alert(
-        'Submitted',
-        'Your question and my answer have been sent anonymously for a real person to review. Thank you for helping make this better.',
+        'Sent to a real person',
+        "I've carried this conversation to a real person and left it waiting for them. When they reply, you'll see it here in blue — and it'll jump to the top of your conversations.",
         [{ text: 'OK' }],
       );
-    } catch {
-      Alert.alert('Could not submit', 'Check your connection and try again.');
-    } finally {
-      setSubmittingFC(false);
+    } else {
+      Alert.alert('Nothing to send yet', 'Ask something first, then bring it to a real person.');
     }
   }
 
@@ -140,6 +132,22 @@ export default function ChatScreen() {
       {showHistory && (
         <View style={styles.historyPanel}>
           <Text style={styles.historyHeading}>Past conversations</Text>
+          {/* The real-person thread sits at the TOP, and a new reply is flagged in
+              blue — so a human's answer always rises to the top of the list. */}
+          {inboxMessages.length > 0 && (
+            <TouchableOpacity
+              style={styles.historyRow}
+              activeOpacity={0.7}
+              onPress={() => { setShowConnect(true); setShowHistory(false); }}
+            >
+              <Text style={[styles.historyTitle, { color: colors.blue }]} numberOfLines={1}>
+                A real person{inboxUnread > 0 ? ' — new reply' : ''}
+              </Text>
+              {inboxUnread > 0 && (
+                <Text style={[styles.historyDate, { color: colors.blue }]}>{inboxUnread} new</Text>
+              )}
+            </TouchableOpacity>
+          )}
           {chatSessions.map(sess => (
             <TouchableOpacity
               key={sess.id}
@@ -235,8 +243,8 @@ export default function ChatScreen() {
           >
             <Text style={styles.factCheckText}>
               {submittingFC
-                ? 'Submitting…'
-                : 'Not sure about my last answer? Send it anonymously for a real person to check →'}
+                ? 'Bringing this to a real person…'
+                : 'Want a real person to weigh in? Bring this conversation to them →'}
             </Text>
           </TouchableOpacity>
         )}

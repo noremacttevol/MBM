@@ -163,6 +163,20 @@ export interface ChatSession {
   messages:  ChatMessage[];
 }
 
+// Fire a notification when a real person replies. On web this uses the browser
+// Notification API (asking permission once); on native it is a no-op for now —
+// true background phone push needs a push service + device tokens (Phase 2), which
+// is a separate backend build. This at least alerts the person while the app's open.
+function notifyRealPersonReply(body: string) {
+  try {
+    const N: any = (globalThis as any).Notification;
+    if (!N) return;
+    const show = () => { try { new N('A real person replied', { body: (body || '').slice(0, 140) }); } catch {/* noop */} };
+    if (N.permission === 'granted') show();
+    else if (N.permission !== 'denied') N.requestPermission().then((p: string) => { if (p === 'granted') show(); });
+  } catch {/* notifications unavailable — fine */}
+}
+
 /**
  * A request to talk to a real person, captured ON-DEVICE.
  *
@@ -690,6 +704,9 @@ interface AppActions {
   submitConnectRequest: (note: string) => void;
   // Two-way human inbox
   sendConnectMessage:  (note: string, excerpt?: string) => Promise<void>;
+  // Carry the CURRENT ai conversation to a real person: summarize the AI's answer,
+  // send it into the separate real-person thread, and leave it waiting for a reply.
+  escalateToRealPerson: () => Promise<boolean>;
   loadInbox:           () => Promise<void>;
   markInboxRead:       () => void;
   startInboxSubscription: () => () => void;
@@ -1195,6 +1212,24 @@ export const useAppStore = create<AppState & AppActions>()(
         }
       },
 
+      // Carry the current AI conversation to a real person. Summarizes the last
+      // question and the AI's answer, sends it into the SEPARATE real-person thread
+      // as the opening context, and leaves it there waiting for a human reply. The
+      // AI chat itself is untouched. Returns true if there was something to send.
+      async escalateToRealPerson() {
+        const msgs = get().chatMessages.filter(m => m.kind !== 'meta' && m.text.trim());
+        const lastUser = [...msgs].reverse().find(m => m.role === 'user');
+        const lastAI   = [...msgs].reverse().find(m => m.role === 'assistant');
+        if (!lastUser && !lastAI) return false;
+        const note =
+          (lastUser ? `I was talking with the app and asked:\n"${lastUser.text}"\n\n` : '') +
+          (lastAI ? `The app answered:\n"${lastAI.text}"\n\n` : '') +
+          `I'd love a real person's thoughts on this.`;
+        // The excerpt carries the AI's answer so the human sees the context at a glance.
+        await get().sendConnectMessage(note, lastAI?.text);
+        return true;
+      },
+
       // Pull the whole human thread for this device and compute unread admin replies.
       async loadInbox() {
         if (!isMessagingConfigured) return;
@@ -1215,14 +1250,18 @@ export const useAppStore = create<AppState & AppActions>()(
       startInboxSubscription() {
         if (!isMessagingConfigured) return () => {};
         return cloudSubscribe(msg => {
+          let replied = false;
           set(s => {
             if (s.inboxMessages.some(m => m.id === msg.id)) return s;  // de-dupe
             const isAdminReply = msg.sender === 'admin' && !msg.read_by_user;
+            replied = isAdminReply;
             return {
               inboxMessages: [...s.inboxMessages, msg],
               inboxUnread:   isAdminReply ? s.inboxUnread + 1 : s.inboxUnread,
             };
           });
+          // A real person replied — notify them and let it rise to the top.
+          if (replied) notifyRealPersonReply(msg.body);
         });
       },
 
