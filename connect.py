@@ -154,19 +154,20 @@ def may_reference_lds(signals: List[str]) -> bool:
 
 # ── The seven-spirit-levels readiness gate (mirror of connect.ts) ────────────
 # Cameron's design (2026-06-13): the seven spirit levels are the measurement for
-# WHEN the restored gospel may be named. Levels start at 5.0/10 (neutral) and rise
-# through honest, open, hungry engagement; the gospel is held back until the
-# readiness virtues have genuinely risen above neutral — earned, not keyword-matched.
-# Only the readiness virtues gate timing: openness, hunger, honest_inquiry, with a
-# teachable-humility floor in the average. This never asks the AI to push; the gate
-# just stays quiet until the levels are there. Keep in sync with connect.ts.
+# WHEN the restored gospel may be named. Every soul starts at 0/10 and CLIMBS by
+# proving the virtue through engagement; the gospel is held back until the readiness
+# virtues have genuinely been earned — not keyword-matched. Only the readiness
+# virtues gate timing: openness, hunger, honest_inquiry, with a teachable-humility
+# floor in the average. This never asks the AI to push; the gate just stays quiet
+# until the levels are there. Keep in sync with connect.ts.
 
-# Above the 5.0 neutral start, so readiness must be visibly demonstrated.
+# On a 0->10 climb, "ready" is the ~5ish midpoint Cameron named — roughly half the
+# scale earned on the readiness virtues. High enough a keyword can't open it.
 SPIRIT_GATE = {
-    "openness_min":       6.5,
-    "hunger_min":         6.0,
-    "honest_inquiry_min": 5.5,
-    "readiness_avg_min":  6.0,  # avg of openness, hunger, honest_inquiry, humility
+    "openness_min":       5.5,
+    "hunger_min":         5.0,
+    "honest_inquiry_min": 4.5,
+    "readiness_avg_min":  5.0,  # avg of openness, hunger, honest_inquiry, humility
 }
 
 # The seven level keys, for reference / validation.

@@ -171,11 +171,12 @@ export function mayReferenceLds(signals: string[]): boolean {
 // The restored gospel is "meat." Cameron's design (2026-06-13): the seven spirit
 // levels are the measurement for WHEN the church may be named. A person's words
 // raise the levels through honest, open, hungry engagement; only when the
-// readiness levels have genuinely risen above neutral is the restored gospel
-// revealed. The levels start at 5.0/10 (neutral), so crossing these thresholds
-// means the person has DEMONSTRATED readiness in the conversation — not merely
-// said a keyword. This is what holds the gospel back until it is actually earned,
-// and it never asks the AI to push: the gate simply stays quiet until then.
+// readiness levels have genuinely been EARNED is the restored gospel revealed.
+// Every soul starts at 0/10 and climbs by proving the virtue, so reaching these
+// thresholds (around the 5ish midpoint, exactly as Cameron specified) means the
+// person has DEMONSTRATED readiness in the conversation — not merely said a
+// keyword. This is what holds the gospel back until it is actually earned, and it
+// never asks the AI to push: the gate simply stays quiet until then.
 //
 // Only the readiness virtues gate the gospel — openness (to more / to revelation),
 // hunger (for truth), and honest_inquiry (genuine seeking, not testing), with a
@@ -193,15 +194,15 @@ export interface SpiritLevels {
   sincerity:      number;
 }
 
-// Thresholds are above the 5.0 neutral start, so the person must have visibly
-// risen on the readiness virtues before the gospel is named. Tuned to be
-// reachable for a genuine seeker over a real conversation, yet to block a single
-// keyword from opening the gate prematurely (the early-mention problem).
+// On a 0→10 climb, "ready" is the ~5ish midpoint Cameron named: the person has
+// earned roughly half the scale on the readiness virtues by proving them through
+// the conversation. High enough that a single keyword can't open the gate, low
+// enough that a genuine seeker reaches it by really engaging.
 export const SPIRIT_GATE = {
-  opennessMin:      6.5,
-  hungerMin:        6.0,
-  honestInquiryMin: 5.5,
-  readinessAvgMin:  6.0, // average of openness, hunger, honest_inquiry, humility
+  opennessMin:      5.5,
+  hungerMin:        5.0,
+  honestInquiryMin: 4.5,
+  readinessAvgMin:  5.0, // average of openness, hunger, honest_inquiry, humility
 };
 
 /**

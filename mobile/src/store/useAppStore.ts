@@ -468,7 +468,7 @@ function nudgeTraits(scores: TraitScores, deltas: Partial<TraitScores>): TraitSc
   const next: TraitScores = { ...scores };
   for (const [k, d] of Object.entries(deltas)) {
     const key = k as keyof TraitScores;
-    const cur = next[key] ?? 5;
+    const cur = next[key] ?? 0;
     next[key] = Math.round(Math.max(TRAIT_MIN, Math.min(TRAIT_MAX, cur + (d ?? 0))) * 1000) / 1000;
   }
   return next;
@@ -938,7 +938,7 @@ export const useAppStore = create<AppState & AppActions>()(
 
         for (const [k, delta] of Object.entries(deltas)) {
           const key     = k as keyof TraitScores;
-          const current = newTraits[key] ?? 5.0;
+          const current = newTraits[key] ?? 0.0;
           newTraits[key] = Math.round(
             Math.max(TRAIT_MIN, Math.min(TRAIT_MAX, current + (delta ?? 0))) * 1000,
           ) / 1000;

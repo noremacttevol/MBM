@@ -14,14 +14,18 @@ export type TraitKey =
 
 export type TraitScores = Record<TraitKey, number>;
 
+// The settled standard (Cameron, 2026-06-13): every soul STARTS AT 0 and EARNS
+// each point by proving the virtue through how they engage. No one is handed a
+// neutral 5 — the climb is the point, and the virtue scale is what reveals when a
+// person is ready for the restored-gospel path. Start at zero; earn the rest.
 export const DEFAULT_TRAITS: TraitScores = {
-  honest_inquiry: 5.0,
-  openness:       5.0,
-  humility:       5.0,
-  hunger:         5.0,
-  compassion:     5.0,
-  courage:        5.0,
-  sincerity:      5.0,
+  honest_inquiry: 0.0,
+  openness:       0.0,
+  humility:       0.0,
+  hunger:         0.0,
+  compassion:     0.0,
+  courage:        0.0,
+  sincerity:      0.0,
 };
 
 export const TRAIT_MIN = 0.0;

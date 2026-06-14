@@ -55,14 +55,14 @@ const TRAIT_ORDER: TraitKey[] = [
 ];
 
 function interpretTraits(scores: Record<TraitKey, number>, feedTag: string): string {
-  const hunger    = scores.hunger ?? 5;
-  const sincerity = scores.sincerity ?? 5;
-  const courage   = scores.courage ?? 5;
-  const openness  = scores.openness ?? 5;
-  const humility  = scores.humility ?? 5;
+  const hunger    = scores.hunger ?? 0;
+  const sincerity = scores.sincerity ?? 0;
+  const courage   = scores.courage ?? 0;
+  const openness  = scores.openness ?? 0;
+  const humility  = scores.humility ?? 0;
 
   const dominant = TRAIT_ORDER
-    .map(k => ({ key: k, val: scores[k] ?? 5 }))
+    .map(k => ({ key: k, val: scores[k] ?? 0 }))
     .sort((a, b) => b.val - a.val)
     .slice(0, 2)
     .map(t => TRAIT_LABELS[t.key].toLowerCase());
@@ -144,7 +144,7 @@ export default function ProfileScreen() {
 
   function talkAboutTrait(key: TraitKey) {
     const label = TRAIT_LABELS[key].toLowerCase();
-    const score = (traitScores[key] ?? 5).toFixed(1);
+    const score = (traitScores[key] ?? 0).toFixed(1);
     prefillChat(
       `My ${label} level is at ${score} out of 10. Be honest with me — what have you seen in me that put it there, and what would actually help it grow?`,
     );
@@ -292,7 +292,7 @@ export default function ProfileScreen() {
           </Text>
 
           {TRAIT_ORDER.map(key => {
-            const score = traitScores[key] ?? 5;
+            const score = traitScores[key] ?? 0;
             const pct   = Math.round((score / 10) * 100);
             return (
               <View key={key} style={styles.traitRow}>
