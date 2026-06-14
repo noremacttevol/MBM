@@ -23,6 +23,7 @@ import { StatusBar } from 'expo-status-bar';
 import { useNavigation } from '@react-navigation/native';
 import { useAppStore, isMemberSignal } from '../store/useAppStore';
 import { TraitKey } from '../data/questionBank';
+import { christlikeCap } from '../engine/connect';
 import { colors, spacing, radius } from '../theme';
 
 // The settled standard: every dimension is named as a CHRISTLIKE measure, so the
@@ -134,6 +135,11 @@ export default function ProfileScreen() {
   const [addDraft,     setAddDraft]     = useState('');
 
   const interpretation = interpretTraits(traitScores, feedTag);
+  // The Christlike ceiling: the score shown is never above what the person has
+  // earned the right to reach by where they stand toward the restored gospel's God.
+  // The raw climb is kept underneath (it drives the readiness gate); this only
+  // bounds what's displayed, so the number and the "Christlike" label always agree.
+  const christlikeCeiling = christlikeCap(dialogueSignals);
 
   function askAbout(title: string) {
     prefillChat(
@@ -144,7 +150,7 @@ export default function ProfileScreen() {
 
   function talkAboutTrait(key: TraitKey) {
     const label = TRAIT_LABELS[key].toLowerCase();
-    const score = (traitScores[key] ?? 0).toFixed(1);
+    const score = Math.min(traitScores[key] ?? 0, christlikeCeiling).toFixed(1);
     prefillChat(
       `My ${label} level is at ${score} out of 10. Be honest with me — what have you seen in me that put it there, and what would actually help it grow?`,
     );
@@ -292,7 +298,7 @@ export default function ProfileScreen() {
           </Text>
 
           {TRAIT_ORDER.map(key => {
-            const score = traitScores[key] ?? 0;
+            const score = Math.min(traitScores[key] ?? 0, christlikeCeiling);
             const pct   = Math.round((score / 10) * 100);
             return (
               <View key={key} style={styles.traitRow}>

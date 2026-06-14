@@ -236,6 +236,43 @@ export function restorationReady(
   return mayReferenceLds(signals) && spiritReady(levels);
 }
 
+// ── The Christlike ceiling (Cameron's call, recorded in the binding file) ────
+// On this app the seven Christlike virtues are "how close to Christ's own, as the
+// restored gospel measures it." So the score a person can reach is capped by where
+// they stand toward that standard — and because every dimension carries the word
+// "Christlike," the cap is honest, not a verdict on their bare character:
+//   - a member / one saved and believing the restored gospel: uncapped (up to 10),
+//   - someone not yet there but willing: tops out at 7,
+//   - someone who won't even examine it (declined the invitation): tops out at 5.
+// The cap never blocks the readiness gate (which only needs ~5) — it only sets how
+// high the celestial-striving score itself can climb.
+export const CHRISTLIKE_CAP = { member: 10, willing: 7, unwilling: 5 };
+
+export function christlikeCap(signals: string[]): number {
+  if (isMember(signals)) return CHRISTLIKE_CAP.member;
+  // "Declined the invitation to even look" — set when a person turns down the
+  // open, named invitation to the restored gospel (see the invitation flow).
+  if (signals.includes('declined_restoration')) return CHRISTLIKE_CAP.unwilling;
+  return CHRISTLIKE_CAP.willing;
+}
+
+// Clamp every Christlike level to the person's earned ceiling. Used when the score
+// is shown or read, so no one is ever shown above their cap. The raw climb is kept
+// underneath (it still drives the readiness gate); this only bounds what's shown.
+export function capLevels(levels: SpiritLevels, signals: string[]): SpiritLevels {
+  const cap = christlikeCap(signals);
+  const c = (v: number) => Math.min(v, cap);
+  return {
+    honest_inquiry: c(levels.honest_inquiry),
+    openness:       c(levels.openness),
+    humility:       c(levels.humility),
+    hunger:         c(levels.hunger),
+    compassion:     c(levels.compassion),
+    courage:        c(levels.courage),
+    sincerity:      c(levels.sincerity),
+  };
+}
+
 export function seekingFormal(signals: string[]): boolean {
   return hasAny(signals, SEEKING_FORMAL_SIGNALS);
 }

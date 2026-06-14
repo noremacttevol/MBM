@@ -205,6 +205,31 @@ def restoration_ready(signals: List[str], levels: Optional[Dict[str, float]]) ->
     return may_reference_lds(signals) and spirit_ready(levels)
 
 
+# ── The Christlike ceiling (mirror of connect.ts) ────────────────────────────
+# The seven Christlike virtues are "how close to Christ's own, as the restored
+# gospel measures it," so the reachable score is capped by where the person stands
+# toward that standard (honest, because every label carries "Christlike"):
+#   member / saved-and-believing: uncapped (10); willing but not there: 7;
+#   won't even examine it (declined the invitation): 5.
+# The cap never blocks the readiness gate (which only needs ~5); it bounds only how
+# high the celestial-striving score can climb. Keep in sync with connect.ts.
+CHRISTLIKE_CAP = {"member": 10.0, "willing": 7.0, "unwilling": 5.0}
+
+
+def christlike_cap(signals: List[str]) -> float:
+    if is_member(signals):
+        return CHRISTLIKE_CAP["member"]
+    if "declined_restoration" in signals:
+        return CHRISTLIKE_CAP["unwilling"]
+    return CHRISTLIKE_CAP["willing"]
+
+
+def cap_levels(levels: Dict[str, float], signals: List[str]) -> Dict[str, float]:
+    """Clamp every Christlike level to the person's earned ceiling, for display/read."""
+    cap = christlike_cap(signals)
+    return {k: min(v, cap) for k, v in (levels or {}).items()}
+
+
 def seeking_formal(signals: List[str]) -> bool:
     return _has_any(signals, SEEKING_FORMAL_SIGNALS)
 
