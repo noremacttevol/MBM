@@ -11,7 +11,7 @@
  */
 
 import React, { useEffect, useRef } from 'react';
-import { Animated, PanResponder, StyleSheet, Text, View } from 'react-native';
+import { Animated, PanResponder, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { useAppStore } from '../store/useAppStore';
 
@@ -98,9 +98,14 @@ export default function BlessingToast() {
         ]}
       >
         <Text style={styles.text}>{blessing.line}</Text>
+        {/* Tappable too, so it works on web where there is no swipe. */}
         <View style={styles.hintRow}>
-          <Text style={styles.hint}>← let it go</Text>
-          <Text style={styles.hint}>talk about it →</Text>
+          <TouchableOpacity onPress={finishLeft} hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}>
+            <Text style={styles.hint}>swipe or tap to close</Text>
+          </TouchableOpacity>
+          <TouchableOpacity onPress={finishRight} hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}>
+            <Text style={styles.hint}>talk about it →</Text>
+          </TouchableOpacity>
         </View>
       </Animated.View>
     </View>
