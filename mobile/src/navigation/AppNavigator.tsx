@@ -15,6 +15,7 @@ import ChatScreen        from '../screens/ChatScreen';
 import ProfileScreen     from '../screens/ProfileScreen';
 import ErrorBoundary     from '../components/ErrorBoundary';
 import MilkBeforeMeatNote from '../components/MilkBeforeMeatNote';
+import GlobalConnect      from '../components/GlobalConnect';
 import { useAppStore }   from '../store/useAppStore';
 import { colors } from '../theme';
 
@@ -81,6 +82,7 @@ function MainTabs() {
   }, []);
 
   return (
+    <View style={{ flex: 1 }}>
     <Tab.Navigator
       screenOptions={({ route }: { route: { name: string } }) => ({
         headerShown: false,
@@ -118,6 +120,8 @@ function MainTabs() {
       <Tab.Screen name="Chat"    component={GuardedChat} />
       <Tab.Screen name="Profile" component={GuardedProfile} />
     </Tab.Navigator>
+    <GlobalConnect />
+    </View>
   );
 }
 
