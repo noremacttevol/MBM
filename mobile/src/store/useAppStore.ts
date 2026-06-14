@@ -1784,7 +1784,7 @@ ${guidance}${creationDilemma}${SIGNAL_REPORT_INSTRUCTION}${TRAIT_REPORT_INSTRUCT
       },
     }),
     {
-      name: 'mbm-app-store-v4',
+      name: 'mbm-app-store-v5',
       storage: createJSONStorage(() => AsyncStorage),
       // Only persist meaningful user data — not ephemeral UI state
       partialize: (state): PersistedState => ({
