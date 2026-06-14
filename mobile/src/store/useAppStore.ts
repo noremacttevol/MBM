@@ -20,7 +20,7 @@ import {
   assessJourney,
   assessConnection,
 } from '../engine/connect';
-import { MINISTER_SYSTEM_PROMPT, MINISTER_MODEL } from '../engine/minister';
+import { MINISTER_SYSTEM_PROMPT, MINISTER_MODEL, CREATION_DILEMMA_REASONING } from '../engine/minister';
 import {
   harvestSignals,
   stripSignalReport,
@@ -1578,6 +1578,15 @@ export const useAppStore = create<AppState & AppActions>()(
           combinedSignals.includes('wants_to_join') ||
           combinedSignals.includes('wants_baptism') ||
           combinedSignals.includes('asking_how_to_belong');
+        // The Creation-Dilemma reasoning is MEAT: it is handed to the minister ONLY
+        // when the gate is open AND this person carries a harsh / not-good picture of
+        // God — the exact obstacle it answers. Then the minister questions gently FROM
+        // it (never debates). Otherwise it is never in the prompt at all.
+        const harshGodObstacle =
+          combinedSignals.includes('pictures_harsh_god') ||
+          combinedSignals.includes('pictures_distant_god') ||
+          combinedSignals.includes('reformed_framework');
+        const creationDilemma = mayLds && harshGodObstacle ? CREATION_DILEMMA_REASONING : '';
 
         // NEVER name the admin here. The model only needs to know a real PERSON is
         // available — not who. Leaking a personal name into chat was a real failure.
@@ -1637,7 +1646,7 @@ export const useAppStore = create<AppState & AppActions>()(
 
 [ABOUT THIS PERSON — what the app has quietly learned. Never read these labels back to them.]
 - Spiritual traits: ${traitSummary}${nameLine}${signalSentences ? `\n- What they have shown: ${signalSentences}` : ''}${faithLine}${storyMoments}${recentJournal ? `\n- From their recent journal: ${recentJournal}` : ''}${ministeringPlan}${exerciseLine}
-${guidance}${SIGNAL_REPORT_INSTRUCTION}${TRAIT_REPORT_INSTRUCTION}`;
+${guidance}${creationDilemma}${SIGNAL_REPORT_INSTRUCTION}${TRAIT_REPORT_INSTRUCTION}`;
 
         // history already ends with the user's latest message — exactly the
         // shape Anthropic's `messages` array expects (alternating, user-first).

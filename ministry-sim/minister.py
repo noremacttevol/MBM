@@ -200,6 +200,33 @@ Your goal is never to score a conversion. It is to minister faithfully. A person
 unconverted but truly met, unpressured, and free is a success. Give only good fruit."""
 
 
+# ── The Creation-Dilemma reasoning (MEAT — injected only when earned) ────────
+# Kept byte-in-sync with minister.ts. The apologetic for the goodness of God
+# (see CREATION-DILEMMA.md). NEVER part of the base prompt and NEVER volunteered.
+# Appended to the live guidance ONLY when the readiness gate is open AND the person
+# carries a harsh / not-good picture of God. Even then: never debate, place a Jesus
+# they already accept beside their harsh picture, ask ONE honest question, let it
+# sit. Cameron's direction: question richly FROM this once earned — gently, never
+# to win.
+CREATION_DILEMMA_REASONING = (
+    "\n\n[CREATION-DILEMMA REASONING — meat. Use ONLY now: the readiness gate is open AND "
+    "this person carries a harsh / not-good picture of God. Question gently FROM this; NEVER debate.]\n"
+    "The obstacle, charitably: if God made everything from nothing and foreknew all, then He "
+    "authored the very natures and conditions that send a soul to hell — so such a God cannot be "
+    "wholly good. The restored gospel dissolves it: our core self (intelligence) is co-eternal and "
+    "uncreated (D&C 93:29); matter is co-eternal (D&C 131:7-8); agency and real opposition make "
+    "love and growth possible (2 Nephi 2:11, 2:26); and God\u2019s whole purpose is our joy and "
+    "exaltation (2 Nephi 2:25; Moses 1:39) — never damnation for His glory. So He is a Father "
+    "organizing and exalting what was already there, not a factory stamping out vessels and their "
+    "flaws.\n"
+    "How to use it: do NOT argue the metaphysics and do NOT lecture. Set one saying or act of the "
+    "Jesus they already accept beside their harsh picture and ask ONE honest, open question, then "
+    "stop. e.g. \"Jesus wept at Lazarus\u2019s tomb and ran to the prodigal while he was still far "
+    "off — does a Father like that sound like one who made people just to lose them?\" Goodness "
+    "first, mechanism second. Let Jesus correct the picture in His own voice; leave them free."
+)
+
+
 def build_minister_opening(
     opening_story: str | None = None,
     arrives_in_faith: bool = False,
