@@ -171,9 +171,10 @@ export default function ProfileScreen() {
   const currentRung = faithRung(dialogueSignals, faithText);
   const currentRungInfo = FAITH_LADDER.find(r => r.key === currentRung);
 
-  function askAbout(title: string) {
+  function askAbout(title: string, detail?: string) {
+    const what = (detail && detail.trim()) ? detail.trim() : title;
     prefillChat(
-      `I want to ask about something from my story here — ${title} — what did you make of that about me?`,
+      `Earlier in my story I shared this: “${what}”. Can we talk about it — what do you make of it, and what would you ask me about it?`,
     );
     navigation.navigate('Chat');
   }
@@ -386,7 +387,7 @@ export default function ProfileScreen() {
                   <Text style={styles.momentDate}>{fmtDate(m.ts)}</Text>
                 </View>
                 <Text style={styles.momentDetail}>{m.text}</Text>
-                <TouchableOpacity activeOpacity={0.7} onPress={() => askAbout(m.title)}>
+                <TouchableOpacity activeOpacity={0.7} onPress={() => askAbout(m.title, m.text)}>
                   <Text style={styles.askText}>Ask about this →</Text>
                 </TouchableOpacity>
               </View>

@@ -1498,6 +1498,9 @@ export const useAppStore = create<AppState & AppActions>()(
       },
 
       prefillChat(text) {
+        // A "talk about it" / "ask about this" tap SPARKS A NEW conversation rather
+        // than piling onto the current one — the old thread is archived into history.
+        get().newChat();
         set({ chatDraft: text });
       },
 
@@ -1562,6 +1565,8 @@ export const useAppStore = create<AppState & AppActions>()(
         if (card.answer)   parts.push(`I said: “${card.answer.trim()}”`);
         if (card.line)     parts.push(`Then this came back to me: “${card.line.trim()}”`);
         parts.push('Can we talk about it?');
+        // Start fresh — carrying a moment into chat opens a NEW conversation.
+        get().newChat();
         set({ chatDraft: parts.join('\n'), blessing: null });
       },
 
@@ -1743,11 +1748,24 @@ export const useAppStore = create<AppState & AppActions>()(
 - FRAMEWORK DISCERNMENT (internal only, NEVER spoken): if they come from a Reformed/Calvinist framework, the framework itself carries a harsh, sovereignty-over-goodness picture of God. Do not treat a warm sentence as proof they already trust a good God. Use the comparison method (law 4): set the Jesus they accept beside the harsh picture and ask ONE open question. The god-good gate stays CLOSED until they reject the harsh picture in their OWN words AND affirm God is good — two witnesses, not one.
 - ONE CONCRETE INVITATION: when it genuinely fits, leave them with ONE small, doable thing they could actually try before next time (a verse to sit with, a quiet honest prayer, noticing one good thing) — concrete, never a homework list, never pressure. If the moment doesn't call for it, don't force one.`;
 
+        // THEIR SAVED NOTES — things they chose to KEEP. The AI may recognize a
+        // repeat from these (and ONLY these) — never from past chats they didn't save.
+        const notesGuidance = recentJournal
+          ? `\n\n[THEIR SAVED NOTES — things they chose to keep: ${recentJournal}. If what they are asking now is clearly about one of these, gently recognize it — "we've sat with this before; it's in your notes" — and then build on it in a FRESH way, adding to it, rather than repeating yourself word for word. These saved notes are the only past you remember; if something was NOT kept as a note, do not act as though you recall it.]`
+          : '';
+
+        // SCRIPTURE at the level they've earned: the Bible is always available (milk);
+        // Restoration scripture only once the gate is open.
+        const scriptureGuidance =
+          `\n\n[SCRIPTURE — where it genuinely strengthens a point, ground what you say in scripture they already accept: the Bible, quoted naturally and sparingly (never a proof-text barrage, never to win). ${mayLds
+            ? 'You may now also draw on Restoration scripture — the Book of Mormon and the Doctrine and Covenants — the same gentle way.'
+            : 'Use the BIBLE ONLY for now; do not quote the Book of Mormon or the Doctrine and Covenants until the gate has opened.'}]`;
+
         const systemPrompt = `${MINISTER_SYSTEM_PROMPT}
 
 [ABOUT THIS PERSON — what the app has quietly learned. Never read these labels back to them.]
 - Spiritual traits: ${traitSummary}${nameLine}${signalSentences ? `\n- What they have shown: ${signalSentences}` : ''}${faithLine}${storyMoments}${recentJournal ? `\n- From their recent journal: ${recentJournal}` : ''}${ministeringPlan}${exerciseLine}
-${guidance}${creationDilemma}${SIGNAL_REPORT_INSTRUCTION}${TRAIT_REPORT_INSTRUCTION}`;
+${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT_INSTRUCTION}${TRAIT_REPORT_INSTRUCTION}`;
 
         // history already ends with the user's latest message — exactly the
         // shape Anthropic's `messages` array expects (alternating, user-first).
