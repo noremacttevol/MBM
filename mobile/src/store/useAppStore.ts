@@ -476,14 +476,19 @@ function nudgeTraits(scores: TraitScores, deltas: Partial<TraitScores>): TraitSc
 
 // Plain-English names for the spirit levels, used when telling the person — to
 // their face — that the judge just moved one, so a deduction is never silent.
+// Settled in the design-tab conversation (the binding standard): every dimension
+// is named as a CHRISTLIKE measure, so the label and the number always agree — the
+// score reads as "how close to Christ's own," never a bare verdict on a person's
+// worth. This is the rename that makes the capped scale honest. Do not drop the
+// "Christlike" prefix from any of these.
 const TRAIT_DISPLAY: Record<keyof TraitScores, string> = {
-  honest_inquiry: 'honesty',
-  openness:       'openness',
-  humility:       'humility',
-  hunger:         'hunger for truth',
-  compassion:     'compassion',
-  courage:        'courage',
-  sincerity:      'sincerity',
+  honest_inquiry: 'Christlike honesty',
+  openness:       'Christlike openness',
+  humility:       'Christlike humility',
+  hunger:         'Christlike hunger for truth',
+  compassion:     'Christlike compassion',
+  courage:        'Christlike courage',
+  sincerity:      'Christlike sincerity',
 };
 
 // Format a level change for display: a real minus sign, no trailing ".0".

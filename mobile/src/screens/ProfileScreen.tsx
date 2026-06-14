@@ -25,24 +25,28 @@ import { useAppStore, isMemberSignal } from '../store/useAppStore';
 import { TraitKey } from '../data/questionBank';
 import { colors, spacing, radius } from '../theme';
 
+// The settled standard: every dimension is named as a CHRISTLIKE measure, so the
+// label always matches what the number means — "how close to Christ's own," never
+// a bare verdict on whether someone is a good person. This is the rename that makes
+// the scale honest. Keep the "Christlike" prefix on every one.
 const TRAIT_LABELS: Record<TraitKey, string> = {
-  honest_inquiry: 'Honest Inquiry',
-  openness:       'Openness',
-  humility:       'Humility',
-  hunger:         'Hunger',
-  compassion:     'Compassion',
-  courage:        'Courage',
-  sincerity:      'Sincerity',
+  honest_inquiry: 'Christlike Honesty',
+  openness:       'Christlike Openness',
+  humility:       'Christlike Humility',
+  hunger:         'Christlike Hunger for Truth',
+  compassion:     'Christlike Compassion',
+  courage:        'Christlike Courage',
+  sincerity:      'Christlike Sincerity',
 };
 
 const TRAIT_DESCRIPTIONS: Record<TraitKey, string> = {
-  honest_inquiry: 'Willingness to sit with hard questions',
-  openness:       'Receptivity to what you might not expect',
-  humility:       'Ability to hold your certainties loosely',
-  hunger:         'Longing for something more than what you have',
-  compassion:     'Capacity to feel what others carry',
-  courage:        'Willingness to say and face the true thing',
-  sincerity:      'Alignment between what you feel and what you do',
+  honest_inquiry: "How fully your honesty reflects Christ's own — sitting with hard questions in truth",
+  openness:       "How fully your openness reflects Christ's own — receptive to what God might reveal",
+  humility:       "How fully your humility reflects Christ's own — holding your certainties loosely",
+  hunger:         "How fully your hunger for truth reflects Christ's own — longing for the fullness He offers",
+  compassion:     "How fully your compassion reflects Christ's own — feeling what others carry",
+  courage:        "How fully your courage reflects Christ's own — facing and saying the true thing",
+  sincerity:      "How fully your sincerity reflects Christ's own — your heart and your life in one",
 };
 
 const TRAIT_ORDER: TraitKey[] = [
