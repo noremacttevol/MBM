@@ -313,8 +313,10 @@ const styles = StyleSheet.create({
   bubbleMine: {
     backgroundColor: '#1a1a12', borderColor: colors.border,
   },
+  // A real person's reply is BLUE, so it's unmistakable from the AI (Cameron's
+  // ask): a real human is talking now, not the app.
   bubbleTheirs: {
-    backgroundColor: '#0e1a12', borderColor: '#2a3a28',
+    backgroundColor: '#0d1b2e', borderColor: colors.blue,
   },
   bubbleText: {
     fontSize: 14, fontFamily: 'Georgia', color: colors.textMid, lineHeight: 21,
