@@ -1104,6 +1104,12 @@ export const useAppStore = create<AppState & AppActions>()(
         set(s => ({
           learnedNotes:  [note, ...s.learnedNotes].slice(0, 200),
           pendingNoteId: id,
+          // Choosing to KEEP something is itself a sign of hunger for truth and
+          // sincerity — the person cared enough to hold onto it. The app learns from
+          // the ACT of saving, not just the words (Cameron's #6). The note text is
+          // also handed to the minister as context, so it isn't double-counted as a
+          // separate story moment.
+          traitScores:   nudgeTraits(s.traitScores, { hunger: 0.3, sincerity: 0.2 }),
         }));
 
         // Fill in the AI clip after the fact; never block the save on the network.
