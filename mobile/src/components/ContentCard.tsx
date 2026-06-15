@@ -177,23 +177,23 @@ const styles = StyleSheet.create({
     color:         colors.textMuted,
     letterSpacing: 1.2,
     textTransform: 'uppercase',
-    fontFamily:    'MBMCross',
+    fontFamily:    'Georgia',
   },
   readTime: {
     fontSize:  11,
     color:     colors.textMuted,
-    fontFamily: 'MBMCross',
+    fontFamily: 'Georgia',
   },
   title: {
     fontSize:     17,
-    fontFamily:   'MBMCross',
+    fontFamily:   'Georgia',
     color:        '#e8e0c8',
     marginBottom: 8,
     lineHeight:   24,
   },
   description: {
     fontSize:     13,
-    fontFamily:   'MBMCross',
+    fontFamily:   'Georgia',
     color:        colors.textDim,
     lineHeight:   21,
     marginBottom: spacing.md,
@@ -212,7 +212,7 @@ const styles = StyleSheet.create({
   readBtnText: {
     color:      colors.gold,
     fontSize:   13,
-    fontFamily: 'MBMCross',
+    fontFamily: 'Georgia',
   },
   iconBtn: {
     padding:      8,
@@ -235,7 +235,7 @@ const styles = StyleSheet.create({
     color:      colors.blue,
     fontSize:   11,
     fontStyle:  'italic',
-    fontFamily: 'MBMCross',
+    fontFamily: 'Georgia',
   },
 
   reflectBox: { marginTop: 10 },
@@ -247,7 +247,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.bgInput,
     color:           '#d0c8b0',
     fontSize:        13,
-    fontFamily:      'MBMCross',
+    fontFamily:      'Georgia',
     padding:         spacing.sm,
     minHeight:       56,
     marginBottom:    spacing.sm,
@@ -262,5 +262,5 @@ const styles = StyleSheet.create({
     paddingHorizontal: 14,
   },
   keepBtnDisabled: { borderColor: colors.borderDim },
-  keepBtnText: { color: colors.gold, fontSize: 12, fontFamily: 'MBMCross' },
+  keepBtnText: { color: colors.gold, fontSize: 12, fontFamily: 'Georgia' },
 });

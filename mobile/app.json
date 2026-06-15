@@ -36,13 +36,7 @@
           "enableFTS": true
         }
       ],
-      "./plugins/withShortAppName.js",
-      [
-        "expo-font",
-        {
-          "fonts": ["./assets/fonts/MBMCross-Regular.ttf"]
-        }
-      ]
+      "./plugins/withShortAppName.js"
     ],
     "extra": {
       "eas": {

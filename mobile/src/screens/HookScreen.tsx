@@ -250,7 +250,7 @@ const styles = StyleSheet.create({
   // Text
   risenText: {
     fontSize:        32,
-    fontFamily:      'MBMCross',
+    fontFamily:      'Georgia',
     color:           colors.goldLight,
     letterSpacing:   2,
     textAlign:       'center',
@@ -258,7 +258,7 @@ const styles = StyleSheet.create({
   },
   subText: {
     fontSize:        15,
-    fontFamily:      'MBMCross',
+    fontFamily:      'Georgia',
     color:           colors.textMuted,
     textAlign:       'center',
     lineHeight:      24,
@@ -271,7 +271,7 @@ const styles = StyleSheet.create({
     position:        'absolute',
     bottom:          28,
     fontSize:        11,
-    fontFamily:      'MBMCross',
+    fontFamily:      'Georgia',
     fontStyle:       'italic',
     color:           '#6f6a5c',
     textAlign:       'center',
@@ -294,7 +294,7 @@ const styles = StyleSheet.create({
   btnText: {
     color:         '#15110a',
     fontSize:      16,
-    fontFamily:    'MBMCross',
+    fontFamily:    'Georgia',
     letterSpacing: 0.5,
     fontWeight:    '600',
   },

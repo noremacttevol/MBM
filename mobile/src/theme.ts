@@ -17,9 +17,9 @@ export const colors = {
 } as const;
 
 export const typography = {
-  serif:       'MBMCross',
-  serifItalic: 'MBMCross',
-  sansSerif:   'MBMCross',
+  serif:       'Georgia',
+  serifItalic: 'Georgia',
+  sansSerif:   'System',
 } as const;
 
 export const spacing = {

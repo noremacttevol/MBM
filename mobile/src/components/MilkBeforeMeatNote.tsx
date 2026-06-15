@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
   },
   label: {
     fontSize:      11,
-    fontFamily:    'MBMCross',
+    fontFamily:    'Georgia',
     color:         colors.textMuted,
     letterSpacing: 1.5,
     textTransform: 'uppercase',
@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
   },
   note: {
     fontSize:   11,
-    fontFamily: 'MBMCross',
+    fontFamily: 'Georgia',
     fontStyle:  'italic',
     color:      colors.textMuted,
     textAlign:  'center',

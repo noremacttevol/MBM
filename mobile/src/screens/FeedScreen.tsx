@@ -144,6 +144,6 @@ const styles = StyleSheet.create({
   moreBtnText: {
     color:      colors.textMuted,
     fontSize:   12,
-    fontFamily: 'MBMCross',
+    fontFamily: 'Georgia',
   },
 });

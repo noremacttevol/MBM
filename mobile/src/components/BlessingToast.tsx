@@ -135,7 +135,7 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 15,
-    fontFamily: 'MBMCross',
+    fontFamily: 'Georgia',
     fontStyle: 'italic',
     color: '#e8dfc0',
     lineHeight: 23,
