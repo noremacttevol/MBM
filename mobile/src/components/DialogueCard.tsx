@@ -165,7 +165,7 @@ const styles = StyleSheet.create({
   },
   thankText: {
     fontSize:   14,
-    fontFamily: 'Georgia',
+    fontFamily: 'MBMCross',
     fontStyle:  'italic',
     color:      colors.textMuted,
     textAlign:  'center',
@@ -175,13 +175,13 @@ const styles = StyleSheet.create({
     fontSize:      10,
     letterSpacing: 1.5,
     color:         colors.textMuted,
-    fontFamily:    'Georgia',
+    fontFamily:    'MBMCross',
     marginBottom:  spacing.sm,
   },
 
   questionText: {
     fontSize:     15,
-    fontFamily:   'Georgia',
+    fontFamily:   'MBMCross',
     color:        '#d0c8b0',
     lineHeight:   23,
     marginBottom: spacing.md,
@@ -194,7 +194,7 @@ const styles = StyleSheet.create({
     borderRadius:      radius.sm,
     backgroundColor:   colors.bgInput,
     color:             '#d0c8b0',
-    fontFamily:        'Georgia',
+    fontFamily:        'MBMCross',
     fontSize:          13,
     padding:           spacing.sm,
     minHeight:         72,
@@ -214,7 +214,7 @@ const styles = StyleSheet.create({
   },
   submitBtnText: {
     color:      colors.gold,
-    fontFamily: 'Georgia',
+    fontFamily: 'MBMCross',
     fontSize:   13,
   },
 
@@ -236,7 +236,7 @@ const styles = StyleSheet.create({
   },
   optionText: {
     fontSize:   13,
-    fontFamily: 'Georgia',
+    fontFamily: 'MBMCross',
     color:      colors.textDim,
     lineHeight: 19,
   },
@@ -246,7 +246,7 @@ const styles = StyleSheet.create({
 
   jesusRef: {
     fontSize:   11,
-    fontFamily: 'Georgia',
+    fontFamily: 'MBMCross',
     fontStyle:  'italic',
     color:      colors.textMuted,
     lineHeight: 17,

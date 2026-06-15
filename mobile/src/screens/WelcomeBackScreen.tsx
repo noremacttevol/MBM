@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize:     26,
-    fontFamily:   'Georgia',
+    fontFamily:   'MBMCross',
     color:        colors.goldLight,
     textAlign:    'center',
     lineHeight:   36,
@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
   },
   recall: {
     fontSize:     14,
-    fontFamily:   'Georgia',
+    fontFamily:   'MBMCross',
     color:        colors.textDim,
     textAlign:    'center',
     lineHeight:   24,
@@ -105,7 +105,7 @@ const styles = StyleSheet.create({
   },
   btnText: {
     fontSize:      15,
-    fontFamily:    'Georgia',
+    fontFamily:    'MBMCross',
     color:         colors.onAccent,
     letterSpacing: 0.5,
     fontWeight:    '600',

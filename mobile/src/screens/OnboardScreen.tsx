@@ -739,17 +739,17 @@ const styles = StyleSheet.create({
 
   sanctuaryInner: { alignItems: 'center', maxWidth: 320 },
   sanctuaryHeadline: {
-    fontSize: 36, fontFamily: 'Georgia', color: colors.gold,
+    fontSize: 36, fontFamily: 'MBMCross', color: colors.gold,
     textAlign: 'center', marginBottom: spacing.lg, letterSpacing: 1,
   },
   sanctuaryBody: {
-    fontSize: 16, fontFamily: 'Georgia', color: colors.textMid,
+    fontSize: 16, fontFamily: 'MBMCross', color: colors.textMid,
     textAlign: 'center', lineHeight: 27, marginBottom: spacing.xxl,
     fontStyle: 'italic',
   },
 
   narrativePara: {
-    fontSize: 16, fontFamily: 'Georgia', color: colors.textMid,
+    fontSize: 16, fontFamily: 'MBMCross', color: colors.textMid,
     lineHeight: 28, marginBottom: spacing.lg, fontStyle: 'italic',
   },
   narrativeFirst: {
@@ -757,7 +757,7 @@ const styles = StyleSheet.create({
   },
 
   question: {
-    fontSize: 18, fontFamily: 'Georgia', color: colors.text,
+    fontSize: 18, fontFamily: 'MBMCross', color: colors.text,
     lineHeight: 30, marginBottom: spacing.xl, fontStyle: 'italic',
   },
 
@@ -769,17 +769,17 @@ const styles = StyleSheet.create({
   },
   choiceBtnOther: { borderStyle: 'dashed' },
   choiceText: {
-    fontSize: 14, fontFamily: 'Georgia', color: colors.textMid, lineHeight: 22,
+    fontSize: 14, fontFamily: 'MBMCross', color: colors.textMid, lineHeight: 22,
   },
   choiceTextMuted: {
-    fontSize: 14, fontFamily: 'Georgia', color: colors.textMuted, fontStyle: 'italic',
+    fontSize: 14, fontFamily: 'MBMCross', color: colors.textMuted, fontStyle: 'italic',
   },
 
   freeBox: { gap: spacing.sm },
   freeInput: {
     backgroundColor: colors.bgInput, borderWidth: 1, borderColor: colors.borderDim,
     borderRadius: radius.md, color: colors.textMid, fontSize: 15,
-    fontFamily: 'Georgia', padding: 14, minHeight: 110, lineHeight: 24,
+    fontFamily: 'MBMCross', padding: 14, minHeight: 110, lineHeight: 24,
   },
 
   primaryBtn: {
@@ -789,36 +789,36 @@ const styles = StyleSheet.create({
   },
   primaryBtnDisabled: { backgroundColor: colors.borderDim },
   primaryBtnText: {
-    fontSize: 15, fontFamily: 'Georgia', color: '#15110a', letterSpacing: 0.5,
+    fontSize: 15, fontFamily: 'MBMCross', color: '#15110a', letterSpacing: 0.5,
     fontWeight: '600',
   },
 
   reflectionText: {
-    fontSize: 17, fontFamily: 'Georgia', color: colors.textMid,
+    fontSize: 17, fontFamily: 'MBMCross', color: colors.textMid,
     lineHeight: 30, marginBottom: spacing.xl, fontStyle: 'italic',
   },
   reflectionCoda: {
-    fontSize: 14, fontFamily: 'Georgia', color: colors.textMuted,
+    fontSize: 14, fontFamily: 'MBMCross', color: colors.textMuted,
     lineHeight: 22, marginBottom: spacing.lg,
   },
 
   nameHint: {
-    fontSize: 13, fontFamily: 'Georgia', fontStyle: 'italic',
+    fontSize: 13, fontFamily: 'MBMCross', fontStyle: 'italic',
     color: colors.textMuted, lineHeight: 20, marginBottom: spacing.sm,
   },
   nameInput: {
     backgroundColor: colors.bgInput, borderWidth: 1, borderColor: colors.borderDim,
     borderRadius: radius.md, color: colors.textMid, fontSize: 15,
-    fontFamily: 'Georgia', paddingVertical: 12, paddingHorizontal: 14,
+    fontFamily: 'MBMCross', paddingVertical: 12, paddingHorizontal: 14,
     alignSelf: 'flex-start', minWidth: 220,
   },
 
   faithIntro: {
-    fontSize: 18, fontFamily: 'Georgia', color: colors.text,
+    fontSize: 18, fontFamily: 'MBMCross', color: colors.text,
     lineHeight: 30, marginBottom: spacing.sm, fontStyle: 'italic',
   },
   faithQuestion: {
-    fontSize: 15, fontFamily: 'Georgia', color: colors.textDim,
+    fontSize: 15, fontFamily: 'MBMCross', color: colors.textDim,
     lineHeight: 24, marginBottom: spacing.lg,
   },
   faithOptBtn: {
@@ -827,16 +827,16 @@ const styles = StyleSheet.create({
   },
   faithOptBtnSelected: { borderColor: colors.gold },
   faithOptText: {
-    fontSize: 14, fontFamily: 'Georgia', color: colors.textMid, lineHeight: 22,
+    fontSize: 14, fontFamily: 'MBMCross', color: colors.textMid, lineHeight: 22,
   },
   faithOptTextSelected: { color: colors.gold },
   faithHint: {
-    fontSize: 13, fontFamily: 'Georgia', fontStyle: 'italic',
+    fontSize: 13, fontFamily: 'MBMCross', fontStyle: 'italic',
     color: colors.textMuted, lineHeight: 20, marginTop: spacing.md, marginBottom: spacing.sm,
   },
   faithInput: {
     backgroundColor: colors.bgInput, borderWidth: 1, borderColor: colors.borderDim,
     borderRadius: radius.md, color: colors.textMid, fontSize: 14,
-    fontFamily: 'Georgia', padding: 12, minHeight: 84, lineHeight: 22,
+    fontFamily: 'MBMCross', padding: 12, minHeight: 84, lineHeight: 22,
   },
 });
