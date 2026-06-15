@@ -207,3 +207,33 @@ export function getCurrentPrompt(
   // If all answered, cycle back to tag prompts
   return JOURNAL_PROMPTS.find(p => p.tag === feedTag || p.tag === 'ANY') ?? JOURNAL_PROMPTS[0];
 }
+
+// A handful of relevant prompts to choose from — for "give me ideas to write
+// about." Signal-matched first, then this feed level, then universal. Already
+// answered ones drop to the back rather than vanish, so there's always a list.
+export function getPromptSuggestions(
+  feedTag:         FeedTag,
+  activeSignals:   string[],
+  answeredPrompts: string[],
+  limit = 6,
+): JournalPrompt[] {
+  const signalSet   = new Set(activeSignals);
+  const answeredSet = new Set(answeredPrompts);
+
+  const score = (p: JournalPrompt): number => {
+    let s = 0;
+    if (p.signal && signalSet.has(p.signal)) s += 100;
+    else if (p.signal) return -1;        // signal prompt whose signal isn't active — skip
+    if (p.tag === feedTag) s += 10;
+    else if (p.tag === 'ANY') s += 5;
+    if (answeredSet.has(p.id)) s -= 1000; // push seen ones to the back, don't remove
+    return s;
+  };
+
+  return JOURNAL_PROMPTS
+    .map(p => ({ p, s: score(p) }))
+    .filter(x => x.s > -1)
+    .sort((a, b) => b.s - a.s)
+    .slice(0, limit)
+    .map(x => x.p);
+}

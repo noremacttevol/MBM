@@ -15,8 +15,12 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation } from '@react-navigation/native';
 import { useAppStore, generateBlessing, NoteSource } from '../store/useAppStore';
-import { getCurrentPrompt } from '../data/journalPrompts';
+import { getCurrentPrompt, getPromptSuggestions, JournalPrompt } from '../data/journalPrompts';
 import { colors, spacing, radius } from '../theme';
+
+// The open invitation shown in freestyle mode — no question, just space.
+const FREESTYLE_TEXT =
+  'Write freely — anything on your mind, your heart, your day, or a prayer. There is no prompt here, only space.';
 
 // How many kept notes to show before the "Show all" link appears.
 const RECENT_NOTES = 5;
@@ -64,7 +68,17 @@ export default function JournalScreen() {
     navigation.navigate('Chat');
   }
 
-  const prompt = getCurrentPrompt(feedTag, dialogueSignals, answeredPromptIds);
+  // The active prompt = a chosen one (from suggestions) ?? the next computed one.
+  // Freestyle replaces the prompt with an open invitation.
+  const [freestyle,      setFreestyle]      = useState(false);
+  const [chosenPrompt,   setChosenPrompt]   = useState<JournalPrompt | null>(null);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+
+  const computedPrompt = getCurrentPrompt(feedTag, dialogueSignals, answeredPromptIds);
+  const activePrompt   = chosenPrompt ?? computedPrompt;
+  const promptText     = freestyle ? FREESTYLE_TEXT : activePrompt.text;
+  const promptId       = freestyle ? 'freestyle' : activePrompt.id;
+  const suggestions    = getPromptSuggestions(feedTag, dialogueSignals, answeredPromptIds, 6);
 
   const [text,      setText]      = useState('');
   const [submitted, setSubmitted] = useState(false);
@@ -112,7 +126,7 @@ export default function JournalScreen() {
   function handleSubmit() {
     if (!text.trim()) return;
     const written = text.trim();
-    addJournalEntry(prompt.id, prompt.text, written);
+    addJournalEntry(promptId, promptText, written);
     // A blessing in words after the truest thing is said — never numbers, and
     // never a canned line. The disciple reads what they actually wrote and either
     // speaks one personal blessing or stays silent. It is handed every line it has
@@ -133,11 +147,32 @@ export default function JournalScreen() {
     });
   }
 
-  function handleWriteMore() {
-    setSubmitted(false);
+  // Return to the write view in a chosen mode. This is what makes "write again"
+  // actually work — and gives a fresh prompt, a free page, or a list to pick from.
+  function reopenWriting(mode: 'another' | 'free' | 'pick') {
     setText('');
+    setSubmitted(false);
     fadeAnim.setValue(1);
     thankAnim.setValue(0);
+    if (mode === 'free') {
+      setFreestyle(true);
+      setChosenPrompt(null);
+      setShowSuggestions(false);
+    } else if (mode === 'pick') {
+      setFreestyle(false);
+      setShowSuggestions(true);
+    } else {
+      // 'another' — a fresh computed prompt (answeredPromptIds grew, so it rotates)
+      setFreestyle(false);
+      setChosenPrompt(null);
+      setShowSuggestions(false);
+    }
+  }
+
+  function chooseSuggestion(p: JournalPrompt) {
+    setChosenPrompt(p);
+    setFreestyle(false);
+    setShowSuggestions(false);
   }
 
   function formatDate(ts: number) {
@@ -165,44 +200,91 @@ export default function JournalScreen() {
 
           {/* ── Current prompt ──────────────────────────────────────────── */}
           <View style={styles.promptCard}>
-            <Text style={styles.promptLabel}>TODAY'S PROMPT</Text>
+            <Text style={styles.promptLabel}>
+              {freestyle ? 'FREE WRITE' : showSuggestions ? 'PICK SOMETHING TO WRITE ABOUT' : "TODAY'S PROMPT"}
+            </Text>
 
-            {/* Thank-you state */}
+            {/* Thank-you state — now a real fork: another prompt, a free page,
+                or a list to pick from. This is the "write again" that works. */}
             <Animated.View
               style={[styles.thankBlock, { opacity: thankAnim }]}
               pointerEvents={submitted ? 'auto' : 'none'}
             >
               <Text style={styles.thankText}>Written.</Text>
               {blessLine ? <Text style={styles.blessLine}>{blessLine}</Text> : null}
-              <TouchableOpacity onPress={handleWriteMore} activeOpacity={0.7}>
-                <Text style={styles.writeMoreText}>Write again →</Text>
-              </TouchableOpacity>
+              <View style={styles.writeAgainRow}>
+                <TouchableOpacity onPress={() => reopenWriting('another')} activeOpacity={0.7}>
+                  <Text style={styles.writeMoreText}>Another prompt →</Text>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={() => reopenWriting('free')} activeOpacity={0.7}>
+                  <Text style={styles.writeMoreText}>Write freely →</Text>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={() => reopenWriting('pick')} activeOpacity={0.7}>
+                  <Text style={styles.writeMoreText}>Pick a topic →</Text>
+                </TouchableOpacity>
+              </View>
             </Animated.View>
 
-            {/* Active prompt */}
+            {/* Active prompt / suggestions / freestyle */}
             <Animated.View style={{ opacity: fadeAnim }}>
-              <Text style={styles.promptText}>{prompt.text}</Text>
+              {showSuggestions ? (
+                <>
+                  <Text style={styles.promptText}>What would you like to write about?</Text>
+                  {suggestions.map(s => (
+                    <TouchableOpacity
+                      key={s.id}
+                      style={styles.suggestRow}
+                      activeOpacity={0.7}
+                      onPress={() => chooseSuggestion(s)}
+                    >
+                      <Text style={styles.suggestText}>{s.text}</Text>
+                    </TouchableOpacity>
+                  ))}
+                  <TouchableOpacity onPress={() => reopenWriting('free')} activeOpacity={0.7}>
+                    <Text style={styles.modeLink}>…or just write freely →</Text>
+                  </TouchableOpacity>
+                </>
+              ) : (
+                <>
+                  <Text style={styles.promptText}>{promptText}</Text>
 
-              <TextInput
-                style={styles.input}
-                value={text}
-                onChangeText={setText}
-                placeholder="Write what comes…"
-                placeholderTextColor={colors.textMuted}
-                multiline
-                numberOfLines={6}
-                textAlignVertical="top"
-                editable={!submitted}
-              />
+                  <TextInput
+                    style={styles.input}
+                    value={text}
+                    onChangeText={setText}
+                    placeholder={freestyle ? 'Write whatever comes…' : 'Write what comes…'}
+                    placeholderTextColor={colors.textMuted}
+                    multiline
+                    numberOfLines={6}
+                    textAlignVertical="top"
+                    editable={!submitted}
+                  />
 
-              <TouchableOpacity
-                style={[styles.submitBtn, !text.trim() && styles.submitBtnDisabled]}
-                activeOpacity={0.7}
-                onPress={handleSubmit}
-                disabled={!text.trim() || submitted}
-              >
-                <Text style={styles.submitBtnText}>Save →</Text>
-              </TouchableOpacity>
+                  <View style={styles.modeLinks}>
+                    {freestyle ? (
+                      <TouchableOpacity onPress={() => reopenWriting('another')} activeOpacity={0.7}>
+                        <Text style={styles.modeLink}>Use a prompt</Text>
+                      </TouchableOpacity>
+                    ) : (
+                      <TouchableOpacity onPress={() => reopenWriting('free')} activeOpacity={0.7}>
+                        <Text style={styles.modeLink}>Write freely</Text>
+                      </TouchableOpacity>
+                    )}
+                    <TouchableOpacity onPress={() => setShowSuggestions(true)} activeOpacity={0.7}>
+                      <Text style={styles.modeLink}>Other prompts</Text>
+                    </TouchableOpacity>
+                  </View>
+
+                  <TouchableOpacity
+                    style={[styles.submitBtn, !text.trim() && styles.submitBtnDisabled]}
+                    activeOpacity={0.7}
+                    onPress={handleSubmit}
+                    disabled={!text.trim() || submitted}
+                  >
+                    <Text style={styles.submitBtnText}>Save →</Text>
+                  </TouchableOpacity>
+                </>
+              )}
             </Animated.View>
           </View>
 
@@ -432,10 +514,45 @@ const styles = StyleSheet.create({
     paddingHorizontal: spacing.md,
   },
   writeMoreText: {
+    fontSize:   14,
+    fontFamily: 'Jost_400Regular',
+    color:      colors.gold,
+    paddingVertical: 5,
+  },
+  writeAgainRow: {
+    alignItems: 'center',
+    gap:        2,
+    marginTop:  spacing.xs,
+  },
+
+  // Mode links under the input: "Write freely" / "Use a prompt" / "Other prompts"
+  modeLinks: {
+    flexDirection: 'row',
+    gap:           spacing.md,
+    marginBottom:  spacing.sm,
+  },
+  modeLink: {
+    fontSize:   12,
+    fontFamily: 'Jost_400Regular',
+    color:      colors.blue,
+    paddingVertical: 4,
+  },
+
+  // Suggestion rows (pick something to write about)
+  suggestRow: {
+    borderWidth:     1,
+    borderColor:     colors.borderDim,
+    backgroundColor: colors.bgInput,
+    borderRadius:    radius.md,
+    paddingVertical: 10,
+    paddingHorizontal: 12,
+    marginBottom:    spacing.sm,
+  },
+  suggestText: {
     fontSize:   13,
     fontFamily: 'Jost_400Regular',
-    color:      colors.textMuted,
-    fontStyle:  'italic',
+    color:      colors.textMid,
+    lineHeight: 20,
   },
 
   input: {
