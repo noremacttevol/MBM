@@ -728,8 +728,16 @@ interface AppActions {
   setName:             (name: string) => void;
   recordFaithBackground: (choiceKey: string, text: string) => void;
   editFaithWord:       (index: number, text: string) => void;
+  removeFaithWord:     (index: number) => void;
   addFaithWord:        (text: string) => void;
   addMoment:           (title: string, text: string) => void;
+  // Keep the person dynamic, never boxed: everything learned or saved can be
+  // edited or deleted. Deleting truly forgets it (un-learns that piece).
+  deleteMoment:        (ts: number) => void;
+  deleteNote:          (id: string) => void;
+  deleteJournalEntry:  (id: string) => void;
+  editJournalEntry:    (id: string, text: string) => void;
+  deleteChatSession:   (id: string) => void;
   acceptExercise:      (ex: SpiritualExercise) => void;
   passExercise:        (ex: SpiritualExercise) => void;
   answerFollowUp:      (value: 'something' | 'good' | 'nothing' | 'not_yet', note?: string) => void;
@@ -1393,6 +1401,33 @@ export const useAppStore = create<AppState & AppActions>()(
         const b = (text ?? '').trim().slice(0, 280);
         if (!b) return;
         set(s => ({ moments: [{ title: t || 'A moment', text: b, ts: Date.now() }, ...s.moments] }));
+      },
+
+      // ── Edit / delete: keep the person dynamic, never boxed ─────────────────
+      // A faith word removed un-learns its identity (editFaithWord already does
+      // this when handed empty text).
+      removeFaithWord(index) {
+        get().editFaithWord(index, '');
+      },
+      deleteMoment(ts) {
+        set(s => ({ moments: s.moments.filter(m => m.ts !== ts) }));
+      },
+      deleteNote(id) {
+        set(s => ({ learnedNotes: s.learnedNotes.filter(n => n.id !== id) }));
+      },
+      deleteJournalEntry(id) {
+        set(s => ({ journalEntries: s.journalEntries.filter(e => e.id !== id) }));
+      },
+      editJournalEntry(id, text) {
+        const clean = (text ?? '').trim();
+        set(s => ({
+          journalEntries: clean
+            ? s.journalEntries.map(e => (e.id === id ? { ...e, text: clean } : e))
+            : s.journalEntries.filter(e => e.id !== id),   // emptied = deleted
+        }));
+      },
+      deleteChatSession(id) {
+        set(s => ({ chatSessions: s.chatSessions.filter(x => x.id !== id) }));
       },
 
       acceptExercise(ex) {
