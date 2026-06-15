@@ -47,6 +47,11 @@ export default function ChatScreen() {
   // Pull it into the input the moment it arrives, then clear the store copy.
   useEffect(() => {
     if (chatDraft) {
+      // A "talk about it" tap ALWAYS takes priority: close any open real-person or
+      // history view so the fresh topic chat is what the person sees. The new chat
+      // was already started in the store (prefillChat -> newChat), so nothing is lost.
+      setShowConnect(false);
+      setShowHistory(false);
       setDraft(chatDraft);
       clearChatDraft();
     }
@@ -114,7 +119,7 @@ export default function ChatScreen() {
 
       {/* ── Header ────────────────────────────────────────────────────────── */}
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>Ask anything.</Text>
+        <Text style={styles.headerTitle}>TAI</Text>
         <View style={styles.headerActions}>
           <TouchableOpacity style={styles.headerBtn} activeOpacity={0.75} onPress={handleNewChat}>
             <Text style={styles.headerBtnText}>+ New</Text>
@@ -151,6 +156,7 @@ export default function ChatScreen() {
       {showHistory && (
         <View style={styles.historyPanel}>
           <Text style={styles.historyHeading}>Past conversations</Text>
+          <ScrollView style={styles.historyScroll} nestedScrollEnabled keyboardShouldPersistTaps="handled">
           {chatSessions.length === 0 && inboxMessages.length === 0 && (
             <Text style={styles.historyEmpty}>No past conversations yet.</Text>
           )}
@@ -181,17 +187,24 @@ export default function ChatScreen() {
               <Text style={styles.historyDate}>{fmtDay(sess.updatedAt)}</Text>
             </TouchableOpacity>
           ))}
+          </ScrollView>
         </View>
       )}
 
-      {/* In-app human-connect capture — saved on-device, no mailto (Phase 1). */}
+      {/* The real-person thread — its OWN scrollable view (full, not a cramped box),
+          so the whole conversation is readable and you can keep writing back. */}
       {showConnect && (
-        <View style={styles.connectPanel}>
-          <ConnectCard compact />
-        </View>
+        <ScrollView
+          style={styles.connectScroll}
+          contentContainerStyle={styles.connectScrollContent}
+          keyboardShouldPersistTaps="handled"
+        >
+          <ConnectCard />
+        </ScrollView>
       )}
 
-      {/* ── Message list ──────────────────────────────────────────────────── */}
+      {/* ── The AI chat — hidden while the real-person thread is open ───────── */}
+      {!showConnect && (
       <KeyboardAvoidingView
         style={{ flex: 1 }}
         behavior="padding"
@@ -229,7 +242,7 @@ export default function ChatScreen() {
               // what the minister said into a note and find it later in the Journal.
               <View key={msg.id} style={styles.assistantBlock}>
                 <View style={[styles.bubble, styles.bubbleAssistant]}>
-                  <Text style={[styles.bubbleText, styles.bubbleTextAssistant]}>{msg.text}</Text>
+                  <Text selectable style={[styles.bubbleText, styles.bubbleTextAssistant]}>{msg.text}</Text>
                   <Text style={styles.bubbleTime}>{formatTime(msg.timestamp)}</Text>
                 </View>
                 <View style={styles.keepRow}>
@@ -243,7 +256,7 @@ export default function ChatScreen() {
               </View>
             ) : (
               <View key={msg.id} style={[styles.bubble, styles.bubbleUser]}>
-                <Text style={[styles.bubbleText, styles.bubbleTextUser]}>{msg.text}</Text>
+                <Text selectable style={[styles.bubbleText, styles.bubbleTextUser]}>{msg.text}</Text>
                 <Text style={styles.bubbleTime}>{formatTime(msg.timestamp)}</Text>
               </View>
             )
@@ -293,6 +306,7 @@ export default function ChatScreen() {
           </TouchableOpacity>
         </View>
       </KeyboardAvoidingView>
+      )}
     </SafeAreaView>
   );
 }
@@ -332,6 +346,7 @@ const styles = StyleSheet.create({
   historyTitle: { flex: 1, color: colors.textMid, fontSize: 13, fontFamily: 'Georgia' },
   historyDate: { color: colors.textMuted, fontSize: 11, fontFamily: 'Georgia', marginLeft: spacing.sm },
   historyEmpty: { color: colors.textMuted, fontSize: 12, fontFamily: 'Georgia', fontStyle: 'italic', paddingVertical: 6 },
+  historyScroll: { maxHeight: 300 },
 
   copiedBanner: {
     marginHorizontal: spacing.md, marginTop: spacing.sm,
@@ -343,6 +358,8 @@ const styles = StyleSheet.create({
   connectPanel: {
     paddingHorizontal: spacing.md, paddingTop: spacing.sm,
   },
+  connectScroll: { flex: 1 },
+  connectScrollContent: { paddingHorizontal: spacing.md, paddingTop: spacing.md, paddingBottom: spacing.xl },
 
   messageList: { flex: 1 },
   messageListContent: {
