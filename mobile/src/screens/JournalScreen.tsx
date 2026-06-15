@@ -12,6 +12,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
+import { useNavigation } from '@react-navigation/native';
 import { useAppStore, generateBlessing, NoteSource } from '../store/useAppStore';
 import { getCurrentPrompt } from '../data/journalPrompts';
 import { colors, spacing, radius } from '../theme';
@@ -38,6 +39,16 @@ export default function JournalScreen() {
   const learnedNotes     = useAppStore(s => s.learnedNotes);
   const pendingNoteId    = useAppStore(s => s.pendingNoteId);
   const clearPendingNote = useAppStore(s => s.clearPendingNote);
+  const prefillChat      = useAppStore(s => s.prefillChat);
+  const navigation       = useNavigation<any>();
+
+  // Carry a saved entry or kept note into a fresh TAI chat to talk it through.
+  function talkAbout(what: string) {
+    const clean = (what || '').replace(/\s+/g, ' ').trim();
+    if (!clean) return;
+    prefillChat(`I'd like to talk about something I kept: “${clean}”. What do you make of it, and what would you ask me about it?`);
+    navigation.navigate('Chat');
+  }
 
   const prompt = getCurrentPrompt(feedTag, dialogueSignals, answeredPromptIds);
 
@@ -227,6 +238,11 @@ export default function JournalScreen() {
                       <Text style={styles.noteToggle}>
                         {open ? 'Show less' : 'Read what you kept →'}
                       </Text>
+                      {open && (
+                        <TouchableOpacity activeOpacity={0.7} onPress={() => talkAbout(note.body || note.summary || note.title)}>
+                          <Text style={styles.talkLink}>Talk about it →</Text>
+                        </TouchableOpacity>
+                      )}
                     </TouchableOpacity>
                   );
                 })}
@@ -271,7 +287,12 @@ export default function JournalScreen() {
                       <Text style={styles.entryChevron}>{open ? '▾' : '▸'}</Text>
                     </View>
                     {open ? (
-                      <Text style={styles.entryText}>{entry.text}</Text>
+                      <>
+                        <Text style={styles.entryText}>{entry.text}</Text>
+                        <TouchableOpacity activeOpacity={0.7} onPress={() => talkAbout(entry.text)}>
+                          <Text style={styles.talkLink}>Talk about it →</Text>
+                        </TouchableOpacity>
+                      </>
                     ) : (
                       <Text style={styles.entryPreview} numberOfLines={1}>{entry.text}</Text>
                     )}
@@ -547,6 +568,12 @@ const styles = StyleSheet.create({
     fontFamily: 'Georgia',
     color:      colors.textMuted,
     lineHeight: 18,
+  },
+  talkLink: {
+    fontSize:   12,
+    fontFamily: 'Georgia',
+    color:      colors.gold,
+    marginTop:  8,
   },
 
   emptyNote: {
