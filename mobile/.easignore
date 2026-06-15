@@ -1,8 +1,0 @@
-# .easignore — controls what gets uploaded to EAS Build (NOT to git).
-#
-# We intentionally do NOT list .env here. When this file exists, EAS uses it
-# instead of .gitignore to decide the build upload, so .env (which IS gitignored)
-# gets included in the build only — that puts the EXPO_PUBLIC_* keys into this
-# preview APK for Cameron's own phone testing, which AGENT-RULES explicitly allows
-# (internal distribution, never a public/shipped build). The secret stays out of
-# git. node_modules and .git are ignored by EAS automatically.
