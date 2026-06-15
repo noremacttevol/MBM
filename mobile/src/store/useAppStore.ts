@@ -1664,6 +1664,11 @@ export const useAppStore = create<AppState & AppActions>()(
         const heard   = composeSignals(newBase, faithWords);
         const nextTag = routeFeedTag(heard);
         const moved   = nextTag !== prevTag;
+        // The reflection is SAVED as a journal entry (the person chose to keep it),
+        // so it must NOT also be copied into Profile "your story so far" — that was
+        // the double-count (Cameron's #6). Story-so-far is only for things the app
+        // holds that the person did NOT already save themselves. The act of saving
+        // still feeds the trait read below.
         set(s => ({
           journalEntries:  [entry, ...s.journalEntries],
           baseSignals:     newBase,
@@ -1671,10 +1676,6 @@ export const useAppStore = create<AppState & AppActions>()(
           traitScores:     nudgeTraits(traitScores, { sincerity: 0.2, hunger: 0.1 }),
           feedTag:         moved ? nextTag : prevTag,
           feed:            moved ? buildFeed(nextTag, seenIds) : prevFeed,
-          moments: [
-            { title: `You sat with “${item.title}”`, text: `“${t.slice(0, 80)}${t.length > 80 ? '…' : ''}”`, ts: Date.now() },
-            ...s.moments,
-          ],
         }));
         get().blessPersonalized('journal', t, {
           question: `Reflecting on “${item.title}” (${item.scriptureRef})`,
