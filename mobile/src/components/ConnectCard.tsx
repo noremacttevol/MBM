@@ -325,7 +325,7 @@ const styles = StyleSheet.create({
   },
   cardCompact: { marginBottom: spacing.sm },
   title: {
-    fontSize: 16, fontFamily: 'Georgia', color: colors.textMid, marginBottom: spacing.sm,
+    fontSize: 16, fontFamily: 'Jost_400Regular', color: colors.textMid, marginBottom: spacing.sm,
     flexShrink: 1,
   },
 
@@ -334,7 +334,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row', alignItems: 'center', gap: spacing.sm, marginBottom: spacing.xs,
   },
   backLink: {
-    fontSize: 13, fontFamily: 'Georgia', color: colors.blue, paddingVertical: 2, paddingRight: 4,
+    fontSize: 13, fontFamily: 'Jost_400Regular', color: colors.blue, paddingVertical: 2, paddingRight: 4,
   },
 
   // ── Conversation list (multiple real-person threads) ────────────────────────
@@ -346,14 +346,14 @@ const styles = StyleSheet.create({
   },
   listRowMain: { flex: 1 },
   rowTitle: {
-    fontSize: 14, fontFamily: 'Georgia', color: colors.textMid, marginBottom: 2,
+    fontSize: 14, fontFamily: 'Jost_400Regular', color: colors.textMid, marginBottom: 2,
   },
   rowSnippet: {
-    fontSize: 12, fontFamily: 'Georgia', color: colors.textDim,
+    fontSize: 12, fontFamily: 'Jost_400Regular', color: colors.textDim,
   },
   listRowSide: { alignItems: 'flex-end', gap: 4 },
   rowTime: {
-    fontSize: 10, fontFamily: 'Georgia', color: colors.textMuted,
+    fontSize: 10, fontFamily: 'Jost_400Regular', color: colors.textMuted,
   },
   unreadDot: {
     width: 9, height: 9, borderRadius: 5, backgroundColor: colors.green,
@@ -363,14 +363,14 @@ const styles = StyleSheet.create({
     paddingVertical: 10, paddingHorizontal: 14, alignItems: 'center', marginTop: 2,
   },
   newBtnText: {
-    color: colors.green, fontSize: 13, fontFamily: 'Georgia', fontWeight: '600',
+    color: colors.green, fontSize: 13, fontFamily: 'Jost_400Regular', fontWeight: '600',
   },
   body: {
-    fontSize: 13, fontFamily: 'Georgia', color: colors.textDim,
+    fontSize: 13, fontFamily: 'Jost_400Regular', color: colors.textDim,
     lineHeight: 20, marginBottom: spacing.md,
   },
   confirm: {
-    fontSize: 14, fontFamily: 'Georgia', color: colors.green,
+    fontSize: 14, fontFamily: 'Jost_400Regular', color: colors.green,
     lineHeight: 22, marginBottom: spacing.sm, fontStyle: 'italic',
   },
 
@@ -381,7 +381,7 @@ const styles = StyleSheet.create({
     paddingVertical: 8, paddingHorizontal: 12, marginBottom: spacing.sm,
   },
   unreadText: {
-    color: colors.green, fontSize: 12, fontFamily: 'Georgia',
+    color: colors.green, fontSize: 12, fontFamily: 'Jost_400Regular',
   },
 
   // ── Thread ──────────────────────────────────────────────────────────────────
@@ -390,7 +390,7 @@ const styles = StyleSheet.create({
   rowMine:   { alignSelf: 'flex-end',   alignItems: 'flex-end' },
   rowTheirs: { alignSelf: 'flex-start', alignItems: 'flex-start' },
   fromLabel: {
-    fontSize: 10, fontFamily: 'Georgia', color: colors.green,
+    fontSize: 10, fontFamily: 'Jost_400Regular', color: colors.green,
     letterSpacing: 0.5, marginBottom: 3, marginLeft: 4,
   },
   bubble: {
@@ -406,19 +406,19 @@ const styles = StyleSheet.create({
     backgroundColor: '#0d1b2e', borderColor: colors.blue,
   },
   bubbleText: {
-    fontSize: 14, fontFamily: 'Georgia', color: colors.textMid, lineHeight: 21,
+    fontSize: 14, fontFamily: 'Jost_400Regular', color: colors.textMid, lineHeight: 21,
   },
   excerpt: {
-    fontSize: 12, fontFamily: 'Georgia', color: colors.textDim,
+    fontSize: 12, fontFamily: 'Jost_400Regular', color: colors.textDim,
     fontStyle: 'italic', lineHeight: 18, marginBottom: 6,
     borderLeftWidth: 2, borderLeftColor: colors.borderDim, paddingLeft: 8,
   },
   time: {
-    fontSize: 10, fontFamily: 'Georgia', color: colors.textMuted, marginTop: 3, marginHorizontal: 4,
+    fontSize: 10, fontFamily: 'Jost_400Regular', color: colors.textMuted, marginTop: 3, marginHorizontal: 4,
   },
 
   honest: {
-    fontSize: 11, fontFamily: 'Georgia', color: colors.textMuted,
+    fontSize: 11, fontFamily: 'Jost_400Regular', color: colors.textMuted,
     fontStyle: 'italic', lineHeight: 16, marginBottom: spacing.sm,
   },
 
@@ -426,7 +426,7 @@ const styles = StyleSheet.create({
   composer: { flexDirection: 'row', alignItems: 'flex-end', gap: spacing.sm },
   composerInput: {
     flex: 1, backgroundColor: colors.bgInput, borderWidth: 1, borderColor: '#2a3a28',
-    borderRadius: radius.md, color: colors.textMid, fontSize: 14, fontFamily: 'Georgia',
+    borderRadius: radius.md, color: colors.textMid, fontSize: 14, fontFamily: 'Jost_400Regular',
     paddingHorizontal: 12, paddingVertical: 10, minHeight: 44, maxHeight: 120, lineHeight: 20,
   },
 
@@ -438,7 +438,7 @@ const styles = StyleSheet.create({
     marginBottom: spacing.sm, alignItems: 'center',
   },
   humanBtnText: {
-    color: '#0a0f0a', fontSize: 14, fontFamily: 'Georgia', fontWeight: '600',
+    color: '#0a0f0a', fontSize: 14, fontFamily: 'Jost_400Regular', fontWeight: '600',
   },
 
   // Writing mode
@@ -446,14 +446,14 @@ const styles = StyleSheet.create({
   input: {
     backgroundColor: colors.bgInput, borderWidth: 1, borderColor: '#2a3a28',
     borderRadius: radius.md, color: colors.textMid, fontSize: 14,
-    fontFamily: 'Georgia', padding: 12, minHeight: 96, lineHeight: 22,
+    fontFamily: 'Jost_400Regular', padding: 12, minHeight: 96, lineHeight: 22,
     marginBottom: spacing.sm,
   },
   writeActions: {
     flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between',
   },
   cancelText: {
-    color: colors.textMuted, fontSize: 13, fontFamily: 'Georgia', paddingVertical: 8,
+    color: colors.textMuted, fontSize: 13, fontFamily: 'Jost_400Regular', paddingVertical: 8,
   },
   sendBtn: {
     backgroundColor: colors.green, borderRadius: radius.sm,
@@ -462,7 +462,7 @@ const styles = StyleSheet.create({
   },
   sendBtnDim: { opacity: 0.5 },
   sendBtnText: {
-    color: '#0a0f0a', fontSize: 13, fontFamily: 'Georgia', fontWeight: '600',
+    color: '#0a0f0a', fontSize: 13, fontFamily: 'Jost_400Regular', fontWeight: '600',
   },
 
   missionaryBlock: {
@@ -470,15 +470,15 @@ const styles = StyleSheet.create({
     paddingTop: spacing.sm, marginTop: spacing.sm, marginBottom: spacing.sm,
   },
   missionaryBody: {
-    fontSize: 12, fontFamily: 'Georgia', color: colors.textDim,
+    fontSize: 12, fontFamily: 'Jost_400Regular', color: colors.textDim,
     lineHeight: 18, marginBottom: spacing.sm, fontStyle: 'italic',
   },
   missionaryBtn: {
     borderWidth: 1, borderColor: colors.gold, borderRadius: 4,
     paddingVertical: 8, paddingHorizontal: 12, alignSelf: 'flex-start',
   },
-  missionaryBtnText: { color: colors.gold, fontSize: 12, fontFamily: 'Georgia' },
+  missionaryBtnText: { color: colors.gold, fontSize: 12, fontFamily: 'Jost_400Regular' },
   sub: {
-    fontSize: 11, color: colors.textMuted, fontFamily: 'Georgia', fontStyle: 'italic',
+    fontSize: 11, color: colors.textMuted, fontFamily: 'Jost_400Regular', fontStyle: 'italic',
   },
 });

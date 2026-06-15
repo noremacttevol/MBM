@@ -17,9 +17,9 @@ export const colors = {
 } as const;
 
 export const typography = {
-  serif:       'Georgia',
-  serifItalic: 'Georgia',
-  sansSerif:   'System',
+  serif:       'Jost_400Regular',
+  serifItalic: 'Jost_400Regular',
+  sansSerif:   'Jost_400Regular',
 } as const;
 
 export const spacing = {

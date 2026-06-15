@@ -64,16 +64,16 @@ const styles = StyleSheet.create({
   },
   label: {
     fontSize: 10, letterSpacing: 1.5, color: '#8a7d50',
-    fontFamily: 'Georgia', marginBottom: spacing.sm,
+    fontFamily: 'Jost_400Regular', marginBottom: spacing.sm,
   },
   body: {
-    fontSize: 15, fontFamily: 'Georgia', color: '#d0c8b0',
+    fontSize: 15, fontFamily: 'Jost_400Regular', color: '#d0c8b0',
     lineHeight: 23, marginBottom: 12,
   },
   input: {
     width: '100%', borderWidth: 1, borderColor: '#1e1c18', borderRadius: 4,
     backgroundColor: colors.bgInput, color: '#d0c8b0', fontSize: 13,
-    fontFamily: 'Georgia', padding: spacing.sm, minHeight: 56,
+    fontFamily: 'Jost_400Regular', padding: spacing.sm, minHeight: 56,
     marginBottom: 12, lineHeight: 19,
   },
   options: { gap: spacing.xs },
@@ -82,6 +82,6 @@ const styles = StyleSheet.create({
     paddingVertical: 10, paddingHorizontal: 12,
   },
   optBtnDashed: { borderStyle: 'dashed' },
-  optText: { fontSize: 13, fontFamily: 'Georgia', color: colors.textDim, lineHeight: 19 },
-  optTextMuted: { fontSize: 13, fontFamily: 'Georgia', color: colors.textMuted, fontStyle: 'italic' },
+  optText: { fontSize: 13, fontFamily: 'Jost_400Regular', color: colors.textDim, lineHeight: 19 },
+  optTextMuted: { fontSize: 13, fontFamily: 'Jost_400Regular', color: colors.textMuted, fontStyle: 'italic' },
 });

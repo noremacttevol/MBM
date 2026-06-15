@@ -377,7 +377,7 @@ const styles = StyleSheet.create({
 
   header: {
     fontSize:     22,
-    fontFamily:   'Georgia',
+    fontFamily:   'Jost_400Regular',
     color:        colors.textMid,
     marginBottom: spacing.lg,
   },
@@ -395,12 +395,12 @@ const styles = StyleSheet.create({
     fontSize:      10,
     letterSpacing: 1.5,
     color:         colors.textMuted,
-    fontFamily:    'Georgia',
+    fontFamily:    'Jost_400Regular',
     marginBottom:  spacing.sm,
   },
   promptText: {
     fontSize:     16,
-    fontFamily:   'Georgia',
+    fontFamily:   'Jost_400Regular',
     color:        colors.textMid,
     lineHeight:   26,
     marginBottom: spacing.md,
@@ -418,13 +418,13 @@ const styles = StyleSheet.create({
   },
   thankText: {
     fontSize:   18,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     color:      colors.gold,
     fontStyle:  'italic',
   },
   blessLine: {
     fontSize:   13,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     fontStyle:  'italic',
     color:      colors.textDim,
     textAlign:  'center',
@@ -433,7 +433,7 @@ const styles = StyleSheet.create({
   },
   writeMoreText: {
     fontSize:   13,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     color:      colors.textMuted,
     fontStyle:  'italic',
   },
@@ -444,7 +444,7 @@ const styles = StyleSheet.create({
     borderRadius:    radius.sm,
     backgroundColor: colors.bgInput,
     color:           colors.text,
-    fontFamily:      'Georgia',
+    fontFamily:      'Jost_400Regular',
     fontSize:        14,
     padding:         spacing.sm,
     minHeight:       120,
@@ -463,7 +463,7 @@ const styles = StyleSheet.create({
   },
   submitBtnText: {
     color:      colors.gold,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     fontSize:   13,
   },
 
@@ -476,14 +476,14 @@ const styles = StyleSheet.create({
     fontSize:      10,
     letterSpacing: 1.5,
     color:         colors.textMuted,
-    fontFamily:    'Georgia',
+    fontFamily:    'Jost_400Regular',
     marginBottom:  spacing.md,
   },
 
   // ── Kept notes ─────────────────────────────────────────────────────────
   notesEmpty: {
     fontSize:   13,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     fontStyle:  'italic',
     color:      colors.textMuted,
     lineHeight: 21,
@@ -511,24 +511,24 @@ const styles = StyleSheet.create({
     letterSpacing: 1.2,
     textTransform: 'uppercase',
     color:         colors.textMuted,
-    fontFamily:    'Georgia',
+    fontFamily:    'Jost_400Regular',
   },
   noteDate: {
     fontSize:   10,
     color:      colors.textMuted,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     letterSpacing: 0.8,
   },
   noteTitle: {
     fontSize:     15,
-    fontFamily:   'Georgia',
+    fontFamily:   'Jost_400Regular',
     color:        '#e8e0c8',
     lineHeight:   22,
     marginBottom: 6,
   },
   noteSummary: {
     fontSize:   13,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     color:      colors.textDim,
     lineHeight: 21,
   },
@@ -542,19 +542,19 @@ const styles = StyleSheet.create({
     fontSize:      9,
     letterSpacing: 1.2,
     color:         colors.textMuted,
-    fontFamily:    'Georgia',
+    fontFamily:    'Jost_400Regular',
     marginBottom:  4,
   },
   noteBody: {
     fontSize:   13,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     fontStyle:  'italic',
     color:      colors.textMid,
     lineHeight: 21,
   },
   noteToggle: {
     fontSize:   11,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     fontStyle:  'italic',
     color:      colors.blue,
     marginTop:  spacing.sm,
@@ -568,7 +568,7 @@ const styles = StyleSheet.create({
   },
   allNotesText: {
     fontSize:   12,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     color:      colors.gold,
   },
 
@@ -582,13 +582,13 @@ const styles = StyleSheet.create({
   entryDate: {
     fontSize:      10,
     color:         colors.textMuted,
-    fontFamily:    'Georgia',
+    fontFamily:    'Jost_400Regular',
     letterSpacing: 0.8,
     marginBottom:  spacing.xs,
   },
   entryPrompt: {
     fontSize:     12,
-    fontFamily:   'Georgia',
+    fontFamily:   'Jost_400Regular',
     fontStyle:    'italic',
     color:        colors.textMuted,
     lineHeight:   18,
@@ -596,7 +596,7 @@ const styles = StyleSheet.create({
   },
   entryText: {
     fontSize:   14,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     color:      colors.textDim,
     lineHeight: 22,
   },
@@ -613,13 +613,13 @@ const styles = StyleSheet.create({
   },
   entryPreview: {
     fontSize:   13,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     color:      colors.textMuted,
     lineHeight: 18,
   },
   talkLink: {
     fontSize:   12,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     color:      colors.gold,
     marginTop:  8,
   },
@@ -627,20 +627,20 @@ const styles = StyleSheet.create({
     flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginTop: 8,
   },
   deleteLink: {
-    fontSize: 12, fontFamily: 'Georgia', fontStyle: 'italic', color: colors.textMuted,
+    fontSize: 12, fontFamily: 'Jost_400Regular', fontStyle: 'italic', color: colors.textMuted,
   },
   editLink: {
-    fontSize: 12, fontFamily: 'Georgia', fontStyle: 'italic', color: colors.blue,
+    fontSize: 12, fontFamily: 'Jost_400Regular', fontStyle: 'italic', color: colors.blue,
   },
   editInput: {
     backgroundColor: colors.bgInput, borderWidth: 1, borderColor: colors.border,
-    borderRadius: radius.md, color: colors.text, fontSize: 14, fontFamily: 'Georgia',
+    borderRadius: radius.md, color: colors.text, fontSize: 14, fontFamily: 'Jost_400Regular',
     padding: 10, minHeight: 70, lineHeight: 20, marginTop: 4,
   },
 
   emptyNote: {
     fontSize:   13,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     fontStyle:  'italic',
     color:      colors.textMuted,
     textAlign:  'center',

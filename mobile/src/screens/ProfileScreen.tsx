@@ -455,7 +455,7 @@ const styles = StyleSheet.create({
 
   header: {
     fontSize:     22,
-    fontFamily:   'Georgia',
+    fontFamily:   'Jost_400Regular',
     color:        colors.textMid,
     marginBottom: spacing.lg,
   },
@@ -472,12 +472,12 @@ const styles = StyleSheet.create({
     fontSize:      10,
     letterSpacing: 1.5,
     color:         colors.textMuted,
-    fontFamily:    'Georgia',
+    fontFamily:    'Jost_400Regular',
     marginBottom:  spacing.sm,
   },
   sectionNote: {
     fontSize:     11,
-    fontFamily:   'Georgia',
+    fontFamily:   'Jost_400Regular',
     fontStyle:    'italic',
     color:        colors.textMuted,
     lineHeight:   17,
@@ -485,7 +485,7 @@ const styles = StyleSheet.create({
   },
   interpretText: {
     fontSize:   15,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     color:      colors.textDim,
     lineHeight: 24,
     fontStyle:  'italic',
@@ -493,7 +493,7 @@ const styles = StyleSheet.create({
 
   faithStatus: {
     fontSize:     14,
-    fontFamily:   'Georgia',
+    fontFamily:   'Jost_400Regular',
     color:        colors.textMid,
     lineHeight:   22,
     marginBottom: spacing.sm,
@@ -505,14 +505,14 @@ const styles = StyleSheet.create({
   },
   faithWordText: {
     fontSize:   13,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     color:      colors.textDim,
     lineHeight: 20,
     fontStyle:  'italic',
   },
   faithWordDate: {
     fontSize:  10,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     color:     colors.textMuted,
     marginTop: 2,
   },
@@ -524,7 +524,7 @@ const styles = StyleSheet.create({
   },
   faithEditHint: {
     fontSize:   10,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     fontStyle:  'italic',
     color:      colors.blue,
   },
@@ -534,7 +534,7 @@ const styles = StyleSheet.create({
     borderRadius:    radius.sm,
     backgroundColor: colors.bgInput,
     color:           colors.text,
-    fontFamily:      'Georgia',
+    fontFamily:      'Jost_400Regular',
     fontSize:        13,
     lineHeight:      20,
     padding:         spacing.sm,
@@ -548,17 +548,17 @@ const styles = StyleSheet.create({
   },
   editSave: {
     fontSize:   12,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     color:      colors.gold,
   },
   editCancel: {
     fontSize:   12,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     color:      colors.textMuted,
   },
   editRemove: {
     fontSize:   12,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     color:      colors.textMuted,
     marginLeft: 'auto',
   },
@@ -570,7 +570,7 @@ const styles = StyleSheet.create({
   },
   addFaithText: {
     fontSize:   12,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     fontStyle:  'italic',
     color:      colors.blue,
   },
@@ -584,13 +584,13 @@ const styles = StyleSheet.create({
   traitMeta: { width: 110 },
   traitName: {
     fontSize:   12,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     color:      colors.textMid,
     lineHeight: 16,
   },
   traitDesc: {
     fontSize:   10,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     color:      colors.textMuted,
     lineHeight: 14,
   },
@@ -608,7 +608,7 @@ const styles = StyleSheet.create({
   },
   traitScore: {
     fontSize:   11,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     color:      colors.textMuted,
     width:      28,
     textAlign:  'right',
@@ -628,19 +628,19 @@ const styles = StyleSheet.create({
   momentTitle: {
     flex:       1,
     fontSize:   13,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     color:      colors.textMid,
     lineHeight: 19,
   },
   momentDate: {
     fontSize:  10,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     color:     colors.textMuted,
     paddingTop: 3,
   },
   momentDetail: {
     fontSize:   12,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     color:      colors.textDim,
     lineHeight: 18,
     fontStyle:  'italic',
@@ -648,7 +648,7 @@ const styles = StyleSheet.create({
   },
   askText: {
     fontSize:   11,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     fontStyle:  'italic',
     color:      colors.blue,
   },
@@ -656,7 +656,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginTop: 4,
   },
   removeText: {
-    fontSize: 11, fontFamily: 'Georgia', fontStyle: 'italic', color: colors.textMuted,
+    fontSize: 11, fontFamily: 'Jost_400Regular', fontStyle: 'italic', color: colors.textMuted,
   },
 
   statsRow: {
@@ -675,20 +675,20 @@ const styles = StyleSheet.create({
   },
   statValue: {
     fontSize:     22,
-    fontFamily:   'Georgia',
+    fontFamily:   'Jost_400Regular',
     color:        colors.gold,
     marginBottom: 2,
   },
   statLabel: {
     fontSize:   10,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     color:      colors.textMuted,
     textAlign:  'center',
   },
 
   footerNote: {
     fontSize:   12,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
     fontStyle:  'italic',
     color:      colors.textMuted,
     textAlign:  'center',

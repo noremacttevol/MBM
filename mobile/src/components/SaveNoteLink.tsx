@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     color:      colors.blue,
     fontSize:   11,
     fontStyle:  'italic',
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
   },
   linkSaved: {
     color: colors.textMuted,

@@ -131,7 +131,7 @@ export default function ChatScreen() {
 
       {/* ── Header ────────────────────────────────────────────────────────── */}
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>TAI</Text>
+        <Text style={styles.headerTitle}>Talk it through</Text>
         <View style={styles.headerActions}>
           <TouchableOpacity style={styles.headerBtn} activeOpacity={0.75} onPress={handleNewChat}>
             <Text style={styles.headerBtnText}>+ New</Text>
@@ -337,14 +337,14 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1, borderBottomColor: colors.borderDim,
     flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center',
   },
-  headerTitle: { fontSize: 18, fontFamily: 'Georgia', color: colors.textMid },
+  headerTitle: { fontSize: 18, fontFamily: 'Jost_400Regular', color: colors.textMid },
 
   headerActions: { flexDirection: 'row', alignItems: 'center', gap: spacing.xs },
   headerBtn: {
     borderWidth: 1, borderColor: colors.borderDim, borderRadius: 4,
     paddingVertical: 5, paddingHorizontal: 9,
   },
-  headerBtnText: { color: colors.textDim, fontSize: 11, fontFamily: 'Georgia' },
+  headerBtnText: { color: colors.textDim, fontSize: 11, fontFamily: 'Jost_400Regular' },
   // The real-person action is blue, matching the blue of a real person's replies.
   personBtn: { borderColor: colors.blue },
   personBtnText: { color: colors.blue },
@@ -354,16 +354,16 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1, borderBottomColor: colors.borderDim,
   },
   historyHeading: {
-    fontSize: 10, fontFamily: 'Georgia', color: colors.textMuted,
+    fontSize: 10, fontFamily: 'Jost_400Regular', color: colors.textMuted,
     textTransform: 'uppercase', letterSpacing: 0.5, marginBottom: spacing.xs,
   },
   historyRow: {
     flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center',
     paddingVertical: 8, borderBottomWidth: 1, borderBottomColor: colors.borderDim,
   },
-  historyTitle: { flex: 1, color: colors.textMid, fontSize: 13, fontFamily: 'Georgia' },
-  historyDate: { color: colors.textMuted, fontSize: 11, fontFamily: 'Georgia', marginLeft: spacing.sm },
-  historyEmpty: { color: colors.textMuted, fontSize: 12, fontFamily: 'Georgia', fontStyle: 'italic', paddingVertical: 6 },
+  historyTitle: { flex: 1, color: colors.textMid, fontSize: 13, fontFamily: 'Jost_400Regular' },
+  historyDate: { color: colors.textMuted, fontSize: 11, fontFamily: 'Jost_400Regular', marginLeft: spacing.sm },
+  historyEmpty: { color: colors.textMuted, fontSize: 12, fontFamily: 'Jost_400Regular', fontStyle: 'italic', paddingVertical: 6 },
   historyScroll: { maxHeight: 300 },
   historyDelete: { color: colors.textMuted, fontSize: 18, marginLeft: spacing.sm, paddingHorizontal: 4 },
 
@@ -372,7 +372,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#0d1b2e', borderWidth: 1, borderColor: colors.blue,
     borderRadius: radius.md, paddingVertical: 9, paddingHorizontal: 12,
   },
-  copiedBannerText: { color: colors.blue, fontSize: 12, fontFamily: 'Georgia', lineHeight: 17 },
+  copiedBannerText: { color: colors.blue, fontSize: 12, fontFamily: 'Jost_400Regular', lineHeight: 17 },
 
   connectPanel: {
     paddingHorizontal: spacing.md, paddingTop: spacing.sm,
@@ -390,15 +390,15 @@ const styles = StyleSheet.create({
     paddingTop: spacing.xxl, paddingHorizontal: spacing.lg,
   },
   emptyTitle: {
-    fontSize: 18, fontFamily: 'Georgia', color: colors.textMid,
+    fontSize: 18, fontFamily: 'Jost_400Regular', color: colors.textMid,
     marginBottom: spacing.md, textAlign: 'center',
   },
   emptyBody: {
-    fontSize: 14, fontFamily: 'Georgia', color: colors.textDim,
+    fontSize: 14, fontFamily: 'Jost_400Regular', color: colors.textDim,
     lineHeight: 22, textAlign: 'center', marginBottom: spacing.lg,
   },
   emptySub: {
-    fontSize: 12, fontFamily: 'Georgia', fontStyle: 'italic',
+    fontSize: 12, fontFamily: 'Jost_400Regular', fontStyle: 'italic',
     color: colors.textMuted, textAlign: 'center',
   },
 
@@ -419,11 +419,11 @@ const styles = StyleSheet.create({
   keepRow: { paddingLeft: 4, marginTop: -2, marginBottom: spacing.sm },
 
   loadingBubble: { paddingVertical: spacing.md, paddingHorizontal: spacing.lg },
-  bubbleText: { fontSize: 14, fontFamily: 'Georgia', lineHeight: 22 },
+  bubbleText: { fontSize: 14, fontFamily: 'Jost_400Regular', lineHeight: 22 },
   bubbleTextUser: { color: colors.textMid },
   bubbleTextAssistant: { color: colors.textDim },
   bubbleTime: {
-    fontSize: 10, fontFamily: 'Georgia', color: colors.textMuted,
+    fontSize: 10, fontFamily: 'Jost_400Regular', color: colors.textMuted,
     marginTop: 4, alignSelf: 'flex-end',
   },
 
@@ -433,7 +433,7 @@ const styles = StyleSheet.create({
     paddingVertical: 4, paddingHorizontal: 8, marginVertical: 2,
   },
   metaText: {
-    fontSize: 11, fontFamily: 'Georgia', fontStyle: 'italic',
+    fontSize: 11, fontFamily: 'Jost_400Regular', fontStyle: 'italic',
     color: colors.textMuted, textAlign: 'center', lineHeight: 16,
   },
 
@@ -443,7 +443,7 @@ const styles = StyleSheet.create({
     paddingVertical: 8, paddingHorizontal: 12,
   },
   factCheckText: {
-    fontSize: 11, fontFamily: 'Georgia', color: colors.blue,
+    fontSize: 11, fontFamily: 'Jost_400Regular', color: colors.blue,
     fontStyle: 'italic', lineHeight: 16,
   },
 
@@ -456,7 +456,7 @@ const styles = StyleSheet.create({
   input: {
     flex: 1, backgroundColor: colors.bgInput, borderWidth: 1,
     borderColor: colors.border, borderRadius: radius.md,
-    color: colors.text, fontFamily: 'Georgia', fontSize: 14,
+    color: colors.text, fontFamily: 'Jost_400Regular', fontSize: 14,
     paddingHorizontal: spacing.sm, paddingVertical: spacing.sm, maxHeight: 100,
   },
   sendBtn: {
@@ -465,5 +465,5 @@ const styles = StyleSheet.create({
     alignItems: 'center', justifyContent: 'center',
   },
   sendBtnDisabled: { borderColor: colors.borderDim },
-  sendBtnText: { color: colors.gold, fontSize: 18, fontFamily: 'Georgia' },
+  sendBtnText: { color: colors.gold, fontSize: 18, fontFamily: 'Jost_400Regular' },
 });

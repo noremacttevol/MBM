@@ -177,23 +177,23 @@ const styles = StyleSheet.create({
     color:         colors.textMuted,
     letterSpacing: 1.2,
     textTransform: 'uppercase',
-    fontFamily:    'Georgia',
+    fontFamily:    'Jost_400Regular',
   },
   readTime: {
     fontSize:  11,
     color:     colors.textMuted,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
   },
   title: {
     fontSize:     17,
-    fontFamily:   'Georgia',
+    fontFamily:   'Jost_400Regular',
     color:        '#e8e0c8',
     marginBottom: 8,
     lineHeight:   24,
   },
   description: {
     fontSize:     13,
-    fontFamily:   'Georgia',
+    fontFamily:   'Jost_400Regular',
     color:        colors.textDim,
     lineHeight:   21,
     marginBottom: spacing.md,
@@ -212,7 +212,7 @@ const styles = StyleSheet.create({
   readBtnText: {
     color:      colors.gold,
     fontSize:   13,
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
   },
   iconBtn: {
     padding:      8,
@@ -235,7 +235,7 @@ const styles = StyleSheet.create({
     color:      colors.blue,
     fontSize:   11,
     fontStyle:  'italic',
-    fontFamily: 'Georgia',
+    fontFamily: 'Jost_400Regular',
   },
 
   reflectBox: { marginTop: 10 },
@@ -247,7 +247,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.bgInput,
     color:           '#d0c8b0',
     fontSize:        13,
-    fontFamily:      'Georgia',
+    fontFamily:      'Jost_400Regular',
     padding:         spacing.sm,
     minHeight:       56,
     marginBottom:    spacing.sm,
@@ -262,5 +262,5 @@ const styles = StyleSheet.create({
     paddingHorizontal: 14,
   },
   keepBtnDisabled: { borderColor: colors.borderDim },
-  keepBtnText: { color: colors.gold, fontSize: 12, fontFamily: 'Georgia' },
+  keepBtnText: { color: colors.gold, fontSize: 12, fontFamily: 'Jost_400Regular' },
 });
