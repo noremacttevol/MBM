@@ -272,6 +272,17 @@ They are rules. Build toward them; do not walk them back.
   `EXPO_PUBLIC_ANTHROPIC_API_KEY` from `mobile/.env`. Model: `claude-haiku-4-5-20251001`.
   Graceful offline fallback. The `server/` proxy is kept as an optional Phase-2 path
   but is **not** used by the shipping app.
+- **Talk-to-a-real-person inbox: FULLY SET UP AND LIVE (Cameron did this — do NOT
+  ask him to do it again).** As of 2026-06-14 the Firebase side is configured:
+  Anonymous sign-in is ON, the Firestore rules in `firebase/firestore.rules` are
+  PUBLISHED, the 6 `EXPO_PUBLIC_FIREBASE_*` keys are in `mobile/.env`, and
+  `admin/serviceAccount.json` is in place so the ministry-console desk
+  (`admin/inbox.mjs`, `npm start` in `admin/`, http://localhost:4545) can read and
+  reply. So the two-way messaging works end-to-end. No email is required for it to
+  function — messages land in Firestore and on Cameron's desk. (An email/phone
+  "heads-up on new message" ping is an OPTIONAL future convenience, not a
+  prerequisite.) Any agent that finds itself about to tell Cameron to "flip the
+  three Firebase switches" should stop — they are already flipped.
 
 ### Security (Cameron's standing instructions)
 - **`mobile/.env` is gitignored and must stay that way. Never commit the key.**
