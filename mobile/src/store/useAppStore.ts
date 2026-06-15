@@ -711,6 +711,10 @@ interface AppState {
   // Chat
   chatMessages:        ChatMessage[];   // the live, currently-open conversation
   chatLoading:         boolean;
+  // A stable id for the live conversation, so an in-flight AI answer can be routed
+  // back to the chat it was asked in — even if the person started or opened a
+  // different chat while it was loading (fixes the cross-populated-answer bug).
+  activeChatId:        string;
   chatSessions:        ChatSession[];   // saved past conversations, newest first
 
   // Every blessing line ever spoken — the disciple's working memory, so it
@@ -777,6 +781,7 @@ interface AppActions {
   sendChatMessage:     (text: string) => Promise<void>;
   setChatLoading:      (loading: boolean) => void;
   appendAssistantMessage: (text: string) => void;
+  appendAssistantToChat: (chatId: string, text: string, kind?: 'meta') => void;
   appendMetaMessage:   (text: string) => void;
   // Conversation history: archive the live thread and start fresh, or reopen a
   // past conversation from the history dropdown on the Ask page.
@@ -848,6 +853,7 @@ const initialState: AppState = {
   pendingNoteId:       null,
   chatMessages:        [],
   chatLoading:         false,
+  activeChatId:        generateId(),
   chatSessions:        [],
   blessingHistory:     [],
   connectRequests:     [],
@@ -1222,6 +1228,34 @@ export const useAppStore = create<AppState & AppActions>()(
         }));
       },
 
+      // Deliver an AI message to the chat it was ASKED in (chatId), even if the
+      // person has since switched to or started another chat. If that chat is still
+      // open, it lands live; otherwise it's appended to its archived session — so a
+      // pending answer never spills into a different conversation.
+      appendAssistantToChat(chatId, text, kind) {
+        const msg: ChatMessage = {
+          id:        Date.now().toString() + (kind === 'meta' ? '-m' : ''),
+          role:      'assistant',
+          text,
+          timestamp: Date.now(),
+          ...(kind === 'meta' ? { kind: 'meta' as const } : {}),
+        };
+        set(s => {
+          if (s.activeChatId === chatId) {
+            return { chatMessages: [...s.chatMessages, msg], chatLoading: false };
+          }
+          // Routed to a chat the person has navigated away from: append to its
+          // archived session and leave the current chat (and its loading) alone.
+          return {
+            chatSessions: s.chatSessions.map(sess =>
+              sess.id === chatId
+                ? { ...sess, messages: [...sess.messages, msg], updatedAt: Date.now() }
+                : sess,
+            ),
+          };
+        });
+      },
+
       // A quiet, centered note in the thread (e.g. "humility −1.5") that the
       // person can see and ask about — but which is NEVER sent back to the model
       // as conversation. Honest about what the judge just did.
@@ -1243,16 +1277,26 @@ export const useAppStore = create<AppState & AppActions>()(
       newChat() {
         set(s => {
           const real = s.chatMessages.filter(m => m.kind !== 'meta' && m.text.trim());
-          if (real.length === 0) return {};  // nothing worth saving
+          // Always move to a fresh chat id (and drop any spinner from the old one),
+          // so a still-loading answer is routed back to the chat it was asked in.
+          const freshId = generateId();
+          if (real.length === 0) {
+            return { activeChatId: freshId, chatLoading: false };  // nothing worth saving
+          }
           const firstUser = s.chatMessages.find(m => m.role === 'user');
           const session: ChatSession = {
-            id:        Date.now().toString(),
+            id:        s.activeChatId,   // archive under the SAME id the answer targets
             title:     titleFromText(firstUser?.text ?? real[0].text),
             createdAt: s.chatMessages[0]?.timestamp ?? Date.now(),
             updatedAt: Date.now(),
             messages:  s.chatMessages,
           };
-          return { chatSessions: [session, ...s.chatSessions], chatMessages: [] };
+          return {
+            chatSessions: [session, ...s.chatSessions],
+            chatMessages: [],
+            activeChatId: freshId,
+            chatLoading:  false,
+          };
         });
       },
 
@@ -1268,14 +1312,20 @@ export const useAppStore = create<AppState & AppActions>()(
           if (real.length > 0) {
             const firstUser = s.chatMessages.find(m => m.role === 'user');
             archive = [{
-              id:        Date.now().toString(),
+              id:        s.activeChatId,   // archive under the id its pending answer targets
               title:     titleFromText(firstUser?.text ?? real[0].text),
               createdAt: s.chatMessages[0]?.timestamp ?? Date.now(),
               updatedAt: Date.now(),
               messages:  s.chatMessages,
             }, ...rest];
           }
-          return { chatSessions: archive, chatMessages: target.messages };
+          // Becoming the live chat means its own id is now the active target.
+          return {
+            chatSessions: archive,
+            chatMessages: target.messages,
+            activeChatId: target.id,
+            chatLoading:  false,
+          };
         });
       },
 
@@ -1779,6 +1829,9 @@ export const useAppStore = create<AppState & AppActions>()(
       },
 
       async sendChatMessage(text) {
+        // Remember which chat this question belongs to, so the answer comes back
+        // here even if the person switches chats while it loads.
+        const sendChatId = get().activeChatId;
         const userMsg: ChatMessage = {
           id:        Date.now().toString(),
           role:      'user',
@@ -1806,6 +1859,12 @@ export const useAppStore = create<AppState & AppActions>()(
         const nextWords       = newFaithWord ? [newFaithWord, ...prior.faithWords] : prior.faithWords;
         const newBase         = mergeSignals(prior.baseSignals, stripIdentity(heur));
         const combinedSignals = composeSignals(newBase, nextWords);
+
+        // Did THIS message just reveal they are a Latter-day Saint (when the app
+        // didn't know it before)? If so we fast-track them to the member track and
+        // say so out loud — being dynamic with their faith instead of silently
+        // carrying on with milk (Cameron's ask).
+        const becameMember = engineIsMember(combinedSignals) && !engineIsMember(prior.dialogueSignals);
 
         set(s => ({
           chatMessages: [...s.chatMessages, userMsg],
@@ -1990,7 +2049,7 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
         // a DEV-ONLY fallback (a local key) and is never shipped in a build.
         const useProxy = !!MBM_API_URL;
         if (!useProxy && !ANTHROPIC_API_KEY) {
-          get().appendAssistantMessage(
+          get().appendAssistantToChat(sendChatId,
             "I'm not connected to my voice right now. Whatever you were thinking — it's worth writing down in the journal while you wait.",
           );
           return;
@@ -2086,11 +2145,19 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
           }));
 
           if (reply) {
-            get().appendAssistantMessage(reply);
+            get().appendAssistantToChat(sendChatId, reply);
           } else {
-            get().appendAssistantMessage(
+            get().appendAssistantToChat(sendChatId,
               "Something went quiet on my end. Would you like to try again, or write something in the journal instead?",
             );
+          }
+
+          // Fast-track acknowledgment: the moment they tell us they're a member,
+          // say so and shift — feed and chat now run the deeper member track.
+          if (becameMember) {
+            get().appendAssistantToChat(sendChatId,
+              'I know you now as a fellow Latter-day Saint — so from here I\'ll take you deeper into the gospel rather than back to the basics, and your feed has shifted to match.',
+              'meta');
           }
 
           // Honesty about the judgment: if a level actually moved by half a point
@@ -2101,10 +2168,11 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
             .filter(({ d }) => Math.abs(d) >= 0.5)
             .map(({ k, d }) => `${TRAIT_DISPLAY[k]} ${fmtDelta(d)}`);
           if (moved.length) {
-            get().appendMetaMessage(`Spirit reading moved — ${moved.join(', ')}. Ask me why if it surprises you.`);
+            get().appendAssistantToChat(sendChatId,
+              `Spirit reading moved — ${moved.join(', ')}. Ask me why if it surprises you.`, 'meta');
           }
         } catch {
-          get().appendAssistantMessage(
+          get().appendAssistantToChat(sendChatId,
             "I wasn't able to connect right now. If you have an internet connection, try again in a moment. Whatever you were thinking — it's worth writing down.",
           );
         }
@@ -2133,6 +2201,7 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
         answeredPromptIds:   state.answeredPromptIds,
         learnedNotes:        state.learnedNotes,
         chatMessages:        state.chatMessages,
+        activeChatId:        state.activeChatId,
         chatSessions:        state.chatSessions,
         blessingHistory:     state.blessingHistory,
         connectRequests:     state.connectRequests,
