@@ -43,7 +43,11 @@ export default function JournalScreen() {
   const prefillChat      = useAppStore(s => s.prefillChat);
   const deleteNote       = useAppStore(s => s.deleteNote);
   const deleteJournalEntry = useAppStore(s => s.deleteJournalEntry);
+  const editJournalEntry = useAppStore(s => s.editJournalEntry);
   const navigation       = useNavigation<any>();
+
+  const [editingEntryId, setEditingEntryId] = useState<string | null>(null);
+  const [editEntryDraft, setEditEntryDraft] = useState('');
 
   function confirmDelete(label: string, onDelete: () => void) {
     Alert.alert(`Delete this ${label}?`, 'It will be removed for good.', [
@@ -302,17 +306,41 @@ export default function JournalScreen() {
                       <Text style={styles.entryChevron}>{open ? '▾' : '▸'}</Text>
                     </View>
                     {open ? (
-                      <>
-                        <Text style={styles.entryText}>{entry.text}</Text>
-                        <View style={styles.entryActions}>
-                          <TouchableOpacity activeOpacity={0.7} onPress={() => talkAbout(entry.text)}>
-                            <Text style={styles.talkLink}>Talk about it →</Text>
-                          </TouchableOpacity>
-                          <TouchableOpacity activeOpacity={0.7} onPress={() => confirmDelete('entry', () => deleteJournalEntry(entry.id))}>
-                            <Text style={styles.deleteLink}>Delete</Text>
-                          </TouchableOpacity>
-                        </View>
-                      </>
+                      editingEntryId === entry.id ? (
+                        <>
+                          <TextInput
+                            style={styles.editInput}
+                            value={editEntryDraft}
+                            onChangeText={setEditEntryDraft}
+                            multiline
+                            textAlignVertical="top"
+                            autoFocus
+                          />
+                          <View style={styles.entryActions}>
+                            <TouchableOpacity activeOpacity={0.7} onPress={() => { editJournalEntry(entry.id, editEntryDraft); setEditingEntryId(null); }}>
+                              <Text style={styles.talkLink}>Save</Text>
+                            </TouchableOpacity>
+                            <TouchableOpacity activeOpacity={0.7} onPress={() => setEditingEntryId(null)}>
+                              <Text style={styles.deleteLink}>Cancel</Text>
+                            </TouchableOpacity>
+                          </View>
+                        </>
+                      ) : (
+                        <>
+                          <Text style={styles.entryText}>{entry.text}</Text>
+                          <View style={styles.entryActions}>
+                            <TouchableOpacity activeOpacity={0.7} onPress={() => talkAbout(entry.text)}>
+                              <Text style={styles.talkLink}>Talk about it →</Text>
+                            </TouchableOpacity>
+                            <TouchableOpacity activeOpacity={0.7} onPress={() => { setEditingEntryId(entry.id); setEditEntryDraft(entry.text); }}>
+                              <Text style={styles.editLink}>Edit</Text>
+                            </TouchableOpacity>
+                            <TouchableOpacity activeOpacity={0.7} onPress={() => confirmDelete('entry', () => deleteJournalEntry(entry.id))}>
+                              <Text style={styles.deleteLink}>Delete</Text>
+                            </TouchableOpacity>
+                          </View>
+                        </>
+                      )
                     ) : (
                       <Text style={styles.entryPreview} numberOfLines={1}>{entry.text}</Text>
                     )}
@@ -600,6 +628,14 @@ const styles = StyleSheet.create({
   },
   deleteLink: {
     fontSize: 12, fontFamily: 'Georgia', fontStyle: 'italic', color: colors.textMuted,
+  },
+  editLink: {
+    fontSize: 12, fontFamily: 'Georgia', fontStyle: 'italic', color: colors.blue,
+  },
+  editInput: {
+    backgroundColor: colors.bgInput, borderWidth: 1, borderColor: colors.border,
+    borderRadius: radius.md, color: colors.text, fontSize: 14, fontFamily: 'Georgia',
+    padding: 10, minHeight: 70, lineHeight: 20, marginTop: 4,
   },
 
   emptyNote: {
