@@ -484,6 +484,182 @@ export const CONTENT: ContentItem[] = [
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/31',
     mediaType: 'article', estimatedMinutes: 3, resonanceStyle: 'devotional',
   },
+
+  // ── MORE MILK (47–52) ──────────────────────────────────────────────────────
+  {
+    id: 47, tag: 'MILK', title: 'The Prodigal Son',
+    description: "Luke 15:11-32. A son wastes everything and rehearses an apology. He never gets to finish it — the father is already running. The clearest picture Jesus ever gave of how God receives you back.",
+    scriptureRef: 'Luke 15:11-32',
+    url: 'https://www.biblegateway.com/passage/?search=Luke+15%3A11-32&version=NIV',
+    mediaType: 'article', estimatedMinutes: 4, resonanceStyle: 'emotional',
+  },
+  {
+    id: 48, tag: 'MILK', title: 'Come to Me, All Who Are Weary',
+    description: "Matthew 11:28-30. Not 'fix yourself first.' Come tired, come heavy, come now. The rest is the gift, not the reward.",
+    scriptureRef: 'Matthew 11:28-30',
+    url: 'https://www.biblegateway.com/passage/?search=Matthew+11%3A28-30&version=NIV',
+    mediaType: 'article', estimatedMinutes: 2, resonanceStyle: 'comfort',
+  },
+  {
+    id: 49, tag: 'MILK', title: 'The Beatitudes',
+    description: "Matthew 5:1-12. Blessed are the poor in spirit, the mourners, the meek. Jesus turns the world's whole scoreboard upside down and puts the hurting at the top.",
+    scriptureRef: 'Matthew 5:1-12',
+    url: 'https://www.biblegateway.com/passage/?search=Matthew+5%3A1-12&version=NIV',
+    mediaType: 'article', estimatedMinutes: 3, resonanceStyle: 'foundational',
+  },
+  {
+    id: 50, tag: 'MILK', title: 'The Good Samaritan',
+    description: "Luke 10:25-37. 'Who is my neighbor?' Jesus answers with a story where the hero is the person you were taught to despise. Mercy, not status, is what counts.",
+    scriptureRef: 'Luke 10:25-37',
+    url: 'https://www.biblegateway.com/passage/?search=Luke+10%3A25-37&version=NIV',
+    mediaType: 'article', estimatedMinutes: 3, resonanceStyle: 'moral',
+  },
+  {
+    id: 51, tag: 'MILK', title: 'Do Not Worry',
+    description: "Matthew 6:25-34. Look at the birds, look at the lilies. A gentle argument against the anxiety that runs most of our days — from someone who meant it.",
+    scriptureRef: 'Matthew 6:25-34',
+    url: 'https://www.biblegateway.com/passage/?search=Matthew+6%3A25-34&version=NIV',
+    mediaType: 'article', estimatedMinutes: 3, resonanceStyle: 'comfort',
+  },
+  {
+    id: 52, tag: 'MILK', title: 'The Woman at the Well',
+    description: "John 4:4-26. He should not have been talking to her — wrong people, wrong reputation, wrong time of day. He talked to her anyway, and told her everything she ever did without a trace of contempt.",
+    scriptureRef: 'John 4:4-26',
+    url: 'https://www.biblegateway.com/passage/?search=John+4%3A4-26&version=NIV',
+    mediaType: 'article', estimatedMinutes: 4, resonanceStyle: 'emotional',
+  },
+
+  // ── MORE BRIDGE (53–58) ─────────────────────────────────────────────────────
+  {
+    id: 53, tag: 'BRIDGE', title: 'The Earliest Record of the Resurrection',
+    description: "1 Corinthians 15:3-8. Written within a few decades of the events, listing named eyewitnesses, most still alive to be questioned. Whatever you conclude, this is not a late legend.",
+    scriptureRef: '1 Corinthians 15:3-8',
+    url: 'https://www.biblegateway.com/passage/?search=1+Corinthians+15%3A3-8&version=NIV',
+    mediaType: 'article', estimatedMinutes: 3, resonanceStyle: 'historical',
+  },
+  {
+    id: 54, tag: 'BRIDGE', title: 'Doubting Thomas',
+    description: "John 20:24-29. The disciple who refused to believe without evidence — and Jesus did not scold him. He showed him the wounds. Honest doubt is welcome here.",
+    scriptureRef: 'John 20:24-29',
+    url: 'https://www.biblegateway.com/passage/?search=John+20%3A24-29&version=NIV',
+    mediaType: 'article', estimatedMinutes: 3, resonanceStyle: 'logical',
+  },
+  {
+    id: 55, tag: 'BRIDGE', title: 'In the Beginning Was the Word',
+    description: "John 1:1-14. The boldest claim in literature: that the force behind the universe became a person you could eat dinner with. Read it slowly and decide what you make of it.",
+    scriptureRef: 'John 1:1-14',
+    url: 'https://www.biblegateway.com/passage/?search=John+1%3A1-14&version=NIV',
+    mediaType: 'article', estimatedMinutes: 3, resonanceStyle: 'philosophical',
+  },
+  {
+    id: 56, tag: 'BRIDGE', title: 'Test Everything; Hold On to the Good',
+    description: "1 Thessalonians 5:21. Scripture itself tells you not to believe blindly. Examine it. Faith that survives questions is the only kind worth having.",
+    scriptureRef: '1 Thessalonians 5:21',
+    url: 'https://www.biblegateway.com/passage/?search=1+Thessalonians+5%3A21&version=NIV',
+    mediaType: 'article', estimatedMinutes: 1, resonanceStyle: 'logical',
+  },
+  {
+    id: 57, tag: 'BRIDGE', title: 'The Empty Tomb',
+    description: "Luke 24:1-12. The first witnesses were women, in a culture that would not accept their testimony in court. If you were inventing a story to convince people, you would never write it this way.",
+    scriptureRef: 'Luke 24:1-12',
+    url: 'https://www.biblegateway.com/passage/?search=Luke+24%3A1-12&version=NIV',
+    mediaType: 'article', estimatedMinutes: 3, resonanceStyle: 'historical',
+  },
+  {
+    id: 58, tag: 'BRIDGE', title: 'Nicodemus Comes at Night',
+    description: "John 3:1-16. A respected scholar comes with hard questions under cover of dark. Jesus does not turn him away — he meets the intellect with an invitation to be born again.",
+    scriptureRef: 'John 3:1-16',
+    url: 'https://www.biblegateway.com/passage/?search=John+3%3A1-16&version=NIV',
+    mediaType: 'article', estimatedMinutes: 4, resonanceStyle: 'philosophical',
+  },
+
+  // ── MORE RESTORATION (59–64) ────────────────────────────────────────────────
+  {
+    id: 59, tag: 'RESTORATION', title: 'Joseph Smith — The First Vision',
+    description: "Joseph Smith—History 1:15-20. A teenager, confused by competing churches, asks God directly which one is true. What he says happened next is either the hinge of history or it is nothing. Read his own account.",
+    scriptureRef: 'Joseph Smith—History 1:15-20',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1',
+    mediaType: 'article', estimatedMinutes: 5, resonanceStyle: 'historical',
+  },
+  {
+    id: 60, tag: 'RESTORATION', title: 'If Any of You Lacks Wisdom, Ask God',
+    description: "James 1:5. The single verse that sent a boy into the woods to pray. The same promise is open to you: you can ask, and you can expect an answer.",
+    scriptureRef: 'James 1:5',
+    url: 'https://www.biblegateway.com/passage/?search=James+1%3A5&version=NIV',
+    mediaType: 'article', estimatedMinutes: 1, resonanceStyle: 'foundational',
+  },
+  {
+    id: 61, tag: 'RESTORATION', title: 'Other Sheep I Have',
+    description: "John 10:16. Jesus said he had sheep 'not of this fold' who would also hear his voice. A quiet hint that his ministry reached further than the gospels record.",
+    scriptureRef: 'John 10:16',
+    url: 'https://www.biblegateway.com/passage/?search=John+10%3A16&version=NIV',
+    mediaType: 'article', estimatedMinutes: 2, resonanceStyle: 'doctrinal',
+  },
+  {
+    id: 62, tag: 'RESTORATION', title: 'A Marvelous Work and a Wonder',
+    description: "2 Nephi 27. Isaiah foretold a sealed book brought forth in the last days, words delivered to the learned and the unlearned. Read the prophecy and judge for yourself what it describes.",
+    scriptureRef: '2 Nephi 27',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/27',
+    mediaType: 'article', estimatedMinutes: 5, resonanceStyle: 'study',
+  },
+  {
+    id: 63, tag: 'RESTORATION', title: 'The Restoration of Priesthood Authority',
+    description: "Doctrine and Covenants 13. The claim is specific: that authority to act in God's name was restored by those who held it anciently. Read the account of how it came.",
+    scriptureRef: 'Doctrine and Covenants 13',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/13',
+    mediaType: 'article', estimatedMinutes: 2, resonanceStyle: 'doctrinal',
+  },
+  {
+    id: 64, tag: 'RESTORATION', title: "Moroni's Promise",
+    description: "Moroni 10:3-5. Do not take anyone's word for it. Read, ponder, and ask God sincerely whether it is true — with real intent to act on the answer. The book stakes everything on this test.",
+    scriptureRef: 'Moroni 10:3-5',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/10',
+    mediaType: 'article', estimatedMinutes: 2, resonanceStyle: 'personal',
+  },
+
+  // ── MORE MAINTENANCE (65–70) ────────────────────────────────────────────────
+  {
+    id: 65, tag: 'MAINTENANCE', title: 'Always Remember Him',
+    description: "Doctrine and Covenants 20:77-79. The sacrament prayers, word for word. A weekly reset: take his name, remember him, and the promise that his Spirit will be with you.",
+    scriptureRef: 'Doctrine and Covenants 20:77-79',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/20',
+    mediaType: 'article', estimatedMinutes: 2, resonanceStyle: 'devotional',
+  },
+  {
+    id: 66, tag: 'MAINTENANCE', title: 'Liken the Scriptures to Yourself',
+    description: "1 Nephi 19:23. Nephi read scripture as if it were written about his own life. A pattern for study that turns ancient words into present counsel.",
+    scriptureRef: '1 Nephi 19:23',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/19',
+    mediaType: 'article', estimatedMinutes: 2, resonanceStyle: 'study',
+  },
+  {
+    id: 67, tag: 'MAINTENANCE', title: 'Charity Never Faileth',
+    description: "Moroni 7:45-48. The pure love of Christ — what it looks like, and the invitation to pray with all energy of heart to be filled with it. The measure of a disciple.",
+    scriptureRef: 'Moroni 7:45-48',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7',
+    mediaType: 'article', estimatedMinutes: 3, resonanceStyle: 'devotional',
+  },
+  {
+    id: 68, tag: 'MAINTENANCE', title: 'Seek Learning, by Study and by Faith',
+    description: "Doctrine and Covenants 88:118. A charge to grow the mind and the spirit together — to seek out of the best books and to seek by faith. Discipleship includes the intellect.",
+    scriptureRef: 'Doctrine and Covenants 88:118',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88',
+    mediaType: 'article', estimatedMinutes: 2, resonanceStyle: 'study',
+  },
+  {
+    id: 69, tag: 'MAINTENANCE', title: 'The Hearts of the Children',
+    description: "Malachi 4:5-6. The promise that the hearts of parents and children would turn to one another — the spirit behind family history and the temple. A work that reaches across generations.",
+    scriptureRef: 'Malachi 4:5-6',
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+4%3A5-6&version=NIV',
+    mediaType: 'article', estimatedMinutes: 2, resonanceStyle: 'doctrinal',
+  },
+  {
+    id: 70, tag: 'MAINTENANCE', title: 'Eternal Life, the Greatest Gift',
+    description: "Doctrine and Covenants 14:7. Eternal life is called the greatest of all the gifts of God. A reminder of what steady, ordinary faithfulness is actually building toward.",
+    scriptureRef: 'Doctrine and Covenants 14:7',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/14',
+    mediaType: 'article', estimatedMinutes: 1, resonanceStyle: 'devotional',
+  },
 ];
 
 export function getContentByTag(tag: FeedTag): ContentItem[] {

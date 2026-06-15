@@ -275,6 +275,15 @@ export interface FaithWord {
   signals?: string[];
 }
 
+// A recorded shift in what the person believes — kept so a changed mind is HONORED
+// and stays visible, not silently overwritten (Cameron's #7). When someone revises
+// a faith line, the old wording and the new are both held, with a date.
+export interface BeliefChange {
+  from: string;
+  to:   string;
+  ts:   number;
+}
+
 // A titled fragment of the person's story, in their own words — "YOUR STORY SO
 // FAR". The minister is told these exist so it can never claim it cannot see
 // their story.
@@ -726,6 +735,7 @@ interface AppState {
   // The person, in their own words — never labels, never numbers shown to them
   name:                string | null;
   faithWords:          FaithWord[];
+  beliefHistory:       BeliefChange[];   // honored record of changed minds (#7)
   moments:             StoryMoment[];
 
   // Spiritual exercises (invite → try → report → learn)
@@ -792,6 +802,7 @@ interface AppActions {
   editFaithWord:       (index: number, text: string) => void;
   removeFaithWord:     (index: number) => void;
   addFaithWord:        (text: string) => void;
+  deleteBeliefChange:  (ts: number) => void;
   addMoment:           (title: string, text: string) => void;
   // Keep the person dynamic, never boxed: everything learned or saved can be
   // edited or deleted. Deleting truly forgets it (un-learns that piece).
@@ -846,6 +857,7 @@ const initialState: AppState = {
   activeRealThreadId:  null,
   name:                null,
   faithWords:          [],
+  beliefHistory:       [],
   moments:             [],
   activeExercise:      null,
   acceptedSession:     null,
@@ -1493,6 +1505,10 @@ export const useAppStore = create<AppState & AppActions>()(
         const harvested = clean ? harvestSignals(clean) : [];
         const newBase   = mergeSignals(baseSignals, stripIdentity(harvested));
         const nextWords = [...faithWords];
+        const oldText   = faithWords[index]?.text ?? '';
+        // A genuine change of wording (not a removal, not a no-op) is HONORED:
+        // keep the old and new together so a changed mind stays visible (#7).
+        const isRealChange = !!clean && clean !== oldText.trim();
         if (!clean) {
           nextWords.splice(index, 1);
         } else {
@@ -1503,11 +1519,17 @@ export const useAppStore = create<AppState & AppActions>()(
         const nextTag = routeFeedTag(merged);
         set(s => ({
           faithWords:      nextWords,
+          beliefHistory:   isRealChange
+            ? [{ from: oldText, to: clean, ts: Date.now() }, ...s.beliefHistory].slice(0, 50)
+            : s.beliefHistory,
           baseSignals:     newBase,
           dialogueSignals: merged,
           feedTag:         nextTag,
           feed:            nextTag !== s.feedTag ? buildFeed(nextTag, s.seenIds) : s.feed,
         }));
+      },
+      deleteBeliefChange(ts) {
+        set(s => ({ beliefHistory: s.beliefHistory.filter(b => b.ts !== ts) }));
       },
 
       addFaithWord(text) {
@@ -2116,6 +2138,7 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
         connectRequests:     state.connectRequests,
         name:                state.name,
         faithWords:          state.faithWords,
+        beliefHistory:       state.beliefHistory,
         moments:             state.moments,
         activeExercise:      state.activeExercise,
         acceptedSession:     state.acceptedSession,

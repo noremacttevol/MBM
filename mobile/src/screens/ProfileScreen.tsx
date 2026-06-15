@@ -152,6 +152,8 @@ export default function ProfileScreen() {
   const prefillChat         = useAppStore(s => s.prefillChat);
   const editFaithWord       = useAppStore(s => s.editFaithWord);
   const addFaithWord        = useAppStore(s => s.addFaithWord);
+  const beliefHistory       = useAppStore(s => s.beliefHistory);
+  const deleteBeliefChange  = useAppStore(s => s.deleteBeliefChange);
 
   const navigation = useNavigation<any>();
 
@@ -346,6 +348,39 @@ export default function ProfileScreen() {
             </TouchableOpacity>
           )}
         </View>
+
+        {/* ── HOW YOUR THINKING HAS CHANGED (#7 — a changed mind is honored) ─── */}
+        {beliefHistory.length > 0 && (
+          <View style={styles.card}>
+            <Text style={styles.sectionLabel}>HOW YOUR THINKING HAS CHANGED</Text>
+            <Text style={styles.sectionNote}>
+              When you revise something, the app keeps the old and the new — your
+              growth is yours, and it's honored, not erased.
+            </Text>
+            {beliefHistory.map(b => (
+              <View key={b.ts} style={styles.beliefRow}>
+                <Text style={styles.beliefFrom}>Before: "{b.from}"</Text>
+                <Text style={styles.beliefTo}>Now: "{b.to}"</Text>
+                <View style={styles.beliefFoot}>
+                  <Text style={styles.beliefDate}>{fmtDate(b.ts)}</Text>
+                  <TouchableOpacity
+                    activeOpacity={0.7}
+                    onPress={() => Alert.alert(
+                      'Remove this record?',
+                      'The app will stop keeping this change in your history.',
+                      [
+                        { text: 'Cancel', style: 'cancel' },
+                        { text: 'Remove', style: 'destructive', onPress: () => deleteBeliefChange(b.ts) },
+                      ],
+                    )}
+                  >
+                    <Text style={styles.removeText}>Remove</Text>
+                  </TouchableOpacity>
+                </View>
+              </View>
+            ))}
+          </View>
+        )}
 
         {/* ── WHAT'S GROWING IN YOU (the virtues belong to the person) ─── */}
         <View style={styles.card}>
@@ -657,6 +692,25 @@ const styles = StyleSheet.create({
   },
   removeText: {
     fontSize: 11, fontFamily: 'Jost_400Regular', fontStyle: 'italic', color: colors.textMuted,
+  },
+
+  beliefRow: {
+    borderTopWidth: 1, borderTopColor: colors.borderDim,
+    paddingTop: spacing.sm, marginTop: spacing.sm,
+  },
+  beliefFrom: {
+    fontSize: 13, fontFamily: 'Jost_400Regular', fontStyle: 'italic',
+    color: colors.textMuted, lineHeight: 20, textDecorationLine: 'line-through',
+  },
+  beliefTo: {
+    fontSize: 14, fontFamily: 'Jost_400Regular', color: colors.textMid,
+    lineHeight: 21, marginTop: 2,
+  },
+  beliefFoot: {
+    flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginTop: 4,
+  },
+  beliefDate: {
+    fontSize: 10, fontFamily: 'Jost_400Regular', color: colors.textMuted,
   },
 
   statsRow: {
