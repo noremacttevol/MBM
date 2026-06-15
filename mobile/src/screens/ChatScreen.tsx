@@ -112,7 +112,11 @@ export default function ChatScreen() {
     const ok = await escalateToRealPerson();
     setSubmittingFC(false);
     if (ok) {
-      flashCopiedBanner();   // stay on the chat; just confirm it went to History
+      // Open the NEW real-person conversation so the question + the AI's answer are
+      // right there to read while the person writes more to a human (Cameron's #2).
+      setShowHistory(false);
+      setShowConnect(true);
+      flashCopiedBanner();
     } else {
       Alert.alert('Nothing to send yet', 'Ask something first, then bring it to a real person.');
     }

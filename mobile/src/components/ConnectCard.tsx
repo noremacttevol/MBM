@@ -125,18 +125,24 @@ export default function ConnectCard({ compact = false }: Props) {
     const msgs    = activeThread?.messages ?? [];
     const unread  = activeThread?.unread ?? 0;
     const title   = activeThread?.title ?? 'New conversation';
-    // Offer a way back to the list whenever there's more than this one conversation.
-    const canGoBack = threads.length > 1 || (inNewEmpty && threads.length >= 1);
+    // You can ALWAYS get back to your list of conversations whenever at least one
+    // saved conversation exists — so you're never stuck inside a single thread with
+    // no way to start another (Cameron's bug).
+    const canGoBack = threads.length >= 1;
 
     return (
       <View style={[styles.card, compact && styles.cardCompact]}>
         <View style={styles.headerRow}>
           {canGoBack && (
             <TouchableOpacity activeOpacity={0.7} onPress={closeRealPersonThread}>
-              <Text style={styles.backLink}>‹ All</Text>
+              <Text style={styles.backLink}>‹ All conversations</Text>
             </TouchableOpacity>
           )}
-          <Text style={styles.title} numberOfLines={1}>{title}</Text>
+          <Text style={[styles.title, { flex: 1 }]} numberOfLines={1}>{title}</Text>
+          {/* Start another conversation right from inside one — no dead ends. */}
+          <TouchableOpacity activeOpacity={0.7} onPress={() => newRealPersonThread()}>
+            <Text style={styles.newInline}>+ New</Text>
+          </TouchableOpacity>
         </View>
 
         {unread > 0 && (
@@ -335,6 +341,9 @@ const styles = StyleSheet.create({
   },
   backLink: {
     fontSize: 13, fontFamily: 'Jost_400Regular', color: colors.blue, paddingVertical: 2, paddingRight: 4,
+  },
+  newInline: {
+    fontSize: 13, fontFamily: 'Jost_400Regular', color: colors.green, paddingVertical: 2, paddingLeft: 4,
   },
 
   // ── Conversation list (multiple real-person threads) ────────────────────────
