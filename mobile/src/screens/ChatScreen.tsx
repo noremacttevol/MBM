@@ -29,6 +29,18 @@ export default function ChatScreen() {
   const escalateToRealPerson = useAppStore(s => s.escalateToRealPerson);
   const inboxMessages   = useAppStore(s => s.inboxMessages);
   const inboxUnread     = useAppStore(s => s.inboxUnread);
+  const deleteChatSession = useAppStore(s => s.deleteChatSession);
+
+  function confirmDeleteSession(id: string, title: string) {
+    Alert.alert(
+      'Delete this conversation?',
+      `"${title || 'Conversation'}" will be removed for good.`,
+      [
+        { text: 'Cancel', style: 'cancel' },
+        { text: 'Delete', style: 'destructive', onPress: () => deleteChatSession(id) },
+      ],
+    );
+  }
 
   const [draft,          setDraft]          = useState('');
   const [submittingFC,   setSubmittingFC]   = useState(false);
@@ -185,6 +197,12 @@ export default function ChatScreen() {
             >
               <Text style={styles.historyTitle} numberOfLines={1}>{sess.title || 'Conversation'}</Text>
               <Text style={styles.historyDate}>{fmtDay(sess.updatedAt)}</Text>
+              <TouchableOpacity
+                onPress={() => confirmDeleteSession(sess.id, sess.title)}
+                hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
+              >
+                <Text style={styles.historyDelete}>×</Text>
+              </TouchableOpacity>
             </TouchableOpacity>
           ))}
           </ScrollView>
@@ -347,6 +365,7 @@ const styles = StyleSheet.create({
   historyDate: { color: colors.textMuted, fontSize: 11, fontFamily: 'Georgia', marginLeft: spacing.sm },
   historyEmpty: { color: colors.textMuted, fontSize: 12, fontFamily: 'Georgia', fontStyle: 'italic', paddingVertical: 6 },
   historyScroll: { maxHeight: 300 },
+  historyDelete: { color: colors.textMuted, fontSize: 18, marginLeft: spacing.sm, paddingHorizontal: 4 },
 
   copiedBanner: {
     marginHorizontal: spacing.md, marginTop: spacing.sm,

@@ -9,6 +9,7 @@ import {
   KeyboardAvoidingView,
   Platform,
   Animated,
+  Alert,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
@@ -40,7 +41,16 @@ export default function JournalScreen() {
   const pendingNoteId    = useAppStore(s => s.pendingNoteId);
   const clearPendingNote = useAppStore(s => s.clearPendingNote);
   const prefillChat      = useAppStore(s => s.prefillChat);
+  const deleteNote       = useAppStore(s => s.deleteNote);
+  const deleteJournalEntry = useAppStore(s => s.deleteJournalEntry);
   const navigation       = useNavigation<any>();
+
+  function confirmDelete(label: string, onDelete: () => void) {
+    Alert.alert(`Delete this ${label}?`, 'It will be removed for good.', [
+      { text: 'Cancel', style: 'cancel' },
+      { text: 'Delete', style: 'destructive', onPress: onDelete },
+    ]);
+  }
 
   // Carry a saved entry or kept note into a fresh TAI chat to talk it through.
   function talkAbout(what: string) {
@@ -239,9 +249,14 @@ export default function JournalScreen() {
                         {open ? 'Show less' : 'Read what you kept →'}
                       </Text>
                       {open && (
-                        <TouchableOpacity activeOpacity={0.7} onPress={() => talkAbout(note.body || note.summary || note.title)}>
-                          <Text style={styles.talkLink}>Talk about it →</Text>
-                        </TouchableOpacity>
+                        <View style={styles.entryActions}>
+                          <TouchableOpacity activeOpacity={0.7} onPress={() => talkAbout(note.body || note.summary || note.title)}>
+                            <Text style={styles.talkLink}>Talk about it →</Text>
+                          </TouchableOpacity>
+                          <TouchableOpacity activeOpacity={0.7} onPress={() => confirmDelete('note', () => deleteNote(note.id))}>
+                            <Text style={styles.deleteLink}>Delete</Text>
+                          </TouchableOpacity>
+                        </View>
                       )}
                     </TouchableOpacity>
                   );
@@ -289,9 +304,14 @@ export default function JournalScreen() {
                     {open ? (
                       <>
                         <Text style={styles.entryText}>{entry.text}</Text>
-                        <TouchableOpacity activeOpacity={0.7} onPress={() => talkAbout(entry.text)}>
-                          <Text style={styles.talkLink}>Talk about it →</Text>
-                        </TouchableOpacity>
+                        <View style={styles.entryActions}>
+                          <TouchableOpacity activeOpacity={0.7} onPress={() => talkAbout(entry.text)}>
+                            <Text style={styles.talkLink}>Talk about it →</Text>
+                          </TouchableOpacity>
+                          <TouchableOpacity activeOpacity={0.7} onPress={() => confirmDelete('entry', () => deleteJournalEntry(entry.id))}>
+                            <Text style={styles.deleteLink}>Delete</Text>
+                          </TouchableOpacity>
+                        </View>
                       </>
                     ) : (
                       <Text style={styles.entryPreview} numberOfLines={1}>{entry.text}</Text>
@@ -574,6 +594,12 @@ const styles = StyleSheet.create({
     fontFamily: 'Georgia',
     color:      colors.gold,
     marginTop:  8,
+  },
+  entryActions: {
+    flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginTop: 8,
+  },
+  deleteLink: {
+    fontSize: 12, fontFamily: 'Georgia', fontStyle: 'italic', color: colors.textMuted,
   },
 
   emptyNote: {

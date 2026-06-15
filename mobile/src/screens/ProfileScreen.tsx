@@ -17,6 +17,7 @@ import {
   StyleSheet,
   KeyboardAvoidingView,
   Platform,
+  Alert,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
@@ -147,6 +148,7 @@ export default function ProfileScreen() {
   const dialogueSignals     = useAppStore(s => s.dialogueSignals);
   const faithWords          = useAppStore(s => s.faithWords);
   const moments             = useAppStore(s => s.moments);
+  const deleteMoment        = useAppStore(s => s.deleteMoment);
   const prefillChat         = useAppStore(s => s.prefillChat);
   const editFaithWord       = useAppStore(s => s.editFaithWord);
   const addFaithWord        = useAppStore(s => s.addFaithWord);
@@ -387,9 +389,24 @@ export default function ProfileScreen() {
                   <Text style={styles.momentDate}>{fmtDate(m.ts)}</Text>
                 </View>
                 <Text style={styles.momentDetail}>{m.text}</Text>
-                <TouchableOpacity activeOpacity={0.7} onPress={() => askAbout(m.title, m.text)}>
-                  <Text style={styles.askText}>Ask about this →</Text>
-                </TouchableOpacity>
+                <View style={styles.momentActions}>
+                  <TouchableOpacity activeOpacity={0.7} onPress={() => askAbout(m.title, m.text)}>
+                    <Text style={styles.askText}>Ask about this →</Text>
+                  </TouchableOpacity>
+                  <TouchableOpacity
+                    activeOpacity={0.7}
+                    onPress={() => Alert.alert(
+                      'Remove this from your story?',
+                      'It will be deleted and the app will stop holding it for you.',
+                      [
+                        { text: 'Cancel', style: 'cancel' },
+                        { text: 'Remove', style: 'destructive', onPress: () => deleteMoment(m.ts) },
+                      ],
+                    )}
+                  >
+                    <Text style={styles.removeText}>Remove</Text>
+                  </TouchableOpacity>
+                </View>
               </View>
             ))}
           </View>
@@ -634,6 +651,12 @@ const styles = StyleSheet.create({
     fontFamily: 'Georgia',
     fontStyle:  'italic',
     color:      colors.blue,
+  },
+  momentActions: {
+    flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginTop: 4,
+  },
+  removeText: {
+    fontSize: 11, fontFamily: 'Georgia', fontStyle: 'italic', color: colors.textMuted,
   },
 
   statsRow: {
