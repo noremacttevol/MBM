@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import {
   View, Text, TextInput, TouchableOpacity, ScrollView,
   StyleSheet, KeyboardAvoidingView, Platform,
-  ActivityIndicator, Alert,
+  ActivityIndicator, Alert, Animated,
 } from 'react-native';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
@@ -34,6 +34,8 @@ export default function ChatScreen() {
   const [submittingFC,   setSubmittingFC]   = useState(false);
   const [showConnect,    setShowConnect]    = useState(false);
   const [showHistory,    setShowHistory]    = useState(false);
+  const [escalated,      setEscalated]      = useState(false);
+  const escalateAnim = useRef(new Animated.Value(0)).current;
   const scrollRef = useRef<ScrollView>(null);
   const insets = useSafeAreaInsets();
 
@@ -72,19 +74,28 @@ export default function ChatScreen() {
   // Submit the last Q&A pair anonymously for Cameron to fact-check
   // Bring THIS conversation to a real person: summarize the AI's answer, send it
   // into the separate real-person thread, and leave it waiting for their reply.
+  // Bring THIS conversation to a real person — a quiet, one-button backend action.
+  // It copies the conversation into the separate real-person thread (findable in
+  // History, waiting for a reply) and stays right here on the chat. It NEVER opens a
+  // panel that covers the chat, never navigates away, and never implies a reply has
+  // already come back — it has only been sent.
+  function flashCopiedBanner() {
+    setEscalated(true);
+    escalateAnim.setValue(0);
+    Animated.sequence([
+      Animated.timing(escalateAnim, { toValue: 1, duration: 280, useNativeDriver: true }),
+      Animated.delay(2800),
+      Animated.timing(escalateAnim, { toValue: 0, duration: 420, useNativeDriver: true }),
+    ]).start(() => setEscalated(false));
+  }
+
   async function handleFactCheck() {
-    if (chatMessages.length < 2) return;
+    if (chatMessages.length < 2 || submittingFC) return;
     setSubmittingFC(true);
     const ok = await escalateToRealPerson();
     setSubmittingFC(false);
     if (ok) {
-      setShowConnect(true);   // open the real-person thread (the blue one)
-      setShowHistory(false);
-      Alert.alert(
-        'Sent to a real person',
-        "I've carried this conversation to a real person and left it waiting for them. When they reply, you'll see it here in blue — and it'll jump to the top of your conversations.",
-        [{ text: 'OK' }],
-      );
+      flashCopiedBanner();   // stay on the chat; just confirm it went to History
     } else {
       Alert.alert('Nothing to send yet', 'Ask something first, then bring it to a real person.');
     }
@@ -108,15 +119,13 @@ export default function ChatScreen() {
           <TouchableOpacity style={styles.headerBtn} activeOpacity={0.75} onPress={handleNewChat}>
             <Text style={styles.headerBtnText}>+ New</Text>
           </TouchableOpacity>
-          {chatSessions.length > 0 && (
-            <TouchableOpacity
-              style={styles.headerBtn}
-              activeOpacity={0.75}
-              onPress={() => { setShowHistory(v => !v); setShowConnect(false); }}
-            >
-              <Text style={styles.headerBtnText}>History ▾</Text>
-            </TouchableOpacity>
-          )}
+          <TouchableOpacity
+            style={styles.headerBtn}
+            activeOpacity={0.75}
+            onPress={() => { setShowHistory(v => !v); setShowConnect(false); }}
+          >
+            <Text style={styles.headerBtnText}>History ▾</Text>
+          </TouchableOpacity>
           {/* A real person is ALWAYS one tap away — never gated (CLAUDE.md law). */}
           <TouchableOpacity
             style={[styles.headerBtn, styles.personBtn]}
@@ -128,10 +137,23 @@ export default function ChatScreen() {
         </View>
       </View>
 
+      {/* A quiet, animated confirmation that the conversation was copied to a real
+          person and tucked into History — the chat below stays exactly where it was. */}
+      {escalated && (
+        <Animated.View style={[styles.copiedBanner, { opacity: escalateAnim }]}>
+          <Text style={styles.copiedBannerText}>
+            ✓ Copied to a real person — it's in your History ▾, waiting for their reply.
+          </Text>
+        </Animated.View>
+      )}
+
       {/* History dropdown — past conversations as titles, newest first. */}
       {showHistory && (
         <View style={styles.historyPanel}>
           <Text style={styles.historyHeading}>Past conversations</Text>
+          {chatSessions.length === 0 && inboxMessages.length === 0 && (
+            <Text style={styles.historyEmpty}>No past conversations yet.</Text>
+          )}
           {/* The real-person thread sits at the TOP, and a new reply is flagged in
               blue — so a human's answer always rises to the top of the list. */}
           {inboxMessages.length > 0 && (
@@ -309,6 +331,14 @@ const styles = StyleSheet.create({
   },
   historyTitle: { flex: 1, color: colors.textMid, fontSize: 13, fontFamily: 'Georgia' },
   historyDate: { color: colors.textMuted, fontSize: 11, fontFamily: 'Georgia', marginLeft: spacing.sm },
+  historyEmpty: { color: colors.textMuted, fontSize: 12, fontFamily: 'Georgia', fontStyle: 'italic', paddingVertical: 6 },
+
+  copiedBanner: {
+    marginHorizontal: spacing.md, marginTop: spacing.sm,
+    backgroundColor: '#0d1b2e', borderWidth: 1, borderColor: colors.blue,
+    borderRadius: radius.md, paddingVertical: 9, paddingHorizontal: 12,
+  },
+  copiedBannerText: { color: colors.blue, fontSize: 12, fontFamily: 'Georgia', lineHeight: 17 },
 
   connectPanel: {
     paddingHorizontal: spacing.md, paddingTop: spacing.sm,

@@ -13,7 +13,6 @@ import { StatusBar } from 'expo-status-bar';
 import { useAppStore } from '../store/useAppStore';
 import ContentCard from '../components/ContentCard';
 import DialogueCard from '../components/DialogueCard';
-import ConnectCard from '../components/ConnectCard';
 import FollowUpCard from '../components/FollowUpCard';
 import InvitationCard from '../components/InvitationCard';
 import BlessingToast from '../components/BlessingToast';
@@ -97,8 +96,7 @@ export default function FeedScreen() {
         {/* ── An invitation — something to DO, the way Jesus gave people things to do */}
         {invite && <InvitationCard exercise={invite} />}
 
-        {/* ── A real person is ALWAYS one tap away — never gated (CLAUDE.md law) */}
-        <ConnectCard />
+        {/* Talking to a real person lives on the Chat tab, never here on the Feed. */}
 
         {/* ── Show me more — same-track refresh, an ungated preference ──────── */}
         <TouchableOpacity

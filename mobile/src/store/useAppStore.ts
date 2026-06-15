@@ -177,6 +177,21 @@ function notifyRealPersonReply(body: string) {
   } catch {/* notifications unavailable — fine */}
 }
 
+// A short, scannable title for a saved conversation, auto-made from the first
+// thing said in it — cleaned of quotes and the "talk about it" lead-ins, capped,
+// so the history list reads like a list of topics, not raw message text.
+function titleFromText(t: string): string {
+  let clean = (t || '').replace(/\s+/g, ' ').trim();
+  clean = clean
+    .replace(/^earlier in my story i shared this:\s*/i, '')
+    .replace(/^i was talking with the app and asked:\s*/i, '')
+    .replace(/^[“"']+/, '')
+    .trim();
+  const firstSentence = clean.split(/[.?!]\s/)[0] || clean;
+  const capped = firstSentence.length > 56 ? firstSentence.slice(0, 56).trim() + '…' : firstSentence;
+  return capped.replace(/[“"']+$/, '').trim() || 'Conversation';
+}
+
 /**
  * A request to talk to a real person, captured ON-DEVICE.
  *
@@ -1143,7 +1158,7 @@ export const useAppStore = create<AppState & AppActions>()(
           const firstUser = s.chatMessages.find(m => m.role === 'user');
           const session: ChatSession = {
             id:        Date.now().toString(),
-            title:     (firstUser?.text ?? real[0].text).trim().slice(0, 60),
+            title:     titleFromText(firstUser?.text ?? real[0].text),
             createdAt: s.chatMessages[0]?.timestamp ?? Date.now(),
             updatedAt: Date.now(),
             messages:  s.chatMessages,
@@ -1165,7 +1180,7 @@ export const useAppStore = create<AppState & AppActions>()(
             const firstUser = s.chatMessages.find(m => m.role === 'user');
             archive = [{
               id:        Date.now().toString(),
-              title:     (firstUser?.text ?? real[0].text).trim().slice(0, 60),
+              title:     titleFromText(firstUser?.text ?? real[0].text),
               createdAt: s.chatMessages[0]?.timestamp ?? Date.now(),
               updatedAt: Date.now(),
               messages:  s.chatMessages,
