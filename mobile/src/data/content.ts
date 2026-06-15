@@ -660,6 +660,107 @@ export const CONTENT: ContentItem[] = [
     url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/14',
     mediaType: 'article', estimatedMinutes: 1, resonanceStyle: 'devotional',
   },
+
+  // ── MEMBER LIBRARY (71+) — the full good material the Church recommends.
+  // Standard works + the living prophet. Keep growing this toward "everything." ──
+  {
+    id: 71, tag: 'MAINTENANCE', title: 'Faith Is Like a Seed',
+    description: "Alma 32:26-43. The classic experiment on the word: plant it, give it room, and watch whether it grows. A pattern for testing any gospel question honestly and letting your own experience teach you.",
+    scriptureRef: 'Alma 32:26-43',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/32',
+    mediaType: 'article', estimatedMinutes: 5, resonanceStyle: 'study',
+  },
+  {
+    id: 72, tag: 'MAINTENANCE', title: 'No Power but by Persuasion and Love',
+    description: "Doctrine and Covenants 121:34-46. How authority is meant to work — not by force or position, but by gentleness, persuasion, and love unfeigned. A mirror for how we treat everyone in our care.",
+    scriptureRef: 'Doctrine and Covenants 121:34-46',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/121',
+    mediaType: 'article', estimatedMinutes: 4, resonanceStyle: 'moral',
+  },
+  {
+    id: 73, tag: 'MAINTENANCE', title: 'He Healed Them, and Wept',
+    description: "3 Nephi 17. The risen Christ heals their sick, blesses their children one by one, and weeps with them. Perhaps the tenderest chapter in all scripture — and a picture of how he feels about you.",
+    scriptureRef: '3 Nephi 17',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/17',
+    mediaType: 'article', estimatedMinutes: 4, resonanceStyle: 'devotional',
+  },
+  {
+    id: 74, tag: 'MAINTENANCE', title: 'Build on the Rock of the Redeemer',
+    description: "Helaman 5:12. When the storms and whirlwinds come — and they will — a foundation on Christ is what holds. Counsel for the seasons that test everything.",
+    scriptureRef: 'Helaman 5:12',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/5',
+    mediaType: 'article', estimatedMinutes: 2, resonanceStyle: 'foundational',
+  },
+  {
+    id: 75, tag: 'MAINTENANCE', title: 'Look unto Me in Every Thought',
+    description: "Doctrine and Covenants 6:36. 'Look unto me in every thought; doubt not, fear not.' A short verse worth carrying through an ordinary day.",
+    scriptureRef: 'Doctrine and Covenants 6:36',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/6',
+    mediaType: 'article', estimatedMinutes: 1, resonanceStyle: 'devotional',
+  },
+  {
+    id: 76, tag: 'MAINTENANCE', title: 'Men Are That They Might Have Joy',
+    description: "2 Nephi 2:25. The purpose of the whole plan, in one line. Lehi's teaching on agency, opposition, and why a good God allows a hard world — so joy can be real.",
+    scriptureRef: '2 Nephi 2:25',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2',
+    mediaType: 'article', estimatedMinutes: 3, resonanceStyle: 'doctrinal',
+  },
+  {
+    id: 77, tag: 'MAINTENANCE', title: 'What the Atonement Cost',
+    description: "Doctrine and Covenants 19:16-19. Christ in his own words on what redeeming us required — suffering that even he, the greatest, would have shrunk from. Read it slowly; it changes how the sacrament feels.",
+    scriptureRef: 'Doctrine and Covenants 19:16-19',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/19',
+    mediaType: 'article', estimatedMinutes: 2, resonanceStyle: 'doctrinal',
+  },
+  {
+    id: 78, tag: 'MAINTENANCE', title: 'In the Service of Others',
+    description: "Mosiah 2:17. King Benjamin's hinge: when you serve others, you are in the service of your God. The simplest map from discipleship to daily life.",
+    scriptureRef: 'Mosiah 2:17',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/2',
+    mediaType: 'article', estimatedMinutes: 2, resonanceStyle: 'moral',
+  },
+  {
+    id: 79, tag: 'MAINTENANCE', title: 'Every Blessing Has a Law',
+    description: "Doctrine and Covenants 130:18-21. Knowledge rises with us; and every blessing is tied to a law it is predicated upon. A framework for understanding how God actually works with us.",
+    scriptureRef: 'Doctrine and Covenants 130:18-21',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/130',
+    mediaType: 'article', estimatedMinutes: 2, resonanceStyle: 'study',
+  },
+  {
+    id: 80, tag: 'MAINTENANCE', title: 'Retain a Remission of Your Sins',
+    description: "Mosiah 4:9-11. Forgiveness isn't a one-time event to white-knuckle after — it's something you keep, through humility, gratitude, and caring for others. How peace is meant to last.",
+    scriptureRef: 'Mosiah 4:9-11',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/4',
+    mediaType: 'article', estimatedMinutes: 3, resonanceStyle: 'devotional',
+  },
+  {
+    id: 81, tag: 'MAINTENANCE', title: 'This Is Life Eternal: to Know God',
+    description: "John 17:3. In his final prayer, Jesus defines eternal life not as a place but as a relationship — to truly know the Father and the Son. The aim of all the rest.",
+    scriptureRef: 'John 17:3',
+    url: 'https://www.biblegateway.com/passage/?search=John+17%3A3&version=NIV',
+    mediaType: 'article', estimatedMinutes: 1, resonanceStyle: 'doctrinal',
+  },
+  {
+    id: 82, tag: 'MAINTENANCE', title: 'He Took Upon Him Our Pains',
+    description: "Alma 7:11-13. He suffered not only for sin but for our pains, sicknesses, and infirmities — so he would know, from the inside, how to succor us. Why he understands exactly what you carry.",
+    scriptureRef: 'Alma 7:11-13',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/7',
+    mediaType: 'article', estimatedMinutes: 2, resonanceStyle: 'devotional',
+  },
+  {
+    id: 83, tag: 'MAINTENANCE', title: 'Lift Up Your Heart and Rejoice',
+    description: "Doctrine and Covenants 25:13. 'Lift up thy heart and rejoice, and cleave unto the covenants which thou hast made.' Counsel given to Emma Smith, and to every covenant disciple since.",
+    scriptureRef: 'Doctrine and Covenants 25:13',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/25',
+    mediaType: 'article', estimatedMinutes: 1, resonanceStyle: 'devotional',
+  },
+  {
+    id: 84, tag: 'MAINTENANCE', title: 'Heed the Living Prophet',
+    description: "Doctrine and Covenants 21:4-6. The promise attached to following the Lord's living prophet — that the gates of hell will not prevail and God will disperse the powers of darkness. Why keeping pace with the prophet matters.",
+    scriptureRef: 'Doctrine and Covenants 21:4-6',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/21',
+    mediaType: 'article', estimatedMinutes: 2, resonanceStyle: 'doctrinal',
+  },
 ];
 
 export function getContentByTag(tag: FeedTag): ContentItem[] {

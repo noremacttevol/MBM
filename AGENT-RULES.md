@@ -233,6 +233,25 @@ They are rules. Build toward them; do not walk them back.
    devout members lives on the member/MAINTENANCE side, where the app states this stance
    and why it is right.) Never let a person mistake the app for the Lord.
 
+8. **Full Church material for members; theology-targeted milk for everyone else.**
+   (Cameron, 2026-06-15 — remember this.)
+   - **Members (Latter-day Saints)** must receive **all of the good material the Church
+     has** — the four standard works in full, General Conference talks, the living
+     prophet's teachings, *Come, Follow Me*, the whole recommended corpus. The
+     MAINTENANCE track is meant to be the richest feed in the app, not a thin slice.
+     Treat the member content library as something that should keep growing toward
+     "everything the Church recommends," never a fixed short list.
+   - **Milk / not-yet-believers** still receive the gospel **stories the Church
+     recommends** (the milk anyone needs to meet Jesus). But the **dialogue questions
+     they are asked must target their specific theology** — gently challenging the
+     picture of God their tradition handed them — so they come to believe in a
+     genuinely **good God**, which is what makes them ready for the restored gospel
+     **faster**. The **stories they receive are tailored to that same journey** (chosen
+     to dismantle a harsh-God picture and reveal a good one), not generic.
+   - This is the engine: meet the seeker where they are, heal the image of God first,
+     and the Restoration becomes believable. Build content and dialogue routing toward
+     this; it is a permanent direction, not a one-off task.
+
 ---
 
 ## System Guardrails (from `.claudecode.md`)
