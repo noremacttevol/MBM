@@ -43,6 +43,7 @@ import {
   subscribeToThread as cloudSubscribe,
   isMessagingConfigured,
   InboxMessage,
+  LEGACY_THREAD_ID,
 } from '../lib/messaging';
 
 // ── Constants ───────────────────────────────────────────────────────────────
@@ -190,6 +191,57 @@ function titleFromText(t: string): string {
   const firstSentence = clean.split(/[.?!]\s/)[0] || clean;
   const capped = firstSentence.length > 56 ? firstSentence.slice(0, 56).trim() + '…' : firstSentence;
   return capped.replace(/[“"']+$/, '').trim() || 'Conversation';
+}
+
+// A fresh id for a brand-new real-person conversation.
+function newRealThreadId(): string {
+  return `t_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 7)}`;
+}
+
+/**
+ * A single real-person conversation, summarized for the history list. The person
+ * can now hold MANY separate threads with a real human (Cameron's ask) — each one
+ * titled, each one with its own unread count, the most recently active on top.
+ */
+export interface RealThread {
+  id:        string;
+  title:     string;
+  messages:  InboxMessage[];
+  lastBody:  string;
+  lastAt:    string;       // ISO of the newest message
+  lastSender: 'user' | 'admin';
+  unread:    number;       // admin replies the person hasn't seen yet, this thread
+}
+
+// Group the flat message list into per-conversation threads, newest activity first.
+// Title comes from the first message that carries a thread_title; otherwise the
+// first thing the person said in that thread, so legacy threads read well too.
+export function selectRealThreads(messages: InboxMessage[]): RealThread[] {
+  const byThread = new Map<string, InboxMessage[]>();
+  for (const m of messages) {
+    const tid = m.thread_id || LEGACY_THREAD_ID;
+    if (!byThread.has(tid)) byThread.set(tid, []);
+    byThread.get(tid)!.push(m);
+  }
+  const threads: RealThread[] = [];
+  byThread.forEach((msgs, id) => {
+    const ordered = [...msgs].sort((a, b) => +new Date(a.created_at) - +new Date(b.created_at));
+    const titled  = ordered.find(m => !!m.thread_title)?.thread_title;
+    const firstUser = ordered.find(m => m.sender === 'user' && m.body.trim());
+    const title   = titled || titleFromText(firstUser?.body || ordered[0]?.body || 'Conversation');
+    const last    = ordered[ordered.length - 1];
+    threads.push({
+      id,
+      title,
+      messages:   ordered,
+      lastBody:   last?.body || '',
+      lastAt:     last?.created_at || new Date().toISOString(),
+      lastSender: last?.sender === 'admin' ? 'admin' : 'user',
+      unread:     ordered.filter(m => m.sender === 'admin' && !m.read_by_user).length,
+    });
+  });
+  threads.sort((a, b) => +new Date(b.lastAt) - +new Date(a.lastAt));
+  return threads;
 }
 
 /**
@@ -662,10 +714,14 @@ interface AppState {
   connectRequests:     ConnectRequest[];
 
   // The two-way human inbox (server-sourced, never persisted — reloaded on open).
-  // `inboxMessages` is the live thread between this person and a real person.
+  // `inboxMessages` holds EVERY message across ALL of this person's real-person
+  // conversations; the app groups them into separate threads with selectRealThreads.
   inboxMessages:       InboxMessage[];
   inboxLoading:        boolean;
-  inboxUnread:         number;   // admin replies the person hasn't seen yet
+  inboxUnread:         number;   // admin replies the person hasn't seen yet (all threads)
+  // Which real-person conversation is currently open. null = show the thread list /
+  // start a new one. A fresh id here (not yet in inboxMessages) means "new chat."
+  activeRealThreadId:  string | null;
 
   // The person, in their own words — never labels, never numbers shown to them
   name:                string | null;
@@ -717,10 +773,16 @@ interface AppActions {
   newChat:             () => void;
   openChat:            (id: string) => void;
   submitConnectRequest: (note: string) => void;
-  // Two-way human inbox
+  // Two-way human inbox (now multi-thread)
   sendConnectMessage:  (note: string, excerpt?: string) => Promise<void>;
+  // Start a brand-new, separate conversation with a real person. Returns its id.
+  newRealPersonThread: () => string;
+  // Open one of the existing real-person conversations from the history list.
+  openRealPersonThread: (id: string) => void;
+  // Back out to the conversation list (no conversation open).
+  closeRealPersonThread: () => void;
   // Carry the CURRENT ai conversation to a real person: summarize the AI's answer,
-  // send it into the separate real-person thread, and leave it waiting for a reply.
+  // open a NEW titled real-person thread with it, and leave it waiting for a reply.
   escalateToRealPerson: () => Promise<boolean>;
   loadInbox:           () => Promise<void>;
   markInboxRead:       () => void;
@@ -781,6 +843,7 @@ const initialState: AppState = {
   inboxMessages:       [],
   inboxLoading:        false,
   inboxUnread:         0,
+  activeRealThreadId:  null,
   name:                null,
   faithWords:          [],
   moments:             [],
@@ -797,7 +860,7 @@ const initialState: AppState = {
 
 type PersistedState = Omit<AppState,
   'seenIds' | 'openedIds' | 'chatLoading' | 'conversationId' | 'blessing'
-  | 'inboxMessages' | 'inboxLoading' | 'inboxUnread' | 'pendingNoteId'> & {
+  | 'inboxMessages' | 'inboxLoading' | 'inboxUnread' | 'activeRealThreadId' | 'pendingNoteId'> & {
   conversationId: string;
   seenIds:   number[];
   openedIds: number[];
@@ -1221,16 +1284,37 @@ export const useAppStore = create<AppState & AppActions>()(
       },
 
       // Send the person's words to a real human via the cloud inbox, AND keep the
-      // on-device copy as a durable fallback. If the cloud isn't configured or is
-      // unreachable, the on-device queue still holds it — the promise stays honest.
+      // on-device copy as a durable fallback. The note goes into the CURRENTLY OPEN
+      // conversation; if none is open, a fresh one is started. The first message of
+      // a conversation carries its title, so the history list reads like topics.
+      // If the cloud isn't configured or is unreachable, the on-device queue still
+      // holds it — the promise stays honest.
       async sendConnectMessage(note, excerpt) {
-        const { dialogueSignals } = get();
-        const stage = assessJourney(dialogueSignals);
+        const state = get();
+        const stage = assessJourney(state.dialogueSignals);
         // Always keep the local record (offline-safe).
         get().submitConnectRequest(note);
         if (!isMessagingConfigured) return;
+
+        // Resolve which conversation this belongs to; open a new one if none active.
+        let threadId = state.activeRealThreadId;
+        if (!threadId) {
+          threadId = newRealThreadId();
+          set({ activeRealThreadId: threadId });
+        }
+        // Stamp a title only on the FIRST message of this conversation.
+        const isFirst = !state.inboxMessages.some(m => m.thread_id === threadId);
+        const threadTitle = isFirst
+          ? titleFromText(note || excerpt || 'Conversation')
+          : undefined;
+
         set({ inboxLoading: true });
-        const saved = await cloudSendMessage(note, excerpt, stage);
+        const saved = await cloudSendMessage(note, {
+          threadId,
+          threadTitle,
+          excerpt,
+          journeyStage: stage,
+        });
         if (saved) {
           set(s => ({
             inboxMessages: [...s.inboxMessages, saved],
@@ -1241,10 +1325,33 @@ export const useAppStore = create<AppState & AppActions>()(
         }
       },
 
+      // Start a brand-new, separate conversation with a real person. The next
+      // sendConnectMessage will open it for real with a stamped title.
+      newRealPersonThread() {
+        const id = newRealThreadId();
+        set({ activeRealThreadId: id });
+        return id;
+      },
+
+      // Open an existing conversation from the history list. Opening it clears that
+      // conversation's unread replies (locally and on the server).
+      openRealPersonThread(id) {
+        set({ activeRealThreadId: id });
+        const hasUnread = get().inboxMessages.some(
+          m => m.thread_id === id && m.sender === 'admin' && !m.read_by_user,
+        );
+        if (hasUnread) get().markInboxRead();
+      },
+
+      // Back out to the conversation list — no conversation open.
+      closeRealPersonThread() {
+        set({ activeRealThreadId: null });
+      },
+
       // Carry the current AI conversation to a real person. Summarizes the last
-      // question and the AI's answer, sends it into the SEPARATE real-person thread
-      // as the opening context, and leaves it there waiting for a human reply. The
-      // AI chat itself is untouched. Returns true if there was something to send.
+      // question and the AI's answer, opens a NEW titled conversation with it as the
+      // opening context, and leaves it waiting for a human reply. The AI chat itself
+      // is untouched. Returns true if there was something to send.
       async escalateToRealPerson() {
         const msgs = get().chatMessages.filter(m => m.kind !== 'meta' && m.text.trim());
         const lastUser = [...msgs].reverse().find(m => m.role === 'user');
@@ -1254,24 +1361,46 @@ export const useAppStore = create<AppState & AppActions>()(
           (lastUser ? `I was talking with the app and asked:\n"${lastUser.text}"\n\n` : '') +
           (lastAI ? `The app answered:\n"${lastAI.text}"\n\n` : '') +
           `I'd love a real person's thoughts on this.`;
+        // Each escalation is its own conversation, titled from the person's question.
+        get().newRealPersonThread();
         // The excerpt carries the AI's answer so the human sees the context at a glance.
         await get().sendConnectMessage(note, lastAI?.text);
         return true;
       },
 
-      // Pull the whole human thread for this device and compute unread admin replies.
+      // Pull EVERY human message for this device and compute unread admin replies.
+      // The app groups them into separate conversations on the client.
       async loadInbox() {
         if (!isMessagingConfigured) return;
         set({ inboxLoading: true });
         const thread = await cloudFetchThread();
         const unread = thread.filter(m => m.sender === 'admin' && !m.read_by_user).length;
-        set({ inboxMessages: thread, inboxUnread: unread, inboxLoading: false });
+        set(s => {
+          // If the open conversation no longer exists (or none was open), default to
+          // the most recently active one — but only when there's a single thread, so
+          // multi-thread users land on the list and choose.
+          let active = s.activeRealThreadId;
+          const groups = selectRealThreads(thread);
+          if (active && !thread.some(m => m.thread_id === active)) active = null;
+          if (!active && groups.length === 1) active = groups[0].id;
+          return { inboxMessages: thread, inboxUnread: unread, inboxLoading: false, activeRealThreadId: active };
+        });
       },
 
-      // The person opened the thread — clear the unread dot locally and on the server.
+      // The person opened a conversation — clear its unread replies locally (so the
+      // per-thread dot updates at once) and on the server. With no active thread,
+      // every unread reply is cleared.
       markInboxRead() {
-        set({ inboxUnread: 0 });
-        if (isMessagingConfigured) cloudMarkRead();
+        const { activeRealThreadId, inboxMessages } = get();
+        const cleared = inboxMessages.map(m =>
+          m.sender === 'admin' && !m.read_by_user &&
+          (!activeRealThreadId || m.thread_id === activeRealThreadId)
+            ? { ...m, read_by_user: true }
+            : m,
+        );
+        const unread = cleared.filter(m => m.sender === 'admin' && !m.read_by_user).length;
+        set({ inboxMessages: cleared, inboxUnread: unread });
+        if (isMessagingConfigured) cloudMarkRead(activeRealThreadId ?? undefined);
       },
 
       // Live updates: a real person's reply lands in the app the moment it's sent.
@@ -2065,6 +2194,7 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
           inboxMessages: [],  // the human thread is server-sourced, reloaded on open
           inboxLoading:  false,
           inboxUnread:   0,
+          activeRealThreadId: null, // ephemeral — the open conversation is chosen at runtime
           // A new launch is a new session — a follow-up only becomes "due" after
           // the person went away and came back (prototype's session counter).
           sessionCount: ((p.sessionCount as number | undefined) ?? 1) + 1,

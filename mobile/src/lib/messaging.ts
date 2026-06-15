@@ -32,6 +32,14 @@ import { db, ensureAnonSession, isMessagingConfigured } from './firebase';
 export interface InboxMessage {
   id:            string;
   user_id:       string;
+  // Which conversation this message belongs to. A device can hold MANY separate
+  // real-person conversations now (Cameron's ask). Legacy rows written before
+  // multi-thread have no threadId and collapse into the 'main' thread, so nothing
+  // already sent is ever lost.
+  thread_id:     string;
+  // A short, human title for the conversation, stamped on its FIRST message so the
+  // history list reads like topics, not raw text. Null on follow-up messages.
+  thread_title:  string | null;
   sender:        'user' | 'admin';
   body:          string;
   excerpt:       string | null;
@@ -44,6 +52,17 @@ export interface InboxMessage {
 export { isMessagingConfigured };
 
 const MESSAGES = 'messages';
+
+// The bucket every pre-multi-thread message falls into, so the original single
+// conversation keeps working as one titled thread.
+export const LEGACY_THREAD_ID = 'main';
+
+export interface SendOptions {
+  threadId?:    string;
+  threadTitle?: string;
+  excerpt?:     string;
+  journeyStage?: string;
+}
 
 // Turn a Firestore document into the snake_case shape the app expects. A freshly
 // written row may not have its serverTimestamp yet — fall back to "now" so the
@@ -59,6 +78,8 @@ function toInboxMessage(
   return {
     id:            snap.id,
     user_id:       d.userId ?? '',
+    thread_id:     d.threadId ?? LEGACY_THREAD_ID,
+    thread_title:  d.threadTitle ?? null,
     sender:        d.sender === 'admin' ? 'admin' : 'user',
     body:          d.body ?? '',
     excerpt:       d.excerpt ?? null,
@@ -69,23 +90,29 @@ function toInboxMessage(
   };
 }
 
-// Send the person's note to a real human. `excerpt` optionally carries the piece
-// of chat they wanted to talk about. Returns the saved row, or null on failure.
+// Send the person's note to a real human, into a specific conversation thread.
+// `opts.excerpt` optionally carries the piece of chat they wanted to talk about;
+// `opts.threadTitle` is stamped only on the first message of a new thread. Returns
+// the saved row, or null on failure.
 export async function sendMessage(
   body: string,
-  excerpt?: string,
-  journeyStage?: string,
+  opts: SendOptions = {},
 ): Promise<InboxMessage | null> {
   if (!db) return null;
   const uid = await ensureAnonSession();
   if (!uid) return null;
+  const threadId = (opts.threadId || LEGACY_THREAD_ID).trim() || LEGACY_THREAD_ID;
+  const threadTitle = opts.threadTitle?.trim() || null;
+  const clean = (body ?? '').trim();
   try {
     const ref = await addDoc(collection(db, MESSAGES), {
       userId:       uid,
+      threadId,
+      threadTitle,
       sender:       'user',
-      body:         (body ?? '').trim(),
-      excerpt:      excerpt?.trim() || null,
-      journeyStage: journeyStage ?? null,
+      body:         clean,
+      excerpt:      opts.excerpt?.trim() || null,
+      journeyStage: opts.journeyStage ?? null,
       createdAt:    serverTimestamp(),
       readByAdmin:  false,
       readByUser:   true, // the person has, by definition, seen their own note
@@ -93,10 +120,12 @@ export async function sendMessage(
     return {
       id:            ref.id,
       user_id:       uid,
+      thread_id:     threadId,
+      thread_title:  threadTitle,
       sender:        'user',
-      body:          (body ?? '').trim(),
-      excerpt:       excerpt?.trim() || null,
-      journey_stage: journeyStage ?? null,
+      body:          clean,
+      excerpt:       opts.excerpt?.trim() || null,
+      journey_stage: opts.journeyStage ?? null,
       created_at:    new Date().toISOString(),
       read_by_admin: false,
       read_by_user:  true,
@@ -106,7 +135,9 @@ export async function sendMessage(
   }
 }
 
-// Load the whole thread for this device, oldest first.
+// Load EVERY message for this device, oldest first. The app groups them into
+// separate conversations by thread_id on the client (no extra Firestore index
+// needed — this is the same single query the inbox has always used).
 export async function fetchThread(): Promise<InboxMessage[]> {
   if (!db) return [];
   const uid = await ensureAnonSession();
@@ -124,8 +155,10 @@ export async function fetchThread(): Promise<InboxMessage[]> {
   }
 }
 
-// Mark every admin reply in this thread as seen, so the unread dot can clear.
-export async function markRepliesRead(): Promise<void> {
+// Mark admin replies as seen, so the unread dot can clear. If `threadId` is given,
+// only that conversation's replies are marked (we filter on the client so no new
+// composite index is required); otherwise every unseen reply is cleared.
+export async function markRepliesRead(threadId?: string): Promise<void> {
   if (!db) return;
   const uid = await ensureAnonSession();
   if (!uid) return;
@@ -137,8 +170,11 @@ export async function markRepliesRead(): Promise<void> {
       where('readByUser', '==', false),
     );
     const snap = await getDocs(q);
+    const target = threadId
+      ? snap.docs.filter(d => (d.data().threadId ?? LEGACY_THREAD_ID) === threadId)
+      : snap.docs;
     await Promise.all(
-      snap.docs.map(d => updateDoc(doc(db!, MESSAGES, d.id), { readByUser: true })),
+      target.map(d => updateDoc(doc(db!, MESSAGES, d.id), { readByUser: true })),
     );
   } catch {
     /* fail soft */

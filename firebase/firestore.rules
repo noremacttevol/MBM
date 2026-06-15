@@ -16,6 +16,8 @@
 //
 // Data model — collection "messages", one document per message:
 //   userId       string   the person's anonymous auth uid (their thread key)
+//   threadId     string?  which conversation (a person may hold many); missing = 'main'
+//   threadTitle  string?  a short title, stamped only on a conversation's first message
 //   sender       string   'user' | 'admin'
 //   body         string   the message text
 //   excerpt      string?  optional chat excerpt the person wanted to talk about

@@ -57,6 +57,18 @@ const db = getFirestore();
 const COL = 'messages';
 const META = 'threadMeta'; // admin-only; default-deny rule keeps every app client out
 
+// A person can now hold MANY separate conversations. A thread is identified by the
+// person (userId) AND which conversation (threadId). Messages written before
+// multi-thread have no threadId and collapse into the 'main' conversation, so the
+// original single thread keeps working untouched.
+const LEGACY_THREAD = 'main';
+const keyOf   = (uid, threadId) => `${uid}||${threadId || LEGACY_THREAD}`;
+const parseKey = (key) => {
+  const i = (key || '').indexOf('||');
+  if (i < 0) return { uid: key || '', threadId: LEGACY_THREAD };
+  return { uid: key.slice(0, i), threadId: key.slice(i + 2) || LEGACY_THREAD };
+};
+
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
 function isoOf(v) {
@@ -78,6 +90,8 @@ function mapDoc(doc) {
   return {
     id:            doc.id,
     user_id:       d.userId ?? '',
+    thread_id:     d.threadId ?? LEGACY_THREAD,
+    thread_title:  d.threadTitle ?? null,
     sender:        d.sender === 'admin' ? 'admin' : 'user',
     body:          d.body ?? '',
     excerpt:       d.excerpt ?? null,
@@ -95,20 +109,21 @@ async function allMessages() {
 }
 
 // The per-thread triage record: { status, handledAt, handledByName, assignedToName }.
-// Stored one doc per person (doc id = userId). Absent means "never triaged".
+// Stored one doc per CONVERSATION (doc id = `${userId}||${threadId}`). Absent means
+// "never triaged". Returns a Map keyed by that same composite key.
 async function allMeta() {
   const snap = await db.collection(META).get();
-  const byUser = new Map();
+  const byKey = new Map();
   snap.docs.forEach(d => {
     const m = d.data();
-    byUser.set(d.id, {
+    byKey.set(d.id, {
       status:           m.status ?? null,
       handled_at:       isoOrNull(m.handledAt),
       handled_by_name:  m.handledByName ?? null,
       assigned_to_name: m.assignedToName ?? null,
     });
   });
-  return byUser;
+  return byKey;
 }
 
 // A thread "needs reply" when the newest message is from the person AND it arrived
@@ -131,26 +146,42 @@ const STATUS_LABEL = {
   handled:     'Handled',
 };
 
-// Group every message into one thread per person, those needing a reply first.
+// A short, scannable title for a conversation — the stamped thread title if present,
+// else the first thing the person said in it, so legacy threads read well too.
+function titleOf(messages) {
+  const titled = messages.find(m => m.thread_title)?.thread_title;
+  if (titled) return titled;
+  const firstUser = messages.find(m => m.sender === 'user' && (m.body || '').trim());
+  const raw = (firstUser?.body || messages[0]?.body || 'Conversation').replace(/\s+/g, ' ').trim();
+  return raw.length > 52 ? raw.slice(0, 52).trim() + '…' : (raw || 'Conversation');
+}
+
+// Group every message into one thread per CONVERSATION (person + threadId), those
+// needing a reply first. Each row carries a composite `key` the rest of the desk
+// uses to open, reply, and triage exactly that conversation.
 async function listThreads() {
   const msgs = await allMessages();
   const meta = await allMeta();
-  const byUser = new Map();
+  const byKey = new Map();
   for (const m of msgs) {
-    if (!byUser.has(m.user_id)) {
-      byUser.set(m.user_id, { uid: m.user_id, messages: [], unread: 0, stage: null });
+    const key = keyOf(m.user_id, m.thread_id);
+    if (!byKey.has(key)) {
+      byKey.set(key, { key, uid: m.user_id, threadId: m.thread_id, messages: [], unread: 0, stage: null });
     }
-    const t = byUser.get(m.user_id);
+    const t = byKey.get(key);
     t.messages.push(m);
     if (m.sender === 'user' && !m.read_by_admin) t.unread += 1;
     if (m.sender === 'user' && m.journey_stage) t.stage = m.journey_stage;
   }
-  const threads = [...byUser.values()].map(t => {
+  const threads = [...byKey.values()].map(t => {
     const last = t.messages[t.messages.length - 1];
-    const tMeta = meta.get(t.uid) ?? null;
+    const tMeta = meta.get(t.key) ?? null;
     const status = deriveStatus(t.messages, tMeta);
     return {
+      key:              t.key,
       uid:              t.uid,
+      thread_id:        t.threadId,
+      title:            titleOf(t.messages),
       unread:           t.unread,
       stage:            t.stage,
       count:            t.messages.length,
@@ -170,13 +201,16 @@ async function listThreads() {
   return threads;
 }
 
-async function getThread(uid) {
+async function getThread(key) {
+  const { uid, threadId } = parseKey(key);
+  // One equality query on userId (the existing index), then filter to this
+  // conversation on the client — so no extra composite index is needed.
   const snap = await db.collection(COL)
     .where('userId', '==', uid)
     .orderBy('createdAt', 'asc')
     .get();
-  const messages = snap.docs.map(mapDoc);
-  const metaSnap = await db.collection(META).doc(uid).get();
+  const messages = snap.docs.map(mapDoc).filter(m => m.thread_id === threadId);
+  const metaSnap = await db.collection(META).doc(key).get();
   const m = metaSnap.exists ? metaSnap.data() : null;
   const meta = m
     ? {
@@ -188,20 +222,25 @@ async function getThread(uid) {
     : null;
   return {
     messages,
+    title: titleOf(messages),
     stage: [...messages].reverse().find(x => x.sender === 'user' && x.journey_stage)?.journey_stage ?? null,
     status: deriveStatus(messages, meta),
     handled_by_name: meta?.handled_by_name ?? null,
   };
 }
 
-async function reply(uid, body) {
+async function reply(key, body) {
   const clean = (body ?? '').trim();
+  const { uid, threadId } = parseKey(key);
   if (!uid || !clean) return false;
   // The app reader (mobile/src/lib/messaging.ts) ignores responderId/responderName;
   // they exist only so this desk — now and with volunteers later — can show who
-  // answered. Nothing about the person's experience changes.
+  // answered. The reply is stamped with the SAME threadId so it lands in exactly the
+  // conversation the person asked in. Nothing about the person's experience changes.
   await db.collection(COL).add({
     userId:        uid,
+    threadId,
+    threadTitle:   null,
     sender:        'admin',
     body:          clean,
     excerpt:       null,
@@ -213,7 +252,7 @@ async function reply(uid, body) {
     readByUser:    false,
   });
   // Answering a person is itself catching up with them: record it as handled now.
-  await db.collection(META).doc(uid).set({
+  await db.collection(META).doc(key).set({
     status:        'handled',
     handledAt:     FieldValue.serverTimestamp(),
     handledById:   RESPONDER.id,
@@ -222,11 +261,11 @@ async function reply(uid, body) {
   return true;
 }
 
-// Mark a thread handled without sending a message — for when a person's note needs
-// no reply (a thank-you, a closing word) but you don't want it nagging the queue.
-async function markHandled(uid) {
-  if (!uid) return false;
-  await db.collection(META).doc(uid).set({
+// Mark a conversation handled without sending a message — for when a person's note
+// needs no reply (a thank-you, a closing word) but you don't want it nagging the queue.
+async function markHandled(key) {
+  if (!key) return false;
+  await db.collection(META).doc(key).set({
     status:        'handled',
     handledAt:     FieldValue.serverTimestamp(),
     handledById:   RESPONDER.id,
@@ -235,16 +274,19 @@ async function markHandled(uid) {
   return true;
 }
 
-async function markRead(uid) {
+async function markRead(key) {
+  const { uid, threadId } = parseKey(key);
   const snap = await db.collection(COL)
     .where('userId', '==', uid)
     .where('sender', '==', 'user')
     .where('readByAdmin', '==', false)
     .get();
+  // Only this conversation's messages (filtered on the client — no new index).
+  const docs = snap.docs.filter(d => (d.data().threadId ?? LEGACY_THREAD) === threadId);
   const batch = db.batch();
-  snap.docs.forEach(d => batch.update(d.ref, { readByAdmin: true }));
+  docs.forEach(d => batch.update(d.ref, { readByAdmin: true }));
   await batch.commit();
-  return snap.size;
+  return docs.length;
 }
 
 // ── HTTP server ─────────────────────────────────────────────────────────────
@@ -279,22 +321,22 @@ const server = http.createServer(async (req, res) => {
       return json(res, 200, await listThreads());
     }
     if (req.method === 'GET' && url.pathname === '/api/thread') {
-      const uid = url.searchParams.get('uid') ?? '';
-      return json(res, 200, await getThread(uid));
+      const key = url.searchParams.get('key') ?? '';
+      return json(res, 200, await getThread(key));
     }
     if (req.method === 'POST' && url.pathname === '/api/reply') {
-      const { uid, body } = await readBody(req);
-      const ok = await reply(uid, body);
+      const { key, body } = await readBody(req);
+      const ok = await reply(key, body);
       return json(res, ok ? 200 : 400, { ok });
     }
     if (req.method === 'POST' && url.pathname === '/api/handle') {
-      const { uid } = await readBody(req);
-      const ok = await markHandled(uid);
+      const { key } = await readBody(req);
+      const ok = await markHandled(key);
       return json(res, ok ? 200 : 400, { ok });
     }
     if (req.method === 'POST' && url.pathname === '/api/markread') {
-      const { uid } = await readBody(req);
-      const n = await markRead(uid);
+      const { key } = await readBody(req);
+      const n = await markRead(key);
       return json(res, 200, { ok: true, marked: n });
     }
     json(res, 404, { error: 'not found' });
@@ -338,7 +380,9 @@ const PAGE = `<!doctype html>
   .t.active{background:#16161c;border-left:2px solid var(--gold);}
   .t .who{font-size:12px;color:var(--dim);display:flex;justify-content:space-between;
           align-items:center;gap:8px;}
-  .t .snip{font-size:13px;color:var(--mid);margin-top:5px;overflow:hidden;
+  .t .ttl{font-size:13px;color:var(--gold);margin-top:6px;overflow:hidden;
+          text-overflow:ellipsis;white-space:nowrap;}
+  .t .snip{font-size:12px;color:var(--dim);margin-top:3px;overflow:hidden;
            text-overflow:ellipsis;white-space:nowrap;}
   .dot{background:var(--green);color:#0a0f0a;border-radius:10px;font-size:11px;
        padding:1px 7px;}
@@ -442,7 +486,7 @@ const PAGE = `<!doctype html>
       return;
     }
     box.innerHTML = view.map(t => \`
-      <div class="t \${t.uid===current?'active':''}" onclick="openThread('\${t.uid}')">
+      <div class="t \${t.key===current?'active':''}" onclick="openThread('\${esc(t.key)}')">
         <div class="who">
           <span class="stage">\${esc(t.stage||'')}</span>
           <span style="display:flex;gap:6px;align-items:center;">
@@ -450,6 +494,7 @@ const PAGE = `<!doctype html>
             <span class="badge \${t.status}">\${esc(t.status_label||'')}</span>
           </span>
         </div>
+        <div class="ttl">\${esc(t.title||'Conversation')}</div>
         <div class="snip">\${t.last?(t.last.sender==='admin'?'You: ':'')+esc(t.last.body):''}</div>
       </div>\`).join('');
   }
@@ -459,18 +504,19 @@ const PAGE = `<!doctype html>
     renderThreads(lastList);
   }
 
-  async function openThread(uid){
-    current = uid;
-    const r = await fetch('/api/thread?uid='+encodeURIComponent(uid));
+  async function openThread(key){
+    current = key;
+    const r = await fetch('/api/thread?key='+encodeURIComponent(key));
     const data = await r.json();
     const msgs = data.messages || [];
 
     const ctx = document.getElementById('ctx');
+    const titleTxt = data.title ? '<b>' + esc(data.title) + '</b>  ·  ' : '';
     const stageTxt = data.stage ? '<b>Where they are:</b> ' + esc(data.stage) + '  ·  ' : '';
     const statusTxt = data.status==='needs_reply' ? 'Waiting on a reply'
       : data.status==='handled' ? ('Handled' + (data.handled_by_name ? ' by ' + esc(data.handled_by_name) : ''))
       : 'You answered last';
-    document.getElementById('ctx-meta').innerHTML = stageTxt + statusTxt;
+    document.getElementById('ctx-meta').innerHTML = titleTxt + stageTxt + statusTxt;
     ctx.style.display = 'flex';
 
     const conv = document.getElementById('conv');
@@ -482,14 +528,14 @@ const PAGE = `<!doctype html>
     conv.scrollTop = conv.scrollHeight;
     document.getElementById('composer').style.display = 'flex';
     fetch('/api/markread',{method:'POST',headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({uid})}).then(loadThreads);
+      body:JSON.stringify({key})}).then(loadThreads);
     loadThreads();
   }
 
   async function markHandled(){
     if(!current) return;
     await fetch('/api/handle',{method:'POST',headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({uid:current})});
+      body:JSON.stringify({key:current})});
     loadThreads();
     openThread(current);
   }
@@ -500,7 +546,7 @@ const PAGE = `<!doctype html>
     if(!body || !current) return;
     const btn = document.getElementById('send'); btn.disabled = true;
     await fetch('/api/reply',{method:'POST',headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({uid:current, body})});
+      body:JSON.stringify({key:current, body})});
     ta.value=''; btn.disabled=false;
     openThread(current);
   };

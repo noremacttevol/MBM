@@ -32,7 +32,7 @@ import {
   Linking,
   ActivityIndicator,
 } from 'react-native';
-import { useAppStore, isMissionaryReady } from '../store/useAppStore';
+import { useAppStore, isMissionaryReady, selectRealThreads } from '../store/useAppStore';
 import { isMessagingConfigured, InboxMessage } from '../lib/messaging';
 import { MISSIONARY_CONTACT_URL } from '../engine/connect';
 import { colors, spacing, radius } from '../theme';
@@ -42,93 +42,131 @@ interface Props {
   compact?: boolean;
 }
 
-type Mode = 'closed' | 'writing' | 'sent';
-
 function shortTime(ts: string): string {
   const d = new Date(ts);
   if (isNaN(d.getTime())) return '';
   return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
 }
 
+// A small, reusable "ask the missionaries" block — shown gently only once a
+// person has passed the milk gate and is reaching toward the church on their own.
+function MissionaryBlock() {
+  return (
+    <View style={styles.missionaryBlock}>
+      <Text style={styles.missionaryBody}>
+        If you'd like, you can also ask for a visit from people who would be glad
+        to walk this road with you in person. Only if and when you want to.
+      </Text>
+      <TouchableOpacity
+        style={styles.missionaryBtn}
+        activeOpacity={0.85}
+        onPress={() => Linking.openURL(MISSIONARY_CONTACT_URL).catch(() => {})}
+      >
+        <Text style={styles.missionaryBtnText}>Request a visit →</Text>
+      </TouchableOpacity>
+    </View>
+  );
+}
+
 export default function ConnectCard({ compact = false }: Props) {
-  const dialogueSignals      = useAppStore(s => s.dialogueSignals);
-  const sendConnectMessage   = useAppStore(s => s.sendConnectMessage);
-  const submitConnectRequest = useAppStore(s => s.submitConnectRequest);
-  const markInboxRead        = useAppStore(s => s.markInboxRead);
-  const inboxMessages        = useAppStore(s => s.inboxMessages);
-  const inboxUnread          = useAppStore(s => s.inboxUnread);
-  const inboxLoading         = useAppStore(s => s.inboxLoading);
-  const missionaryReady      = isMissionaryReady(dialogueSignals);
+  const dialogueSignals       = useAppStore(s => s.dialogueSignals);
+  const sendConnectMessage    = useAppStore(s => s.sendConnectMessage);
+  const submitConnectRequest  = useAppStore(s => s.submitConnectRequest);
+  const markInboxRead         = useAppStore(s => s.markInboxRead);
+  const inboxMessages         = useAppStore(s => s.inboxMessages);
+  const inboxLoading          = useAppStore(s => s.inboxLoading);
+  const activeRealThreadId    = useAppStore(s => s.activeRealThreadId);
+  const openRealPersonThread  = useAppStore(s => s.openRealPersonThread);
+  const newRealPersonThread   = useAppStore(s => s.newRealPersonThread);
+  const closeRealPersonThread = useAppStore(s => s.closeRealPersonThread);
+  const missionaryReady       = isMissionaryReady(dialogueSignals);
 
-  const [mode, setMode]   = useState<Mode>('closed');
-  const [draft, setDraft] = useState('');
-  const [sending, setSending] = useState(false);
+  // Every real-person message, grouped into separate titled conversations.
+  const threads      = selectRealThreads(inboxMessages);
+  const activeThread = threads.find(t => t.id === activeRealThreadId) || null;
+  // A conversation the person just started, with nothing sent into it yet.
+  const inNewEmpty   = !!activeRealThreadId && !activeThread;
+  const showConversation = !!activeThread || inNewEmpty;
 
-  const hasThread = inboxMessages.length > 0;
+  const [draft, setDraft]       = useState('');
+  const [sending, setSending]   = useState(false);
+  // The first-ever reach-out keeps the gentle two-step invitation; once the cloud
+  // can't carry it, this shows the honest "a real person will reach out" note.
+  const [writingFirst, setWritingFirst] = useState(false);
+  const [sentOffline, setSentOffline]   = useState(false);
 
-  // Send whatever is in the draft. Always keeps an on-device copy; reaches the
-  // real person when the cloud inbox is configured.
-  async function send(text: string) {
+  // Send the draft into whatever conversation is open (or a new one). Always keeps
+  // an on-device copy; reaches the real person when the cloud inbox is configured.
+  async function send(text: string, isFirst = false) {
     const clean = text.trim();
     setSending(true);
     if (!clean) {
-      // A blank reach-out still registers interest on-device; no empty bubble.
-      submitConnectRequest('');
+      submitConnectRequest('');             // a blank reach-out still registers interest
       setSending(false);
       setDraft('');
-      setMode('sent');
+      if (isFirst) setSentOffline(true);
       return;
     }
     await sendConnectMessage(clean);
     setSending(false);
     setDraft('');
-    // If the cloud carried it, the thread now shows their words — let it take over.
-    // If not, give the honest "a real person will reach out" confirmation.
-    setMode(isMessagingConfigured ? 'closed' : 'sent');
+    setWritingFirst(false);
+    // Cloud carried it → the thread view takes over automatically. Offline → give
+    // the honest confirmation instead of a fake two-way bubble.
+    if (isFirst && !isMessagingConfigured) setSentOffline(true);
   }
 
-  function acknowledgeReplies() {
-    if (inboxUnread > 0) markInboxRead();
+  function ackThread() {
+    if (activeThread && activeThread.unread > 0) markInboxRead();
   }
 
-  // ── Live two-way thread ─────────────────────────────────────────────────────
-  if (hasThread) {
+  // ── One open conversation — the live two-way thread ─────────────────────────
+  if (showConversation) {
+    const msgs    = activeThread?.messages ?? [];
+    const unread  = activeThread?.unread ?? 0;
+    const title   = activeThread?.title ?? 'New conversation';
+    // Offer a way back to the list whenever there's more than this one conversation.
+    const canGoBack = threads.length > 1 || (inNewEmpty && threads.length >= 1);
+
     return (
       <View style={[styles.card, compact && styles.cardCompact]}>
-        <Text style={styles.title}>A real person is here.</Text>
+        <View style={styles.headerRow}>
+          {canGoBack && (
+            <TouchableOpacity activeOpacity={0.7} onPress={closeRealPersonThread}>
+              <Text style={styles.backLink}>‹ All</Text>
+            </TouchableOpacity>
+          )}
+          <Text style={styles.title} numberOfLines={1}>{title}</Text>
+        </View>
 
-        {inboxUnread > 0 && (
-          <TouchableOpacity
-            style={styles.unreadBanner}
-            activeOpacity={0.7}
-            onPress={acknowledgeReplies}
-          >
-            <Text style={styles.unreadText}>
-              A real person replied. Tap to mark as read.
-            </Text>
+        {unread > 0 && (
+          <TouchableOpacity style={styles.unreadBanner} activeOpacity={0.7} onPress={ackThread}>
+            <Text style={styles.unreadText}>A real person replied. Tap to mark as read.</Text>
           </TouchableOpacity>
         )}
 
-        <View style={styles.thread}>
-          {inboxMessages.map((m: InboxMessage) => {
-            const mine = m.sender === 'user';
-            return (
-              <View
-                key={m.id}
-                style={[styles.row, mine ? styles.rowMine : styles.rowTheirs]}
-              >
-                {!mine && <Text style={styles.fromLabel}>A real person</Text>}
-                <View style={[styles.bubble, mine ? styles.bubbleMine : styles.bubbleTheirs]}>
-                  {!!m.excerpt && (
-                    <Text style={styles.excerpt}>“{m.excerpt}”</Text>
-                  )}
-                  <Text style={styles.bubbleText}>{m.body}</Text>
+        {msgs.length > 0 ? (
+          <View style={styles.thread}>
+            {msgs.map((m: InboxMessage) => {
+              const mine = m.sender === 'user';
+              return (
+                <View key={m.id} style={[styles.row, mine ? styles.rowMine : styles.rowTheirs]}>
+                  {!mine && <Text style={styles.fromLabel}>A real person</Text>}
+                  <View style={[styles.bubble, mine ? styles.bubbleMine : styles.bubbleTheirs]}>
+                    {!!m.excerpt && <Text style={styles.excerpt}>“{m.excerpt}”</Text>}
+                    <Text style={styles.bubbleText} selectable>{m.body}</Text>
+                  </View>
+                  {!!m.created_at && <Text style={styles.time}>{shortTime(m.created_at)}</Text>}
                 </View>
-                {!!m.created_at && <Text style={styles.time}>{shortTime(m.created_at)}</Text>}
-              </View>
-            );
-          })}
-        </View>
+              );
+            })}
+          </View>
+        ) : (
+          <Text style={styles.body}>
+            Start a new conversation with a real person. Write whatever you'd like to
+            ask or talk through — there's no rush, and no pressure.
+          </Text>
+        )}
 
         <Text style={styles.honest}>
           A real person reads every word. A reply can take a day or two — this is a
@@ -138,13 +176,13 @@ export default function ConnectCard({ compact = false }: Props) {
         <View style={styles.composer}>
           <TextInput
             style={styles.composerInput}
-            placeholder="Write back…"
+            placeholder={msgs.length ? 'Write back…' : 'Write your message…'}
             placeholderTextColor={colors.textMuted}
             multiline
             maxLength={1000}
             value={draft}
             onChangeText={setDraft}
-            onFocus={acknowledgeReplies}
+            onFocus={ackThread}
             textAlignVertical="top"
           />
           <TouchableOpacity
@@ -159,31 +197,56 @@ export default function ConnectCard({ compact = false }: Props) {
           </TouchableOpacity>
         </View>
 
-        {missionaryReady && (
-          <View style={styles.missionaryBlock}>
-            <Text style={styles.missionaryBody}>
-              If you'd like, you can also ask for a visit from people who would be glad
-              to walk this road with you in person. Only if and when you want to.
-            </Text>
-            <TouchableOpacity
-              style={styles.missionaryBtn}
-              activeOpacity={0.85}
-              onPress={() => Linking.openURL(MISSIONARY_CONTACT_URL).catch(() => {})}
-            >
-              <Text style={styles.missionaryBtnText}>Request a visit →</Text>
-            </TouchableOpacity>
-          </View>
-        )}
+        {missionaryReady && <MissionaryBlock />}
       </View>
     );
   }
 
-  // ── No thread yet — the invitation (and on-device fallback path) ─────────────
+  // ── The conversation list — many separate real-person threads ───────────────
+  if (threads.length > 0) {
+    return (
+      <View style={[styles.card, compact && styles.cardCompact]}>
+        <Text style={styles.title}>Your conversations with a real person</Text>
+
+        {threads.map(t => (
+          <TouchableOpacity
+            key={t.id}
+            style={styles.listRow}
+            activeOpacity={0.7}
+            onPress={() => openRealPersonThread(t.id)}
+          >
+            <View style={styles.listRowMain}>
+              <Text style={styles.rowTitle} numberOfLines={1}>{t.title}</Text>
+              <Text style={styles.rowSnippet} numberOfLines={1}>
+                {t.lastSender === 'admin' ? 'Reply: ' : 'You: '}{t.lastBody}
+              </Text>
+            </View>
+            <View style={styles.listRowSide}>
+              {t.unread > 0 && <View style={styles.unreadDot} />}
+              <Text style={styles.rowTime}>{shortTime(t.lastAt)}</Text>
+            </View>
+          </TouchableOpacity>
+        ))}
+
+        <TouchableOpacity
+          style={styles.newBtn}
+          activeOpacity={0.85}
+          onPress={() => newRealPersonThread()}
+        >
+          <Text style={styles.newBtnText}>+ Start a new conversation</Text>
+        </TouchableOpacity>
+
+        {missionaryReady && <MissionaryBlock />}
+      </View>
+    );
+  }
+
+  // ── No conversations yet — the first, gentle invitation ─────────────────────
   return (
     <View style={[styles.card, compact && styles.cardCompact]}>
       <Text style={styles.title}>A real person is always here.</Text>
 
-      {mode === 'sent' ? (
+      {sentOffline ? (
         <Text style={styles.confirm}>
           Thank you for reaching out. A real person will read this and get back to
           you. You don't have to do anything else — there's no rush, and no pressure.
@@ -195,11 +258,11 @@ export default function ConnectCard({ compact = false }: Props) {
             these. No agenda. No pressure. Whenever you're ready.
           </Text>
 
-          {mode === 'closed' ? (
+          {!writingFirst ? (
             <TouchableOpacity
               style={styles.humanBtn}
               activeOpacity={0.8}
-              onPress={() => setMode('writing')}
+              onPress={() => setWritingFirst(true)}
             >
               <Text style={styles.humanBtnText}>Talk to a real person</Text>
             </TouchableOpacity>
@@ -220,7 +283,7 @@ export default function ConnectCard({ compact = false }: Props) {
               <View style={styles.writeActions}>
                 <TouchableOpacity
                   activeOpacity={0.7}
-                  onPress={() => { setMode('closed'); setDraft(''); }}
+                  onPress={() => { setWritingFirst(false); setDraft(''); }}
                 >
                   <Text style={styles.cancelText}>Cancel</Text>
                 </TouchableOpacity>
@@ -228,7 +291,7 @@ export default function ConnectCard({ compact = false }: Props) {
                   style={[styles.sendBtn, sending && styles.sendBtnDim]}
                   activeOpacity={0.85}
                   disabled={sending}
-                  onPress={() => send(draft)}
+                  onPress={() => send(draft, true)}
                 >
                   {sending
                     ? <ActivityIndicator size="small" color={colors.onAccent} />
@@ -240,23 +303,9 @@ export default function ConnectCard({ compact = false }: Props) {
         </>
       )}
 
-      {missionaryReady && mode !== 'writing' && (
-        <View style={styles.missionaryBlock}>
-          <Text style={styles.missionaryBody}>
-            If you'd like, you can also ask for a visit from people who would be glad
-            to walk this road with you in person. Only if and when you want to.
-          </Text>
-          <TouchableOpacity
-            style={styles.missionaryBtn}
-            activeOpacity={0.85}
-            onPress={() => Linking.openURL(MISSIONARY_CONTACT_URL).catch(() => {})}
-          >
-            <Text style={styles.missionaryBtnText}>Request a visit →</Text>
-          </TouchableOpacity>
-        </View>
-      )}
+      {missionaryReady && !writingFirst && <MissionaryBlock />}
 
-      {mode !== 'sent' && (
+      {!sentOffline && (
         <Text style={styles.sub}>
           {inboxLoading ? 'Reaching the thread…' : 'Or just keep going — there’s no rush.'}
         </Text>
@@ -277,6 +326,44 @@ const styles = StyleSheet.create({
   cardCompact: { marginBottom: spacing.sm },
   title: {
     fontSize: 16, fontFamily: 'MBMCross', color: colors.textMid, marginBottom: spacing.sm,
+    flexShrink: 1,
+  },
+
+  // ── Conversation header (back ‹ All + title) ────────────────────────────────
+  headerRow: {
+    flexDirection: 'row', alignItems: 'center', gap: spacing.sm, marginBottom: spacing.xs,
+  },
+  backLink: {
+    fontSize: 13, fontFamily: 'MBMCross', color: colors.blue, paddingVertical: 2, paddingRight: 4,
+  },
+
+  // ── Conversation list (multiple real-person threads) ────────────────────────
+  listRow: {
+    flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between',
+    borderWidth: 1, borderColor: '#2a3a28', backgroundColor: '#0c120c',
+    borderRadius: radius.md, paddingVertical: 10, paddingHorizontal: 12,
+    marginBottom: spacing.sm, gap: spacing.sm,
+  },
+  listRowMain: { flex: 1 },
+  rowTitle: {
+    fontSize: 14, fontFamily: 'MBMCross', color: colors.textMid, marginBottom: 2,
+  },
+  rowSnippet: {
+    fontSize: 12, fontFamily: 'MBMCross', color: colors.textDim,
+  },
+  listRowSide: { alignItems: 'flex-end', gap: 4 },
+  rowTime: {
+    fontSize: 10, fontFamily: 'MBMCross', color: colors.textMuted,
+  },
+  unreadDot: {
+    width: 9, height: 9, borderRadius: 5, backgroundColor: colors.green,
+  },
+  newBtn: {
+    borderWidth: 1, borderColor: colors.green, borderRadius: radius.sm,
+    paddingVertical: 10, paddingHorizontal: 14, alignItems: 'center', marginTop: 2,
+  },
+  newBtnText: {
+    color: colors.green, fontSize: 13, fontFamily: 'MBMCross', fontWeight: '600',
   },
   body: {
     fontSize: 13, fontFamily: 'MBMCross', color: colors.textDim,
