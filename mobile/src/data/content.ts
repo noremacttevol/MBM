@@ -368,6 +368,122 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 10,
     resonanceStyle:   'emotional',
   },
+
+  // ── ADDED 2026-06-15: more at every level. Bible refs -> BibleGateway;
+  // Restoration/member refs -> stable churchofjesuschrist.org study URLs. ──
+
+  {
+    id: 31, tag: 'MILK', title: 'Come Unto Me',
+    description: "Matthew 11:28-30. \"Come unto me, all ye that labour and are heavy laden, and I will give you rest.\" The most open invitation Jesus ever gave — no conditions, no test to pass first.",
+    scriptureRef: 'Matthew 11:28-30',
+    url: 'https://www.biblegateway.com/passage/?search=Matthew+11%3A28-30&version=NIV',
+    mediaType: 'article', estimatedMinutes: 2, resonanceStyle: 'comfort',
+  },
+  {
+    id: 32, tag: 'MILK', title: 'The Good Shepherd',
+    description: "John 10:11-14. He calls his own by name, and he lays his life down for them. A shepherd who knows you, not a crowd he is managing.",
+    scriptureRef: 'John 10:11-14',
+    url: 'https://www.biblegateway.com/passage/?search=John+10%3A11-14&version=NIV',
+    mediaType: 'article', estimatedMinutes: 2, resonanceStyle: 'emotional',
+  },
+  {
+    id: 33, tag: 'MILK', title: 'Do Not Be Anxious',
+    description: "Matthew 6:25-34. Look at the birds; look at the lilies. Jesus on worry — not a scolding, but a Father pointing at how cared-for the smallest things already are.",
+    scriptureRef: 'Matthew 6:25-34',
+    url: 'https://www.biblegateway.com/passage/?search=Matthew+6%3A25-34&version=NIV',
+    mediaType: 'article', estimatedMinutes: 3, resonanceStyle: 'comfort',
+  },
+  {
+    id: 34, tag: 'MILK', title: 'Neither Do I Condemn You',
+    description: "John 8:2-11. The woman they were ready to stone. He did not excuse what was wrong — but he did not let them crush her either. Mercy and truth in the same breath.",
+    scriptureRef: 'John 8:2-11',
+    url: 'https://www.biblegateway.com/passage/?search=John+8%3A2-11&version=NIV',
+    mediaType: 'article', estimatedMinutes: 3, resonanceStyle: 'emotional',
+  },
+  {
+    id: 35, tag: 'BRIDGE', title: 'When God Feels Far in Suffering',
+    description: "Romans 8:18-28. Not a tidy answer to pain, but the honest claim that nothing — not even the worst of it — is wasted or outside what God can work with.",
+    scriptureRef: 'Romans 8:18-28',
+    url: 'https://www.biblegateway.com/passage/?search=Romans+8%3A18-28&version=NIV',
+    mediaType: 'article', estimatedMinutes: 4, resonanceStyle: 'philosophical',
+  },
+  {
+    id: 36, tag: 'BRIDGE', title: 'The Evidence for the Resurrection',
+    description: "1 Corinthians 15:3-8. Paul lists the eyewitnesses — most still alive when he wrote, able to be questioned. The earliest claim, not a later legend.",
+    scriptureRef: '1 Corinthians 15:3-8',
+    url: 'https://www.biblegateway.com/passage/?search=1+Corinthians+15%3A3-8&version=NIV',
+    mediaType: 'article', estimatedMinutes: 4, resonanceStyle: 'historical',
+  },
+  {
+    id: 37, tag: 'BRIDGE', title: 'Lord, I Believe — Help My Unbelief',
+    description: "Mark 9:24. The most honest prayer in the Bible. Faith and doubt in the same sentence, and Jesus answered it. You do not have to resolve the doubt before you are welcome.",
+    scriptureRef: 'Mark 9:24',
+    url: 'https://www.biblegateway.com/passage/?search=Mark+9%3A24&version=NIV',
+    mediaType: 'article', estimatedMinutes: 2, resonanceStyle: 'personal',
+  },
+  {
+    id: 38, tag: 'RESTORATION', title: 'Joseph Smith — The First Vision (his own account)',
+    description: "Joseph Smith—History 1. A boy asks which church is true and says he saw the Father and the Son. Whatever you conclude, read the claim in his own words first.",
+    scriptureRef: 'Joseph Smith—History 1:15-20',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1',
+    mediaType: 'article', estimatedMinutes: 8, resonanceStyle: 'historical',
+  },
+  {
+    id: 39, tag: 'RESTORATION', title: "Moroni's Promise",
+    description: "Moroni 10:3-5. The Book of Mormon's own invitation: read it, then ask God sincerely whether it is true. It stakes everything on a personal answer, not an argument.",
+    scriptureRef: 'Moroni 10:3-5',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/10',
+    mediaType: 'article', estimatedMinutes: 3, resonanceStyle: 'doctrinal',
+  },
+  {
+    id: 40, tag: 'RESTORATION', title: 'Another Testament of Jesus Christ',
+    description: "2 Nephi 33. Why a second witness of Christ alongside the Bible — not to replace it, but to testify of the same Jesus to a world that needs more, not less, of him.",
+    scriptureRef: '2 Nephi 33:10-11',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/33',
+    mediaType: 'article', estimatedMinutes: 4, resonanceStyle: 'doctrinal',
+  },
+  {
+    id: 41, tag: 'RESTORATION', title: 'Why We Are Here — The Plan',
+    description: "Alma 40-42. Where we came from, why life is hard, what happens after — the restored gospel's answer to the questions every honest person eventually asks.",
+    scriptureRef: 'Alma 42',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/42',
+    mediaType: 'article', estimatedMinutes: 9, resonanceStyle: 'doctrinal',
+  },
+  {
+    id: 42, tag: 'RESTORATION', title: 'God Still Speaks Today',
+    description: "Doctrine and Covenants 1:37-38. The claim that revelation did not end with the Bible — that God speaks now, through prophets, the same way he always has.",
+    scriptureRef: 'D&C 1:37-38',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/1',
+    mediaType: 'article', estimatedMinutes: 3, resonanceStyle: 'doctrinal',
+  },
+  {
+    id: 43, tag: 'MAINTENANCE', title: 'Feast Upon the Words of Christ',
+    description: "2 Nephi 32:3. Not just read — feast. A pattern for daily scripture study that feeds rather than checks a box, and tells you the very things you should do.",
+    scriptureRef: '2 Nephi 32:3',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/32',
+    mediaType: 'article', estimatedMinutes: 3, resonanceStyle: 'devotional',
+  },
+  {
+    id: 44, tag: 'MAINTENANCE', title: 'The Sacrament — Renewing the Covenant',
+    description: "D&C 20:77-79. The prayers, word for word. What you are actually promising each week, and what is promised back — to always have his Spirit with you.",
+    scriptureRef: 'D&C 20:77-79',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/20',
+    mediaType: 'article', estimatedMinutes: 4, resonanceStyle: 'devotional',
+  },
+  {
+    id: 45, tag: 'MAINTENANCE', title: "Bear One Another's Burdens",
+    description: "Mosiah 18:8-9. The baptismal covenant in plain terms — to mourn with those that mourn, comfort those that need it. Ministering is not a program; it is the covenant.",
+    scriptureRef: 'Mosiah 18:8-9',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/18',
+    mediaType: 'article', estimatedMinutes: 3, resonanceStyle: 'moral',
+  },
+  {
+    id: 46, tag: 'MAINTENANCE', title: 'Press Forward With a Brightness of Hope',
+    description: "2 Nephi 31:20. After baptism — what then? Endure, yes, but with a feast of hope and love, not grim duty. The shape of a life that keeps moving toward Christ.",
+    scriptureRef: '2 Nephi 31:20',
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/31',
+    mediaType: 'article', estimatedMinutes: 3, resonanceStyle: 'devotional',
+  },
 ];
 
 export function getContentByTag(tag: FeedTag): ContentItem[] {
