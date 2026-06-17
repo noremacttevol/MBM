@@ -10,6 +10,7 @@ import {
   Platform,
   Animated,
   Alert,
+  Modal,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
@@ -159,7 +160,9 @@ export default function JournalScreen() {
       setChosenPrompt(null);
       setShowSuggestions(false);
     } else if (mode === 'pick') {
+      // Back to a normal write view, with the topic picker popped open over it.
       setFreestyle(false);
+      setChosenPrompt(null);
       setShowSuggestions(true);
     } else {
       // 'another' — a fresh computed prompt (answeredPromptIds grew, so it rotates)
@@ -172,6 +175,7 @@ export default function JournalScreen() {
   function chooseSuggestion(p: JournalPrompt) {
     setChosenPrompt(p);
     setFreestyle(false);
+    setSubmitted(false);
     setShowSuggestions(false);
   }
 
@@ -201,7 +205,7 @@ export default function JournalScreen() {
           {/* ── Current prompt ──────────────────────────────────────────── */}
           <View style={styles.promptCard}>
             <Text style={styles.promptLabel}>
-              {freestyle ? 'FREE WRITE' : showSuggestions ? 'PICK SOMETHING TO WRITE ABOUT' : "TODAY'S PROMPT"}
+              {freestyle ? 'FREE WRITE' : "TODAY'S PROMPT"}
             </Text>
 
             {/* Thank-you state — now a real fork: another prompt, a free page,
@@ -210,7 +214,7 @@ export default function JournalScreen() {
               style={[styles.thankBlock, { opacity: thankAnim }]}
               pointerEvents={submitted ? 'auto' : 'none'}
             >
-              <Text style={styles.thankText}>Written.</Text>
+              <Text style={styles.thankText}>Saved.</Text>
               {blessLine ? <Text style={styles.blessLine}>{blessLine}</Text> : null}
               <View style={styles.writeAgainRow}>
                 <TouchableOpacity onPress={() => reopenWriting('another')} activeOpacity={0.7}>
@@ -225,11 +229,78 @@ export default function JournalScreen() {
               </View>
             </Animated.View>
 
-            {/* Active prompt / suggestions / freestyle */}
-            <Animated.View style={{ opacity: fadeAnim }}>
-              {showSuggestions ? (
-                <>
-                  <Text style={styles.promptText}>What would you like to write about?</Text>
+            {/* Active prompt / freestyle. While the "Saved." overlay is showing
+                (submitted), this view is faded AND made untappable so the three
+                links above actually receive the taps (they sit beneath it). */}
+            <Animated.View
+              style={{ opacity: fadeAnim }}
+              pointerEvents={submitted ? 'none' : 'auto'}
+            >
+              <Text style={styles.promptText}>{promptText}</Text>
+
+              <TextInput
+                style={styles.input}
+                value={text}
+                onChangeText={setText}
+                placeholder={freestyle ? 'Write whatever comes…' : 'Write what comes…'}
+                placeholderTextColor={colors.textMuted}
+                multiline
+                numberOfLines={6}
+                textAlignVertical="top"
+                editable={!submitted}
+              />
+
+              <View style={styles.modeLinks}>
+                {freestyle ? (
+                  <TouchableOpacity onPress={() => reopenWriting('another')} activeOpacity={0.7}>
+                    <Text style={styles.modeLink}>Use a prompt</Text>
+                  </TouchableOpacity>
+                ) : (
+                  <TouchableOpacity onPress={() => reopenWriting('free')} activeOpacity={0.7}>
+                    <Text style={styles.modeLink}>Write freely</Text>
+                  </TouchableOpacity>
+                )}
+                <TouchableOpacity onPress={() => setShowSuggestions(true)} activeOpacity={0.7}>
+                  <Text style={styles.modeLink}>Pick a topic</Text>
+                </TouchableOpacity>
+              </View>
+
+              <TouchableOpacity
+                style={[styles.submitBtn, !text.trim() && styles.submitBtnDisabled]}
+                activeOpacity={0.7}
+                onPress={handleSubmit}
+                disabled={!text.trim() || submitted}
+              >
+                <Text style={styles.submitBtnText}>Save →</Text>
+              </TouchableOpacity>
+            </Animated.View>
+          </View>
+
+          {/* ── Pick a topic ─ a popup you scroll through and choose one from ── */}
+          <Modal
+            visible={showSuggestions}
+            transparent
+            animationType="fade"
+            onRequestClose={() => setShowSuggestions(false)}
+          >
+            <View style={styles.modalBackdrop}>
+              <View style={styles.modalCard}>
+                <View style={styles.modalHeader}>
+                  <Text style={styles.modalTitle}>Pick a topic</Text>
+                  <TouchableOpacity
+                    onPress={() => setShowSuggestions(false)}
+                    activeOpacity={0.7}
+                    hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}
+                  >
+                    <Text style={styles.modalClose}>✕</Text>
+                  </TouchableOpacity>
+                </View>
+
+                <ScrollView
+                  style={styles.modalScroll}
+                  showsVerticalScrollIndicator
+                  keyboardShouldPersistTaps="handled"
+                >
                   {suggestions.map(s => (
                     <TouchableOpacity
                       key={s.id}
@@ -240,53 +311,18 @@ export default function JournalScreen() {
                       <Text style={styles.suggestText}>{s.text}</Text>
                     </TouchableOpacity>
                   ))}
-                  <TouchableOpacity onPress={() => reopenWriting('free')} activeOpacity={0.7}>
-                    <Text style={styles.modeLink}>…or just write freely →</Text>
-                  </TouchableOpacity>
-                </>
-              ) : (
-                <>
-                  <Text style={styles.promptText}>{promptText}</Text>
+                </ScrollView>
 
-                  <TextInput
-                    style={styles.input}
-                    value={text}
-                    onChangeText={setText}
-                    placeholder={freestyle ? 'Write whatever comes…' : 'Write what comes…'}
-                    placeholderTextColor={colors.textMuted}
-                    multiline
-                    numberOfLines={6}
-                    textAlignVertical="top"
-                    editable={!submitted}
-                  />
-
-                  <View style={styles.modeLinks}>
-                    {freestyle ? (
-                      <TouchableOpacity onPress={() => reopenWriting('another')} activeOpacity={0.7}>
-                        <Text style={styles.modeLink}>Use a prompt</Text>
-                      </TouchableOpacity>
-                    ) : (
-                      <TouchableOpacity onPress={() => reopenWriting('free')} activeOpacity={0.7}>
-                        <Text style={styles.modeLink}>Write freely</Text>
-                      </TouchableOpacity>
-                    )}
-                    <TouchableOpacity onPress={() => setShowSuggestions(true)} activeOpacity={0.7}>
-                      <Text style={styles.modeLink}>Other prompts</Text>
-                    </TouchableOpacity>
-                  </View>
-
-                  <TouchableOpacity
-                    style={[styles.submitBtn, !text.trim() && styles.submitBtnDisabled]}
-                    activeOpacity={0.7}
-                    onPress={handleSubmit}
-                    disabled={!text.trim() || submitted}
-                  >
-                    <Text style={styles.submitBtnText}>Save →</Text>
-                  </TouchableOpacity>
-                </>
-              )}
-            </Animated.View>
-          </View>
+                <TouchableOpacity
+                  onPress={() => { setShowSuggestions(false); reopenWriting('free'); }}
+                  activeOpacity={0.7}
+                  style={styles.modalFreeBtn}
+                >
+                  <Text style={styles.modeLink}>…or just write freely →</Text>
+                </TouchableOpacity>
+              </View>
+            </View>
+          </Modal>
 
           {/* ── Notes you kept ──────────────────────────────────────────── */}
           <View onLayout={e => { notesYRef.current = e.nativeEvent.layout.y; }}>
@@ -536,6 +572,43 @@ const styles = StyleSheet.create({
     fontFamily: 'Jost_400Regular',
     color:      colors.blue,
     paddingVertical: 4,
+  },
+
+  // ── Pick-a-topic popup ────────────────────────────────────────────────
+  modalBackdrop: {
+    flex:            1,
+    backgroundColor: 'rgba(0,0,0,0.6)',
+    justifyContent:  'center',
+    paddingHorizontal: spacing.lg,
+  },
+  modalCard: {
+    backgroundColor: colors.bgCard,
+    borderWidth:     1,
+    borderColor:     colors.border,
+    borderRadius:    radius.lg,
+    padding:         spacing.md,
+    maxHeight:       '70%',
+  },
+  modalHeader: {
+    flexDirection:  'row',
+    justifyContent: 'space-between',
+    alignItems:     'center',
+    marginBottom:   spacing.sm,
+  },
+  modalTitle: {
+    fontSize:   16,
+    fontFamily: 'Jost_400Regular',
+    color:      colors.textMid,
+  },
+  modalClose: {
+    fontSize:   16,
+    color:      colors.textMuted,
+    fontFamily: 'Jost_400Regular',
+  },
+  modalScroll: { flexGrow: 0 },
+  modalFreeBtn: {
+    marginTop:  spacing.sm,
+    alignItems: 'center',
   },
 
   // Suggestion rows (pick something to write about)

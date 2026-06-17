@@ -1155,6 +1155,18 @@ export const useAppStore = create<AppState & AppActions>()(
         const nextTag    = routeFeedTag(merged);
         const trackMoved = nextTag !== prevTag;
 
+        // Honest proof from reflection — not just from chat questions (Cameron's
+        // ask). Sitting down to write something true about your own life is real
+        // sincerity, and a longer, searching entry shows honest inquiry and hunger.
+        // Length-gated so a one-word entry earns nothing and the scale can't be
+        // farmed; small and one-directional (reflection is never penalized — it is
+        // the kind of honest doubt/grief the judge is told never to dock).
+        const words = text.trim().split(/\s+/).filter(Boolean).length;
+        const journalDeltas: Partial<TraitScores> =
+          words >= 25 ? { sincerity: 0.2, honest_inquiry: 0.15, hunger: 0.15 }
+          : words >= 6 ? { sincerity: 0.2 }
+          : {};
+
         set(s => ({
           journalEntries:    [entry, ...s.journalEntries],
           answeredPromptIds: [...s.answeredPromptIds, promptId],
@@ -1162,6 +1174,7 @@ export const useAppStore = create<AppState & AppActions>()(
           dialogueSignals:   merged,
           feedTag:           trackMoved ? nextTag : prevTag,
           feed:              trackMoved ? buildFeed(nextTag, seenIds) : prevFeed,
+          traitScores:       nudgeTraits(s.traitScores, journalDeltas),
           currentQuestion:   s.currentQuestion
             ?? computeNextQuestion(answeredQuestionIds, merged, openedIds.size),
         }));
@@ -2179,7 +2192,7 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
       },
     }),
     {
-      name: 'mbm-app-store-v6',
+      name: 'mbm-app-store-v7',
       storage: createJSONStorage(() => AsyncStorage),
       // Only persist meaningful user data — not ephemeral UI state
       partialize: (state): PersistedState => ({

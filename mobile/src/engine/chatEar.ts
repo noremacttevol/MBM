@@ -99,6 +99,13 @@ export const TRAIT_REPORT_INSTRUCTION =
   'at neutral out of caution — a judge who never moves the scale is no judge at all, and the ' +
   'person needs to feel honestly seen. Only truly flat, small-talk messages move nothing. ' +
   'Never invent movement the words do not support. If genuinely none, output <traits>none</traits>. ' +
+  'CRITICAL — do not reward talking ABOUT the score: if the person asks why a level is low, ' +
+  'complains that it is unfair, asks how to raise it, or is plainly fishing for points, that is ' +
+  'NOT by itself evidence of any virtue and must move nothing. Score only the heart their words ' +
+  'actually reveal about God, themselves, and others — never their reaction to being measured. ' +
+  'Reward real reflection on their own life and on what they are learning (the kind of thing a ' +
+  'person writes in a journal) every bit as much as a sharp question — a sincere, vulnerable, or ' +
+  'honest reflection is real proof, not just clever questions. ' +
   'This line is stripped before display; never mention it and never let it change your tone.';
 
 // Strip the <traits> report and return clamped, validated deltas.

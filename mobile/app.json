@@ -4,6 +4,13 @@
     "slug": "mbm",
     "version": "1.0.0",
     "orientation": "portrait",
+    "updates": {
+      "url": "https://u.expo.dev/0f5ca732-8dd3-4223-a715-8252870bf85d",
+      "fallbackToCacheTimeout": 0
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "splash": {

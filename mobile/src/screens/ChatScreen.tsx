@@ -407,7 +407,7 @@ const styles = StyleSheet.create({
   },
 
   bubble: {
-    maxWidth: '80%', borderRadius: radius.lg,
+    maxWidth: '90%', borderRadius: radius.lg,
     padding: spacing.sm + 4, marginBottom: spacing.sm,
   },
   bubbleUser: {
@@ -419,7 +419,7 @@ const styles = StyleSheet.create({
     borderWidth: 1, borderColor: colors.borderDim,
   },
   // Wraps an assistant bubble + its "Keep this →" link, kept left-aligned.
-  assistantBlock: { alignSelf: 'flex-start', maxWidth: '80%' },
+  assistantBlock: { alignSelf: 'flex-start', maxWidth: '90%' },
   keepRow: { paddingLeft: 4, marginTop: -2, marginBottom: spacing.sm },
 
   loadingBubble: { paddingVertical: spacing.md, paddingHorizontal: spacing.lg },
