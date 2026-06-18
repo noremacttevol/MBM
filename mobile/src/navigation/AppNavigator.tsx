@@ -13,6 +13,7 @@ import FeedScreen        from '../screens/FeedScreen';
 import JournalScreen     from '../screens/JournalScreen';
 import ChatScreen        from '../screens/ChatScreen';
 import ProfileScreen     from '../screens/ProfileScreen';
+import DiscipleshipScreen from '../screens/DiscipleshipScreen';
 import ErrorBoundary     from '../components/ErrorBoundary';
 import MilkBeforeMeatNote from '../components/MilkBeforeMeatNote';
 import { useAppStore }   from '../store/useAppStore';
@@ -38,14 +39,16 @@ const GuardedFeed        = guard(FeedScreen,        'Feed');
 const GuardedJournal     = guard(JournalScreen,     'Journal');
 const GuardedChat        = guard(ChatScreen,        'Chat');
 const GuardedProfile     = guard(ProfileScreen,     'Profile');
+const GuardedDiscipleship = guard(DiscipleshipScreen, 'Discipleship');
 
 // ── Type maps ────────────────────────────────────────────────────────────────
 
 export type RootStackParamList = {
-  Hook:        undefined;
-  Onboard:     undefined;
-  WelcomeBack: undefined;
-  Main:        undefined;
+  Hook:         undefined;
+  Onboard:      undefined;
+  WelcomeBack:  undefined;
+  Main:         undefined;
+  Discipleship: undefined;
 };
 
 export type MainTabParamList = {
@@ -161,6 +164,7 @@ export default function AppNavigator() {
         <Stack.Screen name="Onboard"     component={GuardedOnboard} />
         <Stack.Screen name="WelcomeBack" component={GuardedWelcomeBack} />
         <Stack.Screen name="Main"        component={MainTabs} />
+        <Stack.Screen name="Discipleship" component={GuardedDiscipleship} options={{ animation: 'slide_from_right', gestureEnabled: true }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

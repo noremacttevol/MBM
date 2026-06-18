@@ -5,12 +5,14 @@ import { CONTENT, ContentItem, FeedTag } from '../data/content';
 import {
   DialogueQuestion,
   TraitScores,
+  TraitKey,
   DEFAULT_TRAITS,
   TRAIT_MIN,
   TRAIT_MAX,
   computeNextQuestion,
   QUESTION_BANK,
 } from '../data/questionBank';
+import { QUALITY_BY_KEY } from '../data/examenPrompts';
 import {
   mayReferenceLds as engineMayReferenceLds,
   restorationReady as engineRestorationReady,
@@ -523,6 +525,102 @@ export async function generateBlessing(
   }
 }
 
+// ── "My Walk with Christ" narrative summary (members-only Discipleship tool) ──
+// Reads a faithful member's OWN recent discipleship reflections and writes a
+// short, warm, private narrative noticing where Christ has been at work in their
+// actual life. Grace-first, never a score, never guilt. Uses the same proxy /
+// direct fallback as the chat; if neither is reachable, composes a gentle offline
+// summary from the qualities they returned to most, so the feature still works
+// fully offline (member track is offline-first too).
+export interface ExamenDigestItem { qualityLabel: string; prompt: string; text: string }
+
+function offlineDiscipleshipSummary(items: ExamenDigestItem[]): string {
+  if (items.length === 0) {
+    return 'Your walk with Christ begins the moment you start noticing Him in the ordinary parts of your day. There is nothing to earn here — only to see. Whenever you are ready, write your first reflection above.';
+  }
+  // Which qualities did they return to most?
+  const counts: Record<string, number> = {};
+  items.forEach(i => { counts[i.qualityLabel] = (counts[i.qualityLabel] ?? 0) + 1; });
+  const top = Object.entries(counts).sort((a, b) => b[1] - a[1]).map(([q]) => q);
+  const focus = top.slice(0, 2);
+  const focusText =
+    focus.length >= 2 ? `${focus[0].toLowerCase()} and ${focus[1].toLowerCase()}`
+    : focus.length === 1 ? focus[0].toLowerCase()
+    : 'your walk with Him';
+  return (
+    `Across your last ${items.length} reflection${items.length === 1 ? '' : 's'}, you have kept returning to ${focusText}. ` +
+    `That returning is not a small thing — it is evidence of Christ at work in you, drawing your attention back to what matters most. ` +
+    `"Being confident of this very thing, that he which hath begun a good work in you will perform it" (Philippians 1:6). ` +
+    `Keep walking; small faithfulness is still faithfulness, and He is not finished with you.`
+  );
+}
+
+export async function generateDiscipleshipSummary(
+  items: ExamenDigestItem[],
+): Promise<string> {
+  const useProxy = !!MBM_API_URL;
+  if (!useProxy && !ANTHROPIC_API_KEY) return offlineDiscipleshipSummary(items);
+  if (items.length === 0) return offlineDiscipleshipSummary(items);
+
+  const system =
+    'You are a disciple of Jesus writing a short, private, warm reflection back to a ' +
+    'faithful member about THEIR OWN discipleship journal over recent weeks. This is the ' +
+    '"My Walk with Christ" summary inside a members-only tool. Read what they actually ' +
+    'wrote and notice, with grace, the patterns of Christ at work in their real life — ' +
+    'growing compassion, honest repentance, courage, hunger for Him, whatever is truly ' +
+    'there. Speak straight to them as "you".\n\n' +
+    'RULES: 2 to 4 sentences. Grace-first always — celebrate effort and repentance as much ' +
+    'as consistency. NO numbers, NO scores, NO grading, NO ranking, NO guilt, NO streaks, ' +
+    'NO comparison to anyone or to an ideal. You MAY weave in ONE fitting scripture (KJV ' +
+    'wording) if it genuinely matches what you saw — never forced. Name the real good you ' +
+    'see, and gently point to one pattern of grace they might lean into next. Warm, ' +
+    'personal, unrehearsed. Output ONLY the reflection — no preamble, no heading, no quotes.';
+
+  const digest = items.slice(-24)
+    .map(i => `(${i.qualityLabel}) "${(i.text || '').replace(/\s+/g, ' ').trim().slice(0, 200)}"`)
+    .join('\n');
+  const userText = 'Here are my recent reflections, each tagged with the quality it was about:\n' + digest;
+
+  try {
+    let raw = '';
+    if (useProxy) {
+      const r = await fetch(`${MBM_API_URL}/api/chat`, {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ system, messages: [{ role: 'user', content: userText }], max_tokens: 320 }),
+      });
+      if (!r.ok) return offlineDiscipleshipSummary(items);
+      const d = await r.json();
+      raw = typeof d?.text === 'string' ? d.text : '';
+    } else {
+      const r = await fetch(ANTHROPIC_URL, {
+        method: 'POST',
+        headers: {
+          'content-type': 'application/json',
+          'x-api-key': ANTHROPIC_API_KEY,
+          'anthropic-version': ANTHROPIC_VERSION,
+          'anthropic-dangerous-direct-browser-access': 'true',
+        },
+        body: JSON.stringify({
+          model: ANTHROPIC_MODEL,
+          max_tokens: 320,
+          system,
+          messages: [{ role: 'user', content: userText }],
+        }),
+      });
+      if (!r.ok) return offlineDiscipleshipSummary(items);
+      const d = await r.json();
+      raw = Array.isArray(d?.content)
+        ? d.content.filter((b: any) => b?.type === 'text').map((b: any) => b?.text ?? '').join('')
+        : '';
+    }
+    const cleaned = (raw || '').trim().replace(/^["'“”\s]+|["'“”\s]+$/g, '').trim();
+    return cleaned || offlineDiscipleshipSummary(items);
+  } catch {
+    return offlineDiscipleshipSummary(items);
+  }
+}
+
 // ── Note summaries — a short, honest "what you can take from this" ───────────
 // When a person keeps a note, the app reads the source and writes ONE or TWO
 // plain sentences naming what is worth remembering. Never flowery, never a
@@ -721,6 +819,26 @@ function identityWordFromTokens(tokens: string[]): FaithWord | null {
 
 // ── State shape ──────────────────────────────────────────────────────────────
 
+// ── My Discipleship (members-only "Walk with Christ" companion) ──────────────
+// A private examen/reflection tool, opt-in, fully decoupled from feed/routing/
+// readiness. Numbers never appear; fruitRatings are the MEMBER's OWN self-ratings,
+// shown only to them, hideable. Nothing here ever feeds the seeker flow.
+export interface ExamenEntry {
+  id:       string;
+  ts:       number;
+  quality:  TraitKey;      // which Christlike quality the prompt was about (varies prompts)
+  prompt:   string;        // the examen question they reflected on
+  text:     string;        // their reflection, in their own words
+  blessing?: string;       // a short personal blessing spoken back over what they wrote
+}
+export interface RuleItem {
+  id:        string;
+  ts:        number;
+  text:      string;       // a personal rhythm, e.g. "daily honest prayer"
+  quality?:  TraitKey;     // optionally tied to one of the seven
+  doneDates: string[];     // YYYY-MM-DD marks — gentle, no punishing streaks
+}
+
 interface AppState {
   // Session
   onboardingComplete: boolean;
@@ -748,6 +866,15 @@ interface AppState {
   // ever lets restoration-tagged content into the feed (on top of the readiness
   // signals). The Minister AI asks; the person answers; this records their choice.
   restorationConsent:  RestorationConsent;
+
+  // My Discipleship (members-only). All opt-in, all private, never wired to routing.
+  discipleshipEnabled:        boolean;
+  examenEntries:              ExamenEntry[];
+  fruitRatings:               Partial<Record<TraitKey, number>>; // member's OWN 0–5 self-ratings
+  fruitGardenHidden:          boolean;
+  ruleItems:                  RuleItem[];
+  discipleshipSummary:        { text: string; ts: number } | null;
+  discipleshipSummaryLoading: boolean;
 
   // Journal
   journalEntries:      JournalEntry[];
@@ -823,6 +950,17 @@ interface AppActions {
   goDeeper:            () => void;
   grantRestorationConsent:   () => void;
   declineRestorationConsent: () => void;
+  // My Discipleship (members-only)
+  enableDiscipleship:        () => void;
+  disableDiscipleship:       () => void;
+  addExamenReflection:       (quality: TraitKey, prompt: string, text: string) => Promise<void>;
+  deleteExamenEntry:         (id: string) => void;
+  setFruitRating:            (quality: TraitKey, value: number) => void;
+  toggleFruitGarden:         () => void;
+  addRuleItem:               (text: string, quality?: TraitKey) => void;
+  removeRuleItem:            (id: string) => void;
+  toggleRuleDoneToday:       (id: string) => void;
+  refreshDiscipleshipSummary: () => Promise<void>;
   refreshFeed:         () => void;
   resetSession:        () => void;
   answerQuestion:      (questionId: number, answerValue: string, answerText?: string) => void;
@@ -901,6 +1039,13 @@ const initialState: AppState = {
   traitScores:         { ...DEFAULT_TRAITS },
   currentQuestion:     null,
   restorationConsent:  'unknown',
+  discipleshipEnabled:        false,
+  examenEntries:              [],
+  fruitRatings:               {},
+  fruitGardenHidden:          false,
+  ruleItems:                  [],
+  discipleshipSummary:        null,
+  discipleshipSummaryLoading: false,
   journalEntries:      [],
   answeredPromptIds:   [],
   learnedNotes:        [],
@@ -932,7 +1077,8 @@ const initialState: AppState = {
 
 type PersistedState = Omit<AppState,
   'seenIds' | 'openedIds' | 'chatLoading' | 'conversationId' | 'blessing'
-  | 'inboxMessages' | 'inboxLoading' | 'inboxUnread' | 'activeRealThreadId' | 'pendingNoteId'> & {
+  | 'inboxMessages' | 'inboxLoading' | 'inboxUnread' | 'activeRealThreadId' | 'pendingNoteId'
+  | 'discipleshipSummaryLoading'> & {
   conversationId: string;
   seenIds:   number[];
   openedIds: number[];
@@ -981,6 +1127,13 @@ export const useAppStore = create<AppState & AppActions>()(
           traitScores:         { ...DEFAULT_TRAITS },
           currentQuestion,
           restorationConsent:  'unknown',
+          discipleshipEnabled:        false,
+          examenEntries:              [],
+          fruitRatings:               {},
+          fruitGardenHidden:          false,
+          ruleItems:                  [],
+          discipleshipSummary:        null,
+          discipleshipSummaryLoading: false,
           journalEntries:      [],
           answeredPromptIds:   [],
           learnedNotes:        [],
@@ -1090,6 +1243,85 @@ export const useAppStore = create<AppState & AppActions>()(
         // unless THEY reopen the door. Keep them gently on the milk track.
         setRestorationConsentGranted(false);
         set({ restorationConsent: 'declined' });
+      },
+
+      // ── My Discipleship (members-only "Walk with Christ") ──────────────────
+      enableDiscipleship() { set({ discipleshipEnabled: true }); },
+      disableDiscipleship() { set({ discipleshipEnabled: false }); },
+
+      async addExamenReflection(quality, prompt, text) {
+        const clean = (text || '').trim();
+        if (!clean) return;
+        const id = generateId();
+        const ts = Date.now();
+        // Save the reflection immediately so nothing is lost if the blessing call
+        // fails or the device is offline.
+        set(s => ({ examenEntries: [{ id, ts, quality, prompt, text: clean }, ...s.examenEntries] }));
+        // Speak a short, personal blessing over what they wrote (reuses the same
+        // grace-or-silence disciple voice as the journal). Offline → no blessing,
+        // and that is fine; the reflection still stands.
+        try {
+          const line = await generateBlessing('journal', clean, get().blessingHistory);
+          if (line) {
+            set(s => ({
+              examenEntries:   s.examenEntries.map(e => e.id === id ? { ...e, blessing: line } : e),
+              blessingHistory: [...s.blessingHistory, line].slice(-80),
+            }));
+          }
+        } catch { /* a missing blessing never breaks a saved reflection */ }
+      },
+
+      deleteExamenEntry(id) {
+        set(s => ({ examenEntries: s.examenEntries.filter(e => e.id !== id) }));
+      },
+
+      // The member's OWN self-rating (0–5) of how much they've been living a
+      // quality lately. NEVER an AI score — purely their reflection, shown only to
+      // them. Tapping the same value again clears it (toggle off).
+      setFruitRating(quality, value) {
+        set(s => {
+          const next = { ...s.fruitRatings };
+          if (next[quality] === value) delete next[quality];
+          else next[quality] = value;
+          return { fruitRatings: next };
+        });
+      },
+
+      toggleFruitGarden() { set(s => ({ fruitGardenHidden: !s.fruitGardenHidden })); },
+
+      addRuleItem(text, quality) {
+        const clean = (text || '').trim();
+        if (!clean) return;
+        set(s => ({
+          ruleItems: [...s.ruleItems, { id: generateId(), ts: Date.now(), text: clean, quality, doneDates: [] }],
+        }));
+      },
+
+      removeRuleItem(id) {
+        set(s => ({ ruleItems: s.ruleItems.filter(r => r.id !== id) }));
+      },
+
+      // Gentle, non-punishing: mark today done, or un-mark it. We keep dates, never
+      // a streak that shames a missed day.
+      toggleRuleDoneToday(id) {
+        const today = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+        set(s => ({
+          ruleItems: s.ruleItems.map(r => {
+            if (r.id !== id) return r;
+            const has = r.doneDates.includes(today);
+            return { ...r, doneDates: has ? r.doneDates.filter(d => d !== today) : [...r.doneDates, today] };
+          }),
+        }));
+      },
+
+      async refreshDiscipleshipSummary() {
+        const { examenEntries } = get();
+        set({ discipleshipSummaryLoading: true });
+        const items: ExamenDigestItem[] = examenEntries
+          .slice(0, 24)
+          .map(e => ({ qualityLabel: QUALITY_BY_KEY[e.quality]?.label ?? 'Discipleship', prompt: e.prompt, text: e.text }));
+        const text = await generateDiscipleshipSummary(items);
+        set({ discipleshipSummary: { text, ts: Date.now() }, discipleshipSummaryLoading: false });
       },
 
       refreshFeed() {
@@ -2317,6 +2549,12 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
         traitScores:         state.traitScores,
         currentQuestion:     state.currentQuestion,
         restorationConsent:  state.restorationConsent,
+        discipleshipEnabled: state.discipleshipEnabled,
+        examenEntries:       state.examenEntries,
+        fruitRatings:        state.fruitRatings,
+        fruitGardenHidden:   state.fruitGardenHidden,
+        ruleItems:           state.ruleItems,
+        discipleshipSummary: state.discipleshipSummary,
         journalEntries:      state.journalEntries,
         answeredPromptIds:   state.answeredPromptIds,
         learnedNotes:        state.learnedNotes,

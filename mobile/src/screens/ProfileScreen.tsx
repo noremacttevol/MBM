@@ -396,6 +396,22 @@ export default function ProfileScreen() {
           </View>
         )}
 
+        {/* ── MY DISCIPLESHIP (members only) — the private "Walk with Christ" ── */}
+        {showVirtues && (
+          <TouchableOpacity
+            style={[styles.card, styles.discipleCard]}
+            activeOpacity={0.85}
+            onPress={() => navigation.navigate('Discipleship')}
+          >
+            <Text style={styles.sectionLabel}>MY DISCIPLESHIP</Text>
+            <Text style={styles.discipleTitle}>Your walk with Christ →</Text>
+            <Text style={styles.sectionNote}>
+              A private companion for noticing how Christ is at work in your life — daily
+              examen, a record of your walk, and a few personal rhythms. Just for you.
+            </Text>
+          </TouchableOpacity>
+        )}
+
         {/* ── WHAT'S GROWING IN YOU (members only) ──────────────────────
             Shown ONLY to self-identified Latter-day Saints. For a member this
             is a chosen discipleship striving tool ("celestial 10/10"). Seekers
@@ -530,6 +546,15 @@ const styles = StyleSheet.create({
     color:         colors.textMuted,
     fontFamily:    'Jost_400Regular',
     marginBottom:  spacing.sm,
+  },
+  discipleCard: {
+    borderColor: colors.gold,
+  },
+  discipleTitle: {
+    fontSize:     17,
+    fontFamily:   'Jost_400Regular',
+    color:        colors.gold,
+    marginBottom: 6,
   },
   sectionNote: {
     fontSize:     11,
