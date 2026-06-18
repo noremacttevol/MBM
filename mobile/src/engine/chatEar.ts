@@ -44,6 +44,34 @@ export function identityOnly(signals: string[]): string[] {
   return signals.filter(s => IDENTITY_SIGNALS.has(s));
 }
 
+// CRISIS DETECTION — a deliberately careful, high-precision check for language of
+// severe distress / self-harm / suicidal ideation / acute crisis. Used ONLY to
+// mark an escalation to the admin team as high-priority so a real person triages
+// it first; it never changes what the user sees and never diagnoses. We keep it
+// tight (clear phrases, not single ambiguous words) to avoid false alarms — a
+// person merely saying "I'm tired" or "this is killing me [funny]" must not trip
+// it. Err toward precision; the Minister prompt's crisis rule handles nuance live.
+const CRISIS_PATTERNS: RegExp[] = [
+  /\bkill (?:myself|me)\b/,
+  /\b(?:end|ending|take) (?:my|my own) life\b/,
+  /\bend it all\b/,
+  /\bwant to die\b/,
+  /\bdon'?t want to (?:be here|live|wake up|exist)\b/,
+  /\bbetter off (?:dead|without me)\b/,
+  /\bsuicid/,                                  // suicide, suicidal
+  /\bself[-\s]?harm\b/,
+  /\b(?:cut|cutting|hurt|hurting) myself\b/,
+  /\bno (?:reason|point) (?:to|in) (?:living|going on|carry on)\b/,
+  /\bcan'?t (?:go on|do this anymore|take (?:it|this) anymore)\b/,
+  /\bnothing (?:left|to live for)\b/,
+  /\bgive up on (?:life|everything)\b/,
+];
+export function detectCrisis(text: string): boolean {
+  if (!text) return false;
+  const t = text.toLowerCase();
+  return CRISIS_PATTERNS.some(re => re.test(t));
+}
+
 export const SIGNAL_REPORT_INSTRUCTION =
   '\n\n[SIGNAL REPORT — system instruction. The person never sees this.]\n' +
   'After your reply, on its own final line, output <signals>token,token</signals> ' +

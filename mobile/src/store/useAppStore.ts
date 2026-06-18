@@ -27,6 +27,7 @@ import {
   stripTraitReport,
   stripIdentity,
   identityOnly,
+  detectCrisis,
   SIGNAL_REPORT_INSTRUCTION,
   TRAIT_REPORT_INSTRUCTION,
   FAITH_ID_RE,
@@ -841,7 +842,7 @@ interface AppActions {
   openChat:            (id: string) => void;
   submitConnectRequest: (note: string) => void;
   // Two-way human inbox (now multi-thread)
-  sendConnectMessage:  (note: string, excerpt?: string) => Promise<void>;
+  sendConnectMessage:  (note: string, excerpt?: string, priority?: string) => Promise<void>;
   // Start a brand-new, separate conversation with a real person. Returns its id.
   newRealPersonThread: () => string;
   // Open one of the existing real-person conversations from the history list.
@@ -1449,9 +1450,12 @@ export const useAppStore = create<AppState & AppActions>()(
       // a conversation carries its title, so the history list reads like topics.
       // If the cloud isn't configured or is unreachable, the on-device queue still
       // holds it — the promise stays honest.
-      async sendConnectMessage(note, excerpt) {
+      async sendConnectMessage(note, excerpt, priority) {
         const state = get();
         const stage = assessJourney(state.dialogueSignals);
+        // Auto-flag crisis from the note itself if the caller didn't already — this
+        // covers a person writing the admin team directly with distress language.
+        const pri = priority ?? (detectCrisis(note) ? 'crisis' : undefined);
         // Always keep the local record (offline-safe).
         get().submitConnectRequest(note);
         if (!isMessagingConfigured) return;
@@ -1474,6 +1478,7 @@ export const useAppStore = create<AppState & AppActions>()(
           threadTitle,
           excerpt,
           journeyStage: stage,
+          priority: pri,
         });
         if (saved) {
           set(s => ({
@@ -1521,10 +1526,15 @@ export const useAppStore = create<AppState & AppActions>()(
           (lastUser ? `I was talking with the app and asked:\n"${lastUser.text}"\n\n` : '') +
           (lastAI ? `The app answered:\n"${lastAI.text}"\n\n` : '') +
           `I'd love a real person's thoughts on this.`;
+        // Crisis triage: if anything the PERSON said in this conversation carries
+        // severe-distress / self-harm language, mark this escalation high-priority so
+        // the admin team sees and reaches out first. (Only the person's own words are
+        // checked — never the AI's reply.)
+        const crisis = msgs.some(m => m.role === 'user' && detectCrisis(m.text));
         // Each escalation is its own conversation, titled from the person's question.
         get().newRealPersonThread();
         // The excerpt carries the AI's answer so the human sees the context at a glance.
-        await get().sendConnectMessage(note, lastAI?.text);
+        await get().sendConnectMessage(note, lastAI?.text, crisis ? 'crisis' : undefined);
         return true;
       },
 

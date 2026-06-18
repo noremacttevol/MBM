@@ -44,6 +44,9 @@ export interface InboxMessage {
   body:          string;
   excerpt:       string | null;
   journey_stage: string | null;
+  // 'crisis' marks an escalation where the person showed severe distress / crisis
+  // language, so the admin team can triage it first. Null/absent = normal.
+  priority:      string | null;
   created_at:    string;
   read_by_admin: boolean;
   read_by_user:  boolean;
@@ -62,6 +65,8 @@ export interface SendOptions {
   threadTitle?: string;
   excerpt?:     string;
   journeyStage?: string;
+  // 'crisis' when the conversation showed severe distress, so admin triages first.
+  priority?:    string;
 }
 
 // Turn a Firestore document into the snake_case shape the app expects. A freshly
@@ -84,6 +89,7 @@ function toInboxMessage(
     body:          d.body ?? '',
     excerpt:       d.excerpt ?? null,
     journey_stage: d.journeyStage ?? null,
+    priority:      d.priority ?? null,
     created_at:    created,
     read_by_admin: !!d.readByAdmin,
     read_by_user:  !!d.readByUser,
@@ -113,6 +119,7 @@ export async function sendMessage(
       body:         clean,
       excerpt:      opts.excerpt?.trim() || null,
       journeyStage: opts.journeyStage ?? null,
+      priority:     opts.priority ?? null,
       createdAt:    serverTimestamp(),
       readByAdmin:  false,
       readByUser:   true, // the person has, by definition, seen their own note
@@ -126,6 +133,7 @@ export async function sendMessage(
       body:          clean,
       excerpt:       opts.excerpt?.trim() || null,
       journey_stage: opts.journeyStage ?? null,
+      priority:      opts.priority ?? null,
       created_at:    new Date().toISOString(),
       read_by_admin: false,
       read_by_user:  true,

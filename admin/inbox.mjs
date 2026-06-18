@@ -96,6 +96,7 @@ function mapDoc(doc) {
     body:          d.body ?? '',
     excerpt:       d.excerpt ?? null,
     journey_stage: d.journeyStage ?? null,
+    priority:      d.priority ?? null,
     responder_name: d.responderName ?? null,
     created_at:    isoOf(d.createdAt),
     read_by_admin: !!d.readByAdmin,
@@ -166,12 +167,14 @@ async function listThreads() {
   for (const m of msgs) {
     const key = keyOf(m.user_id, m.thread_id);
     if (!byKey.has(key)) {
-      byKey.set(key, { key, uid: m.user_id, threadId: m.thread_id, messages: [], unread: 0, stage: null });
+      byKey.set(key, { key, uid: m.user_id, threadId: m.thread_id, messages: [], unread: 0, stage: null, crisis: false });
     }
     const t = byKey.get(key);
     t.messages.push(m);
     if (m.sender === 'user' && !m.read_by_admin) t.unread += 1;
     if (m.sender === 'user' && m.journey_stage) t.stage = m.journey_stage;
+    // A single crisis-flagged message marks the whole conversation for first triage.
+    if (m.sender === 'user' && m.priority === 'crisis') t.crisis = true;
   }
   const threads = [...byKey.values()].map(t => {
     const last = t.messages[t.messages.length - 1];
@@ -184,6 +187,7 @@ async function listThreads() {
       title:            titleOf(t.messages),
       unread:           t.unread,
       stage:            t.stage,
+      crisis:           t.crisis,
       count:            t.messages.length,
       status,
       status_label:     STATUS_LABEL[status] ?? status,
@@ -191,9 +195,11 @@ async function listThreads() {
       last: last ? { body: last.body, sender: last.sender, created_at: last.created_at } : null,
     };
   });
-  // Needs-reply rises to the top; within each group, newest activity first.
+  // Crisis-flagged conversations rise above everything; then needs-reply; within
+  // each group, newest activity first.
   const rank = s => (s === 'needs_reply' ? 0 : s === 'answered' ? 1 : 2);
   threads.sort((a, b) => {
+    if (a.crisis !== b.crisis) return a.crisis ? -1 : 1;
     const r = rank(a.status) - rank(b.status);
     if (r !== 0) return r;
     return (b.last?.created_at ?? '').localeCompare(a.last?.created_at ?? '');
@@ -392,6 +398,9 @@ const PAGE = `<!doctype html>
   .badge.needs_reply{color:#0a0f0a;background:var(--amber);border-color:var(--amber);}
   .badge.answered{color:var(--green);}
   .badge.handled{color:var(--muted);}
+  .t.crisis{border-left:3px solid #e5484d;}
+  .crisisbadge{font-size:10px;font-weight:700;color:#fff;background:#e5484d;
+         padding:1px 6px;border-radius:8px;letter-spacing:.5px;}
   #right{flex:1;display:flex;flex-direction:column;}
   #ctx{padding:12px 20px;border-bottom:1px solid var(--border);display:none;
        align-items:center;justify-content:space-between;gap:12px;}
@@ -486,9 +495,9 @@ const PAGE = `<!doctype html>
       return;
     }
     box.innerHTML = view.map(t => \`
-      <div class="t \${t.key===current?'active':''}" onclick="openThread('\${esc(t.key)}')">
+      <div class="t \${t.key===current?'active':''} \${t.crisis?'crisis':''}" onclick="openThread('\${esc(t.key)}')">
         <div class="who">
-          <span class="stage">\${esc(t.stage||'')}</span>
+          <span class="stage">\${t.crisis?'<span class="crisisbadge">⚠ CRISIS</span> ':''}\${esc(t.stage||'')}</span>
           <span style="display:flex;gap:6px;align-items:center;">
             \${t.unread?'<span class="dot">'+t.unread+'</span>':''}
             <span class="badge \${t.status}">\${esc(t.status_label||'')}</span>
