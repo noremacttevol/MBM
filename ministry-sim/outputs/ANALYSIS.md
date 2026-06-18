@@ -1,10 +1,10 @@
 # Ministry-Sim Analysis Report
 
-Total trials analyzed: 740
+Total trials analyzed: 749
 
 ## Key Findings
 
-- **Faithful rate**: 99.2%
+- **Faithful rate**: 99.1%
 - **Most common situation**: readiness_good_god
 - **Best situation**: grief_pain (100.0% faithful)
 

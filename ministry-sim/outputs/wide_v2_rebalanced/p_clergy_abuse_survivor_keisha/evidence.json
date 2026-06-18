@@ -1,0 +1,8 @@
+{
+  "grief_pain": {
+    "PRESENCE": {
+      "good": 0,
+      "bad": 1
+    }
+  }
+}

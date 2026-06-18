@@ -1,0 +1,14 @@
+{
+  "analytical_debate": {
+    "COMPARISON": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "grief_pain": {
+    "PRESENCE": {
+      "good": 1,
+      "bad": 0
+    }
+  }
+}

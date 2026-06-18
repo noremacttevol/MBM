@@ -8,6 +8,7 @@ import {
   Dimensions,
 } from 'react-native';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
 import { StatusBar } from 'expo-status-bar';
 import { RootStackParamList } from '../navigation/AppNavigator';
@@ -18,6 +19,10 @@ type Props = NativeStackScreenProps<RootStackParamList, 'Hook'>;
 const { width } = Dimensions.get('window');
 
 export default function HookScreen({ navigation }: Props) {
+  // Real device insets — so the honest-word footer clears the Android
+  // home/back gesture bar instead of overlapping it.
+  const insets = useSafeAreaInsets();
+
   // ── Animation refs ────────────────────────────────────────────────────────
   const stoneTranslateX = useRef(new Animated.Value(0)).current;
   const stoneRotate     = useRef(new Animated.Value(0)).current;
@@ -185,7 +190,7 @@ export default function HookScreen({ navigation }: Props) {
           answer prayers... it is not God and cannot be God." What stirs here is a
           spiritual exercise to take to God and to people who love you — and to let
           the Spirit, not an app, confirm as true. */}
-      <Animated.Text style={[styles.footerText, { opacity: footerOpacity }]}>
+      <Animated.Text style={[styles.footerText, { opacity: footerOpacity, bottom: insets.bottom + 28 }]}>
         This app is not God. It cannot answer a prayer or know you the way Jesus
         does — it can only point you toward Him. Take what you feel here to God and
         to people who love you, and let the Spirit, not an app, tell you what is true.

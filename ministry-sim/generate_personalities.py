@@ -197,7 +197,9 @@ def main():
     args = ap.parse_args()
 
     client = anthropic.Anthropic(api_key=load_api_key())
-    categories = CATEGORIES[: max(1, min(args.batches, len(CATEGORIES)))]
+    all_categories = CATEGORIES[: max(1, min(args.batches, len(CATEGORIES)))]
+    # --start-batch skips already-generated categories by index (1-based)
+    categories = all_categories[args.start_batch - 1:]
 
     # Resume: if the output file already holds personas, keep them and add to them.
     all_personas = []
@@ -215,11 +217,8 @@ def main():
         except Exception as e:
             print(f"Could not read existing pool ({e}); starting fresh.")
 
-    for i, category in enumerate(categories, 1):
-        if i < args.start_batch:
-            print(f"Skipping batch {i}/{len(categories)} (already generated)")
-            continue
-        print(f"Generating batch {i}/{len(categories)} (temp={args.temperature}): {category[:60]}...")
+    for i, category in enumerate(categories, args.start_batch):
+        print(f"Generating batch {i}/{len(all_categories)} (temp={args.temperature}): {category[:60]}...")
         batch = generate_persona_batch(
             client, category, args.per_batch, args.temperature, args.model
         )

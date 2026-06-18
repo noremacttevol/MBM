@@ -1,0 +1,36 @@
+{
+  "analytical_debate": {
+    "COMPARISON": {
+      "good": 1,
+      "bad": 0
+    },
+    "HONEST_EVIDENCE": {
+      "good": 2,
+      "bad": 0
+    }
+  },
+  "readiness_good_god": {
+    "GENTLE_EXPLORE": {
+      "good": 1,
+      "bad": 0
+    },
+    "COMPARISON": {
+      "good": 2,
+      "bad": 0
+    },
+    "HONEST_EVIDENCE": {
+      "good": 1,
+      "bad": 0
+    },
+    "PRESENCE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "grief_pain": {
+    "PRESENCE": {
+      "good": 2,
+      "bad": 0
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "analytical_debate": {
+    "COMPARISON": {
+      "good": 1,
+      "bad": 0
+    },
+    "HONEST_EVIDENCE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "readiness_revelation": {
+    "GENTLE_EXPLORE": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "readiness_good_god": {
+    "GENTLE_EXPLORE": {
+      "good": 1,
+      "bad": 0
+    },
+    "HONOR_AND_RELEASE": {
+      "good": 1,
+      "bad": 0
+    },
+    "COMPARISON": {
+      "good": 1,
+      "bad": 0
+    }
+  },
+  "grief_pain": {
+    "HONOR_AND_RELEASE": {
+      "good": 1,
+      "bad": 0
+    },
+    "COMPARISON": {
+      "good": 2,
+      "bad": 0
+    }
+  },
+  "anger_betrayal": {
+    "GENTLE_EXPLORE": {
+      "good": 1,
+      "bad": 0
+    }
+  }
+}

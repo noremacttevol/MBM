@@ -288,7 +288,7 @@ def run_judge(client, persona, transcript: str, judge_model: str) -> Dict:
 
 def append_trial(out_dir: str, persona, convo, scorecard: Dict,
                  situation: str, approach: str, outcome: str, models: Dict,
-                 connection: Dict = None, handoff: Dict = None) -> str:
+                 seed: int = None, connection: Dict = None, handoff: Dict = None) -> str:
     """
     Append ONE trial as a single JSON line to trials.jsonl. This file is never
     overwritten, only grown — so any number of test runs (including many from Hermes)
@@ -298,6 +298,7 @@ def append_trial(out_dir: str, persona, convo, scorecard: Dict,
     path = os.path.join(out_dir, "trials.jsonl")
     record = {
         "ts": datetime.datetime.now().isoformat(timespec="seconds"),
+        "seed": seed,
         "persona_id": persona.id,
         "persona_label": persona.label,
         "tradition": persona.tradition,
@@ -510,7 +511,7 @@ def main():
             # missionary link if ready, else notify the MBM admin to step in / verify.
             handoff = co.resolve_handoff(profile, last_seeker, last_minister).to_dict()
             append_trial(args.out, persona, convo, scorecard, situation, approach, outcome,
-                         models, connection, handoff)
+                         models, args.seed or 1, connection, handoff)
             print(f"        learned> situation='{situation}' approach={approach} "
                   f"outcome={outcome}", flush=True)
             print(f"        journey> stage={connection['journey_stage']} "

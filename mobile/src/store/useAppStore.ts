@@ -110,11 +110,41 @@ function inferTagFromText(text: string): FeedTag {
 
 // ── Feed helpers ─────────────────────────────────────────────────────────────
 
+// Fair shuffle (Fisher–Yates) — an even mix, no bias from sort-comparator tricks.
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// The pool a track draws from — the milk/meat standard. Meat-ready tracks (a
+// member, or someone the restored gospel has been opened to) see the FULL table:
+// the 100 milk AND the 100 meat (200 in all). Everyone else sees the 100 milk.
+// Legacy tags map onto the two tracks: MILK/BRIDGE -> milk; RESTORATION/
+// MAINTENANCE -> milk + meat.
+function poolForTag(tag: FeedTag): ContentItem[] {
+  const milk = CONTENT.filter(c => c.track === 'MILK');
+  const meat = CONTENT.filter(c => c.track === 'MEAT');
+  const meatReady = tag === 'MAINTENANCE' || tag === 'RESTORATION';
+  // Fallback: if track isn't set on any item (older data), use the legacy tag pool
+  // so the feed is never empty.
+  if (milk.length === 0 && meat.length === 0) return CONTENT.filter(c => c.tag === tag);
+  return meatReady ? [...milk, ...meat] : milk;
+}
+
+// Draw the next 5 cards. THE HARD RULE (Cameron's standard): never show an item
+// the person has already seen until they have seen them ALL. Only once every item
+// in the pool has been seen does a fresh cycle begin. 'seenIds' holds everything
+// already shown; callers fold the shown page into it (see refreshFeed/markOpened).
 function buildFeed(tag: FeedTag, seenIds: Set<number>): ContentItem[] {
-  const pool   = CONTENT.filter(c => c.tag === tag);
+  const pool   = poolForTag(tag);
   const unseen = pool.filter(c => !seenIds.has(c.id));
-  const source = unseen.length >= 5 ? unseen : pool;
-  return [...source].sort(() => Math.random() - 0.5).slice(0, 5);
+  // Exhausted -> begin a new cycle from the whole pool; otherwise only the unseen.
+  const source = unseen.length > 0 ? unseen : pool;
+  return shuffle(source).slice(0, 5);
 }
 
 // User-initiated "show me something more substantive" — a preference, not a gate.
@@ -1011,11 +1041,15 @@ export const useAppStore = create<AppState & AppActions>()(
       },
 
       refreshFeed() {
-        // "Show me more →" — rebuild WITHIN the current track only. Never a gate,
-        // never a jump: the same kind of content, freshly drawn. Routing stays
-        // invisible and obeys the milk law because the track does not change.
-        const { feedTag, seenIds } = get();
-        set({ feed: buildFeed(feedTag, seenIds) });
+        // "Show me more →" — advance to the NEXT five. The current page is folded
+        // into seenIds first, so the next draw is always brand-new content until
+        // the whole track is exhausted (then a fresh cycle begins). This is what
+        // makes "scroll and never see the same one twice until you've seen them
+        // all" true. Stays within the current track — never a gate, never a jump.
+        const { feedTag, seenIds, feed } = get();
+        const shown = new Set(seenIds);
+        feed.forEach(c => shown.add(c.id));
+        set({ seenIds: shown, feed: buildFeed(feedTag, shown) });
       },
 
       resetSession() {
