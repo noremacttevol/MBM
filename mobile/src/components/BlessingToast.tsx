@@ -104,7 +104,7 @@ export default function BlessingToast() {
             <Text style={styles.hint}>swipe or tap to close</Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={finishRight} hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}>
-            <Text style={styles.hint}>talk about it →</Text>
+            <Text style={styles.hint}>Talk About It →</Text>
           </TouchableOpacity>
         </View>
       </Animated.View>

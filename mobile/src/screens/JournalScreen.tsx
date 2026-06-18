@@ -390,7 +390,7 @@ export default function JournalScreen() {
                       {open && (
                         <View style={styles.entryActions}>
                           <TouchableOpacity activeOpacity={0.7} onPress={() => talkAbout(note.body || note.summary || note.title)}>
-                            <Text style={styles.talkLink}>Talk about it →</Text>
+                            <Text style={styles.talkLink}>Talk About It →</Text>
                           </TouchableOpacity>
                           <TouchableOpacity activeOpacity={0.7} onPress={() => confirmDelete('note', () => deleteNote(note.id))}>
                             <Text style={styles.deleteLink}>Delete</Text>
@@ -465,7 +465,7 @@ export default function JournalScreen() {
                           <Text style={styles.entryText}>{entry.text}</Text>
                           <View style={styles.entryActions}>
                             <TouchableOpacity activeOpacity={0.7} onPress={() => talkAboutEntry(entry.promptText, entry.text)}>
-                              <Text style={styles.talkLink}>Talk about it →</Text>
+                              <Text style={styles.talkLink}>Talk About It →</Text>
                             </TouchableOpacity>
                             <TouchableOpacity activeOpacity={0.7} onPress={() => { setEditingEntryId(entry.id); setEditEntryDraft(entry.text); }}>
                               <Text style={styles.editLink}>Edit</Text>

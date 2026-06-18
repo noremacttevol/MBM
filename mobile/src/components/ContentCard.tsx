@@ -8,7 +8,6 @@ import {
   StyleSheet,
   Alert,
 } from 'react-native';
-import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import { ContentItem } from '../data/content';
 import { kjvVersesFor } from '../data/kjvText';
@@ -29,19 +28,15 @@ import { colors, spacing, radius } from '../theme';
 const VERSE_PREVIEW = 6; // collapse long milk passages to this many verses first
 
 interface Props {
-  item:       ContentItem;
-  onThumbsUp: (id: number) => void;
-  onBookmark: (id: number) => void;
+  item: ContentItem;
 }
 
-export default function ContentCard({ item, onThumbsUp, onBookmark }: Props) {
+export default function ContentCard({ item }: Props) {
   const markOpened       = useAppStore(s => s.markOpened);
   const reflectOnContent = useAppStore(s => s.reflectOnContent);
   const prefillChat      = useAppStore(s => s.prefillChat);
   const navigation       = useNavigation<any>();
 
-  const [thumbed,   setThumbed]   = useState(false);
-  const [bookmarked, setBookmarked] = useState(false);
   const [reflectOpen, setReflectOpen] = useState(false);
   const [reflectText, setReflectText] = useState('');
   const [showAllVerses, setShowAllVerses] = useState(false);
@@ -64,18 +59,6 @@ export default function ContentCard({ item, onThumbsUp, onBookmark }: Props) {
     } catch {
       Alert.alert('Could not open this link', item.url);
     }
-  }
-
-  function handleThumbsUp() {
-    if (thumbed) return;
-    setThumbed(true);
-    onThumbsUp(item.id);
-  }
-
-  function handleBookmark() {
-    if (bookmarked) return;
-    setBookmarked(true);
-    onBookmark(item.id);
   }
 
   function handleReflectSave() {
@@ -127,7 +110,12 @@ export default function ContentCard({ item, onThumbsUp, onBookmark }: Props) {
         </View>
       )}
 
-      {/* ── Actions ──────────────────────────────────────────────────────── */}
+      {/* ── Action: read the scripture ───────────────────────────────────────
+          The old heart/bookmark icons were removed (Cameron, June 2026): they
+          went nowhere and kept nothing — the heart only fired a pop-up and the
+          "bookmark" just ran the heart twice. The real, purposeful actions live
+          below: Reflect on this (saves a reflection), Talk About It (opens chat),
+          and Keep this (saves a note). */}
       <View style={styles.actions}>
         <TouchableOpacity
           style={styles.readBtn}
@@ -137,30 +125,6 @@ export default function ContentCard({ item, onThumbsUp, onBookmark }: Props) {
           <Text style={styles.readBtnText}>
             {isMilk ? 'Read the chapter →' : 'Open in Gospel Library →'}
           </Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity
-          style={[styles.iconBtn, thumbed && styles.iconBtnActive]}
-          activeOpacity={0.7}
-          onPress={handleThumbsUp}
-        >
-          <Ionicons
-            name={thumbed ? 'heart' : 'heart-outline'}
-            size={18}
-            color={thumbed ? colors.gold : colors.textMuted}
-          />
-        </TouchableOpacity>
-
-        <TouchableOpacity
-          style={[styles.iconBtn, bookmarked && styles.iconBtnActive]}
-          activeOpacity={0.7}
-          onPress={handleBookmark}
-        >
-          <Ionicons
-            name={bookmarked ? 'bookmark' : 'bookmark-outline'}
-            size={18}
-            color={bookmarked ? colors.gold : colors.textMuted}
-          />
         </TouchableOpacity>
       </View>
 
@@ -176,7 +140,7 @@ export default function ContentCard({ item, onThumbsUp, onBookmark }: Props) {
           <Text style={styles.subActionText}>Reflect on this →</Text>
         </TouchableOpacity>
         <TouchableOpacity activeOpacity={0.7} onPress={handleTalkAbout}>
-          <Text style={styles.subActionText}>Talk about it →</Text>
+          <Text style={styles.subActionText}>Talk About It →</Text>
         </TouchableOpacity>
         <SaveNoteLink
           source="feed"

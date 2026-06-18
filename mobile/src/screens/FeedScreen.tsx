@@ -27,8 +27,6 @@ export default function FeedScreen() {
   const feed            = useAppStore(s => s.feed);
   const currentQuestion = useAppStore(s => s.currentQuestion);
 
-  const thumbsUp        = useAppStore(s => s.thumbsUp);
-  const bookmark        = useAppStore(s => s.bookmark);
   const refreshFeed     = useAppStore(s => s.refreshFeed);
 
   // Spiritual exercise state — invite → try → report → learn.
@@ -70,12 +68,7 @@ export default function FeedScreen() {
 
         {/* ── First two content cards ───────────────────────────────────────── */}
         {topItems.map(item => (
-          <ContentCard
-            key={item.id}
-            item={item}
-            onThumbsUp={thumbsUp}
-            onBookmark={bookmark}
-          />
+          <ContentCard key={item.id} item={item} />
         ))}
 
         {/* ── Dialogue card — appears after 2nd content card ───────────────── */}
@@ -85,12 +78,7 @@ export default function FeedScreen() {
 
         {/* ── Remaining content cards ───────────────────────────────────────── */}
         {bottomItems.map(item => (
-          <ContentCard
-            key={item.id}
-            item={item}
-            onThumbsUp={thumbsUp}
-            onBookmark={bookmark}
-          />
+          <ContentCard key={item.id} item={item} />
         ))}
 
         {/* ── An invitation — something to DO, the way Jesus gave people things to do */}

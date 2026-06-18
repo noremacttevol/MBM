@@ -422,7 +422,7 @@ export default function ProfileScreen() {
                     <Text style={styles.traitName}>{TRAIT_LABELS[key]}</Text>
                     <Text style={styles.traitDesc}>{TRAIT_DESCRIPTIONS[key]}</Text>
                     <TouchableOpacity activeOpacity={0.7} onPress={() => talkAboutTrait(key)}>
-                      <Text style={styles.askText}>Talk about this →</Text>
+                      <Text style={styles.askText}>Talk About It →</Text>
                     </TouchableOpacity>
                   </View>
                   <View style={styles.barTrack}>
@@ -451,7 +451,7 @@ export default function ProfileScreen() {
                 <Text style={styles.momentDetail}>{m.text}</Text>
                 <View style={styles.momentActions}>
                   <TouchableOpacity activeOpacity={0.7} onPress={() => askAbout(m.title, m.text)}>
-                    <Text style={styles.askText}>Ask about this →</Text>
+                    <Text style={styles.askText}>Talk About It →</Text>
                   </TouchableOpacity>
                   <TouchableOpacity
                     activeOpacity={0.7}

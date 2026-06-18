@@ -184,7 +184,7 @@ export default function ChatScreen() {
 
       {/* ── Header ────────────────────────────────────────────────────────── */}
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>Talk it through</Text>
+        <Text style={styles.headerTitle}>Talk About It</Text>
         <View style={styles.headerActions}>
           <TouchableOpacity style={styles.headerBtn} activeOpacity={0.75} onPress={handleNewChat}>
             <Text style={styles.headerBtnText}>+ New</Text>
