@@ -154,6 +154,9 @@ export default function ProfileScreen() {
   const faithWords          = useAppStore(s => s.faithWords);
   const moments             = useAppStore(s => s.moments);
   const deleteMoment        = useAppStore(s => s.deleteMoment);
+  const answeredQuestions   = useAppStore(s => s.answeredQuestions);
+  const editAnsweredQuestion   = useAppStore(s => s.editAnsweredQuestion);
+  const removeAnsweredQuestion = useAppStore(s => s.removeAnsweredQuestion);
   const prefillChat         = useAppStore(s => s.prefillChat);
   const editFaithWord       = useAppStore(s => s.editFaithWord);
   const addFaithWord        = useAppStore(s => s.addFaithWord);
@@ -166,6 +169,20 @@ export default function ProfileScreen() {
   const [editingIndex, setEditingIndex] = useState<number | null>(null);
   const [editDraft,    setEditDraft]    = useState('');
   const [adding,       setAdding]       = useState(false);
+  // Editing an answered question's answer (inline).
+  const [editingQId, setEditingQId] = useState<string | null>(null);
+  const [editQDraft, setEditQDraft] = useState('');
+
+  // Carry an answered question + the person's answer into a fresh "Talk About It"
+  // chat, with full context so the AI knows it was THEIR answer to THAT question.
+  function talkAboutAnswered(prompt: string, answer: string) {
+    const p = (prompt || '').replace(/\s+/g, ' ').trim();
+    const a = (answer || '').replace(/\s+/g, ' ').trim();
+    prefillChat(
+      `Earlier you asked me: “${p}” — and I answered: “${a || '(I didn’t say much)'}”. Can we talk about it? What do you make of my answer, and what would you ask me about it?`,
+    );
+    navigation.navigate('Chat');
+  }
   const [addDraft,     setAddDraft]     = useState('');
 
   // The Christlike ceiling: the score shown is never above what the person has
@@ -472,6 +489,75 @@ export default function ProfileScreen() {
           </View>
         )}
 
+        {/* ── QUESTIONS YOU'VE ANSWERED ───────────────────────────────────
+            The open record of the questions the person has answered in the app —
+            held for them to read, edit, remove, or Talk About. (Journal notes and
+            scripture reflections are NOT here; they live in the Journal tab and are
+            never repeated — but can still be talked about there.) */}
+        {answeredQuestions.length > 0 && (
+          <View style={styles.card}>
+            <Text style={styles.sectionLabel}>QUESTIONS YOU'VE ANSWERED</Text>
+            <Text style={styles.sectionNote}>
+              Everything you've answered here, remembered and held for you. Read it, change it, let it go, or talk any of it through.
+            </Text>
+            {answeredQuestions.map(q => (
+              <View key={q.id} style={styles.momentRow}>
+                <View style={styles.momentHead}>
+                  <Text style={[styles.momentTitle, { flex: 1 }]}>{q.prompt}</Text>
+                  <Text style={styles.momentDate}>{fmtDate(q.ts)}</Text>
+                </View>
+                {editingQId === q.id ? (
+                  <>
+                    <TextInput
+                      style={styles.faithInput}
+                      value={editQDraft}
+                      onChangeText={setEditQDraft}
+                      placeholder="In your own words…"
+                      placeholderTextColor={colors.textMuted}
+                      multiline
+                      autoFocus
+                      maxLength={400}
+                    />
+                    <View style={styles.momentActions}>
+                      <TouchableOpacity activeOpacity={0.7} onPress={() => { editAnsweredQuestion(q.id, editQDraft); setEditingQId(null); }}>
+                        <Text style={styles.askText}>Save</Text>
+                      </TouchableOpacity>
+                      <TouchableOpacity activeOpacity={0.7} onPress={() => setEditingQId(null)}>
+                        <Text style={styles.removeText}>Cancel</Text>
+                      </TouchableOpacity>
+                    </View>
+                  </>
+                ) : (
+                  <>
+                    <Text style={styles.momentDetail}>{q.answer || '—'}</Text>
+                    <View style={styles.momentActions}>
+                      <TouchableOpacity activeOpacity={0.7} onPress={() => talkAboutAnswered(q.prompt, q.answer)}>
+                        <Text style={styles.askText}>Talk About It →</Text>
+                      </TouchableOpacity>
+                      <TouchableOpacity activeOpacity={0.7} onPress={() => { setEditingQId(q.id); setEditQDraft(q.answer); }}>
+                        <Text style={styles.editLink}>Edit</Text>
+                      </TouchableOpacity>
+                      <TouchableOpacity
+                        activeOpacity={0.7}
+                        onPress={() => Alert.alert(
+                          'Remove this answer?',
+                          'It will be taken off your profile, and the app may gently ask it again sometime.',
+                          [
+                            { text: 'Cancel', style: 'cancel' },
+                            { text: 'Remove', style: 'destructive', onPress: () => removeAnsweredQuestion(q.id) },
+                          ],
+                        )}
+                      >
+                        <Text style={styles.removeText}>Remove</Text>
+                      </TouchableOpacity>
+                    </View>
+                  </>
+                )}
+              </View>
+            ))}
+          </View>
+        )}
+
         {/* ── Session stats ───────────────────────────────────────────── */}
         <View style={styles.statsRow}>
           <View style={styles.statCard}>
@@ -726,6 +812,9 @@ const styles = StyleSheet.create({
   },
   removeText: {
     fontSize: 11, fontFamily: 'Jost_400Regular', fontStyle: 'italic', color: colors.textMuted,
+  },
+  editLink: {
+    fontSize: 11, fontFamily: 'Jost_400Regular', fontStyle: 'italic', color: colors.textDim,
   },
 
   beliefRow: {

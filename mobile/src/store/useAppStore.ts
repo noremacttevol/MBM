@@ -830,6 +830,20 @@ function identityWordFromTokens(tokens: string[]): FaithWord | null {
 
 // ── State shape ──────────────────────────────────────────────────────────────
 
+// ── Answered questions — the open record on the Profile ──────────────────────
+// Every dialogue question a person answers is kept here as a plain, viewable
+// record (the question + what they said), so their interactions live OPENLY on
+// the Profile where they can read, edit, remove, or Talk About each one. (Journal
+// notes and scripture reflections do NOT go here — they live in the Journal/Notes
+// tab and are not repeated; see JournalScreen.)
+export interface AnsweredQuestion {
+  id:         string;
+  questionId: number;
+  prompt:     string;   // the question text, as it was asked
+  answer:     string;   // what they chose or wrote
+  ts:         number;
+}
+
 // ── My Discipleship (members-only "Walk with Christ" companion) ──────────────
 // A private examen/reflection tool, opt-in, fully decoupled from feed/routing/
 // readiness. Numbers never appear; fruitRatings are the MEMBER's OWN self-ratings,
@@ -870,6 +884,7 @@ interface AppState {
   dialogueSignals:     string[];   // DERIVED: baseSignals ∪ every faith line's signals
   baseSignals:         string[];   // non-faith signals (see composeSignals)
   answeredQuestionIds: number[];
+  answeredQuestions:   AnsweredQuestion[];   // the open, viewable record (Profile)
   traitScores:         TraitScores;
   currentQuestion:     DialogueQuestion | null;
 
@@ -975,6 +990,8 @@ interface AppActions {
   refreshFeed:         () => void;
   resetSession:        () => void;
   answerQuestion:      (questionId: number, answerValue: string, answerText?: string) => void;
+  editAnsweredQuestion:   (id: string, answer: string) => void;
+  removeAnsweredQuestion: (id: string) => void;
   addJournalEntry:     (promptId: string, promptText: string, text: string) => void;
   // Keep a note from anywhere in the app. Returns the new note's id so the caller
   // can navigate to the Journal, which opens to it. The AI summary fills in after.
@@ -1047,6 +1064,7 @@ const initialState: AppState = {
   dialogueSignals:     [],
   baseSignals:         [],
   answeredQuestionIds: [],
+  answeredQuestions:   [],
   traitScores:         { ...DEFAULT_TRAITS },
   currentQuestion:     null,
   restorationConsent:  'unknown',
@@ -1135,6 +1153,7 @@ export const useAppStore = create<AppState & AppActions>()(
           baseSignals:         stripIdentity(seedSignals),
           dialogueSignals:     stripIdentity(seedSignals),
           answeredQuestionIds: [],
+          answeredQuestions:   [],
           traitScores:         { ...DEFAULT_TRAITS },
           currentQuestion,
           restorationConsent:  'unknown',
@@ -1444,8 +1463,22 @@ export const useAppStore = create<AppState & AppActions>()(
         const nextTag    = routeFeedTag(newSignalsArr);
         const trackMoved = nextTag !== prevTag;
 
-        set({
+        // What they actually said — the option text or the free-text. Kept as a
+        // plain, viewable record so this answered question lives openly on the
+        // Profile, where they can read, edit, remove, or Talk About it.
+        const chosen = question.answerOptions.find(o => o.value === answerValue);
+        const answerSaid = (answerText && answerText.trim()) || chosen?.text || '';
+        const answeredRecord: AnsweredQuestion = {
+          id:         generateId(),
+          questionId,
+          prompt:     question.questionText,
+          answer:     answerSaid,
+          ts:         Date.now(),
+        };
+
+        set(s => ({
           answeredQuestionIds: newAnsweredIds,
+          answeredQuestions:   [answeredRecord, ...s.answeredQuestions],
           baseSignals:         newBaseArr,
           dialogueSignals:     newSignalsArr,
           traitScores:         newTraits,
@@ -1453,15 +1486,40 @@ export const useAppStore = create<AppState & AppActions>()(
           feedTag:             trackMoved ? nextTag : prevTag,
           feed:                trackMoved ? buildFeed(nextTag, seenIds) : prevFeed,
           faithWords:          nextWords,
-        });
-        // Personalize the blessing from what they actually answered (the free-text
-        // they wrote, or the option they chose), so it speaks to THIS moment.
-        const chosen = question.answerOptions.find(o => o.value === answerValue);
-        const answerSaid = (answerText && answerText.trim()) || chosen?.text || '';
+        }));
+        // Personalize the blessing from what they actually answered, so it speaks
+        // to THIS moment.
         const blessCtx = answerSaid || question.questionText;
         get().blessPersonalized('dialogue', blessCtx, {
           question: question.questionText,
           answer:   answerSaid || undefined,
+        });
+      },
+
+      // Edit the answer they gave to a question (the viewable record on the
+      // Profile). Emptying it removes the record entirely.
+      editAnsweredQuestion(id, answer) {
+        const clean = (answer || '').replace(/\s+/g, ' ').trim();
+        set(s => ({
+          answeredQuestions: clean
+            ? s.answeredQuestions.map(q => (q.id === id ? { ...q, answer: clean } : q))
+            : s.answeredQuestions.filter(q => q.id !== id),
+        }));
+      },
+
+      // Remove an answered question from the open record. We also drop its id from
+      // answeredQuestionIds so the engine may gently ask it again — truly letting
+      // them "un-answer" it. (Traits already learned are cumulative and not unwound
+      // here; this is about the visible record and being asked again.)
+      removeAnsweredQuestion(id) {
+        set(s => {
+          const rec = s.answeredQuestions.find(q => q.id === id);
+          return {
+            answeredQuestions:   s.answeredQuestions.filter(q => q.id !== id),
+            answeredQuestionIds: rec
+              ? s.answeredQuestionIds.filter(qid => qid !== rec.questionId)
+              : s.answeredQuestionIds,
+          };
         });
       },
 
@@ -2583,6 +2641,7 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
         dialogueSignals:     state.dialogueSignals,
         baseSignals:         state.baseSignals,
         answeredQuestionIds: state.answeredQuestionIds,
+        answeredQuestions:   state.answeredQuestions,
         traitScores:         state.traitScores,
         currentQuestion:     state.currentQuestion,
         restorationConsent:  state.restorationConsent,
