@@ -11,9 +11,22 @@ import {
 import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
 import { ContentItem } from '../data/content';
+import { kjvVersesFor } from '../data/kjvText';
 import { useAppStore } from '../store/useAppStore';
 import SaveNoteLink from './SaveNoteLink';
 import { colors, spacing, radius } from '../theme';
+
+// SCRIPTURE ARCHITECTURE (Cameron, June 2026 — legal safety + best UX):
+//   MILK items are Bible-only. We render the full public-domain King James Version
+//   text INLINE (see kjvText.ts) so a seeker never leaves the app for a foundational
+//   verse.
+//   MEAT items are restored scripture (Book of Mormon, Doctrine and Covenants,
+//   Pearl of Great Price). Those modern editions — including their headings and
+//   footnotes — are copyrighted by The Church of Jesus Christ of Latter-day Saints,
+//   so we NEVER embed their text. We show only the short teaser already written in
+//   `description` and a clear button that opens the official Gospel Library
+//   (churchofjesuschrist.org) for the full chapter.
+const VERSE_PREVIEW = 6; // collapse long milk passages to this many verses first
 
 interface Props {
   item:       ContentItem;
@@ -31,11 +44,20 @@ export default function ContentCard({ item, onThumbsUp, onBookmark }: Props) {
   const [bookmarked, setBookmarked] = useState(false);
   const [reflectOpen, setReflectOpen] = useState(false);
   const [reflectText, setReflectText] = useState('');
+  const [showAllVerses, setShowAllVerses] = useState(false);
+
+  // Milk = Bible, rendered inline from the bundled KJV. Meat = restored scripture,
+  // teaser + a link out to the official Gospel Library (never embedded).
+  const isMilk  = item.track === 'MILK';
+  const verses  = isMilk ? kjvVersesFor(item.id) : undefined;
+  const shown   = verses ? (showAllVerses ? verses : verses.slice(0, VERSE_PREVIEW)) : [];
 
   async function handleRead() {
     // No canOpenURL() gate: on Android it falsely returns false for
     // churchofjesuschrist.org (registered app-links), which blocked those links
-    // from ever opening. openURL resolves https to a browser on its own.
+    // from ever opening. openURL resolves https to a browser on its own — and on a
+    // device with the Gospel Library app installed, the official URL opens straight
+    // into that app via Android app-links / iOS universal links.
     try {
       await Linking.openURL(item.url);
       markOpened(item.id);
@@ -79,8 +101,31 @@ export default function ContentCard({ item, onThumbsUp, onBookmark }: Props) {
       {/* ── Title ────────────────────────────────────────────────────────── */}
       <Text style={styles.title}>{item.title}</Text>
 
-      {/* ── Description ──────────────────────────────────────────────────── */}
+      {/* ── Description (the warm teaser) ────────────────────────────────── */}
       <Text style={styles.description}>{item.description}</Text>
+
+      {/* ── MILK: the full KJV passage, rendered inline (no leaving the app) ── */}
+      {isMilk && shown.length > 0 && (
+        <View style={styles.scripture}>
+          {shown.map(v => {
+            const num = v.ref.split(':')[1];
+            return (
+              <Text key={v.ref} style={styles.verse} selectable>
+                {num ? <Text style={styles.verseNum}>{num} </Text> : null}
+                {v.text}
+              </Text>
+            );
+          })}
+          {verses && verses.length > VERSE_PREVIEW && (
+            <TouchableOpacity activeOpacity={0.7} onPress={() => setShowAllVerses(s => !s)}>
+              <Text style={styles.verseToggle}>
+                {showAllVerses ? 'Show less' : `Show all ${verses.length} verses →`}
+              </Text>
+            </TouchableOpacity>
+          )}
+          <Text style={styles.kjvTag}>King James Version</Text>
+        </View>
+      )}
 
       {/* ── Actions ──────────────────────────────────────────────────────── */}
       <View style={styles.actions}>
@@ -89,7 +134,9 @@ export default function ContentCard({ item, onThumbsUp, onBookmark }: Props) {
           activeOpacity={0.7}
           onPress={handleRead}
         >
-          <Text style={styles.readBtnText}>Read →</Text>
+          <Text style={styles.readBtnText}>
+            {isMilk ? 'Read the chapter →' : 'Open in Gospel Library →'}
+          </Text>
         </TouchableOpacity>
 
         <TouchableOpacity
@@ -116,6 +163,12 @@ export default function ContentCard({ item, onThumbsUp, onBookmark }: Props) {
           />
         </TouchableOpacity>
       </View>
+
+      {/* ── MEAT: a quiet line making clear the full text lives in the official
+              Church resources (we link, never embed copyrighted scripture). ──── */}
+      {!isMilk && (
+        <Text style={styles.officialNote}>Full chapter in the official Gospel Library.</Text>
+      )}
 
       {/* ── Reflect / Talk / Keep — quiet invitations under each card ──────── */}
       <View style={styles.subActions}>
@@ -197,6 +250,49 @@ const styles = StyleSheet.create({
     color:        colors.textDim,
     lineHeight:   21,
     marginBottom: spacing.md,
+  },
+
+  // Inline KJV scripture (milk only): a quiet, set-apart panel that reads like
+  // scripture, with small superscript-ish verse numbers.
+  scripture: {
+    borderLeftWidth:   2,
+    borderLeftColor:   colors.borderDim,
+    paddingLeft:       spacing.sm + 2,
+    marginBottom:      spacing.md,
+  },
+  verse: {
+    fontSize:     14,
+    fontFamily:   'Jost_400Regular',
+    color:        '#d8d0b8',
+    lineHeight:   23,
+    marginBottom: 6,
+  },
+  verseNum: {
+    fontSize:  10,
+    color:     colors.textMuted,
+  },
+  verseToggle: {
+    color:      colors.blue,
+    fontSize:   11,
+    fontStyle:  'italic',
+    fontFamily: 'Jost_400Regular',
+    marginTop:  2,
+    marginBottom: 4,
+  },
+  kjvTag: {
+    fontSize:      9,
+    color:         colors.textMuted,
+    letterSpacing: 1,
+    textTransform: 'uppercase',
+    fontFamily:    'Jost_400Regular',
+    marginTop:     4,
+  },
+  officialNote: {
+    fontSize:   11,
+    color:      colors.textMuted,
+    fontStyle:  'italic',
+    fontFamily: 'Jost_400Regular',
+    marginTop:  8,
   },
   actions: {
     flexDirection: 'row',

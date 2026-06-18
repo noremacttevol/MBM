@@ -68,17 +68,31 @@ export const isMissionaryReady  = engineMissionaryReady;
 export const isMemberSignal     = engineIsMember;
 export { assessJourney, assessConnection };
 
+// EXPLICIT CONSENT (Cameron, June 2026): even once the readiness signals are
+// present, restoration-tagged content NEVER auto-surfaces in the feed. The Minister
+// AI asks the person, in plain words, whether they want the restored perspective;
+// only an affirmative "yes" flips this. This is what keeps the whole thing grace,
+// not hidden leading — the person chooses to walk through the door. It is a module
+// flag (not threaded through every call site) kept in sync with the persisted
+// `restorationConsent` by the store: set on rehydrate and on grant/decline.
+export type RestorationConsent = 'unknown' | 'granted' | 'declined';
+let restorationConsentGranted = false;
+export function setRestorationConsentGranted(v: boolean) { restorationConsentGranted = v; }
+
 // Silently choose the content level that fits the signals a person has revealed.
 // Invisible: the user never sees a tier name or a gate. The milk law is absolute —
-// RESTORATION is only ever chosen once both readiness signals exist.
+// RESTORATION is only ever chosen once both readiness signals exist AND the person
+// has explicitly consented to the restored perspective.
 function routeFeedTag(signals: string[]): FeedTag {
   if (engineIsMember(signals)) return 'MAINTENANCE';
 
   const analytical = ['skeptical_of_god', 'analytical_doubt', 'honest_inquiry', 'losing_faith'];
   const hasAnalytic = signals.some(s => analytical.includes(s));
 
-  // Meat only after milk: restored-gospel content is gated on both readiness signals.
-  if (engineMayReferenceLds(signals)) return 'RESTORATION';
+  // Meat only after milk AND after the person has said yes to the restored view.
+  // Until they consent we keep them on the gentlest fitting milk track (never
+  // RESTORATION), so nothing restoration-tagged appears before they choose it.
+  if (engineMayReferenceLds(signals) && restorationConsentGranted) return 'RESTORATION';
   if (hasAnalytic) return 'BRIDGE';
   return 'MILK'; // default: start gentle, always
 }
@@ -155,7 +169,8 @@ function deeperFeedTag(current: FeedTag, signals: string[]): FeedTag {
   if (engineIsMember(signals)) return 'MAINTENANCE';
   if (current === 'MILK') return 'BRIDGE';
   if (current === 'BRIDGE') {
-    return engineMayReferenceLds(signals) ? 'RESTORATION' : 'BRIDGE';
+    // Even "show me deeper" cannot reach RESTORATION without explicit consent.
+    return (engineMayReferenceLds(signals) && restorationConsentGranted) ? 'RESTORATION' : 'BRIDGE';
   }
   return current;
 }
@@ -728,6 +743,11 @@ interface AppState {
   traitScores:         TraitScores;
   currentQuestion:     DialogueQuestion | null;
 
+  // Explicit consent for the restored perspective. 'granted' is the ONLY value that
+  // ever lets restoration-tagged content into the feed (on top of the readiness
+  // signals). The Minister AI asks; the person answers; this records their choice.
+  restorationConsent:  RestorationConsent;
+
   // Journal
   journalEntries:      JournalEntry[];
   answeredPromptIds:   string[];
@@ -800,6 +820,8 @@ interface AppActions {
   bookmark:            (id: number) => void;
   keepSimple:          () => void;
   goDeeper:            () => void;
+  grantRestorationConsent:   () => void;
+  declineRestorationConsent: () => void;
   refreshFeed:         () => void;
   resetSession:        () => void;
   answerQuestion:      (questionId: number, answerValue: string, answerText?: string) => void;
@@ -877,6 +899,7 @@ const initialState: AppState = {
   answeredQuestionIds: [],
   traitScores:         { ...DEFAULT_TRAITS },
   currentQuestion:     null,
+  restorationConsent:  'unknown',
   journalEntries:      [],
   answeredPromptIds:   [],
   learnedNotes:        [],
@@ -928,6 +951,9 @@ export const useAppStore = create<AppState & AppActions>()(
         // screen — routing then stays invisible and emergent from here on.
         const seedSignals = signal ? [signal] : [];
 
+        // A fresh start means no restored-perspective consent yet.
+        setRestorationConsentGranted(false);
+
         // Route the feed from the signal (invisible, milk-law-obeying). The feedTag
         // passed from the story is a hint; routeFeedTag is the source of truth so
         // RESTORATION can never surface from onboarding alone.
@@ -953,6 +979,7 @@ export const useAppStore = create<AppState & AppActions>()(
           answeredQuestionIds: [],
           traitScores:         { ...DEFAULT_TRAITS },
           currentQuestion,
+          restorationConsent:  'unknown',
           journalEntries:      [],
           answeredPromptIds:   [],
           learnedNotes:        [],
@@ -1038,6 +1065,30 @@ export const useAppStore = create<AppState & AppActions>()(
         const newTag = deeperFeedTag(feedTag, dialogueSignals);
         const feed   = buildFeed(newTag, seenIds);
         set({ feedTag: newTag, feed, positiveCount: 0 });
+      },
+
+      grantRestorationConsent() {
+        // The person said yes to the restored perspective. This is the ONLY thing
+        // that lets restoration-tagged content into the feed (on top of the readiness
+        // signals). Flip the flag, record the choice, and re-route the feed so the
+        // restored milk they just consented to can begin to surface. If their signals
+        // do not yet justify it, routeFeedTag simply keeps them where they are.
+        setRestorationConsentGranted(true);
+        const { dialogueSignals, seenIds, feedTag } = get();
+        const nextTag = routeFeedTag(dialogueSignals);
+        set({
+          restorationConsent: 'granted',
+          feedTag: nextTag,
+          feed:    nextTag !== feedTag ? buildFeed(nextTag, seenIds) : get().feed,
+        });
+      },
+
+      declineRestorationConsent() {
+        // The person would rather stay with the plain biblical view. Honor it
+        // completely: no restoration content surfaces, and we do not ask again
+        // unless THEY reopen the door. Keep them gently on the milk track.
+        setRestorationConsentGranted(false);
+        set({ restorationConsent: 'declined' });
       },
 
       refreshFeed() {
@@ -1993,11 +2044,22 @@ export const useAppStore = create<AppState & AppActions>()(
         // silent flip) and only teaches the Restoration once the person says yes /
         // reaches for it. These signals are that yes — they brought up the Book of
         // Mormon or asked how to belong on their own.
+        // An explicit consent grant (the person tapped "yes, share the restored
+        // perspective" or said as much) counts as opening the door themselves.
         const openedRestorationDoor =
+          state.restorationConsent === 'granted' ||
           combinedSignals.includes('curious_about_book_of_mormon') ||
           combinedSignals.includes('wants_to_join') ||
           combinedSignals.includes('wants_baptism') ||
           combinedSignals.includes('asking_how_to_belong');
+        // If they explicitly DECLINED the restored view, the minister must not
+        // re-offer it — only resume if THEY reopen the door later.
+        const consentNote =
+          state.restorationConsent === 'declined'
+            ? '\n- They were offered the restored perspective and chose to stay with the plain biblical view for now. Honor that completely: do NOT bring up the Restoration, the Book of Mormon, or the Church again unless THEY reopen the door. Stay with the Jesus they already love.'
+            : state.restorationConsent === 'granted'
+              ? '\n- They have explicitly said yes to hearing the restored perspective. You do not need to ask permission again; minister it directly, gently, and honestly when it serves them.'
+              : '';
         // The Creation-Dilemma reasoning is MEAT: it is handed to the minister ONLY
         // when the gate is open AND this person carries a harsh / not-good picture of
         // God — the exact obstacle it answers. Then the minister questions gently FROM
@@ -2022,7 +2084,7 @@ export const useAppStore = create<AppState & AppActions>()(
 [LIVE GUIDANCE — derived from what this person has revealed]
 - Where they are on the journey toward Christ: ${conn.journeyStage}
 - A real human is available right now: YES (always — a real person reads these). Refer to them only as "a real person," never by name.${conn.requested ? `\n- They appear to be asking to: ${conn.requested.replace(/_/g, ' ').toLowerCase()}.` : ''}
-- The restored gospel — by OPEN, NAMED INVITATION only, never a silent slide into it: ${mayLds ? (openedRestorationDoor ? 'They have opened the door themselves (they brought up the Book of Mormon / asked how to belong). You may now share the Restoration and the Book of Mormon openly and gladly — still gently, never as a pitch, and they stay free to stop.' : 'They seem ready, so EXTEND ONE OPEN INVITATION, named plainly — for example: "Would you like to hear about where this comes from — the Restoration, and the Book of Mormon?" Do NOT teach it yet; just offer the door by name. Share more ONLY if they say yes. If they decline, honor it warmly, stay with the Jesus they already love, and do NOT loop back to re-pitch — only resume if THEY reopen the door later.') : `NOT YET — the milk-before-meat law is in force${beliefReady && !spiritOk ? ' (they believe, but their openness/hunger/honest-inquiry levels are not yet there — keep drawing them out, do not name the Church yet)' : !beliefReady ? ' (the belief readiness is not yet present)' : ''}. Give only milk: the Jesus and the good God of the Bible. Do not mention the Church, Joseph Smith, the Restoration, the Book of Mormon, or missionaries.`}
+- The restored gospel — by OPEN, NAMED INVITATION only, never a silent slide into it: ${mayLds ? (openedRestorationDoor ? 'They have opened the door themselves (they brought up the Book of Mormon / asked how to belong). You may now share the Restoration and the Book of Mormon openly and gladly — still gently, never as a pitch, and they stay free to stop.' : 'They seem ready, so EXTEND ONE OPEN INVITATION, named plainly — for example: "Would you like to hear about where this comes from — the Restoration, and the Book of Mormon?" Do NOT teach it yet; just offer the door by name. Share more ONLY if they say yes. If they decline, honor it warmly, stay with the Jesus they already love, and do NOT loop back to re-pitch — only resume if THEY reopen the door later.') : `NOT YET — the milk-before-meat law is in force${beliefReady && !spiritOk ? ' (they believe, but their openness/hunger/honest-inquiry levels are not yet there — keep drawing them out, do not name the Church yet)' : !beliefReady ? ' (the belief readiness is not yet present)' : ''}. Give only milk: the Jesus and the good God of the Bible. Do not mention the Church, Joseph Smith, the Restoration, the Book of Mormon, or missionaries.`}${consentNote}
 - Missionary referral appropriate? ${conn.missionaryReady ? 'YES — they are reaching toward the church on their own and have passed the milk. You may gently offer to connect them with missionaries.' : 'NO — do not bring up missionaries.'}`;
 
         // The person's name, if they gave it — address them as a friend would.
@@ -2244,6 +2306,7 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
         answeredQuestionIds: state.answeredQuestionIds,
         traitScores:         state.traitScores,
         currentQuestion:     state.currentQuestion,
+        restorationConsent:  state.restorationConsent,
         journalEntries:      state.journalEntries,
         answeredPromptIds:   state.answeredPromptIds,
         learnedNotes:        state.learnedNotes,
@@ -2270,6 +2333,14 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
       // persisted track is higher than the signals warrant, route it back down.
       merge: (persistedState, currentState) => {
         const p = persistedState as Partial<PersistedState>;
+
+        // Restore the restored-perspective consent FIRST, so the module flag is in
+        // place before routeFeedTag() runs below and so a stored RESTORATION tag is
+        // only kept if the person had actually consented. No consent on disk =
+        // 'unknown' = restoration content stays out of the feed.
+        const restorationConsent: RestorationConsent =
+          (p.restorationConsent as RestorationConsent | undefined) ?? 'unknown';
+        setRestorationConsentGranted(restorationConsent === 'granted');
 
         // Migrate to the provenance model. Legacy stores have no baseSignals —
         // seed it from the old flat dialogueSignals so nothing already learned is
@@ -2324,6 +2395,7 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
           faithWords,                  // includes any re-homed orphan identity
           baseSignals,                 // migrated/derived above (identity stripped)
           dialogueSignals: signals,    // DERIVED — recomputed, never trusted from disk
+          restorationConsent,          // module flag already synced above
           feedTag:    healedTag,
           feed:       healedFeed,
           seenIds:    seenSet,

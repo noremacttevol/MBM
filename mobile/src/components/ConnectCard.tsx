@@ -147,7 +147,7 @@ export default function ConnectCard({ compact = false }: Props) {
 
         {unread > 0 && (
           <TouchableOpacity style={styles.unreadBanner} activeOpacity={0.7} onPress={ackThread}>
-            <Text style={styles.unreadText}>A real person replied. Tap to mark as read.</Text>
+            <Text style={styles.unreadText}>Our admin team replied. Tap to mark as read.</Text>
           </TouchableOpacity>
         )}
 
@@ -157,7 +157,7 @@ export default function ConnectCard({ compact = false }: Props) {
               const mine = m.sender === 'user';
               return (
                 <View key={m.id} style={[styles.row, mine ? styles.rowMine : styles.rowTheirs]}>
-                  {!mine && <Text style={styles.fromLabel}>A real person</Text>}
+                  {!mine && <Text style={styles.fromLabel}>Our admin team</Text>}
                   <View style={[styles.bubble, mine ? styles.bubbleMine : styles.bubbleTheirs]}>
                     {!!m.excerpt && <Text style={styles.excerpt}>“{m.excerpt}”</Text>}
                     <Text style={styles.bubbleText} selectable>{m.body}</Text>
@@ -169,13 +169,13 @@ export default function ConnectCard({ compact = false }: Props) {
           </View>
         ) : (
           <Text style={styles.body}>
-            Start a new conversation with a real person. Write whatever you'd like to
+            Start a new conversation with our admin team. Write whatever you'd like to
             ask or talk through — there's no rush, and no pressure.
           </Text>
         )}
 
         <Text style={styles.honest}>
-          A real person reads every word. A reply can take a day or two — this is a
+          A real person on our admin team reads every word. A reply can take a day or two — this is a
           person, not a bot.
         </Text>
 
@@ -212,7 +212,7 @@ export default function ConnectCard({ compact = false }: Props) {
   if (threads.length > 0) {
     return (
       <View style={[styles.card, compact && styles.cardCompact]}>
-        <Text style={styles.title}>Your conversations with a real person</Text>
+        <Text style={styles.title}>Your conversations with our admin team</Text>
 
         {threads.map(t => (
           <TouchableOpacity
@@ -250,18 +250,18 @@ export default function ConnectCard({ compact = false }: Props) {
   // ── No conversations yet — the first, gentle invitation ─────────────────────
   return (
     <View style={[styles.card, compact && styles.cardCompact]}>
-      <Text style={styles.title}>A real person is always here.</Text>
+      <Text style={styles.title}>A real person from our admin team is always here.</Text>
 
       {sentOffline ? (
         <Text style={styles.confirm}>
-          Thank you for reaching out. A real person will read this and get back to
+          Thank you for reaching out. Our admin team will read this and get back to
           you. You don't have to do anything else — there's no rush, and no pressure.
         </Text>
       ) : (
         <>
           <Text style={styles.body}>
-            Anything you want to ask, or just talk through — a real person reads
-            these. No agenda. No pressure. Whenever you're ready.
+            Anything you want to ask, or just talk through — a real person on our admin
+            team reads these. No agenda. No pressure. Whenever you're ready.
           </Text>
 
           {!writingFirst ? (

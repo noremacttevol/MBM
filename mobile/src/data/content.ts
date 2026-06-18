@@ -5,6 +5,16 @@ export type ResonanceStyle =
   | 'doctrinal' | 'foundational' | 'personal' | 'philosophical'
   | 'devotional' | 'study';
 
+// COPYRIGHT / SCRIPTURE ARCHITECTURE (legal safety, June 2026):
+//   MILK items are Bible-only. The full public-domain King James Version text for
+//   every milk passage is bundled in kjvText.ts and rendered INLINE by ContentCard,
+//   so a seeker never has to leave the app for a foundational verse.
+//   MEAT items are restored scripture. Modern editions of the Book of Mormon,
+//   Doctrine and Covenants, and Pearl of Great Price (including their headings and
+//   footnotes) are copyrighted by The Church of Jesus Christ of Latter-day Saints
+//   and are NEVER embedded — meat cards show only a short teaser plus a link to the
+//   official Gospel Library (the `url` field below).
+//
 // The milk/meat standard (Cameron, June 2026):
 //   MILK = Bible-only; 50 verses both traditions love (milkTrack "common")
 //   + 50 often-skipped passages that raise restored-gospel questions

@@ -18,10 +18,12 @@
  * Keep this in sync with connect.py. When the Python logic changes, change it here.
  */
 
-// ── Phase 1 contact (just Cameron) ──────────────────────────────────────────
+// ── Phase 1 contact ─────────────────────────────────────────────────────────
+// The human help is ALWAYS named "the admin team" — never a personal name. The
+// email is only used for the Phase-1 mailto fallback; it is never shown as a name.
 
 export const HUMAN_CONTACT = {
-  name:  'Cameron',
+  name:  'the admin team',
   email: 'noremacttevol@gmail.com',
 };
 
@@ -468,7 +470,7 @@ function buildAdminNotification(
       'no pressure. Just be present.';
   }
   return {
-    to:               'MBM admin (Cameron in Phase 1; the team in Phase 2+)',
+    to:               'the MBM admin team',
     reason,
     journeyStage:     assessJourney(signals),
     personSaid:       latestText,

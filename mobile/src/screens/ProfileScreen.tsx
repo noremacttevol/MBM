@@ -56,7 +56,7 @@ const TRAIT_ORDER: TraitKey[] = [
   'courage', 'humility', 'compassion',
 ];
 
-function interpretTraits(scores: Record<TraitKey, number>, feedTag: string): string {
+function interpretTraits(scores: Record<TraitKey, number>, feedTag: string, showTraitRead: boolean = true): string {
   const hunger    = scores.hunger ?? 0;
   const sincerity = scores.sincerity ?? 0;
   const courage   = scores.courage ?? 0;
@@ -79,9 +79,14 @@ function interpretTraits(scores: Record<TraitKey, number>, feedTag: string): str
 
   const opening = tagContext[feedTag] ?? tagContext['MILK'];
 
-  const traitLine = dominant.length >= 2
-    ? `What stands out most is your ${dominant[0]} and your ${dominant[1]}.`
-    : `What stands out most is your ${dominant[0]}.`;
+  // The dominant-trait line is a soft ranking of the heart. We show it only to
+  // members (for whom the virtue read is a chosen striving tool); seekers get the
+  // warm "we see you" reflection without any sense of having been measured.
+  const traitLine = !showTraitRead
+    ? ''
+    : dominant.length >= 2
+      ? `What stands out most is your ${dominant[0]} and your ${dominant[1]}.`
+      : `What stands out most is your ${dominant[0]}.`;
 
   let closing = '';
   if (hunger >= 7) {
@@ -98,7 +103,7 @@ function interpretTraits(scores: Record<TraitKey, number>, feedTag: string): str
     closing = "You are still here, still asking. That is enough to start with.";
   }
 
-  return `${opening} ${traitLine} ${closing}`;
+  return [opening, traitLine, closing].filter(Boolean).join(' ');
 }
 
 // "A faith you grew up in…" — describes their faith from signals WITHOUT ever
@@ -163,12 +168,21 @@ export default function ProfileScreen() {
   const [adding,       setAdding]       = useState(false);
   const [addDraft,     setAddDraft]     = useState('');
 
-  const interpretation = interpretTraits(traitScores, feedTag);
   // The Christlike ceiling: the score shown is never above what the person has
   // earned the right to reach by where they stand toward the restored gospel's God.
   // The raw climb is kept underneath (it drives the readiness gate); this only
   // bounds what's displayed, so the number and the "Christlike" label always agree.
   const christlikeCeiling = christlikeCap(dialogueSignals);
+  // MEMBERS-ONLY VISIBLE VIRTUES (Cameron, June 2026): seekers and milk-track
+  // users must NEVER see a number, bar, or "score" for their heart — being read
+  // and ranked is the opposite of grace and a real psychological-safety risk.
+  // The seven-virtue read is therefore shown ONLY to self-identified Latter-day
+  // Saints, for whom it is a freely-chosen "celestial 10/10" discipleship striving
+  // tool, not a verdict. The hidden judge (chatEar -> traitScores) keeps running
+  // for EVERYONE — it silently drives feed routing and the private context passed
+  // to the Minister AI — but those numbers stay invisible to non-members.
+  const showVirtues = isMemberSignal(dialogueSignals);
+  const interpretation = interpretTraits(traitScores, feedTag, showVirtues);
   // The faith-background ladder: where they stand in belief, named honestly and
   // shown to them, climbing on real steps they take. Counts no one out.
   const faithText   = faithWords.map(w => w.text).join(' ').toLowerCase();
@@ -382,33 +396,40 @@ export default function ProfileScreen() {
           </View>
         )}
 
-        {/* ── WHAT'S GROWING IN YOU (the virtues belong to the person) ─── */}
-        <View style={styles.card}>
-          <Text style={styles.sectionLabel}>WHAT'S GROWING IN YOU</Text>
-          <Text style={styles.sectionNote}>
-            An honest reading of your heart, the way Jesus saw people truly. These rise when you show real honesty, humility, or courage — and they can dip too. Tap any one to talk it through.
-          </Text>
+        {/* ── WHAT'S GROWING IN YOU (members only) ──────────────────────
+            Shown ONLY to self-identified Latter-day Saints. For a member this
+            is a chosen discipleship striving tool ("celestial 10/10"). Seekers
+            and milk-track users never see any number or bar — being scored is
+            the opposite of the grace this app is built on. The judge still runs
+            silently for everyone; it just stays invisible here for non-members. */}
+        {showVirtues && (
+          <View style={styles.card}>
+            <Text style={styles.sectionLabel}>WHAT'S GROWING IN YOU</Text>
+            <Text style={styles.sectionNote}>
+              A disciple's mirror — not a verdict. These rise as you live what you already believe: real honesty, humility, courage. Aim for the celestial 10. Tap any one to talk it through.
+            </Text>
 
-          {TRAIT_ORDER.map(key => {
-            const score = Math.min(traitScores[key] ?? 0, christlikeCeiling);
-            const pct   = Math.round((score / 10) * 100);
-            return (
-              <View key={key} style={styles.traitRow}>
-                <View style={styles.traitMeta}>
-                  <Text style={styles.traitName}>{TRAIT_LABELS[key]}</Text>
-                  <Text style={styles.traitDesc}>{TRAIT_DESCRIPTIONS[key]}</Text>
-                  <TouchableOpacity activeOpacity={0.7} onPress={() => talkAboutTrait(key)}>
-                    <Text style={styles.askText}>Talk about this →</Text>
-                  </TouchableOpacity>
+            {TRAIT_ORDER.map(key => {
+              const score = Math.min(traitScores[key] ?? 0, christlikeCeiling);
+              const pct   = Math.round((score / 10) * 100);
+              return (
+                <View key={key} style={styles.traitRow}>
+                  <View style={styles.traitMeta}>
+                    <Text style={styles.traitName}>{TRAIT_LABELS[key]}</Text>
+                    <Text style={styles.traitDesc}>{TRAIT_DESCRIPTIONS[key]}</Text>
+                    <TouchableOpacity activeOpacity={0.7} onPress={() => talkAboutTrait(key)}>
+                      <Text style={styles.askText}>Talk about this →</Text>
+                    </TouchableOpacity>
+                  </View>
+                  <View style={styles.barTrack}>
+                    <View style={[styles.barFill, { width: `${pct}%` as any }]} />
+                  </View>
+                  <Text style={styles.traitScore}>{score.toFixed(1)}</Text>
                 </View>
-                <View style={styles.barTrack}>
-                  <View style={[styles.barFill, { width: `${pct}%` as any }]} />
-                </View>
-                <Text style={styles.traitScore}>{score.toFixed(1)}</Text>
-              </View>
-            );
-          })}
-        </View>
+              );
+            })}
+          </View>
+        )}
 
         {/* ── YOUR STORY SO FAR ───────────────────────────────────────── */}
         {moments.length > 0 && (

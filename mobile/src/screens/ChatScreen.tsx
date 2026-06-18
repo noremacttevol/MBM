@@ -6,10 +6,29 @@ import {
 } from 'react-native';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
-import { useAppStore } from '../store/useAppStore';
+import { useAppStore, isRestorationReady } from '../store/useAppStore';
 import ConnectCard from '../components/ConnectCard';
 import SaveNoteLink from '../components/SaveNoteLink';
 import { colors, spacing, radius } from '../theme';
+
+// Does this minister message read as the explicit-consent question about the
+// restored perspective? We only ever check this when the person is already
+// restoration-ready (see showConsentChips), so the match stays safe and specific:
+// a question that names the Restoration / restored gospel / Book of Mormon, or the
+// "stay with the plain biblical view" offer the prompt is told to use.
+function asksForRestorationConsent(text: string): boolean {
+  if (!text || !text.includes('?')) return false;
+  const t = text.toLowerCase();
+  const namesRestoration =
+    t.includes('restored gospel') || t.includes('restoration') ||
+    t.includes('book of mormon')  || t.includes('where this comes from') ||
+    t.includes('restored perspective') || t.includes('restored view');
+  const offersChoice =
+    t.includes('would you like') || t.includes('would it help') ||
+    t.includes('rather stay')    || t.includes('biblical view') ||
+    t.includes('stay with the');
+  return namesRestoration && offersChoice;
+}
 
 // Server URL — the same proxy the store uses for chat. Public, not a secret.
 const SERVER_URL =
@@ -30,6 +49,10 @@ export default function ChatScreen() {
   const inboxMessages   = useAppStore(s => s.inboxMessages);
   const inboxUnread     = useAppStore(s => s.inboxUnread);
   const deleteChatSession = useAppStore(s => s.deleteChatSession);
+  const dialogueSignals     = useAppStore(s => s.dialogueSignals);
+  const restorationConsent  = useAppStore(s => s.restorationConsent);
+  const grantRestorationConsent   = useAppStore(s => s.grantRestorationConsent);
+  const declineRestorationConsent = useAppStore(s => s.declineRestorationConsent);
 
   function confirmDeleteSession(id: string, title: string) {
     Alert.alert(
@@ -76,6 +99,21 @@ export default function ChatScreen() {
     await sendChatMessage(text);
   }
 
+  // Explicit consent for the restored perspective (Step 5). When the minister has
+  // asked, the person answers with a tap — a clear yes opens the restored milk in
+  // the feed and tells the AI it may minister it; a no keeps them on the Bible view
+  // and the AI will not bring it up again unless they reopen the door themselves.
+  async function handleConsentYes() {
+    if (chatLoading) return;
+    grantRestorationConsent();
+    await sendChatMessage('Yes — I’d like to hear the restored perspective on this.');
+  }
+  async function handleConsentNo() {
+    if (chatLoading) return;
+    declineRestorationConsent();
+    await sendChatMessage('I’d rather stay with the plain biblical view for now, thank you.');
+  }
+
   // Start a fresh AI conversation — the current one is archived into history.
   function handleNewChat() {
     newChat();
@@ -118,7 +156,7 @@ export default function ChatScreen() {
       setShowConnect(true);
       flashCopiedBanner();
     } else {
-      Alert.alert('Nothing to send yet', 'Ask something first, then bring it to a real person.');
+      Alert.alert('Nothing to send yet', 'Ask something first, then bring it to our admin team.');
     }
   }
 
@@ -128,6 +166,17 @@ export default function ChatScreen() {
 
   const isEmpty = chatMessages.length === 0;
   const canFactCheck = chatMessages.length >= 2 && !submittingFC;
+
+  // Show the yes/no consent chips only when the person is genuinely restoration-
+  // ready, hasn't already answered, and the minister's most recent message is the
+  // consent question. Triple-gated so the chips never appear out of context.
+  const lastMsg = chatMessages[chatMessages.length - 1];
+  const showConsentChips =
+    !chatLoading &&
+    restorationConsent === 'unknown' &&
+    isRestorationReady(dialogueSignals) &&
+    !!lastMsg && lastMsg.role === 'assistant' &&
+    asksForRestorationConsent(lastMsg.text);
 
   return (
     <SafeAreaView style={styles.safe} edges={['top', 'left', 'right']}>
@@ -163,7 +212,7 @@ export default function ChatScreen() {
       {escalated && (
         <Animated.View style={[styles.copiedBanner, { opacity: escalateAnim }]}>
           <Text style={styles.copiedBannerText}>
-            ✓ Copied to a real person — it's in your History ▾, waiting for their reply.
+            ✓ Sent to our admin team — it's in your History ▾, waiting for their reply.
           </Text>
         </Animated.View>
       )}
@@ -185,7 +234,7 @@ export default function ChatScreen() {
               onPress={() => { setShowConnect(true); setShowHistory(false); }}
             >
               <Text style={[styles.historyTitle, { color: colors.blue }]} numberOfLines={1}>
-                A real person{inboxUnread > 0 ? ' — new reply' : ''}
+                Our admin team{inboxUnread > 0 ? ' — new reply' : ''}
               </Text>
               {inboxUnread > 0 && (
                 <Text style={[styles.historyDate, { color: colors.blue }]}>{inboxUnread} new</Text>
@@ -249,7 +298,7 @@ export default function ChatScreen() {
               </Text>
               <Text style={styles.emptySub}>
                 I'll be honest when I'm not sure about something — and I can always
-                submit your question anonymously to a real person who can check it.
+                submit your question anonymously to our admin team, who can check it.
               </Text>
             </View>
           )}
@@ -300,10 +349,30 @@ export default function ChatScreen() {
           >
             <Text style={styles.factCheckText}>
               {submittingFC
-                ? 'Bringing this to a real person…'
-                : 'Want a real person to weigh in? Bring this conversation to them →'}
+                ? 'Bringing this to our admin team…'
+                : 'Want a real person on our admin team to weigh in? Bring this conversation to them →'}
             </Text>
           </TouchableOpacity>
+        )}
+
+        {/* ── Consent chips — the explicit yes/no for the restored perspective ── */}
+        {showConsentChips && (
+          <View style={styles.consentRow}>
+            <TouchableOpacity
+              style={[styles.consentChip, styles.consentYes]}
+              activeOpacity={0.8}
+              onPress={handleConsentYes}
+            >
+              <Text style={styles.consentYesText}>Yes, share the restored perspective</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={[styles.consentChip, styles.consentNo]}
+              activeOpacity={0.8}
+              onPress={handleConsentNo}
+            >
+              <Text style={styles.consentNoText}>No, stay with the Bible view for now</Text>
+            </TouchableOpacity>
+          </View>
         )}
 
         {/* ── Input bar ─────────────────────────────────────────────────── */}
@@ -450,6 +519,23 @@ const styles = StyleSheet.create({
     fontSize: 11, fontFamily: 'Jost_400Regular', color: colors.blue,
     fontStyle: 'italic', lineHeight: 16,
   },
+
+  // The explicit-consent chips: a warm, unpressured yes/no. The "yes" is gently
+  // emphasized; the "no" is equally easy to choose — declining must never feel
+  // like the lesser option.
+  consentRow: {
+    flexDirection: 'row', flexWrap: 'wrap', gap: spacing.xs,
+    marginHorizontal: spacing.md, marginBottom: spacing.xs,
+  },
+  consentChip: {
+    flexGrow: 1, flexBasis: '47%',
+    borderWidth: 1, borderRadius: radius.md,
+    paddingVertical: 10, paddingHorizontal: 12,
+  },
+  consentYes:     { borderColor: colors.blue, backgroundColor: colors.blue + '14' },
+  consentNo:      { borderColor: colors.borderDim },
+  consentYesText: { fontSize: 12, fontFamily: 'Jost_400Regular', color: colors.blue, textAlign: 'center' },
+  consentNoText:  { fontSize: 12, fontFamily: 'Jost_400Regular', color: colors.textDim, textAlign: 'center' },
 
   inputBar: {
     flexDirection: 'row', alignItems: 'flex-end',
