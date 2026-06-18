@@ -382,6 +382,17 @@ function generateId(): string {
   return Math.random().toString(36).slice(2) + Date.now().toString(36);
 }
 
+// Blessing pop-ups are generated ASYNC (generateBlessing takes a moment). If a
+// person answers several questions in a row, each fires its own request and they
+// can resolve OUT OF ORDER — so the pop-up that ends up showing (and what its
+// "talk about it" carries into chat) could belong to an OLDER question. This
+// counter fixes that: every new act bumps it, each request remembers the value it
+// was issued under, and a resolved blessing is only shown if it is STILL the
+// latest. Dismissing or carrying a blessing also bumps it, so an in-flight one
+// from a superseded act never pops up after the fact. Net effect: the pop-up is
+// ALWAYS from the person's most recent action — exactly one, always current.
+let blessingSeq = 0;
+
 // Avoid handing back the same blessing twice in a row, so the encouragement
 // never feels canned. Tracks only the last line shown, across all pools.
 let lastBlessing = '';
@@ -2125,8 +2136,15 @@ export const useAppStore = create<AppState & AppActions>()(
       // word, a firm correction, or silence (no popup at all). It is handed every
       // line it has spoken before, so it never repeats itself. Fire-and-forget.
       blessPersonalized(kind, context, meta) {
+        // A new act supersedes whatever pop-up is still on screen: bump the counter
+        // and dismiss the current card NOW, so what shows is always the most recent.
+        const mySeq = ++blessingSeq;
+        if (get().blessing) set({ blessing: null });
         generateBlessing(kind, context ?? '', get().blessingHistory).then(line => {
           if (!line) return;            // silence is a valid, honest response
+          // If the person has acted again (or dismissed) since this was requested,
+          // this blessing is stale — discard it rather than overwrite the newer one.
+          if (mySeq !== blessingSeq) return;
           // Carry WHAT it was about (the question and their answer), so a
           // swipe-right opens a real conversation about that exact moment.
           get().showBlessing({
@@ -2148,6 +2166,9 @@ export const useAppStore = create<AppState & AppActions>()(
       },
 
       clearBlessing() {
+        // Bump the counter so any blessing still being generated is discarded when
+        // it resolves — once they've closed the card, nothing should pop back up.
+        blessingSeq++;
         set({ blessing: null });
       },
 
@@ -2164,6 +2185,8 @@ export const useAppStore = create<AppState & AppActions>()(
         if (card.line)     parts.push(`Then this came back to me: “${card.line.trim()}”`);
         parts.push('Can we talk about it?');
         // Start fresh — carrying a moment into chat opens a NEW conversation.
+        // Bump the counter so a still-generating blessing doesn't pop up in chat.
+        blessingSeq++;
         get().newChat();
         set({ chatDraft: parts.join('\n'), blessing: null });
       },
