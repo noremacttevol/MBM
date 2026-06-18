@@ -2287,9 +2287,19 @@ export const useAppStore = create<AppState & AppActions>()(
           `sincerity: ${traits.sincerity.toFixed(1)}/10`,
         ].join(', ');
 
+        // Journal reflections — MOST were written in answer to a PROMPT, so we carry
+        // the prompt with the answer. A bare answer like "how?" is meaningless (and
+        // misleading) without the question it was responding to. Free-writes have no
+        // prompt and are marked as such.
         const recentJournal = state.journalEntries
-          .slice(0, 2)
-          .map(e => `"${e.text.slice(0, 120)}"`)
+          .slice(0, 3)
+          .map(e => {
+            const a = (e.text || '').replace(/\s+/g, ' ').trim().slice(0, 140);
+            const p = (e.promptText || '').replace(/\s+/g, ' ').trim();
+            return p
+              ? `to the prompt "${p}" they reflected: "${a}"`
+              : `they journaled freely: "${a}"`;
+          })
           .join(' / ');
 
         // Live guidance derived from the connection engine — the milk gate, where
@@ -2389,10 +2399,14 @@ export const useAppStore = create<AppState & AppActions>()(
 - FRAMEWORK DISCERNMENT (internal only, NEVER spoken): if they come from a Reformed/Calvinist framework, the framework itself carries a harsh, sovereignty-over-goodness picture of God. Do not treat a warm sentence as proof they already trust a good God. Use the comparison method (law 4): set the Jesus they accept beside the harsh picture and ask ONE open question. The god-good gate stays CLOSED until they reject the harsh picture in their OWN words AND affirm God is good — two witnesses, not one.
 - ONE CONCRETE INVITATION: when it genuinely fits, leave them with ONE small, doable thing they could actually try before next time (a verse to sit with, a quiet honest prayer, noticing one good thing) — concrete, never a homework list, never pressure. If the moment doesn't call for it, don't force one.`;
 
-        // THEIR SAVED NOTES — things they chose to KEEP. The AI may recognize a
-        // repeat from these (and ONLY these) — never from past chats they didn't save.
+        // THEIR JOURNAL REFLECTIONS — entries they wrote in the journal. IMPORTANT:
+        // most are ANSWERS to a prompt (shown here as 'to the prompt "X" they
+        // reflected: "Y"'), so treat a short answer as a reflection ON that prompt,
+        // never as a standalone statement they "kept." Do not call these "notes they
+        // saved" — they are journal reflections. The AI may recognize a repeat from
+        // these — never from past chats that were not written down.
         const notesGuidance = recentJournal
-          ? `\n\n[THEIR SAVED NOTES — things they chose to keep: ${recentJournal}. If what they are asking now is clearly about one of these, gently recognize it — "we've sat with this before; it's in your notes" — and then build on it in a FRESH way, adding to it, rather than repeating yourself word for word. These saved notes are the only past you remember; if something was NOT kept as a note, do not act as though you recall it.]`
+          ? `\n\n[THEIR JOURNAL REFLECTIONS — written in their journal; most are answers to a prompt, given here as the prompt AND their answer together: ${recentJournal}. Always read a short answer in light of the prompt it was responding to — e.g. "how?" to a prompt about the restored Church means "how was it restored / how would I know," not the bare word. If what they are asking now is clearly about one of these, gently recognize it — "we've sat with this before" — and build on it FRESH, never repeating yourself word for word. These journal reflections are the only past you remember; if something was NOT written down, do not act as though you recall it.]`
           : '';
 
         // SCRIPTURE at the level they've earned: the Bible is always available (milk);

@@ -61,11 +61,28 @@ export default function JournalScreen() {
     ]);
   }
 
-  // Carry a saved entry or kept note into a fresh TAI chat to talk it through.
+  // Carry a KEPT NOTE (something the person clipped from the feed, a story, a
+  // chat line) into a fresh chat. Framed as "something I kept" — which is true
+  // for notes, but NOT for journal answers (see talkAboutEntry).
   function talkAbout(what: string) {
     const clean = (what || '').replace(/\s+/g, ' ').trim();
     if (!clean) return;
     prefillChat(`I'd like to talk about something I kept: “${clean}”. What do you make of it, and what would you ask me about it?`);
+    navigation.navigate('Chat');
+  }
+
+  // Carry a JOURNAL ENTRY into chat. Crucial difference from talkAbout: a journal
+  // entry is the person's ANSWER to a prompt — so we MUST carry the prompt too,
+  // and frame it as a reflection they wrote, not a clipping they "kept." Without
+  // the prompt the AI sees a bare answer (e.g. "how?") with no context and rambles.
+  function talkAboutEntry(promptText: string | undefined, text: string) {
+    const answer = (text || '').replace(/\s+/g, ' ').trim();
+    if (!answer) return;
+    const prompt = (promptText || '').replace(/\s+/g, ' ').trim();
+    const msg = prompt
+      ? `In my journal I was reflecting on this prompt: “${prompt}” — and what I wrote was: “${answer}”. Can we talk about it? What do you make of my answer, and what would you ask me about it?`
+      : `In my journal I wrote this freely: “${answer}”. Can we talk about it? What do you make of it, and what would you ask me about it?`;
+    prefillChat(msg);
     navigation.navigate('Chat');
   }
 
@@ -447,7 +464,7 @@ export default function JournalScreen() {
                         <>
                           <Text style={styles.entryText}>{entry.text}</Text>
                           <View style={styles.entryActions}>
-                            <TouchableOpacity activeOpacity={0.7} onPress={() => talkAbout(entry.text)}>
+                            <TouchableOpacity activeOpacity={0.7} onPress={() => talkAboutEntry(entry.promptText, entry.text)}>
                               <Text style={styles.talkLink}>Talk about it →</Text>
                             </TouchableOpacity>
                             <TouchableOpacity activeOpacity={0.7} onPress={() => { setEditingEntryId(entry.id); setEditEntryDraft(entry.text); }}>
