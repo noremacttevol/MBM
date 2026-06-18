@@ -2,10 +2,11 @@ import React, { useState, useRef, useEffect } from 'react';
 import {
   View, Text, TextInput, TouchableOpacity, ScrollView,
   StyleSheet, KeyboardAvoidingView, Platform,
-  ActivityIndicator, Alert, Animated,
+  ActivityIndicator, Animated,
 } from 'react-native';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
+import { confirmAction, notify } from '../lib/confirm';
 import { useAppStore, isRestorationReady } from '../store/useAppStore';
 import ConnectCard from '../components/ConnectCard';
 import SaveNoteLink from '../components/SaveNoteLink';
@@ -56,13 +57,11 @@ export default function ChatScreen() {
   const declineRestorationConsent = useAppStore(s => s.declineRestorationConsent);
 
   function confirmDeleteSession(id: string, title: string) {
-    Alert.alert(
+    confirmAction(
       'Delete this conversation?',
       `"${title || 'Conversation'}" will be removed for good.`,
-      [
-        { text: 'Cancel', style: 'cancel' },
-        { text: 'Delete', style: 'destructive', onPress: () => deleteChatSession(id) },
-      ],
+      () => deleteChatSession(id),
+      { confirmLabel: 'Delete' },
     );
   }
 
@@ -157,7 +156,7 @@ export default function ChatScreen() {
       setShowConnect(true);
       flashCopiedBanner();
     } else {
-      Alert.alert('Nothing to send yet', 'Ask something first, then bring it to our admin team.');
+      notify('Nothing to send yet', 'Ask something first, then bring it to our admin team.');
     }
   }
 

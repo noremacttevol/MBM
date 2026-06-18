@@ -17,11 +17,11 @@ import {
   StyleSheet,
   KeyboardAvoidingView,
   Platform,
-  Alert,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation } from '@react-navigation/native';
+import { confirmAction } from '../lib/confirm';
 import { useAppStore, isMemberSignal } from '../store/useAppStore';
 import { TraitKey } from '../data/questionBank';
 import { christlikeCap } from '../engine/connect';
@@ -384,13 +384,11 @@ export default function ProfileScreen() {
                   <Text style={styles.beliefDate}>{fmtDate(b.ts)}</Text>
                   <TouchableOpacity
                     activeOpacity={0.7}
-                    onPress={() => Alert.alert(
+                    onPress={() => confirmAction(
                       'Remove this record?',
                       'The app will stop keeping this change in your history.',
-                      [
-                        { text: 'Cancel', style: 'cancel' },
-                        { text: 'Remove', style: 'destructive', onPress: () => deleteBeliefChange(b.ts) },
-                      ],
+                      () => deleteBeliefChange(b.ts),
+                      { confirmLabel: 'Remove' },
                     )}
                   >
                     <Text style={styles.removeText}>Remove</Text>
@@ -472,13 +470,11 @@ export default function ProfileScreen() {
                   </TouchableOpacity>
                   <TouchableOpacity
                     activeOpacity={0.7}
-                    onPress={() => Alert.alert(
+                    onPress={() => confirmAction(
                       'Remove this from your story?',
                       'It will be deleted and the app will stop holding it for you.',
-                      [
-                        { text: 'Cancel', style: 'cancel' },
-                        { text: 'Remove', style: 'destructive', onPress: () => deleteMoment(m.ts) },
-                      ],
+                      () => deleteMoment(m.ts),
+                      { confirmLabel: 'Remove' },
                     )}
                   >
                     <Text style={styles.removeText}>Remove</Text>
@@ -539,13 +535,11 @@ export default function ProfileScreen() {
                       </TouchableOpacity>
                       <TouchableOpacity
                         activeOpacity={0.7}
-                        onPress={() => Alert.alert(
+                        onPress={() => confirmAction(
                           'Remove this answer?',
                           'It will be taken off your profile, and the app may gently ask it again sometime.',
-                          [
-                            { text: 'Cancel', style: 'cancel' },
-                            { text: 'Remove', style: 'destructive', onPress: () => removeAnsweredQuestion(q.id) },
-                          ],
+                          () => removeAnsweredQuestion(q.id),
+                          { confirmLabel: 'Remove' },
                         )}
                       >
                         <Text style={styles.removeText}>Remove</Text>

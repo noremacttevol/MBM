@@ -9,12 +9,12 @@ import {
   KeyboardAvoidingView,
   Platform,
   Animated,
-  Alert,
   Modal,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation } from '@react-navigation/native';
+import { confirmAction } from '../lib/confirm';
 import { useAppStore, generateBlessing, NoteSource } from '../store/useAppStore';
 import { getCurrentPrompt, getPromptSuggestions, JournalPrompt } from '../data/journalPrompts';
 import { colors, spacing, radius } from '../theme';
@@ -55,10 +55,7 @@ export default function JournalScreen() {
   const [editEntryDraft, setEditEntryDraft] = useState('');
 
   function confirmDelete(label: string, onDelete: () => void) {
-    Alert.alert(`Delete this ${label}?`, 'It will be removed for good.', [
-      { text: 'Cancel', style: 'cancel' },
-      { text: 'Delete', style: 'destructive', onPress: onDelete },
-    ]);
+    confirmAction(`Delete this ${label}?`, 'It will be removed for good.', onDelete, { confirmLabel: 'Delete' });
   }
 
   // Carry a KEPT NOTE (something the person clipped from the feed, a story, a

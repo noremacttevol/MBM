@@ -31,8 +31,8 @@ import {
   StyleSheet,
   Linking,
   ActivityIndicator,
-  Alert,
 } from 'react-native';
+import { confirmAction } from '../lib/confirm';
 import { useAppStore, isMissionaryReady, selectRealThreads } from '../store/useAppStore';
 import { isMessagingConfigured, InboxMessage } from '../lib/messaging';
 import { MISSIONARY_CONTACT_URL } from '../engine/connect';
@@ -91,13 +91,11 @@ export default function ConnectCard({ compact = false }: Props) {
   // Confirm, then withdraw a conversation: tells the admin team to disregard it
   // and removes it from the person's list.
   function confirmCancel(threadId: string, title: string) {
-    Alert.alert(
+    confirmAction(
       'Cancel this request?',
       `“${title || 'This conversation'}” will be withdrawn — the admin team will be told to disregard it, and it will be removed from your list.`,
-      [
-        { text: 'Keep it', style: 'cancel' },
-        { text: 'Cancel request', style: 'destructive', onPress: () => { cancelRealThread(threadId); } },
-      ],
+      () => cancelRealThread(threadId),
+      { confirmLabel: 'Cancel request', cancelLabel: 'Keep it' },
     );
   }
   const activeThread = threads.find(t => t.id === activeRealThreadId) || null;
