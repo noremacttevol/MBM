@@ -49,6 +49,7 @@ export default function ChatScreen() {
   const inboxMessages   = useAppStore(s => s.inboxMessages);
   const inboxUnread     = useAppStore(s => s.inboxUnread);
   const deleteChatSession = useAppStore(s => s.deleteChatSession);
+  const closeRealPersonThread = useAppStore(s => s.closeRealPersonThread);
   const dialogueSignals     = useAppStore(s => s.dialogueSignals);
   const restorationConsent  = useAppStore(s => s.restorationConsent);
   const grantRestorationConsent   = useAppStore(s => s.grantRestorationConsent);
@@ -196,11 +197,18 @@ export default function ChatScreen() {
           >
             <Text style={styles.headerBtnText}>History ▾</Text>
           </TouchableOpacity>
-          {/* A real person is ALWAYS one tap away — never gated (CLAUDE.md law). */}
+          {/* A real person is ALWAYS one tap away — never gated (CLAUDE.md law).
+              Opening it lands on the real-person conversation LIST (its own history,
+              with its own + New), kept entirely separate from the AI history above. */}
           <TouchableOpacity
             style={[styles.headerBtn, styles.personBtn]}
             activeOpacity={0.75}
-            onPress={() => { setShowConnect(v => !v); setShowHistory(false); }}
+            onPress={() => {
+              const next = !showConnect;
+              setShowConnect(next);
+              setShowHistory(false);
+              if (next) closeRealPersonThread(); // open to the list, not a stale thread
+            }}
           >
             <Text style={[styles.headerBtnText, styles.personBtnText]}>Real person</Text>
           </TouchableOpacity>
@@ -217,29 +225,15 @@ export default function ChatScreen() {
         </Animated.View>
       )}
 
-      {/* History dropdown — past conversations as titles, newest first. */}
+      {/* History dropdown — past "Talk About It" (AI) conversations only. The
+          real-person history lives under its own "Real person" button, kept
+          separate so the two are never tangled together. */}
       {showHistory && (
         <View style={styles.historyPanel}>
           <Text style={styles.historyHeading}>Past conversations</Text>
           <ScrollView style={styles.historyScroll} nestedScrollEnabled keyboardShouldPersistTaps="handled">
-          {chatSessions.length === 0 && inboxMessages.length === 0 && (
+          {chatSessions.length === 0 && (
             <Text style={styles.historyEmpty}>No past conversations yet.</Text>
-          )}
-          {/* The real-person thread sits at the TOP, and a new reply is flagged in
-              blue — so a human's answer always rises to the top of the list. */}
-          {inboxMessages.length > 0 && (
-            <TouchableOpacity
-              style={styles.historyRow}
-              activeOpacity={0.7}
-              onPress={() => { setShowConnect(true); setShowHistory(false); }}
-            >
-              <Text style={[styles.historyTitle, { color: colors.blue }]} numberOfLines={1}>
-                Our admin team{inboxUnread > 0 ? ' — new reply' : ''}
-              </Text>
-              {inboxUnread > 0 && (
-                <Text style={[styles.historyDate, { color: colors.blue }]}>{inboxUnread} new</Text>
-              )}
-            </TouchableOpacity>
           )}
           {chatSessions.map(sess => (
             <TouchableOpacity

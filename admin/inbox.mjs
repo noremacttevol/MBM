@@ -167,7 +167,7 @@ async function listThreads() {
   for (const m of msgs) {
     const key = keyOf(m.user_id, m.thread_id);
     if (!byKey.has(key)) {
-      byKey.set(key, { key, uid: m.user_id, threadId: m.thread_id, messages: [], unread: 0, stage: null, crisis: false });
+      byKey.set(key, { key, uid: m.user_id, threadId: m.thread_id, messages: [], unread: 0, stage: null, crisis: false, cancelled: false });
     }
     const t = byKey.get(key);
     t.messages.push(m);
@@ -175,6 +175,8 @@ async function listThreads() {
     if (m.sender === 'user' && m.journey_stage) t.stage = m.journey_stage;
     // A single crisis-flagged message marks the whole conversation for first triage.
     if (m.sender === 'user' && m.priority === 'crisis') t.crisis = true;
+    // The person withdrew this request — they no longer want a reply.
+    if (m.sender === 'user' && m.priority === 'cancelled') t.cancelled = true;
   }
   const threads = [...byKey.values()].map(t => {
     const last = t.messages[t.messages.length - 1];
@@ -188,6 +190,7 @@ async function listThreads() {
       unread:           t.unread,
       stage:            t.stage,
       crisis:           t.crisis,
+      cancelled:        t.cancelled,
       count:            t.messages.length,
       status,
       status_label:     STATUS_LABEL[status] ?? status,
@@ -199,6 +202,8 @@ async function listThreads() {
   // each group, newest activity first.
   const rank = s => (s === 'needs_reply' ? 0 : s === 'answered' ? 1 : 2);
   threads.sort((a, b) => {
+    // Cancelled requests sink to the bottom (nothing to act on); crisis rises to top.
+    if (a.cancelled !== b.cancelled) return a.cancelled ? 1 : -1;
     if (a.crisis !== b.crisis) return a.crisis ? -1 : 1;
     const r = rank(a.status) - rank(b.status);
     if (r !== 0) return r;
@@ -401,6 +406,9 @@ const PAGE = `<!doctype html>
   .t.crisis{border-left:3px solid #e5484d;}
   .crisisbadge{font-size:10px;font-weight:700;color:#fff;background:#e5484d;
          padding:1px 6px;border-radius:8px;letter-spacing:.5px;}
+  .t.cancelled{opacity:.55;}
+  .cancelbadge{font-size:10px;font-weight:700;color:#0a0f0a;background:var(--muted);
+         padding:1px 6px;border-radius:8px;letter-spacing:.5px;}
   #right{flex:1;display:flex;flex-direction:column;}
   #ctx{padding:12px 20px;border-bottom:1px solid var(--border);display:none;
        align-items:center;justify-content:space-between;gap:12px;}
@@ -495,9 +503,9 @@ const PAGE = `<!doctype html>
       return;
     }
     box.innerHTML = view.map(t => \`
-      <div class="t \${t.key===current?'active':''} \${t.crisis?'crisis':''}" onclick="openThread('\${esc(t.key)}')">
+      <div class="t \${t.key===current?'active':''} \${t.crisis?'crisis':''} \${t.cancelled?'cancelled':''}" onclick="openThread('\${esc(t.key)}')">
         <div class="who">
-          <span class="stage">\${t.crisis?'<span class="crisisbadge">⚠ CRISIS</span> ':''}\${esc(t.stage||'')}</span>
+          <span class="stage">\${t.crisis?'<span class="crisisbadge">⚠ CRISIS</span> ':''}\${t.cancelled?'<span class="cancelbadge">CANCELLED</span> ':''}\${esc(t.stage||'')}</span>
           <span style="display:flex;gap:6px;align-items:center;">
             \${t.unread?'<span class="dot">'+t.unread+'</span>':''}
             <span class="badge \${t.status}">\${esc(t.status_label||'')}</span>
@@ -508,9 +516,48 @@ const PAGE = `<!doctype html>
       </div>\`).join('');
   }
 
+  // ── New-message alerts (sound + desktop notification + tab badge) ──────────
+  // The desk polls every 5s; when the total unread COUNT goes up, ping the admin
+  // so they don't have to stare at this tab. Works whenever the desk is open in a
+  // browser (even in a background tab). Cancelled requests don't count as new.
+  let lastUnreadTotal = null;
+  const BASE_TITLE = 'MBM — ministry console';
+  function beep(){
+    try {
+      const AC = window.AudioContext || window.webkitAudioContext;
+      const ctx = new AC();
+      const o = ctx.createOscillator(), g = ctx.createGain();
+      o.connect(g); g.connect(ctx.destination);
+      o.type = 'sine'; o.frequency.value = 880;
+      g.gain.setValueAtTime(0.001, ctx.currentTime);
+      g.gain.exponentialRampToValueAtTime(0.25, ctx.currentTime + 0.02);
+      g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.5);
+      o.start(); o.stop(ctx.currentTime + 0.5);
+    } catch (e) { /* no audio available — the title badge + notification still fire */ }
+  }
+  function notifyNew(list){
+    const total = list.reduce((n, t) => n + (t.cancelled ? 0 : (t.unread || 0)), 0);
+    const anyCrisis = list.some(t => t.crisis && t.unread > 0);
+    document.title = total > 0 ? '(' + total + ') ' + BASE_TITLE : BASE_TITLE;
+    if (lastUnreadTotal !== null && total > lastUnreadTotal) {
+      beep();
+      try {
+        if ('Notification' in window && Notification.permission === 'granted') {
+          const n = new Notification(anyCrisis ? '⚠ Someone in crisis just wrote in' : 'New message for the admin team', {
+            body: anyCrisis ? 'Open the console and reply right away.' : 'Someone is waiting for a real person. Open the console to reply.',
+            requireInteraction: !!anyCrisis,
+          });
+          n.onclick = () => { window.focus(); };
+        }
+      } catch (e) { /* notifications unavailable — sound + title badge still work */ }
+    }
+    lastUnreadTotal = total;
+  }
+
   async function loadThreads(){
     const r = await fetch('/api/threads'); lastList = await r.json();
     renderThreads(lastList);
+    notifyNew(lastList);
   }
 
   async function openThread(key){
@@ -560,6 +607,8 @@ const PAGE = `<!doctype html>
     openThread(current);
   };
 
+  // Ask once for permission to show desktop notifications when a message arrives.
+  try { if ('Notification' in window && Notification.permission === 'default') Notification.requestPermission(); } catch (e) {}
   loadMe();
   loadThreads();
   setInterval(() => { loadThreads(); if(current) openThread(current); }, 5000);

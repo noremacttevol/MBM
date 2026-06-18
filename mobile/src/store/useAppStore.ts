@@ -939,6 +939,11 @@ interface AppState {
   // Which real-person conversation is currently open. null = show the thread list /
   // start a new one. A fresh id here (not yet in inboxMessages) means "new chat."
   activeRealThreadId:  string | null;
+  // Real-person threads the person chose to cancel/withdraw. They are hidden from
+  // the person's own list (so they don't see a request they took back), and a
+  // cancellation note has been sent to the admin team. Persisted so they stay
+  // hidden across reloads even though inboxMessages reloads from the server.
+  cancelledThreadIds:  string[];
 
   // The person, in their own words — never labels, never numbers shown to them
   name:                string | null;
@@ -1015,6 +1020,9 @@ interface AppActions {
   openRealPersonThread: (id: string) => void;
   // Back out to the conversation list (no conversation open).
   closeRealPersonThread: () => void;
+  // Cancel/withdraw a real-person conversation: send a short cancellation note to
+  // the admin team (so they know not to act on it) and hide it from the person's list.
+  cancelRealThread: (threadId: string) => Promise<void>;
   // Carry the CURRENT ai conversation to a real person: summarize the AI's answer,
   // open a NEW titled real-person thread with it, and leave it waiting for a reply.
   escalateToRealPerson: () => Promise<boolean>;
@@ -1089,6 +1097,7 @@ const initialState: AppState = {
   inboxLoading:        false,
   inboxUnread:         0,
   activeRealThreadId:  null,
+  cancelledThreadIds:  [],
   name:                null,
   faithWords:          [],
   beliefHistory:       [],
@@ -1177,6 +1186,7 @@ export const useAppStore = create<AppState & AppActions>()(
           doneExerciseIds:     [],
           chatDraft:           '',
           blessing:            null,
+          cancelledThreadIds:  [],
           // YOUR STORY SO FAR begins the moment they walk in.
           moments: [{ title: 'You walked in', text: 'You came, and you stayed long enough to be met.', ts: Date.now() }],
         });
@@ -1811,6 +1821,28 @@ export const useAppStore = create<AppState & AppActions>()(
 
       // Back out to the conversation list — no conversation open.
       closeRealPersonThread() {
+        set({ activeRealThreadId: null });
+      },
+
+      // Cancel/withdraw a real-person conversation. Someone may try the button, see
+      // their message was sent, and want to take it back. So we: (1) send a short,
+      // polite cancellation note INTO that thread (flagged 'cancelled') so the admin
+      // team plainly sees it's withdrawn and won't act on it; (2) hide the thread
+      // from the person's own list going forward. We do NOT hard-delete from the
+      // server (the admin still needs to see it was cancelled).
+      async cancelRealThread(threadId) {
+        if (!threadId) return;
+        // Open the thread so the cancellation note is sent into the right one.
+        set(s => ({
+          activeRealThreadId: threadId,
+          cancelledThreadIds: Array.from(new Set([...s.cancelledThreadIds, threadId])),
+        }));
+        await get().sendConnectMessage(
+          'Please disregard this — I’d like to cancel this request. Thank you.',
+          undefined,
+          'cancelled',
+        );
+        // Back to the list; the thread is now hidden for the person.
         set({ activeRealThreadId: null });
       },
 
@@ -2659,6 +2691,7 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
         chatSessions:        state.chatSessions,
         blessingHistory:     state.blessingHistory,
         connectRequests:     state.connectRequests,
+        cancelledThreadIds:  state.cancelledThreadIds,
         name:                state.name,
         faithWords:          state.faithWords,
         beliefHistory:       state.beliefHistory,

@@ -31,6 +31,7 @@ import {
   StyleSheet,
   Linking,
   ActivityIndicator,
+  Alert,
 } from 'react-native';
 import { useAppStore, isMissionaryReady, selectRealThreads } from '../store/useAppStore';
 import { isMessagingConfigured, InboxMessage } from '../lib/messaging';
@@ -79,10 +80,26 @@ export default function ConnectCard({ compact = false }: Props) {
   const openRealPersonThread  = useAppStore(s => s.openRealPersonThread);
   const newRealPersonThread   = useAppStore(s => s.newRealPersonThread);
   const closeRealPersonThread = useAppStore(s => s.closeRealPersonThread);
+  const cancelledThreadIds    = useAppStore(s => s.cancelledThreadIds);
+  const cancelRealThread      = useAppStore(s => s.cancelRealThread);
   const missionaryReady       = isMissionaryReady(dialogueSignals);
 
-  // Every real-person message, grouped into separate titled conversations.
-  const threads      = selectRealThreads(inboxMessages);
+  // Every real-person message, grouped into separate titled conversations —
+  // minus any the person has cancelled (hidden from their own list).
+  const threads      = selectRealThreads(inboxMessages).filter(t => !cancelledThreadIds.includes(t.id));
+
+  // Confirm, then withdraw a conversation: tells the admin team to disregard it
+  // and removes it from the person's list.
+  function confirmCancel(threadId: string, title: string) {
+    Alert.alert(
+      'Cancel this request?',
+      `“${title || 'This conversation'}” will be withdrawn — the admin team will be told to disregard it, and it will be removed from your list.`,
+      [
+        { text: 'Keep it', style: 'cancel' },
+        { text: 'Cancel request', style: 'destructive', onPress: () => { cancelRealThread(threadId); } },
+      ],
+    );
+  }
   const activeThread = threads.find(t => t.id === activeRealThreadId) || null;
   // A conversation the person just started, with nothing sent into it yet.
   const inNewEmpty   = !!activeRealThreadId && !activeThread;
@@ -139,6 +156,12 @@ export default function ConnectCard({ compact = false }: Props) {
             </TouchableOpacity>
           )}
           <Text style={[styles.title, { flex: 1 }]} numberOfLines={1}>{title}</Text>
+          {/* Withdraw this request — only meaningful once it's a real, sent thread. */}
+          {activeThread && (
+            <TouchableOpacity activeOpacity={0.7} onPress={() => confirmCancel(activeThread.id, activeThread.title)}>
+              <Text style={styles.cancelInline}>Cancel</Text>
+            </TouchableOpacity>
+          )}
           {/* Start another conversation right from inside one — no dead ends. */}
           <TouchableOpacity activeOpacity={0.7} onPress={() => newRealPersonThread()}>
             <Text style={styles.newInline}>+ New</Text>
@@ -209,10 +232,17 @@ export default function ConnectCard({ compact = false }: Props) {
   }
 
   // ── The conversation list — many separate real-person threads ───────────────
+  // This IS the real-person history, with the "New" button right beside it, kept
+  // entirely separate from the AI "Talk About It" history.
   if (threads.length > 0) {
     return (
       <View style={[styles.card, compact && styles.cardCompact]}>
-        <Text style={styles.title}>Your conversations with our admin team</Text>
+        <View style={styles.listHeader}>
+          <Text style={[styles.title, { marginBottom: 0, flex: 1 }]}>Your messages with the admin team</Text>
+          <TouchableOpacity activeOpacity={0.85} onPress={() => newRealPersonThread()}>
+            <Text style={styles.newInline}>+ New</Text>
+          </TouchableOpacity>
+        </View>
 
         {threads.map(t => (
           <TouchableOpacity
@@ -230,6 +260,13 @@ export default function ConnectCard({ compact = false }: Props) {
             <View style={styles.listRowSide}>
               {t.unread > 0 && <View style={styles.unreadDot} />}
               <Text style={styles.rowTime}>{shortTime(t.lastAt)}</Text>
+              <TouchableOpacity
+                activeOpacity={0.7}
+                hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+                onPress={() => confirmCancel(t.id, t.title)}
+              >
+                <Text style={styles.rowCancel}>Cancel</Text>
+              </TouchableOpacity>
             </View>
           </TouchableOpacity>
         ))}
@@ -344,6 +381,15 @@ const styles = StyleSheet.create({
   },
   newInline: {
     fontSize: 13, fontFamily: 'Jost_400Regular', color: colors.green, paddingVertical: 2, paddingLeft: 4,
+  },
+  cancelInline: {
+    fontSize: 13, fontFamily: 'Jost_400Regular', color: colors.textMuted, paddingVertical: 2, paddingHorizontal: 4,
+  },
+  listHeader: {
+    flexDirection: 'row', alignItems: 'center', gap: spacing.sm, marginBottom: spacing.sm,
+  },
+  rowCancel: {
+    fontSize: 11, fontFamily: 'Jost_400Regular', color: colors.textMuted, fontStyle: 'italic',
   },
 
   // ── Conversation list (multiple real-person threads) ────────────────────────
