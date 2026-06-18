@@ -269,25 +269,13 @@ export default function ProfileScreen() {
           {currentRungInfo && (
             <Text style={styles.interpretText}>{currentRungInfo.blurb}</Text>
           )}
-          {/* The ladder, shown openly — where this can grow, counting no one out. */}
-          <View style={{ marginTop: spacing.sm, marginBottom: spacing.xs }}>
-            {FAITH_LADDER.map(r => {
-              const here = r.key === currentRung;
-              return (
-                <Text
-                  key={r.key}
-                  style={{
-                    color: here ? colors.gold : colors.textMuted,
-                    fontWeight: here ? '700' : '400',
-                    fontSize: 13,
-                    paddingVertical: 1,
-                  }}
-                >
-                  {here ? '› ' : '    '}{r.label}
-                </Text>
-              );
-            })}
-          </View>
+          {/* Jesus met people where they were — He did not hand them a ladder showing
+              the whole route and where they ranked on it. So we reflect ONLY where a
+              person is right now, warmly, in their own words. We never lay out the
+              rungs ahead (especially the restored-gospel ones) — that would front-load
+              the destination and turn a quiet walk into a visible agenda. The journey
+              unfolds through relationship, not a progress chart. (FAITH_LADDER still
+              names the current standing above; the upward list is intentionally gone.) */}
 
           {faithWords.map((w, i) => (
             <View key={`${w.ts}-${i}`} style={styles.faithRow}>
