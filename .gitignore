@@ -82,3 +82,4 @@ Thumbs.db
 
 # Embedded legacy git repo — excluded to avoid a broken submodule pointer
 archive/legacy/MBM-mobile/
+web-preview/
