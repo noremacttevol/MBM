@@ -12,9 +12,9 @@ export const VALID_REPORT_TOKENS = new Set([
   'inactive_member', 'active_member', 'losing_faith',
   'pictures_harsh_god', 'pictures_distant_god', 'reformed_framework',
   'rejects_harsh_god', 'nontheistic_framework',
-  // A firm refusal to even examine the restored gospel — the "won't look" posture
-  // that, per the binding standard, caps the Christlike scale at 5. A soft "not
-  // right now" must NOT be reported as this; only a clear refusal to look.
+  // A firm refusal to even examine the restored gospel — the "won't look" posture.
+  // The minister honors it and does not re-offer. A soft "not right now" must NOT be
+  // reported as this; only a clear refusal to look.
   'declined_restoration',
 ]);
 
@@ -93,68 +93,11 @@ export function stripSignalReport(raw: string): { reply: string; found: string[]
   return { reply, found };
 }
 
-// ── The judge: trait deltas reported by the model ───────────────────────────
-// The seven spirit levels are not a vanity meter — they are an honest reading of
-// the person, the way Jesus saw people clearly. The model, having just read what
-// the person actually said, may move any level up OR down. A closed, proud, or
-// dishonest message can lower a level; real openness, courage, or humility raises
-// it. Deltas are clamped hard per message so one exchange can never swing wildly.
-
-export const VALID_TRAIT_KEYS = new Set([
-  'honest_inquiry', 'openness', 'humility', 'hunger',
-  'compassion', 'courage', 'sincerity',
-]);
-
-// The most any single message may move one level. Honest judgment, not whiplash.
-export const MAX_TRAIT_DELTA = 1.5;
-
-export const TRAIT_REPORT_INSTRUCTION =
-  '\n\n[SPIRIT READING — system instruction. The person never sees this.]\n' +
-  'You are the honest judge of seven spirit levels (0–10): honest_inquiry, openness, ' +
-  'humility, hunger, compassion, courage, sincerity. After your reply — on its own ' +
-  'final line, AFTER the signals line — output <traits>key:delta,key:delta</traits> ' +
-  'for any level THIS message genuinely moved, where delta is a number from -1.5 to ' +
-  '1.5. Raise a level when the person truly shows it (real honesty, humility, courage, ' +
-  'hunger, compassion). LOWER it when they genuinely show its opposite — pride, a closed ' +
-  'heart, evasion, contempt, self-righteousness, cruelty. Read clear-eyed and honest — ' +
-  'see pride or a closed heart for what it is, and real openness for what it is — but this ' +
-  'reading NEVER changes how you speak to them: your reply stays warm and gentle no matter ' +
-  'what you score, and you never argue, pressure, or get firm with anyone. Do NOT lower a ' +
-  'level for honest doubt, grief, pain, or simply not believing yet — those are not sins. ' +
-  'BE DECISIVE, NOT TIMID. Whenever a message clearly shows or clearly lacks one of these ' +
-  'qualities, REGISTER it — a real act of honesty or courage should move 0.6 to 1.2, a ' +
-  'striking one up to 1.5; clear pride or cruelty should move down by the same. Do not park ' +
-  'at neutral out of caution — a judge who never moves the scale is no judge at all, and the ' +
-  'person needs to feel honestly seen. Only truly flat, small-talk messages move nothing. ' +
-  'Never invent movement the words do not support. If genuinely none, output <traits>none</traits>. ' +
-  'CRITICAL — do not reward talking ABOUT the score: if the person asks why a level is low, ' +
-  'complains that it is unfair, asks how to raise it, or is plainly fishing for points, that is ' +
-  'NOT by itself evidence of any virtue and must move nothing. Score only the heart their words ' +
-  'actually reveal about God, themselves, and others — never their reaction to being measured. ' +
-  'Reward real reflection on their own life and on what they are learning (the kind of thing a ' +
-  'person writes in a journal) every bit as much as a sharp question — a sincere, vulnerable, or ' +
-  'honest reflection is real proof, not just clever questions. ' +
-  'This line is stripped before display; never mention it and never let it change your tone.';
-
-// Strip the <traits> report and return clamped, validated deltas.
-export function stripTraitReport(raw: string): { reply: string; deltas: Record<string, number> } {
-  const deltas: Record<string, number> = {};
-  const reply = (raw || '').replace(/<traits>([\s\S]*?)<\/traits>/gi, (_m, body: string) => {
-    body.split(/[\s,]+/).forEach((pair) => {
-      const [rawKey, rawVal] = pair.split(':');
-      const key = (rawKey || '').trim().toLowerCase();
-      const val = parseFloat((rawVal || '').trim());
-      if (!VALID_TRAIT_KEYS.has(key) || Number.isNaN(val)) return;
-      const clamped = Math.max(-MAX_TRAIT_DELTA, Math.min(MAX_TRAIT_DELTA, val));
-      // If the model lists a key twice, keep the larger-magnitude move.
-      if (deltas[key] === undefined || Math.abs(clamped) > Math.abs(deltas[key])) {
-        deltas[key] = clamped;
-      }
-    });
-    return '';
-  }).trim();
-  return { reply, deltas };
-}
+// NO SOUL-SCORING (Cameron, June 2026): the former "judge" — a hidden instruction
+// that asked the model to grade seven spirit levels and emit <traits> deltas — has
+// been removed entirely. The app does not score anyone's Christlikeness. Routing
+// comes only from the plain signals a person reveals (harvestSignals + the model's
+// <signals> report), and everything recorded is shown openly on the Profile.
 
 // Conservative keyword harvest — the fast, free backstop. The model report
 // does the nuanced reading; this guarantees the engine hears even without it.

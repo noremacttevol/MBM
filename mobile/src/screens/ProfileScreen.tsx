@@ -1,10 +1,11 @@
 /**
- * ProfileScreen — a mirror of the person's own words + their growing virtues.
+ * ProfileScreen — a mirror of the person's own words.
  *
- * Owner amendments (Law 4): routing state — the feed track, the milk gate, the
- * count of active signals — is OWNER-ONLY, forever. None of it appears here.
- * What the person sees is theirs: what we sense about them, the virtues growing
- * in them, their faith in their own words, and the story they have told so far.
+ * NO SOUL-SCORING (Cameron, June 2026): the app does NOT grade anyone's
+ * Christlikeness or assign virtue scores — not to seekers, not to members. Every
+ * piece of information the app keeps to know the person is shown here openly and
+ * can be read, edited, or removed. Owner-only routing internals (the feed track,
+ * the milk gate) are not shown; everything the app recorded ABOUT THE PERSON is.
  */
 
 import React, { useState } from 'react';
@@ -22,53 +23,12 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation } from '@react-navigation/native';
 import { confirmAction } from '../lib/confirm';
-import { useAppStore, isMemberSignal } from '../store/useAppStore';
-import { TraitKey } from '../data/questionBank';
-import { christlikeCap } from '../engine/connect';
+import { useAppStore, isMemberSignal, humanizeSignal } from '../store/useAppStore';
 import { colors, spacing, radius } from '../theme';
 
-// The settled standard: every dimension is named as a CHRISTLIKE measure, so the
-// label always matches what the number means — "how close to Christ's own," never
-// a bare verdict on whether someone is a good person. This is the rename that makes
-// the scale honest. Keep the "Christlike" prefix on every one.
-const TRAIT_LABELS: Record<TraitKey, string> = {
-  honest_inquiry: 'Christlike Honesty',
-  openness:       'Christlike Openness',
-  humility:       'Christlike Humility',
-  hunger:         'Christlike Hunger for Truth',
-  compassion:     'Christlike Compassion',
-  courage:        'Christlike Courage',
-  sincerity:      'Christlike Sincerity',
-};
-
-const TRAIT_DESCRIPTIONS: Record<TraitKey, string> = {
-  honest_inquiry: "How fully your honesty reflects Christ's own — sitting with hard questions in truth",
-  openness:       "How fully your openness reflects Christ's own — receptive to what God might reveal",
-  humility:       "How fully your humility reflects Christ's own — holding your certainties loosely",
-  hunger:         "How fully your hunger for truth reflects Christ's own — longing for the fullness He offers",
-  compassion:     "How fully your compassion reflects Christ's own — feeling what others carry",
-  courage:        "How fully your courage reflects Christ's own — facing and saying the true thing",
-  sincerity:      "How fully your sincerity reflects Christ's own — your heart and your life in one",
-};
-
-const TRAIT_ORDER: TraitKey[] = [
-  'hunger', 'sincerity', 'openness', 'honest_inquiry',
-  'courage', 'humility', 'compassion',
-];
-
-function interpretTraits(scores: Record<TraitKey, number>, feedTag: string, showTraitRead: boolean = true): string {
-  const hunger    = scores.hunger ?? 0;
-  const sincerity = scores.sincerity ?? 0;
-  const courage   = scores.courage ?? 0;
-  const openness  = scores.openness ?? 0;
-  const humility  = scores.humility ?? 0;
-
-  const dominant = TRAIT_ORDER
-    .map(k => ({ key: k, val: scores[k] ?? 0 }))
-    .sort((a, b) => b.val - a.val)
-    .slice(0, 2)
-    .map(t => TRAIT_LABELS[t.key].toLowerCase());
-
+// A warm "we are paying attention" reflection — built only from where the person
+// is and what they have said in their own words. It NEVER ranks or scores them.
+function interpretJourney(feedTag: string, signals: string[]): string {
   // Internal routing context only — the tag name is NEVER shown to the person.
   const tagContext: Record<string, string> = {
     MILK:        'You seem to be someone who has felt something — in a quiet moment, in a loss, in the way beauty sometimes arrives uninvited.',
@@ -79,31 +39,18 @@ function interpretTraits(scores: Record<TraitKey, number>, feedTag: string, show
 
   const opening = tagContext[feedTag] ?? tagContext['MILK'];
 
-  // The dominant-trait line is a soft ranking of the heart. We show it only to
-  // members (for whom the virtue read is a chosen striving tool); seekers get the
-  // warm "we see you" reflection without any sense of having been measured.
-  const traitLine = !showTraitRead
-    ? ''
-    : dominant.length >= 2
-      ? `What stands out most is your ${dominant[0]} and your ${dominant[1]}.`
-      : `What stands out most is your ${dominant[0]}.`;
-
   let closing = '';
-  if (hunger >= 7) {
+  if (signals.includes('searching') || signals.includes('wants_more')) {
     closing = "You are looking for something real. That longing is not accidental.";
-  } else if (sincerity >= 7) {
-    closing = "You mean what you say. That kind of sincerity is what genuine faith is built on.";
-  } else if (courage >= 7) {
-    closing = "You are willing to face things most people avoid. Keep going.";
-  } else if (openness >= 7) {
+  } else if (signals.includes('carrying_burden') || signals.includes('grieving')) {
+    closing = "You are carrying something heavy, and you are still here. That takes more than people know.";
+  } else if (signals.includes('open_to_god')) {
     closing = "You are staying open even when it would be easier to close. That matters.";
-  } else if (humility >= 7) {
-    closing = "You hold your certainties loosely. That is exactly the posture faith requires.";
   } else {
     closing = "You are still here, still asking. That is enough to start with.";
   }
 
-  return [opening, traitLine, closing].filter(Boolean).join(' ');
+  return [opening, closing].filter(Boolean).join(' ');
 }
 
 // "A faith you grew up in…" — describes their faith from signals WITHOUT ever
@@ -145,7 +92,6 @@ function fmtDate(ts: number): string {
 }
 
 export default function ProfileScreen() {
-  const traitScores         = useAppStore(s => s.traitScores);
   const feedTag             = useAppStore(s => s.feedTag);
   const openedIds           = useAppStore(s => s.openedIds);
   const answeredQuestionIds = useAppStore(s => s.answeredQuestionIds);
@@ -162,6 +108,7 @@ export default function ProfileScreen() {
   const addFaithWord        = useAppStore(s => s.addFaithWord);
   const beliefHistory       = useAppStore(s => s.beliefHistory);
   const deleteBeliefChange  = useAppStore(s => s.deleteBeliefChange);
+  const forgetSignal        = useAppStore(s => s.forgetSignal);
 
   const navigation = useNavigation<any>();
 
@@ -185,21 +132,12 @@ export default function ProfileScreen() {
   }
   const [addDraft,     setAddDraft]     = useState('');
 
-  // The Christlike ceiling: the score shown is never above what the person has
-  // earned the right to reach by where they stand toward the restored gospel's God.
-  // The raw climb is kept underneath (it drives the readiness gate); this only
-  // bounds what's displayed, so the number and the "Christlike" label always agree.
-  const christlikeCeiling = christlikeCap(dialogueSignals);
-  // MEMBERS-ONLY VISIBLE VIRTUES (Cameron, June 2026): seekers and milk-track
-  // users must NEVER see a number, bar, or "score" for their heart — being read
-  // and ranked is the opposite of grace and a real psychological-safety risk.
-  // The seven-virtue read is therefore shown ONLY to self-identified Latter-day
-  // Saints, for whom it is a freely-chosen "celestial 10/10" discipleship striving
-  // tool, not a verdict. The hidden judge (chatEar -> traitScores) keeps running
-  // for EVERYONE — it silently drives feed routing and the private context passed
-  // to the Minister AI — but those numbers stay invisible to non-members.
-  const showVirtues = isMemberSignal(dialogueSignals);
-  const interpretation = interpretTraits(traitScores, feedTag, showVirtues);
+  // The private member discipleship companion (self-chosen examen / reflection)
+  // is offered ONLY to self-identified Latter-day Saints. It is the member's own
+  // self-reflection tool — NOT the app scoring anyone.
+  const isMember = isMemberSignal(dialogueSignals);
+  // A warm reflection of where they are, in their own words — never a score.
+  const interpretation = interpretJourney(feedTag, dialogueSignals);
   // The faith-background ladder: where they stand in belief, named honestly and
   // shown to them, climbing on real steps they take. Counts no one out.
   const faithText   = faithWords.map(w => w.text).join(' ').toLowerCase();
@@ -210,15 +148,6 @@ export default function ProfileScreen() {
     const what = (detail && detail.trim()) ? detail.trim() : title;
     prefillChat(
       `Earlier in my story I shared this: “${what}”. Can we talk about it — what do you make of it, and what would you ask me about it?`,
-    );
-    navigation.navigate('Chat');
-  }
-
-  function talkAboutTrait(key: TraitKey) {
-    const label = TRAIT_LABELS[key].toLowerCase();
-    const score = Math.min(traitScores[key] ?? 0, christlikeCeiling).toFixed(1);
-    prefillChat(
-      `My ${label} level is at ${score} out of 10. Be honest with me — what have you seen in me that put it there, and what would actually help it grow?`,
     );
     navigation.navigate('Chat');
   }
@@ -275,6 +204,35 @@ export default function ProfileScreen() {
           <Text style={styles.sectionLabel}>WHAT WE SENSE ABOUT YOU</Text>
           <Text style={styles.interpretText}>{interpretation}</Text>
         </View>
+
+        {/* ── WHAT THE APP HAS NOTICED (Law 4 — nothing hidden) ──────────
+            Everything the app records to know you and meet you where you are is
+            shown here in plain words, and anything can be removed. Removing a line
+            truly un-learns it: it stops shaping what you're shown. */}
+        {dialogueSignals.length > 0 && (
+          <View style={styles.card}>
+            <Text style={styles.sectionLabel}>WHAT THE APP HAS NOTICED</Text>
+            <Text style={styles.sectionNote}>
+              These are the things the app has noticed to meet you where you are. Nothing here is hidden, and you can remove any of it anytime — removing a line tells the app to forget it.
+            </Text>
+            {dialogueSignals.map(sig => (
+              <View key={sig} style={styles.noticedRow}>
+                <Text style={styles.noticedText}>{humanizeSignal(sig)}</Text>
+                <TouchableOpacity
+                  activeOpacity={0.7}
+                  onPress={() => confirmAction(
+                    'Have the app forget this?',
+                    'The app will un-learn this and stop letting it shape what you see.',
+                    () => forgetSignal(sig),
+                    { confirmLabel: 'Forget it' },
+                  )}
+                >
+                  <Text style={styles.removeText}>Forget</Text>
+                </TouchableOpacity>
+              </View>
+            ))}
+          </View>
+        )}
 
         {/* ── YOUR FAITH, AS YOU'VE TOLD IT ───────────────────────────── */}
         {/* Always editable — a person can fix a typo or add context anytime. */}
@@ -400,7 +358,7 @@ export default function ProfileScreen() {
         )}
 
         {/* ── MY DISCIPLESHIP (members only) — the private "Walk with Christ" ── */}
-        {showVirtues && (
+        {isMember && (
           <TouchableOpacity
             style={[styles.card, styles.discipleCard]}
             activeOpacity={0.85}
@@ -413,41 +371,6 @@ export default function ProfileScreen() {
               examen, a record of your walk, and a few personal rhythms. Just for you.
             </Text>
           </TouchableOpacity>
-        )}
-
-        {/* ── WHAT'S GROWING IN YOU (members only) ──────────────────────
-            Shown ONLY to self-identified Latter-day Saints. For a member this
-            is a chosen discipleship striving tool ("celestial 10/10"). Seekers
-            and milk-track users never see any number or bar — being scored is
-            the opposite of the grace this app is built on. The judge still runs
-            silently for everyone; it just stays invisible here for non-members. */}
-        {showVirtues && (
-          <View style={styles.card}>
-            <Text style={styles.sectionLabel}>WHAT'S GROWING IN YOU</Text>
-            <Text style={styles.sectionNote}>
-              A disciple's mirror — not a verdict. These rise as you live what you already believe: real honesty, humility, courage. Aim for the celestial 10. Tap any one to talk it through.
-            </Text>
-
-            {TRAIT_ORDER.map(key => {
-              const score = Math.min(traitScores[key] ?? 0, christlikeCeiling);
-              const pct   = Math.round((score / 10) * 100);
-              return (
-                <View key={key} style={styles.traitRow}>
-                  <View style={styles.traitMeta}>
-                    <Text style={styles.traitName}>{TRAIT_LABELS[key]}</Text>
-                    <Text style={styles.traitDesc}>{TRAIT_DESCRIPTIONS[key]}</Text>
-                    <TouchableOpacity activeOpacity={0.7} onPress={() => talkAboutTrait(key)}>
-                      <Text style={styles.askText}>Talk About It →</Text>
-                    </TouchableOpacity>
-                  </View>
-                  <View style={styles.barTrack}>
-                    <View style={[styles.barFill, { width: `${pct}%` as any }]} />
-                  </View>
-                  <Text style={styles.traitScore}>{score.toFixed(1)}</Text>
-                </View>
-              );
-            })}
-          </View>
         )}
 
         {/* ── YOUR STORY SO FAR ───────────────────────────────────────── */}
@@ -572,6 +495,12 @@ export default function ProfileScreen() {
         <Text style={styles.footerNote}>
           This profile is private and lives only on your device.
           It exists to serve you, not to route you like a package.
+        </Text>
+
+        <Text style={styles.disclaimerNote}>
+          This app is not officially affiliated with, endorsed by, or
+          sponsored by any church. It is an independent space to explore
+          who Jesus is. What you do with it is between you and God.
         </Text>
 
         <View style={{ height: spacing.xl }} />
@@ -724,43 +653,21 @@ const styles = StyleSheet.create({
     color:      colors.blue,
   },
 
-  traitRow: {
-    flexDirection: 'row',
-    alignItems:    'center',
-    marginBottom:  spacing.sm + 2,
-    gap:           spacing.sm,
+  noticedRow: {
+    flexDirection:  'row',
+    alignItems:     'center',
+    justifyContent: 'space-between',
+    gap:            spacing.sm,
+    borderTopWidth: 1,
+    borderTopColor: colors.border,
+    paddingVertical: spacing.sm,
   },
-  traitMeta: { width: 110 },
-  traitName: {
-    fontSize:   12,
+  noticedText: {
+    flex:       1,
+    fontSize:   13,
     fontFamily: 'Jost_400Regular',
-    color:      colors.textMid,
-    lineHeight: 16,
-  },
-  traitDesc: {
-    fontSize:   10,
-    fontFamily: 'Jost_400Regular',
-    color:      colors.textMuted,
-    lineHeight: 14,
-  },
-  barTrack: {
-    flex:            1,
-    height:          4,
-    backgroundColor: colors.border,
-    borderRadius:    2,
-    overflow:        'hidden',
-  },
-  barFill: {
-    height:          4,
-    backgroundColor: colors.gold,
-    borderRadius:    2,
-  },
-  traitScore: {
-    fontSize:   11,
-    fontFamily: 'Jost_400Regular',
-    color:      colors.textMuted,
-    width:      28,
-    textAlign:  'right',
+    color:      colors.textDim,
+    lineHeight: 19,
   },
 
   momentRow: {
@@ -866,5 +773,16 @@ const styles = StyleSheet.create({
     lineHeight: 18,
     paddingHorizontal: spacing.md,
     marginTop:  spacing.md,
+  },
+
+  disclaimerNote: {
+    fontSize:   11,
+    fontFamily: 'Jost_400Regular',
+    color:      colors.textMuted,
+    textAlign:  'center',
+    lineHeight: 16,
+    paddingHorizontal: spacing.md,
+    marginTop:  spacing.sm,
+    opacity:    0.8,
   },
 });

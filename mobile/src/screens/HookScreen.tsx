@@ -3,6 +3,7 @@ import {
   View,
   Text,
   Animated,
+  Easing,
   TouchableOpacity,
   StyleSheet,
   Dimensions,
@@ -35,83 +36,53 @@ export default function HookScreen({ navigation }: Props) {
   const footerOpacity   = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
-    // 1. Brief pause so the user sees the stone
-    // 2. Stone rolls away to the right
-    // 3. Glow expands from behind the tomb opening
-    // 4. Text and button fade in
+    // A calm, smooth open: the stone rolls away, light rises from the tomb, then
+    // the words and invitation settle in. Eased timing throughout (no springy
+    // bounce) and tightened delays so it feels gentle, not laggy or glitchy.
+    const ease    = Easing.out(Easing.cubic);
+    const easeIn  = Easing.in(Easing.cubic);
 
     const sequence = Animated.sequence([
-      Animated.delay(800),
+      Animated.delay(350),
 
-      // Stone rolls away
+      // Stone rolls away to the right and fades.
       Animated.parallel([
         Animated.timing(stoneTranslateX, {
-          toValue:         width * 0.7,
-          duration:        900,
-          useNativeDriver: true,
+          toValue: width * 0.7, duration: 750, easing: easeIn, useNativeDriver: true,
         }),
         Animated.timing(stoneRotate, {
-          toValue:         1,       // mapped to 60deg in interpolate below
-          duration:        900,
-          useNativeDriver: true,
+          toValue: 1, duration: 750, easing: easeIn, useNativeDriver: true,
         }),
         Animated.timing(stoneOpacity, {
-          toValue:         0,
-          duration:        700,
-          delay:           200,
-          useNativeDriver: true,
+          toValue: 0, duration: 600, delay: 200, easing: ease, useNativeDriver: true,
         }),
       ]),
 
-      // Glow expands
+      // Light rises from the opening — smooth grow, no spring overshoot.
       Animated.parallel([
         Animated.timing(glowOpacity, {
-          toValue:         1,
-          duration:        700,
-          useNativeDriver: true,
+          toValue: 1, duration: 650, easing: ease, useNativeDriver: true,
         }),
-        Animated.spring(glowScale, {
-          toValue:         1,
-          friction:        5,
-          tension:         40,
-          useNativeDriver: true,
+        Animated.timing(glowScale, {
+          toValue: 1, duration: 700, easing: ease, useNativeDriver: true,
         }),
       ]),
 
-      // Text fades in
-      Animated.timing(textOpacity, {
-        toValue:         1,
-        duration:        600,
-        useNativeDriver: true,
-      }),
-
-      Animated.delay(300),
-
-      Animated.timing(subOpacity, {
-        toValue:         1,
-        duration:        700,
-        useNativeDriver: true,
-      }),
-
-      Animated.delay(400),
-
-      Animated.timing(btnOpacity, {
-        toValue:         1,
-        duration:        600,
-        useNativeDriver: true,
-      }),
-
-      Animated.delay(500),
+      // Words and invitation settle in together, gently staggered.
+      Animated.stagger(180, [
+        Animated.timing(textOpacity, { toValue: 1, duration: 550, easing: ease, useNativeDriver: true }),
+        Animated.timing(subOpacity,  { toValue: 1, duration: 550, easing: ease, useNativeDriver: true }),
+        Animated.timing(btnOpacity,  { toValue: 1, duration: 550, easing: ease, useNativeDriver: true }),
+      ]),
 
       // The honest word, last and quiet — never the headline, but never hidden.
       Animated.timing(footerOpacity, {
-        toValue:         1,
-        duration:        900,
-        useNativeDriver: true,
+        toValue: 1, duration: 700, easing: ease, useNativeDriver: true,
       }),
     ]);
 
     sequence.start();
+    return () => sequence.stop();
   }, []);
 
   const stoneRotateDeg = stoneRotate.interpolate({
@@ -185,15 +156,19 @@ export default function HookScreen({ navigation }: Props) {
 
       {/* ── The honest word (Elder Gong, on AI) ───────────────────────────────
           Subtle, never the headline — but said plainly at the threshold so no one
-          ever mistakes the app for the Lord. Anchored in Elder Gerrit W. Gong's
-          counsel: "Artificial intelligence can answer questions, but it cannot
-          answer prayers... it is not God and cannot be God." What stirs here is a
+          ever mistakes the app for the Lord, and so no one mistakes it for an
+          official Church product. The non-affiliation line is required honesty:
+          this is an independent app made by members, not owned, endorsed, or
+          sponsored by any church. Anchored in Elder Gerrit W. Gong's counsel:
+          "Artificial intelligence can answer questions, but it cannot answer
+          prayers... it is not God and cannot be God." What stirs here is a
           spiritual exercise to take to God and to people who love you — and to let
           the Spirit, not an app, confirm as true. */}
       <Animated.Text style={[styles.footerText, { opacity: footerOpacity, bottom: insets.bottom + 28 }]}>
-        This app is not God. It cannot answer a prayer or know you the way Jesus
-        does — it can only point you toward Him. Take what you feel here to God and
-        to people who love you, and let the Spirit, not an app, tell you what is true.
+        This app is not officially affiliated with any Church. It is not God either —
+        it cannot answer a prayer or know you the way Jesus does, only point you
+        toward Him. Take what you feel here to God and to people who love you, and
+        let the Spirit, not an app, tell you what is true.
       </Animated.Text>
     </View>
   );

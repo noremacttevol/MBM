@@ -4,19 +4,13 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { CONTENT, ContentItem, FeedTag } from '../data/content';
 import {
   DialogueQuestion,
-  TraitScores,
   TraitKey,
-  DEFAULT_TRAITS,
-  TRAIT_MIN,
-  TRAIT_MAX,
   computeNextQuestion,
   QUESTION_BANK,
 } from '../data/questionBank';
 import { QUALITY_BY_KEY } from '../data/examenPrompts';
 import {
   mayReferenceLds as engineMayReferenceLds,
-  restorationReady as engineRestorationReady,
-  spiritReady as engineSpiritReady,
   missionaryReferralReady as engineMissionaryReady,
   isMember as engineIsMember,
   assessJourney,
@@ -26,12 +20,10 @@ import { MINISTER_SYSTEM_PROMPT, MINISTER_MODEL, CREATION_DILEMMA_REASONING } fr
 import {
   harvestSignals,
   stripSignalReport,
-  stripTraitReport,
   stripIdentity,
   identityOnly,
   detectCrisis,
   SIGNAL_REPORT_INSTRUCTION,
-  TRAIT_REPORT_INSTRUCTION,
   FAITH_ID_RE,
 } from '../engine/chatEar';
 import {
@@ -70,6 +62,55 @@ export const isRestorationReady = engineMayReferenceLds;
 export const isMissionaryReady  = engineMissionaryReady;
 export const isMemberSignal     = engineIsMember;
 export { assessJourney, assessConnection };
+
+// ── What the app has noticed, in the person's own light ─────────────────────
+// Law 4 (Cameron, June 2026): nothing the app records to know a person is hidden.
+// These are warm, plain, second-person descriptions of the routing signals, shown
+// openly on the Profile where each one can be removed. Anything not named here is
+// humanized generically (humanizeSignal) so even an unmapped tag is never secret.
+export const SIGNAL_DESCRIPTIONS: Record<string, string> = {
+  had_spiritual_experience:     "You've felt something you couldn't quite explain.",
+  has_history_with_faith:       'You have a history with faith.',
+  skeptical_of_god:             'You hold some honest skepticism about God.',
+  open_to_god:                  'You feel open to God.',
+  believes_god_good:            'You believe God is fundamentally good.',
+  hurt_by_church:               "You've been hurt by a church or its people.",
+  prayed_before:                "You've prayed before.",
+  carries_grief:                "You're carrying grief or loss.",
+  carrying_burden:              "You're carrying something heavy.",
+  grieving:                     "You're grieving.",
+  struggles_with_habits:        "You're wrestling with a hard habit.",
+  lonely:                       "You've felt lonely.",
+  searching:                    "You're searching for something real.",
+  searching_for_purpose:        "You're searching for meaning and purpose.",
+  wants_more:                   'You want more than you have now.',
+  drawn_to_jesus:               'You feel drawn to Jesus.',
+  believes_in_jesus:            'You believe in Jesus.',
+  open_to_restoration:          'You\u2019re open to the idea that God still speaks today.',
+  curious_about_book_of_mormon: "You're curious about the Book of Mormon.",
+  wants_to_join:                "You've wondered about belonging to the Church.",
+  wants_baptism:                "You've asked about baptism.",
+  asking_how_to_belong:         "You've asked how to belong.",
+  inactive_member:              'You\u2019re a Latter-day Saint who has stepped back for now.',
+  active_member:                "You're an active Latter-day Saint.",
+  active_faith_tradition:       'You\u2019re part of a faith community today.',
+  covenant_intent:              'You hold faith dear and want to go deeper.',
+  pictures_harsh_god:           'Somewhere you picked up a picture of a harsh or disappointed God.',
+  pictures_distant_god:         "You've felt like God might not be paying attention.",
+  reformed_framework:           'You come from a Reformed or Calvinist background.',
+  rejects_harsh_god:            "You've let go of the harsh picture of God.",
+  nontheistic_framework:        "You're spiritually open, without picturing God as a person yet.",
+  losing_faith:                 "You're going through a hard stretch with your faith.",
+  declined_restoration:         'You asked to stay with the plain biblical view for now.',
+};
+
+// Even an unmapped signal is shown plainly — never hidden. Turns a raw tag like
+// "open_to_god" into "open to god" as a readable fallback.
+export function humanizeSignal(signal: string): string {
+  const mapped = SIGNAL_DESCRIPTIONS[signal];
+  if (mapped) return mapped;
+  return 'We noticed: ' + signal.replace(/_/g, ' ') + '.';
+}
 
 // EXPLICIT CONSENT (Cameron, June 2026): even once the readiness signals are
 // present, restoration-tagged content NEVER auto-surfaces in the feed. The Minister
@@ -193,7 +234,7 @@ export interface ChatMessage {
   role:      'user' | 'assistant';
   text:      string;
   timestamp: number;
-  // 'meta' = a quiet system note shown in the thread (e.g. a spirit-level change)
+  // 'meta' = a quiet system note shown in the thread (e.g. a member-track shift)
   // that is NOT part of the conversation sent to the model.
   kind?:     'meta';
 }
@@ -722,41 +763,6 @@ export async function generateNoteSummary(
   }
 }
 
-// Small, clamped trait nudge — the way the prototype's nudgedTraits worked.
-function nudgeTraits(scores: TraitScores, deltas: Partial<TraitScores>): TraitScores {
-  const next: TraitScores = { ...scores };
-  for (const [k, d] of Object.entries(deltas)) {
-    const key = k as keyof TraitScores;
-    const cur = next[key] ?? 0;
-    next[key] = Math.round(Math.max(TRAIT_MIN, Math.min(TRAIT_MAX, cur + (d ?? 0))) * 1000) / 1000;
-  }
-  return next;
-}
-
-// Plain-English names for the spirit levels, used when telling the person — to
-// their face — that the judge just moved one, so a deduction is never silent.
-// Settled in the design-tab conversation (the binding standard): every dimension
-// is named as a CHRISTLIKE measure, so the label and the number always agree — the
-// score reads as "how close to Christ's own," never a bare verdict on a person's
-// worth. This is the rename that makes the capped scale honest. Do not drop the
-// "Christlike" prefix from any of these.
-const TRAIT_DISPLAY: Record<keyof TraitScores, string> = {
-  honest_inquiry: 'Christlike honesty',
-  openness:       'Christlike openness',
-  humility:       'Christlike humility',
-  hunger:         'Christlike hunger for truth',
-  compassion:     'Christlike compassion',
-  courage:        'Christlike courage',
-  sincerity:      'Christlike sincerity',
-};
-
-// Format a level change for display: a real minus sign, no trailing ".0".
-function fmtDelta(d: number): string {
-  const v = Math.round(Math.abs(d) * 10) / 10;
-  const num = Number.isInteger(v) ? String(v) : v.toFixed(1);
-  return (d > 0 ? '+' : '−') + num;
-}
-
 // Merge newly-heard signals into the existing set without duplicates. The engine
 // laws (two-witnesses for god-good, framework blocking, member-only self-ID) all
 // live in connect.ts and read the full set — so a plain union is safe here: a
@@ -885,7 +891,6 @@ interface AppState {
   baseSignals:         string[];   // non-faith signals (see composeSignals)
   answeredQuestionIds: number[];
   answeredQuestions:   AnsweredQuestion[];   // the open, viewable record (Profile)
-  traitScores:         TraitScores;
   currentQuestion:     DialogueQuestion | null;
 
   // Explicit consent for the restored perspective. 'granted' is the ONLY value that
@@ -950,6 +955,9 @@ interface AppState {
   faithWords:          FaithWord[];
   beliefHistory:       BeliefChange[];   // honored record of changed minds (#7)
   moments:             StoryMoment[];
+  // Which opening stories the person has already been shown. Drives the "a new
+  // story on every cold open until they've seen them all" behavior. Persisted.
+  seenStoryIds:        string[];
 
   // Spiritual exercises (invite → try → report → learn)
   activeExercise:      SpiritualExercise | null;
@@ -974,6 +982,9 @@ interface AppState {
 interface AppActions {
   // choice = story choice key (A/B/C/D/E), feedTag = direct override from story choice
   completeOnboarding:  (choice: string, freeText?: string, feedTag?: FeedTag, signal?: string) => void;
+  // Record that an opening story has been shown, so it is never repeated on a
+  // later cold open until they have seen them all.
+  markStorySeen:       (id: string) => void;
   markOpened:          (id: number) => void;
   thumbsUp:            (id: number) => void;
   bookmark:            (id: number) => void;
@@ -1039,6 +1050,10 @@ interface AppActions {
   // Keep the person dynamic, never boxed: everything learned or saved can be
   // edited or deleted. Deleting truly forgets it (un-learns that piece).
   deleteMoment:        (ts: number) => void;
+  // Law 4 (Cameron): EVERYTHING the app records to know a person is visible and
+  // removable. forgetSignal truly un-learns one noticed thing — from the base set
+  // AND from any faith line that taught it — then re-derives the feed.
+  forgetSignal:        (signal: string) => void;
   deleteNote:          (id: string) => void;
   deleteJournalEntry:  (id: string) => void;
   editJournalEntry:    (id: string, text: string) => void;
@@ -1073,7 +1088,6 @@ const initialState: AppState = {
   baseSignals:         [],
   answeredQuestionIds: [],
   answeredQuestions:   [],
-  traitScores:         { ...DEFAULT_TRAITS },
   currentQuestion:     null,
   restorationConsent:  'unknown',
   discipleshipEnabled:        false,
@@ -1102,6 +1116,7 @@ const initialState: AppState = {
   faithWords:          [],
   beliefHistory:       [],
   moments:             [],
+  seenStoryIds:        [],
   activeExercise:      null,
   acceptedSession:     null,
   doneExerciseIds:     [],
@@ -1163,7 +1178,6 @@ export const useAppStore = create<AppState & AppActions>()(
           dialogueSignals:     stripIdentity(seedSignals),
           answeredQuestionIds: [],
           answeredQuestions:   [],
-          traitScores:         { ...DEFAULT_TRAITS },
           currentQuestion,
           restorationConsent:  'unknown',
           discipleshipEnabled:        false,
@@ -1190,6 +1204,13 @@ export const useAppStore = create<AppState & AppActions>()(
           // YOUR STORY SO FAR begins the moment they walk in.
           moments: [{ title: 'You walked in', text: 'You came, and you stayed long enough to be met.', ts: Date.now() }],
         });
+      },
+
+      markStorySeen(id) {
+        if (!id) return;
+        set(s => (s.seenStoryIds.includes(id)
+          ? s
+          : { seenStoryIds: [...s.seenStoryIds, id] }));
       },
 
       markOpened(id) {
@@ -1381,7 +1402,6 @@ export const useAppStore = create<AppState & AppActions>()(
           ...initialState,
           seenIds:         new Set(),
           openedIds:       new Set(),
-          traitScores:     { ...DEFAULT_TRAITS },
           currentQuestion: computeNextQuestion([], [], 0),
         });
       },
@@ -1390,18 +1410,15 @@ export const useAppStore = create<AppState & AppActions>()(
         const {
           answeredQuestionIds,
           baseSignals,
-          traitScores,
           openedIds,
         } = get();
 
         const question = QUESTION_BANK.find(q => q.id === questionId);
         if (!question) return;
 
-        const newTraits: TraitScores = { ...traitScores };
         // Engagement signals go to the sticky base set; faith IDENTITY is split
         // off and ridden on a faith word so it stays editable and can be unlearned.
         const newBase = new Set(baseSignals);
-        let deltas: Partial<TraitScores> = {};
         // Identity harvested from a free-text faith self-description rides its own
         // faith line, so removing the line later truly un-learns it.
         let faithHarvest: string[] = [];
@@ -1412,20 +1429,11 @@ export const useAppStore = create<AppState & AppActions>()(
         if (question.answerType === 'CHOICE' || question.answerType === 'YES_NO') {
           const opt = question.answerOptions.find(o => o.value === answerValue);
           if (opt) {
-            deltas = opt.traitSignals ?? {};
             const optSignals = opt.signals ?? [];
             stripIdentity(optSignals).forEach(s => newBase.add(s));
             optionFaith = captureIdentityWord(opt.text, optSignals);
           }
         } else if (question.answerType === 'FREE_TEXT') {
-          const base = question.traitSignals;
-          for (const [k, v] of Object.entries(base)) {
-            const key = k as keyof TraitScores;
-            deltas[key] = Math.round((v ?? 0) * 0.7 * 1000) / 1000;
-          }
-          if (answerText && answerText.length > 120) {
-            deltas.sincerity = Math.round(((deltas.sincerity ?? 0) + 0.15) * 1000) / 1000;
-          }
           // The ear listens to free-text dialogue answers too — the gate can open
           // from what they type here, not only from chat. Engagement → base,
           // identity → the faith line built from their own words.
@@ -1434,14 +1442,6 @@ export const useAppStore = create<AppState & AppActions>()(
             stripIdentity(harvested).forEach(s => newBase.add(s));
             faithHarvest = identityOnly(harvested);
           }
-        }
-
-        for (const [k, delta] of Object.entries(deltas)) {
-          const key     = k as keyof TraitScores;
-          const current = newTraits[key] ?? 0.0;
-          newTraits[key] = Math.round(
-            Math.max(TRAIT_MIN, Math.min(TRAIT_MAX, current + (delta ?? 0))) * 1000,
-          ) / 1000;
         }
 
         const newAnsweredIds = [...answeredQuestionIds, questionId];
@@ -1491,7 +1491,6 @@ export const useAppStore = create<AppState & AppActions>()(
           answeredQuestions:   [answeredRecord, ...s.answeredQuestions],
           baseSignals:         newBaseArr,
           dialogueSignals:     newSignalsArr,
-          traitScores:         newTraits,
           currentQuestion,
           feedTag:             trackMoved ? nextTag : prevTag,
           feed:                trackMoved ? buildFeed(nextTag, seenIds) : prevFeed,
@@ -1552,18 +1551,6 @@ export const useAppStore = create<AppState & AppActions>()(
         const nextTag    = routeFeedTag(merged);
         const trackMoved = nextTag !== prevTag;
 
-        // Honest proof from reflection — not just from chat questions (Cameron's
-        // ask). Sitting down to write something true about your own life is real
-        // sincerity, and a longer, searching entry shows honest inquiry and hunger.
-        // Length-gated so a one-word entry earns nothing and the scale can't be
-        // farmed; small and one-directional (reflection is never penalized — it is
-        // the kind of honest doubt/grief the judge is told never to dock).
-        const words = text.trim().split(/\s+/).filter(Boolean).length;
-        const journalDeltas: Partial<TraitScores> =
-          words >= 25 ? { sincerity: 0.2, honest_inquiry: 0.15, hunger: 0.15 }
-          : words >= 6 ? { sincerity: 0.2 }
-          : {};
-
         set(s => ({
           journalEntries:    [entry, ...s.journalEntries],
           answeredPromptIds: [...s.answeredPromptIds, promptId],
@@ -1571,7 +1558,6 @@ export const useAppStore = create<AppState & AppActions>()(
           dialogueSignals:   merged,
           feedTag:           trackMoved ? nextTag : prevTag,
           feed:              trackMoved ? buildFeed(nextTag, seenIds) : prevFeed,
-          traitScores:       nudgeTraits(s.traitScores, journalDeltas),
           currentQuestion:   s.currentQuestion
             ?? computeNextQuestion(answeredQuestionIds, merged, openedIds.size),
         }));
@@ -1595,12 +1581,6 @@ export const useAppStore = create<AppState & AppActions>()(
         set(s => ({
           learnedNotes:  [note, ...s.learnedNotes].slice(0, 200),
           pendingNoteId: id,
-          // Choosing to KEEP something is itself a sign of hunger for truth and
-          // sincerity — the person cared enough to hold onto it. The app learns from
-          // the ACT of saving, not just the words (Cameron's #6). The note text is
-          // also handed to the minister as context, so it isn't double-counted as a
-          // separate story moment.
-          traitScores:   nudgeTraits(s.traitScores, { hunger: 0.3, sincerity: 0.2 }),
         }));
 
         // Fill in the AI clip after the fact; never block the save on the network.
@@ -1790,10 +1770,18 @@ export const useAppStore = create<AppState & AppActions>()(
           excerpt,
           journeyStage: stage,
           priority: pri,
+          userName: state.name ?? undefined,
+          // Their most recent self-reported faith line (own words), for context.
+          faithNote: (state.faithWords?.[0]?.text ?? '').trim().slice(0, 160) || undefined,
         });
         if (saved) {
+          // De-dupe by id: the live subscription may have already inserted this exact
+          // message while the send was awaiting (it fires for the person's own writes
+          // too). Without this guard the message shows TWICE. Only add if missing.
           set(s => ({
-            inboxMessages: [...s.inboxMessages, saved],
+            inboxMessages: s.inboxMessages.some(m => m.id === saved.id)
+              ? s.inboxMessages
+              : [...s.inboxMessages, saved],
             inboxLoading:  false,
           }));
         } else {
@@ -2060,6 +2048,28 @@ export const useAppStore = create<AppState & AppActions>()(
       deleteMoment(ts) {
         set(s => ({ moments: s.moments.filter(m => m.ts !== ts) }));
       },
+      // Truly un-learn one noticed thing. Remove it from the sticky base set and
+      // from every faith line that carried it, recompose the visible signal set,
+      // and re-route the feed so what they removed stops shaping what they see.
+      forgetSignal(signal) {
+        set(s => {
+          const newBase    = s.baseSignals.filter(x => x !== signal);
+          const newWords   = s.faithWords.map(w => ({
+            ...w,
+            signals: (w.signals ?? []).filter(x => x !== signal),
+          }));
+          const merged     = composeSignals(newBase, newWords);
+          const nextTag    = routeFeedTag(merged);
+          const trackMoved = nextTag !== s.feedTag;
+          return {
+            baseSignals:     newBase,
+            faithWords:      newWords,
+            dialogueSignals: merged,
+            feedTag:         trackMoved ? nextTag : s.feedTag,
+            feed:            trackMoved ? buildFeed(nextTag, s.seenIds) : s.feed,
+          };
+        });
+      },
       deleteNote(id) {
         set(s => ({ learnedNotes: s.learnedNotes.filter(n => n.id !== id) }));
       },
@@ -2107,27 +2117,26 @@ export const useAppStore = create<AppState & AppActions>()(
       },
 
       answerFollowUp(value, note) {
-        const { activeExercise, doneExerciseIds, traitScores, baseSignals, faithWords,
+        const { activeExercise, doneExerciseIds, baseSignals, faithWords,
                 feedTag: prevTag, seenIds, feed: prevFeed, sessionCount } = get();
         const ex = activeExercise;
         if (!ex) return;
         const trimmed = (note ?? '').trim();
 
         if (value === 'not_yet') {
-          // No rush — re-arm it for next time, gentle nudge to sincerity.
+          // No rush — re-arm it for next time.
           set({
             activeExercise:  ex,
             acceptedSession: sessionCount,
-            traitScores:     nudgeTraits(traitScores, { sincerity: 0.05 }),
           });
           get().bless(['No rush. It will keep.']);
           return;
         }
 
-        const OUTCOME: Record<string, { signals: string[]; traits: Partial<TraitScores>; detail: string }> = {
-          something: { signals: ['had_spiritual_experience', 'open_to_god'], traits: { openness: 0.35, hunger: 0.3, sincerity: 0.2 }, detail: 'Something came back you could not quite name.' },
-          good:      { signals: ['open_to_god'], traits: { sincerity: 0.25, openness: 0.2 }, detail: 'Quieter than expected — but good.' },
-          nothing:   { signals: [], traits: { honest_inquiry: 0.3, courage: 0.2 }, detail: 'Nothing came back — and you said so honestly.' },
+        const OUTCOME: Record<string, { signals: string[]; detail: string }> = {
+          something: { signals: ['had_spiritual_experience', 'open_to_god'], detail: 'Something came back you could not quite name.' },
+          good:      { signals: ['open_to_god'], detail: 'Quieter than expected — but good.' },
+          nothing:   { signals: [], detail: 'Nothing came back — and you said so honestly.' },
         };
         const o      = OUTCOME[value] ?? OUTCOME.nothing;
         const detail = trimmed ? `“${trimmed.slice(0, 90)}${trimmed.length > 90 ? '…' : ''}”` : o.detail;
@@ -2138,7 +2147,6 @@ export const useAppStore = create<AppState & AppActions>()(
         const heard    = composeSignals(newBase, faithWords);
         const nextTag  = routeFeedTag(heard);
         const moved    = nextTag !== prevTag;
-        const traitDeltas = trimmed ? { ...o.traits, sincerity: (o.traits.sincerity ?? 0) + 0.1 } : o.traits;
 
         set(s => ({
           activeExercise:  null,
@@ -2146,7 +2154,6 @@ export const useAppStore = create<AppState & AppActions>()(
           doneExerciseIds: s.doneExerciseIds.includes(ex.id) ? s.doneExerciseIds : [...s.doneExerciseIds, ex.id],
           baseSignals:     newBase,
           dialogueSignals: heard,
-          traitScores:     nudgeTraits(traitScores, traitDeltas),
           feedTag:         moved ? nextTag : prevTag,
           feed:            moved ? buildFeed(nextTag, seenIds) : prevFeed,
           moments: [
@@ -2172,7 +2179,7 @@ export const useAppStore = create<AppState & AppActions>()(
           text:       t,
           timestamp:  Date.now(),
         };
-        const { traitScores, baseSignals, faithWords, feedTag: prevTag, seenIds, feed: prevFeed } = get();
+        const { baseSignals, faithWords, feedTag: prevTag, seenIds, feed: prevFeed } = get();
         const newBase = mergeSignals(baseSignals, stripIdentity(harvestSignals(t)));
         const heard   = composeSignals(newBase, faithWords);
         const nextTag = routeFeedTag(heard);
@@ -2180,13 +2187,11 @@ export const useAppStore = create<AppState & AppActions>()(
         // The reflection is SAVED as a journal entry (the person chose to keep it),
         // so it must NOT also be copied into Profile "your story so far" — that was
         // the double-count (Cameron's #6). Story-so-far is only for things the app
-        // holds that the person did NOT already save themselves. The act of saving
-        // still feeds the trait read below.
+        // holds that the person did NOT already save themselves.
         set(s => ({
           journalEntries:  [entry, ...s.journalEntries],
           baseSignals:     newBase,
           dialogueSignals: heard,
-          traitScores:     nudgeTraits(traitScores, { sincerity: 0.2, hunger: 0.1 }),
           feedTag:         moved ? nextTag : prevTag,
           feed:            moved ? buildFeed(nextTag, seenIds) : prevFeed,
         }));
@@ -2366,17 +2371,6 @@ export const useAppStore = create<AppState & AppActions>()(
           .map(s => signalLabels[s])
           .join('; ');
 
-        const traits = state.traitScores;
-        const traitSummary = [
-          `honest inquiry: ${traits.honest_inquiry.toFixed(1)}/10`,
-          `openness: ${traits.openness.toFixed(1)}/10`,
-          `humility: ${traits.humility.toFixed(1)}/10`,
-          `hunger for truth: ${traits.hunger.toFixed(1)}/10`,
-          `compassion: ${traits.compassion.toFixed(1)}/10`,
-          `courage: ${traits.courage.toFixed(1)}/10`,
-          `sincerity: ${traits.sincerity.toFixed(1)}/10`,
-        ].join(', ');
-
         // Journal reflections — MOST were written in answer to a PROMPT, so we carry
         // the prompt with the answer. A bare answer like "how?" is meaningless (and
         // misleading) without the question it was responding to. Free-writes have no
@@ -2396,14 +2390,12 @@ export const useAppStore = create<AppState & AppActions>()(
         // they are on the journey, and whether a missionary referral is appropriate.
         // Built from combinedSignals so the gate reflects what was just said.
         const conn       = assessConnection(combinedSignals, text);
-        // Milk-before-meat now also requires the seven spirit levels to be EARNED.
-        // The restored gospel is named only once BOTH the belief signals and the
-        // spirit-readiness levels are present (Cameron's design: the levels are the
-        // gate). This is what holds the church back until the person has genuinely
-        // risen above neutral on openness, hunger, and honest inquiry.
+        // Milk-before-meat gate (Cameron, June 2026): the restored gospel is named
+        // ONLY from the person's OWN WORDS — when they have shown both that they
+        // believe God is good AND that they are open to God still speaking today.
+        // There is no hidden scoring of anyone; the gate reads their words alone.
         const beliefReady = isRestorationReady(combinedSignals);
-        const spiritOk    = engineSpiritReady(state.traitScores);
-        const mayLds      = engineRestorationReady(combinedSignals, state.traitScores);
+        const mayLds      = beliefReady;
         // Has the person opened the door to the restored gospel THEMSELVES? The
         // settled standard: when the gate opens, the app OFFERS by name (never a
         // silent flip) and only teaches the Restoration once the person says yes /
@@ -2449,7 +2441,7 @@ export const useAppStore = create<AppState & AppActions>()(
 [LIVE GUIDANCE — derived from what this person has revealed]
 - Where they are on the journey toward Christ: ${conn.journeyStage}
 - A real human is available right now: YES (always — a real person reads these). Refer to them only as "a real person," never by name.${conn.requested ? `\n- They appear to be asking to: ${conn.requested.replace(/_/g, ' ').toLowerCase()}.` : ''}
-- The restored gospel — by OPEN, NAMED INVITATION only, never a silent slide into it: ${mayLds ? (openedRestorationDoor ? 'They have opened the door themselves (they brought up the Book of Mormon / asked how to belong). You may now share the Restoration and the Book of Mormon openly and gladly — still gently, never as a pitch, and they stay free to stop.' : 'They seem ready, so EXTEND ONE OPEN INVITATION, named plainly — for example: "Would you like to hear about where this comes from — the Restoration, and the Book of Mormon?" Do NOT teach it yet; just offer the door by name. Share more ONLY if they say yes. If they decline, honor it warmly, stay with the Jesus they already love, and do NOT loop back to re-pitch — only resume if THEY reopen the door later.') : `NOT YET — the milk-before-meat law is in force${beliefReady && !spiritOk ? ' (they believe, but their openness/hunger/honest-inquiry levels are not yet there — keep drawing them out, do not name the Church yet)' : !beliefReady ? ' (the belief readiness is not yet present)' : ''}. Give only milk: the Jesus and the good God of the Bible. Do not mention the Church, Joseph Smith, the Restoration, the Book of Mormon, or missionaries.`}${consentNote}
+- The restored gospel — by OPEN, NAMED INVITATION only, never a silent slide into it: ${mayLds ? (openedRestorationDoor ? 'They have opened the door themselves (they brought up the Book of Mormon / asked how to belong). You may now share the Restoration and the Book of Mormon openly and gladly — still gently, never as a pitch, and they stay free to stop.' : 'They seem ready, so EXTEND ONE OPEN INVITATION, named plainly — for example: "Would you like to hear about where this comes from — the Restoration, and the Book of Mormon?" Do NOT teach it yet; just offer the door by name. Share more ONLY if they say yes. If they decline, honor it warmly, stay with the Jesus they already love, and do NOT loop back to re-pitch — only resume if THEY reopen the door later.') : `NOT YET — the milk-before-meat law is in force (from their own words, they have not yet shown both that they believe God is good and that they are open to God still speaking today — keep drawing them out gently, do not name the Church yet). Give only milk: the Jesus and the good God of the Bible. Do not mention the Church, Joseph Smith, the Restoration, the Book of Mormon, or missionaries.`}${consentNote}
 - Missionary referral appropriate? ${conn.missionaryReady ? 'YES — they are reaching toward the church on their own and have passed the milk. You may gently offer to connect them with missionaries.' : 'NO — do not bring up missionaries.'}`;
 
         // The person's name, if they gave it — address them as a friend would.
@@ -2508,13 +2500,12 @@ export const useAppStore = create<AppState & AppActions>()(
 
         const systemPrompt = `${MINISTER_SYSTEM_PROMPT}
 
-[ABOUT THIS PERSON — what the app has quietly learned. Never read these labels back to them.]
-- Spiritual traits: ${traitSummary}${nameLine}${signalSentences ? `\n- What they have shown: ${signalSentences}` : ''}${faithLine}${storyMoments}${recentJournal ? `\n- From their recent journal: ${recentJournal}` : ''}${ministeringPlan}${exerciseLine}
-${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT_INSTRUCTION}${TRAIT_REPORT_INSTRUCTION}`;
+[ABOUT THIS PERSON — what the app has learned from their own words. Never read these labels back to them.]${nameLine}${signalSentences ? `\n- What they have shown: ${signalSentences}` : ''}${faithLine}${storyMoments}${recentJournal ? `\n- From their recent journal: ${recentJournal}` : ''}${ministeringPlan}${exerciseLine}
+${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT_INSTRUCTION}`;
 
         // history already ends with the user's latest message — exactly the
         // shape Anthropic's `messages` array expects (alternating, user-first).
-        // Meta notes (spirit-level changes) are shown to the person but are NOT
+        // Meta notes (e.g. a member-track shift) are shown to the person but are NOT
         // conversation, so they are stripped before the model ever sees them.
         const history = state.chatMessages
           .filter(m => m.kind !== 'meta')
@@ -2582,14 +2573,14 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
               : '';
           }
 
-          // ── The ear, part two: strip the model's hidden signal + spirit reports
-          // and fold what it heard into the engine. The gate can open right here.
+          // ── The ear, part two: strip the model's hidden signal report and fold
+          // what it heard into the engine. The gate can open right here.
           // What the model reports is an INFERENCE about the person, not a faith
           // self-description — so engagement lands in the sticky base, and any
           // identity it guessed is dropped (Law 3: who they are with regard to
           // faith comes ONLY from their own words, never the model's inference).
           const afterSignals = stripSignalReport(rawReply ?? '');
-          const { reply, deltas } = stripTraitReport(afterSignals.reply);
+          const reply        = afterSignals.reply;
           const found        = stripIdentity(afterSignals.found);
           const newBase2     = mergeSignals(get().baseSignals, found);
           const heardSignals = composeSignals(newBase2, get().faithWords);
@@ -2604,22 +2595,12 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
           const nextQuestion = get().currentQuestion
             ?? computeNextQuestion(get().answeredQuestionIds, heardSignals, get().openedIds.size);
 
-          // The judge: fold the model's clamped spirit deltas into the levels.
-          // These move both ways — honest courage/humility raises, pride/evasion
-          // lowers — exactly as the calibrated-Jesus instruction asks. Compute the
-          // REAL applied change (after the 0–10 clamp) so what we tell the person
-          // matches what actually moved, never the model's raw request.
-          const hasDeltas  = Object.keys(deltas).length > 0;
-          const prevScores = get().traitScores;
-          const nextScores = hasDeltas ? nudgeTraits(prevScores, deltas as Partial<TraitScores>) : prevScores;
-
           set(s => ({
             baseSignals:     newBase2,
             dialogueSignals: heardSignals,
             feedTag:         trackMoved ? nextTag : s.feedTag,
             feed:            trackMoved ? buildFeed(nextTag, s.seenIds) : s.feed,
             currentQuestion: nextQuestion,
-            traitScores:     nextScores,
           }));
 
           if (reply) {
@@ -2638,17 +2619,11 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
               'meta');
           }
 
-          // Honesty about the judgment: if a level actually moved by half a point
-          // or more, tell the person to their face — so a deduction is never
-          // hidden, and they can ask the chat why right here.
-          const moved = (Object.keys(deltas) as (keyof TraitScores)[])
-            .map(k => ({ k, d: (nextScores[k] ?? 0) - (prevScores[k] ?? 0) }))
-            .filter(({ d }) => Math.abs(d) >= 0.5)
-            .map(({ k, d }) => `${TRAIT_DISPLAY[k]} ${fmtDelta(d)}`);
-          if (moved.length) {
-            get().appendAssistantToChat(sendChatId,
-              `Spirit reading moved — ${moved.join(', ')}. Ask me why if it surprises you.`, 'meta');
-          }
+          // NO SOUL-SCORING (Cameron, June 2026): the app does NOT grade anyone's
+          // Christlikeness or assign virtue scores. Routing comes only from the
+          // signals a person reveals in their own words, and everything recorded is
+          // shown openly on the Profile where they can read, edit, or remove it.
+          // Do not re-add any hidden scoring of people or any "spirit reading."
         } catch {
           get().appendAssistantToChat(sendChatId,
             "I wasn't able to connect right now. If you have an internet connection, try again in a moment. Whatever you were thinking — it's worth writing down.",
@@ -2657,7 +2632,7 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
       },
     }),
     {
-      name: 'mbm-app-store-v7',
+      name: 'mbm-app-store-v8',
       storage: createJSONStorage(() => AsyncStorage),
       // Only persist meaningful user data — not ephemeral UI state
       partialize: (state): PersistedState => ({
@@ -2674,7 +2649,6 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
         baseSignals:         state.baseSignals,
         answeredQuestionIds: state.answeredQuestionIds,
         answeredQuestions:   state.answeredQuestions,
-        traitScores:         state.traitScores,
         currentQuestion:     state.currentQuestion,
         restorationConsent:  state.restorationConsent,
         discipleshipEnabled: state.discipleshipEnabled,
@@ -2696,6 +2670,7 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
         faithWords:          state.faithWords,
         beliefHistory:       state.beliefHistory,
         moments:             state.moments,
+        seenStoryIds:        state.seenStoryIds,
         activeExercise:      state.activeExercise,
         acceptedSession:     state.acceptedSession,
         doneExerciseIds:     state.doneExerciseIds,

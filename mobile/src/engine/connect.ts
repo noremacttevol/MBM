@@ -169,110 +169,18 @@ export function mayReferenceLds(signals: string[]): boolean {
   return believesGodGood(signals) && openToMore(signals);
 }
 
-// ── The seven-spirit-levels readiness gate ──────────────────────────────────
-// The restored gospel is "meat." Cameron's design (2026-06-13): the seven spirit
-// levels are the measurement for WHEN the church may be named. A person's words
-// raise the levels through honest, open, hungry engagement; only when the
-// readiness levels have genuinely been EARNED is the restored gospel revealed.
-// Every soul starts at 0/10 and climbs by proving the virtue, so reaching these
-// thresholds (around the 5ish midpoint, exactly as Cameron specified) means the
-// person has DEMONSTRATED readiness in the conversation — not merely said a
-// keyword. This is what holds the gospel back until it is actually earned, and it
-// never asks the AI to push: the gate simply stays quiet until then.
-//
-// Only the readiness virtues gate the gospel — openness (to more / to revelation),
-// hunger (for truth), and honest_inquiry (genuine seeking, not testing), with a
-// teachable-humility floor folded into the average. Compassion, courage, and
-// sincerity are part of who the person is but are not what makes someone ready to
-// hear about continuing revelation, so they do not gate timing.
-
-export interface SpiritLevels {
-  honest_inquiry: number;
-  openness:       number;
-  humility:       number;
-  hunger:         number;
-  compassion:     number;
-  courage:        number;
-  sincerity:      number;
-}
-
-// On a 0→10 climb, "ready" is the ~5ish midpoint Cameron named: the person has
-// earned roughly half the scale on the readiness virtues by proving them through
-// the conversation. High enough that a single keyword can't open the gate, low
-// enough that a genuine seeker reaches it by really engaging.
-export const SPIRIT_GATE = {
-  opennessMin:      5.5,
-  hungerMin:        5.0,
-  honestInquiryMin: 4.5,
-  readinessAvgMin:  5.0, // average of openness, hunger, honest_inquiry, humility
-};
-
-/**
- * Has the person risen far enough on the readiness virtues to be ready to hear
- * the restored gospel? Returns false until the levels are genuinely earned.
- */
-export function spiritReady(levels: SpiritLevels | null | undefined): boolean {
-  if (!levels) return false;
-  const { openness, hunger, honest_inquiry, humility } = levels;
-  const avg = (openness + hunger + honest_inquiry + humility) / 4;
-  return (
-    openness       >= SPIRIT_GATE.opennessMin &&
-    hunger         >= SPIRIT_GATE.hungerMin &&
-    honest_inquiry >= SPIRIT_GATE.honestInquiryMin &&
-    avg            >= SPIRIT_GATE.readinessAvgMin
-  );
-}
-
-/**
- * The full restored-gospel gate: the belief signals (milk-before-meat) AND the
- * spirit levels both have to be ready. This is what the app should ask before it
- * lets the minister name the Church / Book of Mormon / Restoration. Stricter than
- * mayReferenceLds alone, on purpose — it is the fix for mentioning the church too
- * early. Members never run this gate (they already hold the gospel).
- */
-export function restorationReady(
-  signals: string[],
-  levels: SpiritLevels | null | undefined,
-): boolean {
-  if (isMember(signals)) return false;
-  return mayReferenceLds(signals) && spiritReady(levels);
-}
-
-// ── The Christlike ceiling (Cameron's call, recorded in the binding file) ────
-// On this app the seven Christlike virtues are "how close to Christ's own, as the
-// restored gospel measures it." So the score a person can reach is capped by where
-// they stand toward that standard — and because every dimension carries the word
-// "Christlike," the cap is honest, not a verdict on their bare character:
-//   - a member / one saved and believing the restored gospel: uncapped (up to 10),
-//   - someone not yet there but willing: tops out at 7,
-//   - someone who won't even examine it (declined the invitation): tops out at 5.
-// The cap never blocks the readiness gate (which only needs ~5) — it only sets how
-// high the celestial-striving score itself can climb.
-export const CHRISTLIKE_CAP = { member: 10, willing: 7, unwilling: 5 };
-
-export function christlikeCap(signals: string[]): number {
-  if (isMember(signals)) return CHRISTLIKE_CAP.member;
-  // "Declined the invitation to even look" — set when a person turns down the
-  // open, named invitation to the restored gospel (see the invitation flow).
-  if (signals.includes('declined_restoration')) return CHRISTLIKE_CAP.unwilling;
-  return CHRISTLIKE_CAP.willing;
-}
-
-// Clamp every Christlike level to the person's earned ceiling. Used when the score
-// is shown or read, so no one is ever shown above their cap. The raw climb is kept
-// underneath (it still drives the readiness gate); this only bounds what's shown.
-export function capLevels(levels: SpiritLevels, signals: string[]): SpiritLevels {
-  const cap = christlikeCap(signals);
-  const c = (v: number) => Math.min(v, cap);
-  return {
-    honest_inquiry: c(levels.honest_inquiry),
-    openness:       c(levels.openness),
-    humility:       c(levels.humility),
-    hunger:         c(levels.hunger),
-    compassion:     c(levels.compassion),
-    courage:        c(levels.courage),
-    sincerity:      c(levels.sincerity),
-  };
+// ── When the restored gospel may be named (own words only) ──────────────────
+// Cameron's call (2026-06-24): there is NO hidden scoring of a person's virtues
+// anywhere in this app, and nothing about their readiness is measured behind their
+// back. The ONLY thing that opens the restored-gospel door is what the person has
+// shown in their OWN words — captured by mayReferenceLds(signals) above:
+//   (a) they believe (or want to believe) God is fundamentally GOOD, and
+//   (b) they are open to the idea that God might still speak today.
+// The old "seven spirit levels" gate, the Christlike-score caps, and every numeric
+// virtue measurement were removed with the scoring system. restorationReady is now
+// simply the milk-before-meat gate, kept as a named export so callers read clearly.
+export function restorationReady(signals: string[]): boolean {
+  return mayReferenceLds(signals);
 }
 
 export function seekingFormal(signals: string[]): boolean {

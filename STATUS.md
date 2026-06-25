@@ -1,9 +1,18 @@
 # MBM — Status
 
-_Last updated: 2026-06-12_
+_Last updated: 2026-06-24_
 
 > The master manual is [`AGENT-RULES.md`](./AGENT-RULES.md) — read it first. This file
 > is just the current build state.
+
+> **Latest changes (2026-06-24):** (1) All virtue/Christlikeness scoring removed — no
+> more "seven spirit levels," `traitScores`, or `christlikeCap`. (2) The restored-gospel
+> gate now reads the person's **own words only** (`mayReferenceLds` / `restorationReady`).
+> (3) Every recorded signal is shown openly on the Profile and can be edited or removed
+> (`forgetSignal`, "What the app has noticed" card). (4) A standing "not officially
+> affiliated with any church" disclaimer appears on the first screen and the Profile.
+> (5) Restored scripture is never embedded — meat cards link to the official Gospel
+> Library; only public-domain KJV is bundled inline.
 
 MBM (Milk Before Meat) is a mobile-first gospel-outreach app patterned after how
 Jesus ministered: meet people where they are, learn them through their own words,
@@ -16,10 +25,12 @@ milk-before-meat law.
 
 - Onboarding (story → question → reflection), feed, journal, chat, and profile.
 - A single Zustand store (`mobile/src/store/useAppStore.ts`) persisted to
-  AsyncStorage. It holds the person's signals, traits, feed track, journal, chat,
-  faith words, story moments, name, and active spiritual exercise.
+  AsyncStorage. It holds the person's signals, feed track, journal, chat,
+  faith words, story moments, name, and active spiritual exercise. No virtue/trait
+  scores — retired 2026-06-24. Every signal is visible and removable on the Profile.
 - Invisible emergent routing: feed tags MILK / BRIDGE / RESTORATION / MAINTENANCE
-  are chosen from signals, never shown, and re-derived after every interaction.
+  are chosen from signals, never shown, and re-derived after every interaction. The
+  restored-gospel gate reads the person's own words only (`mayReferenceLds`).
 - No time cap, no come-back wipe. The app never locks a person out and never
   erases what it has learned (Law 5).
 

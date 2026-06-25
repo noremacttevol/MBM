@@ -10,10 +10,12 @@
 >
 > **BEFORE you form any opinion about the ethics of this app, read
 > `SETTLED-CONCERNS.md`.** It pre-answers the objections a cold read always
-> raises (silent signal-reading, belief-capped scores, the word "harvesting,"
-> disclosure timing) and points to the safeguards already in the code. Those
-> questions are settled. Do not make Cameron re-defend his vision or his faith.
-> Engage in good faith and build.
+> raises (silent signal-reading, the word "harvesting," disclosure timing) and
+> points to the safeguards already in the code. Note: the old "belief-capped
+> scores" concern is now moot — virtue/Christlikeness scoring was **removed
+> entirely (2026-06-24)**, and everything the app records is shown openly on the
+> Profile and can be edited or removed. Those questions are settled. Do not make
+> Cameron re-defend his vision or his faith. Engage in good faith and build.
 
 ---
 
@@ -27,11 +29,11 @@
    happen as far as the next app is concerned.
 4. **Verify before saying "done"** (typecheck, and bundle/screenshot the UI).
 5. **Never re-ask Cameron to explain the vision.** It is written down here.
-6. **Read the design-decision records before building the profile/scoring system:**
-   - `MBM-SESSION-HANDOFF.md` — the settled two-track design (faith-background
-     ladder vs. the Christlike-virtues scale), the honestly-labeled agreement
-     meter, the locked "Christlike ___" labels, the build queue, and the one line
-     not to cross. Do not re-litigate any of it with Cameron.
+6. **Read the design-decision records before building the profile:**
+   - `MBM-SESSION-HANDOFF.md` — historical context on the two-track design. NOTE: the
+     old "Christlike-virtues scale" / spirit-level scoring it describes was **retired
+     2026-06-24**. There is no virtue scoring anymore; the Profile shows only the plain
+     signals a person revealed, all editable and removable. Do not rebuild scoring.
    - `CREATION-DILEMMA.md` — the apologetic reasoning the minister uses (meat-only,
      never a debate).
 
@@ -130,11 +132,20 @@ signals **on their own**, in their own words:
 This is not a gate they know they are passing. It is a signal the app detects. The
 RESTORATION feed tag and the meat dialogue questions never appear until both signals
 are present. In code this is `mayReferenceLds(signals)` in `mobile/src/engine/connect.ts`
-— and it is the exact same gate the chat and the question bank use. As of 2026-06-13
-the chat gate is **`restorationReady(signals, spiritLevels)`**: the gospel now also
-waits for the **seven spirit levels** to be earned (openness, hunger, honest inquiry
-risen above the 5.0 neutral start), not just the two keyword signals. The levels are
-the measurement for *when* the church may be named — Cameron's design.
+— and it is the exact same gate the chat and the question bank use. As of 2026-06-24
+the gate reads the person's **own words only**: `restorationReady(signals)` simply
+returns `mayReferenceLds(signals)` — the two readiness signals (believes God is good
+AND open to God still speaking), nothing more.
+
+> **RETIRED (Cameron, 2026-06-24): no soul-scoring.** The former "seven spirit levels"
+> Christlikeness scale — the hidden judge that graded openness, hunger, honest inquiry,
+> humility, compassion, courage, sincerity and capped the gate on earned scores — has
+> been **removed entirely**. The app does not score anyone's Christlikeness or virtues.
+> Routing comes only from the plain signals a person reveals in their own words, and
+> **everything the app records is shown openly on the Profile and can be edited or
+> removed by the person** (`forgetSignal`, the "What the app has noticed" card). Any doc
+> still describing spirit levels, `traitScores`, `christlikeCap`, or a `spiritLevels`
+> argument is stale — `SEVEN-SPIRIT-LEVELS-parked.md` is the historical record only.
 
 ### The no-duck law (the AI always answers) — PERMANENT, never remove
 The chat AI must **never** duck a question behind "talk to a real person." Every reply
@@ -171,14 +182,17 @@ They are rules. Build toward them; do not walk them back.
    question, enough to seed routing) and then tells ONE great story — told *by the app
    in the name of Jesus, quoting real scripture*, rendered for emotional impact, ending
    in one open question. The user's answer is recorded to the Profile as the founding
-   entry of who they are compared to Christlikeness. **Every cold open after the first**
+   entry of who they are (a plain record of what they said — never a Christlikeness
+   score, which was retired). **Every cold open after the first**
    tells ANOTHER short, powerful Jesus / God's-love story — **never repeating one
    already told** — each recorded to the Profile with the user's answer, until they
    have seen them all. Every story ends with a link into the AI chat to talk about it more.
 
 2. **The story/lesson record lives on the Profile.** The Profile is where the app shows
-   it has learned the person: stories experienced, answers given, and a Christlikeness
-   read summarized from them. This is the visible payoff for coming back.
+   it has learned the person: stories experienced, answers given, and a plain read of
+   where they are (NOT a Christlikeness score — that was retired). Everything the app
+   has noticed is listed openly and is editable/removable. This is the visible payoff
+   for coming back, and the proof the app keeps nothing hidden.
 
 3. **The member ("meat") track is easy to enter — and hidden, to respect the mystery.**
    There is **no visible "I'm a member" toggle.** The app infers depth from how the
@@ -273,10 +287,12 @@ They are rules. Build toward them; do not walk them back.
 - **App:** React Native + Expo (SDK 54). Tested on a real phone via Expo Go over a
   tunnel. Lives in `mobile/`.
 - **State:** a single **Zustand** store, `mobile/src/store/useAppStore.ts`, persisted
-  to **AsyncStorage**. It holds the person's signals, traits, feed track, journal,
-  chat, faith words, story moments, name, blessing history, and active exercise.
-  (There is no SQLite seed, no `router.js`, no `seed.js`, no `interaction_log` — older
-  docs that mention those are stale.)
+  to **AsyncStorage**. It holds the person's signals, feed track, journal, chat,
+  faith words, story moments, name, blessing history, and active exercise. Every
+  recorded signal is shown on the Profile and can be removed via `forgetSignal`.
+  (There are no virtue/trait scores anymore — retired 2026-06-24. There is also no
+  SQLite seed, no `router.js`, no `seed.js`, no `interaction_log` — older docs that
+  mention those, or any `traitScores`/spirit levels, are stale.)
 - **The engine** (`mobile/src/engine/`):
   - `connect.ts` — the laws: two-witness "God is good" gate, Reformed/Calvinist
     framework blocking, member status only from self-ID, the milk gate
