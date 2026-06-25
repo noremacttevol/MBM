@@ -80,7 +80,7 @@ const STORIES: Story[] = [
       },
       {
         key: 'E', feedTag: 'MILK', signal: 'covenant_intent',
-        text: 'I already walk with Christ — I am here to grow closer to Him and become more like Him.',
+        text: 'I already know and love Jesus — and stories like this are part of why. I want to keep growing closer to Him.',
         reflection: "Then you are exactly who this is for too. Walking with Jesus is never finished — there is always more of Him to know, and more of Him to become. That hunger to grow closer is faith fully alive. Let's go deeper together and keep reaching for the fullness He offers.",
       },
     ],
@@ -121,7 +121,7 @@ const STORIES: Story[] = [
       },
       {
         key: 'E', feedTag: 'MILK', signal: 'covenant_intent',
-        text: 'I already walk with Christ — I am here to grow closer to Him and become more like Him.',
+        text: 'I already know and love Jesus — and stories like this are part of why. I want to keep growing closer to Him.',
         reflection: "Then you are exactly who this is for too. Walking with Jesus is never finished — there is always more of Him to know, and more of Him to become. That hunger to grow closer is faith fully alive. Let's go deeper together and keep reaching for the fullness He offers.",
       },
     ],
@@ -162,7 +162,7 @@ const STORIES: Story[] = [
       },
       {
         key: 'E', feedTag: 'MILK', signal: 'covenant_intent',
-        text: 'I already walk with Christ — I am here to grow closer to Him and become more like Him.',
+        text: 'I already know and love Jesus — and stories like this are part of why. I want to keep growing closer to Him.',
         reflection: "Then you are exactly who this is for too. Walking with Jesus is never finished — there is always more of Him to know, and more of Him to become. That hunger to grow closer is faith fully alive. Let's go deeper together and keep reaching for the fullness He offers.",
       },
     ],
@@ -202,7 +202,7 @@ const STORIES: Story[] = [
       },
       {
         key: 'E', feedTag: 'MILK', signal: 'covenant_intent',
-        text: 'I already walk with Christ — I am here to grow closer to Him and become more like Him.',
+        text: 'I already know and love Jesus — and stories like this are part of why. I want to keep growing closer to Him.',
         reflection: "Then you are exactly who this is for too. Walking with Jesus is never finished — there is always more of Him to know, and more of Him to become. That hunger to grow closer is faith fully alive. Let's go deeper together and keep reaching for the fullness He offers.",
       },
     ],
@@ -243,7 +243,7 @@ const STORIES: Story[] = [
       },
       {
         key: 'E', feedTag: 'MILK', signal: 'covenant_intent',
-        text: 'I already walk with Christ — I am here to grow closer to Him and become more like Him.',
+        text: 'I already know and love Jesus — and stories like this are part of why. I want to keep growing closer to Him.',
         reflection: "Then you are exactly who this is for too. Walking with Jesus is never finished — there is always more of Him to know, and more of Him to become. That hunger to grow closer is faith fully alive. Let's go deeper together and keep reaching for the fullness He offers.",
       },
     ],
@@ -284,7 +284,7 @@ const STORIES: Story[] = [
       },
       {
         key: 'E', feedTag: 'MILK', signal: 'covenant_intent',
-        text: 'I already walk with Christ — I am here to grow closer to Him and become more like Him.',
+        text: 'I already know and love Jesus — and stories like this are part of why. I want to keep growing closer to Him.',
         reflection: "Then you are exactly who this is for too. Walking with Jesus is never finished — there is always more of Him to know, and more of Him to become. That hunger to grow closer is faith fully alive. Let's go deeper together and keep reaching for the fullness He offers.",
       },
     ],
@@ -325,7 +325,7 @@ const STORIES: Story[] = [
       },
       {
         key: 'E', feedTag: 'MILK', signal: 'covenant_intent',
-        text: 'I already walk with Christ — I am here to grow closer to Him and become more like Him.',
+        text: 'I already know and love Jesus — and stories like this are part of why. I want to keep growing closer to Him.',
         reflection: "Then you are exactly who this is for too. Walking with Jesus is never finished — there is always more of Him to know, and more of Him to become. That hunger to grow closer is faith fully alive. Let's go deeper together and keep reaching for the fullness He offers.",
       },
     ],
@@ -366,7 +366,7 @@ const STORIES: Story[] = [
       },
       {
         key: 'E', feedTag: 'MILK', signal: 'covenant_intent',
-        text: 'I already walk with Christ — I am here to grow closer to Him and become more like Him.',
+        text: 'I already know and love Jesus — and stories like this are part of why. I want to keep growing closer to Him.',
         reflection: "Then you are exactly who this is for too. Walking with Jesus is never finished — there is always more of Him to know, and more of Him to become. That hunger to grow closer is faith fully alive. Let's go deeper together and keep reaching for the fullness He offers.",
       },
     ],
@@ -407,7 +407,7 @@ const STORIES: Story[] = [
       },
       {
         key: 'E', feedTag: 'MILK', signal: 'covenant_intent',
-        text: 'I already walk with Christ — I am here to grow closer to Him and become more like Him.',
+        text: 'I already know and love Jesus — and stories like this are part of why. I want to keep growing closer to Him.',
         reflection: "Then you are exactly who this is for too. Walking with Jesus is never finished — there is always more of Him to know, and more of Him to become. That hunger to grow closer is faith fully alive. Let's go deeper together and keep reaching for the fullness He offers.",
       },
     ],
@@ -415,10 +415,17 @@ const STORIES: Story[] = [
   },
 ];
 
-// Pick one story per session, weighted toward stories the user hasn't seen
-// For now: random selection from all 9
-function pickStory(): Story {
-  return STORIES[Math.floor(Math.random() * STORIES.length)];
+// Every story's id, so the navigator can tell when a person has seen them all.
+export const STORY_IDS = STORIES.map(s => s.id);
+
+// Pick one story the person HASN'T seen yet (random among the unseen). Once they
+// have seen them all, fall back to any — though the navigator stops routing here
+// at that point, so in practice a fresh story shows on every cold open until the
+// pool is exhausted.
+function pickStory(seen: string[] = []): Story {
+  const unseen = STORIES.filter(s => !seen.includes(s.id));
+  const pool = unseen.length > 0 ? unseen : STORIES;
+  return pool[Math.floor(Math.random() * pool.length)];
 }
 
 // ── Faith background page ───────────────────────────────────────────────────
@@ -443,9 +450,15 @@ export default function OnboardScreen({ navigation }: Props) {
   const completeOnboarding    = useAppStore(s => s.completeOnboarding);
   const setName               = useAppStore(s => s.setName);
   const recordFaithBackground = useAppStore(s => s.recordFaithBackground);
+  const markStorySeen         = useAppStore(s => s.markStorySeen);
+  const seenStoryIds          = useAppStore(s => s.seenStoryIds);
+  // RETURNING mode = a cold open by someone who already finished first onboarding.
+  // They get a fresh story → question → reflection, then straight into the app —
+  // no name/faith step again. First-timers get the full flow (name + faith).
+  const returning             = useAppStore(s => s.onboardingComplete);
 
   const [phase,       setPhase]       = useState<Phase>('story');
-  const [story]                       = useState<Story>(pickStory);
+  const [story]                       = useState<Story>(() => pickStory(seenStoryIds));
   const [selectedKey, setSelectedKey] = useState<string | null>(null);
   const [freeText,    setFreeText]    = useState('');
   const [showFree,    setShowFree]    = useState(false);
@@ -510,6 +523,14 @@ export default function OnboardScreen({ navigation }: Props) {
     if (nameDraft.trim()) setName(nameDraft.trim());
     recordFaithBackground(faithChoice, faithText);
 
+    markStorySeen(story.id);   // never show this opening story again
+    navigation.replace('Main');
+  }
+
+  // RETURNING cold open: they've already onboarded, so a fresh story + reflection
+  // is all — no name/faith again. Record the story as seen and go into the app.
+  function handleReturningEnter() {
+    markStorySeen(story.id);
     navigation.replace('Main');
   }
 
@@ -692,30 +713,45 @@ export default function OnboardScreen({ navigation }: Props) {
         <StatusBar style="light" />
         <Animated.View style={animStyle}>
           <Text style={styles.reflectionText}>{reflection}</Text>
-          <Text style={styles.reflectionCoda}>
-            That is where we start.{'\n'}Not with a statement. With you.
-          </Text>
 
-          <Text style={styles.nameHint}>
-            If you'd like, tell us what to call you. A first name is plenty — or skip it.
-          </Text>
-          <TextInput
-            style={styles.nameInput}
-            placeholder="Your name (optional)"
-            placeholderTextColor={colors.textMuted}
-            maxLength={40}
-            value={nameDraft}
-            onChangeText={setNameDraft}
-            autoCapitalize="words"
-          />
+          {returning ? (
+            // A returning person already told us who they are — no name/faith step.
+            // Reflect on the story, then walk straight back into the app.
+            <TouchableOpacity
+              style={[styles.primaryBtn, { marginTop: spacing.xl }]}
+              activeOpacity={0.75}
+              onPress={handleReturningEnter}
+            >
+              <Text style={styles.primaryBtnText}>Enter →</Text>
+            </TouchableOpacity>
+          ) : (
+            <>
+              <Text style={styles.reflectionCoda}>
+                That is where we start.{'\n'}Not with a statement. With you.
+              </Text>
 
-          <TouchableOpacity
-            style={styles.primaryBtn}
-            activeOpacity={0.75}
-            onPress={() => setPhase('faith')}
-          >
-            <Text style={styles.primaryBtnText}>Continue →</Text>
-          </TouchableOpacity>
+              <Text style={styles.nameHint}>
+                If you'd like, tell us what to call you. A first name is plenty — or skip it.
+              </Text>
+              <TextInput
+                style={styles.nameInput}
+                placeholder="Your name (optional)"
+                placeholderTextColor={colors.textMuted}
+                maxLength={40}
+                value={nameDraft}
+                onChangeText={setNameDraft}
+                autoCapitalize="words"
+              />
+
+              <TouchableOpacity
+                style={styles.primaryBtn}
+                activeOpacity={0.75}
+                onPress={() => setPhase('faith')}
+              >
+                <Text style={styles.primaryBtnText}>Continue →</Text>
+              </TouchableOpacity>
+            </>
+          )}
         </Animated.View>
       </ScrollView>
     </KeyboardAvoidingView>

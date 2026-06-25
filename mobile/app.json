@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "updates": {
-      "url": "https://u.expo.dev/0f5ca732-8dd3-4223-a715-8252870bf85d",
+      "url": "https://u.expo.dev/6cc829be-50dd-4ae1-8122-34edbb379bbd",
       "fallbackToCacheTimeout": 0
     },
     "runtimeVersion": {
@@ -20,9 +20,10 @@
     },
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.mbm.app",
+      "bundleIdentifier": "org.milkb4meat.app",
       "infoPlist": {
-        "CFBundleDisplayName": "Milk B4 Meat"
+        "CFBundleDisplayName": "Milk B4 Meat",
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
@@ -30,7 +31,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0a0a0f"
       },
-      "package": "com.mbm.app"
+      "package": "com.milk_before_meat"
     },
     "web": {
       "bundler": "metro"
@@ -43,11 +44,13 @@
           "enableFTS": true
         }
       ],
-      "./plugins/withShortAppName.js"
+      "./plugins/withShortAppName.js",
+      "./plugins/withAdiRegistration.js"
     ],
+    "owner": "milkb4meat",
     "extra": {
       "eas": {
-        "projectId": "0f5ca732-8dd3-4223-a715-8252870bf85d"
+        "projectId": "6cc829be-50dd-4ae1-8122-34edbb379bbd"
       }
     }
   }

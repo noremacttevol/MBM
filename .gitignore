@@ -58,6 +58,17 @@ env/
 *.db
 *.sqlite
 *.sqlite3
+*.backup.gz
+*-backup.gz
+
+# ─────────────────────────────────────────────────────────────────────────────
+# BUILT APP BINARIES & UPLOAD CREDENTIALS — never commit. These are large build
+# outputs (Android/iOS packages) or signing/upload material that must stay local.
+# ─────────────────────────────────────────────────────────────────────────────
+*.apk
+*.aab
+*.ipa
+*.pem
 
 # ─────────────────────────────────────────────────────────────────────────────
 # LOGS

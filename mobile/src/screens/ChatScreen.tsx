@@ -51,6 +51,7 @@ export default function ChatScreen() {
   const inboxUnread     = useAppStore(s => s.inboxUnread);
   const deleteChatSession = useAppStore(s => s.deleteChatSession);
   const closeRealPersonThread = useAppStore(s => s.closeRealPersonThread);
+  const newRealPersonThread   = useAppStore(s => s.newRealPersonThread);
   const dialogueSignals     = useAppStore(s => s.dialogueSignals);
   const restorationConsent  = useAppStore(s => s.restorationConsent);
   const grantRestorationConsent   = useAppStore(s => s.grantRestorationConsent);
@@ -122,6 +123,30 @@ export default function ChatScreen() {
     setShowConnect(false);
   }
 
+  // Toggle the regular (AI) chat history dropdown; never overlaps the real-person view.
+  function handleAiHistory() {
+    setShowConnect(false);
+    setShowHistory(v => !v);
+  }
+
+  // Real-person "New": open the real-person view on a fresh, empty conversation.
+  function handleRealNew() {
+    setShowHistory(false);
+    setShowConnect(true);
+    newRealPersonThread();
+  }
+
+  // Real-person "History": open (or close) the list of past real-person conversations.
+  function handleRealHistory() {
+    if (showConnect) {
+      setShowConnect(false);
+      return;
+    }
+    setShowHistory(false);
+    setShowConnect(true);
+    closeRealPersonThread(); // land on the conversation LIST, not a stale thread
+  }
+
   function fmtDay(ts: number) {
     return new Date(ts).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
   }
@@ -184,32 +209,29 @@ export default function ChatScreen() {
 
       {/* ── Header ────────────────────────────────────────────────────────── */}
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>Talk About It</Text>
-        <View style={styles.headerActions}>
+        {/* LEFT — the regular chat (no label): its own New / History. */}
+        <View style={styles.headerSide}>
           <TouchableOpacity style={styles.headerBtn} activeOpacity={0.75} onPress={handleNewChat}>
-            <Text style={styles.headerBtnText}>+ New</Text>
+            <Text style={styles.headerBtnText}>New</Text>
           </TouchableOpacity>
-          <TouchableOpacity
-            style={styles.headerBtn}
-            activeOpacity={0.75}
-            onPress={() => { setShowHistory(v => !v); setShowConnect(false); }}
-          >
-            <Text style={styles.headerBtnText}>History ▾</Text>
+          <TouchableOpacity style={styles.headerBtn} activeOpacity={0.75} onPress={handleAiHistory}>
+            <Text style={styles.headerBtnText}>History</Text>
           </TouchableOpacity>
-          {/* A real person is ALWAYS one tap away — never gated (CLAUDE.md law).
-              Opening it lands on the real-person conversation LIST (its own history,
-              with its own + New), kept entirely separate from the AI history above. */}
-          <TouchableOpacity
-            style={[styles.headerBtn, styles.personBtn]}
-            activeOpacity={0.75}
-            onPress={() => {
-              const next = !showConnect;
-              setShowConnect(next);
-              setShowHistory(false);
-              if (next) closeRealPersonThread(); // open to the list, not a stale thread
-            }}
-          >
-            <Text style={[styles.headerBtnText, styles.personBtnText]}>Real person</Text>
+        </View>
+
+        {/* CENTER — the title. */}
+        <Text style={styles.headerTitle}>Talk About It</Text>
+
+        {/* RIGHT — a real person is ALWAYS one tap away (CLAUDE.md law). The
+            "Real person" label heads its own New / History, kept entirely
+            separate from the AI chat on the left. */}
+        <View style={styles.headerSide}>
+          <Text style={styles.personLabel}>Real person</Text>
+          <TouchableOpacity style={[styles.headerBtn, styles.personBtn]} activeOpacity={0.75} onPress={handleRealNew}>
+            <Text style={[styles.headerBtnText, styles.personBtnText]}>New</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={[styles.headerBtn, styles.personBtn]} activeOpacity={0.75} onPress={handleRealHistory}>
+            <Text style={[styles.headerBtnText, styles.personBtnText]}>History</Text>
           </TouchableOpacity>
         </View>
       </View>
@@ -403,15 +425,21 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1, borderBottomColor: colors.borderDim,
     flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center',
   },
-  headerTitle: { fontSize: 18, fontFamily: 'Jost_400Regular', color: colors.textMid },
+  // Title sits in the MIDDLE, centered between the two button groups.
+  headerTitle: {
+    flex: 1, textAlign: 'center', marginHorizontal: spacing.xs,
+    fontSize: 16, fontFamily: 'Jost_400Regular', color: colors.textMid,
+  },
 
-  headerActions: { flexDirection: 'row', alignItems: 'center', gap: spacing.xs },
+  // Each side holds its small button group (left = AI chat, right = real person).
+  headerSide: { flexDirection: 'row', alignItems: 'center', gap: spacing.xs },
   headerBtn: {
     borderWidth: 1, borderColor: colors.borderDim, borderRadius: 4,
     paddingVertical: 5, paddingHorizontal: 9,
   },
   headerBtnText: { color: colors.textDim, fontSize: 11, fontFamily: 'Jost_400Regular' },
-  // The real-person action is blue, matching the blue of a real person's replies.
+  // "Real person" heads its two buttons, in the blue that marks a real person's replies.
+  personLabel: { color: colors.blue, fontSize: 11, fontFamily: 'Jost_400Regular', marginRight: 2 },
   personBtn: { borderColor: colors.blue },
   personBtnText: { color: colors.blue },
 

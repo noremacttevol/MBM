@@ -7,7 +7,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 
 import HookScreen        from '../screens/HookScreen';
-import OnboardScreen     from '../screens/OnboardScreen';
+import OnboardScreen, { STORY_IDS } from '../screens/OnboardScreen';
 import WelcomeBackScreen from '../screens/WelcomeBackScreen';
 import FeedScreen        from '../screens/FeedScreen';
 import JournalScreen     from '../screens/JournalScreen';
@@ -146,8 +146,21 @@ export default function AppNavigator() {
     );
   }
 
-  const onboardingComplete = useAppStore.getState().onboardingComplete;
-  const initialRouteName: keyof RootStackParamList = onboardingComplete ? 'WelcomeBack' : 'Hook';
+  // Cold-open behavior (CLAUDE.md locked direction). This runs once per app launch
+  // (a true cold start — a fully closed app being reopened, or a browser reload),
+  // never on a warm resume, so it is exactly the "every time they come back" moment:
+  //   • First ever launch        → Hook → Onboard (full first-run: story + name + faith)
+  //   • Returning, stories left   → Hook → Onboard (a NEW story → reflection → app)
+  //   • Returning, all seen       → straight into the app (skip the title + story)
+  // There is no "continue where you left off" screen on a cold open anymore.
+  const s = useAppStore.getState();
+  const onboardingComplete = s.onboardingComplete;
+  const seen = s.seenStoryIds ?? [];
+  const hasUnseenStory = STORY_IDS.some(id => !seen.includes(id));
+  const initialRouteName: keyof RootStackParamList =
+    !onboardingComplete ? 'Hook'
+    : hasUnseenStory     ? 'Hook'
+    :                      'Main';
 
   return (
     <NavigationContainer>

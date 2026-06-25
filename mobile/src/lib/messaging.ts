@@ -16,7 +16,6 @@ import {
   collection,
   query,
   where,
-  orderBy,
   getDocs,
   addDoc,
   updateDoc,
@@ -65,6 +64,13 @@ export interface SendOptions {
   threadTitle?: string;
   excerpt?:     string;
   journeyStage?: string;
+  // The person's name, if they've given one — so the admin team can recognize a
+  // returning person and greet them properly. Optional; null when unknown.
+  userName?:    string;
+  // A short, SELF-REPORTED note about their faith background / inclination (in
+  // their own words) — shown beside their name in the console so a responder has
+  // context. Optional; null when they haven't said anything.
+  faithNote?:   string;
   // 'crisis' when the conversation showed severe distress, so admin triages first.
   priority?:    string;
 }
@@ -113,6 +119,8 @@ export async function sendMessage(
   try {
     const ref = await addDoc(collection(db, MESSAGES), {
       userId:       uid,
+      userName:     opts.userName?.trim() || null,
+      faithNote:    opts.faithNote?.trim() || null,
       threadId,
       threadTitle,
       sender:       'user',
@@ -143,9 +151,13 @@ export async function sendMessage(
   }
 }
 
-// Load EVERY message for this device, oldest first. The app groups them into
-// separate conversations by thread_id on the client (no extra Firestore index
-// needed — this is the same single query the inbox has always used).
+// Load EVERY message for this device. We filter by userId ONLY (a single-field
+// query that needs no special Firestore index) and sort by time on the device.
+// Ordering server-side with `orderBy('createdAt')` here would force a composite
+// index (userId + createdAt) that must be created by hand — and if it is missing
+// the whole query throws and the history silently shows nothing. Sorting on the
+// client avoids that entirely. The app also re-sorts when grouping into threads,
+// so order is correct regardless.
 export async function fetchThread(): Promise<InboxMessage[]> {
   if (!db) return [];
   const uid = await ensureAnonSession();
@@ -154,10 +166,11 @@ export async function fetchThread(): Promise<InboxMessage[]> {
     const q = query(
       collection(db, MESSAGES),
       where('userId', '==', uid),
-      orderBy('createdAt', 'asc'),
     );
     const snap = await getDocs(q);
-    return snap.docs.map(toInboxMessage);
+    return snap.docs
+      .map(toInboxMessage)
+      .sort((a, b) => +new Date(a.created_at) - +new Date(b.created_at));
   } catch {
     return [];
   }
@@ -200,10 +213,11 @@ export function subscribeToThread(
 
   ensureAnonSession().then(uid => {
     if (!uid || !db || cancelled) return;
+    // userId-only filter (no orderBy) so it needs no composite index; the store
+    // sorts by time when it groups messages into threads for display.
     const q = query(
       collection(db, MESSAGES),
       where('userId', '==', uid),
-      orderBy('createdAt', 'asc'),
     );
     // onSnapshot replays the existing thread as "added" on first fire; the store
     // de-dupes by id, so that is harmless. After that, only the admin's new
