@@ -208,30 +208,34 @@ export default function ChatScreen() {
       <StatusBar style="light" />
 
       {/* ── Header ────────────────────────────────────────────────────────── */}
+      {/* Compact, responsive header: New/History are small square icon buttons
+          (+ and a clock) so the two button groups stay narrow and never overlap
+          the title on small phones. The "Real / Person" label is stacked on two
+          lines for the same reason. */}
       <View style={styles.header}>
-        {/* LEFT — the regular chat (no label): its own New / History. */}
+        {/* LEFT — the regular chat (no label): its own New / History as icons. */}
         <View style={styles.headerSide}>
-          <TouchableOpacity style={styles.headerBtn} activeOpacity={0.75} onPress={handleNewChat}>
-            <Text style={styles.headerBtnText}>New</Text>
+          <TouchableOpacity style={styles.iconBtn} activeOpacity={0.75} onPress={handleNewChat} accessibilityRole="button" accessibilityLabel="New conversation">
+            <Text style={styles.iconBtnText}>+</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.headerBtn} activeOpacity={0.75} onPress={handleAiHistory}>
-            <Text style={styles.headerBtnText}>History</Text>
+          <TouchableOpacity style={styles.iconBtn} activeOpacity={0.75} onPress={handleAiHistory} accessibilityRole="button" accessibilityLabel="Conversation history">
+            <Text style={styles.iconBtnText}>🕐</Text>
           </TouchableOpacity>
         </View>
 
-        {/* CENTER — the title. */}
-        <Text style={styles.headerTitle}>Talk About It</Text>
+        {/* CENTER — the title. Shrinks to one line so it never pushes the groups. */}
+        <Text style={styles.headerTitle} numberOfLines={1} adjustsFontSizeToFit minimumFontScale={0.8}>Talk About It</Text>
 
         {/* RIGHT — a real person is ALWAYS one tap away (CLAUDE.md law). The
-            "Real person" label heads its own New / History, kept entirely
-            separate from the AI chat on the left. */}
+            stacked "Real / Person" label heads its own New / History icons, kept
+            entirely separate from the AI chat on the left. */}
         <View style={styles.headerSide}>
-          <Text style={styles.personLabel}>Real person</Text>
-          <TouchableOpacity style={[styles.headerBtn, styles.personBtn]} activeOpacity={0.75} onPress={handleRealNew}>
-            <Text style={[styles.headerBtnText, styles.personBtnText]}>New</Text>
+          <Text style={styles.personLabel}>Real{'\n'}Person</Text>
+          <TouchableOpacity style={[styles.iconBtn, styles.personBtn]} activeOpacity={0.75} onPress={handleRealNew} accessibilityRole="button" accessibilityLabel="New message to a real person">
+            <Text style={[styles.iconBtnText, styles.personBtnText]}>+</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={[styles.headerBtn, styles.personBtn]} activeOpacity={0.75} onPress={handleRealHistory}>
-            <Text style={[styles.headerBtnText, styles.personBtnText]}>History</Text>
+          <TouchableOpacity style={[styles.iconBtn, styles.personBtn]} activeOpacity={0.75} onPress={handleRealHistory} accessibilityRole="button" accessibilityLabel="Real person history">
+            <Text style={[styles.iconBtnText, styles.personBtnText]}>🕐</Text>
           </TouchableOpacity>
         </View>
       </View>
@@ -433,13 +437,19 @@ const styles = StyleSheet.create({
 
   // Each side holds its small button group (left = AI chat, right = real person).
   headerSide: { flexDirection: 'row', alignItems: 'center', gap: spacing.xs },
-  headerBtn: {
+  // Compact square icon buttons (+ for New, clock for History) — far narrower
+  // than the old text labels, so both groups fit on small screens.
+  iconBtn: {
     borderWidth: 1, borderColor: colors.borderDim, borderRadius: 4,
-    paddingVertical: 5, paddingHorizontal: 9,
+    width: 30, height: 30, alignItems: 'center', justifyContent: 'center',
   },
-  headerBtnText: { color: colors.textDim, fontSize: 11, fontFamily: 'Jost_400Regular' },
-  // "Real person" heads its two buttons, in the blue that marks a real person's replies.
-  personLabel: { color: colors.blue, fontSize: 11, fontFamily: 'Jost_400Regular', marginRight: 2 },
+  iconBtnText: { color: colors.textDim, fontSize: 16, lineHeight: 19, fontFamily: 'Jost_400Regular' },
+  // "Real / Person" stacked on two lines, in the blue that marks a real person's
+  // replies — keeps the right group narrow.
+  personLabel: {
+    color: colors.blue, fontSize: 9, lineHeight: 11, textAlign: 'center',
+    fontFamily: 'Jost_400Regular', marginRight: 2,
+  },
   personBtn: { borderColor: colors.blue },
   personBtnText: { color: colors.blue },
 

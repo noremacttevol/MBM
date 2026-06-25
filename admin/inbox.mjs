@@ -28,11 +28,29 @@
 
 import { readFileSync, existsSync } from 'fs';
 import http from 'http';
+import crypto from 'crypto';
 import { initializeApp, cert } from 'firebase-admin/app';
 import { getFirestore, FieldValue } from 'firebase-admin/firestore';
 
-const PORT = 4545;
+const PORT = process.env.PORT || 4545;
 const KEY_PATH = new URL('./serviceAccount.json', import.meta.url);
+
+// ── Login (so the hosted desk isn't open to the world) ──────────────────────
+// On a host (Railway etc.) set ADMIN_PASSWORD to a shared team password and
+// SESSION_SECRET to any long random string. Then the desk shows a login page and
+// only lets people in who know the password; each helper types their own NAME at
+// login, which is what their replies get signed with. If ADMIN_PASSWORD is unset
+// (i.e. running locally), the desk stays open with no login — exactly as before.
+const ADMIN_PASSWORD  = (process.env.ADMIN_PASSWORD || '').trim();
+const SESSION_SECRET  = (process.env.SESSION_SECRET || 'mbm-local-dev-secret').trim();
+const AUTH_ON         = !!ADMIN_PASSWORD;
+
+// The app's AI proxy is folded into this same service: the app posts {system,
+// messages} to /api/chat and we add the Anthropic key here, so the key never
+// ships inside the downloadable app. PUBLIC (no login) because the app calls it
+// directly; every desk route below stays login-gated.
+const ANTHROPIC_KEY   = (process.env.ANTHROPIC_API_KEY || '').trim();
+const ANTHROPIC_MODEL = (process.env.ANTHROPIC_MODEL || 'claude-haiku-4-5-20251001').trim();
 
 // ── Who is answering right now (Phase 1: just Cameron) ──────────────────────────
 // Phase 2: replace this with the logged-in volunteer. Everything downstream — the
@@ -40,18 +58,33 @@ const KEY_PATH = new URL('./serviceAccount.json', import.meta.url);
 // helpers is a login change, not a rebuild.
 const RESPONDER = { id: 'cameron', name: 'Cameron' };
 
-if (!existsSync(KEY_PATH)) {
+// Every reply is SIGNED so the person knows a real, named human answered — and so
+// a helper can choose to share personal contact info (email, phone) right in the
+// reply. Set ADMIN_SIGNATURE in admin/.env to anything you like, e.g.:
+//   ADMIN_SIGNATURE=Cameron · cameron@milkb4meat.org · text me anytime
+// If unset, it defaults to just the responder's name. In the multi-admin app each
+// approved helper will carry their own signature from their profile.
+const ADMIN_SIGNATURE = (process.env.ADMIN_SIGNATURE || RESPONDER.name).trim();
+
+// The Firebase service-account key. On a host it can't be a committed file, so we
+// also accept it as a base64 env var (FIREBASE_SERVICE_ACCOUNT). Locally it's the
+// gitignored admin/serviceAccount.json file — same as always.
+let serviceAccount;
+if (process.env.FIREBASE_SERVICE_ACCOUNT) {
+  serviceAccount = JSON.parse(
+    Buffer.from(process.env.FIREBASE_SERVICE_ACCOUNT, 'base64').toString('utf8'),
+  );
+} else if (existsSync(KEY_PATH)) {
+  serviceAccount = JSON.parse(readFileSync(KEY_PATH, 'utf8'));
+} else {
   console.error(
-    '\n  Missing serviceAccount.json.\n\n' +
-    '  Get it from the Firebase console:\n' +
-    '    Project settings (gear) -> Service accounts -> Generate new private key.\n' +
-    '  Save the downloaded file as  admin/serviceAccount.json  and run again.\n' +
-    '  (It is gitignored — it must never be committed.)\n',
+    '\n  Missing the Firebase service-account key.\n\n' +
+    '  Local: save it as  admin/serviceAccount.json  (gitignored).\n' +
+    '  Hosted: set the env var  FIREBASE_SERVICE_ACCOUNT  to the key file,\n' +
+    '          base64-encoded (base64 -w0 serviceAccount.json).\n',
   );
   process.exit(1);
 }
-
-const serviceAccount = JSON.parse(readFileSync(KEY_PATH, 'utf8'));
 initializeApp({ credential: cert(serviceAccount) });
 const db = getFirestore();
 const COL = 'messages';
@@ -68,6 +101,42 @@ const parseKey = (key) => {
   if (i < 0) return { uid: key || '', threadId: LEGACY_THREAD };
   return { uid: key.slice(0, i), threadId: key.slice(i + 2) || LEGACY_THREAD };
 };
+
+// ── Login session helpers ───────────────────────────────────────────────────
+// A session is just the helper's name, signed with SESSION_SECRET so it can't be
+// forged. Stored in a cookie. No database, no accounts to manage — the shared
+// ADMIN_PASSWORD is the gate, the name is who's answering.
+function b64url(s) { return Buffer.from(s, 'utf8').toString('base64url'); }
+function unb64url(s) { try { return Buffer.from(s, 'base64url').toString('utf8'); } catch { return ''; } }
+function signSession(name) {
+  const payload = b64url(name);
+  const sig = crypto.createHmac('sha256', SESSION_SECRET).update(payload).digest('hex');
+  return `${payload}.${sig}`;
+}
+function verifySession(token) {
+  if (!token || token.indexOf('.') < 0) return null;
+  const [payload, sig] = token.split('.');
+  const expect = crypto.createHmac('sha256', SESSION_SECRET).update(payload).digest('hex');
+  if (sig !== expect) return null;
+  const name = unb64url(payload).trim();
+  return name || null;
+}
+function cookies(req) {
+  const out = {};
+  (req.headers.cookie || '').split(';').forEach(p => {
+    const i = p.indexOf('=');
+    if (i > 0) out[p.slice(0, i).trim()] = decodeURIComponent(p.slice(i + 1).trim());
+  });
+  return out;
+}
+// Who is answering this request: the logged-in helper, or — when no login is
+// configured (local dev) — the default RESPONDER below.
+function responderFor(req) {
+  if (!AUTH_ON) return RESPONDER;
+  const name = verifySession(cookies(req).mbm_session || '');
+  if (!name) return null; // not logged in
+  return { id: name.toLowerCase().replace(/[^a-z0-9]+/g, '-') || 'helper', name };
+}
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -90,6 +159,8 @@ function mapDoc(doc) {
   return {
     id:            doc.id,
     user_id:       d.userId ?? '',
+    user_name:     d.userName ?? null,
+    faith_note:    d.faithNote ?? null,
     thread_id:     d.threadId ?? LEGACY_THREAD,
     thread_title:  d.threadTitle ?? null,
     sender:        d.sender === 'admin' ? 'admin' : 'user',
@@ -157,6 +228,52 @@ function titleOf(messages) {
   return raw.length > 52 ? raw.slice(0, 52).trim() + '…' : (raw || 'Conversation');
 }
 
+// A short, human description of where a person is — enough for a disciple to know
+// who they're about to talk to, without exposing the internal routing label raw.
+const STAGE_DESC = {
+  UNREACHED:              'New here — just looking',
+  CURIOUS:                'Curious, starting to ask questions',
+  BELIEVES_GOD_GOOD:      'Believes God is good',
+  OPEN_TO_RESTORATION:    'Open to there being more',
+  SEEKING_TRUTH:          'Actively seeking the truth',
+  READY_FOR_MISSIONARIES: 'Ready to meet missionaries',
+  BAPTISM:                'Heading toward baptism',
+  DISCIPLE_GROWING:       'A member, growing in the gospel',
+};
+
+// What to call a person in the list: their name if given, else a stable short ID
+// from their device so each anonymous person is still distinguishable.
+function personLabel(name, uid) {
+  if (name && name.trim()) return name.trim();
+  return 'Guest ' + String(uid || '').slice(0, 4).toUpperCase();
+}
+
+// A one-line description: humanized stage if we have it, else their own faith note,
+// else a gentle default. Never the raw internal code.
+function personDesc(stage, faith) {
+  if (stage && STAGE_DESC[stage]) return STAGE_DESC[stage];
+  if (faith && faith.trim()) return faith.trim();
+  return 'Reached out for a real person';
+}
+
+// Delete every conversation and its triage record — a full clean slate for testing.
+// Batched (Firestore caps a batch at 500 writes). Returns the total docs removed.
+async function resetAll() {
+  let removed = 0;
+  for (const name of [COL, META]) {
+    const snap = await db.collection(name).get();
+    let batch = db.batch();
+    let n = 0;
+    for (const d of snap.docs) {
+      batch.delete(d.ref);
+      n++; removed++;
+      if (n === 450) { await batch.commit(); batch = db.batch(); n = 0; }
+    }
+    if (n > 0) await batch.commit();
+  }
+  return removed;
+}
+
 // Group every message into one thread per CONVERSATION (person + threadId), those
 // needing a reply first. Each row carries a composite `key` the rest of the desk
 // uses to open, reply, and triage exactly that conversation.
@@ -167,10 +284,15 @@ async function listThreads() {
   for (const m of msgs) {
     const key = keyOf(m.user_id, m.thread_id);
     if (!byKey.has(key)) {
-      byKey.set(key, { key, uid: m.user_id, threadId: m.thread_id, messages: [], unread: 0, stage: null, crisis: false, cancelled: false });
+      byKey.set(key, { key, uid: m.user_id, threadId: m.thread_id, name: null, faith: null, messages: [], unread: 0, stage: null, crisis: false, cancelled: false });
     }
     const t = byKey.get(key);
     t.messages.push(m);
+    // Remember the person's name and self-reported faith note if they've given one
+    // (latest wins), so the console can label the conversation, show their own-words
+    // faith background beside their name, and greet them properly.
+    if (m.sender === 'user' && m.user_name) t.name = m.user_name;
+    if (m.sender === 'user' && m.faith_note) t.faith = m.faith_note;
     if (m.sender === 'user' && !m.read_by_admin) t.unread += 1;
     if (m.sender === 'user' && m.journey_stage) t.stage = m.journey_stage;
     // A single crisis-flagged message marks the whole conversation for first triage.
@@ -186,6 +308,10 @@ async function listThreads() {
       key:              t.key,
       uid:              t.uid,
       thread_id:        t.threadId,
+      person_name:      t.name ?? null,
+      person_faith:     t.faith ?? null,
+      label:            personLabel(t.name, t.uid),
+      desc:             personDesc(t.stage, t.faith),
       title:            titleOf(t.messages),
       unread:           t.unread,
       stage:            t.stage,
@@ -212,15 +338,40 @@ async function listThreads() {
   return threads;
 }
 
+// ── Thread-list cache (protects the Firestore read quota) ────────────────────
+// Every /api/threads call used to read the ENTIRE messages collection. The desk
+// polls on a timer and may be open in several tabs, so an idle inbox could burn
+// through a free-tier day of reads in hours. This serves a recent result instead
+// of re-reading the database on every poll: the DB is hit at most once per TTL,
+// no matter how many polls or tabs ask. Any write (reply/handle/markread/reset)
+// clears it immediately so the admin always sees their own action right away.
+const THREADS_TTL_MS = 15000; // serve a cached list for up to 15s
+let _threadsCache = { at: 0, data: null };
+function invalidateThreadsCache() { _threadsCache = { at: 0, data: null }; }
+async function listThreadsCached() {
+  const now = Date.now();
+  if (_threadsCache.data && (now - _threadsCache.at) < THREADS_TTL_MS) {
+    return _threadsCache.data;
+  }
+  const data = await listThreads();
+  _threadsCache = { at: now, data };
+  return data;
+}
+
 async function getThread(key) {
   const { uid, threadId } = parseKey(key);
-  // One equality query on userId (the existing index), then filter to this
-  // conversation on the client — so no extra composite index is needed.
+  // ONE equality query on userId only (single-field, already indexed), then sort
+  // and filter to this conversation in JS. We must NOT add .orderBy('createdAt')
+  // here: userId + createdAt needs a composite index that isn't created, and if
+  // it's missing the query throws and the thread comes back EMPTY (the bug where
+  // clicking a conversation showed a blank screen). Sorting in code avoids it.
   const snap = await db.collection(COL)
     .where('userId', '==', uid)
-    .orderBy('createdAt', 'asc')
     .get();
-  const messages = snap.docs.map(mapDoc).filter(m => m.thread_id === threadId);
+  const messages = snap.docs
+    .map(mapDoc)
+    .filter(m => m.thread_id === threadId)
+    .sort((a, b) => +new Date(a.created_at) - +new Date(b.created_at));
   const metaSnap = await db.collection(META).doc(key).get();
   const m = metaSnap.exists ? metaSnap.data() : null;
   const meta = m
@@ -231,33 +382,47 @@ async function getThread(key) {
         assigned_to_name: m.assignedToName ?? null,
       }
     : null;
+  const userMsgs = messages.filter(x => x.sender === 'user');
+  const pName  = [...userMsgs].reverse().find(x => x.user_name)?.user_name ?? null;
+  const pFaith = [...userMsgs].reverse().find(x => x.faith_note)?.faith_note ?? null;
+  const pStage = [...messages].reverse().find(x => x.sender === 'user' && x.journey_stage)?.journey_stage ?? null;
   return {
     messages,
     title: titleOf(messages),
-    stage: [...messages].reverse().find(x => x.sender === 'user' && x.journey_stage)?.journey_stage ?? null,
+    person_name:  pName,
+    person_faith: pFaith,
+    label:        personLabel(pName, uid),
+    desc:         personDesc(pStage, pFaith),
+    stage: pStage,
     status: deriveStatus(messages, meta),
     handled_by_name: meta?.handled_by_name ?? null,
   };
 }
 
-async function reply(key, body) {
+async function reply(key, body, responder = RESPONDER) {
   const clean = (body ?? '').trim();
   const { uid, threadId } = parseKey(key);
   if (!uid || !clean) return false;
+  // Each helper signs with their own name (or a custom ADMIN_SIGNATURE if set).
+  const signature = (process.env.ADMIN_SIGNATURE || responder.name).trim();
   // The app reader (mobile/src/lib/messaging.ts) ignores responderId/responderName;
   // they exist only so this desk — now and with volunteers later — can show who
   // answered. The reply is stamped with the SAME threadId so it lands in exactly the
   // conversation the person asked in. Nothing about the person's experience changes.
+  // Sign the reply so the person sees who answered (and any contact info the
+  // helper chose to share). The signature is appended to the message text itself,
+  // so it shows in the app regardless of how the bubble is labeled.
+  const signed = `${clean}\n\n— ${signature}`;
   await db.collection(COL).add({
     userId:        uid,
     threadId,
     threadTitle:   null,
     sender:        'admin',
-    body:          clean,
+    body:          signed,
     excerpt:       null,
     journeyStage:  null,
-    responderId:   RESPONDER.id,
-    responderName: RESPONDER.name,
+    responderId:   responder.id,
+    responderName: responder.name,
     createdAt:     FieldValue.serverTimestamp(),
     readByAdmin:   true,
     readByUser:    false,
@@ -266,21 +431,21 @@ async function reply(key, body) {
   await db.collection(META).doc(key).set({
     status:        'handled',
     handledAt:     FieldValue.serverTimestamp(),
-    handledById:   RESPONDER.id,
-    handledByName: RESPONDER.name,
+    handledById:   responder.id,
+    handledByName: responder.name,
   }, { merge: true });
   return true;
 }
 
 // Mark a conversation handled without sending a message — for when a person's note
 // needs no reply (a thank-you, a closing word) but you don't want it nagging the queue.
-async function markHandled(key) {
+async function markHandled(key, responder = RESPONDER) {
   if (!key) return false;
   await db.collection(META).doc(key).set({
     status:        'handled',
     handledAt:     FieldValue.serverTimestamp(),
-    handledById:   RESPONDER.id,
-    handledByName: RESPONDER.name,
+    handledById:   responder.id,
+    handledByName: responder.name,
   }, { merge: true });
   return true;
 }
@@ -320,16 +485,83 @@ function readBody(req) {
 const server = http.createServer(async (req, res) => {
   const url = new URL(req.url, `http://localhost:${PORT}`);
   try {
+    // ── AI proxy (PUBLIC — the app calls this; no login) ─────────────────────
+    // Folded in from the old server/index.js so one service serves both the app's
+    // AI and the desk. The Anthropic key stays here, never in the app.
+    if (url.pathname === '/api/chat') {
+      res.setHeader('Access-Control-Allow-Origin', '*');
+      res.setHeader('Access-Control-Allow-Headers', 'content-type');
+      if (req.method === 'OPTIONS') { res.writeHead(204); return res.end(); }
+      if (req.method !== 'POST') return json(res, 405, { error: 'method' });
+      if (!ANTHROPIC_KEY) return json(res, 503, { error: 'no_key_configured' });
+      const { system, messages, max_tokens } = await readBody(req);
+      if (!Array.isArray(messages) || messages.length === 0) {
+        return json(res, 400, { error: 'bad_request' });
+      }
+      try {
+        const r = await fetch('https://api.anthropic.com/v1/messages', {
+          method: 'POST',
+          headers: { 'content-type': 'application/json', 'x-api-key': ANTHROPIC_KEY, 'anthropic-version': '2023-06-01' },
+          body: JSON.stringify({
+            model: ANTHROPIC_MODEL,
+            max_tokens: Math.min(max_tokens || 512, 1024),
+            system: String(system || ''),
+            messages,
+          }),
+        });
+        if (!r.ok) return json(res, 502, { error: 'upstream_' + r.status });
+        const data = await r.json();
+        const text = (data.content || []).filter(b => b.type === 'text').map(b => b.text).join('').trim();
+        return json(res, 200, { text });
+      } catch {
+        return json(res, 502, { error: 'upstream_failed' });
+      }
+    }
+
+    // ── Login / logout (public) ──────────────────────────────────────────────
+    if (req.method === 'POST' && url.pathname === '/api/login') {
+      const { name, password } = await readBody(req);
+      const cleanName = (name || '').trim();
+      if (!AUTH_ON || !cleanName || password !== ADMIN_PASSWORD) {
+        return json(res, 401, { ok: false, error: 'Wrong password (or no name).' });
+      }
+      const token = signSession(cleanName);
+      res.writeHead(200, {
+        'Content-Type': 'application/json',
+        // Cookie: HttpOnly, 30 days, SameSite=Lax. Secure on a real https host.
+        'Set-Cookie': `mbm_session=${encodeURIComponent(token)}; HttpOnly; Path=/; Max-Age=2592000; SameSite=Lax`,
+      });
+      return res.end(JSON.stringify({ ok: true, name: cleanName }));
+    }
+    if (req.method === 'POST' && url.pathname === '/api/logout') {
+      res.writeHead(200, {
+        'Content-Type': 'application/json',
+        'Set-Cookie': 'mbm_session=; HttpOnly; Path=/; Max-Age=0; SameSite=Lax',
+      });
+      return res.end(JSON.stringify({ ok: true }));
+    }
+
+    // ── Auth gate ────────────────────────────────────────────────────────────
+    const responder = responderFor(req); // null only when AUTH_ON and not logged in
+    if (AUTH_ON && !responder) {
+      if (req.method === 'GET' && (url.pathname === '/' || url.pathname === '/login')) {
+        res.writeHead(200, { 'Content-Type': 'text/html' });
+        return res.end(LOGIN_PAGE);
+      }
+      return json(res, 401, { error: 'login required' });
+    }
+
+    // ── The desk ─────────────────────────────────────────────────────────────
     if (req.method === 'GET' && url.pathname === '/') {
       res.writeHead(200, { 'Content-Type': 'text/html' });
       res.end(PAGE);
       return;
     }
     if (req.method === 'GET' && url.pathname === '/api/me') {
-      return json(res, 200, { name: RESPONDER.name });
+      return json(res, 200, { name: responder.name, authOn: AUTH_ON });
     }
     if (req.method === 'GET' && url.pathname === '/api/threads') {
-      return json(res, 200, await listThreads());
+      return json(res, 200, await listThreadsCached());
     }
     if (req.method === 'GET' && url.pathname === '/api/thread') {
       const key = url.searchParams.get('key') ?? '';
@@ -337,18 +569,29 @@ const server = http.createServer(async (req, res) => {
     }
     if (req.method === 'POST' && url.pathname === '/api/reply') {
       const { key, body } = await readBody(req);
-      const ok = await reply(key, body);
+      const ok = await reply(key, body, responder);
+      invalidateThreadsCache(); // the admin just acted — show it on the next poll
       return json(res, ok ? 200 : 400, { ok });
     }
     if (req.method === 'POST' && url.pathname === '/api/handle') {
       const { key } = await readBody(req);
-      const ok = await markHandled(key);
+      const ok = await markHandled(key, responder);
+      invalidateThreadsCache();
       return json(res, ok ? 200 : 400, { ok });
     }
     if (req.method === 'POST' && url.pathname === '/api/markread') {
       const { key } = await readBody(req);
       const n = await markRead(key);
+      invalidateThreadsCache();
       return json(res, 200, { ok: true, marked: n });
+    }
+    // Wipe EVERYTHING for a clean test — every conversation and its triage record.
+    // Triggered only by clicking "Reset everything" in the console (with a
+    // confirmation), never automatically. Returns how many docs were removed.
+    if (req.method === 'POST' && url.pathname === '/api/reset') {
+      const removed = await resetAll();
+      invalidateThreadsCache();
+      return json(res, 200, { ok: true, removed });
     }
     json(res, 404, { error: 'not found' });
   } catch (e) {
@@ -357,9 +600,52 @@ const server = http.createServer(async (req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`\n  MBM ministry console running at  http://localhost:${PORT}`);
-  console.log(`  Answering as: ${RESPONDER.name}\n`);
+  console.log(`\n  MBM ministry console running on port ${PORT}`);
+  console.log(`  Login: ${AUTH_ON ? 'ON (password required)' : 'OFF (local, open)'}\n`);
 });
+
+// ── The login page (shown only when a password is configured) ───────────────
+const LOGIN_PAGE = `<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MBM — sign in</title>
+<style>
+  body{margin:0;background:#0a0a0f;color:#e8e6df;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    display:flex;align-items:center;justify-content:center;min-height:100vh;}
+  .box{width:320px;max-width:90vw;text-align:center;}
+  h1{font-size:22px;font-weight:600;color:#d9b46a;margin:0 0 6px;}
+  p{color:#9a958a;font-size:14px;margin:0 0 24px;line-height:1.6;}
+  input{width:100%;box-sizing:border-box;background:#141418;border:1px solid #2a2820;border-radius:8px;
+    color:#e8e6df;font-size:15px;padding:12px 14px;margin-bottom:12px;}
+  button{width:100%;background:#7ab87a;color:#0a0f0a;border:none;border-radius:8px;font-size:15px;
+    font-weight:600;padding:12px;cursor:pointer;}
+  .err{color:#e5484d;font-size:13px;min-height:18px;margin-top:10px;}
+</style></head><body>
+  <div class="box">
+    <h1>Ministry console</h1>
+    <p>Sign in to read and answer the people who reached out.</p>
+    <input id="name" placeholder="Your name (shown on your replies)" autocomplete="name" />
+    <input id="pw" type="password" placeholder="Team password" autocomplete="current-password" />
+    <button id="go">Sign in</button>
+    <div class="err" id="err"></div>
+  </div>
+<script>
+  async function login(){
+    const name=document.getElementById('name').value.trim();
+    const password=document.getElementById('pw').value;
+    document.getElementById('err').textContent='';
+    const r=await fetch('/api/login',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({name,password})});
+    if(r.ok){ location.href='/'; } else {
+      const d=await r.json().catch(()=>({}));
+      document.getElementById('err').textContent=d.error||'Sign in failed.';
+    }
+  }
+  document.getElementById('go').onclick=login;
+  document.getElementById('pw').addEventListener('keydown',e=>{ if(e.key==='Enter') login(); });
+</script>
+</body></html>`;
 
 // ── The page (dark, quiet, matches the app) ─────────────────────────────────
 
@@ -441,7 +727,10 @@ const PAGE = `<!doctype html>
   <div id="left">
     <div id="head"><h1>Ministry console</h1>
       <div id="sub">Every word here is a real person reaching out. Reply gently.</div>
-      <div id="who-am-i"></div></div>
+      <div id="who-am-i"></div>
+      <button id="resetAll" onclick="resetEverything()" title="Delete every conversation — for a clean test"
+        style="margin-top:8px;font-size:11px;color:#e5484d;background:none;border:1px solid #e5484d;border-radius:4px;padding:4px 8px;cursor:pointer;">Reset everything</button>
+    </div>
     <div id="tabs">
       <div class="tab on" data-filter="needs_reply" onclick="setFilter('needs_reply')">Needs reply <span class="n" id="n-needs"></span></div>
       <div class="tab" data-filter="all" onclick="setFilter('all')">All <span class="n" id="n-all"></span></div>
@@ -468,8 +757,19 @@ const PAGE = `<!doctype html>
   const fmt = iso => { const d=new Date(iso); return isNaN(d)?'':d.toLocaleString(); };
 
   async function loadMe(){
-    try { const r = await fetch('/api/me'); const m = await r.json();
-      document.getElementById('who-am-i').textContent = 'Answering as ' + (m.name||'a helper') + '.';
+    try {
+      const r = await fetch('/api/me');
+      if(r.status===401){ location.href='/login'; return; }
+      const m = await r.json();
+      const el = document.getElementById('who-am-i');
+      el.textContent = 'Answering as ' + (m.name||'a helper') + '.';
+      if(m.authOn){
+        const out=document.createElement('a');
+        out.textContent=' Sign out';
+        out.href='#'; out.style.cssText='color:#9a958a;margin-left:8px;cursor:pointer;';
+        out.onclick=async(e)=>{ e.preventDefault(); await fetch('/api/logout',{method:'POST'}); location.href='/login'; };
+        el.appendChild(out);
+      }
     } catch {/* fine offline */}
   }
 
@@ -490,6 +790,7 @@ const PAGE = `<!doctype html>
   }
 
   function renderThreads(list){
+    if(!Array.isArray(list)) return;
     counts(list);
     const box = document.getElementById('threads');
     let view = list;
@@ -502,17 +803,19 @@ const PAGE = `<!doctype html>
          'No one has written in yet.') + '</div>';
       return;
     }
+    // The list is intentionally just WHO + a short description — name (or a stable
+    // Guest ID) and a one-line read on where they are. The actual messages are read
+    // by opening the conversation, so the list stays scannable.
     box.innerHTML = view.map(t => \`
       <div class="t \${t.key===current?'active':''} \${t.crisis?'crisis':''} \${t.cancelled?'cancelled':''}" onclick="openThread('\${esc(t.key)}')">
         <div class="who">
-          <span class="stage">\${t.crisis?'<span class="crisisbadge">⚠ CRISIS</span> ':''}\${t.cancelled?'<span class="cancelbadge">CANCELLED</span> ':''}\${esc(t.stage||'')}</span>
+          <span class="name">\${t.crisis?'<span class="crisisbadge">⚠ CRISIS</span> ':''}\${t.cancelled?'<span class="cancelbadge">CANCELLED</span> ':''}<b style="color:var(--gold)">\${esc(t.label||'Guest')}</b></span>
           <span style="display:flex;gap:6px;align-items:center;">
             \${t.unread?'<span class="dot">'+t.unread+'</span>':''}
             <span class="badge \${t.status}">\${esc(t.status_label||'')}</span>
           </span>
         </div>
-        <div class="ttl">\${esc(t.title||'Conversation')}</div>
-        <div class="snip">\${t.last?(t.last.sender==='admin'?'You: ':'')+esc(t.last.body):''}</div>
+        <div class="desc" style="font-size:12px;color:#79b8ff;margin-top:3px;">\${esc(t.desc||'')}</div>
       </div>\`).join('');
   }
 
@@ -555,9 +858,38 @@ const PAGE = `<!doctype html>
   }
 
   async function loadThreads(){
-    const r = await fetch('/api/threads'); lastList = await r.json();
+    let data, status = 0;
+    try {
+      const r = await fetch('/api/threads');
+      status = r.status;
+      data = await r.json();
+      if(!r.ok || !Array.isArray(data)){
+        const msg = (data && data.error) ? String(data.error) : ('HTTP ' + status);
+        showThreadsError(msg);
+        return;
+      }
+    } catch(e) {
+      showThreadsError(String(e && e.message ? e.message : e));
+      return;
+    }
+    lastList = data;
     renderThreads(lastList);
     notifyNew(lastList);
+  }
+
+  // When the threads call fails, say WHY instead of hanging on "Loading…".
+  // The most common cause is the Firestore free-tier daily read limit.
+  function showThreadsError(msg){
+    const quota = /quota|resource_exhausted/i.test(msg || '');
+    const box = document.getElementById('threads');
+    box.innerHTML = '<div class="empty" style="color:var(--amber);line-height:1.6;text-align:left;padding:14px">'
+      + (quota
+          ? '<b>The database hit its daily free-tier limit</b>, so threads cannot load right now.'
+            + '<br><br>It resets at midnight Pacific. To stop this from recurring, raise the '
+            + 'Firestore quota (upgrade the Firebase project to the Blaze plan) or slow the '
+            + 'auto-refresh below 12 reads/min.'
+          : ('<b>Could not load threads.</b><br><br>' + esc(msg)))
+      + '</div>';
   }
 
   async function openThread(key){
@@ -567,12 +899,15 @@ const PAGE = `<!doctype html>
     const msgs = data.messages || [];
 
     const ctx = document.getElementById('ctx');
+    const nameTxt = data.label ? '<b style="color:var(--gold)">' + esc(data.label) + '</b>  ·  ' : '';
+    const descTxt = data.desc ? '<span style="color:#79b8ff">' + esc(data.desc) + '</span>  ·  ' : '';
+    const faithTxt = (data.person_faith && data.person_faith !== data.desc) ? '<span style="color:#79b8ff;font-style:italic">“' + esc(data.person_faith) + '”</span>  ·  ' : '';
     const titleTxt = data.title ? '<b>' + esc(data.title) + '</b>  ·  ' : '';
     const stageTxt = data.stage ? '<b>Where they are:</b> ' + esc(data.stage) + '  ·  ' : '';
     const statusTxt = data.status==='needs_reply' ? 'Waiting on a reply'
       : data.status==='handled' ? ('Handled' + (data.handled_by_name ? ' by ' + esc(data.handled_by_name) : ''))
       : 'You answered last';
-    document.getElementById('ctx-meta').innerHTML = titleTxt + stageTxt + statusTxt;
+    document.getElementById('ctx-meta').innerHTML = nameTxt + descTxt + faithTxt + titleTxt + stageTxt + statusTxt;
     ctx.style.display = 'flex';
 
     const conv = document.getElementById('conv');
@@ -596,6 +931,25 @@ const PAGE = `<!doctype html>
     openThread(current);
   }
 
+  // Full clean slate — deletes EVERY conversation. Guarded by a typed confirmation
+  // so it can never happen by accident. This is the owner doing it on purpose.
+  async function resetEverything(){
+    if(!window.confirm('Delete EVERY conversation for a clean test? This cannot be undone.')) return;
+    const btn = document.getElementById('resetAll');
+    if(btn){ btn.disabled = true; btn.textContent = 'Resetting…'; }
+    try {
+      const r = await fetch('/api/reset',{method:'POST'});
+      const d = await r.json();
+      current = null;
+      document.getElementById('ctx').style.display = 'none';
+      document.getElementById('composer').style.display = 'none';
+      document.getElementById('conv').innerHTML = '';
+      await loadThreads();
+      alert('Done — removed ' + (d.removed||0) + ' item(s). The console is now empty.');
+    } catch(e){ alert('Reset failed: ' + e.message); }
+    if(btn){ btn.disabled = false; btn.textContent = 'Reset everything'; }
+  }
+
   document.getElementById('send').onclick = async () => {
     const ta = document.getElementById('draft');
     const body = ta.value.trim();
@@ -611,6 +965,9 @@ const PAGE = `<!doctype html>
   try { if ('Notification' in window && Notification.permission === 'default') Notification.requestPermission(); } catch (e) {}
   loadMe();
   loadThreads();
-  setInterval(() => { loadThreads(); if(current) openThread(current); }, 5000);
+  // Auto-refresh every 15s. Combined with the server-side thread-list cache this
+  // keeps Firestore reads low; new replies you send still appear instantly because
+  // sending clears that cache. Lower this only if you truly need faster updates.
+  setInterval(() => { loadThreads(); if(current) openThread(current); }, 15000);
 </script>
 </body></html>`;

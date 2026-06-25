@@ -5,7 +5,9 @@
   "type": "module",
   "description": "Local-only admin desk for the MBM real-person inbox. Never ships.",
   "scripts": {
-    "start": "node inbox.mjs"
+    "start": "node --env-file-if-exists=.env inbox.mjs",
+    "start:watch": "node --env-file-if-exists=.env watcher.mjs",
+    "reset": "node reset.mjs"
   },
   "dependencies": {
     "firebase-admin": "^12.7.0"

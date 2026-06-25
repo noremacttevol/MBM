@@ -109,7 +109,9 @@ export const SIGNAL_DESCRIPTIONS: Record<string, string> = {
 export function humanizeSignal(signal: string): string {
   const mapped = SIGNAL_DESCRIPTIONS[signal];
   if (mapped) return mapped;
-  return 'We noticed: ' + signal.replace(/_/g, ' ') + '.';
+  // Plain, neutral fallback — no "we noticed" voice. Just the item, readable.
+  const words = signal.replace(/_/g, ' ').trim();
+  return words.charAt(0).toUpperCase() + words.slice(1) + '.';
 }
 
 // EXPLICIT CONSENT (Cameron, June 2026): even once the readiness signals are

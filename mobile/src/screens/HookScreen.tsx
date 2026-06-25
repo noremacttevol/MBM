@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import {
   View,
   Text,
@@ -34,6 +34,13 @@ export default function HookScreen({ navigation }: Props) {
   const subOpacity      = useRef(new Animated.Value(0)).current;
   const btnOpacity      = useRef(new Animated.Value(0)).current;
   const footerOpacity   = useRef(new Animated.Value(0)).current;
+
+  // The fade-in text/buttons/disclaimer are NOT rendered on the very first frame.
+  // A native-driven opacity-0 element can paint at full opacity for one frame
+  // before the native driver syncs, which made the bottom disclaimer flash on,
+  // disappear, then fade in ~2.5s later. Mounting them one frame later (after the
+  // first paint) removes that flash so the cold-open is smooth.
+  const [showContent, setShowContent] = useState(false);
 
   useEffect(() => {
     // A calm, smooth open: the stone rolls away, light rises from the tomb, then
@@ -81,8 +88,10 @@ export default function HookScreen({ navigation }: Props) {
       }),
     ]);
 
+    // Reveal the fade-in elements on the next frame, after the first paint.
+    const raf = requestAnimationFrame(() => setShowContent(true));
     sequence.start();
-    return () => sequence.stop();
+    return () => { cancelAnimationFrame(raf); sequence.stop(); };
   }, []);
 
   const stoneRotateDeg = stoneRotate.interpolate({
@@ -133,17 +142,22 @@ export default function HookScreen({ navigation }: Props) {
           a stranger. Trial data: the cold "He Is Risen" claim alienated grieving/secular/
           burned arrivals before any relationship existed. The resurrection greeting is
           kept for those who arrive already in faith (see build_minister_opening). */}
+      {showContent && (
       <Animated.Text style={[styles.risenText, { opacity: textOpacity }]}>
         Come to me, all who are weary.
       </Animated.Text>
+      )}
 
+      {showContent && (
       <Animated.Text style={[styles.subText, { opacity: subOpacity }]}>
         However you arrived — hopeful, guarded, or unsure why you opened this —
         nothing is asked of you here. Every bit of real peace you have ever felt
         has a source.
       </Animated.Text>
+      )}
 
       {/* ── CTA ──────────────────────────────────────────────────────────── */}
+      {showContent && (
       <Animated.View style={{ opacity: btnOpacity }}>
         <TouchableOpacity
           style={styles.btn}
@@ -153,6 +167,7 @@ export default function HookScreen({ navigation }: Props) {
           <Text style={styles.btnText}>Come and see</Text>
         </TouchableOpacity>
       </Animated.View>
+      )}
 
       {/* ── The honest word (Elder Gong, on AI) ───────────────────────────────
           Subtle, never the headline — but said plainly at the threshold so no one
@@ -164,12 +179,14 @@ export default function HookScreen({ navigation }: Props) {
           prayers... it is not God and cannot be God." What stirs here is a
           spiritual exercise to take to God and to people who love you — and to let
           the Spirit, not an app, confirm as true. */}
+      {showContent && (
       <Animated.Text style={[styles.footerText, { opacity: footerOpacity, bottom: insets.bottom + 28 }]}>
         This app is not officially affiliated with any Church. It is not God either —
         it cannot answer a prayer or know you the way Jesus does, only point you
         toward Him. Take what you feel here to God and to people who love you, and
         let the Spirit, not an app, tell you what is true.
       </Animated.Text>
+      )}
     </View>
   );
 }

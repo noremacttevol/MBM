@@ -199,21 +199,22 @@ export default function ProfileScreen() {
       >
         <Text style={styles.header}>Your journey</Text>
 
-        {/* ── WHAT WE SENSE ABOUT YOU ─────────────────────────────────── */}
+        {/* ── WHERE YOU ARE RIGHT NOW ─────────────────────────────────── */}
         <View style={styles.card}>
-          <Text style={styles.sectionLabel}>WHAT WE SENSE ABOUT YOU</Text>
+          <Text style={styles.sectionLabel}>WHERE YOU ARE RIGHT NOW</Text>
           <Text style={styles.interpretText}>{interpretation}</Text>
         </View>
 
-        {/* ── WHAT THE APP HAS NOTICED (Law 4 — nothing hidden) ──────────
-            Everything the app records to know you and meet you where you are is
-            shown here in plain words, and anything can be removed. Removing a line
-            truly un-learns it: it stops shaping what you're shown. */}
+        {/* ── ABOUT YOU (Law 4 — nothing hidden) ─────────────────────────
+            Cameron, June 2026: do NOT frame this as "what the app has NOTICED
+            about you" — that reads as surveillance. Just list, plainly, what the
+            app keeps to personalize the experience, fully editable/removable.
+            Removing a line truly un-learns it: it stops shaping what you're shown. */}
         {dialogueSignals.length > 0 && (
           <View style={styles.card}>
-            <Text style={styles.sectionLabel}>WHAT THE APP HAS NOTICED</Text>
+            <Text style={styles.sectionLabel}>ABOUT YOU</Text>
             <Text style={styles.sectionNote}>
-              These are the things the app has noticed to meet you where you are. Nothing here is hidden, and you can remove any of it anytime — removing a line tells the app to forget it.
+              This is everything the app keeps to personalize what you see. It's all here, and you can edit or remove anything anytime — removing a line means the app stops using it.
             </Text>
             {dialogueSignals.map(sig => (
               <View key={sig} style={styles.noticedRow}>
@@ -221,13 +222,13 @@ export default function ProfileScreen() {
                 <TouchableOpacity
                   activeOpacity={0.7}
                   onPress={() => confirmAction(
-                    'Have the app forget this?',
-                    'The app will un-learn this and stop letting it shape what you see.',
+                    'Remove this?',
+                    'The app will stop using this to personalize what you see.',
                     () => forgetSignal(sig),
-                    { confirmLabel: 'Forget it' },
+                    { confirmLabel: 'Remove' },
                   )}
                 >
-                  <Text style={styles.removeText}>Forget</Text>
+                  <Text style={styles.removeText}>Remove</Text>
                 </TouchableOpacity>
               </View>
             ))}
