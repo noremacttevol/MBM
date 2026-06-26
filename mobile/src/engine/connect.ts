@@ -90,8 +90,29 @@ const GOD_GOOD_SIGNALS = new Set<string>([
   'covenant_intent',
 ]);
 
-// (b) open to the idea that God might still speak today / there could be more
+// (b) open to the idea that God might still speak today / there could be more.
+// 'accepts_ongoing_revelation' is the firm AFFIRMATION of that openness (they have
+// actually come to believe God still speaks), so it satisfies signal (b) too.
 const OPEN_TO_MORE_SIGNALS = new Set<string>([
+  'open_to_restoration',
+  'curious_about_book_of_mormon',
+  'accepts_ongoing_revelation',
+]);
+
+// THE BRIDGE — between milk and meat (Cameron, 2026-06-26). A non-member enters
+// the bridge ONLY by accepting, in their own words, a position that distinctively
+// belongs to the restored gospel rather than to creedal / Calvinist Christianity:
+//   - God does not send people to hell for His glory      (rejects_harsh_god)
+//   - God still speaks today / continuing revelation       (accepts_ongoing_revelation)
+//   - matter & intelligence are eternal, not made from nothing (rejects_creation_ex_nihilo)
+// Reaching toward the distinctive text or the idea of "more" also counts as bridge-
+// ward openness. On the bridge we may steer a little more purposefully toward the
+// Restoration — but the milk-before-meat law still holds: we never NAME the Church,
+// Joseph Smith, the Book of Mormon, or the Restoration until mayReferenceLds opens.
+const BRIDGE_SIGNALS = new Set<string>([
+  'rejects_harsh_god',
+  'accepts_ongoing_revelation',
+  'rejects_creation_ex_nihilo',
   'open_to_restoration',
   'curious_about_book_of_mormon',
 ]);
@@ -157,6 +178,17 @@ export function believesGodGood(signals: string[]): boolean {
 
 export function openToMore(signals: string[]): boolean {
   return hasAny(signals, OPEN_TO_MORE_SIGNALS);
+}
+
+/**
+ * On the BRIDGE — a non-member who has accepted, in their own words, at least one
+ * distinctively-LDS position (see BRIDGE_SIGNALS). Members are on their own track,
+ * never "on the bridge." This is what routes a person to the BRIDGE feed and tells
+ * the minister it may steer a little more purposefully (still under the milk law).
+ */
+export function bridgeReady(signals: string[]): boolean {
+  if (isMember(signals)) return false;
+  return hasAny(signals, BRIDGE_SIGNALS);
 }
 
 /**

@@ -89,11 +89,27 @@ GOD_GOOD_SIGNALS: Set[str] = {
 OPEN_TO_MORE_SIGNALS: Set[str] = {
     "open_to_restoration",
     "curious_about_book_of_mormon",
+    "accepts_ongoing_revelation",
 }
 
 MEMBER_SIGNALS: Set[str] = {
     "inactive_member",
     "active_member",
+}
+
+# THE BRIDGE — between milk and meat (Cameron, 2026-06-26). A non-member enters the
+# bridge ONLY by accepting, in their own words, a distinctively-LDS position rather
+# than a creedal/Calvinist one: God does not damn for His glory (rejects_harsh_god),
+# God still speaks today (accepts_ongoing_revelation), matter & intelligence are
+# eternal / not made from nothing (rejects_creation_ex_nihilo). Reaching toward the
+# distinctive text or "more" also counts. On the bridge we steer a little harder —
+# but the milk-before-meat law still holds (never NAME the Church before the gate).
+BRIDGE_SIGNALS: Set[str] = {
+    "rejects_harsh_god",
+    "accepts_ongoing_revelation",
+    "rejects_creation_ex_nihilo",
+    "open_to_restoration",
+    "curious_about_book_of_mormon",
 }
 
 SEEKING_FORMAL_SIGNALS: Set[str] = {
@@ -143,6 +159,14 @@ def believes_god_good(signals: List[str]) -> bool:
 
 def open_to_more(signals: List[str]) -> bool:
     return _has_any(signals, OPEN_TO_MORE_SIGNALS)
+
+
+def bridge_ready(signals: List[str]) -> bool:
+    """On the BRIDGE — a non-member who has accepted a distinctively-LDS position.
+    Members are never 'on the bridge'. Mirror of bridgeReady in connect.ts."""
+    if is_member(signals):
+        return False
+    return _has_any(signals, BRIDGE_SIGNALS)
 
 
 def may_reference_lds(signals: List[str]) -> bool:

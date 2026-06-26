@@ -27,6 +27,35 @@
 
 ---
 
+## 2026-06-26 — Three-way stage structure: member / bridge / milk, the Jesus way
+- What we did: Implemented Cameron's full ministering structure and tightened member
+  detection to exactly one religion, per his correction.
+- What changed in the app (files):
+  - `mobile/src/engine/chatEar.ts` — added two bridge-acceptance signals
+    (`accepts_ongoing_revelation`, `rejects_creation_ex_nihilo`) to VALID_REPORT_TOKENS
+    and harvestSignals (affirmation-only, negation-guarded); TIGHTENED member markers to
+    be unambiguously Latter-day Saint (dropped bare "served a mission" / "hold the
+    priesthood" which other faiths use).
+  - `mobile/src/engine/connect.ts` + `connect.py` (kept in sync) — added `BRIDGE_SIGNALS`
+    + `bridgeReady()`; added `accepts_ongoing_revelation` to the milk gate's openness set.
+  - `mobile/src/store/useAppStore.ts` — rewrote `routeFeedTag` to the three-way structure
+    (member→MAINTENANCE, gate+consent→RESTORATION, bridgeReady→BRIDGE, else MILK) and
+    REMOVED the old wrong "analytical doubt → BRIDGE"; biased the BRIDGE content pool to
+    the question-sparking `restoration` milk track; injected a bridge note into the chat's
+    LIVE GUIDANCE; humanized the two new signals for the Profile.
+- What is now true that wasn't before: ONLY membership in The Church of Jesus Christ of
+  Latter-day Saints flips the app into member/meat mode — every other tradition is treated
+  the same. A non-member moves into the BRIDGE only by accepting a distinctively-LDS truth
+  in their own words (God isn't cruel for His glory, God still speaks, creation organized
+  not made from nothing); on the bridge the feed and chat steer a little harder toward the
+  Restoration while still never naming the Church before the milk gate.
+- Verified: tsc 0, web export 0, feed_test ALL PASS, connect.py self-test passed, node
+  regex tests (member-only + bridge acceptances, with negation/third-person) ALL PASS.
+- What's next / handed off: this is IN CODE; kicking off a new build so it reaches the
+  phone. Future: build the deeper member "meat" learning sections + more bridge ministering
+  functions/content.
+- Commit: <hash filled in after commit>
+
 ## 2026-06-26 — Member recognition FIXED + reset/public-release rules rewritten
 - What we did: Fixed the app's #1 broken behavior — editing the faith box on the
   PROFILE to say "I am a member of the Church of Jesus Christ of Latter-day Saints"

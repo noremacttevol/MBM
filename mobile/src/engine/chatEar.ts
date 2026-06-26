@@ -12,6 +12,15 @@ export const VALID_REPORT_TOKENS = new Set([
   'inactive_member', 'active_member', 'losing_faith',
   'pictures_harsh_god', 'pictures_distant_god', 'reformed_framework',
   'rejects_harsh_god', 'nontheistic_framework',
+  // BRIDGE acceptances — distinctively-Latter-day-Saint positions a non-member can
+  // come to accept on their OWN (Cameron, 2026-06-26). Accepting any of these is
+  // what moves a seeker out of plain milk and into the bridge between milk and meat.
+  // These are AFFIRMATIONS of a restored truth, not mere curiosity:
+  //   - accepts_ongoing_revelation: God still speaks / revelation continues today
+  //     (vs. a closed canon). rejects_harsh_god already carries "God does not damn
+  //     people for His glory." rejects_creation_ex_nihilo: matter & intelligence are
+  //     eternal — God organized what already was, He did not make it from nothing.
+  'accepts_ongoing_revelation', 'rejects_creation_ex_nihilo',
   // A firm refusal to even examine the restored gospel — the "won't look" posture.
   // The minister honors it and does not re-offer. A soft "not right now" must NOT be
   // reported as this; only a clear refusal to look.
@@ -138,6 +147,22 @@ export function harvestSignals(text: string): string[] {
   if (/\ba god who (does|would do|did) that is not good\b|\bthat('s| is) not the god i\b|\bgod (is not|isn't|wouldn't be|would never be) like that\b|\bi (can('t|not)|don('t|not)) believe in a god who\b/.test(lower)) found.push('rejects_harsh_god');
   if (/\b(don'?t|do not) think of god as a person\b|\bgod (is|'s) not a person\b|\bno personal god\b|\bgod is (the universe|energy|everything|a force)\b/.test(lower)) found.push('nontheistic_framework');
 
+  // BRIDGE ACCEPTANCES — only a clear AFFIRMATION counts, each guarded against
+  // negation. These are the distinctively-LDS truths a seeker can reach on their
+  // own; accepting one moves them from milk into the bridge (Cameron, 2026-06-26).
+  // Continuing revelation — God still speaks today / the canon is open. (This is
+  // an affirmation; the softer "is there more?" question stays open_to_restoration.)
+  if (sentences.some((sn) =>
+    (/\bgod still speaks?\b|\bstill speaking\b|\b(continuing|ongoing|modern|present.?day) revelation\b|\bspeaks? through (living )?prophets?( today)?\b|\bprophets? (still|today)\b|\bcanon is(n'?t| not) closed\b|\bnew (scripture|revelation)\b|\bgod (can|could|does) (still )?reveal\b|\brevelation (continues|hasn'?t stopped|never stopped)\b/.test(sn)) &&
+    !/\b(don'?t|doesn'?t|do not|does not|never|stopped|no longer|won'?t|isn'?t|is not|not)\b/.test(sn)
+  )) found.push('accepts_ongoing_revelation');
+  // Rejection of creation ex nihilo — matter & intelligence are eternal; God
+  // organized what already was rather than making it from nothing.
+  if (sentences.some((sn) =>
+    (/\b(matter|intelligence|our spirits?|our souls?|we) (is|are|were) eternal\b|\bwe existed before\b|\bpre.?mortal\b|\bpremortal\b|\b(lived|existed) before (this life|we were born|birth)\b|\bnot created (out )?of nothing\b|\b(creation|created|making something) (out )?of nothing (doesn'?t|does not|makes no|never made)\b|\bgod organized\b|\bex.?nihilo (doesn'?t|does not|makes no|can'?t|never)\b|\b(don'?t|do not) believe (in )?creation (out )?of nothing\b/.test(sn)) &&
+    !/\bgod (created|made) everything (out )?of nothing\b/.test(sn)
+  )) found.push('rejects_creation_ex_nihilo');
+
   // A named Christian tradition = a believer in Jesus (milk that fits them):
   if (/\b(baptist|catholic|methodist|presbyterian|pentecostal|evangelical|lutheran|orthodox|non.?denominational|christian church)\b/.test(lower)) found.push('believes_in_jesus');
 
@@ -150,7 +175,12 @@ export function harvestSignals(text: string): string[] {
     /\b(i'?m|i am) (a |an )?(latter.?day saint|lds|mormon)\b/.test(lower) ||
     /\b(i'?m|i am) (a |an )?member of (the )?(church of jesus christ|lds church|restored church)/.test(lower) ||
     /\bi (belong to|am part of|am a part of|attend|go to) (the )?(church of jesus christ( of latter.?day saints)?|lds church|restored church)/.test(lower) ||
-    /\bmy ward\b|\brelief society\b|\bi served a mission\b|\bmy temple recommend\b|\bmy elders quorum\b|\bi hold the priesthood\b/.test(lower);
+    // Unambiguously Latter-day Saint cultural markers ONLY. We deliberately do NOT
+    // match bare "served a mission" or "hold the priesthood" — those are used by
+    // other faiths too, and member status flips the WHOLE app, so it must be certain.
+    // Member detection looks for exactly ONE religion's membership (Cameron, 2026-06-26):
+    // every other tradition stays in the same non-member track and is treated the same.
+    /\bmy ward\b|\brelief society\b|\bmy temple recommend\b|\bmy elders quorum\b|\bmy stake\b|\bsacrament meeting\b|\bcome.?follow.?me\b|\bserved a (full.?time )?mission for the church\b|\bi hold the (melchizedek|aaronic) priesthood\b/.test(lower);
   const memberNegated =
     /\b(not|never|no longer|isn'?t|aren'?t|wasn'?t|used to be|don'?t want to be)\b[^.!?]*\b(member|latter.?day saint|lds|mormon)\b/.test(lower) ||
     /\b(my|his|her|their|a) (wife|husband|spouse|friend|mom|mum|mother|dad|father|parents?|family|son|daughter|kids?|neighbou?r|coworker|boss|sister|brother) (is|was|are|were) (a |an )?(member|latter.?day saint|lds|mormon)\b/.test(lower);

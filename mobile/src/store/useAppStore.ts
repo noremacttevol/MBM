@@ -13,6 +13,7 @@ import {
   mayReferenceLds as engineMayReferenceLds,
   missionaryReferralReady as engineMissionaryReady,
   isMember as engineIsMember,
+  bridgeReady as engineBridgeReady,
   assessJourney,
   assessConnection,
 } from '../engine/connect';
@@ -87,6 +88,8 @@ export const SIGNAL_DESCRIPTIONS: Record<string, string> = {
   drawn_to_jesus:               'You feel drawn to Jesus.',
   believes_in_jesus:            'You believe in Jesus.',
   open_to_restoration:          'You\u2019re open to the idea that God still speaks today.',
+  accepts_ongoing_revelation:   'You believe God still speaks \u2014 that revelation continues today.',
+  rejects_creation_ex_nihilo:   'You sense creation was God organizing what already was, not making it from nothing.',
   curious_about_book_of_mormon: "You're curious about the Book of Mormon.",
   wants_to_join:                "You've wondered about belonging to the Church.",
   wants_baptism:                "You've asked about baptism.",
@@ -129,17 +132,24 @@ export function setRestorationConsentGranted(v: boolean) { restorationConsentGra
 // Invisible: the user never sees a tier name or a gate. The milk law is absolute —
 // RESTORATION is only ever chosen once both readiness signals exist AND the person
 // has explicitly consented to the restored perspective.
+// The THREE-WAY structure (Cameron, 2026-06-26):
+//   1. MEMBER (self-proclaimed Latter-day Saint) -> MAINTENANCE: the meat/member
+//      track, the full restored-gospel library. ONLY membership in this one church
+//      flips this; every other tradition stays a non-member, treated the same.
+//   2. NON-MEMBER, BRIDGE -> they have accepted a distinctively-LDS truth on their
+//      own (God isn't cruel for His glory, God still speaks, creation organized not
+//      from nothing). Steer a little harder, still milk-law (never name the Church).
+//   3. NON-MEMBER, MILK (default) -> unbelievers and Christians whose tradition
+//      refuses the restored gospel. Heal the picture of God; stories + gentle Qs.
+// RESTORATION (the consented meat for a ready seeker) sits at the top of the bridge.
 function routeFeedTag(signals: string[]): FeedTag {
   if (engineIsMember(signals)) return 'MAINTENANCE';
-
-  const analytical = ['skeptical_of_god', 'analytical_doubt', 'honest_inquiry', 'losing_faith'];
-  const hasAnalytic = signals.some(s => analytical.includes(s));
-
-  // Meat only after milk AND after the person has said yes to the restored view.
-  // Until they consent we keep them on the gentlest fitting milk track (never
-  // RESTORATION), so nothing restoration-tagged appears before they choose it.
+  // Meat only after the milk gate AND after the person has said yes to the restored
+  // view. Until they consent we keep them on milk/bridge, never RESTORATION.
   if (engineMayReferenceLds(signals) && restorationConsentGranted) return 'RESTORATION';
-  if (hasAnalytic) return 'BRIDGE';
+  // The bridge is entered ONLY by accepting a distinctively-LDS position (not by
+  // mere doubt — a skeptic who has accepted nothing restored is still on milk).
+  if (engineBridgeReady(signals)) return 'BRIDGE';
   return 'MILK'; // default: start gentle, always
 }
 
@@ -192,7 +202,17 @@ function poolForTag(tag: FeedTag): ContentItem[] {
   // Fallback: if track isn't set on any item (older data), use the legacy tag pool
   // so the feed is never empty.
   if (milk.length === 0 && meat.length === 0) return CONTENT.filter(c => c.tag === tag);
-  return meatReady ? [...milk, ...meat] : milk;
+  if (meatReady) return [...milk, ...meat];
+  // BRIDGE — a seeker who has accepted a distinctive truth: lean into the milk items
+  // chosen to spark the deeper, restored-gospel questions (milkTrack 'restoration'),
+  // still Bible-only and never meat. This is how the feed "steers a little harder"
+  // (Cameron, 2026-06-26) without ever crossing the milk-before-meat line. Fall back
+  // to the full milk pool if there aren't enough question-sparking items.
+  if (tag === 'BRIDGE') {
+    const sparks = milk.filter(c => c.milkTrack === 'restoration');
+    return sparks.length >= 5 ? sparks : milk;
+  }
+  return milk;
 }
 
 // Draw the next 5 cards. THE HARD RULE (Cameron's standard): never show an item
@@ -2471,6 +2491,15 @@ export const useAppStore = create<AppState & AppActions>()(
         // There is no hidden scoring of anyone; the gate reads their words alone.
         const beliefReady = isRestorationReady(combinedSignals);
         const mayLds      = beliefReady;
+        // THE BRIDGE (Cameron, 2026-06-26): a non-member who has accepted, in their
+        // own words, a distinctively-LDS truth (God isn't cruel for His glory, God
+        // still speaks, creation was organized not made from nothing) but is not yet
+        // through the full milk gate. Here we may steer a little more purposefully —
+        // deepening the very truth they opened — WITHOUT ever naming the Church.
+        const onBridge = engineBridgeReady(combinedSignals) && !mayLds;
+        const bridgeNote = onBridge
+          ? '\n- ON THE BRIDGE: in their own words they have begun to accept something that points past what their tradition handed them \u2014 that God is genuinely good and does not damn people for His glory, that God may still speak today, or that creation was God organizing what was already eternal rather than making it from nothing. Lean GENTLY into that exact opening: deepen it from the Bible they already accept and let it raise honest questions, so the ground is ready. You may steer a little more purposefully here than with someone still at the very start \u2014 but you still NEVER name the Church, Joseph Smith, the Book of Mormon, or the Restoration until both milk signals are present, and you never argue or pull. Plant and let it sit.'
+          : '';
         // Has the person opened the door to the restored gospel THEMSELVES? The
         // settled standard: when the gate opens, the app OFFERS by name (never a
         // silent flip) and only teaches the Restoration once the person says yes /
@@ -2514,7 +2543,7 @@ export const useAppStore = create<AppState & AppActions>()(
 - A real person is still available if they ever want one, but offer it lightly and rarely — it is not the point of this conversation.${conn.requested ? `\n- They appear to be asking to: ${conn.requested.replace(/_/g, ' ').toLowerCase()}.` : ''}`
           : `
 [LIVE GUIDANCE — derived from what this person has revealed]
-- Where they are on the journey toward Christ: ${conn.journeyStage}
+- Where they are on the journey toward Christ: ${conn.journeyStage}${bridgeNote}
 - A real human is available right now: YES (always — a real person reads these). Refer to them only as "a real person," never by name.${conn.requested ? `\n- They appear to be asking to: ${conn.requested.replace(/_/g, ' ').toLowerCase()}.` : ''}
 - The restored gospel — by OPEN, NAMED INVITATION only, never a silent slide into it: ${mayLds ? (openedRestorationDoor ? 'They have opened the door themselves (they brought up the Book of Mormon / asked how to belong). You may now share the Restoration and the Book of Mormon openly and gladly — still gently, never as a pitch, and they stay free to stop.' : 'They seem ready, so EXTEND ONE OPEN INVITATION, named plainly — for example: "Would you like to hear about where this comes from — the Restoration, and the Book of Mormon?" Do NOT teach it yet; just offer the door by name. Share more ONLY if they say yes. If they decline, honor it warmly, stay with the Jesus they already love, and do NOT loop back to re-pitch — only resume if THEY reopen the door later.') : `NOT YET — the milk-before-meat law is in force (from their own words, they have not yet shown both that they believe God is good and that they are open to God still speaking today — keep drawing them out gently, do not name the Church yet). Give only milk: the Jesus and the good God of the Bible. Do not mention the Church, Joseph Smith, the Restoration, the Book of Mormon, or missionaries.`}${consentNote}
 - Missionary referral appropriate? ${conn.missionaryReady ? 'YES — they are reaching toward the church on their own and have passed the milk. You may gently offer to connect them with missionaries.' : 'NO — do not bring up missionaries.'}`;
