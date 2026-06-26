@@ -53,7 +53,7 @@
   set up the closed-test track (eas submit to a closed track) + line up 12 testers; the
   14-day clock then starts. The single substantive human dependency for public Android is
   those 12 testers.
-- Commit: <hash filled in after you commit>
+- Commit: fbd9842
 
 ## 2026-06-26 — iOS SUBMITTED TO APPLE FOR PUBLIC REVIEW (App Privacy published)
 - What we did: Finished the last iOS blocker and pushed the app to public App Store review.
