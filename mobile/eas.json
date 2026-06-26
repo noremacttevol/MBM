@@ -52,6 +52,10 @@
         "ascApiKeyPath": "./credentials/AuthKey_M73YLWD8YS.p8",
         "ascApiKeyId": "M73YLWD8YS",
         "ascApiKeyIssuerId": "9aa9c15a-4e7a-4726-928c-566664c43867"
+      },
+      "android": {
+        "serviceAccountKeyPath": "./credentials/play-service-account.json",
+        "track": "internal"
       }
     }
   }

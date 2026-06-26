@@ -27,6 +27,34 @@
 
 ---
 
+## 2026-06-26 — ANDROID AUTO-PUBLISH VERIFIED + latest build live for Cameron's pre-check
+- What we did: Stood up and PROVED the automated Google Play publishing pipeline, and got
+  the latest fixed build onto internal testing so Cameron can check it before any 14-day
+  clock. Ran `eas submit --platform android --profile production` with the new service
+  account → pushed production **vc 6** (commit dda114e) to the **internal track**, status
+  COMPLETED. Confirmed in Play Console: internal testing latest release is now 1.0.0,
+  released Jun 26 ~5:26 AM, "Available to internal testers". Verified Cameron
+  (noremacttevol@gmail.com) is in the active "MBM Testers" list; internal opt-in link is
+  https://play.google.com/apps/internaltest/4700576250998456373 .
+  Also built out the Play **store listing**: app name, short + full description (from
+  store-assets/STORE-COPY.md), app icon (512×512) and feature graphic (1024×500) — the two
+  graphics were cropped in-console from the existing brand art (icon.png) since the
+  in-browser uploader can't drive the OS native file-picker. Saved successfully.
+- What changed (files/commits): no app CODE change. Docs/config: START-HERE.md Android
+  section rewritten to reflect verified auto-publish + internal link + store-listing state;
+  this SESSION-LOG entry. eas.json was already wired last session.
+- What is now true that wasn't before: Android publishing is automated and proven (a build
+  reached a Play track via the service account, no manual upload). The latest member-fix
+  build (vc 6) is installable by Cameron via internal testing right now. Store listing is
+  ~90% done (text + icon + feature graphic in; screenshots pending).
+- What's next / handed off: (1) Cameron uploads the 6 screenshots in store-assets/ under
+  Phone / 7" tablet / 10" tablet (Add assets → Upload) — this is the last store-listing
+  item and it needs the native picker only he can use. (2) After the listing turns green,
+  set up the closed-test track (eas submit to a closed track) + line up 12 testers; the
+  14-day clock then starts. The single substantive human dependency for public Android is
+  those 12 testers.
+- Commit: <hash filled in after you commit>
+
 ## 2026-06-26 — iOS SUBMITTED TO APPLE FOR PUBLIC REVIEW (App Privacy published)
 - What we did: Finished the last iOS blocker and pushed the app to public App Store review.
   Completed and PUBLISHED the App Privacy data-usage label in App Store Connect (the one

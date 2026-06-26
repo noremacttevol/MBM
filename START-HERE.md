@@ -50,10 +50,28 @@ Do not re-ask settled questions. Verify before you claim anything is or isn't do
   iOS store side was driven via the App Store Connect REST API (no Mac, no browser uploads).
   Nothing left for Cameron on iOS — just wait for Apple's review (~24h typical).
   - Still also on **TestFlight** (public link https://testflight.apple.com/join/cPNpeh3H).
-- **Android:** Still on Google Play **internal testing** (v3, v4 shipped; v5 built Jun 25).
-  To go PUBLIC it needs two owner-only things: a Play service-account key + Google's
-  12-tester/14-day closed test (so public Android is ≥2 weeks out). Full map:
-  **ANDROID-PUBLISH-PATH.md**.
+- **Android:** Automated Google Play publishing is now LIVE and VERIFIED (2026-06-26).
+  - Play **service-account key** is set up, downloaded, gitignored at
+    `mobile/credentials/play-service-account.json`, API enabled, robot account
+    `mbm-play-publisher@mbm-publishing.iam.gserviceaccount.com` is Active in Play Console.
+    `eas.json` submit.production.android wired (track currently `internal`).
+  - PROVEN working: `eas submit` pushed production **vc 6** (commit dda114e, the
+    member-recognition / meat-leak-fix build) to the **internal track** on 2026-06-26 with
+    status COMPLETED. Internal testing now serves vc 6 (latest release Jun 26 ~5:26 AM).
+  - **Cameron can pre-check the latest build RIGHT NOW** via the internal-testing web
+    opt-in link: **https://play.google.com/apps/internaltest/4700576250998456373**
+    (he's an active tester — noremacttevol@gmail.com is in the "MBM Testers" list).
+  - **Store listing:** app name, short + full description, app icon (512×512), and feature
+    graphic (1024×500) are DONE and saved. The icon + feature graphic were cropped from the
+    existing brand art in the asset library. STILL NEEDED: phone + 7" + 10" tablet
+    screenshots — the polished files exist in `store-assets/` (play_phone_1/2,
+    play_tablet7_1/2, play_tablet10_1/2) but the in-app uploader can't drive the native
+    file-picker, so Cameron uploads those 6 himself (Add assets → Upload under each section).
+  - To go PUBLIC, Android still needs Google's **12-tester / 14-day CLOSED test**. Once the
+    screenshots are uploaded (store listing turns green), the ONLY remaining substantive
+    dependency is lining up the 12 closed-test testers; the closed-track build push is
+    automatable via eas submit (switch track to a closed track). Full map:
+    **ANDROID-PUBLISH-PATH.md**.
 - **Latest code commit:** verify with `git log -1` (iOS submit work is docs/config only).
 
 ### The ONE bug that keeps wasting Cameron's time — check this FIRST every time
