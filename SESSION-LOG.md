@@ -27,6 +27,31 @@
 
 ---
 
+## 2026-06-26 — Double-check pass found & fixed a MEAT LEAK (non-members saw meat)
+- What we did: Cameron said "double check everything." Re-verified the whole three-way
+  routing against the actual files (not trusting prior claims). Found a real bug:
+  free-text onboarding (`inferTagFromText`) keyword-guessed the feed tag and sent
+  generic Christian words (faith/church/gospel/grow/scripture) to MAINTENANCE — which
+  shows the MEAT track. A Baptist/Catholic typing their faith in the opening free-text
+  box would have seen meat on their very first feed. That broke milk-before-meat AND
+  Cameron's law that ONLY Latter-day Saint membership flips the flow.
+- What changed in the app (files/commits):
+  - `inferTagFromText` now routes free text through the SAME guarded path everything
+    else uses — `harvestSignals -> routeFeedTag` — so the founding entry obeys the
+    LDS-only member guard and the bridge-acceptance rule. (useAppStore.ts)
+  - chatEar: split sentences on semicolons too, so a negated clause can't silence a
+    real acceptance in the next clause and vice versa.
+  - chatEar: detect the exact contradiction Cameron named — God does NOT damn people
+    for His glory — guarded so a Calvinist AFFIRMING the harsh view stays on milk.
+- What is now true that wasn't before: Every non-LDS tradition starts on milk, the way
+  Jesus would treat them the same. Only explicit LDS self-ID reaches the member/meat
+  track. Verified: tsc 0; 18/18 route cases pass (Baptist/Catholic->MILK, LDS->
+  MAINTENANCE, ambiguous "mission/priesthood" don't mint membership, third-person &
+  negation guarded, bridge acceptances->BRIDGE, Calvinist affirming harsh view->MILK).
+- What's next / handed off: re-shipped corrected OTA + new build (the earlier 80b009d
+  OTA/build were pre-fix and must be replaced on the phone).
+- Commit: cb9ac2b
+
 ## 2026-06-26 — Three-way stage structure: member / bridge / milk, the Jesus way
 - What we did: Implemented Cameron's full ministering structure and tightened member
   detection to exactly one religion, per his correction.
