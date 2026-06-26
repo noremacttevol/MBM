@@ -44,7 +44,7 @@
   re-review, not a blocker.
 - What's next / handed off: nothing required on iOS. The real dependency is Android's 12-tester /
   14-day closed test. Pitch is being handled in a separate chat per Cameron.
-- Commit: <hash filled in after commit>
+- Commit: 1493311
 
 ---
 
