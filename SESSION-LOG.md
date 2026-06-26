@@ -4,10 +4,11 @@
 
 ### How the chain works (read this if you're an AI assistant)
 1. At the START of every new chat you MUST read the TOP entry below, then run
-   `git log -1 --format='%h %ci %s'` and confirm the commit hash matches the
-   "Commit:" line of that top entry. Your FIRST message to Cameron must recap that
-   last session and show the matching commit hash — proving you read the chain and
-   that the previous session was saved. Do no other work until you've done this.
+   `git log --oneline -5` and confirm the "Commit:" hash of that top entry appears
+   in the history (proving that session was actually saved/pushed). Your FIRST
+   message to Cameron must recap that last session and show that commit hash —
+   proving you read the chain and that the previous session was saved. Do no other
+   work until you've done this.
 2. At the END of every session where anything happened, add a NEW entry at the top
    (copy the template), then commit and push to GitHub. That commit hash becomes the
    proof the session was saved, and the next chat verifies against it.
@@ -47,4 +48,4 @@
 - What's next / handed off: (optional) move the old contradicting status docs into an
   /archive folder; the written-but-not-built items remain — tiered model routing,
   Profile "Start fresh" reset, belief/testimony dialogue option.
-- Commit: <filled in after commit & push>
+- Commit: 16f2d65 (system created) — see also the follow-up commit that recorded this hash

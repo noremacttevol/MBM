@@ -3,8 +3,9 @@
 > 🔗 **SESSION-CHAIN PROTOCOL — THIS IS YOUR VERY FIRST ACTION IN EVERY NEW CHAT.**
 > Before you do ANY other work, before answering anything else:
 > 1. Read the TOP entry of [`SESSION-LOG.md`](./SESSION-LOG.md).
-> 2. Run `git log -1 --format='%h %ci %s'` and confirm the hash matches that entry's
->    "Commit:" line. (If it does NOT match, tell Cameron something wasn't saved.)
+> 2. Run `git log --oneline -5` and confirm the entry's "Commit:" hash APPEARS in the
+>    history (proving that session was saved). If it does NOT appear, tell Cameron
+>    something wasn't saved instead of guessing.
 > 3. Make your FIRST message to Cameron a short recap of that last session AND the
 >    matching commit hash — this proves to him you read the chain and that the last
 >    session was saved. Only after that do you begin new work.
