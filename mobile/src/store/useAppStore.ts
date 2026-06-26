@@ -155,27 +155,20 @@ function routeFeedTag(signals: string[]): FeedTag {
 
 // The new onboard choices carry a feedTag directly on the choice object.
 // completeOnboarding now accepts feedTag directly from the story choice.
-// For free-text (key='E'), we infer from language.
+// For free-text (key='E'), we route the words through the SAME guarded ear and
+// router the rest of the app uses — never a separate keyword guess.
+//
+// Why: the old keyword guesser routed plain Christian words ("faith", "church",
+// "gospel", "grow", "scripture") to MAINTENANCE and showed a non-member the MEAT
+// track on their very first feed. That broke two laws at once — milk-before-meat,
+// and Cameron's rule (2026-06-26) that ONLY Latter-day Saint membership flips the
+// flow into meat. By running the free text through harvestSignals -> routeFeedTag,
+// the founding entry obeys exactly the same laws as every later turn: a member is
+// detected only from explicit LDS self-ID (with the negation/third-person guards),
+// the bridge only from a distinctively-LDS acceptance, and everyone else — every
+// other tradition, treated the same as Jesus would — starts gently on milk.
 function inferTagFromText(text: string): FeedTag {
-  const lower = text.toLowerCase();
-
-  const memberKw      = ['lds', 'latter', 'member', 'temple', 'ward', 'mission', 'covenant', 'priesthood', 'Relief Society'];
-  const bridgeKw      = ['doubt', 'science', 'evidence', 'proof', 'atheist', 'skeptic', 'question', 'wonder', 'not sure', 'religion'];
-  const burdenKw      = ['lost', 'alone', 'broken', 'hurt', 'pain', 'grief', 'heavy', 'scared', 'desperate', 'struggling'];
-  const maintenanceKw = ['deepen', 'grow', 'stronger', 'scripture', 'faith', 'believe', 'gospel', 'church'];
-
-  let mScore = 0, bScore = 0, burdenScore = 0, maintScore = 0;
-  memberKw.forEach(kw      => { if (lower.includes(kw)) mScore++; });
-  bridgeKw.forEach(kw      => { if (lower.includes(kw)) bScore++; });
-  burdenKw.forEach(kw      => { if (lower.includes(kw)) burdenScore++; });
-  maintenanceKw.forEach(kw => { if (lower.includes(kw)) maintScore++; });
-
-  const max = Math.max(mScore, bScore, burdenScore, maintScore);
-  if (max === 0) return 'MILK'; // default: start gentle
-  if (mScore === max)      return 'MAINTENANCE';
-  if (maintScore === max)  return 'MAINTENANCE';
-  if (bScore === max)      return 'BRIDGE';
-  return 'MILK';
+  return routeFeedTag(harvestSignals(text));
 }
 
 // ── Feed helpers ─────────────────────────────────────────────────────────────

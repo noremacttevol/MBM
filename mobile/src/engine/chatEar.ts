@@ -113,7 +113,13 @@ export function stripSignalReport(raw: string): { reply: string; found: string[]
 export function harvestSignals(text: string): string[] {
   const lower = (text || '').toLowerCase();
   const found: string[] = [];
-  const sentences = lower.split(/[.!?\n]+/);
+  // Split on semicolons too: they join independent clauses, and a person can pack
+  // a rejected idea and a genuine acceptance into one breath ("I don't think God
+  // made everything from nothing; matter is eternal"). Splitting there keeps each
+  // per-sentence guard local so a negation in one clause can't silence a real
+  // acceptance in the next, and a real acceptance in one can't be voided by the
+  // other. Still safe-direction: it only ever sharpens detection, never leaks meat.
+  const sentences = lower.split(/[.!?;\n]+/);
 
   // Per-sentence: the rejection must never silence the affirmation
   // ("a god who does that is not good. God is good though — the real one.")
@@ -145,6 +151,16 @@ export function harvestSignals(text: string): string[] {
   // is the live picture of God; never spoken to the person):
   if (/\bcalvinis|\breformed\b|\bpredestin|\bthe elect\b|\btotal depravity\b|\bsovereign grace\b|\bunconditional election\b/.test(lower)) found.push('reformed_framework');
   if (/\ba god who (does|would do|did) that is not good\b|\bthat('s| is) not the god i\b|\bgod (is not|isn't|wouldn't be|would never be) like that\b|\bi (can('t|not)|don('t|not)) believe in a god who\b/.test(lower)) found.push('rejects_harsh_god');
+  // The exact contradiction Cameron named: God does NOT damn people for His glory.
+  // Fires only when one breath holds damnation + glory + a negation, so a Calvinist
+  // AFFIRMING it ("God sends people to hell for his glory and that is good") never
+  // trips it, while the rejection ("God would never send anyone to hell just for
+  // his own glory") does. Safe-direction: a miss only keeps them on milk.
+  if (sentences.some((sn) =>
+    /\b(hell|damn|damns|damned|damnation|condemn|condemns|condemned)\b/.test(sn) &&
+    /\bglor(y|ify|ifies|ious)\b/.test(sn) &&
+    /\b(never|won'?t|wouldn'?t|doesn'?t|does not|do not|don'?t|isn'?t|is not|wouldn'?t|no longer|not)\b/.test(sn)
+  )) found.push('rejects_harsh_god');
   if (/\b(don'?t|do not) think of god as a person\b|\bgod (is|'s) not a person\b|\bno personal god\b|\bgod is (the universe|energy|everything|a force)\b/.test(lower)) found.push('nontheistic_framework');
 
   // BRIDGE ACCEPTANCES — only a clear AFFIRMATION counts, each guarded against
