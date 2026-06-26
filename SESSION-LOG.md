@@ -27,6 +27,28 @@
 
 ---
 
+## 2026-06-26 — iOS SUBMITTED TO APPLE FOR PUBLIC REVIEW (App Privacy published)
+- What we did: Finished the last iOS blocker and pushed the app to public App Store review.
+  Completed and PUBLISHED the App Privacy data-usage label in App Store Connect (the one
+  thing the API couldn't do): declared 4 data types — Name, Sensitive Info (the religious
+  faithNote), Other User Content (inbox messages), User ID (anon Firebase UID) — each as
+  "App Functionality", linked to the user's identity, used for NO tracking. Basis came from
+  reading messaging.ts (Firebase persistently stores those tied to an anonymous UID; the
+  Anthropic chat is real-time so it isn't "collected"). Then via the ASC REST API: added the
+  version item to the review submission (201, READY_FOR_REVIEW — no blockers left) and
+  PATCHed submitted:true.
+- What changed (files/commits): no app CODE change. Docs/config only: START-HERE.md updated
+  to reflect iOS submitted; new ANDROID-PUBLISH-PATH.md; auto-memory updated.
+- What is now true that wasn't before: **iOS v1.0 (build 6) is WAITING_FOR_REVIEW at Apple**,
+  releaseType AFTER_APPROVAL (auto-goes-live on approval). App Privacy is PUBLISHED. The
+  entire iOS store side (metadata, screenshots, age rating, pricing, contact, privacy,
+  submit) was driven without a Mac and without browser uploads.
+- What's next / handed off: iOS — just wait for Apple (~24h typical). Android to go public
+  needs two owner-only things from Cameron: (1) round up 12 testers for the 14-day closed
+  test, (2) download one Google Play service-account key and hand it to me. See
+  ANDROID-PUBLISH-PATH.md. Public Android is ≥2 weeks out by Google's rule regardless.
+- Commit: <hash filled in after commit>
+
 ## 2026-06-26 — Double-check pass found & fixed a MEAT LEAK (non-members saw meat)
 - What we did: Cameron said "double check everything." Re-verified the whole three-way
   routing against the actual files (not trusting prior claims). Found a real bug:

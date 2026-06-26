@@ -1,6 +1,6 @@
 # START HERE — MBM Current State (the ONLY file that is allowed to say "now")
 
-**Last verified true: 2026-06-26.**
+**Last verified true: 2026-06-26 (iOS submitted for public App Store review).**
 **If you are an AI assistant: read this whole file before you say ONE word about what is
 done, published, built, or pending. Do not trust your memory over this file. If this file
 and any other file/your memory disagree, THIS FILE WINS until a human updates it.**
@@ -40,12 +40,21 @@ Do not re-ask settled questions. Verify before you claim anything is or isn't do
 - Domain `milkb4meat.org` — owned (+ /privacy.html, /support.html).
 
 ### Publishing — already shipped before. This is NOT a from-scratch setup.
-- **iOS:** Published to **TestFlight** via EAS cloud builds (no Mac needed). Apple
-  Developer account, distribution cert, and App Store Connect API key are all set up.
-  Public TestFlight link: https://testflight.apple.com/join/cPNpeh3H
-- **Android:** Already published to Google Play **internal testing**. Versions **3 and 4
-  shipped**; **version 5 built on June 25, 2026.** The Play side already exists.
-- **Latest code commit:** `56b41a2` on `main` (always verify with `git log -1`).
+- **iOS:** **SUBMITTED TO APPLE FOR PUBLIC REVIEW on 2026-06-26.** Version 1.0 (build 6)
+  is in state **WAITING_FOR_REVIEW**; releaseType AFTER_APPROVAL (it goes live
+  automatically once Apple approves). Everything Apple needed is done: metadata, both
+  6.7" screenshots, age rating, categories (Lifestyle/Books), free worldwide pricing,
+  content-rights declaration, App Review contact (Cameron, phone, admin@milkb4meat.org),
+  and the **App Privacy data-usage label is PUBLISHED** (Name, Sensitive Info, Other User
+  Content, User ID — all "App Functionality", linked to identity, no tracking). The whole
+  iOS store side was driven via the App Store Connect REST API (no Mac, no browser uploads).
+  Nothing left for Cameron on iOS — just wait for Apple's review (~24h typical).
+  - Still also on **TestFlight** (public link https://testflight.apple.com/join/cPNpeh3H).
+- **Android:** Still on Google Play **internal testing** (v3, v4 shipped; v5 built Jun 25).
+  To go PUBLIC it needs two owner-only things: a Play service-account key + Google's
+  12-tester/14-day closed test (so public Android is ≥2 weeks out). Full map:
+  **ANDROID-PUBLISH-PATH.md**.
+- **Latest code commit:** verify with `git log -1` (iOS submit work is docs/config only).
 
 ### The ONE bug that keeps wasting Cameron's time — check this FIRST every time
 **Writing/committing code does NOT put it on the phone.** A fix can be correct in the
