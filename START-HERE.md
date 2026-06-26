@@ -1,6 +1,6 @@
 # START HERE — MBM Current State (the ONLY file that is allowed to say "now")
 
-**Last verified true: 2026-06-25.**
+**Last verified true: 2026-06-26.**
 **If you are an AI assistant: read this whole file before you say ONE word about what is
 done, published, built, or pending. Do not trust your memory over this file. If this file
 and any other file/your memory disagree, THIS FILE WINS until a human updates it.**
@@ -67,14 +67,43 @@ Cold-open fade fix, "Talk About It" chat header fix, de-surveilled Profile with 
 buttons, ministry-console resilience, no-repeat story-on-cold-open, own-words restoration
 gate, open/removable signals, non-affiliation disclaimer. All in `e4a2575`/`56b41a2`.
 
+### Fixed in code June 26, awaiting a NEW build to reach the phone
+- **Member recognition (THE big one).** Editing the faith box on the Profile to say "I am a
+  member of the Church of Jesus Christ of Latter-day Saints" now snaps the app into member /
+  meat mode: feed shifts to MAINTENANCE, the private discipleship companion turns on, a
+  visible "Walk with Christ" banner appears on the home feed, and the chat acknowledges the
+  person as a fellow Latter-day Saint. This fires from ANY faith-write path (Profile edit,
+  Profile add, onboarding free-text) and from chat. Broadened the member phrasings the app
+  recognizes and added negation/third-person guards ("my wife is a member" / "I'm NOT a
+  member" never mint membership). Verified by regex unit test + `tsc --noEmit` clean.
+- The header-cramping and "what the app has noticed" complaints were ALREADY fixed in code
+  (`a287171`/`e4a2575`); Cameron is seeing them because his installed build is older. A new
+  build clears them too. Same for the iPhone opening-animation flash (native-driver +
+  deferred first-frame mount already in code).
+
 ### Written/planned but NOT built yet
 Tiered model routing (Haiku/Sonnet/Opus by signal) — see MODEL-ROUTING-AND-OFFLINE-PLAN.md.
-"Start fresh" reset button on Profile. Belief/testimony answer option for dialogue.
+Belief/testimony answer option for dialogue.
+
+### Decided AGAINST (do not build)
+- **A "Start fresh" reset button.** Cameron's call (June 2026): users control their own
+  record by REMOVING or EDITING what the app has stored about them, right on the Profile —
+  the per-item Remove buttons and the editable faith box already do this. There is no blunt
+  wipe-everything button; honoring a person means letting them adjust the specific things
+  the app learned, not nuking the whole relationship.
 
 ### Only Cameron can do (human + accounts + money + the public button)
-1. **The public store release** — *building* makes the app; *submitting* sends it to
-   Apple/Google public review for the world. That is the one irreversible public step.
-   The assistant preps everything up to the button; Cameron says go.
+1. **The public store release — the ONE final tap, with a sworn promise around it.**
+   The assistant's promise to Cameron, in plain words: *I will do everything myself.*
+   I build the app, I run the checks, I upload the build to App Store Connect / Google
+   Play Console, I fill in the store listing, I open the exact page in the browser, and I
+   tell Cameron the exact button to press and where it is on the screen — by name, with a
+   screenshot if I can. I do NOT stop early and hand him a vague "now you take it from
+   here." The only thing left for Cameron is the single irreversible public-release tap
+   that Apple/Google legally require the account owner to make. I get him all the way to
+   that one button and point right at it. If I ever can't do a step myself, I say exactly
+   why and exactly what I need from him — I never use "only you can press the button" as a
+   reason to give up or leave him hanging.
 2. Firebase Blaze (paid) upgrade, if he wants to kill the free-tier read limit.
 3. Any new card/billing caps or new API keys with spend limits.
 4. Store listing details Apple/Google require the account owner to confirm.

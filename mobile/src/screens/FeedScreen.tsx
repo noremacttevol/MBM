@@ -10,7 +10,8 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
-import { useAppStore } from '../store/useAppStore';
+import { useNavigation } from '@react-navigation/native';
+import { useAppStore, isMemberSignal } from '../store/useAppStore';
 import ContentCard from '../components/ContentCard';
 import DialogueCard from '../components/DialogueCard';
 import FollowUpCard from '../components/FollowUpCard';
@@ -24,6 +25,7 @@ import { colors, spacing } from '../theme';
 // categorized, which is exactly the pharisaical gate the app must never create.
 
 export default function FeedScreen() {
+  const navigation      = useNavigation<any>();
   const feed            = useAppStore(s => s.feed);
   const currentQuestion = useAppStore(s => s.currentQuestion);
 
@@ -35,6 +37,11 @@ export default function FeedScreen() {
   const sessionCount    = useAppStore(s => s.sessionCount);
   const dialogueSignals = useAppStore(s => s.dialogueSignals);
   const doneExerciseIds = useAppStore(s => s.doneExerciseIds);
+
+  // A self-identified Latter-day Saint is on the deeper member ("meat") track.
+  // Surface their private discipleship companion right here on the home feed —
+  // not buried on the Profile — so member mode is visible the moment they arrive.
+  const isMember = isMemberSignal(dialogueSignals);
 
   // A follow-up is due once a NEW session began after the invitation was accepted
   // (they went away and came back). Otherwise, offer a fresh invitation.
@@ -60,6 +67,20 @@ export default function FeedScreen() {
         keyboardShouldPersistTaps="handled"
       >
         {/* No tier label is ever shown — routing is invisible by law. */}
+
+        {/* ── Member ("meat") track: a quiet doorway into deeper discipleship ── */}
+        {isMember && (
+          <TouchableOpacity
+            style={styles.memberBanner}
+            activeOpacity={0.85}
+            onPress={() => navigation.navigate('Discipleship')}
+          >
+            <Text style={styles.memberBannerTitle}>Walk with Christ</Text>
+            <Text style={styles.memberBannerSub}>
+              Your private discipleship companion — examen, your walk so far, and personal rhythms. Tap to open →
+            </Text>
+          </TouchableOpacity>
+        )}
 
         {/* ── Follow-up on a tried exercise — the most personal thing, first ── */}
         {followUpDue && activeExercise && (
@@ -116,6 +137,29 @@ const styles = StyleSheet.create({
     paddingHorizontal: spacing.md,
     paddingTop:        spacing.md,
     paddingBottom:     spacing.xxl,
+  },
+
+  memberBanner: {
+    width:           '100%',
+    borderWidth:     1,
+    borderColor:     colors.gold,
+    borderRadius:    8,
+    backgroundColor: (colors.gold ?? '#caa75a') + '14',
+    paddingVertical: 14,
+    paddingHorizontal: spacing.md,
+    marginBottom:    spacing.md,
+  },
+  memberBannerTitle: {
+    color:      colors.gold,
+    fontSize:   16,
+    fontFamily: 'Jost_400Regular',
+    marginBottom: 4,
+  },
+  memberBannerSub: {
+    color:      colors.textDim,
+    fontSize:   13,
+    fontFamily: 'Jost_400Regular',
+    lineHeight: 19,
   },
 
   moreBtn: {

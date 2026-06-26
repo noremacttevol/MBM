@@ -27,6 +27,37 @@
 
 ---
 
+## 2026-06-26 — Member recognition FIXED + reset/public-release rules rewritten
+- What we did: Fixed the app's #1 broken behavior — editing the faith box on the
+  PROFILE to say "I am a member of the Church of Jesus Christ of Latter-day Saints"
+  was being IGNORED instead of snapping the app into member/meat mode. Also confirmed
+  the chat-header and iPhone-animation complaints are already fixed in code (old build
+  on the phone), and rewrote two of Cameron's rules (reset + public-release promise).
+- What changed in the app (files):
+  - `mobile/src/engine/chatEar.ts` — broadened member self-ID phrasings in
+    `harvestSignals` + added negation/third-person guards (Law 8 honored).
+  - `mobile/src/store/useAppStore.ts` — `editFaithWord`, `addFaithWord`, and
+    `recordFaithBackground` now detect `becameMember`, enable discipleship, push a
+    "Welcome, fellow Latter-day Saint" moment, and `appendMetaMessage` to chat — the
+    same member handling the chat path already had.
+  - `mobile/src/screens/FeedScreen.tsx` — visible gold "Walk with Christ" banner on
+    the home feed whenever the person reads as a member; taps into Discipleship.
+  - `START-HERE.md` — removed the "Start fresh" reset idea (decided against; users
+    remove/edit individual items instead); rewrote the public-release rule into a sworn
+    promise that the assistant does everything up to the single legally-required tap and
+    points Cameron right at it; logged the member fix; bumped date to 2026-06-26.
+  - `.auto-memory/MEMORY.md` — recorded the member fix, the two-stage non-member design
+    (unbeliever/milk vs bridge) + member meat track, the reset decision, the promise.
+- What is now true that wasn't before: editing the Profile faith box to declare LDS
+  membership snaps the whole app into member/meat mode (feed → MAINTENANCE, discipleship
+  companion on, visible banner, chat acknowledgment) and it fires from any faith-write
+  path or from chat. Verified: regex unit test all-pass (7 yes / 6 no) + `tsc --noEmit` 0.
+- What's next / handed off: these fixes are IN CODE but NOT on Cameron's phone yet — they
+  need a new build (or `eas update` for the JS-only parts) to land. The header/animation
+  complaints clear with that same build. Larger follow-up: build out the deeper member
+  "meat" learning sections and the bridge-stage ministering functions.
+- Commit: <hash filled in after commit>
+
 ## 2026-06-26 — Built the memory chain so chats stop losing context
 - What we did: Diagnosed why new chats kept losing the project's true state and
   repeating stale facts (the "create a Google Play account / pay $25" mistake).

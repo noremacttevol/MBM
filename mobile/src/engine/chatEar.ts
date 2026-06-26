@@ -141,9 +141,21 @@ export function harvestSignals(text: string): string[] {
   // A named Christian tradition = a believer in Jesus (milk that fits them):
   if (/\b(baptist|catholic|methodist|presbyterian|pentecostal|evangelical|lutheran|orthodox|non.?denominational|christian church)\b/.test(lower)) found.push('believes_in_jesus');
 
-  // Membership ONLY from the person's own self-identification (Law 3):
-  if (/\b(i'?m|i am) (a |an )?(latter.day saint|lds|mormon|member of the church of jesus christ)\b|\bmy ward\b|\brelief society\b|\bserved a mission\b|\btemple recommend\b/.test(lower)) found.push('active_member');
-  if (/\b(grew up|raised) (lds|mormon)\b|\bless.active\b|\binactive member\b/.test(lower)) found.push('inactive_member');
+  // Membership ONLY from the person's own self-identification (Law 3), and only
+  // in the FIRST person about THEMSELVES. "my wife is a member", "I'm NOT a
+  // member", or "I used to be" must never mint membership (a misroute lost a
+  // tester — CLAUDE.md Law 8). We read the honest ways a Latter-day Saint says
+  // who they are, then strip out negations and third-person mentions.
+  const memberSelfId =
+    /\b(i'?m|i am) (a |an )?(latter.?day saint|lds|mormon)\b/.test(lower) ||
+    /\b(i'?m|i am) (a |an )?member of (the )?(church of jesus christ|lds church|restored church)/.test(lower) ||
+    /\bi (belong to|am part of|am a part of|attend|go to) (the )?(church of jesus christ( of latter.?day saints)?|lds church|restored church)/.test(lower) ||
+    /\bmy ward\b|\brelief society\b|\bi served a mission\b|\bmy temple recommend\b|\bmy elders quorum\b|\bi hold the priesthood\b/.test(lower);
+  const memberNegated =
+    /\b(not|never|no longer|isn'?t|aren'?t|wasn'?t|used to be|don'?t want to be)\b[^.!?]*\b(member|latter.?day saint|lds|mormon)\b/.test(lower) ||
+    /\b(my|his|her|their|a) (wife|husband|spouse|friend|mom|mum|mother|dad|father|parents?|family|son|daughter|kids?|neighbou?r|coworker|boss|sister|brother) (is|was|are|were) (a |an )?(member|latter.?day saint|lds|mormon)\b/.test(lower);
+  if (memberSelfId && !memberNegated) found.push('active_member');
+  if ((/\b(grew up|raised) (as )?(lds|mormon|latter.?day saint|in the church)\b|\bless.?active\b|\binactive member\b|\b(i'?m|i am) (a |an )?(less.?active|inactive)\b|\bi left the church\b/.test(lower)) && !memberNegated) found.push('inactive_member');
 
   return found;
 }

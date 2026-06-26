@@ -1936,7 +1936,8 @@ export const useAppStore = create<AppState & AppActions>()(
         const meta  = FAITH_META[choiceKey] ?? FAITH_META.private;
         const clean = (text ?? '').trim();
 
-        const { baseSignals, faithWords, answeredQuestionIds, openedIds } = get();
+        const { baseSignals, faithWords, answeredQuestionIds, openedIds,
+                dialogueSignals: priorSignals } = get();
 
         // The chosen option's identity rides on the LABEL line; the free-text's
         // identity rides on the words line — so removing either un-learns its part.
@@ -1957,6 +1958,24 @@ export const useAppStore = create<AppState & AppActions>()(
 
         const momentDetail = `“${(clean || meta.label).slice(0, 90)}”`;
         const nextTag = routeFeedTag(merged);
+
+        // Did they JUST tell us they are a Latter-day Saint (when the app didn't
+        // know it before)? If so, the app snaps into member / meat mode the same
+        // way the chat path does (Cameron's law): it does NOT silently route them
+        // and move on. It (1) shifts the feed to the deeper member track, (2) turns
+        // on the member-only discipleship tools so they are live, not buried behind
+        // a second opt-in, (3) acknowledges them out loud in the chat thread so the
+        // moment is felt, and (4) marks the welcome on the Profile. Same Christ,
+        // deeper water — never back to the basics for someone already in the fold.
+        const becameMember = engineIsMember(merged) && !engineIsMember(priorSignals);
+        const welcomeMoment = becameMember
+          ? [{
+              title: 'Welcome, fellow Latter-day Saint',
+              text:  'The app knows you as a member now — your feed and chat have shifted to the deeper gospel, and your private discipleship companion is turned on.',
+              ts:    Date.now(),
+            }]
+          : [];
+
         set(s => ({
           faithWords:      nextWords,
           baseSignals:     newBase,
@@ -1965,10 +1984,23 @@ export const useAppStore = create<AppState & AppActions>()(
           feedTag:         nextTag,
           feed:            buildFeed(nextTag, s.seenIds),
           currentQuestion: computeNextQuestion(newAnswered, merged, openedIds.size),
-          moments: newWords.length > 0
-            ? [{ title: 'Your faith, as you told it', text: momentDetail, ts: Date.now() }, ...s.moments]
-            : s.moments,
+          discipleshipEnabled: becameMember ? true : s.discipleshipEnabled,
+          moments: [
+            ...welcomeMoment,
+            ...(newWords.length > 0
+              ? [{ title: 'Your faith, as you told it', text: momentDetail, ts: Date.now() }]
+              : []),
+            ...s.moments,
+          ],
         }));
+
+        // Acknowledge membership out loud in the chat thread, so when they open
+        // Chat the app greets them as a member instead of pretending it never heard.
+        if (becameMember) {
+          get().appendMetaMessage(
+            'I know you now as a fellow Latter-day Saint — so from here I\u2019ll take you deeper into the gospel rather than back to the basics, and your feed has shifted to match.',
+          );
+        }
       },
 
       editFaithWord(index, text) {
@@ -1978,7 +2010,7 @@ export const useAppStore = create<AppState & AppActions>()(
         // remaining lines means a correction or removal honestly un-learns what
         // that line had taught (the feed may settle back toward milk — correct).
         const clean = (text ?? '').trim().slice(0, 140);
-        const { faithWords, baseSignals } = get();
+        const { faithWords, baseSignals, dialogueSignals: priorSignals } = get();
         if (index < 0 || index >= faithWords.length) return;
 
         // The line owns only its IDENTITY (so removing it un-learns who the app
@@ -1998,6 +2030,15 @@ export const useAppStore = create<AppState & AppActions>()(
 
         const merged  = composeSignals(newBase, nextWords);
         const nextTag = routeFeedTag(merged);
+
+        // If editing this faith line just revealed they are a Latter-day Saint
+        // (when the app didn't know it before), the app SNAPS into member / meat
+        // mode — exactly as the chat path does — instead of silently re-routing.
+        // It turns on the member tools, acknowledges them out loud, and welcomes
+        // them on the Profile. (This is the bug Cameron hit: editing the Profile
+        // faith box said you were a member and the app said nothing.)
+        const becameMember = engineIsMember(merged) && !engineIsMember(priorSignals);
+
         set(s => ({
           faithWords:      nextWords,
           beliefHistory:   isRealChange
@@ -2007,7 +2048,20 @@ export const useAppStore = create<AppState & AppActions>()(
           dialogueSignals: merged,
           feedTag:         nextTag,
           feed:            nextTag !== s.feedTag ? buildFeed(nextTag, s.seenIds) : s.feed,
+          discipleshipEnabled: becameMember ? true : s.discipleshipEnabled,
+          moments: becameMember
+            ? [{
+                title: 'Welcome, fellow Latter-day Saint',
+                text:  'The app knows you as a member now — your feed and chat have shifted to the deeper gospel, and your private discipleship companion is turned on.',
+                ts:    Date.now(),
+              }, ...s.moments]
+            : s.moments,
         }));
+        if (becameMember) {
+          get().appendMetaMessage(
+            'I know you now as a fellow Latter-day Saint — so from here I\u2019ll take you deeper into the gospel rather than back to the basics, and your feed has shifted to match.',
+          );
+        }
       },
       deleteBeliefChange(ts) {
         set(s => ({ beliefHistory: s.beliefHistory.filter(b => b.ts !== ts) }));
@@ -2019,19 +2073,38 @@ export const useAppStore = create<AppState & AppActions>()(
         // any engagement it reveals stays sticky in the base.
         const clean = (text ?? '').trim().slice(0, 140);
         if (!clean) return;
-        const { baseSignals, faithWords } = get();
+        const { baseSignals, faithWords, dialogueSignals: priorSignals } = get();
         const harvested = harvestSignals(clean);
         const newBase   = mergeSignals(baseSignals, stripIdentity(harvested));
         const nextWords = [{ text: clean, ts: Date.now(), signals: identityOnly(harvested) }, ...faithWords];
         const merged    = composeSignals(newBase, nextWords);
         const nextTag   = routeFeedTag(merged);
+
+        // Adding a faith line that reveals membership snaps the app into member /
+        // meat mode (acknowledge + turn on member tools + welcome), instead of
+        // silently re-routing the feed and saying nothing.
+        const becameMember = engineIsMember(merged) && !engineIsMember(priorSignals);
+
         set(s => ({
           faithWords:      nextWords,
           baseSignals:     newBase,
           dialogueSignals: merged,
           feedTag:         nextTag,
           feed:            nextTag !== s.feedTag ? buildFeed(nextTag, s.seenIds) : s.feed,
+          discipleshipEnabled: becameMember ? true : s.discipleshipEnabled,
+          moments: becameMember
+            ? [{
+                title: 'Welcome, fellow Latter-day Saint',
+                text:  'The app knows you as a member now — your feed and chat have shifted to the deeper gospel, and your private discipleship companion is turned on.',
+                ts:    Date.now(),
+              }, ...s.moments]
+            : s.moments,
         }));
+        if (becameMember) {
+          get().appendMetaMessage(
+            'I know you now as a fellow Latter-day Saint — so from here I\u2019ll take you deeper into the gospel rather than back to the basics, and your feed has shifted to match.',
+          );
+        }
       },
 
       addMoment(title, text) {
