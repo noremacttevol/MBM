@@ -27,6 +27,27 @@
 
 ---
 
+## 2026-06-26 — iOS status documented; Apple side confirmed done + easy for the pitch stage
+- What we did: Cameron asked, for his upcoming friends/family/church beta pitch, whether the
+  Apple app is done and will be easy, and whether anything on the App Store page should be done
+  better. Verified iOS state directly (EAS build:list: v1.0 build 6, commit dda114e, finished
+  2026-06-26) and confirmed against START-HERE. Wrote a dedicated tracked record so the separate
+  pitch chat can rely on it.
+- What changed in the app (files/commits): NEW file IOS-STATUS-AND-APPLE-READINESS.md (honest
+  iOS verdict + what's done + optional App Store polish + how iOS fits the testing plan). No app
+  code changed — docs only.
+- What is now true that wasn't before: there is now a single tracked source of truth for the iOS
+  side. Verdict recorded: Apple is effectively FINISHED — submitted, AFTER_APPROVAL auto-release,
+  TestFlight public link live NOW (https://testflight.apple.com/join/cPNpeh3H) so beta users can
+  install today. Only optional polish: more screenshots (have 2 of Apple's allowed 10; the
+  Android shots are the wrong aspect so iOS-sized frames would need generating) — additive, no
+  re-review, not a blocker.
+- What's next / handed off: nothing required on iOS. The real dependency is Android's 12-tester /
+  14-day closed test. Pitch is being handled in a separate chat per Cameron.
+- Commit: <hash filled in after commit>
+
+---
+
 ## 2026-06-26 — ANDROID AUTO-PUBLISH VERIFIED + latest build live for Cameron's pre-check
 - What we did: Stood up and PROVED the automated Google Play publishing pipeline, and got
   the latest fixed build onto internal testing so Cameron can check it before any 14-day
