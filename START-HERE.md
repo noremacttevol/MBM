@@ -16,6 +16,16 @@ limited time and a low tolerance for being asked to re-explain things or being t
 redo work that is already done. Take initiative. Do not make him be the bug reporter.
 Do not re-ask settled questions. Verify before you claim anything is or isn't done.
 
+### Cameron's phones / testing setup — KNOW THIS, never re-ask
+- **Cameron's own phone is an ANDROID phone.** By default, assume Android. He installs
+  and updates MBM through the **Google Play Store** (he is an internal tester; the
+  Google Play account and its fee are ALREADY PAID — never tell him otherwise).
+- He ALSO tests the iPhone app on **his wife's iPhone**, using her account, during the
+  daytime. He will explicitly SAY when he is "using my wife's phone / testing the
+  iPhone app." Only then is TestFlight (iPhone) the right path.
+- So: unless Cameron says he's on his wife's iPhone, the phone in question is HIS
+  ANDROID, and the delivery path is Google Play, not TestFlight.
+
 ---
 
 ## THE TRUTH RIGHT NOW (do not contradict this)
