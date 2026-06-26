@@ -1,79 +1,96 @@
-# MBM — Everything YOU need to do (plain and simple)
+# START HERE — MBM Current State (the ONLY file that is allowed to say "now")
 
-This is the short list of things only you can do. Anything technical, I handle.
-There are just two jobs. Check things off as you go.
+**Last verified true: 2026-06-25.**
+**If you are an AI assistant: read this whole file before you say ONE word about what is
+done, published, built, or pending. Do not trust your memory over this file. If this file
+and any other file/your memory disagree, THIS FILE WINS until a human updates it.**
 
-If you only read one line: **publish the app (Job 1), and keep your reply desk
-open so you can answer people (Job 2). I do the rest.**
-
----
-
-## First, what each thing is (one line each, so nothing is confusing)
-
-- **Reply desk** — the "Ministry console" window. The ONE place you read and answer
-  people. (Right now it opens at localhost:4545 on your computer.)
-- **Privacy page** — a plain webpage on milkb4meat.org. Google requires it. You
-  never log in to it. Not related to messaging.
-- **Resend** — the service that emails you when someone messages a real person.
-- **Railway** — a free host that hides your AI key so it's safe inside the app.
-- **Expo** — the cloud that builds your app.
-- **Google Play** — where your testers install the app from.
-
-You do NOT log into most of these day to day. They're set up once and forgotten.
+If today's date is more than a few days after the "Last verified true" date above, say so
+out loud to Cameron and ask him to confirm anything time-sensitive before acting on it.
 
 ---
 
-## JOB 1 — Get the app published (one time)
-
-Check what's done:
-
-- [ ] Google Play account made ($25 + ID check started)
-- [ ] Expo account made (free)
-- [ ] Railway account made (free) — for the AI-key safety
-- [ ] Resend account made (free) — for message alerts
-- [ ] Email forwarding turned on at your registrar so `hello@`, `support@`,
-      `privacy@ milkb4meat.org` land in your normal inbox
-
-Then, when those exist, tell me and I will:
-- put your website pages live at milkb4meat.org,
-- deploy the AI-key keeper,
-- set up the build and hand you the ONE build command to run,
-- fill in every Google Play form with you (I wrote the words already).
-
-**Your only hands-on steps left after that:** run one build command in the
-terminal, and click the buttons in Google Play to add your testers. I sit with you
-for both.
+## Who Cameron is (so you treat him right)
+Cameron is non-technical and relies on the assistant to do the technical work. He has
+limited time and a low tolerance for being asked to re-explain things or being told to
+redo work that is already done. Take initiative. Do not make him be the bug reporter.
+Do not re-ask settled questions. Verify before you claim anything is or isn't done.
 
 ---
 
-## JOB 2 — Be able to message people back
+## THE TRUTH RIGHT NOW (do not contradict this)
 
-**Today (works right now):**
-- [ ] Keep the **reply desk** open on your computer (the Ministry console window).
-      When someone writes in, you'll see them in the list and can reply. Done.
+### Accounts — ALL EXIST. Never tell Cameron to create these or pay setup fees.
+- Apple Developer account — exists, paid, set up.
+- Google Play Console account — **created, $25 fee already paid, identity verified.**
+  NEVER say he needs to "create a Google Play account" or pay "$25." That is DONE.
+- Expo / EAS account — `milkb4meat`, logged in, used for cloud builds.
+- Railway account — proxy `mbm-proxy` runs here.
+- Firebase project — live (Anonymous sign-in on, firestore.rules published).
+- Domain `milkb4meat.org` — owned (+ /privacy.html, /support.html).
 
-**To get alerts on your phone when someone writes (so the desk doesn't have to
-stay open):**
-- [ ] Paste your Resend key into the settings file (I'll show you exactly where —
-      it's two lines). Then alerts email you automatically.
+### Publishing — already shipped before. This is NOT a from-scratch setup.
+- **iOS:** Published to **TestFlight** via EAS cloud builds (no Mac needed). Apple
+  Developer account, distribution cert, and App Store Connect API key are all set up.
+  Public TestFlight link: https://testflight.apple.com/join/cPNpeh3H
+- **Android:** Already published to Google Play **internal testing**. Versions **3 and 4
+  shipped**; **version 5 built on June 25, 2026.** The Play side already exists.
+- **Latest code commit:** `56b41a2` on `main` (always verify with `git log -1`).
 
-**To let helpers answer people too (share the load):**
-- [ ] Just tell me you're ready. This needs the desk moved online (I build it),
-      so you and approved helpers can log in from anywhere — phone or computer —
-      and new conversations get split between you automatically. You approve who's
-      allowed in.
-
-> Right now the desk only runs on your computer, so it can't be shared yet. Making
-> it shareable is the next thing I build whenever you say go.
+### The ONE bug that keeps wasting Cameron's time — check this FIRST every time
+**Writing/committing code does NOT put it on the phone.** A fix can be correct in the
+files, committed, and pushed — and still not be on any device until a NEW build is made
+AND installed. Several "missing fixes" were all this exact thing: the installed build was
+made from older code. RULE: when Cameron says a fix "isn't there," first check which
+commit the installed build came from (`cd mobile && npx eas build:list`), not whether the
+code is right. JS-only changes can also be pushed instantly with `eas update` (OTA), no
+rebuild needed.
 
 ---
 
-## What I (Claude) am doing — you don't need to track this
-All the code, the website, the key-keeper, the build setup, the message alerts,
-the shareable desk, the Google Play paperwork wording, and testing/screenshots.
+## DONE vs ONLY-WRITTEN vs CAMERON-ONLY
+(The full living version is STATUS-AND-ROADMAP.md — but THIS file is the quick truth.
+Keep both in sync; update this file's date whenever you change it.)
+
+### Done & shipped (in code, committed, in a build)
+Cold-open fade fix, "Talk About It" chat header fix, de-surveilled Profile with Remove
+buttons, ministry-console resilience, no-repeat story-on-cold-open, own-words restoration
+gate, open/removable signals, non-affiliation disclaimer. All in `e4a2575`/`56b41a2`.
+
+### Written/planned but NOT built yet
+Tiered model routing (Haiku/Sonnet/Opus by signal) — see MODEL-ROUTING-AND-OFFLINE-PLAN.md.
+"Start fresh" reset button on Profile. Belief/testimony answer option for dialogue.
+
+### Only Cameron can do (human + accounts + money + the public button)
+1. **The public store release** — *building* makes the app; *submitting* sends it to
+   Apple/Google public review for the world. That is the one irreversible public step.
+   The assistant preps everything up to the button; Cameron says go.
+2. Firebase Blaze (paid) upgrade, if he wants to kill the free-tier read limit.
+3. Any new card/billing caps or new API keys with spend limits.
+4. Store listing details Apple/Google require the account owner to confirm.
+5. Entering his own passwords / 2FA codes — always handed back to him.
 
 ---
 
-## When you're stuck
-Tell me which job you're on and what you see on screen. I'll take it from there —
-you never have to figure out the technical part alone.
+## FILE HIERARCHY — which file wins when they disagree
+There are too many overlapping docs in this repo. This is the order of authority:
+1. **START-HERE.md** (this file) — current state. Highest authority for "what is true now."
+2. **AGENT-RULES.md** — the vision, the laws, how to behave. Highest authority for "how/why."
+3. **CLAUDE.md** + **.claudecode.md** — operating rules (auto-loaded by the tooling).
+4. **STATUS-AND-ROADMAP.md** — the detailed living roadmap. Sync it with this file.
+5. **.auto-memory/MEMORY.md** + topic files — accumulated history; CAN BE STALE; do not
+   trust it over this file.
+Everything else (MISSION-PUBLISH-HANDOFF, PUBLISHING-ROADMAP, NEXT-VERSION-EDITS,
+MBM-SESSION-HANDOFF, PUBLISH-PLAN, MESSAGING-SETUP-PLAN, MBM-AI-BRIEFING, etc.) is
+HISTORICAL context only. If any of it conflicts with this file, this file is right.
+These old files should eventually be moved into an /archive folder so they stop
+masquerading as current.
+
+---
+
+## UPDATE RULE (for the assistant — do this, don't skip it)
+At the END of any session where something real changed (a build shipped, an account
+changed, a feature went from written to built, the public release happened): update the
+"Last verified true" date at the top of this file and the TRUTH section, in plain
+language. Keep it short. A stale truth file is worse than none — it is exactly what
+broke Cameron's trust in the first place.

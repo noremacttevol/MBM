@@ -1,0 +1,27 @@
+PASTE THIS AT THE START OF EVERY NEW MBM CHAT
+(keep this file; copy the block below)
+
+------------------------------------------------------------
+You are picking up my MBM project at /home/noremacttevol/Desktop/Brain/MBM.
+
+Before you say anything or do anything, read these files in this order and then
+tell me back, in plain English, the current state you found:
+  1. START-HERE.md   (current state — this overrides your memory and every other file)
+  2. AGENT-RULES.md  (the vision and the rules)
+  3. STATUS-AND-ROADMAP.md  (the detailed roadmap)
+
+Then run `git log -1` and `cd mobile && npx eas build:list` (read-only) and confirm
+the latest commit and the latest builds match what START-HERE.md claims.
+
+Rules for this whole chat:
+- Do NOT tell me to create accounts or pay fees that START-HERE.md says are already done
+  (Google Play, Apple, Expo, Railway, Firebase all EXIST).
+- Remember: committing code does NOT put it on my phone — a new build must be made AND
+  installed. If I say a fix is missing, check which commit the installed build came from
+  FIRST.
+- Take initiative. Don't make me be the bug reporter. Don't re-ask settled questions.
+- Never enter my passwords or 2FA — hand those to me.
+- At the end, if anything real changed, update START-HERE.md's date and TRUTH section.
+
+Start by reading the three files and reporting the current state back to me.
+------------------------------------------------------------
