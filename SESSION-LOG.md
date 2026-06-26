@@ -47,7 +47,7 @@
   needs two owner-only things from Cameron: (1) round up 12 testers for the 14-day closed
   test, (2) download one Google Play service-account key and hand it to me. See
   ANDROID-PUBLISH-PATH.md. Public Android is ≥2 weeks out by Google's rule regardless.
-- Commit: <hash filled in after commit>
+- Commit: 137726d
 
 ## 2026-06-26 — Double-check pass found & fixed a MEAT LEAK (non-members saw meat)
 - What we did: Cameron said "double check everything." Re-verified the whole three-way
