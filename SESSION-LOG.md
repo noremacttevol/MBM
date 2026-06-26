@@ -56,7 +56,7 @@
   need a new build (or `eas update` for the JS-only parts) to land. The header/animation
   complaints clear with that same build. Larger follow-up: build out the deeper member
   "meat" learning sections and the bridge-stage ministering functions.
-- Commit: <hash filled in after commit>
+- Commit: 6dc061c (+ this log update committed right after)
 
 ## 2026-06-26 — Built the memory chain so chats stop losing context
 - What we did: Diagnosed why new chats kept losing the project's true state and
