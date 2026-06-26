@@ -54,7 +54,7 @@
 - What's next / handed off: this is IN CODE; kicking off a new build so it reaches the
   phone. Future: build the deeper member "meat" learning sections + more bridge ministering
   functions/content.
-- Commit: <hash filled in after commit>
+- Commit: 5152c22
 
 ## 2026-06-26 — Member recognition FIXED + reset/public-release rules rewritten
 - What we did: Fixed the app's #1 broken behavior — editing the faith box on the
