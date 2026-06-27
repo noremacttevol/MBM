@@ -27,6 +27,30 @@
 
 ---
 
+## 2026-06-27 — milkb4meat.org landing page built; iPhone card parked in a "coming soon" state while we wait on Apple
+- What we did: Built the public website for `milkb4meat.org` (Squarespace) as a self-contained
+  responsive landing page — hero, embedded explainer video, the "not the Church / not God / just a
+  helper" framing, four screenshots, and two install cards (iPhone + Android) plus the disclaimer.
+  Cameron pastes the content into Squarespace himself (assistant can't log into Squarespace).
+  Cameron then found the public TestFlight link shows "this beta isn't accepting any new testers
+  right now." Diagnosed: that's expected until Apple's Beta App Review passes (the build, 1.0.0 (6),
+  is still WAITING_FOR_REVIEW — confirmed via `eas build:list`). To keep the site publishable with no
+  dead button, switched the iPhone card to a temporary "Coming any day — email admin@milkb4meat.org"
+  state, matching Android, and preserved the LIVE direct-link card as an HTML comment right beside it
+  for a one-step revert.
+- What changed in the app (files/commits): docs/marketing only. NEW `pitch-book/site-milkb4meat.html`;
+  NEW `WAITING-ON-APPLE.md` (single resume checklist for any future session). No app source changed.
+- What is now true that wasn't before: there is a publish-ready website, and a clear tracked trail so
+  any later chat can finish the iOS hookup the moment Apple approves.
+- What's next / handed off: WAIT ON APPLE. When build 1.0.0 (6) shows "Ready to Test" (or the link
+  `https://testflight.apple.com/join/cPNpeh3H` starts accepting testers), follow `WAITING-ON-APPLE.md`:
+  un-comment the LIVE iPhone card, re-verify, tell Cameron, update START-HERE, commit+push. Optional:
+  add Kyle/Rich as internal testers for iPhone now (skips review). Also confirm admin@milkb4meat.org
+  is a watched inbox. Still pending separately: printed walkthrough, telling Kyle & Rich.
+- Commit: <filled after commit>
+
+---
+
 ## 2026-06-26 — Pitch/tester kit finalized (walkthrough, explainer video, gallery) per Cameron's punch list
 - What we did: Revised the full tester-facing kit to Cameron's detailed feedback. Fixed the tester
   walkthrough opening to lead with the "not the Church / not God / just a helper" forewarnings
