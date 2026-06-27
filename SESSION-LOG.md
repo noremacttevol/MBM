@@ -47,7 +47,7 @@
 - What's next / handed off: waiting on Apple TestFlight approval; Cameron to get a printer for the
   printed walkthrough, then tell Kyle and Rich. Open questions raised: TestFlight/Play tester-invite
   mechanics, and turning the domain into a real website for all this.
-- Commit: <filled after commit>
+- Commit: dd68dcf
 
 ---
 
