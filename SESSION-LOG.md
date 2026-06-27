@@ -27,6 +27,30 @@
 
 ---
 
+## 2026-06-26 — Pitch/tester kit finalized (walkthrough, explainer video, gallery) per Cameron's punch list
+- What we did: Revised the full tester-facing kit to Cameron's detailed feedback. Fixed the tester
+  walkthrough opening to lead with the "not the Church / not God / just a helper" forewarnings
+  (captured AFTER the sanctuary animation settles), corrected onboarding steps (answer+reply, then
+  faith question+reply with the Enter button), reframed the Feed step to sell the scripture depth
+  honestly (100+ for non-members pointing to the Restoration; 100+ meat for members/friends of the
+  Church), added the journal kept-notes truth, the "Talk About It" upload links across the app, and
+  the real-person toggle/crop/send/cancel detail. Rewrote the feedback question away from the
+  machine/AI framing. Rebuilt the explainer video intro (it isn't God / just a helper → story about
+  the Lord asking how you feel) and added a journal scene. Rebuilt the gallery with 15 real-
+  interaction tiles (common questions + popups).
+- What changed in the app (files/commits): docs/marketing only — pitch-book/walkthrough.html +
+  book.html, the rendered PDFs (Walkthrough-for-Testers, Overview-and-Launch-Plan, Come-and-See),
+  Milk-Before-Meat-Explainer.mp4, and app-screens/ (new g01–g09 interaction shots, 06b-faith-enter,
+  settled 01-welcome-sanctuary, rebuilt _GALLERY.png). No app source code changed.
+- What is now true that wasn't before: the tester kit is internally consistent with how the app
+  actually behaves and frames itself; nothing implies the app plays God or answers for Him.
+- What's next / handed off: waiting on Apple TestFlight approval; Cameron to get a printer for the
+  printed walkthrough, then tell Kyle and Rich. Open questions raised: TestFlight/Play tester-invite
+  mechanics, and turning the domain into a real website for all this.
+- Commit: <filled after commit>
+
+---
+
 ## 2026-06-26 — iOS status documented; Apple side confirmed done + easy for the pitch stage
 - What we did: Cameron asked, for his upcoming friends/family/church beta pitch, whether the
   Apple app is done and will be easy, and whether anything on the App Store page should be done

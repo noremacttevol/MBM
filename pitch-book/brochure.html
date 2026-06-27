@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Milk Before Meat — Come and See</title>
+<style>
+  @page {
+    size: Letter;
+    margin: 20mm 22mm 18mm 22mm;
+    @bottom-center { content: none; }
+  }
+  @page :first { margin: 0; }
+  @page cover { margin: 0; }
+  @page back  { margin: 0; }
+
+  html { font-family: Georgia, "Times New Roman", serif; color: #20232e; }
+  body { margin: 0; line-height: 1.62; font-size: 12pt; }
+
+  /* ---------- COVER ---------- */
+  .cover {
+    page: cover;
+    background: #11152b;
+    color: #f3ede0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 26mm;
+    box-sizing: border-box;
+    page-break-after: always;
+  }
+  .cover .icon {
+    width: 104px; height: 104px; border-radius: 24px;
+    border: 2px solid #c9a85c;
+    object-fit: cover;
+    box-shadow: 0 0 40px rgba(201,168,92,0.25);
+  }
+  .cover h1 {
+    font-size: 38pt; margin: 26px 0 8px 0; font-weight: normal;
+    letter-spacing: 1px; color: #f7f2e7;
+  }
+  .cover .tag { font-size: 16pt; font-style: italic; color: #cdbf9f; margin: 0; }
+  .cover .rule { width: 56px; height: 2px; background: #c9a85c; margin: 30px 0; }
+  .cover .verse {
+    font-size: 13pt; color: #d8cdb3; max-width: 380px; line-height: 1.7;
+    font-style: italic;
+  }
+  .cover .verse .ref {
+    display:block; font-style: normal; font-size: 9.5pt; color:#9a8f7a;
+    letter-spacing: 2px; text-transform: uppercase; margin-top: 12px;
+  }
+  .cover .foot {
+    position: absolute; bottom: 24mm; font-size: 10pt; color: #b7ad97;
+    letter-spacing: 1px;
+  }
+
+  /* ---------- INSIDE ---------- */
+  .kicker { color: #c9a85c; letter-spacing: 4px; font-size: 9.5pt;
+    text-transform: uppercase; margin: 0 0 6px 0; }
+  h2 { font-size: 23pt; margin: 0 0 14px 0; font-weight: normal;
+    color: #11152b; line-height: 1.15; }
+  h3 { font-size: 13pt; color: #2a3358; margin: 20px 0 4px 0; font-weight: bold; }
+  p { margin: 0 0 12px 0; }
+  .lead { font-size: 13pt; color: #3a3f52; font-style: italic; }
+  strong { color: #11152b; }
+  .goldrule { width: 46px; height: 3px; background: #c9a85c; margin: 0 0 18px 0; }
+
+  .page { page-break-before: always; }
+
+  .callout {
+    background: #f7f2e6; border-left: 4px solid #c9a85c;
+    padding: 14px 18px; margin: 18px 0; font-size: 11.5pt; color: #3a3f52;
+  }
+
+  /* feature list */
+  ul.spaces { margin: 8px 0 14px 0; padding-left: 0; list-style: none; }
+  ul.spaces li { padding: 8px 0 8px 22px; position: relative; }
+  ul.spaces li:before { content: "\2014"; position: absolute; left: 0; color: #c9a85c; }
+  ul.spaces li strong { color: #11152b; }
+
+  /* phone screenshots */
+  .shots { display: flex; gap: 14px; justify-content: center; margin: 20px 0 8px 0; }
+  .phone { width: 150px; text-align: center; }
+  .phone img {
+    width: 100%; border: 5px solid #11152b; border-radius: 18px;
+  }
+  .phone .cap { font-size: 9pt; color: #6a6450; margin-top: 7px; font-style: italic; }
+
+  /* honest note */
+  .honest {
+    background: #11152b; color: #ece4d2; border-radius: 12px;
+    padding: 18px 22px; margin: 18px 0; font-size: 11.5pt; line-height: 1.6;
+  }
+  .honest strong { color: #f0d9a4; }
+
+  /* ---------- BACK ---------- */
+  .back {
+    page: back;
+    background: #f4efe3;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 30mm;
+    box-sizing: border-box;
+    page-break-before: always;
+  }
+  .back .small { letter-spacing: 4px; font-size: 9.5pt; color: #b08a3c;
+    text-transform: uppercase; }
+  .back h2 { font-size: 26pt; margin: 14px 0 10px 0; color: #11152b; }
+  .back p { font-size: 12.5pt; color: #4a4636; max-width: 420px; }
+  .back .rule { width: 56px; height: 2px; background: #c9a85c; margin: 24px 0; }
+  .back .sign { font-style: italic; font-size: 12pt; color: #6a6450; margin-top: 22px; }
+</style>
+</head>
+<body>
+
+<!-- ================= COVER ================= -->
+<div class="cover">
+  <img class="icon" src="img/cover-icon.png" alt="Milk Before Meat">
+  <h1>Milk Before Meat</h1>
+  <p class="tag">A quiet place to breathe, and to be seen.</p>
+  <div class="rule"></div>
+  <div class="verse">
+    &ldquo;Come unto me, all ye that labour and are heavy laden,
+    and I will give you rest.&rdquo;
+    <span class="ref">Matthew 11:28</span>
+  </div>
+  <div class="foot">Come and see.</div>
+</div>
+
+<!-- ================= INSIDE 1 — WHAT IT IS ================= -->
+<div class="page">
+  <p class="kicker">What this is</p>
+  <h2>An app that meets you<br>right where you are</h2>
+  <div class="goldrule"></div>
+
+  <p class="lead">No login. No account. No form asking your religion before you&rsquo;re
+  even welcome.</p>
+
+  <p>Most apps are built to take from you &mdash; your attention, your hours, your peace.
+  <strong>Milk Before Meat</strong> was built to do the opposite: to give something back.
+  It opens not with a survey, but with a single quiet image and one true line. Then it tells
+  you a short, beautiful story from the life of Jesus &mdash; the kind of moment where someone
+  desperate was noticed, welcomed, and called by name &mdash; and asks you one honest question
+  about your own life.</p>
+
+  <p>Whatever you answer, it listens. It never argues. It never pressures. It never tries to
+  make you feel you haven&rsquo;t measured up. It simply pays attention to you, the way the
+  people who minister best have always done &mdash; one person, one story, one honest moment
+  at a time.</p>
+
+  <div class="callout">It&rsquo;s for the person who is curious but cautious, the person carrying
+  something heavy, and the person who just wants something better than the endless scroll. You
+  don&rsquo;t have to believe anything to open it. You only have to be willing to <em>come and
+  see.</em></div>
+
+  <div class="shots">
+    <div class="phone">
+      <img src="img/walk/02-story.png" alt="A story">
+      <div class="cap">A story, told well</div>
+    </div>
+    <div class="phone">
+      <img src="img/walk/15-chat-ai-reply.png" alt="A companion to talk to">
+      <div class="cap">Someone to talk to, any hour</div>
+    </div>
+    <div class="phone">
+      <img src="img/walk/17-chat-connect.png" alt="A real person one tap away">
+      <div class="cap">A real person, one tap away</div>
+    </div>
+  </div>
+</div>
+
+<!-- ================= INSIDE 2 — WHAT'S INSIDE ================= -->
+<div class="page">
+  <p class="kicker">What you&rsquo;ll find inside</p>
+  <h2>Four quiet spaces</h2>
+  <div class="goldrule"></div>
+
+  <ul class="spaces">
+    <li><strong>A feed</strong> &mdash; short, gentle reflections grounded in scripture, quietly
+    chosen for wherever you happen to be today. Something true to read instead of something
+    designed to keep you scrolling.</li>
+    <li><strong>A companion to talk to</strong> &mdash; a warm conversation about faith, doubt,
+    grief, or hope, at any hour of the day or night. It answers the real questions honestly, and
+    it never debates you.</li>
+    <li><strong>A private journal</strong> &mdash; a quiet place to reflect and keep what you
+    discover about yourself. It&rsquo;s yours.</li>
+    <li><strong>A profile that remembers</strong> &mdash; a growing record of the stories
+    you&rsquo;ve seen and the answers you&rsquo;ve given, so it understands you a little better
+    each time. You control all of it, and you can edit or erase any part of it whenever you
+    like.</li>
+  </ul>
+
+  <h3>And always &mdash; a real person, one tap away</h3>
+  <p>If at any point you&rsquo;d rather talk to a human being than an app, you can, from any
+  screen. It&rsquo;s never buried and never gated behind a wall of questions. That promise is at
+  the center of the whole thing.</p>
+
+  <div class="honest">
+    <p style="margin-bottom:8px;"><strong>An honest word about what this is.</strong></p>
+    <p style="margin:0;">This app was made by a Latter-day Saint &mdash; a member of The Church of
+    Jesus Christ of Latter-day Saints &mdash; who simply believes Jesus is good, and wanted to
+    build something that shares that goodness gently instead of pushily. It will never hide what
+    it is from you. It will never pressure you, shame you, or rush you. It begins with the things
+    every Christian shares &mdash; that God is good, and that you are seen &mdash; and it only ever
+    goes deeper if and when <em>you</em> ask. As the app itself says about itself: it&rsquo;s a
+    lantern, not the Light. Take what you feel there to God, and to the people who love you.</p>
+  </div>
+</div>
+
+<!-- ================= BACK ================= -->
+<div class="back">
+  <p class="small">Come and see</p>
+  <h2>You are welcome here.</h2>
+  <p>However you come &mdash; certain, searching, hurting, or just curious &mdash; there&rsquo;s a
+  place for you, and there&rsquo;s no wrong way to begin.</p>
+  <div class="rule"></div>
+  <p>Ask me about it any time, and I&rsquo;ll show you how to try it.</p>
+  <p class="sign">Made with love, and meant for you.</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Milk Before Meat — Within the Lord's Boundaries</title>
+<style>
+  @page {
+    size: Letter;
+    margin: 22mm 20mm 20mm 20mm;
+    @bottom-center { content: counter(page); font-family: Georgia, serif; font-size: 9pt; color: #9a8f7a; }
+  }
+  @page :first { margin: 0; @bottom-center { content: none; } }
+  @page cover { margin: 0; @bottom-center { content: none; } }
+  @page chapter { @bottom-center { content: none; } }
+
+  html { font-family: Georgia, "Times New Roman", serif; color: #20232e; }
+  body { margin: 0; line-height: 1.55; font-size: 11.5pt; }
+
+  .cover {
+    page: cover; background: #11152b; color: #f3ede0; height: 100vh;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center; padding: 0 24mm; box-sizing: border-box; page-break-after: always;
+  }
+  .cover .icon { width: 116px; height: 116px; border-radius: 26px; border: 2px solid #c9a85c;
+    object-fit: cover; box-shadow: 0 0 40px rgba(201,168,92,0.25); }
+  .cover .kicker { letter-spacing: 5px; font-size: 10pt; color: #c9a85c; text-transform: uppercase; margin-top: 30px; }
+  .cover h1 { font-size: 34pt; margin: 14px 0 6px 0; font-weight: normal; letter-spacing: 1px; color: #f7f2e7; line-height: 1.1; }
+  .cover .tag { font-size: 14pt; font-style: italic; color: #cdbf9f; margin: 6px 0 0 0; }
+  .cover .rule { width: 60px; height: 2px; background: #c9a85c; margin: 28px 0; }
+  .cover .sub { font-size: 11pt; color: #b7ad97; max-width: 380px; line-height: 1.6; }
+  .cover .foot { position: absolute; bottom: 26mm; font-size: 9.5pt; color: #8c8470; letter-spacing: 1px; }
+
+  h2.chapnum { color: #c9a85c; letter-spacing: 4px; font-size: 10pt; text-transform: uppercase; margin: 0 0 4px 0; font-weight: normal; }
+  h2.chaptitle { font-size: 23pt; margin: 0 0 18px 0; font-weight: normal; color: #11152b; line-height: 1.15; }
+  h3 { font-size: 13.5pt; color: #2a3358; margin: 22px 0 6px 0; font-weight: bold; }
+  p { margin: 0 0 11px 0; }
+  .lead { font-size: 12.5pt; color: #3a3f52; font-style: italic; }
+  strong { color: #11152b; }
+  a { color: #8a6d2a; text-decoration: none; }
+
+  .chapter-opener { page-break-before: always; }
+  .goldrule { width: 48px; height: 3px; background: #c9a85c; margin: 0 0 16px 0; }
+
+  .callout { background: #f7f2e6; border-left: 4px solid #c9a85c; padding: 12px 16px; margin: 16px 0; font-size: 11pt; color: #3a3f52; }
+
+  /* A quoted Church principle, set apart and clearly sourced. */
+  .churchquote { background: #11152b; color: #eee6d4; border-radius: 8px; padding: 16px 20px; margin: 14px 0; font-size: 11.5pt; line-height: 1.5; }
+  .churchquote .q { font-style: italic; }
+  .churchquote .src { display:block; margin-top: 10px; font-size: 9pt; font-style: normal; color: #c9a85c; letter-spacing: 1px; text-transform: uppercase; }
+
+  /* Alignment block: how MBM answers a principle. */
+  .align { border-left: 4px solid #2c5d2c; background: #f0f6ef; padding: 12px 16px; margin: 10px 0 20px 0; }
+  .align .h { font-weight: bold; color: #2c5d2c; font-size: 10.5pt; letter-spacing: .5px; text-transform: uppercase; margin: 0 0 4px 0; }
+
+  /* Honest-limit block: where the app pushes a boundary, named plainly. */
+  .honest { border-left: 4px solid #876512; background: #f6efdd; padding: 12px 16px; margin: 10px 0 20px 0; }
+  .honest .h { font-weight: bold; color: #876512; font-size: 10.5pt; letter-spacing: .5px; text-transform: uppercase; margin: 0 0 4px 0; }
+
+  ul.clean { margin: 6px 0 12px 0; padding-left: 0; list-style: none; }
+  ul.clean li { padding: 4px 0 4px 20px; position: relative; }
+  ul.clean li:before { content: "\2014"; position: absolute; left: 0; color: #c9a85c; }
+
+  table.map { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 10.5pt; }
+  table.map th { background: #11152b; color: #f3ede0; text-align: left; padding: 8px 10px; font-weight: normal; letter-spacing: 1px; }
+  table.map td { padding: 8px 10px; border-bottom: 1px solid #e4ddcb; vertical-align: top; }
+  table.map tr:nth-child(even) td { background: #faf6ec; }
+
+  .scripture { font-style: italic; color: #4a4636; text-align: center; font-size: 12.5pt; margin: 18px 30px; line-height: 1.5; }
+  .scripture .ref { display:block; font-style: normal; font-size: 9.5pt; color:#9a8f7a; letter-spacing: 2px; text-transform: uppercase; margin-top: 8px; }
+
+  .toc-line { display: flex; justify-content: space-between; border-bottom: 1px dotted #cfc6b0; padding: 7px 0; font-size: 11.5pt; }
+  .toc-line .t { color: #20232e; } .toc-line .n { color: #9a8f7a; }
+  .toc-line.section { color:#c9a85c; font-size: 9.5pt; letter-spacing: 3px; text-transform: uppercase; border: none; padding: 16px 0 2px 0; }
+
+  .srcitem { font-size: 10pt; color: #3a3f52; margin: 0 0 10px 0; padding-left: 18px; text-indent: -18px; }
+  .endnote { font-size: 9.5pt; color: #8c8470; font-style: italic; }
+</style>
+</head>
+<body>
+
+<!-- ================= COVER ================= -->
+<div class="cover">
+  <img class="icon" src="img/cover-icon.png" alt="Milk Before Meat">
+  <div class="kicker">Milk Before Meat</div>
+  <h1>Within the Lord&rsquo;s Boundaries</h1>
+  <p class="tag">How the app honors the Church&rsquo;s guidance on artificial intelligence.</p>
+  <div class="rule"></div>
+  <div class="sub">A plain, sourced account of the Church&rsquo;s published counsel on AI &mdash;
+  and exactly how this app was built to stay inside it.</div>
+  <div class="foot">PREPARED FOR CAMERON &nbsp;&bull;&nbsp; JUNE 2026</div>
+</div>
+
+<!-- ================= NOTE ================= -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">A note before you begin</h2>
+  <h2 class="chaptitle">Why this document exists</h2>
+  <div class="goldrule"></div>
+  <p class="lead">When a thoughtful member &mdash; or a bishop &mdash; first hears &ldquo;an AI app
+  to help share the gospel,&rdquo; the very first question is the right one: <em>is this allowed?</em></p>
+  <p>This document answers that question honestly. It does not claim the app is endorsed, sponsored,
+  or owned by The Church of Jesus Christ of Latter-day Saints. It is not. <strong>Milk Before Meat is an
+  independent, third-party effort, built and run by volunteers.</strong> What this document does is lay the
+  Church&rsquo;s own published words on artificial intelligence side by side with how the app was built,
+  so anyone can judge for themselves whether it was made in the spirit of that counsel.</p>
+  <p>Every Church quotation in these pages is taken word-for-word from official sources &mdash;
+  the Church Newsroom, the General Handbook, and Elder Gerrit W. Gong&rsquo;s public teaching. Each is
+  cited on the final page so it can be checked.</p>
+  <div class="callout">A guiding conviction: the <em>way</em> we share this app should follow the same
+  pattern as the app itself &mdash; transparent, patient, accountable, and offered under the counsel of
+  those we respect. Where the app reaches past what the Church does internally, this document says so
+  plainly. That honesty is not a weakness in the case. It <em>is</em> the case.</div>
+</div>
+
+<!-- ================= CONTENTS ================= -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">Contents</h2>
+  <h2 class="chaptitle">What&rsquo;s inside</h2>
+  <div class="goldrule"></div>
+  <div class="toc-line section">The Church&rsquo;s Counsel</div>
+  <div class="toc-line"><span class="t">1 &nbsp; The Four Guiding Principles (March 2024)</span><span class="n">the foundation</span></div>
+  <div class="toc-line"><span class="t">2 &nbsp; The General Handbook (December 2025)</span><span class="n">38.8.47</span></div>
+  <div class="toc-line"><span class="t">3 &nbsp; Elder Gong&rsquo;s Teaching</span><span class="n">the heart of it</span></div>
+  <div class="toc-line section">The App, Measured Against It</div>
+  <div class="toc-line"><span class="t">4 &nbsp; Principle by Principle</span><span class="n">point-for-point</span></div>
+  <div class="toc-line"><span class="t">5 &nbsp; Where the App Pushes the Boundary</span><span class="n">the honest part</span></div>
+  <div class="toc-line"><span class="t">6 &nbsp; Our Commitments</span><span class="n">how we stay inside</span></div>
+  <div class="toc-line"><span class="t">&nbsp; &nbsp; Sources</span><span class="n">check everything</span></div>
+</div>
+
+<!-- ================= 1. GUIDING PRINCIPLES ================= -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">Chapter One &middot; The Church&rsquo;s Counsel</h2>
+  <h2 class="chaptitle">The Four Guiding Principles</h2>
+  <div class="goldrule"></div>
+  <p class="lead">On 13 March 2024, Elder Gerrit W. Gong of the Quorum of the Twelve Apostles and
+  Elder John C. Pingree of the Seventy introduced the Church&rsquo;s guiding principles for its own
+  use of artificial intelligence.</p>
+  <p>There are four. Read them slowly &mdash; the whole of this app was shaped to fit inside them.</p>
+
+  <h3>1. Spiritual Connection</h3>
+  <div class="churchquote"><span class="q">&ldquo;The Church will use artificial intelligence to support and not
+  supplant connection between God and His children.&rdquo;</span>
+  <span class="q" style="display:block; margin-top:8px;">&ldquo;The Church will use artificial intelligence in positive,
+  helpful, and uplifting ways that maintain the honesty, integrity, ethics, values, and standards of
+  the Church.&rdquo;</span>
+  <span class="src">Church Newsroom &middot; Guiding Principles &middot; March 2024</span></div>
+
+  <h3>2. Transparency</h3>
+  <div class="churchquote"><span class="q">&ldquo;People interacting with the Church will understand when they are
+  interfacing with artificial intelligence.&rdquo;</span>
+  <span class="q" style="display:block; margin-top:8px;">&ldquo;The Church will provide attribution for content created
+  with artificial intelligence when the authenticity, accuracy, or authorship of the content could be
+  misunderstood or misleading.&rdquo;</span>
+  <span class="src">Church Newsroom &middot; Guiding Principles &middot; March 2024</span></div>
+
+  <h3>3. Privacy and Security</h3>
+  <div class="churchquote"><span class="q">&ldquo;The Church&rsquo;s use of artificial intelligence will safeguard
+  sacred and personal information.&rdquo;</span>
+  <span class="src">Church Newsroom &middot; Guiding Principles &middot; March 2024</span></div>
+
+  <h3>4. Accountability</h3>
+  <div class="churchquote"><span class="q">&ldquo;The Church will use artificial intelligence in a manner consistent
+  with the policies of the Church and all applicable laws.&rdquo;</span>
+  <span class="q" style="display:block; margin-top:8px;">&ldquo;The Church will be measured and deliberate in its use of
+  artificial intelligence by regularly testing and reviewing outputs to help ensure accuracy,
+  truthfulness, and compliance.&rdquo;</span>
+  <span class="src">Church Newsroom &middot; Guiding Principles &middot; March 2024</span></div>
+
+  <p>Elder Pingree added a line that matters enormously for this project:</p>
+  <div class="scripture">&ldquo;These principles may also be helpful for members and friends of the Church as
+  they navigate a world changing due to AI.&rdquo;<span class="ref">Elder John C. Pingree &middot; March 2024</span></div>
+  <p>In other words, the Church offered these principles not only as internal policy, but as counsel
+  members could carry into their own lives. This app takes that invitation seriously.</p>
+</div>
+
+<!-- ================= 2. HANDBOOK ================= -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">Chapter Two &middot; The Church&rsquo;s Counsel</h2>
+  <h2 class="chaptitle">The General Handbook, 38.8.47</h2>
+  <div class="goldrule"></div>
+  <p class="lead">On 16 December 2025, the Church added section 38.8.47, &ldquo;Appropriate Use of
+  Artificial Intelligence,&rdquo; to the General Handbook &mdash; the standing guidance for the whole Church.</p>
+
+  <p>Two sentences sit at its center:</p>
+  <div class="churchquote"><span class="q">&ldquo;AI cannot replace the gift of divine inspiration or the individual
+  work required to receive it.&rdquo;</span>
+  <span class="q" style="display:block; margin-top:8px;">&ldquo;Interactions with AI cannot substitute for meaningful
+  relationships with God and others.&rdquo;</span>
+  <span class="src">General Handbook 38.8.47 &middot; December 2025</span></div>
+
+  <p>The section then offers practical guidance. Members should use AI in</p>
+  <div class="churchquote"><span class="q">&ldquo;positive, helpful, and uplifting ways that uphold the integrity,
+  standards, and teachings of the Church.&rdquo;</span>
+  <span class="src">General Handbook 38.8.47 &middot; December 2025</span></div>
+
+  <p>It draws a clear line around sacred preparation &mdash;</p>
+  <div class="churchquote"><span class="q">&ldquo;AI cannot replace the individual work and spiritual guidance
+  required to prepare divinely inspired talks, lessons, prayers, or blessings,&rdquo;</span>
+  <span class="src">General Handbook 38.8.47 &middot; December 2025</span></div>
+  <p>&mdash; while allowing AI to assist with research, editing, and translation. It counsels members
+  not to rely on AI for &ldquo;medical, financial, legal, or other sensitive matters,&rdquo; and warns that
+  sensitive information &mdash; Church records, personal member data, confidential communications &mdash;
+  should not be entered into AI tools not provided or managed by the Church.</p>
+
+  <div class="callout">Notice what the Handbook does <em>not</em> say. It does not forbid members from using
+  AI to learn, to reflect, or to reach toward God. It draws bright lines around <em>replacing</em> revelation,
+  <em>replacing</em> relationships, and mishandling <em>sacred data</em> &mdash; and it asks that AI be used in
+  uplifting ways that honor the Church. Those are precisely the lines this app was designed to respect.</div>
+</div>
+
+<!-- ================= 3. ELDER GONG ================= -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">Chapter Three &middot; The Church&rsquo;s Counsel</h2>
+  <h2 class="chaptitle">Elder Gong&rsquo;s Teaching</h2>
+  <div class="goldrule"></div>
+  <p class="lead">In his video &ldquo;Faith, Dignity and Human Flourishing: Hearing God&rsquo;s Voice in an Age
+  of Artificial Intelligence,&rdquo; Elder Gerrit W. Gong gave the clearest picture of how a disciple should
+  think about this technology.</p>
+
+  <div class="scripture">&ldquo;Artificial intelligence can answer questions, but it cannot answer prayers.
+  It can organize information, but it cannot offer revelation, covenant connection or divine truth.&rdquo;
+  <span class="ref">Elder Gerrit W. Gong</span></div>
+
+  <p>His counsel to members was simple and human:</p>
+  <div class="churchquote"><span class="q">Let wise use of AI &ldquo;deepen, not diminish, your relationship with
+  God&hellip;, self&hellip;, each other&hellip;, and natural environment.&rdquo;</span>
+  <span class="src">Elder Gerrit W. Gong &middot; Church Newsroom</span></div>
+
+  <p>He taught that AI should &ldquo;further, not replace, human relationships,&rdquo; and gave a tender,
+  specific warning: if a person feels tempted to confide more in a chatbot than in a parent, leader, or
+  friend, they should reach out to a real person who knows and loves them. He also noted the Church&rsquo;s
+  own boundaries &mdash; it does not use AI to generate images of Heavenly Father and Jesus Christ, and it
+  will not clone the voices of Church leaders.</p>
+
+  <div class="callout">If you wanted to write the design brief for this app in a single sentence, you could
+  borrow Elder Gong&rsquo;s: let the technology <em>deepen, not diminish</em>, a person&rsquo;s relationship with
+  God &mdash; and the moment a real human is needed, hand them to one.</div>
+</div>
+
+<!-- ================= 4. PRINCIPLE BY PRINCIPLE ================= -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">Chapter Four &middot; The App, Measured Against It</h2>
+  <h2 class="chaptitle">Principle by Principle</h2>
+  <div class="goldrule"></div>
+  <p class="lead">Here is the app held up against each principle &mdash; not in theory, but in the way it
+  was actually built.</p>
+
+  <h3>Support, not supplant (Spiritual Connection)</h3>
+  <div class="align"><div class="h">How the app answers it</div>
+  <p style="margin:0;">A real human is always one tap away &mdash; never buried, never gated. The AI is
+  built to admit uncertainty and to offer a person, not to pose as the final word. Its connection screen
+  says it plainly: <em>&ldquo;A real person on our admin team reads every word&hellip; this is a person, not a
+  bot.&rdquo;</em> The private discipleship space keeps no scores and no streaks; it exists only to help a
+  member notice how Christ is already at work in their life. Nothing in the app tries to be the source of
+  revelation &mdash; it tries to walk someone toward the One who is.</p></div>
+
+  <h3>People know it is AI (Transparency)</h3>
+  <div class="align"><div class="h">How the app answers it</div>
+  <p style="margin:0;">The conversation is presented as a chat with an AI companion, not a disguised
+  human. When the AI is unsure, it says so, and it offers to pass the question to a real person. The two
+  are kept visibly separate on screen &mdash; an AI side and a clearly labeled <em>Real Person</em> side &mdash;
+  so no one is ever misled about who is answering.</p></div>
+
+  <h3>Safeguard sacred and personal information (Privacy &amp; Security)</h3>
+  <div class="align"><div class="h">How the app answers it</div>
+  <p style="margin:0;">The app is local-first: a person&rsquo;s journey lives on their own device. The
+  Profile shows them <em>everything</em> the app has kept about them, with an Edit or Remove control on every
+  single line &mdash; removing a line means the app stops using it. A guiding rule of the project is that
+  &ldquo;a person is not a data point.&rdquo;</p></div>
+
+  <h3>Measured, reviewed, accountable (Accountability)</h3>
+  <div class="align"><div class="h">How the app answers it</div>
+  <p style="margin:0;">In its current phase, every AI response is reviewable by the person running the
+  app, and the entire tester program exists to do exactly what the Church asks of its own AI use:
+  &ldquo;regularly testing and reviewing outputs to help ensure accuracy, truthfulness, and compliance.&rdquo;
+  Members test it, a bishop is invited to gather honest feedback, and nothing is rushed to a wider
+  audience until it has been examined.</p></div>
+
+  <h3>Don&rsquo;t replace revelation or relationships (Handbook 38.8.47)</h3>
+  <div class="align"><div class="h">How the app answers it</div>
+  <p style="margin:0;">The app never claims to deliver revelation and never drafts a person&rsquo;s prayers,
+  talks, blessings, or lessons for them. It points outward &mdash; toward scripture the person already
+  trusts, toward real relationships, and ultimately toward real missionaries and the Church itself.</p></div>
+
+  <table class="map">
+    <tr><th>Church principle</th><th>In the app</th></tr>
+    <tr><td>Support, not supplant</td><td>A real human always one tap away; AI offers, never poses as final word</td></tr>
+    <tr><td>People know it is AI</td><td>Chat shown as AI; AI/Real-Person kept visibly separate; admits uncertainty</td></tr>
+    <tr><td>Safeguard information</td><td>Local-first; every stored line is editable or removable by the person</td></tr>
+    <tr><td>Measured &amp; reviewed</td><td>Responses reviewable; tester + bishop feedback before any wider rollout</td></tr>
+    <tr><td>No replacing revelation</td><td>Never drafts prayers/talks/blessings; points to scripture and real people</td></tr>
+    <tr><td>No AI images of Deity / cloned voices</td><td>Committed never to generate images of Deity or clone leaders&rsquo; voices</td></tr>
+  </table>
+</div>
+
+<!-- ================= 5. HONEST BOUNDARY ================= -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">Chapter Five &middot; The App, Measured Against It</h2>
+  <h2 class="chaptitle">Where the App Pushes the Boundary</h2>
+  <div class="goldrule"></div>
+  <p class="lead">An honest case names its own hard edges. There are three, and each is the reason the app
+  must remain third-party and volunteer-run for now &mdash; not presented as anything the Church has approved.</p>
+
+  <h3>One &mdash; It speaks about faith, not just logistics</h3>
+  <div class="honest"><div class="h">The tension</div>
+  <p style="margin:0;">The Church&rsquo;s internal use of AI leans toward logistics, drafts, translation, and
+  grounded answers from approved sources. This app goes further: it talks with people about God, doubt,
+  and meaning. That is a bigger role for AI than the Church gives it internally.</p></div>
+  <p><strong>Why it can still be done in good conscience:</strong> the app never claims its words are
+  revelation, never replaces a person&rsquo;s own spiritual work, and always walks toward a real human and real
+  scripture. It is closer to a thoughtful friend who knows the scriptures than to an oracle. And it is
+  offered for the Church&rsquo;s review, not in place of it.</p>
+
+  <h3>Two &mdash; It uses a third-party AI model</h3>
+  <div class="honest"><div class="h">The tension</div>
+  <p style="margin:0;">The Handbook warns against entering sensitive information into AI tools &ldquo;not
+  provided or managed by the Church.&rdquo; This app uses a commercial AI model to generate replies.</p></div>
+  <p><strong>How the design respects the spirit of that line:</strong> the most sensitive record stays
+  on the person&rsquo;s own device; the person can see and delete anything stored; and because the project is
+  independent, it is not handling confidential <em>Church</em> records at all. As the project grows, formal
+  data-handling commitments and, where appropriate, the counsel of the Church&rsquo;s own people on data
+  practices should be sought. This is named here, not hidden.</p>
+
+  <h3>Three &mdash; It withholds its full aim until a person is ready</h3>
+  <div class="honest"><div class="h">The tension</div>
+  <p style="margin:0;">Following the pattern of milk before meat, the app does not lead with &ldquo;this is a
+  Latter-day Saint app.&rdquo; A fair person could ask whether that is fully transparent.</p></div>
+  <p><strong>The distinction that matters:</strong> the Church&rsquo;s transparency principle is about people
+  knowing <em>when they are talking to an AI</em> &mdash; and on that, the app is plain: it is clearly an AI
+  companion that offers a real human. <em>When</em> to introduce the restored gospel is a question of
+  missionary <em>method</em>, not of AI honesty. The Savior Himself taught in parables, gave milk before
+  meat, and let the rich young ruler walk away. The app is built never to lie about what it is when a
+  person is ready to know &mdash; and to honor a &ldquo;no&rdquo; completely.</p>
+
+  <div class="callout">This is exactly why the right path is: build it carefully, let many members test it,
+  invite a bishop to gather honest feedback, document everything against the Church&rsquo;s own words &mdash; and
+  make the call to the Church&rsquo;s Intellectual Property office before using its name or materials. Slow,
+  transparent, and accountable is not a compromise of the vision. It <em>is</em> the vision.</div>
+</div>
+
+<!-- ================= 6. COMMITMENTS ================= -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">Chapter Six &middot; The App, Measured Against It</h2>
+  <h2 class="chaptitle">Our Commitments</h2>
+  <div class="goldrule"></div>
+  <p class="lead">These are the standing promises the project makes, so that staying inside the Church&rsquo;s
+  counsel is not a hope but a rule.</p>
+  <ul class="clean">
+    <li>The app will never claim to be sponsored, endorsed, or owned by the Church unless and until the
+    Church says so.</li>
+    <li>The app will never generate images of Heavenly Father or Jesus Christ, and will never clone or
+    imitate the voice of any Church leader.</li>
+    <li>The AI will never present itself as revelation, and will never draft a person&rsquo;s prayers,
+    blessings, talks, or lessons for them.</li>
+    <li>A real human will always be one tap away &mdash; never buried, never gated.</li>
+    <li>The AI will admit when it is uncertain and offer a real person.</li>
+    <li>Every person can see everything the app has stored about them and remove any of it at any time.</li>
+    <li>The app will honor a &ldquo;no&rdquo; completely; no one is ever pressured, shamed, or routed against
+    their will.</li>
+    <li>Outputs will be regularly reviewed for accuracy and truthfulness before the audience widens.</li>
+    <li>The project will seek the counsel of priesthood leaders and make the proper call to the Church&rsquo;s
+    Intellectual Property office before using Church name or materials.</li>
+  </ul>
+  <div class="scripture">&ldquo;I have fed you with milk, and not with meat: for hitherto ye were not able to
+  bear it.&rdquo;<span class="ref">1 Corinthians 3:2</span></div>
+  <p class="endnote">This document is an independent effort and is not an official publication of The Church
+  of Jesus Christ of Latter-day Saints. All Church quotations are reproduced from the public sources listed
+  on the following page and remain the property of their respective owners.</p>
+</div>
+
+<!-- ================= SOURCES ================= -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">Check everything</h2>
+  <h2 class="chaptitle">Sources</h2>
+  <div class="goldrule"></div>
+  <p>Every Church quotation in this document can be verified at these official sources.</p>
+  <p class="srcitem">&bull; &ldquo;Guiding Principles for the Church&rsquo;s Use of Artificial Intelligence,&rdquo;
+  Church Newsroom, 13 March 2024.<br>
+  newsroom.churchofjesuschrist.org/article/church-jesus-christ-artificial-intelligence</p>
+  <p class="srcitem">&bull; &ldquo;Church Handbook Offers Enduring Guidance on Artificial Intelligence&rdquo;
+  (General Handbook 38.8.47), Church Newsroom, 16 December 2025.<br>
+  newsroom.churchofjesuschrist.org/article/general-handbook-enduring-guidance-artificial-intelligence</p>
+  <p class="srcitem">&bull; General Handbook of The Church of Jesus Christ of Latter-day Saints, section
+  38.8.47, &ldquo;Appropriate Use of Artificial Intelligence.&rdquo;<br>
+  churchofjesuschrist.org &mdash; General Handbook</p>
+  <p class="srcitem">&bull; &ldquo;AI Can Further, Not Replace, Human Relationships, Elder Gong Teaches in New
+  Video,&rdquo; Church Newsroom.<br>
+  newsroom.churchofjesuschrist.org/article/ai-can-further-not-replace-human-relationships-elder-gong-teaches-in-new-video</p>
+  <p class="srcitem">&bull; Elder Gerrit W. Gong, &ldquo;Faith, Dignity and Human Flourishing: Hearing God&rsquo;s
+  Voice in an Age of Artificial Intelligence&rdquo; (video), Gospel Library / Church Newsroom.</p>
+  <p class="srcitem">&bull; &ldquo;Faith, Respect, and Moral Compass in an Age of Artificial Intelligence,&rdquo;
+  Church Newsroom.<br>
+  newsroom.churchofjesuschrist.org/article/elder-gong-faith-respect--moral-compass-artificial-intelligence</p>
+  <p class="endnote" style="margin-top:18px;">Prepared June 2026. If any quotation here is ever found to be
+  imprecise against its source, the source governs &mdash; correct this document to match it.</p>
+</div>
+
+</body>
+</html>

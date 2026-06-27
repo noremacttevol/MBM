@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Milk Before Meat — A Walk Through the App</title>
+<style>
+  @page { size: Letter; margin: 20mm 18mm 18mm 18mm;
+    @bottom-center { content: counter(page); font-family: Georgia, serif; font-size: 9pt; color: #9a8f7a; } }
+  @page :first { margin: 0; @bottom-center { content: none; } }
+  @page cover { margin: 0; @bottom-center { content: none; } }
+  @page chapter { @bottom-center { content: none; } }
+
+  html { font-family: Georgia, "Times New Roman", serif; color: #20232e; }
+  body { margin: 0; line-height: 1.5; font-size: 11pt; }
+
+  .cover { page: cover; background: #11152b; color: #f3ede0; height: 100vh;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center; padding: 0 24mm; box-sizing: border-box; page-break-after: always; }
+  .cover .icon { width: 116px; height: 116px; border-radius: 26px; border: 2px solid #c9a85c; object-fit: cover; }
+  .cover .kicker { letter-spacing: 5px; font-size: 10pt; color: #c9a85c; text-transform: uppercase; margin-top: 30px; }
+  .cover h1 { font-size: 36pt; margin: 14px 0 6px 0; font-weight: normal; letter-spacing: 1px; color: #f7f2e7; }
+  .cover .tag { font-size: 14pt; font-style: italic; color: #cdbf9f; margin: 6px 0 0 0; }
+  .cover .rule { width: 60px; height: 2px; background: #c9a85c; margin: 28px 0; }
+  .cover .sub { font-size: 11pt; color: #b7ad97; max-width: 380px; line-height: 1.6; }
+  .cover .foot { position: absolute; bottom: 26mm; font-size: 9.5pt; color: #8c8470; letter-spacing: 1px; }
+
+  h2.chapnum { color: #c9a85c; letter-spacing: 4px; font-size: 10pt; text-transform: uppercase; margin: 0 0 4px 0; font-weight: normal; }
+  h2.chaptitle { font-size: 22pt; margin: 0 0 14px 0; font-weight: normal; color: #11152b; line-height: 1.15; }
+  h3 { font-size: 13pt; color: #2a3358; margin: 18px 0 6px 0; font-weight: bold; }
+  p { margin: 0 0 10px 0; }
+  .lead { font-size: 12.5pt; color: #3a3f52; font-style: italic; }
+  strong { color: #11152b; }
+
+  .chapter-opener { page-break-before: always; }
+  .goldrule { width: 48px; height: 3px; background: #c9a85c; margin: 0 0 14px 0; }
+  .callout { background: #f7f2e6; border-left: 4px solid #c9a85c; padding: 12px 16px; margin: 14px 0; font-size: 10.5pt; color: #3a3f52; }
+
+  .sectionhead { page-break-before: always; }
+  .sectionhead .step { color:#c9a85c; letter-spacing:3px; font-size:9.5pt; text-transform:uppercase; }
+  .sectionhead h3 { font-size: 18pt; color:#11152b; margin: 2px 0 8px 0; font-weight: normal; }
+
+  /* phone frames */
+  .pair { display: flex; gap: 20px; justify-content: center; align-items: flex-start; margin: 6px 0 4px 0; }
+  .phone { width: 240px; }
+  .phone img { width: 100%; border: 6px solid #11152b; border-radius: 18px; box-shadow: 0 4px 12px rgba(0,0,0,0.18); display:block; }
+  .phone .cap { font-size: 9.5pt; color: #11152b; font-weight: bold; margin: 8px 2px 2px 2px; }
+  .phone .sub { font-size: 9pt; color: #5a5648; font-style: italic; margin: 0 2px; }
+  .solo { width: 260px; margin: 0 auto; }
+
+  .why { background: #f0f6ef; border-left: 4px solid #2c5d2c; padding: 10px 14px; margin: 12px 0; font-size: 10pt; color: #2c2f3c; }
+  .why .h { font-weight: bold; color: #2c5d2c; font-size: 9pt; letter-spacing: .5px; text-transform: uppercase; }
+
+  .scripture { font-style: italic; color: #4a4636; text-align: center; font-size: 12pt; margin: 16px 30px; line-height: 1.5; }
+  .scripture .ref { display:block; font-style: normal; font-size: 9pt; color:#9a8f7a; letter-spacing: 2px; text-transform: uppercase; margin-top: 8px; }
+
+  ul.clean { margin: 6px 0 12px 0; padding-left: 0; list-style: none; }
+  ul.clean li { padding: 4px 0 4px 20px; position: relative; font-size: 10.5pt; }
+  ul.clean li:before { content: "\2014"; position: absolute; left: 0; color: #c9a85c; }
+  .endnote { font-size: 9.5pt; color: #8c8470; font-style: italic; }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <img class="icon" src="img/cover-icon.png" alt="Milk Before Meat">
+  <div class="kicker">Milk Before Meat</div>
+  <h1>A Walk Through the App</h1>
+  <p class="tag">For members helping us test it.</p>
+  <div class="rule"></div>
+  <div class="sub">Every screen, in order &mdash; and how each one is built to do what the Savior did:
+  meet a person where they are, and walk with them toward Him.</div>
+  <div class="foot">FOR OUR TESTERS &nbsp;&bull;&nbsp; JUNE 2026</div>
+</div>
+
+<!-- FOR TESTERS -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">Thank you for this</h2>
+  <h2 class="chaptitle">What we&rsquo;re asking of you</h2>
+  <div class="goldrule"></div>
+  <p class="lead">You&rsquo;re one of the first members to see this. Your honest eyes are the most valuable
+  thing the project has right now.</p>
+  <p>This app is an attempt to do missionary work the way Jesus did it &mdash; not with a survey or a sales
+  pitch, but with a story, a question, and patient attention &mdash; at the scale a phone allows. Before it
+  ever reaches a seeker, it has to be <em>good</em>. That&rsquo;s where you come in.</p>
+  <p>Walk through it the way a searching friend might. Then tell us the truth: where did it feel like
+  Christ? Where did it feel off, or pushy, or hollow? Would you be comfortable handing it to someone you
+  love? <strong>We would rather hear the hard thing now than after a seeker does.</strong></p>
+  <div class="callout">One honest note up front: this app is <em>not</em> endorsed or owned by the Church.
+  It&rsquo;s an independent effort, built by a member, held carefully to the Church&rsquo;s published principles on
+  AI, and brought to leaders for counsel. You&rsquo;re helping test it, not endorse it &mdash; and that&rsquo;s exactly
+  the right order.</div>
+  <h3>How to read the rest of this</h3>
+  <p>Each screen below shows what a real person sees, with a short note on what&rsquo;s happening and a green
+  &ldquo;Why it matters&rdquo; line explaining how it helps reach someone for Christ. Open the app alongside these
+  pages and follow the same path.</p>
+</div>
+
+<!-- HERO -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">What it really is</h2>
+  <h2 class="chaptitle">It tells you what it is before it asks anything of you</h2>
+  <div class="goldrule"></div>
+  <p class="lead">The very first thing the app does &mdash; before a single question, before any content &mdash;
+  is tell you plainly what it is and what it is not. It is not the Church. It is not God. It is a helper
+  that points you toward Him.</p>
+  <div class="solo">
+    <div class="phone"><img src="img/walk/01-welcome-sanctuary.png" alt="The opening, after the animation settles">
+    <div class="cap">The opening screen, once the quiet animation has fully settled</div>
+    <div class="sub">Read the small line at the bottom &mdash; it is there on purpose: &ldquo;This app is not
+    officially affiliated with any Church. It is not God either &mdash; it cannot answer a prayer&hellip; only point
+    you toward Him. Let the Spirit, not an app, tell you what is true.&rdquo;</div></div>
+  </div>
+  <div class="why"><div class="h">Why it matters</div>This is the frame for everything that follows. Before
+  you ever worry &ldquo;is this an app trying to play God, or answer for Him?&rdquo; &mdash; it has already told you,
+  itself, that it is not. It is a porch, not the house; a lantern, not the Light. Once that is settled, it
+  is free to do what the Savior did: tell a story, ask one honest question, and listen.</div>
+</div>
+
+<!-- SECTION: THE STORY -->
+<div class="sectionhead">
+  <div class="step">Step One</div>
+  <h3>A story about the Lord &mdash; never a survey</h3>
+  <div class="goldrule"></div>
+  <p>With the framing settled, the very first thing a person experiences is not a question about their
+  religion. It is a short, scripture-grounded story from the life of the Lord &mdash; told beautifully enough
+  that they see themselves in it &mdash; ending not in a lecture, but by gently asking how it left them
+  feeling. Jesus opened with parables to crowds who hadn&rsquo;t asked. The app does the same.</p>
+  <div class="solo">
+    <div class="phone"><img src="img/walk/02-story.png" alt="Story">
+    <div class="cap">One story of how Christ saw and welcomed someone</div>
+    <div class="sub">Drawn from the more than 200 scripture-anchored moments in the library &mdash; ending in
+    feeling, and an invitation to respond.</div></div>
+  </div>
+  <div class="why"><div class="h">Why it matters</div>People scroll past sales pitches. They stop for a
+  story that knows them. The story does the work of making a heart ready to answer honestly &mdash; the way
+  the Savior&rsquo;s parables softened a crowd before a single truth was spoken.</div>
+</div>
+
+<!-- SECTION: THE ANSWER + THE REPLY -->
+<div class="sectionhead">
+  <div class="step">Step Two</div>
+  <h3>Their answer &mdash; and the moment they feel seen</h3>
+  <div class="goldrule"></div>
+  <p>The story asks how it landed, and offers real ways to answer &mdash; including a confident answer of
+  faith, so a believer can testify rather than be boxed into doubt &mdash; or the freedom to write in their
+  own words. Then, before serving any content, the app reflects their answer back to them. This is the
+  moment a person feels <em>known</em>.</p>
+  <div class="pair">
+    <div class="phone"><img src="img/walk/03-story-question.png" alt="The answers">
+    <div class="cap">The answers they can give</div>
+    <div class="sub">Including a genuine believer&rsquo;s answer &mdash; and &ldquo;I want to say it in my own words&rdquo;
+    for anyone who&rsquo;d rather speak plainly.</div></div>
+    <div class="phone"><img src="img/walk/05-reflection.png" alt="The reply">
+    <div class="cap">The reply &mdash; it reflects them back</div>
+    <div class="sub">&ldquo;That is exactly the kind of thing Jesus paid attention to.&rdquo; Not a chatbot
+    transition &mdash; the feeling of being seen.</div></div>
+  </div>
+  <div class="why"><div class="h">Why it matters</div>This is where the app starts to truly know a person &mdash;
+  and it&rsquo;s built so a believer is invited to testify, not nudged toward unbelief. Conversion begins with
+  being known, not processed. The Savior called the woman with the issue of blood &ldquo;daughter&rdquo; before
+  she said a word of doctrine.</div>
+</div>
+
+<!-- SECTION: FAITH BACKGROUND + ENTER -->
+<div class="sectionhead">
+  <div class="step">Step Three</div>
+  <h3>One gentle background question &mdash; then the door opens</h3>
+  <div class="goldrule"></div>
+  <p>After they feel seen, the app asks only the lightest of background questions &mdash; where faith lives
+  for them, today or in their past &mdash; honored, never demanded (&ldquo;I&rsquo;d rather not say&rdquo; is a real
+  choice). They answer, and the same screen offers the button that quietly carries them into the rest of
+  the app. That is the whole entry: a story, an honest answer, and a welcome.</p>
+  <div class="solo">
+    <div class="phone"><img src="img/walk/06b-faith-enter.png" alt="Faith background + Enter">
+    <div class="cap">The faith-background question &mdash; with the door into the app</div>
+    <div class="sub">A light, optional question; they may name their tradition in their own words or skip it
+    &mdash; then &ldquo;Enter&rdquo; opens the four spaces inside.</div></div>
+  </div>
+  <div class="why"><div class="h">Why it matters</div>Nothing is gated, nothing is demanded. The single
+  background question lets the app begin walking with them honestly &mdash; and because it&rsquo;s the last thing
+  asked, not the first, the person enters already feeling met rather than surveyed.</div>
+</div>
+
+<!-- SECTION: THE FEED -->
+<div class="sectionhead">
+  <div class="step">Step Four &middot; Tab One</div>
+  <h3>The Feed &mdash; a deep well of scripture, served gently</h3>
+  <div class="goldrule"></div>
+  <p>The home tab is a feed that adapts to the person &mdash; comfort for the hurting, evidence for the
+  skeptic, depth for the believer &mdash; without ever showing them a label or a tier. The routing is
+  invisible by design. And there is real depth behind it: a hand-built library of <strong>more than two
+  hundred scripture-anchored pieces of content.</strong></p>
+  <p>Over a hundred of those are crafted to meet a non-member where they are &mdash; the stories of Jesus
+  that quietly point toward the Restoration and spark genuine spiritual reflection. More than a hundred
+  more are the <em>meat</em>: deeper, prophet-aligned content to help a member keep growing, and to
+  fortify a friend of the Church who isn&rsquo;t fully converted yet. Same Christ, served at the depth each
+  person is ready for &mdash; every card rooted in an actual verse, never a slogan.</p>
+  <div class="pair">
+    <div class="phone"><img src="img/walk/07-feed-top.png" alt="Feed top">
+    <div class="cap">The feed, meeting them where they are</div></div>
+    <div class="phone"><img src="img/walk/g08-feed-card-links.png" alt="A scripture card with its links">
+    <div class="cap">Every card is built on a real verse</div>
+    <div class="sub">&mdash; with quiet links beneath to reflect on it, talk about it, or keep it.</div></div>
+  </div>
+  <div class="why"><div class="h">Why it matters</div>This is Facebook-level personalization turned toward
+  the gospel &mdash; but gentle, hidden, and grounded in real scripture rather than opinion. The person never
+  feels sorted or sold to; they just keep finding the next true thing that helps, drawn from a well deep
+  enough to walk with them for a very long time.</div>
+</div>
+
+<!-- SECTION: JOURNAL -->
+<div class="sectionhead">
+  <div class="step">Step Five &middot; Tab Two</div>
+  <h3>The Journal &mdash; reflection, and a home for what they keep</h3>
+  <div class="goldrule"></div>
+  <p>A quiet space to write &mdash; with a daily prompt, a whole library of gentle prompts to choose from, or
+  the freedom to just write. It is also where <strong>anything the person chooses to keep is organized:</strong>
+  a verse that landed, a line from the feed, a thought they saved &mdash; their own notes, gathered here in the
+  Journal (not on the Profile), to return to whenever they like.</p>
+  <div class="pair">
+    <div class="phone"><img src="img/walk/10-journal-default.png" alt="Journal">
+    <div class="cap">A prompt for today</div></div>
+    <div class="phone"><img src="img/walk/11-journal-topic-picker.png" alt="Topic picker">
+    <div class="cap">&hellip;or pick a topic</div>
+    <div class="sub">Prompts that gently turn the heart toward grace, peace, and being loved.</div></div>
+  </div>
+  <div class="pair" style="margin-top:8px;">
+    <div class="phone"><img src="img/walk/12-journal-write-freely.png" alt="Write freely">
+    <div class="cap">&hellip;or simply write freely</div></div>
+    <div class="phone"><img src="img/walk/g09-journal-interactions.png" alt="Kept notes organized in the journal">
+    <div class="cap">Everything they keep, gathered here</div>
+    <div class="sub">Each kept note carries its own &ldquo;Talk About It&rdquo; link, to pick the thought back up
+    in conversation.</div></div>
+  </div>
+  <div class="why"><div class="h">Why it matters</div>Reflection is how the Spirit gets room to work. The
+  journal replaces idle scrolling with a habit that draws a person inward and upward &mdash; and gives them one
+  trusted place to hold the things that are starting to matter to them.</div>
+</div>
+
+<!-- SECTION: CHAT -->
+<div class="sectionhead">
+  <div class="step">Step Six &middot; Tab Three</div>
+  <h3>Talk About It &mdash; where everything can go deeper</h3>
+  <div class="goldrule"></div>
+  <p>The chat is where questions go that won&rsquo;t leave a person alone. It answers honestly, admits when it
+  isn&rsquo;t sure, and never argues doctrine &mdash; it lets the Savior&rsquo;s own words do the correcting. It is also
+  the hub of the whole app: <strong>anything a person does &mdash; a verse on the feed, a journal entry, an
+  answer on their profile &mdash; carries a &ldquo;Talk About It&rdquo; link</strong> that lifts that exact moment
+  into this conversation, where it can be opened up one-on-one, and from there handed to a real person if
+  they&rsquo;d like.</p>
+  <div class="pair">
+    <div class="phone"><img src="img/walk/14-chat-asking.png" alt="Asking">
+    <div class="cap">A real question, asked plainly</div></div>
+    <div class="phone"><img src="img/walk/g02-q-hurt.png" alt="A gentle reply to church hurt">
+    <div class="cap">A real, gentle answer that points onward</div>
+    <div class="sub">&ldquo;Keep this&rdquo; saves it to the journal; the line below offers a real person.</div></div>
+  </div>
+  <div class="solo" style="margin-top:8px;">
+    <div class="phone"><img src="img/walk/g08-feed-card-links.png" alt="Talk About It links across the app">
+    <div class="cap">&ldquo;Talk About It&rdquo; appears beneath nearly everything</div>
+    <div class="sub">A tap carries that specific verse, note, or answer straight into the chat to explore
+    it further.</div></div>
+  </div>
+  <div class="why"><div class="h">Why it matters</div>This is the app at its most Christlike: patient,
+  unoffendable, never pushy, always honest. Many people will say something to a kind screen they&rsquo;d never
+  say to a stranger &mdash; and because every part of the app feeds into here, no spark of interest is ever
+  lost; it always has somewhere to grow, and a real disciple at the end of it.</div>
+</div>
+
+<!-- SECTION: REAL PERSON -->
+<div class="sectionhead">
+  <div class="step">Step Seven</div>
+  <h3>A real person &mdash; always one tap away</h3>
+  <div class="goldrule"></div>
+  <p>This is a law of the app, not a feature: a real human is always reachable, never buried, never gated.
+  In <strong>any</strong> ordinary chat, a person can toggle on a real person &mdash; the app then quietly crops
+  the relevant portion of that conversation and sends it to a real member of the team for their review and
+  reflection, which comes back as a reply. Nothing is forced: <strong>the request can be canceled at any time</strong>,
+  and the person can always see their past threads.</p>
+  <div class="pair">
+    <div class="phone"><img src="img/walk/17-chat-connect.png" alt="Connect">
+    <div class="cap">&ldquo;A person, not a bot&rdquo;</div>
+    <div class="sub">Toggle a real person into any chat &mdash; it crops that part and sends it for a human
+    reply. Cancel anytime.</div></div>
+    <div class="phone"><img src="img/walk/16-chat-history.png" alt="History">
+    <div class="cap">Past conversations, kept</div></div>
+  </div>
+  <div class="why"><div class="h">Why it matters</div>Elder Gong taught that if anyone is tempted to confide
+  in a chatbot instead of a person, they should reach out to someone who loves them. The app is built to
+  <em>be</em> that reaching &mdash; the AI is the porch; a real disciple is the door.</div>
+</div>
+
+<!-- SECTION: PROFILE -->
+<div class="sectionhead">
+  <div class="step">Step Eight &middot; Tab Four</div>
+  <h3>Your Journey &mdash; everything kept, nothing hidden</h3>
+  <div class="goldrule"></div>
+  <p>The Profile shows the person everything the app has learned about them &mdash; and lets them edit or
+  remove any of it. It&rsquo;s the visible proof that they are a soul, not a data point.</p>
+  <div class="pair">
+    <div class="phone"><img src="img/walk/18-profile-top.png" alt="Profile top">
+    <div class="cap">&ldquo;Where you are right now&rdquo;</div></div>
+    <div class="phone"><img src="img/walk/19-profile-faith.png" alt="Profile faith">
+    <div class="cap">Edit or remove &mdash; on every line</div>
+    <div class="sub">&ldquo;Removing a line means the app stops using it.&rdquo; Full transparency, full control.</div></div>
+  </div>
+  <div class="pair" style="margin-top:8px;">
+    <div class="phone"><img src="img/walk/20-profile-record.png" alt="Profile record">
+    <div class="cap">Your story so far, kept for you</div></div>
+    <div class="phone"><img src="img/walk/21-profile-bottom.png" alt="Profile bottom">
+    <div class="cap">A growing record of the walk</div></div>
+  </div>
+  <div class="why"><div class="h">Why it matters</div>Trust is everything in conversion. By showing people
+  exactly what it knows and letting them delete it, the app earns the right to walk beside them &mdash; and
+  honors the Church&rsquo;s principle of safeguarding sacred and personal information.</div>
+</div>
+
+<!-- SECTION: MEMBER SHIFT -->
+<div class="sectionhead">
+  <div class="step">Step Nine</div>
+  <h3>The quiet shift to deeper discipleship</h3>
+  <div class="goldrule"></div>
+  <p>When a person reveals &mdash; in their own words &mdash; that they are a Latter-day Saint, the app silently
+  shifts. No toggle, no &ldquo;upgrade.&rdquo; It simply begins to offer the meat: deeper discipleship, kept
+  private, never mixed into the seeker experience.</p>
+  <div class="pair">
+    <div class="phone"><img src="img/walk/22-chat-member-detect.png" alt="Member detect">
+    <div class="cap">It listens, and learns who they are</div>
+    <div class="sub">A member simply says so in conversation &mdash; the app does the rest, quietly.</div></div>
+    <div class="phone"><img src="img/walk/24-discipleship-intro.png" alt="Discipleship intro">
+    <div class="cap">A private place to walk with Christ</div>
+    <div class="sub">&ldquo;No scores, no streaks, no one watching. Only reflection, a little scripture, and
+    grace.&rdquo;</div></div>
+  </div>
+  <div class="why"><div class="h">Why it matters</div>Same Christ, different depth. Seekers get milk;
+  members get meat &mdash; and because it&rsquo;s detected from their own words, nothing deeper is ever waved in
+  front of someone who isn&rsquo;t ready, which preserves the mystery and the reverence.</div>
+</div>
+
+<!-- SECTION: DISCIPLESHIP -->
+<div class="sectionhead">
+  <div class="step">Step Ten</div>
+  <h3>For members &mdash; the &ldquo;Walk with Christ&rdquo; companion</h3>
+  <div class="goldrule"></div>
+  <p>For active members, the app becomes a private discipleship companion: a daily examen, a record of
+  their walk, a place to tend the fruits of the Spirit, and gentle personal rhythms.</p>
+  <div class="pair">
+    <div class="phone"><img src="img/walk/25-discipleship-enabled.png" alt="Discipleship">
+    <div class="cap">Today&rsquo;s examen &amp; your walk so far</div></div>
+    <div class="phone"><img src="img/walk/26-discipleship-fruit.png" alt="Fruit garden">
+    <div class="cap">Your &ldquo;fruit garden&rdquo; &mdash; for your eyes only</div>
+    <div class="sub">Notice growth in Christlike traits &mdash; never a grade, just honest reflection.</div></div>
+  </div>
+  <div class="why"><div class="h">Why it matters</div>This is what replaces doom-scrolling for a faithful
+  member &mdash; covenant-deepening, prophet-aligned discipleship, kept private and never wired to routing.
+  A member can also share the app with someone they love.</div>
+</div>
+
+<!-- FEEDBACK -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">Now your part</h2>
+  <h2 class="chaptitle">What we&rsquo;re watching for</h2>
+  <div class="goldrule"></div>
+  <p class="lead">As you test, hold it to the highest standard: would the Savior be pleased with how it
+  treats the person in front of it?</p>
+  <p>Please tell us, in your own words:</p>
+  <ul class="clean">
+    <li>Where did it feel like something Christ would want modern Latter-day Saints to be doing &mdash; and
+    where did it fall short of that?</li>
+    <li>Did anything feel pushy, manipulative, or like a bait-and-switch? Be blunt.</li>
+    <li>Was the &ldquo;real person&rdquo; always easy to find when you wanted it?</li>
+    <li>Did the chat ever say anything doctrinally off, or claim more certainty than it should?</li>
+    <li>Would you be comfortable handing this to a friend who is hurting or searching? Why or why not?</li>
+    <li>For members: did the deeper &ldquo;Walk with Christ&rdquo; content actually nourish you?</li>
+  </ul>
+  <div class="callout">If you&rsquo;d be willing, share it with someone you trust and watch how <em>they</em>
+  respond. The whole purpose is to learn, honestly, whether this does what Jesus would want &mdash; and to
+  fix everything that doesn&rsquo;t, before it ever reaches a seeker.</div>
+  <div class="scripture">&ldquo;And if it so be that you should labor all your days&hellip; and bring, save it be
+  one soul unto me, how great shall be your joy.&rdquo;<span class="ref">Doctrine &amp; Covenants 18:15</span></div>
+  <p class="endnote">This walkthrough is part of an independent testing effort and is not an official
+  publication of The Church of Jesus Christ of Latter-day Saints.</p>
+</div>
+
+</body>
+</html>
