@@ -47,7 +47,7 @@
   un-comment the LIVE iPhone card, re-verify, tell Cameron, update START-HERE, commit+push. Optional:
   add Kyle/Rich as internal testers for iPhone now (skips review). Also confirm admin@milkb4meat.org
   is a watched inbox. Still pending separately: printed walkthrough, telling Kyle & Rich.
-- Commit: <filled after commit>
+- Commit: 51e2cbc
 
 ---
 
