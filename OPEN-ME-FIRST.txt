@@ -1,0 +1,85 @@
+========================================================
+  MILK BEFORE MEAT  —  WHAT EVERYTHING IS, IN PLAIN ENGLISH
+  (Cameron's map. Read this, ignore the rest.)
+  Last tidied: June 29, 2026
+========================================================
+
+There are 14 folders here. Out of all of them, only THREE
+groups matter to you. Everything else is machinery that
+makes the app run — you never have to open it.
+
+
+----------------------------------------
+  GROUP 1 — THINGS YOU PRINT AND HAND OUT
+----------------------------------------
+
+  pitch-book/        Your brochure and books.
+                     The one you print is:
+                     "Milk-Before-Meat-Come-and-See.pdf"
+                     (now has your phone + email on the back)
+
+  church-launch-kit/ The short brochure for church leaders.
+
+  store-assets/      Icons and pictures for the app store
+                     listing (you rarely touch these).
+
+
+----------------------------------------
+  GROUP 2 — THE APP AND THE WEBSITE
+----------------------------------------
+
+  mobile/    THE ACTUAL APP people download. Thousands of
+             code files. You never open this by hand.
+
+  site/      Your public website (milkb4meat.org).
+
+  admin/     Your private "ministry console" — where you
+             read messages from people who tap
+             "talk to a real person."
+
+
+----------------------------------------
+  GROUP 3 — YOUR NOTES AND PLANS
+----------------------------------------
+
+  docs/      Every plan, roadmap, and review, sorted into
+             folders. If you ever want to read where the
+             project stands, open docs/00-PROJECT-MAP.md.
+
+
+----------------------------------------
+  EVERYTHING BELOW = MACHINERY. IGNORE IT.
+----------------------------------------
+
+  server/        The secure middleman that holds the AI key
+                 so it never sits on people's phones.
+  firebase/      Settings for the "talk to a real person" inbox.
+  ministry-sim/  A practice tool that role-plays conversations
+                 to test the app. Not part of the real app.
+  content/       Raw text the app uses.
+  tools/         Small helper scripts.
+  scripts/       One helper script.
+  archive/       OLD STUFF. Nothing in here is live. Safe to
+                 leave alone forever. (Old screenshots, old
+                 drafts, old app builds all got swept in here
+                 on June 29 so they'd stop cluttering this view.)
+
+
+----------------------------------------
+  THE LOOSE FILES (the ones not in a folder)
+----------------------------------------
+
+  These are the project's rulebook and a few pieces the app
+  needs. The important ones for you:
+
+  README.md        Quick overview of the whole project.
+  START-HERE.md    The "what's true right now" file.
+
+  The rest (CLAUDE.md, AGENT-RULES.md, SESSION-LOG.md, the
+  .py files, firebase.json, etc.) are instructions for the
+  AI helper and bits the app needs. Leave them be.
+
+
+========================================================
+  IF YOU EVER FEEL LOST: open this file. That's its job.
+========================================================

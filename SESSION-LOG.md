@@ -27,6 +27,30 @@
 
 ---
 
+## 2026-06-29 (pt.2) — made the folder actually SIMPLE for Cameron + put contact info on the brochure
+- What we did: Cameron opened the folder and was still overwhelmed — last cleanup added a `docs/`
+  tree but did NOT reduce the 22 top-level folders he sees, so it didn't feel organized. Fixed that:
+  (1) Added his phone (843) 582-7278 + email admin@milkb4meat.org + milkb4meat.org to the BACK PAGE
+  of the Come-and-See brochure and regenerated the PDF (verified on the rendered page). (2) Archived
+  the 5 junk book drafts (book-drive/drive2/upload/upload2/noimg) into docs/archive/book-drafts/.
+  (3) Deleted __pycache__ (auto-junk) and swept all dead leftover folders (app-screens,
+  finish-the-screens, port-back, web-preview, work-logs, outputs, builds-archive) + 2 junk loose
+  files into archive/_old-folders/. Top level went from 22 folders -> 14. (4) Wrote OPEN-ME-FIRST.txt
+  at the root: a plain-English map grouping everything into "things you print," "the app + website,"
+  "your notes," and "machinery — ignore." Verified all 11 live folders intact, site/ files present,
+  mobile/package.json readable, connect.py/knowing_engine.py still at root, git moves = clean renames.
+- What changed in the app (files/commits): NO app source changed. New: OPEN-ME-FIRST.txt. Edited:
+  pitch-book/brochure.html (contact block) + regenerated Milk-Before-Meat-Come-and-See.pdf. Moves only.
+- What is now true that wasn't before: the brochure is print-ready WITH Cameron's contact info, and
+  opening the MBM folder shows 14 clearly-grouped folders instead of 22 with junk mixed in.
+- What's next / handed off: optional — could further reduce by tucking machinery folders into one
+  "behind-the-scenes" folder, but that needs renaming load-bearing paths (mobile/site/server/admin
+  are referenced in the rule files), so left alone to avoid breaking the app/website. Big PDFs
+  (Complete-Book, Overview-and-Launch-Plan) still in pitch-book — asked Cameron if he wants those too.
+- Commit: 282bd1a
+
+---
+
 ## 2026-06-29 — v1 rough-draft cleanup: organized the whole repo + wrote the handoff docs
 - What we did: Did a full "professional handoff" cleanup of the project. Verified the chain
   (top entry 51e2cbc present in git log). Archived all 7 superseded .apk/.aab builds (~460MB)
