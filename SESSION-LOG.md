@@ -49,7 +49,7 @@
   still the last Android gate — see WAITING-ON-APPLE.md / FORWARD-WORK-PLAN.md). Optional follow-ups
   I recommended but did NOT auto-apply: update CLAUDE.md's internal doc paths to the new docs/ locations,
   and set up the two scheduled checks (Apple-approval + 14-day clock) — see CLAUDE-RECOMMENDATIONS.md.
-- Commit: <fill in after commit>
+- Commit: d4ae3ef
 
 ---
 
