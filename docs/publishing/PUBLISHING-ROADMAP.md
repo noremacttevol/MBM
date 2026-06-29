@@ -3,7 +3,35 @@
 Plain-language map of where this app has been, where it is right now, and exactly
 what is left before you can comfortably hand it to friends and family.
 
-Last updated: June 25, 2026
+Last updated: June 29, 2026 (refreshed during the v1 cleanup)
+
+> For the absolute current state, `START-HERE.md` always wins. This roadmap is the
+> stage-by-stage map; the snapshot below is the quick truth as of the last refresh.
+
+---
+
+## June 29 snapshot — what is actually true now (read this first)
+
+Since this roadmap was first written (June 25), several "unknowns" became "done." The
+current reality:
+
+- **iOS: submitted to Apple.** Version 1.0 (build 6 — the member-recognition build) is in
+  `WAITING_FOR_REVIEW` and set to **release automatically** once Apple approves
+  (~24h typical). It is also live on **TestFlight** (public link
+  `https://testflight.apple.com/join/cPNpeh3H`). Nothing left for Cameron on iOS but wait.
+  Detail: `IOS-STATUS-AND-APPLE-READINESS.md` and the active wait checklist `WAITING-ON-APPLE.md`.
+- **Android: live on Play internal testing,** and the **service-account key is set up** so
+  builds upload automatically (same as iOS). The only real remaining gate is Google's
+  **12-tester / 14-day closed test**. Detail: `ANDROID-PUBLISH-PATH.md`.
+- **The member-recognition fix** (the big one — editing the faith box flips the app into
+  member/meat mode) is in code and in build 6.
+- **The website is built** (`pitch-book/site-milkb4meat.html`), publish-ready, iPhone card
+  parked in a "coming soon" state until Apple approves.
+- **The recurring lesson, restated:** writing/committing code does NOT put it on a phone —
+  only a NEW build + install does. When a fix "isn't there," check which commit the
+  installed build came from before assuming the code is wrong.
+
+The honest viability check on all of this is in `PUBLISHING-VIABILITY-REVIEW.md`.
 
 ---
 
@@ -57,10 +85,16 @@ This is the part most people skip and regret. You actually did it.
 - [x] Android app file built (`.aab`, the format Google Play wants)
 - [x] Store listing text written and ready to paste
 - [x] Data-safety and content-rating answers prepared
-- [ ] **Confirm the .aab is actually uploaded to Google Play Internal Testing and rolled out**
-  - The file exists, but I could not confirm a live Play internal-testing release.
-  - This is one of the few real "unknowns" — worth a 5-minute check before you rely on it.
-- [ ] Add your testers' emails in Play Console and share the Android install link
+- [x] **.aab uploaded to Google Play Internal Testing and rolled out** — CONFIRMED
+  (June 26 update verified live; versionCode 6 served on internal). This was the old
+  "unknown" — now resolved.
+- [x] **Automated Play publishing set up** — service-account key wired into EAS, so
+  every Android build can be uploaded with one command (`eas submit --platform android`).
+- [ ] **Run Google's 12-tester / 14-day CLOSED test** — the real remaining gate before
+  public. Cameron rounds up 12 testers; the assistant sets up the closed track + opt-in
+  link and pushes the build. (See `ANDROID-PUBLISH-PATH.md`.)
+- [ ] Upload the 6 store screenshots from `store-assets/` (the in-app uploader can't drive
+  the native file picker, so Cameron drags them in once).
 
 ---
 
@@ -68,13 +102,18 @@ This is the part most people skip and regret. You actually did it.
 
 - [x] Apple app record created (App Store Connect)
 - [x] App Store Connect API key set up for hands-free uploads
-- [x] iOS build uploaded and processed to "Ready to Submit" (build 1.0.0 (3))
+- [x] iOS build uploaded and processed — now on **build 1.0 (6)**, the member-recognition
+  build (superseding the earlier build 3 this section was first written against)
 - [x] TestFlight Test Information filled in (feedback email, contact, review notes)
 - [x] Internal tester group created ("Internal Team")
 - [x] External tester group created ("Public Beta Testers")
 - [x] Public invite link enabled: https://testflight.apple.com/join/cPNpeh3H
-- [x] **Submitted for Beta App Review** — status: "Waiting for Review"
-- [ ] **Apple approves the build** (usually ~24 hours) — the public link only works for testers after this
+- [x] App Privacy "nutrition label" PUBLISHED + both 6.7" screenshots uploaded + metadata
+  accepted (the parts Apple rejects apps over — all done)
+- [x] **Submitted for PUBLIC App Store review** — releaseType AFTER_APPROVAL (it goes live
+  on its own when Apple approves; no second tap needed from Cameron)
+- [ ] **Apple approves the build** (usually ~24 hours) — the App Store page lights up by
+  itself, and the public TestFlight link starts accepting external testers, after this
 
 > The link above is real, but it will say "this beta isn't accepting testers" until
 > Apple finishes its review. That is normal. Nothing is broken.

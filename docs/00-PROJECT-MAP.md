@@ -1,0 +1,194 @@
+# MBM — Project Map & Table of Contents
+
+**The single index of everything in this project: what each folder is, what the
+important files are, and where to find them.** Generated as part of the v1 rough-draft
+cleanup on 2026-06-29.
+
+> If you only read one navigation file, read this one. For *what is true right now*
+> (built / submitted / pending), read [`../START-HERE.md`](../START-HERE.md) instead —
+> that file always wins on "current state."
+
+---
+
+## 1. The root folder (kept deliberately small)
+
+Only the files an agent or a new developer must see immediately live at the root:
+
+| File | What it is |
+|---|---|
+| `README.md` | Front door + quick at-a-glance table. |
+| `START-HERE.md` | **The truth file.** Current state of everything. Highest authority on "now." |
+| `AGENT-RULES.md` | The vision, the laws, the "Jesus method." Highest authority on "how/why." |
+| `SESSION-LOG.md` | The running session-by-session history (the "chain"). Newest entry on top. |
+| `CLAUDE.md` / `.claudecode.md` / `AGENTS.md` | Operating rules auto-loaded by the AI tooling. |
+| `firebase.json`, `.firebaserc`, `.gitignore` | Build/deploy/config. Leave in place. |
+| `connect.py`, `knowing_engine.py` | The original prototype routing engine. **Still imported by `ministry-sim/`** — that's why they stay at root. |
+| `gen_content.js`, `tools/` | Content-generation helpers for the corpus. |
+| `icon.png`, `mbm-qr.png` | Brand assets referenced by the marketing pages. |
+| `upload_certificate.pem` | Android upload certificate. |
+
+Everything else has been moved into a clearly-named folder (below). Nothing was deleted.
+
+---
+
+## 2. `mobile/` — THE APP (the thing people install)
+
+React Native + Expo. This is the real, current, best version of the product. To open it,
+this is the folder. Source of truth for the app is `mobile/src/`:
+
+```
+mobile/
+├── App.tsx, index.js        App entry point
+├── app.json, eas.json       Expo + build/submit config (store identity, build profiles)
+├── package.json             Dependencies
+├── src/
+│   ├── screens/             The 8 screens the user sees:
+│   │     HookScreen          – the opening "sanctuary" + story cold-open
+│   │     OnboardScreen       – story-first onboarding, one question, invisible routing
+│   │     FeedScreen          – the personalized feed (MILK / BRIDGE / RESTORATION / MAINTENANCE)
+│   │     ChatScreen          – "Talk to a real person" / AI dialogue
+│   │     JournalScreen       – private journaling + examen prompts
+│   │     ProfileScreen       – the open, editable record of what the app has learned
+│   │     DiscipleshipScreen  – the member ("meat") companion
+│   │     WelcomeBackScreen   – returning-user cold open
+│   ├── engine/              The brains: minister.ts (AI prompt), chatEar.ts, connect.ts, exercises.ts
+│   ├── data/                The content corpus: content.ts, questionBank.ts, kjvText.ts,
+│   │                        milkBeforeMeat.ts, journalPrompts.ts, examenPrompts.ts
+│   ├── components/          Reusable UI cards (ContentCard, ConnectCard, DialogueCard, …)
+│   ├── store/               useAppStore.ts — on-device state (the persisted user record)
+│   ├── navigation/          Screen routing
+│   ├── lib/                 Shared helpers
+│   └── theme.ts             Visual theme
+├── credentials/            Play service-account key (gitignored — never committed)
+└── plugins/, assets/       Native config + icons/splash
+```
+
+**Latest production build:** iOS v1.0 (build 6) and Android versionCode 6, both built in
+the EAS cloud (not stored as local files). The local `.aab`/`.apk` files in
+`builds-archive/` are **older** superseded builds kept for reference only.
+
+---
+
+## 3. `site/` — THE APP'S WEBSITE (milkb4meat.org)
+
+Hosted by Firebase (`firebase.json` → `public: "site"`). Do not move this folder.
+
+| File | Purpose |
+|---|---|
+| `site/index.html` | The main milkb4meat.org page. |
+| `site/privacy.html` | Privacy policy (required by both app stores). |
+| `site/support.html` | Support page (required for the store listings). |
+
+A second, richer **landing-page** version (for pasting into Squarespace) lives at
+`pitch-book/site-milkb4meat.html` — hero, explainer video, screenshots, and the two
+install cards. The iPhone card is currently in its "Coming any day" state while Apple
+review finishes (see `docs/publishing/WAITING-ON-APPLE.md`).
+
+---
+
+## 4. `admin/` — THE MINISTRY CONSOLE (your private reply desk)
+
+This is the "talk to a real person" desk. It runs **only on your machine / your Railway
+service** and never ships inside the app.
+
+| File | Purpose |
+|---|---|
+| `admin/inbox.mjs` | The console itself — reads every person's thread and lets you reply live. |
+| `admin/watcher.mjs` | Background watcher that surfaces new incoming threads. |
+| `admin/README.md`, `admin/WATCHER-SETUP.md`, `admin/DESK-HOSTING.md` | Setup + hosting guides. |
+| `admin/serviceAccount.json` | The Firebase admin credential (gitignored — the one secret that must never ship). |
+| `admin/reset.mjs` | Maintenance/reset helper. |
+
+Related: `firebase/firestore.rules` (the security rules that the console's admin key
+bypasses) and `firebase/SETUP.md`.
+
+---
+
+## 5. `server/` — THE PROXY (keeps the AI key off the phone)
+
+The phone never holds the Anthropic API key. It calls this proxy, which calls the AI.
+Runs on Railway (`mbm-proxy`). `server/index.js` is the endpoint; `server/conversations.db`
+is its local store; `server/railway.json` is the deploy config.
+
+---
+
+## 6. Marketing & launch materials
+
+| Folder | What's inside |
+|---|---|
+| `pitch-book/` | The full marketing set: the book (`Milk-Before-Meat-The-Complete-Book.pdf`), tester walkthrough, field guide, overview/launch-plan PDFs, the explainer video (`Milk-Before-Meat-Explainer.mp4`), the Squarespace landing page (`site-milkb4meat.html`), and the image library (`img/`). |
+| `church-launch-kit/` | Everything for approaching the Church: app-vs-church review, staged-approach plan, the priesthood invitation email, install guide, FAQ/objections, privacy one-pager, and the Bishop brochure (PDF + HTML). |
+| `store-assets/` | The store graphics + copy: app icon 512, feature graphic 1024×500, iOS 6.7" screenshots, Android phone/tablet screenshots, and `STORE-COPY.md` (the listing text). |
+| `app-screens/` | The labeled UI screenshot gallery (01-welcome through 27, plus a `_GALLERY.png`). |
+
+---
+
+## 7. `docs/` — ALL DOCUMENTATION (organized)
+
+```
+docs/
+├── 00-PROJECT-MAP.md                 ← you are here (the index)
+├── publishing/
+│     PUBLISHING-ROADMAP.md           The stage-by-stage road to publishing (kept current)
+│     PUBLISHING-VIABILITY-REVIEW.md  Fresh honest review of whether the plan will work (2026-06-29)
+│     ANDROID-PUBLISH-PATH.md         The Google Play path (the 12-tester / 14-day gate)
+│     IOS-STATUS-AND-APPLE-READINESS.md  The Apple side (done; auto-releases on approval)
+│     WAITING-ON-APPLE.md             The active "resume the moment Apple approves" checklist
+├── roadmap/
+│     STATUS-AND-ROADMAP.md           Living build-state roadmap (what's built vs only written)
+│     FORWARD-WORK-PLAN.md            Everything planned for the future, prioritized (2026-06-29)
+│     MODEL-ROUTING-AND-OFFLINE-PLAN.md  Tiered AI model routing + offline plan (designed, not built)
+│     NEXT-VERSION-EDITS.md           Small edits queued for the next build
+├── vision/
+│     CREATION-DILEMMA.md             The theology the app leans on
+│     MBM-AI-BRIEFING.md              How the AI is briefed to minister
+│     App Summary Paragraph.md        Short app description
+│     Mission Statement To cut.md     Mission statement draft
+├── reviews/
+│     CHURCH-REVIEW-2026-06-24.md     The trademark / "don't look official" review
+│     SETTLED-CONCERNS.md             Questions that are resolved (don't re-litigate)
+├── claude-setup/
+│     CLAUDE-RECOMMENDATIONS.md       How to make the AI assistant work best on this project (2026-06-29)
+└── archive/
+      handoffs/                       One-off chat handoff notes (historical context only)
+      superseded/                     Old plans/status replaced by the current docs
+      old-screenshots/               Old web-preview renders
+```
+
+**Authority order when two docs disagree:** `START-HERE.md` → `AGENT-RULES.md` →
+`CLAUDE.md`/`.claudecode.md` → `docs/roadmap/STATUS-AND-ROADMAP.md` → everything in
+`docs/archive/` (historical, can be stale).
+
+---
+
+## 8. `ministry-sim/` — the AI ministry simulator / eval harness
+
+How the app's ministering was tested before shipping: generates diverse + adversarial
+"personas," runs the minister AI against them, and judges the results. Reports live in
+`ministry-sim/outputs*/` and `REPORT-100-TRIALS.md`. Uses the root `knowing_engine.py`.
+
+## 9. `content/`, `port-back/`, `tools/`, `scripts/`, `finish-the-screens/`
+
+| Folder | What it is |
+|---|---|
+| `content/` | The Python content corpus (`question_bank.py`, `seed_data.py`) from the prototype. |
+| `port-back/` | Reference engine + specs from the original web prototype (port-to-RN source). |
+| `tools/` | Content tooling (KJV generation, feed tests, the `content.data.json`). |
+| `scripts/` | `preflight.sh` — the pre-build safety check (secrets/typecheck/syntax). |
+| `finish-the-screens/` | An older screen-finishing HTML reference. |
+
+## 10. `archive/` (pre-existing) and `builds-archive/` (new)
+
+- `archive/docs/` and `archive/legacy/` — earlier docs and earlier app versions, already
+  set aside before this cleanup.
+- `builds-archive/` — **new in this cleanup.** All superseded `.apk`/`.aab` build files
+  plus the old DB backup. Roughly 460 MB, kept (not deleted) so any past build can be
+  recovered. These are outputs and can always be regenerated by a fresh EAS build.
+
+---
+
+## 11. Where the secrets live (so they're never committed)
+
+These are gitignored on purpose; they must never go into git or the app:
+`mobile/.env`, `admin/.env`, `admin/serviceAccount.json`,
+`mobile/credentials/play-service-account.json`, `upload_certificate.pem`.

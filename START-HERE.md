@@ -139,18 +139,22 @@ Belief/testimony answer option for dialogue.
 ---
 
 ## FILE HIERARCHY — which file wins when they disagree
-There are too many overlapping docs in this repo. This is the order of authority:
+The repo was reorganized on 2026-06-29 (see SESSION-LOG). Most docs now live under `docs/`.
+`docs/00-PROJECT-MAP.md` is the full index. Order of authority:
 1. **START-HERE.md** (this file) — current state. Highest authority for "what is true now."
 2. **AGENT-RULES.md** — the vision, the laws, how to behave. Highest authority for "how/why."
 3. **CLAUDE.md** + **.claudecode.md** — operating rules (auto-loaded by the tooling).
-4. **STATUS-AND-ROADMAP.md** — the detailed living roadmap. Sync it with this file.
+4. **docs/roadmap/STATUS-AND-ROADMAP.md** — the detailed living roadmap. Sync it with this file.
 5. **.auto-memory/MEMORY.md** + topic files — accumulated history; CAN BE STALE; do not
    trust it over this file.
-Everything else (MISSION-PUBLISH-HANDOFF, PUBLISHING-ROADMAP, NEXT-VERSION-EDITS,
-MBM-SESSION-HANDOFF, PUBLISH-PLAN, MESSAGING-SETUP-PLAN, MBM-AI-BRIEFING, etc.) is
-HISTORICAL context only. If any of it conflicts with this file, this file is right.
-These old files should eventually be moved into an /archive folder so they stop
-masquerading as current.
+
+Current docs now live in `docs/publishing/`, `docs/roadmap/`, `docs/vision/`, and
+`docs/reviews/`. Publishing detail: `docs/publishing/` (PUBLISHING-ROADMAP,
+PUBLISHING-VIABILITY-REVIEW, ANDROID-PUBLISH-PATH, IOS-STATUS-AND-APPLE-READINESS,
+WAITING-ON-APPLE). Forward work: `docs/roadmap/FORWARD-WORK-PLAN.md`. Everything in
+`docs/archive/` (old handoffs, superseded plans) is HISTORICAL ONLY — if it conflicts with
+this file, this file is right. Old build binaries were moved to `builds-archive/` (nothing
+deleted).
 
 ---
 

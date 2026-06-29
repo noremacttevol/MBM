@@ -27,6 +27,32 @@
 
 ---
 
+## 2026-06-29 — v1 rough-draft cleanup: organized the whole repo + wrote the handoff docs
+- What we did: Did a full "professional handoff" cleanup of the project. Verified the chain
+  (top entry 51e2cbc present in git log). Archived all 7 superseded .apk/.aab builds (~460MB)
+  and the old DB backup into a new `builds-archive/` (nothing deleted). Moved ~28 loose root
+  markdown docs into an organized `docs/` tree (publishing / roadmap / vision / reviews /
+  claude-setup / archive{handoffs,superseded,old-screenshots}). Left the authority files at the
+  root (START-HERE, AGENT-RULES, SESSION-LOG, CLAUDE, .claudecode, AGENTS) so the chain still
+  works, plus config/brand assets and the prototype engine files (connect.py/knowing_engine.py
+  are still imported by ministry-sim, so they stay).
+- What changed in the app (files/commits): docs/structure only — NO app source changed. New:
+  `README.md` (front door), `docs/00-PROJECT-MAP.md` (full table of contents), `docs/archive/README.md`,
+  `docs/publishing/PUBLISHING-VIABILITY-REVIEW.md` (fresh go/no-go review),
+  `docs/roadmap/FORWARD-WORK-PLAN.md` (one prioritized to-do list),
+  `docs/claude-setup/CLAUDE-RECOMMENDATIONS.md`. Updated PUBLISHING-ROADMAP (June 29 snapshot +
+  fixed stale iOS/Android checkboxes) and START-HERE's file-hierarchy section to the new paths.
+- What is now true that wasn't before: the repo looks like a clean v1 dev handoff — a small root,
+  a single index (PROJECT-MAP), current vs historical docs clearly separated, and the publishing
+  plan has an honest viability review + a forward work plan.
+- What's next / handed off: app state is UNCHANGED (still waiting on Apple; Android 12-tester gate
+  still the last Android gate — see WAITING-ON-APPLE.md / FORWARD-WORK-PLAN.md). Optional follow-ups
+  I recommended but did NOT auto-apply: update CLAUDE.md's internal doc paths to the new docs/ locations,
+  and set up the two scheduled checks (Apple-approval + 14-day clock) — see CLAUDE-RECOMMENDATIONS.md.
+- Commit: <fill in after commit>
+
+---
+
 ## 2026-06-27 — milkb4meat.org landing page built; iPhone card parked in a "coming soon" state while we wait on Apple
 - What we did: Built the public website for `milkb4meat.org` (Squarespace) as a self-contained
   responsive landing page — hero, embedded explainer video, the "not the Church / not God / just a
