@@ -47,7 +47,7 @@
   "behind-the-scenes" folder, but that needs renaming load-bearing paths (mobile/site/server/admin
   are referenced in the rule files), so left alone to avoid breaking the app/website. Big PDFs
   (Complete-Book, Overview-and-Launch-Plan) still in pitch-book — asked Cameron if he wants those too.
-- Commit: 282bd1a
+- Commit: 10dc408
 
 ---
 
