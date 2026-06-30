@@ -40,7 +40,7 @@
 - What's next / handed off: just propagation + Firebase's automatic recheck. Re-open Firebase
   Hosting > Domains later and both should read "Connected" with SSL issued. milk-b4-meat.web.app is
   live now in the meantime. Rule reaffirmed: do all MBM work under admin@milkb4meat.org.
-- Commit: <hash filled in after you commit>
+- Commit: d588162
 
 ---
 
