@@ -27,6 +27,34 @@
 
 ---
 
+## 2026-06-30 (pt.6) — organized the folder for release + polish/print kit (NOT yet committed)
+- What we did: gave MBM a human-friendly layer for Cameron (non-technical owner) WITHOUT moving any
+  code/build paths. Added top-level master index `CAMERON — START HERE.md`; a `FOR-CAMERON/` folder
+  (roadmap, launch plan, field guide, tester walkthrough, full book + "READ-ME — For You.md"); and a
+  `TO-PRINT/` print kit (5 numbered ready-to-print finals + "READ-ME — Print Kit.md"). Updated
+  `OPEN-ME-FIRST.txt` and `docs/00-PROJECT-MAP.md` to point at the new buckets.
+- Polish pass: the Bishop brochure still had `[your phone]`/`[your email]` placeholders — filled in
+  (843) 582-7278 · admin@milkb4meat.org · milkb4meat.org and regenerated
+  `church-launch-kit/Bishop-Brochure.pdf` (weasyprint). Created two NEW pieces:
+  `Members-Outreach-Brochure.pdf` (members: feed faith + share it) and `How-to-Get-the-App.pdf`
+  (iPhone/Android sign-up sheet). Corrected `church-launch-kit/00_README-Start-Here.md` (its old
+  "replace the placeholders by hand" note was now stale). Website: copied the Come-and-See brochure
+  into `site/` and added footer download links (Roadmap PDF + Brochure PDF) on `site/index.html` and
+  `site/roadmap.html`. Verified milkb4meat.org references are consistent everywhere — no wrong
+  spellings, no remaining placeholders.
+- What changed in the app (files): none in `mobile/`. Marketing/site/docs only.
+- What is now true that wasn't before: clear FOR-CAMERON / TO-PRINT buckets + one master index; the
+  Bishop brochure is contact-complete; a members brochure and a get-the-app sheet now exist; the site
+  links to the public PDFs. Verified the live site serves fully at milk-b4-meat.web.app (Roadmap link
+  present). milkb4meat.org STILL returns an SSL cert altname mismatch — Firebase hasn't finished
+  issuing the custom-domain certificate (same as pt.3/4/5); resolves automatically, no redeploy needed.
+- What's next / handed off: nothing committed/pushed yet — awaiting Cameron's OK to commit and to
+  deploy the site footer-link change live. Cameron-only: confirm milkb4meat.org SSL once Firebase
+  finishes; the physical print run; optionally swap the Bishop-brochure phone for a personal one.
+- Commit: (pending — fill in after commit)
+
+---
+
 ## 2026-06-30 (pt.5) — built the public Roadmap (page + printable PDF) and deployed it live
 - What we did: built a professional, forward-looking roadmap in the site's navy/gold serif style.
   Created site/roadmap.html (Foundation = done checks; Phase 1 incl. a "where it is right now —

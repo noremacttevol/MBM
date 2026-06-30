@@ -10,6 +10,17 @@ cleanup on 2026-06-29.
 
 ---
 
+## 0. Cameron's human-friendly layer (added 2026-06-30)
+
+For the non-technical owner, three plain-English entry points sit at the top level:
+`CAMERON — START HERE.md` (the master map), the **`FOR-CAMERON/`** folder (the docs he
+reads — roadmap, launch plan, field guide, walkthrough, full book) and the
+**`TO-PRINT/`** folder (the ready-to-print kit: Come-and-See, For-Members, Bishop, and
+"How to Get the App" brochures, plus the roadmap). Those two folders hold clean **copies**
+of finals; the editable sources still live in `pitch-book/` and `church-launch-kit/`.
+
+---
+
 ## 1. The root folder (kept deliberately small)
 
 Only the files an agent or a new developer must see immediately live at the root:

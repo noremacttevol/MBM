@@ -2,7 +2,13 @@
 
 This folder is everything you need to take Milk Before Meat to your priesthood leaders the right way, in the right order. Here's what each piece is and when to use it.
 
-**The one you hand people:** `Bishop-Brochure.pdf` — a clean, one-page printout for Rich, Kyle, and the Bishop. (Before you print it, open `brochure.html`, replace `[your phone]` and `[your email]` with your real info, and re-save the PDF — or just write them in by hand on the print.)
+**The one you hand church leaders:** `Bishop-Brochure.pdf` — a clean, one-page printout for Rich, Kyle, and the Bishop. Your contact info (phone, email, website) is already on it — ready to print as-is.
+
+**The one you hand fellow members:** `Members-Outreach-Brochure.pdf` — a one-page piece for Church members that shows how the app feeds their own faith and gives them the words to share it with a searching friend.
+
+**The simple "put it on your phone" sheet:** `How-to-Get-the-App.pdf` — a one-page hand-out with the iPhone and Android steps and the website. Leave it with anyone after you've told them about the app.
+
+(All three of these, plus the Come-and-See brochure and the roadmap, are also gathered as ready-to-print finals in the top-level `TO-PRINT/` folder.)
 
 **The one you read for yourself before any meeting:** `01_App-vs-Church-Review.md` — every legitimate concern a leader could raise, with the honest answer and the Church source behind it. This is your briefing, not a handout.
 

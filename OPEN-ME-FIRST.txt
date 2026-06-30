@@ -1,27 +1,32 @@
 ========================================================
   MILK BEFORE MEAT  —  WHAT EVERYTHING IS, IN PLAIN ENGLISH
   (Cameron's map. Read this, ignore the rest.)
-  Last tidied: June 29, 2026
+  Last tidied: June 30, 2026
 ========================================================
 
-There are 14 folders here. Out of all of them, only THREE
-groups matter to you. Everything else is machinery that
-makes the app run — you never have to open it.
+  >> The friendliest map is now "CAMERON — START HERE.md"
+     at the top of this folder. Open that first.
+
+There are now two clearly-labeled folders made just for you,
+plus the machinery that makes the app run. Only THREE groups
+matter to you. Everything else you never have to open.
 
 
 ----------------------------------------
   GROUP 1 — THINGS YOU PRINT AND HAND OUT
 ----------------------------------------
 
-  pitch-book/        Your brochure and books.
-                     The one you print is:
-                     "Milk-Before-Meat-Come-and-See.pdf"
-                     (now has your phone + email on the back)
+  TO-PRINT/   Your print kit. Five ready-to-print pieces,
+              numbered 1–5: the Come-and-See brochure, the
+              For-Members brochure, the Bishop brochure, the
+              "How to Get the App" sheet, and the roadmap.
+              Open "READ-ME — Print Kit.md" inside it.
 
-  church-launch-kit/ The short brochure for church leaders.
+  (The original source files still live in pitch-book/ and
+   church-launch-kit/ — TO-PRINT holds the clean finals.)
 
-  store-assets/      Icons and pictures for the app store
-                     listing (you rarely touch these).
+  store-assets/  Icons and pictures for the app store
+                 listing (you rarely touch these).
 
 
 ----------------------------------------
@@ -42,9 +47,15 @@ makes the app run — you never have to open it.
   GROUP 3 — YOUR NOTES AND PLANS
 ----------------------------------------
 
+  FOR-CAMERON/  The documents made for YOU to read: the
+                roadmap, the launch plan, your field guide,
+                the tester walkthrough, and the full book.
+                Open "READ-ME — For You.md" inside it.
+
   docs/      Every plan, roadmap, and review, sorted into
-             folders. If you ever want to read where the
-             project stands, open docs/00-PROJECT-MAP.md.
+             folders (for me and any future helper). If you
+             ever want the full index, open
+             docs/00-PROJECT-MAP.md.
 
 
 ----------------------------------------
