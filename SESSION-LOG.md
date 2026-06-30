@@ -49,7 +49,7 @@
   the Firebase Hosting > Domains page later to confirm it flipped to "Connected." In the meantime
   the site is fully live at https://milk-b4-meat.web.app. Follow-up: www.milkb4meat.org currently
   has no record (its old CNAME was removed) — add www as a second custom domain or a redirect.
-- Commit: af8287a (chain link: this entry recorded in 0000000)
+- Commit: af8287a (chain link: this entry recorded in 7d936d4)
 
 ---
 
