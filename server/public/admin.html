@@ -359,6 +359,11 @@
   }
 
   async function openConv(id) {
+    // Are we re-rendering the SAME conversation (a refresh), or opening a new one?
+    // On a refresh we must NOT yank the pane to the bottom — that's the bug where
+    // scrolling up to read the top snapped you back down. Only jump to the latest
+    // message the first time a given conversation is opened.
+    const isSameConv = (id === currentConvId);
     currentConvId = id;
     loadConversations(); // refresh active state
 
@@ -374,6 +379,7 @@
 
     // Messages
     const pane = document.getElementById('messages-pane');
+    const prevScroll = pane.scrollTop; // remember where the reader was
     pane.innerHTML = conv.messages.map(m => `
       <div style="display:flex; flex-direction:column;">
         <div class="msg-bubble msg-${m.role}">
@@ -383,7 +389,14 @@
         </div>
       </div>
     `).join('');
-    pane.scrollTop = pane.scrollHeight;
+    if (isSameConv) {
+      // Same conversation being refreshed — keep the reader exactly where they were
+      // so scrolling up to read the beginning no longer snaps back down.
+      pane.scrollTop = prevScroll;
+    } else {
+      // Brand-new conversation opened — show the most recent message + pending reply.
+      pane.scrollTop = pane.scrollHeight;
+    }
 
     // Traits
     const traits = conv.trait_scores || {};

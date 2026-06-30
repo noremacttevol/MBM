@@ -893,6 +893,11 @@ const PAGE = `<!doctype html>
   }
 
   async function openThread(key){
+    // Is this the SAME thread being re-rendered by the 15s auto-refresh, or a brand
+    // new one the reader just clicked? On a refresh we must NOT force the pane to the
+    // bottom — that was the bug where scrolling up to read the top snapped you back
+    // down every 15 seconds.
+    const isSameThread = (key === current);
     current = key;
     const r = await fetch('/api/thread?key='+encodeURIComponent(key));
     const data = await r.json();
@@ -911,12 +916,25 @@ const PAGE = `<!doctype html>
     ctx.style.display = 'flex';
 
     const conv = document.getElementById('conv');
+    // Remember where the reader was BEFORE we rebuild the messages. If they were
+    // already near the bottom we keep them pinned to the newest message; if they had
+    // scrolled up to read, we leave them exactly where they were.
+    const prevTop = conv.scrollTop;
+    const wasNearBottom = (conv.scrollHeight - prevTop - conv.clientHeight) < 60;
     conv.innerHTML = msgs.map(m => \`
       <div class="msg \${m.sender}">
         <div class="lbl">\${m.sender==='admin'?('You'+(m.responder_name?' ('+esc(m.responder_name)+')':'')):'Them'} · \${fmt(m.created_at)}</div>
         <div class="bub">\${m.excerpt?'<div class="ex">'+esc(m.excerpt)+'</div>':''}\${esc(m.body)}</div>
       </div>\`).join('');
-    conv.scrollTop = conv.scrollHeight;
+    if (!isSameThread || wasNearBottom) {
+      // First open of this thread, or the reader was watching the latest message:
+      // show the newest message.
+      conv.scrollTop = conv.scrollHeight;
+    } else {
+      // Same thread refreshing while the reader is up reading earlier messages:
+      // hold their position so the auto-refresh no longer drags them down.
+      conv.scrollTop = prevTop;
+    }
     document.getElementById('composer').style.display = 'flex';
     fetch('/api/markread',{method:'POST',headers:{'Content-Type':'application/json'},
       body:JSON.stringify({key})}).then(loadThreads);
