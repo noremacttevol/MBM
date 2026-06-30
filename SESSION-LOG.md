@@ -49,7 +49,7 @@
   Squarespace "Coming Soon" placeholder (separate DNS fix, see website-status memory).
 - What's next / handed off: (1) Cameron runs `firebase login --reauth`, then I deploy. (2) Connect
   milkb4meat.org to Firebase (custom domain + Squarespace DNS swap) — needs his logins.
-- Commit: <filled in after commit>
+- Commit: 8d40e07
 
 ## 2026-06-30 — fixed the ministry-console scroll snap-back bug
 - What we did: Cameron reported the "mc" (ministry console) website scrolling back down to
