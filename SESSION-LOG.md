@@ -27,6 +27,32 @@
 
 ---
 
+## 2026-06-30 (pt.3) — connected the custom domain milkb4meat.org to the live Firebase site
+- What we did: pointed milkb4meat.org at the live Firebase Hosting site. In Firebase Console
+  (signed in as the project OWNER, admin@milkb4meat.org — NOT Cameron's personal
+  noremacttevol@gmail.com) added milkb4meat.org as a custom domain. In Squarespace DNS deleted the
+  "Squarespace Defaults" group (4 parking A records 198.185.159.144/145 + 198.49.23.144/145, the
+  www CNAME to ext-sq.squarespace.com, and the HTTPS @ record) and added the two Firebase records:
+  A @ -> 199.36.158.100 and TXT @ -> hosting-site=milk-b4-meat. Left ALL email/admin records
+  untouched (Google Workspace MX, Amazon SES, DKIM/SPF/DMARC, and the admin -> Railway CNAME).
+- Account correction (important, now a rule): Cameron does NOT want MBM under his personal
+  noremacttevol@gmail.com. Verified via Firebase IAM that admin@milkb4meat.org is the project
+  OWNER and switched to it for all MBM work. Always use admin@milkb4meat.org for MBM going forward.
+- What is now true that wasn't before: DNS has fully propagated — milkb4meat.org now resolves to
+  199.36.158.100 (the Firebase IP) on Google (8.8.8.8), Cloudflare (1.1.1.1), and the authoritative
+  Squarespace nameserver; the hosting-site=milk-b4-meat TXT record is live. curl confirms the
+  domain connects to the Firebase IP. The old Squarespace parking IPs are gone.
+- What's next / handed off: Firebase still showed "Needs setup" at the moment we finished, because
+  its earlier ACME check hit the OLD (cached) Squarespace IPs and 403'd. That check runs again
+  automatically and will succeed now that DNS is correct, then it issues the SSL cert. This is
+  just propagation/recheck time (minutes to a couple hours) — nothing left to configure. Re-open
+  the Firebase Hosting > Domains page later to confirm it flipped to "Connected." In the meantime
+  the site is fully live at https://milk-b4-meat.web.app. Follow-up: www.milkb4meat.org currently
+  has no record (its old CNAME was removed) — add www as a second custom domain or a redirect.
+- Commit: <hash filled in after you commit>
+
+---
+
 ## 2026-06-30 (pt.2) — rebuilt the public website into a real promotional landing page
 - What we did: Cameron asked me to "do it all like always" and build the website first so it
   promotes the app to everyone — church members and non-members alike — with a gentle note that
