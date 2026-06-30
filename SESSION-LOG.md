@@ -27,6 +27,23 @@
 
 ---
 
+## 2026-06-30 (pt.4) — set up www.milkb4meat.org as well
+- What we did: added www.milkb4meat.org as a second Firebase custom domain (under the OWNER
+  account admin@milkb4meat.org) and saved the CNAME it asked for in Squarespace:
+  CNAME www -> milk-b4-meat.web.app. Hit the Squarespace "Verify to continue as
+  admin@milkb4meat.org" Google gate again; Cameron cleared it ("i think its good") and the record
+  saved. Confirmed in the Squarespace records list (www CNAME present; admin->Railway CNAME and all
+  email records still intact). Clicked Verify in Firebase — still "Records not yet detected" because
+  the CNAME had just been added (propagation lag, same as the apex).
+- What is now true that wasn't before: both milkb4meat.org (apex, A + TXT) and www.milkb4meat.org
+  (CNAME) are fully configured in DNS and added in Firebase. Nothing left to configure on either.
+- What's next / handed off: just propagation + Firebase's automatic recheck. Re-open Firebase
+  Hosting > Domains later and both should read "Connected" with SSL issued. milk-b4-meat.web.app is
+  live now in the meantime. Rule reaffirmed: do all MBM work under admin@milkb4meat.org.
+- Commit: <hash filled in after you commit>
+
+---
+
 ## 2026-06-30 (pt.3) — connected the custom domain milkb4meat.org to the live Firebase site
 - What we did: pointed milkb4meat.org at the live Firebase Hosting site. In Firebase Console
   (signed in as the project OWNER, admin@milkb4meat.org — NOT Cameron's personal
