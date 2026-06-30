@@ -27,6 +27,32 @@
 
 ---
 
+## 2026-06-30 (pt.5) — built the public Roadmap (page + printable PDF) and deployed it live
+- What we did: built a professional, forward-looking roadmap in the site's navy/gold serif style.
+  Created site/roadmap.html (Foundation = done checks; Phase 1 incl. a "where it is right now —
+  invite-only testing phase" block + tester-critique/test-as-non-member invites; Phase 2; Phase 3
+  framed as a possibility for the Church to decide; a Vision section incl. a "real social presence"
+  card). Added a "Roadmap" link to the top nav in site/index.html. Generated a print-friendly
+  (light-paper) PDF with WeasyPrint -> site/Milk-Before-Meat-Roadmap.pdf, linked from the page.
+  Wrote NEXT-CHAT-PROMPT.md (a copy-paste prompt for a fresh chat whose job is folder organization
+  + a print kit + a release-readiness consistency pass). Deployed hosting via the service-account
+  method (44 files).
+- What changed: site/roadmap.html (new), site/index.html (nav link), site/Milk-Before-Meat-Roadmap.pdf
+  (new), NEXT-CHAT-PROMPT.md (new).
+- What is now true that wasn't before: the Roadmap page + PDF are LIVE and confirmed serving 200 on
+  milk-b4-meat.web.app (roadmap.html, the PDF as application/pdf, the nav link, and the new content
+  all verified). NOTE: the custom domain milkb4meat.org resolves to Firebase (199.36.158.100) and
+  301-redirects to https, but as of this deploy Firebase has NOT yet issued the SSL cert for the
+  custom domain ("no alternative certificate subject name matches milkb4meat.org") — so
+  https://milkb4meat.org still throws a cert error. This completes automatically; no redeploy needed
+  once the cert lands, and the new content will be there.
+- What's next / handed off: next chat = organize the cluttered MBM folder (see NEXT-CHAT-PROMPT.md):
+  sort into for-Cameron / to-print / computer-only, build an index + print kit, and run a
+  consistency pass (website URL on brochures, members-only outreach brochure, ensure the site links
+  to the public PDFs). Also keep watching Firebase Console > Hosting > Domains until milkb4meat.org
+  flips to "Connected" (SSL issued).
+- Commit: <filled in after commit>
+
 ## 2026-06-30 (pt.4) — set up www.milkb4meat.org as well
 - What we did: added www.milkb4meat.org as a second Firebase custom domain (under the OWNER
   account admin@milkb4meat.org) and saved the CNAME it asked for in Squarespace:
