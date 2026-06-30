@@ -44,12 +44,18 @@
   longer gets dragged back to the bottom by the auto-refresh; live watching at the bottom
   still follows new messages.
 - Verification: node --check on inbox.mjs passed; both inline browser <script> blocks parse
-  clean (new Function). NOT yet verified live against real Firestore data in a browser — the
-  console runs from Cameron's deploy, so the fix only reaches it after a restart/redeploy.
-- What's next / handed off: get the fix LIVE. If the console runs on Railway (mbm-desk):
-  `cd ~/Desktop/Brain/MBM/admin && railway up`. If it runs locally: restart it (`npm start`
-  in admin/). Writing the code does NOT put it on the live console until that redeploy.
-- Commit: 8e5d44b
+  clean (new Function). THEN deployed live and Cameron confirmed it: "yeap its good."
+- DEPLOYED LIVE (this was the real hold-up). The code fix alone did nothing for Cameron
+  because the live site at admin.milkb4meat.org is a Railway deployment and the new code had
+  never been pushed to it — he kept seeing the old snapping behavior. I (the assistant)
+  deployed it myself using the Railway CLI already installed + logged in on his machine:
+  `export PATH="$HOME/.npm-global/bin:$PATH" && cd ~/Desktop/Brain/MBM/admin && railway up --ci`.
+  The admin/ folder is linked to project `mbm-proxy`, service `MBM Ministry Console`
+  (URL https://admin.milkb4meat.org). Build finished "Deploy complete", new deployment ID,
+  service Online, site HTTP 200. Cameron hard-refreshed and confirmed the scroll holds.
+  LESSON (saved to .auto-memory/deploy-ministry-console.md): I can redeploy this console
+  myself — do NOT hand Cameron terminal commands or "log into Railway" steps. Just deploy.
+- Commit: 8e5d44b (code); live deployment done via railway up on 2026-06-30.
 
 ## 2026-06-29 (pt.2) — made the folder actually SIMPLE for Cameron + put contact info on the brochure
 - What we did: Cameron opened the folder and was still overwhelmed — last cleanup added a `docs/`
