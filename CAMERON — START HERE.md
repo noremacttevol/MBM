@@ -47,7 +47,7 @@ for you to read. In plain terms:
   `port-back/`** — behind-the-scenes machinery. Ignore all of it.
 - **`docs/`** — every plan and review, sorted into folders (for me and any future
   helper, not required reading for you).
-- **`archive/` and `builds-archive/`** — old stuff, kept just in case. Safe to ignore.
+- **`archive/`** — a little old reference material, kept just in case. Safe to ignore.
 - The loose files at the top (`CLAUDE.md`, `AGENT-RULES.md`, `SESSION-LOG.md`, the
   `.py` files, `firebase.json`, etc.) are instructions for your AI helper and bits the
   app needs. Leave them be.

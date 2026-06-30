@@ -71,9 +71,10 @@ matter to you. Everything else you never have to open.
   tools/         Small helper scripts.
   scripts/       One helper script.
   archive/       OLD STUFF. Nothing in here is live. Safe to
-                 leave alone forever. (Old screenshots, old
-                 drafts, old app builds all got swept in here
-                 on June 29 so they'd stop cluttering this view.)
+                 leave alone forever. (Old screenshots and old
+                 drafts. The big old app builds and the old app
+                 copy were deleted June 30 to keep things lean —
+                 they can always be rebuilt if ever needed.)
 
 
 ----------------------------------------

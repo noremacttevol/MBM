@@ -27,6 +27,27 @@
 
 ---
 
+## 2026-06-30 (pt.7) — deletion cleanup: cut the project from 1.9 GB to ~994 MB
+- What we did: Cameron asked what could be DELETED (not just added) to improve organization.
+  Surveyed the whole folder; deleted the dead weight after his go-ahead.
+- What changed:
+  - DELETED ~920 MB of old builds & old app copies: `archive/_old-folders/builds-archive/`
+    (old .apk/.aab installers + old DB backup), `archive/legacy/MBM-mobile/` (full
+    superseded app copy), `archive/legacy/mobile-expo/` (old Expo copy). The big binaries
+    were gitignored (never on GitHub); all regenerable from EAS or git history.
+  - DELETED 4 duplicate book formats in `pitch-book/` (book-drive.html, book-upload.html,
+    book-text.txt, book-doc.txt) — kept the real PDF book + book.html source.
+  - DELETED stale top-level chat-openers NEXT-CHAT-PROMPT.md and SESSION-OPENER.txt
+    (fully covered by CLAUDE.md's session-chain steps).
+  - Updated the map/index files so none point at deleted things: CAMERON — START HERE.md,
+    START-HERE.md, README.md, OPEN-ME-FIRST.txt, docs/00-PROJECT-MAP.md.
+- What is now true: the project is ~half its former size and the top level is cleaner.
+  No live app, website, or source code touched — only old copies/outputs and duplicates.
+- What's next / handed off: nothing required of Cameron.
+- Commit: <hash filled in after commit>
+
+---
+
 ## 2026-06-30 (pt.6) — organized the folder for release + polish/print kit (NOT yet committed)
 - What we did: gave MBM a human-friendly layer for Cameron (non-technical owner) WITHOUT moving any
   code/build paths. Added top-level master index `CAMERON — START HERE.md`; a `FOR-CAMERON/` folder

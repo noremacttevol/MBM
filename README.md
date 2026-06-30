@@ -33,7 +33,6 @@ periods, and polish.
 | The proxy/server | `server/` | Keeps the AI key off the phone. |
 | Marketing / pitch materials | `pitch-book/`, `church-launch-kit/`, `store-assets/` | Brochures, the book, screenshots, store copy. |
 | All documentation | `docs/` | Publishing, roadmap, vision, reviews, archive. |
-| Old builds (archived) | `builds-archive/` | Superseded .apk/.aab files. Nothing deleted. |
 
 ## Current status (one line)
 

@@ -156,8 +156,9 @@ Current docs now live in `docs/publishing/`, `docs/roadmap/`, `docs/vision/`, an
 PUBLISHING-VIABILITY-REVIEW, ANDROID-PUBLISH-PATH, IOS-STATUS-AND-APPLE-READINESS,
 WAITING-ON-APPLE). Forward work: `docs/roadmap/FORWARD-WORK-PLAN.md`. Everything in
 `docs/archive/` (old handoffs, superseded plans) is HISTORICAL ONLY — if it conflicts with
-this file, this file is right. Old build binaries were moved to `builds-archive/` (nothing
-deleted).
+this file, this file is right. Old build binaries and a superseded full app copy (~920 MB)
+were deleted on 2026-06-30 to keep the project lean — all regenerable from EAS or git
+history, so nothing was lost.
 
 ---
 
