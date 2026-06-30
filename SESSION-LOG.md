@@ -51,7 +51,7 @@
   consistency pass (website URL on brochures, members-only outreach brochure, ensure the site links
   to the public PDFs). Also keep watching Firebase Console > Hosting > Domains until milkb4meat.org
   flips to "Connected" (SSL issued).
-- Commit: <filled in after commit>
+- Commit: 5fe8f58
 
 ## 2026-06-30 (pt.4) — set up www.milkb4meat.org as well
 - What we did: added www.milkb4meat.org as a second Firebase custom domain (under the OWNER
