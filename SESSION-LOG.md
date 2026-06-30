@@ -48,10 +48,14 @@
   links to the public PDFs. Verified the live site serves fully at milk-b4-meat.web.app (Roadmap link
   present). milkb4meat.org STILL returns an SSL cert altname mismatch — Firebase hasn't finished
   issuing the custom-domain certificate (same as pt.3/4/5); resolves automatically, no redeploy needed.
-- What's next / handed off: nothing committed/pushed yet — awaiting Cameron's OK to commit and to
-  deploy the site footer-link change live. Cameron-only: confirm milkb4meat.org SSL once Firebase
-  finishes; the physical print run; optionally swap the Bishop-brochure phone for a personal one.
-- Commit: e649300 (site deploy + this chain link recorded in the follow-up commit)
+- DONE (Cameron approved "commit + push + deploy live"): committed e649300, recorded it in chain
+  commit ba6d48c, pushed to origin/main. Deployed Firebase hosting via the service-account method
+  (45 files) — verified LIVE on milk-b4-meat.web.app: home 200, the new footer links "Roadmap (PDF)"
+  + "Brochure (PDF)" present, and both PDFs serve as application/pdf (200).
+- What's next / handed off: Cameron-only — confirm milkb4meat.org SSL once Firebase finishes issuing
+  the cert (still an altname mismatch as of now; auto-resolves, no redeploy needed); the physical
+  print run; optionally swap the Bishop-brochure phone for a personal one.
+- Commit: e649300 (work) + ba6d48c (chain link); deploy verified live after.
 
 ---
 
