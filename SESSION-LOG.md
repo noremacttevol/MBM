@@ -27,6 +27,30 @@
 
 ---
 
+## 2026-06-30 — fixed the ministry-console scroll snap-back bug
+- What we did: Cameron reported the "mc" (ministry console) website scrolling back down to
+  the bottom whenever he scrolled up to read the top of a message thread. Traced it to the
+  real console (admin/inbox.mjs — the inline PAGE served on port 4545, NOT the older
+  server/public/admin.html, which was a red herring). Root cause: the 15-second auto-refresh
+  (`setInterval(() => { loadThreads(); if(current) openThread(current); }, 15000)`) re-called
+  openThread on the open thread, and openThread unconditionally ran `conv.scrollTop =
+  conv.scrollHeight`, yanking him to the bottom every 15s. Fixed openThread to (a) detect a
+  same-thread refresh vs a fresh open, and (b) only jump to the newest message on first open
+  or when the reader was already near the bottom (<60px); otherwise it preserves the reader's
+  scroll position. Applied the same guard to the older server/public/admin.html review pane.
+- What changed in the app (files/commits): admin/inbox.mjs (openThread scroll logic) and
+  server/public/admin.html (openConv scroll logic). Commit 8e5d44b.
+- What is now true that wasn't before: scrolling up in a thread on the ministry console no
+  longer gets dragged back to the bottom by the auto-refresh; live watching at the bottom
+  still follows new messages.
+- Verification: node --check on inbox.mjs passed; both inline browser <script> blocks parse
+  clean (new Function). NOT yet verified live against real Firestore data in a browser — the
+  console runs from Cameron's deploy, so the fix only reaches it after a restart/redeploy.
+- What's next / handed off: get the fix LIVE. If the console runs on Railway (mbm-desk):
+  `cd ~/Desktop/Brain/MBM/admin && railway up`. If it runs locally: restart it (`npm start`
+  in admin/). Writing the code does NOT put it on the live console until that redeploy.
+- Commit: 8e5d44b
+
 ## 2026-06-29 (pt.2) — made the folder actually SIMPLE for Cameron + put contact info on the brochure
 - What we did: Cameron opened the folder and was still overwhelmed — last cleanup added a `docs/`
   tree but did NOT reduce the 22 top-level folders he sees, so it didn't feel organized. Fixed that:
