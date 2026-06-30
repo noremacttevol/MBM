@@ -27,6 +27,30 @@
 
 ---
 
+## 2026-06-30 (pt.2) — rebuilt the public website into a real promotional landing page
+- What we did: Cameron asked me to "do it all like always" and build the website first so it
+  promotes the app to everyone — church members and non-members alike — with a gentle note that
+  members of The Church of Jesus Christ of Latter-day Saints get "the extra stuff" when they
+  declare it, but not heavy-handed. Rebuilt site/index.html from a single hero into a full
+  landing page: navy/gold palette, sticky nav, hero, a 6-pillar "Why this is good for the world"
+  section (Met where you are / Never pushed / Always honest / A real human always / Yours to
+  keep / For everyone), an embedded explainer video, a "what it really is" section, a 4-shot
+  glimpse strip of real app screenshots, the gentle "For everyone — and a little more for some /
+  Milk first. Meat when you're ready." member section, get-it cards (TestFlight + Play), and a
+  footer with the not-officially-affiliated disclaimer. Matched privacy.html and support.html to
+  the navy palette and switched all contact emails to admin@milkb4meat.org.
+- What changed (files): site/index.html (major rewrite), site/privacy.html, site/support.html,
+  + copied site/img/walk/*.png (37) and site/Milk-Before-Meat-Explainer.mp4 into site/.
+- What is now true that wasn't before: the site source is a genuine promotional page, verified
+  via Playwright on desktop and mobile.
+- NOT yet live: deploy is blocked — the Firebase CLI login expired ("credentials no longer
+  valid; run firebase login --reauth"). Cameron must re-auth before `firebase deploy --only
+  hosting` will push it to milk-b4-meat.web.app. Domain milkb4meat.org still points at the
+  Squarespace "Coming Soon" placeholder (separate DNS fix, see website-status memory).
+- What's next / handed off: (1) Cameron runs `firebase login --reauth`, then I deploy. (2) Connect
+  milkb4meat.org to Firebase (custom domain + Squarespace DNS swap) — needs his logins.
+- Commit: <filled in after commit>
+
 ## 2026-06-30 — fixed the ministry-console scroll snap-back bug
 - What we did: Cameron reported the "mc" (ministry console) website scrolling back down to
   the bottom whenever he scrolled up to read the top of a message thread. Traced it to the
