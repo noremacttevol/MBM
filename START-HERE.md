@@ -37,7 +37,10 @@ Do not re-ask settled questions. Verify before you claim anything is or isn't do
 - Expo / EAS account — `milkb4meat`, logged in, used for cloud builds.
 - Railway account — proxy `mbm-proxy` runs here.
 - Firebase project — live (Anonymous sign-in on, firestore.rules published).
-- Domain `milkb4meat.org` — owned (+ /privacy.html, /support.html).
+- Domain `milkb4meat.org` — owned, DNS at Squarespace. ⚠️ As of June 30, 2026 it STILL points to a
+  Squarespace "Coming Soon" placeholder, NOT the real site. The real site is live on Firebase at
+  `milk-b4-meat.web.app` (+ /privacy.html, /support.html). To make milkb4meat.org work: Firebase Hosting →
+  add custom domain → then update the A records in Squarespace DNS + turn off the Squarespace parking page.
 
 ### Publishing — already shipped before. This is NOT a from-scratch setup.
 - **iOS:** **SUBMITTED TO APPLE FOR PUBLIC REVIEW on 2026-06-26.** Version 1.0 (build 6)

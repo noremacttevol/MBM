@@ -74,7 +74,10 @@ This is the part most people skip and regret. You actually did it.
 - [x] AI chat endpoint working (`/api/chat` responds) — verified
 - [x] "Talk to a real person" inbox working (Firebase) with anonymous sign-in
 - [x] Admin reply desk hosted and login-protected (same Railway service)
-- [x] Website live: milkb4meat.org, /privacy.html, /support.html — all verified HTTP 200
+- [~] Website BUILT and live on Firebase at milk-b4-meat.web.app (+ /privacy.html, /support.html) — verified working.
+      BUT milkb4meat.org itself still points to a Squarespace "Coming Soon" placeholder (DNS = squarespacedns.com,
+      A records → Squarespace IPs). TODO: in Firebase Hosting add custom domain milkb4meat.org, then in Squarespace
+      DNS swap the A records to Firebase's and disable the parking page. (Verified June 30, 2026.)
 - [ ] **Rotate the keys that got exposed during setup** (see Stage 5 — do before wide release)
 - [ ] **Change the admin desk password** from the placeholder "JosephSmith" to a strong one
 
