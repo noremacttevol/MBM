@@ -51,7 +51,7 @@
 - What's next / handed off: nothing committed/pushed yet — awaiting Cameron's OK to commit and to
   deploy the site footer-link change live. Cameron-only: confirm milkb4meat.org SSL once Firebase
   finishes; the physical print run; optionally swap the Bishop-brochure phone for a personal one.
-- Commit: (pending — fill in after commit)
+- Commit: e649300 (site deploy + this chain link recorded in the follow-up commit)
 
 ---
 
