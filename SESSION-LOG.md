@@ -44,7 +44,7 @@
 - What is now true: the project is ~half its former size and the top level is cleaner.
   No live app, website, or source code touched — only old copies/outputs and duplicates.
 - What's next / handed off: nothing required of Cameron.
-- Commit: <hash filled in after commit>
+- Commit: feb5a14 (cleanup) + this chain-link commit on top.
 
 ---
 
