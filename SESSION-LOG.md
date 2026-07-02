@@ -60,7 +60,7 @@
   privacy.html is live; Cameron confirms the rejection message in the Resolution Center
   matches 5.1.1(i)/5.1.2(i) only (the API cannot read it, so if Apple listed anything
   more, it needs to be pasted in).
-- Commit: (filled in below after commit)
+- Commit: 9438d84 (work) + the chain-link commit on top; retroactively also records 41ecf03.
 
 ---
 
