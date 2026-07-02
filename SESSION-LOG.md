@@ -27,6 +27,19 @@
 
 ---
 
+## 2026-07-02 (pt.5) — 🎉 APPLE APPROVED — 1.0 is READY_FOR_SALE (store page still propagating)
+- What we did: Cameron asked if Apple accepted. Confirmed via the ASC API (signed JWT with
+  the .p8 key): version 1.0 = READY_FOR_SALE / READY_FOR_DISTRIBUTION. Build 8 passed.
+- BUT: the public listing https://apps.apple.com/us/app/id6783621048 was still 404 and the
+  iTunes lookup API returned 0 results (checked ~19:55Z) — normal propagation lag after
+  approval. So the website iPhone card was deliberately NOT flipped yet (no 404 buttons).
+- What's next (one clean step for any session): re-check the store URL; when it loads,
+  swap the site/index.html iPhone card from TestFlight to the App Store link, deploy
+  Firebase hosting, verify, update START-HERE.md. Note site/index.html has uncommitted
+  local edits — preserve them when editing.
+- What changed: START-HERE.md truth block; this entry. No code.
+- Commit: (chain-link on top of 87f9986)
+
 ## 2026-07-02 (pt.4) — Roadmap: prompt-caching restructure added (Cameron's call)
 - What we did: after an honest cost comparison of AI providers (switching is a ~20-line
   proxy change, cheap models are 5-10x less, but tone risk + near-zero current bill =

@@ -1,13 +1,18 @@
 # START HERE — MBM Current State (the ONLY file that is allowed to say "now")
 
-**Last verified true: 2026-07-02 pt.3 — iOS 1.0 (build 8, with the consent fix) is
-RESUBMITTED and WAITING_FOR_REVIEW at Apple (confirmed via ASC API, submitted
-2026-07-02T10:55Z). Android version code 7 is LIVE on the Play internal track. Next
-event is Apple's verdict (~24h typical). ALSO: the Railway key proxy is now HARDENED
-and redeployed (rate limits, size caps, daily wallet fuse) and tightened Firestore
-rules are published — see FOR-CAMERON/SECURITY-REPORT-2026-07-02.md. The app token is
-NOT enforced yet (REQUIRE_APP_TOKEN stays unset until post-review builds carrying it
-are installed). One Cameron-only task: set a monthly spend cap at console.anthropic.com.**
+**Last verified true: 2026-07-02 pt.5 — 🎉 APPLE APPROVED. iOS 1.0 (build 8) is
+READY_FOR_SALE / READY_FOR_DISTRIBUTION (confirmed via ASC API). BUT the public store
+page (https://apps.apple.com/us/app/id6783621048) was still 404 / not indexed at
+19:55Z — normal post-approval propagation, usually minutes-to-hours. NEXT STEP for any
+session: re-check that URL; once it loads, flip the site/index.html iPhone card from
+TestFlight to the App Store link, deploy hosting, and update this file (see
+docs/publishing/WAITING-ON-APPLE.md — adapted: full App Store link now, not TestFlight).
+Android version code 7 is LIVE on the Play internal track. ALSO: the Railway key proxy
+is HARDENED and redeployed (rate limits, size caps, daily wallet fuse) and tightened
+Firestore rules are published — see FOR-CAMERON/SECURITY-REPORT-2026-07-02.md. The app
+token is NOT enforced yet (REQUIRE_APP_TOKEN stays unset until builds carrying it are
+what people have installed — the just-approved build 8 does NOT send it). Cameron-only
+task still open: set a monthly spend cap at console.anthropic.com.**
 **If you are an AI assistant: read this whole file before you say ONE word about what is
 done, published, built, or pending. Do not trust your memory over this file. If this file
 and any other file/your memory disagree, THIS FILE WINS until a human updates it.**
