@@ -27,6 +27,22 @@
 
 ---
 
+## 2026-07-02 (pt.4) — Roadmap: prompt-caching restructure added (Cameron's call)
+- What we did: after an honest cost comparison of AI providers (switching is a ~20-line
+  proxy change, cheap models are 5-10x less, but tone risk + near-zero current bill =
+  stay on Haiku for now), Cameron locked the cost lever into the roadmap instead:
+  restructure the system prompt into a fixed shared prefix + small per-person tail so
+  Anthropic prompt caching cuts input costs up to ~90% with zero quality change.
+- Framing (Cameron's words, now a rule): the CURRENT TESTER PHASE is purposefully the
+  research phase for this — we're using testers to learn which prompt parts stay fixed
+  for everyone vs. truly vary per person, so the restructure is designed from real usage.
+- What changed: docs/roadmap/FORWARD-WORK-PLAN.md — new APP IMPROVEMENTS item 2
+  (others renumbered).
+- What's next: keep collecting tester transcripts with that question in mind; build the
+  split (pairs with tiered model routing); revisit provider choice only if the monthly
+  bill nears $100.
+- Commit: (chain-link commit on top of d4bd068)
+
 ## 2026-07-02 (pt.3) — SECURITY AUDIT + LIVE HARDENING of proxy and Firestore
 - What we did (Cameron asked for a full security check of the app):
   - Audited everything: no secret keys in the repo or in ANY git commit ever; Firestore

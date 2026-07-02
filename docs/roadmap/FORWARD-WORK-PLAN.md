@@ -45,13 +45,26 @@ These are the next engineering wins. None requires Cameron; each ends in a new b
    enforcing an allow-list so the phone can never request an expensive model. One API key can call
    any model; a second key is only for budget separation. Confirm current model IDs against
    docs.claude.com before shipping. *(Full design: `MODEL-ROUTING-AND-OFFLINE-PLAN.md`.)*
-2. **Belief / testimony answer option in dialogue (Locked Direction #5).** Today's multiple-choice
+2. **Prompt-caching restructure — cut AI input costs up to 90% with zero quality change
+   (Cameron's call, 2026-07-02).** Anthropic bills cached input tokens at ~10% of the normal
+   price, but only when the beginning of the system prompt is byte-identical from request to
+   request. Today the app assembles each person's system prompt dynamically, so nothing caches.
+   The fix is a restructure: one large FIXED shared prefix (identity, laws, Jesus-method rules,
+   story-handling instructions — same bytes for everyone) followed by a small per-person tail
+   (their profile, signals, conversation facts), with the proxy marking the shared prefix
+   cacheable. **Framing, per Cameron: the current tester phase IS the research phase for this.**
+   We are purposefully using the testers to learn what real system prompts and conversations look
+   like in practice — which parts stay fixed for everyone and which parts truly vary per person —
+   so the restructure is designed from real usage, not guesses. Review tester transcripts with
+   that question in mind, then build the split. Pairs with item 1 (tiered routing) since caching
+   applies per model. Ship before any wide public push; urgent once the monthly AI bill nears $100.
+3. **Belief / testimony answer option in dialogue (Locked Direction #5).** Today's multiple-choice
    answers skew toward doubt, which boxes believers in. Add a genuine, well-framed "testify" option
    to every such question so a believer isn't cornered into unbelief.
-3. **Offline AI fallback.** Graceful, measured-quality answers when there's no internet, parked
+4. **Offline AI fallback.** Graceful, measured-quality answers when there's no internet, parked
    behind a quality gate so it never ships a weak answer. *(Design in `MODEL-ROUTING-AND-OFFLINE-PLAN.md`.)*
-4. **Small queued edits** in `NEXT-VERSION-EDITS.md` — fold these into the next build.
-5. **Optional App Store polish** (additive, no rebuild): 5–8 iOS 6.7" screenshots instead of 2,
+5. **Small queued edits** in `NEXT-VERSION-EDITS.md` — fold these into the next build.
+6. **Optional App Store polish** (additive, no rebuild): 5–8 iOS 6.7" screenshots instead of 2,
    promotional text, keywords. *(See `../publishing/IOS-STATUS-AND-APPLE-READINESS.md`.)*
 
 ## Explicitly decided AGAINST (do not build)
