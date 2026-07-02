@@ -438,6 +438,15 @@ export interface LearnedNote {
 //   EXPO_PUBLIC_MBM_API_URL=https://your-app.up.railway.app
 // A direct-to-Anthropic key is supported ONLY for local dev and is never shipped.
 const MBM_API_URL       = (process.env.EXPO_PUBLIC_MBM_API_URL ?? '').trim().replace(/\/+$/, '');
+// App token: identifies OUR app to OUR proxy so the proxy can eventually refuse
+// strangers who extract the URL from the bundle and try to use the AI for free.
+// Not a payment secret (the Anthropic key stays on the server) — just a bar-raiser.
+// The proxy only enforces it when REQUIRE_APP_TOKEN=1 is set server-side, after
+// builds carrying this header are the ones people actually have installed.
+const MBM_APP_TOKEN     = (process.env.EXPO_PUBLIC_MBM_APP_TOKEN ?? '').trim();
+const PROXY_HEADERS: Record<string, string> = MBM_APP_TOKEN
+  ? { 'content-type': 'application/json', 'x-mbm-app': MBM_APP_TOKEN }
+  : { 'content-type': 'application/json' };
 const ANTHROPIC_API_KEY = (process.env.EXPO_PUBLIC_ANTHROPIC_API_KEY ?? '').trim();
 const ANTHROPIC_URL     = 'https://api.anthropic.com/v1/messages';
 const ANTHROPIC_MODEL   = MINISTER_MODEL;
@@ -568,7 +577,7 @@ export async function generateBlessing(
     if (useProxy) {
       const r = await fetch(`${MBM_API_URL}/api/chat`, {
         method: 'POST',
-        headers: { 'content-type': 'application/json' },
+        headers: PROXY_HEADERS,
         body: JSON.stringify({ system, messages: [{ role: 'user', content: userText }], max_tokens: 120 }),
       });
       if (!r.ok) return null;
@@ -665,7 +674,7 @@ export async function generateDiscipleshipSummary(
     if (useProxy) {
       const r = await fetch(`${MBM_API_URL}/api/chat`, {
         method: 'POST',
-        headers: { 'content-type': 'application/json' },
+        headers: PROXY_HEADERS,
         body: JSON.stringify({ system, messages: [{ role: 'user', content: userText }], max_tokens: 320 }),
       });
       if (!r.ok) return offlineDiscipleshipSummary(items);
@@ -756,7 +765,7 @@ export async function generateNoteSummary(
     if (useProxy) {
       const r = await fetch(`${MBM_API_URL}/api/chat`, {
         method: 'POST',
-        headers: { 'content-type': 'application/json' },
+        headers: PROXY_HEADERS,
         body: JSON.stringify({ system, messages: [{ role: 'user', content: userText }], max_tokens: 160 }),
       });
       if (!r.ok) return null;
@@ -2677,7 +2686,7 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
             // ── Through the proxy: the app never sees the key ────────────────
             const response = await fetch(`${MBM_API_URL}/api/chat`, {
               method:  'POST',
-              headers: { 'content-type': 'application/json' },
+              headers: PROXY_HEADERS,
               body: JSON.stringify({
                 system:     systemPrompt,
                 messages:   history,

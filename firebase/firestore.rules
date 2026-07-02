@@ -39,9 +39,25 @@ service cloud.firestore {
                   && resource.data.userId == request.auth.uid;
 
       // A person may CREATE only their own messages, only as the 'user' sender.
+      // Size caps stop a hostile client from stuffing huge documents into the
+      // database (cost + storage abuse); 4000 chars is far beyond any real note.
       allow create: if request.auth != null
                     && request.resource.data.userId == request.auth.uid
-                    && request.resource.data.sender == 'user';
+                    && request.resource.data.sender == 'user'
+                    && request.resource.data.body is string
+                    && request.resource.data.body.size() <= 4000
+                    && (!('excerpt' in request.resource.data)
+                        || (request.resource.data.excerpt is string
+                            && request.resource.data.excerpt.size() <= 4000))
+                    && (!('threadTitle' in request.resource.data)
+                        || (request.resource.data.threadTitle is string
+                            && request.resource.data.threadTitle.size() <= 200))
+                    && (!('threadId' in request.resource.data)
+                        || (request.resource.data.threadId is string
+                            && request.resource.data.threadId.size() <= 100))
+                    && (!('journeyStage' in request.resource.data)
+                        || (request.resource.data.journeyStage is string
+                            && request.resource.data.journeyStage.size() <= 100));
 
       // A person may only mark their own thread as read — and may change NOTHING
       // else. They cannot edit the body, flip the sender, or touch your replies'
