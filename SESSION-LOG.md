@@ -27,6 +27,29 @@
 
 ---
 
+## 2026-07-02 (pt.2) — REBUILT + RESUBMITTED TO APPLE (Waiting for Review) + Android vc7 live
+- What we did (all automated, nothing left for Cameron):
+  - Verified the updated privacy policy (naming Anthropic + consent) is LIVE at
+    milk-b4-meat.web.app/privacy.html.
+  - Built BOTH platforms from commit 9438d84 (`eas build --platform all --profile
+    production --auto-submit`): iOS build 8, Android version code 7.
+  - iOS: build 8 uploaded + processed (VALID, export compliance clean). Via the ASC API:
+    attached build 8 to version 1.0, CANCELED the dead rejected review submission
+    (99f5b00a…), created a NEW review submission 3888660e-454c-4d81-bd4a-67dc30b6463c,
+    added the version, and SUBMITTED. Confirmed state: **WAITING_FOR_REVIEW**,
+    submittedDate 2026-07-02T10:55Z. No Resolution Center reply was needed — the file
+    "FOR-CAMERON/APPLE-RESUBMIT — copy-paste reply.md" is marked no-longer-needed (kept in
+    case Apple writes back).
+  - Android: auto-submit completed; Play **internal track now serves vc 7 (status
+    completed)** — Cameron's phone gets the consent gate, small-screen fix, and
+    Discipleship warm-up via Play internal testing.
+- What is now true: iOS 1.0 (build 8) is in Apple's review queue; Android internal has vc7.
+- What's next: wait for Apple (~24h typical). If approved, the public-release tap is
+  Cameron's. If rejected again, read the new message and iterate.
+- Commit: (chain-link commit on top of b668015)
+
+---
+
 ## 2026-07-02 — Apple-rejection audit + small-Android fix + Discipleship warm-up
 - NOTE ON THE CHAIN: the July 1 session (commit 41ecf03, the Apple 5.1.1(i)/5.1.2(i)
   consent fix) never wrote a session-log entry. This entry records it retroactively so
