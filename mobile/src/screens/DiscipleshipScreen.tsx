@@ -25,7 +25,7 @@ import { StatusBar } from 'expo-status-bar';
 import { useNavigation } from '@react-navigation/native';
 import { useAppStore } from '../store/useAppStore';
 import { TraitKey } from '../data/questionBank';
-import { QUALITIES, QUALITY_BY_KEY, promptFor } from '../data/examenPrompts';
+import { QUALITIES, QUALITY_BY_KEY, promptFor, verseFor } from '../data/examenPrompts';
 import { colors, spacing, radius } from '../theme';
 
 function fmtDate(ts: number): string {
@@ -58,7 +58,11 @@ export default function DiscipleshipScreen() {
   const [prompt,  setPrompt]  = useState<string>(() => promptFor(QUALITIES[0].key));
   const [draft,   setDraft]   = useState('');
   const [saving,  setSaving]  = useState(false);
+  const [justKept, setJustKept] = useState(false);   // warm moment right after a save
   const [ruleDraft, setRuleDraft] = useState('');
+
+  // Today's word — scripture for the chosen quality, stable through the day.
+  const verse = verseFor(qKey);
 
   function pickQuality(key: TraitKey) {
     setQKey(key);
@@ -73,6 +77,7 @@ export default function DiscipleshipScreen() {
     await addExamenReflection(qKey, prompt, text);
     setDraft('');
     setSaving(false);
+    setJustKept(true);   // stays until they begin something new — a moment, not a timer
   }
 
   // ── Not opted in yet: a warm, pressure-free invitation ──────────────────────
@@ -116,6 +121,14 @@ export default function DiscipleshipScreen() {
           {/* ── 1. TODAY'S EXAMEN ─────────────────────────────────────────── */}
           <View style={styles.card}>
             <Text style={styles.sectionLabel}>TODAY'S EXAMEN</Text>
+
+            {/* A word before the questions — the examen is fed by scripture,
+                not just prompts. Follows the chosen quality; rotates daily. */}
+            <View style={styles.verseBox}>
+              <Text style={styles.verseText}>“{verse.text}”</Text>
+              <Text style={styles.verseRef}>{verse.ref}</Text>
+            </View>
+
             <Text style={styles.sectionNote}>
               Pick what you'd like to reflect on. There's no right answer — just notice.
             </Text>
@@ -141,7 +154,7 @@ export default function DiscipleshipScreen() {
             <TextInput
               style={styles.input}
               value={draft}
-              onChangeText={setDraft}
+              onChangeText={t => { setDraft(t); if (justKept) setJustKept(false); }}
               placeholder="Write as much or as little as you like…"
               placeholderTextColor={colors.textMuted}
               multiline
@@ -157,6 +170,13 @@ export default function DiscipleshipScreen() {
                 ? <ActivityIndicator color={colors.onAccent ?? '#0a0f0a'} size="small" />
                 : <Text style={styles.primaryBtnText}>Save reflection</Text>}
             </TouchableOpacity>
+
+            {justKept && (
+              <Text style={styles.keptNote}>
+                Kept. It's part of your walk now — look below in a moment for a word
+                spoken back over what you wrote.
+              </Text>
+            )}
           </View>
 
           {/* ── 2. MY WALK WITH CHRIST (timeline + narrative summary) ──────── */}
@@ -166,6 +186,14 @@ export default function DiscipleshipScreen() {
               A private record of where you've seen Him lately. Ask for a reflection on
               how your walk has been going whenever you'd like.
             </Text>
+
+            {orderedEntries.length > 0 && (
+              // A gathering, never a grade: how much walk has been kept here.
+              <Text style={styles.walkGlance}>
+                {orderedEntries.length} {orderedEntries.length === 1 ? 'reflection' : 'reflections'} kept
+                {' · '}walking here since {fmtDate(orderedEntries[orderedEntries.length - 1].ts)}
+              </Text>
+            )}
 
             <TouchableOpacity
               style={[styles.secondaryBtn, summaryLoading && styles.btnDim]}
@@ -363,6 +391,26 @@ const styles = StyleSheet.create({
   chipActive: { borderColor: colors.gold, backgroundColor: (colors.gold ?? '#caa75a') + '1c' },
   chipText: { fontSize: 12, color: colors.textDim, fontFamily: 'Jost_400Regular' },
   chipTextActive: { color: colors.gold },
+
+  // Today's word — a quiet setting for the scripture that opens the examen.
+  verseBox: {
+    borderLeftWidth: 2, borderLeftColor: colors.gold, paddingLeft: spacing.sm + 2,
+    marginBottom: spacing.sm, marginTop: 2,
+  },
+  verseText: { fontSize: 15, color: '#e8e0c8', fontFamily: 'Jost_400Regular', fontStyle: 'italic', lineHeight: 23 },
+  verseRef:  { fontSize: 11, color: colors.gold, fontFamily: 'Jost_400Regular', letterSpacing: 0.6, marginTop: 4 },
+
+  // The warm moment after a reflection is saved.
+  keptNote: {
+    fontSize: 12, color: colors.gold, fontFamily: 'Jost_400Regular', fontStyle: 'italic',
+    lineHeight: 18, textAlign: 'center', marginTop: spacing.sm,
+  },
+
+  // The gathering line — how much walk is kept here. A record, never a score.
+  walkGlance: {
+    fontSize: 12, color: colors.gold, fontFamily: 'Jost_400Regular',
+    letterSpacing: 0.4, marginBottom: spacing.sm,
+  },
 
   promptText: { fontSize: 15, color: '#e0d8c0', fontFamily: 'Jost_400Regular', lineHeight: 23, marginBottom: 4 },
   subLink: { color: colors.blue, fontSize: 12, fontStyle: 'italic', fontFamily: 'Jost_400Regular', marginTop: 2 },

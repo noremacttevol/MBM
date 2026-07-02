@@ -17,7 +17,12 @@ import { colors, spacing } from '../theme';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Hook'>;
 
-const { width } = Dimensions.get('window');
+const { width, height } = Dimensions.get('window');
+
+// Short / oddly-proportioned phones (many budget Androids) don't have room for
+// the full-size layout — everything scales down a notch so the invitation and
+// the honest-word footer NEVER fight for the same pixels.
+const COMPACT = height < 700;
 
 export default function HookScreen({ navigation }: Props) {
   // Real device insets — so the honest-word footer clears the Android
@@ -103,6 +108,13 @@ export default function HookScreen({ navigation }: Props) {
     <View style={styles.container}>
       <StatusBar style="light" />
 
+      {/* Everything above the footer lives in its own centered zone. The footer
+          sits BELOW it in normal layout flow (never absolutely positioned), so
+          on short or oddly-shaped screens the button and the disclaimer can
+          never overlap — the center zone simply centers in whatever space is
+          left above the footer. */}
+      <View style={styles.centerZone}>
+
       {/* ── Tomb + glow ──────────────────────────────────────────────────── */}
       <View style={styles.tombContainer}>
         {/* Glow behind the opening */}
@@ -169,6 +181,8 @@ export default function HookScreen({ navigation }: Props) {
       </Animated.View>
       )}
 
+      </View>
+
       {/* ── The honest word (Elder Gong, on AI) ───────────────────────────────
           Subtle, never the headline — but said plainly at the threshold so no one
           ever mistakes the app for the Lord, and so no one mistakes it for an
@@ -179,14 +193,17 @@ export default function HookScreen({ navigation }: Props) {
           prayers... it is not God and cannot be God." What stirs here is a
           spiritual exercise to take to God and to people who love you — and to let
           the Spirit, not an app, confirm as true. */}
-      {showContent && (
-      <Animated.Text style={[styles.footerText, { opacity: footerOpacity, bottom: insets.bottom + 28 }]}>
+      <Animated.Text
+        style={[
+          styles.footerText,
+          { opacity: showContent ? footerOpacity : 0, marginBottom: insets.bottom + (COMPACT ? 12 : 24) },
+        ]}
+      >
         This app is not officially affiliated with any Church. It is not God either —
         it cannot answer a prayer or know you the way Jesus does, only point you
         toward Him. Take what you feel here to God and to people who love you, and
         let the Spirit, not an app, tell you what is true.
       </Animated.Text>
-      )}
     </View>
   );
 }
@@ -195,9 +212,15 @@ const styles = StyleSheet.create({
   container: {
     flex:            1,
     backgroundColor: colors.bg,
-    alignItems:      'center',
-    justifyContent:  'center',
     paddingHorizontal: spacing.xl,
+  },
+
+  // The invitation centers itself in whatever space remains ABOVE the footer,
+  // so the two can never collide on any screen shape.
+  centerZone: {
+    flex:           1,
+    alignItems:     'center',
+    justifyContent: 'center',
   },
 
   // Tomb
@@ -206,7 +229,7 @@ const styles = StyleSheet.create({
     height:         110,
     alignItems:     'center',
     justifyContent: 'flex-end',
-    marginBottom:   spacing.xl,
+    marginBottom:   COMPACT ? spacing.md : spacing.xl,
     position:       'relative',
   },
   tombArch: {
@@ -246,7 +269,7 @@ const styles = StyleSheet.create({
 
   // Text
   risenText: {
-    fontSize:        32,
+    fontSize:        COMPACT ? 27 : 32,
     fontFamily:      'Jost_400Regular',
     color:           colors.goldLight,
     letterSpacing:   2,
@@ -254,25 +277,26 @@ const styles = StyleSheet.create({
     marginBottom:    spacing.md,
   },
   subText: {
-    fontSize:        15,
+    fontSize:        COMPACT ? 14 : 15,
     fontFamily:      'Jost_400Regular',
     color:           colors.textMuted,
     textAlign:       'center',
-    lineHeight:      24,
+    lineHeight:      COMPACT ? 21 : 24,
     maxWidth:        280,
-    marginBottom:    spacing.xxl,
+    marginBottom:    COMPACT ? spacing.xl : spacing.xxl,
   },
 
-  // The honest word — small, dim, low. Present without competing with the invitation.
+  // The honest word — small, dim, low. Present without competing with the
+  // invitation. In normal layout flow (NOT absolute) so it always keeps its own
+  // space below the button, on every screen size and shape.
   footerText: {
-    position:        'absolute',
-    bottom:          28,
-    fontSize:        11,
+    alignSelf:       'center',
+    fontSize:        COMPACT ? 10 : 11,
     fontFamily:      'Jost_400Regular',
     fontStyle:       'italic',
     color:           '#6f6a5c',
     textAlign:       'center',
-    lineHeight:      17,
+    lineHeight:      COMPACT ? 15 : 17,
     maxWidth:        300,
     paddingHorizontal: spacing.lg,
   },

@@ -27,6 +27,43 @@
 
 ---
 
+## 2026-07-02 — Apple-rejection audit + small-Android fix + Discipleship warm-up
+- NOTE ON THE CHAIN: the July 1 session (commit 41ecf03, the Apple 5.1.1(i)/5.1.2(i)
+  consent fix) never wrote a session-log entry. This entry records it retroactively so
+  the chain is whole again.
+- What we did:
+  - AUDITED the July 1 consent fix end to end. Verified all four AI call sites in
+    useAppStore.ts (chat send, blessings, note summaries, discipleship summary) hard-block
+    until aiConsent === 'granted'; onboarding consent page, chat consent card, and Profile
+    on/off control all present; no other network path sends user words to the AI. The
+    human-inbox Firestore path is user-initiated and covered by the published privacy label.
+    eas.json production has autoIncrement (new build number automatic) and ships no
+    Anthropic key — only the proxy URL.
+  - FIXED the small-Android opening screen (HookScreen): the non-affiliation/"not God"
+    disclaimer was position-absolute and overlapped the "Come and see" button on short or
+    oddly-shaped phones. It now lives in normal layout flow below a flex centered zone, so
+    overlap is impossible on any screen shape; a COMPACT mode (height < 700) also scales
+    type/margins down. Footer now reserves its space from frame one (no flash, no jump).
+  - WARMED UP My Discipleship (members-only): added "today's word" — a daily-rotating
+    scripture verse per Christlike quality (all four standard works; member track only,
+    never visible to seekers) opening the examen card; a "kept" confirmation moment after
+    saving a reflection; and a "N reflections kept · walking here since <date>" gathering
+    line on My Walk with Christ. No new AI calls, no scores, no streaks.
+- What changed in the app: mobile/src/screens/HookScreen.tsx,
+  mobile/src/screens/DiscipleshipScreen.tsx, mobile/src/data/examenPrompts.ts.
+- Verified: tsc --noEmit clean, tools/feed_test.js ALL PASS, tools/kjv_test.js ALL PASS,
+  scripts/preflight.sh ALL CHECKS PASSED (no secrets tracked).
+- What is now true: the code is ready for the Apple resubmission build. NOT YET DONE:
+  a new iOS production build + eas submit + reply in the ASC Resolution Center, and the
+  updated site/privacy.html must be verified deployed on Firebase hosting.
+- What's next / handed off: build + resubmit iOS (build number auto-increments); confirm
+  privacy.html is live; Cameron confirms the rejection message in the Resolution Center
+  matches 5.1.1(i)/5.1.2(i) only (the API cannot read it, so if Apple listed anything
+  more, it needs to be pasted in).
+- Commit: (filled in below after commit)
+
+---
+
 ## 2026-06-30 (pt.7) — deletion cleanup: cut the project from 1.9 GB to ~994 MB
 - What we did: Cameron asked what could be DELETED (not just added) to improve organization.
   Surveyed the whole folder; deleted the dead weight after his go-ahead.
