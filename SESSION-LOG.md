@@ -27,6 +27,34 @@
 
 ---
 
+## 2026-07-02 (pt.3) — SECURITY AUDIT + LIVE HARDENING of proxy and Firestore
+- What we did (Cameron asked for a full security check of the app):
+  - Audited everything: no secret keys in the repo or in ANY git commit ever; Firestore
+    rules solid; server deps clean; mobile npm "vulns" are Expo build-tooling only.
+  - THE real hole: the Railway key proxy (/api/chat) answered ANYONE on the internet —
+    a stranger could extract the URL from the app bundle and burn Cameron's Anthropic
+    money at unlimited volume. Fixed and DEPLOYED the same day.
+- What changed (code commit f4a6cc2, deployed live to Railway + Firebase):
+  - server/index.js: per-IP rate limits (chat 10/min + 300/day; connect/factcheck
+    5/min + 30/day), global 5000/day chat fuse (env-tunable), message/system size caps,
+    model locked server-side, queue caps (500) so disk can't fill, client IP taken from
+    x-forwarded-for (req.ip was unreliable behind Railway — first deploy proved it).
+  - App token groundwork: mobile sends x-mbm-app (EXPO_PUBLIC_MBM_APP_TOKEN in
+    eas.json); Railway has MBM_APP_TOKEN set. NOT enforced yet — flip
+    REQUIRE_APP_TOKEN=1 on Railway ONLY after builds carrying the token are what
+    people have installed (the build in Apple review does NOT send it).
+  - firebase/firestore.rules: size caps on message create (body/excerpt ≤4000 etc.) —
+    PUBLISHED LIVE via new admin/deploy-rules.mjs (service-account path; the firebase
+    CLI lacked a permission, the Rules API works).
+  - FOR-CAMERON/SECURITY-REPORT-2026-07-02.md — plain-language report.
+- Verified live: 11th rapid chat request → 429; oversize message → 400 message_too_long;
+  a normal chat still answers (build 8 in Apple review is unaffected); connect throttles.
+  (4 test notes labeled "security-test — safe to ignore/delete" are in the connect queue.)
+- Cameron-only action: set a monthly spend cap at console.anthropic.com (Billing).
+- What's next: after the next builds ship + old builds age out, set REQUIRE_APP_TOKEN=1
+  on Railway (railway variables --service mbm-proxy --set REQUIRE_APP_TOKEN=1).
+- Commit: f4a6cc2 (code) + chain-link on top.
+
 ## 2026-07-02 (pt.2) — REBUILT + RESUBMITTED TO APPLE (Waiting for Review) + Android vc7 live
 - What we did (all automated, nothing left for Cameron):
   - Verified the updated privacy policy (naming Anthropic + consent) is LIVE at
