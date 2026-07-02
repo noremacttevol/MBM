@@ -444,13 +444,15 @@ const FAITH_OPTIONS: { key: string; text: string }[] = [
 // The opening welcome now lives on the Hook screen (the single front door), so
 // onboarding begins directly with the story — no second "you are welcome here"
 // screen repeating what the Hook already said.
-type Phase = 'story' | 'question' | 'reflection' | 'faith';
+type Phase = 'story' | 'question' | 'reflection' | 'faith' | 'aiConsent';
 
 export default function OnboardScreen({ navigation }: Props) {
   const completeOnboarding    = useAppStore(s => s.completeOnboarding);
   const setName               = useAppStore(s => s.setName);
   const recordFaithBackground = useAppStore(s => s.recordFaithBackground);
   const markStorySeen         = useAppStore(s => s.markStorySeen);
+  const grantAIConsent        = useAppStore(s => s.grantAIConsent);
+  const declineAIConsent      = useAppStore(s => s.declineAIConsent);
   const seenStoryIds          = useAppStore(s => s.seenStoryIds);
   // RETURNING mode = a cold open by someone who already finished first onboarding.
   // They get a fresh story → question → reflection, then straight into the app —
@@ -506,8 +508,8 @@ export default function OnboardScreen({ navigation }: Props) {
   }
 
   function handleEnter() {
-    // The faith page is the final step — a choice must be made (even "I'd rather
-    // not say") before entering, matching the prototype's onFaithEnter guard.
+    // Called from the AI-consent page — the true final step. The faith choice
+    // was guarded on its own page before we got here.
     if (!faithChoice) return;
 
     if (selectedKey === 'E') {
@@ -689,13 +691,72 @@ export default function OnboardScreen({ navigation }: Props) {
               style={[styles.primaryBtn, !faithChoice && styles.primaryBtnDisabled]}
               activeOpacity={0.75}
               disabled={!faithChoice}
-              onPress={handleEnter}
+              onPress={() => setPhase('aiConsent')}
             >
-              <Text style={styles.primaryBtnText}>Enter →</Text>
+              <Text style={styles.primaryBtnText}>Continue →</Text>
             </TouchableOpacity>
           </Animated.View>
         </ScrollView>
       </KeyboardAvoidingView>
+    );
+  }
+
+  // ── AI CONVERSATION CONSENT (Apple 5.1.1(i)/5.1.2(i) — and plain honesty) ──
+  // The app never hides what it is. Before anything a person writes can be sent
+  // to the AI service, they are told exactly what is sent, who receives it, and
+  // why — and they choose. Declining is honored completely: the app still works
+  // in its offline voice, and the choice can be changed any time on the Profile.
+  if (phase === 'aiConsent') {
+    return (
+      <ScrollView
+        style={styles.scroll}
+        contentContainerStyle={styles.scrollContent}
+        keyboardShouldPersistTaps="handled"
+      >
+        <StatusBar style="light" />
+        <Animated.View style={animStyle}>
+          <Text style={styles.faithIntro}>
+            One honest thing before you enter.
+          </Text>
+          <Text style={styles.consentBody}>
+            The voice that talks with you here is powered by an AI service —
+            Claude, made by a company called Anthropic. When you chat, answer a
+            question, or keep a note, the words you write (and what the app has
+            learned from them, like your first name if you share it and what
+            you've said about your faith) are sent securely to Anthropic so it
+            can write the response back to you.
+          </Text>
+          <Text style={styles.consentBody}>
+            That's the whole arrangement. Nothing is sold, nothing is used for
+            ads or tracking, and our privacy policy spells it out in full.
+          </Text>
+          <Text style={styles.consentBody}>
+            If you'd rather not, that is honored completely — everything you
+            write stays on this device, the stories and readings and journal
+            still work, and a real person is always one tap away. You can change
+            your choice any time on your Profile.
+          </Text>
+
+          <View style={styles.choices}>
+            <TouchableOpacity
+              style={styles.primaryBtn}
+              activeOpacity={0.75}
+              onPress={() => { grantAIConsent(); handleEnter(); }}
+            >
+              <Text style={styles.primaryBtnText}>I understand — turn on the conversation</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={[styles.choiceBtn, styles.choiceBtnOther, { marginTop: spacing.md }]}
+              activeOpacity={0.7}
+              onPress={() => { declineAIConsent(); handleEnter(); }}
+            >
+              <Text style={styles.choiceTextMuted}>
+                Not now — keep my words on my device
+              </Text>
+            </TouchableOpacity>
+          </View>
+        </Animated.View>
+      </ScrollView>
     );
   }
 
@@ -869,6 +930,10 @@ const styles = StyleSheet.create({
   faithHint: {
     fontSize: 13, fontFamily: 'Jost_400Regular', fontStyle: 'italic',
     color: colors.textMuted, lineHeight: 20, marginTop: spacing.md, marginBottom: spacing.sm,
+  },
+  consentBody: {
+    fontSize: 15, fontFamily: 'Jost_400Regular', color: colors.textMid,
+    lineHeight: 25, marginBottom: spacing.lg,
   },
   faithInput: {
     backgroundColor: colors.bgInput, borderWidth: 1, borderColor: colors.borderDim,

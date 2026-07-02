@@ -109,6 +109,9 @@ export default function ProfileScreen() {
   const beliefHistory       = useAppStore(s => s.beliefHistory);
   const deleteBeliefChange  = useAppStore(s => s.deleteBeliefChange);
   const forgetSignal        = useAppStore(s => s.forgetSignal);
+  const aiConsent           = useAppStore(s => s.aiConsent);
+  const grantAIConsent      = useAppStore(s => s.grantAIConsent);
+  const declineAIConsent    = useAppStore(s => s.declineAIConsent);
 
   const navigation = useNavigation<any>();
 
@@ -476,6 +479,46 @@ export default function ProfileScreen() {
           </View>
         )}
 
+        {/* ── AI CONVERSATION — the person's standing choice, changeable any
+            time (Apple 5.1.1(i)/5.1.2(i), and plain honesty about what we do). */}
+        <View style={styles.card}>
+          <Text style={styles.sectionLabel}>AI CONVERSATION</Text>
+          <Text style={styles.sectionNote}>
+            The app's conversation is powered by Claude, an AI service made by
+            Anthropic. When it's on, the words you write in chats, answers, and
+            kept notes — along with what the app has learned from them, like your
+            first name and what you've said about your faith — are sent securely
+            to Anthropic to write the responses. Nothing is sold, and nothing is
+            used for ads or tracking. When it's off, everything you write stays
+            on this device and the app speaks in its offline voice.
+          </Text>
+          <Text style={styles.aiConsentState}>
+            {aiConsent === 'granted'
+              ? 'Currently ON — your words are shared with Anthropic to power the conversation.'
+              : 'Currently OFF — everything you write stays on this device.'}
+          </Text>
+          <TouchableOpacity
+            style={styles.aiConsentBtn}
+            activeOpacity={0.75}
+            onPress={() => {
+              if (aiConsent === 'granted') {
+                confirmAction(
+                  'Turn off the AI conversation?',
+                  'Nothing you write will leave this device. The chat, blessings, and summaries will use the offline voice until you turn it back on.',
+                  () => declineAIConsent(),
+                  { confirmLabel: 'Turn off' },
+                );
+              } else {
+                grantAIConsent();
+              }
+            }}
+          >
+            <Text style={styles.aiConsentBtnText}>
+              {aiConsent === 'granted' ? 'Turn it off' : 'Turn it on'}
+            </Text>
+          </TouchableOpacity>
+        </View>
+
         {/* ── Session stats ───────────────────────────────────────────── */}
         <View style={styles.statsRow}>
           <View style={styles.statCard}>
@@ -547,6 +590,26 @@ const styles = StyleSheet.create({
   },
   discipleCard: {
     borderColor: colors.gold,
+  },
+  aiConsentState: {
+    fontSize:     12,
+    fontFamily:   'Jost_400Regular',
+    color:        colors.textMid,
+    fontStyle:    'italic',
+    marginBottom: spacing.sm,
+  },
+  aiConsentBtn: {
+    alignSelf:       'flex-start',
+    borderWidth:     1,
+    borderColor:     colors.borderDim,
+    borderRadius:    18,
+    paddingVertical: 8,
+    paddingHorizontal: 18,
+  },
+  aiConsentBtnText: {
+    fontSize:   13,
+    fontFamily: 'Jost_400Regular',
+    color:      colors.textDim,
   },
   discipleTitle: {
     fontSize:     17,

@@ -56,6 +56,9 @@ export default function ChatScreen() {
   const restorationConsent  = useAppStore(s => s.restorationConsent);
   const grantRestorationConsent   = useAppStore(s => s.grantRestorationConsent);
   const declineRestorationConsent = useAppStore(s => s.declineRestorationConsent);
+  const aiConsent           = useAppStore(s => s.aiConsent);
+  const grantAIConsent      = useAppStore(s => s.grantAIConsent);
+  const declineAIConsent    = useAppStore(s => s.declineAIConsent);
 
   function confirmDeleteSession(id: string, title: string) {
     confirmAction(
@@ -394,7 +397,57 @@ export default function ChatScreen() {
           </View>
         )}
 
-        {/* ── Input bar ─────────────────────────────────────────────────── */}
+        {/* ── AI-conversation consent (Apple 5.1.1(i)/5.1.2(i)) ───────────
+             Nothing typed here is ever sent until the person has been told what
+             is sent (their words), who receives it (Anthropic), and said yes.
+             'unknown' = never asked (e.g. upgraded from an older build): show
+             the full disclosure. 'declined' = honored, with a gentle way back. */}
+        {aiConsent === 'unknown' ? (
+          <View style={styles.aiConsentCard}>
+            <Text style={styles.aiConsentTitle}>Before we talk — one honest thing.</Text>
+            <Text style={styles.aiConsentBody}>
+              This conversation is powered by an AI service — Claude, made by a
+              company called Anthropic. When you send a message, your words (and
+              what the app has learned from them, like your first name if you
+              shared it and what you've said about your faith) are sent securely
+              to Anthropic so it can write the response. Nothing is sold, and
+              nothing is used for ads or tracking — our privacy policy spells it
+              out in full. If you'd rather not, everything you write stays on
+              this device, and a real person is still one tap away.
+            </Text>
+            <TouchableOpacity
+              style={styles.aiConsentYes}
+              activeOpacity={0.8}
+              onPress={grantAIConsent}
+            >
+              <Text style={styles.aiConsentYesText}>I understand — turn on the conversation</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={styles.aiConsentNo}
+              activeOpacity={0.8}
+              onPress={declineAIConsent}
+            >
+              <Text style={styles.aiConsentNoText}>Not now — keep my words on my device</Text>
+            </TouchableOpacity>
+          </View>
+        ) : aiConsent === 'declined' ? (
+          <View style={styles.aiConsentCard}>
+            <Text style={styles.aiConsentBody}>
+              The AI conversation is off — everything you write stays on this
+              device. Turn it on here or from your Profile whenever you'd like
+              to talk. Sending a message shares your words with Anthropic, the
+              AI service that writes the responses.
+            </Text>
+            <TouchableOpacity
+              style={styles.aiConsentYes}
+              activeOpacity={0.8}
+              onPress={grantAIConsent}
+            >
+              <Text style={styles.aiConsentYesText}>Turn on the conversation</Text>
+            </TouchableOpacity>
+          </View>
+        ) : (
+        /* ── Input bar ─────────────────────────────────────────────────── */
         <View style={styles.inputBar}>
           <TextInput
             style={styles.input}
@@ -415,6 +468,7 @@ export default function ChatScreen() {
             <Text style={styles.sendBtnText}>→</Text>
           </TouchableOpacity>
         </View>
+        )}
       </KeyboardAvoidingView>
       )}
     </SafeAreaView>
@@ -423,6 +477,35 @@ export default function ChatScreen() {
 
 const styles = StyleSheet.create({
   safe: { flex: 1, backgroundColor: colors.bg },
+
+  // ── AI-conversation consent card (replaces the composer until answered) ──
+  aiConsentCard: {
+    borderTopWidth: 1, borderTopColor: colors.borderDim,
+    paddingHorizontal: spacing.md, paddingVertical: spacing.md,
+    gap: spacing.sm,
+  },
+  aiConsentTitle: {
+    fontSize: 15, fontFamily: 'Jost_400Regular', color: colors.text,
+    fontStyle: 'italic',
+  },
+  aiConsentBody: {
+    fontSize: 13, fontFamily: 'Jost_400Regular', color: colors.textMid,
+    lineHeight: 20,
+  },
+  aiConsentYes: {
+    backgroundColor: colors.gold, borderRadius: 22,
+    paddingVertical: 11, paddingHorizontal: 20, alignSelf: 'flex-start',
+  },
+  aiConsentYesText: {
+    fontSize: 14, fontFamily: 'Jost_400Regular', color: '#15110a', fontWeight: '600',
+  },
+  aiConsentNo: {
+    borderWidth: 1, borderColor: colors.borderDim, borderStyle: 'dashed',
+    borderRadius: 22, paddingVertical: 10, paddingHorizontal: 20, alignSelf: 'flex-start',
+  },
+  aiConsentNoText: {
+    fontSize: 13, fontFamily: 'Jost_400Regular', color: colors.textMuted, fontStyle: 'italic',
+  },
 
   header: {
     paddingHorizontal: spacing.md, paddingTop: spacing.md, paddingBottom: spacing.sm,

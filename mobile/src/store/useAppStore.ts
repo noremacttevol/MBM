@@ -128,6 +128,16 @@ export type RestorationConsent = 'unknown' | 'granted' | 'declined';
 let restorationConsentGranted = false;
 export function setRestorationConsentGranted(v: boolean) { restorationConsentGranted = v; }
 
+// ── AI-conversation consent (Apple 5.1.1(i) / 5.1.2(i)) ─────────────────────
+// Nothing a person writes is ever sent to the AI service (Anthropic) until they
+// have been told what is sent, who receives it, and have said yes. 'granted' is
+// the ONLY value that lets any request leave the device. Mirrored at module
+// level so the standalone generate* helpers (defined before the store) can
+// check it cheaply, exactly like restorationConsentGranted above.
+export type AIConsent = 'unknown' | 'granted' | 'declined';
+let aiConsentGranted = false;
+export function setAIConsentGrantedFlag(v: boolean) { aiConsentGranted = v; }
+
 // Silently choose the content level that fits the signals a person has revealed.
 // Invisible: the user never sees a tier name or a gate. The milk law is absolute —
 // RESTORATION is only ever chosen once both readiness signals exist AND the person
@@ -505,6 +515,7 @@ export async function generateBlessing(
   context: string,
   recentLines: string[] = [],
 ): Promise<string | null> {
+  if (!aiConsentGranted) return null;                 // no consent → nothing leaves the device
   const useProxy = !!MBM_API_URL;
   if (!useProxy && !ANTHROPIC_API_KEY) return null;   // offline → say nothing
 
@@ -625,6 +636,7 @@ function offlineDiscipleshipSummary(items: ExamenDigestItem[]): string {
 export async function generateDiscipleshipSummary(
   items: ExamenDigestItem[],
 ): Promise<string> {
+  if (!aiConsentGranted) return offlineDiscipleshipSummary(items);   // no consent → offline voice
   const useProxy = !!MBM_API_URL;
   if (!useProxy && !ANTHROPIC_API_KEY) return offlineDiscipleshipSummary(items);
   if (items.length === 0) return offlineDiscipleshipSummary(items);
@@ -722,6 +734,7 @@ export async function generateNoteSummary(
   title: string,
   body: string,
 ): Promise<string | null> {
+  if (!aiConsentGranted) return null;                 // no consent → keep the excerpt
   const useProxy = !!MBM_API_URL;
   if (!useProxy && !ANTHROPIC_API_KEY) return null;   // offline → keep the excerpt
 
@@ -913,6 +926,12 @@ interface AppState {
   // signals). The Minister AI asks; the person answers; this records their choice.
   restorationConsent:  RestorationConsent;
 
+  // Explicit permission to send what they write to the AI service (Anthropic)
+  // that voices the app's responses. Asked plainly during onboarding; changeable
+  // any time on the Profile. 'granted' is the ONLY value that lets any request
+  // leave the device — every AI helper checks it before making a network call.
+  aiConsent:           AIConsent;
+
   // My Discipleship (members-only). All opt-in, all private, never wired to routing.
   discipleshipEnabled:        boolean;
   examenEntries:              ExamenEntry[];
@@ -1007,6 +1026,8 @@ interface AppActions {
   goDeeper:            () => void;
   grantRestorationConsent:   () => void;
   declineRestorationConsent: () => void;
+  grantAIConsent:            () => void;
+  declineAIConsent:          () => void;
   // My Discipleship (members-only)
   enableDiscipleship:        () => void;
   disableDiscipleship:       () => void;
@@ -1105,6 +1126,7 @@ const initialState: AppState = {
   answeredQuestions:   [],
   currentQuestion:     null,
   restorationConsent:  'unknown',
+  aiConsent:           'unknown',
   discipleshipEnabled:        false,
   examenEntries:              [],
   fruitRatings:               {},
@@ -1319,6 +1341,23 @@ export const useAppStore = create<AppState & AppActions>()(
         // unless THEY reopen the door. Keep them gently on the milk track.
         setRestorationConsentGranted(false);
         set({ restorationConsent: 'declined' });
+      },
+
+      // ── AI-conversation consent (Apple 5.1.1(i) / 5.1.2(i)) ────────────────
+      grantAIConsent() {
+        // They were told what is sent (their words in this app), who receives it
+        // (Anthropic, the AI service that voices the app), and why (to write the
+        // responses) — and said yes. Open the voice.
+        setAIConsentGrantedFlag(true);
+        set({ aiConsent: 'granted' });
+      },
+
+      declineAIConsent() {
+        // Honor it completely: nothing they write leaves the device for the AI.
+        // The app stays fully usable in its offline voice — stories, feed,
+        // journal, dialogue — and they can change this any time on the Profile.
+        setAIConsentGrantedFlag(false);
+        set({ aiConsent: 'declined' });
       },
 
       // ── My Discipleship (members-only "Walk with Christ") ──────────────────
@@ -2613,6 +2652,16 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
 
         // Preferred path: the server proxy holds the key. Direct-to-Anthropic is
         // a DEV-ONLY fallback (a local key) and is never shipped in a build.
+        // Apple 5.1.1(i)/5.1.2(i): nothing leaves the device without permission.
+        // The Chat screen gates its composer on this too; this is the belt-and-
+        // suspenders guard so NO code path can ever send words without a yes.
+        if (get().aiConsent !== 'granted') {
+          get().appendAssistantToChat(sendChatId,
+            'Before I can answer, the app needs your okay to send what you write here to Anthropic — the AI service that gives this conversation its voice. You can turn that on any time from your Profile. Until then, everything you write stays on your device.',
+          );
+          return;
+        }
+
         const useProxy = !!MBM_API_URL;
         if (!useProxy && !ANTHROPIC_API_KEY) {
           get().appendAssistantToChat(sendChatId,
@@ -2748,6 +2797,7 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
         answeredQuestions:   state.answeredQuestions,
         currentQuestion:     state.currentQuestion,
         restorationConsent:  state.restorationConsent,
+        aiConsent:           state.aiConsent,
         discipleshipEnabled: state.discipleshipEnabled,
         examenEntries:       state.examenEntries,
         fruitRatings:        state.fruitRatings,
@@ -2790,6 +2840,13 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
         const restorationConsent: RestorationConsent =
           (p.restorationConsent as RestorationConsent | undefined) ?? 'unknown';
         setRestorationConsentGranted(restorationConsent === 'granted');
+
+        // Restore the AI-conversation consent the same way, so the module flag
+        // is in place before anything could call the AI helpers. No record on
+        // disk = 'unknown' = nothing is sent until the person is asked.
+        const aiConsent: AIConsent =
+          (p.aiConsent as AIConsent | undefined) ?? 'unknown';
+        setAIConsentGrantedFlag(aiConsent === 'granted');
 
         // Migrate to the provenance model. Legacy stores have no baseSignals —
         // seed it from the old flat dialogueSignals so nothing already learned is
@@ -2845,6 +2902,7 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
           baseSignals,                 // migrated/derived above (identity stripped)
           dialogueSignals: signals,    // DERIVED — recomputed, never trusted from disk
           restorationConsent,          // module flag already synced above
+          aiConsent,                   // module flag already synced above
           feedTag:    healedTag,
           feed:       healedFeed,
           seenIds:    seenSet,

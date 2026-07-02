@@ -1,6 +1,6 @@
 # START HERE — MBM Current State (the ONLY file that is allowed to say "now")
 
-**Last verified true: 2026-06-26 (iOS submitted for public App Store review).**
+**Last verified true: 2026-07-01 (iOS v1.0 REJECTED by Apple — verified live via ASC API).**
 **If you are an AI assistant: read this whole file before you say ONE word about what is
 done, published, built, or pending. Do not trust your memory over this file. If this file
 and any other file/your memory disagree, THIS FILE WINS until a human updates it.**
@@ -43,9 +43,14 @@ Do not re-ask settled questions. Verify before you claim anything is or isn't do
   add custom domain → then update the A records in Squarespace DNS + turn off the Squarespace parking page.
 
 ### Publishing — already shipped before. This is NOT a from-scratch setup.
-- **iOS:** **SUBMITTED TO APPLE FOR PUBLIC REVIEW on 2026-06-26.** Version 1.0 (build 6)
-  is in state **WAITING_FOR_REVIEW**; releaseType AFTER_APPROVAL (it goes live
-  automatically once Apple approves). Everything Apple needed is done: metadata, both
+- **iOS:** **REJECTED BY APPLE (verified 2026-07-01 via ASC API).** Version 1.0 (build 6)
+  was submitted 2026-06-26; appVersionState is now **REJECTED**, reviewSubmission
+  99f5b00a-00ca-4d82-b5be-8d402fab6d11 state **UNRESOLVED_ISSUES**. The rejection
+  REASON is in the Resolution Center (ASC web UI — the API key cannot read it) and in
+  an email sent to **noremacprojects@gmail.com** (NOT Cameron's main inbox — this is why
+  no one noticed for 5 days). NEXT STEP: read the rejection message (Cameron signs into
+  ASC in the browser, or pastes the email), fix the issues, resubmit. Do NOT tell
+  Cameron "just wait for Apple." Everything Apple needed at submit time was done: metadata, both
   6.7" screenshots, age rating, categories (Lifestyle/Books), free worldwide pricing,
   content-rights declaration, App Review contact (Cameron, phone, admin@milkb4meat.org),
   and the **App Privacy data-usage label is PUBLISHED** (Name, Sensitive Info, Other User
