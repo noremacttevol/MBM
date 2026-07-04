@@ -27,6 +27,30 @@
 
 ---
 
+## 2026-07-04 (pt.2) — "Fix it all": site flipped to App Store + deployed, print kit refreshed, domain warning stale
+- What we did (Cameron said "fix it all, you're my project manager"):
+  1. WEBSITE: site/index.html iPhone card flipped from TestFlight to the public App Store
+     (https://apps.apple.com/app/id6783621048); section header updated ("It's here / Get it
+     on your phone"). roadmap.html updated: iPhone = public/approved, Android = still testing.
+     Deployed to Firebase hosting via the service-account method; VERIFIED the new card and
+     roadmap text serving on milk-b4-meat.web.app. (The previously-uncommitted index.html
+     TestFlight edits were superseded by this, as intended.)
+  2. PRINT KIT: generated church-launch-kit/qr-appstore.png (QR → App Store URL). Rewrote the
+     iPhone section of How-to-Get-the-App.html (App Store steps, no TestFlight), regenerated
+     the PDF via headless Chrome, copied over TO-PRINT sheet #4, and visually verified the
+     PDF (one page, clean, both QRs render). Rewrote 04_Install-Guide.md iPhone path for the
+     App Store. Old printed copies of sheet #4 are obsolete — reprint. Other brochures fine.
+  3. DOMAIN: verified milkb4meat.org is ALREADY on Firebase (apex 199.36.158.100, www CNAME
+     milk-b4-meat.web.app, HTTP 200, real site content). START-HERE's June-30 Squarespace
+     placeholder warning was STALE — corrected in START-HERE.md.
+  4. STORE PAGE: still not indexed at time of writing (availability fix was earlier today;
+     up to ~24h is normal). Created scheduled task "check-appstore-live" (3x daily) that
+     notifies Cameron when live, updates START-HERE, commits, and disables itself.
+- What changed: site/index.html, site/roadmap.html (deployed), church-launch-kit
+  How-to-Get-the-App.html/pdf + qr-appstore.png (+ committed the existing qr pngs),
+  TO-PRINT sheet #4, 04_Install-Guide.md, START-HERE.md, this entry.
+- Commit: (chain-link on top of c3fcf5b)
+
 ## 2026-07-04 — Store-page 404 root-caused: ZERO territories set — FIXED via ASC API
 - What we did: Cameron asked if Apple approved and whether the website/printed material
   need changing. Verified the chain (193cba4 ✓). Re-checked: 1.0 still READY_FOR_SALE,

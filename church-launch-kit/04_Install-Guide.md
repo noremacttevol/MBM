@@ -8,22 +8,22 @@
 
 **"Is your phone an iPhone or an Android?"**
 
-- **iPhone** → they use TestFlight. You send one link, they tap it. Nothing needed from you in advance. Easiest path.
+- **iPhone** → it's on the public **App Store** now. They search "Milk Before Meat" or tap one link. Nothing needed from you in advance. Easiest path.
 - **Android** → you need their **Google account email** *before* they can get in, because you add them to the tester list. Slightly more setup, but still about two minutes.
 
 Knowing this up front means you never send an Android person an iPhone link, or promise a one-tap install to someone you first need an email from.
 
 ---
 
-## iPhone install (TestFlight) — the easy path
+## iPhone install (App Store) — the easy path
 
-This is as simple as it gets. Send the person these steps:
+The app is live on the public App Store — no TestFlight, no invites. Send the person these steps:
 
-1. On your iPhone, install the free **TestFlight** app from the App Store (it's Apple's official app for trying apps before they're public).
-2. Tap this link on your phone: **https://testflight.apple.com/join/cPNpeh3H**
-3. Tap **Accept**, then **Install**. Milk Before Meat appears on your home screen like any other app.
+1. On your iPhone, open the **App Store**.
+2. Search **Milk Before Meat** — or tap this link on your phone: **https://apps.apple.com/app/id6783621048**
+3. Tap **Get**. Milk Before Meat appears on your home screen like any other app.
 
-That's it. No email needed from them in advance, no list to add them to. If you're putting it on the Bishop's iPhone in person, you can just do these three steps for him while you're sitting together — about ninety seconds.
+That's it. No email needed from them in advance, no list to add them to. If you're putting it on the Bishop's iPhone in person, you can just do these steps for him while you're sitting together — about sixty seconds.
 
 ---
 
@@ -46,7 +46,7 @@ If they tap the link and it says they don't have access, it almost always means 
 
 ## Quick reference for putting it on the Bishop's phone in person
 
-**If the Bishop has an iPhone:** Just do the three TestFlight steps for him on the spot. Two minutes, done, he's holding it.
+**If the Bishop has an iPhone:** Just install it from the App Store for him on the spot. One minute, done, he's holding it.
 
 **If the Bishop has an Android:** You'll need a moment of prep — ask for his Gmail before or at the start of the meeting, add it to the tester list (this can be done from your phone or laptop in the Play Console), then have him tap the opt-in link. If adding him on the spot feels fiddly during a short meeting, it's perfectly fine to say: "Let me get you set up to try it yourself this week — what's the Gmail on your phone?" and have it ready for him within the hour.
 
@@ -54,7 +54,7 @@ If they tap the link and it says they don't have access, it almost always means 
 
 ## A note on which links are which
 
-- **iPhone / TestFlight:** https://testflight.apple.com/join/cPNpeh3H
+- **iPhone / App Store (public):** https://apps.apple.com/app/id6783621048
 - **Android / Play internal test:** https://play.google.com/apps/internaltest/4700576250998456373
 
-These are the current, working test links as of late June 2026. (The app is also on its way to the public App Store and Google Play, but for testing with priesthood holders, these two links are the right ones to use right now.)
+These are the current, working links as of July 2026. The iPhone app is fully public on the App Store. Android is still in Google's testing track while we complete their required closed-test period — so Android testers still need the email + opt-in step above.

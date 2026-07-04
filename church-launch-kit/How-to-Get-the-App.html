@@ -49,6 +49,19 @@
     font-size: 8.6pt; color: #6a7682; text-align: center; line-height: 1.45;
   }
   .footer .contact { margin-top: 4px; color: #50616f; }
+
+  .startrow { display: flex; align-items: center; justify-content: center; gap: 20px; }
+  .startrow .starttext { text-align: left; }
+  .steprow { display: flex; align-items: center; gap: 18px; }
+  .steptext { flex: 1; }
+  .qrbox { text-align: center; flex-shrink: 0; }
+  .qr { width: 104px; height: 104px; display: block; }
+  .qr.small { width: 82px; height: 82px; }
+  .qrcap {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 7.5pt; letter-spacing: 1px; text-transform: uppercase;
+    color: #8a6a2f; margin-top: 4px;
+  }
 </style>
 </head>
 <body>
@@ -60,17 +73,33 @@
   </div>
 
   <div class="start">
-    <p class="big">Everything starts at <b>milkb4meat.org</b></p>
-    <p class="sub">Open it on your phone and follow the steps for your kind of phone &mdash; or use the steps below.</p>
+    <div class="startrow">
+      <div class="starttext">
+        <p class="big">Get it on your phone in about a minute</p>
+        <p class="sub">Find your kind of phone below and follow the steps. Or, if you&rsquo;d rather see everything in one place, scan the code &mdash; or open <b>milkb4meat.org</b> in your browser.</p>
+      </div>
+      <div class="qrbox">
+        <img class="qr small" src="qr-website.png" alt="QR code that opens milkb4meat.org">
+        <div class="qrcap">Scan for the website</div>
+      </div>
+    </div>
   </div>
 
   <h2>If you have an iPhone or iPad</h2>
-  <ol>
-    <li>Install the free <b>TestFlight</b> app from the App Store (it&rsquo;s Apple&rsquo;s official app for trying apps before they&rsquo;re public).</li>
-    <li>Tap this link on your phone: <span class="link">testflight.apple.com/join/cPNpeh3H</span></li>
-    <li>Tap <b>Accept</b>, then <b>Install</b>. Milk Before Meat appears on your home screen like any other app.</li>
-  </ol>
-  <p class="note">No account or payment needed. (The iPhone version is also in Apple&rsquo;s final review for the public App Store &mdash; coming any day.)</p>
+  <div class="steprow">
+    <div class="steptext">
+      <ol>
+        <li>It&rsquo;s on the <b>App Store</b> now &mdash; no invites, no extra apps.</li>
+        <li><b>Scan the code</b> with your phone&rsquo;s camera &mdash; or open the App Store and search <span class="link">Milk Before Meat</span>.</li>
+        <li>Tap <b>Get</b>. Milk Before Meat appears on your home screen like any other app.</li>
+      </ol>
+    </div>
+    <div class="qrbox">
+      <img class="qr" src="qr-appstore.png" alt="QR code to install Milk Before Meat from the App Store">
+      <div class="qrcap">Scan to install on iPhone</div>
+    </div>
+  </div>
+  <p class="note">Free, no account or payment needed.</p>
 
   <h2>If you have an Android phone</h2>
   <p>Android testing is invite-only for now, so there is one small step first:</p>
