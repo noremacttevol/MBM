@@ -1,12 +1,20 @@
 # START HERE — MBM Current State (the ONLY file that is allowed to say "now")
 
-**Last verified true: 2026-07-02 pt.5 — 🎉 APPLE APPROVED. iOS 1.0 (build 8) is
-READY_FOR_SALE / READY_FOR_DISTRIBUTION (confirmed via ASC API). BUT the public store
-page (https://apps.apple.com/us/app/id6783621048) was still 404 / not indexed at
-19:55Z — normal post-approval propagation, usually minutes-to-hours. NEXT STEP for any
-session: re-check that URL; once it loads, flip the site/index.html iPhone card from
-TestFlight to the App Store link, deploy hosting, and update this file (see
-docs/publishing/WAITING-ON-APPLE.md — adapted: full App Store link now, not TestFlight).
+**Last verified true: 2026-07-04 — 🎉 APPLE APPROVED + AVAILABILITY BUG FOUND & FIXED.
+iOS 1.0 (build 8) is READY_FOR_SALE (re-confirmed via ASC API 2026-07-04). The store
+page had been 404 for 2 days — NOT propagation lag: the app had NO territory
+availability record (available in ZERO countries; ASC API returned NOT_FOUND for
+appAvailabilities). Fixed 2026-07-04 via ASC API: availability set to ALL 175
+territories + availableInNewTerritories=true, verified (release date 2026-07-04).
+Store page should index within minutes-to-hours of that fix. NEXT STEP for any
+session: re-check https://apps.apple.com/us/app/id6783621048 (or
+`curl "https://itunes.apple.com/lookup?id=6783621048"`); once live, (1) flip the
+site/index.html iPhone card from TestFlight to the App Store link (NOTE: index.html
+has uncommitted local edits — preserve them), deploy Firebase hosting; (2) refresh
+printed material that references TestFlight: TO-PRINT sheet #4 "How to Get the App",
+church-launch-kit/How-to-Get-the-App.html+pdf, 04_Install-Guide.md, and the
+qr-testflight.png QR (regenerate pointing at the App Store URL); (3) update this file.
+The Come-and-See brochure only shows milkb4meat.org — no reprint needed there.
 Android version code 7 is LIVE on the Play internal track. ALSO: the Railway key proxy
 is HARDENED and redeployed (rate limits, size caps, daily wallet fuse) and tightened
 Firestore rules are published — see FOR-CAMERON/SECURITY-REPORT-2026-07-02.md. The app

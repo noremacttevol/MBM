@@ -27,6 +27,27 @@
 
 ---
 
+## 2026-07-04 — Store-page 404 root-caused: ZERO territories set — FIXED via ASC API
+- What we did: Cameron asked if Apple approved and whether the website/printed material
+  need changing. Verified the chain (193cba4 ✓). Re-checked: 1.0 still READY_FOR_SALE,
+  releaseType AFTER_APPROVAL (no release tap pending) — but iTunes lookup STILL returned
+  0 results 2 days after approval. Dug in: GET appAvailabilityV2 returned NOT_FOUND —
+  the app had NO territory availability record, i.e. available in ZERO countries. That,
+  not propagation, was the 404.
+- The fix: POST /v2/appAvailabilities with all 175 territories, availableInNewTerritories
+  =true. Verified: 175 territories available, releaseDate 2026-07-04. Lookup not yet
+  indexed at time of writing (expected lag after the change).
+- Printed-material audit (for when the page goes live): TO-PRINT #4 hand-out,
+  church-launch-kit How-to-Get-the-App (html+pdf), 04_Install-Guide.md, and
+  qr-testflight.png all point at TestFlight → refresh with the App Store link.
+  Come-and-See brochure only shows milkb4meat.org — fine as is. Website: site/index.html
+  iPhone card still TestFlight (has UNCOMMITTED local edits — preserve them when flipping).
+- What's next: re-check the store URL; when live, flip the site card + deploy hosting,
+  refresh the print pieces above, update START-HERE.md.
+- What changed: START-HERE.md truth block; this entry. No code. (Local uncommitted edits
+  to site/index.html and print files were left untouched, as found.)
+- Commit: (chain-link on top of 193cba4)
+
 ## 2026-07-02 (pt.5) — 🎉 APPLE APPROVED — 1.0 is READY_FOR_SALE (store page still propagating)
 - What we did: Cameron asked if Apple accepted. Confirmed via the ASC API (signed JWT with
   the .p8 key): version 1.0 = READY_FOR_SALE / READY_FOR_DISTRIBUTION. Build 8 passed.
