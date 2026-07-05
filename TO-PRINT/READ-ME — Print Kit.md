@@ -54,3 +54,17 @@ this is a real, growing project. (Light on ink by design.)
   print those.
 
 _If anything ever looks out of date, say the word and I'll refresh it._
+
+
+## NEW — the Bishopric Stack (July 5, 2026)
+
+**`Bishopric-Stack/`** is the complete, numbered, ink-light set for presenting to the
+bishopric — all 16 documents in the order you'd use them, every page white with
+navy-and-gold text, every fact verified current (iPhone live on the App Store, etc.).
+Print the whole folder in order and you're carrying everything: your own briefing and
+Church-Day Sheet, the hand-outs, the plans, the privacy and compliance reviews.
+
+**`Ink-Heavy (screen or print shop)/`** holds the beautiful dark-cover versions and
+screenshot-heavy documents. Don't print these at home — they will drain a cartridge.
+They're for screens, or for a print shop / library printer if you ever want the
+gorgeous versions on paper.

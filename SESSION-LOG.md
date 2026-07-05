@@ -27,6 +27,23 @@
 
 ---
 
+## 2026-07-05 (pt.2) — Bishopric-Stack refined: white covers on the big three, compliance doc added, ink-heavy fully separated
+- Built on the parallel session's stack (2d24a76). Docs 14 (Overview & Launch Plan) and
+  15 (Cameron's Field Guide) replaced with NEW white-cover printable versions (sources:
+  pitch-book/book-printable.html, cameron-guide-printable.html — CSS overrides kill the
+  solid-navy cover page and dark quote/table blocks that drain cartridges).
+- Added doc 16: "Within the Lord's Boundaries" compliance review, white-cover printable
+  (compliance-printable.html). Verified current (0 stale terms).
+- Moved "Walkthrough for Testers" (4.6MB of screenshots) out of the stack into
+  TO-PRINT/"Ink-Heavy (screen or print shop)/", alongside the dark-cover Come-and-See and
+  The Complete Book (screen-read, slightly dated — no rebuildable source; do not print).
+- READ-ME — Print Kit.md updated to explain the two folders.
+- Context: Cameron's printer ran out of ink mid-proof-set; all queues canceled. The full
+  16-doc Bishopric-Stack (~62 pages, all ink-light) is ready to print when ink arrives.
+- Commit: (this chain-link, on top of 2d24a76)
+
+---
+
 ## 2026-07-05 (pt.2) — Bishopric-Stack built & printed; every doc de-staled; ink-heavy separated from printable
 - Cameron asked for a complete printable stack for presenting to the bishopric, with
   ink-heavy (dark-page) pieces separated out, after verifying EVERY file is accurate.

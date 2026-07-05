@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Milk Before Meat — Cameron's Field Guide</title>
+<style>
+  @page { size: Letter; margin: 22mm 20mm 20mm 20mm;
+    @bottom-center { content: counter(page); font-family: Georgia, serif; font-size: 9pt; color: #9a8f7a; } }
+  @page :first { margin: 0; @bottom-center { content: none; } }
+  @page cover { margin: 0; @bottom-center { content: none; } }
+  @page chapter { @bottom-center { content: none; } }
+
+  html { font-family: Georgia, "Times New Roman", serif; color: #20232e; }
+  body { margin: 0; line-height: 1.55; font-size: 11.5pt; }
+
+  .cover { page: cover; background: #11152b; color: #f3ede0; height: 100vh;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center; padding: 0 24mm; box-sizing: border-box; page-break-after: always; }
+  .cover .icon { width: 116px; height: 116px; border-radius: 26px; border: 2px solid #c9a85c; object-fit: cover; }
+  .cover .kicker { letter-spacing: 5px; font-size: 10pt; color: #c9a85c; text-transform: uppercase; margin-top: 30px; }
+  .cover h1 { font-size: 38pt; margin: 14px 0 6px 0; font-weight: normal; letter-spacing: 1px; color: #f7f2e7; }
+  .cover .tag { font-size: 14pt; font-style: italic; color: #cdbf9f; margin: 6px 0 0 0; }
+  .cover .rule { width: 60px; height: 2px; background: #c9a85c; margin: 28px 0; }
+  .cover .sub { font-size: 11pt; color: #b7ad97; max-width: 380px; line-height: 1.6; }
+  .cover .foot { position: absolute; bottom: 26mm; font-size: 9.5pt; color: #8c8470; letter-spacing: 1px; }
+
+  h2.chapnum { color: #c9a85c; letter-spacing: 4px; font-size: 10pt; text-transform: uppercase; margin: 0 0 4px 0; font-weight: normal; }
+  h2.chaptitle { font-size: 23pt; margin: 0 0 18px 0; font-weight: normal; color: #11152b; line-height: 1.15; }
+  h3 { font-size: 13.5pt; color: #2a3358; margin: 22px 0 6px 0; font-weight: bold; }
+  p { margin: 0 0 11px 0; }
+  .lead { font-size: 12.5pt; color: #3a3f52; font-style: italic; }
+  strong { color: #11152b; }
+
+  .chapter-opener { page-break-before: always; }
+  .goldrule { width: 48px; height: 3px; background: #c9a85c; margin: 0 0 16px 0; }
+  .callout { background: #f7f2e6; border-left: 4px solid #c9a85c; padding: 12px 16px; margin: 16px 0; font-size: 11pt; color: #3a3f52; }
+
+  .qa { margin: 0 0 16px 0; padding-bottom: 12px; border-bottom: 1px solid #ece5d4; }
+  .qa:last-child { border-bottom: none; }
+  .qa .q { font-weight: bold; color: #11152b; font-size: 12pt; margin: 0 0 5px 0; }
+  .qa .q:before { content: "Q"; color: #c9a85c; font-weight: bold; margin-right: 8px; }
+  .qa .a { margin: 0; color: #2c2f3c; }
+  .qa .short { font-style: italic; color: #876512; margin: 0 0 4px 0; font-size: 10.5pt; }
+
+  ul.clean { margin: 6px 0 12px 0; padding-left: 0; list-style: none; }
+  ul.clean li { padding: 4px 0 4px 20px; position: relative; }
+  ul.clean li:before { content: "\2014"; position: absolute; left: 0; color: #c9a85c; }
+
+  .say { background: #f0f6ef; border-left: 4px solid #2c5d2c; padding: 10px 14px; margin: 8px 0; }
+  .say .h { font-weight: bold; color: #2c5d2c; font-size: 10pt; letter-spacing: .5px; text-transform: uppercase; }
+  .dont { background: #f7ede9; border-left: 4px solid #9a3b2a; padding: 10px 14px; margin: 8px 0; }
+  .dont .h { font-weight: bold; color: #9a3b2a; font-size: 10pt; letter-spacing: .5px; text-transform: uppercase; }
+
+  .scripture { font-style: italic; color: #4a4636; text-align: center; font-size: 12.5pt; margin: 18px 30px; line-height: 1.5; }
+  .scripture .ref { display:block; font-style: normal; font-size: 9.5pt; color:#9a8f7a; letter-spacing: 2px; text-transform: uppercase; margin-top: 8px; }
+
+  .toc-line { display: flex; justify-content: space-between; border-bottom: 1px dotted #cfc6b0; padding: 7px 0; font-size: 11.5pt; }
+  .toc-line .t { color: #20232e; } .toc-line .n { color: #9a8f7a; }
+  .toc-line.section { color:#c9a85c; font-size: 9.5pt; letter-spacing: 3px; text-transform: uppercase; border: none; padding: 16px 0 2px 0; }
+
+  .card { border: 2px solid #11152b; border-radius: 10px; padding: 14px 18px; margin: 14px 0; }
+  .card h4 { margin: 0 0 8px 0; color: #11152b; font-size: 12pt; }
+  .endnote { font-size: 9.5pt; color: #8c8470; font-style: italic; }
+</style>
+
+<style>
+/* INK-LIGHT PRINT OVERRIDES */
+.cover { background:#ffffff !important; color:#1d2f44 !important; }
+.cover h1, .cover p, .cover div, .cover span { color:#1d2f44 !important; }
+.cover .rule { background:#c9a85c !important; }
+.churchquote { background:#f7f2e6 !important; color:#25303b !important; border-left:4px solid #c9a85c; }
+table.status th, table.map th { background:#f7f2e6 !important; color:#1d2f44 !important; border-bottom:2px solid #c9a85c; }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <img class="icon" src="img/cover-icon.png" alt="Milk Before Meat">
+  <div class="kicker">Milk Before Meat</div>
+  <h1>Cameron&rsquo;s Field Guide</h1>
+  <p class="tag">For your eyes. Every question, every answer, the whole plan in your pocket.</p>
+  <div class="rule"></div>
+  <div class="sub">So you never have to scramble for words. Pull this out before any conversation
+  and you&rsquo;ll know exactly what to say &mdash; and what not to.</div>
+  <div class="foot">PRIVATE &middot; FOR CAMERON &nbsp;&bull;&nbsp; JUNE 2026</div>
+</div>
+
+<!-- NOTE -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">Start here</h2>
+  <h2 class="chaptitle">How to use this guide</h2>
+  <div class="goldrule"></div>
+  <p class="lead">This one is just for you. It is the backstage version &mdash; blunter, more personal, and
+  more complete than anything you&rsquo;d hand someone else.</p>
+  <p>Keep it on your phone. Before you sit down with a friend, a tester, or your bishop, skim the section
+  that fits. Each hard question has a <em>one-line answer</em> (the italic line) for when you only have a
+  breath, and a <em>fuller answer</em> for when you have a minute.</p>
+  <p>It also holds the things you told yourself you never want to lose &mdash; why you&rsquo;re doing this, the
+  order of the plan, and the lines you must never cross. When you get tired or someone rattles you, come
+  back here. It will steady you.</p>
+  <div class="callout">The golden rule of every pitch: <strong>lead with honesty, not polish.</strong> The most
+  disarming thing you can do is name the hard part before they do. It tells people you&rsquo;ve already
+  wrestled with it &mdash; and that you can be trusted with their &ldquo;no.&rdquo;</div>
+</div>
+
+<!-- CONTENTS -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">Contents</h2>
+  <h2 class="chaptitle">What&rsquo;s inside</h2>
+  <div class="goldrule"></div>
+  <div class="toc-line section">Say it in your sleep</div>
+  <div class="toc-line"><span class="t">1 &nbsp; The pitch, three lengths</span><span class="n">10 sec / 1 min / 5 min</span></div>
+  <div class="toc-line section">The hard questions</div>
+  <div class="toc-line"><span class="t">2 &nbsp; &ldquo;Is this even allowed?&rdquo;</span><span class="n">the Church &amp; AI</span></div>
+  <div class="toc-line"><span class="t">3 &nbsp; &ldquo;Isn&rsquo;t AI dangerous / fake / cold?&rdquo;</span><span class="n">the AI worries</span></div>
+  <div class="toc-line"><span class="t">4 &nbsp; &ldquo;Isn&rsquo;t it sneaky to hide that it&rsquo;s LDS?&rdquo;</span><span class="n">the method</span></div>
+  <div class="toc-line"><span class="t">5 &nbsp; &ldquo;What about my data / privacy?&rdquo;</span><span class="n">trust</span></div>
+  <div class="toc-line section">Who you&rsquo;re talking to</div>
+  <div class="toc-line"><span class="t">6 &nbsp; Answers by audience</span><span class="n">member, bishop, family</span></div>
+  <div class="toc-line section">Your own compass</div>
+  <div class="toc-line"><span class="t">7 &nbsp; Why you&rsquo;re doing this</span><span class="n">the conviction</span></div>
+  <div class="toc-line"><span class="t">8 &nbsp; The plan, in order</span><span class="n">phases &amp; the IP call</span></div>
+  <div class="toc-line"><span class="t">9 &nbsp; Lines you never cross</span><span class="n">the guardrails</span></div>
+  <div class="toc-line"><span class="t">10 &nbsp; The one-card cheat sheet</span><span class="n">tear-out</span></div>
+</div>
+
+<!-- 1. PITCH -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">Chapter One &middot; Say it in your sleep</h2>
+  <h2 class="chaptitle">The pitch, three lengths</h2>
+  <div class="goldrule"></div>
+
+  <h3>The ten-second version</h3>
+  <div class="card"><p style="margin:0;">&ldquo;It&rsquo;s an app that meets people right where they are spiritually &mdash;
+  starts with a story, listens, and walks with them &mdash; and there&rsquo;s always a real person one tap away.
+  It&rsquo;s built to do what Jesus did, just at the scale a phone allows.&rdquo;</p></div>
+
+  <h3>The one-minute version</h3>
+  <div class="card"><p style="margin:0;">&ldquo;You know how missionaries can only be in so many places, and most people
+  scroll past anything that feels like a sales pitch? This app opens with a short, true story about
+  Jesus &mdash; no branding, no survey &mdash; and then asks one honest question about <em>them</em>. It quietly
+  learns where a person is: hurting, doubting, curious, or already a believer, and gives them exactly the
+  next thing that helps. It never pressures. It never pretends to be human. And the second someone wants
+  a real person, they get one. For members, it becomes a quiet place to deepen their own walk with Christ
+  instead of doom-scrolling. It&rsquo;s milk before meat &mdash; the way the Savior taught.&rdquo;</p></div>
+
+  <h3>The five-minute version</h3>
+  <p>Walk them through the screens (use the walkthrough document or your phone): the opening sanctuary,
+  the story, the one question, the way the app reflects their answer back so they feel <em>seen</em>, the
+  feed that adapts, the chat that answers gently and always offers a real person, the journal, and the
+  Profile where they can see &mdash; and delete &mdash; everything the app has learned. Then show the members&rsquo;
+  &ldquo;Walk with Christ&rdquo; space. End on the honesty: &ldquo;It&rsquo;s not endorsed by the Church &mdash; it&rsquo;s mine, and
+  I&rsquo;m testing it carefully and taking it to my leaders. I&rsquo;d love your honest read.&rdquo;</p>
+  <div class="callout">Whatever length you use, end the same way every time: <strong>ask for their honest
+  opinion, and ask them to test it.</strong> You are not selling. You are gathering witnesses.</div>
+</div>
+
+<!-- 2. IS THIS ALLOWED -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">Chapter Two &middot; The hard questions</h2>
+  <h2 class="chaptitle">&ldquo;Is this even allowed?&rdquo;</h2>
+  <div class="goldrule"></div>
+  <p class="lead">This is the first question almost everyone asks. Lean into it &mdash; you have a strong,
+  honest answer, and a whole separate document that backs it with the Church&rsquo;s own words.</p>
+
+  <div class="qa"><p class="q">Is this app approved or endorsed by the Church?</p>
+  <p class="short">No &mdash; and I never claim it is.</p>
+  <p class="a">It&rsquo;s an independent, third-party app that I built and run with volunteers. I&rsquo;m holding it
+  to the Church&rsquo;s published AI principles, testing it carefully, and taking it to my leaders. If the day
+  comes that the Church wants a role, that&rsquo;s their call to make, not mine to assume.</p></div>
+
+  <div class="qa"><p class="q">Hasn&rsquo;t the Church been cautious about AI?</p>
+  <p class="short">Yes &mdash; and that caution is exactly the standard I built to.</p>
+  <p class="a">In March 2024 the Church gave four guiding principles for AI: support don&rsquo;t supplant the
+  connection to God, be transparent that it&rsquo;s AI, safeguard sacred and personal information, and stay
+  accountable by reviewing outputs. In December 2025 it added Handbook section 38.8.47 saying AI can&rsquo;t
+  replace revelation or real relationships. The app was shaped to fit every one of those. I have it all
+  written down with sources in the &lsquo;Within the Lord&rsquo;s Boundaries&rsquo; document.</p></div>
+
+  <div class="qa"><p class="q">Didn&rsquo;t Elder Gong warn about exactly this kind of thing?</p>
+  <p class="short">He drew the map I&rsquo;m following.</p>
+  <p class="a">Elder Gong said AI &ldquo;can answer questions, but it cannot answer prayers,&rdquo; and that we
+  should let it &ldquo;deepen, not diminish&rdquo; our relationship with God &mdash; and if anyone&rsquo;s tempted to confide
+  in a chatbot instead of a real person, reach out to someone who loves them. That&rsquo;s why a real human is
+  always one tap away in my app, and why the AI never pretends to be the source of truth. It points
+  people <em>toward</em> God and real people, not away from them.</p></div>
+
+  <div class="qa"><p class="q">So why does the app talk about faith at all, if the Church mostly uses AI for logistics?</p>
+  <p class="short">It&rsquo;s a knowledgeable friend, not an oracle.</p>
+  <p class="a">That&rsquo;s the honest edge, and I name it. The app does go further than the Church&rsquo;s internal
+  use &mdash; it talks about God and doubt. But it never claims to be revelation, never writes anyone&rsquo;s
+  prayers or talks, and always walks toward scripture the person already trusts and toward a real human.
+  That&rsquo;s exactly why it stays third-party and volunteer-run until leaders weigh in.</p></div>
+</div>
+
+<!-- 3. AI WORRIES -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">Chapter Three &middot; The hard questions</h2>
+  <h2 class="chaptitle">&ldquo;Isn&rsquo;t AI dangerous, fake, or cold?&rdquo;</h2>
+  <div class="goldrule"></div>
+
+  <div class="qa"><p class="q">What if the AI says something doctrinally wrong?</p>
+  <p class="short">It&rsquo;s built to admit uncertainty and hand off &mdash; and I review it.</p>
+  <p class="a">The AI is taught to stay on the things it actually knows, to say &ldquo;I&rsquo;m not sure&rdquo; when it
+  isn&rsquo;t, and to offer a real person. In this first phase I can review responses. The whole tester program
+  exists to catch anything off before more people see it &mdash; which is the Church&rsquo;s own standard:
+  regularly test and review outputs.</p></div>
+
+  <div class="qa"><p class="q">Isn&rsquo;t it cold or fake to talk to a machine about God?</p>
+  <p class="short">It&rsquo;s a doorway to real people, not a replacement for them.</p>
+  <p class="a">The app never pretends to be a person, and it doesn&rsquo;t want to be the destination. It&rsquo;s the
+  warm front porch &mdash; it listens, it&rsquo;s patient, it&rsquo;s never too busy &mdash; and then it opens the door to a
+  real human, real scripture, and eventually real missionaries. A lot of people will say something to a
+  patient screen that they&rsquo;d never say to a stranger first.</p></div>
+
+  <div class="qa"><p class="q">Could it manipulate vulnerable people?</p>
+  <p class="short">It&rsquo;s designed to do the opposite &mdash; it honors a &ldquo;no.&rdquo;</p>
+  <p class="a">No pressure, no shame, no guilt tactics. Spiritual safety matters more than any conversion
+  number. The app will let someone walk away completely, just like Jesus let the rich young ruler walk
+  away. If anything, it errs toward gentleness.</p></div>
+
+  <div class="qa"><p class="q">What about people in real crisis &mdash; mental health, self-harm?</p>
+  <p class="short">It listens for that and points to real help and real people.</p>
+  <p class="a">The app is built to notice distress language and respond with care, not doctrine &mdash; and to
+  put a real human in front of them. It is not a therapist and never pretends to be.</p></div>
+</div>
+
+<!-- 4. METHOD -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">Chapter Four &middot; The hard questions</h2>
+  <h2 class="chaptitle">&ldquo;Isn&rsquo;t it sneaky to hide that it&rsquo;s LDS?&rdquo;</h2>
+  <div class="goldrule"></div>
+  <p class="lead">This is the objection that stings, because it sounds like it&rsquo;s about honesty. Here is how
+  you answer it without getting defensive.</p>
+
+  <div class="qa"><p class="q">Why doesn&rsquo;t it say up front that it&rsquo;s a Latter-day Saint app?</p>
+  <p class="short">Same reason Jesus opened with a story, not a survey.</p>
+  <p class="a">There&rsquo;s a difference between hiding what you are and not leading with everything at once.
+  The Savior taught in parables, gave milk before meat, and met people where they were &mdash; the woman at
+  the well didn&rsquo;t get the whole theology in sentence one. The app is plain that it&rsquo;s an AI companion and
+  that a real person is there. It just doesn&rsquo;t dump &lsquo;convert to my church&rsquo; on someone who&rsquo;s hurting &mdash;
+  it earns the right to that conversation, and it never lies about what it is when they&rsquo;re ready to know.</p></div>
+
+  <div class="qa"><p class="q">But isn&rsquo;t the Church&rsquo;s rule that people must know it&rsquo;s AI?</p>
+  <p class="short">Yes &mdash; and they do.</p>
+  <p class="a">The transparency principle is about people knowing when they&rsquo;re talking to <em>AI</em>, and on
+  that the app is completely open. <em>When</em> to introduce the restored gospel is a missionary-method
+  question, not an AI-honesty question. Two different things, and the app is honest on both.</p></div>
+
+  <div class="qa"><p class="q">What happens when someone realizes it&rsquo;s leading toward the Church?</p>
+  <p class="short">By then it&rsquo;s a conversation between friends, not a bait-and-switch.</p>
+  <p class="a">The app only opens the deeper, restored-gospel content once a person has shown they&rsquo;re open
+  to it &mdash; that they believe God is good and are curious about Him still speaking. It&rsquo;s a response to
+  <em>their</em> readiness, never a trick. And they can always say no and still keep everything good they
+  found.</p></div>
+</div>
+
+<!-- 5. DATA -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">Chapter Five &middot; The hard questions</h2>
+  <h2 class="chaptitle">&ldquo;What about my data and privacy?&rdquo;</h2>
+  <div class="goldrule"></div>
+
+  <div class="qa"><p class="q">Where does my information go?</p>
+  <p class="short">It mostly stays on your own phone.</p>
+  <p class="a">The app is local-first &mdash; your journey lives on your device. On the Profile screen you can
+  see <em>everything</em> the app has kept about you, and remove any line with one tap; removing it means the
+  app stops using it. You&rsquo;re never a hidden data point.</p></div>
+
+  <div class="qa"><p class="q">But the AI replies come from a big tech company&rsquo;s model, right?</p>
+  <p class="short">Yes, and I&rsquo;m honest about that.</p>
+  <p class="a">When there&rsquo;s internet, replies are generated by a commercial AI model. The Church&rsquo;s Handbook
+  warns members against putting sensitive <em>Church</em> records into outside AI tools &mdash; this app isn&rsquo;t
+  handling Church records at all, and the most personal material stays on the device. As it grows I&rsquo;ll put
+  formal data commitments in writing. I name this openly in the boundaries document.</p></div>
+
+  <div class="qa"><p class="q">Who is the &ldquo;real person&rdquo; I&rsquo;d be connected to?</p>
+  <p class="short">Right now, me &mdash; later, trained volunteers, and one day maybe missionaries.</p>
+  <p class="a">In this first phase, connection requests come to me and I review the AI&rsquo;s answers. Phase two
+  adds a small team of trained volunteers. Phase three is the dream: real missionaries integrated in, if
+  the Church ever wants that. It&rsquo;s built so those later phases slot in without a rewrite.</p></div>
+</div>
+
+<!-- 6. BY AUDIENCE -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">Chapter Six &middot; Who you&rsquo;re talking to</h2>
+  <h2 class="chaptitle">Answers by audience</h2>
+  <div class="goldrule"></div>
+
+  <h3>A skeptical member</h3>
+  <div class="say"><div class="h">Lead with</div>The honesty and the guardrails. &ldquo;A real person is always one
+  tap away. It never pretends to be revelation. I&rsquo;m testing it and taking it to my bishop.&rdquo;</div>
+  <div class="dont"><div class="h">Don&rsquo;t</div>Oversell or act like it&rsquo;s finished. Their doubt is a gift &mdash;
+  it&rsquo;s the exact feedback you want.</div>
+
+  <h3>Your bishop / a priesthood leader</h3>
+  <div class="say"><div class="h">Lead with</div>Submission and accountability. &ldquo;I want your honest read,
+  and I want to do this under counsel. Here&rsquo;s how it lines up with the Church&rsquo;s AI principles, and here&rsquo;s
+  where it pushes a boundary &mdash; I&rsquo;m not hiding that.&rdquo; Hand them the boundaries document.</div>
+  <div class="dont"><div class="h">Don&rsquo;t</div>Ask them to endorse it or imply the Church is behind it.
+  Ask only for honest feedback and for help finding more testers.</div>
+
+  <h3>Non-LDS family / friends</h3>
+  <div class="say"><div class="h">Lead with</div>The human part. &ldquo;It&rsquo;s a gentle app that starts with a
+  story and listens &mdash; no pressure, and a real person if you want one. Would you try it and tell me what
+  you honestly feel?&rdquo; Use the simple brochure.</div>
+  <div class="dont"><div class="h">Don&rsquo;t</div>Open with doctrine or &ldquo;join my church.&rdquo; Let the app be
+  what it is &mdash; milk first.</div>
+
+  <h3>A tech-worried parent</h3>
+  <div class="say"><div class="h">Lead with</div>Control and safety. &ldquo;You can see and delete everything it
+  knows. It won&rsquo;t shame anyone, it points to real people, and it watches for someone in real distress.&rdquo;</div>
+  <div class="dont"><div class="h">Don&rsquo;t</div>Get pulled into a debate about AI in general. Bring it back
+  to <em>this</em> app&rsquo;s specific guardrails.</div>
+</div>
+
+<!-- 7. CONVICTION -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">Chapter Seven &middot; Your own compass</h2>
+  <h2 class="chaptitle">Why you&rsquo;re doing this</h2>
+  <div class="goldrule"></div>
+  <p class="lead">Keep this where you can find it on the hard days. It&rsquo;s the &ldquo;why&rdquo; in your own words, so
+  you never lose the thread.</p>
+  <p>The restored gospel is <strong>defensible</strong> &mdash; beautifully, patiently defensible &mdash; and modern
+  tools and research make that more true, not less. Seekers are out there right now with no one tuned to
+  meet them where they are. You don&rsquo;t want to leave them without something built carefully and prayerfully
+  to do what the Savior did: notice the one, tell the story, ask the honest question, and wait.</p>
+  <p>You believe this should exist. You also believe it has to be done <em>right</em> &mdash; humbly, under
+  counsel, inside the Church&rsquo;s boundaries, and always pointing back to real people and the Church itself.
+  That tension isn&rsquo;t a problem to solve. It&rsquo;s the whole discipline of the work.</p>
+  <div class="scripture">&ldquo;And whoso receiveth you, there I will be also, for I will go before your face.
+  I will be on your right hand and on your left.&rdquo;<span class="ref">Doctrine &amp; Covenants 84:88</span></div>
+  <div class="callout">When you doubt whether you&rsquo;re the one to build this: you&rsquo;re not asked to be perfect,
+  only faithful and careful. Test it, take it to your leaders, listen hard, and let God carry the part you
+  can&rsquo;t.</div>
+</div>
+
+<!-- 8. PLAN -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">Chapter Eight &middot; Your own compass</h2>
+  <h2 class="chaptitle">The plan, in order</h2>
+  <div class="goldrule"></div>
+  <p class="lead">Don&rsquo;t skip steps. The order <em>is</em> the integrity of the thing.</p>
+  <ul class="clean">
+    <li><strong>Step 1 &mdash; Get many members testing it.</strong> Friends first, then their friends. You&rsquo;re
+    gathering honest opinions on whether it&rsquo;s good yet, and witnesses who&rsquo;ve seen it.</li>
+    <li><strong>Step 2 &mdash; Bring in your bishop.</strong> Show him openly, hand him the boundaries
+    document, and ask him to help gather more members to test and give honest feedback. Ask for counsel,
+    not endorsement.</li>
+    <li><strong>Step 3 &mdash; Document everything against the Church&rsquo;s words.</strong> Keep the boundaries
+    document current. Every time someone raises a concern, write the honest answer down.</li>
+    <li><strong>Step 4 &mdash; Make the proper call to the Church&rsquo;s Intellectual Property office</strong>
+    before ever using the Church&rsquo;s name, logo, or materials. Until then, stay clearly independent.</li>
+    <li><strong>Step 5 &mdash; Grow only as fast as it&rsquo;s good.</strong> Phase 2 adds trained volunteers to
+    answer real-person threads. Phase 3 is the long-term hope of real missionaries, if the Church ever
+    wants it. Build for it; don&rsquo;t presume it.</li>
+  </ul>
+  <div class="callout">If anyone pushes you to skip ahead &mdash; to launch big, to slap the Church&rsquo;s logo on
+  it, to claim approval &mdash; that&rsquo;s the moment to slow down. The patience is the witness.</div>
+</div>
+
+<!-- 9. GUARDRAILS -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">Chapter Nine &middot; Your own compass</h2>
+  <h2 class="chaptitle">Lines you never cross</h2>
+  <div class="goldrule"></div>
+  <ul class="clean">
+    <li>Never claim the app is endorsed, sponsored, or owned by the Church &mdash; until and unless it is.</li>
+    <li>Never use the Church&rsquo;s name, logo, or materials before clearing it with the IP office.</li>
+    <li>Never let the AI generate images of Heavenly Father or Jesus Christ, or imitate a leader&rsquo;s voice.</li>
+    <li>Never let the AI pose as revelation or write someone&rsquo;s prayers, blessings, talks, or lessons.</li>
+    <li>Never bury or remove the &ldquo;real person&rdquo; path. It is always one tap away.</li>
+    <li>Never pressure, shame, or guilt anyone. Honor every &ldquo;no&rdquo; completely.</li>
+    <li>Never hide what the app is when a person is ready to know.</li>
+    <li>Never treat a number as more important than the person it represents.</li>
+  </ul>
+  <div class="scripture">&ldquo;I have fed you with milk, and not with meat: for hitherto ye were not able to
+  bear it.&rdquo;<span class="ref">1 Corinthians 3:2</span></div>
+</div>
+
+<!-- 10. CHEAT SHEET -->
+<div class="chapter-opener" style="page: chapter;">
+  <h2 class="chapnum">Chapter Ten &middot; Tear-out</h2>
+  <h2 class="chaptitle">The one-card cheat sheet</h2>
+  <div class="goldrule"></div>
+  <div class="card">
+    <h4>If you only remember five things</h4>
+    <ul class="clean" style="margin:0;">
+      <li>It does what Jesus did: story first, listen, meet them where they are, never pressure.</li>
+      <li>A real person is always one tap away. The AI never pretends to be one.</li>
+      <li>It&rsquo;s mine, not the Church&rsquo;s &mdash; I&rsquo;m testing it and taking it to my leaders.</li>
+      <li>It honors the Church&rsquo;s AI principles, and I&rsquo;m honest about where it pushes a boundary.</li>
+      <li>I&rsquo;m not selling. I&rsquo;m asking for an honest test and honest feedback.</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h4>The line that ends every pitch</h4>
+    <p style="margin:0; font-style:italic; color:#2a3358;">&ldquo;Would you try it, and tell me honestly &mdash;
+    is it good yet? Where does it fall short? I&rsquo;d rather hear the hard thing now than later.&rdquo;</p>
+  </div>
+  <div class="card">
+    <h4>When someone raises the hard one (&ldquo;is this allowed / is it sneaky?&rdquo;)</h4>
+    <p style="margin:0;">Don&rsquo;t flinch. &ldquo;Good question &mdash; here&rsquo;s the honest answer,&rdquo; then give the
+    one-liner from chapters two and four. Offer the boundaries document. Your calm honesty <em>is</em> the
+    proof.</p>
+  </div>
+  <p class="endnote">Private working document for Cameron. Not for distribution. Independent of, and not an
+  official publication of, The Church of Jesus Christ of Latter-day Saints.</p>
+</div>
+
+</body>
+</html>
