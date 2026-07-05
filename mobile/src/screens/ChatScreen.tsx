@@ -6,6 +6,7 @@ import {
 } from 'react-native';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
+import { Ionicons } from '@expo/vector-icons';
 import { confirmAction, notify } from '../lib/confirm';
 import { useAppStore, isRestorationReady } from '../store/useAppStore';
 import ConnectCard from '../components/ConnectCard';
@@ -58,7 +59,7 @@ export default function ChatScreen() {
   const declineRestorationConsent = useAppStore(s => s.declineRestorationConsent);
   const aiConsent           = useAppStore(s => s.aiConsent);
   const grantAIConsent      = useAppStore(s => s.grantAIConsent);
-  const declineAIConsent    = useAppStore(s => s.declineAIConsent);
+  const sendConnectMessage  = useAppStore(s => s.sendConnectMessage);
 
   function confirmDeleteSession(id: string, title: string) {
     confirmAction(
@@ -137,6 +138,22 @@ export default function ChatScreen() {
     setShowHistory(false);
     setShowConnect(true);
     newRealPersonThread();
+  }
+
+  // From the consent card: skip the AI entirely and go to a real person. If the
+  // person arrived here from a "Talk about it →" link, the sourced question in
+  // the draft is sent into the fresh real-person thread so nothing they came
+  // with is lost — the whole point of the link is honored, just with a human.
+  async function handleRealPersonInstead() {
+    setShowHistory(false);
+    setShowConnect(true);
+    newRealPersonThread();
+    const carried = draft.trim();
+    if (carried) {
+      setDraft('');
+      await sendConnectMessage(carried);
+      flashCopiedBanner();
+    }
   }
 
   // Real-person "History": open (or close) the list of past real-person conversations.
@@ -221,8 +238,10 @@ export default function ChatScreen() {
           <TouchableOpacity style={styles.iconBtn} activeOpacity={0.75} onPress={handleNewChat} accessibilityRole="button" accessibilityLabel="New conversation">
             <Text style={styles.iconBtnText}>+</Text>
           </TouchableOpacity>
+          {/* Vector icon, not the 🕐 emoji: the emoji glyph is taller than the
+              Jost lineHeight and iOS clipped its top ~10% inside the 30px box. */}
           <TouchableOpacity style={styles.iconBtn} activeOpacity={0.75} onPress={handleAiHistory} accessibilityRole="button" accessibilityLabel="Conversation history">
-            <Text style={styles.iconBtnText}>🕐</Text>
+            <Ionicons name="time-outline" size={17} color={colors.textDim} />
           </TouchableOpacity>
         </View>
 
@@ -238,7 +257,7 @@ export default function ChatScreen() {
             <Text style={[styles.iconBtnText, styles.personBtnText]}>+</Text>
           </TouchableOpacity>
           <TouchableOpacity style={[styles.iconBtn, styles.personBtn]} activeOpacity={0.75} onPress={handleRealHistory} accessibilityRole="button" accessibilityLabel="Real person history">
-            <Text style={[styles.iconBtnText, styles.personBtnText]}>🕐</Text>
+            <Ionicons name="time-outline" size={17} color={colors.blue} />
           </TouchableOpacity>
         </View>
       </View>
@@ -398,52 +417,43 @@ export default function ChatScreen() {
         )}
 
         {/* ── AI-conversation consent (Apple 5.1.1(i)/5.1.2(i)) ───────────
-             Nothing typed here is ever sent until the person has been told what
-             is sent (their words), who receives it (Anthropic), and said yes.
-             'unknown' = never asked (e.g. upgraded from an older build): show
-             the full disclosure. 'declined' = honored, with a gentle way back. */}
-        {aiConsent === 'unknown' ? (
+             REWORKED July 2026 (Cameron): consent no longer lives in
+             onboarding — this card, at the moment of first use, IS the
+             disclosure. Nothing typed is ever sent until the person is told
+             their words are shared with an AI service and says yes. Short and
+             plain: "AI", not the vendor name (the privacy policy names it in
+             full, as Apple requires). Both 'unknown' (never asked) and
+             'declined' (Profile toggle off) land here — with a real-person
+             path that carries any "Talk about it" content they arrived with. */}
+        {aiConsent !== 'granted' ? (
           <View style={styles.aiConsentCard}>
-            <Text style={styles.aiConsentTitle}>Before we talk — one honest thing.</Text>
+            {draft.trim() !== '' && (
+              <Text style={styles.aiConsentTopic} numberOfLines={2}>
+                You came to talk about: “{draft.trim()}”
+              </Text>
+            )}
+            <Text style={styles.aiConsentTitle}>Two ways to talk here.</Text>
             <Text style={styles.aiConsentBody}>
-              This conversation is powered by an AI service — Claude, made by a
-              company called Anthropic. When you send a message, your words (and
-              what the app has learned from them, like your first name if you
-              shared it and what you've said about your faith) are sent securely
-              to Anthropic so it can write the response. Nothing is sold, and
-              nothing is used for ads or tracking — our privacy policy spells it
-              out in full. If you'd rather not, everything you write stays on
-              this device, and a real person is still one tap away.
+              This written conversation can be powered by AI. Turn it on, and
+              what you write is sent securely — not tied to your name — so the
+              reply can speak to what you're actually carrying. Nothing is
+              sold, nothing is used for ads or tracking; the privacy policy has
+              every detail, and you can turn it off any time on your Profile.
+              Or skip it and bring your question straight to a real person.
             </Text>
             <TouchableOpacity
               style={styles.aiConsentYes}
               activeOpacity={0.8}
               onPress={grantAIConsent}
             >
-              <Text style={styles.aiConsentYesText}>I understand — turn on the conversation</Text>
+              <Text style={styles.aiConsentYesText}>Turn on the AI conversation</Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={styles.aiConsentNo}
               activeOpacity={0.8}
-              onPress={declineAIConsent}
+              onPress={handleRealPersonInstead}
             >
-              <Text style={styles.aiConsentNoText}>Not now — keep my words on my device</Text>
-            </TouchableOpacity>
-          </View>
-        ) : aiConsent === 'declined' ? (
-          <View style={styles.aiConsentCard}>
-            <Text style={styles.aiConsentBody}>
-              The AI conversation is off — everything you write stays on this
-              device. Turn it on here or from your Profile whenever you'd like
-              to talk. Sending a message shares your words with Anthropic, the
-              AI service that writes the responses.
-            </Text>
-            <TouchableOpacity
-              style={styles.aiConsentYes}
-              activeOpacity={0.8}
-              onPress={grantAIConsent}
-            >
-              <Text style={styles.aiConsentYesText}>Turn on the conversation</Text>
+              <Text style={styles.aiConsentNoText}>Talk to a real person instead</Text>
             </TouchableOpacity>
           </View>
         ) : (
@@ -484,6 +494,12 @@ const styles = StyleSheet.create({
     paddingHorizontal: spacing.md, paddingVertical: spacing.md,
     gap: spacing.sm,
   },
+  // The sourced "Talk about it" content the person arrived with — shown so they
+  // can see it will be carried into whichever path they choose.
+  aiConsentTopic: {
+    fontSize: 12, fontFamily: 'Jost_400Regular', color: colors.goldLight,
+    fontStyle: 'italic', lineHeight: 17,
+  },
   aiConsentTitle: {
     fontSize: 15, fontFamily: 'Jost_400Regular', color: colors.text,
     fontStyle: 'italic',
@@ -499,12 +515,15 @@ const styles = StyleSheet.create({
   aiConsentYesText: {
     fontSize: 14, fontFamily: 'Jost_400Regular', color: '#15110a', fontWeight: '600',
   },
+  // "Talk to a real person instead" — a genuine equal path (the CLAUDE.md law:
+  // a real human one tap away), styled in the real-person blue, NOT as a muted
+  // decline button.
   aiConsentNo: {
-    borderWidth: 1, borderColor: colors.borderDim, borderStyle: 'dashed',
+    borderWidth: 1, borderColor: colors.blue,
     borderRadius: 22, paddingVertical: 10, paddingHorizontal: 20, alignSelf: 'flex-start',
   },
   aiConsentNoText: {
-    fontSize: 13, fontFamily: 'Jost_400Regular', color: colors.textMuted, fontStyle: 'italic',
+    fontSize: 14, fontFamily: 'Jost_400Regular', color: colors.blue, fontWeight: '600',
   },
 
   header: {

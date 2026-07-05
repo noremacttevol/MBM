@@ -484,17 +484,16 @@ export default function ProfileScreen() {
         <View style={styles.card}>
           <Text style={styles.sectionLabel}>AI CONVERSATION</Text>
           <Text style={styles.sectionNote}>
-            The app's conversation is powered by Claude, an AI service made by
-            Anthropic. When it's on, the words you write in chats, answers, and
-            kept notes — along with what the app has learned from them, like your
-            first name and what you've said about your faith — are sent securely
-            to Anthropic to write the responses. Nothing is sold, and nothing is
-            used for ads or tracking. When it's off, everything you write stays
-            on this device and the app speaks in its offline voice.
+            The written conversation can be powered by AI. When it's on, what
+            you write is sent securely — not tied to your name — so the
+            responses can speak to you personally. Nothing is sold, and nothing
+            is used for ads or tracking; the privacy policy has every detail.
+            When it's off, everything you write stays on this device and the
+            app speaks in its offline voice.
           </Text>
           <Text style={styles.aiConsentState}>
             {aiConsent === 'granted'
-              ? 'Currently ON — your words are shared with Anthropic to power the conversation.'
+              ? 'Currently ON — the conversation is powered by AI.'
               : 'Currently OFF — everything you write stays on this device.'}
           </Text>
           <TouchableOpacity

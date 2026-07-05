@@ -88,8 +88,15 @@ export default function HookScreen({ navigation }: Props) {
       ]),
 
       // The honest word, last and quiet — never the headline, but never hidden.
+      // JS driver ON PURPOSE (the one exception): with the native driver, the
+      // footer's opacity-0 must be handed off to the native side after mount,
+      // and on iOS that handoff can paint ONE full-opacity frame first — the
+      // exact "disclaimer flashes before the animation" bug (seen live in
+      // build 8). JS-driven opacity is a plain prop from the first frame:
+      // starts at 0, stays 0, fades in only when this step runs. One small
+      // Text fading at the end of the sequence costs nothing on the JS thread.
       Animated.timing(footerOpacity, {
-        toValue: 1, duration: 700, easing: ease, useNativeDriver: true,
+        toValue: 1, duration: 700, easing: ease, useNativeDriver: false,
       }),
     ]);
 
@@ -193,10 +200,13 @@ export default function HookScreen({ navigation }: Props) {
           prayers... it is not God and cannot be God." What stirs here is a
           spiritual exercise to take to God and to people who love you — and to let
           the Spirit, not an app, confirm as true. */}
+      {/* Opacity binds to the JS-driven footerOpacity from the FIRST frame — no
+          static-0 → animated-0 handoff, so the one-frame flash cannot happen.
+          The text stays mounted the whole time, so layout never jumps. */}
       <Animated.Text
         style={[
           styles.footerText,
-          { opacity: showContent ? footerOpacity : 0, marginBottom: insets.bottom + (COMPACT ? 12 : 24) },
+          { opacity: footerOpacity, marginBottom: insets.bottom + (COMPACT ? 12 : 24) },
         ]}
       >
         This app is not officially affiliated with any Church. It is not God either —
