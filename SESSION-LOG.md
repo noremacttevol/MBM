@@ -32,7 +32,7 @@
 - What changed in the app: `mobile/src/navigation/AppNavigator.tsx` (initialRouteName always 'Hook'), `mobile/src/screens/HookScreen.tsx` (CTA branches), `mobile/src/screens/OnboardScreen.tsx` (+11 stories), `mobile/src/store/useAppStore.ts` (session story exclusion in markStorySeen + buildFeed), new `mobile/src/data/openingStoryRefs.ts`.
 - What is now true that wasn't before: every cold open begins at the opening screen; a fresh, never-repeated story plays on each cold open until all 20 are seen and answered; the feed never shows the passage the opening screen just told. Shipped OTA to production (update group a2a43538-81fc-4c14-bb17-6fe025bb14d6, iOS + Android, runtime 1.0.0) — reaches installed apps after close/reopen ×2.
 - What's next / handed off: print the Bishopric-Stack when ink arrives; Cameron: spend cap at console.anthropic.com, keep gathering Android testers toward 15.
-- Commit: (fill after commit — the chain-link commit for this entry)
+- Commit: 76d90de
 
 ## 2026-07-05 (pt.2) — Bishopric-Stack refined: white covers on the big three, compliance doc added, ink-heavy fully separated
 - Built on the parallel session's stack (2d24a76). Docs 14 (Overview & Launch Plan) and
