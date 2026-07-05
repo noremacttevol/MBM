@@ -1,6 +1,15 @@
 # START HERE — MBM Current State (the ONLY file that is allowed to say "now")
 
-**Last verified true: 2026-07-04 (pt.3) — Three fixes from Cameron's live testing SHIPPED
+**Last verified true: 2026-07-05 — 🎉 THE APP STORE PAGE IS PUBLICLY LIVE. The direct
+URL https://apps.apple.com/app/id6783621048 loads and shows the app (verified by content
+check). App Store SEARCH may lag a day or two more (iTunes lookup API still 0 — that's
+the search index, not the page; the "check-appstore-live" watcher stays on to confirm
+indexing). Tell people: use the QR / direct link / milkb4meat.org, not search.
+CHURCH-DAY PREP DONE: roadmap fixed in all 3 copies (site page redeployed; TO-PRINT #5,
+site PDF, FOR-CAMERON/Roadmap.pdf all regenerated — old printed #5 copies said "waiting
+on Apple" and must be reprinted). Sheets 1–4 text-verified current. NEW one-page
+FOR-CAMERON/Church-Day-Sheet.pdf = Cameron's own pre-church checklist/script. Earlier
+same weekend (pt.3): three fixes from Cameron's live testing SHIPPED
 via OTA (code commit 841af0e; EAS update group 4093b44f, iOS+Android, runtime 1.0.0 —
 reaches installed builds after closing and reopening the app twice): (a) cold-open
 disclaimer no longer flashes before the animation (footer fade moved to the JS driver);

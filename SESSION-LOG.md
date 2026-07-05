@@ -27,6 +27,34 @@
 
 ---
 
+## 2026-07-05 — 🎉 STORE PAGE VERIFIED LIVE; church-day prep: roadmap refreshed everywhere, Cameron sheet made
+- **The App Store page is publicly LIVE.** Direct URL https://apps.apple.com/app/id6783621048
+  returns 200 and renders "Milk Before Meat" (verified by curl + content grep). The iTunes
+  lookup API still returns resultCount 0 — that's just Apple's SEARCH index lagging, which is
+  why the "check-appstore-live" watcher hasn't fired. Practical meaning: the QR/direct link
+  works NOW; App Store *search* may not find the app for a day or two. Watcher left running
+  to confirm when search indexing completes.
+- Confirmed for Cameron: the three pt.3 fixes shipped OTA to BOTH platforms (one JS bundle,
+  iOS + Android, runtime 1.0.0) — his Android internal-track build gets them after close/open ×2.
+- **Roadmap was stale in 3 places, all fixed:** site/roadmap.html still had "Apple's review —
+  submitted and waiting" as a NOW item (removed; the "approved and live" done-item already
+  existed) and the section header said "invite-only testing phase" (now "iPhone public,
+  Android finishing its test"). Regenerated the print PDF from the fixed page and synced all
+  three copies: TO-PRINT/"5 - Roadmap (where it's going).pdf", site/Milk-Before-Meat-Roadmap.pdf,
+  FOR-CAMERON/Roadmap.pdf. Site redeployed to Firebase hosting (verified serving).
+  Old printed #5 copies are obsolete — reprint.
+- Text-verified sheets 1–4: no stale TestFlight/waiting wording (sheet #4's "invite-only"
+  line is about Android, which is true). #4 from July 4 is current.
+- **NEW: FOR-CAMERON/Church-Day-Sheet.pdf (+.html)** — one-page printable, Cameron-only:
+  60-second pre-church verification of the 3 fixes, what's true now (iPhone live but tell
+  people to use the QR not search; Android invite flow), print quantities, one-breath script +
+  ask-for-counsel framing, in-the-moment fallbacks, open Cameron tasks. Visually verified 1 page.
+- Advice given: green light to show/share at church and seek counsel — iPhone installs work
+  via QR/link today.
+- Commit: (this chain-link, on top of d17db46)
+
+---
+
 ## 2026-07-04 (pt.3) — Cameron's 3 fixes: cold-open flash, clipped clock icon, consent reworked his way — SHIPPED OTA
 - Cameron's feedback (voice): (1) bottom "not God / not affiliated" disclaimer still flashes
   for a split second BEFORE the cold-open animation on the App Store build — the old fix
