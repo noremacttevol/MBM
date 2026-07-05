@@ -1,5 +1,16 @@
 # The Print Kit — what to print and hand out
 
+**Updated July 5, 2026 — the folder is now organized around ink:**
+
+- **`Bishopric-Stack/`** — the complete 16-document set for presenting to the
+  bishopric, numbered in the order to use them. ALL ink-light except #14 and #16,
+  which contain app screenshots. #1 in this folder is Cameron-only; #2 is the one
+  you hand the bishop.
+- **`Ink-Heavy (screen or print shop)/`** — the beautiful dark-cover Come-and-See
+  brochure lives here now. Show it on a screen, or have a print shop run it —
+  do NOT print it at home. Its ink-light twin is "1 - Come-and-See Brochure
+  (ink-light).pdf" in this folder and #09 in the Bishopric-Stack.
+
 Everything in this folder is **ready to print** as-is. They're all light on ink
 (white paper, a little navy-and-gold), so they won't drain a color cartridge.
 Each piece shows your contact info: **(843) 582-7278 · admin@milkb4meat.org · milkb4meat.org**.

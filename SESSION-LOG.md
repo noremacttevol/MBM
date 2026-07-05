@@ -27,6 +27,32 @@
 
 ---
 
+## 2026-07-05 (pt.2) — Bishopric-Stack built & printed; every doc de-staled; ink-heavy separated from printable
+- Cameron asked for a complete printable stack for presenting to the bishopric, with
+  ink-heavy (dark-page) pieces separated out, after verifying EVERY file is accurate.
+- **Full staleness audit + fixes (all TestFlight/"waiting on Apple" wording removed):**
+  pitch-book/book.html (status table → "Live", links + Ch.10 iPhone steps → public App
+  Store), church-launch-kit 00/02/03/07 md files. 04_Install-Guide, sheets 2–4, Field
+  Guide, Walkthrough already clean. Overview & Launch Plan PDF regenerated from the fixed
+  book.html (22 pp, 0 stale) and synced to FOR-CAMERON + pitch-book.
+- **NEW ink-light Come-and-See brochure** (pitch-book/brochure-printable.html → 4 white
+  pages, same words, cross mark instead of dark cover/screenshots). Dark original moved
+  to TO-PRINT/"Ink-Heavy (screen or print shop)/". Ink-light copy is the new TO-PRINT #1.
+- **NEW TO-PRINT/Bishopric-Stack/** — 16 numbered PDFs in presentation order (90 pp):
+  01 Church-Day Sheet · 02 Bishop Brochure · 03 Honest Review (kit 01) · 04 Privacy
+  One-Pager · 05 FAQ & Objections · 06 Staged Approach · 07 Plain-English Map ·
+  08 Priesthood Email · 09 Come-and-See ink-light · 10 For-Members · 11 How-to-Get ·
+  12 Install Guide · 13 Roadmap · 14 Overview & Launch Plan · 15 Field Guide ·
+  16 Walkthrough. Docs 03–08 + 12 newly rendered from the kit .md files (pandoc + Chrome,
+  house style). Kit READ-ME updated to explain the new layout.
+- **Excluded from print: FOR-CAMERON/The Complete Book.pdf** — 20 pp, still has 3 stale
+  TestFlight mentions and NO rebuildable source found; screen-read only until rebuilt.
+- **Printed on the HP DeskJet 4300:** earlier a 6-piece proof set (jobs 11–16), then per
+  Cameron's explicit choice the FULL 90-page stack (jobs 17–32).
+- Commit: (this chain-link, on top of 4769b29)
+
+---
+
 ## 2026-07-05 — 🎉 STORE PAGE VERIFIED LIVE; church-day prep: roadmap refreshed everywhere, Cameron sheet made
 - **The App Store page is publicly LIVE.** Direct URL https://apps.apple.com/app/id6783621048
   returns 200 and renders "Milk Before Meat" (verified by curl + content grep). The iTunes

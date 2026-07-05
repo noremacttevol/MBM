@@ -23,7 +23,7 @@ The stores use insider words for simple things. Here is every word you'll see, i
 - **Closed testing** — a named list of people you invite by email. **This is the one your church rollout uses.** They get the app and keep it. This is what people mean by "the official testing phase."
 - **Open testing** — anyone with a link can join. (You're not using this.)
 - **Production / Public release / Go live** — the real, public store. The final step. (Later.)
-- **TestFlight** — this is just *Apple's word* for testing. It's how your wife's iPhone gets the app. Same idea as closed testing, Apple's version.
+- **TestFlight** — this is just *Apple's word* for testing. It was how iPhones got the app before Apple approved it; now the iPhone app is simply on the public App Store, so this word matters less every day.
 - **"In review" / "Waiting for review"** — the company (Apple or Google) is looking it over before letting it go public. This is normal. It just means *waiting in line.* There is nothing for you to do while it says this.
 
 That's the whole vocabulary. There isn't more.
@@ -48,7 +48,7 @@ You were right to care about this. Here is the truth:
 
 **On Android: once someone installs from your invite link, the app just stays on their phone.** There is no countdown on their screen. No "your trial ends in X days." Nothing kicks them off. The 14 days is Google's behind-the-scenes counter, not a clock the user ever sees. They just use the app normally.
 
-**On iPhone (TestFlight):** Apple refreshes test builds every 90 days — that's far longer than two weeks, and renewing is a single tap. So again, nobody is on a 2-week countdown that boots them out.
+**On iPhone:** no countdown at all anymore — the app is live on the public App Store, a normal permanent install like any other app.
 
 So you can promise people honestly: *install it and keep it — it's yours, it won't expire on you.*
 
@@ -62,7 +62,7 @@ You don't quiz people on their phone brand up front. You get them excited first,
 
 Why this works: it's all true, it makes them feel chosen (because they are), and the only thing you need back from them is **"yes, and here's my email."** That email is the key that lets you add them as a tester.
 
-(If they have an iPhone instead of Android — great, you still want them. They join through Apple's TestFlight link. Either phone is welcome; you just collect their email either way.)
+(If they have an iPhone instead of Android — great, that's the easy one now: they install straight from the public App Store, no invite. It's the Android folks whose email you collect.)
 
 ---
 
@@ -86,7 +86,7 @@ You should never have to decode this alone — that's my job, and I check the pa
 
 This lines up with the rest of this kit. Each step has its own document for the exact words to use.
 
-1. **Now (already in motion):** The app is in testing on both stores. iPhone is waiting on Apple's review. Android is ready for the closed test. Nothing is stuck.
+1. **Now (already in motion):** iPhone is APPROVED and live on the public App Store (July 2026). Android is in testing, ready for Google's required closed test. Nothing is stuck.
 2. **Family and friends:** Get them excited, collect Android emails. This warms up your tester list before it counts.
 3. **Rich, then Kyle:** Walk it up the priesthood line — see `02_Staged-Approach-Plan.md`. Ask for counsel and their blessing, not approval.
 4. **The Bishop (this week):** Ask only for his blessing to let a few priesthood holders test it. Small, honest ask. See the staged plan and `05_FAQ-and-Objections.md`.

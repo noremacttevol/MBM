@@ -18,7 +18,7 @@ This folder is everything you need to take Milk Before Meat to your priesthood l
 
 **After the Bishop says yes:** `03_Priesthood-Invitation-Email.md` — two ready-to-send versions of the invitation to priesthood-holder testers. Send the Bishop the exact wording first.
 
-**For getting it onto phones:** `04_Install-Guide.md` — the two-minute steps for iPhone (TestFlight) and Android (Play internal testing), including the current install links.
+**For getting it onto phones:** `04_Install-Guide.md` — the two-minute steps for iPhone (now simply the public App Store) and Android (Play internal testing), including the current install links.
 
 **For anyone who asks about privacy:** `06_Privacy-One-Pager.md` — a plain, honest page on what the app collects and protects.
 

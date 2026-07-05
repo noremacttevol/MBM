@@ -91,7 +91,7 @@ Everything in that is true, and the only thing you need back is a "yes" and an e
 
 **A few things to keep it smooth:**
 
-- Don't quiz people on their phone brand first — get them interested, *then* ask "do you have an Android?" If they have an iPhone, they're still welcome; they join through Apple's TestFlight instead. Either way, you collect the email.
+- Don't quiz people on their phone brand first — get them interested, *then* ask "do you have an Android?" If they have an iPhone it's even easier: the app is live on the public App Store, so they just scan the QR or tap the link — no invite needed. Android is the one where you collect the email.
 - Reassure them it's not a timed trial — once it's on their phone, it stays. Nothing kicks them off after two weeks. (The 14 days is Google's behind-the-scenes counter, not a clock on their screen.)
 - Hand me the emails (or a list) and I set up the closed-test track, generate the invite link, and push the build. You don't touch the console.
 - Family and friends can go first, before the ward, to warm up the list and work out any wrinkles.

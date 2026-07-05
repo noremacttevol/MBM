@@ -58,6 +58,6 @@ Keep the brackets honest — actually fill in the Bishop's name and your contact
 
 Send it to a small, trusted group first, not a mass blast. A handful of priesthood holders who will actually use it and give real feedback is worth more than thirty names who skim it. (It also fits the careful, small-pool approach that keeps the whole thing wise during testing.)
 
-If any of them have an iPhone, the TestFlight link makes install effortless. If they're on Android, you'll need their Google account email to add them as a tester first — so it's worth asking "iPhone or Android?" before you send, and tailoring the install steps to each person. The Install Guide explains both.
+If any of them have an iPhone, install is effortless — the app is live on the public App Store (apps.apple.com/app/id6783621048), no invite needed. If they're on Android, you'll need their Google account email to add them as a tester first — so it's worth asking "iPhone or Android?" before you send, and tailoring the install steps to each person. The Install Guide explains both.
 
 And remember the standing courtesy: **the Bishop sees this email, word for word, before anyone else does.** Forward it to him first with a short note — "Here's the exact invitation I'd like to send; I wanted you to see every word first." That one habit is what carries his trust all the way through.
