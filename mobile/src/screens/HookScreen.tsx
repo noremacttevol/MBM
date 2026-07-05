@@ -14,6 +14,8 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { StatusBar } from 'expo-status-bar';
 import { RootStackParamList } from '../navigation/AppNavigator';
 import { colors, spacing } from '../theme';
+import { useAppStore } from '../store/useAppStore';
+import { STORY_IDS } from './OnboardScreen';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Hook'>;
 
@@ -181,7 +183,20 @@ export default function HookScreen({ navigation }: Props) {
         <TouchableOpacity
           style={styles.btn}
           activeOpacity={0.85}
-          onPress={() => navigation.navigate('Onboard')}
+          onPress={() => {
+            // The sanctuary opening plays on EVERY cold open, but where it leads
+            // depends on the person (CLAUDE.md locked direction):
+            //   • First launch, or unseen stories remain → Onboard (story → question)
+            //   • All stories seen and answered          → straight into the app
+            const s = useAppStore.getState();
+            const seen = s.seenStoryIds ?? [];
+            const hasUnseenStory = STORY_IDS.some(id => !seen.includes(id));
+            if (!s.onboardingComplete || hasUnseenStory) {
+              navigation.navigate('Onboard');
+            } else {
+              navigation.replace('Main');
+            }
+          }}
         >
           <Text style={styles.btnText}>Come and see</Text>
         </TouchableOpacity>

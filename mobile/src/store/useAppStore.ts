@@ -2,6 +2,7 @@ import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { CONTENT, ContentItem, FeedTag } from '../data/content';
+import { refBelongsToStories } from '../data/openingStoryRefs';
 import {
   DialogueQuestion,
   TraitKey,
@@ -218,15 +219,31 @@ function poolForTag(tag: FeedTag): ContentItem[] {
   return milk;
 }
 
+// ── Cold-open story exclusion (Cameron, July 5 2026) ─────────────────────────
+// The story just told on the opening screen must never show up again as a feed
+// card in the same session ("that would be ridiculous"). markStorySeen records
+// which stories were told THIS session in a module-level set (not persisted —
+// the exclusion only matters for the session the story was just told in), and
+// buildFeed filters out any content item retelling the same passage.
+const storiesToldThisSession = new Set<string>();
+
 // Draw the next 5 cards. THE HARD RULE (Cameron's standard): never show an item
 // the person has already seen until they have seen them ALL. Only once every item
 // in the pool has been seen does a fresh cycle begin. 'seenIds' holds everything
 // already shown; callers fold the shown page into it (see refreshFeed/markOpened).
+// A second rule rides on top: nothing retelling the cold-open story of THIS
+// session is ever drawn (see storiesToldThisSession above) — unless that filter
+// would empty the pool entirely, in which case the feed stays alive.
 function buildFeed(tag: FeedTag, seenIds: Set<number>): ContentItem[] {
   const pool   = poolForTag(tag);
-  const unseen = pool.filter(c => !seenIds.has(c.id));
-  // Exhausted -> begin a new cycle from the whole pool; otherwise only the unseen.
-  const source = unseen.length > 0 ? unseen : pool;
+  const told   = [...storiesToldThisSession];
+  const dedup  = told.length > 0
+    ? pool.filter(c => !refBelongsToStories(c.scriptureRef, told))
+    : pool;
+  const usable = dedup.length > 0 ? dedup : pool;
+  const unseen = usable.filter(c => !seenIds.has(c.id));
+  // Exhausted -> begin a new cycle from the whole (deduped) pool; otherwise only the unseen.
+  const source = unseen.length > 0 ? unseen : usable;
   return shuffle(source).slice(0, 5);
 }
 
@@ -1254,6 +1271,9 @@ export const useAppStore = create<AppState & AppActions>()(
 
       markStorySeen(id) {
         if (!id) return;
+        // Remember for THIS session so the feed never re-serves the passage the
+        // opening screen just told (see storiesToldThisSession / buildFeed).
+        storiesToldThisSession.add(id);
         set(s => (s.seenStoryIds.includes(id)
           ? s
           : { seenStoryIds: [...s.seenStoryIds, id] }));

@@ -27,6 +27,13 @@
 
 ---
 
+## 2026-07-05 (pt.3) — Opening story on EVERY cold open, story bank 9 → 20, feed never repeats the opening story
+- What we did: Fixed Cameron's Android report that the opening screen stopped appearing. Root cause: once all 9 stories were seen, cold opens skipped Hook and went straight to Main. Now the sanctuary opening (Hook) shows on EVERY cold open; its "Come and see" button routes to Onboard when an unseen story remains (or first launch), otherwise straight into the app. Wrote 11 new entry stories (well, storm, bartimaeus, roof, ten_lepers, centurion, mary_martha, lazarus, emmaus, shore, samaritan) in the exact Jesus-Method format — 20 total, each with the believer's testimony "E" choice. Added feed dedupe: the story just told on cold open is never re-served as a feed card in the same session (new `openingStoryRefs.ts` maps every story id to its scripture-chapter prefixes; `buildFeed` filters them out, with a fallback so the feed can never go empty).
+- What changed in the app: `mobile/src/navigation/AppNavigator.tsx` (initialRouteName always 'Hook'), `mobile/src/screens/HookScreen.tsx` (CTA branches), `mobile/src/screens/OnboardScreen.tsx` (+11 stories), `mobile/src/store/useAppStore.ts` (session story exclusion in markStorySeen + buildFeed), new `mobile/src/data/openingStoryRefs.ts`.
+- What is now true that wasn't before: every cold open begins at the opening screen; a fresh, never-repeated story plays on each cold open until all 20 are seen and answered; the feed never shows the passage the opening screen just told. Shipped OTA to production (update group a2a43538-81fc-4c14-bb17-6fe025bb14d6, iOS + Android, runtime 1.0.0) — reaches installed apps after close/reopen ×2.
+- What's next / handed off: print the Bishopric-Stack when ink arrives; Cameron: spend cap at console.anthropic.com, keep gathering Android testers toward 15.
+- Commit: (fill after commit — the chain-link commit for this entry)
+
 ## 2026-07-05 (pt.2) — Bishopric-Stack refined: white covers on the big three, compliance doc added, ink-heavy fully separated
 - Built on the parallel session's stack (2d24a76). Docs 14 (Overview & Launch Plan) and
   15 (Cameron's Field Guide) replaced with NEW white-cover printable versions (sources:

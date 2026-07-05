@@ -7,7 +7,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 
 import HookScreen        from '../screens/HookScreen';
-import OnboardScreen, { STORY_IDS } from '../screens/OnboardScreen';
+import OnboardScreen from '../screens/OnboardScreen';
 import WelcomeBackScreen from '../screens/WelcomeBackScreen';
 import FeedScreen        from '../screens/FeedScreen';
 import JournalScreen     from '../screens/JournalScreen';
@@ -146,21 +146,17 @@ export default function AppNavigator() {
     );
   }
 
-  // Cold-open behavior (CLAUDE.md locked direction). This runs once per app launch
-  // (a true cold start — a fully closed app being reopened, or a browser reload),
-  // never on a warm resume, so it is exactly the "every time they come back" moment:
-  //   • First ever launch        → Hook → Onboard (full first-run: story + name + faith)
+  // Cold-open behavior (CLAUDE.md locked direction, tightened July 5 2026).
+  // This runs once per app launch (a true cold start — a fully closed app being
+  // reopened, or a browser reload), never on a warm resume:
+  //   • EVERY cold open           → Hook (the sanctuary opening plays every time)
+  //   • First ever launch         → Hook → Onboard (full first-run: story + name + faith)
   //   • Returning, stories left   → Hook → Onboard (a NEW story → reflection → app)
-  //   • Returning, all seen       → straight into the app (skip the title + story)
-  // There is no "continue where you left off" screen on a cold open anymore.
-  const s = useAppStore.getState();
-  const onboardingComplete = s.onboardingComplete;
-  const seen = s.seenStoryIds ?? [];
-  const hasUnseenStory = STORY_IDS.some(id => !seen.includes(id));
-  const initialRouteName: keyof RootStackParamList =
-    !onboardingComplete ? 'Hook'
-    : hasUnseenStory     ? 'Hook'
-    :                      'Main';
+  //   • Returning, all seen       → Hook → straight into the app from the CTA
+  // The Hook's "Come and see" button decides where to go next (see HookScreen).
+  // The opening screen itself is NEVER skipped — that was the July 5 bug: once all
+  // stories were seen, cold opens jumped straight to Main.
+  const initialRouteName: keyof RootStackParamList = 'Hook';
 
   return (
     <NavigationContainer>
