@@ -1,10 +1,10 @@
 # START HERE — MBM Current State (the ONLY file that is allowed to say "now")
 
-**Last verified true: 2026-07-05 — 🎉 THE APP STORE PAGE IS PUBLICLY LIVE. The direct
-URL https://apps.apple.com/app/id6783621048 loads and shows the app (verified by content
-check). App Store SEARCH may lag a day or two more (iTunes lookup API still 0 — that's
-the search index, not the page; the "check-appstore-live" watcher stays on to confirm
-indexing). Tell people: use the QR / direct link / milkb4meat.org, not search.
+**Last verified true: 2026-07-05 — 🎉 THE APP IS FULLY LIVE AND PUBLICLY INDEXED ON THE
+APP STORE. The iTunes lookup API now returns the app (resultCount 1, verified 2026-07-05):
+https://apps.apple.com/us/app/milk-before-meat/id6783621048 — free, 4+, Lifestyle/Books,
+released 2026-07-02. Search indexing is CONFIRMED; the direct URL, QR codes, and
+milkb4meat.org all work. The "check-appstore-live" watcher did its job and is now disabled.
 CHURCH-DAY PREP DONE: roadmap fixed in all 3 copies (site page redeployed; TO-PRINT #5,
 site PDF, FOR-CAMERON/Roadmap.pdf all regenerated — old printed #5 copies said "waiting
 on Apple" and must be reprinted). Sheets 1–4 text-verified current. NEW one-page

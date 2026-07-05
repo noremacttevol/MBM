@@ -27,6 +27,13 @@
 
 ---
 
+## 2026-07-05 (pt.4) — App Store public indexing CONFIRMED; watcher retired
+- What we did: Scheduled "check-appstore-live" watcher ran; iTunes lookup API (`https://itunes.apple.com/lookup?id=6783621048`) now returns resultCount 1. The app is fully live and publicly indexed: https://apps.apple.com/us/app/milk-before-meat/id6783621048 (Milk Before Meat, free, 4+, Lifestyle/Books, v1.0, released 2026-07-02).
+- What changed in the app (files/commits): No app code. START-HERE.md "Last verified true" block updated to state indexing is confirmed and the watcher is disabled; this SESSION-LOG entry added.
+- What is now true that wasn't before: App Store search index has the app — the last outstanding launch dependency on Apple's side is closed. Direct link, QR, and search all work.
+- What's next / handed off: Scheduled task "check-appstore-live" disabled (no longer needed). Cameron: spend cap at console.anthropic.com still open; keep gathering Android testers toward the closed test.
+- Commit: <filled after commit>
+
 ## 2026-07-05 (pt.3) — Opening story on EVERY cold open, story bank 9 → 20, feed never repeats the opening story
 - What we did: Fixed Cameron's Android report that the opening screen stopped appearing. Root cause: once all 9 stories were seen, cold opens skipped Hook and went straight to Main. Now the sanctuary opening (Hook) shows on EVERY cold open; its "Come and see" button routes to Onboard when an unseen story remains (or first launch), otherwise straight into the app. Wrote 11 new entry stories (well, storm, bartimaeus, roof, ten_lepers, centurion, mary_martha, lazarus, emmaus, shore, samaritan) in the exact Jesus-Method format — 20 total, each with the believer's testimony "E" choice. Added feed dedupe: the story just told on cold open is never re-served as a feed card in the same session (new `openingStoryRefs.ts` maps every story id to its scripture-chapter prefixes; `buildFeed` filters them out, with a fallback so the feed can never go empty).
 - What changed in the app: `mobile/src/navigation/AppNavigator.tsx` (initialRouteName always 'Hook'), `mobile/src/screens/HookScreen.tsx` (CTA branches), `mobile/src/screens/OnboardScreen.tsx` (+11 stories), `mobile/src/store/useAppStore.ts` (session story exclusion in markStorySeen + buildFeed), new `mobile/src/data/openingStoryRefs.ts`.
