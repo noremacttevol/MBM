@@ -27,6 +27,38 @@
 
 ---
 
+## 2026-07-04 (pt.3) — Cameron's 3 fixes: cold-open flash, clipped clock icon, consent reworked his way — SHIPPED OTA
+- Cameron's feedback (voice): (1) bottom "not God / not affiliated" disclaimer still flashes
+  for a split second BEFORE the cold-open animation on the App Store build — the old fix
+  didn't cover it; (2) the clock/history icon on Talk About It is clipped at the top ~10%
+  on iPhone; (3) the AI-consent gate felt like it broadcast AI as the app's main purpose —
+  he ruled: REMOVE it from onboarding ASAP, default OFF, keep the Profile toggle, disclose
+  just-in-time at first chat use, say "AI" not "Anthropic" in-app (privacy policy still
+  names Anthropic in full — Apple requires that and it stays), and when a "Talk about it"
+  link arrives with AI off, offer BOTH turning AI on AND taking the sourced question to a
+  real person.
+- Fixes (commit 841af0e, all JS-only):
+  1. HookScreen: root cause was the footer's static-0 → native-animated opacity handoff
+     painting one full-opacity frame on iOS. Footer fade now uses the JS driver (opacity is
+     a plain prop, 0 from frame one) — flash is structurally impossible; layout unchanged.
+  2. ChatScreen header: 🕐 emoji (clipped by Jost lineHeight) replaced with Ionicons
+     "time-outline" vector icons on both history buttons.
+  3. OnboardScreen aiConsent page DELETED (faith page enters app directly; aiConsent stays
+     'unknown' = off by default, nothing leaves device). ChatScreen consent card reworked:
+     one short card for unknown+declined, no vendor name, honest "not tied to your name"
+     wording, shows the sourced draft it arrived with, two equal buttons — "Turn on the AI
+     conversation" / "Talk to a real person instead" (blue, sends the carried draft into a
+     fresh real-person thread via sendConnectMessage + copied banner). ProfileScreen toggle
+     reworded the same way. Apple 5.1.1(i)/5.1.2(i) still satisfied: disclosure + explicit
+     yes still precede ANY send — just at point of use instead of onboarding.
+- Verified: tsc --noEmit clean; no user-facing "Anthropic"/"Claude" strings remain (only
+  code comments); consent gating in store untouched (aiConsentGranted still guards every
+  network call).
+- SHIPPED: eas update → production branch, runtime 1.0.0, iOS + Android (update group
+  4093b44f-7fe2-445d-b294-08fe7a7f5e6d). Reaches App Store build 8 and Play vc7 on next
+  app relaunch ×2 (first launch downloads, second applies).
+- Commit: (chain-link on top of 841af0e)
+
 ## 2026-07-04 (pt.2) — "Fix it all": site flipped to App Store + deployed, print kit refreshed, domain warning stale
 - What we did (Cameron said "fix it all, you're my project manager"):
   1. WEBSITE: site/index.html iPhone card flipped from TestFlight to the public App Store

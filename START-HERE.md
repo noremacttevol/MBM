@@ -1,6 +1,16 @@
 # START HERE — MBM Current State (the ONLY file that is allowed to say "now")
 
-**Last verified true: 2026-07-04 (pt.2) — 🎉 iPHONE LAUNCH WORK ALL DONE; waiting only on
+**Last verified true: 2026-07-04 (pt.3) — Three fixes from Cameron's live testing SHIPPED
+via OTA (code commit 841af0e; EAS update group 4093b44f, iOS+Android, runtime 1.0.0 —
+reaches installed builds after closing and reopening the app twice): (a) cold-open
+disclaimer no longer flashes before the animation (footer fade moved to the JS driver);
+(b) Talk About It history/clock icon no longer clipped (emoji replaced with an Ionicons
+vector icon); (c) AI consent REWORKED — removed from onboarding entirely, AI defaults
+OFF, a just-in-time card appears the first time someone opens Talk About It, says "AI"
+not "Anthropic," shows the topic they arrived with, and offers an equal real-person path
+that carries their sourced question into a Connect thread. Profile on/off toggle kept.
+Privacy policy still names Anthropic (required); in-app strings do not. Everything below
+from pt.2 remains true: iPHONE LAUNCH WORK ALL DONE; waiting only on
 Apple's public index. iOS 1.0 (build 8) is READY_FOR_SALE; the zero-territories bug was
 fixed earlier today (all 175 territories, availableInNewTerritories=true, release date
 2026-07-04). As of this writing the iTunes lookup still returns 0 — normal for a few
