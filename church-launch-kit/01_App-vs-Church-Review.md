@@ -1,6 +1,6 @@
 # Milk Before Meat — Honest Review Against Church Concerns
 
-*Prepared for Cameron's own use before approaching priesthood leaders. This is the foundation document: it lists every legitimate concern a thoughtful bishop or Church leader could raise, and answers each one plainly and honestly — using what the app actually does, and what the Church has actually published. Nothing here is spin. The goal is not to make the app "impossible to refute"; it is to be so transparent that a careful leader can give an informed yes.*
+*A working briefing to read before approaching priesthood leaders. This is the foundation document: it lists every legitimate concern a thoughtful bishop or Church leader could raise, and answers each one plainly and honestly — using what the app actually does, and what the Church has actually published. Nothing here is spin. The goal is not to make the app "impossible to refute"; it is to be so transparent that a careful leader can give an informed yes.*
 
 ---
 
