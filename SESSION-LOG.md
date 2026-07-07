@@ -27,6 +27,13 @@
 
 ---
 
+## 2026-07-06 — Marketing kit re-activated: 3 story videos downloaded, bio link updated to live app
+- What we did: Re-surfaced the Marketing-Launch-Kit for the social launch. Checked HeyGen: 3 of 4 story videos were rendered COMPLETED but never downloaded. Downloaded all three MP4s (verified frame-by-frame which story is which) into `Marketing-Launch-Kit/videos/`: 01-Woman-at-the-Well.mp4, 02-Prodigal-Son.mp4, 03-Woman-and-the-Cloak.mp4. Fourth (Good Shepherd) still stuck "processing" on HeyGen free tier since 07-01 — script ready, recompose when monthly credits reset or on paid tier.
+- What changed in the app (files/commits): No app code. SOCIAL-PAGE-KIT.md "Link in bio" updated — app is live, so bio link = https://milkb4meat.org (+ App Store direct link). Videos added to kit (gitignored or committed per repo policy).
+- What is now true that wasn't before: Cameron has the actual posting-ready MP4s on disk; the social kit's bio-link advice matches reality (app live).
+- What's next / handed off: Cameron creates the IG/FB/X accounts per SOCIAL-PAGE-KIT.md (2 min each, needs his phone/password), posts Woman at the Well first + pins it, follows CAPTIONS-AND-CALENDAR.md. Good Shepherd video pending HeyGen credits. Spend cap + Android testers still open.
+- Commit: (filled after commit)
+
 ## 2026-07-05 (pt.4) — App Store public indexing CONFIRMED; watcher retired
 - What we did: Scheduled "check-appstore-live" watcher ran; iTunes lookup API (`https://itunes.apple.com/lookup?id=6783621048`) now returns resultCount 1. The app is fully live and publicly indexed: https://apps.apple.com/us/app/milk-before-meat/id6783621048 (Milk Before Meat, free, 4+, Lifestyle/Books, v1.0, released 2026-07-02).
 - What changed in the app (files/commits): No app code. START-HERE.md "Last verified true" block updated to state indexing is confirmed and the watcher is disabled; this SESSION-LOG entry added.
