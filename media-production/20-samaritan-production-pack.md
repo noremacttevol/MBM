@@ -100,3 +100,19 @@ Text on cream, serif. No narration.
 ## The Seed (what this video must leave behind)
 
 Jesus made the HERETIC the hero — the man his audience was raised to despise carried the compassion of God, while the credentialed religion crossed the road. Quiet question: *what if the love of God shows up in the tradition you were raised to look down on?* Carried by shots 3–4 and 7.
+
+## Red-letter lines (KJV) — the Jesus voice speaks ONLY these
+
+A parable: the narrator retells it in modern language; the Jesus voice
+delivers the turn and the sending, in exact KJV.
+
+1. **Where:** shot 7, replacing the narrator's "which of these three WAS a
+   neighbor?"
+   **KJV (Luke 10:36):** "Which now of these three, thinkest thou, was
+   neighbour unto him that fell among the thieves?"
+   **Narrator bridge (after, modern):** "The scholar couldn't even say the
+   word 'Samaritan.' He answered, 'the one who showed mercy.' Close
+   enough."
+2. **Where:** the final red-letter words of the video, over the last
+   moment of shot 7.
+   **KJV (Luke 10:37):** "Go, and do thou likewise."

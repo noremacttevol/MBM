@@ -79,3 +79,20 @@ Text on cream, serif. No narration.
 ## The Seed (what this video must leave behind)
 
 Jesus never shamed the fear or the night. He answered the real question underneath. Honest asking — even secret, frightened asking — is safe with God, and gets answered. Quiet question: *if your questions are safe with Jesus, were they ever really dangerous to God?* Carried by shots 3–5.
+
+## Red-letter lines (KJV) — the Jesus voice speaks ONLY these
+
+The narration has no direct Jesus quote — so this video is where his voice
+gets the most famous red-letter words he ever spoke, TO this frightened
+night visitor.
+
+1. **Where:** over shots 4–5 (the lamplit conversation), after the
+   narrator's "He just answered the real question underneath the question."
+   The music is already in silence here — the KJV lands in it.
+   **KJV (John 3:16–17):** "For God so loved the world, that he gave his
+   only begotten Son, that whosoever believeth in him should not perish,
+   but have everlasting life. For God sent not his Son into the world to
+   condemn the world; but that the world through him might be saved."
+   **Narrator bridge (after, modern):** "Not to condemn the world. Those
+   words weren't preached to a stadium. They were said quietly, at night,
+   to one scared man who came with questions."

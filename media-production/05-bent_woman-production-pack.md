@@ -88,3 +88,19 @@ Text on cream, serif. No narration.
 ## The Seed (what this video must leave behind)
 
 "Daughter of Abraham" — you belong, you have ALWAYS belonged — declared BEFORE she was healed. Her worth preceded her healing; it wasn't earned by it. This quietly contradicts every theology built on human worthlessness. Quiet question: *what if you already belonged?* Carried by shots 4 and 7.
+
+## Red-letter lines (KJV) — the Jesus voice speaks ONLY these
+
+1. **Where:** just before shot 5 (the hands) — replaces the narrator's
+   transition into the healing.
+   **KJV (Luke 13:12):** "Woman, thou art loosed from thine infirmity."
+   **Narrator bridge (after, modern):** "'Loosed' — untied. Like something
+   that had been knotted for eighteen years finally coming undone."
+2. **Where:** over shot 7 (standing in the light) — the "daughter of
+   Abraham" declaration.
+   **KJV (Luke 13:16):** "And ought not this woman, being a daughter of
+   Abraham, whom Satan hath bound, lo, these eighteen years, be loosed from
+   this bond on the sabbath day?"
+   **Narrator bridge (after, modern):** "A daughter of Abraham. That was
+   him telling the whole room: she belongs. She always has. He said it
+   about her — and he says it about you."

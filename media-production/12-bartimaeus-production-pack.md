@@ -95,3 +95,17 @@ Text on cream, serif. No narration.
 ## The Seed (what this video must leave behind)
 
 The crowd — the religious, respectable crowd — said hush. Jesus stopped the whole procession. When religion silences a desperate voice, God overrules religion. And then he ASKS: "what do you want me to do for you?" — God honors the person's own voice. Quiet question: *who told you to keep quiet — and was it God?* Carried by shots 3–4 and 6.
+
+## Red-letter lines (KJV) — the Jesus voice speaks ONLY these
+
+(Note: "Be of good comfort, rise; he calleth thee" is the crowd's line, not
+red letter — the narrator keeps it.)
+
+1. **Where:** shot 6, replacing the narrator's "What do you want me to do
+   for you?"
+   **KJV (Mark 10:51):** "What wilt thou that I should do unto thee?"
+   **Narrator bridge (after, modern):** "As if it weren't obvious. He asked
+   anyway — because he wanted the man's own voice, not the crowd's guess
+   about him."
+2. **Where:** end of shot 6, into shot 7 — the last red-letter words.
+   **KJV (Mark 10:52):** "Go thy way; thy faith hath made thee whole."

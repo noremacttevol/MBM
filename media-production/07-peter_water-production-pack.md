@@ -88,3 +88,19 @@ Text on cream, serif. No narration.
 ## The Seed (what this video must leave behind)
 
 "Why did you doubt?" — asked GENTLY, by the hand that had already caught him. Doubt is a question worth sitting with, not a damnation; and the catch came IMMEDIATELY, mid-sink. Quiet question: *is the God you learned about one who catches doubters — or drops them?* Carried by shot 6.
+
+## Red-letter lines (KJV) — the Jesus voice speaks ONLY these
+
+1. **Where:** over shot 2 (the figure on the water), replacing any narrator
+   paraphrase of his reassurance.
+   **KJV (Matthew 14:27):** "Be of good cheer; it is I; be not afraid."
+2. **Where:** the held beat — the single word, alone in silence.
+   **KJV (Matthew 14:29):** "Come."
+3. **Where:** over shot 6 (caught immediately), replacing the narrator's
+   "Why did you doubt?"
+   **KJV (Matthew 14:31):** "O thou of little faith, wherefore didst thou
+   doubt?"
+   **Narrator bridge (after, modern):** "Hear how he said it — not from the
+   shore, but from the hand already gripping Peter's arm. 'Wherefore didst
+   thou doubt' isn't condemnation. It's a real question, asked by the one
+   who caught him before he finished sinking."

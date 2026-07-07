@@ -32,7 +32,37 @@ plays today; the text remains the offline fallback (local-first law holds).
    seeker in each story is shown fully; the story is theirs.
 2. **The narration is the app's exact story text.** The words were written to
    the Jesus-Method standard and are already live in the app. Video
-   illustrates them; it never rewrites them.
+   illustrates them; it never rewrites them. (Exception defined by the
+   Two-Voice Law below: lines spoken BY Jesus are delivered by the Jesus
+   voice in exact KJV — everything else stays word-for-word app text.)
+
+## The Two-Voice Law (locked 2026-07-07, Cameron's direction)
+
+Every video has exactly two voices, the same two in all 200:
+
+1. **The Narrator** — warm, modern, plain storytelling language (the app's
+   story text, easy to understand, the way the clearest modern translations
+   read). The narrator tells the story through a Latter-day Saint lens and,
+   where Jesus's words are hard for a modern ear, gently unpacks them —
+   showing that when you really look at what he said, he is a kind, loving,
+   merciful God. The narrator NEVER speaks Jesus's lines.
+2. **The Jesus voice** — a second, distinct voice (lower, warmer, unhurried)
+   that speaks ONLY the words of Jesus, and speaks them ONLY in the exact
+   King James Version red-letter text — the translation held sacred by The
+   Church of Jesus Christ of Latter-day Saints. His words are never
+   modernized, paraphrased, or trimmed mid-thought. Since his face is never
+   shown, his voice IS his face: the same voice in every video, so people
+   learn to recognize him before he says a word.
+
+Pattern inside every video: modern narration carries the viewer to the
+moment → the KJV red-letter words land in the Jesus voice → the narrator
+gently translates anything confusing, revealing the kindness inside it.
+
+Parable rule: inside a parable, the whole story is technically red letter.
+The narrator retells the parable in modern language, and the Jesus voice
+delivers only the KJV heart-lines (e.g., "this my son was dead, and is
+alive again"). Each pack's "Red-letter lines (KJV)" section lists exactly
+which lines the Jesus voice speaks and their KJV text.
 
 ## STYLE BLOCK — prepend to every shot prompt
 
@@ -50,8 +80,10 @@ light.
 ## Assembly standards (applied to every video)
 
 - Vertical 1080×1920, 30fps, 60–90 seconds.
-- Narration: one warm, low, unhurried voice across all 20 (Descript AI voice,
-  or Cameron's voice — audition both on video #1).
+- Voices: exactly two, per the Two-Voice Law — one narrator voice (modern,
+  warm; Descript AI voice or Cameron's voice — audition on video #1) and one
+  Jesus voice (lower, warmer, unhurried) speaking only exact KJV red-letter
+  lines. Both locked on video #1 and never changed.
 - Music: single quiet sustained bed; cut to full silence on each story's peak
   line (marked in each pack).
 - Captions: the narration lines appear as subtle serif text, app-style cream

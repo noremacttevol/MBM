@@ -88,3 +88,21 @@ Text on cream, serif. No narration.
 ## The Seed (what this video must leave behind)
 
 The greatest faith in Israel belonged to a man outside Israel — outside the "right" people entirely. And it worked at a distance, on nothing but a word, because God's word is actual power. Quiet question: *can real faith exist outside the group you were told holds it all?* Carried by shots 3–4.
+
+## Red-letter lines (KJV) — the Jesus voice speaks ONLY these
+
+(The centurion's own speech stays with the narrator, modern — only Jesus's
+words go to the Jesus voice.)
+
+1. **Where:** replacing the narrator's "I will come and heal him."
+   **KJV (Matthew 8:7):** "I will come and heal him."
+2. **Where:** shot 4, replacing the narrator's "I have not found faith like
+   this in all Israel."
+   **KJV (Matthew 8:10):** "Verily I say unto you, I have not found so
+   great faith, no, not in Israel."
+   **Narrator bridge (after, modern):** "'Verily' — truly, mark this. He
+   said it about a Roman officer, in front of everyone who was sure faith
+   belonged only to them."
+3. **Where:** into shot 5, the word that heals at a distance.
+   **KJV (Matthew 8:13):** "Go thy way; and as thou hast believed, so be it
+   done unto thee."

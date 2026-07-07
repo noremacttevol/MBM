@@ -83,3 +83,16 @@ Text on cream, serif. No narration.
 ## The Seed (what this video must leave behind)
 
 He never denied the storm was real — he was just bigger than it. He did not send the storm to teach a lesson or glorify himself; he STILLED it. Quiet question: *is God the author of your storm — or the one standing up in your boat?* Carried by shots 4–5.
+
+## Red-letter lines (KJV) — the Jesus voice speaks ONLY these
+
+1. **Where:** shot 4, replacing the narrator's "Peace. Be still." The KJV
+   here IS the modern line — three words, spoken into the storm.
+   **KJV (Mark 4:39):** "Peace, be still."
+2. **Where:** shot 6, replacing the narrator's "Why were you so afraid?"
+   **KJV (Mark 4:40):** "Why are ye so fearful? how is it that ye have no
+   faith?"
+   **Narrator bridge (after, modern):** "Hear where he asked it from —
+   standing in their boat, on the sea he had just flattened to save them.
+   He didn't ask from the shore. He asked soaked, having already come
+   through the storm to be with them."

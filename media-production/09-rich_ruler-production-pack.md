@@ -81,3 +81,17 @@ question lands with full weight.)
 ## The Seed (what this video must leave behind)
 
 He loved him AND let him walk away. No coercion, no lowered bar, no chasing — love that honors agency completely. This is the opposite of irresistible grace and forced salvation. Quiet question: *a love that will not force you — is that weakness, or the deepest respect you have ever been shown?* Carried by shots 3 and 6.
+
+## Red-letter lines (KJV) — the Jesus voice speaks ONLY these
+
+1. **Where:** over shots 3–4, replacing the narrator's "Then Jesus gave him
+   one thing he couldn't do." Spoken slowly, with love in it — the text
+   says he loved him as he said it.
+   **KJV (Mark 10:21):** "One thing thou lackest: go thy way, sell
+   whatsoever thou hast, and give to the poor, and thou shalt have treasure
+   in heaven: and come, take up thy cross, and follow me."
+   **Narrator bridge (after, modern):** "Come, follow me. It was an
+   invitation — the same one he gave his closest friends. It came wrapped
+   in the one thing this man couldn't put down."
+   No red-letter lines after this. Shots 5–6 play in silence; he let him
+   go without another word, and so does the video.

@@ -85,3 +85,18 @@ Text on cream, serif. No narration.
 ## The Seed (what this video must leave behind)
 
 He never scolded the serving — he worried about the WORRY. Relationship with him outranks performance for him. This quietly undoes every anxious, checklist version of Christianity. Quiet question: *is your faith mostly work you're doing for God, or time you're spending with him?* Carried by shots 5–6.
+
+## Red-letter lines (KJV) — the Jesus voice speaks ONLY these
+
+(Martha's outburst stays with the narrator, modern.)
+
+1. **Where:** shot 5, replacing the narrator's "Martha, Martha..." passage
+   — this is the peak; the music is already silent for the second
+   "Martha."
+   **KJV (Luke 10:41–42):** "Martha, Martha, thou art careful and troubled
+   about many things: But one thing is needful: and Mary hath chosen that
+   good part, which shall not be taken away from her."
+   **Narrator bridge (after, modern):** "'Careful and troubled' — anxious,
+   pulled in every direction. He never scolded the serving. He worried
+   about the worry. And the good part Mary chose — just being with him —
+   he promised no one would ever take away."

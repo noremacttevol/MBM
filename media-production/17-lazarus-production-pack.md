@@ -102,3 +102,18 @@ Text on cream, serif. No narration.
 ## The Seed (what this video must leave behind)
 
 He KNEW resurrection was minutes away — and he wept anyway. A God with real feelings, standing in real grief, at a grave he is about to empty. Not an impassible abstraction: a person who loves. This is the video's whole argument for a Godhead worthy of worship. Quiet question: *could the God you were taught about cry?* Carried by shot 4 — protect it above everything.
+
+## Red-letter lines (KJV) — the Jesus voice speaks ONLY these
+
+1. **Where:** on the road, after Martha's "if you had been here" (her line
+   stays with the narrator, modern).
+   **KJV (John 11:25–26):** "I am the resurrection, and the life: he that
+   believeth in me, though he were dead, yet shall he live: And whosoever
+   liveth and believeth in me shall never die. Believest thou this?"
+   **Narrator bridge (after, modern):** "He didn't say 'I will perform a
+   resurrection.' He said I AM the resurrection. And then he asked her —
+   grieving, angry, honest Martha — 'believest thou this?' He wanted HER
+   answer. Then he walked to the tomb and wept."
+2. **Where:** shot 6, the call into the tomb — replacing the narrator's
+   "Lazarus, come out." Two words in KJV. Full silence around them.
+   **KJV (John 11:43):** "Lazarus, come forth."

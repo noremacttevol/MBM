@@ -91,3 +91,16 @@ Text on cream, serif. No narration.
 ## The Seed (what this video must leave behind)
 
 The father RUNS — before the speech, before the repentance is even spoken. This is not a father who predestined his son's leaving for his own glory, and not one who waits with crossed arms for groveling. His glory IS the running. Quiet question: *is the Father you've been told about waiting — or running?* Carried by shots 4–6.
+
+## Red-letter lines (KJV) — the Jesus voice speaks ONLY these
+
+This is a parable: Jesus is the storyteller, so the heart-line is red letter.
+The narrator tells the parable in modern language; the Jesus voice delivers
+only the heart-line, in exact KJV.
+
+1. **Where:** replaces the narrator's closing quote ("This son of mine was
+   dead and is alive again...") — spoken over shot 7, the feast.
+   **KJV (Luke 15:24):** "For this my son was dead, and is alive again; he
+   was lost, and is found."
+   **Narrator bridge:** none needed — the line is clear. Let it be the last
+   spoken words of the video.

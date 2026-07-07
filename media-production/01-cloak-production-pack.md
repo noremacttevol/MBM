@@ -171,3 +171,16 @@ One month of one subscription is likely enough to generate all 20 stories
 ## The Seed (what this video must leave behind)
 
 In a crowd of dozens pressing against him, he felt ONE touch. The God this video shows is not managing humanity in bulk — he notices one person, and interrupts everything for her. Quiet question left behind: *does the God you were taught about notice you like that — or only crowds?* Carried by shots 5–7 (the reach, the stop, "daughter").
+
+## Red-letter lines (KJV) — the Jesus voice speaks ONLY these
+
+Per the Two-Voice Law (00-MASTER-PLAN.md): narrator = modern app text; the
+Jesus voice speaks his words in exact KJV, never modernized.
+
+1. **Where:** replaces the narrator's "He called her daughter" beat — the
+   Jesus voice speaks over shots 7–8, after the 2-second pause.
+   **KJV (Mark 5:34):** "Daughter, thy faith hath made thee whole; go in
+   peace, and be whole of thy plague."
+   **Narrator bridge (after, modern):** "'Be whole of thy plague' — be free
+   of what has been hurting you. Twelve years of it. Over, in a sentence.
+   And the first word he chose was *daughter*."

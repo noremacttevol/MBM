@@ -93,3 +93,21 @@ Text on cream, serif. No narration.
 ## The Seed (what this video must leave behind)
 
 He already knew everything she had done — all of it — and he STAYED, and offered living water to a Samaritan heretic the approved religion despised. God speaks outside the approved channel, to the disqualified. Quiet question: *what if being fully known and being loved are the same moment?* Carried by shot 5.
+
+## Red-letter lines (KJV) — the Jesus voice speaks ONLY these
+
+1. **Where:** over shot 4 (living water), replacing the narrator's modern
+   quote "Whoever drinks the water I give will never thirst again."
+   **KJV (John 4:13–14):** "Whosoever drinketh of this water shall thirst
+   again: But whosoever drinketh of the water that I shall give him shall
+   never thirst; but the water that I shall give him shall be in him a well
+   of water springing up into everlasting life."
+   **Narrator bridge (after, modern):** "A well inside you — springing up,
+   not running dry. He wasn't talking about the water in the jar. He was
+   talking about the thirst underneath the thirst."
+2. **Optional, over the end of shot 5** — the only time before his trial
+   Jesus plainly says who he is, and he says it to HER:
+   **KJV (John 4:26):** "I that speak unto thee am he."
+   **Narrator bridge:** "The first person he ever told outright — not a
+   king, not a priest. A five-times-divorced Samaritan woman the town
+   whispered about."

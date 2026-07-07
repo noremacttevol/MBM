@@ -79,3 +79,17 @@ Text on cream, serif. No narration.
 ## The Seed (what this video must leave behind)
 
 Heaven's joy is over ONE — and the woman searches carefully until she FINDS. Not until she gets tired. Not until it's too late. A God like that does not shrug and accept losing most of what is his. Quiet question: *how far would a search like that go — and would it stop at a grave?* Carried by shots 4 and 6.
+
+## Red-letter lines (KJV) — the Jesus voice speaks ONLY these
+
+A parable: the whole story is his. The narrator carries the telling; the
+Jesus voice delivers the two heart-lines in exact KJV.
+
+1. **Where:** over shot 5 (calling the neighbors).
+   **KJV (Luke 15:9):** "Rejoice with me; for I have found the piece which
+   I had lost."
+2. **Where:** over shot 6 (the pull-back to the stars), replacing the
+   narrator's angels line — the last spoken words of the video.
+   **KJV (Luke 15:10):** "Likewise, I say unto you, there is joy in the
+   presence of the angels of God over one sinner that repenteth."
+   **Narrator bridge (after, modern):** "Over one. Not a crowd. One."

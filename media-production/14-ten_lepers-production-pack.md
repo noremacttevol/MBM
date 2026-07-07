@@ -95,3 +95,20 @@ Text on cream, serif. No narration.
 ## The Seed (what this video must leave behind)
 
 The healing happened mid-obedience, on the road, before any proof. God's pattern: the word comes first, you move, and the confirmation meets you walking. Quiet question: *have you been waiting for proof before you move — when the healing is on the road?* Carried by shot 4.
+
+## Red-letter lines (KJV) — the Jesus voice speaks ONLY these
+
+1. **Where:** shot 3, replacing the narrator's "Go, show yourselves to the
+   priests."
+   **KJV (Luke 17:14):** "Go shew yourselves unto the priests."
+2. **Where:** shot 6, replacing the narrator's "Were not all ten cleansed?
+   Where are the other nine?"
+   **KJV (Luke 17:17–18):** "Were there not ten cleansed? but where are the
+   nine? There are not found that returned to give glory to God, save this
+   stranger."
+   **Narrator bridge (after, modern):** "'Save this stranger' — except this
+   outsider. The only one who came back to say thank you was the one the
+   religion of the day said didn't belong."
+3. **Where:** shot 7, the last red-letter words.
+   **KJV (Luke 17:19):** "Arise, go thy way: thy faith hath made thee
+   whole."

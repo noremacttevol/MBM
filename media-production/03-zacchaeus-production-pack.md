@@ -90,3 +90,17 @@ Text on cream, serif. No narration.
 ## The Seed (what this video must leave behind)
 
 "I am coming to your house today" — BEFORE Zacchaeus changed, apologized, or repaid anyone. Grace comes first and change follows it, not the other way around. Quiet question: *what if God's coming to you isn't waiting on you being fixed first?* Carried by shots 5–7.
+
+## Red-letter lines (KJV) — the Jesus voice speaks ONLY these
+
+1. **Where:** replaces the narrator's quote "Zacchaeus, come down. I am
+   coming to your house today." — spoken over shot 5 (the look up into the
+   tree).
+   **KJV (Luke 19:5):** "Zacchaeus, make haste, and come down; for to day I
+   must abide at thy house."
+   **Narrator bridge (after, modern):** "'I must' — not 'I might.' Out of
+   everyone in that crowd, staying with the man everyone hated wasn't
+   Jesus's detour. It was his plan."
+2. **Optional second line, over shot 7:**
+   **KJV (Luke 19:10):** "For the Son of man is come to seek and to save
+   that which was lost."

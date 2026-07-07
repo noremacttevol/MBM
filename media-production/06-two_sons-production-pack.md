@@ -81,3 +81,19 @@ Text on cream, serif. No narration.
 ## The Seed (what this video must leave behind)
 
 Heaven reads the heart's actual direction, not the religious performance. The honest "no" that turns beats the pious "yes" that doesn't move. Quiet question: *which does the God you know reward — the appearance of faith, or the turning?* Carried by shots 3–5.
+
+## Red-letter lines (KJV) — the Jesus voice speaks ONLY these
+
+A parable: the narrator tells it in modern language; the Jesus voice
+delivers the question and the verdict in exact KJV.
+
+1. **Where:** replaces the narrator's "which one actually did the will of
+   his father?" — spoken over shot 6.
+   **KJV (Matthew 21:31a):** "Whether of them twain did the will of his
+   father?"
+   **Narrator bridge (after, modern):** "'Whether of them twain' — which of
+   the two. The crowd answered: the one who first said no."
+2. **Where:** replaces the narrator's closing quote to the religious
+   leaders — the last spoken words of the video.
+   **KJV (Matthew 21:31b):** "Verily I say unto you, That the publicans and
+   the harlots go into the kingdom of God before you."

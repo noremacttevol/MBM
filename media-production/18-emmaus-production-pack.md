@@ -99,3 +99,21 @@ Text on cream, serif. No narration.
 ## The Seed (what this video must leave behind)
 
 He fell in step beside them, unrecognized, listened first, and their hearts BURNED as he spoke. He walked with them the entire road. Quiet question — the biggest seed in the whole set: *if he did that then, does he still? Does God still walk, still speak — or did he stop?* Carried by shots 3, 4, and 6. The burning heart is the recognition his voice leaves behind.
+
+## Red-letter lines (KJV) — the Jesus voice speaks ONLY these
+
+This film's trick is that the stranger's voice IS the Jesus voice — the
+audience hears it all along without being told. That is the payoff of one
+consistent Jesus voice across every video: viewers who know the other
+stories will recognize him before the two disciples do.
+
+1. **Where:** shot 4 (hearts burning), as the stranger's teaching on the
+   road.
+   **KJV (Luke 24:26):** "Ought not Christ to have suffered these things,
+   and to enter into his glory?"
+   **Narrator bridge (after, modern):** "Starting from the scriptures they
+   already knew, he showed them the suffering wasn't the failure of the
+   plan. It WAS the plan — love paying what love costs."
+2. The disciples' later line — "Did not our heart burn within us, while he
+   talked with us by the way?" — is theirs, not red letter: the narrator
+   carries it, modern, over shot 7.

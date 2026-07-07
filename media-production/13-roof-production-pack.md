@@ -94,3 +94,15 @@ Text on cream, serif. No narration.
 ## The Seed (what this video must leave behind)
 
 "When Jesus saw THEIR faith" — the friends' faith counted for the man on the mat. One person can be carried by the faith of others, and heaven honors it. And he healed the deepest wound first. Quiet question: *if their faith could count for him, how far does God let love work on someone else's behalf?* Carried by shots 4–6.
+
+## Red-letter lines (KJV) — the Jesus voice speaks ONLY these
+
+1. **Where:** shot 6, replacing the narrator's "Son, your sins are
+   forgiven."
+   **KJV (Mark 2:5):** "Son, thy sins be forgiven thee."
+   **Narrator bridge (after, modern):** "The first word was *son*. Not a
+   diagnosis, not a lecture about his legs. Son — and then forgiveness,
+   the deepest wound first."
+2. **Where:** shot 7, over the man rising.
+   **KJV (Mark 2:11):** "I say unto thee, Arise, and take up thy bed, and
+   go thy way into thine house."

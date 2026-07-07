@@ -99,3 +99,15 @@ Text on cream, serif. No narration.
 ## The Seed (what this video must leave behind)
 
 To the man who failed him worst, over the same kind of charcoal fire the failure happened beside: not "how could you" but "do you love me" — and then his greatest job. God calls the failed, the unqualified, the ashamed, and hands them the work. Quiet question: *if failure disqualified people, why does God keep choosing the failed?* Carried by shots 4–6.
+
+## Red-letter lines (KJV) — the Jesus voice speaks ONLY these
+
+1. **Where:** shot 5, replacing the narrator's "Peter, do you love me?" —
+   the question, in his own words. The peak silence holds under it.
+   **KJV (John 21:16):** "Simon, son of Jonas, lovest thou me?"
+   **Narrator bridge (after, modern):** "He used Peter's old name — Simon,
+   son of Jonas — the name he had before everything. Three times, once for
+   each denial. Not 'how could you.' Not 'prove it.' Just: do you love me."
+2. **Where:** shot 6, replacing the narrator's "Feed my sheep." The last
+   red-letter words of the video.
+   **KJV (John 21:17):** "Feed my sheep."
