@@ -32,7 +32,7 @@
 - What changed in the app (files/commits): No app code. media-production/: THE-200.md new; 00-MASTER-PLAN.md updated; packs 01-20 each gained "## The Seed".
 - What is now true that wasn't before: the media effort has a complete target corpus and a theological aim locked into every recipe, not left to generation-time chance.
 - What's next / handed off: unchanged — Cameron picks a generator (Veo 3 recommended) and signs in; assistant generates wave one (the 20), assembles in Descript, Cameron reviews #1 (cloak). New in-app stories get written from THE-200 in Jesus-Method format before their videos.
-- Commit: (fill)
+- Commit: cdaf563
 
 ## 2026-07-07 — Media production: packs for all 20 story videos written and verified
 - What we did: Cameron asked for videos of every Jesus story in the app. Direction chosen: AI-generated cinematic scenes, played in-app, Cameron reviews each video. Created `media-production/` with a master plan (pipeline, style block, tracker, backlog of 16 future gospel stories) and a full production pack for EVERY one of the 20 opening stories: narration script (the app's exact story text, programmatically verified word-for-word), closing question card, and 6-8 paste-ready shot prompts per story. Two locked rules: Jesus's face is never shown (light/silhouette/hands/hem only), and narration is never rewritten. HeyGen/HyperFrames tried for a quick sample — out of free credits (see 07-06 entry: marketing videos consumed them) and wrong style anyway. No AI-video-generation MCP exists in the registry.
