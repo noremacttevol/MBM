@@ -3,9 +3,14 @@
 Goal: 200 cinematic story videos — the full catalog lives in THE-200.md —
 so people can SEE the goodness of the Godhead, not just read about it. The
 videos are the app's answer to the social-media feed: the reason someone
-opens MBM at 11pm instead of TikTok. The current app bank (20 stories,
-packs 01-20, all with Seed sections) is wave one. Videos play where the text story
-plays today; the text remains the offline fallback (local-first law holds).
+opens MBM at 11pm instead of TikTok.
+
+**Placement (corrected 2026-07-07, Cameron's direction — see FEED-2.0-SPEC.md):**
+videos live in the FEED, two per prescribed page, each paired with its
+linked KJV verse beneath it. The 20-story opening bank stays TEXT-ONLY —
+no videos in onboarding. Packs 01–20 still lead production (those stories
+are entries 1–20 of THE-200); their videos ship into the feed. Offline →
+verse/text only (local-first law holds).
 
 ## Pipeline (who does what)
 
@@ -79,7 +84,12 @@ light.
 
 ## Assembly standards (applied to every video)
 
-- Vertical 1080×1920, 30fps, 60–90 seconds.
+- Vertical 1080×1920, 30fps. Runtime 90 seconds to 3 minutes, story-driven
+  (locked 2026-07-07): each video takes the time its story needs — big
+  stories (Lazarus, Emmaus, Prodigal) run 2–3 minutes with the narrator
+  teaching through the KJV lines; smaller moments stay near 90s. Never
+  padded, never capped short. (Pack runtime lines predating this are
+  superseded.)
 - Voices: exactly two, per the Two-Voice Law — one narrator voice (modern,
   warm; Descript AI voice or Cameron's voice — audition on video #1) and one
   Jesus voice (lower, warmer, unhurried) speaking only exact KJV red-letter
