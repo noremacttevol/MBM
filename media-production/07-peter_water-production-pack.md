@@ -84,3 +84,7 @@ just happened to him.
 
 ### Closing card
 Text on cream, serif. No narration.
+
+## The Seed (what this video must leave behind)
+
+"Why did you doubt?" — asked GENTLY, by the hand that had already caught him. Doubt is a question worth sitting with, not a damnation; and the catch came IMMEDIATELY, mid-sink. Quiet question: *is the God you learned about one who catches doubters — or drops them?* Carried by shot 6.

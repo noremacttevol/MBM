@@ -77,3 +77,7 @@ on the back of the son who said no — and came.
 
 ### Closing card
 Text on cream, serif. No narration.
+
+## The Seed (what this video must leave behind)
+
+Heaven reads the heart's actual direction, not the religious performance. The honest "no" that turns beats the pious "yes" that doesn't move. Quiet question: *which does the God you know reward — the appearance of faith, or the turning?* Carried by shots 3–5.

@@ -95,3 +95,7 @@ lake blazes gold behind them.
 
 ### Closing card
 Text on cream, serif. No narration.
+
+## The Seed (what this video must leave behind)
+
+To the man who failed him worst, over the same kind of charcoal fire the failure happened beside: not "how could you" but "do you love me" — and then his greatest job. God calls the failed, the unqualified, the ashamed, and hands them the work. Quiet question: *if failure disqualified people, why does God keep choosing the failed?* Carried by shots 4–6.

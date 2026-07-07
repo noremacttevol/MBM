@@ -75,3 +75,7 @@ immense field of stars that seem to lean toward it.
 
 ### Closing card
 Text on cream, serif. No narration.
+
+## The Seed (what this video must leave behind)
+
+Heaven's joy is over ONE — and the woman searches carefully until she FINDS. Not until she gets tired. Not until it's too late. A God like that does not shrug and accept losing most of what is his. Quiet question: *how far would a search like that go — and would it stop at a grave?* Carried by shots 4 and 6.

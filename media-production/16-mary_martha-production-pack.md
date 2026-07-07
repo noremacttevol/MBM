@@ -81,3 +81,7 @@ lamp burns steady. Slow pull back through the doorway into the dark.
 
 ### Closing card
 Text on cream, serif. No narration.
+
+## The Seed (what this video must leave behind)
+
+He never scolded the serving — he worried about the WORRY. Relationship with him outranks performance for him. This quietly undoes every anxious, checklist version of Christianity. Quiet question: *is your faith mostly work you're doing for God, or time you're spending with him?* Carried by shots 5–6.

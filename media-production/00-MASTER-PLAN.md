@@ -1,8 +1,10 @@
 # MBM Story Videos — Master Production Plan
 
-Goal: a cinematic video for every story in the app's opening-story bank (20
-today), plus a backlog of further gospel stories, so people can SEE Jesus's
-way of treating people — not just read it. Videos play where the text story
+Goal: 200 cinematic story videos — the full catalog lives in THE-200.md —
+so people can SEE the goodness of the Godhead, not just read about it. The
+videos are the app's answer to the social-media feed: the reason someone
+opens MBM at 11pm instead of TikTok. The current app bank (20 stories,
+packs 01-20, all with Seed sections) is wave one. Videos play where the text story
 plays today; the text remains the offline fallback (local-first law holds).
 
 ## Pipeline (who does what)
@@ -81,32 +83,27 @@ light.
 | 19 | shore | Breakfast on the shore (Peter restored) | ✅ | — | — | — | — |
 | 20 | samaritan | The Good Samaritan | ✅ | — | — | — | — |
 
-## Backlog — gospel stories beyond the current 20
+## The full corpus: THE-200.md
 
-For future story-bank expansions (each would first be written as an in-app
-story in the Jesus-Method format — story, question, choices including the
-believer's testimony option — THEN get a video, same pipeline):
+The complete numbered catalog of all 200 story videos — parables, miracles,
+encounters, nativity, passion week, teachings-as-scenes, Old Testament
+stories of the same good God, and the post-signal Restoration track — lives
+in **THE-200.md**, each entry with its scripture reference and its Seed.
+New in-app stories are written in the Jesus-Method format from that catalog
+first, THEN get videos. Section IX obeys the BOM law absolutely: never
+surfaced until a person's own words show readiness.
 
-- The woman taken in adultery — "Neither do I condemn thee" (John 8)
-- Feeding the five thousand (John 6)
-- "Let the children come to me" (Mark 10)
-- The widow's mite (Mark 12)
-- Doubting Thomas — "Blessed are they that have not seen" (John 20)
-- The washing of the disciples' feet (John 13)
-- The widow of Nain — he raised her son because he saw HER (Luke 7)
-- The woman who washed his feet with her tears (Luke 7)
-- The lost sheep — leaving the ninety-nine (Luke 15)
-- The wedding at Cana — his first miracle was saving a family's joy (John 2)
-- Gethsemane — "not my will, but thine" (Luke 22)
-- The thief on the cross — "today… in paradise" (Luke 23)
-- Mary Magdalene at the tomb — he said her name (John 20)
-- The sower (Matthew 13)
-- The unmerciful servant — forgiven much, forgiving little (Matthew 18)
-- Workers in the vineyard — the generous landowner (Matthew 20)
+**The storytelling law (added 2026-07-07, Cameron's direction):** these are
+not generic Christian videos. Every video must show the actual character of
+the Godhead — good, personal, loving, worthy of worship because of how they
+love us — told with total fidelity to what Jesus did, so that a viewer's
+inherited theology starts to feel too small on its own. Each pack's "Seed"
+section states the quiet question that video must leave behind. Never an
+argument, never naming the Church early. The story does the work.
 
 Sensitive-content note: Gethsemane, the cross, and the tomb are the heart of
-the gospel and belong in the app — but they are told with the same restraint
-as everything else. No gore, no shock. Light, shadow, and the words carry it.
+the gospel and belong in the corpus — told with the same restraint as
+everything else. No gore, no shock. Light, shadow, and the words carry it.
 
 ## Generator decision (Cameron's — money/accounts)
 
@@ -117,5 +114,6 @@ as everything else. No gore, no shock. Light, shadow, and the words carry it.
 | Runway | ~$15–35/mo | Editor-friendly control |
 | Kling | ~$10/mo | Cheapest, slower queue |
 
-~140 clips total for all 20 stories plus retakes; one month of one
-subscription should cover it.
+Wave one (the 20 in-app stories) is ~140 clips plus retakes; one month of
+one subscription covers it. The full 200 is ~1,400 clips — a long-running
+pipeline, generated in waves as new stories enter the app.

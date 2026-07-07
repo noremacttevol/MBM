@@ -90,3 +90,7 @@ shoulders and laugh toward heaven.
 
 ### Closing card
 Text on cream, serif. No narration.
+
+## The Seed (what this video must leave behind)
+
+"When Jesus saw THEIR faith" — the friends' faith counted for the man on the mat. One person can be carried by the faith of others, and heaven honors it. And he healed the deepest wound first. Quiet question: *if their faith could count for him, how far does God let love work on someone else's behalf?* Carried by shots 4–6.

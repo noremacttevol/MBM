@@ -98,3 +98,7 @@ his own tears are still wet.
 
 ### Closing card
 Text on cream, serif. No narration.
+
+## The Seed (what this video must leave behind)
+
+He KNEW resurrection was minutes away — and he wept anyway. A God with real feelings, standing in real grief, at a grave he is about to empty. Not an impassible abstraction: a person who loves. This is the video's whole argument for a Godhead worthy of worship. Quiet question: *could the God you were taught about cry?* Carried by shot 4 — protect it above everything.

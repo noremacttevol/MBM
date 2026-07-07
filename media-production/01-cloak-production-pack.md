@@ -167,3 +167,7 @@ background, serif type, built in Descript during assembly.
 
 One month of one subscription is likely enough to generate all 20 stories
 (8 shots × 20 = 160 clips, plus retakes).
+
+## The Seed (what this video must leave behind)
+
+In a crowd of dozens pressing against him, he felt ONE touch. The God this video shows is not managing humanity in bulk — he notices one person, and interrupts everything for her. Quiet question left behind: *does the God you were taught about notice you like that — or only crowds?* Carried by shots 5–7 (the reach, the stop, "daughter").

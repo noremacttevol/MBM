@@ -96,3 +96,7 @@ in front of them all.
 
 ### Closing card
 Text on cream, serif. No narration.
+
+## The Seed (what this video must leave behind)
+
+Jesus made the HERETIC the hero — the man his audience was raised to despise carried the compassion of God, while the credentialed religion crossed the road. Quiet question: *what if the love of God shows up in the tradition you were raised to look down on?* Carried by shots 3–4 and 7.

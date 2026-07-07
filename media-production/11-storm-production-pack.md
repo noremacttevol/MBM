@@ -79,3 +79,7 @@ scene: what manner of man is this. Gentle warm lantern light returns.
 
 ### Closing card
 Text on cream, serif. No narration.
+
+## The Seed (what this video must leave behind)
+
+He never denied the storm was real — he was just bigger than it. He did not send the storm to teach a lesson or glorify himself; he STILLED it. Quiet question: *is God the author of your storm — or the one standing up in your boat?* Carried by shots 4–5.

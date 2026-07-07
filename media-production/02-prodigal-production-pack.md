@@ -87,3 +87,7 @@ music implied, joy.
 
 ### Closing card
 Text on cream, serif. No narration.
+
+## The Seed (what this video must leave behind)
+
+The father RUNS — before the speech, before the repentance is even spoken. This is not a father who predestined his son's leaving for his own glory, and not one who waits with crossed arms for groveling. His glory IS the running. Quiet question: *is the Father you've been told about waiting — or running?* Carried by shots 4–6.

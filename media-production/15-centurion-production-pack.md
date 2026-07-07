@@ -84,3 +84,7 @@ quietly, completely.
 
 ### Closing card
 Text on cream, serif. No narration.
+
+## The Seed (what this video must leave behind)
+
+The greatest faith in Israel belonged to a man outside Israel — outside the "right" people entirely. And it worked at a distance, on nothing but a word, because God's word is actual power. Quiet question: *can real faith exist outside the group you were told holds it all?* Carried by shots 3–4.

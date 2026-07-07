@@ -86,3 +86,7 @@ Firelight, no trace of the loneliness from shot 1.
 
 ### Closing card
 Text on cream, serif. No narration.
+
+## The Seed (what this video must leave behind)
+
+"I am coming to your house today" — BEFORE Zacchaeus changed, apologized, or repaid anyone. Grace comes first and change follows it, not the other way around. Quiet question: *what if God's coming to you isn't waiting on you being fixed first?* Carried by shots 5–7.

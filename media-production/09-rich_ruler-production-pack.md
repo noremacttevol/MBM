@@ -77,3 +77,7 @@ slowly to deep warm dark.
 ### Closing card
 Text on cream, serif. No narration. (After the silence of shot 6, the
 question lands with full weight.)
+
+## The Seed (what this video must leave behind)
+
+He loved him AND let him walk away. No coercion, no lowered bar, no chasing — love that honors agency completely. This is the opposite of irresistible grace and forced salvation. Quiet question: *a love that will not force you — is that weakness, or the deepest respect you have ever been shown?* Carried by shots 3 and 6.

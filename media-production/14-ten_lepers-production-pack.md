@@ -91,3 +91,7 @@ is gold.
 
 ### Closing card
 Text on cream, serif. No narration.
+
+## The Seed (what this video must leave behind)
+
+The healing happened mid-obedience, on the road, before any proof. God's pattern: the word comes first, you move, and the confirmation meets you walking. Quiet question: *have you been waiting for proof before you move — when the healing is on the road?* Carried by shot 4.

@@ -84,3 +84,7 @@ Slow fade toward warm white.
 
 ### Closing card
 Text on cream, serif. No narration.
+
+## The Seed (what this video must leave behind)
+
+"Daughter of Abraham" — you belong, you have ALWAYS belonged — declared BEFORE she was healed. Her worth preceded her healing; it wasn't earned by it. This quietly contradicts every theology built on human worthlessness. Quiet question: *what if you already belonged?* Carried by shots 4 and 7.

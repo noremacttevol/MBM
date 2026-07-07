@@ -75,3 +75,7 @@ He almost smiles.
 
 ### Closing card
 Text on cream, serif. No narration.
+
+## The Seed (what this video must leave behind)
+
+Jesus never shamed the fear or the night. He answered the real question underneath. Honest asking — even secret, frightened asking — is safe with God, and gets answered. Quiet question: *if your questions are safe with Jesus, were they ever really dangerous to God?* Carried by shots 3–5.

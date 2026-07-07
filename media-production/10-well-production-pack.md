@@ -89,3 +89,7 @@ then hurry, in the direction she points.
 
 ### Closing card
 Text on cream, serif. No narration.
+
+## The Seed (what this video must leave behind)
+
+He already knew everything she had done — all of it — and he STAYED, and offered living water to a Samaritan heretic the approved religion despised. God speaks outside the approved channel, to the disqualified. Quiet question: *what if being fully known and being loved are the same moment?* Carried by shot 5.

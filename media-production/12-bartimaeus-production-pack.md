@@ -91,3 +91,7 @@ the sky.
 
 ### Closing card
 Text on cream, serif. No narration.
+
+## The Seed (what this video must leave behind)
+
+The crowd — the religious, respectable crowd — said hush. Jesus stopped the whole procession. When religion silences a desperate voice, God overrules religion. And then he ASKS: "what do you want me to do for you?" — God honors the person's own voice. Quiet question: *who told you to keep quiet — and was it God?* Carried by shots 3–4 and 6.

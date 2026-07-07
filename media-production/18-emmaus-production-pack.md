@@ -95,3 +95,7 @@ moved in years.
 
 ### Closing card
 Text on cream, serif. No narration.
+
+## The Seed (what this video must leave behind)
+
+He fell in step beside them, unrecognized, listened first, and their hearts BURNED as he spoke. He walked with them the entire road. Quiet question — the biggest seed in the whole set: *if he did that then, does he still? Does God still walk, still speak — or did he stop?* Carried by shots 3, 4, and 6. The burning heart is the recognition his voice leaves behind.
