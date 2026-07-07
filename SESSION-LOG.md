@@ -27,6 +27,13 @@
 
 ---
 
+## 2026-07-07 — Media production: packs for all 20 story videos written and verified
+- What we did: Cameron asked for videos of every Jesus story in the app. Direction chosen: AI-generated cinematic scenes, played in-app, Cameron reviews each video. Created `media-production/` with a master plan (pipeline, style block, tracker, backlog of 16 future gospel stories) and a full production pack for EVERY one of the 20 opening stories: narration script (the app's exact story text, programmatically verified word-for-word), closing question card, and 6-8 paste-ready shot prompts per story. Two locked rules: Jesus's face is never shown (light/silhouette/hands/hem only), and narration is never rewritten. HeyGen/HyperFrames tried for a quick sample — out of free credits (see 07-06 entry: marketing videos consumed them) and wrong style anyway. No AI-video-generation MCP exists in the registry.
+- What changed in the app (files/commits): No app code. New folder `media-production/` — 00-MASTER-PLAN.md + packs 01-20 (commit 8f99b53).
+- What is now true that wasn't before: every story in the bank has a complete, verified video production recipe; clip generation is the only blocked step. NOTE: 3 HeyGen motion-graphics story videos already exist on disk (Marketing-Launch-Kit/videos/, per 07-06 session) — social-marketing style, distinct from this cinematic in-app effort.
+- What's next / handed off: Cameron picks a generator (recommended: Google Veo 3 via Google AI Pro ~$20 for one month, covers all ~140 clips) and signs in on his browser; assistant drives generation via Chrome, assembles in Descript, Cameron reviews video #1 (cloak) first. Delivery: Firebase Hosting /story-videos/, streamed via expo-video, text story stays as the offline fallback.
+- Commit: 8f99b53
+
 ## 2026-07-06 — Marketing kit re-activated: 3 story videos downloaded, bio link updated to live app
 - What we did: Re-surfaced the Marketing-Launch-Kit for the social launch. Checked HeyGen: 3 of 4 story videos were rendered COMPLETED but never downloaded. Downloaded all three MP4s (verified frame-by-frame which story is which) into `Marketing-Launch-Kit/videos/`: 01-Woman-at-the-Well.mp4, 02-Prodigal-Son.mp4, 03-Woman-and-the-Cloak.mp4. Fourth (Good Shepherd) still stuck "processing" on HeyGen free tier since 07-01 — script ready, recompose when monthly credits reset or on paid tier.
 - What changed in the app (files/commits): No app code. SOCIAL-PAGE-KIT.md "Link in bio" updated — app is live, so bio link = https://milkb4meat.org (+ App Store direct link). Videos added to kit (gitignored or committed per repo policy).
