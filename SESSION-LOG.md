@@ -32,7 +32,7 @@
 - What changed in the app (files/commits): No app code. SOCIAL-PAGE-KIT.md "Link in bio" updated — app is live, so bio link = https://milkb4meat.org (+ App Store direct link). Videos added to kit (gitignored or committed per repo policy).
 - What is now true that wasn't before: Cameron has the actual posting-ready MP4s on disk; the social kit's bio-link advice matches reality (app live).
 - What's next / handed off: Cameron creates the IG/FB/X accounts per SOCIAL-PAGE-KIT.md (2 min each, needs his phone/password), posts Woman at the Well first + pins it, follows CAPTIONS-AND-CALENDAR.md. Good Shepherd video pending HeyGen credits. Spend cap + Android testers still open.
-- Commit: (filled after commit)
+- Commit: fdd181f
 
 ## 2026-07-05 (pt.4) — App Store public indexing CONFIRMED; watcher retired
 - What we did: Scheduled "check-appstore-live" watcher ran; iTunes lookup API (`https://itunes.apple.com/lookup?id=6783621048`) now returns resultCount 1. The app is fully live and publicly indexed: https://apps.apple.com/us/app/milk-before-meat/id6783621048 (Milk Before Meat, free, 4+, Lifestyle/Books, v1.0, released 2026-07-02).
