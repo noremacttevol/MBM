@@ -39,6 +39,7 @@
 4. **Zero placeholders.** No `// TODO`, no snippets, no shorthand. Every file fully written, end-to-end, with complete data and error handling.
 5. **Code first, talk second.** Deliver complete working code blocks first. Brief explanation at the end only.
 6. **Use Playwright** to screenshot and verify all UI before declaring anything done. Never ask Cameron to be the bug reporter.
+7. **For ALL video/media production work, [`media-production/PRODUCTION-BIBLE.md`](./media-production/PRODUCTION-BIBLE.md) is the permanent law** — locked animation style block, hybrid stills+motion pipeline, story-fit rule, QC checklist, credit accounting. Read it before any media work. Cameron never writes prompts or edits clips; the AI runs the whole assembly line and presents finished videos.
 
 ---
 
