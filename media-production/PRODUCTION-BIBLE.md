@@ -32,6 +32,27 @@ asked "Who touched my clothes?" (KJV Mark 5:30), was questioned by his own
 disciples, ignored them, and kept looking until he found her. Backstory and
 resistance beats make the stop mean something.
 
+**The Approval Law (Cameron, 2026-07-08):** Cameron gives the FINAL yes on
+every video — nothing ships without it. Leighton (Cameron's daughter) is a
+crew operator: she runs day shifts with the AI, reacts to storyboards and
+assets, and can mark a finished video "READY FOR DAD," after which she and
+the AI continue to the next story in the queue. Shift handoffs are spoken in
+chat: "Leighton is working on it for the day" / "this is cameron again." The
+crew's full operating manual is **CREW-GUIDE.md** — any AI doing media work
+reads it alongside this file. The AI also teaches while it works (plain-word
+explanations, prompts shown before submitting) so the crew grows toward
+running Flow themselves with the AI in prompt-only mode.
+
+**The Feedback-Study Law (Cameron, 2026-07-08):** Video #1 v2 is approved to
+HOLD as-is and gather real viewer comments. Known self-critique to beat in
+future videos: it reads as AI-made and paces slow. Every batch of viewer
+comments gets studied and distilled into new QC lines in section 5. Current
+improvement targets: (a) tighten pacing — trim dead air between beats, let
+strong images breathe less when the narration has already moved; (b) chase
+the human feel — vary shot rhythm, favor faces/hands/small human details of
+the PEOPLE (never Jesus), let emotion land in the pictures, not just the
+words. Nothing here overrides the sacred pause before Jesus's KJV words.
+
 ## 2. THE LOCKED LOOK — Master Style Block (never change without Cameron's explicit word)
 
 Every image and every video clip for all 200 videos begins with this exact text:
@@ -115,11 +136,13 @@ works. Then scale the motion budget per story as the Story-Fit Rule allows.
 
 ## 6. Money & Credits (why this plan is affordable)
 
-- Stills: 1–2 credits. Veo Fast clip: 20 credits on Pro, 10 on Ultra.
-- Typical video ≈ 25–60 credits. All 200 ≈ ~11,000 credits including retakes.
-- Plans (verified 2026-07-08): Pro $19.99 = 1,000 credits/mo; Ultra $100 tier =
-  10,000/mo; Ultra $200 tier = 25,000/mo. The $200 Ultra tier covers all 200 in
-  one month with >2x margin; the $100 tier covers it lean. Credits don't roll over.
+- **ACTIVE PLAN (Cameron, 2026-07-08): Google AI Ultra $200 tier = 25,000
+  credits/mo.** Bought specifically to produce the corpus at full speed for the
+  next month. Use it thoroughly — the constraint is now throughput, not credits.
+  Round-the-clock crew shifts (Cameron nights, Leighton days) exist to spend it.
+- Stills: 1–2 credits. Veo Fast clip: 10 credits on Ultra.
+- Typical video ≈ 25–60 credits. All 200 ≈ ~11,000 credits including retakes —
+  the $200 tier covers all 200 in one month with >2x margin. Credits don't roll over.
 - The AI reports credit spend in every session log entry so Cameron always knows
   where the month stands. Big-motion stories (3–4 clips) get flagged in the report.
 
