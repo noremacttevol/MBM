@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Generate narration audio for Story Video #1 — Woman Who Touched His Cloak.
-Narrator: modern, warm, low, unhurried. Jesus voice: EXACT KJV only (Mark 5:34).
-Text is taken verbatim from 01-cloak-production-pack.md (do not rewrite).
+"""Generate narration audio for Story Video #1 — Woman Who Touched His Cloak. v2.
+Narrator: modern, warm, low, unhurried (American).
+Jesus voice: AMERICAN, never British (Cameron's permanent law, 2026-07-07).
+Jesus speaks ONLY exact KJV: Mark 5:30 "Who touched my clothes?" and Mark 5:34.
 """
 import asyncio
 import edge_tts
 
 NARRATOR = "en-US-AndrewMultilingualNeural"
-JESUS = "en-GB-RyanNeural"
+JESUS = "en-US-ChristopherNeural"   # American. Never a British voice.
 
 SEGMENTS = [
     # (filename, voice, rate, pitch, text)
@@ -16,16 +17,26 @@ SEGMENTS = [
     ("n2", NARRATOR, "-20%", "-4Hz",
      "She had spent everything on doctors. Nothing helped. She was exhausted, "
      "desperate — and by the rules of her time, considered untouchable."),
+    ("n2b", NARRATOR, "-20%", "-4Hz",
+     "That day, Jesus was already on his way to save someone else — a ruler's "
+     "daughter, twelve years old, and dying. The crowd pressed around him on "
+     "every side. Almost no one would have noticed one more sick woman at its edge."),
     ("n3a", NARRATOR, "-20%", "-4Hz",
      "She heard Jesus was nearby. She did not ask permission. She did not make a speech."),
     ("n3b", NARRATOR, "-20%", "-4Hz",
      "She pressed through the crowd and reached out to touch the edge of his cloak."),
-    ("n4a", NARRATOR, "-25%", "-4Hz",
-     "He stopped."),
-    ("n4b", NARRATOR, "-20%", "-4Hz",
-     "He turned. In a crowd of dozens pressing against him, he felt her reach. "
+    ("n4a", NARRATOR, "-22%", "-4Hz",
+     "He stopped. He had felt it — power had gone out of him. "
+     "The healing was already hers, given the moment she touched him."),
+    ("j0", JESUS, "-25%", "-6Hz",
+     "Who touched my clothes?"),
+    ("n4c", NARRATOR, "-20%", "-4Hz",
+     "His disciples thought the question made no sense. The whole crowd was "
+     "pressing against him — who hadn't touched him? He ignored them. He was "
+     "already needed somewhere else, and he stopped anyway."),
+    ("n4b", NARRATOR, "-22%", "-4Hz",
      "He looked for her until he found her."),
-    ("j1", JESUS, "-25%", "-8Hz",
+    ("j1", JESUS, "-25%", "-6Hz",
      "Daughter, thy faith hath made thee whole; go in peace, and be whole of thy plague."),
     ("n5", NARRATOR, "-20%", "-4Hz",
      "Be whole of thy plague — be free of what has been hurting you. "

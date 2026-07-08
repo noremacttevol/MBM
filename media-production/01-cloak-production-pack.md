@@ -21,25 +21,40 @@ The seeker in each story CAN be shown fully — the story is theirs.
 
 ---
 
-## Narration script (the app's exact words — do not rewrite)
+## Narration script v2 (the app's exact words — do not rewrite)
 
-Read slowly, low, warm. Total spoken time ~45 seconds, leaving room for silence.
+v2 per Cameron (2026-07-07): fuller story — Jairus backstory, he FELT power go
+out, KJV "Who touched my clothes?" (Mark 5:30), disciples questioning, he
+ignored them. Read slowly, low, warm. Jesus voice is AMERICAN, never British.
 
 > There was a woman who had been suffering for twelve years.
 >
 > She had spent everything on doctors. Nothing helped. She was exhausted,
 > desperate — and by the rules of her time, considered untouchable.
 >
+> That day, Jesus was already on his way to save someone else — a ruler's
+> daughter, twelve years old, and dying. The crowd pressed around him on
+> every side. Almost no one would have noticed one more sick woman at its edge.
+>
 > She heard Jesus was nearby. She did not ask permission. She did not make a
 > speech. She pressed through the crowd and reached out to touch the edge of
 > his cloak.
 >
-> He stopped. He turned. In a crowd of dozens pressing against him, he felt
-> her reach. He looked for her until he found her.
+> He stopped. He had felt it — power had gone out of him. The healing was
+> already hers, given the moment she touched him.
 >
-> (pause — 2 full seconds)
+> **JESUS VOICE (exact KJV, Mark 5:30):** "Who touched my clothes?"
 >
-> He called her daughter.
+> His disciples thought the question made no sense. The whole crowd was
+> pressing against him — who hadn't touched him? He ignored them. He was
+> already needed somewhere else, and he stopped anyway.
+>
+> He looked for her until he found her.
+>
+> (sacred pause — 2+ full seconds, music already silent)
+>
+> **JESUS VOICE (exact KJV, Mark 5:34):** "Daughter, thy faith hath made thee
+> whole; go in peace, and be whole of thy plague."
 
 Closing card (text on screen, no narration, hold 6 seconds):
 *"Have you ever been that desperate for something in your life to change —

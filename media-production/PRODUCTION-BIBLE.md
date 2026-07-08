@@ -18,6 +18,20 @@ govern all content. The Two-Voice Law applies: narrator speaks modern; Jesus spe
 ONLY exact KJV words. Jesus's face is NEVER shown — light, silhouette, hem, feet,
 hands-never-visible. The BOM law holds: these 200 videos stay MILK.
 
+**The Voice Law (Cameron, 2026-07-07 — permanent):** The Jesus voice is AMERICAN,
+never British — he was not British. Current voices (edge-tts, placeholders until
+Cameron locks finals): narrator `en-US-AndrewMultilingualNeural`, Jesus
+`en-US-ChristopherNeural`. Any future voice change still obeys: American, warm,
+low, unhurried, same Jesus voice across all 200 videos.
+
+**The Full-Story Law (Cameron, 2026-07-07):** Never flatten a story to its
+headline moment. Include the surrounding humanity that shows he actually cared —
+e.g. for the cloak story: he was already on his way to Jairus's dying daughter,
+the crowd made one sick woman nearly invisible, he FELT power go out of him,
+asked "Who touched my clothes?" (KJV Mark 5:30), was questioned by his own
+disciples, ignored them, and kept looking until he found her. Backstory and
+resistance beats make the stop mean something.
+
 ## 2. THE LOCKED LOOK — Master Style Block (never change without Cameron's explicit word)
 
 Every image and every video clip for all 200 videos begins with this exact text:

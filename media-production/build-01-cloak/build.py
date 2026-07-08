@@ -1,8 +1,17 @@
 #!/usr/bin/env python3
-"""Assemble Story Video #1 — The Woman Who Touched His Cloak (Mark 5:25-34).
-Hybrid storybook format per PRODUCTION-BIBLE.md: 12 painted stills with Ken Burns
+"""Assemble Story Video #1 — The Woman Who Touched His Cloak (Mark 5:25-34). v2.
+Hybrid storybook format per PRODUCTION-BIBLE.md: painted stills with Ken Burns
 drift + 2 animated money-moment clips, narration (edge-tts), serif captions,
 KJV verse card, closing question card on cream #F7F2E9.
+
+v2 changes (Cameron, 2026-07-07):
+- Jesus voice is AMERICAN (en-US-ChristopherNeural), never British. Permanent.
+- Fuller story: Jairus backstory (on his way to a dying twelve-year-old girl),
+  he FELT power go out of him, KJV Mark 5:30 "Who touched my clothes?",
+  disciples questioning him, he ignored them and kept looking.
+- Sequencing fixes: redundant tassel-touch still removed (the animated hem clip
+  carries that beat alone); the walking-away still moved to the backstory beat
+  where walking away makes sense; new disciples still added.
 Output: 1080x1920 H.264, <25MB.
 """
 import os
@@ -20,36 +29,35 @@ ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "18",
        "-pix_fmt", "yuv420p", "-r", str(FPS), "-an"]
 
 # (id, kind, source, duration_s, zoom_dir, caption, caption_style)
-# kind: still | clip | card
 SEGMENTS = [
     ("s01", "still", "Woman_sits_in_dim_room_202607072313.jpeg", 6.0, "in",
      "There was a woman who had been\nsuffering for twelve years.", "n"),
     ("s02", "still", "Woman's_hands_holding_empty_purse_202607072310.jpeg", 13.0, "out",
      "She had spent everything on doctors.\nNothing helped. She was exhausted,\ndesperate — and by the rules of her time,\nconsidered untouchable.", "n"),
-    ("s03", "still", "Woman_gathering_shawl_at_doorway_202607072309.jpeg", 7.5, "in",
+    ("s03", "still", "Man_walking_down_stone_street_202607072350.jpeg", 10.5, "in",
+     "That day, Jesus was already on his way\nto save someone else — a ruler's daughter,\ntwelve years old, and dying.", "n"),
+    ("s04", "still", "Robed_figures_on_stone_street_202607072302.jpeg", 8.5, "in",
+     "The crowd pressed around him on every side.\nAlmost no one would have noticed\none more sick woman at its edge.", "n"),
+    ("s05", "still", "Woman_gathering_shawl_at_doorway_202607072309.jpeg", 7.5, "in",
      "She heard Jesus was nearby.\nShe did not ask permission.\nShe did not make a speech.", "n"),
-    ("s04", "still", "Veiled_woman_in_crowd_2K_202607072304.jpeg", 6.0, "in",
+    ("s06", "still", "Veiled_woman_in_crowd_2K_202607072304.jpeg", 6.0, "in",
      "She pressed through the crowd\nand reached out to touch\nthe edge of his cloak.", "n"),
-    ("s05", "still", "Woman's_hand_touching_cloak_tassels_202607072306.jpeg", 3.5, "in",
+    ("s07", "clip", "Woman_touches_cloak_hem_202607072314.mp4", 8.0, None,
      None, "n"),
-    ("s06", "clip", "Woman_touches_cloak_hem_202607072314.mp4", 8.0, None,
-     None, "n"),
-    ("s07", "still", "Feet_on_dusty_stone_street_202607072306.jpeg", 3.5, "in",
-     "He stopped.", "n"),
-    ("s08", "clip", "Man_turns_to_kneeling_woman_202607072300.mp4", 7.5, None,
-     "He turned. In a crowd of dozens pressing\nagainst him, he felt her reach.", "n"),
-    ("s09", "still", "Man_and_woman_in_light_202607072305.jpeg", 6.0, "out",
-     "He looked for her until he found her.", "n"),
-    ("s10", "still", "Woman_kneeling_looking_upward_2K_202607072303.jpeg", 7.5, "in",
+    ("s08", "still", "Feet_on_dusty_stone_street_202607072306.jpeg", 11.0, "in",
+     "He stopped. He had felt it — power had\ngone out of him. The healing was already\nhers, given the moment she touched him.", "n"),
+    ("s09", "clip", "Man_turns_to_kneeling_woman_202607072300.mp4", 7.5, None,
+     "\u201cWho touched my clothes?\u201d", "kjv"),
+    ("s10", "still", "DISCIPLES_STILL", 16.0, "out",
+     "His disciples thought the question made\nno sense — the whole crowd was pressing\nagainst him. He ignored them.\nHe was already needed somewhere else,\nand he stopped anyway.", "n"),
+    ("s11", "still", "Woman_kneeling_looking_upward_2K_202607072303.jpeg", 14.5, "in",
      "\u201cDaughter, thy faith hath made thee whole;\ngo in peace, and be whole of thy plague.\u201d", "kjv"),
-    ("s11", "still", "Woman_kneeling_with_tears_2K_202607072303.jpeg", 5.0, "out",
+    ("s12", "still", "Woman_kneeling_with_tears_2K_202607072303.jpeg", 5.0, "out",
      "\u201cBe whole of thy plague\u201d — be free of\nwhat has been hurting you.", "n"),
-    ("s12", "still", "Robed_figures_on_stone_street_202607072302.jpeg", 4.5, "in",
-     "Twelve years of it.\nOver, in a sentence.", "n"),
     ("s13", "still", "Woman_standing_in_street_2K_202607072302.jpeg", 4.5, "in",
+     "Twelve years of it.\nOver, in a sentence.", "n"),
+    ("s14", "still", "Woman_standing_on_stone_street_202607072301.jpeg", 5.0, "out",
      "And the first word he chose\nwas daughter.", "n"),
-    ("s14", "still", "Woman_standing_on_stone_street_202607072301.jpeg", 4.5, "out",
-     None, "n"),
     ("s15", "card", None, 5.5, None,
      "\u201cDaughter, thy faith hath made\nthee whole; go in peace, and be\nwhole of thy plague.\u201d\n\nMark 5:34", "verse"),
     ("s16", "card", None, 6.0, None,
@@ -58,15 +66,20 @@ SEGMENTS = [
 
 # narration placements: (audio file, absolute start seconds)
 AUDIO = [
-    ("audio/n1.mp3", 0.8),
-    ("audio/n2.mp3", 6.6),
-    ("audio/n3a.mp3", 19.4),
-    ("audio/n3b.mp3", 26.9),
-    ("audio/n4a.mp3", 44.7),
-    ("audio/n4b.mp3", 47.9),
-    ("audio/j1.mp3", 61.4),   # the sacred line — music is silent by here
-    ("audio/n5.mp3", 68.9),
+    ("audio/n1.mp3", 0.8),     # s01 0-6
+    ("audio/n2.mp3", 6.5),     # s02 6-19
+    ("audio/n2b.mp3", 19.6),   # s03 19-29.5 + s04 29.5-38
+    ("audio/n3a.mp3", 38.5),   # s05 38-45.5
+    ("audio/n3b.mp3", 45.9),   # s06 45.5-51.5   (s07 hem clip 51.5-59.5 silent)
+    ("audio/n4a.mp3", 60.2),   # s08 59.5-70.5
+    ("audio/j0.mp3", 71.5),    # s09 turn clip 70.5-78 — KJV Mark 5:30
+    ("audio/n4c.mp3", 78.6),   # s10 78-94
+    ("audio/n4b.mp3", 94.5),   # s11 94-108.5, then sacred pause
+    ("audio/j1.mp3", 100.4),   # KJV Mark 5:34 — music silent long before this
+    ("audio/n5.mp3", 109.0),   # s12-s14 108.5-123
 ]
+
+MUSIC_END = 96.0  # pad fully silent before the sacred lines
 
 
 def run(cmd):
@@ -136,10 +149,20 @@ def build_card(seg_id, dur, text, style):
 
 
 def main():
-    total = sum(s[3] for s in SEGMENTS)
+    # resolve the disciples still (any filename starting with a known prefix)
+    disc = [f for f in os.listdir(A)
+            if "isciple" in f or "uzzled" in f or "onfusion" in f]
+    if not disc:
+        raise SystemExit("disciples still not found in assets/ — download it first")
+    segments = [list(s) for s in SEGMENTS]
+    for s in segments:
+        if s[2] == "DISCIPLES_STILL":
+            s[2] = disc[0]
+
+    total = sum(s[3] for s in segments)
     print(f"total runtime: {total:.1f}s")
 
-    for seg_id, kind, src, dur, zdir, cap, style in SEGMENTS:
+    for seg_id, kind, src, dur, zdir, cap, style in segments:
         if kind == "still":
             build_still(seg_id, src, dur, zdir, cap, style)
         elif kind == "clip":
@@ -148,14 +171,12 @@ def main():
             build_card(seg_id, dur, cap, style)
 
     with open(f"{S}/concat.txt", "w") as f:
-        for seg in SEGMENTS:
+        for seg in segments:
             f.write(f"file '{seg[0]}.mp4'\n")
     run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", f"{S}/concat.txt",
          "-c", "copy", f"{S}/video_silent.mp4"])
 
     # ---- audio: narration at absolute offsets + soft music bed ----
-    # music bed: quiet open-fifth pad (A2/E3/A3), gentle swell, fully silent
-    # by 59.5s -- cut to silence before the sacred KJV line at 61.4s.
     inputs = []
     filters = []
     labels = []
@@ -164,10 +185,10 @@ def main():
         ms = int(start * 1000)
         filters.append(f"[{i}:a]aresample=44100,adelay={ms}|{ms},volume=1.0[a{i}]")
         labels.append(f"[a{i}]")
-    pad = ("aevalsrc='0.028*sin(2*PI*110*t)+0.022*sin(2*PI*164.81*t)"
-           "+0.016*sin(2*PI*220*t)+0.010*sin(2*PI*329.63*t)':s=44100:d=59.5,"
-           "lowpass=f=800,tremolo=f=0.15:d=0.35,"
-           "afade=t=in:st=0:d=6,afade=t=out:st=54.5:d=5[mus]")
+    pad = (f"aevalsrc='0.028*sin(2*PI*110*t)+0.022*sin(2*PI*164.81*t)"
+           f"+0.016*sin(2*PI*220*t)+0.010*sin(2*PI*329.63*t)':s=44100:d={MUSIC_END},"
+           f"lowpass=f=800,tremolo=f=0.15:d=0.35,"
+           f"afade=t=in:st=0:d=6,afade=t=out:st={MUSIC_END-5}:d=5[mus]")
     filters.append(pad)
     labels.append("[mus]")
     n = len(labels)
@@ -182,7 +203,7 @@ def main():
     run(["ffmpeg", "-y", "-i", f"{S}/video_silent.mp4", "-i", f"{S}/audio_mix.m4a",
          "-map", "0:v", "-map", "1:a",
          "-c:v", "libx264", "-preset", "slow", "-crf", "23",
-         "-maxrate", "1800k", "-bufsize", "3600k", "-pix_fmt", "yuv420p",
+         "-maxrate", "1500k", "-bufsize", "3000k", "-pix_fmt", "yuv420p",
          "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart",
          "cloak-01-prototype.mp4"])
     size = os.path.getsize("cloak-01-prototype.mp4") / 1e6
