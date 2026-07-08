@@ -16,8 +16,19 @@ manipulate, real human one tap away, the rich young ruler walks away free).
 ## 1. Content model
 
 - **The 200 videos** are the spine of the feed. They are the AI-selected
-  best Jesus-gospel stories proving he is a good God. Cinematic live-action
-  (locked — NOT animated), 90 seconds to 3 minutes, story-driven length
+  best Jesus-gospel stories proving he is a good God. **STYLE RE-LOCKED
+  2026-07-08 (Cameron's decision, overrides the June live-action lock):
+  respectful ANIMATION, not photorealistic live-action.** Cameron watched
+  the completed photoreal video #1 clips and rejected the look — the
+  "fake AI" uncanny-valley feel was visible throughout and photorealism
+  was also too expensive per usable clip. New direction: a beautiful,
+  reverent animated/illustrated style (painterly storybook / warm 2D /
+  sacred-art feel — exact style chosen from side-by-side tests, then
+  locked into ONE master style block used on every clip of all 200 for
+  consistency). Rationale: stylized art hides AI artifacts instead of
+  exposing them, succeeds first-take far more often (cheaper per finished
+  video), and reads as "made with care" rather than almost-real. 90
+  seconds to 3 minutes, story-driven length
   (each takes the time its story needs; never padded, never capped short).
   Two-Voice Law applies (KJV red-letter Jesus voice + modern LDS-lens
   narrator). Every video carries its Seed question. The 200 stay MILK:
