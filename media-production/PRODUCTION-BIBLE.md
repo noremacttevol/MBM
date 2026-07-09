@@ -190,6 +190,19 @@ works. Then scale the motion budget per story as the Story-Fit Rule allows.
       Multilingual model anywhere (Voice Law)
 - [ ] The closing card text is written to be READ ALOUD by the narrator and the
       card is scheduled ~13s (Readable-Card Law)
+- [ ] CLARITY / WHY-LAW (added 2026-07-09, video #3: Cameron — "it's very
+      confusing, I don't get the point... explain it better, why Jesus would
+      do some things"): the script must EXPLAIN, not just narrate. Every
+      surprising action gets its WHY in plain words (why the crowd hated him,
+      why the act was shocking, why Jesus's response broke the rules). Test:
+      a viewer with zero Bible background must be able to say what the point
+      was in one sentence.
+- [ ] STUDY-GEM TIDBITS (same session): weave in the small insights people
+      collect in scripture study — cultural context, word meanings, law-of-
+      Moses echoes (e.g. fourfold restitution, "son of Abraham"), and clear
+      up famous mix-ups (e.g. Zacchaeus vs Matthew — both tax collectors,
+      different men). Small tidbits, where needed, so people can connect —
+      never lectures, never breaking the story's flow.
 
 **Before generating ANY image or clip (check the written prompts):**
 - [ ] Master Style Block byte-identical, zero added style words (§5b ban #2)
@@ -201,6 +214,16 @@ works. Then scale the motion budget per story as the Story-Fit Rule allows.
       appearing), objects popping in, anything materializing — plan the beat so
       the risky detail simply isn't requested (video #6 sweat lesson)
 - [ ] MUST NEVER SHOW items from the scripture card confirmed against each prompt
+- [ ] RELATIVE-PHYSICALITY LOCK (added 2026-07-09, video #3: Cameron —
+      "make sure the video actually portrays him as short the entire time,
+      because sometimes the pictures were tall... it doesn't make a lot of
+      sense"): when a physical trait IS the story (Zacchaeus short, blind
+      Bartimaeus's eyes, the withered hand), every prompt must state it
+      RELATIVE to other visible people ("barely chest-high to the adults
+      around him"), solo shots of that character must include other figures
+      for scale, and the QC zoom on every frame verifies the trait reads
+      instantly. A lock written in text but invisible in the picture is a
+      broken lock.
 
 **Before assembly (check the timing math):**
 - [ ] Measure real durations of every generated audio file; recompute all

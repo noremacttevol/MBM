@@ -217,3 +217,188 @@ Prompt scan (before submission):
   card 5 lines within width. Motion cv: mean diff 1.73, spikes only at
   cuts. Jesus face never visible in clip or stills (zoom-verified).
   Loop ends: a full pass found nothing.
+
+---
+
+# V2 REBUILD (2026-07-09) — Cameron REJECTED the first cut
+
+Cameron's notes, verbatim intent: (1) "It's very confusing, I don't get the
+point — redo the entire script and explain it better, WHY Jesus would do
+some things." (2) "Put some emphasis on what people have collected in
+scripture studies" — the study gems. (3) "I thought his name was Matthew —
+clarify that, it's a common mix-up." (4) "Show the story true to what it
+actually is, small tidbits where needed so people can connect." (5) "Make
+sure the video actually portrays him as SHORT the entire time — sometimes
+the pictures were tall — it doesn't make sense."
+
+Two new Bible laws born from this (added to §4b, dated): CLARITY/WHY-LAW +
+STUDY-GEM TIDBITS, and RELATIVE-PHYSICALITY LOCK. The v1 loop passed a
+video whose script explained nothing and whose hero didn't read as short —
+both are checklist items now.
+
+## V2 Character lock — ZACCHAEUS (byte-identical in every prompt)
+"a very short, slight man in his late forties — standing only chest-high
+to the adults around him — with a neat dark beard streaked with grey,
+wearing a fine deep-red robe with gold embroidered trim over a cream linen
+tunic, several gold rings on his fingers, leather sandals"
+RULE: every still with Zacchaeus includes at least one taller adult in
+frame for scale, and the QC zoom must verify he reads INSTANTLY as short.
+JESUS and TREE locks unchanged. The Veo clip (no Zacchaeus in it) is kept.
+
+## V2 Narration script (18 segments; narrator explains WHY at every turn)
+- n0 (shot1): "In Jericho there lived a man named Zacchaeus. And if you're
+  thinking of Matthew — the tax collector who became an apostle — that's a
+  different man. It's one of the most common mix-ups in the Bible. Matthew
+  worked a tax booth up in Galilee. Zacchaeus ran the whole tax office in
+  Jericho. And he was rich."
+- n1 (shot1 out): "Here's why that mattered. Tax collectors worked for
+  Rome — the empire occupying their own people — and they got rich by
+  charging extra and keeping the difference. So to his neighbors,
+  Zacchaeus wasn't just a cheat. He was a traitor. No one greeted him. No
+  one wanted him at their table."
+- n2 (shot2): "When Jesus came to Jericho, the whole city pressed into the
+  street to see him. And Zacchaeus had a problem. He was a short man — the
+  scripture goes out of its way to mention it — and the crowd stood like a
+  wall. Not one person made room for him."
+- n3a (shot3): "So this small, wealthy man did something no respectable
+  person would ever do. He gathered up his fine robes, and he ran."
+- n3b (shot4): "And he climbed a sycamore tree like a child. Bible
+  students love this detail: in that world, a grown man running and
+  climbing was humiliating. Zacchaeus traded the last of his dignity for
+  one glimpse of Jesus — from a distance. He would have settled for that."
+- n4 (clip 0-5s): "He got far more. Jesus stopped — under that exact
+  tree — looked up, and called him by name."  [sacred quiet]
+- j1a (clip 5-8s): KJV 19:5b part 1  [Jesus voice]
+- j1b (shot5 in): KJV 19:5b part 2  [Jesus voice]
+- n5 (shot5 out): "Now — why would Jesus do that? Understand what a meal
+  meant back then. To eat at a man's house was to publicly accept him.
+  Jesus didn't tell him to clean up his life first. He invited himself
+  in — before Zacchaeus had changed a single thing. That is the point of
+  the whole story. Jesus moves first."
+- n6 (shot6): "Zacchaeus came down faster than he had climbed up, and
+  welcomed him with joy. But the crowd was appalled, and grumbled out
+  loud — of every house in Jericho, he had chosen the worst man's. In
+  their rules, you earned your way back BEFORE anyone sat at your table."
+- n7a (shot7 in): "Then, at that table, it happened. Zacchaeus stood up in
+  front of everyone: half of everything I own goes to the poor."
+- n7b (shot7 out): "And anyone I have cheated, I will pay back four times
+  over. That number is a study gem. The law of Moses required fourfold
+  repayment only for outright theft. Zacchaeus was judging himself by the
+  harshest standard — and paying it gladly. Nobody demanded it. Being
+  loved first is what changed him."
+- n7c (shot7 in): "And Jesus answered him with the words this story was
+  written to keep."
+- j2a (shot8 in): KJV 19:9b  [Jesus voice]
+- j2b (shot8 out): KJV 19:10  [Jesus voice]
+- n8 (shot8 in): "A son of Abraham — with those words, Jesus gave him back
+  his place in the family his whole city said he had forfeited."
+  [commentary on three words, per the v1 "I must" precedent]
+- n9 (shot8 out, fade): "And that last line is the key to everything.
+  Jesus was not stuck in that crowd by accident. He was seeking. The man
+  everyone stepped in front of was the one he came to find."
+- n10 (card, read aloud): "Jesus called him by name before he changed
+  anything. What would it mean to you — to be wanted like that, exactly as
+  you are right now?"
+
+Card lines (all ≤31 chars):
+  Jesus called him by name
+  before he changed anything.
+  What would it mean to you —
+  to be wanted like that,
+  exactly as you are right now?
+
+Law checks v2: FULL-STORY all ten verses [x]; WHY-LAW — every act explained
+(hatred, the run, the meal, fourfold, son of Abraham, seeking) [x];
+STUDY-GEMS — Matthew mix-up, dignity of running, meal = acceptance,
+fourfold/Moses, son of Abraham [x]; Translation Law — narrator paraphrases,
+no KJV re-quote (n8 = 3-word commentary) [x]; Readable-Card [x]; music
+beds as v1 [x].
+
+## V2 Flow prompts (stills; STYLE BLOCK unchanged, byte-identical)
+- shot1-despised v2: STYLE + LOCK + "...walks alone through a narrow
+  Jericho market street at midday, the tops of the market stalls and the
+  shoulders of every passing adult towering above his head. The
+  townspeople turn their backs as he passes; a mother draws her child
+  aside. His chin is held high but his eyes are lonely. Hard midday sun,
+  deep shadows. Vertical 9:16 composition."
+- shot2-blocked v2: STYLE + LOCK + "...stands on his toes behind a dense
+  wall of townspeople's backs lining a street, the heads and shoulders of
+  the crowd rising far above him — he sees only the backs of belts and
+  shoulder blades. Dust hangs in the warm air. He is tiny against the
+  crowd, completely blocked out. Vertical 9:16 composition."
+- shot3-run v2: STYLE + LOCK + "...robe gathered up in his fists, RUNS
+  down a narrow sunlit side alley past two tall bystanders pressed to the
+  mud-brick wall, each a full head and shoulders taller than him, robe
+  flapping, breathless, a scattering hen ahead. Vertical 9:16."
+- shot4-climb v2: STYLE + LOCK + "...climbs a broad sycamore-fig tree with
+  a thick low trunk and wide spreading limbs, his small frame dwarfed by
+  the trunk — awkward, scrambling, one sandal slipping — settling onto a
+  limb above the road while two tall townspeople below pass by without
+  looking up. Green dappled light. Vertical 9:16."
+- shot5-lit v2: as v1 with the V2 lock (solo in tree; smallness vs limbs).
+- shot6-comedown v2: STYLE + LOCK + "...lands from the lowest limb into
+  the road's dust in joyful disbelief, laughing, one hand on the trunk —
+  standing only chest-high to the tall, cream-robed figure seen only from
+  behind at the left edge, and shorter than every staring, disapproving
+  townsperson around him. Warm afternoon gold. Vertical 9:16."
+- shot7-table v2: STYLE + LOCK + "...stands at the head of his own long
+  wooden table beside a standing servant a full head and shoulders taller,
+  pushing stacks of silver coins and rolled ledgers ACROSS the table
+  toward astonished poor families seated as his guests — a widow, an old
+  farmer, children — tears on his face and joy in it. Warm lamplight.
+  Vertical 9:16."
+- shot8-salvation v2: STYLE + LOCK + "...his face lifted, wet-eyed and lit
+  with hope, the top of his head barely reaching the chest of the tall
+  cream-robed figure seen only from behind in the foreground, the laden
+  table and guests softly blurred behind. The lamplight halos the
+  cream-robed figure's shoulders. His face is never visible. Vertical
+  9:16."
+
+## V2 additional stills (script is longer; no image may overstay ~23s)
+- shot1b-booth (for n1, why he was hated): STYLE + LOCK + "...sits at a
+  wooden tax booth at the city gate, counting silver coins into a locked
+  chest, while a tall farmer and his wife stand before the booth towering
+  over him, faces hard with resentment, handing over coins they can't
+  spare. A Roman standard leans against the gate wall behind him. Hard
+  midday light. Vertical 9:16 composition."
+- shot-doorway (for n5, what a meal meant — no characters): STYLE + "An
+  open doorway of a fine Jericho stone house at dusk, warm lamplight
+  spilling out across the street's paving stones, and inside, a long
+  wooden table being laid with flat bread, cups, and oil lamps, two
+  household servants preparing it. Seen from the quiet street outside.
+  Vertical 9:16 composition."
+- shot9-seek (for n9, "he came to seek"): STYLE + "A wide, quiet view of
+  the Jericho road at golden dusk: the tall figure seen only from behind,
+  shoulders and the back of his head, in an undyed cream wool robe, walks
+  on down the road away from the camera, the broad sycamore-fig tree
+  standing at the roadside behind him, its leaves glowing in the last
+  light. His face is never visible. Vertical 9:16 composition."
+- shot5-lit: v1 kept (solo in the tree — no height comparison possible;
+  smallness vs the limbs reads correctly).
+- Veo clip kept (no Zacchaeus in frame).
+- Regenerated with the V2 relative-shortness lock: shot1, shot2, shot3,
+  shot4, shot6, shot7, shot8.
+
+## V2 timeline (from measured audio; 249.0s total)
+Audio starts: n0 0.4, n1 23.1, n2 44.4, n3a 62.1, n3b 72.6, n4 94.5
+(sacred quiet before), j1a 102.9, j1b 107.5, n5 111.7, n6 134.7, n7a
+155.3, n7b 165.2, n7c 189.2, j2a 196.0 (sacred quiet before), j2b 204.0,
+n8 209.9, n9 220.3, n10 235.5. Card 235.0→249.0 (14.0s hold).
+Beds: bed1 0→91.9 (fully out before the look up); bed2 134.0→194.5
+(under the coming down + table, out before the final KJV).
+
+## V2 Self-Revision findings
+- PASS 1 finding: final file 31.3MB at every crf — the v1 maxrate 1200k cap
+  fit only a 131s video; at 249s the 24.5MB law needs ~640k video. Fixed:
+  maxrate 640k / bufsize 1280k in build.py, re-muxed → 20.1MB (515kb/s,
+  veryslow crf 21). LESSON for the Bible pipeline: the rate cap must be
+  computed from runtime (24.5MB*8/runtime − 128k audio), not copied.
+- PASS 2 (after fix): NOTHING FOUND. 1080x1920@30, 249.0s, 20.1MB,
+  -14.8 LUFS. Silences: only the four planned (2.35s before n4, 2.36s
+  before j2a, 2.32s card transition, 3.7s card hold) — no dead air.
+  Motion: clip mean-diff 2.38, still zoom 1.37. 15 QC frames verified:
+  Zacchaeus reads INSTANTLY short in every shot (chest-high at the crowd,
+  below the servant even standing, eye-level with a child); Jesus face
+  never visible (back-of-head in clip, shot6, shot8, shot9); captions
+  legible with fades; KJV italic cream; card ≤31 chars, 14.0s hold,
+  read aloud.

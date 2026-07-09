@@ -1,27 +1,28 @@
 #!/usr/bin/env python3
-"""Assemble Story Video #3 — Zacchaeus (Luke 19:1-10).
-Hybrid storybook format per PRODUCTION-BIBLE.md: painted stills with Ken Burns
-drift + 1 animated money-moment clip (the look up), narration (edge-tts),
-serif captions, KJV red-letter lines, closing question card on cream #F7F2E9.
+"""Assemble Story Video #3 — Zacchaeus (Luke 19:1-10) — V2 REBUILD.
 
-Built under the section 4b RIGHT-FIRST-TIME PRE-FLIGHT (see PREFLIGHT.md) and
-the Assembly Craft Laws (2026-07-09) from the very first frame: supersampled
-zoompan, RGBA caption fades, crf-16 intermediates, veryslow crf step-up final,
+Cameron rejected v1 (2026-07-09): confusing, point unexplained, no study
+gems, Matthew mix-up unaddressed, Zacchaeus didn't read as SHORT. This v2
+build follows the rewritten 18-segment script (CLARITY/WHY-LAW + STUDY-GEM
+TIDBITS, Bible section 4b) and all-new stills under the RELATIVE-PHYSICALITY
+LOCK — every Zacchaeus frame has a taller adult for scale.
+
+Hybrid storybook format per PRODUCTION-BIBLE.md: painted stills with Ken
+Burns drift + 1 animated money-moment clip (the look up, stretched 8->8.4s),
+narration (edge-tts), serif captions, KJV red-letter lines, closing question
+card on cream #F7F2E9. Assembly Craft Laws throughout: supersampled zoompan,
+RGBA caption fades, crf-16 intermediates, veryslow crf step-up final,
 loudness lifted toward -15 LUFS, detuned-pair music beds.
 
-FULL-STORY law: all ten verses covered. The pack had stopped at v6 and marked
-v10 "optional" — caught on paper (see PREFLIGHT.md FINDING). The TRUE last
-story words are KJV 19:9-10 in the Jesus voice.
-
 Two-Voice Law: narrator modern American; Jesus speaks ONLY exact KJV
-(Luke 19:5b split at its semicolon across the clip and a still; 19:9b; 19:10).
-Music fully silent BEFORE "Jesus stopped, right under that tree." so the peak
-(grace notices you) lands in sacred quiet — and out again before 19:9-10.
+(Luke 19:5b split at its semicolon; 19:9b; 19:10). Music fully out before
+the look up (bed1 ends 91.9) and before 19:9-10 (bed2 ends 194.5) so both
+peaks land in sacred quiet.
 
 All offsets computed from MEASURED mp3 durations after the ear-check
-(all 16 segments passed; j1a via the medium.en tie-break law).
+(all 18 segments passed; j1a re-taken at -22% after failing both models).
 
-Output: 1080x1920 H.264, <25MB.
+Output: 1080x1920 H.264, <25MB, 249.0s.
 """
 import os
 import subprocess
@@ -40,111 +41,182 @@ ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "16",
        "-pix_fmt", "yuv420p", "-r", str(FPS), "-an"]
 
 STILL_DESPISED = "shot1-despised.jpeg"
+STILL_BOOTH = "shot1b-booth.jpeg"
 STILL_BLOCKED = "shot2-blocked.jpeg"
 STILL_RUN = "shot3-run.jpeg"
 STILL_CLIMB = "shot4-climb.jpeg"
 CLIP_LOOKUP = "clip-looked-up.mp4"
 STILL_LIT = "shot5-lit.jpeg"
+STILL_DOORWAY = "shot-doorway.jpeg"
 STILL_COMEDOWN = "shot6-comedown.jpeg"
 STILL_TABLE = "shot7-table.jpeg"
 STILL_SALVATION = "shot8-salvation.jpeg"
+STILL_SEEK = "shot9-seek.jpeg"
 
-# (id, kind, source, clip_start, duration_s, zoom_dir, caption, caption_style)
+# (id, kind, source, clip_start, duration_s, zoom_dir, caption, style)
+# Boundaries: 0, 11.7, 23.0, 33.6, 44.3, 53.2, 62.0, 72.5, 83.3, 94.0,
+# 102.4, 107.4, 111.6, 122.9, 134.6, 144.9, 155.2, 165.1, 177.2, 189.1,
+# 195.9, 203.9, 209.8, 220.2, 235.0, 249.0.  Long narration beats split
+# into in/out zoom halves on the same still (zoom continuity chains).
 SEGMENTS = [
-    ("s00", "still", STILL_DESPISED, 0, 14.6, "in",
-     "Zacchaeus was a tax collector — which in\n"
-     "his time meant he worked for the occupying\n"
-     "empire, and got rich doing it. In Jericho\n"
-     "everyone knew his name, and no one\nwanted him at their table.", "n"),
-    ("s01", "still", STILL_BLOCKED, 0, 11.7, "in",
-     "When Jesus came through town, Zacchaeus\n"
-     "wanted to see him. But he was short, and\n"
-     "the crowd was a wall. Nobody makes room\n"
-     "for the man they all despise.", "n"),
-    ("s02", "still", STILL_RUN, 0, 8.7, "in",
-     "So he ran ahead. A grown man. A rich man.\n"
-     "Robes flapping, rings and dignity forgotten.", "n"),
-    ("s03", "still", STILL_CLIMB, 0, 9.0, "in",
-     "And he climbed a tree — just to catch\n"
-     "a glimpse from a distance. He would\n"
-     "have settled for that. A glimpse.", "n"),
-    # MONEY MOMENT — Jesus stops and looks up. Music already fully silent
-    # (MUSIC_END 43.5) so the peak lands in sacred quiet.
-    ("s04a", "clip", CLIP_LOOKUP, 0, 5.0, None,
-     "Jesus stopped, right under that tree.\nAnd looked up.", "n"),
-    # Exact KJV Luke 19:5b, first half — the clip holds through the words.
-    ("s04b", "clip", CLIP_LOOKUP, 5.0, 3.0, None,
+    # n0 — the Matthew mix-up tidbit, up front (Cameron asked directly).
+    ("n0a", "still", STILL_DESPISED, 0, 11.7, "in",
+     "In Jericho lived a man named Zacchaeus.\n"
+     "If you're thinking of Matthew — the tax\n"
+     "collector who became an apostle — that's\n"
+     "a different man. It's one of the most\n"
+     "common mix-ups in the Bible.", "n"),
+    ("n0b", "still", STILL_DESPISED, 0, 11.3, "out",
+     "Matthew worked a tax booth up in Galilee.\n"
+     "Zacchaeus ran the whole tax office\n"
+     "in Jericho. And he was rich.", "n"),
+    # n1 — WHY he was hated (new booth scene).
+    ("n1a", "still", STILL_BOOTH, 0, 10.6, "in",
+     "Here's why that mattered. Tax collectors\n"
+     "worked for Rome — the empire occupying\n"
+     "their own people — and got rich by\n"
+     "charging extra and keeping the difference.", "n"),
+    ("n1b", "still", STILL_BOOTH, 0, 10.7, "out",
+     "So to his neighbors, Zacchaeus wasn't\n"
+     "just a cheat. He was a traitor.\n"
+     "No one greeted him. No one wanted\n"
+     "him at their table.", "n"),
+    # n2 — short, and the crowd is a wall.
+    ("n2a", "still", STILL_BLOCKED, 0, 8.9, "in",
+     "When Jesus came to Jericho, the whole\n"
+     "city pressed into the street to see him.\n"
+     "And Zacchaeus had a problem.", "n"),
+    ("n2b", "still", STILL_BLOCKED, 0, 8.8, "out",
+     "He was a short man — the scripture goes\n"
+     "out of its way to mention it — and the\n"
+     "crowd stood like a wall. Not one\n"
+     "person made room for him.", "n"),
+    # n3a — the run.
+    ("n3a", "still", STILL_RUN, 0, 10.5, "in",
+     "So this small, wealthy man did something\n"
+     "no respectable person would ever do.\n"
+     "He gathered up his fine robes, and he ran.", "n"),
+    # n3b — the climb + dignity study gem.
+    ("n3ba", "still", STILL_CLIMB, 0, 10.8, "in",
+     "And he climbed a sycamore tree, like a\n"
+     "child. Bible students love this detail:\n"
+     "in that world, a grown man running\n"
+     "and climbing was humiliating.", "n"),
+    ("n3bb", "still", STILL_CLIMB, 0, 10.7, "out",
+     "Zacchaeus traded the last of his dignity\n"
+     "for one glimpse of Jesus — from a\n"
+     "distance. He would have settled for that.", "n"),
+    # MONEY MOMENT — the look up. bed1 fully out at 91.9; sacred quiet.
+    # 8s Veo clip stretched to 8.4s (setpts 1.05) to bridge to j1a.
+    ("n4", "clip", CLIP_LOOKUP, 0, 8.4, None,
+     "He got far more. Jesus stopped — under\n"
+     "that exact tree — looked up,\n"
+     "and called him by name.", "n"),
+    # Exact KJV Luke 19:5b split at its semicolon (Two-Voice Law).
+    ("j1a", "still", STILL_LIT, 0, 5.0, "in",
      "\u201cZacchaeus, make haste,\nand come down;\u201d", "kjv"),
-    # KJV second half carried by the lit-in-the-tree still.
-    ("s05", "still", STILL_LIT, 0, 4.9, "in",
+    ("j1b", "still", STILL_LIT, 0, 4.2, "out",
      "\u201cfor to day I must abide\nat thy house.\u201d", "kjv"),
-    # Pack-approved bridge — quotes only the two words (Translation Law).
-    ("s06", "still", STILL_LIT, 0, 10.5, "out",
-     "'I must' — not 'I might.' Out of everyone\n"
-     "in that crowd, staying with the man everyone\n"
-     "hated wasn't a detour. It was the plan.", "n"),
-    # v6-7: the joyful coming down AND the murmuring crowd (Full-Story law).
-    ("s07", "still", STILL_COMEDOWN, 0, 12.8, "in",
-     "Zacchaeus half-fell out of that tree with joy.\n"
-     "And the crowd couldn't believe it. Of every\n"
-     "house in Jericho, he chose the cheat's.\n"
-     "They grumbled about it, out loud.", "n"),
-    # v8: the standing gift, three caption-sized beats; the Seed line alone.
-    ("s08a", "still", STILL_TABLE, 0, 5.4, "in",
-     "Nobody demanded anything. But grace\nhad already gotten there first.",
-     "n"),
-    ("s08b", "still", STILL_TABLE, 0, 10.6, "out",
-     "Zacchaeus stood up at his own table:\n"
-     "half of everything I own goes to the poor —\n"
-     "and anyone I cheated, I will pay back\nfour times over.", "n"),
-    ("s08c", "still", STILL_TABLE, 0, 3.8, "in",
-     "He changed because Jesus came first.", "n"),
-    ("s09a", "still", STILL_SALVATION, 0, 3.8, "in",
-     "And Jesus gave the story its last words.", "n"),
-    # Exact KJV Luke 19:9b and 19:10 — the TRUE last story words, in the
-    # same sacred quiet as the look up (bed2 out at 103.0, j2a at 104.2).
-    ("s09b", "still", STILL_SALVATION, 0, 7.6, "out",
+    # n5 — WHY the meal was shocking (new doorway scene).
+    ("n5a", "still", STILL_DOORWAY, 0, 11.3, "in",
+     "Now — why would Jesus do that?\n"
+     "Understand what a meal meant back then:\n"
+     "to eat at a man's house was\n"
+     "to publicly accept him.", "n"),
+    ("n5b", "still", STILL_DOORWAY, 0, 11.7, "out",
+     "Jesus didn't tell him to clean up his\n"
+     "life first. He invited himself in —\n"
+     "before Zacchaeus had changed a single\n"
+     "thing. That is the point of the whole\n"
+     "story. Jesus moves first.", "n"),
+    # n6 — joy, and WHY the crowd grumbled (Full-Story law).
+    ("n6a", "still", STILL_COMEDOWN, 0, 10.3, "in",
+     "Zacchaeus came down faster than he had\n"
+     "climbed up, and welcomed him with joy.\n"
+     "But the crowd was appalled, and\n"
+     "grumbled out loud —", "n"),
+    ("n6b", "still", STILL_COMEDOWN, 0, 10.3, "out",
+     "of every house in Jericho, he had chosen\n"
+     "the worst man's. In their rules, you\n"
+     "earned your way back before anyone\n"
+     "sat at your table.", "n"),
+    # n7 — the standing gift + the fourfold study gem.
+    ("n7a", "still", STILL_TABLE, 0, 9.9, "in",
+     "Then, at that table, it happened.\n"
+     "Zacchaeus stood up in front of everyone:\n"
+     "half of everything I own goes to the poor.", "n"),
+    ("n7ba", "still", STILL_TABLE, 0, 12.1, "out",
+     "And anyone I have cheated, I will pay\n"
+     "back four times over. That number is a\n"
+     "study gem: the law of Moses required\n"
+     "fourfold repayment only for outright theft.", "n"),
+    ("n7bb", "still", STILL_TABLE, 0, 11.9, "in",
+     "Zacchaeus was judging himself by the\n"
+     "harshest standard — and paying it gladly.\n"
+     "Nobody demanded it. Being loved first\n"
+     "is what changed him.", "n"),
+    ("n7c", "still", STILL_TABLE, 0, 6.8, "out",
+     "And Jesus answered him with the words\n"
+     "this story was written to keep.", "n"),
+    # Exact KJV Luke 19:9b and 19:10 — the TRUE last story words, in
+    # sacred quiet (bed2 out at 194.5, j2a at 196.0).
+    ("j2a", "still", STILL_SALVATION, 0, 8.0, "in",
      "\u201cThis day is salvation come to this house,\n"
      "forsomuch as he also is a son of Abraham.\u201d", "kjv"),
-    ("s09c", "still", STILL_SALVATION, 0, 5.9, "in",
+    ("j2b", "still", STILL_SALVATION, 0, 5.9, "out",
      "\u201cFor the Son of man is come to seek and\n"
      "to save that which was lost.\u201d", "kjv"),
+    # n8 — WHY "son of Abraham" matters (3-word commentary precedent).
+    ("n8", "still", STILL_SALVATION, 0, 10.4, "in",
+     "A son of Abraham — with those words,\n"
+     "Jesus gave him back his place in the\n"
+     "family his whole city said he had forfeited.", "n"),
+    # n9 — he was seeking (new road scene), fade to the card.
+    ("n9", "still", STILL_SEEK, 0, 14.8, "in",
+     "Jesus was not stuck in that crowd by\n"
+     "accident. He was seeking. The man\n"
+     "everyone stepped in front of was\n"
+     "the one he came to find.", "n"),
     # Held 14.0s AND read aloud (Readable-Card Law); lines <=31 chars.
-    ("s10", "card", None, 0, 14.0,
-     None,
-     "Have you ever done something —\nmaybe something a little\n"
-     "embarrassing — just to get\na look at something you\n"
-     "thought might be real?", "close"),
+    ("card", "card", None, 0, 14.0, None,
+     "Jesus called him by name\nbefore he changed anything.\n"
+     "What would it mean to you —\nto be wanted like that,\n"
+     "exactly as you are right now?", "close"),
 ]
 
 # narration placements: (audio file, absolute start seconds)
-# measured dur/tail: n0 14.184/.424  n1 11.496/.445  n2 8.352/.406
-#   n3 7.608/.450  n4 4.320/.453  j1a 4.512/1.033  j1b 4.248/1.111
-#   n5 10.056/.401  n6 12.768/.422  n7a 5.040/.445  n7b 10.392/.428
-#   n7c 3.360/.451  n8 3.720/.459  j2a 8.016/1.133  j2b 5.928/1.108
-#   n9 8.016/.418   (gaps computed from SPOKEN ends = dur - tail)
+# measured dur/tail: n0 22.128/.414  n1 20.736/.427  n2 17.184/.430
+#   n3a 9.936/.397  n3b 20.184/.486  n4 7.704/.525  j1a 4.632/1.135
+#   j1b 4.248/1.215  n5 22.392/.467  n6 19.944/.431  n7a 9.288/.438
+#   n7b 23.376/.451  n7c 5.136/.560  j2a 8.016/1.232  j2b 5.928/1.187
+#   n8 9.792/.466  n9 13.512/.458  n10 10.224/.424
+# gaps computed from SPOKEN ends (dur - tail); all breaths 0.95-1.22s,
+# sacred quiet 2.20s before n4 and 2.22s before j2a (planned).
 AUDIO = [
-    ("audio/n0.mp3", 0.4),    # s00 0-14.6     despised+rich (sp end 14.16)
-    ("audio/n1.mp3", 14.9),   # s01 14.6-26.3  the wall (sp 25.95)
-    ("audio/n2.mp3", 26.6),   # s02 26.3-35.0  the run (sp 34.55)
-    ("audio/n3.mp3", 35.2),   # s03 35.0-44.0  the climb (sp 42.36)
-    # 2.04s sacred breath — music fully out by 43.5
-    ("audio/n4.mp3", 44.4),   # s04a 44.0-49.0 the look up (sp 48.27)
-    ("audio/j1a.mp3", 49.1),  # s04b 49.0-52.0 KJV 19:5b pt1 (sp 52.58)
-    ("audio/j1b.mp3", 53.3),  # s05 52.0-56.9  KJV 19:5b pt2 (sp 56.44)
-    ("audio/n5.mp3", 57.3),   # s06 56.9-67.4  the I-must bridge (sp 66.96)
-    ("audio/n6.mp3", 67.6),   # s07 67.4-80.2  down with joy + murmurs (sp 79.95)
-    ("audio/n7a.mp3", 80.6),  # s08a 80.2-85.6 grace got there first (sp 85.20)
-    ("audio/n7b.mp3", 85.8),  # s08b 85.6-96.2 the standing gift (sp 95.76)
-    ("audio/n7c.mp3", 96.5),  # s08c 96.2-100.0 the Seed line (sp 99.41)
-    ("audio/n8.mp3", 100.1),  # s09a 100.0-103.8 setup (sp 103.36)
-    ("audio/j2a.mp3", 104.2), # s09b 103.8-111.4 KJV 19:9b (sp 111.08)
-    ("audio/j2b.mp3", 111.8), # s09c 111.4-117.3 KJV 19:10 (sp 116.62)
-    # 2.18s breath before the closing question
-    ("audio/n9.mp3", 118.8),  # s10 117.3-131.3 card read aloud (sp 126.40)
+    ("audio/n0.mp3", 0.4),     # shot1 0-23.0    Matthew mix-up (sp end 22.11)
+    ("audio/n1.mp3", 23.1),    # booth 23.0-44.3 why hated (sp 43.41)
+    ("audio/n2.mp3", 44.4),    # shot2 44.3-62.0 the wall (sp 61.15)
+    ("audio/n3a.mp3", 62.1),   # shot3 62.0-72.5 the run (sp 71.64)
+    ("audio/n3b.mp3", 72.6),   # shot4 72.5-94.0 the climb gem (sp 92.30)
+    # 2.20s sacred quiet — bed1 fully out at 91.9
+    ("audio/n4.mp3", 94.5),    # clip 94.0-102.4 the look up (sp 101.68)
+    ("audio/j1a.mp3", 102.9),  # shot5 102.4-107.4 KJV 19:5b pt1 (sp 106.40)
+    ("audio/j1b.mp3", 107.5),  # shot5 107.4-111.6 KJV 19:5b pt2 (sp 110.53)
+    ("audio/n5.mp3", 111.7),   # doorway 111.6-134.6 meal = acceptance (sp 133.63)
+    ("audio/n6.mp3", 134.7),   # shot6 134.6-155.2 joy + grumbling (sp 154.21)
+    ("audio/n7a.mp3", 155.3),  # shot7 155.2-165.1 half to the poor (sp 164.15)
+    ("audio/n7b.mp3", 165.2),  # shot7 165.1-189.1 fourfold gem (sp 188.13)
+    ("audio/n7c.mp3", 189.2),  # shot7 189.1-195.9 bridge (sp 193.78)
+    # 2.22s sacred quiet — bed2 fully out at 194.5
+    ("audio/j2a.mp3", 196.0),  # shot8 195.9-203.9 KJV 19:9b (sp 202.78)
+    ("audio/j2b.mp3", 204.0),  # shot8 203.9-209.8 KJV 19:10 (sp 208.74)
+    ("audio/n8.mp3", 209.9),   # shot8 209.8-220.2 son of Abraham (sp 219.23)
+    ("audio/n9.mp3", 220.3),   # shot9 220.2-235.0 he was seeking (sp 233.35)
+    ("audio/n10.mp3", 235.5),  # card 235.0-249.0 read aloud (sp 245.30)
 ]
 
-MUSIC_END = 43.5  # fully silent before the look up — the peak is quiet
+BED1_END = 91.9              # fully silent before the look up
+BED2_START, BED2_END = 134.0, 194.5  # out before KJV 19:9-10
 
 
 def run(cmd):
@@ -164,11 +236,11 @@ def caption_overlay(seg_id, dur, text, style):
     if style == "kjv":
         font, size, color = SERIF_BI, 46, "0xFFF3DC"
     else:
-        font, size, color = SERIF, 42, "white"
+        font, size, color = SERIF, 40, "white"
     fade_out = max(0.0, dur - 0.6)
     return (f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
             f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
-            f"fontcolor={color}:line_spacing=14:x=(w-text_w)/2:y=h-420:"
+            f"fontcolor={color}:line_spacing=14:x=(w-text_w)/2:y=h-460:"
             f"shadowcolor=black@0.85:shadowx=2:shadowy=2:"
             f"box=1:boxcolor=black@0.30:boxborderw=18,"
             f"fade=t=in:st=0:d=0.5:alpha=1,"
@@ -188,9 +260,9 @@ def assemble_segment(seg_id, base_chain, dur, cap, style, tail=""):
 def build_still(seg_id, src, dur, zdir, cap, style):
     frames = int(dur * FPS)
     if zdir == "in":
-        z = f"1.001+0.12*on/{frames}"
+        z = f"1.001+0.10*on/{frames}"
     else:
-        z = f"1.121-0.12*on/{frames}"
+        z = f"1.101-0.10*on/{frames}"
     # Anti-shimmer law: supersample 4320x7680 -> zoompan at 2160x3840 ->
     # lanczos down to 1080x1920 so every zoom step lands on a quarter-pixel.
     base = (f"[0:v]scale=4320:7680,setsar=1,"
@@ -198,9 +270,9 @@ def build_still(seg_id, src, dur, zdir, cap, style):
             f"d={frames}:s=2160x3840:fps={FPS},"
             f"scale=1080:1920:flags=lanczos")
     tail = ""
-    if seg_id == "s00":
+    if seg_id == "n0a":
         tail = ",fade=t=in:st=0:d=1.2"
-    if seg_id == "s09c":
+    if seg_id == "n9":
         tail = f",fade=t=out:st={dur-1.2}:d=1.2"
     fc = assemble_segment(seg_id, base, dur, cap, style, tail)
     run(["ffmpeg", "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
@@ -208,14 +280,14 @@ def build_still(seg_id, src, dur, zdir, cap, style):
 
 
 def build_clip(seg_id, src, start, dur, cap, style):
-    """Veo clip segment. `start` trims into the source so one 8s clip can
-    carry two caption beats (s04a = 0-5s look up, s04b = 5-8s KJV hold)."""
-    base = (f"[0:v]scale=1080:1920:flags=lanczos,setsar=1,fps={FPS},"
-            f"unsharp=5:5:0.35:5:5:0.0")
+    """Veo clip segment, stretched 1.05x (8s source -> 8.4s) so the look-up
+    holds through the whole n4 line without a hard cut mid-motion."""
+    base = (f"[0:v]setpts=1.05*PTS,scale=1080:1920:flags=lanczos,setsar=1,"
+            f"fps={FPS},unsharp=5:5:0.35:5:5:0.0")
     fc = assemble_segment(seg_id, base, dur, cap, style)
     run(["ffmpeg", "-y", "-ss", str(start), "-i", f"{A}/{src}",
-         "-t", str(dur), "-filter_complex", fc, "-map", "[v]"]
-        + ENC + [f"{S}/{seg_id}.mp4"])
+         "-t", str(dur + 1), "-filter_complex", fc, "-map", "[v]", "-t",
+         str(dur)] + ENC + [f"{S}/{seg_id}.mp4"])
 
 
 def build_card(seg_id, dur, text):
@@ -258,20 +330,19 @@ def main():
         ms = int(start * 1000)
         filters.append(f"[{i}:a]aresample=44100,adelay={ms}|{ms},volume=1.0[a{i}]")
         labels.append(f"[a{i}]")
-    # bed1 under the setup (0-43.5), fully out before the look up.
+    # bed1 under the setup (0-91.9), fully out before the look up.
     bed1 = (f"aevalsrc='0.022*(sin(2*PI*110*t)+sin(2*PI*110.6*t))"
             f"+0.016*(sin(2*PI*164.81*t)+sin(2*PI*165.5*t))"
             f"+0.012*sin(2*PI*220*t)+0.008*sin(2*PI*329.63*t)'"
-            f":s=44100:d={MUSIC_END},"
+            f":s=44100:d={BED1_END},"
             f"lowpass=f=750,tremolo=f=0.13:d=0.3,"
             f"aecho=0.7:0.4:311|429:0.25|0.18,"
-            f"afade=t=in:st=0:d=6,afade=t=out:st={MUSIC_END-5}:d=5[mus1]")
+            f"afade=t=in:st=0:d=6,afade=t=out:st={BED1_END-5}:d=5[mus1]")
     filters.append(bed1)
     labels.append("[mus1]")
     # bed2 warm and quieter under the coming-down + table section
-    # (67.4-103.0), fully out before the final KJV at 104.2 so 19:9-10
-    # land in sacred quiet.
-    m2_start, m2_dur = 67.4, 35.6
+    # (134.0-194.5), fully out before KJV 19:9-10 at 196.0.
+    m2_dur = BED2_END - BED2_START
     bed2 = (f"aevalsrc='0.014*(sin(2*PI*110*t)+sin(2*PI*110.5*t))"
             f"+0.011*(sin(2*PI*138.59*t)+sin(2*PI*139.2*t))"
             f"+0.009*sin(2*PI*164.81*t)+0.006*sin(2*PI*220*t)'"
@@ -279,7 +350,7 @@ def main():
             f"lowpass=f=700,tremolo=f=0.11:d=0.3,"
             f"aecho=0.7:0.4:317|443:0.25|0.18,"
             f"afade=t=in:st=0:d=5,afade=t=out:st={m2_dur-6}:d=6,"
-            f"adelay={int(m2_start*1000)}|{int(m2_start*1000)}[mus2]")
+            f"adelay={int(BED2_START*1000)}|{int(BED2_START*1000)}[mus2]")
     filters.append(bed2)
     labels.append("[mus2]")
     n = len(labels)
@@ -305,11 +376,13 @@ def main():
     print(f"loudness: measured {lufs} LUFS, applying {gain:+.1f} dB")
 
     # ---- final mux: preset veryslow, crf step-up until <=24.5MB ----
+    # 249s runtime: 24.5MB/249s = 787kbps total budget, so the video cap
+    # must be ~640k (v1's 1200k cap fit only because v1 was 131s).
     for crf in (21, 22, 23, 24):
         run(["ffmpeg", "-y", "-i", f"{S}/video_silent.mp4",
              "-i", f"{S}/audio_mix.m4a", "-map", "0:v", "-map", "1:a",
              "-c:v", "libx264", "-preset", "veryslow", "-crf", str(crf),
-             "-maxrate", "1200k", "-bufsize", "2400k", "-pix_fmt", "yuv420p",
+             "-maxrate", "640k", "-bufsize", "1280k", "-pix_fmt", "yuv420p",
              "-af", f"volume={gain:.1f}dB,alimiter=limit=0.95",
              "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart",
              "zacchaeus-03.mp4"])
