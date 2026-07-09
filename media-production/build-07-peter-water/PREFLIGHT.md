@@ -210,3 +210,49 @@ Fix executed:
   light burst — is RESOLVED by the new composition's dark lower third);
   no law violations.
 V2 replaces V1 as the release candidate. AWAITING Cameron's look.
+
+## V3 REWORK — Cameron rejected V2 (2026-07-09, second review)
+Cameron's words: both motion clips are not worthy of the story.
+1. WALKING CLIP (s5): Peter is "not even walking towards Jesus," and the
+   Jesus figure "looks like he is looking the other way." REJECTED.
+   V3 restage: shot from behind/beside PETER (his back is allowed), Peter
+   mid-stride on the heaving water moving clearly TOWARD a distant luminous
+   robed figure far ahead whose form faces Peter, arms open toward him,
+   features fully dissolved in radiance (face-never held by light and
+   distance, NOT by a turned back — Correction #5).
+2. SINKING CLIP (s7): Peter drifted into "a whole different cartoon...
+   looks more like a caveman." Identity drift. REJECTED.
+   V3 restage: still-anchor pipeline mandatory — generate the anchor still
+   of the CORRECT Peter (verified at zoom against the s4 reference face:
+   burly middle-aged fisherman, thick dark curly beard, weathered
+   sun-browned face) waist-deep mid-sink, then Frames-to-video from that
+   anchor. Frame-check the finished clip against s4 before banking
+   (Correction #6).
+Both new clips get full local frame QC (ffmpeg extraction + crop zooms)
+before assembly. V3 rebuild + full Self-Revision follows. V2 is dead.
+
+### V3 execution results (2026-07-09)
+- Walk anchor still (Nano Banana 2, first try, 0 credits) -> assets/s5-walk-anchor-v3.jpeg (2K).
+  Peter from behind/beside mid-stride TOWARD a distant radiant figure that FACES him,
+  arms opened wide, form fully dissolved in golden light (no face, no features),
+  golden light path to Peter's feet. Zoom-QC: identity matches s4, hand clean.
+- Sink anchor still (Nano Banana 2, first try, 0 credits) -> assets/s7-sink-anchor-v3.jpeg (2K).
+  Same Peter waist-deep, both arms up, 5 fingers each hand verified, NO tear beads,
+  distant radiant figure facing him.
+- Walking clip V3 (Frames-to-video, Veo 3.1 Fast 8s, 10 credits) -> assets/s5-walking-v3.mp4.
+  QC PASSED (qc/v3-walk/): Peter walks toward the figure all 8s, figure faces him
+  arms open, dissolved in light, identity stable. WATCH ITEM: the figure's hands
+  render as defined glowing-gold light shapes within the radiance (not flesh) — no
+  facial features at any frame, so within the face-never law, but noted.
+- Sinking clip V3 (Frames-to-video, Veo 3.1 Fast 8s, 10 credits) -> assets/s7-sinking-v3.mp4.
+  QC PASSED (qc/v3-sink/, face2 crops): SAME Peter as s4 reference every frame — no
+  caveman drift. 5 fingers per hand, no tear beads (water drips only), radiant figure
+  stays distant/featureless/facing him. WATCH ITEM: one sleeve slips partway down the
+  soaked upthrust forearm — natural for a drenched arm thrown skyward; accepted.
+- build.py updated: CLIP_WALK -> s5-walking-v3.mp4, CLIP_SINK -> s7-sinking-v3.mp4.
+- V3 REBUILT: peter-water-07.mp4, 19.5 MB, 256.0s (crf 21, vcap 620k, -19.8 LUFS +4.8 dB).
+- Self-Revision: 32 frames sampled across full runtime (qc/v3-final/), dense over both
+  clip windows (113.8-126.6s walk, 135.8-146.6s sink). All beats verified: geometry
+  correct in walk (Correction #5), identity locked in sink (Correction #6), rescue
+  reach beats show sleeve/hand/forearm only (Correction #2), captions legible, end
+  card clean. V3 PASSED.

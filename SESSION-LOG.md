@@ -27,6 +27,34 @@
 
 ---
 
+## 2026-07-09 (pt.24) — Cameron rejected V2; Corrections #5/#6 added; Peter #07 fully rebuilt as V3
+- What we did: Cameron reviewed V2 of peter-water-07 and rejected it — the walking
+  clip didn't show Peter moving toward Jesus (and the Jesus figure read as looking
+  away), and the sinking clip drifted into a different-looking character ("caveman").
+  Recorded two new permanent laws in PRODUCTION-BIBLE.md: Correction #5 (motion clips
+  must honor the story's geometry — person moving toward Jesus, Jesus presence facing
+  them) and #6 (one character every clip — frame-check against the banked reference
+  face; still-anchor pipeline mandatory for close human figures). Regenerated BOTH
+  motion clips via still-anchor pipeline in Flow: two new anchor stills (Nano Banana 2,
+  first-try each, zoom-QC'd against the s4 Peter reference) and two new Frames-to-video
+  clips (Veo 3.1 Fast, 10 credits each). Full local frame QC on both clips (ffmpeg
+  extraction + crop zooms) — both PASSED: correct geometry, stable identity, no tear
+  beads, radiant Jesus figure faces Peter with no features. Rebuilt peter-water-07.mp4
+  as V3 (256.0s, 19.5 MB) and ran full Self-Revision (32 frames across the runtime).
+- What changed in the app (files/commits): media-production/PRODUCTION-BIBLE.md
+  (Corrections #5 and #6), build-07-peter-water/PREFLIGHT.md (V3 REWORK section + V3
+  execution results), build-07-peter-water/build.py (CLIP_WALK/CLIP_SINK -> v3 files),
+  new assets (s5-walk-anchor-v3.jpeg, s7-sink-anchor-v3.jpeg, s5-walking-v3.mp4,
+  s7-sinking-v3.mp4), qc/v3-walk + qc/v3-sink + qc/v3-final frame sets,
+  peter-water-07.mp4 V3, tracker row 07 in 00-MASTER-PLAN.md.
+- What is now true that wasn't before: six Cameron Corrections are law (was four).
+  The still-anchor pipeline is mandatory for any clip with a close human figure.
+  peter-water-07 V3 exists and passed full QC; V2 is dead. ~20 Flow credits spent.
+- What's next / handed off: Cameron reviews V3. Still open: #09 rich-ruler rework
+  (missing hand, fake tears, cloak drift, s7 full-back restage), re-audit of older
+  videos (#1,#3,#4,#5) against all six corrections, painted-vs-cartoon style call.
+- Commit: <hash filled in after you commit>
+
 ## 2026-07-09 (pt.23) — CAMERON'S CORRECTIONS become law; Peter #07 rescue rebuilt as V2; #09 sent back to rework
 - What we did: Cameron reviewed the videos himself and approved NEITHER #07 nor #09. His corrections are now standing law, recorded in PRODUCTION-BIBLE.md as "The Cameron Corrections (2026-07-09)": (1) full-back shots of Jesus are a LAST resort, never the default, and never in beats where Jesus acts toward someone — prefer partial framing (a sleeve entering frame, a hem, feet at the frame edge, a shadow, off-frame light); (2) rescue/touch beats MAY show Jesus's reaching hand/forearm in a wool sleeve — Cameron's amendment to hands-never; the face stays absolutely never; (3) no fake painted tear beads — emotion lives in eyes/brows/mouth, wet shining eyes at most; (4) wardrobe locks go INSIDE the anatomy sentence of every clip prompt and clips are frame-checked against banked stills before banking. Cameron's priority: fix Peter first. The offending s8-the-catch still (full-back Jesus over drowning Peter — read as Jesus turning his back on him) was replaced: one Nano Banana 2 generation produced s8-the-reach — a single hand and forearm in a cream wool sleeve entering from the top edge, gripping Peter's wrist, warm light down the arm, no head/face/body. Zoom QC passed (grip anatomy, Peter's open 5-finger hand, no tear beads). Swapped S8 in build.py, rebuilt peter-water-07.mp4 as V2 (256.0s, 19.4MB), extracted 7 frames across the 146.6–197.5s rescue window — all pass, captions legible over the darker water (which also RESOLVES V1 watch item #1, caption contrast over the old light burst). #09's four rework items logged in its PREFLIGHT: missing hand in one scene, fake tears on the close-ups, cloak drift between the walk-away clip and the next still, and the s7 full-back restage.
 - What changed in the app (files/commits): No app code. PRODUCTION-BIBLE.md: Cameron Corrections block added before "THE LOCKED LOOK". build-07-peter-water/: build.py S8 swap, assets/s8-the-reach.jpeg banked, peter-water-07.mp4 rebuilt (V2), qc/reach/ frames, PREFLIGHT.md V2 section. build-09-rich-ruler/PREFLIGHT.md: REWORK QUEUE section. Tracker: row 07 "V2 rebuilt per Cameron's correction — awaiting his look"; row 09 "❌ sent back by Cameron — rework queued".

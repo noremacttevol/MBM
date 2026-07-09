@@ -110,7 +110,7 @@ light.
 | 04 | nicodemus | Nicodemus at night | ✅ | ✅ | ✅ | ✅ 2026-07-09 | — |
 | 05 | bent_woman | The bent-over woman | ✅ | ✅ | ✅ | ✅ 2026-07-09 | — |
 | 06 | two_sons | The two sons | ✅ | — | — | — | — |
-| 07 | peter_water | Peter walks on water | ✅ | ✅ | ✅ | V2 rebuilt per Cameron's correction 2026-07-09 — awaiting his look | — |
+| 07 | peter_water | Peter walks on water | ✅ | ✅ | ✅ | V3 rebuilt 2026-07-09 — both motion clips restaged per Corrections #5/#6 (geometry + identity), still-anchor pipeline; awaiting Cameron's look | — |
 | 08 | lost_coin | The lost coin | ✅ | — | — | — | — |
 | 09 | rich_ruler | The rich young ruler | ✅ | ✅ | ✅ | ❌ sent back by Cameron 2026-07-09 — rework queued | — |
 | 10 | well | The woman at the well | ✅ | — | — | — | — |

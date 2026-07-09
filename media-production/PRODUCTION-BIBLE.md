@@ -126,9 +126,27 @@ words. Nothing here overrides the sacred pause before Jesus's KJV words.
    and cut, purse type and position, sleeves) goes INSIDE the anatomy sentence of
    every clip prompt, and every clip is checked against the banked stills frame by
    frame before banking.
-These corrections triggered a REDO of peter-water-07 (the rescue beat) and put
-rich-ruler-09 in the rework queue (missing hand in one scene, fake tears, cloak
-drift). Older videos get re-audited against these rules when their turn comes.
+5. **Motion clips must honor the story's geometry (Cameron, 2026-07-09, second
+   review).** In the Peter walking clip, Peter was not visibly walking TOWARD
+   Jesus, and the Jesus figure read as looking the other way. When the scripture
+   says a person moves toward Jesus, the clip must show exactly that: the person
+   oriented and moving toward the Jesus presence, and the Jesus presence oriented
+   TOWARD the person (open posture, light pouring toward them) — never turned
+   away. Face-never still holds; use distance, light dissolve, or framing, not a
+   turned back.
+6. **One character, every clip (no caveman drift).** In the Peter sinking clip,
+   Peter drifted into a different-looking character — "a whole different cartoon...
+   he looks more like a caveman." Every clip's person must be frame-checked
+   against the banked REFERENCE face for that character (Peter's reference is the
+   s4 gunwale still) before banking. If the face/build/hair does not match the
+   reference, the clip is rejected no matter how good the motion is. Prefer the
+   still-anchor pipeline (Frames-to-video from a banked still of the correct
+   character) over text-to-video for any clip with a close human figure.
+These corrections triggered a REDO of peter-water-07 (V2's rescue still fix was
+NOT enough — Cameron rejected V2 too; both motion clips are being restaged and
+regenerated for V3) and put rich-ruler-09 in the rework queue (missing hand in
+one scene, fake tears, cloak drift). Older videos get re-audited against these
+rules when their turn comes.
 
 ## 2. THE LOCKED LOOK — Master Style Block (never change without Cameron's explicit word)
 
