@@ -110,7 +110,7 @@ light.
 | 04 | nicodemus | Nicodemus at night | ✅ | ✅ | ✅ | ✅ 2026-07-09 | — |
 | 05 | bent_woman | The bent-over woman | ✅ | ✅ | ✅ | ✅ 2026-07-09 | — |
 | 06 | two_sons | The two sons | ✅ | — | — | — | — |
-| 07 | peter_water | Peter walks on water | ✅ | ✅ | ✅ | awaiting review | — |
+| 07 | peter_water | Peter walks on water | ✅ | ✅ | ✅ | READY FOR DAD (Leighton 2026-07-09) | — |
 | 08 | lost_coin | The lost coin | ✅ | — | — | — | — |
 | 09 | rich_ruler | The rich young ruler | ✅ | — | — | — | — |
 | 10 | well | The woman at the well | ✅ | — | — | — | — |

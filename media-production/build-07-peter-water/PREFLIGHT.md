@@ -2,6 +2,9 @@
 
 Built per PRODUCTION-BIBLE §4b. Checked ON PAPER before any credit is spent.
 
+**STATUS: READY FOR DAD — Leighton watched the full V1 and approved it,
+2026-07-09 (Approval Law: crew mark; Cameron's final yes still pending).**
+
 ## Scripture card (KJV, fetched via bible-api.com 2026-07-09)
 
 Matthew 14:22-33, read END-TO-END. Full text banked in this session.
