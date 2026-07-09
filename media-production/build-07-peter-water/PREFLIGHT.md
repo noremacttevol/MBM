@@ -183,3 +183,30 @@ Logged watch items (none blocking, carry forward to future builds):
    Within the still lock as written at the time, but now that the clip
    lock says wrist-length sleeves, future STILL prompts should carry the
    same wrist-length wording for consistency.
+
+## V2 — Cameron's correction (2026-07-09)
+Cameron reviewed V1 and rejected the s8 rescue beat: the full-figure
+back-shot of Jesus read as Jesus TURNING HIS BACK on a drowning man.
+His direction: keep the face-never rule, but show the rescue itself —
+"just him reaching a hand into the water to pull out Peter." This and
+three other corrections are now recorded as The Cameron Corrections in
+PRODUCTION-BIBLE.md section 1.
+
+Fix executed:
+- New still s8-the-reach.jpeg (2K, Nano Banana 2): a single hand and
+  sleeved forearm in cream wool enter from the TOP EDGE of the frame,
+  cropped at the elbow, gripping Peter's wrist — no head, no face, no
+  shoulders, no body for the one reaching. Peter chest-deep in storm
+  waves, desperate wet face upturned (no fake tear beads), other hand
+  open with five fingers. Zoom QC passed on the grip, both hands, and
+  the face.
+- build.py S8 swapped to s8-the-reach.jpeg; s8-the-catch.jpeg retained
+  in assets for the record but unused.
+- Rebuilt peter-water-07.mp4: 256.0s, 19.4 MB, crf 21 vcap 620k,
+  loudness -19.8 LUFS +4.8 dB.
+- V2 Self-Revision of the s8 window (7 frames, 148-196s): the reach
+  composition holds through all five s8 beats; n6/n7/j3/n8a/n8b
+  captions all legible over dark water (V1 watch item #1 — caption over
+  light burst — is RESOLVED by the new composition's dark lower third);
+  no law violations.
+V2 replaces V1 as the release candidate. AWAITING Cameron's look.

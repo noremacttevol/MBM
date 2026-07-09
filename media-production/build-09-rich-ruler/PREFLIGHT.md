@@ -232,3 +232,19 @@ Logged watch items (none blocking):
    covering not present in other beats — read only at far distance,
    acceptable. Distant-figure wardrobe wording is worth adding to
    still prompts where the young man appears small.
+
+## REWORK QUEUE — Cameron's review (2026-07-09, video NOT approved)
+Cameron reviewed V1 and sent it back. Items to fix in the V2 pass:
+1. Missing hand in one scene — audit every still at zoom for anatomy
+   counts again; find and fix the beat Cameron saw.
+2. Fake tears — the painted tear beads on the young man's cheek (s2,
+   s3/s5 close-ups) read fake. Remove them: emotion stays in the eyes,
+   brows, mouth — wet shining eyes at most (Cameron Correction #3).
+3. Cloak drift in the walk-away sequence — the young man's cloak
+   changes between the s6 clip and the s7 still. Re-lock wardrobe
+   inside the clip prompt's anatomy sentence and regenerate whichever
+   asset breaks the lock.
+4. s7 composition — another full-back Jesus shot; under Cameron
+   Correction #1, restage (sleeve/hem/shadow/off-frame light) so the
+   frame doesn't lean on Jesus's back.
+Tracker row 09 stays un-approved until the V2 pass clears these.

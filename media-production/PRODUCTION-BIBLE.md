@@ -102,6 +102,34 @@ the human feel — vary shot rhythm, favor faces/hands/small human details of
 the PEOPLE (never Jesus), let emotion land in the pictures, not just the
 words. Nothing here overrides the sacred pause before Jesus's KJV words.
 
+**The Cameron Corrections (Cameron, 2026-07-09 — law, from his review of #07 and #09):**
+1. **Stop leaning on Jesus's back.** Too many frames across the videos stage Jesus
+   as a full figure seen from behind. The face-NEVER rule does NOT require showing
+   his back — and in emotional beats a turned back reads as Jesus REJECTING the
+   person (the Peter rescue looked like Jesus turning away from a drowning man).
+   Frames don't have to hold the whole figure. Prefer partial framing: a sleeve
+   entering the frame, the hem, feet at the edge, a shadow falling across the
+   person, light from off-frame. Full-back compositions are now the LAST resort,
+   never the default, and never in a beat where Jesus is acting toward someone.
+2. **Rescue/touch beats may show Jesus's reaching hand (Cameron's amendment).**
+   When the scripture's action IS physical rescue or touch (pulling Peter from the
+   water), the frame should show the reach itself — a hand/forearm in a wool sleeve
+   extending into the frame toward the person — with the face still absolutely
+   never shown. Cameron's words: "just him reaching a hand into the water to pull
+   out Peter." The blanket hands-never default stays for all other beats.
+3. **No fake tears.** Painted-on teardrop beads sitting on a cheek read fake and
+   break the spell (rich young ruler #09). Emotion lives in the eyes, brows, and
+   mouth — wet shining eyes at most. Zoom-QC every close-up for stray tear-bead
+   artifacts; regenerate or edit them out.
+4. **Wardrobe must hold INSIDE clips and BETWEEN beats.** The #09 walk-away
+   sequence changed the young man's cloak mid-story. Every lock item (cloak color
+   and cut, purse type and position, sleeves) goes INSIDE the anatomy sentence of
+   every clip prompt, and every clip is checked against the banked stills frame by
+   frame before banking.
+These corrections triggered a REDO of peter-water-07 (the rescue beat) and put
+rich-ruler-09 in the rework queue (missing hand in one scene, fake tears, cloak
+drift). Older videos get re-audited against these rules when their turn comes.
+
 ## 2. THE LOCKED LOOK — Master Style Block (never change without Cameron's explicit word)
 
 Every image and every video clip for all 200 videos begins with this exact text:
