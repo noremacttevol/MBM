@@ -20,9 +20,52 @@ hands-never-visible. The BOM law holds: these 200 videos stay MILK.
 
 **The Voice Law (Cameron, 2026-07-07 — permanent):** The Jesus voice is AMERICAN,
 never British — he was not British. Current voices (edge-tts, placeholders until
-Cameron locks finals): narrator `en-US-AndrewMultilingualNeural`, Jesus
+Cameron locks finals): narrator `en-US-AndrewNeural`, Jesus
 `en-US-ChristopherNeural`. Any future voice change still obeys: American, warm,
 low, unhurried, same Jesus voice across all 200 videos.
+**NEVER use a "Multilingual" voice model (Cameron, 2026-07-08):** the
+`en-US-AndrewMultilingualNeural` narrator drifted into foreign-sounding accents
+on ordinary English words (caught on video #6). Plain US models only.
+
+**The Ear-Check Law (Cameron, 2026-07-08 — permanent):** Cameron must never be
+the one who catches broken audio. After EVERY narration generation, run the
+speech-to-text ear-check (`qc_narration.py`, first built in build-06-two-sons):
+it transcribes every mp3 and diffs it word-for-word against the script. Any
+segment under 0.93 match is regenerated (reworded if needed) BEFORE assembly.
+No video is assembled, let alone shown to Cameron, with unverified narration.
+
+**The No-Dead-Air Law (Cameron, 2026-07-08 — permanent):** The narrator carries
+the story through EVERY scene. No silent "visual beats" — a mid-video stretch
+without narration reads as broken to viewers ("it just stops talking"). Verify
+with `silencedetect` (no gap >2.5s between first word and last); the only
+allowed silences are a short breath before the closing card and the card's tail.
+
+**The Translation Law (Cameron, 2026-07-08 — permanent):** After the Jesus
+voice speaks a KJV line, the narrator NEVER re-quotes or echoes the KJV words.
+He gives only the plain modern meaning ("He was asking: which of the two did
+what his father wanted?"). Jesus's words belong to Jesus alone.
+
+**The Readable-Card Law (Cameron, 2026-07-08):** The closing question card is
+held long enough to read comfortably (~13s) AND read aloud by the narrator,
+gently. Never cut a text card before a slow reader finishes it.
+
+**The Self-Revision Law (Cameron, 2026-07-08 — permanent; video #6 was the
+lesson):** Video #6 took FIVE revisions with Cameron catching the problems
+himself. That must never happen again. Before ANY video is presented to
+Cameron, the AI runs the complete revision loop itself, as many passes as it
+takes:
+1. Re-read this entire file and apply EVERY law — they all bind every video,
+   not just the one that taught the lesson.
+2. Ear-check every narration segment (transcribe + diff against the script).
+3. Silence-scan the full mix — no dead air over 2.5s in the spoken body.
+4. Frame-strip the full video — every caption on the right scene, KJV in
+   cream italic, characters on-model, style painted not cartoon.
+5. Watch it as a stranger would: does the story flow start to finish with no
+   confusing scene? Would a slow reader finish every card? Does anything look
+   AI-weird (things appearing or vanishing, extra objects, odd pacing)?
+6. Fix everything found and loop again until a full pass finds NOTHING.
+Cameron sees a video ONCE, for the final yes. He is the approver, not the QC
+department. Revisions are the AI's job.
 
 **The Full-Story Law (Cameron, 2026-07-07):** Never flatten a story to its
 headline moment. Include the surrounding humanity that shows he actually cared —
