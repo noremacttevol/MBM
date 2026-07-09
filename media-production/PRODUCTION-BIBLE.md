@@ -151,10 +151,15 @@ words. Nothing here overrides the sacred pause before Jesus's KJV words.
    sinking/drowning and reaching for Jesus, stage ONE arm down in the water
    (fighting the sea) and ONE arm reaching toward the Jesus presence — not both
    arms thrown up. It reads truer and gives the animation fewer arms to confuse.
+   UPDATE (Cameron, 2026-07-09, fourth review): this staging law applies to STILLS
+   too, not just clips. The s8 rescue still had Peter's second arm raised with an
+   open hand beside the gripped arm — wrong. In every rescue/reach image the person
+   has ONE arm up (the arm Jesus grips) and the OTHER arm down in the water.
 These corrections triggered a REDO of peter-water-07 (V2's rescue still fix was
 NOT enough — Cameron rejected V2 too; both motion clips were restaged and
 regenerated for V3; then V3's sinking clip failed the limb-count law and was
-restaged again for V4) and put rich-ruler-09 in the rework queue (missing hand in
+restaged again for V4; then V4's s8 rescue STILL failed the same staging law and
+was restaged for V5) and put rich-ruler-09 in the rework queue (missing hand in
 one scene, fake tears, cloak drift). Older videos get re-audited against these
 rules when their turn comes.
 

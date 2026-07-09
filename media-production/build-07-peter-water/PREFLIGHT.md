@@ -286,3 +286,21 @@ before assembly. V3 rebuild + full Self-Revision follows. V2 is dead.
   shows Cameron's staging exactly (one arm in the water, one reaching toward Jesus),
   two arms in every frame, untouched beats and end card unchanged from V3
   verification, captions legible. V4 PASSED.
+
+### V5 execution results (2026-07-09) — Cameron's fourth review, s8 rescue still
+- Cameron's report at 2:41: "the pic is rong he needs has two arms reching fix it" —
+  the s8-the-reach still had Peter's second arm raised with an open hand beside the
+  gripped arm, violating the same staging law as the sink clip. Correction #7
+  updated: the one-arm-in-water staging applies to STILLS too.
+- New rescue still (Nano Banana 2, first try, 0 credits) -> assets/s8-the-reach-v2.jpeg
+  (2K). Peter chest-deep, RIGHT arm raised and gripped at the forearm by the
+  rescuing hand from above (only hem + arm of the rescuer visible, no face), LEFT
+  arm plunged down into the water. Zoom-QC (qc/v5-s8/): grip anatomy clean (five
+  fingers), Peter matches the s4 reference, water drips only — no painted tear
+  beads, exactly two arms.
+- build.py updated: S8 -> s8-the-reach-v2.jpeg (clips unchanged: walk v3, sink v4).
+- V5 REBUILT: peter-water-07.mp4, 19.1 MB, 256.0s (crf 21, vcap 620k).
+- Self-Revision: 10 frames (qc/v5-final/) — t148/t155/t161/t172/t180/t190/t196
+  covering the whole s8 window (146.6-197.5s) plus t140 (sink clip, unchanged),
+  t60, t254 spot checks. New staging correct in every rescue beat, captions
+  legible, sink clip and end card unchanged. V5 PASSED.

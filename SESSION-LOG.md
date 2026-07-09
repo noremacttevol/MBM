@@ -27,6 +27,32 @@
 
 ---
 
+## 2026-07-09 (pt.26) — Cameron's fourth review: rescue still staging fixed; Peter #07 rebuilt as V5
+- What we did: Cameron reviewed V4 and flagged the picture at 2:41 — the s8 rescue
+  still had Peter reaching with two arms (one gripped by Jesus, the other raised
+  open) instead of his staging law: one arm up being gripped, the other arm down in
+  the water. Extended Correction #7 in PRODUCTION-BIBLE.md to cover stills as well
+  as clips. Generated a new rescue still in Flow (Nano Banana 2, first try): Peter's
+  right forearm gripped by the rescuing hand from above (only hem and arm visible,
+  no face), left arm plunged into the sea, no tear beads. Zoom-QC'd at 2K, banked as
+  s8-the-reach-v2.jpeg, updated build.py, rebuilt peter-water-07.mp4 as V5 (19.1 MB,
+  256.0s), and ran Self-Revision with 10 frames covering the whole rescue window
+  plus spot checks — V5 PASSED.
+- What changed in the app (files/commits): media-production/PRODUCTION-BIBLE.md
+  (Correction #7 stills update), build-07-peter-water/PREFLIGHT.md (V5 execution
+  results), build-07-peter-water/build.py (S8 -> s8-the-reach-v2.jpeg), new asset
+  s8-the-reach-v2.jpeg, qc/v5-s8 + qc/v5-final frame sets, peter-water-07.mp4 V5,
+  tracker row 07 in 00-MASTER-PLAN.md.
+- What is now true that wasn't before: the one-arm-in-water/one-arm-reaching staging
+  law now covers stills and clips alike. peter-water-07 V5 exists and passed full
+  QC; the old s8-the-reach.jpeg is dead. 0 Flow credits spent (still only).
+- What's next / handed off: Cameron reviews V5. Still open: #09 rich-ruler rework
+  (missing hand, fake tears, cloak drift, s7 full-back restage), re-audit of older
+  videos (#1,#3,#4,#5) against all seven corrections, painted-vs-cartoon style call.
+- Commit: <hash filled in after you commit>
+
+---
+
 ## 2026-07-09 (pt.25) — Cameron caught a third arm in V3; Correction #7 added; Peter #07 sink clip restaged as V4
 - What we did: Cameron reviewed V3 and rejected the sinking clip — "the guy has three
   arms he should i have one arm in the water ANd one reaching for jesus." Confirmed it
