@@ -224,6 +224,29 @@ works. Then scale the motion budget per story as the Story-Fit Rule allows.
       for scale, and the QC zoom on every frame verifies the trait reads
       instantly. A lock written in text but invisible in the picture is a
       broken lock.
+- [ ] PHYSICALITY CALIBRATION (added 2026-07-09, video #3 v2 rejection:
+      Cameron — "you took the short man too far and he looks like a midget
+      everywhere and is kind of demeaning. it's too much"): a relative trait
+      must be CALIBRATED, never exaggerated into caricature. Short means a
+      short ADULT with completely normal adult proportions — roughly a head
+      to head-and-shoulders below the people around him, about shoulder-high
+      to them — NEVER dwarfism, child-sized, or stylized-tiny. Prompts must
+      state the calibration positively ("a short grown man of normal adult
+      build, the top of his head level with the shoulders of the men beside
+      him") and the QC zoom must confirm BOTH that the trait reads AND that
+      it stays dignified. Exaggerating a person's body for legibility is
+      demeaning and breaks the Gospel Principles; the fix for "trait doesn't
+      read" is scale references in frame, never a bigger distortion.
+- [ ] ANATOMY-COUNT QC (added 2026-07-09, video #3 v2 rejection: Cameron —
+      "he's got three feet in the tree he climbed. these are simple things
+      you should be able to watch for"): on the QC zoom of EVERY still and
+      every sampled motion frame, literally COUNT the anatomy of every
+      visible figure — 2 arms, 2 hands, 5 fingers where fingers are legible,
+      2 legs, 2 feet, 1 head — and check that limbs connect to the right
+      bodies (climbing/crowd/table scenes are the highest risk: tangled poses
+      and overlapping figures are where extra limbs hide). Any wrong count is
+      an automatic regenerate, no matter how good the rest of the frame is.
+      This count is a named line item in the QC pass, not an implied one.
 
 **Before assembly (check the timing math):**
 - [ ] Measure real durations of every generated audio file; recompute all

@@ -402,3 +402,90 @@ Beds: bed1 0→91.9 (fully out before the look up); bed2 134.0→194.5
   never visible (back-of-head in clip, shot6, shot8, shot9); captions
   legible with fades; KJV italic cream; card ≤31 chars, 14.0s hold,
   read aloud.
+---
+
+# V3 REBUILD — Cameron's v2 rejection (2026-07-09)
+
+His words: "he's got three feet in the tree he climbed. these are simple
+things you should be able to watch for. you took the short man too far and
+he looks like a midget everywhere and is kind of demeaning. it's too much."
+
+Two failures, two new Bible laws (added to §4b, dated):
+1. ANATOMY-COUNT QC — shot4-climb shipped with THREE FEET. The QC zoom
+   checked "does short read?" and never counted limbs. Now every figure in
+   every QC'd frame gets a literal count (arms/hands/legs/feet/head) and
+   any wrong count is an automatic regenerate.
+2. PHYSICALITY CALIBRATION — the V2 lock phrase "standing only chest-high
+   to the adults around him" pushed the model into dwarf-like proportions
+   in every frame. Demeaning, and it breaks the Gospel Principles. Short
+   must mean a short ADULT of normal build — head level with other men's
+   shoulders — never caricature.
+
+## V3 Character lock — ZACCHAEUS (byte-identical in every prompt)
+"a short grown man in his late forties of completely normal adult build
+and proportions — simply a head shorter than the men around him, the top
+of his head about level with their shoulders — with a neat dark beard
+streaked with grey, wearing a fine deep-red robe with gold embroidered
+trim over a cream linen tunic, several gold rings on his fingers, leather
+sandals"
+RULE: at least one taller adult in frame for scale (unchanged); QC zoom
+verifies BOTH that short reads AND that his proportions are a normal
+adult's — plus the anatomy count on every figure.
+JESUS, TREE locks unchanged. Script, narration, timeline: unchanged (no
+script complaint in the rejection). Only images change; rebuild reuses
+the V2 build.py timeline as-is.
+
+## V3 regeneration list
+- Regenerate (Zacchaeus in frame): shot1-despised, shot1b-booth,
+  shot2-blocked, shot3-run, shot4-climb (the three-feet frame),
+  shot5-lit, shot6-comedown, shot7-table, shot8-salvation. shot5 is solo
+  but v2 kept the v1 file — it gets the same calibration + anatomy pass;
+  regenerate if proportions or counts fail.
+- Keep (no Zacchaeus): shot-doorway, shot9-seek, Veo clip-looked-up.
+
+## V3 scene lines (LOCK replaces the v2 lock; scale phrasing calibrated)
+- shot1-despised v3: scale = passing adults a head taller, stall awnings
+  above him; everything else per v2.
+- shot1b-booth v3: seated at the booth; the standing farmer and wife
+  taller as any standing adult would be — scale reads from the standing
+  crowd, not exaggeration.
+- shot2-blocked v3: on his toes behind the crowd wall, the backs of heads
+  and shoulders a head above his eye line — he sees shoulder blades, not
+  belts.
+- shot3-run v3: the two bystanders a head taller than him.
+- shot4-climb v3: EXACTLY TWO FEET stated positively — "both of his two
+  sandaled feet visible, one slipping on the bark"; two townspeople below
+  for scale.
+- shot5-lit v3: solo in tree, normal adult proportions among the limbs.
+- shot6-comedown v3: the cream-robed figure and townspeople a head
+  taller; joyful landing per v2.
+- shot7-table v3: standing servant a head taller beside him.
+- shot8-salvation v3: his head about level with the tall cream-robed
+  figure's shoulders (not "barely reaching the chest").
+
+## V3 Self-Revision findings (2026-07-09)
+16 frames sampled across the 249.0s timeline (every ~15-20s), each checked
+against the two new laws — literal anatomy counts per figure and
+proportion calibration (short adult, never caricature).
+
+- PASS: f5/f20 (despised), f40 (booth), f60 (blocked — craning up, crowd
+  like a wall, "short man" caption lands on the right image), f80 (climb —
+  exactly two sandaled feet on the branch, counted at tight zoom), f100
+  (Veo look-up, Jesus back-of-head only), f112/f125 (doorway), f140/f155
+  (comedown — joyful but dignified, Jesus from behind), f200/f215
+  (salvation — his head at Jesus's shoulder), f230 (seek), f245 (end card).
+- FAIL caught and fixed: shot7-table (f170/f185). The standing figure
+  behind Zacchaeus — long center-parted hair, beard, standing while all
+  others sit, at the meal where the story says Jesus is present — read as
+  Jesus with a fully visible face, breaking the face-never-visible lock.
+  In still QC I had passed him as "a servant"; on the timeline with the
+  narration he unmistakably reads as Jesus. Lesson recorded: QC a still in
+  STORY CONTEXT, not just as an image — ask "who will the viewer think
+  this is at this beat?" Fixed with a free Nano Banana edit removing the
+  standing man (Jesus appears lawfully from behind in shot8); clean fill,
+  no artifacts, re-downloaded at 2K and video rebuilt.
+- Two other stills were fixed at still-QC stage before the build:
+  shot5-lit (unrequested crowd below the tree incl. a Jesus-faced figure —
+  removed via edit) and shot2-blocked (shortness didn't read and he faced
+  the camera calmly — edit made him a head shorter, on tiptoes, craning).
+- Final: zacchaeus-03.mp4 V3, 249.0s, unchanged V2 timeline/narration/audio.
