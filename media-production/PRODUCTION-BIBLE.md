@@ -200,6 +200,10 @@ works. Then scale the motion budget per story as the Story-Fit Rule allows.
 - [ ] Measure real durations of every generated audio file; recompute all
       offsets from measurements, never from estimates
 - [ ] On-paper silence map: no gap >2.5s between segments in the spoken body
+- [ ] Measure the silent TAIL inside each mp3 (TTS files can carry ~1s+ of
+      trailing silence); compute every breath/gap from the SPOKEN end, not the
+      file end — verify with silencedetect after the mix (added 2026-07-08,
+      video #2: j1's 1.2s internal tail stretched a planned 2s breath to 3.5s)
 - [ ] Music bed scheduled to reach full silence BEFORE the peak KJV line
 
 Only after this pre-flight passes does generation begin. Then the Self-Revision

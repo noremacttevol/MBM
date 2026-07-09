@@ -1,0 +1,6 @@
+assets/
+segs/
+qc/
+audio/
+*.mp4
+__pycache__/
