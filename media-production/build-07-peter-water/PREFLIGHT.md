@@ -256,3 +256,33 @@ before assembly. V3 rebuild + full Self-Revision follows. V2 is dead.
   correct in walk (Correction #5), identity locked in sink (Correction #6), rescue
   reach beats show sleeve/hand/forearm only (Correction #2), captions legible, end
   card clean. V3 PASSED.
+
+### V4 execution results (2026-07-09) — Cameron's third rejection, sink clip only
+- Cameron's report: "the guy has three arms he should i have one arm in the water
+  ANd one reaching for jesus." CONFIRMED by re-extracting EVERY second of
+  s7-sinking-v3.mp4 (qc/v3-sink/recheck-f0..f7): at f2 a third sleeved forearm
+  crosses Peter's chest into the wave on top of the two raised arms, and the raised
+  left arm loses its sleeve. The original QC sampled f0/f4/f7 and missed it.
+- Correction #7 recorded in PRODUCTION-BIBLE.md: clip QC extracts EVERY second and
+  explicitly counts arms/hands/legs and verifies sleeves; any extra/missing limb at
+  any frame = rejection. Plus staging law: a sinking person reaching for Jesus gets
+  ONE arm down in the water fighting the sea and ONE arm reaching toward the Jesus
+  presence — not both arms thrown up.
+- New sink anchor still (Nano Banana 2, 0 credits) -> assets/s7-sink-anchor-v4.jpeg (2K).
+  Peter chest-deep, LEFT arm plunged in the water, RIGHT arm reaching toward the
+  distant radiant figure, face turned toward it crying out, no tear beads. First
+  render gave the radiant figure a discernible face at zoom — fixed with an in-place
+  Nano Banana 2 edit dissolving the figure fully into golden light (head = pure orb);
+  verified at zoom before download.
+- Sinking clip V4 (Frames-to-video from the v4 anchor, Veo 3.1 Fast 8s, 10 credits)
+  -> assets/s7-sinking-v4.mp4. Per-second limb-count QC (qc/v4-sink/f0..f7): ALL 8
+  frames PASSED — exactly two arms every frame (right reaching, 5-finger open hand;
+  left submerged), same Peter face/hair/beard throughout, no tear beads, radiant
+  figure featureless and facing him throughout, wave crash at f5-f6 holds identity.
+- build.py updated: CLIP_SINK -> s7-sinking-v4.mp4 (walk clip unchanged, stays v3).
+- V4 REBUILT: peter-water-07.mp4, 19.5 MB, 256.0s (crf 21, vcap 620k).
+- Self-Revision: 11 frames (qc/v4-final/) — t136/t138/t140/t142/t144/t146 dense over
+  the sink window (135.8-146.6s) plus t60/t120/t150/t200/t254 spot checks. Sink beat
+  shows Cameron's staging exactly (one arm in the water, one reaching toward Jesus),
+  two arms in every frame, untouched beats and end card unchanged from V3
+  verification, captions legible. V4 PASSED.

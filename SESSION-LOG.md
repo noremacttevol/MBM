@@ -27,6 +27,35 @@
 
 ---
 
+## 2026-07-09 (pt.25) — Cameron caught a third arm in V3; Correction #7 added; Peter #07 sink clip restaged as V4
+- What we did: Cameron reviewed V3 and rejected the sinking clip — "the guy has three
+  arms he should i have one arm in the water ANd one reaching for jesus." Confirmed it
+  by re-extracting every second of the V3 clip: a third sleeved forearm crosses Peter's
+  chest at the 2-second mark, which the old f0/f4/f7 sampling missed. Recorded
+  Correction #7 in PRODUCTION-BIBLE.md as permanent law: clip QC now extracts EVERY
+  second and explicitly counts limbs; plus Cameron's staging law — a sinking person
+  reaching for Jesus gets one arm down in the water and one arm reaching toward the
+  Jesus presence, never both arms thrown up. Generated a new sink anchor still with
+  that exact staging (one in-place edit to dissolve a face that appeared on the radiant
+  figure), generated the V4 sinking clip from it, and ran per-second limb-count QC —
+  all 8 frames passed with exactly two arms. Rebuilt peter-water-07.mp4 as V4 and ran
+  Self-Revision (11 frames, dense over the sink window) — V4 PASSED.
+- What changed in the app (files/commits): media-production/PRODUCTION-BIBLE.md
+  (Correction #7), build-07-peter-water/PREFLIGHT.md (V4 execution results),
+  build-07-peter-water/build.py (CLIP_SINK -> s7-sinking-v4.mp4), new assets
+  (s7-sink-anchor-v4.jpeg, s7-sinking-v4.mp4), qc/v3-sink recheck frames + qc/v4-sink
+  + qc/v4-final frame sets, peter-water-07.mp4 V4, tracker row 07 in 00-MASTER-PLAN.md.
+- What is now true that wasn't before: seven Cameron Corrections are law. Every clip
+  QC from now on counts arms/hands/legs in every extracted second. peter-water-07 V4
+  exists with Cameron's exact sinking staging; V3's sink clip is dead. ~10 more Flow
+  credits spent (anchor + edit were 0 credits).
+- What's next / handed off: Cameron reviews V4. Still open: #09 rich-ruler rework
+  (missing hand, fake tears, cloak drift, s7 full-back restage), re-audit of older
+  videos (#1,#3,#4,#5) against all seven corrections, painted-vs-cartoon style call.
+- Commit: <hash filled in after you commit>
+
+---
+
 ## 2026-07-09 (pt.24) — Cameron rejected V2; Corrections #5/#6 added; Peter #07 fully rebuilt as V3
 - What we did: Cameron reviewed V2 of peter-water-07 and rejected it — the walking
   clip didn't show Peter moving toward Jesus (and the Jesus figure read as looking

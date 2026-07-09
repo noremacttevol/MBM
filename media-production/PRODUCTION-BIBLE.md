@@ -142,9 +142,19 @@ words. Nothing here overrides the sacred pause before Jesus's KJV words.
    reference, the clip is rejected no matter how good the motion is. Prefer the
    still-anchor pipeline (Frames-to-video from a banked still of the correct
    character) over text-to-video for any clip with a close human figure.
+7. **Count limbs in EVERY extracted frame (Cameron, 2026-07-09, third review).**
+   The V3 sinking clip grew a THIRD sleeved forearm crossing Peter's chest at the
+   2-second mark — QC sampled f0/f4/f7 and missed it. From now on clip QC extracts
+   EVERY second of the clip and explicitly counts arms, hands, and legs in each
+   frame, and verifies sleeves stay on both arms. Any extra or missing limb at any
+   frame = rejection. Also a staging law from the same review: when a person is
+   sinking/drowning and reaching for Jesus, stage ONE arm down in the water
+   (fighting the sea) and ONE arm reaching toward the Jesus presence — not both
+   arms thrown up. It reads truer and gives the animation fewer arms to confuse.
 These corrections triggered a REDO of peter-water-07 (V2's rescue still fix was
-NOT enough — Cameron rejected V2 too; both motion clips are being restaged and
-regenerated for V3) and put rich-ruler-09 in the rework queue (missing hand in
+NOT enough — Cameron rejected V2 too; both motion clips were restaged and
+regenerated for V3; then V3's sinking clip failed the limb-count law and was
+restaged again for V4) and put rich-ruler-09 in the rework queue (missing hand in
 one scene, fake tears, cloak drift). Older videos get re-audited against these
 rules when their turn comes.
 
