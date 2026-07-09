@@ -165,6 +165,49 @@ works. Then scale the motion budget per story as the Story-Fit Rule allows.
    He watches and says yes/no. On yes → delivery pipeline (Firebase Hosting
    /story-videos/, expo-video key per THE-200 id). On no → AI fixes and re-presents.
 
+## 4b. RIGHT-FIRST-TIME PRE-FLIGHT (Cameron, 2026-07-08 — check the PLAN before generating anything)
+
+> Cameron's directive: stop relying on revisions to reach perfect. The Self-Revision
+> Law is the safety net, not the method. The method is this pre-flight: every known
+> failure from past videos is checked ON PAPER, in the production pack, BEFORE any
+> credit is spent or any assembly is run. Fixing a script costs nothing; fixing a
+> built video costs time, credits, and trust.
+
+**Before generating ANY audio (check the written narration script):**
+- [ ] Every scene in the storyboard has a narration line — map beat-by-beat; no
+      silent "visual beats" exist anywhere in the plan (No-Dead-Air Law)
+- [ ] No narrator line quotes or echoes KJV wording — plain modern meaning only
+      (Translation Law); Jesus lines are exact KJV, verified against the passage
+- [ ] Read every line ALOUD in your head for TTS traps: clipped phrases
+      ("he just went to work"), odd contractions, tongue-twisters — reword now
+- [ ] Voices are `en-US-AndrewNeural` + `en-US-ChristopherNeural` — no
+      Multilingual model anywhere (Voice Law)
+- [ ] The closing card text is written to be READ ALOUD by the narrator and the
+      card is scheduled ~13s (Readable-Card Law)
+
+**Before generating ANY image or clip (check the written prompts):**
+- [ ] Master Style Block byte-identical, zero added style words (§5b ban #2)
+- [ ] No "NEGATIVE PROMPT:" list; every constraint stated positively — exact
+      counts, exact emptiness, "one single figure and only him" (§5b ban #1)
+- [ ] Character/wardrobe locks and prop locks written into EVERY prompt for
+      every scene the character/prop appears in (wardrobe drift, lamp lesson)
+- [ ] No beat asks the model for an "AI tell": instant physical changes (sweat
+      appearing), objects popping in, anything materializing — plan the beat so
+      the risky detail simply isn't requested (video #6 sweat lesson)
+- [ ] MUST NEVER SHOW items from the scripture card confirmed against each prompt
+
+**Before assembly (check the timing math):**
+- [ ] Measure real durations of every generated audio file; recompute all
+      offsets from measurements, never from estimates
+- [ ] On-paper silence map: no gap >2.5s between segments in the spoken body
+- [ ] Music bed scheduled to reach full silence BEFORE the peak KJV line
+
+Only after this pre-flight passes does generation begin. Then the Self-Revision
+Law loop runs on the built video — and if the pre-flight was done honestly, that
+loop should find nothing. Every time the loop DOES find something, that means a
+check is missing from this list: add it, dated, so the next video is right the
+first time.
+
 ## 5. QC Checklist (every video, before Cameron ever sees it)
 
 - [ ] Every MUST SHOW item from the scripture card appears
