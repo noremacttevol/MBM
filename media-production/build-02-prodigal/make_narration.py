@@ -42,19 +42,46 @@ SEGMENTS = [
     ("n6", NARRATOR, "-22%", "-4Hz",
      "He didn't wait for the speech. He wrapped his arms around his son "
      "before a single word was said."),
+    # REWRITTEN 2026-07-09: the story does NOT end at the feast (Cameron's
+    # catch — the older brother is the other half). Old line said "Jesus
+    # ended the story with the father's own words" — false, removed.
     ("n7", NARRATOR, "-22%", "-4Hz",
      "That night the father dressed him in the finest robe, put a ring on "
-     "his hand, and called for a feast. Jesus ended the story with the "
-     "father's own words."),
-    # Exact KJV Luke 15:24 (fetched, not hand-typed) — the last story words.
+     "his hand, and called for a feast — and he told everyone why."),
+    # Exact KJV Luke 15:24 (fetched, not hand-typed).
     # Translation Law: the narrator never re-quotes or echoes this line.
     ("j1", JESUS, "-25%", "-6Hz",
      "For this my son was dead, and is alive again; "
      "he was lost, and is found."),
-    # Closing card read aloud, gently (Readable-Card Law)
+    # ---- SECOND HALF: the older brother (Luke 15:25-32), added 2026-07-09 ----
+    ("n9", NARRATOR, "-22%", "-4Hz",
+     "But Jesus wasn't finished. The older son was still out in the field, "
+     "like always. When he came near the house and heard the music, a "
+     "servant told him: your brother is home. And he was so angry, he "
+     "refused to go in."),
+    ("n10a", NARRATOR, "-25%", "-5Hz",
+     "So the father left his own feast, and went out again — this time to "
+     "the son who had never left."),
+    ("n10b", NARRATOR, "-22%", "-4Hz",
+     "The older son's hurt poured out. All these years I have served you. "
+     "I never disobeyed you. And you never gave me even a young goat, to "
+     "celebrate with my friends."),
+    ("n11", NARRATOR, "-25%", "-5Hz",
+     "The father didn't argue with him, either. Jesus gave him the last "
+     "words of the story."),
+    # Exact KJV Luke 15:31-32 (fetched, not hand-typed) — the TRUE last
+    # story words. Translation Law: nothing after these re-quotes them.
+    ("j2a", JESUS, "-25%", "-6Hz",
+     "Son, thou art ever with me, and all that I have is thine."),
+    ("j2b", JESUS, "-25%", "-6Hz",
+     "It was meet that we should make merry, and be glad: for this thy "
+     "brother was dead, and is alive again; and was lost, and is found."),
+    # Closing card read aloud, gently (Readable-Card Law) — REWRITTEN to the
+    # three-character question now that the whole story is told.
     ("n8", NARRATOR, "-25%", "-5Hz",
-     "Which part of that story feels closest to something you have "
-     "carried — or are carrying right now?"),
+     "Which one feels closest to where you are right now — the son who "
+     "left, the father who ran to meet him, or the brother who stayed, "
+     "and felt unseen?"),
 ]
 
 async def main():

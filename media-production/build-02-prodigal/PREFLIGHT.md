@@ -67,6 +67,50 @@ Story-Fit call: 1 motion clip. The heart of this story is one physical act — t
 - [x] On-paper silence map above; verify with silencedetect after mix.
 - [x] MUSIC_END = just before n5's measured start. Export 1080x1920 H.264, CRF 23, maxrate 1500k, <25MB. Runtime target ~95–100s.
 
+## SECOND HALF — the older brother (Luke 15:25-32), added 2026-07-09 after Cameron caught the omission
+
+### Scripture card additions
+- MUST SHOW: the elder son in/near the field hears the music and refuses to go in; the father goes OUT a second time, to entreat him; the elder son's complaint (years of service, never a young goat); the father's answer — the actual last words of the parable (Luke 15:31-32).
+- KJV fetched (bible-api.com, not hand-typed):
+  - Luke 15:31 (Jesus voice j2a): "Son, thou art ever with me, and all that I have is thine."
+  - Luke 15:32 (Jesus voice j2b, the LAST story words): "It was meet that we should make merry, and be glad: for this thy brother was dead, and is alive again; and was lost, and is found."
+- j1 (15:24) is therefore NO LONGER the last spoken story words; the fade-to-card moves from the feast KJV to j2b.
+- n7 line "Jesus ended the story with the father's own words" is now FALSE — rewritten and regenerated.
+
+### New beats (all STILLs — Story-Fit: the one motion moment stays the run; the second half is words in the dark)
+10. s08 the brother outside, STILL — n9
+11. s09 the father goes out again, STILL — n10a
+12. s10 same still, reverse drift — the complaint — n10b
+13. s11 brother-outside still returns — the bridge to the answer — n11
+14. s12a father-entreats still — KJV Luke 15:31 — j2a
+15. s12b same still, reverse drift, fade out — KJV Luke 15:32 — j2b
+16. s13 closing question card, 13.0s, cream — n8 (REWRITTEN to the three-character question) — read aloud
+
+### New narration
+- n7 (REGENERATED): "That night the father dressed him in the finest robe, put a ring on his hand, and called for a feast — and he told everyone why."
+- n9: "But Jesus wasn't finished. The older son was still out in the field, like always. When he came near the house and heard the music, a servant told him: your brother is home. And he was so angry, he refused to go in."
+- n10a: "So the father left his own feast, and went out again — this time to the son who had never left."
+- n10b: "The older son's hurt poured out. All these years I have served you. I never disobeyed you. And you never gave me even a young goat, to celebrate with my friends."
+- n11: "The father didn't argue with him, either. Jesus gave him the last words of the story."
+- j2a (KJV, exact): "Son, thou art ever with me, and all that I have is thine."
+- j2b (KJV, exact): "It was meet that we should make merry, and be glad: for this thy brother was dead, and is alive again; and was lost, and is found."
+- n8 (REWRITTEN card, read gently): "Which one feels closest to where you are right now — the son who left, the father who ran to meet him, or the brother who stayed, and felt unseen?"
+
+### Second-half narration checks
+- [x] FULL-STORY: beat map now covers Luke 15:11-32 through the final verse; both sons, both goings-out.
+- [x] Dead-air map: every new scene has a segment; planned breaths only (~1s between n11 and j2a; ~2s before card n8), computed from SPOKEN ends per the mp3-tail check.
+- [x] Translation Law: n10b paraphrases verse 29 BEFORE j2a/j2b (bridging in, allowed); nothing after j2b re-quotes or paraphrases it; the card question shares no KJV wording.
+- [x] TTS traps: "entreated" avoided in narration ("went out again"); "young goat" clean; no clipped endings.
+- [x] Voices unchanged; card 13.0s + read aloud.
+
+### New character lock
+- OLDER BROTHER: "a man in his early thirties with short dark hair and a full dark beard, wearing a plain brown rough-woven work tunic with a cloth belt, dusty from field work, sturdy leather sandals" (clearly distinct from the younger son's cream tunic / deep-red robe)
+
+### New shot prompts (STYLE BLOCK + text; stills drop "Slow, tender movement.")
+- s08 brother outside: "Night outside a stone farmhouse during a feast. A man in his early thirties with short dark hair and a full dark beard stands rigid in the darkness of the courtyard entrance, arms stiff at his sides, jaw set with anger, refusing to step forward. He wears a plain brown rough-woven work tunic with a cloth belt, dusty from field work, sturdy leather sandals. Behind him stretches the dark open field he came from; before him the farmhouse doorway glows with warm firelight, and the soft shapes of celebration show through it. He is the only person clearly visible in the image, lit on one side by the doorway glow and on the other by cool blue night."
+- s09 father entreats: "Night outside a stone farmhouse, warm feast light spilling from the doorway behind. An older man in his sixties with a full grey beard, wearing one long grey rough-woven wool robe with a darker grey mantle over his shoulders, stands close to a man in his early thirties with short dark hair and a full dark beard who wears a plain brown rough-woven work tunic with a cloth belt, dusty from field work. The father reaches one open hand toward his elder son, his face gentle and pleading; the son's arms are crossed and his face is turned half away, hurt and angry. Exactly two people in the image, firelight on one side, cool night on the other."
+- Prompt checks: style block byte-identical; positive-only ("Exactly two people", "only person clearly visible"); locks written in both; no AI-tell beats (static stills, crossed arms allowed here — the MUST-NEVER-SHOW crossed-arms rule is about the FATHER waiting, and the father here is reaching out, not waiting); no Jesus figure; no modern objects. NOTE: the elder son's crossed arms are the point of the scene — the father's arms are the open ones.
+
 ## Self-Revision loop findings (each one = a check that was missing above)
 - 2026-07-08: silencedetect caught a 3.46s gap before n8 — j1's mp3 carries a
   ~1.2s silent tail INSIDE the file, so the planned 2s breath measured from the
@@ -77,3 +121,10 @@ Story-Fit call: 1 motion clip. The heart of this story is one physical act — t
   1080x1920 H.264, 104.2s, 17.2MB. Runtime landed 104.2s vs the ~95–100s
   estimate — the 13.0s card hold plus 92s of measured speech makes ~104s the
   honest floor; the target line above was an estimate, not a law.
+- 2026-07-09: CAMERON caught what the loop did not — the first cut told only
+  half the parable, ending at the feast and omitting the older brother (Luke
+  15:25-32), the half aimed at the religious men the story answers. The
+  Full-Story Law existed and was violated; the pre-flight had no explicit
+  check for it. New FIRST check added to Bible §4b audio list: read the
+  scripture END-TO-END against the beat map, through the FINAL verse. Second
+  half added above; n7 and the card question rewritten.

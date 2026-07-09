@@ -10,12 +10,18 @@ plan checked on paper before any generation. All offsets below computed from
 MEASURED mp3 durations after the ear-check (all 11 segments matched 1.00).
 
 Two-Voice Law: narrator modern American; Jesus voice speaks ONLY exact KJV
-(Luke 15:24 first sentence — the father's words as Jesus told them, the last
+(Luke 15:24 at the feast; Luke 15:31-32 to the older brother — the TRUE last
 story words). Music fades to full silence BEFORE "The father ran." so the
 peak lands in sacred quiet.
 
+2026-07-09: Cameron caught that the first cut told only HALF the parable —
+it ended at the feast and omitted the older brother (Luke 15:25-32), the half
+aimed at the religious men the story answers. Second half added: the brother
+outside, the father's second going-out, the complaint, and the father's
+answer as the closing KJV. Full-Story check added to Bible section 4b.
+
 Opens with the "why Jesus told it" bookend (pattern Cameron approved on #8/#6).
-Closing card held 13.0s AND read aloud (Readable-Card Law).
+Closing card held 14.5s AND read aloud (Readable-Card Law).
 
 Output: 1080x1920 H.264, <25MB.
 """
@@ -40,6 +46,8 @@ STILL_SEEN = "shot4-seen-far-off.jpeg"
 CLIP_RUNS = "clip-father-runs.mp4"
 STILL_EMBRACE = "shot6-embrace.jpeg"
 STILL_FEAST = "shot7-feast.jpeg"
+STILL_BROTHER = "shot8-brother-outside.jpeg"
+STILL_ENTREAT = "shot9-father-entreats.jpeg"
 
 # (id, kind, source, duration_s, zoom_dir, caption, caption_style)
 SEGMENTS = [
@@ -76,20 +84,47 @@ SEGMENTS = [
     ("s06", "still", STILL_EMBRACE, 9.0, "in",
      "He didn't wait for the speech.\nHe wrapped his arms around his son\n"
      "before a single word was said.", "n"),
-    ("s07a", "still", STILL_FEAST, 12.4, "in",
+    ("s07a", "still", STILL_FEAST, 10.5, "in",
      "That night the father dressed him in the\n"
      "finest robe, put a ring on his hand, and\n"
-     "called for a feast. Jesus ended the story\n"
-     "with the father's own words.", "n"),
-    # Exact KJV Luke 15:24 — the last spoken story words. Narrator never
-    # re-quotes or echoes this line after it (Translation Law).
-    ("s07b", "still", STILL_FEAST, 8.3, "out",
+     "called for a feast — and he told\neveryone why.", "n"),
+    # Exact KJV Luke 15:24. Narrator never re-quotes or echoes this line
+    # after it (Translation Law).
+    ("s07b", "still", STILL_FEAST, 7.4, "out",
      "\u201cFor this my son was dead,\nand is alive again;\n"
      "he was lost, and is found.\u201d", "kjv"),
-    # Held 13.0s AND read aloud, gently (Readable-Card Law).
-    ("s08", "card", None, 13.0, None,
-     "Which part of that story feels closest\nto something you have carried —\n"
-     "or are carrying right now?", "close"),
+    # ---- SECOND HALF: the older brother (Luke 15:25-32), 2026-07-09 ----
+    ("s08", "still", STILL_BROTHER, 17.0, "in",
+     "But Jesus wasn't finished. The older son\n"
+     "was still out in the field, like always.\n"
+     "When he heard the music, a servant told him:\n"
+     "your brother is home. And he was so angry,\nhe refused to go in.", "n"),
+    ("s09", "still", STILL_ENTREAT, 7.5, "in",
+     "So the father left his own feast,\nand went out again — this time\n"
+     "to the son who had never left.", "n"),
+    ("s10", "still", STILL_ENTREAT, 11.7, "out",
+     "The older son's hurt poured out.\nAll these years I have served you.\n"
+     "I never disobeyed you. And you never gave me\n"
+     "even a young goat, to celebrate with my friends.", "n"),
+    ("s11", "still", STILL_BROTHER, 6.9, "out",
+     "The father didn't argue with him, either.\n"
+     "Jesus gave him the last words of the story.", "n"),
+    # Exact KJV Luke 15:31-32 — the TRUE last spoken story words.
+    ("s12a", "still", STILL_ENTREAT, 5.7, "in",
+     "\u201cSon, thou art ever with me,\nand all that I have is thine.\u201d",
+     "kjv"),
+    ("s12b", "still", STILL_ENTREAT, 11.1, "out",
+     "\u201cIt was meet that we should make merry,\n"
+     "and be glad: for this thy brother was dead,\n"
+     "and is alive again; and was lost,\nand is found.\u201d", "kjv"),
+    # Held 14.5s AND read aloud, gently (Readable-Card Law; n8 runs 11.6s
+    # so the hold is stretched past 13.0 to keep speech clear of the fade).
+    # Lines kept ≤31 chars — the first break clipped at both edges at 50pt
+    # (caption-crop QC caught it, 2026-07-09).
+    ("s13", "card", None, 14.5, None,
+     "Which one feels closest to\nwhere you are right now —\n"
+     "the son who left,\nthe father who ran to meet him,\n"
+     "or the brother who stayed,\nand felt unseen?", "close"),
 ]
 
 # narration placements: (audio file, absolute start seconds)
@@ -106,13 +141,20 @@ AUDIO = [
     ("audio/n5a.mp3", 54.1),  # s05 53.5-61.5 "The father ran." (ends 55.636)
     ("audio/n5b.mp3", 56.4),  # s05           dignity/ran anyway (ends 63.072)
     ("audio/n6.mp3", 63.5),   # s06 61.5-70.5 the embrace (ends 70.364)
-    ("audio/n7.mp3", 70.7),   # s07a 70.5-82.9 robe/ring/feast (ends 82.724)
-    ("audio/j1.mp3", 83.1),   # s07b 82.9-91.2 KJV Luke 15:24 (ends 90.948)
-    # planned ~2.3s breath before the closing question. j1's mp3 carries a
-    # ~1.2s silent tail INSIDE the file (spoken end ~89.7, file end 90.948) —
-    # silencedetect caught a 3.46s real gap at the first offset (93.0).
-    # Breaths must be computed from the SPOKEN end, not the file end.
-    ("audio/n8.mp3", 92.0),   # s08 91.2-104.2 card read aloud (ends 98.648)
+    # All gaps below computed from SPOKEN ends (dur minus measured internal
+    # tail; Jesus-voice files carry ~1.15s tails — j1 1.16, j2a 1.12, j2b 1.17)
+    ("audio/n7.mp3", 70.7),    # s07a 70.5-81.0  feast (10.008, spoken end 80.32)
+    ("audio/j1.mp3", 81.2),    # s07b 81.0-88.4  KJV 15:24 (spoken end 87.88)
+    ("audio/n9.mp3", 88.4),    # s08 88.4-105.4  brother outside (16.752, sp 104.74)
+    ("audio/n10a.mp3", 105.5), # s09 105.4-112.9 father goes out (7.368, sp 112.40)
+    ("audio/n10b.mp3", 113.0), # s10 112.9-124.6 the complaint (11.592, sp 124.14)
+    ("audio/n11.mp3", 124.7),  # s11 124.6-131.5 bridge to answer (6.744, sp 131.01)
+    ("audio/j2a.mp3", 131.9),  # s12a 131.5-137.2 KJV 15:31 (5.904, sp 136.69)
+    ("audio/j2b.mp3", 137.4),  # s12b 137.2-148.3 KJV 15:32 (11.400, sp 147.63)
+    # planned ~2.3s breath before the closing question (from j2b SPOKEN end)
+    ("audio/n8.mp3", 149.5),   # s13 148.3-162.8 card read aloud (11.568, sp 160.64)
+                               # 149.9 measured a 2.50s gap at -38dB — right at the
+                               # No-Dead-Air limit; pulled to 149.5 (2026-07-09).
 ]
 
 MUSIC_END = 53.2  # fully silent before "The father ran." — the peak is quiet
@@ -153,7 +195,7 @@ def build_still(seg_id, src, dur, zdir, cap, style):
         vf += "," + capf
     if seg_id == "s00":
         vf += ",fade=t=in:st=0:d=1.2"
-    if seg_id == "s07b":
+    if seg_id == "s12b":
         vf += f",fade=t=out:st={dur-1.2}:d=1.2"
     run(["ffmpeg", "-y", "-loop", "1", "-i", f"{A}/{src}",
          "-t", str(dur), "-vf", vf] + ENC + [f"{S}/{seg_id}.mp4"])
@@ -226,8 +268,9 @@ def main():
     # ---- final mux, sized under 25MB ----
     run(["ffmpeg", "-y", "-i", f"{S}/video_silent.mp4", "-i", f"{S}/audio_mix.m4a",
          "-map", "0:v", "-map", "1:a",
-         "-c:v", "libx264", "-preset", "slow", "-crf", "23",
-         "-maxrate", "1500k", "-bufsize", "3000k", "-pix_fmt", "yuv420p",
+         # 162.8s runtime: 1050k video + 128k audio ≈ 24MB ceiling — under 25MB.
+         "-c:v", "libx264", "-preset", "slow", "-crf", "24",
+         "-maxrate", "1050k", "-bufsize", "2100k", "-pix_fmt", "yuv420p",
          "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart",
          "prodigal-02.mp4"])
     size = os.path.getsize("prodigal-02.mp4") / 1e6

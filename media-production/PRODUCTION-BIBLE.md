@@ -174,6 +174,12 @@ works. Then scale the motion budget per story as the Story-Fit Rule allows.
 > built video costs time, credits, and trust.
 
 **Before generating ANY audio (check the written narration script):**
+- [ ] FULL-STORY check: read the parable's scripture END-TO-END against the
+      beat map — every scene and every character Jesus put in the story is in
+      the storyboard, through the FINAL verse. Half a parable sells half the
+      point (added 2026-07-09, video #2: first cut ended at the feast and
+      omitted the older brother — the entire half aimed at the religious men
+      the story was told to answer. Cameron caught it, not the loop.)
 - [ ] Every scene in the storyboard has a narration line — map beat-by-beat; no
       silent "visual beats" exist anywhere in the plan (No-Dead-Air Law)
 - [ ] No narrator line quotes or echoes KJV wording — plain modern meaning only
