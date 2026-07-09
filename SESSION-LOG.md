@@ -27,6 +27,20 @@
 
 ---
 
+## 2026-07-09 (pt.28) — Cameron APPROVED Peter #07 (V6): "I LOVE IT"
+- What we did: Cameron watched V6 and approved it. Marked #07 approved in the
+  tracker (✅ 2026-07-09 V6) and flipped PREFLIGHT.md status to APPROVED BY
+  CAMERON (crew mark from Leighton + Cameron's final yes = done per Approval Law).
+- What changed in the app (files/commits): 00-MASTER-PLAN.md tracker row 07,
+  build-07-peter-water/PREFLIGHT.md status line.
+- What is now true that wasn't before: Peter Walks on Water is the fourth fully
+  approved video (#03, #04, #05, #07). It took six versions and taught the corpus
+  Corrections #5-#8.
+- What's next / handed off: #09 rich-ruler rework (missing hand, fake tears, cloak
+  drift, s7 full-back restage), then re-audit #01/#03/#04/#05 against all eight
+  corrections; "In app" column still open for all approved videos.
+- Commit: <hash filled in after you commit>
+
 ## 2026-07-09 (pt.27) — Cameron's fifth review: Jesus put bodily in the worship scene; Peter #07 rebuilt as V6
 - What we did: Cameron reviewed V5 and flagged 3:40 — the s11 "worship" still showed
   Peter alone in the boat cradling a disembodied hand; Jesus wasn't in the picture.
