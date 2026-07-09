@@ -128,3 +128,17 @@ Story-Fit call: 1 motion clip. The heart of this story is one physical act — t
   check for it. New FIRST check added to Bible §4b audio list: read the
   scripture END-TO-END against the beat map, through the FINAL verse. Second
   half added above; n7 and the card question rewritten.
+- 2026-07-09 (pt.2): CAMERON again — "it just seems like a video made by ai,
+  it glitches." Root-caused four real craft defects, all fixed and written
+  into Bible §4b as the Assembly Craft Laws: (1) Ken Burns shimmer — zoompan
+  rounds its crop to whole pixels; rendered straight at 1080 the stepping is
+  visible on slow drifts. Now supersampled 4320x7680 → 2160x3840 → lanczos
+  1080 (motion variation halved, cv .22 → .11 on s04). (2) Captions popped
+  in/out at every cut — now each caption layer is RGBA and alpha-fades 0.5s
+  in/out as one piece (text+box+shadow). (3) Final encode was starved at
+  1050k/crf24 to fit 25MB — now intermediates crf 16, final preset veryslow
+  starting crf 21 with a step-up loop; landed crf 21, 20.1MB. (4) Audio: bed
+  was bare sine waves and the whole second half played dry — now detuned
+  pairs + room echo, plus a quieter second bed under the feast/brother
+  (70.5–130.5) fading out before the father's final KJV; mix measured
+  -19.6 LUFS and lifted +4.6dB to -14.8 LUFS with a true-peak limiter.

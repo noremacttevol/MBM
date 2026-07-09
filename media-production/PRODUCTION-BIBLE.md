@@ -212,6 +212,27 @@ works. Then scale the motion budget per story as the Story-Fit Rule allows.
       video #2: j1's 1.2s internal tail stretched a planned 2s breath to 3.5s)
 - [ ] Music bed scheduled to reach full silence BEFORE the peak KJV line
 
+**Assembly craft laws (added 2026-07-09 — Cameron: "it just seems like a video
+made by ai, it glitches" — every one of these was a real, found defect):**
+- [ ] ANTI-SHIMMER: never render zoompan straight at delivery resolution.
+      zoompan rounds its crop to whole pixels each frame — at 1080 that
+      stepping is visible on slow drifts (the "AI slideshow" jitter). Render
+      the move supersampled (≥4x input, 2x output) and lanczos down to
+      delivery size so steps land on quarter-pixels. Measured fix: frame-to-
+      frame motion variation halved.
+- [ ] CAPTION FADES: captions never pop in or out at a cut. Render each
+      caption (text + box + shadow) on its own transparent RGBA layer,
+      alpha-fade 0.5s in and 0.5s out (gone ~0.1s before the cut), overlay.
+- [ ] ENCODE: intermediates near-lossless (crf 16); final pass is the ONLY
+      lossy generation — preset veryslow, start crf 21, step up only if the
+      <25MB law demands it. Never starve the bitrate to fit (1050k caused
+      visible blocking on video #2).
+- [ ] LOUDNESS: measure the final mix (EBU R128) and deliver ≈ -15 LUFS via
+      static gain + true-peak limiter. Quiet audio reads as amateur.
+- [ ] MUSIC BED: no bare sine waves — every voice a slightly detuned pair
+      (natural slow beating) through a soft room echo. And no long bone-dry
+      stretches unless sacred quiet IS the point of that moment.
+
 Only after this pre-flight passes does generation begin. Then the Self-Revision
 Law loop runs on the built video — and if the pre-flight was done honestly, that
 loop should find nothing. Every time the loop DOES find something, that means a

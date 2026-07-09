@@ -36,7 +36,9 @@ SERIF_BI = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf"
 CREAM = "0xF7F2E9"
 INK = "0x3B2A1E"
 
-ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "18",
+# Intermediate segments near-lossless (crf 16) so the final pass is the
+# ONLY lossy generation the viewer sees (2026-07-09 quality pass).
+ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "16",
        "-pix_fmt", "yuv420p", "-r", str(FPS), "-an"]
 
 STILL_LEAVING = "shot1-leaving.jpeg"
@@ -165,7 +167,14 @@ def run(cmd):
     subprocess.run(cmd, check=True, capture_output=True)
 
 
-def caption_filter(seg_id, text, style):
+def caption_overlay(seg_id, dur, text, style):
+    """Caption drawn on its own transparent canvas and alpha-faded in/out.
+
+    2026-07-09 quality pass: captions used to POP in and out at every hard
+    cut (text, box and shadow appearing in one frame) — a big part of the
+    'made by AI' feel. Fading the drawtext alpha alone would leave the box
+    behind, so the whole caption layer is rendered RGBA and faded as one,
+    then overlaid. 0.5s in, 0.5s out, fully gone 0.1s before the cut."""
     if not text:
         return None
     tf = f"{S}/{seg_id}.txt"
@@ -175,10 +184,26 @@ def caption_filter(seg_id, text, style):
         font, size, color = SERIF_BI, 46, "0xFFF3DC"
     else:
         font, size, color = SERIF, 42, "white"
-    return (f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
+    fade_out = max(0.0, dur - 0.6)
+    return (f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
+            f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
             f"fontcolor={color}:line_spacing=14:x=(w-text_w)/2:y=h-420:"
             f"shadowcolor=black@0.85:shadowx=2:shadowy=2:"
-            f"box=1:boxcolor=black@0.30:boxborderw=18")
+            f"box=1:boxcolor=black@0.30:boxborderw=18,"
+            f"fade=t=in:st=0:d=0.5:alpha=1,"
+            f"fade=t=out:st={fade_out}:d=0.5:alpha=1[cap]")
+
+
+def assemble_segment(seg_id, base_chain, dur, cap, style, tail=""):
+    """Build one segment: base video chain + faded caption overlay + any
+    whole-frame fades (tail), rendered via filter_complex."""
+    capf = caption_overlay(seg_id, dur, cap, style)
+    if capf:
+        fc = (f"{base_chain}[base];{capf};"
+              f"[base][cap]overlay=format=auto{tail}[v]")
+    else:
+        fc = f"{base_chain}{tail}[v]"
+    return fc
 
 
 def build_still(seg_id, src, dur, zdir, cap, style):
@@ -187,27 +212,34 @@ def build_still(seg_id, src, dur, zdir, cap, style):
         z = f"1.001+0.12*on/{frames}"
     else:
         z = f"1.121-0.12*on/{frames}"
-    vf = (f"scale=2160:3840,setsar=1,"
-          f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
-          f"d={frames}:s=1080x1920:fps={FPS}")
-    capf = caption_filter(seg_id, cap, style)
-    if capf:
-        vf += "," + capf
+    # 2026-07-09 anti-shimmer: zoompan quantizes its crop position to whole
+    # input pixels every frame — rendered straight to 1080 that stepping is
+    # visible on slow drifts (the "AI slideshow" jitter Cameron saw).
+    # Supersample instead: zoom over a 4320x7680 canvas, output 2160x3840,
+    # then lanczos down to 1080x1920 so each step lands on a quarter-pixel.
+    # Measured on s04: frame-to-frame motion variation halved (cv .22->.11).
+    base = (f"[0:v]scale=4320:7680,setsar=1,"
+            f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
+            f"d={frames}:s=2160x3840:fps={FPS},"
+            f"scale=1080:1920:flags=lanczos")
+    tail = ""
     if seg_id == "s00":
-        vf += ",fade=t=in:st=0:d=1.2"
+        tail = ",fade=t=in:st=0:d=1.2"
     if seg_id == "s12b":
-        vf += f",fade=t=out:st={dur-1.2}:d=1.2"
-    run(["ffmpeg", "-y", "-loop", "1", "-i", f"{A}/{src}",
-         "-t", str(dur), "-vf", vf] + ENC + [f"{S}/{seg_id}.mp4"])
+        tail = f",fade=t=out:st={dur-1.2}:d=1.2"
+    fc = assemble_segment(seg_id, base, dur, cap, style, tail)
+    run(["ffmpeg", "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
+         "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
 
 
 def build_clip(seg_id, src, dur, cap, style):
-    vf = f"scale=1080:1920:flags=lanczos,setsar=1,fps={FPS}"
-    capf = caption_filter(seg_id, cap, style)
-    if capf:
-        vf += "," + capf
+    # Veo clip is 720x1280 — lanczos up + a gentle unsharp so it doesn't
+    # sit visibly softer than the painted stills (2026-07-09 quality pass).
+    base = (f"[0:v]scale=1080:1920:flags=lanczos,setsar=1,fps={FPS},"
+            f"unsharp=5:5:0.35:5:5:0.0")
+    fc = assemble_segment(seg_id, base, dur, cap, style)
     run(["ffmpeg", "-y", "-i", f"{A}/{src}", "-t", str(dur),
-         "-vf", vf] + ENC + [f"{S}/{seg_id}.mp4"])
+         "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
 
 
 def build_card(seg_id, dur, text, style):
@@ -251,12 +283,33 @@ def main():
         ms = int(start * 1000)
         filters.append(f"[{i}:a]aresample=44100,adelay={ms}|{ms},volume=1.0[a{i}]")
         labels.append(f"[a{i}]")
-    pad = (f"aevalsrc='0.028*sin(2*PI*110*t)+0.022*sin(2*PI*164.81*t)"
-           f"+0.016*sin(2*PI*220*t)+0.010*sin(2*PI*329.63*t)':s=44100:d={MUSIC_END},"
-           f"lowpass=f=800,tremolo=f=0.15:d=0.35,"
-           f"afade=t=in:st=0:d=6,afade=t=out:st={MUSIC_END-5}:d=5[mus]")
-    filters.append(pad)
-    labels.append("[mus]")
+    # 2026-07-09 quality pass: the old bed was four bare sine waves — thin
+    # and synthetic. Each voice is now a slightly DETUNED pair (natural slow
+    # beating, like real strings) run through a soft room echo. And the
+    # second half no longer plays bone dry: a quieter, warmer bed sits under
+    # the feast and the older brother (70.5-130.5), fading to full silence
+    # before the father's final KJV answer so the last words land in the
+    # same sacred quiet as "The father ran."
+    bed1 = (f"aevalsrc='0.022*(sin(2*PI*110*t)+sin(2*PI*110.6*t))"
+            f"+0.016*(sin(2*PI*164.81*t)+sin(2*PI*165.5*t))"
+            f"+0.012*sin(2*PI*220*t)+0.008*sin(2*PI*329.63*t)'"
+            f":s=44100:d={MUSIC_END},"
+            f"lowpass=f=750,tremolo=f=0.13:d=0.3,"
+            f"aecho=0.7:0.4:311|429:0.25|0.18,"
+            f"afade=t=in:st=0:d=6,afade=t=out:st={MUSIC_END-5}:d=5[mus1]")
+    filters.append(bed1)
+    labels.append("[mus1]")
+    m2_start, m2_dur = 70.5, 60.0  # out at 130.5, before j2a at 131.9
+    bed2 = (f"aevalsrc='0.014*(sin(2*PI*110*t)+sin(2*PI*110.5*t))"
+            f"+0.011*(sin(2*PI*138.59*t)+sin(2*PI*139.2*t))"
+            f"+0.009*sin(2*PI*164.81*t)+0.006*sin(2*PI*220*t)'"
+            f":s=44100:d={m2_dur},"
+            f"lowpass=f=700,tremolo=f=0.11:d=0.3,"
+            f"aecho=0.7:0.4:317|443:0.25|0.18,"
+            f"afade=t=in:st=0:d=5,afade=t=out:st={m2_dur-6}:d=6,"
+            f"adelay={int(m2_start*1000)}|{int(m2_start*1000)}[mus2]")
+    filters.append(bed2)
+    labels.append("[mus2]")
     n = len(labels)
     filters.append("".join(labels) +
                    f"amix=inputs={n}:duration=longest:normalize=0,"
@@ -265,16 +318,39 @@ def main():
          "-map", "[aout]", "-t", str(total), "-c:a", "aac", "-b:a", "160k",
          f"{S}/audio_mix.m4a"])
 
-    # ---- final mux, sized under 25MB ----
-    run(["ffmpeg", "-y", "-i", f"{S}/video_silent.mp4", "-i", f"{S}/audio_mix.m4a",
-         "-map", "0:v", "-map", "1:a",
-         # 162.8s runtime: 1050k video + 128k audio ≈ 24MB ceiling — under 25MB.
-         "-c:v", "libx264", "-preset", "slow", "-crf", "24",
-         "-maxrate", "1050k", "-bufsize", "2100k", "-pix_fmt", "yuv420p",
-         "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart",
-         "prodigal-02.mp4"])
-    size = os.path.getsize("prodigal-02.mp4") / 1e6
-    print(f"DONE: prodigal-02.mp4  {size:.1f} MB, {total:.1f}s")
+    # ---- loudness: measure the mix, lift to social-platform level ----
+    # 2026-07-09 quality pass: quiet audio reads as amateur. Measure the
+    # integrated loudness (EBU R128) and apply a static gain toward -15
+    # LUFS with a true-peak limiter — no dynamics pumping, just level.
+    probe = subprocess.run(
+        ["ffmpeg", "-i", f"{S}/audio_mix.m4a", "-af", "ebur128", "-f", "null", "-"],
+        capture_output=True, text=True)
+    lufs = None
+    for line in probe.stderr.splitlines():
+        line = line.strip()
+        if line.startswith("I:") and "LUFS" in line:
+            lufs = float(line.split()[1])
+    gain = 0.0
+    if lufs is not None:
+        gain = max(-6.0, min(10.0, -15.0 - lufs))
+    print(f"loudness: measured {lufs} LUFS, applying {gain:+.1f} dB")
+
+    # ---- final mux, best quality that fits the <25MB law ----
+    # preset veryslow buys real quality at the same bitrate; start generous
+    # and step crf up only if the size law demands it.
+    for crf in (21, 22, 23, 24):
+        run(["ffmpeg", "-y", "-i", f"{S}/video_silent.mp4",
+             "-i", f"{S}/audio_mix.m4a", "-map", "0:v", "-map", "1:a",
+             "-c:v", "libx264", "-preset", "veryslow", "-crf", str(crf),
+             "-maxrate", "1200k", "-bufsize", "2400k", "-pix_fmt", "yuv420p",
+             "-af", f"volume={gain:.1f}dB,alimiter=limit=0.95",
+             "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart",
+             "prodigal-02.mp4"])
+        size = os.path.getsize("prodigal-02.mp4") / 1e6
+        if size <= 24.5:
+            break
+        print(f"  {size:.1f} MB at crf {crf} — over budget, stepping up")
+    print(f"DONE: prodigal-02.mp4  {size:.1f} MB, {total:.1f}s (crf {crf})")
 
 
 if __name__ == "__main__":
