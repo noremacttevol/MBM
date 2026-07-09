@@ -39,7 +39,7 @@
 - What's next / handed off: #09 rich-ruler rework (missing hand, fake tears, cloak
   drift, s7 full-back restage), then re-audit #01/#03/#04/#05 against all eight
   corrections; "In app" column still open for all approved videos.
-- Commit: <hash filled in after you commit>
+- Commit: fc7de69
 
 ## 2026-07-09 (pt.27) — Cameron's fifth review: Jesus put bodily in the worship scene; Peter #07 rebuilt as V6
 - What we did: Cameron reviewed V5 and flagged 3:40 — the s11 "worship" still showed
