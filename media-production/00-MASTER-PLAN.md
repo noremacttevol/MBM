@@ -112,7 +112,7 @@ light.
 | 06 | two_sons | The two sons | ✅ | — | — | — | — |
 | 07 | peter_water | Peter walks on water | ✅ | ✅ | ✅ | READY FOR DAD (Leighton 2026-07-09) | — |
 | 08 | lost_coin | The lost coin | ✅ | — | — | — | — |
-| 09 | rich_ruler | The rich young ruler | ✅ | — | — | — | — |
+| 09 | rich_ruler | The rich young ruler | ✅ | ✅ | ✅ | pending Leighton review 2026-07-09 | — |
 | 10 | well | The woman at the well | ✅ | — | — | — | — |
 | 11 | storm | Calming the storm | ✅ | — | — | — | — |
 | 12 | bartimaeus | Blind Bartimaeus | ✅ | — | — | — | — |
