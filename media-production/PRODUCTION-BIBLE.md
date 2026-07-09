@@ -155,6 +155,14 @@ words. Nothing here overrides the sacred pause before Jesus's KJV words.
    too, not just clips. The s8 rescue still had Peter's second arm raised with an
    open hand beside the gripped arm — wrong. In every rescue/reach image the person
    has ONE arm up (the arm Jesus grips) and the OTHER arm down in the water.
+8. **Jesus is a person in the scene, not a floating body part (Cameron, 2026-07-09,
+   fifth review).** The s11 "worship" still showed Peter alone in the boat cradling
+   a disembodied hand — wrong. In any beat where people respond to Jesus (worship,
+   gratitude, awe, companionship), Jesus must be PRESENT in the scene as a whole
+   figure BESIDE the person — face still never shown (glow-dissolve or angle), but
+   his presence is a body in the composition, not a forearm floating in from
+   off-frame. Correction #2's hand/forearm allowance is only for rescue/touch
+   close-ups where the composition IS the grip.
 These corrections triggered a REDO of peter-water-07 (V2's rescue still fix was
 NOT enough — Cameron rejected V2 too; both motion clips were restaged and
 regenerated for V3; then V3's sinking clip failed the limb-count law and was

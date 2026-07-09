@@ -110,7 +110,7 @@ light.
 | 04 | nicodemus | Nicodemus at night | ✅ | ✅ | ✅ | ✅ 2026-07-09 | — |
 | 05 | bent_woman | The bent-over woman | ✅ | ✅ | ✅ | ✅ 2026-07-09 | — |
 | 06 | two_sons | The two sons | ✅ | — | — | — | — |
-| 07 | peter_water | Peter walks on water | ✅ | ✅ | ✅ | V5 rebuilt 2026-07-09 — s8 rescue still restaged per Correction #7 (one arm gripped, one in the water); awaiting Cameron's look | — |
+| 07 | peter_water | Peter walks on water | ✅ | ✅ | ✅ | V6 rebuilt 2026-07-09 — s11 worship still restaged per Correction #8 (whole-figure Jesus beside kneeling Peter, no disembodied hand); awaiting Cameron's look | — |
 | 08 | lost_coin | The lost coin | ✅ | — | — | — | — |
 | 09 | rich_ruler | The rich young ruler | ✅ | ✅ | ✅ | ❌ sent back by Cameron 2026-07-09 — rework queued | — |
 | 10 | well | The woman at the well | ✅ | — | — | — | — |

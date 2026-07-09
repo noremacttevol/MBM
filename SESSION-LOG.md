@@ -27,6 +27,31 @@
 
 ---
 
+## 2026-07-09 (pt.27) — Cameron's fifth review: Jesus put bodily in the worship scene; Peter #07 rebuilt as V6
+- What we did: Cameron reviewed V5 and flagged 3:40 — the s11 "worship" still showed
+  Peter alone in the boat cradling a disembodied hand; Jesus wasn't in the picture.
+  Added Correction #8 to PRODUCTION-BIBLE.md: Jesus is a person in the scene, not a
+  floating body part — in any beat where people respond to Jesus (worship, awe,
+  gratitude), he must be present as a whole figure beside them, face still never
+  shown (glow-dissolve). Generated a new worship still in Flow (Nano Banana 2, first
+  try, 0 credits): radiant full-figure Jesus standing in the boat, Peter kneeling
+  directly beside him looking up, two other fishermen kneeling behind, head pure
+  golden radiance with no facial features. Zoom-QC'd (head featureless, Peter matches
+  reference, all limb counts correct, no tear beads), downloaded 2K, banked as
+  s11-worship-v2.jpeg, updated build.py S11, rebuilt peter-water-07.mp4 as V6
+  (19.1 MB, 256.0s). Also frame-checked s12 (n10b beat) against Correction #8 —
+  it already shows whole-figure Jesus among the kneeling disciples, no change needed.
+- What changed in the app (files/commits): PRODUCTION-BIBLE.md (Correction #8),
+  build-07-peter-water/build.py (S11 -> s11-worship-v2.jpeg), PREFLIGHT.md (V6
+  results), assets/s11-worship-v2.jpeg (new), qc/t220-check.jpg + qc/v6-final/ (9
+  frames), 00-MASTER-PLAN.md tracker row 07, peter-water-07.mp4 (V6).
+- What is now true that wasn't before: the worship beat at 3:34–3:48 shows Jesus
+  standing bodily beside kneeling Peter instead of a floating hand; the corpus now
+  has EIGHT Cameron Corrections.
+- What's next / handed off: Cameron reviews V6. Then #09 rich-ruler rework and
+  re-audit of older videos (#1,#3,#4,#5) against all eight corrections.
+- Commit: <hash filled in after you commit>
+
 ## 2026-07-09 (pt.26) — Cameron's fourth review: rescue still staging fixed; Peter #07 rebuilt as V5
 - What we did: Cameron reviewed V4 and flagged the picture at 2:41 — the s8 rescue
   still had Peter reaching with two arms (one gripped by Jesus, the other raised

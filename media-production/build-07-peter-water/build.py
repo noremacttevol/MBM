@@ -48,7 +48,7 @@ CLIP_SINK = "s7-sinking-v4.mp4"  # V4 2026-07-09: Cameron's staging — one arm 
 S8 = "s8-the-reach-v2.jpeg"  # V5 2026-07-09 Cameron's staging: ONE arm gripped by Jesus, other arm down in the water (Correction #7 applies to stills)
 S9 = "s9-walk-back.jpeg"
 S10 = "s10-calm-sea.jpeg"
-S11 = "s11-forearm.jpeg"
+S11 = "s11-worship-v2.jpeg"  # V6 2026-07-09: whole-figure radiant Jesus standing BESIDE kneeling Peter — no disembodied hand (Correction #8)
 S12 = "s12-worship.jpeg"
 
 # (id, kind, source, stretch_or_none, duration_s, zoom_dir, caption, style)

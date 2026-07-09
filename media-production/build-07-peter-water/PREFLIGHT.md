@@ -304,3 +304,25 @@ before assembly. V3 rebuild + full Self-Revision follows. V2 is dead.
   covering the whole s8 window (146.6-197.5s) plus t140 (sink clip, unchanged),
   t60, t254 spot checks. New staging correct in every rescue beat, captions
   legible, sink clip and end card unchanged. V5 PASSED.
+
+### V6 execution results (2026-07-09) — Cameron's fifth review, s11 worship still
+- Cameron flagged 3:40: the s11 still showed Peter alone cradling a disembodied
+  hand during the worship beat (n10a, 214.6-228.4s) — Jesus wasn't in the scene.
+  Confirmed with qc/t220-check.jpg.
+- Correction #8 added to PRODUCTION-BIBLE.md: Jesus is a person in the scene, not
+  a floating body part. In worship/awe/gratitude beats he must be present as a
+  whole figure beside the person — face still never shown (glow-dissolve).
+- New still (Nano Banana 2, first try, 0 credits): radiant full-figure Jesus
+  standing in the boat, head pure golden radiance with no facial features, Peter
+  kneeling directly beside him looking up (matches banked reference face, exactly
+  two arms both lowered, no tear beads), two other fishermen kneeling behind with
+  correct limb counts. Zoom-QC'd in the Flow edit view, downloaded at 2K
+  (1536x2752), banked as assets/s11-worship-v2.jpeg.
+- s12 (n10b beat) frame-checked against Correction #8: already shows whole-figure
+  radiant Jesus among the kneeling disciples — no change needed.
+- build.py updated: S11 = "s11-worship-v2.jpeg".
+- V6 REBUILT: peter-water-07.mp4, 19.1 MB, 256.0s (crf 21, vcap 620k).
+- Self-Revision: 9 frames (qc/v6-final/) — t216/t220/t224/t227 covering the n10a
+  window, t232/t238 (s12 window), plus t161 (rescue still, unchanged), t140 (sink
+  clip, unchanged), t254 (end card). Jesus stands bodily beside kneeling Peter in
+  every n10a frame, captions legible, everything else unchanged. V6 PASSED.
