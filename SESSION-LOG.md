@@ -49,7 +49,7 @@
 - What's next / handed off: Cameron reviews V5. Still open: #09 rich-ruler rework
   (missing hand, fake tears, cloak drift, s7 full-back restage), re-audit of older
   videos (#1,#3,#4,#5) against all seven corrections, painted-vs-cartoon style call.
-- Commit: <hash filled in after you commit>
+- Commit: 0746277
 
 ---
 
