@@ -22,7 +22,7 @@
 - What changed in the app (files/commits):
 - What is now true that wasn't before:
 - What's next / handed off:
-- Commit: <hash filled in after you commit>
+- Commit: aa40403
 ```
 
 ---
