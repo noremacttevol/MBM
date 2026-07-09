@@ -50,7 +50,7 @@
   has EIGHT Cameron Corrections.
 - What's next / handed off: Cameron reviews V6. Then #09 rich-ruler rework and
   re-audit of older videos (#1,#3,#4,#5) against all eight corrections.
-- Commit: <hash filled in after you commit>
+- Commit: e3bc785
 
 ## 2026-07-09 (pt.26) — Cameron's fourth review: rescue still staging fixed; Peter #07 rebuilt as V5
 - What we did: Cameron reviewed V4 and flagged the picture at 2:41 — the s8 rescue
