@@ -33,6 +33,12 @@ speech-to-text ear-check (`qc_narration.py`, first built in build-06-two-sons):
 it transcribes every mp3 and diffs it word-for-word against the script. Any
 segment under 0.93 match is regenerated (reworded if needed) BEFORE assembly.
 No video is assembled, let alone shown to Cameron, with unverified narration.
+(2026-07-09, video #7: the QC tool ITSELF had two bugs — SequenceMatcher
+autojunk collapses long character-string comparisons (a 99% match scored
+0.11), and whisper's spelling of homophones/numbers ("knight"/"night",
+"5 000"/"five thousand") is not an audio defect. Fixed in
+build-07-peter-water/qc_narration.py: word-list comparison with
+autojunk=False + an EQUIV normalization table. Copy THAT version forward.)
 
 **The No-Dead-Air Law (Cameron, 2026-07-08 — permanent):** The narrator carries
 the story through EVERY scene. No silent "visual beats" — a mid-video stretch
