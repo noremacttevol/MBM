@@ -13,6 +13,9 @@ JESUS = "en-US-ChristopherNeural"   # American. Never a British voice.
 
 SEGMENTS = [
     # (filename, voice, rate, pitch, text)
+    ("n0", NARRATOR, "-22%", "-4Hz",
+     "When Jesus wanted to show how God feels about one lost soul, "
+     "he didn't talk about crowds. He told this story."),
     ("n1", NARRATOR, "-20%", "-4Hz",
      "A woman has ten coins. She loses one."),
     ("n2a", NARRATOR, "-20%", "-4Hz",

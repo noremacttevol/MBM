@@ -29,12 +29,19 @@ ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "18",
 STILL_COUNT = "Woman_counting_silver_coins_2K_202607081706.jpeg"
 STILL_SWEEP = "Woman_searching_for_lost_coin_202607081705.jpeg"
 STILL_KNEEL = "Woman_searching_for_lost_coin_202607081707.jpeg"
-CLIP_FOUND = "Woman_uncovering_silver_coin_202607081722.mp4"  # v2: coin present from frame one, uncovered from dust (Leighton's no-pop-in fix)
+CLIP_FOUND = "Woman_finding_single_coin_202607082018.mp4"  # v4 FINAL: ONE coin in every frame, floor bare after pickup, positive-only phrasing per PRODUCTION-BIBLE 5b (Cameron's two-coins fix). v3 negative-prompt attempt rejected (cartoon drift); v2 left a second coin on the floor.
 STILL_DOOR = "Woman_holding_silver_coin_joyfully_202607081704.jpeg"
 STILL_STARS = "Village_under_starry_sky_2K_202607081703.jpeg"
 
 # (id, kind, source, duration_s, zoom_dir, caption, caption_style)
 SEGMENTS = [
+    # Opening frame: WHY Jesus told this story — Heaven's excitement over one
+    # soul found. Starts on the same starry sky the video ends on, so the
+    # whole story is bookended by Heaven's point of view (Cameron/Leighton
+    # request, 2026-07-08 pt.11).
+    ("s00", "still", STILL_STARS, 10.5, "out",
+     "When Jesus wanted to show\nhow God feels about one lost soul,\n"
+     "he didn't talk about crowds.\nHe told this story.", "n"),
     ("s01", "still", STILL_COUNT, 6.5, "in",
      "A woman has ten coins.\nShe loses one.", "n"),
     ("s02", "still", STILL_SWEEP, 6.5, "in",
@@ -59,17 +66,18 @@ SEGMENTS = [
 
 # narration placements: (audio file, absolute start seconds)
 AUDIO = [
-    ("audio/n1.mp3", 0.8),    # s01 0-6.5
-    ("audio/n2a.mp3", 7.0),   # s02 6.5-13
-    ("audio/n2b.mp3", 13.5),  # s03 13-21.5   (s04 found clip 21.5-29.5 silent)
-    ("audio/n3.mp3", 29.9),   # s05a 29.5-34
-    ("audio/j1.mp3", 34.6),   # s05b 34-40.5 — KJV Luke 15:9
-    ("audio/n4.mp3", 41.0),   # s06a 40.5-47.5
-    ("audio/j2.mp3", 48.3),   # s06b 47.5-58.5 — KJV Luke 15:10, music silent
-    ("audio/n5.mp3", 59.0),   # s06c 58.5-63.5 — "Over one. Not a crowd. One."
+    ("audio/n0.mp3", 0.8),    # s00 0-10.5 — why Jesus told it (9.1s)
+    ("audio/n1.mp3", 11.3),   # s01 10.5-17
+    ("audio/n2a.mp3", 17.5),  # s02 17-23.5
+    ("audio/n2b.mp3", 24.0),  # s03 23.5-32   (s04 found clip 32-40 silent)
+    ("audio/n3.mp3", 40.4),   # s05a 40-44.5
+    ("audio/j1.mp3", 45.1),   # s05b 44.5-51 — KJV Luke 15:9
+    ("audio/n4.mp3", 51.5),   # s06a 51-58
+    ("audio/j2.mp3", 58.8),   # s06b 58-69 — KJV Luke 15:10, music silent
+    ("audio/n5.mp3", 69.5),   # s06c 69-74 — "Over one. Not a crowd. One."
 ]
 
-MUSIC_END = 47.0  # fully silent before the angels line — the peak is quiet
+MUSIC_END = 57.5  # fully silent before the angels line — the peak is quiet
 
 
 def run(cmd):
@@ -105,7 +113,7 @@ def build_still(seg_id, src, dur, zdir, cap, style):
     capf = caption_filter(seg_id, cap, style)
     if capf:
         vf += "," + capf
-    if seg_id == "s01":
+    if seg_id == "s00":
         vf += ",fade=t=in:st=0:d=1.2"
     if seg_id == "s06c":
         vf += f",fade=t=out:st={dur-1.2}:d=1.2"

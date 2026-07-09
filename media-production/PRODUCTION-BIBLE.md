@@ -134,6 +134,26 @@ works. Then scale the motion budget per story as the Story-Fit Rule allows.
 - [ ] Closing question matches the pack's Seed question
 - [ ] 9:16, 1080×1920, plays clean start to finish
 
+## 5b. PROMPT FAILURE LOG (banned techniques — every mistake that wasted credits gets written here so no AI repeats it)
+
+**2026-07-08 — The "NEGATIVE PROMPT" cartoon disaster (video #8, Scene 4, 10 credits wasted).**
+The clip came back flat-cartoon (big glossy Disney eyes, plastic shading) and clashed
+hard with the painted stills around it. Crew verdict: "horrible, way worse." Two causes,
+both now BANNED:
+
+1. **NEVER put a "NEGATIVE PROMPT:" list inside a Veo prose prompt.** Veo does not
+   honor negative lists. Naming the things you don't want ("two coins", "AI-generated
+   look", "3D CGI") puts those words INTO the prompt and can pull them into the video.
+   Say what you WANT, positively and only that: "EXACTLY ONE coin — one single coin,
+   and only that one coin, in the whole video."
+2. **NEVER add or strengthen style words beyond the locked Master Style Block.** Adding
+   emphasis like extra "2D animation" wording shoved the output into cartoon land. The
+   Master Style Block in section 2 is used byte-identical, every prompt, no additions,
+   no paraphrasing. Style drift = automatic redo, so don't invite it.
+
+Standing rule: every future prompt failure that wastes credits gets its own dated entry
+here, with the cause and the ban, before any retry is attempted.
+
 ## 6. Money & Credits (why this plan is affordable)
 
 - **ACTIVE PLAN (Cameron, 2026-07-08): Google AI Ultra $200 tier = 25,000
