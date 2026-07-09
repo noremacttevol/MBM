@@ -106,7 +106,7 @@ light.
 |---|----|-------|------|-------|-----|----------|--------|
 | 01 | cloak | Woman who touched his cloak | ✅ | — | — | — | — |
 | 02 | prodigal | The Prodigal Son | ✅ | — | — | — | — |
-| 03 | zacchaeus | Zacchaeus | ✅ | — | — | — | — |
+| 03 | zacchaeus | Zacchaeus | ✅ | ✅ | ✅ | ✅ 2026-07-09 (V3) | — |
 | 04 | nicodemus | Nicodemus at night | ✅ | — | — | — | — |
 | 05 | bent_woman | The bent-over woman | ✅ | — | — | — | — |
 | 06 | two_sons | The two sons | ✅ | — | — | — | — |
