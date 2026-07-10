@@ -204,6 +204,23 @@ words. Nothing here overrides the sacred pause before Jesus's KJV words.
    (behind, over-the-shoulder, hood, distance), never with light effects. Audit
    every Jesus figure at high zoom for edge-glow around the head before
    accepting a still.
+13. **NO view of Jesus's face from ANY angle, and NO face-substitutes (Cameron,
+   2026-07-10 — storm-11 review).** Not frontal, not side profile, not
+   three-quarter, not a jawline or cheek or nose in shadow. We do not know what
+   his face looked like, and any depicted face — white, brown, anything —
+   makes someone in the audience disconnect before the story can reach them.
+   Most Christian art forces a white Jesus; showing ANY face takes a side in
+   that fight, and taking either side loses people. So: face hidden by camera
+   ANGLE (directly behind, over-the-shoulder, or true distance) — nothing
+   else. ALSO BANNED as face-substitutes, from the same review: (a) a hood
+   opening facing the camera rendered as a black featureless void — it reads
+   as a faceless ghost, not reverence (storm s4 and s5 rejected for this);
+   (b) a solid-black featureless human cutout/silhouette standing in for him
+   anywhere in the frame (storm s3 stern rejected for this). If a sleeping or
+   hooded Jesus is in shot, stage him so the BACK of the hood/head faces the
+   camera — never the hood opening. Prompts must say positively where the
+   camera is and that his face is on the far side, away from view. Every
+   render is audited at high zoom for any facial feature before banking.
 These corrections triggered a REDO of peter-water-07 (V2's rescue still fix was
 NOT enough — Cameron rejected V2 too; both motion clips were restaged and
 regenerated for V3; then V3's sinking clip failed the limb-count law and was
