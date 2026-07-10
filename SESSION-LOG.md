@@ -51,7 +51,7 @@
   clips planned 20 + 10 for the s5 quality re-render; stills free).
 - What's next / handed off: Cameron's yes/no on #10; then story video #11
   from the wave-one pack list.
-- Commit: (this commit)
+- Commit: 5a587fb
 
 ## 2026-07-10 (pt.31) — Eight-Corrections re-audits: Zacchaeus #03 V4 + Bent Woman #05 fixed, double-checked, delivered
 - What we did: Re-audited #03 and #05 frame-by-frame against the eight
