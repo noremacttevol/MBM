@@ -27,6 +27,32 @@
 
 ---
 
+## 2026-07-10 (pt.31) — Eight-Corrections re-audits: Zacchaeus #03 V4 + Bent Woman #05 fixed, double-checked, delivered
+- What we did: Re-audited #03 and #05 frame-by-frame against the eight
+  Cameron Corrections. #03 had three violations: painted tears on
+  shot7-table and shot8-salvation (fixed with free Nano Banana edits,
+  verified dry at 3x on 2K downloads) and the centered full-back Jesus
+  look-up clip (replaced with a new over-the-shoulder anchor still +
+  10-credit Veo re-render per the approved #09 framing). #05 had one:
+  painted tear beads on s10-daughter-of-abraham (same fix). Both videos
+  rebuilt, self-QC'd across the full timeline, then independently
+  double-checked by a subagent — PASS, zero violations — and presented
+  to Cameron.
+- What changed in the app (files/commits): build-03-zacchaeus assets
+  (shot7, shot8, clip-looked-up, new shot-lookup-anchor) + zacchaeus-03.mp4
+  V4 (249.0s); build-05-bent-woman s10 + bent-woman-05.mp4 (278.0s);
+  V4/audit notes appended to both PREFLIGHTs; originals backed up in
+  assets/pre-eight-audit-backup/.
+- What is now true that wasn't before: #03 and #05 both fully comply with
+  all eight corrections and are double-check-verified. Lessons locked in:
+  tear QC only on the downloaded 2K at 3x (browser zoom hides droplets);
+  zoom-verify a Flow tile against the banked file before editing (sibling
+  generations share titles).
+- What's next / handed off: continue the eight-corrections re-audit queue
+  across the remaining built stories (#01, #02, #04, #06, #07, #08), then
+  onward through Wave One production.
+- Commit: (this commit)
+
 ## 2026-07-09 (pt.30) — Rich Ruler #09 V2 rebuilt: wardrobe locked, clips re-animated, double-checked
 - What we did: Full V2 rework of #09 per Cameron's rejection list (fake tears,
   missing hand, Jesus-back framing, and the MAIN one: the blue robe changing

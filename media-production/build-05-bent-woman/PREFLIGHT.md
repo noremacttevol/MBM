@@ -125,3 +125,15 @@ up straight" with music DEAD before it (also dead before j1 and j2 per law).
   panels (Nano Banana 2 defect) — fixed by full regen with a "one single
   continuous scene edge to edge" clause; s3/s4 first renders under-bent
   the woman — fixed with a targeted bend edit. All banked stills 2K.
+
+## Eight-Corrections re-audit (2026-07-10)
+Full audit of all 10 stills + rise clip against the eight Cameron
+Corrections. One violation: s10-daughter-of-abraham had painted tear
+beads/streaks on both cheeks (Correction #3). Fixed with a free Nano
+Banana tear-removal edit on Flow asset "Elderly woman smiling tears",
+verified dry at 3x on the 2K download; original in
+assets/pre-eight-audit-backup/. Everything else passed: s5 dark-silhouette
+Jesus per this pack's lock, rise-clip geometry (bent → upright, staff
+released), wardrobe, anatomy, no Jesus face/hands anywhere. Rebuilt
+bent-woman-05.mp4 (278.0s, 20.1 MB); self-QC + independent subagent
+double-check: PASS, zero violations.

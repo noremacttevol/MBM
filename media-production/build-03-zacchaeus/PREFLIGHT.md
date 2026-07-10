@@ -489,3 +489,24 @@ proportion calibration (short adult, never caricature).
   removed via edit) and shot2-blocked (shortness didn't read and he faced
   the camera calmly — edit made him a head shorter, on tiptoes, craning).
 - Final: zacchaeus-03.mp4 V3, 249.0s, unchanged V2 timeline/narration/audio.
+
+## V4 — Eight-Corrections re-audit rework (2026-07-10)
+Re-audited V3 against the eight Cameron Corrections; two violations found
+and fixed (all edits free Nano Banana; one 10-credit Veo re-render):
+- shot7-table + shot8-salvation: painted tear streaks on Zacchaeus's
+  cheeks (Correction #3). Both regenerated via tear-removal edits on the
+  original Flow assets, verified DRY at 3x zoom on the 2K downloads
+  (first shot8 edit left a residual droplet — always verify on the
+  downloaded 2K, never browser zoom). Originals in
+  assets/pre-eight-audit-backup/.
+- clip-looked-up.mp4: old clip was a centered full-back Jesus (the exact
+  framing Cameron rejected on #09). Replaced with a NEW over-the-shoulder
+  composition per the approved #09 pattern: new anchor still
+  (assets/shot-lookup-anchor.jpeg, Flow "Man looking down from tree",
+  hood removed via edit to match the bare-head Jesus lock) animated with
+  Veo 3.1 Fast via Frames mode ("Man gazing at sycamore tree", 10
+  credits). Frame QC at 1fps: Jesus tilts head up — only hair, ear, and
+  bearded jaw edge from behind ever visible (eyes/nose/mouth never);
+  Zacchaeus two arms, two sandaled feet, dry cheeks in every frame.
+- Rebuilt zacchaeus-03.mp4 (249.0s, 20.0 MB), full self-QC across the
+  timeline + independent subagent double-check: PASS, zero violations.
