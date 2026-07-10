@@ -48,7 +48,7 @@
   Cameron — presented once this session.
 - What's next / handed off: Cameron reviews #09 V2. Then re-audit #03
   zacchaeus and #05 bent-woman against all eight corrections.
-- Commit: (this commit)
+- Commit: 43bd273
 
 ## 2026-07-09 (pt.29) — Nicodemus #04 re-audited against all eight corrections: PASSED, no rebuild
 - What we did: Cameron asked to go back and finish Nicodemus. #04 was already
