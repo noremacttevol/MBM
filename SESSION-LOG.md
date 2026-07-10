@@ -51,7 +51,7 @@
 - What's next / handed off: continue the eight-corrections re-audit queue
   across the remaining built stories (#01, #02, #04, #06, #07, #08), then
   onward through Wave One production.
-- Commit: (this commit)
+- Commit: 3e30754
 
 ## 2026-07-09 (pt.30) — Rich Ruler #09 V2 rebuilt: wardrobe locked, clips re-animated, double-checked
 - What we did: Full V2 rework of #09 per Cameron's rejection list (fake tears,
