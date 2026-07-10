@@ -248,3 +248,30 @@ Cameron reviewed V1 and sent it back. Items to fix in the V2 pass:
    Correction #1, restage (sleeve/hem/shadow/off-frame light) so the
    frame doesn't lean on Jesus's back.
 Tracker row 09 stays un-approved until the V2 pass clears these.
+
+## V2 WARDROBE LOCK (2026-07-09) — the rich young man, canonical spec
+Locked from s2/s4 (the kneeling beats). EVERY asset in this build must match:
+- Royal-blue knee-length sleeveless over-robe, gold GEOMETRIC (Greek-key) border
+  on every edge — never swirl/vine trim, never silvery trim.
+- Cream long-sleeved linen tunic underneath, gold-banded neckline.
+- Plain brown leather belt tied at the waist (no red sash).
+- Brown leather satchel at his LEFT HIP, hanging from the belt by a short
+  loop, flap with small buckle (no crossbody strap). [Amended 2026-07-09:
+  standardized on LEFT hip because the majority of QC-passed V2 assets
+  (s2, s7) landed there; s5 was edited to match.]
+- Gold rings on his fingers, leather sandals, short dark hair, light stubble.
+- "He has exactly two arms and exactly two hands" goes inside the anatomy sentence.
+- Emotion: wet shining eyes at most — NEVER painted tear beads (Correction #3).
+
+## V2 BUILD RECORD — 2026-07-09
+- All five rich-man stills banked to the amended V2 wardrobe lock (satchel LEFT hip,
+  Greek-key trim, tied belt, dry cheeks). V1 assets preserved in assets/v1-backup/.
+- Both motion clips re-animated in Flow (Veo 3.1 Fast, 8s, ~10 credits each) from V2
+  anchors, then ffmpeg-hflipped so the satchel side matches the banked stills:
+  s1-the-run.mp4 (new run anchor s1-run-anchor.jpeg, flipped) and s6-walk-away.mp4
+  (from unflipped s7 in Flow, flipped to match banked s7 — over-Jesus's-shoulder,
+  face never shown, no crossbody strap, no red sash).
+- Frame QC: 8 frames per clip (qc/v2/clips/), full-res hand + Jesus-head crops.
+- rich-ruler-09.mp4 V2: 18.6MB, 217.4s, A/V aligned. Self-Revision: 17 beat frames
+  (qc/v2/final/) all PASS. Independent second double-check by separate agent
+  (24 fresh frames): all six checks PASS. Presented to Cameron once, same day.

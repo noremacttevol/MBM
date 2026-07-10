@@ -112,7 +112,7 @@ light.
 | 06 | two_sons | The two sons | ✅ | — | — | — | — |
 | 07 | peter_water | Peter walks on water | ✅ | ✅ | ✅ | ✅ 2026-07-09 (V6) — Cameron: "I LOVE IT" | — |
 | 08 | lost_coin | The lost coin | ✅ | — | — | — | — |
-| 09 | rich_ruler | The rich young ruler | ✅ | ✅ | ✅ | ❌ sent back by Cameron 2026-07-09 — rework queued | — |
+| 09 | rich_ruler | The rich young ruler | ✅ | ✅ | ✅ | 🔁 V2 rebuilt 2026-07-09 (wardrobe locked, clips re-animated, double-checked) — awaiting Cameron | — |
 | 10 | well | The woman at the well | ✅ | — | — | — | — |
 | 11 | storm | Calming the storm | ✅ | — | — | — | — |
 | 12 | bartimaeus | Blind Bartimaeus | ✅ | — | — | — | — |

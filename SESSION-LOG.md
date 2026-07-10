@@ -27,6 +27,29 @@
 
 ---
 
+## 2026-07-09 (pt.30) — Rich Ruler #09 V2 rebuilt: wardrobe locked, clips re-animated, double-checked
+- What we did: Full V2 rework of #09 per Cameron's rejection list (fake tears,
+  missing hand, Jesus-back framing, and the MAIN one: the blue robe changing
+  between shots). All five rich-man stills regenerated/edited to one locked
+  wardrobe (Greek-key trim, tied belt, satchel at his LEFT hip, no straps, dry
+  cheeks) and both motion clips RE-ANIMATED from V2 anchors in Flow (~20
+  credits), then ffmpeg-hflipped so the satchel side matches the stills. The
+  walk-away is now over-Jesus's-shoulder, never a centered turned back, face
+  never shown. Rebuilt rich-ruler-09.mp4 (18.6MB, 217.4s). Ran the full
+  Self-Revision pass (17 beat frames) AND an independent second double-check
+  by a separate agent (24 fresh frames + hand/face crops): all six checks
+  PASSED, wardrobe consistent in every frame.
+- What changed in the app (files/commits): build-09-rich-ruler/ assets (5 V2
+  stills + 2 V2 clips + flipped run anchor; V1 in assets/v1-backup/),
+  PREFLIGHT.md (LEFT-hip satchel amendment), qc/v2/ (stills, clips, final
+  frames), rich-ruler-09.mp4 V2.
+- What is now true that wasn't before: #09 exists as V2 with a fully locked
+  wardrobe and Cameron-corrected framing, verified twice. Not yet approved by
+  Cameron — presented once this session.
+- What's next / handed off: Cameron reviews #09 V2. Then re-audit #03
+  zacchaeus and #05 bent-woman against all eight corrections.
+- Commit: (this commit)
+
 ## 2026-07-09 (pt.29) — Nicodemus #04 re-audited against all eight corrections: PASSED, no rebuild
 - What we did: Cameron asked to go back and finish Nicodemus. #04 was already
   approved earlier today, but it had never been checked against Corrections #5-#8
