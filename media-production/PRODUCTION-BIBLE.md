@@ -184,6 +184,26 @@ words. Nothing here overrides the sacred pause before Jesus's KJV words.
    action (the woman running from the well), play the STILL first to plant the
    image and stretch the time, THEN the motion clip that pays it off. Still →
    clip, not clip → still.
+11. **OVER-THE-SHOULDER is the default for "people facing Jesus" scenes
+   (Cameron, 2026-07-10, rejection of Well V2's crowd still).** Stop inventing
+   clever ways to hide his face — the reliable framing is simple: the camera
+   stands BEHIND the man, over his shoulder. His hooded shoulder / back of head
+   sits soft and close in a lower corner of the frame, and the crowd or person
+   he's talking to fills the picture, every face looking straight past the
+   camera AT him. The viewer sees exactly what Jesus sees, plus the edge of him
+   seeing it. This framing makes it IMPOSSIBLE for the crowd to look like
+   they're "listening to something that is obviously not him" — which is what a
+   tiny backwards figure at the frame edge produced, twice. A whole story can
+   also run third-person zoomed out from behind him; that is fine. What is NOT
+   fine: a small detached rear-view Jesus placed away from where the crowd
+   looks, OR any composition where gazes don't visibly converge on him.
+12. **NO light that outlines his face (Cameron, same review).** Never rim-light,
+   halo, glow, or "ball of light" treatments that trace the shape of his face
+   or head. A glowing silhouette of the face HIGHLIGHTS him and makes him the
+   center of attention — the opposite of the goal. Hide the face with ANGLE
+   (behind, over-the-shoulder, hood, distance), never with light effects. Audit
+   every Jesus figure at high zoom for edge-glow around the head before
+   accepting a still.
 These corrections triggered a REDO of peter-water-07 (V2's rescue still fix was
 NOT enough — Cameron rejected V2 too; both motion clips were restaged and
 regenerated for V3; then V3's sinking clip failed the limb-count law and was

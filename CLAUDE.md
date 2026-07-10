@@ -40,6 +40,7 @@
 5. **Code first, talk second.** Deliver complete working code blocks first. Brief explanation at the end only.
 6. **Use Playwright** to screenshot and verify all UI before declaring anything done. Never ask Cameron to be the bug reporter.
 7. **For ALL video/media production work, [`media-production/PRODUCTION-BIBLE.md`](./media-production/PRODUCTION-BIBLE.md) is the permanent law** — locked animation style block, hybrid stills+motion pipeline, story-fit rule, QC checklist, credit accounting. Read it before any media work. Cameron never writes prompts or edits clips; the AI runs the whole assembly line and presents finished videos.
+8. **The Jesus-framing laws (PRODUCTION-BIBLE §1, Corrections #1–#12) are non-negotiable and Cameron has rejected finished videos over each of them.** The ones violated most: (a) his face is hidden by ANGLE only — the default for any "people facing Jesus" scene is OVER-THE-SHOULDER: camera behind him, his hooded shoulder soft in a lower corner, the people filling the frame with every gaze locked past the camera AT him; (b) NEVER a small detached rear-view Jesus at the frame edge while the crowd's eyes wander — gazes must visibly converge on him; (c) NO rim-light, halo, or glow that outlines his face or head — a glowing silhouette highlights him, the opposite of the goal; (d) still BEFORE motion clip when a beat has both; (e) the anti-panel sentence is mandatory in every wide multi-figure still prompt. Whenever Cameron gives a new correction, write it into PRODUCTION-BIBLE §1 AND this list in the same session.
 
 ---
 
