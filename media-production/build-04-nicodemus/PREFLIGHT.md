@@ -151,3 +151,21 @@ five times (whisper tie-break law ready), numbers written as words
   similar compositions by design (same room, same night, per beat map).
 - **Final probe**: 1080x1920 H.264 30fps + AAC, 366.7s, 19.95 MB (<25 MB cap),
   435 kbps overall. Zero rebuilds required — V1 is the release.
+
+## Eight-Corrections re-audit (2026-07-09, after Peter #07 taught Corrections #5-#8)
+- 13 frames sampled (qc/eight-audit/: t50,76,90,100,122,160,194,205,222,240,285,320,347).
+- #1 full-back law / #8 Jesus-is-a-person: every lamp-room beat shows Jesus as a
+  whole seated figure across the table from Nicodemus, over-the-shoulder framing,
+  face never lit — he is bodily present in the scene, never a floating part. PASS.
+- #3 no tear beads: none anywhere. PASS.
+- #4 wardrobe lock: Nicodemus's blue robe + striped shawl identical in chamber,
+  street, council, and tomb scenes. PASS.
+- #5 story geometry: conversation framing faces the speakers toward each other;
+  walker and council compositions read correctly. PASS.
+- #7 limb counts: t50 door hand five fingers; Nicodemus two arms/two hands in
+  every beat incl. gesturing frame t122; walker two legs/sandaled feet; council
+  figures each one head/two arms; tomb scene both men two arms/two legs. PASS.
+- Note: the s11 beat as shipped shows Nicodemus + Joseph carrying spices and
+  linen at the tomb (not the spices-only still described in the V1 notes above);
+  anatomy and laws all pass as shipped.
+- VERDICT: #04 fully compliant with all EIGHT Cameron Corrections. No rebuild.

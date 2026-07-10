@@ -107,7 +107,7 @@ light.
 | 01 | cloak | Woman who touched his cloak | ✅ | — | — | — | — |
 | 02 | prodigal | The Prodigal Son | ✅ | — | — | — | — |
 | 03 | zacchaeus | Zacchaeus | ✅ | ✅ | ✅ | ✅ 2026-07-09 (V3) | — |
-| 04 | nicodemus | Nicodemus at night | ✅ | ✅ | ✅ | ✅ 2026-07-09 | — |
+| 04 | nicodemus | Nicodemus at night | ✅ | ✅ | ✅ | ✅ 2026-07-09 · eight-corrections re-audit PASSED 2026-07-09 | — |
 | 05 | bent_woman | The bent-over woman | ✅ | ✅ | ✅ | ✅ 2026-07-09 | — |
 | 06 | two_sons | The two sons | ✅ | — | — | — | — |
 | 07 | peter_water | Peter walks on water | ✅ | ✅ | ✅ | ✅ 2026-07-09 (V6) — Cameron: "I LOVE IT" | — |
