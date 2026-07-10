@@ -42,7 +42,7 @@
   all EIGHT Cameron Corrections after the fact. Re-audit still owed: #01 (if/when
   cut), #03, #05.
 - What's next / handed off: #09 rich-ruler rework, then re-audit #03 and #05.
-- Commit: <hash filled in after you commit>
+- Commit: b9b95e4
 
 ## 2026-07-09 (pt.28) — Cameron APPROVED Peter #07 (V6): "I LOVE IT"
 - What we did: Cameron watched V6 and approved it. Marked #07 approved in the
