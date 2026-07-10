@@ -27,6 +27,13 @@
 
 ---
 
+## 2026-07-10 (pt.33) — Woman at the Well V2: Cameron's three corrections + two new permanent framing laws
+- What we did: Cameron reviewed V1 of john-4_woman-at-the-well.mp4 and requested three fixes. All three implemented and delivered as V2: (1) disciples-return still rebuilt — Jesus from behind at the well talking with the woman (her surprised engaged face visible), three disciples walking up on the OPPOSITE side with their astonishment aimed AT the conversation, not at the viewer; (2) the "left the jar" beat now plays the STILL first to sell the moment, THEN the running motion clip; (3) town-comes-out still rebuilt AROUND the Samaritan crowd — their attentive listening faces are the whole picture, Jesus is a small hooded figure from behind at the frame edge under a tree, never the compositional star. Both new stills were free Nano Banana 2 renders (0 credits). First s6 regen failed as a 3-panel comic strip — fixed with the anti-panel sentence ("One single continuous scene painted edge to edge...") which is now known to be MANDATORY for wide multi-figure stills.
+- What changed in the app (files/commits): PRODUCTION-BIBLE.md gained Cameron Corrections #9 (build reaction scenes around the PEOPLE, not a backwards-facing Jesus) and #10 (still before motion clip); build-10-well/build.py n8a/n8b swapped (still 11.0s first, clip 12.8s second); assets/s6-disciples.jpeg and assets/s9-road-filling.jpeg replaced with corrected 2K versions; video rebuilt (311.0s, 20.0MB, audio verified -15.3/-15.6 dB in changed windows).
+- What is now true that wasn't before: V2 passed full self-QC (spot frames of every changed section) plus an independent subagent review (PASS on all three corrections + global checks) and was presented to Cameron. Laws #9 and #10 are permanent for all 200 videos.
+- What's next / handed off: await Cameron's verdict on V2; if approved, move to story video #11.
+- Commit: (recorded in follow-up commit)
+
 ## 2026-07-10 (pt.32) — Story Video #10: The Woman at the Well (John 4) built + delivered; Scripture-Name Law
 - What we did: Instituted Cameron's SCRIPTURE-NAME LAW (PRODUCTION-BIBLE §5:
   delivered videos named book-chapter_story-name.mp4) and renamed all nine

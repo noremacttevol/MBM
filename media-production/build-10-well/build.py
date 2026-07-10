@@ -170,13 +170,14 @@ SEGMENTS = [
      "town, and stopped short — stunned that\n"
      "he was talking with her at all. Nobody\n"
      "dared say a word.", "n"),
-    # n8 — the jar left behind (s7 clip — the run IS the conversion).
-    ("n8a", "clip", CLIP_JAR, 1.6, 12.8, None,
+    # n8 — the jar left behind. STILL FIRST to sell the moment, THEN the
+    # motion clip that pays it off (Cameron's Correction #10, 2026-07-10).
+    ("n8a", "still", S7, None, 11.0, "in",
      "And look what she did. She left the jar.\n"
      "The thing she walked all that way in\n"
      "the heat to fill — she left it standing\n"
      "at the well, and she ran.", "n"),
-    ("n8b", "still", S7, None, 11.0, "in",
+    ("n8b", "clip", CLIP_JAR, 1.6, 12.8, None,
      "Ran toward the town she had spent years\n"
      "avoiding, to the very people she came\n"
      "out at noon to miss, shouting: come see\n"

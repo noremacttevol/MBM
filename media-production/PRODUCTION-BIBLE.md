@@ -163,6 +163,27 @@ words. Nothing here overrides the sacred pause before Jesus's KJV words.
    his presence is a body in the composition, not a forearm floating in from
    off-frame. Correction #2's hand/forearm allowance is only for rescue/touch
    close-ups where the composition IS the grip.
+9. **Build reaction scenes around the PEOPLE, not around a backwards-facing Jesus
+   (Cameron, 2026-07-10, review of #10).** Two failures in Woman at the Well V1:
+   (a) the disciples-return still had the disciples in the foreground with
+   surprised faces aimed at the VIEWER, not at the thing that surprised them —
+   wrong. Witness/reaction stills must stage the witnesses on the OTHER side of
+   the scene with their faces and bodies visibly reacting TO the Jesus-and-person
+   moment (e.g. Jesus from behind or partial talking with the woman, her engaged
+   surprised face visible, the disciples walking up opposite, staring at the
+   conversation). (b) The town-comes-out still had the crowd walking a path
+   paying no attention to Jesus, while a backwards-facing Jesus sat as a focal
+   figure — doubly wrong. When people come to listen and learn, the PICTURE IS
+   THE PEOPLE: their attention, their faces, their leaning-in. Jesus is present
+   but de-emphasized — from behind at the frame edge, soft-focus/blurred, small,
+   never centered, never the compositional star — and every person in frame is
+   visibly oriented toward him. Compose the scene around the responders first,
+   then place the Jesus presence where their attention converges.
+10. **Sell the moment with a still BEFORE its motion clip (Cameron, 2026-07-10,
+   same review).** When a beat has both a still and a motion clip of the same
+   action (the woman running from the well), play the STILL first to plant the
+   image and stretch the time, THEN the motion clip that pays it off. Still →
+   clip, not clip → still.
 These corrections triggered a REDO of peter-water-07 (V2's rescue still fix was
 NOT enough — Cameron rejected V2 too; both motion clips were restaged and
 regenerated for V3; then V3's sinking clip failed the limb-count law and was
