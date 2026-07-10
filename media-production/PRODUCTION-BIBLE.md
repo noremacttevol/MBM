@@ -371,6 +371,11 @@ first time.
 - [ ] Verse card wording pulled from PAIRING-LIST.md, text fetched not hand-typed
 - [ ] Closing question matches the pack's Seed question
 - [ ] 9:16, 1080×1920, plays clean start to finish
+- [ ] **SCRIPTURE-NAME LAW (Cameron, 2026-07-10):** the final delivered video file is
+  named after its place in the Bible — `book-chapter_story-name.mp4` (e.g.
+  `john-4_woman-at-the-well.mp4`, `mark-10_rich-young-ruler.mp4`). The filename itself
+  teaches the reference. Earlier deliveries get renamed to match; every new build
+  delivers under this name from day one.
 
 ## 5b. PROMPT FAILURE LOG (banned techniques — every mistake that wasted credits gets written here so no AI repeats it)
 

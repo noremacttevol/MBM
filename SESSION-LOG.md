@@ -27,6 +27,32 @@
 
 ---
 
+## 2026-07-10 (pt.32) — Story Video #10: The Woman at the Well (John 4) built + delivered; Scripture-Name Law
+- What we did: Instituted Cameron's SCRIPTURE-NAME LAW (PRODUCTION-BIBLE §5:
+  delivered videos named book-chapter_story-name.mp4) and renamed all nine
+  earlier deliveries. Built NEW Story Video #10 end-to-end per §4b:
+  PREFLIGHT on paper, KJV fetched from bible-api.com (John 4:13-14, 4:26),
+  13-segment narration ear-checked 13/13 ≥0.97, nine stills generated and
+  2K-zoom QC'd (one Jesus-face violation on s9 caught and fixed with a free
+  Nano Banana edit), two Veo clips with per-frame limb QC. The s5
+  conversation clip V1 FAILED frame QC — the woman's eyes rendered as
+  glowing white orbs for ~3s mid-clip — re-rendered with an anti-glow
+  prompt (extra 10 credits) and V2 passed every check. Assembled
+  john-4_woman-at-the-well.mp4 (311.0s, 19.8 MB, 1080x1920 30fps),
+  self-QC'd 9 spot frames + audio windows, independent subagent
+  double-check PASS on all eight Corrections, presented once.
+- What changed in the app (files/commits): media-production/build-10-well/
+  (PREFLIGHT.md, make_narration.py, build.py, assets, audio, qc, final
+  mp4); PRODUCTION-BIBLE.md §5 scripture-name law; renames:
+  luke-13_bent-woman.mp4, matthew-14_peter-walks-on-water.mp4,
+  mark-10_rich-young-ruler.mp4 (+6 earlier).
+- What is now true that wasn't before: 10 story videos delivered, all
+  named by scripture reference. Credit spend this session: 30 (2 Veo
+  clips planned 20 + 10 for the s5 quality re-render; stills free).
+- What's next / handed off: Cameron's yes/no on #10; then story video #11
+  from the wave-one pack list.
+- Commit: (this commit)
+
 ## 2026-07-10 (pt.31) — Eight-Corrections re-audits: Zacchaeus #03 V4 + Bent Woman #05 fixed, double-checked, delivered
 - What we did: Re-audited #03 and #05 frame-by-frame against the eight
   Cameron Corrections. #03 had three violations: painted tears on
