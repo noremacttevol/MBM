@@ -32,7 +32,7 @@
 - What changed in the app (files/commits): PRODUCTION-BIBLE.md gained Cameron Corrections #9 (build reaction scenes around the PEOPLE, not a backwards-facing Jesus) and #10 (still before motion clip); build-10-well/build.py n8a/n8b swapped (still 11.0s first, clip 12.8s second); assets/s6-disciples.jpeg and assets/s9-road-filling.jpeg replaced with corrected 2K versions; video rebuilt (311.0s, 20.0MB, audio verified -15.3/-15.6 dB in changed windows).
 - What is now true that wasn't before: V2 passed full self-QC (spot frames of every changed section) plus an independent subagent review (PASS on all three corrections + global checks) and was presented to Cameron. Laws #9 and #10 are permanent for all 200 videos.
 - What's next / handed off: await Cameron's verdict on V2; if approved, move to story video #11.
-- Commit: (recorded in follow-up commit)
+- Commit: 5058190
 
 ## 2026-07-10 (pt.32) — Story Video #10: The Woman at the Well (John 4) built + delivered; Scripture-Name Law
 - What we did: Instituted Cameron's SCRIPTURE-NAME LAW (PRODUCTION-BIBLE §5:
