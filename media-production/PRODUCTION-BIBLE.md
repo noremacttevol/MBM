@@ -10,6 +10,53 @@
 
 ---
 
+## 0. THE THREE OPERATING LAWS FOR EVERY CLAUDE ON EVERY COMPUTER (Cameron, 2026-07-10 — read before ANY video work)
+
+Cameron runs multiple Claude desktop apps on multiple computers. These three laws
+bind every one of them, every session, before a single credit is spent:
+
+**LAW A — One project, different videos, never a collision.**
+All Claudes work THE SAME project (the 200-video corpus) but each works a
+DIFFERENT video. Before starting ANY video work: (1) `git pull` first, always —
+another machine may have moved the board; (2) open
+[`VIDEO-ASSIGNMENTS.md`](./VIDEO-ASSIGNMENTS.md) in this folder; (3) if a video
+is marked CLAIMED or DONE, do not touch it — pick the lowest-numbered UNCLAIMED
+video, mark it CLAIMED with the date and machine, commit and push that claim
+IMMEDIATELY (before generating anything) so every other computer sees it. Never
+work an unclaimed video, never work someone else's claim, never regenerate
+assets for a video another machine owns. If the pull shows your intended video
+was just claimed elsewhere, take the next one.
+
+**LAW B — Jesus's face is NEVER shown. At all. Full stop.**
+This is Correction #13 in §1 and it is the single most-violated, most-rejected
+rule in the whole project. Zero views of his face from ANY angle — no frontal,
+no side profile, no three-quarter, no jaw/cheek/nose in shadow. We do not know
+what he looked like, and any depicted face (white, brown, anything) triggers
+part of the audience into disconnecting before the story can reach them. Also
+banned: black-void hood openings and solid-black human cutouts as
+face-substitutes. Camera directly behind, over-the-shoulder, or true distance —
+nothing else. Every render audited at high zoom before banking. Any Claude that
+has not read §1 Corrections #1–#13 in full is not allowed to write a prompt.
+
+**LAW C — Never hold Cameron's computer hostage.**
+The browser automation moves the real mouse and steals window focus. Cameron
+works on the same machines. So: (1) NEVER start a burst of Chrome activity
+without telling Cameron first and getting his go-ahead that the machine is free;
+(2) keep bursts SHORT and batched — queue up everything (prompts written, files
+prepared, QC scripts ready) BEFORE touching Chrome, then do the clicks in one
+tight announced window and get out; (3) between bursts, do all work (writing,
+QC on downloaded files, audio, assembly, git) in the terminal/files only — those
+never touch his mouse or screen; (4) if Cameron says he is using the computer,
+or sends ANY message mid-burst, STOP the browser work immediately and wait;
+(5) long renders are Flow's job — never sit in the browser waiting; close out,
+work elsewhere, come back in the next announced burst.
+
+Wasted credits are wasted money. A Claude that generates before reading this
+file and §1, or that collides with another machine's video, is burning
+Cameron's credits. Read first, claim first, announce first — then work.
+
+---
+
 ## 1. The Mission (unchanged, forever)
 
 Every video exists to show one thing: **Jesus is good.** Story-first, scripture-true,
@@ -477,11 +524,16 @@ new law holds from then on. Nothing lives in anyone's memory. Everything lives h
 
 ## 8. Session workflow for any AI picking up media work
 
-1. Read CLAUDE.md chain protocol, START-HERE.md, AGENT-RULES.md — then THIS FILE.
-2. Check SESSION-LOG.md top entry for where production stands (which video, credits left).
-3. Continue the assembly line exactly where it stopped. No re-litigating style or format.
-4. End of session: SESSION-LOG.md entry (videos progressed, credits spent/left,
-   any QC lessons learned added to section 5), commit, push.
+1. Read CLAUDE.md chain protocol, START-HERE.md, AGENT-RULES.md — then THIS FILE,
+   starting with §0 (the three operating laws) and §1 Corrections #1–#13 IN FULL.
+2. `git pull`, then check SESSION-LOG.md top entry AND VIDEO-ASSIGNMENTS.md.
+3. Claim your video on VIDEO-ASSIGNMENTS.md (commit + push the claim) before
+   generating anything. Continue the assembly line exactly where it stopped for
+   YOUR video only. No re-litigating style or format.
+4. Announce every Chrome burst to Cameron before starting it (§0 Law C).
+5. End of session: SESSION-LOG.md entry (videos progressed, credits spent/left,
+   any QC lessons learned added to section 5), update VIDEO-ASSIGNMENTS.md
+   status, commit, push.
 
 ---
 *Created 2026-07-08 from Cameron's direction. This file outranks any older media doc
