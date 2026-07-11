@@ -22,7 +22,7 @@
 | 08 | Lost Coin | luke-15_lost-coin | DONE — approved |
 | 09 | Rich Young Ruler | mark-10_rich-ruler | REWORK QUEUE — re-audit vs Corrections #1–#13 before any new claim |
 | 10 | Woman at the Well | john-4_well | DONE — approved (V3, "thats good on to the next") |
-| 11 | Calming the Storm | mark-4_calming-the-storm | CLAIMED — 2026-07-10 — original desktop (build-11-storm in progress: audio done, 3/9 stills banked; PAUSED on Cameron's hold) |
+| 11 | Calming the Storm | mark-4_calming-the-storm | BUILT — 2026-07-10 — original desktop; presented to Cameron, awaiting verdict (V1: 9 stills + 2 Veo clips, subagent QC passed) |
 | 12 | Blind Bartimaeus | mark-10_bartimaeus | UNCLAIMED — next available |
 | 13 | Man through the Roof | mark-2_roof | UNCLAIMED |
 | 14 | Ten Lepers | luke-17_ten-lepers | UNCLAIMED |

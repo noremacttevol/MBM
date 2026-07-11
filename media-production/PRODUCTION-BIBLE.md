@@ -40,8 +40,12 @@ has not read §1 Corrections #1–#13 in full is not allowed to write a prompt.
 
 **LAW C — Never hold Cameron's computer hostage.**
 The browser automation moves the real mouse and steals window focus. Cameron
-works on the same machines. So: (1) NEVER start a burst of Chrome activity
-without telling Cameron first and getting his go-ahead that the machine is free;
+works on the same machines. So: (1) ANNOUNCE each burst of Chrome activity in
+the message right before starting it — then START IMMEDIATELY. Do NOT stop and
+wait for permission, do NOT ask "say go" — Cameron's standing instruction
+(2026-07-10) is that once he has set work in motion, asking again is the
+failure. The announcement exists only so he knows his mouse may move; his
+protection is rule (4): any message from him stops the browser instantly;
 (2) keep bursts SHORT and batched — queue up everything (prompts written, files
 prepared, QC scripts ready) BEFORE touching Chrome, then do the clicks in one
 tight announced window and get out; (3) between bursts, do all work (writing,
