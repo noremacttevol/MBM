@@ -19,7 +19,19 @@
 | 14 | Ten Lepers (Luke 17) — *already approved* | 4:34 | [▶ play](media-production/build-14-ten-lepers/luke-17_ten-lepers.mp4) |
 | 15 | Centurion's Servant (Matthew 8) | 5:07 | [▶ play](media-production/build-15-centurion/matthew-8_centurion.mp4) |
 
-## ⏳ Still in rework (not pushed — will be replaced)
+## 🕹️ Older cuts — watchable now, but still being reworked
 
-06 Two Sons · 07 Peter Walks on Water · 08 Lost Coin · 09 Rich Young Ruler ·
-10 Woman at the Well · 11 Calming the Storm · 12 Blind Bartimaeus
+These play fine, but they were made under the **old** rules (they still contain AI
+motion clips and/or predate the face-never rule). The other machines are redoing them —
+these files will be replaced when that's finished.
+
+| # | Story | Length | Video |
+|---|-------|--------|-------|
+| 06 | Two Sons (Matthew 21) | 1:44 | [▶ play](media-production/build-06-two-sons/matthew-21_two-sons.mp4) |
+| 07 | Peter Walks on Water (Matthew 14) | 4:16 | [▶ play](media-production/build-07-peter-water/matthew-14_peter-walks-on-water.mp4) |
+| 08 | Lost Coin (Luke 15) | 1:20 | [▶ play](media-production/build-08-lost-coin/luke-15_lost-coin.mp4) |
+| 09 | Rich Young Ruler (Mark 10) | 3:37 | [▶ play](media-production/build-09-rich-ruler/mark-10_rich-young-ruler.mp4) |
+| 10 | Woman at the Well (John 4) | 5:11 | [▶ play](media-production/build-10-well/john-4_woman-at-the-well.mp4) |
+| 11 | Calming the Storm (Mark 4) | 4:24 | [▶ play](media-production/build-11-storm/mark-4_calming-the-storm.mp4) |
+
+**12 Blind Bartimaeus** — still being built on Elli's laptop; no finished file yet.
