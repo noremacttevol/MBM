@@ -1,5 +1,8 @@
 # 🎬 MBM — Videos to Rewatch
 
+> 📊 **The single live dashboard (done / in-progress / to-do + download links) is
+> [`STATUS.md`](STATUS.md).** This page is just the watch-list of finished cuts.
+
 **Redone to the new standard: stills-only (no AI motion clips) + Jesus's face never shown**
 (seen only from behind / over-the-shoulder / off-frame — dark hair & skin where visible, never white, no hood, no glow).
 

@@ -1,5 +1,10 @@
 # VIDEO ASSIGNMENTS — The Claim Board for All Machines
 
+> 📊 **HUMAN DASHBOARD: [`STATUS.md`](../STATUS.md) (repo root) is the at-a-glance
+> LIVE board — done / in-progress / to-do + watch & download links.** Whenever you
+> change a video's state here, update its row in STATUS.md in the SAME commit, then
+> push. This file stays the detailed claim mechanics; STATUS.md is the summary.
+
 > **PRODUCTION-BIBLE §0 LAW A governs this file.** Every Claude on every computer:
 > `git pull` FIRST, then claim here BEFORE generating anything, then commit and
 > push the claim immediately. Never touch a video another machine has claimed.
