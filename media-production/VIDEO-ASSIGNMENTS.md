@@ -22,7 +22,7 @@
 | 08 | Lost Coin | luke-15_lost-coin | DONE — approved |
 | 09 | Rich Young Ruler | mark-10_rich-ruler | REWORK QUEUE — re-audit vs Corrections #1–#13 before any new claim |
 | 10 | Woman at the Well | john-4_well | DONE — approved (V3, "thats good on to the next") |
-| 11 | Calming the Storm | mark-4_calming-the-storm | REBUILT V3 — 2026-07-11 — original desktop; V2 REJECTED by Cameron (sunset skies on a night story + water-into-boat read + hose-stream bailing → Correction #15). 8 night stills rerolled (incl. s4 + s7 zero-skin fixes), both clips regenerated (+20 credits, #11 total 60), V3 full QC + subagent passed, presented, awaiting verdict |
+| 11 | Calming the Storm | mark-4_calming-the-storm | DONE — approved by Cameron 2026-07-11 ("thats good for now") — V3, 60 credits total. Built by **linux desktop** (Cameron assigned machine names 2026-07-11; this machine = "linux desktop") |
 | 12 | Blind Bartimaeus | mark-10_bartimaeus | CLAIMED — 2026-07-11 — Cowork cloud session (first video for this machine) |
 | 13 | Man through the Roof | mark-2_roof | UNCLAIMED |
 | 14 | Ten Lepers | luke-17_ten-lepers | UNCLAIMED |
