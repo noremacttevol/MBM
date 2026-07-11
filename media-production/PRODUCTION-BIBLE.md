@@ -274,9 +274,10 @@ words. Nothing here overrides the sacred pause before Jesus's KJV words.
 - **Witnesses react TO the moment, not at the camera.** Stage witnesses on the far side
   of the scene, faces and bodies reacting to the Jesus-and-person moment — never
   surprised faces aimed straight at the viewer.
-- **Play the still before its motion clip.** When a beat has both a still and a clip of
-  the same action, show the STILL first to plant the image and stretch the time, then
-  the clip that pays it off.
+- **Enough pictures to carry the story.** Because Phase 1 is pictures only (see
+  below), give each beat its own strong picture — never lean on one image to cover a
+  long stretch of narration. Every picture must be able to hold the listener's
+  attention on its own.
 
 ### Tell the story true
 
@@ -310,24 +311,29 @@ words. Nothing here overrides the sacred pause before Jesus's KJV words.
   character appears in, and every clip is frame-checked against the banked stills so
   nothing changes mid-story.
 
-### Motion — these are motion pictures, not slideshows
+### Phase 1: pictures and narration ONLY — no AI motion clips (yet)
 
-- **Every video carries real motion clips at its key beats.** Animate the moments motion
-  teaches or sways the viewer (usually about two; a motion-driven story earns more). A
-  stills-only delivery is rejected.
-- **One character, consistent, in every clip.** Frame-check each clip's person against
-  the banked reference for that character; prefer the still-anchor pipeline
-  (frames-to-video from a banked still) so nobody drifts into "a different cartoon." A
-  drifted character is rejected no matter how good the motion.
-- **Limb-count every second of every clip.** Extract each second and count arms, hands,
-  legs, and sleeves; any extra or missing limb at any frame = reject. In a rescue, stage
-  ONE arm down in the water and ONE arm reaching — not both thrown up.
-- **Repeated actions must visibly cycle.** Bailing is scoop DOWN, lift, FLING out,
-  return — the objects themselves travel through the cycle; never a static pose with a
-  continuous hose-like stream.
-- **Motion honors the geometry.** When the scripture says a person moves toward Jesus,
-  the clip shows exactly that — the person moving toward him and him oriented toward the
-  person.
+**Right now, every video is a slideshow of painted pictures with one narration over
+the top — and NO AI-animated (Veo/Flow) motion clips at all.** (Cameron, 2026-07-11 —
+this is the current phase; it matches §0 Law E.)
+
+- **Why.** The AI-animated clips are where nearly every error and every hours-long
+  rework has come from, and each clip burns shared credits, while a still costs nothing
+  and regenerates in seconds. Pictures-only = faster, near-zero rework, no credit burn.
+  The goal is to get ALL 200 stories made as picture-and-narration videos FIRST.
+- **What a video is.** Strong painted pictures (with a slow, gentle Ken Burns drift in
+  assembly — that drift is not an AI clip), narration, serif captions, the KJV verse
+  card, and the closing question card. Nothing moves except the gentle drift.
+- **Every picture earns its place.** Since motion can't carry a beat anymore, each
+  picture must be striking enough to hold the listener on its own. Give every important
+  beat its own picture rather than stretching one image over a long stretch of narration.
+- **Pull the clips out of what's already built.** Videos already assembled with AI
+  motion clips (the delivered ones) get those clips REMOVED and are rebuilt as one
+  narration over pictures only.
+- **Phase 2, later, only when Cameron says so.** Go back through the finished library
+  and add AI motion to the specific beats whose motion the story genuinely needs — piece
+  by piece, only when the clip is actually good. Until then, any delivery containing an
+  AI-animated clip is out of spec.
 
 ### How "done" is defined (nothing skips these)
 
@@ -561,7 +567,10 @@ first time.
 ## 5. QC Checklist (every video, before Cameron ever sees it)
 
 - [ ] Every MUST SHOW item from the scripture card appears
-- [ ] Zero MUST NEVER SHOW items appear (scrub every motion clip fully)
+- [ ] 🛑 PHASE 1 STILLS-ONLY: the delivery contains NO AI-animated (Veo/Flow) clips —
+      only painted pictures with gentle Ken Burns drift + narration (§0 Law E). Any
+      already-built video that has clips gets them removed and is rebuilt pictures-only.
+- [ ] Zero MUST NEVER SHOW items appear (scrub every image fully)
 - [ ] 🛑 FACE GATE passed on the prompt sheet before generation; and in the FINISHED
       render, Jesus's face is never visible in ANY frame at any zoom — audit every
       still and every sampled clip frame. (His Middle Eastern hands and hair MAY show;

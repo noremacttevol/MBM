@@ -8,31 +8,35 @@
 > Claim format: `CLAIMED — <date> — <machine/session note>`
 > One machine = one video at a time. Finish or release before claiming another.
 
-## 🛑 FACE-LAW REDO BOARD (Cameron, 2026-07-11 — "redo the whole thing")
+## 🛑 REDO BOARD (Cameron, 2026-07-11 — "redo the whole thing") — TWO rules to fix everywhere
 
-The face rule is now: **Jesus's face is NEVER shown** (real Middle Eastern man from
-behind / over-the-shoulder / at a distance — see PRODUCTION-BIBLE §1 "The Standing
-Laws"). Everything made or prompted under the dead "show his face" rule must be redone.
-Run the gate on your build BEFORE regenerating: `python3 media-production/jesus_face_gate.py --dir <build>`.
-Each machine redoes ITS OWN video (Law A), in announced Chrome bursts (Law C), and only
-after the prompt sheet passes the gate. **Do NOT regenerate another machine's video.**
+**Rule 1 — Jesus's face is NEVER shown** (real Middle Eastern man seen only from behind
+/ over-the-shoulder / at a distance — PRODUCTION-BIBLE §1 "The Standing Laws").
+**Rule 2 — Phase 1 is PICTURES + NARRATION only: NO AI motion clips** (§0 Law E). Every
+already-built video that contains Veo/Flow clips gets those clips PULLED OUT and is
+rebuilt as one narration over pictures only. AI motion comes back in Phase 2, later.
 
-**A. Prompt sheets that FAIL the gate — restage the Jesus prompts on paper (no credits) first:**
+Run the gate before regenerating any picture: `python3 media-production/jesus_face_gate.py --dir <build>`.
+Each machine redoes ITS OWN video (Law A), in announced Chrome bursts (Law C), only after
+the prompt sheet passes the gate. **Do NOT regenerate another machine's video.**
+
+**A. Prompt sheets that FAIL the face gate — restage the Jesus prompts on paper (no credits) first:**
 | Build | Owner | Face-gate | Action |
 |---|---|---|---|
-| build-15-centurion | Machine C | ✅ PASS (restaged 332df5b) | Regenerate the 6 restaged Jesus stills in Flow; 6 Jesus-free stills + 2 clips stand |
-| build-14-ten-lepers | Elli's Windows laptop | ❌ 11 hits | Restage Jesus prompts (behind/over-shoulder/distance) → gate → regenerate |
-| build-13-roof | Machine A (Dev) | ❌ 2 hits | Restage; also the DELIVERED video shows Jesus under old rule — re-audit + regenerate his stills before approval |
-| build-12-bartimaeus | Cowork session | ❌ 2 hits | Restage → gate → regenerate |
+| build-15-centurion | Machine C | ✅ PASS (restaged 332df5b) | Regenerate the 6 restaged Jesus stills; drop the 2 clips (Rule 2), assemble stills-only |
+| build-14-ten-lepers | Elli's Windows laptop | ❌ 11 hits | Restage Jesus prompts (behind/over-shoulder/distance) → gate → regenerate; drop the 2 clips |
+| build-13-roof | Machine A (Dev) | ❌ 2 hits | Restage + regenerate his stills; drop the 2 clips; re-audit before approval |
+| build-12-bartimaeus | Cowork session | ❌ 2 hits | Restage → gate → regenerate; drop any clips |
 
-**B. Delivered videos to re-audit for a visible Jesus face (watch + high-zoom every Jesus frame):**
-- **build-13-roof** — built under the "show his face" rule → HIGH PRIORITY, treat as needing regeneration.
-- **build-05, 07, 09, 10, 11** — built under the old *face-never* rule, so likely already
-  compliant; still spot-check each Jesus frame at high zoom to confirm no face leaked, and
-  re-audit against The Standing Laws when their turn comes. (#09 is already in the rework queue.)
+**B. Delivered videos (.mp4 already built) — pull the AI clips out AND re-audit the face:**
+- **build-13-roof** — built with clips AND under the "show his face" rule → HIGH PRIORITY: strip clips, rebuild pictures-only, fix Jesus stills.
+- **build-05, 07, 09, 10, 11** — built with AI clips under the old *face-never* rule.
+  Rule 2: strip the clips, rebuild each as pictures + narration only. Rule 1: their Jesus
+  frames predate the face-showing rule so are likely fine — spot-check at high zoom to
+  confirm. (#09 is also already in the rework queue.)
 
-**C. Videos 16–20+ (unclaimed):** build fresh straight under The Standing Laws — the gate
-must pass before any credit. No legacy face assets exist for these, so nothing to redo.
+**C. Videos 16–20+ (unclaimed):** build fresh straight under both rules — pictures + narration
+only, face gate must pass. Nothing legacy to redo.
 
 ## Wave One (videos 1–20)
 
