@@ -49,11 +49,11 @@ only, face gate must pass. Nothing legacy to redo.
 
 | # | Story | File | Status |
 |---|-------|------|--------|
-| 01 | Woman who touched his cloak | mark-5_cloak | DONE — approved |
-| 02 | Prodigal Son | luke-15_prodigal | DONE — approved |
-| 03 | Zacchaeus | luke-19_zacchaeus | DONE — approved |
-| 04 | Nicodemus | john-3_nicodemus | DONE — approved |
-| 05 | Bent Woman | luke-13_bent-woman | DONE — approved |
+| 01 | Woman who touched his cloak | mark-5_cloak | DONE (old) — REDO IN PROGRESS 2026-07-11 Machine A (Dev): stills-only + regenerate Jesus to new look (face-never, hair/skin shown, no hood/glow) |
+| 02 | Prodigal Son | luke-15_prodigal | DONE (old) — REDO IN PROGRESS 2026-07-11 Machine A (Dev): stills-only + Jesus new look |
+| 03 | Zacchaeus | luke-19_zacchaeus | DONE (old) — REDO IN PROGRESS 2026-07-11 Machine A (Dev): stills-only + Jesus new look |
+| 04 | Nicodemus | john-3_nicodemus | DONE (old) — REDO IN PROGRESS 2026-07-11 Machine A (Dev): stills-only + Jesus new look |
+| 05 | Bent Woman | luke-13_bent-woman | DONE (old) — REDO IN PROGRESS 2026-07-11 Machine A (Dev): stills-only + Jesus new look |
 | 06 | Two Sons | matthew-21_two-sons | DONE — approved |
 | 07 | Peter walks on water | matthew-14_peter-water | DONE — approved (after V5) |
 | 08 | Lost Coin | luke-15_lost-coin | DONE — approved |
