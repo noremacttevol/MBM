@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-jesus_face_gate.py — THE FACE GATE (Cameron, 2026-07-11, Correction #18)
+jesus_face_gate.py — THE FACE GATE (Cameron, 2026-07-11, the Face Law)
 
 Cameron's law: we do NOT know what Jesus looked like, and no AI helping make
 these videos is allowed to prompt Google Flow for a picture or clip that
@@ -271,7 +271,7 @@ def main(argv):
     total_fails = 0
     total_warns = 0
     print("=" * 72)
-    print("THE FACE GATE — Correction #18: Jesus's face is never prompted.")
+    print("THE FACE GATE — the Face Law: Jesus's face is never prompted.")
     print("=" * 72)
     for path in targets:
         fails, warns = check_file(path)
@@ -296,7 +296,7 @@ def main(argv):
     if total_fails:
         print("FAILs are hard stops: rewrite the prompt so Jesus is staged from")
         print("behind / over-the-shoulder / at a distance, with NO face words,")
-        print("BEFORE spending a single Flow credit. (Correction #18.)")
+        print("BEFORE spending a single Flow credit. (the Face Law.)")
     else:
         print("No hard FAILs, but every WARN paragraph stages Jesus with no")
         print("camera instruction to keep the shot off his face — add one, or")

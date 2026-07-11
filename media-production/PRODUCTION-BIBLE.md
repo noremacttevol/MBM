@@ -8,7 +8,7 @@
 > Cameron NEVER writes prompts, never edits clips, never hunts for errors. If the AI
 > finds itself asking Cameron to do any of that, the AI is doing it wrong.
 
-> # 🛑 THE #1 LAW ABOVE ALL OTHERS — NEVER PROMPT JESUS'S FACE (Cameron, 2026-07-11, Correction #18)
+> # 🛑 THE #1 LAW ABOVE ALL OTHERS — NEVER PROMPT JESUS'S FACE (Cameron, 2026-07-11)
 > **We do not know what Jesus looked like. No AI helping make these videos may ever
 > prompt Google Flow for a still or clip that CONSTRUCTS, reveals, or fixes his face.**
 > Every story that invents a face — and a DIFFERENT face each time — pulls the viewer
@@ -21,7 +21,8 @@
 > (kept consistent within a story). Only Jesus's face is withheld — always.
 > **Before spending ONE Flow credit, every prompt sheet must PASS the mechanical face gate:**
 > `python3 media-production/jesus_face_gate.py --dir <build-folder>` (exit 0 = safe).
-> A prompt sheet that fails the gate is not allowed near Flow. Full rule: §1 Correction #18.
+> A prompt sheet that fails the gate is not allowed near Flow. Full rule: §1 "The
+> Standing Laws" → "How Jesus is depicted."
 
 ---
 
@@ -42,25 +43,23 @@ work an unclaimed video, never work someone else's claim, never regenerate
 assets for a video another machine owns. If the pull shows your intended video
 was just claimed elsewhere, take the next one.
 
-**LAW B — Jesus's FACE is NEVER prompted or shown. He is a real, warm, Middle Eastern human figure seen only from behind / over-the-shoulder / at a distance. (Cameron, 2026-07-11 — Correction #18, which REVERSES the face-showing part of #16.)**
+**LAW B — Jesus's FACE is NEVER prompted or shown. He is a real, warm, Middle Eastern human figure seen only from behind / over-the-shoulder / at a distance. (Cameron, 2026-07-11.)**
 This is the single most important media law and the one that keeps getting broken
 across all three machines. **We do not know what Jesus looked like, so no prompt may
 ever build, reveal, or fix his face** — not frontal, not three-quarter, not a profile,
 not "his face soft and warm," not eyes/cheek/jaw/mouth. Every invented face — different
 in every story — pulls the viewer onto the artwork and is not good worship.
-WHAT STAYS from Correction #16: he is NOT a hooded void, black cutout, or "Assassin's
-Creed" ghost — he IS a real, painted human PRESENCE, warm MIDDLE EASTERN tan/olive-brown
-skin (NEVER white/Caucasian), and his hands and hair may show. WHAT #18 CHANGES: the
-face-showing parts of #16 are dead — the camera NEVER renders his face. Hide it by
+He is NOT a hooded void, black cutout, or "Assassin's Creed" ghost — he IS a real,
+painted human PRESENCE, warm MIDDLE EASTERN tan/olive-brown skin (NEVER white/Caucasian),
+and his hands and hair may show. The camera simply NEVER renders his face. Hide it by
 ANGLE only: from behind, over-the-shoulder (camera behind HIM, the people filling the
-frame looking at him — Correction #11), or true distance; partial framing (a sleeve, a
-hem, a reaching hand — Corrections #1/#2) is welcome; a cold full-back is a last resort,
-never in a beat where he acts toward someone (#1). NEVER hide the face with light/glow
-(#12 still holds). Other characters DO show consistent faces within a story — only
-Jesus's face is withheld. **Mechanical gate before any credit:**
-`python3 media-production/jesus_face_gate.py --dir <build-folder>` must exit 0.
-Any Claude that has not read §1 Corrections #1–#18 in full is not allowed to write a
-prompt, and no prompt sheet goes to Flow until the face gate passes.
+frame looking at him), or true distance; partial framing (a sleeve, a hem, a reaching
+hand) is welcome; a cold full-back is a last resort, never in a beat where he acts
+toward someone. NEVER hide the face with light/glow. Other characters DO show consistent
+faces within a story — only Jesus's face is withheld. **Mechanical gate before any
+credit:** `python3 media-production/jesus_face_gate.py --dir <build-folder>` must exit 0.
+The full rule set is §1 "The Standing Laws"; any Claude that has not read it is not
+allowed to write a prompt, and no prompt sheet goes to Flow until the face gate passes.
 
 **LAW C — Never hold Cameron's computer hostage.**
 The browser automation moves the real mouse and steals window focus. Cameron
@@ -117,8 +116,8 @@ govern all content. The Two-Voice Law applies: narrator speaks modern; Jesus spe
 ONLY exact KJV words. **Jesus's FACE is NEVER shown or prompted** — he is a real, warm,
 MIDDLE EASTERN human figure (hands and hair may show, never white) seen only from
 behind / over-the-shoulder / at a distance, kept a mystery because we do not know his
-face (Correction #18, which restored the face-never rule and reversed the face-showing
-part of #16; #16's "real human, never a hooded void, Middle-Eastern-not-white" survives).
+face — but still a real, warm, painted human (Middle Eastern hands and hair may show,
+never white, never a hooded void). Full detail in §1 "The Standing Laws."
 The BOM law holds: these 200 videos stay MILK.
 
 **The Voice Law (Cameron, 2026-07-07 — permanent):** The Jesus voice is AMERICAN,
@@ -205,289 +204,141 @@ the human feel — vary shot rhythm, favor faces/hands/small human details of
 the PEOPLE (never Jesus), let emotion land in the pictures, not just the
 words. Nothing here overrides the sacred pause before Jesus's KJV words.
 
-**The Cameron Corrections (Cameron, 2026-07-09 — law, from his review of #07 and #09):**
-1. **Stop leaning on Jesus's back.** Too many frames across the videos stage Jesus
-   as a full figure seen from behind. The face-NEVER rule does NOT require showing
-   his back — and in emotional beats a turned back reads as Jesus REJECTING the
-   person (the Peter rescue looked like Jesus turning away from a drowning man).
-   Frames don't have to hold the whole figure. Prefer partial framing: a sleeve
-   entering the frame, the hem, feet at the edge, a shadow falling across the
-   person, light from off-frame. Full-back compositions are now the LAST resort,
-   never the default, and never in a beat where Jesus is acting toward someone.
-2. **Rescue/touch beats may show Jesus's reaching hand (Cameron's amendment).**
-   When the scripture's action IS physical rescue or touch (pulling Peter from the
-   water), the frame should show the reach itself — a hand/forearm in a wool sleeve
-   extending into the frame toward the person — with the face still absolutely
-   never shown. Cameron's words: "just him reaching a hand into the water to pull
-   out Peter." The blanket hands-never default stays for all other beats.
-3. **No fake tears.** Painted-on teardrop beads sitting on a cheek read fake and
-   break the spell (rich young ruler #09). Emotion lives in the eyes, brows, and
-   mouth — wet shining eyes at most. Zoom-QC every close-up for stray tear-bead
-   artifacts; regenerate or edit them out.
-4. **Wardrobe must hold INSIDE clips and BETWEEN beats.** The #09 walk-away
-   sequence changed the young man's cloak mid-story. Every lock item (cloak color
-   and cut, purse type and position, sleeves) goes INSIDE the anatomy sentence of
-   every clip prompt, and every clip is checked against the banked stills frame by
-   frame before banking.
-5. **Motion clips must honor the story's geometry (Cameron, 2026-07-09, second
-   review).** In the Peter walking clip, Peter was not visibly walking TOWARD
-   Jesus, and the Jesus figure read as looking the other way. When the scripture
-   says a person moves toward Jesus, the clip must show exactly that: the person
-   oriented and moving toward the Jesus presence, and the Jesus presence oriented
-   TOWARD the person (open posture, light pouring toward them) — never turned
-   away. Face-never still holds; use distance, light dissolve, or framing, not a
-   turned back.
-6. **One character, every clip (no caveman drift).** In the Peter sinking clip,
-   Peter drifted into a different-looking character — "a whole different cartoon...
-   he looks more like a caveman." Every clip's person must be frame-checked
-   against the banked REFERENCE face for that character (Peter's reference is the
-   s4 gunwale still) before banking. If the face/build/hair does not match the
-   reference, the clip is rejected no matter how good the motion is. Prefer the
-   still-anchor pipeline (Frames-to-video from a banked still of the correct
-   character) over text-to-video for any clip with a close human figure.
-7. **Count limbs in EVERY extracted frame (Cameron, 2026-07-09, third review).**
-   The V3 sinking clip grew a THIRD sleeved forearm crossing Peter's chest at the
-   2-second mark — QC sampled f0/f4/f7 and missed it. From now on clip QC extracts
-   EVERY second of the clip and explicitly counts arms, hands, and legs in each
-   frame, and verifies sleeves stay on both arms. Any extra or missing limb at any
-   frame = rejection. Also a staging law from the same review: when a person is
-   sinking/drowning and reaching for Jesus, stage ONE arm down in the water
-   (fighting the sea) and ONE arm reaching toward the Jesus presence — not both
-   arms thrown up. It reads truer and gives the animation fewer arms to confuse.
-   UPDATE (Cameron, 2026-07-09, fourth review): this staging law applies to STILLS
-   too, not just clips. The s8 rescue still had Peter's second arm raised with an
-   open hand beside the gripped arm — wrong. In every rescue/reach image the person
-   has ONE arm up (the arm Jesus grips) and the OTHER arm down in the water.
-8. **Jesus is a person in the scene, not a floating body part (Cameron, 2026-07-09,
-   fifth review).** The s11 "worship" still showed Peter alone in the boat cradling
-   a disembodied hand — wrong. In any beat where people respond to Jesus (worship,
-   gratitude, awe, companionship), Jesus must be PRESENT in the scene as a whole
-   figure BESIDE the person — face still never shown (glow-dissolve or angle), but
-   his presence is a body in the composition, not a forearm floating in from
-   off-frame. Correction #2's hand/forearm allowance is only for rescue/touch
-   close-ups where the composition IS the grip.
-9. **Build reaction scenes around the PEOPLE, not around a backwards-facing Jesus
-   (Cameron, 2026-07-10, review of #10).** Two failures in Woman at the Well V1:
-   (a) the disciples-return still had the disciples in the foreground with
-   surprised faces aimed at the VIEWER, not at the thing that surprised them —
-   wrong. Witness/reaction stills must stage the witnesses on the OTHER side of
-   the scene with their faces and bodies visibly reacting TO the Jesus-and-person
-   moment (e.g. Jesus from behind or partial talking with the woman, her engaged
-   surprised face visible, the disciples walking up opposite, staring at the
-   conversation). (b) The town-comes-out still had the crowd walking a path
-   paying no attention to Jesus, while a backwards-facing Jesus sat as a focal
-   figure — doubly wrong. When people come to listen and learn, the PICTURE IS
-   THE PEOPLE: their attention, their faces, their leaning-in. Jesus is present
-   but de-emphasized — from behind at the frame edge, soft-focus/blurred, small,
-   never centered, never the compositional star — and every person in frame is
-   visibly oriented toward him. Compose the scene around the responders first,
-   then place the Jesus presence where their attention converges.
-10. **Sell the moment with a still BEFORE its motion clip (Cameron, 2026-07-10,
-   same review).** When a beat has both a still and a motion clip of the same
-   action (the woman running from the well), play the STILL first to plant the
-   image and stretch the time, THEN the motion clip that pays it off. Still →
-   clip, not clip → still.
-11. **OVER-THE-SHOULDER is the default for "people facing Jesus" scenes
-   (Cameron, 2026-07-10, rejection of Well V2's crowd still).** Stop inventing
-   clever ways to hide his face — the reliable framing is simple: the camera
-   stands BEHIND the man, over his shoulder. His hooded shoulder / back of head
-   sits soft and close in a lower corner of the frame, and the crowd or person
-   he's talking to fills the picture, every face looking straight past the
-   camera AT him. The viewer sees exactly what Jesus sees, plus the edge of him
-   seeing it. This framing makes it IMPOSSIBLE for the crowd to look like
-   they're "listening to something that is obviously not him" — which is what a
-   tiny backwards figure at the frame edge produced, twice. A whole story can
-   also run third-person zoomed out from behind him; that is fine. What is NOT
-   fine: a small detached rear-view Jesus placed away from where the crowd
-   looks, OR any composition where gazes don't visibly converge on him.
-12. **NO light that outlines his face (Cameron, same review).** Never rim-light,
-   halo, glow, or "ball of light" treatments that trace the shape of his face
-   or head. A glowing silhouette of the face HIGHLIGHTS him and makes him the
-   center of attention — the opposite of the goal. Hide the face with ANGLE
-   (behind, over-the-shoulder, hood, distance), never with light effects. Audit
-   every Jesus figure at high zoom for edge-glow around the head before
-   accepting a still.
-13. **[SUPERSEDED 2026-07-11 by Correction #16 — kept for history.]** The
-   "never show his face / hoods and backs-of-heads only / void and cutout bans"
-   doctrine below was REVERSED by Cameron on 2026-07-11. Jesus is now shown as a
-   real Middle Eastern man (see #16). The still-valid remnant: never white, and
-   no face-substitute gimmicks (voids, black cutouts) — because he is simply
-   painted as a person now. Original text follows.
-   **NO view of Jesus's face from ANY angle, and NO face-substitutes (Cameron,
-   2026-07-10 — storm-11 review).** Not frontal, not side profile, not
-   three-quarter, not a jawline or cheek or nose in shadow. We do not know what
-   his face looked like, and any depicted face — white, brown, anything —
-   makes someone in the audience disconnect before the story can reach them.
-   Most Christian art forces a white Jesus; showing ANY face takes a side in
-   that fight, and taking either side loses people. So: face hidden by camera
-   ANGLE (directly behind, over-the-shoulder, or true distance) — nothing
-   else. ALSO BANNED as face-substitutes, from the same review: (a) a hood
-   opening facing the camera rendered as a black featureless void — it reads
-   as a faceless ghost, not reverence (storm s4 and s5 rejected for this);
-   (b) a solid-black featureless human cutout/silhouette standing in for him
-   anywhere in the frame (storm s3 stern rejected for this). If a sleeping or
-   hooded Jesus is in shot, stage him so the BACK of the hood/head faces the
-   camera — never the hood opening. Prompts must say positively where the
-   camera is and that his face is on the far side, away from view. Every
-   render is audited at high zoom for any facial feature before banking.
-14. **[Part (a) SUPERSEDED 2026-07-11 by Correction #16 — part (b) still law.]**
-   The "no visible skin on the Jesus figure" rule of part (a) was REVERSED by
-   Cameron on 2026-07-11; Jesus now shows Middle Eastern skin, hands, and hair
-   (see #16). Part (b), the ACTION-LOGIC LAW, is UNCHANGED and fully in force.
-   Original text follows.
-   **NO visible skin on the Jesus figure, ANYWHERE, EVER — and action-logic QC
-   on every scene (Cameron, 2026-07-10 — storm-11 V1 rejection).** Cameron
-   rejected storm-11 V1 for two things: (a) he could STILL see a white face on
-   the Jesus figure in one of the still+clip combos. "We don't know if he was
-   white and I'm tired of saying that or seeing it." The rule is now broader
-   than #13: not just the face — NO exposed skin at all on the Jesus figure.
-   No hands, no wrists, no neck, no ear, no sliver of cheek past a hood edge,
-   no pale tone inside a hood shadow that reads as skin at a glance. He is
-   robe, hood, and posture — period. The audit is at high zoom AND at
-   phone-scale (the size Cameron actually watches at): if any pixel region on
-   him reads as pale skin at either scale, the render is dead. Third-person
-   camera directly behind him is the default and it must be boringly simple —
-   no cleverness. (b) ACTION-LOGIC LAW: every figure's action must read
-   correctly at a glance. Storm V1's fishermen looked like they were POURING
-   WATER INTO their own boat and pulling a rope that led OUTSIDE the hull —
-   nonsense that breaks the story. Bailing must show water visibly thrown
-   OUT over the gunwale, away from the boat; ropes must connect to rigging
-   or cleats INSIDE the boat; nothing a figure does may read backwards or
-   absurd. QC every still and every clip frame by asking "what does this
-   person appear to be DOING?" — if the answer isn't the story beat, reroll.
-15. **TIME-OF-DAY FIDELITY, FIGURES STAY IN THE BOAT, and MOTION MUST CYCLE
-   (Cameron, 2026-07-10 — storm-11 V2 rejection).** Three rules from one review:
-   (a) TIME-OF-DAY LAW — every scene's lighting must match the time of day the
-   scripture states. Mark 4:35 is "when the even was come": the whole storm
-   story happens at NIGHT — limited light, moonlight, starlight, lightning —
-   NEVER a sunrise or sunset. Cameron: "most of the pictures don't represent
-   night time and it's supposed to be night time so limited light not a
-   sunrise or set." The image models default to golden-hour skies; every
-   prompt for a night scene must say NIGHT explicitly and BAN sunset/sunrise
-   coloring, and QC must reject any warm golden sky in a night story.
-   (b) NOBODY STANDS ON THE WATER unless the scripture puts them there. Storm
-   V2's "great calm" still had a robed figure standing on the lake OUTSIDE
-   the boat — wrong story (that is Matthew 14, not Mark 4) and it reads
-   "very weird." Every figure must be visibly INSIDE the hull: deck under
-   their feet, gunwale wrapping around them. A rail that doesn't visually
-   connect to the boat makes men read as standing on the sea — stage the
-   hull so the connection is unmistakable at a glance.
-   (c) CYCLICAL-MOTION LAW for clips — repeated physical actions must visibly
-   CYCLE. Storm V2's bailing clip showed pots that never moved while water
-   streamed continuously out of them "like a hose." Bailing = scoop DOWN,
-   lift, FLING out, return — the pots themselves must travel through the
-   cycle in the clip. Prompt the full cycle explicitly and QC per-second
-   frames for changed pot positions; a static pose with particle flow is a
-   dead render.
-16. **[FACE-SHOWING PARTS SUPERSEDED 2026-07-11 by Correction #18 — the rest still
-   law.]** Cameron reversed the face-showing parts of #16 THE SAME DAY: Jesus's
-   FACE is once again NEVER shown or prompted (see #18). What SURVIVES from #16 and
-   is still fully in force: he is a REAL painted human, NOT a hooded void / black
-   cutout / "Assassin's Creed" ghost (16a's anti-void half), and his skin is warm
-   MIDDLE EASTERN, NEVER white/Caucasian (16b). What is DEAD: 16a's "his face
-   present," 16c's soft-face/three-quarter allowance, and 16e's "he MAY face the
-   scene" — the camera never renders his face; hide it by angle (behind /
-   over-the-shoulder / distance) per #18. Original #16 text follows for history.
-   **JESUS IS SHOWN AS A REAL MIDDLE EASTERN MAN — visible, warm, omniscient,
-   never white, never a cloaked figure (Cameron, 2026-07-11). THIS REVERSES the
-   cloaked-figure / no-face / no-skin doctrine of Corrections #13 and #14(a) and
-   the old Law B.** Cameron: the fully-hooded, faceless, skin-hidden Jesus turned
-   him into "Assassin's Creed characters," which is wrong and worse than the
-   problem it was meant to solve. The new doctrine, in force for every video from
-   now on:
-   (a) **He is a real person, painted.** Jesus is depicted as a human being in
-   the locked painterly storybook style — his HANDS, SKIN, and HAIR are visible.
-   He is NOT a void, NOT a hooded silhouette, NOT a black cutout, NOT
-   robe-and-posture-only. Hoods-required, backs-of-heads-required, and the
-   zero-skin/no-hands rules are all DEAD.
-   (b) **Middle Eastern, never white.** His skin is warm MIDDLE EASTERN tan /
-   olive-brown. He is NOT white, NOT Caucasian-pale, NOT European. This is the one
-   hard racial rule and it is non-negotiable — the original fear of a white Jesus
-   is solved by making him unmistakably Middle Eastern, NOT by hiding him. Modern
-   Middle Eastern tan, not a lightly-tanned European.
-   (c) **Kept omniscient / non-specific.** We still do not claim to know his exact
-   face. So NO sharp photoreal portrait that fixes his exact features, and —
-   Cameron's exact words — **never a side profile clear enough to "profile him
-   into what exactly he looks like."** Keep his face soft and non-specific:
-   three-quarter, from behind or beside, at distance, downcast, in gentle shadow,
-   or softly out of crisp focus — present, human, warm, and Middle Eastern, but
-   never a fixed identikit of one exact man. The cartoon / non-photoreal style is
-   itself the safeguard that keeps him non-specific; do not fight it toward
-   realism on his face.
-   (d) **What still stands:** never white/Caucasian (b above); no rim-light,
-   halo, or glow OUTLINING his head (#12, unchanged); reverent, never preachy.
-   Everything else about the old hood/back-of-head/zero-skin staging is REVERSED.
-   (e) **Practical staging:** he MAY face the scene, his hands MAY rest, gesture,
-   bless, or touch, his hair shows. Prefer angles and painterly softness that keep
-   his exact features non-fixed (three-quarter, behind, distance, soft light) over
-   a hard frontal or hard profile close-up. The goal changed from HIDE HIM to
-   SHOW HIM WARMLY BUT NON-SPECIFICALLY.
-   Any prompt or already-banked asset still built on the old cloaked-figure
-   staging is now OUT OF DATE and must be restaged under #16 before use. (This
-   includes the #13 Man-through-the-roof stills generated 2026-07-11 under the old
-   rule — they are superseded and need regenerating.)
-17. **RUN TO COMPLETION, AND MOTION CLIPS ARE REQUIRED (Cameron, 2026-07-11).**
-   Two rules from one rebuke: (a) once Cameron has said go, do NOT stop
-   mid-production to check in, report progress-and-wait, or ask "keep going?" —
-   build the ENTIRE video (every still, every motion clip, narration, assembly,
-   QC) and present it ONCE; the only allowed stops are "it's done" or a genuine
-   question the AI cannot answer itself (see §0 Law D). Stopping after he already
-   said go is the failure. (b) EVERY video must contain real MOTION CLIPS at its
-   most important story beats — these are motion pictures, not slideshows; a
-   stills-only delivery is boring and rejected. Use Flow/Veo clips in the locked
-   painted style at the moments motion teaches or sways the viewer (see §0 Law E
-   and §3 Story-Fit). For most stories that is ~2 clips on the money moments; a
-   motion-driven story earns more.
-18. **JESUS'S FACE IS NEVER PROMPTED OR SHOWN — he stays a mystery figure seen
-   from behind / over-the-shoulder / at a distance (Cameron, 2026-07-11). THIS
-   REVERSES the face-showing parts of Correction #16 (16a "his face present," 16c
-   "three-quarter/downcast face," 16e "he MAY face the scene"). It restores the
-   face-NEVER rule that governed videos #1–#12.** Cameron, in his own words: we do
-   NOT know what Jesus looked like; a video that constructs a face for him — and a
-   DIFFERENT invented face in every story — makes people focus on the artwork and
-   how it keeps changing, not on the story, and putting a made-up face on the Lord
-   "is not giving good worship to our god." Across all three machines this is THE
-   mistake that keeps wasting his credits: prompts that center Jesus AND build his
-   face. It stops now.
-   (a) **No face, by any means, ever.** No prompt may contain his face, facial
-   features, eyes, gaze, expression, smile, cheek, jaw, nose, mouth, brow, beard, a
-   portrait, a close-up, a "three-quarter" view of him, a frontal or side profile,
-   or "his face is soft/warm/olive." If a sentence names Jesus, it may not name his
-   face. The mechanical FACE GATE enforces this:
-   `python3 media-production/jesus_face_gate.py --dir <build-folder>` — it FAILS on
-   any Jesus-face language and on any Jesus prompt with no face-hiding camera cue.
-   No prompt sheet reaches Flow until the gate exits 0. Add every new face-leaking
-   phrase that slips past it to the gate's FORBIDDEN list in the same session.
-   (b) **Hide by ANGLE, the "mystery character" way Cameron described.** The camera
-   is BEHIND him, OVER-THE-SHOULDER (Correction #11's reliable default — camera
-   behind him, the people filling the frame looking past the camera at him), or at
-   true DISTANCE (a far figure you cannot read a face on). First-person or third-
-   person "from way behind them" is exactly right. Partial framing — a sleeve, a
-   hem, a reaching hand (Corrections #1/#2) — is welcome and keeps a cold full-back
-   from being the only tool; a full back is a last resort and NEVER in a beat where
-   he acts toward someone (#1). NEVER hide the face with light, halo, or glow (#12).
-   (c) **What survives from #16 (do NOT go back to the void).** He is still a REAL,
-   warm, painted HUMAN — his Middle Eastern hands and hair may show, his robe is
-   real cloth — NOT a hooded black void, NOT a solid cutout, NOT an "Assassin's
-   Creed" ghost. The fix for "no white Jesus" is still that he is unmistakably
-   MIDDLE EASTERN (never white/Caucasian), not that he is hidden as a shadow. So:
-   a real Middle Eastern man, fully present in the scene, whose FACE the camera
-   simply never shows. #16(b) (Middle-Eastern-never-white) and #16's "not a void /
-   not a cutout" are UNCHANGED; only #16's face-showing (16a/16c/16e) is dead.
-   (d) **Other characters are unaffected.** Their faces show and SHOULD stay
-   consistent within a story so viewers can follow who is who. This rule withholds
-   ONLY Jesus's face.
-   Any prompt or banked asset built under #16's face-showing staging (e.g. the #14
-   Ten Lepers and #15 Centurion prompt sheets, which the face gate flags with
-   dozens of "three-quarter/his face" hits) is OUT OF DATE and must be restaged
-   under #18 before generation.
-These corrections triggered a REDO of peter-water-07 (V2's rescue still fix was
-NOT enough — Cameron rejected V2 too; both motion clips were restaged and
-regenerated for V3; then V3's sinking clip failed the limb-count law and was
-restaged again for V4; then V4's s8 rescue STILL failed the same staging law and
-was restaged for V5) and put rich-ruler-09 in the rework queue (missing hand in
-one scene, fake tears, cloak drift). Older videos get re-audited against these
-rules when their turn comes.
+## The Standing Laws — how every video is made
+
+> These are the rules, stated as they are NOW. They used to be a growing numbered
+> list, "Correction #1" through "Correction #18," where each new one patched or
+> REVERSED an earlier one (#16 reversed #13 and #14, then #18 reversed the face part
+> of #16). That changelog format made the rules contradict each other and is exactly
+> why the same mistakes kept happening across three machines. The numbering is gone.
+> THIS is the single current rulebook. The old numbered history is kept in
+> [`CORRECTIONS-HISTORY.md`](./CORRECTIONS-HISTORY.md) for provenance only and is NOT
+> law. Every rule below was paid for by a rejected video.
+
+### How Jesus is depicted — the first law, above all others
+
+- **His face is never shown or prompted.** We do not know what Jesus looked like. No
+  prompt may build, reveal, or fix his face — no face, eyes, gaze, expression, smile,
+  cheek, jaw, nose, mouth, brow, no portrait, no close-up, no "three-quarter" view of
+  him, no frontal or side profile. A constructed face — a different one in every story
+  — makes people stare at the artwork instead of the story, and putting a made-up face
+  on the Lord is not good worship. Enforced mechanically by the face gate (below).
+- **He is a real, warm, Middle Eastern man — not a shadow.** He is a painted human
+  PRESENCE in the scene: warm Middle Eastern tan / olive-brown skin (NEVER white,
+  Caucasian, or European), his hands and hair may show, his robe is real cloth. He is
+  NOT a hooded black void, NOT a solid cutout, NOT a robe-and-posture "Assassin's
+  Creed" ghost. The answer to "no white Jesus" is that he is unmistakably Middle
+  Eastern — not that he is hidden as a silhouette.
+- **Hide the face by the CAMERA ANGLE, never by light.** The camera sits BEHIND him,
+  OVER his shoulder (the reliable default: camera behind him, the people filling the
+  frame looking past the camera straight at him), or at true DISTANCE (a far figure
+  whose face can't be read). First-person or third-person "from well behind him" is
+  exactly right. Never a rim-light, halo, or glow that outlines his head — that
+  highlights him, the opposite of the goal, and is banned.
+- **Don't lean on his cold back.** A full back-of-figure reads as Jesus turning AWAY
+  from the person, especially in an emotional beat. Prefer over-the-shoulder, distance,
+  and partial framing — a sleeve entering the frame, a hem, feet at the edge, a shadow
+  falling across the person, light from off-frame. A full back is the last resort,
+  never in a beat where he is acting toward someone.
+- **He is a whole person in the scene, not a floating body part.** When people respond
+  to him — worship, gratitude, awe, companionship — he is present as a full figure
+  beside them (face hidden by angle), never a disembodied hand or forearm drifting in
+  from off-frame.
+- **His reaching hand is right for a touch or rescue.** When the scripture's action IS
+  physical rescue or touch (pulling Peter from the water), show the reach itself — a
+  hand and forearm in a wool sleeve extending toward the person — face still never
+  shown.
+- **Orient him toward the person.** When someone comes toward Jesus, he faces them with
+  open posture and light pouring toward them — never turned away. Hide the face with
+  distance, a light dissolve, or framing, not a cold turned back.
+
+### Compose every scene around the PEOPLE
+
+- **The picture is the people.** In any reaction, witness, or crowd scene, build the
+  frame around the responders — their faces, their attention, their leaning-in. Jesus
+  is present but de-emphasized (behind, soft, smaller, never centered, never the
+  compositional star), placed exactly where every gaze in the frame converges.
+- **Every gaze converges on him.** Never a small detached rear-view Jesus off at the
+  frame edge while the crowd looks at nothing — every face in frame is visibly turned
+  toward him. Over-the-shoulder framing makes this automatic and is the safe default.
+- **Witnesses react TO the moment, not at the camera.** Stage witnesses on the far side
+  of the scene, faces and bodies reacting to the Jesus-and-person moment — never
+  surprised faces aimed straight at the viewer.
+- **Play the still before its motion clip.** When a beat has both a still and a clip of
+  the same action, show the STILL first to plant the image and stretch the time, then
+  the clip that pays it off.
+
+### Tell the story true
+
+- **The whole story, through the final verse.** Never flatten a parable to its headline
+  moment; include the surrounding humanity and every character Jesus put in it — the
+  waiting father, the older brother, the backstory, the resistance. Half a parable
+  sells half the point.
+- **Action reads right at a glance.** QC every figure by asking "what does this person
+  appear to be DOING?" — if it isn't the story beat, reroll. Bailing throws water OUT
+  over the gunwale; ropes connect to rigging inside the boat; nothing reads backwards
+  or absurd.
+- **Lighting matches the scripture's time of day.** Mark 4:35 is night — limited light,
+  moon, stars, lightning, never a sunrise or sunset. Say the time of day explicitly in
+  the prompt and reject golden-hour skies in a night story.
+- **Figures stay where the scripture puts them.** Everyone is visibly INSIDE the boat —
+  deck under their feet, gunwale wrapping around them; nobody stands on the water
+  unless the scripture puts them there.
+- **A physical trait that IS the story must read — calibrated, never caricatured.**
+  State the trait relative to other visible people ("the top of his head level with the
+  men's shoulders"), put other figures in solo shots for scale, and QC that it reads
+  instantly. Never exaggerate into caricature or dwarfism — a short man is a
+  normal-proportioned short adult, kept dignified.
+- **Count the anatomy in every frame.** On the QC zoom of every still and every sampled
+  clip frame, literally count 2 arms, 2 hands, 5 fingers where legible, 2 legs, 2 feet,
+  1 head, and check every limb connects to the right body (climbing, crowd, and table
+  scenes hide extra limbs). Any wrong count = regenerate.
+- **No fake tears.** No painted teardrop beads sitting on a cheek — emotion lives in the
+  eyes, brows, and mouth of the PEOPLE; wet shining eyes at most.
+- **Wardrobe and props lock and hold.** Every lock item — cloak color and cut, purse
+  type and position, sleeves, key props — goes into the description of every prompt the
+  character appears in, and every clip is frame-checked against the banked stills so
+  nothing changes mid-story.
+
+### Motion — these are motion pictures, not slideshows
+
+- **Every video carries real motion clips at its key beats.** Animate the moments motion
+  teaches or sways the viewer (usually about two; a motion-driven story earns more). A
+  stills-only delivery is rejected.
+- **One character, consistent, in every clip.** Frame-check each clip's person against
+  the banked reference for that character; prefer the still-anchor pipeline
+  (frames-to-video from a banked still) so nobody drifts into "a different cartoon." A
+  drifted character is rejected no matter how good the motion.
+- **Limb-count every second of every clip.** Extract each second and count arms, hands,
+  legs, and sleeves; any extra or missing limb at any frame = reject. In a rescue, stage
+  ONE arm down in the water and ONE arm reaching — not both thrown up.
+- **Repeated actions must visibly cycle.** Bailing is scoop DOWN, lift, FLING out,
+  return — the objects themselves travel through the cycle; never a static pose with a
+  continuous hose-like stream.
+- **Motion honors the geometry.** When the scripture says a person moves toward Jesus,
+  the clip shows exactly that — the person moving toward him and him oriented toward the
+  person.
+
+### How "done" is defined (nothing skips these)
+
+- **Right the first time.** Every known failure is checked ON PAPER in the production
+  pack before a single credit is spent (the pre-flight, §4b). Fixing a script is free;
+  fixing a built video costs credits and trust.
+- **The face gate is mandatory.** Before any Flow credit:
+  `python3 media-production/jesus_face_gate.py --dir <build-folder>` must exit 0. It
+  fails any Jesus-face language and any Jesus prompt with no face-hiding camera cue. No
+  prompt sheet reaches Flow until it passes; when a new face-leaking phrase slips past
+  it, add that phrase to the gate in the same session.
+- **The AI runs the full revision loop before Cameron ever sees the video** — re-read
+  every law, ear-check the narration against the script, silence-scan the mix,
+  frame-strip the whole video, and watch it as a stranger — looping until a full pass
+  finds nothing. Cameron sees a video once, for the final yes. He is the approver, not
+  the QC department.
+- **Run to completion.** Once Cameron says go, build the entire video and present it
+  once; never stop mid-production to ask "keep going?" The only reasons to stop are
+  "it's done" or a genuine blocker. (If Cameron himself sends any message, still yield
+  the browser instantly — that is his interrupt.)
+- **Name the file for its scripture** — `book-chapter_story-name.mp4`.
 
 ## 2. THE LOCKED LOOK — Master Style Block (never change without Cameron's explicit word)
 
@@ -598,7 +449,7 @@ works. Then scale the motion budget per story as the Story-Fit Rule allows.
       never lectures, never breaking the story's flow.
 
 **Before generating ANY image or clip (check the written prompts):**
-- [ ] 🛑 FACE GATE PASSES (Correction #18): run
+- [ ] 🛑 FACE GATE PASSES (the face law): run
       `python3 media-production/jesus_face_gate.py --dir <build-folder>` and confirm
       it exits 0 with "RESULT: PASS". Every FAIL (Jesus + face language) and every
       WARN (Jesus staged with no face-hiding camera cue) is a hard stop — rewrite
@@ -688,11 +539,11 @@ first time.
 
 - [ ] Every MUST SHOW item from the scripture card appears
 - [ ] Zero MUST NEVER SHOW items appear (scrub every motion clip fully)
-- [ ] 🛑 FACE GATE passed on the prompt sheet before generation (Correction #18);
-      and in the FINISHED render, Jesus's face is never visible in ANY frame at any
-      zoom — audit every still and every sampled clip frame. (His Middle Eastern
-      hands and hair MAY show per #16/#18; only the FACE is withheld. Other
-      characters' faces are fine and should stay consistent within the story.)
+- [ ] 🛑 FACE GATE passed on the prompt sheet before generation; and in the FINISHED
+      render, Jesus's face is never visible in ANY frame at any zoom — audit every
+      still and every sampled clip frame. (His Middle Eastern hands and hair MAY show;
+      only the FACE is withheld. Other characters' faces are fine and should stay
+      consistent within the story.)
 - [ ] Style matches the gold-standard reference (palette, texture, tone)
 - [ ] No AI text/gibberish baked into any image
 - [ ] Narration modern; Jesus voice EXACT KJV only

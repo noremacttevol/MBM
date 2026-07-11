@@ -8,6 +8,32 @@
 > Claim format: `CLAIMED — <date> — <machine/session note>`
 > One machine = one video at a time. Finish or release before claiming another.
 
+## 🛑 FACE-LAW REDO BOARD (Cameron, 2026-07-11 — "redo the whole thing")
+
+The face rule is now: **Jesus's face is NEVER shown** (real Middle Eastern man from
+behind / over-the-shoulder / at a distance — see PRODUCTION-BIBLE §1 "The Standing
+Laws"). Everything made or prompted under the dead "show his face" rule must be redone.
+Run the gate on your build BEFORE regenerating: `python3 media-production/jesus_face_gate.py --dir <build>`.
+Each machine redoes ITS OWN video (Law A), in announced Chrome bursts (Law C), and only
+after the prompt sheet passes the gate. **Do NOT regenerate another machine's video.**
+
+**A. Prompt sheets that FAIL the gate — restage the Jesus prompts on paper (no credits) first:**
+| Build | Owner | Face-gate | Action |
+|---|---|---|---|
+| build-15-centurion | Machine C | ✅ PASS (restaged 332df5b) | Regenerate the 6 restaged Jesus stills in Flow; 6 Jesus-free stills + 2 clips stand |
+| build-14-ten-lepers | Elli's Windows laptop | ❌ 11 hits | Restage Jesus prompts (behind/over-shoulder/distance) → gate → regenerate |
+| build-13-roof | Machine A (Dev) | ❌ 2 hits | Restage; also the DELIVERED video shows Jesus under old rule — re-audit + regenerate his stills before approval |
+| build-12-bartimaeus | Cowork session | ❌ 2 hits | Restage → gate → regenerate |
+
+**B. Delivered videos to re-audit for a visible Jesus face (watch + high-zoom every Jesus frame):**
+- **build-13-roof** — built under the "show his face" rule → HIGH PRIORITY, treat as needing regeneration.
+- **build-05, 07, 09, 10, 11** — built under the old *face-never* rule, so likely already
+  compliant; still spot-check each Jesus frame at high zoom to confirm no face leaked, and
+  re-audit against The Standing Laws when their turn comes. (#09 is already in the rework queue.)
+
+**C. Videos 16–20+ (unclaimed):** build fresh straight under The Standing Laws — the gate
+must pass before any credit. No legacy face assets exist for these, so nothing to redo.
+
 ## Wave One (videos 1–20)
 
 | # | Story | File | Status |
@@ -20,7 +46,7 @@
 | 06 | Two Sons | matthew-21_two-sons | DONE — approved |
 | 07 | Peter walks on water | matthew-14_peter-water | DONE — approved (after V5) |
 | 08 | Lost Coin | luke-15_lost-coin | DONE — approved |
-| 09 | Rich Young Ruler | mark-10_rich-ruler | REWORK QUEUE — re-audit vs Corrections #1–#13 before any new claim |
+| 09 | Rich Young Ruler | mark-10_rich-ruler | REWORK QUEUE — re-audit vs §1 "The Standing Laws" (incl. face-never) before any new claim |
 | 10 | Woman at the Well | john-4_well | DONE — approved (V3, "thats good on to the next") |
 | 11 | Calming the Storm | mark-4_calming-the-storm | DONE — approved by Cameron 2026-07-11 ("thats good for now") — V3, 60 credits total. Built by **linux desktop** (Cameron assigned machine names 2026-07-11; this machine = "linux desktop") |
 | 12 | Blind Bartimaeus | mark-10_bartimaeus | CLAIMED — 2026-07-11 — Cowork cloud session (first video for this machine) |
@@ -36,16 +62,16 @@
 ## Rules recap (full text in PRODUCTION-BIBLE §0 and §1)
 
 - Pull before claiming. Claim before generating. Push the claim immediately.
-- 🛑 JESUS'S FACE IS NEVER PROMPTED OR SHOWN (Correction #18, 2026-07-11). He is a
-  real, warm, MIDDLE EASTERN human figure (hands & hair may show, NEVER white, never
-  a hooded void) seen ONLY from behind / over-the-shoulder / at a distance — a
-  mystery figure, because we don't know his face and a made-up face is not good
-  worship. #18 restored the face-never rule and reversed the face-showing part of
-  #16 (the "real human, Middle-Eastern-not-white, not a void" half of #16 survives).
+- 🛑 JESUS'S FACE IS NEVER PROMPTED OR SHOWN (Cameron, 2026-07-11). He is a real,
+  warm, MIDDLE EASTERN human figure (hands & hair may show, NEVER white, never a
+  hooded void) seen ONLY from behind / over-the-shoulder / at a distance — a mystery
+  figure, because we don't know his face and a made-up face is not good worship.
   BEFORE any Flow credit, the prompt sheet MUST pass the gate:
   `python3 media-production/jesus_face_gate.py --dir <build-folder>` (exit 0). Read
-  §1 Corrections #1–#18 in full before writing any prompt. NOTE: the #14 and #15
-  prompt sheets were written under #16 and FAIL the gate — restage before generating.
+  §1 "The Standing Laws" in the PRODUCTION-BIBLE in full before writing any prompt
+  (the old numbered "Corrections #1–#18" are consolidated there now; history archived
+  in CORRECTIONS-HISTORY.md). NOTE: the #14 and #15 prompt sheets were written under
+  the dead "show his face" rule and FAIL the gate — restage before generating.
 - Never run Chrome automation without announcing it to Cameron first and getting
   his go-ahead (Law C). Batch clicks into short announced bursts.
 - Each machine works its own build-NN folder only. Shared Flow project is
