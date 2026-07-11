@@ -36,7 +36,7 @@ part of the audience into disconnecting before the story can reach them. Also
 banned: black-void hood openings and solid-black human cutouts as
 face-substitutes. Camera directly behind, over-the-shoulder, or true distance —
 nothing else. Every render audited at high zoom before banking. Any Claude that
-has not read §1 Corrections #1–#13 in full is not allowed to write a prompt.
+has not read §1 Corrections #1–#14 in full is not allowed to write a prompt.
 
 **LAW C — Never hold Cameron's computer hostage.**
 The browser automation moves the real mouse and steals window focus. Cameron
@@ -272,6 +272,26 @@ words. Nothing here overrides the sacred pause before Jesus's KJV words.
    camera — never the hood opening. Prompts must say positively where the
    camera is and that his face is on the far side, away from view. Every
    render is audited at high zoom for any facial feature before banking.
+14. **NO visible skin on the Jesus figure, ANYWHERE, EVER — and action-logic QC
+   on every scene (Cameron, 2026-07-10 — storm-11 V1 rejection).** Cameron
+   rejected storm-11 V1 for two things: (a) he could STILL see a white face on
+   the Jesus figure in one of the still+clip combos. "We don't know if he was
+   white and I'm tired of saying that or seeing it." The rule is now broader
+   than #13: not just the face — NO exposed skin at all on the Jesus figure.
+   No hands, no wrists, no neck, no ear, no sliver of cheek past a hood edge,
+   no pale tone inside a hood shadow that reads as skin at a glance. He is
+   robe, hood, and posture — period. The audit is at high zoom AND at
+   phone-scale (the size Cameron actually watches at): if any pixel region on
+   him reads as pale skin at either scale, the render is dead. Third-person
+   camera directly behind him is the default and it must be boringly simple —
+   no cleverness. (b) ACTION-LOGIC LAW: every figure's action must read
+   correctly at a glance. Storm V1's fishermen looked like they were POURING
+   WATER INTO their own boat and pulling a rope that led OUTSIDE the hull —
+   nonsense that breaks the story. Bailing must show water visibly thrown
+   OUT over the gunwale, away from the boat; ropes must connect to rigging
+   or cleats INSIDE the boat; nothing a figure does may read backwards or
+   absurd. QC every still and every clip frame by asking "what does this
+   person appear to be DOING?" — if the answer isn't the story beat, reroll.
 These corrections triggered a REDO of peter-water-07 (V2's rescue still fix was
 NOT enough — Cameron rejected V2 too; both motion clips were restaged and
 regenerated for V3; then V3's sinking clip failed the limb-count law and was
@@ -529,7 +549,7 @@ new law holds from then on. Nothing lives in anyone's memory. Everything lives h
 ## 8. Session workflow for any AI picking up media work
 
 1. Read CLAUDE.md chain protocol, START-HERE.md, AGENT-RULES.md — then THIS FILE,
-   starting with §0 (the three operating laws) and §1 Corrections #1–#13 IN FULL.
+   starting with §0 (the three operating laws) and §1 Corrections #1–#14 IN FULL.
 2. `git pull`, then check SESSION-LOG.md top entry AND VIDEO-ASSIGNMENTS.md.
 3. Claim your video on VIDEO-ASSIGNMENTS.md (commit + push the claim) before
    generating anything. Continue the assembly line exactly where it stopped for
