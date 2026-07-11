@@ -135,7 +135,7 @@
 | 32 | 175 | Naaman's Seven Dips | 2-kings-5_naamans-seven-dips | UNCLAIMED |
 | 33 | 179 | The Fourth Man in the Fire | daniel-3_fourth-man-in-the-fire | UNCLAIMED |
 
-### MACHINE C — Windows desktop (33 videos, ranked)
+### MACHINE C — Linux desktop number two (33 videos, ranked)
 
 | Rank | Cat# | Story | File | Status |
 |------|------|-------|------|--------|
