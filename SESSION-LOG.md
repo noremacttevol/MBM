@@ -32,7 +32,7 @@
 - What changed in the app (files/commits): PRODUCTION-BIBLE §0 Law C rule (1) and CLAUDE.md guardrail #10 rewritten with the no-asking law; new media-production/build-11-storm/ (PREFLIGHT.md, build.py, make_narration.py, prompts, 9 banked 2K stills, 2 banked Veo clips, audio, qc, finished mark-4_calming-the-storm.mp4); VIDEO-ASSIGNMENTS.md #11 → BUILT/awaiting verdict.
 - What is now true that wasn't before: #11 is built and in front of Cameron. Credit disclosure: 30 credits used (2 planned Veo clips = 20, plus 10 from a composer self-submit that fired a corrupted-prompt duplicate — it became the backup candidate and was rejected in QC). The no-asking law binds every future session.
 - What's next / handed off: await Cameron's verdict on #11; if approved mark DONE on the claim board and claim the next unclaimed video. Other machines: #12+ are open.
-- Commit: (this commit)
+- Commit: 53b972f
 
 ## 2026-07-10 (pt.35) — HALT + three operating laws: no-face #13, multi-machine claim board, hands-off-the-computer
 - What we did: Cameron halted all video production mid-storm-#11 with three demands: (1) every Claude on every computer works the same project on DIFFERENT videos, (2) every Claude knows Jesus's face is never shown at all, (3) browser automation must stop hijacking his mouse/screen while he works. Wrote all three into permanent law.
