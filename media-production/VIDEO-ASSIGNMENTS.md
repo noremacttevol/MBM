@@ -51,7 +51,7 @@ must pass before any credit. No legacy face assets exist for these, so nothing t
 | 11 | Calming the Storm | mark-4_calming-the-storm | DONE — approved by Cameron 2026-07-11 ("thats good for now") — V3, 60 credits total. Built by **linux desktop** (Cameron assigned machine names 2026-07-11; this machine = "linux desktop") |
 | 12 | Blind Bartimaeus | mark-10_bartimaeus | CLAIMED — 2026-07-11 — Cowork cloud session (first video for this machine) |
 | 13 | Man through the Roof | mark-2_roof | BUILT — awaiting Cameron approval — 2026-07-11 — linux desktop / Machine A (hostname Dev). s8 rebuilt under #16 (real Middle Eastern man, no readable face); 2 Veo clips done (20 cr); s4/s9 re-synced to clip start-frames; ear-check 16/16; self-revision loop passed. Final: mark-2_man-through-the-roof.mp4 (20.0 MB, 334s). |
-| 14 | Ten Lepers | luke-17_ten-lepers | CLAIMED — 2026-07-11 — Elli's Windows laptop (new extra worker, Cowork desktop session) |
+| 14 | Ten Lepers | luke-17_ten-lepers | BUILT — 2026-07-11 — Elli's Windows laptop — V1 awaiting Cameron's verdict. 12 stills (5 Jesus shots restaged under Correction #18, face never shown) + 2 Veo clips (healing, return run). ~20 credits. |
 | 15 | Centurion's Servant | matthew-8_centurion | CLAIMED — 2026-07-11 — Cameron Lovett MS (Machine C, rotation rank 1) |
 | 16 | Mary and Martha | luke-10_mary-martha | UNCLAIMED |
 | 17 | Lazarus | john-11_lazarus | UNCLAIMED |
