@@ -30,7 +30,7 @@ more mix-up.
 | `cameron-lovett-MS-7C91` | **Machine C — "Linux desktop number two"** | Cameron, 2026-07-11 |
 | _(unknown — fill in when that computer runs)_ | Machine A — "linux desktop" | — |
 | _(unknown — fill in when that computer runs)_ | Machine B — "HP laptop" | — |
-| _(unknown — fill in when that computer runs)_ | Elli's Windows laptop (extra worker) | — |
+| `ElliLovett` | **Elli's Windows laptop (extra worker)** | Cameron, 2026-07-11 |
 
 > To add your computer: run `hostname`, put the result in a new/blank row next to
 > the machine Cameron says it is, and commit + push. Each computer only ever

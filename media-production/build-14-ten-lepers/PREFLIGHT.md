@@ -5,6 +5,17 @@ Deliverable (SCRIPTURE-NAME LAW): `luke-17_ten-lepers.mp4`
 Machine: Elli's Windows laptop (extra worker). Claimed on VIDEO-ASSIGNMENTS.md
 2026-07-11 (commit 7a14c25).
 
+> **RESTAGED UNDER CORRECTION #16 (2026-07-11, Elli's Windows laptop).** This
+> pre-flight was originally written under the now-DEAD cloaked-figure doctrine
+> (Corrections #13 / #14a: face never shown, zero skin, hood-and-back-only).
+> Cameron REVERSED that on 2026-07-11. Every Jesus reference below has been
+> rewritten: **Jesus is a real Middle Eastern man — warm tan/olive-brown skin,
+> visible hands and hair, NEVER white — kept omniscient (no sharp portrait, no
+> clear side profile that fixes his exact face; softness of the painted style is
+> the safeguard).** The pack's "silhouette and light, never his face" line and
+> any hood/back-only staging are superseded here by #16. No assets were generated
+> under the old rule, so nothing is thrown away — only the paper changed.
+
 ## Scripture card (KJV, fetched via bible-api.com 2026-07-11)
 
 Luke 17:11-19 read END-TO-END (full text in qc/luke17-kjv.txt). Nine verses,
@@ -37,23 +48,35 @@ video #2 older-brother mistake).
   the two-word distinction is the Seed's hinge; the narration lands it.
 
 ### MUST NEVER SHOW
-- Jesus's face — NEVER, from any angle (Correction #13). No frontal, no
-  profile, no jaw/cheek/nose. No void-hood openings, no black cutouts.
-  Camera directly behind, over-the-shoulder, or true distance only.
-- ZERO skin on the Jesus figure (Correction #14): no hands, wrists, neck,
-  ear, no pale region reading as skin at phone-scale OR high zoom. Robe,
-  hood, posture only. Audit every render at both scales.
-- THE PACK'S SHOT-6 HAND IS DEAD: "a hand enters frame and rests on his
-  head" violates #14 (skin) AND adds a touch Luke never states. In this
-  story Jesus heals BY WORD, ACROSS A DISTANCE — no touch anywhere. The
-  gratitude beat is staged per #8/#11: Jesus present as a whole robed
-  figure seen from directly behind, the healed man at his feet.
-- NO rim-light/halo/glow outlining his head (Correction #12). Hide with
-  ANGLE only.
+- Jesus rendered WHITE / Caucasian-pale / European (Correction #16b — the
+  one hard racial rule, non-negotiable). His skin is warm MIDDLE-EASTERN
+  tan / olive-brown. Audit every render at phone-scale AND high zoom: any
+  pale-European skin tone on him is dead.
+- A SHARP, FIXED FACE for Jesus (Correction #16c). No photoreal portrait
+  that pins down his exact features, and — Cameron's exact words — never a
+  clear side profile that would "profile him into what exactly he looks
+  like." Keep him non-specific: three-quarter, at gentle distance,
+  downcast, in soft shadow, or softly out of crisp focus. The painted
+  cartoon style IS the safeguard — do not push his face toward realism.
+- NO cloaked-figure gimmicks (dead under #16, but never revive them):
+  black-void hood openings, solid-black human cutouts, or a
+  robe-and-posture-only faceless figure. He is simply painted as a warm
+  human being now.
+- NO TOUCH OF THE LEPERS anywhere (STORY LOGIC, not a hiding rule). Luke
+  17 states Jesus heals BY WORD, across the mandated distance — he never
+  touches or approaches the ten. The pack's shot-6 "a hand enters frame
+  and rests on his head" is DROPPED — not because hands are banned (they
+  aren't anymore under #16) but because Luke states no touch. The gratitude
+  beat is the healed man at Jesus's feet with Jesus present and warm, hands
+  lowered/open but NOT laid on him as a healing touch.
+- NO rim-light / halo / glow outlining his head (Correction #12, still in
+  force). Natural warm daylight ON him is fine; a glow that traces the
+  shape of his head is not.
 - Jesus never the compositional star of the return scenes (#9): the
   picture is the healed man's joy and the watching disciples/villagers;
-  gazes visibly converge on the Jesus presence (#11) — never a small
-  detached rear figure the crowd ignores.
+  gazes visibly converge on Jesus (#11) — he is present and warm but never
+  center-staged as the hero, and never a small detached figure the crowd
+  ignores.
 - LEPROSY RESTRAINT (pack law): wrapped hands, half-covered faces,
   distance — NEVER gore, sores, or disfigurement. Dignity always
   (physicality-calibration law: afflicted, never grotesque).
@@ -122,14 +145,21 @@ at a distance in v12-v14 beats. Afflicted with restraint: wrappings and
 distance tell the disease; no sores, no gore. After the fork: NINE on
 the far road, ONE returning.
 
-**JESUS LOCK (per Corrections #11-#14):** an undyed cream wool robe with
-the hood up, seen ONLY from directly behind or over-the-shoulder — back
-of the hooded head toward camera, face entirely on the far side away
-from view, sleeves fallen past his hands, no skin of any kind visible
-anywhere on him, no light or glow on or around his head. Never centered
-as the star, never inside a light effect. In the roadside beats he
-stands at the head of a small band of travelers (disciples), all seen
-from behind or at distance.
+**JESUS LOCK (per Correction #16 — real Middle Eastern man, kept
+non-specific):** a first-century Judean man with warm MIDDLE-EASTERN
+olive-brown skin (NEVER white or European-pale), dark shoulder-length
+hair and a short dark beard, in an undyed cream wool robe with a simple
+mantle. His hands, skin, and hair are visible and natural. He is kept
+OMNISCIENT / non-specific: rendered three-quarter, from a gentle
+distance, slightly downcast, in soft shadow, or softly out of crisp
+focus — NEVER a sharp photoreal portrait and NEVER a crisp side profile
+that fixes exactly what he looked like. No halo, rim-light, or glow
+outlining his head (#12). Never centered as the compositional star (#9).
+In the roadside beats he stands warm and present at the head of a small
+band of travelers (disciples). He heals BY WORD across the distance — he
+never touches or approaches the ten (story logic). The softness of the
+painted style itself is what keeps him non-specific; do not fight it
+toward realism on his face.
 
 **PROP LOCK — LINEN WRAPPINGS:** strips of undyed, road-dusted linen on
 faces and hands of all ten; in the healing they loosen, fall, and blow
@@ -147,13 +177,13 @@ every scene. Same road, same village silhouette throughout.
 | s1 | The border road — small band of travelers (Jesus at front, from behind) walking the dusty road between two hill regions | STILL (drift) | v11 setting; establishes journey + the divided land |
 | s2 | Ten wrapped men strung along a rocky rise, far from the road — the GAP of empty stony ground is the subject | STILL | v12; the law-mandated distance IS the picture |
 | s3 | The cry — ten men, hands cupped at wrapped mouths, calling across the gap; below, the travelers stopped, every face turned up toward them | STILL | v13; one desperate voice from ten men |
-| s4 | j1 — over-the-shoulder past Jesus's hooded shoulder toward the ten distant figures on the rise | STILL | #11 textbook frame; he answers with only a word |
+| s4 | j1 — Jesus at the head of the travelers, seen three-quarter from a gentle distance, raising a hand toward the ten distant figures on the rise as he speaks; his face soft/non-specific | STILL | #16 warm-but-non-specific; he answers with only a word |
 | s5 | Confusion → first steps — close on wrapped faces looking at still-bound hands, then down the long road; the first of them already turning to walk | STILL | obedience before evidence; the story's hinge |
 | s6 | HEALED MID-STRIDE (money shot) — on the bright road, one man pulls the linen from his hand: new skin; strips falling, joy breaking out | STILL then MOTION (10cr) | the peak; still first per #10 |
 | s7 | The fork — nine jubilant men small on the far road toward the village gate; ONE man stopped, looking back | STILL | v15a; the choice, staged wide |
 | s8 | THE RETURN (money shot 2) — the Samaritan running back alone, robes flying, mouth open in loud praise | STILL then MOTION (10cr) | v15b; gratitude at a run earns motion |
-| s9 | At his feet — from directly behind the robed Jesus figure: the healed man face-down at his feet, new hands flat in the dust | STILL | v16; #8 whole-figure presence, #14 zero skin, NO touch |
-| s10 | j2 — same over-the-shoulder axis, wider: beyond the kneeling man, the empty road where nine went; disciples' faces asking the same question | STILL | v17-18; the question hangs over an empty road |
+| s9 | At his feet — the healed man face-down at the feet of Jesus, who stands warm and present in soft focus (Middle Eastern, non-specific), hands lowered/open but NOT touching the man; new hands flat in the dust | STILL | v16; #8 whole-figure presence, #16 warm/non-specific, NO touch |
+| s10 | j2 — wider on the same scene: beyond the kneeling man, the empty road where nine went; Jesus and the disciples' faces turned toward the empty road, asking the same question | STILL | v17-18; the question hangs over an empty road |
 | s11 | j3 + rising — the Samaritan rising to his feet, face wet and shining, standing taller than he has in years | STILL | v19; wholeness standing up |
 | s12 | Going home whole — he walks toward the village, shed linen strips small on the road behind him | STILL | the pack's gold-road ending, staged in honest daylight |
 | card | Pack card verbatim, ~13s, read aloud gently | CARD | Readable-Card Law |
