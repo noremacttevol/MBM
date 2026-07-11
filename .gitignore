@@ -104,3 +104,4 @@ media-production/build-07-peter-water/segs/
 
 # assembly intermediates (rebuildable, too large for GitHub)
 media-production/*/segs/
+media-production/bin/
