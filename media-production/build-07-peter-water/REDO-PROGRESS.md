@@ -27,7 +27,7 @@ GENERATED IN FLOW, not yet downloaded (grab from project 231b1a40... next pass):
 - [x] s9-walk-back-v2.jpeg  DONE (downloaded).
 
 REMAINING to regenerate (use PROMPTS.md, camera-behind-Jesus):
-- [ ] s3-figure-on-water   (distant figure on the sea — make him a far BACK-turned silhouette or truly tiny, NO forward face)
+- [x] s3-figure-on-water-v2.jpeg  DONE (tiny distant dark figure; fishermen's fear fills foreground)
 - [ ] s7-sink-anchor       (Peter sinks; Jesus's reaching HAND/forearm only, no face)
 - [ ] s8-the-reach         (two hands gripping at the waterline — hands only, no faces)
 - [ ] s9-walk-back         (both men from behind walking to the boat)
