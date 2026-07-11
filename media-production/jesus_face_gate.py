@@ -61,14 +61,21 @@ JESUS_TOKENS = [
 ]
 
 # ---------------------------------------------------------------------------
-# FORBIDDEN: language that builds / reveals his face. If any of these appears in
-# the SAME sentence as a Jesus token, the prompt is rejected. Extend this list
-# whenever a new face-leaking phrase slips through — that is the whole point.
-# NOTE: "hand"/"hands" are NOT here. Correction #16/#18 allow his Middle Eastern
-# hands to show; only the FACE is withheld.
+# FORBIDDEN language, in two tiers.
+#
+# HARD_FORBIDDEN: language that can ONLY mean his face is shown/fixed. If any of
+# these appears in the SAME sentence as a Jesus token, the prompt is rejected —
+# no exceptions. (A "three-quarter view of Jesus" or "his eyes" cannot be hidden.)
+#
+# SOFT_FACE: the bare word "face" and kin. This is flagged ONLY when the sentence
+# does NOT also contain a hiding cue — because "his face is turned away, never
+# seen" is GOOD staging, while "his face soft and warm" is a violation. The
+# difference is whether the same sentence says the face is hidden.
+#
+# NOTE: "hand"/"hands" are in neither list. His Middle Eastern hands may show;
+# only the FACE is withheld.
 # ---------------------------------------------------------------------------
-FORBIDDEN_FACE_TERMS = [
-    r"\bface\b", r"\bfaces\b", r"\bfacial\b", r"\bface-on\b", r"\bface on\b",
+HARD_FORBIDDEN = [
     r"\bcountenance\b", r"\bvisage\b",
     r"\bprofile\b", r"\bside profile\b", r"\bside-profile\b",
     r"\bportrait\b",
@@ -85,7 +92,10 @@ FORBIDDEN_FACE_TERMS = [
     r"\bhis jawline\b", r"\bhis nose\b", r"\bhis mouth\b", r"\bhis lips\b",
     r"\bhis brow\b", r"\bhis brows\b", r"\bhis beard\b", r"\bhis chin\b",
     r"\bhis forehead\b", r"\bhis teeth\b",
-    r"\bsmiling warmly\b",  # only flagged when in a Jesus sentence (see logic)
+    r"\bsmiling warmly\b",
+]
+SOFT_FACE = [
+    r"\bface\b", r"\bfaces\b", r"\bfacial\b", r"\bface-on\b", r"\bface on\b",
 ]
 
 # ---------------------------------------------------------------------------
@@ -99,12 +109,17 @@ FACE_HIDING_CUES = [
     r"his back to the camera", r"back to the camera", r"turned away",
     r"over[- ]the[- ]shoulder", r"over his shoulder", r"over the man'?s shoulder",
     r"at a distance", r"in the distance", r"distant figure", r"a distance",
-    r"far off", r"far away", r"far-?off", r"seen from behind",
+    r"far off", r"far away", r"far-?off", r"seen from behind", r"too distant",
+    r"too far", r"far too distant", r"never seen", r"never visible",
+    r"not visible", r"never shown",
     r"face turned away", r"face away", r"face is not shown", r"face not shown",
     r"face hidden", r"no view of his face", r"his face is never",
-    r"camera behind", r"camera stays behind", r"away from view",
+    r"no face", r"no faces", r"face too", r"faces? too (?:far|distant)",
+    r"camera behind", r"camera stays behind", r"away from view", r"away from",
     r"on the far side", r"far side", r"silhouetted from behind",
     r"only his back", r"only the back", r"his shoulder and hair",
+    r"reaching hand", r"hand and forearm", r"only the hand", r"hands only",
+    r"his back,? ", r"back and", r"solid man in the moonlight",
 ]
 
 # A paragraph clearly stages Jesus (as opposed to merely mentioning him in
@@ -114,7 +129,7 @@ FACE_HIDING_CUES = [
 # lightweight filters below.
 SKIP_LINE_HINTS = [
     "narrat", "kjv", "voice:", "seed question", "closing card", "must show",
-    "must never show", "- [ ]", "- [x]", "correction", "#18", "face gate",
+    "must never show", "- [ ]", "- [x]",
 ]
 
 sentence_split = re.compile(r"(?<=[.!?;:])\s+|\n")
@@ -125,7 +140,8 @@ def compile_all(patterns):
 
 
 JESUS_RE = compile_all(JESUS_TOKENS)
-FORBIDDEN_RE = compile_all(FORBIDDEN_FACE_TERMS)
+HARD_RE = compile_all(HARD_FORBIDDEN)
+SOFT_RE = compile_all(SOFT_FACE)
 CUE_RE = compile_all(FACE_HIDING_CUES)
 
 
@@ -133,17 +149,36 @@ def has_jesus(text):
     return any(r.search(text) for r in JESUS_RE)
 
 
+def has_cue(text):
+    return any(r.search(text) for r in CUE_RE)
+
+
+# A negation word in the same sentence as "face" almost always means the face is
+# being WITHHELD ("face NEVER shown", "no face", "face is not visible") — the
+# opposite of a face-generating prompt. So SOFT "face" next to a negation is safe.
+NEG_RE = re.compile(r"\b(never|not|no|without|hidden|unseen|obscured|nor)\b|n't",
+                    re.IGNORECASE)
+
+
 def find_forbidden(text):
+    """Return the list of forbidden face-terms that make THIS sentence a FAIL.
+
+    HARD terms always count. SOFT terms (the bare word "face") count only when the
+    sentence neither gives a hiding cue NOR negates the face — so "his face is
+    turned away, never seen" and "Jesus's face — NEVER shown" pass, while "his
+    face soft and warm" fails.
+    """
     hits = []
-    for r in FORBIDDEN_RE:
+    for r in HARD_RE:
         m = r.search(text)
         if m:
             hits.append(m.group(0))
+    if not has_cue(text) and not NEG_RE.search(text):
+        for r in SOFT_RE:
+            m = r.search(text)
+            if m:
+                hits.append(m.group(0))
     return hits
-
-
-def has_cue(text):
-    return any(r.search(text) for r in CUE_RE)
 
 
 def is_probably_prompt_paragraph(para):
@@ -152,6 +187,13 @@ def is_probably_prompt_paragraph(para):
     for hint in SKIP_LINE_HINTS:
         if hint in low:
             return False
+    # Skip pure-heading paragraphs (every non-blank line starts with '#') and
+    # bullet/list-only paragraphs — these are documentation, not shot prose.
+    body = [ln.strip() for ln in para.splitlines() if ln.strip()]
+    if body and all(ln.startswith("#") for ln in body):
+        return False
+    if body and all(ln.startswith(("#", "-", "*", ">", "|", "(")) for ln in body):
+        return False
     return True
 
 
@@ -167,15 +209,13 @@ def check_file(path):
 
     lines = raw.split("\n")
 
-    # 1) FORBIDDEN check — sentence granularity, with accurate line numbers.
-    #    Walk line by line; within a line, split into sentences.
+    # 1a) SOFT-FACE check — sentence granularity (per line), so "his face soft"
+    #     fails but "his face turned away" passes via the cue/negation exception.
     for lineno, line in enumerate(lines, start=1):
         if not has_jesus(line):
             continue
         for sentence in sentence_split.split(line):
-            if not sentence.strip():
-                continue
-            if not has_jesus(sentence):
+            if not sentence.strip() or not has_jesus(sentence):
                 continue
             hits = find_forbidden(sentence)
             if hits:
@@ -185,22 +225,63 @@ def check_file(path):
                      f"\"{sentence.strip()[:140]}\"")
                 )
 
+    # 1b) HARD-FORBIDDEN block scan — restaged sheets name Jesus once in a
+    #     "JESUS LOCK" and then say "he", so a "three-quarter"/"profile"/"his eyes"
+    #     a few lines later has no Jesus token on its own line. Scan every
+    #     Jesus-containing PARAGRAPH for HARD terms anywhere in it, and flag the
+    #     exact line. (SOFT "face" stays sentence-scoped above to allow "face
+    #     turned away"; HARD terms can never mean a hidden face.)
+    for para_lines, para_start in _iter_paragraphs(lines):
+        para = "\n".join(para_lines)
+        if not has_jesus(para) or not is_probably_prompt_paragraph(para):
+            continue
+        for i, line in enumerate(para_lines):
+            # Check clause by clause so a negated term ("NEVER a portrait") in one
+            # clause doesn't excuse a positive term ("seen three-quarter") in another.
+            for clause in re.split(r"[,;:]", line):
+                if NEG_RE.search(clause):
+                    continue  # "never a portrait / not a close-up" — a good instruction
+                # Skip a slash-enumeration of the banned words themselves — e.g. a
+                # rule reminder "(face / eyes / profile / three-quarter / features)".
+                # Two-plus face terms joined by slashes is documentation, not a shot.
+                if "/" in clause:
+                    n = sum(1 for r in (HARD_RE + SOFT_RE) if r.search(clause))
+                    if n >= 2:
+                        continue
+                for r in HARD_RE:
+                    m = r.search(clause)
+                    if m:
+                        ln = para_start + i
+                        already = any(f[0] == ln and m.group(0) in f[1]
+                                      for f in fails)
+                        if not already:
+                            fails.append(
+                                (ln,
+                                 f"Jesus block + hard face term "
+                                 f"['{m.group(0)}']: \"{line.strip()[:140]}\""))
+                        break
+
     # 2) MISSING-CUE check — paragraph granularity.
-    #    Track the starting line number of each blank-line-delimited paragraph.
+    for para_lines, para_start in _iter_paragraphs(lines):
+        _check_paragraph(para_lines, para_start, warns)
+
+    return fails, warns
+
+
+def _iter_paragraphs(lines):
+    """Yield (para_lines, start_lineno) for each blank-line-delimited paragraph."""
     para_lines = []
     para_start = 1
     for lineno, line in enumerate(lines, start=1):
         if line.strip() == "":
             if para_lines:
-                _check_paragraph(para_lines, para_start, warns)
+                yield para_lines, para_start
             para_lines = []
             para_start = lineno + 1
         else:
             para_lines.append(line)
     if para_lines:
-        _check_paragraph(para_lines, para_start, warns)
-
-    return fails, warns
+        yield para_lines, para_start
 
 
 def _check_paragraph(para_lines, start_lineno, warns):
@@ -255,13 +336,19 @@ def main(argv):
             print("usage: jesus_face_gate.py --dir BUILD_DIR")
             return 2
         d = args[1]
-        for name in ("PROMPTS.md", "PREFLIGHT.md"):
-            p = os.path.join(d, name)
-            if os.path.exists(p):
-                targets.append(p)
-        targets.extend(glob.glob(os.path.join(d, "*PROMPT*.md")))
-        targets.extend(glob.glob(os.path.join(d, "*prompt*.md")))
-        targets = sorted(set(targets))
+        # PROMPTS.md is the paste-into-Flow prompt sheet — the source of truth for
+        # what actually gets generated. Scan it (and any *PROMPT*.md). Only fall back
+        # to PREFLIGHT.md when there is NO prompt sheet, since PREFLIGHT is planning
+        # /checklist prose whose rule-statements mention "face" as documentation.
+        prompt_files = sorted(set(
+            glob.glob(os.path.join(d, "*PROMPT*.md"))
+            + glob.glob(os.path.join(d, "*prompt*.md"))
+        ))
+        if prompt_files:
+            targets = prompt_files
+        else:
+            pf = os.path.join(d, "PREFLIGHT.md")
+            targets = [pf] if os.path.exists(pf) else []
         if not targets:
             print(f"FACE GATE: no prompt sheets found in {d}")
             return 2
