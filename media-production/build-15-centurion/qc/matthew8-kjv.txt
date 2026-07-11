@@ -1,0 +1,36 @@
+Matthew 8:5-13 (KJV) — fetched via bible-api.com 2026-07-11
+Source of truth for every red-letter (Jesus-voice) line in this video.
+
+5  And when Jesus was entered into Capernaum, there came unto him a centurion,
+   beseeching him,
+6  And saying, Lord, my servant lieth at home sick of the palsy, grievously
+   tormented.
+7  And Jesus saith unto him, I will come and heal him.
+8  The centurion answered and said, Lord, I am not worthy that thou shouldest
+   come under my roof: but speak the word only, and my servant shall be healed.
+9  For I am a man under authority, having soldiers under me: and I say to this
+   man, Go, and he goeth; and to another, Come, and he cometh; and to my
+   servant, Do this, and he doeth it.
+10 When Jesus heard it, he marvelled, and said to them that followed, Verily I
+   say unto you, I have not found so great faith, no, not in Israel.
+11 And I say unto you, That many shall come from the east and west, and shall
+   sit down with Abraham, and Isaac, and Jacob, in the kingdom of heaven.
+12 But the children of the kingdom shall be cast out into outer darkness: there
+   shall be weeping and gnashing of teeth.
+13 And Jesus said unto the centurion, Go thy way; and as thou hast believed, so
+   be it done unto thee. And his servant was healed in the selfsame hour.
+
+--- RED-LETTER LINES (Jesus voice = exact KJV only) ---
+j1  (v7):     I will come and heal him.
+j2  (v10):    Verily I say unto you, I have not found so great faith, no, not in Israel.
+j2b (v11-12): And I say unto you, That many shall come from the east and west, and
+              shall sit down with Abraham, and Isaac, and Jacob, in the kingdom of
+              heaven. But the children of the kingdom shall be cast out into outer
+              darkness: there shall be weeping and gnashing of teeth.
+j3  (v13):    Go thy way; and as thou hast believed, so be it done unto thee.
+
+--- CENTURION'S OWN WORDS (narrator paraphrase only — NOT the Jesus voice) ---
+v6:  Lord, my servant lieth at home sick of the palsy, grievously tormented.
+v8:  Lord, I am not worthy that thou shouldest come under my roof: but speak the
+     word only, and my servant shall be healed.
+v9:  For I am a man under authority ... I say to this man, Go, and he goeth ...
