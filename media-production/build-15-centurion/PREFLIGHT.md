@@ -58,16 +58,18 @@ it would repeat the video #2 older-brother mistake and would gut the Seed).
   hard racial rule, non-negotiable). His skin is warm MIDDLE-EASTERN tan /
   olive-brown. Audit every render at phone-scale AND high zoom: any pale-
   European tone on him is dead.
-- A SHARP, FIXED FACE for Jesus (Correction #16c). No photoreal portrait that
-  pins down his exact features, and — Cameron's exact words — never a clear
-  side profile that would "profile him into what exactly he looks like." Keep
-  him non-specific: three-quarter, at gentle distance, downcast, in soft
-  shadow, or softly out of crisp focus. The painted cartoon style IS the
-  safeguard — do not push his face toward realism.
-- NO cloaked-figure gimmicks (DEAD under #16, never revive): black-void hood
-  openings, solid-black human cutouts, robe-and-posture-only faceless figure,
-  "seen only from directly behind" as the mandatory framing. He is simply
-  painted as a warm human being now.
+- ANY rendering of the robed figure's likeness — his face from ANY angle
+  (Correction #18, THE #1 LAW, which REVERSED #16's face-showing). The camera
+  never builds or reveals it. He is staged ONLY from behind / over-the-shoulder
+  / at a distance, the back of his head to the camera, hidden by ANGLE (never by
+  light/glow, #12). His warm olive-brown skin and hands MAY show; only the
+  likeness is withheld. The mechanical gate `jesus_face_gate.py` must exit 0 on
+  this build before any credit.
+- The robed figure rendered WHITE / European-pale (Correction #18/#16b). Warm
+  MIDDLE-EASTERN olive-brown only, audited at phone-scale AND high zoom.
+- NO cloaked-figure gimmicks: black-void hoods, solid-black cutouts, a
+  robe-and-posture-only ghost. Under #16/#18 he is a real painted human PRESENCE
+  — just always shown from behind, never face-on.
 - **JESUS GOING TO THE HOUSE or TOUCHING THE SERVANT — the heart of the story
   is remote healing by WORD (STORY LOGIC, not a hiding rule).** The centurion
   prevents the visit (v8); the servant is healed at a distance (v13). Jesus and
@@ -162,19 +164,18 @@ it would repeat the video #2 older-brother mistake and would gut the Seed).
 
 ## Locks (written into EVERY prompt where the figure/prop appears)
 
-**JESUS LOCK (per Correction #16 — real Middle Eastern man, kept non-specific):**
-a first-century Judean man with warm MIDDLE-EASTERN olive-brown skin (NEVER
-white or European-pale), dark shoulder-length hair and a short dark beard, in an
-undyed cream wool robe with a simple mantle. His hands, skin, and hair are
-visible and natural. Kept OMNISCIENT / non-specific: rendered three-quarter,
-from a gentle distance, slightly downcast, or softly out of crisp focus — NEVER
-a sharp photoreal portrait and NEVER a crisp side profile that fixes exactly what
-he looked like. No halo, rim-light, or glow outlining his head (#12). Never
-centered as the compositional star (#9). He stands warm and present at the head
-of a small band of followers in the Capernaum street. He heals BY WORD across
-the town — he NEVER goes to the house and NEVER shares a frame with the servant.
-The softness of the painted style itself keeps him non-specific; do not fight it
-toward realism on his face. Exactly two arms, two hands, two legs.
+**ROBED-FIGURE LOCK (per Correction #18 — the Lord's likeness is NEVER shown):**
+a warm Middle Eastern man with dark shoulder-length hair, in an undyed cream wool
+robe with a simple mantle, ALWAYS seen from behind or over his shoulder with the
+back of his head to the camera and kept away from view; his olive-brown skin and
+hands may show (never pale or European), no halo/rim-light/glow around him (#12).
+Never centered as the compositional star (#9). In the street beats he leads a
+small band of followers, shown from behind. He heals BY WORD across the town — he
+NEVER goes to the house and NEVER shares a frame with the servant. Named in the
+prompt sheet as "[LORD LOCK]" / "the robed figure" so no name or angle invites a
+built likeness; every prompt staging him carries a from-behind / over-the-shoulder
+/ at-a-distance cue (the mechanical face gate confirms it). Exactly two arms, two
+hands, two legs.
 
 **CENTURION LOCK (the Roman officer):** a broad, weathered man in his late
 forties, sun-browned skin, close-cropped iron-gray hair, clean-shaven or short
@@ -186,8 +187,9 @@ pinned at one shoulder, leather strips (pteruges) hanging at the waist and
 shoulders, laced leather sandal-boots, and a SHEATHED short sword at his left
 hip. His rank badge is a centurion's transverse crested helmet (a plumed crest
 running side-to-side across the top) which he carries UNDER HIS ARM / removed in
-the humility beats. Bearing: disciplined, upright, but bowed in reverence when
-before Jesus. Exactly two arms, two hands, two legs.
+the humility beats. Bearing: disciplined, upright, but bowed in reverence
+before the robed figure, who is staged only from behind / over-the-shoulder.
+Exactly two arms, two hands, two legs.
 
 **SERVANT LOCK (the sick youth):** a young household servant in his early
 twenties, olive skin gone gray and clammy with sickness, dark hair damp with
@@ -222,22 +224,22 @@ silhouette and lake throughout.
 | s1 | Capernaum by the lake — Jesus at the head of a small band of followers entering the basalt-stone town, the Sea of Galilee behind; a Roman standard/soldier visible to set the garrison tension | STILL (drift) | v5 setting; establishes home town + occupying army |
 | s2 | The sick servant — a young servant lying paralyzed and gray on a low pallet in a Roman house interior; a helmet and cuirass set aside nearby (the officer has been tending him) | STILL | v6; the need, and that the officer cared enough to sit with a servant |
 | s3 | THE APPROACH (money shot 1) — the centurion in full armor and red cloak striding through a hushed Jewish street, villagers pulling back and staring, helmet on; the enemy's officer walking toward the crowd ahead | STILL then MOTION (Clip B) | v5; the collision of Roman power and a village that fears him; Jesus-free clip |
-| s4 | The plea — the centurion reached Jesus and bowed his head, helmet now under his arm, one fist over his heart; Jesus three-quarter, warm, non-specific, receiving him | STILL | v6/v8 humility; #16 warm-but-non-specific Jesus, #5 both oriented toward each other |
-| s5 | j1 — Jesus, three-quarter and warm, half-turning toward the town as if to go, an open hand offered | STILL | v7 "I will come and heal him"; Jesus offers to come |
-| s6 | "Speak the word only" — the centurion's open hand raised to STAY Jesus, head still bowed, complete conviction on his weathered face; the crowd's surprise | STILL | v8; the Roman stops the Jew from coming — the hinge of the story |
+| s4 | The plea — over-the-shoulder: camera behind the robed figure (back of head to camera, away from view); facing him, the centurion bows his head, helmet under his arm, fist over his heart | STILL | v6/v8 humility; #18 from-behind, #11 over-the-shoulder, #5 both oriented toward each other |
+| s5 | j1 — the robed figure seen from behind, lifting an olive-brown hand toward the town in an offer to come | STILL | v7 "I will come and heal him"; #18 from-behind, hand may show |
+| s6 | "Speak the word only" — the centurion's open hand raised to STAY the robed figure (whose shoulder/hand sits in foreground from behind, away from view), head bowed, quiet conviction | STILL | v8; the Roman stops the coming — the hinge; #18 over-the-shoulder |
 | s7 | Authority vignette — the centurion's world: one legionary striding off at his pointed command, another halted at attention, a servant at a task — obedience at a word | STILL | v9; makes the faith's logic legible (authority acts at a distance) |
-| s8 | Jesus MARVELS — built around the FOLLOWERS: their faces (disbelief, offense, wonder) turned toward the moment; Jesus present three-quarter, warm, gesturing back toward the Roman; gazes converge on him | STILL | v10; #9 people-built reaction, #11 gazes converge, #16 warm Jesus |
+| s8 | He marvels — built around the FOLLOWERS: their faces (disbelief, offense, wonder) converge on one point; the robed figure stands there seen from behind, one hand toward the Roman | STILL | v10; #9 people-built reaction, #11 gazes converge, #18 from-behind |
 | s9 | East and west — a wide honest-daylight vista: open roads reaching to far horizons on both sides, small groups of travelers of many nations coming from both directions toward the town and lake | STILL | v11-12 (j2b); the door opened wide, staged calm and inclusive, honest day |
-| s10 | j3 — Jesus turning back to the centurion with a warm, final word; the officer beginning to straighten, about to turn for home | STILL | v13a "Go thy way; as thou hast believed..."; the word that heals |
-| s11 | THE HEALING AT A DISTANCE (money shot 2) — back in the house, the young servant draws a sudden clean breath, color flooding back, sitting up whole and alone; NO ONE else there, Jesus NOT present | STILL then MOTION (Clip A) | v13b selfsame hour; still first per #10; Jesus-free clip, lowest risk |
+| s10 | j3 — the robed figure seen from behind turning back toward the centurion, lifting a hand in a warm final word; the officer straightening, about to turn for home | STILL | v13a "Go thy way; as thou hast believed..."; #18 from-behind |
+| s11 | THE HEALING AT A DISTANCE (money shot 2) — back in the house, the young servant draws a sudden clean breath, color flooding back, sitting up whole and alone; NO ONE else there, the robed figure NOT present | STILL then MOTION (Clip A) | v13b selfsame hour; still first per #10; clip free of the robed figure, lowest risk |
 | s12 | The reunion — the centurion arrives home and stops in the doorway: his servant on his feet, well; the hard officer's hand over his mouth, composure quietly breaking | STILL | the pack's shot 6; faith met by proof, warm human close |
 | card | Pack card verbatim, ~13-14s, read aloud gently | CARD | Readable-Card Law |
 
 Credit plan: 12 stills (free, Nano Banana 2) + 2 Veo clips (Clip A healing,
 Clip B street approach) = ~20 credits. Story-Fit Rule: standard story, 2 clips
-is the normal band. **Both clips are Jesus-free frames** (the servant's rising,
-the centurion's street approach) — lowest #16 violation risk; Jesus appears
-warmly only in the STILLS, where his rendering is fully controlled.
+is the normal band. **Both clips are free of the robed figure** (the servant's
+rising, the centurion's street approach) — lowest #18 risk; the robed figure
+appears only in STILLS, always staged from behind / over-the-shoulder.
 
 ## Narration pre-flight (checked before any audio)
 - Every beat s1-s12 + card has narration — no silent visual beats (No-Dead-Air
