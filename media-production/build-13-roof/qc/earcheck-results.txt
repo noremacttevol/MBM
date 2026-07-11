@@ -1,0 +1,18 @@
+[OK ] n0  match=1.00
+[OK ] n1  match=0.97
+[OK ] n2  match=0.99
+[OK ] n3  match=1.00
+[OK ] n4  match=0.98
+[OK ] n5  match=1.00
+[OK ] j1  match=1.00
+[OK ] n6  match=1.00
+[OK ] n7  match=1.00
+[OK ] n8  match=1.00
+[OK ] j2  match=1.00
+[OK ] n9  match=0.94
+[OK ] j3  match=1.00
+[OK ] n10  match=0.98
+[OK ] n11  match=0.96
+[OK ] n12  match=0.96
+
+All narration segments verified against script.

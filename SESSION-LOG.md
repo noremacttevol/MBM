@@ -27,6 +27,25 @@
 
 ---
 
+## 2026-07-11 (pt.43) — Video #13 "Through the Roof" BUILT (Machine A / Dev), awaiting Cameron's approval
+- What we did: resumed #13 on Machine A (hostname `Dev` — added to MACHINE-IDENTITY table).
+  Rebuilt s8 under Correction #16 (Jesus a real Middle Eastern man from behind, no
+  readable face, warm tan skin, no head-glow; rejected a 2nd candidate that showed a
+  clear side profile). Generated the 2 Veo 3.1 Fast clips (lowering ← s4, rise ← s9,
+  20 credits), passed per-second limb-count QC. Found the banked s4/s9 stills were
+  DIFFERENT variants than the clip start-frames → re-downloaded each clip's exact
+  source still at 2K so still→clip cuts are seamless. Ear-check 16/16. Assembled and
+  ran the full self-revision loop (silence scan, frame-strip, KJV cream-italic, style).
+- What changed: build-13-roof/assets (new s8, re-synced s4/s9, 2 clips), final
+  `mark-2_man-through-the-roof.mp4` (1080x1920, 20.0 MB, 334.0s, -15 LUFS).
+  MACHINE-IDENTITY.md (Dev → Machine A). Old invalidated stills kept as *.bak.
+- What is now true: #13 is fully built and passed self-revision; ffmpeg/ffprobe are
+  present on this machine (the old blocker is gone).
+- What's next: Cameron watches `mark-2_man-through-the-roof.mp4` for the final yes.
+  On yes → mark #13 DONE + delivery pipeline, then Machine A's next is #16 Mary/Martha.
+- Credits this session: 20 (2 Veo clips; all stills 0-credit Nano Banana 2).
+- Commit: (this commit)
+
 ## 2026-07-11 (pt.42) — MACHINE IDENTITY FIX: every computer now knows who it is by hostname
 - What we did: Cameron caught a real coordination bug — because every computer runs Claude Code on the SAME repo, a "this machine = linux desktop" note in a shared file is read by ALL machines, so they can't tell each other apart. This session had mislabeled itself Machine A ("linux desktop") when Cameron says THIS box is Machine C ("Linux desktop number two"). Fix: created MACHINE-IDENTITY.md — a hostname→machine table. This computer's hostname is `cameron-lovett-MS-7C91` = Machine C / "Linux desktop number two" (confirmed by Cameron). New first-action rule added to the top of CLAUDE.md: run `hostname`, look it up in that table, and NEVER trust a "this machine = ..." sentence in any other file. Other machines self-register their own hostname row when they next run.
 - What changed in the app (files/commits): MACHINE-IDENTITY.md (new), CLAUDE.md (new "know which computer you are" first-action block above the session chain), SESSION-LOG.md (this entry).

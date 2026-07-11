@@ -28,7 +28,7 @@ more mix-up.
 | Computer's built-in name (`hostname`) | Which machine it is | Confirmed |
 |---|---|---|
 | `cameron-lovett-MS-7C91` | **Machine C — "Cameron Lovett MS"** (was "Linux desktop number two") | Cameron, 2026-07-11 |
-| _(unknown — fill in when that computer runs)_ | Machine A — "Linux desktop number one" (doing #13) | Cameron, 2026-07-11 |
+| `Dev` | **Machine A — "Linux desktop number one"** (doing #13) | Cameron, 2026-07-11 |
 | _(unknown — fill in when that computer runs)_ | Machine B — "HP laptop" | — |
 | `ElliLovett` | **Elli's Windows laptop (extra worker)** | Cameron, 2026-07-11 |
 
