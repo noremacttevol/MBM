@@ -23,6 +23,9 @@ DONE — regenerated + committed (new look, face-never, no glow):
 - [x] s5-walk-anchor-v4.jpeg      (camera behind Jesus, Peter walks toward him)
 - [x] s11-worship-v3.jpeg         (Jesus back-to-camera, disciples' faces the subject)
 
+GENERATED IN FLOW, not yet downloaded (grab from project 231b1a40... next pass):
+- [~] s9-walk-back  — 2 outputs generated (both men from behind). Open a tile → Download 2K → save s9-walk-back-v2.jpeg.
+
 REMAINING to regenerate (use PROMPTS.md, camera-behind-Jesus):
 - [ ] s3-figure-on-water   (distant figure on the sea — make him a far BACK-turned silhouette or truly tiny, NO forward face)
 - [ ] s7-sink-anchor       (Peter sinks; Jesus's reaching HAND/forearm only, no face)
