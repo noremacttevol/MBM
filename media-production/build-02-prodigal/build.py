@@ -45,7 +45,7 @@ STILL_LEAVING = "shot1-leaving.jpeg"
 STILL_PIGPEN = "shot2-pig-pen.jpeg"
 STILL_ROAD = "shot3-road-home.jpeg"
 STILL_SEEN = "shot4-seen-far-off.jpeg"
-CLIP_RUNS = "clip-father-runs.mp4"
+STILL_RUNS = "Father_running_down_road_2K_202607111606.jpeg"  # was clip-father-runs.mp4 (Phase-1 stills-only)
 STILL_EMBRACE = "shot6-embrace.jpeg"
 STILL_FEAST = "shot7-feast.jpeg"
 STILL_BROTHER = "shot8-brother-outside.jpeg"
@@ -79,7 +79,7 @@ SEGMENTS = [
      "He was still a long way off...\nwhen his father saw him.", "n"),
     # MONEY MOMENT — the father runs. Music has already cut to full
     # silence before "The father ran." lands (peak per pack).
-    ("s05", "clip", CLIP_RUNS, 8.0, None,
+    ("s05", "still", STILL_RUNS, 8.0, "in",
      "The father ran.\nOld men in that world did not run.\n"
      "It was beneath their dignity.\nHe ran anyway.", "n"),
     # Stillness after motion lands harder — the embrace, held long.

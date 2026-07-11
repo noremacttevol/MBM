@@ -45,7 +45,7 @@ STILL_BOOTH = "shot1b-booth.jpeg"
 STILL_BLOCKED = "shot2-blocked.jpeg"
 STILL_RUN = "shot3-run.jpeg"
 STILL_CLIMB = "shot4-climb.jpeg"
-CLIP_LOOKUP = "clip-looked-up.mp4"
+STILL_LOOKUP = "shot-lookup-anchor.jpeg"  # was clip-looked-up.mp4 (Phase-1 stills-only); Jesus from behind, face never shown
 STILL_LIT = "shot5-lit.jpeg"
 STILL_DOORWAY = "shot-doorway.jpeg"
 STILL_COMEDOWN = "shot6-comedown.jpeg"
@@ -108,7 +108,7 @@ SEGMENTS = [
      "distance. He would have settled for that.", "n"),
     # MONEY MOMENT — the look up. bed1 fully out at 91.9; sacred quiet.
     # 8s Veo clip stretched to 8.4s (setpts 1.05) to bridge to j1a.
-    ("n4", "clip", CLIP_LOOKUP, 0, 8.4, None,
+    ("n4", "still", STILL_LOOKUP, 0, 8.4, "in",
      "He got far more. Jesus stopped — under\n"
      "that exact tree — looked up,\n"
      "and called him by name.", "n"),

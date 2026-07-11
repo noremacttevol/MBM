@@ -38,7 +38,7 @@ ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "16",
        "-pix_fmt", "yuv420p", "-r", str(FPS), "-an"]
 
 S1 = "s1-chamber.jpeg"
-CLIP = "s2-street.mp4"
+STILL_STREET = "Elderly_man_walks_Jerusalem_street_202607111625.jpeg"  # was s2-street.mp4 (Phase-1 stills-only)
 S3 = "s3-threshold.jpeg"
 S4 = "s4-conversation.jpeg"
 S5 = "s5-womb-question.jpeg"
@@ -68,7 +68,7 @@ SEGMENTS = [
      "teacher from Galilee. His seat,\n"
      "his standing, his name.", "n"),
     # MONEY MOMENT — the night street. Held beat (the pack's own law).
-    ("n1", "clip", CLIP, 0, 8.4, None,
+    ("n1", "still", STILL_STREET, 0, 8.4, "in",
      "So he came at night.", "n"),
     # n2 — the knock; the "we know" study gem.
     ("n2a", "still", S3, 0, 16.65, "in",

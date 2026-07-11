@@ -49,11 +49,11 @@ only, face gate must pass. Nothing legacy to redo.
 
 | # | Story | File | Status |
 |---|-------|------|--------|
-| 01 | Woman who touched his cloak | mark-5_cloak | DONE (old) — REDO IN PROGRESS 2026-07-11 Machine A (Dev): stills-only + regenerate Jesus to new look (face-never, hair/skin shown, no hood/glow) |
-| 02 | Prodigal Son | luke-15_prodigal | DONE (old) — REDO IN PROGRESS 2026-07-11 Machine A (Dev): stills-only + Jesus new look |
-| 03 | Zacchaeus | luke-19_zacchaeus | DONE (old) — REDO IN PROGRESS 2026-07-11 Machine A (Dev): stills-only + Jesus new look |
-| 04 | Nicodemus | john-3_nicodemus | DONE (old) — REDO IN PROGRESS 2026-07-11 Machine A (Dev): stills-only + Jesus new look |
-| 05 | Bent Woman | luke-13_bent-woman | DONE (old) — REDO IN PROGRESS 2026-07-11 Machine A (Dev): stills-only + Jesus new look |
+| 01 | Woman who touched his cloak | mark-5_cloak | REDONE 2026-07-11 Machine A (Dev) — stills-only; Jesus new look (s03 walking-away no-hood dark hair; s09 "who touched" from directly behind; s07 hem clip→hand-on-tassels still). Awaiting Cameron approval |
+| 02 | Prodigal Son | luke-15_prodigal | REDONE 2026-07-11 Machine A (Dev) — stills-only (father-runs clip→new painted running still); parable, no Jesus figure. Awaiting Cameron approval |
+| 03 | Zacchaeus | luke-19_zacchaeus | REDONE 2026-07-11 Machine A (Dev) — stills-only (lookup clip→anchor still); Jesus already new look (from-behind, dark hair, no hood every beat). Awaiting Cameron approval |
+| 04 | Nicodemus | john-3_nicodemus | REDONE 2026-07-11 Machine A (Dev) — stills-only ("came at night" clip→new painted night-street still); Jesus only ever shown from behind (dark seated figure), never a face. Awaiting Cameron approval |
+| 05 | Bent Woman | luke-13_bent-woman | REDONE 2026-07-11 Machine A (Dev) — stills-only ("she rises" clip→new painted rising still); Jesus only from-behind (s5) / off-frame, never a face. Awaiting Cameron approval |
 | 06 | Two Sons | matthew-21_two-sons | DONE — approved |
 | 07 | Peter walks on water | matthew-14_peter-water | DONE — approved (after V5) |
 | 08 | Lost Coin | luke-15_lost-coin | DONE — approved |

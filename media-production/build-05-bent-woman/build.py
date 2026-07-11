@@ -41,7 +41,7 @@ S2 = "s2-back-wall.jpeg"
 S3 = "s3-he-stops.jpeg"
 S4 = "s4-called-first.jpeg"
 S5 = "s5-before-him.jpeg"
-CLIP = "s6-she-rises.mp4"
+STILL_RISE = "Elderly_woman_standing_up_straight_202607111623.jpeg"  # was s6-she-rises.mp4 (Phase-1 stills-only)
 S7 = "s7-glorified-god.jpeg"
 S8 = "s8-ruler-objects.jpeg"
 S9 = "s9-donkey-watering.jpeg"
@@ -111,7 +111,7 @@ SEGMENTS = [
      "for eighteen years was\n"
      "coming undone.", "n"),
     # THE PEAK — she rises. Veo clip, music dead, sacred quiet first.
-    ("n5b", "clip", CLIP, 0, 8.4, None,
+    ("n5b", "still", STILL_RISE, 0, 8.4, "in",
      "He laid his hands on her. And slowly —\n"
      "for the first time in eighteen years —\n"
      "she stood up straight.", "n"),
