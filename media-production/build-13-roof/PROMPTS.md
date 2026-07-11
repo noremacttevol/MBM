@@ -131,22 +131,25 @@ the camera; the scribes' cold stillness cuts against the room's wonder.
 Every figure has exactly two arms and two hands. Warm lamplight and the
 edge of the daylight shaft graze their faces from one side.
 
-## s8 — HE ANSWERED THEIR THOUGHTS (still — over-the-shoulder, kept non-specific per #16)
+## s8 — HE ANSWERED THEIR THOUGHTS (still — over-the-shoulder from directly BEHIND; Face Law: his face is never shown)
 
-STYLE Over-the-shoulder framing inside the dim packed room: in the lower
-right corner of the frame, soft and close, the back and one shoulder of a
-man in an undyed cream wool robe, seen from behind and slightly to the side
-so his face is turned mostly away — only the far edge of a warm Middle
-Eastern tan cheek and jaw and his dark wavy hair are glimpsed at three-
-quarter, features left soft and unfixed, never a clear front or side
-portrait. His near hand, warm tan skin, rests open and calm at his side. No
-rim-light, halo, or glow outlining his head or hair. Filling the picture
-beyond him, the row of four scribes in fine pale linen and fringed shawls
-sit caught mid-thought, every one of their startled faces locked past the
-camera directly AT him, eyes wide, beards stiff, one hand frozen on a knee —
-men whose silent thoughts have just been answered out loud. Behind the
-scribes the crowd watches them being watched. Every gaze in the frame
-converges on him. Every figure has exactly two arms and two hands.
+STYLE Over-the-shoulder framing from directly BEHIND a man in an undyed
+cream wool robe: the camera sits low and behind him, so we see ONLY the back
+of his head — dark wavy hair — and the back of his cream-robed shoulders and
+upper back, close in the lower foreground of the frame. His head is turned
+completely away from the camera; nothing of the front of his head is ever
+visible — no cheek, no profile, no eye, no nose, no mouth — only the back of
+his head and his hair. His near hand, warm Middle Eastern tan skin, rests
+open and calm at his side. No rim-light, halo, or glow outlining his head or
+hair. Filling the picture beyond him, the row of four scribes in fine pale
+linen and fringed shawls sit on a low bench caught mid-thought, every one of
+their startled faces looking up and past the camera directly AT him — the
+robed man whose back we see — eyes wide, beards stiff, one hand frozen on a
+knee, as if their silent unspoken thoughts had just been answered out loud.
+Behind the scribes the packed crowd watches them being watched. Every gaze
+in the frame converges on the robed man's back. His skin is warm Middle
+Eastern tan, never pale or white. Every figure has exactly two arms and two
+hands.
 
 ## s9 — ARISE (still)
 

@@ -119,16 +119,17 @@ tunic, (3) a wiry gray-bearded older man in a gray-brown tunic,
 (4) a round-faced man with a short brown beard in a dark olive tunic.
 All dusty, sweat-streaked, rope belts. Exactly four, every roof scene.
 
-**JESUS LOCK (per Correction #16):** a real Middle Eastern man in an
-undyed cream wool robe — warm tan/olive skin, dark wavy hair, and hands
-visible; NEVER white. Kept omniscient: seen three-quarter, from behind or
-beside, at distance, or in soft focus so his exact features are never
-fixed, and NEVER a clear front or side portrait. No rim-light, halo, or
-glow on or around his head. When present he is never centered, never the
-compositional star, never staged inside the light shaft (that light
-belongs to the man on the mat); in beats where the text keeps him back he
-may sit at the frame's edge or off-frame, but he is no longer a hooded
-void.
+**JESUS LOCK (per the FACE LAW — supersedes the earlier #16 "show his
+face" wording, 2026-07-11):** a real Middle Eastern man in an undyed cream
+wool robe — warm tan/olive skin, dark wavy hair, and hands may show; NEVER
+white. His FACE IS NEVER SHOWN OR PROMPTED: the camera renders him ONLY
+from directly behind, over-the-shoulder, or at a distance — back of the
+head and hair only, no cheek, no profile, no eye, no nose, no mouth, at any
+zoom. Hide the face by ANGLE, never by light: no rim-light, halo, or glow
+on or around his head. He is never centered, never the compositional star,
+never staged inside the light shaft (that light belongs to the man on the
+mat). Only s8 shows him in this video (over-the-shoulder from directly
+behind); every other beat keeps him off-frame.
 
 **PROP LOCK — THE MAT/BED:** a woven reed sleeping mat with a rolled
 edge, a rope tied at each of its four corners for the lowering. Same mat
@@ -152,9 +153,9 @@ shaft. Consistent size/position once opened (s4 onward).
 | s3 | On the roof: four men tearing through clay, dust, grins | STILL | the audacity beat; motion saved for the money shot |
 | s4 | THE LOWERING — interior, ceiling cracks open, light shaft, mat descending on four ropes | STILL then MOTION (10cr) | the money shot of the whole film; still first per #10 |
 | s5 | THEIR faith — from below, four dusty faces ringing the hole against the sky | STILL | v5 belongs to these faces |
-| s6 | "Son, thy sins be forgiven thee" — close on the mat-man's face in the dusty light, undone | STILL | Jesus off-frame; the man's relief IS the miracle |
-| s7 | The scribes — stern faces reasoning in the shadowed corner | STILL | v6-7, the silent objection |
-| s8 | "Whether is it easier" — over-the-shoulder past Jesus's shoulder (real Middle Eastern man, face soft/turned away per #16) toward the scribes | STILL | he answers thoughts |
+| s6 | "Son, thy sins be forgiven thee" — close on the paralyzed mat-man in the dusty light, undone | STILL | the speaker is off-frame (not shown); the man's relief IS the miracle |
+| s7 | The scribes — stern, reasoning in the shadowed corner | STILL | v6-7, the silent objection |
+| s8 | "Whether is it easier" — over-the-shoulder from directly behind him (real Middle Eastern man, only the back of his head and hair shown, turned fully away) toward the scribes | STILL | he answers thoughts; Face Law: never shown |
 | s9 | ARISE — the man rising to his feet in the light shaft, legs trembling, crowd recoiling in awe | STILL then MOTION (10cr) | the payoff earns motion; still first per #10 |
 | s10 | Out the door before them all, mat under his arm; roofline friends celebrating | STILL | v12 amazement + the pack's roofline beat |
 | card | Pack card verbatim, ~13s, read aloud | CARD | Readable-Card Law |
