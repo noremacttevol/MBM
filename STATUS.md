@@ -44,6 +44,7 @@ this file is the at-a-glance summary of it.
 | 03 | Zacchaeus (Luke 19) | 4:09 | redone ✔ | [▶ watch](media-production/build-03-zacchaeus/luke-19_zacchaeus.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-03-zacchaeus/luke-19_zacchaeus.mp4) |
 | 04 | Nicodemus at Night (John 3) | 6:07 | redone ✔ | [▶ watch](media-production/build-04-nicodemus/john-3_nicodemus.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-04-nicodemus/john-3_nicodemus.mp4) |
 | 05 | The Bent-Over Woman (Luke 13) | 4:38 | redone ✔ | [▶ watch](media-production/build-05-bent-woman/luke-13_bent-woman.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-05-bent-woman/luke-13_bent-woman.mp4) |
+| 11 | Calming the Storm (Mark 4) | 4:24 | rework built 🟡 | [▶ watch](media-production/build-11-storm/mark-4_calming-the-storm.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-11-storm/mark-4_calming-the-storm.mp4) |
 | 13 | Man Through the Roof (Mark 2) | 5:34 | redone ✔ | [▶ watch](media-production/build-13-roof/mark-2_man-through-the-roof.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-13-roof/mark-2_man-through-the-roof.mp4) |
 | 14 | Ten Lepers (Luke 17) | 4:34 | **APPROVED** ✅ | [▶ watch](media-production/build-14-ten-lepers/luke-17_ten-lepers.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-14-ten-lepers/luke-17_ten-lepers.mp4) |
 | 15 | Centurion's Servant (Matthew 8) | 5:08 | **built — awaiting Cameron** 🟡 | [▶ watch](media-production/build-15-centurion/matthew-8_centurion.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-15-centurion/matthew-8_centurion.mp4) |
@@ -66,8 +67,11 @@ rebuilt to the new standard — the finished file will replace the old one.
 | 08 | Lost Coin (Luke 15) | [▶ old cut](media-production/build-08-lost-coin/luke-15_lost-coin.mp4) | Machine C | queued (redo #6–#10) |
 | 09 | Rich Young Ruler (Mark 10) | [▶ old cut](media-production/build-09-rich-ruler/mark-10_rich-young-ruler.mp4) | Machine C | queued (redo #6–#10) |
 | 10 | Woman at the Well (John 4) | [▶ old cut](media-production/build-10-well/john-4_woman-at-the-well.mp4) | Machine C | queued (redo #6–#10) |
-| 11 | Calming the Storm (Mark 4) | [▶ old cut](media-production/build-11-storm/mark-4_calming-the-storm.mp4) | Elli's laptop | Jesus stills restaged (#18); clips to remove |
 | 12 | Blind Bartimaeus (Mark 10) | *no file yet* | Elli's laptop | building (stills-only, #18) |
+
+*(06, 08, 10 were approved as OLD cuts and still play; they're queued for the
+stills-only + face-never redo. 09 is in the rework queue. 07's new stills are
+already being regenerated.)*
 
 ---
 
@@ -88,7 +92,7 @@ live in [`media-production/VIDEO-ASSIGNMENTS.md`](media-production/VIDEO-ASSIGNM
 
 ## 📈 Count
 
-- **Redone to new standard:** 8 (01–05, 13, 14, 15) — of which **1 approved (14)**, 7 awaiting rewatch.
-- **In progress:** 7 (06–12).
+- **Built to new standard:** 9 (01–05, 11, 13, 14, 15) — **1 approved (14)**, 8 awaiting your rewatch.
+- **In progress (redo / building):** 6 (06–10, 12).
 - **Not started (Wave One):** 5 (16–20).
 - **Total in the plan:** 200.
