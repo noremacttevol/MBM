@@ -66,8 +66,8 @@ rebuilt to the new standard — the finished file will replace the old one.
 | 06 | Two Sons (Matthew 21) | [▶ old cut](media-production/build-06-two-sons/matthew-21_two-sons.mp4) | Machine C | queued (redo #6–#10) |
 | 07 | Peter Walks on Water (Matthew 14) | [▶ old cut](media-production/build-07-peter-water/matthew-14_peter-walks-on-water.mp4) | Machine C | stills being regenerated (from behind) |
 | 08 | Lost Coin (Luke 15) | [▶ old cut](media-production/build-08-lost-coin/luke-15_lost-coin.mp4) | Machine C | queued (redo #6–#10) |
-| 09 | Rich Young Ruler (Mark 10) | [▶ old cut](media-production/build-09-rich-ruler/mark-10_rich-young-ruler.mp4) | Machine C | queued (redo #6–#10) |
-| 10 | Woman at the Well (John 4) | [▶ old cut](media-production/build-10-well/john-4_woman-at-the-well.mp4) | Machine C | queued (redo #6–#10) |
+| 09 | Rich Young Ruler (Mark 10) | [▶ old cut](media-production/build-09-rich-ruler/mark-10_rich-young-ruler.mp4) | Elli's laptop | rebuilding now (stills-only, s7 regenerated fully-behind) |
+| 10 | Woman at the Well (John 4) | [▶ old cut](media-production/build-10-well/john-4_woman-at-the-well.mp4) | Elli's laptop | rebuilding now (strip 2 clips → stills; #18 already passes) |
 | 16 | Mary and Martha (Luke 10) | *no file yet* | Machine A (Dev) | building fresh (stills-only, face-never) |
 
 *(06, 08, 10 were approved as OLD cuts and still play; they're queued for the
