@@ -445,6 +445,14 @@ works. Then scale the motion budget per story as the Story-Fit Rule allows.
       (Translation Law); Jesus lines are exact KJV, verified against the passage
 - [ ] Read every line ALOUD in your head for TTS traps: clipped phrases
       ("he just went to work"), odd contractions, tongue-twisters — reword now
+- [ ] NUMBER / HOMOPHONE STRESS (added 2026-07-11, Cameron — the placeholder
+      voice read a sentence-initial "Four" flat, like the unstressed "for").
+      The neural voice under-stresses short number words and function-word
+      homophones ("four"/"for", "two"/"to", "one"/"won") when they lead a
+      sentence. Don't open a sentence with a bare number; word it so the number
+      lands as a stressed count — "It took four men to carry him," "There were
+      four of them" — not "Four men came." Ear-check specifically that every
+      number reads as the number, not its homophone.
 - [ ] Voices are `en-US-AndrewNeural` + `en-US-ChristopherNeural` — no
       Multilingual model anywhere (Voice Law)
 - [ ] The closing card text is written to be READ ALOUD by the narrator and the
