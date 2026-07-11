@@ -27,9 +27,12 @@ all seven in the storyboard — nothing to consciously omit.
   ends on their question: what manner of man is this.
 
 ### MUST NEVER SHOW
-- Jesus's face — NEVER, at any distance where a face would read. Hidden
-  by ANGLE only (Correction #12): asleep = face turned away into the
-  cloak's shadow; standing = seen from BEHIND or over-the-shoulder.
+- The front of the Lord is NEVER shown (Correction #18).
+  Hidden by ANGLE only: asleep = the back and top of his head toward the
+  camera; standing = seen from BEHIND or over-the-shoulder; distant = only
+  his back. Under #18 he is a REAL Middle-Eastern man (dark hair, warm
+  olive-brown skin, hood DOWN) seen only from the back — never a hooded
+  void, never white.
 - NO rim-light, halo, glow, or lightning edge-light outlining his head or
   face shape (Correction #12) — CRITICAL in this video: lightning + a
   silhouetted figure is exactly the "glowing outline" trap. Every prompt
