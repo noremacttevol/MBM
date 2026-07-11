@@ -17,9 +17,12 @@ scene painted edge to edge as one unbroken composition filling the entire tall
 frame."
 
 LOCKS (from PREFLIGHT.md, written into every prompt where they appear):
-MAT-MAN, FOUR-FRIENDS, JESUS (behind/over-shoulder/off-frame, zero skin, no
-glow), MAT (reed mat, rope at each corner), HOUSE (black basalt + pale clay
-plaster, flat roof, outside stone stair), ROOF HOLE.
+MAT-MAN, FOUR-FRIENDS, JESUS (real Middle Eastern man — warm tan/olive skin,
+dark hair, and hands visible; kept non-specific: seen three-quarter, from
+behind, at distance, or in soft focus, NEVER a clear front or side portrait;
+never white; no rim-light/halo/glow outlining his head — Correction #16), MAT
+(reed mat, rope at each corner), HOUSE (black basalt + pale clay plaster, flat
+roof, outside stone stair), ROOF HOLE.
 
 ---
 
@@ -128,20 +131,22 @@ the camera; the scribes' cold stillness cuts against the room's wonder.
 Every figure has exactly two arms and two hands. Warm lamplight and the
 edge of the daylight shaft graze their faces from one side.
 
-## s8 — HE ANSWERED THEIR THOUGHTS (still — over-the-shoulder, law #11)
+## s8 — HE ANSWERED THEIR THOUGHTS (still — over-the-shoulder, kept non-specific per #16)
 
 STYLE Over-the-shoulder framing inside the dim packed room: in the lower
-right corner of the frame, soft and close, the back of a hooded head and one
-shoulder of a man in an undyed cream wool robe, the hood fully up, seen from
-directly behind so his face is entirely on the far side away from view, no
-skin visible anywhere on him, his sleeve fallen past his hand, no light or
-glow outlining his head or hood. Filling the picture beyond him, the row of
-four scribes in fine pale linen and fringed shawls sit caught mid-thought,
-every one of their startled faces locked past the camera directly AT the
-hooded man, eyes wide, beards stiff, one hand frozen on a knee — men whose
-silent thoughts have just been answered out loud. Behind the scribes the
-crowd watches them being watched. Every gaze in the frame converges on the
-hooded figure. Every figure has exactly two arms and two hands.
+right corner of the frame, soft and close, the back and one shoulder of a
+man in an undyed cream wool robe, seen from behind and slightly to the side
+so his face is turned mostly away — only the far edge of a warm Middle
+Eastern tan cheek and jaw and his dark wavy hair are glimpsed at three-
+quarter, features left soft and unfixed, never a clear front or side
+portrait. His near hand, warm tan skin, rests open and calm at his side. No
+rim-light, halo, or glow outlining his head or hair. Filling the picture
+beyond him, the row of four scribes in fine pale linen and fringed shawls
+sit caught mid-thought, every one of their startled faces locked past the
+camera directly AT him, eyes wide, beards stiff, one hand frozen on a knee —
+men whose silent thoughts have just been answered out loud. Behind the
+scribes the crowd watches them being watched. Every gaze in the frame
+converges on him. Every figure has exactly two arms and two hands.
 
 ## s9 — ARISE (still)
 
