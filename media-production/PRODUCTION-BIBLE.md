@@ -27,16 +27,21 @@ work an unclaimed video, never work someone else's claim, never regenerate
 assets for a video another machine owns. If the pull shows your intended video
 was just claimed elsewhere, take the next one.
 
-**LAW B — Jesus's face is NEVER shown. At all. Full stop.**
-This is Correction #13 in §1 and it is the single most-violated, most-rejected
-rule in the whole project. Zero views of his face from ANY angle — no frontal,
-no side profile, no three-quarter, no jaw/cheek/nose in shadow. We do not know
-what he looked like, and any depicted face (white, brown, anything) triggers
-part of the audience into disconnecting before the story can reach them. Also
-banned: black-void hood openings and solid-black human cutouts as
-face-substitutes. Camera directly behind, over-the-shoulder, or true distance —
-nothing else. Every render audited at high zoom before banking. Any Claude that
-has not read §1 Corrections #1–#15 in full is not allowed to write a prompt.
+**LAW B — Jesus is shown as a real Middle Eastern man, kept omniscient, never white, never a cloaked figure. (REVERSED 2026-07-11 — see Correction #16 in §1.)**
+This law was formerly "his face is NEVER shown." Cameron REVERSED it on
+2026-07-11: the fully-cloaked, hooded, faceless, skin-hidden figure is DEAD —
+it turned Jesus into an "Assassin's Creed character," which is worse than the
+problem it solved. The new law: Jesus IS depicted as a real human being in the
+painterly storybook style — visible hands, skin, and hair — with warm
+MIDDLE EASTERN tan / olive-brown skin, NEVER white or Caucasian-pale. He is kept
+OMNISCIENT / non-specific: we still do not claim to know his exact face, so
+NO sharp photoreal portrait and NEVER a clear side profile that pins down exactly
+what he looked like — keep his features soft and non-specific (three-quarter,
+distance, downcast, gentle shadow, the cartoon style itself). No hoods required,
+no backs-of-heads required, no zero-skin rule. What still holds: never
+white/Caucasian, and no halo/rim-glow outlining his head (#12). Read Correction
+#16 in full before writing any Jesus prompt. Any Claude that has not read §1
+Corrections #1–#16 in full is not allowed to write a prompt.
 
 **LAW C — Never hold Cameron's computer hostage.**
 The browser automation moves the real mouse and steals window focus. Cameron
@@ -66,8 +71,10 @@ Cameron's credits. Read first, claim first, announce first — then work.
 Every video exists to show one thing: **Jesus is good.** Story-first, scripture-true,
 never argumentative, never preachy. The Jesus Method rules in CLAUDE.md / AGENT-RULES.md
 govern all content. The Two-Voice Law applies: narrator speaks modern; Jesus speaks
-ONLY exact KJV words. Jesus's face is NEVER shown — light, silhouette, hem, feet,
-hands-never-visible. The BOM law holds: these 200 videos stay MILK.
+ONLY exact KJV words. Jesus is shown as a real Middle Eastern man — warm tan/olive
+skin, hands and hair visible — but kept omniscient and never white, never a clear
+profile (Correction #16, which REVERSED the old "face never shown / no skin" rule).
+The BOM law holds: these 200 videos stay MILK.
 
 **The Voice Law (Cameron, 2026-07-07 — permanent):** The Jesus voice is AMERICAN,
 never British — he was not British. Current voices (edge-tts, placeholders until
@@ -255,7 +262,13 @@ words. Nothing here overrides the sacred pause before Jesus's KJV words.
    (behind, over-the-shoulder, hood, distance), never with light effects. Audit
    every Jesus figure at high zoom for edge-glow around the head before
    accepting a still.
-13. **NO view of Jesus's face from ANY angle, and NO face-substitutes (Cameron,
+13. **[SUPERSEDED 2026-07-11 by Correction #16 — kept for history.]** The
+   "never show his face / hoods and backs-of-heads only / void and cutout bans"
+   doctrine below was REVERSED by Cameron on 2026-07-11. Jesus is now shown as a
+   real Middle Eastern man (see #16). The still-valid remnant: never white, and
+   no face-substitute gimmicks (voids, black cutouts) — because he is simply
+   painted as a person now. Original text follows.
+   **NO view of Jesus's face from ANY angle, and NO face-substitutes (Cameron,
    2026-07-10 — storm-11 review).** Not frontal, not side profile, not
    three-quarter, not a jawline or cheek or nose in shadow. We do not know what
    his face looked like, and any depicted face — white, brown, anything —
@@ -272,7 +285,12 @@ words. Nothing here overrides the sacred pause before Jesus's KJV words.
    camera — never the hood opening. Prompts must say positively where the
    camera is and that his face is on the far side, away from view. Every
    render is audited at high zoom for any facial feature before banking.
-14. **NO visible skin on the Jesus figure, ANYWHERE, EVER — and action-logic QC
+14. **[Part (a) SUPERSEDED 2026-07-11 by Correction #16 — part (b) still law.]**
+   The "no visible skin on the Jesus figure" rule of part (a) was REVERSED by
+   Cameron on 2026-07-11; Jesus now shows Middle Eastern skin, hands, and hair
+   (see #16). Part (b), the ACTION-LOGIC LAW, is UNCHANGED and fully in force.
+   Original text follows.
+   **NO visible skin on the Jesus figure, ANYWHERE, EVER — and action-logic QC
    on every scene (Cameron, 2026-07-10 — storm-11 V1 rejection).** Cameron
    rejected storm-11 V1 for two things: (a) he could STILL see a white face on
    the Jesus figure in one of the still+clip combos. "We don't know if he was
@@ -316,6 +334,44 @@ words. Nothing here overrides the sacred pause before Jesus's KJV words.
    cycle in the clip. Prompt the full cycle explicitly and QC per-second
    frames for changed pot positions; a static pose with particle flow is a
    dead render.
+16. **JESUS IS SHOWN AS A REAL MIDDLE EASTERN MAN — visible, warm, omniscient,
+   never white, never a cloaked figure (Cameron, 2026-07-11). THIS REVERSES the
+   cloaked-figure / no-face / no-skin doctrine of Corrections #13 and #14(a) and
+   the old Law B.** Cameron: the fully-hooded, faceless, skin-hidden Jesus turned
+   him into "Assassin's Creed characters," which is wrong and worse than the
+   problem it was meant to solve. The new doctrine, in force for every video from
+   now on:
+   (a) **He is a real person, painted.** Jesus is depicted as a human being in
+   the locked painterly storybook style — his HANDS, SKIN, and HAIR are visible.
+   He is NOT a void, NOT a hooded silhouette, NOT a black cutout, NOT
+   robe-and-posture-only. Hoods-required, backs-of-heads-required, and the
+   zero-skin/no-hands rules are all DEAD.
+   (b) **Middle Eastern, never white.** His skin is warm MIDDLE EASTERN tan /
+   olive-brown. He is NOT white, NOT Caucasian-pale, NOT European. This is the one
+   hard racial rule and it is non-negotiable — the original fear of a white Jesus
+   is solved by making him unmistakably Middle Eastern, NOT by hiding him. Modern
+   Middle Eastern tan, not a lightly-tanned European.
+   (c) **Kept omniscient / non-specific.** We still do not claim to know his exact
+   face. So NO sharp photoreal portrait that fixes his exact features, and —
+   Cameron's exact words — **never a side profile clear enough to "profile him
+   into what exactly he looks like."** Keep his face soft and non-specific:
+   three-quarter, from behind or beside, at distance, downcast, in gentle shadow,
+   or softly out of crisp focus — present, human, warm, and Middle Eastern, but
+   never a fixed identikit of one exact man. The cartoon / non-photoreal style is
+   itself the safeguard that keeps him non-specific; do not fight it toward
+   realism on his face.
+   (d) **What still stands:** never white/Caucasian (b above); no rim-light,
+   halo, or glow OUTLINING his head (#12, unchanged); reverent, never preachy.
+   Everything else about the old hood/back-of-head/zero-skin staging is REVERSED.
+   (e) **Practical staging:** he MAY face the scene, his hands MAY rest, gesture,
+   bless, or touch, his hair shows. Prefer angles and painterly softness that keep
+   his exact features non-fixed (three-quarter, behind, distance, soft light) over
+   a hard frontal or hard profile close-up. The goal changed from HIDE HIM to
+   SHOW HIM WARMLY BUT NON-SPECIFICALLY.
+   Any prompt or already-banked asset still built on the old cloaked-figure
+   staging is now OUT OF DATE and must be restaged under #16 before use. (This
+   includes the #13 Man-through-the-roof stills generated 2026-07-11 under the old
+   rule — they are superseded and need regenerating.)
 These corrections triggered a REDO of peter-water-07 (V2's rescue still fix was
 NOT enough — Cameron rejected V2 too; both motion clips were restaged and
 regenerated for V3; then V3's sinking clip failed the limb-count law and was

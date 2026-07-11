@@ -24,7 +24,7 @@
 | 10 | Woman at the Well | john-4_well | DONE — approved (V3, "thats good on to the next") |
 | 11 | Calming the Storm | mark-4_calming-the-storm | DONE — approved by Cameron 2026-07-11 ("thats good for now") — V3, 60 credits total. Built by **linux desktop** (Cameron assigned machine names 2026-07-11; this machine = "linux desktop") |
 | 12 | Blind Bartimaeus | mark-10_bartimaeus | CLAIMED — 2026-07-11 — Cowork cloud session (first video for this machine) |
-| 13 | Man through the Roof | mark-2_roof | CLAIMED — 2026-07-11 — linux desktop (Machine A rank 1, first video under the new lists) |
+| 13 | Man through the Roof | mark-2_roof | CLAIMED — 2026-07-11 — linux desktop (Machine A rank 1). Stills generated then INVALIDATED same day: the s8 hooded-Jesus still (and all cloaked-figure staging) is superseded by Correction #16 — Jesus prompts + s8 must be rebuilt showing a real Middle Eastern man before assembly. |
 | 14 | Ten Lepers | luke-17_ten-lepers | CLAIMED — 2026-07-11 — Elli's Windows laptop (new extra worker, Cowork desktop session) |
 | 15 | Centurion's Servant | matthew-8_centurion | UNCLAIMED |
 | 16 | Mary and Martha | luke-10_mary-martha | UNCLAIMED |
@@ -36,8 +36,11 @@
 ## Rules recap (full text in PRODUCTION-BIBLE §0 and §1)
 
 - Pull before claiming. Claim before generating. Push the claim immediately.
-- Jesus's face is NEVER shown from any angle (Correction #13). No void-hoods,
-  no black cutouts. Read §1 Corrections #1–#13 in full before writing any prompt.
+- Jesus is shown as a REAL MIDDLE EASTERN MAN — visible hands, skin, hair, warm
+  tan/olive skin, NEVER white; kept omniscient (no sharp portrait, no clear side
+  profile that fixes his exact look). Correction #16 (2026-07-11) REVERSED the old
+  "face never shown / cloaked figure / no skin" rule. Read §1 Corrections #1–#16
+  in full before writing any prompt.
 - Never run Chrome automation without announcing it to Cameron first and getting
   his go-ahead (Law C). Batch clicks into short announced bursts.
 - Each machine works its own build-NN folder only. Shared Flow project is
