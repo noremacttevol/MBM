@@ -29,12 +29,13 @@ Output: mark-4_calming-the-storm.mp4 (SCRIPTURE-NAME LAW),
 """
 import os
 import subprocess
+FF = r"C:/Users/ellil/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin/ffmpeg.exe"
 
 A = "assets"
 S = "segs"
 FPS = 30
-SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
-SERIF_BI = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf"
+SERIF = "C\:/Windows/Fonts/georgia.ttf"
+SERIF_BI = "C\:/Windows/Fonts/georgiai.ttf"
 CREAM = "0xF7F2E9"
 INK = "0x3B2A1E"
 
@@ -92,7 +93,7 @@ SEGMENTS = [
      "when cold wind spills down those\n"
      "slopes, calm water can turn violent\n"
      "in minutes.", "n"),
-    ("n2b", "clip", CLIP_STORM, 1.6, 12.8, None,
+    ("n2b", "still", S3, None, 12.8, "out",
      "This storm was savage even by that\n"
      "lake's standard. Waves broke over the\n"
      "side faster than the men could bail.\n"
@@ -136,7 +137,7 @@ SEGMENTS = [
      "\u201cPeace, be still.\u201d", "kjv"),
     # n6 — the calm clip pays off the still (Correction #10), in TRUE
     # silence; n6 narration begins over it.
-    ("n6a", "clip", CLIP_CALM, 1.6, 12.8, None,
+    ("n6a", "still", S7, None, 12.8, "in",
      "And the wind quit. The sea fell flat —\n"
      "glass flat — with stars where the storm\n"
      "had been,", "n"),
@@ -247,7 +248,7 @@ def caption_overlay(seg_id, dur, text, style):
     if not text:
         return None
     tf = f"{S}/{seg_id}.txt"
-    with open(tf, "w") as f:
+    with open(tf, "w", encoding="utf-8") as f:
         f.write(text)
     if style == "kjv":
         font, size, color = SERIF_BI, 46, "0xFFF3DC"
@@ -255,7 +256,7 @@ def caption_overlay(seg_id, dur, text, style):
         font, size, color = SERIF, 40, "white"
     fade_out = max(0.0, dur - 0.6)
     return (f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
-            f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
+            f"drawtext=fontfile='{font}':textfile={tf}:fontsize={size}:"
             f"fontcolor={color}:line_spacing=14:x=(w-text_w)/2:y=min(h-460\\,h-160-text_h):"
             f"shadowcolor=black@0.85:shadowx=2:shadowy=2:"
             f"box=1:boxcolor=black@0.34:boxborderw=18,"
@@ -281,7 +282,7 @@ def build_still(seg_id, src, dur, zdir, cap, style):
         z = f"1.101-0.10*on/{frames}"
     # Anti-shimmer law: supersample 4320x7680 -> zoompan at 2160x3840 ->
     # lanczos down to 1080x1920.
-    base = (f"[0:v]scale=4320:7680,setsar=1,"
+    base = (f"[0:v]scale=2160:3840:force_original_aspect_ratio=increase,crop=2160:3840,setsar=1,"
             f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"d={frames}:s=2160x3840:fps={FPS},"
             f"scale=1080:1920:flags=lanczos")
@@ -291,7 +292,7 @@ def build_still(seg_id, src, dur, zdir, cap, style):
     if seg_id == "n9b":
         tail = f",fade=t=out:st={dur-1.2}:d=1.2"
     fc = assemble_segment(seg_id, base, dur, cap, style, tail)
-    run(["ffmpeg", "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
+    run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
          "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
 
 
@@ -301,19 +302,19 @@ def build_clip(seg_id, src, stretch, dur, cap, style):
     base = (f"[0:v]setpts={stretch}*PTS,scale=1080:1920:flags=lanczos,"
             f"setsar=1,fps={FPS},unsharp=5:5:0.35:5:5:0.0")
     fc = assemble_segment(seg_id, base, dur, cap, style, "")
-    run(["ffmpeg", "-y", "-i", f"{A}/{src}",
+    run([FF, "-y", "-i", f"{A}/{src}",
          "-filter_complex", fc, "-map", "[v]", "-t",
          str(dur)] + ENC + [f"{S}/{seg_id}.mp4"])
 
 
 def build_card(seg_id, dur, text):
     tf = f"{S}/{seg_id}.txt"
-    with open(tf, "w") as f:
+    with open(tf, "w", encoding="utf-8") as f:
         f.write(text)
-    vf = (f"drawtext=fontfile={SERIF}:textfile={tf}:fontsize=50:"
+    vf = (f"drawtext=fontfile='{SERIF}':textfile={tf}:fontsize=50:"
           f"fontcolor={INK}:line_spacing=22:x=(w-text_w)/2:y=(h-text_h)/2,"
           f"fade=t=in:st=0:d=0.8,fade=t=out:st={dur-0.8}:d=0.8")
-    run(["ffmpeg", "-y", "-f", "lavfi",
+    run([FF, "-y", "-f", "lavfi",
          "-i", f"color=c={CREAM}:s=1080x1920:r={FPS}:d={dur}",
          "-vf", vf] + ENC + [f"{S}/{seg_id}.mp4"])
 
@@ -370,7 +371,7 @@ def main():
     with open(f"{S}/concat.txt", "w") as f:
         for seg in SEGMENTS:
             f.write(f"file '{seg[0]}.mp4'\n")
-    run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", f"{S}/concat.txt",
+    run([FF, "-y", "-f", "concat", "-safe", "0", "-i", f"{S}/concat.txt",
          "-c", "copy", f"{S}/video_silent.mp4"])
 
     # ---- audio: narration at absolute offsets + beds + storm ambience ----
@@ -393,13 +394,13 @@ def main():
     filters.append("".join(labels) +
                    f"amix=inputs={n}:duration=longest:normalize=0,"
                    f"apad=whole_dur={total}[aout]")
-    run(["ffmpeg", "-y"] + inputs + ["-filter_complex", ";".join(filters),
+    run([FF, "-y"] + inputs + ["-filter_complex", ";".join(filters),
          "-map", "[aout]", "-t", str(total), "-c:a", "aac", "-b:a", "160k",
          f"{S}/audio_mix.m4a"])
 
     # ---- loudness law: measure EBU R128, lift toward -15 LUFS ----
     probe = subprocess.run(
-        ["ffmpeg", "-i", f"{S}/audio_mix.m4a", "-af", "ebur128", "-f", "null", "-"],
+        [FF, "-i", f"{S}/audio_mix.m4a", "-af", "ebur128", "-f", "null", "-"],
         capture_output=True, text=True)
     lufs = None
     for line in probe.stderr.splitlines():
@@ -417,7 +418,7 @@ def main():
     size = 0.0
     crf = 21
     for crf in (21, 22, 23, 24, 25):
-        run(["ffmpeg", "-y", "-i", f"{S}/video_silent.mp4",
+        run([FF, "-y", "-i", f"{S}/video_silent.mp4",
              "-i", f"{S}/audio_mix.m4a", "-map", "0:v", "-map", "1:a",
              "-c:v", "libx264", "-preset", "veryslow", "-crf", str(crf),
              "-maxrate", f"{vcap}k", "-bufsize", f"{vcap*2}k",
