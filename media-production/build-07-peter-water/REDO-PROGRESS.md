@@ -29,10 +29,17 @@ GENERATED IN FLOW, not yet downloaded (grab from project 231b1a40... next pass):
 REMAINING to regenerate (use PROMPTS.md, camera-behind-Jesus):
 - [x] s3-figure-on-water-v2.jpeg  DONE (tiny distant dark figure; fishermen's fear fills foreground)
 - [x] s7-sink-anchor-v5.jpeg  DONE (Peter sinking; only Jesus's hand+sleeved forearm, no face/glow)
-- [ ] s8-the-reach         (two hands gripping at the waterline — hands only, no faces)
-- [ ] s9-walk-back         (both men from behind walking to the boat)
-- [x] s12-worship-v2.jpeg  (closing worship, Jesus from behind) DONE
-- [ ] s10-calm-sea         (AUDIT the banked jpeg; regenerate only if a face/glow reads)
+- [x] s9-walk-back-v2.jpeg  DONE (both men from behind, downloaded).
+- [x] s12-worship-v2.jpeg   DONE (closing worship, Jesus from behind).
+- [!] s8-the-reach         AUDITED old s8-the-reach-v2.jpeg: hands-only/no-face is fine, BUT it has a
+                            golden GLOW / light rays from above = BANNED. FIX: reuse the new
+                            s7-sink-anchor-v5 for this beat and DROP s8 from build.py (simplest), OR
+                            regenerate a night grip with NO glow.
+- [ ] s10-calm-sea         AUDIT the banked s10-calm-sea.jpeg (not yet checked this pass); regenerate
+                            only if a face or glow reads on the Lord.
+
+DONE this pass (7 stills, all committed): s1-v2, s3-v2, s5-v4, s7-v5, s9-v2, s11-v3, s12-v2.
+ONLY remaining before rebuild: resolve s8 (reuse s7) + audit s10.
 
 ## After all stills: rebuild pictures-only
 1. Edit `build.py`: change the two `"clip"` segments (CLIP_WALK, CLIP_SINK) to `"still"` using the
