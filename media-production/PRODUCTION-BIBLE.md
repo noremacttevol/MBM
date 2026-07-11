@@ -91,16 +91,26 @@ never as a reason to halt. (This does NOT override Law C: if Cameron himself
 sends any message, still yield the browser instantly — that is HIS interrupt,
 not the AI volunteering to stop.)
 
-**LAW E — Every video contains real MOTION CLIPS at its most important beats
-(Cameron, 2026-07-11).** These are motion pictures, not slideshows. A story told
-only in stills is too boring. At the beats where motion teaches or sways the
-viewer — the moments the story turns on — generate real Flow/Veo clips in the
-locked painted style (they match the stills) and cut them in. Never deliver a
-"video" that is all stills with zero motion. The Story-Fit Rule (§3) sets how
-many: a standard story earns its money moments as clips (typically 2), a
-motion-driven story more. Pick the beats that most need movement to land, and
-animate those. This is not optional — a stills-only delivery is a rejected
-delivery unless the story genuinely has no motion beat AND Cameron agreed first.
+**LAW E — PHASE 1 IS STILLS-ONLY: NO AI-animated clips for now (Cameron,
+2026-07-11 — this REVERSES the earlier LAW E that required motion clips in
+every video).** Cameron's directive: every one of the 200 videos is produced
+as narrated STILLS — beautiful painted pictures with slow Ken Burns drift —
+plus narration, serif captions, the KJV verse card, and the closing question
+card, and **NO Veo/Flow motion clips at all**, for now. WHY: the animated clips
+are where nearly every error and every hours-long rework has come from (a mat
+that rolls itself untouched, a figure rendered as a giant, extra limbs, the
+storm redos) — and each clip costs 10 shared credits, while a still costs 0 and
+regenerates in seconds. Stills-only = faster videos, near-zero rework, no credit
+burn on motion. The goal is to get all 200 done as narrated stills FIRST.
+**PHASE 2 (later, only when Cameron says so):** go back through the finished
+library and drop animated clips into ONLY the specific beats whose motion the
+story genuinely needs — "we will plan on going back through later to have the
+AI-made videos placed where they are needed." Until then, a delivery containing
+any AI-animated clip is OUT OF SPEC. The Story-Fit Rule's clip counts and the
+"money moment" clip guidance in §3 are SUSPENDED for Phase 1 — treat EVERY story
+as all-stills. (Videos already delivered with clips keep them; every new or
+redone build from 2026-07-11 on is stills-only, including #13 through-the-roof,
+whose one remaining clip is being replaced with a still.)
 
 Wasted credits are wasted money. A Claude that generates before reading this
 file and §1, or that collides with another machine's video, is burning
@@ -367,6 +377,11 @@ rough-woven wool and linen in undyed earth colors. No modern objects.
 - The photoreal live-action direction is DEAD (Cameron, 2026-07-08). Never revive it.
 
 ## 3. The Hybrid Pipeline (stills + motion, story decides the mix)
+
+> ⛔ **SUSPENDED FOR PHASE 1 (Cameron, 2026-07-11).** See LAW E in §0: right now
+> every video is STILLS-ONLY — no AI-animated clips. The clip guidance in this
+> section (money moments, Story-Fit clip counts, the motion-budget ceiling)
+> applies to PHASE 2 only, when Cameron reopens clips. Build all-stills until then.
 
 **The format:** narrated storybook videos. Beautiful painted stills carry most of the
 runtime with slow camera drift (Ken Burns) added in assembly. Real animated video

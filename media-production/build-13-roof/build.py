@@ -104,7 +104,11 @@ SEGMENTS = [
      "sermon, the ceiling cracked open.\n"
      "Daylight poured into the dark room\n"
      "through falling dust and straw.", "n"),
-    ("n3b", "clip", CLIP_LOWER, 1.6, 12.8, None,
+    # PHASE-1 STILLS-ONLY (Cameron, 2026-07-11, LAW E): the lowering money-shot
+    # was a Veo clip; replaced with the banked s4 still on the opposite drift so
+    # the peak beat holds and slowly moves while the narration lands. Phase 2 may
+    # restore CLIP_LOWER here.
+    ("n3b", "still", S4, None, 12.8, "out",
      "And down through that column of\n"
      "light, swaying on four ropes, lowered\n"
      "with enormous care, came a man on a\n"
