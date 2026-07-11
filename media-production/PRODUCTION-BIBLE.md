@@ -60,6 +60,30 @@ or sends ANY message mid-burst, STOP the browser work immediately and wait;
 (5) long renders are Flow's job — never sit in the browser waiting; close out,
 work elsewhere, come back in the next announced burst.
 
+**LAW D — Run the whole video to completion; never stop mid-production to check
+in (Cameron, 2026-07-11).** Once Cameron has set a video in motion, the AI does
+the ENTIRE job end to end — every still, every motion clip, narration, assembly,
+QC — and presents ONE finished video. Do NOT stop partway to report progress,
+ask "want me to keep going?", or wait for a nudge. Stopping to ask a question
+Cameron has already answered ("go") is itself the failure. The ONLY two reasons
+to stop are: (1) the video is DONE and ready to show him, or (2) a genuine
+blocker the AI truly cannot resolve itself and must ask about — a real question,
+not a permission check. Progress updates are given WHILE continuing to work,
+never as a reason to halt. (This does NOT override Law C: if Cameron himself
+sends any message, still yield the browser instantly — that is HIS interrupt,
+not the AI volunteering to stop.)
+
+**LAW E — Every video contains real MOTION CLIPS at its most important beats
+(Cameron, 2026-07-11).** These are motion pictures, not slideshows. A story told
+only in stills is too boring. At the beats where motion teaches or sways the
+viewer — the moments the story turns on — generate real Flow/Veo clips in the
+locked painted style (they match the stills) and cut them in. Never deliver a
+"video" that is all stills with zero motion. The Story-Fit Rule (§3) sets how
+many: a standard story earns its money moments as clips (typically 2), a
+motion-driven story more. Pick the beats that most need movement to land, and
+animate those. This is not optional — a stills-only delivery is a rejected
+delivery unless the story genuinely has no motion beat AND Cameron agreed first.
+
 Wasted credits are wasted money. A Claude that generates before reading this
 file and §1, or that collides with another machine's video, is burning
 Cameron's credits. Read first, claim first, announce first — then work.
@@ -372,6 +396,18 @@ words. Nothing here overrides the sacred pause before Jesus's KJV words.
    staging is now OUT OF DATE and must be restaged under #16 before use. (This
    includes the #13 Man-through-the-roof stills generated 2026-07-11 under the old
    rule — they are superseded and need regenerating.)
+17. **RUN TO COMPLETION, AND MOTION CLIPS ARE REQUIRED (Cameron, 2026-07-11).**
+   Two rules from one rebuke: (a) once Cameron has said go, do NOT stop
+   mid-production to check in, report progress-and-wait, or ask "keep going?" —
+   build the ENTIRE video (every still, every motion clip, narration, assembly,
+   QC) and present it ONCE; the only allowed stops are "it's done" or a genuine
+   question the AI cannot answer itself (see §0 Law D). Stopping after he already
+   said go is the failure. (b) EVERY video must contain real MOTION CLIPS at its
+   most important story beats — these are motion pictures, not slideshows; a
+   stills-only delivery is boring and rejected. Use Flow/Veo clips in the locked
+   painted style at the moments motion teaches or sways the viewer (see §0 Law E
+   and §3 Story-Fit). For most stories that is ~2 clips on the money moments; a
+   motion-driven story earns more.
 These corrections triggered a REDO of peter-water-07 (V2's rescue still fix was
 NOT enough — Cameron rejected V2 too; both motion clips were restaged and
 regenerated for V3; then V3's sinking clip failed the limb-count law and was
