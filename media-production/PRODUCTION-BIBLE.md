@@ -599,7 +599,7 @@ new law holds from then on. Nothing lives in anyone's memory. Everything lives h
 ## 8. Session workflow for any AI picking up media work
 
 1. Read CLAUDE.md chain protocol, START-HERE.md, AGENT-RULES.md — then THIS FILE,
-   starting with §0 (the three operating laws) and §1 Corrections #1–#15 IN FULL.
+   starting with §0 (the operating laws) and §1 "The Standing Laws" IN FULL.
 2. `git pull`, then check SESSION-LOG.md top entry AND VIDEO-ASSIGNMENTS.md.
 3. Claim your video on VIDEO-ASSIGNMENTS.md (commit + push the claim) before
    generating anything. Continue the assembly line exactly where it stopped for
