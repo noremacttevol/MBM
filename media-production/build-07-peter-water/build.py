@@ -38,18 +38,21 @@ INK = "0x3B2A1E"
 ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "16",
        "-pix_fmt", "yuv420p", "-r", str(FPS), "-an"]
 
-S1 = "s1-mountain-prayer.jpeg"
-S2 = "s2-boat-storm.jpeg"
-S3 = "s3-figure-on-water.jpeg"
-S4 = "s4-over-gunwale.jpeg"
-CLIP_WALK = "s5-walking-v3.mp4"  # V3 2026-07-09: Peter clearly walking TOWARD Jesus, Jesus facing him arms open (Correction #5)
-S6 = "s6-eyes-on-waves.jpeg"
-CLIP_SINK = "s7-sinking-v4.mp4"  # V4 2026-07-09: Cameron's staging — one arm in the water, one reaching toward Jesus; limb-count QC every frame (Correction #7)
-S8 = "s8-the-reach-v2.jpeg"  # V5 2026-07-09 Cameron's staging: ONE arm gripped by Jesus, other arm down in the water (Correction #7 applies to stills)
-S9 = "s9-walk-back.jpeg"
-S10 = "s10-calm-sea.jpeg"
-S11 = "s11-worship-v2.jpeg"  # V6 2026-07-09: whole-figure radiant Jesus standing BESIDE kneeling Peter — no disembodied hand (Correction #8)
-S12 = "s12-worship.jpeg"
+# 2026-07-11 REDO (Machine C): pictures-only (no AI clips) + Jesus face NEVER shown,
+# no glow, real Middle Eastern man from behind. All Jesus stills regenerated under
+# The Standing Laws. The two former Veo clips (walking, sinking) are now stills.
+S1 = "s1-mountain-prayer-v2.jpeg"   # Jesus from behind, kneeling on the moonlit mountain
+S2 = "s2-boat-storm.jpeg"           # no Jesus — kept
+S3 = "s3-figure-on-water-v2.jpeg"   # tiny distant dark figure; fishermen's fear fills the frame
+S4 = "s4-over-gunwale.jpeg"         # no Jesus — kept
+WALK = "s5-walk-anchor-v4.jpeg"     # (was Veo clip) camera BEHIND Jesus, Peter walks toward him
+S6 = "s6-eyes-on-waves.jpeg"        # no Jesus — kept
+SINK = "s7-sink-anchor-v5.jpeg"     # (was Veo clip) Peter sinking; only Jesus's reaching hand+sleeve
+S8 = "s7-sink-anchor-v5.jpeg"       # the CATCH/grip beats reuse the new rescue still (old s8 had a banned glow)
+S9 = "s9-walk-back-v2.jpeg"         # both men from behind walking to the boat
+S10 = "s10-calm-sea.jpeg"           # wide distant calm sea, figures tiny/no face — kept (audited 2026-07-11)
+S11 = "s11-worship-v3.jpeg"         # Jesus back-to-camera, disciples' faces the subject
+S12 = "s12-worship-v2.jpeg"         # closing worship, Jesus from behind
 
 # (id, kind, source, stretch_or_none, duration_s, zoom_dir, caption, style)
 # Boundaries: 0, 26.7, 52.0, 78.9, 113.8, 126.6, 135.8, 146.6, 197.5,
@@ -115,8 +118,8 @@ SEGMENTS = [
      "One word. And Peter put his leg\n"
      "over the side of that pitching boat,\n"
      "and stood up on the sea.", "n"),
-    # THE MONEY MOMENT — Peter walking on the sea. Veo clip, 8s -> 12.8s.
-    ("n4b", "clip", CLIP_WALK, 1.6, 12.8, None,
+    # THE MONEY MOMENT — Peter walking on the sea. (Redo: still, Ken Burns.)
+    ("n4b", "still", WALK, None, 12.8, "in",
      "And he was doing it. Step after step\n"
      "on the moving water, his eyes fixed\n"
      "on Jesus. For a moment, an ordinary\n"
@@ -127,8 +130,8 @@ SEGMENTS = [
      "Then he noticed the wind tearing at him.\n"
      "He looked down at the waves instead\n"
      "of ahead at Jesus.", "n"),
-    # The sinking — Veo clip, 8s -> 10.8s (v30b).
-    ("n5b", "clip", CLIP_SINK, 1.35, 10.8, None,
+    # The sinking (v30b). (Redo: still, Ken Burns.)
+    ("n5b", "still", SINK, None, 10.8, "out",
      "And the moment his eyes moved, the\n"
      "water stopped holding him. He dropped\n"
      "to his waist, mid-stride, and cried out\n"

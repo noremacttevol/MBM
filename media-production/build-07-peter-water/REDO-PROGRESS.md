@@ -47,3 +47,6 @@ ONLY remaining before rebuild: resolve s8 (reuse s7) + audit s10.
 2. Run with the local static ffmpeg on PATH: `PATH="$PWD/../bin:$PATH" python3 build.py`
    (ffmpeg + ffprobe are in `media-production/bin/`).
 3. Full self-revision QC (ear-check already 15/15; frame-strip for any face/glow), then present to Cameron.
+
+## REBUILD DONE 2026-07-11 (Machine C)
+- matthew-14_peter-walks-on-water.mp4 rebuilt PICTURES-ONLY (both Veo clips -> stills), all Jesus stills face-never/no-glow. 1080x1920, 256s, 24.6MB. QC frames verified (walk beat + catch beat = Jesus from behind / hand-only, no glow). s8 dropped (reused s7). Ready for Cameron.
