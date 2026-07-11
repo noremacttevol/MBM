@@ -68,6 +68,7 @@ rebuilt to the new standard — the finished file will replace the old one.
 | 09 | Rich Young Ruler (Mark 10) | [▶ old cut](media-production/build-09-rich-ruler/mark-10_rich-young-ruler.mp4) | Machine C | queued (redo #6–#10) |
 | 10 | Woman at the Well (John 4) | [▶ old cut](media-production/build-10-well/john-4_woman-at-the-well.mp4) | Machine C | queued (redo #6–#10) |
 | 12 | Blind Bartimaeus (Mark 10) | *no file yet* | Elli's laptop | building (stills-only, #18) |
+| 16 | Mary and Martha (Luke 10) | *no file yet* | Machine A (Dev) | building fresh (stills-only, face-never) |
 
 *(06, 08, 10 were approved as OLD cuts and still play; they're queued for the
 stills-only + face-never redo. 09 is in the rework queue. 07's new stills are
@@ -79,7 +80,6 @@ already being regenerated.)*
 
 | # | Story | File name |
 |---|-------|-----------|
-| 16 | Mary and Martha (Luke 10) | luke-10_mary-martha |
 | 17 | Lazarus (John 11) | john-11_lazarus |
 | 18 | Road to Emmaus (Luke 24) | luke-24_emmaus |
 | 19 | Breakfast on the Shore (John 21) | john-21_shore |
@@ -93,6 +93,6 @@ live in [`media-production/VIDEO-ASSIGNMENTS.md`](media-production/VIDEO-ASSIGNM
 ## 📈 Count
 
 - **Built to new standard:** 9 (01–05, 11, 13, 14, 15) — **1 approved (14)**, 8 awaiting your rewatch.
-- **In progress (redo / building):** 6 (06–10, 12).
-- **Not started (Wave One):** 5 (16–20).
+- **In progress (redo / building):** 7 (06–10, 12, 16).
+- **Not started (Wave One):** 4 (17–20).
 - **Total in the plan:** 200.
