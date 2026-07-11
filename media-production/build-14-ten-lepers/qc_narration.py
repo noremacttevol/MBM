@@ -31,6 +31,10 @@ EQUIV = {
     "5": "five", "000": "thousand", "5000": "five thousand",
     "two": "two", "2": "two", "3": "three", "6": "six",
     "18": "eighteen", "38": "thirty eight",
+    # #14 trap: KJV "shew" (j1) is heard by whisper as "show" — same sound,
+    # correct audio; the Jesus voice speaks exact KJV "shew yourselves".
+    "shew": "show",
+    "10": "ten", "9": "nine",
 }
 
 
