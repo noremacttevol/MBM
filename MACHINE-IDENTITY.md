@@ -27,14 +27,27 @@ more mix-up.
 
 | Computer's built-in name (`hostname`) | Which machine it is | Confirmed |
 |---|---|---|
-| `cameron-lovett-MS-7C91` | **Machine C — "Linux desktop number two"** | Cameron, 2026-07-11 |
-| _(unknown — fill in when that computer runs)_ | Machine A — "linux desktop" | — |
+| `cameron-lovett-MS-7C91` | **Machine C — "Cameron Lovett MS"** (was "Linux desktop number two") | Cameron, 2026-07-11 |
+| _(unknown — fill in when that computer runs)_ | Machine A — "Linux desktop number one" (doing #13) | Cameron, 2026-07-11 |
 | _(unknown — fill in when that computer runs)_ | Machine B — "HP laptop" | — |
 | `ElliLovett` | **Elli's Windows laptop (extra worker)** | Cameron, 2026-07-11 |
 
 > To add your computer: run `hostname`, put the result in a new/blank row next to
 > the machine Cameron says it is, and commit + push. Each computer only ever
 > writes its OWN row.
+
+## Which videos each machine does (Cameron, 2026-07-11 — rotate every 3)
+
+The numbered videos rotate across the three main machines, three at a time:
+
+- **Machine A — "Linux desktop number one":** #13, #16, #19, #22, #25, #28, #31 …
+- **Machine B — "HP laptop":** #14, #17, #20, #23, #26, #29, #32 …
+- **Machine C — "Cameron Lovett MS" (this box):** **#15, #18, #21, #24, #27, #30, #33 …**
+
+Claim your machine's next UNCLAIMED number on `media-production/VIDEO-ASSIGNMENTS.md`
+(pull, claim, push) BEFORE generating anything. Extra workers (e.g. Elli's laptop,
+a cloud session) take whatever is still unclaimed, never a number another machine
+owns in its rotation.
 
 ## What this changes
 
