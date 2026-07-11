@@ -112,6 +112,19 @@ as all-stills. (Videos already delivered with clips keep them; every new or
 redone build from 2026-07-11 on is stills-only, including #13 through-the-roof,
 whose one remaining clip is being replaced with a still.)
 
+**LAW F — STANDING AUTHORIZATION: never stop to ask for permission you already have
+(Cameron, 2026-07-11).** When Cameron has set video work in motion — a claim, an
+assignment, or a redo he told you to do — spending Flow credits and running announced
+Chrome bursts are ALREADY approved. Do NOT stop to ask "can I spend credits?", "should I
+use Chrome?", "is this okay?", or any variation. That approval is standing; asking again
+for it is itself the failure (Cameron: "what a dumb question... I need a rule to keep you
+from stopping for dumb questions"). Announce the Chrome burst (so he knows his mouse may
+move) and START — do not wait for a "go." The ONLY things that may stop you: (1) the work
+is DONE, or (2) a genuine TECHNICAL blocker you cannot resolve yourself (e.g. Chrome is
+not connected to this machine, a file is missing) — reported with the specific reason and
+what you need, never as a permission check. A question Cameron has already answered ("yes,
+do it") must never be re-asked.
+
 Wasted credits are wasted money. A Claude that generates before reading this
 file and §1, or that collides with another machine's video, is burning
 Cameron's credits. Read first, claim first, announce first — then work.
