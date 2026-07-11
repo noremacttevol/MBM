@@ -25,7 +25,7 @@
 | 11 | Calming the Storm | mark-4_calming-the-storm | DONE — approved by Cameron 2026-07-11 ("thats good for now") — V3, 60 credits total. Built by **linux desktop** (Cameron assigned machine names 2026-07-11; this machine = "linux desktop") |
 | 12 | Blind Bartimaeus | mark-10_bartimaeus | CLAIMED — 2026-07-11 — Cowork cloud session (first video for this machine) |
 | 13 | Man through the Roof | mark-2_roof | CLAIMED — 2026-07-11 — linux desktop (Machine A rank 1, first video under the new lists) |
-| 14 | Ten Lepers | luke-17_ten-lepers | UNCLAIMED |
+| 14 | Ten Lepers | luke-17_ten-lepers | CLAIMED — 2026-07-11 — Elli's Windows laptop (new extra worker, Cowork desktop session) |
 | 15 | Centurion's Servant | matthew-8_centurion | UNCLAIMED |
 | 16 | Mary and Martha | luke-10_mary-martha | UNCLAIMED |
 | 17 | Lazarus | john-11_lazarus | UNCLAIMED |
