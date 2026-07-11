@@ -37,7 +37,7 @@ video #2 older-brother mistake).
   visible change. THE peak of the film; total silence lands here.
 - ONE turned back when he SAW he was healed, praising God with a LOUD
   voice (v15) — the return is loud, public, running.
-- Fell on his FACE at Jesus's feet, giving thanks (v16).
+- Fell prostrate at Jesus's feet, giving thanks (v16).
 - "And he was a Samaritan" (v16) — the outsider. v18 calls him "this
   stranger."
 - j2 = KJV v17-18: "Were there not ten cleansed? but where are the nine?
@@ -52,12 +52,13 @@ video #2 older-brother mistake).
   one hard racial rule, non-negotiable). His skin is warm MIDDLE-EASTERN
   tan / olive-brown. Audit every render at phone-scale AND high zoom: any
   pale-European skin tone on him is dead.
-- A SHARP, FIXED FACE for Jesus (Correction #16c). No photoreal portrait
-  that pins down his exact features, and — Cameron's exact words — never a
-  clear side profile that would "profile him into what exactly he looks
-  like." Keep him non-specific: three-quarter, at gentle distance,
-  downcast, in soft shadow, or softly out of crisp focus. The painted
-  cartoon style IS the safeguard — do not push his face toward realism.
+- ANY VIEW OF THE FRONT of the Jesus figure (Correction #18 — the #1 law).
+  We do not know what he looked like; the camera NEVER renders the front of
+  him. No portrait, no close-up, no front-on view, and nothing that names or
+  builds his features. He is staged ONLY from behind, over-the-shoulder, or
+  at a distance — the viewer sees his back, shoulder, and hair, never more.
+  Hide by ANGLE only, never by glow. (This half of #16 was reversed by #18
+  the same day; the warm Middle-Eastern-not-white half of #16 survives.)
 - NO cloaked-figure gimmicks (dead under #16, but never revive them):
   black-void hood openings, solid-black human cutouts, or a
   robe-and-posture-only faceless figure. He is simply painted as a warm
@@ -177,20 +178,20 @@ every scene. Same road, same village silhouette throughout.
 | s1 | The border road — small band of travelers (Jesus at front, from behind) walking the dusty road between two hill regions | STILL (drift) | v11 setting; establishes journey + the divided land |
 | s2 | Ten wrapped men strung along a rocky rise, far from the road — the GAP of empty stony ground is the subject | STILL | v12; the law-mandated distance IS the picture |
 | s3 | The cry — ten men, hands cupped at wrapped mouths, calling across the gap; below, the travelers stopped, every face turned up toward them | STILL | v13; one desperate voice from ten men |
-| s4 | j1 — Jesus at the head of the travelers, seen three-quarter from a gentle distance, raising a hand toward the ten distant figures on the rise as he speaks; his face soft/non-specific | STILL | #16 warm-but-non-specific; he answers with only a word |
+| s4 | j1 — over-the-shoulder from behind Jesus at the head of the travelers, his back to camera, raising a hand toward the ten distant figures on the rise as he speaks; front never in frame | STILL | #18 face-never; he answers with only a word |
 | s5 | Confusion → first steps — close on wrapped faces looking at still-bound hands, then down the long road; the first of them already turning to walk | STILL | obedience before evidence; the story's hinge |
 | s6 | HEALED MID-STRIDE (money shot) — on the bright road, one man pulls the linen from his hand: new skin; strips falling, joy breaking out | STILL then MOTION (10cr) | the peak; still first per #10 |
 | s7 | The fork — nine jubilant men small on the far road toward the village gate; ONE man stopped, looking back | STILL | v15a; the choice, staged wide |
 | s8 | THE RETURN (money shot 2) — the Samaritan running back alone, robes flying, mouth open in loud praise | STILL then MOTION (10cr) | v15b; gratitude at a run earns motion |
-| s9 | At his feet — the healed man face-down at the feet of Jesus, who stands warm and present in soft focus (Middle Eastern, non-specific), hands lowered/open but NOT touching the man; new hands flat in the dust | STILL | v16; #8 whole-figure presence, #16 warm/non-specific, NO touch |
-| s10 | j2 — wider on the same scene: beyond the kneeling man, the empty road where nine went; Jesus and the disciples' faces turned toward the empty road, asking the same question | STILL | v17-18; the question hangs over an empty road |
+| s9 | At his feet — the healed man prostrate at the feet of Jesus, who stands seen ONLY FROM BEHIND (back to camera, front never in frame), near hand lowered/open but NOT touching the man; new hands flat in the dust | STILL | v16; #18 back-only presence, NO touch |
+| s10 | j2 — wider, from behind Jesus and the disciples looking down the empty road where nine went; whole group turned away, front never shown | STILL | v17-18; the question hangs over an empty road |
 | s11 | j3 + rising — the Samaritan rising to his feet, face wet and shining, standing taller than he has in years | STILL | v19; wholeness standing up |
 | s12 | Going home whole — he walks toward the village, shed linen strips small on the road behind him | STILL | the pack's gold-road ending, staged in honest daylight |
 | card | Pack card verbatim, ~13s, read aloud gently | CARD | Readable-Card Law |
 
 Credit plan: 12 stills (free, Nano Banana 2) + 2 Veo clips = ~20 credits.
 Story-Fit Rule: standard story, 2 clips is the normal band. Both clips are
-Jesus-free frames (healing road, running return) — lowest violation risk.
+free of any holy figure (healing road, running return) — lowest violation risk.
 
 ## Narration pre-flight (checked before any audio)
 - Every beat s1-s12 + card has a narration line — no silent visual beats
