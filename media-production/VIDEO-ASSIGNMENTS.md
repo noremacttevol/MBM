@@ -20,6 +20,13 @@ Run the gate before regenerating any picture: `python3 media-production/jesus_fa
 Each machine redoes ITS OWN video (Law A), in announced Chrome bursts (Law C), only after
 the prompt sheet passes the gate. **Do NOT regenerate another machine's video.**
 
+**REDO ASSIGNMENTS (Cameron, 2026-07-11):**
+- **Videos #1–#5** — another machine (Cameron assigned).
+- **Videos #6–#10** — **CLAIMED by Machine C (Cameron Lovett MS)** — 2026-07-11. #07/#09/#10
+  have their pictures+narration on this box (rebuildable pictures-only here with bin/ffmpeg);
+  #06/#08 have only their scripts here (rendered assets were never pushed — regenerate from the
+  saved prompts, or the machine that built them pushes the assets).
+
 **A. Prompt sheets that FAIL the face gate — restage the Jesus prompts on paper (no credits) first:**
 | Build | Owner | Face-gate | Action |
 |---|---|---|---|
