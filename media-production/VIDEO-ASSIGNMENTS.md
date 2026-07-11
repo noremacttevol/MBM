@@ -26,7 +26,7 @@
 | 12 | Blind Bartimaeus | mark-10_bartimaeus | CLAIMED — 2026-07-11 — Cowork cloud session (first video for this machine) |
 | 13 | Man through the Roof | mark-2_roof | CLAIMED — 2026-07-11 — linux desktop (Machine A rank 1). Stills generated then INVALIDATED same day: the s8 hooded-Jesus still (and all cloaked-figure staging) is superseded by Correction #16 — Jesus prompts + s8 must be rebuilt showing a real Middle Eastern man before assembly. |
 | 14 | Ten Lepers | luke-17_ten-lepers | CLAIMED — 2026-07-11 — Elli's Windows laptop (new extra worker, Cowork desktop session) |
-| 15 | Centurion's Servant | matthew-8_centurion | UNCLAIMED |
+| 15 | Centurion's Servant | matthew-8_centurion | CLAIMED — 2026-07-11 — Cameron Lovett MS (Machine C, rotation rank 1) |
 | 16 | Mary and Martha | luke-10_mary-martha | UNCLAIMED |
 | 17 | Lazarus | john-11_lazarus | UNCLAIMED |
 | 18 | Road to Emmaus | luke-24_emmaus | UNCLAIMED |
@@ -142,7 +142,7 @@
 
 | Rank | Cat# | Story | File | Status |
 |------|------|-------|------|--------|
-| 1 | 15 | Centurion's Servant | matthew-8_centurion | see Wave One table |
+| 1 | 15 | Centurion's Servant | matthew-8_centurion | CLAIMED — 2026-07-11 — Cameron Lovett MS (Machine C) — see Wave One table |
 | 2 | 18 | Road to Emmaus | luke-24_emmaus | see Wave One table |
 | 3 | 21 | The Lost Sheep | luke-15_lost-sheep | UNCLAIMED |
 | 4 | 24 | The Sower | matthew-13_sower | UNCLAIMED |
