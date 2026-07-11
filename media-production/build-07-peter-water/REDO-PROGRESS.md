@@ -24,14 +24,14 @@ DONE — regenerated + committed (new look, face-never, no glow):
 - [x] s11-worship-v3.jpeg         (Jesus back-to-camera, disciples' faces the subject)
 
 GENERATED IN FLOW, not yet downloaded (grab from project 231b1a40... next pass):
-- [~] s9-walk-back  — 2 outputs generated (both men from behind). Open a tile → Download 2K → save s9-walk-back-v2.jpeg.
+- [x] s9-walk-back-v2.jpeg  DONE (downloaded).
 
 REMAINING to regenerate (use PROMPTS.md, camera-behind-Jesus):
 - [ ] s3-figure-on-water   (distant figure on the sea — make him a far BACK-turned silhouette or truly tiny, NO forward face)
 - [ ] s7-sink-anchor       (Peter sinks; Jesus's reaching HAND/forearm only, no face)
 - [ ] s8-the-reach         (two hands gripping at the waterline — hands only, no faces)
 - [ ] s9-walk-back         (both men from behind walking to the boat)
-- [ ] s12-worship          (closing worship, Jesus from behind)
+- [x] s12-worship-v2.jpeg  (closing worship, Jesus from behind) DONE
 - [ ] s10-calm-sea         (AUDIT the banked jpeg; regenerate only if a face/glow reads)
 
 ## After all stills: rebuild pictures-only
