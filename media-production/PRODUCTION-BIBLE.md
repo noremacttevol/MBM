@@ -8,6 +8,21 @@
 > Cameron NEVER writes prompts, never edits clips, never hunts for errors. If the AI
 > finds itself asking Cameron to do any of that, the AI is doing it wrong.
 
+> # 🛑 THE #1 LAW ABOVE ALL OTHERS — NEVER PROMPT JESUS'S FACE (Cameron, 2026-07-11, Correction #18)
+> **We do not know what Jesus looked like. No AI helping make these videos may ever
+> prompt Google Flow for a still or clip that CONSTRUCTS, reveals, or fixes his face.**
+> Every story that invents a face — and a DIFFERENT face each time — pulls the viewer
+> onto the artwork instead of the story, and putting a made-up face on the Lord is not
+> good worship. He is kept a **mystery figure**: a real, warm, MIDDLE EASTERN human
+> presence (never white) seen **from BEHIND, OVER-THE-SHOULDER, or AT A DISTANCE** — you
+> see the person, you never see his face. This is not hard for the model to do; it is the
+> single most important thing to get right, and it is the thing that keeps getting done
+> wrong and wasting Cameron's credits three machines over. Other characters DO show faces
+> (kept consistent within a story). Only Jesus's face is withheld — always.
+> **Before spending ONE Flow credit, every prompt sheet must PASS the mechanical face gate:**
+> `python3 media-production/jesus_face_gate.py --dir <build-folder>` (exit 0 = safe).
+> A prompt sheet that fails the gate is not allowed near Flow. Full rule: §1 Correction #18.
+
 ---
 
 ## 0. THE THREE OPERATING LAWS FOR EVERY CLAUDE ON EVERY COMPUTER (Cameron, 2026-07-10 — read before ANY video work)
@@ -27,21 +42,25 @@ work an unclaimed video, never work someone else's claim, never regenerate
 assets for a video another machine owns. If the pull shows your intended video
 was just claimed elsewhere, take the next one.
 
-**LAW B — Jesus is shown as a real Middle Eastern man, kept omniscient, never white, never a cloaked figure. (REVERSED 2026-07-11 — see Correction #16 in §1.)**
-This law was formerly "his face is NEVER shown." Cameron REVERSED it on
-2026-07-11: the fully-cloaked, hooded, faceless, skin-hidden figure is DEAD —
-it turned Jesus into an "Assassin's Creed character," which is worse than the
-problem it solved. The new law: Jesus IS depicted as a real human being in the
-painterly storybook style — visible hands, skin, and hair — with warm
-MIDDLE EASTERN tan / olive-brown skin, NEVER white or Caucasian-pale. He is kept
-OMNISCIENT / non-specific: we still do not claim to know his exact face, so
-NO sharp photoreal portrait and NEVER a clear side profile that pins down exactly
-what he looked like — keep his features soft and non-specific (three-quarter,
-distance, downcast, gentle shadow, the cartoon style itself). No hoods required,
-no backs-of-heads required, no zero-skin rule. What still holds: never
-white/Caucasian, and no halo/rim-glow outlining his head (#12). Read Correction
-#16 in full before writing any Jesus prompt. Any Claude that has not read §1
-Corrections #1–#16 in full is not allowed to write a prompt.
+**LAW B — Jesus's FACE is NEVER prompted or shown. He is a real, warm, Middle Eastern human figure seen only from behind / over-the-shoulder / at a distance. (Cameron, 2026-07-11 — Correction #18, which REVERSES the face-showing part of #16.)**
+This is the single most important media law and the one that keeps getting broken
+across all three machines. **We do not know what Jesus looked like, so no prompt may
+ever build, reveal, or fix his face** — not frontal, not three-quarter, not a profile,
+not "his face soft and warm," not eyes/cheek/jaw/mouth. Every invented face — different
+in every story — pulls the viewer onto the artwork and is not good worship.
+WHAT STAYS from Correction #16: he is NOT a hooded void, black cutout, or "Assassin's
+Creed" ghost — he IS a real, painted human PRESENCE, warm MIDDLE EASTERN tan/olive-brown
+skin (NEVER white/Caucasian), and his hands and hair may show. WHAT #18 CHANGES: the
+face-showing parts of #16 are dead — the camera NEVER renders his face. Hide it by
+ANGLE only: from behind, over-the-shoulder (camera behind HIM, the people filling the
+frame looking at him — Correction #11), or true distance; partial framing (a sleeve, a
+hem, a reaching hand — Corrections #1/#2) is welcome; a cold full-back is a last resort,
+never in a beat where he acts toward someone (#1). NEVER hide the face with light/glow
+(#12 still holds). Other characters DO show consistent faces within a story — only
+Jesus's face is withheld. **Mechanical gate before any credit:**
+`python3 media-production/jesus_face_gate.py --dir <build-folder>` must exit 0.
+Any Claude that has not read §1 Corrections #1–#18 in full is not allowed to write a
+prompt, and no prompt sheet goes to Flow until the face gate passes.
 
 **LAW C — Never hold Cameron's computer hostage.**
 The browser automation moves the real mouse and steals window focus. Cameron
@@ -95,9 +114,11 @@ Cameron's credits. Read first, claim first, announce first — then work.
 Every video exists to show one thing: **Jesus is good.** Story-first, scripture-true,
 never argumentative, never preachy. The Jesus Method rules in CLAUDE.md / AGENT-RULES.md
 govern all content. The Two-Voice Law applies: narrator speaks modern; Jesus speaks
-ONLY exact KJV words. Jesus is shown as a real Middle Eastern man — warm tan/olive
-skin, hands and hair visible — but kept omniscient and never white, never a clear
-profile (Correction #16, which REVERSED the old "face never shown / no skin" rule).
+ONLY exact KJV words. **Jesus's FACE is NEVER shown or prompted** — he is a real, warm,
+MIDDLE EASTERN human figure (hands and hair may show, never white) seen only from
+behind / over-the-shoulder / at a distance, kept a mystery because we do not know his
+face (Correction #18, which restored the face-never rule and reversed the face-showing
+part of #16; #16's "real human, never a hooded void, Middle-Eastern-not-white" survives).
 The BOM law holds: these 200 videos stay MILK.
 
 **The Voice Law (Cameron, 2026-07-07 — permanent):** The Jesus voice is AMERICAN,
@@ -358,7 +379,16 @@ words. Nothing here overrides the sacred pause before Jesus's KJV words.
    cycle in the clip. Prompt the full cycle explicitly and QC per-second
    frames for changed pot positions; a static pose with particle flow is a
    dead render.
-16. **JESUS IS SHOWN AS A REAL MIDDLE EASTERN MAN — visible, warm, omniscient,
+16. **[FACE-SHOWING PARTS SUPERSEDED 2026-07-11 by Correction #18 — the rest still
+   law.]** Cameron reversed the face-showing parts of #16 THE SAME DAY: Jesus's
+   FACE is once again NEVER shown or prompted (see #18). What SURVIVES from #16 and
+   is still fully in force: he is a REAL painted human, NOT a hooded void / black
+   cutout / "Assassin's Creed" ghost (16a's anti-void half), and his skin is warm
+   MIDDLE EASTERN, NEVER white/Caucasian (16b). What is DEAD: 16a's "his face
+   present," 16c's soft-face/three-quarter allowance, and 16e's "he MAY face the
+   scene" — the camera never renders his face; hide it by angle (behind /
+   over-the-shoulder / distance) per #18. Original #16 text follows for history.
+   **JESUS IS SHOWN AS A REAL MIDDLE EASTERN MAN — visible, warm, omniscient,
    never white, never a cloaked figure (Cameron, 2026-07-11). THIS REVERSES the
    cloaked-figure / no-face / no-skin doctrine of Corrections #13 and #14(a) and
    the old Law B.** Cameron: the fully-hooded, faceless, skin-hidden Jesus turned
@@ -408,6 +438,49 @@ words. Nothing here overrides the sacred pause before Jesus's KJV words.
    painted style at the moments motion teaches or sways the viewer (see §0 Law E
    and §3 Story-Fit). For most stories that is ~2 clips on the money moments; a
    motion-driven story earns more.
+18. **JESUS'S FACE IS NEVER PROMPTED OR SHOWN — he stays a mystery figure seen
+   from behind / over-the-shoulder / at a distance (Cameron, 2026-07-11). THIS
+   REVERSES the face-showing parts of Correction #16 (16a "his face present," 16c
+   "three-quarter/downcast face," 16e "he MAY face the scene"). It restores the
+   face-NEVER rule that governed videos #1–#12.** Cameron, in his own words: we do
+   NOT know what Jesus looked like; a video that constructs a face for him — and a
+   DIFFERENT invented face in every story — makes people focus on the artwork and
+   how it keeps changing, not on the story, and putting a made-up face on the Lord
+   "is not giving good worship to our god." Across all three machines this is THE
+   mistake that keeps wasting his credits: prompts that center Jesus AND build his
+   face. It stops now.
+   (a) **No face, by any means, ever.** No prompt may contain his face, facial
+   features, eyes, gaze, expression, smile, cheek, jaw, nose, mouth, brow, beard, a
+   portrait, a close-up, a "three-quarter" view of him, a frontal or side profile,
+   or "his face is soft/warm/olive." If a sentence names Jesus, it may not name his
+   face. The mechanical FACE GATE enforces this:
+   `python3 media-production/jesus_face_gate.py --dir <build-folder>` — it FAILS on
+   any Jesus-face language and on any Jesus prompt with no face-hiding camera cue.
+   No prompt sheet reaches Flow until the gate exits 0. Add every new face-leaking
+   phrase that slips past it to the gate's FORBIDDEN list in the same session.
+   (b) **Hide by ANGLE, the "mystery character" way Cameron described.** The camera
+   is BEHIND him, OVER-THE-SHOULDER (Correction #11's reliable default — camera
+   behind him, the people filling the frame looking past the camera at him), or at
+   true DISTANCE (a far figure you cannot read a face on). First-person or third-
+   person "from way behind them" is exactly right. Partial framing — a sleeve, a
+   hem, a reaching hand (Corrections #1/#2) — is welcome and keeps a cold full-back
+   from being the only tool; a full back is a last resort and NEVER in a beat where
+   he acts toward someone (#1). NEVER hide the face with light, halo, or glow (#12).
+   (c) **What survives from #16 (do NOT go back to the void).** He is still a REAL,
+   warm, painted HUMAN — his Middle Eastern hands and hair may show, his robe is
+   real cloth — NOT a hooded black void, NOT a solid cutout, NOT an "Assassin's
+   Creed" ghost. The fix for "no white Jesus" is still that he is unmistakably
+   MIDDLE EASTERN (never white/Caucasian), not that he is hidden as a shadow. So:
+   a real Middle Eastern man, fully present in the scene, whose FACE the camera
+   simply never shows. #16(b) (Middle-Eastern-never-white) and #16's "not a void /
+   not a cutout" are UNCHANGED; only #16's face-showing (16a/16c/16e) is dead.
+   (d) **Other characters are unaffected.** Their faces show and SHOULD stay
+   consistent within a story so viewers can follow who is who. This rule withholds
+   ONLY Jesus's face.
+   Any prompt or banked asset built under #16's face-showing staging (e.g. the #14
+   Ten Lepers and #15 Centurion prompt sheets, which the face gate flags with
+   dozens of "three-quarter/his face" hits) is OUT OF DATE and must be restaged
+   under #18 before generation.
 These corrections triggered a REDO of peter-water-07 (V2's rescue still fix was
 NOT enough — Cameron rejected V2 too; both motion clips were restaged and
 regenerated for V3; then V3's sinking clip failed the limb-count law and was
@@ -525,6 +598,12 @@ works. Then scale the motion budget per story as the Story-Fit Rule allows.
       never lectures, never breaking the story's flow.
 
 **Before generating ANY image or clip (check the written prompts):**
+- [ ] 🛑 FACE GATE PASSES (Correction #18): run
+      `python3 media-production/jesus_face_gate.py --dir <build-folder>` and confirm
+      it exits 0 with "RESULT: PASS". Every FAIL (Jesus + face language) and every
+      WARN (Jesus staged with no face-hiding camera cue) is a hard stop — rewrite
+      the prompt so Jesus is from behind / over-the-shoulder / at a distance with NO
+      face words, then re-run until clean. NO Flow credit is spent until this passes.
 - [ ] Master Style Block byte-identical, zero added style words (§5b ban #2)
 - [ ] No "NEGATIVE PROMPT:" list; every constraint stated positively — exact
       counts, exact emptiness, "one single figure and only him" (§5b ban #1)
@@ -609,7 +688,11 @@ first time.
 
 - [ ] Every MUST SHOW item from the scripture card appears
 - [ ] Zero MUST NEVER SHOW items appear (scrub every motion clip fully)
-- [ ] Jesus's face never visible in any frame; his hands never visible
+- [ ] 🛑 FACE GATE passed on the prompt sheet before generation (Correction #18);
+      and in the FINISHED render, Jesus's face is never visible in ANY frame at any
+      zoom — audit every still and every sampled clip frame. (His Middle Eastern
+      hands and hair MAY show per #16/#18; only the FACE is withheld. Other
+      characters' faces are fine and should stay consistent within the story.)
 - [ ] Style matches the gold-standard reference (palette, texture, tone)
 - [ ] No AI text/gibberish baked into any image
 - [ ] Narration modern; Jesus voice EXACT KJV only

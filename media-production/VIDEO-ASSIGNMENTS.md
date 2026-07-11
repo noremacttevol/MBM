@@ -36,11 +36,16 @@
 ## Rules recap (full text in PRODUCTION-BIBLE §0 and §1)
 
 - Pull before claiming. Claim before generating. Push the claim immediately.
-- Jesus is shown as a REAL MIDDLE EASTERN MAN — visible hands, skin, hair, warm
-  tan/olive skin, NEVER white; kept omniscient (no sharp portrait, no clear side
-  profile that fixes his exact look). Correction #16 (2026-07-11) REVERSED the old
-  "face never shown / cloaked figure / no skin" rule. Read §1 Corrections #1–#16
-  in full before writing any prompt.
+- 🛑 JESUS'S FACE IS NEVER PROMPTED OR SHOWN (Correction #18, 2026-07-11). He is a
+  real, warm, MIDDLE EASTERN human figure (hands & hair may show, NEVER white, never
+  a hooded void) seen ONLY from behind / over-the-shoulder / at a distance — a
+  mystery figure, because we don't know his face and a made-up face is not good
+  worship. #18 restored the face-never rule and reversed the face-showing part of
+  #16 (the "real human, Middle-Eastern-not-white, not a void" half of #16 survives).
+  BEFORE any Flow credit, the prompt sheet MUST pass the gate:
+  `python3 media-production/jesus_face_gate.py --dir <build-folder>` (exit 0). Read
+  §1 Corrections #1–#18 in full before writing any prompt. NOTE: the #14 and #15
+  prompt sheets were written under #16 and FAIL the gate — restage before generating.
 - Never run Chrome automation without announcing it to Cameron first and getting
   his go-ahead (Law C). Batch clicks into short announced bursts.
 - Each machine works its own build-NN folder only. Shared Flow project is
