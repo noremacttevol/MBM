@@ -1,5 +1,13 @@
 # MBM — Master Instructions for Claude Code
 
+> 🖥️ **KNOW WHICH COMPUTER YOU ARE — do this FIRST, before the session chain.**
+> All of Cameron's computers run Claude Code on this same repo, so a "this machine
+> is X" note inside any shared file is read by ALL of them and CANNOT be trusted.
+> Run `hostname` and look it up in [`MACHINE-IDENTITY.md`](./MACHINE-IDENTITY.md)
+> to learn which machine (A/B/C/etc.) you are. If your hostname isn't listed, ask
+> Cameron and add it. Only THAT table decides your identity — never a sentence in
+> the session log or claim board.
+>
 > 🔗 **SESSION-CHAIN PROTOCOL — THIS IS YOUR VERY FIRST ACTION IN EVERY NEW CHAT.**
 > Before you do ANY other work, before answering anything else:
 > 1. Read the TOP entry of [`SESSION-LOG.md`](./SESSION-LOG.md).
