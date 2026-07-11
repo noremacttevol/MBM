@@ -1,5 +1,10 @@
 # VIDEO ASSIGNMENTS — The Claim Board for All Machines
 
+> 📊 **HUMAN DASHBOARD: [`STATUS.md`](../STATUS.md) (repo root) is the at-a-glance
+> LIVE board — done / in-progress / to-do + watch & download links.** Whenever you
+> change a video's state here, update its row in STATUS.md in the SAME commit, then
+> push. This file stays the detailed claim mechanics; STATUS.md is the summary.
+
 > **PRODUCTION-BIBLE §0 LAW A governs this file.** Every Claude on every computer:
 > `git pull` FIRST, then claim here BEFORE generating anything, then commit and
 > push the claim immediately. Never touch a video another machine has claimed.
@@ -63,7 +68,7 @@ only, face gate must pass. Nothing legacy to redo.
 | 12 | Blind Bartimaeus | mark-10_bartimaeus | CLAIMED — 2026-07-11 — Elli's Windows laptop (Cameron reassigned 11+12). Pre-flight exists; needs full STILLS-ONLY build under #18. |
 | 13 | Man through the Roof | mark-2_roof | BUILT — awaiting Cameron approval — 2026-07-11 — linux desktop / Machine A (hostname Dev). s8 rebuilt under #16 (real Middle Eastern man, no readable face); 2 Veo clips done (20 cr); s4/s9 re-synced to clip start-frames; ear-check 16/16; self-revision loop passed. Final: mark-2_man-through-the-roof.mp4 (20.0 MB, 334s). |
 | 14 | Ten Lepers | luke-17_ten-lepers | DONE — approved by Cameron 2026-07-11 ("yeah thats good"). V3 stills-only, #18 face-never, s7 fork fixed. Built by Elli's Windows laptop. |
-| 15 | Centurion's Servant | matthew-8_centurion | CLAIMED — 2026-07-11 — Cameron Lovett MS (Machine C, rotation rank 1) |
+| 15 | Centurion's Servant | matthew-8_centurion | BUILT V2 — awaiting Cameron approval — 2026-07-11 — Cameron Lovett MS (Machine C). STILLS-ONLY (Law E), Jesus never shown (#18 face-gate PASS, all 6 Jesus stills from behind/over-shoulder), narration rewritten for clarity + captions VERBATIM every spoken word + KJV explained plainly + new inviting closing question. Ear-check 27/27. matthew-8_centurion.mp4 (22.2MB, 5:08). |
 | 16 | Mary and Martha | luke-10_mary-martha | UNCLAIMED |
 | 17 | Lazarus | john-11_lazarus | UNCLAIMED |
 | 18 | Road to Emmaus | luke-24_emmaus | UNCLAIMED |
