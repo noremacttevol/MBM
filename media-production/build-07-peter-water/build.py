@@ -279,7 +279,7 @@ def build_still(seg_id, src, dur, zdir, cap, style):
         z = f"1.101-0.10*on/{frames}"
     # Anti-shimmer law: supersample 4320x7680 -> zoompan at 2160x3840 ->
     # lanczos down to 1080x1920 so every zoom step lands on a quarter-pixel.
-    base = (f"[0:v]scale=4320:7680,setsar=1,"
+    base = (f"[0:v]scale=2160:3868,setsar=1,"
             f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"d={frames}:s=2160x3840:fps={FPS},"
             f"scale=1080:1920:flags=lanczos")
@@ -400,18 +400,18 @@ def main():
     for crf in (21, 22, 23, 24, 25):
         run(["ffmpeg", "-y", "-i", f"{S}/video_silent.mp4",
              "-i", f"{S}/audio_mix.m4a", "-map", "0:v", "-map", "1:a",
-             "-c:v", "libx264", "-preset", "veryslow", "-crf", str(crf),
+             "-c:v", "libx264", "-preset", "slow", "-crf", str(crf),
              "-maxrate", f"{vcap}k", "-bufsize", f"{vcap*2}k",
              "-pix_fmt", "yuv420p",
              "-af", f"volume={gain:.1f}dB,alimiter=limit=0.95",
              "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart",
-             "peter-water-07.mp4"])
-        size = os.path.getsize("peter-water-07.mp4") / 1e6
+             "matthew-14_peter-walks-on-water.mp4"])
+        size = os.path.getsize("matthew-14_peter-walks-on-water.mp4") / 1e6
         if size <= 24.5:
             break
         print(f"  {size:.1f} MB at crf {crf} — over budget, stepping up",
               flush=True)
-    print(f"DONE: peter-water-07.mp4  {size:.1f} MB, {total:.1f}s "
+    print(f"DONE: matthew-14_peter-walks-on-water.mp4  {size:.1f} MB, {total:.1f}s "
           f"(crf {crf}, vcap {vcap}k)", flush=True)
 
 
