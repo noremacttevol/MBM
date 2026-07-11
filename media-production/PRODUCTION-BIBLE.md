@@ -36,7 +36,7 @@ part of the audience into disconnecting before the story can reach them. Also
 banned: black-void hood openings and solid-black human cutouts as
 face-substitutes. Camera directly behind, over-the-shoulder, or true distance —
 nothing else. Every render audited at high zoom before banking. Any Claude that
-has not read §1 Corrections #1–#14 in full is not allowed to write a prompt.
+has not read §1 Corrections #1–#15 in full is not allowed to write a prompt.
 
 **LAW C — Never hold Cameron's computer hostage.**
 The browser automation moves the real mouse and steals window focus. Cameron
@@ -292,6 +292,30 @@ words. Nothing here overrides the sacred pause before Jesus's KJV words.
    or cleats INSIDE the boat; nothing a figure does may read backwards or
    absurd. QC every still and every clip frame by asking "what does this
    person appear to be DOING?" — if the answer isn't the story beat, reroll.
+15. **TIME-OF-DAY FIDELITY, FIGURES STAY IN THE BOAT, and MOTION MUST CYCLE
+   (Cameron, 2026-07-10 — storm-11 V2 rejection).** Three rules from one review:
+   (a) TIME-OF-DAY LAW — every scene's lighting must match the time of day the
+   scripture states. Mark 4:35 is "when the even was come": the whole storm
+   story happens at NIGHT — limited light, moonlight, starlight, lightning —
+   NEVER a sunrise or sunset. Cameron: "most of the pictures don't represent
+   night time and it's supposed to be night time so limited light not a
+   sunrise or set." The image models default to golden-hour skies; every
+   prompt for a night scene must say NIGHT explicitly and BAN sunset/sunrise
+   coloring, and QC must reject any warm golden sky in a night story.
+   (b) NOBODY STANDS ON THE WATER unless the scripture puts them there. Storm
+   V2's "great calm" still had a robed figure standing on the lake OUTSIDE
+   the boat — wrong story (that is Matthew 14, not Mark 4) and it reads
+   "very weird." Every figure must be visibly INSIDE the hull: deck under
+   their feet, gunwale wrapping around them. A rail that doesn't visually
+   connect to the boat makes men read as standing on the sea — stage the
+   hull so the connection is unmistakable at a glance.
+   (c) CYCLICAL-MOTION LAW for clips — repeated physical actions must visibly
+   CYCLE. Storm V2's bailing clip showed pots that never moved while water
+   streamed continuously out of them "like a hose." Bailing = scoop DOWN,
+   lift, FLING out, return — the pots themselves must travel through the
+   cycle in the clip. Prompt the full cycle explicitly and QC per-second
+   frames for changed pot positions; a static pose with particle flow is a
+   dead render.
 These corrections triggered a REDO of peter-water-07 (V2's rescue still fix was
 NOT enough — Cameron rejected V2 too; both motion clips were restaged and
 regenerated for V3; then V3's sinking clip failed the limb-count law and was
@@ -549,7 +573,7 @@ new law holds from then on. Nothing lives in anyone's memory. Everything lives h
 ## 8. Session workflow for any AI picking up media work
 
 1. Read CLAUDE.md chain protocol, START-HERE.md, AGENT-RULES.md — then THIS FILE,
-   starting with §0 (the three operating laws) and §1 Corrections #1–#14 IN FULL.
+   starting with §0 (the three operating laws) and §1 Corrections #1–#15 IN FULL.
 2. `git pull`, then check SESSION-LOG.md top entry AND VIDEO-ASSIGNMENTS.md.
 3. Claim your video on VIDEO-ASSIGNMENTS.md (commit + push the claim) before
    generating anything. Continue the assembly line exactly where it stopped for
