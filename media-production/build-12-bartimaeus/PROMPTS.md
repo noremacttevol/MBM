@@ -89,11 +89,11 @@ painted edge to edge.
 bright daylight: a great procession of travelers in earth-toned robes has
 halted all at once, a low cloud of road dust still rolling forward past
 their stopped feet. At the procession's head, in the middle distance, one
-man in an undyed cream wool robe with the hood up stands completely still,
-seen from DIRECTLY BEHIND — the back of his hooded head to the camera, his
-face entirely on the far side away from view, his sleeves fallen fully
-past his hands, no skin visible anywhere on him, no light or glow on or
-around his head, an ordinary plainly lit robed figure. Every head in the
+warm Middle-Eastern man in an undyed cream wool robe stands completely
+still, seen from DIRECTLY BEHIND — the back of his head and his dark
+shoulder-length hair to the camera, the front of him turned away and never
+shown, his skin warm olive-brown and never white, no light or glow on or
+around his head, an ordinary plainly lit man from behind. Every head in the
 stopped crowd is turned back along the road toward a blind beggar frozen
 mid-shout at the roadside edge of the frame — [BARTIMAEUS LOCK] with his
 sand-brown cloak, distant but clear. A corridor of open road runs between
@@ -125,17 +125,17 @@ painted edge to edge.
 
 ## s9 — Before him (STILL — over-the-shoulder, law #11 textbook)
 [STILL STYLE BLOCK] Bright daylight. The camera stands directly BEHIND a
-man in an undyed cream wool robe with the hood up: the back of his hooded
-head and his robed right shoulder sit soft-focus in the lower left corner
-of the frame, his face entirely on the far side away from the camera, his
-sleeves fallen fully past his hands, no skin visible anywhere on him, no
-light or glow on or around his head. Filling the rest of the frame,
-sharply in focus and facing the camera past his hooded shoulder, stands
-[BARTIMAEUS LOCK] in his oatmeal tunic only, chest heaving from running,
-both arms loose at his sides, his milky clouded eyes wide open and aimed
-directly at the hooded man in front of him. Behind the beggar a crowd of
-travelers watches, every face aimed at the hooded man. One single
-continuous scene painted edge to edge.
+warm Middle-Eastern man in an undyed cream wool robe: the back of his head,
+his dark shoulder-length hair, and his robed right shoulder sit soft-focus
+in the lower left corner of the frame, the front of him turned away from the
+camera and never shown, his skin warm olive-brown and never white, no light
+or glow on or around his head. Filling the rest of the frame, sharply in
+focus and facing the camera past his shoulder, stands [BARTIMAEUS LOCK] in
+his oatmeal tunic only, chest heaving from running, both arms loose at his
+sides, his milky clouded eyes wide open and aimed directly at the man in
+front of him. Behind the beggar a crowd of travelers watches, every face
+aimed at the man from behind. One single continuous scene painted edge to
+edge.
 
 ## s10a — "Rabbi, I want to see" (STILL)
 [STILL STYLE BLOCK] Bright daylight, intimate close-up of the upturned
@@ -162,9 +162,10 @@ painted edge to edge.
 [STILL STYLE BLOCK] Wide warm daylight shot of the highway climbing away
 from Jericho toward distant hills: a great procession of travelers in
 earth-toned robes moves up the road away from the camera. Near its front,
-seen small and from behind, walks a man in an undyed cream wool robe with
-the hood up, the back of his hooded head to the camera, sleeves past his
-hands, no skin visible, no glow, an ordinary robed figure among many. In
+seen small and from behind, walks a warm Middle-Eastern man in an undyed
+cream wool robe, the back of his head and dark hair to the camera, the front
+of him turned away and never shown, skin warm olive-brown never white, no
+glow, an ordinary man among many. In
 the middle of the crowd, closer to camera and clearly visible, walks
 [BARTIMAEUS LOCK — HEALED: deep warm brown clear seeing eyes] in his
 oatmeal tunic with no cloak, mid-stride with a new unpracticed gait, his
@@ -174,6 +175,10 @@ Everyone in the procession moves in the same direction, up the road. One
 single continuous scene painted edge to edge.
 
 ---
+
+> **CLIPS SUSPENDED — PHASE 1 IS STILLS-ONLY (Law E, 2026-07-11).** Do NOT
+> generate Clip A or Clip B. The s8 (leap) and s11 (followed) STILLS carry
+> those beats. The clip prompts are kept below for a possible Phase-2 pass.
 
 ## CLIP A — The leap and the cloak (Veo 3.1 Fast, 8s, Frames-to-video from banked s8)
 [CLIP STYLE BLOCK] A lean weathered man in his mid-forties with tangled
