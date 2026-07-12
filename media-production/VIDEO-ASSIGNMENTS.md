@@ -70,7 +70,7 @@ only, face gate must pass. Nothing legacy to redo.
 | 14 | Ten Lepers | luke-17_ten-lepers | DONE — approved by Cameron 2026-07-11 ("yeah thats good"). V3 stills-only, #18 face-never, s7 fork fixed. Built by Elli's Windows laptop. |
 | 15 | Centurion's Servant | matthew-8_centurion | BUILT V2 — awaiting Cameron approval — 2026-07-11 — Cameron Lovett MS (Machine C). STILLS-ONLY (Law E), Jesus never shown (#18 face-gate PASS, all 6 Jesus stills from behind/over-shoulder), narration rewritten for clarity + captions VERBATIM every spoken word + KJV explained plainly + new inviting closing question. Ear-check 27/27. matthew-8_centurion.mp4 (22.2MB, 5:08). |
 | 16 | Mary and Martha | luke-10_mary-martha | CLAIMED — 2026-07-11 — Machine A (Dev) — building fresh, STILLS-ONLY, face-gate PASS required |
-| 17 | Lazarus | john-11_lazarus | CLAIMED — 2026-07-11 — Elli's Windows laptop. Building fresh under both standards: STILLS-ONLY (Law E) + Jesus face-never (#18, from behind / over-the-shoulder / distance). Next after #9+#10 rework. |
+| 17 | Lazarus | john-11_lazarus | BUILT — awaiting Cameron approval — 2026-07-11 — Elli's Windows laptop. Fresh build under BOTH standards: STILLS-ONLY (Law E) + face-gate PASS (#18). 9 painted stills, the Lord only ever behind/over-shoulder/distance (s2,s4,s5,s6,s7,s8,s9) — no face, no glow, verified in the finished cut. KJV red-letter j1(11:4) j2(11:25-26) j3(11:40) j4(11:43) j5(11:44b). Music silent for "I am the resurrection", "Jesus wept", and "Lazarus, come forth". john-11_lazarus.mp4 (19.8MB, 6:12). |
 | 18 | Road to Emmaus | luke-24_emmaus | UNCLAIMED |
 | 19 | Breakfast on the Shore | john-21_shore | UNCLAIMED |
 | 20 | Good Samaritan | luke-10_samaritan | UNCLAIMED |
