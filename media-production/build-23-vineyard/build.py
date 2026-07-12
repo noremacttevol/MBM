@@ -213,13 +213,18 @@ def main():
          "-c", "copy", f"{S}/video_silent.mp4"])
 
     # ---- audio: narration at computed offsets + warm beds ----
-    #   bed a : opening -> silent just before the key question (j1)
-    #   bed b : returns under the explanation (n13) -> out before j2, so the
-    #           conclusion (j2 "the last shall be first") + close play quiet.
+    #   bed a : opening -> fades out just before the key question (j1), so the
+    #           reply ending "Is thine eye evil, because I am good?" lands in a
+    #           reverent hush.
+    #   bed b : returns just after j1 and runs warm UNDER everything that follows
+    #           (n12, n13, j2 "the last shall be first", n10), fading out only
+    #           before the closing card. No-Dead-Air: the only silences >2.5s are
+    #           the hush around the key question and the card's tail.
     beds = [
         (0.0, peak_start - 1.2, "a"),
-        (n13_start - 0.3, j2_start - 1.2, "b"),
+        (peak_start + audio_dur["j1"] + 1.0, card_start - 0.8, "b"),
     ]
+    _ = (n13_start, j2_start)  # (kept for the timeline print above)
     inputs, filters, labels = [], [], []
     for i, (path, start) in enumerate(audio_place):
         inputs += ["-i", path]

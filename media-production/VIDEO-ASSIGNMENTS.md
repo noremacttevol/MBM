@@ -162,7 +162,7 @@ only, face gate must pass. Nothing legacy to redo.
 | 1 | 14 | Ten Lepers | luke-17_ten-lepers | see Wave One table |
 | 2 | 17 | Jesus wept (Lazarus) | john-11_lazarus | see Wave One table |
 | 3 | 20 | Good Samaritan | luke-10_samaritan | see Wave One table |
-| 4 | 23 | Workers in the Vineyard | matthew-20_vineyard-workers | **CLAIMED — 2026-07-12 — Machine A (Dev)** (Cameron's direct order "go on to 23" — overrides the Machine B list claim, same pattern as #21/#22). STILLS-ONLY (Law E), parable Jesus tells with NO Jesus figure on screen (his narrating voice + KJV only — face-gate trivial). Key line Matthew 20:15 "Is thine eye evil, because I am good?" — grace offends math. Building fresh on the #21 pattern. |
+| 4 | 23 | Workers in the Vineyard | matthew-20_vineyard-workers | **BUILT — awaiting Cameron — 2026-07-12 — Machine A (Dev)** (Cameron's direct order "go on to 23"; overrides the Machine B list claim, same pattern as #21/#22). STILLS-ONLY (Law E), parable with NO Jesus figure on screen (his narrating voice + KJV only — face-gate PASS). 8 fresh painted stills (s1-dawn-hire … s8-vineyard-dusk), verbatim captions, KJV j1 (Matt 20:13-15, incl. "Is thine eye evil, because I am good?") + j2 (20:16). Ear-check 17/17; the money question hushes to reverent quiet, no other dead air. matthew-20_vineyard-workers.mp4 (21.1MB, 3:23). |
 | 5 | 32 | The Talents | matthew-25_talents | UNCLAIMED |
 | 6 | 35 | The Great Banquet | luke-14_great-banquet | UNCLAIMED |
 | 7 | 39 | The Pharisee and the Publican | luke-18_pharisee-and-publican | UNCLAIMED |
