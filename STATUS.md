@@ -70,7 +70,7 @@ rebuilt to the new standard — the finished file will replace the old one.
 
 | # | Story | Old cut (playable now) | Redone by | State |
 |---|-------|------------------------|-----------|-------|
-| 08 | Lost Coin (Luke 15) | [▶ old cut](media-production/build-08-lost-coin/luke-15_lost-coin.mp4) | **UNCLAIMED — free to grab** | stills **2/6** saved in `build-08-lost-coin/assets/` (stars, door). **LEFT: 4 stills `count`, `lamp`, `sweep`, `found` (prompts in PROMPTS.md), then build.py stills-only + verbatim captions, gen narration, build.** |
+| 08 | Lost Coin (Luke 15) | [▶ old cut](media-production/build-08-lost-coin/luke-15_lost-coin.mp4) | Elli's laptop | building now — generating the 4 missing stills (count, lamp, sweep, found), then stills-only build. |
 | 16 | Mary and Martha (Luke 10) | *no file yet* | Machine A (Dev) | building fresh (stills-only, face-never) |
 
 *(06 and 07 are now rework-built — see the DONE table. 06: the last motion clip
