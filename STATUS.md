@@ -39,22 +39,22 @@ this file is the at-a-glance summary of it.
 
 | # | Story | Length | Status | Watch / Download |
 |---|-------|--------|--------|------------------|
-| 01 | Woman Who Touched His Cloak (Mark 5) | 2:15 | redone ✔ | [▶ watch](media-production/build-01-cloak/mark-5_woman-touches-his-cloak.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-01-cloak/mark-5_woman-touches-his-cloak.mp4) |
-| 02 | The Prodigal Son (Luke 15) | 2:43 | redone ✔ | [▶ watch](media-production/build-02-prodigal/luke-15_prodigal-son.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-02-prodigal/luke-15_prodigal-son.mp4) |
-| 03 | Zacchaeus (Luke 19) | 4:09 | redone ✔ | [▶ watch](media-production/build-03-zacchaeus/luke-19_zacchaeus.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-03-zacchaeus/luke-19_zacchaeus.mp4) |
-| 04 | Nicodemus at Night (John 3) | 6:07 | redone ✔ | [▶ watch](media-production/build-04-nicodemus/john-3_nicodemus.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-04-nicodemus/john-3_nicodemus.mp4) |
-| 05 | The Bent-Over Woman (Luke 13) | 4:38 | redone ✔ | [▶ watch](media-production/build-05-bent-woman/luke-13_bent-woman.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-05-bent-woman/luke-13_bent-woman.mp4) |
+| 01 | Woman Who Touched His Cloak (Mark 5) | 2:15 | **APPROVED** ✅ | [▶ watch](media-production/build-01-cloak/mark-5_woman-touches-his-cloak.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-01-cloak/mark-5_woman-touches-his-cloak.mp4) |
+| 02 | The Prodigal Son (Luke 15) | 2:43 | **APPROVED** ✅ | [▶ watch](media-production/build-02-prodigal/luke-15_prodigal-son.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-02-prodigal/luke-15_prodigal-son.mp4) |
+| 03 | Zacchaeus (Luke 19) | 4:09 | **APPROVED** ✅ | [▶ watch](media-production/build-03-zacchaeus/luke-19_zacchaeus.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-03-zacchaeus/luke-19_zacchaeus.mp4) |
+| 04 | Nicodemus at Night (John 3) | 6:07 | **APPROVED** ✅ | [▶ watch](media-production/build-04-nicodemus/john-3_nicodemus.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-04-nicodemus/john-3_nicodemus.mp4) |
+| 05 | The Bent-Over Woman (Luke 13) | 4:38 | **APPROVED** ✅ | [▶ watch](media-production/build-05-bent-woman/luke-13_bent-woman.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-05-bent-woman/luke-13_bent-woman.mp4) |
 | 11 | Calming the Storm (Mark 4) | 4:24 | rework built 🟡 | [▶ watch](media-production/build-11-storm/mark-4_calming-the-storm.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-11-storm/mark-4_calming-the-storm.mp4) |
 | 12 | Blind Bartimaeus (Mark 10) | 5:18 | rework built 🟡 | [▶ watch](media-production/build-12-bartimaeus/mark-10_bartimaeus.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-12-bartimaeus/mark-10_bartimaeus.mp4) |
 | 09 | Rich Young Ruler (Mark 10) | 3:37 | rework built 🟡 | [▶ watch](media-production/build-09-rich-ruler/mark-10_rich-young-ruler.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-09-rich-ruler/mark-10_rich-young-ruler.mp4) |
 | 10 | Woman at the Well (John 4) | 5:11 | rework built 🟡 | [▶ watch](media-production/build-10-well/john-4_woman-at-the-well.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-10-well/john-4_woman-at-the-well.mp4) |
 | 17 | Lazarus (John 11) | 6:12 | **built — awaiting Cameron** 🟡 | [▶ watch](media-production/build-17-lazarus/john-11_lazarus.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-17-lazarus/john-11_lazarus.mp4) |
-| 13 | Man Through the Roof (Mark 2) | 5:34 | redone ✔ | [▶ watch](media-production/build-13-roof/mark-2_man-through-the-roof.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-13-roof/mark-2_man-through-the-roof.mp4) |
+| 13 | Man Through the Roof (Mark 2) | 5:34 | **APPROVED** ✅ | [▶ watch](media-production/build-13-roof/mark-2_man-through-the-roof.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-13-roof/mark-2_man-through-the-roof.mp4) |
 | 14 | Ten Lepers (Luke 17) | 4:34 | **APPROVED** ✅ | [▶ watch](media-production/build-14-ten-lepers/luke-17_ten-lepers.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-14-ten-lepers/luke-17_ten-lepers.mp4) |
-| 15 | Centurion's Servant (Matthew 8) | 5:08 | **built — awaiting Cameron** 🟡 | [▶ watch](media-production/build-15-centurion/matthew-8_centurion.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-15-centurion/matthew-8_centurion.mp4) |
+| 15 | Centurion's Servant (Matthew 8) | 5:08 | **APPROVED** ✅ | [▶ watch](media-production/build-15-centurion/matthew-8_centurion.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-15-centurion/matthew-8_centurion.mp4) |
 
-*(01–05, 13, 15 are rebuilt to the new standard and awaiting Cameron's yes/no on
-rewatch. 14 is already approved.)*
+*(01–05, 13, 14, 15 are **APPROVED by Cameron** (2026-07-11). 09, 10, 11, 12, 17 are
+rework/fresh built and awaiting his rewatch. 07 and 11 are the ones still being fixed.)*
 
 ---
 
@@ -94,7 +94,7 @@ live in [`media-production/VIDEO-ASSIGNMENTS.md`](media-production/VIDEO-ASSIGNM
 
 ## 📈 Count
 
-- **Built to new standard:** 13 (01–05, 09–15, 17) — **1 approved (14)**, 12 awaiting your rewatch.
+- **Built to new standard:** 13 (01–05, 09–15, 17) — **8 APPROVED (01–05, 13, 14, 15)**, 5 awaiting rewatch (09, 10, 11, 12, 17).
 - **In progress (redo / building):** 4 (06, 07, 08, 16).
 - **Not started (Wave One):** 3 (18–20).
 - **Total in the plan:** 200.
