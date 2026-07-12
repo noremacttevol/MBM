@@ -34,7 +34,7 @@ ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "18",
 STILL_REFUSE = "shot1-i-will-not.jpeg"
 STILL_FALSEYES = "shot2-false-yes.jpeg"
 STILL_WALL = "shot3-stone-wall.jpeg"
-CLIP_WENT = "Young_man_pruning_vineyard_rows_202607082152.mp4"  # v2 retake
+STILL_WENT = "went.jpeg"  # was a motion clip; replaced with a still (Cameron, 2026-07-11) — Phase-1 stills-only
 STILL_EMPTY = "shot5-empty-row.jpeg"
 STILL_PRIDE = "shot6-fathers-pride.jpeg"
 
@@ -59,8 +59,8 @@ SEGMENTS = [
     ("s03", "still", STILL_WALL, 9.0, "in",
      "The first son meant his no.\nBut it wouldn't leave him alone.\n"
      "All morning, the vineyard kept pulling at him.", "n"),
-    # Money moment — he went.
-    ("s04", "clip", CLIP_WENT, 8.0, None,
+    # "He went" — now a painted still (motion clip removed, Phase-1 stills-only).
+    ("s04", "still", STILL_WENT, 8.0, "in",
      "So he got up. And he went.\nNo announcement, no apology.\n"
      "He went back to the vineyard, and he worked.", "n"),
     ("s05", "still", STILL_EMPTY, 9.5, "in",
@@ -216,9 +216,9 @@ def main():
          "-c:v", "libx264", "-preset", "slow", "-crf", "23",
          "-maxrate", "1500k", "-bufsize", "3000k", "-pix_fmt", "yuv420p",
          "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart",
-         "two-sons-06.mp4"])
-    size = os.path.getsize("two-sons-06.mp4") / 1e6
-    print(f"DONE: two-sons-06.mp4  {size:.1f} MB, {total:.1f}s")
+         "matthew-21_two-sons.mp4"])
+    size = os.path.getsize("matthew-21_two-sons.mp4") / 1e6
+    print(f"DONE: matthew-21_two-sons.mp4  {size:.1f} MB, {total:.1f}s")
 
 
 if __name__ == "__main__":
