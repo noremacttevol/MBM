@@ -124,7 +124,7 @@ only, face gate must pass. Nothing legacy to redo.
 | 1 | 13 | Man through the Roof | mark-2_roof | see Wave One table |
 | 2 | 16 | Mary and Martha | luke-10_mary-martha | see Wave One table |
 | 3 | 19 | Breakfast on the Shore | john-21_shore | see Wave One table |
-| 4 | 22 | The Unmerciful Servant | matthew-18_unmerciful-servant | UNCLAIMED |
+| 4 | 22 | The Unmerciful Servant | matthew-18_unmerciful-servant | **CLAIMED — 2026-07-12 — Elli's Windows laptop** (Cameron's direct order — pointed to the PROMPT-build-22 sheet to build it; overrides the Machine A list claim, same as #21). STILLS-ONLY (Law E), face-never (#18 — parable, no Jesus figure). Building from `media-production/PROMPT-build-22-unmerciful-servant.md`. |
 | 5 | 28 | Hidden Treasure | matthew-13_hidden-treasure | UNCLAIMED |
 | 6 | 34 | The Rich Fool | luke-12_rich-fool | UNCLAIMED |
 | 7 | 38 | The Persistent Widow | luke-18_persistent-widow | UNCLAIMED |

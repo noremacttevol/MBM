@@ -87,6 +87,7 @@ table above.)*
 | 19 | Breakfast on the Shore (John 21) | john-21_shore | **BUILT — awaiting Cameron** 🟡 — Machine C. Stills-only, verbatim captions, Jesus only behind/hand-only/distance (s1 & s3 face-fixed). [▶ watch](media-production/build-19-shore/john-21_shore.mp4) (20.5MB, 3:04) |
 | 20 | Good Samaritan (Luke 10) | luke-10_samaritan | CLAIMED — Machine A (Dev), building fresh |
 | 21 | The Lost Sheep (Luke 15) | luke-15_lost-sheep | **CLAIMED — building** 🔨 — Machine A (Dev), taken over on Cameron's direct order 2026-07-12. Stills-only parable: 9 painted stills, verbatim captions, Jesus KJV j1/j2/j3 (Luke 15:4/6/7), the Lord only as bookend storyteller from behind (face-gate PASS). Narration + ear-check done (lowest 0.95); stills next. |
+| 22 | The Unmerciful Servant (Matthew 18) | matthew-18_unmerciful-servant | **CLAIMED — building** 🔨 — Elli's Windows laptop, Cameron's direct order 2026-07-12 (build the PROMPT-build-22 sheet). Stills-only parable, face-never (#18 — no Jesus figure). KJV j1 (18:22 seventy times seven) + j2 (18:35 the seal). Claim + KJV + narration prep underway. |
 
 After Wave One (1–20), the full 200-story plan and each machine's ranked queue
 live in [`media-production/VIDEO-ASSIGNMENTS.md`](media-production/VIDEO-ASSIGNMENTS.md).
