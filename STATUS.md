@@ -84,7 +84,7 @@ table above.)*
 
 | # | Story | File name | Note |
 |---|-------|-----------|------|
-| 19 | Breakfast on the Shore (John 21) | john-21_shore | **CLAIMED — Machine C, building now** (stills-only, face-never; Peter restored at the charcoal fire) |
+| 19 | Breakfast on the Shore (John 21) | john-21_shore | **BUILT — awaiting Cameron** 🟡 — Machine C. Stills-only, verbatim captions, Jesus only behind/hand-only/distance (s1 & s3 face-fixed). [▶ watch](media-production/build-19-shore/john-21_shore.mp4) (20.5MB, 3:04) |
 | 20 | Good Samaritan (Luke 10) | luke-10_samaritan | unclaimed |
 
 After Wave One (1–20), the full 200-story plan and each machine's ranked queue
