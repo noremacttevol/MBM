@@ -17,7 +17,7 @@ export default function WheelNav() {
   const currentPageIndex = useAppStore(s => s.currentPageIndex);
   const goToPage         = useAppStore(s => s.goToPage);
 
-  if (pages.length <= 1) return null; // no history yet — nothing to navigate
+  if (pages.length === 0) return null;
 
   const homeIdx = pages.length - 1;
 
@@ -51,6 +51,10 @@ export default function WheelNav() {
             </TouchableOpacity>
           );
         })}
+        {/* The ghost of the page being prepared — swipe right of home to reach it. */}
+        <View style={styles.hit} accessibilityLabel="The next page, being prepared">
+          <View style={styles.ghostDot} />
+        </View>
       </ScrollView>
     </View>
   );
@@ -92,6 +96,15 @@ const styles = StyleSheet.create({
     width: 9,
     height: 9,
     borderRadius: 5,
+  },
+  ghostDot: {
+    width: 7,
+    height: 7,
+    borderRadius: 4,
+    borderWidth: 1,
+    borderStyle: 'dashed',
+    borderColor: colors.textMuted,
+    opacity: 0.6,
   },
   home: {
     fontSize: 18,

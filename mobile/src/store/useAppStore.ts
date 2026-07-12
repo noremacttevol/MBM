@@ -39,11 +39,11 @@ import {
   PageItem,
   VideoPairItem,
   composePage,
-  isItemHonored,
   pageHasNoHonoring,
   waitLadderSeconds,
   makeVideoPair,
   makeVerseFromContent,
+  makeRecycledVerse,
   makeQuestionItem,
   makeInvitationItem,
 } from '../engine/pageEngine';
@@ -516,13 +516,13 @@ export interface SessionMemory {
 // which opens to the new note.
 export type NoteSource = 'feed' | 'chat' | 'blessing' | 'story' | 'dialogue';
 
-// Feed 2.0 content kinds — drive where a save lands (handoff / SPEC §5):
-// reflections on SCRIPTURE or STORIES → the Journal; interactions with QUESTIONS
-// or INVITATIONS → the Profile (the person's record / faith timeline).
+// Feed 2.0 content kinds. Where a save lands is BY BUTTON, not by kind
+// (Rev 1 §5, Cameron 2026-07-12): "Reflect on this" → Profile, "Save it" →
+// Journal, for every content type. A video+verse pair saves as ONE entry.
 export type InteractionKind = 'video' | 'verse' | 'story' | 'question' | 'invitation';
 
-export function interactionDest(kind: InteractionKind): 'journal' | 'profile' {
-  return kind === 'question' || kind === 'invitation' ? 'profile' : 'journal';
+export function interactionDest(action: 'reflect' | 'save'): 'journal' | 'profile' {
+  return action === 'reflect' ? 'profile' : 'journal';
 }
 
 export interface LearnedNote {
@@ -1039,7 +1039,10 @@ interface AppState {
   currentPageIndex:  number;
   seenVideoIds:      number[];   // videos already placed (drives no-repeat cycling)
   recycledVideoIds:  number[];   // skipped verses (by video id) to resurface later
-  honoredVideoIds:   number[];   // every 100%-watched video — the Profile's minimum record
+  honoredVideoIds:   number[];   // every credited watch — the Profile's minimum record
+  // Slots mid-replacement (Rev 1 §3): honored, showing the 2–3s "preparing a new
+  // story…" state before fresh content lands in the same spot. Never persisted.
+  preparingSlots:    string[];
 
   // UI state
   showTalkToSomeone: boolean;
@@ -1151,20 +1154,25 @@ interface AppActions {
   markStorySeen:       (id: string) => void;
   markOpened:          (id: number) => void;
 
-  // ── Feed 2.0 page engine ────────────────────────────────────────────────────
+  // ── Feed 2.0 page engine (Rev 1: in-place replacement, no next button) ─────
   ensureHomePage:      () => void;                              // create page 0 if none
+  // Honor an item; when the interaction warrants it, the slot enters the 2–3s
+  // "preparing" state and is then replaced in place (Rev 1 §3).
   honorPageItem:       (slotId: string, part?: 'video' | 'verse') => void;
-  leaveHomePage:       () => void;                              // scroll-away replacement
+  replaceSlot:         (slotId: string) => void;                // archive + refill one slot
   refreshHomeIfUntouched: () => void;                           // tab-away, honored-nothing → fresh page
-  requestNextPage:     () => number;                            // wait seconds; 0 = ready now
+  // Right-swipe gate (Rev 1 §4). Returns the wait in seconds: short flat wait if
+  // this page was interacted with, invitation + escalating ladder if ignored.
+  requestNextPage:     () => { wait: number; invited: boolean };
   commitNextPage:      () => void;                              // build & show the next page
   goToPage:            (index: number) => void;                 // wheel jump
   // Jump the wheel to the page holding a saved item (deep link from the Journal).
   // Returns true if the item was found in a page (else it has since been recycled).
   openPageRef:         (pageRef: { pageIndex: number; slotId: string }) => boolean;
-  // Save a Feed 2.0 interaction; routes to Journal/Profile by kind and returns
-  // the destination so the caller can navigate there.
+  // Save a Feed 2.0 interaction — routing is BY BUTTON (Rev 1 §5):
+  // reflect → Profile, save → Journal. Returns the destination for navigation.
   saveInteraction:     (input: {
+    action:        'reflect' | 'save';
     kind:          InteractionKind;
     title:         string;
     scriptureRef?: string;
@@ -1276,6 +1284,7 @@ const initialState: AppState = {
   seenVideoIds:        [],
   recycledVideoIds:    [],
   honoredVideoIds:     [],
+  preparingSlots:      [],
   showTalkToSomeone:   false,
   dialogueSignals:     [],
   baseSignals:         [],
@@ -1323,7 +1332,7 @@ const initialState: AppState = {
 // ── Persisted state shape (Sets become arrays for JSON storage) ───────────────
 
 type PersistedState = Omit<AppState,
-  'seenIds' | 'openedIds' | 'chatLoading' | 'conversationId' | 'blessing'
+  'seenIds' | 'openedIds' | 'chatLoading' | 'conversationId' | 'blessing' | 'preparingSlots'
   | 'inboxMessages' | 'inboxLoading' | 'inboxUnread' | 'activeRealThreadId' | 'pendingNoteId'
   | 'discipleshipSummaryLoading'> & {
   conversationId: string;
@@ -1441,6 +1450,16 @@ export const useAppStore = create<AppState & AppActions>()(
         const s = get();
         if (s.pages.length > 0) {
           if (homePageShownAt === 0) homePageShownAt = Date.now();
+          // Sweep (Rev 1 §3): if the app was closed while a slot was mid-
+          // "preparing", the honored item is still sitting on the home page with
+          // no timer alive. Replace those on arrival so nothing honored lingers.
+          const home = s.pages[s.pages.length - 1];
+          if (!home.archived) {
+            for (const it of home.items) {
+              const due = it.kind === 'videoPair' ? it.videoHonored : it.honored;
+              if (due) get().replaceSlot(it.slotId);
+            }
+          }
           return;
         }
         const built = buildPage(s, 0);
@@ -1454,140 +1473,155 @@ export const useAppStore = create<AppState & AppActions>()(
         homePageShownAt = Date.now();
       },
 
-      // Honoring (FEED-2.0-SPEC §2): flip the flag for the touched slot. A video
-      // and its paired verse honor SEPARATELY, so `part` selects which half of a
-      // pair was experienced. Every 100%-watched video is also counted on the
-      // Profile record (the spec's minimum guarantee).
+      // Honoring + in-place replacement (Rev 1 §3): flip the flag for the touched
+      // slot, count the interaction on its page (softens the right-swipe gate),
+      // and — when the interaction warrants it — put the slot into the 2–3s
+      // "preparing a new story…" state, then replace it in front of the user.
+      // A video and its paired verse still honor SEPARATELY (`part`). A pair is
+      // replaced only once its VIDEO is credited: reading the verse alone leaves
+      // the pair in place, because an unwatched video must stay in new content.
       honorPageItem(slotId, part) {
         const s = get();
         let honoredVideoId: number | null = null;
-        const pages = s.pages.map(p => ({
-          ...p,
-          items: p.items.map(it => {
+        let scheduleReplace = false;
+        const pages = s.pages.map(p => {
+          if (!p.items.some(it => it.slotId === slotId)) return p;
+          const items = p.items.map(it => {
             if (it.slotId !== slotId) return it;
             if (it.kind === 'videoPair') {
               if (part === 'video') {
                 if (!it.videoHonored) honoredVideoId = it.videoId;
+                scheduleReplace = !p.archived; // the watch is what releases a pair
                 return { ...it, videoHonored: true };
               }
-              if (part === 'verse') return { ...it, verseHonored: true };
+              if (part === 'verse') {
+                // Verse read after the video was already credited → pair complete.
+                scheduleReplace = !p.archived && it.videoHonored;
+                return { ...it, verseHonored: true };
+              }
               return it;
             }
+            scheduleReplace = !p.archived;
             return { ...it, honored: true };
-          }),
-        }));
+          });
+          return { ...p, items, interactions: (p.interactions ?? 0) + 1 };
+        });
         const honoredVideoIds =
           honoredVideoId != null && !s.honoredVideoIds.includes(honoredVideoId)
             ? [...s.honoredVideoIds, honoredVideoId]
             : s.honoredVideoIds;
-        set({ pages, honoredVideoIds });
+
+        if (scheduleReplace && !s.preparingSlots.includes(slotId)) {
+          set({ pages, honoredVideoIds, preparingSlots: [...s.preparingSlots, slotId] });
+          // The honest little pause: the slot shows "preparing…" then refills.
+          setTimeout(() => get().replaceSlot(slotId), 2600);
+        } else {
+          set({ pages, honoredVideoIds });
+        }
       },
 
-      // Replacement engine (FEED-2.0-SPEC §2): when the user scrolls away from the
-      // home page, honored items slide into the honored-history bucket and their
-      // slots refill instantly with fresh content. Un-honored items DO NOT move.
-      // A video watched but whose verse was skipped: the video moves; the verse
-      // recycles into a later page as a gentle reminder.
-      leaveHomePage() {
+      // Replace ONE slot in place (Rev 1 §3): the honored item slides into the
+      // honored-history bucket (left of home) and fresh content of the same kind
+      // lands exactly where it stood. Questions chain into new questions; a pair
+      // whose verse went unread recycles that verse for a later page.
+      replaceSlot(slotId) {
         const s = get();
-        if (s.pages.length === 0) return;
-        const homeIdx = s.pages.length - 1;
-        const home = s.pages[homeIdx];
-        if (home.archived) return; // only the live home page ever refills
+        const pageIdx = s.pages.findIndex(p => !p.archived && p.items.some(it => it.slotId === slotId));
+        const stopPreparing = () =>
+          set(st => ({ preparingSlots: st.preparingSlots.filter(x => x !== slotId) }));
+        if (pageIdx < 0) { stopPreparing(); return; }
+        const home = s.pages[pageIdx];
+        const item = home.items.find(it => it.slotId === slotId)!;
 
-        const anyHonored = home.items.some(it =>
-          it.kind === 'videoPair' ? (it.videoHonored || it.verseHonored) : it.honored);
-        if (!anyHonored) return; // ignoring a page and moving on leaves it untouched
+        // Only honored items ever move; a stray call on an untouched slot is a no-op.
+        const due = item.kind === 'videoPair' ? item.videoHonored : item.honored;
+        if (!due) { stopPreparing(); return; }
 
-        // Working copies so refills never collide with what's already placed.
         let seenVideoIds = [...s.seenVideoIds];
         const seenIds    = new Set(s.seenIds);
-        const recycled   = [...s.recycledVideoIds];
+        let recycled     = [...s.recycledVideoIds];
         const onPageVideoIds = new Set(
           home.items
             .filter((it): it is VideoPairItem => it.kind === 'videoPair')
             .map(it => it.videoId));
 
-        const freshVideoPair = (): PageItem => {
+        // The verse of a watched-but-unread pair comes back later as a reminder.
+        if (item.kind === 'videoPair' && !item.verseHonored && !recycled.includes(item.videoId)) {
+          recycled.push(item.videoId);
+        }
+
+        // Fresh content for the emptied slot, same kind, no on-page repeats.
+        let fresh: PageItem | null = null;
+        if (item.kind === 'videoPair') {
           const used = new Set([...seenVideoIds, ...Array.from(onPageVideoIds)]);
           let pool = VIDEO_STORIES.filter(v => !used.has(v.id));
           if (pool.length === 0) pool = VIDEO_STORIES.filter(v => !onPageVideoIds.has(v.id));
           if (pool.length === 0) pool = VIDEO_STORIES;
           const v = pool[Math.floor(Math.random() * pool.length)];
-          onPageVideoIds.add(v.id);
           seenVideoIds = dedupNums([...seenVideoIds, v.id]);
-          return makeVideoPair(v, generateId);
-        };
-        const freshVerse = (): PageItem | null => {
-          const pool = milkVersePool(s.feedTag);
-          const unseen = pool.filter(c => !seenIds.has(c.id));
-          const src = unseen.length > 0 ? unseen : pool;
-          if (src.length === 0) return null;
-          const v = src[Math.floor(Math.random() * src.length)];
-          seenIds.add(v.id);
-          return makeVerseFromContent(v, generateId);
-        };
-        const freshQuestion = (): PageItem | null =>
-          s.currentQuestion ? makeQuestionItem(s.currentQuestion, generateId) : null;
-        const freshInvitation = (): PageItem | null => {
-          const ex = pickExercise(s.dialogueSignals, s.doneExerciseIds);
-          return ex ? makeInvitationItem(ex, generateId) : null;
-        };
-
-        const archived: PageItem[] = [];
-        const stay: PageItem[] = [];
-        for (const it of home.items) {
-          if (it.kind === 'videoPair') {
-            if (it.videoHonored && it.verseHonored) {
-              archived.push(it);
-              stay.push(freshVideoPair());
-            } else if (it.videoHonored && !it.verseHonored) {
-              archived.push({ ...it });
-              if (!recycled.includes(it.videoId)) recycled.push(it.videoId);
-              stay.push(freshVideoPair());
-            } else {
-              // Neither honored, or only the verse honored (the video still needs
-              // watching) → the pair stays put. Un-honored content never moves.
-              stay.push(it);
+          fresh = makeVideoPair(v, generateId);
+        } else if (item.kind === 'verse') {
+          // A recycled skipped verse takes priority — its whole point is to return.
+          const recycledId = recycled.find(id => !onPageVideoIds.has(id));
+          if (recycledId != null) {
+            const v = videoById(recycledId);
+            if (v) { fresh = makeRecycledVerse(v, generateId); recycled = recycled.filter(id => id !== recycledId); }
+          }
+          if (!fresh) {
+            const pool = milkVersePool(s.feedTag);
+            const unseen = pool.filter(c => !seenIds.has(c.id));
+            const src = unseen.length > 0 ? unseen : pool;
+            if (src.length > 0) {
+              const v = src[Math.floor(Math.random() * src.length)];
+              seenIds.add(v.id);
+              fresh = makeVerseFromContent(v, generateId);
             }
-          } else if (isItemHonored(it)) {
-            archived.push(it);
-            const f = it.kind === 'verse' ? freshVerse()
-                    : it.kind === 'question' ? freshQuestion()
-                    : freshInvitation();
-            if (f) stay.push(f);
-          } else {
-            stay.push(it);
+          }
+        } else if (item.kind === 'question') {
+          // Chain: a new question pops into the same slot (never a dead end).
+          const q = computeNextQuestion(s.answeredQuestionIds, s.dialogueSignals, s.openedIds.size);
+          if (q) fresh = makeQuestionItem(q, generateId);
+        } else {
+          // A fresh invitation only makes sense when none is active (invite → try
+          // → report is one at a time; the follow-up card carries the active one).
+          if (!s.activeExercise) {
+            const ex = pickExercise(s.dialogueSignals, s.doneExerciseIds);
+            if (ex) fresh = makeInvitationItem(ex, generateId);
           }
         }
-        if (archived.length === 0) return;
 
-        const refreshedHome: Page = { ...home, items: stay };
-        const prev = homeIdx > 0 ? s.pages[homeIdx - 1] : null;
+        const newItems = home.items.flatMap(it =>
+          it.slotId === slotId ? (fresh ? [fresh] : []) : [it]);
+        const refreshed: Page = { ...home, items: newItems };
+
+        // Archive the honored item into the bucket just left of home.
+        const prev = pageIdx > 0 ? s.pages[pageIdx - 1] : null;
         let pages: Page[];
+        let currentPageIndex = s.currentPageIndex;
         if (prev && prev.honorArchive) {
-          // Append to the existing honored-history bucket — no new wheel dot.
-          const merged: Page = { ...prev, items: [...prev.items, ...archived] };
-          pages = [...s.pages.slice(0, homeIdx - 1), merged, refreshedHome];
+          const merged: Page = { ...prev, items: [...prev.items, item] };
+          pages = [...s.pages.slice(0, pageIdx - 1), merged, refreshed, ...s.pages.slice(pageIdx + 1)];
         } else {
           const bucket: Page = {
             id:               generateId(),
             index:            home.index,
-            items:            archived,
+            items:            [item],
             createdInSession: home.createdInSession,
             archived:         true,
             honorArchive:     true,
           };
-          pages = [...s.pages.slice(0, homeIdx), bucket, refreshedHome];
+          pages = [...s.pages.slice(0, pageIdx), bucket, refreshed, ...s.pages.slice(pageIdx + 1)];
+          // A new bucket shifts everything at/after its position one to the right.
+          if (currentPageIndex >= pageIdx) currentPageIndex += 1;
         }
-        set({
+        set(st => ({
           pages,
-          currentPageIndex: pages.length - 1,
+          currentPageIndex,
           seenVideoIds,
           seenIds,
           recycledVideoIds: recycled,
-        });
-        homePageShownAt = Date.now(); // slots refilled → the time-on-page clock restarts
+          preparingSlots:   st.preparingSlots.filter(x => x !== slotId),
+        }));
       },
 
       // Tab-away rule (FEED-2.0-SPEC §2): the ONLY auto-refresh case — the user
@@ -1611,14 +1645,19 @@ export const useAppStore = create<AppState & AppActions>()(
         homePageShownAt = Date.now();
       },
 
-      // Next-page wait ladder (FEED-2.0-SPEC §4). Returns the honest wait in
-      // seconds; time already spent on the current page is subtracted, so lingering
-      // with the content earns the next page faster. 0 = ready now.
+      // Right-swipe gate (Rev 1 §4). A page that was interacted with earns the
+      // next one after only a short honest "preparing" moment. A page swiped past
+      // untouched gets Cameron's gentle invitation plus the escalating ladder
+      // (time already spent with the page is subtracted — sitting with it pays).
       requestNextPage() {
+        const s = get();
+        const home = s.pages[s.pages.length - 1];
+        const interacted = (home?.interactions ?? 0) > 0;
+        if (interacted) return { wait: 3, invited: false };
         nextPageAttempts += 1;
         const ladder  = waitLadderSeconds(nextPageAttempts);
         const elapsed = homePageShownAt > 0 ? (Date.now() - homePageShownAt) / 1000 : 0;
-        return Math.max(0, Math.ceil(ladder - elapsed));
+        return { wait: Math.max(3, Math.ceil(ladder - elapsed)), invited: true };
       },
 
       // Build and show the next prescribed page. The old home page becomes a
@@ -1660,8 +1699,12 @@ export const useAppStore = create<AppState & AppActions>()(
         return true;
       },
 
-      saveInteraction({ kind, title, scriptureRef, reflection, pageRef }) {
-        const dest = interactionDest(kind);
+      saveInteraction({ action, kind, title, scriptureRef, reflection, pageRef }) {
+        // Routing is BY BUTTON (Rev 1 §5): Reflect on this → Profile (the
+        // person's record), Save it → Journal. A video+verse pair arrives here
+        // as ONE entry (the row lives on the pair); standalone verses arrive
+        // alone. Entries stay short-titled with a link back to their feed spot.
+        const dest = interactionDest(action);
         // Map the content kind onto the note-summary voice's source framing.
         const source: NoteSource =
           kind === 'question' || kind === 'invitation' ? 'dialogue'

@@ -81,11 +81,17 @@ export interface Page {
    */
   archived:         boolean;
   /**
-   * True for the "honored history" bucket that honored items slide into when the
-   * user leaves the home page. Repeated scroll-aways append to the same bucket so
-   * the wheel gains one dot per real page, not one per interaction.
+   * True for the "honored history" bucket that honored items slide into when
+   * their slot is replaced in place (Rev 1 §3). Replacements append to the same
+   * bucket so the wheel gains one dot per real page, not one per interaction.
    */
   honorArchive?:    boolean;
+  /**
+   * How many interactions this page has received (Rev 1 §4): ≥1 softens the
+   * right-swipe gate to a short flat "preparing" wait; 0 gets the invitation
+   * plus the escalating ladder. Reset when a fresh page is composed.
+   */
+  interactions?:    number;
 }
 
 /** True when an item counts as fully honored (a pair needs BOTH halves). */
@@ -177,7 +183,10 @@ export interface ComposeInputs {
   recycledVideoIds: number[];
   question:      DialogueQuestion | null;
   exercise:      SpiritualExercise | null;
-  /** How likely a page gets a standalone verse when none is being recycled. */
+  /**
+   * Chance of a standalone verse when none is recycled. Rev 1 §6: EXACTLY one
+   * standalone verse per page, so this defaults to 1 (kept as a knob for tests).
+   */
   standaloneVerseChance?: number;
 }
 
@@ -220,7 +229,7 @@ export function composePage(inp: ComposeInputs, newId: () => string): ComposeRes
       consumedRecycledIds.push(recycledId);
     }
   } else {
-    const chance = inp.standaloneVerseChance ?? 0.4;
+    const chance = inp.standaloneVerseChance ?? 1;
     if (Math.random() < chance && inp.versePool.length > 0) {
       const seenVerse = new Set(inp.seenVerseIds);
       const unseenVerses = inp.versePool.filter(c => !seenVerse.has(c.id));

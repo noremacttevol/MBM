@@ -33,6 +33,8 @@ export interface VideoStory {
   /** Matches the THE-200 master catalog number. */
   id:            number;
   title:         string;
+  /** Feed-card headline, Cameron's pattern: "A story about ___" (Rev 1 §7). */
+  aboutTitle:    string;
   /** The KJV verse paired beneath the video (honored separately from the video). */
   scriptureRef:  string;
   /** The quiet question about God's character the clip leaves behind (MILK). */
@@ -47,6 +49,8 @@ export interface VideoStory {
   videoUrl:      string | null;
   /** Poster/still shown before playback; null until art exists. */
   poster?:       string | null;
+  /** Thumbnail (a frame cut from the video) shown on the feed card; derived. */
+  thumbUrl?:     string | null;
 }
 
 /**
@@ -66,6 +70,10 @@ export function videoStreamUrl(id: number): string {
   return `${VIDEO_HOST}/${id}.mp4`;
 }
 
+export function videoThumbUrl(id: number): string {
+  return `${VIDEO_HOST}/thumbs/${id}.jpg`;
+}
+
 // Ids of clips that are actually produced and live on Firebase Hosting. Adding an
 // id here is the ONLY switch needed to go live — videoUrl is derived automatically
 // below. The locked player only ever plays a produced id.
@@ -82,45 +90,65 @@ export function isVideoProduced(id: number): boolean {
 }
 
 export const VIDEO_STORIES: VideoStory[] = [
-  { id: 1,  title: 'The Woman Who Touched His Cloak', scriptureRef: 'Mark 5:25-34',    contentId: 17, videoUrl: null,
+  { id: 1,  title: 'The Woman Who Touched His Cloak',
+    aboutTitle: 'A story about a woman who reached for his cloak', scriptureRef: 'Mark 5:25-34',    contentId: 17, videoUrl: null,
     seedQuestion: 'If he stopped for one woman in a whole crowd, would he stop for you?' },
-  { id: 2,  title: 'The Prodigal Son',                scriptureRef: 'Luke 15:11-32',   contentId: 5,  videoUrl: null,
+  { id: 2,  title: 'The Prodigal Son',
+    aboutTitle: 'A story about a father who ran',                scriptureRef: 'Luke 15:11-32',   contentId: 5,  videoUrl: null,
     seedQuestion: "What if God runs toward the one coming home, instead of waiting with his arms folded?" },
-  { id: 3,  title: 'Zacchaeus',                       scriptureRef: 'Luke 19:1-10',    contentId: 18, videoUrl: null,
+  { id: 3,  title: 'Zacchaeus',
+    aboutTitle: 'A story about the most hated man in town',                       scriptureRef: 'Luke 19:1-10',    contentId: 18, videoUrl: null,
     seedQuestion: 'What if grace comes to your table before you have cleaned anything up?' },
-  { id: 4,  title: 'Nicodemus at Night',              scriptureRef: 'John 3:1-17',                    videoUrl: null,
+  { id: 4,  title: 'Nicodemus at Night',
+    aboutTitle: 'A story about questions asked in the dark',              scriptureRef: 'John 3:1-17',                    videoUrl: null,
     seedQuestion: 'Is it safe to bring God your hardest questions in the dark?' },
-  { id: 5,  title: 'The Bent-Over Woman',             scriptureRef: 'Luke 13:10-17',                  videoUrl: null,
+  { id: 5,  title: 'The Bent-Over Woman',
+    aboutTitle: 'A story about a woman who belonged before she was healed',             scriptureRef: 'Luke 13:10-17',                  videoUrl: null,
     seedQuestion: 'What if you belonged to him before anything about you was fixed?' },
-  { id: 6,  title: 'The Two Sons',                    scriptureRef: 'Matthew 21:28-32',               videoUrl: null,
+  { id: 6,  title: 'The Two Sons',
+    aboutTitle: 'A story about two sons and one honest turning',                    scriptureRef: 'Matthew 21:28-32',               videoUrl: null,
     seedQuestion: 'Does God measure the turning, or the performance?' },
-  { id: 7,  title: 'Peter Walks on Water',            scriptureRef: 'Matthew 14:22-33', contentId: 20, videoUrl: null,
+  { id: 7,  title: 'Peter Walks on Water',
+    aboutTitle: 'A story about sinking and the hand already there',            scriptureRef: 'Matthew 14:22-33', contentId: 20, videoUrl: null,
     seedQuestion: 'When you start to sink, is the hand already reaching for you?' },
-  { id: 8,  title: 'The Lost Coin',                   scriptureRef: 'Luke 15:8-10',                   videoUrl: null,
+  { id: 8,  title: 'The Lost Coin',
+    aboutTitle: 'A story about a search that would not stop',                   scriptureRef: 'Luke 15:8-10',                   videoUrl: null,
     seedQuestion: 'Would God light a lamp and sweep the whole house for one lost coin — for you?' },
-  { id: 9,  title: 'The Rich Young Ruler',            scriptureRef: 'Mark 10:17-27',                  videoUrl: null,
+  { id: 9,  title: 'The Rich Young Ruler',
+    aboutTitle: 'A story about a man who walked away free',            scriptureRef: 'Mark 10:17-27',                  videoUrl: null,
     seedQuestion: 'What if the God you fear would let you walk away, and still love you?' },
-  { id: 10, title: 'The Woman at the Well',           scriptureRef: 'John 4:1-26',      contentId: 19, videoUrl: null,
+  { id: 10, title: 'The Woman at the Well',
+    aboutTitle: 'A story about being fully known at a well',           scriptureRef: 'John 4:1-26',      contentId: 19, videoUrl: null,
     seedQuestion: 'Could someone know everything you have ever done and stay anyway?' },
-  { id: 11, title: 'Calming the Storm',               scriptureRef: 'Mark 4:35-41',                   videoUrl: null,
+  { id: 11, title: 'Calming the Storm',
+    aboutTitle: 'A story about a storm told to be still',               scriptureRef: 'Mark 4:35-41',                   videoUrl: null,
     seedQuestion: 'What if God did not send your storm — but can still say peace to it?' },
-  { id: 12, title: 'Blind Bartimaeus',               scriptureRef: 'Mark 10:46-52',                  videoUrl: null,
+  { id: 12, title: 'Blind Bartimaeus',
+    aboutTitle: 'A story about a blind man the crowd told to hush',               scriptureRef: 'Mark 10:46-52',                  videoUrl: null,
     seedQuestion: 'When everyone tells you to hush, does God stop for your voice?' },
-  { id: 13, title: 'Through the Roof',                scriptureRef: 'Mark 2:1-12',                    videoUrl: null,
+  { id: 13, title: 'Through the Roof',
+    aboutTitle: 'A story about friends who went through the roof',                scriptureRef: 'Mark 2:1-12',                    videoUrl: null,
     seedQuestion: 'Whose faith has carried you closer than you could have crawled on your own?' },
-  { id: 14, title: 'The Ten Lepers',                  scriptureRef: 'Luke 17:11-19',                  videoUrl: null,
+  { id: 14, title: 'The Ten Lepers',
+    aboutTitle: 'A story about ten healed and one who came back',                  scriptureRef: 'Luke 17:11-19',                  videoUrl: null,
     seedQuestion: 'What if healing meets you on the way, before you have any proof?' },
-  { id: 15, title: 'The Centurion',                   scriptureRef: 'Matthew 8:5-13',                 videoUrl: null,
+  { id: 15, title: 'The Centurion',
+    aboutTitle: 'A story about faith found outside the fold',                   scriptureRef: 'Matthew 8:5-13',                 videoUrl: null,
     seedQuestion: "What if the greatest faith shows up outside the 'right' crowd?" },
-  { id: 16, title: 'Mary and Martha',                 scriptureRef: 'Luke 10:38-42',                  videoUrl: null,
+  { id: 16, title: 'Mary and Martha',
+    aboutTitle: 'A story about the worry underneath the work',          scriptureRef: 'Luke 10:38-42',                  videoUrl: null,
     seedQuestion: 'What if God is more concerned about your worry than your to-do list?' },
-  { id: 17, title: 'Jesus Wept',                      scriptureRef: 'John 11:1-44',     contentId: 9,  videoUrl: null,
+  { id: 17, title: 'Jesus Wept',
+    aboutTitle: 'A story about the day God cried',                      scriptureRef: 'John 11:1-44',     contentId: 9,  videoUrl: null,
     seedQuestion: 'Could the God you picture stand at a grave and weep?' },
-  { id: 18, title: 'The Road to Emmaus',              scriptureRef: 'Luke 24:13-35',                  videoUrl: null,
+  { id: 18, title: 'The Road to Emmaus',
+    aboutTitle: 'A story about a stranger on the road home',            scriptureRef: 'Luke 24:13-35',                  videoUrl: null,
     seedQuestion: 'What if he still walks the road and opens the scriptures — even now?' },
-  { id: 19, title: 'Breakfast on the Shore',          scriptureRef: 'John 21:1-17',                   videoUrl: null,
+  { id: 19, title: 'Breakfast on the Shore',
+    aboutTitle: 'A story about breakfast with the one who failed him',  scriptureRef: 'John 21:1-17',                   videoUrl: null,
     seedQuestion: 'What if God hands his work back to the very ones who failed him?' },
-  { id: 20, title: 'The Good Samaritan',              scriptureRef: 'Luke 10:25-37',    contentId: 10, videoUrl: null,
+  { id: 20, title: 'The Good Samaritan',
+    aboutTitle: 'A story about the outsider who stopped',               scriptureRef: 'Luke 10:25-37',    contentId: 10, videoUrl: null,
     seedQuestion: "What if the one who showed God's love was the outsider you would have overlooked?" },
 ];
 
@@ -128,7 +156,10 @@ export const VIDEO_STORIES: VideoStory[] = [
 // PRODUCED_VIDEO_IDS is the single go-live switch. Un-produced entries keep
 // videoUrl: null and the card shows its verse-only placeholder.
 for (const v of VIDEO_STORIES) {
-  if (!v.videoUrl && isVideoProduced(v.id)) v.videoUrl = videoStreamUrl(v.id);
+  if (isVideoProduced(v.id)) {
+    if (!v.videoUrl) v.videoUrl = videoStreamUrl(v.id);
+    if (!v.thumbUrl) v.thumbUrl = videoThumbUrl(v.id);
+  }
 }
 
 const VIDEO_BY_ID: Record<number, VideoStory> = Object.fromEntries(

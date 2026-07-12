@@ -1,16 +1,12 @@
 /**
- * InteractionRow — the quiet Reflect / Talk About It / Save it row that Feed 2.0
- * puts under EVERY item: videos, verses, stories, questions, invitations.
+ * InteractionRow — the quiet Reflect / Talk About It / Save it row under every
+ * Feed 2.0 item. ONE row per video+verse pair (Rev 1 §5) — the pair saves as a
+ * single entry; standalone verses, questions, and invitations carry their own.
  *
- * It mirrors the row already built into ContentCard (kept working, untouched) but
- * is content-kind aware so saves land in the right place (FEED-2.0-SPEC §5,
- * handoff): reflections on SCRIPTURE or STORIES → the Journal; interactions with
- * QUESTIONS or INVITATIONS → the Profile. The store's saveInteraction() does the
- * routing and hands back the destination tab so we navigate there.
- *
- *   - Reflect on this →  inline box; on Keep the reflection is saved.
- *   - Talk About It →    prefills the AI-minister chat and opens it.
- *   - Save it →          saves the item itself.
+ * Routing is BY BUTTON (Rev 1 §5, Cameron 2026-07-12):
+ *   - Reflect on this → inline box; on Keep it lands on the PROFILE (their record).
+ *   - Talk About It   → prefills the conversation tab and opens it.
+ *   - Save it         → lands in the JOURNAL, short title + link back to the feed.
  */
 
 import React, { useState } from 'react';
@@ -26,7 +22,7 @@ interface Props {
   scriptureRef?: string;
   /** Prefill for "Talk About It" — e.g. "I just watched … Can we talk about it?" */
   talkPrefill:   string;
-  /** Where this item lives, so a saved verse can deep-link back to it. */
+  /** Where this item lives, so a saved entry can deep-link back to it. */
   pageRef?:      { pageIndex: number; slotId: string };
   reflectPlaceholder?: string;
 }
@@ -41,6 +37,7 @@ export default function InteractionRow({
   const [reflectOpen, setReflectOpen] = useState(false);
   const [reflectText, setReflectText] = useState('');
   const [saved, setSaved]             = useState(false);
+  const [reflected, setReflected]     = useState(false);
 
   function go(dest: 'journal' | 'profile') {
     navigation.navigate(dest === 'profile' ? 'Profile' : 'Journal');
@@ -48,9 +45,13 @@ export default function InteractionRow({
 
   function handleReflectKeep() {
     if (!reflectText.trim()) return;
-    const dest = saveInteraction({ kind, title, scriptureRef, reflection: reflectText.trim(), pageRef });
+    const dest = saveInteraction({
+      action: 'reflect', kind, title, scriptureRef,
+      reflection: reflectText.trim(), pageRef,
+    });
     setReflectText('');
     setReflectOpen(false);
+    setReflected(true);
     go(dest);
   }
 
@@ -62,7 +63,7 @@ export default function InteractionRow({
   function handleSave() {
     if (saved) return;
     setSaved(true);
-    const dest = saveInteraction({ kind, title, scriptureRef, pageRef });
+    const dest = saveInteraction({ action: 'save', kind, title, scriptureRef, pageRef });
     go(dest);
   }
 
@@ -70,13 +71,15 @@ export default function InteractionRow({
     <View>
       <View style={styles.subActions}>
         <TouchableOpacity activeOpacity={0.7} onPress={() => setReflectOpen(o => !o)}>
-          <Text style={styles.subActionText}>Reflect on this →</Text>
+          <Text style={[styles.subActionText, reflected && styles.doneText]}>
+            {reflected ? 'Reflected ✓' : 'Reflect on this →'}
+          </Text>
         </TouchableOpacity>
         <TouchableOpacity activeOpacity={0.7} onPress={handleTalk}>
           <Text style={styles.subActionText}>Talk About It →</Text>
         </TouchableOpacity>
         <TouchableOpacity activeOpacity={0.7} onPress={handleSave} disabled={saved}>
-          <Text style={[styles.subActionText, saved && styles.savedText]}>
+          <Text style={[styles.subActionText, saved && styles.doneText]}>
             {saved ? 'Saved ✓' : 'Save it →'}
           </Text>
         </TouchableOpacity>
@@ -121,7 +124,7 @@ const styles = StyleSheet.create({
     fontStyle:  'italic',
     fontFamily: 'Jost_400Regular',
   },
-  savedText: { color: colors.textMuted },
+  doneText: { color: colors.textMuted },
 
   reflectBox: { marginTop: 10 },
   reflectInput: {

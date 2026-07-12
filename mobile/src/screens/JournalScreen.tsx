@@ -378,8 +378,8 @@ export default function JournalScreen() {
                         {note.pending ? '  ·  summarizing…' : ''}
                       </Text>
 
-                      {/* A saved verse links back to where it lives in the feed. */}
-                      {note.kind === 'verse' && note.pageRef && (
+                      {/* A saved feed item links back to where it lives in the feed. */}
+                      {note.pageRef && (
                         <TouchableOpacity
                           activeOpacity={0.7}
                           onPress={() => { openPageRef(note.pageRef!); navigation.navigate('Feed'); }}

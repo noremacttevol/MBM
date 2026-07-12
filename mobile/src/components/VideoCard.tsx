@@ -1,24 +1,27 @@
 /**
- * VideoCard — one video+verse pair on a prescribed page (FEED-2.0-SPEC §1).
+ * VideoCard — one video+verse pair on a prescribed page.
  *
- * The animated Jesus-story video sits on top; its linked KJV verse sits beneath
- * (VerseBlock). The two HONOR SEPARATELY (§2): watching the video to 100% honors
- * the video; opening/reading the verse honors the verse. The story carries its
- * own interaction row; the verse carries its own (inside VerseBlock).
+ * Rev 1 (Cameron, 2026-07-12):
+ *   §7 — looks like content, not a black box: a real THUMBNAIL (a frame cut from
+ *        the video) that is tapped to play, headlined "A story about ___" with
+ *        its scripture reference. No "A STORY" label, no "tap to watch" hint.
+ *   §5 — ONE interaction row for the whole pair (the paired verse hides its own).
+ *   §1 — opens the normal StoryVideoPlayer (pause/scrub/close); the watch is
+ *        credited when the playhead reaches 90%, which honors the video half and
+ *        lets the in-place replacement engine take over.
  *
- * Videos are produced in waves — until a clip exists (isVideoProduced), the card
- * shows the story title + its Seed question + the verse, and simply notes the
- * video is being prepared. The feed is fully usable before any .mp4 ships.
+ * Until a clip is produced, the card shows the seed question + verse and quietly
+ * notes the story is coming — the feed works before any .mp4 exists.
  */
 
 import React, { useState } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
-import { videoById, isVideoProduced, videoStreamUrl } from '../data/videos';
+import { View, Text, TouchableOpacity, Image, StyleSheet } from 'react-native';
+import { videoById, isVideoProduced } from '../data/videos';
 import { VideoPairItem } from '../engine/pageEngine';
 import { useAppStore } from '../store/useAppStore';
 import InteractionRow from './InteractionRow';
 import VerseBlock from './VerseBlock';
-import LockedVideoPlayer from './LockedVideoPlayer';
+import StoryVideoPlayer from './StoryVideoPlayer';
 import { colors, spacing, radius } from '../theme';
 
 interface Props {
@@ -33,68 +36,62 @@ export default function VideoCard({ item, pageIndex }: Props) {
 
   if (!video) return null;
 
-  const produced = isVideoProduced(video.id) && !!(video.videoUrl ?? videoStreamUrl(video.id));
+  const produced = isVideoProduced(video.id) && !!video.videoUrl;
   const pageRef = { pageIndex, slotId: item.slotId };
-
-  function openPlayer() {
-    if (!produced) return;
-    setPlaying(true);
-  }
-  function handleComplete() {
-    honorPageItem(item.slotId, 'video');
-    setPlaying(false);
-  }
-  function handleReadVerse() {
-    honorPageItem(item.slotId, 'verse');
-  }
 
   return (
     <View style={styles.card}>
-      <Text style={styles.label}>A STORY</Text>
+      {/* ── Headline: what the story is about, and where it comes from ─────── */}
+      <View style={styles.headRow}>
+        <Text style={styles.aboutTitle}>{video.aboutTitle}</Text>
+        {item.videoHonored && <Text style={styles.watched}>watched ✓</Text>}
+      </View>
+      <Text style={styles.fromRef}>from {video.scriptureRef}</Text>
 
-      {/* ── The video (or its placeholder until produced) ──────────────────── */}
-      <TouchableOpacity
-        activeOpacity={produced ? 0.85 : 1}
-        onPress={openPlayer}
-        disabled={!produced}
-        style={styles.poster}
-      >
-        <Text style={styles.playGlyph}>{produced ? '▶' : '✧'}</Text>
-        <Text style={styles.posterTitle}>{video.title}</Text>
-        {item.videoHonored
-          ? <Text style={styles.watched}>watched ✓</Text>
-          : <Text style={styles.posterHint}>
-              {produced ? 'Tap to watch' : 'Video in production — its verse is below'}
-            </Text>}
-      </TouchableOpacity>
+      {/* ── The thumbnail — tap it and the story plays ─────────────────────── */}
+      {produced && video.thumbUrl ? (
+        <TouchableOpacity activeOpacity={0.85} onPress={() => setPlaying(true)}>
+          <Image source={{ uri: video.thumbUrl }} style={styles.thumb} resizeMode="cover" />
+          <View style={styles.playBadge} pointerEvents="none">
+            <Text style={styles.playGlyph}>▶</Text>
+          </View>
+        </TouchableOpacity>
+      ) : (
+        <View style={styles.comingSoon}>
+          <Text style={styles.comingTitle}>{video.title}</Text>
+          <Text style={styles.comingNote}>This story's film is being made — its verse is below.</Text>
+        </View>
+      )}
 
       {/* ── The Seed question the story leaves behind ──────────────────────── */}
       <Text style={styles.seed}>{video.seedQuestion}</Text>
 
-      {/* ── Story interaction row (reflect / talk / save) ──────────────────── */}
+      {/* ── The paired verse (no row of its own — the pair shares one) ─────── */}
+      <VerseBlock
+        scriptureRef={video.scriptureRef}
+        contentId={item.verseContentId}
+        honored={item.verseHonored}
+        onRead={() => honorPageItem(item.slotId, 'verse')}
+        pageRef={pageRef}
+        showInteractionRow={false}
+      />
+
+      {/* ── ONE interaction row for the whole pair (Rev 1 §5) ──────────────── */}
       <InteractionRow
         kind="video"
-        title={video.title}
+        title={video.aboutTitle}
         scriptureRef={video.scriptureRef}
         pageRef={pageRef}
         talkPrefill={`I just watched “${video.title}” (${video.scriptureRef}). Can we talk about it?`}
         reflectPlaceholder="What did the story stir? A line is plenty."
       />
 
-      {/* ── The paired verse, honored separately ───────────────────────────── */}
-      <VerseBlock
-        scriptureRef={video.scriptureRef}
-        contentId={item.verseContentId}
-        honored={item.verseHonored}
-        onRead={handleReadVerse}
-        pageRef={pageRef}
-      />
-
       {playing && video.videoUrl && (
-        <LockedVideoPlayer
+        <StoryVideoPlayer
           uri={video.videoUrl}
           visible={playing}
-          onComplete={handleComplete}
+          onCredit={() => honorPageItem(item.slotId, 'video')}
+          onClose={() => setPlaying(false)}
           onError={() => setPlaying(false)}
         />
       )}
@@ -111,14 +108,63 @@ const styles = StyleSheet.create({
     padding:         spacing.md,
     marginBottom:    spacing.sm + 4,
   },
-  label: {
-    fontSize:      10,
-    letterSpacing: 1.5,
-    color:         colors.textMuted,
-    fontFamily:    'Jost_400Regular',
-    marginBottom:  spacing.sm,
+  headRow: {
+    flexDirection:  'row',
+    justifyContent: 'space-between',
+    alignItems:     'flex-start',
+    gap:            spacing.sm,
   },
-  poster: {
+  aboutTitle: {
+    flex:       1,
+    fontSize:   17,
+    color:      '#e8e0c8',
+    fontFamily: 'Jost_400Regular',
+    lineHeight: 24,
+  },
+  watched: {
+    fontSize:   11,
+    color:      colors.green,
+    fontFamily: 'Jost_400Regular',
+    marginTop:  4,
+  },
+  fromRef: {
+    fontSize:      11,
+    color:         colors.textMuted,
+    letterSpacing: 1,
+    textTransform: 'uppercase',
+    fontFamily:    'Jost_400Regular',
+    marginTop:     2,
+    marginBottom:  spacing.sm + 2,
+  },
+
+  thumb: {
+    width:        '100%',
+    aspectRatio:  9 / 12,   // tall crop of the 9:16 frame — big without eating the page
+    borderRadius: radius.sm,
+    backgroundColor: '#0d0c0a',
+  },
+  playBadge: {
+    position:  'absolute',
+    top:       '50%',
+    left:      '50%',
+    marginTop: -26,
+    marginLeft: -26,
+    width:     52,
+    height:    52,
+    borderRadius: 26,
+    backgroundColor: 'rgba(10,10,15,0.62)',
+    borderWidth: 1,
+    borderColor: colors.gold,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  playGlyph: {
+    color:    colors.goldLight,
+    fontSize: 20,
+    marginLeft: 3,
+  },
+
+  comingSoon: {
     borderWidth:     1,
     borderColor:     colors.borderDim,
     borderRadius:    radius.sm,
@@ -126,40 +172,28 @@ const styles = StyleSheet.create({
     paddingVertical: spacing.lg,
     paddingHorizontal: spacing.md,
     alignItems:      'center',
-    justifyContent:  'center',
-    minHeight:       120,
   },
-  playGlyph: {
-    fontSize:   26,
-    color:      colors.gold,
-    marginBottom: 8,
-  },
-  posterTitle: {
-    fontSize:   16,
+  comingTitle: {
+    fontSize:   15,
     color:      '#e8e0c8',
     fontFamily: 'Jost_400Regular',
     textAlign:  'center',
-    marginBottom: 6,
-    lineHeight: 22,
+    marginBottom: 4,
   },
-  posterHint: {
+  comingNote: {
     fontSize:   11,
     color:      colors.textMuted,
-    fontFamily: 'Jost_400Regular',
     fontStyle:  'italic',
+    fontFamily: 'Jost_400Regular',
     textAlign:  'center',
   },
-  watched: {
-    fontSize:   11,
-    color:      colors.green,
-    fontFamily: 'Jost_400Regular',
-  },
+
   seed: {
-    fontSize:     14,
-    color:        colors.textMid,
-    fontFamily:   'Jost_400Regular',
-    fontStyle:    'italic',
-    lineHeight:   22,
-    marginTop:    spacing.md,
+    fontSize:   14,
+    color:      colors.textMid,
+    fontFamily: 'Jost_400Regular',
+    fontStyle:  'italic',
+    lineHeight: 22,
+    marginTop:  spacing.md,
   },
 });

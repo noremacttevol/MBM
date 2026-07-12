@@ -33,12 +33,18 @@ interface Props {
   reminderTitle?: string;
   /** 'verse' for standalone/recycled; the pair passes 'verse' too — kept for clarity. */
   interactionKind?: InteractionKind;
+  /**
+   * Rev 1 §5: a video+verse PAIR carries ONE interaction row (on the pair), so
+   * the paired VerseBlock hides its own. Standalone verses keep theirs.
+   */
+  showInteractionRow?: boolean;
 }
 
 const VERSE_PREVIEW = 6; // collapse long passages to this many verses first
 
 export default function VerseBlock({
-  scriptureRef, contentId, honored, onRead, pageRef, reminderTitle, interactionKind = 'verse',
+  scriptureRef, contentId, honored, onRead, pageRef, reminderTitle,
+  interactionKind = 'verse', showInteractionRow = true,
 }: Props) {
   const verses = contentId != null ? kjvVersesFor(contentId) : undefined;
   const hasInline = !!(verses && verses.length > 0);
@@ -104,13 +110,15 @@ export default function VerseBlock({
         </TouchableOpacity>
       )}
 
-      <InteractionRow
-        kind={interactionKind}
-        title={scriptureRef}
-        scriptureRef={scriptureRef}
-        pageRef={pageRef}
-        talkPrefill={`I just read ${scriptureRef}. Can we talk about it?`}
-      />
+      {showInteractionRow && (
+        <InteractionRow
+          kind={interactionKind}
+          title={scriptureRef}
+          scriptureRef={scriptureRef}
+          pageRef={pageRef}
+          talkPrefill={`I just read ${scriptureRef}. Can we talk about it?`}
+        />
+      )}
     </View>
   );
 }
