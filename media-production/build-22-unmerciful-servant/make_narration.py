@@ -85,4 +85,7 @@ async def main():
         await edge_tts.Communicate(text, voice, rate=rate, pitch=pitch).save(f"audio/{name}.mp3")
         print("saved", name)
 
-asyncio.run(main())
+# Guard so `from make_narration import SEGMENTS` (used by qc_narration.py) does
+# NOT re-run TTS and churn the audio files. Run this module directly to generate.
+if __name__ == "__main__":
+    asyncio.run(main())
