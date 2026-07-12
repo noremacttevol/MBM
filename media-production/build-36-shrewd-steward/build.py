@@ -153,9 +153,9 @@ def bed_filter(idx, start, end, style):
         eq = "lowpass=f=760,tremolo=f=0.12:d=0.3,aecho=0.7:0.4:311|429:0.24|0.17"
         fin, fout = 6, 6
     else:
-        src = ("aevalsrc='0.013*(sin(2*PI*110*t)+sin(2*PI*110.5*t))"
-               "+0.010*(sin(2*PI*146.83*t)+sin(2*PI*147.4*t))"
-               "+0.008*sin(2*PI*196*t)+0.006*sin(2*PI*220*t)'")
+        src = ("aevalsrc='0.017*(sin(2*PI*110*t)+sin(2*PI*110.5*t))"
+               "+0.013*(sin(2*PI*146.83*t)+sin(2*PI*147.4*t))"
+               "+0.010*sin(2*PI*196*t)+0.008*sin(2*PI*220*t)'")
         eq = "lowpass=f=700,tremolo=f=0.10:d=0.3,aecho=0.7:0.4:317|443:0.24|0.17"
         fin, fout = 6, 7
     ms = int(start * 1000)
