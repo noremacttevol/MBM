@@ -93,6 +93,7 @@ table above.)*
 | 25 | Wheat and Tares (Matthew 13) | matthew-13_wheat-and-tares | **APPROVED by Cameron 2026-07-12** ✅ — Machine A (Dev). Stills-only parable, Jesus fully off-screen. 8 stills, verbatim captions, KJV j1 (13:29-30) + j2 (13:43). Patience-is-mercy framing. matthew-13_wheat-and-tares.mp4 (20.7MB, 3:16). |
 | 29 | The Pearl of Great Price (Matthew 13) | matthew-13_pearl-of-great-price | **CLAIMED — building** 🔨 — Machine A (Dev), Cameron's direct order 2026-07-12. Stills-only parable, Jesus fully off-screen (voice + KJV only). KJV Matthew 13:45-46; the "Jesus is good" turn: to him, YOU are the pearl he gave everything for. |
 | 28 | Hidden Treasure (Matthew 13) | matthew-13_hidden-treasure | **BUILT — awaiting Cameron** 🟡 — Elli's Windows laptop, Cameron's direct order 2026-07-12. Stills-only parable (Matthew 13:44), NO Jesus figure (face-gate PASS). 7 painted stills, verbatim captions, KJV j1 (13:44) italic-cream; bed silent under j1. Ear-check all-pass. [▶ watch](media-production/build-28-hidden-treasure/matthew-13_hidden-treasure.mp4) (20.9MB, 1:57) |
+| 26 | The Mustard Seed (Matthew 13) | matthew-13_mustard-seed | **CLAIMED — building** 🔨 — Elli's Windows laptop, Cameron's direct order 2026-07-12 ("go to 26"). Stills-only parable (Matthew 13:31-32), NO Jesus figure (face-gate PASS). KJV j1 (13:31-32). Claim + KJV + narration prep underway. |
 
 After Wave One (1–20), the full 200-story plan and each machine's ranked queue
 live in [`media-production/VIDEO-ASSIGNMENTS.md`](media-production/VIDEO-ASSIGNMENTS.md).
