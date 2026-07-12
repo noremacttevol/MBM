@@ -45,6 +45,10 @@ this file is the at-a-glance summary of it.
 | 04 | Nicodemus at Night (John 3) | 6:07 | redone ✔ | [▶ watch](media-production/build-04-nicodemus/john-3_nicodemus.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-04-nicodemus/john-3_nicodemus.mp4) |
 | 05 | The Bent-Over Woman (Luke 13) | 4:38 | redone ✔ | [▶ watch](media-production/build-05-bent-woman/luke-13_bent-woman.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-05-bent-woman/luke-13_bent-woman.mp4) |
 | 11 | Calming the Storm (Mark 4) | 4:24 | rework built 🟡 | [▶ watch](media-production/build-11-storm/mark-4_calming-the-storm.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-11-storm/mark-4_calming-the-storm.mp4) |
+| 12 | Blind Bartimaeus (Mark 10) | 5:18 | rework built 🟡 | [▶ watch](media-production/build-12-bartimaeus/mark-10_bartimaeus.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-12-bartimaeus/mark-10_bartimaeus.mp4) |
+| 09 | Rich Young Ruler (Mark 10) | 3:37 | rework built 🟡 | [▶ watch](media-production/build-09-rich-ruler/mark-10_rich-young-ruler.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-09-rich-ruler/mark-10_rich-young-ruler.mp4) |
+| 10 | Woman at the Well (John 4) | 5:11 | rework built 🟡 | [▶ watch](media-production/build-10-well/john-4_woman-at-the-well.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-10-well/john-4_woman-at-the-well.mp4) |
+| 17 | Lazarus (John 11) | 6:12 | **built — awaiting Cameron** 🟡 | [▶ watch](media-production/build-17-lazarus/john-11_lazarus.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-17-lazarus/john-11_lazarus.mp4) |
 | 13 | Man Through the Roof (Mark 2) | 5:34 | redone ✔ | [▶ watch](media-production/build-13-roof/mark-2_man-through-the-roof.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-13-roof/mark-2_man-through-the-roof.mp4) |
 | 14 | Ten Lepers (Luke 17) | 4:34 | **APPROVED** ✅ | [▶ watch](media-production/build-14-ten-lepers/luke-17_ten-lepers.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-14-ten-lepers/luke-17_ten-lepers.mp4) |
 | 15 | Centurion's Servant (Matthew 8) | 5:08 | **built — awaiting Cameron** 🟡 | [▶ watch](media-production/build-15-centurion/matthew-8_centurion.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-15-centurion/matthew-8_centurion.mp4) |
@@ -65,14 +69,11 @@ rebuilt to the new standard — the finished file will replace the old one.
 | 06 | Two Sons (Matthew 21) | [▶ old cut](media-production/build-06-two-sons/matthew-21_two-sons.mp4) | Machine C | queued (redo #6–#10) |
 | 07 | Peter Walks on Water (Matthew 14) | [▶ old cut](media-production/build-07-peter-water/matthew-14_peter-walks-on-water.mp4) | Machine C | stills being regenerated (from behind) |
 | 08 | Lost Coin (Luke 15) | [▶ old cut](media-production/build-08-lost-coin/luke-15_lost-coin.mp4) | Machine C | queued (redo #6–#10) |
-| 09 | Rich Young Ruler (Mark 10) | [▶ old cut](media-production/build-09-rich-ruler/mark-10_rich-young-ruler.mp4) | Machine C | queued (redo #6–#10) |
-| 10 | Woman at the Well (John 4) | [▶ old cut](media-production/build-10-well/john-4_woman-at-the-well.mp4) | Machine C | queued (redo #6–#10) |
-| 12 | Blind Bartimaeus (Mark 10) | *no file yet* | Elli's laptop | building (stills-only, #18) |
 | 16 | Mary and Martha (Luke 10) | *no file yet* | Machine A (Dev) | building fresh (stills-only, face-never) |
 
-*(06, 08, 10 were approved as OLD cuts and still play; they're queued for the
-stills-only + face-never redo. 09 is in the rework queue. 07's new stills are
-already being regenerated.)*
+*(06, 08 were approved as OLD cuts and still play; they're queued for the
+stills-only + face-never redo. 07's new stills are already being regenerated.
+09, 10, 12 are now rework-built — see the DONE table above.)*
 
 ---
 
@@ -80,7 +81,6 @@ already being regenerated.)*
 
 | # | Story | File name |
 |---|-------|-----------|
-| 17 | Lazarus (John 11) | john-11_lazarus |
 | 18 | Road to Emmaus (Luke 24) | luke-24_emmaus |
 | 19 | Breakfast on the Shore (John 21) | john-21_shore |
 | 20 | Good Samaritan (Luke 10) | luke-10_samaritan |
@@ -92,7 +92,7 @@ live in [`media-production/VIDEO-ASSIGNMENTS.md`](media-production/VIDEO-ASSIGNM
 
 ## 📈 Count
 
-- **Built to new standard:** 9 (01–05, 11, 13, 14, 15) — **1 approved (14)**, 8 awaiting your rewatch.
-- **In progress (redo / building):** 7 (06–10, 12, 16).
-- **Not started (Wave One):** 4 (17–20).
+- **Built to new standard:** 13 (01–05, 09–15, 17) — **1 approved (14)**, 12 awaiting your rewatch.
+- **In progress (redo / building):** 4 (06, 07, 08, 16).
+- **Not started (Wave One):** 3 (18–20).
 - **Total in the plan:** 200.
