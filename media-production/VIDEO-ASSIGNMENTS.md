@@ -27,10 +27,18 @@ the prompt sheet passes the gate. **Do NOT regenerate another machine's video.**
 
 **REDO ASSIGNMENTS (Cameron, 2026-07-11):**
 - **Videos #1–#5** — another machine (Cameron assigned).
-- **Videos #6–#10** — **CLAIMED by Machine C (Cameron Lovett MS)** — 2026-07-11. #07/#09/#10
-  have their pictures+narration on this box (rebuildable pictures-only here with bin/ffmpeg);
-  #06/#08 have only their scripts here (rendered assets were never pushed — regenerate from the
-  saved prompts, or the machine that built them pushes the assets).
+- **Videos #6–#10** — originally CLAIMED by Machine C (Cameron Lovett MS) 2026-07-11.
+  **RELEASED 2026-07-11:** #09/#10 built by Elli's laptop; **#06 and #08 are now UNCLAIMED —
+  any machine may grab them.** Their PREP is done (PROMPTS.md written, style block locked,
+  face gate passes trivially — parables, no Jesus figure). Partial art is already pushed:
+  - **#06 build-06-two-sons/assets/** has 5 of 6 stills (wall, went, empty, pride, falseyes).
+    LEFT: generate the 1 missing still **`refuse`** (first son shakes his head and turns to
+    walk away from the father — prompt in build-06 PROMPTS.md), then rewrite build.py to
+    STILLS-ONLY + verbatim captions on the #15 pattern, generate narration, build, QC, push.
+  - **#08 build-08-lost-coin/assets/** has 2 of 6 stills (stars, door). LEFT: generate the 4
+    missing stills **`count`, `lamp`, `sweep`, `found`** (prompts in build-08 PROMPTS.md),
+    then the same stills-only build.
+  - **#07** stays Machine C — face-fix redo in progress (s7 regenerated, s8→reuse s7).
 
 **A. Prompt sheets that FAIL the face gate — restage the Jesus prompts on paper (no credits) first:**
 | Build | Owner | Face-gate | Action |
@@ -59,9 +67,9 @@ only, face gate must pass. Nothing legacy to redo.
 | 03 | Zacchaeus | luke-19_zacchaeus | REDONE 2026-07-11 Machine A (Dev) — stills-only (lookup clip→anchor still); Jesus already new look (from-behind, dark hair, no hood every beat). Awaiting Cameron approval |
 | 04 | Nicodemus | john-3_nicodemus | REDONE 2026-07-11 Machine A (Dev) — stills-only ("came at night" clip→new painted night-street still); Jesus only ever shown from behind (dark seated figure), never a face. Awaiting Cameron approval |
 | 05 | Bent Woman | luke-13_bent-woman | REDONE 2026-07-11 Machine A (Dev) — stills-only ("she rises" clip→new painted rising still); Jesus only from-behind (s5) / off-frame, never a face. Awaiting Cameron approval |
-| 06 | Two Sons | matthew-21_two-sons | DONE — approved |
-| 07 | Peter walks on water | matthew-14_peter-water | DONE — approved (after V5) |
-| 08 | Lost Coin | luke-15_lost-coin | DONE — approved |
+| 06 | Two Sons | matthew-21_two-sons | REDO IN PROGRESS — **UNCLAIMED, free to grab** — old cut was approved & still plays. Stills-only prep done (PROMPTS.md, face gate trivial). **assets/ has 5/6 stills (wall, went, empty, pride, falseyes); LEFT: 1 still `refuse`, then build.py stills-only + verbatim captions (#15 pattern), narration, build.** |
+| 07 | Peter walks on water | matthew-14_peter-water | Machine C — face-fix redo in progress. Current stills-only cut plays (matthew-14_peter-walks-on-water.mp4, 4:16, glowing-Jesus removed on s4, s7 regenerated). LEFT: s8→reuse-s7 swap, rebuild, QC face-gate. |
+| 08 | Lost Coin | luke-15_lost-coin | REDO IN PROGRESS — **UNCLAIMED, free to grab** — old cut was approved & still plays. Stills-only prep done. **assets/ has 2/6 stills (stars, door); LEFT: 4 stills `count`,`lamp`,`sweep`,`found`, then build.py stills-only + verbatim captions, narration, build.** |
 | 09 | Rich Young Ruler | mark-10_rich-ruler | REWORK BUILT — 2026-07-11 — Elli's Windows laptop — awaiting Cameron's verdict. Stills-only (Law E): 2 Veo clips (s1-run, s6-walk) → stills. s7 regenerated so the Lord is seen from DIRECTLY BEHIND (old s7 leaked a profile cheek/eye — #18 fixed); every other still is the rich young man, whose own face is allowed. mark-10_rich-young-ruler.mp4 (18.9MB, 217s). build_win.py. |
 | 10 | Woman at the Well | john-4_well | REWORK BUILT — 2026-07-11 — Elli's Windows laptop — awaiting Cameron's verdict. Law E: 2 Veo clips (s5-conversation, s7-jar-run) → their existing anchor stills; alternating zoom on the long well conversation. #18 re-audit PASS with no regeneration — the Lord is only ever behind (s2) / over-the-shoulder (s5,s6), no face/glow. john-4_woman-at-the-well.mp4 (20.4MB, 311s). build_win.py. |
 | 11 | Calming the Storm | mark-4_calming-the-storm | REWORK BUILT — 2026-07-11 — Elli's Windows laptop — awaiting Cameron's verdict. All 6 hooded-Jesus stills (s1,s4,s5,s6,s7,s8) restaged under #18 (real Middle-Eastern man from behind, dark hair, no hood-void, kept night, inside boat) + regenerated; 2 Veo clips REMOVED → stills-only; rebuilt on Windows. mark-4_calming-the-storm.mp4 (19.6MB, 264s). |
