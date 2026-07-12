@@ -1,0 +1,14 @@
+# EAS Build uploads from the git repo root (monorepo layout), which swept the
+# entire 22 GB media-production tree into the archive (limit: 2 GB). Only
+# mobile/ is the app — exclude everything else, plus mobile's own heavy/dev
+# files. NOTE: when .easignore exists it REPLACES .gitignore for the upload, so
+# secrets ignored by git must be re-listed here.
+/*
+!/mobile
+/mobile/node_modules
+/mobile/dist
+/mobile/.expo
+/mobile/credentials
+/mobile/screenshots
+/mobile/.env
+/mobile/*.log
