@@ -56,7 +56,7 @@ this file is the at-a-glance summary of it.
 | 15 | Centurion's Servant (Matthew 8) | 5:08 | **APPROVED** ✅ | [▶ watch](media-production/build-15-centurion/matthew-8_centurion.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-15-centurion/matthew-8_centurion.mp4) |
 | 08 | Lost Coin (Luke 15) | 1:06 | **APPROVED** ✅ | [▶ watch](media-production/build-08-lost-coin/luke-15_lost-coin.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-08-lost-coin/luke-15_lost-coin.mp4) |
 
-*(ALL 16 built videos — 01–15 and 17 — are **APPROVED by Cameron** (2026-07-11, second pass: he watched every built cut and approved them all). This supersedes the pending #17 Lazarus s9 beard fix: the current cut is approved as-is; if the beard regen ships later it may replace the file as optional polish, but nothing blocks. The 16 approved finals are staged for in-app streaming at `site/story-videos/<catalog-id>.mp4` (Feed 2.0 pulls them from Firebase Hosting).)*
+*(ALL 16 built videos — 01–15 and 17 — are **APPROVED by Cameron** (2026-07-11, second pass: he watched every built cut and approved them all). **#17 Lazarus beard fix has now SHIPPED** (Machine C, 2026-07-11): s9 regenerated with Lazarus's dark beard and rebuilt, so the approved file at `build-17-lazarus/john-11_lazarus.mp4` already contains the fix — no longer pending/optional. The 16 approved finals are staged for in-app streaming at `site/story-videos/<catalog-id>.mp4` (Feed 2.0 pulls them from Firebase Hosting) — the #17 stream copy should be re-synced from the rebuilt file.)*
 
 ---
 
@@ -70,7 +70,6 @@ rebuilt to the new standard — the finished file will replace the old one.
 |---|-------|------------------------|-----------|-------|
 | 16 | Mary and Martha (Luke 10) | *no file yet* | Machine A (Dev) | building fresh (stills-only, face-never) |
 | 18 | Road to Emmaus (Luke 24) | *no file yet* | Elli's laptop | building fresh (stills-only, face-never — his identity hidden the whole road) |
-| 17 | Lazarus — s9 beard fix | [▶ cut](media-production/build-17-lazarus/john-11_lazarus.mp4) | Elli's laptop | OPTIONAL now — Cameron approved the current cut 2026-07-11; a bearded-s9 rebuild may replace it later as polish, nothing blocks |
 
 *(06 and 07 are now rework-built — see the DONE table. 06: the last motion clip
 was replaced with a still (fully stills-only), and the working son wears
