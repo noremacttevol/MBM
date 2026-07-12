@@ -43,13 +43,15 @@ interface Props {
    * to be a good God here. Shown above the row; Reply answers it.
    */
   question?: string;
+  /** Rev 2.1: explicit trade-for-fresh action once the verse is read/interacted. */
+  onGetNew?: () => void;
 }
 
 const VERSE_PREVIEW = 6; // collapse long passages to this many verses first
 
 export default function VerseBlock({
   scriptureRef, contentId, honored, onRead, pageRef, reminderTitle,
-  interactionKind = 'verse', showInteractionRow = true, question,
+  interactionKind = 'verse', showInteractionRow = true, question, onGetNew,
 }: Props) {
   const verses = contentId != null ? kjvVersesFor(contentId) : undefined;
   const hasInline = !!(verses && verses.length > 0);
@@ -124,6 +126,8 @@ export default function VerseBlock({
           scriptureRef={scriptureRef}
           pageRef={pageRef}
           talkPrefill={`I just read ${scriptureRef}. Can we talk about it?`}
+          onGetNew={onGetNew}
+          getNewLabel="Get a new verse →"
         />
       )}
     </View>

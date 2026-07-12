@@ -26,6 +26,13 @@
 >    first frame renders (it was circling over playing video).
 > 5. Cameron's verdicts on Rev 1: pager, video+verse pairing, thumbnails, and
 >    the player itself are RIGHT — keep them.
+> 6. **(Rev 2.1, same day)** The 100%-off-screen trigger only ever fired for the
+>    top item (lower items can't scroll fully past — page height). Corrected:
+>    an earned item **75% scrolled off the top** triggers the swap, and the next
+>    scroll is ignored (~2.4s) while the fresh piece visibly lands. PLUS an
+>    explicit escape for bottom-of-page items: once an item is earned, a gold
+>    "Get a new story / verse / question →" link appears beside Save it, and a
+>    green "Watched ✓ · Read ✓" ribbon marks completed pairs.
 
 > ⚠️ **REVISION 1 — 2026-07-12 (Cameron, after using the first build on his
 > phone). Where the section below conflicts with the original text, the

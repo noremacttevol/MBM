@@ -31,10 +31,18 @@ interface Props {
   /** Where this item lives, so a saved entry can deep-link back to it. */
   pageRef?:      { pageIndex: number; slotId: string };
   reflectPlaceholder?: string;
+  /**
+   * Rev 2.1: shown beside Save it once the item is completed/interacted — an
+   * explicit way to trade it for fresh content (covers items near the bottom
+   * of the page that can never scroll fully past).
+   */
+  onGetNew?:     () => void;
+  getNewLabel?:  string;
 }
 
 export default function InteractionRow({
   kind, title, scriptureRef, talkPrefill, pageRef, reflectPlaceholder,
+  onGetNew, getNewLabel,
 }: Props) {
   const saveInteraction    = useAppStore(s => s.saveInteraction);
   const markSlotInteracted = useAppStore(s => s.markSlotInteracted);
@@ -92,6 +100,11 @@ export default function InteractionRow({
             {saved ? 'Saved ✓' : 'Save it →'}
           </Text>
         </TouchableOpacity>
+        {onGetNew && (
+          <TouchableOpacity activeOpacity={0.7} onPress={onGetNew}>
+            <Text style={styles.getNewText}>{getNewLabel ?? 'Get a new one →'}</Text>
+          </TouchableOpacity>
+        )}
       </View>
 
       {reflectOpen && (
@@ -134,6 +147,12 @@ const styles = StyleSheet.create({
     fontFamily: 'Jost_400Regular',
   },
   doneText: { color: colors.textMuted },
+  getNewText: {
+    color:      colors.gold,
+    fontSize:   11,
+    fontStyle:  'italic',
+    fontFamily: 'Jost_400Regular',
+  },
 
   reflectBox: { marginTop: 10 },
   reflectInput: {

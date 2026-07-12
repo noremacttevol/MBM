@@ -17,7 +17,7 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, Image, StyleSheet } from 'react-native';
 import { videoById, isVideoProduced } from '../data/videos';
-import { VideoPairItem } from '../engine/pageEngine';
+import { VideoPairItem, isReplaceEligible } from '../engine/pageEngine';
 import { useAppStore } from '../store/useAppStore';
 import InteractionRow from './InteractionRow';
 import VerseBlock from './VerseBlock';
@@ -30,7 +30,8 @@ interface Props {
 }
 
 export default function VideoCard({ item, pageIndex }: Props) {
-  const honorPageItem = useAppStore(s => s.honorPageItem);
+  const honorPageItem      = useAppStore(s => s.honorPageItem);
+  const notifyScrolledPast = useAppStore(s => s.notifyScrolledPast);
   const video = videoById(item.videoId);
   const [playing, setPlaying] = useState(false);
 
@@ -39,12 +40,21 @@ export default function VideoCard({ item, pageIndex }: Props) {
   const produced = isVideoProduced(video.id) && !!video.videoUrl;
   const pageRef = { pageIndex, slotId: item.slotId };
 
+  const eligible = isReplaceEligible(item);
+
   return (
     <View style={styles.card}>
+      {/* ── Completed state (Rev 2.1): the quiet green record of what's done ── */}
+      {(item.videoHonored || item.verseHonored) && (
+        <Text style={styles.completedRibbon}>
+          {[item.videoHonored ? 'Watched ✓' : null, item.verseHonored ? 'Read ✓' : null]
+            .filter(Boolean).join('  ·  ')}
+        </Text>
+      )}
+
       {/* ── Headline: what the story is about, and where it comes from ─────── */}
       <View style={styles.headRow}>
         <Text style={styles.aboutTitle}>{video.aboutTitle}</Text>
-        {item.videoHonored && <Text style={styles.watched}>watched ✓</Text>}
       </View>
       <Text style={styles.fromRef}>from {video.scriptureRef}</Text>
 
@@ -84,6 +94,8 @@ export default function VideoCard({ item, pageIndex }: Props) {
         pageRef={pageRef}
         talkPrefill={`I just watched “${video.title}” (${video.scriptureRef}). Can we talk about it?`}
         reflectPlaceholder='e.g. “I always pictured God waiting with his arms folded. This one felt different.”'
+        onGetNew={eligible ? () => notifyScrolledPast(item.slotId) : undefined}
+        getNewLabel="Get a new story →"
       />
 
       {playing && video.videoUrl && (
@@ -126,6 +138,13 @@ const styles = StyleSheet.create({
     color:      colors.green,
     fontFamily: 'Jost_400Regular',
     marginTop:  4,
+  },
+  completedRibbon: {
+    fontSize:      11,
+    color:         colors.green,
+    letterSpacing: 0.5,
+    fontFamily:    'Jost_400Regular',
+    marginBottom:  spacing.sm,
   },
   fromRef: {
     fontSize:      11,

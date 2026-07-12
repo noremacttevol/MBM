@@ -69,21 +69,22 @@ function FeedPage({ page, isHome, width }: { page: Page; isHome: boolean; width:
   const swapping  = useRef(false);
   const [locked, setLocked] = useState(false);
 
-  // Rev 2 §3: scrolled fully past an item that earned replacement → stop the
-  // screen at the slot, show the fresh one being pulled in, then release.
+  // Rev 2.1 (Cameron): an earned item 75% scrolled off the top counts as
+  // "scrolled past" — the next scroll is ignored (screen locks ~2.4s) while the
+  // slot visibly pulls a fresh piece in, then releases. The old 100%-off rule
+  // could never fire for items near the bottom of the page.
   function handleScroll(e: NativeSyntheticEvent<NativeScrollEvent>) {
     if (!isHome || swapping.current) return;
     const offsetY = e.nativeEvent.contentOffset.y;
     for (const it of page.items) {
       const box = layouts.current[it.slotId];
       if (!box) continue;
-      const fullyPast = offsetY > box.y + box.h + 24;
-      if (fullyPast && isReplaceEligible(it) && !preparingSlots.includes(it.slotId)) {
+      const mostlyPast = offsetY > box.y + box.h * 0.75;
+      if (mostlyPast && isReplaceEligible(it) && !preparingSlots.includes(it.slotId)) {
         swapping.current = true;
-        notifyScrolledPast(it.slotId);            // store starts the 2.2s swap
-        setLocked(true);                          // stop the screen…
-        scrollRef.current?.scrollTo({ y: Math.max(0, box.y - 60), animated: true }); // …at the slot
-        setTimeout(() => { setLocked(false); swapping.current = false; }, 2600);
+        notifyScrolledPast(it.slotId);   // store starts the 2.2s swap
+        setLocked(true);                 // the next scroll is ignored while it lands
+        setTimeout(() => { setLocked(false); swapping.current = false; }, 2400);
         break; // one visible swap at a time
       }
     }
@@ -137,6 +138,7 @@ function FeedPage({ page, isHome, width }: { page: Page; isHome: boolean; width:
               pageRef={{ pageIndex: page.index, slotId: item.slotId }}
               reminderTitle={item.recycledFromTitle}
               question={content?.seedQuestion}
+              onGetNew={isReplaceEligible(item) ? () => notifyScrolledPast(item.slotId) : undefined}
             />
           </View>
         );
@@ -158,6 +160,8 @@ function FeedPage({ page, isHome, width }: { page: Page; isHome: boolean; width:
                 pageRef={{ pageIndex: page.index, slotId: item.slotId }}
                 talkPrefill={`I was asked: “${q.questionText}” — can we talk about it?`}
                 reflectPlaceholder='e.g. “Saying it out loud made me realize I believe more than I thought.”'
+                onGetNew={() => notifyScrolledPast(item.slotId)}
+                getNewLabel="Get a new question →"
               />
             </View>
           );
@@ -181,6 +185,8 @@ function FeedPage({ page, isHome, width }: { page: Page; isHome: boolean; width:
                 pageRef={{ pageIndex: page.index, slotId: item.slotId }}
                 talkPrefill={`I was invited to try something: “${ex.text}” — can we talk about it?`}
                 reflectPlaceholder='e.g. “I tried it last night. It was quieter than I expected.”'
+                onGetNew={() => notifyScrolledPast(item.slotId)}
+                getNewLabel="Get a new one →"
               />
             </View>
           );
