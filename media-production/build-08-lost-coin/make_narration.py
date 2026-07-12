@@ -8,7 +8,7 @@ Script follows media-production/08-lost_coin-production-pack.md exactly.
 import asyncio
 import edge_tts
 
-NARRATOR = "en-US-AndrewMultilingualNeural"
+NARRATOR = "en-US-AndrewNeural"   # plain American — never a Multilingual model (Voice Law)
 JESUS = "en-US-ChristopherNeural"   # American. Never a British voice.
 
 SEGMENTS = [

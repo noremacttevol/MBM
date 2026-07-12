@@ -54,6 +54,7 @@ this file is the at-a-glance summary of it.
 | 13 | Man Through the Roof (Mark 2) | 5:34 | **APPROVED** ✅ | [▶ watch](media-production/build-13-roof/mark-2_man-through-the-roof.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-13-roof/mark-2_man-through-the-roof.mp4) |
 | 14 | Ten Lepers (Luke 17) | 4:34 | **APPROVED** ✅ | [▶ watch](media-production/build-14-ten-lepers/luke-17_ten-lepers.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-14-ten-lepers/luke-17_ten-lepers.mp4) |
 | 15 | Centurion's Servant (Matthew 8) | 5:08 | **APPROVED** ✅ | [▶ watch](media-production/build-15-centurion/matthew-8_centurion.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-15-centurion/matthew-8_centurion.mp4) |
+| 08 | Lost Coin (Luke 15) | 1:06 | rework built 🟡 | [▶ watch](media-production/build-08-lost-coin/luke-15_lost-coin.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-08-lost-coin/luke-15_lost-coin.mp4) |
 
 *(01–05, 09, 10, 13, 14, 15 are **APPROVED by Cameron** (2026-07-11). 06, 07, 11,
 12, 17 are rework/fresh built and awaiting his rewatch — 06 is now fully
@@ -74,7 +75,6 @@ rebuilt to the new standard — the finished file will replace the old one.
 
 | # | Story | Old cut (playable now) | Redone by | State |
 |---|-------|------------------------|-----------|-------|
-| 08 | Lost Coin (Luke 15) | [▶ old cut](media-production/build-08-lost-coin/luke-15_lost-coin.mp4) | Elli's laptop | building now — generating the 4 missing stills (count, lamp, sweep, found), then stills-only build. |
 | 16 | Mary and Martha (Luke 10) | *no file yet* | Machine A (Dev) | building fresh (stills-only, face-never) |
 
 *(06 and 07 are now rework-built — see the DONE table. 06: the last motion clip
