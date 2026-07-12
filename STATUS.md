@@ -71,6 +71,7 @@ rebuilt to the new standard — the finished file will replace the old one.
 |---|-------|------------------------|-----------|-------|
 | 16 | Mary and Martha (Luke 10) | *no file yet* | Machine A (Dev) | building fresh (stills-only, face-never) — stills 1–4 done, generating stills 5–6 + assembly (resumed 2026-07-12) |
 | 36 | The Shrewd Steward (Luke 16) | *no file yet* | Machine A (Dev) | **CLAIMED — building** 🔨 — Cameron's direct order "do 16 and 36" 2026-07-12. Stills-only parable (Luke 16:1-13), NO Lord figure (voice + KJV only, face-gate PASS). Milk: he praises the steward's URGENCY not his cheating — be that urgent about eternal things; he is not after your money, he is after you. |
+| 38 | The Persistent Widow (Luke 18) | *no file yet* | Machine C | **CLAIMED — building** 🔨 — Cameron's direct order "do 38" 2026-07-12 (off-list). Stills-only parable (Luke 18:1-8), NO Jesus figure (voice + KJV only, face-gate PASS). Milk: CONTRAST — God is nothing like the reluctant, annoyed judge; he is not worn down into caring, he already loves you and already wants to hear you, so keep coming. |
 
 *(06 and 07 are now rework-built — see the DONE table. 06: the last motion clip
 was replaced with a still (fully stills-only), and the working son wears
