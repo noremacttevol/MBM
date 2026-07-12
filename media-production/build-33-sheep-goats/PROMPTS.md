@@ -69,11 +69,13 @@ vertical.
 
 ## s6-least — Shot 6: unto one of the least of these
 [STILL STYLE BLOCK] A dusty street corner in warm golden light. An ordinary
-passer-by kneels down in the dust to tenderly help a small, poor beggar child
-sitting against a wall — offering food, meeting the child eye to eye with real
-gentleness — while other people hurry past in the background, not noticing. Soft
-warm light gathers around the two of them. Both faces clearly shown. One single
-continuous scene painted edge to edge, 9:16 vertical.
+young woman in a simple headscarf and plain work dress kneels down in the dust to
+tenderly help a small, poor beggar child sitting against a wall — offering a piece
+of bread, meeting the child eye to eye with real gentleness — while other people
+hurry past in the background, not noticing. Soft warm light gathers around the two
+of them. Both faces clearly shown. (Deliberately an ordinary woman, clearly NOT a
+robed bearded man, so nothing here can be misread as the off-screen King.) One
+single continuous scene painted edge to edge, 9:16 vertical.
 
 ## s7-hands-close — Shot 7: ye have done it unto me
 [STILL STYLE BLOCK] A close, tender image of one weathered helping hand placing a
