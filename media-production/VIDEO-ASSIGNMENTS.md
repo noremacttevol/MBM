@@ -125,7 +125,7 @@ only, face gate must pass. Nothing legacy to redo.
 | 2 | 16 | Mary and Martha | luke-10_mary-martha | see Wave One table |
 | 3 | 19 | Breakfast on the Shore | john-21_shore | see Wave One table |
 | 4 | 22 | The Unmerciful Servant | matthew-18_unmerciful-servant | **BUILT — awaiting Cameron — 2026-07-12 — Elli's Windows laptop** (Cameron's direct order — built from the PROMPT-build-22 sheet; overrides the Machine A list claim, same as #21). STILLS-ONLY (Law E) + face-never (#18 face-gate PASS — parable; the Lord appears only in s1 from directly behind, s2–s8 have no Jesus figure). 8 painted stills, verbatim captions, KJV j1 (18:22 seventy times seven) + j2 (18:35 the seal) italic-cream red-letter; bed goes silent under the king's compassion and under j2. Narration ear-check all-pass. King (royal-purple) + first servant (rust-brown) wardrobe locked across every beat. matthew-18_unmerciful-servant.mp4 (21.5MB, 4:05). build.py. |
-| 5 | 28 | Hidden Treasure | matthew-13_hidden-treasure | UNCLAIMED |
+| 5 | 28 | Hidden Treasure | matthew-13_hidden-treasure | **CLAIMED — 2026-07-12 — Elli's Windows laptop** (Cameron's direct order "start #28"). STILLS-ONLY (Law E), face-never (#18 — parable, no Jesus figure). Matthew 13:44. |
 | 6 | 34 | The Rich Fool | luke-12_rich-fool | UNCLAIMED |
 | 7 | 38 | The Persistent Widow | luke-18_persistent-widow | UNCLAIMED |
 | 8 | 42 | The Barren Fig Tree Spared | luke-13_fig-tree-spared | UNCLAIMED |
