@@ -2,7 +2,7 @@
   "expo": {
     "name": "Milk Before Meat",
     "slug": "mbm",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "orientation": "portrait",
     "updates": {
       "url": "https://u.expo.dev/6cc829be-50dd-4ae1-8122-34edbb379bbd",
