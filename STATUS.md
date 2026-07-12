@@ -67,7 +67,7 @@ rebuilt to the new standard — the finished file will replace the old one.
 | # | Story | Old cut (playable now) | Redone by | State |
 |---|-------|------------------------|-----------|-------|
 | 06 | Two Sons (Matthew 21) | [▶ old cut](media-production/build-06-two-sons/matthew-21_two-sons.mp4) | **UNCLAIMED — free to grab** | stills **5/6** saved in `build-06-two-sons/assets/` (wall, went, empty, pride, falseyes). **LEFT: 1 still `refuse` (son turning away from father), then rewrite build.py stills-only + verbatim captions like #15, gen narration, build.** |
-| 07 | Peter Walks on Water (Matthew 14) | [▶ current cut](media-production/build-07-peter-water/matthew-14_peter-walks-on-water.mp4) | Machine C | face-fix redo in progress (s7 regenerated, s8→reuse s7). Current 4:16 stills-only cut plays. **LEFT: finish s8 swap, rebuild, QC face-gate.** |
+| 07 | Peter Walks on Water (Matthew 14) | [▶ current cut](media-production/build-07-peter-water/matthew-14_peter-walks-on-water.mp4) | Elli's laptop | fixing 3 pictures per Cameron: s5 walk (Peter from behind, going toward distant Jesus); a sinking-alone still (hand-grab no longer too early); s9 walk-back (disciples in the boat). Then rebuild. |
 | 08 | Lost Coin (Luke 15) | [▶ old cut](media-production/build-08-lost-coin/luke-15_lost-coin.mp4) | **UNCLAIMED — free to grab** | stills **2/6** saved in `build-08-lost-coin/assets/` (stars, door). **LEFT: 4 stills `count`, `lamp`, `sweep`, `found` (prompts in PROMPTS.md), then build.py stills-only + verbatim captions, gen narration, build.** |
 | 16 | Mary and Martha (Luke 10) | *no file yet* | Machine A (Dev) | building fresh (stills-only, face-never) |
 
