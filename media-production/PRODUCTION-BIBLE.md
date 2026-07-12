@@ -252,6 +252,24 @@ words. Nothing here overrides the sacred pause before Jesus's KJV words.
   NOT a hooded black void, NOT a solid cutout, NOT a robe-and-posture "Assassin's
   Creed" ghost. The answer to "no white Jesus" is that he is unmistakably Middle
   Eastern — not that he is hidden as a silhouette.
+- **THE JESUS LOOK STANDARD — the SAME in every scene and every video (Cameron,
+  2026-07-11).** He is a FIXED character: his hair and clothing never change from shot
+  to shot or story to story. (The #11 storm kept flipping his hair short↔long and his
+  robe kept changing — once to a white fur/fleece look — which breaks the spell.
+  "We know what he looked like; it's not that hard — standardize it for all the
+  videos.") Paste this identical description into EVERY Jesus prompt in EVERY video:
+  - **HAIR: LONG, dark brown-black, falling past the shoulders. NEVER short, never
+    changing length.**
+  - **CLOTHING: one plain, undyed off-white / cream WOOL robe — a simple first-century
+    Judean man's tunic with a plain mantle, the SAME garment every time. NOT a white
+    fur or fleece, NOT a changing color, cut, or trim.**
+  - **SKIN: warm Middle Eastern olive-brown. Never white or pale.**
+  - **CAMERA: from BEHIND / the back of his head is the DEFAULT.** Cameron, 2026-07-11:
+    a side profile still lets you make out his face — so prefer simply from behind. No
+    three-quarter or side angle that lets his facial features be read.
+  - **NO glow, halo, or rim-light.**
+  Treat this like the wardrobe-lock law, but project-wide: the same Jesus, painted the
+  same way, across all 200 videos.
 - **Hide the face by the CAMERA ANGLE, never by light.** The camera sits BEHIND him,
   OVER his shoulder (the reliable default: camera behind him, the people filling the
   frame looking past the camera straight at him), or at true DISTANCE (a far figure
