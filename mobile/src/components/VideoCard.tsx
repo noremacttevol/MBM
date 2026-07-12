@@ -21,6 +21,7 @@ import { VideoPairItem, isReplaceEligible } from '../engine/pageEngine';
 import { useAppStore } from '../store/useAppStore';
 import InteractionRow from './InteractionRow';
 import VerseBlock from './VerseBlock';
+import TakeawayCheck from './TakeawayCheck';
 import StoryVideoPlayer from './StoryVideoPlayer';
 import { colors, spacing, radius } from '../theme';
 
@@ -84,6 +85,13 @@ export default function VideoCard({ item, pageIndex }: Props) {
         onRead={() => honorPageItem(item.slotId, 'verse')}
         pageRef={pageRef}
         showInteractionRow={false}
+      />
+
+      {/* ── The confirmable intention of this story+scripture (Rev 2.2) ────── */}
+      <TakeawayCheck
+        takeawayKey={`video-${video.id}`}
+        text={video.takeaway}
+        slotId={item.slotId}
       />
 
       {/* ── ONE interaction row for the whole pair (Rev 1 §5) ──────────────── */}

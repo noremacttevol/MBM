@@ -138,6 +138,8 @@ function FeedPage({ page, isHome, width }: { page: Page; isHome: boolean; width:
               pageRef={{ pageIndex: page.index, slotId: item.slotId }}
               reminderTitle={item.recycledFromTitle}
               question={content?.seedQuestion}
+              takeaway={content?.takeaway}
+              takeawayKey={content ? `verse-${content.id}` : undefined}
               onGetNew={isReplaceEligible(item) ? () => notifyScrolledPast(item.slotId) : undefined}
             />
           </View>

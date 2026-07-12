@@ -33,6 +33,13 @@
 >    explicit escape for bottom-of-page items: once an item is earned, a gold
 >    "Get a new story / verse / question →" link appears beside Save it, and a
 >    green "Watched ✓ · Read ✓" ribbon marks completed pairs.
+> 7. **(Rev 2.2, same day) Takeaway checkboxes on every scripture.** Under every
+>    verse and every video+verse pair sits the one-line, checkbox-confirmable
+>    INTENTION of that God-inspired word — "[ ] This helped me see how God loves
+>    all of us." Tailored per story/verse (all 120 written). Checking it is a
+>    traceable confirmation kept on the person's record (Profile counts them),
+>    counts as interaction (earns Get-new / scroll-past replacement), and makes
+>    the discipling intention plain. Disagreement is welcome — Reply sits below.
 
 > ⚠️ **REVISION 1 — 2026-07-12 (Cameron, after using the first build on his
 > phone). Where the section below conflicts with the original text, the

@@ -1044,6 +1044,9 @@ interface AppState {
   // Slots mid-replacement (Rev 1 §3): honored, showing the 2–3s "preparing a new
   // story…" state before fresh content lands in the same spot. Never persisted.
   preparingSlots:    string[];
+  // Rev 2.2: every takeaway the person has checked — the traceable record that
+  // they got something from a scripture/story ("[x] This helped me see …").
+  confirmedTakeaways: { key: string; text: string; ts: number }[];
 
   // UI state
   showTalkToSomeone: boolean;
@@ -1162,6 +1165,9 @@ interface AppActions {
   honorPageItem:       (slotId: string, part?: 'video' | 'verse') => void;
   // Rev 2: replying to / saving an item counts as interacting with it.
   markSlotInteracted:  (slotId: string) => void;
+  // Rev 2.2: check a takeaway line — recorded on the person's record and counts
+  // as interaction (earns Get-new / scroll-past replacement).
+  confirmTakeaway:     (key: string, text: string, slotId?: string) => void;
   // Rev 2: the feed reports that the user scrolled fully past a slot; if the
   // item earned it (watched 90% / read / interacted), the swap begins.
   notifyScrolledPast:  (slotId: string) => void;
@@ -1291,6 +1297,7 @@ const initialState: AppState = {
   recycledVideoIds:    [],
   honoredVideoIds:     [],
   preparingSlots:      [],
+  confirmedTakeaways:  [],
   showTalkToSomeone:   false,
   dialogueSignals:     [],
   baseSignals:         [],
@@ -1514,6 +1521,14 @@ export const useAppStore = create<AppState & AppActions>()(
                 }
               : p),
         }));
+      },
+
+      confirmTakeaway(key, text, slotId) {
+        const s = get();
+        if (!s.confirmedTakeaways.some(t => t.key === key)) {
+          set({ confirmedTakeaways: [...s.confirmedTakeaways, { key, text, ts: Date.now() }] });
+        }
+        if (slotId) get().markSlotInteracted(slotId);
       },
 
       // Rev 2 §3: the person scrolled all the way past a slot. If the item earned
@@ -3288,6 +3303,7 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
         seenVideoIds:        state.seenVideoIds,
         recycledVideoIds:    state.recycledVideoIds,
         honoredVideoIds:     state.honoredVideoIds,
+        confirmedTakeaways:  state.confirmedTakeaways,
         showTalkToSomeone:   state.showTalkToSomeone,
         dialogueSignals:     state.dialogueSignals,
         baseSignals:         state.baseSignals,

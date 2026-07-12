@@ -17,6 +17,7 @@ import { View, Text, TouchableOpacity, Linking, StyleSheet, Alert } from 'react-
 import { kjvVersesFor } from '../data/kjvText';
 import { verseGatewayUrl } from '../data/videos';
 import InteractionRow from './InteractionRow';
+import TakeawayCheck from './TakeawayCheck';
 import { InteractionKind } from '../store/useAppStore';
 import { colors, spacing } from '../theme';
 
@@ -45,6 +46,9 @@ interface Props {
   question?: string;
   /** Rev 2.1: explicit trade-for-fresh action once the verse is read/interacted. */
   onGetNew?: () => void;
+  /** Rev 2.2: the checkbox-confirmable intention line for this scripture. */
+  takeaway?: string;
+  takeawayKey?: string;
 }
 
 const VERSE_PREVIEW = 6; // collapse long passages to this many verses first
@@ -52,6 +56,7 @@ const VERSE_PREVIEW = 6; // collapse long passages to this many verses first
 export default function VerseBlock({
   scriptureRef, contentId, honored, onRead, pageRef, reminderTitle,
   interactionKind = 'verse', showInteractionRow = true, question, onGetNew,
+  takeaway, takeawayKey,
 }: Props) {
   const verses = contentId != null ? kjvVersesFor(contentId) : undefined;
   const hasInline = !!(verses && verses.length > 0);
@@ -118,6 +123,10 @@ export default function VerseBlock({
       )}
 
       {question ? <Text style={styles.question}>{question}</Text> : null}
+
+      {takeaway && takeawayKey ? (
+        <TakeawayCheck takeawayKey={takeawayKey} text={takeaway} slotId={pageRef.slotId} />
+      ) : null}
 
       {showInteractionRow && (
         <InteractionRow

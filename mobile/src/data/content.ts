@@ -44,6 +44,12 @@ export interface ContentItem {
    * scripture. Milk-safe: invites, never names. The Reply action answers it.
    */
   seedQuestion?:    string;
+  /**
+   * Rev 2.2 (Cameron): the checkbox-confirmable intention line — what this
+   * scripture is for in a life. "[ ] This helped me see …". Confirming it is a
+   * traceable record and counts as interaction.
+   */
+  takeaway?:        string;
 }
 
 export const CONTENT: ContentItem[] = [
@@ -60,6 +66,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "comfort",
     seedQuestion: "If he could say this the night before he died, what kind of peace was he holding — and would he share it with you?",
+    takeaway: "This helped me see that his peace doesn't depend on my circumstances.",
   },
   {
     id: 2,
@@ -74,6 +81,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "comfort",
     seedQuestion: "What would it change if the rest he offers is real — and meant for the load you're carrying right now?",
+    takeaway: "This helped me see that rest is something he gives, not something I earn.",
   },
   {
     id: 3,
@@ -88,6 +96,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 3,
     resonanceStyle: "comfort",
     seedQuestion: "If God is this kind of shepherd, what has he been doing for you that you haven't noticed?",
+    takeaway: "This helped me see that I'm being shepherded, not just watched.",
   },
   {
     id: 4,
@@ -102,6 +111,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "foundational",
     seedQuestion: "If God's first move toward the world was to give, what does that say about how he feels about you?",
+    takeaway: "This helped me see that God's love moved first, before I believed anything.",
   },
   {
     id: 5,
@@ -116,6 +126,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 4,
     resonanceStyle: "emotional",
     seedQuestion: "The father ran before the apology was finished. Is that the God you were taught to expect?",
+    takeaway: "This helped me see that God runs toward the one coming home.",
   },
   {
     id: 6,
@@ -130,6 +141,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "emotional",
     seedQuestion: "If heaven celebrates one found person this much, what happens when it's you?",
+    takeaway: "This helped me see that to him, I'm the one worth leaving everything to find.",
   },
   {
     id: 7,
@@ -144,6 +156,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 3,
     resonanceStyle: "moral",
     seedQuestion: "He didn't excuse her and he didn't crush her. What would it be like to be seen that way?",
+    takeaway: "This helped me see that mercy doesn't excuse me — it refuses to crush me.",
   },
   {
     id: 8,
@@ -158,6 +171,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 3,
     resonanceStyle: "devotional",
     seedQuestion: "If God blesses the poor in spirit and the mourners first, where does that put you on his list?",
+    takeaway: "This helped me see that God blesses the people the world counts out.",
   },
   {
     id: 9,
@@ -172,6 +186,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "emotional",
     seedQuestion: "What kind of God stands at a grave and cries — even knowing what he's about to do?",
+    takeaway: "This helped me see that God is not too big to cry.",
   },
   {
     id: 10,
@@ -186,6 +201,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 3,
     resonanceStyle: "moral",
     seedQuestion: "The hero was the outsider everyone looked down on. Who taught you God doesn't work like that?",
+    takeaway: "This helped me see that mercy makes a neighbor out of a stranger.",
   },
   {
     id: 11,
@@ -200,6 +216,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "foundational",
     seedQuestion: "He taught them to start with 'Father.' What changes if that's really who is listening?",
+    takeaway: "This helped me see that prayer starts with a Father, not a formula.",
   },
   {
     id: 12,
@@ -214,6 +231,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "comfort",
     seedQuestion: "What if 'fear not' isn't a command to feel less, but a promise that someone is holding you up?",
+    takeaway: "This helped me see that his strength is offered to me, not demanded of me.",
   },
   {
     id: 13,
@@ -228,6 +246,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "comfort",
     seedQuestion: "A very present help — not a distant one. Where would you need him present this week?",
+    takeaway: "This helped me see that help from God is present, not distant.",
   },
   {
     id: 14,
@@ -242,6 +261,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "comfort",
     seedQuestion: "If nothing in all creation can separate you from this love, what have you been afraid was separating you?",
+    takeaway: "This helped me see that nothing I face can cut me off from his love.",
   },
   {
     id: 15,
@@ -256,6 +276,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "devotional",
     seedQuestion: "Ask, seek, knock — he made the door sound easy to find. What's actually been keeping you from it?",
+    takeaway: "This helped me see that the door opens to the one who knocks.",
   },
   {
     id: 16,
@@ -270,6 +291,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "comfort",
     seedQuestion: "A shepherd who dies rather than runs — is that harder or easier to believe in than the God you grew up with?",
+    takeaway: "This helped me see that my shepherd stays when the wolf comes.",
   },
   {
     id: 17,
@@ -284,6 +306,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 3,
     resonanceStyle: "emotional",
     seedQuestion: "She didn't even ask — she just reached. Does God honor reaching, even when the words won't come?",
+    takeaway: "This helped me see that reaching for him counts, even without words.",
   },
   {
     id: 18,
@@ -298,6 +321,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 3,
     resonanceStyle: "emotional",
     seedQuestion: "Jesus invited himself to the worst man's table. What does that say about who he'd sit with today?",
+    takeaway: "This helped me see that he seeks out the ones everyone else avoids.",
   },
   {
     id: 19,
@@ -312,6 +336,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 4,
     resonanceStyle: "personal",
     seedQuestion: "He knew everything she'd done and stayed in the conversation. What would you say to someone like that?",
+    takeaway: "This helped me see that he offers living water, not judgment.",
   },
   {
     id: 20,
@@ -326,6 +351,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 3,
     resonanceStyle: "personal",
     seedQuestion: "The hand was already there when Peter sank. What if doubt doesn't disqualify you from being caught?",
+    takeaway: "This helped me see that doubt doesn't disqualify me from being caught.",
   },
   {
     id: 21,
@@ -340,6 +366,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "comfort",
     seedQuestion: "A peace that guards your heart like a soldier — what would you hand over to it first?",
+    takeaway: "This helped me see that peace can guard my heart while things are still hard.",
   },
   {
     id: 22,
@@ -354,6 +381,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "comfort",
     seedQuestion: "Near to the brokenhearted — not disappointed in them. Which God have you been picturing?",
+    takeaway: "This helped me see that God moves closer to broken hearts, not away.",
   },
   {
     id: 23,
@@ -368,6 +396,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "comfort",
     seedQuestion: "If he really wipes away every tear, then none of your tears have gone unseen. Does that change how you cry?",
+    takeaway: "This helped me see that every tear I've cried is seen and numbered.",
   },
   {
     id: 24,
@@ -382,6 +411,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "devotional",
     seedQuestion: "If this is what love is, and God is love — read it again with his name in it. What do you notice?",
+    takeaway: "This helped me see what God's love actually acts like, day to day.",
   },
   {
     id: 25,
@@ -396,6 +426,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "devotional",
     seedQuestion: "He calls you light before you feel bright. What does he see that you don't?",
+    takeaway: "This helped me see that he calls me light before I feel bright.",
   },
   {
     id: 26,
@@ -410,6 +441,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "moral",
     seedQuestion: "Loved people love people, he said. Where did the love start, and where is it trying to go through you?",
+    takeaway: "This helped me see that his love is meant to travel through me.",
   },
   {
     id: 27,
@@ -424,6 +456,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "emotional",
     seedQuestion: "Mercy for the men with the hammers. Is there anything you've done that this God couldn't forgive?",
+    takeaway: "This helped me see that his first words from the cross were mercy.",
   },
   {
     id: 28,
@@ -438,6 +471,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "comfort",
     seedQuestion: "The last thing he promised was presence — always. What would today look like if that were true?",
+    takeaway: "This helped me see that I am never actually alone.",
   },
   {
     id: 29,
@@ -452,6 +486,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "comfort",
     seedQuestion: "With thee whithersoever thou goest — even the places you'd rather he not see? That's the promise.",
+    takeaway: "This helped me see that courage comes from who goes with me.",
   },
   {
     id: 30,
@@ -466,6 +501,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "comfort",
     seedQuestion: "Thoughts of peace toward you, not evil. What if God's plans for you are kinder than your own?",
+    takeaway: "This helped me see that God's plans for me are good on purpose.",
   },
   {
     id: 31,
@@ -480,6 +516,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "devotional",
     seedQuestion: "Lean not on your own understanding — what's one path you'd let him direct if you trusted he was good?",
+    takeaway: "This helped me see that I can trust him with the parts I can't figure out.",
   },
   {
     id: 32,
@@ -494,6 +531,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 3,
     resonanceStyle: "comfort",
     seedQuestion: "If he feeds birds and dresses grass, what exactly do you think he'd forget about you?",
+    takeaway: "This helped me see that the God who feeds birds hasn't forgotten me.",
   },
   {
     id: 33,
@@ -508,6 +546,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "comfort",
     seedQuestion: "He goes to prepare a place for you — personally. What kind of host does that make God?",
+    takeaway: "This helped me see that he's preparing a place with me in mind.",
   },
   {
     id: 34,
@@ -522,6 +561,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "moral",
     seedQuestion: "The man with nothing to offer went home right with God. What is that saying about how God keeps score?",
+    takeaway: "This helped me see that honesty reaches God faster than performance.",
   },
   {
     id: 35,
@@ -536,6 +576,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "moral",
     seedQuestion: "Seventy times seven — forgiveness without a ledger. Could you live loved by a God like that?",
+    takeaway: "This helped me see that his forgiveness doesn't keep score.",
   },
   {
     id: 36,
@@ -550,6 +591,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "emotional",
     seedQuestion: "He was indignant when children were turned away. Who told you that you were bothering God?",
+    takeaway: "This helped me see that God has time for the ones others shoo away.",
   },
   {
     id: 37,
@@ -564,6 +606,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 3,
     resonanceStyle: "emotional",
     seedQuestion: "Forgiven much, she loved much. What if your worst chapter could become the reason you love deepest?",
+    takeaway: "This helped me see that great love can grow out of a forgiven past.",
   },
   {
     id: 38,
@@ -578,6 +621,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "devotional",
     seedQuestion: "Laying down a life for friends — then he called you friend. What do you do with a love that costly?",
+    takeaway: "This helped me see how much I'm worth to him — his whole life.",
   },
   {
     id: 39,
@@ -592,6 +636,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "comfort",
     seedQuestion: "Even in the bed you made in hell, he is there. Is there anywhere left you could lose him?",
+    takeaway: "This helped me see that there's nowhere I can go that he isn't.",
   },
   {
     id: 40,
@@ -606,6 +651,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "devotional",
     seedQuestion: "Wounded for our transgressions — he chose the stripes. What kind of God bleeds for the people who hurt him?",
+    takeaway: "This helped me see that he chose wounds so I could be healed.",
   },
   {
     id: 41,
@@ -620,6 +666,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "emotional",
     seedQuestion: "Moved with compassion — that's his gut reaction to crowds of struggling people. Is it his reaction to you?",
+    takeaway: "This helped me see that compassion is his gut reaction to people like me.",
   },
   {
     id: 42,
@@ -634,6 +681,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "moral",
     seedQuestion: "Judge not, forgive freely — he asks nothing he didn't do first. What would it be like to be judged by him alone?",
+    takeaway: "This helped me see that the one who judges me is the one who loves me.",
   },
   {
     id: 43,
@@ -648,6 +696,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "comfort",
     seedQuestion: "Good cheer in tribulation, because he overcame — what storm of yours already has its ending written?",
+    takeaway: "This helped me see that my storm's ending is already written.",
   },
   {
     id: 44,
@@ -662,6 +711,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "comfort",
     seedQuestion: "Grace sufficient, strength perfected in weakness — what if the thing you're ashamed of is where he wants to meet you?",
+    takeaway: "This helped me see that my weak spot is where his grace works best.",
   },
   {
     id: 45,
@@ -676,6 +726,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "comfort",
     seedQuestion: "Never leave, never forsake — everyone else has terms. What if he doesn't?",
+    takeaway: "This helped me see that his love has no exit clause.",
   },
   {
     id: 46,
@@ -690,6 +741,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "comfort",
     seedQuestion: "The night is real and it ends. What morning are you still waiting on — and can you trust it's coming?",
+    takeaway: "This helped me see that the night is real — and it ends.",
   },
   {
     id: 47,
@@ -704,6 +756,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "moral",
     seedQuestion: "Love your enemies, because that's what God does daily. What does that reveal about how he treats his critics — and you?",
+    takeaway: "This helped me see that his love doesn't quit even on his enemies.",
   },
   {
     id: 48,
@@ -718,6 +771,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "comfort",
     seedQuestion: "Sparrows and numbered hairs — the details of you matter to him. When did you decide they didn't?",
+    takeaway: "This helped me see that the details of my life matter to God.",
   },
   {
     id: 49,
@@ -732,6 +786,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "devotional",
     seedQuestion: "Bread of life — the hunger under all the other hungers. What have you been feeding it instead?",
+    takeaway: "This helped me see that he feeds the hunger under all my hungers.",
   },
   {
     id: 50,
@@ -746,6 +801,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "comfort",
     seedQuestion: "New mercies every single morning. What if yesterday's failure genuinely expired overnight?",
+    takeaway: "This helped me see that yesterday's failure expired this morning.",
   },
   {
     id: 51,
@@ -760,6 +816,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 3,
     resonanceStyle: "doctrinal",
     seedQuestion: "He answered an accusation by quoting 'ye are gods' — about people. What does God see in us that we've been told not to see?",
+    takeaway: "This helped me see that God sees something divine in us worth defending.",
     ldsLens: "Jesus cites Psalm 82:6 to defend calling himself God's Son. Why point to a verse about humans being called gods? Latter-day Saints read our divine potential as God's literal children here.",
   },
   {
@@ -775,6 +832,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "study",
     seedQuestion: "Paul mentions baptism for the dead like everyone knew about it. What if God has a plan for the people who never got a chance?",
+    takeaway: "This helped me see that God has mercy planned for those who never got a chance.",
     ldsLens: "Paul mentions it with no rebuke, as a known practice, to argue for resurrection. What happens to those who died never hearing the gospel? Latter-day Saints see a merciful answer.",
   },
   {
@@ -790,6 +848,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "He offers his own throne to the one who overcomes. How big is the future this God has in mind for you?",
+    takeaway: "This helped me see that God's plan for me ends higher than I dared think.",
     ldsLens: "Christ promises the faithful his own throne — the same relationship he has with the Father. A startling picture of what 'joint-heirs' really means.",
   },
   {
@@ -805,6 +864,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "Son in the water, Spirit descending, Father speaking — three at once. What if God is a family working in perfect love?",
+    takeaway: "This helped me see the Father, Son, and Spirit each showing up for me.",
     ldsLens: "All three are present and distinct at one moment — Son below, Spirit descending, Father speaking. What does that say about whether they are one being or one in purpose?",
   },
   {
@@ -820,6 +880,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 3,
     resonanceStyle: "doctrinal",
     seedQuestion: "He prayed we'd be one THE WAY he and the Father are one. What does that tell you about the love inside God?",
+    takeaway: "This helped me see that God wants me inside the same love he lives in.",
     ldsLens: "He defines oneness with the Father by asking for the SAME oneness among believers — clearly unity of heart and purpose, since we stay distinct persons. A key to the Godhead.",
   },
   {
@@ -835,6 +896,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "Offspring of God, Paul said. Not just made by him — from him. What does a good father want for his children?",
+    takeaway: "This helped me see that I come from God — I'm not an accident.",
     ldsLens: "Paul approvingly quotes poets that we are God's offspring, then says we shouldn't picture God as lifeless stone. If we are his offspring, what are we meant to become?",
   },
   {
@@ -850,6 +912,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "Heirs of God, joint-heirs with Christ. What kind of God writes his children into the will?",
+    takeaway: "This helped me see that God wrote his children into the inheritance.",
     ldsLens: "An heir inherits what the parent has. Paul says we are joint-heirs with Christ. Heirs to WHAT, exactly?",
   },
   {
@@ -865,6 +928,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "The Father of spirits — yours included. What if you knew him before you ever forgot him?",
+    takeaway: "This helped me see that my spirit has a Father who knew me first.",
     ldsLens: "The phrase implies our spirits have a Father — a relationship that existed before this life. It opens the question of where we came from.",
   },
   {
@@ -880,6 +944,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "foundational",
     seedQuestion: "Ask God, who gives liberally and doesn't scold you for asking. Have you ever actually tested that promise?",
+    takeaway: "This helped me see that God answers askers without scolding them.",
     ldsLens: "This single verse sent a 14-year-old named Joseph Smith into a grove to pray. What happens when someone takes the promise literally?",
   },
   {
@@ -895,6 +960,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "doctrinal",
     seedQuestion: "He does nothing without telling his prophets first. What if God still likes to keep his family informed?",
+    takeaway: "This helped me see that God keeps his family informed through prophets.",
     ldsLens: "If God acts through prophets, would he stop having them just when the world needs them most? Latter-day Saints say he didn't.",
   },
   {
@@ -910,6 +976,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "A household built on apostles and prophets. If God built it that way once, was he wrong to?",
+    takeaway: "This helped me see that God builds his house on living foundations.",
     ldsLens: "Paul says the Church’s foundation is apostles and prophets. Can the Church Christ built stand without the foundation he gave it?",
   },
   {
@@ -925,6 +992,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 3,
     resonanceStyle: "doctrinal",
     seedQuestion: "He gave guides so we wouldn't be tossed around by every doctrine. Does the confusion out there look like his plan — or like something got lost?",
+    takeaway: "This helped me see that God gave guides so we wouldn't drift.",
     ldsLens: "Their PURPOSE: unity, and to stop us being 'tossed about with every wind of doctrine.' With thousands of denominations today, the question asks itself.",
   },
   {
@@ -940,6 +1008,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "One God, the Father — and the Lord Jesus, listed side by side. What if knowing them both is the whole point?",
+    takeaway: "This helped me see the Father and the Son each loving me distinctly.",
     ldsLens: "Paul names the Father and the Lord Jesus Christ separately while affirming we worship one. A careful reader notices Father and Son listed as distinct.",
   },
   {
@@ -955,6 +1024,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "doctrinal",
     seedQuestion: "'My Father is greater than I' — Jesus honored someone. What does that make the love between them?",
+    takeaway: "This helped me see that even Jesus honors his Father — love flows upward too.",
     ldsLens: "Jesus plainly says the Father is greater than he is. An honest look at the relationship between the Father and the Son.",
   },
   {
@@ -970,6 +1040,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "study",
     seedQuestion: "Sun, moon, and stars — glory in degrees. What if heaven is more generous and more personal than one-size-fits-all?",
+    takeaway: "This helped me see that heaven is more generous than one-size-fits-all.",
     ldsLens: "Paul compares the resurrection to differing glories of sun, moon, and stars. Heaven may not be one undifferentiated place — Latter-day Saints see three degrees of glory.",
   },
   {
@@ -985,6 +1056,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "doctrinal",
     seedQuestion: "The Son does what he sees the Father do. What if everything Jesus did was a portrait of the Father's heart?",
+    takeaway: "This helped me see that watching Jesus is watching the Father's heart.",
     ldsLens: "Jesus describes watching and following his Father — two persons working in perfect harmony. What does it reveal about the Godhead?",
   },
   {
@@ -1000,6 +1072,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "Judged by works, out of books, fairly. Would a good God really grade anyone on a curve they never saw?",
+    takeaway: "This helped me see that God judges fairly — nobody's graded on a curve they never saw.",
     ldsLens: "Scripture repeatedly ties judgment to works, not faith alone. How do grace and works fit together? Latter-day Saint theology offers a clear answer.",
   },
   {
@@ -1015,6 +1088,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "study",
     seedQuestion: "Between his death and rising, he went and preached to the dead. Who does that if not a God who refuses to give up on anyone?",
+    takeaway: "This helped me see that death didn't stop him from reaching people.",
     ldsLens: "Between his death and resurrection, Christ preached to the dead. It answers a question that troubles many: what about those who never heard?",
   },
   {
@@ -1030,6 +1104,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "study",
     seedQuestion: "The gospel preached to the dead so judgment can be fair. What if 'no second chances' was never God's line?",
+    takeaway: "This helped me see that God's fairness reaches even the dead.",
     ldsLens: "Peter says the gospel reaches even the dead, so they can be judged fairly. Read with 1 Corinthians 15:29, a picture of mercy for all generations emerges.",
   },
   {
@@ -1045,6 +1120,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "Born of water and of the Spirit — he gave Nicodemus a doorway, not a riddle. What if the way in is plainer than you think?",
+    takeaway: "This helped me see that he gave a doorway, not a riddle.",
     ldsLens: "Jesus tells Nicodemus both baptism (water) and the Spirit are required. Is baptism optional or essential?",
   },
   {
@@ -1060,6 +1136,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "Keys given, authority to bind in heaven — God delegates. What if he never stopped trusting people with his work?",
+    takeaway: "This helped me see that God trusts people with real authority.",
     ldsLens: "Jesus gives Peter 'keys' — authority to bind on earth and in heaven. Who holds that authority today, and how is it passed on?",
   },
   {
@@ -1075,6 +1152,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "A restitution of ALL things — restoring means something precious was lost. What would God restoring everything look like?",
+    takeaway: "This helped me see that God restores what history loses.",
     ldsLens: "Peter says before Christ returns there must be a 'restitution' — a restoring. Restoring implies something was lost. What, and when?",
   },
   {
@@ -1090,6 +1168,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "Elijah returning to turn hearts of children and fathers together — what if God's whole project is family?",
+    takeaway: "This helped me see that God's whole project is family.",
     ldsLens: "The Old Testament closes promising Elijah will return to turn hearts of parents and children to each other. Latter-day Saints connect this to temples and family sealing.",
   },
   {
@@ -1105,6 +1184,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "study",
     seedQuestion: "Other sheep, not of this fold, who would hear his voice — how far does his voice actually reach?",
+    takeaway: "This helped me see that his voice reaches farther than one fold.",
     ldsLens: "Jesus speaks of other sheep, not of the fold at Jerusalem, who would also hear him. Who were they, and did their record survive?",
   },
   {
@@ -1120,6 +1200,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "study",
     seedQuestion: "Two records joined into one in God's hand. What if God wrote to more of his children than one nation?",
+    takeaway: "This helped me see that God kept records for all his children.",
     ldsLens: "Ezekiel is told to join the record of Judah and the record of Joseph into one. Latter-day Saints read the Bible and the Book of Mormon coming together here.",
   },
   {
@@ -1135,6 +1216,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "study",
     seedQuestion: "A voice speaking from the dust, out of a fallen people. Would a good God let any of his children go unheard?",
+    takeaway: "This helped me see that God lets no people go unheard forever.",
     ldsLens: "Isaiah describes a fallen people whose words would later whisper out of the dust. What record could speak from the ground centuries later?",
   },
   {
@@ -1150,6 +1232,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 3,
     resonanceStyle: "study",
     seedQuestion: "A sealed book, a learned man who couldn't read it, a marvelous work coming — what if God saves his surprises?",
+    takeaway: "This helped me see that God still had a marvelous work up his sleeve.",
     ldsLens: "Isaiah foresees a sealed book and a marvelous work. The story of the learned man who couldn't read it has a striking historical echo Latter-day Saints point to.",
   },
   {
@@ -1165,6 +1248,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "Faith without works is dead — because love acts. What is your believing actually doing?",
+    takeaway: "This helped me see that real faith gets up and does something.",
     ldsLens: "James says faith alone is dead. It sits in tension with 'faith only' teaching and invites a careful look at how salvation actually works.",
   },
   {
@@ -1180,6 +1264,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "An angel bringing the everlasting gospel BACK to the earth. Why would it need bringing back — and what if it was?",
+    takeaway: "This helped me see that the gospel was too precious for God to leave lost.",
     ldsLens: "John sees an angel bringing the everlasting gospel back to the earth in the last days. Why would the gospel need to be brought again?",
   },
   {
@@ -1195,6 +1280,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "No man takes this honor to himself — God calls, as he called Aaron. Where would that calling be today?",
+    takeaway: "This helped me see that God's authority is given, never grabbed.",
     ldsLens: "Priesthood authority must be given by God — not taken or self-claimed. How is that authority conferred today?",
   },
   {
@@ -1210,6 +1296,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "doctrinal",
     seedQuestion: "'I have chosen you, and ordained you' — he gives his authority away on purpose. What if he still does?",
+    takeaway: "This helped me see that he chooses and ordains on purpose.",
     ldsLens: "Jesus says he ordained his apostles — they didn't appoint themselves. It points to authority given by the laying on of hands.",
   },
   {
@@ -1225,6 +1312,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "moral",
     seedQuestion: "Doing the Father's will, not just saying Lord — what would a life that answers him actually look like?",
+    takeaway: "This helped me see that he wants my doing, not just my saying.",
     ldsLens: "Jesus ties entering the kingdom to DOING the Father's will, not merely professing his name. What does that doing include?",
   },
   {
@@ -1240,6 +1328,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "One body, many members, none dispensable — what if God organized his people because every one of them matters?",
+    takeaway: "This helped me see that in his body, nobody is dispensable.",
     ldsLens: "Paul describes Christ’s Church as one ordered body with many offices. Does that organized structure exist today?",
   },
   {
@@ -1255,6 +1344,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "foundational",
     seedQuestion: "Repent, be baptized, receive the gift — Peter gave steps, not a maze. What if God made the way home walkable?",
+    takeaway: "This helped me see that the way home has walkable steps.",
     ldsLens: "Peter lays out the pattern: faith, repentance, baptism, the gift of the Holy Ghost. Does that exact order still matter?",
   },
   {
@@ -1270,6 +1360,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "study",
     seedQuestion: "Signs following believers — gifts, healings, tongues. If God's power went quiet, was that his idea or ours?",
+    takeaway: "This helped me see that God's gifts weren't meant to go quiet.",
     ldsLens: "Jesus says signs and spiritual gifts would follow believers. Should those gifts still be present in his Church?",
   },
   {
@@ -1285,6 +1376,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "Baptisms and laying on of hands listed as FIRST principles — what if the basics were bigger than we were told?",
+    takeaway: "This helped me see that the basics run deeper than I was told.",
     ldsLens: "Paul lists 'baptisms' (plural) and laying on of hands among the FIRST principles. The plural and the ordinance of hands both invite a closer look.",
   },
   {
@@ -1300,6 +1392,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "Baptized, then hands laid on to receive the Holy Ghost — a gift actually handed over. What if God still gives it that way?",
+    takeaway: "This helped me see that the Holy Ghost is actually handed to people.",
     ldsLens: "The Samaritans were baptized, but received the Holy Ghost only when apostles laid hands on them. It points to a specific ordinance and authority.",
   },
   {
@@ -1315,6 +1408,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "Buried and raised in baptism — a real burial takes real water. What if the symbol was meant to be felt?",
+    takeaway: "This helped me see that baptism is a burial that ends in new life.",
     ldsLens: "Paul describes baptism as a burial and resurrection — fitting immersion, not sprinkling. The symbolism raises the question of the proper mode.",
   },
   {
@@ -1330,6 +1424,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "doctrinal",
     seedQuestion: "Neither man without the woman in the Lord — what if the love you build here is meant to outlast here?",
+    takeaway: "This helped me see that the love I build here matters to God's forever.",
     ldsLens: "Paul says man and woman are not complete without each other 'in the Lord.' Latter-day Saints connect this to marriage that continues beyond this life.",
   },
   {
@@ -1345,6 +1440,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "'Let US make man in OUR image' — you resemble someone. What does the image of God in you obligate him to?",
+    takeaway: "This helped me see that I resemble God — and that's not blasphemy, it's family.",
     ldsLens: "God speaks in the plural — 'us,' 'our' — and makes man in his image. Both the plural and the image raise questions about the nature of God and of us.",
   },
   {
@@ -1360,6 +1456,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "doctrinal",
     seedQuestion: "Kings and priests unto God — that's his plan for the redeemed. How high is this God actually reaching for you?",
+    takeaway: "This helped me see how high God is actually reaching for the redeemed.",
     ldsLens: "John says Christ has made believers 'kings and priests unto God.' A striking statement of what the redeemed are meant to become.",
   },
   {
@@ -1375,6 +1472,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "doctrinal",
     seedQuestion: "We shall reign — he doesn't just rescue his children, he raises them. What if God's endgame for you is glory?",
+    takeaway: "This helped me see that God raises his children, not just rescues them.",
     ldsLens: "The redeemed are promised they will reign — a future of shared glory, not mere survival. It enlarges the picture of salvation.",
   },
   {
@@ -1390,6 +1488,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "study",
     seedQuestion: "The world couldn't contain the books of all he did — what if what you've read of Jesus is only the beginning of him?",
+    takeaway: "This helped me see that what I know of Jesus is only the beginning of him.",
     ldsLens: "The Bible itself says not everything was written. Could God still have more to say?",
   },
   {
@@ -1405,6 +1504,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "'I have yet many things to say unto you' — he wasn't finished speaking. What if he still isn't?",
+    takeaway: "This helped me see that he never said he was finished speaking.",
     ldsLens: "Jesus held things back his disciples weren't ready for, promising more by the Spirit. It opens the door to continuing revelation.",
   },
   {
@@ -1420,6 +1520,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "A famine of hearing the words of the Lord — people running everywhere to find them. What would the end of that famine look like?",
+    takeaway: "This helped me see what the world feels like when heaven goes quiet — and why it wouldn't stay that way.",
     ldsLens: "Amos foresees a famine of revelation — a time the word of the Lord would be hard to find. Did such a famine ever come?",
   },
   {
@@ -1435,6 +1536,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "The everlasting covenant, broken by men — if people broke it, would a good God just leave it broken?",
+    takeaway: "This helped me see that a broken covenant is something God would mend.",
     ldsLens: "Isaiah warns of a time when people would change God's ordinances and break the covenant. It points toward an apostasy — and the need for a restoration.",
   },
   {
@@ -1450,6 +1552,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "A falling away first, Paul warned — what if the story includes a losing AND a finding again?",
+    takeaway: "This helped me see that a falling away implies a rising again.",
     ldsLens: "Paul warns that before Christ returns there would be a great 'falling away.' When did it happen, and what would set it right?",
   },
   {
@@ -1465,6 +1568,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "Wolves among the flock, truth twisted — Paul saw it coming. What would God do about it, if he's good?",
+    takeaway: "This helped me see that God warned us the truth would need restoring.",
     ldsLens: "Paul predicts that after the apostles, false teachers would rise from within. A sober forecast of how the early Church would lose its way.",
   },
   {
@@ -1480,6 +1584,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 2,
     resonanceStyle: "doctrinal",
     seedQuestion: "A kingdom set up by God that will never be destroyed — what if it's already quietly growing?",
+    takeaway: "This helped me see that God's kingdom, once set up, doesn't fall again.",
     ldsLens: "Daniel foresees God setting up a final kingdom that fills the earth and never falls. When would that latter-day kingdom begin?",
   },
   {
@@ -1495,6 +1600,7 @@ export const CONTENT: ContentItem[] = [
     estimatedMinutes: 1,
     resonanceStyle: "doctrinal",
     seedQuestion: "'Be ye therefore perfect' — he wouldn't ask for what he won't help you become. How far does he think you can go?",
+    takeaway: "This helped me see that he only asks for what he'll help me become.",
     ldsLens: "Jesus holds up the Father himself as the standard we are growing toward. Latter-day Saints read a real, gradual becoming here — not a demand for the impossible, but an invitation to grow into the family likeness.",
   },
   {

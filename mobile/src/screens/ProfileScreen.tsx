@@ -115,6 +115,7 @@ export default function ProfileScreen() {
   const honoredVideoIds     = useAppStore(s => s.honoredVideoIds);
   const learnedNotes        = useAppStore(s => s.learnedNotes);
   const openPageRef         = useAppStore(s => s.openPageRef);
+  const confirmedTakeaways  = useAppStore(s => s.confirmedTakeaways);
   // "Reflect on this" lands here (Rev 1 §5 — routing is by button); "Save it" goes to the Journal.
   const profileRecords      = learnedNotes.filter(n => n.dest === 'profile');
 
@@ -488,12 +489,17 @@ export default function ProfileScreen() {
             Every credited watch is counted here, and every "Reflect on this"
             lands on this record — short title, their words, and a link back to
             where the item lives in the feed. */}
-        {(honoredVideoIds.length > 0 || profileRecords.length > 0) && (
+        {(honoredVideoIds.length > 0 || profileRecords.length > 0 || confirmedTakeaways.length > 0) && (
           <View style={styles.card}>
             <Text style={styles.sectionLabel}>YOUR RECORD</Text>
             {honoredVideoIds.length > 0 && (
               <Text style={styles.sectionNote}>
                 Stories watched all the way through: {honoredVideoIds.length}.
+              </Text>
+            )}
+            {confirmedTakeaways.length > 0 && (
+              <Text style={styles.sectionNote}>
+                Truths you've confirmed along the way: {confirmedTakeaways.length}.
               </Text>
             )}
             {profileRecords.map(n => (
