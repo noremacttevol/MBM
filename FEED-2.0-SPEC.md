@@ -1,5 +1,46 @@
 # FEED 2.0 — The Prescribed Feed (locked spec, 2026-07-07)
 
+> ⚠️ **REVISION 1 — 2026-07-12 (Cameron, after using the first build on his
+> phone). Where the section below conflicts with the original text, the
+> revision WINS.** The original is kept for history.
+>
+> 1. **Player UNLOCKED (reverses §3).** Normal video player: pause, scrub
+>    back/forth, close, go back — a real little player. Credit for a watch =
+>    the playhead REACHED the 90% mark (Cameron's explicit choice over
+>    watched-time). Under 90% → no credit, the video stays in new content.
+>    The old no-controls/no-exit law is dead; PAUSE_FALLBACK flag obsolete.
+> 2. **No next-page button, ever.** The feed is horizontally SWIPED pages.
+>    Bottom dots with the HOME page in the middle: left of home = everything
+>    seen/interacted with (re-viewable history), right of home = new pages.
+>    Nobody should ever habituate to a "next" button.
+> 3. **In-place replacement (replaces scroll-away rule, §2).** The moment an
+>    item is interacted with, it is replaced IN FRONT OF THE USER'S EYES,
+>    in its slot, with a 2–3 second "preparing a new story…" state — like a
+>    reel feed: interact and fresh content appears where it stood. The person
+>    never needs to leave the feed screen. Questions chain the same way:
+>    answer → brief thanks → a NEW question pops into the same slot (never a
+>    dead "thank you for sharing" end).
+> 4. **Right-swipe gate.** Swiping right (new page) without having interacted
+>    with the current page gets a gentle, Jesus-toned invitation to sit with
+>    what's there + an escalating wait. Wording to be drafted and approved by
+>    Cameron. Time spent + interaction keep it painless.
+> 5. **One interaction row per video+verse PAIR** (not one per half). Routing
+>    is BY BUTTON for all content: **Reflect on this → Profile. Save it →
+>    Journal. Talk About It → chat tab.** A pair saves as ONE entry (verse
+>    saved before the video is watched still carries the pair). Standalone
+>    verses save alone. Journal/Profile entries are SHORT TITLES ONLY +
+>    a link back to where the item sits in feed history (left of home).
+> 6. **Page composition:** 2 video+verse pairs, EXACTLY 1 standalone verse
+>    (every page — not "rare"), 1 question, 1 invitation. (Original said 0–1
+>    rare standalone verse; corrected.)
+> 7. **Video cards look like content, not a black box.** A real THUMBNAIL
+>    (frame pulled from the video) that is tapped to play. Title pattern:
+>    "A story about ___" with its book/verses shown — e.g. "A story about a
+>    father who ran — Luke 15". No "A STORY" label, no "tap to watch" hint.
+> 8. Everything else stands: MILK-only tone, LDS-true underneath and never
+>    named early, honoring separation of video vs verse, the 200 spine,
+>    Bible Gateway / Gospel Library linking, theme.
+
 Cameron's direction, given in full and confirmed through clarifying questions.
 This is the law for the feed revamp. Read alongside AGENT-RULES.md, CLAUDE.md,
 media-production/00-MASTER-PLAN.md, and media-production/THE-200.md.
