@@ -94,7 +94,7 @@ live in [`media-production/VIDEO-ASSIGNMENTS.md`](media-production/VIDEO-ASSIGNM
 
 ## 📈 Count
 
-- **Built + APPROVED:** 16 (01–15 and 17) — all approved by Cameron 2026-07-11 and staged for in-app streaming.
+- **Built + APPROVED + LIVE:** 16 (01–15 and 17) — approved by Cameron and deployed to Firebase Hosting 2026-07-11; streaming in the app.
 - **In progress (building fresh):** 1 (16 Mary and Martha — stills 5–6 + assembly).
 - **Not started (Wave One):** 3 (18–20).
 - **Total in the plan:** 200.
