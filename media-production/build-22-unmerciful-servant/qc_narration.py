@@ -20,7 +20,8 @@ from make_narration import SEGMENTS  # noqa: E402
 
 
 EQUIV = {
-    # numbers whisper commonly writes as digits
+    # numbers whisper commonly writes as digits (norm() collapses digit-group
+    # spaces first, so "10 000" and "10,000" both arrive here as "10000")
     "10000": "ten thousand", "10,000": "ten thousand",
     "100": "hundred", "7": "seven",
     # KJV forms whisper re-spells (not audio defects)
@@ -35,6 +36,9 @@ def norm(t):
     t = t.lower()
     t = re.sub(r"[^a-z0-9' ]+", " ", t)
     t = re.sub(r"\s+", " ", t).strip()
+    # collapse whisper's digit-group spacing ("10 000" -> "10000") so the EQUIV
+    # number map catches it — a spelling artifact, never an audio defect.
+    t = re.sub(r"(?<=\d) (?=\d)", "", t)
     return " ".join(EQUIV.get(w, w) for w in t.split())
 
 
