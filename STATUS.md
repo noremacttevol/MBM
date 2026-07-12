@@ -76,6 +76,8 @@ rebuilt to the new standard — the finished file will replace the old one.
 | # | Story | Old cut (playable now) | Redone by | State |
 |---|-------|------------------------|-----------|-------|
 | 16 | Mary and Martha (Luke 10) | *no file yet* | Machine A (Dev) | building fresh (stills-only, face-never) |
+| 18 | Road to Emmaus (Luke 24) | *no file yet* | Elli's laptop | building fresh (stills-only, face-never — his identity hidden the whole road) |
+| 17 | Lazarus — s9 beard fix | [▶ cut](media-production/build-17-lazarus/john-11_lazarus.mp4) | Elli's laptop | regenerating s9 so loosed-Lazarus has his beard (matches s1/s8), then rebuild |
 
 *(06 and 07 are now rework-built — see the DONE table. 06: the last motion clip
 was replaced with a still (fully stills-only), and the working son wears
@@ -90,7 +92,6 @@ table above.)*
 
 | # | Story | File name |
 |---|-------|-----------|
-| 18 | Road to Emmaus (Luke 24) | luke-24_emmaus |
 | 19 | Breakfast on the Shore (John 21) | john-21_shore |
 | 20 | Good Samaritan (Luke 10) | luke-10_samaritan |
 
