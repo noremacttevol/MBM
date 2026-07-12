@@ -50,12 +50,15 @@ this file is the at-a-glance summary of it.
 | 10 | Woman at the Well (John 4) | 5:11 | rework built 🟡 | [▶ watch](media-production/build-10-well/john-4_woman-at-the-well.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-10-well/john-4_woman-at-the-well.mp4) |
 | 17 | Lazarus (John 11) | 6:12 | **built — awaiting Cameron** 🟡 | [▶ watch](media-production/build-17-lazarus/john-11_lazarus.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-17-lazarus/john-11_lazarus.mp4) |
 | 06 | Two Sons (Matthew 21) | 1:44 | **rework built** 🟡 (stills-only) | [▶ watch](media-production/build-06-two-sons/matthew-21_two-sons.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-06-two-sons/matthew-21_two-sons.mp4) |
+| 07 | Peter Walks on Water (Matthew 14) | 4:16 | rework built 🟡 | [▶ watch](media-production/build-07-peter-water/matthew-14_peter-walks-on-water.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-07-peter-water/matthew-14_peter-walks-on-water.mp4) |
 | 13 | Man Through the Roof (Mark 2) | 5:34 | **APPROVED** ✅ | [▶ watch](media-production/build-13-roof/mark-2_man-through-the-roof.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-13-roof/mark-2_man-through-the-roof.mp4) |
 | 14 | Ten Lepers (Luke 17) | 4:34 | **APPROVED** ✅ | [▶ watch](media-production/build-14-ten-lepers/luke-17_ten-lepers.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-14-ten-lepers/luke-17_ten-lepers.mp4) |
 | 15 | Centurion's Servant (Matthew 8) | 5:08 | **APPROVED** ✅ | [▶ watch](media-production/build-15-centurion/matthew-8_centurion.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-15-centurion/matthew-8_centurion.mp4) |
 
-*(01–05, 13, 14, 15 are **APPROVED by Cameron** (2026-07-11). 09, 10, 11, 12, 17 are
-rework/fresh built and awaiting his rewatch. 07 and 11 are the ones still being fixed.)*
+*(01–05, 13, 14, 15 are **APPROVED by Cameron** (2026-07-11). 06, 07, 09, 10, 11,
+12, 17 are rework/fresh built and awaiting his rewatch — 06 is now fully
+stills-only (last clip → still, working son in rust-brown); 07 rebuilt with
+Cameron's 3 picture fixes.)*
 
 ---
 
@@ -67,15 +70,15 @@ rebuilt to the new standard — the finished file will replace the old one.
 
 | # | Story | Old cut (playable now) | Redone by | State |
 |---|-------|------------------------|-----------|-------|
-| 07 | Peter Walks on Water (Matthew 14) | [▶ current cut](media-production/build-07-peter-water/matthew-14_peter-walks-on-water.mp4) | Elli's laptop | fixing 3 pictures per Cameron: s5 walk (Peter from behind, going toward distant Jesus); a sinking-alone still (hand-grab no longer too early); s9 walk-back (disciples in the boat). Then rebuild. |
 | 08 | Lost Coin (Luke 15) | [▶ old cut](media-production/build-08-lost-coin/luke-15_lost-coin.mp4) | **UNCLAIMED — free to grab** | stills **2/6** saved in `build-08-lost-coin/assets/` (stars, door). **LEFT: 4 stills `count`, `lamp`, `sweep`, `found` (prompts in PROMPTS.md), then build.py stills-only + verbatim captions, gen narration, build.** |
 | 16 | Mary and Martha (Luke 10) | *no file yet* | Machine A (Dev) | building fresh (stills-only, face-never) |
 
-*(06 is now rework-built stills-only — see the DONE table (the last motion clip
-was replaced with a still; the working son wears rust-brown/red, the son who
-didn't work wears cream/white — Cameron's wardrobe rule). 08 PREP is done and
-**UNCLAIMED**. 07's face-fix redo is Elli's laptop.
-09, 10, 12, 17 are rework/fresh built — see the DONE table above.)*
+*(06 and 07 are now rework-built — see the DONE table. 06: the last motion clip
+was replaced with a still (fully stills-only), and the working son wears
+rust-brown/red while the son who didn't work wears cream/white — Cameron's
+wardrobe rule. 07: Cameron's 3 picture fixes done (Elli's laptop). 08 PREP is
+done and **UNCLAIMED**. 09, 10, 12, 17 are rework/fresh built — see the DONE
+table above.)*
 
 ---
 
@@ -94,7 +97,7 @@ live in [`media-production/VIDEO-ASSIGNMENTS.md`](media-production/VIDEO-ASSIGNM
 
 ## 📈 Count
 
-- **Built to new standard:** 14 (01–15 except 08, plus 17) — **8 APPROVED (01–05, 13, 14, 15)**, 6 awaiting rewatch (06, 09, 10, 11, 12, 17).
-- **In progress (redo / building):** 3 (07, 08, 16).
+- **Built to new standard:** 15 (01–15 except 08, plus 17) — **8 APPROVED (01–05, 13, 14, 15)**, 7 awaiting rewatch (06, 07, 09, 10, 11, 12, 17).
+- **In progress (redo / building):** 2 (08, 16).
 - **Not started (Wave One):** 3 (18–20).
 - **Total in the plan:** 200.
