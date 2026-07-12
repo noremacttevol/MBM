@@ -34,6 +34,8 @@ export interface VideoPairItem {
   verseContentId?: number;
   videoHonored: boolean;
   verseHonored: boolean;
+  /** Rev 2: they replied to / saved this item (counts for scroll-past replacement). */
+  interacted?:  boolean;
 }
 
 /**
@@ -50,6 +52,7 @@ export interface VerseItem {
   recycledFromVideoId?: number;
   recycledFromTitle?:   string;
   honored:   boolean;
+  interacted?: boolean;
 }
 
 export interface QuestionItem {
@@ -57,6 +60,7 @@ export interface QuestionItem {
   slotId:     string;
   questionId: number;
   honored:    boolean;
+  interacted?: boolean;
 }
 
 export interface InvitationItem {
@@ -64,6 +68,7 @@ export interface InvitationItem {
   slotId:     string;
   exerciseId: string;
   honored:    boolean;
+  interacted?: boolean;
 }
 
 export type PageItem = VideoPairItem | VerseItem | QuestionItem | InvitationItem;
@@ -98,6 +103,17 @@ export interface Page {
 export function isItemHonored(it: PageItem): boolean {
   if (it.kind === 'videoPair') return it.videoHonored && it.verseHonored;
   return it.honored;
+}
+
+/**
+ * Rev 2 (Cameron, 2026-07-12): an item is replaceable on SCROLL-PAST when it was
+ * "watched 90% / read / interacted with at all". Pairs: a credited watch, a read
+ * verse, or an explicit reply/save all count. Nothing replaces until the person
+ * scrolls fully past it — they get time to watch, then read, then reply.
+ */
+export function isReplaceEligible(it: PageItem): boolean {
+  if (it.kind === 'videoPair') return it.videoHonored || it.verseHonored || !!it.interacted;
+  return it.honored || !!it.interacted;
 }
 
 /** True when nothing on the page has been honored at all. */

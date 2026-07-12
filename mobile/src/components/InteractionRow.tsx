@@ -1,12 +1,18 @@
 /**
- * InteractionRow — the quiet Reflect / Talk About It / Save it row under every
+ * InteractionRow — the quiet Reply / Talk About It / Save it row under every
  * Feed 2.0 item. ONE row per video+verse pair (Rev 1 §5) — the pair saves as a
  * single entry; standalone verses, questions, and invitations carry their own.
  *
- * Routing is BY BUTTON (Rev 1 §5, Cameron 2026-07-12):
- *   - Reflect on this → inline box; on Keep it lands on the PROFILE (their record).
- *   - Talk About It   → prefills the conversation tab and opens it.
- *   - Save it         → lands in the JOURNAL, short title + link back to the feed.
+ * Rev 2 (Cameron, 2026-07-12): the reflect action is called REPLY everywhere —
+ * it answers the question the content poses (the seed question sitting above
+ * the row). The reply box opens with a grey EXAMPLE answer that disappears the
+ * moment they type. Replying or saving marks the slot "interacted", which is
+ * what earns the scroll-past replacement.
+ *
+ * Routing is BY BUTTON (Rev 1 §5):
+ *   - Reply         → inline box; on Keep it lands on the PROFILE (their record).
+ *   - Talk About It → prefills the conversation tab and opens it.
+ *   - Save it       → lands in the JOURNAL, short title + link back to the feed.
  */
 
 import React, { useState } from 'react';
@@ -30,8 +36,9 @@ interface Props {
 export default function InteractionRow({
   kind, title, scriptureRef, talkPrefill, pageRef, reflectPlaceholder,
 }: Props) {
-  const saveInteraction = useAppStore(s => s.saveInteraction);
-  const prefillChat      = useAppStore(s => s.prefillChat);
+  const saveInteraction    = useAppStore(s => s.saveInteraction);
+  const markSlotInteracted = useAppStore(s => s.markSlotInteracted);
+  const prefillChat        = useAppStore(s => s.prefillChat);
   const navigation       = useNavigation<any>();
 
   const [reflectOpen, setReflectOpen] = useState(false);
@@ -52,6 +59,7 @@ export default function InteractionRow({
     setReflectText('');
     setReflectOpen(false);
     setReflected(true);
+    if (pageRef) markSlotInteracted(pageRef.slotId);
     go(dest);
   }
 
@@ -64,6 +72,7 @@ export default function InteractionRow({
     if (saved) return;
     setSaved(true);
     const dest = saveInteraction({ action: 'save', kind, title, scriptureRef, pageRef });
+    if (pageRef) markSlotInteracted(pageRef.slotId);
     go(dest);
   }
 
@@ -72,7 +81,7 @@ export default function InteractionRow({
       <View style={styles.subActions}>
         <TouchableOpacity activeOpacity={0.7} onPress={() => setReflectOpen(o => !o)}>
           <Text style={[styles.subActionText, reflected && styles.doneText]}>
-            {reflected ? 'Reflected ✓' : 'Reflect on this →'}
+            {reflected ? 'Replied ✓' : 'Reply →'}
           </Text>
         </TouchableOpacity>
         <TouchableOpacity activeOpacity={0.7} onPress={handleTalk}>
@@ -91,7 +100,7 @@ export default function InteractionRow({
             style={styles.reflectInput}
             value={reflectText}
             onChangeText={setReflectText}
-            placeholder={reflectPlaceholder ?? 'What does it stir? A line is plenty.'}
+            placeholder={reflectPlaceholder ?? 'e.g. “I have read this before, but today it felt like it was about me.”'}
             placeholderTextColor={colors.textMuted}
             multiline
             textAlignVertical="top"

@@ -40,6 +40,7 @@ import {
   VideoPairItem,
   composePage,
   pageHasNoHonoring,
+  isReplaceEligible,
   waitLadderSeconds,
   makeVideoPair,
   makeVerseFromContent,
@@ -1159,6 +1160,11 @@ interface AppActions {
   // Honor an item; when the interaction warrants it, the slot enters the 2–3s
   // "preparing" state and is then replaced in place (Rev 1 §3).
   honorPageItem:       (slotId: string, part?: 'video' | 'verse') => void;
+  // Rev 2: replying to / saving an item counts as interacting with it.
+  markSlotInteracted:  (slotId: string) => void;
+  // Rev 2: the feed reports that the user scrolled fully past a slot; if the
+  // item earned it (watched 90% / read / interacted), the swap begins.
+  notifyScrolledPast:  (slotId: string) => void;
   replaceSlot:         (slotId: string) => void;                // archive + refill one slot
   refreshHomeIfUntouched: () => void;                           // tab-away, honored-nothing → fresh page
   // Right-swipe gate (Rev 1 §4). Returns the wait in seconds: short flat wait if
@@ -1450,16 +1456,9 @@ export const useAppStore = create<AppState & AppActions>()(
         const s = get();
         if (s.pages.length > 0) {
           if (homePageShownAt === 0) homePageShownAt = Date.now();
-          // Sweep (Rev 1 §3): if the app was closed while a slot was mid-
-          // "preparing", the honored item is still sitting on the home page with
-          // no timer alive. Replace those on arrival so nothing honored lingers.
-          const home = s.pages[s.pages.length - 1];
-          if (!home.archived) {
-            for (const it of home.items) {
-              const due = it.kind === 'videoPair' ? it.videoHonored : it.honored;
-              if (due) get().replaceSlot(it.slotId);
-            }
-          }
+          // Rev 2: no arrival sweep — honored items keep their place until the
+          // person scrolls past them, however many sessions that takes. Their
+          // time to watch, read, and reply is theirs.
           return;
         }
         const built = buildPage(s, 0);
@@ -1473,17 +1472,14 @@ export const useAppStore = create<AppState & AppActions>()(
         homePageShownAt = Date.now();
       },
 
-      // Honoring + in-place replacement (Rev 1 §3): flip the flag for the touched
-      // slot, count the interaction on its page (softens the right-swipe gate),
-      // and — when the interaction warrants it — put the slot into the 2–3s
-      // "preparing a new story…" state, then replace it in front of the user.
-      // A video and its paired verse still honor SEPARATELY (`part`). A pair is
-      // replaced only once its VIDEO is credited: reading the verse alone leaves
-      // the pair in place, because an unwatched video must stay in new content.
+      // Honoring (Rev 2, Cameron 2026-07-12): flip the flag and count the
+      // interaction — and NOTHING ELSE. The person gets all the time they want
+      // to watch, then read, then reply. Replacement happens only when they
+      // scroll fully past the item (notifyScrolledPast); it never yanks content
+      // out from under them. A video and its paired verse honor separately.
       honorPageItem(slotId, part) {
         const s = get();
         let honoredVideoId: number | null = null;
-        let scheduleReplace = false;
         const pages = s.pages.map(p => {
           if (!p.items.some(it => it.slotId === slotId)) return p;
           const items = p.items.map(it => {
@@ -1491,17 +1487,11 @@ export const useAppStore = create<AppState & AppActions>()(
             if (it.kind === 'videoPair') {
               if (part === 'video') {
                 if (!it.videoHonored) honoredVideoId = it.videoId;
-                scheduleReplace = !p.archived; // the watch is what releases a pair
                 return { ...it, videoHonored: true };
               }
-              if (part === 'verse') {
-                // Verse read after the video was already credited → pair complete.
-                scheduleReplace = !p.archived && it.videoHonored;
-                return { ...it, verseHonored: true };
-              }
+              if (part === 'verse') return { ...it, verseHonored: true };
               return it;
             }
-            scheduleReplace = !p.archived;
             return { ...it, honored: true };
           });
           return { ...p, items, interactions: (p.interactions ?? 0) + 1 };
@@ -1510,14 +1500,35 @@ export const useAppStore = create<AppState & AppActions>()(
           honoredVideoId != null && !s.honoredVideoIds.includes(honoredVideoId)
             ? [...s.honoredVideoIds, honoredVideoId]
             : s.honoredVideoIds;
+        set({ pages, honoredVideoIds });
+      },
 
-        if (scheduleReplace && !s.preparingSlots.includes(slotId)) {
-          set({ pages, honoredVideoIds, preparingSlots: [...s.preparingSlots, slotId] });
-          // The honest little pause: the slot shows "preparing…" then refills.
-          setTimeout(() => get().replaceSlot(slotId), 2600);
-        } else {
-          set({ pages, honoredVideoIds });
-        }
+      markSlotInteracted(slotId) {
+        set(s => ({
+          pages: s.pages.map(p =>
+            p.items.some(it => it.slotId === slotId)
+              ? {
+                  ...p,
+                  items: p.items.map(it => it.slotId === slotId ? { ...it, interacted: true } : it),
+                  interactions: (p.interactions ?? 0) + 1,
+                }
+              : p),
+        }));
+      },
+
+      // Rev 2 §3: the person scrolled all the way past a slot. If the item earned
+      // replacement (watched 90% / read / interacted at all), it enters the
+      // visible "pulling a fresh one in" moment, then replaceSlot lands the new
+      // content. Un-earned items never move.
+      notifyScrolledPast(slotId) {
+        const s = get();
+        if (s.preparingSlots.includes(slotId)) return;
+        const page = s.pages.find(p => !p.archived && p.items.some(it => it.slotId === slotId));
+        if (!page) return;
+        const item = page.items.find(it => it.slotId === slotId)!;
+        if (!isReplaceEligible(item)) return;
+        set({ preparingSlots: [...s.preparingSlots, slotId] });
+        setTimeout(() => get().replaceSlot(slotId), 2200);
       },
 
       // Replace ONE slot in place (Rev 1 §3): the honored item slides into the
@@ -1533,9 +1544,9 @@ export const useAppStore = create<AppState & AppActions>()(
         const home = s.pages[pageIdx];
         const item = home.items.find(it => it.slotId === slotId)!;
 
-        // Only honored items ever move; a stray call on an untouched slot is a no-op.
-        const due = item.kind === 'videoPair' ? item.videoHonored : item.honored;
-        if (!due) { stopPreparing(); return; }
+        // Only items that earned it ever move (Rev 2: watched 90% / read /
+        // interacted at all); a stray call on an untouched slot is a no-op.
+        if (!isReplaceEligible(item)) { stopPreparing(); return; }
 
         let seenVideoIds = [...s.seenVideoIds];
         const seenIds    = new Set(s.seenIds);
@@ -1546,8 +1557,14 @@ export const useAppStore = create<AppState & AppActions>()(
             .map(it => it.videoId));
 
         // The verse of a watched-but-unread pair comes back later as a reminder.
-        if (item.kind === 'videoPair' && !item.verseHonored && !recycled.includes(item.videoId)) {
+        if (item.kind === 'videoPair' && item.videoHonored && !item.verseHonored && !recycled.includes(item.videoId)) {
           recycled.push(item.videoId);
+        }
+        // A pair replaced WITHOUT a credited watch (they read/replied but didn't
+        // finish the film): the video must stay in their new stuff — make it
+        // drawable again so a future pair slot brings the story back.
+        if (item.kind === 'videoPair' && !item.videoHonored) {
+          seenVideoIds = seenVideoIds.filter(id => id !== item.videoId);
         }
 
         // Fresh content for the emptied slot, same kind, no on-page repeats.

@@ -1,14 +1,15 @@
 /**
- * FeedScreen — the prescribed feed, Rev 1 (Cameron, 2026-07-12).
+ * FeedScreen — the prescribed feed, Rev 2 (Cameron, 2026-07-12).
  *
- * Horizontally SWIPED pages — there is no next button, ever (§2). Left of home
- * is everything seen and interacted with (the re-viewable history); right of
- * home is the gate to a new page (§4): interacted pages earn it after a short
- * honest "preparing" moment, ignored pages get Cameron's gentle invitation plus
- * the escalating wait. Interacted items are replaced IN PLACE by the store's
- * engine (§3) — a brief "preparing a new story…" state where they stood, then
- * fresh content, reel-style. Questions chain; answered ones keep their
- * interaction row in history (§5) instead of dead-ending.
+ * Horizontally SWIPED pages — no next button, ever. Left of home is the
+ * re-viewable history; right of home is the gated next page (Cameron's
+ * invitation + escalating wait only when the page was ignored).
+ *
+ * Rev 2 replacement law: honored content STAYS PUT — the person gets all the
+ * time they want to watch, then read, then reply. Only when they scroll fully
+ * past an item that earned it (watched 90% / read / interacted at all) does the
+ * screen stop, glide back to the slot, visibly pull a fresh piece in, and
+ * release. Questions chain the same way; answered items keep their Reply row.
  */
 
 import React, { useCallback, useEffect, useRef, useState } from 'react';
@@ -28,9 +29,10 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation, useFocusEffect } from '@react-navigation/native';
 import { useAppStore, isMemberSignal } from '../store/useAppStore';
+import { CONTENT } from '../data/content';
 import { QUESTION_BANK } from '../data/questionBank';
 import { EXERCISES } from '../engine/exercises';
-import { Page, PageItem } from '../engine/pageEngine';
+import { Page, PageItem, isReplaceEligible } from '../engine/pageEngine';
 import VideoCard from '../components/VideoCard';
 import VerseBlock from '../components/VerseBlock';
 import InteractionRow from '../components/InteractionRow';
@@ -47,97 +49,68 @@ const GATE_INVITATION =
 
 // The content level is an INTERNAL routing signal — never shown to the user.
 
-export default function FeedScreen() {
-  const { width } = useWindowDimensions();
+// ── One page of the feed (own component so it can hold scroll state) ─────────
+function FeedPage({ page, isHome, width }: { page: Page; isHome: boolean; width: number }) {
   const navigation = useNavigation<any>();
-
-  const pages            = useAppStore(s => s.pages);
-  const currentPageIndex = useAppStore(s => s.currentPageIndex);
-  const preparingSlots   = useAppStore(s => s.preparingSlots);
-  const ensureHomePage   = useAppStore(s => s.ensureHomePage);
-  const honorPageItem    = useAppStore(s => s.honorPageItem);
-  const refreshHomeIfUntouched = useAppStore(s => s.refreshHomeIfUntouched);
-  const requestNextPage  = useAppStore(s => s.requestNextPage);
-  const commitNextPage   = useAppStore(s => s.commitNextPage);
-  const goToPage         = useAppStore(s => s.goToPage);
-
-  const answeredQuestions = useAppStore(s => s.answeredQuestions);
+  const preparingSlots     = useAppStore(s => s.preparingSlots);
+  const honorPageItem      = useAppStore(s => s.honorPageItem);
+  const notifyScrolledPast = useAppStore(s => s.notifyScrolledPast);
+  const answeredQuestions  = useAppStore(s => s.answeredQuestions);
   const activeExercise  = useAppStore(s => s.activeExercise);
   const acceptedSession = useAppStore(s => s.acceptedSession);
   const sessionCount    = useAppStore(s => s.sessionCount);
   const dialogueSignals = useAppStore(s => s.dialogueSignals);
 
-  // Gate state — the pseudo-page to the right of home.
-  const [gateWait, setGateWait]       = useState(0);
-  const [gateInvited, setGateInvited] = useState(false);
-  const gateTimer = useRef<ReturnType<typeof setInterval> | null>(null);
-  const gateArmed = useRef(false);
-
-  const pagerRef = useRef<FlatList<Page | 'gate'>>(null);
-
-  useFocusEffect(
-    useCallback(() => {
-      ensureHomePage();
-      refreshHomeIfUntouched();
-    }, [ensureHomePage, refreshHomeIfUntouched]),
-  );
-
-  useEffect(() => () => { if (gateTimer.current) clearInterval(gateTimer.current); }, []);
-
-  const homeIdx  = pages.length - 1;
-  const isMember = isMemberSignal(dialogueSignals);
+  const isMember    = isMemberSignal(dialogueSignals);
   const followUpDue = !!(activeExercise && acceptedSession !== null && acceptedSession < sessionCount);
 
-  // Keep the pager in step with the store (deep links from the Journal, dot taps).
-  useEffect(() => {
-    if (pages.length === 0) return;
-    pagerRef.current?.scrollToIndex({ index: Math.min(currentPageIndex, pages.length), animated: true });
-  }, [currentPageIndex, pages.length]);
+  const scrollRef = useRef<ScrollView>(null);
+  const layouts   = useRef<Record<string, { y: number; h: number }>>({});
+  const swapping  = useRef(false);
+  const [locked, setLocked] = useState(false);
 
-  // ── The right-swipe gate (Rev 1 §4) ─────────────────────────────────────────
-  function armGate() {
-    if (gateArmed.current) return;
-    gateArmed.current = true;
-    const { wait, invited } = requestNextPage();
-    setGateInvited(invited);
-    setGateWait(wait);
-    gateTimer.current = setInterval(() => {
-      setGateWait(prev => {
-        if (prev <= 1) {
-          if (gateTimer.current) clearInterval(gateTimer.current);
-          commitNextPage();          // the new page becomes home…
-          gateArmed.current = false; // …and the gate re-arms for the next one
-          return 0;
-        }
-        return prev - 1;
-      });
-    }, 1000);
-  }
-
-  function handlePageSettled(e: NativeSyntheticEvent<NativeScrollEvent>) {
-    const idx = Math.round(e.nativeEvent.contentOffset.x / width);
-    if (idx >= pages.length) {
-      armGate();       // swiped right of home — the gate surface
-    } else {
-      goToPage(idx);
+  // Rev 2 §3: scrolled fully past an item that earned replacement → stop the
+  // screen at the slot, show the fresh one being pulled in, then release.
+  function handleScroll(e: NativeSyntheticEvent<NativeScrollEvent>) {
+    if (!isHome || swapping.current) return;
+    const offsetY = e.nativeEvent.contentOffset.y;
+    for (const it of page.items) {
+      const box = layouts.current[it.slotId];
+      if (!box) continue;
+      const fullyPast = offsetY > box.y + box.h + 24;
+      if (fullyPast && isReplaceEligible(it) && !preparingSlots.includes(it.slotId)) {
+        swapping.current = true;
+        notifyScrolledPast(it.slotId);            // store starts the 2.2s swap
+        setLocked(true);                          // stop the screen…
+        scrollRef.current?.scrollTo({ y: Math.max(0, box.y - 60), animated: true }); // …at the slot
+        setTimeout(() => { setLocked(false); swapping.current = false; }, 2600);
+        break; // one visible swap at a time
+      }
     }
   }
 
-  // ── One item on a page ───────────────────────────────────────────────────────
-  function renderItem(page: Page, item: PageItem) {
+  function renderItem(item: PageItem) {
     const preparing = preparingSlots.includes(item.slotId);
-    const inner = renderItemInner(page, item);
+    const inner = renderItemInner(item);
     if (!inner) return null;
     return (
-      <View key={item.slotId}>
+      <View
+        key={item.slotId}
+        onLayout={e => {
+          layouts.current[item.slotId] = {
+            y: e.nativeEvent.layout.y,
+            h: e.nativeEvent.layout.height,
+          };
+        }}
+      >
         {inner}
         {preparing && (
           <View style={styles.preparingOverlay}>
             <ActivityIndicator color={colors.gold} size="small" />
             <Text style={styles.preparingText}>
               {item.kind === 'question' ? 'Thank you for sharing — another question is coming…'
-                : item.kind === 'videoPair' ? 'Preparing a new story…'
-                : 'Preparing something new…'}
+                : item.kind === 'videoPair' ? 'Bringing you a new story…'
+                : 'Bringing you something new…'}
             </Text>
           </View>
         )}
@@ -145,12 +118,15 @@ export default function FeedScreen() {
     );
   }
 
-  function renderItemInner(page: Page, item: PageItem) {
+  function renderItemInner(item: PageItem) {
     switch (item.kind) {
       case 'videoPair':
         return <VideoCard item={item} pageIndex={page.index} />;
 
-      case 'verse':
+      case 'verse': {
+        // Rev 2: every standalone verse carries its personally-made question —
+        // how Jesus is found to be a good God in this scripture. Reply answers it.
+        const content = item.contentId != null ? CONTENT.find(c => c.id === item.contentId) : undefined;
         return (
           <View style={styles.verseCard}>
             <VerseBlock
@@ -160,16 +136,16 @@ export default function FeedScreen() {
               onRead={() => honorPageItem(item.slotId)}
               pageRef={{ pageIndex: page.index, slotId: item.slotId }}
               reminderTitle={item.recycledFromTitle}
+              question={content?.seedQuestion}
             />
           </View>
         );
+      }
 
       case 'question': {
         const q = QUESTION_BANK.find(x => x.id === item.questionId);
         if (!q) return null;
         if (item.honored) {
-          // Answered — in history it keeps its full interaction row (Rev 1),
-          // shown with what they said, never a dead "thank you" end.
           const answered = answeredQuestions.find(a => a.prompt === q.questionText);
           return (
             <View style={styles.answeredCard}>
@@ -181,7 +157,7 @@ export default function FeedScreen() {
                 title={q.questionText}
                 pageRef={{ pageIndex: page.index, slotId: item.slotId }}
                 talkPrefill={`I was asked: “${q.questionText}” — can we talk about it?`}
-                reflectPlaceholder="What did answering stir? A line is plenty."
+                reflectPlaceholder='e.g. “Saying it out loud made me realize I believe more than I thought.”'
               />
             </View>
           );
@@ -204,6 +180,7 @@ export default function FeedScreen() {
                 title={ex.text.length > 60 ? ex.text.slice(0, 57) + '…' : ex.text}
                 pageRef={{ pageIndex: page.index, slotId: item.slotId }}
                 talkPrefill={`I was invited to try something: “${ex.text}” — can we talk about it?`}
+                reflectPlaceholder='e.g. “I tried it last night. It was quieter than I expected.”'
               />
             </View>
           );
@@ -215,7 +192,109 @@ export default function FeedScreen() {
     }
   }
 
-  // ── One full page of the pager ───────────────────────────────────────────────
+  return (
+    <ScrollView
+      ref={scrollRef}
+      style={{ width }}
+      contentContainerStyle={styles.pageContainer}
+      showsVerticalScrollIndicator={false}
+      keyboardShouldPersistTaps="handled"
+      scrollEnabled={!locked}
+      onScroll={handleScroll}
+      scrollEventThrottle={96}
+    >
+      {isHome && isMember && (
+        <TouchableOpacity
+          style={styles.memberBanner}
+          activeOpacity={0.85}
+          onPress={() => navigation.navigate('Discipleship')}
+        >
+          <Text style={styles.memberBannerTitle}>Walk with Christ</Text>
+          <Text style={styles.memberBannerSub}>
+            Your private discipleship companion — examen, your walk so far, and personal rhythms. Tap to open →
+          </Text>
+        </TouchableOpacity>
+      )}
+
+      {!isHome && (
+        <Text style={styles.historyNote}>
+          A page you've walked through — everything here is kept for you.
+        </Text>
+      )}
+
+      {isHome && followUpDue && activeExercise && (
+        <FollowUpCard followUpText={activeExercise.followUp} />
+      )}
+
+      {page.items.map(renderItem)}
+      <View style={{ height: spacing.xl }} />
+    </ScrollView>
+  );
+}
+
+// ── The screen: horizontal pager + gate + wheel ───────────────────────────────
+export default function FeedScreen() {
+  const { width } = useWindowDimensions();
+
+  const pages            = useAppStore(s => s.pages);
+  const currentPageIndex = useAppStore(s => s.currentPageIndex);
+  const ensureHomePage   = useAppStore(s => s.ensureHomePage);
+  const refreshHomeIfUntouched = useAppStore(s => s.refreshHomeIfUntouched);
+  const requestNextPage  = useAppStore(s => s.requestNextPage);
+  const commitNextPage   = useAppStore(s => s.commitNextPage);
+  const goToPage         = useAppStore(s => s.goToPage);
+
+  const [gateWait, setGateWait]       = useState(0);
+  const [gateInvited, setGateInvited] = useState(false);
+  const gateTimer = useRef<ReturnType<typeof setInterval> | null>(null);
+  const gateArmed = useRef(false);
+
+  const pagerRef = useRef<FlatList<Page | 'gate'>>(null);
+
+  useFocusEffect(
+    useCallback(() => {
+      ensureHomePage();
+      refreshHomeIfUntouched();
+    }, [ensureHomePage, refreshHomeIfUntouched]),
+  );
+
+  useEffect(() => () => { if (gateTimer.current) clearInterval(gateTimer.current); }, []);
+
+  const homeIdx = pages.length - 1;
+
+  useEffect(() => {
+    if (pages.length === 0) return;
+    pagerRef.current?.scrollToIndex({ index: Math.min(currentPageIndex, pages.length), animated: true });
+  }, [currentPageIndex, pages.length]);
+
+  function armGate() {
+    if (gateArmed.current) return;
+    gateArmed.current = true;
+    const { wait, invited } = requestNextPage();
+    setGateInvited(invited);
+    setGateWait(wait);
+    gateTimer.current = setInterval(() => {
+      setGateWait(prev => {
+        if (prev <= 1) {
+          if (gateTimer.current) clearInterval(gateTimer.current);
+          commitNextPage();
+          gateArmed.current = false;
+          return 0;
+        }
+        return prev - 1;
+      });
+    }, 1000);
+  }
+
+  function handlePageSettled(e: NativeSyntheticEvent<NativeScrollEvent>) {
+    const idx = Math.round(e.nativeEvent.contentOffset.x / width);
+    if (idx >= pages.length) {
+      armGate();
+    } else {
+      goToPage(idx);
+    }
+  }
+
   function renderPage({ item: pageOrGate }: { item: Page | 'gate' }) {
     if (pageOrGate === 'gate') {
       return (
@@ -228,41 +307,12 @@ export default function FeedScreen() {
         </View>
       );
     }
-    const page = pageOrGate;
-    const isHome = pages[homeIdx]?.id === page.id;
     return (
-      <ScrollView
-        style={{ width }}
-        contentContainerStyle={styles.pageContainer}
-        showsVerticalScrollIndicator={false}
-        keyboardShouldPersistTaps="handled"
-      >
-        {isHome && isMember && (
-          <TouchableOpacity
-            style={styles.memberBanner}
-            activeOpacity={0.85}
-            onPress={() => navigation.navigate('Discipleship')}
-          >
-            <Text style={styles.memberBannerTitle}>Walk with Christ</Text>
-            <Text style={styles.memberBannerSub}>
-              Your private discipleship companion — examen, your walk so far, and personal rhythms. Tap to open →
-            </Text>
-          </TouchableOpacity>
-        )}
-
-        {!isHome && (
-          <Text style={styles.historyNote}>
-            A page you've walked through — everything here is kept for you.
-          </Text>
-        )}
-
-        {isHome && followUpDue && activeExercise && (
-          <FollowUpCard followUpText={activeExercise.followUp} />
-        )}
-
-        {page.items.map(it => renderItem(page, it))}
-        <View style={{ height: spacing.xl }} />
-      </ScrollView>
+      <FeedPage
+        page={pageOrGate}
+        isHome={pages[homeIdx]?.id === pageOrGate.id}
+        width={width}
+      />
     );
   }
 
@@ -292,9 +342,7 @@ export default function FeedScreen() {
         />
       )}
 
-      {/* ── The wheel: history dots · home · the ghost of the next page ─────── */}
       <WheelNav />
-
       <BlessingToast />
     </SafeAreaView>
   );

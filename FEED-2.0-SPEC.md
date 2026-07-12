@@ -1,5 +1,32 @@
 # FEED 2.0 — The Prescribed Feed (locked spec, 2026-07-07)
 
+> ⚠️ **REVISION 2 — 2026-07-12 (Cameron, after driving Revision 1 on his
+> phone). Where it conflicts with Revision 1 or the original, REVISION 2 WINS.**
+>
+> 1. **Replacement waits for SCROLL-PAST (refines Rev 1 §3).** Honoring an item
+>    does NOT start any timer — the person gets all the time they want to
+>    watch, then read, then reply. Only when they scroll FULLY PAST an item
+>    that earned it does the screen stop at the slot, visibly pull a fresh
+>    piece in (~2s), and release. "Earned it" = watched to the 90% mark, read,
+>    or interacted with AT ALL (reply/save count). A pair replaced without a
+>    credited watch puts its video back in the drawable pool — unwatched
+>    stories stay in new content; a watched pair's unread verse still recycles.
+>    (Rev 1's instant in-place swap was too fast — it wiped standalone verses
+>    before they could be read, and left no time to reply.)
+> 2. **"Reflect on this" is now "REPLY" — everywhere, every platform.** The
+>    reply answers the question the content poses. The reply box opens with a
+>    grey EXAMPLE answer (placeholder that disappears on typing), tailored to
+>    the content kind. Routing unchanged: Reply → Profile, Save it → Journal,
+>    Talk About It → chat.
+> 3. **Every standalone verse carries its own personally-made question** —
+>    written to show how Jesus is found to be a good God in that scripture,
+>    supporting the MBM discipling flow without ever naming the Church early.
+>    All 100 milk verses have one (content.ts `seedQuestion`).
+> 4. **Player polish:** the loading spinner must disappear once the video's
+>    first frame renders (it was circling over playing video).
+> 5. Cameron's verdicts on Rev 1: pager, video+verse pairing, thumbnails, and
+>    the player itself are RIGHT — keep them.
+
 > ⚠️ **REVISION 1 — 2026-07-12 (Cameron, after using the first build on his
 > phone). Where the section below conflicts with the original text, the
 > revision WINS.** The original is kept for history.

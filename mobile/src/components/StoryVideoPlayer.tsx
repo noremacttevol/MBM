@@ -11,7 +11,7 @@
  * credit, and the story stays in the person's new content.
  */
 
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import {
   Modal,
   View,
@@ -36,6 +36,10 @@ interface Props {
 
 export default function StoryVideoPlayer({ uri, visible, onCredit, onClose, onError }: Props) {
   const creditedRef = useRef(false);
+  // The loading spinner lives only until the first video frame is on screen —
+  // player.duration isn't reactive, so relying on it left the spinner circling
+  // forever over a playing video (Cameron's report, Rev 2).
+  const [firstFrame, setFirstFrame] = useState(false);
 
   const player = useVideoPlayer(uri, p => {
     p.timeUpdateEventInterval = 0.5;
@@ -85,8 +89,9 @@ export default function StoryVideoPlayer({ uri, visible, onCredit, onClose, onEr
           allowsFullscreen={false}
           allowsPictureInPicture={false}
           contentFit="contain"
+          onFirstFrameRender={() => setFirstFrame(true)}
         />
-        {!player.duration && (
+        {!firstFrame && (
           <View style={styles.loading} pointerEvents="none">
             <ActivityIndicator color={colors.gold} />
           </View>

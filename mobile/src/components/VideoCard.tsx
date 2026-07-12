@@ -83,7 +83,7 @@ export default function VideoCard({ item, pageIndex }: Props) {
         scriptureRef={video.scriptureRef}
         pageRef={pageRef}
         talkPrefill={`I just watched “${video.title}” (${video.scriptureRef}). Can we talk about it?`}
-        reflectPlaceholder="What did the story stir? A line is plenty."
+        reflectPlaceholder='e.g. “I always pictured God waiting with his arms folded. This one felt different.”'
       />
 
       {playing && video.videoUrl && (

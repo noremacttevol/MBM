@@ -38,13 +38,18 @@ interface Props {
    * the paired VerseBlock hides its own. Standalone verses keep theirs.
    */
   showInteractionRow?: boolean;
+  /**
+   * Rev 2: the personally-made question this verse carries — how Jesus is found
+   * to be a good God here. Shown above the row; Reply answers it.
+   */
+  question?: string;
 }
 
 const VERSE_PREVIEW = 6; // collapse long passages to this many verses first
 
 export default function VerseBlock({
   scriptureRef, contentId, honored, onRead, pageRef, reminderTitle,
-  interactionKind = 'verse', showInteractionRow = true,
+  interactionKind = 'verse', showInteractionRow = true, question,
 }: Props) {
   const verses = contentId != null ? kjvVersesFor(contentId) : undefined;
   const hasInline = !!(verses && verses.length > 0);
@@ -109,6 +114,8 @@ export default function VerseBlock({
           </Text>
         </TouchableOpacity>
       )}
+
+      {question ? <Text style={styles.question}>{question}</Text> : null}
 
       {showInteractionRow && (
         <InteractionRow
@@ -178,6 +185,14 @@ const styles = StyleSheet.create({
     fontFamily: 'Jost_400Regular',
     marginTop:  2,
     marginBottom: 4,
+  },
+  question: {
+    fontSize:   14,
+    color:      colors.textMid,
+    fontFamily: 'Jost_400Regular',
+    fontStyle:  'italic',
+    lineHeight: 22,
+    marginTop:  spacing.sm + 2,
   },
   kjvTag: {
     fontSize:      9,
