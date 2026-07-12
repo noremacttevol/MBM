@@ -31,7 +31,7 @@
 <body>
 <header>
   <h1>Milk Before Meat — Story Videos</h1>
-  <p class="sub">Tap play on any video. Streams on phone or desktop. Updated 2026-07-11.</p>
+  <p class="sub">Tap play on any video. Streams on phone or desktop. Always shows the latest uploaded version (cache-busting on). If one still looks old, hard-refresh once. Updated 2026-07-11.</p>
 </header>
 
 <h2>✅ Approved by Cameron (8)</h2>
@@ -96,6 +96,19 @@
 <div class="pending">18 — Road to Emmaus (Luke 24) — Machine C, up next.</div>
 <div class="pending">19 — Breakfast on the Shore (John 21) — Machine A, after #16.</div>
 <div class="pending">20 — Good Samaritan (Luke 10) — not started yet.</div>
+
+<script>
+  // Always fetch the freshest committed video — defeats GitHub Pages / browser
+  // caching so a rebuilt video (same filename) shows its LATEST version here.
+  // If a video still looks old, hard-refresh (Ctrl/Cmd+Shift+R) once.
+  (function () {
+    var stamp = Date.now();
+    document.querySelectorAll('video[src]').forEach(function (v) {
+      var s = v.getAttribute('src');
+      v.setAttribute('src', s + (s.indexOf('?') < 0 ? '?' : '&') + 'v=' + stamp);
+    });
+  })();
+</script>
 
 </body>
 </html>
