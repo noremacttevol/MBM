@@ -1,24 +1,30 @@
 #!/usr/bin/env python3
 """Assemble Story Video #21 — The Lost Sheep (Luke 15:1-7).
 
-PHASE-1 STILLS-ONLY build (Law E): 9 painted 2K stills with slow Ken Burns
+PHASE-1 STILLS-ONLY build (Law E): 7 painted 2K stills with slow Ken Burns
 drift, narration, serif captions, KJV red-letter lines, closing card. NO motion
 clips.
+
+PROVENANCE: the SHIPPED luke-15_lost-sheep.mp4 was assembled by Machine C
+(Cameron Lovett MS) from the 7 s*-named stills in assets/. This build.py is
+reconciled to that delivered cut (same 7 stills, same narration in
+make_narration.py) so the repo reproduces an equivalent build; the approved mp4
+is kept as the deliverable and is NOT overwritten by this script's default name.
 
 CAPTIONS ARE VERBATIM: every caption is the exact spoken text of its narration
 segment (imported from make_narration.SEGMENTS and word-wrapped). KJV (Jesus)
 lines render in cream italic.
 
-Face-never: this is a parable, so the shepherd (the character Jesus describes)
-is shown fully; the Lord appears ONLY in the bookend stills (s1, s9) as a seated
-storyteller seen from behind, his face never shown.
+Face-never: this parable keeps Jesus fully OFF-SCREEN — he is only the narrating
+voice; no Jesus figure appears in any still, so the face gate is trivially safe.
 
 Timing is COMPUTED from measured mp3 durations (no hand offsets to drift).
-Music: a warm detuned-pair bed opens and fades to FULL SILENCE just before n8
-("And he finds it" — the emotional peak), so the finding lands in true silence;
-a warm bed returns for the carry-home beat, then fades out before j2 so the
-whole homecoming and sending (j2 "Rejoice with me...", j3 "joy shall be in
-heaven...", and the close) plays in reverent quiet.
+Music: a warm detuned-pair bed opens and fades to FULL SILENCE just after j2
+("...he layeth it on his shoulders, rejoicing" — the finding, the emotional
+peak), so the recovery lands in true silence; a warm bed returns for the
+carry-home beat, then fades out before j3 so the homecoming and sending (j3
+"Rejoice with me...", j4 "joy shall be in heaven...", and the close) play in
+reverent quiet.
 
 Output: luke-15_lost-sheep.mp4 (SCRIPTURE-NAME LAW), 1080x1920 H.264 30fps, <25MB.
 """
@@ -41,33 +47,29 @@ INK = "0x3B2A1E"
 ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "16",
        "-pix_fmt", "yuv420p", "-r", str(FPS), "-an"]
 
-S1 = "s1-murmur.jpeg"
-S2 = "s2-hundred.jpeg"
-S3 = "s3-one-lost.jpeg"
-S4 = "s4-leaves.jpeg"
-S5 = "s5-searches.jpeg"
-S6 = "s6-found.jpeg"
-S7 = "s7-shoulders.jpeg"
-S8 = "s8-rejoice.jpeg"
-S9 = "s9-heaven.jpeg"
+S1 = "s1-gathering.jpeg"
+S2 = "s2-flock-dusk.jpeg"
+S3 = "s3-leaves.jpeg"
+S4 = "s4-searches-night.jpeg"
+S5 = "s5-finds.jpeg"
+S6 = "s6-shoulders.jpeg"
+S7 = "s7-rejoicing.jpeg"
 
 # Caption text = verbatim spoken text, keyed by segment name.
 TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
-KJV = {"j1", "j2", "j3"}
-PEAK = {"n8"}   # "And he finds it." — the silence lands here
+KJV = {"j1", "j2", "j3", "j4"}   # Luke 15:4, 15:5, 15:6, 15:7 — Jesus voice
+PEAK = {"j2"}   # "...he layeth it on his shoulders, rejoicing" — silence lands here
 
 # BEATS: (segment_name, still, zoom_dir). One still-drift beat per narration
 # segment; every word of that segment is captioned on it. Zoom alternates.
 BEATS = [
-    ("n1", S1, "in"), ("n2", S1, "out"),
-    ("n3", S2, "in"), ("j1", S2, "out"),
-    ("n4", S3, "in"), ("n5", S3, "out"),
+    ("n1", S1, "in"), ("n2", S1, "out"), ("n3", S1, "in"),
+    ("j1", S2, "in"), ("n4", S2, "out"),
+    ("n5", S3, "in"),
     ("n6", S4, "in"),
-    ("n7", S5, "out"),
+    ("n7", S5, "in"), ("j2", S5, "out"),
     ("n8", S6, "in"),
-    ("n9", S7, "out"),
-    ("n10", S8, "in"), ("j2", S8, "out"), ("n11", S8, "in"),
-    ("n12", S9, "out"), ("j3", S9, "in"), ("n13", S9, "out"), ("n14", S9, "in"),
+    ("n9", S7, "in"), ("j3", S7, "out"), ("j4", S7, "in"), ("n10", S7, "out"),
 ]
 
 LEAD = 0.28          # audio starts this long after its beat begins
@@ -176,17 +178,17 @@ def main():
     t = 0.0
     audio_place = []  # (mp3, start)
     peak_start = None
-    j2_start = None
+    j3_start = None
     for name, still, zdir in BEATS:
         reverent = name in KJV or name in PEAK
         gap = KJV_GAP if reverent else GAP
         vdur = LEAD + audio_dur[name] + gap
         a_start = t + LEAD
         audio_place.append((f"audio/{name}.mp3", a_start))
-        if name == "n8":
-            peak_start = a_start
         if name == "j2":
-            j2_start = a_start
+            peak_start = a_start
+        if name == "j3":
+            j3_start = a_start
         timeline.append((name, still, zdir, vdur, a_start, name in KJV))
         t += vdur
     # closing card
@@ -197,7 +199,7 @@ def main():
 
     print(f"total runtime: {total:.1f}s ({total/60:.2f} min); "
           f"peak (found — silence) at {peak_start:.1f}s; "
-          f"j2 (quiet homecoming) at {j2_start:.1f}s", flush=True)
+          f"j3 (quiet homecoming) at {j3_start:.1f}s", flush=True)
 
     # ---- render every still beat ----
     n = len(timeline)
@@ -214,13 +216,18 @@ def main():
          "-c", "copy", f"{S}/video_silent.mp4"])
 
     # ---- audio: narration at computed offsets + warm beds ----
-    #   bed a : opening -> silent just before the "found" peak (n8)
-    #   bed b : returns after the peak -> out before j2, so the whole
-    #           homecoming + sending (j2, n11, j3, n13, n14) + card is quiet.
+    #   bed a : opening -> silent just before the finding peak (j2), so the
+    #           recovery ("he layeth it on his shoulders, rejoicing") lands in
+    #           true silence — the one sacred pause of the video.
+    #   bed b : returns after the peak and runs warm UNDER the whole homecoming
+    #           (j3 "Rejoice with me", j4 "joy in heaven", n10), fading out only
+    #           before the closing card. This keeps the No-Dead-Air Law: the only
+    #           silences >2.5s are the single designed peak and the card's tail.
     beds = [
         (0.0, peak_start - 1.2, "a"),
-        (peak_start + audio_dur["n8"] + 1.0, j2_start - 1.2, "b"),
+        (peak_start + audio_dur["j2"] + 1.0, card_start - 0.8, "b"),
     ]
+    _ = j3_start  # (kept for the timeline print above)
     inputs, filters, labels = [], [], []
     for i, (path, start) in enumerate(audio_place):
         inputs += ["-i", path]
