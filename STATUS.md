@@ -55,6 +55,7 @@ this file is the at-a-glance summary of it.
 | 14 | Ten Lepers (Luke 17) | 4:34 | **APPROVED** ✅ | [▶ watch](media-production/build-14-ten-lepers/luke-17_ten-lepers.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-14-ten-lepers/luke-17_ten-lepers.mp4) |
 | 15 | Centurion's Servant (Matthew 8) | 5:08 | **APPROVED** ✅ | [▶ watch](media-production/build-15-centurion/matthew-8_centurion.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-15-centurion/matthew-8_centurion.mp4) |
 | 08 | Lost Coin (Luke 15) | 1:06 | **APPROVED** ✅ | [▶ watch](media-production/build-08-lost-coin/luke-15_lost-coin.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-08-lost-coin/luke-15_lost-coin.mp4) |
+| 18 | Road to Emmaus (Luke 24) | 4:18 | **built — awaiting Cameron** 🟡 | [▶ watch](media-production/build-18-emmaus/luke-24_emmaus.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-18-emmaus/luke-24_emmaus.mp4) |
 
 *(ALL 16 built videos — 01–15 and 17 — are **APPROVED by Cameron** (2026-07-11, second pass: he watched every built cut and approved them all). **#17 Lazarus beard fix has now SHIPPED** (Machine C, 2026-07-11): s9 regenerated with Lazarus's dark beard and rebuilt, so the approved file at `build-17-lazarus/john-11_lazarus.mp4` already contains the fix — no longer pending/optional. ALL 16 approved finals are LIVE at `https://milk-b4-meat.web.app/story-videos/<catalog-id>.mp4` (deployed 2026-07-11, every URL verified 200/video-mp4 with range support). The #17 stream copy WAS re-synced from the bearded rebuild before deploy — the live #17 is byte-identical to the fixed final.)*
 
@@ -69,7 +70,6 @@ rebuilt to the new standard — the finished file will replace the old one.
 | # | Story | Old cut (playable now) | Redone by | State |
 |---|-------|------------------------|-----------|-------|
 | 16 | Mary and Martha (Luke 10) | *no file yet* | Machine A (Dev) | building fresh (stills-only, face-never) |
-| 18 | Road to Emmaus (Luke 24) | *no file yet* | Elli's laptop | building fresh (stills-only, face-never — his identity hidden the whole road) |
 
 *(06 and 07 are now rework-built — see the DONE table. 06: the last motion clip
 was replaced with a still (fully stills-only), and the working son wears
