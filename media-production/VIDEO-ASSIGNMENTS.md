@@ -199,7 +199,7 @@ only, face gate must pass. Nothing legacy to redo.
 |------|------|-------|------|--------|
 | 1 | 15 | Centurion's Servant | matthew-8_centurion | CLAIMED — 2026-07-11 — Cameron Lovett MS (Machine C) — see Wave One table |
 | 2 | 18 | Road to Emmaus | luke-24_emmaus | see Wave One table |
-| 3 | 21 | The Lost Sheep | luke-15_lost-sheep | **CLAIMED — 2026-07-12 — Machine C (Cameron Lovett MS)** — building fresh, STILLS-ONLY (Law E). Parable Jesus TELLS — no Jesus figure on screen (only his narrating KJV voice), so the face gate is trivial. Hand-painted 2D storybook style. (Taken because #20 Good Samaritan was already claimed by Machine A.) |
+| 3 | 21 | The Lost Sheep | luke-15_lost-sheep | **TAKEN OVER — 2026-07-12 — Machine A (Dev)** on Cameron's direct order ("build video #21"). Cameron's instruction overrides the board claim. STILLS-ONLY (Law E), hand-painted 2D storybook. Built on the #20 pattern: 9 stills, verbatim captions, Jesus KJV j1 (Luke 15:4) / j2 (15:6) / j3 (15:7), the Lord shown ONLY as a bookend storyteller from behind (face-gate PASS). Prep done: PROMPTS.md, make_narration.py + narration, qc ear-check PASS (lowest 0.95), build.py. Generating stills next. (Previously CLAIMED by Machine C — released to Machine A by Cameron's direct order.) |
 | 4 | 24 | The Sower | matthew-13_sower | UNCLAIMED |
 | 5 | 33 | The Sheep and the Goats | matthew-25_sheep-and-goats | UNCLAIMED |
 | 6 | 37 | The Rich Man and Lazarus | luke-16_rich-man-and-lazarus | UNCLAIMED |
