@@ -107,3 +107,7 @@ media-production/*/segs/
 media-production/bin/
 media-production/build-*/build_run.log
 media-production/build-*/qc/frames/
+
+# Feed 2.0 streaming copies — duplicates of the tracked media-production finals,
+# staged here only for Firebase Hosting deploy (regenerate by copying finals in).
+site/story-videos/

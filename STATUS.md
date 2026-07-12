@@ -44,26 +44,19 @@ this file is the at-a-glance summary of it.
 | 03 | Zacchaeus (Luke 19) | 4:09 | **APPROVED** ✅ | [▶ watch](media-production/build-03-zacchaeus/luke-19_zacchaeus.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-03-zacchaeus/luke-19_zacchaeus.mp4) |
 | 04 | Nicodemus at Night (John 3) | 6:07 | **APPROVED** ✅ | [▶ watch](media-production/build-04-nicodemus/john-3_nicodemus.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-04-nicodemus/john-3_nicodemus.mp4) |
 | 05 | The Bent-Over Woman (Luke 13) | 4:38 | **APPROVED** ✅ | [▶ watch](media-production/build-05-bent-woman/luke-13_bent-woman.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-05-bent-woman/luke-13_bent-woman.mp4) |
-| 11 | Calming the Storm (Mark 4) | 4:24 | rework built 🟡 | [▶ watch](media-production/build-11-storm/mark-4_calming-the-storm.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-11-storm/mark-4_calming-the-storm.mp4) |
-| 12 | Blind Bartimaeus (Mark 10) | 5:18 | rework built 🟡 | [▶ watch](media-production/build-12-bartimaeus/mark-10_bartimaeus.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-12-bartimaeus/mark-10_bartimaeus.mp4) |
+| 11 | Calming the Storm (Mark 4) | 4:24 | **APPROVED** ✅ | [▶ watch](media-production/build-11-storm/mark-4_calming-the-storm.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-11-storm/mark-4_calming-the-storm.mp4) |
+| 12 | Blind Bartimaeus (Mark 10) | 5:18 | **APPROVED** ✅ | [▶ watch](media-production/build-12-bartimaeus/mark-10_bartimaeus.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-12-bartimaeus/mark-10_bartimaeus.mp4) |
 | 09 | Rich Young Ruler (Mark 10) | 3:37 | **APPROVED** ✅ | [▶ watch](media-production/build-09-rich-ruler/mark-10_rich-young-ruler.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-09-rich-ruler/mark-10_rich-young-ruler.mp4) |
 | 10 | Woman at the Well (John 4) | 5:11 | **APPROVED** ✅ | [▶ watch](media-production/build-10-well/john-4_woman-at-the-well.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-10-well/john-4_woman-at-the-well.mp4) |
-| 17 | Lazarus (John 11) | 6:12 | **built — awaiting Cameron** 🟡 | [▶ watch](media-production/build-17-lazarus/john-11_lazarus.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-17-lazarus/john-11_lazarus.mp4) |
-| 06 | Two Sons (Matthew 21) | 1:44 | **rework built** 🟡 (stills-only) | [▶ watch](media-production/build-06-two-sons/matthew-21_two-sons.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-06-two-sons/matthew-21_two-sons.mp4) |
-| 07 | Peter Walks on Water (Matthew 14) | 4:16 | **rework built + face-fix** 🟡 | [▶ watch](media-production/build-07-peter-water/matthew-14_peter-walks-on-water.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-07-peter-water/matthew-14_peter-walks-on-water.mp4) |
+| 17 | Lazarus (John 11) | 6:12 | **APPROVED** ✅ | [▶ watch](media-production/build-17-lazarus/john-11_lazarus.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-17-lazarus/john-11_lazarus.mp4) |
+| 06 | Two Sons (Matthew 21) | 1:44 | **APPROVED** ✅ | [▶ watch](media-production/build-06-two-sons/matthew-21_two-sons.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-06-two-sons/matthew-21_two-sons.mp4) |
+| 07 | Peter Walks on Water (Matthew 14) | 4:16 | **APPROVED** ✅ | [▶ watch](media-production/build-07-peter-water/matthew-14_peter-walks-on-water.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-07-peter-water/matthew-14_peter-walks-on-water.mp4) |
 | 13 | Man Through the Roof (Mark 2) | 5:34 | **APPROVED** ✅ | [▶ watch](media-production/build-13-roof/mark-2_man-through-the-roof.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-13-roof/mark-2_man-through-the-roof.mp4) |
 | 14 | Ten Lepers (Luke 17) | 4:34 | **APPROVED** ✅ | [▶ watch](media-production/build-14-ten-lepers/luke-17_ten-lepers.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-14-ten-lepers/luke-17_ten-lepers.mp4) |
 | 15 | Centurion's Servant (Matthew 8) | 5:08 | **APPROVED** ✅ | [▶ watch](media-production/build-15-centurion/matthew-8_centurion.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-15-centurion/matthew-8_centurion.mp4) |
-| 08 | Lost Coin (Luke 15) | 1:06 | rework built 🟡 | [▶ watch](media-production/build-08-lost-coin/luke-15_lost-coin.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-08-lost-coin/luke-15_lost-coin.mp4) |
+| 08 | Lost Coin (Luke 15) | 1:06 | **APPROVED** ✅ | [▶ watch](media-production/build-08-lost-coin/luke-15_lost-coin.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-08-lost-coin/luke-15_lost-coin.mp4) |
 
-*(01–05, 09, 10, 13, 14, 15 are **APPROVED by Cameron** (2026-07-11). 06, 07, 11,
-12, 17 are rework/fresh built and awaiting his rewatch — 06 is now fully
-stills-only (last clip → still, working son in rust-brown); 07 rebuilt with
-Cameron's 3 picture fixes PLUS a face-fix on the walking-on-water still (the
-distant Jesus was front-facing with a faint face — darkened to a shadowed head,
-Machine C). **17 needs a fix:** Lazarus is bearded when sick (s1) and coming
-forth (s8) but clean-shaven once loosed (s9) — regenerate s9 with his beard so
-he's the same man before and after.)*
+*(ALL 16 built videos — 01–15 and 17 — are **APPROVED by Cameron** (2026-07-11, second pass: he watched every built cut and approved them all). This supersedes the pending #17 Lazarus s9 beard fix: the current cut is approved as-is; if the beard regen ships later it may replace the file as optional polish, but nothing blocks. The 16 approved finals are staged for in-app streaming at `site/story-videos/<catalog-id>.mp4` (Feed 2.0 pulls them from Firebase Hosting).)*
 
 ---
 
@@ -77,7 +70,7 @@ rebuilt to the new standard — the finished file will replace the old one.
 |---|-------|------------------------|-----------|-------|
 | 16 | Mary and Martha (Luke 10) | *no file yet* | Machine A (Dev) | building fresh (stills-only, face-never) |
 | 18 | Road to Emmaus (Luke 24) | *no file yet* | Elli's laptop | building fresh (stills-only, face-never — his identity hidden the whole road) |
-| 17 | Lazarus — s9 beard fix | [▶ cut](media-production/build-17-lazarus/john-11_lazarus.mp4) | Elli's laptop | regenerating s9 so loosed-Lazarus has his beard (matches s1/s8), then rebuild |
+| 17 | Lazarus — s9 beard fix | [▶ cut](media-production/build-17-lazarus/john-11_lazarus.mp4) | Elli's laptop | OPTIONAL now — Cameron approved the current cut 2026-07-11; a bearded-s9 rebuild may replace it later as polish, nothing blocks |
 
 *(06 and 07 are now rework-built — see the DONE table. 06: the last motion clip
 was replaced with a still (fully stills-only), and the working son wears
@@ -102,7 +95,7 @@ live in [`media-production/VIDEO-ASSIGNMENTS.md`](media-production/VIDEO-ASSIGNM
 
 ## 📈 Count
 
-- **Built to new standard:** 15 (01–15 except 08, plus 17) — **10 APPROVED (01–05, 09, 10, 13, 14, 15)**, 5 awaiting rewatch (06, 07, 11, 12, 17). ⚠️ 17 has a Lazarus beard-continuity fix pending (bearded in s1/s8, clean-shaven in s9 — regenerate s9 with the beard).
-- **In progress (redo / building):** 2 (08, 16).
+- **Built + APPROVED:** 16 (01–15 and 17) — all approved by Cameron 2026-07-11 and staged for in-app streaming.
+- **In progress (building fresh):** 1 (16 Mary and Martha — stills 5–6 + assembly).
 - **Not started (Wave One):** 3 (18–20).
 - **Total in the plan:** 200.
