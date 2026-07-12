@@ -33,6 +33,20 @@ import {
   pickExercise,
   SpiritualExercise,
 } from '../engine/exercises';
+import { VIDEO_STORIES, videoById } from '../data/videos';
+import {
+  Page,
+  PageItem,
+  VideoPairItem,
+  composePage,
+  isItemHonored,
+  pageHasNoHonoring,
+  waitLadderSeconds,
+  makeVideoPair,
+  makeVerseFromContent,
+  makeQuestionItem,
+  makeInvitationItem,
+} from '../engine/pageEngine';
 import {
   sendMessage as cloudSendMessage,
   fetchThread as cloudFetchThread,
@@ -247,6 +261,70 @@ function buildFeed(tag: FeedTag, seenIds: Set<number>): ContentItem[] {
   return shuffle(source).slice(0, 5);
 }
 
+// ── Feed 2.0 prescribed-page composition ──────────────────────────────────────
+// A prescribed PAGE (2 video+verse pairs, 0–1 standalone verse, 1 question, 1
+// invitation) is composed from the video spine + the milk verse pool + the
+// current question and matched invitation. buildPage returns the page together
+// with the updated "seen" bookkeeping so the store can fold it into state. The
+// same rule as buildFeed rides on top: never repeat a video until the whole spine
+// has been shown, then start a fresh cycle.
+
+function dedupNums(arr: number[]): number[] {
+  return Array.from(new Set(arr));
+}
+
+function milkVersePool(tag: FeedTag): ContentItem[] {
+  return poolForTag(tag).filter(c => c.track === 'MILK');
+}
+
+interface PageBuild {
+  page:             Page;
+  seenVideoIds:     number[];
+  seenIds:          Set<number>;
+  recycledVideoIds: number[];
+}
+
+type PageComposeState = Pick<AppState,
+  'feedTag' | 'seenVideoIds' | 'seenIds' | 'recycledVideoIds'
+  | 'currentQuestion' | 'dialogueSignals' | 'doneExerciseIds' | 'sessionCount'>;
+
+function buildPage(state: PageComposeState, index: number): PageBuild {
+  // Cycle reset: once fewer than 2 unseen videos remain, begin a fresh cycle so
+  // the "no repeats until all seen" rule holds without ever starving the page.
+  const unseenCount = VIDEO_STORIES.filter(v => !state.seenVideoIds.includes(v.id)).length;
+  const seenVideoBase = unseenCount >= 2 ? state.seenVideoIds : [];
+
+  const res = composePage({
+    videoPool:        VIDEO_STORIES,
+    seenVideoIds:     seenVideoBase,
+    versePool:        milkVersePool(state.feedTag),
+    seenVerseIds:     Array.from(state.seenIds),
+    recycledVideoIds: state.recycledVideoIds,
+    question:         state.currentQuestion,
+    exercise:         pickExercise(state.dialogueSignals, state.doneExerciseIds),
+  }, generateId);
+
+  const page: Page = {
+    id:               generateId(),
+    index,
+    items:            res.items,
+    createdInSession: state.sessionCount,
+    archived:         false,
+  };
+
+  const seenVideoIds = dedupNums([...seenVideoBase, ...res.usedVideoIds]).slice(-400);
+  const seenIds = new Set(state.seenIds);
+  res.usedVerseContentIds.forEach(id => seenIds.add(id));
+  const recycledVideoIds = state.recycledVideoIds.filter(id => !res.consumedRecycledIds.includes(id));
+
+  return { page, seenVideoIds, seenIds, recycledVideoIds };
+}
+
+// Session-scoped, NOT persisted (resets on every app launch → a fresh JS context),
+// exactly like the wait ladder is meant to (FEED-2.0-SPEC §4).
+let nextPageAttempts = 0;
+let homePageShownAt  = 0;   // ms epoch the current home page was first shown
+
 // User-initiated "show me something more substantive" — a preference, not a gate.
 // It still obeys the milk law: it will not jump to RESTORATION unless the person's
 // signals have opened that door. It nudges one honest step (MILK→BRIDGE), and only
@@ -438,6 +516,15 @@ export interface SessionMemory {
 // which opens to the new note.
 export type NoteSource = 'feed' | 'chat' | 'blessing' | 'story' | 'dialogue';
 
+// Feed 2.0 content kinds — drive where a save lands (handoff / SPEC §5):
+// reflections on SCRIPTURE or STORIES → the Journal; interactions with QUESTIONS
+// or INVITATIONS → the Profile (the person's record / faith timeline).
+export type InteractionKind = 'video' | 'verse' | 'story' | 'question' | 'invitation';
+
+export function interactionDest(kind: InteractionKind): 'journal' | 'profile' {
+  return kind === 'question' || kind === 'invitation' ? 'profile' : 'journal';
+}
+
 export interface LearnedNote {
   id:        string;
   source:    NoteSource;
@@ -446,6 +533,14 @@ export interface LearnedNote {
   body:      string;       // the full original text, kept so they can expand and re-read
   timestamp: number;
   pending:   boolean;      // true while the AI summary is still being written
+
+  // ── Feed 2.0 routing / deep-link metadata (optional; older notes lack it) ──
+  kind?:     InteractionKind;          // what was saved
+  dest?:     'journal' | 'profile';    // where it belongs
+  scriptureRef?: string;               // set for verses/videos — the Journal shows this TITLE ONLY
+  // Where the item lives, so a saved verse's title can jump back to that
+  // scripture / scripture+video in the person's past feed pages.
+  pageRef?:  { pageIndex: number; slotId: string };
 }
 
 // ── AI voice (key-safe: the app NEVER holds the Anthropic key) ───────────────
@@ -937,6 +1032,15 @@ interface AppState {
   openedIds:         Set<number>;
   positiveCount:     number;
 
+  // Feed 2.0 — the prescribed pages (page engine). `pages` accumulates: the newest
+  // is HOME, older ones are the re-viewable history behind it. `currentPageIndex`
+  // is which page the wheel is showing.
+  pages:             Page[];
+  currentPageIndex:  number;
+  seenVideoIds:      number[];   // videos already placed (drives no-repeat cycling)
+  recycledVideoIds:  number[];   // skipped verses (by video id) to resurface later
+  honoredVideoIds:   number[];   // every 100%-watched video — the Profile's minimum record
+
   // UI state
   showTalkToSomeone: boolean;
 
@@ -1046,6 +1150,28 @@ interface AppActions {
   // later cold open until they have seen them all.
   markStorySeen:       (id: string) => void;
   markOpened:          (id: number) => void;
+
+  // ── Feed 2.0 page engine ────────────────────────────────────────────────────
+  ensureHomePage:      () => void;                              // create page 0 if none
+  honorPageItem:       (slotId: string, part?: 'video' | 'verse') => void;
+  leaveHomePage:       () => void;                              // scroll-away replacement
+  refreshHomeIfUntouched: () => void;                           // tab-away, honored-nothing → fresh page
+  requestNextPage:     () => number;                            // wait seconds; 0 = ready now
+  commitNextPage:      () => void;                              // build & show the next page
+  goToPage:            (index: number) => void;                 // wheel jump
+  // Jump the wheel to the page holding a saved item (deep link from the Journal).
+  // Returns true if the item was found in a page (else it has since been recycled).
+  openPageRef:         (pageRef: { pageIndex: number; slotId: string }) => boolean;
+  // Save a Feed 2.0 interaction; routes to Journal/Profile by kind and returns
+  // the destination so the caller can navigate there.
+  saveInteraction:     (input: {
+    kind:          InteractionKind;
+    title:         string;
+    scriptureRef?: string;
+    reflection?:   string;
+    pageRef?:      { pageIndex: number; slotId: string };
+  }) => 'journal' | 'profile';
+
   thumbsUp:            (id: number) => void;
   bookmark:            (id: number) => void;
   keepSimple:          () => void;
@@ -1145,6 +1271,11 @@ const initialState: AppState = {
   seenIds:             new Set(),
   openedIds:           new Set(),
   positiveCount:       0,
+  pages:               [],
+  currentPageIndex:    0,
+  seenVideoIds:        [],
+  recycledVideoIds:    [],
+  honoredVideoIds:     [],
   showTalkToSomeone:   false,
   dialogueSignals:     [],
   baseSignals:         [],
@@ -1302,6 +1433,279 @@ export const useAppStore = create<AppState & AppActions>()(
           showTalkToSomeone,
           currentQuestion,
         });
+      },
+
+      // ── Feed 2.0 page engine ──────────────────────────────────────────────────
+
+      ensureHomePage() {
+        const s = get();
+        if (s.pages.length > 0) {
+          if (homePageShownAt === 0) homePageShownAt = Date.now();
+          return;
+        }
+        const built = buildPage(s, 0);
+        set({
+          pages:            [built.page],
+          currentPageIndex: 0,
+          seenVideoIds:     built.seenVideoIds,
+          seenIds:          built.seenIds,
+          recycledVideoIds: built.recycledVideoIds,
+        });
+        homePageShownAt = Date.now();
+      },
+
+      // Honoring (FEED-2.0-SPEC §2): flip the flag for the touched slot. A video
+      // and its paired verse honor SEPARATELY, so `part` selects which half of a
+      // pair was experienced. Every 100%-watched video is also counted on the
+      // Profile record (the spec's minimum guarantee).
+      honorPageItem(slotId, part) {
+        const s = get();
+        let honoredVideoId: number | null = null;
+        const pages = s.pages.map(p => ({
+          ...p,
+          items: p.items.map(it => {
+            if (it.slotId !== slotId) return it;
+            if (it.kind === 'videoPair') {
+              if (part === 'video') {
+                if (!it.videoHonored) honoredVideoId = it.videoId;
+                return { ...it, videoHonored: true };
+              }
+              if (part === 'verse') return { ...it, verseHonored: true };
+              return it;
+            }
+            return { ...it, honored: true };
+          }),
+        }));
+        const honoredVideoIds =
+          honoredVideoId != null && !s.honoredVideoIds.includes(honoredVideoId)
+            ? [...s.honoredVideoIds, honoredVideoId]
+            : s.honoredVideoIds;
+        set({ pages, honoredVideoIds });
+      },
+
+      // Replacement engine (FEED-2.0-SPEC §2): when the user scrolls away from the
+      // home page, honored items slide into the honored-history bucket and their
+      // slots refill instantly with fresh content. Un-honored items DO NOT move.
+      // A video watched but whose verse was skipped: the video moves; the verse
+      // recycles into a later page as a gentle reminder.
+      leaveHomePage() {
+        const s = get();
+        if (s.pages.length === 0) return;
+        const homeIdx = s.pages.length - 1;
+        const home = s.pages[homeIdx];
+        if (home.archived) return; // only the live home page ever refills
+
+        const anyHonored = home.items.some(it =>
+          it.kind === 'videoPair' ? (it.videoHonored || it.verseHonored) : it.honored);
+        if (!anyHonored) return; // ignoring a page and moving on leaves it untouched
+
+        // Working copies so refills never collide with what's already placed.
+        let seenVideoIds = [...s.seenVideoIds];
+        const seenIds    = new Set(s.seenIds);
+        const recycled   = [...s.recycledVideoIds];
+        const onPageVideoIds = new Set(
+          home.items
+            .filter((it): it is VideoPairItem => it.kind === 'videoPair')
+            .map(it => it.videoId));
+
+        const freshVideoPair = (): PageItem => {
+          const used = new Set([...seenVideoIds, ...Array.from(onPageVideoIds)]);
+          let pool = VIDEO_STORIES.filter(v => !used.has(v.id));
+          if (pool.length === 0) pool = VIDEO_STORIES.filter(v => !onPageVideoIds.has(v.id));
+          if (pool.length === 0) pool = VIDEO_STORIES;
+          const v = pool[Math.floor(Math.random() * pool.length)];
+          onPageVideoIds.add(v.id);
+          seenVideoIds = dedupNums([...seenVideoIds, v.id]);
+          return makeVideoPair(v, generateId);
+        };
+        const freshVerse = (): PageItem | null => {
+          const pool = milkVersePool(s.feedTag);
+          const unseen = pool.filter(c => !seenIds.has(c.id));
+          const src = unseen.length > 0 ? unseen : pool;
+          if (src.length === 0) return null;
+          const v = src[Math.floor(Math.random() * src.length)];
+          seenIds.add(v.id);
+          return makeVerseFromContent(v, generateId);
+        };
+        const freshQuestion = (): PageItem | null =>
+          s.currentQuestion ? makeQuestionItem(s.currentQuestion, generateId) : null;
+        const freshInvitation = (): PageItem | null => {
+          const ex = pickExercise(s.dialogueSignals, s.doneExerciseIds);
+          return ex ? makeInvitationItem(ex, generateId) : null;
+        };
+
+        const archived: PageItem[] = [];
+        const stay: PageItem[] = [];
+        for (const it of home.items) {
+          if (it.kind === 'videoPair') {
+            if (it.videoHonored && it.verseHonored) {
+              archived.push(it);
+              stay.push(freshVideoPair());
+            } else if (it.videoHonored && !it.verseHonored) {
+              archived.push({ ...it });
+              if (!recycled.includes(it.videoId)) recycled.push(it.videoId);
+              stay.push(freshVideoPair());
+            } else {
+              // Neither honored, or only the verse honored (the video still needs
+              // watching) → the pair stays put. Un-honored content never moves.
+              stay.push(it);
+            }
+          } else if (isItemHonored(it)) {
+            archived.push(it);
+            const f = it.kind === 'verse' ? freshVerse()
+                    : it.kind === 'question' ? freshQuestion()
+                    : freshInvitation();
+            if (f) stay.push(f);
+          } else {
+            stay.push(it);
+          }
+        }
+        if (archived.length === 0) return;
+
+        const refreshedHome: Page = { ...home, items: stay };
+        const prev = homeIdx > 0 ? s.pages[homeIdx - 1] : null;
+        let pages: Page[];
+        if (prev && prev.honorArchive) {
+          // Append to the existing honored-history bucket — no new wheel dot.
+          const merged: Page = { ...prev, items: [...prev.items, ...archived] };
+          pages = [...s.pages.slice(0, homeIdx - 1), merged, refreshedHome];
+        } else {
+          const bucket: Page = {
+            id:               generateId(),
+            index:            home.index,
+            items:            archived,
+            createdInSession: home.createdInSession,
+            archived:         true,
+            honorArchive:     true,
+          };
+          pages = [...s.pages.slice(0, homeIdx), bucket, refreshedHome];
+        }
+        set({
+          pages,
+          currentPageIndex: pages.length - 1,
+          seenVideoIds,
+          seenIds,
+          recycledVideoIds: recycled,
+        });
+        homePageShownAt = Date.now(); // slots refilled → the time-on-page clock restarts
+      },
+
+      // Tab-away rule (FEED-2.0-SPEC §2): the ONLY auto-refresh case — the user
+      // scrolled the whole home page, honored nothing, and left to another tab.
+      // On return the page is recomposed fresh, in place (no new dot).
+      refreshHomeIfUntouched() {
+        const s = get();
+        if (s.pages.length === 0) return;
+        const homeIdx = s.pages.length - 1;
+        const home = s.pages[homeIdx];
+        if (home.archived) return;            // not currently on the home page
+        if (!pageHasNoHonoring(home)) return; // honored something → keep it (rewarded)
+        const built = buildPage(s, home.index);
+        const pages = s.pages.map((p, i) => (i === homeIdx ? built.page : p));
+        set({
+          pages,
+          seenVideoIds:     built.seenVideoIds,
+          seenIds:          built.seenIds,
+          recycledVideoIds: built.recycledVideoIds,
+        });
+        homePageShownAt = Date.now();
+      },
+
+      // Next-page wait ladder (FEED-2.0-SPEC §4). Returns the honest wait in
+      // seconds; time already spent on the current page is subtracted, so lingering
+      // with the content earns the next page faster. 0 = ready now.
+      requestNextPage() {
+        nextPageAttempts += 1;
+        const ladder  = waitLadderSeconds(nextPageAttempts);
+        const elapsed = homePageShownAt > 0 ? (Date.now() - homePageShownAt) / 1000 : 0;
+        return Math.max(0, Math.ceil(ladder - elapsed));
+      },
+
+      // Build and show the next prescribed page. The old home page becomes a
+      // previous page (a wheel dot) whether or not anything on it was honored —
+      // "one dot per page created, including ignored pages."
+      commitNextPage() {
+        const s = get();
+        if (s.pages.length === 0) { get().ensureHomePage(); return; }
+        const homeIdx = s.pages.length - 1;
+        const marked  = s.pages.map((p, i) => (i === homeIdx ? { ...p, archived: true } : p));
+        const built   = buildPage(s, s.pages[homeIdx].index + 1);
+        const pages   = [...marked, built.page];
+        set({
+          pages,
+          currentPageIndex: pages.length - 1,
+          seenVideoIds:     built.seenVideoIds,
+          seenIds:          built.seenIds,
+          recycledVideoIds: built.recycledVideoIds,
+        });
+        homePageShownAt = Date.now();
+      },
+
+      goToPage(index) {
+        const s = get();
+        const clamped = Math.max(0, Math.min(index, s.pages.length - 1));
+        set({ currentPageIndex: clamped });
+        if (clamped === s.pages.length - 1) homePageShownAt = Date.now();
+      },
+
+      openPageRef(pageRef) {
+        const s = get();
+        // Find the page that actually still holds the saved slot (it may have moved
+        // into the honored-history bucket since it was saved).
+        let arrIdx = s.pages.findIndex(p => p.items.some(it => it.slotId === pageRef.slotId));
+        if (arrIdx < 0) arrIdx = s.pages.findIndex(p => p.index === pageRef.pageIndex);
+        if (arrIdx < 0) return false;
+        set({ currentPageIndex: arrIdx });
+        if (arrIdx === s.pages.length - 1) homePageShownAt = Date.now();
+        return true;
+      },
+
+      saveInteraction({ kind, title, scriptureRef, reflection, pageRef }) {
+        const dest = interactionDest(kind);
+        // Map the content kind onto the note-summary voice's source framing.
+        const source: NoteSource =
+          kind === 'question' || kind === 'invitation' ? 'dialogue'
+          : kind === 'verse' ? 'feed' : 'story';
+
+        const body = (reflection ?? '').trim();
+        // A saved verse is title-only in the Journal (its ref); a reflection keeps
+        // the person's own words as the body.
+        const noteTitle = (title ?? '').trim() || scriptureRef || 'A note to keep';
+        const id = generateId();
+        const note: LearnedNote = {
+          id,
+          source,
+          title:        noteTitle,
+          summary:      body ? excerptFallback(body) : (scriptureRef ?? noteTitle),
+          body,
+          timestamp:    Date.now(),
+          pending:      !!body,   // only reflections get an AI summary written
+          kind,
+          dest,
+          scriptureRef,
+          pageRef,
+        };
+
+        set(s => ({
+          learnedNotes:  [note, ...s.learnedNotes].slice(0, 200),
+          // Only the Journal auto-opens to a fresh note; Profile-bound records
+          // are read on the Profile timeline, not popped open.
+          pendingNoteId: dest === 'journal' ? id : s.pendingNoteId,
+        }));
+
+        // Write the "what you can take from this" clip in the background for
+        // reflections; a bare saved verse needs no summary.
+        if (body) {
+          generateNoteSummary(source, noteTitle, body).then(summary => {
+            set(s => ({
+              learnedNotes: s.learnedNotes.map(n =>
+                n.id === id ? { ...n, summary: summary || n.summary, pending: false } : n,
+              ),
+            }));
+          });
+        }
+
+        return dest;
       },
 
       thumbsUp(id) {
@@ -2819,6 +3223,11 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
         seenIds:             Array.from(state.seenIds),    // Set → array for JSON
         openedIds:           Array.from(state.openedIds),  // Set → array for JSON
         positiveCount:       state.positiveCount,
+        pages:               state.pages,
+        currentPageIndex:    state.currentPageIndex,
+        seenVideoIds:        state.seenVideoIds,
+        recycledVideoIds:    state.recycledVideoIds,
+        honoredVideoIds:     state.honoredVideoIds,
         showTalkToSomeone:   state.showTalkToSomeone,
         dialogueSignals:     state.dialogueSignals,
         baseSignals:         state.baseSignals,

@@ -15,9 +15,11 @@ import { colors, spacing } from '../theme';
 
 interface Props {
   exercise: SpiritualExercise;
+  /** Fired when the invitation is acted on (accepted OR passed) — honors the slot. */
+  onResolved?: () => void;
 }
 
-export default function InvitationCard({ exercise }: Props) {
+export default function InvitationCard({ exercise, onResolved }: Props) {
   const acceptExercise = useAppStore(s => s.acceptExercise);
   const passExercise   = useAppStore(s => s.passExercise);
 
@@ -27,10 +29,10 @@ export default function InvitationCard({ exercise }: Props) {
       <Text style={styles.body}>{exercise.text}</Text>
       <Text style={styles.ref}>{exercise.ref}</Text>
       <View style={styles.actions}>
-        <TouchableOpacity style={styles.acceptBtn} activeOpacity={0.85} onPress={() => acceptExercise(exercise)}>
+        <TouchableOpacity style={styles.acceptBtn} activeOpacity={0.85} onPress={() => { acceptExercise(exercise); onResolved?.(); }}>
           <Text style={styles.acceptText}>I'll try it</Text>
         </TouchableOpacity>
-        <TouchableOpacity activeOpacity={0.7} onPress={() => passExercise(exercise)}>
+        <TouchableOpacity activeOpacity={0.7} onPress={() => { passExercise(exercise); onResolved?.(); }}>
           <Text style={styles.passText}>Not this time</Text>
         </TouchableOpacity>
       </View>

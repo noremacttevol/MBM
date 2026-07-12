@@ -45,7 +45,8 @@
         }
       ],
       "./plugins/withShortAppName.js",
-      "./plugins/withAdiRegistration.js"
+      "./plugins/withAdiRegistration.js",
+      "expo-video"
     ],
     "owner": "milkb4meat",
     "extra": {

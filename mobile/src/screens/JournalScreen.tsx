@@ -42,9 +42,13 @@ export default function JournalScreen() {
   const answeredPromptIds = useAppStore(s => s.answeredPromptIds);
   const addJournalEntry  = useAppStore(s => s.addJournalEntry);
 
-  const learnedNotes     = useAppStore(s => s.learnedNotes);
+  const allLearnedNotes  = useAppStore(s => s.learnedNotes);
+  // Feed 2.0: reflections on scripture/stories live here; question/invitation
+  // records live on the Profile. Legacy notes (no dest) stay in the Journal.
+  const learnedNotes     = allLearnedNotes.filter(n => n.dest !== 'profile');
   const pendingNoteId    = useAppStore(s => s.pendingNoteId);
   const clearPendingNote = useAppStore(s => s.clearPendingNote);
+  const openPageRef      = useAppStore(s => s.openPageRef);
   const prefillChat      = useAppStore(s => s.prefillChat);
   const deleteNote       = useAppStore(s => s.deleteNote);
   const deleteJournalEntry = useAppStore(s => s.deleteJournalEntry);
@@ -373,6 +377,16 @@ export default function JournalScreen() {
                         {note.summary}
                         {note.pending ? '  ·  summarizing…' : ''}
                       </Text>
+
+                      {/* A saved verse links back to where it lives in the feed. */}
+                      {note.kind === 'verse' && note.pageRef && (
+                        <TouchableOpacity
+                          activeOpacity={0.7}
+                          onPress={() => { openPageRef(note.pageRef!); navigation.navigate('Feed'); }}
+                        >
+                          <Text style={styles.talkLink}>Open where this lives →</Text>
+                        </TouchableOpacity>
+                      )}
 
                       {open && note.body && note.body !== note.summary && (
                         <View style={styles.noteBodyBox}>

@@ -112,6 +112,10 @@ export default function ProfileScreen() {
   const aiConsent           = useAppStore(s => s.aiConsent);
   const grantAIConsent      = useAppStore(s => s.grantAIConsent);
   const declineAIConsent    = useAppStore(s => s.declineAIConsent);
+  const honoredVideoIds     = useAppStore(s => s.honoredVideoIds);
+  const learnedNotes        = useAppStore(s => s.learnedNotes);
+  // Question/invitation saves route here (Feed 2.0); scripture/story saves stay in the Journal.
+  const profileRecords      = learnedNotes.filter(n => n.dest === 'profile');
 
   const navigation = useNavigation<any>();
 
@@ -474,6 +478,30 @@ export default function ProfileScreen() {
                     </View>
                   </>
                 )}
+              </View>
+            ))}
+          </View>
+        )}
+
+        {/* ── Feed 2.0: videos watched + kept questions/invitations ──────────
+            Every 100%-watched story is at least counted here (the spec's minimum
+            guarantee), and anything saved from a question or an invitation lands
+            on this record rather than the Journal. */}
+        {(honoredVideoIds.length > 0 || profileRecords.length > 0) && (
+          <View style={styles.card}>
+            <Text style={styles.sectionLabel}>YOUR RECORD</Text>
+            {honoredVideoIds.length > 0 && (
+              <Text style={styles.sectionNote}>
+                Stories watched all the way through: {honoredVideoIds.length}.
+              </Text>
+            )}
+            {profileRecords.map(n => (
+              <View key={n.id} style={styles.momentRow}>
+                <View style={styles.momentHead}>
+                  <Text style={[styles.momentTitle, { flex: 1 }]}>{n.title}</Text>
+                  <Text style={styles.momentDate}>{fmtDate(n.timestamp)}</Text>
+                </View>
+                {n.body ? <Text style={styles.momentDetail}>{n.body}</Text> : null}
               </View>
             ))}
           </View>

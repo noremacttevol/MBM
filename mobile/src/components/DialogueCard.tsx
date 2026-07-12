@@ -15,9 +15,11 @@ import { colors, spacing, radius } from '../theme';
 
 interface Props {
   question: DialogueQuestion;
+  /** Fired after the question is answered — lets the feed honor its page slot. */
+  onAnswered?: () => void;
 }
 
-export default function DialogueCard({ question }: Props) {
+export default function DialogueCard({ question, onAnswered }: Props) {
   const answerQuestion = useAppStore(s => s.answerQuestion);
 
   const [answered,    setAnswered]    = useState(false);
@@ -40,6 +42,7 @@ export default function DialogueCard({ question }: Props) {
     setSelected(value);
     setAnswered(true);
     answerQuestion(question.id, value, text);
+    onAnswered?.();
 
     // Fade the question out, fade the thanks in
     Animated.sequence([
