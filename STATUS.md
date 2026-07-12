@@ -82,10 +82,10 @@ table above.)*
 
 ## ⬜ TO DO — Wave One not started yet
 
-| # | Story | File name |
-|---|-------|-----------|
-| 19 | Breakfast on the Shore (John 21) | john-21_shore |
-| 20 | Good Samaritan (Luke 10) | luke-10_samaritan |
+| # | Story | File name | Note |
+|---|-------|-----------|------|
+| 19 | Breakfast on the Shore (John 21) | john-21_shore | **CLAIMED — Machine C, building now** (stills-only, face-never; Peter restored at the charcoal fire) |
+| 20 | Good Samaritan (Luke 10) | luke-10_samaritan | unclaimed |
 
 After Wave One (1–20), the full 200-story plan and each machine's ranked queue
 live in [`media-production/VIDEO-ASSIGNMENTS.md`](media-production/VIDEO-ASSIGNMENTS.md).
