@@ -50,6 +50,7 @@ muted light, a single warm gleam on her face. One single continuous scene painte
 edge to edge.
 
 ## s2-widow-pleads — Shot 2: give me justice against mine adversary
+REF: s1-widow-alone
 [STILL STYLE BLOCK] Inside a cold, grand judgment hall of pale stone pillars. The
 poor widow in her charcoal-grey shawl stands small before a raised carved
 judgment seat, both hands lifted in earnest pleading. On the seat sits the richly
@@ -59,6 +60,7 @@ gulf between her poverty and his power fills the room. Shafts of hard daylight.
 One single continuous scene painted edge to edge.
 
 ## s3-judge-dismisses — Shot 3: for a while he would not
+REF: s1-widow-alone, s2-widow-pleads
 [STILL STYLE BLOCK] The same judgment hall. The richly dressed judge in his
 deep-maroon gold-sashed robe waves the widow away with one hand, turning his
 proud face aside in cold dismissal, already reaching for other matters. His
@@ -67,14 +69,21 @@ unheard. Hard, indifferent light, the judge's bored contempt plain on his face.
 One single continuous scene painted edge to edge.
 
 ## s4-again-and-again — Shot 4: by her continual coming
-[STILL STYLE BLOCK] A worn stone doorway of the courthouse seen across several
-overlapping moments of the same day-after-day: the grey-shawled widow arriving
-again at the threshold, the same weary steady face, the same lifted plea, her
-two hands raised. Faint repeated impressions of her figure suggest she has come
-many times and will come again — persistence without end. Dawn-grey light warming
-slightly. One single continuous scene painted edge to edge.
+REF: s1-widow-alone
+[STILL STYLE BLOCK] EXACTLY ONE widow — one single woman, and only her — stands
+once more at the worn stone threshold of the courthouse doorway. She is the same
+widow: the same lined, steady face, the same dark charcoal-grey mourning shawl over
+the same faded dusty-blue robe. Her two hands are lifted in the same patient plea,
+her sandals and hem grey with road dust. The stone step beneath her feet is hollowed
+and polished smooth from how many times she has stood on it. Beside the door one
+bored guard leans on his spear, looking away down the street, so used to her by now
+that he no longer even turns his head. The light is the pale grey of yet another
+early morning. Her persistence is told by the worn stone and the tired guard, not by
+any crowd — she is the only woman in the picture. One single continuous scene
+painted edge to edge.
 
 ## s5-judge-relents — Shot 5: lest by her continual coming she weary me
+REF: s1-widow-alone, s2-widow-pleads
 [STILL STYLE BLOCK] The judgment hall again. The richly dressed judge in his
 deep-maroon gold-sashed robe slumps back on his carved seat, one hand pressed
 wearily to his brow, worn down at last, grudgingly waving the widow forward to
@@ -92,6 +101,7 @@ not ignored. Tender, radiant, unhurried light, utterly unlike the cold hall. One
 single continuous scene painted edge to edge.
 
 ## s7-the-good-father — Shot 7: he is nothing like that judge
+REF: s6-praying-heard
 [STILL STYLE BLOCK] A warm golden dawn breaking wide over the quiet rooftops of a
 first-century town, gentle light spilling across the whole scene, a single open
 window glowing with welcome. The same humble young man in his plain undyed tunic

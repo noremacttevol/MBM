@@ -1,3 +1,38 @@
+## 2026-07-13 — Machine A (Dev) — Video #38 built; Flow browser burst replaced by the Gemini image API
+
+**What changed:** the picture step no longer needs Google Flow in Chrome. `media-production/gen_stills.py`
+generates a build's stills through the official Gemini image API (gemini-3-pro-image, 9:16, 2K), so the whole
+pipeline finally runs headless — no browser, no stolen mouse (Law C), no captcha, no cookies handed to a
+third party. useapi.net was investigated and rejected: it wants Cameron's Google login cookies and their own
+docs warn against using the account that carries his subscription.
+
+**The style block did NOT change** (§2 / §5b ban #2 hold). Instead every generation is conditioned on an
+approved still from a delivered video (build-20 samaritan s4) — the "style anchor" §2 always called for.
+Without it Gemini drifts cold and paints a cream paper border around the picture.
+
+**New: the character lock.** A shot in PROMPTS.md can name earlier shots as references with a `REF:` line.
+Words alone did not hold wardrobe — across seven shots the widow's shawl came back charcoal, grey-green,
+pale grey, then blue-grey. Feeding her approved still forward fixed it. Use `REF:` in every build from now on
+for any character who appears in more than one shot.
+
+**#38 The Persistent Widow (Luke 18) — BUILT, awaiting Cameron's yes.**
+`luke-18_persistent-widow.mp4` — 19.6 MB, 2:38, 1080x1920, -15 LUFS.
+- Face gate: PASS (parable — no Jesus figure in any shot, only his narrating KJV voice).
+- Ear-check: all 11 segments >= 0.96 against the script.
+- Silence scan: no gap over 2.5s in the spoken body.
+- Two QC rejections caught and fixed BEFORE Cameron saw it (Self-Revision Law): s4 first came back as a
+  crowd of five ghost widows (the story says she is alone) — rerolled so persistence reads from a stone step
+  worn hollow and a guard too used to her to look up; and the widow's wardrobe drifted in every shot — fixed
+  with the character lock.
+
+**Spend:** 12 images x $0.134 = **$1.61** (Gemini API, not Flow credits). Est. ~$1.60/video => ~$260 for the
+remaining 162. This is what makes the $200/mo AI Ultra plan cancellable once Cameron approves the look.
+
+**Also new:** `media-production/run_queue.sh` — the unattended driver. One video per FRESH headless
+`claude -p` session (never a batch; the bible's own "one video to one chat" rule), permissions pre-approved,
+claims by push before generating, waits out rate limits and auto-resumes, and STOPS at a checkpoint after
+#38 until Cameron approves. Not yet run end to end — that is the next step, after his yes.
+
 # MBM SESSION LOG — the never-ending chain link
 
 **This is the running record of every work session on MBM. Newest entry is at the TOP.**

@@ -1,0 +1,11 @@
+{
+  "model": "gemini-3-pro-image",
+  "generated": [
+    "s7-the-good-father"
+  ],
+  "failed": [],
+  "images": 12,
+  "usd": 1.61,
+  "note": "7 initial + 5 regenerated with character lock (widow wardrobe drift, s4 ghost-crowd reroll)",
+  "output": "assets/*.jpeg"
+}
