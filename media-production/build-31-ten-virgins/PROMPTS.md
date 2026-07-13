@@ -59,9 +59,14 @@ gentle. [ANTI-PANEL CLAUSE]
 
 ## s3 — Shot 3: the bridegroom tarries, all sleep
 [STILL STYLE BLOCK] Deep night under a sky full of stars. All ten young women have
-grown drowsy waiting and are curled asleep along a low stone wall of the courtyard,
-their small clay lamps set on the ground beside them glowing low and warm. Peaceful,
+grown drowsy waiting and are curled asleep along a low stone wall of the courtyard.
+Their small clay hand oil-lamps are ALL set down on the ground, resting on the
+stone-paved floor on the pavement beside the sleeping women, glowing low and warm.
+The stone wall is completely bare — there are NO lamps on the wall, NO lamps
+mounted or hung on the wall; every single lamp sits flat on the ground. Peaceful,
 hushed, the hour very late. The bridegroom has not yet come. [ANTI-PANEL CLAUSE]
+(FIX 2026-07-13: the earlier render stuck three lamps onto the vertical wall,
+which read wrong — all lamps must rest on the ground.)
 
 ## s4 — Shot 4: midnight — the cry, the distant arrival
 [STILL STYLE BLOCK] Deep midnight. Far down the dark village road, a distant torch-

@@ -42,11 +42,15 @@ thoughtful and searching. One single continuous scene painted edge to edge,
 
 ## s2-searching — Shot 2: he had seen many, but not THE one
 [STILL STYLE BLOCK] At a trader's cloth-draped table spread with trays of good
-pearls, the same teal-robed merchant sets a handful of fine pearls back down,
-unsatisfied, his brow gently furrowed — none of them is the one he is looking
-for. Warm market light, small brass scales beside the trays, the sea beyond.
-Still seeking. His face is patient but unfulfilled. One single continuous scene
-painted edge to edge, 9:16 vertical.
+pearls, the same middle-aged teal-robed merchant sets a handful of fine pearls
+back down with his right hand, unsatisfied, his brow gently furrowed — none of
+them is the one he is looking for. BOTH of his hands are clearly and fully shown,
+each with all five fingers: his right hand over the pearl tray, and his LEFT hand
+resting plainly on the wooden edge of the table. Warm market light, small brass
+scales beside the trays, the sea beyond. Still seeking. His face is patient but
+unfulfilled. One single continuous scene painted edge to edge, 9:16 vertical.
+(FIX 2026-07-13: the earlier render left his left sleeve ending with no hand;
+this restage makes both hands explicit.)
 
 ## s3-the-pearl — Shot 3: he found one pearl of great price
 [STILL STYLE BLOCK] The same merchant, alone now in a quiet corner of the market

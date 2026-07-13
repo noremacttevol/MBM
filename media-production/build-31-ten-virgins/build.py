@@ -2,13 +2,21 @@
 """Assemble Story Video #31 — The Ten Virgins (Matthew 25:1-13).
 Phase-1 STILLS-ONLY + Face Law. Parable; bridegroom only distant/from-behind.
 Windows build. Timeline computed from measured narration durations."""
-import os, subprocess
-FF = ("C:/Users/ellil/AppData/Local/Microsoft/WinGet/Packages/"
-      "Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      "ffmpeg-8.1.2-full_build/bin/ffmpeg.exe")
+import os, shutil, subprocess
+# Cross-platform: use Elli's Windows ffmpeg/Georgia if present, else the Linux
+# ffmpeg on PATH + the serif fonts the other Linux builds use. (2026-07-13:
+# added so this can be rebuilt on the Linux dev box for the s3 lamp fix.)
+_WIN_FF = ("C:/Users/ellil/AppData/Local/Microsoft/WinGet/Packages/"
+           "Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+           "ffmpeg-8.1.2-full_build/bin/ffmpeg.exe")
+FF = _WIN_FF if os.path.exists(_WIN_FF) else (shutil.which("ffmpeg") or "ffmpeg")
 A, S, FPS = "assets", "segs", 30
-SERIF = "C\\:/Windows/Fonts/georgia.ttf"
-SERIF_BI = "C\\:/Windows/Fonts/georgiai.ttf"
+if os.path.exists("C:/Windows/Fonts/georgia.ttf"):
+    SERIF = "C\\:/Windows/Fonts/georgia.ttf"
+    SERIF_BI = "C\\:/Windows/Fonts/georgiai.ttf"
+else:
+    SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
+    SERIF_BI = "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"
 CREAM, INK = "0xF7F2E9", "0x3B2A1E"
 ENC = ["-c:v","libx264","-preset","medium","-crf","16","-pix_fmt","yuv420p","-r",str(FPS),"-an"]
 
