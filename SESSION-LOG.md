@@ -1,3 +1,50 @@
+## 2026-07-13 — Machine "Dev" — Video #39 The Pharisee and the Publican (Luke 18) BUILT
+
+**Commit:** 5054d7e
+
+**Delivered:** `media-production/build-39-the-pharisee-and-the-publican/luke-18_pharisee-and-publican.mp4`
+— 4:33, 20.8 MB, 1080x1920. 14 painted stills (gemini-3-pro-image, 2K), two-voice narration,
+verbatim serif captions, KJV in cream italic, closing question card. **Stills-only (Law E).**
+Cost: 17 images x $0.134 = **$2.28** (14 kept, 3 regenerated on QC).
+
+**Status: waiting on Cameron's yes.** Queue row 39: Prep ✅ Built ✅.
+
+**The story, told whole (v9–v14):** who he told it to and why (the men who trusted in
+themselves), both men going UP to the temple, why the Pharisee was genuinely admired (the law
+asked one fast a year; he fasted twice a week), why the publican was genuinely hated (a
+traitor with a money box), both prayers, the verdict, and the invitation — he told it to the
+good men not to shame them but to let them in too. Two sacred silences: the music dies to
+true silence for "God be merciful to me a sinner" AND again for the verdict.
+
+**Face law:** gate passed first run. Jesus is in only two shots (s1, s9), both with the camera
+directly behind him — same long dark hair, same cream wool robe, no glow. Audited in the
+finished render: his face is not visible in any frame at any zoom.
+
+**Five defects the self-revision loop caught — Cameron saw none of them:**
+1. **Dead air after BOTH KJV lines** (2.76s / 2.73s, over the 2.5s law). The TTS files carry a
+   silent tail (~1.3s on the Jesus voice) and the build was timing beats off the FILE end, so
+   the tail was being counted as speech. Every beat is now timed off the SPOKEN end, and the
+   build hard-fails on any gap over 2.5s.
+2. **A painted teardrop on the publican's cheek** — a No-Fake-Tears violation.
+3. **s2 read backwards** — the men appeared to walk DOWN the temple steps while the narration
+   says they went UP, which would also have killed the contrast with s10 (going down justified).
+4. **Wardrobe drift in s7** — a `REF:` character lock pins the face, not the clothes.
+5. **An extra hand fused to one wrist** in s5b.
+
+**A sixth was in my own QC tooling and is the one worth remembering:** `ffmpeg -v error`
+suppresses `silencedetect`/`volumedetect`, which log at INFO — so my first silence scan printed
+nothing, which looks exactly like a clean pass. That false pass was hiding defect 1. **A QC
+tool that reports nothing is presumed broken, not passing.** Now written into the Bible.
+
+**Bible updated** (§4b + §5b): 3 new pre-flight checks (prove the QC tool can still fail;
+enforce spoken-end timing in code; caption box must scale with the story's light — daylight
+stories need black@0.58, the 0.40 was tuned on night stories) and 2 prompt-failure entries
+(REF locks don't pin wardrobe; if every image 429s with `limit: 0`, suspect the MODEL, not the
+key — `gemini-2.5-flash-image` is a preview model the tier doesn't carry, `gemini-3-pro-image`
+is the committed default and works).
+
+---
+
 ## 2026-07-13 — Machine A (Dev) — Video #38 built; Flow browser burst replaced by the Gemini image API
 
 **What changed:** the picture step no longer needs Google Flow in Chrome. `media-production/gen_stills.py`
