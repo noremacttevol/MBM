@@ -104,7 +104,7 @@ sheet ready) · **Built** (final mp4 exists) · **Appr** (Cameron approved) ·
 | 36 | The shrewd steward | Luke 16 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
 | 37 | The rich man and Lazarus | Luke 16 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
 | 38 | The persistent widow | Luke 18 | ✅ | ✅ | ⬜ | ⬜ | built Dev 2026-07-13 — awaiting your yes |
-| 39 | The Pharisee and the publican | Luke 18 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 39 | The Pharisee and the publican | Luke 18 | ✅ | 🔨 | ⬜ | ⬜ | CLAIMED Dev 2026-07-13 — building |
 | 40 | The friend at midnight | Luke 11 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 41 | Counting the cost | Luke 14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 42 | The barren fig tree spared | Luke 13 | ⬜ | ⬜ | ⬜ | ⬜ |  |
