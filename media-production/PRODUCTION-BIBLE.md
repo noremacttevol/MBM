@@ -270,6 +270,20 @@ words. Nothing here overrides the sacred pause before Jesus's KJV words.
   - **NO glow, halo, or rim-light.**
   Treat this like the wardrobe-lock law, but project-wide: the same Jesus, painted the
   same way, across all 200 videos.
+- **THE CREAM ROBE BELONGS TO JESUS ALONE (Cameron's pipeline, 2026-07-13 — video #40,
+  caught before delivery).** The Jesus Look Standard identifies him by ONE signature: long
+  dark hair past the shoulders + a plain undyed off-white/cream wool robe. That signature
+  only works if nobody else wears it. In #40 s1 the prompt correctly dressed the disciples
+  in "oatmeal, dun and faded brown" — but the model painted the disciple stepping forward
+  in CREAM, bearded, centered, hand open in a teaching posture. That is the Jesus silhouette,
+  and a viewer glancing at the frame reads HIM as Jesus and believes he is seeing the Lord's
+  face. The face law is not satisfied by a technicality; its whole purpose is that no viewer
+  is ever pulled onto a constructed face of Christ. So: **every prompt must dress all other
+  characters in colors that are NOT off-white / cream / undyed white** — oatmeal, dun, brown,
+  ochre, grey, blue, maroon, olive are all fine. State the other characters' colors
+  positively and explicitly in every prompt where Jesus also appears, and QC every frame by
+  asking: "could anyone in this picture be mistaken for him?" If yes, regenerate.
+
 - **Hide the face by the CAMERA ANGLE, never by light.** The camera sits BEHIND him,
   OVER his shoulder (the reliable default: camera behind him, the people filling the
   frame looking past the camera straight at him), or at true DISTANCE (a far figure
