@@ -39,11 +39,17 @@ only light is cool moonlight. Quiet, reverent, solitary.
 
 ## s3-figure-on-water (STILL) — the distant figure on the sea
 [STYLE BLOCK] The stormy night sea, tall dark waves, a thin crescent moon breaking
-through torn clouds. FAR across the water, at true distance, a lone man's dark
-silhouette walks upon the surface toward the viewer's boat — small and far off, a real
-robed figure lit only by pale moonlight on the water, his face far too distant to see.
-No glow, no halo, no light emanating from the figure. In the near foreground, the dark
-prow and rope of the disciples' wooden boat.
+through torn clouds. FAR across the water, at true distance, a lone REAL first-century
+Middle-Eastern man with warm tan olive-brown skin and a short dark beard, in an undyed
+cream wool robe, walks upon the surface toward the viewer's boat. He is softly lit by
+the pale moonlight on the water so he clearly reads as an ordinary robed MAN — he is
+NOT a black silhouette, NOT a dark shadowy hooded void, NOT a specter. He is small and
+far off, so his face is naturally soft and indistinct simply because of the distance —
+nothing is covering or hiding it, he is just too far away to make out. No glow, no
+halo, no light emanating from his body. In the near foreground, the dark prow and rope
+of the disciples' wooden boat. (FIX 2026-07-13: the earlier render made him a solid
+black silhouette that looked ominous/wrong; he must read as a distant moonlit man,
+like the figure in s5-walk-anchor.)
 
 ## s5-walk-anchor (STILL — replaces the walking clip) — over Peter's shoulder
 [STYLE BLOCK] OVER-THE-SHOULDER from close BEHIND [PETER LOCK], camera at his back so we

@@ -18,9 +18,14 @@ the peak. Windows: ffmpeg full path, Georgia fonts, UTF-8 captions.
 Output: matthew-14_peter-walks-on-water.mp4, 1080x1920, <25MB, 256.0s.
 """
 import os
+import shutil
 import subprocess
 
-FF = "/home/cameron-lovett/MBM/media-production/bin/ffmpeg"
+# portable ffmpeg: the checked-in bin/ffmpeg on Cameron's box if present, else
+# ffmpeg on PATH (2026-07-13: added so this rebuilds on any dev box for the s3
+# black-void→moonlit-man fix).
+_BIN_FF = "/home/cameron-lovett/MBM/media-production/bin/ffmpeg"
+FF = _BIN_FF if os.path.exists(_BIN_FF) else (shutil.which("ffmpeg") or "ffmpeg")
 A, S, FPS = "assets", "segs", 30
 SERIF = "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf"
 SERIF_BI = "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"
