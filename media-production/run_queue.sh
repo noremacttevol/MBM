@@ -57,12 +57,18 @@ q_field() { awk -F'|' -v n="$1" -v f="$2" '
   /^\| *[0-9]+ *\|/ { num=$2; gsub(/[^0-9]/,"",num);
     if (num==n) { v=$f; gsub(/^[ \t]+|[ \t]+$/,"",v); print v; exit } }' "$QUEUE"; }
 
-# next job = lowest row where Built is ⬜ and Claim is empty
+# next job = lowest row where Built is ⬜ and nobody has CLAIMED it.
+#
+# NOTE: the Claim column is not only used for claims. Rows 181-200 carry the
+# delivery note "§IX post-signal" (the Restoration track — produced like any
+# other video, but never SURFACED to a viewer until the milk-before-meat signals
+# fire, per the BOM law). Treating any non-empty Claim as "owned" made the driver
+# skip all 20 of them and stop at #180 while reporting success. A row is only
+# claimed if it actually says CLAIMED.
 next_open() { awk -F'|' '
   /^\| *[0-9]+ *\|/ { num=$2; built=$6; claim=$9;
     gsub(/[^0-9]/,"",num); gsub(/[ \t]/,"",built);
-    gsub(/^[ \t]+|[ \t]+$/,"",claim);
-    if (built=="⬜" && claim=="") { print num; exit } }' "$QUEUE"; }
+    if (built=="⬜" && claim !~ /CLAIMED/) { print num; exit } }' "$QUEUE"; }
 
 progress() {
   local built done_ total
@@ -82,7 +88,7 @@ if [ "$STATUS" -eq 1 ]; then
   echo "MBM queue: $(progress) built"
   awk -F'|' '/^\| *[0-9]+ *\|/ { n=$2; b=$6; c=$9;
       gsub(/[^0-9]/,"",n); gsub(/[ \t]/,"",b); gsub(/^[ \t]+|[ \t]+$/,"",c);
-      if (b!="✅" && c!="") printf "  in flight: #%s — %s\n", n, c }' "$QUEUE"
+      if (b!="✅" && c ~ /CLAIMED/) printf "  in flight: #%s — %s\n", n, c }' "$QUEUE"
   echo "  next open: #$(next_open)"
   exit 0
 fi
@@ -96,7 +102,7 @@ if [ "$DRY_RUN" -eq 1 ]; then
       gsub(/^[ \t]+|[ \t]+$/,"",s); gsub(/^[ \t]+|[ \t]+$/,"",r); gsub(/^[ \t]+|[ \t]+$/,"",c);
       if (n+0 > to+0) exit;
       if (from != "" && n+0 < from+0) next;
-      if (b=="⬜" && c=="") printf "  #%s — %s (%s)\n", n, s, r }' "$QUEUE"
+      if (b=="⬜" && c !~ /CLAIMED/) printf "  #%s — %s (%s)\n", n, s, r }' "$QUEUE"
   exit 0
 fi
 
