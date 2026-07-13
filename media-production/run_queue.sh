@@ -155,7 +155,13 @@ BUILD STEPS:
     Export 9:16 1080x1920 H.264 under 25MB, named book-chapter_story-name.mp4.
  8. Run the full Self-Revision QC loop until a clean pass finds nothing.
  9. Tick Prep and Built in media-production/QUEUE.md for row $num.
-10. Commit and push everything to origin main. Cameron never touches git.
+10. PUBLISH IT TO THE GALLERY — this is how Cameron actually watches videos. Add
+    this story's title to the TITLES map in media-production/gen_site_index.py,
+    then run: python3 media-production/gen_site_index.py
+    That rebuilds the repo-root index.html served at
+    https://noremacttevol.github.io/MBM/ . A video that is not in that gallery is
+    invisible to Cameron no matter how good it is.
+11. Commit and push everything to origin main. Cameron never touches git.
 
 You are unattended. Do NOT ask for permission, do NOT stop to check in, do NOT wait
 for a go. Cameron has already said go. Run to completion (Law D/F). The only reason
