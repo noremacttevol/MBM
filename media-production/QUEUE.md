@@ -40,7 +40,8 @@ and posts them). Knock these out anytime:
 **#16 Mary & Martha · #18 Emmaus · #19 Shore · #22 Unmerciful Servant · #24 Sower ·
 #26 Mustard Seed · #27 Leaven · #28 Hidden Treasure · #29 Pearl · #30 Net ·
 #31 Ten Virgins · #32 Talents · #33 Sheep & Goats · #34 Rich Fool ·
-#35 Great Banquet · #36 Shrewd Steward · #37 Rich Man & Lazarus**
+#35 Great Banquet · #36 Shrewd Steward · #37 Rich Man & Lazarus · #38 Persistent Widow ·
+**#39 The Pharisee & the Publican**
 
 Watch links are in [`STATUS.md`](../STATUS.md).
 
@@ -104,7 +105,7 @@ sheet ready) · **Built** (final mp4 exists) · **Appr** (Cameron approved) ·
 | 36 | The shrewd steward | Luke 16 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
 | 37 | The rich man and Lazarus | Luke 16 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
 | 38 | The persistent widow | Luke 18 | ✅ | ✅ | ⬜ | ⬜ | built Dev 2026-07-13 — awaiting your yes |
-| 39 | The Pharisee and the publican | Luke 18 | ✅ | 🔨 | ⬜ | ⬜ | CLAIMED Dev 2026-07-13 — building |
+| 39 | The Pharisee and the publican | Luke 18 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
 | 40 | The friend at midnight | Luke 11 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 41 | Counting the cost | Luke 14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 42 | The barren fig tree spared | Luke 13 | ⬜ | ⬜ | ⬜ | ⬜ |  |

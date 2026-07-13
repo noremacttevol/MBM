@@ -589,6 +589,29 @@ made by ai, it glitches" — every one of these was a real, found defect):**
       (natural slow beating) through a soft room echo. And no long bone-dry
       stretches unless sacred quiet IS the point of that moment.
 
+**Found by the self-revision loop on video #39 (added 2026-07-13) — three checks
+that were missing, each one a real defect that reached the built video:**
+- [ ] 🛑 PROVE THE QC TOOL CAN STILL FAIL. `silencedetect`, `volumedetect` and
+      `ebur128` all log at ffmpeg's INFO level, so running them with
+      `ffmpeg -v error` prints NOTHING — which reads exactly like a clean pass.
+      On #39 that false pass hid two real dead-air violations. NEVER trust a QC
+      command that returns no output until you have proven it can still report
+      something (loosen the threshold and watch it fire). A silent checker is
+      presumed broken, not passing.
+- [ ] TIMING OFF THE SPOKEN END, ENFORCED IN CODE. The rule above (2026-07-08,
+      video #2) was on the list and still got missed, because build.py measured
+      `dur_of(mp3)` — the FILE end. The TTS tail is ~0.45s on the narrator but
+      ~1.3s on the Jesus voice, so both KJV pauses silently grew past the 2.5s
+      law. Don't just measure the tail — make the build FAIL on a >2.5s spoken
+      gap so it cannot ship. (build-39/build.py `spoken_of()` is the pattern to
+      copy: trim trailing silence with `areverse,silenceremove,areverse`, time
+      every beat off THAT, and raise SystemExit if any gap exceeds the law.)
+- [ ] CAPTION CONTRAST IS A FUNCTION OF THE STORY'S LIGHT. The caption box
+      (`black@0.40`) was tuned on NIGHT stories. On a bright-daylight story —
+      #39 is the temple at the morning hour of prayer, pale stone in every
+      frame — white text on that light box washes out. Daylight stories use
+      `black@0.58`. Check legibility on a full-res frame crop, not a thumbnail.
+
 Only after this pre-flight passes does generation begin. Then the Self-Revision
 Law loop runs on the built video — and if the pre-flight was done honestly, that
 loop should find nothing. Every time the loop DOES find something, that means a
@@ -635,6 +658,29 @@ both now BANNED:
    emphasis like extra "2D animation" wording shoved the output into cartoon land. The
    Master Style Block in section 2 is used byte-identical, every prompt, no additions,
    no paraphrasing. Style drift = automatic redo, so don't invite it.
+
+**2026-07-13 — Video #39: a `REF:` character lock does NOT lock the wardrobe by itself.**
+Shot s7 was regenerated with `REF: s4, s6` attached (both showing the tax collector in an
+ankle-length, long-sleeved rust robe with a cloth sash) — and Gemini still returned him in a
+SHORT-SLEEVED, knee-length tunic with a buckled leather belt. The reference images pin the
+FACE reliably; they do not pin the clothes. **Rule: name the garment in the prompt prose —
+its length, its sleeves, and how it fastens — in every shot the character appears in, even
+when a REF lock is attached.** ("one ANKLE-LENGTH rust-brown robe falling to his sandals,
+LONG sleeves to the wrists, a soft cloth sash — no short tunic, no bare knees, no buckled
+belt.") Cost: one wasted image. Also caught here: the model happily paints a modern-looking
+metal belt buckle if you say "leather belt" — say "cloth sash."
+
+**2026-07-13 — Video #39: check WHICH MODEL gen_stills.py is about to spend money on.**
+The first run of the build fired 12 requests at `gemini-2.5-flash-image` and every one came
+back `HTTP 429 ... free_tier_requests, limit: 0`, which reads like a dead API key or a
+missing billing account. It is neither: that name resolves to a PREVIEW image model that the
+tier simply does not carry. `gemini-3-pro-image` — the committed default, and the model the
+whole pipeline is tuned for (2K, big enough to supersample the Ken Burns drift) — worked on
+the first try. The stale flash default came from a `gen_stills.py` that was replaced by a
+newer commit mid-session. **Rule: `git pull --rebase` BEFORE reading the tools you are about
+to spend money with (Law A already says pull first — this is why), and if every image 429s
+with `limit: 0`, suspect the MODEL before you suspect the key. Prove the key is alive with a
+one-line text call; if text works, the key and the billing are fine.**
 
 Standing rule: every future prompt failure that wastes credits gets its own dated entry
 here, with the cause and the ban, before any retry is attempted.

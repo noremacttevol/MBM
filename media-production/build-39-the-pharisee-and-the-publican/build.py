@@ -6,7 +6,7 @@ narration, serif captions, cream-italic KJV lines, closing question card. NO AI
 motion clips.
 
 Stills come from `gen_stills.py` (the official Gemini image API) and live in
-art/<slug>.png — there is no browser and no Google Flow in this pipeline.
+assets/<slug>.jpeg — there is no browser and no Google Flow in this pipeline.
 
 CAPTIONS ARE VERBATIM: every caption is the exact spoken text of its narration
 segment (imported from make_narration.SEGMENTS and word-wrapped). KJV (Jesus)
@@ -37,7 +37,7 @@ import textwrap
 
 import make_narration  # SEGMENTS -> verbatim caption text per segment
 
-A = "art"            # gen_stills.py writes <slug>.png here
+A = "assets"         # gen_stills.py writes <slug>.jpeg here
 S = "segs"
 FPS = 30
 FF = "ffmpeg"
@@ -50,20 +50,20 @@ INK = "0x3B2A1E"
 ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "16",
        "-pix_fmt", "yuv420p", "-r", str(FPS), "-an"]
 
-S1 = "s1-the-certain-men.png"
-S2 = "s2-two-men-go-up.png"
-S3 = "s3-the-good-man.png"
-S4 = "s4-the-hated-man.png"
-S5 = "s5-pharisee-prays.png"
-S5B = "s5b-the-list.png"
-S6 = "s6-afar-off.png"
-S7 = "s7-be-merciful.png"
-S7B = "s7b-the-lamb.png"
-S8 = "s8-two-prayers.png"
-S9 = "s9-the-verdict.png"
-S10 = "s10-went-down-justified.png"
-S11 = "s11-still-standing.png"
-S12 = "s12-the-open-gate.png"
+S1 = "s1-the-certain-men.jpeg"
+S2 = "s2-two-men-go-up.jpeg"
+S3 = "s3-the-good-man.jpeg"
+S4 = "s4-the-hated-man.jpeg"
+S5 = "s5-pharisee-prays.jpeg"
+S5B = "s5b-the-list.jpeg"
+S6 = "s6-afar-off.jpeg"
+S7 = "s7-be-merciful.jpeg"
+S7B = "s7b-the-lamb.jpeg"
+S8 = "s8-two-prayers.jpeg"
+S9 = "s9-the-verdict.jpeg"
+S10 = "s10-went-down-justified.jpeg"
+S11 = "s11-still-standing.jpeg"
+S12 = "s12-the-open-gate.jpeg"
 
 # Caption text = verbatim spoken text, keyed by segment name.
 TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
@@ -138,13 +138,17 @@ def caption_overlay(seg_id, dur, text, kjv):
         font, size, color = SERIF_BI, 46, "0xFFF3DC"
     else:
         font, size, color = SERIF, 34, "white"
+    # Box at 0.58, not the usual 0.40: this story is bright daylight in EVERY
+    # still (the temple at the morning hour of prayer), so a light box left the
+    # white caption washed out on pale stone. Night stories did not have this
+    # problem. Legibility beats consistency with a value tuned on dark frames.
     fade_out = max(0.0, dur - 0.55)
     return (f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
             f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
             f"fontcolor={color}:line_spacing=13:x=(w-text_w)/2:"
             f"y=h-150-text_h:"
             f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
-            f"box=1:boxcolor=black@0.40:boxborderw=20,"
+            f"box=1:boxcolor=black@0.58:boxborderw=22,"
             f"fade=t=in:st=0:d=0.5:alpha=1,"
             f"fade=t=out:st={fade_out}:d=0.5:alpha=1[cap]")
 

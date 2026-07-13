@@ -1,107 +1,77 @@
-# Build #39 — The Pharisee and the Publican — STATUS
+# Build #39 — The Pharisee and the Publican — BUILT ✅
 
-**Date:** 2026-07-13 · **Machine:** Dev · **State:** everything done except the pictures.
-**Blocked on:** the Gemini image API key has **no image quota** (see below). This is the
-only thing standing between this build and a finished video.
-
----
-
-## 🛑 THE BLOCKER (Cameron has to do this — it is 2 minutes, in a browser)
-
-`gen_stills.py` calls the official Gemini image API. Every image model returns:
-
-```
-HTTP 429  RESOURCE_EXHAUSTED
-Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests,
-limit: 0, model: gemini-2.5-flash-preview-image
-```
-
-**Read that carefully: `limit: 0`.** This is NOT "we used up today's allowance." It means the
-allowance is *zero*. **Image generation on the Gemini API is a paid feature — the free tier
-does not include it at all.** The key itself is fine: the same key generates *text* without a
-complaint, so it is valid, live, and correctly loaded. Only images are refused, and they are
-refused because the Google Cloud project behind the key has **no billing account attached**.
-
-Verified on 2026-07-13 against `gemini-2.5-flash-image`, `gemini-3.1-flash-image` and
-`gemini-3-pro-image` — all three return the same `limit: 0`. There is no second key, no
-`gcloud` install, and no other credential anywhere on this machine.
-
-**The fix:** open <https://aistudio.google.com/apikey>, find the project this key belongs to,
-and click **"Set up billing"** (or attach the key to a project that already has billing).
-Nothing else changes — no code, no prompts, no re-planning.
-
-**What it will cost:** 14 stills × $0.039 = **$0.55** for this whole video. (~$0.55/video ×
-200 videos ≈ $110 for the entire corpus, on the cheap model.)
-
-An AI session cannot do this step: it needs Cameron's Google account and a payment method.
-That is the definition of a genuine blocker under Law D/F — everything else was run to
-completion.
+**Date:** 2026-07-13 · **Machine:** Dev · **Scripture:** Luke 18:9–14
+**Delivery:** `luke-18_pharisee-and-publican.mp4` — 4:33, 20.8 MB, 1080×1920 H.264 30fps
+**Cost:** 17 images × $0.134 (gemini-3-pro-image, 2K) = **$2.28** (14 kept + 3 regenerated)
+**State:** finished, QC-clean, **waiting on Cameron's yes.**
 
 ---
 
-## ✅ DONE AND VERIFIED (nothing here needs redoing)
+## What it is
 
-| Step | State | Evidence |
-|------|-------|----------|
-| Luke 18:9–14 studied in full context | ✅ | Pack §1 — incl. why v9 and v14 cannot be cut |
-| Production pack + scripture card | ✅ | `../39-pharisee_publican-production-pack.md` |
-| Storyboard — 14 stills, 18 segments | ✅ | Pack §3 |
-| Prompt sheet, Master Style Block byte-identical | ✅ | `PROMPTS.md`, 14 shots parse clean |
-| 🛑 **FACE GATE** | ✅ **PASS, exit 0** | `jesus_face_gate.py --dir .` — passed first run |
-| Narration (Andrew + Christopher, no Multilingual) | ✅ | `audio/*.mp3`, 18 segments |
-| 🛑 **EAR-CHECK** (every segment vs script) | ✅ **18/18 pass** | `qc_narration.py` — worst 0.96 after tie-break |
-| Assembly script | ✅ **rehearsed end-to-end** | `build.py` — ran clean on placeholder frames |
-| No-Dead-Air scan | ✅ **worst gap 2.03s** (law: ≤2.5s) | build.py now *fails the build* if any gap >2.5s |
-| Loudness | ✅ **−14.8 LUFS** (target ≈ −15) | `ebur128` on the rehearsal mix |
-| File size / format | ✅ **9.8 MB**, 1080×1920, H.264 | under the 25 MB law with room to spare |
-| Runtime | ✅ **4.55 min** | in line with #11 storm (4.5 min) |
-| Caption + card typography | ✅ | KJV cream italic; card cream #F7F2E9, held 14.4s |
+14 painted stills with slow Ken Burns drift, two-voice narration, verbatim serif captions,
+KJV lines in cream italic, and the closing question card. **Zero AI motion clips** (Law E).
 
-The rehearsal used flat colour placeholders purely to prove the timing, captions, mix and
-encode. **It was deleted afterwards** — there is no video in this folder and nothing here
-can be mistaken for a deliverable.
+The whole story, v9 through v14: who Jesus told it to and why (v9 — the men who trusted in
+themselves), both men going *up* to the temple, **why the Pharisee was genuinely admired**
+(one fast a year was commanded; he fasted twice a week), **why the publican was genuinely
+hated** (a traitor with a money box), both prayers, the verdict, and the invitation — Jesus
+told this to the good men not to shame them but to let them in too.
 
-### Two real defects the self-revision loop caught and fixed (before Cameron ever saw them)
+**The point, in one sentence:** the man who had everything right went home wrong, and the
+man who had everything wrong went home right — because one came to God with a résumé and
+the other came with the truth.
 
-1. **Dead air after both KJV lines.** The pauses after j2 and j3 measured **2.76s and 2.73s**
-   — over the 2.5s law. Cause: the TTS files carry a silent tail (~1.3s on the Jesus voice,
-   ~0.45s on the narrator), and timing off the *file* end silently adds that tail to every
-   pause. This is the same defect the PRODUCTION-BIBLE records from video #2. `build.py` now
-   measures the **spoken** end of every mp3 and computes all gaps from that, and it *hard-fails
-   the build* if any spoken gap exceeds 2.5s. Worst gap is now 2.03s.
-2. **A caption wall and an overloaded still.** Segment n8 was 75 words — a 13-line caption (and
-   captions are verbatim) — and still `s5` was carrying 47 seconds of narration on one picture,
-   against "never lean on one image to cover a long stretch." n8 was split into n8a/n8b and two
-   stills were added (`s5b-the-list`, `s7b-the-lamb`), which also gave the atonement gem its
-   own image.
-
-*(A third defect was in my own QC tooling: `ffmpeg -v error` suppresses `silencedetect` and
-`volumedetect`, which log at INFO. My first silence scan reported "no silence found" — a false
-pass produced by the checking command, not by the video. Re-run with default verbosity, it
-immediately exposed defect 1. Worth remembering: a QC tool that reports nothing is suspicious
-until you prove it can still report something.)*
+**Two sacred silences:** the music dies to true silence for *"God be merciful to me a
+sinner"* and again for the verdict. The narrator never stops; only the music does.
 
 ---
 
-## ▶ TO FINISH THIS VIDEO (after billing is on — three commands, ~10 minutes)
+## QC — every check, and what it caught
 
-```bash
-cd /home/noremacttevol/Desktop/Brain/MBM
+| Check | Result |
+|---|---|
+| 🛑 **FACE GATE** (`jesus_face_gate.py`) | **PASS, exit 0** — passed on the first run |
+| 🛑 **Face audit of the finished render** | Jesus is in only s1 and s9, both from directly behind. His face does not appear in any frame at any zoom. |
+| 🛑 **EAR-CHECK** (every mp3 vs script) | **18/18 pass** (3 needed the medium.en tie-break, all clean) |
+| **No-Dead-Air** | worst spoken gap **2.03s** (law: ≤2.5s). The build now *hard-fails* above 2.5s. |
+| Loudness | **−14.8 LUFS** (target ≈ −15) |
+| Size / format | **20.8 MB** (<25), 1080×1920, H.264, plays clean |
+| Stills-only | 14 images, no Veo/Flow clips |
+| Anatomy count, every still | pass (one regenerate — see below) |
+| Captions on the right scene | verified on a 15-frame strip across the whole runtime |
+| Baked-in text/gibberish | none |
+| Time of day | bright morning in every still — the hour of prayer and sacrifice |
 
-# 1. the pictures (~$0.55) — the face gate re-runs automatically first
-python3 media-production/gen_stills.py --dir media-production/build-39-the-pharisee-and-the-publican
+### Five real defects the self-revision loop caught and fixed — Cameron saw none of them
 
-# 2. QC every still: anatomy count, action reads right, morning light, painted
-#    style, no baked-in text, and the face audit — Jesus appears ONLY in
-#    s1-the-certain-men and s9-the-verdict, both from directly behind.
-#    Regenerate any miss:
-#    python3 media-production/gen_stills.py --dir <...> --only s7-be-merciful
+1. **Dead air after both KJV lines** (2.76s and 2.73s, over the 2.5s law). The TTS files
+   carry a silent tail — ~1.3s on the Jesus voice — and timing off the *file* end adds it to
+   every pause. Now every beat is timed off the **spoken** end and the build refuses to
+   produce a video with a gap over 2.5s.
+2. **A teardrop on the publican's cheek** in s7 — a direct No-Fake-Tears violation.
+   Regenerated with the grief carried in the eyes, brows and mouth.
+3. **s2 read backwards.** The narration says both men went *up* to the temple; the picture
+   had them walking *down* the steps toward us — the opposite beat, and it would have killed
+   the contrast with s10 (the publican going *down* justified). Restaged with the camera at
+   the top of the stairs so they climb toward the viewer.
+4. **Wardrobe drift in s7** — he came back in a short-sleeved knee-length tunic with a
+   buckled belt while every other shot has an ankle-length long-sleeved robe. A `REF:`
+   character lock pins the face, not the clothes; the garment now has to be named in prose.
+5. **An extra hand in s5b** — a second hand fused to a single raised wrist with no arm
+   behind it. Pose simplified to one clearly-supported raised arm.
 
-# 3. assemble (prints the runtime, the silence map and the loudness)
-cd media-production/build-39-the-pharisee-and-the-publican && python3 build.py
-```
+*(A sixth defect was in my own QC tooling: `ffmpeg -v error` suppresses `silencedetect`,
+which logs at INFO — so my first silence scan reported "nothing found," a false pass created
+by the checking command. Re-run properly, it immediately exposed defect 1. All three lessons
+are now written into PRODUCTION-BIBLE §4b so the next video gets them for free.)*
 
-Then: tick `Built` for row 39 in `media-production/QUEUE.md`, commit, push, show Cameron.
+---
 
-**The QC pass on the generated stills is the one piece of work still genuinely outstanding** —
-it cannot be done before the images exist. Everything else is finished and checked.
+## Files
+
+- `PROMPTS.md` — 14 shot prompts, Master Style Block byte-identical, `REF:` character locks
+- `make_narration.py` — 18 segments (Andrew narrator / Christopher for the KJV lines)
+- `qc_narration.py` — the ear-check
+- `build.py` — assembly; times every beat off the spoken end and fails on dead air
+- `assets/` — the 14 stills · `audio/` — the 18 mp3s · `qc/` — the QC frames
