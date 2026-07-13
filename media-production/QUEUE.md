@@ -103,8 +103,8 @@ sheet ready) · **Built** (final mp4 exists) · **Appr** (Cameron approved) ·
 | 35 | The great banquet | Luke 14 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
 | 36 | The shrewd steward | Luke 16 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
 | 37 | The rich man and Lazarus | Luke 16 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
-| 38 | The persistent widow | Luke 18 | ✅ | 🔨 | ⬜ | ⬜ | CLAIMED Machine C — building |
-| 39 | The Pharisee and the publican | Luke 18 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Dev 2026-07-13 (driver) |
+| 38 | The persistent widow | Luke 18 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Dev 2026-07-13 (full redo — Machine C never generated art) |
+| 39 | The Pharisee and the publican | Luke 18 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 40 | The friend at midnight | Luke 11 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 41 | Counting the cost | Luke 14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 42 | The barren fig tree spared | Luke 13 | ⬜ | ⬜ | ⬜ | ⬜ |  |
