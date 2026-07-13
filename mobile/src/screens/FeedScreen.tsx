@@ -30,6 +30,7 @@ import { StatusBar } from 'expo-status-bar';
 import { useNavigation, useFocusEffect } from '@react-navigation/native';
 import { useAppStore, isMemberSignal } from '../store/useAppStore';
 import { CONTENT } from '../data/content';
+import { videoById } from '../data/videos';
 import { QUESTION_BANK } from '../data/questionBank';
 import { EXERCISES } from '../engine/exercises';
 import { Page, PageItem, isReplaceEligible } from '../engine/pageEngine';
@@ -127,7 +128,14 @@ function FeedPage({ page, isHome, width }: { page: Page; isHome: boolean; width:
       case 'verse': {
         // Rev 2: every standalone verse carries its personally-made question —
         // how Jesus is found to be a good God in this scripture. Reply answers it.
+        // A RECYCLED verse (its video was watched, it was skipped) falls back to
+        // its source video's question and takeaway, so the reminder still asks.
         const content = item.contentId != null ? CONTENT.find(c => c.id === item.contentId) : undefined;
+        const srcVideo = item.recycledFromVideoId != null ? videoById(item.recycledFromVideoId) : undefined;
+        const question = content?.seedQuestion ?? srcVideo?.seedQuestion;
+        const takeaway = content?.takeaway ?? srcVideo?.takeaway;
+        const takeawayKey = content ? `verse-${content.id}`
+          : srcVideo ? `video-${srcVideo.id}` : undefined;
         return (
           <View style={styles.verseCard}>
             <VerseBlock
@@ -137,9 +145,9 @@ function FeedPage({ page, isHome, width }: { page: Page; isHome: boolean; width:
               onRead={() => honorPageItem(item.slotId)}
               pageRef={{ pageIndex: page.index, slotId: item.slotId }}
               reminderTitle={item.recycledFromTitle}
-              question={content?.seedQuestion}
-              takeaway={content?.takeaway}
-              takeawayKey={content ? `verse-${content.id}` : undefined}
+              question={question}
+              takeaway={takeaway}
+              takeawayKey={takeawayKey}
               onGetNew={isReplaceEligible(item) ? () => notifyScrolledPast(item.slotId) : undefined}
             />
           </View>
@@ -207,6 +215,7 @@ function FeedPage({ page, isHome, width }: { page: Page; isHome: boolean; width:
       contentContainerStyle={styles.pageContainer}
       showsVerticalScrollIndicator={false}
       keyboardShouldPersistTaps="handled"
+      automaticallyAdjustKeyboardInsets
       scrollEnabled={!locked}
       onScroll={handleScroll}
       scrollEventThrottle={96}

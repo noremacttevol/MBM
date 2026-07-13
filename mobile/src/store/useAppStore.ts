@@ -1666,6 +1666,7 @@ export const useAppStore = create<AppState & AppActions>()(
         const home = s.pages[homeIdx];
         if (home.archived) return;            // not currently on the home page
         if (!pageHasNoHonoring(home)) return; // honored something → keep it (rewarded)
+        if ((home.interactions ?? 0) > 0) return; // replied/saved/checked → also keep it
         const built = buildPage(s, home.index);
         const pages = s.pages.map((p, i) => (i === homeIdx ? built.page : p));
         set({
