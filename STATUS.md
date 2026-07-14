@@ -72,6 +72,7 @@ rebuilt to the new standard — the finished file will replace the old one.
 | # | Story | Old cut (playable now) | Redone by | State |
 |---|-------|------------------------|-----------|-------|
 | 38 | The Persistent Widow (Luke 18) | *no file yet* | Machine C | **CLAIMED — building** 🔨 — Cameron's direct order "do 38" 2026-07-12 (off-list). Stills-only parable (Luke 18:1-8), NO Jesus figure (voice + KJV only, face-gate PASS). Milk: CONTRAST — God is nothing like the reluctant, annoyed judge; he is not worn down into caring, he already loves you and already wants to hear you, so keep coming. |
+| 44 | The Two Debtors (Luke 7) | *no file yet* | Computer B (Elli's laptop, Leighton) | **CLAIMED — building** 🔨 — Cameron's batch order (B=44) 2026-07-14. Stills-only (Luke 7:36-50), built the old faithful way (Chrome + Google Flow stills). Jesus present but face-never (from behind / over-shoulder / hands only). Milk: forgiven much, loves much — the size of the love matches the size of the debt cancelled; you are forgiven, so love freely. |
 
 *(#16 Mary and Martha and #36 The Shrewd Steward finished 2026-07-12 by Machine A — both moved to the DONE table above, awaiting Cameron.)*
 
