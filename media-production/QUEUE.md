@@ -109,7 +109,7 @@ sheet ready) · **Built** (final mp4 exists) · **Appr** (Cameron approved) ·
 | 40 | The friend at midnight | Luke 11 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
 | 41 | Counting the cost | Luke 14 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Dev 2026-07-13 (driver) |
 | 42 | The barren fig tree spared | Luke 13 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 43 | The wedding garment | Matt 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 43 | The wedding garment | Matt 22 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Dev / Machine A 2026-07-13 |
 | 44 | The two debtors | Luke 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 45 | The wicked tenants | Mark 12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 46 | The seed growing secretly | Mark 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
