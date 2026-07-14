@@ -113,7 +113,7 @@ sheet ready) · **Built** (final mp4 exists) · **Appr** (Cameron approved) ·
 | 44 | The two debtors | Luke 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 45 | The wicked tenants | Mark 12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 46 | The seed growing secretly | Mark 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 47 | Houses on rock and sand | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 47 | Houses on rock and sand | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine A 2026-07-14 |
 | 48 | New wine, old bottles | Mark 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 49 | The lamp on a stand | Mark 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 50 | The watching servants | Mark 13 | ⬜ | ⬜ | ⬜ | ⬜ |  |
