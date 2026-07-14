@@ -33,6 +33,7 @@ TITLES = {
     30: "The Net", 31: "The Ten Virgins", 32: "The Talents",
     33: "The Sheep and the Goats", 34: "The Rich Fool", 35: "The Great Banquet",
     36: "The Shrewd Steward", 37: "The Rich Man and Lazarus", 38: "The Persistent Widow", 39: "The Pharisee and the Publican",
+    40: "The Friend at Midnight",
 }
 
 SMALL = {"of", "and", "the", "a", "an", "in", "on", "to", "his", "her"}

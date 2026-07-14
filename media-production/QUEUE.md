@@ -41,7 +41,7 @@ and posts them). Knock these out anytime:
 #26 Mustard Seed · #27 Leaven · #28 Hidden Treasure · #29 Pearl · #30 Net ·
 #31 Ten Virgins · #32 Talents · #33 Sheep & Goats · #34 Rich Fool ·
 #35 Great Banquet · #36 Shrewd Steward · #37 Rich Man & Lazarus · #38 Persistent Widow ·
-**#39 The Pharisee & the Publican**
+#39 The Pharisee & the Publican · **#40 The Friend at Midnight**
 
 Watch links are in [`STATUS.md`](../STATUS.md).
 
@@ -106,7 +106,7 @@ sheet ready) · **Built** (final mp4 exists) · **Appr** (Cameron approved) ·
 | 37 | The rich man and Lazarus | Luke 16 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
 | 38 | The persistent widow | Luke 18 | ✅ | ✅ | ✅ | ⬜ | approved by Cameron 2026-07-13 |
 | 39 | The Pharisee and the publican | Luke 18 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
-| 40 | The friend at midnight | Luke 11 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Dev 2026-07-13 (driver) |
+| 40 | The friend at midnight | Luke 11 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
 | 41 | Counting the cost | Luke 14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 42 | The barren fig tree spared | Luke 13 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 43 | The wedding garment | Matt 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |

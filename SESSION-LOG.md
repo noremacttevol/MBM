@@ -1,3 +1,61 @@
+## 2026-07-13 — Machine "Dev" — Video #40 The Friend at Midnight (Luke 11) BUILT
+
+**Commit:** (this commit)
+
+**Delivered:** `media-production/build-40-the-friend-at-midnight/luke-11_friend-at-midnight.mp4`
+— 5:56, 20.3 MB, 1080x1920. 16 painted stills (gemini-3-pro-image, 2K), two-voice narration,
+verbatim serif captions, KJV in cream italic, closing question card. **Stills-only (Law E).**
+Cost: 23 images x $0.134 = **$3.08** (16 kept, 7 regenerated on QC).
+
+**Status: waiting on Cameron's yes.** Queue row 40: Prep ✅ Built ✅. Published to the gallery.
+
+**The point (why this one mattered to get right):** this parable is misread more than almost
+any other, and the misreading is cruel — people hear "pester God until he caves" and come away
+with a God who is reluctant, irritated and asleep. Jesus argues the opposite. The sleeping
+neighbour is the CONTRAST, not a portrait of God: if even a man with every good reason to say
+no (barred door, kids asleep in the one bed with him) finally gets up, HOW MUCH MORE the Father
+who was never asleep at all. The video says that out loud at the turn, then runs the whole unit
+through v13 — because the parable is only one part of one answer to one question ("Lord, teach
+us to pray"): the prayer that opens on *Father*, the parable, ask/seek/knock, the
+father-and-son argument, and the final gift, which is not bread but the Holy Spirit.
+
+**Study gems:** people travelled at night (so a midnight guest is real); hospitality was a
+VILLAGE duty, so an unfed guest shamed the whole town; *anaideia* (v8) appears nowhere else in
+the NT and does not mean persistence — it means SHAMELESSNESS (placed BEFORE Jesus says it, so
+the narrator never has to re-quote him — Translation Law); each pair in vv11-12 is a LOOKALIKE
+(a river stone looks like a flat loaf, a scorpion curls up pale and round like an egg); and the
+man at the door never asks for himself once.
+
+**QC — 7 regenerations, four new lessons, all written into PRODUCTION-BIBLE §5b:**
+1. **ONLY JESUS WEARS CREAM.** s1/s12/s15 came back with a DISCIPLE in a near-white robe,
+   bearded and centred and gesturing — a Jesus-shaped figure with an invented face standing
+   next to the real, faceless Jesus. The face gate cannot catch this (every word was legal),
+   but it is a face-law failure in spirit. Cream is now reserved for him; everyone else is in
+   dun/faded brown/olive, stated in the prompt.
+2. **The no-tears rule must live in the SHOT's prose, not the sheet header.** s11 and s15 both
+   came back with painted teardrops. A header never reaches the model.
+3. **Name every hand or the model grows a third arm.** s3 gave the householder three (lamp
+   hand, gripping hand, and a spare sleeve hanging between the two men).
+4. **The caption box is tuned to the BRIGHTEST frame, not "night vs day."** This story is both.
+
+**A real bug found in build.py — and it was in #39's too:** the first cut ran 7:05, and at that
+length the <25MB law forces the video down to ~326 kbps, which would band visibly across the
+nine night-sky frames (the Bible forbids starving the bitrate). Two causes. The script was too
+long — trimmed twice, narrator flab only; every beat, all six KJV lines, every gem and verse 13
+are intact (7:05 → 5:56). AND the bitrate cap was simply wrong: the old formula never subtracted
+the actual audio track from the container budget, so on any long video it asked for more bits
+than 25MB allows and the encode loop just climbed CRF until something fit — silently degrading
+quality instead of reporting a problem. It now computes the video budget honestly and RAISES if
+a script is too long to look good. Audio to 96k AAC. Result: 423 kbps, crf 20, first pass.
+
+**Verification:** face gate PASS before any image was generated; Jesus's face never visible in
+any frame (he is in 4 stills, camera behind him every time); ear-check all 27 segments pass
+(lowest 0.94); worst spoken gap 1.88s (law ≤2.5s, and the build now RAISES on a violation);
+final-mix silence scan clean apart from the closing-card tail, with the checker proven able to
+fire; loudness -14.8 LUFS; 1080x1920 H.264, 20.3 MB.
+
+---
+
 ## 2026-07-13 — Machine "Dev" — Video #39 The Pharisee and the Publican (Luke 18) BUILT
 
 **Commit:** 5054d7e

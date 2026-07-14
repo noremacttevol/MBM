@@ -696,6 +696,51 @@ to spend money with (Law A already says pull first — this is why), and if ever
 with `limit: 0`, suspect the MODEL before you suspect the key. Prove the key is alive with a
 one-line text call; if text works, the key and the billing are fine.**
 
+**2026-07-13 — Video #40: ONLY JESUS WEARS CREAM. A second cream-robed bearded man reads
+as a second Jesus.** In the first pass of #40's s1 and s12, Jesus was staged correctly (from
+behind, face never shown) — but the model dressed one of the DISCIPLES in a near-white cream
+robe and put him bearded, centred, and gesturing with an open hand. That is a Jesus-shaped
+figure with a fully painted face, in the same frame as the real (faceless) Jesus. Nothing in
+the face gate catches this: every word of the prompt was legal. It is still a face-law
+failure in spirit — the viewer's eye lands on an invented face and reads it as the Lord.
+**Rule: in any shot where Jesus appears, he is the ONLY figure in an off-white / cream robe.
+Every other character wears a clearly darker earth colour (dun, faded brown, olive), and the
+prompt says so explicitly: "not one of them is dressed in off-white or cream, and no second
+man in this picture wears a cream robe."** The Jesus Look Standard already locks his robe to
+cream — so cream must be reserved for him. Check it on every generated frame, not just the
+prompt. (Cost: two wasted images.)
+
+**2026-07-13 — Video #40: the model paints tears unless you forbid them in the SAME sentence
+as the emotion.** #40's s11 and s15 both came back with a glossy teardrop running down a
+cheek — the banned "fake tears" defect — even though the top-of-sheet notes said no tears.
+A rule stated in a header does not reach the model; only the shot prose does. **Rule: any
+prompt that asks for grief, awe, relief, or being "overcome" must carry the dry-face
+sentence inside that shot's own prose ("his cheeks are completely dry and clean: no tears,
+no teardrops, no wet streaks; all the feeling is carried in the eyes, brows and mouth"), in
+every emotional shot, every time.** #39's s7 did this correctly and came back clean; #40's
+s11/s15 omitted it and did not. (Cost: two wasted images.)
+
+**2026-07-13 — Video #40: name every hand, or the model grows a third arm.** #40's s3 put
+two men close together — one holding a lamp and steadying the other — and the model painted
+the householder with THREE arms (lamp hand, a hand gripping the friend's arm, and a spare
+sleeve hanging between them). Overlapping two-figure poses are the same high-risk case the
+anatomy-count law already flags for crowds and climbing. **Rule: in any shot where two
+figures touch, overlap, or hand something over, the prompt must ASSIGN EVERY HAND A JOB in
+prose — "his right hand holds X, his left hand rests on Y; the other man's right hand grips
+Z and his left holds W; every hand is joined to the correct body by a visible arm, and no
+spare or floating hand appears anywhere."** An idle hand is where the extra limb grows. Also
+learned: don't ask for a cup to be HELD while the other man pours — stand the cup on the
+table. (Cost: one wasted image.)
+
+**2026-07-13 — Video #40: the caption box is tuned to the BRIGHTEST frame, not to "night vs
+day."** #39 logged "night stories 0.40, daylight stories 0.58." #40 is BOTH — the parable is
+deep midnight, the framing story is full golden morning. A single box value has to serve
+every frame in the video, so it is set for the brightest frame in the cut (0.58 here), not
+the average. A 0.58 box over a night frame is merely a slightly stronger scrim; a 0.40 box
+over a golden-morning frame washes the white text out. **Rule: pick the box alpha from the
+lightest still in the build, and verify on a full-res crop of both the lightest and darkest
+frames.**
+
 Standing rule: every future prompt failure that wastes credits gets its own dated entry
 here, with the cause and the ban, before any retry is attempted.
 
