@@ -39,6 +39,34 @@
 
 ---
 
+## 🔒 PIPELINE-CHANGE LAW (Cameron, 2026-07-13) — READ BEFORE TOUCHING ANY PRODUCTION FILE
+
+**Never commit a change to the production pipeline without first showing Cameron a
+side-by-side comparison against the delivered videos and getting his explicit approval.**
+
+The pipeline is `gen_stills.py`, `build.py`, `make_narration.py`, `jesus_face_gate.py`,
+PROMPTS style blocks, and anything else that decides what a video looks like. Four
+computers pull `main`; a model or parameter you push is a model or parameter that
+silently builds the next video on every one of them.
+
+**Why this law exists.** On 2026-07-13 a session swapped the image model from
+`gemini-3-pro-image` to `gemini-3.1-flash-image` and pushed it to `main` — on the
+strength of ONE test shot (a single figure, daylight, no character-lock refs
+attached). It looked identical and cost a third as much. Cameron asked for a
+side-by-side before trusting it. On real production shots the cheap model
+**composited a chunk of the attached style anchor into the bottom of the frame as a
+second panel**, and let the disciples' gazes wander off Jesus (Law b). It would have
+quietly wrecked videos on four machines. The switch was reverted. **Pro is the only
+one of the three models that treats attached reference images as guidance instead of
+collage material — that is why it is the default, and it is not only about resolution.**
+
+**How to apply.** A cheap easy shot is not evidence. Test on the HARD shots — multi-figure,
+night, Jesus in frame, character-lock refs attached — regenerate them against the
+approved assets from videos 1-38, put the pairs in front of Cameron, and wait for a yes.
+Never generalize from one sample. Never push first and validate after.
+
+---
+
 ## 🎬 PRODUCTION PROTOCOL — "Continue MBM production" / "next" / "do the next video"
 
 > **THE MANIFEST IS [`media-production/QUEUE.md`](media-production/QUEUE.md). There is only
