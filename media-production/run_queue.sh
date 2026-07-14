@@ -229,14 +229,42 @@ run_one() {
     break
   done
 
-  # Did the session actually tick Built? Trust the manifest, not the chat.
+  # ── PROVE IT. Do not trust the Built tick.
+  #
+  # A session can tick Built ✅ before the render exists (seen on #40: it ticked,
+  # then its own QC found defects, deleted the mp4, and rebuilt). If the driver
+  # trusts the checkbox it will count a video that isn't there, move on, and report
+  # a clean "142/200" with holes in it. The manifest is a CLAIM. The playable file
+  # on disk and the entry on Cameron's gallery are the TRUTH. Check the truth.
   git pull --rebase --autostash -q origin main
-  local built; built="$(q_field "$num" 6)"
-  if [ "$built" != "✅" ]; then
-    echo "   ⚠️  #$num finished but Built is still '$built' — not counting it done. Log: $log"
+
+  local mp4 dur
+  mp4="$(find "$REPO/$dir" -maxdepth 1 -name '*.mp4' | head -1)"
+  if [ -z "$mp4" ]; then
+    echo "   ⚠️  #$num: no .mp4 in $dir — the video does not exist. Log: $log"
     return 1
   fi
-  echo "   ✅ #$num built. Queue now $(progress)."
+  dur="$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$mp4" 2>/dev/null | cut -d. -f1)"
+  if [ -z "$dur" ] || [ "$dur" -lt 60 ]; then
+    echo "   ⚠️  #$num: $(basename "$mp4") is not a playable video (duration='${dur:-none}'s). Log: $log"
+    return 1
+  fi
+
+  # Cameron watches at https://noremacttevol.github.io/MBM/ — a video that never
+  # reaches the gallery is invisible to him no matter how good it is.
+  if ! grep -q "build-$(printf '%02d' "$num")-" "$REPO/index.html" 2>/dev/null; then
+    echo "   ⚠️  #$num built but is NOT on the gallery — publishing it now."
+    python3 "$REPO/media-production/gen_site_index.py" >/dev/null 2>&1
+    git add "$REPO/index.html" 2>/dev/null
+    git commit -q -m "Site: publish #$num to the gallery (driver backfill)" 2>/dev/null
+    git push -q origin main 2>/dev/null
+    grep -q "build-$(printf '%02d' "$num")-" "$REPO/index.html" 2>/dev/null \
+      || { echo "   ⚠️  #$num: could not publish to the gallery. Log: $log"; return 1; }
+  fi
+
+  local built; built="$(q_field "$num" 6)"
+  [ "$built" = "✅" ] || echo "   (note: Built tick was '$built'; the mp4 is real, counting it)"
+  echo "   ✅ #$num built — ${dur}s, on the gallery. Queue now $(progress)."
   return 0
 }
 
