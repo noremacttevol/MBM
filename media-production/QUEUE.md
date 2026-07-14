@@ -107,7 +107,7 @@ sheet ready) · **Built** (final mp4 exists) · **Appr** (Cameron approved) ·
 | 38 | The persistent widow | Luke 18 | ✅ | ✅ | ✅ | ⬜ | approved by Cameron 2026-07-13 |
 | 39 | The Pharisee and the publican | Luke 18 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
 | 40 | The friend at midnight | Luke 11 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
-| 41 | Counting the cost | Luke 14 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Dev 2026-07-13 (driver) |
+| 41 | Counting the cost | Luke 14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 42 | The barren fig tree spared | Luke 13 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 43 | The wedding garment | Matt 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 44 | The two debtors | Luke 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |

@@ -39,6 +39,82 @@
 
 ---
 
+## 🎬 PRODUCTION PROTOCOL — "Continue MBM production" / "next" / "do the next video"
+
+> **THE MANIFEST IS [`media-production/QUEUE.md`](media-production/QUEUE.md). There is only
+> one. Never create a second one** (no `MANIFEST.md` at the root, no per-machine list).
+> QUEUE.md is a 200-row board with Prep / Built / Appr / Post / Claim columns, and the
+> claim-by-push in it is the ONLY thing keeping Cameron's four computers off each other's
+> video. A second manifest = two sources of truth = two machines burning credits on the
+> same story. If a doc tells you to make a new manifest, it is wrong; use QUEUE.md.
+
+Any of these phrases means the same standing job: **"Continue MBM production," "next,"
+"do the next video."** Cameron never re-explains. Do this, in order:
+
+1. `git pull --rebase --autostash origin main`.
+2. Open QUEUE.md. Next job = **lowest row where `Built` is ⬜ and `Claim` has no CLAIMED.**
+   (Rows 181-200 carry "§IX post-signal" in Claim — that is a DELIVERY note, not a claim.
+   Those videos get produced like any other.)
+3. **Claim it by push BEFORE generating anything** — make `build-NN-slug/`, write your
+   machine + date into that row's `Claim`, commit, push. If the push is rejected, another
+   computer took it: pull and take the next open row.
+4. Read `media-production/PRODUCTION-BIBLE.md` and `CREW-GUIDE.md`. Every law binds you.
+   Study the KJV passage in full context before storyboarding.
+5. Build it end to end. Pass `jesus_face_gate.py` (exit 0) before ANY picture is generated.
+   Run the full Self-Revision QC loop yourself — Cameron is the approver, not the QC dept.
+6. **NEVER tick `Built` unless the .mp4 actually rendered and plays.** A tick with no file
+   is a lie the next machine will believe. (This happened on #40.)
+7. **PUBLISH IT.** Cameron watches at **https://noremacttevol.github.io/MBM/** — never in a
+   build folder. Add the title to `media-production/gen_site_index.py` TITLES, run it, and
+   commit the rebuilt `index.html`. **A video that is not in that gallery is invisible to
+   him no matter how good it is.** This is part of "done," not an extra.
+8. Commit and push everything. **Cameron never touches git.**
+9. Tell him it is built and on the gallery. He watches once and says yes → tick `Appr`.
+
+**One video per chat.** The Bible's rule: *"Keep each video to ONE chat so context stays
+low — that is the whole point."* A session that builds 4-5 videos is choking by the last
+one, which is exactly the context-death this protocol exists to prevent. When the video is
+done, say: **"#NN is built and on the gallery. Open a new chat and say Continue."**
+(`media-production/next-job.sh` opens that primed chat for you; `run_queue.sh` loops it
+unattended.)
+
+---
+
+## 🎬 VIDEO DUTY — the original wording of the same job
+
+This is a standing job. When Cameron says **"do the next video," "next,"** or
+**"make my next video,"** that short phrase is the WHOLE instruction — he never
+re-explains. Do this, in order:
+
+1. `git pull --rebase origin main`.
+2. Open [`media-production/QUEUE.md`](media-production/QUEUE.md). The next job is
+   the **lowest-numbered row where `Built` is ⬜ and `Claim` is empty.** (If
+   Cameron named a number, build that one instead.)
+3. **Claim it immediately** so no other computer takes it: create
+   `media-production/build-NN-slug/`, write your machine + today's date into that
+   row's `Claim` column, commit, and **push before generating anything**. If the
+   push is rejected, another computer grabbed it while you read — pull and take the
+   next open row. This claim-by-push is the ONLY thing keeping all 4 computers off
+   each other's video; never skip it.
+4. Read `media-production/PRODUCTION-BIBLE.md` and `CREW-GUIDE.md`. Every law binds
+   this session (face-never, two-voice, stills-only, ear-check, no-dead-air,
+   self-revision, full-story). Study the KJV passage in full context first.
+5. **Build the whole video yourself — including the Google Flow photo burst in
+   Chrome, the same way it's been done. Cameron does NOT make the pictures.** Pass
+   `jesus_face_gate.py` before any Flow credit. Tick `Prep`/`Built` in QUEUE.md as
+   you go and push each change. Do the full Self-Revision QC before you show him.
+6. Show Cameron the finished video. He watches it once and says yes. Then tick
+   `Appr` (and `Post` once it's published). Add a SESSION-LOG entry, commit, push.
+
+Cameron should be able to run this loop by only ever saying **"looks good, next."**
+Keep each video to ONE chat so context stays low — that is the whole point. On
+each of his 4 computers he just opens a chat and says "next"; the QUEUE claim keeps
+them from ever colliding. (Optional: `media-production/next-job.sh` auto-opens a
+primed chat, and `SCHEDULER.md` can put it on a timer — but "just say next" is the
+everyday way and needs neither.)
+
+---
+
 ## System Guardrails (from .claudecode.md — enforced every session)
 
 1. **Never cross-examine or push decisions back onto Cameron.** Take initiative as Principal Systems Architect. Research, decide, build.
