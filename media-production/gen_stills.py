@@ -42,10 +42,17 @@ COST = {
     "gemini-3.1-flash-image": 0.045,
     "gemini-3-pro-image": 0.134,
 }
-# Pro, not flash. Flash only renders 768x1344 — under the 1080x1920 delivery size,
-# so a Ken Burns move would have to upscale, which the anti-shimmer law forbids.
-# Pro at 2K gives 1536x2752, leaving real headroom to supersample the drift.
-DEFAULT_MODEL = "gemini-3-pro-image"
+# 3.1-flash, not Pro. The old note here said "flash only renders 768x1344, so Ken
+# Burns would have to upscale" — that is true of gemini-2.5-flash-image (measured:
+# 768x1344 even when asked for 2K) but NOT of gemini-3.1-flash-image, which returns
+# the full 1536x2752 at 2K, same as Pro, for a third of the price and ~40% faster.
+# Measured head-to-head on s13-ask-seek-knock, 2026-07-13:
+#   gemini-3-pro-image      1536x2752  27s  $0.134
+#   gemini-3.1-flash-image  1536x2752  16s  $0.045   ← same size, better prompt
+#                                                       adherence on the light
+#   gemini-2.5-flash-image   768x1344  11s  $0.039   ← too small, forbidden
+# Re-measure before trusting any resolution claim about a new model.
+DEFAULT_MODEL = "gemini-3.1-flash-image"
 IMAGE_SIZE = "2K"
 
 # THE STYLE ANCHOR (PRODUCTION-BIBLE §2: "use frames from approved clips as style
