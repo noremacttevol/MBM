@@ -1,3 +1,27 @@
+## 2026-07-14 — #47 Houses on Rock and Sand built via FLOW, 0 API cost (Machine A)
+
+**Video #47 Houses on Rock and Sand (Matt 7:24-27)** built end-to-end on Machine A,
+Phase-1 stills-only, `matthew-7_houses-on-rock-and-sand.mp4` (3:56, 18.9 MB, -14.8 LUFS).
+**Awaiting Cameron's yes. Published to the gallery** (noremacttevol.github.io/MBM).
+
+- **Built the OLD FAITHFUL way this time — Google Flow, $0.** Cameron: use my Flow
+  credits, not the paid Gemini API. The #43 download blocker is solved: with Chrome's
+  "ask where to save" OFF, Flow downloads land on disk. Generated all 12 stills in Flow
+  (Nano Banana 2, 9:16, 0 credits), pulled them via in-page fetch + named download,
+  mapped by content, assembled locally. Flow's image is 768x1376 (its "1K original") —
+  fine for the supersampled 1080 pipeline on a phone; 2K detail-download is the lever if
+  a crisper master is wanted.
+- **GREEN milk story, told for the real point:** BOTH men heard the same words — the
+  difference was doing them. Fall is restrained (man safe on the bank; only the house
+  falls). Two sacred silences on the two ROCK beats (jv24, jv25); the fall plays under
+  music. Closing card is an actionable invitation ("what is one thing he said you could
+  go and do this week?").
+- **QC all green:** face gate PASS; Jesus s1/s11 only, from behind, face never shown,
+  only-cream figure; ear-check 17/17; no-dead-air 1.88s worst with the silence checker
+  proven to fire; captions verbatim, KJV cream italic legible on hillside/bright-sand/
+  night-storm/card frames; wise & foolish builders held consistent. Detail in
+  `build-47-houses-on-rock-and-sand/BUILD-STATUS.md`.
+
 ## 2026-07-14 — #43 The Wedding Garment built (Machine A)
 
 **Video #43 The Wedding Garment (Matt 22:1-14)** built end-to-end on Machine A,
