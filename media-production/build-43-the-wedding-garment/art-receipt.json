@@ -1,0 +1,22 @@
+{
+  "model": "gemini-3-pro-image",
+  "generated": [
+    "s1-in-the-temple",
+    "s2-the-kings-feast",
+    "s3-the-summons",
+    "s4-they-would-not-come",
+    "s5-made-light-of-it",
+    "s6-the-city-far-off",
+    "s7-go-to-the-highways",
+    "s8-out-on-the-roads",
+    "s9-clothed-at-the-door",
+    "s10-the-king-sees-him",
+    "s11-friend",
+    "s12-outer-darkness",
+    "s13-many-are-called",
+    "s14-the-door-is-open"
+  ],
+  "failed": [],
+  "images": 14,
+  "usd": 1.876
+}

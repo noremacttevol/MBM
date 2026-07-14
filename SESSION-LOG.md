@@ -1,3 +1,30 @@
+## 2026-07-14 — #43 The Wedding Garment built (Machine A)
+
+**Video #43 The Wedding Garment (Matt 22:1-14)** built end-to-end on Machine A,
+Phase-1 stills-only, `matthew-22_wedding-garment.mp4` (4:45, 20.1 MB, -14.8 LUFS).
+**Awaiting Cameron's yes.**
+
+- **J/L care story handled per CONTENT-CARE.md:** mercy carried out loud (free
+  invitation to all off the highways, both bad and good; the king CLOTHES every guest
+  himself — the garment gem; the king calls the excluded man "Friend"). Outer darkness
+  rendered as **darkness only** — the man walks out a lit door into the night, no
+  binding/fire/torment shown; the burned city is a tiny distant glow, no bodies. The
+  two sacred silences land on the two MERCY beats (jv8_9 grace pivot, jv12 "Friend"),
+  NOT on the judgment (jv13 plays under soft music). Closing card is an invitation,
+  never a fear-question.
+- **QC all green:** face gate PASS; Jesus in s1/s13 only, from behind, face never
+  shown, only-cream figure; ear-check 22/22; no-dead-air worst 1.88s with the silence
+  checker proven able to fire; anatomy spot-checked on the crowd/touch frames; REF
+  character-locks held the king, servants, the un-robed man, and the leaders.
+- **Method note (matters for the "old faithful way"):** Cameron asked to build via
+  Chrome + Google Flow. Flow *generation* worked great on Browser 1 (Nano Banana 2,
+  9:16, 0 credits, s1 came out face-safe and beautiful), but **getting Flow images to
+  disk is blocked unattended in this environment** — the Download button opens a native
+  Save-As dialog automation can't dismiss, and the page is hard-blocked from a localhost
+  receiver by Chrome's Local Network Access. So the stills were generated with the proven
+  headless `gen_stills.py` (`gemini-3-pro-image`, 14 images, 0 failed, ~$1.88) to keep
+  the video moving. Full detail in `build-43-the-wedding-garment/BUILD-STATUS.md`.
+
 ## 2026-07-13 — CONTENT-CARE law established (no video built this session)
 
 **Commit:** (this commit)
