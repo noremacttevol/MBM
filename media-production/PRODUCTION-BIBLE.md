@@ -326,6 +326,13 @@ words. Nothing here overrides the sacred pause before Jesus's KJV words.
 
 ### Tell the story true
 
+- **🛑 CHECK THE CARE FLAGS FIRST (Cameron, 2026-07-13).** Before storyboarding ANY
+  story, look its number up in [`CONTENT-CARE.md`](./CONTENT-CARE.md) — the law for
+  stories containing violence, judgment, devils, sexual sin, or grief. If the story
+  carries flags (R/A/D/J/G/C/L/ARC), every law for those flags binds the build: no
+  gore, no embodied adversary, no shame framing, mercy spoken in every judgment
+  story, no fear-questions on closing cards, no child-in-peril imagery. Unlisted
+  numbers are GREEN.
 - **The whole story, through the final verse.** Never flatten a parable to its headline
   moment; include the surrounding humanity and every character Jesus put in it — the
   waiting father, the older brother, the backstory, the resistance. Half a parable
@@ -639,6 +646,11 @@ first time.
       only painted pictures with gentle Ken Burns drift + narration (§0 Law E). Any
       already-built video that has clips gets them removed and is rebuilt pictures-only.
 - [ ] Zero MUST NEVER SHOW items appear (scrub every image fully)
+- [ ] 🛑 CONTENT-CARE flags checked and obeyed (CONTENT-CARE.md §1/§3): no gore or
+      wounds in focus, no embodied Satan/devils, no shame framing on D stories,
+      mercy spoken out loud in every J story, closing question is an invitation
+      never a fear-question, no child-in-peril image. For R frames ask: "would a
+      parent let a 10-year-old see this frame?"
 - [ ] 🛑 FACE GATE passed on the prompt sheet before generation; and in the FINISHED
       render, Jesus's face is never visible in ANY frame at any zoom — audit every
       still and every sampled clip frame. (His Middle Eastern hands and hair MAY show;

@@ -59,6 +59,8 @@ Any of these phrases means the same standing job: **"Continue MBM production," "
    machine + date into that row's `Claim`, commit, push. If the push is rejected, another
    computer took it: pull and take the next open row.
 4. Read `media-production/PRODUCTION-BIBLE.md` and `CREW-GUIDE.md`. Every law binds you.
+   Look the story number up in `media-production/CONTENT-CARE.md` — if it carries care
+   flags (violence/judgment/devils/sexual sin/grief), those laws bind the build too.
    Study the KJV passage in full context before storyboarding.
 5. Build it end to end. Pass `jesus_face_gate.py` (exit 0) before ANY picture is generated.
    Run the full Self-Revision QC loop yourself — Cameron is the approver, not the QC dept.

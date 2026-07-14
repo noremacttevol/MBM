@@ -1,3 +1,36 @@
+## 2026-07-13 — CONTENT-CARE law established (no video built this session)
+
+**Commit:** (this commit)
+
+Cameron raised that some of THE-200 are not plain milk — violence, judgment, devils,
+sexual sin, dead children, Isaac on the altar — and asked for rules/logic before more
+of those get built. Created **`media-production/CONTENT-CARE.md`**:
+
+- **§1 Care Laws (production):** R Restraint (no gore; witnesses carry the weight;
+  10-year-old QC test), A Adversary (Satan/devils NEVER embodied — same logic as the
+  face law), D Dignity (sexual-sin stories never sexualized or shame-framed),
+  J Mercy-in-Judgment (mercy in the text spoken out loud; closing cards are
+  invitations, NEVER fear-questions), G Grief-Care (never promise the same miracle;
+  raising-story cards land on his character + resurrection HOPE), C Children (a child
+  in peril is never the rendered image — Isaac, Herod).
+- **§2 Serving rules (app-side):** L = never in a user's first 5 stories; Passion
+  #120–141 = ordered opt-in ARC; J withheld from fresh church-hurt users; G stories
+  ARE for the grieving with the gentlest chat handoff.
+- **§3 Flag table:** every flagged story of the 200 listed with reason; unlisted =
+  GREEN. Machine-readable for the Phase-2 feed engine — production and routing read
+  the same table.
+- **§4 Copyright law:** verse text only (KJV + original BOM/D&C/PoGP text are public
+  domain); NEVER the Church's headings/footnotes/manuals, artwork, videos, hymns, or
+  logos; app states it is NOT an official Church product; handoff to missionaries +
+  ChurchofJesusChrist.org when ready.
+- **§5 Member track:** every MAINTENANCE video points INTO the standard works; the
+  engine never optimizes a member's watch time — scripture opened is the win.
+
+Hooked into PRODUCTION-BIBLE (Standing Laws "Tell the story true" + QC checklist
+item) and CLAUDE.md production protocol step 4. No queue rows touched.
+
+---
+
 ## 2026-07-13 — Machine "Dev" — Video #40 The Friend at Midnight (Luke 11) BUILT
 
 **Commit:** 83be2f5
