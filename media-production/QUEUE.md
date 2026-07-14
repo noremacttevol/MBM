@@ -114,7 +114,7 @@ sheet ready) · **Built** (final mp4 exists) · **Appr** (Cameron approved) ·
 | 45 | The wicked tenants | Mark 12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 46 | The seed growing secretly | Mark 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 47 | Houses on rock and sand | Matt 7 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 (Flow images, 0 API cost) — awaiting your yes |
-| 48 | New wine, old bottles | Mark 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 48 | New wine, old bottles | Mark 2 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine A 2026-07-14 |
 | 49 | The lamp on a stand | Mark 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 50 | The watching servants | Mark 13 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 51 | Unprofitable servants | Luke 17 | ⬜ | ⬜ | ⬜ | ⬜ |  |
