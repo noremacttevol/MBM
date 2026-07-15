@@ -377,3 +377,23 @@ reliable $0 still factory on this machine.
 - 2026-07-15 (C): **No system ffmpeg on Machine C** — `pip install --break-system-packages
   static-ffmpeg` (bundles ffmpeg+ffprobe), symlinked into ~/.local/bin. Also gen_site_index.py
   now handles numbered books (1kings→"1 Kings"); the old mp4-discovery regex dropped them.
+## ⚠️ Machine A, 2026-07-15 — ATTACHING the master face makes Nano Banana ECHO it (use TEXT lock)
+BIG ONE, affects every FACE-SHOWN build. When flow_driver actually ATTACHES
+JESUS-MASTER-REF/jesus-face.jpeg as a reference, Nano Banana 2 REPRODUCES that bust
+portrait (centered head-and-shoulders on the same plain background) and IGNORES the
+scene prompt entirely — every Jesus shot comes back as a near-copy of the ref (telltale:
+all identical ~421KB, way smaller than a real ~800KB scene). Prompt directives
+("compose the full wide scene, not a portrait, use the ref for identity only") do NOT
+override it.
+KEY REALIZATION: build-49's Jesus shots looked great and face-consistent because the ref
+attach SILENTLY FAILED there ("could not attach ref — generating without") — they were
+made from the byte-identical JESUS LOCK v3 TEXT alone. The master face itself was made
+from that same LOCK v3 text, so text-only shots match it well and match each other.
+FIX (what works): generate Jesus shots with the LOCK v3 paragraph in the prompt but do
+NOT attach the portrait (genshot MBM_NOREF=1 / pass no --ref). You get proper scenes
+with a consistent Middle-Eastern face. Only reach for the attached ref if a future model
+build stops echoing. NOTE for the gate/orders: the face law's GOAL (same face every
+picture) is met by the TEXT lock; the "attach the portraits" step backfires with the
+current Nano Banana and should be treated as optional until it stops echoing.
+Machines building face-shown rows: if your Jesus stills are ~identical small files, this
+is why — regenerate them text-only.
