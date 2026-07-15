@@ -80,28 +80,21 @@ If JESUS-MASTER-REF/ is empty and candidates are already pushed awaiting Cameron
 pick, do NOT idle and do NOT build Jesus stills — build the narration + prompts +
 non-Jesus stills of your next row, or say in one line you are blocked on the pick.
 
-## FLOW ACCESS — driver first, extension NEVER required (2026-07-15)
-
-The Claude Chrome extension kept dropping connections and stalling machines. Flow is
-now driven by `media-production/flow_driver.py` (Playwright + a dedicated persistent
-Chrome profile). NO extension involved.
+## FLOW ACCESS — EXTENSION FIRST (corrected 2026-07-15 late: the driver's fresh
+profile forced needless logins and blocked the fleet — Cameron's daily Chrome is
+ALREADY logged into Flow)
 
 PREFLIGHT, in order:
-1. `python3 media-production/flow_driver.py check`
-   - prints `logged_in=True project=saved` → ready. Generate stills with:
-     `python3 media-production/flow_driver.py gen --prompt "<FULL prompt>" \
-        --ref media-production/JESUS-MASTER-REF/jesus-face.jpeg \
-        --out <build-dir>/assets/<slug>.jpeg`
-     (--ref on every Jesus shot; also usable for other character locks. Then `Read`
-     the saved jpeg to QC — never screenshot.)
-2. If check fails: `pip install playwright` if missing, then
-   `python3 media-production/flow_driver.py open` and tell Cameron in ONE line:
-   "A Chrome window opened — log into your Google account in it once." Wait, re-check.
-3. `gen` prints the credit cost of each generation. Spending Flow credits is FINE
-   (they're prepaid and expire — see MONEY RULE #1). Only the paid API is banned.
-4. The extension/browser-tool path is FALLBACK only — never the default, never more
-   than two attempts before reporting the one-line blocker.
-
+1. **Claude Chrome extension** (the proven path — it built every existing video):
+   try to connect, twice max. If it connects → use the playbook's Flow procedure in
+   Cameron's normal Chrome. NO login needed — he's already signed in.
+2. If the extension won't connect: `python3 media-production/flow_driver.py check`.
+   If it prints logged_in=True → use the driver
+   (`gen --prompt ... --ref ... --out ...`; it prints each generation's credit cost).
+3. Only if BOTH fail: say in ONE line
+   "BLOCKED: need either the Claude extension enabled or one Google login in the
+   driver window (flow_driver.py open)" — then do browserless work (narration,
+   prompts, QC, queue) or say SESSION DONE. Never idle, never retry beyond two.
 ## SESSION HYGIENE (context is the scarcest resource)
 
 - One chat session builds/redoes AT MOST 4 videos, then hands off. The REPO is the
