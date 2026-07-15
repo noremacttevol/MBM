@@ -1,31 +1,21 @@
 #!/usr/bin/env python3
-"""Assemble Story Video #121 — Salt and Light (Matthew 5:13-16).
+"""Assemble Video #101 — The Still Small Voice (1 Kings 19:1-18).
 
-PHASE-1 STILLS-ONLY build (Law E): ten painted stills with slow Ken Burns drift,
-narration, serif captions, cream-italic KJV lines, closing question card. NO AI motion
-clips.
+PHASE-1 STILLS-ONLY (Law E): ten painted stills, slow Ken Burns drift, serif captions,
+cream-italic KJV (the Lord's exact words), closing question card. NO motion clips.
 
-Stills live in assets/<slug>.jpeg (generated $0 in Google Flow, Nano Banana 2, 9:16).
-CAPTIONS ARE VERBATIM: every caption is the exact spoken text of its narration segment
-(imported from make_narration.SEGMENTS and word-wrapped). KJV (Jesus) lines render in
-cream italic.
+Captions are CAPTION v2 (Cameron 2026-07-15): wide along the bottom, narrator <=2 lines,
+KJV <=3, long segments split into synced chunks. Copied from the build-48 template.
 
-Face-never (the #1 Law): Jesus appears in the three teaching stills (s1, s4, s10), each
-with the camera behind him / over his shoulder — the back of his head to us, his face
-never rendered. The illustration stills (salt, city, lamps, good works) carry no divine
-figure; the ordinary people and objects are shown fully.
+No Jesus figure appears in this video; God is a voice. The Lord's exact-KJV lines are
+in the scripture voice (Christopher) and render cream-italic; the narrator paraphrases.
 
-CARE FLAGS: none — GREEN, plain milk. Pure encouragement: you are salt and light.
+TWO SACRED SILENCES (music bed dies to true silence for both):
+  jv12   1 Kgs 19:12   "...and after the fire a still small voice." — THE whisper
+  jv18   1 Kgs 19:18   "...seven thousand in Israel..." — you are not alone
+No-Dead-Air is unaffected: the narrator never stops, only the music does.
 
-TWO SACRED SILENCES (the music bed dies to true silence for both):
-  jv14   Matthew 5:14  "Ye are the light of the world" — the identity
-  jv16   Matthew 5:16  "Let your light so shine" — the charge / the Seed
-
-Timing is COMPUTED from measured mp3 durations, every beat timed off the SPOKEN end of
-its audio; the build RAISES on any spoken gap over 2.5s.
-
-SIZE: 30MB cap (Cameron, 2026-07-14). Output: matthew-5_salt-and-light.mp4
-(SCRIPTURE-NAME LAW), 1080x1920 H.264 30fps, <30MB.
+Output: matthew-5_salt-and-light.mp4, 1080x1920 H.264 30fps, <30MB.
 """
 import os
 import subprocess
@@ -36,9 +26,8 @@ import make_narration  # SEGMENTS -> verbatim caption text per segment
 A = "assets"
 S = "segs"
 FPS = 30
-BIN = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "bin"))
-FF = os.path.join(BIN, "ffmpeg")
-FPROBE = os.path.join(BIN, "ffprobe")
+FF = "ffmpeg"
+FPROBE = "ffprobe"
 SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
 SERIF_BI = "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"
 CREAM = "0xF7F2E9"
@@ -61,19 +50,18 @@ S10 = "s10-carry-it-out.jpeg"
 TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
 KJV = {"jv13", "jv14", "jv15", "jv16"}
 
-# BEATS: (segment_name, still, zoom_dir). Within a run on the SAME still the zoom
-# alternates in/out so consecutive beats on one image never jump.
+# BEATS: (segment_name, still, zoom_dir). Zoom alternates in/out on a shared still.
 BEATS = [
     ("n1", S1, "in"),
-    ("jv13", S2, "in"),
+    ("jv13", S2, "in"),         # Ye are the salt of the earth
     ("n2", S2, "out"),
     ("n3", S3, "in"),
-    ("jv14", S4, "in"),                         # LIGHT OF THE WORLD — full silence
+    ("jv14", S4, "in"),         # LIGHT OF THE WORLD — sacred silence 1
     ("n4", S5, "in"),
     ("jv15", S6, "in"),
     ("n5", S6, "out"),
     ("n6", S7, "in"),
-    ("jv16", S8, "in"),                         # LET YOUR LIGHT SHINE — full silence
+    ("jv16", S8, "in"),         # LET YOUR LIGHT SHINE — sacred silence 2
     ("n7", S8, "out"),
     ("n8", S9, "in"),
     ("n9", S10, "in"),
@@ -98,7 +86,6 @@ def dur_of(path):
 
 
 def spoken_of(path):
-    """Duration of `path` up to its LAST spoken sound (trailing silence removed)."""
     tmp = f"{S}/_spoken.wav"
     run([FF, "-y", "-v", "error", "-i", path, "-af",
          "areverse,silenceremove=start_periods=1:start_threshold=-50dB:"
@@ -106,35 +93,80 @@ def spoken_of(path):
     return dur_of(tmp)
 
 
-def wrapped(name):
-    return "\n".join(textwrap.wrap(TEXT[name], width=34))
+# ---- CAPTION SYSTEM v2 (copied byte-for-behaviour from build-48) ----
+def sentences(text):
+    import re
+    return [p for p in re.split(r"(?<=[.!?;:]) +", text) if p]
 
 
-def caption_overlay(seg_id, dur, text, kjv):
-    tf = f"{S}/{seg_id}.txt"
-    with open(tf, "w") as f:
-        f.write(text)
+def chunk_caption(text, width, max_lines):
+    out, cur = [], ""
+    for s in sentences(text):
+        cand = (cur + " " + s).strip()
+        if len(textwrap.wrap(cand, width)) <= max_lines:
+            cur = cand
+            continue
+        if cur:
+            out.append(cur)
+        if len(textwrap.wrap(s, width)) <= max_lines:
+            cur = s
+        else:
+            piece = ""
+            for frag in s.split(", "):
+                cand2 = (piece + ", " + frag).strip(", ").strip()
+                if len(textwrap.wrap(cand2, width)) <= max_lines:
+                    piece = cand2
+                else:
+                    if piece:
+                        out.append(piece)
+                    piece = frag
+            cur = piece
+    if cur:
+        out.append(cur)
+    return out
+
+
+def caption_layers(seg_id, dur, spoken_end, text, kjv):
+    # NOTE: this ffmpeg build renders a raw '\n' in a drawtext textfile as a .notdef
+    # tofu box (□) at every wrap point (text_shaping=0 does NOT help). So we NEVER put
+    # a newline in a textfile — each wrapped LINE is its own drawtext layer, stacked
+    # from the bottom. Adjacent per-line boxes (boxborderw) overlap into one clean bar.
     if kjv:
-        font, size, color = SERIF_BI, 45, "0xFFF3DC"
+        font, size, color, width, maxl = SERIF_BI, 46, "0xFFF3DC", 38, 3
     else:
-        font, size, color = SERIF, 33, "white"
-    # This story is BRIGHT — sunlit hillsides and lamplit interiors. The box alpha is
-    # tuned to the LIGHTEST frame (the sunlit teaching hillsides) so white/cream text
-    # stays legible, while the lower band keeps the scene readable above it
-    # (CAPTION-LEGIBILITY law). Darker box than the night videos because the frames
-    # behind the captions are bright.
-    fade_out = max(0.0, dur - 0.55)
-    return (f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
-            f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
-            f"fontcolor={color}:line_spacing=13:x=(w-text_w)/2:"
-            f"y=h-165-text_h:"
-            f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
-            f"box=1:boxcolor=black@0.6:boxborderw=22,"
-            f"fade=t=in:st=0:d=0.5:alpha=1,"
-            f"fade=t=out:st={fade_out}:d=0.5:alpha=1[cap]")
+        font, size, color, width, maxl = SERIF, 34, "white", 48, 2
+    lh = int(size * 1.34)
+    chunks = chunk_caption(text, width, maxl)
+    total = sum(len(c) for c in chunks) or 1
+    t0, t1 = 0.15, max(0.6, min(dur - 0.2, spoken_end + 0.35))
+    filters, labels = [], []
+    acc = 0
+    for i, c in enumerate(chunks):
+        cs = t0 + (t1 - t0) * acc / total
+        acc += len(c)
+        ce = t0 + (t1 - t0) * acc / total
+        fo = max(cs, ce - 0.35)
+        lines = textwrap.wrap(c, width)
+        L = len(lines)
+        for j, ln in enumerate(lines):
+            tf = f"{S}/{seg_id}_{i}_{j}.txt"
+            with open(tf, "w") as f:
+                f.write(ln)
+            # bottom line sits at ~h-120-texth; earlier lines stack upward by lh
+            y = f"h-120-text_h-{(L - 1 - j) * lh}"
+            filters.append(
+                f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
+                f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
+                f"fontcolor={color}:x=(w-text_w)/2:y={y}:"
+                f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
+                f"box=1:boxcolor=black@0.58:boxborderw=22,"
+                f"fade=t=in:st={cs:.2f}:d=0.35:alpha=1,"
+                f"fade=t=out:st={fo:.2f}:d=0.35:alpha=1[cap{seg_id}{i}x{j}]")
+            labels.append(f"[cap{seg_id}{i}x{j}]")
+    return filters, labels
 
 
-def build_still(seg_id, src, dur, zdir, cap_text, kjv, first):
+def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, kjv, first):
     frames = int(dur * FPS)
     if zdir == "in":
         z = f"1.001+0.09*on/{frames}"
@@ -144,20 +176,37 @@ def build_still(seg_id, src, dur, zdir, cap_text, kjv, first):
             f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"d={frames}:s=2160x3840:fps={FPS},"
             f"scale=1080:1920:flags=lanczos")
-    capf = caption_overlay(seg_id, dur, cap_text, kjv)
+    capf, labels = caption_layers(seg_id, dur, spoken_end, cap_text, kjv)
     tail = ",fade=t=in:st=0:d=1.0" if first else ""
-    fc = f"{base}[b];{capf};[b][cap]overlay=format=auto{tail}[v]"
+    steps, cur = [], "b"
+    for i, lab in enumerate(labels):
+        last = (i == len(labels) - 1)
+        nxt = "v" if last else f"b{i+1}"
+        steps.append(f"[{cur}]{lab}overlay=format=auto"
+                     + (tail if last else "") + f"[{nxt}]")
+        cur = nxt
+    fc = f"{base}[b];" + ";".join(capf) + ";" + ";".join(steps)
     run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
          "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
 
 
 def build_card(dur, text):
-    tf = f"{S}/card.txt"
-    with open(tf, "w") as f:
-        f.write("\n".join(textwrap.wrap(text, width=30)))
-    vf = (f"drawtext=fontfile={SERIF}:textfile={tf}:fontsize=50:"
-          f"fontcolor={INK}:line_spacing=24:x=(w-text_w)/2:y=(h-text_h)/2,"
-          f"fade=t=in:st=0:d=0.8,fade=t=out:st={dur-0.8}:d=0.8")
+    # per-line drawtext (no '\n' textfile — see caption_layers note on the tofu bug)
+    size = 52
+    lh = int(size * 1.5)
+    lines = textwrap.wrap(text, width=30)
+    N = len(lines)
+    layers = []
+    for j, ln in enumerate(lines):
+        tf = f"{S}/card_{j}.txt"
+        with open(tf, "w") as f:
+            f.write(ln)
+        # vertically centered block: line j offset from center
+        y = f"(h-{lh})/2+{(j - (N - 1) / 2) * lh:.0f}"
+        layers.append(
+            f"drawtext=fontfile={SERIF}:textfile={tf}:fontsize={size}:"
+            f"fontcolor={INK}:x=(w-text_w)/2:y={y}")
+    vf = ",".join(layers) + f",fade=t=in:st=0:d=0.8,fade=t=out:st={dur-0.8}:d=0.8"
     run([FF, "-y", "-f", "lavfi",
          "-i", f"color=c={CREAM}:s=1080x1920:r={FPS}:d={dur}",
          "-vf", vf] + ENC + [f"{S}/card.mp4"])
@@ -212,7 +261,6 @@ def main():
     audio_place.append(("audio/card.mp3", card_start + LEAD))
     total = t + card_vdur
 
-    # ---- on-paper silence map: prove no spoken gap exceeds 2.5s BEFORE mixing ----
     worst, worst_at = 0.0, None
     prev_end = None
     for name, _s, _z, _v, a_start, _k in timeline:
@@ -220,20 +268,15 @@ def main():
             worst, worst_at = a_start - prev_end, name
         prev_end = a_start + spoken[name]
     print(f"total runtime: {total:.1f}s ({total/60:.2f} min)", flush=True)
-    print(f"worst spoken gap: {worst:.2f}s before {worst_at} "
-          f"(No-Dead-Air law: must be <= 2.5s)", flush=True)
+    print(f"worst spoken gap: {worst:.2f}s before {worst_at} (must be <= 2.5s)", flush=True)
     if worst > 2.5:
-        raise SystemExit(f"DEAD AIR: {worst:.2f}s gap before {worst_at} "
-                         f"exceeds the 2.5s law")
-    print(f"sacred silence 1 (light of the world): jv14 at {start_of['jv14']:.1f}s",
-          flush=True)
-    print(f"sacred silence 2 (let your light shine): jv16 at {start_of['jv16']:.1f}s",
-          flush=True)
+        raise SystemExit(f"DEAD AIR: {worst:.2f}s gap before {worst_at} exceeds 2.5s")
+    print(f"sacred silence 1 (light of the world): jv14 at {start_of['jv14']:.1f}s", flush=True)
+    print(f"sacred silence 2 (let your light shine): jv16 at {start_of['jv16']:.1f}s", flush=True)
 
-    # ---- render every still beat ----
     for i, (seg_id, still, zdir, vdur, _a, kjv) in enumerate(timeline):
-        build_still(seg_id, still, vdur, zdir, wrapped(seg_id), kjv,
-                    first=(i == 0))
+        build_still(seg_id, still, vdur, zdir, LEAD + spoken[seg_id],
+                    TEXT[seg_id], kjv, first=(i == 0))
     build_card(card_vdur, TEXT["card"])
 
     with open(f"{S}/concat.txt", "w") as f:
@@ -243,7 +286,6 @@ def main():
     run([FF, "-y", "-f", "concat", "-safe", "0", "-i", f"{S}/concat.txt",
          "-c", "copy", f"{S}/video_silent.mp4"])
 
-    # ---- audio: narration at computed offsets + warm beds around two silences ----
     p1_end = start_of["jv14"] + spoken["jv14"]
     p2_end = start_of["jv16"] + spoken["jv16"]
     beds = [
@@ -251,7 +293,7 @@ def main():
         (p1_end + 1.0, start_of["jv16"] - 1.0, "a"),
         (p2_end + 1.0, card_start - 0.8, "a"),
     ]
-    print(f"music: bed out at {start_of['jv14'] - 1.2:.1f}s, silent through jv14 "
+    print(f"music: bed out at {start_of['jv12'] - 1.2:.1f}s, silent through jv14 "
           f"(ends {p1_end:.1f}s); returns; silent again through jv16 "
           f"(ends {p2_end:.1f}s)", flush=True)
 
@@ -277,7 +319,6 @@ def main():
         "-map", "[aout]", "-t", f"{total:.2f}", "-c:a", "aac", "-b:a", "160k",
         f"{S}/audio_mix.m4a"])
 
-    # ---- loudness toward -15 LUFS ----
     probe = subprocess.run(
         [FF, "-i", f"{S}/audio_mix.m4a", "-af", "ebur128", "-f", "null", "-"],
         capture_output=True, text=True)
@@ -289,15 +330,15 @@ def main():
     gain = max(-6.0, min(10.0, -15.0 - lufs)) if lufs is not None else 0.0
     print(f"loudness: measured {lufs} LUFS, applying {gain:+.1f} dB", flush=True)
 
-    # ---- final mux: the ONLY lossy generation. 30MB cap; never starve the bitrate. ----
     OUT = "matthew-5_salt-and-light.mp4"
-    A_KBPS, MUX = 96, 20
-    vcap = int(29.5 * 8000 / total) - A_KBPS - MUX
+    A_KBPS = 96
+    MUX = 20
+    vcap = int(29.0 * 8000 / total) - A_KBPS - MUX
     if vcap < 400:
         raise SystemExit(
-            f"BITRATE STARVED even at 30MB: {total:.0f}s only leaves {vcap} kbps "
-            f"of video (need >=400). Shorten the script — do not ship blocking.")
-    print(f"video budget: {vcap} kbps ({total:.0f}s, 30MB cap)", flush=True)
+            f"BITRATE STARVED: {total:.0f}s leaves only {vcap} kbps inside the 30MB "
+            f"law (need >=400). Shorten the script — do not ship blocking.")
+    print(f"video budget: {vcap} kbps ({total:.0f}s, {A_KBPS}k audio)", flush=True)
 
     size, crf = 0.0, 20
     for crf in (20, 21, 22, 23, 24):
@@ -309,11 +350,10 @@ def main():
              "-af", f"volume={gain:.1f}dB,alimiter=limit=0.95",
              "-c:a", "aac", "-b:a", f"{A_KBPS}k", "-movflags", "+faststart", OUT])
         size = os.path.getsize(OUT) / 1e6
-        if size <= 29.5:
+        if size <= 29.3:
             break
         print(f"  {size:.1f} MB at crf {crf} — over, stepping up", flush=True)
-    print(f"DONE: {OUT}  {size:.1f} MB, {total:.1f}s (crf {crf}, vcap {vcap}k)",
-          flush=True)
+    print(f"DONE: {OUT}  {size:.1f} MB, {total:.1f}s (crf {crf}, vcap {vcap}k)", flush=True)
 
 
 if __name__ == "__main__":
