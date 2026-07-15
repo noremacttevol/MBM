@@ -38,7 +38,7 @@ rows. Do not assume approval.
 | 11 | Calming the storm | Mark 4 | ✅ | ✅ | ✅ | ⬜ | v3 REDO CLAIMED Machine A 2026-07-15 (WIP — face-shown, 7 Jesus stills regenerating; re-review the face) |
 | 12 | Blind Bartimaeus | Mark 10 | ✅ | ✅ | ✅ | ✅ | live; **v3 REDONE 2026-07-15** (Jesus s6/s9/s11 now FACE-SHOWN, text-locked to master; build.py made cross-platform; kept detailed non-Jesus stills — re-review) |
 | 13 | Through the roof | Mark 2 | ✅ | ✅ | ✅ | ✅ | live |
-| 14 | The ten lepers | Luke 17 | ✅ | ✅ | ✅ | ✅ | live |
+| 14 | The ten lepers | Luke 17 | ✅ | ✅ | ✅ | ✅ | live; **v3 REDO WIP Machine A 2026-07-15** — s1/s4/s10 regenerated FACE-SHOWN & good, build.py made cross-platform; s11 STILL PENDING (Flow logged out mid-run). TO FINISH: log into Flow, `MBM_NOREF=1 genshot --file build-14 <s11 prompt in scratchpad redo14.tsv>`, then rebuild + push. mp4 NOT yet rebuilt. |
 | 15 | The centurion | Matt 8 | ✅ | ✅ | ✅ | ✅ | live |
 | 16 | Mary and Martha | Luke 10 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
 | 17 | Jesus wept (Lazarus) | John 11 | ✅ | ✅ | ✅ | ✅ | live (beard fix shipped) |

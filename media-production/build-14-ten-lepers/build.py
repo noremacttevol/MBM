@@ -25,17 +25,15 @@ Output: luke-17_ten-lepers.mp4 (SCRIPTURE-NAME LAW), 1080x1920 H.264 30fps.
 import os
 import subprocess
 
-FF = ("C:/Users/ellil/AppData/Local/Microsoft/WinGet/Packages/"
-      "Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      "ffmpeg-8.1.2-full_build/bin/ffmpeg.exe")
-FFPROBE = FF.replace("ffmpeg.exe", "ffprobe.exe")
+import shutil
+FF = shutil.which("ffmpeg") or "ffmpeg"
+FFPROBE = shutil.which("ffprobe") or "ffprobe"
 
 A = "assets"
 S = "segs"
 FPS = 30
-# Windows fonts; the drive-letter colon must be escaped inside a filter.
-SERIF = "C\\:/Windows/Fonts/georgia.ttf"
-SERIF_BI = "C\\:/Windows/Fonts/georgiai.ttf"
+SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
+SERIF_BI = "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"
 CREAM = "0xF7F2E9"
 INK = "0x3B2A1E"
 
