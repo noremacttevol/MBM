@@ -70,7 +70,7 @@ rows. Do not assume approval.
 | 43 | The wedding garment | Matt 22 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 — APPROVED 2026-07-15 (batch) |
 | 44 | The two debtors | Luke 7 | ✅ | ✅ | ✅ | ⬜ | built Computer B 2026-07-14 (mp4 committed cb2ffd4) — APPROVED 2026-07-15 (batch) |
 | 45 | The wicked tenants | Mark 12 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 (Flow $0, CARE R+J, violence off-screen) — APPROVED 2026-07-15 (batch) |
-| 46 | The seed growing secretly | Mark 4 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine A 2026-07-14 |
+| 46 | The seed growing secretly | Mark 4 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-15 (Flow $0, GREEN restful) — awaiting your yes |
 | 47 | Houses on rock and sand | Matt 7 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 (Flow images, 0 API cost) — APPROVED 2026-07-15 (batch) |
 | 48 | New wine, old bottles | Mark 2 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 — APPROVED 2026-07-15 (batch) |
 | 49 | Water to wine at Cana | John 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
