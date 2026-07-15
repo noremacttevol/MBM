@@ -19,6 +19,13 @@ money Cameron did not authorize. (The local/free tools are fine and required:
 
 ---
 
+## 🛑 BUILD LINE (Cameron, 2026-07-14): BUILD ROWS 1–100 ONLY. HOLD 101–200.
+
+The catalog's back half is being reworked to a 100 wonderer / 50 bridge / 50 member
+structure (member tier = Bible-verses-that-carry-restoration-theology). Rows 101–200
+will be REPLACED. Do NOT claim or build any row above 100 until this file says the
+new list is locked. Already-built rows are unaffected.
+
 ## MACHINE ASSIGNMENTS
 
 Change nothing but your machine letter in your kickoff. Your rows are fixed:
@@ -26,9 +33,9 @@ Change nothing but your machine letter in your kickoff. Your rows are fixed:
 | Machine | Rows (in QUEUE.md) |
 |---|---|
 | **A** | 41, 42, 44, 45, 46, 49–83 |
-| **B** | 84–123 |
-| **C** | 124–163 |
-| **D** | 164–200 |
+| **B** | 84–100 (rows 101–123 ON HOLD) |
+| **C** | ON HOLD until the reworked list is locked — check this file each session |
+| **D** | ON HOLD until the reworked list is locked — check this file each session |
 
 Your NEXT job = the lowest-numbered row **in your range** where `Built` is ⬜ and
 `Claim` is empty. Never touch a row outside your range or one another machine claimed.
