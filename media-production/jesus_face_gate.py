@@ -1,397 +1,90 @@
 #!/usr/bin/env python3
+"""THE FACE GATE v3 — REVERSED BY CAMERON 2026-07-15.
+
+OLD LAW (dead, 2026-07-11..15): Jesus's face was never shown or prompted.
+NEW LAW (Cameron): Jesus's face IS shown — the SAME face in every picture, in every
+video: a Middle Eastern man, warm tan skin, dark brown-black hair, full dark beard,
+warm BROWN eyes. Modeled on the familiar depiction of Jesus in modern Christian art,
+but unmistakably Middle Eastern — never caucasian, never pale, never blue-eyed,
+never blond. No halo, no glow.
+
+Consistency is enforced by IMAGE, not by words: the approved portraits in
+media-production/JESUS-MASTER-REF/ are attached (REF) to every generation where he
+appears. Prose never invents his face; the reference pictures ARE his face.
+
+What this gate now checks in a build's PROMPTS.md:
+  FAIL if a shot mentions Jesus but is missing the exact JESUS LOCK v3 paragraph.
+  FAIL if a Jesus shot is missing its "REF: jesus-master-ref" line.
+  FAIL if ANY prompt contains banned drift language (caucasian/pale/blue eyes/
+       blond/halo/glow) — the wrong-Jesus words.
+Exit 0 = safe to generate. Same usage as before:
+  python3 media-production/jesus_face_gate.py --dir <build-folder>
 """
-jesus_face_gate.py — THE FACE GATE (Cameron, 2026-07-11, the Face Law)
-
-Cameron's law: we do NOT know what Jesus looked like, and no AI helping make
-these videos is allowed to prompt Google Flow for a picture or clip that
-CONSTRUCTS his face. Every story that builds a different invented face for the
-Lord pulls the viewer onto the artwork instead of the story, and putting a
-made-up face on him is not good worship. He stays a "mystery" figure: seen from
-BEHIND, OVER-THE-SHOULDER, or AT A DISTANCE — a real, warm, Middle Eastern human
-presence whose FACE is simply never in the frame.
-
-This script is the mechanical gate that enforces that BEFORE any credit is spent.
-It reads the written prompt sheets for a video and FAILS (exit code 1) if:
-
-  1. FORBIDDEN — a sentence that names Jesus also contains face-constructing
-     language (face, eyes, profile, portrait, close-up, expression, smile,
-     looking at the camera, three-quarter view, jaw/cheek/nose/mouth/brow, etc.).
-
-  2. MISSING CUE — a prompt paragraph that stages Jesus does NOT contain any
-     approved face-hiding camera cue (from behind / over-the-shoulder / at a
-     distance / face turned away / camera behind him ...). If nothing in the
-     paragraph tells Flow to keep the camera off his face, Flow will invent one.
-
-It PASSES (exit 0) only when every Jesus prompt is provably face-safe on paper.
-
-This gate does NOT judge other characters — their faces are allowed and SHOULD
-stay consistent within a story so viewers can follow it. It only guards Jesus.
-
-It is a paper gate, not a replacement for the human high-zoom face audit of the
-finished render (§5 QC). A prompt that fails here must be fixed before Flow.
-
-USAGE
-  python3 jesus_face_gate.py                # auto-scan every build-*/ prompt sheet
-  python3 jesus_face_gate.py FILE [FILE...] # check specific files
-  python3 jesus_face_gate.py --dir build-15-centurion
-
-Exit code 0 = PASS (safe to generate). Exit code 1 = FAIL (fix before Flow).
-"""
-
-import sys
-import os
+import argparse
 import re
-import glob
+import sys
+from pathlib import Path
 
-# ---------------------------------------------------------------------------
-# The words that name Jesus in a prompt. We deliberately do NOT include bare
-# pronouns ("he", "him") — too noisy — so prompt sheets should name him at least
-# once per paragraph that stages him (which good prompts already do).
-# ---------------------------------------------------------------------------
-JESUS_TOKENS = [
-    r"jesus",
-    r"christ",
-    r"the lord\b",
-    r"the master\b",
-    r"the messiah\b",
-    r"the saviou?r\b",
-    r"the teacher\b",
-    r"rabboni",
-    r"the son of god",
+LOCK_V3 = (
+    "JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical "
+    "face, hair and beard in every picture: a Middle Eastern Jewish man of about "
+    "thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy "
+    "hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream "
+    "wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, "
+    "never blue-eyed, never blond."
+)
+
+BANNED = [
+    r"\bcaucasian\b", r"\bpale skin\b", r"\bwhite skin\b", r"\bfair[- ]skinned\b",
+    r"\bblue eyes\b", r"\bblue[- ]eyed\b", r"\bblond\b", r"\bblonde\b",
+    r"\bgolden hair\b", r"\bhalo\b", r"\bglowing face\b", r"\brim[- ]light\b",
 ]
 
-# ---------------------------------------------------------------------------
-# FORBIDDEN language, in two tiers.
-#
-# HARD_FORBIDDEN: language that can ONLY mean his face is shown/fixed. If any of
-# these appears in the SAME sentence as a Jesus token, the prompt is rejected —
-# no exceptions. (A "three-quarter view of Jesus" or "his eyes" cannot be hidden.)
-#
-# SOFT_FACE: the bare word "face" and kin. This is flagged ONLY when the sentence
-# does NOT also contain a hiding cue — because "his face is turned away, never
-# seen" is GOOD staging, while "his face soft and warm" is a violation. The
-# difference is whether the same sentence says the face is hidden.
-#
-# NOTE: "hand"/"hands" are in neither list. His Middle Eastern hands may show;
-# only the FACE is withheld.
-# ---------------------------------------------------------------------------
-HARD_FORBIDDEN = [
-    r"\bcountenance\b", r"\bvisage\b",
-    r"\bprofile\b", r"\bside profile\b", r"\bside-profile\b",
-    r"\bportrait\b",
-    r"\bclose-?up\b", r"\bclose up\b",
-    r"\bthree-quarter\b", r"\bthree quarter\b", r"\b3/4 view\b",
-    r"\bfrontal\b", r"\bfront view\b", r"\bfront-on\b", r"\bfront on\b",
-    r"\bfacing the camera\b", r"\bfacing the viewer\b", r"\bfacing us\b",
-    r"\bfacing forward\b", r"\bturns to face\b", r"\bturning to face\b",
-    r"\blooking at the camera\b", r"\blooking into the camera\b",
-    r"\blooking at the viewer\b", r"\blooking toward the camera\b",
-    r"\beye contact\b", r"\bmeets? (?:the|her|his|their) eyes\b",
-    r"\bhis eyes\b", r"\bhis gaze\b", r"\bhis expression\b", r"\bhis features\b",
-    r"\bhis smile\b", r"\bhis cheek\b", r"\bhis cheeks\b", r"\bhis jaw\b",
-    r"\bhis jawline\b", r"\bhis nose\b", r"\bhis mouth\b", r"\bhis lips\b",
-    r"\bhis brow\b", r"\bhis brows\b", r"\bhis beard\b", r"\bhis chin\b",
-    r"\bhis forehead\b", r"\bhis teeth\b",
-    r"\bsmiling warmly\b",
-]
-SOFT_FACE = [
-    r"\bface\b", r"\bfaces\b", r"\bfacial\b", r"\bface-on\b", r"\bface on\b",
-]
-
-# ---------------------------------------------------------------------------
-# REQUIRED: at least one of these face-hiding camera cues must appear in any
-# paragraph that stages Jesus. If none is present, Flow has no instruction to
-# keep the camera off his face and will build one.
-# ---------------------------------------------------------------------------
-FACE_HIDING_CUES = [
-    r"from behind", r"behind him", r"behind his", r"behind the figure",
-    r"back of his head", r"back of the head", r"back of his",
-    r"his back to the camera", r"back to the camera", r"turned away",
-    r"over[- ]the[- ]shoulder", r"over his shoulder", r"over the man'?s shoulder",
-    r"at a distance", r"in the distance", r"distant figure", r"a distance",
-    r"far off", r"far away", r"far-?off", r"seen from behind", r"too distant",
-    r"too far", r"far too distant", r"never seen", r"never visible",
-    r"not visible", r"never shown",
-    r"face turned away", r"face away", r"face is not shown", r"face not shown",
-    r"face hidden", r"no view of his face", r"his face is never",
-    r"no face", r"no faces", r"face too", r"faces? too (?:far|distant)",
-    r"camera behind", r"camera stays behind", r"away from view", r"away from",
-    r"on the far side", r"far side", r"silhouetted from behind",
-    r"only his back", r"only the back", r"his shoulder and hair",
-    r"reaching hand", r"hand and forearm", r"only the hand", r"hands only",
-    r"his back,? ", r"back and", r"solid man in the moonlight",
-]
-
-# A paragraph clearly stages Jesus (as opposed to merely mentioning him in
-# narration/notes) if it also reads like a Flow prompt: it describes a shot.
-# We treat ANY paragraph containing a Jesus token as needing a cue, but we skip
-# obvious non-prompt lines (checklist items, narration script, headers) via
-# lightweight filters below.
-SKIP_LINE_HINTS = [
-    "narrat", "kjv", "voice:", "seed question", "closing card", "must show",
-    "must never show", "- [ ]", "- [x]",
-]
-
-sentence_split = re.compile(r"(?<=[.!?;:])\s+|\n")
+JESUS_WORDS = re.compile(r"\b(jesus|the lord|the saviour|the savior|christ)\b", re.I)
+SHOT = re.compile(r"^##\s+", re.M)
 
 
-def compile_all(patterns):
-    return [re.compile(p, re.IGNORECASE) for p in patterns]
-
-
-JESUS_RE = compile_all(JESUS_TOKENS)
-HARD_RE = compile_all(HARD_FORBIDDEN)
-SOFT_RE = compile_all(SOFT_FACE)
-CUE_RE = compile_all(FACE_HIDING_CUES)
-
-
-def has_jesus(text):
-    return any(r.search(text) for r in JESUS_RE)
-
-
-def has_cue(text):
-    return any(r.search(text) for r in CUE_RE)
-
-
-# A negation word in the same sentence as "face" almost always means the face is
-# being WITHHELD ("face NEVER shown", "no face", "face is not visible") — the
-# opposite of a face-generating prompt. So SOFT "face" next to a negation is safe.
-NEG_RE = re.compile(r"\b(never|not|no|without|hidden|unseen|obscured|nor)\b|n't",
-                    re.IGNORECASE)
-
-
-def find_forbidden(text):
-    """Return the list of forbidden face-terms that make THIS sentence a FAIL.
-
-    HARD terms always count. SOFT terms (the bare word "face") count only when the
-    sentence neither gives a hiding cue NOR negates the face — so "his face is
-    turned away, never seen" and "Jesus's face — NEVER shown" pass, while "his
-    face soft and warm" fails.
-    """
-    hits = []
-    for r in HARD_RE:
-        m = r.search(text)
-        if m:
-            hits.append(m.group(0))
-    if not has_cue(text) and not NEG_RE.search(text):
-        for r in SOFT_RE:
-            m = r.search(text)
-            if m:
-                hits.append(m.group(0))
-    return hits
-
-
-def is_probably_prompt_paragraph(para):
-    low = para.lower()
-    # A prompt paragraph is prose that stages a shot; skip narration/checklist.
-    for hint in SKIP_LINE_HINTS:
-        if hint in low:
-            return False
-    # Skip pure-heading paragraphs (every non-blank line starts with '#') and
-    # bullet/list-only paragraphs — these are documentation, not shot prose.
-    body = [ln.strip() for ln in para.splitlines() if ln.strip()]
-    if body and all(ln.startswith("#") for ln in body):
-        return False
-    if body and all(ln.startswith(("#", "-", "*", ">", "|", "(")) for ln in body):
-        return False
-    return True
-
-
-def check_file(path):
-    """Return (fails, warns) where each is a list of (lineno, msg)."""
+def check(md_path: Path):
+    text = md_path.read_text()
     fails = []
-    warns = []
-    try:
-        with open(path, "r", encoding="utf-8", errors="replace") as fh:
-            raw = fh.read()
-    except OSError as exc:
-        return [(0, f"could not read file: {exc}")], []
-
-    lines = raw.split("\n")
-
-    # 1a) SOFT-FACE check — sentence granularity (per line), so "his face soft"
-    #     fails but "his face turned away" passes via the cue/negation exception.
-    for lineno, line in enumerate(lines, start=1):
-        if not has_jesus(line):
-            continue
-        for sentence in sentence_split.split(line):
-            if not sentence.strip() or not has_jesus(sentence):
-                continue
-            hits = find_forbidden(sentence)
-            if hits:
-                fails.append(
-                    (lineno,
-                     f"Jesus + face language {sorted(set(hits))}: "
-                     f"\"{sentence.strip()[:140]}\"")
-                )
-
-    # 1b) HARD-FORBIDDEN block scan — restaged sheets name Jesus once in a
-    #     "JESUS LOCK" and then say "he", so a "three-quarter"/"profile"/"his eyes"
-    #     a few lines later has no Jesus token on its own line. Scan every
-    #     Jesus-containing PARAGRAPH for HARD terms anywhere in it, and flag the
-    #     exact line. (SOFT "face" stays sentence-scoped above to allow "face
-    #     turned away"; HARD terms can never mean a hidden face.)
-    for para_lines, para_start in _iter_paragraphs(lines):
-        para = "\n".join(para_lines)
-        if not has_jesus(para) or not is_probably_prompt_paragraph(para):
-            continue
-        for i, line in enumerate(para_lines):
-            # Check clause by clause so a negated term ("NEVER a portrait") in one
-            # clause doesn't excuse a positive term ("seen three-quarter") in another.
-            for clause in re.split(r"[,;:]", line):
-                if NEG_RE.search(clause):
-                    continue  # "never a portrait / not a close-up" — a good instruction
-                # Skip a slash-enumeration of the banned words themselves — e.g. a
-                # rule reminder "(face / eyes / profile / three-quarter / features)".
-                # Two-plus face terms joined by slashes is documentation, not a shot.
-                if "/" in clause:
-                    n = sum(1 for r in (HARD_RE + SOFT_RE) if r.search(clause))
-                    if n >= 2:
-                        continue
-                for r in HARD_RE:
-                    m = r.search(clause)
-                    if m:
-                        ln = para_start + i
-                        already = any(f[0] == ln and m.group(0) in f[1]
-                                      for f in fails)
-                        if not already:
-                            fails.append(
-                                (ln,
-                                 f"Jesus block + hard face term "
-                                 f"['{m.group(0)}']: \"{line.strip()[:140]}\""))
-                        break
-
-    # 2) MISSING-CUE check — paragraph granularity.
-    for para_lines, para_start in _iter_paragraphs(lines):
-        _check_paragraph(para_lines, para_start, warns)
-
-    return fails, warns
+    idx = [m.start() for m in SHOT.finditer(text)] + [len(text)]
+    blocks = [text[idx[i]:idx[i + 1]] for i in range(len(idx) - 1)] if idx[:-1] else []
+    for b in blocks:
+        head = b.splitlines()[0][:70]
+        if JESUS_WORDS.search(b):
+            if LOCK_V3 not in b:
+                fails.append(f"MISSING JESUS LOCK v3 (byte-identical) in: {head}")
+            if not re.search(r"^\s*REF:.*jesus-master-ref", b, re.M | re.I):
+                fails.append(f"MISSING 'REF: jesus-master-ref' line in: {head}")
+    for pat in BANNED:
+        for m in re.finditer(pat, text, re.I):
+            ln = text[:m.start()].count("\n") + 1
+            fails.append(f"BANNED drift language {m.group(0)!r} at line {ln}")
+    return fails
 
 
-def _iter_paragraphs(lines):
-    """Yield (para_lines, start_lineno) for each blank-line-delimited paragraph."""
-    para_lines = []
-    para_start = 1
-    for lineno, line in enumerate(lines, start=1):
-        if line.strip() == "":
-            if para_lines:
-                yield para_lines, para_start
-            para_lines = []
-            para_start = lineno + 1
-        else:
-            para_lines.append(line)
-    if para_lines:
-        yield para_lines, para_start
-
-
-def _check_paragraph(para_lines, start_lineno, warns):
-    para = "\n".join(para_lines)
-    if not has_jesus(para):
-        return
-    if not is_probably_prompt_paragraph(para):
-        return
-    if not has_cue(para):
-        warns.append(
-            (start_lineno,
-             "Jesus staged with NO face-hiding camera cue "
-             "(need 'from behind' / 'over-the-shoulder' / 'at a distance' / "
-             "'face turned away' ...): "
-             f"\"{para.strip()[:140]}\"")
-        )
-
-
-def gather_default_targets():
-    here = os.path.dirname(os.path.abspath(__file__))
-    patterns = [
-        os.path.join(here, "build-*", "PROMPTS.md"),
-        os.path.join(here, "build-*", "PREFLIGHT.md"),
-        os.path.join(here, "build-*", "*PROMPT*.md"),
-        os.path.join(here, "build-*", "*prompt*.md"),
-    ]
-    found = []
-    for pat in patterns:
-        found.extend(glob.glob(pat))
-    # de-dup, stable order
-    seen = set()
-    out = []
-    for f in sorted(found):
-        if f not in seen:
-            seen.add(f)
-            out.append(f)
-    return out
-
-
-def main(argv):
-    args = argv[1:]
-    targets = []
-    if not args:
-        targets = gather_default_targets()
-        if not targets:
-            print("FACE GATE: no prompt sheets found to check "
-                  "(looked for build-*/PROMPTS.md and *PROMPT*.md).")
-            print("Pass files explicitly: python3 jesus_face_gate.py FILE ...")
-            return 0
-    elif args[0] == "--dir":
-        if len(args) < 2:
-            print("usage: jesus_face_gate.py --dir BUILD_DIR")
-            return 2
-        d = args[1]
-        # PROMPTS.md is the paste-into-Flow prompt sheet — the source of truth for
-        # what actually gets generated. Scan it (and any *PROMPT*.md). Only fall back
-        # to PREFLIGHT.md when there is NO prompt sheet, since PREFLIGHT is planning
-        # /checklist prose whose rule-statements mention "face" as documentation.
-        prompt_files = sorted(set(
-            glob.glob(os.path.join(d, "*PROMPT*.md"))
-            + glob.glob(os.path.join(d, "*prompt*.md"))
-        ))
-        if prompt_files:
-            targets = prompt_files
-        else:
-            pf = os.path.join(d, "PREFLIGHT.md")
-            targets = [pf] if os.path.exists(pf) else []
-        if not targets:
-            print(f"FACE GATE: no prompt sheets found in {d}")
-            return 2
-    else:
-        targets = args
-
-    total_fails = 0
-    total_warns = 0
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--dir", required=True)
+    args = ap.parse_args()
+    build = Path(args.dir)
+    md = build / "PROMPTS.md"
     print("=" * 72)
-    print("THE FACE GATE — the Face Law: Jesus's face is never prompted.")
+    print("THE FACE GATE v3 — same face, every picture (Cameron, 2026-07-15)")
     print("=" * 72)
-    for path in targets:
-        fails, warns = check_file(path)
-        rel = path
-        if not fails and not warns:
-            print(f"  PASS  {rel}")
-            continue
-        print(f"  ----  {rel}")
-        for lineno, msg in fails:
-            print(f"    FAIL  line {lineno}: {msg}")
-        for lineno, msg in warns:
-            print(f"    WARN  line {lineno}: {msg}")
-        total_fails += len(fails)
-        total_warns += len(warns)
-
+    if not md.exists():
+        sys.exit(f"No PROMPTS.md in {build}")
+    fails = check(md)
+    for f in fails:
+        print(f"    FAIL  {f}")
     print("-" * 72)
-    if total_fails == 0 and total_warns == 0:
-        print("RESULT: PASS — every Jesus prompt is face-safe. Safe to generate.")
-        return 0
-    print(f"RESULT: {total_fails} FAIL (face language), "
-          f"{total_warns} WARN (no face-hiding cue).")
-    if total_fails:
-        print("FAILs are hard stops: rewrite the prompt so Jesus is staged from")
-        print("behind / over-the-shoulder / at a distance, with NO face words,")
-        print("BEFORE spending a single Flow credit. (the Face Law.)")
-    else:
-        print("No hard FAILs, but every WARN paragraph stages Jesus with no")
-        print("camera instruction to keep the shot off his face — add one, or")
-        print("Flow will invent a face. Treat WARNs as blocking too.")
-    # WARNs are blocking: a Jesus prompt with no face-hiding cue is exactly how
-    # a face leaks in. Exit nonzero for either.
-    return 1
+    if fails:
+        print(f"RESULT: {len(fails)} FAIL. Every Jesus shot needs the byte-identical")
+        print("JESUS LOCK v3 paragraph + a 'REF: jesus-master-ref' line, and no")
+        print("wrong-Jesus drift words anywhere. Fix and re-run.")
+        sys.exit(1)
+    print("RESULT: PASS — every Jesus prompt is locked to the master face. Generate.")
 
 
 if __name__ == "__main__":
-    sys.exit(main(sys.argv))
+    main()

@@ -109,8 +109,20 @@ prose.
 
 ## BINDING LAWS (don't re-derive)
 
-Jesus's face is NEVER shown or prompted (camera behind / over-shoulder / at distance);
-**only Jesus wears cream/off-white** — dress everyone else in darker earth colors, in
+🛑 FACE LAW REVERSED (Cameron, 2026-07-15): Jesus's face IS SHOWN — the SAME face in
+every picture of every video. He is Middle Eastern: warm tan olive-brown skin,
+shoulder-length dark brown-black hair, full dark beard, warm BROWN eyes — the familiar
+modern-Christian depiction made unmistakably Middle Eastern. NEVER caucasian, pale,
+blue-eyed or blond. No halo, no glow. Consistency is enforced by IMAGE, not prose:
+every shot where he appears carries (a) the byte-identical JESUS LOCK v3 paragraph
+(the exact text lives in jesus_face_gate.py — copy it from there) and (b) a
+"REF: jesus-master-ref" line, and the generation ATTACHES the approved portraits from
+media-production/JESUS-MASTER-REF/ as character references. Show him a MODERATE
+amount — compose scenes naturally; he does not need a close-up in every frame, but
+when his face is in frame it must match the master ref exactly. QC every Jesus frame
+against the master portrait; ANY face drift = regenerate. jesus_face_gate.py (v3)
+now enforces this — it must still exit 0 before any generation.
+**Only Jesus wears cream/off-white** — dress everyone else in darker earth colors, in
 every prompt; two-voice (narrator `en-US-AndrewNeural`, modern paraphrase; Jesus
 `en-US-ChristopherNeural`, EXACT KJV only, no Multilingual voice); Phase-1
 **STILLS-ONLY**, no motion clips; Master Style Block byte-identical in every prompt;
@@ -138,7 +150,20 @@ caption_layers() + the new build_still() signature. COPY IT — do not re-derive
 Every NEW video must use it. Videos built with the old tall captions will be
 re-assembled in the remediation sweep (below).
 
-**REMEDIATION SWEEP (do after your range's new builds, or when Cameron asks):** for
+**🛑 THE v3 REDO (Cameron, 2026-07-15 — this supersedes and absorbs the remediation
+sweep; it is now THE priority job):** every already-built video gets REDONE under the
+new face law. Per video: (1) KEEP the narration scripts (copy make_narration.py; only
+fix homograph misreads with SPOKEN overrides); (2) KEEP every still where Jesus does
+not appear; (3) REGENERATE every still where Jesus appears, staged naturally with his
+face visible where the scene calls for it, locked to JESUS-MASTER-REF; (4) captions =
+CAPTION v2 (copy from the build-48 template); (5) full QC incl. face-match against the
+master portrait; (6) re-run build.py, gen_site_index.py, push. Row note: "v3 REDONE
+<date>". Do NOT start a redo until media-production/JESUS-MASTER-REF/ contains the
+approved portraits (Cameron picks the face first — if the folder is empty, build NEW
+rows under the new law instead? NO: if JESUS-MASTER-REF is empty, STOP and tell
+Cameron in one line that the master face awaits his pick.)
+
+**OLD REMEDIATION SWEEP (absorbed into the v3 redo above):** for
 each already-built video in your range: (1) ear-check all segments for homographs —
 regenerate ONLY offending audio segments with a TTS respelling; (2) port the caption-v2
 functions into that build's build.py; (3) re-run build.py (stills unchanged, $0),

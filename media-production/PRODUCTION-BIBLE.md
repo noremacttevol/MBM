@@ -240,6 +240,16 @@ words. Nothing here overrides the sacred pause before Jesus's KJV words.
 
 ### How Jesus is depicted — the first law, above all others
 
+> 🛑 **REVERSED BY CAMERON, 2026-07-15.** The face-never rule below is DEAD. Jesus's
+> face IS now shown — one standardized face, identical in every picture of every
+> video, enforced by the JESUS-MASTER-REF portrait images + JESUS LOCK v3 (see
+> FACTORY-ORDERS.md and jesus_face_gate.py v3). He is Middle Eastern — warm tan
+> skin, dark brown-black hair, full dark beard, warm brown eyes — never caucasian,
+> never pale, never blue-eyed, never blond; no halo, no glow. Everything below in
+> this section is kept for history only and no longer binds anyone. The parts that
+> SURVIVE: only Jesus wears cream; no halo/glow; compose scenes around the people;
+> he is Middle Eastern, always.
+
 - **His face is never shown or prompted.** We do not know what Jesus looked like. No
   prompt may build, reveal, or fix his face — no face, eyes, gaze, expression, smile,
   cheek, jaw, nose, mouth, brow, no portrait, no close-up, no "three-quarter" view of
