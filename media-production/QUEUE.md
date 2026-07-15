@@ -200,7 +200,7 @@ Appr and add it to this folder.
 | 166 | Baptized again, properly | Acts 19:1–6 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, God/Holy Ghost shown only as warm light—no figure/no dove, Paul consistent (balding, grey-streaked beard) across shots, modest baptism—no nudity, s2 rerolled to remove a painted border, caption-v2, 2 sacred silences kv5/kv6, 23.1MB/2:34; face-gate PASS). → GL: Baptism |
 | 167 | "I have chosen you, and ordained you" | John 15:16 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, the Lord/heaven shown only as warm light shaft—no figure/no dove, called ones in dark earth tones, s1 rerolled x2 (triptych→single fisherman), s7 rerolled (border), caption-v2, 2 sacred silences kv16a/kv16b, 24.2MB/2:35; face-gate PASS). → GL: Callings |
 | 168 | Born of water and of the Spirit | John 3:5 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, Nicodemus by night, the Lord/Spirit shown only as warm light—no figure/no dove, born-again dawn+shoot / gate-of-light imagery, s4 rerolled to drop a cream tallit, modest baptism, caption-v2, 2 sacred silences kv3/kv5 (born again→see / water+Spirit→enter), 23.4MB/2:45; face-gate PASS). → GL: Baptism |
-| 169 | "To fulfil all righteousness" | Matt 3:13–17 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 169 | "To fulfil all righteousness" | Matt 3:13–17 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine D 2026-07-15 (FACE-SHOWN — Jesus's baptism) |
 | 170 | The sacrament, worthily | 1 Cor 11:23–29 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 171 | "Else what shall they do which are baptized for the dead?" | 1 Cor 15:29 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 172 | The gospel preached to the dead | 1 Pet 3:18–20 | ⬜ | ⬜ | ⬜ | ⬜ |  |
