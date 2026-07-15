@@ -50,6 +50,7 @@ TITLES = {
     155: "A Falling Away First",
     156: "A Famine of Hearing the Word",
     157: "A Marvellous Work and a Wonder",
+    158: "The Stick of Judah and Joseph",
     161: "Called of God, as was Aaron",
 }
 
