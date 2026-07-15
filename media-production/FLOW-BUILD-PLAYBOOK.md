@@ -47,8 +47,17 @@
   where they buy quality or fewer rerolls (master face, Jesus close-ups, crowds) —
   Cameron's Flow credits are prepaid and expire monthly. Only the paid Gemini API
   stays banned. Keep a video roughly under 150 credits; note spend in the queue row.
-- Per still: click the prompt box, `type` the FULL prompt on ONE line (no embedded
-  newlines — Enter submits), click the submit arrow, `wait 10s`.
+- Per still (SUBMIT FIX 2026-07-15 — Cameron: machines were typing the prompt and
+  then STALLING, waiting for a human click; coordinate-clicks miss on different
+  screens. NEVER click the arrow by position and NEVER ask Cameron to click):
+  1. Click the prompt box, `type` the FULL prompt on ONE line.
+  2. Verify the text landed (javascript_tool):
+     `[...document.querySelectorAll('textarea,[contenteditable]')].map(e=>(e.value||e.innerText||'').length).filter(n=>n>50).length`
+     → must be >= 1. If 0, click the box and retype once.
+  3. SUBMIT with the page's own JS — this cannot miss on any screen size:
+     `[...document.querySelectorAll('button')].find(b=>(b.innerText||'').includes('arrow_forward')).click()`
+  4. `wait 10s`, then poll the gallery names JS below. If no new image after ~60s,
+     run step 3 once more (the first click can race the UI), then keep polling.
 
 **Download (clean jpeg, no zip, low-token):** the gallery thumbnails are a *virtualized*
 list — the `<img>` elements only mount when scrolled into view.
