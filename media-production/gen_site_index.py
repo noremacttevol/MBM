@@ -35,6 +35,7 @@ TITLES = {
     36: "The Shrewd Steward", 37: "The Rich Man and Lazarus", 38: "The Persistent Widow", 39: "The Pharisee and the Publican",
     40: "The Friend at Midnight", 43: "The Wedding Garment",
     41: "Counting the Cost", 42: "The Barren Fig Tree Spared",
+    45: "The Wicked Tenants",
     47: "Houses on Rock and Sand", 48: "New Wine, Old Bottles",
     84: "Calling the Fishermen", 124: "Gethsemane",
 }
