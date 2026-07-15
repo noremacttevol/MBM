@@ -45,6 +45,7 @@ TITLES = {
     121: "Salt and Light", 135: "The Rainbow Covenant",
     151: "If Any of You Lack Wisdom",
     152: "He Revealeth His Secret to the Prophets",
+    153: "The Restitution of All Things",
     161: "Called of God, as was Aaron",
 }
 
