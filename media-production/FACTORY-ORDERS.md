@@ -118,6 +118,14 @@ character/wardrobe locks written into every prompt the character appears in; no 
 gap over 2.5s; tell the whole story to the final verse; closing card is an invitation,
 never a fear-question. File name = `book-chapter_story-name.mp4`.
 
+**HOMOGRAPH LAW (added 2026-07-15 — the #135 "bow" defect):** edge-tts misreads
+scripture homographs. EAR-CHECK every segment containing: bow, wound, wind, tears,
+lead, sow/sows, live/lives, read, dove, bass, minute, use(d), close. If misread, fix
+the AUDIO ONLY via a spoken respelling — in make_narration.py keep the caption text
+exact, and add a SPOKEN override used only for TTS (e.g. TTS gets "beau" so "bow"
+says /boh/; captions still show the true KJV word). Pattern documented in the playbook.
+Re-listen to the fixed segment before assembly. A misread KJV word is a rejected video.
+
 ---
 
 ## PER-VIDEO LOOP (repeat until your range is empty)

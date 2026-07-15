@@ -143,3 +143,15 @@ list — the `<img>` elements only mount when scrolled into view.
   Fix: after any renumber, `git rm`/`rm -rf` the orphan `build-OLD-*` folders before
   building the new row. Reconcile by story NAME, not row number (CONTENT-CARE's flag
   table lags the renumber too — trust the name).
+
+## Homograph fix pattern (2026-07-15, from the #135 "bow" reject)
+edge-tts reads homographs wrong ("bow" in Gen 9 came out like taking a bow).
+Keep captions exact-KJV; steer ONLY the audio with a respelled TTS string:
+```python
+SPOKEN = {"jv13": "I do set my beau in the cloud"}   # TTS-only respelling
+...
+text_for_tts = SPOKEN.get(name, text)                # in the save loop
+```
+(build.py captions still read SEGMENTS text, so the screen stays true KJV.)
+Ear-check list before assembly: bow, wound, wind, tears, lead, sow, live(s),
+read, dove, bass, minute, use(d), close. Listen to any segment containing one.
