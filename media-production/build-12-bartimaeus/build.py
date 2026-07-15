@@ -11,12 +11,11 @@ Output: mark-10_bartimaeus.mp4, 1080x1920 H.264 30fps.
 import os
 import subprocess
 
-FF = ("C:/Users/ellil/AppData/Local/Microsoft/WinGet/Packages/"
-      "Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      "ffmpeg-8.1.2-full_build/bin/ffmpeg.exe")
+import shutil
+FF = shutil.which("ffmpeg") or "ffmpeg"
 A, S, FPS = "assets", "segs", 30
-SERIF = "C\\:/Windows/Fonts/georgia.ttf"
-SERIF_BI = "C\\:/Windows/Fonts/georgiai.ttf"
+SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
+SERIF_BI = "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"
 CREAM, INK = "0xF7F2E9", "0x3B2A1E"
 ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "16",
        "-pix_fmt", "yuv420p", "-r", str(FPS), "-an"]

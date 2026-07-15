@@ -36,7 +36,7 @@ rows. Do not assume approval.
 | 9 | The rich young ruler | Mark 10 | ✅ | ✅ | ✅ | ✅ | live |
 | 10 | The woman at the well | John 4 | ✅ | ✅ | ✅ | ✅ | live |
 | 11 | Calming the storm | Mark 4 | ✅ | ✅ | ✅ | ⬜ | v3 REDO CLAIMED Machine A 2026-07-15 (WIP — face-shown, 7 Jesus stills regenerating; re-review the face) |
-| 12 | Blind Bartimaeus | Mark 10 | ✅ | ✅ | ✅ | ✅ | live |
+| 12 | Blind Bartimaeus | Mark 10 | ✅ | ✅ | ✅ | ✅ | live; **v3 REDONE 2026-07-15** (Jesus s6/s9/s11 now FACE-SHOWN, text-locked to master; build.py made cross-platform; kept detailed non-Jesus stills — re-review) |
 | 13 | Through the roof | Mark 2 | ✅ | ✅ | ✅ | ✅ | live |
 | 14 | The ten lepers | Luke 17 | ✅ | ✅ | ✅ | ✅ | live |
 | 15 | The centurion | Matt 8 | ✅ | ✅ | ✅ | ✅ | live |
