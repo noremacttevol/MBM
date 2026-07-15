@@ -493,3 +493,30 @@ fire trusted keydown/keyup so React's onChange runs. Lessons that got #11's 6 st
 - The reusable wrapper is in this session's scratchpad (`genstills.py`): parses
   PROMPTS.md per slug, expands [STILL STYLE BLOCK], drops the `REF:` line, calls a
   clean-grab gen. Recreate from this note if gone.
+
+## CONTINUITY LOCK — same boat/crew across a multi-shot scene (2026-07-15, Machine A, #11)
+Cameron rejected #11 TWICE not for the face but because the BOAT (size/shape) and the
+NUMBER of people in it changed shot to shot and broke the story. Face-consistency alone
+isn't enough for a set that reuses one location/vehicle/group. Fix that worked:
+- Add byte-identical **BOAT LOCK** and **CREW LOCK** paragraphs (like JESUS LOCK v3) to
+  EVERY shot in the sequence. Be specific and countable: "one same large single-mast
+  Galilean fishing boat ... high curved prow and stern" and "Jesus + his TWELVE = 13 men
+  aboard, no more no fewer, the same full crowd every shot." Text-only NB2 held it
+  remarkably well once the locks were explicit — no reference image needed.
+- Make every in-boat shot a FULL, crowded boat (density reads as continuity even when you
+  can't count exactly). A shot that shows 2 men then one that shows 6 is what breaks it.
+- Face gate treats ANY block containing the token "Jesus" as a Jesus shot (needs the
+  LOCK+REF). For a wide shot where his face isn't shown (e.g. a distant fleet), DON'T
+  write "Jesus" — say "its full company of thirteen men" so the gate stays happy.
+- Reusable builder in scratchpad (build_prompts.py) emits PROMPTS.md from LOCK constants
+  + per-shot scene bodies, guaranteeing byte-identical locks. Recreate if gone.
+
+## SHARED-WORKING-TREE HAZARD (2026-07-15) — multiple sessions, ONE repo checkout
+Several Claude sessions (FleetView + an approval monitor) run against the SAME
+~/Desktop/Brain/MBM working tree. Another session's `git pull --rebase --autostash` (or a
+checkout) WILL clobber your UNCOMMITTED edits — my PROMPTS.md rewrite got reverted to HEAD
+mid-build. Defenses that worked: keep the prompt source in the scratchpad (outside the
+repo) and generate from there (MBM_PROMPTS env on genstills.py); commit your deliverable
+FAST; verify committed==disk (sha) before trusting; expect a `site/review.html` /
+`QUEUE.md` conflict on push and resolve the generated index by RE-RUNNING gen_site_index,
+not hand-merging. QUEUE.md auto-merges fine (row-level).
