@@ -210,7 +210,12 @@ def ensure_settings(page):
     page.keyboard.press("Escape")
     page.wait_for_timeout(500)
     if not aspect_ok:
-        raise SystemExit("could not set 9:16 aspect — refusing to generate a 16:9 still")
+        # Do NOT hard-abort (Cameron, 2026-07-15): the image usually still comes out
+        # vertical even when we couldn't confirm the chip. Warn and continue; the
+        # caller verifies the downloaded jpeg is taller than wide and rerolls only if
+        # it actually came out landscape.
+        print("  WARNING: could not confirm 9:16 on the chip — continuing anyway; "
+              "verify the saved jpeg is portrait and reroll only if it is landscape.")
 
 
 def cmd_gen(prompt, out, refs):
