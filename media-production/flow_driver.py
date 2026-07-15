@@ -245,6 +245,9 @@ def main():
     sub = ap.add_subparsers(dest="cmd", required=True)
     sub.add_parser("open")
     sub.add_parser("check")
+    sub.add_parser("show")
+    gr = sub.add_parser("grab")
+    gr.add_argument("--out", required=True)
     g = sub.add_parser("gen")
     g.add_argument("--prompt", required=True)
     g.add_argument("--out", required=True)
@@ -254,9 +257,60 @@ def main():
         cmd_open()
     elif a.cmd == "check":
         cmd_check()
+    elif a.cmd == "show":
+        cmd_show()
+    elif a.cmd == "grab":
+        cmd_grab(a.out)
     else:
         cmd_gen(a.prompt, a.out, a.ref)
 
 
 if __name__ == "__main__":
     main()
+
+
+def cmd_show(minutes=15):
+    """Open the saved project in a visible window and keep it open for Cameron."""
+    url = CONF.read_text().strip() if CONF.exists() else FLOW
+    with sync_playwright() as p:
+        ctx = launch(p, headless=False)
+        page = ctx.pages[0] if ctx.pages else ctx.new_page()
+        page.goto(url, wait_until="domcontentloaded")
+        print(f"Window open at the project for {minutes} minutes.")
+        time.sleep(minutes * 60)
+        ctx.close()
+
+
+def cmd_grab(out, wait_min=15):
+    """Poll the project for the NEWEST image and save it — Cameron generates by
+    hand, this fetches the result. Reuses the proven download JS."""
+    url = CONF.read_text().strip() if CONF.exists() else ""
+    if not url:
+        raise SystemExit("No saved project. Run: flow_driver.py open")
+    with sync_playwright() as p:
+        ctx = launch(p, headless=True)
+        page = ctx.pages[0] if ctx.pages else ctx.new_page()
+        page.goto(url, wait_until="domcontentloaded")
+        page.wait_for_timeout(6000)
+        before = page.evaluate(NAMES_JS) or []
+        print(f"watching for a new image (currently {len(before)})...")
+        newest = None
+        for _ in range(wait_min * 6):
+            page.wait_for_timeout(10000)
+            page.reload(wait_until="domcontentloaded")
+            page.wait_for_timeout(4000)
+            names = page.evaluate(NAMES_JS) or []
+            fresh = [n for n in names if n not in before]
+            if fresh:
+                newest = fresh[0]
+                break
+        if not newest:
+            raise SystemExit("No new image appeared while waiting.")
+        page.wait_for_timeout(2000)
+        data = page.evaluate(FETCH_JS, newest)
+        ctx.close()
+    if not data or "," not in data:
+        raise SystemExit("Download failed.")
+    Path(out).parent.mkdir(parents=True, exist_ok=True)
+    Path(out).write_bytes(base64.b64decode(data.split(",", 1)[1]))
+    print(f"saved {out} ({Path(out).stat().st_size // 1024} KB)")
