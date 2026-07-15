@@ -6,17 +6,29 @@ relearning everything. Read it, then read FLOW-BUILD-PLAYBOOK.md, then go.
 
 ## WHAT'S ALREADY DONE (do NOT rebuild these)
 Built + pushed this machine, all in the review queue (`site/review.html`):
-**#101–#116** (16 story videos) **and the #121 "Salt and Light" v3 REDO.**
-Every one: 10 painted 9:16 Flow stills at $0, two-voice narration, exact-KJV cream-italic
-captions, closing invitation card, ~2.5–3.5 min, <30 MB, QC'd (face/consistency, no halos,
-only-Jesus-in-cream, no dead air, no baked-in text, care flags).
+**#101–#119** (18 story videos) **and the #121 "Salt and Light" v3 REDO.**
+Every one: 10 painted 9:16 Flow stills at $0, narration, exact-KJV captions, closing
+invitation card, ~2.5–3.5 min, <30 MB, QC'd (face/consistency, no halos, only-Jesus-in-cream,
+no dead air, no baked-in text, care flags).
+
+**Session of 2026-07-15 (fresh Flow project 026b29c0) added #117, #118, #119:**
+- **#117 Hosea** — care D,L; redemption/price-paid, never the scandal; God as light.
+- **#118 Jonah** — care J; mercy IS the story, Nineveh spared on screen + card; fish a
+  reverent rescue not gore; storm=night.
+- **#119 Fourth man in the fire (Dan 3)** — care R; NO burning flesh. LESSON: the divine
+  "fourth" figure must be **FACELESS radiant light** — the model gave it a constructed
+  bearded face on the first pass (caught in QC, regenerated s6/s7). Daniel 3 has NO
+  God-speech, so it is **all-narrator, white captions** (KJV quotes are human speakers) —
+  build.py uses `KJV=set()` + a separate `SILENCE={"n3","n6"}` for the two music hushes.
+  Copy build-119's build.py as the template for any future no-God-speech story.
 
 ## RESUME POINT
-Next job = lowest ⬜ row in my range = **#117 Hosea buys her back (Hosea 1–3)**, then
-#118 Jonah, #119 Fourth man in the fire, #120 Job, #122 onward. **Check
-media-production/CONTENT-CARE.md for each row's care flags before storyboarding** (117 Hosea =
-care D,L: redemption at the price paid, scripture's economy, nothing explicit; 118 Jonah =
-mercy IS the story, Nineveh spared on screen and in the card; 119/120 etc.).
+Next job = lowest ⬜ row in my range = **#120 Job answered from the whirlwind (Job 38–42)**,
+then #122 onward (121 is done). **Check media-production/CONTENT-CARE.md for each row's care
+flags before storyboarding.** For #120 Job: God DOES speak (out of the whirlwind) — use the
+two-voice pattern (Christopher = God's exact KJV, cream-italic; two silences) like #117/#118,
+and copy build-118's build.py (God-voice template), NOT build-119's. God shown only as the
+whirlwind's light/storm, never a figure/face.
 
 ## THE PIPELINE IS FIXED AND PROVEN — how to build one video (≈20–40 min)
 1. `git pull --rebase --autostash`. Claim the row in QUEUE.md (stamp `CLAIMED Machine C

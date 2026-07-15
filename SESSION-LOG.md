@@ -1,3 +1,33 @@
+## 2026-07-15 — #117 Hosea, #118 Jonah, #119 Fourth man in the fire built (Machine C)
+
+Three videos built end-to-end on Machine C (`cameron-lovett-MS-7C91`), Phase-1 stills-only,
+Google Flow $0, all published to the review gallery (`site/review.html`) and pushed to
+`origin/main`. Resume next at **#120 Job**. Commit: this entry ships with the push below.
+
+- **#117 Hosea Buys Her Back (Hosea 1–3)** — `hosea-1_hosea-buys-her-back.mp4`, 3:04, 21.6MB.
+  Care D,L: redemption at the price paid, never the scandal; nothing explicit. Hosea shows his
+  face (earth colors); God shown only as warm light. Buy-back (Hosea 3:2) narrator voice; God
+  KJV 2:14 + 2:19-20 as the two cream-italic silences. Caught + fixed s3/s9 (Hosea had drifted
+  grey/aged with a green robe — relocked to dark hair + russet robe).
+- **#118 Jonah and the God Who Relents (Book of Jonah)** — `jonah-1_jonah-god-who-relents.mp4`,
+  2:58, 21.4MB. Care J: the MERCY is the story — Nineveh spared on screen (s9 whole city under
+  mercy-light, s10 the spared street with people + cattle) and in the card; no destruction
+  shown; the great fish a reverent rescue, not gore; storm=night. God KJV 3:2 + 4:11 two
+  silences; Jonah's "yet forty days" narrator voice.
+- **#119 The Fourth Man in the Fire (Daniel 3)** — `daniel-3_fourth-man-in-fire.mp4`, 3:02,
+  22.7MB. Care R: the fourth man IN the fire, NEVER burning flesh. **LESSON (important):** the
+  divine "fourth" must be rendered as **FACELESS radiant light** — the model gave it a
+  constructed bearded face on the first s6/s7 pass; caught in QC and regenerated to pure
+  featureless glowing light (no face, no dark void). Daniel 3 has no God-speech, so this one is
+  **all-narrator with white captions** (KJV quotes belong to human speakers) — build.py uses
+  `KJV=set()` plus a separate `SILENCE={"n3","n6"}` for the two music hushes. New template for
+  future no-God-speech stories.
+- **Housekeeping:** started a FRESH Flow project (026b29c0) at session start per the prior
+  handoff's speed fix — no rate-limit tripped across ~33 gens. Concurrent pushes from other
+  machines caused review.html rebase conflicts twice; resolved each by regenerating
+  review.html from the merged QUEUE.md and continuing the rebase (the file is generated, so
+  regen-and-continue is the correct resolution).
+
 ## 2026-07-15 — #121 Salt and Light built + THE-200 v2 migration (Machine C)
 
 **Video #121 Salt and Light (Matt 5:13-16)** built end-to-end on Machine C, Phase-1
