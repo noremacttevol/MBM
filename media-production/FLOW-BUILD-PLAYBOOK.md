@@ -1,0 +1,134 @@
+# FLOW-BUILD-PLAYBOOK — the fast, low-token way to build one video ($0)
+
+> Written 2026-07-15 (Machine C) after building #91 Gethsemane, #121 Salt & Light, and a
+> full betrayal-kiss set. This is the **proven, efficient procedure** distilled so the
+> next session spends less context / fewer tokens / less time for the SAME quality.
+> It changes NO pipeline file — it just records what already works. Read it once after
+> CREW-GUIDE + PRODUCTION-BIBLE laws + build-47 BUILD-STATUS, then follow it.
+>
+> Non-negotiables still bind: face-never, only-Jesus-cream, two-voice exact-KJV,
+> stills-only, night/day matches scripture, 30MB cap, closing card = invitation.
+
+---
+
+## The whole loop, in order (one video ≈ this and nothing more)
+
+1. `git pull --rebase`. In QUEUE.md find the lowest row **in your machine's range**
+   (FACTORY-ORDERS) with Built ⬜ and Claim empty. `mkdir build-NN-slug/assets`,
+   stamp `CLAIMED Machine X <date>` in that row, commit + push **before generating**.
+2. Read the KJV passage. Check CONTENT-CARE by **story name** (its number table can lag a
+   catalog renumber — trust the name, not the row number).
+3. Write `PROMPTS.md` from a template (copy `build-48` or `build-41`). 8–12 stills.
+   Master Style Block byte-identical. Character/wardrobe locks in every prompt a
+   character appears in.
+4. `python3 media-production/jesus_face_gate.py --dir build-NN-slug` → **exit 0**.
+   Common trips: any facial word next to a Jesus token (`his cheek/beard/eyes/jaw/…`,
+   `profile`, `close-up`); and **header/law paragraphs that name "Jesus" but have no
+   hiding cue** — add "seen only from behind, his face never shown" to those too.
+5. **Flow burst** (below) — generate + QC + download each still.
+6. `python3 make_narration.py` (copy a template; two voices, exact-KJV lines).
+7. `python3 build.py` (copy a template; see the build.py notes below).
+8. QC the render: extract 3–4 frames with the bundled ffmpeg, `Read` them (KJV caption
+   exact + cream-italic + legible, face hidden, closing card an invitation).
+9. Tick **Prep+Built** in QUEUE.md (leave Appr — that's the monitor's job). Add the
+   title to `gen_site_index.py` TITLES, run it (see PATH note), commit index.html.
+10. `git add -A`, commit, `git pull --rebase`, `git push`. SESSION-LOG entry. Done.
+    **One video per chat** — then open a fresh chat and say "Continue".
+
+---
+
+## Flow $0 — the exact settings and the reliable download
+
+- One project, reused across the whole video (and even across videos — the download
+  logic below always grabs the newest, so a mixed gallery is fine).
+- Bottom prompt bar → set once: **Image · 9:16 · 1x · Nano Banana 2** → the chip must read
+  "🍌 Nano Banana 2 · 1x" and the panel says **"Generating will use 0 credits."** Never
+  "Nano Banana Pro" (x2 by default) and never the paid API.
+- Per still: click the prompt box, `type` the FULL prompt on ONE line (no embedded
+  newlines — Enter submits), click the submit arrow, `wait 10s`.
+
+**Download (clean jpeg, no zip, low-token):** the gallery thumbnails are a *virtualized*
+list — the `<img>` elements only mount when scrolled into view.
+1. Click **Images** (left nav), then **scroll the gallery down ~3 ticks** so thumbnails
+   mount. (Flow's own download button gives a `.zip` — avoid it.)
+2. JS (returns a value, so you can read it):
+   ```js
+   [...document.querySelectorAll('img')].filter(i=>i.src.includes('getMediaUrl'))
+     .map(i=>new URL(i.src).searchParams.get('name').slice(0,8))
+   ```
+   The **newest generation is index 0**. Confirm it differs from the last one you saved.
+3. JS download by that name (side-effect only; tool shows `{}` — that's fine):
+   ```js
+   (async()=>{const img=[...document.querySelectorAll('img')].find(i=>i.src.includes('<name8>'));
+   const b=await(await fetch(img.src)).blob();const u=URL.createObjectURL(b);
+   const a=document.createElement('a');a.href=u;a.download='sN-slug.jpeg';
+   document.body.appendChild(a);a.click();a.remove();})()
+   ```
+4. `mv ~/Downloads/sN-slug.jpeg assets/` then **`Read` the file to QC** (Read renders the
+   image — far cheaper and sharper than browser screenshots; the JS query already tells
+   you the image exists, so **skip the per-step screenshot** — that's the token hog).
+   Chrome's "ask where to save" is OFF, so downloads land straight in `~/Downloads`.
+
+**Reroll rules (Nano Banana 2 quirks):**
+- **Panels/triptychs**: intimate 2-figure scenes and wide landscapes often come back
+  split into stacked halves or a comic strip. Prepend **"ONE single unbroken full-frame
+  picture, no panels, no comic strip, no triptych, no dividing lines"** and reroll.
+- **Face leak on prayer/bowing**: "bowed forward over a rock, hands pressing" pulls the
+  camera to his FRONT and shows facial planes. Use **UPRIGHT kneeling seen strictly from
+  behind** ("camera behind, his back and the back of his head to us, face into the dark
+  ahead"). This composition is reliably face-safe.
+- **Hood consistency**: the model sometimes drapes a hood; the standard is **bare-headed,
+  long hair flowing loose**. Say "bare-headed, NO hood, hair worn loose and uncovered"
+  if it recurs.
+- Incidental pale robes on **headless / short-haired** background figures don't break the
+  only-cream law (the law guards the *two signatures together* — long hair + cream). Only
+  reroll if a figure could actually be mistaken for Jesus.
+
+---
+
+## make_narration.py / build.py — copy, change only story content
+
+- Both are ~identical every video. Copy `build-48-new-wine-old-bottles/` (short) or
+  `build-41-counting-the-cost/` (30MB-cap build.py). Change: filenames, SEGMENTS text,
+  BEATS list, the KJV set, and the two sacred-silence beat names. Nothing else.
+- **ffmpeg is NOT on PATH on every machine.** A static build ships at
+  `media-production/bin/ffmpeg` + `ffprobe`. In build.py set
+  `FF/FPROBE = os.path.join(os.path.dirname(__file__),'..','bin','ffmpeg'|'ffprobe')`
+  (absolute). For `gen_site_index.py` (which calls bare `ffprobe`), run it as
+  `PATH="$(pwd)/bin:$PATH" python3 gen_site_index.py` from `media-production/`.
+- **Caption box alpha = pick from the LIGHTEST frame.** Night videos: `boxcolor=black@0.5`.
+  Bright daylight videos: `black@0.6` (else white/cream captions wash out on sunlit
+  frames). Long narrator captions sit in the lower band; box stays translucent so the
+  scene reads above it.
+- 30MB cap numbers: `vcap = int(29.5*8000/total) - 96 - 20`; step CRF 20→24 until
+  `size <= 29.5`. A 3–5 min video lands ~18–23MB at crf 20 — never starve the bitrate.
+- Run build.py in the background and wait on the `DONE:` line; the `>>` command echoes are
+  noise — `grep -v '^>>'` them.
+
+---
+
+## Git — routine multi-machine friction (don't panic)
+
+- 4 machines push constantly. `git pull --rebase` will conflict on exactly two files:
+  **`gen_site_index.py` (the TITLES dict)** and **`index.html`**.
+  - TITLES: keep ALL machines' entries + yours (union the dict), drop the conflict markers.
+  - index.html: it's generated — don't hand-merge; resolve `gen_site_index.py`, then
+    **re-run `gen_site_index.py`** (all mp4s are on disk after the rebase) and `git add`
+    the fresh index.html.
+- If push is rejected: `git pull --rebase` then push again. If push says
+  "could not read Username", the machine's GitHub token expired → tell Cameron to run
+  `gh auth login` (only he can).
+- A big binary branch (old mp4 history) can make a push time out; normal per-video
+  commits (a dozen jpegs + one mp4) push fine.
+
+---
+
+## Where the tokens actually go — cut these
+
+- **Browser screenshots** are the #1 cost. The JS query proves the image rendered, so you
+  do NOT need a screenshot every step. Screenshot only when you must re-locate a moved UI
+  control. QC by `Read`-ing the downloaded jpeg, not by screenshotting the canvas.
+- Don't re-read big law files mid-build — read each once at the start.
+- Type prompts as one line (retyping after a stray-newline submit wastes a full round-trip).
+- Keep it to **one video per chat**; context past ~2 videos degrades quality — which is the
+  whole reason for the rule.

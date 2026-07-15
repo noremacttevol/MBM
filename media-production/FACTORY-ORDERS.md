@@ -74,6 +74,11 @@ prose.
 4. Use `build-48-new-wine-old-bottles/` and `build-41-counting-the-cost/` as your
    PROMPTS.md + make_narration.py + build.py **templates**. Change only story content;
    build-41 also shows the 30MB-cap build.py.
+5. `media-production/FLOW-BUILD-PLAYBOOK.md` — the distilled fast/low-token procedure:
+   the exact Flow $0 settings, the reliable JS download (skip screenshots), panel/face
+   reroll rules, the bundled-ffmpeg + PATH gotchas, caption-box tuning, and the routine
+   `gen_site_index.py`/`index.html` rebase-conflict fix. Read this and you can build a
+   video in far less context.
 
 ## BINDING LAWS (don't re-derive)
 
