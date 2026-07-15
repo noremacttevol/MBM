@@ -1,0 +1,83 @@
+# STILL PROMPTS — Story Video #53: Peter's Mother-in-Law (mark-1_peters-mother-in-law)
+
+Mark 1:29-31. STILLS-ONLY (Law E) — eight painted stills, no motion clips.
+
+**FACE LAW v3 (face SHOWN, locked to master ref).** Jesus's face IS shown — the SAME face
+as the attached JESUS-MASTER-REF portrait — in s1, s2, s4, s5, s6, s7, s8, staged
+naturally. Each of those carries the byte-identical JESUS LOCK v3 paragraph and a
+"REF: jesus-master-ref" line, and generation attaches jesus-face.jpeg as --ref. s3 (the
+sickbed, before he is told) has NO divine figure. ONLY Jesus wears cream/off-white.
+
+CARE FLAGS: none — **GREEN.** A gentle, intimate healing in an ordinary home. The fever is
+shown only as flushed weariness and a woman resting on her mat — never frightening, never
+gruesome. The hope-beat is the healed woman risen and serving (s7). The closing card is an
+open invitation.
+
+ANTI-PANEL: every prompt asks for ONE single full-frame illustration of a single frozen
+moment — no comic strip, no panels, no stacked or side-by-side frames, no dividing lines.
+(Nano Banana returns triptychs for action beats otherwise.)
+
+TIME/SETTING: **sabbath DAY**, soft warm daylight. A modest first-century Capernaum house
+of a fishing family — plastered stone walls, low wooden doorways, simple woven floor mats
+and bedding, a few clay lamps and jars, a low hearth. One home, one continuous place (s2
+onward); s1 is just outside it in the street. Warm and domestic, never grand.
+
+THE MOTHER-IN-LAW: an older first-century Galilean woman of about sixty, grey hair under a
+soft head-covering, in a simple faded dun / muted blue-grey wool dress, clearly NOT cream.
+Sick with fever at first — flushed, weak, resting on a floor mat (s3-s5); then well and
+strong, upright and glad, serving (s6-s8). Her face is shown throughout.
+
+THE FOUR (Simon Peter, Andrew, James, John): four ordinary Galilean fishermen of the
+household in dun, faded brown, ochre, olive and grey-blue wool, short hair and short
+beards, clearly NONE in cream, none with long hair past the shoulders. Faces shown —
+worried at first, then amazed and glad. Simon Peter is the host of the house.
+
+ONLY JESUS WEARS CREAM (build law). In every frame he is the ONLY figure in an off-white
+or cream robe, and the only man with long hair past the shoulders. Everyone else is in a
+darker earth colour with short or covered hair. Check this on every generated frame.
+
+STILL STYLE BLOCK (prepended to every prompt, exactly):
+Beautiful hand-painted 2D animation style, reverent and warm, like a classic
+illustrated storybook of scripture brought to life. Soft painterly brushstroke
+textures, glowing golden light, muted earth tones with warm gold highlights.
+First-century Judea. Sacred, hushed tone. Not photorealistic. No text or captions
+in the image. Historically modest clothing: rough-woven wool and linen in undyed
+earth colors. No modern objects.
+
+Every figure has two arms, two hands, two legs and one head (anatomy guard). Every
+prompt ends with "One single continuous scene painted edge to edge." Each prompt also
+carries "The painting fills the entire frame edge to edge with no border, no frame and
+no cream margin." Skip any comic-strip or multi-panel variant the model returns.
+
+---
+
+## s1-home-from-synagogue — Shot 1: they came out of the synagogue into the house
+[STILL STYLE BLOCK] ONE single full-frame illustration of a single frozen moment — no comic strip, no panels, no dividing lines. A narrow sunlit street of pale stone houses in first-century Capernaum on the sabbath, soft warm daylight. Jesus walks with four fishermen toward the low doorway of a modest home, seen in a three-quarter view, his face clearly visible, warm and unhurried. He wears one plain undyed off-white cream wool robe, bare-headed. Beside and behind him walk the four — Simon Peter and Andrew, James and John — ordinary Galilean fishermen in dun, faded brown, olive and grey-blue wool, short hair and short beards, clearly not cream and none with long hair past the shoulders, talking quietly among themselves. Warm daylight on the stone street, the lake and low hills glimpsed beyond the rooftops. Only Jesus wears cream. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. The painting fills the entire frame edge to edge with no border, no frame and no cream margin. Every figure has two arms, two hands, two legs and one head. One single continuous scene painted edge to edge.
+REF: jesus-master-ref
+
+## s2-the-house — Shot 2: into the house of Simon and Andrew
+[STILL STYLE BLOCK] ONE single full-frame illustration of a single frozen moment — no comic strip, no panels, no dividing lines. The warm, simple interior of a first-century fisherman's house, soft daylight falling through a small window and a low doorway onto plastered stone walls, woven floor mats, clay lamps and water jars, a low hearth. Jesus has just stepped inside, seen from the front, his face clearly visible, gentle and attentive, sensing the worry in the house. He wears one plain undyed off-white cream wool robe, bare-headed. Around him the four fishermen stand close in dun, faded brown, olive and grey-blue wool, short hair and short beards, none in cream, their faces grave and quiet, glancing toward a back room. Warm domestic daylight, an ordinary home under a shadow of worry. Only Jesus wears cream. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. The painting fills the entire frame edge to edge with no border, no frame and no cream margin. Every figure has two arms, two hands, two legs and one head. One single continuous scene painted edge to edge.
+REF: jesus-master-ref
+
+## s3-sick-with-fever — Shot 3: Simon's wife's mother lay sick of a fever
+[STILL STYLE BLOCK] ONE single full-frame illustration of a single frozen moment — no comic strip, no panels, no dividing lines. A quiet back room of the simple house in soft, dim daylight. An older Galilean woman of about sixty lies resting on a woven floor mat with a folded blanket, sick with a fever — grey hair under a soft head-covering, in a faded dun and muted blue-grey wool dress, clearly not cream, her face flushed and weary, her eyes half-closed, weak but peaceful, a damp cloth on her brow. There is nothing frightening or gruesome, only a tired sick woman resting. A younger woman kneels beside her in muted colours, gently tending her. Warm dim daylight, a clay lamp glowing softly nearby, water jar and cloth at hand. Nobody in the room wears off-white or cream. The painting fills the entire frame edge to edge with no border, no frame and no cream margin. Every figure has two arms, two hands, two legs and one head. One single continuous scene painted edge to edge.
+
+## s4-they-tell-him — Shot 4: anon they tell him of her
+[STILL STYLE BLOCK] ONE single full-frame illustration of a single frozen moment — no comic strip, no panels, no dividing lines. Inside the house in soft warm daylight, near the doorway of the back room. Simon Peter and the others turn to Jesus and tell him of the sick woman, one of them gesturing toward the room where she lies, their faces earnest and pleading in a plain, trusting way. They are ordinary Galilean fishermen in dun, faded brown, olive and grey-blue wool, short hair and short beards, none in cream. Jesus listens, seen from the front, his face clearly visible, warm and full of quiet compassion, already turning toward the room. He wears one plain undyed off-white cream wool robe, bare-headed. Warm domestic daylight. Only Jesus wears cream. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. The painting fills the entire frame edge to edge with no border, no frame and no cream margin. Every figure has two arms, two hands, two legs and one head. One single continuous scene painted edge to edge.
+REF: jesus-master-ref
+
+## s5-took-her-by-the-hand — Shot 5: he came and took her by the hand [SACRED SILENCE]
+[STILL STYLE BLOCK] ONE single full-frame illustration of a single frozen moment — no comic strip, no panels, no dividing lines. The still, tender center of the story, framed close. Jesus has knelt beside the sick woman's mat and gently taken her by the hand, seen from the front or three-quarter, his face clearly visible, calm and kind and full of compassion as he looks down at her. He wears one plain undyed off-white cream wool robe, bare-headed. The older woman lies on the mat looking up at him, grey hair under her head-covering, in her faded dun and muted blue-grey dress, clearly not cream, her flushed face beginning to soften with hope. Their two hands are clasped at the center of the frame. Warm, hushed daylight, a clay lamp glowing softly. Only Jesus wears cream. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. The painting fills the entire frame edge to edge with no border, no frame and no cream margin. Every figure has two arms, two hands, two legs and one head. One single continuous scene painted edge to edge.
+REF: jesus-master-ref
+
+## s6-the-fever-left-her — Shot 6: he lifted her up; and immediately the fever left her
+[STILL STYLE BLOCK] ONE single full-frame illustration of a single frozen moment — no comic strip, no panels, no dividing lines. Inside the house in soft warm daylight, brightening a little. Jesus gently lifts the woman to her feet by the hand, seen from the front or three-quarter, his face clearly visible, warm and glad. He wears one plain undyed off-white cream wool robe, bare-headed. The older woman rises, steady and well again — the flush of fever gone from her face, her colour returned, her eyes clear and amazed, standing straight and strong, grey hair under her head-covering, in her faded dun and muted blue-grey dress, clearly not cream. Nearby the four fishermen in dun, brown, olive and grey-blue watch, their faces breaking into wonder and relief, none in cream. Warm daylight filling the simple room. Only Jesus wears cream. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. The painting fills the entire frame edge to edge with no border, no frame and no cream margin. Every figure has two arms, two hands, two legs and one head. One single continuous scene painted edge to edge.
+REF: jesus-master-ref
+
+## s7-she-ministered — Shot 7: and she ministered unto them
+[STILL STYLE BLOCK] ONE single full-frame illustration of a single frozen instant, filling the whole tall vertical frame — NOT a comic strip, no panels, no stacked or side-by-side frames, no dividing lines or borders anywhere. Framed close on one warm moment: the healed older woman, well and strong now, leans in and sets a bowl of bread down on the low table before her seated guests, caught mid-gesture in a single instant, her grey hair under her head-covering, in her faded dun and muted blue-grey dress, clearly not cream, her face bright with gladness and gratitude, fully restored. Close around the low table sit Jesus and the four fishermen receiving her hospitality — the fishermen in dun, brown, olive and grey-blue, none in cream. Jesus sits at the table among them, seen from the front or three-quarter, his face clearly visible, warm and pleased. He wears one plain undyed off-white cream wool robe, bare-headed. Warm domestic golden light, a home at peace again. Only Jesus wears cream. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. The painting fills the entire frame edge to edge with no border, no frame and no cream margin. Every figure has two arms, two hands, two legs and one head. One single continuous scene painted edge to edge.
+REF: jesus-master-ref
+
+## s8-the-quiet-house — Shot 8: a small, quiet miracle in an ordinary home
+[STILL STYLE BLOCK] ONE single full-frame illustration of a single frozen instant, filling the whole tall vertical frame — NOT a comic strip, no panels, no stacked or side-by-side frames, no dividing lines or borders anywhere. Framed close on one small circle of people around a low table in the simple Capernaum home, soft golden late-afternoon light, the worry lifted and the household at peace. Jesus sits close with the four fishermen and the healed woman, sharing simple bread and water in quiet gladness — ordinary people in an ordinary house, faces gentle and grateful in a single warm moment. The four fishermen and the woman are in dun, faded brown, olive, grey-blue and muted colours, clearly none in cream. Jesus sits among them, seen from the front or three-quarter, his face clearly visible, calm and warm. He wears one plain undyed off-white cream wool robe, bare-headed. Clay lamps glow, the doorway open to the soft evening, deep restful peace over the whole home. Only Jesus wears cream. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. The painting fills the entire frame edge to edge with no border, no frame and no cream margin. Every figure has two arms, two hands, two legs and one head. One single continuous scene painted edge to edge.
+REF: jesus-master-ref
