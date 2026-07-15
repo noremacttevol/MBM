@@ -74,7 +74,7 @@ rows. Do not assume approval.
 | 47 | Houses on rock and sand | Matt 7 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 (Flow images, 0 API cost) — APPROVED 2026-07-15 (batch) |
 | 48 | New wine, old bottles | Mark 2 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 — APPROVED 2026-07-15 (batch) |
 | 49 | Water to wine at Cana | John 2 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-15 under FACE LAW v3 (face shown, locked to JESUS-MASTER-REF; Jesus in s2/s4/s5/s8/s9/s12, face-consistent, only-Jesus-in-cream) — 12 Flow $0 stills (Nano Banana 2, 9:16), caption-v2, 2 sacred silences (jv7/jv8), 22.1MB/4.06min, no dead air. john-2_water-to-wine.mp4. Awaiting your yes. |
-| 50 | The nobleman's son | John 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 50 | The nobleman's son | John 4 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine A 2026-07-15 |
 | 51 | The first catch of fish | Luke 5 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine B 2026-07-15 (Flow $0, 9 stills, face-law v3 locked to master ref, caption-v2, 22.1MB/2:45) — first FACE-SHOWN build shipped. awaiting your yes |
 | 52 | The demoniac in the synagogue | Mark 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 53 | Peter's mother-in-law | Mark 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
