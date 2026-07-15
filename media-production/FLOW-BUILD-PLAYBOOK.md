@@ -422,3 +422,14 @@ RECIPE per redo (proven on #48):
    from build-48-new-wine-old-bottles/build.py. Then python3 build.py.
 6. QC one caption frame, tick note "v3 REDONE <date>" in QUEUE, git add the changed
    stills + mp4 + PROMPTS + QUEUE, commit, pull --rebase, push.
+
+- 2026-07-15 (C): **Never kill a flow_driver `gen` mid-flight and immediately relaunch** —
+  the killed Chrome keeps the persistent profile (~/.mbm-flow-profile) locked, and the next
+  gen dies with "Opening in existing browser session ... profile already in use." Fix:
+  `pkill -9 -f mbm-flow-profile`, wait ~3s, `rm -f ~/.mbm-flow-profile/Singleton*`, verify
+  `ps -eo cmd | grep -c '[m]bm-flow-profile'` is 0, THEN relaunch. gen_stills_flow.py resumes
+  the missing stills (it skips ones already on disk).
+- 2026-07-15 (C): **Some Nano Banana stills come back with a painted "storybook page"
+  BORDER/vignette** despite "edge to edge". Uniform fix without regenerating: prepend
+  `crop=iw*0.88:ih*0.88` to build_still's base filter (trims the outer ~6% before the Ken
+  Burns drift). See build-104-boy-samuel/build.py.
