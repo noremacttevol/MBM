@@ -11,6 +11,17 @@
 | 91 | Gethsemane | Hair gets long out of nowhere in one scene (rejected 2026-07-15; was old row 124) | — |
 | 31 | The ten virgins | Rejected 2026-07-15 (see row note) | — |
 
+## 🆕 NEW BUILDS AWAITING YOUR YES (since the 2026-07-15 batch approval)
+
+Everything built on or before **2026-07-15 was batch-approved by Cameron** (48 rows).
+So from now on, any row in "The 200" below where **Built is ✅ but Appr is still ⬜**
+is a NEW build that landed after that batch and still needs its own yes — it is NOT
+covered by the batch approval. Build machines: finish a new one and it shows up here
+automatically (Built ✅ / Appr ⬜). The approval monitor only reviews these post-batch
+rows. Do not assume approval.
+
+**Currently pending review: none** — the board was clean at batch time.
+
 ## The 200
 
 | # | Story | Ref | Prep | Built | Appr | Post | Claim / notes |
@@ -30,39 +41,39 @@
 | 13 | Through the roof | Mark 2 | ✅ | ✅ | ✅ | ✅ | live |
 | 14 | The ten lepers | Luke 17 | ✅ | ✅ | ✅ | ✅ | live |
 | 15 | The centurion | Matt 8 | ✅ | ✅ | ✅ | ✅ | live |
-| 16 | Mary and Martha | Luke 10 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
+| 16 | Mary and Martha | Luke 10 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
 | 17 | Jesus wept (Lazarus) | John 11 | ✅ | ✅ | ✅ | ✅ | live (beard fix shipped) |
-| 18 | The road to Emmaus | Luke 24 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
-| 19 | Breakfast on the shore | John 21 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
+| 18 | The road to Emmaus | Luke 24 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
+| 19 | Breakfast on the shore | John 21 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
 | 20 | The Good Samaritan | Luke 10 | ✅ | ✅ | ✅ | ⬜ | approved 07-12 — confirm posted |
 | 21 | The lost sheep | Luke 15 | ✅ | ✅ | ✅ | ⬜ | approved 07-12 — confirm posted |
-| 22 | The unmerciful servant | Matt 18 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
+| 22 | The unmerciful servant | Matt 18 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
 | 23 | Workers in the vineyard | Matt 20 | ✅ | ✅ | ✅ | ⬜ | approved 07-12 — confirm posted |
-| 24 | The sower | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
+| 24 | The sower | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
 | 25 | Wheat and tares | Matt 13 | ✅ | ✅ | ✅ | ⬜ | approved 07-12 — confirm posted |
-| 26 | The mustard seed | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
-| 27 | The leaven | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
-| 28 | Hidden treasure | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
-| 29 | The pearl of great price | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes (s2 fix shipped) |
-| 30 | The net | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
+| 26 | The mustard seed | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
+| 27 | The leaven | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
+| 28 | Hidden treasure | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
+| 29 | The pearl of great price | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) (s2 fix shipped) |
+| 30 | The net | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
 | 31 | The ten virgins | Matt 25 | ✅ | ⬜ | ⬜ | ⬜ | REJECTED 2026-07-15 — still messed up, needs redo |
-| 32 | The talents | Matt 25 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
-| 33 | The sheep and the goats | Matt 25 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
-| 34 | The rich fool | Luke 12 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
-| 35 | The great banquet | Luke 14 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
-| 36 | The shrewd steward | Luke 16 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
-| 37 | The rich man and Lazarus | Luke 16 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
+| 32 | The talents | Matt 25 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
+| 33 | The sheep and the goats | Matt 25 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
+| 34 | The rich fool | Luke 12 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
+| 35 | The great banquet | Luke 14 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
+| 36 | The shrewd steward | Luke 16 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
+| 37 | The rich man and Lazarus | Luke 16 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
 | 38 | The persistent widow | Luke 18 | ✅ | ✅ | ✅ | ⬜ | approved by Cameron 2026-07-13 |
-| 39 | The Pharisee and the publican | Luke 18 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
-| 40 | The friend at midnight | Luke 11 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
-| 41 | Counting the cost | Luke 14 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 (Flow prep, $0) — awaiting your yes |
-| 42 | The barren fig tree spared | Luke 13 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 (Flow $0, CARE-J mercy) — awaiting your yes |
-| 43 | The wedding garment | Matt 22 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 — awaiting your yes |
-| 44 | The two debtors | Luke 7 | ✅ | ✅ | ⬜ | ⬜ | built Computer B 2026-07-14 (mp4 committed cb2ffd4) — awaiting your yes |
-| 45 | The wicked tenants | Mark 12 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 (Flow $0, CARE R+J, violence off-screen) — awaiting your yes |
+| 39 | The Pharisee and the publican | Luke 18 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
+| 40 | The friend at midnight | Luke 11 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
+| 41 | Counting the cost | Luke 14 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 (Flow prep, $0) — APPROVED 2026-07-15 (batch) |
+| 42 | The barren fig tree spared | Luke 13 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 (Flow $0, CARE-J mercy) — APPROVED 2026-07-15 (batch) |
+| 43 | The wedding garment | Matt 22 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 — APPROVED 2026-07-15 (batch) |
+| 44 | The two debtors | Luke 7 | ✅ | ✅ | ✅ | ⬜ | built Computer B 2026-07-14 (mp4 committed cb2ffd4) — APPROVED 2026-07-15 (batch) |
+| 45 | The wicked tenants | Mark 12 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 (Flow $0, CARE R+J, violence off-screen) — APPROVED 2026-07-15 (batch) |
 | 46 | The seed growing secretly | Mark 4 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine A 2026-07-14 |
-| 47 | Houses on rock and sand | Matt 7 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 (Flow images, 0 API cost) — awaiting your yes |
-| 48 | New wine, old bottles | Mark 2 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 — awaiting your yes |
+| 47 | Houses on rock and sand | Matt 7 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 (Flow images, 0 API cost) — APPROVED 2026-07-15 (batch) |
+| 48 | New wine, old bottles | Mark 2 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 — APPROVED 2026-07-15 (batch) |
 | 49 | Water to wine at Cana | John 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 50 | The nobleman's son | John 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 51 | The first catch of fish | Luke 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
@@ -85,8 +96,8 @@
 | 68 | Multitudes on the mountain | Matt 15 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 69 | The baptism of Jesus | Matt 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 70 | The temptations | Matt 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 71 | Calling the fishermen | Matt 4 | ✅ | ✅ | ⬜ | ⬜ | built Machine B 2026-07-14 (Flow prep, $0) — awaiting your yes [migrated from old row 84] |
-| 72 | Calling Matthew | Matt 9 | ✅ | ✅ | ⬜ | ⬜ | built Machine B 2026-07-15 (Flow prep, $0; folder build-72) — awaiting your yes [migrated from old row 85] |
+| 71 | Calling the fishermen | Matt 4 | ✅ | ✅ | ✅ | ⬜ | built Machine B 2026-07-14 (Flow prep, $0) — APPROVED 2026-07-15 (batch) [migrated from old row 84] |
+| 72 | Calling Matthew | Matt 9 | ✅ | ✅ | ✅ | ⬜ | built Machine B 2026-07-15 (Flow prep, $0; folder build-72) — APPROVED 2026-07-15 (batch) [migrated from old row 85] |
 | 73 | Nazareth synagogue: "this day fulfilled" | Luke 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 74 | The woman who washed his feet | Luke 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 75 | The woman taken in adultery | John 8 | ⬜ | ⬜ | ⬜ | ⬜ |  |
