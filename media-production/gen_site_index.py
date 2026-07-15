@@ -4,9 +4,17 @@ finished story video is watchable at https://noremacttevol.github.io/MBM/ .
 
 It scans media-production/build-NN-*/ for the one scripture-named .mp4 at the
 build-folder root (not the per-segment files under segs/ or the raw clips under
-assets/), reads its real duration with ffprobe, and writes a clean, phone-first
-video gallery in numerical order. Run from the repo root:  python3
-media-production/gen_site_index.py
+assets/), reads its real duration with ffprobe, and reads the approval state
+straight out of media-production/QUEUE.md so the page is split into sections:
+
+  🟡 NEEDS YOUR REVIEW  — built, waiting on Cameron's yes  (shown FIRST, on top)
+  ✅ APPROVED           — Cameron said yes, not yet posted
+  🌐 LIVE IN THE APP    — already shipped (Post ✅)
+  🔧 BEING REWORKED     — rejected / in the fix queue
+
+The approval monitor chat runs this after every approve/reject and pushes, so
+the live site always matches the board.  Run from the repo root:
+  python3 media-production/gen_site_index.py
 """
 import glob
 import os
@@ -98,10 +106,70 @@ def find_main_mp4(build_dir):
     return hits[0] if hits else None
 
 
+def parse_queue():
+    """Read approval state from QUEUE.md.
+
+    Returns (appr, post, rejected):
+      appr[num]     -> True if that row's Appr column is ✅
+      post[num]     -> True if that row's Post column is ✅ (live in the app)
+      rejected      -> set of numbers sitting in the Fix queue
+    """
+    path = os.path.join(REPO, "media-production", "QUEUE.md")
+    appr, post, rejected = {}, {}, set()
+    try:
+        with open(path, encoding="utf-8") as f:
+            lines = f.readlines()
+    except FileNotFoundError:
+        return appr, post, rejected
+
+    section = None
+    for line in lines:
+        s = line.strip()
+        if s.startswith("## "):
+            low = s.lower()
+            if "fix queue" in low:
+                section = "fix"
+            elif low.startswith("## the 200"):
+                section = "200"
+            else:
+                section = "other"
+            continue
+        if not s.startswith("|"):
+            continue
+        parts = [p.strip() for p in line.split("|")]
+        # parts[0] is '' (before first pipe); real columns start at parts[1]
+        if len(parts) < 3 or not re.match(r"^\d+$", parts[1]):
+            continue  # skips header + separator rows
+        num = int(parts[1])
+        if section == "fix":
+            rejected.add(num)
+        elif section == "200" and len(parts) >= 9:
+            # '' | # | Story | Ref | Prep | Built | Appr | Post | notes | ''
+            appr[num] = (parts[6] == "✅")
+            post[num] = (parts[7] == "✅")
+    return appr, post, rejected
+
+
+def card_html(num, title, scrip, length, rel):
+    meta = f" · {scrip}" + (f" · {length}" if length else "")
+    return (
+        f'<div class="card"><p class="title">{num:02d} — {title}'
+        f'<span class="meta">{meta}</span></p>\n'
+        f'<video controls preload="metadata" playsinline '
+        f'src="{rel}"></video></div>')
+
+
+def section_html(heading, blurb, cards):
+    if not cards:
+        return ""
+    body = "\n".join(card_html(*c) for c in cards)
+    intro = f'<p class="note">{blurb}</p>\n' if blurb else ""
+    return f'<h2>{heading} ({len(cards)})</h2>\n{intro}{body}'
+
+
 def main():
     builds = sorted(glob.glob(os.path.join(REPO, "media-production", "build-*")))
     cards = []
-    count = 0
     for bd in builds:
         m = re.match(r"build-(\d+)-", os.path.basename(bd))
         if not m:
@@ -116,17 +184,42 @@ def main():
         slug = fname.rsplit("_", 1)[1].rsplit(".", 1)[0]
         title = TITLES.get(num, derive_title(slug))
         cards.append((num, title, scripture(book_chap), dur(mp4), rel))
-        count += 1
 
     cards.sort(key=lambda c: c[0])
-    rows = []
-    for num, title, scrip, length, rel in cards:
-        meta = f" · {scrip}" + (f" · {length}" if length else "")
-        rows.append(
-            f'<div class="card"><p class="title">{num:02d} — {title}'
-            f'<span class="meta">{meta}</span></p>\n'
-            f'<video controls preload="metadata" playsinline '
-            f'src="{rel}"></video></div>')
+    appr, post, rejected = parse_queue()
+
+    review, approved, live, rework = [], [], [], []
+    for card in cards:
+        num = card[0]
+        if num in rejected:
+            rework.append(card)
+        elif post.get(num):
+            live.append(card)
+        elif appr.get(num):
+            approved.append(card)
+        else:
+            review.append(card)
+
+    count = len(cards)
+    sections = "\n".join(s for s in [
+        section_html(
+            "🟡 Needs your review",
+            "Built and waiting on your yes. Watch these, then tell the monitor "
+            "which are good — they move down to Approved.",
+            review),
+        section_html(
+            "✅ Approved",
+            "You said yes. Queued to post to the app.",
+            approved),
+        section_html(
+            "🌐 Live in the app",
+            "Already shipped to milk-b4-meat.web.app.",
+            live),
+        section_html(
+            "🔧 Being reworked",
+            "You flagged something — a build machine is remaking these.",
+            rework),
+    ] if s)
 
     html = f"""<!doctype html>
 <html lang="en">
@@ -148,14 +241,14 @@ def main():
   .sub {{ color: #9aa; font-size: 14px; margin: 0 0 4px; }}
   .wrap {{ max-width: 780px; margin: 0 auto; }}
   h2 {{ font-size: 15px; text-transform: uppercase; letter-spacing: .06em;
-       color: #8ab; margin: 32px 0 12px; border-bottom: 1px solid #2a2a30;
+       color: #8ab; margin: 32px 0 6px; border-bottom: 1px solid #2a2a30;
        padding-bottom: 6px; }}
   .card {{ background: #16161b; border: 1px solid #26262e; border-radius: 14px;
           padding: 12px; margin: 0 0 18px; }}
   .title {{ font-weight: 600; font-size: 16px; margin: 0 0 8px; }}
   .meta {{ color: #889; font-size: 13px; font-weight: 400; }}
   video {{ width: 100%; border-radius: 10px; background: #000; display: block; }}
-  .note {{ color: #778; font-size: 13px; margin-top: 8px; }}
+  .note {{ color: #778; font-size: 13px; margin: 0 0 12px; }}
 </style>
 </head>
 <body>
@@ -164,11 +257,10 @@ def main():
   <p class="sub">Every finished story video. Tap play on any of them — they
   stream on phone or desktop. Hand-painted stills, with the Lord shown the
   same way in every scene.</p>
-  <p class="sub">{count} videos.</p>
+  <p class="sub">{count} videos · {len(review)} waiting on your review · {len(approved) + len(live)} approved or live.</p>
 </header>
 <div class="wrap">
-<h2>All Story Videos ({count})</h2>
-{chr(10).join(rows)}
+{sections}
 </div>
 </body>
 </html>
@@ -177,8 +269,8 @@ def main():
     with open(out, "w") as f:
         f.write(html)
     print(f"wrote {out} with {count} videos")
-    for num, title, scrip, length, rel in cards:
-        print(f"  {num:02d} {title} ({scrip}) {length}")
+    print(f"  review={len(review)} approved={len(approved)} "
+          f"live={len(live)} rework={len(rework)}")
 
 
 if __name__ == "__main__":
