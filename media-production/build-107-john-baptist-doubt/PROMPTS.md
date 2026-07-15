@@ -1,0 +1,77 @@
+# STILL PROMPTS — Video #107: John the Baptist's Doubt (matthew-11_john-the-baptists-doubt)
+
+Matthew 11:2-11. STILLS-ONLY (Law E) — ten painted stills. BRIDGE/MILK.
+CARE FLAGS: mild — John is imprisoned (grief/injustice), but shown with dignity, NO
+violence, no blood, no execution; the heart is doubt met with gentleness. GREEN-to-amber.
+
+FACE LAW v3 (Cameron, 2026-07-15): Jesus's FACE IS SHOWN — the SAME face as the master
+reference (candidate 1) — in the shots he appears in (s4,s5,s6,s7,s8,s10), staged
+naturally, prompt-driven by the byte-identical JESUS LOCK v3 (master portrait is the QC
+target; ANY drift = regenerate; a bust-portrait --ref makes Nano Banana copy it, so scene
+shots are prompt-driven). Each Jesus shot carries the byte-identical JESUS LOCK v3
+paragraph and a REF: jesus-master-ref line. NO bright ring or outline around his head.
+
+JOHN LOCK (s1, s2, s9): John the Baptist, a lean weathered man of about thirty with
+sun-darkened olive skin, wild dark shoulder-length hair and a rough dark beard, in a
+coarse camel-hair garment with a leather girdle — now imprisoned, seated in a plain
+stone cell with a small barred window, dignified and thoughtful, never bloodied or
+harmed. His face is shown, consistent.
+
+MESSENGERS LOCK (s2,s3,s4,s6,s9): two of John's disciples, earnest younger men in plain
+dun and faded-brown wool, who carry John's question to Jesus and back. Faces shown,
+consistent. ONLY JESUS WEARS CREAM; John, the messengers and the healed crowd all wear
+darker earth colours.
+
+STILL STYLE BLOCK (prepended to every prompt, exactly):
+Beautiful hand-painted 2D animation style, reverent and warm, like a classic
+illustrated storybook of scripture brought to life. Soft painterly brushstroke
+textures, glowing golden light, muted earth tones with warm gold highlights.
+First-century Judea. Sacred, hushed tone. Not photorealistic. No text or captions
+in the image. Historically modest clothing: rough-woven wool and linen in undyed
+earth colors. No modern objects.
+
+Every figure has two arms, two hands, two legs and one head (anatomy guard). Every
+prompt ends with "One single tall upright vertical scene painted edge to edge, no panels."
+Skip any comic-strip or multi-panel variant the model returns.
+
+MUST NEVER SHOW: Jesus's face different from the master; a bright ring or outline around
+his head; anyone but Jesus in cream/off-white; blood, wounds or execution; any modern
+object; any baked-in text; a multi-panel or comic-strip layout.
+
+---
+
+## s1-john-in-prison
+[STILL STYLE BLOCK] A plain stone prison cell in dim, cool light, a single small barred window high on the wall letting in one shaft of pale daylight. John the Baptist, a lean weathered man of about thirty with sun-darkened olive skin, wild dark shoulder-length hair and a rough dark beard, in a coarse camel-hair garment with a leather girdle, sits on the stone floor against the wall, his head lowered in thought, dignified but troubled — the fearless desert preacher now shut in and waiting. He is unharmed, no blood, no chains of cruelty, just the bare cell. Cool dim light with one warm shaft from the window. He wears no cream or off-white. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s2-the-question-sent
+[STILL STYLE BLOCK] In the dim stone cell, John the Baptist in his camel-hair garment leans forward and speaks earnestly to two of his disciples — earnest younger men in plain dun and faded-brown wool — who crouch close to listen, one nodding gravely; John is sending them with a question that is costing him something to ask. All three faces shown, serious and tender. The small barred window glows above. Cool dim light, one warm shaft. Nobody wears cream or off-white. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s3-the-messengers-go
+[STILL STYLE BLOCK] Bright open daylight on a dusty country road winding through green Galilean hills. The two disciples of John, younger men in plain dun and faded-brown wool, walk earnestly along the road on their errand, one shading his eyes to look ahead toward a distant gathering of people, their faces shown, intent and a little anxious. No divine figure in this frame. Warm clear daylight, green hills, open road. Neither wears cream or off-white. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s4-they-ask-jesus
+REF: jesus-master-ref — master face is the QC target (prompt-driven; no --ref attached).
+[STILL STYLE BLOCK] On a sunlit green hillside among a crowd, the two messengers in dun and faded-brown wool stand before Jesus and put their question to him, one speaking with an open, searching hand. Jesus stands facing them, his face calm, warm and unoffended, listening kindly — not stung by the doubt. Ordinary people in earth colours are gathered around; only Jesus wears cream. Warm clear daylight, green hillside. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s5-the-blind-receive-sight
+REF: jesus-master-ref — master face is the QC target (prompt-driven; no --ref attached).
+[STILL STYLE BLOCK] A warm, joyful scene: Jesus gently touches the eyes of a formerly blind man who is opening them in wonder for the first time, his face lit with astonished joy; nearby a lame man rises from his mat with his crutch falling away, and others healed rejoice. Jesus's face is toward the man he heals, tender and glad. The healed and the crowd wear earth colours; only Jesus wears cream. Warm bright daylight, a scene of grace and gladness. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s6-the-poor-hear-good-news
+REF: jesus-master-ref — master face is the QC target (prompt-driven; no --ref attached).
+[STILL STYLE BLOCK] Jesus sits among the poorest of the people — ragged working folk, an old widow, a couple of children, a beggar — on the ground in warm daylight, his face toward them, speaking good news gently and holding the hand of one; their tired faces shown, lifting with hope. The two messengers of John stand at the edge, watching this and taking it in. Everyone but Jesus is in worn earth colours; only Jesus wears cream. Warm daylight, tender dignity. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s7-blessed-is-he
+REF: jesus-master-ref — master face is the QC target (prompt-driven; no --ref attached).
+[STILL STYLE BLOCK] A close, warm moment: Jesus turns his face toward the two departing messengers with a look of great tenderness and no reproach, one hand lifted gently, sending them back with a kind and gentle blessing for John — do not be offended, only trust. His face is warm and a little sorrowful with love. The messengers, in dun and faded-brown, listen moved. Only Jesus wears cream. Warm golden daylight, green hillside soft behind. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s8-jesus-praises-john
+REF: jesus-master-ref — master face is the QC target (prompt-driven; no --ref attached).
+[STILL STYLE BLOCK] Jesus stands and speaks warmly to the surrounding crowd about the absent John, his face lifted and earnest, one hand gesturing out toward the distant wilderness as he honours the imprisoned prophet before them all — defending his friend even in his doubt. The crowd of ordinary people in earth colours listen, faces shown. Only Jesus wears cream. Warm clear daylight, green hillside, distant hazy wilderness beyond. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s9-the-answer-returns
+[STILL STYLE BLOCK] Back in the dim stone prison cell, John the Baptist in his camel-hair garment sits and listens as his two returned disciples, kneeling close, quietly tell him all they saw — the blind seeing, the lame walking, the poor comforted. John's weathered face is shown, softening from trouble into a deep, tearless peace as he hears it; the small barred window glows warm above them. Cool dim light with a warm shaft; his cheeks are dry, the feeling all in his eyes and mouth. Nobody wears cream or off-white. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s10-do-not-be-offended
+REF: jesus-master-ref — master face is the QC target (prompt-driven; no --ref attached).
+[STILL STYLE BLOCK] A warm, gentle closing image of Jesus alone on the quiet green hillside at golden evening, his face turned partly toward the viewer, kind and inviting, one hand open in a soft welcoming gesture — the look of someone who does not turn away the honest doubter but gently says, trust me, and be at peace. Warm golden hour light, soft green hills, deep calm; NO bright ring or outline around his head, only natural warm evening light. He wears the plain cream wool robe. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
