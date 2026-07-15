@@ -44,12 +44,24 @@ import make_narration  # SEGMENTS -> verbatim caption text per segment
 A = "assets"
 S = "segs"
 FPS = 30
-# Bundled static ffmpeg lives at media-production/bin/ (this build is one level down).
+# Bundled static ffmpeg lives at media-production/bin/ if present; else use system PATH.
+# (Cross-platform, added by Machine B 2026-07-15 so this build rebuilds on Windows too.)
 BIN = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "bin"))
-FF = os.path.join(BIN, "ffmpeg")
-FPROBE = os.path.join(BIN, "ffprobe")
-SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
-SERIF_BI = "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"
+def _tool(name):
+    for cand in (os.path.join(BIN, name), os.path.join(BIN, name + ".exe")):
+        if os.path.exists(cand):
+            return cand
+    return name  # fall back to system ffmpeg/ffprobe on PATH
+FF = _tool("ffmpeg")
+FPROBE = _tool("ffprobe")
+# Serif fonts: Linux paths if present (Machine A); else Windows Georgia copied into
+# segs/ at build time (relative path avoids ffmpeg drawtext choking on the C: colon).
+_LINUX_SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
+_LINUX_SERIF_BI = "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"
+if os.path.exists(_LINUX_SERIF):
+    SERIF, SERIF_BI = _LINUX_SERIF, _LINUX_SERIF_BI
+else:
+    SERIF, SERIF_BI = "segs/serif.ttf", "segs/serif_bi.ttf"
 CREAM = "0xF7F2E9"
 INK = "0x3B2A1E"
 
@@ -205,6 +217,11 @@ def bed_filter(idx, start, end, style):
 
 def main():
     os.makedirs(S, exist_ok=True)
+    if not os.path.exists(_LINUX_SERIF):  # Windows: stage Georgia into segs/
+        import shutil
+        _wf = os.environ.get("WINDIR", "C:\\Windows") + "\\Fonts"
+        shutil.copyfile(os.path.join(_wf, "georgia.ttf"), SERIF)
+        shutil.copyfile(os.path.join(_wf, "georgiai.ttf"), SERIF_BI)
 
     spoken = {n: spoken_of(f"audio/{n}.mp3") for n, _, _ in BEATS}
     card_spoken = spoken_of("audio/card.mp3")

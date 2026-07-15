@@ -8,7 +8,7 @@
 
 | # | Story | What's wrong | Claimed by |
 |---|---|---|---|
-| 91 | Gethsemane | Hair gets long out of nowhere in one scene (rejected 2026-07-15; was old row 124) | — |
+| 91 | Gethsemane | Hair gets long out of nowhere in one scene (rejected 2026-07-15; was old row 124) — DIAGNOSED: **s7-agony-drops** has hair cascading to the lower back vs shoulder-length everywhere else. s7 PROMPT already corrected + face-gate PASS; build.py made cross-platform. REMAINING: regen only s7 in Flow (replace assets/s7-agony-drops.jpeg), rebuild, tick Built. | Machine B 2026-07-15 (WIP, prompt fixed) |
 
 ## 🆕 NEW BUILDS AWAITING YOUR YES (since the 2026-07-15 batch approval)
 
