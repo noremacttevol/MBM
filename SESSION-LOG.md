@@ -1,3 +1,33 @@
+## 2026-07-15 — #124 Gethsemane built via FLOW, $0 (Machine C)
+
+**Video #124 Gethsemane (Luke 22:39-46 + Matt 26:36-46)** built end-to-end on
+Machine C (`cameron-lovett-MS-7C91`), Phase-1 stills-only, `luke-22_gethsemane.mp4`
+(4:54, 22.9 MB, −15 LUFS). **Awaiting Cameron's yes. Published to the gallery**
+(`index.html`, now 48 videos). Commit `2aea041`.
+
+- **Start-of-session cleanup.** This machine's GitHub token was expired (couldn't
+  push); Cameron re-ran `gh auth login`. Local history had also diverged (an old
+  unpushed #45 build + ~60 uncommitted caption-law edits from a prior session) — all
+  preserved on branch `machine-c-preserve-2026-07-14`, then `main` reset clean to
+  origin. FACTORY-ORDERS reassigned #45 to Machine A, so that work is parked, not shipped.
+- **Range per FACTORY-ORDERS: Machine C = rows 124–163.** Claimed #124 first (claim-by-push).
+- **Google Flow, $0.** Nano Banana 2, 9:16, 1x, Ultra — "Generating will use 0 credits."
+  12 stills. Face Law held on ALL 12 by angle only (behind / over-shoulder / distance);
+  verified on rendered frames. CARE flags ARC/R/G honored: the sweat "as great drops of
+  blood" is a few restrained dark drops on the stone (no wound), the angel (s8) is the
+  hope-beat/God's presence, and the arrest is only a distant torch-line — no violence.
+- **Two Flow lessons (worth reusing):** (1) a "bowed forward over a rock" prayer pose
+  kept pulling the camera to his FRONT and leaking his face — rerolled s6 as UPRIGHT
+  kneeling seen strictly from behind, which is reliably face-safe. (2) Flow sometimes
+  returns a two-panel/diptych; add "one single unbroken full-frame picture, no panels"
+  and reroll. (3) Downloads: fetch the `getMediaUrl` img blob in-page → named `<a download>`
+  (clean jpeg, no zip); the gallery thumbnails are virtualized, so scroll to mount them
+  before the JS query.
+- **Two-voice, two sacred silences** on Luke 22:42 ("not my will, but thine") and
+  Matt 26:46 ("Rise, let us be going"). Closing card an invitation, not a fear-question.
+- **Next for Machine C: #125 The betrayal kiss (Matt 26).** One video per chat — open a
+  fresh chat and say "Continue."
+
 ## 2026-07-14 — #44 The Two Debtors built via FLOW, 0 API cost (Computer B / Leighton)
 
 **Video #44 The Two Debtors (Luke 7:36-50)** built end-to-end on Elli's Windows
