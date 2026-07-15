@@ -73,7 +73,7 @@ rows. Do not assume approval.
 | 46 | The seed growing secretly | Mark 4 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-15 (Flow $0, GREEN restful) — awaiting your yes |
 | 47 | Houses on rock and sand | Matt 7 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 (Flow images, 0 API cost) — APPROVED 2026-07-15 (batch) |
 | 48 | New wine, old bottles | Mark 2 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 — APPROVED 2026-07-15 (batch) |
-| 49 | Water to wine at Cana | John 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 49 | Water to wine at Cana | John 2 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine A 2026-07-15 |
 | 50 | The nobleman's son | John 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 51 | The first catch of fish | Luke 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 52 | The demoniac in the synagogue | Mark 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
