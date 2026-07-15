@@ -33,7 +33,7 @@ Appr and add it to this folder.
 | # | Story | Ref | Prep | Built | Appr | Post | Claim / notes |
 |---|---|---|---|---|---|---|---|
 | 1 | Woman who touched his cloak | Mark 5 | ✅ | ✅ | ✅ | ✅ | **v3 FULL REBUILD 2026-07-15 (Machine A)** — old face-never build rebuilt: 11 face-shown stills locked to master + continuity locks (woman same every shot), caption-v2, AndrewNeural narration, invitation card, 18.4MB/1:47. Awaiting your yes. |
-| 2 | The Prodigal Son | Luke 15 | ✅ | ✅ | ⬜ | ✅ | live |
+| 2 | The Prodigal Son | Luke 15 | ✅ | ✅ | ✅ | ✅ | **v3 standard 2026-07-15 (Machine A)** — caption-v2 ported (wide bottom), stills-only, reflective invitation card; parable has NO Jesus figure so no face change needed. 19.7MB/2:43. Awaiting your yes. |
 | 3 | Zacchaeus | Luke 19 | ✅ | ✅ | ⬜ | ✅ | live |
 | 4 | Nicodemus at night | John 3 | ✅ | ✅ | ⬜ | ✅ | live |
 | 5 | The bent-over woman | Luke 13 | ✅ | ✅ | ⬜ | ✅ | live |
