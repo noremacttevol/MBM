@@ -96,16 +96,16 @@ prose.
 1. `media-production/CREW-GUIDE.md`
 2. `media-production/PRODUCTION-BIBLE.md` — LAW sections only (§0 Three Laws, Standing
    Laws, §4b Pre-Flight, §5 QC, §5b Failure Log). Skip history/money/mission prose.
-3. `media-production/build-47-houses-on-rock-and-sand/BUILD-STATUS.md` — the exact
-   $0 FLOW procedure.
-4. Use `build-48-new-wine-old-bottles/` and `build-41-counting-the-cost/` as your
-   PROMPTS.md + make_narration.py + build.py **templates**. Change only story content;
-   build-41 also shows the 30MB-cap build.py.
-5. `media-production/FLOW-BUILD-PLAYBOOK.md` — the distilled fast/low-token procedure:
-   the exact Flow $0 settings, the reliable JS download (skip screenshots), panel/face
-   reroll rules, the bundled-ffmpeg + PATH gotchas, caption-box tuning, and the routine
-   `gen_site_index.py`/`index.html` rebase-conflict fix. Read this and you can build a
-   video in far less context.
+3. `media-production/FLOW-BUILD-PLAYBOOK.md` — **read this** — the distilled fast/low-token
+   procedure: exact Flow $0 settings, the reliable JS download (skip screenshots), panel/face
+   reroll rules, Windows ffmpeg/font gotchas, the 9:16 reset, browser selection, caption-box
+   tuning, and the routine gen_site_index / index.html rebase fix.
+4. `media-production/build-47-houses-on-rock-and-sand/BUILD-STATUS.md` — the $0 FLOW procedure.
+5. Templates — copy one, change only story content (Master Style Block byte-identical):
+   - Story video: `build-135-rainbow-covenant/` (Windows-ready build.py, 30MB cap), or
+     `build-48-new-wine-old-bottles/`, `build-41-counting-the-cost/`.
+   - MEMBER verse-video (rows 151–200): `build-161-called-of-god/` (KJV in the scripture
+     voice, Gospel Library pointer on the closing card).
 
 ## BINDING LAWS (don't re-derive)
 
