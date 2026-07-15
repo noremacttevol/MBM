@@ -2,8 +2,14 @@
 
 **Machine D, 2026-07-15.** Phase-1 STILLS-ONLY (Law E), GREEN / plain-milk (no CONTENT-CARE flags).
 (Migrated from old row 164 → row 135 in THE-200 v2; folder renamed build-135-rainbow-covenant.)
-**Status: 11 of 12 stills done and in assets/; one still (s8) pending download; then assemble.**
-Row 135 in QUEUE.md is CLAIMED (Built ⬜) — do not tick Built until the mp4 exists.
+**Status: DELIVERED 2026-07-15.** `genesis-9_the-rainbow-covenant.mp4` — 1080x1920 H.264 30fps,
+4:53, 24.3 MB (crf 20, <30MB cap). Row 135 ticked Built ✅ (Appr left blank for Cameron).
+
+QC pass clean: 12 painted stills, Ken Burns drift, no AI motion clips (Law E); no divine figure
+in any frame (God is voice only); everyone in earth tones, no cream; each rainbow one soft arc
+(the first s8 came back a 2-panel comic and was rejected, regenerated clean portrait); captions
+verbatim, KJV cream-italic; worst spoken gap 1.88s (≤2.5s); two sacred silences on jv13/jv16;
+loudness ≈ -15 LUFS; closing card an invitation. Face gate PASS on the prompt sheet before art.
 
 ## Current state (2026-07-15)
 - 11 of 12 stills generated in Flow ($0), QC-passed, and placed in `assets/` with slug names.

@@ -55,8 +55,10 @@ def _find(exe):
 
 FF = _find("ffmpeg")
 FPROBE = _find("ffprobe")
-SERIF = "C\\:/Windows/Fonts/georgia.ttf"
-SERIF_BI = "C\\:/Windows/Fonts/georgiai.ttf"
+# Fonts copied into the build dir as relative paths — a Windows drive-letter colon
+# (C:/...) breaks ffmpeg's filtergraph option parser, so avoid an absolute path.
+SERIF = "serif.ttf"
+SERIF_BI = "serif_italic.ttf"
 CREAM = "0xF7F2E9"
 INK = "0x3B2A1E"
 
@@ -197,8 +199,28 @@ def bed_filter(idx, start, end, style):
             f"{delay}[mus{idx}]")
 
 
+def _ensure_fonts():
+    # Copy the serif fonts locally at build time so the filtergraph gets a
+    # colon-free relative path (a Windows drive letter breaks ffmpeg's parser),
+    # and so the proprietary system font is never committed to the repo.
+    src = {SERIF: [r"C:\Windows\Fonts\georgia.ttf",
+                   "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"],
+           SERIF_BI: [r"C:\Windows\Fonts\georgiai.ttf",
+                      "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"]}
+    for dest, cands in src.items():
+        if os.path.exists(dest):
+            continue
+        for c in cands:
+            if os.path.exists(c):
+                shutil.copyfile(c, dest)
+                break
+        else:
+            raise SystemExit(f"font not found for {dest}; tried {cands}")
+
+
 def main():
     os.makedirs(S, exist_ok=True)
+    _ensure_fonts()
 
     spoken = {n: spoken_of(f"audio/{n}.mp3") for n, _, _ in BEATS}
     card_spoken = spoken_of("audio/card.mp3")

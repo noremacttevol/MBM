@@ -159,7 +159,7 @@ rows. Do not assume approval.
 | 132 | Forbid him not | Mark 9:38 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 133 | "In my Father's house are many mansions" | John 14:2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 134 | "Other sheep I have" | John 10:16 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 135 | The rainbow covenant | Gen 9 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine D 2026-07-14 [migrated from old row 164] |
+| 135 | The rainbow covenant | Gen 9 | ✅ | ✅ | ⬜ | ⬜ | built Machine D 2026-07-15 (Flow $0, GREEN) — awaiting your yes |
 | 136 | Healed in two touches | Mark 8 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 137 | Stephen sees him standing | Acts 7:55–56 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 138 | "We are also his offspring" | Acts 17 | ⬜ | ⬜ | ⬜ | ⬜ |  |
