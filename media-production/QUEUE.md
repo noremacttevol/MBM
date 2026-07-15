@@ -186,7 +186,7 @@ rows. Do not assume approval.
 | 159 | "Other sheep I have" | John 10:16 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (FACE-SHOWN: Jesus the Good Shepherd in s1-s4/s7/s8 locked to master face via --ref, face-consistent, only-Jesus-in-cream; other-fold shots s5/s6 no figure; 8 Flow $0 stills 9:16, caption-v2, 2 sacred silences, 24.0MB/2:51; face-gate PASS. Awaiting your yes.) |
 | 160 | The stone cut without hands | Dan 2:44 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, Daniel/king in dark royal earth tones, dream statue as translucent vision—not worshipped, stone/mountain + kingdom as light, no figure, caption-v2, 2 sacred silences, 23.2MB/3:31; face-gate PASS) |
 | 161 | "No man taketh this honour... as was Aaron" | Heb 5:4 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 stills Flow $0, caption-v2, 22.5MB, no Jesus figure; face-gate PASS) |
-| 162 | The keys of the kingdom | Matt 16:18–19 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine D 2026-07-15 |
+| 162 | The keys of the kingdom | Matt 16:18–19 | ⬜ | ⬜ | ⬜ | ⬜ | WIP Machine D 2026-07-15 — narration+audio done, PROMPTS.md (face-shown, LOCK v3 in Jesus shots) done, build.py+gen_stills ready, s3 still generated; REMAINING: 7 stills, blocked when Flow stopped returning images after ~100 gens this session (rate-limit/throttle). Resume gen once Flow's window resets; text-lock (no --ref, it timed out). |
 | 163 | Built on apostles and prophets | Eph 2:19–20 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 164 | "Till we all come in the unity of the faith" | Eph 4:11–14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 165 | Laying on of hands for the Holy Ghost | Acts 8:14–17 | ⬜ | ⬜ | ⬜ | ⬜ |  |
