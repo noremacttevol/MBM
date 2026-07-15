@@ -23,6 +23,15 @@ import subprocess
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# Videos stream straight from GitHub instead of being re-published by Pages, so
+# the published site stays tiny (just this HTML) and always deploys. This is the
+# same direct-link pattern used by the watch links in STATUS.md.
+RAW_BASE = "https://github.com/noremacttevol/MBM/raw/main/"
+
+# The page is published from docs/ (Pages source = /docs) so GitHub Pages only
+# has to deploy a couple MB, never the ~15 GB of video in the repo.
+OUT_DIR = os.path.join(REPO, "docs")
+
 # Nice display titles keyed by build number (the folder slug drives discovery;
 # this map only supplies the human-facing name). Anything not listed falls back
 # to a title derived from the filename slug.
@@ -157,7 +166,7 @@ def card_html(num, title, scrip, length, rel):
         f'<div class="card"><p class="title">{num:02d} — {title}'
         f'<span class="meta">{meta}</span></p>\n'
         f'<video controls preload="metadata" playsinline '
-        f'src="{rel}"></video></div>')
+        f'src="{RAW_BASE}{rel}"></video></div>')
 
 
 def section_html(heading, blurb, cards):
@@ -266,7 +275,11 @@ def main():
 </body>
 </html>
 """
-    out = os.path.join(REPO, "index.html")
+    os.makedirs(OUT_DIR, exist_ok=True)
+    # .nojekyll so Pages serves the folder as-is (no Jekyll processing of the
+    # sibling markdown in docs/).
+    open(os.path.join(OUT_DIR, ".nojekyll"), "w").close()
+    out = os.path.join(OUT_DIR, "index.html")
     with open(out, "w") as f:
         f.write(html)
     print(f"wrote {out} with {count} videos")
