@@ -134,12 +134,16 @@ def ensure_settings(page):
     non-<button> element): we find ANY element whose innerText contains 'Nano Banana'.
     9:16 is REQUIRED — a 16:9 still can't fill a 9:16 video (playbook) — so if we truly
     cannot select it after retries we abort rather than emit a wrong-aspect still."""
-    # JS to find the smallest element whose OWN text mentions the chip, on any tag.
-    FIND_CHIP = ("() => { const els=[...document.querySelectorAll('button,[role],div,span')]"
-                 ".filter(e => (e.innerText||'').includes('Nano Banana'));"
-                 " if(!els.length) return null;"
-                 " els.sort((a,b)=>a.innerText.length-b.innerText.length);"
-                 " const el=els[0]; const r=el.getBoundingClientRect();"
+    # Find the chip. PREFER an actual <button> containing 'Nano Banana' (verified to
+    # open the full settings popover on a real-mouse click). Only if Flow renders the
+    # chip as a non-<button> (reported on Machine A/B) fall back to the smallest
+    # element carrying the text. Returning the button's box is what makes 9:16 work.
+    FIND_CHIP = ("() => { const has = e => (e.innerText||'').includes('Nano Banana');"
+                 " let el = [...document.querySelectorAll('button')].find(has);"
+                 " if(!el){ const els=[...document.querySelectorAll('[role=button],div,span')]"
+                 "   .filter(has); els.sort((a,b)=>a.innerText.length-b.innerText.length);"
+                 "   el = els[0]; }"
+                 " if(!el) return null; const r=el.getBoundingClientRect();"
                  " return {x:r.x+r.width/2, y:r.y+r.height/2, t:el.innerText}; }")
 
     def chip_info():
