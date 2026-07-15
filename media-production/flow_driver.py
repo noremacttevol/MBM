@@ -265,8 +265,6 @@ def main():
         cmd_gen(a.prompt, a.out, a.ref)
 
 
-if __name__ == "__main__":
-    main()
 
 
 def cmd_show(minutes=15):
@@ -314,3 +312,7 @@ def cmd_grab(out, wait_min=15):
     Path(out).parent.mkdir(parents=True, exist_ok=True)
     Path(out).write_bytes(base64.b64decode(data.split(",", 1)[1]))
     print(f"saved {out} ({Path(out).stat().st_size // 1024} KB)")
+
+
+if __name__ == "__main__":
+    main()
