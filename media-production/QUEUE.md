@@ -35,7 +35,7 @@ Appr and add it to this folder.
 | 1 | Woman who touched his cloak | Mark 5 | ✅ | ✅ | ✅ | ✅ | **v3 FULL REBUILD 2026-07-15 (Machine A)** — old face-never build rebuilt: 11 face-shown stills locked to master + continuity locks (woman same every shot), caption-v2, AndrewNeural narration, invitation card, 18.4MB/1:47. Awaiting your yes. |
 | 2 | The Prodigal Son | Luke 15 | ✅ | ✅ | ✅ | ✅ | **v3 standard 2026-07-15 (Machine A)** — caption-v2 ported (wide bottom), stills-only, reflective invitation card; parable has NO Jesus figure so no face change needed. 19.7MB/2:43. Awaiting your yes. |
 | 3 | Zacchaeus | Luke 19 | ✅ | ✅ | ✅ | ✅ | **v3 FULL REBUILD 2026-07-15 (Machine A)** — old face-never build rebuilt: 11 face-shown stills locked to master + continuity locks (Zacchaeus + Jericho same every shot), caption-v2, stills-only, invitation card, 18.9MB/4:07. Awaiting your yes. |
-| 4 | Nicodemus at night | John 3 | ✅ | ✅ | ⬜ | ✅ | live |
+| 4 | Nicodemus at night | John 3 | ✅ | ✅ | ⬜ | ✅ | v3 REBUILD CLAIMED Machine A 2026-07-15 (old face-never → face-shown rebuild w/ continuity locks; WIP) |
 | 5 | The bent-over woman | Luke 13 | ✅ | ✅ | ⬜ | ✅ | live |
 | 6 | The two sons | Matt 21 | ✅ | ✅ | ⬜ | ✅ | live |
 | 7 | Peter walks on water | Matt 14 | ✅ | ✅ | ⬜ | ✅ | live (s3 fix shipped 07-13) |
