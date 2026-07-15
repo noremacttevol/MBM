@@ -38,7 +38,7 @@ Appr and add it to this folder.
 | 4 | Nicodemus at night | John 3 | ✅ | ✅ | ✅ | ✅ | **v3 FULL REBUILD 2026-07-15 (Machine A)** — old face-never build rebuilt: 11 face-shown stills locked to master + continuity locks (Nicodemus + night chamber same every shot), caption-v2, reverent burial (no body), invitation card, 21.1MB/5:58. Awaiting your yes. |
 | 5 | The bent-over woman | Luke 13 | ✅ | ✅ | ✅ | ✅ | **v3 FULL REBUILD 2026-07-15 (Machine A)** — old face-never build rebuilt: 11 face-shown stills locked to master + continuity locks (bent→healed woman, synagogue, ruler same every shot), caption-v2, invitation card, 18.8MB/4:35. Awaiting your yes. |
 | 6 | The two sons | Matt 21 | ✅ | ✅ | ✅ | ✅ | **v3 REBUILD 2026-07-15 (Machine A)** — face-shown Jesus framing (s1/s6/s7/s8, single-Jesus, locked to master) + parable scenes (father/two sons, continuity-locked), caption-v2, invitation card, 18.0MB/1:39. Awaiting your yes. |
-| 7 | Peter walks on water | Matt 14 | ✅ | ✅ | ⬜ | ✅ | **v3 FACE-SHOWN REDONE 2026-07-15 (Machine A)** — same-care redo: all 12 stills regenerated face-shown & locked to master, Peter locked (blue-grey, never cream), boat/crew continuity, artifact scrub (solid buckets, no floating lamps, every hand/face zoom-QC'd), distinct s8-catch, invitation closing card, caption box strengthened; 20.4MB. Re-review the redo. |
+| 7 | Peter walks on water | Matt 14 | ✅ | ✅ | ⬜ | ✅ | v3 REBUILD CLAIMED Machine A 2026-07-15 (face-shown Jesus rebuild w/ continuity locks; WIP) |
 | 8 | The lost coin | Luke 15 | ✅ | ✅ | ⬜ | ✅ | live |
 | 9 | The rich young ruler | Mark 10 | ✅ | ✅ | ⬜ | ✅ | live |
 | 10 | The woman at the well | John 4 | ✅ | ✅ | ⬜ | ✅ | live |
