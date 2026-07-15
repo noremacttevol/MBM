@@ -433,3 +433,10 @@ RECIPE per redo (proven on #48):
   BORDER/vignette** despite "edge to edge". Uniform fix without regenerating: prepend
   `crop=iw*0.88:ih*0.88` to build_still's base filter (trims the outer ~6% before the Ken
   Burns drift). See build-104-boy-samuel/build.py.
+
+- 2026-07-15 (C): **Flow session can get stuck mid-batch** — after several generations the
+  page sometimes returns "prompt focus failed: no visible prompt box" and aspect_9_16=False
+  for every remaining still (hit on #112 s7-s10). It is a transient stuck state, NOT a
+  prompt problem. Recovery: `pkill -9 -f mbm-flow-profile`, `rm -f
+  ~/.mbm-flow-profile/Singleton*`, then re-run gen_stills_flow.py — it skips the ones already
+  on disk and the fresh browser recovers cleanly (s7-s10 all succeeded on the retry).
