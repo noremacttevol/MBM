@@ -457,3 +457,12 @@ here — either drive it through the page's React fiber, or have a human paste p
 into the already-logged-in window. Until solved, unattended Flow image-gen from this
 env is blocked; all local prep (PROMPTS, face gate, narration, build.py, caption-v2)
 still runs fine headless.
+
+- 2026-07-15 (C): **"No new image appeared" on a HEAVY project = slow detection, not a
+  block.** Once a Flow project has 100+ images, generation + gallery mount get slow and the
+  old 3-min detect window misses the result. Fix (in flow_driver gen): detect for up to
+  6 min AND every ~40s RELOAD the project page and scroll to the TOP — the newest image is
+  always most-recent, and a fresh light DOM surfaces it reliably. This recovered #112 s8/s10.
+  (Separately, if the browser lands on google.com/sorry that IS a real rate-limit — see the
+  FLOW-RATE-LIMIT-ISSUE.md; it cleared on its own and was NOT account-wide — other machines
+  kept working.) Longer term: start a fresh Flow project every few videos to keep it light.

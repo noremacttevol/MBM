@@ -313,23 +313,31 @@ def cmd_gen(prompt, out, refs):
         print("  submitted (Enter), waiting for the image...")
 
         newest = None
-        for i in range(36):  # up to 3 min
+        for i in range(72):  # up to 6 min (heavy projects generate/detect slower)
             page.wait_for_timeout(5000)
             names = page.evaluate(NAMES_JS) or []
             fresh = [n for n in names if n not in before and n not in ref_names]
             if fresh:
                 newest = fresh[0]
                 break
-            if i % 4 == 3:  # gallery is virtualized — nudge thumbnails to mount
+            if i % 8 == 7:  # heavy/virtualized gallery: RELOAD so the newest image
+                # (always most-recent, at the top) mounts on a fresh, light DOM.
+                try:
+                    page.reload(wait_until="domcontentloaded")
+                    page.wait_for_timeout(4000)
+                    page.mouse.wheel(0, -2000)  # scroll to top where the newest sits
+                except Exception:
+                    pass
+            elif i % 4 == 3:  # gentle nudge between reloads
                 try:
                     page.evaluate("() => [...document.querySelectorAll('button')]"
                                   ".find(b => (b.innerText||'').includes('All Media'))"
                                   "?.click()")
-                    page.mouse.wheel(0, 600)
+                    page.mouse.wheel(0, -1500)
                 except Exception:
                     pass
         if not newest:
-            raise SystemExit("No new image appeared within 3 minutes.")
+            raise SystemExit("No new image appeared within 6 minutes.")
         page.wait_for_timeout(2000)
         data = page.evaluate(FETCH_JS, newest)
         ctx.close()
