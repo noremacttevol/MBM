@@ -36,7 +36,7 @@ Appr and add it to this folder.
 | 2 | The Prodigal Son | Luke 15 | ✅ | ✅ | ✅ | ✅ | **v3 standard 2026-07-15 (Machine A)** — caption-v2 ported (wide bottom), stills-only, reflective invitation card; parable has NO Jesus figure so no face change needed. 19.7MB/2:43. Awaiting your yes. |
 | 3 | Zacchaeus | Luke 19 | ✅ | ✅ | ✅ | ✅ | **v3 FULL REBUILD 2026-07-15 (Machine A)** — old face-never build rebuilt: 11 face-shown stills locked to master + continuity locks (Zacchaeus + Jericho same every shot), caption-v2, stills-only, invitation card, 18.9MB/4:07. Awaiting your yes. |
 | 4 | Nicodemus at night | John 3 | ✅ | ✅ | ✅ | ✅ | **v3 FULL REBUILD 2026-07-15 (Machine A)** — old face-never build rebuilt: 11 face-shown stills locked to master + continuity locks (Nicodemus + night chamber same every shot), caption-v2, reverent burial (no body), invitation card, 21.1MB/5:58. Awaiting your yes. |
-| 5 | The bent-over woman | Luke 13 | ✅ | ✅ | ⬜ | ✅ | live |
+| 5 | The bent-over woman | Luke 13 | ✅ | ✅ | ⬜ | ✅ | v3 REBUILD CLAIMED Machine A 2026-07-15 (old face-never → face-shown rebuild w/ continuity locks; WIP) |
 | 6 | The two sons | Matt 21 | ✅ | ✅ | ⬜ | ✅ | live |
 | 7 | Peter walks on water | Matt 14 | ✅ | ✅ | ⬜ | ✅ | live (s3 fix shipped 07-13) |
 | 8 | The lost coin | Luke 15 | ✅ | ✅ | ⬜ | ✅ | live |
