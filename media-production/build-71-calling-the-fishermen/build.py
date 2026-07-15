@@ -1,29 +1,19 @@
 #!/usr/bin/env python3
-"""Assemble Story Video #84 — Calling the Fishermen (Matthew 4:18-22).
+"""Assemble Video #71 — Calling the Fishermen (Matthew 4:18-22). v3 REDO 2026-07-15.
 
-PHASE-1 STILLS-ONLY (Law E): 12 painted stills, Ken Burns drift, narration, serif
-captions, cream-italic KJV line, closing question card. NO AI motion clips.
+PHASE-1 STILLS-ONLY build (Law E): twelve painted stills with slow Ken Burns drift,
+narration, serif captions (CAPTION v2), cream-italic KJV, closing invitation card.
 
-Stills are already generated in assets/<slug>.jpeg (Flow, $0). Narration is already
-generated in audio/ (make_narration.SEGMENTS). CAPTIONS ARE VERBATIM: every caption
-is the exact spoken text of its segment. The one KJV (Jesus) line renders cream italic.
+FACE LAW v3: Jesus's face IS shown in s3, s4, s8, s10, locked to JESUS-MASTER-REF
+(attached as --ref at generation). Captions are VERBATIM spoken text; his one KJV line
+(j1, "Follow me, and I will make you fishers of men") renders in cream italic and is the
+single sacred silence. Only Jesus wears cream.
 
-Face-never (the #1 Law): no divine face is ever rendered; where Jesus appears he is
-staged from behind / over-the-shoulder per the prompt sheet (gate PASS).
+CARE FLAGS: none — GREEN. Windows-ready: ffmpeg/ffprobe on PATH; Georgia copied to a
+colon-free relative path (segs/serif.ttf, serif_bi.ttf).
 
-ONE SACRED SILENCE (the music bed dies to true silence):
-  j1   Matthew 4:19   the call ("Follow me, and I will make you fishers of men")
-A warm bed carries the story in, dies before the call, then returns to carry the
-rest of the story out to the invitation.
-
-WINDOWS BUILD NOTE (Machine B): build.py on this machine uses Windows serif fonts
-(Georgia regular + italic), copied into segs/ as serif.ttf / serif_bi.ttf so the
-ffmpeg drawtext fontfile= path is relative and needs no drive-letter (C:) escaping.
-
-SIZE: 30MB cap (Cameron, 2026-07-14). This is a short passage so the cap never binds;
-crf 20 lands well under it at a real bitrate.
-
-Output: matthew-4_calling-the-fishermen.mp4, 1080x1920 H.264 30fps, <30MB.
+Output: matthew-4_calling-the-fishermen.mp4 (SCRIPTURE-NAME LAW), 1080x1920 H.264 30fps,
+<30MB.
 """
 import os
 import shutil
@@ -37,13 +27,8 @@ S = "segs"
 FPS = 30
 FF = "ffmpeg"
 FPROBE = "ffprobe"
-
-# Windows serif fonts, copied into segs/ at build time (see WINDOWS BUILD NOTE).
-WIN_FONTS = os.environ.get("WINDIR", "C:\\Windows") + "\\Fonts"
-SERIF_SRC = os.path.join(WIN_FONTS, "georgia.ttf")
-SERIF_BI_SRC = os.path.join(WIN_FONTS, "georgiai.ttf")
-SERIF = f"{S}/serif.ttf"
-SERIF_BI = f"{S}/serif_bi.ttf"
+SERIF = "segs/serif.ttf"
+SERIF_BI = "segs/serif_bi.ttf"
 CREAM = "0xF7F2E9"
 INK = "0x3B2A1E"
 
@@ -87,6 +72,16 @@ KJV_GAP = 1.60
 CARD_HOLD = 4.2
 
 
+def _ensure_fonts():
+    os.makedirs(S, exist_ok=True)
+    win = os.environ.get("WINDIR", r"C:\Windows")
+    pairs = [(os.path.join(win, "Fonts", "georgia.ttf"), f"{S}/serif.ttf"),
+             (os.path.join(win, "Fonts", "georgiai.ttf"), f"{S}/serif_bi.ttf")]
+    for src, dst in pairs:
+        if not os.path.exists(dst):
+            shutil.copyfile(src, dst)
+
+
 def run(cmd):
     print(">>", " ".join(str(c) for c in cmd)[:130], flush=True)
     subprocess.run(cmd, check=True, capture_output=True)
@@ -107,30 +102,70 @@ def spoken_of(path):
     return dur_of(tmp)
 
 
-def wrapped(name):
-    return "\n".join(textwrap.wrap(TEXT[name], width=34))
+def sentences(text):
+    import re
+    return [p for p in re.split(r"(?<=[.!?;:]) +", text) if p]
 
 
-def caption_overlay(seg_id, dur, text, kjv):
-    tf = f"{S}/{seg_id}.txt"
-    with open(tf, "w") as f:
-        f.write(text)
+def chunk_caption(text, width, max_lines):
+    out, cur = [], ""
+    for s in sentences(text):
+        cand = (cur + " " + s).strip()
+        if len(textwrap.wrap(cand, width)) <= max_lines:
+            cur = cand
+            continue
+        if cur:
+            out.append(cur)
+        if len(textwrap.wrap(s, width)) <= max_lines:
+            cur = s
+        else:
+            piece = ""
+            for frag in s.split(", "):
+                cand2 = (piece + ", " + frag).strip(", ").strip()
+                if len(textwrap.wrap(cand2, width)) <= max_lines:
+                    piece = cand2
+                else:
+                    if piece:
+                        out.append(piece)
+                    piece = frag
+            cur = piece
+    if cur:
+        out.append(cur)
+    return out
+
+
+def caption_layers(seg_id, dur, spoken_end, text, kjv):
     if kjv:
-        font, size, color = SERIF_BI, 46, "0xFFF3DC"
+        font, size, color, width, maxl = SERIF_BI, 46, "0xFFF3DC", 38, 3
     else:
-        font, size, color = SERIF, 34, "white"
-    fade_out = max(0.0, dur - 0.55)
-    return (f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
+        font, size, color, width, maxl = SERIF, 34, "white", 48, 2
+    chunks = chunk_caption(text, width, maxl)
+    total = sum(len(c) for c in chunks) or 1
+    t0, t1 = 0.15, max(0.6, min(dur - 0.2, spoken_end + 0.35))
+    filters, labels = [], []
+    acc = 0
+    for i, c in enumerate(chunks):
+        cs = t0 + (t1 - t0) * acc / total
+        acc += len(c)
+        ce = t0 + (t1 - t0) * acc / total
+        tf = f"{S}/{seg_id}_{i}.txt"
+        with open(tf, "w", encoding="utf-8") as f:
+            f.write("\n".join(textwrap.wrap(c, width)))
+        fo = max(cs, ce - 0.35)
+        filters.append(
+            f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
             f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
             f"fontcolor={color}:line_spacing=13:x=(w-text_w)/2:"
-            f"y=h-150-text_h:"
+            f"y=h-120-text_h:"
             f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
             f"box=1:boxcolor=black@0.58:boxborderw=22,"
-            f"fade=t=in:st=0:d=0.5:alpha=1,"
-            f"fade=t=out:st={fade_out}:d=0.5:alpha=1[cap]")
+            f"fade=t=in:st={cs:.2f}:d=0.35:alpha=1,"
+            f"fade=t=out:st={fo:.2f}:d=0.35:alpha=1[cap{seg_id}{i}]")
+        labels.append(f"[cap{seg_id}{i}]")
+    return filters, labels
 
 
-def build_still(seg_id, src, dur, zdir, cap_text, kjv, first):
+def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, kjv, first):
     frames = int(dur * FPS)
     if zdir == "in":
         z = f"1.001+0.09*on/{frames}"
@@ -140,16 +175,23 @@ def build_still(seg_id, src, dur, zdir, cap_text, kjv, first):
             f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"d={frames}:s=2160x3840:fps={FPS},"
             f"scale=1080:1920:flags=lanczos")
-    capf = caption_overlay(seg_id, dur, cap_text, kjv)
+    capf, labels = caption_layers(seg_id, dur, spoken_end, cap_text, kjv)
     tail = ",fade=t=in:st=0:d=1.0" if first else ""
-    fc = f"{base}[b];{capf};[b][cap]overlay=format=auto{tail}[v]"
+    steps, cur = [], "b"
+    for i, lab in enumerate(labels):
+        last = (i == len(labels) - 1)
+        nxt = "v" if last else f"b{i+1}"
+        steps.append(f"[{cur}]{lab}overlay=format=auto"
+                     + (tail if last else "") + f"[{nxt}]")
+        cur = nxt
+    fc = f"{base}[b];" + ";".join(capf) + ";" + ";".join(steps)
     run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
          "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
 
 
 def build_card(dur, text):
     tf = f"{S}/card.txt"
-    with open(tf, "w") as f:
+    with open(tf, "w", encoding="utf-8") as f:
         f.write("\n".join(textwrap.wrap(text, width=30)))
     vf = (f"drawtext=fontfile={SERIF}:textfile={tf}:fontsize=52:"
           f"fontcolor={INK}:line_spacing=24:x=(w-text_w)/2:y=(h-text_h)/2,"
@@ -185,14 +227,14 @@ def bed_filter(idx, start, end, style):
 
 
 def main():
-    os.makedirs(S, exist_ok=True)
-    shutil.copyfile(SERIF_SRC, SERIF)
-    shutil.copyfile(SERIF_BI_SRC, SERIF_BI)
+    _ensure_fonts()
 
     spoken = {n: spoken_of(f"audio/{n}.mp3") for n, _, _ in BEATS}
     card_spoken = spoken_of("audio/card.mp3")
 
-    timeline, audio_place, start_of = [], [], {}
+    timeline = []
+    audio_place = []
+    start_of = {}
     t = 0.0
     for name, still, zdir in BEATS:
         kjv = name in KJV
@@ -208,7 +250,8 @@ def main():
     audio_place.append(("audio/card.mp3", card_start + LEAD))
     total = t + card_vdur
 
-    worst, worst_at, prev_end = 0.0, None, None
+    worst, worst_at = 0.0, None
+    prev_end = None
     for name, _s, _z, _v, a_start, _k in timeline:
         if prev_end is not None and a_start - prev_end > worst:
             worst, worst_at = a_start - prev_end, name
@@ -220,7 +263,8 @@ def main():
     print(f"sacred silence (the call): j1 at {start_of['j1']:.1f}s", flush=True)
 
     for i, (seg_id, still, zdir, vdur, _a, kjv) in enumerate(timeline):
-        build_still(seg_id, still, vdur, zdir, wrapped(seg_id), kjv, first=(i == 0))
+        build_still(seg_id, still, vdur, zdir, LEAD + spoken[seg_id],
+                    TEXT[seg_id], kjv, first=(i == 0))
     build_card(card_vdur, TEXT["card"])
 
     with open(f"{S}/concat.txt", "w") as f:
@@ -230,17 +274,20 @@ def main():
     run([FF, "-y", "-f", "concat", "-safe", "0", "-i", f"{S}/concat.txt",
          "-c", "copy", f"{S}/video_silent.mp4"])
 
-    p1_end = start_of["j1"] + spoken["j1"]
+    j1_end = start_of["j1"] + spoken["j1"]
     beds = [
         (0.0, start_of["j1"] - 1.2, "b"),
-        (p1_end + 1.0, card_start - 0.8, "a"),
+        (j1_end + 1.0, card_start - 0.8, "a"),
     ]
+    print(f"music: bed out before j1, silent through the call (ends {j1_end:.1f}s), "
+          f"returns for the rest", flush=True)
 
     inputs, filters, labels = [], [], []
     for i, (path, start) in enumerate(audio_place):
         inputs += ["-i", path]
         ms = int(start * 1000)
-        filters.append(f"[{i}:a]aresample=44100,adelay={ms}|{ms},volume=1.0[a{i}]")
+        filters.append(
+            f"[{i}:a]aresample=44100,adelay={ms}|{ms},volume=1.0[a{i}]")
         labels.append(f"[a{i}]")
     bi = 0
     for (bs, be, st) in beds:
@@ -269,16 +316,12 @@ def main():
     print(f"loudness: measured {lufs} LUFS, applying {gain:+.1f} dB", flush=True)
 
     OUT = "matthew-4_calling-the-fishermen.mp4"
-    A_KBPS, MUX = 96, 20
+    A_KBPS = 96
+    MUX = 20
     vcap = int(29.5 * 8000 / total) - A_KBPS - MUX
     if vcap < 400:
-        raise SystemExit(
-            f"BITRATE STARVED even at 30MB: {total:.0f}s only leaves {vcap} kbps "
-            f"(need >=400).")
-    # A short story would otherwise be handed an absurdly high cap; clamp so the
-    # first crf pass governs quality, not the ceiling.
-    vcap = min(vcap, 2200)
-    print(f"video budget: {vcap} kbps ({total:.0f}s, 30MB cap)", flush=True)
+        raise SystemExit(f"BITRATE STARVED: {vcap} kbps < 400 in the 30MB law")
+    print(f"video budget: {vcap} kbps ({total:.0f}s)", flush=True)
 
     size, crf = 0.0, 20
     for crf in (20, 21, 22, 23, 24):

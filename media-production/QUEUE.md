@@ -95,7 +95,7 @@ rows. Do not assume approval.
 | 68 | Multitudes on the mountain | Matt 15 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 69 | The baptism of Jesus | Matt 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 70 | The temptations | Matt 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 71 | Calling the fishermen | Matt 4 | ✅ | ✅ | ✅ | ⬜ | built Machine B 2026-07-14 (Flow prep, $0) — APPROVED 2026-07-15 (batch) [migrated from old row 84] |
+| 71 | Calling the fishermen | Matt 4 | ✅ | ✅ | ⬜ | ⬜ | v3 REDONE 2026-07-15 Machine B (face SHOWN, s3/s4/s8/s10 regenerated locked to master ref; caption-v2; 22.2MB/3:42) — awaiting your yes on the redo |
 | 72 | Calling Matthew | Matt 9 | ✅ | ✅ | ✅ | ⬜ | built Machine B 2026-07-15 (Flow prep, $0; folder build-72) — APPROVED 2026-07-15 (batch) [migrated from old row 85] |
 | 73 | Nazareth synagogue: "this day fulfilled" | Luke 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 74 | The woman who washed his feet | Luke 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
