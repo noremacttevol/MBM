@@ -49,13 +49,13 @@ Watch links are in [`STATUS.md`](../STATUS.md).
 
 ## 🔧 FIX QUEUE — videos that need a redo
 
-**None open right now.** The three fixes from 2026-07-13 (#07 s3 figure, #29 s2 hand,
-#31 s3 lamps) all shipped, and the #11 Storm full redo shipped. When you reject a
-video, its chat moves the row here with a one-line reason and un-ticks `Appr`:
+When you reject a video, its chat moves the row here with a one-line reason and
+un-ticks `Appr`:
 
 | # | Story | What's wrong | Claimed by |
 |---|-------|--------------|-----------|
-| — | — | (empty) | — |
+| 31 | The ten virgins | Still messed up (rejected 2026-07-15) — needs a redo | — |
+| 124 | Gethsemane | Hair gets long out of nowhere in one scene (rejected 2026-07-15) | — |
 
 ---
 
