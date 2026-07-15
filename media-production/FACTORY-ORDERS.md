@@ -62,6 +62,37 @@ If JESUS-MASTER-REF/ is empty and candidates are already pushed awaiting Cameron
 pick, do NOT idle and do NOT build Jesus stills — build the narration + prompts +
 non-Jesus stills of your next row, or say in one line you are blocked on the pick.
 
+## FLOW ACCESS — driver first, extension NEVER required (2026-07-15)
+
+The Claude Chrome extension kept dropping connections and stalling machines. Flow is
+now driven by `media-production/flow_driver.py` (Playwright + a dedicated persistent
+Chrome profile). NO extension involved.
+
+PREFLIGHT, in order:
+1. `python3 media-production/flow_driver.py check`
+   - prints `logged_in=True project=saved` → ready. Generate stills with:
+     `python3 media-production/flow_driver.py gen --prompt "<FULL prompt>" \
+        --ref media-production/JESUS-MASTER-REF/jesus-face.jpeg \
+        --out <build-dir>/assets/<slug>.jpeg`
+     (--ref on every Jesus shot; also usable for other character locks. Then `Read`
+     the saved jpeg to QC — never screenshot.)
+2. If check fails: `pip install playwright` if missing, then
+   `python3 media-production/flow_driver.py open` and tell Cameron in ONE line:
+   "A Chrome window opened — log into your Google account in it once." Wait, re-check.
+3. `gen` REFUSES to run unless the panel shows "0 credits" (money law enforced in code).
+4. The extension/browser-tool path is FALLBACK only — never the default, never more
+   than two attempts before reporting the one-line blocker.
+
+## SESSION HYGIENE (context is the scarcest resource)
+
+- One chat session builds/redoes AT MOST 4 videos, then hands off. The REPO is the
+  memory, not the chat: QUEUE.md holds all state, so a fresh session loses nothing.
+- HANDOFF = (1) push everything (partial work pushed is fine — note it in the Claim
+  column), (2) append any NEW gotcha as ONE dated bullet to FLOW-BUILD-PLAYBOOK.md,
+  (3) say exactly: "SESSION DONE — built rows X, Y, Z. Start a fresh chat."
+- No narrative session logs. No re-reading files the playbook summarizes. No
+  narrating between steps. Tokens spent talking are tokens not spent building.
+
 ## RUN UNATTENDED
 
 Do NOT ask Cameron questions. Make sensible defaults, keep going until every row in
