@@ -9,7 +9,6 @@
 | # | Story | What's wrong | Claimed by |
 |---|---|---|---|
 | 91 | Gethsemane | Hair got long in s7 (rejected 2026-07-15). **Cameron chose a FULL v3 FACE-SHOWN redo (not just an s7 swap).** All 12 prompts rewritten face-shown + byte-identical JESUS LOCK v3 + REF line (face-gate PASS, exit 0); caption-v2 ported into build.py; the master-face lock fixes the s7 hair-length drift. REMAINING: regenerate all 12 stills in Flow ($0), QC, rebuild, tick Built. | Machine B 2026-07-15 (v3 face-shown redo WIP) |
-| 11 | Calming the storm | Rejected AGAIN 2026-07-15 — the v3 redo still isn't right. Needs another fix pass, then rebuild + tick Built. | — |
 | 16 | Mary and Martha | Rejected 2026-07-15 — one scene shows the Jesus figure from behind without long hair. Regenerate that still face/hair-correct, rebuild, tick Built. | — |
 
 ## ✅ APPROVED FOLDER — Cameron's fresh yes (post-redo, face-law v3)
@@ -44,7 +43,7 @@ Appr and add it to this folder.
 | 8 | The lost coin | Luke 15 | ✅ | ✅ | ⬜ | ✅ | live |
 | 9 | The rich young ruler | Mark 10 | ✅ | ✅ | ⬜ | ✅ | live |
 | 10 | The woman at the well | John 4 | ✅ | ✅ | ⬜ | ✅ | live |
-| 11 | Calming the storm | Mark 4 | ✅ | ⬜ | ⬜ | ⬜ | REJECTED AGAIN 2026-07-15 (Cameron) — v3 redo still not right, needs another fix pass (see Fix queue) |
+| 11 | Calming the storm | Mark 4 | ✅ | ✅ | ⬜ | ⬜ | **CONTINUITY REDO 2026-07-15 (Machine A)** — Cameron's reject was the boat's size/shape and the NUMBER of men in it changing shot to shot. Fixed with a byte-identical BOAT LOCK (one same large single-mast Galilean boat every shot) + CREW LOCK (Jesus + the twelve = 13 aboard, same full crowd every shot); ALL 9 stills regenerated & QC'd for continuity, Jesus face-shown & locked to master; 18.7MB/4:27. Awaiting your yes. |
 | 12 | Blind Bartimaeus | Mark 10 | ✅ | ✅ | ⬜ | ✅ | live; **v3 REDONE 2026-07-15** (Jesus s6/s9/s11 now FACE-SHOWN, text-locked to master; build.py made cross-platform; kept detailed non-Jesus stills — re-review) |
 | 13 | Through the roof | Mark 2 | ✅ | ✅ | ⬜ | ✅ | live |
 | 14 | The ten lepers | Luke 17 | ✅ | ✅ | ⬜ | ✅ | live; **v3 REDO WIP Machine A 2026-07-15** — s1/s4/s10 regenerated FACE-SHOWN & good, build.py made cross-platform; s11 STILL PENDING (Flow logged out mid-run). TO FINISH: log into Flow, `MBM_NOREF=1 genshot --file build-14 <s11 prompt in scratchpad redo14.tsv>`, then rebuild + push. mp4 NOT yet rebuilt. |
