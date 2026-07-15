@@ -37,6 +37,7 @@ TITLES = {
     41: "Counting the Cost", 42: "The Barren Fig Tree Spared",
     45: "The Wicked Tenants", 46: "The Seed Growing Secretly",
     47: "Houses on Rock and Sand", 48: "New Wine, Old Bottles",
+    51: "The First Catch of Fish",
     71: "Calling the Fishermen", 72: "Calling Matthew",
     84: "No Room: the Manger", 91: "Gethsemane",
     101: "The Still Small Voice",
