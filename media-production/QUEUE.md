@@ -53,32 +53,32 @@ Appr and add it to this folder.
 | 19 | Breakfast on the shore | John 21 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
 | 20 | The Good Samaritan | Luke 10 | ✅ | ✅ | ⬜ | ⬜ | approved 07-12 — confirm posted |
 | 21 | The lost sheep | Luke 15 | ✅ | ✅ | ⬜ | ⬜ | approved 07-12 — confirm posted |
-| 22 | The unmerciful servant | Matt 18 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
+| 22 | The unmerciful servant | Matt 18 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) |
 | 23 | Workers in the vineyard | Matt 20 | ✅ | ✅ | ⬜ | ⬜ | approved 07-12 — confirm posted |
-| 24 | The sower | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
+| 24 | The sower | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) |
 | 25 | Wheat and tares | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | approved 07-12 — confirm posted |
-| 26 | The mustard seed | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
-| 27 | The leaven | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
-| 28 | Hidden treasure | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
-| 29 | The pearl of great price | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo (s2 fix shipped) |
-| 30 | The net | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
-| 31 | The ten virgins | Matt 25 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
-| 32 | The talents | Matt 25 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
-| 33 | The sheep and the goats | Matt 25 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
-| 34 | The rich fool | Luke 12 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
-| 35 | The great banquet | Luke 14 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
-| 36 | The shrewd steward | Luke 16 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
-| 37 | The rich man and Lazarus | Luke 16 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
+| 26 | The mustard seed | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) |
+| 27 | The leaven | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) |
+| 28 | Hidden treasure | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) |
+| 29 | The pearl of great price | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) (s2 fix shipped) |
+| 30 | The net | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) |
+| 31 | The ten virgins | Matt 25 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) |
+| 32 | The talents | Matt 25 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) |
+| 33 | The sheep and the goats | Matt 25 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) |
+| 34 | The rich fool | Luke 12 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) |
+| 35 | The great banquet | Luke 14 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) |
+| 36 | The shrewd steward | Luke 16 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) |
+| 37 | The rich man and Lazarus | Luke 16 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) |
 | 38 | The persistent widow | Luke 18 | ✅ | ✅ | ⬜ | ⬜ | approved by Cameron 2026-07-13 |
-| 39 | The Pharisee and the publican | Luke 18 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
-| 40 | The friend at midnight | Luke 11 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
-| 41 | Counting the cost | Luke 14 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 (Flow prep, $0) — approval RESET 2026-07-15 — re-review after redo |
-| 42 | The barren fig tree spared | Luke 13 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 (Flow $0, CARE-J mercy) — approval RESET 2026-07-15 — re-review after redo |
-| 43 | The wedding garment | Matt 22 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 — approval RESET 2026-07-15 — re-review after redo |
-| 44 | The two debtors | Luke 7 | ✅ | ✅ | ⬜ | ⬜ | built Computer B 2026-07-14 (mp4 committed cb2ffd4) — approval RESET 2026-07-15 — re-review after redo |
-| 45 | The wicked tenants | Mark 12 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 (Flow $0, CARE R+J, violence off-screen) — approval RESET 2026-07-15 — re-review after redo |
+| 39 | The Pharisee and the publican | Luke 18 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) |
+| 40 | The friend at midnight | Luke 11 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) |
+| 41 | Counting the cost | Luke 14 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 (Flow prep, $0) — APPROVED 2026-07-15 (parable — Jesus's face not required) |
+| 42 | The barren fig tree spared | Luke 13 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 (Flow $0, CARE-J mercy) — APPROVED 2026-07-15 (parable — Jesus's face not required) |
+| 43 | The wedding garment | Matt 22 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 — APPROVED 2026-07-15 (parable — Jesus's face not required) |
+| 44 | The two debtors | Luke 7 | ✅ | ✅ | ✅ | ⬜ | built Computer B 2026-07-14 (mp4 committed cb2ffd4) — APPROVED 2026-07-15 (parable — Jesus's face not required) |
+| 45 | The wicked tenants | Mark 12 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 (Flow $0, CARE R+J, violence off-screen) — APPROVED 2026-07-15 (parable — Jesus's face not required) |
 | 46 | The seed growing secretly | Mark 4 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-15 (Flow $0, GREEN restful) — awaiting your yes |
-| 47 | Houses on rock and sand | Matt 7 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 (Flow images, 0 API cost) — approval RESET 2026-07-15 — re-review after redo |
+| 47 | Houses on rock and sand | Matt 7 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 (Flow images, 0 API cost) — APPROVED 2026-07-15 (parable — Jesus's face not required) |
 | 48 | New wine, old bottles | Mark 2 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 — approval RESET 2026-07-15 — re-review after redo; **v3 REDONE 2026-07-15** (Jesus s1/s10 now FACE-SHOWN, text-locked to master; face-never version replaced — re-review the face) |
 | 49 | Water to wine at Cana | John 2 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-15 under FACE LAW v3 (face shown, locked to JESUS-MASTER-REF; Jesus in s2/s4/s5/s8/s9/s12, face-consistent, only-Jesus-in-cream) — 12 Flow $0 stills (Nano Banana 2, 9:16), caption-v2, 2 sacred silences (jv7/jv8), 22.1MB/4.06min, no dead air. john-2_water-to-wine.mp4. Awaiting your yes. |
 | 50 | The nobleman's son | John 4 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-15 under FACE LAW v3 (Jesus in s1/s4/s5/s6/s7, face-consistent via LOCK v3 TEXT — attaching the master portrait made Nano Banana echo the bust, so Jesus shots are text-locked not ref-attached; see playbook). 11 Flow $0 stills, caption-v2, "liveth" spoken-override for the homograph, 2 sacred silences (jv48/jv50), 22.4MB/2:52, no dead air. john-4_noblemans-son.mp4. Awaiting your yes. |
