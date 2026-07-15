@@ -1,7 +1,10 @@
 # FACTORY ORDERS — the single source of truth for the MBM video factory
 
-> 🛑 **ANTI-SPIN ORDER (2026-07-15): the JESUS-MASTER-REF bootstrap is handled
-> CENTRALLY — no machine works on the master face anymore.** If JESUS-MASTER-REF/
+> 🛑 **ANTI-SPIN ORDER (2026-07-15, amended): the JESUS-MASTER-REF bootstrap
+> belongs to the FIRST machine whose browser preflight passes on the FIRST try —
+> generate the portrait per the face law, save as JESUS-MASTER-REF/jesus-face.jpeg,
+> push, then continue your range. If your preflight does NOT pass first try, the
+> face is not your job — skip it.** If JESUS-MASTER-REF/
 > is empty: do non-Jesus prep only (narration scripts, PROMPTS.md, non-Jesus
 > stills), or say "SESSION DONE" and stop. NEVER retry browsers/extensions more
 > than twice for ANY task — two failures = note it in one line and move to work
