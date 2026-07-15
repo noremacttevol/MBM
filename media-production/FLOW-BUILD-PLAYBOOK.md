@@ -440,3 +440,20 @@ RECIPE per redo (proven on #48):
   prompt problem. Recovery: `pkill -9 -f mbm-flow-profile`, `rm -f
   ~/.mbm-flow-profile/Singleton*`, then re-run gen_stills_flow.py — it skips the ones already
   on disk and the fresh browser recovers cleanly (s7-s10 all succeeded on the retry).
+
+## Machine A, 2026-07-15 (later) — Flow submit dead via claude-in-chrome CDP typing
+During #11's v3 redo, Flow's composer **contenteditable DIV would not register
+CDP-typed or JS-injected text with React**: the `arrow_forward` button stayed
+`aria-disabled="true"` and any forced submit raised the "Prompt must be provided"
+toast. Everything failed: the `type` action, JS `innerText=`, the native
+textarea-value setter + `input` event, `execCommand('insertText')` on the focused
+div, and a physical space+backspace nudge (React reverted the box to its empty
+controlled value, len→30). Exactly ONE image generated (s1) — a fluke on the very
+first fresh-page interaction; every generation after a JS-clear or a re-navigation
+failed. Per the anti-spin order I stopped after these attempts rather than burn
+credits. OPEN QUESTION for the next Flow session: the composer must have a React
+onChange/onInput that only fires from a *trusted* event the CDP path isn't producing
+here — either drive it through the page's React fiber, or have a human paste prompts
+into the already-logged-in window. Until solved, unattended Flow image-gen from this
+env is blocked; all local prep (PROMPTS, face gate, narration, build.py, caption-v2)
+still runs fine headless.

@@ -98,11 +98,11 @@ SEGMENTS = [
      "And now they were staring at a man in dripping clothes who had "
      "just done it."),
     # n10 — the closing card, read aloud gently (Readable-Card Law).
+    # INVITATION, not a fear-question (closing-card law, Cameron 2026-07-15).
     ("n10", NARRATOR, "-26%", "-4Hz",
-     "Don't you care that we are drowning? Have you ever asked that "
-     "question — or wanted to? He never denied the storm was real. So "
-     "here is the question this story leaves behind: is God the author "
-     "of your storm — or the one standing up in your boat?"),
+     "Whatever storm you are in tonight, hear this: the same Jesus is "
+     "still in the boat with you. He has not left you alone in it. Bring "
+     "him your fear, and let him speak his peace over your storm."),
 ]
 
 
