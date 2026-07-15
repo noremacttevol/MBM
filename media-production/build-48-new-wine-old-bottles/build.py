@@ -112,33 +112,78 @@ def spoken_of(path):
     return dur_of(tmp)
 
 
-def wrapped(name):
-    return "\n".join(textwrap.wrap(TEXT[name], width=34))
+# ---- CAPTION SYSTEM v2 (Cameron, 2026-07-15) ----
+# Captions sit WIDE along the BOTTOM and never climb the picture: narrator captions
+# are at most 2 lines, KJV at most 3. A long segment is SPLIT into chunks that swap
+# in sync with the narration (timed proportionally across the spoken audio), so the
+# still stays clean while every spoken word is still captioned verbatim.
+
+def sentences(text):
+    import re
+    return [p for p in re.split(r"(?<=[.!?;:]) +", text) if p]
 
 
-def caption_overlay(seg_id, dur, text, kjv):
-    tf = f"{S}/{seg_id}.txt"
-    with open(tf, "w") as f:
-        f.write(text)
+def chunk_caption(text, width, max_lines):
+    """Split text into pieces whose wrapped form is <= max_lines each."""
+    out, cur = [], ""
+    for s in sentences(text):
+        cand = (cur + " " + s).strip()
+        if len(textwrap.wrap(cand, width)) <= max_lines:
+            cur = cand
+            continue
+        if cur:
+            out.append(cur)
+        if len(textwrap.wrap(s, width)) <= max_lines:
+            cur = s
+        else:  # one long sentence: split on commas
+            piece = ""
+            for frag in s.split(", "):
+                cand2 = (piece + ", " + frag).strip(", ").strip()
+                if len(textwrap.wrap(cand2, width)) <= max_lines:
+                    piece = cand2
+                else:
+                    if piece:
+                        out.append(piece)
+                    piece = frag
+            cur = piece
+    if cur:
+        out.append(cur)
+    return out
+
+
+def caption_layers(seg_id, dur, spoken_end, text, kjv):
+    """One drawtext layer per chunk, faded in/out at its share of the spoken time."""
     if kjv:
-        font, size, color = SERIF_BI, 46, "0xFFF3DC"
+        font, size, color, width, maxl = SERIF_BI, 46, "0xFFF3DC", 38, 3
     else:
-        font, size, color = SERIF, 34, "white"
-    # Box at 0.58 — this story is warm lamp-lit and daylight throughout (the brightest
-    # frame is the golden wedding feast), so the box is tuned to the lightest frame for
-    # legibility (the #40 lesson: pick alpha from the lightest still).
-    fade_out = max(0.0, dur - 0.55)
-    return (f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
+        font, size, color, width, maxl = SERIF, 34, "white", 48, 2
+    chunks = chunk_caption(text, width, maxl)
+    total = sum(len(c) for c in chunks) or 1
+    t0, t1 = 0.15, max(0.6, min(dur - 0.2, spoken_end + 0.35))
+    filters, labels = [], []
+    acc = 0
+    for i, c in enumerate(chunks):
+        cs = t0 + (t1 - t0) * acc / total
+        acc += len(c)
+        ce = t0 + (t1 - t0) * acc / total
+        tf = f"{S}/{seg_id}_{i}.txt"
+        with open(tf, "w") as f:
+            f.write("\n".join(textwrap.wrap(c, width)))
+        fo = max(cs, ce - 0.35)
+        filters.append(
+            f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
             f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
             f"fontcolor={color}:line_spacing=13:x=(w-text_w)/2:"
-            f"y=h-150-text_h:"
+            f"y=h-120-text_h:"
             f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
             f"box=1:boxcolor=black@0.58:boxborderw=22,"
-            f"fade=t=in:st=0:d=0.5:alpha=1,"
-            f"fade=t=out:st={fade_out}:d=0.5:alpha=1[cap]")
+            f"fade=t=in:st={cs:.2f}:d=0.35:alpha=1,"
+            f"fade=t=out:st={fo:.2f}:d=0.35:alpha=1[cap{seg_id}{i}]")
+        labels.append(f"[cap{seg_id}{i}]")
+    return filters, labels
 
 
-def build_still(seg_id, src, dur, zdir, cap_text, kjv, first):
+def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, kjv, first):
     # ANTI-SHIMMER: drift rendered supersampled (2160 wide), lanczos'd to 1080.
     frames = int(dur * FPS)
     if zdir == "in":
@@ -149,9 +194,16 @@ def build_still(seg_id, src, dur, zdir, cap_text, kjv, first):
             f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"d={frames}:s=2160x3840:fps={FPS},"
             f"scale=1080:1920:flags=lanczos")
-    capf = caption_overlay(seg_id, dur, cap_text, kjv)
+    capf, labels = caption_layers(seg_id, dur, spoken_end, cap_text, kjv)
     tail = ",fade=t=in:st=0:d=1.0" if first else ""
-    fc = f"{base}[b];{capf};[b][cap]overlay=format=auto{tail}[v]"
+    steps, cur = [], "b"
+    for i, lab in enumerate(labels):
+        last = (i == len(labels) - 1)
+        nxt = "v" if last else f"b{i+1}"
+        steps.append(f"[{cur}]{lab}overlay=format=auto"
+                     + (tail if last else "") + f"[{nxt}]")
+        cur = nxt
+    fc = f"{base}[b];" + ";".join(capf) + ";" + ";".join(steps)
     run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
          "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
 
@@ -235,8 +287,8 @@ def main():
 
     # ---- render every still beat ----
     for i, (seg_id, still, zdir, vdur, _a, kjv) in enumerate(timeline):
-        build_still(seg_id, still, vdur, zdir, wrapped(seg_id), kjv,
-                    first=(i == 0))
+        build_still(seg_id, still, vdur, zdir, LEAD + spoken[seg_id],
+                    TEXT[seg_id], kjv, first=(i == 0))
     build_card(card_vdur, TEXT["card"])
 
     with open(f"{S}/concat.txt", "w") as f:
