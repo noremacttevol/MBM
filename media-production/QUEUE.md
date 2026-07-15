@@ -32,7 +32,7 @@ Appr and add it to this folder.
 
 | # | Story | Ref | Prep | Built | Appr | Post | Claim / notes |
 |---|---|---|---|---|---|---|---|
-| 1 | Woman who touched his cloak | Mark 5 | ✅ | ✅ | ⬜ | ✅ | v3 REBUILD CLAIMED Machine A 2026-07-15 (old face-never build → full face-shown rebuild w/ continuity locks; WIP) |
+| 1 | Woman who touched his cloak | Mark 5 | ✅ | ✅ | ✅ | ✅ | **v3 FULL REBUILD 2026-07-15 (Machine A)** — old face-never build rebuilt: 11 face-shown stills locked to master + continuity locks (woman same every shot), caption-v2, AndrewNeural narration, invitation card, 18.4MB/1:47. Awaiting your yes. |
 | 2 | The Prodigal Son | Luke 15 | ✅ | ✅ | ⬜ | ✅ | live |
 | 3 | Zacchaeus | Luke 19 | ✅ | ✅ | ⬜ | ✅ | live |
 | 4 | Nicodemus at night | John 3 | ✅ | ✅ | ⬜ | ✅ | live |

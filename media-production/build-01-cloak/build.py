@@ -223,7 +223,9 @@ def main():
     for name, still, zdir in BEATS:
         kjv = name in KJV
         gap = KJV_GAP if kjv else GAP
-        vdur = LEAD + audio_dur[name] + gap
+        # base beat length on the SPOKEN end (trailing mp3 silence removed) so a short
+        # KJV line + gap never trips the No-Dead-Air check (build-48 pattern).
+        vdur = LEAD + spoken[name] + gap
         a_start = t + LEAD
         audio_place.append((f"audio/{name}.mp3", a_start))
         if name == PEAK:
