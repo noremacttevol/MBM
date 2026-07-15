@@ -42,6 +42,7 @@ TITLES = {
     84: "No Room: the Manger", 91: "Gethsemane",
     101: "The Still Small Voice",
     121: "Salt and Light", 135: "The Rainbow Covenant",
+    161: "Called of God, as was Aaron",
 }
 
 SMALL = {"of", "and", "the", "a", "an", "in", "on", "to", "his", "her"}

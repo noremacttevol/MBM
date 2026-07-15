@@ -185,7 +185,7 @@ rows. Do not assume approval.
 | 158 | The stick of Judah and the stick of Joseph | Ezek 37:15–19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 159 | "Other sheep I have" | John 10:16 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 160 | The stone cut without hands | Dan 2:44 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 161 | "No man taketh this honour... as was Aaron" | Heb 5:4 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine D 2026-07-15 |
+| 161 | "No man taketh this honour... as was Aaron" | Heb 5:4 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 stills Flow $0, caption-v2, 22.5MB, no Jesus figure; face-gate PASS) |
 | 162 | The keys of the kingdom | Matt 16:18–19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 163 | Built on apostles and prophets | Eph 2:19–20 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 164 | "Till we all come in the unity of the faith" | Eph 4:11–14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
