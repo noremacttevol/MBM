@@ -194,7 +194,7 @@ Appr and add it to this folder.
 | 160 | The stone cut without hands | Dan 2:44 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, Daniel/king in dark royal earth tones, dream statue as translucent vision—not worshipped, stone/mountain + kingdom as light, no figure, caption-v2, 2 sacred silences, 23.2MB/3:31; face-gate PASS) |
 | 161 | "No man taketh this honour... as was Aaron" | Heb 5:4 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 stills Flow $0, caption-v2, 22.5MB, no Jesus figure; face-gate PASS) |
 | 162 | The keys of the kingdom | Matt 16:18–19 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (FACE-SHOWN: Jesus + Peter, Jesus text-locked to master face—consistent, only-Jesus-in-cream; 8 Flow $0 stills 9:16, keys imagery, caption-v2, 2 sacred silences, 23.6MB/3:08; face-gate PASS. Built on a FRESH Flow project after the old one corrupted. Awaiting your yes.) |
-| 163 | Built on apostles and prophets | Eph 2:19–20 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine D 2026-07-15 |
+| 163 | Built on apostles and prophets | Eph 2:19–20 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, household/builders in dark earth tones, Christ shown ONLY as glowing chief cornerstone + God as light/no figure, caption-v2, 2 sacred silences, 23.8MB/2:52; face-gate PASS). Built on a fresh Flow project after the old one corrupted. Awaiting your yes. |
 | 164 | "Till we all come in the unity of the faith" | Eph 4:11–14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 165 | Laying on of hands for the Holy Ghost | Acts 8:14–17 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 166 | Baptized again, properly | Acts 19:1–6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
