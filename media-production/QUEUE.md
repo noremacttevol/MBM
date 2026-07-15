@@ -125,7 +125,7 @@ rows. Do not assume approval.
 | 98 | Mary at the tomb: her name | John 20 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 99 | Flesh and bone; Thomas's hands | Luke 24 / John 20 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 100 | The ascension | Acts 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 101 | The still small voice | 1 Kgs 19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 101 | The still small voice | 1 Kgs 19 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine C 2026-07-15 (no Jesus figure — unblocked by master-face gate) |
 | 102 | Jacob's ladder | Gen 28 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 103 | Peter's confession | Matt 16 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 104 | The boy Samuel | 1 Sam 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
