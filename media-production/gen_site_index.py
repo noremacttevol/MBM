@@ -28,9 +28,12 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # same direct-link pattern used by the watch links in STATUS.md.
 RAW_BASE = "https://github.com/noremacttevol/MBM/raw/main/"
 
-# The page is published from docs/ (Pages source = /docs) so GitHub Pages only
-# has to deploy a couple MB, never the ~15 GB of video in the repo.
-OUT_DIR = os.path.join(REPO, "docs")
+# The review gallery is hosted on Firebase (milk-b4-meat.web.app/review.html),
+# not GitHub Pages — the repo is far over Pages' 1 GB limit, but Firebase only
+# uploads the small site/ folder. Videos stream from GitHub (RAW_BASE), so this
+# page stays tiny. Deploy with:  firebase deploy --only hosting
+OUT_DIR = os.path.join(REPO, "site")
+OUT_NAME = "review.html"
 
 # Nice display titles keyed by build number (the folder slug drives discovery;
 # this map only supplies the human-facing name). Anything not listed falls back
@@ -276,10 +279,7 @@ def main():
 </html>
 """
     os.makedirs(OUT_DIR, exist_ok=True)
-    # .nojekyll so Pages serves the folder as-is (no Jekyll processing of the
-    # sibling markdown in docs/).
-    open(os.path.join(OUT_DIR, ".nojekyll"), "w").close()
-    out = os.path.join(OUT_DIR, "index.html")
+    out = os.path.join(OUT_DIR, OUT_NAME)
     with open(out, "w") as f:
         f.write(html)
     print(f"wrote {out} with {count} videos")
