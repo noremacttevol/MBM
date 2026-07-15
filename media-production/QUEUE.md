@@ -148,7 +148,7 @@ Appr and add it to this folder.
 | 114 | Abraham argues for Sodom | Gen 18 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:57, 21.8MB; God as presence/light no figure; destruction OFF-SCREEN per CARE-J; the negotiation + yeses) |
 | 115 | The ram in the thicket | Gen 22 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 3:12, 21.9MB; CARE-C honored: NO knife/bound child, Isaac safe every frame; walk/question/ram/release/embrace; God provides. Border-crop applied) |
 | 116 | Graven on his palms | Isa 49 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:34, 21.9MB; comfort for the forgotten; God as light no figure; graven-city on an open palm, NO nail/wound; border-crop) |
-| 117 | Hosea buys her back | Hosea 1–3 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine C 2026-07-15 |
+| 117 | Hosea buys her back | Hosea 1–3 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 3:04, 21.6MB; care D,L — redemption at the price paid, never the scandal; Hosea shows face earth-colors, God as light no figure; s3/s9 regen to lock dark hair + russet robe; buy-back Hosea 3:2 narrator-voice, God KJV 2:14 + 2:19-20 two silences; fresh Flow project 026b29c0) |
 | 118 | Jonah and the God who relents | Jonah | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 119 | The fourth man in the fire | Dan 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 120 | Job answered from the whirlwind | Job 38–42 | ⬜ | ⬜ | ⬜ | ⬜ |  |
