@@ -220,3 +220,25 @@ coordinate click at the prompt bar (bottom-center) + page.keyboard.insert_text,
 verify chars, submit via the arrow_forward button JS click. If still failing after
 15 min, STOP — use the Claude-extension path (proven, this playbook) and move on.
 Never let driver debugging block video production again.
+
+## flow_driver.py status (2026-07-15, Machine D session — moved the wall downstream)
+Advanced past Machine A's prompt-box blocker: the real prompt box is the LAST visible
+`contenteditable=DIV` (not a textarea) — `el.focus()` + `page.keyboard.insert_text`
+registers fine (verified 998 chars in box), and the `arrow_forward` JS click submits.
+FIXED in code: `ensure_settings` — Flow renders the model chip as a NON-`<button>`
+element, so the old `button:has-text("Nano Banana 2")` locator missed it and the
+`SystemExit` it raised (a BaseException, uncaught by cmd_gen's `except Exception`)
+killed EVERY gen even though the panel already read Nano Banana 2 · 0 credits. Now it
+finds the chip via `get_by_text` and degrades gracefully. NEW BLOCKER (unsolved this
+session): RESULT DETECTION. After a successful submit, NO media element ever appears
+in the DOM within 3 min — `NAMES_JS`'s `img.src includes 'getMediaUrl'` finds nothing,
+and a broad scan (blob:/data:/http `<img>` + CSS background-image) also stays empty.
+The composer ALSO renders intermittently (sometimes the prompt box/`arrow_forward`
+button aren't in the DOM even after 15s) — worsened by force-killing the profile
+Chrome to clear a lock (the lock came from the Bash-tool 2-min cap killing a gen and
+orphaning its Chrome; run gen with a >5-min budget so it's never killed mid-flight).
+NEXT SESSION (≤15 min, per Machine A's rule): with the composer open, submit one gen
+and inspect where the result actually mounts (likely a virtualized "All Media" grid or
+a new URL scheme) — patch `NAMES_JS`/`FETCH_JS` to that selector. Machine D still has
+NO working asset-delivery path (the Claude-extension download is also blocked here),
+so Machine D is the wrong host to debug this on if another machine can save to disk.

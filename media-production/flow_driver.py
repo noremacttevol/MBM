@@ -121,22 +121,31 @@ def cmd_check():
 
 
 def ensure_settings(page):
-    """Verify Nano Banana 2 / 0 credits; set Image·9:16·1x via the chip if needed."""
-    chip = page.locator('button:has-text("Nano Banana 2")').first
+    """Verify Nano Banana 2 / 0 credits; set Image·9:16·1x via the chip if needed.
+
+    Best-effort ONLY — must never abort gen (2026-07-15: Flow renders the model
+    chip as a non-<button> element, so the old button-only locator missed it and
+    the SystemExit it raised — a BaseException, not caught by cmd_gen's
+    `except Exception` — killed every generation even though the panel already
+    said Nano Banana 2 · 0 credits). Find the chip on ANY element type and, if it
+    can't be found or clicked, log and continue rather than raising.
+    """
+    chip = page.get_by_text("Nano Banana 2", exact=False).first
     try:
         chip.wait_for(timeout=8000)
+        chip.click()
+        page.wait_for_timeout(1200)
+        for label in ("Image", "9:16", "1x"):
+            try:
+                page.get_by_text(label, exact=True).locator("visible=true").first.click(timeout=3000)
+                page.wait_for_timeout(400)
+            except PWTimeout:
+                pass
+        page.keyboard.press("Escape")
+        page.wait_for_timeout(500)
     except PWTimeout:
-        raise SystemExit("Settings chip not found — open the project once with "
-                         "`flow_driver.py open` and set Image · Nano Banana 2 · "
-                         "9:16 · 1x in the prompt bar.")
-    chip.click()
-    page.wait_for_timeout(1200)
-    for label in ("Image", "9:16", "1x"):
-        try:
-            page.get_by_text(label, exact=True).locator("visible=true").first.click(timeout=3000)
-            page.wait_for_timeout(400)
-        except PWTimeout:
-            pass
+        print("  (settings chip not clickable — proceeding with current panel "
+              "settings; confirm Image · Nano Banana 2 · 9:16 · 1x once in `open`)")
     body = page.inner_text("body")
     # Flow credits are PREPAID and expire monthly (Cameron, 2026-07-15): spending
     # them is fine and often smart. Just say what this generation costs.
