@@ -220,6 +220,22 @@ read, dove, bass, minute, use(d), close. Listen to any segment containing one.
   max (3 KJV), chunks swap with the narration. Old builds get re-assembled with it
   in the remediation sweep — stills and most audio untouched, so it costs $0.
 
+## FACE-GATE was broken for EVERY Jesus build — fixed (2026-07-15, Machine B)
+The new face law's very first Jesus-shown build exposed two bugs in `jesus_face_gate.py`
+(nobody hit them because the only earlier post-reversal build, #101, has no Jesus):
+1. The BANNED scan ran over the whole file, so the mandatory LOCK_V3 paragraph — which
+   says "Never caucasian ... never blue-eyed, never blond" (negations!) — tripped the
+   gate against its OWN required text. Fix: blank LOCK_V3 out of the text before the
+   BANNED scan (real drift language elsewhere is still caught).
+2. `read_text()` used the platform default: on Windows that's cp1252, which mangles the
+   em-dash (—) inside LOCK_V3, so the lock never matched and every Jesus shot false-failed
+   "MISSING JESUS LOCK v3". Fix: `read_text(encoding="utf-8")`. (Linux defaulted to UTF-8,
+   so it worked there — a Windows-only false-fail.)
+GOTCHA for prompt-writers: don't put the literal words halo/glow/rim-light in your OWN
+header prose — reword (e.g. "no bright ring of light or aura around a head"). The lock's
+own "No halo, no glow" is fine (it's inside the blanked lock). First Jesus build to PASS:
+`build-51-first-catch-of-fish`. [[mbm-machine-b-workflow]]
+
 ## flow_driver.py status (2026-07-15, Machine B — gen STILL broken, root cause found)
 Machine B got a fresh Flow LOGIN working on this laptop (profile `~/.mbm-flow-profile`,
 `check` → `logged_in=True project=saved`). But `gen` produced ZERO images across 3

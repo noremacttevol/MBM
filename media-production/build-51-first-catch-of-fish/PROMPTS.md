@@ -1,0 +1,80 @@
+# STILL PROMPTS — Video #51: The First Catch of Fish (luke-5_first-catch-of-fish)
+
+Luke 5:1-11. STILLS-ONLY (Law E) — nine painted stills, no motion clips. EVERYONE shelf.
+CARE FLAGS: none — GREEN, plain milk. Nothing violent or fearful: a night of empty
+labour turns to overflowing abundance; the note is wonder and gentle calling, not dread.
+The WHY the whole video carries: after they had toiled all night and caught nothing, at
+his word the empty nets fill to breaking — and the fishermen leave everything to follow
+him and become fishers of men.
+
+Jesus appears in s2, s3, s7, s8, s9 — his face IS shown, the same face as the master
+reference, and every one of those shots carries the byte-identical JESUS LOCK v3 paragraph
+and a "REF: jesus-master-ref" line (the approved JESUS-MASTER-REF portrait is attached as
+--ref at generation). The catch/labour shots (s1, s4, s5, s6) have no divine figure — only
+the fishermen and the lake. ONLY JESUS wears cream/off-white; everyone else is in darker
+earth colors in every prompt.
+
+SIMON PETER LOCK (s1,s2,s3,s4,s5,s6,s7,s8,s9): a strong Galilean fisherman of about forty,
+weathered olive-brown sun-darkened skin, a short dark beard, dark tousled hair, in a plain
+undyed brown wool tunic to the knee with the sleeves pushed up over bare muscular forearms
+and a rough rope belt, wet and travel-worn — NEVER cream or off-white. His face is shown,
+weary at first and then awed, consistent in every shot.
+
+SONS OF ZEBEDEE LOCK (James and John; s6,s8,s9): two younger fishermen, brothers, warm
+olive-brown skin and dark hair, one clean-shaven and one with a short beard, in coarse wool
+tunics of dark ochre-brown and faded grey-blue with rope belts and bare forearms — never
+cream or off-white. Faces shown, honest and hardy.
+
+CROWD LOCK (s1,s2): ordinary Galilean villagers of every age at the water's edge, in
+earth-toned wool of brown, russet, dun and olive with simple headscarves and mantles —
+none in off-white or cream. Faces shown, attentive.
+
+MUST NEVER SHOW: any modern object; any text baked into the image; any bright ring of
+light or aura around a head; any second person in cream or off-white; a multi-panel or
+comic-strip layout.
+
+STILL STYLE BLOCK (prepended to every prompt, exactly):
+Beautiful hand-painted 2D animation style, reverent and warm, like a classic
+illustrated storybook of scripture brought to life. Soft painterly brushstroke
+textures, glowing golden light, muted earth tones with warm gold highlights.
+First-century Judea. Sacred, hushed tone. Not photorealistic. No text or captions
+in the image. Historically modest clothing: rough-woven wool and linen in undyed
+earth colors. No modern objects.
+
+Every figure has two arms, two hands, two legs and one head (anatomy guard). Every
+prompt ends with "One single tall upright vertical scene painted edge to edge, filling the frame from base to crown." Skip any
+comic-strip or multi-panel variant the model returns.
+
+---
+
+## s1-crowds-at-the-lake
+[STILL STYLE BLOCK] Early grey-gold dawn over the wide Lake of Gennesaret, the still water catching the first pale light and a low mist lifting off the surface. Along the pebbled shore in the lower half of the frame two empty wooden fishing boats are drawn up at the water's edge, and beside them weary fishermen crouch spreading and rinsing their long fishing nets over the wet stones. A crowd of ordinary Galilean villagers of every age in earth-toned brown, russet, dun and olive wool with simple headscarves is gathering along the shore, pressing gently forward to listen, faces turned expectantly toward the boats. In the foreground Simon Peter, a strong Galilean fisherman of about forty with weathered olive-brown sun-darkened skin, a short dark beard and dark tousled hair, in a plain undyed brown wool tunic with the sleeves pushed up over bare forearms and a rope belt, kneels at the water wringing out a heavy net, tired after a long empty night. Nobody wears cream or off-white; every garment is a darker earth color. Soft misty dawn light on calm silver water. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, filling the frame from base to crown.
+
+## s2-teaching-from-the-boat
+[STILL STYLE BLOCK] Soft golden early-morning light over the calm lake. Jesus sits in the stern of Simon's wooden fishing boat, pushed out a little way from the pebbled shore, and teaches the crowd gathered along the water's edge; he leans forward gently, one hand open in a quiet gesture, speaking to the listening villagers on the bank. Near the oar Simon Peter, the weathered Galilean fisherman with olive-brown skin and a short dark beard in his plain brown wool tunic, sits quietly listening. On the shore behind, the crowd of villagers in brown, russet and olive wool sits and stands along the pebbles, their faces lifted toward the boat. Only Jesus wears cream; no one else wears off-white. Calm water, warm gold morning light, gentle mist lifting off the lake. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, filling the frame from base to crown.
+REF: jesus-master-ref
+
+## s3-launch-out-into-the-deep
+[STILL STYLE BLOCK] Bright clear morning on the open lake, the shore now small behind them. Jesus, seated in the wooden boat, turns to Simon Peter and lifts a hand toward the deeper water further out, speaking to him — bidding him launch out into the deep and let down the nets. Simon Peter, the strong weathered fisherman in his brown wool tunic with bare muscular forearms, listens with a tired, doubtful yet respectful face, one hand resting on the wooden gunwale, the empty folded net heaped at their feet. The two of them alone in the boat on the wide sunlit water. Only Jesus wears cream; Peter is in dark brown. Sparkling morning light on the rippling blue-green water. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, filling the frame from base to crown.
+REF: jesus-master-ref
+
+## s4-toiled-all-night
+[STILL STYLE BLOCK] Full clear morning light on the open lake. Simon Peter, the strong Galilean fisherman with weathered olive-brown skin, a short dark beard and bare muscular forearms, in his plain undyed brown wool tunic and rope belt, leans far over the side of the wooden boat and lets the long fishing net down into the deep blue-green water with both hands, his face weary and unconvinced after a whole night of catching nothing, yet obeying anyway. The heavy wet folds of net slide over the gunwale into the water. He is alone at the rail; the wide bright lake stretches empty around the boat. He wears no cream or off-white — only dark brown wool. Warm morning light glittering on the water. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, filling the frame from base to crown.
+
+## s5-the-great-catch
+[STILL STYLE BLOCK] Dazzling mid-morning light on the lake. Simon Peter and one younger fisherman haul with all their strength at the fishing net, which is bursting with an enormous silver multitude of fishes — the net bulging and beginning to break, fish spilling and flashing over the side into the boat, water sheeting everywhere. Peter, in his brown wool tunic with straining bare forearms, leans back against the huge weight, his weary face breaking open into astonishment. Beside him the younger fisherman in dark ochre-brown wool pulls hard on the net. The catch is so great the net tears. Nobody wears cream or off-white. Brilliant sunlight, silver fish, streaming water. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, filling the frame from base to crown.
+
+## s6-both-boats-sinking
+[STILL STYLE BLOCK] Bright morning on the lake. Two wooden fishing boats sit low and heavy in the water, both loaded to the brim with a vast catch of silver fish, the gunwales nearly awash and beginning to sink. In the first boat Simon Peter beckons urgently with one raised arm to his partners in the second boat close by; the two sons of Zebedee, younger fishermen in dark ochre-brown and faded grey-blue wool with bare forearms, row hard toward him to help. Great heaps of fish glint in both boats; the strained nets hang over the sides. Not one man wears cream or off-white; all are in dark earth colors. Sparkling water, busy urgent morning light. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, filling the frame from base to crown.
+
+## s7-at-his-knees
+[STILL STYLE BLOCK] Bright morning light in the laden fishing boat, heaped silver fish shining all around. Simon Peter has fallen down on his knees before Jesus in the boat, bowing low at his feet with one hand pressed to his own chest, overwhelmed and undone before the Lord. Jesus stands calm and kind above him, looking down at Peter with gentle compassion, not reproach. At the edge of the boat the other fishermen in dark earth-toned wool stand back in quiet awe. Only Jesus wears cream; Peter and the others are in dark brown and ochre. Warm morning light, the great catch glinting around them. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, filling the frame from base to crown.
+REF: jesus-master-ref
+
+## s8-fear-not
+[STILL STYLE BLOCK] Tender bright morning light in the boat on the calm lake. Jesus bends slightly toward the kneeling Simon Peter and reaches out one reassuring hand toward him, his face warm and steady, speaking gently — telling him not to be afraid, that from henceforth he will catch men. Simon Peter, the weathered fisherman in his brown wool tunic, looks up at him with wonder and dawning hope, heaps of silver fish around them. Just behind, the two sons of Zebedee in dark ochre-brown and faded grey-blue wool watch quietly. Only Jesus wears cream; everyone else is in dark earth colors. Gentle golden morning light, deep calm over the water. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, filling the frame from base to crown.
+REF: jesus-master-ref
+
+## s9-forsook-all
+[STILL STYLE BLOCK] Warm late-morning light on the pebbled lakeshore. The two wooden fishing boats lie drawn up on the shore behind, still heaped with the great catch and the mended nets, left just where they rest. Walking away from the boats up the shore, seen from a little behind and to one side, go Jesus and the three fishermen who follow him — Simon Peter, the strong man in dark brown wool, and the two sons of Zebedee in ochre-brown and grey-blue, having left everything behind. Jesus walks ahead, leading them gently up the rising path from the water. Only Jesus wears cream; the fishermen are in dark earth colors. Golden late-morning shore light, the calm bright lake behind them. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, filling the frame from base to crown.
+REF: jesus-master-ref

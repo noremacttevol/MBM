@@ -45,7 +45,10 @@ SHOT = re.compile(r"^##\s+", re.M)
 
 
 def check(md_path: Path):
-    text = md_path.read_text()
+    # Force UTF-8: LOCK_V3 contains an em-dash (—). On Windows read_text() defaults to
+    # cp1252 and mangles it, so the lock never matches and every Jesus shot false-fails.
+    # (Fix 2026-07-15, Machine B — Windows encoding bug; Linux defaulted to UTF-8 already.)
+    text = md_path.read_text(encoding="utf-8")
     fails = []
     idx = [m.start() for m in SHOT.finditer(text)] + [len(text)]
     blocks = [text[idx[i]:idx[i + 1]] for i in range(len(idx) - 1)] if idx[:-1] else []
@@ -56,9 +59,16 @@ def check(md_path: Path):
                 fails.append(f"MISSING JESUS LOCK v3 (byte-identical) in: {head}")
             if not re.search(r"^\s*REF:.*jesus-master-ref", b, re.M | re.I):
                 fails.append(f"MISSING 'REF: jesus-master-ref' line in: {head}")
+    # The sanctioned LOCK_V3 paragraph itself contains the banned words in NEGATED form
+    # ("Never caucasian ... never blue-eyed, never blond") — that is the OPPOSITE of drift
+    # and is mandatory in every Jesus shot. Blank those occurrences (same length, so line
+    # numbers stay exact) before scanning, so the gate never rejects its own required lock.
+    # Any real drift language OUTSIDE the lock is still caught. (Fix 2026-07-15, Machine B —
+    # the gate was self-contradictory for every Jesus-shown build.)
+    banned_text = text.replace(LOCK_V3, " " * len(LOCK_V3))
     for pat in BANNED:
-        for m in re.finditer(pat, text, re.I):
-            ln = text[:m.start()].count("\n") + 1
+        for m in re.finditer(pat, banned_text, re.I):
+            ln = banned_text[:m.start()].count("\n") + 1
             fails.append(f"BANNED drift language {m.group(0)!r} at line {ln}")
     return fails
 
