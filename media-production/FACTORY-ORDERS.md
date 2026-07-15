@@ -7,17 +7,24 @@
 
 ---
 
-## MONEY RULE #1 — never break it
+## MONEY RULE #1 — corrected by Cameron, 2026-07-15
 
-Make every still in **Google Flow** using Cameron's **Ultra** subscription:
-**Nano Banana 2, 9:16, 1x — 0 credits.** Flow is logged in at
-`labs.google/fx/tools/flow`; drive it with your Chrome browser tools.
+**BANNED (real extra dollars):** the paid Gemini image API — never run gen_stills.py,
+never call the API. That bills Cameron's card on top of what he already pays.
 
-**NEVER run `gen_stills.py`. NEVER call the paid Gemini image API.** That spends real
-money Cameron did not authorize. (The local/free tools are fine and required:
-`jesus_face_gate.py`, `make_narration.py` (edge-tts), `build.py`, `gen_site_index.py`.)
+**FREE TO USE (already paid for):** Cameron's Flow ULTRA plan credits — 25,000/month,
+and they EXPIRE monthly. Spending them costs nothing extra; letting them rot wastes
+money already spent. So in Flow:
+- Nano Banana 2 (0 credits) is the default for ordinary stills.
+- SPEND CREDITS FREELY whenever they buy quality or fewer rerolls — Nano Banana Pro /
+  higher tiers for the master face, Jesus close-ups, complex crowd scenes, or any shot
+  that keeps failing on the free model. A 5-credit still that lands first try beats
+  five free rerolls.
+- Sanity ceiling so one machine can't drain the month: keep a video's credit spend
+  roughly under 150 credits; note total credits used in the row's Claim column.
 
----
+(The local/free tools remain required: jesus_face_gate.py, make_narration.py,
+build.py, gen_site_index.py, flow_driver.py.)
 
 ## ✅ THE-200 v2 IS LIVE (approved by Cameron 2026-07-15). ALL MACHINES GO.
 

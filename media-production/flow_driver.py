@@ -138,9 +138,11 @@ def ensure_settings(page):
         except PWTimeout:
             pass
     body = page.inner_text("body")
-    if "0 credits" not in body:
-        raise SystemExit("Panel does not say '0 credits' — REFUSING to generate. "
-                         "Check the model is Nano Banana 2 (never Pro/paid).")
+    # Flow credits are PREPAID and expire monthly (Cameron, 2026-07-15): spending
+    # them is fine and often smart. Just say what this generation costs.
+    import re as _re
+    m = _re.search(r"use ([\d,]+) credits?|0 credits", body)
+    print(f"  credit cost: {m.group(0) if m else 'unknown'}")
     page.keyboard.press("Escape")
     page.wait_for_timeout(500)
 
@@ -151,7 +153,9 @@ def cmd_gen(prompt, out, refs):
         raise SystemExit("No saved project. Run: flow_driver.py open")
     prompt = " ".join(prompt.split())  # ONE line — Enter submits
     with sync_playwright() as p:
-        ctx = launch(p, headless=True)
+        # HEADED on purpose: Cameron can watch it work, and Flow behaves like a
+        # normal browser. Headless hid everything and stalled (2026-07-15 lesson).
+        ctx = launch(p, headless=False)
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
         page.goto(url, wait_until="domcontentloaded")
         page.wait_for_timeout(6000)
