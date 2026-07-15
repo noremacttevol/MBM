@@ -110,7 +110,7 @@ sheet ready) · **Built** (final mp4 exists) · **Appr** (Cameron approved) ·
 | 41 | Counting the cost | Luke 14 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 (Flow prep, $0) — awaiting your yes |
 | 42 | The barren fig tree spared | Luke 13 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 (Flow $0, CARE-J mercy) — awaiting your yes |
 | 43 | The wedding garment | Matt 22 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 — awaiting your yes |
-| 44 | The two debtors | Luke 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 44 | The two debtors | Luke 7 | ✅ | ✅ | ⬜ | ⬜ | built Computer B 2026-07-14 (mp4 committed cb2ffd4) — awaiting your yes |
 | 45 | The wicked tenants | Mark 12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 46 | The seed growing secretly | Mark 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 47 | Houses on rock and sand | Matt 7 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 (Flow images, 0 API cost) — awaiting your yes |
