@@ -41,18 +41,18 @@ ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "16",
 # 2026-07-11 REDO (Machine C): pictures-only (no AI clips) + Jesus face NEVER shown,
 # no glow, real Middle Eastern man from behind. All Jesus stills regenerated under
 # The Standing Laws. The two former Veo clips (walking, sinking) are now stills.
-S1 = "s1-mountain-prayer-v2.jpeg"   # Jesus from behind, kneeling on the moonlit mountain
-S2 = "s2-boat-storm.jpeg"           # no Jesus — kept
-S3 = "s3-figure-on-water-v2.jpeg"   # tiny distant dark figure; fishermen's fear fills the frame
-S4 = "s4-over-gunwale.jpeg"         # no Jesus — kept
-WALK = "s5-walk-anchor-v4.jpeg"     # (was Veo clip) camera BEHIND Jesus, Peter walks toward him
-S6 = "s6-eyes-on-waves.jpeg"        # no Jesus — kept
-SINK = "s7-sink-anchor-v5.jpeg"     # (was Veo clip) Peter sinking; only Jesus's reaching hand+sleeve
-S8 = "s7-sink-anchor-v5.jpeg"       # the CATCH/grip beats reuse the new rescue still (old s8 had a banned glow)
-S9 = "s9-walk-back-v2.jpeg"         # both men from behind walking to the boat
-S10 = "s10-calm-sea.jpeg"           # wide distant calm sea, figures tiny/no face — kept (audited 2026-07-11)
-S11 = "s11-worship-v3.jpeg"         # Jesus back-to-camera, disciples' faces the subject
-S12 = "s12-worship-v2.jpeg"         # closing worship, Jesus from behind
+S1 = "s1-mountain-prayer.jpeg"      # v3 face-shown: Jesus prays, face lifted, moonlit mountain
+S2 = "s2-boat-storm.jpeg"           # disciples' boat in the storm (boat/crew lock)
+S3 = "s3-figure-on-water.jpeg"      # Jesus distant on the water, terrified disciples in foreground
+S4 = "s4-over-gunwale.jpeg"         # they cry "it is a spirit" — crew pointing (boat/crew lock)
+WALK = "s5-walk.jpeg"               # v3 face-shown: Peter walks toward Jesus on the water
+S6 = "s6-eyes-on-waves.jpeg"        # Peter doubts, faltering on the water
+SINK = "s7-sink.jpeg"               # v3 face-shown: Peter sinks, Jesus reaches and grips his wrist
+S8 = "s8-catch.jpeg"                # v3 face-shown: the catch, held above the water (distinct still)
+S9 = "s9-walk-back.jpeg"            # v3 face-shown: Jesus & Peter walk back to the boat together
+S10 = "s10-calm-sea.jpeg"           # wide calm moonlit sea, the boat at rest (boat/crew lock)
+S11 = "s11-worship.jpeg"            # v3 face-shown: Jesus among the kneeling, worshipping disciples
+S12 = "s12-worship.jpeg"            # v3 face-shown: closing worship, Jesus at the boat's center
 
 # (id, kind, source, stretch_or_none, duration_s, zoom_dir, caption, style)
 # Boundaries: 0, 26.7, 52.0, 78.9, 113.8, 126.6, 135.8, 146.6, 197.5,
@@ -189,10 +189,9 @@ SEGMENTS = [
      "was caught.", "n"),
     # Card — held 14.0s AND read aloud (Readable-Card Law).
     ("card", "card", None, None, 14.0, None,
-     "Have you ever had something real —\na moment of faith, a sense\n"
-     "of something true —\n\nand then watched it slip\n"
-     "when the storm got loud?\n\n"
-     "He caught him before\nthe prayer was finished.",
+     "When your storm gets loud\nand your faith slips,\n"
+     "look back up —\n\nthe same hand is already\nreaching for you.\n\n"
+     "Keep your eyes on him.",
      "close"),
 ]
 
@@ -256,7 +255,7 @@ def caption_overlay(seg_id, dur, text, style):
             f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
             f"fontcolor={color}:line_spacing=14:x=(w-text_w)/2:y=h-460:"
             f"shadowcolor=black@0.85:shadowx=2:shadowy=2:"
-            f"box=1:boxcolor=black@0.30:boxborderw=18,"
+            f"box=1:boxcolor=black@0.55:boxborderw=18,"
             f"fade=t=in:st=0:d=0.5:alpha=1,"
             f"fade=t=out:st={fade_out}:d=0.5:alpha=1[cap]")
 

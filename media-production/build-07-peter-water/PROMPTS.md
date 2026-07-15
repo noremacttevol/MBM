@@ -1,101 +1,84 @@
-# build-07 Peter Walks on Water — RESTAGED Jesus prompts (redo under The Standing Laws)
+# build-07 Peter Walks on Water — PROMPTS (Face Law v3 + same-care redo 2026-07-15)
 
-Redo reason: the delivered #07 shows Jesus as a glowing, haloed, facefull figure
-(s5-walk-anchor, s11-worship-v2, s12-worship) — breaks Rule 1 (no face) and the no-glow
-rule. Rule 2: the two Veo clips (s5-walking, s7-sinking) come out; this build is
-pictures-only. Only the JESUS scenes below are regenerated; the Jesus-free stills
-(s2-boat-storm, s4-over-gunwale, s6-eyes-on-waves) stand as-is.
+Matthew 14:22-33, the fourth watch of the NIGHT. **Redo under the current laws (same care
+as #11 Calming the Storm):** Jesus's face IS shown, the SAME face every picture, locked to
+JESUS-MASTER-REF (byte-identical JESUS LOCK v3 + REF line, text-only). BOAT LOCK + CREW LOCK
+(one same fishing boat holding the twelve disciples). PETER LOCK (same man, blue-grey tunic,
+never cream). Every prompt carries an anti-artifact QUALITY clause (clean hands/faces,
+nothing floats). Night lighting throughout, never golden-hour. Only Jesus wears cream.
+Closing card is an INVITATION.
 
-Story is Matthew 14, the fourth watch of the NIGHT — moonlight, starlight, dark water.
-Night lighting, never golden-hour.
-
-**STYLE BLOCK (byte-identical, prepend to every prompt; stills drop "Slow, tender movement."):**
-Beautiful hand-painted 2D animation style, reverent and warm, like a classic
-illustrated storybook of scripture brought to life. Soft painterly brushstroke
-textures, glowing golden light, muted earth tones with warm gold highlights.
-First-century Judea. Sacred, hushed tone. Not photorealistic. No text or captions in
-the image. Historically modest clothing: rough-woven wool and linen in undyed earth
-colors. No modern objects.
-
-**JESUS LOCK (face NEVER shown):** a first-century Judean man of warm middle-eastern
-olive-brown skin, dark shoulder-length hair and a short dark beard, in an undyed
-cream wool robe. He is ALWAYS seen from behind, over a shoulder, or at a distance, so
-the camera never sees his face and no facial features are ever visible. He is an
-ordinary solid man in the moonlight — NO glow, NO halo, NO light coming off his body,
-never white or pale skin.
-
-**PETER LOCK:** a sturdy middle-eastern fisherman, mid-30s, thick dark curly hair and
-a full dark beard, soaked grey wool tunic. His face may show. (Reference: s4.)
+STILL STYLE BLOCK (prepend to every prompt, exactly):
+Beautiful hand-painted 2D animation style, reverent and warm, like a classic illustrated storybook of scripture brought to life. Soft painterly brushstroke textures, muted earth tones under cool blue moonlight. First-century Judea, the fourth watch of the night — moonlight, starlight, dark water, never golden-hour daylight. Sacred, hushed tone. Not photorealistic. No text or captions in the image. Historically modest clothing: rough-woven wool and linen in undyed earth colors. No modern objects.
 
 ---
 
-## s1-mountain-prayer (STILL) — Jesus prays alone, night
-[STYLE BLOCK] Night on a dark rocky mountainside above the Sea of Galilee under a thin
-crescent moon and scattered stars. [JESUS LOCK] kneels alone, seen from BEHIND and
-slightly below, his back to the camera, head bowed toward the dark valley and the
-distant moonlit lake far below. Only his back, dark hair, and cream robe are visible —
-his face is turned away, on the far side, never seen. No glow of any kind on him; the
-only light is cool moonlight. Quiet, reverent, solitary.
 
-## s3-figure-on-water (STILL) — the distant figure on the sea
-[STYLE BLOCK] The stormy night sea, tall dark waves, a thin crescent moon breaking
-through torn clouds. FAR across the water, at true distance, a lone REAL first-century
-Middle-Eastern man with warm tan olive-brown skin and a short dark beard, in an undyed
-cream wool robe, walks upon the surface toward the viewer's boat. He is softly lit by
-the pale moonlight on the water so he clearly reads as an ordinary robed MAN — he is
-NOT a black silhouette, NOT a dark shadowy hooded void, NOT a specter. He is small and
-far off, so his face is naturally soft and indistinct simply because of the distance —
-nothing is covering or hiding it, he is just too far away to make out. No glow, no
-halo, no light emanating from his body. In the near foreground, the dark prow and rope
-of the disciples' wooden boat. (FIX 2026-07-13: the earlier render made him a solid
-black silhouette that looked ominous/wrong; he must read as a distant moonlit man,
-like the figure in s5-walk-anchor.)
+## s1-mountain-prayer — Jesus prays alone on the mountain, night
+JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.
+REF: jesus-master-ref
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] High on a dark rocky mountainside above the moonlit Sea of Galilee under a thin crescent moon and scattered stars. Jesus kneels alone in prayer, his face shown clearly and gently lifted, calm and reverent, eyes toward heaven, his cream wool robe soft in the cool moonlight. He is entirely alone — no other person — the dark valley and the distant silver lake far below. Quiet, solitary, holy. CLEAN ART, NO GLITCHES: every person has correct human anatomy — one head, two arms, two hands with five fingers each, two legs, natural proportions — no extra/missing/fused limbs or fingers, no melted or distorted faces, every background face cleanly drawn. Hands that grip something clearly grip it. Every object rests on a surface or is firmly held — NOTHING floats in mid-air. No modern objects. One single continuous scene painted edge to edge, filling the entire frame with no border, no paper margin. 9:16 vertical.
 
-## s5-walk-anchor (STILL — replaces the walking clip) — over Peter's shoulder
-[STYLE BLOCK] OVER-THE-SHOULDER from close BEHIND [PETER LOCK], camera at his back so we
-see the back of his soaked head and shoulders in the lower corner as he steps out onto
-the black, moonlit, storm-tossed water. Ahead of him, at a distance across the waves,
-[JESUS LOCK] stands on the sea facing him with an open, welcoming posture — a real robed
-man seen at distance, his face too far and turned to be seen, no glow around him, lit
-only by the cold moon. A thin crescent moon, torn clouds, the distant boat behind.
+## s2-boat-storm — the disciples fight the storm (no Lord in frame)
+BOAT LOCK: one and the SAME wooden Galilean fishing boat every time the boat appears — a broad, heavy open fishing boat about twenty-five feet long, a single tall wooden mast with a furled square sail on its yard, a high upswept curved prow and a matching high curved stern, weathered grey-brown planks, thick coiled ropes along the gunwales. Same boat, same size, same shape, same rigging, every shot — never a different or smaller boat.
+CREW LOCK: the boat holds the SAME company of TWELVE disciples — sturdy Galilean fishermen with weathered dark-bearded faces in soaked undyed wool tunics of brown, dun and deep olive (never cream). The same twelve men every shot; Peter is one of them until he steps out onto the water, and one fewer remains in the boat while he is out on the sea.
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] The fourth watch of the night on the Sea of Galilee. The one wooden fishing boat is caught far out on tall black waves in a hard wind, spray flying, torn clouds over a thin crescent moon. The twelve disciples struggle against the storm — several strain at the long oars, one grips the steering-oar, others cling to the mast and rigging, exhaustion and fear on their weathered bearded faces after rowing all night. Undyed brown and dun wool, soaked. No other figure on the water in this shot. CLEAN ART, NO GLITCHES: every person has correct human anatomy — one head, two arms, two hands with five fingers each, two legs, natural proportions — no extra/missing/fused limbs or fingers, no melted or distorted faces, every background face cleanly drawn. Hands that grip something clearly grip it. Every object rests on a surface or is firmly held — NOTHING floats in mid-air. No modern objects. One single continuous scene painted edge to edge, filling the entire frame with no border, no paper margin. 9:16 vertical.
 
-## s7-sink-anchor (STILL — replaces the sinking clip) — Peter sinks, the reach
-[STYLE BLOCK] Close on [PETER LOCK] sinking into the black water at night, ONE arm
-plunged down into the waves, the OTHER arm thrown up reaching forward. Into the top of
-the frame, from off-screen ahead of him, extends [JESUS LOCK]'s hand and forearm in a
-cream wool sleeve — only the hand and sleeved forearm enter the frame, reaching down to
-grip Peter's wrist; no face, no body, no glow, just the reaching hand. Moonlight, spray,
-dark waves.
+## s3-figure-on-water — the figure walking on the sea
+JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.
+REF: jesus-master-ref
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] The stormy night sea, tall dark waves, a thin crescent moon breaking through torn clouds. FAR across the water, at true distance, Jesus walks upon the surface of the sea toward the boat — a real robed man in a cream wool robe, softly lit by the pale moonlight so he clearly reads as an ordinary walking MAN, not a black silhouette, not a shadowy specter. He is small and far off, so his face is soft simply from distance. In the near foreground the dark curved prow and coiled rope of the wooden fishing boat, and two frightened bearded disciples staring out at him. CLEAN ART, NO GLITCHES: every person has correct human anatomy — one head, two arms, two hands with five fingers each, two legs, natural proportions — no extra/missing/fused limbs or fingers, no melted or distorted faces, every background face cleanly drawn. Hands that grip something clearly grip it. Every object rests on a surface or is firmly held — NOTHING floats in mid-air. No modern objects. One single continuous scene painted edge to edge, filling the entire frame with no border, no paper margin. 9:16 vertical.
 
-## s8-the-reach (STILL) — the grip (hands only)
-[STYLE BLOCK] Tight on two hands at the waterline in the moonlight: [JESUS LOCK]'s
-sleeved hand and forearm firmly gripping [PETER LOCK]'s wrist as Peter's other hand
-claws at the black water. Warm middle-eastern skin on both hands, cream wool sleeve on
-Jesus's arm. No faces in frame, no glow — only the two gripped hands, spray, and dark
-water.
+## s4-over-gunwale — they cry, it is a spirit (no Lord close)
+BOAT LOCK: one and the SAME wooden Galilean fishing boat every time the boat appears — a broad, heavy open fishing boat about twenty-five feet long, a single tall wooden mast with a furled square sail on its yard, a high upswept curved prow and a matching high curved stern, weathered grey-brown planks, thick coiled ropes along the gunwales. Same boat, same size, same shape, same rigging, every shot — never a different or smaller boat.
+CREW LOCK: the boat holds the SAME company of TWELVE disciples — sturdy Galilean fishermen with weathered dark-bearded faces in soaked undyed wool tunics of brown, dun and deep olive (never cream). The same twelve men every shot; Peter is one of them until he steps out onto the water, and one fewer remains in the boat while he is out on the sea.
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] Close inside the wooden fishing boat at night. The twelve disciples crowd against the gunwale in terror, several pointing out over the black water, mouths open in a cry, eyes wide — they think they are seeing a spirit. Their weathered bearded faces fill the frame with fear, lit by cold moonlight and a small deck lantern resting on a thwart. Soaked brown and dun wool. Far out over their pointing hands, a tiny distant robed figure stands on the moonlit sea, too far to make out. Spray, wind, tall waves beyond the rail. CLEAN ART, NO GLITCHES: every person has correct human anatomy — one head, two arms, two hands with five fingers each, two legs, natural proportions — no extra/missing/fused limbs or fingers, no melted or distorted faces, every background face cleanly drawn. Hands that grip something clearly grip it. Every object rests on a surface or is firmly held — NOTHING floats in mid-air. No modern objects. One single continuous scene painted edge to edge, filling the entire frame with no border, no paper margin. 9:16 vertical.
 
-## s9-walk-back (STILL) — walking back to the boat, from behind
-[STYLE BLOCK] Seen from BEHIND, both men from the back, walking side by side across the
-calming moonlit water toward the dark waiting boat. [JESUS LOCK] on the left, his back
-and cream robe and dark hair to the camera; [PETER LOCK] beside him, an arm still
-steadying him. Their faces are turned away toward the boat, never seen. No glow on
-Jesus. A thin crescent moon, settling waves, the boat's lantern ahead.
+## s5-walk — Peter steps out and walks toward the Lord
+JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.
+REF: jesus-master-ref
+PETER LOCK: Peter is the SAME man in every shot he appears — a sturdy Galilean fisherman in his mid-thirties, thick dark curly hair and a full dark beard, weathered olive skin, a soaked BLUE-GREY wool tunic (never cream, so he is never confused with the cream-robed figure). His face is shown clearly.
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] Night on the storm-tossed sea under a thin crescent moon. In the foreground Peter has climbed out of the boat and walks upright on the black moonlit water, his face shown clearly, awed and intent, eyes fixed ahead, arms out for balance, blue-grey tunic soaked. Ahead of him, a little way across the waves, Jesus stands on the surface of the sea facing him, his face shown clearly, calm and welcoming, one hand extended toward Peter, cream wool robe in the moonlight. Behind Peter the wooden fishing boat rides the waves with the other disciples watching. Two men on the water, Jesus in cream, Peter in blue-grey. CLEAN ART, NO GLITCHES: every person has correct human anatomy — one head, two arms, two hands with five fingers each, two legs, natural proportions — no extra/missing/fused limbs or fingers, no melted or distorted faces, every background face cleanly drawn. Hands that grip something clearly grip it. Every object rests on a surface or is firmly held — NOTHING floats in mid-air. No modern objects. One single continuous scene painted edge to edge, filling the entire frame with no border, no paper margin. 9:16 vertical.
 
-## s10-calm-sea (STILL) — check/keep
-(Audit the banked s10-calm-sea.jpeg: if the Lord is absent or only a distant back, KEEP;
-if any facial feature or glow reads on him, regenerate as a calm moonlit sea with the
-boat, the Lord a distant back-figure seen from behind, or absent.)
+## s6-eyes-on-waves — Peter looks down and doubts (no Lord in frame)
+PETER LOCK: Peter is the SAME man in every shot he appears — a sturdy Galilean fisherman in his mid-thirties, thick dark curly hair and a full dark beard, weathered olive skin, a soaked BLUE-GREY wool tunic (never cream, so he is never confused with the cream-robed figure). His face is shown clearly.
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] Close on Peter alone on the black water at night, the wind tearing at his hair and soaked blue-grey tunic. He has looked DOWN at the towering dark waves rising around his legs instead of ahead, and fear breaks across his clearly-shown face; his balance falters, one foot beginning to press into the water. Spray, torn clouds, a thin cold moon. No other figure in the frame — only Peter and the threatening sea. CLEAN ART, NO GLITCHES: every person has correct human anatomy — one head, two arms, two hands with five fingers each, two legs, natural proportions — no extra/missing/fused limbs or fingers, no melted or distorted faces, every background face cleanly drawn. Hands that grip something clearly grip it. Every object rests on a surface or is firmly held — NOTHING floats in mid-air. No modern objects. One single continuous scene painted edge to edge, filling the entire frame with no border, no paper margin. 9:16 vertical.
 
-## s11-worship (STILL — replaces s11-worship-v2) — the disciples worship
-[STYLE BLOCK] Inside the wooden boat at night on a now-calm sea under a thin crescent
-moon. The disciples kneel on the wet deck, faces lifted in awe and worship toward
-[JESUS LOCK], who stands among them seen from BEHIND — his back, cream robe, and dark
-hair to the camera, face turned away and never visible. NO glow, NO halo, NO light
-coming off him; he is an ordinary man in the moonlight. The picture is the disciples'
-awed faces turned up toward his back. Peter kneels closest, soaked, gazing up.
+## s7-sink — Peter sinks and cries out, the Lord reaches
+JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.
+REF: jesus-master-ref
+PETER LOCK: Peter is the SAME man in every shot he appears — a sturdy Galilean fisherman in his mid-thirties, thick dark curly hair and a full dark beard, weathered olive skin, a soaked BLUE-GREY wool tunic (never cream, so he is never confused with the cream-robed figure). His face is shown clearly.
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] Peter drops into the black storm water at night, sunk to his chest, one arm plunging into the waves and the OTHER arm thrown up, his clearly-shown face turned up in a desperate cry for help. From ahead of him Jesus leans down toward him, his face shown clearly and full of compassion, reaching out and closing his hand firmly around Peter's raised wrist to catch him, cream wool sleeve wet with spray. Moonlight, flying spray, dark heaving waves. Jesus in cream, Peter in blue-grey. CLEAN ART, NO GLITCHES: every person has correct human anatomy — one head, two arms, two hands with five fingers each, two legs, natural proportions — no extra/missing/fused limbs or fingers, no melted or distorted faces, every background face cleanly drawn. Hands that grip something clearly grip it. Every object rests on a surface or is firmly held — NOTHING floats in mid-air. No modern objects. One single continuous scene painted edge to edge, filling the entire frame with no border, no paper margin. 9:16 vertical.
 
-## s12-worship (STILL) — closing worship, from behind
-[STYLE BLOCK] A quiet closing image: from BEHIND [JESUS LOCK] standing at the boat's
-center, his back to the camera, looking out over the calmed moonlit sea; the kneeling
-disciples around his feet, their faces visible and turned toward him in reverence. His
-face is never seen, no glow. Cool moonlight, a thin crescent moon, still water.
+## s8-catch — the catch, held above the water
+JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.
+REF: jesus-master-ref
+PETER LOCK: Peter is the SAME man in every shot he appears — a sturdy Galilean fisherman in his mid-thirties, thick dark curly hair and a full dark beard, weathered olive skin, a soaked BLUE-GREY wool tunic (never cream, so he is never confused with the cream-robed figure). His face is shown clearly.
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] Close on the rescue at the waterline in the moonlight: Jesus has caught Peter and holds him firmly by the wrist and forearm, lifting him up out of the black water, both faces shown clearly — Jesus steady and compassionate, Peter gasping and soaked with relief and shame. Jesus's cream wool sleeve and Peter's blue-grey tunic both wet. Their gripped hands are the center of the picture, clearly clasped, five fingers each. Spray and settling dark water around them. CLEAN ART, NO GLITCHES: every person has correct human anatomy — one head, two arms, two hands with five fingers each, two legs, natural proportions — no extra/missing/fused limbs or fingers, no melted or distorted faces, every background face cleanly drawn. Hands that grip something clearly grip it. Every object rests on a surface or is firmly held — NOTHING floats in mid-air. No modern objects. One single continuous scene painted edge to edge, filling the entire frame with no border, no paper margin. 9:16 vertical.
+
+## s9-walk-back — walking back to the boat together
+JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.
+REF: jesus-master-ref
+PETER LOCK: Peter is the SAME man in every shot he appears — a sturdy Galilean fisherman in his mid-thirties, thick dark curly hair and a full dark beard, weathered olive skin, a soaked BLUE-GREY wool tunic (never cream, so he is never confused with the cream-robed figure). His face is shown clearly.
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] Jesus and Peter walk side by side across the calming moonlit water back toward the waiting wooden fishing boat, both faces shown clearly in gentle three-quarter view, Jesus's hand resting on Peter's shoulder to steady him, cream robe and blue-grey tunic in the cool moonlight. Ahead the boat rides on the settling sea with the other disciples leaning out to watch, a small lantern glowing on the boat. The storm is easing, a thin crescent moon above. CLEAN ART, NO GLITCHES: every person has correct human anatomy — one head, two arms, two hands with five fingers each, two legs, natural proportions — no extra/missing/fused limbs or fingers, no melted or distorted faces, every background face cleanly drawn. Hands that grip something clearly grip it. Every object rests on a surface or is firmly held — NOTHING floats in mid-air. No modern objects. One single continuous scene painted edge to edge, filling the entire frame with no border, no paper margin. 9:16 vertical.
+
+## s10-calm-sea — the wind ceases, the sea lies flat (wide, no close figures)
+BOAT LOCK: one and the SAME wooden Galilean fishing boat every time the boat appears — a broad, heavy open fishing boat about twenty-five feet long, a single tall wooden mast with a furled square sail on its yard, a high upswept curved prow and a matching high curved stern, weathered grey-brown planks, thick coiled ropes along the gunwales. Same boat, same size, same shape, same rigging, every shot — never a different or smaller boat.
+CREW LOCK: the boat holds the SAME company of TWELVE disciples — sturdy Galilean fishermen with weathered dark-bearded faces in soaked undyed wool tunics of brown, dun and deep olive (never cream). The same twelve men every shot; Peter is one of them until he steps out onto the water, and one fewer remains in the boat while he is out on the sea.
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] A wide, hushed view of the Sea of Galilee gone suddenly calm and glassy under a thin crescent moon and a field of stars, the storm utterly stopped, the water flat and silver. The one wooden fishing boat rests small on the still water with the twelve disciples aboard, distant and quiet. Peaceful, reverent stillness after the storm — no waves, no wind, just the calm moonlit sea. CLEAN ART, NO GLITCHES: every person has correct human anatomy — one head, two arms, two hands with five fingers each, two legs, natural proportions — no extra/missing/fused limbs or fingers, no melted or distorted faces, every background face cleanly drawn. Hands that grip something clearly grip it. Every object rests on a surface or is firmly held — NOTHING floats in mid-air. No modern objects. One single continuous scene painted edge to edge, filling the entire frame with no border, no paper margin. 9:16 vertical.
+
+## s11-worship — the disciples worship him in the boat
+JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.
+REF: jesus-master-ref
+CREW LOCK: the boat holds the SAME company of TWELVE disciples — sturdy Galilean fishermen with weathered dark-bearded faces in soaked undyed wool tunics of brown, dun and deep olive (never cream). The same twelve men every shot; Peter is one of them until he steps out onto the water, and one fewer remains in the boat while he is out on the sea.
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] Inside the wooden fishing boat at night on the now-calm moonlit sea under a thin crescent moon. Jesus stands among the disciples in the boat, his face shown clearly, gentle and calm, cream wool robe soft in the moonlight. All around him the disciples kneel on the wet deck, their faces lifted in awe and worship toward him, Peter closest in his soaked blue-grey tunic gazing up. The disciples in brown and dun wool, only Jesus in cream. Reverent, hushed. CLEAN ART, NO GLITCHES: every person has correct human anatomy — one head, two arms, two hands with five fingers each, two legs, natural proportions — no extra/missing/fused limbs or fingers, no melted or distorted faces, every background face cleanly drawn. Hands that grip something clearly grip it. Every object rests on a surface or is firmly held — NOTHING floats in mid-air. No modern objects. One single continuous scene painted edge to edge, filling the entire frame with no border, no paper margin. 9:16 vertical.
+
+## s12-worship — closing worship, the calm sea
+JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.
+REF: jesus-master-ref
+CREW LOCK: the boat holds the SAME company of TWELVE disciples — sturdy Galilean fishermen with weathered dark-bearded faces in soaked undyed wool tunics of brown, dun and deep olive (never cream). The same twelve men every shot; Peter is one of them until he steps out onto the water, and one fewer remains in the boat while he is out on the sea.
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] A quiet closing image inside the wooden fishing boat on the still, glassy moonlit sea. Jesus stands calmly at the center of the boat, his face shown clearly and peaceful as he looks out over the calmed water, cream wool robe in the cool moonlight. The disciples kneel around him in reverence, their faces turned toward him, Peter among them in blue-grey. A thin crescent moon, still silver water, scattered stars. Sacred and peaceful. CLEAN ART, NO GLITCHES: every person has correct human anatomy — one head, two arms, two hands with five fingers each, two legs, natural proportions — no extra/missing/fused limbs or fingers, no melted or distorted faces, every background face cleanly drawn. Hands that grip something clearly grip it. Every object rests on a surface or is firmly held — NOTHING floats in mid-air. No modern objects. One single continuous scene painted edge to edge, filling the entire frame with no border, no paper margin. 9:16 vertical.
+
+### Closing card
+Text on cream (#F7F2E9), serif, spoken + captioned (an INVITATION, not a
+fear-question): "When your storm gets loud and your faith slips, look back up — the same hand is already reaching for you. Keep your eyes on him."

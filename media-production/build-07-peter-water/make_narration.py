@@ -103,11 +103,11 @@ SEGMENTS = [
      "they said. The storm had taught them who he was. And notice what "
      "the story remembers about Peter. Not that he sank. That he "
      "walked. And that when he fell, he was caught."),
-    # n11 — the closing card, read aloud gently (Readable-Card Law).
+    # n11 — the closing card, read aloud gently (INVITATION, closing-card law).
     ("n11", NARRATOR, "-26%", "-4Hz",
-     "Have you ever had something real — a moment of faith, a sense of "
-     "something true — and then watched it slip when the storm got "
-     "loud?"),
+     "When your storm gets loud and your faith slips, look back up — "
+     "the same hand is already reaching for you. Keep your eyes on "
+     "him."),
 ]
 
 
