@@ -268,3 +268,16 @@ and inspect where the result actually mounts (likely a virtualized "All Media" g
 a new URL scheme) — patch `NAMES_JS`/`FETCH_JS` to that selector. Machine D still has
 NO working asset-delivery path (the Claude-extension download is also blocked here),
 so Machine D is the wrong host to debug this on if another machine can save to disk.
+
+## flow_driver.py — 9:16 SOLVED + full pipeline verified (2026-07-15, Machine D)
+gen now works end-to-end on Machine D (candidate1-3 saved, 9:16, 0 credits). Root
+cause of the "aspect_9_16=False → refusing to generate" wall: in the chip popover the
+clickable leaf for an aspect option is a bare material-icon element — for portrait an
+`<i>crop_9_16</i>` with NO role — so the old button/[role]/li-only `click_tok` never
+found it and 9:16 was never set. FIX (pushed): `click_tok` now searches ALL tags for a
+SMALL leaf (0<width<160) whose text starts with the icon token and real-mouse-clicks
+its center. Also note: Flow does NOT persist per-project aspect across browser
+launches — it reloads at 16:9 every gen, so the driver MUST (and now does) re-set 9:16
+each run. Composer still renders intermittently on cold loads; a gen occasionally needs
+a rerun. Enter submits; result download via getMediaUrl works. NET: the driver is now a
+reliable $0 still factory on this machine.

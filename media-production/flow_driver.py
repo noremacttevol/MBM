@@ -167,13 +167,21 @@ def ensure_settings(page):
         # REAL mouse click at the element's center (the same thing that works for the
         # prompt box). Prefer an actual button/role/li leaf whose text starts with the
         # unique material-icon token. Re-query each call (the popup re-renders).
+        # One robust query (verified on Machine D 2026-07-15): the clickable popover
+        # leaf for an aspect option is the small material-icon element (often a bare
+        # <i>crop_9_16</i> with NO role — the old button/role/li-only query missed it,
+        # so 9:16 never got set and gen refused). Search ALL tags, keep only SMALL
+        # leaves (0<width<160) whose trimmed text starts with the icon token, and click
+        # the shortest-text one's center with a REAL mouse click (JS .click() doesn't
+        # fire React's handler here).
         c = page.evaluate(
-            "(tok) => { const el=[...document.querySelectorAll("
-            "  'button,[role=option],[role=menuitem],[role=menuitemradio],[role=radio],li')]"
-            ".filter(e=>e.offsetParent!==null)"
-            ".find(e => (e.innerText||'').trim().startsWith(tok)); "
-            " if(!el) return null; const r=el.getBoundingClientRect();"
-            " return {x:r.x+r.width/2, y:r.y+r.height/2}; }", tok)
+            "(tok) => { const cand=[...document.querySelectorAll('*')]"
+            "  .filter(e=>e.offsetParent!==null && (e.innerText||'').trim().startsWith(tok))"
+            "  .map(e=>({e, r:e.getBoundingClientRect()}))"
+            "  .filter(o=>o.r.width>0 && o.r.width<160 && o.r.height>0)"
+            "  .sort((a,b)=>a.e.innerText.length-b.e.innerText.length);"
+            " const o=cand[0]; if(!o) return null;"
+            " return {x:o.r.x+o.r.width/2, y:o.r.y+o.r.height/2}; }", tok)
         if not c:
             return False
         page.mouse.click(c["x"], c["y"])
