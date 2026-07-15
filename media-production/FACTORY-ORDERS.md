@@ -1,5 +1,13 @@
 # FACTORY ORDERS — the single source of truth for the MBM video factory
 
+> 🛑 **ANTI-SPIN ORDER (2026-07-15): the JESUS-MASTER-REF bootstrap is handled
+> CENTRALLY — no machine works on the master face anymore.** If JESUS-MASTER-REF/
+> is empty: do non-Jesus prep only (narration scripts, PROMPTS.md, non-Jesus
+> stills), or say "SESSION DONE" and stop. NEVER retry browsers/extensions more
+> than twice for ANY task — two failures = note it in one line and move to work
+> that needs no browser. Wheel-spinning burns Cameron's Claude credits; a stopped
+> session is cheaper than a spinning one.
+
 > Written 2026-07-14. Every Claude Code session on every computer reads THIS file
 > after pulling the latest repo, then does its job with no further questions.
 > This supersedes any older ad-hoc kickoff prompt. If anything elsewhere conflicts
