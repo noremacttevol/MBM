@@ -237,7 +237,7 @@ def cmd_gen(prompt, out, refs):
         except Exception as e:
             print(f"  (settings skipped: {e})")
 
-        before = page.evaluate(NAMES_JS) or []
+        pre = page.evaluate(NAMES_JS) or []
         for ref in refs or []:
             # Attach a reference image by SETTING the hidden <input type=file
             # accept="image/*"> directly (found 2026-07-15, Machine C). The old path
@@ -261,6 +261,21 @@ def cmd_gen(prompt, out, refs):
                 print(f"  ref attached: {Path(ref).name} ({'thumbnail up' if ok else 'no thumbnail seen'})")
             except Exception as e:
                 print(f"  (warning: could not attach ref {ref} — generating without: {e})")
+        # The uploaded ref ALSO appears in the gallery as a getMediaUrl image, and was
+        # being downloaded instead of the generated scene (every ref'd shot came out as a
+        # copy of the ref portrait). Wait for the ref(s) to register, record their names,
+        # and exclude them from the "fresh" scene detection (fix 2026-07-15, Machine B).
+        ref_names = set()
+        if refs:
+            for _ in range(24):  # up to ~12s for the upload(s) to appear
+                now = page.evaluate(NAMES_JS) or []
+                newr = [n for n in now if n not in pre]
+                if len(newr) >= len(refs):
+                    ref_names = set(newr)
+                    break
+                page.wait_for_timeout(500)
+            print(f"  ref image(s) registered: {len(ref_names)}")
+        before = page.evaluate(NAMES_JS) or []
         # SUBMIT THAT ACTUALLY WORKS (found 2026-07-15, Machine C): the real prompt
         # box is the LAST visible contenteditable div/textarea. You must (1) CLICK it
         # with the real mouse so the browser + React agree it is focused, (2) type with
@@ -301,7 +316,7 @@ def cmd_gen(prompt, out, refs):
         for i in range(36):  # up to 3 min
             page.wait_for_timeout(5000)
             names = page.evaluate(NAMES_JS) or []
-            fresh = [n for n in names if n not in before]
+            fresh = [n for n in names if n not in before and n not in ref_names]
             if fresh:
                 newest = fresh[0]
                 break
@@ -383,7 +398,7 @@ def cmd_grab(out, wait_min=15):
             page.reload(wait_until="domcontentloaded")
             page.wait_for_timeout(4000)
             names = page.evaluate(NAMES_JS) or []
-            fresh = [n for n in names if n not in before]
+            fresh = [n for n in names if n not in before and n not in ref_names]
             if fresh:
                 newest = fresh[0]
                 break

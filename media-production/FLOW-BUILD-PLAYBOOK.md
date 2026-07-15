@@ -231,6 +231,14 @@ generated Jesus face then matches candidate-1/jesus-face.jpeg. Also softened the
 not set 9:16 aspect" hard-abort to a warning (repeat-gens false-negative; output is still
 vertical — verify the saved jpeg is portrait, 768×1376, and reroll only if landscape).
 build-51 s2 was the first Jesus shot generated with a working locked face.
+**FOLLOW-UP FIX (same day):** the uploaded ref ALSO lands in the gallery as a getMediaUrl
+image, and the driver was downloading the REF instead of the generated scene (every ref'd
+shot came out an exact copy of the master portrait, ~421KB). flow_driver.py now records
+the ref image name(s) after upload and excludes them from the "fresh" scene detection.
+QC tell: a ref'd still that is ~421KB / identical to jesus-face.jpeg means the ref got
+downloaded — reroll. **Also: wide "a wider view / four follow" shots come back as stacked
+TRIPTYCHS even with the anti-panel clause — reword to "One single tall upright vertical
+scene filling the whole frame, no panels, no dividing lines" and pull the subject CLOSE.**
 
 ## FACE-GATE was broken for EVERY Jesus build — fixed (2026-07-15, Machine B)
 The new face law's very first Jesus-shown build exposed two bugs in `jesus_face_gate.py`
