@@ -348,3 +348,24 @@ reliable $0 still factory on this machine.
   ILLUSTRATION, one scene edge to edge, NOT a grid/triptych/stacked panels/comic strip,
   no dividing lines, no repeated copies, ONE picture only." Then QC by eye (same file
   size as an earlier still = a likely echo) and reroll offenders.
+
+- 2026-07-15 (C): **flow_driver was "WIP" and never actually generated — now fixed.** Three
+  fixes on Machine C (all pushed): (1) SUBMIT — click the prompt box with the REAL mouse,
+  type real keystrokes, press **Enter**; the `arrow_forward` Create-button click was inert
+  (project stayed on "Start creating"). (2) **9:16** — open the settings chip with a REAL
+  MOUSE click (a JS `.click()` opens a collapsed popup WITHOUT the aspect row); then click
+  the `crop_9_16` option. Aspect abort is now a warning (Cameron): if it can't confirm, the
+  image usually still comes out vertical — verify the saved jpeg is taller than wide and
+  reroll only if it's landscape. (3) **--ref** — set the hidden `<input type=file>` directly
+  (the Add-Media button never opened a chooser).
+- 2026-07-15 (C): **A bust-portrait --ref makes Nano Banana COPY the portrait** (interior
+  bg, bust framing) instead of composing your SCENE. For scene shots, generate PROMPT-DRIVEN
+  with the byte-identical JESUS LOCK v3 (gives a consistent Jesus in-scene) and QC the face
+  against the master; reserve --ref for tight face shots if at all. (Hit on #121 s4/s10.)
+- 2026-07-15 (C): **This ffmpeg build renders a raw `\n` in a drawtext textfile as a tofu box
+  (□)** at every wrap point (`text_shaping=0` does NOT help). Never put newlines in a drawtext
+  textfile — draw each wrapped LINE as its own drawtext layer (see caption_layers/build_card
+  in build-101/build-121 build.py; adjacent per-line boxes overlap into one clean bar).
+- 2026-07-15 (C): **No system ffmpeg on Machine C** — `pip install --break-system-packages
+  static-ffmpeg` (bundles ffmpeg+ffprobe), symlinked into ~/.local/bin. Also gen_site_index.py
+  now handles numbered books (1kings→"1 Kings"); the old mp4-discovery regex dropped them.
