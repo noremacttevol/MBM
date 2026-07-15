@@ -23,12 +23,14 @@ no dead air, no baked-in text, care flags).
   Copy build-119's build.py as the template for any future no-God-speech story.
 
 ## RESUME POINT
-Next job = lowest ⬜ row in my range = **#120 Job answered from the whirlwind (Job 38–42)**,
-then #122 onward (121 is done). **Check media-production/CONTENT-CARE.md for each row's care
-flags before storyboarding.** For #120 Job: God DOES speak (out of the whirlwind) — use the
-two-voice pattern (Christopher = God's exact KJV, cream-italic; two silences) like #117/#118,
-and copy build-118's build.py (God-voice template), NOT build-119's. God shown only as the
-whirlwind's light/storm, never a figure/face.
+Next job = lowest ⬜ row in my range = **#122 The mote and the beam (Matt 7)** (120 and 121 are
+done). Then #123 onward. **Check media-production/CONTENT-CARE.md for each row's care flags
+before storyboarding.** #122 is a Jesus-TEACHING story (Sermon on the Mount) — if a Jesus
+figure appears, use the JESUS LOCK v3 + face-by-angle rules and pass the gate; if it is told as
+a parable illustration with no Jesus in frame, keep God/Jesus out of frame like the parables.
+
+**Working preference (Cameron, 2026-07-15):** run every command in the FOREGROUND, here and
+now — never background jobs. See memory `foreground-only-commands`.
 
 ## THE PIPELINE IS FIXED AND PROVEN — how to build one video (≈20–40 min)
 1. `git pull --rebase --autostash`. Claim the row in QUEUE.md (stamp `CLAIMED Machine C

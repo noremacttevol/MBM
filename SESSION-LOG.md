@@ -1,8 +1,9 @@
-## 2026-07-15 — #117 Hosea, #118 Jonah, #119 Fourth man in the fire built (Machine C)
+## 2026-07-15 — #117 Hosea, #118 Jonah, #119 Fourth man, #120 Job built (Machine C)
 
-Three videos built end-to-end on Machine C (`cameron-lovett-MS-7C91`), Phase-1 stills-only,
+Four videos built end-to-end on Machine C (`cameron-lovett-MS-7C91`), Phase-1 stills-only,
 Google Flow $0, all published to the review gallery (`site/review.html`) and pushed to
-`origin/main`. Resume next at **#120 Job**. Commit: this entry ships with the push below.
+`origin/main`. Resume next at **#122 The mote and the beam** (121 already done). Commit: this
+entry ships with the push below.
 
 - **#117 Hosea Buys Her Back (Hosea 1–3)** — `hosea-1_hosea-buys-her-back.mp4`, 3:04, 21.6MB.
   Care D,L: redemption at the price paid, never the scandal; nothing explicit. Hosea shows his
@@ -22,8 +23,16 @@ Google Flow $0, all published to the review gallery (`site/review.html`) and pus
   **all-narrator with white captions** (KJV quotes belong to human speakers) — build.py uses
   `KJV=set()` plus a separate `SILENCE={"n3","n6"}` for the two music hushes. New template for
   future no-God-speech stories.
+- **#120 Job Answered from the Whirlwind (Job 38–42)** — `job-38_job-from-whirlwind.mp4`,
+  2:52, 21.3MB. Care G,J: the answer was PRESENCE, not an explanation — narration never frames
+  God as the tormentor-for-glory (no heavenly-wager framing). Job's losses shown as grief and
+  empty aftermath, never gore/bodies/grotesque sores. God shown ONLY as the whirlwind and
+  light, never a figure. God KJV 38:4 + 38:31 as two cream silences; Job's answer 42:5 in
+  narrator voice. Caught + fixed s6 (Job had drifted young/dark-bearded — relocked to the older
+  grey-bearded man). Cameron asked mid-session to stop backgrounding commands — run everything
+  foreground here-and-now (saved as a memory).
 - **Housekeeping:** started a FRESH Flow project (026b29c0) at session start per the prior
-  handoff's speed fix — no rate-limit tripped across ~33 gens. Concurrent pushes from other
+  handoff's speed fix — no rate-limit tripped across ~44 gens. Concurrent pushes from other
   machines caused review.html rebase conflicts twice; resolved each by regenerating
   review.html from the merged QUEUE.md and continuing the rebase (the file is generated, so
   regen-and-continue is the correct resolution).
