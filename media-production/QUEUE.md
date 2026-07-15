@@ -183,7 +183,7 @@ rows. Do not assume approval.
 | 156 | A famine of hearing the words of the LORD | Amos 8:11–12 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, Amos+seekers in dark earth tones, famine shown as inward hunger/empty scroll-shelf beside untouched bread—NOT starvation, no villain/church, caption-v2, 2 sacred silences, 23.7MB/2:49; face-gate PASS) |
 | 157 | A marvellous work and a wonder; the sealed book | Isa 29:11–14 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, Isaiah/scholars/seekers in dark earth tones, sealed book + God's marvellous work as light/no figure, kept in ancient imagery/no modern objects, s6 triptych rerolled, caption-v2, 2 sacred silences, 23.4MB/3:21; face-gate PASS) |
 | 158 | The stick of Judah and the stick of Joseph | Ezek 37:15–19 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, Ezekiel+people in dark earth tones, two wooden rods joined into one, God shown only as light, ancient imagery/no modern objects, s4 triptych rerolled, caption-v2, 2 sacred silences, 23.3MB/3:17; face-gate PASS) |
-| 159 | "Other sheep I have" | John 10:16 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 159 | "Other sheep I have" | John 10:16 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine D 2026-07-15 |
 | 160 | The stone cut without hands | Dan 2:44 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 161 | "No man taketh this honour... as was Aaron" | Heb 5:4 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 stills Flow $0, caption-v2, 22.5MB, no Jesus figure; face-gate PASS) |
 | 162 | The keys of the kingdom | Matt 16:18–19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
