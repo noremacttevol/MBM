@@ -184,7 +184,7 @@ rows. Do not assume approval.
 | 157 | A marvellous work and a wonder; the sealed book | Isa 29:11–14 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, Isaiah/scholars/seekers in dark earth tones, sealed book + God's marvellous work as light/no figure, kept in ancient imagery/no modern objects, s6 triptych rerolled, caption-v2, 2 sacred silences, 23.4MB/3:21; face-gate PASS) |
 | 158 | The stick of Judah and the stick of Joseph | Ezek 37:15–19 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, Ezekiel+people in dark earth tones, two wooden rods joined into one, God shown only as light, ancient imagery/no modern objects, s4 triptych rerolled, caption-v2, 2 sacred silences, 23.3MB/3:17; face-gate PASS) |
 | 159 | "Other sheep I have" | John 10:16 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (FACE-SHOWN: Jesus the Good Shepherd in s1-s4/s7/s8 locked to master face via --ref, face-consistent, only-Jesus-in-cream; other-fold shots s5/s6 no figure; 8 Flow $0 stills 9:16, caption-v2, 2 sacred silences, 24.0MB/2:51; face-gate PASS. Awaiting your yes.) |
-| 160 | The stone cut without hands | Dan 2:44 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 160 | The stone cut without hands | Dan 2:44 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine D 2026-07-15 |
 | 161 | "No man taketh this honour... as was Aaron" | Heb 5:4 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 stills Flow $0, caption-v2, 22.5MB, no Jesus figure; face-gate PASS) |
 | 162 | The keys of the kingdom | Matt 16:18–19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 163 | Built on apostles and prophets | Eph 2:19–20 | ⬜ | ⬜ | ⬜ | ⬜ |  |
