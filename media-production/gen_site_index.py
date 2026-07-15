@@ -39,7 +39,7 @@ TITLES = {
     47: "Houses on Rock and Sand", 48: "New Wine, Old Bottles",
     71: "Calling the Fishermen", 72: "Calling Matthew",
     84: "No Room: the Manger", 91: "Gethsemane",
-    135: "The Rainbow Covenant",
+    121: "Salt and Light", 135: "The Rainbow Covenant",
 }
 
 SMALL = {"of", "and", "the", "a", "an", "in", "on", "to", "his", "her"}
