@@ -9,7 +9,6 @@
 | # | Story | What's wrong | Claimed by |
 |---|---|---|---|
 | 91 | Gethsemane | Hair gets long out of nowhere in one scene (rejected 2026-07-15; was old row 124) | — |
-| 31 | The ten virgins | Rejected 2026-07-15 (see row note) | — |
 
 ## 🆕 NEW BUILDS AWAITING YOUR YES (since the 2026-07-15 batch approval)
 
@@ -56,7 +55,7 @@ rows. Do not assume approval.
 | 28 | Hidden treasure | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
 | 29 | The pearl of great price | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) (s2 fix shipped) |
 | 30 | The net | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
-| 31 | The ten virgins | Matt 25 | ✅ | ⬜ | ⬜ | ⬜ | REJECTED 2026-07-15 — still messed up, needs redo |
+| 31 | The ten virgins | Matt 25 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (re-watched — good) |
 | 32 | The talents | Matt 25 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
 | 33 | The sheep and the goats | Matt 25 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
 | 34 | The rich fool | Luke 12 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
