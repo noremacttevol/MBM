@@ -127,7 +127,7 @@ rows. Do not assume approval.
 | 100 | The ascension | Acts 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 101 | The still small voice | 1 Kgs 19 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 3:31, 21.8MB; no Jesus figure). NOTE for approver: ear-check the word "wind" (must sound like moving air /wɪnd/, not winding a clock) — couldn't verify by ear on this box. |
 | 102 | Jacob's ladder | Gen 28 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 3:21, 21.1MB; God shown as light, no figure) |
-| 103 | Peter's confession | Matt 16 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine C 2026-07-15 (Jesus shots prompt-driven to master face) |
+| 103 | Peter's confession | Matt 16 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 9 stills 9:16, 2:35, 22.3MB; Jesus face-shown prompt-driven to master, s2 rerolled for cream law) |
 | 104 | The boy Samuel | 1 Sam 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 105 | Face to face, as a friend | Ex 33:11 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 106 | God spake by the prophets | Heb 1:1–3 | ⬜ | ⬜ | ⬜ | ⬜ |  |

@@ -1,0 +1,79 @@
+# STILL PROMPTS — Video #103: Peter's Confession (matthew-16_peters-confession)
+
+Matthew 16:13-20 (Caesarea Philippi). STILLS-ONLY (Law E) — nine painted stills.
+BRIDGE/MILK. CARE FLAGS: none — GREEN. No violence.
+
+FACE LAW v3 (Cameron, 2026-07-15): Jesus's FACE IS SHOWN — the SAME face as the master
+reference (candidate 1), staged naturally in every shot he appears in (s1,s2,s4,s5,s6,
+s7,s8,s9). Scene shots are PROMPT-DRIVEN by the byte-identical JESUS LOCK v3 (a bust
+portrait attached as --ref makes Nano Banana copy the portrait instead of composing the
+scene — Machine C 2026-07-15); the master portrait is the QC target, ANY face drift =
+regenerate. Every Jesus shot carries the byte-identical JESUS LOCK v3 paragraph and a
+REF: jesus-master-ref line (gate markers).
+
+ONLY JESUS WEARS CREAM. Everyone else — the disciples, Peter — wears darker earth
+colours in every shot; never off-white or cream.
+
+DISCIPLE LOCK (s1,s2,s3,s5,s6,s7,s9): the twelve, ordinary weathered Galilean men of
+mixed ages in earth-toned wool robes — dun, faded brown, ochre, olive, grey-blue,
+maroon — short hair or head-cloths, dark beards, faces shown, honest and attentive,
+consistent throughout. PETER (s5,s6,s7): a sturdy broad older fisherman of about fifty,
+weathered warm-tan skin, a grey-flecked short dark beard, a rust-brown robe with a
+faded blue mantle, earnest and strong-faced; consistent every time.
+
+SETTING LOCK: near Caesarea Philippi — green rocky uplands with a great tall pale
+limestone CLIFF FACE rising behind, a clear spring at its foot, bright clear daylight.
+The big rock recurs (it is the visual of "upon this rock").
+
+MUST NEVER SHOW: Jesus's face different from the master; any bright ring of light
+around his head or a back-lit outline; anyone else in cream/off-white; any modern
+object; any baked-in text; a multi-panel or comic-strip layout.
+
+STILL STYLE BLOCK (prepended to every prompt, exactly):
+Beautiful hand-painted 2D animation style, reverent and warm, like a classic
+illustrated storybook of scripture brought to life. Soft painterly brushstroke
+textures, glowing golden light, muted earth tones with warm gold highlights.
+First-century Judea. Sacred, hushed tone. Not photorealistic. No text or captions
+in the image. Historically modest clothing: rough-woven wool and linen in undyed
+earth colors. No modern objects.
+
+Every figure has two arms, two hands, two legs and one head (anatomy guard). Every
+prompt ends with "One single tall upright vertical scene painted edge to edge, no panels."
+Skip any comic-strip or multi-panel variant the model returns.
+
+---
+
+## s1-on-the-road
+REF: jesus-master-ref — master face is the QC target (prompt-driven; no --ref attached).
+[STILL STYLE BLOCK] Bright clear daylight on a green rocky upland road near Caesarea Philippi, a great tall pale limestone cliff face rising in the background with a clear spring at its foot. Jesus walks along the road with his twelve disciples gathered around him, all on the move together, an easy travelling group. He is turned slightly toward them as they walk. The disciples are ordinary weathered Galilean men of mixed ages in earth-toned wool — dun, faded brown, ochre, olive, grey-blue, maroon — short hair or head-cloths, dark beards, faces shown; not one of them wears cream. Warm clear daylight, green uplands, the pale cliff behind. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s2-the-question
+REF: jesus-master-ref — master face is the QC target (prompt-driven; no --ref attached).
+[STILL STYLE BLOCK] The group has stopped on the green rocky upland, the pale limestone cliff rising behind. Jesus stands facing his disciples, his face toward them, one hand open in a gentle question as he asks them something. The disciples stand and sit in a loose half-circle around him, ordinary Galilean men in dun, brown, ochre, olive, grey-blue and maroon wool, faces shown, listening and beginning to think, their gazes on him. EVERY disciple wears a saturated DARK earth-toned robe — dun, deep brown, ochre, olive, grey-blue or maroon; absolutely no one but the central cream-robed figure wears any white, cream, off-white or pale garment anywhere in the frame. Bright clear daylight, green uplands, pale cliff behind. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s3-what-men-say
+[STILL STYLE BLOCK] A cluster of the disciples on the green rocky upland, ordinary Galilean men in dun, brown, ochre, olive, grey-blue and maroon wool, short hair or head-cloths, dark beards, talking among themselves and answering — one gesturing off toward the distance as he names a prophet, another shrugging, a third thinking hard, their faces shown, earnest and discussing. Not one of them wears cream, and no divine figure is in this frame. Bright clear daylight, green uplands, the pale limestone cliff behind. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s4-but-whom-say-ye
+REF: jesus-master-ref — master face is the QC target (prompt-driven; no --ref attached).
+[STILL STYLE BLOCK] A closer, quieter moment: Jesus stands among the disciples on the green upland, the pale cliff soft behind, his face toward them, calm and searching, one hand lightly to his own chest as he turns the question directly on them — but who do YOU say that I am. A hush has fallen; the nearest disciples are still, caught by the directness of it, faces shown, thoughtful and moved. Not one of them wears cream. Warm clear daylight, a hushed and weighty air. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s5-peter-steps-forward
+REF: jesus-master-ref — master face is the QC target (prompt-driven; no --ref attached).
+[STILL STYLE BLOCK] On the green upland before the pale cliff, Peter — a sturdy broad older fisherman of about fifty with weathered warm-tan skin, a grey-flecked short dark beard, in a rust-brown robe with a faded blue mantle — has stepped forward from among the disciples, his face lifted toward Jesus, earnest and certain, on the verge of speaking. Jesus stands facing him, calm and attentive, his face toward Peter. The other disciples watch from behind, faces shown. Only Jesus wears cream; Peter and the others wear earth colours. Warm clear daylight, green upland, pale cliff behind. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s6-the-confession
+REF: jesus-master-ref — master face is the QC target (prompt-driven; no --ref attached).
+[STILL STYLE BLOCK] The moment of confession on the green upland: Peter, the sturdy grey-bearded fisherman in his rust-brown robe and faded blue mantle, stands with one hand pressed to his own heart, his weathered face shining with conviction as he declares who Jesus is. Jesus stands close before him, his face toward Peter, warm and still, receiving the words. The disciples behind are hushed and wondering, faces shown. Only Jesus wears cream. Warm clear daylight, a holy charged stillness, the pale cliff behind. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s7-blessed-art-thou
+REF: jesus-master-ref — master face is the QC target (prompt-driven; no --ref attached).
+[STILL STYLE BLOCK] Jesus has laid one hand warmly on Peter's shoulder, his face toward him, glad and tender, blessing him. Peter, the sturdy grey-bearded fisherman in his rust-brown robe and faded blue mantle, stands moved and humble under the blessing, his face shown. The other disciples gather close around, faces shown, warm and amazed. Only Jesus wears cream; everyone else in earth colours. Warm golden daylight, green upland, the pale limestone cliff behind. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s8-upon-this-rock
+REF: jesus-master-ref — master face is the QC target (prompt-driven; no --ref attached).
+[STILL STYLE BLOCK] Jesus stands and turns toward the great tall pale limestone cliff rising solid and unshakable beside them, one hand lifted open toward the mighty rock as he speaks of building something that will stand forever. His face is toward the rock and partly to us, calm and strong. A few disciples stand near, following his gesture up the towering stone, faces shown. Only Jesus wears cream. Bright clear daylight, the enormous pale rock filling much of the upright frame, green upland at its foot. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s9-the-rock-stands
+REF: jesus-master-ref — master face is the QC target (prompt-driven; no --ref attached).
+[STILL STYLE BLOCK] A wide warm closing view: Jesus stands with his gathered disciples at the foot of the great pale limestone cliff in golden late-afternoon light, the whole group quiet and resolved together, the towering unshakable rock rising above them into a clear sky — the church that will be built and will stand. Jesus's face is toward his men, calm and sure; the disciples' faces are shown, steadied and glad. Only Jesus wears cream; the rest in earth colours. Warm golden light, the mighty rock, deep clear sky. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
