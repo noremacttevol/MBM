@@ -199,3 +199,11 @@ read, dove, bass, minute, use(d), close. Listen to any segment containing one.
 - **Face-gate also trips on incidental Jesus tokens in non-staging lines:** "the mother of
   Jesus" in a character-lock or a shot where he isn't present → rename to "Mary the mother";
   and never write "face" in the same sentence as "Jesus" without a hiding cue/negation.
+
+## Caption v2 + "live" (2026-07-15, Cameron's rejects)
+- "live"/"lived" is the most common TTS misread (says /lyve/). Ear-check every
+  segment containing live/lives/lived/liveth; fix with SPOKEN override "liv".
+- Captions: copy chunk_caption()/caption_layers()/build_still() from
+  build-48-new-wine-old-bottles/build.py (caption v2). Wide bottom strip, 2 lines
+  max (3 KJV), chunks swap with the narration. Old builds get re-assembled with it
+  in the remediation sweep — stills and most audio untouched, so it costs $0.

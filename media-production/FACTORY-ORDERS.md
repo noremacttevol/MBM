@@ -118,13 +118,32 @@ character/wardrobe locks written into every prompt the character appears in; no 
 gap over 2.5s; tell the whole story to the final verse; closing card is an invitation,
 never a fear-question. File name = `book-chapter_story-name.mp4`.
 
-**HOMOGRAPH LAW (added 2026-07-15 — the #135 "bow" defect):** edge-tts misreads
+**HOMOGRAPH LAW (added 2026-07-15 — the #135 "bow" defect; "live" is the #1 offender
+across MANY built videos: the verb live/lived must be /liv/, never /lyve/ — respell as
+"liv" for TTS when misread):** edge-tts misreads
 scripture homographs. EAR-CHECK every segment containing: bow, wound, wind, tears,
 lead, sow/sows, live/lives, read, dove, bass, minute, use(d), close. If misread, fix
 the AUDIO ONLY via a spoken respelling — in make_narration.py keep the caption text
 exact, and add a SPOKEN override used only for TTS (e.g. TTS gets "beau" so "bow"
 says /boh/; captions still show the true KJV word). Pattern documented in the playbook.
 Re-listen to the fixed segment before assembly. A misread KJV word is a rejected video.
+
+**CAPTION LAW v2 (Cameron, 2026-07-15 — replaces every earlier caption rule):** captions
+sit WIDE along the BOTTOM of the frame and never climb toward the middle. Narrator
+captions: max 2 lines. KJV: max 3 lines. A long segment is SPLIT into chunks that swap
+in sync with the narration (proportional timing across the spoken audio) — the words
+on screen are still the exact spoken words, just shown a piece at a time. The
+implementation lives in the TEMPLATE build.py (build-48): chunk_caption() +
+caption_layers() + the new build_still() signature. COPY IT — do not re-derive.
+Every NEW video must use it. Videos built with the old tall captions will be
+re-assembled in the remediation sweep (below).
+
+**REMEDIATION SWEEP (do after your range's new builds, or when Cameron asks):** for
+each already-built video in your range: (1) ear-check all segments for homographs —
+regenerate ONLY offending audio segments with a TTS respelling; (2) port the caption-v2
+functions into that build's build.py; (3) re-run build.py (stills unchanged, $0),
+QC one frame for caption placement, re-run gen_site_index.py, push. Note
+"caption-v2 + ear-check remediated <date>" in the row's Claim column.
 
 ---
 
