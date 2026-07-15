@@ -37,7 +37,7 @@ Appr and add it to this folder.
 | 3 | Zacchaeus | Luke 19 | ✅ | ✅ | ✅ | ✅ | **v3 FULL REBUILD 2026-07-15 (Machine A)** — old face-never build rebuilt: 11 face-shown stills locked to master + continuity locks (Zacchaeus + Jericho same every shot), caption-v2, stills-only, invitation card, 18.9MB/4:07. Awaiting your yes. |
 | 4 | Nicodemus at night | John 3 | ✅ | ✅ | ✅ | ✅ | **v3 FULL REBUILD 2026-07-15 (Machine A)** — old face-never build rebuilt: 11 face-shown stills locked to master + continuity locks (Nicodemus + night chamber same every shot), caption-v2, reverent burial (no body), invitation card, 21.1MB/5:58. Awaiting your yes. |
 | 5 | The bent-over woman | Luke 13 | ✅ | ✅ | ✅ | ✅ | **v3 FULL REBUILD 2026-07-15 (Machine A)** — old face-never build rebuilt: 11 face-shown stills locked to master + continuity locks (bent→healed woman, synagogue, ruler same every shot), caption-v2, invitation card, 18.8MB/4:35. Awaiting your yes. |
-| 6 | The two sons | Matt 21 | ✅ | ✅ | ⬜ | ✅ | live |
+| 6 | The two sons | Matt 21 | ✅ | ✅ | ⬜ | ✅ | v3 REBUILD CLAIMED Machine A 2026-07-15 (face-shown Jesus framing + parable; WIP) |
 | 7 | Peter walks on water | Matt 14 | ✅ | ✅ | ⬜ | ✅ | live (s3 fix shipped 07-13) |
 | 8 | The lost coin | Luke 15 | ✅ | ✅ | ⬜ | ✅ | live |
 | 9 | The rich young ruler | Mark 10 | ✅ | ✅ | ⬜ | ✅ | live |
