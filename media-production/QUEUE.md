@@ -108,7 +108,7 @@ sheet ready) · **Built** (final mp4 exists) · **Appr** (Cameron approved) ·
 | 39 | The Pharisee and the publican | Luke 18 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
 | 40 | The friend at midnight | Luke 11 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
 | 41 | Counting the cost | Luke 14 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 (Flow prep, $0) — awaiting your yes |
-| 42 | The barren fig tree spared | Luke 13 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine A 2026-07-14 |
+| 42 | The barren fig tree spared | Luke 13 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 (Flow $0, CARE-J mercy) — awaiting your yes |
 | 43 | The wedding garment | Matt 22 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 — awaiting your yes |
 | 44 | The two debtors | Luke 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 45 | The wicked tenants | Mark 12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
