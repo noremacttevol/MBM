@@ -73,7 +73,26 @@ Within YOUR range, work in this order:
    line to pick 1, 2 or 3. When he picks, move the winner's images to
    JESUS-MASTER-REF/ as jesus-face.jpeg (+ any extra angles), delete the losers,
    push. If another machine already pushed candidates, skip this.
-2. **v3 REDO of built rows in your range** (see the v3 REDO section): oldest row
+2. **v3 REDO of built rows in your range — TRIAGE FIRST (Cameron, 2026-07-15):**
+   not every old video needs the face rework. Sort each built row into one of three
+   buckets before touching it:
+   - **NO-JESUS videos** (no divine figure in any frame — parable interiors, OT
+     stories, verse videos): NO face redo. Eligible for Cameron's approval AS-IS.
+     Apply only the cheap sweep (caption-v2 re-assembly + homograph ear-check) and
+     note "sweep only" in the row.
+   - **FRAME-ONLY videos** (Jesus appears just in a brief framing shot telling the
+     story — e.g. one or two from-behind shots): NO face redo required, IF the frame
+     does its real job — it must clearly show WHERE he was, WHO he was telling it
+     to, and make the WHY land (why this story mattered to those hearers, there,
+     then). If the existing frame shots already do that: sweep only. If the frame
+     is vague about place/audience: regenerate just those 1–2 frame shots (face
+     optional, master-ref if shown).
+   - **JESUS-ACTIVE videos** (he acts in the story — healings, encounters, callings,
+     passion week): full v3 face redo per the section below.
+   THE FRAME LAW (applies to all storytelling videos, new and old): a parable's
+   framing shots exist to teach context — place, audience, stakes — not to showcase
+   Jesus. His face does NOT need to appear in every video; moderate and natural.
+   Work order within the redo: (see the v3 REDO section): oldest row
    first. Skip any row already noted "v3 REDONE".
 3. **New builds** of unbuilt rows in your range, lowest number first.
 If JESUS-MASTER-REF/ is empty and candidates are already pushed awaiting Cameron's
