@@ -98,7 +98,7 @@
 | 81 | Render unto Caesar | Mark 12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 82 | The anointing at Bethany | Mark 14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 83 | Weeping over Jerusalem | Luke 19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 84 | No room: the manger | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 84 | No room: the manger | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine B 2026-07-15 |
 | 85 | Shepherds and angels | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 86 | The wise men | Matt 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 87 | The boy in the temple | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
