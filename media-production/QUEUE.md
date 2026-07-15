@@ -181,7 +181,7 @@ rows. Do not assume approval.
 | 154 | Another angel, the everlasting gospel | Rev 14:6 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, winged angel in gold/light—NOT cream, no halo/ring, God/Creator as light only, nations in earth tones, caption-v2, 2 sacred silences, 24.0MB/3:08; face-gate PASS) |
 | 155 | "A falling away first" | 2 Thes 2:1–3 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, Paul locked in dark earth tones, apostasy shown only as gently fading light—NO villain/church, night-before-dawn for the "man of sin" verse, caption-v2, 2 sacred silences, 23.5MB/2:56; face-gate PASS) |
 | 156 | A famine of hearing the words of the LORD | Amos 8:11–12 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, Amos+seekers in dark earth tones, famine shown as inward hunger/empty scroll-shelf beside untouched bread—NOT starvation, no villain/church, caption-v2, 2 sacred silences, 23.7MB/2:49; face-gate PASS) |
-| 157 | A marvellous work and a wonder; the sealed book | Isa 29:11–14 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine D 2026-07-15 |
+| 157 | A marvellous work and a wonder; the sealed book | Isa 29:11–14 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, Isaiah/scholars/seekers in dark earth tones, sealed book + God's marvellous work as light/no figure, kept in ancient imagery/no modern objects, s6 triptych rerolled, caption-v2, 2 sacred silences, 23.4MB/3:21; face-gate PASS) |
 | 158 | The stick of Judah and the stick of Joseph | Ezek 37:15–19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 159 | "Other sheep I have" | John 10:16 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 160 | The stone cut without hands | Dan 2:44 | ⬜ | ⬜ | ⬜ | ⬜ |  |
