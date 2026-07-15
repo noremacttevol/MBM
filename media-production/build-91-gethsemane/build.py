@@ -10,9 +10,9 @@ build.py only reads the files. CAPTIONS ARE VERBATIM: every caption is the exact
 text of its narration segment (imported from make_narration.SEGMENTS and word-wrapped).
 KJV (Jesus) lines render in cream italic.
 
-Face-never (the #1 Law): Jesus appears in every still, and in EVERY one the camera is
-behind him / over his shoulder / at a distance — the back of his head to us, his face
-never rendered. Verified on the high-zoom face audit of all twelve.
+FACE LAW v3 (2026-07-15 redo): Jesus's face IS shown in every still, the SAME face as
+JESUS-MASTER-REF (attached as --ref at generation). Only Jesus wears cream. Captions are
+CAPTION v2 — time-chunked along the wide bottom band, synced to the spoken audio.
 
 CARE FLAGS: ARC, R, G (CONTENT-CARE #124).
   R — the agony frame (s7) shows only a few restrained dark drops on the pale stone,
@@ -133,34 +133,73 @@ def spoken_of(path):
     return dur_of(tmp)
 
 
-def wrapped(name):
-    return "\n".join(textwrap.wrap(TEXT[name], width=34))
+def sentences(text):
+    import re
+    return [p for p in re.split(r"(?<=[.!?;:]) +", text) if p]
 
 
-def caption_overlay(seg_id, dur, text, kjv):
-    tf = f"{S}/{seg_id}.txt"
-    with open(tf, "w") as f:
-        f.write(text)
+def chunk_caption(text, width, max_lines):
+    out, cur = [], ""
+    for s in sentences(text):
+        cand = (cur + " " + s).strip()
+        if len(textwrap.wrap(cand, width)) <= max_lines:
+            cur = cand
+            continue
+        if cur:
+            out.append(cur)
+        if len(textwrap.wrap(s, width)) <= max_lines:
+            cur = s
+        else:
+            piece = ""
+            for frag in s.split(", "):
+                cand2 = (piece + ", " + frag).strip(", ").strip()
+                if len(textwrap.wrap(cand2, width)) <= max_lines:
+                    piece = cand2
+                else:
+                    if piece:
+                        out.append(piece)
+                    piece = frag
+            cur = piece
+    if cur:
+        out.append(cur)
+    return out
+
+
+def caption_layers(seg_id, dur, spoken_end, text, kjv):
+    # CAPTION v2: time-chunked captions along the wide bottom band, synced to the spoken
+    # audio (narrator <=2 lines, KJV cream-italic <=3). Every frame is a dark night scene,
+    # so a semi-opaque box keeps white/cream text legible while the scene reads above it.
     if kjv:
-        font, size, color = SERIF_BI, 45, "0xFFF3DC"
+        font, size, color, width, maxl = SERIF_BI, 46, "0xFFF3DC", 38, 3
     else:
-        font, size, color = SERIF, 33, "white"
-    # Every frame in this video is a dark night scene; the single brightest patch is the
-    # angel's warm light in s8. Box tuned to keep white/cream text legible over that gold
-    # while staying light enough that the scene reads clearly through the middle
-    # (CAPTION-LEGIBILITY law): captions sit in the lower band, scenes stay visible above.
-    fade_out = max(0.0, dur - 0.55)
-    return (f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
+        font, size, color, width, maxl = SERIF, 34, "white", 48, 2
+    chunks = chunk_caption(text, width, maxl)
+    total = sum(len(c) for c in chunks) or 1
+    t0, t1 = 0.15, max(0.6, min(dur - 0.2, spoken_end + 0.35))
+    filters, labels = [], []
+    acc = 0
+    for i, c in enumerate(chunks):
+        cs = t0 + (t1 - t0) * acc / total
+        acc += len(c)
+        ce = t0 + (t1 - t0) * acc / total
+        tf = f"{S}/{seg_id}_{i}.txt"
+        with open(tf, "w", encoding="utf-8") as f:
+            f.write("\n".join(textwrap.wrap(c, width)))
+        fo = max(cs, ce - 0.35)
+        filters.append(
+            f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
             f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
             f"fontcolor={color}:line_spacing=13:x=(w-text_w)/2:"
-            f"y=h-165-text_h:"
+            f"y=h-120-text_h:"
             f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
-            f"box=1:boxcolor=black@0.5:boxborderw=22,"
-            f"fade=t=in:st=0:d=0.5:alpha=1,"
-            f"fade=t=out:st={fade_out}:d=0.5:alpha=1[cap]")
+            f"box=1:boxcolor=black@0.58:boxborderw=22,"
+            f"fade=t=in:st={cs:.2f}:d=0.35:alpha=1,"
+            f"fade=t=out:st={fo:.2f}:d=0.35:alpha=1[cap{seg_id}{i}]")
+        labels.append(f"[cap{seg_id}{i}]")
+    return filters, labels
 
 
-def build_still(seg_id, src, dur, zdir, cap_text, kjv, first):
+def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, kjv, first):
     # ANTI-SHIMMER: drift rendered supersampled (2160 wide), lanczos'd to 1080.
     frames = int(dur * FPS)
     if zdir == "in":
@@ -171,9 +210,16 @@ def build_still(seg_id, src, dur, zdir, cap_text, kjv, first):
             f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"d={frames}:s=2160x3840:fps={FPS},"
             f"scale=1080:1920:flags=lanczos")
-    capf = caption_overlay(seg_id, dur, cap_text, kjv)
+    capf, labels = caption_layers(seg_id, dur, spoken_end, cap_text, kjv)
     tail = ",fade=t=in:st=0:d=1.0" if first else ""
-    fc = f"{base}[b];{capf};[b][cap]overlay=format=auto{tail}[v]"
+    steps, cur = [], "b"
+    for i, lab in enumerate(labels):
+        last = (i == len(labels) - 1)
+        nxt = "v" if last else f"b{i+1}"
+        steps.append(f"[{cur}]{lab}overlay=format=auto"
+                     + (tail if last else "") + f"[{nxt}]")
+        cur = nxt
+    fc = f"{base}[b];" + ";".join(capf) + ";" + ";".join(steps)
     run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
          "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
 
@@ -262,8 +308,8 @@ def main():
 
     # ---- render every still beat ----
     for i, (seg_id, still, zdir, vdur, _a, kjv) in enumerate(timeline):
-        build_still(seg_id, still, vdur, zdir, wrapped(seg_id), kjv,
-                    first=(i == 0))
+        build_still(seg_id, still, vdur, zdir, LEAD + spoken[seg_id],
+                    TEXT[seg_id], kjv, first=(i == 0))
     build_card(card_vdur, TEXT["card"])
 
     with open(f"{S}/concat.txt", "w") as f:

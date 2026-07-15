@@ -8,7 +8,7 @@
 
 | # | Story | What's wrong | Claimed by |
 |---|---|---|---|
-| 91 | Gethsemane | Hair gets long out of nowhere in one scene (rejected 2026-07-15; was old row 124) — DIAGNOSED: **s7-agony-drops** has hair cascading to the lower back vs shoulder-length everywhere else. s7 PROMPT already corrected + face-gate PASS; build.py made cross-platform. REMAINING: regen only s7 in Flow (replace assets/s7-agony-drops.jpeg), rebuild, tick Built. | Machine B 2026-07-15 (WIP, prompt fixed) |
+| 91 | Gethsemane | Hair got long in s7 (rejected 2026-07-15). **Cameron chose a FULL v3 FACE-SHOWN redo (not just an s7 swap).** All 12 prompts rewritten face-shown + byte-identical JESUS LOCK v3 + REF line (face-gate PASS, exit 0); caption-v2 ported into build.py; the master-face lock fixes the s7 hair-length drift. REMAINING: regenerate all 12 stills in Flow ($0), QC, rebuild, tick Built. | Machine B 2026-07-15 (v3 face-shown redo WIP) |
 
 ## ✅ APPROVED FOLDER — Cameron's fresh yes (post-redo, face-law v3)
 
