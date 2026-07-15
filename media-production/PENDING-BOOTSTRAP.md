@@ -1,33 +1,25 @@
-# ⛔ FACTORY BLOCKER STATUS — 2026-07-15 (Machine B / ElliLovett)
+# ✅ MASTER-FACE CANDIDATES GENERATED — awaiting Cameron's pick (2026-07-15)
 
-## ✅ Progress: Flow LOGIN now works on this laptop
-A human logged into Cameron's Google (Ultra) in the driver's Chrome window.
-`python media-production/flow_driver.py check` → `logged_in=True project=saved`.
+The two earlier blockers are cleared:
+1. **Flow login** — done on Machine B (`ElliLovett`); `flow_driver.py check` → logged_in=True.
+2. **Driver gen** — the reworked `flow_driver.py` (Machine C's fix + a local aspect-check
+   bypass on repeat gens) now generates reliably.
 
-## ❌ Still blocked: image GENERATION is broken, so the master face can't be made
-`flow_driver.py gen` produced ZERO images in 3 attempts. Root cause (diagnosed): the
-saved project URL opens Flow's **media-library view**, which has no image-gen prompt bar
-— so the driver types the prompt into the wrong element and submit does nothing. The
-driver must first enter Flow's image-generation surface (click `Create`/`Tools`) before
-typing. See the dated entry in FLOW-BUILD-PLAYBOOK.md "flow_driver.py status (Machine B)".
+**3 candidate portraits are pushed** to `JESUS-MASTER-REF/candidates/` (candidate1/2/3.jpeg,
+768×1376 9:16, Nano Banana 2, $0). All obey JESUS LOCK v3. See `candidates/PICK.md`.
 
-## The one thing that unblocks the ENTIRE factory (all machines)
-The Jesus master face still doesn't exist, and every video now shows his face locked to
-it. Two ways to make the 3 candidate portraits:
-- **FASTEST (human, ~2 min):** in the already-logged-in Flow window, set the model to
-  Nano Banana 2 (9:16, 1x, 0 credits), paste each of the 3 prompts from
-  `JESUS-MASTER-REF/CANDIDATE-PROMPTS.md`, and save the 3 results to
-  `JESUS-MASTER-REF/candidates/candidate1.jpeg` (…2, …3). Push.
-- **OR** fix the driver's gen targeting (enter the Create surface first), then run the 3.
+## ⛔ Remaining gate: Cameron picks 1, 2 or 3
+Until the winner is copied to `JESUS-MASTER-REF/jesus-face.jpeg` (see PICK.md), NO Jesus
+build can start — every shot attaches that ref. This is the one thing still blocking the
+whole factory (all machines).
 
-Then **Cameron picks 1, 2 or 3** → move the winner to `JESUS-MASTER-REF/jesus-face.jpeg`,
-delete the losers, push. NOW the v3 redo + every new Jesus build can run.
+## Driver note for other machines
+On REPEAT generations within one project the aspect check reports `aspect_9_16=False` and
+the stock driver refuses (SystemExit). The project is actually sticky-9:16, so the refusal
+is a false negative. Fix worth upstreaming: when the project already has 9:16 media, trust
+it instead of hard-refusing (or detect crop_9_16 more robustly once an image exists).
 
-## This machine is otherwise READY
-playwright + Pillow installed; Chrome, ffmpeg, edge-tts verified. Machine B range =
-rows 51–100; next new build when unblocked = row 51 (first catch of fish, Luke 5).
-No numbered row claimed (all builds blocked upstream on the master face).
-
-## Identity note for Cameron
-Hostname `ElliLovett` is still listed "extra worker" in MACHINE-IDENTITY.md but is being
-run as **Machine B**. Please reconcile that table.
+## This machine (Machine B, rows 51–100)
+Ready. Next new build when the face is picked = row 51 (first catch of fish, Luke 5).
+No numbered row claimed yet (blocked on the pick). Identity: hostname `ElliLovett` still
+listed "extra worker" in MACHINE-IDENTITY.md — please reconcile to Machine B.
