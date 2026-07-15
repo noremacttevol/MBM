@@ -108,7 +108,7 @@ rows. Do not assume approval.
 | 81 | Render unto Caesar | Mark 12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 82 | The anointing at Bethany | Mark 14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 83 | Weeping over Jerusalem | Luke 19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 84 | No room: the manger | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine B 2026-07-15 |
+| 84 | No room: the manger | Luke 2 | ✅ | ✅ | ⬜ | ⬜ | built Machine B 2026-07-15 (Flow prep, $0; 11 stills — Chrome dropped before the s12 dawn-door, closing beat holds on s11) — awaiting your yes |
 | 85 | Shepherds and angels | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 86 | The wise men | Matt 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 87 | The boy in the temple | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
