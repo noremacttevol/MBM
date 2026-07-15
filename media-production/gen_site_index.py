@@ -47,6 +47,7 @@ TITLES = {
     152: "He Revealeth His Secret to the Prophets",
     153: "The Restitution of All Things",
     154: "The Angel with the Everlasting Gospel",
+    155: "A Falling Away First",
     161: "Called of God, as was Aaron",
 }
 
