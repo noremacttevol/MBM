@@ -10,69 +10,76 @@
 |---|---|---|---|
 | 91 | Gethsemane | Hair gets long out of nowhere in one scene (rejected 2026-07-15; was old row 124) — DIAGNOSED: **s7-agony-drops** has hair cascading to the lower back vs shoulder-length everywhere else. s7 PROMPT already corrected + face-gate PASS; build.py made cross-platform. REMAINING: regen only s7 in Flow (replace assets/s7-agony-drops.jpeg), rebuild, tick Built. | Machine B 2026-07-15 (WIP, prompt fixed) |
 
-## 🆕 NEW BUILDS AWAITING YOUR YES (since the 2026-07-15 batch approval)
+## ✅ APPROVED FOLDER — Cameron's fresh yes (post-redo, face-law v3)
 
-Everything built on or before **2026-07-15 was batch-approved by Cameron** (48 rows).
-So from now on, any row in "The 200" below where **Built is ✅ but Appr is still ⬜**
-is a NEW build that landed after that batch and still needs its own yes — it is NOT
-covered by the batch approval. Build machines: finish a new one and it shows up here
-automatically (Built ✅ / Appr ⬜). The approval monitor only reviews these post-batch
-rows. Do not assume approval.
+**RESET 2026-07-15:** the earlier batch approval was voided. Those checkmarks were on
+pre-redo versions, and no video counts as approved until Cameron re-watches the redone
+version and says yes. Every `Appr` in "The 200" was cleared back to ⬜.
 
-**Currently pending review: none** — the board was clean at batch time.
+When Cameron approves a video, it lands here — this is the clean at-a-glance list of
+what's locked, so he doesn't scroll past done ones. The row still lives in "The 200"
+(so build machines keep their catalog); this folder is the index of what's approved.
+
+| # | Story | Build folder | Approved |
+|---|-------|--------------|----------|
+| — | (none yet — fresh slate) | — | — |
+
+**Your review list = any row in "The 200" where Built is ✅, Appr is ⬜, and Post is ⬜.**
+Already-live rows (Post ✅) are shipped — ignore them. As you say "#N good," I tick its
+Appr and add it to this folder.
 
 ## The 200
 
 | # | Story | Ref | Prep | Built | Appr | Post | Claim / notes |
 |---|---|---|---|---|---|---|---|
-| 1 | Woman who touched his cloak | Mark 5 | ✅ | ✅ | ✅ | ✅ | live |
-| 2 | The Prodigal Son | Luke 15 | ✅ | ✅ | ✅ | ✅ | live |
-| 3 | Zacchaeus | Luke 19 | ✅ | ✅ | ✅ | ✅ | live |
-| 4 | Nicodemus at night | John 3 | ✅ | ✅ | ✅ | ✅ | live |
-| 5 | The bent-over woman | Luke 13 | ✅ | ✅ | ✅ | ✅ | live |
-| 6 | The two sons | Matt 21 | ✅ | ✅ | ✅ | ✅ | live |
-| 7 | Peter walks on water | Matt 14 | ✅ | ✅ | ✅ | ✅ | live (s3 fix shipped 07-13) |
-| 8 | The lost coin | Luke 15 | ✅ | ✅ | ✅ | ✅ | live |
-| 9 | The rich young ruler | Mark 10 | ✅ | ✅ | ✅ | ✅ | live |
-| 10 | The woman at the well | John 4 | ✅ | ✅ | ✅ | ✅ | live |
+| 1 | Woman who touched his cloak | Mark 5 | ✅ | ✅ | ⬜ | ✅ | live |
+| 2 | The Prodigal Son | Luke 15 | ✅ | ✅ | ⬜ | ✅ | live |
+| 3 | Zacchaeus | Luke 19 | ✅ | ✅ | ⬜ | ✅ | live |
+| 4 | Nicodemus at night | John 3 | ✅ | ✅ | ⬜ | ✅ | live |
+| 5 | The bent-over woman | Luke 13 | ✅ | ✅ | ⬜ | ✅ | live |
+| 6 | The two sons | Matt 21 | ✅ | ✅ | ⬜ | ✅ | live |
+| 7 | Peter walks on water | Matt 14 | ✅ | ✅ | ⬜ | ✅ | live (s3 fix shipped 07-13) |
+| 8 | The lost coin | Luke 15 | ✅ | ✅ | ⬜ | ✅ | live |
+| 9 | The rich young ruler | Mark 10 | ✅ | ✅ | ⬜ | ✅ | live |
+| 10 | The woman at the well | John 4 | ✅ | ✅ | ⬜ | ✅ | live |
 | 11 | Calming the storm | Mark 4 | ✅ | ✅ | ⬜ | ⬜ | v3 REDO WIP Machine A 2026-07-15 — PROMPTS v3 (gate PASS), build.py caption-v2, invitation card, s1 face-shown DONE. **6 Jesus stills (s4,s5,s6,s7,s8,s9) still to generate — BLOCKED: Flow composer won't accept typed/injected text in claude-in-chrome (arrow stays aria-disabled). See build-11-storm/NEXT-SESSION-KICKOFF.md + playbook.** |
-| 12 | Blind Bartimaeus | Mark 10 | ✅ | ✅ | ✅ | ✅ | live; **v3 REDONE 2026-07-15** (Jesus s6/s9/s11 now FACE-SHOWN, text-locked to master; build.py made cross-platform; kept detailed non-Jesus stills — re-review) |
-| 13 | Through the roof | Mark 2 | ✅ | ✅ | ✅ | ✅ | live |
-| 14 | The ten lepers | Luke 17 | ✅ | ✅ | ✅ | ✅ | live; **v3 REDO WIP Machine A 2026-07-15** — s1/s4/s10 regenerated FACE-SHOWN & good, build.py made cross-platform; s11 STILL PENDING (Flow logged out mid-run). TO FINISH: log into Flow, `MBM_NOREF=1 genshot --file build-14 <s11 prompt in scratchpad redo14.tsv>`, then rebuild + push. mp4 NOT yet rebuilt. |
-| 15 | The centurion | Matt 8 | ✅ | ✅ | ✅ | ✅ | live |
-| 16 | Mary and Martha | Luke 10 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
-| 17 | Jesus wept (Lazarus) | John 11 | ✅ | ✅ | ✅ | ✅ | live (beard fix shipped) |
-| 18 | The road to Emmaus | Luke 24 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
-| 19 | Breakfast on the shore | John 21 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
-| 20 | The Good Samaritan | Luke 10 | ✅ | ✅ | ✅ | ⬜ | approved 07-12 — confirm posted |
-| 21 | The lost sheep | Luke 15 | ✅ | ✅ | ✅ | ⬜ | approved 07-12 — confirm posted |
-| 22 | The unmerciful servant | Matt 18 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
-| 23 | Workers in the vineyard | Matt 20 | ✅ | ✅ | ✅ | ⬜ | approved 07-12 — confirm posted |
-| 24 | The sower | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
-| 25 | Wheat and tares | Matt 13 | ✅ | ✅ | ✅ | ⬜ | approved 07-12 — confirm posted |
-| 26 | The mustard seed | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
-| 27 | The leaven | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
-| 28 | Hidden treasure | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
-| 29 | The pearl of great price | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) (s2 fix shipped) |
-| 30 | The net | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
-| 31 | The ten virgins | Matt 25 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (re-watched — good) |
-| 32 | The talents | Matt 25 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
-| 33 | The sheep and the goats | Matt 25 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
-| 34 | The rich fool | Luke 12 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
-| 35 | The great banquet | Luke 14 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
-| 36 | The shrewd steward | Luke 16 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
-| 37 | The rich man and Lazarus | Luke 16 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
-| 38 | The persistent widow | Luke 18 | ✅ | ✅ | ✅ | ⬜ | approved by Cameron 2026-07-13 |
-| 39 | The Pharisee and the publican | Luke 18 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
-| 40 | The friend at midnight | Luke 11 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (batch) |
-| 41 | Counting the cost | Luke 14 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 (Flow prep, $0) — APPROVED 2026-07-15 (batch) |
-| 42 | The barren fig tree spared | Luke 13 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 (Flow $0, CARE-J mercy) — APPROVED 2026-07-15 (batch) |
-| 43 | The wedding garment | Matt 22 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 — APPROVED 2026-07-15 (batch) |
-| 44 | The two debtors | Luke 7 | ✅ | ✅ | ✅ | ⬜ | built Computer B 2026-07-14 (mp4 committed cb2ffd4) — APPROVED 2026-07-15 (batch) |
-| 45 | The wicked tenants | Mark 12 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 (Flow $0, CARE R+J, violence off-screen) — APPROVED 2026-07-15 (batch) |
+| 12 | Blind Bartimaeus | Mark 10 | ✅ | ✅ | ⬜ | ✅ | live; **v3 REDONE 2026-07-15** (Jesus s6/s9/s11 now FACE-SHOWN, text-locked to master; build.py made cross-platform; kept detailed non-Jesus stills — re-review) |
+| 13 | Through the roof | Mark 2 | ✅ | ✅ | ⬜ | ✅ | live |
+| 14 | The ten lepers | Luke 17 | ✅ | ✅ | ⬜ | ✅ | live; **v3 REDO WIP Machine A 2026-07-15** — s1/s4/s10 regenerated FACE-SHOWN & good, build.py made cross-platform; s11 STILL PENDING (Flow logged out mid-run). TO FINISH: log into Flow, `MBM_NOREF=1 genshot --file build-14 <s11 prompt in scratchpad redo14.tsv>`, then rebuild + push. mp4 NOT yet rebuilt. |
+| 15 | The centurion | Matt 8 | ✅ | ✅ | ⬜ | ✅ | live |
+| 16 | Mary and Martha | Luke 10 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
+| 17 | Jesus wept (Lazarus) | John 11 | ✅ | ✅ | ⬜ | ✅ | live (beard fix shipped) |
+| 18 | The road to Emmaus | Luke 24 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
+| 19 | Breakfast on the shore | John 21 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
+| 20 | The Good Samaritan | Luke 10 | ✅ | ✅ | ⬜ | ⬜ | approved 07-12 — confirm posted |
+| 21 | The lost sheep | Luke 15 | ✅ | ✅ | ⬜ | ⬜ | approved 07-12 — confirm posted |
+| 22 | The unmerciful servant | Matt 18 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
+| 23 | Workers in the vineyard | Matt 20 | ✅ | ✅ | ⬜ | ⬜ | approved 07-12 — confirm posted |
+| 24 | The sower | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
+| 25 | Wheat and tares | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | approved 07-12 — confirm posted |
+| 26 | The mustard seed | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
+| 27 | The leaven | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
+| 28 | Hidden treasure | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
+| 29 | The pearl of great price | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo (s2 fix shipped) |
+| 30 | The net | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
+| 31 | The ten virgins | Matt 25 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
+| 32 | The talents | Matt 25 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
+| 33 | The sheep and the goats | Matt 25 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
+| 34 | The rich fool | Luke 12 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
+| 35 | The great banquet | Luke 14 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
+| 36 | The shrewd steward | Luke 16 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
+| 37 | The rich man and Lazarus | Luke 16 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
+| 38 | The persistent widow | Luke 18 | ✅ | ✅ | ⬜ | ⬜ | approved by Cameron 2026-07-13 |
+| 39 | The Pharisee and the publican | Luke 18 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
+| 40 | The friend at midnight | Luke 11 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
+| 41 | Counting the cost | Luke 14 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 (Flow prep, $0) — approval RESET 2026-07-15 — re-review after redo |
+| 42 | The barren fig tree spared | Luke 13 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 (Flow $0, CARE-J mercy) — approval RESET 2026-07-15 — re-review after redo |
+| 43 | The wedding garment | Matt 22 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 — approval RESET 2026-07-15 — re-review after redo |
+| 44 | The two debtors | Luke 7 | ✅ | ✅ | ⬜ | ⬜ | built Computer B 2026-07-14 (mp4 committed cb2ffd4) — approval RESET 2026-07-15 — re-review after redo |
+| 45 | The wicked tenants | Mark 12 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 (Flow $0, CARE R+J, violence off-screen) — approval RESET 2026-07-15 — re-review after redo |
 | 46 | The seed growing secretly | Mark 4 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-15 (Flow $0, GREEN restful) — awaiting your yes |
-| 47 | Houses on rock and sand | Matt 7 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 (Flow images, 0 API cost) — APPROVED 2026-07-15 (batch) |
-| 48 | New wine, old bottles | Mark 2 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 — APPROVED 2026-07-15 (batch); **v3 REDONE 2026-07-15** (Jesus s1/s10 now FACE-SHOWN, text-locked to master; face-never version replaced — re-review the face) |
+| 47 | Houses on rock and sand | Matt 7 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 (Flow images, 0 API cost) — approval RESET 2026-07-15 — re-review after redo |
+| 48 | New wine, old bottles | Mark 2 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 — approval RESET 2026-07-15 — re-review after redo; **v3 REDONE 2026-07-15** (Jesus s1/s10 now FACE-SHOWN, text-locked to master; face-never version replaced — re-review the face) |
 | 49 | Water to wine at Cana | John 2 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-15 under FACE LAW v3 (face shown, locked to JESUS-MASTER-REF; Jesus in s2/s4/s5/s8/s9/s12, face-consistent, only-Jesus-in-cream) — 12 Flow $0 stills (Nano Banana 2, 9:16), caption-v2, 2 sacred silences (jv7/jv8), 22.1MB/4.06min, no dead air. john-2_water-to-wine.mp4. Awaiting your yes. |
 | 50 | The nobleman's son | John 4 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-15 under FACE LAW v3 (Jesus in s1/s4/s5/s6/s7, face-consistent via LOCK v3 TEXT — attaching the master portrait made Nano Banana echo the bust, so Jesus shots are text-locked not ref-attached; see playbook). 11 Flow $0 stills, caption-v2, "liveth" spoken-override for the homograph, 2 sacred silences (jv48/jv50), 22.4MB/2:52, no dead air. john-4_noblemans-son.mp4. Awaiting your yes. |
 | 51 | The first catch of fish | Luke 5 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine B 2026-07-15 (Flow $0, 9 stills, face-law v3 locked to master ref, caption-v2, 22.1MB/2:45) — first FACE-SHOWN build shipped. awaiting your yes |
@@ -96,7 +103,7 @@ rows. Do not assume approval.
 | 69 | The baptism of Jesus | Matt 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 70 | The temptations | Matt 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 71 | Calling the fishermen | Matt 4 | ✅ | ✅ | ⬜ | ⬜ | v3 REDONE 2026-07-15 Machine B (face SHOWN, s3/s4/s8/s10 regenerated locked to master ref; caption-v2; 22.2MB/3:42) — awaiting your yes on the redo |
-| 72 | Calling Matthew | Matt 9 | ✅ | ✅ | ✅ | ⬜ | built Machine B 2026-07-15 (Flow prep, $0; folder build-72) — APPROVED 2026-07-15 (batch) [migrated from old row 85] |
+| 72 | Calling Matthew | Matt 9 | ✅ | ✅ | ⬜ | ⬜ | built Machine B 2026-07-15 (Flow prep, $0; folder build-72) — approval RESET 2026-07-15 — re-review after redo [migrated from old row 85] |
 | 73 | Nazareth synagogue: "this day fulfilled" | Luke 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 74 | The woman who washed his feet | Luke 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 75 | The woman taken in adultery | John 8 | ⬜ | ⬜ | ⬜ | ⬜ |  |
