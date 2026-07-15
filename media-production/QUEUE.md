@@ -136,7 +136,7 @@ rows. Do not assume approval.
 | 109 | Ask, seek, knock | Matt 7 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:35, 22.2MB; Jesus prompt-driven to master, no halo) |
 | 110 | The Lord's Prayer: "Our Father" | Matt 6 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:41, 21.6MB; Jesus prompt-driven to master, no halo) |
 | 111 | Lilies and sparrows | Matt 6 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:47, 22.0MB; Jesus prompt-driven to master, no halo. NOTE: s2 Jesus has a brown mantle over the cream robe vs pure cream elsewhere — minor look variance, reroll if you want it uniform) |
-| 112 | The Beatitudes | Matt 5 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine C 2026-07-15 (Jesus prompt-driven to master) |
+| 112 | The Beatitudes | Matt 5 | ⬜ | ⬜ | ⬜ | ⬜ | WIP Machine C 2026-07-15: 8/10 stills done (s8, s10 remain); prompts+narration+build.py ready | 112 | The Beatitudes | Matt 5 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine C 2026-07-15 (Jesus prompt-driven to master) | gate-PASS. BLOCKED: Google rate-limited the automated Flow session (google.com/sorry CAPTCHA) after ~120 gens this session. Finish s8+s10 when the limit clears / after a human clears the CAPTCHA, then build+publish. |
 | 113 | "Where art thou?" | Gen 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 114 | Abraham argues for Sodom | Gen 18 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 115 | The ram in the thicket | Gen 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |
