@@ -103,7 +103,7 @@ Appr and add it to this folder.
 | 69 | The baptism of Jesus | Matt 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 70 | The temptations | Matt 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 71 | Calling the fishermen | Matt 4 | ✅ | ✅ | ⬜ | ⬜ | v3 REDONE 2026-07-15 Machine B (face SHOWN, s3/s4/s8/s10 regenerated locked to master ref; caption-v2; 22.2MB/3:42) — awaiting your yes on the redo |
-| 72 | Calling Matthew | Matt 9 | ✅ | ✅ | ⬜ | ⬜ | built Machine B 2026-07-15 (Flow prep, $0; folder build-72) — approval RESET 2026-07-15 — re-review after redo [migrated from old row 85] |
+| 72 | Calling Matthew | Matt 9 | ✅ | ✅ | ⬜ | ⬜ | v3 REDONE 2026-07-15 Machine B (face SHOWN, s3/s4/s6/s9 regenerated locked to master ref; caption-v2; 22.8MB/4:09) — awaiting your yes on the redo [migrated from old row 85] |
 | 73 | Nazareth synagogue: "this day fulfilled" | Luke 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 74 | The woman who washed his feet | Luke 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 75 | The woman taken in adultery | John 8 | ⬜ | ⬜ | ⬜ | ⬜ |  |
