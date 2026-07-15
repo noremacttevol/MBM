@@ -179,7 +179,7 @@ rows. Do not assume approval.
 | 152 | "Surely the Lord GOD will do nothing, but he revealeth his secret unto his servants the prophets" | Amos 3:7 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, herdsman-prophet locked in dark earth tones, God shown only as light/no figure, distant symbolic lion s7, caption-v2, 2 sacred silences, 23.9MB/2:52; face-gate PASS) |
 | 153 | The times of restitution of all things | Acts 3:19–21 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, Peter locked in dark earth tones, heaven/renewal shown only as light/no figure, caption-v2, 2 sacred silences, 24.1MB/3:03; face-gate PASS) |
 | 154 | Another angel, the everlasting gospel | Rev 14:6 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, winged angel in gold/light—NOT cream, no halo/ring, God/Creator as light only, nations in earth tones, caption-v2, 2 sacred silences, 24.0MB/3:08; face-gate PASS) |
-| 155 | "A falling away first" | 2 Thes 2:1–3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 155 | "A falling away first" | 2 Thes 2:1–3 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine D 2026-07-15 |
 | 156 | A famine of hearing the words of the LORD | Amos 8:11–12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 157 | A marvellous work and a wonder; the sealed book | Isa 29:11–14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 158 | The stick of Judah and the stick of Joseph | Ezek 37:15–19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
