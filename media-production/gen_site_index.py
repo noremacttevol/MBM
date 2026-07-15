@@ -37,7 +37,7 @@ TITLES = {
     41: "Counting the Cost", 42: "The Barren Fig Tree Spared",
     45: "The Wicked Tenants",
     47: "Houses on Rock and Sand", 48: "New Wine, Old Bottles",
-    71: "Calling the Fishermen", 91: "Gethsemane",
+    71: "Calling the Fishermen", 72: "Calling Matthew", 91: "Gethsemane",
 }
 
 SMALL = {"of", "and", "the", "a", "an", "in", "on", "to", "his", "her"}
@@ -88,7 +88,7 @@ def main():
         mp4 = find_main_mp4(bd)
         if not mp4:
             continue
-        rel = os.path.relpath(mp4, REPO)
+        rel = os.path.relpath(mp4, REPO).replace(os.sep, "/")
         fname = os.path.basename(mp4)
         book_chap = fname.split("_", 1)[0]
         slug = fname.rsplit("_", 1)[1].rsplit(".", 1)[0]

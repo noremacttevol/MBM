@@ -86,7 +86,7 @@
 | 69 | The baptism of Jesus | Matt 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 70 | The temptations | Matt 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 71 | Calling the fishermen | Matt 4 | ✅ | ✅ | ⬜ | ⬜ | built Machine B 2026-07-14 (Flow prep, $0) — awaiting your yes [migrated from old row 84] |
-| 72 | Calling Matthew | Matt 9 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine B 2026-07-14 [migrated from old row 85] |
+| 72 | Calling Matthew | Matt 9 | ✅ | ✅ | ⬜ | ⬜ | built Machine B 2026-07-15 (Flow prep, $0; folder build-72) — awaiting your yes [migrated from old row 85] |
 | 73 | Nazareth synagogue: "this day fulfilled" | Luke 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 74 | The woman who washed his feet | Luke 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 75 | The woman taken in adultery | John 8 | ⬜ | ⬜ | ⬜ | ⬜ |  |
