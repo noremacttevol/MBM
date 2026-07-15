@@ -133,7 +133,7 @@ rows. Do not assume approval.
 | 106 | God spake by the prophets | Heb 1:1–3 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:28, 21.8MB; prophets montage → the Son prompt-driven to master, no halo) |
 | 107 | John the Baptist's doubt | Matt 11 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:58, 21.8MB; Jesus prompt-driven to master, no halo) |
 | 108 | "My sheep hear my voice" | John 10:27 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:41, 21.4MB; Good Shepherd, Jesus prompt-driven to master, no halo) |
-| 109 | Ask, seek, knock | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 109 | Ask, seek, knock | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine C 2026-07-15 (Jesus prompt-driven to master) |
 | 110 | The Lord's Prayer: "Our Father" | Matt 6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 111 | Lilies and sparrows | Matt 6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 112 | The Beatitudes | Matt 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
