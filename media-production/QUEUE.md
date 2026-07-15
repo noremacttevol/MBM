@@ -130,7 +130,7 @@ rows. Do not assume approval.
 | 103 | Peter's confession | Matt 16 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 9 stills 9:16, 2:35, 22.3MB; Jesus face-shown prompt-driven to master, s2 rerolled for cream law) |
 | 104 | The boy Samuel | 1 Sam 3 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:38, 21.7MB; God as light, no figure; border-crop applied) |
 | 105 | Face to face, as a friend | Ex 33:11 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:49, 21.9MB; God as pillar/glory-light, no figure) |
-| 106 | God spake by the prophets | Heb 1:1–3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 106 | God spake by the prophets | Heb 1:1–3 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine C 2026-07-15 (prophets montage; Son shown prompt-driven to master) |
 | 107 | John the Baptist's doubt | Matt 11 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 108 | "My sheep hear my voice" | John 10:27 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 109 | Ask, seek, knock | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
