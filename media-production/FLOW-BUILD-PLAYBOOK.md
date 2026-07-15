@@ -520,3 +520,30 @@ repo) and generate from there (MBM_PROMPTS env on genstills.py); commit your del
 FAST; verify committed==disk (sha) before trusting; expect a `site/review.html` /
 `QUEUE.md` conflict on push and resolve the generated index by RE-RUNNING gen_site_index,
 not hand-merging. QUEUE.md auto-merges fine (row-level).
+
+## Machine D, 2026-07-15 (later) — 4 MEMBER verse-videos 164-167, foreground-only
+- **Run gen_stills_flow.py and build.py in the FOREGROUND** (Cameron: no background tasks).
+  A full 8-still Flow batch runs ~7 min — fits the 10-min Bash cap. build.py's slow final
+  mux for a ~2.5-min verse-video also fits. Only reach for the manual segs/ mux if it ever
+  times out.
+- **Fast QC = one montage, not 8 reads.** `ffmpeg xstack=inputs=8:layout=...` the 8 assets
+  into a 4x2 contact sheet, scale to ~1500px, and Read that single image. Catches
+  triptychs/borders/cream-figures at a glance; only Read a full still when the montage is
+  ambiguous. Much cheaper than 8 separate image reads.
+- **The "ordinary village life" establishing shot reliably TRIPTYCHS.** Describing several
+  people each doing a different task ("one mends a net, one carries water, one at a bench")
+  makes Nano Banana split it into stacked panels — even with the anti-panel clause. Fix:
+  ONE dominant foreground subject (e.g. "a single fisherman mending his net in his doorway,
+  large and close, others small and out of focus behind"). Single-subject = no panels.
+- **The painted torn-paper BORDER/vignette** recurs on ~1 in 8 stills. Kill it per-still with
+  a prepended clause: "artwork fills the ENTIRE frame and bleeds to all four edges — NO
+  border, NO frame, NO torn-paper edge, NO vignette, NO cream/white margin." (Cheaper than
+  the build-104 uniform crop, which would crop the clean stills too.)
+- **Unity/crowd "coming together" shots** put a bearded long-haired figure in a pale robe
+  front-and-center (reads as Jesus). Reroll with "everyone in DISTINCTLY DARK saturated earth
+  tones, NO pale/cream robe on anyone, no bearded long-haired figure in a pale robe, an even
+  crowd with no single leader out front."
+- **git: every push rebases onto another machine and conflicts ONLY on site/review.html.**
+  Resolve by re-running `gen_site_index.py` (union of all disk mp4s + merged TITLES/QUEUE),
+  `git add site/review.html`, `GIT_EDITOR=true git rebase --continue`, push. gen_site_index.py
+  TITLES and QUEUE.md auto-merge (row-level). Don't hand-merge the generated HTML.
