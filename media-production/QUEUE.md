@@ -42,7 +42,7 @@ Appr and add it to this folder.
 | 8 | The lost coin | Luke 15 | ✅ | ✅ | ⬜ | ✅ | live |
 | 9 | The rich young ruler | Mark 10 | ✅ | ✅ | ⬜ | ✅ | live |
 | 10 | The woman at the well | John 4 | ✅ | ✅ | ⬜ | ✅ | live |
-| 11 | Calming the storm | Mark 4 | ✅ | ✅ | ⬜ | ⬜ | **CONTINUITY REDO 2026-07-15 (Machine A)** — Cameron's reject was the boat's size/shape and the NUMBER of men in it changing shot to shot. Fixed with a byte-identical BOAT LOCK (one same large single-mast Galilean boat every shot) + CREW LOCK (Jesus + the twelve = 13 aboard, same full crowd every shot); ALL 9 stills regenerated & QC'd for continuity, Jesus face-shown & locked to master; 18.7MB/4:27. Awaiting your yes. |
+| 11 | Calming the storm | Mark 4 | ✅ | ✅ | ⬜ | ⬜ | **ARTIFACT-SCRUB REDO 2026-07-15 (Machine A)** — fixed the glitches Cameron caught: bailing now with solid wooden buckets (no baskets/bare-hand water), floating lamps removed, every face/hand zoom-QC'd clean, Jesus given one clear planted pose per beat; same big boat + 13 men every shot; 18.5MB. Awaiting your yes. |
 | 12 | Blind Bartimaeus | Mark 10 | ✅ | ✅ | ⬜ | ✅ | live; **v3 REDONE 2026-07-15** (Jesus s6/s9/s11 now FACE-SHOWN, text-locked to master; build.py made cross-platform; kept detailed non-Jesus stills — re-review) |
 | 13 | Through the roof | Mark 2 | ✅ | ✅ | ⬜ | ✅ | live |
 | 14 | The ten lepers | Luke 17 | ✅ | ✅ | ⬜ | ✅ | live; **v3 REDO WIP Machine A 2026-07-15** — s1/s4/s10 regenerated FACE-SHOWN & good, build.py made cross-platform; s11 STILL PENDING (Flow logged out mid-run). TO FINISH: log into Flow, `MBM_NOREF=1 genshot --file build-14 <s11 prompt in scratchpad redo14.tsv>`, then rebuild + push. mp4 NOT yet rebuilt. |
