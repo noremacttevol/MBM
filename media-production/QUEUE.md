@@ -1,72 +1,20 @@
-# MBM VIDEO QUEUE — the one board every computer reads
+# MBM VIDEO QUEUE — the one board every computer reads (THE-200 v2, LIVE 2026-07-15)
 
-> **This file replaces the old per-machine lists.** Any computer, any fresh chat,
-> reads THIS file, grabs the next unclaimed story, builds it, ticks the boxes,
-> pushes. That's the whole system. No re-explaining, no assigning by hand.
+> Three shelves: rows 1–100 EVERYONE · 101–150 BRIDGE · 151–200 MEMBER.
+> Full rules + machine assignments live in FACTORY-ORDERS.md — read that first.
+> Next job = lowest row IN YOUR MACHINE'S RANGE where Built is ⬜ and Claim is empty.
 
-**Next job = the lowest-numbered row where `Built` is ⬜ and `Claim` is empty.**
-Because build folders match the catalog exactly, that is simply the next number
-down `THE-200.md`. Right now: **#39, The Pharisee and the Publican.**
-
----
-
-## ▶ HOW A FRESH CHAT STARTS (paste this, or just run `next-job.sh`)
-
-```
-You are on MBM video production. Do this before anything else:
-1. cd to the MBM repo, `git pull --rebase origin main`.
-2. Open media-production/QUEUE.md. Find the NEXT JOB (lowest row where Built is ⬜
-   and Claim is empty). If I named a number, use that instead.
-3. CLAIM it: make the build-NN folder, put your machine+date in that row's Claim
-   column, commit and push BEFORE generating anything. If push rejects, pull and
-   re-pick — someone beat you to it.
-4. Read PRODUCTION-BIBLE.md + CREW-GUIDE.md. Every law binds you.
-5. Build it end to end: prompt sheet → pass jesus_face_gate.py → (Flow picture
-   burst, ask me first — one chat drives Chrome at a time) → narration → assemble
-   → full Self-Revision QC. Tick Prep/Built as you go, push each change.
-6. Tell me it's built and waiting. I watch it once and say yes. Then tick Appr.
-```
-
-That's it. You never write prompts, never fix bugs, never assign work. The chat
-finds its own job.
-
----
-
-## 🟡 WAITING ON YOUR YES — 17 videos built and ready to review
-
-These are done and just need you to watch and approve (then the chat ticks `Appr`
-and posts them). Knock these out anytime:
-
-**#16 Mary & Martha · #18 Emmaus · #19 Shore · #22 Unmerciful Servant · #24 Sower ·
-#26 Mustard Seed · #27 Leaven · #28 Hidden Treasure · #29 Pearl · #30 Net ·
-#31 Ten Virgins · #32 Talents · #33 Sheep & Goats · #34 Rich Fool ·
-#35 Great Banquet · #36 Shrewd Steward · #37 Rich Man & Lazarus · #38 Persistent Widow ·
-#39 The Pharisee & the Publican · **#40 The Friend at Midnight**
-
-Watch links are in [`STATUS.md`](../STATUS.md).
-
----
-
-## 🔧 FIX QUEUE — videos that need a redo
-
-When you reject a video, its chat moves the row here with a one-line reason and
-un-ticks `Appr`:
+## Fix queue (rejected builds — fix before taking new work in that range)
 
 | # | Story | What's wrong | Claimed by |
-|---|-------|--------------|-----------|
-| 31 | The ten virgins | Still messed up (rejected 2026-07-15) — needs a redo | — |
-| 124 | Gethsemane | Hair gets long out of nowhere in one scene (rejected 2026-07-15) | — |
+|---|---|---|---|
+| 91 | Gethsemane | Hair gets long out of nowhere in one scene (rejected 2026-07-15; was old row 124) | — |
+| 31 | The ten virgins | Rejected 2026-07-15 (see row note) | — |
 
----
-
-## THE QUEUE (1–200)
-
-Legend: ⬜ not done · ✅ done · 🔨 being worked. Columns: **Prep** (pack + prompt
-sheet ready) · **Built** (final mp4 exists) · **Appr** (Cameron approved) ·
-**Post** (live on milk-b4-meat.web.app / in the app).
+## The 200
 
 | # | Story | Ref | Prep | Built | Appr | Post | Claim / notes |
-|---|-------|-----|------|-------|------|------|----------------|
+|---|---|---|---|---|---|---|---|
 | 1 | Woman who touched his cloak | Mark 5 | ✅ | ✅ | ✅ | ✅ | live |
 | 2 | The Prodigal Son | Luke 15 | ✅ | ✅ | ✅ | ✅ | live |
 | 3 | Zacchaeus | Luke 19 | ✅ | ✅ | ✅ | ✅ | live |
@@ -115,174 +63,155 @@ sheet ready) · **Built** (final mp4 exists) · **Appr** (Cameron approved) ·
 | 46 | The seed growing secretly | Mark 4 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine A 2026-07-14 |
 | 47 | Houses on rock and sand | Matt 7 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 (Flow images, 0 API cost) — awaiting your yes |
 | 48 | New wine, old bottles | Mark 2 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 — awaiting your yes |
-| 49 | The lamp on a stand | Mark 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 50 | The watching servants | Mark 13 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 51 | Unprofitable servants | Luke 17 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 52 | The children in the marketplace | Luke 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 53 | The tower builder and the king | Luke 14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 54 | Water to wine at Cana | John 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 55 | The nobleman's son | John 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 56 | The first catch of fish | Luke 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 57 | The demoniac in the synagogue | Mark 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 58 | Peter's mother-in-law | Mark 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 59 | The leper: I will, be clean | Mark 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 60 | The withered hand | Mark 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 61 | The widow of Nain's son | Luke 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 62 | Jairus's daughter | Mark 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 63 | Feeding the five thousand | John 6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 64 | Feeding the four thousand | Mark 8 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 65 | The Gerasene demoniac | Mark 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 66 | The Syrophoenician woman | Mark 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 67 | Ephphatha: the deaf man | Mark 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 68 | The blind man at Bethsaida | Mark 8 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 69 | The man born blind | John 9 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 70 | The pool of Bethesda | John 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 71 | Help thou mine unbelief | Mark 9 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 72 | The coin in the fish's mouth | Matt 17 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 73 | The man with dropsy | Luke 14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 74 | Two blind men in the house | Matt 9 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 75 | The mute demoniac speaks | Matt 9 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 76 | The withered fig tree | Mark 11 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 77 | Malchus's ear | Luke 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 78 | The Transfiguration | Mark 9 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 79 | Evening at the door | Mark 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 80 | Multitudes on the mountain | Matt 15 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 81 | Nazareth: only a few | Mark 6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 82 | The baptism of Jesus | Matt 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 83 | The temptations | Matt 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 84 | Calling the fishermen | Matt 4 | ✅ | ✅ | ⬜ | ⬜ | built Machine B 2026-07-14 (Flow prep, $0) — awaiting your yes |
-| 85 | Calling Matthew | Matt 9 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine B 2026-07-14 |
-| 86 | Nazareth synagogue: this day fulfilled | Luke 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 87 | The woman who washed his feet | Luke 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 88 | The woman taken in adultery | John 8 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 89 | Suffer the little children | Mark 10 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 90 | The widow's mite | Mark 12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 91 | Peter's confession | Matt 16 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 92 | Who is my mother? | Mark 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 93 | The seventy sent | Luke 10 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 94 | Come unto me, all ye that labour | Matt 11 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 95 | The Samaritan village refused | Luke 9 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 96 | The request of James and John | Mark 10 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 97 | Render unto Caesar | Mark 12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 98 | The scribe near the kingdom | Mark 12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 99 | The anointing at Bethany | Mark 14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 100 | Weeping over Jerusalem | Luke 19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 101 | Cleansing the temple | John 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 102 | The Greeks seek Jesus; the Father answers | John 12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 103 | Mary Magdalene freed | Luke 8 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 104 | John the Baptist's doubt | Matt 11 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 105 | The cliff at Nazareth | Luke 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 106 | Martha's confession | John 11 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 107 | Forbid him not | Mark 9 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 108 | A child in the midst | Mark 9 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 109 | Lord, teach us to pray | Luke 11 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 110 | Get thee behind me | Matt 16 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 111 | With desire I have desired | Luke 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 112 | The annunciation | Luke 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 113 | Joseph's dream | Matt 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 114 | No room: the manger | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 115 | Shepherds and angels | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 116 | Simeon and Anna | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 117 | The wise men | Matt 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 118 | Flight to Egypt | Matt 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 119 | The boy in the temple | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 120 | The triumphal entry | Luke 19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 121 | The last supper | Luke 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 122 | Washing the disciples' feet | John 13 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 123 | The intercessory prayer | John 17 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 124 | Gethsemane | Luke 22 | ✅ | ⬜ | ⬜ | ⬜ | REJECTED 2026-07-15 — hair gets long out of nowhere in one scene, needs fix |
-| 125 | The betrayal kiss | Matt 26 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine C 2026-07-15 |
-| 126 | Peter's denial and the look | Luke 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 127 | Silent before accusers | Mark 14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 128 | Pilate: What is truth? | John 18 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 129 | Barabbas goes free | Mark 15 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 130 | Simon of Cyrene | Mark 15 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 131 | Father, forgive them | Luke 23 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 132 | The thief on the cross | Luke 23 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 133 | Behold thy mother | John 19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 134 | My God, why hast thou forsaken me? | Mark 15 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 135 | It is finished; the veil torn | John 19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 136 | The centurion at the cross | Mark 15 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 137 | Buried by secret disciples | John 19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 138 | The empty tomb | Luke 24 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 139 | Mary at the tomb: her name | John 20 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 140 | Flesh and bone; Thomas's hands | Luke 24 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 141 | The ascension | Acts 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 142 | The Beatitudes | Matt 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 143 | Salt and light | Matt 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 144 | Lilies and sparrows | Matt 6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 145 | Ask, seek, knock | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 146 | The Lord's Prayer: Our Father | Matt 6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 147 | The mote and the beam | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 148 | The golden rule | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 149 | Love your enemies | Matt 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 150 | Treasures in heaven | Matt 6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 151 | The strait gate | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 152 | By their fruits | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 153 | I am the bread of life | John 6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 154 | I am the light of the world | John 8 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 155 | I am the door | John 10 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 156 | Other sheep I have | John 10 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 157 | I am the resurrection and the life | John 11 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 158 | I am the way, the truth, and the life | John 14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 159 | The vine and the branches | John 15 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 160 | In my Father's house are many mansions | John 14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 161 | My sheep hear my voice | John 10 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 162 | Where art thou? | Gen 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 163 | Enoch walked with God | Gen 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 164 | The rainbow covenant | Gen 9 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine D 2026-07-14 |
-| 165 | Abraham argues for Sodom | Gen 18 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 166 | The ram in the thicket | Gen 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 167 | Jacob's ladder | Gen 28 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 168 | Joseph forgives his brothers | Gen 45 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 169 | The burning bush | Ex 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 170 | The brazen serpent | Num 21 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 171 | Ruth and the redeemer | Ruth | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 172 | Hannah is heard | 1 Sam 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 173 | The Shepherd Psalm | Ps 23 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 174 | The still small voice | 1 Kgs 19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 175 | Naaman's seven dips | 2 Kgs 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 176 | Jonah and the God who relents | Jonah | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 177 | Hosea buys her back | Hosea 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 178 | Graven on his palms | Isa 49 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 179 | The fourth man in the fire | Dan 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 180 | Job answered from the whirlwind | Job 38 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 181 | Night without darkness | 3 Ne 1 | ⬜ | ⬜ | ⬜ | ⬜ | §IX post-signal |
-| 182 | The voice in the darkness | 3 Ne 9 | ⬜ | ⬜ | ⬜ | ⬜ | §IX post-signal |
-| 183 | Behold my Beloved Son | 3 Ne 11 | ⬜ | ⬜ | ⬜ | ⬜ | §IX post-signal |
-| 184 | One by one | 3 Ne 11 | ⬜ | ⬜ | ⬜ | ⬜ | §IX post-signal |
-| 185 | Have ye any that are sick? | 3 Ne 17 | ⬜ | ⬜ | ⬜ | ⬜ | §IX post-signal |
-| 186 | He blessed the children one by one | 3 Ne 17 | ⬜ | ⬜ | ⬜ | ⬜ | §IX post-signal |
-| 187 | And behold, my joy is full | 3 Ne 17 | ⬜ | ⬜ | ⬜ | ⬜ | §IX post-signal |
-| 188 | The sacrament at Bountiful | 3 Ne 18 | ⬜ | ⬜ | ⬜ | ⬜ | §IX post-signal |
-| 189 | The prayer that could not be written | 3 Ne 19 | ⬜ | ⬜ | ⬜ | ⬜ | §IX post-signal |
-| 190 | Ye are they of whom I said: other sheep | 3 Ne 15 | ⬜ | ⬜ | ⬜ | ⬜ | §IX post-signal |
-| 191 | The brother of Jared sees his finger | Ether 3 | ⬜ | ⬜ | ⬜ | ⬜ | §IX post-signal |
-| 192 | Alma the Younger | Mosiah 27 | ⬜ | ⬜ | ⬜ | ⬜ | §IX post-signal |
-| 193 | Enos's wrestle | Enos 1 | ⬜ | ⬜ | ⬜ | ⬜ | §IX post-signal |
-| 194 | King Lamoni and Abish | Alma 19 | ⬜ | ⬜ | ⬜ | ⬜ | §IX post-signal |
-| 195 | They buried their weapons | Alma 24 | ⬜ | ⬜ | ⬜ | ⬜ | §IX post-signal |
-| 196 | Abinadi's fire | Mosiah 13 | ⬜ | ⬜ | ⬜ | ⬜ | §IX post-signal |
-| 197 | Enoch sees God weep | Moses 7 | ⬜ | ⬜ | ⬜ | ⬜ | §IX post-signal |
-| 198 | This is my work and my glory | Moses 1 | ⬜ | ⬜ | ⬜ | ⬜ | §IX post-signal |
-| 199 | Liberty Jail | D&C 121 | ⬜ | ⬜ | ⬜ | ⬜ | §IX post-signal |
-| 200 | The First Vision | JS–H 1 | ⬜ | ⬜ | ⬜ | ⬜ | §IX post-signal |
-
----
-
-## Claim protocol (the only rule that keeps 4 computers from colliding)
-
-1. **Pull first:** `git pull --rebase origin main`.
-2. **Claim before generating:** create `build-NN-<slug>/`, write your machine +
-   date into that row's `Claim` column, `git commit`, `git push`. If the push is
-   rejected, someone claimed it while you were reading — pull and take the next
-   open row.
-3. **One machine, one video at a time.** Finish or release before claiming another.
-4. **Tick boxes in the same commit as the work**, and push right away, so every
-   other computer sees the truth.
-5. **Chrome/Flow: one chat drives it at a time.** Ask Cameron before any browser
-   step. Everything else (script, narration, QC, assembly of banked art) is safe
-   to do while another chat has the browser.
-
-Deep mechanics and the full law set live in `PRODUCTION-BIBLE.md`. The old
-`VIDEO-ASSIGNMENTS.md` per-machine lists are retired — this file is the board now.
+| 49 | Water to wine at Cana | John 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 50 | The nobleman's son | John 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 51 | The first catch of fish | Luke 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 52 | The demoniac in the synagogue | Mark 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 53 | Peter's mother-in-law | Mark 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 54 | The leper: "I will; be thou clean" | Mark 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 55 | The withered hand | Mark 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 56 | The widow of Nain's son | Luke 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 57 | Jairus's daughter | Mark 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 58 | Feeding the five thousand | John 6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 59 | Feeding the four thousand | Mark 8 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 60 | The Gerasene demoniac | Mark 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 61 | The Syrophoenician woman | Mark 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 62 | Ephphatha: the deaf man | Mark 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 63 | The man born blind | John 9 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 64 | The pool of Bethesda | John 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 65 | "Help thou mine unbelief" | Mark 9 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 66 | Malchus's ear | Luke 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 67 | The Transfiguration | Mark 9 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 68 | Multitudes on the mountain | Matt 15 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 69 | The baptism of Jesus | Matt 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 70 | The temptations | Matt 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 71 | Calling the fishermen | Matt 4 | ✅ | ✅ | ⬜ | ⬜ | built Machine B 2026-07-14 (Flow prep, $0) — awaiting your yes [migrated from old row 84] |
+| 72 | Calling Matthew | Matt 9 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine B 2026-07-14 [migrated from old row 85] |
+| 73 | Nazareth synagogue: "this day fulfilled" | Luke 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 74 | The woman who washed his feet | Luke 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 75 | The woman taken in adultery | John 8 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 76 | "Suffer the little children" | Mark 10 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 77 | The widow's mite | Mark 12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 78 | "Who is my mother?" | Mark 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 79 | The seventy sent | Luke 10 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 80 | "Come unto me, all ye that labour" | Matt 11 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 81 | Render unto Caesar | Mark 12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 82 | The anointing at Bethany | Mark 14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 83 | Weeping over Jerusalem | Luke 19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 84 | No room: the manger | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 85 | Shepherds and angels | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 86 | The wise men | Matt 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 87 | The boy in the temple | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 88 | The triumphal entry | Luke 19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 89 | The last supper | Luke 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 90 | Washing the disciples' feet | John 13 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 91 | Gethsemane | Luke 22 | ✅ | ⬜ | ⬜ | ⬜ | REJECTED 2026-07-15 — hair gets long out of nowhere in one scene, needs fix [migrated from old row 124] |
+| 92 | Peter's denial and the look | Luke 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 93 | Barabbas goes free | Mark 15 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 94 | "Father, forgive them" | Luke 23 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 95 | The thief on the cross | Luke 23 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 96 | "It is finished"; the veil torn | John 19 / Matt 27 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 97 | The empty tomb | Luke 24 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 98 | Mary at the tomb: her name | John 20 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 99 | Flesh and bone; Thomas's hands | Luke 24 / John 20 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 100 | The ascension | Acts 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 101 | The still small voice | 1 Kgs 19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 102 | Jacob's ladder | Gen 28 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 103 | Peter's confession | Matt 16 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 104 | The boy Samuel | 1 Sam 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 105 | Face to face, as a friend | Ex 33:11 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 106 | God spake by the prophets | Heb 1:1–3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 107 | John the Baptist's doubt | Matt 11 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 108 | "My sheep hear my voice" | John 10:27 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 109 | Ask, seek, knock | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 110 | The Lord's Prayer: "Our Father" | Matt 6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 111 | Lilies and sparrows | Matt 6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 112 | The Beatitudes | Matt 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 113 | "Where art thou?" | Gen 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 114 | Abraham argues for Sodom | Gen 18 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 115 | The ram in the thicket | Gen 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 116 | Graven on his palms | Isa 49 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 117 | Hosea buys her back | Hosea 1–3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 118 | Jonah and the God who relents | Jonah | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 119 | The fourth man in the fire | Dan 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 120 | Job answered from the whirlwind | Job 38–42 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 121 | Salt and light | Matt 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 122 | The mote and the beam | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 123 | The golden rule | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 124 | Love your enemies | Matt 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 125 | "I never knew you" | Matt 7:21–23 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 126 | By their fruits | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 127 | The strait gate | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 128 | The famine of hearing | Amos 8:11–12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 129 | Nazareth: only a few | Mark 6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 130 | "Ye know not what manner of spirit ye are of" | Luke 9 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 131 | The scribe near the kingdom | Mark 12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 132 | Forbid him not | Mark 9:38 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 133 | "In my Father's house are many mansions" | John 14:2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 134 | "Other sheep I have" | John 10:16 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 135 | The rainbow covenant | Gen 9 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine D 2026-07-14 [migrated from old row 164] |
+| 136 | Healed in two touches | Mark 8 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 137 | Stephen sees him standing | Acts 7:55–56 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 138 | "We are also his offspring" | Acts 17 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 139 | The lamp on a stand | Mark 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 140 | The road to the far country runs both ways | Luke 15 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 141 | "I am the bread of life" | John 6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 142 | "I am the light of the world" | John 8 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 143 | "I am the door" | John 10 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 144 | "I am the resurrection and the life" | John 11 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 145 | "I am the way, the truth, and the life" | John 14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 146 | The vine and the branches | John 15 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 147 | Joseph forgives his brothers | Gen 45–50 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 148 | Ruth and the redeemer | Ruth | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 149 | Hannah is heard | 1 Sam 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 150 | The Shepherd Psalm | Ps 23 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 151 | "If any of you lack wisdom, let him ask of God" | James 1:5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 152 | "Surely the Lord GOD will do nothing, but he revealeth his secret unto his servants the prophets" | Amos 3:7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 153 | The times of restitution of all things | Acts 3:19–21 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 154 | Another angel, the everlasting gospel | Rev 14:6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 155 | "A falling away first" | 2 Thes 2:1–3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 156 | A famine of hearing the words of the LORD | Amos 8:11–12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 157 | A marvellous work and a wonder; the sealed book | Isa 29:11–14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 158 | The stick of Judah and the stick of Joseph | Ezek 37:15–19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 159 | "Other sheep I have" | John 10:16 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 160 | The stone cut without hands | Dan 2:44 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 161 | "No man taketh this honour... as was Aaron" | Heb 5:4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 162 | The keys of the kingdom | Matt 16:18–19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 163 | Built on apostles and prophets | Eph 2:19–20 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 164 | "Till we all come in the unity of the faith" | Eph 4:11–14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 165 | Laying on of hands for the Holy Ghost | Acts 8:14–17 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 166 | Baptized again, properly | Acts 19:1–6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 167 | "I have chosen you, and ordained you" | John 15:16 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 168 | Born of water and of the Spirit | John 3:5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 169 | "To fulfil all righteousness" | Matt 3:13–17 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 170 | The sacrament, worthily | 1 Cor 11:23–29 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 171 | "Else what shall they do which are baptized for the dead?" | 1 Cor 15:29 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 172 | The gospel preached to the dead | 1 Pet 3:18–20 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 173 | "The dead shall hear the voice of the Son of God" | John 5:25 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 174 | Elijah, and the hearts of the fathers | Mal 4:5–6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 175 | The mountain of the LORD's house | Isa 2:2–3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 176 | "Who shall ascend into the hill of the LORD?" | Ps 24:3–4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 177 | "Make me a sanctuary; that I may dwell among them" | Ex 25:8 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 178 | "Let us make man in our image, after our likeness" | Gen 1:26–27 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 179 | Stephen's witness | Acts 7:55–56 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 180 | "Before I formed thee in the belly I knew thee" | Jer 1:5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 181 | "When the morning stars sang together" | Job 38:4–7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 182 | The spirit returns to God | Eccl 12:7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 183 | Sun, moon, and stars | 1 Cor 15:40–42 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 184 | Caught up to the third heaven | 2 Cor 12:2–4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 185 | "In my Father's house are many mansions" | John 14:2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 186 | Heirs of God, joint-heirs with Christ | Rom 8:16–17 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 187 | "Ye are gods; children of the most High" | Ps 82:6 / John 10:34 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 188 | "Be ye therefore perfect" | Matt 5:48 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 189 | "To him that overcometh will I grant to sit with me in my throne" | Rev 3:21 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 190 | Faith without works is dead | James 2:17–26 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 191 | The windows of heaven | Mal 3:8–10 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 192 | The fast God has chosen | Isa 58:6–11 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 193 | "The Comforter... shall teach you all things" | John 14:26 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 194 | The fruit of the Spirit | Gal 5:22–23 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 195 | "Prove all things; hold fast that which is good" | 1 Thes 5:21 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 196 | "Would God that all the LORD's people were prophets" | Num 11:29 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 197 | "Your sons and your daughters shall prophesy" | Joel 2:28–29 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 198 | An ensign for the nations; the second time | Isa 11:11–12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 199 | Fishers and hunters | Jer 16:14–16 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 200 | "This gospel of the kingdom shall be preached in all the world" | Matt 24:14 | ⬜ | ⬜ | ⬜ | ⬜ |  |

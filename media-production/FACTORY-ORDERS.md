@@ -19,28 +19,31 @@ money Cameron did not authorize. (The local/free tools are fine and required:
 
 ---
 
-## 🛑 BUILD LINE (updated 2026-07-15): FINISH IN-FLIGHT CLAIMS, THEN HOLD ALL NEW CLAIMS.
+## ✅ THE-200 v2 IS LIVE (approved by Cameron 2026-07-15). ALL MACHINES GO.
 
-The catalog is being restructured TODAY into three shelves (1–100 everyone /
-101–150 bridge / 151–200 member). Finish any row you have already CLAIMED, push it,
-then STOP claiming new rows until this file announces "THE-200 v2 IS LIVE." Built
-videos all keep their place — nothing already made is wasted.
+The catalog is now three shelves: rows 1–100 EVERYONE · 101–150 BRIDGE · 151–200
+MEMBER (see THE-200.md). QUEUE.md is regenerated to match. All holds are lifted.
 
-The catalog's back half is being reworked to a 100 wonderer / 50 bridge / 50 member
-structure (member tier = Bible-verses-that-carry-restoration-theology). Rows 101–200
-will be REPLACED. Do NOT claim or build any row above 100 until this file says the
-new list is locked. Already-built rows are unaffected.
+**Migration notes (one-time):**
+- Old row 84 (Calling the Fishermen, built) is now row 71 — folder renamed.
+- Old row 85 (Calling Matthew) is now row 72 — Machine B: finish your in-flight
+  build and tick ROW 72; name the folder build-72-calling-matthew.
+- Old row 124 (Gethsemane, REJECTED — hair changes length in one scene) is now
+  row 91 — folder renamed build-91-gethsemane. Fix the one scene, rebuild, tick 91.
+- Old row 164 (Rainbow covenant) is now row 135 — Machine D: finish your in-flight
+  build and tick ROW 135; name the folder build-135-rainbow-covenant.
+- MEMBER rows (151–200) are verse-videos: same style block, same laws, same feed
+  card; the closing card also carries a one-line pointer to the matching Gospel
+  Library topic named in THE-200.md. No church logos, footage, or manual text ever.
 
-## MACHINE ASSIGNMENTS
-
-Change nothing but your machine letter in your kickoff. Your rows are fixed:
+## MACHINE ASSIGNMENTS (v2)
 
 | Machine | Rows (in QUEUE.md) |
 |---|---|
-| **A** | 41, 42, 44, 45, 46, 49–83 |
-| **B** | 84–100 (rows 101–123 ON HOLD) |
-| **C** | ON HOLD until the reworked list is locked — check this file each session |
-| **D** | ON HOLD until the reworked list is locked — check this file each session |
+| **A** | 45–83 |
+| **B** | 84–120 (plus finishing 72; plus the row-91 Gethsemane fix) |
+| **C** | 121–160 (skip 135 while Machine D's claim is on it) |
+| **D** | 161–200 (plus finishing 135) |
 
 Your NEXT job = the lowest-numbered row **in your range** where `Built` is ⬜ and
 `Claim` is empty. Never touch a row outside your range or one another machine claimed.

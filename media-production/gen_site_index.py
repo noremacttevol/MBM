@@ -37,7 +37,7 @@ TITLES = {
     41: "Counting the Cost", 42: "The Barren Fig Tree Spared",
     45: "The Wicked Tenants",
     47: "Houses on Rock and Sand", 48: "New Wine, Old Bottles",
-    84: "Calling the Fishermen", 124: "Gethsemane",
+    71: "Calling the Fishermen", 91: "Gethsemane",
 }
 
 SMALL = {"of", "and", "the", "a", "an", "in", "on", "to", "his", "her"}
