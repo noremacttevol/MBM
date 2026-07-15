@@ -42,8 +42,11 @@
 - One project, reused across the whole video (and even across videos — the download
   logic below always grabs the newest, so a mixed gallery is fine).
 - Bottom prompt bar → set once: **Image · 9:16 · 1x · Nano Banana 2** → the chip must read
-  "🍌 Nano Banana 2 · 1x" and the panel says **"Generating will use 0 credits."** Never
-  "Nano Banana Pro" (x2 by default) and never the paid API.
+  "🍌 Nano Banana 2 · 1x" (0 credits — the default for ordinary stills). CORRECTED
+  2026-07-15: Nano Banana **Pro and credit-costing models are ALLOWED and encouraged**
+  where they buy quality or fewer rerolls (master face, Jesus close-ups, crowds) —
+  Cameron's Flow credits are prepaid and expire monthly. Only the paid Gemini API
+  stays banned. Keep a video roughly under 150 credits; note spend in the queue row.
 - Per still: click the prompt box, `type` the FULL prompt on ONE line (no embedded
   newlines — Enter submits), click the submit arrow, `wait 10s`.
 

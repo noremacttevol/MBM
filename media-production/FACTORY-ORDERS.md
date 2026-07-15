@@ -86,7 +86,8 @@ PREFLIGHT, in order:
 2. If check fails: `pip install playwright` if missing, then
    `python3 media-production/flow_driver.py open` and tell Cameron in ONE line:
    "A Chrome window opened — log into your Google account in it once." Wait, re-check.
-3. `gen` REFUSES to run unless the panel shows "0 credits" (money law enforced in code).
+3. `gen` prints the credit cost of each generation. Spending Flow credits is FINE
+   (they're prepaid and expire — see MONEY RULE #1). Only the paid API is banned.
 4. The extension/browser-tool path is FALLBACK only — never the default, never more
    than two attempts before reporting the one-line blocker.
 
