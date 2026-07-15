@@ -87,7 +87,7 @@ Appr and add it to this folder.
 | 53 | Peter's mother-in-law | Mark 1 | ✅ | ✅ | ⬜ | ⬜ | **BUILT Machine B 2026-07-15** — new face-shown build (Flow $0, Nano Banana 2). 8 stills, Jesus face-shown & locked to master (s1/s2/s4–s8), s3 sickbed no-figure; GREEN care (gentle healing, no gore); caption-v2; sacred silence on the healing touch (no red-letter in Mark here); 22.2MB/2:05, no dead air. mark-1_peters-mother-in-law.mp4. Awaiting your yes. |
 | 54 | The leper: "I will; be thou clean" | Mark 1 | ✅ | ✅ | ⬜ | ⬜ | **BUILT Machine B 2026-07-15** — new face-shown build (Flow $0, Nano Banana 2). 9 stills, Jesus face-shown & locked to master (s2–s7/s9), s1 outcast + s8 news-spreading no-figure; CARE-R restraint (leprosy shown gently — pale skin/wrapped hands, no gore); caption-v2; sacred silence on the touch (jv41 "I will; be thou clean"); 21.6MB/2:28, no dead air. mark-1_the-leper.mp4. Awaiting your yes. |
 | 55 | The withered hand | Mark 3 | ✅ | ✅ | ⬜ | ⬜ | **BUILT Machine B 2026-07-15** — new face-shown build (Flow $0, Nano Banana 2). 9 stills, Jesus face-shown & locked to master (s1–s7/s9), s8 the plot no-figure; CARE-ARC (withered hand shown gently, no gore; Pharisees' plot off-screen, no violence; Jesus's grief controlled); caption-v2; 2 sacred silences (jv4 "Is it lawful...", jv5 "Stretch forth thine hand"); 21.5MB/2:41, no dead air. mark-3_withered-hand.mp4. Awaiting your yes. |
-| 56 | The widow of Nain's son | Luke 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 56 | The widow of Nain's son | Luke 7 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine B 2026-07-15 (new face-shown build WIP) |
 | 57 | Jairus's daughter | Mark 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 58 | Feeding the five thousand | John 6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 59 | Feeding the four thousand | Mark 8 | ⬜ | ⬜ | ⬜ | ⬜ |  |
