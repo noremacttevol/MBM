@@ -43,6 +43,7 @@ TITLES = {
     84: "No Room: the Manger", 91: "Gethsemane",
     101: "The Still Small Voice", 102: "Jacob's Ladder",
     121: "Salt and Light", 135: "The Rainbow Covenant",
+    151: "If Any of You Lack Wisdom",
     161: "Called of God, as was Aaron",
 }
 
