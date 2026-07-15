@@ -8,7 +8,6 @@
 
 | # | Story | What's wrong | Claimed by |
 |---|---|---|---|
-| 91 | Gethsemane | Hair got long in s7 (rejected 2026-07-15). **Cameron chose a FULL v3 FACE-SHOWN redo (not just an s7 swap).** All 12 prompts rewritten face-shown + byte-identical JESUS LOCK v3 + REF line (face-gate PASS, exit 0); caption-v2 ported into build.py; the master-face lock fixes the s7 hair-length drift. REMAINING: regenerate all 12 stills in Flow ($0), QC, rebuild, tick Built. | Machine B 2026-07-15 (v3 face-shown redo WIP) |
 | 16 | Mary and Martha | Rejected 2026-07-15 — one scene shows the Jesus figure from behind without long hair. Regenerate that still face/hair-correct, rebuild, tick Built. | — |
 
 ## ✅ APPROVED FOLDER — Cameron's fresh yes (post-redo, face-law v3)
@@ -123,7 +122,7 @@ Appr and add it to this folder.
 | 88 | The triumphal entry | Luke 19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 89 | The last supper | Luke 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 90 | Washing the disciples' feet | John 13 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 91 | Gethsemane | Luke 22 | ✅ | ⬜ | ⬜ | ⬜ | REJECTED 2026-07-15 — hair gets long out of nowhere in one scene, needs fix [migrated from old row 124] |
+| 91 | Gethsemane | Luke 22 | ✅ | ✅ | ⬜ | ⬜ | **v3 FACE-SHOWN REDONE 2026-07-15 Machine B** — all 12 stills regenerated FACE-SHOWN, locked to master ref (Flow $0, Nano Banana 2); the rejected s7 hair-drift is fixed (shoulder-length in every frame); restrained agony (few dark muted drops, clean face, no gore); angel hope-beat in amber-gold; caption-v2; 2 sacred silences (jv42 surrender, jv46 rise); card em-dash fixed; 22.8MB/4:54, no dead air. Awaiting your yes. [migrated from old row 124] |
 | 92 | Peter's denial and the look | Luke 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 93 | Barabbas goes free | Mark 15 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 94 | "Father, forgive them" | Luke 23 | ⬜ | ⬜ | ⬜ | ⬜ |  |

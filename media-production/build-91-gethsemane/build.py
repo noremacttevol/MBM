@@ -226,7 +226,9 @@ def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, kjv, first):
 
 def build_card(dur, text):
     tf = f"{S}/card.txt"
-    with open(tf, "w") as f:
+    # UTF-8 so ffmpeg drawtext reads the em-dash correctly; Windows open() would default
+    # to cp1252 and render "—" as a tofu box (matches caption_layers, build-72).
+    with open(tf, "w", encoding="utf-8") as f:
         f.write("\n".join(textwrap.wrap(text, width=30)))
     vf = (f"drawtext=fontfile={SERIF}:textfile={tf}:fontsize=50:"
           f"fontcolor={INK}:line_spacing=24:x=(w-text_w)/2:y=(h-text_h)/2,"
