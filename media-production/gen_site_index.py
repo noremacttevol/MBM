@@ -61,7 +61,7 @@ TITLES = {
     51: "The First Catch of Fish",
     71: "Calling the Fishermen", 72: "Calling Matthew",
     84: "No Room: the Manger", 91: "Gethsemane",
-    101: "The Still Small Voice", 102: "Jacob's Ladder", 103: "Peter's Confession", 104: "The Boy Samuel", 105: "Face to Face, as a Friend", 106: "God Spake by the Prophets", 107: "John the Baptist's Doubt", 108: "My Sheep Hear My Voice", 109: "Ask, Seek, Knock", 110: "The Lord's Prayer", 111: "Lilies and Sparrows", 112: "The Beatitudes",
+    101: "The Still Small Voice", 102: "Jacob's Ladder", 103: "Peter's Confession", 104: "The Boy Samuel", 105: "Face to Face, as a Friend", 106: "God Spake by the Prophets", 107: "John the Baptist's Doubt", 108: "My Sheep Hear My Voice", 109: "Ask, Seek, Knock", 110: "The Lord's Prayer", 111: "Lilies and Sparrows", 112: "The Beatitudes", 113: "Where Art Thou?",
     121: "Salt and Light", 135: "The Rainbow Covenant",
     151: "If Any of You Lack Wisdom",
     152: "He Revealeth His Secret to the Prophets",
