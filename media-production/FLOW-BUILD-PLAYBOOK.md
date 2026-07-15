@@ -220,6 +220,18 @@ read, dove, bass, minute, use(d), close. Listen to any segment containing one.
   max (3 KJV), chunks swap with the narration. Old builds get re-assembled with it
   in the remediation sweep — stills and most audio untouched, so it costs $0.
 
+## REF ATTACH (master face) was broken — fixed (2026-07-15, Machine B)
+Every Jesus shot must attach `JESUS-MASTER-REF/jesus-face.jpeg` as `--ref` or the model
+invents a DIFFERENT face each time (face-law violation). The old driver clicked "Add
+Media" and waited for a native file-chooser that never fired, so it silently generated
+WITHOUT the ref ("could not attach ref … generating without"). Fix (now in flow_driver.py):
+Flow has a HIDDEN `<input type=file accept=image/*>` — nudge it with the Add Media button,
+then `inp.set_input_files(ref)` DIRECTLY (Playwright sets hidden inputs). VERIFIED: the
+generated Jesus face then matches candidate-1/jesus-face.jpeg. Also softened the "could
+not set 9:16 aspect" hard-abort to a warning (repeat-gens false-negative; output is still
+vertical — verify the saved jpeg is portrait, 768×1376, and reroll only if landscape).
+build-51 s2 was the first Jesus shot generated with a working locked face.
+
 ## FACE-GATE was broken for EVERY Jesus build — fixed (2026-07-15, Machine B)
 The new face law's very first Jesus-shown build exposed two bugs in `jesus_face_gate.py`
 (nobody hit them because the only earlier post-reversal build, #101, has no Jesus):

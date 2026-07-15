@@ -239,16 +239,26 @@ def cmd_gen(prompt, out, refs):
 
         before = page.evaluate(NAMES_JS) or []
         for ref in refs or []:
-            # "add Add Media" button opens a file chooser for reference images
+            # REF ATTACH (fixed 2026-07-15, Machine B): the native file-chooser path
+            # never fired — Flow exposes a HIDDEN <input type=file accept=image/*>. Nudge
+            # the UI with the Add Media button, then set files on the input DIRECTLY
+            # (Playwright can set a hidden input). Verified: the master face then locks
+            # the generated Jesus face. Without this every Jesus shot generated a
+            # DIFFERENT face — a face-law violation.
+            attached = False
             try:
-                with page.expect_file_chooser(timeout=6000) as fc:
-                    page.evaluate(
-                        "() => [...document.querySelectorAll('button')]"
-                        ".find(b => (b.innerText||'').includes('Add Media'))"
-                        "?.click()")
-                fc.value.set_files(ref)
-                page.wait_for_timeout(2500)
-            except Exception:
+                page.evaluate("() => [...document.querySelectorAll('button')]"
+                              ".find(b => (b.innerText||'').includes('Add Media'))?.click()")
+                page.wait_for_timeout(1500)
+                inp = page.query_selector("input[type=file]")
+                if inp:
+                    inp.set_input_files(ref)
+                    page.wait_for_timeout(5000)
+                    attached = True
+                    print(f"  attached ref via hidden file input: {Path(ref).name}")
+            except Exception as e:
+                print(f"  (ref attach error: {e})")
+            if not attached:
                 print(f"  (warning: could not attach ref {ref} — generating without)")
         # SUBMIT THAT ACTUALLY WORKS (found 2026-07-15, Machine C): the real prompt
         # box is the LAST visible contenteditable div/textarea. You must (1) CLICK it
