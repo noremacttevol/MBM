@@ -1,3 +1,32 @@
+## 2026-07-15 — #121 Salt and Light built + THE-200 v2 migration (Machine C)
+
+**Video #121 Salt and Light (Matt 5:13-16)** built end-to-end on Machine C, Phase-1
+stills-only, `matthew-5_salt-and-light.mp4` (3:36, 22.5 MB, −15 LUFS). **Published to the
+gallery** (`index.html`, now 54 videos). Commit `066e5bb`.
+
+- **Catalog changed mid-session (THE-200 v2, approved 2026-07-15).** Cameron told me to
+  re-read FACTORY-ORDERS. Machine C's range is now **rows 121–160** (was 124–163).
+  Migration handled: old #124 Gethsemane → now **#91** (REJECTED for a hair-length change
+  in one scene; Machine B fixes it — my full build is intact at build-91-gethsemane). The
+  old #125 "betrayal kiss" I was mid-building is **not in v2** — removed build-124/125
+  leftovers to avoid colliding with the new rows 124/125 ("Love your enemies" / "I never
+  knew you"); the betrayal-kiss build (12 face-safe stills + narration + mp4) survives in
+  git history if the story is ever re-added.
+- **#121 built the standard way, Google Flow $0** (Nano Banana 2, 9:16, 1x). GREEN milk,
+  Sermon on the Mount — a bright DAYLIGHT video (a change from the Passion night pieces):
+  sunlit hillside teaching, a salt still-life, savourless salt trodden, a dusk city-on-a-
+  hill, a lamp hidden vs a lamp raised, good works in the daylight lane, faces lifted to
+  heaven, and a golden-evening close. Face-never held on the three teaching stills
+  (behind/over-shoulder); illustration stills carry no divine figure.
+- **Two-voice, two sacred silences** on Matt 5:14 ("ye are the light of the world") and
+  5:16 ("let your light so shine"). Closing card an invitation, not a fear-question.
+- **Flow reminders (still true):** two-figure / intimate scenes and some landscapes come
+  back as 2- or 3-panel comic strips — reroll with "ONE single unbroken full-frame
+  picture, no panels." Gallery thumbnails are virtualized: scroll to mount, then the
+  in-page fetch → named `<a download>` gives a clean jpeg.
+- **Next for Machine C: #122 The mote and the beam (Matt 7).** One video per chat — open a
+  fresh chat and say "Continue."
+
 ## 2026-07-15 — #124 Gethsemane built via FLOW, $0 (Machine C)
 
 **Video #124 Gethsemane (Luke 22:39-46 + Matt 26:36-46)** built end-to-end on
