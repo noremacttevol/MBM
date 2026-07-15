@@ -230,7 +230,7 @@ sheet ready) · **Built** (final mp4 exists) · **Appr** (Cameron approved) ·
 | 161 | My sheep hear my voice | John 10 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 162 | Where art thou? | Gen 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 163 | Enoch walked with God | Gen 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 164 | The rainbow covenant | Gen 9 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 164 | The rainbow covenant | Gen 9 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine D 2026-07-14 |
 | 165 | Abraham argues for Sodom | Gen 18 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 166 | The ram in the thicket | Gen 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 167 | Jacob's ladder | Gen 28 | ⬜ | ⬜ | ⬜ | ⬜ |  |
