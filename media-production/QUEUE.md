@@ -73,7 +73,7 @@ rows. Do not assume approval.
 | 46 | The seed growing secretly | Mark 4 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-15 (Flow $0, GREEN restful) — awaiting your yes |
 | 47 | Houses on rock and sand | Matt 7 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 (Flow images, 0 API cost) — APPROVED 2026-07-15 (batch) |
 | 48 | New wine, old bottles | Mark 2 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 — APPROVED 2026-07-15 (batch) |
-| 49 | Water to wine at Cana | John 2 | ⬜ | ⬜ | ⬜ | ⬜ | Machine A 2026-07-15 WIP: PROMPTS.md rewritten to FACE-LAW v3 (face SHOWN, JESUS LOCK v3 + REF on s2/s4/s5/s8/s9/s12) — face-gate PASS; narration regenerated (n5 reworded off "close"); s1 still done. BLOCKED: s2–s12 stills need Flow — flow_driver `gen` submit doesn't trigger a generation (prompt registers, arrow clicked, no image; see playbook 2026-07-15 Machine A). Needs the extension path or a React-input fix. Also fixed jesus_face_gate.py v3 false-negative (was failing every compliant sheet). |
+| 49 | Water to wine at Cana | John 2 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-15 under FACE LAW v3 (face shown, locked to JESUS-MASTER-REF; Jesus in s2/s4/s5/s8/s9/s12, face-consistent, only-Jesus-in-cream) — 12 Flow $0 stills (Nano Banana 2, 9:16), caption-v2, 2 sacred silences (jv7/jv8), 22.1MB/4.06min, no dead air. john-2_water-to-wine.mp4. Awaiting your yes. |
 | 50 | The nobleman's son | John 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 51 | The first catch of fish | Luke 5 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine B 2026-07-15 (Flow $0, 9 stills, face-law v3 locked to master ref, caption-v2, 22.1MB/2:45) — first FACE-SHOWN build shipped. awaiting your yes |
 | 52 | The demoniac in the synagogue | Mark 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |

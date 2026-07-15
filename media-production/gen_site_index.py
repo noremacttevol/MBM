@@ -37,7 +37,7 @@ TITLES = {
     41: "Counting the Cost", 42: "The Barren Fig Tree Spared",
     45: "The Wicked Tenants", 46: "The Seed Growing Secretly",
     47: "Houses on Rock and Sand", 48: "New Wine, Old Bottles",
-    51: "The First Catch of Fish",
+    49: "Water to Wine at Cana", 51: "The First Catch of Fish",
     71: "Calling the Fishermen", 72: "Calling Matthew",
     84: "No Room: the Manger", 91: "Gethsemane",
     101: "The Still Small Voice",
@@ -150,8 +150,8 @@ def main():
 <header>
   <h1>Milk Before Meat — Story Videos</h1>
   <p class="sub">Every finished story video. Tap play on any of them — they
-  stream on phone or desktop. Stills-only, and the Lord's face is never
-  shown (seen only from behind, at a distance, or off-frame).</p>
+  stream on phone or desktop. Hand-painted stills, with the Lord shown the
+  same way in every scene.</p>
   <p class="sub">{count} videos.</p>
 </header>
 <div class="wrap">

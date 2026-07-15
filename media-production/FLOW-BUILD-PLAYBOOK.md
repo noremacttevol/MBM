@@ -331,3 +331,20 @@ reliable $0 still factory on this machine.
   InputEvent/'input' + 'change' on the real box, or type char-by-char with page.keyboard.type
   so keydown/keyup fire), then confirm the arrow un-disables before clicking. Do NOT sink
   more than 15 min into it — hand off if it resists.
+
+## Machine A, 2026-07-15 — driver 9:16 fix on this machine + Nano Banana panel/echo quirk
+- **9:16 on a machine where flow_driver still aborts ("could not set 9:16 aspect"):**
+  the real settings chip is the element containing BOTH "Nano Banana" AND "crop_"
+  (a stray "Nano Banana 2" label exists too — clicking it opens NO popover, which was
+  the whole failure). Real-mouse-click the crop-bearing chip; the 9:16 control is a
+  BUTTON[role=tab] "crop_9_16|9:16" with an <I>crop_9_16</I> leaf — click that leaf.
+  Verify by generating and checking the saved jpeg is taller than wide. A monkeypatch
+  wrapper (scratchpad genshot.py) drove the proven cmd_gen with this fix without editing
+  the shared flow_driver.py; the real submit is keyboard.type(prompt)+Enter (works).
+- **Nano Banana 2 intermittently returns a multi-panel sheet (triptych / stacked
+  duplicate) or ECHOES the previous image** (e.g. #49 s2 came back a 3-panel strip, s9
+  a 2-panel duplicate, s11 a pixel-copy of s6). "One single continuous scene" at the END
+  of the prompt is not enough. Prepend a blunt SINGLE-FRAME directive: "SINGLE UNIFIED
+  ILLUSTRATION, one scene edge to edge, NOT a grid/triptych/stacked panels/comic strip,
+  no dividing lines, no repeated copies, ONE picture only." Then QC by eye (same file
+  size as an earlier still = a likely echo) and reroll offenders.
