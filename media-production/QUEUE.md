@@ -199,7 +199,7 @@ Appr and add it to this folder.
 | 165 | Laying on of hands for the Holy Ghost | Acts 8:14–17 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, God/Holy Ghost shown only as warm descending light—no figure/no dove, Peter & John consistent across shots in dark earth tones, s2 rerolled x2 to kill a triptych/echo, caption-v2, 2 sacred silences kv14/kv17, 24.1MB/2:38; face-gate PASS). → GL: Laying On of Hands |
 | 166 | Baptized again, properly | Acts 19:1–6 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, God/Holy Ghost shown only as warm light—no figure/no dove, Paul consistent (balding, grey-streaked beard) across shots, modest baptism—no nudity, s2 rerolled to remove a painted border, caption-v2, 2 sacred silences kv5/kv6, 23.1MB/2:34; face-gate PASS). → GL: Baptism |
 | 167 | "I have chosen you, and ordained you" | John 15:16 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, the Lord/heaven shown only as warm light shaft—no figure/no dove, called ones in dark earth tones, s1 rerolled x2 (triptych→single fisherman), s7 rerolled (border), caption-v2, 2 sacred silences kv16a/kv16b, 24.2MB/2:35; face-gate PASS). → GL: Callings |
-| 168 | Born of water and of the Spirit | John 3:5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 168 | Born of water and of the Spirit | John 3:5 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine D 2026-07-15 |
 | 169 | "To fulfil all righteousness" | Matt 3:13–17 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 170 | The sacrament, worthily | 1 Cor 11:23–29 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 171 | "Else what shall they do which are baptized for the dead?" | 1 Cor 15:29 | ⬜ | ⬜ | ⬜ | ⬜ |  |
