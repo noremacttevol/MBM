@@ -397,3 +397,28 @@ picture) is met by the TEXT lock; the "attach the portraits" step backfires with
 current Nano Banana and should be treated as optional until it stops echoing.
 Machines building face-shown rows: if your Jesus stills are ~identical small files, this
 is why — regenerate them text-only.
+
+## Machine A v3-REDO worklist + recipe (2026-07-15) — for the next Machine A session
+DONE this session: #49, #50 (new face-law builds) and #48 (v3 redo, Jesus s1/s10 now shown).
+REMAINING redo targets in range 1-50 (builds that DEPICT Jesus from behind — pure
+parables with no Jesus on screen need NO redo): 11, 12, 14, 15, 16, 18, 19, 20, 22, 24,
+33, 39, 40, 41, 42, 43, 44, 45, 46, 47. Do oldest-first; each has 1-7 Jesus shots.
+RECIPE per redo (proven on #48):
+1. In that build's PROMPTS.md, rewrite each Jesus shot: add the byte-identical JESUS
+   LOCK v3 paragraph + a "REF: jesus-master-ref" line, and replace the "camera behind /
+   back of his head / face never shown / rim-light" body wording with a face-shown
+   composition (e.g. "Jesus stands facing ..."). ALSO fix any face-never JESUS LOCK
+   block in the file header, and drop the "never caucasian/blue-eyed/blond" sentence
+   from any non-exact lock copy (the gate scans those words outside the exact LOCK_V3).
+2. jesus_face_gate.py --dir <build> must exit 0.
+3. Regenerate ONLY the Jesus stills, TEXT-ONLY (no ref echo):
+   MBM_NOREF=1 python3 <scratchpad>/genshot.py <build> <slug1> <slug2> ...
+   (genshot lives in the session scratchpad; recreate from this playbook if gone — it
+   monkeypatches flow_driver.ensure_settings to click the real 'Nano Banana'+'crop_'
+   chip and the crop_9_16 leaf, submits via keyboard.type+Enter, verifies vertical.)
+4. QC each by eye (Read the jpeg): single scene not a panel/echo, face matches master,
+   only Jesus in cream, right wardrobe. Reroll misses.
+5. If build.py lacks caption-v2 (chunk_caption/caption_layers), port those 3 functions
+   from build-48-new-wine-old-bottles/build.py. Then python3 build.py.
+6. QC one caption frame, tick note "v3 REDONE <date>" in QUEUE, git add the changed
+   stills + mp4 + PROMPTS + QUEUE, commit, pull --rebase, push.
