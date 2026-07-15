@@ -176,7 +176,7 @@ rows. Do not assume approval.
 | 149 | Hannah is heard | 1 Sam 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 150 | The Shepherd Psalm | Ps 23 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 151 | "If any of you lack wisdom, let him ask of God" | James 1:5 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, seeker locked in dark earth tones, God shown only as light/no figure, caption-v2, 2 sacred silences, 23.8MB/2:57; face-gate PASS) |
-| 152 | "Surely the Lord GOD will do nothing, but he revealeth his secret unto his servants the prophets" | Amos 3:7 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine D 2026-07-15 |
+| 152 | "Surely the Lord GOD will do nothing, but he revealeth his secret unto his servants the prophets" | Amos 3:7 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, herdsman-prophet locked in dark earth tones, God shown only as light/no figure, distant symbolic lion s7, caption-v2, 2 sacred silences, 23.9MB/2:52; face-gate PASS) |
 | 153 | The times of restitution of all things | Acts 3:19–21 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 154 | Another angel, the everlasting gospel | Rev 14:6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 155 | "A falling away first" | 2 Thes 2:1–3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
