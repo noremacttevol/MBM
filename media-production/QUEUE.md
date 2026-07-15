@@ -135,7 +135,7 @@
 | 118 | Jonah and the God who relents | Jonah | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 119 | The fourth man in the fire | Dan 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 120 | Job answered from the whirlwind | Job 38–42 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 121 | Salt and light | Matt 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 121 | Salt and light | Matt 5 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine C 2026-07-15 |
 | 122 | The mote and the beam | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 123 | The golden rule | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 124 | Love your enemies | Matt 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
