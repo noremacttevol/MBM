@@ -466,3 +466,30 @@ still runs fine headless.
   (Separately, if the browser lands on google.com/sorry that IS a real rate-limit — see the
   FLOW-RATE-LIMIT-ISSUE.md; it cleared on its own and was NOT account-wide — other machines
   kept working.) Longer term: start a fresh Flow project every few videos to keep it light.
+
+## #11 UNBLOCK — flow_driver.py beats the claude-in-chrome submit wall (2026-07-15, Machine A)
+The #11 blocker ("Flow composer won't register CDP-typed text; arrow stays
+aria-disabled") is a claude-in-chrome-EXTENSION limitation, NOT a Flow limitation.
+`flow_driver.py gen` (Playwright, own `~/.mbm-flow-profile`) submits fine because it
+uses REAL keystrokes (`page.mouse.click(box)` + `page.keyboard.type` + `Enter`), which
+fire trusted keydown/keyup so React's onChange runs. Lessons that got #11's 6 stills
+(s4–s9) shipped face-shown, $0:
+- **`flow_driver.py check` runs HEADLESS and false-negatives `logged_in=False`.** Don't
+  trust it. Confirm with a headed nav to FLOW and look for the "New project" text /
+  "ULTRA" in the body. The profile was logged in the whole time.
+- **Shared-project stale-gallery GRAB BUG (this is why cmd_gen returned a WRONG old
+  image — a desert-healing scene for a storm prompt).** cmd_gen snapshots `before` from
+  only the currently-mounted (virtualized) thumbnails, then its poll loop clicks
+  "All Media"+scrolls every 4th tick, mounting OLD thumbnails; one gets picked as
+  `fresh[0]` before the real gen finishes. Fix (scratchpad wrapper, didn't touch the
+  shared driver): capture `before` by mounting the FULL gallery first (click All Media,
+  scroll a few times, union all NAMES_JS), then poll and accept the top thumbnail only
+  when it's NOT in `before` AND stable across two reads. Newest is always index 0.
+- Generate TEXT-ONLY (no `--ref`) — attaching the bust still echoes it. The JESUS LOCK
+  v3 text alone gave a face matching the master across all 6 shots (verified by eye).
+- Cold-load composer is intermittent ("no prompt box"): poll for the box ~24s before
+  giving up, and ALWAYS close the ctx in a `finally` (a crashed gen orphans Chrome and
+  locks the profile → `pkill -9 -f mbm-flow-profile; rm -f ~/.mbm-flow-profile/Singleton*`).
+- The reusable wrapper is in this session's scratchpad (`genstills.py`): parses
+  PROMPTS.md per slug, expands [STILL STYLE BLOCK], drops the `REF:` line, calls a
+  clean-grab gen. Recreate from this note if gone.

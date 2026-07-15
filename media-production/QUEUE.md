@@ -42,7 +42,7 @@ Appr and add it to this folder.
 | 8 | The lost coin | Luke 15 | ✅ | ✅ | ⬜ | ✅ | live |
 | 9 | The rich young ruler | Mark 10 | ✅ | ✅ | ⬜ | ✅ | live |
 | 10 | The woman at the well | John 4 | ✅ | ✅ | ⬜ | ✅ | live |
-| 11 | Calming the storm | Mark 4 | ✅ | ✅ | ⬜ | ⬜ | v3 REDO WIP Machine A 2026-07-15 — PROMPTS v3 (gate PASS), build.py caption-v2, invitation card, s1 face-shown DONE. **6 Jesus stills (s4,s5,s6,s7,s8,s9) still to generate — BLOCKED: Flow composer won't accept typed/injected text in claude-in-chrome (arrow stays aria-disabled). See build-11-storm/NEXT-SESSION-KICKOFF.md + playbook.** |
+| 11 | Calming the storm | Mark 4 | ✅ | ✅ | ⬜ | ⬜ | **v3 REDONE 2026-07-15 (Machine A)** — all 6 Jesus stills s4–s9 regenerated FACE-SHOWN, text-locked to master (Flow $0 via flow_driver.py Playwright path — unblocked the claude-in-chrome submit wall by using real keystrokes + fixed the shared-project stale-gallery grab); s3 storm kept; caption-v2 + invitation card; 18.4MB/4:27. Awaiting your yes. |
 | 12 | Blind Bartimaeus | Mark 10 | ✅ | ✅ | ⬜ | ✅ | live; **v3 REDONE 2026-07-15** (Jesus s6/s9/s11 now FACE-SHOWN, text-locked to master; build.py made cross-platform; kept detailed non-Jesus stills — re-review) |
 | 13 | Through the roof | Mark 2 | ✅ | ✅ | ⬜ | ✅ | live |
 | 14 | The ten lepers | Luke 17 | ✅ | ✅ | ⬜ | ✅ | live; **v3 REDO WIP Machine A 2026-07-15** — s1/s4/s10 regenerated FACE-SHOWN & good, build.py made cross-platform; s11 STILL PENDING (Flow logged out mid-run). TO FINISH: log into Flow, `MBM_NOREF=1 genshot --file build-14 <s11 prompt in scratchpad redo14.tsv>`, then rebuild + push. mp4 NOT yet rebuilt. |

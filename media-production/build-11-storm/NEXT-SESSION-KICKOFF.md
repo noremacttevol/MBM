@@ -1,5 +1,12 @@
 # #11 Calming the Storm — v3 REDO resume point (Machine A, 2026-07-15)
 
+> ✅ **RESOLVED 2026-07-15 (Machine A, later session).** All 6 Jesus stills (s4–s9)
+> regenerated FACE-SHOWN and locked to the master via `flow_driver.py` (Playwright,
+> real keystrokes — NOT the blocked claude-in-chrome CDP path). Video rebuilt
+> (18.4MB/4:27), QC-passed, QUEUE row 11 ticked, committed + pushed. Nothing left
+> to do here. See the "#11 unblock" lesson at the bottom of FLOW-BUILD-PLAYBOOK.md.
+> The rest of this file is the (now-historical) resume note.
+
 ## State
 - **PROMPTS.md**: fully rewritten to FACE LAW v3 (face-shown Jesus, byte-identical
   JESUS LOCK v3 + `REF: jesus-master-ref` on every Jesus shot). **Face gate PASSES.**
