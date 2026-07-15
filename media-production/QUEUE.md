@@ -75,7 +75,7 @@ rows. Do not assume approval.
 | 48 | New wine, old bottles | Mark 2 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 — APPROVED 2026-07-15 (batch) |
 | 49 | Water to wine at Cana | John 2 | ⬜ | ⬜ | ⬜ | ⬜ | Machine A 2026-07-15 WIP: PROMPTS.md rewritten to FACE-LAW v3 (face SHOWN, JESUS LOCK v3 + REF on s2/s4/s5/s8/s9/s12) — face-gate PASS; narration regenerated (n5 reworded off "close"); s1 still done. BLOCKED: s2–s12 stills need Flow — flow_driver `gen` submit doesn't trigger a generation (prompt registers, arrow clicked, no image; see playbook 2026-07-15 Machine A). Needs the extension path or a React-input fix. Also fixed jesus_face_gate.py v3 false-negative (was failing every compliant sheet). |
 | 50 | The nobleman's son | John 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 51 | The first catch of fish | Luke 5 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine B 2026-07-15 |
+| 51 | The first catch of fish | Luke 5 | ⬜ | ⬜ | ⬜ | ⬜ | Machine B 2026-07-15 WIP: PROMPTS.md (face-law v3, JESUS LOCK+REF on s2/s3/s7/s8/s9) — gate PASS; narration DONE (jv4 "draught"→"draft" TTS override); 4 non-Jesus stills s1/s4/s5/s6 generated via flow_driver \$0. BLOCKED: 5 Jesus stills + build.py await the JESUS-MASTER-REF pick (candidates pushed, awaiting Cameron). Fixed jesus_face_gate.py (blank lock from BANNED scan + UTF-8 read) — was rejecting EVERY Jesus build; build-51 is the first to pass. |
 | 52 | The demoniac in the synagogue | Mark 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 53 | Peter's mother-in-law | Mark 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 54 | The leper: "I will; be thou clean" | Mark 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
