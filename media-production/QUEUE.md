@@ -149,7 +149,7 @@ Appr and add it to this folder.
 | 113 | "Where art thou?" | Gen 3 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:44, 21.3MB; the Fall handled tenderly — God as seeking light no figure, modest Adam/Eve, mercy of the coats of skins) |
 | 114 | Abraham argues for Sodom | Gen 18 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:57, 21.8MB; God as presence/light no figure; destruction OFF-SCREEN per CARE-J; the negotiation + yeses) |
 | 115 | The ram in the thicket | Gen 22 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 3:12, 21.9MB; CARE-C honored: NO knife/bound child, Isaac safe every frame; walk/question/ram/release/embrace; God provides. Border-crop applied) |
-| 116 | Graven on his palms | Isa 49 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 116 | Graven on his palms | Isa 49 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine C 2026-07-15 (God as voice/light, no figure; comfort for the forgotten) |
 | 117 | Hosea buys her back | Hosea 1–3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 118 | Jonah and the God who relents | Jonah | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 119 | The fourth man in the fire | Dan 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
