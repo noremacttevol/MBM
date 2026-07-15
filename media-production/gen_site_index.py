@@ -34,7 +34,7 @@ TITLES = {
     33: "The Sheep and the Goats", 34: "The Rich Fool", 35: "The Great Banquet",
     36: "The Shrewd Steward", 37: "The Rich Man and Lazarus", 38: "The Persistent Widow", 39: "The Pharisee and the Publican",
     40: "The Friend at Midnight", 43: "The Wedding Garment",
-    47: "Houses on Rock and Sand", 48: "New Wine, Old Bottles",
+    41: "Counting the Cost", 47: "Houses on Rock and Sand", 48: "New Wine, Old Bottles",
 }
 
 SMALL = {"of", "and", "the", "a", "an", "in", "on", "to", "his", "her"}
