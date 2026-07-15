@@ -181,3 +181,21 @@ read, dove, bass, minute, use(d), close. Listen to any segment containing one.
   sacred silence); narrator gives modern meaning. Closing card carries a small one-line
   `GL_POINTER = "Learn more — Gospel Library: <Topic>"` (topic from THE-200 `→ GL:`). Christ
   may be referenced but never depicted — use a light/veil image and gate-safe "never shown".
+
+## Lessons — Machine A, 2026-07-15 (append-only, newest at bottom)
+
+- **Stage EXPLICIT files, never `git add -A` / `git add build-*`.** The wildcard sweeps in
+  multi-MB `qc/*.png` scratch frames, and pushing them stalls/times out the push. Add only
+  `PROMPTS.md build.py make_narration.py BUILD-STATUS.md the.mp4 assets/ audio/` + QUEUE +
+  gen_site_index + index.html. (Supersedes the `git add -A` in step 10 above.)
+- **Letterbox-panorama miss (distinct from stacked panels):** Nano Banana sometimes puts the
+  subject in a thin central band with blurred sky+foreground, so it reads tiny in 9:16.
+  Fix: reword "a wide view" → "an upright/vertical view filling the frame from base to
+  crown," and reroll. (Hit on #42 s10 and #46 s3.)
+- **Chrome extension can drop mid-session** (`list_connected_browsers` → `[]`). Only the
+  operator can reopen Chrome + re-enable the extension. When it happens: commit WIP, write
+  the resume point into the build folder / NEXT-SESSION-KICKOFF, hand off — don't burn turns
+  retrying the connection.
+- **Face-gate also trips on incidental Jesus tokens in non-staging lines:** "the mother of
+  Jesus" in a character-lock or a shot where he isn't present → rename to "Mary the mother";
+  and never write "face" in the same sentence as "Jesus" without a hiding cue/negation.
