@@ -83,6 +83,7 @@ TITLES = {
     164: "Till We All Come in the Unity of the Faith",
     165: "Laying On of Hands for the Holy Ghost",
     166: "Baptized Again, Properly",
+    167: "I Have Chosen You, and Ordained You",
 }
 
 SMALL = {"of", "and", "the", "a", "an", "in", "on", "to", "his", "her"}
