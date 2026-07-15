@@ -7,7 +7,7 @@ Jesus speaks ONLY exact KJV: Mark 5:30 "Who touched my clothes?" and Mark 5:34.
 import asyncio
 import edge_tts
 
-NARRATOR = "en-US-AndrewMultilingualNeural"
+NARRATOR = "en-US-AndrewNeural"     # plain American — never the Multilingual model (law)
 JESUS = "en-US-ChristopherNeural"   # American. Never a British voice.
 
 SEGMENTS = [
@@ -42,6 +42,10 @@ SEGMENTS = [
      "Be whole of thy plague — be free of what has been hurting you. "
      "Twelve years of it. Over, in a sentence. "
      "And the first word he chose was daughter."),
+    # closing card — an invitation, read gently
+    ("card", NARRATOR, "-22%", "-4Hz",
+     "Whatever you have carried for years — reach for him. "
+     "He stops for the one. He calls you his own."),
 ]
 
 async def main():

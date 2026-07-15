@@ -1,213 +1,318 @@
 #!/usr/bin/env python3
-"""Assemble Story Video #1 — The Woman Who Touched His Cloak (Mark 5:25-34). v2.
-Hybrid storybook format per PRODUCTION-BIBLE.md: painted stills with Ken Burns
-drift + 2 animated money-moment clips, narration (edge-tts), serif captions,
-KJV verse card, closing question card on cream #F7F2E9.
+"""Assemble Story Video #1 — The Woman Who Touched His Cloak (Mark 5:25-34).
 
-v2 changes (Cameron, 2026-07-07):
-- Jesus voice is AMERICAN (en-US-ChristopherNeural), never British. Permanent.
-- Fuller story: Jairus backstory (on his way to a dying twelve-year-old girl),
-  he FELT power go out of him, KJV Mark 5:30 "Who touched my clothes?",
-  disciples questioning him, he ignored them and kept looking.
-- Sequencing fixes: redundant tassel-touch still removed (the animated hem clip
-  carries that beat alone); the walking-away still moved to the backstory beat
-  where walking away makes sense; new disciples still added.
-Output: 1080x1920 H.264, <25MB.
+v3 FULL REBUILD (2026-07-15, Machine A): PHASE-1 STILLS-ONLY, face-shown Jesus locked
+to the master ref, continuity locks on the woman/crowd/setting. Caption system v2
+(wide bottom, chunked). Two-voice: narrator en-US-AndrewNeural, KJV en-US-ChristopherNeural.
+KJV lines j0 (Mark 5:30) and j1 (Mark 5:34) render cream-italic; the music dies to true
+silence around j1 (the "Daughter" line). Closing card is an invitation.
+
+Output: mark-5_woman-touches-his-cloak.mp4, 1080x1920 H.264 30fps, <25MB.
 """
 import os
 import subprocess
+import textwrap
+
+import make_narration
 
 A = "assets"
 S = "segs"
 FPS = 30
+FF = "ffmpeg"
+FPROBE = "ffprobe"
 SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
-SERIF_BI = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf"
+SERIF_BI = "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"
 CREAM = "0xF7F2E9"
 INK = "0x3B2A1E"
 
-ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "18",
+ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "16",
        "-pix_fmt", "yuv420p", "-r", str(FPS), "-an"]
 
-# (id, kind, source, duration_s, zoom_dir, caption, caption_style)
-SEGMENTS = [
-    ("s01", "still", "Woman_sits_in_dim_room_202607072313.jpeg", 6.0, "in",
-     "There was a woman who had been\nsuffering for twelve years.", "n"),
-    ("s02", "still", "Woman's_hands_holding_empty_purse_202607072310.jpeg", 13.0, "out",
-     "She had spent everything on doctors.\nNothing helped. She was exhausted,\ndesperate — and by the rules of her time,\nconsidered untouchable.", "n"),
-    ("s03", "still", "Man_walking_in_crowd_2K_202607111552.jpeg", 10.5, "in",
-     "That day, Jesus was already on his way\nto save someone else — a ruler's daughter,\ntwelve years old, and dying.", "n"),
-    ("s04", "still", "Robed_figures_on_stone_street_202607072302.jpeg", 8.5, "in",
-     "The crowd pressed around him on every side.\nAlmost no one would have noticed\none more sick woman at its edge.", "n"),
-    ("s05", "still", "Woman_gathering_shawl_at_doorway_202607072309.jpeg", 7.5, "in",
-     "She heard Jesus was nearby.\nShe did not ask permission.\nShe did not make a speech.", "n"),
-    ("s06", "still", "Veiled_woman_in_crowd_2K_202607072304.jpeg", 6.0, "in",
-     "She pressed through the crowd\nand reached out to touch\nthe edge of his cloak.", "n"),
-    ("s07", "still", "Woman's_hand_touching_cloak_tassels_202607072306.jpeg", 8.0, "in",
-     None, "n"),
-    ("s08", "still", "Feet_on_dusty_stone_street_202607072306.jpeg", 11.0, "in",
-     "He stopped. He had felt it — power had\ngone out of him. The healing was already\nhers, given the moment she touched him.", "n"),
-    ("s09", "still", "Man_looking_at_kneeling_woman_202607111557.jpeg", 7.5, "in",
-     "\u201cWho touched my clothes?\u201d", "kjv"),
-    ("s10", "still", "DISCIPLES_STILL", 16.0, "out",
-     "His disciples thought the question made\nno sense — the whole crowd was pressing\nagainst him. He ignored them.\nHe was already needed somewhere else,\nand he stopped anyway.", "n"),
-    ("s11", "still", "Woman_kneeling_looking_upward_2K_202607072303.jpeg", 14.5, "in",
-     "\u201cDaughter, thy faith hath made thee whole;\ngo in peace, and be whole of thy plague.\u201d", "kjv"),
-    ("s12", "still", "Woman_kneeling_with_tears_2K_202607072303.jpeg", 5.0, "out",
-     "\u201cBe whole of thy plague\u201d — be free of\nwhat has been hurting you.", "n"),
-    ("s13", "still", "Woman_standing_in_street_2K_202607072302.jpeg", 4.5, "in",
-     "Twelve years of it.\nOver, in a sentence.", "n"),
-    ("s14", "still", "Woman_standing_on_stone_street_202607072301.jpeg", 5.0, "out",
-     "And the first word he chose\nwas daughter.", "n"),
-    ("s15", "card", None, 5.5, None,
-     "\u201cDaughter, thy faith hath made\nthee whole; go in peace, and be\nwhole of thy plague.\u201d\n\nMark 5:34", "verse"),
-    ("s16", "card", None, 6.0, None,
-     "Have you ever been that desperate\nfor something in your life to change —\neven if you had no words for it yet?", "close"),
+S1 = "s1-suffering.jpeg"
+S2 = "s2-spent-all.jpeg"
+S3 = "s3-on-his-way.jpeg"
+S4 = "s4-she-heard.jpeg"
+S5 = "s5-reaches-hem.jpeg"
+S6 = "s6-power-gone.jpeg"
+S7 = "s7-who-touched.jpeg"
+S8 = "s8-disciples-puzzled.jpeg"
+S9 = "s9-found-her.jpeg"
+S10 = "s10-daughter.jpeg"
+S11 = "s11-made-whole.jpeg"
+
+TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
+KJV = {"j0", "j1"}
+PEAK = "j1"   # music dies to silence around the "Daughter, thy faith" line
+
+BEATS = [
+    ("n1", S1, "in"),
+    ("n2", S2, "in"),
+    ("n2b", S3, "in"),
+    ("n3a", S4, "in"),
+    ("n3b", S5, "in"),
+    ("n4a", S6, "in"),
+    ("j0", S7, "out"),
+    ("n4c", S8, "in"),
+    ("n4b", S9, "in"),
+    ("j1", S10, "in"),
+    ("n5", S11, "in"),
 ]
 
-# narration placements: (audio file, absolute start seconds)
-AUDIO = [
-    ("audio/n1.mp3", 0.8),     # s01 0-6
-    ("audio/n2.mp3", 6.5),     # s02 6-19
-    ("audio/n2b.mp3", 19.6),   # s03 19-29.5 + s04 29.5-38
-    ("audio/n3a.mp3", 38.5),   # s05 38-45.5
-    ("audio/n3b.mp3", 45.9),   # s06 45.5-51.5   (s07 hem clip 51.5-59.5 silent)
-    ("audio/n4a.mp3", 60.2),   # s08 59.5-70.5
-    ("audio/j0.mp3", 71.5),    # s09 turn clip 70.5-78 — KJV Mark 5:30
-    ("audio/n4c.mp3", 78.6),   # s10 78-94
-    ("audio/n4b.mp3", 94.5),   # s11 94-108.5, then sacred pause
-    ("audio/j1.mp3", 100.4),   # KJV Mark 5:34 — music silent long before this
-    ("audio/n5.mp3", 109.0),   # s12-s14 108.5-123
-]
-
-MUSIC_END = 96.0  # pad fully silent before the sacred lines
+LEAD = 0.28
+GAP = 0.72
+KJV_GAP = 1.30
+CARD_HOLD = 4.2
 
 
 def run(cmd):
-    print(">>", " ".join(str(c) for c in cmd)[:160])
+    print(">>", " ".join(str(c) for c in cmd)[:130], flush=True)
     subprocess.run(cmd, check=True, capture_output=True)
 
 
-def caption_filter(seg_id, text, style):
-    if not text:
-        return None
-    tf = f"{S}/{seg_id}.txt"
-    with open(tf, "w") as f:
-        f.write(text)
-    if style == "kjv":
-        font, size, color = SERIF_BI, 46, "0xFFF3DC"
+def dur_of(path):
+    out = subprocess.run(
+        [FPROBE, "-v", "error", "-show_entries", "format=duration",
+         "-of", "csv=p=0", path], capture_output=True, text=True)
+    return float(out.stdout.strip())
+
+
+def spoken_of(path):
+    tmp = f"{S}/_spoken.wav"
+    run([FF, "-y", "-v", "error", "-i", path, "-af",
+         "areverse,silenceremove=start_periods=1:start_threshold=-50dB:"
+         "start_duration=0.02,areverse", "-c:a", "pcm_s16le", tmp])
+    return dur_of(tmp)
+
+
+# ---- CAPTION SYSTEM v2 ----
+def sentences(text):
+    import re
+    return [p for p in re.split(r"(?<=[.!?;:]) +", text) if p]
+
+
+def chunk_caption(text, width, max_lines):
+    out, cur = [], ""
+    for s in sentences(text):
+        cand = (cur + " " + s).strip()
+        if len(textwrap.wrap(cand, width)) <= max_lines:
+            cur = cand
+            continue
+        if cur:
+            out.append(cur)
+        if len(textwrap.wrap(s, width)) <= max_lines:
+            cur = s
+        else:
+            piece = ""
+            for frag in s.split(", "):
+                cand2 = (piece + ", " + frag).strip(", ").strip()
+                if len(textwrap.wrap(cand2, width)) <= max_lines:
+                    piece = cand2
+                else:
+                    if piece:
+                        out.append(piece)
+                    piece = frag
+            cur = piece
+    if cur:
+        out.append(cur)
+    return out
+
+
+def caption_layers(seg_id, dur, spoken_end, text, kjv):
+    if kjv:
+        font, size, color, width, maxl = SERIF_BI, 46, "0xFFF3DC", 38, 3
     else:
-        font, size, color = SERIF, 42, "white"
-    return (f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
-            f"fontcolor={color}:line_spacing=14:x=(w-text_w)/2:y=h-420:"
-            f"shadowcolor=black@0.85:shadowx=2:shadowy=2:"
-            f"box=1:boxcolor=black@0.30:boxborderw=18")
+        font, size, color, width, maxl = SERIF, 34, "white", 48, 2
+    chunks = chunk_caption(text, width, maxl)
+    total = sum(len(c) for c in chunks) or 1
+    t0, t1 = 0.15, max(0.6, min(dur - 0.2, spoken_end + 0.35))
+    filters, labels = [], []
+    acc = 0
+    for i, c in enumerate(chunks):
+        cs = t0 + (t1 - t0) * acc / total
+        acc += len(c)
+        ce = t0 + (t1 - t0) * acc / total
+        tf = f"{S}/{seg_id}_{i}.txt"
+        with open(tf, "w") as f:
+            f.write("\n".join(textwrap.wrap(c, width)))
+        fo = max(cs, ce - 0.35)
+        filters.append(
+            f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
+            f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
+            f"fontcolor={color}:line_spacing=13:x=(w-text_w)/2:"
+            f"y=h-120-text_h:"
+            f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
+            f"box=1:boxcolor=black@0.55:boxborderw=22,"
+            f"fade=t=in:st={cs:.2f}:d=0.35:alpha=1,"
+            f"fade=t=out:st={fo:.2f}:d=0.35:alpha=1[cap{seg_id}{i}]")
+        labels.append(f"[cap{seg_id}{i}]")
+    return filters, labels
 
 
-def build_still(seg_id, src, dur, zdir, cap, style):
+def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, kjv, first):
     frames = int(dur * FPS)
     if zdir == "in":
-        z = f"1.001+0.12*on/{frames}"
+        z = f"1.001+0.09*on/{frames}"
     else:
-        z = f"1.121-0.12*on/{frames}"
-    vf = (f"scale=2160:3840,setsar=1,"
-          f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
-          f"d={frames}:s=1080x1920:fps={FPS}")
-    capf = caption_filter(seg_id, cap, style)
-    if capf:
-        vf += "," + capf
-    if seg_id == "s01":
-        vf += ",fade=t=in:st=0:d=1.2"
-    if seg_id == "s14":
-        vf += f",fade=t=out:st={dur-1.2}:d=1.2"
-    run(["ffmpeg", "-y", "-loop", "1", "-i", f"{A}/{src}",
-         "-t", str(dur), "-vf", vf] + ENC + [f"{S}/{seg_id}.mp4"])
+        z = f"1.091-0.09*on/{frames}"
+    base = (f"[0:v]scale=2160:3868,setsar=1,"
+            f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
+            f"d={frames}:s=2160x3840:fps={FPS},"
+            f"scale=1080:1920:flags=lanczos")
+    capf, labels = caption_layers(seg_id, dur, spoken_end, cap_text, kjv)
+    tail = ",fade=t=in:st=0:d=1.0" if first else ""
+    steps, cur = [], "b"
+    for i, lab in enumerate(labels):
+        last = (i == len(labels) - 1)
+        nxt = "v" if last else f"b{i+1}"
+        steps.append(f"[{cur}]{lab}overlay=format=auto"
+                     + (tail if last else "") + f"[{nxt}]")
+        cur = nxt
+    fc = f"{base}[b];" + ";".join(capf) + ";" + ";".join(steps)
+    run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
+         "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
 
 
-def build_clip(seg_id, src, dur, cap, style):
-    vf = f"scale=1080:1920:flags=lanczos,setsar=1,fps={FPS}"
-    capf = caption_filter(seg_id, cap, style)
-    if capf:
-        vf += "," + capf
-    run(["ffmpeg", "-y", "-i", f"{A}/{src}", "-t", str(dur),
-         "-vf", vf] + ENC + [f"{S}/{seg_id}.mp4"])
-
-
-def build_card(seg_id, dur, text, style):
-    tf = f"{S}/{seg_id}.txt"
+def build_card(dur, text):
+    tf = f"{S}/card.txt"
     with open(tf, "w") as f:
-        f.write(text)
-    if style == "verse":
-        font, size = SERIF_BI, 52
-    else:
-        font, size = SERIF, 50
-    vf = (f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
-          f"fontcolor={INK}:line_spacing=22:x=(w-text_w)/2:y=(h-text_h)/2,"
+        f.write("\n".join(textwrap.wrap(text, width=30)))
+    vf = (f"drawtext=fontfile={SERIF}:textfile={tf}:fontsize=50:"
+          f"fontcolor={INK}:line_spacing=24:x=(w-text_w)/2:y=(h-text_h)/2,"
           f"fade=t=in:st=0:d=0.8,fade=t=out:st={dur-0.8}:d=0.8")
-    run(["ffmpeg", "-y", "-f", "lavfi",
+    run([FF, "-y", "-f", "lavfi",
          "-i", f"color=c={CREAM}:s=1080x1920:r={FPS}:d={dur}",
-         "-vf", vf] + ENC + [f"{S}/{seg_id}.mp4"])
+         "-vf", vf] + ENC + [f"{S}/card.mp4"])
+
+
+def bed_filter(idx, start, end, style):
+    d = end - start
+    if d <= 1.0:
+        return None
+    if style == "a":
+        src = ("aevalsrc='0.020*(sin(2*PI*110*t)+sin(2*PI*110.6*t))"
+               "+0.015*(sin(2*PI*164.81*t)+sin(2*PI*165.5*t))"
+               "+0.011*sin(2*PI*220*t)+0.007*sin(2*PI*329.63*t)'")
+        eq = "lowpass=f=760,tremolo=f=0.12:d=0.3,aecho=0.7:0.4:311|429:0.24|0.17"
+        fin, fout = 6, 6
+    else:
+        src = ("aevalsrc='0.017*(sin(2*PI*110*t)+sin(2*PI*110.5*t))"
+               "+0.013*(sin(2*PI*146.83*t)+sin(2*PI*147.4*t))"
+               "+0.010*sin(2*PI*196*t)+0.008*sin(2*PI*220*t)'")
+        eq = "lowpass=f=700,tremolo=f=0.10:d=0.3,aecho=0.7:0.4:317|443:0.24|0.17"
+        fin, fout = 6, 7
+    ms = int(start * 1000)
+    delay = f",adelay={ms}|{ms}" if ms else ""
+    fin = min(fin, d / 3)
+    fout = min(fout, d / 3)
+    return (f"{src}:s=44100:d={d:.3f},{eq},"
+            f"afade=t=in:st=0:d={fin:.2f},afade=t=out:st={d-fout:.2f}:d={fout:.2f}"
+            f"{delay}[mus{idx}]")
 
 
 def main():
-    # resolve the disciples still (any filename starting with a known prefix)
-    disc = [f for f in os.listdir(A)
-            if "isciple" in f or "uzzled" in f or "onfusion" in f]
-    if not disc:
-        raise SystemExit("disciples still not found in assets/ — download it first")
-    segments = [list(s) for s in SEGMENTS]
-    for s in segments:
-        if s[2] == "DISCIPLES_STILL":
-            s[2] = disc[0]
+    os.makedirs(S, exist_ok=True)
 
-    total = sum(s[3] for s in segments)
-    print(f"total runtime: {total:.1f}s")
+    audio_dur = {n: dur_of(f"audio/{n}.mp3") for n, _, _ in BEATS}
+    spoken = {n: spoken_of(f"audio/{n}.mp3") for n, _, _ in BEATS}
+    card_dur = dur_of("audio/card.mp3")
 
-    for seg_id, kind, src, dur, zdir, cap, style in segments:
-        if kind == "still":
-            build_still(seg_id, src, dur, zdir, cap, style)
-        elif kind == "clip":
-            build_clip(seg_id, src, dur, cap, style)
-        else:
-            build_card(seg_id, dur, cap, style)
+    timeline = []
+    t = 0.0
+    audio_place = []
+    peak_start = None
+    for name, still, zdir in BEATS:
+        kjv = name in KJV
+        gap = KJV_GAP if kjv else GAP
+        vdur = LEAD + audio_dur[name] + gap
+        a_start = t + LEAD
+        audio_place.append((f"audio/{name}.mp3", a_start))
+        if name == PEAK:
+            peak_start = a_start
+        timeline.append((name, still, zdir, vdur, a_start, kjv))
+        t += vdur
+    card_vdur = LEAD + card_dur + CARD_HOLD
+    card_start = t
+    audio_place.append(("audio/card.mp3", card_start + LEAD))
+    total = t + card_vdur
+
+    # no-dead-air check
+    worst, worst_at, prev_end = 0.0, None, None
+    for name, _s, _z, _v, a_start, _k in timeline:
+        if prev_end is not None and a_start - prev_end > worst:
+            worst, worst_at = a_start - prev_end, name
+        prev_end = a_start + spoken[name]
+    print(f"total runtime: {total:.1f}s ({total/60:.2f} min); peak silence ({PEAK}) "
+          f"at {peak_start:.1f}s; worst spoken gap {worst:.2f}s before {worst_at}",
+          flush=True)
+    if worst > 2.5:
+        raise SystemExit(f"DEAD AIR: {worst:.2f}s before {worst_at}")
+
+    for i, (seg_id, still, zdir, vdur, _a, kjv) in enumerate(timeline):
+        build_still(seg_id, still, vdur, zdir, LEAD + spoken[seg_id],
+                    TEXT[seg_id], kjv, first=(i == 0))
+    build_card(card_vdur, TEXT["card"])
 
     with open(f"{S}/concat.txt", "w") as f:
-        for seg in segments:
-            f.write(f"file '{seg[0]}.mp4'\n")
-    run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", f"{S}/concat.txt",
+        for seg_id, *_ in timeline:
+            f.write(f"file '{seg_id}.mp4'\n")
+        f.write("file 'card.mp4'\n")
+    run([FF, "-y", "-f", "concat", "-safe", "0", "-i", f"{S}/concat.txt",
          "-c", "copy", f"{S}/video_silent.mp4"])
 
-    # ---- audio: narration at absolute offsets + soft music bed ----
-    inputs = []
-    filters = []
-    labels = []
-    for i, (path, start) in enumerate(AUDIO):
+    beds = [
+        (0.0, peak_start - 1.2, "b"),
+        (peak_start + audio_dur[PEAK] + 1.0, card_start - 0.8, "a"),
+    ]
+    inputs, filters, labels = [], [], []
+    for i, (path, start) in enumerate(audio_place):
         inputs += ["-i", path]
         ms = int(start * 1000)
         filters.append(f"[{i}:a]aresample=44100,adelay={ms}|{ms},volume=1.0[a{i}]")
         labels.append(f"[a{i}]")
-    pad = (f"aevalsrc='0.028*sin(2*PI*110*t)+0.022*sin(2*PI*164.81*t)"
-           f"+0.016*sin(2*PI*220*t)+0.010*sin(2*PI*329.63*t)':s=44100:d={MUSIC_END},"
-           f"lowpass=f=800,tremolo=f=0.15:d=0.35,"
-           f"afade=t=in:st=0:d=6,afade=t=out:st={MUSIC_END-5}:d=5[mus]")
-    filters.append(pad)
-    labels.append("[mus]")
-    n = len(labels)
+    bi = 0
+    for (bs, be, st) in beds:
+        bf = bed_filter(bi, bs, be, st)
+        if bf:
+            filters.append(bf)
+            labels.append(f"[mus{bi}]")
+            bi += 1
+    m = len(labels)
     filters.append("".join(labels) +
-                   f"amix=inputs={n}:duration=longest:normalize=0,"
-                   f"apad=whole_dur={total}[aout]")
-    run(["ffmpeg", "-y"] + inputs + ["-filter_complex", ";".join(filters),
-         "-map", "[aout]", "-t", str(total), "-c:a", "aac", "-b:a", "160k",
-         f"{S}/audio_mix.m4a"])
+                   f"amix=inputs={m}:duration=longest:normalize=0,"
+                   f"apad=whole_dur={total:.2f}[aout]")
+    run([FF, "-y"] + inputs + ["-filter_complex", ";".join(filters),
+        "-map", "[aout]", "-t", f"{total:.2f}", "-c:a", "aac", "-b:a", "160k",
+        f"{S}/audio_mix.m4a"])
 
-    # ---- final mux, sized under 25MB ----
-    run(["ffmpeg", "-y", "-i", f"{S}/video_silent.mp4", "-i", f"{S}/audio_mix.m4a",
-         "-map", "0:v", "-map", "1:a",
-         "-c:v", "libx264", "-preset", "slow", "-crf", "23",
-         "-maxrate", "1500k", "-bufsize", "3000k", "-pix_fmt", "yuv420p",
-         "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart",
-         "cloak-01-prototype.mp4"])
-    size = os.path.getsize("cloak-01-prototype.mp4") / 1e6
-    print(f"DONE: cloak-01-prototype.mp4  {size:.1f} MB, {total:.1f}s")
+    probe = subprocess.run(
+        [FF, "-i", f"{S}/audio_mix.m4a", "-af", "ebur128", "-f", "null", "-"],
+        capture_output=True, text=True)
+    lufs = None
+    for line in probe.stderr.splitlines():
+        line = line.strip()
+        if line.startswith("I:") and "LUFS" in line:
+            lufs = float(line.split()[1])
+    gain = max(-6.0, min(10.0, -15.0 - lufs)) if lufs is not None else 0.0
+    print(f"loudness: measured {lufs} LUFS, applying {gain:+.1f} dB", flush=True)
+
+    OUT = "mark-5_woman-touches-his-cloak.mp4"
+    A_KBPS, MUX = 96, 20
+    vcap = max(500, int(24.0 * 8000 / total) - A_KBPS - MUX)
+    size, crf = 0.0, 20
+    for crf in (20, 21, 22, 23, 24):
+        run([FF, "-y", "-i", f"{S}/video_silent.mp4",
+             "-i", f"{S}/audio_mix.m4a", "-map", "0:v", "-map", "1:a",
+             "-c:v", "libx264", "-preset", "slow", "-crf", str(crf),
+             "-maxrate", f"{vcap}k", "-bufsize", f"{vcap*2}k",
+             "-pix_fmt", "yuv420p",
+             "-af", f"volume={gain:.1f}dB,alimiter=limit=0.95",
+             "-c:a", "aac", "-b:a", f"{A_KBPS}k", "-movflags", "+faststart", OUT])
+        size = os.path.getsize(OUT) / 1e6
+        if size <= 24.3:
+            break
+        print(f"  {size:.1f} MB at crf {crf} — over, stepping up", flush=True)
+    print(f"DONE: {OUT}  {size:.1f} MB, {total:.1f}s (crf {crf}, vcap {vcap}k)",
+          flush=True)
 
 
 if __name__ == "__main__":
