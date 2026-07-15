@@ -19,7 +19,12 @@ money Cameron did not authorize. (The local/free tools are fine and required:
 
 ---
 
-## 🛑 BUILD LINE (Cameron, 2026-07-14): BUILD ROWS 1–100 ONLY. HOLD 101–200.
+## 🛑 BUILD LINE (updated 2026-07-15): FINISH IN-FLIGHT CLAIMS, THEN HOLD ALL NEW CLAIMS.
+
+The catalog is being restructured TODAY into three shelves (1–100 everyone /
+101–150 bridge / 151–200 member). Finish any row you have already CLAIMED, push it,
+then STOP claiming new rows until this file announces "THE-200 v2 IS LIVE." Built
+videos all keep their place — nothing already made is wasted.
 
 The catalog's back half is being reworked to a 100 wonderer / 50 bridge / 50 member
 structure (member tier = Bible-verses-that-carry-restoration-theology). Rows 101–200
