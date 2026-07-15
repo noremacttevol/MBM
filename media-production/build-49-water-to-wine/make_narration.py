@@ -62,7 +62,7 @@ SEGMENTS = [
      "Woman, what have I to do with thee? mine hour is not yet come."),
     ("n5", NARRATOR, "-22%", "-4Hz",
      "That sounds sharp in English, but it was not. Woman was a word of respect, "
-     "and the phrase was a gentle old idiom, something close to, is this really "
+     "and the phrase was a gentle old idiom, something like, is this really "
      "ours to fix, and is now the time? He was not brushing her off. He was "
      "wondering out loud whether this was the moment to begin."),
     # --- s6: his mother to the servants — the best advice in the Bible ---

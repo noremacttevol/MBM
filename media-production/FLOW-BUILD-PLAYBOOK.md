@@ -297,3 +297,25 @@ launches — it reloads at 16:9 every gen, so the driver MUST (and now does) re-
 each run. Composer still renders intermittently on cold loads; a gen occasionally needs
 a rerun. Enter submits; result download via getMediaUrl works. NET: the driver is now a
 reliable $0 still factory on this machine.
+## Machine A, 2026-07-15 (later) — two blockers found + one fixed
+- **jesus_face_gate.py v3 FALSE-NEGATIVED every compliant sheet (FIXED).** The byte-
+  identical JESUS LOCK v3 paragraph the gate REQUIRES itself contains the words
+  "caucasian / blue-eyed / blond / halo" (as negations: "Never caucasian…"). The BANNED-
+  drift scan matched those words INSIDE the very paragraph it demands, so a correct v3
+  prompt sheet failed the gate (4 FAILs per Jesus shot). No v3 build could ever pass.
+  Fix (committed): blank out exact LOCK_V3 occurrences before the banned-word scan
+  (`scan = text.replace(LOCK_V3, "\n"*count)`), preserving line numbers. Verified: a
+  compliant sheet PASSes and a real drift line ("Jesus, a caucasian man with blue eyes")
+  still FAILs. Any machine starting a v3 REDO or new build needs this fix or it's stuck.
+- **flow_driver.py `gen` submit still does NOT trigger a generation (UNRESOLVED).** Full
+  prompt now registers in the box (window.__mbmBox reports 1083 chars) and the
+  `arrow_forward` button `.click()` returns ok — but NO new image appears (gallery stays
+  at its prior count over 5+ min, confirmed with a separate reload+NAMES_JS check). The
+  button is found and clicked but generation never starts — almost certainly the Create
+  button is disabled because React never saw an onChange for the inserted text (CDP
+  insert_text into the focused box isn't registering as a controlled-input change). Per
+  the standing 15-min / 2-strike rule I stopped after several attempts. NEXT: either the
+  Claude-extension path, or make React register the input (dispatch a native
+  InputEvent/'input' + 'change' on the real box, or type char-by-char with page.keyboard.type
+  so keydown/keyup fire), then confirm the arrow un-disables before clicking. Do NOT sink
+  more than 15 min into it — hand off if it resists.
