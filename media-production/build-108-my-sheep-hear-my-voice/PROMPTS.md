@@ -1,0 +1,74 @@
+# STILL PROMPTS — Video #108: My Sheep Hear My Voice (john-10_my-sheep-hear-my-voice)
+
+John 10:1-30 (esp. 10:27-28). STILLS-ONLY (Law E) — ten painted stills. BRIDGE/MILK.
+CARE FLAGS: none — GREEN. Warm, safe, comforting; no wolves shown attacking, no violence.
+
+FACE LAW v3 (Cameron, 2026-07-15): Jesus's FACE IS SHOWN — the SAME face as the master
+reference (candidate 1) — as the Good Shepherd in the shots he appears in (s2,s3,s4,s6,
+s7,s8,s9,s10), staged naturally, prompt-driven by the byte-identical JESUS LOCK v3 (master
+portrait is the QC target; ANY drift = regenerate; a bust-portrait --ref makes Nano Banana
+copy it, so scene shots are prompt-driven). Each Jesus shot carries the byte-identical
+JESUS LOCK v3 paragraph and a REF: jesus-master-ref line. NO bright ring or outline around
+his head — his robe is a working shepherd's cream wool, no glow.
+
+SHEEP LOCK: gentle, soft, cream-and-white woolly sheep and a few small lambs, calm and
+unafraid, following close. (Sheep are ANIMALS and may be woolly white — the "only Jesus
+wears cream" law is about human GARMENTS; the sheep are fine.) The PEOPLE who appear
+(s7, s10) — ordinary folk who are "his sheep" — wear darker earth colours; only Jesus
+wears the cream robe.
+
+STILL STYLE BLOCK (prepended to every prompt, exactly):
+Beautiful hand-painted 2D animation style, reverent and warm, like a classic
+illustrated storybook of scripture brought to life. Soft painterly brushstroke
+textures, glowing golden light, muted earth tones with warm gold highlights.
+First-century Judea. Sacred, hushed tone. Not photorealistic. No text or captions
+in the image. Historically modest clothing: rough-woven wool and linen in undyed
+earth colors. No modern objects.
+
+Every figure has two arms, two hands, two legs and one head (anatomy guard). Every
+prompt ends with "One single tall upright vertical scene painted edge to edge, no panels."
+Skip any comic-strip or multi-panel variant the model returns.
+
+MUST NEVER SHOW: Jesus's face different from the master; a bright ring or outline around
+his head; any person other than Jesus in cream/off-white; wolves harming sheep, blood or
+violence; any modern object; any baked-in text; a multi-panel or comic-strip layout.
+
+---
+
+## s1-the-sheepfold-at-dawn
+[STILL STYLE BLOCK] Soft pale dawn over green Judean hill-country, a simple stone-walled sheepfold on a gentle slope with a low wooden gate, and inside it a flock of gentle woolly cream-and-white sheep and small lambs beginning to stir in the early light. No people yet — just the quiet fold, the sheep, the dewy grass and the tender rose-gold morning sky. Warm soft dawn light, deep peace, green hills beyond. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s2-the-shepherd-comes
+REF: jesus-master-ref — master face is the QC target (prompt-driven; no --ref attached).
+[STILL STYLE BLOCK] Warm early-morning light on the green hillside. Jesus, as the good shepherd, comes to the low wooden gate of the stone sheepfold, one hand on the gate, his face warm and glad as he looks in on the flock, a plain wooden shepherd's staff in his other hand. The gentle cream-and-white sheep lift their heads toward him, knowing him. He wears one plain working cream wool robe; there are no other people in cream. Warm gold morning light, green hills. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s3-he-calls-them-by-name
+REF: jesus-master-ref — master face is the QC target (prompt-driven; no --ref attached).
+[STILL STYLE BLOCK] Jesus stands just inside the open fold, leaning down warmly toward one particular sheep with his hand out to it, his lips parted as he speaks — calling it by name — while the whole flock of gentle cream-and-white sheep turns and presses toward him, knowing his voice. His face is toward the sheep, tender and personal. He wears the plain cream wool robe; no other person is in the frame. Warm morning light, green pasture. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s4-they-follow-him
+REF: jesus-master-ref — master face is the QC target (prompt-driven; no --ref attached).
+[STILL STYLE BLOCK] Jesus walks out ahead along a green pasture path, staff in hand, glancing back warmly over his shoulder toward the flock, and the whole line of gentle cream-and-white sheep and lambs follows close behind him in a trusting stream, right at his heels. His face is turned back toward them, glad and sure. He wears the plain cream wool robe; no other people. Warm golden morning light, green hills, a winding path. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s5-green-pastures
+[STILL STYLE BLOCK] A wide, restful pasture of deep green grass beside a clear still stream in warm midday light, gentle cream-and-white sheep and lambs grazing peacefully and drinking, scattered and safe across the meadow, soft hills rising beyond. No people or figure in this frame — only the flock at rest in a place of plenty and quiet. Warm gentle daylight, lush green, still water, deep peace. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s6-the-lamb-carried
+REF: jesus-master-ref — master face is the QC target (prompt-driven; no --ref attached).
+[STILL STYLE BLOCK] A tender close moment: Jesus has gathered a small tired lamb up into his arms and holds it gently against his chest, one hand cradling it, his face bent down toward it full of warmth and care, as the rest of the flock stands calm around his feet. His face is shown, gentle and loving. He wears the plain cream wool robe; no other people. Warm afternoon light, green pasture, deep tenderness. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s7-the-people-who-are-his-sheep
+REF: jesus-master-ref — master face is the QC target (prompt-driven; no --ref attached).
+[STILL STYLE BLOCK] The pasture scene gently shifts to show that the sheep are really PEOPLE: Jesus stands among a small warm gathering of ordinary folk of every age — a tired mother, an old man, a young worker, a couple of children — in dun, brown, ochre, olive and maroon wool, who have drawn close around him and lifted their faces to his voice, at rest and unafraid, a few gentle sheep still among them. His face is toward them, warm and knowing. Only Jesus wears cream; all the people wear earth colours. Warm golden light, deep belonging. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s8-in-his-hand
+REF: jesus-master-ref — master face is the QC target (prompt-driven; no --ref attached).
+[STILL STYLE BLOCK] A warm, intimate close view of Jesus's strong open hands held cupped and protective, and a small lamb resting safe and content within them; behind, softly out of focus, Jesus's warm face looks down at it with love, and the green pasture glows gently. The picture says: held, and safe, and never let go. His face is shown, tender. He wears the plain cream wool robe; no other people. Warm golden light, deep security. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s9-leading-home-at-evening
+REF: jesus-master-ref — master face is the QC target (prompt-driven; no --ref attached).
+[STILL STYLE BLOCK] Warm golden evening: Jesus leads the whole flock of gentle cream-and-white sheep home along a hillside path toward the safe stone fold, his staff in hand, walking ahead and a little turned back toward them, the low sun casting long warm light across the green hills. The sheep follow close and content. His face is shown, calm and glad. He wears the plain cream wool robe; no other people in cream. Warm gold evening light, long soft shadows, the fold ahead. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
+
+## s10-the-voice-that-calls-you
+REF: jesus-master-ref — master face is the QC target (prompt-driven; no --ref attached).
+[STILL STYLE BLOCK] A warm, direct closing image: Jesus stands at the open gate of the fold at golden hour, his face turned partly toward the viewer, kind and inviting, one hand extended gently outward toward us as if calling one more to come in — the shepherd's voice reaching out past the flock to whoever is still outside. A few gentle sheep rest safe behind him inside the fold. His face is shown, warm and welcoming; NO bright ring or outline around his head, only soft evening gold. He wears the plain cream wool robe. JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
