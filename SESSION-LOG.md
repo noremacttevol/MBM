@@ -1,3 +1,31 @@
+## 2026-07-14 — #44 The Two Debtors built via FLOW, 0 API cost (Computer B / Leighton)
+
+**Video #44 The Two Debtors (Luke 7:36-50)** built end-to-end on Elli's Windows
+laptop acting as **Computer B** (operator Leighton), Phase-1 stills-only,
+`luke-7_two-debtors.mp4` (4:18, 20.1 MB, ~-15 LUFS). **Awaiting Cameron's yes.
+Published to the gallery** (`index.html`, now 44 videos).
+
+- **Old faithful way — Google Flow, $0.** Claimed #44 first (Law A: ASSIGNMENTS +
+  STATUS, pushed before generating). Wrote a face-gate-PASS prompt sheet, edge-tts
+  narration, and a Windows `build.py` (Georgia fonts, ffmpeg on PATH, self-measuring
+  timeline + No-Dead-Air raise + two sacred silences), then generated all 8 stills in
+  Flow (Nano Banana 2, 9:16). Pulled each at **2K (1536x2752)** — crisper than #47's
+  768px "1K original" — and mapped by content into `assets/`.
+- **The hard case handled: Jesus is AT the table.** Face Law held by staging him only
+  from behind (s1,s3,s4), over-the-shoulder (s7), or small/distant through a doorway
+  (s8) — face never shown, verified on rendered frames. The parable (s5 two debtors,
+  s6 debts torn up) has NO Jesus figure. Two Flow variations came back as comic-strip
+  triptychs (s3); used the single-scene variation instead.
+- **GREEN milk story:** forgiven much → loves much. The woman's love is the size of the
+  debt she knows was cancelled; Simon "loves little" because he thinks he owes little.
+  Two sacred silences on the two turns — j3 (7:42 "he frankly forgave them both",
+  the verdict) and j4 (7:47 "for she loved much", the payoff). Closing card is an
+  invitation ("how much do you believe you have been forgiven?").
+- **QC all green:** face gate PASS; verbatim captions, KJV cream-italic legible on the
+  lamplit dinner / grey parable-room / dawn-street frames; no-dead-air 1.88s worst;
+  wardrobe held (Jesus cream, Simon indigo, the woman wine-red loose hair) across every
+  beat. Detail in `build-44-two-debtors/BUILD-STATUS.md`.
+
 ## 2026-07-14 — #47 Houses on Rock and Sand built via FLOW, 0 API cost (Machine A)
 
 **Video #47 Houses on Rock and Sand (Matt 7:24-27)** built end-to-end on Machine A,
