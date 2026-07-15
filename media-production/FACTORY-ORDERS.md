@@ -36,47 +36,31 @@ MEMBER (see THE-200.md). QUEUE.md is regenerated to match. All holds are lifted.
   card; the closing card also carries a one-line pointer to the matching Gospel
   Library topic named in THE-200.md. No church logos, footage, or manual text ever.
 
-## MACHINE ASSIGNMENTS (v2)
+## MACHINE ASSIGNMENTS (v3 — covers BOTH the redo and the remaining new builds)
 
-| Machine | Rows (in QUEUE.md) |
+| Machine | Rows 1–200, yours completely |
 |---|---|
-| **A** | 45–83 |
-| **B** | 84–120 (plus finishing 72; plus the row-91 Gethsemane fix) |
-| **C** | 121–160 (skip 135 while Machine D's claim is on it) |
-| **D** | 161–200 (plus finishing 135) |
+| **A** | 1–50 |
+| **B** | 51–100 |
+| **C** | 101–150 |
+| **D** | 151–200 |
 
-Your NEXT job = the lowest-numbered row **in your range** where `Built` is ⬜ and
-`Claim` is empty. Never touch a row outside your range or one another machine claimed.
-(#41 and #48 are already built — the queue tells you what's left; just skip built rows.)
-
----
-
-## CHROME PREFLIGHT (do this FIRST, before reading anything else — no browser-guessing, ever)
-
-1. List connected browsers with your browser tools. If exactly one browser on THIS
-   computer is connected, select it and move on.
-2. Open (or reuse) a tab at labs.google/fx/tools/flow. Confirm the ULTRA badge and
-   that image generation shows "0 credits" with Nano Banana 2 available.
-3. If NO browser connects after two attempts, do NOT flail, do NOT try other tools,
-   do NOT burn context experimenting. Print exactly ONE line and stop:
-   "BLOCKED: Chrome extension not connected on this computer — open Chrome, click
-   the Claude extension icon, enable this session, then tell me 'go'."
-   When Cameron says go, retry once and continue.
-4. Never screenshot repeatedly to find buttons — read_page/find first; screenshots
-   only when the playbook says so.
-
-## SESSION HYGIENE (context is the scarcest resource)
-
-- One chat session builds AT MOST 4 videos, then hands off. Long sessions drown in
-  context and get slow and stupid. The REPO is the memory, not the chat: QUEUE.md
-  holds all state, so a fresh session loses nothing.
-- HANDOFF = (1) push everything (finished or not — a claimed row with partial work
-  pushed is fine, note it in the Claim column), (2) if you hit any NEW gotcha this
-  session, append it as ONE dated bullet to FLOW-BUILD-PLAYBOOK.md and push,
-  (3) say exactly: "SESSION DONE — built rows X, Y, Z. Start a fresh chat."
-- Do NOT write narrative session logs. Do NOT re-read files the playbook already
-  summarizes. Do NOT explain what you're doing between steps. Every token spent
-  narrating is a token not spent building.
+Within YOUR range, work in this order:
+1. **BOOTSTRAP (whichever machine gets here first):** if
+   media-production/JESUS-MASTER-REF/ is EMPTY — generate THREE candidate portraits
+   of the standardized Jesus in Flow (the locked painted style; JESUS LOCK v3
+   description; bust portrait + three-quarter + full-figure for each candidate is
+   ideal, minimum one clear bust portrait each), save to
+   media-production/JESUS-MASTER-REF/candidates/, push, then tell Cameron in ONE
+   line to pick 1, 2 or 3. When he picks, move the winner's images to
+   JESUS-MASTER-REF/ as jesus-face.jpeg (+ any extra angles), delete the losers,
+   push. If another machine already pushed candidates, skip this.
+2. **v3 REDO of built rows in your range** (see the v3 REDO section): oldest row
+   first. Skip any row already noted "v3 REDONE".
+3. **New builds** of unbuilt rows in your range, lowest number first.
+If JESUS-MASTER-REF/ is empty and candidates are already pushed awaiting Cameron's
+pick, do NOT idle and do NOT build Jesus stills — build the narration + prompts +
+non-Jesus stills of your next row, or say in one line you are blocked on the pick.
 
 ## RUN UNATTENDED
 
