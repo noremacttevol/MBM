@@ -190,7 +190,7 @@ sheet ready) · **Built** (final mp4 exists) · **Appr** (Cameron approved) ·
 | 121 | The last supper | Luke 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 122 | Washing the disciples' feet | John 13 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 123 | The intercessory prayer | John 17 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 124 | Gethsemane | Luke 22 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine C 2026-07-14 |
+| 124 | Gethsemane | Luke 22 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 12 stills, 4:54, 22.9MB) |
 | 125 | The betrayal kiss | Matt 26 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 126 | Peter's denial and the look | Luke 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 127 | Silent before accusers | Mark 14 | ⬜ | ⬜ | ⬜ | ⬜ |  |

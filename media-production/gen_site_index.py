@@ -36,7 +36,7 @@ TITLES = {
     40: "The Friend at Midnight", 43: "The Wedding Garment",
     41: "Counting the Cost", 42: "The Barren Fig Tree Spared",
     47: "Houses on Rock and Sand", 48: "New Wine, Old Bottles",
-    84: "Calling the Fishermen",
+    84: "Calling the Fishermen", 124: "Gethsemane",
 }
 
 SMALL = {"of", "and", "the", "a", "an", "in", "on", "to", "his", "her"}
