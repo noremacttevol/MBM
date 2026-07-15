@@ -1,224 +1,315 @@
 #!/usr/bin/env python3
 """Assemble Story Video #6 — The Two Sons (Matthew 21:28-32).
-Hybrid storybook format per PRODUCTION-BIBLE.md: painted stills with Ken Burns
-drift + 1 animated money-moment clip (Shot 4 "He went"), narration (edge-tts),
-serif captions, KJV red-letter lines, closing question card on cream #F7F2E9.
 
-Two-Voice Law: narrator modern American; Jesus voice speaks ONLY exact KJV
-(Matthew 21:31a — the question; Matthew 21:31b — the verdict, last spoken
-words). Music fades to full silence BEFORE the crowd's answer ("the one who
-first said no") so the peak lands in sacred quiet.
+v3 REBUILD (2026-07-15, Machine A): PHASE-1 STILLS-ONLY, face-shown Jesus in the framing
+shots (locked to the master ref), continuity locks on the father, the two sons and the
+leaders. Caption-v2 (wide bottom, chunked). Two-voice: narrator en-US-AndrewNeural, KJV
+en-US-ChristopherNeural. KJV lines (j1 Matt 21:31a, j2 Matt 21:31b) render cream-italic;
+the music dies to true silence around n4 (the crowd's answer). Closing card is an invitation.
 
-Opens with the "why Jesus told it" bookend (pattern Cameron approved on #8).
-
-Shot 4 clip is the v2 retake: Cameron rejected v1 for sweat appearing
-instantly when he wiped his head — looked AI. Fix per PRODUCTION-BIBLE 5b:
-positive-only phrasing, no sweat/wipe beat at all, steady calm work only.
-
-Output: 1080x1920 H.264, <25MB.
+Output: matthew-21_two-sons.mp4, 1080x1920 H.264 30fps, <25MB.
 """
 import os
 import subprocess
+import textwrap
+
+import make_narration
 
 A = "assets"
 S = "segs"
 FPS = 30
+FF = "ffmpeg"
+FPROBE = "ffprobe"
 SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
-SERIF_BI = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf"
+SERIF_BI = "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"
 CREAM = "0xF7F2E9"
 INK = "0x3B2A1E"
 
-ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "18",
+ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "16",
        "-pix_fmt", "yuv420p", "-r", str(FPS), "-an"]
 
-STILL_REFUSE = "shot1-i-will-not.jpeg"
-STILL_FALSEYES = "shot2-false-yes.jpeg"
-STILL_WALL = "shot3-stone-wall.jpeg"
-STILL_WENT = "went.jpeg"  # was a motion clip; replaced with a still (Cameron, 2026-07-11) — Phase-1 stills-only
-STILL_EMPTY = "shot5-empty-row.jpeg"
-STILL_PRIDE = "shot6-fathers-pride.jpeg"
+S1 = "s1-jesus-tells.jpeg"
+S2 = "s2-first-refuses.jpeg"
+S3 = "s3-second-yes.jpeg"
+S4 = "s4-first-relents.jpeg"
+S5 = "s5-empty-row.jpeg"
+S6 = "s6-jesus-asks.jpeg"
+S7 = "s7-turns-leaders.jpeg"
+S8 = "s8-verdict.jpeg"
 
-# (id, kind, source, duration_s, zoom_dir, caption, caption_style)
-SEGMENTS = [
-    # Opening bookend — why Jesus told this story. Uses the vineyard
-    # landscape the story lives in; it returns later as the empty row.
-    ("s00", "still", STILL_EMPTY, 12.0, "out",
-     "Jesus told this story to religious leaders —\n"
-     "people who were sure they had already\nsaid yes to God.\n"
-     "He told it so they would hear themselves in it.", "n"),
-    ("s01", "still", STILL_REFUSE, 11.5, "in",
-     "A father told his first son:\nGo work in the vineyard today.\n"
-     "The son said, \u201cI will not.\u201d\n"
-     "Later he changed his mind — and went.", "n"),
-    ("s02", "still", STILL_FALSEYES, 9.5, "in",
-     "The father told his second son the same thing.\n"
-     "That son said, \u201cYes, I will go.\u201d\nAnd didn't.", "n"),
-    # The no that couldn't let go. Was a silent beat — Cameron rejected the
-    # first cut for 16 seconds of dead air here ("it just stops talking").
-    # Narration now carries every scene. No silent stretches, ever.
-    ("s03", "still", STILL_WALL, 9.0, "in",
-     "The first son meant his no.\nBut it wouldn't leave him alone.\n"
-     "All morning, the vineyard kept pulling at him.", "n"),
-    # "He went" — now a painted still (motion clip removed, Phase-1 stills-only).
-    ("s04", "still", STILL_WENT, 8.0, "in",
-     "So he got up. And he went.\nNo announcement, no apology.\n"
-     "He went back to the vineyard, and he worked.", "n"),
-    ("s05", "still", STILL_EMPTY, 9.5, "in",
-     "The row the second son promised to work\nstayed empty all day.\n"
-     "Then Jesus asked the crowd a question.", "n"),
-    ("s06a", "still", STILL_PRIDE, 5.5, "in",
-     "\u201cWhether of them twain\ndid the will of his father?\u201d", "kjv"),
-    # PEAK — the answer lands in full silence (music ends before this).
-    # Narrator gives only the plain meaning — never re-quotes Jesus's KJV
-    # (Cameron's rule, 2026-07-08).
-    ("s06b", "still", STILL_PRIDE, 9.5, "out",
-     "He was asking: which of the two\ndid what his father wanted?\n"
-     "The crowd answered:\nthe one who first said no.", "n"),
-    ("s06c", "still", STILL_PRIDE, 7.0, "in",
-     "Then he turned to the religious leaders —\n"
-     "the ones who were sure\nthey were the second son.", "n"),
-    ("s06d", "still", STILL_FALSEYES, 9.5, "out",
-     "\u201cVerily I say unto you, That the publicans\n"
-     "and the harlots go into the kingdom of God\nbefore you.\u201d", "kjv"),
-    # Held 13s AND read aloud by the narrator — the first cut ended too fast
-    # to read (Cameron's catch, 2026-07-08).
-    ("s07", "card", None, 13.0, None,
-     "Have you ever said no to something —\nmaybe loudly — and found yourself\n"
-     "moving toward it anyway because\npart of you couldn't let it go?", "close"),
+TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
+KJV = {"j1", "j2"}
+PEAK = "n4"   # the crowd's answer — sacred silence
+CARD_TEXT = ("It was never about the perfect yes. The son who changed his "
+             "mind is the one who went. It is not too late to turn and go.")
+
+BEATS = [
+    ("n0", S1, "in"),
+    ("n1", S2, "in"),
+    ("n2", S3, "in"),
+    ("n2b", S3, "out"),
+    ("n2c", S4, "in"),
+    ("n2d", S4, "out"),
+    ("n3", S5, "in"),
+    ("j1", S6, "in"),
+    ("n4", S6, "out"),
+    ("n5", S7, "in"),
+    ("j2", S8, "in"),
 ]
 
-# narration placements: (audio file, absolute start seconds)
-AUDIO = [
-    ("audio/n0.mp3", 0.5),    # s00 0-12     why Jesus told it (11.1s)
-    ("audio/n1.mp3", 12.5),   # s01 12-23.5  first son: "I will not" (10.6s)
-    ("audio/n2.mp3", 24.0),   # s02 23.5-33  second son: "Yes, I will go" (7.0s)
-    ("audio/n2b.mp3", 31.6),  # s02          "And didn't." (1.2s)
-    ("audio/n2c.mp3", 33.6),  # s03 33-42     the no that pulled at him (7.9s)
-    ("audio/n2d.mp3", 42.0),  # s04 42-50     "So he got up..." (8.9s, tails 0.9s into s05)
-    ("audio/n3.mp3", 51.4),   # s05 50-59.5   empty row + "Jesus asked" (7.6s)
-    ("audio/j1.mp3", 60.0),   # s06a 59.5-65  KJV Matt 21:31a (4.2s)
-    ("audio/n4.mp3", 65.7),   # s06b 65-74.5  plain meaning + the answer (8.4s) — PEAK
-    ("audio/n5.mp3", 75.0),   # s06c 74.5-81.5 turned to the leaders (5.9s)
-    ("audio/j2.mp3", 82.0),   # s06d 81.5-91  KJV Matt 21:31b (8.5s) — last words
-    ("audio/n6.mp3", 91.8),   # s07 91-104    closing question read aloud (10.4s)
-]
-
-MUSIC_END = 65.5  # fully silent before the crowd's answer — the peak is quiet
+LEAD = 0.28
+GAP = 0.72
+KJV_GAP = 1.20
+CARD_HOLD = 4.2
 
 
 def run(cmd):
-    print(">>", " ".join(str(c) for c in cmd)[:160])
+    print(">>", " ".join(str(c) for c in cmd)[:130], flush=True)
     subprocess.run(cmd, check=True, capture_output=True)
 
 
-def caption_filter(seg_id, text, style):
-    if not text:
-        return None
-    tf = f"{S}/{seg_id}.txt"
-    with open(tf, "w") as f:
-        f.write(text)
-    if style == "kjv":
-        font, size, color = SERIF_BI, 46, "0xFFF3DC"
+def dur_of(path):
+    out = subprocess.run(
+        [FPROBE, "-v", "error", "-show_entries", "format=duration",
+         "-of", "csv=p=0", path], capture_output=True, text=True)
+    return float(out.stdout.strip())
+
+
+def spoken_of(path):
+    tmp = f"{S}/_spoken.wav"
+    run([FF, "-y", "-v", "error", "-i", path, "-af",
+         "areverse,silenceremove=start_periods=1:start_threshold=-50dB:"
+         "start_duration=0.02,areverse", "-c:a", "pcm_s16le", tmp])
+    return dur_of(tmp)
+
+
+def sentences(text):
+    import re
+    return [p for p in re.split(r"(?<=[.!?;:]) +", text) if p]
+
+
+def chunk_caption(text, width, max_lines):
+    out, cur = [], ""
+    for s in sentences(text):
+        cand = (cur + " " + s).strip()
+        if len(textwrap.wrap(cand, width)) <= max_lines:
+            cur = cand
+            continue
+        if cur:
+            out.append(cur)
+        if len(textwrap.wrap(s, width)) <= max_lines:
+            cur = s
+        else:
+            piece = ""
+            for frag in s.split(", "):
+                cand2 = (piece + ", " + frag).strip(", ").strip()
+                if len(textwrap.wrap(cand2, width)) <= max_lines:
+                    piece = cand2
+                else:
+                    if piece:
+                        out.append(piece)
+                    piece = frag
+            cur = piece
+    if cur:
+        out.append(cur)
+    return out
+
+
+def caption_layers(seg_id, dur, spoken_end, text, kjv):
+    if kjv:
+        font, size, color, width, maxl = SERIF_BI, 46, "0xFFF3DC", 38, 3
     else:
-        font, size, color = SERIF, 42, "white"
-    return (f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
-            f"fontcolor={color}:line_spacing=14:x=(w-text_w)/2:y=h-420:"
-            f"shadowcolor=black@0.85:shadowx=2:shadowy=2:"
-            f"box=1:boxcolor=black@0.30:boxborderw=18")
+        font, size, color, width, maxl = SERIF, 34, "white", 48, 2
+    chunks = chunk_caption(text, width, maxl)
+    total = sum(len(c) for c in chunks) or 1
+    t0, t1 = 0.15, max(0.6, min(dur - 0.2, spoken_end + 0.35))
+    filters, labels = [], []
+    acc = 0
+    for i, c in enumerate(chunks):
+        cs = t0 + (t1 - t0) * acc / total
+        acc += len(c)
+        ce = t0 + (t1 - t0) * acc / total
+        tf = f"{S}/{seg_id}_{i}.txt"
+        with open(tf, "w") as f:
+            f.write("\n".join(textwrap.wrap(c, width)))
+        fo = max(cs, ce - 0.35)
+        filters.append(
+            f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
+            f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
+            f"fontcolor={color}:line_spacing=13:x=(w-text_w)/2:"
+            f"y=h-120-text_h:"
+            f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
+            f"box=1:boxcolor=black@0.55:boxborderw=22,"
+            f"fade=t=in:st={cs:.2f}:d=0.35:alpha=1,"
+            f"fade=t=out:st={fo:.2f}:d=0.35:alpha=1[cap{seg_id}{i}]")
+        labels.append(f"[cap{seg_id}{i}]")
+    return filters, labels
 
 
-def build_still(seg_id, src, dur, zdir, cap, style):
+def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, kjv, first):
     frames = int(dur * FPS)
     if zdir == "in":
-        z = f"1.001+0.12*on/{frames}"
+        z = f"1.001+0.09*on/{frames}"
     else:
-        z = f"1.121-0.12*on/{frames}"
-    vf = (f"scale=2160:3840,setsar=1,"
-          f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
-          f"d={frames}:s=1080x1920:fps={FPS}")
-    capf = caption_filter(seg_id, cap, style)
-    if capf:
-        vf += "," + capf
-    if seg_id == "s00":
-        vf += ",fade=t=in:st=0:d=1.2"
-    if seg_id == "s06d":
-        vf += f",fade=t=out:st={dur-1.2}:d=1.2"
-    run(["ffmpeg", "-y", "-loop", "1", "-i", f"{A}/{src}",
-         "-t", str(dur), "-vf", vf] + ENC + [f"{S}/{seg_id}.mp4"])
+        z = f"1.091-0.09*on/{frames}"
+    base = (f"[0:v]scale=2160:3868,setsar=1,"
+            f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
+            f"d={frames}:s=2160x3840:fps={FPS},"
+            f"scale=1080:1920:flags=lanczos")
+    capf, labels = caption_layers(seg_id, dur, spoken_end, cap_text, kjv)
+    tail = ",fade=t=in:st=0:d=1.0" if first else ""
+    steps, cur = [], "b"
+    for i, lab in enumerate(labels):
+        last = (i == len(labels) - 1)
+        nxt = "v" if last else f"b{i+1}"
+        steps.append(f"[{cur}]{lab}overlay=format=auto"
+                     + (tail if last else "") + f"[{nxt}]")
+        cur = nxt
+    fc = f"{base}[b];" + ";".join(capf) + ";" + ";".join(steps)
+    run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
+         "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
 
 
-def build_clip(seg_id, src, dur, cap, style):
-    vf = f"scale=1080:1920:flags=lanczos,setsar=1,fps={FPS}"
-    capf = caption_filter(seg_id, cap, style)
-    if capf:
-        vf += "," + capf
-    run(["ffmpeg", "-y", "-i", f"{A}/{src}", "-t", str(dur),
-         "-vf", vf] + ENC + [f"{S}/{seg_id}.mp4"])
-
-
-def build_card(seg_id, dur, text, style):
-    tf = f"{S}/{seg_id}.txt"
+def build_card(dur, text):
+    tf = f"{S}/card.txt"
     with open(tf, "w") as f:
-        f.write(text)
-    font, size = SERIF, 50
-    vf = (f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
-          f"fontcolor={INK}:line_spacing=22:x=(w-text_w)/2:y=(h-text_h)/2,"
+        f.write("\n".join(textwrap.wrap(text, width=30)))
+    vf = (f"drawtext=fontfile={SERIF}:textfile={tf}:fontsize=50:"
+          f"fontcolor={INK}:line_spacing=24:x=(w-text_w)/2:y=(h-text_h)/2,"
           f"fade=t=in:st=0:d=0.8,fade=t=out:st={dur-0.8}:d=0.8")
-    run(["ffmpeg", "-y", "-f", "lavfi",
+    run([FF, "-y", "-f", "lavfi",
          "-i", f"color=c={CREAM}:s=1080x1920:r={FPS}:d={dur}",
-         "-vf", vf] + ENC + [f"{S}/{seg_id}.mp4"])
+         "-vf", vf] + ENC + [f"{S}/card.mp4"])
+
+
+def bed_filter(idx, start, end, style):
+    d = end - start
+    if d <= 1.0:
+        return None
+    if style == "a":
+        src = ("aevalsrc='0.020*(sin(2*PI*110*t)+sin(2*PI*110.6*t))"
+               "+0.015*(sin(2*PI*164.81*t)+sin(2*PI*165.5*t))"
+               "+0.011*sin(2*PI*220*t)+0.007*sin(2*PI*329.63*t)'")
+        eq = "lowpass=f=760,tremolo=f=0.12:d=0.3,aecho=0.7:0.4:311|429:0.24|0.17"
+        fin, fout = 6, 6
+    else:
+        src = ("aevalsrc='0.017*(sin(2*PI*110*t)+sin(2*PI*110.5*t))"
+               "+0.013*(sin(2*PI*146.83*t)+sin(2*PI*147.4*t))"
+               "+0.010*sin(2*PI*196*t)+0.008*sin(2*PI*220*t)'")
+        eq = "lowpass=f=700,tremolo=f=0.10:d=0.3,aecho=0.7:0.4:317|443:0.24|0.17"
+        fin, fout = 6, 7
+    ms = int(start * 1000)
+    delay = f",adelay={ms}|{ms}" if ms else ""
+    fin = min(fin, d / 3)
+    fout = min(fout, d / 3)
+    return (f"{src}:s=44100:d={d:.3f},{eq},"
+            f"afade=t=in:st=0:d={fin:.2f},afade=t=out:st={d-fout:.2f}:d={fout:.2f}"
+            f"{delay}[mus{idx}]")
 
 
 def main():
-    total = sum(s[3] for s in SEGMENTS)
-    print(f"total runtime: {total:.1f}s")
+    os.makedirs(S, exist_ok=True)
 
-    for seg_id, kind, src, dur, zdir, cap, style in SEGMENTS:
-        if kind == "still":
-            build_still(seg_id, src, dur, zdir, cap, style)
-        elif kind == "clip":
-            build_clip(seg_id, src, dur, cap, style)
-        else:
-            build_card(seg_id, dur, cap, style)
+    audio_dur = {n: dur_of(f"audio/{n}.mp3") for n, _, _ in BEATS}
+    spoken = {n: spoken_of(f"audio/{n}.mp3") for n, _, _ in BEATS}
+    card_dur = dur_of("audio/n6.mp3")
+
+    timeline = []
+    t = 0.0
+    audio_place = []
+    peak_start = None
+    for name, still, zdir in BEATS:
+        kjv = name in KJV
+        gap = KJV_GAP if kjv else GAP
+        vdur = LEAD + spoken[name] + gap
+        a_start = t + LEAD
+        audio_place.append((f"audio/{name}.mp3", a_start))
+        if name == PEAK:
+            peak_start = a_start
+        timeline.append((name, still, zdir, vdur, a_start, kjv))
+        t += vdur
+    card_vdur = LEAD + card_dur + CARD_HOLD
+    card_start = t
+    audio_place.append(("audio/n6.mp3", card_start + LEAD))
+    total = t + card_vdur
+
+    worst, worst_at, prev_end = 0.0, None, None
+    for name, _s, _z, _v, a_start, _k in timeline:
+        if prev_end is not None and a_start - prev_end > worst:
+            worst, worst_at = a_start - prev_end, name
+        prev_end = a_start + spoken[name]
+    print(f"total runtime: {total:.1f}s ({total/60:.2f} min); peak silence ({PEAK}) "
+          f"at {peak_start:.1f}s; worst spoken gap {worst:.2f}s before {worst_at}",
+          flush=True)
+    if worst > 2.5:
+        raise SystemExit(f"DEAD AIR: {worst:.2f}s before {worst_at}")
+
+    for i, (seg_id, still, zdir, vdur, _a, kjv) in enumerate(timeline):
+        build_still(seg_id, still, vdur, zdir, LEAD + spoken[seg_id],
+                    TEXT[seg_id], kjv, first=(i == 0))
+    build_card(card_vdur, CARD_TEXT)
 
     with open(f"{S}/concat.txt", "w") as f:
-        for seg in SEGMENTS:
-            f.write(f"file '{seg[0]}.mp4'\n")
-    run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", f"{S}/concat.txt",
+        for seg_id, *_ in timeline:
+            f.write(f"file '{seg_id}.mp4'\n")
+        f.write("file 'card.mp4'\n")
+    run([FF, "-y", "-f", "concat", "-safe", "0", "-i", f"{S}/concat.txt",
          "-c", "copy", f"{S}/video_silent.mp4"])
 
-    # ---- audio: narration at absolute offsets + soft music bed ----
-    inputs = []
-    filters = []
-    labels = []
-    for i, (path, start) in enumerate(AUDIO):
+    beds = [
+        (0.0, peak_start - 1.2, "b"),
+        (peak_start + audio_dur[PEAK] + 1.0, card_start - 0.8, "a"),
+    ]
+    inputs, filters, labels = [], [], []
+    for i, (path, start) in enumerate(audio_place):
         inputs += ["-i", path]
         ms = int(start * 1000)
         filters.append(f"[{i}:a]aresample=44100,adelay={ms}|{ms},volume=1.0[a{i}]")
         labels.append(f"[a{i}]")
-    pad = (f"aevalsrc='0.028*sin(2*PI*110*t)+0.022*sin(2*PI*164.81*t)"
-           f"+0.016*sin(2*PI*220*t)+0.010*sin(2*PI*329.63*t)':s=44100:d={MUSIC_END},"
-           f"lowpass=f=800,tremolo=f=0.15:d=0.35,"
-           f"afade=t=in:st=0:d=6,afade=t=out:st={MUSIC_END-5}:d=5[mus]")
-    filters.append(pad)
-    labels.append("[mus]")
-    n = len(labels)
+    bi = 0
+    for (bs, be, st) in beds:
+        bf = bed_filter(bi, bs, be, st)
+        if bf:
+            filters.append(bf)
+            labels.append(f"[mus{bi}]")
+            bi += 1
+    m = len(labels)
     filters.append("".join(labels) +
-                   f"amix=inputs={n}:duration=longest:normalize=0,"
-                   f"apad=whole_dur={total}[aout]")
-    run(["ffmpeg", "-y"] + inputs + ["-filter_complex", ";".join(filters),
-         "-map", "[aout]", "-t", str(total), "-c:a", "aac", "-b:a", "160k",
-         f"{S}/audio_mix.m4a"])
+                   f"amix=inputs={m}:duration=longest:normalize=0,"
+                   f"apad=whole_dur={total:.2f}[aout]")
+    run([FF, "-y"] + inputs + ["-filter_complex", ";".join(filters),
+        "-map", "[aout]", "-t", f"{total:.2f}", "-c:a", "aac", "-b:a", "160k",
+        f"{S}/audio_mix.m4a"])
 
-    # ---- final mux, sized under 25MB ----
-    run(["ffmpeg", "-y", "-i", f"{S}/video_silent.mp4", "-i", f"{S}/audio_mix.m4a",
-         "-map", "0:v", "-map", "1:a",
-         "-c:v", "libx264", "-preset", "slow", "-crf", "23",
-         "-maxrate", "1500k", "-bufsize", "3000k", "-pix_fmt", "yuv420p",
-         "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart",
-         "matthew-21_two-sons.mp4"])
-    size = os.path.getsize("matthew-21_two-sons.mp4") / 1e6
-    print(f"DONE: matthew-21_two-sons.mp4  {size:.1f} MB, {total:.1f}s")
+    probe = subprocess.run(
+        [FF, "-i", f"{S}/audio_mix.m4a", "-af", "ebur128", "-f", "null", "-"],
+        capture_output=True, text=True)
+    lufs = None
+    for line in probe.stderr.splitlines():
+        line = line.strip()
+        if line.startswith("I:") and "LUFS" in line:
+            lufs = float(line.split()[1])
+    gain = max(-6.0, min(10.0, -15.0 - lufs)) if lufs is not None else 0.0
+    print(f"loudness: measured {lufs} LUFS, applying {gain:+.1f} dB", flush=True)
+
+    OUT = "matthew-21_two-sons.mp4"
+    A_KBPS, MUX = 96, 20
+    vcap = max(500, int(24.0 * 8000 / total) - A_KBPS - MUX)
+    size, crf = 0.0, 20
+    for crf in (20, 21, 22, 23, 24):
+        run([FF, "-y", "-i", f"{S}/video_silent.mp4",
+             "-i", f"{S}/audio_mix.m4a", "-map", "0:v", "-map", "1:a",
+             "-c:v", "libx264", "-preset", "slow", "-crf", str(crf),
+             "-maxrate", f"{vcap}k", "-bufsize", f"{vcap*2}k",
+             "-pix_fmt", "yuv420p",
+             "-af", f"volume={gain:.1f}dB,alimiter=limit=0.95",
+             "-c:a", "aac", "-b:a", f"{A_KBPS}k", "-movflags", "+faststart", OUT])
+        size = os.path.getsize(OUT) / 1e6
+        if size <= 24.3:
+            break
+        print(f"  {size:.1f} MB at crf {crf} — over, stepping up", flush=True)
+    print(f"DONE: {OUT}  {size:.1f} MB, {total:.1f}s (crf {crf}, vcap {vcap}k)",
+          flush=True)
 
 
 if __name__ == "__main__":

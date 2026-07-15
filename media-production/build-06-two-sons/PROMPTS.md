@@ -1,67 +1,83 @@
-# FLOW PROMPTS — Story Video #06: The Two Sons (matthew-21_two-sons)
+# FLOW PROMPTS — Story Video #6: The Two Sons (matthew-21_two-sons)
 
-STILLS-ONLY redo (Phase-1 Law E): the former "he went" motion clip (Shot 4) is
-now a painted STILL. This is a PARABLE — Jesus is only the narrator's voice, he
-is NEVER shown as a figure, so there is no Jesus face to hide (face gate passes
-trivially). Nano Banana 2, 9:16, x2. Style block byte-identical (§2).
+Matthew 21:28-32. **v3 REBUILD 2026-07-15 (Machine A) — FACE LAW v3 + CONTINUITY LOCKS.**
+Old face-never build rebuilt. Jesus's face IS shown in the framing shots where he tells
+the parable and gives the verdict, locked to JESUS-MASTER-REF (byte-identical JESUS LOCK
+v3, TEXT-ONLY). The parable scenes (the father and his two sons in the vineyard) have NO
+divine figure. Byte-identical CONTINUITY LOCKS keep the FATHER, the two SONS, and the
+religious LEADERS consistent. Only Jesus wears cream; everyone else wears darker earth
+colors.
 
 STILL STYLE BLOCK (prepended to every prompt, exactly):
 Beautiful hand-painted 2D animation style, reverent and warm, like a classic
 illustrated storybook of scripture brought to life. Soft painterly brushstroke
 textures, glowing golden light, muted earth tones with warm gold highlights.
 First-century Judea. Sacred, hushed tone. Not photorealistic. No text or
-captions in the image. Historically modest clothing: rough-woven wool and linen
-in undyed earth colors. No modern objects.
+captions in the image. Historically modest clothing: rough-woven wool and
+linen in undyed earth colors. No modern objects.
+
+Every prompt is prefixed with: "SINGLE UNIFIED ILLUSTRATION, one scene edge to edge,
+NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only."
 
 ---
 
-## refuse — Shot 1 "I will not"
-[STILL STYLE BLOCK] Morning outside a first-century stone farmhouse on a
-terraced hillside. A weathered older father in undyed wool robes gestures toward
-rows of grapevines climbing the stone terraces. His first son — young,
-hard-jawed, in a rough earth-toned tunic — shakes his head in a sharp flat
-refusal and turns to walk away. The father does not argue; he watches him go,
-steady and calm. Warm morning light, olive trees, dry-stone walls. Two figures,
-each with two arms and two hands. One single continuous scene painted edge to
-edge.
+## CONTINUITY LOCKS
 
-## falseyes — Shot 2 "Yes, I will go"
-[STILL STYLE BLOCK] The same farmhouse doorway, moments later. The second son —
-smooth-faced and pleasant, in a clean tunic — nods eagerly to his father with an
-easy smile and a hand over his heart, all agreeableness. The father nods and
-turns away. Behind the father's back the son's smile has already gone slack as
-he drifts off in the other direction toward the village. Warm morning light. Two
-figures, each with two arms and two hands. One single continuous scene painted
-edge to edge.
+[FATHER LOCK] = the SAME vineyard-owner father, a sturdy weathered man of about sixty
+with a kind lined face and a full grey beard, in a plain sturdy earth-brown wool work
+robe with a rope belt (never cream). Exactly two arms, two hands, two legs.
 
-## wall — Shot 3 the no that couldn't let go
-[STILL STYLE BLOCK] Midday. The first son sits alone on a low dry-stone wall,
-jaw tight, pointedly not looking at the terraced vineyard on the hill behind
-him, though he keeps almost-glancing back at it. The wind moves the vine leaves;
-his shoulders are beginning to drop as he wrestles with himself. Bright honest
-midday light, dusty hillside. One young man, two arms, two hands. One single
-continuous scene painted edge to edge.
+[FIRST-SON LOCK] = the SAME younger son of about twenty-five, strong and rough, tousled
+dark hair, in worn dusty brown-and-dun work clothes (never cream), first scowling and
+defiant, later humbled and willing.
 
-## went — Shot 4 he went (was the clip, now a still)
-[STILL STYLE BLOCK] Golden late-afternoon light in the vineyard rows: the first
-son works alone among the grapevines, sleeves rolled up, dust and sweat on his
-brow, pruning and tying the vines with steady, peaceful hands. Wide view — one
-small hardworking figure on a big gold hillside of vines, no one else present.
-Warm gold light, long shadows. One man, two arms, two hands. One single
-continuous scene painted edge to edge.
+[SECOND-SON LOCK] = the SAME other son of about twenty-eight, a little smoother and
+better-kept, neat dark hair, in a slightly finer deep-olive tunic (never cream), first
+agreeable and smiling, later idle and absent.
 
-## empty — Shot 5 the empty row
-[STILL STYLE BLOCK] The same golden vineyard light on a different row: an
-untouched line of overgrown, tangled grapevines, and a set of pruning tools
-still leaning clean and unused against a wooden post where they were left that
-morning. Nobody is there; the wind moves through the empty row alone. Warm gold
-light, long shadows. No people anywhere in the frame. One single continuous
-scene painted edge to edge.
+[LEADERS LOCK] = a cluster of self-assured religious leaders, chief priests and Pharisees,
+older bearded men in fine formal robes of deep indigo-blue and dark maroon with woven
+prayer-shawls and fringes (rich dark colors, never cream), proud and certain, growing
+uncomfortable.
 
-## pride — Shot 6 which one?
-[STILL STYLE BLOCK] Dusk. The weathered father stands at the edge of the
-vineyard, looking down at his first son walking toward him — dirty, tired, spent
-from a day's labor. The father's face breaks into quiet pride as he reaches out
-and claps a hand on the shoulder of the son who first said no and then came.
-Warm dusk light, soft purple-gold sky over the terraces. Two figures, each with
-two arms and two hands. One single continuous scene painted edge to edge.
+[VINEYARD] = a sunlit first-century hillside vineyard, rows of green grapevines on wooden
+stakes, warm terraced earth, a low stone wall, bright honest daylight.
+
+---
+
+## s1-jesus-tells — Shot: Jesus told this story to the religious leaders
+JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.
+REF: jesus-master-ref
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] [LEADERS LOCK] In a sunlit pale-stone temple courtyard, Jesus stands telling a story to a cluster of religious leaders, his face shown clearly and steady, one hand raised in gentle teaching. The chief priests and Pharisees in fine deep-indigo and maroon robes with prayer-shawls listen, arms folded, proud and certain. His cream wool robe stands out among their dark rich robes. Warm daylight on pale stone. Only Jesus in cream. Every figure has two arms and two hands. One single continuous scene painted edge to edge, no border. 9:16 vertical.
+
+## s2-first-refuses — Shot: the first son said, I will not
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] [FATHER LOCK] [FIRST-SON LOCK] [VINEYARD] At the edge of the sunlit hillside vineyard, the grey-bearded father in his earth-brown work robe gestures toward the rows of grapevines, asking his younger son to go and work today. The strong rough younger son in worn brown-and-dun work clothes stands with his arms crossed and his jaw set, scowling and refusing, plainly saying no. Warm daylight, green vines, terraced earth. Neither wears cream. Two men, each with two arms and two hands. One single continuous scene painted edge to edge, no border. 9:16 vertical.
+
+## s3-second-yes — Shot: the second son said yes, and did not go
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] [FATHER LOCK] [SECOND-SON LOCK] [VINEYARD] By the low stone wall of the sunlit vineyard, the same grey-bearded father in his earth-brown robe asks his other son the same thing. The smoother better-kept second son in a deep-olive tunic smiles and nods agreeably, one hand on his chest promising to go — but his posture is easy and unhurried, already drifting away toward rest rather than work. Warm daylight, green vines. Neither wears cream. Two men, each with two arms and two hands. One single continuous scene painted edge to edge, no border. 9:16 vertical.
+
+## s4-first-relents — Shot: the first son changed his mind and went
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] [FIRST-SON LOCK] [VINEYARD] Later in the warm afternoon light, the rough younger son in his worn brown-and-dun work clothes has come back to the vineyard on his own and works hard among the grapevines, sleeves pushed up, pruning and carrying, his face humbled and quietly willing now, his earlier no undone by the change in his heart. Warm golden daylight, green vines, terraced earth. He does not wear cream. One man, two arms, two hands, two legs. One single continuous scene painted edge to edge, no border. 9:16 vertical.
+
+## s5-empty-row — Shot: the row the second son promised stayed empty
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] [SECOND-SON LOCK] [VINEYARD] One long row of grapevines in the sunlit vineyard sits untouched and overgrown, tools left unused against the low stone wall, no worker in it. Off to the side in the shade, the smoother second son in his deep-olive tunic lounges idle and at ease, having never come to work the row he promised, warm daylight on the empty vines. He does not wear cream. One man, two arms, two hands. One single continuous scene painted edge to edge, no border. 9:16 vertical.
+
+## s6-jesus-asks — Shot: which of the two did the will of his father?
+JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.
+REF: jesus-master-ref
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] In the sunlit pale-stone temple courtyard, Jesus turns to the gathered crowd of ordinary people in earth-toned wool and asks them a question, his face shown clearly and warm, one open hand extended in inquiry. The listening crowd leans in, thoughtful. His cream wool robe is bright among them. Warm daylight on pale stone. Only Jesus in cream. Every figure has two arms and two hands. One single continuous scene painted edge to edge, no border. 9:16 vertical.
+
+## s7-turns-leaders — Shot: then he turned to the religious leaders
+JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.
+REF: jesus-master-ref
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] [LEADERS LOCK] In the temple courtyard, Jesus turns directly to face the cluster of religious leaders, his face shown clearly, steady and searching, speaking plainly to them. The chief priests and Pharisees in their deep-indigo and maroon robes with prayer-shawls shift uncomfortably, their proud certainty beginning to crack under his gaze. Warm daylight, pale stone. Only Jesus in cream. Every figure has two arms and two hands. One single continuous scene painted edge to edge, no border. 9:16 vertical.
+
+## s8-verdict — Shot: the publicans and harlots go in before you
+JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.
+REF: jesus-master-ref
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] [LEADERS LOCK] In the temple courtyard, Jesus speaks the hard true verdict to the religious leaders, his face shown clearly, grave and full of sober compassion, one hand lifted. The proud leaders in deep-indigo and maroon robes with prayer-shawls stand stunned and stung, some looking away, caught in their own hearts. Warm daylight on pale stone. Only Jesus in cream. Every figure has two arms and two hands. One single continuous scene painted edge to edge, no border. 9:16 vertical.
+
+### Closing card
+Text on cream (#F7F2E9), serif, spoken + captioned (an INVITATION): "It was never about
+the perfect yes. The son who changed his mind is the one who went. It is not too late to
+turn and go."
