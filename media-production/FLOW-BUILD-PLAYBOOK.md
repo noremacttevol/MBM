@@ -211,6 +211,23 @@ read, dove, bass, minute, use(d), close. Listen to any segment containing one.
   max (3 KJV), chunks swap with the narration. Old builds get re-assembled with it
   in the remediation sweep — stills and most audio untouched, so it costs $0.
 
+## flow_driver.py status (2026-07-15, Machine B — gen STILL broken, root cause found)
+Machine B got a fresh Flow LOGIN working on this laptop (profile `~/.mbm-flow-profile`,
+`check` → `logged_in=True project=saved`). But `gen` produced ZERO images across 3
+candidate attempts. Diagnosed: the prompt text DOES register (1074 chars into a
+contenteditable DIV) and the arrow_forward click fires, yet the project stays empty
+(diagnostic: only an avatar + flower-placeholder.svg in the DOM). Root cause: the saved
+**project URL loads the MEDIA-LIBRARY view**, whose visible controls are `Add Media /
+All Media / Characters / View scenes / Tools / Create / Agent` — there is **no image-gen
+prompt bar in that view**. So the driver's "last visible contenteditable" is NOT Flow's
+generation input, and submit generates nothing. FIX NEEDED: before typing, the driver
+must enter Flow's image-generation surface (likely click `Create` or `Tools` → image),
+THEN locate the real prompt input + submit. Until then, generation via the driver is
+dead. FASTEST UNBLOCK NOW: a human pastes the 3 staged prompts
+(`JESUS-MASTER-REF/candidates/CANDIDATE-PROMPTS.md` or Machine C's list) into the
+already-logged-in Flow window and saves the 3 jpegs to `candidates/`. Did NOT rabbit-hole
+further (playbook rule). [[mbm-machine-b-workflow]]
+
 ## flow_driver.py status (2026-07-15, Machine A session end — HONEST STATE)
 Extension-free driver is ~90% working: login/profile/project ✅, settings+credit
 check ✅, download logic ✅ (same JS as this playbook). STILL BROKEN: getting the
