@@ -293,7 +293,7 @@ def main():
         (p1_end + 1.0, start_of["jv16"] - 1.0, "a"),
         (p2_end + 1.0, card_start - 0.8, "a"),
     ]
-    print(f"music: bed out at {start_of['jv12'] - 1.2:.1f}s, silent through jv14 "
+    print(f"music: bed out at {start_of['jv14'] - 1.2:.1f}s, silent through jv14 "
           f"(ends {p1_end:.1f}s); returns; silent again through jv16 "
           f"(ends {p2_end:.1f}s)", flush=True)
 

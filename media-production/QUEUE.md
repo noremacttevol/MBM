@@ -145,7 +145,7 @@ rows. Do not assume approval.
 | 118 | Jonah and the God who relents | Jonah | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 119 | The fourth man in the fire | Dan 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 120 | Job answered from the whirlwind | Job 38–42 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 121 | Salt and light | Matt 5 | ✅ | ⬜ | ⬜ | ⬜ | v3 REDO IN PROGRESS Machine C 2026-07-15 (regen s1/s4/s10 with master face) |
+| 121 | Salt and light | Matt 5 | ✅ | ✅ | ⬜ | ⬜ | v3 REDONE 2026-07-15 Machine C — s1/s4/s10 regenerated face-SHOWN | 121 | Salt and light | Matt 5 | ✅ | ⬜ | ⬜ | ⬜ | v3 REDO IN PROGRESS Machine C 2026-07-15 (regen s1/s4/s10 with master face) | consistent with master (candidate 1); 7 metaphor stills kept; caption-v2; 3:37, 21.8MB. Scene shots are prompt-driven (LOCK v3): attaching the bust-portrait as --ref made Nano Banana copy the portrait instead of composing the scene. |
 | 122 | The mote and the beam | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 123 | The golden rule | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 124 | Love your enemies | Matt 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
