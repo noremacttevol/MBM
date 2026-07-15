@@ -197,7 +197,7 @@ Appr and add it to this folder.
 | 163 | Built on apostles and prophets | Eph 2:19–20 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, household/builders in dark earth tones, Christ shown ONLY as glowing chief cornerstone + God as light/no figure, caption-v2, 2 sacred silences, 23.8MB/2:52; face-gate PASS). Built on a fresh Flow project after the old one corrupted. Awaiting your yes. |
 | 164 | "Till we all come in the unity of the faith" | Eph 4:11–14 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, the risen Lord/heaven shown only as warm light—no figure, servant-leaders + saints in dark earth tones, s5 rerolled to drop a pale-robed central figure, no-more-children tossed-by-wind contrast s7, caption-v2, 2 sacred silences kv11/kv13, 23.5MB/2:43; face-gate PASS). → GL: Apostles |
 | 165 | Laying on of hands for the Holy Ghost | Acts 8:14–17 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine D 2026-07-15 (8 Flow $0 stills 9:16, God/Holy Ghost shown only as warm descending light—no figure/no dove, Peter & John consistent across shots in dark earth tones, s2 rerolled x2 to kill a triptych/echo, caption-v2, 2 sacred silences kv14/kv17, 24.1MB/2:38; face-gate PASS). → GL: Laying On of Hands |
-| 166 | Baptized again, properly | Acts 19:1–6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 166 | Baptized again, properly | Acts 19:1–6 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine D 2026-07-15 |
 | 167 | "I have chosen you, and ordained you" | John 15:16 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 168 | Born of water and of the Spirit | John 3:5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 169 | "To fulfil all righteousness" | Matt 3:13–17 | ⬜ | ⬜ | ⬜ | ⬜ |  |
