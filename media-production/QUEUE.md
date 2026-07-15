@@ -150,7 +150,7 @@ sheet ready) · **Built** (final mp4 exists) · **Appr** (Cameron approved) ·
 | 81 | Nazareth: only a few | Mark 6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 82 | The baptism of Jesus | Matt 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 83 | The temptations | Matt 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 84 | Calling the fishermen | Matt 4 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine B 2026-07-14 |
+| 84 | Calling the fishermen | Matt 4 | ✅ | ✅ | ⬜ | ⬜ | built Machine B 2026-07-14 (Flow prep, $0) — awaiting your yes |
 | 85 | Calling Matthew | Matt 9 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 86 | Nazareth synagogue: this day fulfilled | Luke 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 87 | The woman who washed his feet | Luke 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
