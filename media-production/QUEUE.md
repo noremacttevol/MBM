@@ -35,7 +35,7 @@ rows. Do not assume approval.
 | 8 | The lost coin | Luke 15 | ✅ | ✅ | ✅ | ✅ | live |
 | 9 | The rich young ruler | Mark 10 | ✅ | ✅ | ✅ | ✅ | live |
 | 10 | The woman at the well | John 4 | ✅ | ✅ | ✅ | ✅ | live |
-| 11 | Calming the storm | Mark 4 | ✅ | ✅ | ✅ | ✅ | live (full redo shipped) |
+| 11 | Calming the storm | Mark 4 | ✅ | ✅ | ✅ | ⬜ | v3 REDO CLAIMED Machine A 2026-07-15 (WIP — face-shown, 7 Jesus stills regenerating; re-review the face) |
 | 12 | Blind Bartimaeus | Mark 10 | ✅ | ✅ | ✅ | ✅ | live |
 | 13 | Through the roof | Mark 2 | ✅ | ✅ | ✅ | ✅ | live |
 | 14 | The ten lepers | Luke 17 | ✅ | ✅ | ✅ | ✅ | live |
