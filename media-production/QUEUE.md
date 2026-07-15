@@ -146,7 +146,7 @@ Appr and add it to this folder.
 | 112 | The Beatitudes | Matt 5 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:51, 22.1MB; Jesus prompt-driven to master, no halo; s8/s10 recovered after the rate-limit cleared via 6-min detect + reload) |
 | 113 | "Where art thou?" | Gen 3 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:44, 21.3MB; the Fall handled tenderly — God as seeking light no figure, modest Adam/Eve, mercy of the coats of skins) |
 | 114 | Abraham argues for Sodom | Gen 18 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:57, 21.8MB; God as presence/light no figure; destruction OFF-SCREEN per CARE-J; the negotiation + yeses) |
-| 115 | The ram in the thicket | Gen 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 115 | The ram in the thicket | Gen 22 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine C 2026-07-15 (CARE C: NO knife/bound child; walk/question/ram/release/embrace; God provides) |
 | 116 | Graven on his palms | Isa 49 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 117 | Hosea buys her back | Hosea 1–3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 118 | Jonah and the God who relents | Jonah | ⬜ | ⬜ | ⬜ | ⬜ |  |
