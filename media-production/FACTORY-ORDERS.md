@@ -51,6 +51,33 @@ Your NEXT job = the lowest-numbered row **in your range** where `Built` is ⬜ a
 
 ---
 
+## CHROME PREFLIGHT (do this FIRST, before reading anything else — no browser-guessing, ever)
+
+1. List connected browsers with your browser tools. If exactly one browser on THIS
+   computer is connected, select it and move on.
+2. Open (or reuse) a tab at labs.google/fx/tools/flow. Confirm the ULTRA badge and
+   that image generation shows "0 credits" with Nano Banana 2 available.
+3. If NO browser connects after two attempts, do NOT flail, do NOT try other tools,
+   do NOT burn context experimenting. Print exactly ONE line and stop:
+   "BLOCKED: Chrome extension not connected on this computer — open Chrome, click
+   the Claude extension icon, enable this session, then tell me 'go'."
+   When Cameron says go, retry once and continue.
+4. Never screenshot repeatedly to find buttons — read_page/find first; screenshots
+   only when the playbook says so.
+
+## SESSION HYGIENE (context is the scarcest resource)
+
+- One chat session builds AT MOST 4 videos, then hands off. Long sessions drown in
+  context and get slow and stupid. The REPO is the memory, not the chat: QUEUE.md
+  holds all state, so a fresh session loses nothing.
+- HANDOFF = (1) push everything (finished or not — a claimed row with partial work
+  pushed is fine, note it in the Claim column), (2) if you hit any NEW gotcha this
+  session, append it as ONE dated bullet to FLOW-BUILD-PLAYBOOK.md and push,
+  (3) say exactly: "SESSION DONE — built rows X, Y, Z. Start a fresh chat."
+- Do NOT write narrative session logs. Do NOT re-read files the playbook already
+  summarizes. Do NOT explain what you're doing between steps. Every token spent
+  narrating is a token not spent building.
+
 ## RUN UNATTENDED
 
 Do NOT ask Cameron questions. Make sensible defaults, keep going until every row in
