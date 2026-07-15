@@ -122,7 +122,7 @@ def cmd_check():
 
 def ensure_settings(page):
     """Verify Nano Banana 2 / 0 credits; set Image·9:16·1x via the chip if needed."""
-    chip = page.get_by_text("Nano Banana 2").first
+    chip = page.locator('button:has-text("Nano Banana 2")').first
     try:
         chip.wait_for(timeout=8000)
     except PWTimeout:
@@ -133,7 +133,7 @@ def ensure_settings(page):
     page.wait_for_timeout(1200)
     for label in ("Image", "9:16", "1x"):
         try:
-            page.get_by_text(label, exact=True).first.click(timeout=3000)
+            page.get_by_text(label, exact=True).locator("visible=true").first.click(timeout=3000)
             page.wait_for_timeout(400)
         except PWTimeout:
             pass
@@ -161,25 +161,55 @@ def cmd_gen(prompt, out, refs):
         page.wait_for_timeout(6000)
         if "accounts.google.com" in page.url:
             raise SystemExit("Not logged in — run: flow_driver.py open")
-        ensure_settings(page)
+        try:  # settings are best-effort — defaults still generate; never block on UI
+            ensure_settings(page)
+        except Exception as e:
+            print(f"  (settings skipped: {e})")
 
         before = page.evaluate(NAMES_JS) or []
-        # the prompt box is the page's TEXTAREA — the first generic textbox is the
-        # SEARCH bar (found 2026-07-15: prompts were going into search, nothing ran)
-        box = page.locator("textarea").first
-        box.click(timeout=15000)
         for ref in refs or []:
-            # the [+] add-media button sits left of the prompt box; attach ref image
+            # "add Add Media" button opens a file chooser for reference images
             try:
-                with page.expect_file_chooser(timeout=5000) as fc:
-                    page.locator("button:has-text('add'), button[aria-label*='dd']").first.click()
+                with page.expect_file_chooser(timeout=6000) as fc:
+                    page.evaluate(
+                        "() => [...document.querySelectorAll('button')]"
+                        ".find(b => (b.innerText||'').includes('Add Media'))"
+                        "?.click()")
                 fc.value.set_files(ref)
                 page.wait_for_timeout(2500)
             except Exception:
                 print(f"  (warning: could not attach ref {ref} — generating without)")
-        box.fill(prompt)
-        # submit = the "arrow_forward Create" button (Enter does NOT submit)
-        page.locator('button:has-text("arrow_forward")').first.click(timeout=10000)
+        # Focus via JS, then REAL keyboard input (CDP insertText) — value-setter
+        # injection filled the box visually but React never registered it and
+        # Create submitted nothing (2026-07-15). Real input events work.
+        # the real prompt box is a VISIBLE textarea or contenteditable div — the
+        # first textarea in the DOM is a hidden decoy (found 2026-07-15)
+        ok = page.evaluate(
+            "() => {"
+            " const els = [...document.querySelectorAll("
+            "   'textarea, [contenteditable=\\'true\\']')]"
+            "   .filter(e => e.offsetParent !== null);"
+            " if (!els.length) return 'no-visible-promptbox';"
+            " const el = els[els.length - 1];"
+            " el.focus(); window.__mbmBox = el; return el.tagName; }")
+        if ok == "no-visible-promptbox":
+            raise SystemExit("prompt focus failed: no visible prompt box")
+        print(f"  prompt box: {ok}")
+        page.keyboard.insert_text(prompt)
+        page.wait_for_timeout(800)
+        got = page.evaluate(
+            "() => (window.__mbmBox.value ?? window.__mbmBox.innerText ?? '').length")
+        print(f"  prompt in box: {got} chars")
+        if not got:
+            raise SystemExit("prompt box still empty after insert_text")
+        clicked = page.evaluate(
+            "() => {"
+            " const b = [...document.querySelectorAll('button')]"
+            "   .find(b => (b.innerText||'').includes('arrow_forward'));"
+            " if (!b) return 'no-button';"
+            " b.click(); return 'ok'; }")
+        if clicked != "ok":
+            raise SystemExit(f"create click failed: {clicked}")
         print("  submitted, waiting for the image...")
 
         newest = None
@@ -192,7 +222,9 @@ def cmd_gen(prompt, out, refs):
                 break
             if i % 4 == 3:  # gallery is virtualized — nudge thumbnails to mount
                 try:
-                    page.locator('button:has-text("All Media")').first.click(timeout=2000)
+                    page.evaluate("() => [...document.querySelectorAll('button')]"
+                                  ".find(b => (b.innerText||'').includes('All Media'))"
+                                  "?.click()")
                     page.mouse.wheel(0, 600)
                 except Exception:
                     pass

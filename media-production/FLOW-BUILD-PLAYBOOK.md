@@ -207,3 +207,13 @@ read, dove, bass, minute, use(d), close. Listen to any segment containing one.
   build-48-new-wine-old-bottles/build.py (caption v2). Wide bottom strip, 2 lines
   max (3 KJV), chunks swap with the narration. Old builds get re-assembled with it
   in the remediation sweep — stills and most audio untouched, so it costs $0.
+
+## flow_driver.py status (2026-07-15, Machine A session end — HONEST STATE)
+Extension-free driver is ~90% working: login/profile/project ✅, settings+credit
+check ✅, download logic ✅ (same JS as this playbook). STILL BROKEN: getting the
+prompt text registered in Flow's prompt box (hidden-decoy textarea; contenteditable
+targeting untested-in-anger). NEXT SESSION: give it a 15-MINUTE budget — try
+coordinate click at the prompt bar (bottom-center) + page.keyboard.insert_text,
+verify chars, submit via the arrow_forward button JS click. If still failing after
+15 min, STOP — use the Claude-extension path (proven, this playbook) and move on.
+Never let driver debugging block video production again.
