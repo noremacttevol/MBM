@@ -135,7 +135,7 @@ rows. Do not assume approval.
 | 108 | "My sheep hear my voice" | John 10:27 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:41, 21.4MB; Good Shepherd, Jesus prompt-driven to master, no halo) |
 | 109 | Ask, seek, knock | Matt 7 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:35, 22.2MB; Jesus prompt-driven to master, no halo) |
 | 110 | The Lord's Prayer: "Our Father" | Matt 6 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:41, 21.6MB; Jesus prompt-driven to master, no halo) |
-| 111 | Lilies and sparrows | Matt 6 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine C 2026-07-15 (Jesus prompt-driven to master) |
+| 111 | Lilies and sparrows | Matt 6 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:47, 22.0MB; Jesus prompt-driven to master, no halo. NOTE: s2 Jesus has a brown mantle over the cream robe vs pure cream elsewhere — minor look variance, reroll if you want it uniform) |
 | 112 | The Beatitudes | Matt 5 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine C 2026-07-15 (Jesus prompt-driven to master) |
 | 113 | "Where art thou?" | Gen 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 114 | Abraham argues for Sodom | Gen 18 | ⬜ | ⬜ | ⬜ | ⬜ |  |
