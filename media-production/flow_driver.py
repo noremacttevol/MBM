@@ -121,39 +121,84 @@ def cmd_check():
 
 
 def ensure_settings(page):
-    """Verify Nano Banana 2 / 0 credits; set Image·9:16·1x via the chip if needed.
+    """Set Image · 9:16 · 1x on the settings chip and report credit cost.
 
-    Best-effort ONLY — must never abort gen (2026-07-15: Flow renders the model
-    chip as a non-<button> element, so the old button-only locator missed it and
-    the SystemExit it raised — a BaseException, not caught by cmd_gen's
-    `except Exception` — killed every generation even though the panel already
-    said Nano Banana 2 · 0 credits). Find the chip on ANY element type and, if it
-    can't be found or clicked, log and continue rather than raising.
-    """
-    chip = page.get_by_text("Nano Banana 2", exact=False).first
-    try:
-        chip.wait_for(timeout=8000)
-        chip.click()
-        page.wait_for_timeout(1200)
-        for label in ("Image", "9:16", "1x"):
-            try:
-                page.get_by_text(label, exact=True).locator("visible=true").first.click(timeout=3000)
-                page.wait_for_timeout(400)
-            except PWTimeout:
-                pass
-        page.keyboard.press("Escape")
-        page.wait_for_timeout(500)
-    except PWTimeout:
-        print("  (settings chip not clickable — proceeding with current panel "
-              "settings; confirm Image · Nano Banana 2 · 9:16 · 1x once in `open`)")
+    The chip popup (found 2026-07-15, Machine C) lays out material-icon buttons whose
+    innerText is 'icon\\nlabel': mode row 'image\\nImage' / 'play_circle\\nVideo';
+    aspect row 'crop_16_9\\n16:9' … 'crop_9_16\\n9:16'; count row '1x' 'x2' 'x3' 'x4'.
+    The OLD code matched get_by_text('9:16', exact=True) which never matched (the
+    element text is 'crop_9_16\\n9:16'), so aspect stayed 16:9. We click by the UNIQUE
+    icon token instead: 'crop_9_16' for portrait.
+
+    Chip lookup is element-type-agnostic (Machine A/B saw Flow render the chip as a
+    non-<button> element): we find ANY element whose innerText contains 'Nano Banana'.
+    9:16 is REQUIRED — a 16:9 still can't fill a 9:16 video (playbook) — so if we truly
+    cannot select it after retries we abort rather than emit a wrong-aspect still."""
+    # JS to find the smallest element whose OWN text mentions the chip, on any tag.
+    FIND_CHIP = ("() => { const els=[...document.querySelectorAll('button,[role],div,span')]"
+                 ".filter(e => (e.innerText||'').includes('Nano Banana'));"
+                 " if(!els.length) return null;"
+                 " els.sort((a,b)=>a.innerText.length-b.innerText.length);"
+                 " const el=els[0]; const r=el.getBoundingClientRect();"
+                 " return {x:r.x+r.width/2, y:r.y+r.height/2, t:el.innerText}; }")
+
+    def chip_info():
+        return page.evaluate(FIND_CHIP)
+
+    def chip_text():
+        c = page.evaluate(FIND_CHIP)
+        return (c or {}).get("t", "") if c else ""
+
+    def open_chip():
+        # MUST be a real mouse click: a JS .click() opens only a collapsed popup that
+        # hides the aspect row; a real mouse click opens the full settings popover with
+        # the 16:9/9:16 choices (found 2026-07-15, Machine C).
+        c = chip_info()
+        if c:
+            page.mouse.click(c["x"], c["y"])
+        page.wait_for_timeout(1000)
+
+    def click_tok(tok):
+        # React onClick doesn't fire for a JS .click() on these popup items — use a
+        # REAL mouse click at the element's center (the same thing that works for the
+        # prompt box). Prefer an actual button/role/li leaf whose text starts with the
+        # unique material-icon token. Re-query each call (the popup re-renders).
+        c = page.evaluate(
+            "(tok) => { const el=[...document.querySelectorAll("
+            "  'button,[role=option],[role=menuitem],[role=menuitemradio],[role=radio],li')]"
+            ".filter(e=>e.offsetParent!==null)"
+            ".find(e => (e.innerText||'').trim().startsWith(tok)); "
+            " if(!el) return null; const r=el.getBoundingClientRect();"
+            " return {x:r.x+r.width/2, y:r.y+r.height/2}; }", tok)
+        if not c:
+            return False
+        page.mouse.click(c["x"], c["y"])
+        return True
+
+    # set 9:16, verifying against the chip text; retry a few times (the aspect row
+    # only exists while the popup is open, and the popup re-renders on each click)
+    aspect_ok = "crop_9_16" in chip_text()
+    for _ in range(4):
+        if aspect_ok:
+            break
+        open_chip()
+        click_tok("crop_9_16")
+        page.wait_for_timeout(600)
+        aspect_ok = "crop_9_16" in chip_text()
+    # count: prefer 1x (open popup if it closed)
+    open_chip()
+    page.evaluate("""() => { const b=[...document.querySelectorAll('button,div,li')]
+        .filter(e=>e.offsetParent!==null)
+        .find(e => (e.innerText||'').trim()==='1x'); if(b) b.click(); }""")
+    page.wait_for_timeout(400)
     body = page.inner_text("body")
-    # Flow credits are PREPAID and expire monthly (Cameron, 2026-07-15): spending
-    # them is fine and often smart. Just say what this generation costs.
     import re as _re
     m = _re.search(r"use ([\d,]+) credits?|0 credits", body)
-    print(f"  credit cost: {m.group(0) if m else 'unknown'}")
+    print(f"  credit cost: {m.group(0) if m else 'unknown'}; aspect_9_16={aspect_ok}")
     page.keyboard.press("Escape")
     page.wait_for_timeout(500)
+    if not aspect_ok:
+        raise SystemExit("could not set 9:16 aspect — refusing to generate a 16:9 still")
 
 
 def cmd_gen(prompt, out, refs):
@@ -188,38 +233,41 @@ def cmd_gen(prompt, out, refs):
                 page.wait_for_timeout(2500)
             except Exception:
                 print(f"  (warning: could not attach ref {ref} — generating without)")
-        # Focus via JS, then REAL keyboard input (CDP insertText) — value-setter
-        # injection filled the box visually but React never registered it and
-        # Create submitted nothing (2026-07-15). Real input events work.
-        # the real prompt box is a VISIBLE textarea or contenteditable div — the
-        # first textarea in the DOM is a hidden decoy (found 2026-07-15)
-        ok = page.evaluate(
+        # SUBMIT THAT ACTUALLY WORKS (found 2026-07-15, Machine C): the real prompt
+        # box is the LAST visible contenteditable div/textarea. You must (1) CLICK it
+        # with the real mouse so the browser + React agree it is focused, (2) type with
+        # real keystrokes, (3) submit with ENTER. The old path (el.focus() in JS +
+        # insert_text + clicking the 'arrow_forward' Create button) filled the box
+        # visually but the Create click was INERT — the project stayed on "Start
+        # creating" and no generation ever started. Enter starts it every time.
+        box = page.evaluate(
             "() => {"
             " const els = [...document.querySelectorAll("
             "   'textarea, [contenteditable=\\'true\\']')]"
             "   .filter(e => e.offsetParent !== null);"
-            " if (!els.length) return 'no-visible-promptbox';"
+            " if (!els.length) return null;"
             " const el = els[els.length - 1];"
-            " el.focus(); window.__mbmBox = el; return el.tagName; }")
-        if ok == "no-visible-promptbox":
+            " const r = el.getBoundingClientRect();"
+            " return {x: r.x + r.width/2, y: r.y + r.height/2, tag: el.tagName}; }")
+        if not box:
             raise SystemExit("prompt focus failed: no visible prompt box")
-        print(f"  prompt box: {ok}")
-        page.keyboard.insert_text(prompt)
-        page.wait_for_timeout(800)
+        print(f"  prompt box: {box['tag']}")
+        page.mouse.click(box["x"], box["y"])
+        page.wait_for_timeout(400)
+        page.keyboard.type(prompt, delay=4)
+        page.wait_for_timeout(600)
         got = page.evaluate(
-            "() => (window.__mbmBox.value ?? window.__mbmBox.innerText ?? '').length")
+            "() => {"
+            " const els = [...document.querySelectorAll("
+            "   'textarea, [contenteditable=\\'true\\']')]"
+            "   .filter(e => e.offsetParent !== null);"
+            " const el = els[els.length - 1];"
+            " return (el.value ?? el.innerText ?? '').length; }")
         print(f"  prompt in box: {got} chars")
         if not got:
-            raise SystemExit("prompt box still empty after insert_text")
-        clicked = page.evaluate(
-            "() => {"
-            " const b = [...document.querySelectorAll('button')]"
-            "   .find(b => (b.innerText||'').includes('arrow_forward'));"
-            " if (!b) return 'no-button';"
-            " b.click(); return 'ok'; }")
-        if clicked != "ok":
-            raise SystemExit(f"create click failed: {clicked}")
-        print("  submitted, waiting for the image...")
+            raise SystemExit("prompt box still empty after typing")
+        page.keyboard.press("Enter")
+        print("  submitted (Enter), waiting for the image...")
 
         newest = None
         for i in range(36):  # up to 3 min
