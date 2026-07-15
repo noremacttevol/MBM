@@ -1,8 +1,24 @@
-# BUILD STATUS — #164 The Rainbow Covenant (Genesis 8:20-9:17)
+# BUILD STATUS — #135 The Rainbow Covenant (Genesis 8:20-9:17)
 
 **Machine D, 2026-07-15.** Phase-1 STILLS-ONLY (Law E), GREEN / plain-milk (no CONTENT-CARE flags).
-**Status: PREP COMPLETE, BLOCKED at asset delivery.** Not yet built. Row 164 in QUEUE.md is
-CLAIMED (Built ⬜) — do not tick Built until the mp4 exists.
+(Migrated from old row 164 → row 135 in THE-200 v2; folder renamed build-135-rainbow-covenant.)
+**Status: 11 of 12 stills done and in assets/; one still (s8) pending download; then assemble.**
+Row 135 in QUEUE.md is CLAIMED (Built ⬜) — do not tick Built until the mp4 exists.
+
+## Current state (2026-07-15)
+- 11 of 12 stills generated in Flow ($0), QC-passed, and placed in `assets/` with slug names.
+- s8 ("the bow in the cloud", the jv13 verse-card beat) regenerated as a clean **portrait**
+  single-arc scene (Flow media id `d026bba8…`); it is generated and correct but NOT yet on
+  this disk — the local Chrome dropped its extension connection mid-download, so it needs one
+  more download once a LOCAL browser is connected. Save it as `assets/s8-the-bow-in-the-cloud.jpeg`.
+- Then: `python build.py` → QC → tick Built in QUEUE.md row 135 → add title to gen_site_index.py
+  TITLES → regen index → commit + push to publish.
+- QC notes already cleared: no divine figure in any frame; everyone in earth tones (no cream);
+  anatomy clean; each rainbow is one soft arc (the first s8 came back a 2-panel comic and was
+  rejected). Minor: Noah is balder in s3 than the fuller white hair in s2/s4 — accepted.
+
+---
+## (historical) original blocker notes
 
 ## What is DONE (committed)
 
