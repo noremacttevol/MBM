@@ -39,6 +39,7 @@ TITLES = {
     47: "Houses on Rock and Sand", 48: "New Wine, Old Bottles",
     71: "Calling the Fishermen", 72: "Calling Matthew",
     84: "No Room: the Manger", 91: "Gethsemane",
+    101: "The Still Small Voice",
     121: "Salt and Light", 135: "The Rainbow Covenant",
 }
 
@@ -54,9 +55,15 @@ def derive_title(slug):
 
 
 def scripture(book_chap):
-    # "mark-5" -> "Mark 5"; "matthew-13" -> "Matthew 13"
+    # "mark-5" -> "Mark 5"; "matthew-13" -> "Matthew 13";
+    # numbered books: "1kings-19" -> "1 Kings 19", "2samuel-7" -> "2 Samuel 7"
     book, chap = book_chap.rsplit("-", 1)
-    return f"{book.capitalize()} {chap}"
+    m = re.match(r"^(\d+)([a-z]+)$", book)
+    if m:
+        book = f"{m.group(1)} {m.group(2).capitalize()}"
+    else:
+        book = book.capitalize()
+    return f"{book} {chap}"
 
 
 def dur(path):
@@ -74,7 +81,7 @@ def find_main_mp4(build_dir):
     # the finished cut is the single scripture-named mp4 sitting directly in the
     # build folder (book-chap_slug.mp4), never inside segs/ or assets/
     hits = [p for p in glob.glob(os.path.join(build_dir, "*.mp4"))
-            if re.match(r"^[a-z]+-\d+_", os.path.basename(p))]
+            if re.match(r"^[0-9a-z]+-\d+_", os.path.basename(p))]
     return hits[0] if hits else None
 
 

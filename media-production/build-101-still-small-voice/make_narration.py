@@ -59,11 +59,12 @@ SEGMENTS = [
      "down your altars and killed your prophets. I am the only one left, and now they "
      "want me dead too.", None),
     # --- s5/s6/s7: wind, earthquake, fire — but not the Lord ---
-    ("jv11", LORD, "-24%", "-6Hz",
+    ("jv11a", LORD, "-24%", "-6Hz",
      "Go forth, and stand upon the mount before the LORD. And, behold, the LORD passed "
      "by, and a great and strong wind rent the mountains, and brake in pieces the rocks "
-     "before the LORD; but the LORD was not in the wind: and after the wind an "
-     "earthquake; but the LORD was not in the earthquake:", None),
+     "before the LORD; but the LORD was not in the wind:", None),
+    ("jv11b", LORD, "-24%", "-6Hz",
+     "and after the wind an earthquake; but the LORD was not in the earthquake:", None),
     ("n5", NARRATOR, "-22%", "-4Hz",
      "A wind strong enough to tear the mountain apart. Then an earthquake that split the "
      "rock under his feet. Then a fire sweeping across the stone. Surely God would be in "
