@@ -164,7 +164,9 @@ def cmd_gen(prompt, out, refs):
         ensure_settings(page)
 
         before = page.evaluate(NAMES_JS) or []
-        box = page.get_by_role("textbox").first
+        # the prompt box is the page's TEXTAREA — the first generic textbox is the
+        # SEARCH bar (found 2026-07-15: prompts were going into search, nothing ran)
+        box = page.locator("textarea").first
         box.click(timeout=15000)
         for ref in refs or []:
             # the [+] add-media button sits left of the prompt box; attach ref image
@@ -176,16 +178,24 @@ def cmd_gen(prompt, out, refs):
             except Exception:
                 print(f"  (warning: could not attach ref {ref} — generating without)")
         box.fill(prompt)
-        page.keyboard.press("Enter")
+        # submit = the "arrow_forward Create" button (Enter does NOT submit)
+        page.locator('button:has-text("arrow_forward")').first.click(timeout=10000)
+        print("  submitted, waiting for the image...")
 
         newest = None
-        for _ in range(36):  # up to 3 min
+        for i in range(36):  # up to 3 min
             page.wait_for_timeout(5000)
             names = page.evaluate(NAMES_JS) or []
             fresh = [n for n in names if n not in before]
             if fresh:
                 newest = fresh[0]
                 break
+            if i % 4 == 3:  # gallery is virtualized — nudge thumbnails to mount
+                try:
+                    page.locator('button:has-text("All Media")').first.click(timeout=2000)
+                    page.mouse.wheel(0, 600)
+                except Exception:
+                    pass
         if not newest:
             raise SystemExit("No new image appeared within 3 minutes.")
         page.wait_for_timeout(2000)
