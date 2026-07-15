@@ -132,3 +132,14 @@ list — the `<img>` elements only mount when scrolled into view.
 - Type prompts as one line (retyping after a stray-newline submit wastes a full round-trip).
 - Keep it to **one video per chat**; context past ~2 videos degrades quality — which is the
   whole reason for the rule.
+
+## Dated lessons (append-only)
+
+- 2026-07-15 (C): **Catalog can renumber mid-session.** If FACTORY-ORDERS shows a THE-200
+  migration, your in-flight build's row number may change or the story may be dropped. A
+  `git pull --rebase` will auto-rename tracked folders to the new number, but leftover
+  `build-OLD-*` dirs (untracked pycache/assets, or committed PROMPTS) survive and will
+  COLLIDE with the new row and get published under the wrong number by gen_site_index.
+  Fix: after any renumber, `git rm`/`rm -rf` the orphan `build-OLD-*` folders before
+  building the new row. Reconcile by story NAME, not row number (CONTENT-CARE's flag
+  table lags the renumber too — trust the name).
