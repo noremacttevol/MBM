@@ -75,7 +75,7 @@ rows. Do not assume approval.
 | 48 | New wine, old bottles | Mark 2 | ✅ | ✅ | ✅ | ⬜ | built Machine A 2026-07-14 — APPROVED 2026-07-15 (batch) |
 | 49 | Water to wine at Cana | John 2 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine A 2026-07-15 |
 | 50 | The nobleman's son | John 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 51 | The first catch of fish | Luke 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 51 | The first catch of fish | Luke 5 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine B 2026-07-15 |
 | 52 | The demoniac in the synagogue | Mark 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 53 | Peter's mother-in-law | Mark 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 54 | The leper: "I will; be thou clean" | Mark 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
