@@ -126,7 +126,7 @@ rows. Do not assume approval.
 | 99 | Flesh and bone; Thomas's hands | Luke 24 / John 20 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 100 | The ascension | Acts 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 101 | The still small voice | 1 Kgs 19 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 3:31, 21.8MB; no Jesus figure). NOTE for approver: ear-check the word "wind" (must sound like moving air /wɪnd/, not winding a clock) — couldn't verify by ear on this box. |
-| 102 | Jacob's ladder | Gen 28 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine C 2026-07-15 (God shown as light, no figure — gate-simple) |
+| 102 | Jacob's ladder | Gen 28 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 3:21, 21.1MB; God shown as light, no figure) |
 | 103 | Peter's confession | Matt 16 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 104 | The boy Samuel | 1 Sam 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 105 | Face to face, as a friend | Ex 33:11 | ⬜ | ⬜ | ⬜ | ⬜ |  |

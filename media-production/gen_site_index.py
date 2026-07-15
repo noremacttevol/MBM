@@ -40,7 +40,7 @@ TITLES = {
     49: "Water to Wine at Cana", 51: "The First Catch of Fish",
     71: "Calling the Fishermen", 72: "Calling Matthew",
     84: "No Room: the Manger", 91: "Gethsemane",
-    101: "The Still Small Voice",
+    101: "The Still Small Voice", 102: "Jacob's Ladder",
     121: "Salt and Light", 135: "The Rainbow Covenant",
     161: "Called of God, as was Aaron",
 }
