@@ -51,6 +51,7 @@ TITLES = {
     156: "A Famine of Hearing the Word",
     157: "A Marvellous Work and a Wonder",
     158: "The Stick of Judah and Joseph",
+    159: "Other Sheep I Have",
     161: "Called of God, as was Aaron",
 }
 
