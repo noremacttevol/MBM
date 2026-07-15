@@ -97,7 +97,7 @@ sheet ready) · **Built** (final mp4 exists) · **Appr** (Cameron approved) ·
 | 28 | Hidden treasure | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
 | 29 | The pearl of great price | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes (s2 fix shipped) |
 | 30 | The net | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
-| 31 | The ten virgins | Matt 25 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes (s3 fix shipped) |
+| 31 | The ten virgins | Matt 25 | ✅ | ⬜ | ⬜ | ⬜ | REJECTED 2026-07-15 — still messed up, needs redo |
 | 32 | The talents | Matt 25 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
 | 33 | The sheep and the goats | Matt 25 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
 | 34 | The rich fool | Luke 12 | ✅ | ✅ | ⬜ | ⬜ | awaiting your yes |
@@ -112,7 +112,7 @@ sheet ready) · **Built** (final mp4 exists) · **Appr** (Cameron approved) ·
 | 43 | The wedding garment | Matt 22 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 — awaiting your yes |
 | 44 | The two debtors | Luke 7 | ✅ | ✅ | ⬜ | ⬜ | built Computer B 2026-07-14 (mp4 committed cb2ffd4) — awaiting your yes |
 | 45 | The wicked tenants | Mark 12 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 (Flow $0, CARE R+J, violence off-screen) — awaiting your yes |
-| 46 | The seed growing secretly | Mark 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 46 | The seed growing secretly | Mark 4 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine A 2026-07-14 |
 | 47 | Houses on rock and sand | Matt 7 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 (Flow images, 0 API cost) — awaiting your yes |
 | 48 | New wine, old bottles | Mark 2 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 — awaiting your yes |
 | 49 | The lamp on a stand | Mark 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
@@ -190,7 +190,7 @@ sheet ready) · **Built** (final mp4 exists) · **Appr** (Cameron approved) ·
 | 121 | The last supper | Luke 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 122 | Washing the disciples' feet | John 13 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 123 | The intercessory prayer | John 17 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 124 | Gethsemane | Luke 22 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 12 stills, 4:54, 22.9MB) |
+| 124 | Gethsemane | Luke 22 | ✅ | ⬜ | ⬜ | ⬜ | REJECTED 2026-07-15 — hair gets long out of nowhere in one scene, needs fix |
 | 125 | The betrayal kiss | Matt 26 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine C 2026-07-15 |
 | 126 | Peter's denial and the look | Luke 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 127 | Silent before accusers | Mark 14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
