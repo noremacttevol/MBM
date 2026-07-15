@@ -155,3 +155,29 @@ text_for_tts = SPOKEN.get(name, text)                # in the save loop
 (build.py captions still read SEGMENTS text, so the screen stays true KJV.)
 Ear-check list before assembly: bow, wound, wind, tears, lead, sow, live(s),
 read, dove, bass, minute, use(d), close. Listen to any segment containing one.
+- 2026-07-15 (D): **Windows: ffmpeg font path must have NO colon.** A `C:/Windows/Fonts/…ttf`
+  path breaks ffmpeg's `-filter_complex` parser (`No option name near '/Windows/…'`) because
+  `:` separates filter options. Copy the font to a colon-free RELATIVE path at build time
+  (`_ensure_fonts()` → `serif.ttf`/`serif_italic.ttf`; gitignore them — Georgia is proprietary).
+  Also: if no bundled `bin/ffmpeg`, install once with `winget install Gyan.FFmpeg` and resolve
+  it via a winget-Packages glob. See build-135/161 build.py.
+- 2026-07-15 (D): **Downloads only reach THIS disk from the LOCAL Windows Chrome.** The
+  extension writes blob downloads to the *browser's* host — a remote/Linux browser (even one
+  labelled isLocal on another machine) saves to that machine, not here. Verify once with a
+  throwaway download + a REAL check (`find … && echo` ALWAYS prints — false positive; use
+  `ls <path>` or a PowerShell time-filtered search). If the local Chrome drops out of
+  `list_connected_browsers`, restart it from the shell (`Stop-Process chrome; chrome
+  --restore-last-session <url>`) — that re-establishes the extension relay; then select it.
+- 2026-07-15 (D): **Aspect resets to 16:9 every new project — set 9:16 + 1x explicitly and
+  verify.** And never write "landscape" or "wide … painting" in a prompt: Nano Banana flips
+  to 16:9 even with 9:16 selected. Say "one single tall upright vertical painting, one
+  continuous scene". A 1376×768 still can't fill 9:16 and a blurred-bar reframe fails QC.
+- 2026-07-15 (D): **Chrome throttles repeated auto-downloads.** A batch loop (one JS exec,
+  sequential awaits ~900ms apart) lands many at once, but an extra single download afterward
+  may silently fail. Fix: reload the Flow page (the first download after a fresh load is always
+  allowed) and grab it first, or fire it from an on-page button click (a real user gesture).
+- 2026-07-15 (D): **MEMBER verse-videos (rows 151–200):** copy build-161-called-of-god. The
+  KJV *verse* is the centerpiece, read by the scripture voice (Christopher, cream italic,
+  sacred silence); narrator gives modern meaning. Closing card carries a small one-line
+  `GL_POINTER = "Learn more — Gospel Library: <Topic>"` (topic from THE-200 `→ GL:`). Christ
+  may be referenced but never depicted — use a light/veil image and gate-safe "never shown".
