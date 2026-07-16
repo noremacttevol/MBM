@@ -117,7 +117,7 @@ Appr and add it to this folder.
 | 74 | The woman who washed his feet | Luke 7 | ⬜ | ⬜ | ⬜ | ⬜ | stills by W1 (Elli laptop) 2026-07-16 — ART COMPLETE s1-s9 (gate PASS, Flow $0, QC pass; s1 rerolled x2: rotated scene, sleeping pose); ready for assembly |
 | 75 | The woman taken in adultery | John 8 | ⬜ | ⬜ | ⬜ | ⬜ | stills by W1 (Elli laptop) 2026-07-16 — ART COMPLETE s1-s10 (gate PASS, Flow $0, QC pass: no-raised-stone law + no-tears law held in every frame); ready for assembly |
 | 76 | "Suffer the little children" | Mark 10 | ⬜ | ⬜ | ⬜ | ⬜ | stills by W1 (Elli laptop) 2026-07-16 — ART COMPLETE s1-s8 (gate PASS, Flow $0, QC pass; s4/s7 rerolled for head-glow w/ anti-glow clause, +1 wrong-grab reroll on s7); ready for assembly |
-| 77 | The widow's mite | Mark 12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 77 | The widow's mite | Mark 12 | ⬜ | ⬜ | ⬜ | ⬜ stills W1 IN FLIGHT 2026-07-16 (painter, gate PASS) |
 | 78 | "Who is my mother?" | Mark 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 79 | The seventy sent | Luke 10 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 80 | "Come unto me, all ye that labour" | Matt 11 | ⬜ | ⬜ | ⬜ | ⬜ |  |
