@@ -2,18 +2,18 @@
 
 Markers are DROPPED for every row below — W1/W2 just pull and farm.
 
-## W1 — ready now, rows 1-100 (1)
+## W1 — ready now, rows 1-100 (2)
 
 73. Nazareth synagogue: "this day fulfilled" — build-73-this-day-fulfilled (8 stills)
+74. The woman who washed his feet — build-74-woman-washed-his-feet (9 stills)
 
 ## W2 — ready now, rows 101-200 (0)
 
 
-## WAITING ON HERMES DRAFTS — no prompt sheet yet (80)
+## WAITING ON HERMES DRAFTS — no prompt sheet yet (79)
 Hermes: write DRAFTS/row-NNN.md for these (spec in PROTOCOL-V4); an L machine
 turns each into a gate-passed sheet + marker, and it joins the lists above.
 
-74. The woman who washed his feet
 75. The woman taken in adultery
 76. "Suffer the little children"
 77. The widow's mite
