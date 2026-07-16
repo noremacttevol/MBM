@@ -165,7 +165,7 @@ Appr and add it to this folder.
 | 122 | The mote and the beam | Matt 7 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:29, 21.7MB; GREEN; told as the illustration with NO Jesus figure — Jesus's words are the cream voice, teacher off-frame in s1; the beam is a stylized non-gory metaphor, no blood/wound; two men consistent; Jesus KJV 7:1-2 + 7:5 two silences; s3 regenned to relock the brown-bearded critic) |
 | 123 | The golden rule | Matt 7 | ✅ | ✅ | ⬜ | ⬜ | BUILT + on gallery Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:36, 21.8MB; GREEN milk; told as the illustration — one recurring man lives the rule through a day, NO Jesus figure; Jesus's exact words are the cream voice: Matt 7:12 + Luke 6:38 two silences; man locked black-beard/olive-green tunic/tan headscarf across s3-s10; s8 renders "good measure running over") |
 | 124 | Love your enemies | Matt 5 | ✅ | ✅ | ⬜ | ⬜ | **BUILT 2026-07-16 (Machine C/L2, v4 protocol)** — Sermon-on-the-Mount teaching: 3 face-shown Jesus frame shots (master-locked) + farmer/neighbor illustration arc (both look-locked, duplicate-defended); KJV 5:44 + 5:45 sacred silences; face gate PASS pre-gen; 11 stills QC pass incl. 2 rerolls (s1 portrait-collapse, all laws); caption-v2 per-line, no hum, Flow $0. 22.0MB/3:21. Awaiting your yes. |
-| 125 | "I never knew you" | Matt 7:21–23 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 125 | "I never knew you" | Matt 7:21–23 | ⬜ | ⬜ | ⬜ | ⬜ | stills by W1 (Elli laptop) 2026-07-16 — ART COMPLETE s1-s7 (gate PASS, Flow $0, QC pass, 0 rerolls); ready for assembly |
 | 126 | By their fruits | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 127 | The strait gate | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 128 | The famine of hearing | Amos 8:11–12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
