@@ -1,3 +1,23 @@
+## 2026-07-16 — #3 Zacchaeus REJECTED AGAIN; corrections written into law; no builds (Machine C, text-only session)
+
+Cameron reviewed the 07-15 L1 rebuild of **#3 Zacchaeus** and rejected it a second time:
+(1) **Zacchaeus appeared twice in one picture**; (2) **still dwarf-short** — the wrong scale
+carried through every picture and changed the whole video; (3) **his look drifted still-to-still**
+(receding hairline in some frames, full hairline in others). Per his stand-down order this
+session generated NOTHING (zero images, zero credits) — it only recorded the rejection so the
+fix is built right once:
+
+- QUEUE.md: row 3 marked ❌ rejected again with the exact fix spec; returned to the Fix queue.
+- PRODUCTION-BIBLE §4b: three new laws — **DUPLICATE-FIGURE COUNT** (named characters appear
+  exactly once per frame; count them like anatomy), **CHARACTER-LOOK LOCK incl. hairline**
+  (lock text must pin hairline/hair/beard/age and go into every prompt; side-by-side vs master
+  before assembly), **TRAIT VERIFIED IN EVERY FRAME** (the calibration in the prompt is not QC —
+  measure the pixels; check still #1 before generating the batch).
+- PRODUCTION-BIBLE §5b failure log: entry for the double rejection so no machine repeats it.
+- Also this session: verified the 07-15 chain (b1f33d7 confirmed in history) and pulled L1's
+  6 commits (Zacchaeus/Mary-Martha rebuilds + PROTOCOL-V4.md). Cameron is pausing production to
+  review usage; next session should read PROTOCOL-V4.md and the credit-efficiency log first.
+
 ## 2026-07-15 — #123 The Golden Rule built + published (Machine C)
 
 **Video #123 The Golden Rule (Matt 7:12, with Luke 6:38)** built end-to-end on Machine C

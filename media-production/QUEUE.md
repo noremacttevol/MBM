@@ -9,7 +9,7 @@
 | # | Story | What's wrong | Claimed by |
 |---|---|---|---|
 | 16 | Mary and Martha | ~~Rejected~~ FIXED by L1 2026-07-15 — hair-correct stills regenerated (s3/s4/s6 shoulder-length + cream per LOCK v3), s5 fake-tears fix, caption-v2 ported, rebuilt. Back in re-review. | L1 done |
-| 3 | Zacchaeus | ~~Rejected~~ FIXED by L1 2026-07-15 — proportions recalibrated (short adult, normal build), 9 stills regenerated, rebuilt. Back in re-review. | L1 done |
+| 3 | Zacchaeus | **REJECTED AGAIN by Cameron 2026-07-16** (the L1 rebuild failed re-review): (1) Zacchaeus appears TWICE in one picture; (2) still dwarf-short — "too short," and the wrong scale carried through every picture, changing the whole video; (3) his look drifts still-to-still — sometimes a receding hairline, sometimes a full hairline. Fix needs: one-Zacchaeus-per-frame count, TRUE calibrated short adult (head level with men's shoulders, verified by QC zoom in EVERY frame), and a hard look-lock (hairline named in the lock text + every still compared against the master before assembly). See Bible §4b DUPLICATE-FIGURE COUNT + CHARACTER-LOOK LOCK (2026-07-16). | ⬜ open |
 
 ## ✅ APPROVED FOLDER — Cameron's fresh yes (post-redo, face-law v3)
 
@@ -35,7 +35,7 @@ Appr and add it to this folder.
 |---|---|---|---|---|---|---|---|
 | 1 | Woman who touched his cloak | Mark 5 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (Cameron — re-watched v3) |
 | 2 | The Prodigal Son | Luke 15 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (Cameron — re-watched v3) |
-| 3 | Zacchaeus | Luke 19 | ✅ | ✅ | ⬜ | ⬜ | **PROPORTION FIX + REBUILD 2026-07-15 (L1)** — ZACCHAEUS LOCK recalibrated per physicality-calibration law (short ADULT, normal proportions, head level with men's shoulders); s2–s10 regenerated Flow $0 text-locked (face-shown, master-consistent); s10 rerolled to kill a head-glow + dry-face fix; caption-v2; 18.7MB/4:07. NOTE for approver: ear-check "lived" in the opening line (n0) — no audio out on this box. Awaiting your yes. |
+| 3 | Zacchaeus | Luke 19 | ✅ | ✅ | ⬜ | ⬜ | ❌ **REJECTED AGAIN 2026-07-16 (Cameron)** — the 2026-07-15 L1 rebuild failed re-review: Zacchaeus DUPLICATED in one frame; still dwarf-short (wrong scale in every picture); hairline drifts still-to-still (receding vs full). Back in the Fix queue (top of this file) with the exact fix spec. Bible §4b gained DUPLICATE-FIGURE COUNT + CHARACTER-LOOK LOCK from this rejection. |
 | 4 | Nicodemus at night | John 3 | ✅ | ✅ | ⬜ | ⬜ | 🔁 RE-REVIEW (Cameron re-watching the face-shown versions, 2026-07-15) — **v3 FULL REBUILD 2026-07-15 (Machine A)** — old face-never build rebuilt: 11 face-shown stills locked to master + continuity locks (Nicodemus + night chamber same every shot), caption-v2, reverent burial (no body), invitation card, 21.1MB/5:58. Awaiting your yes. |
 | 5 | The bent-over woman | Luke 13 | ✅ | ✅ | ⬜ | ⬜ | 🔁 RE-REVIEW (Cameron re-watching the face-shown versions, 2026-07-15) — **v3 FULL REBUILD 2026-07-15 (Machine A)** — old face-never build rebuilt: 11 face-shown stills locked to master + continuity locks (bent→healed woman, synagogue, ruler same every shot), caption-v2, invitation card, 18.8MB/4:35. Awaiting your yes. |
 | 6 | The two sons | Matt 21 | ✅ | ✅ | ⬜ | ⬜ | 🔁 RE-REVIEW (Cameron re-watching the face-shown versions, 2026-07-15) — **v3 REBUILD 2026-07-15 (Machine A)** — face-shown Jesus framing (s1/s6/s7/s8, single-Jesus, locked to master) + parable scenes (father/two sons, continuity-locked), caption-v2, invitation card, 18.0MB/1:39. Awaiting your yes. |

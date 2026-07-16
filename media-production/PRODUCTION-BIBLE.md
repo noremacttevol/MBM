@@ -588,6 +588,43 @@ works. Then scale the motion budget per story as the Story-Fit Rule allows.
       and overlapping figures are where extra limbs hide). Any wrong count is
       an automatic regenerate, no matter how good the rest of the frame is.
       This count is a named line item in the QC pass, not an implied one.
+- [ ] DUPLICATE-FIGURE COUNT (added 2026-07-16, video #3 v3 rejection: Cameron —
+      "had Zacchaeus twice in one picture"): on the QC zoom of EVERY still,
+      count the NAMED CHARACTERS the same way anatomy is counted — each named,
+      locked character (Zacchaeus, the recurring man, a disciple with a stated
+      look) appears EXACTLY ONCE per frame. The image model loves to reuse a
+      strongly-described character as crowd filler, so any crowd/wide shot
+      containing a locked character is highest risk: scan every background
+      figure and ask "is this the same man again?" A second copy — even small,
+      even partial — is an automatic regenerate. Prompts for crowd scenes must
+      also state it defensively ("the crowd are OTHER men and women, none of
+      them resembling him").
+- [ ] CHARACTER-LOOK LOCK — HAIR AND HAIRLINE INCLUDED (added 2026-07-16,
+      video #3 v3 rejection: Cameron — "his looks also changed every time,
+      sometimes a receding hairline sometimes full hairline"): a character
+      lock that leaves a feature unstated leaves it free to drift, and the
+      most visible drift is HAIR. Every recurring character's lock text must
+      pin, explicitly: hairline (receding or full — pick one), hair length,
+      hair/beard color and shape, face shape/age, build, and wardrobe — and
+      that EXACT lock text goes into EVERY prompt he appears in, not just the
+      first. QC is a side-by-side: before assembly, put every still next to
+      the chosen master shot and confirm it reads as THE SAME MAN — same
+      hairline, same beard, same age. One drifted still = regenerate that
+      still; never ship "close enough," because look-drift across pictures is
+      what makes a video feel broken end to end.
+- [ ] TRAIT VERIFIED IN EVERY FRAME, NOT JUST THE LOCK TEXT (added 2026-07-16,
+      video #3 v3 rejection — the SECOND proportion failure on this video:
+      the 07-15 rebuild wrote "short adult, head level with men's shoulders"
+      into the lock, yet the delivered stills still read dwarf-short, and the
+      wrong scale carried through every picture): writing the calibration
+      into the prompt is NOT the QC. After generation, measure the trait in
+      the actual pixels of every frame where other figures are visible —
+      Zacchaeus's head at the SHOULDER of the men beside him (not their
+      waist, not their chest), normal adult limb/torso proportions. If the
+      picture disagrees with the lock, the picture is wrong: regenerate. A
+      trait the model exaggerated once will be exaggerated the same way in
+      the whole batch, so check the FIRST still against this rule before
+      generating the rest.
 
 **Before assembly (check the timing math):**
 - [ ] Measure real durations of every generated audio file; recompute all
@@ -694,6 +731,17 @@ both now BANNED:
    emphasis like extra "2D animation" wording shoved the output into cartoon land. The
    Master Style Block in section 2 is used byte-identical, every prompt, no additions,
    no paraphrasing. Style drift = automatic redo, so don't invite it.
+
+**2026-07-16 — Video #3 v3 (SECOND rejection of the same video): three failures, three laws.**
+Cameron rejected the 07-15 Zacchaeus rebuild: (1) Zacchaeus appeared TWICE in one picture —
+the model reused the strongly-locked character as crowd filler; (2) he was STILL dwarf-short
+("too short... it changed the entire video in every picture") even though the prompt lock said
+"short adult, head level with the men's shoulders" — proof that writing the calibration into
+the prompt is not QC; the pixels must be measured in every frame; (3) his hairline flipped
+between stills (receding vs full) because the lock text never pinned it. Cost: an entire
+second rebuild wasted. The three §4b laws added 2026-07-16 (DUPLICATE-FIGURE COUNT,
+CHARACTER-LOOK LOCK incl. hairline, TRAIT VERIFIED IN EVERY FRAME) exist so this never
+happens a third time. Check still #1 against all three BEFORE generating the rest of a batch.
 
 **2026-07-13 — Video #39: a `REF:` character lock does NOT lock the wardrobe by itself.**
 Shot s7 was regenerated with `REF: s4, s6` attached (both showing the tax collector in an
