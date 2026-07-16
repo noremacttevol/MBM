@@ -4,6 +4,13 @@ You are Machine C (hostname `cameron-lovett-MS-7C91`), rows **101–150**. A pri
 this machine built a lot and hit context limits. This file is how you continue WITHOUT
 relearning everything. Read it, then read FLOW-BUILD-PLAYBOOK.md, then go.
 
+> 💸 **READ `CREDIT-EFFICIENCY-AND-MISTAKES.md` FIRST (Cameron, 2026-07-15).** Cameron is
+> burning too much weekly usage. The fixes that matter most: **build ONE video per chat then
+> stop**; **QC the 10 stills from a single contact-sheet montage, not 10 separate image reads**;
+> trust the text-only checks (aspect, gate, captions) instead of reading frames. That doc also
+> lists every mistake from the 2026-07-15 session (character age/hair drift; a divine figure
+> growing a face) so you can prompt-lock against them up front.
+
 ## WHAT'S ALREADY DONE (do NOT rebuild these)
 Built + pushed this machine, all in the review queue (`site/review.html`):
 **#101–#119** (18 story videos) **and the #121 "Salt and Light" v3 REDO.**
