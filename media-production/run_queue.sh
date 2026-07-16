@@ -250,15 +250,21 @@ run_one() {
     return 1
   fi
 
-  # Cameron watches at https://noremacttevol.github.io/MBM/ — a video that never
-  # reaches the gallery is invisible to him no matter how good it is.
-  if ! grep -q "build-$(printf '%02d' "$num")-" "$REPO/index.html" 2>/dev/null; then
+  # Cameron watches at https://milk-b4-meat.web.app/review.html — a video that
+  # never reaches the gallery is invisible to him no matter how good it is.
+  # The gallery is site/review.html, deployed to Firebase (GitHub Pages is dead —
+  # the repo is far over its 1 GB limit). Regenerate, commit, and DEPLOY so the
+  # live page reflects this build the moment it's done.
+  if ! grep -q "build-$(printf '%02d' "$num")-" "$REPO/site/review.html" 2>/dev/null; then
     echo "   ⚠️  #$num built but is NOT on the gallery — publishing it now."
     python3 "$REPO/media-production/gen_site_index.py" >/dev/null 2>&1
-    git add "$REPO/index.html" 2>/dev/null
-    git commit -q -m "Site: publish #$num to the gallery (driver backfill)" 2>/dev/null
+    git add "$REPO/site/review.html" 2>/dev/null
+    git commit -q -m "Site: publish #$num to the review gallery (driver backfill)" 2>/dev/null
     git push -q origin main 2>/dev/null
-    grep -q "build-$(printf '%02d' "$num")-" "$REPO/index.html" 2>/dev/null \
+    # Deploy to Firebase. Harmless no-op if this machine isn't logged in
+    # (firebase login); the GitHub Action / approval monitor will deploy instead.
+    ( cd "$REPO" && firebase deploy --only hosting --non-interactive >/dev/null 2>&1 ) || true
+    grep -q "build-$(printf '%02d' "$num")-" "$REPO/site/review.html" 2>/dev/null \
       || { echo "   ⚠️  #$num: could not publish to the gallery. Log: $log"; return 1; }
   fi
 
