@@ -118,29 +118,29 @@ Appr and add it to this folder.
 | 75 | The woman taken in adultery | John 8 | ⬜ | ⬜ | ⬜ | ⬜ | stills by W1 (Elli laptop) 2026-07-16 — ART COMPLETE s1-s10 (gate PASS, Flow $0, QC pass: no-raised-stone law + no-tears law held in every frame); ready for assembly |
 | 76 | "Suffer the little children" | Mark 10 | ⬜ | ⬜ | ⬜ | ⬜ | stills by W1 (Elli laptop) 2026-07-16 — ART COMPLETE s1-s8 (gate PASS, Flow $0, QC pass; s4/s7 rerolled for head-glow w/ anti-glow clause, +1 wrong-grab reroll on s7); ready for assembly |
 | 77 | The widow's mite | Mark 12 | ⬜ | ⬜ | ⬜ | ⬜ stills by W1 (Elli laptop) 2026-07-16 -- ART COMPLETE s1-s9 (gate PASS, Flow $0, QC pass, 0 rerolls); ready for assembly |
-| 78 | "Who is my mother?" | Mark 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 79 | The seventy sent | Luke 10 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 80 | "Come unto me, all ye that labour" | Matt 11 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 81 | Render unto Caesar | Mark 12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 82 | The anointing at Bethany | Mark 14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 83 | Weeping over Jerusalem | Luke 19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 78 | "Who is my mother?" | Mark 3 | ⬜ | ⬜ | ⬜ | ⬜ |   stills by W1-STILLS (Elli laptop) 2026-07-16 — ART COMPLETE (gate PASS, Flow $0, montage-QC pass); ready for L1 assembly |
+| 79 | The seventy sent | Luke 10 | ⬜ | ⬜ | ⬜ | ⬜ |   stills by W1-STILLS (Elli laptop) 2026-07-16 — ART COMPLETE (gate PASS, Flow $0, montage-QC pass); ready for L1 assembly |
+| 80 | "Come unto me, all ye that labour" | Matt 11 | ⬜ | ⬜ | ⬜ | ⬜ |   stills by W1-STILLS (Elli laptop) 2026-07-16 — ART COMPLETE (gate PASS, Flow $0, montage-QC pass); ready for L1 assembly |
+| 81 | Render unto Caesar | Mark 12 | ⬜ | ⬜ | ⬜ | ⬜ |   stills by W1-STILLS (Elli laptop) 2026-07-16 — ART COMPLETE (gate PASS, Flow $0, montage-QC pass); ready for L1 assembly |
+| 82 | The anointing at Bethany | Mark 14 | ⬜ | ⬜ | ⬜ | ⬜ |   stills by W1-STILLS (Elli laptop) 2026-07-16 — ART COMPLETE (gate PASS, Flow $0, montage-QC pass); ready for L1 assembly |
+| 83 | Weeping over Jerusalem | Luke 19 | ⬜ | ⬜ | ⬜ | ⬜ |   stills by W1-STILLS (Elli laptop) 2026-07-16 — ART COMPLETE (gate PASS, Flow $0, montage-QC pass); ready for L1 assembly |
 | 84 | No room: the manger | Luke 2 | ✅ | ✅ | ⬜ | ⬜ | built Machine B 2026-07-15 (Flow prep, $0; 11 stills — Chrome dropped before the s12 dawn-door, closing beat holds on s11) — awaiting your yes |
 | 85 | Shepherds and angels | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ | stills by W1 (Elli laptop) 2026-07-16 — ART COMPLETE s1-s9 (gate PASS, Flow $0, montage-QC pass); ready for L1 assembly |
 | 86 | The wise men | Matt 2 | ⬜ | ⬜ | ⬜ | ⬜ | STILLS W1-b 2026-07-16 (prompt sheet + stills — narration/build OPEN) |
 | 87 | The boy in the temple | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ | ⚠️ NEEDS CAMERON: Jesus at TWELVE — JESUS-MASTER-REF/LOCK v3 is the adult face; no law yet for a boy-Jesus face. Skipped by W1-b until ruled. |
 | 88 | The triumphal entry | Luke 19 | ⬜ | ⬜ | ⬜ | ⬜ | STILLS W1-b 2026-07-16 (prompt sheet + stills — narration/build OPEN) |
 | 89 | The last supper | Luke 22 | ⬜ | ⬜ | ⬜ | ⬜ | STILLS W1-b 2026-07-16 (prompt sheet + stills — narration/build OPEN) |
-| 90 | Washing the disciples' feet | John 13 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 90 | Washing the disciples' feet | John 13 | ⬜ | ⬜ | ⬜ | ⬜ |   stills by W1-STILLS (Elli laptop) 2026-07-16 — ART COMPLETE (gate PASS, Flow $0, montage-QC pass); ready for L1 assembly |
 | 91 | Gethsemane | Luke 22 | ✅ | ✅ | ⬜ | ⬜ | **v3 FACE-SHOWN REDONE 2026-07-15 Machine B** — all 12 stills regenerated FACE-SHOWN, locked to master ref (Flow $0, Nano Banana 2); the rejected s7 hair-drift is fixed (shoulder-length in every frame); restrained agony (few dark muted drops, clean face, no gore); angel hope-beat in amber-gold; caption-v2; 2 sacred silences (jv42 surrender, jv46 rise); card em-dash fixed; 22.8MB/4:54, no dead air. Awaiting your yes. [migrated from old row 124] |
-| 92 | Peter's denial and the look | Luke 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 93 | Barabbas goes free | Mark 15 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 94 | "Father, forgive them" | Luke 23 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 95 | The thief on the cross | Luke 23 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 96 | "It is finished"; the veil torn | John 19 / Matt 27 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 97 | The empty tomb | Luke 24 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 98 | Mary at the tomb: her name | John 20 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 99 | Flesh and bone; Thomas's hands | Luke 24 / John 20 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 100 | The ascension | Acts 1 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 92 | Peter's denial and the look | Luke 22 | ⬜ | ⬜ | ⬜ | ⬜ |   stills by W1-STILLS (Elli laptop) 2026-07-16 — ART COMPLETE (gate PASS, Flow $0, montage-QC pass); ready for L1 assembly |
+| 93 | Barabbas goes free | Mark 15 | ⬜ | ⬜ | ⬜ | ⬜ |   stills by W1-STILLS (Elli laptop) 2026-07-16 — ART COMPLETE (gate PASS, Flow $0, montage-QC pass); ready for L1 assembly |
+| 94 | "Father, forgive them" | Luke 23 | ⬜ | ⬜ | ⬜ | ⬜ |   stills by W1-STILLS (Elli laptop) 2026-07-16 — ART COMPLETE (gate PASS, Flow $0, montage-QC pass); ready for L1 assembly |
+| 95 | The thief on the cross | Luke 23 | ⬜ | ⬜ | ⬜ | ⬜ |   stills by W1-STILLS (Elli laptop) 2026-07-16 — ART COMPLETE (gate PASS, Flow $0, montage-QC pass); ready for L1 assembly |
+| 96 | "It is finished"; the veil torn | John 19 / Matt 27 | ⬜ | ⬜ | ⬜ | ⬜ |   stills by W1-STILLS (Elli laptop) 2026-07-16 — ART COMPLETE (gate PASS, Flow $0, montage-QC pass); ready for L1 assembly |
+| 97 | The empty tomb | Luke 24 | ⬜ | ⬜ | ⬜ | ⬜ |   stills by W1-STILLS (Elli laptop) 2026-07-16 — ART COMPLETE (gate PASS, Flow $0, montage-QC pass); ready for L1 assembly |
+| 98 | Mary at the tomb: her name | John 20 | ⬜ | ⬜ | ⬜ | ⬜ |   stills by W1-STILLS (Elli laptop) 2026-07-16 — ART COMPLETE (gate PASS, Flow $0, montage-QC pass); ready for L1 assembly |
+| 99 | Flesh and bone; Thomas's hands | Luke 24 / John 20 | ⬜ | ⬜ | ⬜ | ⬜ |   stills by W1-STILLS (Elli laptop) 2026-07-16 — ART COMPLETE (gate PASS, Flow $0, montage-QC pass); ready for L1 assembly |
+| 100 | The ascension | Acts 1 | ⬜ | ⬜ | ⬜ | ⬜ |   stills by W1-STILLS (Elli laptop) 2026-07-16 — ART COMPLETE (gate PASS, Flow $0, montage-QC pass); ready for L1 assembly |
 | 101 | The still small voice | 1 Kgs 19 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 3:31, 21.8MB; no Jesus figure). NOTE for approver: ear-check the word "wind" (must sound like moving air /wɪnd/, not winding a clock) — couldn't verify by ear on this box. |
 | 102 | Jacob's ladder | Gen 28 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 3:21, 21.1MB; God shown as light, no figure) |
 | 103 | Peter's confession | Matt 16 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 9 stills 9:16, 2:35, 22.3MB; Jesus face-shown prompt-driven to master, s2 rerolled for cream law) |
