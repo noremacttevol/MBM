@@ -78,11 +78,18 @@ CARD_HOLD = 4.2
 
 
 def _ensure_fonts():
-    """Copy Georgia to colon-free relative paths for ffmpeg drawtext on Windows."""
+    """Copy a serif pair to colon-free relative paths for ffmpeg drawtext.
+    Windows: Georgia. Linux: DejaVu/Liberation serif (cross-platform, L1 2026-07-15)."""
     os.makedirs(S, exist_ok=True)
-    win = os.environ.get("WINDIR", r"C:\Windows")
-    pairs = [(os.path.join(win, "Fonts", "georgia.ttf"), f"{S}/serif.ttf"),
-             (os.path.join(win, "Fonts", "georgiai.ttf"), f"{S}/serif_bi.ttf")]
+    if os.name == "nt":
+        win = os.environ.get("WINDIR", r"C:\Windows")
+        pairs = [(os.path.join(win, "Fonts", "georgia.ttf"), f"{S}/serif.ttf"),
+                 (os.path.join(win, "Fonts", "georgiai.ttf"), f"{S}/serif_bi.ttf")]
+    else:
+        pairs = [("/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf",
+                  f"{S}/serif.ttf"),
+                 ("/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf",
+                  f"{S}/serif_bi.ttf")]
     for src, dst in pairs:
         if not os.path.exists(dst):
             shutil.copyfile(src, dst)
