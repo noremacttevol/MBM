@@ -1,3 +1,17 @@
+## 2026-07-16 (later, same session) — #7 Peter-walks-on-water REJECTED too; both fixes assigned to Machine C
+
+Cameron also rejected **#7 Peter walks on water** (07-15 Machine A v3 rebuild): one picture
+shows **Jesus waist-deep in the sea instead of walking ON it** — the frame inverts the miracle.
+Recorded text-only, nothing generated:
+
+- QUEUE.md: row 7 marked ❌ rejected; added to the Fix queue with the fix spec.
+- PRODUCTION-BIBLE §4b: new **ON-THE-WATER LAW** — on-the-sea figures stand ON the surface,
+  whole body above the waterline; only Peter SINKING may be partly in the water and must read
+  as sinking; QC zooms the waterline of every sea still. §5b failure-log entry added.
+- **Cameron: both open fixes (#3 Zacchaeus, #7 Peter) get done on THIS computer (Machine C).**
+  Claim written into both Fix-queue rows. Not building yet — he is pausing to review usage;
+  build them when he says go, under the new §4b laws and the credit-efficiency playbook.
+
 ## 2026-07-16 — #3 Zacchaeus REJECTED AGAIN; corrections written into law; no builds (Machine C, text-only session)
 
 Cameron reviewed the 07-15 L1 rebuild of **#3 Zacchaeus** and rejected it a second time:

@@ -625,6 +625,21 @@ works. Then scale the motion budget per story as the Story-Fit Rule allows.
       trait the model exaggerated once will be exaggerated the same way in
       the whole batch, so check the FIRST still against this rule before
       generating the rest.
+- [ ] ON-THE-WATER LAW (added 2026-07-16, video #7 rejection: Cameron —
+      "Jesus is waist deep instead of walking in one picture"): when the
+      scripture puts a figure ON the sea (Matt 14:25-29), every still must
+      show him STANDING ON the surface — feet at or on the waterline, the
+      entire body above the water, at most sandals and hem touching, small
+      ripples under the soles. Waist-deep or wading is the OPPOSITE of the
+      miracle and inverts the story at a glance (Action-Logic law). Prompts
+      must state it positively AND defensively ("standing ON TOP of the
+      water's surface, feet resting on the waves as on solid ground — not
+      wading, not partly submerged, no part of his body below the
+      waterline"). The ONLY beat where a figure may be partly in the water
+      is Peter SINKING (Matt 14:30), and it must read as sinking mid-cry
+      with a reaching hand — never calm wading. QC: zoom the waterline in
+      every sea still and ask "is this person on the water or in it?" In it
+      = automatic regenerate.
 
 **Before assembly (check the timing math):**
 - [ ] Measure real durations of every generated audio file; recompute all
@@ -731,6 +746,15 @@ both now BANNED:
    emphasis like extra "2D animation" wording shoved the output into cartoon land. The
    Master Style Block in section 2 is used byte-identical, every prompt, no additions,
    no paraphrasing. Style drift = automatic redo, so don't invite it.
+
+**2026-07-16 — Video #7: Jesus WAIST-DEEP in the sea in a "walks on water" video.**
+Cameron rejected the 07-15 v3 rebuild: one picture showed Jesus waist-deep in the water
+instead of walking ON it — the exact opposite of the miracle the video exists to tell.
+Nobody QC'd the waterline. Rule now in §4b (ON-THE-WATER LAW): on-the-sea figures stand ON
+the surface, whole body above the waterline; prompts say it positively and defensively; the
+only partly-in-the-water beat allowed is Peter sinking, and it must read as sinking. QC zooms
+the waterline of every sea still. Cost: a rebuild. This is the Action-Logic law's sharpest
+case yet: a frame that inverts the miracle inverts the story.
 
 **2026-07-16 — Video #3 v3 (SECOND rejection of the same video): three failures, three laws.**
 Cameron rejected the 07-15 Zacchaeus rebuild: (1) Zacchaeus appeared TWICE in one picture —
