@@ -1,3 +1,28 @@
+## 2026-07-16 (same session, "fix them") — #7 AND #3 rebuilt and back in review (Machine C)
+
+Cameron said "fix them" — both fix-queue videos rebuilt this session, Flow $0, one at a time:
+
+- **#7 Peter walks on water — ON-THE-WATER fix.** QC found the law broken in FOUR stills,
+  not one (s5/s6 shin-deep, s8 Jesus waist-deep = Cameron's catch, s9 both wading). All four
+  regenerated with the §4b ON-THE-WATER language (feet ON the surface, ripples under soles;
+  only sinking-Peter partly in water). 2 rerolls: s6 wardrobe/sandal drift, s8 rogue second
+  boat. Two NEW box-specific bugs found and fixed in build.py: this machine's ffmpeg renders
+  embedded caption newlines as tofu boxes (fix: one drawtext per line) and DejaVu serif
+  italic doesn't exist here so KJV fell back to sans (fix: LiberationSerif-Italic, same as
+  build-123). 20.5MB/4:16. Pushed (8d90082). Awaiting Cameron's yes.
+- **#3 Zacchaeus — v4 master-ref rebuild** (third build of this video). Root cause of the
+  repeat failures: TEXT locks alone don't hold a character's look. Fix: generated + QC'd
+  `zacchaeus-master-ref.jpeg` — receding hairline, bald crown, russet+teal robes, and the
+  height calibration (head level with two taller men's shoulders) PAINTED INTO the reference
+  — then regenerated all 10 Zacchaeus stills attached to it (ZACCHAEUS LOCK v4 in PROMPTS.md).
+  Per-frame QC under the three new §4b laws: exactly one Zacchaeus per frame, pixel-checked
+  height, same hairline everywhere. 1 reroll (s8 collapsed into a Jesus portrait — reprompted
+  forced-wide). Also: build-03 had NO audio/ in git (L1 never committed it) — narration
+  regenerated with make_narration.py (Andrew + Christopher) and audio/ is now committed;
+  caption per-line fix applied here too. 20.0MB/4:07. Awaiting Cameron's yes.
+- Flow driver note: one 10-still burst died mid-run on a flaky Playwright page state; resumed
+  with a paragraph-filtered resume script. If bursts get flaky, generate in smaller batches.
+
 ## 2026-07-16 (later still, same session) — 🔇 HUM PURGE: the sine "music bed" removed from EVERY video (Machine C)
 
 Cameron, listening on headphones, caught a constant background hum in #8, then #9, then

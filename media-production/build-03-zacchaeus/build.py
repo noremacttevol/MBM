@@ -139,17 +139,26 @@ def caption_layers(seg_id, dur, spoken_end, text, kjv):
         cs = t0 + (t1 - t0) * acc / total
         acc += len(c)
         ce = t0 + (t1 - t0) * acc / total
-        tf = f"{S}/{seg_id}_{i}.txt"
-        with open(tf, "w") as f:
-            f.write("\n".join(textwrap.wrap(c, width)))
         fo = max(cs, ce - 0.35)
+        # one drawtext per LINE: this machine's ffmpeg renders an embedded
+        # newline as a tofu box, so lines each get their own file + y offset
+        lines = textwrap.wrap(c, width)
+        lh = size + 13
+        block_h = lh * len(lines) - 13
+        draws = []
+        for j, ln in enumerate(lines):
+            tf = f"{S}/{seg_id}_{i}_{j}.txt"
+            with open(tf, "w") as f:
+                f.write(ln)
+            y = 1920 - 120 - block_h + j * lh
+            draws.append(
+                f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
+                f"fontcolor={color}:x=(w-text_w)/2:y={y}:"
+                f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
+                f"box=1:boxcolor=black@0.55:boxborderw=22")
         filters.append(
             f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
-            f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
-            f"fontcolor={color}:line_spacing=13:x=(w-text_w)/2:"
-            f"y=h-120-text_h:"
-            f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
-            f"box=1:boxcolor=black@0.55:boxborderw=22,"
+            + ",".join(draws) + ","
             f"fade=t=in:st={cs:.2f}:d=0.35:alpha=1,"
             f"fade=t=out:st={fo:.2f}:d=0.35:alpha=1[cap{seg_id}{i}]")
         labels.append(f"[cap{seg_id}{i}]")
@@ -181,11 +190,19 @@ def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, kjv, first):
 
 
 def build_card(dur, text):
-    tf = f"{S}/card.txt"
-    with open(tf, "w") as f:
-        f.write("\n".join(textwrap.wrap(text, width=30)))
-    vf = (f"drawtext=fontfile={SERIF}:textfile={tf}:fontsize=50:"
-          f"fontcolor={INK}:line_spacing=24:x=(w-text_w)/2:y=(h-text_h)/2,"
+    # per-line drawtext (this box's ffmpeg renders embedded newlines as tofu)
+    lines = textwrap.wrap(text, width=30)
+    lh = 50 + 24
+    block_h = lh * len(lines) - 24
+    draws = []
+    for j, ln in enumerate(lines):
+        tf = f"{S}/card_{j}.txt"
+        with open(tf, "w") as f:
+            f.write(ln)
+        y = (1920 - block_h) // 2 + j * lh
+        draws.append(f"drawtext=fontfile={SERIF}:textfile={tf}:fontsize=50:"
+                     f"fontcolor={INK}:x=(w-text_w)/2:y={y}")
+    vf = (",".join(draws) + ","
           f"fade=t=in:st=0:d=0.8,fade=t=out:st={dur-0.8}:d=0.8")
     run([FF, "-y", "-f", "lavfi",
          "-i", f"color=c={CREAM}:s=1080x1920:r={FPS}:d={dur}",

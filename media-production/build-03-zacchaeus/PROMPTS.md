@@ -21,15 +21,27 @@ NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one pict
 
 ## CONTINUITY LOCKS
 
-[ZACCHAEUS LOCK] = the SAME man in every shot — a short grown man of completely NORMAL
-adult proportions and normal adult build, a wealthy Jewish tax collector of about fifty,
-the top of his head level with the shoulders of the men beside him — about a head shorter
-than the people around him and no more, a dignified short ADULT with adult-length arms and
-legs, never child-sized, never tiny, never stubby or squat — a little soft and round,
-balding on top with close grey-flecked dark hair and a neat short grey-brown beard, dressed
-in fine costly robes of deep russet-brown and dark teal with an embroidered border and a
-wide sash (rich colors, NEVER cream or off-white), his face sharp, anxious and eager.
-Exactly two arms, two hands, two legs.
+[ZACCHAEUS LOCK v4 — 2026-07-16, after Cameron's second rejection (duplicate Zacchaeus in
+one frame, dwarf-short again, hairline flipping receding/full). Text alone did NOT hold the
+look; v4 locks by REFERENCE IMAGE: every shot attaches `assets/zacchaeus-master-ref.jpeg`
+(QC'd master: receding hairline + bald crown, grey-flecked sides, neat grey-brown beard,
+russet-brown + teal robes, gold rings, and the height calibration painted into the image —
+his head level with two taller men's shoulders). The prompt text used with it:]
+
+ZACCHAEUS LOCK v4: Zacchaeus is IDENTICAL to the short balding man in the attached
+ZACCHAEUS-MASTER-REF image — the SAME man in every picture: a wealthy Jewish chief tax
+collector of about fifty, warm olive Middle Eastern skin, BALDING with a clearly RECEDING
+hairline and a bald crown, close-cropped grey-flecked dark hair only around the sides and
+back of his head (NEVER a full head of hair), the same neat short grey-brown beard, a
+little soft and round at the middle, and the SAME fine costly robes of deep russet-brown
+and dark teal with an embroidered border and a wide sash, gold rings on his fingers (rich
+colors, never cream or off-white). HIS HEIGHT, EXACTLY CALIBRATED: a SHORT grown man of
+completely NORMAL adult proportions with adult-length arms and legs — the top of his head
+level with the SHOULDERS of the men near him, about one head shorter than they are and NO
+MORE — dignified, never child-sized, never tiny, never dwarf proportions, never stubby or
+squat. HE APPEARS EXACTLY ONCE IN THIS PICTURE: every other person is a DIFFERENT ordinary
+townsperson who looks nothing like him — no second short man, no second balding man, no
+second russet-and-teal robe anywhere in the frame.
 
 [JERICHO-SETTING LOCK] = a warm first-century Jericho street of pale dressed stone and
 sun-baked mud-brick houses, tall date-palm trees, a large old sycamore-fig tree with a
