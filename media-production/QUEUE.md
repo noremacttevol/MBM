@@ -125,11 +125,11 @@ Appr and add it to this folder.
 | 82 | The anointing at Bethany | Mark 14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 83 | Weeping over Jerusalem | Luke 19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 84 | No room: the manger | Luke 2 | ✅ | ✅ | ⬜ | ⬜ | built Machine B 2026-07-15 (Flow prep, $0; 11 stills — Chrome dropped before the s12 dawn-door, closing beat holds on s11) — awaiting your yes |
-| 85 | Shepherds and angels | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 86 | The wise men | Matt 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 87 | The boy in the temple | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 88 | The triumphal entry | Luke 19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 89 | The last supper | Luke 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 85 | Shepherds and angels | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ | STILLS W1-b 2026-07-16 (prompt sheet + stills, Cameron's all-unclaimed order — narration/build OPEN; W1-b = second W1 session, taking 85+ to stay clear of ART-BANK W1's 73-76 block) |
+| 86 | The wise men | Matt 2 | ⬜ | ⬜ | ⬜ | ⬜ | STILLS W1-b 2026-07-16 (prompt sheet + stills — narration/build OPEN) |
+| 87 | The boy in the temple | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ | ⚠️ NEEDS CAMERON: Jesus at TWELVE — JESUS-MASTER-REF/LOCK v3 is the adult face; no law yet for a boy-Jesus face. Skipped by W1-b until ruled. |
+| 88 | The triumphal entry | Luke 19 | ⬜ | ⬜ | ⬜ | ⬜ | STILLS W1-b 2026-07-16 (prompt sheet + stills — narration/build OPEN) |
+| 89 | The last supper | Luke 22 | ⬜ | ⬜ | ⬜ | ⬜ | STILLS W1-b 2026-07-16 (prompt sheet + stills — narration/build OPEN) |
 | 90 | Washing the disciples' feet | John 13 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 91 | Gethsemane | Luke 22 | ✅ | ✅ | ⬜ | ⬜ | **v3 FACE-SHOWN REDONE 2026-07-15 Machine B** — all 12 stills regenerated FACE-SHOWN, locked to master ref (Flow $0, Nano Banana 2); the rejected s7 hair-drift is fixed (shoulder-length in every frame); restrained agony (few dark muted drops, clean face, no gore); angel hope-beat in amber-gold; caption-v2; 2 sacred silences (jv42 surrender, jv46 rise); card em-dash fixed; 22.8MB/4:54, no dead air. Awaiting your yes. [migrated from old row 124] |
 | 92 | Peter's denial and the look | Luke 22 | ⬜ | ⬜ | ⬜ | ⬜ |  |
