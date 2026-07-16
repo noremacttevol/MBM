@@ -25,8 +25,8 @@ one single tall upright vertical painting."
 
 [WILDERNESS-SETTING LOCK] = the Judean wilderness: pale broken limestone and flint
 hills, dry wadis, scattered thorn scrub, dust, a huge sky — beautiful and utterly
-empty. No person, no animal, no figure of any kind anywhere except Jesus himself
-(and the angels in the final shot only).
+empty. No person, no animal, no figure of any kind anywhere except the one man in
+cream himself (and the angels in the final shot only).
 
 ---
 
