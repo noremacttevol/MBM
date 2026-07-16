@@ -23,11 +23,17 @@ no dead air, no baked-in text, care flags).
   Copy build-119's build.py as the template for any future no-God-speech story.
 
 ## RESUME POINT
-Next job = lowest ⬜ row in my range = **#122 The mote and the beam (Matt 7)** (120 and 121 are
-done). Then #123 onward. **Check media-production/CONTENT-CARE.md for each row's care flags
-before storyboarding.** #122 is a Jesus-TEACHING story (Sermon on the Mount) — if a Jesus
-figure appears, use the JESUS LOCK v3 + face-by-angle rules and pass the gate; if it is told as
-a parable illustration with no Jesus in frame, keep God/Jesus out of frame like the parables.
+Next job = lowest ⬜ row in my range = **#123** (117–122 all done this session). Then #124
+onward. **Check media-production/CONTENT-CARE.md for each row's care flags before
+storyboarding.** For any Jesus-teaching story: tell it as the illustration with NO Jesus figure
+(his words carry as the cream voice) — that is the clean, gate-safe pattern used for #122; only
+put a Jesus figure in frame if the beat truly needs it, and then use JESUS LOCK v3 + face-by-
+angle and pass the gate.
+
+**Divine-figure lesson (both #119 and #122):** when a story needs "a divine/holy figure," the
+image model will try to give it a constructed face — render it instead as faceless radiant
+LIGHT (#119) or keep the holy speaker off-frame as a voice (#122). Always QC for a face
+creeping in.
 
 **Working preference (Cameron, 2026-07-15):** run every command in the FOREGROUND, here and
 now — never background jobs. See memory `foreground-only-commands`.

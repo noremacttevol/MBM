@@ -1,9 +1,9 @@
-## 2026-07-15 — #117 Hosea, #118 Jonah, #119 Fourth man, #120 Job built (Machine C)
+## 2026-07-15 — #117 Hosea, #118 Jonah, #119 Fourth man, #120 Job, #122 Mote & beam (Machine C)
 
-Four videos built end-to-end on Machine C (`cameron-lovett-MS-7C91`), Phase-1 stills-only,
+Five videos built end-to-end on Machine C (`cameron-lovett-MS-7C91`), Phase-1 stills-only,
 Google Flow $0, all published to the review gallery (`site/review.html`) and pushed to
-`origin/main`. Resume next at **#122 The mote and the beam** (121 already done). Commit: this
-entry ships with the push below.
+`origin/main`. Resume next at **#123** (121 and 122 done). Commit: this entry ships with the
+push below.
 
 - **#117 Hosea Buys Her Back (Hosea 1–3)** — `hosea-1_hosea-buys-her-back.mp4`, 3:04, 21.6MB.
   Care D,L: redemption at the price paid, never the scandal; nothing explicit. Hosea shows his
@@ -31,8 +31,13 @@ entry ships with the push below.
   narrator voice. Caught + fixed s6 (Job had drifted young/dark-bearded — relocked to the older
   grey-bearded man). Cameron asked mid-session to stop backgrounding commands — run everything
   foreground here-and-now (saved as a memory).
+- **#122 The Mote and the Beam (Matt 7:1-5)** — `matthew-7_mote-and-beam.mp4`, 2:29, 21.7MB.
+  GREEN. Told as the visual ILLUSTRATION with NO Jesus figure in frame — Jesus's exact words
+  carry as the cream teaching voice (7:1-2 + 7:5, two silences), unseen teacher off-frame in
+  s1. The beam is a stylized non-gory metaphor (no blood/wound). Two men kept consistent
+  (brown-bearded critic vs younger man in blue); s3 regenerated to relock the brown beard.
 - **Housekeeping:** started a FRESH Flow project (026b29c0) at session start per the prior
-  handoff's speed fix — no rate-limit tripped across ~44 gens. Concurrent pushes from other
+  handoff's speed fix — no rate-limit tripped across ~55 gens. Concurrent pushes from other
   machines caused review.html rebase conflicts twice; resolved each by regenerating
   review.html from the merged QUEUE.md and continuing the rebase (the file is generated, so
   regen-and-continue is the correct resolution).
