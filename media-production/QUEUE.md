@@ -153,7 +153,7 @@ Appr and add it to this folder.
 | 119 | The fourth man in the fire | Dan 3 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 3:02, 22.7MB; care R — fourth man IN fire, NO burning flesh; the fourth figure is FACELESS radiant light, no constructed face/no void [s6/s7 regenned after a face crept in]; three Hebrews consistent, king recognizable; all-narrator [Dan 3 has no God-speech] white captions, KJV quotes narrator-voice, 2 music hushes n3+n6) |
 | 120 | Job answered from the whirlwind | Job 38–42 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:52, 21.3MB; care G,J — the answer was PRESENCE not explanation, God never framed as tormentor-for-glory; losses shown as grief/aftermath, no gore/bodies/sores; God shown ONLY as the whirlwind+light, no figure; God KJV 38:4 + 38:31 two silences, Job's 42:5 answer narrator-voice; s6 regenned to relock older grey-bearded Job) |
 | 121 | Salt and light | Matt 5 | ✅ | ✅ | ⬜ | ⬜ | v3 REDONE 2026-07-15 Machine C — s1/s4/s10 regenerated face-SHOWN | 121 | Salt and light | Matt 5 | ✅ | ⬜ | ⬜ | ⬜ | v3 REDO IN PROGRESS Machine C 2026-07-15 (regen s1/s4/s10 with master face) | consistent with master (candidate 1); 7 metaphor stills kept; caption-v2; 3:37, 21.8MB. Scene shots are prompt-driven (LOCK v3): attaching the bust-portrait as --ref made Nano Banana copy the portrait instead of composing the scene. |
-| 122 | The mote and the beam | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 122 | The mote and the beam | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine C 2026-07-15 |
 | 123 | The golden rule | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 124 | Love your enemies | Matt 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 125 | "I never knew you" | Matt 7:21–23 | ⬜ | ⬜ | ⬜ | ⬜ |  |
