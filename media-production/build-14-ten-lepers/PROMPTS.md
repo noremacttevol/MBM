@@ -1,8 +1,7 @@
 # PROMPTS — Story Video #14: The Ten Lepers (Luke 17:11-19)
 
 Paste-ready Flow prompts. Built under PRODUCTION-BIBLE §2 (byte-identical Master
-Style Block), §4b (right-first-time), and §1 Corrections #1–#18. **The face is never
-shown per Correction #18** — a real, warm Middle Eastern human presence (warm
+Style Block), §4b (right-first-time), and §1 Corrections #1–#18. **SUPERSEDED 2026-07-15: FACE LAW v3 — the face IS shown, locked to JESUS-MASTER-REF (see the JESUS lock below)**; original face-never text kept only where stills were not regenerated — a real, warm Middle Eastern human presence (warm
 tan/olive-brown skin, never white; hands and hair may show) staged ONLY from behind,
 over-the-shoulder, or at a distance, so the front is never in frame. No cloaked-figure
 staging, and equally no front-on view.
@@ -40,13 +39,12 @@ but with "First-century Judea. Slow, tender movement. Sacred, hushed tone."
   (the slate-gray Samaritan among them), faces half-wrapped in undyed linen, hands
   bound in linen. Afflicted with restraint — wrappings and distance only, NO sores,
   NO gore. After the fork: NINE on the far road, ONE returning.
-- JESUS — kept a mystery, staged ONLY from BEHIND / over-the-shoulder / at a distance
-  (#18): a real, warm first-century Judean man, warm MIDDLE-EASTERN olive-brown skin
-  (NEVER white/pale), dark shoulder-length hair, in an undyed cream wool robe with a
-  simple mantle; his hands and hair may show. The camera is always behind him or at a
-  distance, so the viewer sees only his back, shoulder, and hair, never the front of
-  him. No halo or glow. He heals BY WORD across the distance; never touches or
-  approaches the ten. Never the centered star.
+- JESUS (FACE LAW v3, 2026-07-15 — face IS shown, locked to the master):
+  JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.
+  REF: jesus-master-ref
+  He heals BY WORD across the distance in s4; never touches the ten while afflicted.
+  v3 REDO note: s1/s4/s10 regenerated FACE-SHOWN 2026-07-15 (Machine A, scratchpad
+  prompts); s11 regenerated FACE-SHOWN 2026-07-15 (L1, block below).
 - LINEN WRAPPINGS: strips of undyed, road-dusted linen on faces and hands of all ten;
   in the healing they loosen, fall, and blow down the road like shed cocoons.
 - SETTING: dry limestone borderland — pale dusty road, rocky ridges, scrub olive and
@@ -132,7 +130,9 @@ A wider view from BEHIND Jesus and his disciples, looking down the pale road tha
 ```
 Beautiful hand-painted 2D animation style, reverent and warm, like a classic illustrated storybook of scripture brought to life. Soft painterly brushstroke textures, glowing golden light, muted earth tones with warm gold highlights. First-century Judea. Sacred, hushed tone. Not photorealistic. No text or captions in the image. Historically modest clothing: rough-woven wool and linen in undyed earth colors. No modern objects.
 
-Over-the-shoulder from BEHIND Jesus. The camera sits behind him: the back of his cream-robed shoulder and his dark hair are soft in the near corner, and the front of him is turned away from view and never shown. Beyond him the healed Samaritan in the slate-gray patched tunic rises to his feet on the pale road, his own face wet and shining with joy, standing tall and whole, shoulders back, chest open. Jesus lifts one open hand toward the rising man in blessing but does not touch him. His hand is warm olive-brown, never white. Bright honest daylight, warm gold light across them both. Two figures, each with two arms, two hands, two legs. This is one single continuous painted illustration — not a comic page: no panels, no borders, no split frames, one unified scene; a smooth painterly finish with no visible canvas weave or paper grain.
+JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.
+REF: jesus-master-ref
+Jesus stands on the pale dusty border road facing the healed Samaritan, his face shown clearly, warm and glad, speaking the blessing. The healed Samaritan — a lean man in his forties, full dark beard streaked with gray, olive skin, in his slate-gray patched wool tunic with a rope belt — rises from his knees to his feet before Jesus, standing tall and whole, shoulders back, chest open, joy on his face; his cheeks are completely dry and clean: no tears, no teardrops, no wet streaks, all the feeling carried in his eyes, brows and open mouth. Jesus lifts one open hand toward the rising man in blessing but does not touch him. Rocky ridges, scrub olive trees and the small walled village small in the distance behind them. Only Jesus wears cream; the Samaritan and everything else in darker earth tones. Bright honest daylight, blue sky, warm gold light across them both. Two figures, each with exactly two arms, two hands, two legs. This is one single continuous painted illustration — not a comic page: no panels, no borders, no split frames, one unified scene; a smooth painterly finish with no visible canvas weave or paper grain.
 ```
 
 ### s12 — Going home whole (STILL)
