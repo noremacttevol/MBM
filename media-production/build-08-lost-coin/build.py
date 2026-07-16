@@ -29,7 +29,7 @@ ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "18",
 STILL_COUNT = "Woman_counting_silver_coins_2K_202607081706.jpeg"
 STILL_SWEEP = "Woman_searching_for_lost_coin_202607081705.jpeg"
 STILL_KNEEL = "Woman_searching_for_lost_coin_202607081707.jpeg"
-CLIP_FOUND = "Woman_finding_single_coin_202607082018.mp4"  # v4 FINAL: ONE coin in every frame, floor bare after pickup, positive-only phrasing per PRODUCTION-BIBLE 5b (Cameron's two-coins fix). v3 negative-prompt attempt rejected (cartoon drift); v2 left a second coin on the floor.
+STILL_FOUND = "found.jpeg"  # stills-only (Law E): the former Veo "found flash" clip is now a still
 STILL_DOOR = "Woman_holding_silver_coin_joyfully_202607081704.jpeg"
 STILL_STARS = "Village_under_starry_sky_2K_202607081703.jpeg"
 
@@ -48,7 +48,7 @@ SEGMENTS = [
      "She lights a lamp.\nShe sweeps the whole house.", "n"),
     ("s03", "still", STILL_KNEEL, 8.5, "in",
      "She searches carefully —\nnot casually, carefully —\nuntil she finds it.", "n"),
-    ("s04", "clip", CLIP_FOUND, 8.0, None,
+    ("s04", "still", STILL_FOUND, 8.0, "in",
      None, "n"),
     ("s05a", "still", STILL_DOOR, 4.5, "in",
      "Then she calls her neighbors\nand friends to celebrate.", "n"),
@@ -85,20 +85,75 @@ def run(cmd):
     subprocess.run(cmd, check=True, capture_output=True)
 
 
-def caption_filter(seg_id, text, style):
+import textwrap
+
+
+# ---- CAPTION SYSTEM v2 (Cameron, 2026-07-15) — wide bottom, chunked ----
+def sentences(text):
+    import re
+    return [p for p in re.split(r"(?<=[.!?;:]) +", text) if p]
+
+
+def chunk_caption(text, width, max_lines):
+    out, cur = [], ""
+    for s in sentences(text):
+        cand = (cur + " " + s).strip()
+        if len(textwrap.wrap(cand, width)) <= max_lines:
+            cur = cand
+            continue
+        if cur:
+            out.append(cur)
+        if len(textwrap.wrap(s, width)) <= max_lines:
+            cur = s
+        else:
+            piece = ""
+            for frag in s.split(", "):
+                cand2 = (piece + ", " + frag).strip(", ").strip()
+                if len(textwrap.wrap(cand2, width)) <= max_lines:
+                    piece = cand2
+                else:
+                    if piece:
+                        out.append(piece)
+                    piece = frag
+            cur = piece
+    if cur:
+        out.append(cur)
+    return out
+
+
+def caption_layers(seg_id, dur, text, style):
     if not text:
-        return None
-    tf = f"{S}/{seg_id}.txt"
-    with open(tf, "w") as f:
-        f.write(text)
+        return [], []
+    text = " ".join(text.split())
     if style == "kjv":
-        font, size, color = SERIF_BI, 46, "0xFFF3DC"
+        font, size, color, width, maxl = SERIF_BI, 46, "0xFFF3DC", 38, 3
     else:
-        font, size, color = SERIF, 42, "white"
-    return (f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
-            f"fontcolor={color}:line_spacing=14:x=(w-text_w)/2:y=h-420:"
-            f"shadowcolor=black@0.85:shadowx=2:shadowy=2:"
-            f"box=1:boxcolor=black@0.30:boxborderw=18")
+        font, size, color, width, maxl = SERIF, 34, "white", 48, 2
+    spoken_end = max(0.6, dur - 0.5)
+    chunks = chunk_caption(text, width, maxl)
+    total = sum(len(c) for c in chunks) or 1
+    t0, t1 = 0.15, max(0.6, min(dur - 0.2, spoken_end + 0.35))
+    filters, labels = [], []
+    acc = 0
+    for i, c in enumerate(chunks):
+        cs = t0 + (t1 - t0) * acc / total
+        acc += len(c)
+        ce = t0 + (t1 - t0) * acc / total
+        tf = f"{S}/{seg_id}_{i}.txt"
+        with open(tf, "w") as f:
+            f.write("\n".join(textwrap.wrap(c, width)))
+        fo = max(cs, ce - 0.35)
+        filters.append(
+            f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
+            f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
+            f"fontcolor={color}:line_spacing=13:x=(w-text_w)/2:"
+            f"y=h-120-text_h:"
+            f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
+            f"box=1:boxcolor=black@0.55:boxborderw=22,"
+            f"fade=t=in:st={cs:.2f}:d=0.35:alpha=1,"
+            f"fade=t=out:st={fo:.2f}:d=0.35:alpha=1[cap{seg_id}{i}]")
+        labels.append(f"[cap{seg_id}{i}]")
+    return filters, labels
 
 
 def build_still(seg_id, src, dur, zdir, cap, style):
@@ -107,18 +162,29 @@ def build_still(seg_id, src, dur, zdir, cap, style):
         z = f"1.001+0.12*on/{frames}"
     else:
         z = f"1.121-0.12*on/{frames}"
-    vf = (f"scale=2160:3840,setsar=1,"
-          f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
-          f"d={frames}:s=1080x1920:fps={FPS}")
-    capf = caption_filter(seg_id, cap, style)
-    if capf:
-        vf += "," + capf
+    base = (f"[0:v]scale=2160:3868,setsar=1,"
+            f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
+            f"d={frames}:s=2160x3840:fps={FPS},"
+            f"scale=1080:1920:flags=lanczos")
+    tail = ""
     if seg_id == "s00":
-        vf += ",fade=t=in:st=0:d=1.2"
+        tail = ",fade=t=in:st=0:d=1.2"
     if seg_id == "s06c":
-        vf += f",fade=t=out:st={dur-1.2}:d=1.2"
-    run(["ffmpeg", "-y", "-loop", "1", "-i", f"{A}/{src}",
-         "-t", str(dur), "-vf", vf] + ENC + [f"{S}/{seg_id}.mp4"])
+        tail = f",fade=t=out:st={dur-1.2}:d=1.2"
+    capf, labels = caption_layers(seg_id, dur, cap, style)
+    if labels:
+        steps, cur = [], "b"
+        for i, lab in enumerate(labels):
+            last = (i == len(labels) - 1)
+            nxt = "v" if last else f"b{i+1}"
+            steps.append(f"[{cur}]{lab}overlay=format=auto"
+                         + (tail if last else "") + f"[{nxt}]")
+            cur = nxt
+        fc = f"{base}[b];" + ";".join(capf) + ";" + ";".join(steps)
+    else:
+        fc = f"{base}{tail}[v]"
+    run(["ffmpeg", "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
+         "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
 
 
 def build_clip(seg_id, src, dur, cap, style):
@@ -193,9 +259,9 @@ def main():
          "-c:v", "libx264", "-preset", "slow", "-crf", "23",
          "-maxrate", "1500k", "-bufsize", "3000k", "-pix_fmt", "yuv420p",
          "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart",
-         "lost-coin-08.mp4"])
-    size = os.path.getsize("lost-coin-08.mp4") / 1e6
-    print(f"DONE: lost-coin-08.mp4  {size:.1f} MB, {total:.1f}s")
+         "luke-15_lost-coin.mp4"])
+    size = os.path.getsize("luke-15_lost-coin.mp4") / 1e6
+    print(f"DONE: luke-15_lost-coin.mp4  {size:.1f} MB, {total:.1f}s")
 
 
 if __name__ == "__main__":
