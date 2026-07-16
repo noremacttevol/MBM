@@ -1,3 +1,24 @@
+## 2026-07-16 (same session, new work) — #124 Love Your Enemies built + published (Machine C = L2)
+
+Per Cameron ("start working on a different queue stack than L1"): this box is **L2, rows
+101-200** (PROTOCOL-V4/FACTORY-ORDERS; L1 is prepping rows 59-64). Claimed and built **row
+124, Love Your Enemies (Matt 5:43-48)** end to end, v4 protocol, Flow $0 (Nano Banana 2):
+
+- GREEN milk teaching. 3 face-shown Jesus frame shots on the mount (LOCK v3, master-ref,
+  face gate PASS before any gen) + a Jesus-free illustration arc: a look-locked FARMER
+  (ochre, short greying hair) wronged by a look-locked NEIGHBOR (olive-green, thick black
+  hair) — he rebuilds the neighbor's wall, prays for him by name, and the wall becomes a
+  table. KJV silences: **5:44** (the command) and **5:45** (sun on the evil and the good —
+  sunrise still over both farms lit alike). WHY-law: likeness to the Father is the point.
+- All new 2026-07-16 laws applied from birth: duplicate-figure count, character-look locks
+  incl. hairline, no music bed, per-line captions (no tofu), Liberation serif KJV.
+  QC: 11 stills, 2 rerolls (s1 collapsed into a portrait — the ref-dominance failure —
+  reprompted forced-wide; that's now 2 builds bitten today: #3 s8, #124 s1 — a WIDE/
+  no-portrait defense line belongs in every ref-attached wide shot from now on).
+- `matthew-5_love-your-enemies.mp4`, 22.0MB, 3:21, −15 LUFS. Published: TITLES + review
+  gallery rebuilt (112 videos). Ear-check note: no audio out on this box; homographs
+  pre-checked in script ("despitefully use" reads correctly as the verb).
+
 ## 2026-07-16 (same session, "fix them") — #7 AND #3 rebuilt and back in review (Machine C)
 
 Cameron said "fix them" — both fix-queue videos rebuilt this session, Flow $0, one at a time:

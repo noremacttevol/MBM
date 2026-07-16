@@ -758,6 +758,17 @@ both now BANNED:
    Master Style Block in section 2 is used byte-identical, every prompt, no additions,
    no paraphrasing. Style drift = automatic redo, so don't invite it.
 
+**2026-07-16 — REF-DOMINANCE / PORTRAIT COLLAPSE: an attached face-ref can eat the scene.**
+Twice in one day (video #3 s8, video #124 s1) a WIDE multi-figure prompt with a character
+reference image attached came back as a close-up PORTRAIT of the referenced face — the model
+reproduced the ref instead of composing the scene (build-121 hit the same thing on 07-15:
+"attaching the bust-portrait as --ref made Nano Banana copy the portrait"). **Rule: every
+ref-attached prompt for a wide or multi-figure shot MUST open with a forced-wide defense
+line** ("WIDE FULL-LENGTH SCENE with MANY PEOPLE — never a portrait, never a close-up of one
+face, the camera far enough back that the named figures are visible head to sandals with the
+crowd around them") — and QC's first question on any ref-attached still is "did it compose
+the scene, or just copy the reference?" Cost each time: one wasted roll, caught in QC.
+
 **2026-07-16 — SYSTEMIC: the synthetic "music bed" was a background HUM in every video.**
 Cameron (on headphones): "that humming needs to go — what the heck — that will make everyone
 not use it and it is in every video in the background." Every build.py mixed a quiet
