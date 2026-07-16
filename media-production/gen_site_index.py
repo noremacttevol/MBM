@@ -69,6 +69,7 @@ TITLES = {
     119: "The Fourth Man in the Fire",
     120: "Job Answered from the Whirlwind",
     121: "Salt and Light", 122: "The Mote and the Beam",
+    123: "The Golden Rule",
     135: "The Rainbow Covenant",
     151: "If Any of You Lack Wisdom",
     152: "He Revealeth His Secret to the Prophets",

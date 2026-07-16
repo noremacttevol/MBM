@@ -1,3 +1,31 @@
+## 2026-07-15 — #123 The Golden Rule built + published (Machine C)
+
+**Video #123 The Golden Rule (Matt 7:12, with Luke 6:38)** built end-to-end on Machine C
+(`cameron-lovett-MS-7C91`), Phase-1 stills-only, Google Flow $0 (Nano Banana 2, 9:16, $0).
+`matthew-7_golden-rule.mp4`, 2:36, 21.8 MB, −15 LUFS. **Published to the review gallery**
+(`site/review.html`, now 105 videos). Awaiting Cameron's yes. Commit ships with this entry.
+
+- GREEN milk. Told as a warm VISUAL ILLUSTRATION with NO Jesus figure in frame — Jesus's exact
+  words carry as the cream scripture voice (Christopher): **Matt 7:12** ("Therefore all things
+  whatsoever ye would that men should do to you...") and **Luke 6:38** ("Give, and it shall be
+  given unto you; good measure, pressed down...") are the two sacred silences.
+- One RECURRING MAN carries the whole illustration, locked consistent across s3–s10: middle-aged,
+  short black beard, olive-green wool tunic, tan headscarf. He knows the longing to be helped
+  (s3, weary at the gate), then lives the rule — bread to a stranger (s4), water on the road (s5),
+  mercy to one who wronged him (s6), lifting the fallen (s7) — and the kindness returns to him
+  "good measure, running over" (s8, grain spilling from the basket), into a shared table (s9) and
+  a village at peace (s10). All 10 stills QC'd: consistent man, no Jesus figure, no cream robes,
+  portrait, action-logic clean, captions render with no tofu.
+- **Process note / mistakes this session (for the next Machine C):** (1) I ran a `while kill -0`
+  polling loop to wait on the background build — Cameron interrupted it; it needlessly held the
+  machine. Don't poll-wait on a job; the harness notifies on completion. Cameron's standing rule
+  is foreground, non-blocking, never hold his computer. (2) build.py assembly was auto-backgrounded
+  by the harness (piped through grep); it still finished exit 0, but prefer a clean foreground run.
+- Standard pipeline copied from build-122: face gate PASS before any gen, make_narration.py
+  (Andrew narrator + Christopher scripture voice), gen_stills_flow.py via flow_driver.py (dedicated
+  ~/.mbm-flow-profile Chrome, $0), build.py caption-v2 + Ken Burns + question card, gallery via
+  gen_site_index.py (mp4 served from the GitHub raw URL in the build folder — pushing publishes it).
+
 ## 2026-07-15 — #117 Hosea, #118 Jonah, #119 Fourth man, #120 Job, #122 Mote & beam (Machine C)
 
 Five videos built end-to-end on Machine C (`cameron-lovett-MS-7C91`), Phase-1 stills-only,
