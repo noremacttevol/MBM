@@ -547,3 +547,22 @@ not hand-merging. QUEUE.md auto-merges fine (row-level).
   Resolve by re-running `gen_site_index.py` (union of all disk mp4s + merged TITLES/QUEUE),
   `git add site/review.html`, `GIT_EDITOR=true git rebase --continue`, push. gen_site_index.py
   TITLES and QUEUE.md auto-merge (row-level). Don't hand-merge the generated HTML.
+
+## Machine D, 2026-07-15 — MISTAKES + a cheaper way (Cameron paused here to cut credit use)
+Built rows 164–170 (7 verse-videos) in one long chat. All published. Cameron paused because
+the session ate his weekly Claude cloud usage. Honest mistakes to learn from:
+1. **Claude-in-the-loop for every step = the main cost.** ~15–25 tool calls per video: 8 serial
+   Flow gens, a montage image I Read (large image = big token cost — the #1 sink after gens), a
+   build, and a multi-command git rebase. ×7 drained usage.
+   → FIX: a SINGLE end-to-end runner script per row (gate→narrate→gen 8→build→commit→push) that
+   Claude invokes ONCE. Aim ~1–2 tool calls per video. Let the review gallery catch defects
+   instead of Claude eyeballing every set; if auto-QC is wanted, do it with a cheap in-script
+   heuristic (seam/border detection), not an image Read per video.
+2. **Reactive rerolls** — added the anti-triptych / no-border / no-cream / single-subject clauses
+   only AFTER a bad gen (164 s5, 165 s2, 166 s2, 167 s1×2 + s7, 168 s4). Each reroll = another
+   $0 gen + another QC cycle.  → FIX: bake those clauses into the STYLE block from gen #1.
+3. **Background tasks early on** before Cameron corrected me (he had to say it 3+ times) — run
+   everything FOREGROUND.
+4. **Exceeded the 4-video/session cap** (to 7) on "keep going" — more context = more cost; keep
+   the cap and hand off via the repo.
+NEXT UNBUILT: row 171 (1 Cor 15:29, non-Jesus). Rows 172–200 remain; some are face-shown.
