@@ -9,7 +9,7 @@
 | # | Story | What's wrong | Claimed by |
 |---|---|---|---|
 | 16 | Mary and Martha | Rejected 2026-07-15 — one scene shows the Jesus figure from behind without long hair. Regenerate that still face/hair-correct, rebuild, tick Built. | — |
-| 3 | Zacchaeus | Rejected 2026-07-15 — Zacchaeus is way too short, looks ridiculous. He should be a short adult, not comically tiny; fix his proportions in every shot, rebuild, tick Built. | CLAIMED L1 2026-07-15 |
+| 3 | Zacchaeus | ~~Rejected~~ FIXED by L1 2026-07-15 — proportions recalibrated (short adult, normal build), 9 stills regenerated, rebuilt. Back in re-review. | L1 done |
 
 ## ✅ APPROVED FOLDER — Cameron's fresh yes (post-redo, face-law v3)
 
@@ -35,7 +35,7 @@ Appr and add it to this folder.
 |---|---|---|---|---|---|---|---|
 | 1 | Woman who touched his cloak | Mark 5 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (Cameron — re-watched v3) |
 | 2 | The Prodigal Son | Luke 15 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (Cameron — re-watched v3) |
-| 3 | Zacchaeus | Luke 19 | ✅ | ⬜ | ⬜ | ⬜ | REJECTED 2026-07-15 (Cameron) — Zacchaeus way too short, looks ridiculous; fix his proportions and rebuild (see Fix queue) — CLAIMED L1 2026-07-15 |
+| 3 | Zacchaeus | Luke 19 | ✅ | ✅ | ⬜ | ⬜ | **PROPORTION FIX + REBUILD 2026-07-15 (L1)** — ZACCHAEUS LOCK recalibrated per physicality-calibration law (short ADULT, normal proportions, head level with men's shoulders); s2–s10 regenerated Flow $0 text-locked (face-shown, master-consistent); s10 rerolled to kill a head-glow + dry-face fix; caption-v2; 18.7MB/4:07. NOTE for approver: ear-check "lived" in the opening line (n0) — no audio out on this box. Awaiting your yes. |
 | 4 | Nicodemus at night | John 3 | ✅ | ✅ | ⬜ | ⬜ | 🔁 RE-REVIEW (Cameron re-watching the face-shown versions, 2026-07-15) — **v3 FULL REBUILD 2026-07-15 (Machine A)** — old face-never build rebuilt: 11 face-shown stills locked to master + continuity locks (Nicodemus + night chamber same every shot), caption-v2, reverent burial (no body), invitation card, 21.1MB/5:58. Awaiting your yes. |
 | 5 | The bent-over woman | Luke 13 | ✅ | ✅ | ⬜ | ⬜ | 🔁 RE-REVIEW (Cameron re-watching the face-shown versions, 2026-07-15) — **v3 FULL REBUILD 2026-07-15 (Machine A)** — old face-never build rebuilt: 11 face-shown stills locked to master + continuity locks (bent→healed woman, synagogue, ruler same every shot), caption-v2, invitation card, 18.8MB/4:35. Awaiting your yes. |
 | 6 | The two sons | Matt 21 | ✅ | ✅ | ⬜ | ⬜ | 🔁 RE-REVIEW (Cameron re-watching the face-shown versions, 2026-07-15) — **v3 REBUILD 2026-07-15 (Machine A)** — face-shown Jesus framing (s1/s6/s7/s8, single-Jesus, locked to master) + parable scenes (father/two sons, continuity-locked), caption-v2, invitation card, 18.0MB/1:39. Awaiting your yes. |
