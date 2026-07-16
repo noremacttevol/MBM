@@ -16,7 +16,9 @@ Per Cameron ("start working on a different queue stack than L1"): this box is **
   reprompted forced-wide; that's now 2 builds bitten today: #3 s8, #124 s1 — a WIDE/
   no-portrait defense line belongs in every ref-attached wide shot from now on).
 - `matthew-5_love-your-enemies.mp4`, 22.0MB, 3:21, −15 LUFS. Published: TITLES + review
-  gallery rebuilt (112 videos). Ear-check note: no audio out on this box; homographs
+  gallery rebuilt (112 videos) and pushed. NOTE: firebase CLI is NOT on this box
+  (2-attempt rule, moved on) — site/review.html is in the repo; the deploy runs from
+  whichever machine has firebase auth. Ear-check note: no audio out on this box; homographs
   pre-checked in script ("despitefully use" reads correctly as the verb).
 
 ## 2026-07-16 (same session, "fix them") — #7 AND #3 rebuilt and back in review (Machine C)
