@@ -39,7 +39,7 @@ Appr and add it to this folder.
 | 5 | The bent-over woman | Luke 13 | ✅ | ✅ | ✅ | ✅ | **v3 FULL REBUILD 2026-07-15 (Machine A)** — old face-never build rebuilt: 11 face-shown stills locked to master + continuity locks (bent→healed woman, synagogue, ruler same every shot), caption-v2, invitation card, 18.8MB/4:35. Awaiting your yes. |
 | 6 | The two sons | Matt 21 | ✅ | ✅ | ✅ | ✅ | **v3 REBUILD 2026-07-15 (Machine A)** — face-shown Jesus framing (s1/s6/s7/s8, single-Jesus, locked to master) + parable scenes (father/two sons, continuity-locked), caption-v2, invitation card, 18.0MB/1:39. Awaiting your yes. |
 | 7 | Peter walks on water | Matt 14 | ✅ | ✅ | ⬜ | ✅ | **v3 REBUILD 2026-07-15 (Machine A)** — face-shown Jesus + Peter, BOAT/CREW continuity locks (12 stills prepped by a concurrent machine), caption-v2 ported into build.py, invitation card, rebuilt 20.0MB/4:16. Awaiting your yes. |
-| 8 | The lost coin | Luke 15 | ✅ | ✅ | ⬜ | ✅ | live |
+| 8 | The lost coin | Luke 15 | ✅ | ✅ | ⬜ | ✅ | v3 CLAIMED Machine A 2026-07-15 (pure parable, no Jesus; caption-v2 + stills-only; WIP) |
 | 9 | The rich young ruler | Mark 10 | ✅ | ✅ | ⬜ | ✅ | live |
 | 10 | The woman at the well | John 4 | ✅ | ✅ | ⬜ | ✅ | live |
 | 11 | Calming the storm | Mark 4 | ✅ | ✅ | ⬜ | ⬜ | **ARTIFACT-SCRUB REDO 2026-07-15 (Machine A)** — fixed the glitches Cameron caught: bailing now with solid wooden buckets (no baskets/bare-hand water), floating lamps removed, every face/hand zoom-QC'd clean, Jesus given one clear planted pose per beat; same big boat + 13 men every shot; 18.5MB. Awaiting your yes. |
