@@ -108,7 +108,7 @@ Appr and add it to this folder.
 | 65 | "Help thou mine unbelief" | Mark 9 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine L1-agent 2026-07-16 |
 | 66 | Malchus's ear | Luke 22 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine L1-agent 2026-07-16 |
 | 67 | The Transfiguration | Mark 9 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine L1-agent 2026-07-16 |
-| 68 | Multitudes on the mountain | Matt 15 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 68 | Multitudes on the mountain | Matt 15 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED L1 2026-07-16 |
 | 69 | The baptism of Jesus | Matt 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 70 | The temptations | Matt 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 71 | Calling the fishermen | Matt 4 | ✅ | ✅ | ⬜ | ⬜ | v3 REDONE 2026-07-15 Machine B (face SHOWN, s3/s4/s8/s10 regenerated locked to master ref; caption-v2; 22.2MB/3:42) — awaiting your yes on the redo |
