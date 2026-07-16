@@ -116,7 +116,7 @@ Appr and add it to this folder.
 | 73 | Nazareth synagogue: "this day fulfilled" | Luke 4 | ⬜ | ⬜ | ⬜ | ⬜ | stills by W1 (Elli laptop) 2026-07-16 — build-73-this-day-fulfilled ART COMPLETE s1-s8 (gate PASS, Flow $0, QC pass incl. full-size s3/s6/s7); NOTE: old build-73-nazareth-synagogue folder is superseded (cliff scenes = row 105) — L1 reconcile/remove before assembly |
 | 74 | The woman who washed his feet | Luke 7 | ⬜ | ⬜ | ⬜ | ⬜ | stills by W1 (Elli laptop) 2026-07-16 — ART COMPLETE s1-s9 (gate PASS, Flow $0, QC pass; s1 rerolled x2: rotated scene, sleeping pose); ready for assembly |
 | 75 | The woman taken in adultery | John 8 | ⬜ | ⬜ | ⬜ | ⬜ | stills by W1 (Elli laptop) 2026-07-16 — ART COMPLETE s1-s10 (gate PASS, Flow $0, QC pass: no-raised-stone law + no-tears law held in every frame); ready for assembly |
-| 76 | "Suffer the little children" | Mark 10 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 76 | "Suffer the little children" | Mark 10 | ⬜ | ⬜ | ⬜ | ⬜ | stills W1 IN FLIGHT 2026-07-16 (painter, gate PASS) |
 | 77 | The widow's mite | Mark 12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 78 | "Who is my mother?" | Mark 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 79 | The seventy sent | Luke 10 | ⬜ | ⬜ | ⬜ | ⬜ |  |
