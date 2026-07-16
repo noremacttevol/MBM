@@ -704,6 +704,17 @@ first time.
 ## 5. QC Checklist (every video, before Cameron ever sees it)
 
 - [ ] Every MUST SHOW item from the scripture card appears
+- [ ] 🛑 NO BACKGROUND HUM — NO SYNTHETIC "MUSIC BED," EVER (Cameron, 2026-07-16:
+      "that humming needs to go... it is in every video in the background... that
+      will make everyone not use it"): the sine-tone bed (aevalsrc drone chords)
+      that early build.py scripts mixed under the narration reads as a constant
+      electrical hum on headphones. It was purged from ALL delivered videos and
+      zeroed in every build script on 2026-07-16. The audio of every video is
+      NARRATION + INTENTIONAL SILENCE ONLY. No script may add a synthesized tone,
+      drone, pad, or "bed" of any kind; if real music is ever wanted, Cameron will
+      say so explicitly. QC ear-check: listen (or spectral-check ~110/165/220/330 Hz
+      bands with headphones-level attention) for ANY constant tone under the voice —
+      any hum = automatic fix before delivery.
 - [ ] 🛑 PHASE 1 STILLS-ONLY: the delivery contains NO AI-animated (Veo/Flow) clips —
       only painted pictures with gentle Ken Burns drift + narration (§0 Law E). Any
       already-built video that has clips gets them removed and is rebuilt pictures-only.
@@ -746,6 +757,20 @@ both now BANNED:
    emphasis like extra "2D animation" wording shoved the output into cartoon land. The
    Master Style Block in section 2 is used byte-identical, every prompt, no additions,
    no paraphrasing. Style drift = automatic redo, so don't invite it.
+
+**2026-07-16 — SYSTEMIC: the synthetic "music bed" was a background HUM in every video.**
+Cameron (on headphones): "that humming needs to go — what the heck — that will make everyone
+not use it and it is in every video in the background." Every build.py mixed a quiet
+aevalsrc sine-drone chord (typically ~110/165/220/330 Hz, sometimes detuned pairs) under the
+narration as a "soft music bed." At speaker volume it hid; on headphones it reads as a
+constant electrical hum. It shipped in ALL ~107 delivered videos because no QC step ever
+listened for a constant tone under the voice. Fix (2026-07-16, Machine C): every delivered
+.mp4 notch-filtered at its bed's exact frequencies (video stream untouched), every build*.py
+bed amplitude zeroed, and the NO-BED law added to §5 QC. Lessons: (1) an "enhancement" no one
+asked for shipped to the entire library before the first human listened on headphones —
+never add an unrequested aesthetic layer; (2) QC must include the delivery medium people
+actually use (headphones); (3) a defect found in one video must IMMEDIATELY be checked
+against the whole library — Cameron found it in #8, then #9, then everywhere.
 
 **2026-07-16 — Video #7: Jesus WAIST-DEEP in the sea in a "walks on water" video.**
 Cameron rejected the 07-15 v3 rebuild: one picture showed Jesus waist-deep in the water

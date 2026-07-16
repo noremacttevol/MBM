@@ -317,9 +317,10 @@ def main():
     # the feast and the older brother (70.5-130.5), fading to full silence
     # before the father's final KJV answer so the last words land in the
     # same sacred quiet as "The father ran."
-    bed1 = (f"aevalsrc='0.022*(sin(2*PI*110*t)+sin(2*PI*110.6*t))"
-            f"+0.016*(sin(2*PI*164.81*t)+sin(2*PI*165.5*t))"
-            f"+0.012*sin(2*PI*220*t)+0.008*sin(2*PI*329.63*t)'"
+    # HUM PURGE (Cameron, 2026-07-16): the sine 'music bed' reads as a background hum in every video — amplitudes zeroed. Do not restore; narration + silence only (PRODUCTION-BIBLE #5b 2026-07-16).
+    bed1 = (f"aevalsrc='0*(sin(2*PI*110*t)+sin(2*PI*110.6*t))"
+            f"+0*(sin(2*PI*164.81*t)+sin(2*PI*165.5*t))"
+            f"+0*sin(2*PI*220*t)+0*sin(2*PI*329.63*t)'"
             f":s=44100:d={MUSIC_END},"
             f"lowpass=f=750,tremolo=f=0.13:d=0.3,"
             f"aecho=0.7:0.4:311|429:0.25|0.18,"
@@ -327,9 +328,10 @@ def main():
     filters.append(bed1)
     labels.append("[mus1]")
     m2_start, m2_dur = 70.5, 60.0  # out at 130.5, before j2a at 131.9
-    bed2 = (f"aevalsrc='0.014*(sin(2*PI*110*t)+sin(2*PI*110.5*t))"
-            f"+0.011*(sin(2*PI*138.59*t)+sin(2*PI*139.2*t))"
-            f"+0.009*sin(2*PI*164.81*t)+0.006*sin(2*PI*220*t)'"
+    # HUM PURGE (Cameron, 2026-07-16): the sine 'music bed' reads as a background hum in every video — amplitudes zeroed. Do not restore; narration + silence only (PRODUCTION-BIBLE #5b 2026-07-16).
+    bed2 = (f"aevalsrc='0*(sin(2*PI*110*t)+sin(2*PI*110.5*t))"
+            f"+0*(sin(2*PI*138.59*t)+sin(2*PI*139.2*t))"
+            f"+0*sin(2*PI*164.81*t)+0*sin(2*PI*220*t)'"
             f":s=44100:d={m2_dur},"
             f"lowpass=f=700,tremolo=f=0.11:d=0.3,"
             f"aecho=0.7:0.4:317|443:0.25|0.18,"

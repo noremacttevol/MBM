@@ -1,3 +1,25 @@
+## 2026-07-16 (later still, same session) — 🔇 HUM PURGE: the sine "music bed" removed from EVERY video (Machine C)
+
+Cameron, listening on headphones, caught a constant background hum in #8, then #9, then
+realized it is in EVERY video: every build.py mixed a synthetic aevalsrc sine-drone
+"music bed" (~110/165/220/330 Hz, sometimes detuned pairs) under the narration. His words:
+"that humming needs to go — that will make everyone not use it." Fix, all $0 / zero images:
+
+- **Every delivered .mp4 (all ~107 build folders) notch-filtered in place** at its bed's
+  exact frequencies — video stream copied untouched, filenames unchanged so the gallery
+  auto-updates on push. Each file verified: hum-band level measured before/after and
+  duration checked. Script: scratchpad fix_hum.py (per-file OK lines in the run log).
+- **Every build*.py bed zeroed** (amplitudes → 0, filter graphs untouched, all 112 scripts
+  still compile) so no rebuild can reintroduce it. #8's build.py had the bed fully removed
+  and its stale asset filenames fixed (long Flow names → committed count/lamp/sweep/door/
+  stars.jpeg, caption-matched against build_win.py).
+- **PRODUCTION-BIBLE:** §5 QC gained the 🛑 NO-BED / NO-HUM law (narration + intentional
+  silence only; ear-check for any constant tone under the voice); §5b failure log records
+  the systemic lesson — an unrequested "enhancement" shipped library-wide because QC never
+  listened on headphones, and a defect found in one video must be checked against ALL.
+- QUEUE.md carries a HUM PURGE banner so re-reviews happen on the post-purge files.
+- #8's earlier specific complaint (hum) is covered by this purge; #8 stays Built/re-review.
+
 ## 2026-07-16 (later, same session) — #7 Peter-walks-on-water REJECTED too; both fixes assigned to Machine C
 
 Cameron also rejected **#7 Peter walks on water** (07-15 Machine A v3 rebuild): one picture

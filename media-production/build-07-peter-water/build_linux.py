@@ -243,15 +243,17 @@ def build_card(seg_id, dur, text):
 def bed_filter(idx, start, end, style):
     dur = end - start
     if style == "a":
-        src = ("aevalsrc='0.022*(sin(2*PI*110*t)+sin(2*PI*110.6*t))"
-               "+0.016*(sin(2*PI*164.81*t)+sin(2*PI*165.5*t))"
-               "+0.012*sin(2*PI*220*t)+0.008*sin(2*PI*329.63*t)'")
+        # HUM PURGE (Cameron, 2026-07-16): the sine 'music bed' reads as a background hum in every video — amplitudes zeroed. Do not restore; narration + silence only (PRODUCTION-BIBLE #5b 2026-07-16).
+        src = ("aevalsrc='0*(sin(2*PI*110*t)+sin(2*PI*110.6*t))"
+               "+0*(sin(2*PI*164.81*t)+sin(2*PI*165.5*t))"
+               "+0*sin(2*PI*220*t)+0*sin(2*PI*329.63*t)'")
         eq = "lowpass=f=750,tremolo=f=0.13:d=0.3,aecho=0.7:0.4:311|429:0.25|0.18"
         fin, fout = 6, 5
     else:
-        src = ("aevalsrc='0.014*(sin(2*PI*110*t)+sin(2*PI*110.5*t))"
-               "+0.011*(sin(2*PI*138.59*t)+sin(2*PI*139.2*t))"
-               "+0.009*sin(2*PI*164.81*t)+0.006*sin(2*PI*220*t)'")
+        # HUM PURGE (Cameron, 2026-07-16): the sine 'music bed' reads as a background hum in every video — amplitudes zeroed. Do not restore; narration + silence only (PRODUCTION-BIBLE #5b 2026-07-16).
+        src = ("aevalsrc='0*(sin(2*PI*110*t)+sin(2*PI*110.5*t))"
+               "+0*(sin(2*PI*138.59*t)+sin(2*PI*139.2*t))"
+               "+0*sin(2*PI*164.81*t)+0*sin(2*PI*220*t)'")
         eq = "lowpass=f=700,tremolo=f=0.11:d=0.3,aecho=0.7:0.4:317|443:0.25|0.18"
         fin, fout = 5, 6
     if dur < fin + fout + 2:

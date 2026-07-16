@@ -26,12 +26,12 @@ INK = "0x3B2A1E"
 ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "18",
        "-pix_fmt", "yuv420p", "-r", str(FPS), "-an"]
 
-STILL_COUNT = "Woman_counting_silver_coins_2K_202607081706.jpeg"
-STILL_SWEEP = "Woman_searching_for_lost_coin_202607081705.jpeg"
-STILL_KNEEL = "Woman_searching_for_lost_coin_202607081707.jpeg"
+STILL_COUNT = "count.jpeg"
+STILL_SWEEP = "lamp.jpeg"   # "She lights a lamp / sweeps" beat (caption-matched to build_win.py)
+STILL_KNEEL = "sweep.jpeg"  # "She searches carefully" beat (caption-matched to build_win.py)
 STILL_FOUND = "found.jpeg"  # stills-only (Law E): the former Veo "found flash" clip is now a still
-STILL_DOOR = "Woman_holding_silver_coin_joyfully_202607081704.jpeg"
-STILL_STARS = "Village_under_starry_sky_2K_202607081703.jpeg"
+STILL_DOOR = "door.jpeg"
+STILL_STARS = "stars.jpeg"
 
 # (id, kind, source, duration_s, zoom_dir, caption, caption_style)
 SEGMENTS = [
@@ -230,7 +230,9 @@ def main():
     run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", f"{S}/concat.txt",
          "-c", "copy", f"{S}/video_silent.mp4"])
 
-    # ---- audio: narration at absolute offsets + soft music bed ----
+    # ---- audio: narration at absolute offsets, NO synthetic bed ----
+    # (Cameron, 2026-07-16: the sine-wave "music bed" reads as a background
+    # hum and was rejected — narration and silence only.)
     inputs = []
     filters = []
     labels = []
@@ -239,12 +241,6 @@ def main():
         ms = int(start * 1000)
         filters.append(f"[{i}:a]aresample=44100,adelay={ms}|{ms},volume=1.0[a{i}]")
         labels.append(f"[a{i}]")
-    pad = (f"aevalsrc='0.028*sin(2*PI*110*t)+0.022*sin(2*PI*164.81*t)"
-           f"+0.016*sin(2*PI*220*t)+0.010*sin(2*PI*329.63*t)':s=44100:d={MUSIC_END},"
-           f"lowpass=f=800,tremolo=f=0.15:d=0.35,"
-           f"afade=t=in:st=0:d=6,afade=t=out:st={MUSIC_END-5}:d=5[mus]")
-    filters.append(pad)
-    labels.append("[mus]")
     n = len(labels)
     filters.append("".join(labels) +
                    f"amix=inputs={n}:duration=longest:normalize=0,"

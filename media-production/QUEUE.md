@@ -4,6 +4,13 @@
 > Full rules + machine assignments live in FACTORY-ORDERS.md — read that first.
 > Next job = lowest row IN YOUR MACHINE'S RANGE where Built is ⬜ and Claim is empty.
 
+> 🔇 **HUM PURGE 2026-07-16 (Machine C):** Cameron caught (on headphones) a constant
+> background hum in **every** video — a synthetic sine "music bed" every build.py mixed
+> under the narration. ALL delivered .mp4s were notch-filtered clean in place (video
+> untouched, same filenames — the gallery updates on push), every build script's bed was
+> zeroed, and the NO-BED law is now PRODUCTION-BIBLE §5 QC. Audio = narration + silence
+> only, forever. Re-reviews of already-built videos should be done on the post-purge files.
+
 ## Fix queue (rejected builds — fix before taking new work in that range)
 
 | # | Story | What's wrong | Claimed by |
