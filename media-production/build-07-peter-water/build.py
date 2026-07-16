@@ -31,7 +31,7 @@ A = "assets"
 S = "segs"
 FPS = 30
 SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
-SERIF_BI = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf"
+SERIF_BI = "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"  # same KJV font as build-123 (DejaVu italic doesn't exist on this box)
 CREAM = "0xF7F2E9"
 INK = "0x3B2A1E"
 
@@ -292,17 +292,26 @@ def caption_layers(seg_id, dur, text, style):
         cs = t0 + (t1 - t0) * acc / total
         acc += len(c)
         ce = t0 + (t1 - t0) * acc / total
-        tf = f"{S}/{seg_id}_{i}.txt"
-        with open(tf, "w") as f:
-            f.write("\n".join(textwrap.wrap(c, width)))
         fo = max(cs, ce - 0.35)
+        # one drawtext per LINE: this machine's ffmpeg renders an embedded
+        # newline as a tofu box, so lines each get their own file + y offset
+        lines = textwrap.wrap(c, width)
+        lh = size + 13
+        block_h = lh * len(lines) - 13
+        draws = []
+        for j, ln in enumerate(lines):
+            tf = f"{S}/{seg_id}_{i}_{j}.txt"
+            with open(tf, "w") as f:
+                f.write(ln)
+            y = 1920 - 120 - block_h + j * lh
+            draws.append(
+                f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
+                f"fontcolor={color}:x=(w-text_w)/2:y={y}:"
+                f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
+                f"box=1:boxcolor=black@0.55:boxborderw=22")
         filters.append(
             f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
-            f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
-            f"fontcolor={color}:line_spacing=13:x=(w-text_w)/2:"
-            f"y=h-120-text_h:"
-            f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
-            f"box=1:boxcolor=black@0.55:boxborderw=22,"
+            + ",".join(draws) + ","
             f"fade=t=in:st={cs:.2f}:d=0.35:alpha=1,"
             f"fade=t=out:st={fo:.2f}:d=0.35:alpha=1[cap{seg_id}{i}]")
         labels.append(f"[cap{seg_id}{i}]")
