@@ -21,12 +21,15 @@ NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one pict
 
 ## CONTINUITY LOCKS
 
-[ZACCHAEUS LOCK] = the SAME man in every shot — a SHORT, small-statured wealthy Jewish
-tax collector of about fifty, noticeably shorter than everyone around him, a little soft
-and round, balding on top with close grey-flecked dark hair and a neat short grey-brown
-beard, dressed in fine costly robes of deep russet-brown and dark teal with an embroidered
-border and a wide sash (rich colors, NEVER cream or off-white), his face sharp, anxious
-and eager. Exactly two arms, two hands, two legs.
+[ZACCHAEUS LOCK] = the SAME man in every shot — a short grown man of completely NORMAL
+adult proportions and normal adult build, a wealthy Jewish tax collector of about fifty,
+the top of his head level with the shoulders of the men beside him — about a head shorter
+than the people around him and no more, a dignified short ADULT with adult-length arms and
+legs, never child-sized, never tiny, never stubby or squat — a little soft and round,
+balding on top with close grey-flecked dark hair and a neat short grey-brown beard, dressed
+in fine costly robes of deep russet-brown and dark teal with an embroidered border and a
+wide sash (rich colors, NEVER cream or off-white), his face sharp, anxious and eager.
+Exactly two arms, two hands, two legs.
 
 [JERICHO-SETTING LOCK] = a warm first-century Jericho street of pale dressed stone and
 sun-baked mud-brick houses, tall date-palm trees, a large old sycamore-fig tree with a
@@ -44,13 +47,13 @@ SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stack
 ## s3-crowd — Shot: Jesus comes, and the short man cannot see
 JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.
 REF: jesus-master-ref
-SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] [ZACCHAEUS LOCK] [JERICHO-SETTING LOCK] Jesus walks into Jericho along the crowded street, his face shown clearly and kindly, his cream wool robe bright among a dense crowd of townsfolk in earth-toned wool pressing to see him. In the near foreground the SHORT wealthy tax collector stands blocked behind the wall of taller people, up on his toes, craning and frustrated because he cannot see over them, noticeably shorter than everyone around him. Warm daylight, pale stone, date palms. Only Jesus in cream. Every figure has two arms and two hands. One single continuous scene painted edge to edge, no border. 9:16 vertical.
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] [ZACCHAEUS LOCK] [JERICHO-SETTING LOCK] Jesus walks into Jericho along the crowded street, his face shown clearly and kindly, his cream wool robe bright among a dense crowd of townsfolk in earth-toned wool pressing to see him. In the near foreground the SHORT wealthy tax collector stands blocked behind the wall of taller people, up on his toes, craning and frustrated because he cannot see over them — a short grown man of normal adult build, the top of his head level with the taller men's shoulders. Warm daylight, pale stone, date palms. Only Jesus in cream. Every figure has two arms and two hands. One single continuous scene painted edge to edge, no border. 9:16 vertical.
 
 ## s4-runs — Shot: the dignified man runs
 SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] [ZACCHAEUS LOCK] [JERICHO-SETTING LOCK] The short wealthy tax collector, gathering up his fine costly robes in both hands, RUNS undignified down the edge of the Jericho street ahead of the crowd, his sash flying, his face flushed and eager, hurrying toward a great old sycamore-fig tree up ahead. A few townsfolk in earth-toned wool stare after him in surprise that a rich man would run. Warm daylight, pale stone, date palms. Every figure has two arms and two hands. One single continuous scene painted edge to edge, no border. 9:16 vertical.
 
 ## s5-climbs — Shot: he climbs the sycamore like a child
-SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] [ZACCHAEUS LOCK] [JERICHO-SETTING LOCK] The short wealthy tax collector, in his fine russet-brown and teal robes, has scrambled UP into the broad low branches of the great old sycamore-fig tree and perches there like a child, one arm hooked around a limb, peering eagerly down the street. Below and beyond, the crowd of earth-toned townsfolk fills the Jericho street. Warm daylight, pale stone, green leaves. Every figure has two arms and two hands. One single continuous scene painted edge to edge, no border. 9:16 vertical.
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] [ZACCHAEUS LOCK] [JERICHO-SETTING LOCK] The short wealthy tax collector, in his fine russet-brown and teal robes, has scrambled UP into the broad low branches of the great old sycamore-fig tree and perches there — a grown man of normal adult proportions doing an undignified boyish thing — one arm hooked around a limb, peering eagerly down the street. Below and beyond, the crowd of earth-toned townsfolk fills the Jericho street. Warm daylight, pale stone, green leaves. Every figure has two arms and two hands. One single continuous scene painted edge to edge, no border. 9:16 vertical.
 
 ## s6-looks-up — Shot: Jesus stops and calls him by name
 JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.
@@ -60,7 +63,7 @@ SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stack
 ## s7-invites — Shot: I must abide at thy house
 JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.
 REF: jesus-master-ref
-SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] [ZACCHAEUS LOCK] [JERICHO-SETTING LOCK] Beneath the sycamore, Jesus, his face shown clearly and warm, gestures with open welcome toward the short tax collector who has just dropped down from the tree to stand before him, small and stunned. Jesus is inviting himself to the man's house, unearned and glad. Around them the earth-toned Jericho crowd looks on, some faces turning to surprise and disapproval. Warm daylight, pale stone, date palms. Only Jesus in cream. Every figure has two arms and two hands. One single continuous scene painted edge to edge, no border. 9:16 vertical.
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] [ZACCHAEUS LOCK] [JERICHO-SETTING LOCK] Beneath the sycamore, Jesus, his face shown clearly and warm, gestures with open welcome toward the short tax collector who has just dropped down from the tree to stand before him, stunned — a short grown man of normal adult build, the top of his head level with Jesus's shoulder. Jesus is inviting himself to the man's house, unearned and glad. Around them the earth-toned Jericho crowd looks on, some faces turning to surprise and disapproval. Warm daylight, pale stone, date palms. Only Jesus in cream. Every figure has two arms and two hands. One single continuous scene painted edge to edge, no border. 9:16 vertical.
 
 ## s8-comes-down — Shot: welcomed with joy, the crowd grumbles
 JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.
