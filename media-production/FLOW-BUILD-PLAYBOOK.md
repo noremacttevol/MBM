@@ -566,3 +566,14 @@ the session ate his weekly Claude cloud usage. Honest mistakes to learn from:
 4. **Exceeded the 4-video/session cap** (to 7) on "keep going" — more context = more cost; keep
    the cap and hand off via the repo.
 NEXT UNBUILT: row 171 (1 Cor 15:29, non-Jesus). Rows 172–200 remain; some are face-shown.
+
+- 2026-07-16 (L1): **Head-glow (halo) rerolls: "no glow/halo" in your own prose trips the
+  face gate AND barely works on the model.** What killed it (row 59 s5, row 3 s10): remove
+  any "light gathering around him" phrasing, then force the BACKGROUND: "directly behind
+  his head and hair the background is the same mid-tone scene as everywhere else — no
+  lighter patch, oval, ring or brightening; his hair meets the background at exactly equal
+  brightness." Gate-safe wording ("no bright ring of light or aura") if you must name it.
+  Also: a Windows-built build.py (Georgia font copy) fails on Linux — branch _ensure_fonts
+  on os.name with DejaVuSerif + LiberationSerif-Italic (see build-59). And `git add` of
+  explicit asset paths can be blocked by a gitignore dir rule — `git add -u <build-dir>/`
+  stages the modified tracked files fine.
