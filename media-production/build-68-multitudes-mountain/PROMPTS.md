@@ -26,7 +26,7 @@ one single tall upright vertical painting."
 [MOUNTAIN-SETTING LOCK] = a broad green-gold mountainside above the Sea of Galilee:
 grassy slopes with grey stone outcrops, worn footpaths climbing from the blue water
 far below, scattered wildflowers and low shrubs, warm honest afternoon light, a wide
-sky. Jesus's place is a flat grey boulder partway up the slope.
+sky. The teaching place is a flat grey boulder partway up the slope.
 
 ---
 
