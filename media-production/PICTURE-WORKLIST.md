@@ -2,7 +2,7 @@
 
 Markers are DROPPED for every row below — W1/W2 just pull and farm.
 
-## W1 — ready now, rows 1-100 (9)
+## W1 — ready now, rows 1-100 (10)
 
 73. Nazareth synagogue: "this day fulfilled" — build-73-this-day-fulfilled (8 stills)
 74. The woman who washed his feet — build-74-woman-washed-his-feet (9 stills)
@@ -13,15 +13,15 @@ Markers are DROPPED for every row below — W1/W2 just pull and farm.
 79. The seventy sent — build-79-the-seventy-sent (8 stills)
 80. "Come unto me, all ye that labour" — build-80-come-unto-me (8 stills)
 81. Render unto Caesar — build-81-render-unto-caesar (8 stills)
+82. The anointing at Bethany — build-82-anointing-at-bethany (8 stills)
 
 ## W2 — ready now, rows 101-200 (0)
 
 
-## WAITING ON HERMES DRAFTS — no prompt sheet yet (72)
+## WAITING ON HERMES DRAFTS — no prompt sheet yet (71)
 Hermes: write DRAFTS/row-NNN.md for these (spec in PROTOCOL-V4); an L machine
 turns each into a gate-passed sheet + marker, and it joins the lists above.
 
-82. The anointing at Bethany
 83. Weeping over Jerusalem
 85. Shepherds and angels
 86. The wise men
