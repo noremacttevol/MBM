@@ -8,7 +8,7 @@
 
 | # | Story | What's wrong | Claimed by |
 |---|---|---|---|
-| 16 | Mary and Martha | Rejected 2026-07-15 — one scene shows the Jesus figure from behind without long hair. Regenerate that still face/hair-correct, rebuild, tick Built. | — |
+| 16 | Mary and Martha | Rejected 2026-07-15 — one scene shows the Jesus figure from behind without long hair. Regenerate that still face/hair-correct, rebuild, tick Built. | CLAIMED L1 2026-07-15 |
 | 3 | Zacchaeus | ~~Rejected~~ FIXED by L1 2026-07-15 — proportions recalibrated (short adult, normal build), 9 stills regenerated, rebuilt. Back in re-review. | L1 done |
 
 ## ✅ APPROVED FOLDER — Cameron's fresh yes (post-redo, face-law v3)
@@ -48,7 +48,7 @@ Appr and add it to this folder.
 | 13 | Through the roof | Mark 2 | ✅ | ✅ | ⬜ | ⬜ | 🔁 RE-REVIEW (Cameron re-watching the face-shown versions, 2026-07-15) — live |
 | 14 | The ten lepers | Luke 17 | ✅ | ✅ | ⬜ | ⬜ | 🔁 RE-REVIEW (Cameron re-watching the face-shown versions, 2026-07-15) — live; **v3 REDO WIP Machine A 2026-07-15** — s1/s4/s10 regenerated FACE-SHOWN & good, build.py made cross-platform; s11 STILL PENDING (Flow logged out mid-run). TO FINISH: log into Flow, `MBM_NOREF=1 genshot --file build-14 <s11 prompt in scratchpad redo14.tsv>`, then rebuild + push. mp4 NOT yet rebuilt. |
 | 15 | The centurion | Matt 8 | ✅ | ✅ | ⬜ | ⬜ | 🔁 RE-REVIEW (Cameron re-watching the face-shown versions, 2026-07-15) — **v3 REDONE 2026-07-15 (Machine A)** — 6 Jesus scenes (s1,s4,s5,s6,s8,s10) regenerated FACE-SHOWN, locked to master; non-Jesus stills kept; caption-v2; clips dropped (stills-only); 21.3MB/5:08. Awaiting your yes. |
-| 16 | Mary and Martha | Luke 10 | ✅ | ⬜ | ⬜ | ⬜ | REJECTED 2026-07-15 (Cameron) — one scene shows the Jesus figure from behind without long hair; needs fix (see Fix queue) |
+| 16 | Mary and Martha | Luke 10 | ✅ | ⬜ | ⬜ | ⬜ | REJECTED 2026-07-15 (Cameron) — one scene shows the Jesus figure from behind without long hair; needs fix (see Fix queue) — CLAIMED L1 2026-07-15 |
 | 17 | Jesus wept (Lazarus) | John 11 | ✅ | ✅ | ⬜ | ⬜ | 🔁 RE-REVIEW (Cameron re-watching the face-shown versions, 2026-07-15) — live (beard fix shipped) |
 | 18 | The road to Emmaus | Luke 24 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (Cameron) |
 | 19 | Breakfast on the shore | John 21 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (Cameron) |
