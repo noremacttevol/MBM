@@ -3,7 +3,7 @@
 Matt 3:13-17. FACE LAW v3 (byte-identical JESUS LOCK v3, TEXT-ONLY, no ref attach).
 GREEN story. The Father is NEVER depicted — only opened sky and light from above; the
 Spirit appears as a white dove descending (scriptural image). NO ring/aura around any
-head — the sky-light is broad shafts from the opened heavens, never a halo. §4b
+head — the sky-light is broad shafts from the opened heavens, never a ring of light. §4b
 2026-07-16 laws: locks pin hairline; John's long hair is differentiated from Jesus
 (camel-hair coat, wild curls, never cream); still #1 QC'd before the batch.
 
