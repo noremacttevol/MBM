@@ -238,36 +238,75 @@ def run(cmd):
     subprocess.run(cmd, check=True, capture_output=True)
 
 
-def caption_overlay(seg_id, dur, text, style):
-    """Caption on its own transparent RGBA canvas, alpha-faded 0.5s in/out,
-    gone 0.1s before the cut — captions never pop (Assembly Craft Laws)."""
+import textwrap
+
+
+# ---- CAPTION SYSTEM v2 (Cameron, 2026-07-15) — wide bottom, chunked ----
+def sentences(text):
+    import re
+    return [p for p in re.split(r"(?<=[.!?;:]) +", text) if p]
+
+
+def chunk_caption(text, width, max_lines):
+    out, cur = [], ""
+    for s in sentences(text):
+        cand = (cur + " " + s).strip()
+        if len(textwrap.wrap(cand, width)) <= max_lines:
+            cur = cand
+            continue
+        if cur:
+            out.append(cur)
+        if len(textwrap.wrap(s, width)) <= max_lines:
+            cur = s
+        else:
+            piece = ""
+            for frag in s.split(", "):
+                cand2 = (piece + ", " + frag).strip(", ").strip()
+                if len(textwrap.wrap(cand2, width)) <= max_lines:
+                    piece = cand2
+                else:
+                    if piece:
+                        out.append(piece)
+                    piece = frag
+            cur = piece
+    if cur:
+        out.append(cur)
+    return out
+
+
+def caption_layers(seg_id, dur, text, style):
     if not text:
-        return None
-    tf = f"{S}/{seg_id}.txt"
-    with open(tf, "w") as f:
-        f.write(text)
+        return [], []
+    text = " ".join(text.split())  # collapse the old manual line breaks
     if style == "kjv":
-        font, size, color = SERIF_BI, 46, "0xFFF3DC"
+        font, size, color, width, maxl = SERIF_BI, 46, "0xFFF3DC", 38, 3
     else:
-        font, size, color = SERIF, 40, "white"
-    fade_out = max(0.0, dur - 0.6)
-    return (f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
+        font, size, color, width, maxl = SERIF, 34, "white", 48, 2
+    spoken_end = max(0.6, dur - 0.5)
+    chunks = chunk_caption(text, width, maxl)
+    total = sum(len(c) for c in chunks) or 1
+    t0, t1 = 0.15, max(0.6, min(dur - 0.2, spoken_end + 0.35))
+    filters, labels = [], []
+    acc = 0
+    for i, c in enumerate(chunks):
+        cs = t0 + (t1 - t0) * acc / total
+        acc += len(c)
+        ce = t0 + (t1 - t0) * acc / total
+        tf = f"{S}/{seg_id}_{i}.txt"
+        with open(tf, "w") as f:
+            f.write("\n".join(textwrap.wrap(c, width)))
+        fo = max(cs, ce - 0.35)
+        filters.append(
+            f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
             f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
-            f"fontcolor={color}:line_spacing=14:x=(w-text_w)/2:y=h-460:"
-            f"shadowcolor=black@0.85:shadowx=2:shadowy=2:"
-            f"box=1:boxcolor=black@0.55:boxborderw=18,"
-            f"fade=t=in:st=0:d=0.5:alpha=1,"
-            f"fade=t=out:st={fade_out}:d=0.5:alpha=1[cap]")
-
-
-def assemble_segment(seg_id, base_chain, dur, cap, style, tail=""):
-    capf = caption_overlay(seg_id, dur, cap, style)
-    if capf:
-        fc = (f"{base_chain}[base];{capf};"
-              f"[base][cap]overlay=format=auto{tail}[v]")
-    else:
-        fc = f"{base_chain}{tail}[v]"
-    return fc
+            f"fontcolor={color}:line_spacing=13:x=(w-text_w)/2:"
+            f"y=h-120-text_h:"
+            f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
+            f"box=1:boxcolor=black@0.55:boxborderw=22,"
+            f"fade=t=in:st={cs:.2f}:d=0.35:alpha=1,"
+            f"fade=t=out:st={fo:.2f}:d=0.35:alpha=1[cap{seg_id}{i}]")
+        labels.append(f"[cap{seg_id}{i}]")
+    return filters, labels
 
 
 def build_still(seg_id, src, dur, zdir, cap, style):
@@ -276,8 +315,6 @@ def build_still(seg_id, src, dur, zdir, cap, style):
         z = f"1.001+0.10*on/{frames}"
     else:
         z = f"1.101-0.10*on/{frames}"
-    # Anti-shimmer law: supersample 4320x7680 -> zoompan at 2160x3840 ->
-    # lanczos down to 1080x1920 so every zoom step lands on a quarter-pixel.
     base = (f"[0:v]scale=2160:3868,setsar=1,"
             f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"d={frames}:s=2160x3840:fps={FPS},"
@@ -287,7 +324,18 @@ def build_still(seg_id, src, dur, zdir, cap, style):
         tail = ",fade=t=in:st=0:d=1.2"
     if seg_id == "n10b":
         tail = f",fade=t=out:st={dur-1.2}:d=1.2"
-    fc = assemble_segment(seg_id, base, dur, cap, style, tail)
+    capf, labels = caption_layers(seg_id, dur, cap, style)
+    if labels:
+        steps, cur = [], "b"
+        for i, lab in enumerate(labels):
+            last = (i == len(labels) - 1)
+            nxt = "v" if last else f"b{i+1}"
+            steps.append(f"[{cur}]{lab}overlay=format=auto"
+                         + (tail if last else "") + f"[{nxt}]")
+            cur = nxt
+        fc = f"{base}[b];" + ";".join(capf) + ";" + ";".join(steps)
+    else:
+        fc = f"{base}{tail}[v]"
     run(["ffmpeg", "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
          "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
 
