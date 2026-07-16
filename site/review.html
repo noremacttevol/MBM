@@ -26,6 +26,16 @@
   .meta { color: #889; font-size: 13px; font-weight: 400; }
   video { width: 100%; border-radius: 10px; background: #000; display: block; }
   .note { color: #778; font-size: 13px; margin: 0 0 12px; }
+  .done-head { color: #667; border-bottom-color: #202028; }
+  details { margin: 0 0 10px; }
+  summary { cursor: pointer; list-style: none; user-select: none;
+             font-size: 15px; font-weight: 600; color: #7c9;
+             background: #14140f; border: 1px solid #26262e; border-radius: 12px;
+             padding: 12px 14px; }
+  summary::-webkit-details-marker { display: none; }
+  summary::before { content: "▸ "; color: #567; }
+  details[open] > summary::before { content: "▾ "; }
+  details[open] > summary { margin-bottom: 14px; }
 </style>
 </head>
 <body>
@@ -34,15 +44,13 @@
   <p class="sub">Every finished story video. Tap play on any of them — they
   stream on phone or desktop. Hand-painted stills, with the Lord shown the
   same way in every scene.</p>
-  <p class="sub">102 videos · 59 waiting on your review · 42 approved or live.</p>
+  <p class="sub">104 videos · 60 waiting on your review · 43 approved or live.</p>
 </header>
 <div class="wrap">
-<h2>🟡 Needs your review (59)</h2>
-<p class="note">Built and waiting on your yes. Watch these, then tell the monitor which are good — they move down to Approved.</p>
+<h2>🟡 Needs your review (60)</h2>
+<p class="note">Built and waiting on your yes. Watch these, then tell the monitor which are good — they drop into Approved and leave this list.</p>
 <div class="card"><p class="title">11 — Calming the Storm<span class="meta"> · Mark 4 · 4:27</span></p>
 <video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production/build-11-storm/mark-4_calming-the-storm.mp4"></video></div>
-<div class="card"><p class="title">25 — The Wheat and the Tares<span class="meta"> · Matthew 13 · 3:16</span></p>
-<video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production/build-25-wheat-and-tares/matthew-13_wheat-and-tares.mp4"></video></div>
 <div class="card"><p class="title">38 — The Persistent Widow<span class="meta"> · Luke 18 · 2:38</span></p>
 <video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production/build-38-persistent-widow/luke-18_persistent-widow.mp4"></video></div>
 <div class="card"><p class="title">46 — The Seed Growing Secretly<span class="meta"> · Mark 4 · 3:48</span></p>
@@ -161,7 +169,8 @@
 <video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production/build-168-born-water-spirit/john-3_born-of-water-and-spirit.mp4"></video></div>
 <div class="card"><p class="title">169 — To Fulfil All Righteousness<span class="meta"> · Matthew 3 · 2:47</span></p>
 <video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production/build-169-fulfil-righteousness/matthew-3_fulfil-all-righteousness.mp4"></video></div>
-<h2>✅ Approved (27)</h2>
+<h2 class="done-head">Done — tap to open</h2>
+<details><summary>✅ Approved (28)</summary>
 <p class="note">You said yes. Queued to post to the app.</p>
 <div class="card"><p class="title">18 — The Road to Emmaus<span class="meta"> · Luke 24 · 4:18</span></p>
 <video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production/build-18-emmaus/luke-24_emmaus.mp4"></video></div>
@@ -177,6 +186,8 @@
 <video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production/build-23-vineyard/matthew-20_vineyard-workers.mp4"></video></div>
 <div class="card"><p class="title">24 — The Sower<span class="meta"> · Matthew 13 · 2:56</span></p>
 <video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production/build-24-sower/matthew-13_sower.mp4"></video></div>
+<div class="card"><p class="title">25 — The Wheat and the Tares<span class="meta"> · Matthew 13 · 3:16</span></p>
+<video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production/build-25-wheat-and-tares/matthew-13_wheat-and-tares.mp4"></video></div>
 <div class="card"><p class="title">26 — The Mustard Seed<span class="meta"> · Matthew 13 · 1:43</span></p>
 <video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production/build-26-mustard-seed/matthew-13_mustard-seed.mp4"></video></div>
 <div class="card"><p class="title">27 — The Leaven<span class="meta"> · Matthew 13 · 2:05</span></p>
@@ -217,7 +228,8 @@
 <video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production/build-45-wicked-tenants/mark-12_wicked-tenants.mp4"></video></div>
 <div class="card"><p class="title">47 — Houses on Rock and Sand<span class="meta"> · Matthew 7 · 3:56</span></p>
 <video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production/build-47-houses-on-rock-and-sand/matthew-7_houses-on-rock-and-sand.mp4"></video></div>
-<h2>🌐 Live in the app (15)</h2>
+</details>
+<details><summary>🌐 Live in the app (15)</summary>
 <p class="note">Already shipped to milk-b4-meat.web.app.</p>
 <div class="card"><p class="title">01 — Woman Who Touched His Cloak<span class="meta"> · Mark 5 · 1:47</span></p>
 <video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production/build-01-cloak/mark-5_woman-touches-his-cloak.mp4"></video></div>
@@ -233,7 +245,7 @@
 <video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production/build-06-two-sons/matthew-21_two-sons.mp4"></video></div>
 <div class="card"><p class="title">07 — Peter Walks on Water<span class="meta"> · Matthew 14 · 4:16</span></p>
 <video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production/build-07-peter-water/matthew-14_peter-walks-on-water.mp4"></video></div>
-<div class="card"><p class="title">08 — The Lost Coin<span class="meta"> · Luke 15 · 1:06</span></p>
+<div class="card"><p class="title">08 — The Lost Coin<span class="meta"> · Luke 15 · 1:20</span></p>
 <video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production/build-08-lost-coin/luke-15_lost-coin.mp4"></video></div>
 <div class="card"><p class="title">09 — The Rich Young Ruler<span class="meta"> · Mark 10 · 3:37</span></p>
 <video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production/build-09-rich-ruler/mark-10_rich-young-ruler.mp4"></video></div>
@@ -249,10 +261,12 @@
 <video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production/build-15-centurion/matthew-8_centurion.mp4"></video></div>
 <div class="card"><p class="title">17 — Lazarus<span class="meta"> · John 11 · 6:12</span></p>
 <video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production/build-17-lazarus/john-11_lazarus.mp4"></video></div>
-<h2>🔧 Being reworked (1)</h2>
+</details>
+<details><summary>🔧 Being reworked (1)</summary>
 <p class="note">You flagged something — a build machine is remaking these.</p>
 <div class="card"><p class="title">16 — Mary and Martha<span class="meta"> · Luke 10 · 3:07</span></p>
 <video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production/build-16-mary-martha/luke-10_mary-and-martha.mp4"></video></div>
+</details>
 </div>
 </body>
 </html>

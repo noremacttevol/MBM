@@ -194,6 +194,17 @@ def section_html(heading, blurb, cards):
     return f'<h2>{heading} ({len(cards)})</h2>\n{intro}{body}'
 
 
+def details_section_html(heading, blurb, cards):
+    """Collapsed drop-down — keeps the good/done videos off the review view but
+    one click away. Separates 'the good from the bad' on the page."""
+    if not cards:
+        return ""
+    body = "\n".join(card_html(*c) for c in cards)
+    intro = f'<p class="note">{blurb}</p>\n' if blurb else ""
+    return (f'<details><summary>{heading} ({len(cards)})</summary>\n'
+            f'{intro}{body}\n</details>')
+
+
 def main():
     builds = sorted(glob.glob(os.path.join(REPO, "media-production", "build-*")))
     cards = []
@@ -228,21 +239,24 @@ def main():
             review.append(card)
 
     count = len(cards)
+    # Only the review list is open on load. The good/done/reworking ones fold
+    # into collapsed drop-downs so Cameron opens straight to what needs his yes.
     sections = "\n".join(s for s in [
         section_html(
             "🟡 Needs your review",
             "Built and waiting on your yes. Watch these, then tell the monitor "
-            "which are good — they move down to Approved.",
+            "which are good — they drop into Approved and leave this list.",
             review),
-        section_html(
+        '<h2 class="done-head">Done — tap to open</h2>',
+        details_section_html(
             "✅ Approved",
             "You said yes. Queued to post to the app.",
             approved),
-        section_html(
+        details_section_html(
             "🌐 Live in the app",
             "Already shipped to milk-b4-meat.web.app.",
             live),
-        section_html(
+        details_section_html(
             "🔧 Being reworked",
             "You flagged something — a build machine is remaking these.",
             rework),
@@ -276,6 +290,16 @@ def main():
   .meta {{ color: #889; font-size: 13px; font-weight: 400; }}
   video {{ width: 100%; border-radius: 10px; background: #000; display: block; }}
   .note {{ color: #778; font-size: 13px; margin: 0 0 12px; }}
+  .done-head {{ color: #667; border-bottom-color: #202028; }}
+  details {{ margin: 0 0 10px; }}
+  summary {{ cursor: pointer; list-style: none; user-select: none;
+             font-size: 15px; font-weight: 600; color: #7c9;
+             background: #14140f; border: 1px solid #26262e; border-radius: 12px;
+             padding: 12px 14px; }}
+  summary::-webkit-details-marker {{ display: none; }}
+  summary::before {{ content: "▸ "; color: #567; }}
+  details[open] > summary::before {{ content: "▾ "; }}
+  details[open] > summary {{ margin-bottom: 14px; }}
 </style>
 </head>
 <body>

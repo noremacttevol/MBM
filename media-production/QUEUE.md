@@ -56,7 +56,7 @@ Appr and add it to this folder.
 | 22 | The unmerciful servant | Matt 18 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) |
 | 23 | Workers in the vineyard | Matt 20 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (Cameron) |
 | 24 | The sower | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) |
-| 25 | Wheat and tares | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | approved 07-12 — confirm posted |
+| 25 | Wheat and tares | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (Cameron) |
 | 26 | The mustard seed | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) |
 | 27 | The leaven | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) |
 | 28 | Hidden treasure | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) |
