@@ -257,12 +257,10 @@ def main():
     run([FF, "-y", "-f", "concat", "-safe", "0", "-i", f"{S}/concat.txt",
          "-c", "copy", f"{S}/video_silent.mp4"])
 
-    # Music dies to true silence before j1 (through j2) and again before j3.
-    beds = [
-        (0.0, j1_start - 1.2, "b"),
-        (j2_start + audio_dur["j2"] + 1.0, j3_start - 1.2, "a"),
-        (j3_start + audio_dur["j3"] + 1.0, card_start - 0.8, "b"),
-    ]
+    # HUM PURGE (Cameron, 2026-07-16): NO synthetic music bed, ever — the sine
+    # drone reads as electrical hum on headphones (PRODUCTION-BIBLE §5b 2026-07-16).
+    # Audio is NARRATION + INTENTIONAL SILENCE only.
+    beds = []
     inputs, filters, labels = [], [], []
     for i, (path, start) in enumerate(audio_place):
         inputs += ["-i", path]
