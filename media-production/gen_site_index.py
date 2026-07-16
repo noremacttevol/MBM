@@ -62,7 +62,7 @@ TITLES = {
     53: "Peter's Mother-in-Law", 54: "The Leper Made Clean",
     55: "The Withered Hand", 56: "The Widow of Nain's Son",
     57: "Jairus's Daughter", 58: "Feeding the Five Thousand",
-    59: "Feeding the Four Thousand", 60: "The Gerasene Demoniac", 61: "The Syrophoenician Woman", 62: "Ephphatha: the Deaf Man", 63: "The Man Born Blind",
+    59: "Feeding the Four Thousand", 60: "The Gerasene Demoniac", 61: "The Syrophoenician Woman", 62: "Ephphatha: the Deaf Man", 63: "The Man Born Blind", 64: "The Pool of Bethesda",
     71: "Calling the Fishermen", 72: "Calling Matthew",
     84: "No Room: the Manger", 91: "Gethsemane",
     101: "The Still Small Voice", 102: "Jacob's Ladder", 103: "Peter's Confession", 104: "The Boy Samuel", 105: "Face to Face, as a Friend", 106: "God Spake by the Prophets", 107: "John the Baptist's Doubt", 108: "My Sheep Hear My Voice", 109: "Ask, Seek, Knock", 110: "The Lord's Prayer", 111: "Lilies and Sparrows", 112: "The Beatitudes", 113: "Where Art Thou?", 114: "Abraham Pleads for Sodom", 115: "The Ram in the Thicket", 116: "Graven on His Palms", 117: "Hosea Buys Her Back",
