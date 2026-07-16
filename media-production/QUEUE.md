@@ -93,7 +93,7 @@ Appr and add it to this folder.
 | 57 | Jairus's daughter | Mark 5 | ✅ | ✅ | ⬜ | ⬜ | **BUILT Machine B 2026-07-15** — new face-shown build (Flow $0, Nano Banana 2). 9 stills, Jesus face-shown & locked to master (s1/s2/s4–s9), s3 messengers no-figure; CARE-R restraint (the child shown peacefully asleep, no gore/morbidity; only-Jesus-cream held — girl in muted earth tones); caption-v2; 2 sacred silences (jv36 "Be not afraid, only believe", jv41 "Damsel...arise"); 21.5MB/2:29, no dead air. mark-5_jairus-daughter.mp4. Awaiting your yes. |
 | 58 | Feeding the five thousand | John 6 | ✅ | ✅ | ⬜ | ⬜ | **BUILT Machine B 2026-07-15** — new face-shown build (Flow $0, Nano Banana 2). 9 stills, Jesus face-shown & locked to master (s1–s7/s9), s8 twelve-baskets no-figure; GREEN (joyful provision, fish shown as simple food, no gore); caption-v2; 2 sacred silences (the blessing of the loaves + jv12 "Gather up the fragments... that nothing be lost"); 21.8MB/2:42, no dead air. john-6_feeding-5000.mp4. Awaiting your yes. |
 | 59 | Feeding the four thousand | Mark 8 | ✅ | ✅ | ⬜ | ⬜ | **BUILT (draft Machine B; s5 halo FIXED + rebuilt by L1 2026-07-15)** — s5 rerolled with mid-tone-background anti-radiance clause (2 rolls, halo gone), build.py made cross-platform (Linux serif fallback), rebuilt 20.8MB/2:37. 9 stills face-shown locked to master, caption-v2, 2 sacred silences. Awaiting your yes. |
-| 60 | The Gerasene demoniac | Mark 5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 60 | The Gerasene demoniac | Mark 5 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED L1 2026-07-16 |
 | 61 | The Syrophoenician woman | Mark 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 62 | Ephphatha: the deaf man | Mark 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 63 | The man born blind | John 9 | ⬜ | ⬜ | ⬜ | ⬜ |  |
