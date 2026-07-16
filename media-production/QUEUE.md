@@ -114,7 +114,7 @@ Appr and add it to this folder.
 | 71 | Calling the fishermen | Matt 4 | ✅ | ✅ | ⬜ | ⬜ | v3 REDONE 2026-07-15 Machine B (face SHOWN, s3/s4/s8/s10 regenerated locked to master ref; caption-v2; 22.2MB/3:42) — awaiting your yes on the redo |
 | 72 | Calling Matthew | Matt 9 | ✅ | ✅ | ⬜ | ⬜ | v3 REDONE 2026-07-15 Machine B (face SHOWN, s3/s4/s6/s9 regenerated locked to master ref; caption-v2; 22.8MB/4:09) — awaiting your yes on the redo [migrated from old row 85] |
 | 73 | Nazareth synagogue: "this day fulfilled" | Luke 4 | ⬜ | ⬜ | ⬜ | ⬜ | stills by W1 (Elli laptop) 2026-07-16 — build-73-this-day-fulfilled ART COMPLETE s1-s8 (gate PASS, Flow $0, QC pass incl. full-size s3/s6/s7); NOTE: old build-73-nazareth-synagogue folder is superseded (cliff scenes = row 105) — L1 reconcile/remove before assembly |
-| 74 | The woman who washed his feet | Luke 7 | ⬜ | ⬜ | ⬜ | ⬜ | stills W1 IN FLIGHT 2026-07-16 (painter, gate PASS) |
+| 74 | The woman who washed his feet | Luke 7 | ⬜ | ⬜ | ⬜ | ⬜ | stills by W1 (Elli laptop) 2026-07-16 — ART COMPLETE s1-s9 (gate PASS, Flow $0, QC pass; s1 rerolled x2: rotated scene, sleeping pose); ready for assembly |
 | 75 | The woman taken in adultery | John 8 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 76 | "Suffer the little children" | Mark 10 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 77 | The widow's mite | Mark 12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
