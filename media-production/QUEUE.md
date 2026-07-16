@@ -125,7 +125,7 @@ Appr and add it to this folder.
 | 82 | The anointing at Bethany | Mark 14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 83 | Weeping over Jerusalem | Luke 19 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 84 | No room: the manger | Luke 2 | ✅ | ✅ | ⬜ | ⬜ | built Machine B 2026-07-15 (Flow prep, $0; 11 stills — Chrome dropped before the s12 dawn-door, closing beat holds on s11) — awaiting your yes |
-| 85 | Shepherds and angels | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ | STILLS W1-b 2026-07-16 (prompt sheet + stills, Cameron's all-unclaimed order — narration/build OPEN; W1-b = second W1 session, taking 85+ to stay clear of ART-BANK W1's 73-76 block) |
+| 85 | Shepherds and angels | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ | STILLS W1-b 2026-07-16 PARTIAL: sheet gate-PASS, s1-s5 generated + montage-QC'd ($0); s6-s9 REMAIN (paused mid-batch on Cameron's reorganize order — resume `python gen_stills_flow.py` in the folder, it skips existing) |
 | 86 | The wise men | Matt 2 | ⬜ | ⬜ | ⬜ | ⬜ | STILLS W1-b 2026-07-16 (prompt sheet + stills — narration/build OPEN) |
 | 87 | The boy in the temple | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ | ⚠️ NEEDS CAMERON: Jesus at TWELVE — JESUS-MASTER-REF/LOCK v3 is the adult face; no law yet for a boy-Jesus face. Skipped by W1-b until ruled. |
 | 88 | The triumphal entry | Luke 19 | ⬜ | ⬜ | ⬜ | ⬜ | STILLS W1-b 2026-07-16 (prompt sheet + stills — narration/build OPEN) |
