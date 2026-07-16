@@ -88,9 +88,22 @@ SEGMENTS = [
 ]
 
 
+# SPOKEN overrides: text sent to the TTS instead of the caption text, to correct a
+# heteronym the neural voice reads wrong. The ON-SCREEN caption is unchanged
+# (build.py captions from SEGMENTS index 4); only the spoken audio uses these.
+#   n4: edge-tts reads bare "wound" as the injury (/wuːnd/). Here it is the past
+#   tense of "to wind" (/waʊnd/, "wound up"). "waund" forces that pronunciation.
+SPOKEN = {
+    "n4": "But little by little, the joy of having him there got buried under the "
+          "weight of getting it all just right. Her hands stayed busy while, inside, "
+          "she waund tighter and tighter.",
+}
+
+
 async def main():
     for name, voice, rate, pitch, text in SEGMENTS:
-        tts = edge_tts.Communicate(text, voice, rate=rate, pitch=pitch)
+        spoken = SPOKEN.get(name, text)
+        tts = edge_tts.Communicate(spoken, voice, rate=rate, pitch=pitch)
         await tts.save(f"audio/{name}.mp3")
         print(f"saved audio/{name}.mp3")
 

@@ -91,9 +91,21 @@ SEGMENTS = [
 ]
 
 
+# SPOKEN overrides: text sent to the TTS instead of the caption text, to correct a
+# word the neural voice reads wrong. The ON-SCREEN caption is unchanged (build.py
+# captions from SEGMENTS index 4); only the spoken audio uses these.
+#   n11: edge-tts reads the word "us" here as the initialism "U.S." (you-ess).
+#   "uhs" forces the plain word /ʌs/.
+SPOKEN = {
+    "n11": "That is how good he is. He threw the net over the whole ocean of uhs, of "
+           "every kind, so that not one soul who wanted to be found would be missed.",
+}
+
+
 async def main():
     for name, voice, rate, pitch, text in SEGMENTS:
-        tts = edge_tts.Communicate(text, voice, rate=rate, pitch=pitch)
+        spoken = SPOKEN.get(name, text)
+        tts = edge_tts.Communicate(spoken, voice, rate=rate, pitch=pitch)
         await tts.save(f"audio/{name}.mp3")
         print(f"saved audio/{name}.mp3")
 
