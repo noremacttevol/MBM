@@ -44,3 +44,24 @@ Claude validates EVERYTHING — a draft is raw material, not law.
 - Browser: 2 attempts then fall back (extension → driver → browserless work).
 - The repo is the memory. Never re-read what the playbook summarizes.
 - Narration/QC text stays terse; no progress narration between steps.
+
+## STILLS-RUNNER role (Windows W1) — pictures only, added 2026-07-15
+
+Windows is retired from ASSEMBLY (audio/font defects) but is safe for IMAGE
+generation. W1 runs a dedicated stills-only session so the Linux/Fable sessions
+never wait on Flow's render clock.
+
+The relay, via a marker file:
+1. A prep machine (L1/L2) that has written a gate-passing PROMPTS.md but not yet
+   generated art creates an empty file `STILLS-WANTED` in that build folder,
+   commits, pushes, and moves on to its next row's prep or assembly.
+2. W1 loops: `git pull --rebase` → find `media-production/build-*/STILLS-WANTED` →
+   for each: re-run jesus_face_gate.py (must exit 0), generate every still per the
+   playbook (JS submit + JS download, master-ref attached on every Jesus shot,
+   CAPTCHA cadence: after ~20 generations slow to 1 per 2 min), save to that
+   folder's assets/, delete the STILLS-WANTED marker, commit, push. Repeat.
+3. L1/L2 loop the other side: any build folder with full assets/ and no marker is
+   ready — QC the stills, build, publish.
+W1 does ONLY this. No narration, no build.py, no ffmpeg, no queue ticks beyond a
+note in the Claim column ("stills by W1 <date>"). Same session hygiene: audit +
+fresh chat every ~4 folders. If Flow logs out or CAPTCHAs, say ONE line and wait.
