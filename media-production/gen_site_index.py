@@ -229,13 +229,14 @@ def main():
     cards.sort(key=lambda c: c[0])
     appr, post, rejected = parse_queue()
 
-    review, approved, live, rework = [], [], [], []
+    # Being live in the app does NOT mean Cameron approved it. Only his explicit
+    # Appr ✅ moves a video out of the review list — everything else he still
+    # needs to watch, live or not.
+    review, approved, rework = [], [], []
     for card in cards:
         num = card[0]
         if num in rejected:
             rework.append(card)
-        elif post.get(num):
-            live.append(card)
         elif appr.get(num):
             approved.append(card)
         else:
@@ -255,10 +256,6 @@ def main():
             "✅ Approved",
             "You said yes. Queued to post to the app.",
             approved),
-        details_section_html(
-            "🌐 Live in the app",
-            "Already shipped to milk-b4-meat.web.app.",
-            live),
         details_section_html(
             "🔧 Being reworked",
             "You flagged something — a build machine is remaking these.",
@@ -311,7 +308,7 @@ def main():
   <p class="sub">Every finished story video. Tap play on any of them — they
   stream on phone or desktop. Hand-painted stills, with the Lord shown the
   same way in every scene.</p>
-  <p class="sub">{count} videos · {len(review)} waiting on your review · {len(approved) + len(live)} approved or live.</p>
+  <p class="sub">{count} videos · {len(review)} waiting on your review · {len(approved)} approved.</p>
 </header>
 <div class="wrap">
 {sections}
@@ -325,7 +322,7 @@ def main():
         f.write(html)
     print(f"wrote {out} with {count} videos")
     print(f"  review={len(review)} approved={len(approved)} "
-          f"live={len(live)} rework={len(rework)}")
+          f"rework={len(rework)}")
 
 
 if __name__ == "__main__":

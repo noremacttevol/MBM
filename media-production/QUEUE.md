@@ -9,6 +9,7 @@
 | # | Story | What's wrong | Claimed by |
 |---|---|---|---|
 | 16 | Mary and Martha | Rejected 2026-07-15 — one scene shows the Jesus figure from behind without long hair. Regenerate that still face/hair-correct, rebuild, tick Built. | — |
+| 3 | Zacchaeus | Rejected 2026-07-15 — Zacchaeus is way too short, looks ridiculous. He should be a short adult, not comically tiny; fix his proportions in every shot, rebuild, tick Built. | — |
 
 ## ✅ APPROVED FOLDER — Cameron's fresh yes (post-redo, face-law v3)
 
@@ -32,9 +33,9 @@ Appr and add it to this folder.
 
 | # | Story | Ref | Prep | Built | Appr | Post | Claim / notes |
 |---|---|---|---|---|---|---|---|
-| 1 | Woman who touched his cloak | Mark 5 | ✅ | ✅ | ⬜ | ⬜ | 🔁 RE-REVIEW (Cameron re-watching the face-shown versions, 2026-07-15) — **v3 FULL REBUILD 2026-07-15 (Machine A)** — old face-never build rebuilt: 11 face-shown stills locked to master + continuity locks (woman same every shot), caption-v2, AndrewNeural narration, invitation card, 18.4MB/1:47. Awaiting your yes. |
-| 2 | The Prodigal Son | Luke 15 | ✅ | ✅ | ⬜ | ⬜ | 🔁 RE-REVIEW (Cameron re-watching the face-shown versions, 2026-07-15) — **v3 standard 2026-07-15 (Machine A)** — caption-v2 ported (wide bottom), stills-only, reflective invitation card; parable has NO Jesus figure so no face change needed. 19.7MB/2:43. Awaiting your yes. |
-| 3 | Zacchaeus | Luke 19 | ✅ | ✅ | ⬜ | ⬜ | 🔁 RE-REVIEW (Cameron re-watching the face-shown versions, 2026-07-15) — **v3 FULL REBUILD 2026-07-15 (Machine A)** — old face-never build rebuilt: 11 face-shown stills locked to master + continuity locks (Zacchaeus + Jericho same every shot), caption-v2, stills-only, invitation card, 18.9MB/4:07. Awaiting your yes. |
+| 1 | Woman who touched his cloak | Mark 5 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (Cameron — re-watched v3) |
+| 2 | The Prodigal Son | Luke 15 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (Cameron — re-watched v3) |
+| 3 | Zacchaeus | Luke 19 | ✅ | ⬜ | ⬜ | ⬜ | REJECTED 2026-07-15 (Cameron) — Zacchaeus way too short, looks ridiculous; fix his proportions and rebuild (see Fix queue) |
 | 4 | Nicodemus at night | John 3 | ✅ | ✅ | ⬜ | ⬜ | 🔁 RE-REVIEW (Cameron re-watching the face-shown versions, 2026-07-15) — **v3 FULL REBUILD 2026-07-15 (Machine A)** — old face-never build rebuilt: 11 face-shown stills locked to master + continuity locks (Nicodemus + night chamber same every shot), caption-v2, reverent burial (no body), invitation card, 21.1MB/5:58. Awaiting your yes. |
 | 5 | The bent-over woman | Luke 13 | ✅ | ✅ | ⬜ | ⬜ | 🔁 RE-REVIEW (Cameron re-watching the face-shown versions, 2026-07-15) — **v3 FULL REBUILD 2026-07-15 (Machine A)** — old face-never build rebuilt: 11 face-shown stills locked to master + continuity locks (bent→healed woman, synagogue, ruler same every shot), caption-v2, invitation card, 18.8MB/4:35. Awaiting your yes. |
 | 6 | The two sons | Matt 21 | ✅ | ✅ | ⬜ | ⬜ | 🔁 RE-REVIEW (Cameron re-watching the face-shown versions, 2026-07-15) — **v3 REBUILD 2026-07-15 (Machine A)** — face-shown Jesus framing (s1/s6/s7/s8, single-Jesus, locked to master) + parable scenes (father/two sons, continuity-locked), caption-v2, invitation card, 18.0MB/1:39. Awaiting your yes. |
