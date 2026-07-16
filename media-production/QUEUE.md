@@ -50,11 +50,11 @@ Appr and add it to this folder.
 | 16 | Mary and Martha | Luke 10 | ✅ | ⬜ | ⬜ | ⬜ | REJECTED 2026-07-15 (Cameron) — one scene shows the Jesus figure from behind without long hair; needs fix (see Fix queue) |
 | 17 | Jesus wept (Lazarus) | John 11 | ✅ | ✅ | ⬜ | ✅ | live (beard fix shipped) |
 | 18 | The road to Emmaus | Luke 24 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (Cameron) |
-| 19 | Breakfast on the shore | John 21 | ✅ | ✅ | ⬜ | ⬜ | approval RESET 2026-07-15 — re-review after redo |
-| 20 | The Good Samaritan | Luke 10 | ✅ | ✅ | ⬜ | ⬜ | approved 07-12 — confirm posted |
-| 21 | The lost sheep | Luke 15 | ✅ | ✅ | ⬜ | ⬜ | approved 07-12 — confirm posted |
+| 19 | Breakfast on the shore | John 21 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (Cameron) |
+| 20 | The Good Samaritan | Luke 10 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (Cameron) |
+| 21 | The lost sheep | Luke 15 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (Cameron) |
 | 22 | The unmerciful servant | Matt 18 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) |
-| 23 | Workers in the vineyard | Matt 20 | ✅ | ✅ | ⬜ | ⬜ | approved 07-12 — confirm posted |
+| 23 | Workers in the vineyard | Matt 20 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (Cameron) |
 | 24 | The sower | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) |
 | 25 | Wheat and tares | Matt 13 | ✅ | ✅ | ⬜ | ⬜ | approved 07-12 — confirm posted |
 | 26 | The mustard seed | Matt 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-15 (parable — Jesus's face not required) |
