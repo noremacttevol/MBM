@@ -108,7 +108,7 @@ Appr and add it to this folder.
 | 65 | "Help thou mine unbelief" | Mark 9 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine L1-agent 2026-07-16 |
 | 66 | Malchus's ear | Luke 22 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine L1-agent 2026-07-16 |
 | 67 | The Transfiguration | Mark 9 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED Machine L1-agent 2026-07-16 |
-| 68 | Multitudes on the mountain | Matt 15 | ⬜ | ⬜ | ⬜ | ⬜ | CLAIMED L1 2026-07-16 |
+| 68 | Multitudes on the mountain | Matt 15 | ✅ | ✅ | ⬜ | ⬜ | **BUILT L1 2026-07-16** (Flow $0, 9 stills, 8 cut in, ZERO rerolls) — face-shown Jesus locked to master; the nameless-thousands angle (carried-up-the-mountain love, four-words healing, three-days detail); 1 exact KJV (Matt 15:32b compassion line, ties to #59); dignity montage (no gore); caption-v2; no bed; 17.8MB/3:17. matt-15_multitudes-mountain.mp4. Awaiting your yes. |
 | 69 | The baptism of Jesus | Matt 3 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 70 | The temptations | Matt 4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 71 | Calling the fishermen | Matt 4 | ✅ | ✅ | ⬜ | ⬜ | v3 REDONE 2026-07-15 Machine B (face SHOWN, s3/s4/s8/s10 regenerated locked to master ref; caption-v2; 22.2MB/3:42) — awaiting your yes on the redo |
