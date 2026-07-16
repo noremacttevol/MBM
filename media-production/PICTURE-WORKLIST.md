@@ -2,22 +2,22 @@
 
 Markers are DROPPED for every row below — W1/W2 just pull and farm.
 
-## W1 — ready now, rows 1-100 (5)
+## W1 — ready now, rows 1-100 (6)
 
 73. Nazareth synagogue: "this day fulfilled" — build-73-this-day-fulfilled (8 stills)
 74. The woman who washed his feet — build-74-woman-washed-his-feet (9 stills)
 75. The woman taken in adultery — build-75-woman-taken-in-adultery (10 stills)
 76. "Suffer the little children" — build-76-suffer-the-little-children (8 stills)
 77. The widow's mite — build-77-widows-mite (9 stills)
+78. "Who is my mother?" — build-78-who-is-my-mother (8 stills)
 
 ## W2 — ready now, rows 101-200 (0)
 
 
-## WAITING ON HERMES DRAFTS — no prompt sheet yet (76)
+## WAITING ON HERMES DRAFTS — no prompt sheet yet (75)
 Hermes: write DRAFTS/row-NNN.md for these (spec in PROTOCOL-V4); an L machine
 turns each into a gate-passed sheet + marker, and it joins the lists above.
 
-78. "Who is my mother?"
 79. The seventy sent
 80. "Come unto me, all ye that labour"
 81. Render unto Caesar
