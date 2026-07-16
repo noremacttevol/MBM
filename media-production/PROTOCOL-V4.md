@@ -45,7 +45,31 @@ Claude validates EVERYTHING — a draft is raw material, not law.
 - The repo is the memory. Never re-read what the playbook summarizes.
 - Narration/QC text stays terse; no progress narration between steps.
 
-## STILLS-RUNNER role (Windows W1) — pictures only, added 2026-07-15
+## PAIRED LANES (Cameron, 2026-07-15 late) — two brain+hands pairs
+
+| Pair | Brain (Linux, Fable) | Hands (Windows, stills only) | Rows |
+|---|---|---|---|
+| 1 | **L1** | **W1** | 1–100 |
+| 2 | **L2** | **W2** | 101–200 |
+
+W runners take ONLY markers inside their pair's row range. Everything below about
+"W1" applies to both runners, each in its own range.
+
+**The L (brain) session's duty list, every loop, in this order:**
+1. `git pull --rebase`. Check `media-production/DRAFTS/` for row files in YOUR
+   range (Hermes or any helper's work): VALIDATE each against the laws (exact KJV,
+   Translation Law, homographs, care flags), turn it into make_narration.py +
+   PROMPTS.md in the build folder, gate it, drop `STILLS-WANTED`, push. Drafts are
+   raw material — never trust, always check.
+2. Assemble any folder in your range whose art is COMPLETE and marker is gone:
+   QC stills → build.py → queue tick → gen_site_index.py → push.
+3. If no drafts and nothing to assemble: write the next row's narration + prompt
+   sheet yourself from the templates, gate, marker, push.
+4. Repeat. Max 4 videos assembled per session, then audit + SESSION DONE.
+The brain never waits on Flow; the hands never touch ffmpeg. Cameron saves Hermes
+output by telling any session: "save this as DRAFTS/row-NNN.md" and pasting it.
+
+## STILLS-RUNNER role (Windows W1/W2) — pictures only, added 2026-07-15
 
 Windows is retired from ASSEMBLY (audio/font defects) but is safe for IMAGE
 generation. W1 runs a dedicated stills-only session so the Linux/Fable sessions
