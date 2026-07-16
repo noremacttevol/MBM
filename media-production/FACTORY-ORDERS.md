@@ -54,14 +54,14 @@ MEMBER (see THE-200.md). QUEUE.md is regenerated to match. All holds are lifted.
   card; the closing card also carries a one-line pointer to the matching Gospel
   Library topic named in THE-200.md. No church logos, footage, or manual text ever.
 
-## MACHINE ASSIGNMENTS (v3 — covers BOTH the redo and the remaining new builds)
+## MACHINE ASSIGNMENTS (v4 — TWO LINUX MACHINES ONLY; see PROTOCOL-V4.md)
 
 | Machine | Rows 1–200, yours completely |
 |---|---|
-| **A** | 1–50 |
-| **B** | 51–100 |
-| **C** | 101–150 |
-| **D** | 151–200 |
+| **L1** | 1–100 |
+| **L2** | 101–200 |
+
+Windows machines are RETIRED from building (audio/font defects) — drafts/audits only.
 
 Within YOUR range, work in this order:
 1. **BOOTSTRAP (whichever machine gets here first):** if
