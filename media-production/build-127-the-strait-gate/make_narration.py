@@ -39,11 +39,14 @@ SEGMENTS = [
     ("j2", JESUS, "-20%", "-2Hz",
      "Because strait is the gate, and narrow is the way, which "
      "leadeth unto life, and few there be that find it."),
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "He wasn't describing geography. He was describing a "
-     "decision — a narrow gate that leads to life, found by the "
-     "few who choose it."),
-    # sacred-silence beat follows n3.
+    # n3 is split in two so each closing still (s6 gate-in-light, s7 hand
+    # at dawn) carries the half being said — same draft words, verbatim.
+    ("n3a", NARRATOR, "-20%", "-4Hz",
+     "He wasn't describing geography. He was describing a decision."),
+    ("n3b", NARRATOR, "-20%", "-4Hz",
+     "A narrow gate that leads to life, found by the few who "
+     "choose it."),
+    # sacred-silence beat follows n3a on the gate-in-light still.
     ("card", NARRATOR, "-22%", "-5Hz",
      "There are two gates, and one choice. He said the narrow way "
      "is worth finding. Step through."),
@@ -51,12 +54,15 @@ SEGMENTS = [
 
 # HOMOGRAPH LAW — see the docstring: ear-check "leadeth" in j1/j2 before
 # assembly. If (and only if) TTS misreads it, uncomment the overrides.
+# Ear-check 2026-07-17 (ASSEMBLY-B): j2 read "leadeth" as /LED-eth/
+# ("letteth" per whisper). Overrides enabled for BOTH KJV lines —
+# captions keep the exact KJV spelling "leadeth".
 SPOKEN = {
-    # "j1": ("Enter ye in at the strait gate: for wide is the gate, and "
-    #        "broad is the way, that leedeth to destruction, and many "
-    #        "there be which go in thereat:"),
-    # "j2": ("Because strait is the gate, and narrow is the way, which "
-    #        "leedeth unto life, and few there be that find it."),
+    "j1": ("Enter ye in at the strait gate: for wide is the gate, and "
+           "broad is the way, that leedeth to destruction, and many "
+           "there be which go in thereat:"),
+    "j2": ("Because strait is the gate, and narrow is the way, which "
+           "leedeth unto life, and few there be that find it."),
 }
 
 
