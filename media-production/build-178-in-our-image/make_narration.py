@@ -38,10 +38,11 @@ SEGMENTS = [
     ("s2", SCRIPTURE, "-24%", "-2Hz",
      "So God created man in his own image, in the image of God "
      "created he him; male and female created he them."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
+    ("n1a", NARRATOR, "-20%", "-4Hz",
      "Not in the shape of any creature, but bearing something of "
-     "God himself: the capacity to know him, to choose him, to "
-     "reflect him."),
+     "God himself:"),
+    ("n1b", NARRATOR, "-20%", "-4Hz",
+     "the capacity to know him, to choose him, to reflect him."),
     ("n2", NARRATOR, "-20%", "-4Hz",
      "The plan included dominion — over fish, birds, cattle, and "
      "all the earth. Stewards, not owners."),
