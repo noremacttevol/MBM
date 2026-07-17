@@ -11,6 +11,12 @@
 > zeroed, and the NO-BED law is now PRODUCTION-BIBLE §5 QC. Audio = narration + silence
 > only, forever. Re-reviews of already-built videos should be done on the post-purge files.
 
+> 🚨 **DEPLOY 429 FIX (ASSEMBLY-D 2026-07-17):** if `firebase deploy` fails with
+> "exceeded the Hosting storage quota", run
+> `python3 media-production/prune_hosting_versions.py` and deploy again — site/ is
+> ~650MB, every deploy stores a full copy, and ~15 deploys across all sessions fill
+> the 10GB free tier. The script keeps the live version; the site never goes down.
+
 ## Fix queue (rejected builds — fix before taking new work in that range)
 
 | # | Story | What's wrong | Claimed by |
