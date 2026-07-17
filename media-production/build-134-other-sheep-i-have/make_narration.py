@@ -19,10 +19,14 @@ SEGMENTS = [
      "Jesus used a picture His listeners knew well — a shepherd "
      "and his sheep. He was the good Shepherd, and they were His "
      "flock."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
+    # n1 split so the familiar-fold still and the other-hillside still
+    # each carry their half — draft words verbatim.
+    ("n1a", NARRATOR, "-20%", "-4Hz",
      "But He said the flock was bigger than the people standing "
-     "there. There were other sheep, not of that pen, that He "
-     "would also bring."),
+     "there."),
+    ("n1b", NARRATOR, "-20%", "-4Hz",
+     "There were other sheep, not of that pen, that He would also "
+     "bring."),
     ("n2", NARRATOR, "-20%", "-4Hz",
      "They would hear His voice. And the result would be one "
      "flock, one Shepherd."),
