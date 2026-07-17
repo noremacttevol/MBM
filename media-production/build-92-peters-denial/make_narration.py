@@ -33,11 +33,17 @@ SEGMENTS = [
      "Across the courtyard, Jesus turned and looked straight at "
      "Peter. Just looked at him."),
     # sacred-silence beat: the LOOK holds — no spoken line from Jesus.
-    ("n5", NARRATOR, "-20%", "-4Hz",
-     "And Peter remembered — Jesus had told him this would happen. "
-     "He went outside and wept bitterly. But the look wasn't scorn. "
-     "It was the face of someone who already knew, and already "
-     "loved him anyway."),
+    # n5 split into three so each beat lands on its own still (s6 peter-
+    # remembers, s7 out-through-the-gate, s8 the-dying-fire-at-dawn) per the
+    # CAPTION LAW.
+    ("n5a", NARRATOR, "-20%", "-4Hz",
+     "And Peter remembered — Jesus had told him this would "
+     "happen."),
+    ("n5b", NARRATOR, "-20%", "-4Hz",
+     "He went outside and wept bitterly."),
+    ("n5c", NARRATOR, "-20%", "-4Hz",
+     "But the look wasn't scorn. It was the face of someone who "
+     "already knew, and already loved him anyway."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "He looked at Peter in his worst moment — and still chose him. "
      "He looks at you the same way."),
