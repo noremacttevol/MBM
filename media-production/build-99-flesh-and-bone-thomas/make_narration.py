@@ -45,10 +45,14 @@ SEGMENTS = [
     ("j2", JESUS, "-20%", "-2Hz",
      "Reach hither thy finger, and behold my hands; and be not "
      "faithless, but believing."),
-    ("n4", NARRATOR, "-20%", "-4Hz",
+    # n4 split so the meeting and the reassurance land on their own stills
+    # (s7 my-lord-and-my-god, s8 the-open-hand) per the CAPTION LAW.
+    ("n4a", NARRATOR, "-20%", "-4Hz",
      "He didn't scold Thomas for doubting. He met the doubt with "
-     "his own hands. That's what he does with honest doubt — he "
-     "steps toward it."),
+     "his own hands."),
+    ("n4b", NARRATOR, "-20%", "-4Hz",
+     "That's what he does with honest doubt — he steps toward "
+     "it."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "He met a doubter with open hands, not anger. Bring him your "
      "doubt. He can handle it."),
