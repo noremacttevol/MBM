@@ -17,10 +17,11 @@ JESUS = "en-US-ChristopherNeural"   # American. Never a British voice.
 
 SEGMENTS = [
     # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
+    ("n0a", NARRATOR, "-20%", "-4Hz",
      "To a crowd of people worn down by work, by rules, by just getting "
-     "through the day, Jesus made one of the gentlest offers ever "
-     "spoken."),
+     "through the day,"),
+    ("n0b", NARRATOR, "-20%", "-4Hz",
+     "Jesus made one of the gentlest offers ever spoken."),
     # Exact KJV Matt 11:28 — SILENCE around it.
     ("j1", JESUS, "-20%", "-2Hz",
      "Come unto me, all ye that labour and are heavy laden, and I will "
@@ -35,10 +36,11 @@ SEGMENTS = [
     # Exact KJV Matt 11:30 — SILENCE around it.
     ("j3", JESUS, "-18%", "-2Hz",
      "For my yoke is easy, and my burden is light."),
-    ("n2", NARRATOR, "-20%", "-4Hz",
-     "He wasn't promising a life with nothing to carry. He was "
-     "promising to get under the load with you, so it never has to be "
-     "carried alone again."),
+    ("n2a", NARRATOR, "-20%", "-4Hz",
+     "He wasn't promising a life with nothing to carry."),
+    ("n2b", NARRATOR, "-20%", "-4Hz",
+     "He was promising to get under the load with you, so it never has "
+     "to be carried alone again."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "Whatever you've been carrying by yourself — he's offering to take "
      "the other side of it. Come."),
