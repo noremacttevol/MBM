@@ -17,9 +17,13 @@ SCRIPTURE = "en-US-ChristopherNeural"  # the scripture voice. Exact KJV only.
 
 SEGMENTS = [
     # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
-     "The prophet Amos carried a warning from the Lord — not about "
-     "food, but about something people would miss even more."),
+    # n0 is split so the empty-basket still (s2) lands exactly on
+    # "not about food" — same draft words, verbatim.
+    ("n0a", NARRATOR, "-20%", "-4Hz",
+     "The prophet Amos carried a warning from the Lord —"),
+    ("n0b", NARRATOR, "-20%", "-4Hz",
+     "not about food, but about something people would miss even "
+     "more."),
     ("n1", NARRATOR, "-20%", "-4Hz",
      "A day would come when God's voice would seem far away — not "
      "because He stopped speaking, but because people stopped "
@@ -38,9 +42,13 @@ SEGMENTS = [
      "The deepest hunger isn't in the stomach. It's the ache of a "
      "soul that can't find a word from God."),
     # sacred-silence beat follows n2.
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "The cure was never far. It was to listen while His voice "
-     "could still be heard."),
+    # n3 is split so the scroll still (s4) carries "the cure was never
+    # far" and the listening face (s5) carries "listen" — draft words
+    # verbatim.
+    ("n3a", NARRATOR, "-20%", "-4Hz",
+     "The cure was never far."),
+    ("n3b", NARRATOR, "-20%", "-4Hz",
+     "It was to listen while His voice could still be heard."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "When His word is near, don't let it pass. Listen now — the "
      "famine is the silence we choose."),
