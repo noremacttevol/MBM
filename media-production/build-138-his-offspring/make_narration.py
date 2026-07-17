@@ -19,10 +19,13 @@ SCRIPTURE = "en-US-ChristopherNeural"  # the scripture voice. Exact KJV only.
 
 SEGMENTS = [
     # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
+    # n0 split so the Mars-hill still and the unknown-altar still each
+    # carry their half — draft words verbatim.
+    ("n0a", NARRATOR, "-20%", "-4Hz",
      "Paul stood in the middle of Athens, surrounded by statues to "
-     "every god they could think of — and one altar that simply "
-     "said, To the unknown God."),
+     "every god they could think of —"),
+    ("n0b", NARRATOR, "-20%", "-4Hz",
+     "and one altar that simply said, To the unknown God."),
     ("n1", NARRATOR, "-20%", "-4Hz",
      "He told them they were already closer than they knew. The "
      "God they'd left unnamed made the whole world, and He is not "
