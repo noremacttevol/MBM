@@ -20,20 +20,24 @@ SEGMENTS = [
      "As Jesus came over the hill and the whole city of Jerusalem "
      "opened up in front of him, he did something the crowds didn't "
      "expect."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "He stopped, and he wept over it — not for himself. For them."),
+    ("n1a", NARRATOR, "-20%", "-4Hz",
+     "He stopped, and he wept over it —"),
+    ("n1b", NARRATOR, "-20%", "-4Hz",
+     "not for himself. For them."),
+    ("n2", NARRATOR, "-20%", "-4Hz",
+     "The peace they had been aching for had walked right up to their "
+     "gates — and the city was too busy to see it."),
     # Exact KJV Luke 19:42 — SILENCE around it.
     ("j1", JESUS, "-20%", "-2Hz",
      "If thou hadst known, even thou, at least in this thy day, the "
      "things which belong unto thy peace! but now they are hid from "
      "thine eyes."),
-    ("n2", NARRATOR, "-20%", "-4Hz",
-     "The peace they had been aching for had walked right up to their "
-     "gates — and the city was too busy to see it."),
-    ("n3", NARRATOR, "-20%", "-4Hz",
+    ("n3a", NARRATOR, "-20%", "-4Hz",
      "He could see what was coming for the city he loved — armies and "
-     "ruin, a generation away. His tears weren't anger. They were the "
-     "grief of love that sees exactly what could have been."),
+     "ruin, a generation away."),
+    ("n3b", NARRATOR, "-20%", "-4Hz",
+     "His tears weren't anger. They were the grief of love that sees "
+     "exactly what could have been."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "He wept because he loved the city that couldn't see him. He sees "
      "you clearly. Don't look away."),
