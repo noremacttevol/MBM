@@ -201,7 +201,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 141 | "I am the bread of life" | John 6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 142 | "I am the light of the world" | John 8 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 143 | "I am the door" | John 10 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 144 | "I am the resurrection and the life" | John 11 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 144 | "I am the resurrection and the life" | John 11 | ⬜ | ⬜ | ⬜ | ⬜ | **CLAIMED ASSEMBLY-C 2026-07-17** (assembly from existing stills) |
 | 145 | "I am the way, the truth, and the life" | John 14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 146 | The vine and the branches | John 15 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 147 | Joseph forgives his brothers | Gen 45–50 | ⬜ | ⬜ | ⬜ | ⬜ |  |
