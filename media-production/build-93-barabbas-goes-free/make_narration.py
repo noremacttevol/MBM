@@ -19,9 +19,12 @@ SEGMENTS = [
      "It was the custom at Passover for the governor to release one "
      "prisoner the crowd chose. Pilate had two men: Jesus, and a "
      "killer named Barabbas."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "Pilate could see Jesus had done nothing worth death. He "
-     "thought the crowd would surely pick the innocent one."),
+    # n1 split so Pilate's judgment and his expectation land on their own
+    # stills (s2 pilate-weighs-it, s3 the-innocent-one) per the CAPTION LAW.
+    ("n1a", NARRATOR, "-20%", "-4Hz",
+     "Pilate could see Jesus had done nothing worth death."),
+    ("n1b", NARRATOR, "-20%", "-4Hz",
+     "He thought the crowd would surely pick the innocent one."),
     # sacred-silence beat follows n1.
     ("n2", NARRATOR, "-20%", "-4Hz",
      "But the leaders stirred the crowd, and they shouted for "
