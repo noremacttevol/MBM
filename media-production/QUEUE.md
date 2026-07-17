@@ -261,6 +261,6 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 195 | "Prove all things; hold fast that which is good" | 1 Thes 5:21 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — 1thessalonians-5_prove-all-things.mp4 (11.9MB/1:02); caption-v2, two scripture-voice silences (5:21, 5:22), stills matched semantically, re-paced to clear 60s floor, QC pass |
 | 196 | "Would God that all the LORD's people were prophets" | Num 11:29 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — numbers-11_would-god-all-were-prophets.mp4 (18.6MB/1:28); caption-v2 (8 stills, n1/n3 split), scripture-voice silence (Num 11:29), Spirit hinted as light, QC pass |
 | 197 | "Your sons and your daughters shall prophesy" | Joel 2:28–29 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — joel-2_sons-and-daughters-prophesy.mp4 (17.1MB/1:20); caption-v2, two scripture-voice silences (2:28, 2:29) on the two "everyone" stills, Spirit hinted as light, QC pass |
-| 198 | An ensign for the nations; the second time | Isa 11:11–12 | ⬜ | ⬜ | ⬜ | ⬜ | **CLAIMED ASSEMBLY-D 2026-07-17** (assembly from existing stills) |
+| 198 | An ensign for the nations; the second time | Isa 11:11–12 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — isaiah-11_ensign-for-the-nations.mp4 (16.4MB/1:15); caption-v2, two scripture-voice silences (11:11, 11:12), ensign still held across n1+11:11 (in→out drift, 5 stills), QC pass |
 | 199 | Fishers and hunters | Jer 16:14–16 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 200 | "This gospel of the kingdom shall be preached in all the world" | Matt 24:14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
