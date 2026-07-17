@@ -1,3 +1,49 @@
+## 2026-07-17 — ASSEMBLY SWEEP: 32 videos assembled & shipped (ASSEMBLY-D / session 4)
+
+Session 4 of a 4-way split. Assigned lane = the MEMBER 4th quarter (rows 182–200);
+completed it 100%, then extended downward and into the orphaned EVERYONE/BRIDGE
+rows as the board's other unclaimed assembly-ready work. All builds are
+assembly-only from existing W1/Flow stills ($0, no paid APIs), each with:
+ear-check pass (faster-whisper), caption-v2 (bottom-band split/synced), no
+music bed, dead-air < 2.5s, >60s runtime, per-build QC (frame-strip + band
+crops + silence/hum scan), then push + gen_site_index + firebase deploy.
+
+**Shipped (Built ✅ + note in QUEUE):** 182, 183, 184, 185, 186, 187, 188, 189,
+190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200 (the finale), then 181,
+180, 179, 100, 99, 98, 97, 96, 95, 94, 93, 92, 126. (32 total.)
+
+- **MEMBER 182–200 + 179–181:** verse videos; each KJV line in cream-italic
+  scripture/Jesus voice, long verses split across stills. #183 narration was
+  re-anchored to the catalog's 1 Cor 15:40–42 (the draft had written Genesis 1).
+  #185 slug kept distinct from row 133's many-mansions (john-14_in-my-fathers-house).
+- **PASSION/RESURRECTION arc 92–100:** #94/#95/#96 held the CRUCIFIXION RESTRAINT
+  LAW (cross at distance, no gore/nails/wounds, witnesses + veil carry it — every
+  frame 10-year-old-safe). #99 risen wounds = pale scar-marks only (zoom-verified).
+  #97 empty tomb has no Jesus line (angels narrator-voiced → all-white captions).
+- **#126 By Their Fruits:** the Matt 7:15 KJV verse is delivered in two breaths
+  across the beware/sheep's-clothing stills (exact words, added pause) so each
+  phrase syncs to its picture; the "false prophet" is a real wolf among sheep,
+  never an embodied monster.
+
+**OPS FIX (helped every session):** `firebase deploy` kept 429-ing on the Hosting
+storage quota (~650MB site × every deploy × 4 sessions > 10GB free tier). Added
+`media-production/prune_hosting_versions.py` (deletes all FINALIZED hosting
+versions except the live one via the CLI's stored token) + a note in QUEUE's
+header. Run it before each deploy; the site never goes down. Also set the live
+channel retainedReleaseCount=3.
+
+**COLLISION NOTES:** claim-first protocol worked. One stumble: erroneously
+claimed #90 after a stale local scan — it was already BUILT by ASSEMBLY-B;
+caught it (their mp4 present), reverted my stray marker, restored their row note.
+Rule reinforced: before claiming, re-pull and confirm the row is Built ⬜ AND no
+mp4 AND no other session's CLAIMED marker.
+
+**BOARD AT SESSION END:** 196/200 Built. No unclaimed assembly-ready builds
+remain. The 4 not-built: 65/66/67 need stills (not assembly; 66/67 STILLS-claimed),
+125 (ASSEMBLY-C building), and 77/81 already have mp4s pending their sessions' tick.
+
+---
+
 ## 2026-07-17 — DEFECT REPAIR: #30, #32, #41 (narration) + #7 (full rebuild) fixed & pushed (Machine C)
 
 Cameron's fix queue, all four rejections resolved this session (Flow stills $0, no paid APIs):
