@@ -19,9 +19,12 @@ JESUS = "en-US-ChristopherNeural"   # American. Never a British voice.
 
 SEGMENTS = [
     # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
-     "Jesus was preparing His disciples for a hard goodbye. His "
-     "words could have brought fear — instead they brought "
+    # n0 split so the goodbye still and the speaking-peace still each
+    # carry their half — draft words verbatim.
+    ("n0a", NARRATOR, "-20%", "-4Hz",
+     "Jesus was preparing His disciples for a hard goodbye."),
+    ("n0b", NARRATOR, "-20%", "-4Hz",
+     "His words could have brought fear — instead they brought "
      "comfort."),
     ("n1", NARRATOR, "-20%", "-4Hz",
      "Don't let your heart be troubled, He said. Trust God. Trust "
