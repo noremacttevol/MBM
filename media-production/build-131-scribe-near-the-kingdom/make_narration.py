@@ -15,9 +15,13 @@ JESUS = "en-US-ChristopherNeural"   # American. Never a British voice.
 
 SEGMENTS = [
     # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
+    # n0 split so the approach (s1) and the asking (s3) each carry
+    # their half — draft words verbatim.
+    ("n0a", NARRATOR, "-20%", "-4Hz",
      "A teacher of the law came to Jesus with a real question, not "
-     "a trap — which commandment matters most of all?"),
+     "a trap —"),
+    ("n0b", NARRATOR, "-20%", "-4Hz",
+     "which commandment matters most of all?"),
     ("n1", NARRATOR, "-20%", "-4Hz",
      "Jesus answered without hesitation. Love God with everything "
      "you are. And love your neighbor as yourself. Everything else "
