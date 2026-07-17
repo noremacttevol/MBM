@@ -24,19 +24,25 @@ SEGMENTS = [
      "But when they arrived, the huge stone that had sealed the "
      "tomb was rolled away."),
     # sacred-silence beat follows n1: the still holds on the open tomb mouth.
-    ("n2", NARRATOR, "-20%", "-4Hz",
-     "They stepped inside — and the body was gone. They stood "
-     "there, confused and afraid."),
+    # n2 split so the empty ledge and their fear land on their own stills (s3
+    # the-empty-ledge, s4 fear-and-awe) per the CAPTION LAW.
+    ("n2a", NARRATOR, "-20%", "-4Hz",
+     "They stepped inside — and the body was gone."),
+    ("n2b", NARRATOR, "-20%", "-4Hz",
+     "They stood there, confused and afraid."),
     ("n3", NARRATOR, "-20%", "-4Hz",
      "Then two figures in dazzling clothing stood beside them, and "
      "asked a question that has echoed for two thousand years:"),
     ("n4", NARRATOR, "-18%", "-3Hz",
      "Why do you look for the living among the dead? He is not "
      "here — he is risen."),
-    ("n5", NARRATOR, "-20%", "-4Hz",
+    # n5 split so the reminder and the remembering land on their own stills
+    # (s6 she-remembers, s7 running-into-sunrise) per the CAPTION LAW.
+    ("n5a", NARRATOR, "-20%", "-4Hz",
      "Remember, they said, what he told you back in Galilee — that "
-     "he would be crucified, and on the third day rise again. And "
-     "they remembered."),
+     "he would be crucified, and on the third day rise again."),
+    ("n5b", NARRATOR, "-20%", "-4Hz",
+     "And they remembered."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "The tomb couldn't hold him. Whatever feels dead and sealed "
      "shut in your life — he's the God of the rolled-away stone."),
