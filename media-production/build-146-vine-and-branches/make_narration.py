@@ -6,6 +6,12 @@ Jesus voice: AMERICAN, never British. Jesus speaks ONLY exact KJV:
 John 15:5 (verified against the passage).
 HOMOGRAPH LAW: ear-checked — no bow/wound/wind/tears/lead/sow/live/read/dove/
 bass/minute/use(d)/close in any segment. No SPOKEN overrides needed.
+
+SEGMENTATION (ASSEMBLY-C, 2026-07-17): the verse is delivered in two exact-KJV
+pieces split at its first colon, back to back — the prompt sheet built s3
+("i-am-the-vine") and s6 ("abide-in-me") for those pieces. n0 and n3 split at
+natural breaks so all 8 stills carry a beat synced to what is being said
+(CAPTION LAW). Words unchanged from the draft.
 """
 import asyncio
 import edge_tts
@@ -15,14 +21,17 @@ JESUS = "en-US-ChristopherNeural"   # American. Never a British voice.
 
 SEGMENTS = [
     # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
-     "Jesus used a picture His friends would know — a vine, and "
-     "the branches that grow from it."),
-    # Exact KJV John 15:5.
-    ("j1", JESUS, "-20%", "-2Hz",
-     "I am the vine, ye are the branches: He that abideth in me, "
-     "and I in him, the same bringeth forth much fruit: for "
-     "without me ye can do nothing."),
+    ("n0a", NARRATOR, "-20%", "-4Hz",
+     "Jesus used a picture His friends would know —"),
+    ("n0b", NARRATOR, "-20%", "-4Hz",
+     "a vine, and the branches that grow from it."),
+    # Exact KJV John 15:5, first clause.
+    ("j1a", JESUS, "-20%", "-2Hz",
+     "I am the vine, ye are the branches:"),
+    # Exact KJV John 15:5, rest of the verse.
+    ("j1b", JESUS, "-20%", "-2Hz",
+     "He that abideth in me, and I in him, the same bringeth forth "
+     "much fruit: for without me ye can do nothing."),
     ("n1", NARRATOR, "-20%", "-4Hz",
      "A branch cut off from the vine doesn't dry up because it's "
      "weak. It dries up because it's disconnected."),
@@ -30,8 +39,10 @@ SEGMENTS = [
     ("n2", NARRATOR, "-20%", "-4Hz",
      "Stay joined to Him, and the life flows. Try to bear fruit on "
      "your own, and there's nothing there."),
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "He wasn't asking for effort. He was offering connection."),
+    ("n3a", NARRATOR, "-20%", "-4Hz",
+     "He wasn't asking for effort."),
+    ("n3b", NARRATOR, "-20%", "-4Hz",
+     "He was offering connection."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "Stay connected to the Vine. Let His life flow through you."),
 ]
