@@ -181,12 +181,21 @@ def build_still(seg_id, src, dur, zdir, cap_text, kjv, first):
 
 
 def build_card(dur, text):
-    tf = f"{S}/card.txt"
-    with open(tf, "w") as f:
-        f.write("\n".join(textwrap.wrap(text, width=30)))
-    vf = (f"drawtext=fontfile={SERIF}:textfile={tf}:fontsize=52:"
-          f"fontcolor={INK}:line_spacing=24:x=(w-text_w)/2:y=(h-text_h)/2,"
-          f"fade=t=in:st=0:d=0.8,fade=t=out:st={dur-0.8}:d=0.8")
+    # per-line card (2026-07-17, #7 end-card tofu fix): this box renders a
+    # textfile newline as a tofu box, so each wrapped card line gets its own
+    # textfile + drawtext, block-centered. Visuals/audio unchanged.
+    _clines = textwrap.wrap(text, width=30)
+    _clh = 52 + 24
+    _cL = len(_clines)
+    _cdt = ""
+    for _cj, _cln in enumerate(_clines):
+        _ctf = f"{S}/card_{_cj}.txt"
+        with open(_ctf, "w", encoding="utf-8") as _cf:
+            _cf.write(_cln)
+        _cy = f"(h-{_cL * _clh})/2+{_cj * _clh}"
+        _cdt += (f"drawtext=fontfile={SERIF}:textfile={_ctf}:"
+                 f"fontsize=52:fontcolor={INK}:x=(w-text_w)/2:y={_cy},")
+    vf = _cdt + f"fade=t=in:st=0:d=0.8,fade=t=out:st={dur-0.8}:d=0.8"
     run([FF, "-y", "-f", "lavfi",
          "-i", f"color=c={CREAM}:s=1080x1920:r={FPS}:d={dur}",
          "-vf", vf] + ENC + [f"{S}/card.mp4"])
