@@ -255,6 +255,7 @@ export default function FeedScreen() {
 
   const pages            = useAppStore(s => s.pages);
   const currentPageIndex = useAppStore(s => s.currentPageIndex);
+  const homeIndex        = useAppStore(s => s.homeIndex);
   const ensureHomePage   = useAppStore(s => s.ensureHomePage);
   const refreshHomeIfUntouched = useAppStore(s => s.refreshHomeIfUntouched);
   const requestNextPage  = useAppStore(s => s.requestNextPage);
@@ -277,7 +278,7 @@ export default function FeedScreen() {
 
   useEffect(() => () => { if (gateTimer.current) clearInterval(gateTimer.current); }, []);
 
-  const homeIdx = pages.length - 1;
+  const homeIdx = Math.min(homeIndex, pages.length - 1);
 
   useEffect(() => {
     if (pages.length === 0) return;

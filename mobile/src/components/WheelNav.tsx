@@ -1,10 +1,11 @@
 /**
  * WheelNav — the bottom navigation chrome for Feed 2.0 (FEED-2.0-SPEC §5).
  *
- * One dot per page created (including ignored pages and honored-history buckets),
- * accumulating left→right. The HOME icon is the current prescribed page and always
- * sits at the right end. Tapping any dot jumps to that page; every previous page
- * is re-viewable at any time. The home dot returns to today's page fast.
+ * The HOME icon is a FIXED ANCHOR (Cameron 2026-07-17, FEED-2.0-SPEC §2). Dots to
+ * the LEFT of home are the persistent interacted-history (one per honored item);
+ * dots to the RIGHT are ignored pages you swiped forward into, which recycle on
+ * relaunch. Tapping any dot jumps to that page; tapping home returns to today's
+ * page instantly.
  */
 
 import React from 'react';
@@ -15,11 +16,12 @@ import { colors, spacing } from '../theme';
 export default function WheelNav() {
   const pages            = useAppStore(s => s.pages);
   const currentPageIndex = useAppStore(s => s.currentPageIndex);
+  const homeIndex        = useAppStore(s => s.homeIndex);
   const goToPage         = useAppStore(s => s.goToPage);
 
   if (pages.length === 0) return null;
 
-  const homeIdx = pages.length - 1;
+  const homeIdx = Math.min(homeIndex, pages.length - 1);
 
   return (
     <View style={styles.bar}>

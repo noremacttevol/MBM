@@ -325,6 +325,9 @@ function buildPage(state: PageComposeState, index: number): PageBuild {
 // exactly like the wait ladder is meant to (FEED-2.0-SPEC §4).
 let nextPageAttempts = 0;
 let homePageShownAt  = 0;   // ms epoch the current home page was first shown
+// Once-per-launch guard: the ignored pages to the right of home are recycled the
+// first time the feed mounts after a cold start (module state resets on launch).
+let didRecycleThisLaunch = false;
 
 // User-initiated "show me something more substantive" — a preference, not a gate.
 // It still obeys the milk law: it will not jump to RESTORATION unless the person's
@@ -1033,11 +1036,15 @@ interface AppState {
   openedIds:         Set<number>;
   positiveCount:     number;
 
-  // Feed 2.0 — the prescribed pages (page engine). `pages` accumulates: the newest
-  // is HOME, older ones are the re-viewable history behind it. `currentPageIndex`
-  // is which page the wheel is showing.
+  // Feed 2.0 — the prescribed pages (page engine). HOME is a FIXED ANCHOR at
+  // `homeIndex` (Cameron 2026-07-17, matching FEED-2.0-SPEC §2). Pages LEFT of the
+  // anchor are the persistent interacted-history (honor buckets). Pages RIGHT of
+  // the anchor are ignored pages you swiped forward into this session — they are
+  // recycled (dropped) on every app relaunch and never become history.
+  // `currentPageIndex` is which page the wheel is showing.
   pages:             Page[];
   currentPageIndex:  number;
+  homeIndex:         number;   // fixed anchor: left = history, right = ignored
   seenVideoIds:      number[];   // videos already placed (drives no-repeat cycling)
   recycledVideoIds:  number[];   // skipped verses (by video id) to resurface later
   honoredVideoIds:   number[];   // every credited watch — the Profile's minimum record
@@ -1177,6 +1184,9 @@ interface AppActions {
   // this page was interacted with, invitation + escalating ladder if ignored.
   requestNextPage:     () => { wait: number; invited: boolean };
   commitNextPage:      () => void;                              // build & show the next page
+  // Drop the ignored pages to the right of home (called once per app launch) so
+  // they recycle on relaunch; the left-of-home history is kept.
+  recycleIgnoredPages: () => void;
   goToPage:            (index: number) => void;                 // wheel jump
   // Jump the wheel to the page holding a saved item (deep link from the Journal).
   // Returns true if the item was found in a page (else it has since been recycled).
@@ -1293,6 +1303,7 @@ const initialState: AppState = {
   positiveCount:       0,
   pages:               [],
   currentPageIndex:    0,
+  homeIndex:           0,
   seenVideoIds:        [],
   recycledVideoIds:    [],
   honoredVideoIds:     [],
@@ -1462,6 +1473,12 @@ export const useAppStore = create<AppState & AppActions>()(
       ensureHomePage() {
         const s = get();
         if (s.pages.length > 0) {
+          // First feed mount of this launch: recycle the ignored pages that were
+          // sitting to the right of home when the app was last closed.
+          if (!didRecycleThisLaunch) {
+            didRecycleThisLaunch = true;
+            get().recycleIgnoredPages();
+          }
           if (homePageShownAt === 0) homePageShownAt = Date.now();
           // Rev 2: no arrival sweep — honored items keep their place until the
           // person scrolls past them, however many sessions that takes. Their
@@ -1472,11 +1489,13 @@ export const useAppStore = create<AppState & AppActions>()(
         set({
           pages:            [built.page],
           currentPageIndex: 0,
+          homeIndex:        0,
           seenVideoIds:     built.seenVideoIds,
           seenIds:          built.seenIds,
           recycledVideoIds: built.recycledVideoIds,
         });
         homePageShownAt = Date.now();
+        didRecycleThisLaunch = true;
       },
 
       // Honoring (Rev 2, Cameron 2026-07-12): flip the flag and count the
@@ -1626,29 +1645,28 @@ export const useAppStore = create<AppState & AppActions>()(
           it.slotId === slotId ? (fresh ? [fresh] : []) : [it]);
         const refreshed: Page = { ...home, items: newItems };
 
-        // Archive the honored item into the bucket just left of home.
-        const prev = pageIdx > 0 ? s.pages[pageIdx - 1] : null;
-        let pages: Page[];
+        // Put the fresh page back where the slot lived, then file the honored item
+        // into a history bucket immediately LEFT of the home anchor. Interacting is
+        // the ONLY thing that moves content left; each honored item becomes its own
+        // saved page (Cameron 2026-07-17: "the more you interact, the more saved
+        // pages on the left"). The home anchor stays fresh and shifts one right.
+        const base = s.pages.map((p, i) => (i === pageIdx ? refreshed : p));
+        const anchor = s.homeIndex;
+        const bucket: Page = {
+          id:               generateId(),
+          index:            base[anchor].index,
+          items:            [item],
+          createdInSession: base[anchor].createdInSession,
+          archived:         true,
+          honorArchive:     true,
+        };
+        const pages = [...base.slice(0, anchor), bucket, ...base.slice(anchor)];
         let currentPageIndex = s.currentPageIndex;
-        if (prev && prev.honorArchive) {
-          const merged: Page = { ...prev, items: [...prev.items, item] };
-          pages = [...s.pages.slice(0, pageIdx - 1), merged, refreshed, ...s.pages.slice(pageIdx + 1)];
-        } else {
-          const bucket: Page = {
-            id:               generateId(),
-            index:            home.index,
-            items:            [item],
-            createdInSession: home.createdInSession,
-            archived:         true,
-            honorArchive:     true,
-          };
-          pages = [...s.pages.slice(0, pageIdx), bucket, refreshed, ...s.pages.slice(pageIdx + 1)];
-          // A new bucket shifts everything at/after its position one to the right.
-          if (currentPageIndex >= pageIdx) currentPageIndex += 1;
-        }
+        if (currentPageIndex >= anchor) currentPageIndex += 1;
         set(st => ({
           pages,
           currentPageIndex,
+          homeIndex:        anchor + 1,
           seenVideoIds,
           seenIds,
           recycledVideoIds: recycled,
@@ -1662,9 +1680,9 @@ export const useAppStore = create<AppState & AppActions>()(
       refreshHomeIfUntouched() {
         const s = get();
         if (s.pages.length === 0) return;
-        const homeIdx = s.pages.length - 1;
+        const homeIdx = s.homeIndex;
         const home = s.pages[homeIdx];
-        if (home.archived) return;            // not currently on the home page
+        if (!home) return;
         if (!pageHasNoHonoring(home)) return; // honored something → keep it (rewarded)
         if ((home.interactions ?? 0) > 0) return; // replied/saved/checked → also keep it
         const built = buildPage(s, home.index);
@@ -1678,14 +1696,15 @@ export const useAppStore = create<AppState & AppActions>()(
         homePageShownAt = Date.now();
       },
 
-      // Right-swipe gate (Rev 1 §4). A page that was interacted with earns the
-      // next one after only a short honest "preparing" moment. A page swiped past
-      // untouched gets Cameron's gentle invitation plus the escalating ladder
-      // (time already spent with the page is subtracted — sitting with it pays).
+      // Right-swipe gate (Rev 1 §4). The page you're LEAVING decides the wait: if it
+      // was interacted with, a short honest "preparing" moment; if ignored, Cameron's
+      // gentle invitation plus the escalating ladder (time already spent is subtracted).
+      // Ignored pages to the right are always un-interacted, so pushing further right
+      // keeps hitting the ladder — that's the intended "hard to scroll right."
       requestNextPage() {
         const s = get();
-        const home = s.pages[s.pages.length - 1];
-        const interacted = (home?.interactions ?? 0) > 0;
+        const leaving = s.pages[s.currentPageIndex];
+        const interacted = (leaving?.interactions ?? 0) > 0;
         if (interacted) return { wait: 3, invited: false };
         nextPageAttempts += 1;
         const ladder  = waitLadderSeconds(nextPageAttempts);
@@ -1693,16 +1712,16 @@ export const useAppStore = create<AppState & AppActions>()(
         return { wait: Math.max(3, Math.ceil(ladder - elapsed)), invited: true };
       },
 
-      // Build and show the next prescribed page. The old home page becomes a
-      // previous page (a wheel dot) whether or not anything on it was honored —
-      // "one dot per page created, including ignored pages."
+      // Advancing right creates a new IGNORED page at the far right of the wheel.
+      // The page being left is NOT archived and the home anchor does NOT move —
+      // ignored pages live to the right of home and recycle on relaunch; only
+      // interaction ever files content into the left-of-home history.
       commitNextPage() {
         const s = get();
         if (s.pages.length === 0) { get().ensureHomePage(); return; }
-        const homeIdx = s.pages.length - 1;
-        const marked  = s.pages.map((p, i) => (i === homeIdx ? { ...p, archived: true } : p));
-        const built   = buildPage(s, s.pages[homeIdx].index + 1);
-        const pages   = [...marked, built.page];
+        const rightmost = s.pages[s.pages.length - 1];
+        const built = buildPage(s, rightmost.index + 1);
+        const pages = [...s.pages, built.page];
         set({
           pages,
           currentPageIndex: pages.length - 1,
@@ -1713,11 +1732,27 @@ export const useAppStore = create<AppState & AppActions>()(
         homePageShownAt = Date.now();
       },
 
+      recycleIgnoredPages() {
+        const s = get();
+        if (s.pages.length === 0) return;
+        const hi = Math.min(s.homeIndex, s.pages.length - 1);
+        if (hi >= s.pages.length - 1) {
+          if (s.currentPageIndex !== hi) set({ currentPageIndex: hi });
+          return;
+        }
+        // Drop every ignored page to the right of home; keep the left history.
+        set({
+          pages:            s.pages.slice(0, hi + 1),
+          homeIndex:        hi,
+          currentPageIndex: hi,
+        });
+      },
+
       goToPage(index) {
         const s = get();
         const clamped = Math.max(0, Math.min(index, s.pages.length - 1));
         set({ currentPageIndex: clamped });
-        if (clamped === s.pages.length - 1) homePageShownAt = Date.now();
+        if (clamped === s.homeIndex) homePageShownAt = Date.now();
       },
 
       openPageRef(pageRef) {
@@ -1728,7 +1763,7 @@ export const useAppStore = create<AppState & AppActions>()(
         if (arrIdx < 0) arrIdx = s.pages.findIndex(p => p.index === pageRef.pageIndex);
         if (arrIdx < 0) return false;
         set({ currentPageIndex: arrIdx });
-        if (arrIdx === s.pages.length - 1) homePageShownAt = Date.now();
+        if (arrIdx === s.homeIndex) homePageShownAt = Date.now();
         return true;
       },
 
@@ -3301,6 +3336,7 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
         positiveCount:       state.positiveCount,
         pages:               state.pages,
         currentPageIndex:    state.currentPageIndex,
+        homeIndex:           state.homeIndex,
         seenVideoIds:        state.seenVideoIds,
         recycledVideoIds:    state.recycledVideoIds,
         honoredVideoIds:     state.honoredVideoIds,
@@ -3410,9 +3446,23 @@ ${guidance}${creationDilemma}${notesGuidance}${scriptureGuidance}${SIGNAL_REPORT
         const healedFeed =
           healedTag !== storedTag ? buildFeed(healedTag, seenSet) : (p.feed ?? currentState.feed);
 
+        // Page-engine migration (2026-07-17): the fixed-home-anchor model added
+        // `homeIndex`. A store saved before it has pages laid out the OLD way (home
+        // at the far right, history to the left) with no homeIndex — reusing them
+        // under the new geometry would mis-place home. Rebuild the feed fresh on
+        // first launch of the new model; ensureHomePage composes a clean home page.
+        // Everything else (journal, consents, honored history) is preserved.
+        const hasNewPageModel = p.homeIndex !== undefined;
+        const migratedPages     = hasNewPageModel ? (p.pages as Page[] | undefined) ?? [] : [];
+        const migratedPageIndex = hasNewPageModel ? (p.currentPageIndex as number | undefined) ?? 0 : 0;
+        const migratedHomeIndex = hasNewPageModel ? (p.homeIndex as number | undefined) ?? 0 : 0;
+
         return {
           ...currentState,
           ...p,
+          pages:            migratedPages,
+          currentPageIndex: migratedPageIndex,
+          homeIndex:        migratedHomeIndex,
           faithWords,                  // includes any re-homed orphan identity
           baseSignals,                 // migrated/derived above (identity stripped)
           dialogueSignals: signals,    // DERIVED — recomputed, never trusted from disk
