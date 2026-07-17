@@ -242,7 +242,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 182 | The spirit returns to God | Eccl 12:7 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 from W-generated stills — ecclesiastes-12_the-spirit-returns-to-god.mp4 (13.9MB/1:06); caption-v2 split captions, KJV Eccl 12:7 sacred silence, no bed, ear-check 1.00 all 8 segs, QC pass (frame-strip + bands + silence/hum scan) |
 | 183 | Sun, moon, and stars | 1 Cor 15:40–42 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — 1corinthians-15_sun-moon-and-stars.mp4 (18.8MB/1:26); narration re-anchored to catalog's 1 Cor 15:40-42 (draft was Genesis 1), caption-v2, two KJV silences (15:41, 15:42a), no bed, ear-check pass, QC pass |
 | 184 | Caught up to the third heaven | 2 Cor 12:2–4 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — 2corinthians-12_caught-up-to-the-third-heaven.mp4 (16.8MB/1:21); caption-v2, three KJV silences (12:2, 12:4, 12:9 Jesus voice), Paul look-lock verified across stills, no bed, ear-check pass, QC pass |
-| 185 | "In my Father's house are many mansions" | John 14:2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 185 | "In my Father's house are many mansions" | John 14:2 | ⬜ | ⬜ | ⬜ | ⬜ | **CLAIMED ASSEMBLY-D 2026-07-17** (assembly from existing stills) |
 | 186 | Heirs of God, joint-heirs with Christ | Rom 8:16–17 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 187 | "Ye are gods; children of the most High" | Ps 82:6 / John 10:34 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 188 | "Be ye therefore perfect" | Matt 5:48 | ⬜ | ⬜ | ⬜ | ⬜ |  |
