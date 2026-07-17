@@ -32,10 +32,13 @@ SEGMENTS = [
      "Forbid him not: for there is no man which shall do a miracle "
      "in my name, that can lightly speak evil of me. For he that "
      "is not against us is on our part."),
-    ("n3", NARRATOR, "-20%", "-4Hz",
+    # n3 split so the cup-of-water still and the wide-circle still each
+    # carry their half — draft words verbatim.
+    ("n3a", NARRATOR, "-20%", "-4Hz",
      "Whoever gives a cup of water in His name won't lose his "
-     "reward. The work isn't about belonging to a team — it's "
-     "about Him."),
+     "reward."),
+    ("n3b", NARRATOR, "-20%", "-4Hz",
+     "The work isn't about belonging to a team — it's about Him."),
     ("n4", NARRATOR, "-20%", "-4Hz",
      "John learned a lesson that day: the kingdom is bigger than "
      "the inner circle."),
