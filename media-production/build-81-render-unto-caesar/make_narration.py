@@ -50,9 +50,14 @@ SEGMENTS = [
      "God's. What does that make you worth to him?"),
 ]
 
-# HOMOGRAPH LAW — no bow/wound/wind/tears/lead/sow/live/read in these segments;
-# SPOKEN stays empty. Ear-check every segment before assembly regardless.
-SPOKEN = {}
+# HOMOGRAPH LAW — no bow/wound/wind/tears/lead/sow/live/read in these segments.
+# ARTICULATION FIX (2026-07-17, ear-check): the neural voice reduced the unstressed
+# "and" in "image and superscription" to a schwa that both whisper models heard as
+# "in" — a real mis-say of Jesus's exact KJV. A comma before "and" (TTS only) forces
+# it to land as a clear word; the caption keeps the exact KJV (no comma).
+SPOKEN = {
+    "j2": "Whose is this image, and superscription?",
+}
 
 
 async def main():
