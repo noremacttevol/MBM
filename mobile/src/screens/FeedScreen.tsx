@@ -280,10 +280,20 @@ export default function FeedScreen() {
 
   const homeIdx = Math.min(homeIndex, pages.length - 1);
 
+  // When an interaction files something into history, a page is prepended to the
+  // LEFT and homeIndex grows. The person must NOT be slid over to that history page
+  // — they stay put on the page they were on. Detect that prepend and re-pin their
+  // view instantly (no animation), so interacting never takes them anywhere.
+  const prevHome = useRef(homeIndex);
   useEffect(() => {
     if (pages.length === 0) return;
-    pagerRef.current?.scrollToIndex({ index: Math.min(currentPageIndex, pages.length), animated: true });
-  }, [currentPageIndex, pages.length]);
+    const prependedHistory = homeIndex > prevHome.current;
+    prevHome.current = homeIndex;
+    pagerRef.current?.scrollToIndex({
+      index: Math.min(currentPageIndex, pages.length),
+      animated: !prependedHistory,
+    });
+  }, [currentPageIndex, pages.length, homeIndex]);
 
   function armGate() {
     if (gateArmed.current) return;
