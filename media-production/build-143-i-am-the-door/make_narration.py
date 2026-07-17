@@ -21,9 +21,13 @@ SEGMENTS = [
     # Exact KJV John 10:7.
     ("j1", JESUS, "-20%", "-2Hz",
      "Verily, verily, I say unto you, I am the door of the sheep."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
+    # n1 split so the climbing-figure still and the safe-fold still each
+    # carry their half — draft words verbatim.
+    ("n1a", NARRATOR, "-20%", "-4Hz",
      "Anyone who climbs in some other way is there to take, not to "
-     "care. But the door? The door lets the flock in safe."),
+     "care."),
+    ("n1b", NARRATOR, "-20%", "-4Hz",
+     "But the door? The door lets the flock in safe."),
     # sacred-silence beat follows n1. Exact KJV John 10:9.
     ("j2", JESUS, "-22%", "-2Hz",
      "I am the door: by me if any man enter in, he shall be saved, "
