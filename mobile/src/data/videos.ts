@@ -84,12 +84,13 @@ export function videoThumbUrl(id: number): string {
 // id here is the ONLY switch needed to go live — videoUrl is derived automatically
 // below. The locked player only ever plays a produced id.
 //
-// Wave two (2026-07-16): exactly the clips Cameron re-approved after the 07-15
-// approval reset, in their post-hum-purge cuts. Ids 3–17 stay OUT until he
-// re-approves each one (their cards fall back to verse-only, by design).
+// Wave three (2026-07-17): exactly the clips Cameron has approved to date, in their
+// post-hum-purge cuts. Kept in sync with QUEUE.md's Appr column. Un-approved ids
+// (7, 17, 30, 32, 41, 46, 48…) stay OUT — their cards fall back to verse-only.
 export const PRODUCED_VIDEO_IDS = new Set<number>([
-  1, 2, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
-  31, 32, 33, 34, 35, 36, 37, 39, 40, 41, 42, 43, 44, 45, 47,
+  1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16,
+  18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 33, 34,
+  35, 36, 37, 38, 39, 40, 42, 43, 44, 45, 47,
 ]);
 
 export function isVideoProduced(id: number): boolean {
@@ -245,6 +246,10 @@ export const VIDEO_STORIES: VideoStory[] = [
     aboutTitle: 'A story about the beggar at the gate',                 scriptureRef: 'Luke 16:19-31',    videoUrl: null,
     seedQuestion: 'Who is lying at your gate that heaven already knows by name?',
     takeaway: "This helped me see that God knows the name of the one everyone steps over." },
+  { id: 38, title: 'The Persistent Widow',
+    aboutTitle: 'A story about a widow who would not stop knocking',      scriptureRef: 'Luke 18:1-8',      videoUrl: null,
+    seedQuestion: 'If even an unjust judge gives in to persistence, how much sooner does a good God hear you?',
+    takeaway: "This helped me see that God wants me to keep asking and not lose heart." },
   { id: 39, title: 'The Pharisee and the Publican',
     aboutTitle: 'A story about two prayers in one temple',              scriptureRef: 'Luke 18:9-14',     videoUrl: null,
     seedQuestion: 'Which prayer does God lean closer to hear — the polished one, or the honest one?',
