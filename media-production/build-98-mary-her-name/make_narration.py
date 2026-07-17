@@ -20,10 +20,13 @@ SEGMENTS = [
      "Mary Magdalene stayed behind at the tomb, weeping. She "
      "thought someone had taken his body, and grief was all she "
      "had left."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "She turned and saw a man standing there. Thinking he was the "
-     "gardener, she begged — please, if you've moved him, tell me "
-     "where."),
+    # n1 split so the turning and the plea land on their own stills (s2
+    # the-gardener, s3 tell-me-where) per the CAPTION LAW.
+    ("n1a", NARRATOR, "-20%", "-4Hz",
+     "She turned and saw a man standing there."),
+    ("n1b", NARRATOR, "-20%", "-4Hz",
+     "Thinking he was the gardener, she begged — please, if you've "
+     "moved him, tell me where."),
     # sacred-silence beat follows n1: the still holds on her grief.
     ("n2", NARRATOR, "-20%", "-4Hz",
      "He said one word. Her name."),
@@ -34,10 +37,14 @@ SEGMENTS = [
      "And instantly she knew. Grief flipped to joy in a single "
      "heartbeat — he was alive, and he had come looking for HER, "
      "by name."),
-    ("n4", NARRATOR, "-20%", "-4Hz",
-     "He sent her to tell the others. The first person to see the "
-     "risen Lord, and the first preacher of the resurrection, was "
-     "a weeping woman he called by name."),
+    # n4 split so the sending and the honor land on their own stills (s6
+    # go-and-tell, s7 running-to-tell) per the CAPTION LAW.
+    ("n4a", NARRATOR, "-20%", "-4Hz",
+     "He sent her to tell the others."),
+    ("n4b", NARRATOR, "-20%", "-4Hz",
+     "The first person to see the risen Lord, and the first "
+     "preacher of the resurrection, was a weeping woman he called "
+     "by name."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "He knows your name — and he speaks it even in your grief. "
      "Listen for it."),
