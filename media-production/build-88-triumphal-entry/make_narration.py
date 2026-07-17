@@ -17,13 +17,18 @@ SCRIPTURE = "en-US-ChristopherNeural"  # American. Never a British voice.
 
 SEGMENTS = [
     # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
+    # n0 split: sending the two ahead (s1) then the colt brought (s2).
+    ("n0a", NARRATOR, "-20%", "-4Hz",
      "As Jesus came near Jerusalem, he sent two disciples ahead to bring "
-     "him a donkey and her colt — exactly as the old prophecy said."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
+     "him a donkey and her colt."),
+    ("n0b", NARRATOR, "-20%", "-4Hz",
+     "It was exactly as the old prophecy had said."),
+    # n1 split: the King riding in (s3) then the road laid for him (s4).
+    ("n1b", NARRATOR, "-20%", "-4Hz",
+     "The King was coming — but not the kind they expected."),
+    ("n1a", NARRATOR, "-20%", "-4Hz",
      "The crowds spread their cloaks on the road, and cut branches from "
-     "the trees, and lined his path. The King was coming — but not the "
-     "kind they expected."),
+     "the trees, and lined his path."),
     ("n2", NARRATOR, "-20%", "-4Hz",
      "And the people shouted as he rode in:"),
     # Exact KJV Matthew 21:9 — SILENCE around it.
