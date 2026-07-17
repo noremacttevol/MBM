@@ -202,7 +202,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 142 | "I am the light of the world" | John 8 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 143 | "I am the door" | John 10 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 144 | "I am the resurrection and the life" | John 11 | ✅ | ✅ | ⬜ | ⬜ | **BUILT ASSEMBLY-C 2026-07-17** (assembled from existing W1 stills, $0) — 8 stills all cut in; caption LAW compliant (bottom band, chunked + synced per line); 2 exact KJV (John 11:25/11:26), "live"+"liveth" SPOKEN-respelled + ear-checked 1.00; s3 tear-streaks retouched out locally (fake-tears law; .orig kept); no bed/hum (card tail -91dB); no dead air (worst gap 1.68s); -14.8 LUFS; 13.1MB/1:02. john-11_resurrection-and-the-life.mp4. Awaiting your yes. |
-| 145 | "I am the way, the truth, and the life" | John 14 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 145 | "I am the way, the truth, and the life" | John 14 | ⬜ | ⬜ | ⬜ | ⬜ | **CLAIMED ASSEMBLY-C 2026-07-17** (assembly from existing stills) |
 | 146 | The vine and the branches | John 15 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 147 | Joseph forgives his brothers | Gen 45–50 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 148 | Ruth and the redeemer | Ruth | ⬜ | ⬜ | ⬜ | ⬜ |  |
