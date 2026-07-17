@@ -20,9 +20,13 @@ SEGMENTS = [
     ("n0", NARRATOR, "-20%", "-4Hz",
      "Jesus was inside a packed house, teaching, when word came in from "
      "the edge of the crowd."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
+    # n1 split so the standing-outside still and the word-passed-in still
+    # each carry their half — draft words verbatim.
+    ("n1a", NARRATOR, "-20%", "-4Hz",
      "His mother and his brothers were standing outside, asking for "
-     "him. The people near him passed it forward: your family is here — "
+     "him."),
+    ("n1b", NARRATOR, "-20%", "-4Hz",
+     "The people near him passed it forward: your family is here — "
      "they want you."),
     # Exact KJV Mark 3:33 — sacred pause around it.
     ("j1", JESUS, "-20%", "-2Hz",
