@@ -75,12 +75,17 @@ function FeedPage({ page, isHome, width }: { page: Page; isHome: boolean; width:
   // slot visibly pulls a fresh piece in, then releases. The old 100%-off rule
   // could never fire for items near the bottom of the page.
   function handleScroll(e: NativeSyntheticEvent<NativeScrollEvent>) {
-    if (!isHome || swapping.current) return;
+    // Runs on the home page AND the new (ignored) pages to its right — anywhere a
+    // person can interact. History pages (honorArchive) are frozen and never swap.
+    if (page.honorArchive || swapping.current) return;
     const offsetY = e.nativeEvent.contentOffset.y;
     for (const it of page.items) {
       const box = layouts.current[it.slotId];
       if (!box) continue;
-      const mostlyPast = offsetY > box.y + box.h * 0.75;
+      // Fire once the item's top has scrolled a bit above the viewport. Capped so a
+      // long expanded verse (taller than the screen) can still cross the line and
+      // earn its swap-to-history instead of being un-passable.
+      const mostlyPast = offsetY > box.y + Math.min(box.h * 0.6, 240);
       if (mostlyPast && isReplaceEligible(it) && !preparingSlots.includes(it.slotId)) {
         swapping.current = true;
         notifyScrolledPast(it.slotId);   // store starts the 2.2s swap
@@ -233,7 +238,7 @@ function FeedPage({ page, isHome, width }: { page: Page; isHome: boolean; width:
         </TouchableOpacity>
       )}
 
-      {!isHome && (
+      {page.honorArchive && (
         <Text style={styles.historyNote}>
           A page you've walked through — everything here is kept for you.
         </Text>
