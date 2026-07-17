@@ -29,9 +29,13 @@ SEGMENTS = [
      "Is not this the fast that I have chosen? to loose the bands "
      "of wickedness, to undo the heavy burdens, and to let the "
      "oppressed go free, and that ye break every yoke?"),
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "Share your bread with the hungry. Bring the poor, the ones "
-     "with nowhere to go, into your home."),
+    # n1 is split in two so each sentence lands on its own storyboard still
+    # (s3 bread-shared, s4 the-open-door) per the CAPTION LAW.
+    ("n1a", NARRATOR, "-20%", "-4Hz",
+     "Share your bread with the hungry."),
+    ("n1b", NARRATOR, "-20%", "-4Hz",
+     "Bring the poor, the ones with nowhere to go, into your "
+     "home."),
     # sacred-silence beat follows n1.
     ("n2", NARRATOR, "-20%", "-4Hz",
      "When you see someone with no clothes, cover them. Don't turn "
