@@ -577,3 +577,9 @@ NEXT UNBUILT: row 171 (1 Cor 15:29, non-Jesus). Rows 172–200 remain; some are 
   on os.name with DejaVuSerif + LiberationSerif-Italic (see build-59). And `git add` of
   explicit asset paths can be blocked by a gitignore dir rule — `git add -u <build-dir>/`
   stages the modified tracked files fine.
+- 2026-07-16 (W1-STILLS, Elli laptop): **Long-table / whole-room scenes come back ROTATED 90°**
+  (whole scene painted landscape then turned sideways into the 9:16 canvas — hit build-82 s1 and
+  build-185 s1 twice). "Seen upright and level, never rotated" alone does NOT fix it. What works:
+  RESTAGE the beat as a TALL CLOSE VIEW — subject large at the near side of the table, chest-up,
+  two companions flanking, table edge only along the very bottom, "floor at the bottom, ceiling at
+  the top." Vertical-friendly staging beats anti-rotation clauses.
