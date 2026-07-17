@@ -25,9 +25,12 @@ SEGMENTS = [
      "Job had asked God hard questions. And God answered — not "
      "with explanations, but by taking Job back to the very first "
      "morning."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "Before there were people to suffer or to doubt, the "
-     "foundations of the earth were being laid."),
+    # n1 split so its two clauses land on their own stills (s2 earth-forming,
+    # s4 foundations-laid-in-joy) per the CAPTION LAW.
+    ("n1a", NARRATOR, "-20%", "-4Hz",
+     "Before there were people to suffer or to doubt,"),
+    ("n1b", NARRATOR, "-20%", "-4Hz",
+     "the foundations of the earth were being laid."),
     ("n2", NARRATOR, "-20%", "-4Hz",
      "And when that happened, something astonishing broke out in "
      "the sky."),
