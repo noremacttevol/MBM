@@ -39,9 +39,12 @@ SEGMENTS = [
     ("n3", NARRATOR, "-20%", "-4Hz",
      "And to Rahab, who hid the spies and was counted righteous by "
      "her action, not just her words."),
-    ("n4", NARRATOR, "-20%", "-4Hz",
-     "Belief that never moves a muscle isn't belief yet. Faith and "
-     "life belong together."),
+    # n4 is split in two so each sentence lands on its own storyboard still
+    # (s6 faith-made-visible, s7 live-the-words) per the CAPTION LAW.
+    ("n4a", NARRATOR, "-20%", "-4Hz",
+     "Belief that never moves a muscle isn't belief yet."),
+    ("n4b", NARRATOR, "-20%", "-4Hz",
+     "Faith and life belong together."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "Real faith reaches out a hand. Let yours move — he sees "
      "every small, true thing you do."),
