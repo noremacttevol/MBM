@@ -703,6 +703,23 @@ first time.
 
 ## 5. QC Checklist (every video, before Cameron ever sees it)
 
+- [ ] 🛑 **CAPTION LAW — NO BIG CAPTIONS, EVER** (Cameron, 2026-07-17: "we made a
+      rule for the captions to not take up the whole picture... most of these have
+      bad captions... no big captions, if anything just split it and show the
+      captions per what is being said"). The caption must NEVER cover the picture.
+      Hard rules:
+      1. A caption may occupy at most the bottom band of the frame — roughly the
+         bottom quarter. The artwork must stay clearly visible above it at all times.
+      2. If a caption is too long to fit that band, SPLIT IT. Show the first half
+         while the narrator is reading the first half, then swap to the second half
+         exactly when the narrator reaches it. Split into thirds if needed. The
+         caption on screen always matches what is being SAID at that moment.
+      3. Never shrink the font to cram a long caption in — split instead.
+      4. QC step: scrub every caption frame; if you cannot clearly see the picture
+         behind/above the caption, it FAILS and must be re-rendered split.
+      This law applies to every new build, every fix, and retroactively to all
+      existing videos (see the FIX-LATER caption audit in QUEUE.md).
+
 - [ ] Every MUST SHOW item from the scripture card appears
 - [ ] 🛑 NO BACKGROUND HUM — NO SYNTHETIC "MUSIC BED," EVER (Cameron, 2026-07-16:
       "that humming needs to go... it is in every video in the background... that
