@@ -243,7 +243,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 177 | "Make me a sanctuary; that I may dwell among them" | Ex 25:8 | ⬜ | ⬜ | ⬜ | ⬜ | **CLAIMED ASSEMBLY-C 2026-07-17** (assembly from existing stills) |
 | 178 | "Let us make man in our image, after our likeness" | Gen 1:26–27 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 179 | Stephen's witness | Acts 7:55–56 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 180 | "Before I formed thee in the belly I knew thee" | Jer 1:5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 180 | "Before I formed thee in the belly I knew thee" | Jer 1:5 | ⬜ | ⬜ | ⬜ | ⬜ | **CLAIMED ASSEMBLY-D 2026-07-17** (assembly from existing stills) |
 | 181 | "When the morning stars sang together" | Job 38:4–7 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — job-38_morning-stars-sang.mp4 (12.0MB/1:01); caption-v2, scripture-voice silence (Job 38:7), no divine face (sons of God = light-figures), re-paced to clear 60s, QC pass |
 | 182 | The spirit returns to God | Eccl 12:7 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 from W-generated stills — ecclesiastes-12_the-spirit-returns-to-god.mp4 (13.9MB/1:06); caption-v2 split captions, KJV Eccl 12:7 sacred silence, no bed, ear-check 1.00 all 8 segs, QC pass (frame-strip + bands + silence/hum scan) |
 | 183 | Sun, moon, and stars | 1 Cor 15:40–42 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — 1corinthians-15_sun-moon-and-stars.mp4 (18.8MB/1:26); narration re-anchored to catalog's 1 Cor 15:40-42 (draft was Genesis 1), caption-v2, two KJV silences (15:41, 15:42a), no bed, ear-check pass, QC pass |
