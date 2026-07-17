@@ -291,6 +291,12 @@ export default function FeedScreen() {
     const { wait, invited } = requestNextPage();
     setGateInvited(invited);
     setGateWait(wait);
+    // Free choice (Cameron 2026-07-17): wait 0 → make the next page immediately.
+    if (wait <= 0) {
+      commitNextPage();
+      gateArmed.current = false;
+      return;
+    }
     gateTimer.current = setInterval(() => {
       setGateWait(prev => {
         if (prev <= 1) {

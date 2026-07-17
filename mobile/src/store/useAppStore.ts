@@ -1696,20 +1696,12 @@ export const useAppStore = create<AppState & AppActions>()(
         homePageShownAt = Date.now();
       },
 
-      // Right-swipe gate (Rev 1 §4). The page you're LEAVING decides the wait: if it
-      // was interacted with, a short honest "preparing" moment; if ignored, Cameron's
-      // gentle invitation plus the escalating ladder (time already spent is subtracted).
-      // Ignored pages to the right are always un-interacted, so pushing further right
-      // keeps hitting the ladder — that's the intended "hard to scroll right."
+      // Advancing to a new page is a FREE CHOICE (Cameron 2026-07-17): no time
+      // ladder, no invitation-block — the next page arrives right away. The only
+      // friction is the pager itself moving one page per swipe; the person is never
+      // made to sit and WAIT for fresh content. (Supersedes the Rev 1 §4 ladder.)
       requestNextPage() {
-        const s = get();
-        const leaving = s.pages[s.currentPageIndex];
-        const interacted = (leaving?.interactions ?? 0) > 0;
-        if (interacted) return { wait: 3, invited: false };
-        nextPageAttempts += 1;
-        const ladder  = waitLadderSeconds(nextPageAttempts);
-        const elapsed = homePageShownAt > 0 ? (Date.now() - homePageShownAt) / 1000 : 0;
-        return { wait: Math.max(3, Math.ceil(ladder - elapsed)), invited: true };
+        return { wait: 0, invited: false };
       },
 
       // Advancing right creates a new IGNORED page at the far right of the wheel.
