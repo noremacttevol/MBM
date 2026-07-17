@@ -16,14 +16,21 @@ JESUS = "en-US-ChristopherNeural"   # American. Never a British voice.
 
 SEGMENTS = [
     # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
+    # n0 split: the caravan leaving (s1) then realizing he's missing (s2).
+    ("n0a", NARRATOR, "-20%", "-4Hz",
      "Every year Jesus's family went to Jerusalem for the Passover. When "
-     "he was twelve, they made the trip as usual — and on the way home, "
-     "they realized he wasn't with them."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "They turned back, searching for three days. And they found him in "
-     "the temple — sitting among the teachers, listening and asking "
-     "questions that amazed everyone."),
+     "he was twelve, they made the trip as usual."),
+    ("n0b", NARRATOR, "-20%", "-4Hz",
+     "On the way home, they realized he wasn't with them."),
+    # n1 split: the three-day search (s3), finding him among the teachers
+    # (s4), and the questions that amazed them (s5).
+    ("n1a", NARRATOR, "-20%", "-4Hz",
+     "They turned back, searching for three days."),
+    ("n1b", NARRATOR, "-20%", "-4Hz",
+     "And they found him in the temple, sitting among the teachers, "
+     "listening,"),
+    ("n1c", NARRATOR, "-20%", "-4Hz",
+     "and asking questions that amazed everyone."),
     ("n2", NARRATOR, "-20%", "-4Hz",
      "His mother, relieved and worried, asked why he'd done this to "
      "them. He answered with a question of his own."),
