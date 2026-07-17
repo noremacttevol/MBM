@@ -185,7 +185,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 125 | "I never knew you" | Matt 7:21–23 | ⬜ | ⬜ | ⬜ | ⬜ | stills by W1 (Elli laptop) 2026-07-16 — ART COMPLETE s1-s7 (gate PASS, Flow $0, QC pass, 0 rerolls); ready for assembly |
 | 126 | By their fruits | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 127 | The strait gate | Matt 7 | ✅ | ✅ | ⬜ | ⬜ | **BUILT ASSEMBLY-B 2026-07-17** (assembly-only from W1 stills, $0) — 7 stills all cut in; face-shown Jesus s1/s4/s5 master-consistent; caption-v2 bottom-band split/synced (CAPTION LAW), box 0.60 bright-day; KJV Matt 7:13+7:14 exact ("leadeth" SPOKEN-respelled after ear-check caught /LED-eth/, captions keep KJV spelling); n3 split across s6/s7 so each closing still carries its half; 3 sacred silences (j1/j2/n3a-gate-in-light); NO bed (hum law, tail -91dB true silence); no dead air (worst gap 1.88s); end card clean serif no tofu; 14.6MB/1:09. matthew-7_the-strait-gate.mp4. Awaiting your yes. |
-| 128 | The famine of hearing | Amos 8:11–12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 128 | The famine of hearing | Amos 8:11–12 | ⬜ | ⬜ | ⬜ | ⬜ | **CLAIMED ASSEMBLY-B 2026-07-17 (assembly from W1 stills)** |
 | 129 | Nazareth: only a few | Mark 6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 130 | "Ye know not what manner of spirit ye are of" | Luke 9 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 131 | The scribe near the kingdom | Mark 12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
