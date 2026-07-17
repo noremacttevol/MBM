@@ -18,9 +18,13 @@ SCRIPTURE = "en-US-ChristopherNeural"  # the scripture voice. Exact KJV only.
 
 SEGMENTS = [
     # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
+    # n0 split so the drag-out still and the looking-elsewhere still each
+    # carry their half — draft words verbatim. Stoning stays off-focus.
+    ("n0a", NARRATOR, "-20%", "-4Hz",
      "The council was furious. They dragged Stephen out and hurled "
-     "stones. But Stephen was looking somewhere else entirely."),
+     "stones."),
+    ("n0b", NARRATOR, "-20%", "-4Hz",
+     "But Stephen was looking somewhere else entirely."),
     ("n1", NARRATOR, "-20%", "-4Hz",
      "Full of the Holy Ghost, he gazed up into heaven — and saw "
      "the glory of God."),
