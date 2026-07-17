@@ -32,20 +32,24 @@ SEGMENTS = [
      "mountain of the LORD's house shall be established in the top "
      "of the mountains, and shall be exalted above the hills; and "
      "all nations shall flow unto it."),
-    # Exact KJV Isaiah 2:3 — SILENCE around it.
-    ("s2", SCRIPTURE, "-24%", "-2Hz",
+    # Exact KJV Isaiah 2:3, split at the colon into two flowing pieces so it
+    # spans two stills (s2a on s3 faces-upward, s2b on s4 the-path-upward).
+    ("s2a", SCRIPTURE, "-24%", "-2Hz",
      "And many people shall go and say, Come ye, and let us go up "
      "to the mountain of the LORD, to the house of the God of "
      "Jacob; and he will teach us of his ways, and we will walk in "
-     "his paths: for out of Zion shall go forth the law, and the "
-     "word of the LORD from Jerusalem."),
+     "his paths:"),
+    ("s2b", SCRIPTURE, "-24%", "-2Hz",
+     "for out of Zion shall go forth the law, and the word of the "
+     "LORD from Jerusalem."),
     ("n1", NARRATOR, "-20%", "-4Hz",
      "Nations streaming uphill — not summoned by force, but drawn "
      "by invitation. The mountain everyone chooses to climb."),
     # sacred-silence beat follows n1.
-    ("n2", NARRATOR, "-20%", "-4Hz",
-     "And from that high place, God's teaching would go out to "
-     "everyone, everywhere."),
+    ("n2a", NARRATOR, "-20%", "-4Hz",
+     "And from that high place, God's teaching would go out"),
+    ("n2b", NARRATOR, "-20%", "-4Hz",
+     "to everyone, everywhere."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "The mountain is open to you. Come, and walk in his paths."),
 ]
