@@ -20,10 +20,14 @@ SEGMENTS = [
     ("n0", NARRATOR, "-20%", "-4Hz",
      "Friends brought a blind man to Jesus in Bethsaida and begged "
      "Him just to touch him."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
+    # n1 split so the taken-by-the-hand still and the first-touch still
+    # each carry their half — draft words verbatim.
+    ("n1a", NARRATOR, "-20%", "-4Hz",
      "Jesus took the man by the hand and walked him outside the "
-     "village. He spit on the man's eyes and laid His hands on "
-     "him, then asked if he could see anything yet."),
+     "village."),
+    ("n1b", NARRATOR, "-20%", "-4Hz",
+     "He spit on the man's eyes and laid His hands on him, then "
+     "asked if he could see anything yet."),
     ("n2", NARRATOR, "-20%", "-4Hz",
      "The man looked up and said the strangest thing — he could "
      "see, but only halfway. People looked like trees walking "
