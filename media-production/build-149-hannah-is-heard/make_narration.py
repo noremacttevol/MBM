@@ -10,6 +10,13 @@ HOMOGRAPH LAW: ear-checked — no bow/wound/wind/tears/lead/sow/live/read/dove/
 bass/minute/use(d)/close in any segment ("life" in n2 is the noun, safe; the
 draft's tears/live flags refer to words not present in the final text).
 No SPOKEN overrides needed.
+
+SEGMENTATION (ASSEMBLY-C, 2026-07-17): n0 and n3 split at their sentence
+breaks so the stills each carry a beat synced to what is being said (CAPTION
+LAW): n0a→s2 sorrow held, n0b→s3 the other wife, n1→s1 the silent prayer,
+n2→s1(out) the vow (sacred gap), n3a→s4 Eli mistaken, n3b→s5 poured out.
+s9 (the lamp at dusk) is banked, not cut in — 7 spoken beats cover 8 stills.
+Words unchanged from the draft.
 """
 import asyncio
 import edge_tts
@@ -18,10 +25,11 @@ NARRATOR = "en-US-AndrewNeural"     # plain American — never a Multilingual mo
 
 SEGMENTS = [
     # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
+    ("n0a", NARRATOR, "-20%", "-4Hz",
      "Year after year, Hannah went to the house of the LORD and "
-     "came away with an empty lap. The other wife mocked her for "
-     "it."),
+     "came away with an empty lap."),
+    ("n0b", NARRATOR, "-20%", "-4Hz",
+     "The other wife mocked her for it."),
     ("n1", NARRATOR, "-20%", "-4Hz",
      "One year at Shiloh, Hannah slipped to the door of the "
      "tabernacle and prayed with a voice no one could hear — only "
@@ -30,9 +38,11 @@ SEGMENTS = [
      "Lord of hosts, she whispered, give me a son, and I'll give "
      "him back to You for all his life."),
     # sacred-silence beat follows n2.
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "Eli the priest thought she was drunk. She told him no — she "
-     "was pouring out her soul in deep sorrow."),
+    ("n3a", NARRATOR, "-20%", "-4Hz",
+     "Eli the priest thought she was drunk."),
+    ("n3b", NARRATOR, "-20%", "-4Hz",
+     "She told him no — she was pouring out her soul in deep "
+     "sorrow."),
     ("n4", NARRATOR, "-20%", "-4Hz",
      "Eli blessed her. She went away, and her face was no longer "
      "sad. The LORD remembered her."),
