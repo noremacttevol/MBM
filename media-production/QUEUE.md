@@ -15,6 +15,7 @@
 
 | # | Story | What's wrong | Claimed by |
 |---|---|---|---|
+| 17 | Jesus wept (Lazarus) | REJECTED 2026-07-17 — Cameron: not good. **DEFERRED — do NOT pick this up until ALL other videos are built and fixed.** Redo it last. | HOLD until the end |
 | 30 | The net | NARRATION-ONLY (2026-07-17): "us" at 2:45 sounds like "uhss". Keep approved visuals; SPOKEN-override respell, regenerate audio, rebuild, tick Built. Was live — repost after fix. | — |
 | 32 | The talents | NARRATION-ONLY (2026-07-17): "kinder" at 2:39 pronounced "Kender". Same narration-only fix. Was live — repost after fix. | — |
 | 41 | Counting the cost | NARRATION-ONLY (2026-07-17): "forsaketh" at 3:36 pronounced fer-SAYK-uhth — these are Jesus's words, MUST be right. Same narration-only fix. Was live — repost after fix. | — |
@@ -72,7 +73,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 14 | The ten lepers | Luke 17 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) — FIX-LATER: ~0:55 lepers look like giants vs Jesus/disciples, fix scale |
 | 15 | The centurion | Matt 8 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
 | 16 | Mary and Martha | Luke 10 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
-| 17 | Jesus wept (Lazarus) | John 11 | ✅ | ✅ | ⬜ | ⬜ | 🔁 RE-REVIEW (Cameron re-watching the face-shown versions, 2026-07-15) — live (beard fix shipped) |
+| 17 | Jesus wept (Lazarus) | John 11 | ✅ | ⬜ | ⬜ | ⬜ | REJECTED 2026-07-17 (Cameron) — not good; DEFERRED redo: get to it only after ALL other videos are done (see Fix queue) |
 | 18 | The road to Emmaus | Luke 24 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 19 | Breakfast on the shore | John 21 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 20 | The Good Samaritan | Luke 10 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — Cameron note: open/close Jesus-teaching scenes could be redone if credits allow |
