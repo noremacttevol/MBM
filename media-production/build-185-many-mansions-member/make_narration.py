@@ -26,8 +26,11 @@ SEGMENTS = [
      "On the night before everything changed, Jesus sat with his "
      "disciples and told them not to let their hearts be "
      "troubled."),
+    # n1 reworded 2026-07-17 (ASSEMBLY-D ear-check): "leave them orphaned"
+    # slurred into "the morphant" on both whisper models — reworded to
+    # "leave them behind", which reads clean.
     ("n1", NARRATOR, "-20%", "-4Hz",
-     "He was going somewhere — but not to leave them orphaned. He "
+     "He was going somewhere — but not to leave them behind. He "
      "was going to get a place ready."),
     # Exact KJV John 14:2 — THE CENTERPIECE.
     ("j1", JESUS, "-22%", "-2Hz",
@@ -41,9 +44,13 @@ SEGMENTS = [
      "And if I go and prepare a place for you, I will come again, "
      "and receive you unto myself; that where I am, there ye may "
      "be also."),
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "He was not describing a far-off maybe. He was promising to "
-     "come back and carry them home himself."),
+    # n3 is split in two so each sentence lands on its own storyboard still
+    # (s6 reassured, s7 dawn-at-the-window) with the caption on screen always
+    # matching what is being said (CAPTION LAW).
+    ("n3a", NARRATOR, "-20%", "-4Hz",
+     "He was not describing a far-off maybe."),
+    ("n3b", NARRATOR, "-20%", "-4Hz",
+     "He was promising to come back and carry them home himself."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "He went to prepare a place — and he's coming back for you. "
      "You are not forgotten."),
