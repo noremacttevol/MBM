@@ -43,13 +43,17 @@ ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "16",
 # The Standing Laws. The two former Veo clips (walking, sinking) are now stills.
 S1 = "s1-mountain-prayer.jpeg"      # v3 face-shown: Jesus prays, face lifted, moonlit mountain
 S2 = "s2-boat-storm.jpeg"           # disciples' boat in the storm (boat/crew lock)
-S3 = "s3-figure-on-water.jpeg"      # Jesus distant on the water, terrified disciples in foreground
+# v4 REROLLS (Machine C, 2026-07-17, Cameron's 3rd rejection): every sea still now
+# shows feet ON the water surface (ON-THE-WATER law), the walk direction is locked by
+# side-view geometry to match the narration, Peter is barefoot in every water shot for
+# continuity, and the end card renders per-line (no tofu). Kept: s1, s2, s4, s10, s11, s12.
+S3 = "s3-fix.jpeg"                  # Jesus distant, ON the water (feet on surface, ripples)
 S4 = "s4-over-gunwale.jpeg"         # they cry "it is a spirit" — crew pointing (boat/crew lock)
-WALK = "s5-walk.jpeg"               # v3 face-shown: Peter walks toward Jesus on the water
-S6 = "s6-eyes-on-waves.jpeg"        # Peter doubts, faltering on the water
-SINK = "s7-sink.jpeg"               # v3 face-shown: Peter sinks, Jesus reaches and grips his wrist
-S8 = "s8-catch.jpeg"                # v3 face-shown: the catch, held above the water (distinct still)
-S9 = "s9-walk-back.jpeg"            # v3 face-shown: Jesus & Peter walk back to the boat together
+WALK = "s5-fix.jpeg"               # side view: Peter walks left->right TOWARD Jesus, both on the water
+S6 = "s6-fix.jpeg"                  # Peter doubts, barefoot, still on the surface
+SINK = "s7-fix.jpeg"               # Peter sinking (only he is in the water); Jesus reaches, on the surface
+S8 = "s8-fix.jpeg"                 # the catch: Peter lifted clear, Jesus on the surface, open sea (no shore)
+S9 = "s9-fix.jpeg"                 # side view: both walk left->right back TOWARD the boat, on the water
 S10 = "s10-calm-sea.jpeg"           # wide calm moonlit sea, the boat at rest (boat/crew lock)
 S11 = "s11-worship.jpeg"            # v3 face-shown: Jesus among the kneeling, worshipping disciples
 S12 = "s12-worship.jpeg"            # v3 face-shown: closing worship, Jesus at the boat's center
@@ -362,12 +366,24 @@ def build_clip(seg_id, src, stretch, dur, cap, style):
 
 
 def build_card(seg_id, dur, text):
-    tf = f"{S}/{seg_id}.txt"
-    with open(tf, "w") as f:
-        f.write(text)
-    vf = (f"drawtext=fontfile={SERIF}:textfile={tf}:fontsize=50:"
-          f"fontcolor={INK}:line_spacing=22:x=(w-text_w)/2:y=(h-text_h)/2,"
-          f"fade=t=in:st=0:d=0.8,fade=t=out:st={dur-0.8}:d=0.8")
+    # One drawtext per LINE (2026-07-17, Cameron's 3rd-rejection item d: the end
+    # card showed tofu squares). This machine's ffmpeg renders a textfile newline
+    # as a tofu box, so a newline never enters a textfile — each line of the card
+    # gets its own textfile + drawtext at a computed y; blank lines become gaps.
+    lines = text.split("\n")
+    lh = 50 + 22                       # fontsize + line spacing
+    L = len(lines)
+    vf = ""
+    for j, ln in enumerate(lines):
+        if not ln.strip():
+            continue                   # blank line = vertical gap only
+        tf = f"{S}/{seg_id}_{j}.txt"
+        with open(tf, "w", encoding="utf-8") as f:
+            f.write(ln)
+        y = f"(h-{L * lh})/2+{j * lh}"
+        vf += (f"drawtext=fontfile={SERIF}:textfile={tf}:fontsize=50:"
+               f"fontcolor={INK}:x=(w-text_w)/2:y={y},")
+    vf += f"fade=t=in:st=0:d=0.8,fade=t=out:st={dur-0.8}:d=0.8"
     run(["ffmpeg", "-y", "-f", "lavfi",
          "-i", f"color=c={CREAM}:s=1080x1920:r={FPS}:d={dur}",
          "-vf", vf] + ENC + [f"{S}/{seg_id}.mp4"])
