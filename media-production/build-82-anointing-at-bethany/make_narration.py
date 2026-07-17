@@ -16,12 +16,18 @@ JESUS = "en-US-ChristopherNeural"   # American. Never a British voice.
 
 SEGMENTS = [
     # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
+    # n0 split: the table (s1) then the jar she carries (s2).
+    ("n0a", NARRATOR, "-20%", "-4Hz",
      "In a house in Bethany, days before the end, a woman came to Jesus "
-     "at the table carrying an alabaster jar of pure, costly perfume."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "She broke the jar open and poured all of it over his head — a "
-     "year's wages, gone in a moment."),
+     "at the table."),
+    ("n0b", NARRATOR, "-20%", "-4Hz",
+     "She carried an alabaster jar of pure, costly perfume."),
+    # n1 split: breaking the jar (s3) then pouring it over his head (s4).
+    ("n1a", NARRATOR, "-20%", "-4Hz",
+     "She broke the jar open,"),
+    ("n1b", NARRATOR, "-20%", "-4Hz",
+     "and poured all of it over his head — a year's wages, gone in a "
+     "moment."),
     ("n2", NARRATOR, "-20%", "-4Hz",
      "Some at the table were angry. That could have been sold and given "
      "to the poor. They scolded her."),
