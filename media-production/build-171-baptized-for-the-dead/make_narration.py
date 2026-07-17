@@ -13,6 +13,13 @@ HOMOGRAPH LAW: the card contains "Because He LIVES" — the #1 TTS offender:
 must read /LIVZ/, never /LYVZ/. SPOKEN respelling applied; the caption keeps
 the true spelling. Ear-check the card before assembly anyway. No other
 flagged words.
+
+SEGMENTATION (ASSEMBLY-C, 2026-07-17): n4 and n5 split at natural breaks so
+all 8 stills carry a beat synced to what is being said (CAPTION LAW):
+n4a→s5 empty tomb ("Christ rose."), n4b→s8 the candle passed across
+generations ("all who belong to Him"), n5a→s6 through the veil, n5b→s7
+every name invited. n5's second clause capitalized to stand alone; all
+other words unchanged from the pack.
 """
 import asyncio
 import edge_tts
@@ -39,12 +46,15 @@ SEGMENTS = [
     ("n3", NARRATOR, "-20%", "-4Hz",
      "So the work done for those who've passed is built on one "
      "promise: that death is not the last word."),
-    ("n4", NARRATOR, "-20%", "-4Hz",
-     "Christ rose. And because He rose, the grave loses its grip — "
-     "for Him first, and then for all who belong to Him."),
-    ("n5", NARRATOR, "-20%", "-4Hz",
-     "The ordinance done in love reaches across the veil, offering "
-     "every soul the chance to choose."),
+    ("n4a", NARRATOR, "-20%", "-4Hz",
+     "Christ rose."),
+    ("n4b", NARRATOR, "-20%", "-4Hz",
+     "And because He rose, the grave loses its grip — for Him "
+     "first, and then for all who belong to Him."),
+    ("n5a", NARRATOR, "-20%", "-4Hz",
+     "The ordinance done in love reaches across the veil."),
+    ("n5b", NARRATOR, "-20%", "-4Hz",
+     "Offering every soul the chance to choose."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "Death separates for a while, not forever. Because He lives, "
      "there is hope for every name on the other side of the veil."),
