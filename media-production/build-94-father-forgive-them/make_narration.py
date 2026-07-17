@@ -34,10 +34,13 @@ SEGMENTS = [
     ("n3", NARRATOR, "-20%", "-4Hz",
      "Not, forgive them later, if they're sorry. Forgive them "
      "now — while it's still happening."),
-    ("n4", NARRATOR, "-20%", "-4Hz",
+    # n4 split so the reach and the reassurance land on their own stills (s6
+    # light-toward-the-center-cross, s7 mercy-reaching-down) per CAPTION LAW.
+    ("n4a", NARRATOR, "-20%", "-4Hz",
      "That is how far his mercy reaches. If it covered the ones "
-     "killing him, there is no one, and nothing you've done, it "
-     "can't cover."),
+     "killing him,"),
+    ("n4b", NARRATOR, "-20%", "-4Hz",
+     "there is no one, and nothing you've done, it can't cover."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "His first words on the cross were mercy for the ones who put "
      "him there. That mercy has your name in it too."),
