@@ -583,3 +583,5 @@ NEXT UNBUILT: row 171 (1 Cor 15:29, non-Jesus). Rows 172–200 remain; some are 
   RESTAGE the beat as a TALL CLOSE VIEW — subject large at the near side of the table, chest-up,
   two companions flanking, table edge only along the very bottom, "floor at the bottom, ceiling at
   the top." Vertical-friendly staging beats anti-rotation clauses.
+
+- 2026-07-17 (ASSEMBLY-A): `firebase deploy` 429 "exceeded Hosting storage quota" — every deploy snapshots the whole ~650MB site and old versions pile up (35 = 22GB). Fix: delete old hosting VERSIONS via the REST API with the CLI's stored token (keep the live one + 1 rollback), then redeploy. Long-term: set release retention in the Firebase console. Script pattern in this bullet's commit.
