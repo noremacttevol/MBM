@@ -59,7 +59,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 |---|---|---|---|---|---|---|---|
 | 1 | Woman who touched his cloak | Mark 5 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 2 | The Prodigal Son | Luke 15 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — Cameron note: 0:18 photo — son could leave the RIGHT direction down the path |
-| 3 | Zacchaeus | Luke 19 | ✅ | ✅ | ⬜ | ⬜ | **v4 MASTER-REF REBUILD 2026-07-16 (Machine C)** — after the second rejection (duplicate, dwarf-short, hairline drift): new Zacchaeus master reference image with the receding hairline and shoulder-height calibration painted in; all 10 stills regenerated locked to it and QC'd frame-by-frame under the three new §4b laws; captions/fonts fixed for this box; no hum. 20.0MB/4:07. Awaiting your yes. |
+| 3 | Zacchaeus | Luke 19 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron — v4 look-locked rebuild is good) |
 | 4 | Nicodemus at night | John 3 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
 | 5 | The bent-over woman | Luke 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
 | 6 | The two sons | Matt 21 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) — Cameron note: could explain in modern terms what a publican and a harlot are |
