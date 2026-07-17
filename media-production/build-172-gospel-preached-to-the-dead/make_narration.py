@@ -12,6 +12,11 @@ HOMOGRAPH LAW: the KJV verse contains "but LIVE according to God in the
 spirit" — the #1 TTS offender, verb, must read /LIV/. SPOKEN respelling
 applied; the caption keeps the exact KJV word. Ear-check s1 anyway. No other
 flagged words.
+
+SEGMENTATION (ASSEMBLY-C, 2026-07-17): n1 and n3 split at natural breaks so
+all 7 stills carry a beat synced to what is being said (CAPTION LAW):
+n1a→s5 the hand on the promise, n1b→s3 the quiet marker, n3a→s7 the open
+door, n3b→s6 light ascending. Words unchanged from the pack.
 """
 import asyncio
 import edge_tts
@@ -29,15 +34,18 @@ SEGMENTS = [
      "For for this cause was the gospel preached also to them that "
      "are dead, that they might be judged according to men in the "
      "flesh, but live according to God in the spirit."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "The gospel was preached to them too — not in vain, not too "
-     "late."),
+    ("n1a", NARRATOR, "-20%", "-4Hz",
+     "The gospel was preached to them too."),
+    ("n1b", NARRATOR, "-20%", "-4Hz",
+     "Not in vain, not too late."),
     # sacred-silence beat follows n1.
     ("n2", NARRATOR, "-20%", "-4Hz",
      "They might be judged by men's measure in the flesh — and yet "
      "be alive by God's measure in the spirit."),
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "Death did not close the door. The message crossed over."),
+    ("n3a", NARRATOR, "-20%", "-4Hz",
+     "Death did not close the door."),
+    ("n3b", NARRATOR, "-20%", "-4Hz",
+     "The message crossed over."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "The gospel reaches beyond the grave. No one is outside the "
      "reach of his mercy."),
