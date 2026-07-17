@@ -18,8 +18,11 @@ JESUS = "en-US-ChristopherNeural"   # American. Never a British voice.
 
 SEGMENTS = [
     # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
-     "Two criminals were crucified with Jesus, one on each side. "
+    # n0 split so the scene and the mocker land on their own stills (s1
+    # three-crosses, s2 the-mocking-thief) per the CAPTION LAW.
+    ("n0a", NARRATOR, "-20%", "-4Hz",
+     "Two criminals were crucified with Jesus, one on each side."),
+    ("n0b", NARRATOR, "-20%", "-4Hz",
      "One of them sneered — if you're really the Christ, save "
      "yourself and us."),
     ("n1", NARRATOR, "-20%", "-4Hz",
