@@ -184,7 +184,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 124 | Love your enemies | Matt 5 | ✅ | ✅ | ⬜ | ⬜ | **BUILT 2026-07-16 (Machine C/L2, v4 protocol)** — Sermon-on-the-Mount teaching: 3 face-shown Jesus frame shots (master-locked) + farmer/neighbor illustration arc (both look-locked, duplicate-defended); KJV 5:44 + 5:45 sacred silences; face gate PASS pre-gen; 11 stills QC pass incl. 2 rerolls (s1 portrait-collapse, all laws); caption-v2 per-line, no hum, Flow $0. 22.0MB/3:21. Awaiting your yes. |
 | 125 | "I never knew you" | Matt 7:21–23 | ⬜ | ⬜ | ⬜ | ⬜ | stills by W1 (Elli laptop) 2026-07-16 — ART COMPLETE s1-s7 (gate PASS, Flow $0, QC pass, 0 rerolls); ready for assembly |
 | 126 | By their fruits | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 127 | The strait gate | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 127 | The strait gate | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ | **CLAIMED ASSEMBLY-B 2026-07-17 (assembly from W1 stills)** — stills complete s1-s7 in folder, PROMPTS.md + DRAFTS/row-127.md present |
 | 128 | The famine of hearing | Amos 8:11–12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 129 | Nazareth: only a few | Mark 6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 130 | "Ye know not what manner of spirit ye are of" | Luke 9 | ⬜ | ⬜ | ⬜ | ⬜ |  |
