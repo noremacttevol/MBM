@@ -15,7 +15,6 @@ import ChatScreen        from '../screens/ChatScreen';
 import ProfileScreen     from '../screens/ProfileScreen';
 import DiscipleshipScreen from '../screens/DiscipleshipScreen';
 import ErrorBoundary     from '../components/ErrorBoundary';
-import MilkBeforeMeatNote from '../components/MilkBeforeMeatNote';
 import { useAppStore }   from '../store/useAppStore';
 import { colors } from '../theme';
 
@@ -138,12 +137,13 @@ export default function AppNavigator() {
     return () => { unsub(); clearTimeout(fallback); };
   }, []);
 
+  // The hydration wait must stay VISUALLY EMPTY — same background, nothing else.
+  // It used to show MilkBeforeMeatNote, which put the "not God" word on screen
+  // for a split second and then cut to the Hook animation (Cameron's oldest
+  // cold-open complaint). The honest word is not lost: the Hook footer fades the
+  // same message in at the end of the opening, on every cold open.
   if (!hydrated) {
-    return (
-      <View style={{ flex: 1, backgroundColor: colors.bg, justifyContent: 'flex-end', paddingBottom: 56 }}>
-        <MilkBeforeMeatNote />
-      </View>
-    );
+    return <View style={{ flex: 1, backgroundColor: colors.bg }} />;
   }
 
   // Cold-open behavior (CLAUDE.md locked direction, tightened July 5 2026).
