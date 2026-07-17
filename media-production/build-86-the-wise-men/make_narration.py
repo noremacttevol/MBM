@@ -16,31 +16,36 @@ SCRIPTURE = "en-US-ChristopherNeural"  # American. Never a British voice.
 
 SEGMENTS = [
     # (filename, voice, rate, pitch, text)
+    # n0+n1 merged (ASSEMBLY-C) so the KJV question (j1) lands at Herod's hall.
     ("n0", NARRATOR, "-20%", "-4Hz",
      "Some time after Jesus was born, travelers came from the east — "
-     "scholars who had read the skies. They had seen his star, and they "
-     "followed it."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "They arrived in Jerusalem asking a dangerous question."),
+     "scholars who had read the skies. They had seen his star, and "
+     "followed it all the way to Jerusalem, asking a dangerous "
+     "question."),
     # Exact KJV Matthew 2:2 — sacred pause around it.
     ("j1", SCRIPTURE, "-20%", "-2Hz",
      "Where is he that is born King of the Jews? for we have seen his "
      "star in the east, and are come to worship him."),
-    ("n2", NARRATOR, "-20%", "-4Hz",
-     "They were led at last to a house in Bethlehem. And there he was — "
-     "not in a palace, but with his mother."),
+    ("n2a", NARRATOR, "-20%", "-4Hz",
+     "They were led at last to a house in Bethlehem."),
+    ("n2b", NARRATOR, "-20%", "-4Hz",
+     "And there he was — not in a palace, but with his mother."),
+    # n3 reworded (ASSEMBLY-C, Translation Law): the pack's original echoed
+    # j2's "fell down / worshipped / gold, frankincense, myrrh" verbatim —
+    # that belongs to the scripture voice alone. Plain meaning only here.
     ("n3", NARRATOR, "-20%", "-4Hz",
-     "They fell down and worshipped the child, and opened their "
-     "treasures — gold, frankincense, and myrrh."),
+     "The wise men knelt before the little child — everything their "
+     "long journey had been for."),
     # Exact KJV Matthew 2:11 — SILENCE around it.
     ("j2", SCRIPTURE, "-18%", "-2Hz",
      "And when they were come into the house, they saw the young child "
      "with Mary his mother, and fell down, and worshipped him: and when "
      "they had opened their treasures, they presented unto him gifts; "
      "gold, and frankincense, and myrrh."),
-    ("n4", NARRATOR, "-20%", "-4Hz",
-     "Warned in a dream, they went home another way. The nations had "
-     "come to bow to the King."),
+    ("n4a", NARRATOR, "-20%", "-4Hz",
+     "Warned in a dream, they went home another way."),
+    ("n4b", NARRATOR, "-20%", "-4Hz",
+     "The nations had come to bow to the King."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "Strangers from far away recognized him first. The door is open — "
      "you're invited to worship too."),
