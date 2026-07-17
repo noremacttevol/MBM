@@ -95,7 +95,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 35 | The great banquet | Luke 14 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 36 | The shrewd steward | Luke 16 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 37 | The rich man and Lazarus | Luke 16 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
-| 38 | The persistent widow | Luke 18 | ✅ | ✅ | ⬜ | ⬜ | approved by Cameron 2026-07-13 |
+| 38 | The persistent widow | Luke 18 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
 | 39 | The Pharisee and the publican | Luke 18 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 40 | The friend at midnight | Luke 11 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 41 | Counting the cost | Luke 14 | ✅ | ⬜ | ⬜ | ✅ | REJECTED 2026-07-17 (Cameron) — TTS: "forsaketh" at 3:36 pronounced fer-SAYK-uhth — Jesus's own words, must be right. NARRATION-ONLY fix: keep the approved visuals, respell via SPOKEN override, rebuild. Was LIVE in app — repost after fix. |
