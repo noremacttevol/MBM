@@ -186,7 +186,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 126 | By their fruits | Matt 7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 127 | The strait gate | Matt 7 | ✅ | ✅ | ⬜ | ⬜ | **BUILT ASSEMBLY-B 2026-07-17** (assembly-only from W1 stills, $0) — 7 stills all cut in; face-shown Jesus s1/s4/s5 master-consistent; caption-v2 bottom-band split/synced (CAPTION LAW), box 0.60 bright-day; KJV Matt 7:13+7:14 exact ("leadeth" SPOKEN-respelled after ear-check caught /LED-eth/, captions keep KJV spelling); n3 split across s6/s7 so each closing still carries its half; 3 sacred silences (j1/j2/n3a-gate-in-light); NO bed (hum law, tail -91dB true silence); no dead air (worst gap 1.88s); end card clean serif no tofu; 14.6MB/1:09. matthew-7_the-strait-gate.mp4. Awaiting your yes. |
 | 128 | The famine of hearing | Amos 8:11–12 | ✅ | ✅ | ⬜ | ⬜ | **BUILT ASSEMBLY-B 2026-07-17** (assembly-only from W1 stills, $0) — 6 stills all cut in; OT no-Jesus (Amos), KJV Amos 8:11+8:12 exact via scripture voice (build-161 precedent), ear-check pass no overrides; n0/n3 split so empty-basket lands on “not about food” and scroll/listening-face carry cure/listen; caption-v2 bottom-band split/synced, box 0.50 dusk; 4 sacred holds + s6 whisper-light breath (2.8s) before card; NO bed (tail -91dB); worst gap 1.88s; card clean serif; 16.2MB/1:15. amos-8_famine-of-hearing.mp4. Awaiting your yes. |
-| 129 | Nazareth: only a few | Mark 6 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 129 | Nazareth: only a few | Mark 6 | ⬜ | ⬜ | ⬜ | ⬜ | **CLAIMED ASSEMBLY-B 2026-07-17 (assembly from W1 stills)** |
 | 130 | "Ye know not what manner of spirit ye are of" | Luke 9 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 131 | The scribe near the kingdom | Mark 12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 132 | Forbid him not | Mark 9:38 | ⬜ | ⬜ | ⬜ | ⬜ |  |
