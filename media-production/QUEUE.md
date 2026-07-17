@@ -90,18 +90,18 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 24 | The sower | Matt 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
 | 25 | Wheat and tares | Matt 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
 | 26 | The mustard seed | Matt 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
-| 27 | The leaven | Matt 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
+| 27 | The leaven | Matt 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
 | 28 | Hidden treasure | Matt 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 29 | The pearl of great price | Matt 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
-| 30 | The net | Matt 13 | ✅ | ✅ | ⬜ | ✅ | NARRATION FIXED Machine C 2026-07-17 — "us" now spoken clean (whisper-verified in final mix); visuals kept; captions now CAPTION-LAW chunked; end card per-line (no tofu). 20.1MB/3:02. Was LIVE — repost after Cameron's yes. |
+| 30 | The net | Matt 13 | ✅ | ✅ | ⬜ | ✅ | NARRATION FIXED Machine C 2026-07-17 — "us" now spoken clean (whisper-verified in final mix); visuals kept; captions now CAPTION-LAW chunked; end card per-line (no tofu). 20.1MB/3:02. Was LIVE — repost after Cameron's yes. — caption-law fix applied 2026-07-17 |
 | 31 | The ten virgins | Matt 25 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — Cameron note: should be exactly 10 virgins in every picture (5 with extra oil vases, 5 without) — good for now |
-| 32 | The talents | Matt 25 | ✅ | ⬜ | ⬜ | ✅ | REJECTED 2026-07-17 (Cameron) — TTS: "kinder" at 2:39 pronounced "Kender". NARRATION-ONLY fix: keep the approved visuals, respell via SPOKEN override, rebuild. Was LIVE in app — repost after fix. |
-| 33 | The sheep and the goats | Matt 25 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
+| 32 | The talents | Matt 25 | ✅ | ⬜ | ⬜ | ✅ | REJECTED 2026-07-17 (Cameron) — TTS: "kinder" at 2:39 pronounced "Kender". NARRATION-ONLY fix: keep the approved visuals, respell via SPOKEN override, rebuild. Was LIVE in app — repost after fix. — caption-law fix applied 2026-07-17 |
+| 33 | The sheep and the goats | Matt 25 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
 | 34 | The rich fool | Luke 12 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
-| 35 | The great banquet | Luke 14 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
-| 36 | The shrewd steward | Luke 16 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
+| 35 | The great banquet | Luke 14 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
+| 36 | The shrewd steward | Luke 16 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
 | 37 | The rich man and Lazarus | Luke 16 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
-| 38 | The persistent widow | Luke 18 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
+| 38 | The persistent widow | Luke 18 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
 | 39 | The Pharisee and the publican | Luke 18 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 40 | The friend at midnight | Luke 11 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 41 | Counting the cost | Luke 14 | ✅ | ✅ | ⬜ | ✅ | NARRATION FIXED Machine C 2026-07-17 — "forsaketh" now speaks as the exact KJV word (whisper-verified in final mix); visuals kept; end card per-line (no tofu). 24.9MB/6:17. Was LIVE — repost after Cameron's yes. |
