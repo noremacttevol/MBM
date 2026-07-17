@@ -175,7 +175,7 @@ Appr and add it to this folder.
 | 132 | Forbid him not | Mark 9:38 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 133 | "In my Father's house are many mansions" | John 14:2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 134 | "Other sheep I have" | John 10:16 | ⬜ | ⬜ | ⬜ | ⬜ |  |
-| 135 | The rainbow covenant | Gen 9 | ✅ | ⬜ | ⬜ | ⬜ | REJECTED 2026-07-15 — narration mispronounces "bow" (said like taking a bow; must be /boh/ like bow-and-arrow). Fix audio only, stills are fine |
+| 135 | The rainbow covenant | Gen 9 | ✅ | ✅ | ⬜ | ⬜ | mp4 exists on disk — Built tick reconciled by approval monitor 2026-07-16 |
 | 136 | Healed in two touches | Mark 8 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 137 | Stephen sees him standing | Acts 7:55–56 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 138 | "We are also his offspring" | Acts 17 | ⬜ | ⬜ | ⬜ | ⬜ |  |
