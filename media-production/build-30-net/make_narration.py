@@ -94,10 +94,14 @@ SEGMENTS = [
 # SPOKEN overrides: text sent to the TTS instead of the caption text, to correct a
 # word the neural voice reads wrong. The ON-SCREEN caption is unchanged (build.py
 # captions from SEGMENTS index 4); only the spoken audio uses these.
-#   n11: edge-tts reads the word "us" here as the initialism "U.S." (you-ess).
-#   "uhs" forces the plain word /ʌs/.
+#   n11: edge-tts reads "us" mid-phrase as the initialism "U.S." (you-ess). The
+#   first fix, "uhs", made it worse — Cameron 2026-07-17: sounds like "uhss"
+#   (whisper hears it as "Oz"). Verified fix: keep the real word "us" but end the
+#   spoken clause there with a period — sentence-final stress forces the full
+#   /ʌs/ vowel, and the pause lands where the caption's comma is. Whisper hears
+#   "of us, of every kind" in context and "us" isolated (2026-07-17, Machine C).
 SPOKEN = {
-    "n11": "That is how good he is. He threw the net over the whole ocean of uhs, of "
+    "n11": "That is how good he is. He threw the net over the whole ocean of us. Of "
            "every kind, so that not one soul who wanted to be found would be missed.",
 }
 

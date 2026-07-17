@@ -17,7 +17,7 @@
 |---|---|---|---|
 | 7 | Peter walks on water | **REJECTED 3rd TIME by Cameron 2026-07-17.** (1) One frame STILL has a figure knee-deep in the sea — the ON-THE-WATER law failed again; zoom-QC the waterline in EVERY sea still, feet ON the surface. (2) Several stills just look weird — full visual QC pass, reroll anything off. (3) DIRECTION mismatch: figures walk on the water in directions that contradict what the narration says at that moment — match each still's movement/facing to its narration line. (4) The END CARD shows weird SQUARES (tofu/missing-font glyphs) — the font fix did NOT hold; verify the end-card text renders with the correct font, no boxes, before assembly. | Machine C 2026-07-17 |
 | 17 | Jesus wept (Lazarus) | REJECTED 2026-07-17 — Cameron: not good. **DEFERRED — do NOT pick this up until ALL other videos are built and fixed.** Redo it last. | HOLD until the end |
-| 30 | The net | NARRATION-ONLY (2026-07-17): "us" at 2:45 sounds like "uhss". Keep approved visuals; SPOKEN-override respell, regenerate audio, rebuild, tick Built. Was live — repost after fix. | Machine C 2026-07-17 |
+| 30 | The net | ✅ FIXED (Machine C 2026-07-17): the old "uhs" respell was the defect (read as "Oz"); new SPOKEN fix keeps the real word "us" with a clause-final period — whisper-verified "of us" in the final mix. End card re-rendered per-line (no tofu). Rebuilt 20.1MB/3:02, −15 LUFS, silences lawful. Awaiting repost. | Machine C 2026-07-17 |
 | 32 | The talents | NARRATION-ONLY (2026-07-17): "kinder" at 2:39 pronounced "Kender". Same narration-only fix. Was live — repost after fix. | Machine C 2026-07-17 |
 | 41 | Counting the cost | NARRATION-ONLY (2026-07-17): "forsaketh" at 3:36 pronounced fer-SAYK-uhth — these are Jesus's words, MUST be right. Same narration-only fix. Was live — repost after fix. | Machine C 2026-07-17 |
 
@@ -87,7 +87,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 27 | The leaven | Matt 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 28 | Hidden treasure | Matt 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 29 | The pearl of great price | Matt 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
-| 30 | The net | Matt 13 | ✅ | ⬜ | ⬜ | ✅ | REJECTED 2026-07-17 (Cameron) — TTS: "us" at 2:45 sounds like "uhss". NARRATION-ONLY fix: keep the approved visuals, respell via SPOKEN override, rebuild. Was LIVE in app — repost after fix. |
+| 30 | The net | Matt 13 | ✅ | ✅ | ⬜ | ✅ | NARRATION FIXED Machine C 2026-07-17 — "us" now spoken clean (whisper-verified in final mix); visuals kept; captions now CAPTION-LAW chunked; end card per-line (no tofu). 20.1MB/3:02. Was LIVE — repost after Cameron's yes. |
 | 31 | The ten virgins | Matt 25 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — Cameron note: should be exactly 10 virgins in every picture (5 with extra oil vases, 5 without) — good for now |
 | 32 | The talents | Matt 25 | ✅ | ⬜ | ⬜ | ✅ | REJECTED 2026-07-17 (Cameron) — TTS: "kinder" at 2:39 pronounced "Kender". NARRATION-ONLY fix: keep the approved visuals, respell via SPOKEN override, rebuild. Was LIVE in app — repost after fix. |
 | 33 | The sheep and the goats | Matt 25 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
