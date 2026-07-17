@@ -585,3 +585,18 @@ NEXT UNBUILT: row 171 (1 Cor 15:29, non-Jesus). Rows 172–200 remain; some are 
   the top." Vertical-friendly staging beats anti-rotation clauses.
 
 - 2026-07-17 (ASSEMBLY-A): `firebase deploy` 429 "exceeded Hosting storage quota" — every deploy snapshots the whole ~650MB site and old versions pile up (35 = 22GB). Fix: delete old hosting VERSIONS via the REST API with the CLI's stored token (keep the live one + 1 rollback), then redeploy. Long-term: set release retention in the Firebase console. Script pattern in this bullet's commit.
+
+- 2026-07-17 (ASSEMBLY-A): reusable build.py assembly enhancements (in build-73/74/75/76,
+  copy any of them as the caption-v2 template) — (1) SPLIT BEATS: a BEATS row can carry a
+  LIST of stills `("n2",[(S3,"in"),(S4,"in"),(S5,"in")],None)` and the audio plays ONCE
+  while the picture cuts at caption-CHUNK boundaries near the even split points, so no
+  caption ever straddles a cut and every still earns its place (§4b "enough pictures");
+  (2) SILENT HUSH: a `("HUSH",[(S9,"in")],1.6)` row is a short caption-less, audio-less
+  still (great for a closing image — empty jar, unthrown stone, child's sandals) that
+  breathes before the card; its gap field IS its duration and the dead-air check treats
+  the gap to the card as gap_j + hush + LEAD (keep it ≤ ~2.3s to stay under the 2.5s law);
+  (3) per-beat gap_override (3rd tuple field) for tuning KJV pauses; (4) chunk_caption now
+  also splits an over-long comma-less sentence on its ' — ' em-dash seams (split_long()),
+  so narrator lines like "He came back to Nazareth — the town that raised him — and on
+  the Sabbath..." never exceed 2 lines. Always run the tiny caption-line-count assert
+  (chunk_caption → textwrap.wrap ≤ maxl) before shipping.
