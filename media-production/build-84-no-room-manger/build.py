@@ -36,9 +36,15 @@ FPS = 30
 FF = "ffmpeg"
 FPROBE = "ffprobe"
 
-WIN_FONTS = os.environ.get("WINDIR", "C:\\Windows") + "\\Fonts"
-SERIF_SRC = os.path.join(WIN_FONTS, "georgia.ttf")
-SERIF_BI_SRC = os.path.join(WIN_FONTS, "georgiai.ttf")
+# CAPTION LAW re-render on Machine C (Linux): the Windows Georgia fonts do not
+# exist here, so source from this box's DejaVu/Liberation serif fonts.
+_WIN_FONTS = os.environ.get("WINDIR", "C:\\Windows") + "\\Fonts"
+_WIN_SERIF = os.path.join(_WIN_FONTS, "georgia.ttf")
+SERIF_SRC = (_WIN_SERIF if os.path.exists(_WIN_SERIF)
+             else "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf")
+_WIN_SERIF_BI = os.path.join(_WIN_FONTS, "georgiai.ttf")
+SERIF_BI_SRC = (_WIN_SERIF_BI if os.path.exists(_WIN_SERIF_BI)
+                else "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf")
 SERIF = f"{S}/serif.ttf"
 SERIF_BI = f"{S}/serif_bi.ttf"
 CREAM = "0xF7F2E9"
