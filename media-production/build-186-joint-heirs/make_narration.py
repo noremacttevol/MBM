@@ -42,9 +42,16 @@ SEGMENTS = [
      "The terms were honest: share in his suffering, and you will "
      "share in his glory too."),
     # sacred-silence beat follows n2.
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "Not earned by effort. Received by belonging. Co-heirs with "
-     "the Son."),
+    # n3 is split in two so each thought lands on its own storyboard still
+    # (s6 the-closing-line, s7 dawn-over-the-city) with the caption on screen
+    # always matching what is being said (CAPTION LAW).
+    ("n3a", NARRATOR, "-20%", "-4Hz",
+     "Not earned by effort. Received by belonging."),
+    # "Co-heirs" reworded 2026-07-17 (ASSEMBLY-D ear-check): the compound
+    # slurred into "co-wares" on both whisper models; "Heirs together" reads
+    # clean (the pack's own card already uses the single word "Heir").
+    ("n3b", NARRATOR, "-20%", "-4Hz",
+     "Heirs together with the Son."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "You're not a visitor at the table — you're family. Heir with "
      "the Son. Come home."),
