@@ -37,7 +37,7 @@ what's locked, so he doesn't scroll past done ones. The row still lives in "The 
 Already-live rows (Post ✅) are shipped — ignore them. As you say "#N good," I tick its
 Appr and add it to this folder.
 
-## ⏳ CAPTION PASS — fix after all 200 are built (still publish now)
+## ⏳ FIX-LATER LIST — fix after all 200 are built (these stay published/approved now)
 
 Cameron's rule: captions must NOT cover the whole picture. If a caption is too long,
 show HALF of it while the narrator reads that half, then swap to the second half —
@@ -46,6 +46,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 
 | # | Story | Problem |
 |---|---|---|
+| 14 | The ten lepers | ~0:55 — the ten lepers look like GIANTS next to Jesus and the disciples; fix the scale |
 | 44 | The two debtors | captions take up the entire picture |
 | 45 | The wicked tenants | captions cover the picture |
 | 47 | Houses on rock and sand | check for long captions |
@@ -68,7 +69,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 11 | Calming the storm | Mark 4 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
 | 12 | Blind Bartimaeus | Mark 10 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
 | 13 | Through the roof | Mark 2 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
-| 14 | The ten lepers | Luke 17 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
+| 14 | The ten lepers | Luke 17 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) — FIX-LATER: ~0:55 lepers look like giants vs Jesus/disciples, fix scale |
 | 15 | The centurion | Matt 8 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
 | 16 | Mary and Martha | Luke 10 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
 | 17 | Jesus wept (Lazarus) | John 11 | ✅ | ✅ | ⬜ | ⬜ | 🔁 RE-REVIEW (Cameron re-watching the face-shown versions, 2026-07-15) — live (beard fix shipped) |
