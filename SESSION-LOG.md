@@ -1,3 +1,32 @@
+## 2026-07-17 — CAPTION-LAW REPAIR: all 42 violating videos fixed + shipped (Machine C)
+
+Commit: 4c63345 (chain of ~10 caption-law commits; final = site index regen).
+
+Cameron's new CAPTION LAW (PRODUCTION-BIBLE §5, 2026-07-17): captions live ONLY in the
+bottom band; long captions SPLIT into narration-synced chunks; never shrink to cram.
+Audited **all 111 finished videos**. 69 already compliant; **42 violated** (#21,23,24,25,
+27,30,32,33,35,36,38–47,84,135,151–170).
+
+- **Caption fix:** retrofitted the proven caption-v2 renderer into all 42 build.py
+  (`_cap_chunks`: narrator ≤2 lines / KJV ≤3 lines per chunk, bottom band, chunks swapped
+  in sync with narration; one drawtext PER LINE — this Linux box renders a textfile newline
+  as a tofu box). Re-rendered every mp4 (visuals + narration audio untouched). Verified by
+  contact sheets. **Did NOT touch the Appr column** — approvals are Cameron's.
+- **Regression caught mid-job:** the Linux re-render reintroduced the #7 end-card TOFU bug
+  (□ at each line) on 39 builds whose `build_card` wrote newlines into one textfile — those
+  cards were originally rendered on Windows where \n is fine. Fixed build_card to per-line
+  drawtext (block-centered, Gospel Library pointer preserved), re-rendered all 39, verified
+  cards clean across both card shapes (DT1 + GL-pointer) and #84's font fallback.
+- **#84 also** repointed from Windows Georgia to this box's DejaVu/Liberation serif (the
+  fonts don't exist here); did NOT change its content.
+- Final audit: **0 caption violations, 0 tofu-prone cards** of 42. QUEUE.md: "caption-law
+  fix applied 2026-07-17" noted on all 42 rows. Site index (site/review.html) regenerated
+  and pushed. **Firebase deploy NOT run — no firebase CLI on this box (Machine C);** it
+  deploys from whichever machine has firebase auth (same standing note as prior sessions).
+- Git note: all 4 machines push to main constantly — used stash+rebase+retry push loops;
+  resolved 2 live QUEUE.md merge conflicts by keeping other machines' newer BUILT rows and
+  re-applying only my caption notes. $0 — local ffmpeg re-render only, no paid API.
+
 ## 2026-07-17 — ASSEMBLY SWEEP: 25 videos assembled & shipped (ASSEMBLY-B, session 2 of 4)
 
 Pure assembly from already-generated W1/prep stills — **$0, no Flow, no paid API, no new art**.
