@@ -38,9 +38,12 @@ SEGMENTS = [
      "A dare no king could make — test me, and see if I don't open "
      "the windows."),
     # sacred-silence beat follows n2.
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "Not a trickle. A pouring out, more than there is room to "
-     "hold."),
+    # n3 is split in two so each phrase lands on its own storyboard still
+    # (s5 no-room-enough, s6 wonder-not-worry) per the CAPTION LAW.
+    ("n3a", NARRATOR, "-20%", "-4Hz",
+     "Not a trickle."),
+    ("n3b", NARRATOR, "-20%", "-4Hz",
+     "A pouring out, more than there is room to hold."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "He invites you to test his goodness. Bring it all, and watch "
      "the windows open."),
