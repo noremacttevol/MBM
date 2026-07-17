@@ -37,10 +37,14 @@ SEGMENTS = [
      "Before I formed thee in the belly I knew thee; and before "
      "thou camest forth out of the womb I sanctified thee, and I "
      "ordained thee a prophet unto the nations."),
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "Jeremiah answered that he was only a child. The LORD "
-     "replied — go where I send you, speak what I command, and do "
-     "not be afraid, for I am with you to deliver you."),
+    # n3 split so Jeremiah's objection and the LORD's charge land on their own
+    # stills (s2 only-a-child, s7 the-road-opens) per the CAPTION LAW.
+    ("n3a", NARRATOR, "-20%", "-4Hz",
+     "Jeremiah answered that he was only a child."),
+    ("n3b", NARRATOR, "-20%", "-4Hz",
+     "The LORD replied — go where I send you, speak what I "
+     "command, and do not be afraid, for I am with you to deliver "
+     "you."),
     # Exact KJV Jer 1:8.
     ("s2", SCRIPTURE, "-24%", "-2Hz",
      "Be not afraid of their faces: for I am with thee to deliver "
