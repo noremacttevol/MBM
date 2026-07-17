@@ -243,7 +243,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 183 | Sun, moon, and stars | 1 Cor 15:40–42 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — 1corinthians-15_sun-moon-and-stars.mp4 (18.8MB/1:26); narration re-anchored to catalog's 1 Cor 15:40-42 (draft was Genesis 1), caption-v2, two KJV silences (15:41, 15:42a), no bed, ear-check pass, QC pass |
 | 184 | Caught up to the third heaven | 2 Cor 12:2–4 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — 2corinthians-12_caught-up-to-the-third-heaven.mp4 (16.8MB/1:21); caption-v2, three KJV silences (12:2, 12:4, 12:9 Jesus voice), Paul look-lock verified across stills, no bed, ear-check pass, QC pass |
 | 185 | "In my Father's house are many mansions" | John 14:2 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — john-14_in-my-fathers-house.mp4 (14.0MB/1:06; slug distinct from row 133's many-mansions); caption-v2, two KJV Jesus silences (14:2, 14:3), face-v3 look consistent + cream-only-Jesus verified, n1 reworded after ear-check FAIL ("them orphaned" slurred), QC pass |
-| 186 | Heirs of God, joint-heirs with Christ | Rom 8:16–17 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 186 | Heirs of God, joint-heirs with Christ | Rom 8:16–17 | ⬜ | ⬜ | ⬜ | ⬜ | **CLAIMED ASSEMBLY-D 2026-07-17** (assembly from existing stills) |
 | 187 | "Ye are gods; children of the most High" | Ps 82:6 / John 10:34 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 188 | "Be ye therefore perfect" | Matt 5:48 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 189 | "To him that overcometh will I grant to sit with me in my throne" | Rev 3:21 | ⬜ | ⬜ | ⬜ | ⬜ |  |
