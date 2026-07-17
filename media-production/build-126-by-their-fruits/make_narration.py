@@ -20,10 +20,14 @@ SEGMENTS = [
     ("n0", NARRATOR, "-20%", "-4Hz",
      "Jesus taught how to tell what is true — look at what grows "
      "from it."),
-    # Exact KJV Matt 7:15.
-    ("j1", JESUS, "-20%", "-2Hz",
-     "Beware of false prophets, which come to you in sheep's "
-     "clothing, but inwardly they are ravening wolves."),
+    # Exact KJV Matt 7:15 — delivered in two breaths so each phrase lands on
+    # its own still (s2 beware, s3 sheeps-clothing) per the CAPTION LAW. The
+    # words are unchanged KJV; only the pause between phrases is added.
+    ("j1a", JESUS, "-20%", "-2Hz",
+     "Beware of false prophets,"),
+    ("j1b", JESUS, "-20%", "-2Hz",
+     "which come to you in sheep's clothing, but inwardly they "
+     "are ravening wolves."),
     ("n1", NARRATOR, "-20%", "-4Hz",
      "A tree shows what it is by what it bears. You don't guess at "
      "a tree by its bark."),
