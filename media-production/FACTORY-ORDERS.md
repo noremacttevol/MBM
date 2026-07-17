@@ -265,3 +265,20 @@ watches a video and says yes. That is a separate Claude chat Cameron runs. Its j
 So the lifecycle of one row is:
 `⬜ → Machine X builds + pushes (Built ✅) → appears on the gallery → Cameron watches →
 Cameron tells the monitor yes/no → monitor sets Appr ✅ (or bounces it back).`
+
+## FACE LAW v3 — CHILD ADDENDUM (Cameron's ruling, 2026-07-17)
+Cameron ruled on depicting Jesus before adulthood:
+- **Boy Jesus** (e.g. row 87, the temple at twelve): the SAME person as
+  JESUS-MASTER-REF, plainly a much younger version of that face — a Middle
+  Eastern Jewish boy of about twelve, warm tan olive-brown skin, dark
+  brown-black wavy hair, kind warm BROWN eyes, beardless, the same gentle
+  features the adult lock describes. Never caucasian, never pale, never
+  blue-eyed, never blond. No halo, no glow. Only he wears cream.
+- **Baby Jesus** (manger/infancy scenes): the baby version of the same child —
+  super cute, NO hair (bald baby), warm tan skin, big warm brown eyes.
+  Same never-caucasian / no-halo rules.
+- GATE NOTE: jesus_face_gate.py v3 demands the byte-identical ADULT lock on
+  any block containing the token "Jesus". Child sheets therefore write "the
+  boy" / "the child" / "the newborn" in shot bodies (playbook precedent:
+  fleet-shot wording) and carry a byte-identical BOY-JESUS LOCK or BABY-JESUS
+  LOCK paragraph (above text) in every shot he appears in.

@@ -144,7 +144,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 84 | No room: the manger | Luke 2 | ✅ | ✅ | ⬜ | ⬜ | built Machine B 2026-07-15 (Flow prep, $0; 11 stills — Chrome dropped before the s12 dawn-door, closing beat holds on s11) — awaiting your yes |
 | 85 | Shepherds and angels | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ | stills by W1 (Elli laptop) 2026-07-16 — ART COMPLETE s1-s9 (gate PASS, Flow $0, montage-QC pass); ready for L1 assembly |
 | 86 | The wise men | Matt 2 | ⬜ | ⬜ | ⬜ | ⬜ | STILLS W1-b 2026-07-16 (prompt sheet + stills — narration/build OPEN) |
-| 87 | The boy in the temple | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ | ⚠️ NEEDS CAMERON: Jesus at TWELVE — JESUS-MASTER-REF/LOCK v3 is the adult face; no law yet for a boy-Jesus face. Skipped by W1-b until ruled. |
+| 87 | The boy in the temple | Luke 2 | ⬜ | ⬜ | ⬜ | ⬜ | RULED by Cameron 2026-07-17: boy-Jesus = younger version of master face (FACTORY-ORDERS child addendum); taken by W1-STILLS |
 | 88 | The triumphal entry | Luke 19 | ⬜ | ⬜ | ⬜ | ⬜ | STILLS W1-b 2026-07-16 (prompt sheet + stills — narration/build OPEN) |
 | 89 | The last supper | Luke 22 | ⬜ | ⬜ | ⬜ | ⬜ | STILLS W1-b 2026-07-16 (prompt sheet + stills — narration/build OPEN) |
 | 90 | Washing the disciples' feet | John 13 | ⬜ | ⬜ | ⬜ | ⬜ |   stills by W1-STILLS (Elli laptop) 2026-07-16 — ART COMPLETE (gate PASS, Flow $0, montage-QC pass); ready for L1 assembly |
