@@ -32,17 +32,22 @@ SEGMENTS = [
      "everywhere. And then something happened they would never "
      "forget."),
     # sacred-silence beat follows n1: the still holds on the ascending figure.
-    ("n2", NARRATOR, "-20%", "-4Hz",
-     "While they watched, he was lifted up, and a cloud received "
-     "him out of their sight. They stood there staring into the "
-     "sky, stunned."),
+    # n2 split so the lift and the cloud land on their own stills (s4
+    # lifted-up, s5 the-cloud-received-him) per the CAPTION LAW.
+    ("n2a", NARRATOR, "-20%", "-4Hz",
+     "While they watched, he was lifted up,"),
+    ("n2b", NARRATOR, "-20%", "-4Hz",
+     "and a cloud received him out of their sight. They stood "
+     "there staring into the sky, stunned."),
     ("n3", NARRATOR, "-20%", "-4Hz",
      "Then two figures in white stood beside them with a promise:"),
     ("n4", NARRATOR, "-18%", "-3Hz",
      "This same Jesus, who was taken up from you into heaven, will "
      "come back the same way you've seen him go."),
+    # "leave them orphans" slurred to "the orphans" on ear-check (same trap as
+    # #185); reworded to "abandon them", which reads clean.
     ("n5", NARRATOR, "-20%", "-4Hz",
-     "He didn't leave them orphans. He left them a mission, a "
+     "He did not abandon them. He left them a mission, a "
      "promise, and the sure word that he's coming again."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "He's coming back the same way he left. Until then, you're "
