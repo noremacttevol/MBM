@@ -9,6 +9,10 @@ KJV verified: Genesis 45:5 and 50:20, word-exact.
 HOMOGRAPH LAW: ear-checked — no bow/wound/wind/tears/lead/sow/live/read/dove/
 bass/minute/use(d)/close in any segment ("alive" and "life" are safe).
 No SPOKEN overrides needed.
+
+SEGMENTATION (ASSEMBLY-C, 2026-07-17): n0 split at its sentence break so all
+7 stills carry a beat synced to what is being said (CAPTION LAW). Words
+unchanged from the draft.
 """
 import asyncio
 import edge_tts
@@ -18,10 +22,11 @@ SCRIPTURE = "en-US-ChristopherNeural"  # the scripture voice. Exact KJV only.
 
 SEGMENTS = [
     # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
+    ("n0a", NARRATOR, "-20%", "-4Hz",
      "Years before, Joseph's own brothers had sold him into "
-     "slavery out of jealousy. Now he was second only to Pharaoh "
-     "in all Egypt."),
+     "slavery out of jealousy."),
+    ("n0b", NARRATOR, "-20%", "-4Hz",
+     "Now he was second only to Pharaoh in all Egypt."),
     ("n1", NARRATOR, "-20%", "-4Hz",
      "When the brothers came begging for food in the famine, they "
      "didn't recognize the brother they'd betrayed. Then he told "
