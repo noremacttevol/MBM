@@ -21,7 +21,7 @@
 
 | # | Story | What's wrong | Claimed by |
 |---|---|---|---|
-| 7 | Peter walks on water | **REJECTED 3rd TIME by Cameron 2026-07-17.** (1) One frame STILL has a figure knee-deep in the sea — the ON-THE-WATER law failed again; zoom-QC the waterline in EVERY sea still, feet ON the surface. (2) Several stills just look weird — full visual QC pass, reroll anything off. (3) DIRECTION mismatch: figures walk on the water in directions that contradict what the narration says at that moment — match each still's movement/facing to its narration line. (4) The END CARD shows weird SQUARES (tofu/missing-font glyphs) — the font fix did NOT hold; verify the end-card text renders with the correct font, no boxes, before assembly. | Machine C 2026-07-17 |
+| 7 | Peter walks on water | ✅ FIXED (Machine C 2026-07-17): all four items. (1)+(3) 6 sea stills rerolled — zoom-QC'd waterline, every figure's feet ON the surface with ripple rings, only sinking Peter in the water; walk direction locked by SIDE-VIEW geometry (Peter L→R toward Jesus in s5, both L→R toward the boat in s9). (2) the weird stills replaced, cleaner v4 art. (4) end card re-rendered per-line drawtext (build_card) — verified NO tofu. Bonus: Peter barefoot in every water shot for continuity. 20.2MB/4:16, decode-verified. Awaiting Cameron's re-watch. | Machine C 2026-07-17 |
 | 17 | Jesus wept (Lazarus) | REJECTED 2026-07-17 — Cameron: not good. **DEFERRED — do NOT pick this up until ALL other videos are built and fixed.** Redo it last. | HOLD until the end |
 | 30 | The net | ✅ FIXED (Machine C 2026-07-17): the old "uhs" respell was the defect (read as "Oz"); new SPOKEN fix keeps the real word "us" with a clause-final period — whisper-verified "of us" in the final mix. End card re-rendered per-line (no tofu). Rebuilt 20.1MB/3:02, −15 LUFS, silences lawful. Awaiting repost. | Machine C 2026-07-17 |
 | 32 | The talents | NARRATION-ONLY (2026-07-17): "kinder" at 2:39 pronounced "Kender". Same narration-only fix. Was live — repost after fix. | Machine C 2026-07-17 |
@@ -70,7 +70,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 4 | Nicodemus at night | John 3 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
 | 5 | The bent-over woman | Luke 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
 | 6 | The two sons | Matt 21 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) — Cameron note: could explain in modern terms what a publican and a harlot are |
-| 7 | Peter walks on water | Matt 14 | ✅ | ⬜ | ⬜ | ⬜ | REJECTED 3rd TIME 2026-07-17 (Cameron) — still knee-deep in one frame; several stills just look weird; walking directions contradict the narration; end card has weird squares (tofu glyphs). See Fix queue. |
+| 7 | Peter walks on water | Matt 14 | ✅ | ✅ | ⬜ | ⬜ | FIXED Machine C 2026-07-17 (4th build) — 6 sea stills rerolled: feet ON the water (§4b), walk direction locked to narration via side-view geometry, barefoot continuity; end card per-line drawtext (no tofu). 20.2MB/4:16. Awaiting Cameron's re-watch. |
 | 8 | The lost coin | Luke 15 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
 | 9 | The rich young ruler | Mark 10 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
 | 10 | The woman at the well | John 4 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
