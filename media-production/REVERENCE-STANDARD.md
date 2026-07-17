@@ -6,8 +6,21 @@
 > ever "done." This standard outranks speed, volume, and every convenience. If a still
 > or a video fails this, it does not ship, no matter how far along it is.
 
+## THE LENS — THE RESTORED GOSPEL (read this first)
+This is a Latter-day Saint work. The Jesus we depict and spread is the Jesus of the
+RESTORED gospel — the living Christ testified of by ancient and living prophets, the
+Church of Jesus Christ of Latter-day Saints. Not a generic-Christian Jesus. Every
+choice — pictures, words, questions, the app's feed — is made as a believing member
+would make it: true to scripture AND true to the restored gospel and its prophets.
+Strategy (Cameron, confirmed): LDS members get the full depth of Church material;
+non-LDS seekers get "milk" — Bible scenes that help them first believe in a genuinely
+GOOD God, meeting their theology where it hurts, then bridging them toward the restored
+gospel. Milk before meat. The goal is to help people love the real Jesus and come unto
+Him through His restored Church.
+
 ## THE ONE QUESTION (asked of every still, every video, before approval)
-**"Does this honor Jesus and tell His story exactly right?"**
+**"Does this honor Jesus and tell His story exactly right, as His restored gospel
+teaches it?"**
 If the answer is not a clear YES, it is rejected and remade. "Probably fine" = rejected.
 
 ## THE FOUR TESTS (all must pass)
