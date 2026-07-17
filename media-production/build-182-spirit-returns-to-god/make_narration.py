@@ -40,9 +40,14 @@ SEGMENTS = [
     ("n3", NARRATOR, "-20%", "-4Hz",
      "Death is not the end of the story. It is the spirit's quiet "
      "return to the One who lent it."),
-    ("n4", NARRATOR, "-20%", "-4Hz",
+    # n4 is split in two so the line's two halves land on their two
+    # storyboard stills (s6 peace-on-the-face, s7 rest-not-terror) with the
+    # caption on screen always matching what is being said (CAPTION LAW).
+    ("n4a", NARRATOR, "-20%", "-4Hz",
      "And the Giver who receives it back is the same Giver who "
-     "first breathed it into you — with mercy, not anger."),
+     "first breathed it into you —"),
+    ("n4b", NARRATOR, "-20%", "-4Hz",
+     "— with mercy, not anger."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "You were given breath by God. He is ready to receive it — "
      "and ready to give you more."),
@@ -51,7 +56,13 @@ SEGMENTS = [
 # HOMOGRAPH LAW — every segment ear-checked against the flag list
 # (bow, wound, wind, tears, lead, sow, live/lives, read, dove, bass,
 # minute, use/used, close): none present. Captions stay exact.
-SPOKEN = {}
+# n4a/n4b: the split leaves dangling em-dashes; speak clean sentences,
+# captions keep the verbatim text.
+SPOKEN = {
+    "n4a": "And the Giver who receives it back is the same Giver who "
+           "first breathed it into you.",
+    "n4b": "With mercy, not anger.",
+}
 
 
 async def main():
