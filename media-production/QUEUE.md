@@ -15,6 +15,7 @@
 
 | # | Story | What's wrong | Claimed by |
 |---|---|---|---|
+| 7 | Peter walks on water | **REJECTED 3rd TIME by Cameron 2026-07-17.** (1) One frame STILL has a figure knee-deep in the sea — the ON-THE-WATER law failed again; zoom-QC the waterline in EVERY sea still, feet ON the surface. (2) Several stills just look weird — full visual QC pass, reroll anything off. (3) DIRECTION mismatch: figures walk on the water in directions that contradict what the narration says at that moment — match each still's movement/facing to its narration line. (4) The END CARD shows weird SQUARES (tofu/missing-font glyphs) — the font fix did NOT hold; verify the end-card text renders with the correct font, no boxes, before assembly. | — |
 | 17 | Jesus wept (Lazarus) | REJECTED 2026-07-17 — Cameron: not good. **DEFERRED — do NOT pick this up until ALL other videos are built and fixed.** Redo it last. | HOLD until the end |
 | 30 | The net | NARRATION-ONLY (2026-07-17): "us" at 2:45 sounds like "uhss". Keep approved visuals; SPOKEN-override respell, regenerate audio, rebuild, tick Built. Was live — repost after fix. | — |
 | 32 | The talents | NARRATION-ONLY (2026-07-17): "kinder" at 2:39 pronounced "Kender". Same narration-only fix. Was live — repost after fix. | — |
@@ -63,7 +64,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 4 | Nicodemus at night | John 3 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
 | 5 | The bent-over woman | Luke 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
 | 6 | The two sons | Matt 21 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) — Cameron note: could explain in modern terms what a publican and a harlot are |
-| 7 | Peter walks on water | Matt 14 | ✅ | ✅ | ⬜ | ⬜ | **ON-THE-WATER FIX 2026-07-16 (Machine C)** — Cameron's rejection (Jesus waist-deep) fixed: s5/s6/s8/s9 regenerated with feet ON the surface per the new §4b law; caption tofu + KJV font fixed for this box; no hum. 20.5MB/4:16. Awaiting your yes. |
+| 7 | Peter walks on water | Matt 14 | ✅ | ⬜ | ⬜ | ⬜ | REJECTED 3rd TIME 2026-07-17 (Cameron) — still knee-deep in one frame; several stills just look weird; walking directions contradict the narration; end card has weird squares (tofu glyphs). See Fix queue. |
 | 8 | The lost coin | Luke 15 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
 | 9 | The rich young ruler | Mark 10 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
 | 10 | The woman at the well | John 4 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
