@@ -1,3 +1,36 @@
+## 2026-07-17 — DEFECT REPAIR: #30, #32, #41 (narration) + #7 (full rebuild) fixed & pushed (Machine C)
+
+Cameron's fix queue, all four rejections resolved this session (Flow stills $0, no paid APIs):
+
+- **TTS misreads — verified with faster-whisper (medium.en), not by ear** (no audio out on this
+  box). Method that worked: synthesize the real segment, transcribe the whole clip AND cut the
+  target word out with word-timestamps to hear it in isolation; for vowels whisper lexicon-
+  corrects (can't hear "kinder" vs "Kender"), so classify the vowel acoustically with a log-mel
+  DTW distance vs synth reference words. All fixes are SPOKEN overrides in make_narration.py;
+  captions/KJV text unchanged.
+  - **#30 The Net** — "us" (n11). The PRIOR fix "uhs" was itself the defect (whisper heard "Oz");
+    real word "us" + a clause-final period fixed it. Verified "of us" in the final mix.
+  - **#32 The Talents** — "kinder"→"kynder" (card); acoustic DTW confirmed /kaɪnd/. Bonus catch
+    in the same pass: n10 "say to you, well done" glided to "while done" — colon+period fixed it.
+  - **#41 Counting the Cost** — Jesus's word "forsaketh" read "for Saccath"; "forsayketh" renders
+    the exact KJV word (for-SAY-keth), verified in the final mix.
+- **#7 Peter — 4th build, all four rejection items.** 6 sea stills rerolled (s3,s5,s6,s7,s8,s9):
+  every figure's feet ON the water surface with ripple rings (§4b ON-THE-WATER, zoom-QC'd), only
+  sinking Peter in the water; **walk direction locked by SIDE-VIEW geometry** (Peter L→R toward
+  Jesus in s5, both L→R toward the boat in s9) so it matches the narration line; weird stills
+  replaced; **end-card tofu fixed in build_card** (per-line drawtext — this box's ffmpeg renders a
+  textfile newline as a tofu box). Peter barefoot in every water shot for continuity. Face-matched
+  to master. 20.2MB/4:16, decode-verified. QUEUE fix-queue cleared, all four marked Built ✅.
+- **⚠️ SHARED-TREE HAZARD (real, cost time this session):** another Claude session ran a big
+  parallel build sweep in this SAME working tree (load hit 28, ~28 build.py procs). Its git
+  autostash/rebase cycles (a) clobbered my UNCOMMITTED #32 mp4 (truncated), and (b) REVERTED my
+  uncommitted build.py/PROMPTS.md edits on #7. Lesson applied: commit each fix's SOURCE immediately,
+  build the mp4 with an out-of-tree backup, verify decode off the backup, then commit+push fast.
+  Builds under load 28 also got starved/killed — waited for load to drop, then rebuilt clean.
+- Review gallery regenerated (site/review.html, 165 videos). **Firebase CLI is NOT on this box**
+  (confirmed again) — review.html is pushed; `firebase deploy --only hosting` must run from an
+  authed machine. Commit: a959b08 (site) / 766ba62 (#7 mp4).
+
 ## 2026-07-16 (same session, new work) — #124 Love Your Enemies built + published (Machine C = L2)
 
 Per Cameron ("start working on a different queue stack than L1"): this box is **L2, rows
