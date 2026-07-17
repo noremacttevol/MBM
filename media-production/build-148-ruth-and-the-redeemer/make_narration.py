@@ -11,6 +11,10 @@ Redeemer"): "lead" is on the flag list — must read /LEEDZ/, never /LEDZ/.
 The natural reading is usually right; LISTEN before assembly. If misread,
 respell SPOKEN "leeds". No other flagged words in any segment (the draft's
 "tears"/"live" flags refer to words that do not appear in the final text).
+
+SEGMENTATION (ASSEMBLY-C, 2026-07-17): n6 split at its sentence break so all
+9 stills carry a beat synced to what is being said (CAPTION LAW): n6a→s7 the
+town gate, n6b→s8 Naomi's arms filled. Words unchanged from the draft.
 """
 import asyncio
 import edge_tts
@@ -39,8 +43,9 @@ SEGMENTS = [
      "At the threshing floor, Ruth asked him to cover her with his "
      "cloak, the sign of a kinsman's duty. He promised to redeem "
      "her."),
-    ("n6", NARRATOR, "-20%", "-4Hz",
-     "Before the town gate, Boaz bought the right to marry Ruth. "
+    ("n6a", NARRATOR, "-20%", "-4Hz",
+     "Before the town gate, Boaz bought the right to marry Ruth."),
+    ("n6b", NARRATOR, "-20%", "-4Hz",
      "Naomi's emptiness was filled; a son was born."),
     ("n7", NARRATOR, "-20%", "-4Hz",
      "That boy became the grandfather of King David — and part of "
