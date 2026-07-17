@@ -25,19 +25,26 @@ SEGMENTS = [
      "The weight of leading a whole nation was crushing Moses. He "
      "told the LORD he could not carry the people alone, not one "
      "more day."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "So God told Moses to gather seventy trusted men. He would "
-     "take some of the Spirit that rested on Moses and share it "
-     "with them, and together they would help bear the load."),
+    # n1 split so "gather seventy" and "share the Spirit" land on their own
+    # stills (s2 gather-me-seventy, s3 the-spirit-shared) per the CAPTION LAW.
+    ("n1a", NARRATOR, "-20%", "-4Hz",
+     "So God told Moses to gather seventy trusted men."),
+    ("n1b", NARRATOR, "-20%", "-4Hz",
+     "He would take some of the Spirit that rested on Moses and "
+     "share it with them, and together they would help bear the "
+     "load."),
     ("n2", NARRATOR, "-20%", "-4Hz",
      "When the Spirit came down on those seventy, they began to "
      "speak God's words. But two men, Eldad and Medad, had stayed "
      "back in the camp — and the Spirit came on them too, right "
      "there among the tents."),
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "A runner hurried to Moses with the news. Joshua, Moses's "
-     "right-hand man, was worried — stop them, he said. That is "
-     "not how it is supposed to work."),
+    # n3 split so the runner and Joshua's objection land on their own stills
+    # (s5 the-runner, s6 forbid-them) per the CAPTION LAW.
+    ("n3a", NARRATOR, "-20%", "-4Hz",
+     "A runner hurried to Moses with the news."),
+    ("n3b", NARRATOR, "-20%", "-4Hz",
+     "Joshua, Moses's right-hand man, was worried — stop them, he "
+     "said. That is not how it is supposed to work."),
     # sacred-silence beat. Exact KJV Num 11:29 — Moses's words, CENTERPIECE.
     ("s1", SCRIPTURE, "-24%", "-2Hz",
      "Enviest thou me for my sake? would God that all the LORD's "
