@@ -34,14 +34,21 @@ SEGMENTS = [
     ("n2", NARRATOR, "-20%", "-4Hz",
      "And he bowed his head and gave up the spirit — on his own "
      "terms, not theirs."),
-    ("n3", NARRATOR, "-20%", "-4Hz",
+    # n3 split so the tearing and its meaning land on their own stills (s5
+    # the-veil-begins-to-split, s6 torn-in-two) per the CAPTION LAW.
+    ("n3a", NARRATOR, "-20%", "-4Hz",
      "At that moment, in the temple across the city, the great "
      "veil that walled off the holiest place was torn in two, from "
-     "the top down — as if torn by a hand from above."),
-    ("n4", NARRATOR, "-20%", "-4Hz",
+     "the top down —"),
+    ("n3b", NARRATOR, "-20%", "-4Hz",
+     "as if torn by a hand from above."),
+    # n4 split so the reopening and the welcome land on their own stills (s7
+    # the-way-standing-open, s8 light-into-darkness) per the CAPTION LAW.
+    ("n4a", NARRATOR, "-20%", "-4Hz",
      "That curtain had kept people out of God's presence for "
-     "centuries. The instant he died, it was ripped open. The way "
-     "in was thrown wide — for everyone."),
+     "centuries. The instant he died, it was ripped open."),
+    ("n4b", NARRATOR, "-20%", "-4Hz",
+     "The way in was thrown wide — for everyone."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "The curtain that kept you out was torn open the moment he "
      "died. The way to God is open. Walk in."),
