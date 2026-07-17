@@ -28,18 +28,25 @@ SEGMENTS = [
      "He promised another Helper would come — the Holy Ghost, sent "
      "by the Father in His name."),
     # sacred-silence beat follows n1.
-    ("n2", NARRATOR, "-20%", "-4Hz",
-     "This Helper would do two things: teach them everything, and "
-     "bring every word Jesus had spoken back to their minds."),
+    # n2 split so its two named acts land on their own stills (s3 receiving,
+    # s6 held-in-memory) per the CAPTION LAW.
+    ("n2a", NARRATOR, "-20%", "-4Hz",
+     "This Helper would do two things: teach them everything,"),
+    ("n2b", NARRATOR, "-20%", "-4Hz",
+     "and bring every word Jesus had spoken back to their minds."),
     # Exact KJV John 14:26 — THE CENTERPIECE, SILENCE around it.
     ("j1", JESUS, "-22%", "-2Hz",
      "But the Comforter, which is the Holy Ghost, whom the Father "
      "will send in my name, he shall teach you all things, and "
      "bring all things to your remembrance, whatsoever I have said "
      "unto you."),
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "The promise still stands — the Spirit who taught them then "
-     "teaches everyone who listens now."),
+    # n3 split so each half lands on its own still (s5 open-hands, s7
+    # let-him-teach-you) per the CAPTION LAW.
+    ("n3a", NARRATOR, "-20%", "-4Hz",
+     "The promise still stands."),
+    ("n3b", NARRATOR, "-20%", "-4Hz",
+     "The Spirit who taught them then teaches everyone who listens "
+     "now."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "You are not left to remember alone. The Comforter is here — "
      "let Him teach you."),
