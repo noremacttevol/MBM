@@ -1,3 +1,43 @@
+## 2026-07-17 — ASSEMBLY SWEEP: 25 videos assembled & shipped (ASSEMBLY-B, session 2 of 4)
+
+Pure assembly from already-generated W1/prep stills — **$0, no Flow, no paid API, no new art**.
+All 25 built to spec (PRODUCTION-BIBLE §5), QC'd start-to-finish, ticked Built ✅, pushed, and
+deployed to the review gallery. Appr left untouched (Cameron's).
+
+**Shipped (25):** 127 strait gate · 128 famine of hearing · 129 Nazareth only a few ·
+130 what manner of spirit · 131 scribe near the kingdom · 132 forbid him not · 133 many mansions ·
+134 other sheep I have · 136 healed in two touches · 137 Stephen sees him standing · 138 his
+offspring · 139 lamp on a stand · 140 road runs both ways (prodigal) · 141 bread of life · 142
+light of the world · 143 I am the door · 78 who is my mother · 79 the seventy sent · 82 anointing
+at Bethany · 85 shepherds and angels · 87 boy in the temple · 88 triumphal entry · 90 washing
+feet · 77 widow's mite · 125 I never knew you.
+
+**Method / laws applied every build:**
+- CAPTION LAW: caption-v2 — bottom band only, chunked and synced per spoken phrase; long KJV
+  verses split into 2-3 timed chunks; never covers the picture. Frame-stripped every build.
+- NO-BED/HUM: narration + intentional silence only; verified every card tail at -91 dB.
+- Two-voice: narrator AndrewNeural; Jesus/scripture ChristopherNeural, exact KJV. Angel/crowd/OT
+  KJV routed through the scripture voice (Jesus voice reserved for Jesus's own words).
+- Ear-check (faster-whisper) on every segment before assembly. Documented spelling artifacts
+  (labourers/laborers, Stephen/Steven, warhorse/war-horse) are NOT audio defects — accepted.
+- Face-shown Jesus locked to master; only-Jesus-in-cream enforced; CARE flags obeyed (R martyrdom
+  off-focus #137; J judgment held-with-mercy #125; GREEN belonging/celebration; no fake tears;
+  dignified widow/pigs). Boy-Jesus = younger master face per Cameron's child addendum (#87).
+- Dead-air law: no in-body gap >2.5s (silencedetect-verified); short stories (#137, #142) padded
+  via sacred holds + readable card, never in-body silence. Duration >60s on all.
+- #85 had no narration script — authored from the prompt sheet (angelic KJV via scripture voice).
+
+**Backlog status at end of session:** the ASSEMBLY backlog is EXHAUSTED. Every build folder with
+stills is now built or actively claimed across the 4 sessions (bottom-up B met top-down C/D in the
+78-100 lane). The only unbuilt rows left — 65, 66, 67, 89 — have ZERO stills and need art generated
+in Flow first (not assembly work).
+
+**Shared-tree note (learned the hard way on #143):** `git pull --rebase` + the auto-generated
+site/review.html across 4 sessions on ONE working tree tangled a rebase and a `reset --hard` nearly
+discarded another session's unpushed commits. Recovered fully via reflog (nothing lost). Switched
+to fetch + `git merge --no-edit` (never rebase) for the rest of the session — no further tangles.
+
+
 ## 2026-07-17 — ASSEMBLY SWEEP: 32 videos assembled & shipped (ASSEMBLY-D / session 4)
 
 Session 4 of a 4-way split. Assigned lane = the MEMBER 4th quarter (rows 182–200);
