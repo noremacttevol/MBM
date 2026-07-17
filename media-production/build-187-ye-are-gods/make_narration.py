@@ -37,9 +37,13 @@ SEGMENTS = [
      "God's word came to them, how could they condemn the one the "
      "Father set apart?"),
     # sacred-silence beat follows n2.
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "He was not making himself a second God. He was showing them "
-     "their own book exposed their logic."),
+    # n3 is split in two so each sentence lands on its own storyboard still
+    # (s5 steady-truth, s7 the-court-at-peace/open scripture) with the caption
+    # always matching what is being said (CAPTION LAW).
+    ("n3a", NARRATOR, "-20%", "-4Hz",
+     "He was not making himself a second God."),
+    ("n3b", NARRATOR, "-20%", "-4Hz",
+     "He was showing them their own book exposed their logic."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "He stood on the scriptures they claimed to love. Come know "
      "him as he truly is."),
