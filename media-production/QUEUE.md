@@ -49,7 +49,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | # | Story | Problem |
 |---|---|---|
 | 14 | The ten lepers | ~0:55 — the ten lepers look like GIANTS next to Jesus and the disciples; fix the scale |
-| 44 | The two debtors | captions take up the entire picture |
+| 44 | The two debtors | captions take up the entire picture — FIXED 2026-07-17 |
 | 45 | The wicked tenants | captions cover the picture |
 | 47 | Houses on rock and sand | check for long captions |
 | ALL | every approved video | audit for whole-picture captions |
@@ -101,7 +101,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 41 | Counting the cost | Luke 14 | ✅ | ⬜ | ⬜ | ✅ | REJECTED 2026-07-17 (Cameron) — TTS: "forsaketh" at 3:36 pronounced fer-SAYK-uhth — Jesus's own words, must be right. NARRATION-ONLY fix: keep the approved visuals, respell via SPOKEN override, rebuild. Was LIVE in app — repost after fix. |
 | 42 | The barren fig tree spared | Luke 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 43 | The wedding garment | Matt 22 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
-| 44 | The two debtors | Luke 7 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — CAPTION-PASS list: captions cover the whole picture |
+| 44 | The two debtors | Luke 7 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — CAPTION-PASS list: captions cover the whole picture — caption-law fix applied 2026-07-17 |
 | 45 | The wicked tenants | Mark 12 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — CAPTION-PASS list: captions cover the whole picture |
 | 46 | The seed growing secretly | Mark 4 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-15 (Flow $0, GREEN restful) — awaiting your yes |
 | 47 | Houses on rock and sand | Matt 7 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — CAPTION-PASS list: check for long captions |

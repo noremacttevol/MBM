@@ -45,8 +45,8 @@ S = "segs"
 FPS = 30
 FF = "ffmpeg"
 FPROBE = "ffprobe"
-SERIF = "C\\:/Windows/Fonts/georgia.ttf"
-SERIF_BI = "C\\:/Windows/Fonts/georgiai.ttf"
+SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
+SERIF_BI = "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"
 CREAM = "0xF7F2E9"
 INK = "0x3B2A1E"
 
@@ -118,27 +118,60 @@ def wrapped(name, kjv):
     return "\n".join(textwrap.wrap(TEXT[name], width=27 if kjv else 32))
 
 
+def _cap_chunks(text, width, max_lines):
+    words = text.split()
+    chunks, cur = [], ""
+    for w in words:
+        cand = (cur + " " + w).strip()
+        if len(textwrap.wrap(cand, width)) <= max_lines:
+            cur = cand
+        else:
+            chunks.append(cur)
+            cur = w
+    if cur:
+        chunks.append(cur)
+    return chunks
+
+
 def caption_overlay(seg_id, dur, text, kjv):
-    tf = f"{S}/{seg_id}.txt"
-    with open(tf, "w", encoding="utf-8") as f:   # UTF-8 REQUIRED (curly quotes/em-dashes)
-        f.write(text)
+    # CAPTION LAW (Cameron, 2026-07-17): a caption may occupy only the bottom
+    # band of the frame — narrator <=2 lines, KJV <=3 lines per chunk; a longer
+    # segment is SPLIT into chunks shown in sync with the narration (each chunk
+    # holds for its share of the spoken time). Never shrink the font to cram.
+    # One drawtext per LINE: this box's ffmpeg draws a textfile newline as a
+    # tofu box, so a newline never enters a textfile.
+    text = " ".join(text.split())
     if kjv:
-        font, size, color = SERIF_BI, 44, "0xFFF3DC"
+        font, size, color, width, maxl = SERIF_BI, 46, "0xFFF3DC", 38, 3
     else:
-        font, size, color = SERIF, 40, "white"
-    # Box at 0.46 with a strong drop shadow: this is a warm, dim indoor dinner for
-    # most beats (s1, s3, s4, s7, s8) with a few brighter frames (s6 forgiveness,
-    # s8 dawn). One box value serves every frame, tuned so white text stays crisp
-    # over the brightest lamp-lit patch without turning the night beats muddy.
-    fade_out = max(0.0, dur - 0.55)
-    return (f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
-            f"drawtext=fontfile='{font}':textfile='{tf}':fontsize={size}:"
-            f"fontcolor={color}:line_spacing=13:x=(w-text_w)/2:"
-            f"y=min(h-430\\,h-150-text_h):"
-            f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
-            f"box=1:boxcolor=black@0.46:boxborderw=20,"
-            f"fade=t=in:st=0:d=0.5:alpha=1,"
-            f"fade=t=out:st={fade_out}:d=0.5:alpha=1[cap]")
+        font, size, color, width, maxl = SERIF, 34, "white", 48, 2
+    lh = int(size * 1.34)
+    gap = KJV_GAP if kjv else GAP
+    chunks = _cap_chunks(text, width, maxl)
+    total = sum(len(c) for c in chunks) or 1
+    t0 = 0.15
+    t1 = max(t0 + 0.4, min(dur - 0.2, (dur - gap) + 0.35))
+    chain = f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba"
+    acc = 0
+    for i, c in enumerate(chunks):
+        cs = t0 + (t1 - t0) * acc / total
+        acc += len(c)
+        ce = t0 + (t1 - t0) * acc / total
+        lines = textwrap.wrap(c, width)
+        L = len(lines)
+        for j, ln in enumerate(lines):
+            tf = f"{S}/{seg_id}_c{i}_{j}.txt"
+            with open(tf, "w", encoding="utf-8") as f:
+                f.write(ln)
+            y = f"h-120-text_h-{(L - 1 - j) * lh}"
+            chain += (
+                f",drawtext=fontfile='{font}':textfile='{tf}':fontsize={size}:"
+                f"fontcolor={color}:x=(w-text_w)/2:y={y}:"
+                f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
+                f"box=1:boxcolor=black@0.58:boxborderw=22:"
+                f"enable='between(t,{cs:.2f},{ce:.2f})'"
+            )
+    return chain + "[cap]"
 
 
 def build_still(seg_id, src, dur, zdir, cap_text, kjv, first):
