@@ -21,18 +21,24 @@ JESUS = "en-US-ChristopherNeural"   # American. Never a British voice.
 
 SEGMENTS = [
     # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
+    # n0/n1/n2 each split so the eight beats fill the eight stills, with the
+    # caption on screen always matching what is being said (CAPTION LAW).
+    ("n0a", NARRATOR, "-20%", "-4Hz",
      "Jesus sat with his disciples on the Mount of Olives, telling "
-     "them what the long road ahead would hold — wars, rumors, "
-     "hardship, and patience under strain."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
+     "them what the long road ahead would hold —"),
+    ("n0b", NARRATOR, "-20%", "-4Hz",
+     "wars, rumors, hardship, and patience under strain."),
+    ("n1a", NARRATOR, "-20%", "-4Hz",
      "Then he turned to the one thing that would outlast all of "
-     "it: a message carried to every corner of the earth."),
-    # sacred-silence beat follows n1.
-    ("n2", NARRATOR, "-20%", "-4Hz",
-     "Not a secret kept for a few. A witness given to all "
-     "nations — the good news of the kingdom going out until the "
-     "very end."),
+     "it:"),
+    ("n1b", NARRATOR, "-20%", "-4Hz",
+     "a message carried to every corner of the earth."),
+    # sacred-silence beat follows n1b.
+    ("n2a", NARRATOR, "-20%", "-4Hz",
+     "Not a secret kept for a few."),
+    ("n2b", NARRATOR, "-20%", "-4Hz",
+     "A witness given to all nations — the good news of the "
+     "kingdom going out until the very end."),
     # Exact KJV Matthew 24:14 — THE CENTERPIECE, SILENCE around it.
     ("j1", JESUS, "-22%", "-2Hz",
      "And this gospel of the kingdom shall be preached in all the "
