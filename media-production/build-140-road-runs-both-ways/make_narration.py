@@ -32,9 +32,13 @@ SEGMENTS = [
     ("n2", NARRATOR, "-20%", "-4Hz",
      "A hard season came. He was hungry, alone, and tending pigs — "
      "and he came to himself."),
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "He decided to go back. Not as a son claiming rights, but as "
-     "a servant asking for a place."),
+    # n3 split so the decision still and the long-road-back still each
+    # carry their half — draft words verbatim.
+    ("n3a", NARRATOR, "-20%", "-4Hz",
+     "He decided to go back."),
+    ("n3b", NARRATOR, "-20%", "-4Hz",
+     "Not as a son claiming rights, but as a servant asking for a "
+     "place."),
     ("n4", NARRATOR, "-20%", "-4Hz",
      "But while he was still far off, his father saw him and ran. "
      "No lecture. No waiting for the apology. He threw his arms "
