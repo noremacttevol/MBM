@@ -278,7 +278,20 @@ Cameron ruled on depicting Jesus before adulthood:
   super cute, NO hair (bald baby), warm tan skin, big warm brown eyes.
   Same never-caucasian / no-halo rules.
 - GATE NOTE: jesus_face_gate.py v3 demands the byte-identical ADULT lock on
-  any block containing the token "Jesus". Child sheets therefore write "the
-  boy" / "the child" / "the newborn" in shot bodies (playbook precedent:
-  fleet-shot wording) and carry a byte-identical BOY-JESUS LOCK or BABY-JESUS
-  LOCK paragraph (above text) in every shot he appears in.
+  any block containing the token "Jesus", and its banned-drift scan catches
+  the words caucasian/blue-eyed/blond/halo anywhere outside that exact lock.
+  Child sheets therefore write "the boy" / "the child" / "the newborn" in shot
+  bodies, never the token "Jesus" (playbook fleet-shot precedent), and use
+  these CANONICAL GATE-SAFE lock paragraphs byte-identically in every shot he
+  appears in:
+  [BOY LOCK] = the boy is the same person as the master face at about twelve
+  years old: a Middle Eastern Jewish boy, warm tan olive-brown skin,
+  shoulder-length dark brown-black wavy hair, kind warm BROWN eyes, beardless,
+  the same gentle features as the master face grown younger. His skin stays
+  warm tan, his hair stays dark, his eyes stay brown. No bright ring of light
+  or aura around his head. Only he wears cream.
+  [BABY LOCK] = the newborn is the baby version of the master face: a Middle
+  Eastern Jewish baby, super cute, completely bald with no hair at all, warm
+  tan olive-brown skin, big kind warm BROWN eyes, round soft cheeks. His skin
+  stays warm tan, his eyes stay brown. No bright ring of light or aura around
+  his head; the light falls evenly on everyone.
