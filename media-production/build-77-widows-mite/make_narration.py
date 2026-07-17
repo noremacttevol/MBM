@@ -20,12 +20,15 @@ SEGMENTS = [
     ("n0", NARRATOR, "-20%", "-4Hz",
      "Jesus sat down across from the temple treasury and just watched "
      "people give."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "The rich came through and put in large amounts — you could hear "
-     "the coins land, and everyone noticed."),
-    ("n2", NARRATOR, "-20%", "-4Hz",
-     "Then a poor widow came. She put in two tiny copper coins — "
-     "together worth less than a penny."),
+    ("n1a", NARRATOR, "-20%", "-4Hz",
+     "The rich came through and put in large amounts."),
+    ("n1b", NARRATOR, "-20%", "-4Hz",
+     "You could hear the coins land, and everyone noticed."),
+    ("n2a", NARRATOR, "-20%", "-4Hz",
+     "Then a poor widow came, small and unnoticed."),
+    ("n2b", NARRATOR, "-20%", "-4Hz",
+     "She put in two tiny copper coins — together worth less than a "
+     "penny."),
     ("n3", NARRATOR, "-20%", "-4Hz",
      "Jesus called his disciples over, like he had just seen the most "
      "important thing all day."),
@@ -35,9 +38,11 @@ SEGMENTS = [
      "than all they which have cast into the treasury: for all they did "
      "cast in of their abundance; but she of her want did cast in all "
      "that she had, even all her living."),
-    ("n4", NARRATOR, "-20%", "-4Hz",
+    ("n4a", NARRATOR, "-20%", "-4Hz",
      "Everyone else gave from what they had left over. She gave from "
-     "what she needed. Heaven does the math differently than we do."),
+     "what she needed."),
+    ("n4b", NARRATOR, "-20%", "-4Hz",
+     "Heaven does the math differently than we do."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "He noticed the gift no one else did. What might he already see in "
      "you that others overlook?"),
