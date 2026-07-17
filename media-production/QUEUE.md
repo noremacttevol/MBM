@@ -257,7 +257,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 191 | The windows of heaven | Mal 3:8–10 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — malachi-3_windows-of-heaven.mp4 (13.2MB/1:03); caption-v2 (long 3:10 verse split+synced), scripture-voice silence, s7 open-door unused (duplicates card moment), QC pass |
 | 192 | The fast God has chosen | Isa 58:6–11 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — isaiah-58_the-fast-god-has-chosen.mp4 (14.6MB/1:09); caption-v2, two scripture-voice silences (58:6, 58:8), poor/oppressed kept dignified, QC pass |
 | 193 | "The Comforter... shall teach you all things" | John 14:26 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — john-14_the-comforter.mp4 (12.9MB/1:02); caption-v2, KJV John 14:26 Jesus silence, face-v3 consistent, Comforter hinted as light (no face), stills matched to beats semantically, QC pass |
-| 194 | The fruit of the Spirit | Gal 5:22–23 | ⬜ | ⬜ | ⬜ | ⬜ | **CLAIMED ASSEMBLY-D 2026-07-17** (assembly from existing stills) |
+| 194 | The fruit of the Spirit | Gal 5:22–23 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — galatians-5_fruit-of-the-spirit.mp4 (14.0MB/1:08); caption-v2 (full fruit-list verse split+synced), scripture-voice silence, n0 'lives' SPOKEN-respelled, fruit stills matched to named fruits, QC pass |
 | 195 | "Prove all things; hold fast that which is good" | 1 Thes 5:21 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 196 | "Would God that all the LORD's people were prophets" | Num 11:29 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 197 | "Your sons and your daughters shall prophesy" | Joel 2:28–29 | ⬜ | ⬜ | ⬜ | ⬜ |  |

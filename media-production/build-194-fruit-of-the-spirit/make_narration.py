@@ -29,9 +29,12 @@ SEGMENTS = [
      "But the fruit of the Spirit is love, joy, peace, "
      "longsuffering, gentleness, goodness, faith, Meekness, "
      "temperance: against such there is no law."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "First, love. Then joy. Then peace — the kind that doesn't "
-     "depend on circumstances."),
+    # n1 split so "joy" and "peace" land on their own fruit stills (s3 joy,
+    # s4 peace) per the CAPTION LAW.
+    ("n1a", NARRATOR, "-20%", "-4Hz",
+     "First, love. Then joy."),
+    ("n1b", NARRATOR, "-20%", "-4Hz",
+     "Then peace — the kind that doesn't depend on circumstances."),
     # sacred-silence beat follows n1.
     ("n2", NARRATOR, "-20%", "-4Hz",
      "Longsuffering next — patience that doesn't quit. Then "
