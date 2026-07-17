@@ -15,11 +15,11 @@
 
 | # | Story | What's wrong | Claimed by |
 |---|---|---|---|
-| 7 | Peter walks on water | **REJECTED 3rd TIME by Cameron 2026-07-17.** (1) One frame STILL has a figure knee-deep in the sea — the ON-THE-WATER law failed again; zoom-QC the waterline in EVERY sea still, feet ON the surface. (2) Several stills just look weird — full visual QC pass, reroll anything off. (3) DIRECTION mismatch: figures walk on the water in directions that contradict what the narration says at that moment — match each still's movement/facing to its narration line. (4) The END CARD shows weird SQUARES (tofu/missing-font glyphs) — the font fix did NOT hold; verify the end-card text renders with the correct font, no boxes, before assembly. | — |
+| 7 | Peter walks on water | **REJECTED 3rd TIME by Cameron 2026-07-17.** (1) One frame STILL has a figure knee-deep in the sea — the ON-THE-WATER law failed again; zoom-QC the waterline in EVERY sea still, feet ON the surface. (2) Several stills just look weird — full visual QC pass, reroll anything off. (3) DIRECTION mismatch: figures walk on the water in directions that contradict what the narration says at that moment — match each still's movement/facing to its narration line. (4) The END CARD shows weird SQUARES (tofu/missing-font glyphs) — the font fix did NOT hold; verify the end-card text renders with the correct font, no boxes, before assembly. | Machine C 2026-07-17 |
 | 17 | Jesus wept (Lazarus) | REJECTED 2026-07-17 — Cameron: not good. **DEFERRED — do NOT pick this up until ALL other videos are built and fixed.** Redo it last. | HOLD until the end |
-| 30 | The net | NARRATION-ONLY (2026-07-17): "us" at 2:45 sounds like "uhss". Keep approved visuals; SPOKEN-override respell, regenerate audio, rebuild, tick Built. Was live — repost after fix. | — |
-| 32 | The talents | NARRATION-ONLY (2026-07-17): "kinder" at 2:39 pronounced "Kender". Same narration-only fix. Was live — repost after fix. | — |
-| 41 | Counting the cost | NARRATION-ONLY (2026-07-17): "forsaketh" at 3:36 pronounced fer-SAYK-uhth — these are Jesus's words, MUST be right. Same narration-only fix. Was live — repost after fix. | — |
+| 30 | The net | NARRATION-ONLY (2026-07-17): "us" at 2:45 sounds like "uhss". Keep approved visuals; SPOKEN-override respell, regenerate audio, rebuild, tick Built. Was live — repost after fix. | Machine C 2026-07-17 |
+| 32 | The talents | NARRATION-ONLY (2026-07-17): "kinder" at 2:39 pronounced "Kender". Same narration-only fix. Was live — repost after fix. | Machine C 2026-07-17 |
+| 41 | Counting the cost | NARRATION-ONLY (2026-07-17): "forsaketh" at 3:36 pronounced fer-SAYK-uhth — these are Jesus's words, MUST be right. Same narration-only fix. Was live — repost after fix. | Machine C 2026-07-17 |
 
 ## ✅ APPROVED FOLDER — Cameron's fresh yes (post-redo, face-law v3)
 
