@@ -37,12 +37,18 @@ SEGMENTS = [
     ("s1", SCRIPTURE, "-24%", "-2Hz",
      "Behold, I see the heavens opened, and the Son of man "
      "standing on the right hand of God."),
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "They would not hear it. They rushed him out and stoned him. "
+    # n3/n4 split so each beat lands on its own still (CAPTION LAW). The
+    # stoning is told with reverent distance — no gore, no stone striking
+    # flesh in view (CONTENT-CARE, martyrdom).
+    ("n3a", NARRATOR, "-20%", "-4Hz",
+     "They would not hear it. They rushed him out."),
+    ("n3b", NARRATOR, "-20%", "-4Hz",
      "But Stephen's face was the face of an angel — at peace, not "
      "afraid."),
-    ("n4", NARRATOR, "-20%", "-4Hz",
-     "His last words asked mercy for the ones throwing the stones. "
+    ("n4a", NARRATOR, "-20%", "-4Hz",
+     "His last words asked mercy for the ones throwing the "
+     "stones."),
+    ("n4b", NARRATOR, "-20%", "-4Hz",
      "Then he fell asleep."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "He saw the Son of man standing to receive him. You can face "
