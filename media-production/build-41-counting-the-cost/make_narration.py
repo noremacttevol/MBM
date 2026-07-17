@@ -185,9 +185,24 @@ SEGMENTS = [
 ]
 
 
+# SPOKEN overrides: text sent to the TTS instead of the caption text, to correct a
+# word the neural voice reads wrong. The ON-SCREEN caption stays exact KJV; only
+# the spoken audio uses these.
+#   j7: edge-tts breaks "forsaketh" as fer-SAYK-uhth (Cameron 2026-07-17 — these
+#   are Jesus's words, must be right; whisper hears the shipped audio as "for
+#   Saccath"). Verified fix (Machine C 2026-07-17): respell "forsayketh" —
+#   whisper hears the exact word "forsaketh" in context (for-SAY-keth), while the
+#   plain spelling reproduces the broken split under the same test.
+SPOKEN = {
+    "j7": "So likewise, whosoever he be of you that forsayketh not all that he hath, he "
+          "cannot be my disciple.",
+}
+
+
 async def main():
     for name, voice, rate, pitch, text in SEGMENTS:
-        tts = edge_tts.Communicate(text, voice, rate=rate, pitch=pitch)
+        spoken = SPOKEN.get(name, text)
+        tts = edge_tts.Communicate(spoken, voice, rate=rate, pitch=pitch)
         await tts.save(f"audio/{name}.mp3")
         print(f"saved audio/{name}.mp3")
 

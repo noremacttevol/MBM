@@ -25,7 +25,7 @@
 | 17 | Jesus wept (Lazarus) | REJECTED 2026-07-17 — Cameron: not good. **DEFERRED — do NOT pick this up until ALL other videos are built and fixed.** Redo it last. | HOLD until the end |
 | 30 | The net | ✅ FIXED (Machine C 2026-07-17): the old "uhs" respell was the defect (read as "Oz"); new SPOKEN fix keeps the real word "us" with a clause-final period — whisper-verified "of us" in the final mix. End card re-rendered per-line (no tofu). Rebuilt 20.1MB/3:02, −15 LUFS, silences lawful. Awaiting repost. | Machine C 2026-07-17 |
 | 32 | The talents | NARRATION-ONLY (2026-07-17): "kinder" at 2:39 pronounced "Kender". Same narration-only fix. Was live — repost after fix. | Machine C 2026-07-17 |
-| 41 | Counting the cost | NARRATION-ONLY (2026-07-17): "forsaketh" at 3:36 pronounced fer-SAYK-uhth — these are Jesus's words, MUST be right. Same narration-only fix. Was live — repost after fix. | Machine C 2026-07-17 |
+| 41 | Counting the cost | ✅ FIXED (Machine C 2026-07-17): "forsaketh" respelled "forsayketh" for TTS — whisper heard the rejected audio as "for Saccath" and hears the fix as the exact KJV word for-SAY-keth, verified in the final mix. Caption/KJV text untouched. End card per-line (no tofu). Rebuilt 24.9MB/6:17. Awaiting repost. | Machine C 2026-07-17 |
 
 ## ✅ APPROVED FOLDER — Cameron's fresh yes (post-redo, face-law v3)
 
@@ -104,7 +104,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 38 | The persistent widow | Luke 18 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
 | 39 | The Pharisee and the publican | Luke 18 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 40 | The friend at midnight | Luke 11 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
-| 41 | Counting the cost | Luke 14 | ✅ | ⬜ | ⬜ | ✅ | REJECTED 2026-07-17 (Cameron) — TTS: "forsaketh" at 3:36 pronounced fer-SAYK-uhth — Jesus's own words, must be right. NARRATION-ONLY fix: keep the approved visuals, respell via SPOKEN override, rebuild. Was LIVE in app — repost after fix. |
+| 41 | Counting the cost | Luke 14 | ✅ | ✅ | ⬜ | ✅ | NARRATION FIXED Machine C 2026-07-17 — "forsaketh" now speaks as the exact KJV word (whisper-verified in final mix); visuals kept; end card per-line (no tofu). 24.9MB/6:17. Was LIVE — repost after Cameron's yes. |
 | 42 | The barren fig tree spared | Luke 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 43 | The wedding garment | Matt 22 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 44 | The two debtors | Luke 7 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — CAPTION-PASS list: captions cover the whole picture — caption-law fix applied 2026-07-17 |
