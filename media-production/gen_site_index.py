@@ -63,6 +63,7 @@ TITLES = {
     55: "The Withered Hand", 56: "The Widow of Nain's Son",
     57: "Jairus's Daughter", 58: "Feeding the Five Thousand",
     59: "Feeding the Four Thousand", 60: "The Gerasene Demoniac", 61: "The Syrophoenician Woman", 62: "Ephphatha: the Deaf Man", 63: "The Man Born Blind", 64: "The Pool of Bethesda",
+    70: "The Temptations",
     71: "Calling the Fishermen", 72: "Calling Matthew",
     73: "This Day Fulfilled", 74: "The Woman Who Washed His Feet",
     75: "The Woman Taken in Adultery",

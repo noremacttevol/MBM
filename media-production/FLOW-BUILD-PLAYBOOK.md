@@ -600,3 +600,13 @@ NEXT UNBUILT: row 171 (1 Cor 15:29, non-Jesus). Rows 172–200 remain; some are 
   so narrator lines like "He came back to Nazareth — the town that raised him — and on
   the Sabbath..." never exceed 2 lines. Always run the tiny caption-line-count assert
   (chunk_caption → textwrap.wrap ≤ maxl) before shipping.
+
+- 2026-07-17 (ASSEMBLY-A): LONG videos (>~2:45, e.g. #70 temptations at 3:55) can't hold
+  the 30MB cap with a crf encode — the Ken Burns drift keeps nearly every frame wanting
+  more than the ~888k average the cap allows at that length, so crf+maxrate overshoots to
+  33-35MB no matter the crf. Fix = 2-PASS VBR at the size-target average bitrate:
+  vbit = int(29.0*8000/total) - 96(audio) - 20(mux); pass 1 analysis (-an -f null), pass 2
+  with -maxrate ~1.7*vbit for peaks. Guarantees the size AND distributes bitrate optimally
+  (peaks on busy frames, saved on still stretches) — better quality than a starved-maxrate
+  crf. build-70/build.py has the exact 2-pass tail; copy it for any >2:45 build. Short
+  videos (≤~2:30) still fit fine under the crf-20 path — no need to 2-pass them.

@@ -27,16 +27,23 @@ SEGMENTS = [
     ("s1", SCRIPTURE, "-24%", "-2Hz",
      "And let them make me a sanctuary; that I may dwell among "
      "them."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "Not for his sake. For theirs. So that he could dwell among "
-     "them in the middle of their ordinary days."),
-    ("n2", NARRATOR, "-20%", "-4Hz",
+    # NOTE (ASSEMBLY-C): played AFTER n2 so the how/pattern stills (s3/s4)
+    # precede the dwell/near payoff — reads well, all words unchanged.
+    ("n1a", NARRATOR, "-20%", "-4Hz",
+     "Not for his sake. For theirs."),
+    ("n1b", NARRATOR, "-20%", "-4Hz",
+     "So that he could dwell among them in the middle of their "
+     "ordinary days."),
+    ("n2a", NARRATOR, "-20%", "-4Hz",
      "He told them exactly how — the ark, the table, the "
-     "lampstand — every detail meant to say: I am near."),
-    # sacred-silence beat follows n2.
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "The pattern was carried by a people on the move, yet the "
-     "promise was fixed — God with his people."),
+     "lampstand —"),
+    ("n2b", NARRATOR, "-20%", "-4Hz",
+     "every detail meant to say: I am near."),
+    # sacred-silence beat follows n2b.
+    ("n3a", NARRATOR, "-20%", "-4Hz",
+     "The pattern was carried by a people on the move,"),
+    ("n3b", NARRATOR, "-20%", "-4Hz",
+     "yet the promise was fixed — God with his people."),
     ("n4", NARRATOR, "-20%", "-4Hz",
      "Centuries later that promise would take a face. But here it "
      "begins as a tent in the desert, God pitching his tent beside "
