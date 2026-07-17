@@ -41,14 +41,17 @@ SEGMENTS = [
     ("n2", NARRATOR, "-20%", "-4Hz",
      "Such a one receives blessing from the LORD, and "
      "righteousness from the God of their salvation."),
-    ("n3", NARRATOR, "-20%", "-4Hz",
+    ("n3a", NARRATOR, "-20%", "-4Hz",
      "Then the call goes out to the gates themselves — lift up "
-     "your heads, you ancient doors, and let the King of glory "
-     "come in."),
-    # sacred-silence beat follows n3.
-    ("n4", NARRATOR, "-20%", "-4Hz",
-     "And who is this King of glory? The LORD himself — strong, "
-     "mighty, and unbeatable. He is the one who comes in."),
+     "your heads, you ancient doors,"),
+    ("n3b", NARRATOR, "-20%", "-4Hz",
+     "and let the King of glory come in."),
+    # sacred-silence beat follows n3b.
+    ("n4a", NARRATOR, "-20%", "-4Hz",
+     "And who is this King of glory?"),
+    ("n4b", NARRATOR, "-20%", "-4Hz",
+     "The LORD himself — strong, mighty, and unbeatable. He is the "
+     "one who comes in."),
     ("card", NARRATOR, "-22%", "-5Hz",
      "The door is open to the one with a clean heart. Come and "
      "stand in his presence."),
