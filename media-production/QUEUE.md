@@ -56,8 +56,8 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 |---|---|---|
 | 14 | The ten lepers | ~0:55 — the ten lepers look like GIANTS next to Jesus and the disciples; fix the scale |
 | 44 | The two debtors | captions take up the entire picture — FIXED 2026-07-17 |
-| 45 | The wicked tenants | captions cover the picture |
-| 47 | Houses on rock and sand | check for long captions |
+| 45 | The wicked tenants | captions cover the picture — FIXED 2026-07-17 |
+| 47 | Houses on rock and sand | check for long captions — FIXED 2026-07-17 |
 | ALL | every approved video | audit for whole-picture captions |
 
 ## The 200
@@ -84,11 +84,11 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 18 | The road to Emmaus | Luke 24 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 19 | Breakfast on the shore | John 21 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 20 | The Good Samaritan | Luke 10 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — Cameron note: open/close Jesus-teaching scenes could be redone if credits allow |
-| 21 | The lost sheep | Luke 15 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — Cameron note: open/close Jesus-teaching scenes could be redone if credits allow |
+| 21 | The lost sheep | Luke 15 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — Cameron note: open/close Jesus-teaching scenes could be redone if credits allow — caption-law fix applied 2026-07-17 |
 | 22 | The unmerciful servant | Matt 18 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
-| 23 | Workers in the vineyard | Matt 20 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
-| 24 | The sower | Matt 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
-| 25 | Wheat and tares | Matt 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
+| 23 | Workers in the vineyard | Matt 20 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
+| 24 | The sower | Matt 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
+| 25 | Wheat and tares | Matt 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
 | 26 | The mustard seed | Matt 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 27 | The leaven | Matt 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 28 | Hidden treasure | Matt 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
@@ -108,9 +108,9 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 42 | The barren fig tree spared | Luke 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 43 | The wedding garment | Matt 22 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 44 | The two debtors | Luke 7 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — CAPTION-PASS list: captions cover the whole picture — caption-law fix applied 2026-07-17 |
-| 45 | The wicked tenants | Mark 12 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — CAPTION-PASS list: captions cover the whole picture |
+| 45 | The wicked tenants | Mark 12 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — CAPTION-PASS list: captions cover the whole picture — caption-law fix applied 2026-07-17 |
 | 46 | The seed growing secretly | Mark 4 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-15 (Flow $0, GREEN restful) — awaiting your yes |
-| 47 | Houses on rock and sand | Matt 7 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — CAPTION-PASS list: check for long captions |
+| 47 | Houses on rock and sand | Matt 7 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — CAPTION-PASS list: check for long captions — caption-law fix applied 2026-07-17 |
 | 48 | New wine, old bottles | Mark 2 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 — approval RESET 2026-07-15 — re-review after redo; **v3 REDONE 2026-07-15** (Jesus s1/s10 now FACE-SHOWN, text-locked to master; face-never version replaced — re-review the face) |
 | 49 | Water to wine at Cana | John 2 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-15 under FACE LAW v3 (face shown, locked to JESUS-MASTER-REF; Jesus in s2/s4/s5/s8/s9/s12, face-consistent, only-Jesus-in-cream) — 12 Flow $0 stills (Nano Banana 2, 9:16), caption-v2, 2 sacred silences (jv7/jv8), 22.1MB/4.06min, no dead air. john-2_water-to-wine.mp4. Awaiting your yes. |
 | 50 | The nobleman's son | John 4 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-15 under FACE LAW v3 (Jesus in s1/s4/s5/s6/s7, face-consistent via LOCK v3 TEXT — attaching the master portrait made Nano Banana echo the bust, so Jesus shots are text-locked not ref-attached; see playbook). 11 Flow $0 stills, caption-v2, "liveth" spoken-override for the homograph, 2 sacred silences (jv48/jv50), 22.4MB/2:52, no dead air. john-4_noblemans-son.mp4. Awaiting your yes. |
