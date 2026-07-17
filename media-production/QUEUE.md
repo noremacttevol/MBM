@@ -256,7 +256,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 190 | Faith without works is dead | James 2:17–26 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — james-2_faith-without-works.mp4 (13.0MB/1:05); caption-v2, KJV James 2:17 silence, Abraham beat violence-free per care flags, scarlet-cord still verified, QC pass |
 | 191 | The windows of heaven | Mal 3:8–10 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — malachi-3_windows-of-heaven.mp4 (13.2MB/1:03); caption-v2 (long 3:10 verse split+synced), scripture-voice silence, s7 open-door unused (duplicates card moment), QC pass |
 | 192 | The fast God has chosen | Isa 58:6–11 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — isaiah-58_the-fast-god-has-chosen.mp4 (14.6MB/1:09); caption-v2, two scripture-voice silences (58:6, 58:8), poor/oppressed kept dignified, QC pass |
-| 193 | "The Comforter... shall teach you all things" | John 14:26 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 193 | "The Comforter... shall teach you all things" | John 14:26 | ⬜ | ⬜ | ⬜ | ⬜ | **CLAIMED ASSEMBLY-D 2026-07-17** (assembly from existing stills) |
 | 194 | The fruit of the Spirit | Gal 5:22–23 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 195 | "Prove all things; hold fast that which is good" | 1 Thes 5:21 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 196 | "Would God that all the LORD's people were prophets" | Num 11:29 | ⬜ | ⬜ | ⬜ | ⬜ |  |
