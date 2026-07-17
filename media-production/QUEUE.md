@@ -246,7 +246,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 186 | Heirs of God, joint-heirs with Christ | Rom 8:16–17 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — romans-8_heirs-of-god.mp4 (13.7MB/1:05); caption-v2, two KJV silences (8:16, 8:17), n3b reworded after ear-check (co-heirs slurred), QC pass |
 | 187 | "Ye are gods; children of the most High" | Ps 82:6 / John 10:34 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — john-10_ye-are-gods.mp4 (11.5MB/1:01); caption-v2, KJV Ps 82:6 Jesus silence, face-v3 consistent, s6 crowd-parts transition still unused (no narration line for it — avoided dead air), QC pass |
 | 188 | "Be ye therefore perfect" | Matt 5:48 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — matthew-5_be-ye-therefore-perfect.mp4 (17.9MB/1:24); caption-v2, three KJV Jesus silences (5:44, 5:45, 5:48), face-v3 consistent, no bed, ear-check pass, QC pass |
-| 189 | "To him that overcometh will I grant to sit with me in my throne" | Rev 3:21 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 189 | "To him that overcometh will I grant to sit with me in my throne" | Rev 3:21 | ⬜ | ⬜ | ⬜ | ⬜ | **CLAIMED ASSEMBLY-D 2026-07-17** (assembly from existing stills) |
 | 190 | Faith without works is dead | James 2:17–26 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 191 | The windows of heaven | Mal 3:8–10 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 192 | The fast God has chosen | Isa 58:6–11 | ⬜ | ⬜ | ⬜ | ⬜ |  |
