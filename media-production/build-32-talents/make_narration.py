@@ -89,9 +89,32 @@ SEGMENTS = [
 ]
 
 
+# SPOKEN overrides: text sent to the TTS instead of the caption text, to correct a
+# word the neural voice reads wrong. The ON-SCREEN caption is unchanged (build.py
+# captions from SEGMENTS text); only the spoken audio uses these.
+#   card: edge-tts reads "kinder" with the German/kindergarten short-i — "KIN-der"
+#   (Cameron 2026-07-17: "pronounced Kender"). Whisper lexicon-corrects it so a
+#   transcript check can't catch this; verified acoustically (log-mel DTW vs
+#   reference words "kind"/"kin", Machine C 2026-07-17): plain "kinder" renders
+#   the /ɪ/ defect, "kynder" renders the correct /kaɪndər/.
+SPOKEN = {
+    "card": "What has God trusted you with that fear has kept you from using? What if "
+            "he is kynder than you think?",
+    #   n10: mid-sentence "say to you, well done, and" glides into "while done"
+    #   (caught by whisper word-timestamps during the kinder fix, Machine C
+    #   2026-07-17). A colon + period around "Well done" makes it land as its
+    #   own stressed phrase; verified "well done" by the same check.
+    "n10": "That is the real tragedy of the story. Not that he had little, but that "
+           "he so badly misjudged the heart of the one who trusted him. God is not "
+           "the hard man that servant imagined. He trusts you with something real, "
+           "and he is longing to say to you: Well done. And to share his joy.",
+}
+
+
 async def main():
     for name, voice, rate, pitch, text in SEGMENTS:
-        tts = edge_tts.Communicate(text, voice, rate=rate, pitch=pitch)
+        spoken = SPOKEN.get(name, text)
+        tts = edge_tts.Communicate(spoken, voice, rate=rate, pitch=pitch)
         await tts.save(f"audio/{name}.mp3")
         print(f"saved audio/{name}.mp3")
 
