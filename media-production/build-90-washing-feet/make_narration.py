@@ -18,10 +18,12 @@ SEGMENTS = [
     ("n0", NARRATOR, "-20%", "-4Hz",
      "At that last supper, knowing he was about to leave the world, "
      "Jesus did something no master would ever do for his servants."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
+    # n1 split: pouring the water (s2) then washing their feet (s3).
+    ("n1a", NARRATOR, "-20%", "-4Hz",
      "He got up from the table, wrapped a towel around his waist, "
-     "poured water into a basin, and began to wash his disciples' "
-     "feet — one by one."),
+     "and poured water into a basin."),
+    ("n1b", NARRATOR, "-20%", "-4Hz",
+     "And he began to wash his disciples' feet — one by one."),
     # sacred-silence beat follows n1: the still holds on the washing.
     ("n2", NARRATOR, "-20%", "-4Hz",
      "When he came to Peter, Peter pulled back — Lord, you will "
