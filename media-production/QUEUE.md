@@ -240,7 +240,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 180 | "Before I formed thee in the belly I knew thee" | Jer 1:5 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 181 | "When the morning stars sang together" | Job 38:4–7 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 182 | The spirit returns to God | Eccl 12:7 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 from W-generated stills — ecclesiastes-12_the-spirit-returns-to-god.mp4 (13.9MB/1:06); caption-v2 split captions, KJV Eccl 12:7 sacred silence, no bed, ear-check 1.00 all 8 segs, QC pass (frame-strip + bands + silence/hum scan) |
-| 183 | Sun, moon, and stars | 1 Cor 15:40–42 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 183 | Sun, moon, and stars | 1 Cor 15:40–42 | ⬜ | ⬜ | ⬜ | ⬜ | **CLAIMED ASSEMBLY-D 2026-07-17** (assembly from existing stills) |
 | 184 | Caught up to the third heaven | 2 Cor 12:2–4 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 185 | "In my Father's house are many mansions" | John 14:2 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 186 | Heirs of God, joint-heirs with Christ | Rom 8:16–17 | ⬜ | ⬜ | ⬜ | ⬜ |  |
