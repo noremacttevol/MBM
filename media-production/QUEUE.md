@@ -259,7 +259,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 193 | "The Comforter... shall teach you all things" | John 14:26 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — john-14_the-comforter.mp4 (12.9MB/1:02); caption-v2, KJV John 14:26 Jesus silence, face-v3 consistent, Comforter hinted as light (no face), stills matched to beats semantically, QC pass |
 | 194 | The fruit of the Spirit | Gal 5:22–23 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — galatians-5_fruit-of-the-spirit.mp4 (14.0MB/1:08); caption-v2 (full fruit-list verse split+synced), scripture-voice silence, n0 'lives' SPOKEN-respelled, fruit stills matched to named fruits, QC pass |
 | 195 | "Prove all things; hold fast that which is good" | 1 Thes 5:21 | ✅ | ✅ | ⬜ | ⬜ | Built ASSEMBLY-D 2026-07-17 — 1thessalonians-5_prove-all-things.mp4 (11.9MB/1:02); caption-v2, two scripture-voice silences (5:21, 5:22), stills matched semantically, re-paced to clear 60s floor, QC pass |
-| 196 | "Would God that all the LORD's people were prophets" | Num 11:29 | ⬜ | ⬜ | ⬜ | ⬜ |  |
+| 196 | "Would God that all the LORD's people were prophets" | Num 11:29 | ⬜ | ⬜ | ⬜ | ⬜ | **CLAIMED ASSEMBLY-D 2026-07-17** (assembly from existing stills) |
 | 197 | "Your sons and your daughters shall prophesy" | Joel 2:28–29 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 198 | An ensign for the nations; the second time | Isa 11:11–12 | ⬜ | ⬜ | ⬜ | ⬜ |  |
 | 199 | Fishers and hunters | Jer 16:14–16 | ⬜ | ⬜ | ⬜ | ⬜ |  |
