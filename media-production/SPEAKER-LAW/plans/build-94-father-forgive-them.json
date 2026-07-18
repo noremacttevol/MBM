@@ -1,0 +1,122 @@
+{
+ "build": "build-94-father-forgive-them",
+ "reference": "Luke 23",
+ "notes": "STAYED RED, and it is exact:\n  j1  Luke 23:34  'Father, forgive them; for they know not what they do.'\n  Id kept. Nothing else in this video is Jesus speaking, so nothing else is red.\n\nTHE FRAMING IS NOT RED, AND IT WAS IN WHITE ANYWAY -- SO IT WAS LIFTED TO BLUE.\nn0 paraphrased Luke 23:33 in modern English. That verse is Luke writing, not\nJesus speaking, so it is SCRIPTURE (light blue), never red:\n  s33  Luke 23:33  'And when they were come to the place, which is called\n       Calvary, there they crucified him, and the malefactors, one on the right\n       hand, and the other on the left.'\n  n0 keeps its id and now retells it. This is the case the law calls out by name:\n  narration inside the Gospels is the writer, and it belongs in blue.\n\nALSO LIFTED, on the still already named 's3-casting-lots':\n  s34b Luke 23:34  'And they parted his raiment, and cast lots.'\n       -- the second half of the same verse, and also Luke writing. n2b retells\n       it. It is what makes the prayer land: while he was praying for them, they\n       were gambling for his clothes at the foot of the cross.\n\nRETELLING: n3 already retells the prayer in plain words ('Not, forgive them\nlater, if they're sorry. Forgive them now') and was left exactly as it was.\n\nNO GREEN: the Father is prayed TO in this video, and he does not answer out loud.\nLuke 23 records no words from him. Nothing added.\n\nWOMEN: Luke 23:33-34 records no woman speaking. Luke 23:28, 'Daughters of\nJerusalem, weep not for me,' is on the road to Calvary and is red, but the women\nthere are wept over, not quoted. Nothing added, nothing invented.\n\nWHY-LAW: the first thing out of his mouth on the cross was mercy for the men\nholding the hammer, and he said it while it was still happening. Milk: if his\nmercy reached them mid-crime, it reaches you.",
+ "segments": [
+  {
+   "id": "s33",
+   "speaker": "scripture",
+   "verse": "Luke 23:33",
+   "text": "And when they were come to the place, which is called Calvary, there they crucified him, and the malefactors, one on the right hand, and the other on the left."
+  },
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "They brought him to a place called Calvary, and there they crucified him — between two criminals, at the hands of soldiers just following orders."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "He had every reason to curse them. Every right to call down judgment."
+  },
+  {
+   "id": "s34b",
+   "speaker": "scripture",
+   "verse": "Luke 23:34",
+   "text": "And they parted his raiment, and cast lots."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "While he hung there, the soldiers divided up his clothes and threw dice for them, right at the foot of the cross. That is what was going on underneath him."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "And instead of a curse, the first words out of his mouth on the cross were a prayer — for the very people driving the nails."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Luke 23:34",
+   "text": "Father, forgive them; for they know not what they do."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Not, forgive them later, if they're sorry. Forgive them now — while it's still happening."
+  },
+  {
+   "id": "n4a",
+   "speaker": "narrator",
+   "text": "That is how far his mercy reaches. If it covered the ones killing him,"
+  },
+  {
+   "id": "n4b",
+   "speaker": "narrator",
+   "text": "there is no one, and nothing you've done, it can't cover."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "His first words on the cross were mercy for the ones who put him there. That mercy has your name in it too."
+  }
+ ],
+ "beats": [
+  [
+   "s33",
+   "ST1",
+   "in"
+  ],
+  [
+   "n0",
+   "ST1",
+   "out"
+  ],
+  [
+   "n1",
+   "ST2",
+   "in"
+  ],
+  [
+   "s34b",
+   "ST3",
+   "in"
+  ],
+  [
+   "n2b",
+   "ST3",
+   "out"
+  ],
+  [
+   "n2",
+   "ST3",
+   "in"
+  ],
+  [
+   "j1",
+   "ST4",
+   "in"
+  ],
+  [
+   "n3",
+   "ST5",
+   "in"
+  ],
+  [
+   "n4a",
+   "ST6",
+   "in"
+  ],
+  [
+   "n4b",
+   "ST7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST1": "ST1 now opens the video with Luke's verbatim sentence and its retelling. Frame the arrival at the place, not the crucifixion: the top of the hill from behind and below, three uprights against a hard sky, soldiers and a small knot of people still moving into position. Distant and plain — Luke reports this without a single adjective and the image should too.",
+  "ST3": "ST3 now carries the casting of lots, its retelling, and the setup for the prayer. Frame what is happening at the bottom of the cross while the prayer is being said above it: soldiers crouched on the ground over a spread cloak, dice in hand, faces down and absorbed in the game. The base of the upright is in the shot; the man on it is not."
+ }
+}

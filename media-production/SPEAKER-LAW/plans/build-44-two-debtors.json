@@ -1,0 +1,250 @@
+{
+ "build": "build-44-two-debtors",
+ "reference": "Luke 7",
+ "notes": "THIS BUILD HAS BOTH KINDS OF SPEECH IN IT, AND THAT IS THE WHOLE JOB HERE.\nThe parable of the two debtors is only two verses long and sits inside a conversation\nbetween Jesus and Simon the Pharisee. Inside the parable, everything is red. Outside\nit, Simon is a real man in a real house and he is BLUE.\n\nSTAYED RED:\n  j1  Luke 7:40  'Simon, I have somewhat to say unto thee.'\n  j2  Luke 7:41  'There was a certain creditor which had two debtors...' -- named in\n      SPEAKER-LAW itself as a line that stays red.\n  j3  Luke 7:42  'And when they had nothing to pay, he frankly forgave them both.\n      Tell me therefore, which of them will love him most?'\n  j4  Luke 7:47  'Her sins, which are many, are forgiven; for she loved much...'\n  j5  Luke 7:50  'Thy faith hath saved thee; go in peace.'\n\nBLUE ADDED -- SIMON, WHO IS OUTSIDE THE PARABLE AND WAS NEVER HEARD:\n  s40  Luke 7:40  'Master, say on.' Simon answering Jesus at his own table. Not\n       inside the parable, not Jesus's words, so `scripture`, light blue.\n  s43  Luke 7:43  'I suppose that he, to whom he forgave most.' Simon's answer to the\n       riddle. This was buried inside n7 as white paraphrase -- 'And Simon answered, a\n       little carefully' -- and it is the line the entire trap closes on. Blue.\n  Note the colour change across three consecutive beats on S6: j3 red (the question,\n  inside the parable), s43 blue (Simon answering, outside it), j3b red (Jesus's\n  verdict). That run is the clearest demonstration in this whole set of where the\n  parable ends.\n\nRED ADDED:\n  j3b   Luke 7:43  'Thou hast rightly judged.' Jesus's four-word reply to Simon.\n  jv44  Luke 7:44-46  'Seest thou this woman? I entered into thine house, thou gavest\n        me no water for my feet: but she hath washed my feet with tears... Thou gavest\n        me no kiss... My head with oil thou didst not anoint: but this woman hath\n        anointed my feet with ointment.' The comparison that breaks Simon open, and it\n        was entirely white paraphrase in n8. n8 keeps its id and now retells it.\n  jv48  Luke 7:48  'Thy sins are forgiven.' The actual absolution, said out loud to\n        her, and it was missing from the video completely. New n9b retells it before\n        j5 lands.\n\nTHE WOMAN -- LOOKED FOR HER, AND SHE IS SILENT. Cameron's standing instruction is to\nfind the women and let them speak. Luke 7:36-50 does not record one word from her. She\nweeps, wipes his feet with her hair, kisses them and pours out the ointment, and she\nnever says anything. Luke never even gives her a name. So there is NO `woman` beat in\nthis plan, and nothing was invented to make one. She is heard in this video the way\nLuke wrote her -- Jesus does all her talking for her, in jv44 and j4 and jv48, and\nthat is the point of the passage. If a later pass wants her voice, it does not exist\nin this chapter and must not be manufactured.\n\nNEW NARRATOR BEATS: n4b retells j1 and s40; n9b retells jv48. Both are additions, no\nexisting id was renamed or dropped.\n\nNO GREEN in Luke 7:36-50.\n\nWHY-LAW: she was not forgiven because she loved much, she loved much because she had\nbeen forgiven. Milk: the size of your love follows the size of the debt you know was\ntorn up.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "A Pharisee named Simon invited Jesus to dinner. It was a careful, respectable house, and having a well-known teacher at your table made you look good. So Jesus came, and took his place at the low table with the other guests."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Then the door opened, and a woman came in who did not belong there. Everyone in that town knew what she was. She had lived a life the whole village whispered about, and she walked into a Pharisee's house carrying a small alabaster jar of costly perfume."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "She went straight to his feet. And there, in front of every important man in the room, she broke. She wept until her tears fell on his feet, and she wiped them away with her own hair, and kissed them, and poured the perfume out over them."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Simon watched, and said nothing out loud. But inside, he had already made up his mind. If this man were really a prophet, he thought, he would know what kind of woman is touching him, and he would never let her near."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Luke 7:40",
+   "text": "Simon, I have somewhat to say unto thee."
+  },
+  {
+   "id": "s40",
+   "speaker": "scripture",
+   "verse": "Luke 7:40",
+   "text": "Master, say on."
+  },
+  {
+   "id": "n4b",
+   "speaker": "narrator",
+   "text": "Simon, there is something I want to say to you. Say it, teacher, Simon answered. He had been thinking it, not saying it, and Jesus answered the thought."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "And instead of scolding anyone, Jesus told him a small story. There was a man who lent money, and two people owed him."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Luke 7:41",
+   "text": "There was a certain creditor which had two debtors: the one owed five hundred pence, and the other fifty."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "One of them owed about two years of wages. The other owed a couple of months. Very different weights around their necks. But the same problem: neither of them had a single coin left to pay it back."
+  },
+  {
+   "id": "j3",
+   "speaker": "jesus",
+   "verse": "Luke 7:42",
+   "text": "And when they had nothing to pay, he frankly forgave them both. Tell me therefore, which of them will love him most?"
+  },
+  {
+   "id": "s43",
+   "speaker": "scripture",
+   "verse": "Luke 7:43",
+   "text": "I suppose that he, to whom he forgave most."
+  },
+  {
+   "id": "j3b",
+   "speaker": "jesus",
+   "verse": "Luke 7:43",
+   "text": "Thou hast rightly judged."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "To forgive them frankly meant he simply let it go. He did not lower the payments. He tore both debts up and asked for nothing back. And Simon answered, a little carefully: I suppose the one who was let off the most. You have judged rightly, Jesus told him. The one who was carrying the heavier weight is the one who walks away loving the most."
+  },
+  {
+   "id": "jv44",
+   "speaker": "jesus",
+   "verse": "Luke 7:44-46",
+   "text": "Seest thou this woman? I entered into thine house, thou gavest me no water for my feet: but she hath washed my feet with tears, and did wipe them with the hairs of her head. Thou gavest me no kiss: but this woman since the time I came in hath not ceased to kiss my feet. My head with oil thou didst not anoint: but this woman hath anointed my feet with ointment."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "Then Jesus turned and looked at the woman, but he kept speaking to Simon. He set the two of them side by side. Simon had given him no water for his feet; she had washed them with her tears. Simon had given him no greeting; she had not stopped kissing his feet since she came in."
+  },
+  {
+   "id": "j4",
+   "speaker": "jesus",
+   "verse": "Luke 7:47",
+   "text": "Her sins, which are many, are forgiven; for she loved much: but to whom little is forgiven, the same loveth little."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "Read that slowly, because it is easy to turn it backwards. She was not forgiven because she loved so much. She loved so much because she had already been forgiven. The tears were not the payment. They were what it looks like when a debt you could never repay is torn up right in front of you. Simon loved little, because he believed he owed little."
+  },
+  {
+   "id": "jv48",
+   "speaker": "jesus",
+   "verse": "Luke 7:48",
+   "text": "Thy sins are forgiven."
+  },
+  {
+   "id": "n9b",
+   "speaker": "narrator",
+   "text": "Your sins are forgiven. He said it out loud, at a full table, in front of every important man in that town, to the one person in the room everybody there had already written off."
+  },
+  {
+   "id": "j5",
+   "speaker": "jesus",
+   "verse": "Luke 7:50",
+   "text": "Thy faith hath saved thee; go in peace."
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "She came in as the woman everybody had already judged. She walked out saved, and at peace, and loved. And here is the quiet danger in Simon's seat at the table. If you are sure you are only a small sinner, you will only ever be a small lover of God. But let yourself be the one forgiven much, and you get to be the one who loves much. That was never the punishment. That is the gift."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The woman knew exactly how much she had been forgiven, and it made her fearless with love. How much do you believe you have been forgiven?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "in"
+  ],
+  [
+   "n4",
+   "S4",
+   "in"
+  ],
+  [
+   "j1",
+   "S4",
+   "out"
+  ],
+  [
+   "s40",
+   "S4",
+   "in"
+  ],
+  [
+   "n4b",
+   "S4",
+   "out"
+  ],
+  [
+   "n5",
+   "S5",
+   "in"
+  ],
+  [
+   "j2",
+   "S5",
+   "out"
+  ],
+  [
+   "n6",
+   "S5",
+   "in"
+  ],
+  [
+   "j3",
+   "S6",
+   "in"
+  ],
+  [
+   "s43",
+   "S6",
+   "out"
+  ],
+  [
+   "j3b",
+   "S6",
+   "in"
+  ],
+  [
+   "n7",
+   "S6",
+   "out"
+  ],
+  [
+   "jv44",
+   "S7",
+   "in"
+  ],
+  [
+   "n8",
+   "S7",
+   "out"
+  ],
+  [
+   "j4",
+   "S7",
+   "in"
+  ],
+  [
+   "n9",
+   "S7",
+   "out"
+  ],
+  [
+   "jv48",
+   "S8",
+   "in"
+  ],
+  [
+   "n9b",
+   "S8",
+   "out"
+  ],
+  [
+   "j5",
+   "S8",
+   "in"
+  ],
+  [
+   "n10",
+   "S8",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S4": "S4 now carries four beats: Simon's private judgment, Jesus turning on him, Simon's 'Master, say on,' and the retelling. Frame the two men, not the room: Simon reclined at his own table with his face closed and certain, and Jesus already turned toward him, calm, about to speak. The woman visible but out of focus behind them. This still has to hold a conversation, not a scene.",
+  "S6": "S6 now carries four beats and three colour changes: Jesus's question, Simon's answer, Jesus's verdict, and the retelling. Frame the answer being given: Simon caught mid-reply, guarded and careful, working out that he has already agreed to something. Jesus watching him without triumph. The moment a man walks into a door he opened himself.",
+  "S7": "S7 now carries four beats -- Jesus's verbatim comparison of Simon and the woman, its retelling, 'her sins are forgiven,' and n9. Frame the comparison as one picture: Jesus looking at the woman at his feet while his body and his words are turned to Simon. Her hair still wet, the emptied alabaster jar beside her. Simon in the same frame, no water jug and no greeting kiss anywhere near him."
+ }
+}

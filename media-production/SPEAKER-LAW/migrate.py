@@ -49,9 +49,21 @@ def py_str(s):
     return json.dumps(s, ensure_ascii=False)
 
 
+def is_silent(seg):
+    """A HUSH beat — a short silent still with no audio and no caption.
+
+    Six template-C builds use one as a deliberate pause. It must never reach
+    edge-tts: an empty string either errors or writes a zero-length mp3, which
+    then breaks the timing sidecar the captions are anchored to.
+    """
+    return bool(seg.get("silent")) or seg["id"] == "HUSH" or not seg.get("text", "").strip()
+
+
 def render_narration(plan):
     segs = []
     for s in plan["segments"]:
+        if is_silent(s):
+            continue
         v = s.get("verse")
         if v:
             segs.append(f"    # {v}")
@@ -110,6 +122,20 @@ if __name__ == "__main__":
 # grepping, so they are cut. `timed_chunks` and `wrapped` ARE live (6/6 and
 # 45/45) and are renamed instead — never stripped.
 DEAD_HELPERS = ("caption_layers", "caption_overlay")
+
+
+def original_gap_overrides(src):
+    """{seg_id: gap_override} from a template-C build's existing BEATS."""
+    m = re.search(r"^BEATS = \[(.*?)^\]", src, re.M | re.S)
+    if not m:
+        return {}
+    out = {}
+    for bm in re.finditer(r'\(\s*"([^"]+)"\s*,\s*\[.*?\]\s*,\s*([^),]+)\)',
+                          m.group(1), re.S):
+        val = bm.group(2).strip()
+        if val != "None":
+            out[bm.group(1)] = val
+    return out
 
 
 def strip_dead_helpers(src):
@@ -203,8 +229,36 @@ def patch_build(src, plan):
                           "from mbm_speakers import is_scripture", 1)
 
     # BEATS -------------------------------------------------------------------
-    beats = ",\n".join(f'    ({py_str(b[0])}, {b[1]}, {py_str(b[2])})'
-                       for b in plan["beats"])
+    # Template C declares ("id", [(S1,"in"), (S2,"in")], gap_override) — one beat
+    # may span several stills, the audio playing once while the picture cuts at
+    # caption-chunk boundaries. Plans are authored in the flat one-row-per-still
+    # form, so consecutive rows carrying the SAME id are collapsed back into a
+    # span here. Group on consecutive identical ids only, never on the still: a
+    # later beat can legitimately reuse a still the previous span already used.
+    if plan.get("shape") == "C" or re.search(r'^BEATS = \[\s*\(\s*"[^"]+"\s*,\s*\[',
+                                             out, re.M):
+        spans, prev = [], None
+        for b in plan["beats"]:
+            if prev is not None and b[0] == prev[0]:
+                prev[1].append((b[1], b[2]))
+            else:
+                prev = [b[0], [(b[1], b[2])]]
+                spans.append(prev)
+        # Carry the ORIGINAL gap overrides through by segment id. A HUSH beat's
+        # override IS its whole duration (build.py does `t += gap_over` for it),
+        # so dropping it to None crashes the render on a TypeError.
+        gaps = dict(original_gap_overrides(src))
+        gaps.update(plan.get("gap_overrides", {}))
+        rows = []
+        for sid, pairs in spans:
+            inner = ", ".join(f'({st}, {py_str(z)})' for st, z in pairs)
+            g = gaps.get(sid)
+            rows.append(f'    ({py_str(sid)}, [{inner}], '
+                        f'{g if g is not None else "None"})')
+        beats = ",\n".join(rows)
+    else:
+        beats = ",\n".join(f'    ({py_str(b[0])}, {b[1]}, {py_str(b[2])})'
+                           for b in plan["beats"])
     out = re.sub(r"^BEATS = \[.*?^\]", f"BEATS = [\n{beats},\n]",
                  out, count=1, flags=re.M | re.S)
 

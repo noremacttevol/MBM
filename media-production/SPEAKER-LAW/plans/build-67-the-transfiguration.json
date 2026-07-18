@@ -1,0 +1,121 @@
+{
+ "build": "build-67-the-transfiguration",
+ "reference": "Mark 9",
+ "notes": "THE FATHER IS GREEN, NOT RED. This is the headline fix in this build.\n  j2  Mark 9:7  'This is my beloved Son: hear him.'  was painted JESUS-RED. That\n      is the FATHER speaking out of the cloud. Leaving it red has Christ standing\n      on the mountain announcing himself as his own beloved Son. It is now `god`\n      (green). The id is kept so the music bed stays attached.\n      The framing was already split off correctly -- n3, 'Then a bright cloud\n      settled over the mountain, and out of it came a voice,' is the storyteller\n      and stays white -- so no further split was needed here.\n      Mark's wording is 'hear him'; Matthew 17:5 has 'hear ye him'. This build's\n      reference is Mark 9, so Mark's exact wording is kept and the verse field\n      says Mark 9:7. Nothing blended, nothing approximated.\n\nPETER WAS MIS-SPEAKERED TOO. j1, 'Master, it is good for us to be here: and let\nus make three tabernacles...', is Mark 9:5 -- PETER. It was not red, but it was\nsitting in the narrator's white voice as though the storyteller were saying it.\nIt is verbatim KJV out of a man's mouth, so it is now `scripture` (light blue).\nThe id is kept.\n\nNOTHING STAYED RED. Jesus does not speak a red-letter line anywhere in this\nbuild's cut. The only red-letter words in Mark 9:2-8 are in verse 9, after they\ncame down the mountain, which this video does not cover. n4's 'Do not be afraid,\nhe told them' is Matthew 17:7 paraphrased in the storyteller's voice and is left\nas paraphrase deliberately -- it is not in Mark, and putting Matthew's exact\nwords in would mean lifting from a chapter this build never cites.\n\nRETELLINGS ADDED: n2c after Peter's line, n3b after the Father's line.\n\nWOMEN: Mark 9:2-8 records no woman speaking -- the three who went up the mountain\nwere Peter, James and John. Nothing added; nothing invented.\n\nWHY-LAW: heaven interrupted a good idea to say one thing, and the one thing was\nnot 'look at him'. It was 'hear him'. Milk: the Father's instruction about his\nSon is still an instruction about listening.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Jesus took three of his closest friends — Peter, James, and John — up a high mountain, away from everyone."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "And there, in front of them, he changed. His clothes turned a blinding white, brighter than anything on earth, and for one moment they saw him shining with who he really is."
+  },
+  {
+   "id": "n2a",
+   "speaker": "narrator",
+   "text": "Two of the greatest prophets, Moses and Elijah, appeared and stood talking with him."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "Peter, overwhelmed, blurted out the first thing that came to him."
+  },
+  {
+   "id": "j1",
+   "speaker": "scripture",
+   "verse": "Mark 9:5",
+   "text": "Master, it is good for us to be here: and let us make three tabernacles; one for thee, and one for Moses, and one for Elias."
+  },
+  {
+   "id": "n2c",
+   "speaker": "narrator",
+   "text": "Master, it's good that we're here — let us put up three shelters, one for you, one for Moses, one for Elijah. He wanted to keep the moment. Build something, stay a while. Mark adds, kindly, that Peter did not know what to say, because they were so afraid."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Then a bright cloud settled over the mountain, and out of it came a voice."
+  },
+  {
+   "id": "j2",
+   "speaker": "god",
+   "verse": "Mark 9:7",
+   "text": "This is my beloved Son: hear him."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "This is my Son, whom I love. Listen to him. Not build for him. Not stay up here with him. Listen to him. Of everything the Father could have said on that mountain, he gave them one sentence and one instruction."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "And then it was over. The light faded, the cloud lifted, and Jesus stood there alone — the same gentle friend, reaching down to lift them up. Do not be afraid, he told them."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "For one moment they saw who he really is — and heaven said, hear him. That invitation still stands."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "n1",
+   "S2",
+   "in"
+  ],
+  [
+   "n2a",
+   "S3",
+   "in"
+  ],
+  [
+   "n2b",
+   "S4",
+   "in"
+  ],
+  [
+   "j1",
+   "S5",
+   "in"
+  ],
+  [
+   "n2c",
+   "S5",
+   "out"
+  ],
+  [
+   "n3",
+   "S6",
+   "in"
+  ],
+  [
+   "j2",
+   "S7",
+   "in"
+  ],
+  [
+   "n3b",
+   "S7",
+   "out"
+  ],
+  [
+   "n4",
+   "S8",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S5": "S5 now carries Peter's verbatim line and its retelling. Frame the blurting, not the vision: Peter a step forward from the other two, hands already up and apart as if measuring out where the three shelters would go, mouth open mid-sentence. James and John behind him, not moving. A good man saying a well-meant thing at exactly the wrong moment.",
+  "S7": "S7 now carries the Father's verbatim words and their retelling — the single most important beat in the build, and it is GREEN, not red. Frame the voice, not the speaker: the bright cloud low and heavy over the mountaintop, the three men face-down in front of it, and Jesus standing lit from within it. Nothing human in the cloud, no figure, no face. The light should be the one doing the talking."
+ }
+}

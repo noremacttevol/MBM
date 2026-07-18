@@ -1,0 +1,126 @@
+{
+ "build": "build-73-this-day-fulfilled",
+ "reference": "Luke 4",
+ "notes": "STAYED RED, both, and this is the whole ruling for this build. j1 is Isaiah\n61:1-2 - but Jesus is the one reading it out loud off the scroll in the\nsynagogue at Nazareth (Luke 4:18-19), so it is RED, not green. Green marks the\nFather, the Holy Ghost, or premortal Jehovah SPEAKING. Here the speaker in the\nroom is Jesus in the flesh; Isaiah is what he is reading, not who is talking. A\nred-letter KJV inks Luke 4:18-19 for exactly that reason. Same principle as the\ntemptations, where his 'It is written' answers stay red even though he is\nquoting Deuteronomy. j2 (Luke 4:21) 'This day is this scripture fulfilled in\nyour ears' is red and untouched.\n\nNOTE ON THE SPAN: j1 is one audio segment that runs across TWO stills, S3 and\nS4, cutting at a caption boundary. That is untouched - the picture cut stays\nexactly where it was. Same for n3 across S7 and S8.\n\nADDED AS SCRIPTURE, both of them Luke narrating, both light blue:\n  s17  Luke 4:17  'And there was delivered unto him the book of the prophet\n       Esaias. And when he had opened the book, he found the place where it was\n       written,'  - this is the framing split. Everything before Jesus opens his\n       mouth is Luke writing, never red. n1 said the same thing in modern\n       English and now retells it, ON THE SAME STILL S2 - no new artwork.\n  s20  Luke 4:20  'And he closed the book, and he gave it again to the minister,\n       and sat down. And the eyes of all them that were in the synagogue were\n       fastened on him.'  n2 keeps its id and text and now retells it. This is\n       the held breath before the shortest, largest sentence in the video.\n  n1b  new narrator beat on S4, the second half of j1's existing span, so the\n       long Isaiah block gets retold in plain English before the scene moves on.\n       The retelling rule is mandatory and this was the one place in the build\n       where a big stretch of Old English landed unexplained.\n\nCONSIDERED AND LEFT OUT: Luke 4:22, 'Is not this Joseph's son?' It is the\ntown's doubt, and it is exact if a later pass wants it - but n3 is a single\nsegment spanning S7 and S8, so there is nowhere to put the verse without either\nbreaking that span or landing the doubt after the closing thought. Left out on\njudgment, not uncertainty. Milk framing wins: the video ends on 'today', not on\nthe neighbours' shrug.\n\nWOMEN: Luke 4:16-21 records no woman speaking. Nothing added, nothing invented.\n\nPRONUNCIATION: 'Esaias' is the KJV spelling of Isaiah and is a proper noun off\nthe SPEAKER-LAW list. Respelled in `spoken`; the caption keeps the true KJV\nspelling.\n\nWHY-LAW: they had read that scroll for centuries as a promise about someday. He\nhanded it back and told them someday had walked in and sat down.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "He came back to Nazareth — the town that raised him — and on the Sabbath he walked into the synagogue like he always had."
+  },
+  {
+   "id": "s17",
+   "speaker": "scripture",
+   "verse": "Luke 4:17",
+   "text": "And there was delivered unto him the book of the prophet Esaias. And when he had opened the book, he found the place where it was written,"
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "They handed him the scroll of Isaiah. He found the place, and read it out loud."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Luke 4:18-19",
+   "text": "The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives, and recovering of sight to the blind, to set at liberty them that are bruised, to preach the acceptable year of the Lord."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "The Spirit of the Lord is on me, he read, because he anointed me — to bring good news to the poor, to bind up the broken-hearted, to tell prisoners they can go free, to give the blind their sight back, to set bruised people loose. This is the year the Lord has been promising. Every line of it was a promise about somebody who had not come yet."
+  },
+  {
+   "id": "s20",
+   "speaker": "scripture",
+   "verse": "Luke 4:20",
+   "text": "And he closed the book, and he gave it again to the minister, and sat down. And the eyes of all them that were in the synagogue were fastened on him."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Then he rolled the scroll up, handed it back, and sat down. Every eye in the room was fixed on him — this was the boy who grew up on their street. And the room held its breath."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Luke 4:21",
+   "text": "This day is this scripture fulfilled in your ears."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "The promise Israel had waited on for centuries — the healing, the freedom, the good news for the poor — he said it was standing right in front of them. Not someday. Today."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He still reads it as today. What would it mean if that promise were meant for you, right now?"
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "s17",
+   "S2",
+   "in"
+  ],
+  [
+   "n1",
+   "S2",
+   "in"
+  ],
+  [
+   "j1",
+   "S3",
+   "in"
+  ],
+  [
+   "j1",
+   "S4",
+   "in"
+  ],
+  [
+   "n1b",
+   "S4",
+   "out"
+  ],
+  [
+   "s20",
+   "S5",
+   "in"
+  ],
+  [
+   "n2",
+   "S5",
+   "in"
+  ],
+  [
+   "j2",
+   "S6",
+   "in"
+  ],
+  [
+   "n3",
+   "S7",
+   "in"
+  ],
+  [
+   "n3",
+   "S8",
+   "out"
+  ]
+ ],
+ "spoken": {
+  "Esaias": "eh-ZAY-us"
+ },
+ "stills_wanted": {
+  "S2": "S2 now carries the framing verse and its retelling — the scroll being handed over and found. Frame the handover close and reverent: the rolled scroll of Isaiah passing from the attendant's hands into his, both pairs of hands in frame, worn wooden rollers, the linen wrap falling open. An ordinary Sabbath moment one second before it stops being ordinary.",
+  "S4": "S4 is the second half of j1's two-still span and now also carries the plain-English retelling of the whole Isaiah passage. Frame the room hearing it: the congregation from behind Jesus' shoulder, faces lifted and still, an old man leaning forward, a mother holding a child quiet. The words are doing the work — the picture only has to hold the listening.",
+  "S5": "S5 now carries Luke's verse and its retelling — the scroll closed, handed back, and the room turned. Frame the silence: Jesus seated, the scroll already gone from his hands, and every face in the synagogue turned toward him and waiting. He is calm; the room is not. The still has to hold a held breath."
+ }
+}

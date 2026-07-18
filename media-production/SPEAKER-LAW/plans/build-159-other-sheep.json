@@ -1,0 +1,118 @@
+{
+ "build": "build-159-other-sheep",
+ "reference": "John 10",
+ "notes": "STAYED RED: both of them, and nothing moved.\n  kv14  John 10:14  'I am the good shepherd, and know my sheep, and am known of mine.'\n  kv16  John 10:16  'And other sheep I have, which are not of this fold...'\nThis is a Gospel, Jesus speaking in the flesh on the hillside, and a red-letter\nKing James Bible prints both verses red end to end. Both were already verbatim.\n\nNO SPLITS. Neither segment has John's narration welded onto it — there is no\n'Jesus saith unto them' frame on either one — so both stay single beats and the\nedit the viewer sees is unchanged.\n\nNothing lifted from paraphrase. n1 through n3 set verse 14 up and n4 through n6\ncarry verse 16 into plain English before and after it lands, so the retelling\nrule is already met by the narrator the build has.\n\nCompanion to build-134-other-sheep-i-have, which covers the same two verses;\nthe speaker calls here match that plan exactly.\n\nWHY-LAW: milk. The other sheep are named as a promise to the outsider, not as\nan argument about which fold is which. One shepherd, one voice, everybody\ncounted.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "On a hillside, surrounded by his listeners, Jesus reached for the most familiar picture they had — a shepherd and his flock. He was the shepherd, he told them, the good one, and the sheep were his very own."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "It is a tender thing to be known like that. Not counted as part of a crowd, but known — each one, by name, by voice, by the particular way it strays and the particular way it finds its way home."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "And the knowing runs both ways. His own know him too — the sound of his voice, the shape of his care — the way sheep will lift their heads at one familiar step and follow no stranger."
+  },
+  {
+   "id": "kv14",
+   "speaker": "jesus",
+   "verse": "John 10:14",
+   "text": "I am the good shepherd, and know my sheep, and am known of mine."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "But then Jesus said something that must have stopped them cold. This flock, right here in front of me, he told them — you are not all the sheep I have. There are others, in other places, not of this fold."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "People they had never met, in lands they had never seen, who also belonged to him and were waiting to be brought in. And about them he made a quiet, sweeping promise: they too shall hear my voice."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "Not two rival flocks. Not one favoured and one forgotten. In the end, one fold and one shepherd — every scattered sheep gathered home under the same gentle hand."
+  },
+  {
+   "id": "kv16",
+   "speaker": "jesus",
+   "verse": "John 10:16",
+   "text": "And other sheep I have, which are not of this fold: them also I must bring, and they shall hear my voice; and there shall be one fold, and one shepherd."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "So if you have ever felt like an outsider — like one of the other sheep, far from where the story seemed to be happening — hear this. He counted you in from the beginning. He always meant to come for you too."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "That is the wide, patient heart of the Good Shepherd. He has sheep the crowd never counted, and he will not rest until they hear him and come. So the only question is a gentle one. When you hear his voice, will you know it, and follow?"
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Jesus said he has other sheep, not of this fold — and they too will hear his voice, until there is one fold and one shepherd. Wherever you are, he counted you in. When you hear his voice, will you follow?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "in"
+  ],
+  [
+   "kv14",
+   "S4",
+   "in"
+  ],
+  [
+   "n4",
+   "S4",
+   "out"
+  ],
+  [
+   "n5",
+   "S5",
+   "in"
+  ],
+  [
+   "n6",
+   "S6",
+   "in"
+  ],
+  [
+   "kv16",
+   "S7",
+   "in"
+  ],
+  [
+   "n7",
+   "S7",
+   "out"
+  ],
+  [
+   "n8",
+   "S8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {}
+}

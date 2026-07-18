@@ -1,0 +1,118 @@
+{
+ "build": "build-155-falling-away",
+ "reference": "2 Thessalonians 2",
+ "notes": "STAYED RED: nothing. This is an epistle — Paul writing to the saints at\nThessalonica — and a red-letter King James Bible prints no red anywhere in\n2 Thessalonians 2. Both red beats move:\n  kv2  2 Thessalonians 2:2  'That ye be not soon shaken in mind...'   RED -> SCRIPTURE\n  kv3  2 Thessalonians 2:3  'Let no man deceive you by any means...'  RED -> SCRIPTURE\nPainting Paul's warning red made the letter read as words of Christ in the\nflesh, which is the exact error this pass exists to fix. Light blue is Paul.\n\nNO SPLITS. Neither verse welds a narrator frame onto quoted speech — both are\nthe writer's own sentences start to finish, so each is one colour all the way\nthrough.\n\nBOTH VERSES VERIFIED VERBATIM against the King James text and left exactly as\nthe build already had them. Nothing lifted from paraphrase: n2 already retells\nverse 2 and n4 through n7 already carry verse 3 into modern English, so the\nretelling rule is satisfied without adding a beat.\n\nWHY-LAW: milk. The falling away is told as a promise, not an accusation — a\nnight foretold means a morning was always planned. No church is named, nothing\nis argued, and the closing question stays hopeful.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "The young believers in Thessalonica were rattled. Rumors were flying that the great Day of the Lord had already come, and they were frightened and confused. So Paul sat down to write them a steadying letter."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "His first word to them was calm. Do not let yourselves be shaken or alarmed, he said, by every excited rumor and secondhand report, or stampeded into fear by things you cannot even trace to their source."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "He wanted them anchored, not tossed around by the loudest voice in the room. Feelings and hearsay are not the same as truth, and a frightened crowd is rarely a wise one."
+  },
+  {
+   "id": "kv2",
+   "speaker": "scripture",
+   "verse": "2 Thessalonians 2:2",
+   "text": "That ye be not soon shaken in mind, or be troubled, neither by spirit, nor by word, nor by letter as from us, as that the day of Christ is at hand."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Then Paul told them plainly what to watch for. That day, he said, would not arrive until something else happened first — and it was sobering. Before the end, there would come a falling away."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "A drifting from the truth. A dimming of the light that had been lit. Many hearts, over time, turning away from what the apostles had actually given them, until much of it was lost from view."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "But here is the part that turns dread into hope. Paul is telling them ahead of time. A falling away would not mean God had failed, or his plan had broken. It would mean the very thing he predicted was coming to pass."
+  },
+  {
+   "id": "kv3",
+   "speaker": "scripture",
+   "verse": "2 Thessalonians 2:3",
+   "text": "Let no man deceive you by any means: for that day shall not come, except there come a falling away first, and that man of sin be revealed, the son of perdition;"
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "And you do not warn people about a night unless a morning is meant to follow. A falling away only makes sense if there is something to fall back to — a truth that can be restored, brought back, and lit again."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "So this hard little verse is really a quiet promise. The dimming was foretold, which means the returning was always part of the plan. So the only question is a hopeful one. When the light is offered again, will you know it, and take hold?"
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Paul warned that a falling away would come first — not because God failed, but because he foretold it. And what is foretold can be restored. When the light returns, will you take hold of it?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "in"
+  ],
+  [
+   "kv2",
+   "S4",
+   "in"
+  ],
+  [
+   "n4",
+   "S4",
+   "out"
+  ],
+  [
+   "n5",
+   "S5",
+   "in"
+  ],
+  [
+   "n6",
+   "S6",
+   "in"
+  ],
+  [
+   "kv3",
+   "S7",
+   "in"
+  ],
+  [
+   "n7",
+   "S7",
+   "out"
+  ],
+  [
+   "n8",
+   "S8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {}
+}

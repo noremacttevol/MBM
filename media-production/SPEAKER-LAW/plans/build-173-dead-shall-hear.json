@@ -1,0 +1,89 @@
+{
+ "build": "build-173-dead-shall-hear",
+ "reference": "John 5",
+ "notes": "STAYED RED: all three, and nothing moved.\n  j1a  John 5:25  'Verily, verily, I say unto you, The hour is coming, and now is,'\n  j1b  John 5:25  'when the dead shall hear the voice of the Son of God:'\n  j1c  John 5:25  'and they that hear shall live.'\nGospel, Jesus in the flesh, red-letter. The build had already broken John 5:25\ninto three beats for pacing — that is one red sentence cut three ways for the\nedit, not three speakers, so all three are red. Checked against the King James\ntext: the three join back into verse 25 word for word with nothing lost at the\nseams.\n\nNO SPLITS NEEDED. There is no evangelist frame anywhere in the quoted material —\n'Verily, verily' is Christ's own opening word, not John introducing him — so the\nred starts at the first syllable of j1a.\n\nNothing lifted from paraphrase. n0 and n1 set the verse up and n2a and n2b retell\nit after, which is the retelling rule already met. j1a, j1b and j1c touch each\nother with no narrator between them; the validator will warn twice about that.\nThe warnings are wrong to act on here — this is one sentence by one speaker, and\nputting the storyteller inside it would break the line in half.\n\nThe closing card is not a beat in this build and has been left out of BEATS,\nexactly as the original had it.\n\nWHY-LAW: milk. The resurrection is offered as a voice you can already hear, not\nas a doctrine to be defended. Short, quiet, and it ends on listening.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Jesus said a time was coming — and had already begun — when something impossible would happen."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "The dead would hear a voice. Not a rumor of a voice. His voice."
+  },
+  {
+   "id": "j1a",
+   "speaker": "jesus",
+   "verse": "John 5:25",
+   "text": "Verily, verily, I say unto you, The hour is coming, and now is,"
+  },
+  {
+   "id": "j1b",
+   "speaker": "jesus",
+   "verse": "John 5:25",
+   "text": "when the dead shall hear the voice of the Son of God:"
+  },
+  {
+   "id": "j1c",
+   "speaker": "jesus",
+   "verse": "John 5:25",
+   "text": "and they that hear shall live."
+  },
+  {
+   "id": "n2a",
+   "speaker": "narrator",
+   "text": "The One who made life is the One who calls it back."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "To hear him is to live."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He speaks, and death loses its grip. Lean in and listen — and live."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "n1",
+   "S3",
+   "in"
+  ],
+  [
+   "j1a",
+   "S2",
+   "in"
+  ],
+  [
+   "j1b",
+   "S4",
+   "in"
+  ],
+  [
+   "j1c",
+   "S5",
+   "in"
+  ],
+  [
+   "n2a",
+   "S6",
+   "in"
+  ],
+  [
+   "n2b",
+   "S7",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {}
+}

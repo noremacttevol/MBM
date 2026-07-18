@@ -54,5 +54,133 @@
   "trailing": 1.52,
   "decode_errors": 0,
   "ok": true
+ },
+ "build-117-hosea-buys-her-back": {
+  "status": "shipped",
+  "secs": 269.8,
+  "total": 274.33,
+  "trailing": 1.49,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-118-jonah-god-who-relents": {
+  "status": "shipped",
+  "secs": 358.2,
+  "total": 333.95,
+  "trailing": 1.46,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-119-fourth-man-in-fire": {
+  "status": "shipped",
+  "secs": 276.8,
+  "total": 276.13,
+  "trailing": 1.47,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-120-job-from-whirlwind": {
+  "status": "shipped",
+  "secs": 314.7,
+  "total": 325.27,
+  "trailing": 1.49,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-128-famine-of-hearing": {
+  "status": "shipped",
+  "secs": 58.4,
+  "total": 72.77,
+  "trailing": 1.49,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-135-rainbow-covenant": {
+  "status": "shipped",
+  "secs": 272.4,
+  "total": 305.62,
+  "trailing": 1.47,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-147-joseph-forgives": {
+  "status": "shipped",
+  "secs": 99.1,
+  "total": 126.76,
+  "trailing": 1.89,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-148-ruth-and-the-redeemer": {
+  "status": "shipped",
+  "secs": 185.9,
+  "total": 207.73,
+  "trailing": 1.92,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-149-hannah-is-heard": {
+  "status": "shipped",
+  "secs": 151.5,
+  "total": 172.59,
+  "trailing": 1.91,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-150-shepherd-psalm": {
+  "status": "shipped",
+  "secs": 125.6,
+  "total": 155.67,
+  "trailing": 1.97,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-151-ask-of-god": {
+  "status": "shipped",
+  "secs": 159.4,
+  "total": 175.8,
+  "trailing": 1.54,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-152-revealeth-his-secret": {
+  "status": "shipped",
+  "secs": 153.5,
+  "total": 162.9,
+  "trailing": 1.52,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-153-restitution": {
+  "status": "shipped",
+  "secs": 179.7,
+  "total": 204.99,
+  "trailing": 1.47,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-154-everlasting-gospel": {
+  "status": "shipped",
+  "secs": 177.6,
+  "total": 179.35,
+  "trailing": 1.47,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-156-famine-of-hearing": {
+  "status": "shipped",
+  "secs": 145.6,
+  "total": 161.87,
+  "trailing": 1.49,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-157-marvellous-work": {
+  "status": "shipped",
+  "secs": 205.2,
+  "total": 209.75,
+  "trailing": 1.46,
+  "decode_errors": 0,
+  "ok": true
  }
 }

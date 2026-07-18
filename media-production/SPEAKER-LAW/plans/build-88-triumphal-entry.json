@@ -1,0 +1,164 @@
+{
+ "build": "build-88-triumphal-entry",
+ "reference": "Matthew 21",
+ "notes": "BOTH RED BEATS WERE WRONG, AND NEITHER WAS JESUS. This build painted the\ncrowd red.\n  j1  Matthew 21:9  'Hosanna to the son of David...' -- that is the MULTITUDE\n      shouting, not Jesus. A red-letter KJV leaves it black. Moved to SCRIPTURE\n      (light blue). Id kept.\n  j2  Matthew 21:10-11 'And when he was come into Jerusalem, all the city was\n      moved, saying, Who is this? And the multitude said, This is Jesus the\n      prophet of Nazareth of Galilee.' -- that is Matthew writing, with the\n      crowd quoted inside it. Both halves are blue, so no split is needed for\n      colour; it stays one beat as SCRIPTURE. Id kept.\n\nRED ADDED -- HE NEVER SPOKE IN HIS OWN ENTRY. Jesus has exactly one speech in\nMatthew 21:1-11 and it was sitting inside n0a's paraphrase. Lifted verbatim onto\nST1, the still already named 's1-go-into-the-village':\n  jv2  Matthew 21:2-3  'Go into the village over against you, and straightway ye\n       shall find an ass tied, and a colt with her: loose them, and bring them\n       unto me. And if any man say ought unto you, ye shall say, The Lord hath\n       need of them; and straightway he will send them.'\n  n0a2 carries the retelling.\n\nPROPHECY LIFTED. n0b said only 'It was exactly as the old prophecy had said' and\nnever said it. Matthew 21:5 quotes Zechariah, so it is Matthew writing --\nSCRIPTURE, not god:\n  s5  Matthew 21:5  'Tell ye the daughter of Sion, Behold, thy King cometh unto\n      thee, meek, and sitting upon an ass, and a colt the foal of an ass.'\n  n1b already retells this exactly ('The King was coming -- but not the kind they\n  expected'), so it was left alone and simply follows the verse.\n\nNO GREEN: the Father does not speak in Matthew 21:1-11.\n\nWOMEN: Matthew 21:1-11 records no woman speaking. Nothing added, nothing invented.\n\nWHY-LAW: the crowd's own words name him King, and the King they were shouting for\nrode in on a borrowed farm animal. Milk: his kingdom arrives quietly, and you are\nwelcome in it.",
+ "segments": [
+  {
+   "id": "n0a",
+   "speaker": "narrator",
+   "text": "As Jesus came near Jerusalem, he sent two disciples ahead into the village with a strange errand."
+  },
+  {
+   "id": "jv2",
+   "speaker": "jesus",
+   "verse": "Matthew 21:2-3",
+   "text": "Go into the village over against you, and straightway ye shall find an ass tied, and a colt with her: loose them, and bring them unto me. And if any man say ought unto you, ye shall say, The Lord hath need of them; and straightway he will send them."
+  },
+  {
+   "id": "n0a2",
+   "speaker": "narrator",
+   "text": "Go into the village, he told them. You'll find a donkey tied there with her colt. Untie them and bring them to me. And if anyone asks why, just say the Lord needs them — and he'll let them go."
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "They went, and it happened exactly as he said. And all of it was exactly as the old prophecy had said, too."
+  },
+  {
+   "id": "s5",
+   "speaker": "scripture",
+   "verse": "Matthew 21:5",
+   "text": "Tell ye the daughter of Sion, Behold, thy King cometh unto thee, meek, and sitting upon an ass, and a colt the foal of an ass."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "The King was coming — but not the kind they expected."
+  },
+  {
+   "id": "n1a",
+   "speaker": "narrator",
+   "text": "The crowds spread their cloaks on the road, and cut branches from the trees, and lined his path."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "And the people shouted as he rode in:"
+  },
+  {
+   "id": "j1",
+   "speaker": "scripture",
+   "verse": "Matthew 21:9",
+   "text": "Hosanna to the son of David: Blessed is he that cometh in the name of the Lord; Hosanna in the highest."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "Hosanna means save us now. Save us now, Son of David — blessed is the one coming in the name of the Lord. They were calling him King out loud, in the street, where everyone could hear it."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "The whole city was stirred. When they asked who this was, the crowd answered plainly."
+  },
+  {
+   "id": "j2",
+   "speaker": "scripture",
+   "verse": "Matthew 21:10-11",
+   "text": "And when he was come into Jerusalem, all the city was moved, saying, Who is this? And the multitude said, This is Jesus the prophet of Nazareth of Galilee."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "Who is this? the city asked. And the answer came back from the road — this is Jesus, the prophet, out of Nazareth in Galilee."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "He came not with swords but with peace — riding on a donkey, the humble King the scriptures had promised."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The King rode in on a donkey, not a warhorse. His kingdom is peace. You're welcome in it."
+  }
+ ],
+ "beats": [
+  [
+   "n0a",
+   "ST1",
+   "in"
+  ],
+  [
+   "jv2",
+   "ST1",
+   "out"
+  ],
+  [
+   "n0a2",
+   "ST1",
+   "in"
+  ],
+  [
+   "n0b",
+   "ST2",
+   "in"
+  ],
+  [
+   "s5",
+   "ST3",
+   "in"
+  ],
+  [
+   "n1b",
+   "ST3",
+   "out"
+  ],
+  [
+   "n1a",
+   "ST4",
+   "in"
+  ],
+  [
+   "n2",
+   "ST5",
+   "in"
+  ],
+  [
+   "j1",
+   "ST6",
+   "in"
+  ],
+  [
+   "n2b",
+   "ST6",
+   "out"
+  ],
+  [
+   "n3",
+   "ST7",
+   "in"
+  ],
+  [
+   "j2",
+   "ST8",
+   "in"
+  ],
+  [
+   "n3b",
+   "ST8",
+   "out"
+  ],
+  [
+   "n4",
+   "ST9",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST1": "ST1 now carries three beats — the errand, Jesus's verbatim instruction, and its retelling. Frame the sending, not the village: Jesus stopped on the road with two disciples close in, one hand lifted toward the rooftops ahead as he gives them the directions. The colt is not in this shot yet — only the instruction and the two men listening.",
+  "ST3": "ST3 now carries Zechariah's prophecy and the line that retells it. Frame the meekness the verse names: Jesus low on the young colt, feet nearly brushing the road, city walls rising huge behind him. The contrast between the size of the gate and the smallness of the animal is the whole point.",
+  "ST8": "ST8 now carries the city's question AND the crowd's answer. Frame both in one image: faces at windows and doorways turned toward the road asking, and in the foreground a man on the road pointing back toward Jesus as he answers them."
+ }
+}

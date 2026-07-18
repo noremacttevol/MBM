@@ -1,0 +1,164 @@
+{
+ "build": "build-54-the-leper",
+ "reference": "Mark 1",
+ "notes": "STAYED RED: jv41 \"I will; be thou clean.\" (Mark 1:41) is Jesus in the flesh and a\nred-letter KJV inks exactly those four words -- and only those. Kept its id.\n\nNARRATION FRAMING SPLIT OFF IT. Mark 1:41 reads \"And Jesus, moved with compassion,\nput forth his hand, and touched him, and saith unto him, I will; be thou clean.\"\nEverything before the comma is Mark writing, not Jesus speaking, so it is now s41a\n[scripture, light blue] sitting on the SAME still (S4) immediately before jv41. No\nnew artwork, and the edit the viewer sees is unchanged.\n\nTHE LEPER WAS NEVER HEARD. His one line -- the whole hinge of the story -- was\nsitting inside n2 as modern paraphrase in white. Lifted verbatim as s40 [scripture],\nsame still (S2): \"If thou wilt, thou canst make me clean.\" (Mark 1:40)\n  WORDING NOTE: the brief you may have in mind, \"Lord, if thou wilt, thou canst make\n  me clean,\" is Matthew 8:2 / Luke 5:12. This build is Mark 1, and Mark 1:40 has no\n  \"Lord.\" Used the Mark form so a viewer who looks up Mark 1:40 finds it word for\n  word. Both are exact; only one belongs in a Mark video.\n  n2 is trimmed to the frame only and a new n2b carries the retelling it used to\n  carry.\n\nJESUS'S SECOND RED LINE WAS MISSING ENTIRELY. n6 paraphrased Mark 1:44 in white.\nLifted as j44 [jesus] on S7: \"See thou say nothing to any man: but go thy way, shew\nthyself to the priest, and offer for thy cleansing those things which Moses\ncommanded, for a testimony unto them.\" n6 keeps its id, trimmed to the frame; n6b\nretells it.\n\nNO GREEN: nothing in Mark 1:40-45 is the Father or a voice from heaven.\n\nWOMEN: Mark 1:40-45 records no woman speaking. Nothing added; nothing invented.\n\nWHY-LAW: he never doubted the power, only the will -- and the answer was two words\nlong. Milk: the reaching hand came before the healing did. The untouchable man was\ntouched first.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "In those days there was no lonelier life than a leper's. The disease wasted his skin, and the law kept him apart from everyone he loved — no home, no temple, no touch, made to cry out 'unclean' if anyone drew near. He had not felt a kind hand in years."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "When he heard that Jesus was near, he did the forbidden thing: he came close. He fell on his knees and begged him."
+  },
+  {
+   "id": "s40",
+   "speaker": "scripture",
+   "verse": "Mark 1:40",
+   "text": "If thou wilt, thou canst make me clean."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "If you are willing, he said, you can make me clean. He never doubted the power. He only wondered about the will — whether a man like him was someone Jesus would want to bother with."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "And Jesus was moved with compassion. He did not step back from the man everyone else stepped back from. He reached out his hand toward the very thing no one would touch."
+  },
+  {
+   "id": "s41a",
+   "speaker": "scripture",
+   "verse": "Mark 1:41",
+   "text": "And Jesus, moved with compassion, put forth his hand, and touched him, and saith unto him,"
+  },
+  {
+   "id": "jv41",
+   "speaker": "jesus",
+   "verse": "Mark 1:41",
+   "text": "I will; be thou clean."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "I will. Two words, and the wondering was over. And he touched him. Before the healing had even come, the untouchable man was touched; and then, at once, the leprosy left him, and his skin was made new."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "The sores were gone. The pale, wasted skin was warm and whole again, like the skin of a young child. In a moment he was clean, and more than clean; he was a man who could go home."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "Then Jesus sent him away with strict instructions."
+  },
+  {
+   "id": "j44",
+   "speaker": "jesus",
+   "verse": "Mark 1:44",
+   "text": "See thou say nothing to any man: but go thy way, shew thyself to the priest, and offer for thy cleansing those things which Moses commanded, for a testimony unto them."
+  },
+  {
+   "id": "n6b",
+   "speaker": "narrator",
+   "text": "Say nothing to anyone, he told him. Just go and show yourself to the priest, and make the offering Moses commanded — and be given back, quietly and legally, the whole life that had been taken from you."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "But the man could not hold it in. He went out and told everyone, freely, everywhere; how could he not? The mercy was far too great to keep to himself."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "And so the news ran ahead of him, until he could hardly walk into a town in the open, and people came to him from every direction, out of every corner of the land."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He is still willing. There is no part of you so unclean, so far gone, so long untouched, that he will draw back his hand from it. He reaches for the very thing you are most ashamed of and says, I will. What would you ask him to make clean?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "s40",
+   "S2",
+   "out"
+  ],
+  [
+   "n2b",
+   "S2",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "in"
+  ],
+  [
+   "s41a",
+   "S4",
+   "in"
+  ],
+  [
+   "jv41",
+   "S4",
+   "out"
+  ],
+  [
+   "n4",
+   "S5",
+   "in"
+  ],
+  [
+   "n5",
+   "S6",
+   "in"
+  ],
+  [
+   "n6",
+   "S7",
+   "in"
+  ],
+  [
+   "j44",
+   "S7",
+   "out"
+  ],
+  [
+   "n6b",
+   "S7",
+   "in"
+  ],
+  [
+   "n7",
+   "S8",
+   "in"
+  ],
+  [
+   "n8",
+   "S9",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S2": "S2 now carries three beats — the frame, the leper's verbatim 'If thou wilt, thou canst make me clean,' and its retelling. Frame the asking, not the disease: the man down on both knees in the road, close enough that the crowd has pulled back around him, face lifted, mouth open mid-sentence. He is breaking the law by being this near. Hope and shame in the same face.",
+  "S4": "S4 now carries Mark's verbatim framing and the two red words together. Frame the instant of contact: Jesus's bare hand already on the ruined skin of the man's shoulder, fingers actually touching — not hovering. Jesus's face calm and unhurried, no flinch, no revulsion. The hand is the subject of the picture.",
+  "S7": "S7 now carries Jesus's verbatim charge and its retelling. Frame what he is sending the man toward, not the warning: Jesus close and quiet, one hand on the man's arm, pointing him off down the road toward the temple. A private instruction between two people, given softly, with the crowd out of focus behind them."
+ }
+}

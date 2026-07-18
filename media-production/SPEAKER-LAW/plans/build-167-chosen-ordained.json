@@ -1,0 +1,108 @@
+{
+ "build": "build-167-chosen-ordained",
+ "reference": "John 15",
+ "notes": "STAYED RED: both halves, unchanged.\n  kv16a  John 15:16  'Ye have not chosen me, but I have chosen you, and ordained you,'\n  kv16b  John 15:16  'that ye should go and bring forth fruit, and that your fruit\n                      should remain: that whatsoever ye shall ask of the Father in\n                      my name, he may give it you.'\nGospel, Jesus in the flesh in the upper room, red-letter. The build had already\nsplit John 15:16 into two beats for pacing — that split is between two halves of\nONE red sentence, not between two speakers, so both halves are red and both stay\nred. Nothing moved.\n\nNO NEW SPLITS. There is no evangelist frame anywhere in this verse; 'Ye have not\nchosen me' is Christ's own opening, not John's introduction, so kv16a is red from\nits first word.\n\nChecked both halves against the King James text and they join back into John\n15:16 word for word with nothing dropped at the seam. Nothing lifted from\nparaphrase — n2 retells kv16a and n5 retells kv16b, so the retelling rule is\nalready satisfied by the narrator the build has.\n\nWHY-LAW: milk. Being called is presented as a gift you receive by name, never a\nbadge you pin on yourself. No office is named and no organisation is argued for\n— just the direction of the choosing, from heaven down.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "The people God calls to his work rarely go looking for the honour. They are usually found doing something ordinary — mending a net, carrying water, quietly living an unremarkable life, never dreaming of appointing themselves to anything."
+  },
+  {
+   "id": "kv16a",
+   "speaker": "jesus",
+   "verse": "John 15:16",
+   "text": "Ye have not chosen me, but I have chosen you, and ordained you,"
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Notice the direction of it. The choosing runs from heaven down to us, not the other way. He picks a person out, calls them by their own name, and sets them apart with real authority for a work that is his to give."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "And a calling is never just a title to wear. It is a sending. Those he chose were meant to go — out to the roads and the villages, to actually do the thing they had been set apart to do."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "The measure of it would be simple and real: fruit. Not applause, not a position, but honest results — good work done, and people lifted and gathered in, like a harvest brought home."
+  },
+  {
+   "id": "kv16b",
+   "speaker": "jesus",
+   "verse": "John 15:16",
+   "text": "that ye should go and bring forth fruit, and that your fruit should remain: that whatsoever ye shall ask of the Father in my name, he may give it you."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "And what fruit it was to be: not a flash that fades, but a harvest that lasts. Better still, the calling came backed with power — so that what these called ones asked of heaven, in the proper way, heaven would answer and give."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "Here is the quiet study gem. You do not license yourself into God's service, and you do not have to. He calls of his own choosing, by name, and ordains for the work. To be called of God is a gift you receive, not a badge you take."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "And that call still goes out, still by name, still to ordinary people who never went looking for it. When heaven singles you out and calls you by your own name, will you look up, and answer?"
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "You do not choose yourself into God's work — he chooses and ordains, by name, for fruit that lasts. When heaven calls you by your own name, will you look up, and answer?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "kv16a",
+   "S2",
+   "in"
+  ],
+  [
+   "n2",
+   "S3",
+   "in"
+  ],
+  [
+   "n3",
+   "S4",
+   "in"
+  ],
+  [
+   "n4",
+   "S5",
+   "in"
+  ],
+  [
+   "kv16b",
+   "S6",
+   "in"
+  ],
+  [
+   "n5",
+   "S7",
+   "in"
+  ],
+  [
+   "n6",
+   "S7",
+   "out"
+  ],
+  [
+   "n7",
+   "S8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {}
+}

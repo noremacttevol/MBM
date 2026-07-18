@@ -1,0 +1,170 @@
+{
+ "build": "build-46-seed-growing",
+ "reference": "Mark 4",
+ "notes": "STAYED RED, ALL FOUR, UNCHANGED. Mark 4:26-29 is a parable spoken by Jesus in\nthe flesh and a red-letter KJV inks the whole of it, including the farmer's\ndoings inside the story. jv26 (4:26), jv27 (4:27), jv28 (4:28), jv29 (4:29) are\neach verbatim and each already stripped of Mark's framing -- 4:26 opens \"And he\nsaid, So is the kingdom of God...\" and the segment starts at \"So is the kingdom\nof God\", so no split was needed anywhere in this build.\n\nNO SPLITS. Not one segment welded narration to speech.\n\nNO GREEN, NO BLUE. Nobody but Jesus speaks in Mark 4:26-29. The farmer never\nopens his mouth -- he sleeps, rises, and puts in the sickle. There is no second\nvoice to lift.\n\nWOMEN: Mark 4:26-29 records no woman speaking. Nothing added; nothing invented.\n\nRETELLING RULE ALREADY SATISFIED. Every red beat was already followed by the\nstoryteller saying it again in plain English -- jv26 by n2, jv27 by n3, jv28 by\nn6, jv29 by n9. Nothing needed to be inserted. This build was already built the\nway the law asks for; the only change is that the colour and the voice now come\nfrom one declaration instead of two.\n\nWHY-LAW: the growing was never his job. Milk -- you plant, God grows it, and you\nare allowed to sleep tonight.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "This might be the most restful thing he ever said. It is about a farmer, and a field, and the one part of the whole process that is never, not for one second, up to you."
+  },
+  {
+   "id": "jv26",
+   "speaker": "jesus",
+   "verse": "Mark 4:26",
+   "text": "So is the kingdom of God, as if a man should cast seed into the ground;"
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "A man walks out and scatters seed across his field. That is his job. He does it well, he does it by hand, and then, and this is the part that matters, he goes home."
+  },
+  {
+   "id": "jv27",
+   "speaker": "jesus",
+   "verse": "Mark 4:27",
+   "text": "And should sleep, and rise night and day, and the seed should spring and grow up, he knoweth not how."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "And then he lives his life. He sleeps at night and gets up in the morning. Ordinary weeks go by. And the whole time, down in the dark soil where he cannot see and cannot help, the seed is doing the one thing he could never make it do. It is growing."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Notice what he is not doing. He is not out there at midnight pulling on the shoots to stretch them longer. He is not standing over the dirt, worried it forgot how. He planted. Now he trusts. The growing was never his job."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "And the gentlest words in the whole story are about that. He does not even grasp the miracle he is leaning on. He does not have to. It works whether he understands it or not."
+  },
+  {
+   "id": "jv28",
+   "speaker": "jesus",
+   "verse": "Mark 4:28",
+   "text": "For the earth bringeth forth fruit of herself; first the blade, then the ear, after that the full corn in the ear."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "And it comes in its own order, on its own clock. The first tender shoots. Then the heads of grain. Then the whole field heavy and golden and ready, all in its time, none of it rushed, none of it forced."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "You cannot hurry a field. You cannot argue a seed into sprouting faster. Everything good that has ever grown in your life grew like this, quietly, underground, on a timetable you did not set."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "So if you planted something good and you still cannot see it, this is the story for you. Hidden is not the same as dead. Slow is not the same as stopped. Under the surface, where you cannot watch it, it is already on its way up."
+  },
+  {
+   "id": "jv29",
+   "speaker": "jesus",
+   "verse": "Mark 4:29",
+   "text": "But when the fruit is brought forth, immediately he putteth in the sickle, because the harvest is come."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "And then one morning it is ready, and the waiting is over, and there is nothing left to do but go out with joy and bring it in. The harvest comes. That was never the part in doubt."
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "Here is the rest he is holding out to you. The kingdom of God is not a thing you have to force into the world by sheer effort. You do your small, faithful part. You plant. And God does the part you were never strong enough to do anyway. He makes it grow."
+  },
+  {
+   "id": "n11",
+   "speaker": "narrator",
+   "text": "So you can actually sleep tonight. The seed is not waiting on your worry. It is doing, down in the dark, exactly what he promised it would."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He told a whole crowd that the growing was never on their shoulders. That the harvest was already coming, whether they understood it or not. What could you finally set down, if you believed him?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "jv26",
+   "S2",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "out"
+  ],
+  [
+   "jv27",
+   "S3",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "out"
+  ],
+  [
+   "n4",
+   "S4",
+   "in"
+  ],
+  [
+   "n5",
+   "S5",
+   "in"
+  ],
+  [
+   "jv28",
+   "S6",
+   "in"
+  ],
+  [
+   "n6",
+   "S6",
+   "out"
+  ],
+  [
+   "n7",
+   "S7",
+   "in"
+  ],
+  [
+   "n8",
+   "S8",
+   "in"
+  ],
+  [
+   "jv29",
+   "S9",
+   "in"
+  ],
+  [
+   "n9",
+   "S9",
+   "out"
+  ],
+  [
+   "n10",
+   "S10",
+   "in"
+  ],
+  [
+   "n11",
+   "S11",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {}
+}

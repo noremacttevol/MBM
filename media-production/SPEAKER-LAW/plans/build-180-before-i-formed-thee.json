@@ -1,0 +1,134 @@
+{
+ "build": "build-180-before-i-formed-thee",
+ "reference": "Jeremiah 1",
+ "notes": "Both scripture beats were painted JESUS-RED. Jeremiah is Old Testament, so\nneither can be red - and both are the LORD speaking in first person, which makes\nthem GREEN:\n  s1  Jeremiah 1:5  'Before I formed thee in the belly I knew thee...'  RED -> GOD\n  s2  Jeremiah 1:8  'Be not afraid of their faces: for I am with thee to\n                     deliver thee, saith the LORD.'                     RED -> GOD\n\nNO SPLIT on s2, and that is a judgement call worth stating. It ends with 'saith\nthe LORD' - technically Jeremiah's attribution wrapper, technically blue. But\npeeling three words off the end of a nine-word promise would leave a stub beat\nthat the ear reads as a stumble, and the attribution is doing the opposite of\nwhat a narrator clause usually does: it is pointing AT the speaker, not away\nfrom him. Kept whole as green, which is how a listener hears it anyway.\n\nLIFTED TWO VERSES out of narrator paraphrase - the real upgrade here. n3a and\nn3b were retelling the actual exchange between Jeremiah and God in modern\nEnglish, so the viewer never got to hear the boy answer back:\n  s1b  Jeremiah 1:6  'Ah, Lord GOD! behold, I cannot speak: for I am a\n                      child.'                                   NEW, scripture\n  g7   Jeremiah 1:7  'Say not, I am a child: for thou shalt go to all that I\n                      shall send thee, and whatsoever I command thee thou\n                      shalt speak.'                             NEW, god\nNote the colours: Jeremiah's protest is blue, because Jeremiah is a man; God's\nanswer is green. That back-and-forth of blue and green IS the story, and it was\ninvisible before. s1b sits on ST2 with n3a and g7 sits on ST7 with n3b, so both\nreuse existing artwork and n3a/n3b become the retellings they should have been.\n\ng7 is quoted from 'Say not' onward - Jeremiah's 'But the LORD said unto me,'\nwrapper is left off rather than made its own three-word beat, since n3a's setup\nalready tells the viewer who answers.\n\nADDED n1r - a narrator retelling of Jeremiah 1:5 immediately after it. Before\nthis, God's longest and most tender line went straight into Jeremiah's protest\nwith no plain-English landing at all. n1r sits on ST5 with s1.\n\nNothing left as paraphrase from uncertainty; all four quoted lines are verbatim\nJeremiah 1:5-8.\n\nWHY-LAW: milk. He was known before he was born and he was scared anyway, and\nGod did not scold him for it - he just promised to come along. The comfort is\nthe point, not the calling.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "A young man named Jeremiah felt far too small for the job. God was calling him to speak to nations, and he was certain he could not do it."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "But the call did not begin the day he heard it. Long before he was born, before he ever drew a breath, the plan was already set."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "The God who made him had already chosen him — and blessing, not pressure, was the shape of it."
+  },
+  {
+   "id": "s1",
+   "speaker": "god",
+   "verse": "Jeremiah 1:5",
+   "text": "Before I formed thee in the belly I knew thee; and before thou camest forth out of the womb I sanctified thee, and I ordained thee a prophet unto the nations."
+  },
+  {
+   "id": "n1r",
+   "speaker": "narrator",
+   "text": "Read that again slowly. Before I made your body, I knew you. Before you were ever born, I set you apart, and I gave you this work. God is telling a frightened young man that they had already met — long before anybody in Jerusalem knew his name."
+  },
+  {
+   "id": "s1b",
+   "speaker": "scripture",
+   "verse": "Jeremiah 1:6",
+   "text": "Ah, Lord GOD! behold, I cannot speak: for I am a child."
+  },
+  {
+   "id": "n3a",
+   "speaker": "narrator",
+   "text": "Jeremiah answered that he was only a child."
+  },
+  {
+   "id": "g7",
+   "speaker": "god",
+   "verse": "Jeremiah 1:7",
+   "text": "Say not, I am a child: for thou shalt go to all that I shall send thee, and whatsoever I command thee thou shalt speak."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "The LORD replied — go where I send you, speak what I command, and do not be afraid, for I am with you to deliver you."
+  },
+  {
+   "id": "s2",
+   "speaker": "god",
+   "verse": "Jeremiah 1:8",
+   "text": "Be not afraid of their faces: for I am with thee to deliver thee, saith the LORD."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "The same God who knew you before you were born is the one who walks with you now. The calling is His; the courage is His gift."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "You were known before you were born. You are not too small for what He has for you."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "n1",
+   "ST4",
+   "in"
+  ],
+  [
+   "n2",
+   "ST3",
+   "in"
+  ],
+  [
+   "s1",
+   "ST5",
+   "in"
+  ],
+  [
+   "n1r",
+   "ST5",
+   "out"
+  ],
+  [
+   "s1b",
+   "ST2",
+   "in"
+  ],
+  [
+   "n3a",
+   "ST2",
+   "out"
+  ],
+  [
+   "g7",
+   "ST7",
+   "in"
+  ],
+  [
+   "n3b",
+   "ST7",
+   "out"
+  ],
+  [
+   "s2",
+   "ST6",
+   "in"
+  ],
+  [
+   "n4",
+   "ST8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST5": "ST5 now carries God's longest green line and then a full narrator retelling, the longest stretch in the video. Frame the words themselves rather than the man: the sense of being known before existing - a quiet interior, light coming from somewhere unseen, and Jeremiah small and still inside it. Nothing literal about wombs. It needs depth for a slow zoom to travel through, because it holds two long beats.",
+  "ST2": "ST2 now carries Jeremiah's own protest in blue and then the storyteller. It should read as smallness, not sadness - a young man who genuinely believes he is the wrong person, hands open, looking up rather than down. He is arguing, not despairing.",
+  "ST7": "ST7 now carries God's answer in green and then the storyteller, so the colour turns on this still. The road opening is right, but it should feel like an assignment rather than an escape: the way ahead visible and long, and the figure at the near end of it not yet moving."
+ }
+}

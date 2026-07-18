@@ -1,0 +1,153 @@
+{
+ "build": "build-55-withered-hand",
+ "reference": "Mark 3",
+ "notes": "STAYED RED, both of them, and a third added.\n  jv4  Mark 3:4  \"Is it lawful to do good on the sabbath days, or to do evil? to\n       save life, or to kill?\"  -- already correctly stopping short of \"But they\n       held their peace,\" which is Mark writing. Left exactly as it was.\n  jv5  Mark 3:5  \"Stretch forth thine hand.\"  -- kept its id.\n  j3   Mark 3:3  \"Stand forth.\"  -- MISSING ENTIRELY. n3 paraphrased it in white\n       (\"stand up, and come out here into the midst\"). Lifted verbatim as its own\n       red beat on the SAME still (S3). n3 keeps its id, trimmed to the frame, and\n       n3b carries the retelling.\n\nNARRATION FRAMING SPLIT OFF THE SECOND RED LINE. Mark 3:5 reads \"And when he had\nlooked round about on them with anger, being grieved for the hardness of their\nhearts, he saith unto the man, Stretch forth thine hand.\" The anger and the grief\nare Mark writing, not Jesus speaking -- and they were sitting in white paraphrase at\nthe tail of n4. Lifted as s5a [scripture, light blue] on S6, immediately before jv5\non the same still. n4 is trimmed to end at their silence; n4b retells both halves.\n\nNO GREEN: nothing in Mark 3:1-6 is the Father or a voice from heaven.\n\nWOMEN: Mark 3:1-6 records no woman speaking. Nothing added; nothing invented.\n\nWHY-LAW: the room was full of people watching a man's suffering as an opportunity.\nJesus put him in the middle of the floor where nobody could pretend not to see him.\nMilk: mercy was never a breaking of the sabbath. It was the whole reason for it.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "On another sabbath Jesus went into the synagogue to teach, and there in the crowd was a man whose hand was withered, shrunken and useless, a hand that could not work or grip or hold. He had carried it, and the shame of it, for years."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "But others in the room were watching — not the man, but Jesus. Some of the religious leaders felt sure he would try to heal on the sabbath, and they waited, hoping to catch him breaking the law, so they could accuse him."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Jesus knew exactly what was in their hearts. He did not hide the moment away in a corner. He said to the man with the withered hand:"
+  },
+  {
+   "id": "j3",
+   "speaker": "jesus",
+   "verse": "Mark 3:3",
+   "text": "Stand forth."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "Stand up. Come out here, into the middle, where everyone can see you. The man everybody in that room had learned to look past was moved to the center of the floor."
+  },
+  {
+   "id": "jv4",
+   "speaker": "jesus",
+   "verse": "Mark 3:4",
+   "text": "Is it lawful to do good on the sabbath days, or to do evil? to save life, or to kill?"
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Is it lawful to do good on the sabbath, or to do harm? To save a life, or to kill one? It was a simple question, and it left them no answer. They had no real love for the law, or for the man; they only wanted a reason to condemn him. So they said nothing at all."
+  },
+  {
+   "id": "s5a",
+   "speaker": "scripture",
+   "verse": "Mark 3:5",
+   "text": "And when he had looked round about on them with anger, being grieved for the hardness of their hearts, he saith unto the man,"
+  },
+  {
+   "id": "jv5",
+   "speaker": "jesus",
+   "verse": "Mark 3:5",
+   "text": "Stretch forth thine hand."
+  },
+  {
+   "id": "n4b",
+   "speaker": "narrator",
+   "text": "He looked around at every one of them, angry, and grieved to the heart at how hard they had let themselves become. And then he turned away from them, to the man, and said: stretch out your hand."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "And the man stretched out the hand he could not use — and as he reached, it was made whole, restored, strong and alive again, exactly like his other hand. The thing that had been dead came back to life at a single word."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "But the leaders were not amazed; they were furious. They walked out and began, that very day, to plot together how they might destroy him. He had done nothing but good, and it only hardened them."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "Faced with a rule on one side and a suffering man on the other, Jesus never wavered. He will always move toward the person. Mercy, to him, was never a breaking of the sabbath; it was the whole reason for it."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "There will always be people upset that he loves you without conditions. Let them be. He looks past every rule that was ever used to shut you out, and he calls you to stand up, out in the open, and be made whole. Will you stretch out the very thing you thought was beyond help?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "in"
+  ],
+  [
+   "j3",
+   "S3",
+   "out"
+  ],
+  [
+   "n3b",
+   "S3",
+   "in"
+  ],
+  [
+   "jv4",
+   "S4",
+   "in"
+  ],
+  [
+   "n4",
+   "S5",
+   "in"
+  ],
+  [
+   "s5a",
+   "S6",
+   "in"
+  ],
+  [
+   "jv5",
+   "S6",
+   "out"
+  ],
+  [
+   "n4b",
+   "S6",
+   "in"
+  ],
+  [
+   "n5",
+   "S7",
+   "in"
+  ],
+  [
+   "n6",
+   "S8",
+   "in"
+  ],
+  [
+   "n7",
+   "S9",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S3": "S3 now carries the frame, Jesus's verbatim 'Stand forth,' and its retelling. Frame the summons the moment before the man moves: Jesus turned fully toward him with a hand out, and the man half-risen from the bench, withered hand still tucked out of sight against his body. Every face in the synagogue turning at once. The most exposed moment of his life, and it is about to become the best one.",
+  "S6": "S6 now carries Mark's verbatim framing, the red command, and the retelling. Frame the look before the words: Jesus mid-turn, having just swept his eyes across the seated leaders — grief and anger together on his face, not rage. The leaders in the near background, stone-faced and silent. The man standing alone in the open floor waiting."
+ }
+}

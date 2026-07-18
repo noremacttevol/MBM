@@ -1,0 +1,132 @@
+{
+ "build": "build-77-widows-mite",
+ "reference": "Mark 12",
+ "notes": "STAYED RED: j1, Mark 12:43-44, 'Verily I say unto you, That this poor widow\nhath cast more in, than all they which have cast into the treasury: for all they\ndid cast in of their abundance; but she of her want did cast in all that she had,\neven all her living.' Verbatim across two verses, Jesus in the flesh,\nred-lettered. Unchanged, id kept. It is the only spoken line in the passage.\n\nTHE WIDOW DOES NOT SPEAK. This is the honest answer and it is worth stating\nplainly, because a build about a woman is exactly where the temptation to invent\nlives. Mark 12:41-44 records not one word from her. She walks in, she puts in two\nmites, she walks out, and she never learns that anyone noticed. NOTHING was put\nin her mouth. No pink in this build, and that is correct. The silence is part of\nwhat the story is about -- n4a and n4b are built on it.\n\nLIFTED OUT OF PARAPHRASE -- MARK'S TWO SETUP VERSES, now `scripture` (light blue,\nMark writing), each on the still the paraphrase already used:\n  s41  Mark 12:41  'And Jesus sat over against the treasury, and beheld how the\n       people cast money into the treasury: and many that were rich cast in much.'\n       on ST1, with n1a immediately after as its retelling. Note what the verse\n       says he was doing: he SAT and he BEHELD. He set out to watch people give.\n       That is the frame the whole video hangs on.\n  s42  Mark 12:42  'And there came a certain poor widow, and she threw in two\n       mites, which make a farthing.'  on ST5, with the existing n2b immediately\n       after as its retelling -- n2b already says 'two tiny copper coins, together\n       worth less than a penny', which is exactly what a farthing is.\nNeither required rewriting a narrator segment: n1a and n2b were already the plain\nmodern retellings of the verses they now follow.\n\nNO GREEN: nothing in Mark 12:41-44 is the Father or a voice from heaven.\n\nWHY-LAW: the one gift nobody in the building saw was the only one heaven was\ncounting. Milk: he is already looking at the thing about you that no one else\nnoticed.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Jesus sat down across from the temple treasury and just watched people give."
+  },
+  {
+   "id": "s41",
+   "speaker": "scripture",
+   "verse": "Mark 12:41",
+   "text": "And Jesus sat over against the treasury, and beheld how the people cast money into the treasury: and many that were rich cast in much."
+  },
+  {
+   "id": "n1a",
+   "speaker": "narrator",
+   "text": "He sat down facing the collection boxes and watched how people put their money in. And the rich came through and put in large amounts."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "You could hear the coins land, and everyone noticed."
+  },
+  {
+   "id": "n2a",
+   "speaker": "narrator",
+   "text": "Then a poor widow came, small and unnoticed."
+  },
+  {
+   "id": "s42",
+   "speaker": "scripture",
+   "verse": "Mark 12:42",
+   "text": "And there came a certain poor widow, and she threw in two mites, which make a farthing."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "She put in two tiny copper coins — together worth less than a penny. That is the whole of what Mark records about her. She does not say a word, and nobody in that courtyard looks up."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Jesus called his disciples over, like he had just seen the most important thing all day."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Mark 12:43-44",
+   "text": "Verily I say unto you, That this poor widow hath cast more in, than all they which have cast into the treasury: for all they did cast in of their abundance; but she of her want did cast in all that she had, even all her living."
+  },
+  {
+   "id": "n4a",
+   "speaker": "narrator",
+   "text": "I'm telling you the truth, he said — this poor widow has put in more than every one of them. They gave out of what they had spare. She gave out of what she did not have. Everyone else gave from what they had left over. She gave from what she needed."
+  },
+  {
+   "id": "n4b",
+   "speaker": "narrator",
+   "text": "Heaven does the math differently than we do."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He noticed the gift no one else did. What might he already see in you that others overlook?"
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "s41",
+   "ST1",
+   "out"
+  ],
+  [
+   "n1a",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1b",
+   "ST3",
+   "in"
+  ],
+  [
+   "n2a",
+   "ST4",
+   "in"
+  ],
+  [
+   "s42",
+   "ST5",
+   "in"
+  ],
+  [
+   "n2b",
+   "ST5",
+   "out"
+  ],
+  [
+   "n3",
+   "ST6",
+   "in"
+  ],
+  [
+   "j1",
+   "ST7",
+   "in"
+  ],
+  [
+   "n4a",
+   "ST8",
+   "in"
+  ],
+  [
+   "n4b",
+   "ST9",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST1": "ST1 now carries the opening line and Mark's verbatim 'he sat over against the treasury, and beheld'. Frame the deliberate watching: Jesus seated on a low step directly opposite the row of collection chests, settled in, entirely still, eyes on the people at the boxes. Everyone else in the courtyard is moving; he is not. This is a man who chose a seat with a view of the giving.",
+  "ST5": "ST5 now carries Mark's verbatim account of the two mites and its retelling. Frame the coins, not the woman's face: a worn hand held over the mouth of the collection chest, two thin copper coins just leaving the fingers, everything around it out of focus. Small, plain, and about to be gone. Nobody else in frame is looking."
+ }
+}

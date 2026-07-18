@@ -1,0 +1,172 @@
+{
+ "build": "build-71-calling-the-fishermen",
+ "reference": "Matthew 4",
+ "notes": "STAYED RED: j1, Matthew 4:19, 'Follow me, and I will make you fishers of men.'\nJesus in the flesh, red-lettered, verbatim. Unchanged, id kept. It is the only\nspoken line in the passage and it is correctly red.\n\nLIFTED OUT OF PARAPHRASE -- MATTHEW'S TWO HAMMER SENTENCES. The point of this\nbuild is how FAST they went, and Matthew makes that point twice with two of the\nshortest, hardest sentences in the Gospels. Both were only ever paraphrased in\nwhite. They are now `scripture` (light blue -- Matthew writing, not Jesus\nspeaking), each on the still the paraphrase already used:\n  s20  Matthew 4:20  'And they straightway left their nets, and followed him.'\n       on S6, with the existing n6 immediately after as its retelling.\n  s22  Matthew 4:22  'And they immediately left the ship and their father, and\n       followed him.'  on S9, with the existing n9 after as its retelling. Note\n       Matthew says they left the FATHER, not just the boat -- n9 already reckons\n       with Zebedee, and now the verse says it out loud.\nNo narrator text had to be rewritten for either: n6 and n9 already open by saying\nin modern English exactly what the verses say in Old English, so the retelling\nrule is satisfied by segments that were already there.\n\nNO GREEN: no Father, no voice from heaven, in Matthew 4:18-22.\n\nWOMEN: Matthew 4:18-22 records no woman speaking. Zebedee is present and silent;\nso is everyone else. Nothing added; nothing invented.\n\nWHY-LAW: he did not go to a temple to find the qualified. He walked a working\nshoreline in the middle of an ordinary workday and looked for the willing. Milk:\nhe takes what you already are and makes it into something that saves people.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "It is early morning on the Sea of Galilee. Not a temple, not a synagogue, not a hall full of scholars. Just a working lake at the start of an ordinary day, and the men whose whole lives were spent on it."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Two brothers are out in the shallows, Simon and Andrew, throwing a net the way they had a thousand mornings before. Their hands are rough, their sleeves are wet. This is not where anyone would think to begin a kingdom."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "And this is where he comes. Not waiting in a holy place for the right people to find him. Walking the shoreline, in the middle of their workday, straight up to two men with a net in their hands."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Matthew 4:19",
+   "text": "Follow me, and I will make you fishers of men."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Notice what he does not say. He does not tell them to become someone else first. He does not ask them to be scholars or priests. He takes the very thing they already are, and says he will make it into something that saves people. He meets them exactly as they are."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Think about what it would take to make a man like Simon put his net down. He was not a boy with nothing to lose. He had a trade, a boat, a life he was good at. And one sentence from a stranger on the shore was enough."
+  },
+  {
+   "id": "s20",
+   "speaker": "scripture",
+   "verse": "Matthew 4:20",
+   "text": "And they straightway left their nets, and followed him."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "And they went at once. Not next season, not once they had saved a little more. That very morning, with the net still wet, they left it on the sand and followed him, and did not look back."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "A little further along, two more brothers, James and John, sat in a boat mending the day's torn nets beside Zebedee, their father. The family trade, three lives on the same water."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "And he called them too. The same voice, the same invitation, held out to two more ordinary men doing ordinary work."
+  },
+  {
+   "id": "s22",
+   "speaker": "scripture",
+   "verse": "Matthew 4:22",
+   "text": "And they immediately left the ship and their father, and followed him."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "And they did the same thing. Right then they climbed out of the boat, left the half-mended nets in the hull, and went. Matthew does not soften it — they left the boat AND they left their father. You can see old Zebedee there, watching his two sons walk away. The cost was real. But he does not call them back, and they do not turn around."
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "So the ones who followed him down the shore that morning were four fishermen. No titles, no training, no credentials. The men he chose first to carry the whole thing were the men everyone else would have walked right past."
+  },
+  {
+   "id": "n11",
+   "speaker": "narrator",
+   "text": "That is the good news hiding in this small story. He did not go looking for the qualified. He went looking for the willing. He left the empty boats on the sand and took the men, because it was never about how impressive they were. It was only about whether they would come."
+  },
+  {
+   "id": "n12",
+   "speaker": "narrator",
+   "text": "And the strange thing is, that shoreline is not closed. The same voice that walked up to men at their nets still walks up to ordinary people in the middle of ordinary days. He is not asking you to clean up first. He is asking you to come."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He walked up to four working men on a normal morning and made them part of the greatest story ever told, exactly as they were. If he would walk up to a fishing boat and call the men there by name, what makes you think he would walk past you?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "in"
+  ],
+  [
+   "j1",
+   "S4",
+   "in"
+  ],
+  [
+   "n4",
+   "S4",
+   "out"
+  ],
+  [
+   "n5",
+   "S5",
+   "in"
+  ],
+  [
+   "s20",
+   "S6",
+   "in"
+  ],
+  [
+   "n6",
+   "S6",
+   "out"
+  ],
+  [
+   "n7",
+   "S7",
+   "in"
+  ],
+  [
+   "n8",
+   "S8",
+   "in"
+  ],
+  [
+   "s22",
+   "S9",
+   "in"
+  ],
+  [
+   "n9",
+   "S9",
+   "out"
+  ],
+  [
+   "n10",
+   "S10",
+   "in"
+  ],
+  [
+   "n11",
+   "S11",
+   "in"
+  ],
+  [
+   "n12",
+   "S12",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S6": "S6 now carries Matthew's verbatim 'they straightway left their nets' and its retelling. Frame the abandoned net, not the men: a wet net dropped in the shallows and left there, still half in the water, and two sets of footprints going up the beach away from it. The men can be small and already walking away at the top of frame. The subject of this shot is the thing they did not go back for.",
+  "S9": "S9 now carries Matthew's verbatim 'left the ship and their father' and its retelling. Frame Zebedee: the old man alone in the boat with the half-mended net still across his knees, looking up and after his two sons. Do not make him angry — make him watching. The cost of this call is on his face, not theirs."
+ }
+}

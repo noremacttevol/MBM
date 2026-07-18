@@ -1,0 +1,100 @@
+{
+ "build": "build-174-hearts-of-the-fathers",
+ "reference": "Malachi 4",
+ "notes": "Both scripture beats were painted JESUS-RED. Malachi is Old Testament, so\nneither can be red - and both are the LORD speaking in first person, which makes\nthem GREEN, not blue:\n  s1a  Malachi 4:5  'Behold, I will send you Elijah the prophet...'   RED -> GOD\n  s1b  Malachi 4:6  'And he shall turn the heart of the fathers...'   RED -> GOD\n\nNO SPLIT on s1a. It carries first person all the way through ('I will send you\nElijah'), and 4:6 keeps it ('lest I come and smite the earth'). Malachi is\nreporting the LORD's own words unbroken across both verses, so there is no\nnarrator clause to peel off. Splitting 'Behold,' out would be mechanical and\nwould read worse.\n\nADDED n0b - a narrator retelling between the two green beats. s1a landed on a\npromise ('the great and dreadful day of the LORD') with no plain-English landing\nbefore 4:6 started, so the Old English was stacking two verses deep before the\nviewer got any help. n0b sits on S2, the same still as s1a, so the picture is\nunchanged.\n\nNothing lifted from paraphrase and nothing left uncertain - both verses are\nverbatim Malachi 4:5-6 as a viewer would find them.\n\nWHY-LAW: milk. Elijah's errand is repair, not thunder. Hearts turning toward\nfamily is the whole promise, and the video lets it stay that simple.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Before the great day, a messenger would come first — Elijah, the prophet, sent ahead."
+  },
+  {
+   "id": "s1a",
+   "speaker": "god",
+   "verse": "Malachi 4:5",
+   "text": "Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the LORD:"
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "Listen to who is talking there. That is God himself, making a promise out loud: before the last great day arrives, I am sending Elijah back. Not an army. Not a warning shot. A prophet."
+  },
+  {
+   "id": "s1b",
+   "speaker": "god",
+   "verse": "Malachi 4:6",
+   "text": "And he shall turn the heart of the fathers to the children, and the heart of the children to their fathers, lest I come and smite the earth with a curse."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "His work was not to thunder, but to mend. To turn the hearts of fathers back to their children, and children back to their fathers."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "The same spirit would later rest on John, preparing the way."
+  },
+  {
+   "id": "n2a",
+   "speaker": "narrator",
+   "text": "So that when the Lord came, families would be ready."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "Not divided, but whole."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He cares about your family. Let the healing start with your own heart."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "s1a",
+   "S2",
+   "in"
+  ],
+  [
+   "n0b",
+   "S2",
+   "out"
+  ],
+  [
+   "s1b",
+   "S3",
+   "in"
+  ],
+  [
+   "n1",
+   "S4",
+   "in"
+  ],
+  [
+   "n3",
+   "S6",
+   "in"
+  ],
+  [
+   "n2a",
+   "S5",
+   "in"
+  ],
+  [
+   "n2b",
+   "S7",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S2": "S2 now carries two beats and the caption turns from green to white on it - God's own voice, then the storyteller. Frame the moment of the promise being made rather than Elijah himself: an empty road out of a village at first light, the kind of road a person would walk in on. Nobody on it yet. The point of the beat is that the messenger is still coming, so the frame should feel like waiting, not arrival."
+ }
+}

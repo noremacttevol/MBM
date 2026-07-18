@@ -1,0 +1,152 @@
+{
+ "build": "build-52-demoniac-synagogue",
+ "reference": "Mark 1",
+ "notes": "THE UNCLEAN SPIRIT WAS BURIED IN THE NARRATOR. All of Mark 1:24 was sitting\ninside n4, spoken in white in modern English -- the storyteller doing the voice.\nLifted out verbatim as SCRIPTURE, light blue:\n  s24  Mark 1:24  'Let us alone; what have we to do with thee, thou Jesus of\n       Nazareth? art thou come to destroy us? I know thee who thou art, the Holy\n       One of God.'\nLight blue, not red and not green: it is a being in the story, one of the people\nMark records speaking, and it is emphatically not Deity. n4 keeps its id, trimmed\nto the frame only -- 'The voice that broke from him was not his own.' -- and a new\nn4b carries the retelling. Both stay on S4, the still already named\ns4-the-unclean-cry, which is exactly what it is now showing.\n\nADDED IN BLUE -- THE CONGREGATION. Mark 1:27, the crowd's reaction, was\nparaphrased inside n7. Lifted out verbatim as SCRIPTURE:\n  s27  Mark 1:27  'What thing is this? what new doctrine is this? for with\n       authority commandeth he even the unclean spirits, and they do obey him.'\n  n7 trimmed to its frame, new n7b retells it.\n\nSTAYED RED. jv25 (Mark 1:25, 'Hold thy peace, and come out of him') is Jesus in\nthe flesh and a red-letter KJV inks it. Mark's framing -- 'And Jesus rebuked him,\nsaying' -- was already stripped, so no split was needed. It sits between s24 and\nn5 as the answer to what the spirit just said, which is how Mark orders it.\n\nNO GREEN. Nothing in Mark 1:21-28 is the Father speaking.\n\nWOMEN: Mark 1:21-28 records no woman speaking. Nothing added; nothing invented.\n\nLEFT AS PARAPHRASE ON PURPOSE: n2 describes Mark 1:22 ('he taught them as one\nthat had authority, and not as the scribes') without quoting it. I left it in the\nstoryteller's voice because the same sentence, in Matthew's wording, is now a blue\nbeat in build-47, and because s27 later in this build already says the authority\nline verbatim. Quoting it twice inside one video would flatten the ending.\n\nRETELLING RULE: s24 by n4b, jv25 by n5, s27 by n7b. No two Old English blocks run\nback to back.\n\nWHY-LAW: no long battle, no struggle of equals -- the darkness knew exactly who he\nwas and had to go at a word. Milk: nothing holding you has to stay when he speaks.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "On the sabbath day, Jesus went into the synagogue at Capernaum and stood up to teach. The people had gathered as they always did, to hear the scriptures taught and explained by the teachers they knew."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "But this was different. He taught them as one who had authority of his own, not leaning on teacher after teacher the way the scribes did. His words carried a quiet weight, and the whole room felt it, and was astonished."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "There in the congregation was a man held by an unclean spirit. Something dark had bound him for a long time, and the nearness of Jesus stirred it. Unable to stay silent any longer, he suddenly cried out."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "And the voice that broke out of him was not his own."
+  },
+  {
+   "id": "s24",
+   "speaker": "scripture",
+   "verse": "Mark 1:24",
+   "text": "Let us alone; what have we to do with thee, thou Jesus of Nazareth? art thou come to destroy us? I know thee who thou art, the Holy One of God."
+  },
+  {
+   "id": "n4b",
+   "speaker": "narrator",
+   "text": "Leave us alone. What do you want with us, Jesus of Nazareth? Have you come to destroy us? And then, almost trembling: I know who you are. The Holy One of God. Sit with that for a second. In a room full of religious people, the first one to say out loud exactly who he was, was the darkness."
+  },
+  {
+   "id": "jv25",
+   "speaker": "jesus",
+   "verse": "Mark 1:25",
+   "text": "Hold thy peace, and come out of him."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Be quiet, and come out of him. Six words. There was no long battle, no struggle of equals. At his word the spirit shook the man one last time, cried out with a loud voice, and came out of him. The thing that had held him for so long simply had to go."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "And the man was free. The torment had drained from his face, and he stood there quiet and whole, himself again, like someone waking gently from a long and terrible dream."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "The people were amazed, and they turned to one another asking:"
+  },
+  {
+   "id": "s27",
+   "speaker": "scripture",
+   "verse": "Mark 1:27",
+   "text": "What thing is this? what new doctrine is this? for with authority commandeth he even the unclean spirits, and they do obey him."
+  },
+  {
+   "id": "n7b",
+   "speaker": "narrator",
+   "text": "What is this? A new teaching, and it comes with authority behind it. He gives an order to the unclean spirits, and they obey him. They had come to synagogue that morning expecting an ordinary sabbath."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "And right away the news of him went out everywhere, through all the country round about Galilee. Wherever the story was carried, people heard that one had come whose word even the darkness could not resist."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The same voice that spoke into that man's torment still speaks today. There is no darkness in you so deep that his word cannot reach it, and nothing holding you that has to stay when he says come out. What is he asking you to let him set free?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "in"
+  ],
+  [
+   "n4",
+   "S4",
+   "in"
+  ],
+  [
+   "s24",
+   "S4",
+   "out"
+  ],
+  [
+   "n4b",
+   "S4",
+   "in"
+  ],
+  [
+   "jv25",
+   "S5",
+   "in"
+  ],
+  [
+   "n5",
+   "S6",
+   "in"
+  ],
+  [
+   "n6",
+   "S7",
+   "in"
+  ],
+  [
+   "n7",
+   "S8",
+   "in"
+  ],
+  [
+   "s27",
+   "S8",
+   "out"
+  ],
+  [
+   "n7b",
+   "S8",
+   "in"
+  ],
+  [
+   "n8",
+   "S9",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S4": "S4 now carries three beats -- the frame, the spirit's verbatim cry, and its retelling. Frame the cry itself: the man on his feet in the middle of the seated congregation, arms rigid at his sides, mouth open, face contorted into something that is not his own expression. Worshippers recoiling on the benches around him. The horror belongs on the faces watching, not in gore -- keep it a man in torment, not a monster.",
+  "S8": "S8 now carries three beats -- the frame, the congregation's verbatim question, and its retelling. Frame the room talking: knots of ordinary sabbath worshippers turned toward each other rather than toward Jesus, hands raised mid-question, one older man simply staring at the door the freed man walked out of. Astonishment as conversation, not as a crowd shot."
+ }
+}

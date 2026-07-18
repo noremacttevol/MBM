@@ -1,0 +1,156 @@
+{
+ "build": "build-169-fulfil-righteousness",
+ "reference": "Matthew 3",
+ "notes": "THIS IS THE WORKED EXAMPLE IN SPEAKER-LAW section 4, and it is done exactly as\nthe law prints it.\n\nSPLIT 1 — Matthew 3:15, three speakers in one breath, previously all red:\n  kv15   (scripture, blue)  'And Jesus answering said unto him,'\n  kv15b  (jesus, RED)       'Suffer it to be so now: for thus it becometh us to\n                             fulfil all righteousness.'\n  kv15c  (scripture, blue)  'Then he suffered him.'\nA red-letter King James Bible prints only the middle clause red — the other two\nare Matthew narrating. kv15 keeps the original id rather than being renamed\nkv15a, because renaming would orphan anything referencing it by name; kv15b and\nkv15c are new. All three stay on S3.\n\nSPLIT 2 — Matthew 3:17, and this one is the doctrinal catch. It was painted red\nend to end, which made the FATHER'S voice from heaven read as the Son's own:\n  kv17  (scripture, blue)  'And lo a voice from heaven, saying,'\n  gv17  (god, GREEN)       'This is my beloved Son, in whom I am well pleased.'\nGreen is the Father speaking. Red here would have had Christ announcing himself\nas his own beloved Son, which is exactly the class of error this pass exists to\ncatch. Both stay on S6.\n\nLIFTED FROM PARAPHRASE:\n  s14  Matthew 3:14  'I have need to be baptized of thee, and comest thou to me?'\n       SCRIPTURE, blue. John the Baptist. n2 was reporting his protest for him;\n       he makes it himself now. The KJV frame 'But John forbad him, saying,' is\n       left off so s14 is his speech only.\n\ns14 -> kv15 -> kv15b is a DELIBERATE question-and-answer pair with the narrative\nframe in the middle: John objects, Matthew reports, the Lord answers. That is the\nexception the retelling rule allows, and n3 retells the whole exchange right\nafter. The validator warns; the warning is expected.\n\nWHY-LAW: milk. Baptism is shown as the way in that even the Sinless One walked,\nand the Godhead is shown standing plain in one frame — three distinct persons,\neach doing his own part — without a word of argument about it. The colour does\nthe teaching: red in the river, green from heaven.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Something startling happens at the very start of it all. Jesus, who had no sin to wash away, walks down to the river Jordan and asks John to baptize him — the sinless One, lining up for the sinner's ordinance."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "John was stunned, and tried to stop him. He felt the whole thing backwards: surely he was the one who needed to be baptized by Jesus, not Jesus by him. Who was he to baptize the Lord?"
+  },
+  {
+   "id": "s14",
+   "speaker": "scripture",
+   "verse": "Matthew 3:14",
+   "text": "I have need to be baptized of thee, and comest thou to me?"
+  },
+  {
+   "id": "kv15",
+   "speaker": "scripture",
+   "verse": "Matthew 3:15",
+   "text": "And Jesus answering said unto him,"
+  },
+  {
+   "id": "kv15b",
+   "speaker": "jesus",
+   "verse": "Matthew 3:15",
+   "text": "Suffer it to be so now: for thus it becometh us to fulfil all righteousness."
+  },
+  {
+   "id": "kv15c",
+   "speaker": "scripture",
+   "verse": "Matthew 3:15",
+   "text": "Then he suffered him."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "So even the perfect One went down into the water. Not because he needed cleansing, but to fulfil all righteousness — to walk the path himself, and leave us an example that this gate is the way in, for everyone."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "And as he came up out of the water, heaven itself answered. The skies opened, and the Spirit of God came down gently, like a dove, and rested upon him in the warm light."
+  },
+  {
+   "id": "kv17",
+   "speaker": "scripture",
+   "verse": "Matthew 3:17",
+   "text": "And lo a voice from heaven, saying,"
+  },
+  {
+   "id": "gv17",
+   "speaker": "god",
+   "verse": "Matthew 3:17",
+   "text": "This is my beloved Son, in whom I am well pleased."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Look closely at that one moment, because it opens a window into who God is. Three were there at once, and each was distinct: the Son standing in the river, the Spirit resting as the dove, and the Father speaking from the opened heaven."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "Here is the quiet study gem. This was not one person changing costumes. It was three distinct persons, together, each doing his own part — the Godhead, standing plain to see. And notice: even He was baptized."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "And that settles it for the rest of us. If the one man who never needed it still went down into the water to fulfil all righteousness, then the way is surely open, and good, for you. When you come to that same water, will you go down into it?"
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Even the Sinless One was baptized, to fulfil all righteousness — and there the Godhead stood revealed: the Son, the Spirit, and the Father, three and distinct. When you come to that same water, will you go down into it?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "s14",
+   "S2",
+   "out"
+  ],
+  [
+   "kv15",
+   "S3",
+   "in"
+  ],
+  [
+   "kv15b",
+   "S3",
+   "out"
+  ],
+  [
+   "kv15c",
+   "S3",
+   "in"
+  ],
+  [
+   "n3",
+   "S4",
+   "in"
+  ],
+  [
+   "n4",
+   "S5",
+   "in"
+  ],
+  [
+   "kv17",
+   "S6",
+   "in"
+  ],
+  [
+   "gv17",
+   "S6",
+   "out"
+  ],
+  [
+   "n5",
+   "S7",
+   "in"
+  ],
+  [
+   "n6",
+   "S7",
+   "out"
+  ],
+  [
+   "n7",
+   "S8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S2": "S2 now carries John's own protest in blue as well as the narrator's setup. Frame the objection at the moment he says it: John half turned away from the water with a hand raised, refusing — not scolding, overwhelmed. He is the one who ought to be kneeling and he knows it. Jesus can be at the edge of frame, waiting, unbothered.",
+  "S3": "S3 now carries three beats and two colour changes — blue, red, blue — across the whole of Matthew 3:15. Frame the answer itself: Jesus speaking quietly to John, close and level, in the shallows. Steady rather than commanding. The still has to hold while the caption goes blue, red, and blue again, so keep it simple and let the two men and the water carry it.",
+  "S6": "S6 now carries the Father's voice in green after Matthew's blue frame, and it must not look like Christ speaking. Put the source overhead: the opened sky and the light coming down, Jesus below in the water with his face lifted, small in the frame. Nothing radiating out of him. Whoever is talking is above, and the picture should make that obvious without a word."
+ }
+}

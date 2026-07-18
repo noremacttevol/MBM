@@ -1,0 +1,154 @@
+{
+ "build": "build-96-it-is-finished",
+ "reference": "John 19",
+ "notes": "STAYED RED, and it is exact:\n  j1  John 19:30  'It is finished.'\n  Id kept. Three words, and they are the video.\n\nRED ADDED -- his last sentence was missing. John records 'It is finished' and\nthen moves straight to the bowed head. Luke 23:46 records what he said in that\nsame breath, and a red-letter KJV inks it:\n  jv46 Luke 23:46  'Father, into thy hands I commend my spirit.'\n  n1c carries the retelling. It is from Luke rather than John, which is noted\n  plainly here; the moment is the same moment and it is the last thing he says.\n\nFRAMING LIFTED TO BLUE. n2 paraphrased the second half of John 19:30. That is\nJohn writing, not Jesus speaking, so it is SCRIPTURE (light blue), never red:\n  s30b John 19:30  'And he bowed his head, and gave up the ghost.'\n  n2 keeps its id and now retells it.\nAnd the veil, which n3a reported in modern English, is Matthew writing:\n  s51  Matthew 27:51  'And, behold, the veil of the temple was rent in twain\n       from the top to the bottom.'\n  n3a keeps its id and now retells it. Tagged to Matthew because that is where\n  the sentence comes from; this build's reference stays John 19.\n\nRETELLING ADDED: n1b after 'It is finished'. The three words were being left to\ncarry themselves.\n\nNO GREEN: the Father is spoken TO here and does not answer out loud.\n\nWOMEN: John 19:25-27 puts Mary and the other women at the foot of the cross, but\nthe KJV records none of them speaking there. Nothing added, nothing invented.\n\nCONSIDERED, LEFT OUT. Two red sayings from this hour were deliberately not used.\n'I thirst' (John 19:28) is exact and it is two verses before this one, but this\nvideo is built on a single declaration and a second short saying in front of it\nwould split the focus. 'Eloi, Eloi, lama sabachthani' (Mark 15:34) is exact and\nit is red, and it was left out on purpose: it is the hardest sentence in the\nBible, it needs real teaching about what the Atonement cost, and this is a milk\nvideo about a finished work. Reverence over completeness. Both verses are exact\nif a later, more careful video wants them. (Note for whoever writes that one: the\nKJV translation clause that follows, 'which is, being interpreted, My God, my\nGod, why hast thou forsaken me?', is Mark writing, not Jesus speaking, and would\nneed to be split off into blue.)\n\nWHY-LAW: he did not lose. He finished. Milk: the work of getting you back to God\nis not still in progress and not waiting on you -- it is done, and the way in is\nstanding open.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "At the very end, Jesus knew everything had now been accomplished. He wasn't a victim losing a fight — he was finishing a work."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "With his last breath he spoke three words that weren't a cry of defeat, but a declaration of completion."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "John 19:30",
+   "text": "It is finished."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "It is finished. Not I am finished. The thing he came to do was done — completed, paid in full, nothing left owing."
+  },
+  {
+   "id": "jv46",
+   "speaker": "jesus",
+   "verse": "Luke 23:46",
+   "text": "Father, into thy hands I commend my spirit."
+  },
+  {
+   "id": "n1c",
+   "speaker": "narrator",
+   "text": "Father, I put my spirit in your hands. The last words he said were words of trust, spoken to the Father he had been talking to all night."
+  },
+  {
+   "id": "s30b",
+   "speaker": "scripture",
+   "verse": "John 19:30",
+   "text": "And he bowed his head, and gave up the ghost."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "And he bowed his head and gave up the spirit — on his own terms, not theirs. Nobody took his life from him. He laid it down."
+  },
+  {
+   "id": "s51",
+   "speaker": "scripture",
+   "verse": "Matthew 27:51",
+   "text": "And, behold, the veil of the temple was rent in twain from the top to the bottom."
+  },
+  {
+   "id": "n3a",
+   "speaker": "narrator",
+   "text": "At that moment, in the temple across the city, the great veil that walled off the holiest place was torn in two, from the top down —"
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "as if torn by a hand from above."
+  },
+  {
+   "id": "n4a",
+   "speaker": "narrator",
+   "text": "That curtain had kept people out of God's presence for centuries. The instant he died, it was ripped open."
+  },
+  {
+   "id": "n4b",
+   "speaker": "narrator",
+   "text": "The way in was thrown wide — for everyone."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The curtain that kept you out was torn open the moment he died. The way to God is open. Walk in."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "n1",
+   "ST2",
+   "in"
+  ],
+  [
+   "j1",
+   "ST3",
+   "in"
+  ],
+  [
+   "n1b",
+   "ST3",
+   "out"
+  ],
+  [
+   "jv46",
+   "ST4",
+   "in"
+  ],
+  [
+   "n1c",
+   "ST4",
+   "out"
+  ],
+  [
+   "s30b",
+   "ST4",
+   "in"
+  ],
+  [
+   "n2",
+   "ST4",
+   "out"
+  ],
+  [
+   "s51",
+   "ST5",
+   "in"
+  ],
+  [
+   "n3a",
+   "ST5",
+   "out"
+  ],
+  [
+   "n3b",
+   "ST6",
+   "in"
+  ],
+  [
+   "n4a",
+   "ST7",
+   "in"
+  ],
+  [
+   "n4b",
+   "ST8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST3": "ST3 now carries 'It is finished' and its retelling. Frame the declaration, not the suffering: his face lifted, eyes open, mouth just closing on the last word. Not slack and not agonized — the expression of a man who has just set something down that he carried all the way to the end.",
+  "ST4": "ST4 now carries four beats — his verbatim last words, their retelling, John's verbatim sentence about the bowed head, and its retelling. Frame the moment after: the head already down, features at rest, the sky behind him gone dark. Stillness. Nothing in the shot should be moving.",
+  "ST5": "ST5 now carries Matthew's verbatim sentence about the veil and its retelling. Frame the tear starting at the top: the enormous curtain seen from the floor of the temple, a split opening at the very top of it far out of any man's reach, and the darkness of the holy place showing through the gap."
+ }
+}

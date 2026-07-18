@@ -1,0 +1,146 @@
+{
+ "build": "build-76-suffer-the-little-children",
+ "reference": "Mark 10",
+ "notes": "STAYED RED, both. j1 (Mark 10:14b) and j2 (Mark 10:15) are Jesus in the flesh\nand a red-letter KJV inks both.\n\nTHE FRAMING SPLIT. Mark 10:14 reads in full: 'But when Jesus saw it, he was much\ndispleased, and said unto them, Suffer the little children to come unto me, and\nforbid them not: for of such is the kingdom of God.' Everything before 'Suffer'\nis Mark writing, and a red-letter KJV leaves it black. The build had that frame\nonly as modern paraphrase in n2, so the verse is split properly now, BOTH HALVES\nON THE SAME STILL S4 - no new artwork, and the edit the viewer sees is unchanged:\n  s14  Mark 10:14  'But when Jesus saw it, he was much displeased, and said unto\n       them,'  SCRIPTURE, light blue - narration inside the Gospels is never red.\n  j1   Mark 10:14  'Suffer the little children to come unto me, and forbid them\n       not: for of such is the kingdom of God.'  JESUS, red, unchanged.\nn2 keeps its id and now sets it up; n3 was already the retelling and is untouched.\n\nADDED AS SCRIPTURE, both Mark narrating, both light blue:\n  s13  Mark 10:13  'And they brought young children to him, that he should touch\n       them: and his disciples rebuked those that brought them.'  n1 keeps its id\n       and text and now retells it.\n  s16  Mark 10:16  'And he took them up in his arms, put his hands upon them, and\n       blessed them.'  This is the tenderest sentence in the chapter and the\n       video only had it in paraphrase. n5 keeps its id and text and now retells\n       it, on the same still S6.\n\nWOMEN: Mark 10:13-16 records no woman speaking. The parents who brought the\nchildren are not named and not quoted. Nothing added, nothing invented.\n\nNO GREEN: the Father does not speak in this passage. 'The kingdom of God' is\nJesus's phrase about the Father, not the Father talking.\n\nTHE HUSH IS UNTOUCHED - the silent still on S8 stays exactly where the original\nbuild put it, after n5.\n\nBEAT ORDER NOTE: the original build runs n4 on S7 BEFORE n5 on S6, so the stills\ngo out of numeric order at the end. That is deliberate in the delivered video and\nit is preserved exactly.\n\nPRONUNCIATION: 'Suffer' is left alone - it is the whole point of n3, which stops\nand explains that the old word just means let.\n\nWHY-LAW: the disciples were sure the important work was happening somewhere else\nin the room. He stopped all of it and sat down with the people who could do\nnothing for him.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Parents were bringing their little kids to Jesus, just so he could put his hands on them and bless them."
+  },
+  {
+   "id": "s13",
+   "speaker": "scripture",
+   "verse": "Mark 10:13",
+   "text": "And they brought young children to him, that he should touch them: and his disciples rebuked those that brought them."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "The disciples tried to wave them off — the Teacher is busy, this is grown-up work, not the place for children."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "But he saw them do it. And Mark does not soften how he took it."
+  },
+  {
+   "id": "s14",
+   "speaker": "scripture",
+   "verse": "Mark 10:14",
+   "text": "But when Jesus saw it, he was much displeased, and said unto them,"
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Mark 10:14",
+   "text": "Suffer the little children to come unto me, and forbid them not: for of such is the kingdom of God."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "That old word suffer just means let. Let them come. Don't stand in their way. Then he went further."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Mark 10:15",
+   "text": "Verily I say unto you, Whosoever shall not receive the kingdom of God as a little child, he shall not enter therein."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "He meant: nobody earns their way into the kingdom of God. You receive it the way a child receives a gift — with open hands."
+  },
+  {
+   "id": "s16",
+   "speaker": "scripture",
+   "verse": "Mark 10:16",
+   "text": "And he took them up in his arms, put his hands upon them, and blessed them."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Then he gathered them up in his arms and blessed them, one at a time, unhurried — like there was nowhere else he needed to be."
+  },
+  {
+   "id": "HUSH",
+   "speaker": "narrator",
+   "text": "",
+   "silent": true
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He had time for the smallest and least important person in the room. That includes you."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "s13",
+   "S2",
+   "in"
+  ],
+  [
+   "n1",
+   "S2",
+   "in"
+  ],
+  [
+   "n2",
+   "S3",
+   "in"
+  ],
+  [
+   "s14",
+   "S4",
+   "in"
+  ],
+  [
+   "j1",
+   "S4",
+   "in"
+  ],
+  [
+   "n3",
+   "S5",
+   "in"
+  ],
+  [
+   "j2",
+   "S5",
+   "out"
+  ],
+  [
+   "n4",
+   "S7",
+   "in"
+  ],
+  [
+   "s16",
+   "S6",
+   "in"
+  ],
+  [
+   "n5",
+   "S6",
+   "in"
+  ],
+  [
+   "HUSH",
+   "S8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S2": "S2 now carries Mark's verse verbatim and n1's retelling. Frame the blocking: a disciple's arm and open palm across the frame turning a parent back, the parent mid-step with a small child on her hip, the child looking past the arm. Firm, not cruel — these men think they are helping.",
+  "S4": "S4 now carries the split verse — Mark's framing and Jesus's line together. Frame the correction: Jesus turned toward his own disciples, not toward the children, jaw set, one hand already opening toward the doorway behind them to wave the families through. Displeased is the word Mark uses; let it show.",
+  "S6": "S6 now carries Mark 10:16 verbatim and its retelling. Frame the blessing at close range: Jesus down on the ground with a child gathered up against him and both hands on the child's head, other children pressed in at his shoulders waiting their turn. Unhurried. Nothing in the frame suggesting anywhere else to be."
+ }
+}

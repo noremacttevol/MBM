@@ -1,0 +1,79 @@
+{
+ "build": "build-187-ye-are-gods",
+ "reference": "Psalm 82 (quoted in John 10)",
+ "notes": "MOVED OUT OF RED — this is the correction the build needed.\n  j1  RED -> GOD, GREEN.  Psalm 82:6  'I have said, Ye are gods; and all of you\n      are children of the most High.'\nThe video frames this as Jesus reaching into the leaders' own scriptures, and the\nquoted words were painted red as though they were his. They are not. That text is\nPsalm 82:6 — the LORD speaking in Asaph's psalm, long before Christ came in the\nflesh. A red-letter King James Bible leaves Psalm 82 black. Under speaker law\nOld Testament Deity speech is GREEN, never red: it is still Deity, and green\ncarries that without arguing it.\n\nThe line is checked verbatim against Psalm 82:6 and left exactly as the build had\nit. Where the LORD speaks in that psalm it is `god`; where Asaph narrates it\nwould be `scripture`, but no narration from the psalm is quoted in this build, so\ngreen is the only non-white colour here.\n\nNO SPLIT. j1 is one speaker start to finish.\n\nNOT ADDED, deliberately: the John 10:34 frame — 'Is it not written in your law' —\nwould be a red Jesus beat and would put red back on the same still as the green.\nThe build does not need it; n1 already tells the viewer he is quoting their own\nscripture, and n2 lands the argument. Keeping this build free of red is the safer\ncall and matches the instruction that this one is never `jesus`.\n\nNothing lifted beyond that. n2, n3a and n3b already retell the psalm and the\npoint of it in plain English, so the retelling rule is met.\n\nST6 is absent from the build's still vars; no beat uses it, and this plan does\nnot introduce one. The closing card is not a beat and has been left out of BEATS,\nexactly as the original had it.\n\nWHY-LAW: milk, and carefully so. This is a verse people reach for to argue about\nwhat men may become, and the build does not go there. It stays on what actually\nhappened in the courtyard: he answered them out of their own book, and they had\nnothing to say back.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "The religious leaders were circling Jesus, demanding he say plainly who he claimed to be."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Instead of backing down, he reached into their own scriptures — to a psalm where God calls mere men gods."
+  },
+  {
+   "id": "j1",
+   "speaker": "god",
+   "verse": "Psalm 82:6",
+   "text": "I have said, Ye are gods; and all of you are children of the most High."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "His point was sharp: if scripture called men gods because God's word came to them, how could they condemn the one the Father set apart?"
+  },
+  {
+   "id": "n3a",
+   "speaker": "narrator",
+   "text": "He was not making himself a second God."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "He was showing them their own book exposed their logic."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He stood on the scriptures they claimed to love. Come know him as he truly is."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "n1",
+   "ST2",
+   "in"
+  ],
+  [
+   "j1",
+   "ST3",
+   "in"
+  ],
+  [
+   "n2",
+   "ST4",
+   "in"
+  ],
+  [
+   "n3a",
+   "ST5",
+   "in"
+  ],
+  [
+   "n3b",
+   "ST7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST3": "ST3 now carries the psalm in green — the LORD's own words, not Christ's — so it should point at the scripture rather than at Jesus. Frame the open scroll of the psalm itself, the text catching light, hands holding it steady, the courtyard blurred behind. If a figure is in frame at all he should be reading, not proclaiming. The green caption has to feel like it is coming off the page and out of an older voice."
+ }
+}

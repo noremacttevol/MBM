@@ -1,0 +1,143 @@
+{
+ "build": "build-90-washing-feet",
+ "reference": "John 13",
+ "notes": "STAYED RED, both exact:\n  j1  John 13:8   'If I wash thee not, thou hast no part with me.'\n  j2  John 13:14  'If I then, your Lord and Master, have washed your feet; ye\n      also ought to wash one another's feet.'\nNeither had John's framing welded on, so neither needed splitting. Ids kept.\n\nPETER WAS NEVER HEARD. The hinge of this story is a man refusing to be served,\nand his refusal was sitting inside n2 in modern English, in white. Lifted\nverbatim as SCRIPTURE (light blue -- Peter is a man in the story, not Deity), on\nST4, the still already named 's4-peter-protests':\n  s8  John 13:8  'Thou shalt never wash my feet.'\n  n2 is trimmed to the frame only -- 'When he came to Peter, Peter pulled back.'\n  -- and a new n2b carries the retelling and hands off to Jesus's answer.\n\nRETELLINGS ADDED: n2c after 'no part with me', n3b after 'ye also ought'. Neither\nOld English line was being said again in plain words.\n\nCONSIDERED, LEFT OUT. John 13:9, Peter's swing to the other extreme -- 'Lord, not\nmy feet only, but also my hands and my head' -- is exact and it is charming. Left\nout on judgment: it lightens a moment that should stay heavy, and ST4 is already\ncarrying three beats. The verse is exact if a later pass wants it.\n\nNO GREEN: the Father does not speak in John 13:1-17.\n\nWOMEN: John 13:1-17 records no woman speaking. Nothing added, nothing invented.\n\nWHY-LAW: he took the job nobody in the room would take, and then told Peter that\nbeing served by him is not optional. Milk: you cannot be his until you let him do\nsomething for you.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "At that last supper, knowing he was about to leave the world, Jesus did something no master would ever do for his servants."
+  },
+  {
+   "id": "n1a",
+   "speaker": "narrator",
+   "text": "He got up from the table, wrapped a towel around his waist, and poured water into a basin."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "And he began to wash his disciples' feet — one by one."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "When he came to Peter, Peter pulled back."
+  },
+  {
+   "id": "s8",
+   "speaker": "scripture",
+   "verse": "John 13:8",
+   "text": "Thou shalt never wash my feet."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "You will never wash my feet, Peter said. Not you. Not for me. And Jesus answered him gently, but he did not back down."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "John 13:8",
+   "text": "If I wash thee not, thou hast no part with me."
+  },
+  {
+   "id": "n2c",
+   "speaker": "narrator",
+   "text": "If I don't wash you, he said, you have no part with me. That is how serious this is. Peter thought he was protecting Jesus's dignity. What he was really doing was refusing to be loved."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "When he had finished, he dried their feet with the towel at his waist, sat back down, and asked if they understood what he had just done."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "John 13:14",
+   "text": "If I then, your Lord and Master, have washed your feet; ye also ought to wash one another's feet."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "If I, your Lord and your Teacher, have washed your feet, he said, then you ought to wash each other's. Whatever he just did for them, they were to go do for each other."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "The greatest one in the room knelt at the dirtiest job in the house. That is the kind of king he is."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He kneels to serve the ones he loves. Will you let him near enough to do it for you?"
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "n1a",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1b",
+   "ST3",
+   "in"
+  ],
+  [
+   "n2",
+   "ST4",
+   "in"
+  ],
+  [
+   "s8",
+   "ST4",
+   "out"
+  ],
+  [
+   "n2b",
+   "ST4",
+   "in"
+  ],
+  [
+   "j1",
+   "ST5",
+   "in"
+  ],
+  [
+   "n2c",
+   "ST5",
+   "out"
+  ],
+  [
+   "n3",
+   "ST6",
+   "in"
+  ],
+  [
+   "j2",
+   "ST7",
+   "in"
+  ],
+  [
+   "n3b",
+   "ST7",
+   "out"
+  ],
+  [
+   "n4",
+   "ST8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST4": "ST4 now carries the frame, Peter's verbatim refusal, and its retelling. Frame the refusal itself: Peter half risen off the bench, one foot pulled back out of reach, both hands up between himself and Jesus. Jesus below him on the floor, basin in hand, patient, not moving. The disciple looking down at his Lord kneeling.",
+  "ST5": "ST5 now carries 'no part with me' and a long retelling. Frame the answer as stillness: Jesus looking up from the floor straight into Peter's face, hands resting on the rim of the basin, water gone flat. No motion anywhere in the shot — the sentence has just landed and neither man has moved.",
+  "ST7": "ST7 now carries 'ye also ought to wash one another's feet' and its retelling. Frame the handing on of the job: Jesus back at the table, towel still in his hands, offering it outward toward the disciples rather than setting it down."
+ }
+}

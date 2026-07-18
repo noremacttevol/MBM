@@ -1,0 +1,185 @@
+{
+ "build": "build-64-pool-of-bethesda",
+ "reference": "John 5",
+ "notes": "STAYED RED, both, and one more added:\n  j1   John 5:6   \"Wilt thou be made whole?\"   -- kept its id.\n  j2   John 5:8   \"Rise, take up thy bed, and walk.\"   -- kept its id.\n  j14  John 5:14  \"Behold, thou art made whole: sin no more, lest a worse thing come\n       unto thee.\"   -- MISSING ENTIRELY. n6 reported that Jesus found him in the\n       temple and then skipped what he actually said there. Lifted verbatim onto S8.\n       n6 keeps its id, trimmed to the frame; n6b retells it warmly -- the sentence\n       is an invitation out of what was breaking him, not a threat, and the\n       retelling says so without arguing the point.\n\nTHE MAN WAS NEVER HEARD, AND HIS ANSWER IS THE POINT OF THE STORY. Jesus asks him a\nstraight yes-or-no question and he does not answer it -- he explains the system. That\nwhole beat was sitting in white paraphrase inside n3. Lifted verbatim as s7\n[scripture] on the SAME still (S4):\n  s7  John 5:7  \"Sir, I have no man, when the water is troubled, to put me into the\n      pool: but while I am coming, another steppeth down before me.\"\nn3 keeps its id and now carries the setup and the frame; n3b retells.\n\nTHE RULE-KEEPERS WERE NEVER HEARD. n5 paraphrased John 5:10. Lifted as s10\n[scripture] on S7: \"It is the sabbath day: it is not lawful for thee to carry thy\nbed.\" n5 keeps its id, trimmed to the frame; n5b retells and carries the rest of\nwhat n5 used to say.\n\nn4 REWRITTEN, ID KEPT -- it now opens by retelling j2 in plain English (\"Get up, pick\nup your mat, and walk\") before going on to the healing, so the red line does not land\nunexplained.\n\nNO GREEN: John 5:1-15 has no voice from heaven. The angel of the pool is a legend\nreported in the passage, and nobody speaks for it.\n\nWOMEN: John 5:1-15 records no woman speaking. Nothing invented.\n\nWHY-LAW: thirty-eight years, and the first thing Jesus does is ask his permission.\nHe healed a man who could not name him, had not followed him, and never clearly said\nyes. Milk: grace came first. Everything else came after.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "By the sheep gate in Jerusalem there was a pool called Bethesda, ringed by five covered porches. And those porches were full of the city's most hopeless people — the blind, the lame, the paralyzed — all waiting on a legend: every so often the water stirred, and the first one in, people said, would be healed. Imagine the math of that place. Hundreds waiting. One winner. And the fastest one wins a race for the people who can't run."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "One man had been lying there thirty-eight years. Let that number land. That was longer than most people in that world even got to be alive. Whole generations had grown up and grown old while he lay on that mat, watching the water, losing the same race every time. By now, being the sick man by the pool was not just his condition. It was his whole identity."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Jesus walked those porches, past hundreds of the suffering, and stopped at this one man. John says he knew — knew he had been there a long time. And then he asked him a question that sounds almost unkind, until you sit with it:"
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "John 5:6",
+   "text": "Wilt thou be made whole?"
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Do you want to be made well? After thirty-eight years, that is a real question. Healing would mean a new name, new work, a whole new life — and no more excuse. And notice: the man does not answer yes. He does not answer at all. He answers with the obstacle:"
+  },
+  {
+   "id": "s7",
+   "speaker": "scripture",
+   "verse": "John 5:7",
+   "text": "Sir, I have no man, when the water is troubled, to put me into the pool: but while I am coming, another steppeth down before me."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "Sir, I have nobody to put me in the water when it stirs, he said. While I'm dragging myself toward it, somebody else always gets down there first. He was explaining the system. Jesus had not asked him about the system."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "John 5:8",
+   "text": "Rise, take up thy bed, and walk."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Get up. Pick up your mat. Walk. No angel. No water. No race. The pool had nothing to do with it. And immediately the man was made whole — thirty-eight years of atrophy gone between one breath and the next. Legs that had forgotten what weight felt like took his weight. He stood up, rolled up the mat that had been his whole world, and walked."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "It was the sabbath, so the rule-keepers stopped him at once — not to celebrate him, but to tell him:"
+  },
+  {
+   "id": "s10",
+   "speaker": "scripture",
+   "verse": "John 5:10",
+   "text": "It is the sabbath day: it is not lawful for thee to carry thy bed."
+  },
+  {
+   "id": "n5b",
+   "speaker": "narrator",
+   "text": "It's the sabbath. You're not allowed to carry that mat. A man walks for the first time in thirty-eight years and the first thing anybody says to him is about the mat. And here is the astonishing part: when they asked who had healed him, he did not know. He had never asked the name. Jesus had healed a man who could not identify him, had not followed him, and had not even clearly said yes. Grace came first. Everything else came after."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "Later, Jesus found him in the temple — found him, again, the way he found the man born blind — and said to him:"
+  },
+  {
+   "id": "j14",
+   "speaker": "jesus",
+   "verse": "John 5:14",
+   "text": "Behold, thou art made whole: sin no more, lest a worse thing come unto thee."
+  },
+  {
+   "id": "n6b",
+   "speaker": "narrator",
+   "text": "Look at you — you are whole. Now don't go back to the things that were destroying you. It is not a threat. It is a man who has just given you your legs back asking you not to walk them into a ditch. And only then did the man learn the name of the one who had given him his life. He went and told everyone: it was Jesus."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "Thirty-eight years, and one question. Not: why are you still here. Not: whose fault is this. Just — do you want to be whole? The pool never healed anybody. The person standing next to that man did."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "However long it has been for you — he is not put off by the years. He is still asking: do you want to be whole?"
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "n1",
+   "S2",
+   "in"
+  ],
+  [
+   "n2",
+   "S3",
+   "in"
+  ],
+  [
+   "j1",
+   "S3",
+   "out"
+  ],
+  [
+   "n3",
+   "S4",
+   "in"
+  ],
+  [
+   "s7",
+   "S4",
+   "out"
+  ],
+  [
+   "n3b",
+   "S4",
+   "in"
+  ],
+  [
+   "j2",
+   "S5",
+   "in"
+  ],
+  [
+   "n4",
+   "S6",
+   "in"
+  ],
+  [
+   "n5",
+   "S7",
+   "in"
+  ],
+  [
+   "s10",
+   "S7",
+   "out"
+  ],
+  [
+   "n5b",
+   "S7",
+   "in"
+  ],
+  [
+   "n6",
+   "S8",
+   "in"
+  ],
+  [
+   "j14",
+   "S8",
+   "out"
+  ],
+  [
+   "n6b",
+   "S8",
+   "in"
+  ],
+  [
+   "n7",
+   "S9",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S4": "S4 now carries three beats — the setup, the man's verbatim answer, and its retelling. Frame the excuse, not the illness: the man propped on one elbow on his mat, not looking at Jesus at all but pointing off toward the water and the steps, mid-explanation. Thirty-eight years of a practised answer coming out automatically. Jesus in frame, listening, unmoved by any of it.",
+  "S7": "S7 now carries the frame, the rule-keepers' verbatim words, and the retelling. Frame the absurdity plainly: a man standing upright in the street with his rolled mat under his arm, stopped by two officials pointing at the mat. Nobody is looking at his legs. Everybody is looking at the bedding.",
+  "S8": "S8 now carries the frame, Jesus's verbatim words in the temple, and the retelling. Frame it as a reunion, not a warning: Jesus finding him in a quiet corner of the temple court, a hand on the man's shoulder, both of them standing, faces close and level. Warm, not stern. The man is upright for the first time in this whole story and is only now learning who he is talking to."
+ }
+}

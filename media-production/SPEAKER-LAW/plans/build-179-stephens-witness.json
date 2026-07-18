@@ -1,0 +1,110 @@
+{
+ "build": "build-179-stephens-witness",
+ "reference": "Acts 7",
+ "notes": "One red beat, misattributed. Jesus is standing in this story, but he never speaks —\nevery word quoted belongs to Stephen. So:\n\n  s1  Acts 7:56  'Behold, I see the heavens opened, and the Son of man standing on\n      the right hand of God.'  RED -> SCRIPTURE\n\nOne line out of red into light blue.\n\nLIFTED FROM PARAPHRASE — the dying prayer:\n  s60  Acts 7:60  NEW (scripture). n4a said only that 'his last words asked mercy for\n       the ones throwing the stones', which is a summary of one of the most famous\n       sentences in Acts. It is now spoken verbatim, on ST9 with n4a, and n4b\n       ('Then he fell asleep') follows on ST8 exactly as it did before — which is\n       itself Luke's own phrase, so the ending is unchanged.\n\nThis is Stephen's, not Christ's, and that matters: he prayed his Master's prayer from\nthe cross back at his own killers. Light blue is what lets a viewer feel the echo\ninstead of confusing the two men.\n\nNo splits — both quoted segments are single-speaker. Acts 7:56 and 7:60 are quoted\nfrom the King James text as printed. Nothing left as paraphrase from uncertainty.\n\nWHY-LAW: milk. You can face the worst thing that will ever happen to you with your\neyes on someone who is standing up for you, and with forgiveness still in your mouth.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Stephen, full of the Holy Spirit, was dragged before the council for speaking the truth. He told them the whole story of Israel — and they boiled with rage."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "But Stephen didn't look at his accusers. He looked up, and what he saw changed everything."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "He saw the glory of God — and Jesus, standing at the right hand of the Father. And he said so, out loud:"
+  },
+  {
+   "id": "s1",
+   "speaker": "scripture",
+   "verse": "Acts 7:56",
+   "text": "Behold, I see the heavens opened, and the Son of man standing on the right hand of God."
+  },
+  {
+   "id": "n3a",
+   "speaker": "narrator",
+   "text": "Look, he told them — heaven is open, and the Son of man is standing at God's right hand. They would not hear it. They rushed him out."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "But Stephen's face was the face of an angel — at peace, not afraid."
+  },
+  {
+   "id": "n4a",
+   "speaker": "narrator",
+   "text": "Then he knelt down, with the stones still coming, and his last words asked mercy for the ones throwing them."
+  },
+  {
+   "id": "s60",
+   "speaker": "scripture",
+   "verse": "Acts 7:60",
+   "text": "Lord, lay not this sin to their charge."
+  },
+  {
+   "id": "n4b",
+   "speaker": "narrator",
+   "text": "Don't hold this against them, he prayed. And then he fell asleep."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He saw the Son of man standing to receive him. You can face your end with that same peace."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "n1",
+   "ST2",
+   "in"
+  ],
+  [
+   "n2",
+   "ST3",
+   "in"
+  ],
+  [
+   "s1",
+   "ST5",
+   "in"
+  ],
+  [
+   "n3a",
+   "ST6",
+   "in"
+  ],
+  [
+   "n3b",
+   "ST7",
+   "in"
+  ],
+  [
+   "n4a",
+   "ST9",
+   "in"
+  ],
+  [
+   "s60",
+   "ST9",
+   "out"
+  ],
+  [
+   "n4b",
+   "ST8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST9": "ST9 now carries the kneeling and the prayer — two beats, white then light blue, over one image. Frame the moment of the words: Stephen down on his knees outside the wall, face lifted, mouth open on a cry, hands loose rather than shielding his head. The stones and the throwers stay out of focus or out of frame entirely; the subject is a man asking for mercy for other people. Peace on the face, not agony — the still has to earn the word 'asleep' that follows it."
+ }
+}

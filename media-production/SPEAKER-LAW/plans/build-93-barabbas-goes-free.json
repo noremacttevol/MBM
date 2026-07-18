@@ -1,0 +1,152 @@
+{
+ "build": "build-93-barabbas-goes-free",
+ "reference": "Mark 15",
+ "notes": "THIS BUILD HAD NO SCRIPTURE IN IT AT ALL. Seven beats, all white, and\nthe trial that decides the whole thing was summarized rather than heard. Mark 15\nis a shouting match, and none of the shouting was in the video.\n\nLIFTED VERBATIM AS SCRIPTURE (light blue -- Pilate is a man in the story and the\ncrowd is a crowd; neither is Deity and a red-letter KJV inks neither):\n  s9   Mark 15:9   'Will ye that I release unto you the King of the Jews?'\n       -- Pilate. n1a is trimmed to the frame and n1a2 carries the retelling.\n  s13  Mark 15:13  'Crucify him.'  -- the crowd. n2 is trimmed to the frame and\n       n2b carries the retelling.\n  s14  Mark 15:14  'Why, what evil hath he done?'  -- Pilate again. This is the\n       line the whole video needs and it was missing entirely: the man with the\n       power to stop it saying out loud that there was no case. n2c retells it.\n\nNO RED, DELIBERATELY. Jesus does speak in this trial -- Mark 15:2, 'Thou sayest\nit,' answering Pilate, and a red-letter KJV inks it. It was left out. Two words\nof ambiguous Old English dropped into the middle of a shouting match would need\nparagraphs of explanation to land, and this video's spine is the swap, not the\ninterrogation. Left out on judgment, not uncertainty; the verse is exact if a\nlater pass wants it.\n\nNO GREEN: the Father does not speak in Mark 15.\n\nWOMEN: Mark 15:6-15 records no woman speaking. (Pilate's wife speaks in Matthew\n27:19 -- 'Have thou nothing to do with that just man' -- but that is Matthew, not\nthis chapter, and this video is not about Pilate's conscience. Left out on\njudgment.)\n\nWHY-LAW: a guilty man walked out of the courtyard free because the innocent one\ntook the exact sentence he had earned. Milk: that is the whole gospel in one\nswap, and Barabbas did nothing to deserve it.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "It was the custom at Passover for the governor to release one prisoner the crowd chose. Pilate had two men: Jesus, and a killer named Barabbas."
+  },
+  {
+   "id": "n1a",
+   "speaker": "narrator",
+   "text": "Pilate could see Jesus had done nothing worth death. So he put the choice to the crowd himself."
+  },
+  {
+   "id": "s9",
+   "speaker": "scripture",
+   "verse": "Mark 15:9",
+   "text": "Will ye that I release unto you the King of the Jews?"
+  },
+  {
+   "id": "n1a2",
+   "speaker": "narrator",
+   "text": "Do you want me to release the King of the Jews to you? He was almost offering it to them."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "He thought the crowd would surely pick the innocent one."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "But the chief priests worked the crowd, and they shouted for Barabbas instead. Pilate asked them what he should do with Jesus, then — and they answered with one word."
+  },
+  {
+   "id": "s13",
+   "speaker": "scripture",
+   "verse": "Mark 15:13",
+   "text": "Crucify him."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "Crucify him. That was it. That was the answer. And Pilate could not make sense of it."
+  },
+  {
+   "id": "s14",
+   "speaker": "scripture",
+   "verse": "Mark 15:14",
+   "text": "Why, what evil hath he done?"
+  },
+  {
+   "id": "n2c",
+   "speaker": "narrator",
+   "text": "Why? he asked them. What has he actually done? The man holding all the power in that courtyard said out loud that there was no case — and then handed him over anyway."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "So the guilty man walked free, and the innocent one was handed over in his place."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Think about what Barabbas got: he was condemned, and then someone else took his exact sentence. He walked out free because Jesus took his cross."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "That's not just Barabbas's story. That's the whole gospel in one swap — the innocent for the guilty, so the guilty could go free."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Barabbas walked free because the Son of God took his place. So can you. That's the whole point."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "n1a",
+   "ST2",
+   "in"
+  ],
+  [
+   "s9",
+   "ST2",
+   "out"
+  ],
+  [
+   "n1a2",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1b",
+   "ST3",
+   "in"
+  ],
+  [
+   "n2",
+   "ST4",
+   "in"
+  ],
+  [
+   "s13",
+   "ST4",
+   "out"
+  ],
+  [
+   "n2b",
+   "ST4",
+   "in"
+  ],
+  [
+   "s14",
+   "ST4",
+   "out"
+  ],
+  [
+   "n2c",
+   "ST4",
+   "in"
+  ],
+  [
+   "n3",
+   "ST5",
+   "in"
+  ],
+  [
+   "n4",
+   "ST6",
+   "in"
+  ],
+  [
+   "n5",
+   "ST7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST2": "ST2 now carries the frame, Pilate's verbatim question, and its retelling. Frame him putting it to them: Pilate at the front of the stone platform, half turned toward the crowd below, one hand open toward the two prisoners behind him. He is offering, not judging — he expects this to be easy.",
+  "ST4": "ST4 now carries five beats — the crowd's verbatim 'Crucify him,' Pilate's verbatim 'What evil hath he done?', and three retellings. Frame the collision, not the mob: the front rank of the crowd with mouths open mid-shout, and above them Pilate leaning out over the rail with his hands spread, arguing back at people who have stopped listening. Both sides in one shot, neither winning."
+ }
+}

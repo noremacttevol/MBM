@@ -1,0 +1,122 @@
+{
+ "build": "build-80-come-unto-me",
+ "reference": "Matthew 11",
+ "notes": "ALL THREE STAY RED, AND THAT IS THE RIGHT ANSWER. Matthew 11:28-30 is Jesus\nspeaking in the flesh from start to finish and a red-letter KJV prints every word\nof it red. There was nothing here to move. Every line was checked anyway rather\nthan assumed, because this build is the one that would look most like a bulk\nre-paint if it came back untouched:\n  j1  Matthew 11:28  'Come unto me, all ye that labour and are heavy laden, and I\n      will give you rest.'\n  j2  Matthew 11:29  'Take my yoke upon you, and learn of me; for I am meek and\n      lowly in heart: and ye shall find rest unto your souls.'\n  j3  Matthew 11:30  'For my yoke is easy, and my burden is light.'\nAll three verbatim, all three ids kept, no splits needed -- none of them carries\nMatthew's framing inside it. j2 and j3 are one continuous sentence in the KJV and\nare deliberately left back to back, with one retelling covering both after j3.\n\nRETELLINGS ADDED -- the whole build was Old English with almost no plain-English\nlanding, which for the gentlest offer in the Gospels is the worst place to leave\nit untranslated:\n  n0c  after j1, on S3.\n  n1b  after j3, on S6, covering j2 and j3 together.\nn1's explanation of what a yoke actually is was already doing part of this job\nand was left exactly as it was.\n\nNO GREEN: the Father is spoken about elsewhere in Matthew 11 but does not speak\nin verses 28 to 30.\n\nWOMEN: Matthew 11:28-30 records no woman speaking. There is no dialogue in the\npassage at all besides Jesus. Nothing added; nothing invented.\n\nWHY-LAW: a yoke is built for two, and he is offering to take the other side.\nMilk: he never promised you an empty back — he promised you would not carry it\nby yourself.",
+ "segments": [
+  {
+   "id": "n0a",
+   "speaker": "narrator",
+   "text": "To a crowd of people worn down by work, by rules, by just getting through the day,"
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "Jesus made one of the gentlest offers ever spoken."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Matthew 11:28",
+   "text": "Come unto me, all ye that labour and are heavy laden, and I will give you rest."
+  },
+  {
+   "id": "n0c",
+   "speaker": "narrator",
+   "text": "Come to me, all of you who are worn out and carrying too much — and I will give you rest. He does not say come once you have it handled. He says come while you are still under it."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "A yoke was the wooden beam that let two oxen pull a load together, so no single animal carried it alone."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Matthew 11:29",
+   "text": "Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls."
+  },
+  {
+   "id": "j3",
+   "speaker": "jesus",
+   "verse": "Matthew 11:30",
+   "text": "For my yoke is easy, and my burden is light."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "Take my yoke on you, he said, and learn from me, because I am gentle and I am humble — and you will find rest for your soul. My yoke fits easy, and what I ask you to carry is light. He is not handing you a heavier beam. He is stepping into the empty side of the one you are already pulling."
+  },
+  {
+   "id": "n2a",
+   "speaker": "narrator",
+   "text": "He wasn't promising a life with nothing to carry."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "He was promising to get under the load with you, so it never has to be carried alone again."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Whatever you've been carrying by yourself — he's offering to take the other side of it. Come."
+  }
+ ],
+ "beats": [
+  [
+   "n0a",
+   "S1",
+   "in"
+  ],
+  [
+   "n0b",
+   "S2",
+   "in"
+  ],
+  [
+   "j1",
+   "S3",
+   "in"
+  ],
+  [
+   "n0c",
+   "S3",
+   "out"
+  ],
+  [
+   "n1",
+   "S4",
+   "in"
+  ],
+  [
+   "j2",
+   "S5",
+   "in"
+  ],
+  [
+   "j3",
+   "S6",
+   "in"
+  ],
+  [
+   "n1b",
+   "S6",
+   "out"
+  ],
+  [
+   "n2a",
+   "S7",
+   "in"
+  ],
+  [
+   "n2b",
+   "S8",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S3": "S3 now carries the verbatim invitation and its retelling. Frame the offer as it is actually made — to people still loaded: Jesus with both hands open and low, palms up, and in front of him people who have not put anything down yet, still holding bundles, tools, a child. Nobody in this shot has been unburdened. He is talking to them mid-load.",
+  "S6": "S6 now carries 'my yoke is easy, and my burden is light' and one retelling covering both verses. Frame the second place at the beam: a wooden yoke on a shoulder with the other bay clearly, deliberately filled — two pulling, not one. Keep the load in the shot. The relief in this image should come from the sharing, not from the weight disappearing."
+ }
+}

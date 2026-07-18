@@ -1,0 +1,124 @@
+{
+ "build": "build-95-thief-on-the-cross",
+ "reference": "Luke 23",
+ "notes": "STAYED RED, and it is exact:\n  j1  Luke 23:43  'Verily I say unto thee, To day shalt thou be with me in\n      paradise.'\n  Id kept. It carried no framing welded on, so it needed no split.\n\nTHE THIEF IS BLUE, NOT RED -- and he is the reason this video exists. Every word\nhe says was sitting in narrator paraphrase, in white. He is a man in the story,\nnot Deity, so all three of his lines are SCRIPTURE (light blue):\n  s39  Luke 23:39  'If thou be Christ, save thyself and us.'\n       -- the one who railed on him. n0b keeps its id and now retells it.\n  s40  Luke 23:40-41  'Dost not thou fear God, seeing thou art in the same\n       condemnation? And we indeed justly; for we receive the due reward of our\n       deeds: but this man hath done nothing amiss.'\n       -- the other one answering him. n1 already retells this almost word for\n       word and was left exactly as it was.\n  s42  Luke 23:42  'Lord, remember me when thou comest into thy kingdom.'\n       -- THE line. n3 said it in modern English and the Old English was nowhere\n       in the video. It now sits on ST4, the still already named\n       's4-remember-me'. n2 is trimmed to the frame and n3 keeps its id as the\n       retelling.\n\nNO GREEN: the Father does not speak in Luke 23:39-43.\n\nWOMEN: Luke 23:39-43 records no woman speaking. Nothing added, nothing invented.\n\nWHY-LAW: a condemned criminal with nothing left to offer asked to be remembered,\nand got paradise the same day. Milk: it is never too late, and there is nothing\nto bring but the asking.",
+ "segments": [
+  {
+   "id": "n0a",
+   "speaker": "narrator",
+   "text": "Two criminals were crucified with Jesus, one on each side."
+  },
+  {
+   "id": "s39",
+   "speaker": "scripture",
+   "verse": "Luke 23:39",
+   "text": "If thou be Christ, save thyself and us."
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "If you're really the Christ, save yourself — and us. That was one of them, sneering at him from the next cross over."
+  },
+  {
+   "id": "s40",
+   "speaker": "scripture",
+   "verse": "Luke 23:40-41",
+   "text": "Dost not thou fear God, seeing thou art in the same condemnation? And we indeed justly; for we receive the due reward of our deeds: but this man hath done nothing amiss."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "But the other one stopped him. We're getting what we deserve, he said. This man has done nothing wrong."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Then he turned his head toward Jesus and asked for the smallest thing he could think of."
+  },
+  {
+   "id": "s42",
+   "speaker": "scripture",
+   "verse": "Luke 23:42",
+   "text": "Lord, remember me when thou comest into thy kingdom."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Lord, remember me when you come into your kingdom. No good deeds to offer. No time left to fix his life. Just a dying man asking."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Luke 23:43",
+   "text": "Verily I say unto thee, To day shalt thou be with me in paradise."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Today. Not someday, not after you've earned it. Today. The last-minute faith of a criminal was enough."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He saved a man who had nothing to give but a request. It's never too late to ask."
+  }
+ ],
+ "beats": [
+  [
+   "n0a",
+   "ST1",
+   "in"
+  ],
+  [
+   "s39",
+   "ST2",
+   "in"
+  ],
+  [
+   "n0b",
+   "ST2",
+   "out"
+  ],
+  [
+   "s40",
+   "ST3",
+   "in"
+  ],
+  [
+   "n1",
+   "ST3",
+   "out"
+  ],
+  [
+   "n2",
+   "ST4",
+   "in"
+  ],
+  [
+   "s42",
+   "ST4",
+   "out"
+  ],
+  [
+   "n3",
+   "ST6",
+   "in"
+  ],
+  [
+   "j1",
+   "ST5",
+   "in"
+  ],
+  [
+   "n4",
+   "ST7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST2": "ST2 now carries the mocking thief's verbatim line and its retelling. Frame the sneer: the criminal on the far cross with his head turned hard toward Jesus, mouth open, contempt on a face that is also in agony. Close enough to read the expression, far enough to see he is nailed up too.",
+  "ST3": "ST3 now carries the second thief's long verbatim rebuke and its retelling. Frame him mid-sentence, speaking across Jesus to the other man: head strained around, eyes on the mocker rather than on Jesus. He is defending someone he has only just met, with the last strength he has.",
+  "ST4": "ST4 now carries the frame and the verbatim request. Frame the turn: the thief's head coming around away from the other cross and toward Jesus, the anger gone out of his face, only the asking left. This is the single most important image in the video — it should be quiet and very close."
+ }
+}

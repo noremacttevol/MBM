@@ -1,0 +1,163 @@
+{
+ "build": "build-32-talents",
+ "reference": "Matthew 25",
+ "notes": "STAYED RED: j1 is the lord in the parable of the talents, and SPEAKER-LAW names\nthis exact line as the standing example of where red is still right -- inside a\nparable, the characters' words are Jesus's words:\n  j1  Matthew 25:21  'Well done, thou good and faithful servant: thou hast been\n      faithful over a few things, I will make thee ruler over many things: enter thou\n      into the joy of thy lord.'\nVerified verbatim (the framing clause 'His lord said unto him,' is not in the beat,\nand it would not have needed splitting anyway -- inside a parable that framing is\nJesus narrating too, and a red-letter KJV inks it red along with the rest).\n\nTHE REAL FIX -- j2 WAS NOT VERBATIM. j2 read 'Lord, I knew thee that thou art an hard\nman, and I was afraid, and went and hid thy talent in the earth.' That is a splice.\nIt welds the front of 25:24 to the middle of 25:25 and silently drops 'reaping where\nthou hast not sown, and strawing where thou hast not strawed:' from between them. A\nviewer who looked it up would not find that sentence anywhere in the KJV, which is\nexactly what the hard rule forbids. Fixed by splitting it into the two real verses,\nBOTH ON THE SAME STILL S7, both JESUS, both red -- no new artwork and no colour change:\n  j24  Matthew 25:24  'Lord, I knew thee that thou art an hard man, reaping where thou\n       hast not sown, and strawing where thou hast not strawed:'\n  j2   Matthew 25:25  'And I was afraid, and went and hid thy talent in the earth: lo,\n       there thou hast that is thine.'   -- id kept, so the music beds are not orphaned.\nn9 is already the retelling and follows both, untouched.\n\nADDED RED. The opening of the parable was told only in paraphrase:\n  j14  Matthew 25:14  'For the kingdom of heaven is as a man travelling into a far\n       country, who called his own servants, and delivered unto them his goods.'\n       -- placed on S1 ahead of n1, which keeps its text and now retells it.\n\nLEFT AS PARAPHRASE ON PURPOSE. Matthew 25:15 (the five, two and one) and 25:20 (the\nfirst servant's report, 'Lord, thou deliveredst unto me five talents') are both red in\na red-letter KJV and both could have been lifted. They are deliberately left in the\nstoryteller's voice: n2 through n6 are a fast, plain run through the setup, and\ndropping two more Old English blocks into it would turn the first half of the video\ninto a recitation. Verbatim and retold, alternating -- red now lands on S1, S6 and S7.\n\nNO GREEN: no voice from heaven in Matthew 25:14-30.\n\nWOMEN: the parable of the talents records no woman speaking. Nothing added; nothing\ninvented.\n\nPRONUNCIATION: `spoken` is left EMPTY on purpose, and this is a judgement call worth\nflagging. 'sown' in j24 is the seed word but it already rhymes with 'own' as spelled,\nso it needs nothing. 'strawing' and 'strawed' are genuinely obscure archaic verbs and\nI am NOT confident of a respelling that would improve them -- SPEAKER-LAW says a bad\nrespelling is worse than none, so they are left alone and flagged here for the\nfaster_whisper audit to check in the rendered audio.\n\nWHY-LAW: the tragedy is not that he had little. It is that he was wrong about his\nmaster. His fear was built on a lie about who the man really was, and the lie cost him\neverything. God is not the hard man that servant imagined.",
+ "segments": [
+  {
+   "id": "j14",
+   "speaker": "jesus",
+   "verse": "Matthew 25:14",
+   "text": "For the kingdom of heaven is as a man travelling into a far country, who called his own servants, and delivered unto them his goods."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Jesus told a story about a wealthy man who, before a long journey, entrusted his servants with his own fortune. To one he gave five bags of silver, to another two, and to another one, each according to what he could handle."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "It was a staggering amount of trust. He handed his wealth to his servants and left them free to use it."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "The servant with five bags went straight to work, trading and investing, and doubled everything he had been given."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "The servant with two bags did the same, and doubled his as well. Neither one played it safe. They took what they were trusted with and made it grow."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "But the servant with one bag was afraid. So he dug a hole in the ground, buried the silver, and did nothing with it at all."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "When the master came home, the first two servants showed him what they had made. And he was overjoyed."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Matthew 25:21",
+   "text": "Well done, thou good and faithful servant: thou hast been faithful over a few things, I will make thee ruler over many things: enter thou into the joy of thy lord."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "Enter into the joy of your master. He did not just reward them, he shared his own joy with them, and welcomed them deeper in."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "Then the last servant came, dug up his one buried bag, and handed it back untouched. And listen to why he had buried it."
+  },
+  {
+   "id": "j24",
+   "speaker": "jesus",
+   "verse": "Matthew 25:24",
+   "text": "Lord, I knew thee that thou art an hard man, reaping where thou hast not sown, and strawing where thou hast not strawed:"
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Matthew 25:25",
+   "text": "And I was afraid, and went and hid thy talent in the earth: lo, there thou hast that is thine."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "There it is. He buried the gift because he believed his master was harsh and cruel. He was wrong about him. His fear was built on a lie about who his master really was, and that lie cost him everything."
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "That is the real tragedy of the story. Not that he had little, but that he so badly misjudged the heart of the one who trusted him. God is not the hard man that servant imagined. He trusts you with something real, and he is longing to say to you, well done, and to share his joy."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "What has God trusted you with that fear has kept you from using? What if he is kinder than you think?"
+  }
+ ],
+ "beats": [
+  [
+   "j14",
+   "S1",
+   "in"
+  ],
+  [
+   "n1",
+   "S1",
+   "out"
+  ],
+  [
+   "n2",
+   "S1",
+   "in"
+  ],
+  [
+   "n3",
+   "S2",
+   "in"
+  ],
+  [
+   "n4",
+   "S3",
+   "in"
+  ],
+  [
+   "n5",
+   "S4",
+   "in"
+  ],
+  [
+   "n6",
+   "S5",
+   "in"
+  ],
+  [
+   "j1",
+   "S6",
+   "in"
+  ],
+  [
+   "n7",
+   "S6",
+   "out"
+  ],
+  [
+   "n8",
+   "S7",
+   "in"
+  ],
+  [
+   "j24",
+   "S7",
+   "out"
+  ],
+  [
+   "j2",
+   "S7",
+   "in"
+  ],
+  [
+   "n9",
+   "S7",
+   "out"
+  ],
+  [
+   "n10",
+   "S6",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S1": "S1 now carries three beats — the verbatim opening of the parable, the retelling, and n2. Frame the handover, not the journey: the master's hands placing heavy sealed bags of silver into a servant's cupped hands, close in, with two more servants waiting behind. Travelling clothes and a loaded pack already on his shoulder. What should read is trust — he is walking away and leaving all of it with them.",
+  "S7": "S7 now carries four beats — the frame, both halves of the third servant's verbatim excuse, and the retelling. Frame the accusation rather than the hole in the ground: the servant standing before his master holding out one dirt-caked bag with both hands, eyes down, the earth still on his fingers. The master's face open and unguarded, not angry — the picture should show that the servant's idea of him was simply wrong."
+ }
+}

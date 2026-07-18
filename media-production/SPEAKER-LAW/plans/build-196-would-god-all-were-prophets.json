@@ -1,0 +1,110 @@
+{
+ "build": "build-196-would-god-all-were-prophets",
+ "reference": "Numbers 11",
+ "notes": "Numbers 11:28-29. The red beat moves to BLUE, and Joshua's line is lifted out.\n\n  s1  Numbers 11:29  'Enviest thou me for my sake? would God that all...'  RED -> SCRIPTURE\n  s0  Numbers 11:28  NEW - lifted out of narrator paraphrase               -> SCRIPTURE\n\nThis is the one in the set that looks like God speaking and is not. Checked the\nsurrounding verses: verse 28 is 'And Joshua the son of Nun, the servant of Moses,\none of his young men, answered and said, My lord Moses, forbid them.' Verse 29\nopens 'And Moses said unto him' - so every word of s1 is MOSES. He is talking\nABOUT the LORD in the third person ('would God that all the LORD's people were\nprophets, and that the LORD would put his spirit upon them'), which is the tell.\nA man wishing God would do something is not God speaking. Light blue, not green.\nNumbers is Old Testament so `jesus` was never available, but the trap here was\ngreen, not red.\n\nLIFT. n3b was paraphrasing Joshua - 'stop them, he said' - and the actual line is\nfour words long and better than the paraphrase. Numbers 11:28 is now `s0`,\nverbatim and blue, on ST6, which is the still already named 'forbid them'. The\nartwork was waiting for it.\n\nQUESTION AND ANSWER - no retelling between s0 and s1, on purpose. Joshua asks\nMoses to shut it down; Moses answers him. Putting a narrator retelling between\nthose two lines would break the only exchange in the story and kill the beat the\nwhole video is built on. The law's exception for a deliberate question-and-answer\npair covers exactly this. The meaning is not left hanging either way: n3b sits\nimmediately BEFORE s0 and already gives Joshua's sense in modern English, and n4\nretells Moses right after. So both Old English lines are surrounded by plain\nEnglish, just not sandwiched individually.\n\nVerbatim: s0 is 'My lord Moses, forbid them.' word for word. s1 is Numbers 11:29\nfrom 'Enviest thou me' to the closing exclamation, exact, including the\npossessive in 'the LORD's people'. Neither was smoothed.\n\nn0, n1a and n1b stay narrator paraphrase and I am leaving them that way on\npurpose. They compress the LORD's instructions from Numbers 11:16-17 into three\nsentences. The real verses run long and are full of tabernacle logistics, and\nlifting them would put a third Old English block into a short video and bury the\npunchline. Said plainly: those beats are paraphrase, not quotation, and are\ncorrectly white.\n\nIds: every original id kept. s0 is the only new one. The card is 'card' and stays\nout of beats, as the original had it.\n\nWHY-LAW: milk. Moses did not guard the gift. The most generous answer in the Old\nTestament is a leader wishing everyone had what he had - no argument about\nauthority, just the wish itself.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "The weight of leading a whole nation was crushing Moses. He told the LORD he could not carry the people alone, not one more day."
+  },
+  {
+   "id": "n1a",
+   "speaker": "narrator",
+   "text": "So God told Moses to gather seventy trusted men."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "He would take some of the Spirit that rested on Moses and share it with them, and together they would help bear the load."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "When the Spirit came down on those seventy, they began to speak God's words. But two men, Eldad and Medad, had stayed back in the camp — and the Spirit came on them too, right there among the tents."
+  },
+  {
+   "id": "n3a",
+   "speaker": "narrator",
+   "text": "A runner hurried to Moses with the news."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "Joshua, Moses's right-hand man, was worried — stop them, he said. That is not how it is supposed to work."
+  },
+  {
+   "id": "s0",
+   "speaker": "scripture",
+   "verse": "Numbers 11:28",
+   "text": "My lord Moses, forbid them."
+  },
+  {
+   "id": "s1",
+   "speaker": "scripture",
+   "verse": "Numbers 11:29",
+   "text": "Enviest thou me for my sake? would God that all the LORD's people were prophets, and that the LORD would put his spirit upon them!"
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "One of the most generous answers in all of scripture. Moses did not guard the gift — he wished it wider."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Moses did not guard the gift — he wished it for everyone. The same Spirit is offered to you. Ask, and receive."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "n1a",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1b",
+   "ST3",
+   "in"
+  ],
+  [
+   "n2",
+   "ST4",
+   "in"
+  ],
+  [
+   "n3a",
+   "ST5",
+   "in"
+  ],
+  [
+   "n3b",
+   "ST6",
+   "in"
+  ],
+  [
+   "s0",
+   "ST6",
+   "out"
+  ],
+  [
+   "s1",
+   "ST7",
+   "in"
+  ],
+  [
+   "n4",
+   "ST8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST6": "ST6 now carries the setup and Joshua's lifted line - two beats, white then blue, and it has to be the moment he says it rather than a general scene of concern. Frame Joshua mid-sentence: young, earnest, stepping in close to Moses, one hand half-raised toward the camp behind him where Eldad and Medad are prophesying. He is not angry - he is protecting his master's position and thinks he is doing right, which is what makes the answer land. Keep Moses out of focus or at the edge; the beat belongs to Joshua and ST7 is where Moses gets the frame."
+ }
+}

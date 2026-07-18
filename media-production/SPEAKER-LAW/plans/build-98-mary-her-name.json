@@ -1,0 +1,188 @@
+{
+ "build": "build-98-mary-her-name",
+ "reference": "John 20",
+ "notes": "THIS IS THE ONE THIS WHOLE PASS EXISTED FOR. The video is built on one\nword he says and one word she answers -- and in the original, only his word was\nin his own voice. Every single thing Mary Magdalene says in John 20 was narrator\nparaphrase, in white, including her answer to her own name.\n\nMARY NOW SPEAKS, THREE TIMES, IN PINK. All verbatim:\n  w13  John 20:13  'They have taken away my Lord, and I know not where they have\n       laid him.'  -- her answer to the angels. n0 is trimmed to the frame and\n       n0b carries the retelling.\n  w15  John 20:15  'Sir, if thou have borne him hence, tell me where thou hast\n       laid him, and I will take him away.'  -- said to the man she thinks is the\n       gardener. n1b is trimmed to the frame and n1b2 carries the retelling. She\n       is offering to carry a grown man's body home by herself. That is what the\n       old paraphrase, 'she begged,' was hiding.\n  w16  John 20:16  'Rabboni.'  -- ONE WORD, and it is the hinge of the video.\n       The KJV adds 'which is to say, Master' as John's own gloss, so that clause\n       is left out of her line rather than put in her mouth; n3 carries the\n       translation in the storyteller's voice instead.\n\nSTAYED RED, and TWO MORE ADDED:\n  j1   John 20:16  'Mary.'  -- unchanged, id kept.\n  jv15 John 20:15  'Woman, why weepest thou? whom seekest thou?'  -- he speaks to\n       her before she knows him, and it was missing entirely. n1a2 retells it.\n  jv17 John 20:17  'Touch me not; for I am not yet ascended to my Father: but go\n       to my brethren, and say unto them, I ascend unto my Father, and your\n       Father; and to my God, and your God.'  -- n4a said only 'he sent her to\n       tell the others.' The actual sending is one of the great sentences in the\n       Gospels and it was not in the video. n4a keeps its id and now retells it.\n\nDELIBERATE QUESTION-AND-ANSWER PAIR -- NO RETELLING BETWEEN THEM. j1 is 'Mary.'\nand w16 is 'Rabboni.' Red straight into pink, one word each, nothing in between.\nWedging a narrator line between a man saying a woman's name and the woman\nanswering would destroy the only thing this video is about. n3 retells both\ntogether immediately after. This is the same call made in build-144 with\n'Believest thou this?' and Martha's answer.\n\nNO GREEN: the Father is spoken ABOUT here, not by him.\n\nWHY-LAW: she was standing three feet from the risen Lord and could not see him\nthrough her own crying, and what opened her eyes was not an argument or a proof.\nIt was her name. Milk: he knows you by name, and he says it while you are still\ncrying.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Mary Magdalene stayed behind at the tomb, weeping. When she was asked why she was crying, all she had was one answer."
+  },
+  {
+   "id": "w13",
+   "speaker": "woman",
+   "verse": "John 20:13",
+   "text": "They have taken away my Lord, and I know not where they have laid him."
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "They have taken away my Lord, she said, and I don't know where they've put him. She had lost him once already. Now it felt like she had lost even the place where he lay."
+  },
+  {
+   "id": "n1a",
+   "speaker": "narrator",
+   "text": "She turned and saw a man standing there."
+  },
+  {
+   "id": "jv15",
+   "speaker": "jesus",
+   "verse": "John 20:15",
+   "text": "Woman, why weepest thou? whom seekest thou?"
+  },
+  {
+   "id": "n1a2",
+   "speaker": "narrator",
+   "text": "Why are you crying? he asked her. Who is it you're looking for? She did not know the voice yet. Through the tears, she could not even see his face."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "Thinking he was the gardener, she pleaded with him."
+  },
+  {
+   "id": "w15",
+   "speaker": "woman",
+   "verse": "John 20:15",
+   "text": "Sir, if thou have borne him hence, tell me where thou hast laid him, and I will take him away."
+  },
+  {
+   "id": "n1b2",
+   "speaker": "narrator",
+   "text": "Sir, if you carried him off, just tell me where you put him, and I will go and get him. She was a woman offering to carry a grown man's body home by herself. That is how much she loved him."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "He said one word. Her name."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "John 20:16",
+   "text": "Mary."
+  },
+  {
+   "id": "w16",
+   "speaker": "woman",
+   "verse": "John 20:16",
+   "text": "Rabboni."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Mary. And she answered him — Rabboni. It means Master, in her own language, the word she had always called him. And instantly she knew. Grief flipped to joy in a single heartbeat — he was alive, and he had come looking for HER, by name."
+  },
+  {
+   "id": "jv17",
+   "speaker": "jesus",
+   "verse": "John 20:17",
+   "text": "Touch me not; for I am not yet ascended to my Father: but go to my brethren, and say unto them, I ascend unto my Father, and your Father; and to my God, and your God."
+  },
+  {
+   "id": "n4a",
+   "speaker": "narrator",
+   "text": "Don't hold on to me yet, he told her — I haven't gone up to my Father. Go to my brothers and tell them I'm going to my Father and your Father, to my God and your God. He gave her the message, and he sent her to carry it."
+  },
+  {
+   "id": "n4b",
+   "speaker": "narrator",
+   "text": "The first person to see the risen Lord, and the first preacher of the resurrection, was a weeping woman he called by name."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He knows your name — and he speaks it even in your grief. Listen for it."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "w13",
+   "ST1",
+   "out"
+  ],
+  [
+   "n0b",
+   "ST1",
+   "in"
+  ],
+  [
+   "n1a",
+   "ST2",
+   "in"
+  ],
+  [
+   "jv15",
+   "ST2",
+   "out"
+  ],
+  [
+   "n1a2",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1b",
+   "ST3",
+   "in"
+  ],
+  [
+   "w15",
+   "ST3",
+   "out"
+  ],
+  [
+   "n1b2",
+   "ST3",
+   "in"
+  ],
+  [
+   "n2",
+   "ST4",
+   "in"
+  ],
+  [
+   "j1",
+   "ST5",
+   "in"
+  ],
+  [
+   "w16",
+   "ST5",
+   "out"
+  ],
+  [
+   "n3",
+   "ST8",
+   "in"
+  ],
+  [
+   "jv17",
+   "ST6",
+   "in"
+  ],
+  [
+   "n4a",
+   "ST6",
+   "out"
+  ],
+  [
+   "n4b",
+   "ST7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST1": "ST1 now carries the frame, Mary's first verbatim line, and its retelling. Frame her answering, not just weeping: Mary bent at the mouth of the tomb but with her face turned up and out, speaking to someone off frame. Wet face, and words coming out of it. She is not silent in this shot — she is answering a question.",
+  "ST2": "ST2 now carries Jesus's verbatim question to her and its retelling. Frame the not-recognizing: Jesus standing a few paces off in the early light, plainly and quietly, and Mary looking straight at him without seeing who it is. Her eyes should be on him and still not know him.",
+  "ST3": "ST3 now carries her verbatim offer to carry the body away and its retelling. Frame the offer, not the grief: Mary a step closer to him now, one hand out toward him, the other gripping the burial cloth or jar she brought. A small woman volunteering to do something she physically cannot do.",
+  "ST5": "ST5 carries the two single words the entire video is built on — his 'Mary.' and her 'Rabboni.' — with no narration between them. Frame the instant between the two: him having just spoken, her head coming up, recognition breaking across her face. Both of them in the frame, close, nothing else in it. This is the most important still in the build.",
+  "ST6": "ST6 now carries his verbatim sending and its retelling. Frame the commission rather than the touch: Jesus half turned as if already moving, hand raised toward her — not pushing her away, redirecting her — and Mary rising up off her knees to go."
+ }
+}

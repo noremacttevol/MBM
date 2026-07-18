@@ -1,0 +1,153 @@
+{
+ "build": "build-33-sheep-goats",
+ "reference": "Matthew 25",
+ "notes": "STAYED RED: both existing red beats are Jesus in the flesh, and a red-letter KJV\nprints all of Matthew 25:31-46 red -- the whole passage is one unbroken speech of his\nto the disciples on the Mount of Olives, King and sheep and goats alike.\n  j1  Matthew 25:34-36  'Come, ye blessed of my Father, inherit the kingdom prepared\n      for you from the foundation of the world: For I was an hungred, and ye gave me\n      meat...'   verified verbatim, three verses running contiguously.\n  j2  Matthew 25:40    'Verily I say unto you, Inasmuch as ye have done it unto one of\n      the least of these my brethren, ye have done it unto me.'\nNeither moves. There is no evangelist framing anywhere inside this passage to split\nout -- Matthew's last framing line is back at 25:31, before the build starts.\n\nTHE BIG ADD -- THE RIGHTEOUS WERE NEVER HEARD. The heart of this story is that the\npeople being welcomed in do not recognise their own kindness, and their bewildered\nquestion was sitting entirely inside narrator paraphrase in n5, spoken in white. It is\nJesus's own words -- inside his parable, the characters' lines are his -- so it is red,\nnot blue, and it is lifted out verbatim on the SAME still n5 already used:\n  j37  Matthew 25:37-39  'Lord, when saw we thee an hungred, and fed thee? or thirsty,\n       and gave thee drink? When saw we thee a stranger, and took thee in? or naked,\n       and clothed thee? Or when saw we thee sick, or in prison, and came unto thee?'\n       -- three verses running contiguously, minus only Matthew's 'Then shall the\n       righteous answer him, saying,' at the head of 25:37. n5 keeps its text and now\n       lands as the retelling directly behind it.\nThis is the beat the video was missing. j2's answer now arrives as a real answer to a\nquestion the viewer has actually heard asked.\n\nALSO ADDED RED. The opening image was paraphrase only:\n  j32  Matthew 25:32  'And before him shall be gathered all nations: and he shall\n       separate them one from another, as a shepherd divideth his sheep from the goats:'\n       -- placed on S1 between n1 and n2, so n2 keeps its text and becomes the\n       retelling. Red lands on S1, S2, S4 and S6, each with a narrator retelling after.\n\nLEFT AS PARAPHRASE ON PURPOSE. Matthew 25:41-45, the word to those on the left hand,\nis red in a red-letter KJV and could have been lifted. It is deliberately left in the\nstoryteller's compressed handling at n8. This is milk-before-meat: the video's whole\nweight is on where he was hiding, not on the sentence, and dropping 'Depart from me,\nye cursed' in verbatim Old English would tip the tone of the piece somewhere it was\nnever built to go.\n\nNO GREEN: 'my Father' is spoken ABOUT the Father by Christ in the flesh, not BY him.\nThat is red, not green. No voice from heaven in Matthew 25.\n\nWOMEN: Matthew 25:31-46 records no woman speaking. Nothing added; nothing invented.\n\nPRONUNCIATION: `spoken` is left empty. Nothing in the KJV lines is on the homograph\nlist. 'an hungred' is unusual but it is verbatim and it is spelled the way it should be\nread; I am not confident a respelling improves it, and a bad respelling is worse than\nnone. Flagged for the faster_whisper audit.\n\nWHY-LAW: he did not hide behind anything impressive. He hid in the people easiest to\noverlook, so that plain ordinary kindness would always reach him.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Near the end, Jesus told his friends what the last day would really be like. He said the King would gather all the nations in front of him and separate them into two groups."
+  },
+  {
+   "id": "j32",
+   "speaker": "jesus",
+   "verse": "Matthew 25:32",
+   "text": "And before him shall be gathered all nations: and he shall separate them one from another, as a shepherd divideth his sheep from the goats:"
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Like a shepherd at evening quietly dividing his flock, the sheep to one side and the goats to the other. And what decided which side you were on was not at all what people expect."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "To the first group, the ones he welcomed in, the King said this."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Matthew 25:34-36",
+   "text": "Come, ye blessed of my Father, inherit the kingdom prepared for you from the foundation of the world: For I was an hungred, and ye gave me meat: I was thirsty, and ye gave me drink: I was a stranger, and ye took me in: Naked, and ye clothed me: I was sick, and ye visited me: I was in prison, and ye came unto me."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "You fed me when I was hungry, he said. You gave me water when I was thirsty. You took me in when I was a stranger. You clothed me, you sat with me when I was sick, you came to me when I was locked away."
+  },
+  {
+   "id": "j37",
+   "speaker": "jesus",
+   "verse": "Matthew 25:37-39",
+   "text": "Lord, when saw we thee an hungred, and fed thee? or thirsty, and gave thee drink? When saw we thee a stranger, and took thee in? or naked, and clothed thee? Or when saw we thee sick, or in prison, and came unto thee?"
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "And here is the beautiful part. The good people are confused. They say, Lord, when did we ever see you hungry, or thirsty, or sick, or in prison? They do not even remember doing anything special. They just helped whoever was in front of them."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "They were not keeping score. They were not trying to earn anything. Kindness was simply their reflex. And then the King tells them the secret behind all of it."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Matthew 25:40",
+   "text": "Verily I say unto you, Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "He was in them the whole time. Every hungry person, every stranger, every sick and forgotten and locked-away person, was him, wearing a disguise."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "The others missed him for the very same reason. They were waiting to serve a King on a throne, and they walked right past him a hundred times, because he did not look like a King. He looked like someone who needed help."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "That is how good he is. He did not hide himself behind something impressive. He hid in the people easiest to overlook, so that plain, ordinary kindness would always reach him. So when someone small and needy stands in front of you, that is not an interruption. It might be him."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He is hidden in the person in front of you who needs help. Will you show him a kindness today?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "j32",
+   "S1",
+   "out"
+  ],
+  [
+   "n2",
+   "S1",
+   "in"
+  ],
+  [
+   "n3",
+   "S2",
+   "in"
+  ],
+  [
+   "j1",
+   "S2",
+   "out"
+  ],
+  [
+   "n4",
+   "S3",
+   "in"
+  ],
+  [
+   "j37",
+   "S4",
+   "in"
+  ],
+  [
+   "n5",
+   "S4",
+   "out"
+  ],
+  [
+   "n6",
+   "S5",
+   "in"
+  ],
+  [
+   "j2",
+   "S6",
+   "out"
+  ],
+  [
+   "n7",
+   "S6",
+   "in"
+  ],
+  [
+   "n8",
+   "S7",
+   "in"
+  ],
+  [
+   "n9",
+   "S7",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S1": "S1 now carries three beats — the opening, Jesus's verbatim separating verse, and the retelling. Frame the dividing itself and keep it gentle, the way n2 describes it: a shepherd at dusk standing in a gap in a low stone wall, flock streaming past him on both sides, sheep drifting to one hand and goats to the other. Unhurried, familiar, end-of-day work — not a tribunal.",
+  "S4": "S4 now carries the righteous's verbatim question and its retelling. Frame the bewilderment: a small group standing before the King with their hands open and turned up, looking at each other rather than at him, genuinely puzzled. They are not pleading and they are not proud — they honestly do not remember doing anything worth mentioning. That confusion is the subject of the still."
+ }
+}

@@ -1,0 +1,111 @@
+{
+ "build": "build-193-the-comforter",
+ "reference": "John 14",
+ "notes": "John 14. The red beat STAYS RED, and a second red line is lifted out.\n\n  j1  John 14:26  'But the Comforter, which is the Holy Ghost...'  RED -> stays JESUS\n  j0  John 14:18  NEW - lifted out of narrator paraphrase          -> JESUS\n  n0b NEW - narrator retelling of j0\n\nThis is the Gospel of John, the upper room on the night of the betrayal, and\nJohn 14:26 is Christ speaking in mortality. A red-letter King James Bible prints\nit red. It stays red. Checked for evangelist framing welded onto the front - the\nkind of 'And Jesus answering said unto him' seam that has to be split off into\nblue - and there is none. j1 opens on 'But the Comforter' and is Christ's own\nwords end to end. No split.\n\nLIFT. n0 said the disciples 'would not be left alone', which is a modern\nparaphrase of John 14:18, sitting eight verses upstream of the line the video is\nbuilt on, and one of the tenderest sentences Christ ever spoke. It is now `j0`,\nverbatim and red, on ST1 - the still is literally called 'not left alone', so the\nartwork was already there waiting for it. Because the retelling rule is\nmandatory, `n0b` is new narration that says it again in plain modern English\nbefore n1 picks up the argument. That is the only new narrator line in the build.\n\nVerbatim: j0 is John 14:18 word for word - 'I will not leave you comfortless: I\nwill come to you.' j1 is John 14:26 word for word, including 'whatsoever I have\nsaid unto you'. Neither was smoothed.\n\nn1, n2a and n2b stay narrator. They describe the Helper in modern English and\nalready do the retelling work for j1 in advance, which is why j1 needed no new\nnarration behind it - n3a and n3b close it out.\n\nIds: every original id kept. j0 and n0b are new. The card is 'card' and stays out\nof beats, as the original had it.\n\nWHY-LAW: milk. The Holy Ghost is a comfort and a teacher, not a doctrine to\nargue. The promise was made to men in a room and it is still open.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "On the night before He died, Jesus sat with His disciples and told them they would not be left alone."
+  },
+  {
+   "id": "j0",
+   "speaker": "jesus",
+   "verse": "John 14:18",
+   "text": "I will not leave you comfortless: I will come to you."
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "I will not leave you comfortless. He was hours from the cross, and He was the one doing the comforting — promising that whatever else they lost that week, they would not be left on their own."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "He promised another Helper would come — the Holy Ghost, sent by the Father in His name."
+  },
+  {
+   "id": "n2a",
+   "speaker": "narrator",
+   "text": "This Helper would do two things: teach them everything,"
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "and bring every word Jesus had spoken back to their minds."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "John 14:26",
+   "text": "But the Comforter, which is the Holy Ghost, whom the Father will send in my name, he shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you."
+  },
+  {
+   "id": "n3a",
+   "speaker": "narrator",
+   "text": "The promise still stands."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "The Spirit who taught them then teaches everyone who listens now."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "You are not left to remember alone. The Comforter is here — let Him teach you."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "j0",
+   "ST1",
+   "out"
+  ],
+  [
+   "n0b",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1",
+   "ST2",
+   "out"
+  ],
+  [
+   "n2a",
+   "ST3",
+   "in"
+  ],
+  [
+   "n2b",
+   "ST6",
+   "in"
+  ],
+  [
+   "j1",
+   "ST4",
+   "in"
+  ],
+  [
+   "n3a",
+   "ST5",
+   "in"
+  ],
+  [
+   "n3b",
+   "ST7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST1": "ST1 now carries the setup and the first red line - the colour changes on it, white to red, and it has to hold Christ's voice rather than just illustrate a mood. Frame the moment of the words: Jesus at the table, leaning slightly toward the men rather than away, one hand open on the table between them. Lamplight, close, the room small. Not a farewell tableau and not a group portrait - the line is 'I will come to you', so nothing in the frame should read as leaving.",
+  "ST2": "ST2 now holds two beats back to back, the retelling of John 14:18 and then the promise of the Helper, so it carries a longer stretch of white narration than before. It should sit on the listeners rather than the speaker - the disciples' faces taking in something they do not yet understand, a couple of them watching him, one looking down. Same lamplight as ST1 so the two read as one continuous room."
+ }
+}

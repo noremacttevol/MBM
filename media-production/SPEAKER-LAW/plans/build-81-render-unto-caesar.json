@@ -1,0 +1,158 @@
+{
+ "build": "build-81-render-unto-caesar",
+ "reference": "Mark 12",
+ "notes": "STAYED RED, all three. j1 (Mark 12:15), j2 (12:16) and j3 (12:17) are Jesus in\nthe flesh and a red-letter KJV inks every one, 'Render to Caesar' included.\n\nTHE QUESTION IS LIGHT BLUE, NOT RED. The Pharisees and Herodians are people in\nthe story, so they are SCRIPTURE like anyone else quoted from the KJV. Their\nwhole approach was sitting in the video as modern paraphrase:\n  s14  Mark 12:14-15  'Master, we know that thou art true, and carest for no man:\n       for thou regardest not the person of men, but teachest the way of God in\n       truth: Is it lawful to give tribute to Caesar, or not? Shall we give, or\n       shall we not give?'  The flattery and the trap are one continuous speech\n       and they belong together - you cannot hear how oily it is until you hear\n       the compliment attached to the question. n1 keeps its id and text and now\n       retells it.\n  s16  Mark 12:16  'And they said unto him, Caesar's.'  n4 keeps its id and now\n       retells it.\n\nTWO FRAMING SPLITS, both halves on the SAME still each time - no new artwork:\n  s15  Mark 12:15  'But he, knowing their hypocrisy, said unto them,'  then j1 on\n       S4. Mark writing, so light blue; the red starts at 'Why tempt ye me?'\n  s17  Mark 12:17  'And Jesus answering said unto them,'  then j3 on S7. Same\n       rule. n2, 'Jesus saw straight through it', already retold s15 and did not\n       have to move.\n\nCONSIDERED AND LEFT OUT: Mark 12:17b, 'And they marvelled at him.' Exact, but n5\nis the closing turn - coin bears Caesar's face, you bear God's - and a beat about\nthe crowd's reaction between the answer and that turn would blunt it. Left out on\njudgment, not uncertainty.\n\nWOMEN: Mark 12:13-17 records no woman speaking. The widow with the two mites is\nlater in the same chapter and is not part of this build - and Mark records no\nwords from her either. Nothing added, nothing invented.\n\nNO GREEN: the Father does not speak here. j3 names God but does not quote him.\n\nWHY-LAW: they wanted him boxed into yes or no. He answered a bigger question than\nthe one they asked, and handed it back with their own coin in it.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Some officials came to Jesus with a question built to trap him — flattering him first, so he'd let his guard down."
+  },
+  {
+   "id": "s14",
+   "speaker": "scripture",
+   "verse": "Mark 12:14-15",
+   "text": "Master, we know that thou art true, and carest for no man: for thou regardest not the person of men, but teachest the way of God in truth: Is it lawful to give tribute to Caesar, or not? Shall we give, or shall we not give?"
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Is it lawful to pay taxes to Caesar, or not? Say yes, and the crowd turns on you. Say no, and Rome arrests you. There was no safe answer."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Jesus saw straight through it."
+  },
+  {
+   "id": "s15",
+   "speaker": "scripture",
+   "verse": "Mark 12:15",
+   "text": "But he, knowing their hypocrisy, said unto them,"
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Mark 12:15",
+   "text": "Why tempt ye me? bring me a penny, that I may see it."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "They brought one — a small silver Roman coin. He held it up where everyone could see."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Mark 12:16",
+   "text": "Whose is this image and superscription?"
+  },
+  {
+   "id": "s16",
+   "speaker": "scripture",
+   "verse": "Mark 12:16",
+   "text": "And they said unto him, Caesar's."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Whose face is this, he asked them, and whose name. They said it was Caesar's. And with that, the trap they had built swung shut on them instead."
+  },
+  {
+   "id": "s17",
+   "speaker": "scripture",
+   "verse": "Mark 12:17",
+   "text": "And Jesus answering said unto them,"
+  },
+  {
+   "id": "j3",
+   "speaker": "jesus",
+   "verse": "Mark 12:17",
+   "text": "Render to Caesar the things that are Caesar's, and to God the things that are God's."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "The coin bore Caesar's image, so give it back to Caesar. But you bear God's image — so the real question is what you owe to the One whose face you carry."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The coin belonged to Caesar because it bore his face. You bear God's. What does that make you worth to him?"
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "s14",
+   "S2",
+   "in"
+  ],
+  [
+   "n1",
+   "S2",
+   "in"
+  ],
+  [
+   "n2",
+   "S3",
+   "in"
+  ],
+  [
+   "s15",
+   "S4",
+   "in"
+  ],
+  [
+   "j1",
+   "S4",
+   "in"
+  ],
+  [
+   "n3",
+   "S5",
+   "in"
+  ],
+  [
+   "j2",
+   "S6",
+   "in"
+  ],
+  [
+   "s16",
+   "S6",
+   "in"
+  ],
+  [
+   "n4",
+   "S6",
+   "out"
+  ],
+  [
+   "s17",
+   "S7",
+   "in"
+  ],
+  [
+   "j3",
+   "S7",
+   "in"
+  ],
+  [
+   "n5",
+   "S8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S2": "S2 now carries the flattery and the trap question verbatim, plus n1's retelling. Frame the mask: two or three men leaning in toward Jesus with warm, open, agreeable faces — hands spread, heads tilted, every signal of respect — and not one of them actually looking at him. The compliment is the weapon.",
+  "S4": "S4 now carries the split verse — Mark's framing and Jesus's answer together. Frame the ask: Jesus with one hand out flat and open, palm up, waiting for the coin to be put in it, eyes level on the men. Completely unbothered. He is running the exchange now.",
+  "S6": "S6 now carries three beats — his question, their answer, and the retelling. Frame the coin close: the denarius held up between two fingers filling much of the frame, Caesar's profile and the ring of lettering sharp and readable, the men blurred behind it. The evidence, held where the whole crowd can see it.",
+  "S7": "S7 now carries the split verse — Mark's framing and the answer itself. Frame the hand-back: Jesus offering the coin back toward them, letting it go, while he keeps talking. The coin leaving his hand is the whole sentence."
+ }
+}

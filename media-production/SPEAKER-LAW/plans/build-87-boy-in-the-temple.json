@@ -1,0 +1,131 @@
+{
+ "build": "build-87-boy-in-the-temple",
+ "reference": "Luke 2",
+ "notes": "MARY SPEAKS -- IN PINK -- AND SHE WAS NOT IN THE VIDEO AT ALL. This is the fix\nthis build existed for. n2 said 'His mother, relieved and worried, asked why he'd\ndone this to them' -- a modern paraphrase, in white, standing in for one of the\nmost human sentences any mother says in scripture. Lifted verbatim as `woman`:\n  w48  Luke 2:48  'Son, why hast thou thus dealt with us? behold, thy father and\n       I have sought thee sorrowing.'\n  n2 is trimmed to the frame and n2b carries the retelling. Both on ST6, no new\n  artwork. Hear what she actually says: not 'where were you' but 'we have been\n  looking for you, SORROWING'. Three days of it. That is a mother telling her son\n  what it cost, and the video was throwing the line away in a subordinate clause.\n\nSTAYED RED: j1, Luke 2:49, 'How is it that ye sought me? wist ye not that I must\nbe about my Father's business?' Jesus in the flesh, red-lettered, verbatim -- and\nthese are the first recorded words of his life. Unchanged, id kept.\n\nRETELLING ADDED: n2c after j1, on ST7. The one red line in the build had no plain\nmodern landing, and 'wist ye not' and 'my Father's business' are both phrases a\nlistener today will not parse on the fly.\n\nTHE MOTHER-AND-SON EXCHANGE IS DELIBERATELY BACK TO BACK. w48 (pink) runs\nstraight into j1 (red) with n2b's retelling in between, which is where it has to\ngo -- her line and his answer are a real question and a real answer, and n2b hands\noff into the reply rather than breaking the exchange. This is the shape the law\nsets out for build-98's 'Mary.' / 'Rabboni.', adapted for the fact that here the\nretelling belongs to her line and not to his.\n\nPRONUNCIATION: 'wist' is already in the global SPOKEN map, so nothing is added to\nthis build's `spoken` -- a duplicate local entry is exactly how the audited-bad\nrespellings got in.\n\nNO GREEN: Jesus talks ABOUT his Father here; the Father does not speak. Nothing in\nLuke 2:41-52 is a voice from heaven.\n\nWHY-LAW: at twelve years old he already knew whose he was and where he belonged,\nand then he went home and obeyed his parents anyway. Milk: knowing who your Father\nis does not make you too important for ordinary life.",
+ "segments": [
+  {
+   "id": "n0a",
+   "speaker": "narrator",
+   "text": "Every year Jesus's family went to Jerusalem for the Passover. When he was twelve, they made the trip as usual."
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "On the way home, they realized he wasn't with them."
+  },
+  {
+   "id": "n1a",
+   "speaker": "narrator",
+   "text": "They turned back, searching for three days."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "And they found him in the temple, sitting among the teachers, listening,"
+  },
+  {
+   "id": "n1c",
+   "speaker": "narrator",
+   "text": "and asking questions that amazed everyone."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "His mother was the one who spoke. Relieved, and frightened, and hurt, Mary said this:"
+  },
+  {
+   "id": "w48",
+   "speaker": "woman",
+   "verse": "Luke 2:48",
+   "text": "Son, why hast thou thus dealt with us? behold, thy father and I have sought thee sorrowing."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "Son, why have you done this to us? she said. Your father and I have been looking for you, sick with worry. Listen to the word Luke gives her — sorrowing. Not annoyed. Grieving. Three days of a mother assuming the worst. And he answered her with a question of his own."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Luke 2:49",
+   "text": "How is it that ye sought me? wist ye not that I must be about my Father's business?"
+  },
+  {
+   "id": "n2c",
+   "speaker": "narrator",
+   "text": "Why were you out looking for me? he said. Didn't you know I had to be in my Father's house, about my Father's work? He was twelve years old. He was not being smart with his mother. He genuinely could not imagine where else they thought he would be."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "They didn't fully understand. But he went home with them and obeyed them — and he kept growing in wisdom, in stature, and in favor with God and people."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Even as a boy he knew where he belonged. You were made for the Father's house too — come find your place."
+  }
+ ],
+ "beats": [
+  [
+   "n0a",
+   "ST1",
+   "in"
+  ],
+  [
+   "n0b",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1a",
+   "ST3",
+   "in"
+  ],
+  [
+   "n1b",
+   "ST4",
+   "in"
+  ],
+  [
+   "n1c",
+   "ST5",
+   "in"
+  ],
+  [
+   "n2",
+   "ST6",
+   "in"
+  ],
+  [
+   "w48",
+   "ST6",
+   "out"
+  ],
+  [
+   "n2b",
+   "ST6",
+   "in"
+  ],
+  [
+   "j1",
+   "ST7",
+   "in"
+  ],
+  [
+   "n2c",
+   "ST7",
+   "out"
+  ],
+  [
+   "n3",
+   "ST8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST6": "ST6 now carries three beats — the frame, MARY'S verbatim line, and its retelling. This is the still the fix in this build lives on and it has to be hers. Frame the mother, not the crowd: Mary pushing through the last of the temple onlookers to reach him, both hands already out toward his shoulders, face wrecked — three days of no sleep and no news on it. She is mid-sentence. Joseph a step behind her. The boy small at the edge of frame, unhurt and completely unbothered, which is exactly what makes her face read.",
+  "ST7": "ST7 now carries Jesus's verbatim reply — the first recorded words of his life — and its retelling. Frame the answer as a child's honest answer, not a rebuke: the boy seated among the teachers, looking up at his mother, open-faced and genuinely puzzled. The old men around him watching the exchange. Nothing knowing or superior in his expression; he is twelve, and he thought this was obvious."
+ }
+}

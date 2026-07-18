@@ -1,0 +1,111 @@
+{
+ "build": "build-83-weeping-over-jerusalem",
+ "reference": "Luke 19",
+ "notes": "STAYED RED: j1, Luke 19:42, 'If thou hadst known, even thou, at least in this\nthy day, the things which belong unto thy peace! but now they are hid from thine\neyes.' Verbatim, Jesus in the flesh, red-lettered. Unchanged, id kept. It is the\nonly spoken line in the passage.\n\nLIFTED OUT OF PARAPHRASE -- LUKE'S OWN SENTENCE, now `scripture` (light blue,\nLuke writing, not Jesus speaking):\n  s41  Luke 19:41  'And when he was come near, he beheld the city, and wept over\n       it.'  This is the sentence the entire video is named for and the viewer\n       never heard it. n1a is trimmed to the frame and n1b carries the retelling.\n       Both on S2 and S3 -- the stills already built for exactly this moment.\n\nRETELLING ADDED: n2b after j1, on S5. The build's one Old English beat had no\nplain-modern landing at all, and 'the things which belong unto thy peace' is not\na phrase a listener today parses on the fly.\n\nLEFT AS NARRATOR PARAPHRASE ON PURPOSE. n3a says 'He could see what was coming\nfor the city he loved — armies and ruin, a generation away.' That is Luke\n19:43-44, and I know the wording, but it is graphic -- trenches, the city laid\nlevel with the ground, children dashed down, not one stone left on another. This\nis a milk-before-meat library and the build's whole tone is tenderness. Putting\nthat verse in verbatim would turn a video about his tears into a video about the\nsiege. It stays as the storyteller's summary, deliberately, and this note is the\nrecord of that choice rather than an accident. The one clause of 19:44 that IS\nthe emotional point -- 'because thou knewest not the time of thy visitation' --\nis already carried by n2 and n3b in the storyteller's voice.\n\nNO GREEN: nothing in Luke 19:41-44 is the Father or a voice from heaven.\n\nWOMEN: Luke 19:41-44 records no woman speaking. There is no dialogue in the\npassage besides Jesus. Nothing added; nothing invented.\n\nWHY-LAW: God cried over people who could not see him, and the crying was not\nanger. Milk: his grief over you is love that can see exactly what could have\nbeen.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "As Jesus came over the hill and the whole city of Jerusalem opened up in front of him, he did something the crowds didn't expect."
+  },
+  {
+   "id": "n1a",
+   "speaker": "narrator",
+   "text": "He stopped. Luke writes it in one plain sentence:"
+  },
+  {
+   "id": "s41",
+   "speaker": "scripture",
+   "verse": "Luke 19:41",
+   "text": "And when he was come near, he beheld the city, and wept over it."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "He came close, he looked at the city, and he cried over it. Not for himself. For them."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "The peace they had been aching for had walked right up to their gates — and the city was too busy to see it."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Luke 19:42",
+   "text": "If thou hadst known, even thou, at least in this thy day, the things which belong unto thy peace! but now they are hid from thine eyes."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "If only you had known — even you, even today — what would have brought you peace. But now it's hidden from your eyes. He is not scolding the city. He is talking to it the way you talk to someone you love who is about to walk past the one thing that would have saved them."
+  },
+  {
+   "id": "n3a",
+   "speaker": "narrator",
+   "text": "He could see what was coming for the city he loved — armies and ruin, a generation away."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "His tears weren't anger. They were the grief of love that sees exactly what could have been."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He wept because he loved the city that couldn't see him. He sees you clearly. Don't look away."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "n1a",
+   "S2",
+   "in"
+  ],
+  [
+   "s41",
+   "S3",
+   "in"
+  ],
+  [
+   "n1b",
+   "S3",
+   "out"
+  ],
+  [
+   "n2",
+   "S4",
+   "in"
+  ],
+  [
+   "j1",
+   "S5",
+   "in"
+  ],
+  [
+   "n2b",
+   "S5",
+   "out"
+  ],
+  [
+   "n3a",
+   "S6",
+   "in"
+  ],
+  [
+   "n3b",
+   "S7",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S3": "S3 now carries Luke's verbatim sentence and its retelling. Frame the crying itself, close: Jesus's face in three-quarter profile, wet, looking out and down over the city, mouth closed. No crowd, no gesture, no drama. The whole build is named for this one still and it should be the quietest image in it.",
+  "S5": "S5 now carries the verbatim lament and its retelling. Frame what he is looking at, not him: the city spread out below in ordinary afternoon light — markets open, smoke going up, people crossing rooftops, everybody busy — seen past his shoulder at the edge of frame. Nothing ominous in the city. The tragedy is that it looks completely fine."
+ }
+}

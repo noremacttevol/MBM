@@ -1,0 +1,208 @@
+{
+ "build": "build-57-jairus-daughter",
+ "reference": "Mark 5",
+ "notes": "STAYED RED, and two more added.\n  jv36  Mark 5:36  \"Be not afraid, only believe.\"  -- kept its id.\n  jv41  Mark 5:41  \"Damsel, I say unto thee, arise.\"  -- kept its id, and now sits\n        where it actually belongs in the verse (see the Talitha split below).\n  j39   Mark 5:39  \"Why make ye this ado, and weep? the damsel is not dead, but\n        sleepeth.\"  -- MISSING ENTIRELY; n4 paraphrased it in white. Lifted verbatim\n        onto the same still (S5). n4 keeps its id, trimmed to the frame; n4b retells.\n\nTHE TALITHA SPLIT. Mark 5:41 reads \"And he took the damsel by the hand, and said\nunto her, Talitha cumi; which is, being interpreted, Damsel, I say unto thee,\narise.\" A red-letter KJV inks the Aramaic AND the translation of it, and leaves\n\"which is, being interpreted\" black -- that is Mark explaining to his Roman readers.\nSo S7 now carries three consecutive beats over the one image:\n  jtal  [jesus]     \"Talitha cumi.\"\n  s41i  [scripture] \"which is, being interpreted,\"\n  jv41  [jesus]     \"Damsel, I say unto thee, arise.\"\nThe video was throwing away the two words Jesus actually said out loud in that room.\n\"Talitha\" is already in the global pronunciation map, so `spoken` is left empty.\n\nJAIRUS WAS NEVER HEARD. Mark 5:23 is a father's own words and it was white\nparaphrase inside n1. Lifted verbatim as s23 [scripture -- he is a man in the story,\nnot Deity] on S1: \"My little daughter lieth at the point of death: I pray thee, come\nand lay thy hands on her, that she may be healed; and she shall live.\" n1 trimmed to\nthe frame, n1b retells.\n\nTHE MESSENGERS WERE NEVER HEARD EITHER. Mark 5:35 -- \"Thy daughter is dead: why\ntroublest thou the Master any further?\" -- lifted as s35 on S3, the sentence jv36 is\nanswering. Without it, \"Be not afraid, only believe\" is answering nothing. n3 trimmed\nto the frame, n3b retells, and a new n3c retells jv36 on S4.\n\nNO GREEN. WOMEN: the mother is present in Mark 5:40 but Mark records no words from\nher, and the girl says nothing. Nothing added; nothing invented.\n\nWHY-LAW: the message came that said stop bothering him, it's over. He answered it\nbefore Jairus could. Milk: he is never too late, and after raising her from the dead\nhis very next thought was that a twelve-year-old would be hungry.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "A man named Jairus, a leader of the synagogue, pushed through the crowd and fell down at Jesus' feet, and begged him:"
+  },
+  {
+   "id": "s23",
+   "speaker": "scripture",
+   "verse": "Mark 5:23",
+   "text": "My little daughter lieth at the point of death: I pray thee, come and lay thy hands on her, that she may be healed; and she shall live."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "My little girl is dying, he said. Please come and lay your hands on her, so she'll be healed and live. His only daughter, twelve years old, slipping away at home while he stood in the road begging."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "So Jesus went with him. A great crowd pressed in on every side as they hurried toward the house, the desperate father leading the way, praying there was still time."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "But before they arrived, messengers came from the house with the worst news a father can hear."
+  },
+  {
+   "id": "s35",
+   "speaker": "scripture",
+   "verse": "Mark 5:35",
+   "text": "Thy daughter is dead: why troublest thou the Master any further?"
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "Your daughter is dead, they said. Why bother the Teacher any further? And Jairus' heart broke in the middle of the road. But Jesus heard it too, and he spoke before the father could say anything at all."
+  },
+  {
+   "id": "jv36",
+   "speaker": "jesus",
+   "verse": "Mark 5:36",
+   "text": "Be not afraid, only believe."
+  },
+  {
+   "id": "n3c",
+   "speaker": "narrator",
+   "text": "Don't be afraid. Just keep believing. The worst thing had already happened, and Jesus told him to keep believing anyway — not that it would be undone, but that he should not stop trusting him now."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "At the house the mourning had already begun, people weeping and wailing loudly for the little girl. And Jesus said to them:"
+  },
+  {
+   "id": "j39",
+   "speaker": "jesus",
+   "verse": "Mark 5:39",
+   "text": "Why make ye this ado, and weep? the damsel is not dead, but sleepeth."
+  },
+  {
+   "id": "n4b",
+   "speaker": "narrator",
+   "text": "Why all this noise and crying, he asked. The child is not dead. She's asleep. And they laughed at him, certain that she was gone."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "He put them all outside. Then he took the girl's father and mother, and three of his closest friends, and went in quietly to where the child was lying, small and still."
+  },
+  {
+   "id": "jtal",
+   "speaker": "jesus",
+   "verse": "Mark 5:41",
+   "text": "Talitha cumi."
+  },
+  {
+   "id": "s41i",
+   "speaker": "scripture",
+   "verse": "Mark 5:41",
+   "text": "which is, being interpreted,"
+  },
+  {
+   "id": "jv41",
+   "speaker": "jesus",
+   "verse": "Mark 5:41",
+   "text": "Damsel, I say unto thee, arise."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "Two words in his own everyday Aramaic — little girl, get up. It is the kind of thing a parent says on a school morning. He took her by the hand, and immediately she got up, and began to walk. She was twelve years old. Her parents were beside themselves with wonder, holding the daughter they had already grieved as lost."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "And then Jesus said the most tender, ordinary thing: give her something to eat. He had just raised her from death, and his very next thought was that a growing girl would be hungry. The small things mattered to him too."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He is never too late, even when everyone says he is. He walks into the room the world has already given up on, takes the hand no one else could reach, and speaks life. And then he thinks of your smallest needs, too. What have you decided is finally too far gone for him?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "s23",
+   "S1",
+   "out"
+  ],
+  [
+   "n1b",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "in"
+  ],
+  [
+   "s35",
+   "S3",
+   "out"
+  ],
+  [
+   "n3b",
+   "S3",
+   "in"
+  ],
+  [
+   "jv36",
+   "S4",
+   "in"
+  ],
+  [
+   "n3c",
+   "S4",
+   "out"
+  ],
+  [
+   "n4",
+   "S5",
+   "in"
+  ],
+  [
+   "j39",
+   "S5",
+   "out"
+  ],
+  [
+   "n4b",
+   "S5",
+   "in"
+  ],
+  [
+   "n5",
+   "S6",
+   "in"
+  ],
+  [
+   "jtal",
+   "S7",
+   "in"
+  ],
+  [
+   "s41i",
+   "S7",
+   "out"
+  ],
+  [
+   "jv41",
+   "S7",
+   "in"
+  ],
+  [
+   "n6",
+   "S8",
+   "in"
+  ],
+  [
+   "n7",
+   "S9",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S1": "S1 now carries three beats — the frame, Jairus's verbatim plea, and its retelling. Frame the begging, not the arrival: a well-dressed synagogue ruler face down in the dirt at Jesus's feet in the middle of a packed street, robes fouled, one hand gripping the hem of Jesus's garment, looking up mid-sentence. A man with standing throwing all of it away in public for his daughter.",
+  "S3": "S3 now carries the messengers' verbatim words and the retelling. Frame the moment the news lands: two men from the household stopped in the road, one still speaking; Jairus half-turned toward them, face going slack. Jesus in the frame behind him, already listening. The crowd around them unaware anything has happened.",
+  "S5": "S5 now carries the frame, 'not dead, but sleepeth,' and its retelling. Frame the disbelief in the room: professional mourners mid-wail, and two or three faces already turning toward Jesus with open scorn — the beginning of the laugh. He is the calmest thing in a loud house.",
+  "S7": "S7 now carries all three beats of Mark 5:41 — the Aramaic, Mark's aside, and the translation. Frame it small and quiet: Jesus seated or kneeling at the edge of the bed, the girl's small hand entirely inside his, his face bent close and speaking softly. Four adults at the wall behind, out of focus. No light effects, no drama — an ordinary voice waking an ordinary child."
+ }
+}

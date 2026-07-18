@@ -1,0 +1,143 @@
+{
+ "build": "build-97-the-empty-tomb",
+ "reference": "Luke 24",
+ "notes": "THIS BUILD HAD NO SCRIPTURE IN IT AT ALL. Eight beats, all white -- and\nthe angels' announcement, the most important sentence in the Bible, was being\ndelivered in the storyteller's voice.\n\nTHE ANGELS ARE BLUE, NOT RED. n4 paraphrased Luke 24:5-6. Angels are not Deity\nand a red-letter KJV inks nothing here, so this is SCRIPTURE (light blue):\n  s5  Luke 24:5-6  'Why seek ye the living among the dead? He is not here, but\n      is risen:'\n  n4 keeps its id and its text is already the exact retelling, so it was left\n  alone and now simply follows the verse.\n  s6  Luke 24:6-7  'remember how he spake unto you when he was yet in Galilee,\n      Saying, The Son of man must be delivered into the hands of sinful men, and\n      be crucified, and the third day rise again.'\n      n5a keeps its id and now retells it.\n\nA NOTE ON THE INNER QUOTE. s6 has the angels quoting Jesus. A red-letter KJV does\nNOT ink that clause -- it is a report of a report, and Luke is the one writing it.\nIt stays blue with the rest of the angels' speech rather than being split out red.\n\nTHE WOMEN NOW SPEAK. Luke 24 does not record the women saying anything at the\ntomb -- checked, and nothing was invented to fill the gap. But Mark 16:3 records\nthese same women, on this same walk, in this same hour:\n  w3  Mark 16:3  'Who shall roll us away the stone from the door of the\n      sepulchre?'\n  Lifted as WOMAN (pink) onto ST1. n0b carries the retelling. It is from Mark\n  rather than Luke, and that is stated plainly here; it is the only recorded\n  speech these women have in this scene, it is verbatim, and it sets up the\n  rolled-away stone that n1 walks into two beats later. Left in on judgment.\n\nNO RED: Jesus does not appear or speak in Luke 24:1-8.\n\nNO GREEN: the Father does not speak.\n\nWHY-LAW: they came carrying burial spices, planning to finish taking care of a\nbody, and were asked why they were looking for a living man in a graveyard.\nMilk: the tomb could not hold him, and the stone they were worried about was\nalready gone before they got there.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Very early on the first day of the week, while it was still dark, the women who loved him came to the tomb carrying spices to anoint his body. And the whole way there, one thing worried them."
+  },
+  {
+   "id": "w3",
+   "speaker": "woman",
+   "verse": "Mark 16:3",
+   "text": "Who shall roll us away the stone from the door of the sepulchre?"
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "Who is going to roll the stone away for us? It took several men to move it, and there were only a few women walking up that hill in the dark."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "But when they arrived, the huge stone that had sealed the tomb was rolled away."
+  },
+  {
+   "id": "n2a",
+   "speaker": "narrator",
+   "text": "They stepped inside — and the body was gone."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "They stood there, confused and afraid."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Then two figures in dazzling clothing stood beside them, and asked a question that has echoed for two thousand years:"
+  },
+  {
+   "id": "s5",
+   "speaker": "scripture",
+   "verse": "Luke 24:5-6",
+   "text": "Why seek ye the living among the dead? He is not here, but is risen:"
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Why do you look for the living among the dead? He is not here — he is risen."
+  },
+  {
+   "id": "s6",
+   "speaker": "scripture",
+   "verse": "Luke 24:6-7",
+   "text": "remember how he spake unto you when he was yet in Galilee, Saying, The Son of man must be delivered into the hands of sinful men, and be crucified, and the third day rise again."
+  },
+  {
+   "id": "n5a",
+   "speaker": "narrator",
+   "text": "Remember, they said, what he told you back in Galilee — that he would be handed over to sinful men, and crucified, and on the third day rise again. He had said all of it, out loud, before any of it happened."
+  },
+  {
+   "id": "n5b",
+   "speaker": "narrator",
+   "text": "And they remembered."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The tomb couldn't hold him. Whatever feels dead and sealed shut in your life — he's the God of the rolled-away stone."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "w3",
+   "ST1",
+   "out"
+  ],
+  [
+   "n0b",
+   "ST1",
+   "in"
+  ],
+  [
+   "n1",
+   "ST2",
+   "in"
+  ],
+  [
+   "n2a",
+   "ST3",
+   "in"
+  ],
+  [
+   "n2b",
+   "ST4",
+   "in"
+  ],
+  [
+   "n3",
+   "ST5",
+   "in"
+  ],
+  [
+   "s5",
+   "ST5",
+   "out"
+  ],
+  [
+   "n4",
+   "ST8",
+   "in"
+  ],
+  [
+   "s6",
+   "ST6",
+   "in"
+  ],
+  [
+   "n5a",
+   "ST6",
+   "out"
+  ],
+  [
+   "n5b",
+   "ST7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST1": "ST1 now carries the frame, the women's verbatim question, and its retelling. Frame the walk and the worry: two or three women on a dark path uphill, jars of spices held against them, one turned toward another mid-question. Faces lit only by the first grey of dawn. They are not afraid yet — they are solving a practical problem.",
+  "ST5": "ST5 now carries the setup and the angels' verbatim announcement. Frame the two figures speaking, not the tomb: both standing close beside the women in light that has no source in the room, one of them mid-sentence. The women small in the frame and looking up.",
+  "ST6": "ST6 now carries the angels' verbatim 'remember how he spake unto you' and its long retelling. Frame the remembering: a woman's face as it changes — the fear draining out and recognition coming in behind it. The angels out of focus behind her. This still has to hold the exact second she believes it."
+ }
+}

@@ -1,0 +1,144 @@
+{
+ "build": "build-178-in-our-image",
+ "reference": "Genesis 1",
+ "notes": "Both scripture beats were painted JESUS-RED. Genesis is Old Testament so\nneither can be red - but they do NOT both go the same way, and this build is the\nclearest example in the set of the distinction the pass exists to fix.\n\nSPLIT - Genesis 1:26 is genuinely two speakers in one breath:\n  s1   (scripture, blue)  'And God said,'\n                          - that is MOSES writing. Three words of narration.\n  g26  (god, green)       'Let us make man in our image, after our likeness:\n                           and let them have dominion over the fish of the sea...'\n                          - that is DEITY, first person plural, his own voice.\nThe whole verse was one red segment, which made Moses's attribution read as part\nof God's speech. s1 keeps its original id and g26 is new; BOTH stay on S2, so\nthe viewer sees the identical edit - two consecutive beats over one image. The\nthree-word blue beat is short, and it is worth it: this is the exact seam the\nlaw is written around, and the colour flip on screen is the teaching.\n\nNO SPLIT on s2, but it changes colour completely:\n  s2  Genesis 1:27  'So God created man in his own image, in the image of God\n                     created he him; male and female created he them.'\n                                                         RED -> SCRIPTURE (blue)\nThis one is about God from end to end and never once IS God. 'So God created' -\nthird person, past tense, Moses narrating what he was shown. It is the second\nhalf of the same thought as 1:26 and it was painted the same colour, but the\nspeaker changed at the verse break and the colour has to change with it. Green\nhere would have had God narrating his own work in the third person.\n\nLIFTED ONE VERSE out of narrator paraphrase:\n  s3  Genesis 2:7  'And the LORD God formed man of the dust of the ground, and\n                    breathed into his nostrils the breath of life; and man\n                    became a living soul.'                        NEW, scripture\nn3 was already retelling this verse almost word for word in modern English -\ndust, breath, came alive - without ever letting the viewer hear it. Moses\nnarrating again, so blue. It sits on S4 with n3, which now does the retelling\njob. Noted for the record that this is Genesis 2, one chapter past the build's\nstated reference; it is the verse n3 was paraphrasing and the story needs it.\n\nADDED two narrator retellings, both required by the retelling rule:\n  n0b  retells Genesis 1:26 after the split, on S3.\n  n0c  retells Genesis 1:27, on S4.\nWithout them, four verses of Old English ran with only the split between them,\nand n1a/n1b - which do retell 1:27 - sit five beats downstream on S6.\n\nNothing left as paraphrase from uncertainty.\n\nWHY-LAW: milk. Made in his image, given the earth to look after. Dignity first,\nstewardship second, and no argument about either.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "At the start of all things, before any person drew breath, a counsel happened in the Godhead — let us make man in our image."
+  },
+  {
+   "id": "s1",
+   "speaker": "scripture",
+   "verse": "Genesis 1:26",
+   "text": "And God said,"
+  },
+  {
+   "id": "g26",
+   "speaker": "god",
+   "verse": "Genesis 1:26",
+   "text": "Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth."
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "Hear the word us. Let us make man in our image. God is not talking to himself there — he is talking with someone, and what they decide together is to make a creature that looks like them. Then he hands that creature the whole living world to take care of."
+  },
+  {
+   "id": "s2",
+   "speaker": "scripture",
+   "verse": "Genesis 1:27",
+   "text": "So God created man in his own image, in the image of God created he him; male and female created he them."
+  },
+  {
+   "id": "n0c",
+   "speaker": "narrator",
+   "text": "And then he did it. Moses says it three times in one sentence, like he cannot get over it — in his own image, in the image of God, male and female both. Not one of them closer to God than the other. Both of them bearing the likeness."
+  },
+  {
+   "id": "s3",
+   "speaker": "scripture",
+   "verse": "Genesis 2:7",
+   "text": "And the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Then the act: God shaped a man from the dust of the ground and filled him with breath — and the man came alive."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "The plan included dominion — over fish, birds, cattle, and all the earth. Stewards, not owners."
+  },
+  {
+   "id": "n1a",
+   "speaker": "narrator",
+   "text": "Not in the shape of any creature, but bearing something of God himself:"
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "the capacity to know him, to choose him, to reflect him."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Every person since carries that original dignity — made in the image, loved into being."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "You are made in his image. That is worth more than you know."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "s1",
+   "S2",
+   "in"
+  ],
+  [
+   "g26",
+   "S2",
+   "out"
+  ],
+  [
+   "n0b",
+   "S3",
+   "in"
+  ],
+  [
+   "s2",
+   "S3",
+   "out"
+  ],
+  [
+   "n0c",
+   "S4",
+   "in"
+  ],
+  [
+   "s3",
+   "S4",
+   "in"
+  ],
+  [
+   "n3",
+   "S4",
+   "out"
+  ],
+  [
+   "n2",
+   "S5",
+   "in"
+  ],
+  [
+   "n1a",
+   "S6",
+   "in"
+  ],
+  [
+   "n1b",
+   "S7",
+   "in"
+  ],
+  [
+   "n4",
+   "S8",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S2": "S2 now carries the split - three words of blue, then the long green line of Deity deciding. The colour flips on this still, so the frame has to be able to hold God speaking rather than man existing. Frame the moment before the making: the Spirit over the water, light gathering, no human figure anywhere yet. Nothing formed. The whole beat is a decision being made about someone who does not exist yet, so the frame should be full of intent and empty of people.",
+  "S3": "S3 now carries the storyteller and then Genesis 1:27 in blue - the making itself. A human figure taking shape out of light, seen at a distance or from behind, not a portrait. Reverent and unspecific. It should read as the first one of us, not as a particular man.",
+  "S4": "S4 now carries three beats - narration, the lifted Genesis 2:7 in blue, and narration again - so it holds the longest stretch in the video. Frame the exact instant of the breath: dust in the air, a hand or a face close in, the moment before life rather than after it. Intimate, warm, low light. It needs to survive a long hold, so give it depth and something for the slow zoom to travel into."
+ }
+}

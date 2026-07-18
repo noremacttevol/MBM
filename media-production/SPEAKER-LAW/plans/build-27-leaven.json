@@ -1,0 +1,120 @@
+{
+ "build": "build-27-leaven",
+ "reference": "Matthew 13",
+ "notes": "STAYED RED: the one existing red beat is Jesus in the flesh telling a parable, and\na red-letter KJV prints it.\n  j1  Matthew 13:33  'The kingdom of heaven is like unto leaven, which a woman took,\n      and hid in three measures of meal, till the whole was leavened.'\nChecked word for word against the KJV -- it is exactly verbatim, and it stays red.\n\nTHE FRAMING SPLIT -- the only change this build needed. Matthew 13:33 reads in full:\n'Another parable spake he unto them; The kingdom of heaven is like unto leaven...'.\nThe clause before 'The kingdom' is Matthew writing, and a red-letter KJV leaves it\nblack. It is now its own beat, ON THE SAME STILL S1 as j1 -- no new artwork, and the\nedit the viewer sees is unchanged:\n  s33  Matthew 13:33  'Another parable spake he unto them;'  SCRIPTURE, light blue.\nn1 keeps its id and its place as the on-ramp before the frame, and n2 onward is\nalready the retelling, so nothing else moved.\n\nNOTHING ELSE LIFTED. This parable is one verse long. Every other segment in the\nbuild is the storyteller explaining what leaven and three measures of meal actually\nwere, and that is honest narrator work -- there is no further KJV buried in it to\nlift out. Matthew 13:34-35 (Matthew's own comment, quoting Psalm 78:2) would be\n`scripture` if it were wanted, but it is not in this build and adding it would\ndisplace the warm personal ending the video already lands on. Left alone on purpose.\n\nNO GREEN: no voice from heaven in Matthew 13.\n\nWOMEN: there IS a woman at the centre of this parable, and she is the reason the\nvideo exists -- but Matthew records nothing she SAYS. She is described, never\nquoted. So there is no `woman` beat here; inventing one would be inventing\nscripture. Nothing added.\n\nPRONUNCIATION: nothing on the homograph list appears in the KJV line. 'leaven',\n'leavened' and 'meal' all read correctly as written; no respellings, because a bad\nrespelling is worse than none.\n\nWHY-LAW: he does not overpower you. He works small, hidden and patient, from the\ninside, until the whole of you is changed and can feed somebody else.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Jesus said the kingdom of God is like something a woman does every week, in her own kitchen, with her own hands."
+  },
+  {
+   "id": "s33",
+   "speaker": "scripture",
+   "verse": "Matthew 13:33",
+   "text": "Another parable spake he unto them;"
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Matthew 13:33",
+   "text": "The kingdom of heaven is like unto leaven, which a woman took, and hid in three measures of meal, till the whole was leavened."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Leaven is just a little piece of old, living dough, what we would call a sourdough starter. Small. Plain. Easy to overlook."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "And three measures of meal is not a small bowl. It is an enormous amount of flour, enough bread to feed a hundred people."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "She takes that tiny bit of leaven and works it down deep into the whole mass, hiding it, until you cannot even see where it went."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Then she covers it and waits. Nothing looks like it is happening. No noise, no show, no spectacle. Just quiet, hidden time."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "But inside, the leaven is spreading through every part of the dough. And by morning the whole heavy mass has risen, alive, changed all the way through."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "That, Jesus said, is how the kingdom of God works. Not by force. Not by noise. It starts small and hidden, and it quietly changes everything it touches, from the inside out."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "That is how good he is. He does not overpower you. He works gently, patiently, from within, until the whole of you is warmed and changed and made into something that can feed other people."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "God is often working quietest right where you cannot see it yet. Where might he already be at work inside you?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "s33",
+   "S1",
+   "out"
+  ],
+  [
+   "j1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S1",
+   "out"
+  ],
+  [
+   "n3",
+   "S2",
+   "in"
+  ],
+  [
+   "n4",
+   "S3",
+   "in"
+  ],
+  [
+   "n5",
+   "S4",
+   "in"
+  ],
+  [
+   "n6",
+   "S5",
+   "in"
+  ],
+  [
+   "n7",
+   "S6",
+   "in"
+  ],
+  [
+   "n8",
+   "S7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S1": "S1 now carries four beats — the on-ramp, Matthew's framing, the verbatim verse, and the retelling. Frame the leaven itself at close range: a woman's hands holding a small torn piece of old grey sourdough starter over a wide wooden trough of pale flour. The piece is tiny in the frame and the flour is vast. Warm kitchen light, ordinary morning, nothing dramatic — the whole point is that this is the least impressive thing in the room."
+ }
+}

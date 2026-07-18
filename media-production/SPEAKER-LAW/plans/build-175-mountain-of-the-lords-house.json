@@ -1,0 +1,101 @@
+{
+ "build": "build-175-mountain-of-the-lords-house",
+ "reference": "Isaiah 2",
+ "notes": "All three scripture beats were painted JESUS-RED and NONE of them is Deity\nspeaking. This whole build moves red -> BLUE, with no green anywhere:\n  s1   Isaiah 2:2   'And it shall come to pass in the last days...'  RED -> SCRIPTURE\n  s2a  Isaiah 2:3a  'And many people shall go and say, Come ye...'   RED -> SCRIPTURE\n  s2b  Isaiah 2:3b  'for out of Zion shall go forth the law...'      RED -> SCRIPTURE\n\nThis is the case the law calls subtle, and it is worth being explicit about.\nEvery one of these lines is ABOUT the LORD - his house, his mountain, his ways,\nhis word - but not one of them is the LORD talking. Isaiah is the man with the\npen throughout: 'the mountain of the LORD's house SHALL BE established', 'HE\nwill teach us of HIS ways'. Third person, every time. Green would have put words\nin God's mouth that Isaiah wrote about him.\n\ns2a is a second layer of the same thing - Isaiah quoting what the nations will\none day say to each other. Quoted people in the stories are `scripture` under the\nlaw, so it stays blue rather than picking up a colour of its own.\n\nNO SPLIT anywhere. s2a/s2b are the two halves of Isaiah 2:3 and were already\nseparate segments in the original; both halves are Isaiah, so the seam does not\nneed a colour change. They stay consecutive with no narrator wedged between,\nbecause n1 and n2a immediately after them already retell both halves.\n\nADDED n0b - a plain-English retelling of Isaiah 2:2. Without it, three verses of\nOld English ran back to back before the storyteller said a word. n0b sits on S2,\nthe same still as s1, so the edit is unchanged.\n\nNothing left as paraphrase from uncertainty; all three are verbatim Isaiah 2:2-3.\n\nWHY-LAW: milk. The mountain draws, it never drags. Nations 'flow' to it and\npeople invite each other up - the pull is the point, and the video never argues\nwhose mountain it is.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "In the last days, a mountain would rise above all mountains — not by height, but by drawing every people to it."
+  },
+  {
+   "id": "s1",
+   "speaker": "scripture",
+   "verse": "Isaiah 2:2",
+   "text": "And it shall come to pass in the last days, that the mountain of the LORD's house shall be established in the top of the mountains, and shall be exalted above the hills; and all nations shall flow unto it."
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "That is Isaiah writing, not God speaking — a prophet describing what he was shown. In the last days, he says, the house of the Lord will be set up higher than anything else on earth, and people from every nation will come streaming toward it."
+  },
+  {
+   "id": "s2a",
+   "speaker": "scripture",
+   "verse": "Isaiah 2:3",
+   "text": "And many people shall go and say, Come ye, and let us go up to the mountain of the LORD, to the house of the God of Jacob; and he will teach us of his ways, and we will walk in his paths:"
+  },
+  {
+   "id": "s2b",
+   "speaker": "scripture",
+   "verse": "Isaiah 2:3",
+   "text": "for out of Zion shall go forth the law, and the word of the LORD from Jerusalem."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Nations streaming uphill — not summoned by force, but drawn by invitation. The mountain everyone chooses to climb."
+  },
+  {
+   "id": "n2a",
+   "speaker": "narrator",
+   "text": "And from that high place, God's teaching would go out"
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "to everyone, everywhere."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The mountain is open to you. Come, and walk in his paths."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "s1",
+   "S2",
+   "in"
+  ],
+  [
+   "n0b",
+   "S2",
+   "out"
+  ],
+  [
+   "s2a",
+   "S3",
+   "in"
+  ],
+  [
+   "s2b",
+   "S4",
+   "in"
+  ],
+  [
+   "n1",
+   "S5",
+   "in"
+  ],
+  [
+   "n2a",
+   "S6",
+   "in"
+  ],
+  [
+   "n2b",
+   "S7",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S2": "S2 now carries two beats - the verse in blue, then the storyteller in white. It should be able to hold a long line of narration without going static. Frame the mountain as the thing being established rather than as scenery: the house on the height catching first light while the hills below are still in shadow, so the eye is pulled up the way the verse pulls the nations up. No crowd yet - the people arrive on S3."
+ }
+}

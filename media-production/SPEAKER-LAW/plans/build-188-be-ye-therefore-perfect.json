@@ -1,0 +1,101 @@
+{
+ "build": "build-188-be-ye-therefore-perfect",
+ "reference": "Matthew 5",
+ "notes": "STAYED RED: all three, and nothing moved.\n  j1  Matthew 5:44  'But I say unto you, Love your enemies, bless them that curse\n      you, do good to them that hate you, and pray for them which despitefully use\n      you, and persecute you;'\n  j2  Matthew 5:45  'That ye may be the children of your Father which is in\n      heaven: for he maketh his sun to rise on the evil and on the good, and\n      sendeth rain on the just and on the unjust.'\n  j3  Matthew 5:48  'Be ye therefore perfect, even as your Father which is in\n      heaven is perfect.'\nGospel, Jesus in the flesh on the mount, red-letter all three, and all three\nalready verbatim. NO SPLITS — none of them has Matthew's narration welded on.\n\nADDED, one narrator beat:\n  n0b  a plain-English retelling of Matthew 5:44.\nj1 and j2 ran back to back with nothing between them, so the viewer got two full\nblocks of King James before anyone explained the first one. The retelling rule\nsays every Old English line gets said again in modern English, and verse 44 was\nthe one going unretold — n1 only carries verse 45. n0b sits on ST2 with j1, a\nstill the build already has, so no new artwork and no lost beat.\n\nCompanion to build-124-love-your-enemies, which covers verses 43 through 46. The\ncalls agree: 44 and 45 are red in both. Verse 43, which 124 lifts out, is NOT\nimported here — this build runs to verse 48 instead and adding it would crowd the\nfront of a short piece.\n\nWHY-LAW: milk. 'Be ye therefore perfect' is handed over as an invitation to grow\ninto, with the Father's indiscriminate sun as the picture of what it means. No\nguilt, no ladder, no scoring.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Jesus sat on the hillside and taught the crowds a kind of love they had never heard before — not just for friends, but for enemies too."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Matthew 5:44",
+   "text": "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you;"
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "Love your enemies, he said. Bless the ones who curse you. Do good to the ones who hate you, and pray for the people who use you badly. Not put up with them. Not stay out of their way. Love them, and mean it."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Matthew 5:45",
+   "text": "That ye may be the children of your Father which is in heaven: for he maketh his sun to rise on the evil and on the good, and sendeth rain on the just and on the unjust."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "The point was simple and hard at once — God's kindness falls on everyone, the grateful and the cruel alike."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Then he set the bar that no one could reach alone, and meant for us to run toward it."
+  },
+  {
+   "id": "j3",
+   "speaker": "jesus",
+   "verse": "Matthew 5:48",
+   "text": "Be ye therefore perfect, even as your Father which is in heaven is perfect."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Not perfect by comparison with each other. Perfect by the measure of a Father whose love has no edge, no favor, no limit."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He asks for a love without limits — and he gives the grace to grow into it. Come and learn it from him."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "j1",
+   "ST2",
+   "in"
+  ],
+  [
+   "n0b",
+   "ST2",
+   "out"
+  ],
+  [
+   "j2",
+   "ST3",
+   "in"
+  ],
+  [
+   "n1",
+   "ST4",
+   "in"
+  ],
+  [
+   "n2",
+   "ST5",
+   "in"
+  ],
+  [
+   "j3",
+   "ST6",
+   "in"
+  ],
+  [
+   "n3",
+   "ST7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST2": "ST2 now carries the command in red and the narrator's retelling of it, so it has to hold twice as long as before. Frame the hard half of the sentence rather than a generic sermon shot: a listener's face at the moment 'love your enemies' lands — recognition and resistance at once, someone doing the arithmetic on a person they actually know. Jesus can be soft in the background. The weight belongs to the one hearing it."
+ }
+}

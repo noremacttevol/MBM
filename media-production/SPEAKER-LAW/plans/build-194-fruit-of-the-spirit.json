@@ -1,0 +1,89 @@
+{
+ "build": "build-194-fruit-of-the-spirit",
+ "reference": "Galatians 5",
+ "notes": "Galatians 5:22-23. The one red beat moves to BLUE.\n\n  s1  Galatians 5:22-23  'But the fruit of the Spirit is love, joy...'  RED -> SCRIPTURE\n\nGalatians is an epistle. This is Paul writing to the churches of Galatia, not\nJesus speaking, and a red-letter King James Bible prints no red anywhere in\nGalatians 5. The beat was simply misattributed. Light blue is correct - Paul is\none of the men with the pen, the shared `scripture` voice.\n\nNo split. The segment is one continuous sentence from one writer; there is no\nseam in it.\n\nVerbatim: s1 is Galatians 5:22-23 word for word, and the capital M on 'Meekness'\nis not a typo - it is where the KJV starts verse 23, and the caption keeps the\ntrue spelling. Nothing was smoothed and no word was reordered.\n\nRetelling: already covered and unusually well. n1a, n1b, n2 and n3 walk the nine\nfruits back through in plain modern English in the same order Paul lists them,\nand n4 lands 'against such there is no law'. Four beats of retelling for one\nquoted verse - no new narration was needed or added.\n\nNothing lifted from paraphrase. n0 is the storyteller introducing Paul in modern\nEnglish and is correctly narrator; it is not a buried quotation. The rest of the\nnarration is retelling, not paraphrase of some other verse.\n\nIds and beats unchanged. The card is 'card' and stays out of beats, as the\noriginal had it.\n\nWHY-LAW: milk. Character is fruit, not effort. The video does not argue law\nversus grace - it just names the nine things and says no law forbids them.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Paul wrote that when God's Spirit lives in a person, a harvest grows — not crops, but character."
+  },
+  {
+   "id": "s1",
+   "speaker": "scripture",
+   "verse": "Galatians 5:22-23",
+   "text": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance: against such there is no law."
+  },
+  {
+   "id": "n1a",
+   "speaker": "narrator",
+   "text": "First, love. Then joy."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "Then peace — the kind that doesn't depend on circumstances."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Longsuffering next — patience that doesn't quit. Then gentleness, and goodness, and faith that holds."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Meekness, and temperance — self-control that masters the storms inside."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "And no law anywhere forbids any of it. These are the things that can't be overdone."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "This fruit isn't grown by strain. Ask the Spirit — and let it ripen in you."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "s1",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1a",
+   "ST3",
+   "in"
+  ],
+  [
+   "n1b",
+   "ST4",
+   "in"
+  ],
+  [
+   "n2",
+   "ST5",
+   "in"
+  ],
+  [
+   "n3",
+   "ST6",
+   "in"
+  ],
+  [
+   "n4",
+   "ST7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST2": "ST2 carries the whole quoted verse alone - all nine fruits in one beat, and it is now blue rather than red, Paul's voice rather than Christ's. The still is called 'love' and the beat has outgrown it. Frame the ripening rather than any one virtue: a vine or a fruit tree in full bearing, low warm light, fruit at every stage on the same branch - some heavy and ready, some still small and green. Nothing harvested, nothing being picked. The point of the verse is that this grows on you rather than being achieved, so keep hands and effort out of the frame entirely."
+ }
+}

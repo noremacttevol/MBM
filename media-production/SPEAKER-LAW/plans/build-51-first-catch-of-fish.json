@@ -1,0 +1,163 @@
+{
+ "build": "build-51-first-catch-of-fish",
+ "reference": "Luke 5",
+ "notes": "PETER WAS THE HEART OF THIS VIDEO AND HE NEVER GOT TO SPEAK. Both of his lines\n-- the two sentences everybody remembers from Luke 5 -- were narrator paraphrase\nin white. Both are now lifted out verbatim as SCRIPTURE (light blue -- he is a man\nin the story, not Deity), each on the SAME still the paraphrase already used:\n  s5  Luke 5:5  'Master, we have toiled all the night, and have taken nothing:\n      nevertheless at thy word I will let down the net.'\n      This was the tail of n3, on S4, the still literally named s4-toiled-all-\n      night. n3 keeps its id, trimmed to the frame, and a new n3b retells it.\n      'Nevertheless at thy word' is the hinge of the whole story and it was being\n      delivered in modern English by the storyteller.\n  s8  Luke 5:8  'Depart from me; for I am a sinful man, O Lord.'\n      This was buried in the middle of n6, on S7, s7-at-his-knees. n6 keeps its id,\n      trimmed to the frame, and n6b carries the retelling and n6's closing line\n      about what the wonder had shown him.\n\nSTAYED RED, BOTH. jv4 (Luke 5:4, 'Launch out into the deep, and let down your nets\nfor a draught') and jv10 (Luke 5:10, 'Fear not; from henceforth thou shalt catch\nmen') are Jesus in the flesh and a red-letter KJV inks both. Neither carried\nLuke's framing, so neither needed splitting.\n\nNO GREEN. Nothing in Luke 5:1-11 is the Father speaking.\n\nWOMEN: Luke 5:1-11 records no woman speaking. Nothing added; nothing invented.\n\nRETELLING RULE: jv4 by n3, s5 by n3b, s8 by n6b, jv10 by n7. Note jv4 is now\nfollowed directly by n3, which is the frame for Peter's answer -- storyteller\nbetween the two Old English blocks, as the law requires.\n\nPRONUNCIATION: 'Gennesaret' in n1 and 'draught' in jv4 are both real risks with\nthis voice, but I do not know what respelling the existing build already uses and\nthe law says a bad respelling is worse than none. Left `spoken` empty and flagging\nit here rather than guessing.\n\nWHY-LAW: he met them at their emptiest -- a whole night of work and nothing to\nshow -- filled their hands past overflowing, and then asked for all of it. Milk:\nthe man who begged him to leave is the exact man he wanted.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "By the lake of Gennesaret, a crowd pressed in around him, hungry to hear the word of God. Two empty boats sat at the water's edge, and beside them tired fishermen were washing out their nets after a long night that had given them nothing."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "He stepped into one of the boats. It belonged to a fisherman named Simon. He asked him to push out a little way from the shore, and then he sat down and taught the people from the water."
+  },
+  {
+   "id": "jv4",
+   "speaker": "jesus",
+   "verse": "Luke 5:4",
+   "text": "Launch out into the deep, and let down your nets for a draught."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Simon was bone-tired. They had worked that water all night and come back with nothing, and every instinct a fisherman has told him this was pointless. But something about this man made him answer the way he did."
+  },
+  {
+   "id": "s5",
+   "speaker": "scripture",
+   "verse": "Luke 5:5",
+   "text": "Master, we have toiled all the night, and have taken nothing: nevertheless at thy word I will let down the net."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "Master, we worked that lake all night and caught nothing. But because you say so, I will put the net down again. Hear the word in the middle of that sentence. Nevertheless. He had every reason to say no, and he did it anyway."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "The moment the nets went down, they filled. A great shining mass of fish, far more than the ropes were made to hold, and the net began to tear under the sheer weight of it."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "There were too many for one boat. They waved to their partners, James and John, in the other boat to come and help, and both boats were loaded until they sat low in the water and began to sink."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "When Simon Peter saw it, he fell down at Jesus' knees. He did not feel worthy of any of it, and what came out of him was not thank you."
+  },
+  {
+   "id": "s8",
+   "speaker": "scripture",
+   "verse": "Luke 5:8",
+   "text": "Depart from me; for I am a sinful man, O Lord."
+  },
+  {
+   "id": "n6b",
+   "speaker": "narrator",
+   "text": "Go away from me, Lord. I am a sinful man. On the best morning of his working life, kneeling in fish, the first thing he wanted was distance. The wonder of it had shown him exactly who he was, and exactly who this was."
+  },
+  {
+   "id": "jv10",
+   "speaker": "jesus",
+   "verse": "Luke 5:10",
+   "text": "Fear not; from henceforth thou shalt catch men."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "He does not send Peter away. He calls him. The trembling fisherman who begged him to leave is the very man he wants, and from this day on he will be gathering people, not fish."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "And that was enough. They brought the boats to land, left the greatest catch of their lives lying there on the shore, and followed him. They forsook all, the nets, the boats, the best day they had ever had, and went with him."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He met them at their emptiest, a whole night of work and nothing to show, and filled their hands past overflowing. Then he asked for all of it, so he could give them something far greater. What is he calling you to leave behind, to follow him?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "jv4",
+   "S3",
+   "in"
+  ],
+  [
+   "n3",
+   "S4",
+   "in"
+  ],
+  [
+   "s5",
+   "S4",
+   "out"
+  ],
+  [
+   "n3b",
+   "S4",
+   "in"
+  ],
+  [
+   "n4",
+   "S5",
+   "in"
+  ],
+  [
+   "n5",
+   "S6",
+   "in"
+  ],
+  [
+   "n6",
+   "S7",
+   "in"
+  ],
+  [
+   "s8",
+   "S7",
+   "out"
+  ],
+  [
+   "n6b",
+   "S7",
+   "in"
+  ],
+  [
+   "jv10",
+   "S8",
+   "in"
+  ],
+  [
+   "n7",
+   "S8",
+   "out"
+  ],
+  [
+   "n8",
+   "S9",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S4": "S4 now carries three beats -- the frame, Peter's verbatim 'nevertheless at thy word', and its retelling. Frame the deciding, not the fishing: Simon standing in the boat in the flat morning light with the wet net gathered in both arms, looking back at Jesus, exhausted. Behind him the empty water he has already fished all night. The picture has to hold the pause before he does it anyway.",
+  "S7": "S7 now carries three beats -- the frame, Peter's verbatim 'Depart from me; for I am a sinful man, O Lord', and its retelling. Frame the kneeling: Peter down on the boards among the spilled silver fish, hands on the deck, head bowed away from Jesus rather than toward him. Jesus close and unmoved. A man asking to be left alone at the exact moment he has been given everything."
+ }
+}

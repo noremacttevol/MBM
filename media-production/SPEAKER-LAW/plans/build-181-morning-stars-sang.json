@@ -1,0 +1,111 @@
+{
+ "build": "build-181-morning-stars-sang",
+ "reference": "Job 38",
+ "notes": "The one scripture beat was painted JESUS-RED. Job is Old Testament, so it\ncannot be red - and it is the LORD himself speaking out of the whirlwind, in\nfirst person, which makes it GREEN, not blue:\n  s1  Job 38:7  'When the morning stars sang together, and all the sons of\n                 God shouted for joy?'                            RED -> GOD\n\nWorth being careful here, because on its own s1 does not LOOK like Deity\nspeaking - there is no 'I' in it. But it is the tail of a question God started\nin verse 4, and the question mark at the end of the segment is the giveaway: it\nis still God's sentence. Blue would have made it read as Job's commentary, or\nthe narrator's, when in fact God is the one asking.\n\nLIFTED ONE VERSE out of narrator paraphrase, and it is what makes s1 make sense:\n  g4  Job 38:4  'Where wast thou when I laid the foundations of the earth?\n                 declare, if thou hast understanding.'            NEW, god\nn1a and n1b were paraphrasing this verse without quoting it, which left s1\ndangling as a question nobody had asked. With g4 in place, the viewer hears God\nstart the question and then finish it three beats later, exactly as Job heard\nit. g4 sits on ST4 with n1b, so no new artwork.\n\nPlacement note: g4 goes AFTER n1b rather than between n1a and n1b. n1a and n1b\nare two halves of one sentence - 'Before there were people to suffer or to\ndoubt, / the foundations of the earth were being laid' - and wedging a verse\ninto the middle of it would break the line the editor built.\n\nADDED n1r - a narrator retelling of Job 38:4 immediately after it, on ST6 ahead\nof n2. Required by the retelling rule and it also sets up the shape of God's\nanswer: he replies to a hard question with a harder one, and somehow that is\ncomforting rather than cruel.\n\nNO SPLIT anywhere in this build. Both quoted lines are unbroken Deity speech.\n\nNothing left as paraphrase from uncertainty; both are verbatim Job 38:4 and 38:7.\n\nWHY-LAW: milk. Job asked why and God answered by showing him the first morning,\nwhen the stars sang. The answer is not an explanation - it is a reminder of who\nis holding the thing. Warm, not crushing.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Job had asked God hard questions. And God answered — not with explanations, but by taking Job back to the very first morning."
+  },
+  {
+   "id": "n1a",
+   "speaker": "narrator",
+   "text": "Before there were people to suffer or to doubt,"
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "the foundations of the earth were being laid."
+  },
+  {
+   "id": "g4",
+   "speaker": "god",
+   "verse": "Job 38:4",
+   "text": "Where wast thou when I laid the foundations of the earth? declare, if thou hast understanding."
+  },
+  {
+   "id": "n1r",
+   "speaker": "narrator",
+   "text": "Where were you, God asked him, when I laid the foundations of the earth? Tell me, if you know. It sounds severe until you notice what it really does — it lifts Job's eyes off his own wreckage and sets them on something older and steadier than his pain."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "And when that happened, something astonishing broke out in the sky."
+  },
+  {
+   "id": "s1",
+   "speaker": "god",
+   "verse": "Job 38:7",
+   "text": "When the morning stars sang together, and all the sons of God shouted for joy?"
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "The stars themselves broke into song. Creation was not a cold accident — it was a celebration."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "The God who sang the world into being is the same one listening to your questions today."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The stars sang when the world began. Your story is still being written by the same hand."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "n1a",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1b",
+   "ST4",
+   "in"
+  ],
+  [
+   "g4",
+   "ST4",
+   "out"
+  ],
+  [
+   "n1r",
+   "ST6",
+   "in"
+  ],
+  [
+   "n2",
+   "ST6",
+   "out"
+  ],
+  [
+   "s1",
+   "ST3",
+   "in"
+  ],
+  [
+   "n3",
+   "ST5",
+   "in"
+  ],
+  [
+   "n4",
+   "ST7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST4": "ST4 now carries narration and then God's opening question in green, so the colour turns on this still. Frame the foundations being laid as something enormous happening without a witness - the earth taking shape in deep space or deep dark, no human scale anywhere in it. The whole force of the verse is that Job was not there, so the frame should contain nobody.",
+  "ST6": "ST6 now carries two beats of narration back to back, including the longest retelling in the video. The morning star is right, but it needs to hold a long hold - give it a horizon, a sense of the light about to arrive, and enough depth for a slow zoom. Hopeful, and patient rather than climactic; the singing is still two beats away on ST3."
+ }
+}

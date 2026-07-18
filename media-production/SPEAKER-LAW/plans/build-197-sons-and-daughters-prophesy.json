@@ -1,0 +1,81 @@
+{
+ "build": "build-197-sons-and-daughters-prophesy",
+ "reference": "Joel 2",
+ "notes": "Joel 2:28-29. Both red beats move to GREEN.\n\n  s1  Joel 2:28  'And it shall come to pass afterward, that I will pour out...'  RED -> GOD\n  s2  Joel 2:29  'And also upon the servants and upon the handmaids...'          RED -> GOD\n\nBoth are the LORD in the first person - 'I will pour out my spirit' twice over.\nThat is Jehovah, the premortal Christ, so both are green. Joel is Old Testament,\nso `jesus` is not available and would be wrong: a red-letter KJV prints this\nblack because Christ had not yet come in the flesh.\n\nNo splits. Neither segment mixes speakers. 'And it shall come to pass afterward'\nis inside the oracle, not Joel's frame around it - the frame is verse 28's\nopening in the wider chapter and the video never quotes it. Joel's own narration\nis handled entirely by n0, which is already its own white beat.\n\nTWO GREEN BEATS BACK TO BACK, on purpose. s1 runs straight into s2 with no\nnarrator between them, which the validator flags. They are one continuous\nsentence of divine speech that the KJV happens to break across two verse numbers\n- 'upon all flesh' in 28 and 'and ALSO upon the servants and upon the handmaids'\nin 29. Cutting a retelling into the middle of that would break the one thing the\nverse is doing, which is piling group onto group until nobody is left out. n1\nretells both immediately after: 'not stopped by age or status - every kind of\nperson, filled with the same Spirit.' The retelling rule is met, just once for\nthe pair instead of twice.\n\nVerbatim: s1 and s2 are Joel 2:28-29 word for word, including the colon at the\nend of s1 and 'handmaids' rather than any modernisation. Neither was smoothed.\n\nNothing lifted from paraphrase. n2 recounts the day of Pentecost and Peter\nstanding up, which is Acts 2 - I am leaving it as narrator. Peter's speech there\nis mostly him quoting this same Joel passage back, so lifting it would put the\nvideo's own verse on screen twice, in green and then blue. n3 is the storyteller's\nclose, not a quotation.\n\nIds and beats unchanged. The card is 'card' and stays out of beats, as the\noriginal had it.\n\nWHY-LAW: milk. Sons AND daughters. Servants AND handmaids. The promise names the\npeople a listener would assume were left out, which is the whole point and needs\nno commentary.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "The prophet Joel looked down the long corridor of time and described a day the LORD promised — not for a few insiders, but for all."
+  },
+  {
+   "id": "s1",
+   "speaker": "god",
+   "verse": "Joel 2:28",
+   "text": "And it shall come to pass afterward, that I will pour out my spirit upon all flesh; and your sons and your daughters shall prophesy, your old men shall dream dreams, your young men shall see visions:"
+  },
+  {
+   "id": "s2",
+   "speaker": "god",
+   "verse": "Joel 2:29",
+   "text": "And also upon the servants and upon the handmaids in those days will I pour out my spirit."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Not stopped by age or status — every kind of person, filled with the same Spirit."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Decades later, on the day of Pentecost, the apostle Peter stood and said this promise had arrived. The Spirit fell, and ordinary people told of the mighty works of God."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "The promise was never meant to be locked in one building or one office. It was poured out — freely, widely, for whoever calls on the name of the LORD."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The promise was all flesh. That includes you. The Spirit is offered — receive Him."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "s1",
+   "ST2",
+   "in"
+  ],
+  [
+   "s2",
+   "ST6",
+   "in"
+  ],
+  [
+   "n1",
+   "ST3",
+   "in"
+  ],
+  [
+   "n2",
+   "ST4",
+   "in"
+  ],
+  [
+   "n3",
+   "ST5",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST2": "ST2 carries the longest quoted stretch in the build and it is now green, God's own voice rather than the prophet's report. The verse names four groups in one breath - all flesh, sons and daughters, old men dreaming, young men seeing. Frame them together rather than picking one: a mixed crowd of ordinary people, several generations in the same shot, faces turned up, light falling on all of them evenly from above. The evenness is the doctrine - nobody in the frame is lit more than anyone else. No temple, no platform, no one leading.",
+  "ST6": "ST6 holds the second half of the oracle, the line that names the servants and the handmaids. It is the verse's deliberate afterthought and the most quietly radical thing in the chapter, so it should not look like an afterthought. Frame working people - a servant woman straightening up from her work, hands still dirty, the same light from ST2 reaching her. She should be alone or nearly so, in a plain workspace, not part of a crowd. The whole force of 'and also' is that the light finds the person nobody would have listed."
+ }
+}

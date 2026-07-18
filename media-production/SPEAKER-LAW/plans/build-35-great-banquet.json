@@ -1,0 +1,186 @@
+{
+ "build": "build-35-great-banquet",
+ "reference": "Luke 14",
+ "notes": "STAYED RED: both existing red beats are the host inside Jesus's parable, which\nmeans they are Jesus's own words, and a red-letter KJV prints the whole parable red.\n  j1  Luke 14:21  'Go out quickly into the streets and lanes of the city, and bring in\n      hither the poor, and the maimed, and the halt, and the blind.'\n  j2  Luke 14:23  'Go out into the highways and hedges, and compel them to come in,\n      that my house may be filled.'\nBoth verified verbatim. Neither turns blue. The householder speaking is not a\ncharacter to be demoted to `scripture` -- he is a character Jesus is voicing.\n\nTHE FRAMING SPLIT. Luke 14:16 reads in full: 'Then said he unto him, A certain man\nmade a great supper, and bade many:'. The opening clause is LUKE writing and a\nred-letter KJV leaves it black; everything after it is Jesus. The build carried the\nframe only as modern paraphrase inside n1, so the verse is split properly, BOTH\nHALVES ON THE SAME STILL S1 -- no new artwork:\n  s16  Luke 14:16  'Then said he unto him,'   SCRIPTURE, light blue.\n  j16  Luke 14:16  'A certain man made a great supper, and bade many:'  JESUS, red.\nn1 keeps its id and is trimmed to the retelling only; its old opening 'Jesus told a\nstory about' was the frame and is now carried by s16.\n\nADDED RED, ALL INSIDE THE PARABLE. Two more of Jesus's own lines were living only in\nparaphrase, and both are dialogue he puts in a character's mouth -- still red:\n  j18  Luke 14:18  'I have bought a piece of ground, and I must needs go and see it:\n       I pray thee have me excused.'  -- the first invited guest. n3 keeps its text and\n       now retells all three excuses behind it.\n  j22  Luke 14:22  'Lord, it is done as thou hast commanded, and yet there is room.'\n       -- the SERVANT reporting back, and still red for the same reason. Placed on S6\n       ahead of n8, so that n8's 'And there was still room' becomes its retelling and\n       j2's answer on S7 lands as a genuine reply to something the viewer just heard.\n\nLEFT AS PARAPHRASE ON PURPOSE. Luke 14:17 ('Come; for all things are now ready'), the\noxen excuse at 14:19 and the marriage excuse at 14:20 are all red and all could have\nbeen lifted. They are left in the storyteller's voice deliberately: three verbatim\nexcuses back to back would be a recitation, and n3 already does the work in one clean\nsweep. One excuse verbatim, the rest retold. Red now lands on S1, S3, S5, S6 and S7,\nwith a narrator retelling behind every one.\n\nNOT ADDED. Luke 14:15, the man at the table who says 'Blessed is he that shall eat\nbread in the kingdom of God' -- the remark that PROVOKES the parable -- would be\n`scripture`, light blue, spoken outside the parable. It is genuinely tempting and it is\nverbatim. It is left out because the build has no still for a dinner table before the\nfeast, and SPEAKER-LAW forbids inventing artwork. Flagged here in case a later art pass\nwants it.\n\nNO GREEN: no voice from heaven in Luke 14.\n\nWOMEN: Luke 14:16-24 records no woman speaking. A wife is mentioned in the third excuse\nbut she is never quoted. Nothing added; nothing invented.\n\nPRONUNCIATION: `spoken` is left empty. Nothing in the KJV lines is on the homograph\nlist. 'halt' here means lame, not stop, but it is pronounced identically either way, so\nthere is nothing for a respelling to fix -- n6's retelling carries the meaning instead.\n\nWHY-LAW: when the ones who should have come turned him down, he did not shrink the\ntable. He opened the doors wider. The feast was always going to be full.",
+ "segments": [
+  {
+   "id": "s16",
+   "speaker": "scripture",
+   "verse": "Luke 14:16",
+   "text": "Then said he unto him,"
+  },
+  {
+   "id": "j16",
+   "speaker": "jesus",
+   "verse": "Luke 14:16",
+   "text": "A certain man made a great supper, and bade many:"
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "A man threw a great feast. He prepared everything, the finest food, the tables set, every place ready, and he sent out his invitations."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "When the feast was ready, he sent his servant to tell the invited guests, come, for everything is ready now."
+  },
+  {
+   "id": "j18",
+   "speaker": "jesus",
+   "verse": "Luke 14:18",
+   "text": "I have bought a piece of ground, and I must needs go and see it: I pray thee have me excused."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "But one by one, they all made excuses. One had just bought a field and had to go see it. One had bought oxen and had to try them out. One had just married, and simply would not come."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "They were not evil people. They were just busy. Their own plans felt more urgent than the joy waiting for them at his table."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "The servant came back alone. And here is where you would expect the host to cancel the feast, hurt and offended. He did not."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Luke 14:21",
+   "text": "Go out quickly into the streets and lanes of the city, and bring in hither the poor, and the maimed, and the halt, and the blind."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "Go out into the streets, he said, and bring in the poor, the crippled, the blind, everyone the respectable guests would never have invited."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "So the servant went and found them, the overlooked and the left out, and told them there was a seat with their name on it. You can imagine their faces. Nobody had ever invited them to anything."
+  },
+  {
+   "id": "j22",
+   "speaker": "jesus",
+   "verse": "Luke 14:22",
+   "text": "Lord, it is done as thou hast commanded, and yet there is room."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "And there was still room."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Luke 14:23",
+   "text": "Go out into the highways and hedges, and compel them to come in, that my house may be filled."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "Go further out, he said, to the roads and the edges of town, and do not take no for an answer. Make sure they know they are truly wanted, until my house is full."
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "That is how good he is. When the ones who should have come turned him down, he did not shrink his table. He opened the doors wider. The feast was always going to be full, and there has always been a place at it for you."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The table is set, and there is a seat with your name on it. What excuse have you been giving for not sitting down?"
+  }
+ ],
+ "beats": [
+  [
+   "s16",
+   "S1",
+   "in"
+  ],
+  [
+   "j16",
+   "S1",
+   "out"
+  ],
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "j18",
+   "S3",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "out"
+  ],
+  [
+   "n4",
+   "S3",
+   "in"
+  ],
+  [
+   "n5",
+   "S4",
+   "in"
+  ],
+  [
+   "j1",
+   "S5",
+   "in"
+  ],
+  [
+   "n6",
+   "S5",
+   "out"
+  ],
+  [
+   "n7",
+   "S6",
+   "in"
+  ],
+  [
+   "j22",
+   "S6",
+   "out"
+  ],
+  [
+   "n8",
+   "S6",
+   "in"
+  ],
+  [
+   "j2",
+   "S7",
+   "in"
+  ],
+  [
+   "n9",
+   "S7",
+   "out"
+  ],
+  [
+   "n10",
+   "S7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S1": "S1 now carries three beats — Luke's framing, Jesus's verbatim opening of the parable, and the retelling. Frame the readiness, not the host: a long table finished and waiting, every place set, food laid out and still steaming, lamps already lit — and not one person seated. The emptiness is the subject. Everything was done before anybody was asked twice.",
+  "S3": "S3 now carries the first guest's verbatim excuse and its retelling. Frame the excuse being given, not the field: the invited man half-turned away in the doorway of his own house, one hand raised in a polite refusal, already looking off toward his new ground while the host's servant stands waiting with the invitation still held out. Courteous, not hostile — these were not evil people, just busy.",
+  "S6": "S6 now carries three beats — the bringing in, the servant's verbatim report, and the retelling. Frame the empty places: the poor and the lame already seated and eating in the near half of the frame, and beyond them a whole further stretch of the table still set and still unoccupied. The servant standing between the two, looking back at his master. Room left over is the point."
+ }
+}

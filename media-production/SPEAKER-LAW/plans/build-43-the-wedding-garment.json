@@ -1,0 +1,290 @@
+{
+ "build": "build-43-the-wedding-garment",
+ "reference": "Matthew 22",
+ "notes": "PARABLE LAW APPLIED. Matthew 22:1-14 is one parable from verse 2 to verse 14, so the\nking, the servants and the whole of the dialogue are Jesus's words and a red-letter\nKJV inks all of it. Every existing red beat stays red:\n  jv4    Matt 22:4     'Behold, I have prepared my dinner...' -- the king's summons\n  jv8_9  Matt 22:8-9   'The wedding is ready, but they which were bidden were not\n         worthy. Go ye therefore into the highways...'\n  jv12   Matt 22:12    'Friend, how camest thou in hither not having a wedding\n         garment?' -- the king to the man. Red, not blue.\n  jv13   Matt 22:13    'Bind him hand and foot...' -- the king to the servants. Red.\n  jv14   Matt 22:14    'For many are called, but few are chosen.'\n\nBLUE ADDED -- the single line in the passage that is Matthew and not Jesus:\n  s1  Matt 22:1  'And Jesus answered and spake unto them again by parables, and said.'\n      Matthew writing, so `scripture`, light blue. It opens the video and the existing\n      n1 keeps its id and now retells it, naming the temple and the men hunting him.\n\nRED ADDED -- the build told most of this parable in the narrator's voice, so four of\nJesus's own blocks come back in, each alternating with an existing narrator beat that\nbecomes its retelling:\n  jv2    Matt 22:2    'The kingdom of heaven is like unto a certain king, which made\n         a marriage for his son.' n2 retells it.\n  jv3    Matt 22:3    'And sent forth his servants to call them that were bidden to\n         the wedding: and they would not come.' Sits first on S3; n3 retells the\n         sending, then jv4 gives the message, then n4 lands the refusal.\n  jv5_6  Matt 22:5-6  'But they made light of it, and went their ways, one to his\n         farm, another to his merchandise: And the remnant took his servants, and\n         entreated them spitefully, and slew them.' This was all white paraphrase\n         across n5 and n6; both keep their ids and now retell it.\n  jv10   Matt 22:10   'So those servants went out into the highways, and gathered\n         together all as many as they found, both bad and good: and the wedding was\n         furnished with guests.' n9 already says 'the story does not clean it up --\n         it says both the bad and the good,' and now the viewer actually hears it.\n\nDeliberately NOT lifted: verse 7, the armies and the burned city -- n6 handles it in\none restrained sentence and quoting it would put the heaviest verse in the passage on\nscreen in red in a video whose point is the open door. Also not lifted: the second\nhalf of verse 13, 'there shall be weeping and gnashing of teeth.' Same reason, and the\nexisting jv13 already stops short of it, which was a deliberate choice by whoever\nwrote this build and it is left standing.\n\nNO GREEN and NO WOMEN: there is a wedding in this parable and not one woman in it who\nspeaks. Nothing invented.\n\nWHY-LAW: nobody dragged in off the road owned wedding clothes -- the robe was the\nking's to give. Milk: you do not make yourself presentable first, you let him dress\nyou.",
+ "segments": [
+  {
+   "id": "s1",
+   "speaker": "scripture",
+   "verse": "Matthew 22:1",
+   "text": "And Jesus answered and spake unto them again by parables, and said,"
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "He was teaching in the temple, and the men who were hunting for a way to arrest him were standing right in front of him. So he told them a story: about a king, a wedding, and an invitation that almost nobody took."
+  },
+  {
+   "id": "jv2",
+   "speaker": "jesus",
+   "verse": "Matthew 22:2",
+   "text": "The kingdom of heaven is like unto a certain king, which made a marriage for his son,"
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "A king was giving a wedding feast for his son. The oxen were prepared, the tables were loaded, the hall was full of light. And the guests had been invited long before. They had already said they would come."
+  },
+  {
+   "id": "jv3",
+   "speaker": "jesus",
+   "verse": "Matthew 22:3",
+   "text": "And sent forth his servants to call them that were bidden to the wedding: and they would not come."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "So when the day arrived, the king sent his servants to go and bring them in."
+  },
+  {
+   "id": "jv4",
+   "speaker": "jesus",
+   "verse": "Matthew 22:4",
+   "text": "Behold, I have prepared my dinner: my oxen and my fatlings are killed, and all things are ready: come unto the marriage."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "And they would not come. Not one of them. They had said yes, and now, with everything ready and waiting, they simply would not walk over."
+  },
+  {
+   "id": "jv5_6",
+   "speaker": "jesus",
+   "verse": "Matthew 22:5-6",
+   "text": "But they made light of it, and went their ways, one to his farm, another to his merchandise: And the remnant took his servants, and entreated them spitefully, and slew them."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "They all had something else. A field to go look at. A shop to keep. The king's own guests looked at his son's wedding and decided they had better things to do."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "And some of them did worse. They turned on the servants who came to invite them. It was the kind of insult a kingdom does not survive, and that city did not survive it."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "But the feast was still ready. The food was still hot. And a hall built for a wedding was standing empty. So the king made a decision."
+  },
+  {
+   "id": "jv8_9",
+   "speaker": "jesus",
+   "verse": "Matthew 22:8-9",
+   "text": "The wedding is ready, but they which were bidden were not worthy. Go ye therefore into the highways, and as many as ye shall find, bid to the marriage."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "Out to the roads. Not the guest list. The roads. Whoever happened to be out there. The day laborers, the beggars, the people nobody ever puts on a list."
+  },
+  {
+   "id": "jv10",
+   "speaker": "jesus",
+   "verse": "Matthew 22:10",
+   "text": "So those servants went out into the highways, and gathered together all as many as they found, both bad and good: and the wedding was furnished with guests."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "They brought in everyone they could find. The story does not clean it up. It says both the bad and the good, and the wedding hall filled right up."
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "And here is the part almost everyone misses. Nobody dragged in off the street owned wedding clothes. At a king's feast, the clean festival robe was the king's to give, handed to every guest at the door. Every person in that hall was wearing something the king had put on them."
+  },
+  {
+   "id": "n11",
+   "speaker": "narrator",
+   "text": "Then the king came in to meet his guests. And he found one man still in his own dusty road clothes. Not because he was too poor. Everyone there was too poor. Because he had been handed a robe at the door, and had said no to it."
+  },
+  {
+   "id": "jv12",
+   "speaker": "jesus",
+   "verse": "Matthew 22:12",
+   "text": "Friend, how camest thou in hither not having a wedding garment?"
+  },
+  {
+   "id": "n12",
+   "speaker": "narrator",
+   "text": "Friend. That is what the king called him. Not intruder. Not thief. Friend, and a question, and every chance in the world to answer. And the man had nothing to say."
+  },
+  {
+   "id": "n13",
+   "speaker": "narrator",
+   "text": "He had come to the feast and refused the one thing that made him a guest. So he ended up where he had chosen to be. Back outside, in the dark, away from a light that had been standing wide open for him."
+  },
+  {
+   "id": "jv13",
+   "speaker": "jesus",
+   "verse": "Matthew 22:13",
+   "text": "Bind him hand and foot, and take him away, and cast him into outer darkness."
+  },
+  {
+   "id": "n14",
+   "speaker": "narrator",
+   "text": "The men listening knew exactly who the story was about. They were the invited guests, the ones who had said yes for a lifetime and would not come when the King actually arrived. But do not miss what the story is really doing."
+  },
+  {
+   "id": "jv14",
+   "speaker": "jesus",
+   "verse": "Matthew 22:14",
+   "text": "For many are called, but few are chosen."
+  },
+  {
+   "id": "n15",
+   "speaker": "narrator",
+   "text": "Everyone is invited. That is the whole world. The ones who end up at the table are simply the ones who came, and who let the King put the clean clothes on them."
+  },
+  {
+   "id": "n16",
+   "speaker": "narrator",
+   "text": "You do not have to make yourself presentable first. Nobody in that hall could have, and neither can you. The invitation is free, the door is open, and the clean clothes are already bought and folded and waiting inside. All you have to do is come in, and let him dress you."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The King fills his hall with people straight off the road, and hands each one clean clothes at the door. What has he been holding out for you to put on, that you keep walking past?"
+  }
+ ],
+ "beats": [
+  [
+   "s1",
+   "S1",
+   "in"
+  ],
+  [
+   "n1",
+   "S1",
+   "out"
+  ],
+  [
+   "jv2",
+   "S2",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "out"
+  ],
+  [
+   "jv3",
+   "S3",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "out"
+  ],
+  [
+   "jv4",
+   "S3",
+   "in"
+  ],
+  [
+   "n4",
+   "S4",
+   "in"
+  ],
+  [
+   "jv5_6",
+   "S5",
+   "in"
+  ],
+  [
+   "n5",
+   "S5",
+   "out"
+  ],
+  [
+   "n6",
+   "S6",
+   "in"
+  ],
+  [
+   "n7",
+   "S7",
+   "in"
+  ],
+  [
+   "jv8_9",
+   "S7",
+   "out"
+  ],
+  [
+   "n8",
+   "S8",
+   "in"
+  ],
+  [
+   "jv10",
+   "S8",
+   "out"
+  ],
+  [
+   "n9",
+   "S9",
+   "in"
+  ],
+  [
+   "n10",
+   "S9",
+   "out"
+  ],
+  [
+   "n11",
+   "S10",
+   "in"
+  ],
+  [
+   "jv12",
+   "S11",
+   "in"
+  ],
+  [
+   "n12",
+   "S11",
+   "out"
+  ],
+  [
+   "n13",
+   "S12",
+   "in"
+  ],
+  [
+   "jv13",
+   "S12",
+   "out"
+  ],
+  [
+   "n14",
+   "S13",
+   "in"
+  ],
+  [
+   "jv14",
+   "S13",
+   "out"
+  ],
+  [
+   "n15",
+   "S13",
+   "in"
+  ],
+  [
+   "n16",
+   "S14",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S3": "S3 now carries three beats: the verbatim sending of the servants, its retelling, and the king's own summons. Frame the summons being delivered, not the palace: a servant on a doorstep in a wealthy street, hand raised mid-knock or already speaking, the invitation clearly meant warmly. Behind him, further down the street, more doors. The moment before anyone has said no.",
+  "S8": "S8 now carries the roads beat and the verbatim gathering of 'both bad and good.' Frame the sweep, not the individuals: servants out on a dusty highway at the edge of town bringing in whoever is there -- a labourer with his tools still on him, a beggar, a couple of children, an old man. Mismatched, unprepared, ordinary, and all of them walking the same direction toward the lit hall.",
+  "S13": "S13 now carries three beats: n14 naming who the story was about, the verbatim 'many are called, but few are chosen,' and n15's retelling. Frame the called and the chosen as the same crowd, not two: a wide hall doorway with light pouring out and a stream of road-worn people going in, and one or two standing outside in the dark who have simply not walked over. Nobody is being kept out."
+ }
+}

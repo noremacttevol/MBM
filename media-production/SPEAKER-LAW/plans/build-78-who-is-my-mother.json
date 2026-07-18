@@ -1,0 +1,122 @@
+{
+ "build": "build-78-who-is-my-mother",
+ "reference": "Mark 3",
+ "notes": "STAYED RED -- all three existing red beats are Jesus in the flesh and a\nred-letter KJV prints all three, verbatim:\n  j1  Mark 3:33  'Who is my mother, or my brethren?'\n  j2  Mark 3:34  'Behold my mother and my brethren!'\n  j3  Mark 3:35  'For whosoever shall do the will of God, the same is my brother,\n      and my sister, and mother.'\nNone carried Mark's framing inside it, so none needed splitting. j2 and j3 are\none continuous saying and are deliberately left back to back, with n3 retelling\nboth together.\n\nTHE MESSENGER NOW SPEAKS. n1b said 'The people near him passed it forward: your\nfamily is here — they want you' -- modern English, in white, standing in for a\nverse the viewer never heard. Lifted verbatim as `scripture` (the crowd in the\nstory, not Deity):\n  s32  Mark 3:32  'Behold, thy mother and thy brethren without seek for thee.'\n  n1b is trimmed to the frame, n1c carries the retelling. Both on ST3, no new\n  artwork. This matters because Jesus's red-letter question in j1 is a direct\n  answer to those exact words -- and until now the video asked the answer to a\n  question it had never actually asked.\n\nDELIBERATE QUESTION-AND-ANSWER SHAPE -- NO RETELLING WEDGED IN. j1 is Jesus's\nquestion, and j2/j3 are Jesus answering his own question. n2 sits between them\nand is the storyteller describing him looking around the room, which is Mark 3:34\nnarration and belongs in white. No plain-English retelling is put between j1 and\nn2, because retelling a four-word rhetorical question back to the viewer before\nhe has answered it would kill the beat. n3 retells the whole exchange after j3.\nThis is the same call the law makes for build-98's 'Mary.' / 'Rabboni.'\n\nMARY IS PRESENT AND SILENT. Mark 3:31-35 has his mother standing outside and\nsending in for him -- and Mark records not one word from her. NOTHING was put in\nher mouth. The message that comes in is spoken by the crowd sitting around him,\nnot by her, so s32 is `scripture` and not `woman`. No pink in this build, and\nthat is the honest reading.\n\nNO GREEN: nothing in Mark 3:31-35 is the Father or a voice from heaven. Jesus\nspeaks ABOUT the will of God here; God does not speak.\n\nWHY-LAW: he was not shutting his family out, he was drawing the circle wider.\nMilk: the family line got redrawn around whoever would come.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Jesus was inside a packed house, teaching, when word came in from the edge of the crowd."
+  },
+  {
+   "id": "n1a",
+   "speaker": "narrator",
+   "text": "His mother and his brothers were standing outside, asking for him."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "The people sitting around him passed it forward, and Mark writes down exactly what they said:"
+  },
+  {
+   "id": "s32",
+   "speaker": "scripture",
+   "verse": "Mark 3:32",
+   "text": "Behold, thy mother and thy brethren without seek for thee."
+  },
+  {
+   "id": "n1c",
+   "speaker": "narrator",
+   "text": "Look — your mother and your brothers are outside, and they're asking for you. Everyone in that room knew what happens next. You stop teaching, and you go out to your family."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Mark 3:33",
+   "text": "Who is my mother, or my brethren?"
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Nobody expected that. Then he looked slowly around at the ordinary people sitting in a circle right in front of him — farmers, fishermen, mothers, a child — and answered his own question."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Mark 3:34",
+   "text": "Behold my mother and my brethren!"
+  },
+  {
+   "id": "j3",
+   "speaker": "jesus",
+   "verse": "Mark 3:35",
+   "text": "For whosoever shall do the will of God, the same is my brother, and my sister, and mother."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Here is my mother, he said. Here are my brothers. Anyone who does what God wants — that person is my brother, and my sister, and my mother. He wasn't pushing his family away. He was opening the circle — telling a room full of nobodies they could belong to him like blood."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He drew the family line around whoever would come. That door is open to you too."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "n1a",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1b",
+   "ST3",
+   "in"
+  ],
+  [
+   "s32",
+   "ST3",
+   "out"
+  ],
+  [
+   "n1c",
+   "ST3",
+   "in"
+  ],
+  [
+   "j1",
+   "ST5",
+   "in"
+  ],
+  [
+   "n2",
+   "ST4",
+   "in"
+  ],
+  [
+   "j2",
+   "ST6",
+   "in"
+  ],
+  [
+   "j3",
+   "ST7",
+   "in"
+  ],
+  [
+   "n3",
+   "ST8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST3": "ST3 now carries three beats — the frame, the crowd's verbatim message, and its retelling. Frame the relay, not the family: someone seated close to Jesus turned and leaning in toward him, hand cupped, passing the message the last few feet, with the heads of the packed room stretching back behind them toward the door. The words are travelling. Mary should not be in this shot — she is outside, and this still is about the sentence arriving, not about her."
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "build": "build-200-gospel-to-all-the-world",
+ "reference": "Matthew 24",
+ "notes": "Matthew 24:14. The red beat STAYS RED.\n\n  j1  Matthew 24:14  'And this gospel of the kingdom shall be preached in all\n                      the world...'                              RED -> stays JESUS\n\nOne correction to the working assumption: this is NOT the Great Commission of\nMatthew 28 or Mark 16. The build is Matthew 24 - the Olivet discourse, Jesus\nsitting on the Mount of Olives with the disciples in the last week, telling them\nwhat the long road holds. The verdict is the same either way. This is Christ\nspeaking in mortality, a red-letter King James Bible prints Matthew 24:14 in red,\nand it stays red. But the verse reference in the plan is 24:14 and the notes\nshould not carry the wrong chapter into the art session.\n\nNo split. Checked for evangelist framing welded onto the front - the 'And Jesus\nanswering said unto him' seam that has to be cut off into blue - and there is\nnone. j1 opens on 'And this gospel of the kingdom' and is Christ's own words end\nto end. Matthew's framing is handled entirely by n0a, which is already its own\nwhite beat and correctly narrator.\n\nVerbatim: j1 is Matthew 24:14 word for word, including 'for a witness unto all\nnations' and the closing 'and then shall the end come'. Nothing was smoothed.\n\nRetelling: already covered, and unusually - this build retells the verse BEFORE\nit quotes it. n1a, n1b, n2a and n2b walk through the whole content of the verse\nin plain modern English across four short beats, and then j1 lands it in Christ's\nown words as the payoff. n3 closes. That is a deliberate structure and it works,\nso no new narration was added. The listener understands every phrase before they\nhear it in Old English, which is what the retelling rule is for.\n\nNothing lifted from paraphrase. n0a and n0b compress the signs of Matthew 24:6-13\n- wars, rumours of wars, hardship, enduring to the end. Those are real verses and\nthey are genuinely quotable, but this is the two hundredth and final video in the\nlibrary and it should end on the commission rather than on the calamities. Adding\na second red block about wars would change what the last thing a viewer hears is.\nLeft as narrator paraphrase on purpose.\n\nIds and beats unchanged. The card is 'card' and stays out of beats, as the\noriginal had it.\n\nWHY-LAW: milk, and it is the last one in the set. The good news goes to everyone,\nand the task is still open. Nothing about signs, dates, or the end being near -\nthe verse mentions the end and the video lets it pass without leaning on it.",
+ "segments": [
+  {
+   "id": "n0a",
+   "speaker": "narrator",
+   "text": "Jesus sat with his disciples on the Mount of Olives, telling them what the long road ahead would hold —"
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "wars, rumors, hardship, and patience under strain."
+  },
+  {
+   "id": "n1a",
+   "speaker": "narrator",
+   "text": "Then he turned to the one thing that would outlast all of it:"
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "a message carried to every corner of the earth."
+  },
+  {
+   "id": "n2a",
+   "speaker": "narrator",
+   "text": "Not a secret kept for a few."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "A witness given to all nations — the good news of the kingdom going out until the very end."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Matthew 24:14",
+   "text": "And this gospel of the kingdom shall be preached in all the world for a witness unto all nations; and then shall the end come."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "The task he gave is still the task we carry: tell it, show it, live it — until the promise is fulfilled."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The good news was meant for the whole world — and for you. Come, hear it, and carry it on."
+  }
+ ],
+ "beats": [
+  [
+   "n0a",
+   "ST1",
+   "in"
+  ],
+  [
+   "n0b",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1a",
+   "ST3",
+   "in"
+  ],
+  [
+   "n1b",
+   "ST4",
+   "in"
+  ],
+  [
+   "n2a",
+   "ST5",
+   "in"
+  ],
+  [
+   "n2b",
+   "ST6",
+   "in"
+  ],
+  [
+   "j1",
+   "ST7",
+   "in"
+  ],
+  [
+   "n3",
+   "ST8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST7": "ST7 carries the only red beat in the build and it is the last quoted line in the whole two-hundred-video library, so it should be the strongest frame in the set. The still is 'seeing the whole world', which is the right instinct. Frame it from where he is actually sitting: the Mount of Olives at evening, the city below and the land running out past it toward a horizon that keeps going - the world implied by distance rather than drawn as a globe. Christ seated, in profile or from behind, looking out rather than at the camera, disciples nearby but not the subject. Warm low light going long. The line is about a message travelling further than the people hearing it, so the frame should be mostly distance."
+ }
+}

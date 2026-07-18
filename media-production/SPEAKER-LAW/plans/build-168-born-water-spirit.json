@@ -1,0 +1,145 @@
+{
+ "build": "build-168-born-water-spirit",
+ "reference": "John 3",
+ "notes": "TWO SPLITS, and they are the whole point of this plan. Both original segments\nopened with John's narration welded onto Christ's words and were painted red end\nto end, which put the evangelist's reporting into the Lord's mouth and his voice.\n\nSPLIT 1 — John 3:3\n  kv3   (scripture, blue)  'Jesus answered and said unto him,'\n  kv3b  (jesus, RED)       'Verily, verily, I say unto thee, Except a man be born\n                            again, he cannot see the kingdom of God.'\nSPLIT 2 — John 3:5\n  kv5   (scripture, blue)  'Jesus answered,'\n  kv5b  (jesus, RED)       'Verily, verily, I say unto thee, Except a man be born\n                            of water and of the Spirit, he cannot enter into the\n                            kingdom of God.'\nA red-letter King James Bible starts the red at 'Verily' in both verses. kv3 and\nkv5 keep their original ids so nothing that references them by name is orphaned;\nkv3b and kv5b are the new ones. BOTH HALVES OF EACH SPLIT STAY ON THE SAME STILL\n— kv3/kv3b on S3, kv5/kv5b on S7 — so no new artwork and the edit the viewer sees\nis identical. kv5 is only two words; that is correct, it is a short blue beat and\nit hands straight off to the red.\n\nLIFTED FROM PARAPHRASE:\n  s4  John 3:4  'How can a man be born when he is old? can he enter the second\n      time into his mother's womb, and be born?'   SCRIPTURE, blue\nNicodemus was the other man in this conversation and he never got to speak — n3\nwas reporting his bewilderment for him. He asks it himself now, in his own words.\nThe KJV frame 'Nicodemus saith unto him,' is left off so s4 is his speech only.\nThis matches build-04-nicodemus, which gives him the same four lines in blue.\n\nkv3b -> s4 is a DELIBERATE statement-and-question pair: the Lord says it, and the\nruler's honest confusion comes straight back at him with no narrator in between.\nThat is the exception the retelling rule allows, and n3 retells both immediately\nafter. The validator warns about it; the warning is expected.\n\nWHY-LAW: milk. Baptism and the gift of the Holy Ghost are shown as one gate open\nto everybody, framed by a good and learned man who still had to walk through it.\nNothing on screen argues about who may perform it.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Nicodemus was a ruler and a respected teacher, a man near the top of his world. And yet, one night, he slipped quietly through the dark streets to ask his questions in private, humble enough to come and learn."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "He came to the light and listened. And what he heard turned his careful world upside down. It was not a small adjustment or one more rule to keep. It was a whole new beginning — a person must be born all over again."
+  },
+  {
+   "id": "kv3",
+   "speaker": "scripture",
+   "verse": "John 3:3",
+   "text": "Jesus answered and said unto him,"
+  },
+  {
+   "id": "kv3b",
+   "speaker": "jesus",
+   "verse": "John 3:3",
+   "text": "Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God."
+  },
+  {
+   "id": "s4",
+   "speaker": "scripture",
+   "verse": "John 3:4",
+   "text": "How can a man be born when he is old? can he enter the second time into his mother's womb, and be born?"
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Nicodemus took it literally, and was baffled. How could a grown man possibly be born a second time? He could not picture it. Surely no one could climb back and start his life over from the beginning."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "But the new birth was never meant to be physical. To be born again is first to be born of water — to go down into the water of baptism and come up new, the old life washed away and left behind."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "And there was a second half to it, not water only. To be born of the Spirit is to receive the gift of the Holy Ghost — a birth from above, life breathed into the soul by heaven itself."
+  },
+  {
+   "id": "kv5",
+   "speaker": "scripture",
+   "verse": "John 3:5",
+   "text": "Jesus answered,"
+  },
+  {
+   "id": "kv5b",
+   "speaker": "jesus",
+   "verse": "John 3:5",
+   "text": "Verily, verily, I say unto thee, Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "Here is the quiet study gem. Notice he did not say this was one good option among many. He said a person cannot enter without it. The gate is the gate — the same for everyone, even a learned and upright ruler like Nicodemus."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "And that same single gate still stands open before you: born of water, and born of the Spirit. The door is not hidden and it is not narrow with pride — it is simply the way in. When you stand before it, will you go through?"
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "To enter the kingdom, a person must be born again — born of water in baptism, and of the Spirit from above. The gate is the gate, the same for everyone. When you stand before it, will you go through?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "kv3",
+   "S3",
+   "in"
+  ],
+  [
+   "kv3b",
+   "S3",
+   "out"
+  ],
+  [
+   "s4",
+   "S4",
+   "in"
+  ],
+  [
+   "n3",
+   "S4",
+   "out"
+  ],
+  [
+   "n4",
+   "S5",
+   "in"
+  ],
+  [
+   "n5",
+   "S6",
+   "in"
+  ],
+  [
+   "kv5",
+   "S7",
+   "in"
+  ],
+  [
+   "kv5b",
+   "S7",
+   "out"
+  ],
+  [
+   "n6",
+   "S7",
+   "in"
+  ],
+  [
+   "n7",
+   "S8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S3": "S3 now carries a colour change inside one image — blue for John's 'Jesus answered and said unto him,' then red for the words themselves. It should read as the instant of speaking, not as a tableau: the two men close, lamplit, Jesus mid-sentence and Nicodemus listening hard. Keep the frame tight enough that a caption changing colour underneath it feels like the same moment continuing.",
+  "S4": "S4 now carries Nicodemus's own question in blue and the narrator's retelling after it. Frame his bewilderment, not the idea he is bewildered by — an educated man with his hands open, brow working, genuinely unable to picture what he has just been told. No shame in the face. He is not arguing, he is stuck.",
+  "S7": "S7 now carries three beats and two colour changes — blue, red, then white — running from John 3:5 through the narrator's study gem. It needs to hold the whole answer, so frame the gate itself rather than a single figure: water below, light from above, the way in standing open and plain. Unhurried and uncrowded, something a viewer can rest on while the voice changes twice."
+ }
+}

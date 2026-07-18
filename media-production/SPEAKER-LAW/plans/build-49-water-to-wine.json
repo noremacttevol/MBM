@@ -1,0 +1,236 @@
+{
+ "build": "build-49-water-to-wine",
+ "reference": "John 2",
+ "notes": "MARY SPEAKS. She is the reason this miracle happens and in the original she did\nnot have a single word of her own -- both her lines were narrator paraphrase in\nwhite. Both are now lifted out verbatim as WOMAN, pink, each on the SAME still\nthe paraphrase already used:\n  w3   John 2:3  'They have no wine.'\n       This was the tail of n4. n4 keeps its id, trimmed to the frame -- 'She went\n       straight to her son and told him the plain truth.' -- and a new n4b carries\n       the retelling.\n  w5   John 2:5  'Whatsoever he saith unto you, do it.'\n       This was the tail of n6, which called it 'the best advice in the whole\n       Bible' and then said it in modern English instead of letting her say it.\n       It is one of the most quoted lines any woman speaks in the New Testament.\n       n6 keeps its id, trimmed to the frame, and a new n6b retells it.\n\nSTAYED RED, ALL THREE. jv4 (2:4), jv7 (2:7), jv8 (2:8) are Jesus in the flesh and\na red-letter KJV inks all three. None carried John's framing -- 2:4 opens 'Jesus\nsaith unto her,' and the segment already begins at 'Woman, what have I to do with\nthee' -- so none needed splitting.\n\nADDED IN BLUE -- THE GOVERNOR OF THE FEAST. His verdict was paraphrased inside\nn10. Lifted out verbatim as SCRIPTURE (light blue -- a man in the story):\n  s10  John 2:10  'Every man at the beginning doth set forth good wine; and when\n       men have well drunk, then that which is worse: but thou hast kept the good\n       wine until now.'\n  n10 keeps its id, trimmed to the frame, and n10b retells it. 'Thou hast kept the\n  good wine until now' is the sentence n11 then builds the whole ending on, so it\n  matters that a viewer hears it in the words they would find in their own Bible.\n\nTHE SERVANTS -- CONSIDERED, NOT ADDED. The task asked about them, but John 2\nnever records a servant saying anything. Verse 9 only tells us 'the servants which\ndrew the water knew.' There is no line to lift, and I will not invent one. They\nstay in the narrator's description, which is where scripture leaves them.\n\nNO GREEN. Nothing in John 2 is the Father speaking.\n\nRETELLING RULE: w3 by n4b, jv4 by n5, w5 by n6b, jv7 by n8, jv8 by n9, s10 by\nn10b. No two Old English blocks run back to back anywhere in the build.\n\nWHY-LAW: his first move in the whole world was to walk into a family's worst\nmoment of the day and quietly leave them with more joy than they started with --\nfor people who never asked and never found out who paid for it. Milk: that is\nwhat he is like before he is anything else.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "The very first miracle he ever did was not what you would guess. Not a healing. Not calming a storm. He saved a village wedding from falling apart."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "He was there as a guest, with his mother and his friends. A wedding in a small town like Cana ran for days, and the whole village came. It was pure, ordinary joy, and he was right in the middle of it."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "And then, quietly, disaster. The wine ran out. To us that sounds small. To that family it was a public shame they would carry for years. The feast, and their good name, were about to collapse."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "His mother noticed before anyone else did. And she did not go to the host, or the kitchen. She went straight to her son and told him the plain truth."
+  },
+  {
+   "id": "w3",
+   "speaker": "woman",
+   "verse": "John 2:3",
+   "text": "They have no wine."
+  },
+  {
+   "id": "n4b",
+   "speaker": "narrator",
+   "text": "Four words. They have no wine. She did not tell him what to do about it, and she did not ask him for anything. She simply put it in front of him and left the deciding to him."
+  },
+  {
+   "id": "jv4",
+   "speaker": "jesus",
+   "verse": "John 2:4",
+   "text": "Woman, what have I to do with thee? mine hour is not yet come."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "That sounds sharp in English, but it was not. Woman was a word of respect, and the phrase was a gentle old idiom, something like, is this really ours to fix, and is now the time? He was not brushing her off. He was wondering out loud whether this was the moment to begin."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "And his mother, who knew him better than anyone alive, did not argue with him. She just turned to the servants and gave them the best advice in the whole Bible."
+  },
+  {
+   "id": "w5",
+   "speaker": "woman",
+   "verse": "John 2:5",
+   "text": "Whatsoever he saith unto you, do it."
+  },
+  {
+   "id": "n6b",
+   "speaker": "narrator",
+   "text": "Whatever he tells you, do it. That is all of it. She did not explain, and she did not stay to supervise. She handed the servants over to him and stepped back, and trusted her son with the rest."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "Standing nearby were six big stone jars, the kind kept for the washing rituals, each one holding twenty or thirty gallons. Empty jars, meant for making things clean. Not a wine cup in sight."
+  },
+  {
+   "id": "jv7",
+   "speaker": "jesus",
+   "verse": "John 2:7",
+   "text": "Fill the waterpots with water."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "Not wine. Water. The plainest thing there is, from the nearest well. The servants filled all six to the very top, hauling bucket after bucket, surely wondering what plain water had to do with the problem."
+  },
+  {
+   "id": "jv8",
+   "speaker": "jesus",
+   "verse": "John 2:8",
+   "text": "Draw out now, and bear unto the governor of the feast."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "No lightning. No words spoken over the jars. No show at all. He simply told them to dip a cup and carry it to the man in charge of the feast. And somewhere between the jar and the cup, the water quietly became something else."
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "The steward tasted it and had no idea where it came from. He pulled the bridegroom aside, half laughing."
+  },
+  {
+   "id": "s10",
+   "speaker": "scripture",
+   "verse": "John 2:10",
+   "text": "Every man at the beginning doth set forth good wine; and when men have well drunk, then that which is worse: but thou hast kept the good wine until now."
+  },
+  {
+   "id": "n10b",
+   "speaker": "narrator",
+   "text": "Everybody serves the good wine first, he said, and brings out the cheap stuff once the guests have stopped paying attention. You have done it backwards. You saved the best for last."
+  },
+  {
+   "id": "n11",
+   "speaker": "narrator",
+   "text": "And that is the line to hold on to. He saved the best for last. Not a bare rescue, not just barely enough to get by. Something like a hundred and fifty gallons of the finest wine at the party, poured out on ordinary people who would never even know who paid for it."
+  },
+  {
+   "id": "n12",
+   "speaker": "narrator",
+   "text": "That is the God this story is showing you. His first move in the whole world was not to frighten anyone or settle a score. It was to walk into a family's worst moment of the day and quietly turn it into more joy than they started with. His friends saw it, and they believed him."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "His very first miracle was making a good day even better, for people who never asked and never knew. If that is how he begins, what do you think he is like? What would you bring a God who saves the best for last?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "in"
+  ],
+  [
+   "n4",
+   "S4",
+   "in"
+  ],
+  [
+   "w3",
+   "S4",
+   "out"
+  ],
+  [
+   "n4b",
+   "S4",
+   "in"
+  ],
+  [
+   "jv4",
+   "S5",
+   "in"
+  ],
+  [
+   "n5",
+   "S5",
+   "out"
+  ],
+  [
+   "n6",
+   "S6",
+   "in"
+  ],
+  [
+   "w5",
+   "S6",
+   "out"
+  ],
+  [
+   "n6b",
+   "S6",
+   "in"
+  ],
+  [
+   "n7",
+   "S7",
+   "in"
+  ],
+  [
+   "jv7",
+   "S8",
+   "in"
+  ],
+  [
+   "n8",
+   "S8",
+   "out"
+  ],
+  [
+   "jv8",
+   "S9",
+   "in"
+  ],
+  [
+   "n9",
+   "S9",
+   "out"
+  ],
+  [
+   "n10",
+   "S10",
+   "in"
+  ],
+  [
+   "s10",
+   "S10",
+   "out"
+  ],
+  [
+   "n10b",
+   "S10",
+   "in"
+  ],
+  [
+   "n11",
+   "S11",
+   "in"
+  ],
+  [
+   "n12",
+   "S12",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S4": "S4 now carries three beats -- the frame, Mary's verbatim 'They have no wine', and its retelling. Frame her saying it, close and quiet: Mary leaning in near her son at the edge of the feast, one hand just touching his sleeve, her eyes on his face, the crowded table behind her out of focus. Nobody else in the room has noticed yet. Concern, not panic -- a mother telling him a fact and leaving it there.",
+  "S6": "S6 now carries three beats -- the frame, Mary's verbatim 'Whatsoever he saith unto you, do it', and its retelling. Frame her turning away from Jesus toward the servants: Mary mid-instruction to two young household servants, her hand indicating her son behind her, already half-stepping back out of the moment. She is handing them over to him. The most important thing in the picture is that she is leaving.",
+  "S10": "S10 now carries three beats -- the frame, the governor's verbatim verdict, and its retelling. Frame the tasting and the accusation together: the master of the feast with the cup still at his lips, turned toward the bridegroom with his eyebrows up and a half-laugh, the bridegroom bewildered. The one man qualified to judge the wine, delivering a compliment he does not understand he is giving."
+ }
+}

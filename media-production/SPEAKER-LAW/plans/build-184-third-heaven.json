@@ -1,0 +1,89 @@
+{
+ "build": "build-184-third-heaven",
+ "reference": "2 Corinthians 12",
+ "notes": "This build is the rare epistle where a red beat is CORRECT, and it is the only one in\nmy set besides the Ascension.\n\n  j1  2 Corinthians 12:9  'My grace is sufficient for thee: for my strength is made\n      perfect in weakness.'  RED -> STAYS RED (jesus)\n\nA red-letter King James Bible inks that clause. Paul is quoting the Lord's direct\nanswer to him word for word — 'And he said unto me' — so it is Christ speaking, not\nPaul writing about Christ. Nothing moves out of red in this build. n2 already sets it\nup correctly ('because of what the Lord had told him'), so the red lands on the right\nsentence.\n\nEverything else Paul says about himself is the writer, and the two segments that were\nalready not red are confirmed as light blue rather than left ambiguous:\n\n  s1  2 Corinthians 12:2  -> scripture\n  s2  2 Corinthians 12:4  -> scripture\n\nNo splits. The 'And he said unto me' clause that introduces the red line is not on\nscreen, so there is no mixed segment to break apart — n2 carries that job in the\nnarrator's voice already.\n\nRETELLING: n3 was a one-line close that did not actually retell the red verse, which\nis the strongest sentence in the video. It now says it in plain modern English first\nand keeps its original closing thought after. No new segment ids were needed.\n\nAll three quoted verses are from the King James text as printed. Nothing left as\nparaphrase from uncertainty.\n\nWHY-LAW: milk. The man who saw the most had the least to say about it, and what he\nrepeated was not the vision — it was the sentence about grace. That is the whole\npoint, and it stays red because the Lord really said it.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Paul wrote of a man he knew — caught up, in a single moment, far beyond the everyday world."
+  },
+  {
+   "id": "s1",
+   "speaker": "scripture",
+   "verse": "2 Corinthians 12:2",
+   "text": "I knew a man in Christ above fourteen years ago, (whether in the body, I cannot tell; or whether out of the body, I cannot tell: God knoweth;) such an one caught up to the third heaven."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Whether in the body or out of it, Paul could not say; God alone knew. And from that height, he was carried further still."
+  },
+  {
+   "id": "s2",
+   "speaker": "scripture",
+   "verse": "2 Corinthians 12:4",
+   "text": "How that he was caught up into paradise, and heard unspeakable words, which it is not lawful for a man to utter."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "He heard things he was not allowed to repeat — words a person is not permitted to say out loud. He could have boasted. He had the credentials. Instead he pointed to his weakness — because of what the Lord had told him."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "2 Corinthians 12:9",
+   "text": "My grace is sufficient for thee: for my strength is made perfect in weakness."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "What I give you is enough, the Lord told him. My strength does its best work in the places where you are weakest. Paul was shown more than words can carry — and still pointed back to grace."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Paul was shown more than words can hold — and still pointed back to grace. There is more ahead than you can imagine."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "s1",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1",
+   "ST3",
+   "in"
+  ],
+  [
+   "s2",
+   "ST4",
+   "in"
+  ],
+  [
+   "n2",
+   "ST5",
+   "in"
+  ],
+  [
+   "j1",
+   "ST6",
+   "in"
+  ],
+  [
+   "n3",
+   "ST7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {}
+}

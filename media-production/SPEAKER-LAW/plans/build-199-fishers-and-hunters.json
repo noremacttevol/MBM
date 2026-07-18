@@ -1,0 +1,79 @@
+{
+ "build": "build-199-fishers-and-hunters",
+ "reference": "Jeremiah 16",
+ "notes": "Jeremiah 16:16. The one red beat moves to GREEN.\n\n  s1  Jeremiah 16:16  'Behold, I will send for many fishers, saith the LORD...'  RED -> GOD\n\nThe LORD speaking in the first person - 'I will send for many fishers', 'after\nwill I send for many hunters'. That is Jehovah, the premortal Christ, so it is\ngreen. Jeremiah is Old Testament, so `jesus` is not available and would be wrong:\na red-letter KJV prints this black because Christ had not yet come in the flesh.\n\nNOT SPLIT, deliberately. 'saith the LORD' sits three words into the verse and is\ntechnically Jeremiah's attribution wrapper. Splitting it would make three beats\nout of one sentence - green, blue, green - and put a colour flicker on the two\nmost important words in the build ('many fishers'). The clause is inside the\nLORD's quoted speech rather than a narrator aside wrapped around it, and the\nwhole verse is one continuous first-person declaration. It stays one green beat.\nSame call as build-191.\n\nVerbatim: s1 is Jeremiah 16:16 word for word, including 'out of the holes of the\nrocks'. Nothing was smoothed.\n\nRetelling: already covered, and this build does it better than most. n1 retells\nthe verse directly ('the nets and the hunt find everyone'), and then n2, n3 and\nn4 do the harder work of turning it over - the same God who sends the search\nwants them found. No new narration was needed.\n\nNothing lifted from paraphrase. n0 is the storyteller setting up the chapter and\nrefers to the LORD in the third person, so it is not a quotation and stays white.\nn4's 'the Fisher of men' is the narrator's own image drawing the Old Testament\npicture forward, not a verse being cited.\n\nIds and beats unchanged. The card is 'card' and stays out of beats, as the\noriginal had it.\n\nWHY-LAW: milk, and this is the build in the set that most needed the care. The\nverse is a judgement text and could easily be made frightening. The narration\nalready refuses to do that - it reads the search as God not letting his people\nslip away unnamed. Green helps: the voice a listener hears is the peaceful one,\nnot a threatening one, which is exactly the reading the video argues for.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "The prophet Jeremiah spoke a hard word to a people who would not turn. The LORD said He would send searchers — and no hiding place would be far enough."
+  },
+  {
+   "id": "s1",
+   "speaker": "god",
+   "verse": "Jeremiah 16:16",
+   "text": "Behold, I will send for many fishers, saith the LORD, and they shall fish them; and after will I send for many hunters, and they shall hunt them from every mountain, and from every hill, and out of the holes of the rocks."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "It is a picture of judgment — the nets and the hunt find everyone."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "But hear the mercy underneath: the same God who sends the search is the one who wants them found, not lost. Judgment is the last call, not the first."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "The point was never the catching — it was that a holy God would not let His people slip away unnamed. He seeks, even when seeking means discipline."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "For us the picture flips into hope: the Fisher of men searches still, not to condemn, but to bring home whoever will be found."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The hunt was a wake-up, not a goodbye. He's still searching for you — let yourself be found."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "s1",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1",
+   "ST2",
+   "out"
+  ],
+  [
+   "n2",
+   "ST3",
+   "in"
+  ],
+  [
+   "n3",
+   "ST4",
+   "in"
+  ],
+  [
+   "n4",
+   "ST5",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST2": "ST2 carries the whole quoted verse and then the first retelling - two beats, green then white, the longest stretch in the build, and it is now God's own voice. The still is 'the hunters', which loads the frightening half. The verse names fishers first and hunters second, and the video's whole reading is that this is a search rather than a threat, so the art should not lead with menace. Frame the reach of it rather than the violence: high broken country at dusk, hills and rock clefts running back to the horizon, small lights moving through the passes far below - searchers with lanterns, seen at distance, patient rather than closing in. No weapons, no faces, no one cornered. A listener should feel found, not chased."
+ }
+}

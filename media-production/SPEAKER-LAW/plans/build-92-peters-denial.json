@@ -1,0 +1,174 @@
+{
+ "build": "build-92-peters-denial",
+ "reference": "Luke 22",
+ "notes": "THIS BUILD HAD NO SCRIPTURE IN IT AT ALL. Eight beats, every one white,\nevery spoken line in the story reported in modern English. Luke 22:54-62 is\nalmost entirely dialogue, and none of it was being heard.\n\nA WOMAN SPEAKS FIRST, AND SHE WAS IN WHITE. The denial starts because a servant\ngirl says six words out loud. Lifted verbatim as WOMAN (pink):\n  w56  Luke 22:56  'This man was also with him.'\n  n1 is trimmed to the frame only and a new n1b carries the retelling.\n\nPETER'S OWN DENIALS, lifted verbatim as SCRIPTURE (light blue -- he is a man in\nthe story). Two of the three, not all three, so it does not turn into a list:\n  s57  Luke 22:57  'Woman, I know him not.'\n  s60  Luke 22:60  'Man, I know not what thou sayest.'\n  n2 keeps its id and now retells the first and carries the second and third\n  denials; n2b retells the last one.\n\nRED ADDED -- the only red in the whole video, and it is a memory. Luke 22:61 has\nPeter remembering the exact words Jesus had said to him hours earlier, and a\nred-letter KJV inks that remembered sentence:\n  jv61 Luke 22:61  'Before the cock crow, thou shalt deny me thrice.'\n  n5a is trimmed to the frame and n5a2 carries the retelling. Putting it in red\n  is the point of the video -- his voice arriving in Peter's head at the worst\n  second of his life.\n\nCONSIDERED, LEFT OUT. Luke 22:58, the second accuser's 'Thou art also of them,'\nand Peter's 'Man, I am not' -- left out to keep the middle of the video moving;\nthe pattern is already clear from the first and third. Luke 22:62, 'And Peter\nwent out, and wept bitterly,' is Luke writing and could be blue, but n5b already\nsays it plainly and putting it in Old English there would slow the fall.\n\nNO GREEN: the Father does not speak in Luke 22:54-62.\n\nWHY-LAW: Jesus looked at Peter after Peter had publicly disowned him three times,\nand the look was not scorn. Milk: he knew before you failed, and he chose you\nanyway.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "After they arrested Jesus, Peter followed at a distance and warmed himself by a fire in the courtyard, trying not to be noticed."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "A servant girl saw his face in the firelight, looked hard at him, and said it out loud."
+  },
+  {
+   "id": "w56",
+   "speaker": "woman",
+   "verse": "Luke 22:56",
+   "text": "This man was also with him."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "This one was with him too, she said. Not an accusation — just a girl recognizing a face. And Peter answered her."
+  },
+  {
+   "id": "s57",
+   "speaker": "scripture",
+   "verse": "Luke 22:57",
+   "text": "Woman, I know him not."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Woman, I don't know him. A little later, someone else said the same thing. Then a third man, an hour after that, swore he was one of them. And Peter denied it harder every time."
+  },
+  {
+   "id": "s60",
+   "speaker": "scripture",
+   "verse": "Luke 22:60",
+   "text": "Man, I know not what thou sayest."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "I don't know what you're talking about. Three times now, out loud, in front of strangers, he had said he had never met him."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "And right then, while the words were still in his mouth, a rooster crowed."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Across the courtyard, Jesus turned and looked straight at Peter. Just looked at him."
+  },
+  {
+   "id": "n5a",
+   "speaker": "narrator",
+   "text": "And Peter remembered. Jesus had said this to his face, that very night, and Peter had sworn it would never happen."
+  },
+  {
+   "id": "jv61",
+   "speaker": "jesus",
+   "verse": "Luke 22:61",
+   "text": "Before the cock crow, thou shalt deny me thrice."
+  },
+  {
+   "id": "n5a2",
+   "speaker": "narrator",
+   "text": "Before the rooster crows, you will say three times that you don't know me. He had told him. And now the rooster had crowed, and Jesus was looking right at him."
+  },
+  {
+   "id": "n5b",
+   "speaker": "narrator",
+   "text": "He went outside and wept bitterly."
+  },
+  {
+   "id": "n5c",
+   "speaker": "narrator",
+   "text": "But the look wasn't scorn. It was the face of someone who already knew, and already loved him anyway."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He looked at Peter in his worst moment — and still chose him. He looks at you the same way."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "n1",
+   "ST2",
+   "in"
+  ],
+  [
+   "w56",
+   "ST2",
+   "out"
+  ],
+  [
+   "n1b",
+   "ST2",
+   "in"
+  ],
+  [
+   "s57",
+   "ST3",
+   "in"
+  ],
+  [
+   "n2",
+   "ST3",
+   "out"
+  ],
+  [
+   "s60",
+   "ST3",
+   "in"
+  ],
+  [
+   "n2b",
+   "ST3",
+   "out"
+  ],
+  [
+   "n3",
+   "ST4",
+   "in"
+  ],
+  [
+   "n4",
+   "ST5",
+   "in"
+  ],
+  [
+   "n5a",
+   "ST6",
+   "in"
+  ],
+  [
+   "jv61",
+   "ST6",
+   "out"
+  ],
+  [
+   "n5a2",
+   "ST6",
+   "in"
+  ],
+  [
+   "n5b",
+   "ST7",
+   "in"
+  ],
+  [
+   "n5c",
+   "ST8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST2": "ST2 now carries the frame, the servant girl's verbatim line, and its retelling. Frame her, not Peter: a young servant girl on the far side of the fire, leaning slightly forward, firelight full on her face, looking directly at someone off to the side of frame. Ordinary and unafraid — she is not accusing anyone, she is recognizing him.",
+  "ST3": "ST3 now carries four beats — both of Peter's verbatim denials and both retellings. Frame the denial as distance: Peter half turned away from the fire, palms open and out in front of him, face closed, eyes on the ground rather than on whoever is asking. The warmth of the fire behind him and nothing warm in him.",
+  "ST6": "ST6 now carries the frame, Jesus's remembered words, and the retelling. Frame the memory rather than the courtyard: close on Peter's face the instant it lands, mouth still open from the last word he said, the courtyard soft and out of focus behind him. The whole shot is one man realizing what he just did."
+ }
+}

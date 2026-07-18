@@ -1,0 +1,175 @@
+{
+ "build": "build-56-widow-of-nain",
+ "reference": "Luke 7",
+ "notes": "THE WIDOW DOES NOT SPEAK, AND I DID NOT INVENT A LINE FOR HER. Luke 7:11-17 is the\none raising in the gospels where the grieving parent says nothing at all -- no\nrequest, no plea, not one recorded word. She is the reason the miracle happens and\nshe never asks for it. That silence is the point of the story and it is now said out\nloud in the narration (n3) instead of being an accident. NO `woman` beat in this\nbuild. Checked Luke 7 twice; there is nothing there to lift.\n\nSTAYED RED, both of them:\n  jv13  Luke 7:13  \"Weep not.\"\n  jv14  Luke 7:14  \"Young man, I say unto thee, Arise.\"\nBoth kept their ids.\n\nNARRATION FRAMING SPLIT OFF BOTH. Luke welds his own writing onto each red line, and\nboth frames were sitting in white paraphrase:\n  s13a  Luke 7:13  \"And when the Lord saw her, he had compassion on her, and said\n        unto her,\"  -- new [scripture] beat on S4, same still as jv13.\n  s14a  Luke 7:14  \"And he came and touched the bier: and they that bare him stood\n        still. And he said,\"  -- new [scripture] beat on S6, same still as jv14.\n        n4 is trimmed to its setup; n4b carries the retelling.\n\nTHE TOWN SPEAKS, AND IT WAS IN WHITE. n7 paraphrased Luke 7:16. Lifted verbatim as\ns16 [scripture] on S9: \"That a great prophet is risen up among us; and, That God\nhath visited his people.\" n7 keeps its id, trimmed to the frame; n7b retells it.\n\nNO GREEN: the crowd says God has visited his people, but God does not speak in this\npassage. Nothing green.\n\nWHY-LAW: nobody asked him. He met a funeral coming out of a gate, saw one woman at\nthe back of it, and could not walk past. Milk: he is not waiting to be asked.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "As Jesus came near the town of Nain, a great crowd walked along with him. It was an ordinary day on an ordinary road, until they reached the town gate and met something coming the other way."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Out of the gate came a funeral. A young man had died, carried out on an open bier, and behind him walked his mother, a widow, grieving. He was her only son, and now she had no one. A large crowd from the town walked with her in her sorrow."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Here is what Luke does not record: a single word from her. She never asks him for anything. She does not know who he is. She is simply walking behind her son's body. And when the Lord saw her, he did not see a crowd or a custom; he saw a mother who had lost everything."
+  },
+  {
+   "id": "s13a",
+   "speaker": "scripture",
+   "verse": "Luke 7:13",
+   "text": "And when the Lord saw her, he had compassion on her, and said unto her,"
+  },
+  {
+   "id": "jv13",
+   "speaker": "jesus",
+   "verse": "Luke 7:13",
+   "text": "Weep not."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "Don't cry. Two words, to the one woman in that whole procession nobody could comfort. No one there had asked him to do a single thing. He simply could not walk past her sorrow."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Then he did something no one does at a funeral."
+  },
+  {
+   "id": "s14a",
+   "speaker": "scripture",
+   "verse": "Luke 7:14",
+   "text": "And he came and touched the bier: and they that bare him stood still. And he said,"
+  },
+  {
+   "id": "jv14",
+   "speaker": "jesus",
+   "verse": "Luke 7:14",
+   "text": "Young man, I say unto thee, Arise."
+  },
+  {
+   "id": "n4b",
+   "speaker": "narrator",
+   "text": "He walked up and put his hand on the open bier, and the men carrying it stopped dead. The whole procession held its breath. And he spoke to the dead boy the way you would wake a sleeping child — young man, I say to you, get up."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "And the young man who had been dead sat up, and began to speak. Life poured back into him at the sound of that voice, as simply as morning comes. Death let go of him, because it had no choice."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "And Jesus took him by the hand and gave him back to his mother. He did not keep him or make a spectacle of him; he simply returned a son to the arms of the woman who thought she had buried him."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "A holy fear fell on everyone there, and they praised God, saying:"
+  },
+  {
+   "id": "s16",
+   "speaker": "scripture",
+   "verse": "Luke 7:16",
+   "text": "That a great prophet is risen up among us; and, That God hath visited his people."
+  },
+  {
+   "id": "n7b",
+   "speaker": "narrator",
+   "text": "A great prophet has risen among us, they said. God has come to his own people. And the news of it went out through all the country round about."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He still meets us at the gate, on the worst day, in the middle of a grief no one can fix. He is not put off by death, or by sorrow, or by a thing everyone else has given up on. He sees you, his heart breaks, and he speaks life. What have you already buried that he is asking to raise?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "in"
+  ],
+  [
+   "s13a",
+   "S4",
+   "in"
+  ],
+  [
+   "jv13",
+   "S4",
+   "out"
+  ],
+  [
+   "n3b",
+   "S4",
+   "in"
+  ],
+  [
+   "n4",
+   "S5",
+   "in"
+  ],
+  [
+   "s14a",
+   "S6",
+   "in"
+  ],
+  [
+   "jv14",
+   "S6",
+   "out"
+  ],
+  [
+   "n4b",
+   "S6",
+   "in"
+  ],
+  [
+   "n5",
+   "S7",
+   "in"
+  ],
+  [
+   "n6",
+   "S8",
+   "in"
+  ],
+  [
+   "n7",
+   "S9",
+   "in"
+  ],
+  [
+   "s16",
+   "S9",
+   "out"
+  ],
+  [
+   "n7b",
+   "S9",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S4": "S4 now carries Luke's verbatim framing, 'Weep not,' and its retelling. Frame the seeing, not the speaking: Jesus stopped in the road, the two crowds halted facing each other, and his eyes finding the one woman at the back of the funeral. She has not noticed him yet. He has already stopped walking.",
+  "S6": "S6 now carries Luke's verbatim framing, 'Young man, I say unto thee, Arise,' and its retelling. Frame the touch and the stillness: Jesus's hand flat on the edge of the open bier, the four bearers frozen mid-step and looking at each other, the whole procession stopped. Nobody in that world touches a bier. The picture should feel like held breath.",
+  "S9": "S9 now carries the crowd's verbatim words and the retelling. Frame the town's reaction as awe, not celebration: faces in the gateway lit and frightened, hands over mouths, people backing away as much as pressing forward. Luke says fear came on all of them. Show the fear inside the praise."
+ }
+}

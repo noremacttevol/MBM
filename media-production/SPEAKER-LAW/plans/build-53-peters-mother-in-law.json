@@ -1,0 +1,109 @@
+{
+ "build": "build-53-peters-mother-in-law",
+ "reference": "Mark 1",
+ "notes": "NOBODY SPEAKS IN THIS STORY. Mark 1:29-31 is three verses long and contains no\ndirect speech at all -- not from Jesus, not from the disciples, not from the woman\nit is about. Verse 30 says only 'anon they tell him of her'; it does not report\nwhat they said. So there is no red in this build and there is nothing to lift into\nred, and I did not invent a line to create some.\n\nADDED IN BLUE -- MARK'S OWN SENTENCE. Rather than leave the build with no\nscripture in it anywhere, the healing verse itself is now spoken verbatim as\nSCRIPTURE, light blue. Under the law, narration inside the Gospels is `scripture`\n-- that is Mark writing:\n  s31  Mark 1:31  'And he came and took her by the hand, and lifted her up; and\n       immediately the fever left her, and she ministered unto them.'\nIt sits on S5, s5-took-her-by-the-hand, right after n5 which is already the frame\nfor it. n5 keeps its id and is trimmed by one clause so it hands off to the verse\ninstead of paraphrasing it first. The retelling was already written: n6 retells\nthe lifting and the fever, and n7 retells 'she ministered unto them.' Nothing new\nwas needed after it.\n\nWOMEN -- AND THE HONEST ANSWER. This is a video about a woman, and I looked hard\nfor a line for her. Mark gives her none. Neither does Matthew 8:14-15. Luke 4:38-39\ncomes closest and still only says 'they besought him for her' -- the disciples,\nnot her, and not in direct speech. She is one of the women scripture records being\nloved without recording anything she said. There is no pink in this build, and\nputting words in her mouth to get some would break the one rule that matters most.\nFlagging it plainly rather than quietly.\n\nNO RED, NO GREEN. Neither is present in Mark 1:29-31.\n\nRETELLING RULE: s31 is followed immediately by n6 and then n7, which between them\nsay the whole verse again in plain English.\n\nWHY-LAW: they did not make a speech, they just told him what was wrong -- and the\nfirst thing she did with her strength was spend it on other people. Milk: you do\nnot need the right words, only somewhere to put the trouble.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "When Jesus came out of the synagogue that sabbath, he did not go off alone. He went home with his friends, into the house of Simon and Andrew, and James and John went in with them."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "It was an ordinary house, the kind of place where real life happens. But that day the house was heavy, because someone they loved was ill."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Simon's wife's mother lay in a back room, sick with a fever. In those days a fever like that could take a life, and there was little anyone could do but sit beside her and worry."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "So they told Jesus about her. They did not make a speech or a grand request; they simply brought their trouble to him, the way you tell a friend what is wrong."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "And he went in to where she was lying. What happened next, Mark tells in a single sentence."
+  },
+  {
+   "id": "s31",
+   "speaker": "scripture",
+   "verse": "Mark 1:31",
+   "text": "And he came and took her by the hand, and lifted her up; and immediately the fever left her, and she ministered unto them."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "He took her by the hand and lifted her up, and in that moment the fever simply left her. No slow recovery, no days of weakness; the heat and the sickness were gone, and she was herself once more, well and strong."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "And the first thing she did was rise and serve them. With her strength fully back, she cared for the very ones who had carried her trouble to Jesus, glad to be on her feet again."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "It is a small, quiet miracle, tucked into an ordinary house. No crowd and no spectacle; only a tired family, a sickbed, and a Savior who came in, took her by the hand, and made her whole."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He still comes into ordinary houses and ordinary lives. You do not need the right words or a grand request; you only need to tell him where it hurts. What would it mean to simply put your trouble into his hand?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "in"
+  ],
+  [
+   "n4",
+   "S4",
+   "in"
+  ],
+  [
+   "n5",
+   "S5",
+   "in"
+  ],
+  [
+   "s31",
+   "S5",
+   "out"
+  ],
+  [
+   "n6",
+   "S6",
+   "in"
+  ],
+  [
+   "n7",
+   "S7",
+   "in"
+  ],
+  [
+   "n8",
+   "S8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S5": "S5 now carries two beats -- the frame and Mark's verbatim healing sentence, which is the only scripture in the build. Frame the hand, not the room: Jesus crouched at the low bed in the dim back room, her hand already in his, in the act of lifting rather than after it. Her face turning toward him. The disciples further back in the doorway, out of the light, leaving the hand as the whole subject of the picture."
+ }
+}

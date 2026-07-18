@@ -1,0 +1,215 @@
+{
+ "build": "build-50-noblemans-son",
+ "reference": "John 4",
+ "notes": "STAYED RED, BOTH. jv48 (John 4:48, 'Except ye see signs and wonders, ye will not\nbelieve') and jv50 (John 4:50, 'Go thy way; thy son liveth') are Jesus in the\nflesh and a red-letter KJV inks both. Neither carried John's framing -- 4:50 opens\n'Jesus saith unto him,' and the segment already begins at 'Go thy way' -- so\nneither needed splitting.\n\nADDED IN BLUE -- THREE VOICES THAT WERE ALL PARAPHRASE. This story turns on\nthings people say out loud, and every one of them was in white:\n  s49  John 4:49  'Sir, come down ere my child die.'\n       The father's whole prayer, in seven words. It was the tail of n6. n6 keeps\n       its id, trimmed to the frame -- 'He just says it again, plain and breaking.'\n       -- and a new n6b retells it.\n  s51  John 4:51  'Thy son liveth.'\n       The servants' message on the road. It is deliberately the SAME two words\n       Jesus said a day earlier in jv50, and the video should let a viewer hear\n       that rhyme rather than describing it. Lifted out of n9; n9 trimmed to the\n       frame, new n9b retells it.\n  s52  John 4:52  'Yesterday at the seventh hour the fever left him.'\n       The hour that settles the whole story. Lifted out of n10; n10 trimmed to\n       the frame, new n10b retells it and keeps n10's punchline about it being the\n       very hour Jesus spoke.\nAll three are SCRIPTURE, light blue -- the nobleman and his servants are men in\nthe story, not Deity.\n\nNO GREEN. Nothing in John 4:46-54 is the Father speaking.\n\nWOMEN: John 4:46-54 records no woman speaking. The boy's mother is not mentioned\nand the household believes as a household. Nothing added; nothing invented. (The\nwoman at the well is earlier in the same chapter but is a different video.)\n\nWARNINGS ACCEPTED, NOT ERRORS: s49 and s52 will trip the validator's archaic-marker\ncheck because 'ere' and 'the seventh hour' contain no thou/thee/hath. Both are\nverbatim KJV as printed; I checked the wording rather than assuming it.\n\nRETELLING RULE: jv48 by n5, s49 by n6b, jv50 by n7, s51 by n9b, s52 by n10b.\n\nWHY-LAW: he healed a boy he never touched, and the word was already true for the\nwhole day the father spent walking home with nothing in his hands. Milk -- his\nword works while you are still waiting to see it.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Jesus came back to Cana, the little town where he had turned the water into wine. And word of it was spreading fast."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "About twenty miles away, in Capernaum, a royal official sat by his son's bed. A man of rank, used to giving orders and being obeyed. And none of it was any use now. His boy was burning with fever, and the doctors had run out of answers."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Then he heard the healer was in Cana, a full day's walk uphill. So this powerful man dropped everything and went, hurrying on foot to find a village carpenter's son, because he had nowhere else left to turn."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "He found Jesus and begged him to come down to Capernaum and heal his boy before it was too late. A father with no pride left, only fear."
+  },
+  {
+   "id": "jv48",
+   "speaker": "jesus",
+   "verse": "John 4:48",
+   "text": "Except ye see signs and wonders, ye will not believe."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "It can sound like a scolding, but it was not. Jesus was reaching past the man's panic for something deeper. He was inviting him to trust without needing a show first."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "The father does not argue about it. He does not defend himself. He just says it again, plain and breaking."
+  },
+  {
+   "id": "s49",
+   "speaker": "scripture",
+   "verse": "John 4:49",
+   "text": "Sir, come down ere my child die."
+  },
+  {
+   "id": "n6b",
+   "speaker": "narrator",
+   "text": "Sir, come down before my child dies. That is the whole prayer. No argument, no explaining himself, nothing clever. Just a father running out of hours."
+  },
+  {
+   "id": "jv50",
+   "speaker": "jesus",
+   "verse": "John 4:50",
+   "text": "Go thy way; thy son liveth."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "No trip to Capernaum. No hand laid on the boy. Just a word, spoken over a sick child a day's journey away. And the man believed him, turned, and started home."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "Think about that walk. A whole day on the road with no proof in his hands, nothing to hold but a stranger's word that his son was already well."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "The next day, still on the road, he saw his own servants running toward him."
+  },
+  {
+   "id": "s51",
+   "speaker": "scripture",
+   "verse": "John 4:51",
+   "text": "Thy son liveth."
+  },
+  {
+   "id": "n9b",
+   "speaker": "narrator",
+   "text": "Your boy is alive. The very same two words Jesus had said to him a day before, coming back to him now from his own servants' mouths, out of breath from running to say them."
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "So he asked them exactly when the boy had started to mend."
+  },
+  {
+   "id": "s52",
+   "speaker": "scripture",
+   "verse": "John 4:52",
+   "text": "Yesterday at the seventh hour the fever left him."
+  },
+  {
+   "id": "n10b",
+   "speaker": "narrator",
+   "text": "Yesterday, at the seventh hour, they told him. And he knew that hour. It was the exact hour Jesus had stood in front of him and said, thy son liveth. It had already been done while he was still walking."
+  },
+  {
+   "id": "n11",
+   "speaker": "narrator",
+   "text": "And that settled it. The man believed, and his whole household believed with him. The word had been true the entire way home, working quietly while he walked and could not see it."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He healed a boy he never touched, with a word that was already true before anyone could prove it. If his word can carry a whole day's journey, how far do you think it can reach? What would you trust him with tonight?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "in"
+  ],
+  [
+   "n4",
+   "S4",
+   "in"
+  ],
+  [
+   "jv48",
+   "S5",
+   "in"
+  ],
+  [
+   "n5",
+   "S5",
+   "out"
+  ],
+  [
+   "n6",
+   "S6",
+   "in"
+  ],
+  [
+   "s49",
+   "S6",
+   "out"
+  ],
+  [
+   "n6b",
+   "S6",
+   "in"
+  ],
+  [
+   "jv50",
+   "S7",
+   "in"
+  ],
+  [
+   "n7",
+   "S7",
+   "out"
+  ],
+  [
+   "n8",
+   "S8",
+   "in"
+  ],
+  [
+   "n9",
+   "S9",
+   "in"
+  ],
+  [
+   "s51",
+   "S9",
+   "out"
+  ],
+  [
+   "n9b",
+   "S9",
+   "in"
+  ],
+  [
+   "n10",
+   "S10",
+   "in"
+  ],
+  [
+   "s52",
+   "S10",
+   "out"
+  ],
+  [
+   "n10b",
+   "S10",
+   "in"
+  ],
+  [
+   "n11",
+   "S11",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S6": "S6 now carries three beats -- the frame, the father's verbatim 'Sir, come down ere my child die', and its retelling. Frame the asking a second time: the official close in front of Jesus, fine clothes and travel dust, hands out and empty, face coming apart. A man who has given orders his whole life with nothing left to offer but the sentence itself.",
+  "S9": "S9 now carries three beats -- the servants sighted, their verbatim 'Thy son liveth', and the retelling. Frame the meeting on the open road: two household servants running toward the camera on a dusty hill road, arms up, calling before they are close enough to be heard, the father stopped in the foreground with his back to us. The news arriving, not the news being explained.",
+  "S10": "S10 now carries three beats -- the question, the servants' verbatim answer about the seventh hour, and the retelling. Frame the moment the arithmetic lands: close on the father's face as he works out the hour, servants blurred behind him, the road ahead unimportant now. Recognition, not relief -- he already believed; this is him finding out he was right."
+ }
+}

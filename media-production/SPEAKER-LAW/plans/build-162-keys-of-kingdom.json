@@ -1,0 +1,143 @@
+{
+ "build": "build-162-keys-of-kingdom",
+ "reference": "Matthew 16",
+ "notes": "STAYED RED: both original red beats, unchanged.\n  kv18  Matthew 16:18  'And I say also unto thee, That thou art Peter...'\n  kv19  Matthew 16:19  'And I will give unto thee the keys of the kingdom...'\nGospel, Jesus in the flesh at Caesarea Philippi, red-letter both. Already\nverbatim, no evangelist frame welded on, so no split was needed on either.\n\nLIFTED FROM PARAPHRASE — this is the change that matters here. The scene is an\nexchange, and neither half of it was ever spoken in the video:\n  jv15  Matthew 16:15  'But whom say ye that I am?'                     JESUS, RED\n  s16   Matthew 16:16  'Thou art the Christ, the Son of the living God.' SCRIPTURE\nn1 was asking Christ's question in the storyteller's modern voice and n2 was\nreporting Peter's answer second-hand. Now the Lord asks it himself in red, and\nPeter answers in his own words in light blue. Peter is an apostle, not Christ,\nso his confession is blue — this is the same call build-103-peters-confession\nmakes. The KJV frame 'And Simon Peter answered and said,' is deliberately left\noff so s16 is his words only.\n\njv15 -> s16 is a DELIBERATE question-and-answer pair, the one place in this\nbuild where two non-narrator beats touch. It is the exception the retelling\nrule allows, and n2 retells both halves immediately after. The validator will\nwarn about it; the warning is expected and correct to ignore.\n\nBoth new beats sit on stills the build already has — jv15 on S1 with n1, s16 on\nS2 with n2 — so no new artwork.\n\nWHY-LAW: milk. Keys are shown as something given, never seized. The build says\nauthority came from the Lord to a fisherman and stops there; it does not argue\nwhere the keys are now, it only asks whether you would trust them if you found\nthem.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Far to the north, at a rocky place called Caesarea Philippi, Jesus stopped with his disciples and put a piercing question to them. Who do you say that I am?"
+  },
+  {
+   "id": "jv15",
+   "speaker": "jesus",
+   "verse": "Matthew 16:15",
+   "text": "But whom say ye that I am?"
+  },
+  {
+   "id": "s16",
+   "speaker": "scripture",
+   "verse": "Matthew 16:16",
+   "text": "Thou art the Christ, the Son of the living God."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "It was Simon Peter, the fisherman, who answered for them all. You are the Christ, he said, the Son of the living God. And Jesus told him that flesh and blood had not revealed that to him; his Father in heaven had."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Then Jesus said something that would change Simon's life. He gave him a new name — Peter, which means a rock — and told him that on rock like that, solid and sure, he would build something meant to outlast the ages."
+  },
+  {
+   "id": "kv18",
+   "speaker": "jesus",
+   "verse": "Matthew 16:18",
+   "text": "And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "His church, he called it — his own gathered people, built on a firm foundation, and so strong that not even the gates of death and darkness could ever overpower it or shut it down."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "That is a staggering promise. Empires would fall, storms would come, the powers of the grave itself would batter against it — and still it would stand, because its foundation was laid by God and not by men."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "But Jesus was not finished. He would not leave his church without a way to be led. So he turned to Peter and promised him something specific — real authority, handed down from heaven itself. He called it keys."
+  },
+  {
+   "id": "kv19",
+   "speaker": "jesus",
+   "verse": "Matthew 16:19",
+   "text": "And I will give unto thee the keys of the kingdom of heaven: and whatsoever thou shalt bind on earth shall be bound in heaven: and whatsoever thou shalt loose on earth shall be loosed in heaven."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "Keys open and close, lock and unlock, admit and secure. To hold the keys of the kingdom is to carry real authority to act in God's name, so that what is done rightly on earth is honoured in heaven — not invented by men, but given by the Lord."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "So Jesus did not leave his people leaderless, or his church without authority. He built it on rock and placed real keys in human hands. So the only question is a hopeful one. When you find that authority, given by him and not seized by men, will you trust it?"
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Jesus built his church on rock and gave Peter the keys of the kingdom — real authority, binding on earth and in heaven, given by the Lord and not seized by men. When you find it, will you trust it?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "jv15",
+   "S1",
+   "out"
+  ],
+  [
+   "s16",
+   "S2",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "out"
+  ],
+  [
+   "n3",
+   "S3",
+   "in"
+  ],
+  [
+   "kv18",
+   "S4",
+   "in"
+  ],
+  [
+   "n4",
+   "S4",
+   "out"
+  ],
+  [
+   "n5",
+   "S5",
+   "in"
+  ],
+  [
+   "n6",
+   "S6",
+   "in"
+  ],
+  [
+   "kv19",
+   "S7",
+   "in"
+  ],
+  [
+   "n7",
+   "S7",
+   "out"
+  ],
+  [
+   "n8",
+   "S8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S1": "S1 now carries the question itself, in red, not just the arrival at Caesarea Philippi. Frame the moment the words are spoken: Jesus turned toward the twelve, having just stopped walking, asking rather than teaching — open hand, level eyes, the disciples caught mid-thought. The rock face of the place can stay in the background but the frame belongs to the question, not the geography.",
+  "S2": "S2 now carries Peter's confession in his own voice and the narrator's retelling of it. Frame the instant of the answer: Simon Peter a half step forward of the others, ordinary fisherman's clothes and working hands, speaking quietly rather than proclaiming. Nothing regal about him yet — the whole point is that this is a plain man saying a true thing before anything has been given to him."
+ }
+}

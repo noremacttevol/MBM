@@ -1,0 +1,154 @@
+{
+ "build": "build-89-the-last-supper",
+ "reference": "Luke 22",
+ "notes": "STAYED RED, both exact and both correctly his:\n  j1  Luke 22:19  'This is my body which is given for you: this do in\n      remembrance of me.'\n  j2  Luke 22:20  'This cup is the new testament in my blood, which is shed for\n      you.'\nNeither carried Luke's framing welded on, so neither needed splitting. Ids kept.\n\nRED ADDED -- two of his sayings in this room were only paraphrased:\n  jv15 Luke 22:15  'With desire I have desired to eat this passover with you\n       before I suffer.'  -- n1 said 'he told them plainly: he had wanted this\n       meal with them.' That sentence is one of the most tender things he says\n       all week and it was in white. n1 keeps its id and now retells it.\n  jv18 Luke 22:18  'For I say unto you, I will not drink of the fruit of the\n       vine, until the kingdom of God shall come.'  -- n4 reported it in modern\n       English. n4 keeps its id and its first sentences are now the retelling.\n\nRETELLINGS ADDED: n2b after the bread, n3b after the cup. Both were missing --\nthe video quoted the sacrament in Old English and then moved straight on.\n\nNO GREEN: the Father does not speak in Luke 22:14-20.\n\nWOMEN: Luke 22:14-20 records no woman speaking; the upper room is the twelve.\nNothing added, nothing invented.\n\nCONSIDERED, LEFT OUT. Luke 22:21-22, 'the hand of him that betrayeth me is with\nme on the table,' is red and it is in this chapter. Left out: it turns a video\nabout the gift into a video about the betrayal, and it needs meat-level context\nabout Judas to land. Reverence over completeness.\n\nWHY-LAW: on the last night he had, he gave them something to hold. Milk: the\nsacrament is not a ritual he left behind, it is the table he still hosts.",
+ "segments": [
+  {
+   "id": "n0a",
+   "speaker": "narrator",
+   "text": "The Passover had come."
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "Jesus gathered his closest friends around one table in an upper room, knowing the night would change everything."
+  },
+  {
+   "id": "jv15",
+   "speaker": "jesus",
+   "verse": "Luke 22:15",
+   "text": "With desire I have desired to eat this passover with you before I suffer."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "I have wanted this meal with you, he told them — wanted it badly — before the hard thing happens. He knew what was coming that night, and what he wanted first was to sit down and eat with his friends."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Then he took the bread, gave thanks, broke it, and gave it to them."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Luke 22:19",
+   "text": "This is my body which is given for you: this do in remembrance of me."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "This is my body, he said, and it is given for you. Do this to remember me. Not a symbol he was explaining — a gift he was handing over, piece by piece, into their hands."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "After the meal he lifted the cup, and gave it to them, too."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Luke 22:20",
+   "text": "This cup is the new testament in my blood, which is shed for you."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "This cup is the new covenant in my blood, he said — poured out for you. A brand new promise between God and people, and he was signing it with his own life."
+  },
+  {
+   "id": "jv18",
+   "speaker": "jesus",
+   "verse": "Luke 22:18",
+   "text": "For I say unto you, I will not drink of the fruit of the vine, until the kingdom of God shall come."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "He said he would not drink the fruit of the vine again until the kingdom of God arrives. He was telling them this was not goodbye — it was see you at the next meal. Then he and his friends sang together and walked out into the night."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "The bread and the cup, still on the table — a gift to remember him by."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He left a simple meal to remember him by. Come to his table — he is still the host."
+  }
+ ],
+ "beats": [
+  [
+   "n0a",
+   "S1",
+   "in"
+  ],
+  [
+   "n0b",
+   "S2",
+   "in"
+  ],
+  [
+   "jv15",
+   "S7",
+   "in"
+  ],
+  [
+   "n1",
+   "S7",
+   "out"
+  ],
+  [
+   "n2",
+   "S5",
+   "in"
+  ],
+  [
+   "j1",
+   "S3",
+   "in"
+  ],
+  [
+   "n2b",
+   "S3",
+   "out"
+  ],
+  [
+   "n3",
+   "S6",
+   "in"
+  ],
+  [
+   "j2",
+   "S4",
+   "in"
+  ],
+  [
+   "n3b",
+   "S4",
+   "out"
+  ],
+  [
+   "jv18",
+   "S8",
+   "in"
+  ],
+  [
+   "n4",
+   "S8",
+   "out"
+  ],
+  [
+   "n5",
+   "S9",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S3": "S3 now carries 'This is my body' and its retelling. Frame the handing over, not the breaking: the broken loaf already parted, his hands extending a piece toward a disciple whose hands are coming up to receive it. Two pairs of hands and the bread between them.",
+  "S4": "S4 now carries 'This cup is the new testament in my blood' and its retelling. Frame the cup at the moment it leaves his hands — held out across the table, low lamplight in the wine, his face steady behind it.",
+  "S8": "S8 now carries 'I will not drink of the fruit of the vine' and the retelling plus the singing. Frame the promise rather than the departure: Jesus still at the table, cup set down and pushed slightly away from him, looking at his friends — a man saying not yet, not until, rather than a man leaving."
+ }
+}

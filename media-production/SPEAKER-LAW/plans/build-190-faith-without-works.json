@@ -1,0 +1,100 @@
+{
+ "build": "build-190-faith-without-works",
+ "reference": "James 2",
+ "notes": "MOVED OUT OF RED.\n  s1  RED -> SCRIPTURE, light blue.  James 2:17  'Even so faith, if it hath not\n      works, is dead, being alone.'\nJames is an epistle. That is James writing to the twelve tribes scattered abroad,\nnot Christ speaking, and a red-letter King James Bible prints no red anywhere in\nthe letter. Red made an apostle's argument read as the Lord's own words. Blue is\nthe writer. The line was already verbatim and is unchanged.\n\nNO SPLITS. James 2:17 is one speaker start to finish.\n\nLIFTED FROM PARAPHRASE:\n  s26  James 2:26  'For as the body without the spirit is dead, so faith without\n       works is dead also.'   SCRIPTURE, blue\nn4a and n4b were closing the build on the chapter's own conclusion — 'belief that\nnever moves a muscle isn't belief yet' — while the verse that says it never got\nspoken. It is the sentence the whole letter is remembered for and it belongs in\nJames's own words. s26 sits on ST6 with n4a, a still the build already has, so no\nnew artwork, and n4a and n4b become its retelling right where they already were.\n\nThe segment keeps its original id `s1` even though the id looks like a still var\n— renaming it would orphan anything referencing it by name.\n\nThe closing card is not a beat in this build and has been left out of BEATS,\nexactly as the original had it.\n\nWHY-LAW: milk. Works are shown as faith becoming visible — a coat handed over, a\nwindow rope let down — never as a price paid or a score kept. The close is\ngentle: let your faith move, and he sees the small true things.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "James wrote plainly to the early church: a faith that stays only in the head is already dead."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "He asked the sharp question — if a brother or sister has no clothes and no food, and you wish them well but give nothing, what good is that?"
+  },
+  {
+   "id": "s1",
+   "speaker": "scripture",
+   "verse": "James 2:17",
+   "text": "Even so faith, if it hath not works, is dead, being alone."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Then he pointed to Abraham, who showed his faith by what he did — offering his son on the altar."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "And to Rahab, who hid the spies and was counted righteous by her action, not just her words."
+  },
+  {
+   "id": "s26",
+   "speaker": "scripture",
+   "verse": "James 2:26",
+   "text": "For as the body without the spirit is dead, so faith without works is dead also."
+  },
+  {
+   "id": "n4a",
+   "speaker": "narrator",
+   "text": "Belief that never moves a muscle isn't belief yet."
+  },
+  {
+   "id": "n4b",
+   "speaker": "narrator",
+   "text": "Faith and life belong together."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Real faith reaches out a hand. Let yours move — he sees every small, true thing you do."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "n1",
+   "ST2",
+   "in"
+  ],
+  [
+   "s1",
+   "ST3",
+   "in"
+  ],
+  [
+   "n2",
+   "ST4",
+   "in"
+  ],
+  [
+   "n3",
+   "ST5",
+   "in"
+  ],
+  [
+   "s26",
+   "ST6",
+   "in"
+  ],
+  [
+   "n4a",
+   "ST6",
+   "out"
+  ],
+  [
+   "n4b",
+   "ST7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST6": "ST6 now carries James 2:26 in blue and the narrator's retelling after it, so it holds the closing argument of the whole build. Frame faith becoming visible in one plain act — a hand actually placing bread or a coat into another hand, both faces ordinary, no crowd watching. Not a symbol of charity; a specific small thing being done. Warm light, close in, nothing staged."
+ }
+}

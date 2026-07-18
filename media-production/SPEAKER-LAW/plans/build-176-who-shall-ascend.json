@@ -1,0 +1,145 @@
+{
+ "build": "build-176-who-shall-ascend",
+ "reference": "Psalm 24",
+ "notes": "Both scripture beats were painted JESUS-RED and neither is Deity speaking.\nPsalm 24 is David at the pen from start to finish, so this build moves red ->\nBLUE with no green anywhere:\n  s1  Psalm 24:3  'Who shall ascend into the hill of the LORD?...'  RED -> SCRIPTURE\n  s2  Psalm 24:4  'He that hath clean hands, and a pure heart...'   RED -> SCRIPTURE\n\nThis is the subtle case. The psalm is entirely about the LORD - his hill, his\nholy place, the King of glory - but the LORD never opens his mouth in it. A\npsalmist asking a question about God and then answering it himself is the man\nwith the pen, not Deity. Green here would have made David's question sound like\nGod interrogating the listener.\n\nNO SPLIT on s1/s2. They are a question and its answer, and a red-letter Bible\nhas no seam to mark. Wedging a narrator retelling between them would break the\none moment the psalm is built around, so they stay consecutive and n1 retells\nboth. That is the one retelling-rule warning left standing in this build, and it\nis deliberate.\n\nLIFTED THREE VERSES out of narrator paraphrase - the biggest change here. The\nback half of this video was retelling Psalm 24 in modern English without ever\nletting the viewer hear it:\n  s3  Psalm 24:5  'He shall receive the blessing from the LORD...'   NEW, scripture\n  s4  Psalm 24:7  'Lift up your heads, O ye gates...'                NEW, scripture\n  s5  Psalm 24:8  'Who is this King of glory? The LORD strong...'    NEW, scripture\nEach one is placed immediately BEFORE the narrator beat that was already\nparaphrasing it, so n2, n3a/n3b and n4a/n4b now do the retelling job instead of\nstanding in for the verse. All three are verbatim Psalm 24 and each sits on the\nsame still as its narrator beat, so no new artwork is needed.\n\nVerse ordering note: s3 is Psalm 24:5 but lands last in this video, because the\noriginal running order already put n2 (the blessing) at the end on S9. The\narrangement is the original build's, not a change of mine.\n\nNothing left as paraphrase from uncertainty.\n\nWHY-LAW: milk. The gate opens on clean hands and a pure heart - not bloodline,\nnot rank, not a resume. That is the most hopeful reading of the psalm and it is\nthe one the video keeps.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "A question was put to Israel long ago — who gets to climb the hill of the LORD and stand in his holy place?"
+  },
+  {
+   "id": "s1",
+   "speaker": "scripture",
+   "verse": "Psalm 24:3",
+   "text": "Who shall ascend into the hill of the LORD? or who shall stand in his holy place?"
+  },
+  {
+   "id": "s2",
+   "speaker": "scripture",
+   "verse": "Psalm 24:4",
+   "text": "He that hath clean hands, and a pure heart; who hath not lifted up his soul unto vanity, nor sworn deceitfully."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "The answer was not about bloodline or rank. It was about clean hands and a pure heart — someone who has not lifted their soul to what is false."
+  },
+  {
+   "id": "s4",
+   "speaker": "scripture",
+   "verse": "Psalm 24:7",
+   "text": "Lift up your heads, O ye gates; and be ye lift up, ye everlasting doors; and the King of glory shall come in."
+  },
+  {
+   "id": "n3a",
+   "speaker": "narrator",
+   "text": "Then the call goes out to the gates themselves — lift up your heads, you ancient doors,"
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "and let the King of glory come in."
+  },
+  {
+   "id": "s5",
+   "speaker": "scripture",
+   "verse": "Psalm 24:8",
+   "text": "Who is this King of glory? The LORD strong and mighty, the LORD mighty in battle."
+  },
+  {
+   "id": "n4a",
+   "speaker": "narrator",
+   "text": "And who is this King of glory?"
+  },
+  {
+   "id": "n4b",
+   "speaker": "narrator",
+   "text": "The LORD himself — strong, mighty, and unbeatable. He is the one who comes in."
+  },
+  {
+   "id": "s3",
+   "speaker": "scripture",
+   "verse": "Psalm 24:5",
+   "text": "He shall receive the blessing from the LORD, and righteousness from the God of his salvation."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Such a one receives blessing from the LORD, and righteousness from the God of their salvation."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The door is open to the one with a clean heart. Come and stand in his presence."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "s1",
+   "S2",
+   "in"
+  ],
+  [
+   "s2",
+   "S3",
+   "in"
+  ],
+  [
+   "n1",
+   "S4",
+   "in"
+  ],
+  [
+   "s4",
+   "S5",
+   "in"
+  ],
+  [
+   "n3a",
+   "S5",
+   "out"
+  ],
+  [
+   "n3b",
+   "S6",
+   "in"
+  ],
+  [
+   "s5",
+   "S7",
+   "in"
+  ],
+  [
+   "n4a",
+   "S7",
+   "out"
+  ],
+  [
+   "n4b",
+   "S8",
+   "in"
+  ],
+  [
+   "s3",
+   "S9",
+   "in"
+  ],
+  [
+   "n2",
+   "S9",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S5": "S5 now carries the lifted Psalm 24:7 in blue and then the storyteller in white. Frame the instant of the command, not the aftermath: the ancient gates still shut, seen from below, with the light already changing on them - the moment someone shouts at a door to open. The doors fly open on S7 and the King is inside on S8, so nothing here should be open yet.",
+  "S7": "S7 now carries the lifted Psalm 24:8 in blue and then the storyteller. The verse is a question and its answer in one breath, so the frame should carry both - the doors giving way with something bright coming through them, the source still unresolved. Strong, not violent. This is a king arriving at his own city, not a siege.",
+  "S9": "S9 now closes the video and carries two beats, the last verse in blue and the last narration in white. It should read as reward, not as journey - the open path already walked, the hill behind rather than ahead, morning light on it. Quiet and unpeopled, so the viewer can imagine themselves on it."
+ }
+}

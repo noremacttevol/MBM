@@ -1,0 +1,153 @@
+{
+ "build": "build-68-multitudes-mountain",
+ "reference": "Matthew 15",
+ "notes": "STAYED RED: j1, Matthew 15:32, 'I have compassion on the multitude, because\nthey continue with me now three days, and have nothing to eat: and I will not\nsend them away fasting, lest they faint in the way.' Verbatim, Jesus in the\nflesh, a red-letter KJV prints it. Unchanged, id kept.\n\nLIFTED OUT OF PARAPHRASE -- MATTHEW HIMSELF. This build's whole strength is that\nit slows down over two verses of Matthew's narration, and the viewer never\nactually heard either of them. Both are now `scripture` (light blue -- Matthew\nwriting, not Jesus speaking), on the stills the paraphrase already used:\n  s30  Matthew 15:30  'And great multitudes came unto him, having with them those\n       that were lame, blind, dumb, maimed, and many others, and cast them down at\n       Jesus' feet;'  Deliberately cut before 'and he healed them' so that n3 still\n       gets to land those four words as the reveal, which is the best beat in the\n       build. n2 keeps its id and now frames the verse.\n  s31  Matthew 15:31  'Insomuch that the multitude wondered, when they saw the\n       dumb to speak, the maimed to be whole, the lame to walk, and the blind to\n       see: and they glorified the God of Israel.'  n5 said this in modern English\n       without the viewer ever hearing it. n5 is trimmed to the frame and n5b\n       carries the retelling and the point about the outsiders.\n\nRETELLING ADDED: n6b after j1, so the Old English lands before n7's commentary.\n\nNO GREEN: nothing in Matthew 15:29-39 is the Father or a voice from heaven.\n\nWOMEN: no woman speaks in Matthew 15:29-39. The Canaanite woman -- who does\nspeak, magnificently -- is verses 21 to 28, immediately BEFORE this passage, and\nn0's 'after the coast' is the reference to her. She is not brought into this cut\nbecause this build is the mountainside, not the coast, and dragging her in would\nmean telling a different story. Nothing invented.\n\nNOTE ON ARTWORK: s6-opened-eyes.jpeg is on disk but has no still var in the\nbuild, so no beat can point at it. Left alone.\n\nWHY-LAW: thousands of the best days of thousands of lives are hidden inside four\nwords -- and he healed them -- and then he worried about their lunch. Milk: he\ncounts the days you have been carrying something.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "After the coast, Jesus came back toward the Sea of Galilee, climbed partway up a mountain, and sat down. That's all he did. He sat down where he could be found. And the whole region emptied itself onto that mountainside to find him."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Matthew says great multitudes came — and they did not come empty-handed. They came carrying people. Think about what that means on a mountain. Somebody hauled their father up a rocky slope on a plank. Somebody carried a grown brother on their back. Somebody led a blind neighbor by the hand over every single stone. Every step of that climb was somebody's love for somebody, written in sweat."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "And they laid them down at his feet. Here is exactly how Matthew writes it:"
+  },
+  {
+   "id": "s30",
+   "speaker": "scripture",
+   "verse": "Matthew 15:30",
+   "text": "And great multitudes came unto him, having with them those that were lame, blind, dumb, maimed, and many others, and cast them down at Jesus' feet;"
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "The lame, the blind, the mute, the maimed — he stacks up the words until you can see it: the pain of an entire region, gathered into one place, set down in front of one man. And then the gospel gives us four of the biggest words in the Bible, with no fanfare at all: and he healed them. That's it. No names. No interviews. No list. Thousands of the greatest moments of thousands of lives, all hidden inside one quiet sentence."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Somewhere on that mountain, a woman who had never spoken said her husband's name for the first time. Somewhere an old man's eyes came open on his grandchild's face. Somewhere legs that had been carried up the mountain carried their owner back down it. Multiply that by a hillside. That was the afternoon."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "And Matthew tells you what the crowd did with it:"
+  },
+  {
+   "id": "s31",
+   "speaker": "scripture",
+   "verse": "Matthew 15:31",
+   "text": "Insomuch that the multitude wondered, when they saw the dumb to speak, the maimed to be whole, the lame to walk, and the blind to see: and they glorified the God of Israel."
+  },
+  {
+   "id": "n5b",
+   "speaker": "narrator",
+   "text": "They could not believe their eyes — people who had never spoken were talking, broken bodies were whole, the lame were walking, the blind could see — and they gave the glory to the God of Israel. On that side of the sea, many of them were outsiders to Israel entirely. The healing preached better than any sermon."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "And here is the detail people miss: they stayed. Three days, on a mountainside, until the food ran out — and nobody wanted to go home. When the disciples started worrying about the crowd's empty stomachs, listen to what Jesus said:"
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Matthew 15:32",
+   "text": "I have compassion on the multitude, because they continue with me now three days, and have nothing to eat: and I will not send them away fasting, lest they faint in the way."
+  },
+  {
+   "id": "n6b",
+   "speaker": "narrator",
+   "text": "I feel for these people, he said. They have been with me three days now and they have nothing to eat, and I am not sending them home hungry, in case they collapse on the way."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "He noticed their stomachs. He had just remade their bodies, and he was thinking about their lunch. That is who sat down on that mountain: not a distant power taking appointments, but a God who counts the days you have been carrying something, and does not intend to let you faint on the road home."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Thousands were healed that day whose names nobody wrote down. He remembers every one of them. He will not lose yours."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "n1",
+   "S2",
+   "in"
+  ],
+  [
+   "n2",
+   "S3",
+   "in"
+  ],
+  [
+   "s30",
+   "S3",
+   "out"
+  ],
+  [
+   "n3",
+   "S4",
+   "in"
+  ],
+  [
+   "n4",
+   "S5",
+   "in"
+  ],
+  [
+   "n5",
+   "S8",
+   "in"
+  ],
+  [
+   "s31",
+   "S8",
+   "out"
+  ],
+  [
+   "n5b",
+   "S8",
+   "in"
+  ],
+  [
+   "n6",
+   "S9",
+   "in"
+  ],
+  [
+   "j1",
+   "S9",
+   "out"
+  ],
+  [
+   "n6b",
+   "S9",
+   "in"
+  ],
+  [
+   "n7",
+   "S7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S3": "S3 now carries the frame and Matthew's verbatim 'cast them down at Jesus' feet'. Frame the laying-down literally: the ground right in front of Jesus's sandals, crowded with stretchers, mats and blankets set down edge to edge, and hands letting go of them. Shot low, at the level of the mats. You should see the moment people stop carrying.",
+  "S8": "S8 now carries three beats — the frame, Matthew's verbatim account of what the crowd saw, and its retelling. Frame the watching, not the healing: a ring of onlookers on the slope, faces lit and open, hands over mouths, someone pointing. The miracle is off-frame or behind them. This still is about the crowd realising what they are looking at.",
+  "S9": "S9 now carries three beats — the setup, Jesus's verbatim words about the three days, and their retelling. Frame the hunger, not the sermon: late afternoon on the hillside, families settled in for a third day, empty baskets and cloths turned out, and Jesus turned toward his disciples with the crowd behind him. He is looking at people who have stayed too long to walk home."
+ }
+}

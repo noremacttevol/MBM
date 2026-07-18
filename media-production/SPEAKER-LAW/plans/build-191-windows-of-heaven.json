@@ -1,0 +1,79 @@
+{
+ "build": "build-191-windows-of-heaven",
+ "reference": "Malachi 3",
+ "notes": "Malachi 3:10. The one red beat moves to GREEN.\n\n  s1  Malachi 3:10  'Bring ye all the tithes into the storehouse...'  RED -> GOD\n\nThis is the LORD speaking in the first person for the whole segment - 'prove me\nnow herewith', 'if I will not open you the windows of heaven', 'pour you out a\nblessing'. That is Jehovah, the premortal Christ, so it is green. Malachi is Old\nTestament, so `jesus` is not available and would be wrong anyway: a red-letter\nKJV leaves this black because Christ had not yet come in the flesh.\n\nNOT SPLIT, deliberately. 'saith the LORD of hosts' sits in the middle of the\nverse and is technically Malachi's attribution wrapper. Splitting it out would\nmake three beats out of one breath - green, blue, green - for four words, and\nthe colour would flicker mid-sentence for no gain. The clause is inside the\nLORD's own quoted speech, not a narrator aside around it, so the whole verse\nstays one green beat. This is the judgement call the law asks for.\n\nVerbatim: s1 is Malachi 3:10 word for word, KJV, including 'meat in mine house'.\nNothing was smoothed.\n\nRetelling: already covered. n2 ('test me, and see if I don't open the windows'),\nn3a and n3b carry the verse into plain modern English across three beats. No new\nnarrator beat was needed.\n\nNothing lifted from paraphrase. n0 and n1 are the storyteller setting the scene\nin modern English about the LORD and the storehouse - narrator is correct for\nboth; neither is a buried quotation.\n\nBeats unchanged. The card is 'card' and stays out of beats, as the original had it.\n\nWHY-LAW: milk. The invitation is the whole point - God asks to be tested on his\ngenerosity. Nothing on screen argues about tithing law.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Through the prophet Malachi, the LORD made a strange offer to a people holding back — bring everything in, and watch what I do."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "The storehouse was the place set apart for the Lord's house, and the tithe was the part meant for him."
+  },
+  {
+   "id": "s1",
+   "speaker": "god",
+   "verse": "Malachi 3:10",
+   "text": "Bring ye all the tithes into the storehouse, that there may be meat in mine house, and prove me now herewith, saith the LORD of hosts, if I will not open you the windows of heaven, and pour you out a blessing, that there shall not be room enough to receive it."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "A dare no king could make — test me, and see if I don't open the windows."
+  },
+  {
+   "id": "n3a",
+   "speaker": "narrator",
+   "text": "Not a trickle."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "A pouring out, more than there is room to hold."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He invites you to test his goodness. Bring it all, and watch the windows open."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "n1",
+   "ST2",
+   "in"
+  ],
+  [
+   "s1",
+   "ST3",
+   "in"
+  ],
+  [
+   "n2",
+   "ST4",
+   "in"
+  ],
+  [
+   "n3a",
+   "ST5",
+   "in"
+  ],
+  [
+   "n3b",
+   "ST6",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST3": "ST3 carries the entire verse alone - the longest single beat in the build, and it is now green, God's own voice rather than the prophet's report. The still is currently 'the prophet speaks', which frames the wrong person: it puts Malachi in the centre of a line that is the LORD talking. Frame the moment the words describe instead - grain and offerings being carried in through the storehouse door by ordinary people, hands full, the doorway itself bright, light coming from above and ahead of them rather than from any figure in the shot. No prophet at a pulpit, no crowd being addressed. The viewer should feel spoken to directly, because for these thirty seconds they are."
+ }
+}

@@ -1,0 +1,111 @@
+{
+ "build": "build-182-spirit-returns-to-god",
+ "reference": "Ecclesiastes 12",
+ "notes": "The one scripture beat was painted JESUS-RED and it is not Deity speaking at\nall. Ecclesiastes is the Preacher - Solomon - writing, so this moves red ->\nBLUE, not green:\n  s1  Ecclesiastes 12:7  'Then shall the dust return to the earth as it was:\n                          and the spirit shall return unto God who gave it.'\n                                                          RED -> SCRIPTURE\n\nThis is the subtle case and it is easy to get wrong in the green direction. The\nverse is entirely about God - the spirit goes back to him, he is the one who\ngave it - but God is spoken OF, never speaking. Third person throughout: 'unto\nGod WHO GAVE it'. That is the man with the pen describing what happens, not\nDeity announcing it. Green would have had God narrating a death he is receiving.\n\nLIFTED ONE VERSE out of narrator paraphrase:\n  s0  Ecclesiastes 12:1  'Remember now thy Creator in the days of thy youth,\n                          while the evil days come not, nor the years draw\n                          nigh, when thou shalt say, I have no pleasure in\n                          them;'                             NEW, scripture\nn0 was summarising the whole opening of Ecclesiastes 12 - the body growing old,\nthe days growing dim - without ever quoting the sentence that starts it. 12:1 is\nthe Preacher's actual instruction and it is what turns the chapter from a\nlament into an invitation. Also the Preacher, so also blue. It sits on ST1 with\nn0, so no new artwork.\n\nADDED n0b - a narrator retelling of Ecclesiastes 12:1, on ST2 ahead of n1.\nRequired by the retelling rule.\n\nNO SPLIT anywhere. Both quoted lines are unbroken Preacher, one speaker each.\n\nNothing left as paraphrase from uncertainty; both are verbatim Ecclesiastes 12:1\nand 12:7.\n\nWHY-LAW: milk, and gently. The subject is death, so nothing here is dramatised.\nThe spirit goes home to the One who lent it - that is the whole message, and the\nvideo lets it be rest rather than reckoning.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "The Teacher, Solomon, wrote honestly about the end of life. The body grows old, the days grow dim, and then — the breath leaves."
+  },
+  {
+   "id": "s0",
+   "speaker": "scripture",
+   "verse": "Ecclesiastes 12:1",
+   "text": "Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them;"
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "That is how he opens it. Remember your Maker while you are still young, he says — before the hard years arrive, before you get to the age where you say there is nothing in this for me anymore. He is not being grim. He is telling you not to wait."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "He did not leave it there in the dark. He pointed plainly to where the breath goes."
+  },
+  {
+   "id": "s1",
+   "speaker": "scripture",
+   "verse": "Ecclesiastes 12:7",
+   "text": "Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "The body, made from dust, goes back to the ground. But the part of you that is from God goes home to Him."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Death is not the end of the story. It is the spirit's quiet return to the One who lent it."
+  },
+  {
+   "id": "n4a",
+   "speaker": "narrator",
+   "text": "And the Giver who receives it back is the same Giver who first breathed it into you —"
+  },
+  {
+   "id": "n4b",
+   "speaker": "narrator",
+   "text": "— with mercy, not anger."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "You were given breath by God. He is ready to receive it — and ready to give you more."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "s0",
+   "ST1",
+   "out"
+  ],
+  [
+   "n0b",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1",
+   "ST2",
+   "out"
+  ],
+  [
+   "s1",
+   "ST3",
+   "in"
+  ],
+  [
+   "n2",
+   "ST4",
+   "in"
+  ],
+  [
+   "n3",
+   "ST5",
+   "in"
+  ],
+  [
+   "n4a",
+   "ST6",
+   "in"
+  ],
+  [
+   "n4b",
+   "ST7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST1": "ST1 now carries the opening narration and then the lifted Ecclesiastes 12:1 in blue. The verse is addressed to the young, not the dying, so the frame should not be only elegiac - the long evening light is right, but put some life in it: a road, a doorway, something still ahead. The chapter is an invitation before it is a lament.",
+  "ST2": "ST2 now carries two beats of narration back to back, including the retelling. Hands at rest is the right idea; give it warmth and enough depth to survive a long hold. Peaceful, unhurried, no distress anywhere in the frame."
+ }
+}

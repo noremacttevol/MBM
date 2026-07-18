@@ -1,0 +1,142 @@
+{
+ "build": "build-177-make-me-a-sanctuary",
+ "reference": "Exodus 25",
+ "notes": "The one scripture beat was painted JESUS-RED. Exodus is Old Testament, so it\ncannot be red - and it is the LORD speaking in first person, which makes it\nGREEN, not blue:\n  s1  Exodus 25:8  'And let them make me a sanctuary; that I may dwell\n                    among them.'                                   RED -> GOD\n'Make ME a sanctuary, that I may dwell among them' - that is Jehovah, the\npremortal Christ, talking about himself. Straightforward green.\n\nNO SPLIT on s1. The whole segment is Deity's own words with no narrator clause\nattached; Moses's 'And the LORD spake unto Moses, saying' is not in this\nsegment, so there is nothing to peel off.\n\nLIFTED ONE VERSE out of narrator paraphrase:\n  g22  Exodus 25:22  'And there I will meet with thee, and I will commune\n                      with thee from above the mercy seat...'      NEW, god\nn2a already listed the ark and the table and the lampstand, and n2b already said\n'every detail meant to say: I am near' - but the viewer never heard God actually\nsay it. Exodus 25:22 is that sentence, in his own first person, and it is the\nwarmest line in the chapter. Quoted through 'the ark of the testimony' - a clean\nclause boundary mid-verse, verbatim to that point, the same way the reference\nplan handles Genesis 18:32a. g22 sits on S3 with n2a so no artwork changes.\n\nADDED two narrator retellings, both required by the retelling rule:\n  n0b  retells Exodus 25:8 immediately after it, on S2 with s1.\n  n2r  retells Exodus 25:22 immediately after it, on S4 with n2b.\nBefore this, s1's Old English had to wait until n1a/n1b - four beats later - for\nany plain-English landing.\n\nNothing left as paraphrase from uncertainty.\n\nWHY-LAW: milk. God asked for a tent, not a fortress, and he asked for it in the\nmiddle of the camp. The whole point is nearness - he wanted to live where his\npeople lived. Nothing on screen argues about temples; the tent says it.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "While Israel camped in the wilderness, the LORD gave Moses a strange instruction — have the people build me a sanctuary."
+  },
+  {
+   "id": "s1",
+   "speaker": "god",
+   "verse": "Exodus 25:8",
+   "text": "And let them make me a sanctuary; that I may dwell among them."
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "Build me a place, God said, so that I can live right there with you. Not a palace on a far-off hill. A tent, pitched in the middle of the camp, with everybody else's tents circled around it."
+  },
+  {
+   "id": "n2a",
+   "speaker": "narrator",
+   "text": "He told them exactly how — the ark, the table, the lampstand —"
+  },
+  {
+   "id": "g22",
+   "speaker": "god",
+   "verse": "Exodus 25:22",
+   "text": "And there I will meet with thee, and I will commune with thee from above the mercy seat, from between the two cherubims which are upon the ark of the testimony."
+  },
+  {
+   "id": "n2r",
+   "speaker": "narrator",
+   "text": "That is what all the measurements were for. There, God said — right there, above that lid, between those two carved angels — that is where I will meet you and talk with you. He gave them an address."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "every detail meant to say: I am near."
+  },
+  {
+   "id": "n1a",
+   "speaker": "narrator",
+   "text": "Not for his sake. For theirs."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "So that he could dwell among them in the middle of their ordinary days."
+  },
+  {
+   "id": "n3a",
+   "speaker": "narrator",
+   "text": "The pattern was carried by a people on the move,"
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "yet the promise was fixed — God with his people."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Centuries later that promise would take a face. But here it begins as a tent in the desert, God pitching his tent beside them."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He wanted to live among his people then. He wants to live among you now."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "s1",
+   "S2",
+   "in"
+  ],
+  [
+   "n0b",
+   "S2",
+   "out"
+  ],
+  [
+   "n2a",
+   "S3",
+   "in"
+  ],
+  [
+   "g22",
+   "S3",
+   "out"
+  ],
+  [
+   "n2r",
+   "S4",
+   "in"
+  ],
+  [
+   "n2b",
+   "S4",
+   "out"
+  ],
+  [
+   "n1a",
+   "S5",
+   "in"
+  ],
+  [
+   "n1b",
+   "S6",
+   "in"
+  ],
+  [
+   "n3a",
+   "S7",
+   "in"
+  ],
+  [
+   "n3b",
+   "S8",
+   "in"
+  ],
+  [
+   "n4",
+   "S9",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S2": "S2 now carries God's own words in green and then the storyteller in white. Frame the moment of the instruction being given rather than Moses as a figure: the mountain top, the man small in it, and the camp far below in the valley - because the whole sentence is about God wanting to come DOWN there. The valley should read as the destination, not the backdrop.",
+  "S3": "S3 now carries two beats and the caption turns white to green on it - the storyteller listing the furnishings, then God himself naming the meeting place. It needs to hold the mercy seat specifically: the lid of the ark with the two cherubim facing each other, and the empty space between them where the voice is promised. Light in that gap, nothing in it. The point of the beat is that God gave them a spot, so the spot has to be legible.",
+  "S4": "S4 now carries two beats of narration back to back. Pull back from the object to the people: craftsmen at work on the pieces, heads down, ordinary hands doing sacred work. Warm and unhurried. It should feel like a promise being built, not a ritual being performed."
+ }
+}

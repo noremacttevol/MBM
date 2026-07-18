@@ -1,0 +1,80 @@
+{
+ "build": "build-198-ensign-for-the-nations",
+ "reference": "Isaiah 11",
+ "notes": "Isaiah 11:11-12. Both red beats move to BLUE.\n\n  s1  Isaiah 11:11  'And it shall come to pass in that day, that the Lord shall\n                     set his hand again the second time...'                RED -> SCRIPTURE\n  s2  Isaiah 11:12  'And he shall set up an ensign for the nations...'     RED -> SCRIPTURE\n\nThis is the one in the Old Testament set that is NOT green. Both segments are\nIsaiah narrating ABOUT the Lord in the third person - 'the LORD SHALL set his\nhand', 'HE shall set up an ensign', 'HIS people'. There is no first-person divine\nspeech anywhere in these two verses. That is the man with the pen describing what\nGod is going to do, so it is light blue, the shared scripture voice. Green would\nhave been the easy mistake here: the subject is God, but the speaker is Isaiah.\n\nNo splits. Neither segment mixes speakers - both are Isaiah start to finish, so\nthere is no seam and nothing to cut.\n\nVerbatim: s1 is the opening of Isaiah 11:11 word for word and stops mid-verse at\n'to recover the remnant of his people,' - the trailing comma is honest, the verse\ncarries on into the list of nations. That is a truncation, not an alteration, and\nevery word on screen is exact. s2 is Isaiah 11:12 complete and word for word,\nincluding 'the dispersed of Judah from the four corners of the earth'. Neither\nwas smoothed.\n\nTWO BLUE BEATS BACK TO BACK, on purpose. s1 runs into s2 with no narrator\nbetween, which the validator flags. Same speaker, same sentence-run, consecutive\nverses - Isaiah is building one thought across them, the recovery and then the\nbanner that causes it. n2 retells both immediately after: 'exiles in every\ndirection, lifted out of every nation, brought home. The ensign is the\ninvitation; the gathering is the answer.' The retelling rule is met once for the\npair rather than twice, which is right when the pair is one continuous prophecy\nfrom one man.\n\nNothing lifted from paraphrase. n0 and n1 are the storyteller explaining the root\nof Jesse and the raised banner in modern English. They gesture at Isaiah 11:1 and\n11:10 but do not quote them, and adding a third Old English block to a six-beat\nvideo would swamp it.\n\nIds and beats unchanged. The card is 'card' and stays out of beats, as the\noriginal had it.\n\nWHY-LAW: milk. A banner is raised so people can find their way to it. The\ngathering is an invitation being answered, not a claim being staked.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "The prophet Isaiah pointed far ahead to a figure he called the root of Jesse — David's family tree, springing up fresh after it looked cut down."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "This one would stand as a banner, a signal, lifted up so the nations could find their way to Him. Not hidden. Raised for all to see."
+  },
+  {
+   "id": "s1",
+   "speaker": "scripture",
+   "verse": "Isaiah 11:11",
+   "text": "And it shall come to pass in that day, that the Lord shall set his hand again the second time to recover the remnant of his people,"
+  },
+  {
+   "id": "s2",
+   "speaker": "scripture",
+   "verse": "Isaiah 11:12",
+   "text": "And he shall set up an ensign for the nations, and shall assemble the outcasts of Israel, and gather together the dispersed of Judah from the four corners of the earth."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Exiles in every direction, lifted out of every nation, brought home. The ensign is the invitation; the gathering is the answer."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "The banner is raised — and the seeking ones, from every people, come home."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "A banner was raised so you could find your way. Seek Him, and you'll be gathered in."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1",
+   "ST1",
+   "in"
+  ],
+  [
+   "s1",
+   "ST1",
+   "out"
+  ],
+  [
+   "s2",
+   "ST3",
+   "in"
+  ],
+  [
+   "n2",
+   "ST4",
+   "in"
+  ],
+  [
+   "n3",
+   "ST5",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST1": "ST1 carries the setup and then the first quoted verse - two beats, white then blue, and the colour changes on it. The still is 'the ensign raised', which is right, but the beat it now has to hold is about the Lord reaching out a second time to recover a remnant. Frame the banner from below and at distance: a standard on a high ridge, catching light, small against the sky, with the land falling away in every direction. Empty foreground. The gathering has not happened yet at this beat - ST3 and ST4 are where the people arrive - so the frame should feel like a signal sent out into open country, waiting to be answered."
+ }
+}

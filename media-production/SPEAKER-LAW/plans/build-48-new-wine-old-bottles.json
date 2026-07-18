@@ -1,0 +1,174 @@
+{
+ "build": "build-48-new-wine-old-bottles",
+ "reference": "Mark 2",
+ "notes": "STAYED RED, ALL FOUR. Mark 2:19-22 is Jesus answering in the flesh and a\nred-letter KJV inks all of it, including both little parables -- the patch and\nthe wineskins. jv19 (2:19), jv20 (2:20), jv21 (2:21), jv22 (2:22) are verbatim\nand none carried Mark's framing; 2:19 opens 'And Jesus said unto them,' and the\nsegment already begins at 'Can the children of the bridechamber'. No splits.\n\nADDED IN BLUE -- THE QUESTION THE WHOLE VIDEO ANSWERS. S1 is literally named\ns1-the-question.jpeg, and the question itself was sitting inside n1 as modern\nparaphrase in white. Lifted out verbatim as SCRIPTURE (light blue -- these are\nmen in the story, not Deity):\n  s18  Mark 2:18  'Why do the disciples of John and of the Pharisees fast, but\n       thy disciples fast not?'\n  n1 keeps its id and is trimmed to the frame only -- 'Some very sincere, very\n  religious men came to him with an honest question.' A new n1b carries the\n  retelling n1 used to carry. Same shape as the centurion split; all three beats\n  stay on S1, so no new artwork.\n\nRETELLING GAP FIXED. jv21, the patch on the old garment, ran straight into n6,\nwhich is about wine -- the garment was never said again in plain English. New\nn5b now retells it on S6, the still already named s6-the-rent-made-worse, which\nthe original build gave no words of its own.\n\nNO GREEN. Nothing here is the Father or a voice from heaven.\n\nWOMEN: Mark 2:18-22 records no woman speaking. The bride is not even mentioned --\nonly the bridegroom and the children of the bridechamber. Nothing added; nothing\ninvented.\n\nWHY-LAW: they came asking about a rule and he answered with a wedding. Milk --\nGod is not patching the old thing, he is pouring out a new one, and all he asks\nis a heart soft enough to stretch.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Some very sincere, very religious men came to him with an honest question."
+  },
+  {
+   "id": "s18",
+   "speaker": "scripture",
+   "verse": "Mark 2:18",
+   "text": "Why do the disciples of John and of the Pharisees fast, but thy disciples fast not?"
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "John's followers fasted. The Pharisees fasted. So why, they asked, did his own disciples not fast like everyone else? It was a fair question, asked plainly."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Fasting was how you showed God you were serious. These were good men, going hungry to draw close to him. And here were his disciples, not fasting at all. It looked careless. His answer was not what they expected."
+  },
+  {
+   "id": "jv19",
+   "speaker": "jesus",
+   "verse": "Mark 2:19",
+   "text": "Can the children of the bridechamber fast, while the bridegroom is with them? as long as they have the bridegroom with them, they cannot fast."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "He points them at a wedding. Nobody starves themselves at a wedding feast. While the groom is right there in the room, the only fitting thing to do is celebrate. And that was the quiet, staggering claim underneath it. The groom is here. He was talking about himself."
+  },
+  {
+   "id": "jv20",
+   "speaker": "jesus",
+   "verse": "Mark 2:20",
+   "text": "But the days will come, when the bridegroom shall be taken away from them, and then shall they fast in those days."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Then he says something that must have landed strangely. A day is coming when the groom will be gone. He is looking straight past this moment to the cross. There will be a time to mourn, and a time to fast. But not now, not while he is standing in front of them."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Then he gives them two small pictures from everyday life. The first one is about mending clothes. You do not sew a stiff, brand-new scrap onto a soft, worn-out old coat."
+  },
+  {
+   "id": "jv21",
+   "speaker": "jesus",
+   "verse": "Mark 2:21",
+   "text": "No man also seweth a piece of new cloth on an old garment: else the new piece that filled it up taketh away from the old, and the rent is made worse."
+  },
+  {
+   "id": "n5b",
+   "speaker": "narrator",
+   "text": "Put a stiff new patch on a worn-out coat and the new cloth pulls against the old, and it tears the hole wider than it was before you started. You end up worse off for having tried to fix it that way."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "The second picture is about wine. In that world you kept your wine in bottles made of leather, of whole animal skins. A fresh skin was soft and it could stretch. But an old skin had gone hard and brittle, and new wine, still working and giving off gas, needs room to swell."
+  },
+  {
+   "id": "jv22",
+   "speaker": "jesus",
+   "verse": "Mark 2:22",
+   "text": "And no man putteth new wine into old bottles: else the new wine doth burst the bottles, and the wine is spilled, and the bottles will be marred: but new wine must be put into new bottles."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "So you never pour fresh, living wine into a stiff old skin. The wine keeps growing, the hard leather cannot give, and the whole thing tears open and everything is lost. Fresh wine belongs in a fresh skin, one that can stretch along with it. That is what he is telling them. God is doing something so new and so alive that the old rigid forms simply cannot hold it. Not a patch on the old religion. A whole new thing."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "That is the good news hiding inside a question about fasting. God was not tinkering with the old rules. He was pouring out something brand new, full of life and joy, and he was standing right there to give it. The only thing he asks is a heart soft enough to hold it."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "They came asking about a rule, and he answered with a wedding. God is doing a new thing, and it is full of joy. Where is he offering you something new, if you will only make room for it?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "s18",
+   "S1",
+   "out"
+  ],
+  [
+   "n1b",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "jv19",
+   "S3",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "out"
+  ],
+  [
+   "jv20",
+   "S4",
+   "in"
+  ],
+  [
+   "n4",
+   "S4",
+   "out"
+  ],
+  [
+   "n5",
+   "S5",
+   "in"
+  ],
+  [
+   "jv21",
+   "S6",
+   "in"
+  ],
+  [
+   "n5b",
+   "S6",
+   "out"
+  ],
+  [
+   "n6",
+   "S7",
+   "in"
+  ],
+  [
+   "jv22",
+   "S8",
+   "in"
+  ],
+  [
+   "n7",
+   "S9",
+   "in"
+  ],
+  [
+   "n8",
+   "S10",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S1": "S1 now carries three beats -- the frame, the verbatim question, and its retelling. Frame the asking: two or three earnest, hollow-cheeked men standing in front of Jesus mid-question, one of them with a hand open in genuine puzzlement. Not hostile, not a trap -- sincere men who fasted properly and cannot work out why his men do not.",
+  "S6": "S6 now carries the verbatim patch saying and its retelling, where before it had no words of its own. Frame the damage, not the mending: a worn brown coat held up with a bright, stiff new square of cloth stitched over the tear, and the old fabric split open wider along the seam. The repair that made it worse."
+ }
+}

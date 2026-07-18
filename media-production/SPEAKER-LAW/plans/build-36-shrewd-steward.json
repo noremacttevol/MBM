@@ -1,0 +1,197 @@
+{
+ "build": "build-36-shrewd-steward",
+ "reference": "Luke 16",
+ "notes": "STAYED RED: both existing red beats are Jesus in the flesh closing out his own\nparable, and a red-letter KJV prints both.\n  j1  Luke 16:8  'And the lord commended the unjust steward, because he had done\n      wisely: for the children of this world are in their generation wiser than the\n      children of light.'\n  j2  Luke 16:9  'And I say unto you, Make to yourselves friends of the mammon of\n      unrighteousness; that, when ye fail, they may receive you into everlasting\n      habitations.'\nBoth verified verbatim. j1 is worth stating plainly because it is the trap in this\nbuild: 'the lord' in 16:8 is the master INSIDE the parable, not the Lord Jesus -- but\nthat changes nothing, because the whole parable is Jesus speaking and a red-letter KJV\ninks the entire block red. It is not `scripture`. It stays red.\n\nTHE FRAMING SPLIT. Luke 16:1 reads in full: 'And he said also unto his disciples, There\nwas a certain rich man, which had a steward; and the same was accused unto him that he\nhad wasted his goods.' The opening clause is LUKE writing and a red-letter KJV leaves it\nblack; the rest is Jesus. Split properly, BOTH HALVES ON THE SAME STILL S1 -- no new\nartwork:\n  s1  Luke 16:1  'And he said also unto his disciples,'   SCRIPTURE, light blue.\n  j0  Luke 16:1  'There was a certain rich man, which had a steward; and the same was\n      accused unto him that he had wasted his goods.'   JESUS, red.\nn1 keeps its id and its text word for word and now lands directly behind them as the\nretelling -- it already read as one.\n\nADDED RED, ALL INSIDE THE PARABLE. Three of Jesus's own lines were told only in\nparaphrase. All three are dialogue he puts in a character's mouth, which is still red:\n  j3   Luke 16:3   'What shall I do? for my lord taketh away from me the stewardship: I\n       cannot dig; to beg I am ashamed.'   -- the steward's panic. n3 retells it.\n  j6   Luke 16:6   'Take thy bill, and sit down quickly, and write fifty.'   -- the line\n       SPEAKER-LAW names for this build. n5 keeps its text and retells it.\n  j13  Luke 16:13  'No servant can serve two masters: for either he will hate the one,\n       and love the other; or else he will hold to the one, and despise the other. Ye\n       cannot serve God and mammon.'   -- this is the payoff of the whole video and it\n       was living entirely inside n9's modern paraphrase. Lifted onto S8 ahead of n9,\n       which now retells it. Biggest single upgrade in this build.\nRed now lands on S1, S2, S4, S6, S7 and S8, with a narrator retelling behind every one.\n\nLEFT AS PARAPHRASE ON PURPOSE. Luke 16:7, 'Take thy bill, and write fourscore', is red\nand verbatim and is deliberately NOT lifted. It sits one still after j6 and is nearly\nthe same sentence; running both would read as a stutter rather than a rhythm. n6 carries\nit, and the pattern is already established by j6 the beat before.\n\nNOT ADDED. Luke 16:14 -- 'And the Pharisees also, who were covetous, heard all these\nthings: and they derided him' -- is Luke narrating from OUTSIDE the parable and would be\n`scripture`, light blue, not red. It is not in this build and it is not added: the video\nends on an invitation, and importing the deriding Pharisees would sour that close for no\ngain. Recorded here so the judgement is on the record rather than an oversight.\n\nNO GREEN: no voice from heaven in Luke 16:1-13. 'Ye cannot serve God and mammon' is\nChrist in the flesh speaking ABOUT God, which is red, not green.\n\nWOMEN: Luke 16:1-13 records no woman speaking. Nothing added; nothing invented.\n\nPRONUNCIATION: `spoken` is left empty. Nothing in the KJV lines is on the homograph\nlist. 'mammon', 'fourscore' and 'habitations' all read correctly as written, and a bad\nrespelling is worse than none.\n\nWHY-LAW: he is not praising the cheating, he is pointing at the urgency. He is not after\nyour money -- he is after you, and he wants your hands open while you still have time.",
+ "segments": [
+  {
+   "id": "s1",
+   "speaker": "scripture",
+   "verse": "Luke 16:1",
+   "text": "And he said also unto his disciples,"
+  },
+  {
+   "id": "j0",
+   "speaker": "jesus",
+   "verse": "Luke 16:1",
+   "text": "There was a certain rich man, which had a steward; and the same was accused unto him that he had wasted his goods."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Jesus told a story about a rich man and the manager who ran everything he owned. Word came to the rich man that this manager had been wasting his goods."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "So he called the manager in and said, give an account of your work, because you cannot be my manager any longer. Just like that, the man was about to lose his job and his home."
+  },
+  {
+   "id": "j3",
+   "speaker": "jesus",
+   "verse": "Luke 16:3",
+   "text": "What shall I do? for my lord taketh away from me the stewardship: I cannot dig; to beg I am ashamed."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "And the manager panicked. I am not strong enough to dig ditches, he thought, and I am too ashamed to beg. He had to think fast, and he had to act right now, before the news got out."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "So while he still could, he quickly called in every person who owed his employer money, one after another, to make himself some friends before it was too late."
+  },
+  {
+   "id": "j6",
+   "speaker": "jesus",
+   "verse": "Luke 16:6",
+   "text": "Take thy bill, and sit down quickly, and write fifty."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "How much do you owe? he asked the first man. A hundred jugs of olive oil. Quick, said the manager, take your bill and write down fifty. And the farmer could hardly believe it."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "And you? A hundred measures of wheat. Take your bill, he said, and write down eighty. One after another he made friends who would remember him and take him in when he had nothing."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Luke 16:8",
+   "text": "And the lord commended the unjust steward, because he had done wisely: for the children of this world are in their generation wiser than the children of light."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "Even his employer had to admire it. And here is the strange point Jesus was making. He was not praising the cheating. He was pointing at the urgency. Worldly people are so clever, so quick, about money and their own future."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Luke 16:9",
+   "text": "And I say unto you, Make to yourselves friends of the mammon of unrighteousness; that, when ye fail, they may receive you into everlasting habitations."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "Use your money, he said, use your things, use whatever you have, to love people now. Those friendships are the one thing you carry with you past the end of your life. Be that urgent about what actually lasts."
+  },
+  {
+   "id": "j13",
+   "speaker": "jesus",
+   "verse": "Luke 16:13",
+   "text": "No servant can serve two masters: for either he will hate the one, and love the other; or else he will hold to the one, and despise the other. Ye cannot serve God and mammon."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "Then he said the line that ties it all together. You cannot serve God and money. You will end up loving one and despising the other. And money is a hard, hungry thing to serve."
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "That is how good he is. He is not after your money. He is after you. He wants your heart free of that cruel little master and your hands open, so that you spend your one short life being urgent about the things that last forever."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He is not after your money. He is after you. What are you being urgent about?"
+  }
+ ],
+ "beats": [
+  [
+   "s1",
+   "S1",
+   "in"
+  ],
+  [
+   "j0",
+   "S1",
+   "out"
+  ],
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S1",
+   "out"
+  ],
+  [
+   "j3",
+   "S2",
+   "in"
+  ],
+  [
+   "n3",
+   "S2",
+   "out"
+  ],
+  [
+   "n4",
+   "S3",
+   "in"
+  ],
+  [
+   "j6",
+   "S4",
+   "in"
+  ],
+  [
+   "n5",
+   "S4",
+   "out"
+  ],
+  [
+   "n6",
+   "S5",
+   "in"
+  ],
+  [
+   "j1",
+   "S6",
+   "in"
+  ],
+  [
+   "n7",
+   "S6",
+   "out"
+  ],
+  [
+   "j2",
+   "S7",
+   "in"
+  ],
+  [
+   "n8",
+   "S7",
+   "out"
+  ],
+  [
+   "j13",
+   "S8",
+   "in"
+  ],
+  [
+   "n9",
+   "S8",
+   "out"
+  ],
+  [
+   "n10",
+   "S8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S1": "S1 now carries four beats — Luke's framing, Jesus's verbatim opening of the parable, the retelling, and the dismissal. Frame the accusation: the steward standing at the rich man's desk with the account scrolls spread open between them, the master's finger resting on a line in the ledger, not looking up. Quiet, businesslike, final. No shouting — the man's whole life just ended in a sentence.",
+  "S2": "S2 now carries the steward's verbatim panic and its retelling. Frame him alone and thinking, not despairing: stopped in a passageway just outside the door he was dismissed from, back against the wall, hands over his face for one second. Behind him through an archway, field hands digging. The two futures he just rejected — the ditch and the begging bowl — should be visible in the frame while he stands between them.",
+  "S8": "S8 now carries three beats — the verbatim two-masters saying, its retelling, and the close. Frame the impossible choice as a single figure: a man standing at the join of two roads with a hand held out toward each, unable to walk either. Keep it plain and human-scale. No scales, no coins piled into a symbol — the words do the work and the picture only has to hold still under them."
+ }
+}

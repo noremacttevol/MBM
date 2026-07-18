@@ -1,0 +1,196 @@
+{
+ "build": "build-58-feeding-5000",
+ "reference": "John 6",
+ "notes": "STAYED RED, and two more added.\n  jv12  John 6:12  \"Gather up the fragments that remain, that nothing be lost.\"\n        Kept its id. n6 already retells it, so nothing new was needed after it.\n  j5    John 6:5   \"Whence shall we buy bread, that these may eat?\"  -- MISSING;\n        n2 paraphrased it in white. Lifted onto S2. n2 trimmed to the frame, n2b\n        retells.\n  j10   John 6:10  \"Make the men sit down.\"  -- MISSING; n4 paraphrased it. Lifted\n        onto S4. n4 trimmed to the frame, n4b retells.\n\nTHE DISCIPLES WERE NEVER HEARD -- AND WHICH GOSPEL MATTERS HERE.\n\"We have here but five loaves, and two fishes\" is Matthew 14:17. This build is John\n6, and John gives the line to Andrew, by name, with more in it:\n  s9  John 6:9  \"There is a lad here, which hath five barley loaves, and two small\n      fishes: but what are they among so many?\"\nThat is the sentence n3 was paraphrasing almost word for word, so John's is the one\nthat belongs in a John video -- a viewer looking up John 6:9 finds it exactly.\nLifted as [scripture] on S3; n3 trimmed to the frame, n3b retells. The Matthew\nwording is exact too, and is here in the notes if a later pass wants the synoptic\nversion instead.\n\nTHE CROWD WAS NEVER HEARD. n7 paraphrased John 6:14. Lifted as s14 [scripture] on\nS9: \"This is of a truth that prophet that should come into the world.\" n7 keeps its\nid, trimmed to the frame; n7b retells.\n\nCONSIDERED AND LEFT OUT: Philip's answer, John 6:7 -- \"Two hundred pennyworth of\nbread is not sufficient for them, that every one of them may take a little.\" It is\nexact and it is good, but the video already carries Andrew's not-enough line on the\nvery next still, and two men saying the same thing in a row plays as a stutter. Left\nout on judgment, not on uncertainty; the verse is above if a later pass wants it.\n\nNO GREEN: John 6:1-14 has no voice from heaven. WOMEN: John 6:1-14 records no woman\nspeaking -- women are counted in the crowd but none is quoted. Nothing invented.\n\nWHY-LAW: the smallest lunch in the field was barley bread, the poor man's loaf, and\nit was the only thing anybody offered. Milk: he does not ask you for enough. He asks\nyou for what you have.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "A huge crowd had followed Jesus to a lonely green hillside beside the lake, hungry to hear him and to be healed. He taught them and cared for them all day, until the sun began to sink and they were a long way from any town or food."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "His disciples grew anxious as the light went. But Jesus turned it back on them. He looked up at the crowd coming toward him and asked Philip:"
+  },
+  {
+   "id": "j5",
+   "speaker": "jesus",
+   "verse": "John 6:5",
+   "text": "Whence shall we buy bread, that these may eat?"
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "Where are we going to buy bread for these people to eat? He was not worried. John tells us plainly that he already knew exactly what he was going to do — he asked to see what Philip would say."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "There was only one lunch in the whole crowd. Andrew, Simon Peter's brother, brought a boy to Jesus, almost embarrassed to mention it."
+  },
+  {
+   "id": "s9",
+   "speaker": "scripture",
+   "verse": "John 6:9",
+   "text": "There is a lad here, which hath five barley loaves, and two small fishes: but what are they among so many?"
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "There's a boy here with five little barley loaves and two small fish, he said — but what is that among so many? Barley was the poor man's bread. It was the smallest, cheapest lunch on that whole hillside, and it was the only thing anybody offered."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Jesus was not troubled by how little there was. He said simply:"
+  },
+  {
+   "id": "j10",
+   "speaker": "jesus",
+   "verse": "John 6:10",
+   "text": "Make the men sit down."
+  },
+  {
+   "id": "n4b",
+   "speaker": "narrator",
+   "text": "Have everyone sit down. And they settled in groups on the green grass, five thousand men, besides women and children, waiting to see what he would do."
+  },
+  {
+   "id": "nbless",
+   "speaker": "narrator",
+   "text": "Then he took the five loaves and the two fish, and looking up to heaven, he gave thanks, and broke the bread."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "And the food did not run out. The disciples carried it through the crowd, and it kept coming, bread and fish, more and more, until every single person there had eaten as much as they wanted, and was full."
+  },
+  {
+   "id": "jv12",
+   "speaker": "jesus",
+   "verse": "John 6:12",
+   "text": "Gather up the fragments that remain, that nothing be lost."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "Pick up every scrap that's left, he said. Let nothing go to waste. So they went through the crowd and gathered what was left, and filled twelve baskets with the broken pieces. They ended with far more than they had started with. The little lunch, placed in his hands, had become a feast."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "When the people saw the sign, they were amazed, and began to say:"
+  },
+  {
+   "id": "s14",
+   "speaker": "scripture",
+   "verse": "John 6:14",
+   "text": "This is of a truth that prophet that should come into the world."
+  },
+  {
+   "id": "n7b",
+   "speaker": "narrator",
+   "text": "This really is the Prophet who was promised, they said — the one who was to come into the world. He had taken almost nothing, given thanks for it, and fed them all."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He still takes the little you have, the not-enough, the barely-anything, the lunch you are embarrassed to offer, and gives thanks for it, and breaks it, and somehow it becomes enough, with baskets to spare. What small thing is he asking you to place in his hands?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "j5",
+   "S2",
+   "out"
+  ],
+  [
+   "n2b",
+   "S2",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "in"
+  ],
+  [
+   "s9",
+   "S3",
+   "out"
+  ],
+  [
+   "n3b",
+   "S3",
+   "in"
+  ],
+  [
+   "n4",
+   "S4",
+   "in"
+  ],
+  [
+   "j10",
+   "S4",
+   "out"
+  ],
+  [
+   "n4b",
+   "S4",
+   "in"
+  ],
+  [
+   "nbless",
+   "S5",
+   "in"
+  ],
+  [
+   "n5",
+   "S6",
+   "in"
+  ],
+  [
+   "jv12",
+   "S7",
+   "in"
+  ],
+  [
+   "n6",
+   "S8",
+   "in"
+  ],
+  [
+   "n7",
+   "S9",
+   "in"
+  ],
+  [
+   "s14",
+   "S9",
+   "out"
+  ],
+  [
+   "n7b",
+   "S9",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S2": "S2 now carries the frame, Jesus's verbatim question to Philip, and its retelling. Frame the question, not the worry: Jesus turned to one disciple with the enormous crowd streaming up the hillside behind them, gesturing out at it. Philip's face doing arithmetic. Jesus's face perfectly untroubled — he already knows.",
+  "S3": "S3 now carries Andrew's verbatim line and its retelling. Frame the offering, not the crowd: a boy holding up a cloth with five small flat barley loaves and two little dried fish, arms extended, and Andrew's hand on his shoulder half-presenting him and half-apologising. Make the food look genuinely small in the frame.",
+  "S4": "S4 now carries 'Make the men sit down' and its retelling. Frame the obedience spreading: the near foreground already seated on green grass in groups, and further up the slope people still standing, the sitting moving through the crowd like a wave. Thousands of people doing something that makes no sense yet.",
+  "S9": "S9 now carries the crowd's verbatim words and the retelling. Frame recognition dawning: faces in the crowd turned toward each other mid-sentence, food still in their hands, working out who they have just eaten with. Not a cheer — the quiet moment a crowd realises something."
+ }
+}
