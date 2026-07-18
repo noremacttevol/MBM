@@ -26,6 +26,7 @@ Output: 1080x1920 H.264 30fps, <25MB, 256.0s.
 """
 import os
 import subprocess
+from mbm_caption_timing import caption_filter
 
 A = "assets"
 S = "segs"
@@ -337,18 +338,8 @@ def build_still(seg_id, src, dur, zdir, cap, style):
         tail = ",fade=t=in:st=0:d=1.2"
     if seg_id == "n10b":
         tail = f",fade=t=out:st={dur-1.2}:d=1.2"
-    capf, labels = caption_layers(seg_id, dur, cap, style)
-    if labels:
-        steps, cur = [], "b"
-        for i, lab in enumerate(labels):
-            last = (i == len(labels) - 1)
-            nxt = "v" if last else f"b{i+1}"
-            steps.append(f"[{cur}]{lab}overlay=format=auto"
-                         + (tail if last else "") + f"[{nxt}]")
-            cur = nxt
-        fc = f"{base}[b];" + ";".join(capf) + ";" + ";".join(steps)
-    else:
-        fc = f"{base}{tail}[v]"
+    capf = caption_filter(seg_id, dur, dur, cap, style == "kjv")
+    fc = f"{base}{capf}{tail}[v]"
     run(["ffmpeg", "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
          "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
 
