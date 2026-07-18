@@ -28,6 +28,7 @@ Output: mark-2_man-through-the-roof.mp4 (SCRIPTURE-NAME LAW),
 """
 import os
 import subprocess
+from mbm_caption_timing import caption_filter
 
 A = "assets"
 S = "segs"
@@ -299,15 +300,11 @@ def caption_overlay(seg_id, dur, text, style):
 
 
 def assemble_segment(seg_id, base_chain, dur, cap, style, tail=""):
-    capf = caption_overlay(seg_id, dur, cap, style)
-    if capf:
-        fc = (f"{base_chain}[base];{capf};"
-              f"[base][cap]overlay=format=auto{tail}[v]")
-    else:
-        fc = f"{base_chain}{tail}[v]"
-    return fc
-
-
+    # CAPTION LAW: Jost adaptive band drawn on the opaque still.
+    if not cap:
+        return f"{base_chain}{tail}[v]"
+    capf = caption_filter(seg_id, dur, dur, " ".join(cap.split()), style == "kjv")
+    return f"{base_chain}{capf}{tail}[v]"
 def build_still(seg_id, src, dur, zdir, cap, style):
     frames = int(dur * FPS)
     if zdir == "in":
