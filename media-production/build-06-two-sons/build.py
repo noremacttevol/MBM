@@ -15,6 +15,7 @@ import textwrap
 
 import make_narration
 from mbm_caption_timing import caption_filter
+from mbm_speakers import is_scripture
 
 A = "assets"
 S = "segs"
@@ -42,30 +43,42 @@ S6 = "s6-jesus-asks.jpeg"
 S7 = "s7-turns-leaders.jpeg"
 S8 = "s8-verdict.jpeg"
 
-TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
-KJV = {"j1", "j2"}
+TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
+# SPEAKER-LAW: declared once in make_narration, so the caption colour
+# and the narration voice can never drift apart.
+SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 PEAK = "n4"   # the crowd's answer — sacred silence
 CARD_TEXT = ("It was never about the perfect yes. The son who changed his "
              "mind is the one who went. It is not too late to turn and go.")
 
 BEATS = [
     ("n0", S1, "in"),
+    ("j28", S1, "out"),
     ("n1", S2, "in"),
+    ("j29", S2, "out"),
+    ("n1b", S2, "in"),
     ("n2", S3, "in"),
-    ("n2b", S3, "out"),
+    ("j30", S3, "out"),
+    ("n2b", S3, "in"),
     ("n2c", S4, "in"),
-    ("n2d", S4, "out"),
+    ("j29b", S4, "out"),
+    ("n2d", S4, "in"),
     ("n3", S5, "in"),
     ("j1", S6, "in"),
     ("n4", S6, "out"),
+    ("s31", S6, "in"),
     ("n5", S7, "in"),
     ("j2", S8, "in"),
+    ("n5b", S8, "out"),
 ]
 
 LEAD = 0.28
 GAP = 0.72
 KJV_GAP = 1.20
-CARD_HOLD = 4.2
+# No-dead-air law: the video ends TAIL seconds after the last spoken
+# word. Derived, never hand-set. Clears the card's 0.8s fade-out so
+# the last word and the fade are never clipped.
+TAIL = 1.5
 
 
 def run(cmd):
@@ -120,7 +133,7 @@ def chunk_caption(text, width, max_lines):
     return out
 
 
-def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, kjv, first):
+def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, speaker, first):
     frames = int(dur * FPS)
     if zdir == "in":
         z = f"1.001+0.09*on/{frames}"
@@ -130,7 +143,7 @@ def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, kjv, first):
             f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"d={frames}:s=2160x3840:fps={FPS},"
             f"scale=1080:1920:flags=lanczos")
-    cap = caption_filter(seg_id, dur, spoken_end, cap_text, kjv)
+    cap = caption_filter(seg_id, dur, spoken_end, cap_text, speaker)
     tail = ",fade=t=in:st=0:d=1.0" if first else ""
     fc = f"{base}{cap}{tail}[v]"
     run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
@@ -188,22 +201,22 @@ def main():
     audio_place = []
     peak_start = None
     for name, still, zdir in BEATS:
-        kjv = name in KJV
-        gap = KJV_GAP if kjv else GAP
+        speaker = SPEAKER[name]
+        gap = KJV_GAP if is_scripture(speaker) else GAP
         vdur = LEAD + spoken[name] + gap
         a_start = t + LEAD
         audio_place.append((f"audio/{name}.mp3", a_start))
         if name == PEAK:
             peak_start = a_start
-        timeline.append((name, still, zdir, vdur, a_start, kjv))
+        timeline.append((name, still, zdir, vdur, a_start, speaker))
         t += vdur
-    card_vdur = LEAD + card_dur + CARD_HOLD
+    card_vdur = LEAD + card_dur + TAIL
     card_start = t
     audio_place.append(("audio/n6.mp3", card_start + LEAD))
     total = t + card_vdur
 
     worst, worst_at, prev_end = 0.0, None, None
-    for name, _s, _z, _v, a_start, _k in timeline:
+    for name, _s, _z, _v, a_start, _sp in timeline:
         if prev_end is not None and a_start - prev_end > worst:
             worst, worst_at = a_start - prev_end, name
         prev_end = a_start + spoken[name]
@@ -213,9 +226,9 @@ def main():
     if worst > 2.5:
         raise SystemExit(f"DEAD AIR: {worst:.2f}s before {worst_at}")
 
-    for i, (seg_id, still, zdir, vdur, _a, kjv) in enumerate(timeline):
+    for i, (seg_id, still, zdir, vdur, _a, speaker) in enumerate(timeline):
         build_still(seg_id, still, vdur, zdir, LEAD + spoken[seg_id],
-                    TEXT[seg_id], kjv, first=(i == 0))
+                    TEXT[seg_id], speaker, first=(i == 0))
     build_card(card_vdur, CARD_TEXT)
 
     with open(f"{S}/concat.txt", "w") as f:
