@@ -65,12 +65,14 @@ SEGMENTS = [
     ("j2", JESUS, "-18%", "-2Hz",
      "Thou dumb and deaf spirit, I charge thee, come out of him, and "
      "enter no more into him."),
-    ("n6", NARRATOR, "-20%", "-4Hz",
+    ("n6a", NARRATOR, "-20%", "-4Hz",
      "It left. The boy went so still that people whispered he was "
      "dead. But Jesus reached down, took him by the hand, and lifted "
-     "him up — and the boy stood, quiet and whole, and gave him back "
-     "to his father. The tormented childhood was over. It ended with "
-     "a hand reaching down into the dust to pull a son to his feet."),
+     "him up — and the boy stood, quiet and whole."),
+    ("n6b", NARRATOR, "-20%", "-4Hz",
+     "And he gave him back to his father. The tormented childhood was "
+     "over. It ended with a hand reaching down into the dust to pull "
+     "a son to his feet."),
     ("n7", NARRATOR, "-20%", "-4Hz",
      "Later, alone, the disciples asked why they had failed. And "
      "Jesus told them this kind only comes out by prayer — meaning "
