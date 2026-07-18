@@ -52,7 +52,16 @@ SEGMENTS = [
 # HOMOGRAPH LAW — every segment ear-checked against the flag list
 # (bow, wound, wind, tears, lead, sow, live/lives, read, dove, bass,
 # minute, use/used, close): none present. Captions stay exact.
-SPOKEN = {}
+# SPOKEN-OVERRIDE (Cameron denial #189, 2026-07-17): j2 "overcometh" mis-read;
+# he wants OH-vur-kuh-muhth. Respell ONLY the spoken word to "overcuhmuhth"
+# (same convention as forsayketh/leedeth). "overcame" later in the verse is a
+# normal modern word and stays. The on-screen caption keeps the exact KJV
+# "overcometh" — build.py captions read from SEGMENTS, not SPOKEN.
+SPOKEN = {
+    "j2": ("To him that overcuhmuhth will I grant to sit with me in my "
+           "throne, even as I also overcame, and am set down with my "
+           "Father in his throne."),
+}
 
 
 async def main():
