@@ -3,20 +3,33 @@
 **Who is speaking decides the voice AND the caption colour. One declaration, both outcomes.**
 
 Companion to `CAPTION-LAW.md`, which is unchanged and still governs the *look*.
-This file governs *who is talking*. Drafted 2026-07-18. **Status: awaiting Cameron's
-sign-off on the four voices and three colours — everything else below is decided.**
+This file governs *who is talking*. **Locked by Cameron 2026-07-18.**
 
 ---
 
 ## 1. The five speakers
 
-| Speaker | Caption | Who it is | Voice brief |
+| Speaker | Caption | Who it is | Voice (chosen by Cameron 2026-07-18) |
 |---|---|---|---|
-| `NARRATOR` | white | The storyteller. The regular guy. Most of the runtime. | unchanged — `en-US-AndrewNeural` |
-| `JESUS` | red `0xEE3322` | **Only** where a red-letter King James Bible actually prints red. | younger than the current voice; put together, slow, calm, collected |
-| `GOD` | green `0x5BE38B` | The Father, the Holy Ghost, or the premortal Christ (Jehovah) — including Old Testament passages. | older, deeper, peaceful, angelic, stable |
-| `SCRIPTURE` | light blue `0x8FDCFF` | Everyone else quoted from the KJV — Paul, the prophets, the apostles, the people in the stories. One shared voice. | raspier, warm, a believable man |
-| `WOMAN` | pink `0xFF9EC7` | Any woman the Bible records speaking. | a good female voice, Old English delivery |
+| `NARRATOR` | white | The storyteller. The regular guy. Most of the runtime. | `en-US-AndrewNeural` −20% −4Hz (unchanged) |
+| `JESUS` | red `0xEE3322` | **Only** where a red-letter King James Bible actually prints red. | `en-US-EricNeural` −22% −3Hz |
+| `GOD` | green `0x5BE38B` | The Father, the Holy Ghost, or the premortal Christ (Jehovah) — including Old Testament passages. | `en-US-ChristopherNeural` −25% −12Hz |
+| `SCRIPTURE` | light blue `0x8FDCFF` | Everyone else quoted from the KJV — Paul, the prophets, the apostles, the people in the stories. One shared voice. | `en-US-SteffanNeural` −18% −9Hz |
+| `WOMAN` | pink `0xFF9EC7` | Any woman the Bible records speaking. | `en-US-MichelleNeural` −20% −2Hz |
+
+Jesus must be an American voice (permanent law, 2026-07-07) and no *Multilingual*
+model is used anywhere. Christopher was the old Jesus voice — it reads older than
+Jesus should, which is exactly why it fits God.
+
+**Voice separation was verified before committing to 199 renders.** Jesus and
+scripture are the pair most at risk of sounding like the same man; measured
+spectral similarity 0.9256 with centroids 544 Hz apart (Eric bright, Steffan
+dark). The closest pair is God/Jesus at 0.9466, still clear.
+
+**edge-tts has no Middle-Eastern English voice.** The brief asked for one for the
+scripture speaker. The honest options were an Indian, South African or Kenyan
+cadence standing in for a region it is not, or plain American pitched down for
+rasp. Cameron chose the latter.
 
 ### The hard rule
 Everything spoken by anyone other than the white storyteller is **verbatim King
@@ -202,12 +215,72 @@ The only caption change is the colour, driven by who is speaking.
 
 ---
 
-## 9. Sign-off
+## 9. What the pass actually found
 
-- [ ] Jesus voice
-- [ ] God voice
-- [ ] Scripture voice
-- [ ] Woman voice
-- [ ] green / light blue / pink hex
+Recorded because these are the calls a future session would otherwise re-litigate.
 
-Audition page: `SPEAKER-LAW/audition.html`
+### Red that was never Jesus
+- **Matthew 3:17 and Mark 9:7** — *"This is my beloved Son, in whom I am well
+  pleased"* was red at both the baptism and the transfiguration. That is the
+  **Father**. Red there had Christ announcing himself as his own beloved Son.
+  Both are green now, with the evangelist's *"And lo a voice from heaven, saying,"*
+  split off as blue.
+- **Hebrews 1:5** quotes the Father inside Paul's own sentence — split blue/green.
+- Every Old Testament Deity line across rows 151–200, plus Job, Genesis, Exodus,
+  1 Kings, Isaiah, Jeremiah, Ezekiel, Joel, Malachi.
+- Paul, James, Peter and Luke throughout the epistles and Acts.
+
+### Green that would have been wrong
+Third-person narration *about* the LORD is the writer, not the LORD:
+**Amos 3:7**, **Daniel 2:45**, **Genesis 1:27**, **Isaiah 11**, **Ecclesiastes
+12:7**, **Isaiah 2**. Genesis 1:26 splits — *"And God said,"* is Moses, the rest
+is Deity.
+
+### Red that is correct and must stay
+- **Parables in full.** The householder, the unjust judge, the Pharisee and the
+  publican at prayer, the widow's *"Avenge me of mine adversary"*, the rich fool's
+  God. A red-letter KJV inks the whole parable; the words are Jesus's.
+- **Jesus quoting scripture.** His *"It is written"* answers in the wilderness and
+  his reading of Isaiah 61 in the synagogue stay red — he is the one talking.
+- **1 Corinthians 11:24-25**, Revelation 2–3, and the risen Christ in Acts.
+
+### The women
+Pink now exists where it did not: Hannah (5 lines), Ruth and Naomi, Eve, Hosea's
+wife, Mary at Cana, Martha's confession, Mary Magdalene's *"Rabboni"*, the woman
+taken in adultery, the Syrophoenician woman, Mary at the temple, the servant girl
+who accuses Peter, and the woman at the well — six lines, in a video about a woman
+who talks with Christ longer than anyone else in the Gospels and never spoke in it.
+
+Where a woman is **silent** in the text — Peter's mother-in-law, the widow of
+Nain, the woman who washed his feet, the widow with her mite — the plans say so
+rather than inventing her a line.
+
+---
+
+## 10. Known limitation: homographs
+
+**Homograph pronunciation cannot be verified mechanically.** Whisper transcribes
+both readings of *live*, *close*, *bow*, *sow* identically, so it cannot tell
+which one the TTS said. Worse, a guessed respelling can *create* a defect: on this
+project `klohss` for *close* rendered as **"class"**.
+
+So homographs are **audited, not auto-replaced**. `mbm_pronounce.py` lists them;
+each build prints the ones it contains at narration time; and a fix is only
+applied where a build states it explicitly. Everything else is left at the
+default, which is usually right.
+
+**This is the one thing that needs Cameron's ear.** If a word sounds wrong when he
+watches, it goes in that build's `SPOKEN` dict.
+
+---
+
+## 11. Sign-off
+
+- [x] Jesus voice — Eric
+- [x] God voice — Christopher
+- [x] Scripture voice — Steffan, pitched down
+- [x] Woman voice — Michelle
+- [x] green `0x5BE38B` / light blue `0x8FDCFF` / pink `0xFF9EC7`
+
+Audition page: `SPEAKER-LAW/audition.html` (gitignored — regenerate with
+`make_auditions.py` then `make_audition_page.py`).
