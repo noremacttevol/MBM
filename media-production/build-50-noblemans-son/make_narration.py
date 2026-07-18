@@ -13,6 +13,7 @@ respells it. Narrator paraphrases avoid live/lives entirely (worded as alive/wel
 """
 import asyncio
 import edge_tts
+from mbm_caption_timing import save_narration
 
 NARRATOR = "en-US-AndrewNeural"     # plain American — never a Multilingual model
 JESUS = "en-US-ChristopherNeural"   # American. Never a British voice.
@@ -86,8 +87,7 @@ async def main():
     for seg in SEGMENTS:
         name, voice, rate, pitch, text = seg[0], seg[1], seg[2], seg[3], seg[4]
         spoken = seg[5] if len(seg) > 5 else text
-        tts = edge_tts.Communicate(spoken, voice, rate=rate, pitch=pitch)
-        await tts.save(f"audio/{name}.mp3")
+        await save_narration(spoken, voice, rate, pitch, f"audio/{name}.mp3")
         print(f"  {name}.mp3")
 
 
