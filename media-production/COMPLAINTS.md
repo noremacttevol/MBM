@@ -6,4 +6,7 @@ clears itself once a newer cut replaces the video. Do NOT edit by hand.
 
 | # | What Cameron said |
 |---|---|
-| 5 | caption |
+| 83 | 1. the first picture they are walking the wrong way and it looks like the are walking away from jerusalem rather than twords it. 2. the second picture Jesus looks like a giant. 3. at the end of the video the question is asked but then it stays going for an extra 13 seconds |
+| 109 | this whole video is a repeat , if its different scripture then we need to say that. but the story told earlier also says the same things and i would rather this be replaced with  something  else that is as important. also itmessed up the word kinder like in other videos . it should be pronounced English Adjective (kinder, as in "She is kinder than him"): Pronounced as "KYNE-der. |
+| 110 | pronounced "lead" wrong at1:27 it rhymes with "seed" and is pronounced as /liːd/. |
+| 112 | the last picture was bad Jesus was a giant compared to the other people again 2:11 |
