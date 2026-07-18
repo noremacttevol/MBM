@@ -14,6 +14,7 @@ import subprocess
 import textwrap
 
 import make_narration
+from mbm_caption_timing import timed_windows
 
 A = "assets"
 S = "segs"
@@ -121,18 +122,20 @@ def caption_layers(seg_id, dur, spoken_end, text, kjv):
     else:
         font, size, color, width, maxl = SERIF, 34, "white", 48, 2
     chunks = chunk_caption(text, width, maxl)
-    total = sum(len(c) for c in chunks) or 1
-    t0, t1 = 0.15, max(0.6, min(dur - 0.2, spoken_end + 0.35))
+    # REAL per-sentence timing (from <seg>.timing.json). Each chunk gets a
+    # contiguous, non-overlapping window that matches when its words are spoken.
+    spoken_len = max(0.0, spoken_end - LEAD)
+    windows = timed_windows(f"audio/{seg_id}.mp3", chunks, spoken_len, LEAD)
     filters, labels = [], []
-    acc = 0
     for i, c in enumerate(chunks):
-        cs = t0 + (t1 - t0) * acc / total
-        acc += len(c)
-        ce = t0 + (t1 - t0) * acc / total
+        cs, ce = windows[i]
+        # clamp inside the still's own duration
+        cs = max(0.10, min(cs, dur - 0.4))
+        ce = max(cs + 0.3, min(ce, dur - 0.05))
         tf = f"{S}/{seg_id}_{i}.txt"
         with open(tf, "w") as f:
             f.write("\n".join(textwrap.wrap(c, width)))
-        fo = max(cs, ce - 0.35)
+        fo = max(cs + 0.2, ce - 0.30)
         filters.append(
             f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
             f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
@@ -140,8 +143,8 @@ def caption_layers(seg_id, dur, spoken_end, text, kjv):
             f"y=h-120-text_h:"
             f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
             f"box=1:boxcolor=black@0.55:boxborderw=22,"
-            f"fade=t=in:st={cs:.2f}:d=0.35:alpha=1,"
-            f"fade=t=out:st={fo:.2f}:d=0.35:alpha=1[cap{seg_id}{i}]")
+            f"fade=t=in:st={cs:.2f}:d=0.30:alpha=1,"
+            f"fade=t=out:st={fo:.2f}:d=0.30:alpha=1[cap{seg_id}{i}]")
         labels.append(f"[cap{seg_id}{i}]")
     return filters, labels
 
