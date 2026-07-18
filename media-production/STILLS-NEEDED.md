@@ -96,13 +96,43 @@ Each entry in `stills-needed.json`:
 }
 ```
 
-- **priority** — `high` when one still now carries more than 15s, or when a
-  `god` / `woman` beat has no image of its own; `medium` 10–15s; `low` under 10s
-  but still thin.
-- **seconds_on_screen** — measured from the rebuilt narration, not estimated.
+- **priority** — set by what a viewer actually feels. The stills were composed for
+  a ~6s Ken Burns drift; past **25s** the drift has run out and the picture
+  visibly stalls (`high`). **16–25s** is noticeable but survivable (`medium`).
+  Under 16s the existing art still carries it and is not listed at all.
+- **seconds_on_screen** — measured from the rebuilt narration audio, not estimated.
+- **wants** — the art brief. Written for the heaviest cases; where it is empty,
+  use `caption_text` and `verse` — the picture should show the moment those words
+  describe.
 - **slug** — the filename the build already expects. Drop the finished `.jpeg`
   into `build-NNN-name/assets/<slug>.jpeg` and the build picks it up with no
   code change.
+
+### The current count
+
+**728 stills across 144 builds** are now carrying more than 16 seconds:
+**293 high** (over 25s) and **435 medium**. 174 have a written art brief.
+
+The ten worst holds, all of which were built for a six-second drift:
+
+| Seconds | Build | Still |
+|---|---|---|
+| 71.8 | build-10-well | S5 |
+| 59.2 | build-120-job-from-whirlwind | S9 |
+| 59.2 | build-44-two-debtors | S7 |
+| 58.4 | build-17-lazarus | S6 |
+| 56.7 | build-13-roof | S6 |
+| 55.7 | build-120-job-from-whirlwind | S8 |
+| 54.5 | build-120-job-from-whirlwind | S2 |
+| 54.4 | build-66-malchus-ear | S3 |
+| 53.3 | build-05-bent-woman | S9 |
+| 51.6 | build-118-jonah-god-who-relents | S9 |
+
+`build-10-well` is the clearest case and worth understanding before starting. It
+is the woman at the well — a woman who talks with Christ longer than anyone else
+in the Gospels — and the video never let her speak. Six of her lines are now in
+her own voice, verbatim. That is the right fix, and it left one picture holding
+the screen for seventy-one seconds. The art has to catch up to the story.
 
 ## How the art session should work through it
 
