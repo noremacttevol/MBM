@@ -55,7 +55,16 @@ SEGMENTS = [
 ]
 
 # HOMOGRAPH LAW — ear-check j1 "use" (see docstring). Captions stay exact.
-SPOKEN = {}
+# SPOKEN-OVERRIDE (Cameron denial #188, 2026-07-17): j2 "maketh" was read
+# MAY-kith; he wants MAY-keth. Respell ONLY the spoken word to "mayketh"
+# (same convention as forsayketh=/for-SAY-keth/, leedeth=/LEED-eth/). The
+# on-screen caption keeps the exact KJV "maketh" — build.py captions read from
+# SEGMENTS, not SPOKEN, so verbatim text is untouched.
+SPOKEN = {
+    "j2": ("That ye may be the children of your Father which is in "
+           "heaven: for he mayketh his sun to rise on the evil and on the "
+           "good, and sendeth rain on the just and on the unjust."),
+}
 
 
 async def main():
