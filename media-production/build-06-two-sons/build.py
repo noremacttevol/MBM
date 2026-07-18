@@ -14,7 +14,7 @@ import subprocess
 import textwrap
 
 import make_narration
-from mbm_caption_timing import timed_windows
+from mbm_caption_timing import caption_filter
 
 A = "assets"
 S = "segs"
@@ -23,6 +23,10 @@ FF = "ffmpeg"
 FPROBE = "ffprobe"
 SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
 SERIF_BI = "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"
+# Caption fonts (Cameron 2026-07-17): geometric sans, true straight-cross "t",
+# matches the app's Arial/Roboto family. Jesus's words render RED (red-letter).
+POPPINS = "/home/noremacttevol/Desktop/Brain/MBM/media-production/Poppins-Bold.ttf"
+JESUS_RED = "0xEE3322"
 CREAM = "0xF7F2E9"
 INK = "0x3B2A1E"
 
@@ -116,39 +120,6 @@ def chunk_caption(text, width, max_lines):
     return out
 
 
-def caption_layers(seg_id, dur, spoken_end, text, kjv):
-    if kjv:
-        font, size, color, width, maxl = SERIF_BI, 46, "0xFFF3DC", 38, 3
-    else:
-        font, size, color, width, maxl = SERIF, 34, "white", 48, 2
-    chunks = chunk_caption(text, width, maxl)
-    # REAL per-sentence timing (from <seg>.timing.json). Each chunk gets a
-    # contiguous, non-overlapping window that matches when its words are spoken.
-    spoken_len = max(0.0, spoken_end - LEAD)
-    windows = timed_windows(f"audio/{seg_id}.mp3", chunks, spoken_len, LEAD)
-    filters, labels = [], []
-    for i, c in enumerate(chunks):
-        cs, ce = windows[i]
-        # clamp inside the still's own duration
-        cs = max(0.10, min(cs, dur - 0.4))
-        ce = max(cs + 0.3, min(ce, dur - 0.05))
-        tf = f"{S}/{seg_id}_{i}.txt"
-        with open(tf, "w") as f:
-            f.write("\n".join(textwrap.wrap(c, width)))
-        fo = max(cs + 0.2, ce - 0.30)
-        filters.append(
-            f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
-            f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
-            f"fontcolor={color}:line_spacing=13:x=(w-text_w)/2:"
-            f"y=h-120-text_h:"
-            f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
-            f"box=1:boxcolor=black@0.55:boxborderw=22,"
-            f"fade=t=in:st={cs:.2f}:d=0.30:alpha=1,"
-            f"fade=t=out:st={fo:.2f}:d=0.30:alpha=1[cap{seg_id}{i}]")
-        labels.append(f"[cap{seg_id}{i}]")
-    return filters, labels
-
-
 def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, kjv, first):
     frames = int(dur * FPS)
     if zdir == "in":
@@ -159,16 +130,9 @@ def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, kjv, first):
             f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"d={frames}:s=2160x3840:fps={FPS},"
             f"scale=1080:1920:flags=lanczos")
-    capf, labels = caption_layers(seg_id, dur, spoken_end, cap_text, kjv)
+    cap = caption_filter(seg_id, dur, spoken_end, cap_text, kjv)
     tail = ",fade=t=in:st=0:d=1.0" if first else ""
-    steps, cur = [], "b"
-    for i, lab in enumerate(labels):
-        last = (i == len(labels) - 1)
-        nxt = "v" if last else f"b{i+1}"
-        steps.append(f"[{cur}]{lab}overlay=format=auto"
-                     + (tail if last else "") + f"[{nxt}]")
-        cur = nxt
-    fc = f"{base}[b];" + ";".join(capf) + ";" + ";".join(steps)
+    fc = f"{base}{cap}{tail}[v]"
     run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
          "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
 
