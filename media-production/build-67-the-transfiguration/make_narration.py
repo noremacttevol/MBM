@@ -26,10 +26,11 @@ SEGMENTS = [
      "And there, in front of them, he changed. His clothes turned a "
      "blinding white, brighter than anything on earth, and for one "
      "moment they saw him shining with who he really is."),
-    ("n2", NARRATOR, "-20%", "-4Hz",
+    ("n2a", NARRATOR, "-20%", "-4Hz",
      "Two of the greatest prophets, Moses and Elijah, appeared and stood "
-     "talking with him. Peter, overwhelmed, blurted out the first thing "
-     "that came to him."),
+     "talking with him."),
+    ("n2b", NARRATOR, "-20%", "-4Hz",
+     "Peter, overwhelmed, blurted out the first thing that came to him."),
     # Exact KJV Mark 9:5b — Peter, sacred pause.
     ("j1", SCRIPTURE, "-18%", "-2Hz",
      "Master, it is good for us to be here: and let us make three "
