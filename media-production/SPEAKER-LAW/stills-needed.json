@@ -1,0 +1,145 @@
+[
+ {
+  "build": "build-105-face-to-face",
+  "reference": "Exodus 33",
+  "priority": "high",
+  "beat": "sface",
+  "speaker": "scripture",
+  "caption_text": "And the LORD spake unto Moses face to face, as a man speaketh unto his friend.",
+  "seconds_on_screen": 42.0,
+  "beats_on_this_still": [
+   "sface",
+   "n5",
+   "g14",
+   "n5b"
+  ],
+  "current_still": "s5-face-to-face.jpeg",
+  "reason": "4 beats now sit on one still (42.0s); split + retelling multiplied the hold time",
+  "wants": "the moment of friendship itself \u2014 two presences in conversation at the tent door, the pillar of cloud standing while a man simply talks. Warm, close, unhurried. Needs a second frame so 'face to face' and 'my presence shall go with thee' are not the same picture.",
+  "slug": "",
+  "done": false
+ },
+ {
+  "build": "build-105-face-to-face",
+  "reference": "Exodus 33",
+  "priority": "high",
+  "beat": "g20",
+  "speaker": "god",
+  "caption_text": "Thou canst not see my face: for there shall no man see me, and live.",
+  "seconds_on_screen": 35.6,
+  "beats_on_this_still": [
+   "n6b",
+   "g20",
+   "n6c"
+  ],
+  "current_still": "s7-the-cleft-of-the-rock.jpeg",
+  "reason": "3 beats now sit on one still (35.6s); split + retelling multiplied the hold time",
+  "wants": "the promise being kept \u2014 light moving past a man sheltered in the cleft of the rock, a hand over the opening. The goodness passing by, not the glory striking.",
+  "slug": "",
+  "done": false
+ },
+ {
+  "build": "build-105-face-to-face",
+  "reference": "Exodus 33",
+  "priority": "high",
+  "beat": "s18",
+  "speaker": "scripture",
+  "caption_text": "I beseech thee, shew me thy glory.",
+  "seconds_on_screen": 20.5,
+  "beats_on_this_still": [
+   "n6",
+   "s18",
+   "g19"
+  ],
+  "current_still": "s6-show-me-thy-glory.jpeg",
+  "reason": "3 beats now sit on one still (20.5s); split + retelling multiplied the hold time",
+  "wants": "Moses asking \u2014 the reach of the request. A man on his knees with his hands open, asking for more than anyone had dared ask, and not being rebuked for it.",
+  "slug": "",
+  "done": false
+ },
+ {
+  "build": "build-105-face-to-face",
+  "reference": "Exodus 33",
+  "priority": "high",
+  "beat": "n7",
+  "speaker": "narrator",
+  "caption_text": "So God did the gentlest thing. He tucked Moses into a cleft in the rock, and covered him with his own hand, and let all his goodness pass by \u2014 near enough to fe",
+  "seconds_on_screen": 19.7,
+  "beats_on_this_still": [
+   "n7"
+  ],
+  "current_still": "s8-hidden-in-the-rock.jpeg",
+  "reason": "1 beats now sit on one still (19.7s); split + retelling multiplied the hold time",
+  "wants": "",
+  "slug": "",
+  "done": false
+ },
+ {
+  "build": "build-105-face-to-face",
+  "reference": "Exodus 33",
+  "priority": "medium",
+  "beat": "n1",
+  "speaker": "narrator",
+  "caption_text": "Moses pitched a tent a little way outside the camp and called it the Tent of Meeting. It was the place he went to be with God \u2014 set apart, quiet, away from ever",
+  "seconds_on_screen": 13.8,
+  "beats_on_this_still": [
+   "n1"
+  ],
+  "current_still": "s1-the-tent-outside-the-camp.jpeg",
+  "reason": "1 beats now sit on one still (13.8s); split + retelling multiplied the hold time",
+  "wants": "",
+  "slug": "",
+  "done": false
+ },
+ {
+  "build": "build-105-face-to-face",
+  "reference": "Exodus 33",
+  "priority": "medium",
+  "beat": "n3",
+  "speaker": "narrator",
+  "caption_text": "All the people would rise and stand, each at the door of their own tent, and watch him go, and worship \u2014 because they knew where he was going, and who was waiti",
+  "seconds_on_screen": 13.4,
+  "beats_on_this_still": [
+   "n3"
+  ],
+  "current_still": "s3-the-people-watch.jpeg",
+  "reason": "1 beats now sit on one still (13.4s); split + retelling multiplied the hold time",
+  "wants": "",
+  "slug": "",
+  "done": false
+ },
+ {
+  "build": "build-105-face-to-face",
+  "reference": "Exodus 33",
+  "priority": "medium",
+  "beat": "n9",
+  "speaker": "narrator",
+  "caption_text": "That is what happens to someone who spends time close to God \u2014 you start, quietly, to glow with a little of him. It began with a friendship, at a tent, outside ",
+  "seconds_on_screen": 13.3,
+  "beats_on_this_still": [
+   "n9"
+  ],
+  "current_still": "s10-a-friend-of-god.jpeg",
+  "reason": "1 beats now sit on one still (13.3s); split + retelling multiplied the hold time",
+  "wants": "",
+  "slug": "",
+  "done": false
+ },
+ {
+  "build": "build-105-face-to-face",
+  "reference": "Exodus 33",
+  "priority": "medium",
+  "beat": "n4",
+  "speaker": "narrator",
+  "caption_text": "As Moses reached the tent, a great pillar of cloud would come down and stand at the door \u2014 the presence of God himself, come down to meet one man.",
+  "seconds_on_screen": 12.4,
+  "beats_on_this_still": [
+   "n4"
+  ],
+  "current_still": "s4-the-pillar-descends.jpeg",
+  "reason": "1 beats now sit on one still (12.4s); split + retelling multiplied the hold time",
+  "wants": "",
+  "slug": "",
+  "done": false
+ }
+]

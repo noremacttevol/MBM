@@ -111,3 +111,9 @@ media-production/build-*/qc/frames/
 # Feed 2.0 streaming copies — duplicates of the tracked media-production finals,
 # staged here only for Firebase Hosting deploy (regenerate by copying finals in).
 site/story-videos/
+
+# SPEAKER-LAW working files — audition audio and the generated page are large
+# and machine-local; the law, the survey and the stills work-order are tracked.
+media-production/SPEAKER-LAW/auditions/
+media-production/SPEAKER-LAW/audition.html
+media-production/build-*/*.pre-speaker
