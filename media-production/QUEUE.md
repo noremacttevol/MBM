@@ -64,53 +64,53 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 
 | # | Story | Ref | Prep | Built | Appr | Post | Claim / notes |
 |---|---|---|---|---|---|---|---|
-| 1 | Woman who touched his cloak | Mark 5 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
-| 2 | The Prodigal Son | Luke 15 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — Cameron note: 0:18 photo — son could leave the RIGHT direction down the path |
-| 3 | Zacchaeus | Luke 19 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron — v4 look-locked rebuild is good) |
-| 4 | Nicodemus at night | John 3 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
-| 5 | The bent-over woman | Luke 13 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
-| 6 | The two sons | Matt 21 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) — Cameron note: could explain in modern terms what a publican and a harlot are |
+| 1 | Woman who touched his cloak | Mark 5 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) |
+| 2 | The Prodigal Son | Luke 15 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) — Cameron note: 0:18 photo — son could leave the RIGHT direction down the path |
+| 3 | Zacchaeus | Luke 19 | ✅ | ✅ | ⬜ | ⬜ | APPROVED 2026-07-17 (Cameron — v4 look-locked rebuild is good) |
+| 4 | Nicodemus at night | John 3 | ✅ | ✅ | ⬜ | ⬜ | APPROVED 2026-07-17 (Cameron) |
+| 5 | The bent-over woman | Luke 13 | ✅ | ✅ | ⬜ | ⬜ | APPROVED 2026-07-17 (Cameron) |
+| 6 | The two sons | Matt 21 | ✅ | ✅ | ⬜ | ⬜ | APPROVED 2026-07-17 (Cameron) — Cameron note: could explain in modern terms what a publican and a harlot are |
 | 7 | Peter walks on water | Matt 14 | ✅ | ✅ | ⬜ | ⬜ | FIXED Machine C 2026-07-17 (4th build) — 6 sea stills rerolled: feet ON the water (§4b), walk direction locked to narration via side-view geometry, barefoot continuity; end card per-line drawtext (no tofu). 20.2MB/4:16. Awaiting Cameron's re-watch. |
-| 8 | The lost coin | Luke 15 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
-| 9 | The rich young ruler | Mark 10 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
-| 10 | The woman at the well | John 4 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
-| 11 | Calming the storm | Mark 4 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
-| 12 | Blind Bartimaeus | Mark 10 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
-| 13 | Through the roof | Mark 2 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
-| 14 | The ten lepers | Luke 17 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) — FIX-LATER: ~0:55 lepers look like giants vs Jesus/disciples, fix scale |
-| 15 | The centurion | Matt 8 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
-| 16 | Mary and Martha | Luke 10 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) |
+| 8 | The lost coin | Luke 15 | ✅ | ✅ | ⬜ | ⬜ | APPROVED 2026-07-17 (Cameron) |
+| 9 | The rich young ruler | Mark 10 | ✅ | ✅ | ⬜ | ⬜ | APPROVED 2026-07-17 (Cameron) |
+| 10 | The woman at the well | John 4 | ✅ | ✅ | ⬜ | ⬜ | APPROVED 2026-07-17 (Cameron) |
+| 11 | Calming the storm | Mark 4 | ✅ | ✅ | ⬜ | ⬜ | APPROVED 2026-07-17 (Cameron) |
+| 12 | Blind Bartimaeus | Mark 10 | ✅ | ✅ | ⬜ | ⬜ | APPROVED 2026-07-17 (Cameron) |
+| 13 | Through the roof | Mark 2 | ✅ | ✅ | ⬜ | ⬜ | APPROVED 2026-07-17 (Cameron) |
+| 14 | The ten lepers | Luke 17 | ✅ | ✅ | ⬜ | ⬜ | APPROVED 2026-07-17 (Cameron) — FIX-LATER: ~0:55 lepers look like giants vs Jesus/disciples, fix scale |
+| 15 | The centurion | Matt 8 | ✅ | ✅ | ⬜ | ⬜ | APPROVED 2026-07-17 (Cameron) |
+| 16 | Mary and Martha | Luke 10 | ✅ | ✅ | ⬜ | ⬜ | APPROVED 2026-07-17 (Cameron) |
 | 17 | Jesus wept (Lazarus) | John 11 | ✅ | ⬜ | ⬜ | ⬜ | REJECTED 2026-07-17 (Cameron) — not good; DEFERRED redo: get to it only after ALL other videos are done (see Fix queue) |
-| 18 | The road to Emmaus | Luke 24 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
-| 19 | Breakfast on the shore | John 21 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
-| 20 | The Good Samaritan | Luke 10 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — Cameron note: open/close Jesus-teaching scenes could be redone if credits allow |
-| 21 | The lost sheep | Luke 15 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — Cameron note: open/close Jesus-teaching scenes could be redone if credits allow — caption-law fix applied 2026-07-17 |
-| 22 | The unmerciful servant | Matt 18 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
-| 23 | Workers in the vineyard | Matt 20 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
-| 24 | The sower | Matt 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
-| 25 | Wheat and tares | Matt 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
-| 26 | The mustard seed | Matt 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
-| 27 | The leaven | Matt 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
-| 28 | Hidden treasure | Matt 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
-| 29 | The pearl of great price | Matt 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
+| 18 | The road to Emmaus | Luke 24 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) |
+| 19 | Breakfast on the shore | John 21 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) |
+| 20 | The Good Samaritan | Luke 10 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) — Cameron note: open/close Jesus-teaching scenes could be redone if credits allow |
+| 21 | The lost sheep | Luke 15 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) — Cameron note: open/close Jesus-teaching scenes could be redone if credits allow — caption-law fix applied 2026-07-17 |
+| 22 | The unmerciful servant | Matt 18 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) |
+| 23 | Workers in the vineyard | Matt 20 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
+| 24 | The sower | Matt 13 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
+| 25 | Wheat and tares | Matt 13 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
+| 26 | The mustard seed | Matt 13 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) |
+| 27 | The leaven | Matt 13 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
+| 28 | Hidden treasure | Matt 13 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) |
+| 29 | The pearl of great price | Matt 13 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 30 | The net | Matt 13 | ✅ | ✅ | ⬜ | ✅ | NARRATION FIXED Machine C 2026-07-17 — "us" now spoken clean (whisper-verified in final mix); visuals kept; captions now CAPTION-LAW chunked; end card per-line (no tofu). 20.1MB/3:02. Was LIVE — repost after Cameron's yes. — caption-law fix applied 2026-07-17 |
-| 31 | The ten virgins | Matt 25 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — Cameron note: should be exactly 10 virgins in every picture (5 with extra oil vases, 5 without) — good for now |
+| 31 | The ten virgins | Matt 25 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) — Cameron note: should be exactly 10 virgins in every picture (5 with extra oil vases, 5 without) — good for now |
 | 32 | The talents | Matt 25 | ✅ | ⬜ | ⬜ | ✅ | REJECTED 2026-07-17 (Cameron) — TTS: "kinder" at 2:39 pronounced "Kender". NARRATION-ONLY fix: keep the approved visuals, respell via SPOKEN override, rebuild. Was LIVE in app — repost after fix. — caption-law fix applied 2026-07-17 |
-| 33 | The sheep and the goats | Matt 25 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
-| 34 | The rich fool | Luke 12 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
-| 35 | The great banquet | Luke 14 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
-| 36 | The shrewd steward | Luke 16 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
-| 37 | The rich man and Lazarus | Luke 16 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) |
-| 38 | The persistent widow | Luke 18 | ✅ | ✅ | ✅ | ⬜ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
-| 39 | The Pharisee and the publican | Luke 18 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
-| 40 | The friend at midnight | Luke 11 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
+| 33 | The sheep and the goats | Matt 25 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
+| 34 | The rich fool | Luke 12 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) |
+| 35 | The great banquet | Luke 14 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
+| 36 | The shrewd steward | Luke 16 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
+| 37 | The rich man and Lazarus | Luke 16 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) |
+| 38 | The persistent widow | Luke 18 | ✅ | ✅ | ⬜ | ⬜ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
+| 39 | The Pharisee and the publican | Luke 18 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
+| 40 | The friend at midnight | Luke 11 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
 | 41 | Counting the cost | Luke 14 | ✅ | ✅ | ⬜ | ✅ | NARRATION FIXED Machine C 2026-07-17 — "forsaketh" now speaks as the exact KJV word (whisper-verified in final mix); visuals kept; end card per-line (no tofu). 24.9MB/6:17. Was LIVE — repost after Cameron's yes. — caption-law fix applied 2026-07-17 |
-| 42 | The barren fig tree spared | Luke 13 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
-| 43 | The wedding garment | Matt 22 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
-| 44 | The two debtors | Luke 7 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — CAPTION-PASS list: captions cover the whole picture — caption-law fix applied 2026-07-17 |
-| 45 | The wicked tenants | Mark 12 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — CAPTION-PASS list: captions cover the whole picture — caption-law fix applied 2026-07-17 |
+| 42 | The barren fig tree spared | Luke 13 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
+| 43 | The wedding garment | Matt 22 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) — caption-law fix applied 2026-07-17 |
+| 44 | The two debtors | Luke 7 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) — CAPTION-PASS list: captions cover the whole picture — caption-law fix applied 2026-07-17 |
+| 45 | The wicked tenants | Mark 12 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) — CAPTION-PASS list: captions cover the whole picture — caption-law fix applied 2026-07-17 |
 | 46 | The seed growing secretly | Mark 4 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-15 (Flow $0, GREEN restful) — awaiting your yes — caption-law fix applied 2026-07-17 |
-| 47 | Houses on rock and sand | Matt 7 | ✅ | ✅ | ✅ | ✅ | APPROVED 2026-07-17 (Cameron) — CAPTION-PASS list: check for long captions — caption-law fix applied 2026-07-17 |
+| 47 | Houses on rock and sand | Matt 7 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) — CAPTION-PASS list: check for long captions — caption-law fix applied 2026-07-17 |
 | 48 | New wine, old bottles | Mark 2 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-14 — approval RESET 2026-07-15 — re-review after redo; **v3 REDONE 2026-07-15** (Jesus s1/s10 now FACE-SHOWN, text-locked to master; face-never version replaced — re-review the face) |
 | 49 | Water to wine at Cana | John 2 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-15 under FACE LAW v3 (face shown, locked to JESUS-MASTER-REF; Jesus in s2/s4/s5/s8/s9/s12, face-consistent, only-Jesus-in-cream) — 12 Flow $0 stills (Nano Banana 2, 9:16), caption-v2, 2 sacred silences (jv7/jv8), 22.1MB/4.06min, no dead air. john-2_water-to-wine.mp4. Awaiting your yes. |
 | 50 | The nobleman's son | John 4 | ✅ | ✅ | ⬜ | ⬜ | built Machine A 2026-07-15 under FACE LAW v3 (Jesus in s1/s4/s5/s6/s7, face-consistent via LOCK v3 TEXT — attaching the master portrait made Nano Banana echo the bust, so Jesus shots are text-locked not ref-attached; see playbook). 11 Flow $0 stills, caption-v2, "liveth" spoken-override for the homograph, 2 sacred silences (jv48/jv50), 22.4MB/2:52, no dead air. john-4_noblemans-son.mp4. Awaiting your yes. |

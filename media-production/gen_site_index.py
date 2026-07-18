@@ -17,6 +17,7 @@ the live site always matches the board.  Run from the repo root:
   python3 media-production/gen_site_index.py
 """
 import glob
+import json
 import os
 import re
 import subprocess
@@ -34,6 +35,17 @@ RAW_BASE = "https://github.com/noremacttevol/MBM/raw/main/"
 # page stays tiny. Deploy with:  firebase deploy --only hosting
 OUT_DIR = os.path.join(REPO, "site")
 OUT_NAME = "review.html"
+
+# GitHub repo behind the Report-a-problem button + complaint display. Public, so
+# the page reads open/closed complaint issues with no token.
+GH_OWNER, GH_REPO = "noremacttevol", "MBM"
+
+# Version-lock: Cameron's approval is tied to the EXACT video he watched. We store
+# the git blob hash of the mp4 he approved. When a machine rebuilds that video the
+# hash changes, the approval auto-falls-off, and it returns to the review list
+# flagged "NEW cut." This file is written ONLY by the approval monitor (monitor.py)
+# so build machines never conflict on it.
+APPROVALS_FILE = os.path.join(REPO, "media-production", "approvals.json")
 
 # Nice display titles keyed by build number (the folder slug drives discovery;
 # this map only supplies the human-facing name). Anything not listed falls back
@@ -142,21 +154,52 @@ def find_main_mp4(build_dir):
     return hits[0] if hits else None
 
 
-def parse_queue():
-    """Read approval state from QUEUE.md.
+def load_approvals():
+    """{num(str): {"hash": blob, "date": "YYYY-MM-DD"}} — what Cameron approved
+    and which exact cut. Missing/broken file = nothing approved (fresh slate)."""
+    try:
+        with open(APPROVALS_FILE, encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, ValueError):
+        return {}
 
-    Returns (appr, post, rejected):
-      appr[num]     -> True if that row's Appr column is ✅
-      post[num]     -> True if that row's Post column is ✅ (live in the app)
+
+def mp4_hashes():
+    """build number -> git blob hash of its finished mp4 (committed). Reads the
+    git tree, not the file bytes, so it's instant even for 15 GB of video."""
+    out = subprocess.run(
+        ["git", "ls-tree", "-r", "HEAD", "--", "media-production"],
+        cwd=REPO, capture_output=True, text=True).stdout
+    hashes = {}
+    for line in out.splitlines():
+        try:
+            meta, path = line.split("\t", 1)
+            _, _typ, h = meta.split()
+        except ValueError:
+            continue
+        m = re.match(r"media-production/build-(\d+)-.*/[0-9a-z]+-\d+_.*\.mp4$", path)
+        if m:
+            hashes[int(m.group(1))] = h
+    return hashes
+
+
+def parse_queue():
+    """Read state from QUEUE.md.
+
+    Returns (appr, post, rejected, reasons):
+      appr[num]     -> True if that row's Appr column is ✅ (legacy; page now uses
+                       approvals.json for approval + version)
+      post[num]     -> True if that row's Post column is ✅
       rejected      -> set of numbers sitting in the Fix queue
+      reasons[num]  -> the "What's wrong" text for a rejected video
     """
     path = os.path.join(REPO, "media-production", "QUEUE.md")
-    appr, post, rejected = {}, {}, set()
+    appr, post, rejected, reasons = {}, {}, set(), {}
     try:
         with open(path, encoding="utf-8") as f:
             lines = f.readlines()
     except FileNotFoundError:
-        return appr, post, rejected
+        return appr, post, rejected, reasons
 
     section = None
     for line in lines:
@@ -179,20 +222,28 @@ def parse_queue():
         num = int(parts[1])
         if section == "fix":
             rejected.add(num)
+            # fix-queue row: '' | # | Story | What's wrong | Claimed by | ''
+            if len(parts) > 3 and num not in reasons:
+                reasons[num] = parts[3]
         elif section == "200" and len(parts) >= 9:
             # '' | # | Story | Ref | Prep | Built | Appr | Post | notes | ''
             appr[num] = (parts[6] == "✅")
             post[num] = (parts[7] == "✅")
-    return appr, post, rejected
+    return appr, post, rejected, reasons
 
 
-def card_html(num, title, scrip, length, rel):
+def card_html(num, title, scrip, length, rel, badge="", reason=""):
     meta = f" · {scrip}" + (f" · {length}" if length else "")
+    badge_html = f'<p class="badge">{badge}</p>\n' if badge else ""
+    reason_html = f'<p class="reason">{reason}</p>\n' if reason else ""
     return (
-        f'<div class="card"><p class="title">{num:02d} — {title}'
-        f'<span class="meta">{meta}</span></p>\n'
-        f'<video controls preload="metadata" playsinline '
-        f'src="{RAW_BASE}{rel}"></video></div>')
+        f'<div class="card" id="v{num}" data-num="{num}">'
+        f'<p class="title">{num:02d} — {title}<span class="meta">{meta}</span></p>\n'
+        f'{badge_html}{reason_html}'
+        f'<video controls preload="metadata" playsinline src="{RAW_BASE}{rel}"></video>\n'
+        f'<div class="complaints" data-num="{num}"></div>\n'
+        f'<button class="report" onclick="report({num}, this)">🚩 Report a problem</button>'
+        f'</div>')
 
 
 def section_html(heading, blurb, cards):
@@ -233,20 +284,27 @@ def main():
         cards.append((num, title, scripture(book_chap), dur(mp4), rel))
 
     cards.sort(key=lambda c: c[0])
-    appr, post, rejected = parse_queue()
+    appr, post, rejected, reasons = parse_queue()
+    approvals = load_approvals()
+    hashes = mp4_hashes()
 
-    # Being live in the app does NOT mean Cameron approved it. Only his explicit
-    # Appr ✅ moves a video out of the review list — everything else he still
-    # needs to watch, live or not.
+    # Approval is tied to the EXACT cut Cameron watched (its git blob hash). A
+    # rebuilt video no longer matches its approved hash, so it falls out of
+    # Approved and back into review flagged "NEW cut." Rejected videos (fix queue)
+    # show their complaint. Live-in-app means nothing here — only Cameron's yes.
     review, approved, rework = [], [], []
-    for card in cards:
-        num = card[0]
+    for num, title, scrip, length, rel in cards:
+        ap = approvals.get(str(num))
         if num in rejected:
-            rework.append(card)
-        elif appr.get(num):
-            approved.append(card)
+            rework.append((num, title, scrip, length, rel, "", reasons.get(num, "")))
+        elif ap and hashes.get(num) == ap.get("hash"):
+            approved.append((num, title, scrip, length, rel, "", ""))
+        elif ap:  # approved before, but the video was rebuilt since
+            review.append((num, title, scrip, length, rel,
+                           f"🔁 NEW cut — this changed since you approved it "
+                           f"({ap.get('date','')}). Re-watch to confirm.", ""))
         else:
-            review.append(card)
+            review.append((num, title, scrip, length, rel, "", ""))
 
     count = len(cards)
     # Only the review list is open on load. The good/done/reworking ones fold
@@ -306,19 +364,68 @@ def main():
   summary::before {{ content: "▸ "; color: #567; }}
   details[open] > summary::before {{ content: "▾ "; }}
   details[open] > summary {{ margin-bottom: 14px; }}
+  .badge {{ background: #2a2410; border: 1px solid #6a5a1e; color: #e8cf7a;
+            border-radius: 8px; padding: 8px 10px; margin: 0 0 8px;
+            font-size: 13px; font-weight: 600; }}
+  .reason {{ background: #2a1414; border: 1px solid #6a2a2a; color: #f0b4b4;
+             border-radius: 8px; padding: 8px 10px; margin: 0 0 8px;
+             font-size: 13px; }}
+  .report {{ margin-top: 10px; width: 100%; cursor: pointer;
+             background: #201014; color: #f0a9b8; font-size: 14px; font-weight: 600;
+             border: 1px solid #52242e; border-radius: 10px; padding: 10px; }}
+  .report:hover {{ background: #2a1218; }}
+  .complaint {{ border-radius: 8px; padding: 8px 10px; margin: 8px 0 0;
+                font-size: 13px; }}
+  .complaint.open {{ background: #2a1414; border: 1px solid #6a2a2a; color: #f0b4b4; }}
+  .complaint.fixed {{ background: #14210f; border: 1px solid #2e5a24; color: #b6e6a4; }}
+  .complaint a {{ color: inherit; opacity: .7; }}
 </style>
 </head>
 <body>
 <header>
   <h1>Milk Before Meat — Story Videos</h1>
-  <p class="sub">Every finished story video. Tap play on any of them — they
-  stream on phone or desktop. Hand-painted stills, with the Lord shown the
-  same way in every scene.</p>
+  <p class="sub">Watch the ones waiting on your yes. Something wrong? Tap
+  <b>Report a problem</b> — it saves to GitHub and stays on the video until a
+  newer version fixes it.</p>
   <p class="sub">{count} videos · {len(review)} waiting on your review · {len(approved)} approved.</p>
 </header>
 <div class="wrap">
 {sections}
 </div>
+<script>
+var GH = "{GH_OWNER}/{GH_REPO}";
+function esc(s){{ var d=document.createElement('div'); d.textContent=s||""; return d.innerHTML; }}
+function report(num, btn){{
+  var card = btn.closest('.card');
+  var title = card.querySelector('.title').textContent.split('·')[0].replace(/^[0-9]+\\s*—\\s*/, '').trim();
+  var what = window.prompt("What's wrong with #" + num + " (" + title + ")? Keep it short.");
+  if(!what) return;
+  var url = "https://github.com/" + GH + "/issues/new?labels=complaint"
+    + "&title=" + encodeURIComponent("Video #" + num + " — " + title)
+    + "&body=" + encodeURIComponent(what + "\\n\\n(filed from the review page — stands until a newer cut fixes it)");
+  window.open(url, "_blank");
+}}
+// Pull Cameron's complaints straight from GitHub and pin them to each video.
+fetch("https://api.github.com/repos/" + GH + "/issues?state=all&labels=complaint&per_page=100")
+ .then(function(r){{ return r.ok ? r.json() : []; }})
+ .then(function(issues){{
+   if(!Array.isArray(issues)) return;
+   issues.forEach(function(is){{
+     var m = /#(\\d+)/.exec(is.title || "");
+     if(!m) return;
+     var slot = document.querySelector('.complaints[data-num="' + m[1] + '"]');
+     if(!slot) return;
+     var first = (is.body || "").split("\\n")[0].trim();
+     var open = is.state === "open";
+     var div = document.createElement('div');
+     div.className = 'complaint ' + (open ? 'open' : 'fixed');
+     div.innerHTML = (open ? "🚩 Complaint: " : "✅ Fixed: ") + esc(first)
+       + ' <a href="' + is.html_url + '" target="_blank">#' + is.number + '</a>';
+     slot.appendChild(div);
+   }});
+ }})
+ .catch(function(){{}});
+</script>
 </body>
 </html>
 """
