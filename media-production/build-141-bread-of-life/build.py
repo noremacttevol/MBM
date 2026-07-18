@@ -28,6 +28,7 @@ import subprocess
 import textwrap
 
 import make_narration
+from mbm_caption_timing import caption_filter
 
 A = "assets"
 S = "segs"
@@ -169,21 +170,9 @@ def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, kjv, first):
             f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"d={frames}:s=2160x3840:fps={FPS},"
             f"scale=1080:1920:flags=lanczos")
-    capf, labels = caption_layers(seg_id, dur, spoken_end, cap_text, kjv)
+    cap = caption_filter(seg_id, dur, spoken_end, cap_text, kjv)
     tail = ",fade=t=in:st=0:d=1.0" if first else ""
-    if not labels:   # captionless beat (the pre-card breath)
-        fc = f"{base}{tail}[v]"
-        run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
-             "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
-        return
-    steps, cur = [], "b"
-    for i, lab in enumerate(labels):
-        last = (i == len(labels) - 1)
-        nxt = "v" if last else f"b{i+1}"
-        steps.append(f"[{cur}]{lab}overlay=format=auto"
-                     + (tail if last else "") + f"[{nxt}]")
-        cur = nxt
-    fc = f"{base}[b];" + ";".join(capf) + ";" + ";".join(steps)
+    fc = f"{base}{cap}{tail}[v]"
     run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
          "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
 
