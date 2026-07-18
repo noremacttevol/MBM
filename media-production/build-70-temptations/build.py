@@ -23,6 +23,7 @@ import subprocess
 import textwrap
 
 import make_narration
+from mbm_caption_timing import caption_filter
 
 A = "assets"
 S = "segs"
@@ -194,18 +195,12 @@ def build_still(seg_id, src, dur, zdir, chunks, kjv, first):
             f"d={frames}:s=2160x3840:fps={FPS},"
             f"scale=1080:1920:flags=lanczos")
     tail = ",fade=t=in:st=0:d=1.0" if first else ""
-    capf, labels = caption_filters(seg_id, dur, chunks, kjv)
-    if not labels:
-        fc = f"{base}{tail}[v]"
-    else:
-        steps, cur = [], "b"
-        for i, lab in enumerate(labels):
-            last = (i == len(labels) - 1)
-            nxt = "v" if last else f"b{i+1}"
-            steps.append(f"[{cur}]{lab}overlay=format=auto"
-                         + (tail if last else "") + f"[{nxt}]")
-            cur = nxt
-        fc = f"{base}[b];" + ";".join(capf) + ";" + ";".join(steps)
+    _cap_txt = " ".join(
+        (c[0] if isinstance(c, (list, tuple)) else c) for c in chunks
+    ) if isinstance(chunks, (list, tuple)) else (chunks or "")
+    _cap_txt = " ".join(_cap_txt.split())
+    capf = caption_filter(seg_id, dur, dur, _cap_txt, kjv) if _cap_txt else ""
+    fc = f"{base}{capf}{tail}[v]"
     run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
          "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
 
