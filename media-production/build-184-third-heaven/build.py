@@ -50,7 +50,10 @@ ST6 = "s6-peace-not-pride.jpeg"
 ST7 = "s7-the-hint-of-beyond.jpeg"
 
 TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
-KJV = {"s1", "s2", "j1"}
+KJV = {"j1"}                  # RED + scripture voice ONLY where Jesus himself speaks
+                              # (j1 = 2 Cor 12:9, "My grace is sufficient for thee").
+                              # s1/s2 are PAUL writing — narrator voice + white text
+                              # (Cameron denial #184, 2026-07-18).
 
 # MEMBER shelf: one-line Gospel Library pointer under the closing invitation.
 GL_POINTER = "Learn more — Gospel Library: Degrees of Glory"

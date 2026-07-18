@@ -29,7 +29,10 @@ SEGMENTS = [
      "Paul wrote of a man he knew — caught up, in a single moment, "
      "far beyond the everyday world."),
     # Exact KJV 2 Cor 12:2 — THE CENTERPIECE, scripture voice.
-    ("s1", SCRIPTURE, "-24%", "-2Hz",
+    # 2 Cor 12:2 — PAUL's words, not Jesus. Cameron denial #184 (2026-07-18):
+    # "thats not Jesus talking so it shouldnt sound like him or be written in red."
+    # Narrator voice + white caption (also removed from the KJV/red set in build.py).
+    ("s1", NARRATOR, "-20%", "-4Hz",
      "I knew a man in Christ above fourteen years ago, (whether in "
      "the body, I cannot tell; or whether out of the body, I "
      "cannot tell: God knoweth;) such an one caught up to the "
@@ -39,7 +42,8 @@ SEGMENTS = [
      "alone knew. And from that height, he was carried further "
      "still."),
     # Exact KJV 2 Cor 12:4 — SILENCE around it.
-    ("s2", SCRIPTURE, "-24%", "-2Hz",
+    # 2 Cor 12:4 — PAUL's words, not Jesus (Cameron denial #184). Narrator + white.
+    ("s2", NARRATOR, "-20%", "-4Hz",
      "How that he was caught up into paradise, and heard "
      "unspeakable words, which it is not lawful for a man to "
      "utter."),
