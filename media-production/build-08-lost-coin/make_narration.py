@@ -7,6 +7,7 @@ Script follows media-production/08-lost_coin-production-pack.md exactly.
 """
 import asyncio
 import edge_tts
+from mbm_caption_timing import save_narration
 
 NARRATOR = "en-US-AndrewNeural"   # plain American — never a Multilingual model (Voice Law)
 JESUS = "en-US-ChristopherNeural"   # American. Never a British voice.
@@ -37,8 +38,7 @@ SEGMENTS = [
 
 async def main():
     for name, voice, rate, pitch, text in SEGMENTS:
-        tts = edge_tts.Communicate(text, voice, rate=rate, pitch=pitch)
-        await tts.save(f"audio/{name}.mp3")
+        await save_narration(text, voice, rate, pitch, f"audio/{name}.mp3")
         print(f"saved audio/{name}.mp3")
 
 if __name__ == "__main__":
