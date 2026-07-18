@@ -1,19 +1,38 @@
 #!/usr/bin/env python3
 """Assemble Story Video #12 — Blind Bartimaeus (Mark 10:46-52).
+
 Phase-1 STILLS-ONLY (Law E). 12 painted stills under Correction #18
 (Bartimaeus a real weathered man; the Lord staged only from behind /
 over-the-shoulder, face never shown). Ken Burns drift, serif captions,
-KJV red-letter j1 (Mark 10:51) + j2 (Mark 10:52), closing question card.
-Warm bed dies to silence for the healing (j2 + "immediately he saw").
-Windows build (Elli's laptop): ffmpeg full path, Georgia fonts, UTF-8 captions.
+closing question card. Warm bed dies to silence for the sacred beat.
 Output: mark-10_bartimaeus.mp4, 1080x1920 H.264 30fps.
+
+SPEAKER-LAW rebuild (see media-production/SPEAKER-LAW.md). Converted from the old
+template B: the 7-tuple SEGMENTS with hardcoded durations and a per-beat
+`caption_style` is gone. Who is speaking is declared ONCE in make_narration.py and
+decides BOTH the narration voice and the caption colour. j1 and j2 are Jesus in
+the flesh and stay red; Bartimaeus (s47, s51) and the crowd (s49) are men in the
+story, so their verbatim KJV lines are SCRIPTURE blue. Beat durations are derived
+from the narration audio (LEAD + spoken + gap), never hand-set, and the video ends
+TAIL seconds after the last spoken word.
+
+The still variables S1..S11 (plus S10A / S10B) are introduced here — the old
+template referenced the jpegs by literal filename.
+
+The caption look, the Ken Burns maths, the audio mix, the loudness pass and the
+size ladder are unchanged.
 """
 import os
 import subprocess
 
 import shutil
+
+import make_narration  # SEGMENTS -> verbatim caption text + speaker per segment
 from mbm_caption_timing import caption_filter
+from mbm_speakers import is_scripture
+
 FF = shutil.which("ffmpeg") or "ffmpeg"
+FPROBE = shutil.which("ffprobe") or "ffprobe"
 A, S, FPS = "assets", "segs", 30
 SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
 SERIF_BI = "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"
@@ -21,44 +40,57 @@ CREAM, INK = "0xF7F2E9", "0x3B2A1E"
 ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "16",
        "-pix_fmt", "yuv420p", "-r", str(FPS), "-an"]
 
-# (id, kind, src, dur, zoom_dir, caption, style)
-SEGMENTS = [
-    ("s1a", "still", "s1.jpeg", 19.5, "in", "The road out of Jericho,\na loud and dusty day.", "n"),
-    ("s1b", "still", "s1.jpeg", 18.3, "out", "A blind beggar named\nBartimaeus, listening.", "n"),
-    ("s2a", "still", "s2.jpeg", 14.7, "in", "A procession — and inside\nthe noise, a name:", "n"),
-    ("s2b", "still", "s2.jpeg", 14.6, "out", "Jesus of Nazareth,\npassing by. Never again.", "n"),
-    ("s3a", "still", "s3.jpeg", 16.9, "in", "“Jesus, Son of David —\nhave mercy on me!”", "n"),
-    ("s3b", "still", "s3.jpeg", 17.6, "out", "The blind man saw who\nwas really walking past.", "n"),
-    ("s4", "still", "s4.jpeg", 24.1, "in", "The crowd told him\nto be quiet.", "n"),
-    ("s5", "still", "s5.jpeg", 2.4, "in", "He shouted louder.", "n"),
-    ("s6a", "still", "s6.jpeg", 14.9, "in", "And Jesus stood still.\nThe whole procession stopped.", "n"),
-    ("s6b", "still", "s6.jpeg", 14.7, "out", "“Call him over.”", "n"),
-    ("s7", "still", "s7.jpeg", 12.0, "in", "“Take heart — get up!\nHe is calling for you.”", "n"),
-    ("s8a", "still", "s8.jpeg", 16.3, "in", "He threw off his cloak —", "n"),
-    ("s8b", "still", "s8.jpeg", 16.3, "out", "his coat, his bed, his living —\nand jumped up.", "n"),
-    ("s9a", "still", "s9.jpeg", 14.8, "in", "He stood breathing hard\nbefore the man he could not see.", "n"),
-    ("s9b", "still", "s9.jpeg", 4.6, "out", "“What wilt thou that I\nshould do unto thee?”", "kjv"),
-    ("s10a", "still", "s10a.jpeg", 23.6, "in", "“Rabbi — I want to see.”", "n"),
-    ("s10ba", "still", "s10b.jpeg", 5.7, "in", "“Go thy way; thy faith\nhath made thee whole.”", "kjv"),
-    ("s10bb", "still", "s10b.jpeg", 22.5, "out", "And immediately, he saw —\ndaylight on the road ahead.", "n"),
-    ("s11a", "still", "s11.jpeg", 15.5, "in", "Free to go anywhere,\nhe chose Jesus's road.", "n"),
-    ("s11b", "still", "s11.jpeg", 15.3, "out", "He followed him,\nup toward Jerusalem.", "n"),
-    ("card", "card", None, 13.6, None,
-     "The crowd told him to keep\nquiet, and he shouted louder.\n\n"
-     "What is the thing you would\nshout for, if no one could\ntell you to be quiet?", "close"),
+S1 = "s1.jpeg"
+S2 = "s2.jpeg"
+S3 = "s3.jpeg"
+S4 = "s4.jpeg"
+S5 = "s5.jpeg"
+S6 = "s6.jpeg"
+S7 = "s7.jpeg"
+S8 = "s8.jpeg"
+S9 = "s9.jpeg"
+S10A = "s10a.jpeg"
+S10B = "s10b.jpeg"
+S11 = "s11.jpeg"
+
+TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
+# SPEAKER-LAW: declared once in make_narration, so the caption colour
+# and the narration voice can never drift apart.
+SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
+
+# BEATS: (segment_name, still, zoom_dir). Zoom alternates in/out on a shared still.
+BEATS = [
+    ("n0", S1, "in"),
+    ("n1", S2, "in"),
+    ("s47", S3, "in"),
+    ("n2", S3, "out"),
+    ("n3", S4, "in"),
+    ("n4", S5, "in"),
+    ("n5", S6, "in"),
+    ("s49", S7, "in"),
+    ("n6", S7, "out"),
+    ("n7", S8, "in"),
+    ("n8", S9, "in"),
+    ("j1", S9, "out"),
+    ("n9", S10A, "in"),
+    ("s51", S10A, "out"),
+    ("j2", S10B, "in"),
+    ("n10", S10B, "out"),
+    ("n11", S11, "in"),
 ]
 
-AUDIO = [
-    ("audio/n0.mp3", 0.6), ("audio/n1.mp3", 37.8), ("audio/n2.mp3", 67.1),
-    ("audio/n3.mp3", 101.6), ("audio/n4.mp3", 125.7), ("audio/n5.mp3", 128.1),
-    ("audio/n6.mp3", 157.7), ("audio/n7.mp3", 169.7), ("audio/n8.mp3", 202.3),
-    ("audio/j1.mp3", 217.1), ("audio/n9.mp3", 221.7), ("audio/j2.mp3", 245.3),
-    ("audio/n10.mp3", 250.8), ("audio/n11.mp3", 273.5), ("audio/n12.mp3", 304.3),
-]
+# The closing card is narrated but is not a beat — build_card places it itself.
+CARD = "n12"
+# PEAK: the beat the music bed dies for. s47 is the cry itself, the sacred seal.
+PEAK = "s47"
 
-# warm bed out before the healing (j2 + "immediately he saw" in silence),
-# returns for "he followed", out before the card.
-BEDS = [(0.0, 243.0, "b"), (274.0, 313.0, "a")]
+LEAD = 0.28
+GAP = 0.65
+KJV_GAP = 1.60
+# No-dead-air law: the video ends TAIL seconds after the last spoken
+# word. Derived, never hand-set. Clears the card's 0.8s fade-out so
+# the last word and the fade are never clipped.
+TAIL = 1.5
 
 
 def run(cmd):
@@ -68,32 +100,23 @@ def run(cmd):
         raise SystemExit(1)
 
 
-def caption_overlay(seg_id, dur, text, style):
-    if not text:
-        return None
-    tf = f"{S}/{seg_id}.txt"
-    with open(tf, "w", encoding="utf-8") as f:
-        f.write(text)
-    if style == "kjv":
-        font, size, color = SERIF_BI, 46, "0xFFF3DC"
-    else:
-        font, size, color = SERIF, 40, "white"
-    fo = max(0.0, dur - 0.6)
-    return (f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
-            f"drawtext=fontfile='{font}':textfile='{tf}':fontsize={size}:"
-            f"fontcolor={color}:line_spacing=14:x=(w-text_w)/2:"
-            f"y=min(h-460\\,h-160-text_h):shadowcolor=black@0.85:shadowx=2:shadowy=2:"
-            f"box=1:boxcolor=black@0.34:boxborderw=18,"
-            f"fade=t=in:st=0:d=0.5:alpha=1,fade=t=out:st={fo}:d=0.5:alpha=1[cap]")
+def dur_of(path):
+    out = subprocess.run(
+        [FPROBE, "-v", "error", "-show_entries", "format=duration",
+         "-of", "csv=p=0", path], capture_output=True, text=True)
+    return float(out.stdout.strip())
 
 
-def assemble(seg_id, base, dur, cap, style, tail=""):
-    # CAPTION LAW: Jost adaptive band drawn on the opaque still.
-    if not cap:
-        return f"{base}{tail}[v]"
-    capf = caption_filter(seg_id, dur, dur, " ".join(cap.split()), style == "kjv")
-    return f"{base}{capf}{tail}[v]"
-def build_still(seg_id, src, dur, zdir, cap, style):
+def spoken_of(path):
+    tmp = f"{S}/_spoken.wav"
+    run([FF, "-y", "-v", "error", "-i", path, "-af",
+         "areverse,silenceremove=start_periods=1:start_threshold=-50dB:"
+         "start_duration=0.02,areverse", "-c:a", "pcm_s16le", tmp])
+    return dur_of(tmp)
+
+
+def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, speaker,
+                first, last):
     frames = int(dur * FPS)
     z = f"1.001+0.09*on/{frames}" if zdir == "in" else f"1.091-0.09*on/{frames}"
     base = (f"[0:v]scale=2160:3840:force_original_aspect_ratio=increase,"
@@ -101,12 +124,13 @@ def build_still(seg_id, src, dur, zdir, cap, style):
             f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"d={frames}:s=2160x3840:fps={FPS},scale=1080:1920:flags=lanczos")
     tail = ""
-    if seg_id == "s1a":
+    if first:
         tail = ",fade=t=in:st=0:d=1.2"
-    if seg_id == "s11b":
+    if last:
         tail = f",fade=t=out:st={dur-1.0}:d=1.0"
+    cap = caption_filter(seg_id, dur, spoken_end, cap_text, speaker)
     run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
-         "-filter_complex", assemble(seg_id, base, dur, cap, style, tail),
+         "-filter_complex", f"{base}{cap}{tail}[v]",
          "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
 
 
@@ -123,6 +147,8 @@ def build_card(seg_id, dur, text):
 
 def bed_filter(idx, start, end, style):
     dur = end - start
+    if dur <= 1.0:
+        return None
     if style == "a":
         # HUM PURGE (Cameron, 2026-07-16): the sine 'music bed' reads as a background hum in every video — amplitudes zeroed. Do not restore; narration + silence only (PRODUCTION-BIBLE #5b 2026-07-16).
         src = ("aevalsrc='0*(sin(2*PI*110*t)+sin(2*PI*110.6*t))"
@@ -145,35 +171,79 @@ def bed_filter(idx, start, end, style):
 
 def main():
     os.makedirs(S, exist_ok=True)
-    total = sum(s[3] for s in SEGMENTS)
-    print(f"total runtime: {total:.1f}s", flush=True)
-    for seg_id, kind, src, dur, zdir, cap, style in SEGMENTS:
-        if kind == "still":
-            build_still(seg_id, src, dur, zdir, cap, style)
-        else:
-            build_card(seg_id, dur, cap)
+
+    spoken = {n: spoken_of(f"audio/{n}.mp3") for n, _, _ in BEATS}
+    card_spoken = spoken_of(f"audio/{CARD}.mp3")
+
+    timeline = []
+    audio_place = []
+    start_of = {}
+    t = 0.0
+    for name, still, zdir in BEATS:
+        speaker = SPEAKER[name]
+        gap = KJV_GAP if is_scripture(speaker) else GAP
+        vdur = LEAD + spoken[name] + gap
+        a_start = t + LEAD
+        audio_place.append((f"audio/{name}.mp3", a_start))
+        start_of[name] = a_start
+        timeline.append((name, still, zdir, vdur, a_start, speaker))
+        t += vdur
+    card_vdur = LEAD + card_spoken + TAIL
+    card_start = t
+    audio_place.append((f"audio/{CARD}.mp3", card_start + LEAD))
+    total = t + card_vdur
+
+    worst, worst_at = 0.0, None
+    prev_end = None
+    for name, _s, _z, _v, a_start, _sp in timeline:
+        if prev_end is not None and a_start - prev_end > worst:
+            worst, worst_at = a_start - prev_end, name
+        prev_end = a_start + spoken[name]
+    print(f"total runtime: {total:.1f}s ({total/60:.2f} min)", flush=True)
+    print(f"worst spoken gap: {worst:.2f}s before {worst_at} (must be <= 2.5s)", flush=True)
+    if worst > 2.5:
+        raise SystemExit(f"DEAD AIR: {worst:.2f}s gap before {worst_at} exceeds 2.5s")
+    print(f"sacred silence: {PEAK} at {start_of[PEAK]:.1f}s", flush=True)
+
+    n_beats = len(timeline)
+    for i, (seg_id, still, zdir, vdur, _a, speaker) in enumerate(timeline):
+        build_still(seg_id, still, vdur, zdir, LEAD + spoken[seg_id],
+                    TEXT[seg_id], speaker, first=(i == 0),
+                    last=(i == n_beats - 1))
+    build_card(CARD, card_vdur, TEXT[CARD])
+
     with open(f"{S}/concat.txt", "w", encoding="utf-8") as f:
-        for seg in SEGMENTS:
-            f.write(f"file '{seg[0]}.mp4'\n")
+        for seg_id, *_ in timeline:
+            f.write(f"file '{seg_id}.mp4'\n")
+        f.write(f"file '{CARD}.mp4'\n")
     run([FF, "-y", "-f", "concat", "-safe", "0", "-i", f"{S}/concat.txt",
          "-c", "copy", f"{S}/video_silent.mp4"])
 
+    # warm bed dies for the peak beat, returns after it, out before the card.
+    peak_end = start_of[PEAK] + spoken[PEAK]
+    beds = [
+        (0.0, start_of[PEAK] - 1.2, "b"),
+        (peak_end + 1.0, card_start - 0.8, "a"),
+    ]
+
     inputs, filters, labels = [], [], []
-    for i, (path, start) in enumerate(AUDIO):
+    for i, (path, start) in enumerate(audio_place):
         inputs += ["-i", path]
         ms = int(start * 1000)
         filters.append(f"[{i}:a]aresample=44100,adelay={ms}|{ms},volume=1.0[a{i}]")
         labels.append(f"[a{i}]")
     bi = 0
-    for (bs, be, st) in BEDS:
-        filters.append(bed_filter(bi, bs, be, st))
-        labels.append(f"[mus{bi}]")
-        bi += 1
+    for (bs, be, st) in beds:
+        bf = bed_filter(bi, bs, be, st)
+        if bf:
+            filters.append(bf)
+            labels.append(f"[mus{bi}]")
+            bi += 1
     n = len(labels)
     filters.append("".join(labels) + f"amix=inputs={n}:duration=longest:normalize=0,"
-                   f"apad=whole_dur={total}[aout]")
+                   f"apad=whole_dur={total:.2f}[aout]")
     run([FF, "-y"] + inputs + ["-filter_complex", ";".join(filters),
-        "-map", "[aout]", "-t", str(total), "-c:a", "aac", "-b:a", "160k",
+        "-map", "[aout]", "-t", f"{total:.2f}", "-c:a", "aac", "-b:a", "160k",
         f"{S}/audio_mix.m4a"])
 
     probe = subprocess.run([FF, "-i", f"{S}/audio_mix.m4a", "-af", "ebur128",

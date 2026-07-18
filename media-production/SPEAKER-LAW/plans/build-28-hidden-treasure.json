@@ -1,0 +1,159 @@
+{
+ "build": "build-28-hidden-treasure",
+ "reference": "Matthew 13",
+ "shape": "B->A",
+ "notes": "Matthew 13:44. A one-verse parable - a red-letter KJV inks all of it, so j1\nstays RED. Nobody speaks inside it, so nothing moved and nothing new was lifted.\nStructural only: the old template played the single j1 audio across two different\nstills. j1 keeps its id and the first half of the verse; j1b carries the rest. Same\nwords, same two pictures, same edit. still_vars S1..S7 introduced.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Jesus once told a very short story — about a man, and a field."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "He was a hired worker, out digging in a field that wasn't even his own."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "And on one ordinary day, his spade struck something hard, buried in the ground."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "He cleared away the dirt — and there it was. A treasure. Hidden, forgotten, and worth more than he had ever seen in his life."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "His heart pounded. Quickly, quietly, he covered it back over — and told no one."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Matthew 13:44",
+   "text": "Again, the kingdom of heaven is like unto treasure hid in a field; the which when a man hath found, he hideth,"
+  },
+  {
+   "id": "j1b",
+   "speaker": "jesus",
+   "verse": "Matthew 13:44",
+   "text": "and for joy thereof goeth and selleth all that he hath, and buyeth that field."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Did you catch what he did? He went home and sold everything he owned."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "His house. His tools. All of it — gladly, without a second thought."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "And with every coin he had, he bought that one field for himself."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "Because he knew what was waiting under the soil. That field was worth more than everything else he owned, put together."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "That, Jesus said, is what God's kingdom is like."
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "At first it can look like an ordinary field. But once you catch sight of the treasure in it — once you truly see who Jesus is — nothing else even compares."
+  },
+  {
+   "id": "n11",
+   "speaker": "narrator",
+   "text": "And you don't give everything up sadly. You do it out of pure joy — because you've found the one thing worth having everything else."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The man sold all he had — and called it the best trade of his life. If you have found the treasure, what is he worth to you?"
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "n1",
+   "S1",
+   "out"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "in"
+  ],
+  [
+   "n4",
+   "S4",
+   "out"
+  ],
+  [
+   "j1",
+   "S4",
+   "in"
+  ],
+  [
+   "j1b",
+   "S5",
+   "in"
+  ],
+  [
+   "n5",
+   "S5",
+   "out"
+  ],
+  [
+   "n6",
+   "S5",
+   "in"
+  ],
+  [
+   "n7",
+   "S6",
+   "in"
+  ],
+  [
+   "n8",
+   "S6",
+   "out"
+  ],
+  [
+   "n9",
+   "S7",
+   "in"
+  ],
+  [
+   "n10",
+   "S7",
+   "out"
+  ],
+  [
+   "n11",
+   "S7",
+   "in"
+  ]
+ ],
+ "card": "card",
+ "spoken": {}
+}

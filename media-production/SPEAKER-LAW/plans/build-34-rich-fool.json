@@ -1,0 +1,191 @@
+{
+ "build": "build-34-rich-fool",
+ "reference": "Luke 12",
+ "shape": "B->A",
+ "notes": "Luke 12:16-21. A parable, so a red-letter KJV inks all of it. That includes\nGod's own line in verse 20 - 'Thou fool, this night thy soul shall be required of\nthee' - because it is God as Jesus voices him INSIDE a story Jesus is telling, and\nthe Bible prints it red. It is deliberately NOT a `god` beat. j1 and j2 stay RED,\nand two more parable lines the video only paraphrased join them:\n  j3  Luke 12:18  'This will I do: I will pull down my barns, and build greater...'\n  j4  Luke 12:19  'Soul, thou hast much goods laid up for many years...'\nstill_vars S1..S7 introduced.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Jesus told a story about a rich man who had a very good year."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "His fields produced an enormous harvest — more grain and fruit than he had ever gathered in his life."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "In fact, he had so much that he ran out of room to store it all."
+  },
+  {
+   "id": "j3",
+   "speaker": "jesus",
+   "verse": "Luke 12:18",
+   "text": "This will I do: I will pull down my barns, and build greater; and there will I bestow all my fruits and my goods."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "So he thought to himself: What should I do? I know — I will tear down my barns and build bigger ones."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "There I will store up all my grain and all my goods."
+  },
+  {
+   "id": "j4",
+   "speaker": "jesus",
+   "verse": "Luke 12:19",
+   "text": "And I will say to my soul, Soul, thou hast much goods laid up for many years; take thine ease, eat, drink, and be merry."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "And then I will say to myself: You have plenty saved up for years to come. Relax. Eat, drink, and enjoy your life."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "He had it all figured out. Every single plan was about himself — his barns, his goods, his own comfort."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "But there was one thing he had never planned for. And that very night, God spoke to him."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Luke 12:20",
+   "text": "Thou fool, this night thy soul shall be required of thee: then whose shall those things be, which thou hast provided?"
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "That night, his life was over. And everything he had piled up — the barns, the grain, all of it — would simply pass to someone else."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "He had planned for everything except the one thing that was certain: that one day he would stand before God."
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "And Jesus ended the story with these words."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Luke 12:21",
+   "text": "So is he that layeth up treasure for himself, and is not rich toward God."
+  },
+  {
+   "id": "n11",
+   "speaker": "narrator",
+   "text": "His barns were full, but his soul was empty. He was rich in things — and poor in the only wealth that lasts."
+  },
+  {
+   "id": "n12",
+   "speaker": "narrator",
+   "text": "There is nothing wrong with a good harvest. The real question is quieter than that: are you only storing up for yourself — or are you storing up a life that is rich with God?"
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "His barns were full. His soul was empty. What are you storing up for yourself — and what are you storing up with God?"
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "n1",
+   "S1",
+   "out"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "j3",
+   "S3",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "out"
+  ],
+  [
+   "n4",
+   "S3",
+   "in"
+  ],
+  [
+   "j4",
+   "S4",
+   "in"
+  ],
+  [
+   "n5",
+   "S4",
+   "out"
+  ],
+  [
+   "n6",
+   "S4",
+   "in"
+  ],
+  [
+   "n7",
+   "S5",
+   "in"
+  ],
+  [
+   "j1",
+   "S5",
+   "out"
+  ],
+  [
+   "n8",
+   "S6",
+   "in"
+  ],
+  [
+   "n9",
+   "S6",
+   "out"
+  ],
+  [
+   "n10",
+   "S6",
+   "in"
+  ],
+  [
+   "j2",
+   "S7",
+   "in"
+  ],
+  [
+   "n11",
+   "S6",
+   "out"
+  ],
+  [
+   "n12",
+   "S7",
+   "out"
+  ]
+ ],
+ "card": "card",
+ "spoken": {}
+}

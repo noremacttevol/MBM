@@ -1,21 +1,42 @@
 #!/usr/bin/env python3
 """Assemble Story Video #8 — The Lost Coin (Luke 15:8-10).
 Hybrid storybook format per PRODUCTION-BIBLE.md: painted stills with Ken Burns
-drift + 1 animated money-moment clip (the FOUND flash), narration (edge-tts),
-serif captions, KJV red-letter lines, closing question card on cream #F7F2E9.
+drift, narration (edge-tts), serif captions, closing question card on
+cream #F7F2E9.
 
-Two-Voice Law: narrator modern American; Jesus voice speaks ONLY exact KJV
-(Luke 15:9 over the doorway, Luke 15:10 over the starry pull-back). Music cuts
-to full silence before the angels line so the peak lands in sacred quiet.
+SPEAKER-LAW rebuild (see media-production/SPEAKER-LAW.md). Converted from the old
+template B: the 7-tuple SEGMENTS with hardcoded durations and a per-beat
+`caption_style` is gone. Who is speaking is declared ONCE in make_narration.py and
+decides BOTH the narration voice and the caption colour. Beat durations are derived
+from the narration audio (LEAD + spoken + gap), never hand-set, and the video ends
+TAIL seconds after the last spoken word.
+
+Luke 15:8-10 is a parable, so a red-letter KJV inks the whole thing — including the
+woman's own line inside it and Jesus's frame around her. j1 and j2 stay red, and two
+more verses of the same parable that the video only paraphrased are lifted out and
+join them in red: jv8 (Luke 15:8) and jv9a (Luke 15:9a). The woman in the parable is
+NOT a `woman` beat — she is a character Jesus invented inside a story he is telling.
+
+The card was silent text on cream; it is now narrated like every other build in the
+library, so TAIL can be derived from it.
+
+The caption look, the Ken Burns maths, the audio mix (narration and silence only —
+this build has never carried a music bed) and the size ladder are unchanged.
 
 All six visual assets approved by Leighton (QC'd for character lock, wardrobe
 lock, nine coins, lamp continuity, visible coin) on 2026-07-08.
 Output: 1080x1920 H.264, <25MB.
 """
 import os
+import shutil
 import subprocess
-from mbm_caption_timing import caption_filter
 
+import make_narration  # SEGMENTS -> verbatim caption text + speaker per segment
+from mbm_caption_timing import caption_filter
+from mbm_speakers import is_scripture
+
+FF = shutil.which("ffmpeg") or "ffmpeg"
+FPROBE = shutil.which("ffprobe") or "ffprobe"
 A = "assets"
 S = "segs"
 FPS = 30
@@ -34,51 +55,38 @@ STILL_FOUND = "found.jpeg"  # stills-only (Law E): the former Veo "found flash" 
 STILL_DOOR = "door.jpeg"
 STILL_STARS = "stars.jpeg"
 
-# (id, kind, source, duration_s, zoom_dir, caption, caption_style)
-SEGMENTS = [
-    # Opening frame: WHY Jesus told this story — Heaven's excitement over one
-    # soul found. Starts on the same starry sky the video ends on, so the
-    # whole story is bookended by Heaven's point of view (Cameron/Leighton
-    # request, 2026-07-08 pt.11).
-    ("s00", "still", STILL_STARS, 10.5, "out",
-     "When Jesus wanted to show\nhow God feels about one lost soul,\n"
-     "he didn't talk about crowds.\nHe told this story.", "n"),
-    ("s01", "still", STILL_COUNT, 6.5, "in",
-     "A woman has ten coins.\nShe loses one.", "n"),
-    ("s02", "still", STILL_SWEEP, 6.5, "in",
-     "She lights a lamp.\nShe sweeps the whole house.", "n"),
-    ("s03", "still", STILL_KNEEL, 8.5, "in",
-     "She searches carefully —\nnot casually, carefully —\nuntil she finds it.", "n"),
-    ("s04", "still", STILL_FOUND, 8.0, "in",
-     None, "n"),
-    ("s05a", "still", STILL_DOOR, 4.5, "in",
-     "Then she calls her neighbors\nand friends to celebrate.", "n"),
-    ("s05b", "still", STILL_DOOR, 6.5, "out",
-     "\u201cRejoice with me; for I have found\nthe piece which I had lost.\u201d", "kjv"),
-    ("s06a", "still", STILL_STARS, 7.0, "in",
-     "One coin. Out of ten.\nThe joy is disproportionate\nto the value of the coin.", "n"),
-    ("s06b", "still", STILL_STARS, 11.0, "out",
-     "\u201cLikewise, I say unto you, there is joy\nin the presence of the angels of God\nover one sinner that repenteth.\u201d", "kjv"),
-    ("s06c", "still", STILL_STARS, 5.0, "in",
-     "Over one. Not a crowd. One.", "n"),
-    ("s07", "card", None, 6.0, None,
-     "Have you ever felt like\nthe thing that got lost\nrather than the one\ndoing the searching?", "close"),
+TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
+# SPEAKER-LAW: declared once in make_narration, so the caption colour
+# and the narration voice can never drift apart.
+SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
+
+# BEATS: (segment_name, still, zoom_dir). Zoom alternates in/out on a shared still.
+BEATS = [
+    ("n0", STILL_STARS, "out"),
+    ("jv8", STILL_COUNT, "in"),
+    ("n1", STILL_COUNT, "out"),
+    ("n2a", STILL_SWEEP, "in"),
+    ("n2b", STILL_KNEEL, "in"),
+    ("jv9a", STILL_FOUND, "in"),
+    ("j1", STILL_DOOR, "in"),
+    ("n3", STILL_DOOR, "out"),
+    ("n4", STILL_STARS, "in"),
+    ("j2", STILL_STARS, "out"),
+    ("n5", STILL_STARS, "in"),
 ]
 
-# narration placements: (audio file, absolute start seconds)
-AUDIO = [
-    ("audio/n0.mp3", 0.8),    # s00 0-10.5 — why Jesus told it (9.1s)
-    ("audio/n1.mp3", 11.3),   # s01 10.5-17
-    ("audio/n2a.mp3", 17.5),  # s02 17-23.5
-    ("audio/n2b.mp3", 24.0),  # s03 23.5-32   (s04 found clip 32-40 silent)
-    ("audio/n3.mp3", 40.4),   # s05a 40-44.5
-    ("audio/j1.mp3", 45.1),   # s05b 44.5-51 — KJV Luke 15:9
-    ("audio/n4.mp3", 51.5),   # s06a 51-58
-    ("audio/j2.mp3", 58.8),   # s06b 58-69 — KJV Luke 15:10, music silent
-    ("audio/n5.mp3", 69.5),   # s06c 69-74 — "Over one. Not a crowd. One."
-]
+# The closing card is narrated but is not a beat — build_card places it itself.
+CARD = "card"
+# PEAK: the first non-narrator line — Jesus opening the parable (Luke 15:8).
+PEAK = "jv8"
 
-MUSIC_END = 57.5  # fully silent before the angels line — the peak is quiet
+LEAD = 0.28
+GAP = 0.65
+KJV_GAP = 1.60
+# No-dead-air law: the video ends TAIL seconds after the last spoken
+# word. Derived, never hand-set. Clears the card's 0.8s fade-out so
+# the last word and the fade are never clipped.
+TAIL = 1.5
 
 
 def run(cmd):
@@ -86,78 +94,23 @@ def run(cmd):
     subprocess.run(cmd, check=True, capture_output=True)
 
 
-import textwrap
+def dur_of(path):
+    out = subprocess.run(
+        [FPROBE, "-v", "error", "-show_entries", "format=duration",
+         "-of", "csv=p=0", path], capture_output=True, text=True)
+    return float(out.stdout.strip())
 
 
-# ---- CAPTION SYSTEM v2 (Cameron, 2026-07-15) — wide bottom, chunked ----
-def sentences(text):
-    import re
-    return [p for p in re.split(r"(?<=[.!?;:]) +", text) if p]
+def spoken_of(path):
+    tmp = f"{S}/_spoken.wav"
+    run([FF, "-y", "-v", "error", "-i", path, "-af",
+         "areverse,silenceremove=start_periods=1:start_threshold=-50dB:"
+         "start_duration=0.02,areverse", "-c:a", "pcm_s16le", tmp])
+    return dur_of(tmp)
 
 
-def chunk_caption(text, width, max_lines):
-    out, cur = [], ""
-    for s in sentences(text):
-        cand = (cur + " " + s).strip()
-        if len(textwrap.wrap(cand, width)) <= max_lines:
-            cur = cand
-            continue
-        if cur:
-            out.append(cur)
-        if len(textwrap.wrap(s, width)) <= max_lines:
-            cur = s
-        else:
-            piece = ""
-            for frag in s.split(", "):
-                cand2 = (piece + ", " + frag).strip(", ").strip()
-                if len(textwrap.wrap(cand2, width)) <= max_lines:
-                    piece = cand2
-                else:
-                    if piece:
-                        out.append(piece)
-                    piece = frag
-            cur = piece
-    if cur:
-        out.append(cur)
-    return out
-
-
-def caption_layers(seg_id, dur, text, style):
-    if not text:
-        return [], []
-    text = " ".join(text.split())
-    if style == "kjv":
-        font, size, color, width, maxl = SERIF_BI, 46, "0xFFF3DC", 38, 3
-    else:
-        font, size, color, width, maxl = SERIF, 34, "white", 48, 2
-    spoken_end = max(0.6, dur - 0.5)
-    chunks = chunk_caption(text, width, maxl)
-    total = sum(len(c) for c in chunks) or 1
-    t0, t1 = 0.15, max(0.6, min(dur - 0.2, spoken_end + 0.35))
-    filters, labels = [], []
-    acc = 0
-    for i, c in enumerate(chunks):
-        cs = t0 + (t1 - t0) * acc / total
-        acc += len(c)
-        ce = t0 + (t1 - t0) * acc / total
-        tf = f"{S}/{seg_id}_{i}.txt"
-        with open(tf, "w") as f:
-            f.write("\n".join(textwrap.wrap(c, width)))
-        fo = max(cs, ce - 0.35)
-        filters.append(
-            f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
-            f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
-            f"fontcolor={color}:line_spacing=13:x=(w-text_w)/2:"
-            f"y=h-120-text_h:"
-            f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
-            f"box=1:boxcolor=black@0.55:boxborderw=22,"
-            f"fade=t=in:st={cs:.2f}:d=0.35:alpha=1,"
-            f"fade=t=out:st={fo:.2f}:d=0.35:alpha=1[cap{seg_id}{i}]")
-        labels.append(f"[cap{seg_id}{i}]")
-    return filters, labels
-
-
-def build_still(seg_id, src, dur, zdir, cap, style):
+def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, speaker,
+                first, last):
     frames = int(dur * FPS)
     if zdir == "in":
         z = f"1.001+0.12*on/{frames}"
@@ -168,27 +121,14 @@ def build_still(seg_id, src, dur, zdir, cap, style):
             f"d={frames}:s=2160x3840:fps={FPS},"
             f"scale=1080:1920:flags=lanczos")
     tail = ""
-    if seg_id == "s00":
+    if first:
         tail = ",fade=t=in:st=0:d=1.2"
-    if seg_id == "s06c":
+    if last:
         tail = f",fade=t=out:st={dur-1.2}:d=1.2"
-    _cap_txt = " ".join(
-        (c[0] if isinstance(c, (list, tuple)) else c) for c in cap
-    ) if isinstance(cap, (list, tuple)) else (cap or "")
-    _cap_txt = " ".join(_cap_txt.split())
-    capf = caption_filter(seg_id, dur, dur, _cap_txt, style == "kjv") if _cap_txt else ""
+    capf = caption_filter(seg_id, dur, spoken_end, cap_text, speaker)
     fc = f"{base}{capf}{tail}[v]"
-    run(["ffmpeg", "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
+    run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
          "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
-
-
-def build_clip(seg_id, src, dur, cap, style):
-    vf = f"scale=1080:1920:flags=lanczos,setsar=1,fps={FPS}"
-    capf = caption_filter(seg_id, cap, style)
-    if capf:
-        vf += "," + capf
-    run(["ffmpeg", "-y", "-i", f"{A}/{src}", "-t", str(dur),
-         "-vf", vf] + ENC + [f"{S}/{seg_id}.mp4"])
 
 
 def build_card(seg_id, dur, text, style):
@@ -202,36 +142,69 @@ def build_card(seg_id, dur, text, style):
     vf = (f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
           f"fontcolor={INK}:line_spacing=22:x=(w-text_w)/2:y=(h-text_h)/2,"
           f"fade=t=in:st=0:d=0.8,fade=t=out:st={dur-0.8}:d=0.8")
-    run(["ffmpeg", "-y", "-f", "lavfi",
+    run([FF, "-y", "-f", "lavfi",
          "-i", f"color=c={CREAM}:s=1080x1920:r={FPS}:d={dur}",
          "-vf", vf] + ENC + [f"{S}/{seg_id}.mp4"])
 
 
 def main():
-    total = sum(s[3] for s in SEGMENTS)
-    print(f"total runtime: {total:.1f}s")
+    os.makedirs(S, exist_ok=True)
 
-    for seg_id, kind, src, dur, zdir, cap, style in SEGMENTS:
-        if kind == "still":
-            build_still(seg_id, src, dur, zdir, cap, style)
-        elif kind == "clip":
-            build_clip(seg_id, src, dur, cap, style)
-        else:
-            build_card(seg_id, dur, cap, style)
+    spoken = {n: spoken_of(f"audio/{n}.mp3") for n, _, _ in BEATS}
+    card_spoken = spoken_of(f"audio/{CARD}.mp3")
+
+    timeline = []
+    audio_place = []
+    start_of = {}
+    t = 0.0
+    for name, still, zdir in BEATS:
+        speaker = SPEAKER[name]
+        gap = KJV_GAP if is_scripture(speaker) else GAP
+        vdur = LEAD + spoken[name] + gap
+        a_start = t + LEAD
+        audio_place.append((f"audio/{name}.mp3", a_start))
+        start_of[name] = a_start
+        timeline.append((name, still, zdir, vdur, a_start, speaker))
+        t += vdur
+    card_vdur = LEAD + card_spoken + TAIL
+    card_start = t
+    audio_place.append((f"audio/{CARD}.mp3", card_start + LEAD))
+    total = t + card_vdur
+
+    worst, worst_at = 0.0, None
+    prev_end = None
+    for name, _s, _z, _v, a_start, _sp in timeline:
+        if prev_end is not None and a_start - prev_end > worst:
+            worst, worst_at = a_start - prev_end, name
+        prev_end = a_start + spoken[name]
+    print(f"total runtime: {total:.1f}s ({total/60:.2f} min)", flush=True)
+    print(f"worst spoken gap: {worst:.2f}s before {worst_at} (must be <= 2.5s)", flush=True)
+    if worst > 2.5:
+        raise SystemExit(f"DEAD AIR: {worst:.2f}s gap before {worst_at} exceeds 2.5s")
+    print(f"sacred silence: {PEAK} at {start_of[PEAK]:.1f}s "
+          f"(card at {card_start:.1f}s)", flush=True)
+
+    n_beats = len(timeline)
+    for i, (seg_id, still, zdir, vdur, _a, speaker) in enumerate(timeline):
+        build_still(seg_id, still, vdur, zdir, LEAD + spoken[seg_id],
+                    TEXT[seg_id], speaker, first=(i == 0),
+                    last=(i == n_beats - 1))
+    build_card(CARD, card_vdur, TEXT[CARD], "close")
 
     with open(f"{S}/concat.txt", "w") as f:
-        for seg in SEGMENTS:
-            f.write(f"file '{seg[0]}.mp4'\n")
-    run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", f"{S}/concat.txt",
+        for seg_id, *_ in timeline:
+            f.write(f"file '{seg_id}.mp4'\n")
+        f.write(f"file '{CARD}.mp4'\n")
+    run([FF, "-y", "-f", "concat", "-safe", "0", "-i", f"{S}/concat.txt",
          "-c", "copy", f"{S}/video_silent.mp4"])
 
-    # ---- audio: narration at absolute offsets, NO synthetic bed ----
+    # ---- audio: narration at derived offsets, NO synthetic bed ----
     # (Cameron, 2026-07-16: the sine-wave "music bed" reads as a background
     # hum and was rejected — narration and silence only.)
     inputs = []
     filters = []
     labels = []
-    for i, (path, start) in enumerate(AUDIO):
+    for i, (path, start) in enumerate(audio_place):
         inputs += ["-i", path]
         ms = int(start * 1000)
         filters.append(f"[{i}:a]aresample=44100,adelay={ms}|{ms},volume=1.0[a{i}]")
@@ -239,13 +212,13 @@ def main():
     n = len(labels)
     filters.append("".join(labels) +
                    f"amix=inputs={n}:duration=longest:normalize=0,"
-                   f"apad=whole_dur={total}[aout]")
-    run(["ffmpeg", "-y"] + inputs + ["-filter_complex", ";".join(filters),
-         "-map", "[aout]", "-t", str(total), "-c:a", "aac", "-b:a", "160k",
+                   f"apad=whole_dur={total:.2f}[aout]")
+    run([FF, "-y"] + inputs + ["-filter_complex", ";".join(filters),
+         "-map", "[aout]", "-t", f"{total:.2f}", "-c:a", "aac", "-b:a", "160k",
          f"{S}/audio_mix.m4a"])
 
     # ---- final mux, sized under 25MB ----
-    run(["ffmpeg", "-y", "-i", f"{S}/video_silent.mp4", "-i", f"{S}/audio_mix.m4a",
+    run([FF, "-y", "-i", f"{S}/video_silent.mp4", "-i", f"{S}/audio_mix.m4a",
          "-map", "0:v", "-map", "1:a",
          "-c:v", "libx264", "-preset", "slow", "-crf", "23",
          "-maxrate", "1500k", "-bufsize", "3000k", "-pix_fmt", "yuv420p",

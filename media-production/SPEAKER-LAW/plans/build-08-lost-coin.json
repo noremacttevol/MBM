@@ -1,0 +1,131 @@
+{
+ "build": "build-08-lost-coin",
+ "reference": "Luke 15",
+ "shape": "B->A",
+ "notes": "Luke 15:8-10. A parable, so a red-letter KJV inks the whole thing - including\nthe woman's own line inside it and Jesus's frame around her. j1 and j2 stay RED,\nand two more verses of the same parable that the video only paraphrased are lifted\nout and join them in red:\n  jv8   Luke 15:8   'Either what woman having ten pieces of silver...'\n  jv9a  Luke 15:9a  'And when she hath found it, she calleth her friends and her\n        neighbours together, saying,' - Jesus's own frame inside the parable, and\n        it sits on the beat immediately before j1, the line it introduces.\nNOTE: the woman in this parable is NOT a `woman` beat. She is a character Jesus\ninvented inside a story he is telling; the words are his, and a red-letter Bible\nprints them red. Pink is for women the Bible records actually speaking.\nThis build had NO closing-card narration - the card was silent text on cream. A\n`card` segment is added carrying the card's existing words, so the card is spoken\nlike every other build in the library and TAIL can be derived from it.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "When Jesus wanted to show how God feels about one lost soul, he didn't talk about crowds. He told this story."
+  },
+  {
+   "id": "jv8",
+   "speaker": "jesus",
+   "verse": "Luke 15:8",
+   "text": "Either what woman having ten pieces of silver, if she lose one piece, doth not light a candle, and sweep the house, and seek diligently till she find it?"
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "A woman has ten coins. She loses one."
+  },
+  {
+   "id": "n2a",
+   "speaker": "narrator",
+   "text": "She lights a lamp. She sweeps the whole house."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "She searches carefully — not casually, carefully — until she finds it."
+  },
+  {
+   "id": "jv9a",
+   "speaker": "jesus",
+   "verse": "Luke 15:9",
+   "text": "And when she hath found it, she calleth her friends and her neighbours together, saying,"
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Luke 15:9",
+   "text": "Rejoice with me; for I have found the piece which I had lost."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Then she calls her neighbors and friends to celebrate."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "One coin. Out of ten. The joy is disproportionate to the value of the coin."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Luke 15:10",
+   "text": "Likewise, I say unto you, there is joy in the presence of the angels of God over one sinner that repenteth."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Over one. Not a crowd. One."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Have you ever felt like the thing that got lost, rather than the one doing the searching?"
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "STILL_STARS",
+   "out"
+  ],
+  [
+   "jv8",
+   "STILL_COUNT",
+   "in"
+  ],
+  [
+   "n1",
+   "STILL_COUNT",
+   "out"
+  ],
+  [
+   "n2a",
+   "STILL_SWEEP",
+   "in"
+  ],
+  [
+   "n2b",
+   "STILL_KNEEL",
+   "in"
+  ],
+  [
+   "jv9a",
+   "STILL_FOUND",
+   "in"
+  ],
+  [
+   "j1",
+   "STILL_DOOR",
+   "in"
+  ],
+  [
+   "n3",
+   "STILL_DOOR",
+   "out"
+  ],
+  [
+   "n4",
+   "STILL_STARS",
+   "in"
+  ],
+  [
+   "j2",
+   "STILL_STARS",
+   "out"
+  ],
+  [
+   "n5",
+   "STILL_STARS",
+   "in"
+  ]
+ ],
+ "card": "card",
+ "spoken": {}
+}

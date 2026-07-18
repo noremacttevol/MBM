@@ -1,0 +1,257 @@
+{
+ "build": "build-17-lazarus",
+ "reference": "John 11",
+ "shape": "B->A",
+ "notes": "John 11. j1..j5 are Jesus in the flesh and every one stays RED.\nTHE SISTERS NEVER SPOKE. Martha and Mary carry this chapter and all of it was\nnarrator paraphrase in white. Five lines are now WOMAN, pink. w21 and w27 use the\nsame ids, verses and verbatim wording already fixed in\nplans/build-144-resurrection-and-the-life.json, which covers this same chapter:\n  w3   John 11:3   the sisters: 'Lord, behold, he whom thou lovest is sick.'\n  w21  John 11:21-22  Martha on the road\n  w27  John 11:27  Martha's confession - one of the great confessions in scripture,\n       and the old video reduced it to 'Martha said yes.'\n  w32  John 11:32  Mary at his feet\n  w39  John 11:39  Martha at the stone: 'Lord, by this time he stinketh...'\nw39 now sits directly before j3, which is Jesus answering her - the exchange the old\nvideo had as one block of white paraphrase.\nn11 is the closing card and keeps its id. still_vars S1..S9 introduced.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "In a village called Bethany, close enough to Jerusalem to walk, there lived two sisters, Martha and Mary, and their brother Lazarus. Jesus loved this family. Their home was the one place on the whole road where he could stop being a public figure and simply be a friend. And now their brother was dying. So the sisters sent word to Jesus — not a demand, just a few aching words: Lord, the one you love is sick."
+  },
+  {
+   "id": "w3",
+   "speaker": "woman",
+   "verse": "John 11:3",
+   "text": "Lord, behold, he whom thou lovest is sick."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "You would expect him to drop everything and run. He did the opposite. When the news reached him, he stayed where he was two more days. But listen to what he said about it:"
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "John 11:4",
+   "text": "This sickness is not unto death, but for the glory of God, that the Son of God might be glorified thereby."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "He was not being careless with the people he loved. He was reaching for something deeper than a quick rescue — something that would show everyone who he really was. And it would cost those two sisters four days of grief to see it."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "By the time Jesus started for Bethany, the message had changed. Lazarus was not sick anymore. Lazarus was dead, and had been sealed in the tomb four days. That number is in the story on purpose. People of that time held that a soul might linger near the body for three days. Four days meant the door was shut — no lingering, no hope, no loophole left. Everyone in Bethany knew exactly how final four days was."
+  },
+  {
+   "id": "w21",
+   "speaker": "woman",
+   "verse": "John 11:21-22",
+   "text": "Lord, if thou hadst been here, my brother had not died. But I know, that even now, whatsoever thou wilt ask of God, God will give it thee."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Martha heard he was finally near and ran out to meet him on the road, before he even reached the town. What she said was grief and faith tangled together in one breath: Lord, if you had been here, my brother would not have died. And then, still holding on — but even now, I know God will give you whatever you ask."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Jesus told her, your brother will rise again. Martha nodded the way we nod at things we believe but cannot feel — yes, at the end of the world, on the last day, I know. And Jesus took the whole promise out of the far-off future and set it down in the person standing right in front of her:"
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "John 11:25-26",
+   "text": "I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live: And whosoever liveth and believeth in me shall never die. Believest thou this?"
+  },
+  {
+   "id": "w27",
+   "speaker": "woman",
+   "verse": "John 11:27",
+   "text": "Yea, Lord: I believe that thou art the Christ, the Son of God, which should come into the world."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "He did not offer her a doctrine to file away until the last day. He offered her himself, right there in the dust of the road. Then Mary came — the quieter sister — and she fell at his feet and wept, and every mourner who had followed her out wept too. The whole road dissolved into grief."
+  },
+  {
+   "id": "w32",
+   "speaker": "woman",
+   "verse": "John 11:32",
+   "text": "Lord, if thou hadst been here, my brother had not died."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "And then comes the shortest verse in the whole Bible, and one of the most staggering. Jesus wept. Sit with that. The one man there who knew — knew — that in a few minutes Lazarus would be breathing again, stood at the grave of his friend and cried. Not because he had run out of options. He cried because the people he loved were broken, and death is a horror, and he would not stand there pretending it wasn't. He did not skip the grief. He walked all the way into it with them."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "The tomb was a cave with a heavy stone rolled across its mouth. Jesus said, take away the stone. Practical, careful Martha panicked — Lord, by now there will be a smell, it has been four days. And Jesus answered her:"
+  },
+  {
+   "id": "w39",
+   "speaker": "woman",
+   "verse": "John 11:39",
+   "text": "Lord, by this time he stinketh: for he hath been dead four days."
+  },
+  {
+   "id": "j3",
+   "speaker": "jesus",
+   "verse": "John 11:40",
+   "text": "Said I not unto thee, that, if thou wouldest believe, thou shouldest see the glory of God?"
+  },
+  {
+   "id": "n7b",
+   "speaker": "narrator",
+   "text": "So they leaned into the great stone and rolled it back, and the dark mouth of the grave stood open to the daylight."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "He lifted his eyes and prayed out loud — not because heaven was hard of hearing, but because he wanted the crowd to know exactly where the power came from. And then he called into the dark, in a voice they said was loud enough to wake the dead:"
+  },
+  {
+   "id": "j4",
+   "speaker": "jesus",
+   "verse": "John 11:43",
+   "text": "Lazarus, come forth."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "And the dead man came out. Bound hand and foot in strips of grave-linen, his face still wrapped, Lazarus stood in the mouth of his own tomb — alive. Four days gone, and standing in the light. Nobody moved. Nobody breathed."
+  },
+  {
+   "id": "j5",
+   "speaker": "jesus",
+   "verse": "John 11:44",
+   "text": "Loose him, and let him go."
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "Unwrap him. Take the grave-linen off a living man and let him walk home to dinner. This was the last great sign before Jesus turned toward his own cross — and he did it in the open, at a marked grave, in front of a crowd, so that no one could ever call it a trick of the light. The one who stands over every grave you have ever wept beside looked death full in the face and called a friend home. He does not merely explain the resurrection. He is the resurrection."
+  },
+  {
+   "id": "n11",
+   "speaker": "narrator",
+   "text": "He wept at the grave, even though he was about to open it. Is there a grief you are carrying that he would not rush you past, but would sit down inside it, and weep there with you first?"
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "w3",
+   "S2",
+   "in"
+  ],
+  [
+   "n1",
+   "S2",
+   "out"
+  ],
+  [
+   "j1",
+   "S2",
+   "in"
+  ],
+  [
+   "n1b",
+   "S2",
+   "out"
+  ],
+  [
+   "n2",
+   "S3",
+   "in"
+  ],
+  [
+   "w21",
+   "S4",
+   "in"
+  ],
+  [
+   "n3",
+   "S4",
+   "out"
+  ],
+  [
+   "n4",
+   "S5",
+   "in"
+  ],
+  [
+   "j2",
+   "S5",
+   "out"
+  ],
+  [
+   "w27",
+   "S5",
+   "in"
+  ],
+  [
+   "n5",
+   "S6",
+   "in"
+  ],
+  [
+   "w32",
+   "S6",
+   "out"
+  ],
+  [
+   "n6",
+   "S6",
+   "in"
+  ],
+  [
+   "n7",
+   "S7",
+   "in"
+  ],
+  [
+   "w39",
+   "S7",
+   "out"
+  ],
+  [
+   "j3",
+   "S7",
+   "in"
+  ],
+  [
+   "n7b",
+   "S7",
+   "out"
+  ],
+  [
+   "n8",
+   "S8",
+   "in"
+  ],
+  [
+   "j4",
+   "S8",
+   "out"
+  ],
+  [
+   "n9",
+   "S8",
+   "in"
+  ],
+  [
+   "j5",
+   "S9",
+   "in"
+  ],
+  [
+   "n10",
+   "S9",
+   "out"
+  ]
+ ],
+ "card": "n11",
+ "spoken": {}
+}

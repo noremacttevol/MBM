@@ -1,0 +1,202 @@
+{
+ "build": "build-02-prodigal",
+ "reference": "Luke 15",
+ "shape": "B->A",
+ "notes": "Luke 15:11-32, the prodigal son. A red-letter KJV inks the WHOLE parable,\nincluding every word Jesus puts in the mouths of the father, the younger son and\nthe elder brother. So j1, j2a and j2b all stay JESUS-RED, and two more of the\nparable's own lines are lifted out of narrator paraphrase and join them in red:\n  j3  Luke 15:18-19  the son's rehearsed speech, which n3 was paraphrasing\n  j4  Luke 15:29     the elder brother's complaint, which n10b was paraphrasing\nNo speaker moved OUT of red in this build. n8 is the closing card and keeps its id.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "When religious men complained that Jesus spent his time with sinners, he didn't argue with them. He answered with a story, about a father and his two sons."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "The younger son asked for his inheritance early — as if to say he wished his father were already dead. Then he left, and poured it all out on a life that emptied him."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "When the money was gone, a famine came. He ended up feeding pigs, so hungry he would have eaten what they ate. And there, in the mud, he came to his senses."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "So he started walking home, rehearsing a speech the whole way. Father, I am not worthy to be called your son. Make me one of your servants."
+  },
+  {
+   "id": "j3",
+   "speaker": "jesus",
+   "verse": "Luke 15:18-19",
+   "text": "I will arise and go to my father, and will say unto him, Father, I have sinned against heaven, and before thee, And am no more worthy to be called thy son: make me as one of thy hired servants."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "He was still a long way off... when his father saw him."
+  },
+  {
+   "id": "n5a",
+   "speaker": "narrator",
+   "text": "The father ran."
+  },
+  {
+   "id": "n5b",
+   "speaker": "narrator",
+   "text": "Old men in that world did not run. It was beneath their dignity. He ran anyway."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "He didn't wait for the speech. He wrapped his arms around his son before a single word was said."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "That night the father dressed him in the finest robe, put a ring on his hand, and called for a feast — and he told everyone why."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Luke 15:24",
+   "text": "For this my son was dead, and is alive again; he was lost, and is found."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "But Jesus wasn't finished. The older son was still out in the field, like always. When he came near the house and heard the music, a servant told him: your brother is home. And he was so angry, he refused to go in."
+  },
+  {
+   "id": "n10a",
+   "speaker": "narrator",
+   "text": "So the father left his own feast, and went out again — this time to the son who had never left."
+  },
+  {
+   "id": "n10b",
+   "speaker": "narrator",
+   "text": "The older son's hurt poured out. All these years I have served you. I never disobeyed you. And you never gave me even a young goat, to celebrate with my friends."
+  },
+  {
+   "id": "j4",
+   "speaker": "jesus",
+   "verse": "Luke 15:29",
+   "text": "Lo, these many years do I serve thee, neither transgressed I at any time thy commandment: and yet thou never gavest me a kid, that I might make merry with my friends:"
+  },
+  {
+   "id": "n11",
+   "speaker": "narrator",
+   "text": "The father didn't argue with him, either. Jesus gave him the last words of the story."
+  },
+  {
+   "id": "j2a",
+   "speaker": "jesus",
+   "verse": "Luke 15:31",
+   "text": "Son, thou art ever with me, and all that I have is thine."
+  },
+  {
+   "id": "j2b",
+   "speaker": "jesus",
+   "verse": "Luke 15:32",
+   "text": "It was meet that we should make merry, and be glad: for this thy brother was dead, and is alive again; and was lost, and is found."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "Which one feels closest to where you are right now — the son who left, the father who ran to meet him, or the brother who stayed, and felt unseen?"
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "STILL_SEEN",
+   "out"
+  ],
+  [
+   "n1",
+   "STILL_LEAVING",
+   "in"
+  ],
+  [
+   "n2",
+   "STILL_PIGPEN",
+   "in"
+  ],
+  [
+   "n3",
+   "STILL_ROAD",
+   "in"
+  ],
+  [
+   "j3",
+   "STILL_ROAD",
+   "out"
+  ],
+  [
+   "n4",
+   "STILL_SEEN",
+   "in"
+  ],
+  [
+   "n5a",
+   "STILL_RUNS",
+   "in"
+  ],
+  [
+   "n5b",
+   "STILL_RUNS",
+   "out"
+  ],
+  [
+   "n6",
+   "STILL_EMBRACE",
+   "in"
+  ],
+  [
+   "n7",
+   "STILL_FEAST",
+   "in"
+  ],
+  [
+   "j1",
+   "STILL_FEAST",
+   "out"
+  ],
+  [
+   "n9",
+   "STILL_BROTHER",
+   "in"
+  ],
+  [
+   "n10a",
+   "STILL_ENTREAT",
+   "in"
+  ],
+  [
+   "n10b",
+   "STILL_ENTREAT",
+   "out"
+  ],
+  [
+   "j4",
+   "STILL_ENTREAT",
+   "in"
+  ],
+  [
+   "n11",
+   "STILL_BROTHER",
+   "out"
+  ],
+  [
+   "j2a",
+   "STILL_ENTREAT",
+   "in"
+  ],
+  [
+   "j2b",
+   "STILL_ENTREAT",
+   "out"
+  ]
+ ],
+ "card": "n8",
+ "spoken": {}
+}

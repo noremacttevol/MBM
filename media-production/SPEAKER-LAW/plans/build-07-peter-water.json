@@ -1,0 +1,233 @@
+{
+ "build": "build-07-peter-water",
+ "reference": "Matthew 14",
+ "shape": "B->A",
+ "notes": "Matthew 14:22-33. j1, j2 and j3 are Jesus in the flesh and a red-letter KJV\ninks all three, so they stay RED. What was missing is everyone else in the boat:\nthree verbatim lines were buried in narrator paraphrase and are now SCRIPTURE (blue):\n  s28  Matthew 14:28  Peter: 'Lord, if it be thou, bid me come unto thee on the water.'\n  s30  Matthew 14:30  Peter: 'Lord, save me.'\n  s33  Matthew 14:33  the disciples: 'Of a truth thou art the Son of God.'\nFour narrator segments (n4, n5, n9, n10) were single audio files spread across two\nDIFFERENT stills by the old template. Template A is one beat per still, so each is\nsplit at the exact caption boundary the old build already used - same words, same\npictures, same edit. The added halves are n4b, n5b, n9b, n10b.\nn11 is the closing card and keeps its id.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Jesus had just fed more than five thousand people with a few loaves of bread and two small fish. And when it was done, he told his disciples to take the boat and cross the lake ahead of him. He sent the crowds home. And then he climbed a mountain, alone, to pray. That is where the night found him. Not in the boat. On the mountain, talking with his Father."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Out on the water, the wind turned against the boat. The waves rose. The disciples — several of them fishermen who had worked this lake their whole lives — rowed against it for hours. Matthew tells us it was the fourth watch of the night when help came. That means between three and six in the morning. They had been fighting that sea nearly all night."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "And then, through the spray and the dark, they saw something that made grown fishermen scream. A figure. Walking toward them. On top of the water. They cried out that it was a ghost — because nobody walks on the sea. But the voice that came back across the water was one they knew."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Matthew 14:27",
+   "text": "Be of good cheer; it is I; be not afraid."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Take heart. It's me. Don't be afraid. And Peter — impulsive, big-hearted Peter — called back across the storm: Lord, if it's really you, tell me to come to you on the water. Think about what he was asking for. Not for the storm to stop. To come out into it — to where Jesus stood."
+  },
+  {
+   "id": "s28",
+   "speaker": "scripture",
+   "verse": "Matthew 14:28",
+   "text": "Lord, if it be thou, bid me come unto thee on the water."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Matthew 14:29",
+   "text": "Come."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "One word. And Peter put his leg over the side of that pitching boat, and stood up on the sea."
+  },
+  {
+   "id": "n4b",
+   "speaker": "narrator",
+   "text": "And he was doing it. Step after step on the moving water, his eyes fixed on Jesus. For a moment, an ordinary fisherman walked where only God can walk."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Then he noticed the wind tearing at him. He looked down at the waves instead of ahead at Jesus."
+  },
+  {
+   "id": "n5b",
+   "speaker": "narrator",
+   "text": "And the moment his eyes moved, the water stopped holding him. He dropped to his waist, mid-stride, and cried out the shortest prayer in the Bible."
+  },
+  {
+   "id": "s30",
+   "speaker": "scripture",
+   "verse": "Matthew 14:30",
+   "text": "Lord, save me."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "And Jesus caught him. Immediately."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "Matthew uses that exact word. There was no pause. No lesson first. No letting him go under to teach him something. The hand was there before the prayer was finished. And from that grip — holding him above the water — Jesus asked him one question."
+  },
+  {
+   "id": "j3",
+   "speaker": "jesus",
+   "verse": "Matthew 14:31",
+   "text": "O thou of little faith, wherefore didst thou doubt?"
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "Why did you doubt? Hear how he asked it. Not from the shore. Not after pulling him into the boat. From the hand already holding him. It isn't a scolding. It's a real question, from someone who had already caught him — as if to say: you were doing it. What made you stop trusting me?"
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "The two of them came back to the boat across the water together. And the moment they climbed in, the wind stopped."
+  },
+  {
+   "id": "n9b",
+   "speaker": "narrator",
+   "text": "Not slowly. Not eventually. The sea that had fought them all night simply lay down flat under the stars."
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "And the men in that boat — the same men who minutes earlier had screamed that he was a ghost — knelt down where they sat, soaked and shaking, and worshipped him."
+  },
+  {
+   "id": "s33",
+   "speaker": "scripture",
+   "verse": "Matthew 14:33",
+   "text": "Of a truth thou art the Son of God."
+  },
+  {
+   "id": "n10b",
+   "speaker": "narrator",
+   "text": "You really are the Son of God, they said. The storm had taught them who he was. And notice what the story remembers about Peter. Not that he sank. That he walked. And that when he fell, he was caught."
+  },
+  {
+   "id": "n11",
+   "speaker": "narrator",
+   "text": "When your storm gets loud and your faith slips, look back up — the same hand is already reaching for you. Keep your eyes on him."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "n1",
+   "S2",
+   "in"
+  ],
+  [
+   "n2",
+   "S3",
+   "in"
+  ],
+  [
+   "j1",
+   "S3",
+   "in"
+  ],
+  [
+   "n3",
+   "S4",
+   "in"
+  ],
+  [
+   "s28",
+   "S4",
+   "out"
+  ],
+  [
+   "j2",
+   "S4",
+   "in"
+  ],
+  [
+   "n4",
+   "S4",
+   "out"
+  ],
+  [
+   "n4b",
+   "WALK",
+   "in"
+  ],
+  [
+   "n5",
+   "S6",
+   "in"
+  ],
+  [
+   "n5b",
+   "SINK",
+   "out"
+  ],
+  [
+   "s30",
+   "SINK",
+   "in"
+  ],
+  [
+   "n6",
+   "S8",
+   "in"
+  ],
+  [
+   "n7",
+   "S8",
+   "out"
+  ],
+  [
+   "j3",
+   "S8",
+   "in"
+  ],
+  [
+   "n8",
+   "S8",
+   "out"
+  ],
+  [
+   "n9",
+   "S9",
+   "in"
+  ],
+  [
+   "n9b",
+   "S10",
+   "out"
+  ],
+  [
+   "n10",
+   "S11",
+   "in"
+  ],
+  [
+   "s33",
+   "S11",
+   "out"
+  ],
+  [
+   "n10b",
+   "S12",
+   "out"
+  ]
+ ],
+ "card": "n11",
+ "spoken": {}
+}

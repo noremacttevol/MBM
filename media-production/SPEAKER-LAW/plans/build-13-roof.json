@@ -1,0 +1,202 @@
+{
+ "build": "build-13-roof",
+ "reference": "Mark 2",
+ "shape": "B->A",
+ "notes": "Mark 2:1-12. j1, j2 and j3 are Jesus in the flesh and all three stay RED.\nTwo verbatim lines by other people were only paraphrased and are now SCRIPTURE (blue):\n  s7   Mark 2:7   the scribes reasoning in their hearts: 'Why doth this man thus\n       speak blasphemies? who can forgive sins but God only?'\n  s12  Mark 2:12  the crowd: 'We never saw it on this fashion.'\nn10 was one audio across two different stills and is split at the old caption\nboundary into n10 and n10b. n12 is the closing card and keeps its id.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Capernaum, on the north shore of the Sea of Galilee. Jesus was home — and the word got out. By the time four men came up the street carrying their friend on a sleeping mat, one at each corner, the house he was teaching in had already swallowed half the town. The man on the mat was paralyzed. He could not walk to Jesus. So the people who loved him decided he would get there anyway."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "But the doorway was a wall of backs. People packed the room, packed the doorway, spilled into the street — no one was giving up a spot, not even for a man on a mat. Four friends stood there breathing hard, holding their friend, staring at an impossible crowd. And then one of them looked up. At the roof."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Here is something worth knowing: houses there had flat roofs of packed clay over reeds and beams, with a stairway up the outside wall. You could dig through one with your hands in a few minutes — and patch it in a day. Which is exactly what they did. Four men on a stranger's roof, tearing through the clay, coughing in the dust, grinning at each other like men doing something magnificent and slightly insane."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Below them, in the middle of the sermon, the ceiling cracked open. Daylight poured into the dark room through falling dust and straw. And down through that column of light, swaying on four ropes, lowered with enormous care, came a man on a mat — landing right at the feet of Jesus."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Now listen to what the story says next, because it is easy to miss. When Jesus saw their faith — theirs. The friends'. The four sweat-streaked faces ringing the hole in the roof. The man on the mat hadn't said a word. His friends' faith counted for him. He was carried there — and heaven honored the carrying."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "And Jesus looked at the man lying in the dusty light — a man braced for words about his legs — and the first thing he said was not about his legs at all."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Mark 2:5",
+   "text": "Son, thy sins be forgiven thee."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "The first word was son. Not a diagnosis. Not a lecture about his legs. Son — and then forgiveness. In that world, everyone assumed a body like his was the proof of some hidden guilt — he had carried the shame along with the paralysis his whole life. Jesus went to the deepest wound first. His legs had not moved yet. And it was already the miracle."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "But in the corner sat the scribes — the religious experts — and nothing about this made them glad. They didn't say a word out loud. They reasoned it in their hearts: this is blasphemy. No one can forgive sins but God alone. And on the logic, they were exactly right. That was the point they refused to see."
+  },
+  {
+   "id": "s7",
+   "speaker": "scripture",
+   "verse": "Mark 2:7",
+   "text": "Why doth this man thus speak blasphemies? who can forgive sins but God only?"
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "And then came the strangest moment in that room — stranger than the ceiling. Jesus knew what they were thinking. They had said nothing, and he answered them anyway:"
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Mark 2:9",
+   "text": "Whether is it easier to say to the sick of the palsy, Thy sins be forgiven thee; or to say, Arise, and take up thy bed, and walk?"
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "He was asking them: which is easier to say? Anyone can announce that sins are forgiven — no one can check. But tell a paralyzed man to stand, and everyone in the room finds out in a second what your words are worth. So — he said — so that you will know the forgiveness was real, watch this. He turned back to the man on the mat:"
+  },
+  {
+   "id": "j3",
+   "speaker": "jesus",
+   "verse": "Mark 2:11",
+   "text": "I say unto thee, Arise, and take up thy bed, and go thy way into thine house."
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "And immediately, he did. He stood — on legs trembling like a newborn colt's — while the crowd pulled back and the dust floated in the light."
+  },
+  {
+   "id": "n10b",
+   "speaker": "narrator",
+   "text": "Then he bent down, rolled up his mat, and tucked it under his arm. The bed that had carried him, he carried home."
+  },
+  {
+   "id": "n11",
+   "speaker": "narrator",
+   "text": "He walked out the door in front of everyone — through the same crowd that had no room for him an hour before. They made room now. Mark says they were all amazed, and gave the glory to God, and said to each other: we have never seen anything like this. And up on the roofline, four filthy, grinning friends pounded each other's shoulders and laughed toward heaven."
+  },
+  {
+   "id": "s12",
+   "speaker": "scripture",
+   "verse": "Mark 2:12",
+   "text": "We never saw it on this fashion."
+  },
+  {
+   "id": "n12",
+   "speaker": "narrator",
+   "text": "Four people tore a roof open because their friend could not get there alone. His faith didn't carry him that day — theirs did, and heaven counted it. So here is the question this story leaves behind: where do you find yourself in that room? On the mat — or holding a rope?"
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "n1",
+   "S2",
+   "in"
+  ],
+  [
+   "n2",
+   "S3",
+   "in"
+  ],
+  [
+   "n3",
+   "S4",
+   "in"
+  ],
+  [
+   "n4",
+   "S5",
+   "in"
+  ],
+  [
+   "n5",
+   "S6",
+   "in"
+  ],
+  [
+   "j1",
+   "S6",
+   "out"
+  ],
+  [
+   "n6",
+   "S6",
+   "in"
+  ],
+  [
+   "n7",
+   "S7",
+   "in"
+  ],
+  [
+   "s7",
+   "S7",
+   "out"
+  ],
+  [
+   "n8",
+   "S8",
+   "in"
+  ],
+  [
+   "j2",
+   "S8",
+   "out"
+  ],
+  [
+   "n9",
+   "S8",
+   "in"
+  ],
+  [
+   "j3",
+   "S6",
+   "in"
+  ],
+  [
+   "n10",
+   "S9",
+   "in"
+  ],
+  [
+   "n10b",
+   "S9B",
+   "out"
+  ],
+  [
+   "n11",
+   "S10",
+   "in"
+  ],
+  [
+   "s12",
+   "S10",
+   "out"
+  ]
+ ],
+ "card": "n12",
+ "spoken": {}
+}

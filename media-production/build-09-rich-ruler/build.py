@@ -1,30 +1,39 @@
 #!/usr/bin/env python3
 """Assemble Story Video #9 — The Rich Young Ruler (Mark 10:17-22).
 
-Full law stack per PRODUCTION-BIBLE.md + PREFLIGHT.md. Hybrid storybook:
-6 painted stills with Ken Burns drift + 2 Veo money-moment clips (the
-undignified RUN, 8s stretched to 12.8s; the walk-away into dusk, 8s
-stretched to 12.8s), edge-tts narration (ear-checked 9/9), serif
-captions, KJV red-letter j1 (Mark 10:21 exact), closing question card on
-cream #F7F2E9. Assembly Craft Laws: supersampled zoompan (anti-shimmer),
-RGBA caption fades, crf-16 intermediates, veryslow crf step-up final,
+Full law stack per PRODUCTION-BIBLE.md + PREFLIGHT.md. Phase-1 stills-only:
+8 painted stills with Ken Burns drift, edge-tts narration, serif captions,
+closing question card on cream #F7F2E9. Assembly Craft Laws: supersampled
+zoompan (anti-shimmer), crf-16 intermediates, veryslow crf step-up final,
 loudness toward -15 LUFS, detuned-pair music beds.
 
-Two-Voice Law: narrator modern American; Jesus ONLY exact KJV (10:21).
-Music map (the pack's law): sparse beds under n0-n2, FULL SILENCE before
-j1; a quiet bed may run under n3-n4; music DIES at the start of n5
-("And Jesus let him go") and NEVER returns — s7, s8, and the card all
-play in true silence under voice. The ending stays in sorrow.
+SPEAKER-LAW rebuild (see media-production/SPEAKER-LAW.md). Converted from the old
+template B: the 8-tuple SEGMENTS with hardcoded durations and a per-beat
+`caption_style` is gone. Who is speaking is declared ONCE in make_narration.py and
+decides BOTH the narration voice and the caption colour. Beat durations are derived
+from the narration audio (LEAD + spoken + gap), never hand-set, and the video ends
+TAIL seconds after the last spoken word.
 
-All offsets computed from MEASURED mp3 durations + measured trailing
-silence (spoken end = start + dur - tail); breaths 0.8-1.3s.
+j1 is Jesus in the flesh (Mark 10:21) and stays red. The rich young ruler himself
+never got to speak — both of his lines were narrator paraphrase and are now
+SCRIPTURE (blue), because he is a man in the story, not Jesus: s17 (Mark 10:17)
+and s20 (Mark 10:20).
 
-Output: 1080x1920 H.264 30fps, <25MB, 217.4s.
+The caption look, the Ken Burns maths, the audio mix, the loudness pass and the
+size ladder are unchanged. The ending still stays in sorrow.
+
+Output: 1080x1920 H.264 30fps, <25MB.
 """
 import os
+import shutil
 import subprocess
-from mbm_caption_timing import caption_filter
 
+import make_narration  # SEGMENTS -> verbatim caption text + speaker per segment
+from mbm_caption_timing import caption_filter
+from mbm_speakers import is_scripture
+
+FF = shutil.which("ffmpeg") or "ffmpeg"
+FPROBE = shutil.which("ffprobe") or "ffprobe"
 A = "assets"
 S = "segs"
 FPS = 30
@@ -45,136 +54,40 @@ S6 = "s6-walk-away.jpeg"       # was a Veo clip — now a face-shown still (Law 
 S7 = "s7-he-let-him-go.jpeg"
 S8 = "s8-empty-road.jpeg"
 
-# (id, kind, source, stretch_or_none, duration_s, zoom_dir, caption, style)
-# Boundaries: 0, 12.8, 28.0, 46.4, 65.6, 79.0, 92.8, 100.6, 108.6, 124.6,
-# 141.2, 154.0, 166.8, 183.4, 193.4, 203.8, 217.4.
-SEGMENTS = [
-    # n0 — the run (v17 + the WHY-gem). Face-shown still (Law E) opens it.
-    ("n0a", "still", S1, None, 12.8, "in",
-     "Jesus was setting out on a journey when\n"
-     "a young man came running down the road\n"
-     "after him. Running. You need to\n"
-     "understand what that looked like.", "n"),
-    ("n0b", "still", S2, None, 15.2, "in",
-     "This man was wealthy — fine robes, gold\n"
-     "rings, a name people knew. Men like that\n"
-     "did not run in public. It was beneath\n"
-     "them. He ran anyway, in front of everyone,\n"
-     "and dropped to his knees in the dust\n"
-     "at Jesus's feet.", "n"),
-    # n1 — the question + the record (v17b, v19-20 modern).
-    ("n1a", "still", S2, None, 18.4, "out",
-     "He asked the question he had been\n"
-     "carrying, maybe his whole life. Good\n"
-     "teacher — what do I have to do to live\n"
-     "forever with God? Jesus pointed him to\n"
-     "the commandments. Don't cheat anyone.\n"
-     "Don't steal. Don't lie. Honor your\n"
-     "father and your mother.", "n"),
-    ("n1b", "still", S2, None, 19.2, "in",
-     "And the young man answered: Teacher,\n"
-     "I have kept every one of them since I\n"
-     "was a boy. And here is the thing. He\n"
-     "meant it. This was not a proud man\n"
-     "showing off. This was a student who had\n"
-     "done all the homework, kneeling in the\n"
-     "dirt, asking if it was enough.", "n"),
-    # n2 — the look (v21a). The money beat; music thins under this.
-    ("n2a", "still", S3, None, 13.4, "in",
-     "Mark writes what happened next in five\n"
-     "words. Jesus, looking at him, loved him.\n"
-     "Of all the people in Mark's story, this\n"
-     "is the one he says it about, straight out.", "n"),
-    ("n2b", "still", S3, None, 13.8, "out",
-     "Jesus looked at this man — his sincerity,\n"
-     "his gold rings, his hope — and loved him.\n"
-     "And then, with love in his voice, he said\n"
-     "the hardest sentence in the book.", "n"),
-    # J1 — exact KJV Mark 10:21, slow and warm, in FULL SILENCE.
-    ("j1a", "still", S4, None, 7.8, "in",
-     "\u201cOne thing thou lackest: go thy way,\n"
-     "sell whatsoever thou hast,\nand give to the poor,\u201d", "kjv"),
-    ("j1b", "still", S4, None, 8.0, "out",
-     "\u201cand thou shalt have treasure in heaven:\n"
-     "and come, take up the cross,\nand follow me.\u201d", "kjv"),
-    # n3 — translation bridge (Translation Law: modern meaning only).
-    ("n3a", "still", S4, None, 16.0, "in",
-     "You're missing one thing. Not one more\n"
-     "rule. One thing standing between you\n"
-     "and God. Sell what you have. Give it to\n"
-     "the people who have nothing. And then —\n"
-     "come, follow me.", "n"),
-    ("n3b", "still", S3, None, 16.6, "out",
-     "Hear that last part. It was an invitation.\n"
-     "The same words Jesus used to call Peter,\n"
-     "and Andrew, and James, and John. He was\n"
-     "being invited into the inner circle. It\n"
-     "just came wrapped in the one thing this\n"
-     "man could not put down.", "n"),
-    # n4 — the turn (s5) + the walk away (s6 clip). v22.
-    ("n4a", "still", S5, None, 12.8, "in",
-     "His face fell. And he walked away\n"
-     "grieved — because he was very rich.\n"
-     "Notice what the text does not say. It\n"
-     "does not say he stopped believing. It\n"
-     "does not say he argued.", "n"),
-    ("n4b", "still", S6, None, 12.8, "out",
-     "He grieved — because he believed every\n"
-     "word, and the price was the thing he\n"
-     "loved most. He turned around, and he\n"
-     "walked back down that road toward\n"
-     "everything he owned.", "n"),
-    # n5 — THE PEAK (s7). Music dies HERE and never returns.
-    ("n5", "still", S7, None, 16.6, "in",
-     "And Jesus let him go. He did not lower\n"
-     "the bar. He did not soften the terms.\n"
-     "He did not chase him down the road.\n"
-     "He stood there, and he watched him walk\n"
-     "away — and he loved him the whole time.", "n"),
-    # n6 — the coda, in true silence (s8).
-    ("n6a", "still", S8, None, 10.0, "out",
-     "The road emptied. The sun went down.\n"
-     "And the story just ends there — Mark\n"
-     "leaves it exactly that sad, on purpose.", "n"),
-    ("n6b", "still", S8, None, 10.4, "in",
-     "Sit with it. A love that will not force\n"
-     "you. Is that weakness — or is it the\n"
-     "deepest respect you have ever been\n"
-     "shown?", "n"),
-    # Card — held 13.6s AND read aloud (Readable-Card Law). In silence.
-    ("card", "card", None, None, 13.6, None,
-     "Is there something\nyou already know — quietly —\n\n"
-     "that stands between you\nand fully following\n"
-     "what you believe?",
-     "close"),
+TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
+# SPEAKER-LAW: declared once in make_narration, so the caption colour
+# and the narration voice can never drift apart.
+SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
+
+# BEATS: (segment_name, still, zoom_dir). Zoom alternates in/out on a shared still.
+BEATS = [
+    ("n0", S1, "in"),
+    ("n0b", S2, "in"),
+    ("s17", S2, "out"),
+    ("n1", S2, "out"),
+    ("s20", S2, "in"),
+    ("n2", S3, "in"),
+    ("j1", S4, "in"),
+    ("n3", S4, "in"),
+    ("n3b", S3, "out"),
+    ("n4", S5, "in"),
+    ("n4b", S6, "out"),
+    ("n5", S7, "in"),
+    ("n6", S8, "out"),
 ]
 
-# narration placements: (audio file, absolute start seconds)
-# measured dur/tail: n0 27.144/.44  n1 37.128/.57  n2 26.616/.43
-#   j1 15.528/1.22  n3 31.752/.42  n4 25.776/.45  n5 14.496/.43
-#   n6 18.984/.43  n7 8.688/.45
-# breaths 0.8-1.3s between SPOKEN ends; 1.5s held quiet before j1
-# (music already fully out); 1.3s held beat before the PEAK n5.
-AUDIO = [
-    ("audio/n0.mp3", 0.4),     # clip+s2 0-28.0    the run (sp end 27.10)
-    ("audio/n1.mp3", 28.2),    # s2 28.0-65.6      question+record (sp 64.76)
-    ("audio/n2.mp3", 65.8),    # s3 65.6-92.8      the look (sp 91.99)
-    ("audio/j1.mp3", 93.5),    # s4 92.8-108.6     KJV Mark 10:21 (sp 107.81)
-    ("audio/n3.mp3", 109.0),   # s4/s3 108.6-141.2 translation bridge (sp 140.33)
-    ("audio/n4.mp3", 141.4),   # s5/clip 141.2-166.8 the turn+walk away (sp 166.73)
-    ("audio/n5.mp3", 168.0),   # s7 166.8-183.4    PEAK: he let him go (sp 182.07)
-    ("audio/n6.mp3", 184.4),   # s8 183.4-203.8    coda in silence (sp 202.95)
-    ("audio/n7.mp3", 205.0),   # card 203.8-217.4  closing read (sp 213.24)
-]
+# The closing card is narrated but is not a beat — build_card places it itself.
+CARD = "n7"
+# PEAK: the first non-narrator line — the ruler's own question (Mark 10:17).
+PEAK = "s17"
 
-# Detuned-pair beds — sparse. FULL SILENCE before j1 (93.5). A quiet bed
-# under n3-n4 only. Music dies at the start of n5 (168.0) and NEVER
-# returns — the pack's law: the ending stays in sorrow, in true silence.
-# (start_s, end_s, style) — style "a" = fuller, "b" = quieter/warmer.
-BEDS = [
-    (0.0, 91.3, "a"),      # run/question/the look; fully out before j1
-    (109.5, 167.3, "b"),   # under the bridge + walk away; dies at n5
-]
+LEAD = 0.28
+GAP = 0.65
+KJV_GAP = 1.60
+# No-dead-air law: the video ends TAIL seconds after the last spoken
+# word. Derived, never hand-set. Clears the card's 0.8s fade-out so
+# the last word and the fade are never clipped.
+TAIL = 1.5
 
 
 def run(cmd):
@@ -182,80 +95,23 @@ def run(cmd):
     subprocess.run(cmd, check=True, capture_output=True)
 
 
-import textwrap
+def dur_of(path):
+    out = subprocess.run(
+        [FPROBE, "-v", "error", "-show_entries", "format=duration",
+         "-of", "csv=p=0", path], capture_output=True, text=True)
+    return float(out.stdout.strip())
 
 
-# ---- CAPTION SYSTEM v2 (Cameron, 2026-07-15) — wide bottom, chunked ----
-# Captions sit low (y=h-120-text_h) in a strong shadow box and are split
-# into short timed chunks so a long narration line never crams the frame.
-def sentences(text):
-    import re
-    return [p for p in re.split(r"(?<=[.!?;:]) +", text) if p]
+def spoken_of(path):
+    tmp = f"{S}/_spoken.wav"
+    run([FF, "-y", "-v", "error", "-i", path, "-af",
+         "areverse,silenceremove=start_periods=1:start_threshold=-50dB:"
+         "start_duration=0.02,areverse", "-c:a", "pcm_s16le", tmp])
+    return dur_of(tmp)
 
 
-def chunk_caption(text, width, max_lines):
-    out, cur = [], ""
-    for s in sentences(text):
-        cand = (cur + " " + s).strip()
-        if len(textwrap.wrap(cand, width)) <= max_lines:
-            cur = cand
-            continue
-        if cur:
-            out.append(cur)
-        if len(textwrap.wrap(s, width)) <= max_lines:
-            cur = s
-        else:
-            piece = ""
-            for frag in s.split(", "):
-                cand2 = (piece + ", " + frag).strip(", ").strip()
-                if len(textwrap.wrap(cand2, width)) <= max_lines:
-                    piece = cand2
-                else:
-                    if piece:
-                        out.append(piece)
-                    piece = frag
-            cur = piece
-    if cur:
-        out.append(cur)
-    return out
-
-
-def caption_layers(seg_id, dur, text, style):
-    if not text:
-        return [], []
-    text = " ".join(text.split())
-    if style == "kjv":
-        font, size, color, width, maxl = SERIF_BI, 46, "0xFFF3DC", 38, 3
-    else:
-        font, size, color, width, maxl = SERIF, 34, "white", 48, 2
-    spoken_end = max(0.6, dur - 0.5)
-    chunks = chunk_caption(text, width, maxl)
-    total = sum(len(c) for c in chunks) or 1
-    t0, t1 = 0.15, max(0.6, min(dur - 0.2, spoken_end + 0.35))
-    filters, labels = [], []
-    acc = 0
-    for i, c in enumerate(chunks):
-        cs = t0 + (t1 - t0) * acc / total
-        acc += len(c)
-        ce = t0 + (t1 - t0) * acc / total
-        tf = f"{S}/{seg_id}_{i}.txt"
-        with open(tf, "w") as f:
-            f.write("\n".join(textwrap.wrap(c, width)))
-        fo = max(cs, ce - 0.35)
-        filters.append(
-            f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
-            f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
-            f"fontcolor={color}:line_spacing=13:x=(w-text_w)/2:"
-            f"y=h-120-text_h:"
-            f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
-            f"box=1:boxcolor=black@0.55:boxborderw=22,"
-            f"fade=t=in:st={cs:.2f}:d=0.35:alpha=1,"
-            f"fade=t=out:st={fo:.2f}:d=0.35:alpha=1[cap{seg_id}{i}]")
-        labels.append(f"[cap{seg_id}{i}]")
-    return filters, labels
-
-
-def build_still(seg_id, src, dur, zdir, cap, style):
+def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, speaker,
+                first, last):
     frames = int(dur * FPS)
     if zdir == "in":
         z = f"1.001+0.10*on/{frames}"
@@ -268,13 +124,13 @@ def build_still(seg_id, src, dur, zdir, cap, style):
             f"d={frames}:s=2160x3840:fps={FPS},"
             f"scale=1080:1920:flags=lanczos")
     tail = ""
-    if seg_id == "n0a":       # gentle fade-up to open the video
+    if first:                 # gentle fade-up to open the video
         tail = ",fade=t=in:st=0:d=1.2"
-    if seg_id == "n6b":       # fade to black into the closing card
+    if last:                  # fade to black into the closing card
         tail = f",fade=t=out:st={dur-1.2}:d=1.2"
-    capf = caption_filter(seg_id, dur, dur, cap, style == "kjv")
+    capf = caption_filter(seg_id, dur, spoken_end, cap_text, speaker)
     fc = f"{base}{capf}{tail}[v]"
-    run(["ffmpeg", "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
+    run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
          "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
 
 
@@ -285,13 +141,15 @@ def build_card(seg_id, dur, text):
     vf = (f"drawtext=fontfile={SERIF}:textfile={tf}:fontsize=50:"
           f"fontcolor={INK}:line_spacing=22:x=(w-text_w)/2:y=(h-text_h)/2,"
           f"fade=t=in:st=0:d=0.8,fade=t=out:st={dur-0.8}:d=0.8")
-    run(["ffmpeg", "-y", "-f", "lavfi",
+    run([FF, "-y", "-f", "lavfi",
          "-i", f"color=c={CREAM}:s=1080x1920:r={FPS}:d={dur}",
          "-vf", vf] + ENC + [f"{S}/{seg_id}.mp4"])
 
 
 def bed_filter(idx, start, end, style):
     dur = end - start
+    if dur <= 1.0:
+        return None
     if style == "a":
         # HUM PURGE (Cameron, 2026-07-16): the sine 'music bed' reads as a background hum in every video — amplitudes zeroed. Do not restore; narration + silence only (PRODUCTION-BIBLE #5b 2026-07-16).
         src = ("aevalsrc='0*(sin(2*PI*110*t)+sin(2*PI*110.6*t))"
@@ -317,44 +175,89 @@ def bed_filter(idx, start, end, style):
 
 def main():
     os.makedirs(S, exist_ok=True)
-    total = sum(s[4] for s in SEGMENTS)
-    print(f"total runtime: {total:.1f}s", flush=True)
 
-    for seg_id, kind, src, stretch, dur, zdir, cap, style in SEGMENTS:
-        if kind == "card":
-            build_card(seg_id, dur, cap)
-        else:               # stills-only (Law E): every scene is a still now
-            build_still(seg_id, src, dur, zdir, cap, style)
+    spoken = {n: spoken_of(f"audio/{n}.mp3") for n, _, _ in BEATS}
+    card_spoken = spoken_of(f"audio/{CARD}.mp3")
+
+    timeline = []
+    audio_place = []
+    start_of = {}
+    t = 0.0
+    for name, still, zdir in BEATS:
+        speaker = SPEAKER[name]
+        gap = KJV_GAP if is_scripture(speaker) else GAP
+        vdur = LEAD + spoken[name] + gap
+        a_start = t + LEAD
+        audio_place.append((f"audio/{name}.mp3", a_start))
+        start_of[name] = a_start
+        timeline.append((name, still, zdir, vdur, a_start, speaker))
+        t += vdur
+    card_vdur = LEAD + card_spoken + TAIL
+    card_start = t
+    audio_place.append((f"audio/{CARD}.mp3", card_start + LEAD))
+    total = t + card_vdur
+
+    worst, worst_at = 0.0, None
+    prev_end = None
+    for name, _s, _z, _v, a_start, _sp in timeline:
+        if prev_end is not None and a_start - prev_end > worst:
+            worst, worst_at = a_start - prev_end, name
+        prev_end = a_start + spoken[name]
+    print(f"total runtime: {total:.1f}s ({total/60:.2f} min)", flush=True)
+    print(f"worst spoken gap: {worst:.2f}s before {worst_at} (must be <= 2.5s)", flush=True)
+    if worst > 2.5:
+        raise SystemExit(f"DEAD AIR: {worst:.2f}s gap before {worst_at} exceeds 2.5s")
+    print(f"sacred silence: {PEAK} at {start_of[PEAK]:.1f}s", flush=True)
+
+    n_beats = len(timeline)
+    for i, (seg_id, still, zdir, vdur, _a, speaker) in enumerate(timeline):
+        build_still(seg_id, still, vdur, zdir, LEAD + spoken[seg_id],
+                    TEXT[seg_id], speaker, first=(i == 0),
+                    last=(i == n_beats - 1))
+    build_card(CARD, card_vdur, TEXT[CARD])
 
     with open(f"{S}/concat.txt", "w") as f:
-        for seg in SEGMENTS:
-            f.write(f"file '{seg[0]}.mp4'\n")
-    run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", f"{S}/concat.txt",
+        for seg_id, *_ in timeline:
+            f.write(f"file '{seg_id}.mp4'\n")
+        f.write(f"file '{CARD}.mp4'\n")
+    run([FF, "-y", "-f", "concat", "-safe", "0", "-i", f"{S}/concat.txt",
          "-c", "copy", f"{S}/video_silent.mp4"])
 
-    # ---- audio: narration at absolute offsets + detuned-pair beds ----
+    # ---- audio: narration at derived offsets + detuned-pair beds ----
+    # The bed is fully out before the peak so the sacred line lands in
+    # silence, then a quieter, warmer bed returns until the closing card.
+    peak_end = start_of[PEAK] + spoken[PEAK]
+    beds = [
+        (0.0, start_of[PEAK] - 1.2, "a"),
+        (peak_end + 1.0, card_start - 0.8, "b"),
+    ]
+
     inputs = []
     filters = []
     labels = []
-    for i, (path, start) in enumerate(AUDIO):
+    for i, (path, start) in enumerate(audio_place):
         inputs += ["-i", path]
         ms = int(start * 1000)
         filters.append(f"[{i}:a]aresample=44100,adelay={ms}|{ms},volume=1.0[a{i}]")
         labels.append(f"[a{i}]")
-    for bi, (bs, be, st) in enumerate(BEDS):
-        filters.append(bed_filter(bi, bs, be, st))
-        labels.append(f"[mus{bi}]")
+    bi = 0
+    for (bs, be, st) in beds:
+        bf = bed_filter(bi, bs, be, st)
+        if bf:
+            filters.append(bf)
+            labels.append(f"[mus{bi}]")
+            bi += 1
     n = len(labels)
     filters.append("".join(labels) +
                    f"amix=inputs={n}:duration=longest:normalize=0,"
-                   f"apad=whole_dur={total}[aout]")
-    run(["ffmpeg", "-y"] + inputs + ["-filter_complex", ";".join(filters),
-         "-map", "[aout]", "-t", str(total), "-c:a", "aac", "-b:a", "160k",
+                   f"apad=whole_dur={total:.2f}[aout]")
+    run([FF, "-y"] + inputs + ["-filter_complex", ";".join(filters),
+         "-map", "[aout]", "-t", f"{total:.2f}", "-c:a", "aac", "-b:a", "160k",
          f"{S}/audio_mix.m4a"])
 
     # ---- loudness law: measure EBU R128, lift toward -15 LUFS ----
     probe = subprocess.run(
-        ["ffmpeg", "-i", f"{S}/audio_mix.m4a", "-af", "ebur128", "-f", "null", "-"],
+        [FF, "-i", f"{S}/audio_mix.m4a", "-af", "ebur128", "-f", "null", "-"],
         capture_output=True, text=True)
     lufs = None
     for line in probe.stderr.splitlines():
@@ -371,7 +274,7 @@ def main():
     size = 0.0
     crf = 21
     for crf in (21, 22, 23, 24, 25):
-        run(["ffmpeg", "-y", "-i", f"{S}/video_silent.mp4",
+        run([FF, "-y", "-i", f"{S}/video_silent.mp4",
              "-i", f"{S}/audio_mix.m4a", "-map", "0:v", "-map", "1:a",
              "-c:v", "libx264", "-preset", "veryslow", "-crf", str(crf),
              "-maxrate", f"{vcap}k", "-bufsize", f"{vcap*2}k",

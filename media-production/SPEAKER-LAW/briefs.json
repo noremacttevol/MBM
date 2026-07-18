@@ -4632,7 +4632,20 @@
    "s8.jpeg",
    "s9.jpeg"
   ],
-  "still_vars": {},
+  "still_vars": {
+   "S1": "s1.jpeg",
+   "S2": "s2.jpeg",
+   "S3": "s3.jpeg",
+   "S4": "s4.jpeg",
+   "S5": "s5.jpeg",
+   "S6": "s6.jpeg",
+   "S7": "s7.jpeg",
+   "S8": "s8.jpeg",
+   "S9": "s9.jpeg",
+   "S10A": "s10a.jpeg",
+   "S10B": "s10b.jpeg",
+   "S11": "s11.jpeg"
+  },
   "beats": [],
   "segments": [
    {
@@ -7275,7 +7288,20 @@
    "s8.jpeg",
    "s9.jpeg"
   ],
-  "still_vars": {},
+  "still_vars": {
+   "S1": "s1.jpeg",
+   "S2": "s2.jpeg",
+   "S3": "s3.jpeg",
+   "S4": "s4.jpeg",
+   "S5": "s5.jpeg",
+   "S6": "s6.jpeg",
+   "S7": "s7.jpeg",
+   "S8": "s8.jpeg",
+   "S9": "s9.jpeg",
+   "S10": "s10.jpeg",
+   "S11": "s11.jpeg",
+   "S12": "s12.jpeg"
+  },
   "beats": [],
   "segments": [
    {
@@ -11723,7 +11749,17 @@
    "s8.jpeg",
    "s9.jpeg"
   ],
-  "still_vars": {},
+  "still_vars": {
+   "S1": "s1.jpeg",
+   "S2": "s2.jpeg",
+   "S3": "s3.jpeg",
+   "S4": "s4.jpeg",
+   "S5": "s5.jpeg",
+   "S6": "s6.jpeg",
+   "S7": "s7.jpeg",
+   "S8": "s8.jpeg",
+   "S9": "s9.jpeg"
+  },
   "beats": [],
   "segments": [
    {
@@ -13018,7 +13054,16 @@
    "s7.jpeg",
    "s8.jpeg"
   ],
-  "still_vars": {},
+  "still_vars": {
+   "S1": "s1.jpeg",
+   "S2": "s2.jpeg",
+   "S3": "s3.jpeg",
+   "S4": "s4.jpeg",
+   "S5": "s5.jpeg",
+   "S6": "s6.jpeg",
+   "S7": "s7.jpeg",
+   "S8": "s8.jpeg"
+  },
   "beats": [],
   "segments": [
    {
@@ -15881,7 +15926,16 @@
    "s7.jpeg",
    "s8.jpeg"
   ],
-  "still_vars": {},
+  "still_vars": {
+   "S1": "s1.jpeg",
+   "S2": "s2.jpeg",
+   "S3": "s3.jpeg",
+   "S4": "s4.jpeg",
+   "S5": "s5.jpeg",
+   "S6": "s6.jpeg",
+   "S7": "s7.jpeg",
+   "S8": "s8.jpeg"
+  },
   "beats": [],
   "segments": [
    {
@@ -16589,7 +16643,14 @@
    "s5.jpeg",
    "s6.jpeg"
   ],
-  "still_vars": {},
+  "still_vars": {
+   "S1": "s1.jpeg",
+   "S2": "s2.jpeg",
+   "S3": "s3.jpeg",
+   "S4": "s4.jpeg",
+   "S5": "s5.jpeg",
+   "S6": "s6.jpeg"
+  },
   "beats": [],
   "segments": [
    {
@@ -16797,7 +16858,15 @@
    "s6.jpeg",
    "s7.jpeg"
   ],
-  "still_vars": {},
+  "still_vars": {
+   "S1": "s1.jpeg",
+   "S2": "s2.jpeg",
+   "S3": "s3.jpeg",
+   "S4": "s4.jpeg",
+   "S5": "s5.jpeg",
+   "S6": "s6.jpeg",
+   "S7": "s7.jpeg"
+  },
   "beats": [],
   "segments": [
    {
@@ -17207,7 +17276,15 @@
    "s6.jpeg",
    "s7.jpeg"
   ],
-  "still_vars": {},
+  "still_vars": {
+   "S1": "s1.jpeg",
+   "S2": "s2.jpeg",
+   "S3": "s3.jpeg",
+   "S4": "s4.jpeg",
+   "S5": "s5.jpeg",
+   "S6": "s6.jpeg",
+   "S7": "s7.jpeg"
+  },
   "beats": [],
   "segments": [
    {
@@ -17626,7 +17703,15 @@
    "s6.jpeg",
    "s7.jpeg"
   ],
-  "still_vars": {},
+  "still_vars": {
+   "S1": "s1.jpeg",
+   "S2": "s2.jpeg",
+   "S3": "s3.jpeg",
+   "S4": "s4.jpeg",
+   "S5": "s5.jpeg",
+   "S6": "s6.jpeg",
+   "S7": "s7.jpeg"
+  },
   "beats": [],
   "segments": [
    {
@@ -18043,7 +18128,16 @@
    "s7.jpeg",
    "s8.jpeg"
   ],
-  "still_vars": {},
+  "still_vars": {
+   "S1": "s1.jpeg",
+   "S2": "s2.jpeg",
+   "S3": "s3.jpeg",
+   "S4": "s4.jpeg",
+   "S5": "s5.jpeg",
+   "S6": "s6.jpeg",
+   "S7": "s7.jpeg",
+   "S8": "s8.jpeg"
+  },
   "beats": [],
   "segments": [
    {

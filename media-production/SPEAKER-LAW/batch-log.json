@@ -182,5 +182,85 @@
   "trailing": 1.46,
   "decode_errors": 0,
   "ok": true
+ },
+ "build-158-two-sticks": {
+  "status": "shipped",
+  "secs": 183.4,
+  "total": 198.28,
+  "trailing": 1.46,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-160-stone-cut": {
+  "status": "shipped",
+  "secs": 185.8,
+  "total": 200.73,
+  "trailing": 1.47,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-161-called-of-god": {
+  "status": "shipped",
+  "secs": 193.1,
+  "total": 188.01,
+  "trailing": 1.48,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-163-apostles-prophets": {
+  "status": "shipped",
+  "secs": 161.0,
+  "total": 163.49,
+  "trailing": 1.48,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-164-unity-of-faith": {
+  "status": "shipped",
+  "secs": 156.0,
+  "total": 169.5,
+  "trailing": 1.5,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-165-laying-on-hands": {
+  "status": "shipped",
+  "secs": 149.6,
+  "total": 166.07,
+  "trailing": 1.49,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-166-baptized-properly": {
+  "status": "shipped",
+  "secs": 152.0,
+  "total": 174.6,
+  "trailing": 1.51,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-170-sacrament-worthily": {
+  "status": "shipped",
+  "secs": 147.2,
+  "total": 167.73,
+  "trailing": 1.51,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-171-baptized-for-the-dead": {
+  "status": "shipped",
+  "secs": 74.2,
+  "total": 93.57,
+  "trailing": 1.91,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-172-gospel-preached-to-the-dead": {
+  "status": "shipped",
+  "secs": 58.3,
+  "total": 71.1,
+  "trailing": 1.89,
+  "decode_errors": 0,
+  "ok": true
  }
 }

@@ -1,0 +1,150 @@
+{
+ "build": "build-09-rich-ruler",
+ "reference": "Mark 10",
+ "shape": "B->A",
+ "notes": "Mark 10:17-22. j1 is Jesus in the flesh and stays RED. The rich young ruler\nhimself never got to speak - both of his lines were narrator paraphrase and are now\nSCRIPTURE (blue), because he is a man in the story, not Jesus:\n  s17  Mark 10:17  'Good Master, what shall I do that I may inherit eternal life?'\n  s20  Mark 10:20  'Master, all these have I observed from my youth.'\nn0, n3 and n4 were single audio files spread across two different stills by the old\ntemplate; each is split at the caption boundary the old build already used, so the\npictures and the edit are unchanged (n0b, n3b, n4b).\nn7 is the closing card and keeps its id.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Jesus was setting out on a journey when a young man came running down the road after him. Running. You need to understand what that looked like."
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "This man was wealthy — fine robes, gold rings, a name people knew. Men like that did not run in public. It was beneath them. He ran anyway, in front of everyone, and dropped to his knees in the dust at Jesus's feet."
+  },
+  {
+   "id": "s17",
+   "speaker": "scripture",
+   "verse": "Mark 10:17",
+   "text": "Good Master, what shall I do that I may inherit eternal life?"
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "He asked the question he had been carrying, maybe his whole life. Good teacher — what do I have to do to live forever with God? Jesus pointed him to the commandments. Don't cheat anyone. Don't steal. Don't lie. Honor your father and your mother. And the young man answered: Teacher, I have kept every one of them since I was a boy. And here is the thing. He meant it. This was not a proud man showing off. This was a student who had done all the homework, kneeling in the dirt, asking if it was enough."
+  },
+  {
+   "id": "s20",
+   "speaker": "scripture",
+   "verse": "Mark 10:20",
+   "text": "Master, all these have I observed from my youth."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Mark writes what happened next in five words. Jesus, looking at him, loved him. Of all the people in Mark's story, this is the one he says it about, straight out. Jesus looked at this man — his sincerity, his gold rings, his hope — and loved him. And then, with love in his voice, he said the hardest sentence in the book."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Mark 10:21",
+   "text": "One thing thou lackest: go thy way, sell whatsoever thou hast, and give to the poor, and thou shalt have treasure in heaven: and come, take up the cross, and follow me."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "You're missing one thing. Not one more rule. One thing standing between you and God. Sell what you have. Give it to the people who have nothing. And then — come, follow me."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "Hear that last part. It was an invitation. The same words Jesus used to call Peter, and Andrew, and James, and John. He was being invited into the inner circle. It just came wrapped in the one thing this man could not put down."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "His face fell. And he walked away grieved — because he was very rich. Notice what the text does not say. It does not say he stopped believing. It does not say he argued."
+  },
+  {
+   "id": "n4b",
+   "speaker": "narrator",
+   "text": "He grieved — because he believed every word, and the price was the thing he loved most. He turned around, and he walked back down that road toward everything he owned."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "And Jesus let him go. He did not lower the bar. He did not soften the terms. He did not chase him down the road. He stood there, and he watched him walk away — and he loved him the whole time."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "The road emptied. The sun went down. And the story just ends there — Mark leaves it exactly that sad, on purpose. Sit with it. A love that will not force you. Is that weakness — or is it the deepest respect you have ever been shown?"
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "Is there something you already know — quietly — that stands between you and fully following what you believe?"
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "n0b",
+   "S2",
+   "in"
+  ],
+  [
+   "s17",
+   "S2",
+   "out"
+  ],
+  [
+   "n1",
+   "S2",
+   "out"
+  ],
+  [
+   "s20",
+   "S2",
+   "in"
+  ],
+  [
+   "n2",
+   "S3",
+   "in"
+  ],
+  [
+   "j1",
+   "S4",
+   "in"
+  ],
+  [
+   "n3",
+   "S4",
+   "in"
+  ],
+  [
+   "n3b",
+   "S3",
+   "out"
+  ],
+  [
+   "n4",
+   "S5",
+   "in"
+  ],
+  [
+   "n4b",
+   "S6",
+   "out"
+  ],
+  [
+   "n5",
+   "S7",
+   "in"
+  ],
+  [
+   "n6",
+   "S8",
+   "out"
+  ]
+ ],
+ "card": "n7",
+ "spoken": {}
+}

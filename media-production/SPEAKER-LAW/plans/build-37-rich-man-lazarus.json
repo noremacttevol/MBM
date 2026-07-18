@@ -1,0 +1,212 @@
+{
+ "build": "build-37-rich-man-lazarus",
+ "reference": "Luke 16",
+ "shape": "B->A",
+ "notes": "Luke 16:19-31. A parable, so a red-letter KJV inks the whole of it - including\nAbraham and the rich man, because those are Jesus's own words. j1 and j2 stay RED and\nthree more parable lines the video only paraphrased join them:\n  j3  Luke 16:24  the rich man: 'Father Abraham, have mercy on me...'\n  j4  Luke 16:26  '...between us and you there is a great gulf fixed...'\n  j5  Luke 16:29  'They have Moses and the prophets; let them hear them.'\nNote this Lazarus is the beggar in the parable, not the Lazarus of John 11.\nstill_vars S1..S8 introduced.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Jesus once told a story about two men who lived side by side, yet worlds apart."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "One was rich. He wore the finest purple and linen, and every day of his life was a feast."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Just outside his house, at his own gate, lay a poor beggar named Lazarus."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "He was covered in sores, and so hungry he only wished for the scraps that fell from the rich man's table. Even the stray dogs came and licked his wounds."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "The rich man walked past that gate every single day. And every day he stepped around the suffering man lying there, and did nothing."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Then the day came that comes for us all. Lazarus died — and the angels carried him home, to Abraham's side, into light and comfort at last."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "The rich man died too, and was buried. But he opened his eyes in a place of torment: a dark and thirsty place, far from the light."
+  },
+  {
+   "id": "j3",
+   "speaker": "jesus",
+   "verse": "Luke 16:24",
+   "text": "Father Abraham, have mercy on me, and send Lazarus, that he may dip the tip of his finger in water, and cool my tongue; for I am tormented in this flame."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "Across a vast divide he could see Abraham in the distance, with Lazarus resting beside him. And he cried out, begging for just a drop of water to cool his tongue."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Luke 16:25",
+   "text": "Son, remember that thou in thy lifetime receivedst thy good things, and likewise Lazarus evil things: but now he is comforted, and thou art tormented."
+  },
+  {
+   "id": "j4",
+   "speaker": "jesus",
+   "verse": "Luke 16:26",
+   "text": "Between us and you there is a great gulf fixed: so that they which would pass from hence to you cannot; neither can they pass to us, that would come from thence."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "And between them, Abraham said, a great gulf had been fixed — one that no one could ever cross."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "So the rich man begged again: then send someone to my five brothers, to warn them, so they never come to this place."
+  },
+  {
+   "id": "j5",
+   "speaker": "jesus",
+   "verse": "Luke 16:29",
+   "text": "They have Moses and the prophets; let them hear them."
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "They already have the writings of Moses and the prophets, Abraham replied. Let them listen. But the man pleaded — no, if only someone came back from the dead, then they would turn."
+  },
+  {
+   "id": "n11",
+   "speaker": "narrator",
+   "text": "And Abraham gave his final answer."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Luke 16:31",
+   "text": "If they hear not Moses and the prophets, neither will they be persuaded, though one rose from the dead."
+  },
+  {
+   "id": "n12",
+   "speaker": "narrator",
+   "text": "Jesus told this to people who had everything, and walked right past the ones who had nothing. It was a warning — but underneath it, a mercy."
+  },
+  {
+   "id": "n13",
+   "speaker": "narrator",
+   "text": "Because there is still a gate in front of you today. There is still someone you walk past. And there is still time to stop, and see them, and turn — while the day is yours."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "There is a gate before you today, and someone waiting at it. Who are you walking past — and will you stop while there is still time?"
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "n1",
+   "S1",
+   "out"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "n3",
+   "S2",
+   "out"
+  ],
+  [
+   "n4",
+   "S3",
+   "in"
+  ],
+  [
+   "n5",
+   "S4",
+   "in"
+  ],
+  [
+   "n6",
+   "S5",
+   "in"
+  ],
+  [
+   "j3",
+   "S5",
+   "out"
+  ],
+  [
+   "n7",
+   "S5",
+   "in"
+  ],
+  [
+   "j1",
+   "S6",
+   "in"
+  ],
+  [
+   "j4",
+   "S6",
+   "out"
+  ],
+  [
+   "n8",
+   "S6",
+   "in"
+  ],
+  [
+   "n9",
+   "S7",
+   "in"
+  ],
+  [
+   "j5",
+   "S7",
+   "out"
+  ],
+  [
+   "n10",
+   "S7",
+   "in"
+  ],
+  [
+   "n11",
+   "S6",
+   "out"
+  ],
+  [
+   "j2",
+   "S6",
+   "in"
+  ],
+  [
+   "n12",
+   "S8",
+   "in"
+  ],
+  [
+   "n13",
+   "S8",
+   "out"
+  ]
+ ],
+ "card": "card",
+ "spoken": {}
+}

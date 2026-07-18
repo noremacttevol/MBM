@@ -1,0 +1,32 @@
+total runtime: 334.0s
+>> ffmpeg -y -loop 1 -i assets/s1-carried.jpeg -t 14.0 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.001+0.10*on/420':x='iw/2-(iw/zoom/2)':y='ih/2-(ih
+>> ffmpeg -y -loop 1 -i assets/s1-carried.jpeg -t 14.0 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.101-0.10*on/420':x='iw/2-(iw/zoom/2)':y='ih/2-(ih
+>> ffmpeg -y -loop 1 -i assets/s2-no-way-through.jpeg -t 12.0 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.001+0.10*on/360':x='iw/2-(iw/zoom/2)':y='i
+>> ffmpeg -y -loop 1 -i assets/s2-no-way-through.jpeg -t 12.0 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.101-0.10*on/360':x='iw/2-(iw/zoom/2)':y='i
+>> ffmpeg -y -loop 1 -i assets/s3-digging.jpeg -t 15.0 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.001+0.10*on/450':x='iw/2-(iw/zoom/2)':y='ih/2-(ih
+>> ffmpeg -y -loop 1 -i assets/s3-digging.jpeg -t 15.0 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.101-0.10*on/450':x='iw/2-(iw/zoom/2)':y='ih/2-(ih
+>> ffmpeg -y -loop 1 -i assets/s4-lowered.jpeg -t 11.8 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.001+0.10*on/354':x='iw/2-(iw/zoom/2)':y='ih/2-(ih
+>> ffmpeg -y -i assets/s4-lowering-clip.mp4 -filter_complex [0:v]setpts=1.6*PTS,scale=1080:1920:flags=lanczos,setsar=1,fps=30,unsharp=5:5:0.35:5:5:0.0[base];color=
+>> ffmpeg -y -loop 1 -i assets/s5-their-faith.jpeg -t 12.5 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.001+0.10*on/375':x='iw/2-(iw/zoom/2)':y='ih/2
+>> ffmpeg -y -loop 1 -i assets/s5-their-faith.jpeg -t 12.5 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.101-0.10*on/375':x='iw/2-(iw/zoom/2)':y='ih/2
+>> ffmpeg -y -loop 1 -i assets/s6-deepest-wound.jpeg -t 13.5 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.001+0.10*on/405':x='iw/2-(iw/zoom/2)':y='ih
+>> ffmpeg -y -loop 1 -i assets/s6-deepest-wound.jpeg -t 4.3 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.101-0.10*on/129':x='iw/2-(iw/zoom/2)':y='ih/
+>> ffmpeg -y -loop 1 -i assets/s6-deepest-wound.jpeg -t 15.0 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.001+0.10*on/450':x='iw/2-(iw/zoom/2)':y='ih
+>> ffmpeg -y -loop 1 -i assets/s6-deepest-wound.jpeg -t 15.0 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.101-0.10*on/450':x='iw/2-(iw/zoom/2)':y='ih
+>> ffmpeg -y -loop 1 -i assets/s7-scribes.jpeg -t 11.9 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.001+0.10*on/357':x='iw/2-(iw/zoom/2)':y='ih/2-(ih
+>> ffmpeg -y -loop 1 -i assets/s7-scribes.jpeg -t 11.9 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.101-0.10*on/357':x='iw/2-(iw/zoom/2)':y='ih/2-(ih
+>> ffmpeg -y -loop 1 -i assets/s8-answered-thoughts.jpeg -t 12.4 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.001+0.10*on/372':x='iw/2-(iw/zoom/2)':y
+>> ffmpeg -y -loop 1 -i assets/s8-answered-thoughts.jpeg -t 12.8 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.101-0.10*on/384':x='iw/2-(iw/zoom/2)':y
+>> ffmpeg -y -loop 1 -i assets/s8-answered-thoughts.jpeg -t 13.1 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.001+0.10*on/393':x='iw/2-(iw/zoom/2)':y
+>> ffmpeg -y -loop 1 -i assets/s8-answered-thoughts.jpeg -t 13.1 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.101-0.10*on/393':x='iw/2-(iw/zoom/2)':y
+>> ffmpeg -y -loop 1 -i assets/s6-deepest-wound.jpeg -t 8.8 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.001+0.10*on/264':x='iw/2-(iw/zoom/2)':y='ih/
+>> ffmpeg -y -loop 1 -i assets/s9-arise.jpeg -t 7.8 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.001+0.10*on/234':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zo
+>> ffmpeg -y -loop 1 -i assets/s9b-holding-mat.jpeg -t 12.8 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.101-0.10*on/384':x='iw/2-(iw/zoom/2)':y='ih/
+>> ffmpeg -y -loop 1 -i assets/s10-out-the-door.jpeg -t 14.0 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.001+0.10*on/420':x='iw/2-(iw/zoom/2)':y='ih
+>> ffmpeg -y -loop 1 -i assets/s10-out-the-door.jpeg -t 14.0 -filter_complex [0:v]scale=4320:7680,setsar=1,zoompan=z='1.101-0.10*on/420':x='iw/2-(iw/zoom/2)':y='ih
+>> ffmpeg -y -f lavfi -i color=c=0xF7F2E9:s=1080x1920:r=30:d=22.0 -vf drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf:textfile=segs/card.txt:fon
+>> ffmpeg -y -f concat -safe 0 -i segs/concat.txt -c copy segs/video_silent.mp4
+>> ffmpeg -y -i audio/n0.mp3 -i audio/n1.mp3 -i audio/n2.mp3 -i audio/n3.mp3 -i audio/n4.mp3 -i audio/n5.mp3 -i audio/j1.mp3 -i audio/n6.mp3 -i audio/n7.mp3 -i aud
+loudness: measured -19.9 LUFS, applying +4.9 dB
+>> ffmpeg -y -i segs/video_silent.mp4 -i segs/audio_mix.m4a -map 0:v -map 1:a -c:v libx264 -preset veryslow -crf 21 -maxrate 441k -bufsize 882k -pix_fmt yuv420p -a
+DONE: mark-2_man-through-the-roof.mp4  20.0 MB, 334.0s (crf 21, vcap 441k)

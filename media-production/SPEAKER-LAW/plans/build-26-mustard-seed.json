@@ -1,0 +1,139 @@
+{
+ "build": "build-26-mustard-seed",
+ "reference": "Matthew 13",
+ "shape": "B->A",
+ "notes": "Matthew 13:31-32. A parable - a red-letter KJV inks the whole thing, so j1\nstays RED. Nobody else speaks in it, so nothing moved out of red and no new\nscripture was lifted.\nThe one structural change: the old template played ONE audio file (j1) across TWO\ndifferent stills. Template A is one beat per still, so j1 is split at the exact\ncaption boundary the old build already used - j1 keeps its id and carries Matthew\n13:31, j1b carries 13:32. Same words, same two pictures, same edit.\nstill_vars S1..S6 introduced.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Jesus told a story about the smallest seed a farmer knew."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "It was a mustard seed — so tiny it could be lost in the palm of your hand."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "A man took that one little seed and planted it in his field."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Of all the seeds he could have sown, it was just about the smallest of them all."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Matthew 13:31",
+   "text": "The kingdom of heaven is like to a grain of mustard seed, which a man took, and sowed in his field: which indeed is the least of all seeds:"
+  },
+  {
+   "id": "j1b",
+   "speaker": "jesus",
+   "verse": "Matthew 13:32",
+   "text": "but when it is grown, it is the greatest among herbs, and becometh a tree, so that the birds of the air come and lodge in the branches thereof."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "But that tiny seed did not stay small. Quietly, slowly, it began to grow."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Up out of the ground, higher and higher, until it became the largest plant in the whole garden — a tall, spreading tree."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "And the wild birds came and built their nests in its broad, sheltering branches."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "That, Jesus said, is what God's kingdom is like."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "It almost never begins big. It begins small — a whispered prayer, a single kind act, one quiet change of heart."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "But God takes that smallest beginning and grows it into something far greater than anyone could have imagined."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "God does enormous things from the smallest of starts. What small seed is he asking you to plant today?"
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "n1",
+   "S1",
+   "out"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "n3",
+   "S2",
+   "out"
+  ],
+  [
+   "j1",
+   "S3",
+   "in"
+  ],
+  [
+   "j1b",
+   "S4",
+   "in"
+  ],
+  [
+   "n4",
+   "S5",
+   "in"
+  ],
+  [
+   "n5",
+   "S5",
+   "out"
+  ],
+  [
+   "n6",
+   "S6",
+   "in"
+  ],
+  [
+   "n7",
+   "S6",
+   "out"
+  ],
+  [
+   "n8",
+   "S1",
+   "in"
+  ],
+  [
+   "n9",
+   "S5",
+   "out"
+  ]
+ ],
+ "card": "card",
+ "spoken": {}
+}
