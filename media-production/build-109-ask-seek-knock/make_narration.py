@@ -72,9 +72,22 @@ SEGMENTS = [
 ]
 
 
+# SPOKEN-OVERRIDE (Cameron denial #109, 2026-07-18): "kinder" was read the German
+# way (KIN-der, as in kindergarten). It is the English comparative of "kind" — "She
+# is kinder than him" — so it must be KYNE-der. Respell ONLY the spoken word to
+# "kynder". The caption still reads the exact word "kinder" (build.py takes caption
+# text from SEGMENTS, never from SPOKEN).
+SPOKEN = {
+    "card": ("Ask, seek, knock. Jesus says your Father in heaven is far kynder than the best "
+             "parent you can imagine, and glad to be asked. Is there something you have been "
+             "afraid to ask him for?"),
+}
+
+
 async def main():
     for name, voice, rate, pitch, text, cap in SEGMENTS:
-        await save_narration(text, voice, rate, pitch, f"audio/{name}.mp3")
+        tts_text = SPOKEN.get(name, text)
+        await save_narration(tts_text, voice, rate, pitch, f"audio/{name}.mp3")
         print(f"saved audio/{name}.mp3")
 
 
