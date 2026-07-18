@@ -53,6 +53,13 @@ APPROVALS_FILE = os.path.join(REPO, "media-production", "approvals.json")
 # when this marker is present. Set to None to go back to showing every built video.
 NEW_CAPTION_MARKER = "mbm_caption_timing.py"
 
+# NEW-VOICE WAVE: Cameron locked the new speaker picks (Jesus=Eric, God=Christopher,
+# scripture=Steffan, women=Michelle) in the SPEAKER LAW commit at 2026-07-18 13:29.
+# Any video whose finished mp4 was rebuilt at/after that moment has the new voices,
+# so it's genuinely ready for his review — those sort to the TOP of the review list
+# with a badge. Bump this epoch when a new wave starts.
+NEW_VOICE_SINCE = 1784395766  # 2026-07-18 13:29 — SPEAKER LAW
+
 # Nice display titles keyed by build number (the folder slug drives discovery;
 # this map only supplies the human-facing name). Anything not listed falls back
 # to a title derived from the filename slug.
@@ -211,6 +218,21 @@ def mp4_hashes():
     return hashes
 
 
+def new_voice_set():
+    """Videos whose finished mp4 was rebuilt at/after the SPEAKER LAW — i.e. re-made
+    with Cameron's new voices, so they're the ones actually ready for his review."""
+    out = subprocess.run(
+        ["git", "log", f"--since=@{NEW_VOICE_SINCE}", "--name-only", "--format=",
+         "--", "media-production"],
+        cwd=REPO, capture_output=True, text=True).stdout
+    found = set()
+    for line in out.splitlines():
+        m = re.match(r"media-production/build-(\d+)-.*/[0-9a-z]+-\d+_.*\.mp4$", line.strip())
+        if m:
+            found.add(int(m.group(1)))
+    return found
+
+
 def parse_queue():
     """Read state from QUEUE.md.
 
@@ -319,6 +341,7 @@ STYLE = """
   .flag { border-radius: 8px; padding: 8px 10px; margin: 0 0 8px; font-size: 13px; font-weight: 600; }
   .flag.new { background: #2a2410; border: 1px solid #6a5a1e; color: #e8cf7a; }
   .flag.fixed { background: #14210f; border: 1px solid #2e5a24; color: #b6e6a4; }
+  .flag.voice { background: #101f2e; border: 1px solid #2b5c7a; color: #9fd4f5; }
   #status { color: #c9a; }
 """
 
@@ -333,7 +356,7 @@ function place(){
   var review=document.getElementById('review');
   var approved=document.getElementById('approved');
   var rework=document.getElementById('rework');
-  var nR=0,nA=0,nW=0;
+  var nR=0,nA=0,nW=0, reviewNew=[], reviewOld=[];
   document.querySelectorAll('.card').forEach(function(card){
     var num=card.dataset.num, hash=card.dataset.hash, d=STATE[num]||{};
     var approvedNow = d.approved && d.approvedHash===hash;
@@ -361,10 +384,14 @@ function place(){
       cshow.innerHTML += '<div class="cmsg">\\ud83d\\udd27 '+esc(machineReason)+'</div>';
 
     var dest = (machineReason || complaintActive) ? rework : (approvedNow ? approved : review);
-    dest.appendChild(card);
-    if(dest===review) nR++; else if(dest===approved) nA++; else nW++;
+    if(dest===review){ (card.dataset.newvoice==='1' ? reviewNew : reviewOld).push(card); nR++; }
+    else { dest.appendChild(card); if(dest===approved) nA++; else nW++; }
   });
-  document.getElementById('rh').textContent = "\\ud83d\\udfe1 Needs your review ("+nR+")";
+  // New-voice re-makes go FIRST so Cameron sees what's actually ready.
+  reviewNew.forEach(function(c){ review.appendChild(c); });
+  reviewOld.forEach(function(c){ review.appendChild(c); });
+  var vTxt = reviewNew.length ? (" \\u2014 "+reviewNew.length+" with the NEW VOICES on top") : "";
+  document.getElementById('rh').textContent = "\\ud83d\\udfe1 Needs your review ("+nR+")"+vTxt;
   document.getElementById('ah').textContent = "\\u2705 Approved ("+nA+")";
   document.getElementById('wh').textContent = "\\ud83d\\udd27 Being reworked ("+nW+")";
 }
@@ -416,11 +443,15 @@ try {
 """
 
 
-def card_html(num, title, scrip, length, rel, hashval):
+def card_html(num, title, scrip, length, rel, hashval, newvoice=False):
     meta = f" · {scrip}" + (f" · {length}" if length else "")
+    voice_badge = ('<div class="flag voice">🔊 NEW VOICES — re-made, ready for your '
+                   'review</div>\n') if newvoice else ""
     return (
-        f'<div class="card" id="v{num}" data-num="{num}" data-hash="{hashval}">'
+        f'<div class="card" id="v{num}" data-num="{num}" data-hash="{hashval}"'
+        f'{" data-newvoice=\"1\"" if newvoice else ""}>'
         f'<p class="title">{num:02d} — {title}<span class="meta">{meta}</span></p>\n'
+        f'{voice_badge}'
         f'<div class="flags" id="flags{num}"></div>\n'
         f'<video controls preload="metadata" playsinline src="{RAW_BASE}{rel}"></video>\n'
         f'<div class="actions">'
@@ -437,6 +468,7 @@ def card_html(num, title, scrip, length, rel, hashval):
 
 def main():
     approved_nums = set(load_approvals().keys())  # never hide an approved video
+    newvoice = new_voice_set()  # re-made with the new voices -> sort to top
     builds = sorted(glob.glob(os.path.join(REPO, "media-production", "build-*")))
     cards = []
     total_built = 0
@@ -470,7 +502,8 @@ def main():
     # Every video is rendered once into a hidden pool. The page's JavaScript reads
     # Cameron's approvals/complaints live from Firestore and moves each card into
     # the right section — approve + complaint save with ONE TAP, no leaving the page.
-    pool = "\n".join(card_html(n, t, s, l, r, hashes.get(n, "")) for (n, t, s, l, r) in cards)
+    pool = "\n".join(card_html(n, t, s, l, r, hashes.get(n, ""), n in newvoice)
+                      for (n, t, s, l, r) in cards)
 
     rejected_json = json.dumps({str(n): reasons.get(n, "") for n in rejected})
     config_json = json.dumps(FIREBASE_CONFIG)
