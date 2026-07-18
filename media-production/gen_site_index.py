@@ -232,37 +232,179 @@ def parse_queue():
     return appr, post, rejected, reasons
 
 
-def card_html(num, title, scrip, length, rel, badge="", reason=""):
+FIREBASE_CONFIG = {
+    "apiKey": "AIzaSyC9xaj2MNJMf1pmTWC8Q5Rh3bDkYJZ8-eo",
+    "authDomain": "milk-b4-meat.firebaseapp.com",
+    "projectId": "milk-b4-meat",
+    "storageBucket": "milk-b4-meat.firebasestorage.app",
+    "messagingSenderId": "626094743218",
+    "appId": "1:626094743218:web:acaa328d38c6aaf04f33ab",
+}
+
+STYLE = """
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 0 16px 64px; background: #0f0f12; color: #eee;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.4; }
+  header { padding: 24px 0 8px; max-width: 780px; margin: 0 auto; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: #9aa; font-size: 14px; margin: 0 0 4px; }
+  .wrap { max-width: 780px; margin: 0 auto; }
+  h2 { font-size: 15px; text-transform: uppercase; letter-spacing: .06em;
+       color: #8ab; margin: 32px 0 6px; border-bottom: 1px solid #2a2a30;
+       padding-bottom: 6px; }
+  .card { background: #16161b; border: 1px solid #26262e; border-radius: 14px;
+          padding: 12px; margin: 0 0 18px; }
+  .card.approved { border-color: #2e5a24; }
+  .title { font-weight: 600; font-size: 16px; margin: 0 0 8px; }
+  .meta { color: #889; font-size: 13px; font-weight: 400; }
+  video { width: 100%; border-radius: 10px; background: #000; display: block; }
+  .note { color: #778; font-size: 13px; margin: 0 0 12px; }
+  .done-head { color: #667; border-bottom-color: #202028; }
+  details { margin: 0 0 10px; }
+  summary { cursor: pointer; list-style: none; user-select: none;
+             font-size: 15px; font-weight: 600; color: #7c9;
+             background: #14140f; border: 1px solid #26262e; border-radius: 12px;
+             padding: 12px 14px; }
+  summary::-webkit-details-marker { display: none; }
+  summary::before { content: "\\25b8 "; color: #567; }
+  details[open] > summary::before { content: "\\25be "; }
+  details[open] > summary { margin-bottom: 14px; }
+  .actions { display: flex; gap: 8px; margin-top: 10px; }
+  .approve { flex: 1; cursor: pointer; font-size: 15px; font-weight: 700;
+             background: #16351a; color: #b6e6a4; border: 1px solid #2e5a24;
+             border-radius: 10px; padding: 12px; }
+  .approve.on { background: #1f5a26; color: #eafce2; }
+  .cbtn { cursor: pointer; font-size: 14px; font-weight: 600; background: #201014;
+          color: #f0a9b8; border: 1px solid #52242e; border-radius: 10px; padding: 12px 14px; }
+  .cbox { margin-top: 10px; }
+  .cbox textarea { width: 100%; background: #0e0e12; color: #eee; border: 1px solid #3a2a2e;
+                   border-radius: 8px; padding: 8px; font-size: 14px; font-family: inherit; }
+  .csave { margin-top: 6px; cursor: pointer; background: #52242e; color: #ffd7df;
+           border: 0; border-radius: 8px; padding: 8px 12px; font-weight: 600; }
+  .cshow .cmsg { border-radius: 8px; padding: 8px 10px; margin: 8px 0 0; font-size: 13px;
+                 background: #2a1414; border: 1px solid #6a2a2a; color: #f0b4b4; }
+  .cshow .cmsg .clear { margin-left: 6px; font-size: 12px; background: transparent;
+                        color: #f0b4b4; border: 1px solid #6a2a2a; border-radius: 6px;
+                        padding: 2px 6px; cursor: pointer; }
+  .flag { border-radius: 8px; padding: 8px 10px; margin: 0 0 8px; font-size: 13px; font-weight: 600; }
+  .flag.new { background: #2a2410; border: 1px solid #6a5a1e; color: #e8cf7a; }
+  .flag.fixed { background: #14210f; border: 1px solid #2e5a24; color: #b6e6a4; }
+  #status { color: #c9a; }
+"""
+
+SCRIPT = """
+var CFG = __CONFIG__;
+var REJECTED = __REJECTED__;
+var db = null, ready = false, STATE = {};
+
+function esc(s){ var d=document.createElement('div'); d.textContent=s||""; return d.innerHTML; }
+
+function place(){
+  var review=document.getElementById('review');
+  var approved=document.getElementById('approved');
+  var rework=document.getElementById('rework');
+  var nR=0,nA=0,nW=0;
+  document.querySelectorAll('.card').forEach(function(card){
+    var num=card.dataset.num, hash=card.dataset.hash, d=STATE[num]||{};
+    var approvedNow = d.approved && d.approvedHash===hash;
+    var complaintActive = d.complaint && d.complaintHash===hash;
+    var rebuiltAfterAppr = d.approved && d.approvedHash && d.approvedHash!==hash;
+    var fixedByNewCut = d.complaint && d.complaintHash && d.complaintHash!==hash;
+    var machineReason = REJECTED[num];
+
+    var btn=document.getElementById('appbtn'+num);
+    btn.textContent = approvedNow ? "\\u2713 Approved \\u2014 tap to undo" : "Approve";
+    btn.className = "approve" + (approvedNow?" on":"");
+    card.className = "card" + (approvedNow?" approved":"");
+
+    var flags=document.getElementById('flags'+num); flags.innerHTML='';
+    if(fixedByNewCut && !complaintActive)
+      flags.innerHTML += '<div class="flag fixed">\\u2705 Your complaint was addressed by a newer cut \\u2014 re-watch to confirm.</div>';
+    if(rebuiltAfterAppr)
+      flags.innerHTML += '<div class="flag new">\\ud83d\\udd01 NEW cut \\u2014 changed since you approved it. Re-watch.</div>';
+
+    var cshow=document.getElementById('cshow'+num); cshow.innerHTML='';
+    if(complaintActive)
+      cshow.innerHTML += '<div class="cmsg">\\ud83d\\udea9 Your complaint: '+esc(d.complaint)
+        +' <button class="clear" onclick="clearComplaint('+num+')">mark resolved</button></div>';
+    if(machineReason)
+      cshow.innerHTML += '<div class="cmsg">\\ud83d\\udd27 '+esc(machineReason)+'</div>';
+
+    var dest = (machineReason || complaintActive) ? rework : (approvedNow ? approved : review);
+    dest.appendChild(card);
+    if(dest===review) nR++; else if(dest===approved) nA++; else nW++;
+  });
+  document.getElementById('rh').textContent = "\\ud83d\\udfe1 Needs your review ("+nR+")";
+  document.getElementById('ah').textContent = "\\u2705 Approved ("+nA+")";
+  document.getElementById('wh').textContent = "\\ud83d\\udd27 Being reworked ("+nW+")";
+}
+
+function toggleApprove(num){
+  if(!ready){ alert("Still connecting \\u2014 give it a second, then tap again."); return; }
+  var card=document.getElementById('v'+num), hash=card.dataset.hash, d=STATE[num]||{};
+  var approvedNow = d.approved && d.approvedHash===hash;
+  db.collection('reviews').doc(String(num)).set({
+    approved: !approvedNow, approvedHash: hash,
+    approvedAt: firebase.firestore.FieldValue.serverTimestamp()
+  }, {merge:true}).catch(function(e){ alert("Save failed: "+e.message); });
+}
+function toggleBox(num){ var b=document.getElementById('cbox'+num); b.hidden=!b.hidden; }
+function saveComplaint(num){
+  if(!ready){ alert("Still connecting \\u2014 give it a second, then save again."); return; }
+  var t=document.getElementById('ctext'+num).value.trim(); if(!t) return;
+  var hash=document.getElementById('v'+num).dataset.hash;
+  db.collection('reviews').doc(String(num)).set({
+    complaint: t, complaintHash: hash,
+    complaintAt: firebase.firestore.FieldValue.serverTimestamp()
+  }, {merge:true}).then(function(){ document.getElementById('cbox'+num).hidden=true; })
+   .catch(function(e){ alert("Save failed: "+e.message); });
+}
+function clearComplaint(num){
+  if(!ready) return;
+  db.collection('reviews').doc(String(num)).set({ complaint:"", complaintHash:"" }, {merge:true});
+}
+
+place();  // show everything (in review) immediately, before the cloud loads
+
+try {
+  firebase.initializeApp(CFG);
+  db = firebase.firestore();
+  firebase.auth().signInAnonymously().catch(function(e){
+    document.getElementById('status').textContent = "Cloud sign-in issue: "+e.message; });
+  firebase.auth().onAuthStateChanged(function(user){
+    if(!user) return;
+    ready = true;
+    document.getElementById('status').textContent = "";
+    db.collection('reviews').onSnapshot(function(snap){
+      STATE = {}; snap.forEach(function(doc){ STATE[doc.id]=doc.data(); });
+      place();
+    }, function(err){ document.getElementById('status').textContent = "Cloud read issue: "+err.message; });
+  });
+} catch(e) {
+  document.getElementById('status').textContent = "Cloud offline \\u2014 showing all videos to review.";
+}
+"""
+
+
+def card_html(num, title, scrip, length, rel, hashval):
     meta = f" · {scrip}" + (f" · {length}" if length else "")
-    badge_html = f'<p class="badge">{badge}</p>\n' if badge else ""
-    reason_html = f'<p class="reason">{reason}</p>\n' if reason else ""
     return (
-        f'<div class="card" id="v{num}" data-num="{num}">'
+        f'<div class="card" id="v{num}" data-num="{num}" data-hash="{hashval}">'
         f'<p class="title">{num:02d} — {title}<span class="meta">{meta}</span></p>\n'
-        f'{badge_html}{reason_html}'
+        f'<div class="flags" id="flags{num}"></div>\n'
         f'<video controls preload="metadata" playsinline src="{RAW_BASE}{rel}"></video>\n'
-        f'<div class="complaints" data-num="{num}"></div>\n'
-        f'<button class="report" onclick="report({num}, this)">🚩 Report a problem</button>'
+        f'<div class="actions">'
+        f'<button class="approve" id="appbtn{num}" onclick="toggleApprove({num})">Approve</button>'
+        f'<button class="cbtn" onclick="toggleBox({num})">🚩 Report a problem</button>'
+        f'</div>\n'
+        f'<div class="cbox" id="cbox{num}" hidden>'
+        f'<textarea id="ctext{num}" rows="2" placeholder="What is wrong with this video?"></textarea><br>'
+        f'<button class="csave" onclick="saveComplaint({num})">Save complaint</button>'
+        f'</div>\n'
+        f'<div class="cshow" id="cshow{num}"></div>'
         f'</div>')
-
-
-def section_html(heading, blurb, cards):
-    if not cards:
-        return ""
-    body = "\n".join(card_html(*c) for c in cards)
-    intro = f'<p class="note">{blurb}</p>\n' if blurb else ""
-    return f'<h2>{heading} ({len(cards)})</h2>\n{intro}{body}'
-
-
-def details_section_html(heading, blurb, cards):
-    """Collapsed drop-down — keeps the good/done videos off the review view but
-    one click away. Separates 'the good from the bad' on the page."""
-    if not cards:
-        return ""
-    body = "\n".join(card_html(*c) for c in cards)
-    intro = f'<p class="note">{blurb}</p>\n' if blurb else ""
-    return (f'<details><summary>{heading} ({len(cards)})</summary>\n'
-            f'{intro}{body}\n</details>')
 
 
 def main():
@@ -284,158 +426,55 @@ def main():
         cards.append((num, title, scripture(book_chap), dur(mp4), rel))
 
     cards.sort(key=lambda c: c[0])
-    appr, post, rejected, reasons = parse_queue()
-    approvals = load_approvals()
+    _appr, _post, rejected, reasons = parse_queue()
     hashes = mp4_hashes()
-
-    # Approval is tied to the EXACT cut Cameron watched (its git blob hash). A
-    # rebuilt video no longer matches its approved hash, so it falls out of
-    # Approved and back into review flagged "NEW cut." Rejected videos (fix queue)
-    # show their complaint. Live-in-app means nothing here — only Cameron's yes.
-    review, approved, rework = [], [], []
-    for num, title, scrip, length, rel in cards:
-        ap = approvals.get(str(num))
-        if num in rejected:
-            rework.append((num, title, scrip, length, rel, "", reasons.get(num, "")))
-        elif ap and hashes.get(num) == ap.get("hash"):
-            approved.append((num, title, scrip, length, rel, "", ""))
-        elif ap:  # approved before, but the video was rebuilt since
-            review.append((num, title, scrip, length, rel,
-                           f"🔁 NEW cut — this changed since you approved it "
-                           f"({ap.get('date','')}). Re-watch to confirm.", ""))
-        else:
-            review.append((num, title, scrip, length, rel, "", ""))
-
     count = len(cards)
-    # Only the review list is open on load. The good/done/reworking ones fold
-    # into collapsed drop-downs so Cameron opens straight to what needs his yes.
-    sections = "\n".join(s for s in [
-        section_html(
-            "🟡 Needs your review",
-            "Built and waiting on your yes. Watch these, then tell the monitor "
-            "which are good — they drop into Approved and leave this list.",
-            review),
-        '<h2 class="done-head">Done — tap to open</h2>',
-        details_section_html(
-            "✅ Approved",
-            "You said yes. Queued to post to the app.",
-            approved),
-        details_section_html(
-            "🔧 Being reworked",
-            "You flagged something — a build machine is remaking these.",
-            rework),
-    ] if s)
 
-    html = f"""<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MBM — Story Videos</title>
-<style>
-  :root {{ color-scheme: dark; }}
-  * {{ box-sizing: border-box; }}
-  body {{
-    margin: 0; padding: 0 16px 64px;
-    background: #0f0f12; color: #eee;
-    font-family: -apple-system, system-ui, "Segoe UI", Roboto, sans-serif;
-    line-height: 1.4;
-  }}
-  header {{ padding: 24px 0 8px; max-width: 780px; margin: 0 auto; }}
-  h1 {{ font-size: 22px; margin: 0 0 4px; }}
-  .sub {{ color: #9aa; font-size: 14px; margin: 0 0 4px; }}
-  .wrap {{ max-width: 780px; margin: 0 auto; }}
-  h2 {{ font-size: 15px; text-transform: uppercase; letter-spacing: .06em;
-       color: #8ab; margin: 32px 0 6px; border-bottom: 1px solid #2a2a30;
-       padding-bottom: 6px; }}
-  .card {{ background: #16161b; border: 1px solid #26262e; border-radius: 14px;
-          padding: 12px; margin: 0 0 18px; }}
-  .title {{ font-weight: 600; font-size: 16px; margin: 0 0 8px; }}
-  .meta {{ color: #889; font-size: 13px; font-weight: 400; }}
-  video {{ width: 100%; border-radius: 10px; background: #000; display: block; }}
-  .note {{ color: #778; font-size: 13px; margin: 0 0 12px; }}
-  .done-head {{ color: #667; border-bottom-color: #202028; }}
-  details {{ margin: 0 0 10px; }}
-  summary {{ cursor: pointer; list-style: none; user-select: none;
-             font-size: 15px; font-weight: 600; color: #7c9;
-             background: #14140f; border: 1px solid #26262e; border-radius: 12px;
-             padding: 12px 14px; }}
-  summary::-webkit-details-marker {{ display: none; }}
-  summary::before {{ content: "▸ "; color: #567; }}
-  details[open] > summary::before {{ content: "▾ "; }}
-  details[open] > summary {{ margin-bottom: 14px; }}
-  .badge {{ background: #2a2410; border: 1px solid #6a5a1e; color: #e8cf7a;
-            border-radius: 8px; padding: 8px 10px; margin: 0 0 8px;
-            font-size: 13px; font-weight: 600; }}
-  .reason {{ background: #2a1414; border: 1px solid #6a2a2a; color: #f0b4b4;
-             border-radius: 8px; padding: 8px 10px; margin: 0 0 8px;
-             font-size: 13px; }}
-  .report {{ margin-top: 10px; width: 100%; cursor: pointer;
-             background: #201014; color: #f0a9b8; font-size: 14px; font-weight: 600;
-             border: 1px solid #52242e; border-radius: 10px; padding: 10px; }}
-  .report:hover {{ background: #2a1218; }}
-  .complaint {{ border-radius: 8px; padding: 8px 10px; margin: 8px 0 0;
-                font-size: 13px; }}
-  .complaint.open {{ background: #2a1414; border: 1px solid #6a2a2a; color: #f0b4b4; }}
-  .complaint.fixed {{ background: #14210f; border: 1px solid #2e5a24; color: #b6e6a4; }}
-  .complaint a {{ color: inherit; opacity: .7; }}
-</style>
-</head>
-<body>
-<header>
-  <h1>Milk Before Meat — Story Videos</h1>
-  <p class="sub">Watch the ones waiting on your yes. Something wrong? Tap
-  <b>Report a problem</b> — it saves to GitHub and stays on the video until a
-  newer version fixes it.</p>
-  <p class="sub">{count} videos · {len(review)} waiting on your review · {len(approved)} approved.</p>
-</header>
-<div class="wrap">
-{sections}
-</div>
-<script>
-var GH = "{GH_OWNER}/{GH_REPO}";
-function esc(s){{ var d=document.createElement('div'); d.textContent=s||""; return d.innerHTML; }}
-function report(num, btn){{
-  var card = btn.closest('.card');
-  var title = card.querySelector('.title').textContent.split('·')[0].replace(/^[0-9]+\\s*—\\s*/, '').trim();
-  var what = window.prompt("What's wrong with #" + num + " (" + title + ")? Keep it short.");
-  if(!what) return;
-  var url = "https://github.com/" + GH + "/issues/new?labels=complaint"
-    + "&title=" + encodeURIComponent("Video #" + num + " — " + title)
-    + "&body=" + encodeURIComponent(what + "\\n\\n(filed from the review page — stands until a newer cut fixes it)");
-  window.open(url, "_blank");
-}}
-// Pull Cameron's complaints straight from GitHub and pin them to each video.
-fetch("https://api.github.com/repos/" + GH + "/issues?state=all&labels=complaint&per_page=100")
- .then(function(r){{ return r.ok ? r.json() : []; }})
- .then(function(issues){{
-   if(!Array.isArray(issues)) return;
-   issues.forEach(function(is){{
-     var m = /#(\\d+)/.exec(is.title || "");
-     if(!m) return;
-     var slot = document.querySelector('.complaints[data-num="' + m[1] + '"]');
-     if(!slot) return;
-     var first = (is.body || "").split("\\n")[0].trim();
-     var open = is.state === "open";
-     var div = document.createElement('div');
-     div.className = 'complaint ' + (open ? 'open' : 'fixed');
-     div.innerHTML = (open ? "🚩 Complaint: " : "✅ Fixed: ") + esc(first)
-       + ' <a href="' + is.html_url + '" target="_blank">#' + is.number + '</a>';
-     slot.appendChild(div);
-   }});
- }})
- .catch(function(){{}});
-</script>
-</body>
-</html>
-"""
+    # Every video is rendered once into a hidden pool. The page's JavaScript reads
+    # Cameron's approvals/complaints live from Firestore and moves each card into
+    # the right section — approve + complaint save with ONE TAP, no leaving the page.
+    pool = "\n".join(card_html(n, t, s, l, r, hashes.get(n, "")) for (n, t, s, l, r) in cards)
+
+    rejected_json = json.dumps({str(n): reasons.get(n, "") for n in rejected})
+    config_json = json.dumps(FIREBASE_CONFIG)
+    fb = "https://www.gstatic.com/firebasejs/10.12.2"
+
+    script = (SCRIPT
+              .replace("__CONFIG__", config_json)
+              .replace("__REJECTED__", rejected_json))
+
+    html = (
+        "<!doctype html>\n<html lang=\"en\">\n<head>\n"
+        "<meta charset=\"utf-8\">\n"
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n"
+        "<title>MBM — Story Videos</title>\n"
+        f"<style>{STYLE}</style>\n"
+        f'<script src="{fb}/firebase-app-compat.js"></script>\n'
+        f'<script src="{fb}/firebase-auth-compat.js"></script>\n'
+        f'<script src="{fb}/firebase-firestore-compat.js"></script>\n'
+        "</head>\n<body>\n<header>\n"
+        "  <h1>Milk Before Meat — Story Videos</h1>\n"
+        "  <p class=\"sub\">Watch the ones waiting on your yes. Tap <b>Approve</b> when one's "
+        "good, or <b>Report a problem</b> to flag it — both save the second you tap, right here. "
+        "No sign-in, nothing else to do.</p>\n"
+        f"  <p class=\"sub\">{count} videos built.</p>\n"
+        "  <p id=\"status\" class=\"sub\">Connecting…</p>\n"
+        "</header>\n<div class=\"wrap\">\n"
+        "  <h2 id=\"rh\">🟡 Needs your review</h2>\n  <div id=\"review\"></div>\n"
+        "  <h2 class=\"done-head\">Done — tap to open</h2>\n"
+        "  <details><summary id=\"ah\">✅ Approved</summary><div id=\"approved\"></div></details>\n"
+        "  <details><summary id=\"wh\">🔧 Being reworked</summary><div id=\"rework\"></div></details>\n"
+        f"  <div id=\"pool\" hidden>\n{pool}\n  </div>\n"
+        "</div>\n"
+        f"<script>\n{script}\n</script>\n"
+        "</body>\n</html>\n"
+    )
+
     os.makedirs(OUT_DIR, exist_ok=True)
     out = os.path.join(OUT_DIR, OUT_NAME)
     with open(out, "w") as f:
         f.write(html)
-    print(f"wrote {out} with {count} videos")
-    print(f"  review={len(review)} approved={len(approved)} "
-          f"rework={len(rework)}")
+    print(f"wrote {out} with {count} videos ({len(rejected)} in fix queue)")
 
 
 if __name__ == "__main__":

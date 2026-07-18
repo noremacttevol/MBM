@@ -19,13 +19,12 @@
 
 ## Fix queue (rejected builds — fix before taking new work in that range)
 
-> **ALSO CHECK CAMERON'S LIVE COMPLAINTS ON GITHUB** — he now files problems from
-> the review page as GitHub issues labelled `complaint`. Before/while you work, run
-> `gh issue list --label complaint --state open` (or the API). Each open issue names
-> a video (`Video #N — Title`) and what's wrong. Fix that video, rebuild, push, then
-> **close the issue** (`gh issue close <n> -c "fixed in <commit>"`). The complaint
-> stays pinned on Cameron's page until the issue is closed AND a newer cut replaces
-> the video — that's the rule. Do NOT touch approvals (Cameron owns those).
+> **ALSO CHECK `media-production/COMPLAINTS.md`** — Cameron flags problems with one
+> tap on his review page (milk-b4-meat.web.app/review.html); those land in Firestore
+> and get synced into COMPLAINTS.md. Each row is a video number + what's wrong on its
+> CURRENT cut. Fix it, rebuild, push — the complaint clears itself once a newer cut
+> replaces the video (that's the rule; do not edit COMPLAINTS.md by hand). Do NOT
+> touch approvals — `approvals.json` is Cameron's, written only by the monitor.
 
 
 | # | Story | What's wrong | Claimed by |
