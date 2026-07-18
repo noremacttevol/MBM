@@ -62,7 +62,19 @@ SEGMENTS = [
 # HOMOGRAPH LAW — every segment ear-checked against the flag list
 # (bow, wound, wind, tears, lead, sow, live/lives, read, dove, bass,
 # minute, use/used, close): none present. Captions stay exact.
-SPOKEN = {}
+# SPOKEN-OVERRIDE (Cameron denial #184, 2026-07-18: "it read from Jesus' voice a
+# winkey face at 22 secs"). KJV 2 Cor 12:2 closes its parenthetical with "knoweth;)"
+# — semicolon immediately followed by a close-paren — and edge-tts read ";)" aloud as
+# a WINKY FACE in the scripture voice. The spoken text drops the two parenthesis
+# characters (they are editorial punctuation, never spoken anyway); the on-screen
+# caption still carries the exact KJV text with its parentheses, because build.py
+# takes caption text from SEGMENTS, never from SPOKEN.
+SPOKEN = {
+    "s1": ("I knew a man in Christ above fourteen years ago, whether in "
+           "the body, I cannot tell; or whether out of the body, I "
+           "cannot tell: God knoweth; such an one caught up to the "
+           "third heaven."),
+}
 
 
 async def main():
