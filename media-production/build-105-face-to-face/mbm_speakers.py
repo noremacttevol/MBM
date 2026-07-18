@@ -34,12 +34,13 @@ ALL = (NARRATOR, JESUS, GOD, SCRIPTURE, WOMAN)
 # (voice, rate, pitch). The narrator is unchanged — Cameron is happy with it.
 # Jesus MUST be an American voice (permanent law, 2026-07-07). No *Multilingual*
 # models anywhere (existing narration law).
+# Chosen by Cameron 2026-07-18 from the audition page.
 VOICE = {
     NARRATOR:  ("en-US-AndrewNeural",      "-20%", "-4Hz"),
-    JESUS:     ("en-US-BrianNeural",       "-22%", "-3Hz"),
+    JESUS:     ("en-US-EricNeural",        "-22%", "-3Hz"),
     GOD:       ("en-US-ChristopherNeural", "-25%", "-12Hz"),
-    SCRIPTURE: ("en-US-SteffanNeural",     "-18%", "-8Hz"),
-    WOMAN:     ("en-US-JennyNeural",       "-20%", "-2Hz"),
+    SCRIPTURE: ("en-US-SteffanNeural",     "-18%", "-9Hz"),
+    WOMAN:     ("en-US-MichelleNeural",    "-20%", "-2Hz"),
 }
 
 # ---------------------------------------------------------------- colours ---
