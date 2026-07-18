@@ -262,5 +262,86 @@
   "trailing": 1.89,
   "decode_errors": 0,
   "ok": true
+ },
+ "build-186-joint-heirs": {
+  "status": "shipped",
+  "secs": 60.1,
+  "total": 73.21,
+  "trailing": 1.47,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-01-cloak": {
+  "status": "shipped",
+  "secs": 125.0,
+  "total": 126.83,
+  "trailing": 1.97,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-02-prodigal": {
+  "status": "shipped",
+  "secs": 334.4,
+  "total": 190.68,
+  "trailing": 1.46,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-03-zacchaeus": {
+  "status": "shipped",
+  "secs": 303.6,
+  "total": 262.07,
+  "trailing": 1.91,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-04-nicodemus": {
+  "status": "shipped",
+  "secs": 445.5,
+  "total": 390.3,
+  "trailing": 1.96,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-05-bent-woman": {
+  "status": "shipped",
+  "secs": 287.7,
+  "total": 288.9,
+  "trailing": 1.96,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-06-two-sons": {
+  "status": "shipped",
+  "secs": 176.2,
+  "total": 149.56,
+  "trailing": 1.89,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-07-peter-water": {
+  "status": "shipped",
+  "secs": 310.3,
+  "total": 260.13,
+  "trailing": 1.48,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-08-lost-coin": {
+  "status": "shipped",
+  "secs": 80.1,
+  "total": 83.03,
+  "trailing": 1.52,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-09-rich-ruler": {
+  "status": "shipped",
+  "secs": 0,
+  "total": 217.43,
+  "trailing": 1.47,
+  "mp4": "mark-10_rich-ruler.mp4",
+  "decode_errors": 0,
+  "ok": true
  }
 }

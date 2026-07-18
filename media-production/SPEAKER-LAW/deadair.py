@@ -15,11 +15,18 @@ import subprocess
 MP = os.path.expanduser("~/Desktop/MBM/media-production")
 
 
-def measure(d):
-    v = sorted(glob.glob(os.path.join(d, "*.mp4")))
-    if not v:
-        return None
-    p = v[0]
+def measure(d, name=None):
+    """Measure one build's output. `name` pins WHICH mp4 — four builds carry a
+    stale second one and picking by glob order watches the wrong file."""
+    if name:
+        p = os.path.join(d, name)
+        if not os.path.exists(p):
+            return None
+    else:
+        v = sorted(glob.glob(os.path.join(d, "*.mp4")))
+        if not v:
+            return None
+        p = v[0]
     r = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
                         "-of", "csv=p=0", p], capture_output=True, text=True)
     try:

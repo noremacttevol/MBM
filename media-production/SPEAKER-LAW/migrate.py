@@ -124,6 +124,31 @@ if __name__ == "__main__":
 DEAD_HELPERS = ("caption_layers", "caption_overlay")
 
 
+def output_mp4(build_dir):
+    """The mp4 build.py actually writes — never "whatever listdir returns first".
+
+    Four builds carry a stale second mp4 from an earlier name (build-09, 16, 22,
+    30). os.listdir returns build-09's Jul-16 leftover BEFORE its real Jul-18
+    output, so measuring "the first mp4" watched the wrong file, saw an mtime
+    that never moved, and declared a perfectly good rebuild a failure. The
+    filename is hardcoded in build.py's final ffmpeg call; read it from there.
+    """
+    src = open(os.path.join(build_dir, "build.py"), encoding="utf-8",
+               errors="replace").read()
+    named = [m for m in re.findall(r'"([A-Za-z0-9][^"/]*\.mp4)"', src)
+             if not m.startswith(("video_", "audio_"))]
+    on_disk = [f for f in os.listdir(build_dir) if f.endswith(".mp4")]
+    for n in named:
+        if n in on_disk:
+            return n
+    if named:
+        return named[0]
+    if on_disk:               # last resort: the freshest one
+        return max(on_disk, key=lambda f: os.path.getmtime(
+            os.path.join(build_dir, f)))
+    return None
+
+
 def original_gap_overrides(src):
     """{seg_id: gap_override} from a template-C build's existing BEATS."""
     m = re.search(r"^BEATS = \[(.*?)^\]", src, re.M | re.S)
@@ -352,7 +377,7 @@ def migrate(build, render=True):
     src = open(os.path.join(d, "build.py"), encoding="utf-8").read()
     orphans = orphaned_ids(src, plan)
     if orphans:
-        raise SystemExit(
+        raise RuntimeError(
             f"{build}: plan drops segment id(s) the build still references: "
             f"{orphans}. Keep the original ids and ADD new ones instead of "
             f"renaming — the music beds and start_of[] lookups depend on them.")
@@ -361,26 +386,27 @@ def migrate(build, render=True):
     patched = patch_build(src, plan)
     miss = leftover_kjv(patched)
     if miss:
-        raise SystemExit(f"{build}: build.py still references kjv:\n  " +
+        raise RuntimeError(f"{build}: build.py still references kjv:\n  " +
                          "\n  ".join(miss))
     write_atomic(os.path.join(d, "build.py"), patched)
 
     for f in ("make_narration.py", "build.py"):
         p = os.path.join(d, f)
         if os.path.getsize(p) < 500:
-            raise SystemExit(f"{build}: {f} is suspiciously small — refusing")
+            raise RuntimeError(f"{build}: {f} is suspiciously small — refusing")
 
     if not render:
         return "patched"
 
-    mp4 = [f for f in os.listdir(d) if f.endswith(".mp4")]
-    before = os.path.getmtime(os.path.join(d, mp4[0])) if mp4 else 0
+    name = output_mp4(d)
+    path = os.path.join(d, name) if name else None
+    before = os.path.getmtime(path) if path and os.path.exists(path) else 0
     subprocess.run([sys.executable, "make_narration.py"], cwd=d, check=True)
     subprocess.run([sys.executable, "build.py"], cwd=d, check=True)
-    mp4 = [f for f in os.listdir(d) if f.endswith(".mp4")]
-    after = os.path.getmtime(os.path.join(d, mp4[0]))
-    if after <= before:
-        raise SystemExit(f"{build}: mp4 mtime did NOT advance — not rebuilt")
+    if not path or not os.path.exists(path):
+        raise RuntimeError(f"{build}: expected output {name!r} was never written")
+    if os.path.getmtime(path) <= before:
+        raise RuntimeError(f"{build}: {name} mtime did NOT advance — not rebuilt")
     return "rebuilt"
 
 

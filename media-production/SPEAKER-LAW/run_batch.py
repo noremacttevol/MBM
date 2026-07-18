@@ -55,11 +55,14 @@ def verify(build):
     """Post-render checks that would otherwise only surface on the review board."""
     d = os.path.join(migrate.MP, build)
     out = {}
-    m = measure(d)
-    if not m:
+    name = migrate.output_mp4(d)
+    if not name:
         return {"ok": False, "why": "no mp4 to measure"}
-    out.update(total=m["total"], trailing=m["trailing"])
-    mp4 = os.path.join(d, m["mp4"])
+    mp4 = os.path.join(d, name)
+    m = measure(d, name)
+    if not m:
+        return {"ok": False, "why": f"could not measure {name}"}
+    out.update(total=m["total"], trailing=m["trailing"], mp4=name)
     errs = decode_errors(mp4)
     out["decode_errors"] = errs
     if errs:
@@ -127,7 +130,12 @@ def main():
             print(f"    {'OK ' if v.get('ok') else 'FAIL'} "
                   f"total={v.get('total')}s trailing={v.get('trailing')}s "
                   f"{v.get('why','')}", flush=True)
-        except Exception as e:
+        except KeyboardInterrupt:
+            raise
+        except BaseException as e:
+            # BaseException, not Exception: a `raise SystemExit` inside migrate()
+            # sails past `except Exception` and killed a 165-video run after 8
+            # builds. One bad build must never stop the queue.
             log[b] = {"status": "error", "why": f"{type(e).__name__}: {e}"[:300],
                       "secs": round(time.time() - t0, 1)}
             print(f"    ERROR {type(e).__name__}: {str(e)[:200]}", flush=True)
