@@ -1,0 +1,10 @@
+import admin from 'firebase-admin';
+import { readFileSync } from 'fs';
+import { fileURLToPath } from 'url'; import { dirname, join } from 'path';
+const here=dirname(fileURLToPath(import.meta.url));
+admin.initializeApp({credential:admin.credential.cert(JSON.parse(readFileSync(join(here,'serviceAccount.json'),'utf8')))});
+const snap=await admin.firestore().collection('reviews').get();
+const a=[]; snap.forEach(d=>{ if(d.data().approved===true) a.push(+d.id); });
+console.log(a.sort((x,y)=>x-y).join(' '));
+console.log('TOTAL approved=true:',a.length);
+process.exit(0);

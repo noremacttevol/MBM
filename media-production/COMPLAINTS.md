@@ -6,4 +6,9 @@ clears itself once a newer cut replaces the video. Do NOT edit by hand.
 
 | # | What Cameron said |
 |---|---|
-| 109 | this whole video is a repeat , if its different scripture then we need to say that. but the story told earlier also says the same things and i would rather this be replaced with  something  else that is as important. also itmessed up the word kinder like in other videos . it should be pronounced English Adjective (kinder, as in "She is kinder than him"): Pronounced as "KYNE-der. |
+| 1 | at forty seconds it looked like shehe was pulling him more than just reaching out for a touch , it look she's pulling his entire cloak and not just touching the tassels on the bottom of his clothes |
+| 16 | what the heck no video |
+| 99 | 51 seconds picture weird needs redo where they can be on the same ground |
+| 109 | Findeth is pronounced as fynd-uhth. 0:51 sec |
+| 179 | "Regenerate this video about Stephen in Acts 7 from a Latter-day Saint perspective. The vision scene (Acts 7:55-56) must clearly show two distinct glorified personages in radiant heavenly light: God the Father and His Son Jesus Christ standing at the Father's right hand. Portray them as separate embodied beings, just as Stephen saw them — not as one figure, not as Jesus only, and do not add a dove or Trinitarian symbol. Use a reverent, luminous style like official Latter-day Saint gospel art (similar to the Gospel Art Book depiction of this scene). Keep the story simple, scripturally accurate, and 'milk' level — Christ-centered and uplifting for everyone. Focus on Stephen being full of the Holy Ghost, his bold testimony of Jesus, the vision of the Father and Son, his martyrdom, and his forgiving prayers to the Lord Jesus. Use simple narration that promotes faith in Jesus and the gospel without extra doctrine or heavy emphasis. Follow your established reverent style rules for sacred figures. Make the whole short video feel like it was made by Latter-day Saints — warm, truthful, and focused on the Savior. |
+| 184 | only Jesus's words in red. |

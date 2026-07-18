@@ -90,10 +90,15 @@ export function videoThumbUrl(id: number): string {
 // Firestore by admin/sync-reviews.mjs). Everything he has not re-approved is OUT —
 // those cards fall back to verse-only. #89 is approved but was never assembled
 // (build-89-last-supper has no final), so it is held out until it exists.
+// Cameron-approved cuts, published as PLACEHOLDERS (2026-07-18). Jesus has a new
+// voice, so nearly every story is being completely redone; these approved cuts hold
+// the feed until the new-voice versions land and he re-approves them.
 export const PRODUCED_VIDEO_IDS = new Set<number>([
-  2, 3, 5, 6, 80,
+  2, 3, 4, 5, 6, 11, 15, 19, 21,
+  80, 87, 88, 89, 91, 92, 93, 94, 95, 96,
   100, 101, 102, 103, 104, 105, 106, 107, 108, 111,
-  185, 186, 187,
+  180, 181, 182, 183,
+  185, 186, 187, 188, 189,
   190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200,
 ]);
 
