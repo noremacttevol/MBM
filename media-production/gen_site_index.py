@@ -163,8 +163,12 @@ _BACKUP_MP4 = re.compile(r"(\.orig\.|\.bak\.|[._-]old[._-]|_OLD|pre-[a-z0-9]+-fi
 def find_main_mp4(build_dir):
     # the finished cut is the single scripture-named mp4 sitting directly in the
     # build folder (book-chap_slug.mp4), never inside segs/ or assets/
+    # book part may itself contain hyphens for numbered books — "1-corinthians-15_",
+    # "1-peter-4_" — so allow hyphens before the trailing "-<chapter>_". The old
+    # pattern (^[0-9a-z]+-\d+_) rejected those, so videos #171 and #172 got NO card
+    # on the review page at all and Cameron simply could not see them (2026-07-18).
     hits = [p for p in glob.glob(os.path.join(build_dir, "*.mp4"))
-            if re.match(r"^[0-9a-z]+-\d+_", os.path.basename(p))
+            if re.match(r"^[0-9a-z-]+-\d+_", os.path.basename(p))
             and not _BACKUP_MP4.search(os.path.basename(p))]
     if not hits:
         return None
