@@ -1,0 +1,121 @@
+{
+ "build": "build-164-unity-of-faith",
+ "reference": "Ephesians 4",
+ "notes": "Ephesians is an epistle — Paul writing. A red-letter King James Bible prints no\nred in Ephesians 4. Both red beats move to SCRIPTURE (light blue):\n  kv11  Ephesians 4:11  'And he gave some, apostles...'                   RED -> SCRIPTURE\n  kv13  Ephesians 4:13  'Till we all come in the unity of the faith...'   RED -> SCRIPTURE\n\nkv11's subject is Christ — 'he gave' — but Paul is the one saying it, and the\nverse is about Christ rather than from him. Same error as build-163.\n\nNo mixed segments, nothing split.\n\nADDED: s14 lifts Ephesians 4:14 out of n5's paraphrase. n5 was describing the\ntossed-about children image in modern English while the actual verse — one of\nthe most vivid lines Paul wrote — went unheard. It sits on S7, the still that\nn5 was already using, so no new artwork is needed, and n5 now functions as the\nretelling immediately after it.\n\nWHY-LAW: milk. The study gem in n6 is left exactly as written — if the gifts\nwere given until we ALL come to the unity of the faith, and we plainly have\nnot, then they were never meant to stop. That is stated as a reading of Paul's\nown sentence, not as a claim about any church.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "When the risen Lord returned to heaven, he did not leave his church leaderless and on its own. From above, he poured out gifts on his people — and the greatest of those gifts were living leaders, given to shepherd and to teach."
+  },
+  {
+   "id": "kv11",
+   "speaker": "scripture",
+   "verse": "Ephesians 4:11",
+   "text": "And he gave some, apostles; and some, prophets; and some, evangelists; and some, pastors and teachers;"
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "He gave them for a reason. Their whole calling was to mend and mature the ordinary believers — to do the work of the ministry, and to build up the body until it stood strong and whole."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "So the people were never meant to be a scattered crowd. Taught and strengthened, they were knit together, growing closer, becoming one body that could bear one another up."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "And there was a destination in view. All of them were being drawn toward the same place — one shared faith, one true knowledge of the Son of God, a people grown at last into full and finished maturity."
+  },
+  {
+   "id": "kv13",
+   "speaker": "scripture",
+   "verse": "Ephesians 4:13",
+   "text": "Till we all come in the unity of the faith, and of the knowledge of the Son of God, unto a perfect man, unto the measure of the stature of the fulness of Christ:"
+  },
+  {
+   "id": "s14",
+   "speaker": "scripture",
+   "verse": "Ephesians 4:14",
+   "text": "That we henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine, by the sleight of men, and cunning craftiness, whereby they lie in wait to deceive;"
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Paul set the opposite right beside it. Without that steady leading, believers stay children — pushed back and forth, carried off by every new wind of teaching, easy prey for clever men who lie in wait to fool them."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "Here is the quiet study gem. If those leaders were given until we ALL arrive at that unity, and the church has plainly not arrived yet, then the gifts were never meant to be temporary. His people still need apostles and prophets to keep them from drifting."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "And that is where it leaves you. You were never meant to grow up alone, or to be blown about by whatever is newest. You are meant to grow up in this, together, into one settled faith. When he offers you a place in it, will you come and grow?"
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The risen Lord gave his church apostles and prophets, pastors and teachers — to build his people up until they all come to one faith and full maturity. When he offers you a place in it, will you come and grow?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "kv11",
+   "S2",
+   "in"
+  ],
+  [
+   "n2",
+   "S3",
+   "in"
+  ],
+  [
+   "n3",
+   "S4",
+   "in"
+  ],
+  [
+   "n4",
+   "S5",
+   "in"
+  ],
+  [
+   "kv13",
+   "S6",
+   "in"
+  ],
+  [
+   "s14",
+   "S7",
+   "in"
+  ],
+  [
+   "n5",
+   "S7",
+   "out"
+  ],
+  [
+   "n6",
+   "S7",
+   "in"
+  ],
+  [
+   "n7",
+   "S8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S7": "S7 now carries three beats — the verse, its retelling, and the study gem. Frame the moment Ephesians 4:14 describes rather than a general sea scene: a small open boat with no one at the tiller, shoved off its line by a crosswind, sail slack and snapping the wrong way. Keep it children-sized and unsteady, not a shipwreck — the verse is about being carried about, not destroyed. Open grey water to every horizon so there is visibly nothing to steer by."
+ }
+}

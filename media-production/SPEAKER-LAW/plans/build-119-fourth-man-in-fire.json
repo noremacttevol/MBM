@@ -1,0 +1,196 @@
+{
+ "build": "build-119-fourth-man-in-fire",
+ "reference": "Daniel 3",
+ "notes": "Nothing in this build was painted red, and nothing becomes red. Daniel is Old\nTestament - a red-letter KJV prints none of it in red, so no segment is `jesus`.\n\nThe fourth figure is described by Nebuchadnezzar as 'like the Son of God', and\nLatter-day Saints understand that as the premortal Christ. But that figure never\nSPEAKS in Daniel 3 - there is no line to colour. Nebuchadnezzar's report about him is\nNebuchadnezzar talking, so it is SCRIPTURE (light blue), not god and not jesus. The\nvideo says nothing on screen about who the fourth man is. Milk, not meat.\n\nFIVE LINES LIFTED OUT OF NARRATOR PARAPHRASE - this build had zero non-narrator beats\nand Daniel 3 is almost entirely dialogue, so it gained the most:\n  s315  Daniel 3:15  the king's ultimatum, ending 'who is that God that shall deliver\n                     you out of my hands?' - SCRIPTURE\n  s317  Daniel 3:17-18  'our God whom we serve is able to deliver us... But if not,\n                     be it known unto thee, O king, that we will not serve thy gods.'\n                     The line the whole video is built around, and it was only being\n                     paraphrased. Now verbatim, SCRIPTURE.\n  s325  Daniel 3:25  'Lo, I see four men loose...' - was already sitting verbatim\n                     inside narrator beat n6, spoken in the narrator's voice.\n  s326  Daniel 3:26  'ye servants of the most high God, come forth, and come hither'\n  s328  Daniel 3:28  'Blessed be the God of Shadrach, Meshach, and Abednego' - was\n                     also sitting verbatim inside narrator beat n10.\n\nNotice the shape this gives the video: the king asks 'who is that God that shall\ndeliver you' at the start and answers his own question at the end. That was invisible\nwhile both lines were narrator paraphrase.\n\nSPOKEN: left empty. Nebuchadnezzar and Abednego are already in the global pronunciation\nmap. 'bow' appears here meaning to bend down, NOT the archery bow, so it must NOT be\nrespelled - flagging that because build-135 respells it the other way.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "A king built a golden statue ninety feet high and made one rule: when the music plays, everyone bows. And everyone did — a whole plain of people face-down in the dust. Everyone except three."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Shadrach, Meshach, and Abednego would not bow to anything but God. So they were dragged before the furious king, who gave them one last chance, and finished it with a dare."
+  },
+  {
+   "id": "s315",
+   "speaker": "scripture",
+   "verse": "Daniel 3:15",
+   "text": "But if ye worship not, ye shall be cast the same hour into the midst of a burning fiery furnace; and who is that God that shall deliver you out of my hands?"
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "Bow, or burn. And who is this God of yours who could possibly get you out of my hands? Hold on to that question. The king is going to answer it himself before this is over."
+  },
+  {
+   "id": "s317",
+   "speaker": "scripture",
+   "verse": "Daniel 3:17-18",
+   "text": "Our God whom we serve is able to deliver us from the burning fiery furnace, and he will deliver us out of thine hand, O king. But if not, be it known unto thee, O king, that we will not serve thy gods, nor worship the golden image which thou hast set up."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Our God can save us, they said, and we believe he will. But if not — if he does not — we still will not bow. That is one of the bravest things anyone ever said. They did not obey because they were promised a rescue. They obeyed because he is God either way."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "So the king had the furnace stoked seven times hotter than ever and had the three cast in, still bound hand and foot — a fire so fierce no one should have survived a single moment in it."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "And that is exactly when the impossible began. The ropes burned away, but the men did not. They stood up inside the fire, unharmed, not a single thread of their clothing even scorched."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "Then the king leapt up off his seat in astonishment. He had thrown in three men, bound. Now he was counting four, walking loose. And this is what he said out loud, in front of his whole court."
+  },
+  {
+   "id": "s325",
+   "speaker": "scripture",
+   "verse": "Daniel 3:25",
+   "text": "Lo, I see four men loose, walking in the midst of the fire, and they have no hurt; and the form of the fourth is like the Son of God."
+  },
+  {
+   "id": "n6b",
+   "speaker": "narrator",
+   "text": "Four men, loose, walking in the middle of the fire, and none of them hurt. And the fourth one, the king says, looks like the Son of God. The man who gave the order to light that furnace is now the eyewitness describing what came of it."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "They were not alone in the fire. Whatever else that fourth figure was, it walked with them, and where it walked the flames could not touch them. God had not kept them out of the furnace — he met them inside it."
+  },
+  {
+   "id": "s326",
+   "speaker": "scripture",
+   "verse": "Daniel 3:26",
+   "text": "Shadrach, Meshach, and Abednego, ye servants of the most high God, come forth, and come hither."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "Come out, he called them — servants of the most high God. The man who demanded they call his statue god is now calling their God the highest one there is. And they walked from the heart of the fire onto solid ground, alive and whole, in front of everyone who had watched them go in."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "The officials crowded around and could not believe it. Not a hair of their heads was singed, their coats were not burned, and there was not even the smell of smoke on them. The fire had done nothing at all."
+  },
+  {
+   "id": "s328",
+   "speaker": "scripture",
+   "verse": "Daniel 3:28",
+   "text": "Blessed be the God of Shadrach, Meshach, and Abednego, who hath sent his angel, and delivered his servants that trusted in him."
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "Blessed be their God, the proud king says, who sent his angel and rescued the servants that trusted him. That is the same man who asked, an hour earlier, who is that God that shall deliver you out of my hands. He got his answer, and he said it himself."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "God never promised these three that they would not face the fire. He promised something better — that he would be in it with them. What would change if you believed God meets you inside the hard thing, not only on the far side of it?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "s315",
+   "S2",
+   "out"
+  ],
+  [
+   "n2b",
+   "S2",
+   "in"
+  ],
+  [
+   "s317",
+   "S3",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "out"
+  ],
+  [
+   "n4",
+   "S4",
+   "in"
+  ],
+  [
+   "n5",
+   "S5",
+   "in"
+  ],
+  [
+   "n6",
+   "S6",
+   "in"
+  ],
+  [
+   "s325",
+   "S6",
+   "out"
+  ],
+  [
+   "n6b",
+   "S6",
+   "in"
+  ],
+  [
+   "n7",
+   "S7",
+   "in"
+  ],
+  [
+   "s326",
+   "S8",
+   "in"
+  ],
+  [
+   "n8",
+   "S8",
+   "out"
+  ],
+  [
+   "n9",
+   "S9",
+   "in"
+  ],
+  [
+   "s328",
+   "S10",
+   "in"
+  ],
+  [
+   "n10",
+   "S10",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S2": "Now carries three beats — the three brought in, the king's verbatim ultimatum, and its retelling. The confrontation at its widest: three small figures standing upright in an enormous throne hall while the king leans forward off his seat. Everyone else in the room already face-down.",
+  "S3": "Now carries the full 'But if not' answer plus the retelling — the longest single stretch of words in the video. Frame it tight on the three of them, calm, side by side, mid-sentence. No fear on their faces and no defiance either. Settled.",
+  "S6": "Now carries the king's astonishment, the verbatim 'Lo, I see four men loose', and its retelling. Take the king's point of view: the open furnace mouth, and inside the white heat four upright shapes, the fourth indistinct and shining. Do not resolve the fourth figure's face.",
+  "S10": "Now carries the king's verbatim blessing and its retelling. The king off his throne, standing, looking at the three men and not at his golden statue — which can be visible behind him, ignored."
+ }
+}

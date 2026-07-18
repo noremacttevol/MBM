@@ -1,0 +1,154 @@
+{
+ "build": "build-108-my-sheep-hear-my-voice",
+ "reference": "John 10",
+ "notes": "Both existing red beats are correctly red and were left alone. John 10:1-18 and\n10:27-28 are Jesus speaking in the flesh, straight through, with no evangelist\nframing welded into either segment, so there was nothing to split and nothing to\nmove out of red.\n\nSTAYED RED (jesus):\n  jv27  John 10:27  'My sheep hear my voice, and I know them, and they follow me:'\n  jv28  John 10:28  'And I give unto them eternal life; and they shall never\n                     perish, neither shall any man pluck them out of my hand.'\n\nLIFTED FROM PARAPHRASE - both are also Jesus, so both are RED:\n  jv3   John 10:3   'The sheep hear his voice: and he calleth his own sheep by\n                     name, and leadeth them out.'\n  jv11  John 10:11  'I am the good shepherd: the good shepherd giveth his life\n                     for the sheep.'\nn3 was already saying John 10:3 in modern English ('each one, called by its own\nname'), so the real verse now speaks first and n3 stands as its lead-in. jv11 is\nthe sentence the whole video is built on and it was not in the video at all.\nThese are inside the shepherd discourse, so a red-letter KJV prints them red -\nthis is not a character inside a parable, it is Jesus in his own voice.\n\nNEW NARRATOR BEAT: n4b retells jv11 in plain English, per the retelling rule.\n\nSTILL REASSIGNED, NO NEW ART: n6 moves from S6 to S8. n6 is the retelling of\njv28 ('Once you are in his hand'), and S8 is literally 'in his hand', while S6\nnow carries jv11 and its retelling. Nothing was added to or removed from the\nartwork; one beat points at a different existing still, and it removes an\nout-of-order jump back to S6 that was in the original running order.\n\nWOMEN: John 10 records no woman speaking. Nothing was added rather than importing\na line from elsewhere.\n\nWHY-LAW: he leads rather than drives, knows rather than counts, and holds rather\nthan hoping you hold on. Milk framing - the grip is his, not yours.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "In that world, a shepherd did not drive his sheep from behind. He walked out in front of them, and they followed — not because they were forced, but because they knew his voice."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Several flocks might share one fold overnight. But in the morning, when a shepherd called, only his own sheep lifted their heads and came. They could tell his voice from a stranger's. That is the picture Jesus reaches for."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "He knows them one at a time. Not a nameless herd — each one, called by its own name, gently, personally. And knowing his voice, they come to him and follow."
+  },
+  {
+   "id": "jv3",
+   "speaker": "jesus",
+   "verse": "John 10:3",
+   "text": "The sheep hear his voice: and he calleth his own sheep by name, and leadeth them out."
+  },
+  {
+   "id": "jv27",
+   "speaker": "jesus",
+   "verse": "John 10:27",
+   "text": "My sheep hear my voice, and I know them, and they follow me:"
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Hear, know, follow. He leads them to green places and still water, to rest and to plenty. And when one is small or tired or hurt, he does not scold it for falling behind — he lifts it up and carries it."
+  },
+  {
+   "id": "jv11",
+   "speaker": "jesus",
+   "verse": "John 10:11",
+   "text": "I am the good shepherd: the good shepherd giveth his life for the sheep."
+  },
+  {
+   "id": "n4b",
+   "speaker": "narrator",
+   "text": "I am the good shepherd, he said. Not a hired man who runs off when it turns dangerous — a shepherd who lays his own life down for the sheep. That is what he was willing to spend to keep them. That is what he was willing to spend to keep you."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "And here is the turn: the sheep are people. You. Tired, wandering, easily lost people, whom he knows by name and leads with his voice and gathers close and will not lose."
+  },
+  {
+   "id": "jv28",
+   "speaker": "jesus",
+   "verse": "John 10:28",
+   "text": "And I give unto them eternal life; and they shall never perish, neither shall any man pluck them out of my hand."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "Once you are in his hand, it is over — for the fear, that is. Never perish. Never be snatched away. Not by your failures, not by your enemies, not by death itself. His grip on you does not depend on how tightly you can hold on to him."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "He leads them home in the evening to the safe fold, and counts them in, and none are missing."
+  },
+  {
+   "id": "n7b",
+   "speaker": "narrator",
+   "text": "That is the shepherd he is. Led, not driven. Known, not counted. Held, and never let go. And even now he is calling, gently, past the flock, to whoever is still outside."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The good shepherd knows his sheep by name, leads them by his voice, and holds them so no one can pluck them from his hand. He is still calling, gently, past the flock, to whoever is outside. Do you think that voice could be for you?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "in"
+  ],
+  [
+   "jv3",
+   "S3",
+   "out"
+  ],
+  [
+   "jv27",
+   "S4",
+   "in"
+  ],
+  [
+   "n4",
+   "S5",
+   "in"
+  ],
+  [
+   "jv11",
+   "S6",
+   "in"
+  ],
+  [
+   "n4b",
+   "S6",
+   "out"
+  ],
+  [
+   "n5",
+   "S7",
+   "in"
+  ],
+  [
+   "jv28",
+   "S8",
+   "in"
+  ],
+  [
+   "n6",
+   "S8",
+   "out"
+  ],
+  [
+   "n7",
+   "S9",
+   "in"
+  ],
+  [
+   "n7b",
+   "S10",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S3": "S3 now carries the narrator's 'he knows them one at a time' beat and then John 10:3 verbatim. Frame the calling by name: the shepherd crouched at the fold gate at first light, one hand on a single sheep's head, the rest of the flock lifting their heads toward him. Intimate and specific - one animal singled out of many.",
+  "S6": "S6 now carries 'I am the good shepherd, the good shepherd giveth his life for the sheep' AND its retelling - the cost beat of the whole video. Frame the carrying as costly, not merely tender: the shepherd walking with a hurt lamb across his shoulders, his own arms scratched and his cloak torn from going in after it, jaw set, still walking. Love that has already paid something.",
+  "S8": "S8 now carries John 10:28 and the retelling that follows it. Frame the holding: an open hand closed around a small sheep, seen close, the hand steady and unhurried, the light warm, nothing threatening in frame. The point is security, not a rescue in progress."
+ }
+}

@@ -1,0 +1,143 @@
+{
+ "build": "build-122-mote-and-beam",
+ "reference": "Matthew 7",
+ "notes": "BOTH RED BEATS STAY RED. jvA (Matthew 7:1-2) and jvB (Matthew 7:5) are Jesus\nspeaking on the mount. Nothing moved out of red.\n\njvA WAS CUT SHORT MID-VERSE. It ended at 'ye shall be judged.' where the KJV\nhas a colon and keeps going. The full second verse is now restored so the\nline a viewer looks up matches the line they heard:\n  '...and with what measure ye mete, it shall be measured to you again.'\nn8 already retells that clause ('the measure you use is the measure you will\nget back'), so the retelling was already in the build waiting for the words.\n\nLIFTED FROM PARAPHRASE — two red verses were in this build only as narrator\nparaphrase and are now spoken verbatim:\n  jv3  Matthew 7:3  'And why beholdest thou the mote that is in thy brother's\n                     eye, but considerest not the beam that is in thine own\n                     eye?'                                          JESUS\n  jv4  Matthew 7:4  'Or how wilt thou say to thy brother, Let me pull out the\n                     mote out of thine eye; and, behold, a beam is in thine\n                     own eye?'                                      JESUS\nThis is the heart of the story and it was the one part of it the viewer never\nactually heard Jesus say. Both new beats sit on the same stills as the\nnarrator beats that retell them (jv3 on S3 with n2, jv4 on S4 with n3), so no\nnew artwork is needed and the edit is unchanged.\n\nNO RED RUNS BACK TO BACK. Order is jvA, n2, jv3, n3, jv4, n4, n5, jvB, n6-n8.\nEvery Old English block is followed immediately by the storyteller.\n\nNO MIXED SEGMENTS. Matthew 7:1-5 is one unbroken stretch of Jesus speaking;\nthere is no narration frame welded into any of these beats.\n\nWHY-LAW: he never says stop caring about your brother. He says deal with your\nown beam first so you can actually help. Milk framing — mercy, not superiority.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Of all the things Jesus taught on that hillside, one of them cuts straight to how we treat each other — and it starts with a warning we would rather skip."
+  },
+  {
+   "id": "jvA",
+   "speaker": "jesus",
+   "verse": "Matthew 7:1-2",
+   "text": "Judge not, that ye be not judged. For with what judgment ye judge, ye shall be judged: and with what measure ye mete, it shall be measured to you again."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Don't set yourself up as the judge, he said, because whatever standard you hold other people to is the one that will be held up to you. And we are experts at spotting the small faults in someone else. A tiny speck, a mote, in our brother's eye — and we cannot wait to point it out. So he asked a question."
+  },
+  {
+   "id": "jv3",
+   "speaker": "jesus",
+   "verse": "Matthew 7:3",
+   "text": "And why beholdest thou the mote that is in thy brother's eye, but considerest not the beam that is in thine own eye?"
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Why do you stare at the speck of sawdust in your brother's eye, he asked, and never once notice the plank in your own? Then he drew the picture out until it was absurd enough to make you laugh."
+  },
+  {
+   "id": "jv4",
+   "speaker": "jesus",
+   "verse": "Matthew 7:4",
+   "text": "Or how wilt thou say to thy brother, Let me pull out the mote out of thine eye; and, behold, a beam is in thine own eye?"
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Picture it. A man leaning in, saying hold still, let me get that little speck out for you — with an entire wooden beam sticking straight out of his own head. He cannot even see straight. The beam is in the way of everything he does. And yet he is completely sure that he is the one who ought to be fixing other people."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "And then, if we are honest, the moment finally comes when we catch sight of the beam. Not his. Ours. The one we had been carrying the whole time."
+  },
+  {
+   "id": "jvB",
+   "speaker": "jesus",
+   "verse": "Matthew 7:5",
+   "text": "Thou hypocrite, first cast out the beam out of thine own eye; and then shalt thou see clearly to cast out the mote out of thy brother's eye."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "Take the beam out of your own eye first, he said, and then you will see clearly enough to help your brother with his speck. Notice he does not say ignore your brother's speck. He says deal with your own beam first — and then you will actually be able to help him, gently, instead of just condemning him."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "The goal was never to stop caring about each other. It was to come to each other humble instead of superior — as one flawed person helping another, not a judge passing a sentence."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "The measure you use is the measure you will get back. So Jesus offers a better one: mercy. Deal honestly with yourself, and you will be amazed how much patience you suddenly have for everyone else."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Jesus was not telling us to stop seeing clearly — he was telling us where to start: with the beam in our own eye. Deal with that, and our eyes for other people fill with mercy instead of judgment. Whose speck have you been watching, while a beam waited in your own eye?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "jvA",
+   "S2",
+   "in"
+  ],
+  [
+   "n2",
+   "S3",
+   "in"
+  ],
+  [
+   "jv3",
+   "S3",
+   "out"
+  ],
+  [
+   "n3",
+   "S4",
+   "in"
+  ],
+  [
+   "jv4",
+   "S4",
+   "out"
+  ],
+  [
+   "n4",
+   "S5",
+   "in"
+  ],
+  [
+   "n5",
+   "S6",
+   "in"
+  ],
+  [
+   "jvB",
+   "S7",
+   "in"
+  ],
+  [
+   "n6",
+   "S8",
+   "in"
+  ],
+  [
+   "n7",
+   "S9",
+   "in"
+  ],
+  [
+   "n8",
+   "S10",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S3": "S3 now carries the retelling of 'judge not' plus Jesus asking his question verbatim. Frame the mote, not the man: an extreme close view of one eye, a single speck of sawdust caught on the lashes, so small it is almost nothing. Warm dim interior light. The whole point of the frame is how tiny the thing is that we are so sure about.",
+  "S4": "S4 now carries the beam named twice — the retelling and then Jesus's own words about it. Frame the absurdity at the moment it lands: the same man from S3, leaning in helpfully toward his brother with two fingers raised to pick out the speck, and a full rough-hewn wooden beam running straight out from his own eye, long enough to fill the frame. Played honest and human, not comic cruelty — he genuinely does not know it is there."
+ }
+}

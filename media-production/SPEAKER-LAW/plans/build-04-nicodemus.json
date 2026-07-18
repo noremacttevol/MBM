@@ -1,0 +1,278 @@
+{
+ "build": "build-04-nicodemus",
+ "reference": "John 3",
+ "notes": "STAYED RED: all three existing red beats are Jesus speaking in the flesh, and a\nred-letter KJV prints all three.\n  j1  John 3:3      'Verily, verily, I say unto thee, Except a man be born again...'\n  j2  John 3:8      'The wind bloweth where it listeth...'\n  j3  John 3:16-17  'For God so loved the world...'\nNone of the three has John's narration welded onto it, so none needed splitting.\n\nLIFTED FROM PARAPHRASE - Nicodemus's own four lines, all SCRIPTURE (blue). This\nis the point of the build: it is a conversation, and only one man in it was ever\nallowed to talk.\n  s2   John 3:2  'Rabbi, we know that thou art a teacher come from God: for no\n                  man can do these miracles that thou doest, except God be with him.'\n  s4   John 3:4  'How can a man be born when he is old? can he enter the second\n                  time into his mother's womb, and be born?'\n  s9   John 3:9  'How can these things be?'\n  s51  John 7:51 'Doth our law judge any man, before it hear him, and know what he\n                  doeth?' - the council scene months later. Blue, and it is the\n                  same man's voice in daylight, which is the whole arc of the video.\n\nEDITS TO EXISTING NARRATOR TEXT: four narrator beats were trimmed at the point\nwhere they used to speak his lines for him, and the remainder became a new\nretelling beat on the SAME still - n2 -> s2 -> n2b, n4 -> s4 -> n4b,\nn6 -> s9 -> n6b, n10 -> s51 -> n10b. Every retelling reuses the old wording, so\nthe storyteller's voice is unchanged and no still moved.\n\nNOT LIFTED: n8 describes John 3:19-21 (light and darkness) in modern English\nrather than quoting it. That is the storyteller doing his job and it stays\nnarrator. n11's hundred pounds of myrrh and aloes is John 19:39 narrated, not\nquoted - also correctly narrator.\n\nWOMEN: John 3 records no woman speaking. Nothing added; nothing invented.\n\nWHY-LAW: Jesus never shamed the fear and never shamed the night. He answered the\nreal question underneath and let the courage grow on its own - from a man at the\ndoor in the dark to a man carrying a king's burial in the open.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "In Jerusalem there was a man named Nicodemus. He was a Pharisee, and more than that — a ruler of the Jews, a member of the great council that governed the nation's faith. Educated. Respected. Listened to. A man like that had everything to lose by being seen with a controversial teacher from Galilee. His seat, his standing, his name."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "So he came at night."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "He knocked on the door in the dark, and the first thing he said was this."
+  },
+  {
+   "id": "s2",
+   "speaker": "scripture",
+   "verse": "John 3:2",
+   "text": "Rabbi, we know that thou art a teacher come from God: for no man can do these miracles that thou doest, except God be with him."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "Teacher, we know you have come from God, because no one could do what you do unless God were with him. Bible students notice one small word there — we. Not I. We know. Nicodemus had been talking with other rulers, quietly, behind closed doors. Some of the very men who opposed Jesus in public already believed it in private. He just couldn't say it in daylight."
+  },
+  {
+   "id": "n3a",
+   "speaker": "narrator",
+   "text": "And Jesus didn't turn him away for coming at night. He didn't point out the fear. He skipped past the compliment entirely, and answered the real question underneath — the one Nicodemus hadn't dared to ask."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "John 3:3",
+   "text": "Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "That's where the phrase comes from — this conversation, this night. And notice who heard it first. Not a hardened sinner. The most religious man in the country. Jesus was telling him that all his learning and all his rule-keeping could not do it. Everyone has to start over. Everyone."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Nicodemus took it literally."
+  },
+  {
+   "id": "s4",
+   "speaker": "scripture",
+   "verse": "John 3:4",
+   "text": "How can a man be born when he is old? can he enter the second time into his mother's womb, and be born?"
+  },
+  {
+   "id": "n4b",
+   "speaker": "narrator",
+   "text": "How can a man be born when he is old, he asked — can he go back a second time and start over? Here was a master of the scriptures, completely lost. And Jesus didn't laugh at him. He didn't shame him for not getting it. He reached for something Nicodemus could feel — the night wind moving outside the window."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "John 3:8",
+   "text": "The wind bloweth where it listeth, and thou hearest the sound thereof, but canst not tell whence it cometh, and whither it goeth: so is every one that is born of the Spirit."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "You can't see the wind. You only see what it moves — the trees bending, the flame leaning. That, Jesus said, is how God changes a person. You may not be able to explain it. But you can watch a life bend."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "And something in Nicodemus gave way. Three words at a time, the formal questions of a scholar were falling away — until what was left was just a man in the lamplight, asking the only thing he had really come to ask."
+  },
+  {
+   "id": "s9",
+   "speaker": "scripture",
+   "verse": "John 3:9",
+   "text": "How can these things be?"
+  },
+  {
+   "id": "n6b",
+   "speaker": "narrator",
+   "text": "How can these things be. No title on it. No argument behind it. Just a tired, honest man finally asking what he actually wanted to know."
+  },
+  {
+   "id": "n7a",
+   "speaker": "narrator",
+   "text": "And then Jesus said the words. The ones the whole world would come to know."
+  },
+  {
+   "id": "j3",
+   "speaker": "jesus",
+   "verse": "John 3:16-17",
+   "text": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life. For God sent not his Son into the world to condemn the world; but that the world through him might be saved."
+  },
+  {
+   "id": "n7b",
+   "speaker": "narrator",
+   "text": "Those words weren't preached to a stadium. They were said quietly, at night, to one scared man who came with questions."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "Then Jesus spoke about light and darkness — how people hide in the dark when they're afraid of what the light will show, but whoever lives by the truth steps into the light gladly. Think about who he was saying that to. A man who had crept to his door under cover of darkness. It wasn't a jab. It was an invitation: you won't always have to come at night."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "Here's a detail worth keeping. Every time John's gospel mentions Nicodemus again, it adds the same tag — the one who came to Jesus by night. John wants you to remember how he started. Because he wants you to watch what happened to him."
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "Months later, the council met in broad daylight, furious, ready to condemn Jesus without a hearing. And one voice rose to stop them. Nicodemus."
+  },
+  {
+   "id": "s51",
+   "speaker": "scripture",
+   "verse": "John 7:51",
+   "text": "Doth our law judge any man, before it hear him, and know what he doeth?"
+  },
+  {
+   "id": "n10b",
+   "speaker": "narrator",
+   "text": "Does our law judge a man, he asked, before it hears him? It sounds mild. It wasn't. He was defending Jesus to the most powerful men in the nation — the very room he had everything to lose in. They turned on him for it. The man who once came at night was starting to speak in the light."
+  },
+  {
+   "id": "n11",
+   "speaker": "narrator",
+   "text": "And then came the darkest day. Jesus was dead. His own apostles were hiding behind locked doors. And Nicodemus came — openly, in the daylight, when believing could no longer gain anyone anything — carrying a hundred pounds of myrrh and aloes for the burial. A hundred pounds. That was a quantity fit for royalty. The man who had crept to Jesus in the dark gave him a king's burial in the open."
+  },
+  {
+   "id": "n12",
+   "speaker": "narrator",
+   "text": "Jesus never shamed the fear, and never shamed the night. He just answered the real question underneath — and let the courage grow on its own. Have you ever felt drawn toward something, and been afraid to let anyone else see it?"
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "n1",
+   "S2",
+   "in"
+  ],
+  [
+   "n2",
+   "S3",
+   "in"
+  ],
+  [
+   "s2",
+   "S3",
+   "out"
+  ],
+  [
+   "n2b",
+   "S3",
+   "in"
+  ],
+  [
+   "n3a",
+   "S4",
+   "in"
+  ],
+  [
+   "j1",
+   "S4",
+   "out"
+  ],
+  [
+   "n3b",
+   "S4",
+   "in"
+  ],
+  [
+   "n4",
+   "S5",
+   "in"
+  ],
+  [
+   "s4",
+   "S5",
+   "out"
+  ],
+  [
+   "n4b",
+   "S5",
+   "in"
+  ],
+  [
+   "j2",
+   "S6",
+   "in"
+  ],
+  [
+   "n5",
+   "S6",
+   "out"
+  ],
+  [
+   "n6",
+   "S7",
+   "in"
+  ],
+  [
+   "s9",
+   "S7",
+   "out"
+  ],
+  [
+   "n6b",
+   "S7",
+   "in"
+  ],
+  [
+   "n7a",
+   "S8",
+   "in"
+  ],
+  [
+   "j3",
+   "S8",
+   "out"
+  ],
+  [
+   "n7b",
+   "S8",
+   "in"
+  ],
+  [
+   "n8",
+   "S9",
+   "in"
+  ],
+  [
+   "n9",
+   "S9",
+   "out"
+  ],
+  [
+   "n10",
+   "S10",
+   "in"
+  ],
+  [
+   "s51",
+   "S10",
+   "out"
+  ],
+  [
+   "n10b",
+   "S10",
+   "in"
+  ],
+  [
+   "n11",
+   "S11",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S3": "S3 now carries three beats — the knock, Nicodemus's verbatim greeting, and the 'we know' retelling. Frame the greeting, not the arrival: an older, well-dressed man just inside a doorway, hood pushed back off grey hair, speaking, one hand still on the doorframe as though he has not decided to stay. Lamplight on his face from inside, a black street behind him.",
+  "S5": "S5 now carries three beats — his literal misunderstanding, the verbatim question, and the retelling into the wind. Frame the confusion: the old scholar leaning forward across the low lamp, brow drawn, hands opened in genuine bewilderment. Not offended — stumped. A shuttered window behind him with the night moving beyond it.",
+  "S7": "S7 now carries three beats — the giving way, 'How can these things be?', and the retelling. Frame the surrender: the same face, closer than any shot before it, the argument gone out of it. Eyes up, mouth open on a short question, hands come to rest. The lamp low and close, everything else dark.",
+  "S10": "S10 now carries three beats — the furious council, Nicodemus's verbatim objection, and the retelling. Frame him standing while they sit: one older man on his feet in a stone council chamber in hard daylight, speaking into a room of seated, turning, hostile faces. He is alone, and he is not sitting down."
+ }
+}

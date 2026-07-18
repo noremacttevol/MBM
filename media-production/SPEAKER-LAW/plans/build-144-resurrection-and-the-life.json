@@ -1,0 +1,169 @@
+{
+ "build": "build-144-resurrection-and-the-life",
+ "reference": "John 11",
+ "notes": "THIS BUILD HAD A WOMAN IN IT AND NEVER LET HER SPEAK. John 11 is a conversation\nbetween Jesus and Martha, and in the original every one of Martha's lines was\nnarrator paraphrase in white. Three of them are now lifted out verbatim as WOMAN,\npink:\n  w21  John 11:21-22  'Lord, if thou hadst been here, my brother had not died.\n       But I know, that even now, whatsoever thou wilt ask of God, God will give\n       it thee.'\n  w24  John 11:24     'I know that he shall rise again in the resurrection at the\n       last day.'   - this was n1a, 'she said she believed her brother would rise\n       again at the last day.' n1a keeps its id and now retells her.\n  w27  John 11:27     'Yea, Lord: I believe that thou art the Christ, the Son of\n       God, which should come into the world.'  - this was n3a, 'Martha said yes.'\n       Three words of white narration in place of one of the great confessions in\n       scripture. n3a keeps its id and now retells it.\n\nSTAYED RED, and two more added. j1 (11:25) and j2 (11:26) are Jesus in the flesh\nand a red-letter KJV inks both. Neither had John's framing welded on, so neither\nneeded splitting. Two of his lines were also missing entirely:\n  j23  John 11:23  'Thy brother shall rise again.'  - the line that provokes\n       Martha's answer; without it her 'at the last day' has nothing to answer.\n  j43  John 11:43  'Lazarus, come forth.'  - n3b reported the tomb opening without\n       the three words that opened it. n3b keeps its id and now retells it.\n\nDELIBERATE QUESTION-AND-ANSWER PAIR: j2 ends 'Believest thou this?' and w27 answers\nit. Red straight into pink with no narrator between them is intentional - it is the\nhinge of the whole chapter and a retelling wedged in the middle would kill it. n3a\nretells both halves immediately after. Every other Old English block is followed by\nthe narrator saying it again.\n\nMARY - CONSIDERED, LEFT OUT. John 11:32 records Mary saying 'Lord, if thou hadst\nbeen here, my brother had not died' - word for word the same sentence as Martha's\nin 11:21, which is already in the video as w21. Putting both in would play as a\nstutter, and this video's spine is the Martha exchange. Left out on judgment, not\nuncertainty; the verse is exact if a later pass wants it.\n\nWHY-LAW: Martha's faith was real and it was parked at the far end of time - someday,\nat the last day. He moved it into the present tense and made it a person. Milk\nframing - the resurrection is not an event you wait for, it is someone you can\nbelieve in right now, standing in front of you at the worst moment of your life.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Lazarus had been in the tomb four days. His sister Martha came to Jesus, heavy with grief but still full of faith."
+  },
+  {
+   "id": "w21",
+   "speaker": "woman",
+   "verse": "John 11:21-22",
+   "text": "Lord, if thou hadst been here, my brother had not died. But I know, that even now, whatsoever thou wilt ask of God, God will give it thee."
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "If You had been here, my brother wouldn't have died, she told Him. And then, in the same breath — but even now, whatever You ask God for, He'll give You. Four days too late, and she still wasn't finished hoping."
+  },
+  {
+   "id": "j23",
+   "speaker": "jesus",
+   "verse": "John 11:23",
+   "text": "Thy brother shall rise again."
+  },
+  {
+   "id": "n1a",
+   "speaker": "narrator",
+   "text": "Your brother will rise again, He told her. And Martha said she believed that — someday, at the end of everything."
+  },
+  {
+   "id": "w24",
+   "speaker": "woman",
+   "verse": "John 11:24",
+   "text": "I know that he shall rise again in the resurrection at the last day."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "It was a real faith, but a faraway one — comfort filed away for the last day. Jesus answered with a promise bigger than the last day."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "John 11:25",
+   "text": "I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live:"
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Not a theory about life after death. He said He Himself is the life — and that trusting Him beats the grave."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "John 11:26",
+   "text": "And whosoever liveth and believeth in me shall never die. Believest thou this?"
+  },
+  {
+   "id": "w27",
+   "speaker": "woman",
+   "verse": "John 11:27",
+   "text": "Yea, Lord: I believe that thou art the Christ, the Son of God, which should come into the world."
+  },
+  {
+   "id": "n3a",
+   "speaker": "narrator",
+   "text": "Do you believe this, He asked her. Yes, Lord, she said — I believe You are the Christ, the Son of God. Standing outside her brother's grave, with her eyes swollen from crying, Martha said the largest thing anybody says in that whole book."
+  },
+  {
+   "id": "j43",
+   "speaker": "jesus",
+   "verse": "John 11:43",
+   "text": "Lazarus, come forth."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "Three words at the mouth of a sealed tomb — Lazarus, come out. And moments later, her brother walked out of the tomb."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Death is not the end of the story. He is the life."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "w21",
+   "S2",
+   "in"
+  ],
+  [
+   "n0b",
+   "S2",
+   "out"
+  ],
+  [
+   "j23",
+   "S3",
+   "in"
+  ],
+  [
+   "n1a",
+   "S3",
+   "out"
+  ],
+  [
+   "w24",
+   "S4",
+   "in"
+  ],
+  [
+   "n1b",
+   "S4",
+   "out"
+  ],
+  [
+   "j1",
+   "S5",
+   "in"
+  ],
+  [
+   "n2",
+   "S5",
+   "out"
+  ],
+  [
+   "j2",
+   "S6",
+   "in"
+  ],
+  [
+   "w27",
+   "S6",
+   "out"
+  ],
+  [
+   "n3a",
+   "S7",
+   "in"
+  ],
+  [
+   "j43",
+   "S8",
+   "in"
+  ],
+  [
+   "n3b",
+   "S8",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S2": "S2 now carries Martha's first verbatim line and its retelling. Frame her speaking, not weeping: Martha stopped on the road outside the village, dust on her mourning clothes, face lifted to Jesus, mid-sentence. Grief and stubborn hope in the same expression - she is accusing and trusting him in one breath.",
+  "S3": "S3 now carries 'Thy brother shall rise again' and its retelling. Frame Jesus answering: close on him, steady and tender, no drama - a man saying something enormous in an ordinary voice to a woman who has been crying for four days.",
+  "S4": "S4 now carries Martha's 'at the last day' and its retelling. Frame the faraway faith: Martha's eyes going past him toward the horizon as she says it - believing, and believing it about someday. Resigned rather than comforted.",
+  "S6": "S6 now carries 'Believest thou this?' AND Martha's confession answering it. Frame the question and the answer as one look between two faces: Jesus close, waiting; Martha turned back to him, the horizon-stare gone, eyes on his. The still has to hold the pause between the question and the yes.",
+  "S8": "S8 now carries 'Lazarus, come forth' and the retelling. Frame the command, not the crowd: the black mouth of the open tomb, the stone rolled aside, Jesus a step in front of it with his voice raised - and the first suggestion of movement in the dark inside."
+ }
+}

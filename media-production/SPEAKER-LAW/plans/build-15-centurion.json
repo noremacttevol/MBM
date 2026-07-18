@@ -1,0 +1,325 @@
+{
+ "build": "build-15-centurion",
+ "reference": "Matthew 8",
+ "notes": "STAYED RED: all four existing red beats are Jesus speaking in the flesh and a\nred-letter KJV prints all four.\n  j1   Matthew 8:7   'I will come and heal him.'\n  j2   Matthew 8:10  'Verily I say unto you, I have not found so great faith...'\n  j2b  Matthew 8:11  'And I say unto you, That many shall come from the east...'\n  j3   Matthew 8:13  'Go thy way; and as thou hast believed, so be it done unto thee.'\nNone carried Matthew's framing, so none needed splitting. Matthew's own 'When\nJesus heard it, he marvelled' is handled by n14 in the storyteller's voice and\nstays white, which is correct -- that is Matthew writing, not Jesus speaking.\n\nTHE FIX THIS BUILD EXISTED FOR -- THE CENTURION WAS NEVER HEARD. The heart of\nthis story is a Roman soldier's confession of faith, and both halves of it were\nsitting inside narrator paraphrase, spoken in white. Lifted out verbatim as\nSCRIPTURE (light blue -- he is a man in the story, not Deity), each on the SAME\nstill the paraphrase already used:\n  s8  Matthew 8:8  'Lord, I am not worthy that thou shouldest come under my roof:\n      but speak the word only, and my servant shall be healed.'\n      n10 is trimmed to the frame only -- 'But the officer stopped him.' -- and a\n      new n10b carries the retelling that n10 used to carry.\n  s9  Matthew 8:9  'For I am a man under authority, having soldiers under me: and\n      I say to this man, Go, and he goeth; and to another, Come, and he cometh;\n      and to my servant, Do this, and he doeth it.'\n      n12 is trimmed to its frame, and n12b carries the retelling.\nThis is the same shape as build-103's Peter split: frame stays white, the man's\nown words go blue, the storyteller says it again straight after.\n\nNO GREEN: nothing in Matthew 8:5-13 is the Father or a voice from heaven.\n\nWOMEN: Matthew 8:5-13 records no woman speaking. Nothing added; nothing invented.\n\nWHY-LAW: the outsider trusted the word alone, with no proof and no visit, and\nJesus was willing to walk into the enemy's house for one servant nobody valued.\nMilk: faith is trusting his word before you see anything.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "This is Capernaum, a fishing town on the Sea of Galilee, where Jesus often stayed and taught. It was also filled with Roman soldiers — the army that had conquered these people and now ruled them by force."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "So the Jews here had every reason to hate Rome. Hold on to that, because the man this story is about wears a Roman uniform."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "In one of those Roman houses, a young servant was dying. His body had gone stiff and useless, and he was in terrible pain."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "A servant in those days was treated as property. If he died, most masters would simply replace him. But this master could not bring himself to walk away."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "The master was a centurion — a Roman officer in command of a hundred soldiers. A powerful man, and to the Jews, the enemy."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "Yet he left his house and went straight to Jesus, a Jewish teacher, to beg for help. Not for himself. Not even for his own son. For a servant."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "He came humbly, head bowed, and told Jesus the plain truth: his servant was at home, unable to move, in agony. Could Jesus help him?"
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "Jesus did not hesitate for a moment. He answered that he would go to the house himself."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Matthew 8:7",
+   "text": "I will come and heal him."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "Stop and see what that means. Jesus was willing to walk into the home of a Roman — the enemy — for the sake of one dying servant nobody else valued. That is who Jesus is."
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "But the officer stopped him."
+  },
+  {
+   "id": "s8",
+   "speaker": "scripture",
+   "verse": "Matthew 8:8",
+   "text": "Lord, I am not worthy that thou shouldest come under my roof: but speak the word only, and my servant shall be healed."
+  },
+  {
+   "id": "n10b",
+   "speaker": "narrator",
+   "text": "Lord, I am not worthy to have you come under my roof, he said. Only say the word, and my servant will be healed."
+  },
+  {
+   "id": "n11",
+   "speaker": "narrator",
+   "text": "He was not just being polite. He truly believed Jesus did not need to be there at all. He believed that Jesus's word, by itself, was enough."
+  },
+  {
+   "id": "n12",
+   "speaker": "narrator",
+   "text": "And he explained why, in the only language a soldier knows."
+  },
+  {
+   "id": "s9",
+   "speaker": "scripture",
+   "verse": "Matthew 8:9",
+   "text": "For I am a man under authority, having soldiers under me: and I say to this man, Go, and he goeth; and to another, Come, and he cometh; and to my servant, Do this, and he doeth it."
+  },
+  {
+   "id": "n12b",
+   "speaker": "narrator",
+   "text": "I am a man under authority, he said. I tell one soldier, Go, and he goes. I tell another, Come, and he comes. I tell my servant to do a thing, and it is done."
+  },
+  {
+   "id": "n13",
+   "speaker": "narrator",
+   "text": "He never has to go himself; his word alone carries his power across the whole camp. He was certain Jesus's word worked the same way — that it could reach across the town and heal on its own."
+  },
+  {
+   "id": "n14",
+   "speaker": "narrator",
+   "text": "And this amazed Jesus. The Gospels almost never say that anyone surprised him, yet the faith of this Roman outsider stopped him. He turned to the crowd and said:"
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Matthew 8:10",
+   "text": "Verily I say unto you, I have not found so great faith, no, not in Israel."
+  },
+  {
+   "id": "n15",
+   "speaker": "narrator",
+   "text": "In plain words: no one among his own people, the ones who should have known God best, had ever trusted him the way this outsider just had."
+  },
+  {
+   "id": "n16",
+   "speaker": "narrator",
+   "text": "Then Jesus opened heaven wider than anyone listening expected:"
+  },
+  {
+   "id": "j2b",
+   "speaker": "jesus",
+   "verse": "Matthew 8:11",
+   "text": "And I say unto you, That many shall come from the east and west, and shall sit down with Abraham, and Isaac, and Jacob, in the kingdom of heaven."
+  },
+  {
+   "id": "n17",
+   "speaker": "narrator",
+   "text": "He meant that people from every nation on earth would be welcomed to God's table. What brings you in is not where you were born, or which group you belong to. It is whether you trust him."
+  },
+  {
+   "id": "n18",
+   "speaker": "narrator",
+   "text": "Then Jesus turned back to the soldier and gave him the one thing he had asked for — a single word."
+  },
+  {
+   "id": "j3",
+   "speaker": "jesus",
+   "verse": "Matthew 8:13",
+   "text": "Go thy way; and as thou hast believed, so be it done unto thee."
+  },
+  {
+   "id": "n19",
+   "speaker": "narrator",
+   "text": "Go home; it has already happened, just as you trusted it would. No touch, no visit — only his word, sent across the town."
+  },
+  {
+   "id": "n20",
+   "speaker": "narrator",
+   "text": "And in that very hour, far away in the Roman house, the young servant drew a deep, clean breath. The color flowed back into his face, his body loosened, and he sat up, completely well."
+  },
+  {
+   "id": "n21",
+   "speaker": "narrator",
+   "text": "No one was in the room with him. He was made whole by nothing but the word of a man he had never even met."
+  },
+  {
+   "id": "n22",
+   "speaker": "narrator",
+   "text": "When the officer reached home, his servant rose to meet him at the door, alive and well. This hardened soldier, who commanded a hundred men, came apart. He had trusted Jesus's word, and the word had been enough."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "This Roman soldier trusted Jesus before he saw any proof at all. Is there something in your life you would place in Jesus's hands like that — simply on his word?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S1",
+   "out"
+  ],
+  [
+   "n3",
+   "S2",
+   "in"
+  ],
+  [
+   "n4",
+   "S2",
+   "out"
+  ],
+  [
+   "n5",
+   "S3",
+   "in"
+  ],
+  [
+   "n6",
+   "S3",
+   "out"
+  ],
+  [
+   "n7",
+   "S4",
+   "in"
+  ],
+  [
+   "n8",
+   "S5",
+   "in"
+  ],
+  [
+   "j1",
+   "S5",
+   "out"
+  ],
+  [
+   "n9",
+   "S5",
+   "in"
+  ],
+  [
+   "n10",
+   "S6",
+   "in"
+  ],
+  [
+   "s8",
+   "S6",
+   "out"
+  ],
+  [
+   "n10b",
+   "S6",
+   "in"
+  ],
+  [
+   "n11",
+   "S6",
+   "out"
+  ],
+  [
+   "n12",
+   "S7",
+   "in"
+  ],
+  [
+   "s9",
+   "S7",
+   "out"
+  ],
+  [
+   "n12b",
+   "S7",
+   "in"
+  ],
+  [
+   "n13",
+   "S7",
+   "out"
+  ],
+  [
+   "n14",
+   "S8",
+   "in"
+  ],
+  [
+   "j2",
+   "S8",
+   "out"
+  ],
+  [
+   "n15",
+   "S8",
+   "in"
+  ],
+  [
+   "n16",
+   "S9",
+   "in"
+  ],
+  [
+   "j2b",
+   "S9",
+   "out"
+  ],
+  [
+   "n17",
+   "S9",
+   "in"
+  ],
+  [
+   "n18",
+   "S10",
+   "in"
+  ],
+  [
+   "j3",
+   "S10",
+   "out"
+  ],
+  [
+   "n19",
+   "S10",
+   "in"
+  ],
+  [
+   "n20",
+   "S11",
+   "in"
+  ],
+  [
+   "n21",
+   "S11",
+   "out"
+  ],
+  [
+   "n22",
+   "S12",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S6": "S6 now carries four beats — the frame, the centurion's verbatim 'I am not worthy', its retelling, and n11. Frame the confession itself: the officer stopped mid-street with a hand raised, palm out, halting Jesus before he can take another step toward the house. Armour and helmet still on, head down. The most powerful man on the road refusing to let Jesus walk any further for his sake.",
+  "S7": "S7 now carries the centurion's verbatim 'I am a man under authority' and its retelling. Frame what he is describing, not him describing it: the officer in the foreground, and behind him at a distance his soldiers already moving on a word he has not raised his voice to give. Authority shown as obedience at a distance."
+ }
+}

@@ -1,0 +1,150 @@
+{
+ "build": "build-121-salt-and-light",
+ "reference": "Matthew 5",
+ "notes": "ALL FOUR RED BEATS STAY RED, UNCHANGED. jv13 (Matthew 5:13), jv14 (5:14),\njv15 (5:15) and jv16 (5:16) are Jesus speaking in the flesh on the mount. A\nred-letter KJV prints all of it red. Nothing moved out of red.\n\nNO MIXED SEGMENTS. Every red block here is pure speech — there is no 'and he\nsaid unto them' welded onto any of them, so nothing needed splitting. Checked\neach of the four against the KJV verse boundaries: jv13 is 5:13 entire, jv14\nis 5:14 entire, jv15 is 5:15 entire, jv16 is 5:16 entire. All verbatim.\n\nRETELLING COVERAGE: already complete, so nothing was added. n2 and n3 retell\njv13 (salt that is precious, salt that goes flat). n4 retells jv14 (the town\non the hilltop). n5 and n6 retell jv15 (the lamp under the basket, the lamp\non the stand). n7 and n8 retell jv16 (shine, and why). No red block anywhere\nin this build is followed by another red block.\n\nn1 already carries the framing in the narrator's own modern English — the\nhillside, the crowd, 'he began with salt' — rather than quoting Matthew, so\nit correctly stays narrator. It was left word for word as it was.\n\nNOTHING LEFT AS PARAPHRASE FROM UNCERTAINTY. This build needed confirmation,\nnot correction.\n\nWHY-LAW: he does not tell them to become salt and light. He tells them they\nalready are. Milk framing — the charge is gentle, and it is about not wasting\nwhat you already have.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Jesus sat on a green hillside above the Sea of Galilee, an ordinary crowd gathered on the grass around him — fishermen, mothers, farmers, children. And to these plain, unremarkable people he said something astonishing about who they were. He began with salt."
+  },
+  {
+   "id": "jv13",
+   "speaker": "jesus",
+   "verse": "Matthew 5:13",
+   "text": "Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thenceforth good for nothing, but to be cast out, and to be trodden under foot of men."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "In that world salt was precious. It kept food from spoiling and it made plain things taste good. That, he told them, is what you are — you keep the world from going bad, and you bring out the good in it. You matter that much."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "But salt has one job, and if it goes flat and loses its flavour it is no use to anyone — it just gets swept out and walked over. He was not threatening them; he was telling them not to waste what they were. Stay salty. Stay yourselves."
+  },
+  {
+   "id": "jv14",
+   "speaker": "jesus",
+   "verse": "Matthew 5:14",
+   "text": "Ye are the light of the world. A city that is set on an hill cannot be hid."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Then he pointed them to light. A town built up on a hilltop, its lamps lit at dusk, can be seen for miles — there is no hiding it. That, he said, is you: not something the world should have to squint to find, but a light set up where everyone can see."
+  },
+  {
+   "id": "jv15",
+   "speaker": "jesus",
+   "verse": "Matthew 5:15",
+   "text": "Neither do men light a candle, and put it under a bushel, but on a candlestick; and it giveth light unto all that are in the house."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Nobody lights a lamp and then hides it under a basket. That would be pointless — smothering the very thing they lit it for."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "You set it up high, on a stand, so its light reaches into every corner and everyone in the house can see. Your goodness was never meant to be hidden away. It was meant to give light to the people around you."
+  },
+  {
+   "id": "jv16",
+   "speaker": "jesus",
+   "verse": "Matthew 5:16",
+   "text": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "So let it shine, he said. Live openly good — kind, honest, generous — right out where people can see it."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "But notice the reason. Not so they will admire you. So that when they see the good you do, their eyes will lift past you to God, and they will love him for it. Your light is not about you at all. It points home to your Father."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "That is the whole charge, and it is a gentle one. You do not have to become something you are not. You already are salt; you already are light. Just don't lose your savour, and don't hide your lamp. Go out, stay bright, and be exactly what the world needs."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "You are the salt of the earth. You are the light of the world. Not someday, if you are good enough — right now, as you are. Where could your light give someone else a little more of God today?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "jv13",
+   "S2",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "out"
+  ],
+  [
+   "n3",
+   "S3",
+   "in"
+  ],
+  [
+   "jv14",
+   "S4",
+   "in"
+  ],
+  [
+   "n4",
+   "S5",
+   "in"
+  ],
+  [
+   "jv15",
+   "S6",
+   "in"
+  ],
+  [
+   "n5",
+   "S6",
+   "out"
+  ],
+  [
+   "n6",
+   "S7",
+   "in"
+  ],
+  [
+   "jv16",
+   "S8",
+   "in"
+  ],
+  [
+   "n7",
+   "S8",
+   "out"
+  ],
+  [
+   "n8",
+   "S9",
+   "in"
+  ],
+  [
+   "n9",
+   "S10",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {}
+}

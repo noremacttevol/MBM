@@ -1,0 +1,153 @@
+{
+ "build": "build-01-cloak",
+ "reference": "Mark 5",
+ "notes": "STAYED RED: both existing red beats are Jesus speaking in the flesh and a\nred-letter KJV prints both.\n  j0  Mark 5:30  'Who touched my clothes?'\n  j1  Mark 5:34  'Daughter, thy faith hath made thee whole...'\n\nTHE WOMAN - the headline change. Mark 5:28 records what she said to herself, and\nthis build had it only as narrator paraphrase ('She did not ask permission. She\ndid not make a speech.'). It is now w28, PINK, verbatim:\n  w28  Mark 5:28  'If I may touch but his clothes, I shall be whole.'\nQuoted without Mark's frame 'For she said,' so the caption is her own voice.\nThis is the only line the woman gets in the whole chapter and the video was\ntelling her story without ever letting her speak.\n\nLIFTED FROM PARAPHRASE - the disciples' pushback, which makes the moment an\nexchange instead of a monologue:\n  s31  Mark 5:31  'Thou seest the multitude thronging thee, and sayest thou,\n                   Who touched me?'  SCRIPTURE (blue - this is the twelve, not Jesus)\n\nEDITS TO EXISTING NARRATOR TEXT: n3a gains a closing hand-off sentence and n3b\ngains a one-line retelling of w28 in front of its original sentence. n4c is\nunchanged - it already retells the disciples' line perfectly ('His disciples\nthought the question made no sense'), so s31 hands straight into it. Nothing\nelse changed.\n\nNOT LIFTED: Mark 5:33 has her fall down and tell him 'all the truth', but the\nKJV does not record the words, so n4b stays narrator. Nothing invented.\n\nWHY-LAW: she reached in secret and he refused to let the healing stay secret -\nhe stopped a crowd, on his way to a dying child, to give one untouchable woman\na name. Milk framing: he stops for the one, and calls her daughter.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "There was a woman who had been suffering for twelve years."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "She had spent everything on doctors. Nothing helped. She was exhausted, desperate — and by the rules of her time, considered untouchable."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "That day, Jesus was already on his way to save someone else — a ruler's daughter, twelve years old, and dying. The crowd pressed around him on every side. Almost no one would have noticed one more sick woman at its edge."
+  },
+  {
+   "id": "n3a",
+   "speaker": "narrator",
+   "text": "She heard Jesus was nearby. She did not ask permission. She did not make a speech. She said only one thing, and she said it to herself."
+  },
+  {
+   "id": "w28",
+   "speaker": "woman",
+   "verse": "Mark 5:28",
+   "text": "If I may touch but his clothes, I shall be whole."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "If I can just touch his clothes, she told herself, I will be well. That was the whole of her plan. She pressed through the crowd and reached out to touch the edge of his cloak."
+  },
+  {
+   "id": "n4a",
+   "speaker": "narrator",
+   "text": "He stopped. He had felt it — power had gone out of him. The healing was already hers, given the moment she touched him."
+  },
+  {
+   "id": "j0",
+   "speaker": "jesus",
+   "verse": "Mark 5:30",
+   "text": "Who touched my clothes?"
+  },
+  {
+   "id": "s31",
+   "speaker": "scripture",
+   "verse": "Mark 5:31",
+   "text": "Thou seest the multitude thronging thee, and sayest thou, Who touched me?"
+  },
+  {
+   "id": "n4c",
+   "speaker": "narrator",
+   "text": "His disciples thought the question made no sense. The whole crowd was pressing against him — who hadn't touched him? He ignored them. He was already needed somewhere else, and he stopped anyway."
+  },
+  {
+   "id": "n4b",
+   "speaker": "narrator",
+   "text": "He looked for her until he found her."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Mark 5:34",
+   "text": "Daughter, thy faith hath made thee whole; go in peace, and be whole of thy plague."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Be whole of thy plague — be free of what has been hurting you. Twelve years of it. Over, in a sentence. And the first word he chose was daughter."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Whatever you have carried for years — reach for him. He stops for the one. He calls you his own."
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "n2b",
+   "S3",
+   "in"
+  ],
+  [
+   "n3a",
+   "S4",
+   "in"
+  ],
+  [
+   "w28",
+   "S4",
+   "out"
+  ],
+  [
+   "n3b",
+   "S5",
+   "in"
+  ],
+  [
+   "n4a",
+   "S6",
+   "in"
+  ],
+  [
+   "j0",
+   "S7",
+   "out"
+  ],
+  [
+   "s31",
+   "S8",
+   "in"
+  ],
+  [
+   "n4c",
+   "S8",
+   "out"
+  ],
+  [
+   "n4b",
+   "S9",
+   "in"
+  ],
+  [
+   "j1",
+   "S10",
+   "in"
+  ],
+  [
+   "n5",
+   "S11",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S4": "S4 now carries her decision AND her own verbatim words — the moment before she moves, not the moment she hears. Frame her close: a veiled woman at the edge of a moving crowd, head down, lips just parted, one hand already lifting from under her shawl. Everything about her hidden except the intent. Warm dusty light from the street beyond, her face in shadow.",
+  "S8": "S8 now carries the disciples' verbatim objection and its retelling. Frame the twelve, not the woman: two or three men close around Jesus, hands open in bafflement, gesturing back at the packed street behind them. Confusion, not anger. The crowd behind them a blur of shoulders — the whole point is that everybody was touching him."
+ }
+}

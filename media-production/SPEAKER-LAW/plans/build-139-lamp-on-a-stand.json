@@ -1,0 +1,101 @@
+{
+ "build": "build-139-lamp-on-a-stand",
+ "reference": "Matthew 5",
+ "notes": "ALL THREE RED BEATS STAYED RED. Matthew 5:14, 15 and 16 are the Sermon on the\nMount, Jesus speaking in the flesh, and a red-letter KJV prints all three red.\nNone of them has Matthew's framing welded on, so none needed splitting.\n  j1  Matthew 5:14  'Ye are the light of the world...'\n  j2  Matthew 5:15  'Neither do men light a candle...'\n  j3  Matthew 5:16  'Let your light so shine before men...'\n\nTHE REAL FIX HERE WAS THE RETELLING ORDER, NOT THE COLOUR. In the original beat\norder the narrator beats ran BEFORE the verses they explain: n1 (the lamp under a\nbowl) came before j2, which is the lamp verse, and n2 ('so let your light shine')\ncame before j3, which is that verse. So j1 was retold by nobody, and the viewer\ngot the plain-English version first and the Old English as an echo. Reordered so\nevery red block is followed by the narrator saying it again:\n  j1 -> n0b (NEW)   j2 -> n1   j3 -> n2\nNo text was rewritten except n0b, which is new. Every original id is kept.\n\nSTILLS: the reorder also puts all seven stills back in play - ST2 (onto the stand)\nnow sits under the lamp retelling where it belongs, and ST4 (ye are the light)\nunder the retelling of 'ye are the light of the world'.\n\nWOMEN: Matthew 5:14-16 records no woman speaking. Nothing added; nothing invented.\n\nWHY-LAW: he tells them who they ARE before he tells them what to do. Milk framing\n- you are not being ordered to generate light, you are being told you were already\nlit on purpose, and asked not to hide it.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Jesus was teaching a crowd on a mountainside. He told them who they were before He told them what to do."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Matthew 5:14",
+   "text": "Ye are the light of the world. A city that is set on an hill cannot be hid."
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "You are the light of the world, He told them. Picture a town built up on a hilltop at night — nobody has to point it out. You can see it for miles. That's what you are."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Matthew 5:15",
+   "text": "Neither do men light a candle, and put it under a bushel, but on a candlestick; and it giveth light unto all that are in the house."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Nobody lights a lamp and then hides it under a bowl. You put it up where it can light the whole room."
+  },
+  {
+   "id": "j3",
+   "speaker": "jesus",
+   "verse": "Matthew 5:16",
+   "text": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "So let your light shine, He said — not to show off, but so people see the good and look up to your Father."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "You were lit on purpose. You were put on the stand on purpose."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "You were made to be seen for good. Let it shine."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "j1",
+   "ST3",
+   "in"
+  ],
+  [
+   "n0b",
+   "ST4",
+   "in"
+  ],
+  [
+   "j2",
+   "ST5",
+   "in"
+  ],
+  [
+   "n1",
+   "ST2",
+   "in"
+  ],
+  [
+   "j3",
+   "ST6",
+   "in"
+  ],
+  [
+   "n2",
+   "ST6",
+   "out"
+  ],
+  [
+   "n3",
+   "ST7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST6": "ST6 now carries Matthew 5:16 and its retelling. Frame the moment the light is FOR somebody else: an ordinary person doing an ordinary kindness in warm lamplight - handing bread across a low wall, steadying an old man's arm - and a face nearby lit by it, looking up rather than at the giver. Nothing showy; the glow lands on someone else."
+ }
+}

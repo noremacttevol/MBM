@@ -1,0 +1,133 @@
+{
+ "build": "build-165-laying-on-hands",
+ "reference": "Acts 8",
+ "notes": "Both red segments were misattributions. Acts 8 is Luke writing the history of\nthe Church — Jesus does not speak anywhere in this passage. kv14 and kv17 both\nmove JESUS-RED -> SCRIPTURE (light blue). Two lines out of red.\n\nTwo verses were buried inside narrator paraphrase and are now lifted so the\nviewer hears Luke state the pattern himself instead of being told about it:\n  s15  Acts 8:15  'Who, when they were come down, prayed for them...'\n  s16  Acts 8:16  'For as yet he was fallen upon none of them...'\nBoth are Luke narrating, so both are SCRIPTURE. Each is followed immediately by\nthe existing narrator beat that already retells it (n3 retells s15, n4 retells\ns16), so no new narration was needed.\n\nNo mixed segments here — every quoted line is Luke start to finish, so nothing\nwas split.\n\nAll original ids kept (n1, n2, kv14, n3, n4, n5, kv17, n6, n7, card). New ids\nare s15 and s16 only. New beats reuse S4 and S5; no new artwork.\n\nMILK: the doctrine — the Holy Ghost conferred by the laying on of hands under\nauthority — is carried entirely by Acts 8:16 and 8:17 sitting next to each\nother. Nothing on screen argues it. The verse and the picture agree and the\nviewer draws the conclusion.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "A wave of faith had swept through Samaria. Whole crowds had heard the good news, believed it with glad hearts, and been baptized in water. Something real and joyful was happening among them."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Word of it reached the apostles back in Jerusalem. And notice their response: they did not simply send a letter of congratulations. They sent two of their own number, Peter and John, to go down in person."
+  },
+  {
+   "id": "kv14",
+   "speaker": "scripture",
+   "verse": "Acts 8:14",
+   "text": "Now when the apostles which were at Jerusalem heard that Samaria had received the word of God, they sent unto them Peter and John:"
+  },
+  {
+   "id": "s15",
+   "speaker": "scripture",
+   "verse": "Acts 8:15",
+   "text": "Who, when they were come down, prayed for them, that they might receive the Holy Ghost:"
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "When the two arrived, they prayed over the new believers, asking that they might receive the Holy Ghost. And here is the surprising part: even though these people already believed, and had already been baptized, the gift had not yet come to a single one of them."
+  },
+  {
+   "id": "s16",
+   "speaker": "scripture",
+   "verse": "Acts 8:16",
+   "text": "For as yet he was fallen upon none of them: only they were baptized in the name of the Lord Jesus."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "So the water alone had not been enough. Their faith was sincere and their baptism was real, yet the promised gift of the Spirit still waited on something more — on the hands of those God had given authority."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Then Peter and John did the simple, deliberate thing Luke records so plainly. They laid their hands on each believer. And in that moment, under that authority, the gift finally came."
+  },
+  {
+   "id": "kv17",
+   "speaker": "scripture",
+   "verse": "Acts 8:17",
+   "text": "Then laid they their hands on them, and they received the Holy Ghost."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "Here is the quiet study gem. The gift of the Holy Ghost did not arrive by sincerity alone, or by baptism alone. It travelled by authority — conferred through the laying on of hands by those God had sent. Order and gift belong together."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "And that same gift is still offered to you, by that same pattern. Faith and baptism open the door, and then, by the hands of those with authority, the Comforter is given to be with you. When that gift is offered to you, will you receive it?"
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Samaria believed and was baptized, but the Holy Ghost came only when the apostles laid their hands on them. The gift travels by authority. When that gift is offered to you, will you receive it?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "kv14",
+   "S3",
+   "in"
+  ],
+  [
+   "s15",
+   "S4",
+   "in"
+  ],
+  [
+   "n3",
+   "S4",
+   "out"
+  ],
+  [
+   "s16",
+   "S5",
+   "in"
+  ],
+  [
+   "n4",
+   "S5",
+   "out"
+  ],
+  [
+   "n5",
+   "S6",
+   "in"
+  ],
+  [
+   "kv17",
+   "S6",
+   "out"
+  ],
+  [
+   "n6",
+   "S7",
+   "in"
+  ],
+  [
+   "n7",
+   "S8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S4": "S4 now carries Acts 8:15 and the long n3 beat back to back. It should show the moment of the prayer itself, not the arrival: Peter and John standing over a group of kneeling Samaritan believers, hands not yet raised, heads bowed, asking. The gift has not come yet — the air should feel like waiting, not like fulfilment.",
+  "S5": "S5 now carries Acts 8:16 and n4. Frame the gap the verse names: people freshly baptized, wet, glad, sincere — and nothing above them. Ordinary daylight, no glow, no descending light. The absence is the point, so the picture must withhold what S7 later gives."
+ }
+}

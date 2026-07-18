@@ -1,0 +1,123 @@
+{
+ "build": "build-133-many-mansions",
+ "reference": "John 14",
+ "notes": "STAYED RED: j1 is John 14:1-2, Jesus in the flesh in the upper room, red-letter,\nand already verbatim. No evangelist framing welded on, so no split needed.\n\nTHE FIX - this is a conversation and only one side of it was in the video.\n  s5   John 14:5  'Lord, we know not whither thou goest; and how can we know the\n       way?'  SCRIPTURE, light blue. Thomas. The whole reason John 14:6 exists is\n       that Thomas admitted out loud that he was lost, and he was not in the build\n       at all - not even paraphrased. Added.\n  jv6  John 14:6  'I am the way, the truth, and the life: no man cometh unto the\n       Father, but by me.'  JESUS, RED. The KJV frame 'Jesus saith unto him,' is\n       deliberately left off so the segment is his words only.\n  s5 -> jv6 is a DELIBERATE question-and-answer pair and the only place in these\n  eight builds where two non-narrator blocks touch. n4 retells both halves.\n\nLIFTED: jv3 John 14:3 'And if I go and prepare a place for you, I will come again,\nand receive you unto myself; that where I am, there ye may be also.' JESUS, RED.\nn3 was paraphrasing it ('I'm coming back. I'll bring you to Myself'); n3 keeps its\ntext and is now the retelling.\n\nREWRITTEN: n1 said 'Don't let your heart be troubled, He said. Trust God. Trust\nMe' BEFORE j1 - that is verse 1 in modern English, delivered ahead of verse 1. It\nis now a short setup, and n2 (unchanged) does the retelling after j1, which it was\nalways well suited to.\n\nWOMEN: John 14:1-6 records no woman speaking - the upper room discourse is Jesus\nwith the Twelve, and the only named speakers in the chapter are Thomas, Philip and\nJudas (not Iscariot). Nothing added, nothing invented.\n\nWHY-LAW: Thomas said the honest thing - we don't know where you're going. The\nanswer was not a map. It was a person. Milk framing: the place is prepared, and\nthe way to it is Him.",
+ "segments": [
+  {
+   "id": "n0a",
+   "speaker": "narrator",
+   "text": "Jesus was preparing His disciples for a hard goodbye."
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "His words could have brought fear — instead they brought comfort."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "He could see it on their faces. So the very first thing He did was tell them not to be afraid."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "John 14:1-2",
+   "text": "Let not your heart be troubled: ye believe in God, believe also in me. In my Father's house are many mansions: if it were not so, I would have told you. I go to prepare a place for you."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "He described a home they couldn't see yet — a place He was going to make ready for them, room for each one."
+  },
+  {
+   "id": "jv3",
+   "speaker": "jesus",
+   "verse": "John 14:3",
+   "text": "And if I go and prepare a place for you, I will come again, and receive you unto myself; that where I am, there ye may be also."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "And then the promise that undoes every fear: I'm coming back. I'll bring you to Myself, so you're where I am."
+  },
+  {
+   "id": "s5",
+   "speaker": "scripture",
+   "verse": "John 14:5",
+   "text": "Lord, we know not whither thou goest; and how can we know the way?"
+  },
+  {
+   "id": "jv6",
+   "speaker": "jesus",
+   "verse": "John 14:6",
+   "text": "I am the way, the truth, and the life: no man cometh unto the Father, but by me."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "We don't even know where you're going, Thomas said. How can we know the way? And Jesus told him: I am the way. Not a map. Not a method. Him. Not a vague hope — a prepared place, a return, a reunion."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He's preparing a place — and He's coming back for you. Don't let your heart be troubled."
+  }
+ ],
+ "beats": [
+  [
+   "n0a",
+   "ST1",
+   "in"
+  ],
+  [
+   "n0b",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1",
+   "ST3",
+   "in"
+  ],
+  [
+   "j1",
+   "ST4",
+   "in"
+  ],
+  [
+   "n2",
+   "ST5",
+   "in"
+  ],
+  [
+   "jv3",
+   "ST6",
+   "in"
+  ],
+  [
+   "n3",
+   "ST6",
+   "out"
+  ],
+  [
+   "s5",
+   "ST8",
+   "in"
+  ],
+  [
+   "jv6",
+   "ST10",
+   "in"
+  ],
+  [
+   "n4",
+   "ST10",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST8": "ST8 now carries Thomas's verbatim question — new to the video. Frame the admission: Thomas half-risen at the table, hands open, face genuinely lost rather than doubting. The other disciples still, because he has asked the thing all of them were thinking. Lamplight, close quarters, late.",
+  "ST10": "ST10 now closes the video — Jesus's verbatim 'I am the way' plus the retelling of both His answer and Thomas's question. Frame the answer, not the destination: Jesus turned to Thomas alone, close, calm, the room soft behind Him. The way is a person sitting right there, so keep Him the whole frame."
+ }
+}

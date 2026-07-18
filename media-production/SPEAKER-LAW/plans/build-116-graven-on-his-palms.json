@@ -1,0 +1,131 @@
+{
+ "build": "build-116-graven-on-his-palms",
+ "reference": "Isaiah 49",
+ "notes": "Both red beats are Jehovah speaking through Isaiah. Isaiah is Old Testament, so\nneither can be red — both are GOD (green):\n  jv15  Isaiah 49:15  'Can a woman forget her sucking child...'\n  jv16  Isaiah 49:16  'Behold, I have graven thee upon the palms of my hands...'\n\nLIFTED FROM PARAPHRASE:\n  s14  Isaiah 49:14  'But Zion said, The LORD hath forsaken me, and my Lord hath\n                      forgotten me.'  SCRIPTURE\nn2 was paraphrasing this verse in modern English. Verse 14 is the whole reason\nverses 15 and 16 exist — the complaint has to be heard before the answer means\nanything — so it is now spoken verbatim, and n2 was rewritten as its retelling.\n\nWHY s14 IS BLUE AND NOT PINK — A JUDGMENT CALL, FLAGGING IT: this build renders\nZion as a woman throughout (the stills are 'the light finds her', 'she lifts her\nhead', and n6 says 'she'). It is tempting to give verse 14 the pink WOMAN voice.\nI did not. Zion is a city spoken of as a woman, not a woman the Bible records\nspeaking, and SPEAKER-LAW reserves pink for the latter. Blue is the honest call.\nIf Cameron would rather hear a woman's voice say verse 14 — and it would be\nbeautiful — it is a one-word change and his to make.\n\nNOTE ON jv15: the verse is about a woman but it is God speaking about her, so it\nis green, not pink. The speaker is the test, never the subject.\n\nWHY-LAW: God answers the fear of being forgotten with the most physical promise\nin scripture — a name cut into his own hands. Milk framing — you are not\noverlooked.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "There is a particular loneliness that comes from feeling forgotten. Not hated. Just overlooked. Slipped from someone's mind, as if you never really mattered enough to be remembered."
+  },
+  {
+   "id": "s14",
+   "speaker": "scripture",
+   "verse": "Isaiah 49:14",
+   "text": "But Zion said, The LORD hath forsaken me, and my Lord hath forgotten me."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "That is exactly how God's people felt, and they said it out loud — the Lord has walked away from me, and my God has forgotten I exist. And God's answer to that fear is one of the most tender things he ever said."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "He points to the strongest, most instinctive love a human being knows — a mother with her newborn, unable to look away, unable to forget the child at her breast even for a moment."
+  },
+  {
+   "id": "jv15",
+   "speaker": "god",
+   "verse": "Isaiah 49:15",
+   "text": "Can a woman forget her sucking child, that she should not have compassion on the son of her womb? yea, they may forget, yet will I not forget thee."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Even if a mother somehow could forget — I never will. And then he says something almost too intimate to imagine. He does not just keep you in mind. He has carved you into his own hands, where he cannot help but see you."
+  },
+  {
+   "id": "jv16",
+   "speaker": "god",
+   "verse": "Isaiah 49:16",
+   "text": "Behold, I have graven thee upon the palms of my hands; thy walls are continually before me."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Graven — engraved, cut in deep, permanent. Not a note he might lose. You are written into the very hands of God, and everything about you is always right there in front of him. He could not forget you if he tried."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "And that changes the person who thought she had been left behind. The same God she feared had forgotten her was carrying her the whole time — her name, her walls, her whole life, held in his hands."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "So if you have ever felt like the one who gets forgotten — the one nobody keeps in mind — hear this slowly."
+  },
+  {
+   "id": "n7b",
+   "speaker": "narrator",
+   "text": "You are not out of sight. You are not out of mind. You are graven on the hands of God, and he has never once looked away."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "God told the ones who felt forgotten that he had carved them into his own hands, always before his eyes. You are not overlooked. Where do you most need to hear that you have not been forgotten?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "s14",
+   "S2",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "out"
+  ],
+  [
+   "n3",
+   "S3",
+   "in"
+  ],
+  [
+   "jv15",
+   "S4",
+   "in"
+  ],
+  [
+   "n4",
+   "S5",
+   "in"
+  ],
+  [
+   "jv16",
+   "S6",
+   "in"
+  ],
+  [
+   "n5",
+   "S7",
+   "in"
+  ],
+  [
+   "n6",
+   "S8",
+   "in"
+  ],
+  [
+   "n7",
+   "S9",
+   "in"
+  ],
+  [
+   "n7b",
+   "S10",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S2": "S2 now carries the verbatim complaint of Isaiah 49:14 and its retelling, so it holds noticeably longer. Frame the words being said, not the mood around them: a solitary figure seated with her back to a ruined wall, head bowed into her hands, the city empty behind her at dusk. This is the moment someone finally admits out loud that they feel abandoned."
+ }
+}

@@ -1,0 +1,165 @@
+{
+ "build": "build-103-peters-confession",
+ "reference": "Matthew 16",
+ "notes": "STAYED RED: all four existing red beats are Jesus speaking in the flesh and a\nred-letter KJV prints all four. None of them has Matthew's framing welded on, so\nnone needed splitting.\n  jv13  Matthew 16:13  'Whom do men say that I the Son of man am?'\n  jv15  Matthew 16:15  'But whom say ye that I am?'\n  jv17  Matthew 16:17  'Blessed art thou, Simon Barjona...'\n  jv18  Matthew 16:18  'And I say also unto thee, That thou art Peter...'\n\nTHE FIX THIS BUILD EXISTED FOR - Peter's confession was in the NARRATOR'S voice.\nSegment `np` read 'And Simon Peter answered him: Thou art the Christ, the Son of\nthe living God.' That is one segment welding Matthew's frame onto Peter's words,\nspoken by the storyteller in white. The whole video is an exchange, and one side\nof it was never heard. Split, both halves on the SAME still:\n  np    stays, trimmed to the frame only: 'And Simon Peter answered him.'\n        NARRATOR - modern English, the storyteller, so it stays white.\n  sp16  Matthew 16:16  'Thou art the Christ, the Son of the living God.'\n        SCRIPTURE, light blue. Peter's own voice, verbatim.\nPeter is an apostle, not Deity, so blue is right - this is exactly the case\nPLAN-AUTHORING calls out: everyone else in the story is `scripture`.\n\nALSO LIFTED: the disciples' answer, which was narrator paraphrase.\n  s14   Matthew 16:14  'Some say that thou art John the Baptist: some, Elias; and\n        others, Jeremias, or one of the prophets.'  SCRIPTURE. n3 keeps its\n        original text and now works as the retelling right after it, including\n        the 'all second-hand' point, which lands harder once you have heard how\n        borrowed the answers sound.\n\nNO GREEN HERE, AND WORTH SAYING: 'my Father which is in heaven' inside jv17 is\nJesus speaking ABOUT the Father, not the Father speaking. There is no voice from\nheaven anywhere in Matthew 16, so nothing was made `god`.\n\nWOMEN: Matthew 16:13-18 records no woman speaking. Nothing added; nothing\ninvented.\n\nWHY-LAW: the crowd's answers were respectful, safe, and someone else's. The\nquestion that matters is the one nobody can answer for you, and the answer comes\nquietly from the Father rather than from being clever.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Jesus had brought his disciples a long way north, to a quiet place far from the crowds, up under a great cliff of pale rock. And there he asked them a question he had never asked so plainly before."
+  },
+  {
+   "id": "jv13",
+   "speaker": "jesus",
+   "verse": "Matthew 16:13",
+   "text": "Whom do men say that I the Son of man am?"
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "It was an easy question at first. What are people saying? And they had plenty of answers ready."
+  },
+  {
+   "id": "s14",
+   "speaker": "scripture",
+   "verse": "Matthew 16:14",
+   "text": "Some say that thou art John the Baptist: some, Elias; and others, Jeremias, or one of the prophets."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Some say you are John the Baptist, they told him. Some say Elijah come back. Others, Jeremiah, or one of the old prophets. All respectful. All safe. All second-hand — what other people thought."
+  },
+  {
+   "id": "jv15",
+   "speaker": "jesus",
+   "verse": "Matthew 16:15",
+   "text": "But whom say ye that I am?"
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "And there it was. Not what have you heard. Not what is the crowd saying. But you — who do you say that I am? The question stopped them cold. This one you cannot borrow from anybody else."
+  },
+  {
+   "id": "np",
+   "speaker": "narrator",
+   "text": "And Simon Peter answered him."
+  },
+  {
+   "id": "sp16",
+   "speaker": "scripture",
+   "verse": "Matthew 16:16",
+   "text": "Thou art the Christ, the Son of the living God."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Not a prophet. Not a teacher. The Christ — the promised one — the Son of the living God himself. Peter said out loud the thing the others had only half-dared to hope."
+  },
+  {
+   "id": "jv17",
+   "speaker": "jesus",
+   "verse": "Matthew 16:17",
+   "text": "Blessed art thou, Simon Barjona: for flesh and blood hath not revealed it unto thee, but my Father which is in heaven."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "You did not work this out on your own, Jesus told him. My Father in heaven showed it to you. This kind of knowing does not come from clever thinking. It is given, quietly, from God, to a heart ready to receive it."
+  },
+  {
+   "id": "jv18",
+   "speaker": "jesus",
+   "verse": "Matthew 16:18",
+   "text": "And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "On this — on knowing who he really is — he would build something that hell itself could never tear down. Everything else in the gospel is built on top of this one answer."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The crowds had their opinions; Peter had an answer he would stake his life on. Jesus is still asking the one question that no one can answer for you. Who do YOU say that he is?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "jv13",
+   "S2",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "out"
+  ],
+  [
+   "s14",
+   "S3",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "out"
+  ],
+  [
+   "jv15",
+   "S4",
+   "in"
+  ],
+  [
+   "n4",
+   "S5",
+   "in"
+  ],
+  [
+   "np",
+   "S6",
+   "in"
+  ],
+  [
+   "sp16",
+   "S6",
+   "out"
+  ],
+  [
+   "n5",
+   "S6",
+   "in"
+  ],
+  [
+   "jv17",
+   "S7",
+   "in"
+  ],
+  [
+   "n6",
+   "S7",
+   "out"
+  ],
+  [
+   "jv18",
+   "S8",
+   "in"
+  ],
+  [
+   "n7",
+   "S9",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S3": "S3 now carries the disciples' verbatim answer and its retelling. Frame the easy answers: three or four disciples talking at once on the road, relaxed, one gesturing off toward the horizon as he names somebody else's opinion. Comfortable, unbothered — nobody has been asked anything hard yet.",
+  "S6": "S6 now carries three beats — the frame, Peter's verbatim confession, and the retelling. Frame the confession itself, close: Peter a step ahead of the other disciples, weathered face lifted, speaking. Not shouting, not kneeling — a fisherman saying the largest thing he has ever said, in a level voice. The others behind him, still, watching him say it."
+ }
+}

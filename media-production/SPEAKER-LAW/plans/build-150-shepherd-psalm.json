@@ -1,0 +1,218 @@
+{
+ "build": "build-150-shepherd-psalm",
+ "reference": "Psalm 23",
+ "notes": "One line was red — s1, 'The LORD is my shepherd; I shall not want.' That is David\nwriting, not Jehovah speaking, so it is SCRIPTURE (light blue), not red and not green.\nThe LORD is the subject of the psalm; He is never the speaker in it.\n\nThe bigger fix: the entire rest of the psalm was in modern paraphrase. Psalm 23 is the\none passage in the Bible that people actually know BY ITS KING JAMES WORDING. A video\nabout it that never says 'he maketh me to lie down in green pastures' is not the psalm.\nSo all six verses are now spoken verbatim as SCRIPTURE, each followed by the existing\nnarrator line as its retelling. Every original id is kept and every narrator line is\nleft in its original place doing exactly the job the retelling rule asks for — they\nwere already plain-English retellings, they just had nothing to retell.\n\nVerses 3, 5 and 6 are split at their colons so each half sits with the narrator line\nthat already retold it. Splits stay on the same still.\n\nPsalm is Old Testament, nothing is `jesus`. Every quoted line is verbatim KJV; I am\ncertain of all six verses. Nothing left as paraphrase.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Three thousand years ago a shepherd-king wrote a song about being shepherded himself. It starts like this:"
+  },
+  {
+   "id": "s1",
+   "speaker": "scripture",
+   "verse": "Psalm 23:1",
+   "text": "The LORD is my shepherd; I shall not want."
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "The Lord takes care of me. There is nothing I need that I won't have. That is the whole psalm in one line — everything after it is David showing his work."
+  },
+  {
+   "id": "s2",
+   "speaker": "scripture",
+   "verse": "Psalm 23:2",
+   "text": "He maketh me to lie down in green pastures: he leadeth me beside the still waters."
+  },
+  {
+   "id": "n1a",
+   "speaker": "narrator",
+   "text": "He leads me to quiet water and green places to rest."
+  },
+  {
+   "id": "s3a",
+   "speaker": "scripture",
+   "verse": "Psalm 23:3",
+   "text": "He restoreth my soul:"
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "He puts my life back together."
+  },
+  {
+   "id": "s3b",
+   "speaker": "scripture",
+   "verse": "Psalm 23:3",
+   "text": "he leadeth me in the paths of righteousness for his name's sake."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "He guides me down the right paths, for His name's sake — not because I earned the guiding, but because of who He is."
+  },
+  {
+   "id": "s4",
+   "speaker": "scripture",
+   "verse": "Psalm 23:4",
+   "text": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Even in the darkest valley, I'm not afraid. You are with me — Your rod and staff steady me. And notice what changes right there: up to now David has been saying He. In the valley he starts saying You. He gets closer to the Shepherd in the dark, not further away."
+  },
+  {
+   "id": "s5a",
+   "speaker": "scripture",
+   "verse": "Psalm 23:5",
+   "text": "Thou preparest a table before me in the presence of mine enemies:"
+  },
+  {
+   "id": "n4a",
+   "speaker": "narrator",
+   "text": "You set a table for me right in front of my enemies."
+  },
+  {
+   "id": "s5b",
+   "speaker": "scripture",
+   "verse": "Psalm 23:5",
+   "text": "thou anointest my head with oil; my cup runneth over."
+  },
+  {
+   "id": "n4b",
+   "speaker": "narrator",
+   "text": "You honor me; my cup runs over."
+  },
+  {
+   "id": "s6a",
+   "speaker": "scripture",
+   "verse": "Psalm 23:6",
+   "text": "Surely goodness and mercy shall follow me all the days of my life:"
+  },
+  {
+   "id": "n5a",
+   "speaker": "narrator",
+   "text": "Your goodness and Your mercy will chase me down every day I have."
+  },
+  {
+   "id": "s6b",
+   "speaker": "scripture",
+   "verse": "Psalm 23:6",
+   "text": "and I will dwell in the house of the LORD for ever."
+  },
+  {
+   "id": "n5b",
+   "speaker": "narrator",
+   "text": "And I'll be home with You forever."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The Shepherd who leads, restores, and walks the dark valley with you is the same One who invites you home. Let Him lead."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "s1",
+   "ST1",
+   "out"
+  ],
+  [
+   "n0b",
+   "ST1",
+   "in"
+  ],
+  [
+   "s2",
+   "ST1",
+   "out"
+  ],
+  [
+   "n1a",
+   "ST1",
+   "in"
+  ],
+  [
+   "s3a",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1b",
+   "ST2",
+   "out"
+  ],
+  [
+   "s3b",
+   "ST3",
+   "in"
+  ],
+  [
+   "n2",
+   "ST3",
+   "out"
+  ],
+  [
+   "s4",
+   "ST4",
+   "in"
+  ],
+  [
+   "n3",
+   "ST4",
+   "out"
+  ],
+  [
+   "s5a",
+   "ST5",
+   "in"
+  ],
+  [
+   "n4a",
+   "ST5",
+   "out"
+  ],
+  [
+   "s5b",
+   "ST6",
+   "in"
+  ],
+  [
+   "n4b",
+   "ST6",
+   "out"
+  ],
+  [
+   "s6a",
+   "ST7",
+   "in"
+  ],
+  [
+   "n5a",
+   "ST7",
+   "out"
+  ],
+  [
+   "s6b",
+   "ST8",
+   "in"
+  ],
+  [
+   "n5b",
+   "ST8",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST1": "Now carries five beats — the opening and all of verse 2. It should show the two things verse 2 actually names, in one frame: a flock lying down at rest in deep green pasture, and quiet unmoving water alongside them. Still water, not a stream. Late gentle light. The shepherd present but not the subject — the sheep are lying down because he is there.",
+  "ST4": "Carries the longest single scripture line in the video. The moment is the middle of verse 4: a narrow shadowed valley, the walls close, one figure walking through it and NOT running — and the shepherd walking with him, rod and staff visible in hand. The comfort has to be in frame, not just the danger."
+ }
+}

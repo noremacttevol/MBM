@@ -1,0 +1,101 @@
+{
+ "build": "build-172-gospel-preached-to-the-dead",
+ "reference": "1 Peter 4",
+ "notes": "s1 moves JESUS-RED -> SCRIPTURE (light blue). One line out of red. 1 Peter 4:6\nis Peter writing his letter; Jesus is not speaking and a red-letter KJV prints\nnone of it red.\n\nNo mixed segments — s1 is Peter start to finish, so nothing was split. The\ndoubled 'For for' at the start of s1 is genuine KJV and was left exactly as it\nstands rather than tidied.\n\nOne passage lifted in, SCRIPTURE (Peter):\n  s19  1 Peter 3:18-19  'For Christ also hath once suffered for sins... By which\n       also he went and preached unto the spirits in prison'\nThis is the verse chapter 4 verse 6 depends on, and without it the build asserts\nthat the message crossed over without ever showing the viewer where that comes\nfrom. With it, the two verses sit next to each other and the conclusion is the\nviewer's to draw. It is followed by n3a ('Death did not close the door.') which\nretells it.\n\nAll original ids kept (n0, s1, n1a, n1b, n2, n3a, n3b, card). New id is s19\nonly. Beats reuse ST6 and ST7 — n3a and n3b swap stills so the new beat sits\ncleanly and every still is still used; no new artwork.\n\nMILK: the video never says the words spirit world, never explains what happens\nnext, and never argues about who is saved. It quotes two verses of Peter and\nstops. That is the whole point of putting this one on the restoration shelf — a\nmember or a ready investigator sees the doctrine in the Bible itself before\nanyone explains it to them.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Some who heard the good news had already died before they could finish their lives in the body."
+  },
+  {
+   "id": "s1",
+   "speaker": "scripture",
+   "verse": "1 Peter 4:6",
+   "text": "For for this cause was the gospel preached also to them that are dead, that they might be judged according to men in the flesh, but live according to God in the spirit."
+  },
+  {
+   "id": "n1a",
+   "speaker": "narrator",
+   "text": "The gospel was preached to them too."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "Not in vain, not too late."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "They might be judged by men's measure in the flesh — and yet be alive by God's measure in the spirit."
+  },
+  {
+   "id": "s19",
+   "speaker": "scripture",
+   "verse": "1 Peter 3:18-19",
+   "text": "For Christ also hath once suffered for sins, the just for the unjust, that he might bring us to God, being put to death in the flesh, but quickened by the Spirit: By which also he went and preached unto the spirits in prison;"
+  },
+  {
+   "id": "n3a",
+   "speaker": "narrator",
+   "text": "Death did not close the door."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "The message crossed over."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The gospel reaches beyond the grave. No one is outside the reach of his mercy."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "s1",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1a",
+   "ST5",
+   "in"
+  ],
+  [
+   "n1b",
+   "ST3",
+   "in"
+  ],
+  [
+   "n2",
+   "ST4",
+   "in"
+  ],
+  [
+   "s19",
+   "ST6",
+   "in"
+  ],
+  [
+   "n3a",
+   "ST6",
+   "out"
+  ],
+  [
+   "n3b",
+   "ST7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST2": "ST2 carries the whole of 1 Peter 4:6, the longest verse in the build. The still is called 'peace in the speaking' and should stay that — the act of the message being spoken, calm and unhurried, with the hearers implied rather than shown. Nothing eerie. The verse is good news, and the frame should feel like relief.",
+  "ST6": "ST6 now carries 1 Peter 3:18-19 and n3a. The verse is Christ going and preaching, so show the going: a figure moving toward and into light, seen from behind, with the dark he is leaving still soft rather than menacing. No prison imagery, no bars, no chains — the light is what the picture is about."
+ }
+}

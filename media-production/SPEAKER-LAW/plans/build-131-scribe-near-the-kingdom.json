@@ -1,0 +1,124 @@
+{
+ "build": "build-131-scribe-near-the-kingdom",
+ "reference": "Mark 12",
+ "notes": "STAYED RED: j1 'Thou art not far from the kingdom of God' is Mark 12:34, Jesus in\nthe flesh, red-letter. Correct as it stood. The KJV frame - 'And when Jesus saw\nthat he answered discreetly, he said unto him' - is not in the segment, and n3\nalready does that framing in the storyteller's modern voice, so no split was\nneeded.\n\nTHE FIX THIS BUILD EXISTED FOR - the exchange was never an exchange. Every word\nof it, both men's, was narrator paraphrase in white. The video is a conversation\nbetween two people and neither of them spoke. Three lifts, all verbatim:\n  s28   Mark 12:28  'Which is the first commandment of all?'  SCRIPTURE. The\n        scribe's actual question; n0b keeps its text and retells it.\n  jv29  Mark 12:29-31  'The first of all the commandments is, Hear, O Israel...'\n        JESUS, RED. Note carefully: he is quoting Deuteronomy 6 and Leviticus 19,\n        and it STAYS RED - the test is who is talking, and it is him. n1 keeps its\n        text and becomes the retelling.\n  s32   Mark 12:32-33  'Well, Master, thou hast said the truth...'  SCRIPTURE.\n        This is the hinge of the whole video and it was a one-line paraphrase.\n        The scribe is not conceding a debate; he is agreeing out loud and then\n        going further than he was asked to. n2 keeps its text and retells it.\n\nNothing was rewritten. Every narrator beat kept its original words; they simply\nmoved from standing in for the speakers to explaining them afterward.\n\nADDED: nothing new. The seven original beats plus three lifted verses.\n\nWOMEN: Mark 12:28-34 records no woman speaking. The widow with her two mites is\nonly nine verses later in the same chapter and she says nothing - Mark records no\nwords from her at all. Nothing added, nothing invented.\n\nWHY-LAW: the man was not tricked into being close to the kingdom and he was not\nflattered into it. He thought honestly out loud, and Jesus told him the truth\nabout where that put him. Milk framing - honest thinking gets you nearer than you\nexpect.",
+ "segments": [
+  {
+   "id": "n0a",
+   "speaker": "narrator",
+   "text": "A teacher of the law came to Jesus with a real question, not a trap —"
+  },
+  {
+   "id": "s28",
+   "speaker": "scripture",
+   "verse": "Mark 12:28",
+   "text": "Which is the first commandment of all?"
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "which commandment matters most of all?"
+  },
+  {
+   "id": "jv29",
+   "speaker": "jesus",
+   "verse": "Mark 12:29-31",
+   "text": "The first of all the commandments is, Hear, O Israel; The Lord our God is one Lord: And thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind, and with all thy strength: this is the first commandment. And the second is like, namely this, Thou shalt love thy neighbour as thyself. There is none other commandment greater than these."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Jesus answered without hesitation. Love God with everything you are. And love your neighbor as yourself. Everything else hangs on those two."
+  },
+  {
+   "id": "s32",
+   "speaker": "scripture",
+   "verse": "Mark 12:32-33",
+   "text": "Well, Master, thou hast said the truth: for there is one God; and there is none other but he: And to love him with all the heart, and with all the understanding, and with all the soul, and with all the strength, and to love his neighbour as himself, is more than all whole burnt offerings and sacrifices."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "The scribe agreed — and added something honest: to love God and neighbor is worth more than any burnt offering."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Jesus looked at him and saw a man thinking clearly, with an open heart."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Mark 12:34",
+   "text": "Thou art not far from the kingdom of God."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Not far. The man was close — a step from the door. And no one dared question Jesus after that."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "You may be closer than you think. Love God, love your neighbor — and step through the door."
+  }
+ ],
+ "beats": [
+  [
+   "n0a",
+   "ST1",
+   "in"
+  ],
+  [
+   "s28",
+   "ST1",
+   "out"
+  ],
+  [
+   "n0b",
+   "ST3",
+   "in"
+  ],
+  [
+   "jv29",
+   "ST4",
+   "in"
+  ],
+  [
+   "n1",
+   "ST4",
+   "out"
+  ],
+  [
+   "s32",
+   "ST5",
+   "in"
+  ],
+  [
+   "n2",
+   "ST6",
+   "in"
+  ],
+  [
+   "n3",
+   "ST7",
+   "in"
+  ],
+  [
+   "j1",
+   "ST10",
+   "in"
+  ],
+  [
+   "n4",
+   "ST9",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST1": "ST1 now carries the setup and the scribe's verbatim question. Frame the asking: the scribe close to Jesus in the temple court, leaning in, genuinely wanting an answer — no folded arms, no crowd of colleagues at his shoulder waiting to pounce. This is the one man in the chapter who came honestly.",
+  "ST4": "ST4 now carries the whole of Jesus's verbatim answer plus its retelling — the longest single stretch in the video. Frame Him mid-answer, unhurried, two fingers raised as He names the second commandment. Steady and warm, teaching rather than defending.",
+  "ST5": "ST5 now carries the scribe's full verbatim reply, the hinge of the video. Frame him speaking, not listening: face open, one hand out, the temple altar and its smoke behind him — the sacrifices he is quietly ranking second. He has thought his way somewhere costly and is saying it out loud."
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "build": "build-16-mary-martha",
+ "reference": "Luke 10",
+ "notes": "STAYED RED: the one existing red beat is Jesus in the flesh and a red-letter KJV\nprints it.\n  j1  Luke 10:41-42  'Martha, Martha, thou art careful and troubled about many\n      things: But one thing is needful: and Mary hath chosen that good part,\n      which shall not be taken away from her.'\nLuke's framing -- 'And Jesus answered and said unto her' -- was already outside\nthe segment and is carried by n9 in the storyteller's voice, so no split was\nneeded here.\n\nTHE FIX THIS BUILD EXISTED FOR -- MARTHA WAS NEVER HEARD. This is a story about\na woman, and the only thing she says in it was a narrator paraphrase in white:\nn8, 'Lord, don't you care that my sister has left me to do all of this work by\nmyself?' Lifted out verbatim as WOMAN (pink):\n  w40  Luke 10:40  'Lord, dost thou not care that my sister hath left me to serve\n       alone? bid her therefore that she help me.'\nn7 was already the frame ('she stopped, looked at her sister... and said out\nloud... exactly what she was feeling'), so it needed no trimming. n8 keeps its\noriginal text and now works as the retelling immediately after her real words.\nw40 sits on the SAME still S4 that n7 and n8 already used -- no new artwork, and\nthe edit the viewer sees is unchanged.\n\nThe two voices in this video are now Martha in pink and Jesus in red, answering\neach other. That is the whole story, and until now the viewer heard only one side.\n\nWOMEN, MORE: Luke 10:38-42 records only Martha speaking. Mary says nothing in\nthis passage -- her whole part is that she sits and listens, which is the point.\nNothing was put in Mary's mouth.\n\nNO GREEN: no voice from heaven anywhere in Luke 10:38-42.\n\nWHY-LAW: he never scolded the serving; he was troubled by the worry underneath\nit. She did not have to earn her place near him.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "This is the little village of Bethany, just outside Jerusalem. One evening, Jesus came here to the home of two sisters, Martha and Mary, and Martha gladly welcomed him in."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "In that day, hosting a guest like this was a real honor, and a great deal of work. There was a meal to cook, water to carry, and a whole house to ready. Martha took all of it onto herself."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "So Martha threw herself into the serving. Stirring, carrying, cleaning, fixing, moving without a pause, giving this guest everything she thought he deserved."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "But little by little, the joy of having him there got buried under the weight of getting it all just right. Her hands stayed busy while, inside, she wound tighter and tighter."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Her sister Mary had made a completely different choice. She sat down on the floor at Jesus's feet, and she simply listened to every word he said."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "Back then, sitting at a teacher's feet was the place a student sat, and it was not a place people expected a woman to take. Mary took it anyway. She wanted to be near him more than anything else that night."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "Meanwhile Martha, worn thin, finally reached her breaking point. She stopped, looked at her sister just sitting there, and said out loud, in front of everyone, exactly what she was feeling."
+  },
+  {
+   "id": "w40",
+   "speaker": "woman",
+   "verse": "Luke 10:40",
+   "text": "Lord, dost thou not care that my sister hath left me to serve alone? bid her therefore that she help me."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "Lord, don't you care that my sister has left me to do all of this work by myself? Tell her to get up and help me."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "The whole room went quiet. And Jesus answered her, not with a scolding, but with her own name, said twice, and said gently."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Luke 10:41-42",
+   "text": "Martha, Martha, thou art careful and troubled about many things: But one thing is needful: and Mary hath chosen that good part, which shall not be taken away from her."
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "He did not scold her for serving, and he was never upset that she worked so hard. What troubled him was the worry underneath it, the anxiety that was pulling her apart. And the quiet thing Mary had chosen, just being with him, he promised no one would ever take away from her."
+  },
+  {
+   "id": "n11",
+   "speaker": "narrator",
+   "text": "He was not picking one sister over the other. He was telling a woman he loved that she did not have to earn her place near him by working herself ragged. She was allowed to stop, and sit, and simply be with him, the same as her sister."
+  },
+  {
+   "id": "n12",
+   "speaker": "narrator",
+   "text": "He never scolded the serving. He worried about the worry. That is the kind of God he is."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Worried and troubled about many things, or sitting down long enough to listen. Which one sounds more like your life right now?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S1",
+   "out"
+  ],
+  [
+   "n3",
+   "S2",
+   "in"
+  ],
+  [
+   "n4",
+   "S2",
+   "out"
+  ],
+  [
+   "n5",
+   "S3",
+   "in"
+  ],
+  [
+   "n6",
+   "S3",
+   "out"
+  ],
+  [
+   "n7",
+   "S4",
+   "in"
+  ],
+  [
+   "w40",
+   "S4",
+   "out"
+  ],
+  [
+   "n8",
+   "S4",
+   "in"
+  ],
+  [
+   "n9",
+   "S5",
+   "in"
+  ],
+  [
+   "j1",
+   "S5",
+   "out"
+  ],
+  [
+   "n10",
+   "S5",
+   "in"
+  ],
+  [
+   "n11",
+   "S6",
+   "in"
+  ],
+  [
+   "n12",
+   "S6",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S4": "S4 now carries three beats — the frame, Martha's verbatim words in her own voice, and the retelling. Frame the moment she says it: Martha stopped dead in the middle of the room, a cloth still gripped in one hand, turned toward her sister on the floor and speaking past her to Jesus. Not shrill — worn out and finally saying it. The other guests caught mid-turn, the room gone still around her."
+ }
+}

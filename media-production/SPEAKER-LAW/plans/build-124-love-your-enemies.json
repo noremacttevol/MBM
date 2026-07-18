@@ -1,0 +1,143 @@
+{
+ "build": "build-124-love-your-enemies",
+ "reference": "Matthew 5",
+ "notes": "BOTH ORIGINAL RED BEATS STAY RED. jvA (Matthew 5:44) and jvB (Matthew 5:45)\nare Jesus in the flesh on the mount. Nothing moved out of red.\n\nLIFTED FROM PARAPHRASE — and this is the one that matters most here:\n  jv43  Matthew 5:43  'Ye have heard that it hath been said, Thou shalt love\n                       thy neighbour, and hate thine enemy.'         JESUS\njvA opens with 'But I say unto you' and there was nothing in the build for it\nto answer — the 'ye have heard that it hath been said' half existed only as\nnarrator paraphrase inside n2. It is now spoken verbatim, and it is RED, not\ngreen and not blue. Jesus quoting the old saying is still Jesus talking. A\nred-letter KJV inks the whole of Matthew 5:43 red even though he is citing\nthe law. Do not let the quoted fragment tempt anyone into recolouring it.\n\n  jv46  Matthew 5:46  'For if ye love them which love you, what reward have\n                       ye? do not even the publicans the same?'      JESUS\nn8 already said 'even the tax collectors managed that much' without ever\nletting Jesus say it. Now he does, and n8 is the retelling.\n\nNO RED RUNS BACK TO BACK. jv43 is deliberately separated from jvA by n2, so\nthe viewer hears the old rule, hears it explained, and only then gets the\nturn. Order: n1, jv43, n2, jvA, n3-n6, jvB, n7, jv46, n8.\n\nEDITS TO EXISTING NARRATOR TEXT: n2 now opens by retelling jv43 in plain\nEnglish and then continues word for word as it was, ending on 'And then Jesus\nsaid this.' — which now hands straight into jvA exactly as it always meant\nto. n7 gained a closing sentence to hand into jv46, and n8 gained an opening\nsentence retelling it. Nothing else changed.\n\nNEW BEATS REUSE EXISTING STILLS: jv43 sits on S2 with n2, jv46 sits on S9\nwith n7. No new artwork.\n\nNO MIXED SEGMENTS. None of the four red beats has a narration frame in it.\n\nNOTHING LEFT AS PARAPHRASE FROM UNCERTAINTY.\n\nWHY-LAW: the reason given is not that the enemy deserves it. It is family\nresemblance — the Father's sun rises on everybody. Milk framing, and it keeps\nthe beat off guilt and on likeness.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "On a green hillside above the Sea of Galilee, Jesus sat down to teach, and a whole countryside climbed up to listen. He was walking through the old sayings one at a time — you have heard it said — and then he came to the hardest one of all: what to do with an enemy."
+  },
+  {
+   "id": "jv43",
+   "speaker": "jesus",
+   "verse": "Matthew 5:43",
+   "text": "Ye have heard that it hath been said, Thou shalt love thy neighbour, and hate thine enemy."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "You have heard it said, he began — love your neighbour, and hate your enemy. Everyone on that hillside knew that old arithmetic. Love the people who love you. Keep your guard up against the ones who don't. It felt fair. It felt safe. And then Jesus said this."
+  },
+  {
+   "id": "jvA",
+   "speaker": "jesus",
+   "verse": "Matthew 5:44",
+   "text": "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you;"
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Not tolerate them. Not stay out of their way. Bless. Do good. Pray. Every one of those is something you go and do — aimed straight at the person who has earned none of it. Picture a farmer whose neighbor has wronged him: the fence knocked down, the insult at the well, years of cold looks across one stone wall."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "He has every right to answer coldness with coldness. That is the old arithmetic, and nobody would blame him for it. Instead, when his neighbor's wall gives way in the rains, he walks over quietly and starts lifting stones."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "And at night, when the work is done and no one is watching, he does the thing Jesus asked that no one ever sees. By the light of his lamp, he prays for the man across the wall — not about him. For him. By name."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "Why would Jesus ask for something this unreasonable? He was not pretending enemies don't hurt. He gave his reason on the same hillside, and the reason changes everything."
+  },
+  {
+   "id": "jvB",
+   "speaker": "jesus",
+   "verse": "Matthew 5:45",
+   "text": "That ye may be the children of your Father which is in heaven: for he maketh his sun to rise on the evil and on the good, and sendeth rain on the just and on the unjust."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "Look at the sky, he was saying. Your Father's sun came up this morning over every field in the valley — the kind man's and the cruel man's alike. His rain waters both. Loving an enemy is not unnatural. In this family, it is the resemblance. And then he asked the question that leaves none of us out."
+  },
+  {
+   "id": "jv46",
+   "speaker": "jesus",
+   "verse": "Matthew 5:46",
+   "text": "For if ye love them which love you, what reward have ye? do not even the publicans the same?"
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "If you only love the people who love you back, he asked, what credit is that? Even the tax collectors manage that much. The love that marks you as your Father's child is the love that is not owed. And sometimes, slowly, it wins what coldness never could: the wall between two houses becomes the place where they meet."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Jesus never said your enemy deserves it. He said this is how the family likeness shows. Who is the hardest person in your life to bless? What might change if, tonight, you prayed for them — by name?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "jv43",
+   "S2",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "out"
+  ],
+  [
+   "jvA",
+   "S3",
+   "in"
+  ],
+  [
+   "n3",
+   "S4",
+   "in"
+  ],
+  [
+   "n4",
+   "S5",
+   "in"
+  ],
+  [
+   "n5",
+   "S6",
+   "in"
+  ],
+  [
+   "n6",
+   "S7",
+   "in"
+  ],
+  [
+   "jvB",
+   "S8",
+   "in"
+  ],
+  [
+   "n7",
+   "S9",
+   "in"
+  ],
+  [
+   "jv46",
+   "S9",
+   "out"
+  ],
+  [
+   "n8",
+   "S10",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S2": "S2 now carries Jesus quoting the old rule verbatim and the narrator unpacking it. Frame the rule, not the wall alone: the old dry stone wall running between two farmsteads at dusk, a lamp lit in each house on either side, and no gate anywhere along it. Two lives close enough to hear each other, and a line neither one crosses.",
+  "S9": "S9 now carries the retelling of the sun and rain plus Jesus's question about the publicans. Frame the meeting rather than the sky: the same two men standing on opposite sides of the gap in the wall, one still holding a stone he has just set, both hesitating — the moment before either of them speaks. Late warm light falling equally on both faces."
+ }
+}

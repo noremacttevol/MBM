@@ -1,0 +1,111 @@
+{
+ "build": "build-136-healed-in-two-touches",
+ "reference": "Mark 8",
+ "notes": "STAYED RED: j1 'Neither go into the town, nor tell it to any in the town.' is\nMark 8:26, Jesus speaking in the flesh, and a red-letter KJV prints it red. It had\nno evangelist framing welded onto it, so no split was needed. It keeps its id and\nits still.\n\nLIFTED - THE BLIND MAN'S OWN LINE. The whole point of this story is the sentence\nthe man says between the two touches, and it was narrator paraphrase: n2 read\n'he could see, but only halfway. People looked like trees walking around.' That is\nMark 8:24 and the KJV records the man saying it himself:\n  s24  Mark 8:24  'I see men as trees, walking.'  SCRIPTURE, light blue.\nHe is a man in the story, not Deity, so blue is right. n2 keeps its original text\nand now works as the retelling directly after him, on the SAME still (ST4), so the\npicture the viewer sees does not change.\n\nADDED RETELLING: j1 was the last beat, which left the only Old English line in the\nvideo with nobody to say it again. n5 is new and retells it on ST7, the still j1\nalready sits on.\n\nNOTE ON THE ORDER: the brief's `segments` list had j1 before n4 while `beats` had\nit after. The beat order is what renders, so the segment list is now written in\nbeat order. No ids changed.\n\nWOMEN: Mark 8:22-26 records no woman speaking. Nothing added; nothing invented.\n\nWHY-LAW: Jesus was not short on power at the first touch. Half-sight was allowed\nto exist for a moment. Milk framing - a faith that comes in stages is still his\nwork, and he is patient enough to lay hands on you twice.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Friends brought a blind man to Jesus in Bethsaida and begged Him just to touch him."
+  },
+  {
+   "id": "n1a",
+   "speaker": "narrator",
+   "text": "Jesus took the man by the hand and walked him outside the village."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "He spit on the man's eyes and laid His hands on him, then asked if he could see anything yet."
+  },
+  {
+   "id": "s24",
+   "speaker": "scripture",
+   "verse": "Mark 8:24",
+   "text": "I see men as trees, walking."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "The man looked up and said the strangest thing — he could see, but only halfway. People looked like trees walking around."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "So Jesus put His hands on the man's eyes a second time and told him to look up again."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "And this time he saw everything clearly — every face, every leaf. The second touch finished what the first had started."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Mark 8:26",
+   "text": "Neither go into the town, nor tell it to any in the town."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Don't go back into the town, Jesus told him, and don't tell anybody there. The healing was for the man himself — not for a crowd to talk about."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Maybe your faith came in stages too. He is patient enough to touch you twice."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "n1a",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1b",
+   "ST3",
+   "in"
+  ],
+  [
+   "s24",
+   "ST4",
+   "in"
+  ],
+  [
+   "n2",
+   "ST4",
+   "out"
+  ],
+  [
+   "n3",
+   "ST5",
+   "in"
+  ],
+  [
+   "n4",
+   "ST6",
+   "in"
+  ],
+  [
+   "j1",
+   "ST7",
+   "in"
+  ],
+  [
+   "n5",
+   "ST7",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST4": "ST4 now carries the man's verbatim line AND its retelling. Frame the half-sight itself, from close beside him: the man's face turned up, eyes open and straining, a blurred smear of standing figures in the middle distance that genuinely read as trunks and branches. Wonder and confusion at once - he is seeing, and it is not right yet.",
+  "ST7": "ST7 now carries Jesus's only spoken line and its retelling. Frame the quiet dismissal on the road outside the village: Jesus close, hand still resting on the healed man's shoulder, speaking low, the town small and far behind them. Private, unhurried, no onlookers - the opposite of a crowd."
+ }
+}

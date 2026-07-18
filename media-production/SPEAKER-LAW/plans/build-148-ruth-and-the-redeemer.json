@@ -1,0 +1,189 @@
+{
+ "build": "build-148-ruth-and-the-redeemer",
+ "reference": "Ruth 1",
+ "notes": "The single most quotable line in the Old Testament outside the psalms — Ruth 1:16-17 —\nwas a modern paraphrase in the narrator's voice ('Where you go, I'll go'). That is now\nRuth herself, WOMAN (pink), verbatim KJV, split in two so each half lands:\n  w1a  Ruth 1:16  'Intreat me not to leave thee... thy God my God'\n  w1b  Ruth 1:17  'Where thou diest, will I die...'\nn2 is kept (id preserved) and rewritten from paraphrase into the retelling.\n\nNaomi also speaks now — WOMAN — because it is the hinge of the chapter and it makes\nthe ending land harder when her arms are filled:\n  w2a  Ruth 1:20  'Call me not Naomi, call me Mara...'\n  w2b  Ruth 1:21  'I went out full, and the LORD hath brought me home again empty.'\n\nBoaz gets his own voice as SCRIPTURE (light blue) — he is a man in the story, not Deity:\n  s1   Ruth 2:12  'The LORD recompense thy work...'\n  s2   Ruth 3:11  '...thou art a virtuous woman.'\n\nRuth is Old Testament, and no beat in this chapter is Deity speaking, so there is no\n`jesus` and no `god` beat. Nothing was previously red; six new voiced lines were added\nand every one is verbatim.\n\nLEFT AS NARRATOR: the women of Bethlehem blessing Naomi in Ruth 4:14-15, and the\ngate scene in Ruth 4:9-10. Both are strong, but I am not certain enough of the exact\nKJV wording to put them in a coloured voice, so they stay in the storyteller's mouth.\n\nWHY-LAW: Boaz is called the redeemer by law, and the last beat quietly points past him.\nNothing on screen argues it. Milk.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "A widow named Naomi lost everything in a foreign land — her husband and both sons buried there."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "She told her two daughters-in-law to go home to their own people. One kissed her and left. But Ruth clung to her, and would not go."
+  },
+  {
+   "id": "w1a",
+   "speaker": "woman",
+   "verse": "Ruth 1:16",
+   "text": "Intreat me not to leave thee, or to return from following after thee: for whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God."
+  },
+  {
+   "id": "w1b",
+   "speaker": "woman",
+   "verse": "Ruth 1:17",
+   "text": "Where thou diest, will I die, and there will I be buried: the LORD do so to me, and more also, if ought but death part thee and me."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Don't ask me to leave you, Ruth said. Wherever you go, I'm going. Wherever you stay, I'm staying. Your people are my people now, and your God is my God. Where you die, I'll die, and that's where they'll bury me. Only death gets to separate us — and even that, may God deal with me if it does."
+  },
+  {
+   "id": "w2a",
+   "speaker": "woman",
+   "verse": "Ruth 1:20",
+   "text": "Call me not Naomi, call me Mara: for the Almighty hath dealt very bitterly with me."
+  },
+  {
+   "id": "w2b",
+   "speaker": "woman",
+   "verse": "Ruth 1:21",
+   "text": "I went out full, and the LORD hath brought me home again empty."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "Naomi means pleasant. Don't call me that anymore, she said when she got home — call me bitter. I went out with a husband and two sons, and I've come back with nothing. Hold on to that word, empty. The story is not finished with it."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Ruth gleaned grain in the fields behind the harvesters to keep Naomi fed — and the field belonged to a man named Boaz."
+  },
+  {
+   "id": "s1",
+   "speaker": "scripture",
+   "verse": "Ruth 2:12",
+   "text": "The LORD recompense thy work, and a full reward be given thee of the LORD God of Israel, under whose wings thou art come to trust."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "May the Lord pay you back for what you've done, Boaz told her, and may He give you a full reward — the God of Israel, the One you came here to take shelter under. He protected her, fed her, and spoke kindly. He was a near kinsman — a redeemer by the law."
+  },
+  {
+   "id": "s2",
+   "speaker": "scripture",
+   "verse": "Ruth 3:11",
+   "text": "For all the city of my people doth know that thou art a virtuous woman."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "The whole town knows what kind of woman you are, he said. At the threshing floor Ruth had asked him to cover her with his cloak, the sign of a kinsman's duty — and he promised to redeem her."
+  },
+  {
+   "id": "n6a",
+   "speaker": "narrator",
+   "text": "Before the town gate, in front of witnesses, Boaz bought the right to marry Ruth."
+  },
+  {
+   "id": "n6b",
+   "speaker": "narrator",
+   "text": "Naomi's emptiness was filled; a son was born, and the neighbour women laid him in her lap."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "That boy became the grandfather of King David — and part of the line that leads to the greater Redeemer still to come."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Ruth gave up everything to follow the God she'd come to love. He never let her go. Neither will He let you go."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "n1",
+   "ST2",
+   "in"
+  ],
+  [
+   "w1a",
+   "ST3",
+   "in"
+  ],
+  [
+   "w1b",
+   "ST3",
+   "out"
+  ],
+  [
+   "n2",
+   "ST3",
+   "in"
+  ],
+  [
+   "w2a",
+   "ST1",
+   "out"
+  ],
+  [
+   "w2b",
+   "ST1",
+   "in"
+  ],
+  [
+   "n2b",
+   "ST1",
+   "out"
+  ],
+  [
+   "n3",
+   "ST4",
+   "in"
+  ],
+  [
+   "s1",
+   "ST5",
+   "in"
+  ],
+  [
+   "n4",
+   "ST5",
+   "out"
+  ],
+  [
+   "s2",
+   "ST6",
+   "in"
+  ],
+  [
+   "n5",
+   "ST6",
+   "out"
+  ],
+  [
+   "n6a",
+   "ST7",
+   "in"
+  ],
+  [
+   "n6b",
+   "ST8",
+   "in"
+  ],
+  [
+   "n7",
+   "ST9",
+   "out"
+  ]
+ ],
+ "spoken": {
+  "Intreat": "in-treat",
+  "ought": "awt"
+ },
+ "stills_wanted": {
+  "ST3": "Now carries three beats — the whole vow. It should be the moment of the words themselves: Ruth on the road with both hands gripping Naomi's forearms, refusing to let go, Naomi already half-turned away toward Bethlehem. Orpah small and distant behind them, walking the other direction. Close enough to read Ruth's face.",
+  "ST1": "ST1 is reused for Naomi's 'call me Mara' and now carries three beats. It needs to read as the arrival, not the leaving — Naomi at the edge of Bethlehem with the town's women recognizing her, her face turned down and away, hands open and empty at her sides. The visual has to say the word empty before the narrator does.",
+  "ST5": "Boaz standing at the edge of his own field speaking directly to Ruth, who is straightened up from gleaning with grain still in her arms — the moment he blesses her rather than the moment he first notices her. His posture respectful, a little distance kept between them."
+ }
+}

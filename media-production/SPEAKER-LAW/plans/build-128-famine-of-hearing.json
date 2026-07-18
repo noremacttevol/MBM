@@ -1,0 +1,100 @@
+{
+ "build": "build-128-famine-of-hearing",
+ "reference": "Amos 8",
+ "notes": "Second video on Amos 8, judged independently of build-156. Same two verses, same doctrinal call, different cut — this one is shorter, tighter, and runs the two verses back to back on ST3.\n\n  s1  Amos 8:11  god (was red)\n  s2  Amos 8:12  god (was red)\n\nAmos 8:11-12 is one continuous oracle in the LORD's own first-person voice: 'I will send a famine in the land'. Jehovah, the premortal Christ, so GREEN. A red-letter KJV prints none of it red — Christ had not yet come in the flesh.\n\ns1 carries 'saith the Lord GOD', Amos's attribution clause, wrapped around God's own words. NOT split, for the same reason as build-156: pulling three words of attribution into their own blue beat would chop the line in half and read worse than it sounds now. The segment as a whole is God speaking.\n\ns1 and s2 run consecutively with no narrator between them. Left that way on purpose — they are one unbroken oracle and the pause would kill it. n2 does the retelling for both, which is what the retelling rule is for.\n\nNothing lifted or added. This cut is deliberately spare and the narrator beats are short; adding verses would fight the pacing.\n\nWHY-LAW: the famine is the silence we choose. The cure was never far off — it was to listen while the voice could still be heard.",
+ "segments": [
+  {
+   "id": "n0a",
+   "speaker": "narrator",
+   "text": "The prophet Amos carried a warning from the Lord —"
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "not about food, but about something people would miss even more."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "A day would come when God's voice would seem far away — not because He stopped speaking, but because people stopped being able to hear."
+  },
+  {
+   "id": "s1",
+   "speaker": "god",
+   "verse": "Amos 8:11",
+   "text": "Behold, the days come, saith the Lord GOD, that I will send a famine in the land, not a famine of bread, nor a thirst for water, but of hearing the words of the LORD:"
+  },
+  {
+   "id": "s2",
+   "speaker": "god",
+   "verse": "Amos 8:12",
+   "text": "And they shall wander from sea to sea, and from the north even to the east, they shall run to and fro to seek the word of the LORD, and shall not find it."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "The deepest hunger isn't in the stomach. It's the ache of a soul that can't find a word from God."
+  },
+  {
+   "id": "n3a",
+   "speaker": "narrator",
+   "text": "The cure was never far."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "It was to listen while His voice could still be heard."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "When His word is near, don't let it pass. Listen now — the famine is the silence we choose."
+  }
+ ],
+ "beats": [
+  [
+   "n0a",
+   "ST1",
+   "in"
+  ],
+  [
+   "n0b",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1",
+   "ST2",
+   "out"
+  ],
+  [
+   "s1",
+   "ST3",
+   "in"
+  ],
+  [
+   "s2",
+   "ST3",
+   "out"
+  ],
+  [
+   "n2",
+   "ST4",
+   "in"
+  ],
+  [
+   "n3a",
+   "ST4",
+   "out"
+  ],
+  [
+   "n3b",
+   "ST5",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST3": "ST3 carries both KJV verses back to back — the longest stretch in this cut. Frame the moment the words describe: people out on the move, searching, from one horizon to the other. Not despair — motion. Figures walking, turning, looking, going on again, with distance in every direction and nothing found in it. The ache should read as hunger, not as punishment."
+ }
+}

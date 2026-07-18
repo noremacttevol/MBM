@@ -1,0 +1,142 @@
+{
+ "build": "build-109-ask-seek-knock",
+ "reference": "Matthew 7",
+ "notes": "All three existing red beats are correctly red and were left alone. Matthew 7 is\nthe Sermon on the Mount - Jesus speaking in the flesh, continuously - and none of\nthese segments carried an evangelist framing clause, so there was nothing to\nsplit and nothing to move out of red.\n\nSTAYED RED (jesus):\n  jv7   Matt 7:7   'Ask, and it shall be given you; seek, and ye shall find;\n                    knock, and it shall be opened unto you:'\n  jv8   Matt 7:8   'For every one that asketh receiveth; and he that seeketh\n                    findeth; and to him that knocketh it shall be opened.'\n  jv11  Matt 7:11  'If ye then, being evil, know how to give good gifts unto your\n                    children, how much more shall your Father which is in heaven\n                    give good things to them that ask him?'\n\nLIFTED FROM PARAPHRASE - also Jesus, so also RED:\n  jv910 Matt 7:9-10 'Or what man is there of you, whom if his son ask bread, will\n                     he give him a stone? Or if he ask a fish, will he give him a\n                     serpent?'\nn5 was retelling these two verses in modern English while the verses themselves\nwere missing, which left jv11's 'if ye then, being evil' resting on a picture the\nviewer had only heard described. Now the real verse speaks first.\n\nEDIT TO EXISTING NARRATOR TEXT: n5 is split at its own seam. n5 keeps only its\nlead-in sentence - 'Then Jesus makes it personal with a picture from any home.'\n- and hands to jv910. Its remaining four sentences become n5b, unchanged word for\nword, now functioning as the retelling. All three beats stay on S7, so the\npicture is unchanged.\n\nWOMEN: Matthew 7 records no woman speaking. Nothing was added rather than\nreaching outside the chapter for one.\n\nWHY-LAW: prayer is not technique and not endurance. It is a child putting out its\nhands to a Father who is glad to be asked. Milk framing - just ask.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "People have always wondered how prayer really works. Do you have to say it just right? Wear God down? Jesus, teaching on a hillside, made it startlingly simple."
+  },
+  {
+   "id": "jv7",
+   "speaker": "jesus",
+   "verse": "Matthew 7:7",
+   "text": "Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you:"
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Three words, and each one is warmer and more personal than the last. Ask — like a child who simply puts out its hands, trusting, expecting good."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Seek — more than a word now; it is getting up and searching, patient and hopeful, sure that what you are looking for is really there to be found."
+  },
+  {
+   "id": "jv8",
+   "speaker": "jesus",
+   "verse": "Matthew 7:8",
+   "text": "For every one that asketh receiveth; and he that seeketh findeth; and to him that knocketh it shall be opened."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Knock — and keep knocking — on a door you cannot yet see behind. And the promise is that the door does open. Not maybe. Not for the specially worthy. Every one who asks, receives."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Then Jesus makes it personal with a picture from any home."
+  },
+  {
+   "id": "jv910",
+   "speaker": "jesus",
+   "verse": "Matthew 7:9-10",
+   "text": "Or what man is there of you, whom if his son ask bread, will he give him a stone? Or if he ask a fish, will he give him a serpent?"
+  },
+  {
+   "id": "n5b",
+   "speaker": "narrator",
+   "text": "A child asks its father for bread. What kind of father hands his hungry child a stone instead? Or a snake when he asks for a fish? No father you would trust."
+  },
+  {
+   "id": "jv11",
+   "speaker": "jesus",
+   "verse": "Matthew 7:11",
+   "text": "If ye then, being evil, know how to give good gifts unto your children, how much more shall your Father which is in heaven give good things to them that ask him?"
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "How much more. If flawed, tired, imperfect parents still love to give their kids good things — how much more does a perfect Father delight to give to you? Prayer is not twisting God's arm. It is a child asking a good Father who is glad to be asked."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "So the invitation is just this: ask. Not perfectly. Not impressively. Simply, honestly, like a child. The Father is not reluctant. He is leaning in, glad to hear your voice."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Ask, seek, knock. Jesus says your Father in heaven is far kinder than the best parent you can imagine, and glad to be asked. Is there something you have been afraid to ask him for?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "jv7",
+   "S2",
+   "in"
+  ],
+  [
+   "n2",
+   "S3",
+   "in"
+  ],
+  [
+   "n3",
+   "S4",
+   "in"
+  ],
+  [
+   "jv8",
+   "S5",
+   "in"
+  ],
+  [
+   "n4",
+   "S6",
+   "in"
+  ],
+  [
+   "n5",
+   "S7",
+   "in"
+  ],
+  [
+   "jv910",
+   "S7",
+   "out"
+  ],
+  [
+   "n5b",
+   "S7",
+   "in"
+  ],
+  [
+   "jv11",
+   "S8",
+   "in"
+  ],
+  [
+   "n6",
+   "S9",
+   "in"
+  ],
+  [
+   "n7",
+   "S10",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S7": "S7 now carries three beats - the lead-in, Matthew 7:9-10 verbatim, and the retelling - so it has to hold the whole bread-and-stone picture on its own. Frame the moment of asking, not of giving: a small child at a plain table with both hands open and lifted toward a father who is already reaching for the loaf. Warm indoor light, an ordinary kitchen, no stone and no serpent anywhere in frame. The absurdity lives in the words; the image should show only the kindness the words argue from."
+ }
+}

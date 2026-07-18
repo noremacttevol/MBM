@@ -1,0 +1,100 @@
+{
+ "build": "build-127-the-strait-gate",
+ "reference": "Matthew 7",
+ "notes": "STAYED RED: both j1 and j2 are Jesus preaching in the flesh in the Sermon on the\nMount, and a red-letter KJV inks both. Neither carries evangelist framing, so\nneither needed splitting.\n  j1  Matthew 7:13\n  j2  Matthew 7:14\n\nTHE FIX: the two red verses ran back to back with no storyteller between them,\nand the two narrator beats that explain them (n1, n2) sat BEFORE the verses\ninstead of after. The viewer got the plain-English version first and the King\nJames second, which is backwards - the retelling rule wants the Old English to\nland and then be made plain.\n\nNothing was rewritten. n1 and n2 were already near-perfect retellings of 7:13 and\n7:14; they were simply moved to follow the verses they explain. It now reads\nverse, retelling, verse, retelling.\n\nADDED: n4, a short closing narrator beat, so the video ends on S7 ('step through')\ninstead of leaving that still unused. All seven stills are now in the running\norder; the original build used only six.\n\nWOMEN: Matthew 7:13-14 records no woman speaking. Nothing added.\n\nWHY-LAW: he did not describe two roads to frighten anybody. He described them\nbecause one of them is worth finding, and finding it is a decision, not an\naccident.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Jesus stood before the crowd and described two roads — two ways that every person gets to choose."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Matthew 7:13",
+   "text": "Enter ye in at the strait gate: for wide is the gate, and broad is the way, that leadeth to destruction, and many there be which go in thereat:"
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "One road looks easy. The gate is wide, the path is broad, and a lot of people walk that way."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Matthew 7:14",
+   "text": "Because strait is the gate, and narrow is the way, which leadeth unto life, and few there be that find it."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "The other road looks harder. The gate is narrow, the path is tight, and far fewer find it."
+  },
+  {
+   "id": "n3a",
+   "speaker": "narrator",
+   "text": "He wasn't describing geography. He was describing a decision."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "A narrow gate that leads to life, found by the few who choose it."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "He never said the narrow way would be crowded. He said it leads to life. Both gates are standing open right now, and nobody walks through either one by accident."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "There are two gates, and one choice. He said the narrow way is worth finding. Step through."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "j1",
+   "S2",
+   "in"
+  ],
+  [
+   "n1",
+   "S2",
+   "out"
+  ],
+  [
+   "j2",
+   "S3",
+   "in"
+  ],
+  [
+   "n2",
+   "S4",
+   "in"
+  ],
+  [
+   "n3a",
+   "S5",
+   "in"
+  ],
+  [
+   "n3b",
+   "S6",
+   "in"
+  ],
+  [
+   "n4",
+   "S7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S2": "S2 now carries the verbatim 7:13 and its retelling. Frame the wide gate at the moment the words describe: a broad open gateway, no gatekeeper, a comfortable crowd strolling through without slowing down. Nobody is deciding anything — that is the point."
+ }
+}

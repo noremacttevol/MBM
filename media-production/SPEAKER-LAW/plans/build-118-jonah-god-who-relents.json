@@ -1,0 +1,240 @@
+{
+ "build": "build-118-jonah-god-who-relents",
+ "reference": "Jonah 1",
+ "notes": "Both red beats are the LORD speaking to Jonah - Old Testament, so GOD (green),\nnever `jesus`. A red-letter KJV prints none of Jonah in red.\n\nLINES LIFTED OUT OF NARRATOR PARAPHRASE:\n  gv1   Jonah 1:2   the first commission - n1 paraphrased it; now GOD, and it pairs\n                    with jvA (Jonah 3:2), the second commission, so the viewer hears\n                    God say the same thing twice to a man who ran the first time.\n  s112  Jonah 1:12  Jonah telling the sailors to throw him overboard - SCRIPTURE.\n  s29   Jonah 2:9   'Salvation is of the LORD.' The hinge of the book, said from\n                    inside the fish - SCRIPTURE.\n  s34   Jonah 3:4   'Yet forty days, and Nineveh shall be overthrown.' This was\n                    already verbatim inside narrator beat n6 - pulled out to SCRIPTURE.\n  s42   Jonah 4:2   Jonah's complaint: he ran because he knew God was gracious. This\n                    is the reason the book exists and it was missing entirely.\n\nNEW CLOSING RETELL: jvB (Jonah 4:11) was the last spoken beat before the card, so the\nOld English landed unexplained. n9 now retells it over the same still S10.\n\nLEFT AS PARAPHRASE ON PURPOSE: n7, the city repenting (Jonah 3:5-9). The king's decree\nruns long and I was not certain enough of the exact clause order across 3:7-9 to quote\nit, so the whole repentance beat stays narrator. Nothing was approximated.\n\nMILK FRAMING: the book answers one question - is God eager to destroy or eager to\nspare? Jonah's own complaint is the answer, and God gets the last word arguing for\nmercy against his own prophet.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "God had a hard errand for a man named Jonah. He was to go to Nineveh — a huge, violent, foreign city, the capital of the empire everyone in Israel was afraid of. And this is how the word came to him."
+  },
+  {
+   "id": "gv1",
+   "speaker": "god",
+   "verse": "Jonah 1:2",
+   "text": "Arise, go to Nineveh, that great city, and cry against it; for their wickedness is come up before me."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "Go to that great city and preach against it, God said, because I have seen how bad it has gotten. Notice what that actually is. It is a warning. God would far rather warn a wicked city than lose it."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "But Jonah did not want mercy for people like that. So he ran. He found a ship going the exact opposite way and sailed off, trying to put an ocean between himself and a God he thought was far too forgiving."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "A great storm caught the ship, so fierce the sailors were sure they would all drown. They cast lots to find out whose fault it was, and the lot fell on Jonah. He knew it already. And what he told them is the first decent thing he does in the whole book."
+  },
+  {
+   "id": "s112",
+   "speaker": "scripture",
+   "verse": "Jonah 1:12",
+   "text": "Take me up, and cast me forth into the sea; so shall the sea be calm unto you: for I know that for my sake this great tempest is upon you."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "Throw me in, he said. The sea will go quiet, because this storm is on me, not on you. He would rather drown than preach to Nineveh — but he would not let a boatful of strangers go down with him. So at last they did the only thing left, and cast him into the raging sea."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "And here is the first surprise of this story. The sea should have been the end of him. Instead, God sent a great fish — not to punish Jonah, but to catch him, and carry him, and keep him alive in the deep."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "For three days and three nights, in the dark, Jonah finally stopped running. From the belly of the fish he prayed, and his hard, resentful heart began at last to turn back toward the God who would not let him drown. His prayer ends in four words."
+  },
+  {
+   "id": "s29",
+   "speaker": "scripture",
+   "verse": "Jonah 2:9",
+   "text": "Salvation is of the LORD."
+  },
+  {
+   "id": "n5b",
+   "speaker": "narrator",
+   "text": "Rescue belongs to God. That is the whole lesson of the fish, and Jonah says it from the one place on earth where he could not save himself and had nothing left to bargain with."
+  },
+  {
+   "id": "jvA",
+   "speaker": "god",
+   "verse": "Jonah 3:2",
+   "text": "Arise, go unto Nineveh, that great city, and preach unto it the preaching that I bid thee."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "The fish set him safe on dry land, and God gave him the exact same errand a second time — no mention of the running, no punishment attached. This time Jonah went. He walked into the great city and cried out his warning."
+  },
+  {
+   "id": "s34",
+   "speaker": "scripture",
+   "verse": "Jonah 3:4",
+   "text": "Yet forty days, and Nineveh shall be overthrown."
+  },
+  {
+   "id": "n6b",
+   "speaker": "narrator",
+   "text": "Forty more days and this city is finished. That was the entire sermon. No comfort in it anywhere, no invitation, no offer — just a countdown, preached by a man who was hoping it would come true."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "And the second surprise is bigger than the first. They listened. From the king on his throne down to the poorest beggar, the whole city turned — sackcloth, fasting, and honest sorrow — begging God for mercy they knew they did not deserve."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "And God, who had been looking for a reason to spare them all along, saw that they turned from their evil — and he relented. He did not destroy the city. He forgave it. The judgment never fell. And Jonah, watching from a hill outside the walls, was furious. Listen to why."
+  },
+  {
+   "id": "s42",
+   "speaker": "scripture",
+   "verse": "Jonah 4:2",
+   "text": "I knew that thou art a gracious God, and merciful, slow to anger, and of great kindness, and repentest thee of the evil."
+  },
+  {
+   "id": "n8b",
+   "speaker": "narrator",
+   "text": "I knew it, he says. I knew you were gracious and merciful and slow to anger. I knew you would forgive them. That is the confession at the bottom of the book. Jonah never ran because he thought God was harsh. He ran because he was afraid God was too good."
+  },
+  {
+   "id": "jvB",
+   "speaker": "god",
+   "verse": "Jonah 4:11",
+   "text": "And should not I spare Nineveh, that great city, wherein are more than sixscore thousand persons that cannot discern between their right hand and their left hand; and also much cattle?"
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "Should I not spare Nineveh? A hundred and twenty thousand people who cannot tell their right hand from their left — and the animals too. That is how the book ends. Not with Jonah answering, but with God still arguing for mercy, out loud, with his own prophet."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The whole book of Jonah exists to answer one question: is God eager to destroy, or eager to spare? He spared a city of a hundred thousand strangers the moment they turned. What would it change to believe God is that quick to forgive?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "gv1",
+   "S1",
+   "out"
+  ],
+  [
+   "n1b",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "in"
+  ],
+  [
+   "s112",
+   "S3",
+   "out"
+  ],
+  [
+   "n3b",
+   "S3",
+   "in"
+  ],
+  [
+   "n4",
+   "S4",
+   "in"
+  ],
+  [
+   "n5",
+   "S5",
+   "in"
+  ],
+  [
+   "s29",
+   "S5",
+   "out"
+  ],
+  [
+   "n5b",
+   "S5",
+   "in"
+  ],
+  [
+   "jvA",
+   "S6",
+   "in"
+  ],
+  [
+   "n6",
+   "S7",
+   "in"
+  ],
+  [
+   "s34",
+   "S7",
+   "out"
+  ],
+  [
+   "n6b",
+   "S7",
+   "in"
+  ],
+  [
+   "n7",
+   "S8",
+   "in"
+  ],
+  [
+   "n8",
+   "S9",
+   "in"
+  ],
+  [
+   "s42",
+   "S9",
+   "out"
+  ],
+  [
+   "n8b",
+   "S9",
+   "in"
+  ],
+  [
+   "jvB",
+   "S10",
+   "in"
+  ],
+  [
+   "n9",
+   "S10",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S1": "Now carries three beats — the setup, God's first commission, and its retelling. Should be the call itself: Jonah alone and small with the word coming to him, and a sense of a far-off great city he does not want to go to. Not the harbour yet.",
+  "S3": "Now carries the storm, Jonah's 'cast me forth into the sea', and the retelling. Frame the moment of the offer, not the throw — Jonah braced on a pitching deck facing the terrified sailors, mid-sentence, the sea violent behind him.",
+  "S5": "Now carries the prayer, 'Salvation is of the LORD', and a retelling. Dark, close and still: a man in the deep with almost nothing visible and one faint light. The stillness has to hold under a long stretch of quiet words.",
+  "S7": "Now carries the preaching, the verbatim 'Yet forty days', and its retelling. Jonah mid-cry in a huge city street, people beginning to turn and look. Bleak delivery against an enormous place — the smallness of the messenger is the point.",
+  "S9": "Now carries God relenting, Jonah's angry confession, and its retelling. Should move from the spared city to the sulking prophet — a figure alone on a hillside above a city that is still standing, back to the camera, arms crossed.",
+  "S10": "Now carries God's closing question and its retelling. The city as God sees it: ordinary people and animals going about a normal evening, warm and alive and completely unaware how close it came."
+ }
+}

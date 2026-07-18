@@ -1,0 +1,111 @@
+{
+ "build": "build-134-other-sheep-i-have",
+ "reference": "John 10",
+ "notes": "STAYED RED: j1 is John 10:16, Jesus in the flesh, red-letter, already verbatim.\nNo framing welded on, so no split needed.\n\nLIFTED: jv14 John 10:14 'I am the good shepherd, and know my sheep, and am known\nof mine.' JESUS, RED. n0 was asserting it in the storyteller's voice - 'He was the\ngood Shepherd, and they were His flock' - which is the claim of the chapter\nreported second-hand. He says it himself now, and n0b (new) is the retelling.\nVerse 14 was chosen over verse 11 because 'know my sheep, and am known of mine' is\nwhat makes verse 16 land: the other sheep are not strangers to him either.\n\nRESEQUENCED: n1a, n1b and n2 all paraphrased j1 BEFORE j1 arrived, so the viewer\nheard 'there were other sheep, not of that pen' in modern English three times and\nthen finally got the King James. j1 now comes fifth instead of last-but-three, and\nn1b and n2 keep their exact original words as retellings afterward. n1a was\ntrimmed by two words so it reads as a setup rather than a summary.\n\nWOMEN: John 10:1-18 records no woman speaking - this is Jesus teaching, with only\nthe crowd's division reported in verses 19-21 and no quoted woman anywhere.\nNothing added, nothing invented.\n\nNOTE ON THE STILLS: ST10 stays unused, exactly as the original build had it. The\nartwork is untouched and no beat was invented to fill it.\n\nWHY-LAW: this is the verse a Latter-day Saint hears differently, and it needs no\nargument on screen at all. The video says only what the verse says - there are\nsheep he already has, elsewhere, and he is going to bring them. Milk. A viewer who\nlater learns where those other sheep were will find the video was right all along.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Jesus used a picture His listeners knew well — a shepherd and his sheep, out on the open hill."
+  },
+  {
+   "id": "jv14",
+   "speaker": "jesus",
+   "verse": "John 10:14",
+   "text": "I am the good shepherd, and know my sheep, and am known of mine."
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "I am the good shepherd, He said. I know My sheep, and My sheep know Me. Not a hired hand counting a herd — a shepherd who knows them one at a time, and is known back."
+  },
+  {
+   "id": "n1a",
+   "speaker": "narrator",
+   "text": "But the flock was bigger than the people standing in front of Him."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "John 10:16",
+   "text": "And other sheep I have, which are not of this fold: them also I must bring, and they shall hear my voice; and there shall be one fold, and one shepherd."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "There were other sheep, not of that pen, that He would also bring."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "They would hear His voice. And the result would be one flock, one Shepherd."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Not divided by nation or wall. One voice, one care, one Shepherd over all who listen."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Whoever hears Him belongs — wherever they're from."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "His voice reaches further than you think. Hear Him, and you're in the fold."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "jv14",
+   "ST1",
+   "out"
+  ],
+  [
+   "n0b",
+   "ST3",
+   "in"
+  ],
+  [
+   "n1a",
+   "ST4",
+   "in"
+  ],
+  [
+   "j1",
+   "ST5",
+   "in"
+  ],
+  [
+   "n1b",
+   "ST6",
+   "in"
+  ],
+  [
+   "n2",
+   "ST6",
+   "out"
+  ],
+  [
+   "n3",
+   "ST7",
+   "in"
+  ],
+  [
+   "n4",
+   "ST9",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST1": "ST1 now carries the opening plus Jesus's verbatim 'I am the good shepherd' — the first thing He says in the video. Frame the knowing, not the crowd: the shepherd's hand on one particular sheep's head, the animal turned up toward Him, the rest of the flock loose around them. Recognition going both directions.",
+  "ST6": "ST6 now carries two beats — the retelling of the other sheep and the one-flock line. Frame the arrival rather than the boundary: sheep coming down a far hillside toward a fold whose gate is already standing open, the ones inside lifting their heads at the sound. Nobody is being kept out of frame."
+ }
+}

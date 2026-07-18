@@ -1,0 +1,118 @@
+{
+ "build": "build-154-everlasting-gospel",
+ "reference": "Revelation 14",
+ "notes": "Revelation is the one book in this set where red is sometimes right — a\nred-letter King James Bible does print Christ's explicit sayings red ('I am\nAlpha and Omega', 'To him that overcometh', the letters to the seven churches).\nNeither of this build's red beats is one of them.\n\n  kv6  Revelation 14:6  RED -> SCRIPTURE. This is John narrating his own vision:\n       'And I saw another angel fly in the midst of heaven...' Christ is not\n       speaking and is not even the subject of the sentence.\n  kv7  Revelation 14:7  RED -> SCRIPTURE. This is the ANGEL's cry, quoted by\n       John. An angel is a messenger, not Deity — so it is neither red nor\n       green. A red-letter KJV leaves 14:7 black.\n\nkv7 is technically two voices in one verse — 'Saying with a loud voice,' is\nJohn writing and the rest is the angel — but BOTH are `scripture`, so the\ncolour is correct either way and the segment is deliberately left unsplit\nrather than cut the line for no visible gain.\n\nNo new verses lifted. n4, n5 and n7 already carry the modern-English retelling\nfor both quotations, so nothing is added.\n\nWHY-LAW: milk at its plainest. An angel brings the gospel back to a world that\nhad lost hold of it, for every nation and kindred and tongue. The video never\nsays the angel's name or points at 1830 — it lets the verse do it.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "For long stretches of history, whole peoples lived without it — the good news about God, misplaced, buried, or never yet heard. Men reached for heaven in the dark and could not quite find the way."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "And then, in a vision, John of Patmos saw heaven open, and something come. Not an army, not a storm, but an angel, sent on an errand of mercy, carrying a message meant for the whole earth."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "The angel flew across the height of heaven for all to see, holding out an open book: the good news about God, ready to be given back to a world that had lost hold of it."
+  },
+  {
+   "id": "kv6",
+   "speaker": "scripture",
+   "verse": "Revelation 14:6",
+   "text": "And I saw another angel fly in the midst of heaven, having the everlasting gospel to preach unto them that dwell on the earth, and to every nation, and kindred, and tongue, and people,"
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Notice the word: everlasting. This good news was never really invented, or improved, by anyone. It is older than the nations, the same true message from the beginning, carried down from heaven and offered fresh again."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "And notice who it is for. Not one favoured people, not one language or land, but every nation, every family, every tongue. No one is too far away, too foreign, or too late to be handed this."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "The angel's call is simple and clean. Honour God, give him the glory, and worship the One who made it all — the heavens, the earth, the sea, and every spring of water. Turn your face back toward your Maker."
+  },
+  {
+   "id": "kv7",
+   "speaker": "scripture",
+   "verse": "Revelation 14:7",
+   "text": "Saying with a loud voice, Fear God, and give glory to him; for the hour of his judgment is come: worship him that made heaven and earth, and the sea, and the fountains of waters."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "It is a call to come home to the God of creation — the same God who set the stars in place and filled the seas. Not a distant idea, but the Maker of the very ground under your feet, quietly asking for your heart."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "So here is the quiet wonder of this verse. The good news was never abandoned for good. Heaven sent it out again, on purpose, for everyone — which means it was sent for you, too. So the only question is a gentle one. Will you receive it?"
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The gospel was never lost for good. Heaven sent an angel to carry it back to every nation, kindred, and tongue — everlasting, and meant for you. Will you receive it?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "in"
+  ],
+  [
+   "kv6",
+   "S4",
+   "in"
+  ],
+  [
+   "n4",
+   "S4",
+   "out"
+  ],
+  [
+   "n5",
+   "S5",
+   "in"
+  ],
+  [
+   "n6",
+   "S6",
+   "in"
+  ],
+  [
+   "kv7",
+   "S7",
+   "in"
+  ],
+  [
+   "n7",
+   "S7",
+   "out"
+  ],
+  [
+   "n8",
+   "S8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {}
+}

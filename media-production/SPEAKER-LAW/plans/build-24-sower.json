@@ -1,0 +1,208 @@
+{
+ "build": "build-24-sower",
+ "reference": "Matthew 13",
+ "notes": "STAYED RED: all three existing red beats are Jesus in the flesh telling and\nexplaining a parable, and a red-letter KJV prints all three.\n  j1  Matthew 13:3   'Behold, a sower went forth to sow;'\n  j3  Matthew 13:23  'But he that received seed into the good ground...'\n  j2  Matthew 13:9   'Who hath ears to hear, let him hear.'\n\nTHE FRAMING SPLIT. Matthew 13:3 reads in full: 'And he spake many things unto\nthem in parables, saying, Behold, a sower went forth to sow;'. Everything before\n'Behold' is Matthew writing, and a red-letter KJV leaves it black. The build had\nthat frame only as modern paraphrase in n2, so the verse is now split properly,\nBOTH HALVES ON THE SAME STILL S2 -- no new artwork, and the edit the viewer sees\nis unchanged:\n  s3  Matthew 13:3  'And he spake many things unto them in parables, saying,'\n      SCRIPTURE, light blue -- narration inside the Gospels is never red.\n  j1  Matthew 13:3  'Behold, a sower went forth to sow;'  JESUS, red, unchanged.\nn3 was already the retelling and is untouched.\n\nADDED RED, INSIDE THE PARABLE. Two of the four soils were told only in\nparaphrase. Both are Jesus's own words:\n  j4  Matthew 13:4  'And when he sowed, some seeds fell by the way side, and the\n      fowls came and devoured them up:'   -- n4 keeps its text and now retells it.\n  j8  Matthew 13:8  'But other fell into good ground, and brought forth fruit,\n      some an hundredfold, some sixtyfold, some thirtyfold.'\n      -- n9 keeps its text and now retells it, and j3's explanation lands right\n      after on the same still.\nThe stony ground and the thorns are left in the storyteller's voice on purpose:\nputting all four soils in Old English back to back would turn the middle of the\nvideo into a recitation. Two verbatim, two retold, alternating.\n\nWOMEN: Matthew 13:1-23 records no woman speaking. Nothing added; nothing invented.\n\nNO GREEN: no voice from heaven in Matthew 13.\n\nPRONUNCIATION: 'sow' and 'sowed' are on the SPEAKER-LAW homograph list -- the\nseed-scattering word rhymes with 'so', not with 'cow'. Respelled in `spoken`;\nthe captions keep the true spelling. 'sower' is left alone -- it already reads\ncorrectly and a bad respelling is worse than none.\n\nWHY-LAW: the farmer did not skip the hard path or the rocks. He threw seed\neverywhere, hoping. And ground can change.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "So many people crowded the shore to hear Jesus that he pushed a small boat out onto the water and taught them from there, the whole hillside listening."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "And he told them a story about a farmer, and four kinds of ground."
+  },
+  {
+   "id": "s3",
+   "speaker": "scripture",
+   "verse": "Matthew 13:3",
+   "text": "And he spake many things unto them in parables, saying,"
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Matthew 13:3",
+   "text": "Behold, a sower went forth to sow;"
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "A farmer went out to scatter his seed. He did not measure it out grain by grain. He flung it wide, across every kind of ground, hoping all of it would grow."
+  },
+  {
+   "id": "j4",
+   "speaker": "jesus",
+   "verse": "Matthew 13:4",
+   "text": "And when he sowed, some seeds fell by the way side, and the fowls came and devoured them up:"
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Some fell on the hard path, packed down by every foot that had ever walked it. It never sank in, and the birds came and ate it."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "That, he said, is a heart so hardened that the word never gets below the surface before it is snatched away."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "Some fell on thin soil over rock. It sprang up fast, green and hopeful, but it had no root, and when the sun grew hot it withered."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "That is the heart that says yes with joy, but has nothing underneath to hold it when things get hard."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "Some fell among thorns. The seed grew, but so did the weeds, and the worries and wants of this life crowded in and choked it before it could bear anything."
+  },
+  {
+   "id": "j8",
+   "speaker": "jesus",
+   "verse": "Matthew 13:8",
+   "text": "But other fell into good ground, and brought forth fruit, some an hundredfold, some sixtyfold, some thirtyfold."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "But some fell on good ground, open and soft and ready. It took root, and grew, and gave back a harvest many times over."
+  },
+  {
+   "id": "j3",
+   "speaker": "jesus",
+   "verse": "Matthew 13:23",
+   "text": "But he that received seed into the good ground is he that heareth the word, and understandeth it; which also beareth fruit, and bringeth forth, some an hundredfold, some sixty, some thirty."
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "The good ground is simply the heart that hears him, takes it in, and holds on. And it gives back far more than was ever put in."
+  },
+  {
+   "id": "n11",
+   "speaker": "narrator",
+   "text": "Notice the farmer did not skip the hard path or the rocky places. He threw seed everywhere, on every heart, hoping. That is how generous God is with his word."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Matthew 13:9",
+   "text": "Who hath ears to hear, let him hear."
+  },
+  {
+   "id": "n12",
+   "speaker": "narrator",
+   "text": "And ground can change. A hard path can be broken up. Rocky soil can be cleared. That is how good he is. He keeps sowing, and he never stops hoping your heart will be the good ground."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "None of these soils are fixed forever. What is the soil of your heart today?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S1",
+   "out"
+  ],
+  [
+   "s3",
+   "S2",
+   "in"
+  ],
+  [
+   "j1",
+   "S2",
+   "out"
+  ],
+  [
+   "n3",
+   "S2",
+   "in"
+  ],
+  [
+   "j4",
+   "S3",
+   "in"
+  ],
+  [
+   "n4",
+   "S3",
+   "out"
+  ],
+  [
+   "n5",
+   "S3",
+   "in"
+  ],
+  [
+   "n6",
+   "S4",
+   "in"
+  ],
+  [
+   "n7",
+   "S4",
+   "out"
+  ],
+  [
+   "n8",
+   "S5",
+   "in"
+  ],
+  [
+   "j8",
+   "S6",
+   "in"
+  ],
+  [
+   "n9",
+   "S6",
+   "out"
+  ],
+  [
+   "j3",
+   "S6",
+   "in"
+  ],
+  [
+   "n10",
+   "S6",
+   "out"
+  ],
+  [
+   "n11",
+   "S7",
+   "in"
+  ],
+  [
+   "j2",
+   "S7",
+   "out"
+  ],
+  [
+   "n12",
+   "S7",
+   "in"
+  ]
+ ],
+ "spoken": {
+  "sow": "soh",
+  "sowed": "sohd"
+ },
+ "stills_wanted": {
+  "S2": "S2 now carries the split verse — Matthew's framing, Jesus's opening line, and the retelling. Frame the throw itself: the sower mid-stride with his arm at the top of its arc and the seed already leaving his hand in a wide spray, catching the light. Generous, not careful.",
+  "S6": "S6 now carries four beats — the verbatim good ground, its retelling, Jesus's own explanation, and the close. Frame the yield: heavy-headed grain filling most of the frame at close range, bent under its own weight, with the sower small and far behind it. The harvest is the subject, not the man."
+ }
+}

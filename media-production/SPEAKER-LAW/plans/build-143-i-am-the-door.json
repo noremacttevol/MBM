@@ -1,0 +1,103 @@
+{
+ "build": "build-143-i-am-the-door",
+ "reference": "John 10",
+ "notes": "BOTH RED BEATS STAYED RED. John 10 is Jesus teaching in the flesh and a\nred-letter KJV inks both.\n  j1  John 10:7  'Verily, verily, I say unto you, I am the door of the sheep.'\n  j2  John 10:9  'I am the door: by me if any man enter in, he shall be saved...'\n\nFRAMING SPLIT ADDED. John 10:7 in the KJV reads 'Then said Jesus unto them again,\nVerily, verily, I say unto you, I am the door of the sheep.' The opening clause is\nJohn writing, not Jesus speaking, and a red-letter Bible leaves it black. It is now\nits own segment:\n  s7  John 10:7  'Then said Jesus unto them again,'  SCRIPTURE, blue.\ns7 and j1 sit on the SAME still (ST2) - consecutive beats over one image, no new\nartwork, and the edit the viewer sees is unchanged.\n\nLIFTED: n1a paraphrased 'anyone who climbs in some other way is there to take, not\nto care.' That is Jesus's own sentence, John 10:1, and it opens the whole\nsheepfold teaching. Added verbatim, JESUS red:\n  j0  John 10:1  'Verily, verily, I say unto you, He that entereth not by the door\n      into the sheepfold, but climbeth up some other way, the same is a thief and\n      a robber.'\nn1a keeps its original text and now works as the retelling right after it, on ST3\n- the wall-and-the-door still, which is exactly what the verse describes.\n\nBEAT ORDER: j0 (John 10:1) now runs before j1 (John 10:7), which is the order John\nwrote them in and the order the picture logic already wanted - the wall first, then\nthe door. Every original id is kept; only j0 and s7 are new.\n\nWOMEN: John 10 records no woman speaking. Nothing added; nothing invented.\n\nWHY-LAW: a sheepfold had one opening and the shepherd lay down across it at night -\nhe WAS the door. Milk framing - the door is not a barrier keeping you out, it is the\none place you can go in and out freely and still be safe.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Jesus used a picture the crowd knew well — a sheepfold with one opening, and a shepherd who guards it."
+  },
+  {
+   "id": "j0",
+   "speaker": "jesus",
+   "verse": "John 10:1",
+   "text": "Verily, verily, I say unto you, He that entereth not by the door into the sheepfold, but climbeth up some other way, the same is a thief and a robber."
+  },
+  {
+   "id": "n1a",
+   "speaker": "narrator",
+   "text": "Anyone who climbs in some other way is there to take, not to care."
+  },
+  {
+   "id": "s7",
+   "speaker": "scripture",
+   "verse": "John 10:7",
+   "text": "Then said Jesus unto them again,"
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "John 10:7",
+   "text": "Verily, verily, I say unto you, I am the door of the sheep."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "But the door? The door lets the flock in safe."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "John 10:9",
+   "text": "I am the door: by me if any man enter in, he shall be saved, and shall go in and out, and find pasture."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Through Him you come in and you go out — free, fed, not trapped. He's the way in, and the way to everything good."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "There's one door. Knock, and walk through."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "j0",
+   "ST3",
+   "in"
+  ],
+  [
+   "n1a",
+   "ST3",
+   "out"
+  ],
+  [
+   "s7",
+   "ST2",
+   "in"
+  ],
+  [
+   "j1",
+   "ST2",
+   "out"
+  ],
+  [
+   "n1b",
+   "ST4",
+   "in"
+  ],
+  [
+   "j2",
+   "ST5",
+   "in"
+  ],
+  [
+   "n2",
+   "ST6",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST2": "ST2 now carries John's framing line AND 'I am the door of the sheep.' Frame the declaration: Jesus standing in the single gap of a low stone sheepfold wall at dusk, filling the opening, sheep settled behind him. He is not pointing at the door. He is standing in it.",
+  "ST3": "ST3 now carries John 10:1 verbatim and its retelling. Frame the wrong way in: a figure hauling himself over the top of the stone wall in the dark, off to one side, while the real opening sits plainly visible further along. Furtive, hurried, taking - and the door is right there, unused."
+ }
+}

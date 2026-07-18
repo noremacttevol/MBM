@@ -1,0 +1,132 @@
+{
+ "build": "build-146-vine-and-branches",
+ "reference": "John 15",
+ "notes": "STAYED RED: both existing red beats are Jesus in the flesh in the upper room and a\nred-letter KJV prints both.\n  j1a  John 15:5a  'I am the vine, ye are the branches:'\n  j1b  John 15:5b  'He that abideth in me, and I in him...'\nNeither had Johannine framing welded onto it, so neither needed splitting.\n\nADDED: John 15:4, the verse the whole picture rests on, which the build did not\nhave in any form -- not even as paraphrase. `j0`, JESUS red, verbatim, on the\nSAME still S2 the build already used for the living branch. n0d is its retelling.\n\nRETELLING RULE: j1a and j1b ran back to back with no storyteller between them.\nn0c now sits between them on the same still S3, retelling 'I am the vine, ye are\nthe branches' in plain English before the harder half lands. n1 was already\ndoing the retelling work for j1b and is untouched.\n\nWOMEN: John 15 records no woman speaking. Nothing added; nothing invented.\n\nWHY-LAW: fruit is not the price of the connection, it is the evidence of it. The\nbranch does not strain -- it stays joined. Milk framing, no argument on screen.",
+ "segments": [
+  {
+   "id": "n0a",
+   "speaker": "narrator",
+   "text": "Jesus used a picture His friends would know —"
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "a vine, and the branches that grow from it."
+  },
+  {
+   "id": "j0",
+   "speaker": "jesus",
+   "verse": "John 15:4",
+   "text": "Abide in me, and I in you. As the branch cannot bear fruit of itself, except it abide in the vine; no more can ye, except ye abide in me."
+  },
+  {
+   "id": "n0d",
+   "speaker": "narrator",
+   "text": "Stay in me, he said, and I will stay in you. A branch cannot make fruit on its own. It has never once done it. All it does is stay attached, and the life of the vine does the rest."
+  },
+  {
+   "id": "j1a",
+   "speaker": "jesus",
+   "verse": "John 15:5",
+   "text": "I am the vine, ye are the branches:"
+  },
+  {
+   "id": "n0c",
+   "speaker": "narrator",
+   "text": "I am the vine, he said. You are the branches. Not visitors. Not hired hands. Branches — part of the same living thing."
+  },
+  {
+   "id": "j1b",
+   "speaker": "jesus",
+   "verse": "John 15:5",
+   "text": "He that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "A branch cut off from the vine doesn't dry up because it's weak. It dries up because it's disconnected."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Stay joined to Him, and the life flows. Try to bear fruit on your own, and there's nothing there."
+  },
+  {
+   "id": "n3a",
+   "speaker": "narrator",
+   "text": "He wasn't asking for effort."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "He was offering connection."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Stay connected to the Vine. Let His life flow through you."
+  }
+ ],
+ "beats": [
+  [
+   "n0a",
+   "S1",
+   "in"
+  ],
+  [
+   "n0b",
+   "S2",
+   "in"
+  ],
+  [
+   "j0",
+   "S2",
+   "out"
+  ],
+  [
+   "n0d",
+   "S2",
+   "in"
+  ],
+  [
+   "j1a",
+   "S3",
+   "in"
+  ],
+  [
+   "n0c",
+   "S3",
+   "out"
+  ],
+  [
+   "j1b",
+   "S6",
+   "in"
+  ],
+  [
+   "n1",
+   "S4",
+   "in"
+  ],
+  [
+   "n2",
+   "S5",
+   "in"
+  ],
+  [
+   "n3a",
+   "S7",
+   "in"
+  ],
+  [
+   "n3b",
+   "S8",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S2": "S2 now carries three beats — the added John 15:4, its retelling, and the original setup. Frame the verse itself: one green branch where it joins the trunk, close enough to see the graft, sap-wet and swollen with life. The join is the subject, not the leaves.",
+  "S3": "S3 now carries Jesus's 'I am the vine, ye are the branches' and its retelling. Frame the teacher, not the plant: Jesus with a hand resting on the old vine stock, disciples close around him in lamplight, listening. Quiet, indoors, late."
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "build": "build-142-light-of-the-world",
+ "reference": "John 8",
+ "notes": "BOTH RED BEATS STAYED RED, and both are correct - Jesus in the flesh, and a\nred-letter KJV inks both.\n  j1  John 8:12  'I am the light of the world...'\n  j2  John 9:5   'As long as I am in the world, I am the light of the world.'\n(j2 is John 9:5, not John 8 - the verse reference is recorded on the segment so\nnobody has to guess later. Same book, same speaker, still red.)\n\nFRAMING SPLIT ADDED. John 8:12 in the KJV opens 'Then spake Jesus again unto them,\nsaying, I am the light of the world...' The first clause is John writing, not\nJesus speaking, and a red-letter Bible leaves it black. It is now its own segment:\n  s12  John 8:12  'Then spake Jesus again unto them, saying,'  SCRIPTURE, blue.\ns12 and j1 sit on the SAME still (ST2), consecutive beats over one image, so the\nartwork and the edit the viewer sees are unchanged.\n\nLIFTED - THE BLIND MAN'S OWN LINE. n3 said 'He opened blind eyes and proved it,'\nwhich is the narrator reporting the best sentence in John 9 instead of letting the\nman say it. Added verbatim:\n  s25  John 9:25  'One thing I know, that, whereas I was blind, now I see.'\nSCRIPTURE, blue - he is a man in the story, not Deity. n3 was rewritten to retell\nhim, on the same still.\n\nADDED RETELLING: j2 had no retelling after it, so n2b is new.\n\nWOMEN - CONSIDERED AND LEFT OUT, ON PURPOSE. John 8:12 comes immediately after the\nwoman taken in adultery, who says 'No man, Lord' (John 8:11). It is a real woman's\nline and it is verbatim available. It was left out because pulling that scene in\nwould change what this video is about - it is a sixty-second 'I am' declaration,\nand the stills (a blind man's closed eyes, eyes opening) carry the John 9 thread,\nnot the John 8 courtyard. Flagging it here because it is the right woman's line for\na DIFFERENT build, and it should get one.\n\nWHY-LAW: he did not describe light and walk away. He put his hands on a man born\nblind. Milk framing - the claim is checkable, and the man it happened to could only\nsay one thing about it.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Jesus stood among the temple courts and spoke into the noise of the crowd."
+  },
+  {
+   "id": "s12",
+   "speaker": "scripture",
+   "verse": "John 8:12",
+   "text": "Then spake Jesus again unto them, saying,"
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "John 8:12",
+   "text": "I am the light of the world: he that followeth me shall not walk in darkness, but shall have the light of life."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Not a lamp that burns out. A light that walks with you, so you're never feeling your way blind."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Later, as He met a man born blind, He said it again."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "John 9:5",
+   "text": "As long as I am in the world, I am the light of the world."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "While I am here in the world, He said, I am the light of it. Then He knelt down in the dirt in front of a man who had never seen anything, and went to work."
+  },
+  {
+   "id": "s25",
+   "speaker": "scripture",
+   "verse": "John 9:25",
+   "text": "One thing I know, that, whereas I was blind, now I see."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "One thing I know, the man told them afterward — I was blind, and now I see. He didn't just describe light. He opened blind eyes and proved it."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Stop groping in the dark. Walk with the Light."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "s12",
+   "ST2",
+   "in"
+  ],
+  [
+   "j1",
+   "ST2",
+   "out"
+  ],
+  [
+   "n1",
+   "ST3",
+   "in"
+  ],
+  [
+   "n2",
+   "ST4",
+   "in"
+  ],
+  [
+   "j2",
+   "ST6",
+   "in"
+  ],
+  [
+   "n2b",
+   "ST6",
+   "out"
+  ],
+  [
+   "s25",
+   "ST5",
+   "in"
+  ],
+  [
+   "n3",
+   "ST5",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST2": "ST2 now carries John's framing line AND the declaration itself. Frame the declaration: Jesus in the temple court at the hour the great lamps are lit, standing still while the crowd moves around him, light falling on him rather than from him. Certain, unraised voice, not performing.",
+  "ST5": "ST5 now carries the healed man's verbatim testimony and its retelling. Frame him AFTER, under questioning: a plain man standing in front of seated officials, eyes wide open and steady, shrugging slightly - out-argued on every point and completely unmoved, because he is the evidence. Not the miracle; the aftermath.",
+  "ST6": "ST6 now carries John 9:5 and its retelling. Frame the moment before the healing: Jesus crouched low in the dust, hands working, the blind man's face turned toward a voice he cannot see. Tender and certain at once - the light doing something with its hands."
+ }
+}

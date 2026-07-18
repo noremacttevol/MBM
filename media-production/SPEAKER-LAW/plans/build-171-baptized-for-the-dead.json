@@ -1,0 +1,133 @@
+{
+ "build": "build-171-baptized-for-the-dead",
+ "reference": "1 Corinthians 15",
+ "notes": "s1 moves JESUS-RED -> SCRIPTURE (light blue). One line out of red. 1\nCorinthians 15:29 is Paul asking the Corinthians a question in his own letter;\nJesus is not speaking and a red-letter KJV prints none of it red.\n\nNo mixed segments in this build — s1 is Paul from the first word to the last, so\nnothing was split.\n\nThis build was almost entirely narrator paraphrase carrying Paul's argument, so\ntwo of his verses are lifted back in, both SCRIPTURE:\n  s20  1 Cor 15:20  'But now is Christ risen from the dead, and become the\n       firstfruits of them that slept.'\n  s22  1 Cor 15:22  'For as in Adam all die, even so in Christ shall all be made\n       alive.'\nThese matter here more than in most builds. Verse 29 only makes sense because of\nverse 20 — Paul's question about baptism for the dead rests on the resurrection\nhe has just finished proving. Putting v20 back on screen lets the viewer see the\nargument stand up instead of being told it does. s20 is followed by n4a\n('Christ rose.') which retells it, and s22 by n5a.\n\nAll original ids kept (n0, s1, n1, n2, n3, n4a, n4b, n5a, n5b, card). New ids\nare s20 and s22 only. Beats reuse ST5 and ST6; no new artwork. n5a and n5b swap\nstills so the new beat sits cleanly — ST6 then ST7 — and both stills are still\nused exactly once.\n\nMILK: the doctrine is left entirely to Paul. The video never explains temple\nwork, never names an ordinance the viewer has not met, and never argues the\npractice. It quotes the question Paul asked and lets it sit. A viewer who later\nlearns what the question implies will find the video was right all along.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Paul asked a striking question: if the dead don't rise at all, why would anyone be baptized on their behalf?"
+  },
+  {
+   "id": "s1",
+   "speaker": "scripture",
+   "verse": "1 Corinthians 15:29",
+   "text": "Else what shall they do which are baptized for the dead, if the dead rise not at all? why are they then baptized for the dead?"
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "The only reason to do such a thing is the quiet hope that the dead are not gone forever."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Baptism stands for new life — a beginning, not an end."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "So the work done for those who've passed is built on one promise: that death is not the last word."
+  },
+  {
+   "id": "s20",
+   "speaker": "scripture",
+   "verse": "1 Corinthians 15:20",
+   "text": "But now is Christ risen from the dead, and become the firstfruits of them that slept."
+  },
+  {
+   "id": "n4a",
+   "speaker": "narrator",
+   "text": "Christ rose."
+  },
+  {
+   "id": "n4b",
+   "speaker": "narrator",
+   "text": "And because He rose, the grave loses its grip — for Him first, and then for all who belong to Him."
+  },
+  {
+   "id": "s22",
+   "speaker": "scripture",
+   "verse": "1 Corinthians 15:22",
+   "text": "For as in Adam all die, even so in Christ shall all be made alive."
+  },
+  {
+   "id": "n5a",
+   "speaker": "narrator",
+   "text": "The ordinance done in love reaches across the veil."
+  },
+  {
+   "id": "n5b",
+   "speaker": "narrator",
+   "text": "Offering every soul the chance to choose."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Death separates for a while, not forever. Because He lives, there is hope for every name on the other side of the veil."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "s1",
+   "ST1",
+   "out"
+  ],
+  [
+   "n1",
+   "ST3",
+   "in"
+  ],
+  [
+   "n2",
+   "ST2",
+   "in"
+  ],
+  [
+   "n3",
+   "ST4",
+   "in"
+  ],
+  [
+   "s20",
+   "ST5",
+   "in"
+  ],
+  [
+   "n4a",
+   "ST5",
+   "out"
+  ],
+  [
+   "n4b",
+   "ST8",
+   "in"
+  ],
+  [
+   "s22",
+   "ST6",
+   "in"
+  ],
+  [
+   "n5a",
+   "ST6",
+   "out"
+  ],
+  [
+   "n5b",
+   "ST7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST1": "ST1 opens the video and now carries both n0 and the whole of 1 Cor 15:29 — the longest single verse in the build. Frame Paul in the act of asking, not of writing: pen lifted off the page, looking up and away, the question already out of him. The room quiet and a little dim, so the light later in the build has somewhere to go.",
+  "ST5": "ST5 now carries 1 Cor 15:20 and the short, hard beat 'Christ rose.' The verse's word is firstfruits, so the picture should be the first thing up rather than a resurrection tableau — the stone already moved, the tomb already empty, early light coming in at a low angle. Aftermath, not event.",
+  "ST6": "ST6 now carries 1 Cor 15:22 and n5a. The verse is the whole human family in two clauses, so widen it: a long line of ordinary people receding into soft light, no one distinguished, no one left at the back. Made alive should read as everyone, not as a chosen few."
+ }
+}

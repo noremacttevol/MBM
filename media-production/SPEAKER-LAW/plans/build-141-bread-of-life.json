@@ -1,0 +1,113 @@
+{
+ "build": "build-141-bread-of-life",
+ "reference": "John 6",
+ "notes": "ALL THREE RED BEATS STAYED RED. John 6 is Jesus teaching in the flesh in the\nsynagogue at Capernaum, and a red-letter KJV prints every one of these red. None\nhad the evangelist's framing welded onto it, so none needed splitting.\n  j1  John 6:35  'I am the bread of life...'\n  j2  John 6:48  'I am that bread of life.'\n  j3  John 6:51  'I am the living bread which came down from heaven...'\n\nLIFTED: n2 paraphrased 'the bread their ancestors ate in the wilderness didn't\nkeep them alive forever.' That is not the narrator's observation - it is Jesus's\nown sentence, John 6:49, and it sits between two of the verses already in the\nvideo. Added verbatim, JESUS red:\n  j49  John 6:49  'Your fathers did eat manna in the wilderness, and are dead.'\nn2 was rewritten to retell j2 (the verse it now follows) and n2b is NEW, retelling\nthe manna line. j49 and n2b sit on ST5, 'bread that lasts', which is exactly the\ncontrast the verse draws.\n\nRETELLING ORDER: every red block is now followed by the narrator saying it again -\nj1 -> n1, j2 -> n2, j49 -> n2b, j3 -> n3. No two Old English blocks run back to\nback.\n\nWOMEN: John 6 records no woman speaking. Nothing added; nothing invented.\n\nWHY-LAW: they came back for another free lunch and he offered them himself. Milk\nframing - the hunger under the hunger is real, and he is the only thing that\nactually reaches it.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "A crowd had followed Jesus after He fed thousands with a few loaves. They wanted more bread. He gave them something deeper."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "John 6:35",
+   "text": "I am the bread of life: he that cometh to me shall never hunger; and he that believeth on me shall never thirst."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Not the kind you chew. The kind that satisfies the part of you food can't reach."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "John 6:48",
+   "text": "I am that bread of life."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "He said it again, plain and short. Not a man handing out bread — the bread itself. And then He reminded them what happened the last time heaven fed a hungry crowd."
+  },
+  {
+   "id": "j49",
+   "speaker": "jesus",
+   "verse": "John 6:49",
+   "text": "Your fathers did eat manna in the wilderness, and are dead."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "Your ancestors ate bread out of heaven every morning in the desert, He told them, and they still died. That bread got them through a day. This bread is not like that one."
+  },
+  {
+   "id": "j3",
+   "speaker": "jesus",
+   "verse": "John 6:51",
+   "text": "I am the living bread which came down from heaven: if any man eat of this bread, he shall live for ever: and the bread that I will give is my flesh, which I will give for the life of the world."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "He was speaking of Himself — given, like bread broken, so the world could have life."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Come hungry. He is the bread that actually fills you."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "j1",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1",
+   "ST3",
+   "in"
+  ],
+  [
+   "j2",
+   "ST4",
+   "in"
+  ],
+  [
+   "n2",
+   "ST4",
+   "out"
+  ],
+  [
+   "j49",
+   "ST5",
+   "in"
+  ],
+  [
+   "n2b",
+   "ST5",
+   "out"
+  ],
+  [
+   "j3",
+   "ST6",
+   "in"
+  ],
+  [
+   "n3",
+   "ST7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST4": "ST4 now carries 'I am that bread of life' and its retelling. Frame the declaration close and still: Jesus in the synagogue light, hands open and empty at his sides - no loaf in them, because he is not offering a thing, he is the offer. Faces in the near dark watching, some leaning in, some not.",
+  "ST5": "ST5 now carries the manna verse and its retelling. Frame the contrast in one image: the foreground a plain table with bread on it in warm present-day light, and behind or above it, pale and receding, the wilderness camp at dawn with manna on the ground and tents. What fed them then, and what is being offered now - same hunger, different bread."
+ }
+}

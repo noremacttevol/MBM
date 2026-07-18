@@ -1,0 +1,133 @@
+{
+ "build": "build-166-baptized-properly",
+ "reference": "Acts 19",
+ "notes": "Both red segments were misattributions. Acts 19 is Luke narrating and Paul\nspeaking; the risen Christ does not speak here at all. kv5 and kv6 both move\nJESUS-RED -> SCRIPTURE (light blue). Two lines out of red.\n\nkv6 was checked specifically for the mixed-segment case and it is NOT mixed:\n'And when Paul had laid his hands upon them, the Holy Ghost came on them; and\nthey spake with tongues, and prophesied' is Luke narrating from the first word\nto the last. A red-letter KJV prints none of it red. It stays one segment,\nSCRIPTURE throughout. Nothing in this build was split.\n\nTwo verses lifted out of narrator paraphrase so the exchange is heard rather\nthan described:\n  s2  Acts 19:2  Paul's question and the disciples' answer\n  s4  Acts 19:4  Paul explaining what John's baptism was for\nActs 19:2 contains two speakers (Paul, then the Ephesian disciples) plus Luke's\n'He said unto them' / 'And they said unto him'. All three are SCRIPTURE, so the\nsingle light-blue colour is correct for the whole verse and no split is needed.\nEach lift is followed by the existing narrator beat that already retells it\n(n2 retells s2, n3 retells s4).\n\nAll original ids kept. New ids are s2 and s4 only. New beats reuse S2 and S3;\nno new artwork.\n\nMILK: the point — baptism by proper authority, then the gift by the laying on of\nhands — is carried by verses 5 and 6 standing side by side. The narration never\nargues that their first baptism was invalid; it only says Paul set it right, and\nlets Luke's own sentence do the rest.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Paul came through the inland country and arrived at Ephesus, where he found a small group of disciples. They were sincere. They already believed. By every outward sign they looked like people who were fully in."
+  },
+  {
+   "id": "s2",
+   "speaker": "scripture",
+   "verse": "Acts 19:2",
+   "text": "He said unto them, Have ye received the Holy Ghost since ye believed? And they said unto him, We have not so much as heard whether there be any Holy Ghost."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "But Paul asked them a searching question: had they received the Holy Ghost since they believed? And their answer was startling. They had not so much as heard that there was a Holy Ghost to receive."
+  },
+  {
+   "id": "s4",
+   "speaker": "scripture",
+   "verse": "Acts 19:4",
+   "text": "Then said Paul, John verily baptized with the baptism of repentance, saying unto the people, that they should believe on him which should come after him, that is, on Christ Jesus."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "So Paul asked what baptism they had been given. They had known only the baptism of John — a real and honest baptism of repentance, but a preparation, meant to point people forward to the one who was still to come."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Here is the tender thing: these were good, believing people, and yet something was genuinely missing. Their baptism had prepared them, but it had not been the full ordinance done under the authority now given. So Paul set it right."
+  },
+  {
+   "id": "kv5",
+   "speaker": "scripture",
+   "verse": "Acts 19:5",
+   "text": "When they heard this, they were baptized in the name of the Lord Jesus."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "And baptism was not the final step. There was one thing more, the same step we have seen before: the laying on of hands by one who held the authority to give the gift."
+  },
+  {
+   "id": "kv6",
+   "speaker": "scripture",
+   "verse": "Acts 19:6",
+   "text": "And when Paul had laid his hands upon them, the Holy Ghost came on them; and they spake with tongues, and prophesied."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "Here is the quiet study gem. Their sincerity was never in doubt, and it was never enough on its own. The ordinance still had to be done right, by one who was sent. Sincerity did not replace authority — it was completed by it."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "And the same careful pattern is offered to you: not a vague good feeling, but a real baptism by proper authority, and then the gift of the Spirit by the laying on of hands. When that pattern is offered to you, will you follow it in?"
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Sincere disciples at Ephesus were baptized again, properly, and received the Holy Ghost when Paul laid his hands on them. Sincerity did not replace authority. When that pattern is offered to you, will you follow it in?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "s2",
+   "S2",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "out"
+  ],
+  [
+   "s4",
+   "S3",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "out"
+  ],
+  [
+   "n4",
+   "S4",
+   "in"
+  ],
+  [
+   "kv5",
+   "S5",
+   "in"
+  ],
+  [
+   "n5",
+   "S6",
+   "in"
+  ],
+  [
+   "kv6",
+   "S7",
+   "in"
+  ],
+  [
+   "n6",
+   "S7",
+   "out"
+  ],
+  [
+   "n7",
+   "S8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S2": "S2 now carries Acts 19:2 and the whole of n2. Frame the question, not the setting: Paul mid-sentence, leaning in, and the disciples' faces caught in the exact moment of not knowing — open, willing, blank. No shame in it. They have never heard of the thing he is asking about.",
+  "S3": "S3 now carries Acts 19:4 and n3. It should show John's baptism as a good thing that pointed forward — water, repentance, an arm raised toward something beyond the frame. Honest and unfinished, a preparation rather than a mistake."
+ }
+}

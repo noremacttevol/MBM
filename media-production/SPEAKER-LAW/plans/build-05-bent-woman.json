@@ -1,0 +1,214 @@
+{
+ "build": "build-05-bent-woman",
+ "reference": "Luke 13",
+ "notes": "STAYED RED: both existing red beats are Jesus speaking in the flesh and a\nred-letter KJV prints both.\n  j1  Luke 13:12     'Woman, thou art loosed from thine infirmity.'\n  j2  Luke 13:15-16  'Thou hypocrite, doth not each one of you on the sabbath\n                      loose his ox or his ass from the stall...'\nNeither carries Luke's narration inside it, so neither needed splitting.\n\nTHE WOMAN - checked, and she does not speak. Luke 13:11-13 says she was bowed\ntogether, could in no wise lift up herself, and that she glorified God, but the\nKJV records no words from her anywhere in the passage. So there is NO pink line\nin this build and none was invented. n6 keeps her praise as narration, which is\nthe honest way to carry it. This is the one place in my six where a woman is at\nthe centre of the story and scripture still gives her nothing to say - worth\nknowing, and worth not papering over.\n\nLIFTED FROM PARAPHRASE - two voices, both SCRIPTURE (blue):\n  s14  Luke 13:14  the ruler of the synagogue: 'There are six days in which men\n                   ought to work: in them therefore come and be healed, and not on\n                   the sabbath day.' - he is the man Jesus answers, and the answer\n                   lands harder once the viewer has actually heard him.\n  s17  Luke 13:17  Luke's own closing line: 'And when he had said these things,\n                   all his adversaries were ashamed: and all the people rejoiced\n                   for all the glorious things that were done by him.'\n\nEDITS TO EXISTING NARRATOR TEXT: n7 now ends on 'And he said this to the people'\nand hands to s14, with the rest becoming n7b. n11 now opens on 'Luke tells us how\nthe day ended', hands to s17, and the rest becomes n11b unchanged. Nothing else\nwas touched.\n\nNOT LIFTED: n10's teaching on 'a daughter of Abraham' turns on phrases already\nspoken verbatim inside j2, so it stays narrator retelling - correct, and it is the\nbest writing in the build.\n\nWHY-LAW: she did not ask, did not push through, did not call out. He called her\nfirst. Milk framing - her worth came before her healing, and he said so in front\nof everyone who had stepped around her for eighteen years.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "There was a woman who had been bent over for eighteen years. She could not straighten up at all. Eighteen years of looking at the ground. Eighteen years of knowing people by their sandals instead of their faces. And in all that time, no one had been able to help her."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "One sabbath day, Jesus was teaching in a synagogue, and she was there — at the back, by the wall, folded over her walking stick. She had not come to ask him for anything. She was simply there, the way she had been there for years. Present, and unseen."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "And in the middle of his teaching, Jesus stopped. He looked past every face in the room, all the way to the back wall. He saw her. And he called her over."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Notice what did not happen. She did not push through a crowd. She did not call out to him. She did not ask. He called her first. Before she said one word, he had already decided."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "She made her slow way up the middle of that room, her stick tapping the stone floor, every eye on her. And when she finally stood in front of him — still bent, still staring at the ground — he said this."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Luke 13:12",
+   "text": "Woman, thou art loosed from thine infirmity."
+  },
+  {
+   "id": "n5a",
+   "speaker": "narrator",
+   "text": "Loosed. In their language it was an everyday word. It meant untied — the same word a farmer used when he untied his animal from its stall. Something that had been knotted for eighteen years was coming undone."
+  },
+  {
+   "id": "n5b",
+   "speaker": "narrator",
+   "text": "He laid his hands on her. And slowly — for the first time in eighteen years — she stood up straight."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "The first thing she did with a straight back was praise God. Out loud, right there in the middle of the meeting. Eighteen years of silence turned into worship that nobody could stop."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "But not everyone rejoiced. The ruler of the synagogue — the man in charge of that meeting — was angry. In his mind, healing counted as work, and the sabbath was the day of rest. And he said this to the people."
+  },
+  {
+   "id": "s14",
+   "speaker": "scripture",
+   "verse": "Luke 13:14",
+   "text": "There are six days in which men ought to work: in them therefore come and be healed, and not on the sabbath day."
+  },
+  {
+   "id": "n7b",
+   "speaker": "narrator",
+   "text": "There are six working days, he told them. Come and be healed on one of those. As if her freedom could have waited one more day. As if it had not already waited eighteen years."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "Jesus turned to him. And he did not soften it."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Luke 13:15-16",
+   "text": "Thou hypocrite, doth not each one of you on the sabbath loose his ox or his ass from the stall, and lead him away to watering? And ought not this woman, being a daughter of Abraham, whom Satan hath bound, lo, these eighteen years, be loosed from this bond on the sabbath day?"
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "Every man in that room did exactly that on the sabbath. He untied his ox or his donkey and led it to water, and the rules allowed it — simple kindness to an animal was never against the day of rest. So Jesus asked the only question left. If you will untie an animal on the sabbath, how could it be wrong to untie a daughter?"
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "And listen to what he called her. A daughter of Abraham. In that room, those words were a declaration — family of the covenant, a child of the promise. For eighteen years she had been the bent woman, the one people stepped around. Now, in front of everyone, he gave her back her name. And notice the order. He did not say she became a daughter by being healed. She was healed because of who she already was. Her worth came first. She belonged — she had always belonged."
+  },
+  {
+   "id": "n11",
+   "speaker": "narrator",
+   "text": "Luke tells us how the day ended."
+  },
+  {
+   "id": "s17",
+   "speaker": "scripture",
+   "verse": "Luke 13:17",
+   "text": "And when he had said these things, all his adversaries were ashamed: and all the people rejoiced for all the glorious things that were done by him."
+  },
+  {
+   "id": "n11b",
+   "speaker": "narrator",
+   "text": "The ones who had stood against Jesus were ashamed, and the whole crowd rejoiced at the glorious things he was doing. And somewhere in that crowd stood a woman seeing faces instead of sandals — standing as straight as the truth he had just told about her."
+  },
+  {
+   "id": "n12",
+   "speaker": "narrator",
+   "text": "Is there something you have been carrying so long that you have stopped expecting it to change? He saw her at the back of the room. And he called her first."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "n1",
+   "S2",
+   "in"
+  ],
+  [
+   "n2",
+   "S3",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "out"
+  ],
+  [
+   "n4",
+   "S4",
+   "in"
+  ],
+  [
+   "j1",
+   "S5",
+   "in"
+  ],
+  [
+   "n5a",
+   "S5",
+   "out"
+  ],
+  [
+   "n5b",
+   "S6",
+   "in"
+  ],
+  [
+   "n6",
+   "S7",
+   "in"
+  ],
+  [
+   "n7",
+   "S8",
+   "in"
+  ],
+  [
+   "s14",
+   "S8",
+   "out"
+  ],
+  [
+   "n7b",
+   "S8",
+   "in"
+  ],
+  [
+   "n8",
+   "S9",
+   "in"
+  ],
+  [
+   "j2",
+   "S9",
+   "out"
+  ],
+  [
+   "n9",
+   "S9",
+   "in"
+  ],
+  [
+   "n10",
+   "S10",
+   "in"
+  ],
+  [
+   "n11",
+   "S11",
+   "in"
+  ],
+  [
+   "s17",
+   "S11",
+   "out"
+  ],
+  [
+   "n11b",
+   "S11",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S8": "S8 now carries three beats — the ruler's anger, his verbatim rebuke, and its retelling. Frame him mid-sentence, addressing the room rather than Jesus: a robed synagogue official standing, one arm out toward the congregation, face tight with correctness. The woman is behind him, upright, out of focus — he has his back to the miracle.",
+  "S9": "S9 now carries three beats — Jesus turning on him, the full verbatim answer, and the ox-and-donkey retelling. It has to hold a long stretch, so give it depth: Jesus square to the ruler in the middle of the synagogue floor, the congregation ranged behind on both sides, faces beginning to turn toward the ruler. Steady, not shouting. Sabbath light through high windows.",
+  "S11": "S11 now carries three beats — Luke's verbatim closing line and its retelling. Frame the room after: the crowd on its feet and glad, the adversaries at the edge with their eyes down, and among the standing people one older woman looking straight ahead at faces instead of at the floor."
+ }
+}

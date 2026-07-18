@@ -1,0 +1,100 @@
+{
+ "build": "build-186-joint-heirs",
+ "reference": "Romans 8",
+ "notes": "s1 and s2 both move JESUS-RED -> SCRIPTURE (light blue). Two lines out of red.\nRomans 8:16-17 is Paul writing to the saints at Rome. This is the exact case\nCameron named — red being used for Paul — and a red-letter KJV prints none of\nRomans in red.\n\nNo mixed segments; both verses are Paul throughout and neither was split.\n\nOne new narrator beat, n0b, added between s1 and s2. Under the retelling rule\nevery Old English line gets said again in plain modern English, and as the build\nstood the two verses ran back to back with the retelling of both arriving only\nafter the second. Splitting the retelling means the viewer understands verse 16\nbefore verse 17 asks them to take the next step. n1 still retells s2, unchanged.\n\nAll original ids kept (n0, s1, s2, n1, n2, n3a, n3b, card). New id is n0b only.\nIt reuses ST2 as a second beat on the same still, so the picture the viewer sees\nis unchanged and no artwork is needed.\n\nMILK: joint-heirs is a large doctrine and the build does not reach for it. It\nlets Paul say heirs of God, and joint-heirs with Christ in his own words, then\nsays the plain thing — you are family, not a visitor. Nothing about exaltation\nis explained or argued. The verse carries it.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Paul wrote to the believers in Rome about who they really were — not strangers, not outsiders."
+  },
+  {
+   "id": "s1",
+   "speaker": "scripture",
+   "verse": "Romans 8:16",
+   "text": "The Spirit itself beareth witness with our spirit, that we are the children of God:"
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "God's own Spirit tells your spirit the truth about you. Not a rumour, not a hope — a witness, given straight to you: you are a child of God."
+  },
+  {
+   "id": "s2",
+   "speaker": "scripture",
+   "verse": "Romans 8:17",
+   "text": "And if children, then heirs; heirs of God, and joint-heirs with Christ; if so be that we suffer with him, that we may be also glorified together."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Children first — and because children, inheritors. What the Father has belongs to the family, and the family includes you."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "The terms were honest: share in his suffering, and you will share in his glory too."
+  },
+  {
+   "id": "n3a",
+   "speaker": "narrator",
+   "text": "Not earned by effort. Received by belonging."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "Heirs together with the Son."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "You're not a visitor at the table — you're family. Heir with the Son. Come home."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "s1",
+   "ST2",
+   "in"
+  ],
+  [
+   "n0b",
+   "ST2",
+   "out"
+  ],
+  [
+   "s2",
+   "ST3",
+   "in"
+  ],
+  [
+   "n1",
+   "ST5",
+   "in"
+  ],
+  [
+   "n2",
+   "ST4",
+   "in"
+  ],
+  [
+   "n3a",
+   "ST6",
+   "in"
+  ],
+  [
+   "n3b",
+   "ST7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST2": "ST2 now carries Romans 8:16 and the new n0b beat back to back. The verse is a private witness, not a crowd scene — one person alone, quiet, receiving something they did not work for. Interior, still, warm. It should feel like being told rather than being shown."
+ }
+}

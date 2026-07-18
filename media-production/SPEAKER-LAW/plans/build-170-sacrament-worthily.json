@@ -1,0 +1,133 @@
+{
+ "build": "build-170-sacrament-worthily",
+ "reference": "1 Corinthians 11",
+ "notes": "kv24 and kv25 both move JESUS-RED -> SCRIPTURE (light blue). Two lines out of\nred.\n\nThis is the hardest call in my set and worth stating plainly. 1 Corinthians\n11:24-25 is Paul quoting what the Lord said at the last supper, and some\nred-letter editions do ink the quoted clauses red. But the governing rule for\nthis pass is that the epistles are the writer speaking — this is Paul's letter,\nrecounting what he received, not Jesus speaking in the flesh in the narrative.\nSPEAKER-LAW's epistle rule and validate_plan.py both make `jesus` invalid in 1\nCorinthians, and Cameron's complaint was exactly this class of case. So: light\nblue, whole verse. Flagging it as the one judgement call in my set worth a look.\n\nBecause both halves of each verse land on the same speaker, neither verse was\nsplit. Splitting 'And when he had given thanks, he brake it, and said,' from\n'Take, eat: this is my body' would produce two segments of the identical colour\nand gain nothing while risking the music beds. Left whole.\n\nTwo verses lifted out of narrator paraphrase, both Paul, both SCRIPTURE:\n  s26  1 Cor 11:26  'For as often as ye eat this bread...'\n  s28  1 Cor 11:28  'But let a man examine himself...'\nEach sits immediately before the existing narrator beat that retells it — s26\nbefore n4 (the looking-back-and-forward beat), s28 before n5 (Paul's gentle ask).\ns28 is the verse the whole build is named for, and it belongs on screen in\nPaul's own words rather than in summary.\n\nAll original ids kept. New ids are s26 and s28 only. New beats reuse S5 and S6;\nno new artwork.\n\nMILK: verse 28 is quoted and then softened, never sharpened. The narration says\nplainly that the examination is not to keep anyone away. Nothing about\nworthiness is argued — the invitation stays open and the verse stands on its\nown.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Paul was handing on something sacred that he had received himself: on the very night he was betrayed, at supper with his friends, the Master took a simple loaf of bread into his hands and gave thanks over it."
+  },
+  {
+   "id": "kv24",
+   "speaker": "scripture",
+   "verse": "1 Corinthians 11:24",
+   "text": "And when he had given thanks, he brake it, and said, Take, eat: this is my body, which is broken for you: this do in remembrance of me."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Then he lifted the cup. This one, he said, was the sign of a new covenant — a solemn promise sealed between God and his people, and offered freely to them."
+  },
+  {
+   "id": "kv25",
+   "speaker": "scripture",
+   "verse": "1 Corinthians 11:25",
+   "text": "After the same manner also he took the cup, when he had supped, saying, This cup is the new testament in my blood: this do ye, as oft as ye drink it, in remembrance of me."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Ever since, his people have taken that same bread and that same cup together, quietly, reverently — a small, holy act of remembering the One who gave everything for them."
+  },
+  {
+   "id": "s26",
+   "speaker": "scripture",
+   "verse": "1 Corinthians 11:26",
+   "text": "For as often as ye eat this bread, and drink this cup, ye do shew the Lord's death till he come."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "And it looks in two directions at once. Every time we take it, we are remembering a sacrifice already made, and we are looking forward, in hope, to the day he returns."
+  },
+  {
+   "id": "s28",
+   "speaker": "scripture",
+   "verse": "1 Corinthians 11:28",
+   "text": "But let a man examine himself, and so let him eat of that bread, and drink of that cup."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Paul asked for just one thing beforehand, and he asked it gently: that each person pause and look honestly into his own heart, and come sincerely. Not to keep anyone away, but so the moment stays real and tender."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "Here is the quiet study gem. This is why it is done again and again, and never just once. It is a covenant renewed — week after week, a fresh chance to be made clean, to set down the past and begin again."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "And a place at that table is kept for you. Not for the perfect, but for the sincere — for anyone willing to come and remember. When the bread and the cup are offered to you, will you come to the table?"
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The bread and the cup are taken in remembrance — a covenant renewed again and again, a fresh chance to be made clean. Not for the perfect, but for the sincere. When they are offered to you, will you come to the table?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "kv24",
+   "S2",
+   "in"
+  ],
+  [
+   "n2",
+   "S3",
+   "in"
+  ],
+  [
+   "kv25",
+   "S3",
+   "out"
+  ],
+  [
+   "n3",
+   "S4",
+   "in"
+  ],
+  [
+   "s26",
+   "S5",
+   "in"
+  ],
+  [
+   "n4",
+   "S5",
+   "out"
+  ],
+  [
+   "s28",
+   "S6",
+   "in"
+  ],
+  [
+   "n5",
+   "S6",
+   "out"
+  ],
+  [
+   "n6",
+   "S7",
+   "in"
+  ],
+  [
+   "n7",
+   "S8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S5": "S5 now carries 1 Cor 11:26 and n4. The verse looks both directions at once, so the picture should too: the emblems in the foreground, and behind them an open eastern sky at first light — the memorial and the return in one frame. Not a second coming scene, just a horizon that has not happened yet.",
+  "S6": "S6 now carries 1 Cor 11:28 and n5. This is the tenderest moment in the build and it must not look like judgment. One person seated, eyes closed, hands still, the tray waiting nearby and clearly still coming to them. Warm light. Examination as honesty, not as a gate."
+ }
+}

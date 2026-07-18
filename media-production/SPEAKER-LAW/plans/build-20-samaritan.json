@@ -1,0 +1,245 @@
+{
+ "build": "build-20-samaritan",
+ "reference": "Luke 10",
+ "notes": "STAYED RED: both existing red beats are Jesus in the flesh and a red-letter KJV\nprints both.\n  j1  Luke 10:36  'Which now of these three, thinkest thou, was neighbour unto\n      him that fell among the thieves?'\n  j2  Luke 10:37  'Go, and do thou likewise.'\n\nADDED RED, INSIDE THE PARABLE. A red-letter KJV prints the whole parable red,\nincluding the words Jesus puts in a character's mouth, so the Samaritan's own\nline is JESUS, not `scripture`:\n  j35  Luke 10:35  'Take care of him; and whatsoever thou spendest more, when I\n       come again, I will repay thee.'\nn11 already ends on the frame ('and said, take care of him'), and n12 already\nopens with the retelling, so this slotted in between them on the SAME still S6\nwith no rewriting at all. This is the rule the brief calls out: the priest, the\nLevite and the Samaritan do not go blue.\n\nADDED BLUE, OUTSIDE THE PARABLE. The lawyer is a real man asking a real question\nin Luke's narrative frame -- he is not a character in the parable -- so he is\nSCRIPTURE, light blue. Both his questions were narrator paraphrase:\n  s25  Luke 10:25  'Master, what shall I do to inherit eternal life?'\n  s29  Luke 10:29  'And who is my neighbour?'\n  s37  Luke 10:37  'He that shewed mercy on him.'\nn1 is trimmed to the frame only. n1b is a new retelling that also carries the two\nsentences trimmed out of n1 ('It sounds humble. It was not.') so nothing the\nstoryteller used to say is lost. n2 keeps its original text and now retells s29.\ns37 is a deliberate question-and-answer pair with j1 -- the blue answer directly\nunder the red question is the entire point of the scene, and n14 retells it.\n\nLEFT AS PARAPHRASE ON PURPOSE: the lawyer's own recital of the law in Luke 10:27\n('Thou shalt love the Lord thy God with all thy heart...') is summarised inside\nn1b rather than lifted. Lifting it would put a third blue block in the opening\nbefore the story has started, and the video's subject is the second question, not\nthe first.\n\nWOMEN: Luke 10:25-37 records no woman speaking. Nothing added; nothing invented.\n\nWHY-LAW: he asked for a line so he would know who he was allowed to walk past,\nand Jesus flipped the question -- not who counts as my neighbour, but which of\nthem acted like one.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "A scholar of the law stood up to test Jesus, and asked him a question."
+  },
+  {
+   "id": "s25",
+   "speaker": "scripture",
+   "verse": "Luke 10:25",
+   "text": "Master, what shall I do to inherit eternal life?"
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "Teacher, what must I do to inherit eternal life? Jesus turned it straight back on him — what does the law say? And the man answered it well: love God with everything you are, and love your neighbor as yourself. Then he asked one more question. It sounds humble. It was not."
+  },
+  {
+   "id": "s29",
+   "speaker": "scripture",
+   "verse": "Luke 10:29",
+   "text": "And who is my neighbour?"
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "It was the kind of question you ask when you are hoping the answer has limits. He wanted a line drawn, so he could know exactly who he was allowed to ignore."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Jesus answered with a story. A man was traveling the steep, lonely road down to Jericho, a road so full of robbers that people called it the Way of Blood."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Robbers were exactly what he found. They stripped him, beat him, and left him half dead in the dust beside the road."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "A priest came down that same road, saw the man, and crossed to the far side. Then a temple assistant came, looked, and also crossed over."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "These were the religious professionals, the men who knew the law best. Maybe they feared a bloody body would make them unclean for the temple. Either way, they kept their distance."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "Then a Samaritan came down the road. And the crowd listening to Jesus was raised to despise Samaritans. Different blood, wrong worship, an old hatred hundreds of years deep."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "A Samaritan was the last man in the world they expected to be the hero of the story."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "He saw the beaten stranger. And the text says he was moved with compassion."
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "He knelt down in the dirt beside a man his people were supposed to hate. He cleaned and bound the wounds, lifted him onto his own animal, and walked beside him on foot."
+  },
+  {
+   "id": "n11",
+   "speaker": "narrator",
+   "text": "He brought him to an inn and cared for him through the night. In the morning he pressed two silver coins into the innkeeper's hand, about two days wages, and said, take care of him."
+  },
+  {
+   "id": "j35",
+   "speaker": "jesus",
+   "verse": "Luke 10:35",
+   "text": "Take care of him; and whatsoever thou spendest more, when I come again, I will repay thee."
+  },
+  {
+   "id": "n12",
+   "speaker": "narrator",
+   "text": "And whatever more it costs, when I come back, I will repay you myself. He did not just help and move on. He tied his own name to a stranger's recovery."
+  },
+  {
+   "id": "n13",
+   "speaker": "narrator",
+   "text": "Then Jesus turned the scholar's own question back on him, and asked which of the three men had been the neighbor."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Luke 10:36",
+   "text": "Which now of these three, thinkest thou, was neighbour unto him that fell among the thieves?"
+  },
+  {
+   "id": "s37",
+   "speaker": "scripture",
+   "verse": "Luke 10:37",
+   "text": "He that shewed mercy on him."
+  },
+  {
+   "id": "n14",
+   "speaker": "narrator",
+   "text": "The scholar could not even say the word Samaritan. He answered, the one who showed mercy. Jesus had flipped the whole question. Not who counts as my neighbor, but which of them acted like one."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Luke 10:37",
+   "text": "Go, and do thou likewise."
+  },
+  {
+   "id": "n15",
+   "speaker": "narrator",
+   "text": "Stop asking who you are allowed to walk past. Go, and be the neighbor. That is how good he is. He will not even let you keep score."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Everyone finds themselves somewhere on that road. Where are you on it right now?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "s25",
+   "S1",
+   "out"
+  ],
+  [
+   "n1b",
+   "S1",
+   "in"
+  ],
+  [
+   "s29",
+   "S1",
+   "out"
+  ],
+  [
+   "n2",
+   "S1",
+   "in"
+  ],
+  [
+   "n3",
+   "S2",
+   "in"
+  ],
+  [
+   "n4",
+   "S2",
+   "out"
+  ],
+  [
+   "n5",
+   "S3",
+   "in"
+  ],
+  [
+   "n6",
+   "S3",
+   "out"
+  ],
+  [
+   "n7",
+   "S4",
+   "in"
+  ],
+  [
+   "n8",
+   "S4",
+   "out"
+  ],
+  [
+   "n9",
+   "S4",
+   "in"
+  ],
+  [
+   "n10",
+   "S5",
+   "in"
+  ],
+  [
+   "n11",
+   "S6",
+   "in"
+  ],
+  [
+   "j35",
+   "S6",
+   "out"
+  ],
+  [
+   "n12",
+   "S6",
+   "in"
+  ],
+  [
+   "n13",
+   "S7",
+   "in"
+  ],
+  [
+   "j1",
+   "S7",
+   "out"
+  ],
+  [
+   "s37",
+   "S7",
+   "in"
+  ],
+  [
+   "n14",
+   "S7",
+   "out"
+  ],
+  [
+   "j2",
+   "S8",
+   "out"
+  ],
+  [
+   "n15",
+   "S8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S1": "S1 now carries five beats — both of the lawyer's verbatim questions and both retellings. Frame the second question, the one the video is about: the scholar on his feet in a courtyard, robed, well-spoken, one hand open in a reasonable gesture, asking for a boundary. Jesus seated, listening, not yet answering. Onlookers watching to see how the teacher gets out of it.",
+  "S6": "S6 now carries the Samaritan's verbatim promise and its retelling. Frame the money changing hands at the inn door at first light: the Samaritan pressing two coins into the innkeeper's palm and holding the grip a moment too long, already promising more. The beaten man out of focus on a mat behind them. The Samaritan is dressed for the road — he is leaving, and paying anyway."
+ }
+}

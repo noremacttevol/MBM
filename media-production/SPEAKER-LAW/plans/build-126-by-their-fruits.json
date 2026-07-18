@@ -1,0 +1,124 @@
+{
+ "build": "build-126-by-their-fruits",
+ "reference": "Matthew 7",
+ "notes": "STAYED RED, ALL OF IT. This is the Sermon on the Mount - Jesus preaching in the\nflesh - and a red-letter KJV inks every one of these verses. Nothing moved to\nanother speaker. There is no evangelist framing welded onto any of these\nsegments (no 'and Jesus said unto them'), so nothing needed splitting for colour.\n\nTHE PROBLEM THAT WAS REAL: j1a and j1b were two red beats back to back with no\nstoryteller between them, and j1b was the second half of j1a's sentence, so it\ncould not simply be separated. j1b is now the NARRATOR'S retelling of Matthew\n7:15, and j1a carries the whole verse verbatim. Same id, same still (ST3, the\nsheep's-clothing image), and the retelling fits that picture better than half a\nsentence did.\n\nLIFTED: Matthew 7:18 was buried inside n2's modern paraphrase - 'the good and the\nrotten cannot switch places' IS verse 18. It is now jv18, red, in Jesus's own\nwords, sitting on ST5 (the corrupt tree) where the picture already argues it.\nn2 was rewritten to retell 7:16-17 (which it now follows) and n2b carries n2's\noriginal 'cannot switch places' point as the retelling of 7:18.\n\nADDED: n3, a closing narrator retelling of 7:19-20 so j3 does not run straight\ninto the card unexplained.\n\nWOMEN: Matthew 7:15-20 records no woman speaking. Nothing added, nothing invented.\n\nWHY-LAW: the test he gave is not a test of doctrine or of eloquence, it is a test\nof fruit - and it is one an ordinary person can actually run. Milk framing: look\nat what grows.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Jesus taught how to tell what is true — look at what grows from it."
+  },
+  {
+   "id": "j1a",
+   "speaker": "jesus",
+   "verse": "Matthew 7:15",
+   "text": "Beware of false prophets, which come to you in sheep's clothing, but inwardly they are ravening wolves."
+  },
+  {
+   "id": "j1b",
+   "speaker": "narrator",
+   "text": "Watch out, he said. Some of them will come to you looking like part of the flock — gentle, harmless, one of your own. Inside, they are wolves."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "A tree shows what it is by what it bears. You don't guess at a tree by its bark."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Matthew 7:16-17",
+   "text": "Ye shall know them by their fruits. Do men gather grapes of thorns, or figs of thistles? Even so every good tree bringeth forth good fruit; but a corrupt tree bringeth forth evil fruit."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Nobody picks grapes off a thorn bush. Nobody gathers figs off a thistle. You already know how this works — a good tree gives good fruit, and a bad one gives bad fruit."
+  },
+  {
+   "id": "jv18",
+   "speaker": "jesus",
+   "verse": "Matthew 7:18",
+   "text": "A good tree cannot bring forth evil fruit, neither can a corrupt tree bring forth good fruit."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "Cannot. Not will not — cannot. The good and the rotten cannot switch places. What is inside comes out in the open, given long enough."
+  },
+  {
+   "id": "j3",
+   "speaker": "jesus",
+   "verse": "Matthew 7:19-20",
+   "text": "Every tree that bringeth not forth good fruit is hewn down, and cast into the fire. Wherefore by their fruits ye shall know them."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "A tree that never gives anything worth eating gets cut down. So watch the fruit. Not the clothes, not the confidence, not the words — the fruit. That is the whole test, and anybody can run it."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "What grows from a life with him is good fruit — love, kindness, truth. Abide in him, and let it show."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "j1a",
+   "ST2",
+   "in"
+  ],
+  [
+   "j1b",
+   "ST3",
+   "in"
+  ],
+  [
+   "n1",
+   "ST4",
+   "in"
+  ],
+  [
+   "j2",
+   "ST4",
+   "out"
+  ],
+  [
+   "n2",
+   "ST5",
+   "in"
+  ],
+  [
+   "jv18",
+   "ST5",
+   "out"
+  ],
+  [
+   "n2b",
+   "ST6",
+   "in"
+  ],
+  [
+   "j3",
+   "ST7",
+   "in"
+  ],
+  [
+   "n3",
+   "ST7",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST4": "ST4 now carries n1 plus the verbatim 7:16-17. Frame the good tree at the moment of the question 'do men gather grapes of thorns' — a healthy fruit tree heavy with fruit, and in the near foreground a thorn bush and a thistle, bare and useless. The contrast in one frame, no people needed.",
+  "ST5": "ST5 now carries two beats — the retelling and Jesus's verbatim 'cannot' verse. Frame the corrupt tree close: split bark, hollow trunk, a few shrivelled blackened fruits still hanging. Not dramatic, just plainly incapable of producing anything good.",
+  "ST7": "ST7 now closes the video — j3's verbatim warning plus the final retelling. Frame it on the fruit rather than the fire: a hand holding good fruit up in daylight, the orchard behind, with one felled trunk lying off to the side. The point lands as recognition, not as threat."
+ }
+}

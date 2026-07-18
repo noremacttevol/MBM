@@ -1,0 +1,234 @@
+{
+ "build": "build-19-shore",
+ "reference": "John 21",
+ "notes": "STAYED RED: both existing red beats are the risen Christ speaking on the shore\nand a red-letter KJV prints both.\n  j1  John 21:16  'Simon, son of Jonas, lovest thou me?'\n  j2  John 21:16  'Feed my sheep.'\nNeither had John's framing welded on, so neither needed splitting.\n\nADDED RED -- the dawn on the water was all paraphrase. n5 told the viewer that a\nfigure called out and told them where to cast, without ever letting him say it.\nBoth of his lines are red-letter, and both are now in his own voice, on the SAME\nstill S3:\n  j0a  John 21:5  'Children, have ye any meat?'\n  j0b  John 21:6  'Cast the net on the right side of the ship, and ye shall find.'\nn5 is trimmed to the frame only; n5b and n5c are the retellings, one for each.\n\nADDED BLUE -- PETER'S ANSWER. The whole video is one exchange and Peter's half of\nit was narrator paraphrase in white (n12, 'yes, Lord, you know that I love you').\nLifted verbatim as SCRIPTURE -- Peter is an apostle, not Deity, so light blue:\n  s16  John 21:16  'Yea, Lord; thou knowest that I love thee.'\nThis is a deliberate question-and-answer pair with j1 across two beats, with n11\nretelling the question in between so nothing lands unexplained. n12 keeps its\noriginal text and now works as the retelling of Peter's real words.\n\nLEFT AS PARAPHRASE ON PURPOSE: n6's 'it is the Lord.' John 21:7 reads 'Therefore\nthat disciple whom Jesus loved saith unto Peter, It is the Lord.' The quoted\nwords are only three, and lifting them would need its own frame and its own\nretelling for almost no gain. Left in the storyteller's voice.\n\nWOMEN: John 21 records no woman speaking. Nothing added; nothing invented.\n\nNO GREEN: no voice from heaven in John 21.\n\nWHY-LAW: three denials by a charcoal fire, three questions by another one. He did\nnot bring up the failure, he asked about the love -- and then trusted him again.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Peter had sworn he would die before he would ever deny Jesus."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Then, in one terrible night, he denied him three times. The rooster crowed, Jesus turned and looked at him, and Peter went out and wept bitterly."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "After the resurrection, Peter went back to fishing. Back to the old life."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "It is what people do with a failure they cannot carry. They go back to what they knew before it happened. And that night they caught nothing."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "At dawn, a figure on the shore called out across the water to the boat."
+  },
+  {
+   "id": "j0a",
+   "speaker": "jesus",
+   "verse": "John 21:5",
+   "text": "Children, have ye any meat?"
+  },
+  {
+   "id": "n5b",
+   "speaker": "narrator",
+   "text": "Have you caught anything, he called. And they had to say it out loud to a stranger — no. Nothing. All night, nothing."
+  },
+  {
+   "id": "j0b",
+   "speaker": "jesus",
+   "verse": "John 21:6",
+   "text": "Cast the net on the right side of the ship, and ye shall find."
+  },
+  {
+   "id": "n5c",
+   "speaker": "narrator",
+   "text": "Put the net over the right side, he told them, and you will find some. They did — and it came up so full they could not haul it in."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "Then one of them went very still and said, it is the Lord. And Peter did not wait for the boat. He threw himself into the sea and swam for shore, leaving everything behind."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "When he waded out of the water, he stopped cold. On the sand was a charcoal fire, with fish already laid over it, and bread."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "A charcoal fire. The same kind of fire Peter had stood beside in the courtyard the night he denied him. The smell alone would have brought the whole night back."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "Jesus did not bring up the denial. He simply had breakfast waiting, and they ate together on the shore in the first gold light."
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "When breakfast was over, Jesus turned to Peter. Three times, once it seems for each denial, he asked him the same question, using Peter's old name, the name he had before any of it:"
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "John 21:16",
+   "text": "Simon, son of Jonas, lovest thou me?"
+  },
+  {
+   "id": "n11",
+   "speaker": "narrator",
+   "text": "Simon, son of Jonas, do you love me. Not, how could you. Not, prove it. Not one word thrown back at him about the denial. Only: do you love me."
+  },
+  {
+   "id": "s16",
+   "speaker": "scripture",
+   "verse": "John 21:16",
+   "text": "Yea, Lord; thou knowest that I love thee."
+  },
+  {
+   "id": "n12",
+   "speaker": "narrator",
+   "text": "Three times Peter answered him, yes, Lord, you know that I love you. Each time it cost him more, and each time he meant it more."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "John 21:16",
+   "text": "Feed my sheep."
+  },
+  {
+   "id": "n13",
+   "speaker": "narrator",
+   "text": "Feed my sheep. To the man who had failed him worst, Jesus handed the biggest job of all. He did not only forgive Peter. He trusted him again."
+  },
+  {
+   "id": "n14",
+   "speaker": "narrator",
+   "text": "That is how good he is. He takes your worst night and hands you back your life, with a purpose bigger than the one you thought you had thrown away."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Peter went back to fishing because he thought his failure was final. Is there a failure you have quietly decided is final?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S1",
+   "out"
+  ],
+  [
+   "n3",
+   "S2",
+   "in"
+  ],
+  [
+   "n4",
+   "S2",
+   "out"
+  ],
+  [
+   "n5",
+   "S3",
+   "in"
+  ],
+  [
+   "j0a",
+   "S3",
+   "out"
+  ],
+  [
+   "n5b",
+   "S3",
+   "in"
+  ],
+  [
+   "j0b",
+   "S3",
+   "out"
+  ],
+  [
+   "n5c",
+   "S3",
+   "in"
+  ],
+  [
+   "n6",
+   "S3",
+   "out"
+  ],
+  [
+   "n7",
+   "S4",
+   "in"
+  ],
+  [
+   "n8",
+   "S4",
+   "out"
+  ],
+  [
+   "n9",
+   "S4",
+   "in"
+  ],
+  [
+   "n10",
+   "S5",
+   "in"
+  ],
+  [
+   "j1",
+   "S5",
+   "out"
+  ],
+  [
+   "n11",
+   "S5",
+   "in"
+  ],
+  [
+   "s16",
+   "S6",
+   "in"
+  ],
+  [
+   "n12",
+   "S6",
+   "out"
+  ],
+  [
+   "j2",
+   "S6",
+   "in"
+  ],
+  [
+   "n13",
+   "S6",
+   "out"
+  ],
+  [
+   "n14",
+   "S7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S3": "S3 now carries six beats — the whole dawn exchange across the water plus both retellings. Frame it from the boat looking in: a single figure standing on the grey shore in first light, small, unrecognised, one arm raised toward the right side of the boat. Mist on the water, the men at the rail turned toward him. Far enough that they cannot yet tell who it is.",
+  "S6": "S6 now carries four beats — Peter's verbatim answer, its retelling, 'Feed my sheep', and the close. Frame Peter answering: close on his face, wet clothes, not looking away, saying the smallest true thing he has left. Jesus's hand near his shoulder at the edge of frame. No crowd — just the two of them and the fire behind."
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "build": "build-132-forbid-him-not",
+ "reference": "Mark 9",
+ "notes": "STAYED RED: j1 is Mark 9:39-40, Jesus in the flesh, red-letter, and verbatim as it\nalready stood. The KJV frame 'But Jesus said,' was already left off the segment,\nso there was no welded framing to split.\n\nTHE FIX - John's complaint is the hinge of the video and John never said it.\n  s38  Mark 9:38  'Master, we saw one casting out devils in thy name, and he\n       followeth not us: and we forbad him, because he followeth not us.'\n       SCRIPTURE, light blue. John is an apostle, not Deity. n0 keeps its\n       original text word for word and now works as the retelling right after it.\n       Hearing him say 'because he followeth not us' TWICE in one breath - the\n       KJV really does repeat it - is the whole point of the video, and a\n       paraphrase flattened it.\n\nLIFTED: jv41 Mark 9:41 'For whosoever shall give you a cup of water to drink in\nmy name, because ye belong to Christ, verily I say unto you, he shall not lose\nhis reward.' JESUS, RED. n3a was paraphrasing it; n3a keeps its text and is now\nthe retelling. ST8 is literally named 'a-cup-of-water' and the cup-of-water verse\nwas never spoken in the video.\n\nREWRITTEN: n2 gave away j1's words before j1 arrived ('Don't stop him. Anyone\ndoing good in My name isn't against you' is just verse 39 in modern English,\ndelivered early). It is now a short setup, and the retelling work moved to n2b,\nAFTER the verse, where the law wants it.\n\nADDED: n2b, the retelling of 9:39-40. ST10 now carries n3b, so all eight bound\nstills are in the running order.\n\nWOMEN: Mark 9:38-41 records no woman speaking. Nothing added, nothing invented.\n\nWHY-LAW: John drew the circle at the edge of his own group and expected to be\nthanked for it. Milk framing - the name is doing the work, not the membership,\nand there is room for far more people than the inner circle assumed.",
+ "segments": [
+  {
+   "id": "s38",
+   "speaker": "scripture",
+   "verse": "Mark 9:38",
+   "text": "Master, we saw one casting out devils in thy name, and he followeth not us: and we forbad him, because he followeth not us."
+  },
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "John came to Jesus with a complaint. They'd seen someone driving out demons using Jesus's name — and the man wasn't one of their group. So they told him to stop."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "John thought he was protecting the cause. The man wasn't with them, so he shouldn't be using the name."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Jesus didn't take John's side. He went after the instinct underneath the complaint."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Mark 9:39-40",
+   "text": "Forbid him not: for there is no man which shall do a miracle in my name, that can lightly speak evil of me. For he that is not against us is on our part."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "Don't stop him, He said. Nobody works a miracle in My name and then turns around and speaks against Me. Whoever isn't against us is on our side."
+  },
+  {
+   "id": "jv41",
+   "speaker": "jesus",
+   "verse": "Mark 9:41",
+   "text": "For whosoever shall give you a cup of water to drink in my name, because ye belong to Christ, verily I say unto you, he shall not lose his reward."
+  },
+  {
+   "id": "n3a",
+   "speaker": "narrator",
+   "text": "Whoever gives a cup of water in His name won't lose his reward."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "The work isn't about belonging to a team — it's about Him."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "John learned a lesson that day: the kingdom is bigger than the inner circle."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Don't draw the circle too small. Whoever works in His name is on your side."
+  }
+ ],
+ "beats": [
+  [
+   "s38",
+   "ST1",
+   "in"
+  ],
+  [
+   "n0",
+   "ST1",
+   "out"
+  ],
+  [
+   "n1",
+   "ST4",
+   "in"
+  ],
+  [
+   "n2",
+   "ST5",
+   "in"
+  ],
+  [
+   "j1",
+   "ST6",
+   "in"
+  ],
+  [
+   "n2b",
+   "ST7",
+   "in"
+  ],
+  [
+   "jv41",
+   "ST8",
+   "in"
+  ],
+  [
+   "n3a",
+   "ST8",
+   "out"
+  ],
+  [
+   "n3b",
+   "ST10",
+   "in"
+  ],
+  [
+   "n4",
+   "ST9",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST1": "ST1 now opens the video with John's verbatim complaint and its retelling. Frame the complaint itself: John close to Jesus, earnest and slightly indignant, reporting rather than asking — the face of a man who expects to be told he did right. Jesus listening, unbothered.",
+  "ST8": "ST8 now carries the verbatim cup-of-water verse and its retelling. Frame the smallest version of the thing: a plain cup of water being handed over, both pairs of hands ordinary and unremarkable, daylight. No miracle, no crowd — the least impressive act in the chapter, and the one He said keeps its reward."
+ }
+}

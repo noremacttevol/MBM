@@ -1,0 +1,176 @@
+{
+ "build": "build-101-still-small-voice",
+ "reference": "1 Kings 19",
+ "notes": "All five red beats were painted JESUS-RED. 1 Kings is Old Testament, so none of\nthem can be red — a red-letter KJV leaves the whole Old Testament black.\n\nWHERE THEY LANDED:\n  jv9   GOD    'What doest thou here, Elijah?'  (19:9)  — Jehovah speaking.\n  jv11a GOD    'Go forth, and stand upon the mount before the LORD.' (19:11)\n  jv18  GOD    'Yet I have left me seven thousand in Israel...' (19:18)\n  jv11b SCRIPTURE  — see the deviation note below.\n  jv12  SCRIPTURE  — see the deviation note below.\n\nMIXED SEGMENT SPLIT: jv11a carried two speakers in one block. The command 'Go\nforth, and stand upon the mount before the LORD' is Jehovah. Everything after it\n('And, behold, the LORD passed by, and a great and strong wind rent the\nmountains...') is the writer of 1 Kings describing what happened. Split into\njv11a (green) and the new jv11c (light blue). Both stay on S5, so the picture\nthe viewer sees is unchanged.\n\nDEVIATION FROM THE BRIEFING NOTE — PLEASE REVIEW: the instruction said all five\nred segments become `god`. Applying the law's own test to jv11b and jv12, I could\nnot do that honestly. jv11b ('and after the wind an earthquake; but the LORD was\nnot in the earthquake:') and jv12 ('And after the fire a still small voice.') are\nnot Deity speaking at all — they are the same 1 Kings narration that the briefing\nitself told me to strip out of jv11a. The LORD is the subject of those sentences,\nnot the speaker. SPEAKER-LAW section 3 says narration about a speaker is\n`scripture`, not the speaker's own colour. So both are light blue. If Cameron\nwants the whole theophany green for visual continuity, that is a one-word change\nin each and it is his call — but the law as written puts them in blue.\n\nLIFTED FROM PARAPHRASE: Elijah's own answer was buried in n4's modern retelling.\nIt is now s10 (1 Kings 19:10), verbatim, with n4 unchanged after it as the\nretelling. This is the emotional centre of the story and the viewer should hear\nthe man actually say it.\n\nNO WOMEN: 1 Kings 19 records no woman speaking. Jezebel's threat is 19:2 and is\nrelayed by a messenger, not quoted in this video.\n\nWHY-LAW: God feeds a suicidal prophet before he corrects him, and answers him in\na whisper. Milk framing — God is gentle with the worn out.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Elijah had just won the greatest victory of his life. And then a single threat sent him running for the wilderness, until he sank down under a lone bush, worn out and afraid, and asked God to let him die."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "God did not scold him. While he slept, warm bread was baked for him and a jar of water set by his head. Twice he was fed, and gently told the journey was too great for him to make alone."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "In that strength he walked forty days across the wilderness, all the way to the mountain of God, and found a cave, and went in, and stayed there in the dark."
+  },
+  {
+   "id": "jv9",
+   "speaker": "god",
+   "verse": "1 Kings 19:9",
+   "text": "What doest thou here, Elijah?"
+  },
+  {
+   "id": "s10",
+   "speaker": "scripture",
+   "verse": "1 Kings 19:10",
+   "text": "I have been very jealous for the LORD God of hosts: for the children of Israel have forsaken thy covenant, thrown down thine altars, and slain thy prophets with the sword; and I, even I only, am left; and they seek my life, to take it away."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "And out it all poured. I have given everything for you, he said. They have torn down your altars and killed your prophets. I am the only one left, and now they want me dead too."
+  },
+  {
+   "id": "jv11a",
+   "speaker": "god",
+   "verse": "1 Kings 19:11",
+   "text": "Go forth, and stand upon the mount before the LORD."
+  },
+  {
+   "id": "jv11c",
+   "speaker": "scripture",
+   "verse": "1 Kings 19:11",
+   "text": "And, behold, the LORD passed by, and a great and strong wind rent the mountains, and brake in pieces the rocks before the LORD; but the LORD was not in the wind:"
+  },
+  {
+   "id": "jv11b",
+   "speaker": "scripture",
+   "verse": "1 Kings 19:11",
+   "text": "and after the wind an earthquake; but the LORD was not in the earthquake:"
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "A wind strong enough to tear the mountain apart. Then an earthquake that split the rock under his feet. Then a fire sweeping across the stone. Surely God would be in something that big. But he was not in any of them."
+  },
+  {
+   "id": "jv12",
+   "speaker": "scripture",
+   "verse": "1 Kings 19:12",
+   "text": "And after the fire a still small voice."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "After all the noise and power, everything went quiet. And in the quiet came a low, gentle whisper. That was where God was. Elijah heard it, and wrapped his face in his cloak, and came to the mouth of the cave to listen."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "The whisper did not shame him for being afraid. It asked him again what troubled him, let him say it all a second time, and then quietly gave him work to do and people to go to. He was being sent back, steadied and not alone."
+  },
+  {
+   "id": "jv18",
+   "speaker": "god",
+   "verse": "1 Kings 19:18",
+   "text": "Yet I have left me seven thousand in Israel, all the knees which have not bowed unto Baal, and every mouth which hath not kissed him."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "You are not the only one, God told him. Scattered across the land are thousands who have never bent the knee to the lie. You feel alone, but you are not. That is how God answered a tired, frightened man — not with thunder, but with a whisper, and with the truth that he was never as alone as he feared."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The wind, the earthquake and the fire were not God. The whisper was. When you are worn out and sure you are the only one left, could the voice you most need be the gentle one?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "in"
+  ],
+  [
+   "jv9",
+   "S4",
+   "in"
+  ],
+  [
+   "s10",
+   "S4",
+   "out"
+  ],
+  [
+   "n4",
+   "S4",
+   "in"
+  ],
+  [
+   "jv11a",
+   "S5",
+   "in"
+  ],
+  [
+   "jv11c",
+   "S5",
+   "out"
+  ],
+  [
+   "jv11b",
+   "S6",
+   "in"
+  ],
+  [
+   "n5",
+   "S7",
+   "in"
+  ],
+  [
+   "jv12",
+   "S8",
+   "in"
+  ],
+  [
+   "n6",
+   "S8",
+   "out"
+  ],
+  [
+   "n7",
+   "S9",
+   "in"
+  ],
+  [
+   "jv18",
+   "S10",
+   "in"
+  ],
+  [
+   "n8",
+   "S10",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S4": "S4 now carries three beats — God's question into the cave, Elijah's full verbatim complaint, and the retelling. Frame the moment Elijah answers, not the moment he arrives: a man sitting in the mouth of a dark cave, head down, mid-sentence, pouring it out to an unseen presence. Interior gloom with hard daylight at the cave mouth behind him. He should look exhausted, not reverent.",
+  "S5": "S5 now carries God's command to go stand on the mount AND the wind tearing the mountain apart. Frame the wind at full force with a small figure braced at the cave mouth, so one image serves both the summons and the storm."
+ }
+}

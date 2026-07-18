@@ -1,0 +1,122 @@
+{
+ "build": "build-147-joseph-forgives",
+ "reference": "Genesis 45",
+ "notes": "Two segments were painted JESUS-RED and neither is Jesus. Both are Joseph — a man in\nthe story — so both become SCRIPTURE (light blue):\n  s1  Genesis 45:5   'Now therefore be not grieved, nor angry with yourselves...'\n  s2  Genesis 50:20  'ye thought evil against me; but God meant it unto good...'\nGenesis is Old Testament; a red-letter KJV prints none of it red. Ids kept.\n\nAdded one lifted line. n1 ended 'Then he told them' and then just cut away — the\nsingle most famous sentence in the chapter was missing entirely:\n  s0  Genesis 45:4   'I am Joseph your brother, whom ye sold into Egypt.'\nSCRIPTURE, verbatim, and it sits on ST3, the still literally named 'i-am-joseph'.\n\nAdded narrator retellings after s0 and s1 (n1b, n1c) per the retelling rule. n3 was\nalready doing the retelling job for s2, so it is left alone.\n\nLEFT AS NARRATOR: Genesis 45:3 ('doth my father yet live'), and Genesis 50:19 ('Fear\nnot: for am I in the place of God?'). Both would be good, but the video is short and\nadding them would bury the two lines that matter. Nothing here is paraphrased as\nscripture — every coloured line is exact KJV.\n\nWHY-LAW: forgiveness here is not pretending the harm was small. Joseph names the sale\nout loud — 'whom ye sold into Egypt' — and forgives anyway. That is the milk.",
+ "segments": [
+  {
+   "id": "n0a",
+   "speaker": "narrator",
+   "text": "Years before, Joseph's own brothers had sold him into slavery out of jealousy."
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "Now he was second only to Pharaoh in all Egypt."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "When the brothers came begging for food in the famine, they didn't recognize the brother they'd betrayed. Then he sent every Egyptian out of the room, and told them."
+  },
+  {
+   "id": "s0",
+   "speaker": "scripture",
+   "verse": "Genesis 45:4",
+   "text": "I am Joseph your brother, whom ye sold into Egypt."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "I'm Joseph. Your brother. The one you sold. He didn't soften it and he didn't skip it — he said the worst thing they ever did straight to their faces, and then he kept talking."
+  },
+  {
+   "id": "s1",
+   "speaker": "scripture",
+   "verse": "Genesis 45:5",
+   "text": "Now therefore be not grieved, nor angry with yourselves, that ye sold me hither: for God did send me before you to preserve life."
+  },
+  {
+   "id": "n1c",
+   "speaker": "narrator",
+   "text": "Don't tear yourselves up over it, he said. Don't be angry at yourselves that you sold me here. God sent me ahead of you — to keep people alive. He gave them the one thing they could not give themselves: permission to stop hating themselves."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Much later, when their father died and the brothers feared revenge, Joseph spoke the line that closes the wound."
+  },
+  {
+   "id": "s2",
+   "speaker": "scripture",
+   "verse": "Genesis 50:20",
+   "text": "But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "You meant it for evil, he told them — I'm not going to call it anything else. But God meant it for good, and look what came of it: a whole lot of people are still alive. He didn't pretend it hadn't hurt. He saw God's hand turning their evil into rescue."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "What others meant for harm, God can mean for good. Let it go."
+  }
+ ],
+ "beats": [
+  [
+   "n0a",
+   "ST1",
+   "in"
+  ],
+  [
+   "n0b",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1",
+   "ST3",
+   "in"
+  ],
+  [
+   "s0",
+   "ST3",
+   "out"
+  ],
+  [
+   "n1b",
+   "ST3",
+   "in"
+  ],
+  [
+   "s1",
+   "ST4",
+   "in"
+  ],
+  [
+   "n1c",
+   "ST4",
+   "out"
+  ],
+  [
+   "n2",
+   "ST6",
+   "in"
+  ],
+  [
+   "s2",
+   "ST5",
+   "in"
+  ],
+  [
+   "n3",
+   "ST7",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST3": "Now carries three beats — the reveal. The moment is 'I am Joseph your brother, whom ye sold into Egypt': the Egyptian governor standing, the room emptied of servants, his face uncovered for the first time, and the brothers' recognition landing on them. Show it from behind or beside the brothers so the viewer sees what they see. Not an embrace yet — the second before it.",
+  "ST4": "Carries the whole of Genesis 45:5 plus its retelling. The moment is Joseph reaching for brothers who have gone stiff with terror — his arms already out, theirs not yet. Relief being offered before it is accepted."
+ }
+}

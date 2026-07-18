@@ -1,0 +1,163 @@
+{
+ "build": "build-113-where-art-thou",
+ "reference": "Genesis 3",
+ "notes": "One red beat, and Genesis is Old Testament, so it cannot be red:\n  jv9  Genesis 3:9  'Where art thou?'  — Jehovah in the garden. GOD, green.\n\nLIFTED FROM PARAPHRASE:\n  s10  Genesis 3:10  Adam   'I heard thy voice in the garden, and I was afraid,\n                             because I was naked; and I hid myself.'  SCRIPTURE\n  jv13 Genesis 3:13  Jehovah 'What is this that thou hast done?'  GOD\n  w13  Genesis 3:13  Eve    'The serpent beguiled me, and I did eat.'  WOMAN\n\nTHE WOMAN: Eve is the first woman the Bible records speaking to God, and her\nanswer was sitting unspoken in this build. Genesis 3:13 is short, verbatim, and\npink, and it makes the exchange a real conversation instead of a monologue. Her\nline follows God's question on the same still, so the picture is unchanged.\n\nEDITS TO EXISTING NARRATOR TEXT: n5 lost its trailing paraphrase of Adam's answer\n('I heard you, and I was afraid, and I hid myself') because s10 now speaks it\nverbatim; n5 ends on 'And, trembling, the man answered' and hands straight to\nAdam. n5b is a new retelling of s10. n6 gains one opening sentence retelling\nEve, then continues word for word as before. Nothing else changed.\n\nNOT MARKED AS SCRIPTURE: n1 through n4 and n7 through n9 stay narrator. They\ndescribe the garden and the clothing of Genesis 3:21 in modern English rather\nthan quoting it, which is correct — they are the storyteller, not the text.\n\nWHY-LAW: God's first recorded words to a person who has failed him are not an\naccusation but a search, and the chapter ends with him making them clothes.\nMilk framing — God comes looking, and covers what we cannot cover.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "In the beginning there was a garden, and in the garden, peace. People and God walking together in the cool of the day, with nothing to hide and nothing to fear."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "There was only one thing they were asked not to do. And, as people do, they did it anyway — reaching for the one thing that was not theirs, hoping it would make them more than they were."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "And everything changed. For the first time they felt shame. They saw themselves, and did not like what they saw, and scrambled to cover up, hiding from each other."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "And then they heard him coming — the warm presence of God moving through the garden in the cool of the evening, the way he always had. And this time, they ran and hid themselves among the trees."
+  },
+  {
+   "id": "jv9",
+   "speaker": "god",
+   "verse": "Genesis 3:9",
+   "text": "Where art thou?"
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Where are you. Not, what have you done. Not, how dare you. Where are you — the cry of a Father looking for a child who is hiding. He knew exactly where they were. He asked so they would come out. And, trembling, the man answered."
+  },
+  {
+   "id": "s10",
+   "speaker": "scripture",
+   "verse": "Genesis 3:10",
+   "text": "I heard thy voice in the garden, and I was afraid, because I was naked; and I hid myself."
+  },
+  {
+   "id": "n5b",
+   "speaker": "narrator",
+   "text": "I heard you, and I was afraid, and I hid. That is the whole of it. Not defiance — fear. Shame has never once made a person run toward God. It makes them run behind a tree."
+  },
+  {
+   "id": "jv13",
+   "speaker": "god",
+   "verse": "Genesis 3:13",
+   "text": "What is this that thou hast done?"
+  },
+  {
+   "id": "w13",
+   "speaker": "woman",
+   "verse": "Genesis 3:13",
+   "text": "The serpent beguiled me, and I did eat."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "I was deceived, she said, and I ate. No excuses left — just the truth, spoken out loud at last. There were consequences; there always are. The easy garden was behind them now, and a hard world lay ahead. They stood there, ashamed, waiting for the end of everything."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "And instead, God did something they never expected. He made them clothes. With his own care he covered their shame — better coverings than the leaves they had grabbed for themselves — because they could not fix what they had broken, and he would not leave them exposed."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "Then he sent them out into the wide world — but not naked, and not alone, and not without a promise. Clothed by the very One they had run from."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "That is the God of the very first story. Not one who waits for you to clean yourself up and come find him. One who comes walking through the garden in the cool of the evening, calling, still calling — where are you? — because he wants you back."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The first thing God said to hiding people was not a scolding — it was, where are you? He still comes seeking, and still covers the shame we cannot cover ourselves. Where are you hiding, that he is gently calling you out of?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "in"
+  ],
+  [
+   "n4",
+   "S4",
+   "in"
+  ],
+  [
+   "jv9",
+   "S5",
+   "in"
+  ],
+  [
+   "n5",
+   "S5",
+   "out"
+  ],
+  [
+   "s10",
+   "S6",
+   "in"
+  ],
+  [
+   "n5b",
+   "S6",
+   "out"
+  ],
+  [
+   "jv13",
+   "S7",
+   "in"
+  ],
+  [
+   "w13",
+   "S7",
+   "out"
+  ],
+  [
+   "n6",
+   "S7",
+   "in"
+  ],
+  [
+   "n7",
+   "S8",
+   "in"
+  ],
+  [
+   "n8",
+   "S9",
+   "in"
+  ],
+  [
+   "n9",
+   "S10",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S6": "S6 now carries Adam's verbatim answer and its retelling. Frame the answering, not the hiding: the man half stepped out from behind the trees, shoulders curled in, eyes down, arms crossed over himself, caught between the leaves and the open. Soft evening light falling on him from the direction he will not look.",
+  "S7": "S7 now carries three beats — God's question to the woman, Eve's verbatim answer, and the retelling into the consequences. It needs to include her. Frame the two of them standing together in the failing evening light at the edge of the garden, the woman speaking, the man beside her, both looking small against the trees. Sorrow and honesty, not accusation."
+ }
+}

@@ -1,0 +1,167 @@
+{
+ "build": "build-140-road-runs-both-ways",
+ "reference": "Luke 15",
+ "notes": "THIS IS A PARABLE, SO THE WHOLE THING IS RED. Luke 15:11-32 is Jesus telling a\nstory, and a red-letter KJV inks every word of it - including the lines Jesus puts\nin the father's and the sons' mouths, and including his own narration inside the\nparable ('But the father said to his servants,'). So nothing here moved to blue.\nThe test is not 'who is the character', it is 'does a red-letter KJV print this\nred' - and here it does.\n\nSTAYED RED: j1 'And he said, A certain man had two sons:' (Luke 15:11).\n\nWHAT THIS BUILD WAS MISSING: it was the most famous story Jesus ever told and the\nviewer never heard one line of it. Everything after j1 was modern paraphrase. Four\nblocks of verbatim KJV are now lifted out, all JESUS red, each one followed by the\nnarrator retelling it - and each one sitting on the SAME still as the narrator beat\nit belongs to, so the artwork and the edit are unchanged:\n  j18  Luke 15:18-19  'I will arise and go to my father... make me as one of thy\n       hired servants.'          retold by n3a + n3b (unchanged text)\n  j20  Luke 15:20     'But when he was yet a great way off, his father saw him,\n       and had compassion, and ran, and fell on his neck, and kissed him.'\n                                 retold by n4 (unchanged text)\n  j22  Luke 15:22-24  'Bring forth the best robe... for this my son was dead, and\n       is alive again; he was lost, and is found.'\n                                 retold by n5 (unchanged text)\n  j31  Luke 15:31-32  'Son, thou art ever with me, and all that I have is thine...'\n                                 retold by n7 (NEW)\nn7 is the only new narrator beat, and it goes on ST10 (two roads, one door), which\nthe original build never used - so the older brother finally gets the answer the\ntitle of the video is about.\n\nWOMEN: Luke 15:11-32 records no woman speaking. Nothing added; nothing invented.\n\nWHY-LAW: the father runs while the son is still a great way off, before a word of\nthe apology gets out. And the same father walks out to the angry son standing in\nthe yard. Milk framing - the road runs both ways and the door is open at both ends.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Jesus told a story about a father and two sons. The younger one wanted his share of the inheritance now — and he got it."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Luke 15:11",
+   "text": "And he said, A certain man had two sons:"
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "He left home and went to a country far away. There he spent everything on a life that looked free and felt empty."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "A hard season came. He was hungry, alone, and tending pigs — and he came to himself."
+  },
+  {
+   "id": "j18",
+   "speaker": "jesus",
+   "verse": "Luke 15:18-19",
+   "text": "I will arise and go to my father, and will say unto him, Father, I have sinned against heaven, and before thee, And am no more worthy to be called thy son: make me as one of thy hired servants."
+  },
+  {
+   "id": "n3a",
+   "speaker": "narrator",
+   "text": "He decided to go back."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "Not as a son claiming rights, but as a servant asking for a place."
+  },
+  {
+   "id": "j20",
+   "speaker": "jesus",
+   "verse": "Luke 15:20",
+   "text": "But when he was yet a great way off, his father saw him, and had compassion, and ran, and fell on his neck, and kissed him."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "But while he was still far off, his father saw him and ran. No lecture. No waiting for the apology. He threw his arms around him."
+  },
+  {
+   "id": "j22",
+   "speaker": "jesus",
+   "verse": "Luke 15:22-24",
+   "text": "But the father said to his servants, Bring forth the best robe, and put it on him; and put a ring on his hand, and shoes on his feet: And bring hither the fatted calf, and kill it; and let us eat, and be merry: For this my son was dead, and is alive again; he was lost, and is found."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "The father gave him the robe, the ring, the sandals — belonging, not probation. And there was a feast, because what was lost had come home."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "But the older brother stood outside, angry that grace looked so easy. The door ran both ways — it was open for him too."
+  },
+  {
+   "id": "j31",
+   "speaker": "jesus",
+   "verse": "Luke 15:31-32",
+   "text": "Son, thou art ever with me, and all that I have is thine. It was meet that we should make merry, and be glad: for this thy brother was dead, and is alive again; and was lost, and is found."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "Son, you have always been with me, the father told him, and everything I have is already yours. Then he went right back to the reason for the party — your brother was dead, and he's alive. He was lost, and we found him. The father walked out to both sons."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "The road home is always open. However far you've gone, turn around — He's already running to meet you."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "j1",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1",
+   "ST3",
+   "in"
+  ],
+  [
+   "n2",
+   "ST4",
+   "in"
+  ],
+  [
+   "j18",
+   "ST4",
+   "out"
+  ],
+  [
+   "n3a",
+   "ST5",
+   "in"
+  ],
+  [
+   "n3b",
+   "ST6",
+   "in"
+  ],
+  [
+   "j20",
+   "ST7",
+   "in"
+  ],
+  [
+   "n4",
+   "ST7",
+   "out"
+  ],
+  [
+   "j22",
+   "ST8",
+   "in"
+  ],
+  [
+   "n5",
+   "ST8",
+   "out"
+  ],
+  [
+   "n6",
+   "ST9",
+   "in"
+  ],
+  [
+   "j31",
+   "ST9",
+   "out"
+  ],
+  [
+   "n7",
+   "ST10",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST4": "ST4 now carries the pigsty AND the son's verbatim resolve. Frame the turn, not the misery: the young man on his knees in the mud among the pigs, but head up, eyes fixed on the horizon rather than the trough. The exact second the sentence 'I will arise and go to my father' forms. Filthy, thin, and suddenly decided.",
+  "ST7": "ST7 now carries Luke 15:20 verbatim and its retelling. Frame the run itself from the son's point of view: the father far up the road, robe hitched up in both fists, sprinting - an older man running in a way that costs him his dignity. The son stopped dead, ragged, unable to get his rehearsed speech out.",
+  "ST8": "ST8 now carries the father's orders and the feast retelling. Frame the robe going on: servants' hands settling the best robe over filthy shoulders, the ring being pushed onto a thin finger, sandals set down in front of bare feet. Warm lamplight, the feast already starting behind them. Belonging, not probation.",
+  "ST9": "ST9 now carries the older brother's anger and the father's verbatim answer to him. Frame the father coming OUT: the lit doorway and the music behind him, the older son standing rigid in the dark yard with his arms crossed, and the father out there in the dark with him - close, hand extended, not scolding.",
+  "ST10": "ST10 was unused in the original build and now carries the closing retelling of Luke 15:31-32. Frame the title: one lit doorway at the centre, and the road running away from it in both directions into the dark - one way toward the far country, one way toward the field. The same door serves both. No figures, or two distant ones, one on each road."
+ }
+}

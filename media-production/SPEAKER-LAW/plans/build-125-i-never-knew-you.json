@@ -1,0 +1,92 @@
+{
+ "build": "build-125-i-never-knew-you",
+ "reference": "Matthew 7",
+ "notes": "ALL THREE RED BEATS STAY RED. j1 (Matthew 7:21), j2 (7:22) and j3 (7:23) are\none unbroken stretch of Jesus speaking on the mount. Nothing moved out of red.\n\nj2 IS THE ONE TO GET RIGHT. 'Lord, Lord, have we not prophesied in thy name?'\nis Jesus quoting what people will say — speech inside his own speech, exactly\nlike the dialogue inside a parable. A red-letter KJV inks the whole of\nMatthew 7:22 red, including the quoted crowd. It stays JESUS. It is not\nscripture-blue and it is never split off from the verse around it.\n\nNO MIXED SEGMENTS. There is no narration frame in Matthew 7:21-23 — Matthew\ndoes not interrupt — so nothing needed splitting. n0 is the storyteller's own\nmodern-English framing and correctly stays narrator.\n\nTHE REAL PROBLEM HERE WAS THE RETELLINGS. This build is short, three red\nblocks in a row with only a single thin sentence between each, and the Old\nEnglish was landing unexplained. n1, n2 and n3 have all been rewritten so\neach one now retells the verse before it in plain modern English first, then\ncarries the point:\n  n1 retells 7:21 — not everyone who calls me Lord, only the one who does\n     what my Father wants — before setting up the day of accounting.\n  n2 retells 7:22 line by line and points out what is missing from the list.\n  n3 retells 7:23 — I never knew you — and keeps the original closing\n     invitation word for word at the end.\nNo new segments, no new stills, no id changes, no beat reordering. The\nstoryteller now stands between every pair of red blocks doing real work\ninstead of nodding.\n\nNOTHING LEFT AS PARAPHRASE FROM UNCERTAINTY. All three quoted beats were\nchecked word for word against the KJV and were already exact.\n\nWHY-LAW: this passage is easy to preach as a threat. It is not one. He is not\nweighing the size of the resume, he is asking whether we ever actually walked\nwith him — and the answer to that is an open door, not a closed one. Milk\nframing all the way through, and the card stays exactly as it is.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Jesus warned that saying the right words is not the same as knowing him. The door is not opened by a name we repeat."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Matthew 7:21",
+   "text": "Not every one that saith unto me, Lord, Lord, shall enter into the kingdom of heaven; but he that doeth the will of my Father which is in heaven."
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Not everyone who calls me Lord will come into the kingdom, he said — only the one who actually does what my Father wants. Words are cheap. A life is not. And then he described a day when many will point to everything they did in his name."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Matthew 7:22",
+   "text": "Many will say to me in that day, Lord, Lord, have we not prophesied in thy name? and in thy name have cast out devils? and in thy name done many wonderful works?"
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Lord, they will say, didn't we prophesy in your name? Didn't we drive out devils in your name? Didn't we do all kinds of wonderful works in your name? Listen to what is missing from that list. Every single sentence is about what they did. Not one of them is about him."
+  },
+  {
+   "id": "j3",
+   "speaker": "jesus",
+   "verse": "Matthew 7:23",
+   "text": "And then will I profess unto them, I never knew you: depart from me, ye that work iniquity."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "I never knew you. Not, I never heard of your works — I never knew you. He is not weighing the size of anyone's list. He is asking whether we ever really walked with him. And this is not a threat to scare you. It is an invitation to be known — to walk with him, not just speak his name."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He wants to know you, not just be named by you. Come close, and let him know you."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "j1",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1",
+   "ST3",
+   "in"
+  ],
+  [
+   "j2",
+   "ST4",
+   "in"
+  ],
+  [
+   "n2",
+   "ST6",
+   "in"
+  ],
+  [
+   "j3",
+   "ST5",
+   "in"
+  ],
+  [
+   "n3",
+   "ST7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST6": "ST6 now carries a longer beat — the full retelling of the crowd's plea and the turn onto what is missing from it. Frame the missing thing rather than the deeds: a small ordinary act of love done where no one is watching — a woman setting a bowl of food on a poor neighbour's step at dawn and walking away without knocking. Quiet, unimpressive, nobody applauding. The opposite of the list.",
+  "ST7": "ST7 now carries the whole close — the retelling of 'I never knew you' and the invitation. Frame it warm, not final: an open doorway with the light on inside, seen from the road at evening, and someone standing in it looking out toward whoever is coming. It must read as a door being held open, not a door being shut."
+ }
+}

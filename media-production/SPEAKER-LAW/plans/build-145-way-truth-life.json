@@ -1,0 +1,146 @@
+{
+ "build": "build-145-way-truth-life",
+ "reference": "John 14",
+ "notes": "BOTH RED BEATS STAYED RED. John 14:6 is Jesus in the flesh in the upper room and\na red-letter KJV inks all of it.\n  j1a  John 14:6  'I am the way, the truth, and the life:'\n  j1b  John 14:6  'no man cometh unto the Father, but by me.'\nThe original build had already split the verse across two stills; that split is\nkept exactly as it was, ids and all.\n\nFRAMING SPLIT ADDED. John 14:6 in the KJV opens 'Jesus saith unto him, I am the\nway...' - that clause is John writing, not Jesus speaking, and a red-letter Bible\nleaves it black:\n  sf6  John 14:6  'Jesus saith unto him,'  SCRIPTURE, blue.\nsf6 sits on the SAME still as j1a (S3), so no artwork changes.\n\nLIFTED - THOMAS. n1 read 'Thomas spoke up - Lord, we don't know where You're going,\nso how can we know the way?' That is Thomas's actual question, John 14:5, delivered\nas white narration. Added verbatim:\n  s5  John 14:5  'Lord, we know not whither thou goest; and how can we know the\n      way?'  SCRIPTURE, blue - Thomas is an apostle, not Deity.\nn1 keeps its id and its text and now works as the retelling right after him, on the\nsame still (S2). The video is a question and an answer, and the question was never\nheard.\n\nLIFTED - THE PROMISE THOMAS IS RESPONDING TO. n0 paraphrased 'Jesus told His\ndisciples He was going to prepare a place for them.' That is Jesus's own words,\nJohn 14:2-3, and without them Thomas's question has nothing to be confused about.\nAdded verbatim, JESUS red:\n  jv2  John 14:2-3  'In my Father's house are many mansions... that where I am,\n       there ye may be also.'\nn0b is NEW and retells it, on S7 (the room at peace).\n\nRETELLING ORDER: jv2 -> n0b, s5 -> n1, j1a -> n2a + n2b, j1b -> n3a + n3b. The only\nplace two non-narrator blocks touch is sf6 -> j1a, which is the framing split\nitself - one sentence of the KJV cut in two so the colour can be right, both halves\non one still.\n\nWOMEN: John 14 records no woman speaking. Nothing added; nothing invented.\n\nWHY-LAW: Thomas asked for directions and got a person. Milk framing - you are not\nbeing handed a map you might read wrong. You are being handed a hand to hold.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "In the upper room, the night before the cross, Jesus told His disciples He was going to prepare a place for them."
+  },
+  {
+   "id": "jv2",
+   "speaker": "jesus",
+   "verse": "John 14:2-3",
+   "text": "In my Father's house are many mansions: if it were not so, I would have told you. I go to prepare a place for you. And if I go and prepare a place for you, I will come again, and receive you unto myself; that where I am, there ye may be also."
+  },
+  {
+   "id": "n0b",
+   "speaker": "narrator",
+   "text": "There's plenty of room in my Father's house, He told them. I'm going ahead to get your place ready — and I'm coming back for you, so that wherever I am, that's where you'll be too."
+  },
+  {
+   "id": "s5",
+   "speaker": "scripture",
+   "verse": "John 14:5",
+   "text": "Lord, we know not whither thou goest; and how can we know the way?"
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Thomas spoke up — Lord, we don't know where You're going, so how can we know the way?"
+  },
+  {
+   "id": "sf6",
+   "speaker": "scripture",
+   "verse": "John 14:6",
+   "text": "Jesus saith unto him,"
+  },
+  {
+   "id": "j1a",
+   "speaker": "jesus",
+   "verse": "John 14:6",
+   "text": "I am the way, the truth, and the life:"
+  },
+  {
+   "id": "n2a",
+   "speaker": "narrator",
+   "text": "Not one way among many."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "The way itself. The truth itself. The life itself — standing right there in the room with them."
+  },
+  {
+   "id": "j1b",
+   "speaker": "jesus",
+   "verse": "John 14:6",
+   "text": "no man cometh unto the Father, but by me."
+  },
+  {
+   "id": "n3a",
+   "speaker": "narrator",
+   "text": "The door to the Father isn't a map to find."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "It's a person to follow."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "Stop looking for the road. Walk with Him."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "S1",
+   "in"
+  ],
+  [
+   "jv2",
+   "S1",
+   "out"
+  ],
+  [
+   "n0b",
+   "S7",
+   "in"
+  ],
+  [
+   "s5",
+   "S2",
+   "in"
+  ],
+  [
+   "n1",
+   "S2",
+   "out"
+  ],
+  [
+   "sf6",
+   "S3",
+   "in"
+  ],
+  [
+   "j1a",
+   "S3",
+   "out"
+  ],
+  [
+   "n2a",
+   "S4",
+   "in"
+  ],
+  [
+   "n2b",
+   "S5",
+   "in"
+  ],
+  [
+   "j1b",
+   "S6",
+   "in"
+  ],
+  [
+   "n3a",
+   "S6",
+   "out"
+  ],
+  [
+   "n3b",
+   "S8",
+   "out"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S1": "S1 now carries the opening narration AND the whole of John 14:2-3. Frame the promise, not just the room: the upper room after the meal, lamps low, Jesus leaning in toward the men around the table, speaking about somewhere else - and the disciples' faces not quite following him. Warmth and a coming absence in the same picture.",
+  "S2": "S2 now carries Thomas's verbatim question and its retelling. Frame the question honestly: Thomas half-risen from the table, hands open, brow furrowed - not defiant, just genuinely lost. The others quiet, because he asked what they were all thinking.",
+  "S3": "S3 now carries John's framing clause AND 'I am the way, the truth, and the life.' Frame the answer landing: Jesus turned fully toward Thomas, close, unhurried, one hand toward his own chest. The whole room falling still around a sentence about himself.",
+  "S6": "S6 now carries 'but by me' and its retelling. Frame the exclusivity as warmth, not a gate: Jesus's open hand extended toward the viewer's side of the frame, lamplight behind him, the doorway of the room beyond. An invitation standing in the only opening - nobody being kept out."
+ }
+}

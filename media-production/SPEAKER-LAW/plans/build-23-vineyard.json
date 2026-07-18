@@ -1,0 +1,245 @@
+{
+ "build": "build-23-vineyard",
+ "reference": "Matthew 20",
+ "notes": "STAYED RED: both existing red beats are Jesus in the flesh telling a parable, and\na red-letter KJV prints the whole parable red -- the householder's speech in j1\nis Jesus's words in a character's mouth, so it stays RED, not blue.\n  j1  Matthew 20:13-15  'Friend, I do thee no wrong: didst not thou agree with me\n      for a penny?...'\n  j2  Matthew 20:16     'So the last shall be first, and the first last: for many\n      be called, but few chosen.'\nNeither carried Matthew's framing, so neither needed splitting.\n\nADDED RED, ALL OF IT INSIDE THE PARABLE. Four exchanges were told only in\nnarrator paraphrase, and every one of them is red-letter -- including the\nlabourers' own lines, which are still Jesus speaking:\n  j6   Matthew 20:6   'Why stand ye here all the day idle?'          (householder)\n  j7a  Matthew 20:7   'Because no man hath hired us.'                (the labourers -- RED)\n  j7b  Matthew 20:7   'Go ye also into the vineyard; and whatsoever is right, that\n                       shall ye receive.'                            (householder)\n  j12  Matthew 20:12  'These last have wrought but one hour, and thou hast made\n                       them equal unto us, which have borne the burden and heat of\n                       the day.'                                     (the murmurers -- RED)\nj6 and j7a are a deliberate question-and-answer pair on the SAME still S3, with\nn5b retelling both together straight after. j12 goes on the SAME still S6 that\nalready carried the grumbling.\n\nTRIMS, so nothing is said twice: n5 loses its last sentence (now j6), n6 loses\nits first sentence (now j7a) and is rewritten as the retelling of j7b, and n10\nloses its last sentence (now j12) with n10b carrying that retelling. No original\nid was dropped or renamed.\n\nHearing the labourers say 'no man hath hired us' in their own voice is the\nturnaround of the whole video -- they were not lazy, they were never picked.\n\nWOMEN: Matthew 20:1-16 records no woman speaking. Nothing added; nothing invented.\n\nNO GREEN: no voice from heaven in Matthew 20:1-16.\n\nWHY-LAW: the first men were not underpaid, they got everything they agreed to.\nWhat stung was watching somebody else get grace they had not earned.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "Jesus said the kingdom of heaven is like a landowner who went out at first light to hire workers for his vineyard."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "He agreed with the first crew on a penny for the day — a full day's fair wage — and sent them out into the rows."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "A few hours later he went back to the market and found more men just standing around with no work. He sent them into the vineyard too, and promised to pay them what was right."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "He did the same thing again at noon, and again in the middle of the afternoon. More workers, the same promise."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Then, with only one hour of daylight left, he went out a final time and found still more men standing idle."
+  },
+  {
+   "id": "j6",
+   "speaker": "jesus",
+   "verse": "Matthew 20:6",
+   "text": "Why stand ye here all the day idle?"
+  },
+  {
+   "id": "j7a",
+   "speaker": "jesus",
+   "verse": "Matthew 20:7",
+   "text": "Because no man hath hired us."
+  },
+  {
+   "id": "n5b",
+   "speaker": "narrator",
+   "text": "Why have you stood here all day doing nothing, he asked them. Because no one hired us, they said. Not lazy. Not hiding. Nobody had ever picked them."
+  },
+  {
+   "id": "j7b",
+   "speaker": "jesus",
+   "verse": "Matthew 20:7",
+   "text": "Go ye also into the vineyard; and whatsoever is right, that shall ye receive."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "You go into the vineyard too, he told them, and whatever is right, that is what you will get. One hour of daylight left, and he was still out looking for people."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "When evening came, the owner told his foreman to call the workers and pay them — starting, strangely, with the ones hired last."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "The men who had worked a single hour came up first, and each of them was handed a full day's pay. A whole penny, for one hour of work."
+  },
+  {
+   "id": "n9",
+   "speaker": "narrator",
+   "text": "You can guess what the men who had worked since dawn were thinking. If the one-hour crew got a full penny, surely they would get more."
+  },
+  {
+   "id": "n10",
+   "speaker": "narrator",
+   "text": "But when their turn came, they got the very same — one penny. And they were furious."
+  },
+  {
+   "id": "j12",
+   "speaker": "jesus",
+   "verse": "Matthew 20:12",
+   "text": "These last have wrought but one hour, and thou hast made them equal unto us, which have borne the burden and heat of the day."
+  },
+  {
+   "id": "n10b",
+   "speaker": "narrator",
+   "text": "These men worked one hour, they said, and you have made them equal to us — and we carried the whole day and the burning heat of it."
+  },
+  {
+   "id": "n11",
+   "speaker": "narrator",
+   "text": "The owner turned to one of them, and he was not harsh about it. He called him friend."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Matthew 20:13-15",
+   "text": "Friend, I do thee no wrong: didst not thou agree with me for a penny? Take that thine is, and go thy way: I will give unto the last, even as unto thee. Is it not lawful for me to do what I will with mine own? Is thine eye evil, because I am good?"
+  },
+  {
+   "id": "n12",
+   "speaker": "narrator",
+   "text": "In other words: I have not cheated you. You got exactly what we agreed on. Why is my kindness to someone else a problem for you? Are you really angry only because I chose to be good?"
+  },
+  {
+   "id": "n13",
+   "speaker": "narrator",
+   "text": "That is the whole point. The first men were not underpaid. They got everything they were promised. What stung was watching someone else receive grace they had not earned."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "verse": "Matthew 20:16",
+   "text": "So the last shall be first, and the first last: for many be called, but few chosen."
+  },
+  {
+   "id": "n14",
+   "speaker": "narrator",
+   "text": "God does not run low on generosity when he spends it on someone who came late. His goodness is never used up. There is a full day's welcome waiting for you, no matter what hour you finally come in."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "You have not missed your chance by coming late. Will you come into the vineyard now?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S1",
+   "out"
+  ],
+  [
+   "n3",
+   "S2",
+   "in"
+  ],
+  [
+   "n4",
+   "S2",
+   "out"
+  ],
+  [
+   "n5",
+   "S3",
+   "in"
+  ],
+  [
+   "j6",
+   "S3",
+   "out"
+  ],
+  [
+   "j7a",
+   "S3",
+   "in"
+  ],
+  [
+   "n5b",
+   "S3",
+   "out"
+  ],
+  [
+   "j7b",
+   "S3",
+   "in"
+  ],
+  [
+   "n6",
+   "S3",
+   "out"
+  ],
+  [
+   "n7",
+   "S4",
+   "in"
+  ],
+  [
+   "n8",
+   "S5",
+   "in"
+  ],
+  [
+   "n9",
+   "S6",
+   "in"
+  ],
+  [
+   "n10",
+   "S6",
+   "out"
+  ],
+  [
+   "j12",
+   "S6",
+   "in"
+  ],
+  [
+   "n10b",
+   "S6",
+   "out"
+  ],
+  [
+   "n11",
+   "S7",
+   "in"
+  ],
+  [
+   "j1",
+   "S7",
+   "out"
+  ],
+  [
+   "n12",
+   "S7",
+   "in"
+  ],
+  [
+   "n13",
+   "S8",
+   "in"
+  ],
+  [
+   "j2",
+   "S8",
+   "out"
+  ],
+  [
+   "n14",
+   "S8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S3": "S3 now carries six beats — the eleventh-hour hiring in full, both sides of it verbatim, and the retellings. Frame the answer, not the question: four or five men still standing in an emptying marketplace with one hour of light left, hands open, telling the landowner nobody hired them. Long shadows. They have been there since dawn and it shows.",
+  "S6": "S6 now carries four beats — the grumbling and its verbatim line. Frame the complaint: a dawn-crew worker holding up his single coin toward the owner, sunburnt, dirt to the elbows, gesturing back with his other hand at the one-hour men. Not a riot — a man who feels cheated and is saying so."
+ }
+}

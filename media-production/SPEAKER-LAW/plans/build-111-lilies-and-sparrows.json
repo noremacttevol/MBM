@@ -1,0 +1,154 @@
+{
+ "build": "build-111-lilies-and-sparrows",
+ "reference": "Matthew 6",
+ "notes": "All three existing red beats are correctly red and were left alone. This is the\nSermon on the Mount, Jesus speaking in the flesh, and none of the segments had an\nevangelist framing clause welded on, so there was nothing to split and nothing to\nmove out of red.\n\nSTAYED RED (jesus), verified verbatim:\n  jv26    Matt 6:26     'Behold the fowls of the air...'\n  jv2829  Matt 6:28-29  'Consider the lilies of the field...'\n  jv33    Matt 6:33     'But seek ye first the kingdom of God...'\n\nLIFTED FROM PARAPHRASE - also Jesus, so also RED:\n  jv30  Matt 6:30  'Wherefore, if God so clothe the grass of the field, which to\n                    day is, and to morrow is cast into the oven, shall he not much\n                    more clothe you, O ye of little faith?'\n  jv34  Matt 6:34  'Take therefore no thought for the morrow: for the morrow shall\n                    take thought for the things of itself. Sufficient unto the day\n                    is the evil thereof.'\nn5 was already delivering both of these in modern English - 'if God feeds the\nbirds and dresses the grass that is here today and gone tomorrow, how much more\nwill he take care of you' is Matthew 6:30 almost word for word, and 'your anxious\ntomorrow' is 6:34. The video was making Jesus's argument without ever letting him\nmake it. Now the verses speak and n5 retells them, which is the right order.\n\nEDIT TO EXISTING NARRATOR TEXT: n5 is unchanged in substance but split at its own\nseam so each half retells the verse it now follows. n5 keeps the 'how much more\nwill he take care of you' half after jv30; the 'anxious tomorrow' half becomes\nn5b after jv34. No wording was invented.\n\nLEFT AS PARAPHRASE ON PURPOSE: n6 ends with 'a Father who already knows exactly\nwhat you need', which is Matthew 6:32. It is not lifted out, because n6 is doing\npastoral work in the narrator's own warm voice and a fourth red beat in a row\nwould flatten the pacing. Flagging it as a deliberate choice rather than an\noversight - it is available if a later pass wants it.\n\nWOMEN: Matthew 6 records no woman speaking. Nothing was added rather than\nimporting a line from another passage.\n\nWHY-LAW: he does not scold the worry. He points at a bird. Milk framing - you are\nalready being cared for by someone who has never once forgotten a sparrow.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "He was talking to people who knew what it was to worry. Where the next meal would come from. Whether there would be enough. And instead of an argument, Jesus simply pointed at the world around them."
+  },
+  {
+   "id": "jv26",
+   "speaker": "jesus",
+   "verse": "Matthew 6:26",
+   "text": "Behold the fowls of the air: for they sow not, neither do they reap, nor gather into barns; yet your heavenly Father feedeth them. Are ye not much better than they?"
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Look at the little sparrows, he says. No barns. No savings. No plans for next winter. And not one of them goes uncared for, because the Father feeds them. And you — you are worth so much more to him than a sparrow."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Then he reaches down to the wildflowers scattered through the grass at their feet."
+  },
+  {
+   "id": "jv2829",
+   "speaker": "jesus",
+   "verse": "Matthew 6:28-29",
+   "text": "Consider the lilies of the field, how they grow; they toil not, neither do they spin: And yet I say unto you, That even Solomon in all his glory was not arrayed like one of these."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "These flowers do not work a single day. They just grow where they are planted. And yet the richest king who ever lived, in all his robes, was never dressed as beautifully as one ordinary wildflower that God simply decided to clothe."
+  },
+  {
+   "id": "jv30",
+   "speaker": "jesus",
+   "verse": "Matthew 6:30",
+   "text": "Wherefore, if God so clothe the grass of the field, which to day is, and to morrow is cast into the oven, shall he not much more clothe you, O ye of little faith?"
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Here is his point, gentle and steady: if God feeds the birds and dresses the grass that is here today and gone tomorrow, how much more will he take care of you?"
+  },
+  {
+   "id": "jv34",
+   "speaker": "jesus",
+   "verse": "Matthew 6:34",
+   "text": "Take therefore no thought for the morrow: for the morrow shall take thought for the things of itself. Sufficient unto the day is the evil thereof."
+  },
+  {
+   "id": "n5b",
+   "speaker": "narrator",
+   "text": "Don't go out to meet tomorrow. Tomorrow will look after itself, and today has enough in it already. Your anxious tomorrow is not something you have to carry alone."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "He is not scolding the worry. He knows life is hard and needs are real. He is gently loosening your grip, one finger at a time, and offering to carry it with you, as a Father who already knows exactly what you need."
+  },
+  {
+   "id": "jv33",
+   "speaker": "jesus",
+   "verse": "Matthew 6:33",
+   "text": "But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you."
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "Put him first, he says, and stop bracing against tomorrow all by yourself. The same Father who has not forgotten a single sparrow has certainly not forgotten you. You can breathe. You are cared for."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "God feeds the birds and clothes the wildflowers, and Jesus says you matter far more to your Father than these. What worry could you set down today, and trust him with instead?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "jv26",
+   "S2",
+   "in"
+  ],
+  [
+   "n2",
+   "S3",
+   "in"
+  ],
+  [
+   "n3",
+   "S4",
+   "in"
+  ],
+  [
+   "jv2829",
+   "S5",
+   "in"
+  ],
+  [
+   "n4",
+   "S6",
+   "in"
+  ],
+  [
+   "jv30",
+   "S6",
+   "out"
+  ],
+  [
+   "n5",
+   "S6",
+   "in"
+  ],
+  [
+   "jv34",
+   "S7",
+   "in"
+  ],
+  [
+   "n5b",
+   "S7",
+   "out"
+  ],
+  [
+   "n6",
+   "S8",
+   "in"
+  ],
+  [
+   "jv33",
+   "S9",
+   "in"
+  ],
+  [
+   "n7",
+   "S10",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "S6": "S6 now carries three beats - the Solomon retelling, Matthew 6:30 verbatim, and its retelling. The verse turns on grass that is alive today and burned tomorrow, so frame the fragility rather than just a pretty field: low golden light raking across a hillside of dry summer grass and wildflowers, heads already going to seed, a thin haze of smoke on the far ridge. Beautiful and clearly temporary.",
+  "S7": "S7 now carries Matthew 6:34 verbatim and its retelling. Frame tomorrow, not worry in the abstract: one person sitting alone at the end of the day looking out at a road that disappears over a hill, hands still, shoulders down. Dusk. The feeling is a mind already out ahead of itself - quiet, not dramatic."
+ }
+}

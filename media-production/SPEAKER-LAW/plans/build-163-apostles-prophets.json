@@ -1,0 +1,118 @@
+{
+ "build": "build-163-apostles-prophets",
+ "reference": "Ephesians 2",
+ "notes": "Ephesians is an epistle — Paul writing to the saints at Ephesus. A red-letter\nKing James Bible prints no red in Ephesians 2. Both red beats move to\nSCRIPTURE (light blue):\n  kv19  Ephesians 2:19  'Now therefore ye are no more strangers...'  RED -> SCRIPTURE\n  kv20  Ephesians 2:20  'And are built upon the foundation...'       RED -> SCRIPTURE\n\nkv20 names Jesus Christ but does not quote him — 'Jesus Christ himself being\nthe chief corner stone' is Paul describing him in the third person. Being about\nChrist is not the same as being spoken by Christ, and that distinction is\nexactly what the red was getting wrong here.\n\nNo mixed segments, nothing split. No verses lifted — n4 through n7 already\nretell both quotations in plain English.\n\nWHY-LAW: milk. Apostles and prophets are the foundation and Christ is the\ncornerstone — stated as Paul stated it, with no argument attached about who\nholds those offices now. The viewer is simply told there is a blueprint, and\nthat there is a place in the house for them.",
+ "segments": [
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "The people Paul was writing to had once been outsiders — foreigners, strangers, on the far edge of God's promises, with no place at the table and no share in the family."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "But something had changed everything. The door had been thrown open, and those who were far off had been brought near — no longer guests to be tolerated, but family to be embraced."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "Paul reached for a beautiful picture: they were now part of a household — the very household of God. Not a crowd of strangers passing through, but sons and daughters at home, belonging."
+  },
+  {
+   "id": "kv19",
+   "speaker": "scripture",
+   "verse": "Ephesians 2:19",
+   "text": "Now therefore ye are no more strangers and foreigners, but fellowcitizens with the saints, and of the household of God;"
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "But a household needs a house — and a house needs to be built, and built right. So Paul changed the picture from a family to a building, the dwelling place of God among his people."
+  },
+  {
+   "id": "n5",
+   "speaker": "narrator",
+   "text": "Every real building rests on a foundation. And this one, Paul said, was laid on the apostles and the prophets — men God had called and taught, whose witness became the solid ground the whole structure would stand on."
+  },
+  {
+   "id": "n6",
+   "speaker": "narrator",
+   "text": "And at the most important place of all — the cornerstone, the stone that sets the angle, holds two walls together, and keeps the whole building square and true — stood Christ himself. Everything is lined up to him."
+  },
+  {
+   "id": "kv20",
+   "speaker": "scripture",
+   "verse": "Ephesians 2:20",
+   "text": "And are built upon the foundation of the apostles and prophets, Jesus Christ himself being the chief corner stone;"
+  },
+  {
+   "id": "n7",
+   "speaker": "narrator",
+   "text": "So the church was never meant to be a loose, shapeless crowd. It has a design — a foundation of apostles and prophets, a cornerstone that is Christ, and living people fitted together into a home for God. There is a blueprint."
+  },
+  {
+   "id": "n8",
+   "speaker": "narrator",
+   "text": "And the best part is where that leaves you. You are not a stranger at the door. In this house you have a place, fitted in and belonging, part of what God is building. So the only question is a hopeful one. When he offers you a place in it, will you come inside?"
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "You are no longer a stranger, but part of the household of God — a building laid on apostles and prophets, with Christ the cornerstone holding it all together. When he offers you a place in it, will you come inside?"
+  }
+ ],
+ "beats": [
+  [
+   "n1",
+   "S1",
+   "in"
+  ],
+  [
+   "n2",
+   "S2",
+   "in"
+  ],
+  [
+   "n3",
+   "S3",
+   "in"
+  ],
+  [
+   "kv19",
+   "S4",
+   "in"
+  ],
+  [
+   "n4",
+   "S4",
+   "out"
+  ],
+  [
+   "n5",
+   "S5",
+   "in"
+  ],
+  [
+   "n6",
+   "S6",
+   "in"
+  ],
+  [
+   "kv20",
+   "S7",
+   "in"
+  ],
+  [
+   "n7",
+   "S7",
+   "out"
+  ],
+  [
+   "n8",
+   "S8",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {}
+}

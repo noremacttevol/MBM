@@ -1,0 +1,58 @@
+{
+ "build-101-still-small-voice": {
+  "status": "shipped",
+  "secs": 135.7,
+  "total": 211.33,
+  "trailing": 1.47,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-102-jacobs-ladder": {
+  "status": "shipped",
+  "secs": 129.2,
+  "total": 207.3,
+  "trailing": 1.51,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-104-boy-samuel": {
+  "status": "shipped",
+  "secs": 125.9,
+  "total": 179.03,
+  "trailing": 1.52,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-113-where-art-thou": {
+  "status": "shipped",
+  "secs": 205.8,
+  "total": 193.27,
+  "trailing": 1.54,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-114-abraham-sodom": {
+  "status": "shipped",
+  "secs": 114.6,
+  "total": 176.54,
+  "trailing": 1.48,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-115-ram-in-the-thicket": {
+  "status": "shipped",
+  "secs": 231.7,
+  "total": 237.03,
+  "trailing": 1.52,
+  "decode_errors": 0,
+  "ok": true
+ },
+ "build-116-graven-on-his-palms": {
+  "status": "shipped",
+  "secs": 149.4,
+  "total": 156.43,
+  "trailing": 1.52,
+  "decode_errors": 0,
+  "ok": true
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "build": "build-129-nazareth-only-a-few",
+ "reference": "Mark 6",
+ "notes": "MOVED OFF RED - THE MAIN FIX. s1 was painted Jesus-red and Jesus is not speaking\nin it at all. 'And he could there do no mighty work, save that he laid his hands\nupon a few sick folk, and healed them. And he marvelled because of their\nunbelief' is Mark 6:5-6, MARK NARRATING. That is the evangelist writing, so it is\nnow SCRIPTURE, light blue. Exactly the case PLAN-AUTHORING calls out: narration\ninside the Gospels is `scripture`, not `jesus`.\n\nLIFTED - the townspeople, who were the whole problem and never got to speak.\n  s3  Mark 6:3  'Is not this the carpenter, the son of Mary, the brother of\n      James, and Joses, and of Juda, and Simon? and are not his sisters here with\n      us?'  SCRIPTURE. The still ST2 is literally named 'isnt-this-the-carpenter'\n      and the line it was named for was never spoken in the video. n1 keeps its\n      original text and now works as the retelling right after it.\n\nNEW RED, CORRECTLY. jv4 Mark 6:4 'A prophet is not without honour, but in his own\ncountry, and among his own kin, and in his own house.' The famous line of this\npassage was missing entirely. It IS red-letter - Jesus speaking in the flesh. The\nKJV frame 'But Jesus said unto them,' is deliberately NOT included, so no split\nwas needed; the segment is his words only. n1b is its retelling.\n\nADDED: n3b, so ST6 ('the healed few') gets used, and n4 moves to ST7 ('the door\nfaith opens') which matches its line about faith opening the door. The original\nbuild left ST7 unused.\n\nWOMEN: Mary is NAMED in Mark 6:3 - 'the son of Mary' - and his sisters are\nmentioned, but Mark records none of them speaking anywhere in this passage.\nNothing was added, because there is nothing verbatim to add. Not invented.\n\nWHY-LAW: his power did not run out in Nazareth. Their willingness did. And even\nthen he healed the few who came anyway - the mercy did not shrink to match the\nunbelief.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "Jesus went back to Nazareth, the town that watched Him grow up. He taught in the synagogue."
+  },
+  {
+   "id": "s3",
+   "speaker": "scripture",
+   "verse": "Mark 6:3",
+   "text": "Is not this the carpenter, the son of Mary, the brother of James, and Joses, and of Juda, and Simon? and are not his sisters here with us?"
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "But the people who'd known Him as a boy couldn't believe. They took offense at Him — and their unbelief became a wall."
+  },
+  {
+   "id": "jv4",
+   "speaker": "jesus",
+   "verse": "Mark 6:4",
+   "text": "A prophet is not without honour, but in his own country, and among his own kin, and in his own house."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "A prophet gets honored everywhere, He said — everywhere except home. Except among his own relatives. Except in his own house."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "He could do only a few mighty works there. Not because His power ran out, but because they wouldn't receive it."
+  },
+  {
+   "id": "s1",
+   "speaker": "scripture",
+   "verse": "Mark 6:5-6",
+   "text": "And he could there do no mighty work, save that he laid his hands upon a few sick folk, and healed them. And he marvelled because of their unbelief."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "He still healed the few who came. Even amazement at their doubt didn't stop His mercy."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "A few sick folk. That is all Nazareth brought Him, and He laid His hands on every one of them. The mercy never shrank down to match the unbelief."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Faith opens the door. Where people believed, even a little, He worked."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He healed the few who reached out. The door is the same today — believe, and let Him work."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "s3",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1",
+   "ST2",
+   "out"
+  ],
+  [
+   "jv4",
+   "ST2",
+   "in"
+  ],
+  [
+   "n1b",
+   "ST3",
+   "in"
+  ],
+  [
+   "n2",
+   "ST3",
+   "out"
+  ],
+  [
+   "s1",
+   "ST4",
+   "in"
+  ],
+  [
+   "n3",
+   "ST5",
+   "in"
+  ],
+  [
+   "n3b",
+   "ST6",
+   "in"
+  ],
+  [
+   "n4",
+   "ST7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST2": "ST2 now carries three beats — the townspeople's verbatim question, its retelling, and Jesus's reply. Frame the question itself: a knot of Nazareth men and women in the synagogue, half-turned toward each other rather than toward Him, faces sceptical and faintly amused, one gesturing back over his shoulder at Jesus as he says it. Familiarity, not hatred. He is in frame but not the centre — that is the whole problem.",
+  "ST3": "ST3 now carries the retelling of the prophet-without-honour line and the beat about power that was never spent. Frame Jesus in the synagogue doorway, alone in the middle distance, the crowd already turning away behind Him. Quiet, unhurried, not wounded — just unwelcomed."
+ }
+}

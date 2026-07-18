@@ -1,0 +1,101 @@
+{
+ "build": "build-130-what-manner-of-spirit",
+ "reference": "Luke 9",
+ "notes": "STAYED RED: j1 is correct as it stands. 'Ye know not what manner of spirit ye are\nof. For the Son of man is not come to destroy men's lives, but to save them' is\nLuke 9:55-56, Jesus speaking in the flesh, and a red-letter KJV inks it. The KJV\nframe around it - 'But he turned, and rebuked them, and said' - is NOT in the\nsegment, so there was no welded frame to split. n2 already carries that framing\nin the storyteller's own modern words, which is where it belongs.\n\nLIFTED - the line the whole video answers, which was never voiced.\n  s54  Luke 9:54  'Lord, wilt thou that we command fire to come down from heaven,\n       and consume them, even as Elias did?'  SCRIPTURE, light blue. James and\n       John are apostles, not Deity, so blue is right. n1 was paraphrasing this\n       in the narrator's voice; n1 keeps its original text and now works as the\n       retelling immediately after it. The rebuke lands ten times harder once you\n       have heard two of the Twelve ask for it out loud.\n\nADDED: n3b, covering Luke 9:56b - they simply went to another village. The\noriginal build had no beat doing that work on ST6 ('walking on'), and it moves n4\nonto ST7 ('warmth not fire'), which the original left unused entirely.\n\nNOTE ON THE STILLS: the brief's still_vars has no ST2 - s2-sorrow-not-wrath.jpeg\nis on disk but is not bound to a variable, so it cannot be used in beats. Left\nalone; the artwork is untouched.\n\nWOMEN: Luke 9:51-56 records no woman speaking. Nothing added, nothing invented.\n\nWHY-LAW: he did not rebuke the village that shut its gate. He rebuked the two men\nwho wanted it burned. Milk framing - the wanting-to-destroy is the thing that is\nnot from him, and he says so gently, to people he loves.",
+ "segments": [
+  {
+   "id": "n0",
+   "speaker": "narrator",
+   "text": "As Jesus traveled toward Jerusalem, a Samaritan village refused to welcome Him. The disciples James and John were hot with anger."
+  },
+  {
+   "id": "s54",
+   "speaker": "scripture",
+   "verse": "Luke 9:54",
+   "text": "Lord, wilt thou that we command fire to come down from heaven, and consume them, even as Elias did?"
+  },
+  {
+   "id": "n1",
+   "speaker": "narrator",
+   "text": "They asked if they should call down fire from heaven to burn the place. They wanted judgment."
+  },
+  {
+   "id": "n2",
+   "speaker": "narrator",
+   "text": "Jesus turned and rebuked them — not the village, but His own disciples' hearts."
+  },
+  {
+   "id": "j1",
+   "speaker": "jesus",
+   "verse": "Luke 9:55-56",
+   "text": "Ye know not what manner of spirit ye are of. For the Son of man is not come to destroy men's lives, but to save them."
+  },
+  {
+   "id": "n3",
+   "speaker": "narrator",
+   "text": "He didn't come to burn. He came to rescue. The fire in the disciples' hearts was the wrong kind."
+  },
+  {
+   "id": "n3b",
+   "speaker": "narrator",
+   "text": "And then they simply walked on to the next village. No fire. No answer to the insult at all — just the road, and somewhere else to be."
+  },
+  {
+   "id": "n4",
+   "speaker": "narrator",
+   "text": "Anger that wants to destroy isn't from Him. The spirit He brings saves."
+  },
+  {
+   "id": "card",
+   "speaker": "narrator",
+   "text": "He came to save, not to burn. Let His Spirit — the saving one — shape yours."
+  }
+ ],
+ "beats": [
+  [
+   "n0",
+   "ST1",
+   "in"
+  ],
+  [
+   "s54",
+   "ST3",
+   "in"
+  ],
+  [
+   "n1",
+   "ST3",
+   "out"
+  ],
+  [
+   "n2",
+   "ST4",
+   "in"
+  ],
+  [
+   "j1",
+   "ST4",
+   "out"
+  ],
+  [
+   "n3",
+   "ST5",
+   "in"
+  ],
+  [
+   "n3b",
+   "ST6",
+   "in"
+  ],
+  [
+   "n4",
+   "ST7",
+   "in"
+  ]
+ ],
+ "spoken": {},
+ "stills_wanted": {
+  "ST3": "ST3 now carries James and John's verbatim request and its retelling. Frame the asking, not the fire: the two brothers close on Jesus, one leaning in, both faces lit with certainty rather than rage — they think they are being loyal. The shut village gate small behind them on the hillside. No flames in frame; the fire is only in what they want.",
+  "ST4": "ST4 now carries the rebuke setup and Jesus's verbatim answer. Frame Him turned fully around toward the two of them, close, level-eyed, unangry. A correction between people who love each other, not a scolding."
+ }
+}
