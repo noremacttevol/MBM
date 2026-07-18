@@ -27,6 +27,7 @@ names. NUMBER-STRESS LAW: no risky numbers.
 """
 import asyncio
 import edge_tts
+from mbm_caption_timing import save_narration
 
 NARRATOR = "en-US-AndrewNeural"
 GOD = "en-US-ChristopherNeural"
@@ -78,8 +79,7 @@ SEGMENTS = [
 
 async def main():
     for name, voice, rate, pitch, text, cap in SEGMENTS:
-        tts = edge_tts.Communicate(text, voice, rate=rate, pitch=pitch)
-        await tts.save(f"audio/{name}.mp3")
+        await save_narration(text, voice, rate, pitch, f"audio/{name}.mp3")
         print(f"saved audio/{name}.mp3")
 
 
