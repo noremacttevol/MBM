@@ -13,6 +13,7 @@ Translation Law: no narrator line echoes KJV wording after Jesus speaks it.
 """
 import asyncio
 import edge_tts
+from mbm_caption_timing import save_narration
 
 NARRATOR = "en-US-AndrewNeural"     # plain American — never a Multilingual model
 JESUS = "en-US-ChristopherNeural"   # American. Never a British voice.
@@ -136,10 +137,18 @@ SEGMENTS = [
      "afraid to let anyone else see it?"),
 ]
 
+# CAPTION-LAW migration (Cameron denial #4, 2026-07-17: "the captions dont line
+# up wiht the words being said"). save_narration writes the REAL per-sentence
+# edge-tts timestamps to audio/<seg>.timing.json so caption_filter can anchor
+# every caption chunk to what is actually being said, instead of guessing by
+# character count.
+SPOKEN = {}
+
+
 async def main():
     for name, voice, rate, pitch, text in SEGMENTS:
-        tts = edge_tts.Communicate(text, voice, rate=rate, pitch=pitch)
-        await tts.save(f"audio/{name}.mp3")
+        tts_text = SPOKEN.get(name, text)
+        await save_narration(tts_text, voice, rate, pitch, f"audio/{name}.mp3")
         print(f"saved audio/{name}.mp3")
 
 if __name__ == "__main__":
