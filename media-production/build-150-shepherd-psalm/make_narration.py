@@ -20,6 +20,7 @@ on the head, n5a→s7 toward the dwelling, n5b→s8 let-him-lead. Only n5's
 """
 import asyncio
 import edge_tts
+from mbm_caption_timing import save_narration
 
 NARRATOR = "en-US-AndrewNeural"      # plain American — never a Multilingual model
 SCRIPTURE = "en-US-ChristopherNeural"  # the scripture voice. Exact KJV only.
@@ -71,8 +72,7 @@ SPOKEN = {
 async def main():
     for name, voice, rate, pitch, text in SEGMENTS:
         tts_text = SPOKEN.get(name, text)
-        tts = edge_tts.Communicate(tts_text, voice, rate=rate, pitch=pitch)
-        await tts.save(f"audio/{name}.mp3")
+        await save_narration(tts_text, voice, rate, pitch, f"audio/{name}.mp3")
         print(f"saved audio/{name}.mp3")
 
 if __name__ == "__main__":
