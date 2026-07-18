@@ -1,74 +1,88 @@
 #!/usr/bin/env python3
-"""Generate narration audio for Story Video #148 — Ruth and the Redeemer
-(Ruth 1:16-17; 4:13-17). From DRAFTS/row-148.md, validated against the laws.
-Narrator: modern, warm, low, unhurried (American). Plain US model only.
-Old Testament narrative — Jesus does not appear and there is no KJV line in
-this draft: Ruth's vow is carried as the narrator's modern paraphrase (the
-Translation Law permits paraphrase; only KJV itself is barred from the
-narrator, and none is quoted).
-HOMOGRAPH LAW — BUILDER EAR-CHECK n7 ("the line that LEADS to the greater
-Redeemer"): "lead" is on the flag list — must read /LEEDZ/, never /LEDZ/.
-The natural reading is usually right; LISTEN before assembly. If misread,
-respell SPOKEN "leeds". No other flagged words in any segment (the draft's
-"tears"/"live" flags refer to words that do not appear in the final text).
+"""Narration for build-148-ruth-and-the-redeemer — Ruth 1.
 
-SEGMENTATION (ASSEMBLY-C, 2026-07-17): n6 split at its sentence break so all
-9 stills carry a beat synced to what is being said (CAPTION LAW): n6a→s7 the
-town gate, n6b→s8 Naomi's arms filled. Words unchanged from the draft.
+SPEAKER-LAW rebuild (see media-production/SPEAKER-LAW.md). Who is speaking is
+declared once here and decides BOTH the voice and the caption colour.
+
+The single most quotable line in the Old Testament outside the psalms — Ruth 1:16-17 —
+was a modern paraphrase in the narrator's voice ('Where you go, I'll go'). That is now
+Ruth herself, WOMAN (pink), verbatim KJV, split in two so each half lands:
+  w1a  Ruth 1:16  'Intreat me not to leave thee... thy God my God'
+  w1b  Ruth 1:17  'Where thou diest, will I die...'
+n2 is kept (id preserved) and rewritten from paraphrase into the retelling.
+
+Naomi also speaks now — WOMAN — because it is the hinge of the chapter and it makes
+the ending land harder when her arms are filled:
+  w2a  Ruth 1:20  'Call me not Naomi, call me Mara...'
+  w2b  Ruth 1:21  'I went out full, and the LORD hath brought me home again empty.'
+
+Boaz gets his own voice as SCRIPTURE (light blue) — he is a man in the story, not Deity:
+  s1   Ruth 2:12  'The LORD recompense thy work...'
+  s2   Ruth 3:11  '...thou art a virtuous woman.'
+
+Ruth is Old Testament, and no beat in this chapter is Deity speaking, so there is no
+`jesus` and no `god` beat. Nothing was previously red; six new voiced lines were added
+and every one is verbatim.
+
+LEFT AS NARRATOR: the women of Bethlehem blessing Naomi in Ruth 4:14-15, and the
+gate scene in Ruth 4:9-10. Both are strong, but I am not certain enough of the exact
+KJV wording to put them in a coloured voice, so they stay in the storyteller's mouth.
+
+WHY-LAW: Boaz is called the redeemer by law, and the last beat quietly points past him.
+Nothing on screen argues it. Milk.
 """
 import asyncio
-import edge_tts
-from mbm_caption_timing import save_narration
+import os
 
-NARRATOR = "en-US-AndrewNeural"     # plain American — never a Multilingual model
+from mbm_caption_timing import save_speaker_narration
+from mbm_pronounce import audit, spoken_text
+from mbm_speakers import NARRATOR, SCRIPTURE, WOMAN
 
+# (id, speaker, caption_text). The caption always shows this exact text; only the
+# string handed to the TTS is respelled.
 SEGMENTS = [
-    # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
-     "A widow named Naomi lost everything in a foreign land — her "
-     "husband and both sons buried there."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "She told her two daughters-in-law to go home. One kissed her "
-     "and left. But Ruth clung to her."),
-    ("n2", NARRATOR, "-20%", "-4Hz",
-     "Where you go, I'll go, Ruth said. Your people will be my "
-     "people, and your God my God."),
-    # sacred-silence beat follows n2.
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "Back in Bethlehem, Ruth gleaned grain in the fields to keep "
-     "Naomi fed — and the field belonged to a man named Boaz."),
-    ("n4", NARRATOR, "-20%", "-4Hz",
-     "Boaz noticed her. He protected her, fed her, and spoke "
-     "kindly. He was a near kinsman — a redeemer by the law."),
-    ("n5", NARRATOR, "-20%", "-4Hz",
-     "At the threshing floor, Ruth asked him to cover her with his "
-     "cloak, the sign of a kinsman's duty. He promised to redeem "
-     "her."),
-    ("n6a", NARRATOR, "-20%", "-4Hz",
-     "Before the town gate, Boaz bought the right to marry Ruth."),
-    ("n6b", NARRATOR, "-20%", "-4Hz",
-     "Naomi's emptiness was filled; a son was born."),
-    ("n7", NARRATOR, "-20%", "-4Hz",
-     "That boy became the grandfather of King David — and part of "
-     "the line that leads to the greater Redeemer still to come."),
-    ("card", NARRATOR, "-22%", "-5Hz",
-     "Ruth gave up everything to follow the God she'd come to "
-     "love. He never let her go. Neither will He let you go."),
+    ("n0", NARRATOR, "A widow named Naomi lost everything in a foreign land — her husband and both sons buried there."),
+    ("n1", NARRATOR, "She told her two daughters-in-law to go home to their own people. One kissed her and left. But Ruth clung to her, and would not go."),
+    # Ruth 1:16
+    ("w1a", WOMAN, "Intreat me not to leave thee, or to return from following after thee: for whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God."),
+    # Ruth 1:17
+    ("w1b", WOMAN, "Where thou diest, will I die, and there will I be buried: the LORD do so to me, and more also, if ought but death part thee and me."),
+    ("n2", NARRATOR, "Don't ask me to leave you, Ruth said. Wherever you go, I'm going. Wherever you stay, I'm staying. Your people are my people now, and your God is my God. Where you die, I'll die, and that's where they'll bury me. Only death gets to separate us — and even that, may God deal with me if it does."),
+    # Ruth 1:20
+    ("w2a", WOMAN, "Call me not Naomi, call me Mara: for the Almighty hath dealt very bitterly with me."),
+    # Ruth 1:21
+    ("w2b", WOMAN, "I went out full, and the LORD hath brought me home again empty."),
+    ("n2b", NARRATOR, "Naomi means pleasant. Don't call me that anymore, she said when she got home — call me bitter. I went out with a husband and two sons, and I've come back with nothing. Hold on to that word, empty. The story is not finished with it."),
+    ("n3", NARRATOR, "Ruth gleaned grain in the fields behind the harvesters to keep Naomi fed — and the field belonged to a man named Boaz."),
+    # Ruth 2:12
+    ("s1", SCRIPTURE, "The LORD recompense thy work, and a full reward be given thee of the LORD God of Israel, under whose wings thou art come to trust."),
+    ("n4", NARRATOR, "May the Lord pay you back for what you've done, Boaz told her, and may He give you a full reward — the God of Israel, the One you came here to take shelter under. He protected her, fed her, and spoke kindly. He was a near kinsman — a redeemer by the law."),
+    # Ruth 3:11
+    ("s2", SCRIPTURE, "For all the city of my people doth know that thou art a virtuous woman."),
+    ("n5", NARRATOR, "The whole town knows what kind of woman you are, he said. At the threshing floor Ruth had asked him to cover her with his cloak, the sign of a kinsman's duty — and he promised to redeem her."),
+    ("n6a", NARRATOR, "Before the town gate, in front of witnesses, Boaz bought the right to marry Ruth."),
+    ("n6b", NARRATOR, "Naomi's emptiness was filled; a son was born, and the neighbour women laid him in her lap."),
+    ("n7", NARRATOR, "That boy became the grandfather of King David — and part of the line that leads to the greater Redeemer still to come."),
+    ("card", NARRATOR, "Ruth gave up everything to follow the God she'd come to love. He never let her go. Neither will He let you go."),
 ]
 
-# HOMOGRAPH LAW — ear-check n7 "leads" (see docstring). If misread,
-# uncomment the override. Captions stay exact.
+# Homographs this build decides for itself (never auto-replaced globally).
 SPOKEN = {
-    # "n7": ("That boy became the grandfather of King David — and part of "
-    #        "the line that leeds to the greater Redeemer still to come."),
+    "Intreat": "in-treat",
+    "ought": "awt",
 }
 
 
 async def main():
-    for name, voice, rate, pitch, text in SEGMENTS:
-        tts_text = SPOKEN.get(name, text)
-        await save_narration(tts_text, voice, rate, pitch, f"audio/{name}.mp3")
-        print(f"saved audio/{name}.mp3")
+    os.makedirs("audio", exist_ok=True)
+    for name, speaker, text in SEGMENTS:
+        flagged = [w for w in audit(text) if w not in SPOKEN]
+        if flagged:
+            print(f"  ! {name}: undecided homograph(s) {flagged}")
+        await save_speaker_narration(spoken_text(text, SPOKEN), speaker,
+                                     f"audio/{name}.mp3")
+        print(f"saved audio/{name}.mp3  [{speaker}]")
+
 
 if __name__ == "__main__":
     asyncio.run(main())
