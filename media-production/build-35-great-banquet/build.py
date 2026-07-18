@@ -28,6 +28,7 @@ import subprocess
 import textwrap
 
 import make_narration  # SEGMENTS -> verbatim caption text per segment
+from mbm_caption_timing import caption_filter
 
 A = "assets"
 S = "segs"
@@ -155,11 +156,9 @@ def build_still(seg_id, src, dur, zdir, cap_text, kjv, first, last):
             f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"d={frames}:s=2160x3840:fps={FPS},"
             f"scale=1080:1920:flags=lanczos")
-    capf = caption_overlay(seg_id, dur, cap_text, kjv)
-    tail = ""
-    if first:
-        tail = ",fade=t=in:st=0:d=1.0"
-    fc = f"{base}[b];{capf};[b][cap]overlay=format=auto{tail}[v]"
+    cap = caption_filter(seg_id, dur, dur, cap_text, kjv)
+    tail = ",fade=t=in:st=0:d=1.0" if first else ""
+    fc = f"{base}{cap}{tail}[v]"
     run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
          "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
 
