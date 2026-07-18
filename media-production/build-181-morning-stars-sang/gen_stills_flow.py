@@ -22,7 +22,15 @@ DRIVER = HERE.parent / "flow_driver.py"
 PROMPTS = HERE / "PROMPTS.md"
 ASSETS = HERE / "assets"
 
-STYLE = 'Beautiful hand-painted 2D animation style, reverent and warm, like a classic illustrated storybook of scripture brought to life. Soft painterly brushstroke textures, glowing golden light, muted earth tones with warm gold highlights. First-century Judea. Sacred, hushed tone. Not photorealistic. No text or captions in the image. Historically modest clothing: rough-woven wool and linen in undyed earth colors. No modern objects.'
+# COSMIC STYLE (Cameron denial #181, 2026-07-18: "the pictures need to be better
+# made i dont think they fit the story well"). The shared house style block says
+# "First-century Judea" and "historically modest clothing" — correct for the gospel
+# stories, but this video is Job 38, BEFORE the earth's foundations were laid. Those
+# two clauses dragged every cosmic prompt back to earth: s3 came out a Judean village
+# with olive trees and s5 came out a full NATIVITY. The setting clauses are replaced
+# with the creation setting; the painterly look is kept byte-for-byte so this video
+# still matches the rest of the 200.
+STYLE = 'Beautiful hand-painted 2D animation style, reverent and warm, like a classic illustrated storybook of scripture brought to life. Soft painterly brushstroke textures, glowing golden light, deep blue-black cosmic tones with warm gold highlights. The creation itself, seen from the deep of space BEFORE the earth was finished — painted starfields, nebulae and newborn light at cosmic scale. Sacred, hushed tone. Not photorealistic. No text or captions in the image. There is NO landscape, NO ground, NO horizon line, NO buildings, NO village, NO houses, NO trees, NO animals, NO people, NO human figures, NO infant, NO manger and NO nativity anywhere in the image — nothing of the earth has been made yet. Sky, stars and light only. No modern objects.'
 
 
 def parse_locks(text):
