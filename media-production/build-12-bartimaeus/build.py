@@ -12,6 +12,7 @@ import os
 import subprocess
 
 import shutil
+from mbm_caption_timing import caption_filter
 FF = shutil.which("ffmpeg") or "ffmpeg"
 A, S, FPS = "assets", "segs", 30
 SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
@@ -87,12 +88,11 @@ def caption_overlay(seg_id, dur, text, style):
 
 
 def assemble(seg_id, base, dur, cap, style, tail=""):
-    capf = caption_overlay(seg_id, dur, cap, style)
-    if capf:
-        return f"{base}[base];{capf};[base][cap]overlay=format=auto{tail}[v]"
-    return f"{base}{tail}[v]"
-
-
+    # CAPTION LAW: Jost adaptive band drawn on the opaque still.
+    if not cap:
+        return f"{base}{tail}[v]"
+    capf = caption_filter(seg_id, dur, dur, " ".join(cap.split()), style == "kjv")
+    return f"{base}{capf}{tail}[v]"
 def build_still(seg_id, src, dur, zdir, cap, style):
     frames = int(dur * FPS)
     z = f"1.001+0.09*on/{frames}" if zdir == "in" else f"1.091-0.09*on/{frames}"

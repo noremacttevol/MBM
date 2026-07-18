@@ -1,8 +1,10 @@
+import shutil
 #!/usr/bin/env python3
 """Assemble Story Video #31 — The Ten Virgins (Matthew 25:1-13).
 Phase-1 STILLS-ONLY + Face Law. Parable; bridegroom only distant/from-behind.
 Windows build. Timeline computed from measured narration durations."""
 import os, shutil, subprocess
+from mbm_caption_timing import caption_filter
 # Cross-platform: use Elli's Windows ffmpeg/Georgia if present, else the Linux
 # ffmpeg on PATH + the serif fonts the other Linux builds use. (2026-07-13:
 # added so this can be rebuilt on the Linux dev box for the s3 lamp fix.)
@@ -11,9 +13,9 @@ _WIN_FF = ("C:/Users/ellil/AppData/Local/Microsoft/WinGet/Packages/"
            "ffmpeg-8.1.2-full_build/bin/ffmpeg.exe")
 FF = _WIN_FF if os.path.exists(_WIN_FF) else (shutil.which("ffmpeg") or "ffmpeg")
 A, S, FPS = "assets", "segs", 30
-if os.path.exists("C:/Windows/Fonts/georgia.ttf"):
-    SERIF = "C\\:/Windows/Fonts/georgia.ttf"
-    SERIF_BI = "C\\:/Windows/Fonts/georgiai.ttf"
+if os.path.exists("/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"):
+    SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
+    SERIF_BI = "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"
 else:
     SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
     SERIF_BI = "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"
@@ -109,9 +111,11 @@ def caption_overlay(seg_id, dur, text, style):
             f"fade=t=in:st=0:d=0.5:alpha=1,fade=t=out:st={fo}:d=0.5:alpha=1[cap]")
 
 def assemble(seg_id, base, dur, cap, style, tail=""):
-    capf = caption_overlay(seg_id, dur, cap, style)
-    return f"{base}[base];{capf};[base][cap]overlay=format=auto{tail}[v]" if capf else f"{base}{tail}[v]"
-
+    # CAPTION LAW: Jost adaptive band drawn on the opaque still.
+    if not cap:
+        return f"{base}{tail}[v]"
+    capf = caption_filter(seg_id, dur, dur, " ".join(cap.split()), style == "kjv")
+    return f"{base}{capf}{tail}[v]"
 def build_still(seg_id, src, dur, zdir, cap, style):
     frames = int(dur*FPS)
     z = f"1.001+0.09*on/{frames}" if zdir=="in" else f"1.091-0.09*on/{frames}"
