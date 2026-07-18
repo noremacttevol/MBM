@@ -19,6 +19,15 @@
 
 ## Fix queue (rejected builds — fix before taking new work in that range)
 
+> **ALSO CHECK CAMERON'S LIVE COMPLAINTS ON GITHUB** — he now files problems from
+> the review page as GitHub issues labelled `complaint`. Before/while you work, run
+> `gh issue list --label complaint --state open` (or the API). Each open issue names
+> a video (`Video #N — Title`) and what's wrong. Fix that video, rebuild, push, then
+> **close the issue** (`gh issue close <n> -c "fixed in <commit>"`). The complaint
+> stays pinned on Cameron's page until the issue is closed AND a newer cut replaces
+> the video — that's the rule. Do NOT touch approvals (Cameron owns those).
+
+
 | # | Story | What's wrong | Claimed by |
 |---|---|---|---|
 | 7 | Peter walks on water | ✅ FIXED (Machine C 2026-07-17): all four items. (1)+(3) 6 sea stills rerolled — zoom-QC'd waterline, every figure's feet ON the surface with ripple rings, only sinking Peter in the water; walk direction locked by SIDE-VIEW geometry (Peter L→R toward Jesus in s5, both L→R toward the boat in s9). (2) the weird stills replaced, cleaner v4 art. (4) end card re-rendered per-line drawtext (build_card) — verified NO tofu. Bonus: Peter barefoot in every water shot for continuity. 20.2MB/4:16, decode-verified. Awaiting Cameron's re-watch. | Machine C 2026-07-17 |
