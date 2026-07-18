@@ -32,6 +32,7 @@ would be born in a cattle-stall to be near you, there is room for you near him.
 """
 import asyncio
 import edge_tts
+from mbm_caption_timing import save_narration
 
 NARRATOR = "en-US-AndrewNeural"     # plain American — never a Multilingual model
 
@@ -117,8 +118,7 @@ SEGMENTS = [
 
 async def main():
     for name, voice, rate, pitch, text in SEGMENTS:
-        tts = edge_tts.Communicate(text, voice, rate=rate, pitch=pitch)
-        await tts.save(f"audio/{name}.mp3")
+        await save_narration(text, voice, rate, pitch, f"audio/{name}.mp3")
         print(f"saved audio/{name}.mp3")
 
 if __name__ == "__main__":
