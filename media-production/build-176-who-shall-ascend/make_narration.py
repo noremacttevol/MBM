@@ -28,11 +28,11 @@ SEGMENTS = [
      "A question was put to Israel long ago — who gets to climb "
      "the hill of the LORD and stand in his holy place?"),
     # Exact KJV Psalm 24:3 — THE CENTERPIECE, scripture voice.
-    ("s1", SCRIPTURE, "-24%", "-2Hz",
+    ("s1", NARRATOR, "-20%", "-4Hz",
      "Who shall ascend into the hill of the LORD? or who shall "
      "stand in his holy place?"),
     # Exact KJV Psalm 24:4.
-    ("s2", SCRIPTURE, "-24%", "-2Hz",
+    ("s2", NARRATOR, "-20%", "-4Hz",
      "He that hath clean hands, and a pure heart; who hath not "
      "lifted up his soul unto vanity, nor sworn deceitfully."),
     ("n1", NARRATOR, "-20%", "-4Hz",

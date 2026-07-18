@@ -31,7 +31,7 @@ SEGMENTS = [
      "He did not leave it there in the dark. He pointed plainly to "
      "where the breath goes."),
     # Exact KJV Eccl 12:7 — THE CENTERPIECE, scripture voice.
-    ("s1", SCRIPTURE, "-24%", "-2Hz",
+    ("s1", NARRATOR, "-20%", "-4Hz",
      "Then shall the dust return to the earth as it was: and the "
      "spirit shall return unto God who gave it."),
     ("n2", NARRATOR, "-20%", "-4Hz",

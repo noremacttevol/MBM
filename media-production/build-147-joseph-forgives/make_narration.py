@@ -33,7 +33,7 @@ SEGMENTS = [
      "didn't recognize the brother they'd betrayed. Then he told "
      "them."),
     # sacred-silence beat follows n1. Exact KJV Gen 45:5 — scripture voice.
-    ("s1", SCRIPTURE, "-22%", "-2Hz",
+    ("s1", NARRATOR, "-20%", "-4Hz",
      "Now therefore be not grieved, nor angry with yourselves, "
      "that ye sold me hither: for God did send me before you to "
      "preserve life."),
@@ -41,7 +41,7 @@ SEGMENTS = [
      "Much later, when their father died and the brothers feared "
      "revenge, Joseph spoke the line that closes the wound."),
     # Exact KJV Gen 50:20 — scripture voice.
-    ("s2", SCRIPTURE, "-22%", "-2Hz",
+    ("s2", NARRATOR, "-20%", "-4Hz",
      "But as for you, ye thought evil against me; but God meant it "
      "unto good, to bring to pass, as it is this day, to save much "
      "people alive."),

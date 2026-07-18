@@ -27,11 +27,11 @@ SEGMENTS = [
      "Paul wrote to the believers in Rome about who they really "
      "were — not strangers, not outsiders."),
     # Exact KJV Romans 8:16 — THE CENTERPIECE, scripture voice.
-    ("s1", SCRIPTURE, "-24%", "-2Hz",
+    ("s1", NARRATOR, "-20%", "-4Hz",
      "The Spirit itself beareth witness with our spirit, that we "
      "are the children of God:"),
     # Exact KJV Romans 8:17 — SILENCE around it.
-    ("s2", SCRIPTURE, "-24%", "-2Hz",
+    ("s2", NARRATOR, "-20%", "-4Hz",
      "And if children, then heirs; heirs of God, and joint-heirs "
      "with Christ; if so be that we suffer with him, that we may "
      "be also glorified together."),

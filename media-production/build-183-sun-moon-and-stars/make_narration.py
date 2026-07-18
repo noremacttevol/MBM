@@ -35,7 +35,7 @@ SEGMENTS = [
      "way. There are different kinds of bodies, and different "
      "kinds of glory."),
     # Exact KJV 1 Cor 15:41 — THE CENTERPIECE, scripture voice.
-    ("s1", SCRIPTURE, "-24%", "-2Hz",
+    ("s1", NARRATOR, "-20%", "-4Hz",
      "There is one glory of the sun, and another glory of the "
      "moon, and another glory of the stars: for one star differeth "
      "from another star in glory."),
@@ -44,7 +44,7 @@ SEGMENTS = [
      "two stars burn quite alike. Then Paul said the astonishing "
      "part."),
     # Exact KJV 1 Cor 15:42a — SILENCE around it.
-    ("s2", SCRIPTURE, "-24%", "-2Hz",
+    ("s2", NARRATOR, "-20%", "-4Hz",
      "So also is the resurrection of the dead. It is sown in "
      "corruption; it is raised in incorruption:"),
     ("n3", NARRATOR, "-20%", "-4Hz",

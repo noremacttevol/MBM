@@ -26,7 +26,7 @@ SEGMENTS = [
      "Paul wrote that when God's Spirit lives in a person, a "
      "harvest grows — not crops, but character."),
     # Exact KJV Gal 5:22-23 — THE CENTERPIECE, scripture voice.
-    ("s1", SCRIPTURE, "-24%", "-2Hz",
+    ("s1", NARRATOR, "-20%", "-4Hz",
      "But the fruit of the Spirit is love, joy, peace, "
      "longsuffering, gentleness, goodness, faith, Meekness, "
      "temperance: against such there is no law."),

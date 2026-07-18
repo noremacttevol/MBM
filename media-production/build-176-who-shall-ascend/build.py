@@ -53,6 +53,11 @@ S9 = "s9-the-open-path.jpeg"
 
 TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
 KJV = {"s1", "s2"}            # cream-italic verses (Psalm 24:3 and 24:4)
+# Cameron 2026-07-18: "only Jesus's words in red." These verses are
+# the psalmist (Psalm 24:3-4) speaking/writing — NOT Jesus — so they get the narrator voice and a
+# WHITE caption. RED drives caption COLOUR ONLY; KJV is left alone so every
+# sacred gap and runtime calculation stays exactly as it was.
+RED = set()          # no words of Jesus in this video
 FLOW = {"n3a", "n4a"}         # each gate line flows into its second half: tight flow gap
 SACRED = {"s1", "s2", "n3b"}  # both verse holds + the pack's sacred pause after n3
 CARD_TEXT = ("The door is open to the one with a clean heart. Come and "
@@ -234,7 +239,7 @@ def main():
 
     for i, (seg_id, still, zdir, vdur, _a, kjv) in enumerate(timeline):
         build_still(seg_id, still, vdur, zdir, LEAD + spoken[seg_id],
-                    TEXT[seg_id], kjv, first=(i == 0))
+                    TEXT[seg_id], seg_id in RED, first=(i == 0))
     build_card(card_vdur, CARD_TEXT)
 
     with open(f"{S}/concat.txt", "w") as f:

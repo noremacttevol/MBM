@@ -31,7 +31,7 @@ SEGMENTS = [
      "Some who heard the good news had already died before they "
      "could finish their lives in the body."),
     # Exact KJV 1 Peter 4:6 — THE CENTERPIECE, scripture voice, sacred silence.
-    ("s1", SCRIPTURE, "-24%", "-2Hz",
+    ("s1", NARRATOR, "-20%", "-4Hz",
      "For for this cause was the gospel preached also to them that "
      "are dead, that they might be judged according to men in the "
      "flesh, but live according to God in the spirit."),

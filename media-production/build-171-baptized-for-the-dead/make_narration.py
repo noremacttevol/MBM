@@ -34,7 +34,7 @@ SEGMENTS = [
      "Paul asked a striking question: if the dead don't rise at "
      "all, why would anyone be baptized on their behalf?"),
     # Exact KJV 1 Cor 15:29 — THE CENTERPIECE, scripture voice, sacred silence.
-    ("s1", SCRIPTURE, "-24%", "-2Hz",
+    ("s1", NARRATOR, "-20%", "-4Hz",
      "Else what shall they do which are baptized for the dead, if "
      "the dead rise not at all? why are they then baptized for the "
      "dead?"),

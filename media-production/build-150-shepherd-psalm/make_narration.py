@@ -31,7 +31,7 @@ SEGMENTS = [
      "Three thousand years ago a shepherd-king wrote a song about "
      "being shepherded himself. It starts like this:"),
     # Exact KJV Psalm 23:1 — scripture voice, sacred weight.
-    ("s1", SCRIPTURE, "-24%", "-2Hz",
+    ("s1", NARRATOR, "-20%", "-4Hz",
      "The LORD is my shepherd; I shall not want."),
     ("n1a", NARRATOR, "-20%", "-4Hz",
      "He leads me to quiet water and green places to rest."),

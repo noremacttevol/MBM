@@ -51,6 +51,11 @@ ST8 = "s8-the-candle-passed.jpeg"
 
 TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
 KJV = {"s1"}         # 1 Cor 15:29 — scripture voice, cream italic
+# Cameron 2026-07-18: "only Jesus's words in red." These verses are
+# Paul (1 Cor 15:29) speaking/writing — NOT Jesus — so they get the narrator voice and a
+# WHITE caption. RED drives caption COLOUR ONLY; KJV is left alone so every
+# sacred gap and runtime calculation stays exactly as it was.
+RED = set()          # no words of Jesus in this video
 SACRED = {"n2"}      # new life — white caption, sacred-length gap
 CARD_TEXT = ("Death separates for a while, not forever. Because He lives, "
              "there is hope for every name on the other side of the veil.")
@@ -224,7 +229,7 @@ def main():
 
     for i, (seg_id, still, zdir, vdur, _a, kjv) in enumerate(timeline):
         build_still(seg_id, still, vdur, zdir, LEAD + spoken[seg_id],
-                    TEXT[seg_id], kjv, first=(i == 0))
+                    TEXT[seg_id], seg_id in RED, first=(i == 0))
     build_card(card_vdur, CARD_TEXT)
 
     with open(f"{S}/concat.txt", "w") as f:

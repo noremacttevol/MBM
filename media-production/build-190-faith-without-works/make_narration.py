@@ -31,7 +31,7 @@ SEGMENTS = [
      "clothes and no food, and you wish them well but give "
      "nothing, what good is that?"),
     # Exact KJV James 2:17 — THE CENTERPIECE, scripture voice.
-    ("s1", SCRIPTURE, "-24%", "-2Hz",
+    ("s1", NARRATOR, "-20%", "-4Hz",
      "Even so faith, if it hath not works, is dead, being alone."),
     ("n2", NARRATOR, "-20%", "-4Hz",
      "Then he pointed to Abraham, who showed his faith by what he "

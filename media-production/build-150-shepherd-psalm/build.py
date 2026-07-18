@@ -51,6 +51,11 @@ ST8 = "s8-let-him-lead.jpeg"
 
 TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
 KJV = {"s1"}         # Psalm 23:1 — scripture voice, cream italic
+# Cameron 2026-07-18: "only Jesus's words in red." These verses are
+# David (Psalm 23:1) speaking/writing — NOT Jesus — so they get the narrator voice and a
+# WHITE caption. RED drives caption COLOUR ONLY; KJV is left alone so every
+# sacred gap and runtime calculation stays exactly as it was.
+RED = set()          # no words of Jesus in this video
 SACRED = {"n2"}      # right paths — white caption, sacred-length gap
 CARD_TEXT = ("The Shepherd who leads, restores, and walks the dark valley "
              "with you is the same One who invites you home. Let Him lead.")
@@ -225,7 +230,7 @@ def main():
 
     for i, (seg_id, still, zdir, vdur, _a, kjv) in enumerate(timeline):
         build_still(seg_id, still, vdur, zdir, LEAD + spoken[seg_id],
-                    TEXT[seg_id], kjv, first=(i == 0))
+                    TEXT[seg_id], seg_id in RED, first=(i == 0))
     build_card(card_vdur, CARD_TEXT)
 
     with open(f"{S}/concat.txt", "w") as f:
