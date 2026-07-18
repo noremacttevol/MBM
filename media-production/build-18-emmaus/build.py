@@ -8,14 +8,14 @@ Windows build: ffmpeg full path, Georgia serif fonts, UTF-8 captions.
 Output: luke-24_emmaus.mp4, 1080x1920 H.264 30fps, <25MB, ~258s.
 """
 import os
+import shutil
 import subprocess
+from mbm_caption_timing import caption_filter
 
-FF = ("C:/Users/ellil/AppData/Local/Microsoft/WinGet/Packages/"
-      "Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/"
-      "ffmpeg-8.1.2-full_build/bin/ffmpeg.exe")
+FF = shutil.which("ffmpeg") or "ffmpeg"
 A, S, FPS = "assets", "segs", 30
-SERIF = "C\\:/Windows/Fonts/georgia.ttf"
-SERIF_BI = "C\\:/Windows/Fonts/georgiai.ttf"
+SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
+SERIF_BI = "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"
 CREAM, INK = "0xF7F2E9", "0x3B2A1E"
 ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "16",
        "-pix_fmt", "yuv420p", "-r", str(FPS), "-an"]
@@ -99,12 +99,10 @@ def caption_overlay(seg_id, dur, text, style):
 
 
 def assemble(seg_id, base, dur, cap, style, tail=""):
-    capf = caption_overlay(seg_id, dur, cap, style)
-    if capf:
-        return f"{base}[base];{capf};[base][cap]overlay=format=auto{tail}[v]"
-    return f"{base}{tail}[v]"
-
-
+    if not cap:
+        return f"{base}{tail}[v]"
+    capf = caption_filter(seg_id, dur, dur, " ".join(cap.split()), style == "kjv")
+    return f"{base}{capf}{tail}[v]"
 def build_still(seg_id, src, dur, zdir, cap, style):
     frames = int(dur * FPS)
     z = f"1.001+0.09*on/{frames}" if zdir == "in" else f"1.091-0.09*on/{frames}"
