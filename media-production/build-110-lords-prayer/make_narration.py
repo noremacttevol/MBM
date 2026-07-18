@@ -74,9 +74,24 @@ SEGMENTS = [
 ]
 
 
+# SPOKEN-OVERRIDE (Cameron denial #110, 2026-07-18): "lead" was read as the metal
+# /led/. It is the VERB here — it rhymes with "seed", /liːd/ — so respell ONLY the
+# spoken word to "leed". Both occurrences are the verb (jv13 "lead us not", n4
+# "Lead me away"). Captions are untouched and still read the exact word "lead",
+# because build.py takes caption text from SEGMENTS, never from SPOKEN.
+SPOKEN = {
+    "jv13": ("And leed us not into temptation, but deliver us from evil: For thine is the "
+             "kingdom, and the power, and the glory, for ever. Amen."),
+    "n4": ("Keep me safe. Leed me away from what would harm me. And it ends where it began — "
+           "with him: the kingdom, the power, the glory, all his, for ever. Short. Honest. "
+           "Nothing showy."),
+}
+
+
 async def main():
     for name, voice, rate, pitch, text, cap in SEGMENTS:
-        await save_narration(text, voice, rate, pitch, f"audio/{name}.mp3")
+        tts_text = SPOKEN.get(name, text)
+        await save_narration(tts_text, voice, rate, pitch, f"audio/{name}.mp3")
         print(f"saved audio/{name}.mp3")
 
 
