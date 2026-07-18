@@ -6,4 +6,4 @@ clears itself once a newer cut replaces the video. Do NOT edit by hand.
 
 | # | What Cameron said |
 |---|---|
-| — | (none right now) |
+| 5 | caption |

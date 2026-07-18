@@ -703,6 +703,15 @@ first time.
 
 ## 5. QC Checklist (every video, before Cameron ever sees it)
 
+- [ ] 🛑 **HANDS OFF APPROVED VIDEOS** (Cameron, 2026-07-17: "something just pulled
+      them back out of that folder"). Before you re-caption, rebuild, or otherwise
+      change ANY video, check `media-production/approvals.json`. If its number is in
+      there, Cameron already approved that exact cut — **DO NOT TOUCH IT.** Re-captioning
+      or rebuilding it changes the file, which throws his approval away and yanks it out
+      of his Approved folder. The re-caption campaign covers only videos NOT in
+      approvals.json. If Cameron later denies an approved video, it leaves approvals.json
+      on its own and becomes fair game again.
+
 - [ ] 🛑 **CAPTION LAW — NO BIG CAPTIONS, EVER** (Cameron, 2026-07-17: "we made a
       rule for the captions to not take up the whole picture... most of these have
       bad captions... no big captions, if anything just split it and show the

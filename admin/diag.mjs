@@ -1,0 +1,31 @@
+import admin from 'firebase-admin';
+import { readFileSync, existsSync, readdirSync } from 'fs';
+import { execSync } from 'child_process';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+const here = dirname(fileURLToPath(import.meta.url));
+const REPO = join(here, '..');
+const sa = JSON.parse(readFileSync(join(here,'serviceAccount.json'),'utf8'));
+admin.initializeApp({ credential: admin.credential.cert(sa) });
+const db = admin.firestore();
+const hashes={};
+execSync('git ls-tree -r HEAD -- media-production',{cwd:REPO}).toString().split('\n').forEach(l=>{
+  const [meta,path]=l.split('\t'); if(!path)return;
+  const h=(meta||'').split(/\s+/)[2];
+  const m=path.match(/build-(\d+)-.*\/[0-9a-z]+-\d+_.*\.mp4$/); if(m)hashes[+m[1]]=h;
+});
+const marker={};
+readdirSync(join(REPO,'media-production')).forEach(name=>{
+  const m=name.match(/^build-(\d+)-/); if(!m)return;
+  marker[+m[1]]=existsSync(join(REPO,'media-production',name,'mbm_caption_timing.py'));
+});
+const snap=await db.collection('reviews').get();
+let ok=[],hidden=[],kicked=[];
+snap.forEach(doc=>{const n=+doc.id,d=doc.data(); if(!d.approved)return;
+  const match=d.approvedHash===hashes[n], shown=marker[n];
+  if(match&&shown)ok.push(n); else if(match&&!shown)hidden.push(n); else kicked.push(n);
+});
+console.log('still showing approved:',ok.sort((a,b)=>a-b));
+console.log('approved but HIDDEN by caption filter:',hidden.sort((a,b)=>a-b));
+console.log('approved but KICKED OUT (rebuilt since approval):',kicked.sort((a,b)=>a-b));
+process.exit(0);

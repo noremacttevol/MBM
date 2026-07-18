@@ -414,6 +414,7 @@ def card_html(num, title, scrip, length, rel, hashval):
 
 
 def main():
+    approved_nums = set(load_approvals().keys())  # never hide an approved video
     builds = sorted(glob.glob(os.path.join(REPO, "media-production", "build-*")))
     cards = []
     total_built = 0
@@ -426,8 +427,10 @@ def main():
         if not mp4:
             continue
         total_built += 1
-        # Re-caption campaign: only surface videos that have the new captions.
-        if NEW_CAPTION_MARKER and not os.path.exists(os.path.join(bd, NEW_CAPTION_MARKER)):
+        # Re-caption campaign: surface videos that have the new captions — PLUS any
+        # Cameron already approved, so an approval can never vanish from the page.
+        has_marker = os.path.exists(os.path.join(bd, NEW_CAPTION_MARKER)) if NEW_CAPTION_MARKER else True
+        if not has_marker and str(num) not in approved_nums:
             continue
         rel = os.path.relpath(mp4, REPO).replace(os.sep, "/")
         fname = os.path.basename(mp4)
@@ -440,6 +443,7 @@ def main():
     _appr, _post, rejected, reasons = parse_queue()
     hashes = mp4_hashes()
     count = len(cards)
+    approved_shown = sum(1 for (n, *_ ) in cards if str(n) in load_approvals())
 
     # Every video is rendered once into a hidden pool. The page's JavaScript reads
     # Cameron's approvals/complaints live from Firestore and moves each card into
