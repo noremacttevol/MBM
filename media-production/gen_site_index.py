@@ -47,6 +47,12 @@ GH_OWNER, GH_REPO = "noremacttevol", "MBM"
 # so build machines never conflict on it.
 APPROVALS_FILE = os.path.join(REPO, "media-production", "approvals.json")
 
+# RE-CAPTION CAMPAIGN (2026-07-17): all 200 are being re-captioned with the new
+# Jost caption engine. Cameron wants to review ONLY the freshly re-captioned cuts.
+# A video's build folder gets this file when it's migrated, so we show a card only
+# when this marker is present. Set to None to go back to showing every built video.
+NEW_CAPTION_MARKER = "mbm_caption_timing.py"
+
 # Nice display titles keyed by build number (the folder slug drives discovery;
 # this map only supplies the human-facing name). Anything not listed falls back
 # to a title derived from the filename slug.
@@ -410,6 +416,7 @@ def card_html(num, title, scrip, length, rel, hashval):
 def main():
     builds = sorted(glob.glob(os.path.join(REPO, "media-production", "build-*")))
     cards = []
+    total_built = 0
     for bd in builds:
         m = re.match(r"build-(\d+)-", os.path.basename(bd))
         if not m:
@@ -417,6 +424,10 @@ def main():
         num = int(m.group(1))
         mp4 = find_main_mp4(bd)
         if not mp4:
+            continue
+        total_built += 1
+        # Re-caption campaign: only surface videos that have the new captions.
+        if NEW_CAPTION_MARKER and not os.path.exists(os.path.join(bd, NEW_CAPTION_MARKER)):
             continue
         rel = os.path.relpath(mp4, REPO).replace(os.sep, "/")
         fname = os.path.basename(mp4)
@@ -453,11 +464,11 @@ def main():
         f'<script src="{fb}/firebase-auth-compat.js"></script>\n'
         f'<script src="{fb}/firebase-firestore-compat.js"></script>\n'
         "</head>\n<body>\n<header>\n"
-        "  <h1>Milk Before Meat — Story Videos</h1>\n"
-        "  <p class=\"sub\">Watch the ones waiting on your yes. Tap <b>Approve</b> when one's "
-        "good, or <b>Report a problem</b> to flag it — both save the second you tap, right here. "
-        "No sign-in, nothing else to do.</p>\n"
-        f"  <p class=\"sub\">{count} videos built.</p>\n"
+        "  <h1>Milk Before Meat — New-Caption Review</h1>\n"
+        "  <p class=\"sub\">These are the videos re-done with the <b>new captions</b> — the only "
+        "ones here. Watch each, tap <b>Approve</b> if the captions are good, or <b>Report a "
+        "problem</b> to flag it. Both save the second you tap. More appear as they're re-captioned.</p>\n"
+        f"  <p class=\"sub\">{count} of {total_built} re-captioned so far.</p>\n"
         "  <p id=\"status\" class=\"sub\">Connecting…</p>\n"
         "</header>\n<div class=\"wrap\">\n"
         "  <h2 id=\"rh\">🟡 Needs your review</h2>\n  <div id=\"review\"></div>\n"
