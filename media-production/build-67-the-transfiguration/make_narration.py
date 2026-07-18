@@ -32,8 +32,11 @@ SEGMENTS = [
      "talking with him."),
     ("n2b", NARRATOR, "-20%", "-4Hz",
      "Peter, overwhelmed, blurted out the first thing that came to him."),
-    # Exact KJV Mark 9:5b — Peter, sacred pause.
-    ("j1", SCRIPTURE, "-18%", "-2Hz",
+    # Mark 9:5b — PETER's words, NOT Jesus. Cameron denial #67 (2026-07-18):
+    # this was voiced with the SCRIPTURE (Jesus) voice and shown red as if Jesus
+    # said it. Peter is a follower, so it must read in the REGULAR NARRATOR voice
+    # with WHITE text (j1 also removed from the KJV/red set in build.py).
+    ("j1", NARRATOR, "-20%", "-4Hz",
      "Master, it is good for us to be here: and let us make three "
      "tabernacles; one for thee, and one for Moses, and one for Elias."),
     ("n3", NARRATOR, "-20%", "-4Hz",

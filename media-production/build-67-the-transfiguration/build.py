@@ -49,7 +49,9 @@ S7 = "s7-this-is-my-beloved-son.jpeg"
 S8 = "s8-jesus-only.jpeg"
 
 TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
-KJV = {"j1", "j2"}            # cream-italic sacrament words (Luke 22:19b, 22:20b)
+KJV = {"j2"}                  # RED/scripture voice only for j2, the Father's voice
+                              # from the cloud (Mark 9:7b). j1 is PETER — narrator
+                              # voice + white text (Cameron denial #67, 2026-07-18).
 FLOW = {"n0a"}                # intro line join: tight flow gap
 SACRED = {"j1", "j2"}         # both sacrament-word verse holds
 CARD_TEXT = ("For one moment they saw who he really is — and heaven said, "
