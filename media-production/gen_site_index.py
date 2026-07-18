@@ -152,12 +152,30 @@ def dur(path):
         return ""
 
 
+# Backup/working copies that must NEVER be picked as the delivered cut. A build
+# folder often keeps a pre-fix copy next to the real video, and those backups are
+# usually NOT committed — so linking one gives Cameron a dead URL and a blank
+# player. (Video #16: the card pointed at luke-10_mary-and-martha.orig.mp4, which
+# was never pushed — he reported "what the heck no video", 2026-07-18.)
+_BACKUP_MP4 = re.compile(r"(\.orig\.|\.bak\.|[._-]old[._-]|_OLD|pre-[a-z0-9]+-fix)", re.I)
+
+
 def find_main_mp4(build_dir):
     # the finished cut is the single scripture-named mp4 sitting directly in the
     # build folder (book-chap_slug.mp4), never inside segs/ or assets/
     hits = [p for p in glob.glob(os.path.join(build_dir, "*.mp4"))
-            if re.match(r"^[0-9a-z]+-\d+_", os.path.basename(p))]
-    return hits[0] if hits else None
+            if re.match(r"^[0-9a-z]+-\d+_", os.path.basename(p))
+            and not _BACKUP_MP4.search(os.path.basename(p))]
+    if not hits:
+        return None
+    # Deterministic: glob order is filesystem order, so a stray second mp4 could
+    # win at random. Prefer the most recently modified real cut, then sort by name.
+    hits.sort(key=lambda p: (-os.path.getmtime(p), os.path.basename(p)))
+    if len(hits) > 1:
+        print(f"  WARNING: {os.path.basename(build_dir)} has {len(hits)} candidate "
+              f"mp4s {[os.path.basename(h) for h in hits]} — using "
+              f"{os.path.basename(hits[0])}")
+    return hits[0]
 
 
 def load_approvals():
