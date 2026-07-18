@@ -71,7 +71,9 @@ LEAD = 0.40
 GAP = 1.65        # narration holds (measured silence stays ~2.3s, under the 2.5s law)
 FLOW_GAP = 0.55   # verse-internal joins (j1a->j1b->j1c flow as one utterance)
 SACRED_GAP = 1.65  # pre-verse pause (after n1) and verse-end hold (after j1c)
-CARD_HOLD = 13.0   # short story (7 beats): pad to >60s here rather than in body gaps
+CARD_HOLD = 2.0    # Cameron denial #86 (2026-07-18): the old 13s pad left dead
+                   # air after the closing question. End ~2s after the voice.
+                   # Video still runs well over 60s without padding the tail.
 
 
 def run(cmd):
