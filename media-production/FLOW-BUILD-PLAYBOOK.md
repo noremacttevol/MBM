@@ -513,7 +513,7 @@ isn't enough for a set that reuses one location/vehicle/group. Fix that worked:
 
 ## SHARED-WORKING-TREE HAZARD (2026-07-15) — multiple sessions, ONE repo checkout
 Several Claude sessions (FleetView + an approval monitor) run against the SAME
-~/Desktop/Brain/MBM working tree. Another session's `git pull --rebase --autostash` (or a
+~/Desktop/MBM working tree. Another session's `git pull --rebase --autostash` (or a
 checkout) WILL clobber your UNCOMMITTED edits — my PROMPTS.md rewrite got reverted to HEAD
 mid-build. Defenses that worked: keep the prompt source in the scratchpad (outside the
 repo) and generate from there (MBM_PROMPTS env on genstills.py); commit your deliverable

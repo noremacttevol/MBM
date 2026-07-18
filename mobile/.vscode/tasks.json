@@ -4,14 +4,14 @@
 		{
 			"label": "Start MBM Metro",
 			"type": "shell",
-			"command": "cd /home/noremacttevol/Desktop/Brain/MBM/mobile && npx expo start --host localhost --port 8081 --clear",
+			"command": "cd /home/noremacttevol/Desktop/MBM/mobile && npx expo start --host localhost --port 8081 --clear",
 			"isBackground": true,
 			"problemMatcher": []
 		},
 		{
 			"label": "Start Metro",
 			"type": "shell",
-			"command": "cd /home/noremacttevol/Desktop/Brain/MBM/mobile && npx expo start --host localhost --port 8081 --clear",
+			"command": "cd /home/noremacttevol/Desktop/MBM/mobile && npx expo start --host localhost --port 8081 --clear",
 			"isBackground": true,
 			"problemMatcher": []
 		}

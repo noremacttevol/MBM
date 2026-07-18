@@ -2,7 +2,7 @@
 import os, sys, pexpect
 
 env = os.environ.copy()
-cwd = "/home/noremacttevol/Desktop/Brain/MBM/mobile"
+cwd = "/home/noremacttevol/Desktop/MBM/mobile"
 env["EXPO_ASC_API_KEY_PATH"] = cwd + "/credentials/AuthKey_M73YLWD8YS.p8"
 env["EXPO_ASC_KEY_ID"] = "M73YLWD8YS"
 env["EXPO_ASC_ISSUER_ID"] = "9aa9c15a-4e7a-4726-928c-566664c43867"

@@ -12,7 +12,7 @@ This is Machine A of the MBM video factory. Work unattended, use my Google Flow 
 subscription for all stills (Nano Banana 2, 9:16, 1x = 0 credits), NEVER the paid API,
 and notify me by pushing each finished video to the gallery.
 
-1. cd to the MBM repo (~/Desktop/Brain/MBM), `git pull --rebase origin main`.
+1. cd to the MBM repo (~/Desktop/MBM), `git pull --rebase origin main`.
 2. Read, in order, and follow exactly:
    - media-production/FACTORY-ORDERS.md   (laws, money rule, my range = rows 45–83)
    - media-production/FLOW-BUILD-PLAYBOOK.md  (the fast, low-token how-to — read this!)

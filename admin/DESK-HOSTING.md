@@ -10,14 +10,14 @@ used for the proxy.
 Your desk needs its Firebase key, but a host can't use the file — so we turn it
 into one line. In a terminal:
 ```
-cd ~/Desktop/Brain/MBM/admin
+cd ~/Desktop/MBM/admin
 base64 -w0 serviceAccount.json
 ```
 It prints a long line. **Copy the whole thing** (you'll paste it in step 3).
 
 ## 2. Deploy the desk
 ```
-cd ~/Desktop/Brain/MBM/admin
+cd ~/Desktop/MBM/admin
 railway init        # name it: mbm-desk
 railway up
 ```

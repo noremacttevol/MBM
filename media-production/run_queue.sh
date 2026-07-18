@@ -25,7 +25,7 @@
 #
 set -uo pipefail
 
-REPO="${MBM_REPO:-$HOME/Desktop/Brain/MBM}"
+REPO="${MBM_REPO:-$HOME/Desktop/MBM}"
 QUEUE="$REPO/media-production/QUEUE.md"
 LOGDIR="$REPO/media-production/logs"
 APPROVE_FLAG="$REPO/media-production/.APPROVED"
