@@ -51,7 +51,11 @@ SAY = {
     # proper nouns
     "Gennesaret": "Ghen-NESS-a-ret",
     "Bartimaeus": "Bar-tih-MEE-us",
-    "Zacchaeus": "Zak-KEE-us",
+    # Measured 2026-07-18 (Cameron denial #3, "it misspronounced Zacchaeus every
+    # time"): the old hyphenated "Zak-KEE-us" was HEARD AS "Sekias" — 29% match.
+    # Hyphens split the word (see PRONUNCIATION-LAW §traps). Unhyphenated
+    # "Zakkeeus" round-trips as "Zacchaeus" — verified with check_pronunciation.
+    "Zacchaeus": "Zakkeeus",
     "Iscariot": "iss-KAIR-ee-ot",
     "Capernaum": "ka-PER-nay-um",
     "Gethsemane": "geth-SEM-a-nee",
@@ -106,6 +110,39 @@ HOMOGRAPHS = {
     "content", "refuse", "object", "present", "record", "subject", "produce",
 }
 
+# ---- 0. PHRASES: KJV splits compounds the TTS expects as one word ------------
+# These are not cosmetic. "for to day I must abide at thy house" (Luke 19:5) was
+# rendered so that "thy" slurred into something a transcriber hears as "my" — the
+# verse stops meaning Jesus will stay at YOUR house. Joining the compound fixes
+# the prosody and the following word survives. The caption keeps the KJV spelling.
+PHRASES = [
+    (re.compile(r"\bto day\b", re.I), "today"),
+    (re.compile(r"\bto morrow\b", re.I), "tomorrow"),
+    (re.compile(r"\bto night\b", re.I), "tonight"),
+    (re.compile(r"\bfor ever\b", re.I), "forever"),
+    (re.compile(r"\bany thing\b", re.I), "anything"),
+    (re.compile(r"\bevery thing\b", re.I), "everything"),
+    (re.compile(r"\bsome thing\b", re.I), "something"),
+    (re.compile(r"\bno thing\b", re.I), "nothing"),
+    # EMOTICON TRAP (Cameron denial #184, 2026-07-18: "i cant believe it read
+    # from Jesus' voice a winkey face at 22 secs"). The KJV closes parentheticals
+    # with a semicolon straight into the bracket — 2 Cor 12:2 ends "God knoweth;)"
+    # — and edge-tts reads ";)" aloud as "winky face". Parentheses are editorial
+    # marks that are never spoken, so drop them from the SPOKEN string only; the
+    # caption still shows the verse exactly as printed, brackets and all.
+    # Global on purpose: a per-build override for this was silently lost twice in
+    # rewrites, and any KJV parenthetical can hit it.
+    (re.compile(r"[()]"), ""),
+    # LIAISON: "-eth thee" (Cameron denial #8, "Calleth pronounced wrong").
+    # "calleth" alone transcribes at 100%; it is the PAIR that breaks — the voice
+    # slurs "calleth thee" into "califvie" (40%). Respelling "thee" -> "thih" only
+    # when it follows an -eth verb breaks the liaison and scores 100%, and leaves
+    # every standalone "thee" untouched. Measured, not guessed.
+    (re.compile(r"\b(\w+eth)\s+thee\b", re.I), r"\1 thih"),
+]
+# NOTE: only true orthographic splits belong here. "any man" -> "anyone" would be
+# a MEANING change, not a pronunciation fix, and must never be added.
+
 _WORD = re.compile(r"[A-Za-z]+")
 
 
@@ -115,6 +152,8 @@ def spoken_text(text, overrides=None):
     `overrides` is a build's own {written: spoken} dict for homographs and any
     one-off the global map should not own. Overrides win over SAY.
     """
+    for pat, rep in PHRASES:
+        text = pat.sub(rep, text)
     table = dict(SAY)
     if overrides:
         table.update(overrides)

@@ -21,7 +21,11 @@ const db = admin.firestore();
 
 // current git blob hash of every finished mp4 -> {num: hash}
 const hashes = {};
-execSync('git ls-tree -r HEAD -- media-production', { cwd: REPO }).toString()
+// maxBuffer: the repo outgrew execSync's default 1 MB and this threw ENOBUFS,
+// which crashed the sync — so the board stopped reporting new denials at all
+// and the lookout was running blind (2026-07-18).
+execSync('git ls-tree -r HEAD -- media-production',
+         { cwd: REPO, maxBuffer: 512 * 1024 * 1024 }).toString()
   .split('\n').forEach((line) => {
     const [meta, path] = line.split('\t');
     if (!path) return;
