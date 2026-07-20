@@ -61,7 +61,11 @@ SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 # Paul (Romans 8:16-17) speaking/writing — NOT Jesus — so they get the narrator voice and a
 # WHITE caption. RED drives caption COLOUR ONLY; KJV is left alone so every
 # sacred gap and runtime calculation stays exactly as it was.
-RED = set()          # no words of Jesus in this video
+# SUPERSEDED 2026-07-19 (Cameron denial #150, "captions in white that are
+# scripture"): colour now comes from SPEAKER, per SPEAKER-LAW.md — narrator
+# white, Jesus red, God green, scripture LIGHT BLUE, women pink. The old RED
+# boolean forced every non-Jesus line to white and swallowed the blue.
+RED = set()          # kept for reference; no longer drives caption colour
 
 # MEMBER shelf: one-line Gospel Library pointer under the closing invitation.
 GL_POINTER = "Learn more — Gospel Library: Divine Nature"
@@ -232,7 +236,7 @@ def main():
 
     for i, (seg_id, still, zdir, vdur, _a, speaker) in enumerate(timeline):
         build_still(seg_id, still, vdur, zdir, LEAD + spoken[seg_id],
-                    TEXT[seg_id], seg_id in RED, first=(i == 0))
+                    TEXT[seg_id], SPEAKER[seg_id], first=(i == 0))
     build_card(card_vdur, TEXT["card"])
 
     with open(f"{S}/concat.txt", "w") as f:
