@@ -38,6 +38,12 @@ SAY = {
     "wist": "wist",
     "durst": "derst",
     "verily": "VAIR-ih-lee",
+    # Cameron denial #146 (2026-07-19): heard as "abadeth" (flat i). It is from
+    # ABIDE — uh-BYDE-eth. Measured: "abydeth"/"a-bide-eth" split into "abbey
+    # death"; "abiedeth" round-trips clean as "abideth".
+    "abideth": "abiedeth",
+    "abide": "abied",
+
     "hearkened": "HAR-kend",
     "hearken": "HAR-ken",
     "holpen": "HOLE-pen",
