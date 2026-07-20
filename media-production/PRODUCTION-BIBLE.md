@@ -703,6 +703,15 @@ first time.
 
 ## 5. QC Checklist (every video, before Cameron ever sees it)
 
+- [ ] 🛑 **STORY COVERAGE LAW (Cameron, 2026-07-19 — see STORY-COVERAGE-LAW.md):**
+      NO fixed picture count. One still per story BEAT — every action, reaction,
+      realization and arrival the narration describes gets its own picture; a
+      still may only span two segments if nothing visually changes. And every
+      picture must AGREE with the exact words under it (direction, position,
+      scale, emotion) — "went WITH them" means walking BESIDE them. The John 21
+      one-picture-for-seven-beats failure and the Emmaus walking-apart failure
+      are the templates for what this law forbids.
+
 - [ ] 🛑 **HANDS OFF APPROVED VIDEOS** (Cameron, 2026-07-17: "something just pulled
       them back out of that folder"). Before you re-caption, rebuild, or otherwise
       change ANY video, check `media-production/approvals.json`. If its number is in
