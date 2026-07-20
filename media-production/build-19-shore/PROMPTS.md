@@ -26,7 +26,7 @@ in undyed earth colors. No modern objects.
 ---
 
 ## s1-denial — Shot 1: the night he denied him
-[STILL STYLE BLOCK] Night, a walled stone courtyard lit by a low charcoal fire. A
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, NOT a triptych, NOT stacked panels, NOT two copies of the same scene, no dividing lines or seams anywhere, ONE picture only showing ONE moment, artwork fills the ENTIRE frame and bleeds to all four edges, no border, no frame, no vignette, one single tall upright vertical painting. [STILL STYLE BLOCK] Night, a walled stone courtyard lit by a low charcoal fire. A
 big broad-shouldered fisherman with dark hair and beard, in a rough rust-brown
 tunic, throws up one hand and shakes his head hard at the people questioning him,
 backing away from the coals — then freezes as a rooster cries out. The cold
@@ -37,7 +37,7 @@ shadows, shoulders shaking. Cold blue night, a small orange charcoal fire. One
 single continuous scene painted edge to edge.
 
 ## s2-empty-net — Shot 2: back to the old life
-[STILL STYLE BLOCK] Gray, colorless pre-dawn on a wide still lake. The same big
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, NOT a triptych, NOT stacked panels, NOT two copies of the same scene, no dividing lines or seams anywhere, ONE picture only showing ONE moment, artwork fills the ENTIRE frame and bleeds to all four edges, no border, no frame, no vignette, one single tall upright vertical painting. [STILL STYLE BLOCK] Gray, colorless pre-dawn on a wide still lake. The same big
 fisherman hauls a heavy dripping net up over the wooden gunwale of a small
 fishing boat — and it comes up empty again. His movements are mechanical, his
 face shut and tired, the light gone out of it. Around him a few other weary
@@ -46,7 +46,7 @@ the sky. This is what unbearable failure looks like: competence with the light
 gone out of it. One single continuous scene painted edge to edge.
 
 ## s3-figure-shore — Shot 3: the figure on the shore
-[STILL STYLE BLOCK] Seen from the fishing boat, looking across pale dawn water
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, NOT a triptych, NOT stacked panels, NOT two copies of the same scene, no dividing lines or seams anywhere, ONE picture only showing ONE moment, artwork fills the ENTIRE frame and bleeds to all four edges, no border, no frame, no vignette, one single tall upright vertical painting. [STILL STYLE BLOCK] Seen from the fishing boat, looking across pale dawn water
 toward the beach: far off on the distant shore stands a small robed figure beside
 a thin thread of rising smoke, one arm lifted, calling out — too far away to make
 out, only a warm shape against the dawn light. In the boat the net has suddenly
@@ -57,7 +57,7 @@ the catch behind. First gold light low on the water. One single continuous scene
 painted edge to edge.
 
 ## s4-charcoal-fire — Shot 4: the charcoal fire (the emotional key)
-[STILL STYLE BLOCK] Dawn on the wet sand at the water's edge. In the foreground a
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, NOT a triptych, NOT stacked panels, NOT two copies of the same scene, no dividing lines or seams anywhere, ONE picture only showing ONE moment, artwork fills the ENTIRE frame and bleeds to all four edges, no border, no frame, no vignette, one single tall upright vertical painting. [STILL STYLE BLOCK] Dawn on the wet sand at the water's edge. In the foreground a
 small charcoal fire burns with fresh fish laid across the coals and two round
 loaves of bread beside it. Tending the fire, seen only from behind, kneels the
 risen Lord in a plain undyed cream wool robe, long dark hair past the shoulders,
@@ -68,7 +68,7 @@ the memory of that courtyard fights with hope on his face. Dawn gold spreads on
 the water behind them. One single continuous scene painted edge to edge.
 
 ## s5-do-you-love-me — Shot 5: do you love me, three times
-[STILL STYLE BLOCK] Sunrise along the water's edge, the tide quietly erasing
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, NOT a triptych, NOT stacked panels, NOT two copies of the same scene, no dividing lines or seams anywhere, ONE picture only showing ONE moment, artwork fills the ENTIRE frame and bleeds to all four edges, no border, no frame, no vignette, one single tall upright vertical painting. [STILL STYLE BLOCK] Sunrise along the water's edge, the tide quietly erasing
 their footprints behind them. Two figures walk slowly side by side: the risen
 Lord on the far side, seen only from behind in his plain cream wool robe and long
 dark hair, his back to us; and beside him the big fisherman, walking with his head
@@ -78,7 +78,7 @@ Warm low gold light scattered across the ripples. One single continuous scene
 painted edge to edge.
 
 ## s6-feed-my-sheep — Shot 6: feed my sheep (the hand on the shoulder)
-[STILL STYLE BLOCK] Close on the big fisherman from the chest up at sunrise: his
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, NOT a triptych, NOT stacked panels, NOT two copies of the same scene, no dividing lines or seams anywhere, ONE picture only showing ONE moment, artwork fills the ENTIRE frame and bleeds to all four edges, no border, no frame, no vignette, one single tall upright vertical painting. [STILL STYLE BLOCK] Close on the big fisherman from the chest up at sunrise: his
 weathered face lifting, wet hair and dark beard, his eyes bright with tears held
 back. From the very edge of the frame a single warm Middle-Eastern hand and
 forearm reach in and rest firmly on his shoulder — only the hand, steady and
@@ -88,7 +88,7 @@ steadiness. Warm gold sunrise glowing behind him. One single continuous scene
 painted edge to edge.
 
 ## s7-breaks-bread — Shot 7: the failure who feeds
-[STILL STYLE BLOCK] Full warm sunrise on the beach. A small group of fishermen
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, NOT a triptych, NOT stacked panels, NOT two copies of the same scene, no dividing lines or seams anywhere, ONE picture only showing ONE moment, artwork fills the ENTIRE frame and bleeds to all four edges, no border, no frame, no vignette, one single tall upright vertical painting. [STILL STYLE BLOCK] Full warm sunrise on the beach. A small group of fishermen
 sits in a circle on the sand around the low charcoal fire, eating breakfast
 together, the lake blazing gold behind them. The big fisherman — restored,
 half-laughing through the last of his tears — breaks a round loaf of bread in his

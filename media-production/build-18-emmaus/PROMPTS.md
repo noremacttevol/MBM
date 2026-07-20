@@ -33,7 +33,7 @@ CHARACTER LOCKS:
 ---
 
 ## s1 — TWO DISCIPLES WALKING AWAY, GRIEVING (no holy figure)
-STYLE Late-afternoon golden light on the dusty road leading away from
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, NOT a triptych, NOT stacked panels, NOT two copies of the same scene, no dividing lines or seams anywhere, ONE picture only showing ONE moment, artwork fills the ENTIRE frame and bleeds to all four edges, no border, no frame, no vignette, one single tall upright vertical painting. STYLE Late-afternoon golden light on the dusty road leading away from
 Jerusalem, the walled city small on the hill far behind them. Two first-century
 men walk toward the viewer down the empty road with their heads down and
 shoulders slumped in grief: Cleopas, in his fifties with a grey-streaked dark
@@ -43,7 +43,7 @@ stretch behind them. Olive trees and low hills line the road. Every person has
 exactly two arms, two hands, two legs. One unbroken continuous painting.
 
 ## s2 — A STRANGER FALLS INTO STEP (traveller from behind)
-STYLE The same dusty road, warm evening light, seen from BEHIND the three men
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, NOT a triptych, NOT stacked panels, NOT two copies of the same scene, no dividing lines or seams anywhere, ONE picture only showing ONE moment, artwork fills the ENTIRE frame and bleeds to all four edges, no border, no frame, no vignette, one single tall upright vertical painting. STYLE The same dusty road, warm evening light, seen from BEHIND the three men
 as they walk away from the camera toward the low hills. On the left Cleopas in
 brown and on the right the younger disciple in olive-green, and between and
 slightly ahead of them a traveller in an undyed cream wool robe with dark hair
@@ -54,7 +54,7 @@ them. Dust and long golden shadows on the road. Two arms, two hands, two legs
 on each figure. One unbroken continuous painting.
 
 ## s3 — THEY STOP, FACES STRICKEN (over-the-shoulder, traveller from behind)
-STYLE On the road at golden hour. Over-the-shoulder from BEHIND the traveller
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, NOT a triptych, NOT stacked panels, NOT two copies of the same scene, no dividing lines or seams anywhere, ONE picture only showing ONE moment, artwork fills the ENTIRE frame and bleeds to all four edges, no border, no frame, no vignette, one single tall upright vertical painting. STYLE On the road at golden hour. Over-the-shoulder from BEHIND the traveller
 in the cream wool robe — the back of his dark-haired head and his cream shoulder
 anchor one side of the frame, his face turned away and never shown, no glow.
 Facing him, the two disciples have stopped walking: Cleopas in brown, grey-
@@ -64,7 +64,7 @@ Warm low sunlight, the road and olive trees behind them. Every figure has
 exactly two arms, two hands, two legs. One single continuous painting.
 
 ## s4 — HE OPENS THE SCRIPTURES (traveller from behind, gesturing)
-STYLE Walking on again as the light deepens to amber evening. Seen from BEHIND
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, NOT a triptych, NOT stacked panels, NOT two copies of the same scene, no dividing lines or seams anywhere, ONE picture only showing ONE moment, artwork fills the ENTIRE frame and bleeds to all four edges, no border, no frame, no vignette, one single tall upright vertical painting. STYLE Walking on again as the light deepens to amber evening. Seen from BEHIND
 and to the side, a traveller in an undyed cream wool robe with dark hair to his
 shoulders walks between the two disciples, one warm olive-brown hand lifted mid-
 gesture as he teaches; his face is turned away from the camera and never shown,
@@ -75,7 +75,7 @@ hills. Two arms, two hands, two legs on each figure. One unbroken continuous
 painting.
 
 ## s5 — NEARING EMMAUS, THEY CONSTRAIN HIM (traveller from behind)
-STYLE The village of Emmaus ahead at sunset — small stone houses on a low hill,
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, NOT a triptych, NOT stacked panels, NOT two copies of the same scene, no dividing lines or seams anywhere, ONE picture only showing ONE moment, artwork fills the ENTIRE frame and bleeds to all four edges, no border, no frame, no vignette, one single tall upright vertical painting. STYLE The village of Emmaus ahead at sunset — small stone houses on a low hill,
 warm light in the windows, the sky burning orange and rose. The traveller in
 the cream wool robe, seen from BEHIND, has half-turned as if to continue on
 down the road, his face still turned away and never shown, no glow; the two
@@ -85,7 +85,7 @@ Long sunset shadows. Every figure has exactly two arms, two hands, two legs.
 One single continuous painting.
 
 ## s6 — THE BREAKING OF THE BREAD (traveller's hands, from behind)
-STYLE Inside a small stone house at night, warm golden lamplight from a clay
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, NOT a triptych, NOT stacked panels, NOT two copies of the same scene, no dividing lines or seams anywhere, ONE picture only showing ONE moment, artwork fills the ENTIRE frame and bleeds to all four edges, no border, no frame, no vignette, one single tall upright vertical painting. STYLE Inside a small stone house at night, warm golden lamplight from a clay
 oil lamp on a low wooden table set with a loaf of bread and a cup. Seen from
 BEHIND the traveller in the cream wool robe — only his back, dark hair to his
 shoulders, and his two warm olive-brown hands are visible as he holds a loaf of
@@ -96,7 +96,7 @@ recognition on their faces. Warm lamplight against soft shadow. Two arms, two
 hands each. One unbroken continuous painting.
 
 ## s7 — HE HAS VANISHED (empty place, no holy figure)
-STYLE Inside the lamplit stone house, the warm oil lamp still burning on the
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, NOT a triptych, NOT stacked panels, NOT two copies of the same scene, no dividing lines or seams anywhere, ONE picture only showing ONE moment, artwork fills the ENTIRE frame and bleeds to all four edges, no border, no frame, no vignette, one single tall upright vertical painting. STYLE Inside the lamplit stone house, the warm oil lamp still burning on the
 low wooden table. The broken loaf of bread lies on the table beside an empty
 stool where the guest had been sitting — his seat now empty, the space bare, he
 is gone. The two disciples, Cleopas in brown and the younger man in olive-
@@ -106,7 +106,7 @@ corners. Two arms, two hands, two legs on each figure. One single continuous
 painting.
 
 ## s8 — RUNNING BACK TO JERUSALEM (no holy figure)
-STYLE Night. The two disciples run together down the dark road back toward
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, NOT a triptych, NOT stacked panels, NOT two copies of the same scene, no dividing lines or seams anywhere, ONE picture only showing ONE moment, artwork fills the ENTIRE frame and bleeds to all four edges, no border, no frame, no vignette, one single tall upright vertical painting. STYLE Night. The two disciples run together down the dark road back toward
 Jerusalem, the walled city glowing with small lamplights on its hill ahead
 under a deep blue starry sky. Cleopas in brown and the younger man in olive-
 green run with their robes flying and joy and urgency on their faces, one

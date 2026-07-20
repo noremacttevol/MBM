@@ -47,12 +47,20 @@ TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
 # SPEAKER-LAW: declared once in make_narration, so the caption colour
 # and the narration voice can never drift apart.
 SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
+# SPEAKER-LAW: declared once in make_narration, so the caption colour
+# and the narration voice can never drift apart.
+SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 
 # BEATS: (segment_name, still, zoom_dir). Zoom alternates in/out on a shared still.
+# STORY-COVERAGE-LAW (Cameron, 2026-07-19): a still may be a LIST of
+# (image, marker) pairs — the picture switches mid-segment at the timestamp
+# where the marker words are spoken (matched against the TTS sentence timing).
+# n2: he asks while they walk (S2) -> "They stopped in the road" (S3).
+# n7: eyes opened at the bread (S6) -> "he was gone" (S7, the empty place).
 BEATS = [
     ("n0", S1, "in"),
     ("n1", S2, "in"),
-    ("n2", S3, "in"),
+    ("n2", [(S2, None), (S3, "They stopped in the road")], "in"),
     ("s18", S3, "out"),
     ("n3", S3, "in"),
     ("s21", S3, "out"),
@@ -62,7 +70,7 @@ BEATS = [
     ("n5", S5, "in"),
     ("s29", S5, "out"),
     ("n6", S6, "in"),
-    ("n7", S6, "out"),
+    ("n7", [(S6, None), (S7, "he was gone")], "out"),
     ("n8", S7, "in"),
     ("s32", S7, "out"),
     ("n9", S8, "in"),
@@ -105,21 +113,68 @@ def spoken_of(path):
     return dur_of(tmp)
 
 
-def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, speaker, first, last):
-    frames = int(dur * FPS)
-    z = f"1.001+0.09*on/{frames}" if zdir == "in" else f"1.091-0.09*on/{frames}"
-    base = (f"[0:v]scale=2160:3840:force_original_aspect_ratio=increase,"
+def marker_time(seg_id, marker):
+    """Segment-local second at which the marker words are spoken, from the
+    edge-tts sentence timing sidecar (STORY-COVERAGE-LAW mid-segment switch)."""
+    import json
+    import re
+    with open(f"audio/{seg_id}.timing.json") as f:
+        timing = json.load(f)
+
+    def norm(x):
+        return re.sub(r"[^a-z0-9 ]", "", x.lower()).strip()
+
+    mk = norm(marker)
+    for s in timing:
+        nt = norm(s["text"])
+        i = nt.find(mk)
+        if i >= 0:
+            return s["start"] + (s["end"] - s["start"]) * (i / max(1, len(nt)))
+    raise SystemExit(f"STORY-COVERAGE: marker {marker!r} not found in {seg_id}.timing.json")
+
+
+def _zoompan(zd, frames):
+    z = f"1.001+0.09*on/{frames}" if zd == "in" else f"1.091-0.09*on/{frames}"
+    return (f"scale=2160:3840:force_original_aspect_ratio=increase,"
             f"crop=2160:3840,setsar=1,"
             f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"d={frames}:s=2160x3840:fps={FPS},scale=1080:1920:flags=lanczos")
+
+
+def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, speaker, first, last):
     cap = caption_filter(seg_id, dur, spoken_end, cap_text, speaker)
     tail = ""
     if first:
         tail = ",fade=t=in:st=0:d=1.2"
     if last:
         tail = f",fade=t=out:st={dur-1.0}:d=1.0"
-    run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
-         "-filter_complex", f"{base}{cap}{tail}[v]",
+    if not isinstance(src, list):
+        base = f"[0:v]{_zoompan(zdir, int(dur * FPS))}"
+        run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
+             "-filter_complex", f"{base}{cap}{tail}[v]",
+             "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
+        return
+    # STORY-COVERAGE-LAW: several stills inside one narration segment, switching
+    # at the timestamps where the words turn. Render each sub-still, concat,
+    # then draw the segment's captions over the joined clip.
+    cuts = [0.0] + [LEAD + marker_time(seg_id, m) for _s, m in src[1:]] + [dur]
+    subs = []
+    for i, (img, _m) in enumerate(src):
+        d = cuts[i + 1] - cuts[i]
+        if d <= 0:
+            raise SystemExit(f"STORY-COVERAGE: switch times out of order in {seg_id}")
+        zd = zdir if i % 2 == 0 else ("out" if zdir == "in" else "in")
+        out = f"{S}/{seg_id}_p{i}.mp4"
+        run([FF, "-y", "-loop", "1", "-i", f"{A}/{img}", "-t", f"{d:.3f}",
+             "-filter_complex", f"[0:v]{_zoompan(zd, max(1, int(d * FPS)))}[v]",
+             "-map", "[v]"] + ENC + [out])
+        subs.append(out)
+    lst = f"{S}/{seg_id}_parts.txt"
+    with open(lst, "w") as f:
+        for p in subs:
+            f.write(f"file '{os.path.basename(p)}'\n")
+    run([FF, "-y", "-f", "concat", "-safe", "0", "-i", lst,
+         "-filter_complex", f"[0:v]null{cap}{tail}[v]",
          "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
 
 
