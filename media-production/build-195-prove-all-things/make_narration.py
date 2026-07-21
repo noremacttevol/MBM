@@ -73,6 +73,8 @@ SEGMENTS = [
 SPOKEN = {}
 
 
+SPOKEN.update({'calleth': 'kawleth'})  # Cameron complaints #10/#108 2026-07-21, in-context verified (kawleth/leedeth/messyeus)
+
 SPOKEN.update({'quench': 'kwench'})  # round2 in-context A/B winners 2026-07-20 (SWEEP/round2-state.json)
 
 async def main():
