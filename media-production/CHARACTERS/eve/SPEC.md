@@ -64,9 +64,8 @@ edge, no panels.
 ### full-body (attach face-front.jpeg as --ref)
 [STYLE BLOCK] The SAME woman as the attached reference image — identical
 face and hair: a full-length standing figure, head to feet fully in frame:
-Eve, the first woman, standing calm and graceful, fully and modestly clothed
-in a simple long garment of soft fawn-brown animal skins from her shoulders
-to her ankles, bound at the waist with a plain twisted hide cord, her long
+Eve, the first woman, a beautiful YOUNG woman of about twenty-five with smooth glowing youthful skin, her face copied exactly from the attached reference, standing calm and graceful, fully and modestly clothed
+in a simple long-sleeved garment of soft fawn-brown animal skins covering BOTH shoulders and both arms, from her neck to her ankles, bound at the waist with a plain twisted hide cord, her long
 dark hair falling down her back, bare feet. Completely modest, no nudity,
 shoulders and torso and legs fully covered. No halo, no glow. Plain muted
 earth-tone background, gentle ground shadow. Every figure has two arms, two

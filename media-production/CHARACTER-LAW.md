@@ -96,12 +96,12 @@ recurs in a new story, rule 4 kicks in: sheet first.
 | Malchus | ✅ | ✅ | ⬜ |
 | Simon the Pharisee | ✅ | ✅ | ⬜ |
 | Young Jesus (boy ~12) | ✅ | ✅ | ⬜ |
-| Adam | ✅ | ⬜ | ⬜ |
-| Eve | ✅ | ⬜ | ⬜ |
-| Noah | ✅ | ⬜ | ⬜ |
-| Abraham | ✅ | ⬜ | ⬜ |
-| Sarah | ✅ | ⬜ | ⬜ |
-| Isaac | ✅ | ⬜ | ⬜ |
+| Adam | ✅ | ✅ | ⬜ |
+| Eve | ✅ | ✅ | ⬜ |
+| Noah | ✅ | ✅ | ⬜ |
+| Abraham | ✅ | ✅ | ⬜ |
+| Sarah | ✅ | ✅ | ⬜ |
+| Isaac | ✅ | ✅ | ⬜ |
 | Jacob | ✅ | ⬜ | ⬜ |
 | Joseph (of Egypt) | ✅ | ⬜ | ⬜ |
 | Moses | ✅ | ✅ | ⬜ |
