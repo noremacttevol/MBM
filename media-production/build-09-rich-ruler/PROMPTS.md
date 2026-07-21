@@ -6,7 +6,9 @@ FACE LAW v3: Jesus's face IS shown, the SAME face in every picture, per the byte
 
 ## s1-the-run — the undignified run
 
-A WIDE FULL-BODY TWO-FIGURE SCENE on the road, painted storybook realism, vertical 9:16. The young rich man is RUNNING down the road toward the viewer's left, robe and gold catching the light, dust kicking up at his sandals — undignified, urgent, hope on his face. Ahead of him, the man in the cream robe has paused mid-journey and is turning back to look at him with a warm, welcoming expression. Both full-length, small in a wide golden landscape. ONE SINGLE PANEL ONLY, no divider, no text, no portrait framing.
+A WIDE FULL-BODY TWO-FIGURE SCENE on the road, painted storybook realism, vertical 9:16, both figures seen from the SIDE in profile so the direction of movement is unmistakable. On the LEFT of the frame the young rich man is RUNNING from left to right, leaning forward mid-stride, dust kicking up behind his sandals, his face in profile looking AT the man he is running TOWARD — undignified, urgent, hope on his face. On the RIGHT of the frame the man in the cream robe stands still on the road FACING LEFT toward the runner, welcoming him with a warm expression, their eyes meeting across the gap. The runner runs TOWARD him, never past him, never away — the space between them is closing. Both full-length in a wide golden landscape. ONE SINGLE PANEL ONLY, no divider, no text, no portrait framing.
+
+GEOMETRY NOTE (2026-07-21, Cameron complaint "running right past Jesus" — twice): this shot is SIDE-VIEW with the runner left→right TOWARD Jesus on the right, faces toward each other. Never compose it with Jesus behind the runner's back.
 
 JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.
 
