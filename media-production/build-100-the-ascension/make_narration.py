@@ -1,71 +1,78 @@
 #!/usr/bin/env python3
-"""Generate narration audio for Story Video #100 — The Ascension (Acts 1:6-11).
-From DRAFTS/row-100.md, validated against the laws.
-Narrator: modern, warm, low, unhurried (American). Plain US model only.
-Jesus voice: AMERICAN, never British. Jesus speaks ONLY exact KJV:
-Acts 1:8, ELIDED BY DESIGN — the draft drops the leading "But" and the place
-list ("both in Jerusalem, and in all Judaea, and in Samaria,"); the spoken
-fragments are word-exact KJV in their original order. Caption shows the same.
-The angels' line is spoken plainly by the NARRATOR (never the Jesus voice).
-HOMOGRAPH LAW: ear-checked — no bow/wound/wind/tears/lead/sow/live/read/dove/
-bass/minute/use(d)/close in any segment. No SPOKEN overrides needed.
+"""Narration for build-100-the-ascension — Acts 1.
+
+SPEAKER-LAW rebuild (see media-production/SPEAKER-LAW.md). Who is speaking is
+declared once here and decides BOTH the voice and the caption colour.
+
+Acts is Luke writing, so almost everything here is `scripture` — but this build is
+the exception the law names: the speaker in Acts 1:7-8 is the RISEN CHRIST, talking
+to the eleven on the day he ascends. A red-letter King James Bible inks those verses.
+So the one red beat STAYS red, and it grows:
+
+  j1  Acts 1:8  RED -> RED (jesus), but rewritten to the full verbatim verse. The
+      old line dropped 'both in Jerusalem, and in all Judaea, and in Samaria' out of
+      the middle, which made it a paraphrase wearing Old English clothes. It is now
+      exactly what a viewer finds in Acts 1:8.
+  j0  Acts 1:7  NEW (jesus). n0 already told the viewer the disciples asked about
+      restoring the kingdom; his actual answer was never on screen. It is now, in his
+      own words, immediately before verse 8. Same still as j1 — two consecutive beats
+      over ST2, no new artwork.
+
+LIFTED FROM PARAPHRASE — the two men in white:
+  s11 Acts 1:11  NEW (scripture, light blue). n3 said 'two figures in white stood
+      beside them with a promise' and then n4 gave the promise in modern English,
+      which meant the single most quotable line in the chapter never got spoken as
+      scripture. s11 now says it verbatim and n4 retells it, unchanged, right after.
+      These are angels/messengers, not Christ — light blue, not red and not green.
+      s11 and n4 share ST7.
+
+Nothing left as paraphrase from uncertainty. Acts 1:7, 1:8 and 1:11 are all quoted
+in full from the King James text.
+
+WHY-LAW: milk. He did not leave them staring at the sky. He left them a job, a
+companion, and a promise to come back — and all three are on screen in the words
+they were actually said in.
 """
 import asyncio
-import edge_tts
-from mbm_caption_timing import save_narration
+import os
 
-NARRATOR = "en-US-AndrewNeural"     # plain American — never a Multilingual model
-JESUS = "en-US-ChristopherNeural"   # American. Never a British voice.
+from mbm_caption_timing import save_speaker_narration
+from mbm_pronounce import audit, spoken_text
+from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 
+# (id, speaker, caption_text). The caption always shows this exact text; only the
+# string handed to the TTS is respelled.
 SEGMENTS = [
-    # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
-     "In his last moments with them, the disciples asked Jesus if "
-     "he was going to restore the kingdom right then. He turned "
-     "them toward something bigger."),
-    # Exact KJV Acts 1:8 (elided by design — see docstring).
-    ("j1", JESUS, "-20%", "-2Hz",
-     "Ye shall receive power, after that the Holy Ghost is come "
-     "upon you: and ye shall be witnesses unto me, unto the "
-     "uttermost part of the earth."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "He was handing them the mission — go tell everyone, "
-     "everywhere. And then something happened they would never "
-     "forget."),
-    # sacred-silence beat follows n1: the still holds on the ascending figure.
-    # n2 split so the lift and the cloud land on their own stills (s4
-    # lifted-up, s5 the-cloud-received-him) per the CAPTION LAW.
-    ("n2a", NARRATOR, "-20%", "-4Hz",
-     "While they watched, he was lifted up,"),
-    ("n2b", NARRATOR, "-20%", "-4Hz",
-     "and a cloud received him out of their sight. They stood "
-     "there staring into the sky, stunned."),
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "Then two figures in white stood beside them with a promise:"),
-    ("n4", NARRATOR, "-18%", "-3Hz",
-     "This same Jesus, who was taken up from you into heaven, will "
-     "come back the same way you've seen him go."),
-    # "leave them orphans" slurred to "the orphans" on ear-check (same trap as
-    # #185); reworded to "abandon them", which reads clean.
-    ("n5", NARRATOR, "-20%", "-4Hz",
-     "He did not abandon them. He left them a mission, a "
-     "promise, and the sure word that he's coming again."),
-    ("card", NARRATOR, "-22%", "-5Hz",
-     "He's coming back the same way he left. Until then, you're "
-     "not alone — and you're not without purpose."),
+    ("n0", NARRATOR, "In his last moments with them, the disciples asked Jesus if he was going to restore the kingdom right then. He turned them toward something bigger."),
+    # Acts 1:7
+    ("j0", JESUS, "It is not for you to know the times or the seasons, which the Father hath put in his own power."),
+    # Acts 1:8
+    ("j1", JESUS, "But ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be witnesses unto me both in Jerusalem, and in all Judaea, and in Samaria, and unto the uttermost part of the earth."),
+    ("n1", NARRATOR, "That is not a no. It is a redirection. The timing belongs to the Father, he told them, and it is not yours to work out — but the power is yours, and so is the work. He was handing them the mission. Go tell everyone, everywhere, starting right where you're standing. And then something happened they would never forget."),
+    ("n2a", NARRATOR, "While they watched, he was lifted up,"),
+    ("n2b", NARRATOR, "and a cloud received him out of their sight. They stood there staring into the sky, stunned."),
+    ("n3", NARRATOR, "Then two figures in white stood beside them with a promise:"),
+    # Acts 1:11
+    ("s11", SCRIPTURE, "Ye men of Galilee, why stand ye gazing up into heaven? this same Jesus, which is taken up from you into heaven, shall so come in like manner as ye have seen him go into heaven."),
+    ("n4", NARRATOR, "This same Jesus, who was taken up from you into heaven, will come back the same way you've seen him go."),
+    ("n5", NARRATOR, "He did not abandon them. He left them a mission, a promise, and the sure word that he's coming again."),
+    ("card", NARRATOR, "He's coming back the same way he left. Until then, you're not alone — and you're not without purpose."),
 ]
 
-# HOMOGRAPH LAW — every segment ear-checked against the flag list
-# (bow, wound, wind, tears, lead, sow, live/lives, read, dove, bass,
-# minute, use/used, close): none present. Captions stay exact.
+# Homographs this build decides for itself (never auto-replaced globally).
 SPOKEN = {}
 
 
 async def main():
-    for name, voice, rate, pitch, text in SEGMENTS:
-        tts_text = SPOKEN.get(name, text)
-        await save_narration(tts_text, voice, rate, pitch, f"audio/{name}.mp3")
-        print(f"saved audio/{name}.mp3")
+    os.makedirs("audio", exist_ok=True)
+    for name, speaker, text in SEGMENTS:
+        flagged = [w for w in audit(text) if w not in SPOKEN]
+        if flagged:
+            print(f"  ! {name}: undecided homograph(s) {flagged}")
+        await save_speaker_narration(spoken_text(text, SPOKEN, speaker), speaker,
+                                     f"audio/{name}.mp3")
+        print(f"saved audio/{name}.mp3  [{speaker}]")
+
 
 if __name__ == "__main__":
     asyncio.run(main())
