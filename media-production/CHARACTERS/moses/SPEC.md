@@ -54,7 +54,7 @@ soft warm-brown background. One single continuous scene painted edge to
 edge, no panels.
 
 ### three-quarter (attach face-front.jpeg as --ref)
-[STYLE BLOCK] The SAME man as the attached reference image — identical face,
+[STYLE BLOCK] The SAME very old man as the attached reference image — about eighty with the same LONG full white beard exactly as long as the reference and the same deep age lines — identical face,
 hair and beard: a reverent three-quarter bust portrait of Moses the prophet,
 about eighty, warm olive-brown weathered skin, long flowing white beard and
 long white hair, deep russet-brown robe and coarse grey-brown mantle, turned
@@ -63,7 +63,7 @@ shine. No halo, no glow. Plain muted earth-tone background. One single
 continuous scene painted edge to edge, no panels.
 
 ### full-body (attach face-front.jpeg as --ref)
-[STYLE BLOCK] The SAME man as the attached reference image — identical face,
+[STYLE BLOCK] The SAME very old man as the attached reference image — about eighty with the same LONG full white beard exactly as long as the reference and the same deep age lines — identical face,
 hair and beard: a full-length standing figure, head to feet fully in frame:
 Moses the prophet, a strong elder of about eighty standing fully upright,
 never stooped, a tall wooden staff planted in one hand, in his ankle-length

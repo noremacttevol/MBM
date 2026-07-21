@@ -74,6 +74,6 @@ thirty-five, short dark hair, short dark beard, standing steady and
 protective with a carpenter's strong careful hands at rest, wearing a
 knee-to-ankle plain warm-brown wool tunic with a simple cord belt, a brown
 mantle over one shoulder, dusty leather sandals. Plain muted earth-tone
-background, gentle ground shadow. Every figure has two arms, two hands, two
+background, NO pool of light, NO spotlight, NO rim glow outlining his body — flat matte backdrop with only a gentle ground shadow. Every figure has two arms, two hands, two
 legs and one head. One single continuous scene painted edge to edge, no
 panels.

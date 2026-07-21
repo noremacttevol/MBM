@@ -62,7 +62,7 @@ continuous scene painted edge to edge, no panels.
 [STYLE BLOCK] The SAME man as the attached reference image — identical face,
 hair and beard: a full-length standing figure, head to feet fully in frame:
 Thomas called Didymus, a lean Middle Eastern Jewish man of about thirty-five,
-straight black hair cropped to the jaw, short trimmed black beard, standing
+straight black hair falling to his JAW LINE and covering the tops of his ears, exactly the same length as the reference, never short, never cropped, short trimmed black beard, standing
 with his weight set and his arms loosely folded — steady, questioning,
 loyal — wearing a knee-to-ankle deep indigo-charcoal wool tunic with a plain
 leather belt, a dark brown mantle over one shoulder, simple leather sandals.

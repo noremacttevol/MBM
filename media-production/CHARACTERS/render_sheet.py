@@ -46,6 +46,12 @@ def parse_spec(slug):
         # light" paints halo-like rays behind reference portraits — banned.
         body += (" The background is FLAT and matte with NO light rays, NO"
                  " radiance, NO aura or glow behind the figure.")
+        if view != "face-front":
+            # Anti-inset guard (2026-07-21, seen on james + matthew): Nano
+            # Banana sometimes paints the attached ref as a small corner inset.
+            body += (" Do NOT paint the reference image itself into the"
+                     " picture: NO small inset portrait, NO picture-in-picture,"
+                     " NO photo or card in any corner — one figure only.")
         prompts[view] = body
         # extra refs named in the section header, e.g. (ref: ../x.jpeg)
         hm = re.search(r"### " + view + r".*?\(refs?:([^)]+)\)", spec)

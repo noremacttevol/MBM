@@ -73,13 +73,13 @@ recurs in a new story, rule 4 kicks in: sheet first.
 | Peter | ✅ | ✅ | ⬜ |
 | John (beloved) | ✅ | ✅ | ⬜ |
 | James (son of Zebedee) | ✅ | ✅ | ⬜ |
-| Andrew | ✅ | ⬜ | ⬜ |
-| Matthew | ✅ | ⬜ | ⬜ |
-| Thomas | ✅ | ⬜ | ⬜ |
+| Andrew | ✅ | ✅ | ⬜ |
+| Matthew | ✅ | ✅ | ⬜ |
+| Thomas | ✅ | ✅ | ⬜ |
 | Judas Iscariot | ✅ | ✅ | ⬜ |
 | John the Baptist | ✅ | ⬜ | ⬜ |
 | Mary (mother of Jesus) | ✅ | ✅ | ⬜ |
-| Joseph of Nazareth | ✅ | ⬜ | ⬜ |
+| Joseph of Nazareth | ✅ | ✅ | ⬜ |
 | Mary Magdalene | ✅ | ⬜ | ⬜ |
 | Martha | ✅ | ⬜ | ⬜ |
 | Mary of Bethany | ✅ | ⬜ | ⬜ |
@@ -104,10 +104,10 @@ recurs in a new story, rule 4 kicks in: sheet first.
 | Isaac | ✅ | ⬜ | ⬜ |
 | Jacob | ✅ | ⬜ | ⬜ |
 | Joseph (of Egypt) | ✅ | ⬜ | ⬜ |
-| Moses | ✅ | ⬜ | ⬜ |
+| Moses | ✅ | ✅ | ⬜ |
 | Aaron | ✅ | ⬜ | ⬜ |
 | Joshua | ✅ | ⬜ | ⬜ |
-| Elijah | ✅ | ⬜ | ⬜ |
+| Elijah | ✅ | ✅ | ⬜ |
 | Eli | ✅ | ⬜ | ⬜ |
 | Samuel | ✅ | ⬜ | ⬜ |
 | Hannah | ✅ | ⬜ | ⬜ |
