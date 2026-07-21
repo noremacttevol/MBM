@@ -56,6 +56,9 @@ TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
 # SPEAKER-LAW: declared once in make_narration, so the caption colour
 # and the narration voice can never drift apart.
 SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
+# SPEAKER-LAW: declared once in make_narration, so the caption colour
+# and the narration voice can never drift apart.
+SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 KJV = {"s1", "s2"}            # cream-italic verses (Psalm 24:3 and 24:4)
 # Cameron 2026-07-18: "only Jesus's words in red." These verses are
 # the psalmist (Psalm 24:3-4) speaking/writing — NOT Jesus — so they get the narrator voice and a
