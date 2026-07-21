@@ -54,6 +54,9 @@ TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
 # SPEAKER-LAW: declared once in make_narration, so the caption colour
 # and the narration voice can never drift apart.
 SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
+# SPEAKER-LAW: declared once in make_narration, so the caption colour
+# and the narration voice can never drift apart.
+SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 KJV = {"j1", "j2"}   # Matthew 13:45 (j1), 13:46 (j2) — Jesus voice
 PEAK = {"j2"}        # "...sold all that he had, and bought it" — hush lands here
 
@@ -166,7 +169,7 @@ def main():
     peak_start = None
     j2_start = None
     for name, still, zdir in BEATS:
-        reverent = name in KJV or name in PEAK
+        reverent = is_scripture(SPEAKER.get(name, "narrator")) or name in PEAK
         gap = KJV_GAP if reverent else GAP
         vdur = LEAD + audio_dur[name] + gap
         a_start = t + LEAD
@@ -174,7 +177,7 @@ def main():
         if name == "j2":
             peak_start = a_start
             j2_start = a_start
-        timeline.append((name, still, zdir, vdur, a_start, name in KJV))
+        timeline.append((name, still, zdir, vdur, a_start, is_scripture(SPEAKER.get(name, "narrator"))))
         t += vdur
     # closing card
     card_vdur = LEAD + card_dur + TAIL
