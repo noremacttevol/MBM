@@ -1,3 +1,26 @@
+## 2026-07-21 — TIMING/HEALTH SWEEP: all 200 measured, 12 fixed, #137 dupe-ship corrected
+
+Commit: (this commit). Full table: media-production/AUDITS/TIMING-HEALTH-SWEEP-2026-07-21.md
+
+- Swept all 200 videos (skip #17): verify-mp4, trailing dead air, LUFS, size,
+  origin bytes. All 200 pass verify-mp4. Loudness -14.7..-15.0 everywhere except
+  #8 (-20.6, FIXED to -14.7). Size under 25MB everywhere except #70 (28.5MB,
+  FIXED to 24.0MB two-pass).
+- Dead-air ruling: the 4.2-5.0s closing-card holds (~115 videos) are the
+  deliberate CARD_HOLD / Readable-Card design and Cameron has approved many
+  videos with them -> PASS. Over ~5.5s = the complaint-#86 defect.
+- TRIMMED to voice+2.2s (with re-added fade, .orig backups, verify-mp4 re-gated):
+  80, 89, 173, 174, 175, 177, 178, 181, 187, 195 (plus #67 which the narration
+  re-render batch rebuilt properly mid-session). 173/181/187/195 now under 60s -
+  the ">60s floor" is only a build.py comment, complaint-#86 words win.
+- LOCKED (approved:true, FIX-LATER): #142 12.8s, #143 9.0s, #145 9.6s dead air.
+- **#137 dupe incident corrected:** sweep trimmed the purged Stephen dupe dir and
+  cron shipped it as "#137 fixed". Restored byte-for-byte from .orig, removed the
+  2 bogus FIXNOTES entries. Real #137 (John 17, 1b5da0f1) untouched, passes all.
+  The stephen dir still holds an mp4 - archive it or cron can ship from it again.
+- Flag: verify-mp4.sh has NO size gate; the re-render batch briefly left a 36.7MB
+  #67 that cron would have shipped. Consider a 25MB gate in ship-fixes.sh.
+
 ## 2026-07-21 — REBUILD SESSION: #137 BUILT, #140 prepped, #179 regen prepped, CHARACTER-LAW handoff (Machine A)
 
 Commit: (this commit). Claims pushed earlier in de92c678; #137 build in 1b5da0f1.
