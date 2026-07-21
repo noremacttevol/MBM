@@ -7,6 +7,10 @@
   {
    "date": "2026-07-21",
    "note": "build script updated"
+  },
+  {
+   "date": "2026-07-21",
+   "note": "VERIFIED already fixed, no rebuild: extracted end-card frames at 4:13 and 4:17 from the current cut \u2014 the closing words-only card text sits fully inside the frame with wide margins on both edges, wrapped cleanly (nothing cut off). The out-of-frame defect is not in this cut."
   }
  ],
  "10": [
@@ -261,6 +265,10 @@
   {
    "date": "2026-07-21",
    "note": "Audio was too quiet (-20.7 LUFS vs the -15 standard). Raised the volume to match every other video (-14.7 LUFS). No picture or timing changes."
+  },
+  {
+   "date": "2026-07-21",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "14": [

@@ -48,7 +48,12 @@ SEGMENTS = [
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
-SPOKEN = {}
+# calleth (Cameron complaint #8, 2026-07-21, second denial): plain "calleth" in
+# the jesus voice (EricNeural -22%) round-trips isolated as "Kalloth" — the
+# suffix vowel goes wrong. A/B 2026-07-21: "kawleth" is the only candidate that
+# both keeps the in-sentence round-trip at 100% ("calleth") and fixes the
+# isolated reading ("Colith" = KAW-lith). One word, no hyphens, per the law.
+SPOKEN = {"calleth": "kawleth"}
 
 
 async def main():
