@@ -65,32 +65,34 @@ SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 # SPEAKER-LAW: declared once in make_narration, so the caption colour
 # and the narration voice can never drift apart.
 SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
+# SPEAKER-LAW: declared once in make_narration, so the caption colour
+# and the narration voice can never drift apart.
+SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 
 # BEATS: (segment_name, still, zoom_dir). Zoom alternates in/out on a shared still.
 # STORY-COVERAGE-LAW (Cameron, 2026-07-19): a still may be a LIST of
 # (image, marker) pairs — the picture switches mid-segment at the timestamp
 # where the marker words are spoken (matched against the TTS sentence timing).
 BEATS = [
-    ("n0", [(S1, None), (S10, "Women drew their water"),
-            (S1, "She came at noon because of the talk")], "in"),
-    ("n1", [(S2, None), (S11, "Everything in her body said")], "in"),
-    ("n2", [(S3, None), (S4, "And he answered")], "in"),
-    ("w9", S3, "out"),
-    ("w11", S4, "in"),
-    ("n3", S4, "out"),
-    ("j1", S4, "in"),
-    ("n4", S4, "out"),
-    ("w15", S4, "in"),
-    ("n5", [(S12, None), (S5, "She came for water")], "in"),
-    ("w19", S5, "out"),
-    ("n6", S5, "in"),
-    ("w25", S5, "out"),
-    ("j2", S13, "in"),
-    ("n7", [(S13, None), (S6, "Right then his followers came back")], "out"),
-    ("n8", S7, "in"),
-    ("n8b", S8, "in"),
-    ("w29", S8, "out"),
-    ("n9", [(S9, None), (S14, "They asked him to stay")], "in"),
+    ("n0", [(S1, "in")], "in"),
+    ("n1", [(S2, "in")], "in"),
+    ("n2", [(S3, "in")], "in"),
+    ("w9", [(S3, "out")], None),
+    ("w11", [(S4, "in")], None),
+    ("n3", [(S4, "out")], None),
+    ("j1", [(S4, "in")], None),
+    ("n4", [(S4, "out")], None),
+    ("w15", [(S4, "in")], None),
+    ("n5", [(S5, "in")], "in"),
+    ("w19", [(S5, "out")], None),
+    ("n6", [(S5, "out")], None),
+    ("w25", [(S5, "in")], None),
+    ("j2", [(S5, "out")], None),
+    ("n7", [(S6, "in")], "out"),
+    ("n8", [(S7, "in")], None),
+    ("n8b", [(S8, "in")], None),
+    ("w29", [(S8, "out")], None),
+    ("n9", [(S9, "in")], "in"),
 ]
 
 # The closing card is narrated but is not a beat — build_card places it itself.

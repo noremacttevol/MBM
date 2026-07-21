@@ -25,6 +25,10 @@
   {
    "date": "2026-07-21",
    "note": "build script updated"
+  },
+  {
+   "date": "2026-07-21",
+   "note": "Fixed the closing-question card so every word now fits on screen in a centered block (it could run off the frame edges before), and re-rendered the video with the freshly re-recorded narration. \u2014 narration re-recorded; build script updated"
   }
  ],
  "108": [
