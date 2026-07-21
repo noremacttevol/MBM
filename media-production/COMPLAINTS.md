@@ -7,7 +7,6 @@ clears itself once a newer cut replaces the video. Do NOT edit by hand.
 | # | What Cameron said |
 |---|---|
 | 3 | He is still looking the wrong way at 45 seconds. He should be lolking at Jesus . |
-| 9 | SamE problem, I'm getting over and over again.It's the problem of the words at the end, which is a question like a invitation in just words, on a screen.Somehow, they have all been rewritten to not have all the words on the screen, because it goes off.It's too wide, they're all messed up.Why why might constantly correcting this? |
 | 17 | captions are messed up and the voice  is messed  up and is misspronouncing livest and  other old english pronunciation. |
 | 107 | John.\n 's picture looks too different across all of them, the first image of him in this video was good, darker hair, more Middle Eastern, but anything other than that makes him not look into character and null, especially when it changes in the next picture. So we need to set his look to make him look the same in this video and story as in as as well as in every other video and story that he should be in in these  In this app in these videos and everything I'd say him and peter and some of the other disciples and mary magdalene and a whole bunch of other ones should have the same face per every video , they shouldn't be changing so much , including god as well |
 | 113 | God has a body, weve bren through this and hopwfully you have created a character for him as well so his look doesnt change much like Jesus and other famous characters that will be ilustrated multiple times. |
