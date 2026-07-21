@@ -1,3 +1,34 @@
+## 2026-07-21 — PRONUNCIATION SWEEP: all 200 final mp4s whisper-audited, 10 complaints cleared, 11 videos re-cut (Machine A)
+
+Commit: (this commit) — chain: 93b5ff71 (fix tool + #17/#119 scripts), eb58d0e2 (#22 owesst restore), 0da7ffa7 (maketh SAY_BY_VOICE + 5 build fixes + lib sync).
+
+New tool `media-production/sweep_final_audio.py`: transcribes the audio track of every
+build's SHIPPED mp4 (not the segment mp3s) and diffs it against the narration script —
+this caught fixed audio that was never muxed (#109) and stale cuts the mp3 audit missed.
+Full report: SWEEP/FINAL-AUDIO-AUDIT.md (201 builds, resumable state).
+
+Complaints cleared: #16 wound OK on approved cut (no action); #17 lazarus SCRIPT-ONLY
+(livveth/beleevest/luvvest/stinkuhth respells, captions verified fine — video deferred per
+Cameron); #22 owest→owesst (plain read "Alice"); #108/#146/#188/#189 already fixed in
+shipped cuts; #109 rebuilt (fixed jv8 audio was never muxed); #119 Meshach meeshak +
+Shadrach shadrack (global SHAD-rak hyphen split read "Red Rack"); #149 liveth→livveth.
+
+Sweep fixes re-cut + shipped: #148 diest→dyest ("where thou DOST will I die") + Boaz→bohazz;
+#150 Psalm 23 "He MOCKED me to lie down"→makith + leedeth re-record; #151 upbraideth→upbraydeth
+("an UPGRADE is not") + kneels re-record; #166 sincerity→"sin serity" (stable 3/3);
+#171 slept (verified clean via whisper small.en — base.en "sucked" is a transcription ghost);
+#03 abide ("I must ABBEY at thy house") re-record.
+
+Systemic: SAY_BY_VOICE maketh {jesus: mayketh, scripture: makith} — Eric says "MOCK-eth",
+Steffan says "MOCKED (with)" for the plain word; synced shared libs to all 204 build copies.
+Whisper-verification law upheld: every respell A/B-tested in the segment's real voice, and
+re-recorded audio re-transcribed before rebuild; base.en false alarms (slept/sincerity)
+settled with small.en beam-5. FIX-LATER.md created: 20 approved-locked builds with defects
+(worst: #11/#99 off-script cuts, #12 Bartimaeus/Nazareth, #152 revealeth, #158 Ephraim).
+NOTE: a SPEAKER-LAW run_batch (PID on this box) is re-cutting ~135 builds; it dropped my
+#22 owesst fix once in a rewrite (restored) — re-sweep with sweep_final_audio.py after it
+finishes to catch regressions.
+
 ## 2026-07-21 — END-CARD OVERFLOW FIX: all 16 card-law builds re-rendered, frame-verified, shipped (Machine A)
 
 Commit: this entry's commit is the chain link; the cuts themselves shipped via the auto-ship per-build commits earlier on 07-21.
