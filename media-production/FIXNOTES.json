@@ -263,6 +263,10 @@
   {
    "date": "2026-07-21",
    "note": "Fixed the pronunciation of \"owest\" in Jesus's line \"Pay me that thou owest\" (Matthew 18:28). The old audio garbled the word (it came out like \"Alice\"); the voice now says \"owe-est\" clearly. Caption unchanged \u2014 still the exact KJV word."
+  },
+  {
+   "date": "2026-07-21",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "67": [
