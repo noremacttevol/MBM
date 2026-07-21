@@ -62,6 +62,7 @@ SEGMENTS = [
 
 # Homographs this build decides for itself (never auto-replaced globally).
 SPOKEN = {}
+SPOKEN.update({'sincerity': 'sin serity', 'Sincerity': 'Sin serity'})  # 2026-07-21: recorded takes kept coming out "sensarity" (n6+card, and again with 'sinserrity'); 'sin serity' is STABLE 3/3 in Andrew and round-trips "sin-SERR-ity". Captions unchanged.
 
 
 async def main():
