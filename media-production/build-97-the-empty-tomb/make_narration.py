@@ -1,65 +1,89 @@
 #!/usr/bin/env python3
-"""Generate narration audio for Story Video #97 — The Empty Tomb (Luke 24:1-8).
-From DRAFTS/row-097.md, validated against the laws.
-Narrator: modern, warm, low, unhurried (American). Plain US model only.
-Jesus does NOT appear and does NOT speak — he is risen; the empty tomb is the
-point. The angels' line is spoken plainly by the NARRATOR (never the Jesus
-KJV voice — that voice is reserved for exact KJV from Jesus alone).
-HOMOGRAPH LAW: ear-checked — no bow/wound/wind/tears/lead/sow/live/read/dove/
-bass/minute/use(d)/close in any segment ("living" and "risen" are not
-ambiguous words). No SPOKEN overrides needed.
+"""Narration for build-97-the-empty-tomb — Luke 24.
+
+SPEAKER-LAW rebuild (see media-production/SPEAKER-LAW.md). Who is speaking is
+declared once here and decides BOTH the voice and the caption colour.
+
+THIS BUILD HAD NO SCRIPTURE IN IT AT ALL. Eight beats, all white -- and
+the angels' announcement, the most important sentence in the Bible, was being
+delivered in the storyteller's voice.
+
+THE ANGELS ARE BLUE, NOT RED. n4 paraphrased Luke 24:5-6. Angels are not Deity
+and a red-letter KJV inks nothing here, so this is SCRIPTURE (light blue):
+  s5  Luke 24:5-6  'Why seek ye the living among the dead? He is not here, but
+      is risen:'
+  n4 keeps its id and its text is already the exact retelling, so it was left
+  alone and now simply follows the verse.
+  s6  Luke 24:6-7  'remember how he spake unto you when he was yet in Galilee,
+      Saying, The Son of man must be delivered into the hands of sinful men, and
+      be crucified, and the third day rise again.'
+      n5a keeps its id and now retells it.
+
+A NOTE ON THE INNER QUOTE. s6 has the angels quoting Jesus. A red-letter KJV does
+NOT ink that clause -- it is a report of a report, and Luke is the one writing it.
+It stays blue with the rest of the angels' speech rather than being split out red.
+
+THE WOMEN NOW SPEAK. Luke 24 does not record the women saying anything at the
+tomb -- checked, and nothing was invented to fill the gap. But Mark 16:3 records
+these same women, on this same walk, in this same hour:
+  w3  Mark 16:3  'Who shall roll us away the stone from the door of the
+      sepulchre?'
+  Lifted as WOMAN (pink) onto ST1. n0b carries the retelling. It is from Mark
+  rather than Luke, and that is stated plainly here; it is the only recorded
+  speech these women have in this scene, it is verbatim, and it sets up the
+  rolled-away stone that n1 walks into two beats later. Left in on judgment.
+
+NO RED: Jesus does not appear or speak in Luke 24:1-8.
+
+NO GREEN: the Father does not speak.
+
+WHY-LAW: they came carrying burial spices, planning to finish taking care of a
+body, and were asked why they were looking for a living man in a graveyard.
+Milk: the tomb could not hold him, and the stone they were worried about was
+already gone before they got there.
 """
 import asyncio
-import edge_tts
-from mbm_caption_timing import save_narration
+import os
 
-NARRATOR = "en-US-AndrewNeural"     # plain American — never a Multilingual model
+from mbm_caption_timing import save_speaker_narration
+from mbm_pronounce import audit, spoken_text
+from mbm_speakers import NARRATOR, SCRIPTURE, WOMAN
 
+# (id, speaker, caption_text). The caption always shows this exact text; only the
+# string handed to the TTS is respelled.
 SEGMENTS = [
-    # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
-     "Very early on the first day of the week, while it was still "
-     "dark, the women who loved him came to the tomb carrying "
-     "spices to anoint his body."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "But when they arrived, the huge stone that had sealed the "
-     "tomb was rolled away."),
-    # sacred-silence beat follows n1: the still holds on the open tomb mouth.
-    # n2 split so the empty ledge and their fear land on their own stills (s3
-    # the-empty-ledge, s4 fear-and-awe) per the CAPTION LAW.
-    ("n2a", NARRATOR, "-20%", "-4Hz",
-     "They stepped inside — and the body was gone."),
-    ("n2b", NARRATOR, "-20%", "-4Hz",
-     "They stood there, confused and afraid."),
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "Then two figures in dazzling clothing stood beside them, and "
-     "asked a question that has echoed for two thousand years:"),
-    ("n4", NARRATOR, "-18%", "-3Hz",
-     "Why do you look for the living among the dead? He is not "
-     "here — he is risen."),
-    # n5 split so the reminder and the remembering land on their own stills
-    # (s6 she-remembers, s7 running-into-sunrise) per the CAPTION LAW.
-    ("n5a", NARRATOR, "-20%", "-4Hz",
-     "Remember, they said, what he told you back in Galilee — that "
-     "he would be crucified, and on the third day rise again."),
-    ("n5b", NARRATOR, "-20%", "-4Hz",
-     "And they remembered."),
-    ("card", NARRATOR, "-22%", "-5Hz",
-     "The tomb couldn't hold him. Whatever feels dead and sealed "
-     "shut in your life — he's the God of the rolled-away stone."),
+    ("n0", NARRATOR, "Very early on the first day of the week, while it was still dark, the women who loved him came to the tomb carrying spices to anoint his body. And the whole way there, one thing worried them."),
+    # Mark 16:3
+    ("w3", WOMAN, "Who shall roll us away the stone from the door of the sepulchre?"),
+    ("n0b", NARRATOR, "Who is going to roll the stone away for us? It took several men to move it, and there were only a few women walking up that hill in the dark."),
+    ("n1", NARRATOR, "But when they arrived, the huge stone that had sealed the tomb was rolled away."),
+    ("n2a", NARRATOR, "They stepped inside — and the body was gone."),
+    ("n2b", NARRATOR, "They stood there, confused and afraid."),
+    ("n3", NARRATOR, "Then two figures in dazzling clothing stood beside them, and asked a question that has echoed for two thousand years:"),
+    # Luke 24:5-6
+    ("s5", SCRIPTURE, "Why seek ye the living among the dead? He is not here, but is risen:"),
+    ("n4", NARRATOR, "Why do you look for the living among the dead? He is not here — he is risen."),
+    # Luke 24:6-7
+    ("s6", SCRIPTURE, "remember how he spake unto you when he was yet in Galilee, Saying, The Son of man must be delivered into the hands of sinful men, and be crucified, and the third day rise again."),
+    ("n5a", NARRATOR, "Remember, they said, what he told you back in Galilee — that he would be handed over to sinful men, and crucified, and on the third day rise again. He had said all of it, out loud, before any of it happened."),
+    ("n5b", NARRATOR, "And they remembered."),
+    ("card", NARRATOR, "The tomb couldn't hold him. Whatever feels dead and sealed shut in your life — he's the God of the rolled-away stone."),
 ]
 
-# HOMOGRAPH LAW — every segment ear-checked against the flag list
-# (bow, wound, wind, tears, lead, sow, live/lives, read, dove, bass,
-# minute, use/used, close): none present. Captions stay exact.
+# Homographs this build decides for itself (never auto-replaced globally).
 SPOKEN = {}
 
 
 async def main():
-    for name, voice, rate, pitch, text in SEGMENTS:
-        tts_text = SPOKEN.get(name, text)
-        await save_narration(tts_text, voice, rate, pitch, f"audio/{name}.mp3")
-        print(f"saved audio/{name}.mp3")
+    os.makedirs("audio", exist_ok=True)
+    for name, speaker, text in SEGMENTS:
+        flagged = [w for w in audit(text) if w not in SPOKEN]
+        if flagged:
+            print(f"  ! {name}: undecided homograph(s) {flagged}")
+        await save_speaker_narration(spoken_text(text, SPOKEN), speaker,
+                                     f"audio/{name}.mp3")
+        print(f"saved audio/{name}.mp3  [{speaker}]")
+
 
 if __name__ == "__main__":
     asyncio.run(main())
