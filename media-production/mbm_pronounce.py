@@ -66,7 +66,10 @@ SAY = {
     # as "abideth" (denial #146, 2026-07-19).
     "Zacchaeus": "Zakkeeus",
     "abideth": "abiedeth",
-    "abide": "abied",
+    # "abide": "abied" REMOVED 2026-07-20: the shipped-audio audit caught the
+    # respell itself producing "abbey" (#3 j1b jesus) and "abbeyed" (#126 card
+    # narrator); plain "abide" scored 100% in both contexts. abideth keeps its
+    # measured fix; the bare verb never needed one.
 }
 
 # ---- 1b. PER-VOICE: winners from test_names.py (NAMES/respellings.json) -----

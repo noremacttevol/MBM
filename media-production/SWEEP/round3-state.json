@@ -1,0 +1,212 @@
+{
+ "build-164-unity-of-faith|n6|gem": {
+  "base": 0.571,
+  "cands": {
+   "jemm": 0.571,
+   "jehm": 0.571
+  }
+ },
+ "build-62-ephphatha|s37|maketh": {
+  "base": 0.769,
+  "cands": {
+   "maiketh": 0.727,
+   "makith": 1.0
+  }
+ },
+ "build-84-no-room-manger|n2|nazareth": {
+  "base": 1.0,
+  "cands": {
+   "nazzureth": 1.0
+  }
+ },
+ "build-49-water-to-wine|n2|cana": {
+  "base": 0.571,
+  "cands": {
+   "kayna": 0.571,
+   "caynah": 0.6
+  }
+ },
+ "build-62-ephphatha|j1|ephphatha": {
+  "base": 0.286,
+  "cands": {
+   "ef fatha": 0.4,
+   "effata": 0.4
+  }
+ },
+ "build-03-zacchaeus|j1b|abide": {
+  "base": 0.6,
+  "cands": {
+   "abide": 1.0,
+   "uhbide": 1.0
+  }
+ },
+ "build-126-by-their-fruits|card|abide": {
+  "base": 0.5,
+  "cands": {
+   "abide": 1.0,
+   "uhbide": 1.0
+  }
+ },
+ "build-10-well|w25|messias": {
+  "base": 0.545,
+  "cands": {
+   "messyeus": 0.727
+  }
+ },
+ "build-51-first-catch-of-fish|n1|gennesaret": {
+  "base": 0.636,
+  "cands": {
+   "gunnesserett": 0.667
+  }
+ },
+ "build-57-jairus-daughter|n3b|jairus": {
+  "base": 0.545,
+  "cands": {
+   "jyrus": 1.0
+  }
+ },
+ "build-198-ensign-for-the-nations|s2|ensign": {
+  "base": 0.8,
+  "cands": {
+   "ensine": 1.0
+  }
+ },
+ "build-40-the-friend-at-midnight|n5|crumb": {
+  "base": 0.545,
+  "cands": {
+   "krum": 1.0
+  }
+ },
+ "build-40-the-friend-at-midnight|n8|meant": {
+  "base": 0.667,
+  "cands": {
+   "ment": 0.667
+  }
+ },
+ "build-40-the-friend-at-midnight|n14a|annoyed": {
+  "base": 0.6,
+  "cands": {
+   "annoid": 0.6
+  }
+ },
+ "build-155-falling-away|n3|anchored": {
+  "base": 0.706,
+  "cands": {
+   "ankered": 0.706
+  }
+ },
+ "build-88-triumphal-entry|s5|foal": {
+  "base": 0.5,
+  "cands": {
+   "fohl": 0.5
+  }
+ },
+ "build-182-spirit-returns-to-god|s0|nigh": {
+  "base": 0.4,
+  "cands": {
+   "nye": 0.4
+  }
+ },
+ "build-88-triumphal-entry|s5|sion": {
+  "base": 0.667,
+  "cands": {
+   "zyon": 0.75
+  }
+ },
+ "build-171-baptized-for-the-dead|s20|slept": {
+  "base": 0.4,
+  "cands": {
+   "slept,": 0.4
+  }
+ },
+ "build-83-weeping-over-jerusalem|s41|wept": {
+  "base": 0.667,
+  "cands": {
+   "wept,": 0.5
+  }
+ },
+ "build-72-calling-matthew|s11|eateth": {
+  "base": 0.6,
+  "cands": {
+   "eatith": 0.667
+  }
+ },
+ "build-173-dead-shall-hear|j21|raiseth": {
+  "base": 0.6,
+  "cands": {
+   "rayzeth": 0.769
+  }
+ },
+ "build-160-stone-cut|kv45|sawest": {
+  "base": 0.5,
+  "cands": {
+   "sawwest": 0.667
+  }
+ },
+ "build-192-the-fast-god-has-chosen|g7|seest": {
+  "base": 0.727,
+  "cands": {
+   "seeist": 0.909
+  }
+ },
+ "build-162-keys-of-kingdom|n5|men": {
+  "base": 0.667,
+  "cands": {
+   "menn": 0.667
+  }
+ },
+ "build-108-my-sheep-hear-my-voice|n5|sheep": {
+  "base": 0.667,
+  "cands": {
+   "sheep,": 1.0
+  }
+ },
+ "build-135-rainbow-covenant|n2b|fill": {
+  "base": 0.667,
+  "cands": {
+   "fill,": 1.0
+  }
+ },
+ "build-135-rainbow-covenant|n1|ark": {
+  "base": 0.667,
+  "cands": {
+   "ark,": 1.0
+  }
+ },
+ "build-66-malchus-ear|n1|luke": {
+  "base": 0.444,
+  "cands": {
+   "luke,": 1.0
+  }
+ },
+ "build-186-joint-heirs|s2|joint": {
+  "base": 0.727,
+  "cands": {
+   "joynt": 0.727
+  }
+ },
+ "build-111-lilies-and-sparrows|jv33|ye": {
+  "base": 0.5,
+  "cands": {
+   "yee": 0.5
+  }
+ },
+ "build-93-barabbas-goes-free|n0|barabbas": {
+  "base": 1.0,
+  "cands": {
+   "burabbus": 0.533
+  }
+ },
+ "build-18-emmaus|n0|emmaus": {
+  "base": 0.667,
+  "cands": {
+   "emmayus": 1.0
+  }
+ },
+ "build-88-triumphal-entry|n0a2|colt": {
+  "base": 0.75,
+  "cands": {
+   "coalt": 0.75
+  }
+ }
+}
