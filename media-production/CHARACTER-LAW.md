@@ -70,15 +70,15 @@ recurs in a new story, rule 4 kicks in: sheet first.
 | Stephen | ✅ | ✅ | ⬜ |
 | Naaman | ✅ | ✅ | ⬜ |
 | Elisha | ✅ | ✅ | ⬜ |
-| Peter | ✅ | ⬜ | ⬜ |
-| John (beloved) | ✅ | ⬜ | ⬜ |
-| James (son of Zebedee) | ✅ | ⬜ | ⬜ |
+| Peter | ✅ | ✅ | ⬜ |
+| John (beloved) | ✅ | ✅ | ⬜ |
+| James (son of Zebedee) | ✅ | ✅ | ⬜ |
 | Andrew | ✅ | ⬜ | ⬜ |
 | Matthew | ✅ | ⬜ | ⬜ |
 | Thomas | ✅ | ⬜ | ⬜ |
-| Judas Iscariot | ✅ | ⬜ | ⬜ |
+| Judas Iscariot | ✅ | ✅ | ⬜ |
 | John the Baptist | ✅ | ⬜ | ⬜ |
-| Mary (mother of Jesus) | ✅ | ⬜ | ⬜ |
+| Mary (mother of Jesus) | ✅ | ✅ | ⬜ |
 | Joseph of Nazareth | ✅ | ⬜ | ⬜ |
 | Mary Magdalene | ✅ | ⬜ | ⬜ |
 | Martha | ✅ | ⬜ | ⬜ |
@@ -95,7 +95,7 @@ recurs in a new story, rule 4 kicks in: sheet first.
 | Zebedee | ✅ | ⬜ | ⬜ |
 | Malchus | ✅ | ⬜ | ⬜ |
 | Simon the Pharisee | ✅ | ⬜ | ⬜ |
-| Young Jesus (boy ~12) | ✅ | ⬜ | ⬜ |
+| Young Jesus (boy ~12) | ✅ | ✅ | ⬜ |
 | Adam | ✅ | ⬜ | ⬜ |
 | Eve | ✅ | ⬜ | ⬜ |
 | Noah | ✅ | ⬜ | ⬜ |

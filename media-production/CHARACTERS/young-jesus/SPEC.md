@@ -47,16 +47,13 @@ person as a twelve-year-old boy — identical skin tone, identical warm brown
 eyes, identical facial structure rendered soft and boyish, the same dark
 brown-black wavy hair worn to his shoulders, no beard. A reverent close bust
 portrait of the boy Jesus, twelve years old, facing the viewer directly, calm
-alert questioning expression, wearing a plain undyed off-white cream wool
-boy's tunic. No halo, no glow, never caucasian, never pale, never blue-eyed.
-Warm even light, plain soft warm-brown background. One single continuous
-scene painted edge to edge, no panels.
+alert questioning expression, wearing a plain undyed CREAM-colored wool boy's tunic, warm cream like unbleached wool, never bright white and never any other color. No halo, no glow, never caucasian, never pale, never blue-eyed.
+Warm even light, plain soft warm-brown background. The artwork FILLS the entire frame edge to edge with NO blank bands at the top or bottom. One single continuous scene painted edge to edge, no panels.
 
 ### three-quarter (refs: face-front.jpeg + JESUS-MASTER-REF/jesus-face.jpeg)
 [STYLE BLOCK] The SAME twelve-year-old boy as the attached reference images —
 identical face, hair and skin: a reverent three-quarter bust portrait of the
-boy Jesus, twelve, dark wavy shoulder-length hair, no beard, cream wool boy's
-tunic, turned three-quarters toward soft warm light, thoughtful and bright.
+boy Jesus, twelve, dark wavy shoulder-length hair, no beard, CREAM-colored undyed wool boy's tunic (warm cream like unbleached wool, never bright white, never green, never grey), turned three-quarters toward soft warm light, thoughtful and bright.
 No halo, no glow. Plain muted earth-tone background. One single continuous
 scene painted edge to edge, no panels.
 
@@ -65,8 +62,6 @@ scene painted edge to edge, no panels.
 identical face, hair and skin: a full-length standing figure, head to feet
 fully in frame: the boy Jesus, twelve years old, slender mid-growth build,
 dark wavy shoulder-length hair, no beard, standing calm and upright in a
-plain undyed off-white cream wool boy's tunic reaching below the knee, simple
-rope belt, worn leather sandals. No halo, no glow. Plain muted earth-tone
-background, gentle ground shadow. Every figure has two arms, two hands, two
+plain undyed CREAM-colored wool boy's tunic reaching below the knee (warm CREAM like undyed sheep's wool, visibly warmer and creamier than white, never bright white), simple rope belt, worn leather sandals. No halo, no glow. He stands against a PLAIN FLAT warm-brown studio backdrop — NO landscape, NO sky, NO hills, NO road, NO plants, no scenery of any kind, only a gentle ground shadow. Every figure has two arms, two hands, two
 legs and one head. One single continuous scene painted edge to edge, no
 panels.

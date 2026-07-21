@@ -51,7 +51,7 @@ captions in the image. Historically modest clothing: rough-woven wool and
 linen in undyed earth colors. No modern objects.
 
 ### face-front (no ref — this creates the identity)
-[STYLE BLOCK] A reverent close bust portrait, facing the viewer directly:
+[STYLE BLOCK] A reverent close bust portrait, facing the viewer directly, her DEEP BLUE veil drawn up covering her hair (the veil is always blue, never pink; the rose color belongs only to her dress):
 Mary the mother of Jesus, a young Middle Eastern Jewish mother in her early
 twenties, warm olive-brown skin, a gentle quiet face, large dark thoughtful
 eyes, dark hair modestly covered by a deep blue veil worn over a soft
@@ -64,7 +64,7 @@ single continuous scene painted edge to edge, no panels.
 and veil: a reverent three-quarter bust portrait of Mary the mother of Jesus,
 a young mother in her early twenties, warm olive-brown skin, gentle
 thoughtful face, deep blue mantle and veil over a soft dusk-rose tunic,
-turned three-quarters toward warm light, quiet and pondering. No halo, no
+her DEEP BLUE veil covering her hair (the veil is always blue, never pink, never rose — the rose color belongs only to her dress underneath), turned three-quarters toward warm light, quiet and pondering. No halo, no
 glow. Plain muted earth-tone background. One single continuous scene painted
 edge to edge, no panels.
 
