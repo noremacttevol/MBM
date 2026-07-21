@@ -62,8 +62,12 @@ SEGMENTS = [
 # Homographs this build decides for itself (never auto-replaced globally).
 SPOKEN = {}
 
+# Cameron complaint #22: Eric reads plain "owest" as "Alice" and the earlier
+# 'ohest' respell vanished in the mix. 'owesst' round-trips "owe-est" clean
+# (A/B 2026-07-21, in-context, Eric voice). Do NOT drop this on rewrites —
+# it was lost once already in a SPEAKER-LAW batch rewrite.
+SPOKEN.update({"owest": "owesst"})
 
-SPOKEN.update({'owest': 'owesst'})  # A/B 2026-07-21: plain read as "Alice", 'ohest' vanished in the shipped mix; 'owesst' round-trips "owe-est" clean (Cameron complaint #22)
 
 async def main():
     os.makedirs("audio", exist_ok=True)
@@ -71,7 +75,7 @@ async def main():
         flagged = [w for w in audit(text) if w not in SPOKEN]
         if flagged:
             print(f"  ! {name}: undecided homograph(s) {flagged}")
-        await save_speaker_narration(spoken_text(text, SPOKEN, speaker), speaker,
+        await save_speaker_narration(spoken_text(text, SPOKEN), speaker,
                                      f"audio/{name}.mp3")
         print(f"saved audio/{name}.mp3  [{speaker}]")
 
