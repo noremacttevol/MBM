@@ -87,6 +87,7 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | # | Story | Problem |
 |---|---|---|
 | 14 | The ten lepers | ~0:55 — the ten lepers look like GIANTS next to Jesus and the disciples; fix the scale |
+| 12 | Blind Bartimaeus | end-card can run off the frame (one of the 16 card-law builds). build.py is already patched; needs ONE re-render + verify when Cameron clears it — skipped 2026-07-21 because the cut is APPROVED |
 | 44 | The two debtors | captions take up the entire picture — FIXED 2026-07-17 |
 | 45 | The wicked tenants | captions cover the picture — FIXED 2026-07-17 |
 | 47 | Houses on rock and sand | check for long captions — FIXED 2026-07-17 |
