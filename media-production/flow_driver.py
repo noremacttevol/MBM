@@ -27,6 +27,7 @@ It never touches the paid Gemini API.
 """
 import argparse
 import base64
+import fcntl
 import sys
 import time
 from pathlib import Path
@@ -36,6 +37,41 @@ from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 PROFILE = Path.home() / ".mbm-flow-profile"
 CONF = Path.home() / ".mbm-flow-project"
 FLOW = "https://labs.google/fx/tools/flow"
+
+# ONE Chrome per profile (2026-07-21, Machine A): two Claude sessions on the
+# same computer both drove Flow at once — the second launch died on Chrome's
+# ProcessSingleton, and worse, two sessions sharing one project gallery can
+# each download the OTHER's freshly generated image. Every command that opens
+# the profile now waits its turn on this advisory lock first. The lock is held
+# for the whole gen (attach→submit→download), so gallery "fresh image"
+# detection can never see a neighbour session's result.
+LOCK = Path.home() / ".mbm-flow-profile.flock"
+
+
+class profile_lock:
+    def __init__(self, wait_minutes=30):
+        self.wait = wait_minutes * 60
+        self.fh = None
+
+    def __enter__(self):
+        self.fh = open(LOCK, "w")
+        deadline = time.time() + self.wait
+        while True:
+            try:
+                fcntl.flock(self.fh, fcntl.LOCK_EX | fcntl.LOCK_NB)
+                return self
+            except BlockingIOError:
+                if time.time() > deadline:
+                    raise SystemExit(
+                        f"flow profile busy for {self.wait//60} min — another "
+                        "session is generating; try again")
+                print("  (flow profile busy — another session is generating; waiting…)",
+                      flush=True)
+                time.sleep(15)
+
+    def __exit__(self, *a):
+        fcntl.flock(self.fh, fcntl.LOCK_UN)
+        self.fh.close()
 
 NAMES_JS = """() => [...document.querySelectorAll('img')]
   .filter(i => i.src.includes('getMediaUrl'))
@@ -89,7 +125,7 @@ def ensure_project(page):
 
 
 def cmd_open():
-    with sync_playwright() as p:
+    with profile_lock(), sync_playwright() as p:
         ctx = launch(p)
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
         page.goto(FLOW, wait_until="domcontentloaded")
@@ -110,7 +146,7 @@ def cmd_open():
 
 
 def cmd_check():
-    with sync_playwright() as p:
+    with profile_lock(), sync_playwright() as p:
         ctx = launch(p, headless=True)
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
         ok = logged_in(page)
@@ -223,7 +259,7 @@ def cmd_gen(prompt, out, refs):
     if not url:
         raise SystemExit("No saved project. Run: flow_driver.py open")
     prompt = " ".join(prompt.split())  # ONE line — Enter submits
-    with sync_playwright() as p:
+    with profile_lock(), sync_playwright() as p:
         # HEADED on purpose: Cameron can watch it work, and Flow behaves like a
         # normal browser. Headless hid everything and stalled (2026-07-15 lesson).
         ctx = launch(p, headless=False)
@@ -378,7 +414,7 @@ def main():
 def cmd_show(minutes=15):
     """Open the saved project in a visible window and keep it open for Cameron."""
     url = CONF.read_text().strip() if CONF.exists() else FLOW
-    with sync_playwright() as p:
+    with profile_lock(), sync_playwright() as p:
         ctx = launch(p, headless=False)
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
         page.goto(url, wait_until="domcontentloaded")
@@ -393,7 +429,7 @@ def cmd_grab(out, wait_min=15):
     url = CONF.read_text().strip() if CONF.exists() else ""
     if not url:
         raise SystemExit("No saved project. Run: flow_driver.py open")
-    with sync_playwright() as p:
+    with profile_lock(), sync_playwright() as p:
         ctx = launch(p, headless=True)
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
         page.goto(url, wait_until="domcontentloaded")
