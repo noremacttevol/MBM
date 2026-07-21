@@ -110,9 +110,9 @@ recurs in a new story, rule 4 kicks in: sheet first.
 | Elijah | ✅ | ✅ | ⬜ |
 | Eli | ✅ | ✅ | ⬜ |
 | Samuel | ✅ | ✅ | ⬜ |
-| Hannah | ✅ | ⬜ | ⬜ |
-| David | ✅ | ⬜ | ⬜ |
-| Ruth | ✅ | ⬜ | ⬜ |
+| Hannah | ✅ | ✅ | ⬜ |
+| David | ✅ | ✅ | ⬜ |
+| Ruth | ✅ | ✅ | ⬜ |
 | Naomi | ✅ | ⬜ | ⬜ |
 | Boaz | ✅ | ⬜ | ⬜ |
 | Job | ✅ | ⬜ | ⬜ |
