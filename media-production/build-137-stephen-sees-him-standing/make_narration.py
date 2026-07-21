@@ -1,61 +1,63 @@
 #!/usr/bin/env python3
-"""Generate narration audio for Story Video #137 — Stephen Sees Him Standing
-(Acts 7:55-56). From DRAFTS/row-137.md, validated against the laws.
-Narrator: modern, warm, low, unhurried (American). Plain US model only.
-Jesus does NOT speak in this passage. The exact KJV of Acts 7:56 is STEPHEN's
-declaration — carried by the SCRIPTURE VOICE (Christopher) per the build-161
-precedent (the narrator never quotes KJV; Christopher carries all exact KJV).
-CONTENT-CARE (deep): the stoning is never in focus — reverent distance only;
-faces carry the story. The Father is never depicted — glory-light only.
-HOMOGRAPH LAW: ear-checked — no bow/wound/wind/tears/lead/sow/live/read/dove/
-bass/minute/use(d)/close in any segment. No SPOKEN overrides needed.
+"""Narration for build-137-stephen-sees-him-standing — Acts 7.
+
+SPEAKER-LAW rebuild (see media-production/SPEAKER-LAW.md). Who is speaking is
+declared once here and decides BOTH the voice and the caption colour.
+
+One red beat, and it was a misattribution. Jesus does not speak anywhere in this
+story — he is SEEN, standing, and says nothing. The words on screen are Stephen's:
+
+  s1  Acts 7:56  'Behold, I see the heavens opened, and the Son of man standing on
+      the right hand of God.'  RED -> SCRIPTURE
+
+That is the whole colour change: one line out of red into light blue. Painting it red
+had Christ announcing his own appearance in the third person, which is backwards —
+the power of the moment is that a dying man says it while the stones are coming.
+Light blue is where every other witness in Acts sits, and Stephen belongs there.
+
+No splits needed; the segment is a single clean speaker. Nothing lifted from
+paraphrase — n0a, n0b and n1 are Luke's narration retold in modern English and are
+correctly narrator, and n2 already does the retelling job right after s1. Acts 7:56
+is quoted verbatim from the King James text. Nothing left uncertain.
+
+WHY-LAW: milk. Standing, not sitting. Heaven is not indifferent to what is happening
+to you — and the video does not have to argue that, because Stephen already said it. 2026-07-21: added n2b (narrator, same still ST5) — the cut fell to 57.1s, under the 60s floor, after the dead-air trim; the added line is the two-distinct-beings observation straight from Acts 7:55-56.
 """
 import asyncio
-import edge_tts
-from mbm_caption_timing import save_narration
+import os
 
-NARRATOR = "en-US-AndrewNeural"      # plain American — never a Multilingual model
-SCRIPTURE = "en-US-ChristopherNeural"  # the scripture voice. Exact KJV only.
+from mbm_caption_timing import save_speaker_narration
+from mbm_pronounce import audit, spoken_text
+from mbm_speakers import NARRATOR, SCRIPTURE
 
+# (id, speaker, caption_text). The caption always shows this exact text; only the
+# string handed to the TTS is respelled.
 SEGMENTS = [
-    # (filename, voice, rate, pitch, text)
-    # n0 split so the drag-out still and the looking-elsewhere still each
-    # carry their half — draft words verbatim. Stoning stays off-focus.
-    ("n0a", NARRATOR, "-20%", "-4Hz",
-     "The council was furious. They dragged Stephen out and hurled "
-     "stones."),
-    ("n0b", NARRATOR, "-20%", "-4Hz",
-     "But Stephen was looking somewhere else entirely."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "Full of the Holy Ghost, he gazed up into heaven — and saw "
-     "the glory of God."),
-    # Exact KJV Acts 7:56 — Stephen's declaration, scripture voice.
-    ("s1", SCRIPTURE, "-22%", "-2Hz",
-     "Behold, I see the heavens opened, and the Son of man "
-     "standing on the right hand of God."),
-    ("n2", NARRATOR, "-20%", "-4Hz",
-     "Not sitting. Standing. As if ready to receive the one they "
-     "were killing."),
-    # sacred-silence beat follows n2.
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "The vision held him steady while the stones fell. He saw his "
-     "Savior standing for him."),
-    ("card", NARRATOR, "-22%", "-5Hz",
-     "He stands for you too. Whatever falls on you today, you are "
-     "not alone."),
+    ("n0a", NARRATOR, "The council was furious. They dragged Stephen out and hurled stones."),
+    ("n0b", NARRATOR, "But Stephen was looking somewhere else entirely."),
+    ("n1", NARRATOR, "Full of the Holy Ghost, he gazed up into heaven — and saw the glory of God."),
+    # Acts 7:56
+    ("s1", SCRIPTURE, "Behold, I see the heavens opened, and the Son of man standing on the right hand of God."),
+    ("n2", NARRATOR, "Look, he said — I can see heaven open, and the Son of man standing at God's right hand. Not sitting. Standing. As if ready to receive the one they were killing."),
+    ("n2b", NARRATOR, "Notice what Stephen actually saw: the glory of God, and the Son of man standing beside it, at his right hand. Two of them. Distinct. And the Son was on his feet for him."),
+    ("n3", NARRATOR, "The vision held him steady while the stones fell. He saw his Savior standing for him."),
+    ("card", NARRATOR, "He stands for you too. Whatever falls on you today, you are not alone."),
 ]
 
-# HOMOGRAPH LAW — every segment ear-checked against the flag list
-# (bow, wound, wind, tears, lead, sow, live/lives, read, dove, bass,
-# minute, use/used, close): none present. Captions stay exact.
+# Homographs this build decides for itself (never auto-replaced globally).
 SPOKEN = {}
 
 
 async def main():
-    for name, voice, rate, pitch, text in SEGMENTS:
-        tts_text = SPOKEN.get(name, text)
-        await save_narration(tts_text, voice, rate, pitch, f"audio/{name}.mp3")
-        print(f"saved audio/{name}.mp3")
+    os.makedirs("audio", exist_ok=True)
+    for name, speaker, text in SEGMENTS:
+        flagged = [w for w in audit(text) if w not in SPOKEN]
+        if flagged:
+            print(f"  ! {name}: undecided homograph(s) {flagged}")
+        await save_speaker_narration(spoken_text(text, SPOKEN), speaker,
+                                     f"audio/{name}.mp3")
+        print(f"saved audio/{name}.mp3  [{speaker}]")
+
 
 if __name__ == "__main__":
     asyncio.run(main())
