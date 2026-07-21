@@ -1,3 +1,29 @@
+## 2026-07-21 — CHARACTER SHEETS APPROVED + WIRED INTO THE PIPELINE (Machine A)
+
+Commit: (this commit). Cameron approved the whole roster ("okay characters are all
+good"). All 63 sheets are now LOCKED refs alongside JESUS-MASTER-REF.
+
+- Approval stamped in all 63 CHARACTERS/*/SPEC.md (status 🔒 LOCKED, approved
+  2026-07-21) and across the CHARACTER-LAW.md status board.
+- **CHARACTERS/character_refs.py** — the one place a build asks what a person
+  looks like: `refs(name)` returns the 3 locked jpegs to pass as --ref,
+  `lock_text(name)` returns the exact paragraph to paste, `find_in_text()` says
+  who a build shows. Alias-aware (Simon Peter, the Baptist, Heavenly Father);
+  ignores scripture citations ("Matt 9:9", "daniel-3_slug") and common-word
+  names ("the biggest job of his life" is not Job). REFS.json = the manifest.
+- **character_ref_gate.py** — mechanical gate in the shape of jesus_face_gate:
+  a rostered name in PROMPTS.md with no lock text FAILS before any Flow credit;
+  mentioned-but-not-painted names clear with `CHARACTER-REF-EXEMPT: <name>`.
+  Wired into FLOW-BUILD-PLAYBOOK step 3-4, PRODUCTION-BIBLE's gate banner, and
+  CREW-GUIDE.
+- **AUDITS/CHARACTER-REF-RETROFIT.md** — 87 shipped builds show rostered
+  characters; 45 already carry lock text, 42 predate the law and are listed for
+  retrofit (their shipped videos are fine — the rule binds the next re-roll).
+  Peter (19 builds) and John (16) are the highest-leverage fixes.
+- Board republished as LOCKED: https://milk-b4-meat.web.app/characters.html
+  (Firebase 429 → prune_hosting_versions.py, then deploy at concurrency 4).
+- **#137 / #140 / #179 are UNBLOCKED** (WANTED.md closed out).
+
 ## 2026-07-21 (later) — TIMING/HEALTH SWEEP ROUND 2: re-render batch checked, 2 fixes, source hardened
 
 Commit: (this commit). Audit: media-production/AUDITS/TIMING-HEALTH-SWEEP-2026-07-21.md

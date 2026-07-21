@@ -1,7 +1,7 @@
 # ISAIAH — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #157 A Marvellous Work (on-screen lock) · #175 The Mountain
 of the LORD's House and #198 An Ensign for the Nations (his prophecies; no
 figure lock in those builds) · #73 This Day Fulfilled (his scroll is read)

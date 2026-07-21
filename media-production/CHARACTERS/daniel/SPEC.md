@@ -1,7 +1,7 @@
 # DANIEL — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #160 The Stone Cut Without Hands (shipped DANIEL LOCK —
 adopted verbatim below: "a wise young Middle-Eastern man of about
 thirty-five, dark hair and a short dark beard, calm and dignified, wearing

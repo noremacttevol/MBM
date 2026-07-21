@@ -1,7 +1,7 @@
 # BARTIMAEUS — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #12 Blind Bartimaeus
 
 ## What scripture tells us (Mark 10:46-52)

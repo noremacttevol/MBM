@@ -1,7 +1,7 @@
 # THOMAS (Didymus) — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #99 (flesh and bone — Thomas), #145 (the way, the truth, and
 the life)
 

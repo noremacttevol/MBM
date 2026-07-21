@@ -1,7 +1,7 @@
 # JOB — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #120 Job and the Voice from the Whirlwind (shipped — "a
 dignified older man with a full grey beard and grey hair, warm Middle-Eastern
 skin, in a fine deep burgundy-red robe" when blessed; "torn ash-grey robe" in

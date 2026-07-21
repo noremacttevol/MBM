@@ -1,7 +1,7 @@
 # MALACHI — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #191 Windows of Heaven (on-screen lock) · #174 Elijah, and
 the Hearts of the Fathers (his prophecy, Mal 4:5-6; Elijah is the on-screen
 figure)

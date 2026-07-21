@@ -1,7 +1,7 @@
 # JOSEPH OF EGYPT — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #147 Joseph Forgives (Gen 45; 50:20) — look LOCKED by that
 build. NOT the same roster entry as Joseph of Nazareth.
 

@@ -1,7 +1,7 @@
 # JEREMIAH — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #180 Before I Formed Thee (young call variant) · #199
 Fishers and Hunters (mature ministry lock — the sheet)
 

@@ -1,7 +1,7 @@
 # SIMON THE PHARISEE — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #44 The Two Debtors, #74 The Woman Who Washed His Feet
 (the same Luke 7 dinner told from two angles; #82 Anointing at Bethany is a
 DIFFERENT story and a different Simon — Simon the leper — not this man).

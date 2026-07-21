@@ -1,7 +1,7 @@
 # SAMUEL — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #104 The Boy Samuel (shipped — the boy, "warm olive-tan skin
 and dark curly hair, simple sleeveless oatmeal-linen tunic belted at the
 waist"), #149 Hannah Is Heard (shipped — one still, the child at about three

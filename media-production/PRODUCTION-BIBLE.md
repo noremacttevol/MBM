@@ -19,10 +19,14 @@
 > single most important thing to get right, and it is the thing that keeps getting done
 > wrong and wasting Cameron's credits three machines over. Other characters DO show faces
 > (kept consistent within a story). Only Jesus's face is withheld — always.
-> **Before spending ONE Flow credit, every prompt sheet must PASS the mechanical face gate:**
-> `python3 media-production/jesus_face_gate.py --dir <build-folder>` (exit 0 = safe).
-> A prompt sheet that fails the gate is not allowed near Flow. Full rule: §1 "The
-> Standing Laws" → "How Jesus is depicted."
+> **Before spending ONE Flow credit, every prompt sheet must PASS BOTH mechanical gates:**
+> `python3 media-production/jesus_face_gate.py --dir <build-folder>` (exit 0 = safe)
+> **and** `python3 media-production/character_ref_gate.py --dir <build-folder>`
+> (exit 0 = every rostered character carries their LOCKED sheet — CHARACTER-LAW.md,
+> all 63 sheets approved by Cameron 2026-07-21; the lock paragraph and the three
+> ref jpegs come from `CHARACTERS/character_refs.py`, never from imagination).
+> A prompt sheet that fails either gate is not allowed near Flow. Full rules: §1 "The
+> Standing Laws" → "How Jesus is depicted," and `media-production/CHARACTER-LAW.md`.
 
 ---
 

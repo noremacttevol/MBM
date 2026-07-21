@@ -1,7 +1,7 @@
 # MOSES — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #105 Face to Face (Ex 33) — look LOCKED by that build; also
 #67 The Transfiguration, #161 Called of God, #177 Make Me a Sanctuary
 

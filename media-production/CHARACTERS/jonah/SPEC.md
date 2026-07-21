@@ -1,7 +1,7 @@
 # JONAH — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #118 Jonah and the God Who Relents (shipped — adopted
 verbatim below: "warm Middle-Eastern skin, a weathered man with a greying
 beard and greying dark hair, a dull olive-brown robe with a faded ochre

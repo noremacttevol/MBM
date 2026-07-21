@@ -1,7 +1,7 @@
 # NAOMI — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #148 Ruth and the Redeemer (shipped NAOMI LOCK — adopted
 verbatim below: a widow of about sixty, worn kind face deeply lined by grief,
 grey hair fully covered by a dark charcoal mourning shawl, dark umber wool

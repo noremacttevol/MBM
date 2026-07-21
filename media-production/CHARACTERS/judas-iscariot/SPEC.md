@@ -1,7 +1,7 @@
 # JUDAS ISCARIOT — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** no shipped build yet — this sheet is created ahead of first
 use (Character Law rule 4: new face → ref first).
 

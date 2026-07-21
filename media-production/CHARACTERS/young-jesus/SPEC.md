@@ -1,7 +1,7 @@
 # YOUNG JESUS (boy, ~12) — VARIANT CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #87 The Boy in the Temple (Luke 2:41-52)
 **Variant of:** JESUS-MASTER-REF (face-law v3, Cameron's amended rule: his face
 IS shown via master ref — never flag it, never re-litigate it).

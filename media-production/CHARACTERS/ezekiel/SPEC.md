@@ -1,7 +1,7 @@
 # EZEKIEL — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #158 The Two Sticks (on-screen lock)
 
 ## What scripture tells us

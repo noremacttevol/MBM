@@ -1,7 +1,7 @@
 # CLEOPAS — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #18 The Road to Emmaus
 
 ## What scripture tells us (Luke 24:13-35)

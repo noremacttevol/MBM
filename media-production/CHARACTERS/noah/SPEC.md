@@ -1,7 +1,7 @@
 # NOAH — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #135 Rainbow Covenant (Gen 8-9) — look LOCKED by that build
 
 ## What scripture tells us

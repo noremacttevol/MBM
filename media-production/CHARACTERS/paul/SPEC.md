@@ -1,7 +1,7 @@
 # PAUL (Saul of Tarsus) — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #138, #155, #166, #171, #183, #184, #186 — the most-drawn
 apostle after the twelve.
 

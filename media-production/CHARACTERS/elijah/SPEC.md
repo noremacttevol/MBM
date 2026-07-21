@@ -1,7 +1,7 @@
 # ELIJAH — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #101 The Still Small Voice (1 Kgs 19) — look LOCKED by that
 build; also #67 The Transfiguration, #174 Hearts of the Fathers
 

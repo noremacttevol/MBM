@@ -1,7 +1,7 @@
 # SARAH — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** no shipped build has locked her look yet — companion to
 Abraham's #114/#115 stories (Gen 18); first appearance conditions on this
 sheet

@@ -1,7 +1,7 @@
 # MESHACH — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #119 The Fourth Man in the Fire (shipped — the trio is locked
 by letter: (A) Shadrach = deep indigo-blue robe, short black beard;
 (B) MESHACH = russet-brown robe with a FULLER DARK beard; (C) Abednego =

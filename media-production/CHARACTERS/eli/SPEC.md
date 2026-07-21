@@ -1,7 +1,7 @@
 # ELI — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #104 The Boy Samuel (shipped — "very old high priest near ninety,
 long white beard and hair, dim tired eyes, deep indigo-blue priestly robe"),
 #149 Hannah Is Heard (shipped ELI LOCK — heavy-set, thin white hair, long white

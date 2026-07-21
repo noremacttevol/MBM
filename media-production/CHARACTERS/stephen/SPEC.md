@@ -1,7 +1,7 @@
 # STEPHEN — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #137 (retro-check), #179 Stephen's Witness (blocking)
 
 ## What scripture tells us

@@ -1,7 +1,7 @@
 # DAVID — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #150 The Shepherd Psalm (NOTE: the on-screen shepherd in #150
 is deliberately an anonymous psalm-illustration figure of about fifty — NOT
 David — per that build's header; this sheet does not govern him), #198 Ensign

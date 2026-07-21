@@ -15,7 +15,10 @@
 - Reads the story's production pack and the scripture
 - Writes every prompt — the crew NEVER has to write a prompt
 - Drives Chrome to generate images and clips in Google Flow
-- Checks every image and clip against the rules (face law, style, scripture)
+- Checks every image and clip against the rules (face law, character sheets,
+  style, scripture) — every well-known person now has ONE approved look on file
+  (CHARACTER-LAW.md), so Peter looks like Peter in every video, not a new man
+  each time
 - Assembles the finished video on this computer (free)
 - Shows the finished video and explains, in plain words, what it did and why
 

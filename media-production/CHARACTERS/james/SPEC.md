@@ -1,7 +1,7 @@
 # JAMES (son of Zebedee) — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #51, #53, #67, #71, #89 and more. The elder Zebedee brother.
 
 ## What scripture tells us

@@ -1,7 +1,7 @@
 # GOD THE FATHER — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Master spec:** `../../GOD-THE-FATHER-LOCK.md` (locked by Cameron 2026-07-18) —
 that file is the authority; this SPEC only adds the sheet prompts.
 

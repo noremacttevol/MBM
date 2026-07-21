@@ -1,7 +1,7 @@
 # BOAZ — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #148 Ruth and the Redeemer (shipped BOAZ LOCK — adopted
 verbatim below: a prosperous landowner of about fifty, broad and steady, a
 FULL hairline of thick grey-streaked dark hair, a full grey-streaked beard,

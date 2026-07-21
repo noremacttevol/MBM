@@ -1,7 +1,7 @@
 # JOSHUA — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #196 Would God All Were Prophets (Num 11) — look LOCKED by
 that build
 

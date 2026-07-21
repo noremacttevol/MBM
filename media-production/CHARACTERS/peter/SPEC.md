@@ -1,7 +1,7 @@
 # PETER (Simon Peter) — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #7, #19, #51, #53, #66, #67, #71, #89, #90, #92, #103, #162
 and more — the most-drawn face after Jesus.
 

@@ -1,7 +1,7 @@
 # ANDREW — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #53 (Peter's mother-in-law), #58 (feeding the 5000), #71 (calling
 the fishermen)
 

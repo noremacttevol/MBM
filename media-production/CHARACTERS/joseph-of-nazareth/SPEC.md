@@ -1,7 +1,7 @@
 # JOSEPH OF NAZARETH — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #84 (no room — the manger), #87 (the boy in the temple)
 (Not to be confused with Joseph of Egypt — builds #147/#158 are the OTHER
 Joseph and are governed by his own sheet.)

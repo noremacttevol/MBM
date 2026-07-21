@@ -1,7 +1,7 @@
 # ADAM — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #113 Where Art Thou (Gen 3), #178
 
 ## What scripture tells us

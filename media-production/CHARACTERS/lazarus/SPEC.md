@@ -1,7 +1,7 @@
 # LAZARUS (of Bethany) — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #17 (Lazarus)
 (NOT this man: the beggar Lazarus of the parable in build #37 — Luke 16 — is
 a different, unrelated character and is governed by his own in-build lock.)

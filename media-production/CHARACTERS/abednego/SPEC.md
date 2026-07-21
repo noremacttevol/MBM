@@ -1,7 +1,7 @@
 # ABEDNEGO — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #119 The Fourth Man in the Fire (the (C) figure)
 
 ## What scripture tells us (Daniel 1–3)

@@ -63,76 +63,92 @@ recurs in a new story, rule 4 kicks in: sheet first.
 
 ## Status board
 
-**2026-07-21 — ALL 63 SHEETS RENDERED.** Every sheet is on Cameron's approval
-board: **https://milk-b4-meat.web.app/characters.html** (labeled contact
-sheets also at `CHARACTERS/_approval-1-NT.jpg` / `_approval-2-OT.jpg`).
-Nothing is locked until Cameron approves; a rejected name gets rerolled and
-reposted. Render harness: `CHARACTERS/render_sheet.py` (per-view rerolls =
-delete the jpeg and rerun); QC: `CHARACTERS/qc_strip.py`.
+**2026-07-21 — ALL 63 SHEETS APPROVED AND LOCKED BY CAMERON.** ("okay characters
+are all good.") Every rostered character is now a LOCKED ref, exactly like
+JESUS-MASTER-REF. From this moment rule 3 is binding on every build: a still
+that shows a rostered character MUST attach that character's ref jpegs and use
+the SPEC's written description. **Changing any sheet now requires Cameron's
+explicit approval (rule 5).**
+
+Board (kept live for reference): https://milk-b4-meat.web.app/characters.html
+Contact sheets: `CHARACTERS/_approval-1-NT.jpg` / `_approval-2-OT.jpg`.
+
+**How a build uses a sheet (do this, every time):**
+```python
+import sys; sys.path.insert(0, '../CHARACTERS')      # from a build-NN folder
+from character_refs import refs, lock_text, find_in_text
+refs('peter')        # -> [face-front.jpeg, three-quarter.jpeg, full-body.jpeg] to pass as --ref
+lock_text('peter')   # -> the exact paragraph to paste into the prompt
+```
+Gate before spending any Flow credit, same as the face gate:
+`python3 media-production/character_ref_gate.py --dir build-NN-slug` must exit 0.
+
+Tools: `CHARACTERS/render_sheet.py` (reroll a view = delete the jpeg, rerun),
+`CHARACTERS/qc_strip.py`, `CHARACTERS/approval_sheet.py`, `CHARACTERS/REFS.json`.
 
 | Character | SPEC.md | Sheet rendered | Cameron approved |
 |---|---|---|---|
 | Jesus | ✅ (face-law v3) | ✅ JESUS-MASTER-REF | ✅ |
-| God the Father | ✅ GOD-THE-FATHER-LOCK | ✅ | ⬜ |
-| Stephen | ✅ | ✅ | ⬜ |
-| Naaman | ✅ | ✅ | ⬜ |
-| Elisha | ✅ | ✅ | ⬜ |
-| Peter | ✅ | ✅ | ⬜ |
-| John (beloved) | ✅ | ✅ | ⬜ |
-| James (son of Zebedee) | ✅ | ✅ | ⬜ |
-| Andrew | ✅ | ✅ | ⬜ |
-| Matthew | ✅ | ✅ | ⬜ |
-| Thomas | ✅ | ✅ | ⬜ |
-| Judas Iscariot | ✅ | ✅ | ⬜ |
-| John the Baptist | ✅ | ✅ | ⬜ |
-| Mary (mother of Jesus) | ✅ | ✅ | ⬜ |
-| Joseph of Nazareth | ✅ | ✅ | ⬜ |
-| Mary Magdalene | ✅ | ✅ | ⬜ |
-| Martha | ✅ | ✅ | ⬜ |
-| Mary of Bethany | ✅ | ✅ | ⬜ |
-| Lazarus | ✅ | ✅ | ⬜ |
-| Zacchaeus | ✅ | ✅ | ⬜ |
-| Nicodemus | ✅ | ✅ | ⬜ |
-| Pilate | ✅ | ✅ | ⬜ |
-| Paul | ✅ | ✅ | ⬜ |
-| Bartimaeus | ✅ | ✅ | ⬜ |
-| Jairus | ✅ | ✅ | ⬜ |
-| Cleopas | ✅ | ✅ | ⬜ |
-| Barabbas | ✅ | ✅ | ⬜ |
-| Zebedee | ✅ | ✅ | ⬜ |
-| Malchus | ✅ | ✅ | ⬜ |
-| Simon the Pharisee | ✅ | ✅ | ⬜ |
-| Young Jesus (boy ~12) | ✅ | ✅ | ⬜ |
-| Adam | ✅ | ✅ | ⬜ |
-| Eve | ✅ | ✅ | ⬜ |
-| Noah | ✅ | ✅ | ⬜ |
-| Abraham | ✅ | ✅ | ⬜ |
-| Sarah | ✅ | ✅ | ⬜ |
-| Isaac | ✅ | ✅ | ⬜ |
-| Jacob | ✅ | ✅ | ⬜ |
-| Joseph (of Egypt) | ✅ | ✅ | ⬜ |
-| Moses | ✅ | ✅ | ⬜ |
-| Aaron | ✅ | ✅ | ⬜ |
-| Joshua | ✅ | ✅ | ⬜ |
-| Elijah | ✅ | ✅ | ⬜ |
-| Eli | ✅ | ✅ | ⬜ |
-| Samuel | ✅ | ✅ | ⬜ |
-| Hannah | ✅ | ✅ | ⬜ |
-| David | ✅ | ✅ | ⬜ |
-| Ruth | ✅ | ✅ | ⬜ |
-| Naomi | ✅ | ✅ | ⬜ |
-| Boaz | ✅ | ✅ | ⬜ |
-| Job | ✅ | ✅ | ⬜ |
-| Jonah | ✅ | ✅ | ⬜ |
-| Daniel | ✅ | ✅ | ⬜ |
-| Shadrach | ✅ | ✅ | ⬜ |
-| Meshach | ✅ | ✅ | ⬜ |
-| Abednego | ✅ | ✅ | ⬜ |
-| Nebuchadnezzar | ✅ | ✅ | ⬜ |
-| Isaiah | ✅ | ✅ | ⬜ |
-| Jeremiah | ✅ | ✅ | ⬜ |
-| Ezekiel | ✅ | ✅ | ⬜ |
-| Hosea | ✅ | ✅ | ⬜ |
-| Gomer | ✅ | ✅ | ⬜ |
-| Joel | ✅ | ✅ | ⬜ |
-| Malachi | ✅ | ✅ | ⬜ |
+| God the Father | ✅ GOD-THE-FATHER-LOCK | ✅ | ✅ 2026-07-21 |
+| Stephen | ✅ | ✅ | ✅ 2026-07-21 |
+| Naaman | ✅ | ✅ | ✅ 2026-07-21 |
+| Elisha | ✅ | ✅ | ✅ 2026-07-21 |
+| Peter | ✅ | ✅ | ✅ 2026-07-21 |
+| John (beloved) | ✅ | ✅ | ✅ 2026-07-21 |
+| James (son of Zebedee) | ✅ | ✅ | ✅ 2026-07-21 |
+| Andrew | ✅ | ✅ | ✅ 2026-07-21 |
+| Matthew | ✅ | ✅ | ✅ 2026-07-21 |
+| Thomas | ✅ | ✅ | ✅ 2026-07-21 |
+| Judas Iscariot | ✅ | ✅ | ✅ 2026-07-21 |
+| John the Baptist | ✅ | ✅ | ✅ 2026-07-21 |
+| Mary (mother of Jesus) | ✅ | ✅ | ✅ 2026-07-21 |
+| Joseph of Nazareth | ✅ | ✅ | ✅ 2026-07-21 |
+| Mary Magdalene | ✅ | ✅ | ✅ 2026-07-21 |
+| Martha | ✅ | ✅ | ✅ 2026-07-21 |
+| Mary of Bethany | ✅ | ✅ | ✅ 2026-07-21 |
+| Lazarus | ✅ | ✅ | ✅ 2026-07-21 |
+| Zacchaeus | ✅ | ✅ | ✅ 2026-07-21 |
+| Nicodemus | ✅ | ✅ | ✅ 2026-07-21 |
+| Pilate | ✅ | ✅ | ✅ 2026-07-21 |
+| Paul | ✅ | ✅ | ✅ 2026-07-21 |
+| Bartimaeus | ✅ | ✅ | ✅ 2026-07-21 |
+| Jairus | ✅ | ✅ | ✅ 2026-07-21 |
+| Cleopas | ✅ | ✅ | ✅ 2026-07-21 |
+| Barabbas | ✅ | ✅ | ✅ 2026-07-21 |
+| Zebedee | ✅ | ✅ | ✅ 2026-07-21 |
+| Malchus | ✅ | ✅ | ✅ 2026-07-21 |
+| Simon the Pharisee | ✅ | ✅ | ✅ 2026-07-21 |
+| Young Jesus (boy ~12) | ✅ | ✅ | ✅ 2026-07-21 |
+| Adam | ✅ | ✅ | ✅ 2026-07-21 |
+| Eve | ✅ | ✅ | ✅ 2026-07-21 |
+| Noah | ✅ | ✅ | ✅ 2026-07-21 |
+| Abraham | ✅ | ✅ | ✅ 2026-07-21 |
+| Sarah | ✅ | ✅ | ✅ 2026-07-21 |
+| Isaac | ✅ | ✅ | ✅ 2026-07-21 |
+| Jacob | ✅ | ✅ | ✅ 2026-07-21 |
+| Joseph (of Egypt) | ✅ | ✅ | ✅ 2026-07-21 |
+| Moses | ✅ | ✅ | ✅ 2026-07-21 |
+| Aaron | ✅ | ✅ | ✅ 2026-07-21 |
+| Joshua | ✅ | ✅ | ✅ 2026-07-21 |
+| Elijah | ✅ | ✅ | ✅ 2026-07-21 |
+| Eli | ✅ | ✅ | ✅ 2026-07-21 |
+| Samuel | ✅ | ✅ | ✅ 2026-07-21 |
+| Hannah | ✅ | ✅ | ✅ 2026-07-21 |
+| David | ✅ | ✅ | ✅ 2026-07-21 |
+| Ruth | ✅ | ✅ | ✅ 2026-07-21 |
+| Naomi | ✅ | ✅ | ✅ 2026-07-21 |
+| Boaz | ✅ | ✅ | ✅ 2026-07-21 |
+| Job | ✅ | ✅ | ✅ 2026-07-21 |
+| Jonah | ✅ | ✅ | ✅ 2026-07-21 |
+| Daniel | ✅ | ✅ | ✅ 2026-07-21 |
+| Shadrach | ✅ | ✅ | ✅ 2026-07-21 |
+| Meshach | ✅ | ✅ | ✅ 2026-07-21 |
+| Abednego | ✅ | ✅ | ✅ 2026-07-21 |
+| Nebuchadnezzar | ✅ | ✅ | ✅ 2026-07-21 |
+| Isaiah | ✅ | ✅ | ✅ 2026-07-21 |
+| Jeremiah | ✅ | ✅ | ✅ 2026-07-21 |
+| Ezekiel | ✅ | ✅ | ✅ 2026-07-21 |
+| Hosea | ✅ | ✅ | ✅ 2026-07-21 |
+| Gomer | ✅ | ✅ | ✅ 2026-07-21 |
+| Joel | ✅ | ✅ | ✅ 2026-07-21 |
+| Malachi | ✅ | ✅ | ✅ 2026-07-21 |

@@ -1,7 +1,7 @@
 # RUTH — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #148 Ruth and the Redeemer (shipped RUTH LOCK — adopted
 verbatim below: Moabite, about twenty-five, strong open face, dark eyes full
 of resolve, long dark hair braided under a deep olive-green head-shawl, dark

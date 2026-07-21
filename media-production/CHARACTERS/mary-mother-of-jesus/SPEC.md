@@ -1,7 +1,7 @@
 # MARY (MOTHER OF JESUS) — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #84 (no room — the manger), #86/#87 (nativity / the boy in
 the temple), #49 (water to wine — older, see note below)
 

@@ -1,7 +1,7 @@
 # ZEBEDEE — CHARACTER SPEC
 
-**Status:** sheet rendered, AWAITING CAMERON'S APPROVAL
-**Approved by Cameron:** (pending)
+**Status:** 🔒 LOCKED — approved by Cameron
+**Approved by Cameron:** 2026-07-21
 **Appears in:** #51 First Catch of Fish, #71 Calling the Fishermen
 
 ## What scripture tells us

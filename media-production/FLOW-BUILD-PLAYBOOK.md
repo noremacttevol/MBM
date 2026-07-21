@@ -20,8 +20,22 @@
    catalog renumber — trust the name, not the row number).
 3. Write `PROMPTS.md` from a template (copy `build-48` or `build-41`). 8–12 stills.
    Master Style Block byte-identical. Character/wardrobe locks in every prompt a
-   character appears in.
-4. `python3 media-production/jesus_face_gate.py --dir build-NN-slug` → **exit 0**.
+   character appears in — and for any ROSTERED character (CHARACTER-LAW, all 63
+   sheets locked 2026-07-21) that lock text is not written by hand, it is
+   generated:
+
+   ```python
+   import sys; sys.path.insert(0, '../CHARACTERS')
+   from character_refs import find_in_text, lock_text, refs
+   find_in_text(open('PROMPTS.md').read())   # who this build shows
+   lock_text('peter')                        # paste verbatim into each prompt
+   refs('peter')                             # 3 jpegs -> pass each as --ref
+   ```
+4. **BOTH gates → exit 0** before any Flow credit:
+   - `python3 media-production/jesus_face_gate.py --dir build-NN-slug`
+   - `python3 media-production/character_ref_gate.py --dir build-NN-slug`
+     (a rostered name with no lock text fails; a name that is only *mentioned*
+     is cleared with `CHARACTER-REF-EXEMPT: <name> (reason)` in PROMPTS.md)
    Common trips: any facial word next to a Jesus token (`his cheek/beard/eyes/jaw/…`,
    `profile`, `close-up`); and **header/law paragraphs that name "Jesus" but have no
    hiding cue** — add "seen only from behind, his face never shown" to those too.
