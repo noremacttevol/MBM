@@ -54,6 +54,9 @@ SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 # SPEAKER-LAW: declared once in make_narration, so the caption colour
 # and the narration voice can never drift apart.
 SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
+# SPEAKER-LAW: declared once in make_narration, so the caption colour
+# and the narration voice can never drift apart.
+SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 
 # BEATS: (segment_name, still, zoom_dir). Zoom alternates in/out on a shared still.
 # STORY-COVERAGE-LAW (Cameron, 2026-07-19): a still may be a LIST of
@@ -62,23 +65,23 @@ SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 # n2: he asks while they walk (S2) -> "They stopped in the road" (S3).
 # n7: eyes opened at the bread (S6) -> "he was gone" (S7, the empty place).
 BEATS = [
-    ("n0", [(S1, None), (S9B, "the arrest")], "in"),
-    ("n1", S2, "in"),
-    ("n2", [(S2, None), (S3, "They stopped in the road")], "in"),
-    ("s18", S3, "out"),
-    ("n3", [(S3, None), (S10B, "Now some women were saying")], "in"),
-    ("s21", S3, "out"),
-    ("n4a", S4, "in"),
-    ("j1", S4, "out"),
-    ("n4b", S4, "in"),
-    ("n5", S5, "in"),
-    ("s29", S5, "out"),
-    ("n6", S6, "in"),
-    ("n7", [(S6, None), (S7, "he was gone")], "out"),
-    ("n8", S7, "in"),
-    ("s32", S7, "out"),
-    ("n9", S8, "in"),
-    ("n10", S8, "out"),
+    ("n0", [(S1, "in")], "in"),
+    ("n1", [(S2, "in")], None),
+    ("n2", [(S3, "in")], "in"),
+    ("s18", [(S3, "out")], None),
+    ("n3", [(S3, "in")], "in"),
+    ("s21", [(S3, "out")], None),
+    ("n4a", [(S4, "in")], None),
+    ("j1", [(S4, "out")], None),
+    ("n4b", [(S4, "in")], None),
+    ("n5", [(S5, "in")], None),
+    ("s29", [(S5, "out")], None),
+    ("n6", [(S6, "in")], None),
+    ("n7", [(S6, "out")], "out"),
+    ("n8", [(S7, "in")], None),
+    ("s32", [(S7, "out")], None),
+    ("n9", [(S8, "in")], None),
+    ("n10", [(S8, "out")], None),
 ]
 
 # The closing card is narrated but is not a beat — build_card places it itself.
