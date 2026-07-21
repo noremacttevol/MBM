@@ -62,6 +62,7 @@ TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
 # SPEAKER-LAW: declared once in make_narration, so the caption colour
 # and the narration voice can never drift apart.
 SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
+KJV = {"j1", "j2", "j3", "j4"}   # Luke 15:4, 15:5, 15:6, 15:7 — Jesus voice
 PEAK = {"j2"}   # "...he layeth it on his shoulders, rejoicing" — silence lands here
 
 # BEATS: (segment_name, still, zoom_dir). One still-drift beat per narration
@@ -211,7 +212,7 @@ def main():
             peak_start = a_start
         if name == "j3":
             j3_start = a_start
-        timeline.append((name, still, zdir, vdur, a_start, is_scripture(SPEAKER.get(name, "narrator"))))
+        timeline.append((name, still, zdir, vdur, a_start, SPEAKER.get(name, "narrator")))
         t += vdur
     # closing card
     card_vdur = LEAD + card_dur + TAIL
