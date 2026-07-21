@@ -72,6 +72,9 @@ TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
 # SPEAKER-LAW: declared once in make_narration, so the caption colour
 # and the narration voice can never drift apart.
 SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
+# SPEAKER-LAW: declared once in make_narration, so the caption colour
+# and the narration voice can never drift apart.
+SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 
 # BEATS: (segment_name, still, zoom_dir). One still-drift beat per narration
 # segment; every word of that segment is captioned on it. Zoom alternates so a
@@ -240,7 +243,7 @@ def main():
     start_of = {}     # seg_id -> audio start, for scheduling the music beds
     t = 0.0
     for name, still, zdir in BEATS:
-        speaker = is_scripture(SPEAKER.get(name, "narrator"))
+        speaker = SPEAKER[name]
         gap = KJV_GAP if is_scripture(speaker) else GAP
         vdur = LEAD + spoken[name] + gap
         a_start = t + LEAD
