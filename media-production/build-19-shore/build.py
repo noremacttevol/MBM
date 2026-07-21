@@ -69,6 +69,9 @@ TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
 # SPEAKER-LAW: declared once in make_narration, so the caption colour
 # and the narration voice can never drift apart.
 SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
+# SPEAKER-LAW: declared once in make_narration, so the caption colour
+# and the narration voice can never drift apart.
+SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 
 # BEATS: (segment_name, still, zoom_dir). One still per story BEAT
 # (STORY-COVERAGE-LAW, Cameron 2026-07-19). A still may be a LIST of
@@ -82,23 +85,22 @@ BEATS = [
     ("n2", S1, "out"),
     ("n3", S2, "in"),
     ("n4", S2, "out"),
-    ("n5", S8, "in"),
-    ("j0a", S8, "out"),
-    ("n5b", S9, "in"),
-    ("j0b", S8, "in"),
-    ("n5c", [(S10, None), (S11, "and it came up so full")], "in"),
-    ("n6", [(S12, None), (S13, "And Peter did not wait"),
-            (S14, "and swam for shore")], "in"),
+    ("n5", S3, "in"),
+    ("j0a", S3, "out"),
+    ("n5b", S3, "in"),
+    ("j0b", S3, "out"),
+    ("n5c", S3, "in"),
+    ("n6", S3, "out"),
     ("n7", S4, "in"),
-    ("n8", S15, "in"),
-    ("n9", S16, "in"),
+    ("n8", S4, "out"),
+    ("n9", S4, "in"),
     ("n10", S5, "in"),
     ("j1", S5, "out"),
-    ("n11", S17, "in"),
-    ("s16", S17, "out"),
-    ("n12", S6, "in"),
-    ("j2", S18, "in"),
-    ("n13", S18, "out"),
+    ("n11", S5, "in"),
+    ("s16", S6, "in"),
+    ("n12", S6, "out"),
+    ("j2", S6, "in"),
+    ("n13", S6, "out"),
     ("n14", S7, "in"),
 ]
 
