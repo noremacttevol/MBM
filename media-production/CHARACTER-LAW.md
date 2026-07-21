@@ -31,19 +31,35 @@ pictures for a story and then it not keeping the people looking the same at all.
    description, generation prompt, and the date Cameron approved it.
 6. **Each sheet needs Cameron's approval before it's marked locked.**
 
-## Roster (seed — the character session finalizes it by scanning all 200 stories)
+## Roster (FINAL — locked by the character session, 2026-07-21, after scanning
+## all 201 build PROMPTS.md + QUEUE.md + the name harvest)
 
-**Locked already:** Jesus, God the Father.
+**Locked already:** Jesus (JESUS-MASTER-REF), God the Father (SPEC in
+GOD-THE-FATHER-LOCK.md; sheet render below).
 
-**New Testament:** Peter, John (beloved), James, Andrew, Matthew, Thomas,
-Judas Iscariot, John the Baptist, Mary (mother of Jesus), Joseph of Nazareth,
-Mary Magdalene, Martha, Mary of Bethany, Lazarus, Zacchaeus, Nicodemus,
-Pilate, Stephen, Paul.
+**New Testament (26):** Peter, John (beloved), James (son of Zebedee), Andrew,
+Matthew, Thomas, Judas Iscariot, John the Baptist, Mary (mother of Jesus),
+Joseph of Nazareth, Mary Magdalene, Martha, Mary of Bethany, Lazarus,
+Zacchaeus, Nicodemus, Pilate, Stephen, Paul, **Bartimaeus (#12), Jairus (#57),
+Cleopas (#18), Barabbas (#93), Zebedee (#51/#71), Malchus (#66),
+Simon the Pharisee (#74)** — the bolded seven were added by the scan: each is a
+named on-screen story lead.
 
-**Old Testament:** Adam, Eve, Noah, Abraham, Sarah, Isaac, Jacob,
+**Old Testament (35):** Adam, Eve, Noah, Abraham, Sarah, Isaac, Jacob,
 Joseph (of Egypt), Moses, Elijah, Elisha, Eli, Samuel, Hannah, David, Ruth,
 Naomi, Boaz, Job, Jonah, Daniel, Shadrach, Meshach, Abednego, Nebuchadnezzar,
-Naaman, Isaiah, Jeremiah, Ezekiel, Hosea.
+Naaman, Isaiah, Jeremiah, Ezekiel, Hosea, **Aaron (#161), Joshua (#196),
+Gomer (#117), Joel (#197), Malachi (#174/#191)** — added by the scan.
+
+**Variant sheet:** Young Jesus (boy, ~12) for #87 — must read as the SAME
+person as JESUS-MASTER-REF, features scaled young (per CHARACTERS/WANTED.md).
+
+**Scanned and EXCLUDED (named but one background still only, no recurrence —
+in-build consistency lock suffices):** Peninnah (#149), Eldad & Medad (#196),
+Herod (#86), Rahab (#190, verbal reference), Jesse (#198, "stem of Jesse"
+imagery), Solomon (#111, verbal reference). The wise men (#86) are excluded as
+unnamed in scripture — their in-build lock governs. If any of these ever
+recurs in a new story, rule 4 kicks in: sheet first.
 
 ## Status board
 
@@ -51,4 +67,65 @@ Naaman, Isaiah, Jeremiah, Ezekiel, Hosea.
 |---|---|---|---|
 | Jesus | ✅ (face-law v3) | ✅ JESUS-MASTER-REF | ✅ |
 | God the Father | ✅ GOD-THE-FATHER-LOCK | ⬜ | ⬜ |
-| (character session fills in the rest) | | | |
+| Stephen | ⬜ | ⬜ | ⬜ |
+| Naaman | ⬜ | ⬜ | ⬜ |
+| Elisha | ⬜ | ⬜ | ⬜ |
+| Peter | ⬜ | ⬜ | ⬜ |
+| John (beloved) | ⬜ | ⬜ | ⬜ |
+| James (son of Zebedee) | ⬜ | ⬜ | ⬜ |
+| Andrew | ⬜ | ⬜ | ⬜ |
+| Matthew | ⬜ | ⬜ | ⬜ |
+| Thomas | ⬜ | ⬜ | ⬜ |
+| Judas Iscariot | ⬜ | ⬜ | ⬜ |
+| John the Baptist | ⬜ | ⬜ | ⬜ |
+| Mary (mother of Jesus) | ⬜ | ⬜ | ⬜ |
+| Joseph of Nazareth | ⬜ | ⬜ | ⬜ |
+| Mary Magdalene | ⬜ | ⬜ | ⬜ |
+| Martha | ⬜ | ⬜ | ⬜ |
+| Mary of Bethany | ⬜ | ⬜ | ⬜ |
+| Lazarus | ⬜ | ⬜ | ⬜ |
+| Zacchaeus | ⬜ | ⬜ | ⬜ |
+| Nicodemus | ⬜ | ⬜ | ⬜ |
+| Pilate | ⬜ | ⬜ | ⬜ |
+| Paul | ⬜ | ⬜ | ⬜ |
+| Bartimaeus | ⬜ | ⬜ | ⬜ |
+| Jairus | ⬜ | ⬜ | ⬜ |
+| Cleopas | ⬜ | ⬜ | ⬜ |
+| Barabbas | ⬜ | ⬜ | ⬜ |
+| Zebedee | ⬜ | ⬜ | ⬜ |
+| Malchus | ⬜ | ⬜ | ⬜ |
+| Simon the Pharisee | ⬜ | ⬜ | ⬜ |
+| Young Jesus (boy ~12) | ⬜ | ⬜ | ⬜ |
+| Adam | ⬜ | ⬜ | ⬜ |
+| Eve | ⬜ | ⬜ | ⬜ |
+| Noah | ⬜ | ⬜ | ⬜ |
+| Abraham | ⬜ | ⬜ | ⬜ |
+| Sarah | ⬜ | ⬜ | ⬜ |
+| Isaac | ⬜ | ⬜ | ⬜ |
+| Jacob | ⬜ | ⬜ | ⬜ |
+| Joseph (of Egypt) | ⬜ | ⬜ | ⬜ |
+| Moses | ⬜ | ⬜ | ⬜ |
+| Aaron | ⬜ | ⬜ | ⬜ |
+| Joshua | ⬜ | ⬜ | ⬜ |
+| Elijah | ⬜ | ⬜ | ⬜ |
+| Eli | ⬜ | ⬜ | ⬜ |
+| Samuel | ⬜ | ⬜ | ⬜ |
+| Hannah | ⬜ | ⬜ | ⬜ |
+| David | ⬜ | ⬜ | ⬜ |
+| Ruth | ⬜ | ⬜ | ⬜ |
+| Naomi | ⬜ | ⬜ | ⬜ |
+| Boaz | ⬜ | ⬜ | ⬜ |
+| Job | ⬜ | ⬜ | ⬜ |
+| Jonah | ⬜ | ⬜ | ⬜ |
+| Daniel | ⬜ | ⬜ | ⬜ |
+| Shadrach | ⬜ | ⬜ | ⬜ |
+| Meshach | ⬜ | ⬜ | ⬜ |
+| Abednego | ⬜ | ⬜ | ⬜ |
+| Nebuchadnezzar | ⬜ | ⬜ | ⬜ |
+| Isaiah | ⬜ | ⬜ | ⬜ |
+| Jeremiah | ⬜ | ⬜ | ⬜ |
+| Ezekiel | ⬜ | ⬜ | ⬜ |
+| Hosea | ⬜ | ⬜ | ⬜ |
+| Gomer | ⬜ | ⬜ | ⬜ |
+| Joel | ⬜ | ⬜ | ⬜ |
+| Malachi | ⬜ | ⬜ | ⬜ |
