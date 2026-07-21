@@ -62,6 +62,7 @@ SEGMENTS = [
 
 # Homographs this build decides for itself (never auto-replaced globally).
 SPOKEN = {}
+SPOKEN.update({'slept': 'slehpt'})  # 2026-07-21: Steffan reliably reads plain "slept" as "SUCKED" in 1 Cor 15:20 (2/2 takes). 'slehpt' round-trips "slept" clean (A/B in Steffan). Caption keeps KJV "slept".
 
 
 async def main():
