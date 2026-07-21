@@ -88,10 +88,27 @@ def _sentences(text):
     return [p for p in re.split(r"(?<=[.!?;:]) +", text.strip()) if p]
 
 
+# Reverse map voice-ID -> speaker key, so the pronunciation dict is ALWAYS
+# applied at the bottom of the funnel — safety net for any script that calls
+# save_narration directly with raw text (129 builds did exactly that until
+# 2026-07-20 and never got a single pronunciation fix). spoken_text is
+# idempotent — respelled output contains no dict keys — so builds that already
+# applied it upstream are unaffected by the second pass.
+_SPEAKER_OF_VOICE = {
+    "en-US-AndrewNeural": "narrator",
+    "en-US-EricNeural": "jesus",
+    "en-US-ChristopherNeural": "god",
+    "en-US-SteffanNeural": "scripture",
+    "en-US-MichelleNeural": "woman",
+}
+
+
 async def save_narration(tts_text, voice, rate, pitch, out_mp3):
     """Generate mp3 AND a <name>.timing.json sidecar of REAL per-sentence
     spoken timestamps (segment-local seconds)."""
     import edge_tts
+    from mbm_pronounce import spoken_text
+    tts_text = spoken_text(tts_text, None, _SPEAKER_OF_VOICE.get(voice))
     tts = edge_tts.Communicate(tts_text, voice, rate=rate, pitch=pitch)
     sents, audio = [], bytearray()
     async for ch in tts.stream():
