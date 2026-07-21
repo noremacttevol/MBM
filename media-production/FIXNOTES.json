@@ -157,6 +157,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-21",
+   "note": "Fixed the closing-question card: it now wraps onto four lines and sits fully inside the frame (it used to run off the edges). Also caught and fixed a worse hidden defect while rebuilding: the picture track of the previous file quietly ended at 3:38 while the sound kept going to 4:32 \u2014 the last minute would have shown a frozen or black screen. The whole video was re-rendered clean end to end. \u2014 narration re-recorded; build script updated"
   }
  ],
  "2": [
