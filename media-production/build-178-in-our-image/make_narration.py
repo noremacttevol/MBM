@@ -1,75 +1,99 @@
 #!/usr/bin/env python3
-"""Generate narration audio for MEMBER Verse Video #178 — "Let Us Make Man in
-Our Image" (Genesis 1:26-27). From DRAFTS/row-178.md, validated against the laws.
-MEMBER-FORMAT FIX: the draft had no spoken KJV — the member verse-video format
-(build-161 precedent) requires the exact KJV verses as the CENTERPIECE, read
-by the SCRIPTURE VOICE (Christopher, cream italic caption, sacred silence).
-Genesis 1:26 and 1:27 added verbatim as s1/s2 (the catalog row is 1:26-27 and
-the draft's Eve beat rests on v27's "male and female").
-TRANSLATION-LAW FIX: the draft's n3 echoed Genesis 2:7 nearly verbatim
-("breathed into his nostrils the breath of life... a living soul") in the
-narrator's mouth — reworded to plain modern words.
-Closing card carries the Gospel Library pointer:
-"Learn more — Gospel Library: Godhead" (THE-200 → GL).
-No divine figure is depicted (creation; light and Spirit-presence only).
-HOMOGRAPH LAW: ear-checked — no bow/wound/wind/tears/lead/sow/live/read/dove/
-bass/minute/use(d)/close in any segment. No SPOKEN overrides needed.
+"""Narration for build-178-in-our-image — Genesis 1.
+
+SPEAKER-LAW rebuild (see media-production/SPEAKER-LAW.md). Who is speaking is
+declared once here and decides BOTH the voice and the caption colour.
+
+Both scripture beats were painted JESUS-RED. Genesis is Old Testament so
+neither can be red - but they do NOT both go the same way, and this build is the
+clearest example in the set of the distinction the pass exists to fix.
+
+SPLIT - Genesis 1:26 is genuinely two speakers in one breath:
+  s1   (scripture, blue)  'And God said,'
+                          - that is MOSES writing. Three words of narration.
+  g26  (god, green)       'Let us make man in our image, after our likeness:
+                           and let them have dominion over the fish of the sea...'
+                          - that is DEITY, first person plural, his own voice.
+The whole verse was one red segment, which made Moses's attribution read as part
+of God's speech. s1 keeps its original id and g26 is new; BOTH stay on S2, so
+the viewer sees the identical edit - two consecutive beats over one image. The
+three-word blue beat is short, and it is worth it: this is the exact seam the
+law is written around, and the colour flip on screen is the teaching.
+
+NO SPLIT on s2, but it changes colour completely:
+  s2  Genesis 1:27  'So God created man in his own image, in the image of God
+                     created he him; male and female created he them.'
+                                                         RED -> SCRIPTURE (blue)
+This one is about God from end to end and never once IS God. 'So God created' -
+third person, past tense, Moses narrating what he was shown. It is the second
+half of the same thought as 1:26 and it was painted the same colour, but the
+speaker changed at the verse break and the colour has to change with it. Green
+here would have had God narrating his own work in the third person.
+
+LIFTED ONE VERSE out of narrator paraphrase:
+  s3  Genesis 2:7  'And the LORD God formed man of the dust of the ground, and
+                    breathed into his nostrils the breath of life; and man
+                    became a living soul.'                        NEW, scripture
+n3 was already retelling this verse almost word for word in modern English -
+dust, breath, came alive - without ever letting the viewer hear it. Moses
+narrating again, so blue. It sits on S4 with n3, which now does the retelling
+job. Noted for the record that this is Genesis 2, one chapter past the build's
+stated reference; it is the verse n3 was paraphrasing and the story needs it.
+
+ADDED two narrator retellings, both required by the retelling rule:
+  n0b  retells Genesis 1:26 after the split, on S3.
+  n0c  retells Genesis 1:27, on S4.
+Without them, four verses of Old English ran with only the split between them,
+and n1a/n1b - which do retell 1:27 - sit five beats downstream on S6.
+
+Nothing left as paraphrase from uncertainty.
+
+WHY-LAW: milk. Made in his image, given the earth to look after. Dignity first,
+stewardship second, and no argument about either.
 """
 import asyncio
-import edge_tts
-from mbm_caption_timing import save_narration
+import os
 
-NARRATOR = "en-US-AndrewNeural"      # plain American — never a Multilingual model
-SCRIPTURE = "en-US-ChristopherNeural"  # the scripture voice. Exact KJV only.
+from mbm_caption_timing import save_speaker_narration
+from mbm_pronounce import audit, spoken_text
+from mbm_speakers import GOD, NARRATOR, SCRIPTURE
 
+# (id, speaker, caption_text). The caption always shows this exact text; only the
+# string handed to the TTS is respelled.
 SEGMENTS = [
-    # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
-     "At the start of all things, before any person drew breath, a "
-     "counsel happened in the Godhead — let us make man in our "
-     "image."),
-    # Exact KJV Genesis 1:26 — THE CENTERPIECE, scripture voice.
-    ("s1", SCRIPTURE, "-24%", "-2Hz",
-     "And God said, Let us make man in our image, after our "
-     "likeness: and let them have dominion over the fish of the "
-     "sea, and over the fowl of the air, and over the cattle, and "
-     "over all the earth, and over every creeping thing that "
-     "creepeth upon the earth."),
-    # Exact KJV Genesis 1:27.
-    ("s2", SCRIPTURE, "-24%", "-2Hz",
-     "So God created man in his own image, in the image of God "
-     "created he him; male and female created he them."),
-    ("n1a", NARRATOR, "-20%", "-4Hz",
-     "Not in the shape of any creature, but bearing something of "
-     "God himself:"),
-    ("n1b", NARRATOR, "-20%", "-4Hz",
-     "the capacity to know him, to choose him, to reflect him."),
-    ("n2", NARRATOR, "-20%", "-4Hz",
-     "The plan included dominion — over fish, birds, cattle, and "
-     "all the earth. Stewards, not owners."),
-    # sacred-silence beat follows n2.
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "Then the act: God shaped a man from the dust of the ground "
-     "and filled him with breath — and the man came alive."),
-    ("n4", NARRATOR, "-20%", "-4Hz",
-     "Every person since carries that original dignity — made in "
-     "the image, loved into being."),
-    ("card", NARRATOR, "-22%", "-5Hz",
-     "You are made in his image. That is worth more than you "
-     "know."),
+    ("n0", NARRATOR, "At the start of all things, before any person drew breath, a counsel happened in the Godhead — let us make man in our image."),
+    # Genesis 1:26
+    ("s1", SCRIPTURE, "And God said,"),
+    # Genesis 1:26
+    ("g26", GOD, "Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth."),
+    ("n0b", NARRATOR, "Hear the word us. Let us make man in our image. God is not talking to himself there — he is talking with someone, and what they decide together is to make a creature that looks like them. Then he hands that creature the whole living world to take care of."),
+    # Genesis 1:27
+    ("s2", SCRIPTURE, "So God created man in his own image, in the image of God created he him; male and female created he them."),
+    ("n0c", NARRATOR, "And then he did it. Moses says it three times in one sentence, like he cannot get over it — in his own image, in the image of God, male and female both. Not one of them closer to God than the other. Both of them bearing the likeness."),
+    # Genesis 2:7
+    ("s3", SCRIPTURE, "And the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul."),
+    ("n3", NARRATOR, "Then the act: God shaped a man from the dust of the ground and filled him with breath — and the man came alive."),
+    ("n2", NARRATOR, "The plan included dominion — over fish, birds, cattle, and all the earth. Stewards, not owners."),
+    ("n1a", NARRATOR, "Not in the shape of any creature, but bearing something of God himself:"),
+    ("n1b", NARRATOR, "the capacity to know him, to choose him, to reflect him."),
+    ("n4", NARRATOR, "Every person since carries that original dignity — made in the image, loved into being."),
+    ("card", NARRATOR, "You are made in his image. That is worth more than you know."),
 ]
 
-# HOMOGRAPH LAW — every segment ear-checked against the flag list
-# (bow, wound, wind, tears, lead, sow, live/lives, read, dove, bass,
-# minute, use/used, close): none present. Captions stay exact.
+# Homographs this build decides for itself (never auto-replaced globally).
 SPOKEN = {}
 
 
 async def main():
-    for name, voice, rate, pitch, text in SEGMENTS:
-        tts_text = SPOKEN.get(name, text)
-        await save_narration(tts_text, voice, rate, pitch, f"audio/{name}.mp3")
-        print(f"saved audio/{name}.mp3")
+    os.makedirs("audio", exist_ok=True)
+    for name, speaker, text in SEGMENTS:
+        flagged = [w for w in audit(text) if w not in SPOKEN]
+        if flagged:
+            print(f"  ! {name}: undecided homograph(s) {flagged}")
+        await save_speaker_narration(spoken_text(text, SPOKEN), speaker,
+                                     f"audio/{name}.mp3")
+        print(f"saved audio/{name}.mp3  [{speaker}]")
+
 
 if __name__ == "__main__":
     asyncio.run(main())
