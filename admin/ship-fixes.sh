@@ -17,6 +17,8 @@
 # build-NN-*/FIXNOTE.txt. This script uses it (then removes it) and also
 # auto-describes the changed files (new pictures / new narration / script fix).
 set -u
+# cron strips PATH down to /usr/bin:/bin — firebase lives in ~/.npm-global/bin
+export PATH="$HOME/.npm-global/bin:/usr/local/bin:$PATH"
 cd "$(dirname "$0")/.." || exit 1
 REPO=$PWD
 LOCK=/tmp/mbm-ship-fixes.lock
