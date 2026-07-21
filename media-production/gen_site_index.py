@@ -443,15 +443,35 @@ try {
 """
 
 
-def card_html(num, title, scrip, length, rel, hashval, newvoice=False):
+FIXNOTES_FILE = os.path.join(REPO, "media-production", "FIXNOTES.json")
+
+
+def load_fixnotes():
+    """{num(str): [{"date": "YYYY-MM-DD", "note": "..."}]} — plain-English record of
+    what each shipped cut changed, written by admin/ship-fixes.sh. The board shows
+    the latest note under the video so Cameron knows exactly what to check."""
+    try:
+        with open(FIXNOTES_FILE, encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, ValueError):
+        return {}
+
+
+def card_html(num, title, scrip, length, rel, hashval, newvoice=False, fixnote=None):
     meta = f" · {scrip}" + (f" · {length}" if length else "")
     voice_badge = ('<div class="flag voice">🔊 NEW VOICES — re-made, ready for your '
                    'review</div>\n') if newvoice else ""
+    fix_line = ""
+    if fixnote:
+        import html as _html
+        fix_line = (f'<div class="flag fixed">🛠 What this cut changed '
+                    f'({_html.escape(fixnote["date"])}): {_html.escape(fixnote["note"])}</div>\n')
     return (
         f'<div class="card" id="v{num}" data-num="{num}" data-hash="{hashval}"'
         f'{" data-newvoice=\"1\"" if newvoice else ""}>'
         f'<p class="title">{num:02d} — {title}<span class="meta">{meta}</span></p>\n'
         f'{voice_badge}'
+        f'{fix_line}'
         f'<div class="flags" id="flags{num}"></div>\n'
         f'<video controls preload="metadata" playsinline src="{RAW_BASE}{rel}"></video>\n'
         f'<div class="actions">'
@@ -502,7 +522,9 @@ def main():
     # Every video is rendered once into a hidden pool. The page's JavaScript reads
     # Cameron's approvals/complaints live from Firestore and moves each card into
     # the right section — approve + complaint save with ONE TAP, no leaving the page.
-    pool = "\n".join(card_html(n, t, s, l, r, hashes.get(n, ""), n in newvoice)
+    fixnotes = load_fixnotes()
+    pool = "\n".join(card_html(n, t, s, l, r, hashes.get(n, ""), n in newvoice,
+                               (fixnotes.get(str(n)) or [None])[-1])
                       for (n, t, s, l, r) in cards)
 
     rejected_json = json.dumps({str(n): reasons.get(n, "") for n in rejected})
