@@ -68,15 +68,7 @@ SEGMENTS = [
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
-# Cameron denials 2026-07-18:
-#   "kinder"  — read the German way (KIN-der, as in kindergarten). It is the
-#               English comparative of "kind": KYNE-der.
-#   "findeth" — must be FYND-uhth (long i), not FIN-deth.
-# Captions still show the exact words; only the spoken audio is respelled.
-SPOKEN = {
-    "kinder": "kynder",
-    "findeth": "fyndeth",
-}
+SPOKEN = {}
 
 
 async def main():
@@ -85,7 +77,7 @@ async def main():
         flagged = [w for w in audit(text) if w not in SPOKEN]
         if flagged:
             print(f"  ! {name}: undecided homograph(s) {flagged}")
-        await save_speaker_narration(spoken_text(text, SPOKEN, speaker), speaker,
+        await save_speaker_narration(spoken_text(text, SPOKEN), speaker,
                                      f"audio/{name}.mp3")
         print(f"saved audio/{name}.mp3  [{speaker}]")
 

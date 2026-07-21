@@ -261,6 +261,10 @@
   {
    "date": "2026-07-21",
    "note": "re-rendered (audio + captions)"
+  },
+  {
+   "date": "2026-07-21",
+   "note": "Re-cut with the corrected verse audio for \"For every one that asketh receiveth; and he that seeketh findeth\" (Matthew 7:8). The old cut's audio slurred it into \"asks it for sieveth\"; the fixed recording existed but was never muxed into the video. Now it reads the verse cleanly, with \"findeth\" as FYND-eth (long i) per the earlier complaint. \u2014 narration re-recorded; build script updated"
   }
  ],
  "119": [
