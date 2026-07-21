@@ -23,6 +23,7 @@ import textwrap
 
 import make_narration
 from mbm_caption_timing import caption_filter
+from mbm_speakers import is_scripture
 
 A = "assets"
 S = "segs"
@@ -47,8 +48,10 @@ S6 = "s6-in-his-arms.jpeg"
 S7 = "s7-relief-and-joy.jpeg"
 S8 = "s8-two-sandals.jpeg"
 
-TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
-KJV = {"j1", "j2"}
+TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
+# SPEAKER-LAW: declared once in make_narration, so the caption colour
+# and the narration voice can never drift apart.
+SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 CARD_TEXT = TEXT["card"]
 
 # (audio_name, [(still, zdir), ...], gap_override) — more than one still = split
@@ -56,21 +59,27 @@ CARD_TEXT = TEXT["card"]
 # name "HUSH" = a short SILENT still (no audio, no caption); its gap field is its
 # full duration — kept short enough that the dead-air law still holds.
 BEATS = [
-    ("n0", [(S1, "in")], None),    # parents bringing their little ones
-    ("n1", [(S2, "in")], None),    # the disciples wave them off
-    ("n2", [(S3, "in")], None),    # he saw it, displeased, told them stop
-    ("j1", [(S4, "in")], None),    # "suffer the little children..." [SILENCE]
-    ("n3", [(S5, "in")], None),    # suffer = let; down at their level
-    ("j2", [(S5, "out")], None),   # "receive as a little child" — sacred pause
-    ("n4", [(S7, "in")], None),    # nobody earns it; open hands
-    ("n5", [(S6, "in")], None),    # gathered them up in his arms, blessed [SILENCE]
-    ("HUSH", [(S8, "in")], 1.2),   # two small sandals — of such is the kingdom
+    ("n0", [(S1, "in")], None),
+    ("s13", [(S2, "in")], None),
+    ("n1", [(S2, "in")], None),
+    ("n2", [(S3, "in")], None),
+    ("s14", [(S4, "in")], None),
+    ("j1", [(S4, "in")], None),
+    ("n3", [(S5, "in")], None),
+    ("j2", [(S5, "out")], None),
+    ("n4", [(S7, "in")], None),
+    ("s16", [(S6, "in")], None),
+    ("n5", [(S6, "in")], None),
+    ("HUSH", [(S8, "in")], 1.2),
 ]
 
 LEAD = 0.28
 GAP = 0.72
 KJV_GAP = 1.50
-CARD_HOLD = 5.0
+# No-dead-air law: the video ends TAIL seconds after the last spoken
+# word. Derived, never hand-set. Clears the card's 0.8s fade-out so
+# the last word and the fade are never clipped.
+TAIL = 1.5
 
 
 def run(cmd):
@@ -137,10 +146,10 @@ def chunk_caption(text, width, max_lines):
     return out
 
 
-def timed_chunks(text, spoken_end, dur, kjv):
+def timed_chunks(text, spoken_end, dur, scripture):
     """CAPTION LAW v2: chunk the caption and time each chunk proportionally
     across the spoken audio, so the words on screen match the words being said."""
-    if kjv:
+    if scripture:
         width, maxl = 38, 3
     else:
         width, maxl = 48, 2
@@ -156,8 +165,8 @@ def timed_chunks(text, spoken_end, dur, kjv):
     return out
 
 
-def caption_filters(seg_id, dur, chunks, kjv):
-    if kjv:
+def caption_filters(seg_id, dur, chunks, scripture):
+    if scripture:
         font, size, color, width = SERIF_BI, 46, "0xFFF3DC", 38
     else:
         font, size, color, width = SERIF, 34, "white", 48
@@ -180,7 +189,7 @@ def caption_filters(seg_id, dur, chunks, kjv):
     return filters, labels
 
 
-def build_still(seg_id, src, dur, zdir, chunks, kjv, first):
+def build_still(seg_id, src, dur, zdir, chunks, speaker, first):
     frames = int(dur * FPS)
     if zdir == "in":
         z = f"1.001+0.09*on/{frames}"
@@ -195,7 +204,7 @@ def build_still(seg_id, src, dur, zdir, chunks, kjv, first):
         (c[0] if isinstance(c, (list, tuple)) else c) for c in chunks
     ) if isinstance(chunks, (list, tuple)) else (chunks or "")
     _cap_txt = " ".join(_cap_txt.split())
-    capf = caption_filter(seg_id, dur, dur, _cap_txt, kjv) if _cap_txt else ""
+    capf = caption_filter(seg_id, dur, dur, _cap_txt, speaker) if _cap_txt else ""
     fc = f"{base}{capf}{tail}[v]"
     run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
          "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
@@ -221,7 +230,7 @@ def main():
     card_spoken = spoken_of("audio/card.mp3")
 
     # Timeline: each beat may be one or more video segments; audio plays once.
-    segments = []          # (seg_id, still, zdir, dur, chunks, kjv, first)
+    segments = []          # (seg_id, still, zdir, dur, chunks, speaker, first)
     audio_place = []
     t = 0.0
     start_of = {}
@@ -231,17 +240,17 @@ def main():
             segments.append((f"hush{bi}", still, zdir, gap_over, [], False, False))
             t += gap_over
             continue
-        kjv = name in KJV
-        gap = gap_over if gap_over is not None else (KJV_GAP if kjv else GAP)
+        speaker = SPEAKER[name]
+        gap = gap_over if gap_over is not None else (KJV_GAP if is_scripture(speaker) else GAP)
         vdur = LEAD + spoken[name] + gap
         spoken_end = LEAD + spoken[name]
         a_start = t + LEAD
         audio_place.append((f"audio/{name}.mp3", a_start))
         start_of[name] = a_start
-        chunks = timed_chunks(TEXT[name], spoken_end, vdur, kjv)
+        chunks = timed_chunks(TEXT[name], spoken_end, vdur, is_scripture(speaker))
         if len(stills) == 1:
             still, zdir = stills[0]
-            segments.append((name, still, zdir, vdur, chunks, kjv, bi == 0))
+            segments.append((name, still, zdir, vdur, chunks, speaker, bi == 0))
         else:
             # Split beat: cut at caption-chunk boundaries nearest the even split
             # points, so no caption straddles a picture cut.
@@ -264,11 +273,11 @@ def main():
                 sub = [(c, cs - lo, ce - lo) for (c, cs, ce) in chunks
                        if cs >= lo - 1e-6 and ce <= hi + 1e-6]
                 segments.append((f"{name}{chr(97+si)}", still, zdir, hi - lo,
-                                 sub, kjv, bi == 0 and si == 0))
+                                 sub, speaker, bi == 0 and si == 0))
             print(f"split {name}: cuts at {[f'{c:.2f}' for c in cuts]} of "
                   f"{vdur:.2f}s", flush=True)
         t += vdur
-    card_vdur = LEAD + card_spoken + CARD_HOLD
+    card_vdur = LEAD + card_spoken + TAIL
     card_start = t
     audio_place.append(("audio/card.mp3", card_start + LEAD))
     total = t + card_vdur
@@ -294,8 +303,8 @@ def main():
         print(f"sacred silence after {j} at "
               f"{start_of[j]+spoken[j]:.1f}s", flush=True)
 
-    for seg_id, still, zdir, dur, chunks, kjv, first in segments:
-        build_still(seg_id, still, dur, zdir, chunks, kjv, first)
+    for seg_id, still, zdir, dur, chunks, speaker, first in segments:
+        build_still(seg_id, still, dur, zdir, chunks, speaker, first)
     build_card(card_vdur, CARD_TEXT)
 
     with open(f"{S}/concat.txt", "w") as f:
