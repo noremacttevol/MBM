@@ -69,7 +69,7 @@ BREATH_DUR = 1.8
 LEAD = 0.28
 GAP = 0.72
 KJV_GAP = 1.90
-CARD_HOLD = 9.0
+CARD_HOLD = 2.0   # no-dead-air law (Cameron, complaint #86): end ~2s after the last spoken word. Never pad to a length floor with trailing silence.
 
 
 def run(cmd):

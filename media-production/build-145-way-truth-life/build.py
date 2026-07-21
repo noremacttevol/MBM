@@ -66,7 +66,7 @@ BEATS = [
 LEAD = 0.40
 GAP = 1.45
 KJV_GAP = 1.90
-CARD_HOLD = 9.2   # ~12s card (Readable-Card Law); >60s floor
+CARD_HOLD = 2.0   # no-dead-air law (Cameron, complaint #86): end ~2s after the last spoken word. Never pad to a length floor with trailing silence.
 
 
 def run(cmd):

@@ -71,7 +71,7 @@ KJV_GAP = 1.80
 # Per-beat gap overrides: n1 = the draft's sacred-silence beat; n4 = a
 # longer breath before the card.
 HOLD = {"n1": 1.60, "n4": 1.90}
-CARD_HOLD = 8.0
+CARD_HOLD = 2.0   # no-dead-air law (Cameron, complaint #86): end ~2s after the last spoken word. Never pad to a length floor with trailing silence.
 
 
 def _ensure_fonts():

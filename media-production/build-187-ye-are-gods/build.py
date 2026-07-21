@@ -75,7 +75,7 @@ KJV_GAP = 1.60
 # silence); n3b = a longer breath before the card (< 2.5s dead-air law).
 HOLD = {"j1": 2.00, "n2": 2.00, "n3b": 2.00}
 # Card held to the full Readable-Card ~13s (short script; slow-reader law).
-CARD_HOLD = 9.8
+CARD_HOLD = 2.0   # no-dead-air law (Cameron, complaint #86): end ~2s after the last spoken word. Never pad to a length floor with trailing silence.
 
 
 def _ensure_fonts():
