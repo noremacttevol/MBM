@@ -1,3 +1,34 @@
+## 2026-07-21 — END-CARD OVERFLOW FIX: all 16 card-law builds re-rendered, frame-verified, shipped (Machine A)
+
+Commit: this entry's commit is the chain link; the cuts themselves shipped via the auto-ship per-build commits earlier on 07-21.
+
+Cameron's law: the closing-question card must be a centered multi-line block fully
+inside the 1080x1920 frame in every video. The 16 broken build.py were already
+patched (AUTO-WRAP CARD LAW, backups in build.py.pre-cardwrap); 02 was done earlier.
+This session re-rendered the remaining 13: 07 08 09 10 13 14 18 22 26 28 31 34 37.
+Skipped #12 (approved — untouched) and #17 (deferred). Approvals dump checked first;
+none of the 13 were approved.
+
+- 8 of the 13 could not surgical-render: their build.py needed narration segments
+  (s7/s13/s21/j1b/j3–j6...) whose mp3+timing.json existed ONLY on the stranded
+  ship-tip branch, never on main. Restored each audio/ dir from ship-tip and did
+  FULL rebuilds (13 14 22 26 28 31 34 37) so timing stays consistent.
+- Every final mp4 gated with admin/verify-mp4.sh; every card frame extracted at
+  -3s and visually checked: all 13 (plus 02) are clean multi-line centered blocks.
+- Ran alongside the SPEAKER-LAW batch (media-production/SPEAKER-LAW/run_batch.py,
+  other session): it re-rendered several of the same builds with the same patched
+  renderers — cards stay wrapped either way. Its build-10 pass left a truncated
+  mp4 (caught by the ship gate, BLOCK 05:00/05:15); recovered with a full rebuild
+  + surgical finish; #10 shipped 05:30 with the card fixnote.
+- tools/card_audit.py extended: reads CARD_TEXT / TEXT["card"] templates (was
+  ERR:NO_CARD_ID on 184 builds) and classifies the newline-into-one-textfile card
+  shape as wrap-tofu-risk. Audit now resolves ALL 200 builds: 0 overflow-capable
+  cards remain. Spot-checked 3 tofu-risk builds re-rendered today on this Linux
+  box (01, 19, 65): no tofu — the old bug does not reproduce on current ffmpeg.
+- Repo health note: .git/objects/98/3b5e91... is an EMPTY object file; git gc/prune
+  fail with a warning on every commit. Pushes still work. Needs a cleanup pass.
+- $0 spent — local ffmpeg + git only, no paid API, no Flow.
+
 ## 2026-07-21 — TIMING/HEALTH SWEEP: all 200 measured, 12 fixed, #137 dupe-ship corrected
 
 Commit: (this commit). Full table: media-production/AUDITS/TIMING-HEALTH-SWEEP-2026-07-21.md
