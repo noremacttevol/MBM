@@ -177,6 +177,10 @@
   {
    "date": "2026-07-21",
    "note": "build script updated"
+  },
+  {
+   "date": "2026-07-21",
+   "note": "Audio was too quiet (-20.7 LUFS vs the -15 standard). Raised the volume to match every other video (-14.7 LUFS). No picture or timing changes."
   }
  ],
  "14": [
