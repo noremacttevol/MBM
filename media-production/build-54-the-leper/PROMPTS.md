@@ -9,6 +9,14 @@ naturally. Each carries the byte-identical JESUS LOCK v3 paragraph and a
 outcast, alone) and s8 (the healed man telling others) have NO divine figure. ONLY Jesus
 wears cream/off-white.
 
+**LEPER LOCK (s1–s8 — added 2026-07-21 picture-QC session).** The man is ONE person in
+every shot: a man of about THIRTY-FIVE with DARK BROWN-BLACK hair and a SHORT DARK
+BEARD — never grey, never white, never elderly, never balding — warm olive skin, gaunt
+and hollow-cheeked while sick, filled out and clear-skinned once healed. Root cause of
+the 2026-07-21 defect: the shot prompts described him only as "a gaunt weary man" with
+no age or hair, so he was painted elderly and grey in s1/s2/s3 and mid-thirties with
+dark hair in s5–s8. This lock is now mandatory in every prompt naming him.
+
 CARE FLAGS: **R — RESTRAINT.** Leprosy is shown GENTLY: pale, greyish, dry patches on the
 skin, wrapped hands and forearms, a gaunt and weary outcast — NEVER graphic open sores,
 oozing wounds, blood or anything gruesome. QC question for every frame: "would a parent

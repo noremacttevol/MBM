@@ -38,6 +38,7 @@ Worklist JSON: scratchpad roster-scan (102 workable rows).
 | 42-barren-fig-tree | 3 FIXED | s5 had an EXTRA unlocked figure (young beardless man) in a beat the prompt gives to the owner ALONE. s7+s8 showed the tree loaded with ripe figs during "dig about it"/"dung it" — contradicts the barren premise (s9 "if it bear fruit" correctly shows first buds). All 3 regenerated, rebuilt |
 | 21-lost-sheep | 4 FIXED | s2 was a STACKED TWO-PANEL image with a white divider (anti-panel violation). Shepherd drift: s2–s5 painted him grey-bearded ~55 while the build's own lock says dark hair/short dark beard (s6/s7 correct). s2,s3,s4,s5 regenerated to the locked look; rebuilt |
 
+| 54-the-leper | 3 FIXED | The leper was ELDERLY + grey/white-haired in s1/s2/s3 and a dark-haired man of ~35 from s5 on — two different people in one story. ROOT CAUSE: the shot prompts described him only as "a gaunt weary man" with no age or hair, so nothing held him. Regenerated the 3 sick-stage stills to match the healed man AND wrote a LEPER LOCK into the build's PROMPTS.md so it can't recur. Jesus himself was consistent throughout |
 | 52-demoniac-synagogue | 1 FIXED | s1 Jesus PALE with light brown hair + light eyes — violates "never pale, never caucasian, never blue-eyed" (s3/s6/s7 correctly olive/black-haired). Zoom-compared s1 vs s7 to confirm. Regenerated + rebuilt |
 
 ## 🔍 SYSTEMIC FINDING — most of the library is built from HALF-RESOLUTION stills (needs Cameron's call)
