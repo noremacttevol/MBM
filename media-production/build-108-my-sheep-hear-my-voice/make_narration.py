@@ -73,6 +73,8 @@ SEGMENTS = [
 SPOKEN = {}
 
 
+SPOKEN.update({'calleth': 'kawleth', 'leadeth': 'leedeth'})  # Cameron complaints #10/#108 2026-07-21, in-context verified (kawleth/leedeth/messyeus)
+
 async def main():
     os.makedirs("audio", exist_ok=True)
     for name, speaker, text in SEGMENTS:
