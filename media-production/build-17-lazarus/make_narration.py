@@ -68,6 +68,24 @@ SEGMENTS = [
 # Homographs this build decides for itself (never auto-replaced globally).
 SPOKEN = {}
 
+# Cameron complaint #17 (2026-07-21, cut e090851b): shipped audio garbled the
+# archaic verbs — "Believest thou this" came out "GIVE US thou this", "liveth"
+# came out "lifeeth", and Michelle dropped "lovest"/"stinketh" entirely.
+# All four respellings A/B-tested 2026-07-21 in the segments' real voices
+# (Eric j2, Michelle w3/w39):
+#   livveth   -> round-trips clean (locks short-i LIV-eth; plain flagged)
+#   beleevest -> "believeth"-class round-trip (plain gave "believous"/"Give us")
+#   luvvest   -> identical round-trip to plain, locks the unstable recording
+#   stinkuhth -> round-trips "stinketh" exactly (plain gave "He's stinks")
+# Captions keep the exact KJV words. VIDEO REBUILD DEFERRED per Cameron —
+# next re-record + rebuild picks these up.
+SPOKEN.update({
+    "liveth": "livveth",
+    "believest": "beleevest",
+    "lovest": "luvvest",
+    "stinketh": "stinkuhth",
+})
+
 
 async def main():
     os.makedirs("audio", exist_ok=True)
