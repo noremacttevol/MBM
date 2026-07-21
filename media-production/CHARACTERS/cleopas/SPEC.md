@@ -52,7 +52,7 @@ background. One single continuous scene painted edge to edge, no panels.
 
 ### three-quarter (attach face-front.jpeg as --ref)
 [STYLE BLOCK] The SAME man as the attached reference image — identical face,
-hair and beard: a reverent three-quarter bust portrait of Cleopas the
+hair and beard: a reverent three-quarter bust portrait of Cleopas, the SAME man in his fifties as the reference with the same grey-streaked receding hair and grey beard the
 disciple of Emmaus, a man in his fifties, warm olive-brown skin,
 grey-streaked dark beard, plain brown wool robe, turned three-quarters
 toward warm light, earnest and open — a face made for grief turning to

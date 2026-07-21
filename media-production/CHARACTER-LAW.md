@@ -85,16 +85,16 @@ recurs in a new story, rule 4 kicks in: sheet first.
 | Mary of Bethany | ✅ | ✅ | ⬜ |
 | Lazarus | ✅ | ✅ | ⬜ |
 | Zacchaeus | ✅ | ✅ | ⬜ |
-| Nicodemus | ✅ | ⬜ | ⬜ |
-| Pilate | ✅ | ⬜ | ⬜ |
-| Paul | ✅ | ⬜ | ⬜ |
-| Bartimaeus | ✅ | ⬜ | ⬜ |
-| Jairus | ✅ | ⬜ | ⬜ |
-| Cleopas | ✅ | ⬜ | ⬜ |
-| Barabbas | ✅ | ⬜ | ⬜ |
-| Zebedee | ✅ | ⬜ | ⬜ |
-| Malchus | ✅ | ⬜ | ⬜ |
-| Simon the Pharisee | ✅ | ⬜ | ⬜ |
+| Nicodemus | ✅ | ✅ | ⬜ |
+| Pilate | ✅ | ✅ | ⬜ |
+| Paul | ✅ | ✅ | ⬜ |
+| Bartimaeus | ✅ | ✅ | ⬜ |
+| Jairus | ✅ | ✅ | ⬜ |
+| Cleopas | ✅ | ✅ | ⬜ |
+| Barabbas | ✅ | ✅ | ⬜ |
+| Zebedee | ✅ | ✅ | ⬜ |
+| Malchus | ✅ | ✅ | ⬜ |
+| Simon the Pharisee | ✅ | ✅ | ⬜ |
 | Young Jesus (boy ~12) | ✅ | ✅ | ⬜ |
 | Adam | ✅ | ⬜ | ⬜ |
 | Eve | ✅ | ⬜ | ⬜ |
