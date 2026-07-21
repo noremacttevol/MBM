@@ -40,7 +40,7 @@ S7 = "s7-opened.jpeg"
 S8 = "s8-plain-words.jpeg"
 S9 = "s9-done-all-things-well.jpeg"
 
-TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
+TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}  # SEGMENTS are (name, speaker, text) since the speaker migration
 KJV = {"j1"}
 CARD_TEXT = ("He does not heal for an audience. He takes you aside, meets "
              "you in your silence, and opens what was shut.")
