@@ -179,6 +179,10 @@
   {
    "date": "2026-07-21",
    "note": "build script updated"
+  },
+  {
+   "date": "2026-07-21",
+   "note": "Fixed the complaint at 0:15: the \"he left home\" picture used to show the son walking TOWARD the farm with his father in the gateway ahead of him \u2014 it read like he was coming home. The picture is regenerated so the son now walks away down the road toward the viewer with the farm and his watching father small BEHIND him. Nothing else changed."
   }
  ],
  "8": [
