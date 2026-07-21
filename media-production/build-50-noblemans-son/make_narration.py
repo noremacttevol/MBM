@@ -55,7 +55,7 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 # string handed to the TTS is respelled.
 SEGMENTS = [
     ("n1", NARRATOR, "Jesus came back to Cana, the little town where he had turned the water into wine. And word of it was spreading fast."),
-    ("n2", NARRATOR, "About twenty miles away, in Capernaum, a royal official sat by his son's bed. A man of rank, used to giving orders and being obeyed. And none of it was any use now. His boy was burning with fever, and the doctors had run out of answers."),
+    ("n2", NARRATOR, "About twenty miles away, in Capernaum, a royal official sat by his son's bed. A man of rank, used to giving orders that men obeyed. And none of it was any use now. His boy was burning with fever, and the doctors had run out of answers."),
     ("n3", NARRATOR, "Then he heard the healer was in Cana, a full day's walk uphill. So this powerful man dropped everything and went, hurrying on foot to find a village carpenter's son, because he had nowhere else left to turn."),
     ("n4", NARRATOR, "He found Jesus and begged him to come down to Capernaum and heal his boy before it was too late. A father with no pride left, only fear."),
     # John 4:48
