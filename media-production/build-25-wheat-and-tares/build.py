@@ -202,7 +202,7 @@ def main():
     n13_start = None
     j2_start = None
     for name, still, zdir in BEATS:
-        reverent = name in KJV or name in PEAK
+        reverent = is_scripture(SPEAKER.get(name, "narrator")) or name in PEAK
         gap = KJV_GAP if reverent else GAP
         vdur = LEAD + audio_dur[name] + gap
         a_start = t + LEAD
@@ -213,7 +213,7 @@ def main():
             n13_start = a_start
         if name == "j2":
             j2_start = a_start
-        timeline.append((name, still, zdir, vdur, a_start, name in KJV))
+        timeline.append((name, still, zdir, vdur, a_start, SPEAKER.get(name, "narrator")))
         t += vdur
     # closing card
     card_vdur = LEAD + card_dur + TAIL
