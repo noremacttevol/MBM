@@ -238,5 +238,11 @@
    "date": "2026-07-21",
    "note": "Trimmed 13.5s of dead air off the end - the video now ends about 2 seconds after the last spoken word (was frozen on the closing card in silence). New length 92s. \u2014 narration re-recorded; build script updated"
   }
+ ],
+ "80": [
+  {
+   "date": "2026-07-21",
+   "note": "Trimmed 13.4s of dead air off the end - the video now ends about 2 seconds after the last spoken word (was frozen on the closing card in silence). New length 66s."
+  }
  ]
 }
