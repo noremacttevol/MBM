@@ -83,15 +83,13 @@ SEGMENTS = [
 SPOKEN = {}
 
 
-SPOKEN.update({'twain': 'twaine'})  # boundary-slur fixes, in-context verified 2026-07-20
-
 async def main():
     os.makedirs("audio", exist_ok=True)
     for name, speaker, text in SEGMENTS:
         flagged = [w for w in audit(text) if w not in SPOKEN]
         if flagged:
             print(f"  ! {name}: undecided homograph(s) {flagged}")
-        await save_speaker_narration(spoken_text(text, SPOKEN, speaker), speaker,
+        await save_speaker_narration(spoken_text(text, SPOKEN), speaker,
                                      f"audio/{name}.mp3")
         print(f"saved audio/{name}.mp3  [{speaker}]")
 
