@@ -27,6 +27,7 @@ import textwrap
 
 import make_narration  # SEGMENTS -> verbatim caption text per segment
 from mbm_caption_timing import caption_filter
+from mbm_speakers import is_scripture
 
 A = "assets"
 S = "segs"
@@ -49,25 +50,37 @@ S5 = "s5-buys-it.jpeg"
 S6 = "s6-pearl-radiant.jpeg"
 
 # Caption text = verbatim spoken text, keyed by segment name.
-TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
+TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
+# SPEAKER-LAW: declared once in make_narration, so the caption colour
+# and the narration voice can never drift apart.
+SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 KJV = {"j1", "j2"}   # Matthew 13:45 (j1), 13:46 (j2) — Jesus voice
 PEAK = {"j2"}        # "...sold all that he had, and bought it" — hush lands here
 
 # BEATS: (segment_name, still, zoom_dir). One still-drift beat per narration
 # segment; every word of that segment is captioned on it. Zoom alternates.
 BEATS = [
-    ("n1", S1, "in"), ("j1", S1, "out"), ("n2", S1, "in"),
+    ("n1", S1, "in"),
+    ("j1", S1, "out"),
+    ("n2", S1, "in"),
     ("n3", S2, "in"),
     ("n4", S3, "in"),
-    ("n5", S4, "in"), ("j2", S4, "out"), ("n6", S4, "in"),
-    ("n7", S5, "in"), ("n8", S5, "out"),
-    ("n9", S6, "in"), ("n10", S6, "out"),
+    ("n5", S4, "in"),
+    ("j2", S4, "out"),
+    ("n6", S4, "in"),
+    ("n7", S5, "in"),
+    ("n8", S5, "out"),
+    ("n9", S6, "in"),
+    ("n10", S6, "out"),
 ]
 
 LEAD = 0.28          # audio starts this long after its beat begins
 GAP = 0.72           # trailing pad after spoken content on a normal beat
 KJV_GAP = 1.15       # a longer, reverent pad around the Jesus / peak lines
-CARD_HOLD = 4.2      # extra seconds the card is held after it is read
+# No-dead-air law: the video ends TAIL seconds after the last spoken
+# word. Derived, never hand-set. Clears the card's 0.8s fade-out so
+# the last word and the fade are never clipped.
+TAIL = 1.5
 
 
 def run(cmd):
@@ -86,26 +99,7 @@ def wrapped(name):
     return "\n".join(textwrap.wrap(TEXT[name], width=34))
 
 
-def caption_overlay(seg_id, dur, text, kjv):
-    tf = f"{S}/{seg_id}.txt"
-    with open(tf, "w") as f:
-        f.write(text)
-    if kjv:
-        font, size, color = SERIF_BI, 46, "0xFFF3DC"
-    else:
-        font, size, color = SERIF, 34, "white"
-    fade_out = max(0.0, dur - 0.55)
-    return (f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
-            f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
-            f"fontcolor={color}:line_spacing=13:x=(w-text_w)/2:"
-            f"y=h-150-text_h:"
-            f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
-            f"box=1:boxcolor=black@0.40:boxborderw=20,"
-            f"fade=t=in:st=0:d=0.5:alpha=1,"
-            f"fade=t=out:st={fade_out}:d=0.5:alpha=1[cap]")
-
-
-def build_still(seg_id, src, dur, zdir, cap_text, kjv, first, last):
+def build_still(seg_id, src, dur, zdir, cap_text, speaker, first, last):
     frames = int(dur * FPS)
     if zdir == "in":
         z = f"1.001+0.09*on/{frames}"
@@ -115,7 +109,7 @@ def build_still(seg_id, src, dur, zdir, cap_text, kjv, first, last):
             f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"d={frames}:s=2160x3840:fps={FPS},"
             f"scale=1080:1920:flags=lanczos")
-    cap = caption_filter(seg_id, dur, dur, cap_text, kjv)
+    cap = caption_filter(seg_id, dur, dur, cap_text, speaker)
     tail = ",fade=t=in:st=0:d=1.0" if first else ""
     fc = f"{base}{cap}{tail}[v]"
     run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
@@ -166,7 +160,7 @@ def main():
     audio_dur = {n: dur_of(f"audio/{n}.mp3") for n, _, _ in BEATS}
     card_dur = dur_of("audio/card.mp3")
 
-    timeline = []   # (seg_id, still, zoom, video_dur, audio_start, kjv)
+    timeline = []   # (seg_id, still, zoom, video_dur, audio_start, speaker)
     t = 0.0
     audio_place = []  # (mp3, start)
     peak_start = None
@@ -183,7 +177,7 @@ def main():
         timeline.append((name, still, zdir, vdur, a_start, name in KJV))
         t += vdur
     # closing card
-    card_vdur = LEAD + card_dur + CARD_HOLD
+    card_vdur = LEAD + card_dur + TAIL
     card_start = t
     audio_place.append(("audio/card.mp3", card_start + LEAD))
     total = t + card_vdur
@@ -194,8 +188,8 @@ def main():
 
     # ---- render every still beat ----
     n = len(timeline)
-    for i, (seg_id, still, zdir, vdur, _a, kjv) in enumerate(timeline):
-        build_still(seg_id, still, vdur, zdir, wrapped(seg_id), kjv,
+    for i, (seg_id, still, zdir, vdur, _a, speaker) in enumerate(timeline):
+        build_still(seg_id, still, vdur, zdir, wrapped(seg_id), speaker,
                     first=(i == 0), last=(i == n - 1))
     build_card(card_vdur, TEXT["card"])
 
