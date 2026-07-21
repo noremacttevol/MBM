@@ -38,6 +38,32 @@ Worklist JSON: scratchpad roster-scan (102 workable rows).
 | 42-barren-fig-tree | 3 FIXED | s5 had an EXTRA unlocked figure (young beardless man) in a beat the prompt gives to the owner ALONE. s7+s8 showed the tree loaded with ripe figs during "dig about it"/"dung it" — contradicts the barren premise (s9 "if it bear fruit" correctly shows first buds). All 3 regenerated, rebuilt |
 | 21-lost-sheep | 4 FIXED | s2 was a STACKED TWO-PANEL image with a white divider (anti-panel violation). Shepherd drift: s2–s5 painted him grey-bearded ~55 while the build's own lock says dark hair/short dark beard (s6/s7 correct). s2,s3,s4,s5 regenerated to the locked look; rebuilt |
 
+| 52-demoniac-synagogue | 1 FIXED | s1 Jesus PALE with light brown hair + light eyes — violates "never pale, never caucasian, never blue-eyed" (s3/s6/s7 correctly olive/black-haired). Zoom-compared s1 vs s7 to confirm. Regenerated + rebuilt |
+
+## 🔍 SYSTEMIC FINDING — most of the library is built from HALF-RESOLUTION stills (needs Cameron's call)
+
+**180 of ~205 build folders contain stills under 1080px wide** (typically 768x1376),
+while every video renders at 1080x1920 and build.py first upscales each still to
+2160x3868 for the Ken Burns move. A 768px source is therefore blown up ~2.8x before
+the zoom — noticeably soft, and softest at the end of each zoom-in.
+
+Flow's download menu offers 1K / 2K / 4K. The 2K download is 1536x2752 (what the
+newer stills use, and what every replacement this session used). The 768px stills
+were saved at "1K original size". This is a download-time setting, not a generation
+cost — regenerating is NOT required, but a still can only be re-downloaded at 2K
+while its Flow item still exists; otherwise it must be regenerated.
+
+Fully-low builds (every still under 1080) include 10, 11*, 12*, 26, 28, 34, 37, 47,
+50–99, 101*–106*, 108, 109, 111, 113–120*, 121–127, 129–135, 137, 140, 146–200
+(* = approved/locked, hands off). Mixed builds: 1*, 3, 4*, 5*, 6*, 7, 8, 9, 14, 15*,
+16*, 17, 18, 19, 22, 31, 48, 107, 112, 181.
+
+NOT actioned this session — 180 rebuilds is a program, not a fix, and sharpness is
+not on this session's defect list. Cameron decides: (a) leave as-is, (b) re-download
++ rebuild the unapproved ones in a dedicated pass, or (c) fix opportunistically as
+each video is touched for other reasons (what this session did — every replacement
+still installed today is 1536x2752).
+
 ## Still to sweep (in priority order)
 61, 63, 41, 48(blocked? no—48 blocked), 124, 129, 8, 13(blocked), 20, 21,
 23–35 parables, 36, 38, 39, 41, 42, 46, 47, 52, 54, 55, 56, 59, 61, 63, 65,
