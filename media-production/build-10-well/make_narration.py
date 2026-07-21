@@ -61,7 +61,18 @@ SEGMENTS = [
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
-SPOKEN = {}
+# Messias (KJV John 4:25): the Michelle voice reads it "mesh is" (Cameron
+# complaint #10, ~3:55, twice). A/B/C/D tested 2026-07-21: "Messiahs" round-
+# trips as meh-SIGH-us. Caption keeps the exact KJV spelling "Messias".
+SPOKEN = {"Messias": "Messiahs"}
+
+# j2 "I that speak unto thee am he" (John 4:26) — the Eric voice slurs the
+# three-word run into "the Amhi" (Cameron complaint #10, heard at ~3:55, still
+# present after two re-records). A/B/C/D tested 2026-07-21 on the actual voice:
+# plain, comma, and "hee" all still transcribe "the Amhi"; only an ellipsis
+# pause breaks the liaison — whisper then hears the exact words. Caption stays
+# verbatim KJV; only the SPOKEN string carries the ellipsis.
+PHRASE_SPOKEN = {"j2": ("unto thee am he", "unto thee... am he")}
 
 
 async def main():
@@ -70,8 +81,10 @@ async def main():
         flagged = [w for w in audit(text) if w not in SPOKEN]
         if flagged:
             print(f"  ! {name}: undecided homograph(s) {flagged}")
-        await save_speaker_narration(spoken_text(text, SPOKEN), speaker,
-                                     f"audio/{name}.mp3")
+        st = spoken_text(text, SPOKEN)
+        if name in PHRASE_SPOKEN:
+            st = st.replace(*PHRASE_SPOKEN[name])
+        await save_speaker_narration(st, speaker, f"audio/{name}.mp3")
         print(f"saved audio/{name}.mp3  [{speaker}]")
 
 

@@ -10,7 +10,7 @@ SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, NOT a triptych,
 
 WOMAN LOCK: the SAME Samaritan woman in every picture — a Middle Eastern woman of about thirty-five, warm olive skin, dark brown hair partly covered by a simple dark-red head shawl, wearing a plain terracotta-and-brown robe, carrying a rounded clay water jar. Weary but dignified, expressive dark eyes. Same face and same clothing in every shot.
 
-WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim with a worn wooden crossbeam and coiled rope, set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance. CRITICAL DIRECTION — SHE IS WALKING TO THE WELL (Cameron denial #10, 2026-07-19: "First and last pictures they are walking the wrong way"): the stone well lies AHEAD of her in her direction of travel and she is walking toward it, seen from behind or from a three-quarter rear angle so we look past her at the well she is approaching. The village is BEHIND her, at her back. She is NOT walking away from the well, NOT walking toward the camera, and the well is never behind her.
+WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim, and standing on opposite sides of the rim TWO upright weathered wooden posts holding ONE horizontal windlass beam ABOVE the well mouth, the rope wound around that raised beam and hanging straight down into the well. The beam is NEVER lying flat across the well opening, NEVER floating unsupported, and the rope always runs from the raised beam down into the well — set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance. CRITICAL DIRECTION — SHE IS WALKING TO THE WELL (Cameron denial #10, 2026-07-19: "First and last pictures they are walking the wrong way"): the stone well lies AHEAD of her in her direction of travel and she is walking toward it, seen from behind or from a three-quarter rear angle so we look past her at the well she is approaching. The village is BEHIND her, at her back. She is NOT walking away from the well, NOT walking toward the camera, and the well is never behind her.
 
 
 ## s2-traveler — the traveler at the well
@@ -21,7 +21,7 @@ JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identica
 
 WOMAN LOCK: the SAME Samaritan woman in every picture — a Middle Eastern woman of about thirty-five, warm olive skin, dark brown hair partly covered by a simple dark-red head shawl, wearing a plain terracotta-and-brown robe, carrying a rounded clay water jar. Weary but dignified, expressive dark eyes. Same face and same clothing in every shot.
 
-WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim with a worn wooden crossbeam and coiled rope, set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
+WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim, and standing on opposite sides of the rim TWO upright weathered wooden posts holding ONE horizontal windlass beam ABOVE the well mouth, the rope wound around that raised beam and hanging straight down into the well. The beam is NEVER lying flat across the well opening, NEVER floating unsupported, and the rope always runs from the raised beam down into the well — set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
 
 REF: JESUS-MASTER-REF/jesus-face.jpeg (jesus-master-ref) — DOCUMENTATION ONLY; generate TEXT-ONLY, do NOT attach the reference image.
 
@@ -33,7 +33,7 @@ JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identica
 
 WOMAN LOCK: the SAME Samaritan woman in every picture — a Middle Eastern woman of about thirty-five, warm olive skin, dark brown hair partly covered by a simple dark-red head shawl, wearing a plain terracotta-and-brown robe, carrying a rounded clay water jar. Weary but dignified, expressive dark eyes. Same face and same clothing in every shot.
 
-WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim with a worn wooden crossbeam and coiled rope, set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
+WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim, and standing on opposite sides of the rim TWO upright weathered wooden posts holding ONE horizontal windlass beam ABOVE the well mouth, the rope wound around that raised beam and hanging straight down into the well. The beam is NEVER lying flat across the well opening, NEVER floating unsupported, and the rope always runs from the raised beam down into the well — set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
 
 REF: JESUS-MASTER-REF/jesus-face.jpeg (jesus-master-ref) — DOCUMENTATION ONLY; generate TEXT-ONLY, do NOT attach the reference image.
 
@@ -45,19 +45,19 @@ JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identica
 
 WOMAN LOCK: the SAME Samaritan woman in every picture — a Middle Eastern woman of about thirty-five, warm olive skin, dark brown hair partly covered by a simple dark-red head shawl, wearing a plain terracotta-and-brown robe, carrying a rounded clay water jar. Weary but dignified, expressive dark eyes. Same face and same clothing in every shot.
 
-WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim with a worn wooden crossbeam and coiled rope, set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
+WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim, and standing on opposite sides of the rim TWO upright weathered wooden posts holding ONE horizontal windlass beam ABOVE the well mouth, the rope wound around that raised beam and hanging straight down into the well. The beam is NEVER lying flat across the well opening, NEVER floating unsupported, and the rope always runs from the raised beam down into the well — set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
 
 REF: JESUS-MASTER-REF/jesus-face.jpeg (jesus-master-ref) — DOCUMENTATION ONLY; generate TEXT-ONLY, do NOT attach the reference image.
 
 ## s5-conversation-anchor — fully known, still respected
 
-SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, NOT a triptych, NOT stacked panels, NOT two copies of the same scene, no dividing lines or seams anywhere, ONE picture only showing ONE moment, artwork fills the ENTIRE frame and bleeds to all four edges, no border, no frame, no vignette, one single tall upright vertical painting. A CLOSER WAIST-UP TWO-FIGURE SCENE, painted storybook realism, vertical 9:16. The man in the cream wool robe looks at the Samaritan woman with knowing warmth and complete compassion, not judging. She is undone and moved, a hand drifting to her chest, tears welling, realizing she is fully known. Both faces clearly visible. Harsh noon light softening.
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, NOT a triptych, NOT stacked panels, NOT two copies of the same scene, no dividing lines or seams anywhere, ONE picture only showing ONE moment, artwork fills the ENTIRE frame and bleeds to all four edges, no border, no frame, no vignette, one single tall upright vertical painting. A CLOSER WAIST-UP TWO-FIGURE SCENE, painted storybook realism, vertical 9:16. The man in the cream wool robe looks at the Samaritan woman with knowing warmth and complete compassion, not judging. She is undone and moved, a hand drifting to her chest, eyes glistening but her cheeks DRY — absolutely no painted tear lines or streaks — realizing she is fully known. Both faces clearly visible. Harsh noon light softening.
 
 JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.
 
 WOMAN LOCK: the SAME Samaritan woman in every picture — a Middle Eastern woman of about thirty-five, warm olive skin, dark brown hair partly covered by a simple dark-red head shawl, wearing a plain terracotta-and-brown robe, carrying a rounded clay water jar. Weary but dignified, expressive dark eyes. Same face and same clothing in every shot.
 
-WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim with a worn wooden crossbeam and coiled rope, set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
+WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim, and standing on opposite sides of the rim TWO upright weathered wooden posts holding ONE horizontal windlass beam ABOVE the well mouth, the rope wound around that raised beam and hanging straight down into the well. The beam is NEVER lying flat across the well opening, NEVER floating unsupported, and the rope always runs from the raised beam down into the well — set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
 
 REF: JESUS-MASTER-REF/jesus-face.jpeg (jesus-master-ref) — DOCUMENTATION ONLY; generate TEXT-ONLY, do NOT attach the reference image.
 
@@ -69,7 +69,7 @@ JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identica
 
 WOMAN LOCK: the SAME Samaritan woman in every picture — a Middle Eastern woman of about thirty-five, warm olive skin, dark brown hair partly covered by a simple dark-red head shawl, wearing a plain terracotta-and-brown robe, carrying a rounded clay water jar. Weary but dignified, expressive dark eyes. Same face and same clothing in every shot.
 
-WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim with a worn wooden crossbeam and coiled rope, set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
+WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim, and standing on opposite sides of the rim TWO upright weathered wooden posts holding ONE horizontal windlass beam ABOVE the well mouth, the rope wound around that raised beam and hanging straight down into the well. The beam is NEVER lying flat across the well opening, NEVER floating unsupported, and the rope always runs from the raised beam down into the well — set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
 
 REF: JESUS-MASTER-REF/jesus-face.jpeg (jesus-master-ref) — DOCUMENTATION ONLY; generate TEXT-ONLY, do NOT attach the reference image.
 
@@ -81,7 +81,7 @@ JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identica
 
 WOMAN LOCK: the SAME Samaritan woman in every picture — a Middle Eastern woman of about thirty-five, warm olive skin, dark brown hair partly covered by a simple dark-red head shawl, wearing a plain terracotta-and-brown robe, carrying a rounded clay water jar. Weary but dignified, expressive dark eyes. Same face and same clothing in every shot.
 
-WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim with a worn wooden crossbeam and coiled rope, set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
+WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim, and standing on opposite sides of the rim TWO upright weathered wooden posts holding ONE horizontal windlass beam ABOVE the well mouth, the rope wound around that raised beam and hanging straight down into the well. The beam is NEVER lying flat across the well opening, NEVER floating unsupported, and the rope always runs from the raised beam down into the well — set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
 
 REF: JESUS-MASTER-REF/jesus-face.jpeg (jesus-master-ref) — DOCUMENTATION ONLY; generate TEXT-ONLY, do NOT attach the reference image.
 
@@ -91,7 +91,7 @@ SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, NOT a triptych,
 
 WOMAN LOCK: the SAME Samaritan woman in every picture — a Middle Eastern woman of about thirty-five, warm olive skin, dark brown hair partly covered by a simple dark-red head shawl, wearing a plain terracotta-and-brown robe, carrying a rounded clay water jar. Weary but dignified, expressive dark eyes. Same face and same clothing in every shot.
 
-WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim with a worn wooden crossbeam and coiled rope, set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
+WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim, and standing on opposite sides of the rim TWO upright weathered wooden posts holding ONE horizontal windlass beam ABOVE the well mouth, the rope wound around that raised beam and hanging straight down into the well. The beam is NEVER lying flat across the well opening, NEVER floating unsupported, and the rope always runs from the raised beam down into the well — set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
 
 
 ## s9-road-filling — the town comes to see for themselves
@@ -102,7 +102,7 @@ JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identica
 
 WOMAN LOCK: the SAME Samaritan woman in every picture — a Middle Eastern woman of about thirty-five, warm olive skin, dark brown hair partly covered by a simple dark-red head shawl, wearing a plain terracotta-and-brown robe, carrying a rounded clay water jar. Weary but dignified, expressive dark eyes. Same face and same clothing in every shot.
 
-WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim with a worn wooden crossbeam and coiled rope, set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
+WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim, and standing on opposite sides of the rim TWO upright weathered wooden posts holding ONE horizontal windlass beam ABOVE the well mouth, the rope wound around that raised beam and hanging straight down into the well. The beam is NEVER lying flat across the well opening, NEVER floating unsupported, and the rope always runs from the raised beam down into the well — set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
 
 REF: JESUS-MASTER-REF/jesus-face.jpeg (jesus-master-ref) — DOCUMENTATION ONLY; generate TEXT-ONLY, do NOT attach the reference image.
 
@@ -116,7 +116,7 @@ REF: JESUS-MASTER-REF/jesus-face.jpeg (jesus-master-ref) — DOCUMENTATION ONLY;
 
 SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, NOT a triptych, NOT stacked panels, NOT two copies of the same scene, no dividing lines or seams anywhere, ONE picture only showing ONE moment, artwork fills the ENTIRE frame and bleeds to all four edges, no border, no frame, no vignette, one single tall upright vertical painting. A WIDE MANY-FIGURE SCENE, painted storybook realism, vertical 9:16. Soft cool GOLDEN MORNING light, long gentle shadows — the opposite hour of noon. At the stone well, five or six women of Sychar draw water together: (1) an older woman in a dun robe turning the crossbeam rope; (2) a woman in an olive-green robe laughing mid-story with (3) a woman in a faded blue head shawl leaning in to listen; (4) a young woman in an ochre robe balancing a full jar on her shoulder; (5) a grey-haired woman in brown resting her jar on the well rim. Easy talk, company, belonging. The women are OTHER women of the town — NONE of them wears terracotta with a dark-red head shawl, and none of them resembles the Samaritan woman, who is NOT in this picture. Every woman has exactly two arms and two hands.
 
-WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim with a worn wooden crossbeam and coiled rope, set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
+WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim, and standing on opposite sides of the rim TWO upright weathered wooden posts holding ONE horizontal windlass beam ABOVE the well mouth, the rope wound around that raised beam and hanging straight down into the well. The beam is NEVER lying flat across the well opening, NEVER floating unsupported, and the rope always runs from the raised beam down into the well — set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
 
 ## s11-turn-around — everything in her said turn around (n1)
 
@@ -126,7 +126,7 @@ JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identica
 
 WOMAN LOCK: the SAME Samaritan woman in every picture — a Middle Eastern woman of about thirty-five, warm olive skin, dark brown hair partly covered by a simple dark-red head shawl, wearing a plain terracotta-and-brown robe, carrying a rounded clay water jar. Weary but dignified, expressive dark eyes. Same face and same clothing in every shot.
 
-WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim with a worn wooden crossbeam and coiled rope, set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
+WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim, and standing on opposite sides of the rim TWO upright weathered wooden posts holding ONE horizontal windlass beam ABOVE the well mouth, the rope wound around that raised beam and hanging straight down into the well. The beam is NEVER lying flat across the well opening, NEVER floating unsupported, and the rope always runs from the raised beam down into the well — set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
 
 REF: JESUS-MASTER-REF/jesus-face.jpeg (jesus-master-ref) — DOCUMENTATION ONLY; generate TEXT-ONLY, do NOT attach the reference image.
 
@@ -138,7 +138,7 @@ JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identica
 
 WOMAN LOCK: the SAME Samaritan woman in every picture — a Middle Eastern woman of about thirty-five, warm olive skin, dark brown hair partly covered by a simple dark-red head shawl, wearing a plain terracotta-and-brown robe, carrying a rounded clay water jar. Weary but dignified, expressive dark eyes. Same face and same clothing in every shot.
 
-WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim with a worn wooden crossbeam and coiled rope, set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
+WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim, and standing on opposite sides of the rim TWO upright weathered wooden posts holding ONE horizontal windlass beam ABOVE the well mouth, the rope wound around that raised beam and hanging straight down into the well. The beam is NEVER lying flat across the well opening, NEVER floating unsupported, and the rope always runs from the raised beam down into the well — set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
 
 REF: JESUS-MASTER-REF/jesus-face.jpeg (jesus-master-ref) — DOCUMENTATION ONLY; generate TEXT-ONLY, do NOT attach the reference image.
 
@@ -150,7 +150,7 @@ JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identica
 
 WOMAN LOCK: the SAME Samaritan woman in every picture — a Middle Eastern woman of about thirty-five, warm olive skin, dark brown hair partly covered by a simple dark-red head shawl, wearing a plain terracotta-and-brown robe, carrying a rounded clay water jar. Weary but dignified, expressive dark eyes. Same face and same clothing in every shot.
 
-WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim with a worn wooden crossbeam and coiled rope, set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
+WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim, and standing on opposite sides of the rim TWO upright weathered wooden posts holding ONE horizontal windlass beam ABOVE the well mouth, the rope wound around that raised beam and hanging straight down into the well. The beam is NEVER lying flat across the well opening, NEVER floating unsupported, and the rope always runs from the raised beam down into the well — set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
 
 REF: JESUS-MASTER-REF/jesus-face.jpeg (jesus-master-ref) — DOCUMENTATION ONLY; generate TEXT-ONLY, do NOT attach the reference image.
 
@@ -162,6 +162,6 @@ JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identica
 
 WOMAN LOCK: the SAME Samaritan woman in every picture — a Middle Eastern woman of about thirty-five, warm olive skin, dark brown hair partly covered by a simple dark-red head shawl, wearing a plain terracotta-and-brown robe, carrying a rounded clay water jar. Weary but dignified, expressive dark eyes. Same face and same clothing in every shot.
 
-WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim with a worn wooden crossbeam and coiled rope, set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
+WELL LOCK: the SAME ancient stone well of Jacob — a round low fieldstone rim, and standing on opposite sides of the rim TWO upright weathered wooden posts holding ONE horizontal windlass beam ABOVE the well mouth, the rope wound around that raised beam and hanging straight down into the well. The beam is NEVER lying flat across the well opening, NEVER floating unsupported, and the rope always runs from the raised beam down into the well — set in a dry Samaria landscape of low bare hills and a few olive trees, the small stone town of Sychar on a hill in the distance.
 
 REF: JESUS-MASTER-REF/jesus-face.jpeg (jesus-master-ref) — DOCUMENTATION ONLY; generate TEXT-ONLY, do NOT attach the reference image.
