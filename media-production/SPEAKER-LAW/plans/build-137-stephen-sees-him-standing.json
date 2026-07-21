@@ -1,7 +1,7 @@
 {
  "build": "build-137-stephen-sees-him-standing",
  "reference": "Acts 7",
- "notes": "One red beat, and it was a misattribution. Jesus does not speak anywhere in this\nstory — he is SEEN, standing, and says nothing. The words on screen are Stephen's:\n\n  s1  Acts 7:56  'Behold, I see the heavens opened, and the Son of man standing on\n      the right hand of God.'  RED -> SCRIPTURE\n\nThat is the whole colour change: one line out of red into light blue. Painting it red\nhad Christ announcing his own appearance in the third person, which is backwards —\nthe power of the moment is that a dying man says it while the stones are coming.\nLight blue is where every other witness in Acts sits, and Stephen belongs there.\n\nNo splits needed; the segment is a single clean speaker. Nothing lifted from\nparaphrase — n0a, n0b and n1 are Luke's narration retold in modern English and are\ncorrectly narrator, and n2 already does the retelling job right after s1. Acts 7:56\nis quoted verbatim from the King James text. Nothing left uncertain.\n\nWHY-LAW: milk. Standing, not sitting. Heaven is not indifferent to what is happening\nto you — and the video does not have to argue that, because Stephen already said it.",
+ "notes": "One red beat, and it was a misattribution. Jesus does not speak anywhere in this\nstory — he is SEEN, standing, and says nothing. The words on screen are Stephen's:\n\n  s1  Acts 7:56  'Behold, I see the heavens opened, and the Son of man standing on\n      the right hand of God.'  RED -> SCRIPTURE\n\nThat is the whole colour change: one line out of red into light blue. Painting it red\nhad Christ announcing his own appearance in the third person, which is backwards —\nthe power of the moment is that a dying man says it while the stones are coming.\nLight blue is where every other witness in Acts sits, and Stephen belongs there.\n\nNo splits needed; the segment is a single clean speaker. Nothing lifted from\nparaphrase — n0a, n0b and n1 are Luke's narration retold in modern English and are\ncorrectly narrator, and n2 already does the retelling job right after s1. Acts 7:56\nis quoted verbatim from the King James text. Nothing left uncertain.\n\nWHY-LAW: milk. Standing, not sitting. Heaven is not indifferent to what is happening\nto you — and the video does not have to argue that, because Stephen already said it. 2026-07-21: added n2b (narrator, same still ST5) — the cut fell to 57.1s, under the 60s floor, after the dead-air trim; the added line is the two-distinct-beings observation straight from Acts 7:55-56.",
  "segments": [
   {
    "id": "n0a",
@@ -28,6 +28,11 @@
    "id": "n2",
    "speaker": "narrator",
    "text": "Look, he said — I can see heaven open, and the Son of man standing at God's right hand. Not sitting. Standing. As if ready to receive the one they were killing."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "Notice what Stephen actually saw: the glory of God, and the Son of man standing beside it, at his right hand. Two of them. Distinct. And the Son was on his feet for him."
   },
   {
    "id": "n3",
@@ -65,6 +70,11 @@
    "n2",
    "ST5",
    "in"
+  ],
+  [
+   "n2b",
+   "ST5",
+   "out"
   ],
   [
    "n3",

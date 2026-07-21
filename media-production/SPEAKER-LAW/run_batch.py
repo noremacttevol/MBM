@@ -109,6 +109,27 @@ def acquire_lock():
     atexit.register(lambda: os.path.exists(LOCK) and os.unlink(LOCK))
 
 
+def busy(build):
+    """True if any OTHER process is currently working inside this build dir.
+
+    Other Claude sessions on this machine run `python3 build.py` (and ffmpeg
+    children) with cwd inside the build folder. Migrating + re-rendering under
+    them interleaves writes to segs/ and the output mp4 — the exact corruption
+    that shipped builds 101/102 shredded. Skip and come back instead.
+    """
+    d = os.path.realpath(os.path.join(migrate.MP, build))
+    me = os.getpid()
+    for p in os.listdir("/proc"):
+        if not p.isdigit() or int(p) == me:
+            continue
+        try:
+            if os.path.realpath(f"/proc/{p}/cwd") == d:
+                return True
+        except OSError:
+            continue
+    return False
+
+
 def main():
     acquire_lock()
     names = sys.argv[1:]
@@ -119,9 +140,26 @@ def main():
     todo = [n for n in names if log.get(n, {}).get("status") != "shipped"]
     print(f"{len(todo)} to build ({len(names) - len(todo)} already done)", flush=True)
 
-    for i, b in enumerate(todo, 1):
+    deferred = {}
+    i = 0
+    while todo:
+        b = todo.pop(0)
+        i += 1
+        if busy(b):
+            deferred[b] = deferred.get(b, 0) + 1
+            if deferred[b] <= 40:
+                print(f"\n[{i}] {b} BUSY (another session is rendering it) — "
+                      f"deferred to end of queue (try {deferred[b]})", flush=True)
+                todo.append(b)
+                if all(busy(x) for x in todo[:3] or [b]):
+                    time.sleep(120)
+            else:
+                log[b] = {"status": "error",
+                          "why": "busy: another session held this dir all run"}
+                save_log(log)
+            continue
         t0 = time.time()
-        print(f"\n[{i}/{len(todo)}] {b}", flush=True)
+        print(f"\n[{i}] {b} ({len(todo)} left after this)", flush=True)
         try:
             migrate.migrate(b)
             v = verify(b)

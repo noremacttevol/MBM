@@ -1,7 +1,7 @@
 {
  "build": "build-191-windows-of-heaven",
  "reference": "Malachi 3",
- "notes": "Malachi 3:10. The one red beat moves to GREEN.\n\n  s1  Malachi 3:10  'Bring ye all the tithes into the storehouse...'  RED -> GOD\n\nThis is the LORD speaking in the first person for the whole segment - 'prove me\nnow herewith', 'if I will not open you the windows of heaven', 'pour you out a\nblessing'. That is Jehovah, the premortal Christ, so it is green. Malachi is Old\nTestament, so `jesus` is not available and would be wrong anyway: a red-letter\nKJV leaves this black because Christ had not yet come in the flesh.\n\nNOT SPLIT, deliberately. 'saith the LORD of hosts' sits in the middle of the\nverse and is technically Malachi's attribution wrapper. Splitting it out would\nmake three beats out of one breath - green, blue, green - for four words, and\nthe colour would flicker mid-sentence for no gain. The clause is inside the\nLORD's own quoted speech, not a narrator aside around it, so the whole verse\nstays one green beat. This is the judgement call the law asks for.\n\nVerbatim: s1 is Malachi 3:10 word for word, KJV, including 'meat in mine house'.\nNothing was smoothed.\n\nRetelling: already covered. n2 ('test me, and see if I don't open the windows'),\nn3a and n3b carry the verse into plain modern English across three beats. No new\nnarrator beat was needed.\n\nNothing lifted from paraphrase. n0 and n1 are the storyteller setting the scene\nin modern English about the LORD and the storehouse - narrator is correct for\nboth; neither is a buried quotation.\n\nBeats unchanged. The card is 'card' and stays out of beats, as the original had it.\n\nWHY-LAW: milk. The invitation is the whole point - God asks to be tested on his\ngenerosity. Nothing on screen argues about tithing law.",
+ "notes": "Malachi 3:10. The one red beat moves to GREEN.\n\n  s1  Malachi 3:10  'Bring ye all the tithes into the storehouse...'  RED -> GOD\n\nThis is the LORD speaking in the first person for the whole segment - 'prove me\nnow herewith', 'if I will not open you the windows of heaven', 'pour you out a\nblessing'. That is Jehovah, the premortal Christ, so it is green. Malachi is Old\nTestament, so `jesus` is not available and would be wrong anyway: a red-letter\nKJV leaves this black because Christ had not yet come in the flesh.\n\nNOT SPLIT, deliberately. 'saith the LORD of hosts' sits in the middle of the\nverse and is technically Malachi's attribution wrapper. Splitting it out would\nmake three beats out of one breath - green, blue, green - for four words, and\nthe colour would flicker mid-sentence for no gain. The clause is inside the\nLORD's own quoted speech, not a narrator aside around it, so the whole verse\nstays one green beat. This is the judgement call the law asks for.\n\nVerbatim: s1 is Malachi 3:10 word for word, KJV, including 'meat in mine house'.\nNothing was smoothed.\n\nRetelling: already covered. n2 ('test me, and see if I don't open the windows'),\nn3a and n3b carry the verse into plain modern English across three beats. No new\nnarrator beat was needed.\n\nNothing lifted from paraphrase. n0 and n1 are the storyteller setting the scene\nin modern English about the LORD and the storehouse - narrator is correct for\nboth; neither is a buried quotation.\n\nBeats unchanged. The card is 'card' and stays out of beats, as the original had it.\n\nWHY-LAW: milk. The invitation is the whole point - God asks to be tested on his\ngenerosity. Nothing on screen argues about tithing law. 2026-07-21: added n2b (same still ST4) — the cut ran 59.3s, 0.8s under the 60s floor.",
  "segments": [
   {
    "id": "n0",
@@ -23,6 +23,11 @@
    "id": "n2",
    "speaker": "narrator",
    "text": "A dare no king could make — test me, and see if I don't open the windows."
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "He is the only one in scripture who ever says: prove me. Put me to the test, and watch what I do."
   },
   {
    "id": "n3a",
@@ -60,6 +65,11 @@
    "n2",
    "ST4",
    "in"
+  ],
+  [
+   "n2b",
+   "ST4",
+   "out"
   ],
   [
    "n3a",

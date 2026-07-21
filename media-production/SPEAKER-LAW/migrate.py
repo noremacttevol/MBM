@@ -246,12 +246,41 @@ def patch_build(src, plan):
 
     # retire the KJV set -------------------------------------------------------
     out = re.sub(r"^KJV = \{[^}]*\}\n", "", out, count=1, flags=re.M)
+    # Some builds also consulted the set for PACING ("reverent" holds) and for
+    # the TIMELINE tuple whose last field feeds caption_filter. Those uses
+    # survive the set's removal and NameError at runtime (builds 20, 27).
+    # The two need DIFFERENT rewrites: the timeline field must be the speaker
+    # STRING (a boolean rides the compat path and paints every non-narrator
+    # line red — builds 21/25 shipped scripture-in-red that way), while pacing
+    # checks want a plain boolean.
+    def _kjv_line(ln):
+        if "name in KJV" not in ln:
+            return ln
+        # `kjv = name in KJV` is the common template-A line and is rewritten to
+        # `speaker = SPEAKER[name]` by the structural rule further down — do NOT
+        # touch it here (an early rewrite hides it from that rule; builds
+        # 35/36/38/39 shipped scripture-in-red that way). Only the two shapes
+        # the structural rules never handled are rewritten here:
+        if re.match(r"\s*kjv = name in KJV\s*$", ln):
+            return ln
+        # inline in the timeline tuple → caption_filter needs the STRING
+        if "timeline.append" in ln:
+            return ln.replace("name in KJV", 'SPEAKER.get(name, "narrator")')
+        # pacing booleans ("reverent = name in KJV or ...") → plain boolean
+        return ln.replace("name in KJV",
+                          'is_scripture(SPEAKER.get(name, "narrator"))')
+    out = "\n".join(_kjv_line(ln) for ln in out.split("\n"))
 
     # import ------------------------------------------------------------------
+    # Insert AFTER the whole existing import line: some builds import more names
+    # on it ("caption_filter, timed_windows") and a mid-line splice moved those
+    # extra names onto the mbm_speakers line (build-65 ImportError).
     if "from mbm_speakers import is_scripture" not in out:
-        out = out.replace("from mbm_caption_timing import caption_filter",
-                          "from mbm_caption_timing import caption_filter\n"
-                          "from mbm_speakers import is_scripture", 1)
+        m = re.search(r"^from mbm_caption_timing import [^\n]*caption_filter[^\n]*$",
+                      out, re.M)
+        if m:
+            out = (out[:m.end()] + "\nfrom mbm_speakers import is_scripture"
+                   + out[m.end():])
 
     # BEATS -------------------------------------------------------------------
     # Template C declares ("id", [(S1,"in"), (S2,"in")], gap_override) — one beat

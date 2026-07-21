@@ -1,7 +1,7 @@
 {
  "build": "build-40-the-friend-at-midnight",
  "reference": "Luke 11",
- "notes": "PARABLE LAW APPLIED. 'Trouble me not: the door is now shut, and my children are with\nme in bed; I cannot rise and give thee' is the sleeping neighbour, and 'Friend, lend\nme three loaves' is the man outside -- both are characters inside Jesus's parable, so\na red-letter KJV inks both red. Neither was turned blue. This is the trap in this\nbuild and it was left alone.\n\nSTAYED RED, all five, and all correct as they stood:\n  j0  Luke 11:2   'When ye pray, say, Our Father which art in heaven...'\n  j1  Luke 11:5-6 'Friend, lend me three loaves...'\n  j2  Luke 11:7   'Trouble me not: the door is now shut...'\n  j3  Luke 11:8   'I say unto you, Though he will not rise and give him...'\n  j4  Luke 11:9   'Ask, and it shall be given you...'\n  j5  Luke 11:13  'If ye then, being evil, know how to give good gifts...'\nNone of them had Luke's framing welded on, so none needed splitting.\n\nBLUE ADDED -- THE DISCIPLE WHO ASKED THE QUESTION WAS NEVER HEARD:\n  s1  Luke 11:1  'And it came to pass, that, as he was praying in a certain place,\n      when he ceased, one of his disciples said unto him, Lord, teach us to pray, as\n      John also taught his disciples.' This is Luke narrating plus a disciple\n      speaking -- both `scripture`, light blue, because it is outside the parable and\n      it is not Jesus. The whole video hangs on that request and it was white\n      paraphrase. n1 keeps its id and now retells it.\n\nRED ADDED:\n  jv5  Luke 11:5  'Which of you shall have a friend, and shall go unto him at\n       midnight, and say unto him.' Jesus's own setup line, which the build skipped\n       straight past. It sits on S5 immediately before j1, on the same still.\n  jv11 Luke 11:11-12  'If a son shall ask bread of any of you that is a father, will\n       he give him a stone? or if he ask a fish, will he for a fish give him a\n       serpent? Or if he shall ask an egg, will he offer him a scorpion?' This was\n       entirely paraphrase in n16a -- three of the best questions Jesus ever asked,\n       and none of them were in his own words. n16a and n16b keep their ids and now\n       retell it, including the lookalike explanation.\n\nDeliberately NOT lifted: Luke 11:2b-4, the rest of the Lord's Prayer. j0 stops at\n'Hallowed be thy name' on purpose -- the video is about the first word, Father, and\nrunning the full prayer would hijack the story before it starts.\n\nNO GREEN: the Father is spoken ABOUT here, never quoted, so nothing is green.\nNO WOMEN: Luke 11:1-13 records none speaking. Nothing invented.\n\nWHY-LAW: the neighbour is the contrast, not the picture. Milk: he was never asleep.",
+ "notes": "PARABLE LAW APPLIED. 'Trouble me not: the door is now shut, and my children are with\nme in bed; I cannot rise and give thee' is the sleeping neighbour, and 'Friend, lend\nme three loaves' is the man outside -- both are characters inside Jesus's parable, so\na red-letter KJV inks both red. Neither was turned blue. This is the trap in this\nbuild and it was left alone.\n\nSTAYED RED, all five, and all correct as they stood:\n  j0  Luke 11:2   'When ye pray, say, Our Father which art in heaven...'\n  j1  Luke 11:5-6 'Friend, lend me three loaves...'\n  j2  Luke 11:7   'Trouble me not: the door is now shut...'\n  j3  Luke 11:8   'I say unto you, Though he will not rise and give him...'\n  j4  Luke 11:9   'Ask, and it shall be given you...'\n  j5  Luke 11:13  'If ye then, being evil, know how to give good gifts...'\nNone of them had Luke's framing welded on, so none needed splitting.\n\nBLUE ADDED -- THE DISCIPLE WHO ASKED THE QUESTION WAS NEVER HEARD:\n  s1  Luke 11:1  'And it came to pass, that, as he was praying in a certain place,\n      when he ceased, one of his disciples said unto him, Lord, teach us to pray, as\n      John also taught his disciples.' This is Luke narrating plus a disciple\n      speaking -- both `scripture`, light blue, because it is outside the parable and\n      it is not Jesus. The whole video hangs on that request and it was white\n      paraphrase. n1 keeps its id and now retells it.\n\nRED ADDED:\n  jv5  Luke 11:5  'Which of you shall have a friend, and shall go unto him at\n       midnight, and say unto him.' Jesus's own setup line, which the build skipped\n       straight past. It sits on S5 immediately before j1, on the same still.\n  jv11 Luke 11:11-12  'If a son shall ask bread of any of you that is a father, will\n       he give him a stone? or if he ask a fish, will he for a fish give him a\n       serpent? Or if he shall ask an egg, will he offer him a scorpion?' This was\n       entirely paraphrase in n16a -- three of the best questions Jesus ever asked,\n       and none of them were in his own words. n16a and n16b keep their ids and now\n       retell it, including the lookalike explanation.\n\nDeliberately NOT lifted: Luke 11:2b-4, the rest of the Lord's Prayer. j0 stops at\n'Hallowed be thy name' on purpose -- the video is about the first word, Father, and\nrunning the full prayer would hijack the story before it starts.\n\nNO GREEN: the Father is spoken ABOUT here, never quoted, so nothing is green.\nNO WOMEN: Luke 11:1-13 records none speaking. Nothing invented.\n\nWHY-LAW: the neighbour is the contrast, not the picture. Milk: he was never asleep. 2026-07-21: narrator beats n4/n8/n14b/n16a/n16b/n17/n18 tightened (~275 chars) to clear the 25MB bitrate law; teaching unchanged.",
  "segments": [
   {
    "id": "s1",
@@ -33,7 +33,7 @@
   {
    "id": "n4",
    "speaker": "narrator",
-   "text": "People travelled at night there, because the daytime heat could kill you. So a friend really could turn up at midnight, starving. And you did not send him away. Feeding a guest was a duty, and the shame of failing belonged to the whole village."
+   "text": "People travelled at night there, because the daytime heat could kill you. So a friend really could turn up at midnight, starving — and you did not send him away. Feeding a guest was a duty the whole village shared."
   },
   {
    "id": "n5",
@@ -65,7 +65,7 @@
   {
    "id": "n8",
    "speaker": "narrator",
-   "text": "And look at what is on the other side of that door. A village house was one room. The whole family slept on one platform under one blanket, with a heavy bar across the door. Getting up meant waking every child in the house."
+   "text": "On the other side of that door, a village house was one room. The whole family slept on one platform under one blanket, behind a heavy bar. Getting up meant waking every child in the house."
   },
   {
    "id": "j2",
@@ -112,7 +112,7 @@
   {
    "id": "n14b",
    "speaker": "narrator",
-   "text": "That is the opposite of what he said. The neighbour is not a picture of God. The neighbour is the contrast. If even a worn-out man with a barred door and a house full of sleeping kids will get up for you in the end, what do you think your Father will do, when he was never asleep at all?"
+   "text": "That is the opposite of what he said. The neighbour is not a picture of God — he is the contrast. If even a worn-out man behind a barred door will get up for you in the end, what will your Father do, when he was never asleep at all?"
   },
   {
    "id": "j4",
@@ -134,12 +134,12 @@
   {
    "id": "n16a",
    "speaker": "narrator",
-   "text": "Then he asked them a question. If your son asked you for bread, would you put a rock in his hand? If he asked for a fish, would you hand him a snake? If he asked for an egg, would you give him a scorpion?"
+   "text": "Then he asked them: if your son asked for bread, would you put a rock in his hand? If he asked for a fish, would you hand him a snake? An egg — a scorpion?"
   },
   {
    "id": "n16b",
    "speaker": "narrator",
-   "text": "Every pair is a lookalike. A smooth river stone is the size and shape of a flat loaf. A scorpion curls up pale and round, like an egg. He is describing a father who hands his hungry child a counterfeit. And not one of you, he said, would ever do it."
+   "text": "Every pair is a lookalike — a river stone the size of a flat loaf, a scorpion curled pale and round like an egg. A father handing his hungry child a counterfeit. Not one of you, he said, would ever do it."
   },
   {
    "id": "j5",
@@ -150,12 +150,12 @@
   {
    "id": "n17",
    "speaker": "narrator",
-   "text": "You already know how to be good to your kids. And you are not half as good as he is. That is the whole argument. Not that God has to be worn down, but that he was never asleep in the first place."
+   "text": "You already know how to be good to your kids — and you are not half as good as he is. That is the whole argument: God does not have to be worn down. He was never asleep."
   },
   {
    "id": "n18",
    "speaker": "narrator",
-   "text": "The man in the story was knocking on a door with somebody asleep behind it. You are not. Whatever you quit asking for, because you decided it was too small, or too late, or too much — the light in that house is already on. And the best thing he has to give you was never bread. It is himself."
+   "text": "The man in the story was knocking on a door with somebody asleep behind it. You are not. Whatever you quit asking for — too small, too late, too much — the light in that house is already on. And the best thing he has to give was never bread. It is himself."
   },
   {
    "id": "card",

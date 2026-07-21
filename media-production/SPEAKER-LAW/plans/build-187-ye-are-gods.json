@@ -1,7 +1,7 @@
 {
  "build": "build-187-ye-are-gods",
  "reference": "Psalm 82 (quoted in John 10)",
- "notes": "MOVED OUT OF RED — this is the correction the build needed.\n  j1  RED -> GOD, GREEN.  Psalm 82:6  'I have said, Ye are gods; and all of you\n      are children of the most High.'\nThe video frames this as Jesus reaching into the leaders' own scriptures, and the\nquoted words were painted red as though they were his. They are not. That text is\nPsalm 82:6 — the LORD speaking in Asaph's psalm, long before Christ came in the\nflesh. A red-letter King James Bible leaves Psalm 82 black. Under speaker law\nOld Testament Deity speech is GREEN, never red: it is still Deity, and green\ncarries that without arguing it.\n\nThe line is checked verbatim against Psalm 82:6 and left exactly as the build had\nit. Where the LORD speaks in that psalm it is `god`; where Asaph narrates it\nwould be `scripture`, but no narration from the psalm is quoted in this build, so\ngreen is the only non-white colour here.\n\nNO SPLIT. j1 is one speaker start to finish.\n\nNOT ADDED, deliberately: the John 10:34 frame — 'Is it not written in your law' —\nwould be a red Jesus beat and would put red back on the same still as the green.\nThe build does not need it; n1 already tells the viewer he is quoting their own\nscripture, and n2 lands the argument. Keeping this build free of red is the safer\ncall and matches the instruction that this one is never `jesus`.\n\nNothing lifted beyond that. n2, n3a and n3b already retell the psalm and the\npoint of it in plain English, so the retelling rule is met.\n\nST6 is absent from the build's still vars; no beat uses it, and this plan does\nnot introduce one. The closing card is not a beat and has been left out of BEATS,\nexactly as the original had it.\n\nWHY-LAW: milk, and carefully so. This is a verse people reach for to argue about\nwhat men may become, and the build does not go there. It stays on what actually\nhappened in the courtyard: he answered them out of their own book, and they had\nnothing to say back.",
+ "notes": "MOVED OUT OF RED — this is the correction the build needed.\n  j1  RED -> GOD, GREEN.  Psalm 82:6  'I have said, Ye are gods; and all of you\n      are children of the most High.'\nThe video frames this as Jesus reaching into the leaders' own scriptures, and the\nquoted words were painted red as though they were his. They are not. That text is\nPsalm 82:6 — the LORD speaking in Asaph's psalm, long before Christ came in the\nflesh. A red-letter King James Bible leaves Psalm 82 black. Under speaker law\nOld Testament Deity speech is GREEN, never red: it is still Deity, and green\ncarries that without arguing it.\n\nThe line is checked verbatim against Psalm 82:6 and left exactly as the build had\nit. Where the LORD speaks in that psalm it is `god`; where Asaph narrates it\nwould be `scripture`, but no narration from the psalm is quoted in this build, so\ngreen is the only non-white colour here.\n\nNO SPLIT. j1 is one speaker start to finish.\n\nNOT ADDED, deliberately: the John 10:34 frame — 'Is it not written in your law' —\nwould be a red Jesus beat and would put red back on the same still as the green.\nThe build does not need it; n1 already tells the viewer he is quoting their own\nscripture, and n2 lands the argument. Keeping this build free of red is the safer\ncall and matches the instruction that this one is never `jesus`.\n\nNothing lifted beyond that. n2, n3a and n3b already retell the psalm and the\npoint of it in plain English, so the retelling rule is met.\n\nST6 is absent from the build's still vars; no beat uses it, and this plan does\nnot introduce one. The closing card is not a beat and has been left out of BEATS,\nexactly as the original had it.\n\nWHY-LAW: milk, and carefully so. This is a verse people reach for to argue about\nwhat men may become, and the build does not go there. It stays on what actually\nhappened in the courtyard: he answered them out of their own book, and they had\nnothing to say back. 2026-07-21: added j2 (John 10:36, red) + n2b retelling — cut was 52.7s, under the 60s floor; the addition is Jesus's own answer in the same passage.",
  "segments": [
   {
    "id": "n0",
@@ -23,6 +23,17 @@
    "id": "n2",
    "speaker": "narrator",
    "text": "His point was sharp: if scripture called men gods because God's word came to them, how could they condemn the one the Father set apart?"
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "text": "Say ye of him, whom the Father hath sanctified, and sent into the world, Thou blasphemest; because I said, I am the Son of God?",
+   "verse": "John 10:36"
+  },
+  {
+   "id": "n2b",
+   "speaker": "narrator",
+   "text": "That was his answer. The Father himself set him apart and sent him into the world. Saying I am the Son of God was not blasphemy — it was the plain truth they would not test."
   },
   {
    "id": "n3a",
@@ -62,9 +73,19 @@
    "in"
   ],
   [
-   "n3a",
+   "j2",
+   "ST4",
+   "out"
+  ],
+  [
+   "n2b",
    "ST5",
    "in"
+  ],
+  [
+   "n3a",
+   "ST5",
+   "out"
   ],
   [
    "n3b",

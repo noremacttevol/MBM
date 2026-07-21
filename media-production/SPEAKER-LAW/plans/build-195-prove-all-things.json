@@ -1,7 +1,7 @@
 {
  "build": "build-195-prove-all-things",
  "reference": "1 Thessalonians 5",
- "notes": "1 Thessalonians 5:21-22. Both red beats move to BLUE.\n\n  s1  1 Thessalonians 5:21  'Prove all things; hold fast that which is good.'  RED -> SCRIPTURE\n  s2  1 Thessalonians 5:22  'Abstain from all appearance of evil.'             RED -> SCRIPTURE\n\nFirst Thessalonians is an epistle. Paul is writing, in his own voice, to a young\ncongregation - these are two lines from the rapid-fire string of instructions\nthat closes the letter. A red-letter King James Bible prints no red in First\nThessalonians 5. Both beats were misattributed and both go light blue.\n\nNo splits. Each segment is a single short imperative from a single writer; there\nis nothing mixed to cut.\n\nVerbatim: both are word for word KJV, including the semicolon in verse 21 and\n'appearance' in verse 22. Neither was smoothed or modernised. Note for the\nvalidator's benefit - these two lines carry no thee/thou/hath markers at all,\nbecause Paul happened to write them plainly and the KJV translators had nothing\narchaic to render. They are still exact; a viewer can open to 1 Thessalonians 5\nand find them.\n\nRetelling: already covered. n1 retells 'prove all things' and n2 retells 'hold\nfast that which is good', both immediately after s1. n4 follows s2 and carries\nthe whole pair into modern English. n3 is the setup between them. No new\nnarration was needed.\n\nNothing lifted from paraphrase. n3's 'the shortest fence he ever built' is the\nstoryteller's own line, not a buried quotation, and stays white.\n\nIds and beats unchanged. The card is 'card' and stays out of beats, as the\noriginal had it. Note the original CARD_HOLD here was 8.0 seconds, the longest in\nthis set - worth a look in the dead-air pass, but out of scope for a speaker plan.\n\nWHY-LAW: milk. Faith that checks is not weak faith. Test it, then keep what is\ngood - that is an invitation to think, not a warning to obey.",
+ "notes": "1 Thessalonians 5:21-22. Both red beats move to BLUE.\n\n  s1  1 Thessalonians 5:21  'Prove all things; hold fast that which is good.'  RED -> SCRIPTURE\n  s2  1 Thessalonians 5:22  'Abstain from all appearance of evil.'             RED -> SCRIPTURE\n\nFirst Thessalonians is an epistle. Paul is writing, in his own voice, to a young\ncongregation - these are two lines from the rapid-fire string of instructions\nthat closes the letter. A red-letter King James Bible prints no red in First\nThessalonians 5. Both beats were misattributed and both go light blue.\n\nNo splits. Each segment is a single short imperative from a single writer; there\nis nothing mixed to cut.\n\nVerbatim: both are word for word KJV, including the semicolon in verse 21 and\n'appearance' in verse 22. Neither was smoothed or modernised. Note for the\nvalidator's benefit - these two lines carry no thee/thou/hath markers at all,\nbecause Paul happened to write them plainly and the KJV translators had nothing\narchaic to render. They are still exact; a viewer can open to 1 Thessalonians 5\nand find them.\n\nRetelling: already covered. n1 retells 'prove all things' and n2 retells 'hold\nfast that which is good', both immediately after s1. n4 follows s2 and carries\nthe whole pair into modern English. n3 is the setup between them. No new\nnarration was needed.\n\nNothing lifted from paraphrase. n3's 'the shortest fence he ever built' is the\nstoryteller's own line, not a buried quotation, and stays white.\n\nIds and beats unchanged. The card is 'card' and stays out of beats, as the\noriginal had it. Note the original CARD_HOLD here was 8.0 seconds, the longest in\nthis set - worth a look in the dead-air pass, but out of scope for a speaker plan.\n\nWHY-LAW: milk. Faith that checks is not weak faith. Test it, then keep what is\ngood - that is an invitation to think, not a warning to obey. 2026-07-21: added n1b (same still ST6, 1 Thess 5:20 context) — cut ran 55.0s, under the 60s floor.",
  "segments": [
   {
    "id": "n0",
@@ -18,6 +18,11 @@
    "id": "n1",
    "speaker": "narrator",
    "text": "Test everything, he said. Don't swallow every voice — weigh it, hold it up to the light."
+  },
+  {
+   "id": "n1b",
+   "speaker": "narrator",
+   "text": "And notice what he had just said one breath earlier: despise not prophesyings. The testing was never for shutting God's voice out — it is how you recognize it."
   },
   {
    "id": "n2",
@@ -61,6 +66,11 @@
    "n1",
    "ST6",
    "in"
+  ],
+  [
+   "n1b",
+   "ST6",
+   "out"
   ],
   [
    "n2",

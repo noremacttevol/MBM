@@ -1,3 +1,41 @@
+## 2026-07-21 — CAPTION/VOICE-LAW FULL-LIBRARY VERIFICATION: 179 builds proven, ~140 rebuilt, 5 complaints cleared
+
+Commit: (this commit). Verified EVERY one of the 200 videos against the speaker
+law (only Jesus red / scripture blue / God green / women pink, voice locked to
+color). Found the speaker-law render pass had stalled at 43/199 — ~136 builds
+were still on pre-speaker sources (old Christopher-as-Jesus voice, colors from
+the retired KJV set). Rebuilt them all via SPEAKER-LAW/run_batch.py.
+
+Complaints cleared and shipped with FIXNOTEs: #65 (father's cry was red in
+Jesus's voice -> blue scripture voice; Mark 9:23/25/29 stay red, now Eric),
+#67 (Peter's line at 0:42 was red/Jesus voice -> blue; the Father's "This is my
+beloved Son" -> green; nothing red remains in Mark 9:2-8), #150 (Psalm 23 all
+six verses now verbatim KJV in blue, was white), #171 (Paul's 1 Cor 15 quotes
+now blue — was declared but never painted), #184 (Paul's account blue; only
+"My grace is sufficient" stays red).
+
+Migration defects found & fixed in SPEAKER-LAW/migrate.py: (1) mid-line import
+splice (build-65 ImportError); (2) `name in KJV` pacing/timeline leftovers
+NameError'd (20/27) or rode the boolean compat path painting NEW scripture
+beats white (21/25) or red (35/36/38/39/40) — the timeline field now gets the
+speaker STRING, pacing gets a boolean, and the common `kjv = name in KJV` line
+is left to the structural rule; (3) template-C 2-tuple BEATS spans (73).
+run_batch.py gained a busy-guard (defers any build another session's process
+has cwd inside — three other sessions were rendering concurrently all day).
+
+Four short builds fell under the 60s floor once dead-air was capped and were
+honestly expanded from their own passages (137 +Acts 7 two-beings line, 173
++John 5:28-29, 187 +John 10:36, 191/195 one narrator line each); build-40 was
+bitrate-starved at 403s and its narrator fat trimmed ~275 chars.
+
+Proof: SPEAKER-LAW/segcheck.py (new — exact per-segment color check on each
+segment's own render; verify_colors.py drifts on custom pacing). Final sweep:
+178/179 shipped builds pass. The one failure, build-152 kv7/kv8 white-not-blue,
+is APPROVED so it is locked; it heads SPEAKER-LAW/FIX-LATER.md with the other
+21 approved-but-violating builds. build-17 skipped on standing instruction.
+batch-log.json: 179 shipped / 0 failed. All cuts on the board via ship-fixes
+cron (approved-lock respected throughout).
+
 ## 2026-07-21 — CHARACTER BIBLE SESSION: all 63 reference sheets rendered + on the board (Machine A)
 
 Commit: (this commit). CHARACTER-LAW roster finalized by scanning all 201 build

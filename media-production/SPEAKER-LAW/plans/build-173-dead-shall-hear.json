@@ -1,7 +1,7 @@
 {
  "build": "build-173-dead-shall-hear",
  "reference": "John 5",
- "notes": "STAYED RED: all three, and nothing moved.\n  j1a  John 5:25  'Verily, verily, I say unto you, The hour is coming, and now is,'\n  j1b  John 5:25  'when the dead shall hear the voice of the Son of God:'\n  j1c  John 5:25  'and they that hear shall live.'\nGospel, Jesus in the flesh, red-letter. The build had already broken John 5:25\ninto three beats for pacing — that is one red sentence cut three ways for the\nedit, not three speakers, so all three are red. Checked against the King James\ntext: the three join back into verse 25 word for word with nothing lost at the\nseams.\n\nNO SPLITS NEEDED. There is no evangelist frame anywhere in the quoted material —\n'Verily, verily' is Christ's own opening word, not John introducing him — so the\nred starts at the first syllable of j1a.\n\nNothing lifted from paraphrase. n0 and n1 set the verse up and n2a and n2b retell\nit after, which is the retelling rule already met. j1a, j1b and j1c touch each\nother with no narrator between them; the validator will warn twice about that.\nThe warnings are wrong to act on here — this is one sentence by one speaker, and\nputting the storyteller inside it would break the line in half.\n\nThe closing card is not a beat in this build and has been left out of BEATS,\nexactly as the original had it.\n\nWHY-LAW: milk. The resurrection is offered as a voice you can already hear, not\nas a doctrine to be defended. Short, quiet, and it ends on listening.",
+ "notes": "STAYED RED: all three, and nothing moved.\n  j1a  John 5:25  'Verily, verily, I say unto you, The hour is coming, and now is,'\n  j1b  John 5:25  'when the dead shall hear the voice of the Son of God:'\n  j1c  John 5:25  'and they that hear shall live.'\nGospel, Jesus in the flesh, red-letter. The build had already broken John 5:25\ninto three beats for pacing — that is one red sentence cut three ways for the\nedit, not three speakers, so all three are red. Checked against the King James\ntext: the three join back into verse 25 word for word with nothing lost at the\nseams.\n\nNO SPLITS NEEDED. There is no evangelist frame anywhere in the quoted material —\n'Verily, verily' is Christ's own opening word, not John introducing him — so the\nred starts at the first syllable of j1a.\n\nNothing lifted from paraphrase. n0 and n1 set the verse up and n2a and n2b retell\nit after, which is the retelling rule already met. j1a, j1b and j1c touch each\nother with no narrator between them; the validator will warn twice about that.\nThe warnings are wrong to act on here — this is one sentence by one speaker, and\nputting the storyteller inside it would break the line in half.\n\nThe closing card is not a beat in this build and has been left out of BEATS,\nexactly as the original had it.\n\nWHY-LAW: milk. The resurrection is offered as a voice you can already hear, not\nas a doctrine to be defended. Short, quiet, and it ends on listening. 2026-07-21: added j2 (John 5:28-29, red) + n2c retelling on still S6 — the cut was 48.8s, under the 60s floor (RULE-CONFLICTS case); the addition is the passage's own next verse.",
  "segments": [
   {
    "id": "n0",
@@ -35,6 +35,17 @@
    "id": "n2a",
    "speaker": "narrator",
    "text": "The One who made life is the One who calls it back."
+  },
+  {
+   "id": "j2",
+   "speaker": "jesus",
+   "text": "Marvel not at this: for the hour is coming, in the which all that are in the graves shall hear his voice, and shall come forth.",
+   "verse": "John 5:28-29"
+  },
+  {
+   "id": "n2c",
+   "speaker": "narrator",
+   "text": "Not some of the dead. All of them. He said every grave will hear that same voice — and open. Nobody is too far gone, and nobody gets left in the ground."
   },
   {
    "id": "n2b",
@@ -77,6 +88,16 @@
    "n2a",
    "S6",
    "in"
+  ],
+  [
+   "j2",
+   "S6",
+   "in"
+  ],
+  [
+   "n2c",
+   "S6",
+   "out"
   ],
   [
    "n2b",
