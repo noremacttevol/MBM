@@ -102,14 +102,14 @@ recurs in a new story, rule 4 kicks in: sheet first.
 | Abraham | ✅ | ✅ | ⬜ |
 | Sarah | ✅ | ✅ | ⬜ |
 | Isaac | ✅ | ✅ | ⬜ |
-| Jacob | ✅ | ⬜ | ⬜ |
-| Joseph (of Egypt) | ✅ | ⬜ | ⬜ |
+| Jacob | ✅ | ✅ | ⬜ |
+| Joseph (of Egypt) | ✅ | ✅ | ⬜ |
 | Moses | ✅ | ✅ | ⬜ |
-| Aaron | ✅ | ⬜ | ⬜ |
-| Joshua | ✅ | ⬜ | ⬜ |
+| Aaron | ✅ | ✅ | ⬜ |
+| Joshua | ✅ | ✅ | ⬜ |
 | Elijah | ✅ | ✅ | ⬜ |
-| Eli | ✅ | ⬜ | ⬜ |
-| Samuel | ✅ | ⬜ | ⬜ |
+| Eli | ✅ | ✅ | ⬜ |
+| Samuel | ✅ | ✅ | ⬜ |
 | Hannah | ✅ | ⬜ | ⬜ |
 | David | ✅ | ⬜ | ⬜ |
 | Ruth | ✅ | ⬜ | ⬜ |

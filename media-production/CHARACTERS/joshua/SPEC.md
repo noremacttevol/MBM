@@ -60,7 +60,7 @@ background. One single continuous scene painted edge to edge, no panels.
 ### full-body (attach face-front.jpeg as --ref)
 [STYLE BLOCK] The SAME man as the attached reference image — identical face,
 hair and beard: a full-length standing figure, head to feet fully in frame:
-Joshua the son of Nun standing at a soldier's easy attention, a plain wooden
+Joshua, with the SAME jet-black hair and black beard as the attached reference, a strong vigorous man of about forty, the son of Nun standing at a soldier's easy attention, a plain wooden
 staff in one hand, in a dark olive knee-length tunic with a plain leather
 belt, the rust-brown mantle over one shoulder, sturdy leather sandals
 strapped to the ankle — a disciplined aide, no armor, no weapons. Plain

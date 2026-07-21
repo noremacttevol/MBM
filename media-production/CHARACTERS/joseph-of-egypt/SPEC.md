@@ -63,7 +63,7 @@ portrait of Joseph the vizier of Egypt, about forty, clean-shaven, straight
 black hair in the plain Egyptian court manner, fine white pleated linen,
 broad gold-and-lapis collar and gold chain, turned three-quarters toward
 warm light, wise and composed. No halo, no glow. Plain muted earth-tone
-background. One single continuous scene painted edge to edge, no panels.
+background. The artwork bleeds to all four edges with NO border, NO frame, NO margin. One single continuous scene painted edge to edge, no panels.
 
 ### full-body (attach face-front.jpeg as --ref)
 [STYLE BLOCK] The SAME man as the attached reference image — identical

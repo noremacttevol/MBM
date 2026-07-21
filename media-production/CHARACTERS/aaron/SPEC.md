@@ -65,7 +65,7 @@ continuous scene painted edge to edge, no panels.
 beard and turban: a reverent three-quarter bust portrait of Aaron the high
 priest, about eighty-three, warm olive-brown skin, grey-streaked dark beard,
 in the blue robe, jewelled ephod, twelve-stone breastplate and white linen
-turban with its gold plate, turned three-quarters toward warm lamplight,
+turban with its smooth blank gold plate with NO letters, NO writing, NO engraving marks, turned three-quarters toward warm lamplight,
 grave and gentle. No halo, no glow. Plain muted earth-tone background. One
 single continuous scene painted edge to edge, no panels.
 

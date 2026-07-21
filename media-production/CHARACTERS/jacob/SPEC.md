@@ -59,7 +59,7 @@ painted edge to edge, no panels.
 
 ### full-body (attach face-front.jpeg as --ref)
 [STYLE BLOCK] The SAME man as the attached reference image — identical face,
-hair and beard: a full-length standing figure, head to feet fully in frame:
+hair and beard: with the SAME near-black dark hair and short dark beard as the reference (never light brown, never reddish), a full-length standing figure, head to feet fully in frame:
 Jacob the traveller, a young Hebrew man of about forty, standing with a
 wooden staff in one hand and a small travel bundle at his shoulder, in his
 dusty russet-brown ankle-length travelling robe with a worn leather girdle,
