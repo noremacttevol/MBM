@@ -43,6 +43,34 @@ def _find_font(name):
 JOST = _find_font("Jost-Bold.ttf")
 JESUS_RED = "0xEE3322"
 WHITE = "white"
+
+# Speaker system (SPEAKER-LAW.md). Imported lazily-tolerantly so a build folder
+# that has not yet had mbm_speakers.py copied in still renders in the old
+# two-colour world instead of crashing mid-run.
+try:
+    from mbm_speakers import color_of as _color_of, is_scripture as _is_scripture
+except ImportError:                                    # pragma: no cover
+    _SPEAKER_COLOR = {"narrator": WHITE, "jesus": JESUS_RED, "god": "0x5BE38B",
+                      "scripture": "0x8FDCFF", "woman": "0xFF9EC7"}
+
+    def _color_of(sp):
+        return _SPEAKER_COLOR[sp]
+
+    def _is_scripture(sp):
+        return sp != "narrator"
+
+
+def _resolve(speaker):
+    """Accept a speaker string OR the legacy `kjv` boolean.
+
+    The 200 builds are migrated one at a time; until a build is converted it
+    still passes True/False here. True meant 'Jesus red', False meant narrator.
+    """
+    if isinstance(speaker, bool):
+        return "jesus" if speaker else "narrator"
+    if speaker is None:
+        return "narrator"
+    return speaker
 BAND_ALPHA = 0.5          # medium-dark, picture shows through
 SIDE_MARGIN = 56          # respectful gap from phone edges
 USABLE = W - 2 * SIDE_MARGIN
@@ -60,10 +88,27 @@ def _sentences(text):
     return [p for p in re.split(r"(?<=[.!?;:]) +", text.strip()) if p]
 
 
+# Reverse map voice-ID -> speaker key, so the pronunciation dict is ALWAYS
+# applied at the bottom of the funnel — safety net for any script that calls
+# save_narration directly with raw text (129 builds did exactly that until
+# 2026-07-20 and never got a single pronunciation fix). spoken_text is
+# idempotent — respelled output contains no dict keys — so builds that already
+# applied it upstream are unaffected by the second pass.
+_SPEAKER_OF_VOICE = {
+    "en-US-AndrewNeural": "narrator",
+    "en-US-EricNeural": "jesus",
+    "en-US-ChristopherNeural": "god",
+    "en-US-SteffanNeural": "scripture",
+    "en-US-MichelleNeural": "woman",
+}
+
+
 async def save_narration(tts_text, voice, rate, pitch, out_mp3):
     """Generate mp3 AND a <name>.timing.json sidecar of REAL per-sentence
     spoken timestamps (segment-local seconds)."""
     import edge_tts
+    from mbm_pronounce import spoken_text
+    tts_text = spoken_text(tts_text, None, _SPEAKER_OF_VOICE.get(voice))
     tts = edge_tts.Communicate(tts_text, voice, rate=rate, pitch=pitch)
     sents, audio = [], bytearray()
     async for ch in tts.stream():
@@ -79,6 +124,19 @@ async def save_narration(tts_text, voice, rate, pitch, out_mp3):
     with open(os.path.splitext(out_mp3)[0] + ".timing.json", "w") as f:
         json.dump(sents, f)
     return sents
+
+
+async def save_speaker_narration(tts_text, speaker, out_mp3, rate=None, pitch=None):
+    """save_narration, but the voice comes from WHO IS SPEAKING (SPEAKER-LAW.md).
+
+    A build never names a voice again — it names a speaker, and the voice and the
+    caption colour are both derived from that one declaration, so they cannot drift
+    apart. Per-segment rate/pitch overrides are still allowed for the rare beat
+    that needs them.
+    """
+    from mbm_speakers import voice_of
+    voice, r, p = voice_of(speaker, rate, pitch)
+    return await save_narration(tts_text, voice, r, p, out_mp3)
 
 
 def _load_timing(mp3_path):
@@ -197,9 +255,9 @@ def _wrap_pixels(text, fs):
     return lines
 
 
-def _layout(text, kjv):
+def _layout(text, scripture):
     """Largest font size fitting text in fewest lines (<=MAX_LINES)."""
-    hi = KJV_MAX_FS if kjv else MAX_FS
+    hi = KJV_MAX_FS if scripture else MAX_FS
     for fs in range(hi, MIN_FS - 1, -2):
         lines = _wrap_pixels(text, fs)
         if len(lines) <= MAX_LINES:
@@ -207,22 +265,28 @@ def _layout(text, kjv):
     return MIN_FS, _wrap_pixels(text, MIN_FS)[:MAX_LINES]
 
 
-def caption_filter(seg_id, dur, spoken_end, text, kjv):
+def caption_filter(seg_id, dur, spoken_end, text, speaker):
     """Return a filter-string (leading comma) drawing an adaptively-sized dark
     band + centered Jost-Bold text DIRECTLY on the still, each chunk time-gated
     to its REAL spoken window via enable=. Appended straight to the base chain.
-    Jesus=red, narration=white. Band sized to fit (thin for short, taller for
-    2-3 lines). Drawing on the opaque still is what makes the band actually show
-    (drawbox on a transparent overlay layer leaves alpha=0 and stays invisible)."""
+
+    `speaker` decides the colour (SPEAKER-LAW.md): narrator white, Jesus red,
+    God green, scripture light blue, women pink. The legacy `kjv` boolean is
+    still accepted while the 200 builds migrate. Band sized to fit (thin for
+    short, taller for 2-3 lines). Drawing on the opaque still is what makes the
+    band actually show (drawbox on a transparent overlay layer leaves alpha=0
+    and stays invisible)."""
     S = "segs"
-    color = JESUS_RED if kjv else WHITE
+    speaker = _resolve(speaker)
+    color = _color_of(speaker)
+    scripture = _is_scripture(speaker)
     chunks = chunk_caption(text, 42, 2)
     spoken_len = max(0.0, spoken_end - 0.28)
     windows = timed_windows(f"audio/{seg_id}.mp3", chunks, spoken_len, 0.28)
 
     parts = []
     for i, c in enumerate(chunks):
-        fs, lines = _layout(c, kjv)
+        fs, lines = _layout(c, scripture)
         f = ImageFont.truetype(JOST, fs)
         asc, desc = f.getmetrics()
         line_h = asc + desc
@@ -252,7 +316,7 @@ def caption_filter(seg_id, dur, spoken_end, text, kjv):
 
 # Back-compat shim: older build_still expected (filters, labels) + overlay. New
 # builds call caption_filter directly. Kept so a half-migrated tree still parses.
-def caption_layers(seg_id, dur, spoken_end, text, kjv):
+def caption_layers(seg_id, dur, spoken_end, text, speaker):
     raise RuntimeError(
         "caption_layers is retired — use caption_filter() drawn on the base "
         "still. Re-run apply_caption_law.py to migrate this build.")
