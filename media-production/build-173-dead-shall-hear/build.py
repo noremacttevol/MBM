@@ -25,6 +25,7 @@ import textwrap
 
 import make_narration
 from mbm_caption_timing import caption_filter
+from mbm_speakers import is_scripture
 
 A = "assets"
 S = "segs"
@@ -48,7 +49,13 @@ S5 = "s5-the-calling-hand.jpeg"
 S6 = "s6-hope-dawning.jpeg"
 S7 = "s7-the-promise-of-life.jpeg"
 
-TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
+TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
+# SPEAKER-LAW: declared once in make_narration, so the caption colour
+# and the narration voice can never drift apart.
+SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
+# SPEAKER-LAW: declared once in make_narration, so the caption colour
+# and the narration voice can never drift apart.
+SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 KJV = {"j1a", "j1b", "j1c"}   # cream-italic verse (John 5:25)
 FLOW = {"j1a", "j1b"}         # verse-internal joins: tight flow gap
 SACRED = {"n1", "j1c"}        # sacred pause before the verse + hold at verse end
@@ -56,20 +63,25 @@ CARD_TEXT = ("He speaks, and death loses its grip. Lean in and listen — "
              "and live.")
 
 BEATS = [
-    ("n0", S1, "in"),      # Jesus teaching the crowd
-    ("n1", S3, "in"),      # the dead would hear His voice (faces turning) [sacred pause after]
-    ("j1a", S2, "in"),     # KJV: Verily, verily... the hour is coming (His face)
-    ("j1b", S4, "in"),     # KJV: when the dead shall hear... (grave, light summoned)
-    ("j1c", S5, "in"),     # KJV: and they that hear shall live (the calling hand)
-    ("n2a", S6, "in"),     # the One who made life calls it back (hope dawning)
-    ("n2b", S7, "out"),    # to hear him is to live (the promise of life)
+    ("n0", S1, "in"),
+    ("n1", S3, "in"),
+    ("j1a", S2, "in"),
+    ("j1b", S4, "in"),
+    ("j1c", S5, "in"),
+    ("n2a", S6, "in"),
+    ("j2", S6, "in"),
+    ("n2c", S6, "out"),
+    ("n2b", S7, "out"),
 ]
 
 LEAD = 0.40
 GAP = 1.65        # narration holds (measured silence stays ~2.3s, under the 2.5s law)
 FLOW_GAP = 0.55   # verse-internal joins (j1a->j1b->j1c flow as one utterance)
 SACRED_GAP = 1.65  # pre-verse pause (after n1) and verse-end hold (after j1c)
-CARD_HOLD = 2.0   # no-dead-air law (Cameron, complaint #86): end ~2s after the last spoken word. Never pad to a length floor with trailing silence.
+# No-dead-air law: the video ends TAIL seconds after the last spoken
+# word. Derived, never hand-set. Clears the card's 0.8s fade-out so
+# the last word and the fade are never clipped.
+TAIL = 1.5
 
 
 def run(cmd):
@@ -124,38 +136,7 @@ def chunk_caption(text, width, max_lines):
     return out
 
 
-def caption_layers(seg_id, dur, spoken_end, text, kjv):
-    if kjv:
-        font, size, color, width, maxl = SERIF_BI, 46, "0xFFF3DC", 38, 3
-    else:
-        font, size, color, width, maxl = SERIF, 34, "white", 48, 2
-    chunks = chunk_caption(text, width, maxl)
-    total = sum(len(c) for c in chunks) or 1
-    t0, t1 = 0.15, max(0.6, min(dur - 0.2, spoken_end + 0.35))
-    filters, labels = [], []
-    acc = 0
-    for i, c in enumerate(chunks):
-        cs = t0 + (t1 - t0) * acc / total
-        acc += len(c)
-        ce = t0 + (t1 - t0) * acc / total
-        tf = f"{S}/{seg_id}_{i}.txt"
-        with open(tf, "w") as f:
-            f.write("\n".join(textwrap.wrap(c, width)))
-        fo = max(cs, ce - 0.35)
-        filters.append(
-            f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
-            f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
-            f"fontcolor={color}:line_spacing=13:x=(w-text_w)/2:"
-            f"y=h-120-text_h:"
-            f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
-            f"box=1:boxcolor=black@{BOX_ALPHA}:boxborderw=22,"
-            f"fade=t=in:st={cs:.2f}:d=0.35:alpha=1,"
-            f"fade=t=out:st={fo:.2f}:d=0.35:alpha=1[cap{seg_id}{i}]")
-        labels.append(f"[cap{seg_id}{i}]")
-    return filters, labels
-
-
-def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, kjv, first):
+def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, speaker, first):
     frames = int(dur * FPS)
     if zdir == "in":
         z = f"1.001+0.09*on/{frames}"
@@ -165,7 +146,7 @@ def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, kjv, first):
             f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"d={frames}:s=2160x3840:fps={FPS},"
             f"scale=1080:1920:flags=lanczos")
-    cap = caption_filter(seg_id, dur, spoken_end, cap_text, kjv)
+    cap = caption_filter(seg_id, dur, spoken_end, cap_text, speaker)
     tail = ",fade=t=in:st=0:d=1.0" if first else ""
     fc = f"{base}{cap}{tail}[v]"
     run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
@@ -195,7 +176,7 @@ def main():
     audio_place = []
     j1_start = j2_start = None
     for name, still, zdir in BEATS:
-        kjv = name in KJV
+        speaker = SPEAKER[name]
         if name in FLOW:
             gap = FLOW_GAP
         elif name in SACRED:
@@ -209,15 +190,15 @@ def main():
             j1_start = a_start
         elif name == "j1c":
             j2_start = a_start
-        timeline.append((name, still, zdir, vdur, a_start, kjv))
+        timeline.append((name, still, zdir, vdur, a_start, speaker))
         t += vdur
-    card_vdur = LEAD + card_dur + CARD_HOLD
+    card_vdur = LEAD + card_dur + TAIL
     card_start = t
     audio_place.append(("audio/card.mp3", card_start + LEAD))
     total = t + card_vdur
 
     worst, worst_at, prev_end = 0.0, None, None
-    for name, _s, _z, _v, a_start, _k in timeline:
+    for name, _s, _z, _v, a_start, _sp in timeline:
         if prev_end is not None and a_start - prev_end > worst:
             worst, worst_at = a_start - prev_end, name
         prev_end = a_start + spoken[name]
@@ -227,9 +208,9 @@ def main():
     if worst > 2.5:
         raise SystemExit(f"DEAD AIR: {worst:.2f}s before {worst_at}")
 
-    for i, (seg_id, still, zdir, vdur, _a, kjv) in enumerate(timeline):
+    for i, (seg_id, still, zdir, vdur, _a, speaker) in enumerate(timeline):
         build_still(seg_id, still, vdur, zdir, LEAD + spoken[seg_id],
-                    TEXT[seg_id], kjv, first=(i == 0))
+                    TEXT[seg_id], speaker, first=(i == 0))
     build_card(card_vdur, CARD_TEXT)
 
     with open(f"{S}/concat.txt", "w") as f:

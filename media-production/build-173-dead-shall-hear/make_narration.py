@@ -1,69 +1,75 @@
 #!/usr/bin/env python3
-"""Generate narration audio for Story Video #173 — "The dead shall hear the
-voice of the Son of God" (John 5:25). From DRAFTS/row-173.md.
-Jesus FACE-SHOWN (master-locked). Narrator: modern, warm, low, unhurried
-(American). Jesus voice: AMERICAN, never British. Jesus speaks ONLY exact KJV
-(John 5:25, verified against the passage).
-HOMOGRAPH LAW: "live" (the #1 TTS offender, verb) appears in the KJV verse
-("they that hear shall live") and n2 ("To hear him is to live") — both
-SPOKEN-respelled /LIV/; the captions keep the true spelling. Ear-check.
+"""Narration for build-173-dead-shall-hear — John 5.
 
-SEGMENTATION (ASSEMBLY-C, 2026-07-17): the KJV verse is delivered in three
-flowing pieces so it can span the three stills the storyboard built for it
-(s2 verily-verily, s4 light-summoned, s5 calling-hand) — split at its natural
-comma/colon breaks, played as one continuous utterance (small gaps between
-the pieces, the sacred pause coming BEFORE the verse, after n1). n2 is split
-so the last two stills each carry a beat (CAPTION LAW). Words unchanged from
-the pack; captions keep the exact KJV. Beat order: n0 s1, n1 s3, j1a s2,
-j1b s4, j1c s5, n2a s6, n2b s7.
+SPEAKER-LAW rebuild (see media-production/SPEAKER-LAW.md). Who is speaking is
+declared once here and decides BOTH the voice and the caption colour.
+
+STAYED RED: all three, and nothing moved.
+  j1a  John 5:25  'Verily, verily, I say unto you, The hour is coming, and now is,'
+  j1b  John 5:25  'when the dead shall hear the voice of the Son of God:'
+  j1c  John 5:25  'and they that hear shall live.'
+Gospel, Jesus in the flesh, red-letter. The build had already broken John 5:25
+into three beats for pacing — that is one red sentence cut three ways for the
+edit, not three speakers, so all three are red. Checked against the King James
+text: the three join back into verse 25 word for word with nothing lost at the
+seams.
+
+NO SPLITS NEEDED. There is no evangelist frame anywhere in the quoted material —
+'Verily, verily' is Christ's own opening word, not John introducing him — so the
+red starts at the first syllable of j1a.
+
+Nothing lifted from paraphrase. n0 and n1 set the verse up and n2a and n2b retell
+it after, which is the retelling rule already met. j1a, j1b and j1c touch each
+other with no narrator between them; the validator will warn twice about that.
+The warnings are wrong to act on here — this is one sentence by one speaker, and
+putting the storyteller inside it would break the line in half.
+
+The closing card is not a beat in this build and has been left out of BEATS,
+exactly as the original had it.
+
+WHY-LAW: milk. The resurrection is offered as a voice you can already hear, not
+as a doctrine to be defended. Short, quiet, and it ends on listening. 2026-07-21: added j2 (John 5:28-29, red) + n2c retelling on still S6 — the cut was 48.8s, under the 60s floor (RULE-CONFLICTS case); the addition is the passage's own next verse.
 """
 import asyncio
-import edge_tts
-from mbm_caption_timing import save_narration
+import os
 
-NARRATOR = "en-US-AndrewNeural"     # plain American — never a Multilingual model
-JESUS = "en-US-ChristopherNeural"   # American. Never a British voice.
+from mbm_caption_timing import save_speaker_narration
+from mbm_pronounce import audit, spoken_text
+from mbm_speakers import JESUS, NARRATOR
 
+# (id, speaker, caption_text). The caption always shows this exact text; only the
+# string handed to the TTS is respelled.
 SEGMENTS = [
-    # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
-     "Jesus said a time was coming — and had already begun — when "
-     "something impossible would happen."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "The dead would hear a voice. Not a rumor of a voice. His "
-     "voice."),
-    # sacred-silence beat follows n1. Exact KJV John 5:25, in three flowing
-    # pieces (one continuous utterance across s2/s4/s5).
-    ("j1a", JESUS, "-24%", "-2Hz",
-     "Verily, verily, I say unto you, The hour is coming, and now "
-     "is,"),
-    ("j1b", JESUS, "-24%", "-2Hz",
-     "when the dead shall hear the voice of the Son of God:"),
-    ("j1c", JESUS, "-24%", "-2Hz",
-     "and they that hear shall live."),
-    ("n2a", NARRATOR, "-20%", "-4Hz",
-     "The One who made life is the One who calls it back."),
-    ("n2b", NARRATOR, "-20%", "-4Hz",
-     "To hear him is to live."),
-    ("card", NARRATOR, "-22%", "-5Hz",
-     "He speaks, and death loses its grip. Lean in and listen — "
-     "and live."),
+    ("n0", NARRATOR, "Jesus said a time was coming — and had already begun — when something impossible would happen."),
+    ("n1", NARRATOR, "The dead would hear a voice. Not a rumor of a voice. His voice."),
+    # John 5:25
+    ("j1a", JESUS, "Verily, verily, I say unto you, The hour is coming, and now is,"),
+    # John 5:25
+    ("j1b", JESUS, "when the dead shall hear the voice of the Son of God:"),
+    # John 5:25
+    ("j1c", JESUS, "and they that hear shall live."),
+    ("n2a", NARRATOR, "The One who made life is the One who calls it back."),
+    # John 5:28-29
+    ("j2", JESUS, "Marvel not at this: for the hour is coming, in the which all that are in the graves shall hear his voice, and shall come forth."),
+    ("n2c", NARRATOR, "Not some of the dead. All of them. He said every grave will hear that same voice — and open. Nobody is too far gone, and nobody gets left in the ground."),
+    ("n2b", NARRATOR, "To hear him is to live."),
+    ("card", NARRATOR, "He speaks, and death loses its grip. Lean in and listen — and live."),
 ]
 
-# HOMOGRAPH LAW — "live" respelled /LIV/ in the audio; captions keep "live".
-SPOKEN = {
-    "j1c": "and they that hear shall liv.",
-    "n2b": "To hear him is to liv.",
-    "card": ("He speaks, and death loses its grip. Lean in and listen — "
-             "and liv."),
-}
+# Homographs this build decides for itself (never auto-replaced globally).
+SPOKEN = {}
 
 
 async def main():
-    for name, voice, rate, pitch, text in SEGMENTS:
-        tts_text = SPOKEN.get(name, text)
-        await save_narration(tts_text, voice, rate, pitch, f"audio/{name}.mp3")
-        print(f"saved audio/{name}.mp3")
+    os.makedirs("audio", exist_ok=True)
+    for name, speaker, text in SEGMENTS:
+        flagged = [w for w in audit(text) if w not in SPOKEN]
+        if flagged:
+            print(f"  ! {name}: undecided homograph(s) {flagged}")
+        await save_speaker_narration(spoken_text(text, SPOKEN), speaker,
+                                     f"audio/{name}.mp3")
+        print(f"saved audio/{name}.mp3  [{speaker}]")
+
 
 if __name__ == "__main__":
     asyncio.run(main())
