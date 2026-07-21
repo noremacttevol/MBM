@@ -10,8 +10,9 @@ Jesus APPEARS in the vision but does not speak in this passage — no Jesus
 line is fabricated.
 Closing card carries the Gospel Library pointer:
 "Learn more — Gospel Library: Godhead" (THE-200 → GL).
-CONTENT-CARE (deep): no stones or injuries in focus, reverent distance; the
-Father is never depicted — glory-light only.
+CONTENT-CARE (deep): no stones or injuries in focus, reverent distance.
+REGEN 2026-07-21: the Father IS depicted — embodied per GOD-THE-FATHER-LOCK.md,
+two distinct personages in the vision (narration already says so: n2/s1).
 HOMOGRAPH LAW: ear-checked — no bow/wound/wind/tears/lead/sow/live/read/dove/
 bass/minute/use(d)/close in any segment. No SPOKEN overrides needed.
 """
