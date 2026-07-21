@@ -1,69 +1,75 @@
 #!/usr/bin/env python3
-"""Generate narration audio for MEMBER Verse Video #194 — The Fruit of the
-Spirit (Galatians 5:22-23). From DRAFTS/row-194.md, validated against the laws.
-MEMBER-FORMAT FIX: the draft had no spoken KJV — Galatians 5:22-23 added
-verbatim as the SCRIPTURE VOICE centerpiece (Christopher, cream italic
-caption, sacred silence). The narrator never quotes KJV (n4's near-echo of
-v23 softened to plain words).
-Closing card carries the Gospel Library pointer:
-"Learn more — Gospel Library: Holy Ghost" (THE-200 → GL).
-Jesus does not appear (Paul's epistle); the Spirit hinted as soft light only.
-HOMOGRAPH LAW: "lives" in n0 ("when God's Spirit LIVES in a person") — the #1
-TTS offender, verb, must read /LIVZ/. SPOKEN respelling applied; the caption
-keeps the true spelling. Ear-check n0 anyway. No other flagged words (card
-checked).
+"""Narration for build-194-fruit-of-the-spirit — Galatians 5.
+
+SPEAKER-LAW rebuild (see media-production/SPEAKER-LAW.md). Who is speaking is
+declared once here and decides BOTH the voice and the caption colour.
+
+Galatians 5:22-23. The one red beat moves to BLUE.
+
+  s1  Galatians 5:22-23  'But the fruit of the Spirit is love, joy...'  RED -> SCRIPTURE
+
+Galatians is an epistle. This is Paul writing to the churches of Galatia, not
+Jesus speaking, and a red-letter King James Bible prints no red anywhere in
+Galatians 5. The beat was simply misattributed. Light blue is correct - Paul is
+one of the men with the pen, the shared `scripture` voice.
+
+No split. The segment is one continuous sentence from one writer; there is no
+seam in it.
+
+Verbatim: s1 is Galatians 5:22-23 word for word, and the capital M on 'Meekness'
+is not a typo - it is where the KJV starts verse 23, and the caption keeps the
+true spelling. Nothing was smoothed and no word was reordered.
+
+Retelling: already covered and unusually well. n1a, n1b, n2 and n3 walk the nine
+fruits back through in plain modern English in the same order Paul lists them,
+and n4 lands 'against such there is no law'. Four beats of retelling for one
+quoted verse - no new narration was needed or added.
+
+Nothing lifted from paraphrase. n0 is the storyteller introducing Paul in modern
+English and is correctly narrator; it is not a buried quotation. The rest of the
+narration is retelling, not paraphrase of some other verse.
+
+Ids and beats unchanged. The card is 'card' and stays out of beats, as the
+original had it.
+
+WHY-LAW: milk. Character is fruit, not effort. The video does not argue law
+versus grace - it just names the nine things and says no law forbids them.
 """
 import asyncio
-import edge_tts
-from mbm_caption_timing import save_narration
+import os
 
-NARRATOR = "en-US-AndrewNeural"      # plain American — never a Multilingual model
-SCRIPTURE = "en-US-ChristopherNeural"  # the scripture voice. Exact KJV only.
+from mbm_caption_timing import save_speaker_narration
+from mbm_pronounce import audit, spoken_text
+from mbm_speakers import NARRATOR, SCRIPTURE
 
+# (id, speaker, caption_text). The caption always shows this exact text; only the
+# string handed to the TTS is respelled.
 SEGMENTS = [
-    # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
-     "Paul wrote that when God's Spirit lives in a person, a "
-     "harvest grows — not crops, but character."),
-    # Exact KJV Gal 5:22-23 — THE CENTERPIECE, scripture voice.
-    ("s1", NARRATOR, "-20%", "-4Hz",
-     "But the fruit of the Spirit is love, joy, peace, "
-     "longsuffering, gentleness, goodness, faith, Meekness, "
-     "temperance: against such there is no law."),
-    # n1 split so "joy" and "peace" land on their own fruit stills (s3 joy,
-    # s4 peace) per the CAPTION LAW.
-    ("n1a", NARRATOR, "-20%", "-4Hz",
-     "First, love. Then joy."),
-    ("n1b", NARRATOR, "-20%", "-4Hz",
-     "Then peace — the kind that doesn't depend on circumstances."),
-    # sacred-silence beat follows n1.
-    ("n2", NARRATOR, "-20%", "-4Hz",
-     "Longsuffering next — patience that doesn't quit. Then "
-     "gentleness, and goodness, and faith that holds."),
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "Meekness, and temperance — self-control that masters the "
-     "storms inside."),
-    ("n4", NARRATOR, "-20%", "-4Hz",
-     "And no law anywhere forbids any of it. These are the things "
-     "that can't be overdone."),
-    ("card", NARRATOR, "-22%", "-5Hz",
-     "This fruit isn't grown by strain. Ask the Spirit — and let "
-     "it ripen in you."),
+    ("n0", NARRATOR, "Paul wrote that when God's Spirit lives in a person, a harvest grows — not crops, but character."),
+    # Galatians 5:22-23
+    ("s1", SCRIPTURE, "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance: against such there is no law."),
+    ("n1a", NARRATOR, "First, love. Then joy."),
+    ("n1b", NARRATOR, "Then peace — the kind that doesn't depend on circumstances."),
+    ("n2", NARRATOR, "Longsuffering next — patience that doesn't quit. Then gentleness, and goodness, and faith that holds."),
+    ("n3", NARRATOR, "Meekness, and temperance — self-control that masters the storms inside."),
+    ("n4", NARRATOR, "And no law anywhere forbids any of it. These are the things that can't be overdone."),
+    ("card", NARRATOR, "This fruit isn't grown by strain. Ask the Spirit — and let it ripen in you."),
 ]
 
-# HOMOGRAPH LAW — n0's "lives" must read /LIVZ/. SPOKEN respelling steers the
-# audio; the caption keeps the true spelling. Ear-check before assembly.
-SPOKEN = {
-    "n0": ("Paul wrote that when God's Spirit livs in a person, a "
-           "harvest grows — not crops, but character."),
-}
+# Homographs this build decides for itself (never auto-replaced globally).
+SPOKEN = {}
 
 
 async def main():
-    for name, voice, rate, pitch, text in SEGMENTS:
-        tts_text = SPOKEN.get(name, text)
-        await save_narration(tts_text, voice, rate, pitch, f"audio/{name}.mp3")
-        print(f"saved audio/{name}.mp3")
+    os.makedirs("audio", exist_ok=True)
+    for name, speaker, text in SEGMENTS:
+        flagged = [w for w in audit(text) if w not in SPOKEN]
+        if flagged:
+            print(f"  ! {name}: undecided homograph(s) {flagged}")
+        await save_speaker_narration(spoken_text(text, SPOKEN), speaker,
+                                     f"audio/{name}.mp3")
+        print(f"saved audio/{name}.mp3  [{speaker}]")
+
 
 if __name__ == "__main__":
     asyncio.run(main())

@@ -54,6 +54,9 @@ TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
 # SPEAKER-LAW: declared once in make_narration, so the caption colour
 # and the narration voice can never drift apart.
 SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
+# SPEAKER-LAW: declared once in make_narration, so the caption colour
+# and the narration voice can never drift apart.
+SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 # Cameron 2026-07-18: "only Jesus's words in red." These verses are
 # Paul (Gal 5:22-23) speaking/writing — NOT Jesus — so they get the narrator voice and a
 # WHITE caption. RED drives caption COLOUR ONLY; KJV is left alone so every
