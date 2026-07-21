@@ -31,6 +31,9 @@ Worklist JSON: scratchpad roster-scan (102 workable rows).
 | 44 fix status | s3+s6 regenerated (dry cheeks), zoom-QC'd, installed, rebuilt |
 | 63-man-born-blind | CLEAN | 10/10 pass; man consistent blind→believing; s5 slightly more painterly than the set (watch for style drift if regenerating) |
 | 41-counting-the-cost | CLEAN | 16/16 pass; s6-vs-s7 builder difference is BY DESIGN (BUILDER LOCK vs SECOND BUILDER LOCK in PROMPTS.md) |
+| 124-love-your-enemies | CLEAN | 10/10 pass; both neighbours consistent s2/s4/s5/s9/s10; Jesus per ref in s1/s3/s7 |
+| 20-samaritan | 2 FIXED | s4: victim gained a maroon robe + black hair though he was STRIPPED (lock: torn undertunic, dark brown hair); Samaritan's cloak was rainbow-striped vs locked ochre/rust. s5: painted parchment border + watercolour style break. Both regenerated, rebuilt, verified |
+| 21-lost-sheep | 4 FIXED | s2 was a STACKED TWO-PANEL image with a white divider (anti-panel violation). Shepherd drift: s2–s5 painted him grey-bearded ~55 while the build's own lock says dark hair/short dark beard (s6/s7 correct). s2,s3,s4,s5 regenerated to the locked look; rebuilt |
 
 ## Still to sweep (in priority order)
 61, 63, 41, 48(blocked? no—48 blocked), 124, 129, 8, 13(blocked), 20, 21,
