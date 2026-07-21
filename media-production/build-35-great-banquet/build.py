@@ -195,7 +195,7 @@ def main():
     audio_place = []  # (mp3, start)
     peak_start = None
     for name, still, zdir in BEATS:
-        speaker = is_scripture(SPEAKER.get(name, "narrator"))
+        speaker = SPEAKER[name]
         gap = KJV_GAP if is_scripture(speaker) else GAP
         vdur = LEAD + audio_dur[name] + gap
         a_start = t + LEAD
