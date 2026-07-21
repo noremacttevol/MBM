@@ -30,7 +30,7 @@ the narrator never stops; only the music does.
 Timing is COMPUTED from measured mp3 durations, every beat timed off the SPOKEN end of
 its audio (never the file end); the build RAISES on any spoken gap over 2.5s.
 
-SIZE: 30MB cap (Cameron, 2026-07-14) — budget against a ~29.5MB container so the first
+SIZE: 25MB cap (Cameron, 2026-07-14) — budget against a ~29.5MB container so the first
 CRF pass lands in range with a real bitrate; never starve the video to hit the number.
 
 Output: luke-22_gethsemane.mp4 (SCRIPTURE-NAME LAW), 1080x1920 H.264 30fps, <30MB.
@@ -332,18 +332,18 @@ def main():
         line = line.strip()
         if line.startswith("I:") and "LUFS" in line:
             lufs = float(line.split()[1])
-    gain = max(-6.0, min(10.0, -15.0 - lufs)) if lufs is not None else 0.0
+    gain = max(-6.0, min(16.0, -15.0 - lufs)) if lufs is not None else 0.0
     print(f"loudness: measured {lufs} LUFS, applying {gain:+.1f} dB", flush=True)
 
-    # ---- final mux: the ONLY lossy generation. 30MB cap; never starve the bitrate. ----
+    # ---- final mux: the ONLY lossy generation. 25MB cap; never starve the bitrate. ----
     OUT = "luke-22_gethsemane.mp4"
     A_KBPS, MUX = 96, 20
-    vcap = int(29.5 * 8000 / total) - A_KBPS - MUX
+    vcap = int(24.0 * 8000 / total) - A_KBPS - MUX
     if vcap < 400:
         raise SystemExit(
-            f"BITRATE STARVED even at 30MB: {total:.0f}s only leaves {vcap} kbps "
+            f"BITRATE STARVED even at 25MB: {total:.0f}s only leaves {vcap} kbps "
             f"of video (need >=400). Shorten the script — do not ship blocking.")
-    print(f"video budget: {vcap} kbps ({total:.0f}s, 30MB cap)", flush=True)
+    print(f"video budget: {vcap} kbps ({total:.0f}s, 25MB cap)", flush=True)
 
     size, crf = 0.0, 20
     for crf in (20, 21, 22, 23, 24):

@@ -22,7 +22,7 @@ the cup verse, then returns for the invitation.
 CARE — worthiness is milk: "unworthily/damnation" (v27,29) never appears; the narrator frames
 it only as a gentle invitation to examine one's heart and come sincerely.
 
-SIZE: 30MB cap. CAPTION BOX: warm lamplit throughout — box alpha 0.58 per §4b.
+SIZE: 25MB cap. CAPTION BOX: warm lamplit throughout — box alpha 0.58 per §4b.
 
 Machine D runs Windows: serif fonts come from C:/Windows/Fonts (Georgia), and
 ffmpeg/ffprobe are resolved from PATH or the winget install location.
@@ -319,19 +319,19 @@ def main():
         line = line.strip()
         if line.startswith("I:") and "LUFS" in line:
             lufs = float(line.split()[1])
-    gain = max(-6.0, min(10.0, -15.0 - lufs)) if lufs is not None else 0.0
+    gain = max(-6.0, min(16.0, -15.0 - lufs)) if lufs is not None else 0.0
     print(f"loudness: measured {lufs} LUFS, applying {gain:+.1f} dB", flush=True)
 
-    # 30MB cap (Cameron 2026-07-14): budget against a ~29.5MB container so long
+    # 25MB cap (Cameron 2026-07-14): budget against a ~29.5MB container so long
     # stories keep every word at a real bitrate instead of being trimmed/starved.
     OUT = "1corinthians-11_the-sacrament-worthily.mp4"
     A_KBPS, MUX = 96, 20
-    vcap = int(29.5 * 8000 / total) - A_KBPS - MUX
+    vcap = int(24.0 * 8000 / total) - A_KBPS - MUX
     if vcap < 400:
         raise SystemExit(
-            f"BITRATE STARVED even at 30MB: {total:.0f}s only leaves {vcap} kbps "
+            f"BITRATE STARVED even at 25MB: {total:.0f}s only leaves {vcap} kbps "
             f"(need >=400). This story is too long even for the raised cap.")
-    print(f"video budget: {vcap} kbps ({total:.0f}s, 30MB cap)", flush=True)
+    print(f"video budget: {vcap} kbps ({total:.0f}s, 25MB cap)", flush=True)
 
     size, crf = 0.0, 20
     for crf in (20, 21, 22, 23, 24):

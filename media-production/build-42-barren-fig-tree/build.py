@@ -21,7 +21,7 @@ setup in, dies before the verdict, returns briefly under the owner's reasoning, 
 for the plea, then returns to carry the tending, the turn and the invitation home. jv6 and
 jv9 (the other two KJV lines) play under the soft bed, as the non-silence KJV always does.
 
-SIZE: 30MB cap (Cameron, 2026-07-14) — long stories keep every word at full quality
+SIZE: 25MB cap (Cameron, 2026-07-14) — long stories keep every word at full quality
 rather than being trimmed or starved. The honest video budget is computed against a
 ~29.5MB container so the first CRF pass lands in range with a real bitrate.
 
@@ -282,19 +282,19 @@ def main():
         line = line.strip()
         if line.startswith("I:") and "LUFS" in line:
             lufs = float(line.split()[1])
-    gain = max(-6.0, min(10.0, -15.0 - lufs)) if lufs is not None else 0.0
+    gain = max(-6.0, min(16.0, -15.0 - lufs)) if lufs is not None else 0.0
     print(f"loudness: measured {lufs} LUFS, applying {gain:+.1f} dB", flush=True)
 
-    # 30MB cap (Cameron 2026-07-14): budget against a ~29.5MB container so long
+    # 25MB cap (Cameron 2026-07-14): budget against a ~29.5MB container so long
     # stories keep every word at a real bitrate instead of being trimmed/starved.
     OUT = "luke-13_barren-fig-tree.mp4"
     A_KBPS, MUX = 96, 20
-    vcap = int(29.5 * 8000 / total) - A_KBPS - MUX
+    vcap = int(24.0 * 8000 / total) - A_KBPS - MUX
     if vcap < 400:
         raise SystemExit(
-            f"BITRATE STARVED even at 30MB: {total:.0f}s only leaves {vcap} kbps "
+            f"BITRATE STARVED even at 25MB: {total:.0f}s only leaves {vcap} kbps "
             f"(need >=400). This story is too long even for the raised cap.")
-    print(f"video budget: {vcap} kbps ({total:.0f}s, 30MB cap)", flush=True)
+    print(f"video budget: {vcap} kbps ({total:.0f}s, 25MB cap)", flush=True)
 
     size, crf = 0.0, 20
     for crf in (20, 21, 22, 23, 24):

@@ -255,13 +255,13 @@ def main():
         line = line.strip()
         if line.startswith("I:") and "LUFS" in line:
             lufs = float(line.split()[1])
-    gain = max(-6.0, min(10.0, -15.0 - lufs)) if lufs is not None else 0.0
+    gain = max(-6.0, min(16.0, -15.0 - lufs)) if lufs is not None else 0.0
     print(f"loudness: measured {lufs} LUFS, applying {gain:+.1f} dB", flush=True)
 
     OUT = "joel-2_sons-and-daughters-prophesy.mp4"
     A_KBPS = 96
     MUX = 20
-    vcap = int(29.5 * 8000 / total) - A_KBPS - MUX
+    vcap = int(24.0 * 8000 / total) - A_KBPS - MUX
     if vcap < 400:
         raise SystemExit(f"BITRATE STARVED: {vcap} kbps < 400 in the 30MB law")
     vcap = min(vcap, 2200)

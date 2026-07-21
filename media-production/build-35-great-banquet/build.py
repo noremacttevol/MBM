@@ -261,7 +261,7 @@ def main():
         line = line.strip()
         if line.startswith("I:") and "LUFS" in line:
             lufs = float(line.split()[1])
-    gain = max(-6.0, min(10.0, -15.0 - lufs)) if lufs is not None else 0.0
+    gain = max(-6.0, min(16.0, -15.0 - lufs)) if lufs is not None else 0.0
     print(f"loudness: measured {lufs} LUFS, applying {gain:+.1f} dB", flush=True)
 
     # ---- final mux: slow, runtime-computed rate cap, crf step-up ----

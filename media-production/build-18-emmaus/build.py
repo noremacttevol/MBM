@@ -323,7 +323,7 @@ def main():
                 lufs = float(line.split()[1])
             except ValueError:
                 pass
-    gain = 0.0 if lufs is None else max(-6.0, min(12.0, -15.0 - lufs))
+    gain = 0.0 if lufs is None else max(-6.0, min(16.0, -15.0 - lufs))
     print(f"loudness: {lufs} LUFS, gain {gain:+.1f} dB", flush=True)
 
     OUT = "luke-24_emmaus.mp4"

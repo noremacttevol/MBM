@@ -23,6 +23,7 @@ The caption look, the Ken Burns maths, the audio mix, the loudness pass and the
 size ladder are unchanged.
 """
 import os
+import textwrap
 import subprocess
 
 import shutil
@@ -135,13 +136,30 @@ def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, speaker,
 
 
 def build_card(seg_id, dur, text):
-    tf = f"{S}/{seg_id}.txt"
-    with open(tf, "w", encoding="utf-8") as f:
-        f.write(text)
-    vf = (f"drawtext=fontfile='{SERIF}':textfile='{tf}':fontsize=48:"
-          f"fontcolor={INK}:line_spacing=20:x=(w-text_w)/2:y=(h-text_h)/2,"
-          f"fade=t=in:st=0:d=0.8,fade=t=out:st={dur-0.8}:d=0.8")
-    run([FF, "-y", "-f", "lavfi", "-i", f"color=c={CREAM}:s=1080x1920:r={FPS}:d={dur}",
+    # AUTO-WRAP CARD LAW (2026-07-21, Cameron): the closing-question card ran
+    # off-frame in 16 builds because this function trusted whatever line breaks
+    # the narration text happened to carry. It no longer trusts the text: every
+    # paragraph is re-wrapped to fit 1080px, and each line gets its OWN textfile
+    # + drawtext (a newline never enters a textfile — the tofu bug). Rewriting
+    # narration/card text can never break the card again.
+    size = 48
+    lh = size + 22
+    lines = [w for para in text.split("\n")
+             for w in (textwrap.wrap(para, width=30) or [""])]
+    L = len(lines)
+    vf = ""
+    for j, ln in enumerate(lines):
+        if not ln.strip():
+            continue                   # blank line = vertical gap only
+        tf = f"{S}/{seg_id}_{j}.txt"
+        with open(tf, "w", encoding="utf-8") as f:
+            f.write(ln)
+        y = f"(h-{L * lh})/2+{j * lh}"
+        vf += (f"drawtext=fontfile={SERIF}:textfile={tf}:fontsize={size}:"
+               f"fontcolor={INK}:x=(w-text_w)/2:y={y},")
+    vf += f"fade=t=in:st=0:d=0.8,fade=t=out:st={dur-0.8}:d=0.8"
+    run([FF, "-y", "-f", "lavfi",
+         "-i", f"color=c={CREAM}:s=1080x1920:r={FPS}:d={dur}",
          "-vf", vf] + ENC + [f"{S}/{seg_id}.mp4"])
 
 
@@ -256,7 +274,7 @@ def main():
                 lufs = float(line.split()[1])
             except ValueError:
                 pass
-    gain = 0.0 if lufs is None else max(-6.0, min(12.0, -15.0 - lufs))
+    gain = 0.0 if lufs is None else max(-6.0, min(16.0, -15.0 - lufs))
     print(f"loudness: {lufs} LUFS, gain {gain:+.1f} dB", flush=True)
 
     OUT = "mark-10_bartimaeus.mp4"

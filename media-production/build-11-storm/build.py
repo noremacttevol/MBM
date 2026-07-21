@@ -25,6 +25,7 @@ import textwrap
 
 import make_narration  # SEGMENTS -> verbatim caption text per segment
 from mbm_caption_timing import caption_filter
+from mbm_speakers import is_scripture
 
 A = "assets"
 S = "segs"
@@ -49,8 +50,10 @@ S7 = "s7-great-calm.jpeg"
 S8 = "s8-turned-to-them.jpeg"
 S9 = "s9-what-manner-of-man.jpeg"
 
-TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
-KJV = {"j0", "j1", "j2"}
+TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
+# SPEAKER-LAW: declared once in make_narration, so the caption colour
+# and the narration voice can never drift apart.
+SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 PEAK = "j1"   # "Peace, be still" — music goes to full silence here
 CARD_TEXT = ("The same Jesus is in your boat. Bring him your storm — and let "
              "him speak his peace.")
@@ -58,21 +61,33 @@ CARD_TEXT = ("The same Jesus is in your boat. Bring him your storm — and let "
 # BEATS: (segment_name, still, zoom_dir). One still-drift beat per narration
 # segment. n10 is the closing card (spoken over the cream card), handled below.
 BEATS = [
-    ("n0", S1, "in"), ("j0", S1, "out"),
+    ("n0", S1, "in"),
+    ("j0", S1, "out"),
     ("n1", S2, "in"),
     ("n2", S3, "in"),
     ("n3", S4, "in"),
     ("n4", S5, "in"),
-    ("n5", S6, "in"), ("j1", S6, "out"),
+    ("s38", S5, "out"),
+    ("n4b", S5, "in"),
+    ("n5", S6, "in"),
+    ("j1", S6, "out"),
     ("n6", S7, "in"),
-    ("n7", S8, "in"), ("j2", S8, "out"), ("n8", S8, "in"),
+    ("n7", S8, "in"),
+    ("j2", S8, "out"),
+    ("n8", S8, "in"),
     ("n9", S9, "in"),
+    ("s41", S9, "out"),
+    ("n9b", S9, "in"),
+    ("n10", S7, "out"),
 ]
 
 LEAD = 0.28
 GAP = 0.72
 KJV_GAP = 1.15
-CARD_HOLD = 4.2
+# No-dead-air law: the video ends TAIL seconds after the last spoken
+# word. Derived, never hand-set. Clears the card's 0.8s fade-out so
+# the last word and the fade are never clipped.
+TAIL = 1.5
 
 
 def run(cmd):
@@ -133,39 +148,7 @@ def chunk_caption(text, width, max_lines):
     return out
 
 
-def caption_layers(seg_id, dur, spoken_end, text, kjv):
-    """One drawtext layer per chunk, faded in/out at its share of the spoken time."""
-    if kjv:
-        font, size, color, width, maxl = SERIF_BI, 46, "0xFFF3DC", 38, 3
-    else:
-        font, size, color, width, maxl = SERIF, 34, "white", 48, 2
-    chunks = chunk_caption(text, width, maxl)
-    total = sum(len(c) for c in chunks) or 1
-    t0, t1 = 0.15, max(0.6, min(dur - 0.2, spoken_end + 0.35))
-    filters, labels = [], []
-    acc = 0
-    for i, c in enumerate(chunks):
-        cs = t0 + (t1 - t0) * acc / total
-        acc += len(c)
-        ce = t0 + (t1 - t0) * acc / total
-        tf = f"{S}/{seg_id}_{i}.txt"
-        with open(tf, "w") as f:
-            f.write("\n".join(textwrap.wrap(c, width)))
-        fo = max(cs, ce - 0.35)
-        filters.append(
-            f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
-            f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
-            f"fontcolor={color}:line_spacing=13:x=(w-text_w)/2:"
-            f"y=h-120-text_h:"
-            f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
-            f"box=1:boxcolor=black@0.55:boxborderw=22,"
-            f"fade=t=in:st={cs:.2f}:d=0.35:alpha=1,"
-            f"fade=t=out:st={fo:.2f}:d=0.35:alpha=1[cap{seg_id}{i}]")
-        labels.append(f"[cap{seg_id}{i}]")
-    return filters, labels
-
-
-def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, kjv, first):
+def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, speaker, first):
     frames = int(dur * FPS)
     if zdir == "in":
         z = f"1.001+0.09*on/{frames}"
@@ -175,7 +158,7 @@ def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, kjv, first):
             f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"d={frames}:s=2160x3840:fps={FPS},"
             f"scale=1080:1920:flags=lanczos")
-    cap = caption_filter(seg_id, dur, spoken_end, cap_text, kjv)
+    cap = caption_filter(seg_id, dur, spoken_end, cap_text, speaker)
     tail = ",fade=t=in:st=0:d=1.0" if first else ""
     fc = f"{base}{cap}{tail}[v]"
     run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
@@ -231,16 +214,16 @@ def main():
     audio_place = []
     peak_start = None
     for name, still, zdir in BEATS:
-        kjv = name in KJV
-        gap = KJV_GAP if kjv else GAP
+        speaker = SPEAKER[name]
+        gap = KJV_GAP if is_scripture(speaker) else GAP
         vdur = LEAD + audio_dur[name] + gap
         a_start = t + LEAD
         audio_place.append((f"audio/{name}.mp3", a_start))
         if name == PEAK:
             peak_start = a_start
-        timeline.append((name, still, zdir, vdur, a_start, kjv))
+        timeline.append((name, still, zdir, vdur, a_start, speaker))
         t += vdur
-    card_vdur = LEAD + card_dur + CARD_HOLD
+    card_vdur = LEAD + card_dur + TAIL
     card_start = t
     audio_place.append(("audio/n10.mp3", card_start + LEAD))
     total = t + card_vdur
@@ -248,9 +231,9 @@ def main():
     print(f"total runtime: {total:.1f}s ({total/60:.2f} min); "
           f"peak silence ({PEAK}) at {peak_start:.1f}s", flush=True)
 
-    for i, (seg_id, still, zdir, vdur, _a, kjv) in enumerate(timeline):
+    for i, (seg_id, still, zdir, vdur, _a, speaker) in enumerate(timeline):
         build_still(seg_id, still, vdur, zdir, LEAD + spoken[seg_id],
-                    TEXT[seg_id], kjv, first=(i == 0))
+                    TEXT[seg_id], speaker, first=(i == 0))
     build_card(card_vdur, CARD_TEXT)
 
     with open(f"{S}/concat.txt", "w") as f:
@@ -292,7 +275,7 @@ def main():
         line = line.strip()
         if line.startswith("I:") and "LUFS" in line:
             lufs = float(line.split()[1])
-    gain = max(-6.0, min(10.0, -15.0 - lufs)) if lufs is not None else 0.0
+    gain = max(-6.0, min(16.0, -15.0 - lufs)) if lufs is not None else 0.0
     print(f"loudness: measured {lufs} LUFS, applying {gain:+.1f} dB", flush=True)
 
     OUT = "mark-4_calming-the-storm.mp4"

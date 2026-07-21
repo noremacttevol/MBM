@@ -268,7 +268,7 @@ def main():
                 lufs = float(line.split()[1])
             except ValueError:
                 pass
-    gain = 0.0 if lufs is None else max(-6.0, min(12.0, -15.0 - lufs))
+    gain = 0.0 if lufs is None else max(-6.0, min(16.0, -15.0 - lufs))
     print("loudness", lufs, "gain", gain, flush=True)
     OUT = "matthew-25_ten-virgins.mp4"
     vcap = max(300, int(24.5 * 8000 / total) - 145)

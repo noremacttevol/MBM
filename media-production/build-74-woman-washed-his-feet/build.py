@@ -348,16 +348,16 @@ def main():
         line = line.strip()
         if line.startswith("I:") and "LUFS" in line:
             lufs = float(line.split()[1])
-    gain = max(-6.0, min(10.0, -15.0 - lufs)) if lufs is not None else 0.0
+    gain = max(-6.0, min(16.0, -15.0 - lufs)) if lufs is not None else 0.0
     print(f"loudness: measured {lufs} LUFS, applying {gain:+.1f} dB", flush=True)
 
     OUT = "luke-7_woman-washed-his-feet.mp4"
     A_KBPS, MUX = 96, 20
-    vcap = int(29.5 * 8000 / total) - A_KBPS - MUX
+    vcap = int(24.0 * 8000 / total) - A_KBPS - MUX
     if vcap < 400:
-        raise SystemExit(f"BITRATE STARVED at 30MB: {vcap} kbps for {total:.0f}s")
+        raise SystemExit(f"BITRATE STARVED at 25MB: {vcap} kbps for {total:.0f}s")
     vcap = min(vcap, 2200)
-    print(f"video budget: {vcap} kbps ({total:.0f}s, 30MB cap)", flush=True)
+    print(f"video budget: {vcap} kbps ({total:.0f}s, 25MB cap)", flush=True)
 
     size, crf = 0.0, 20
     for crf in (20, 21, 22, 23, 24):

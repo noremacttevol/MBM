@@ -15,7 +15,7 @@ bed dies to true silence) land on the mystery and the payoff:
 A warm bed carries the sowing in (jv26 under it), dies for the mystery, returns through the
 growth (jv28 under it), dies for the harvest, then the closing card.
 
-SIZE: 30MB cap. Output: mark-4_seed-growing.mp4, 1080x1920 H.264 30fps, <30MB.
+SIZE: 25MB cap. Output: mark-4_seed-growing.mp4, 1080x1920 H.264 30fps, <30MB.
 """
 import os
 import subprocess
@@ -268,17 +268,17 @@ def main():
         line = line.strip()
         if line.startswith("I:") and "LUFS" in line:
             lufs = float(line.split()[1])
-    gain = max(-6.0, min(10.0, -15.0 - lufs)) if lufs is not None else 0.0
+    gain = max(-6.0, min(16.0, -15.0 - lufs)) if lufs is not None else 0.0
     print(f"loudness: measured {lufs} LUFS, applying {gain:+.1f} dB", flush=True)
 
     OUT = "mark-4_seed-growing.mp4"
     A_KBPS, MUX = 96, 20
-    vcap = int(29.5 * 8000 / total) - A_KBPS - MUX
+    vcap = int(24.0 * 8000 / total) - A_KBPS - MUX
     if vcap < 400:
         raise SystemExit(
-            f"BITRATE STARVED even at 30MB: {total:.0f}s only leaves {vcap} kbps "
+            f"BITRATE STARVED even at 25MB: {total:.0f}s only leaves {vcap} kbps "
             f"(need >=400).")
-    print(f"video budget: {vcap} kbps ({total:.0f}s, 30MB cap)", flush=True)
+    print(f"video budget: {vcap} kbps ({total:.0f}s, 25MB cap)", flush=True)
 
     size, crf = 0.0, 20
     for crf in (20, 21, 22, 23, 24):

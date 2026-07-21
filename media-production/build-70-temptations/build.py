@@ -347,25 +347,25 @@ def main():
         line = line.strip()
         if line.startswith("I:") and "LUFS" in line:
             lufs = float(line.split()[1])
-    gain = max(-6.0, min(10.0, -15.0 - lufs)) if lufs is not None else 0.0
+    gain = max(-6.0, min(16.0, -15.0 - lufs)) if lufs is not None else 0.0
     print(f"loudness: measured {lufs} LUFS, applying {gain:+.1f} dB", flush=True)
 
     OUT = "matt-4_the-temptations.mp4"
     A_KBPS, MUX = 96, 20
     # This video is LONG (3:55). A crf encode with any healthy maxrate can't hold
-    # 30MB here — the slow Ken Burns drift keeps almost every frame wanting more
+    # 25MB here — the slow Ken Burns drift keeps almost every frame wanting more
     # than the ~888k average the size cap allows, so crf/maxrate overshoots to
     # 33-35MB. The correct tool for a fixed size on a long video is 2-PASS VBR at
     # the size-target average bitrate: it guarantees the size AND distributes the
     # bitrate optimally (peaks where the picture needs them, saved on the still
     # stretches), which beats a low-maxrate crf on quality. Short videos (≤~2:30)
     # fit comfortably under crf 20 and don't need this; long ones do.
-    vbit = int(29.0 * 8000 / total) - A_KBPS - MUX   # size-target video bitrate
+    vbit = int(24.0 * 8000 / total) - A_KBPS - MUX   # size-target video bitrate
     if vbit < 400:
-        raise SystemExit(f"BITRATE STARVED at 30MB: {vbit} kbps for {total:.0f}s")
+        raise SystemExit(f"BITRATE STARVED at 25MB: {vbit} kbps for {total:.0f}s")
     vmax = min(int(vbit * 1.7), 2200)                # peak ceiling above average
     print(f"video budget: {vbit} kbps avg, {vmax} kbps peak "
-          f"({total:.0f}s, 30MB cap) — 2-pass", flush=True)
+          f"({total:.0f}s, 25MB cap) — 2-pass", flush=True)
     common = ["-c:v", "libx264", "-preset", "medium", "-b:v", f"{vbit}k",
               "-passlogfile", f"{S}/x264pass", "-pix_fmt", "yuv420p"]
     run([FF, "-y", "-i", f"{S}/video_silent.mp4"] + common +
@@ -376,8 +376,8 @@ def main():
          "-af", f"volume={gain:.1f}dB,alimiter=limit=0.95",
          "-c:a", "aac", "-b:a", f"{A_KBPS}k", "-movflags", "+faststart", OUT])
     size = os.path.getsize(OUT) / 1e6
-    if size > 29.7:
-        raise SystemExit(f"OVER CAP: {size:.1f} MB — lower the 29.0 target")
+    if size > 24.6:
+        raise SystemExit(f"OVER CAP: {size:.1f} MB — lower the 24.0 target")
     print(f"DONE: {OUT}  {size:.1f} MB, {total:.1f}s (2-pass {vbit}k)", flush=True)
 
 
