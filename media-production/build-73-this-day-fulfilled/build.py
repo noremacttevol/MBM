@@ -23,6 +23,7 @@ import textwrap
 
 import make_narration
 from mbm_caption_timing import caption_filter
+from mbm_speakers import is_scripture
 
 A = "assets"
 S = "segs"
@@ -47,25 +48,33 @@ S6 = "s6-this-day.jpeg"
 S7 = "s7-wonder-in-the-room.jpeg"
 S8 = "s8-the-open-scroll.jpeg"
 
-TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
-KJV = {"j1", "j2"}
+TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
+# SPEAKER-LAW: declared once in make_narration, so the caption colour
+# and the narration voice can never drift apart.
+SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 CARD_TEXT = TEXT["card"]
 
 # (audio_name, [(still, zdir), ...]) — more than one still = split beat: the audio
 # plays once, the picture cuts at a caption-chunk boundary near the midpoint.
 BEATS = [
-    ("n0", [(S1, "in")]),
-    ("n1", [(S2, "in")]),
-    ("j1", [(S3, "in"), (S4, "in")]),   # the Isaiah reading — SACRED SILENCE after
-    ("n2", [(S5, "in")]),               # rolled it up, sat down, breath held
-    ("j2", [(S6, "in")]),               # "This day..." — SACRED SILENCE after
-    ("n3", [(S7, "in"), (S8, "out")]),  # wonder in the room → the open scroll
+    ("n0", [(S1, "in")], None),
+    ("s17", [(S2, "in")], None),
+    ("n1", [(S2, "in")], None),
+    ("j1", [(S3, "in"), (S4, "in")], None),
+    ("n1b", [(S4, "out")], None),
+    ("s20", [(S5, "in")], None),
+    ("n2", [(S5, "in")], None),
+    ("j2", [(S6, "in")], None),
+    ("n3", [(S7, "in"), (S8, "out")], None),
 ]
 
 LEAD = 0.28
 GAP = 0.72
 KJV_GAP = 1.50
-CARD_HOLD = 5.0
+# No-dead-air law: the video ends TAIL seconds after the last spoken
+# word. Derived, never hand-set. Clears the card's 0.8s fade-out so
+# the last word and the fade are never clipped.
+TAIL = 1.5
 
 
 def run(cmd):
@@ -132,10 +141,10 @@ def chunk_caption(text, width, max_lines):
     return out
 
 
-def timed_chunks(text, spoken_end, dur, kjv):
+def timed_chunks(text, spoken_end, dur, scripture):
     """CAPTION LAW v2: chunk the caption and time each chunk proportionally
     across the spoken audio, so the words on screen match the words being said."""
-    if kjv:
+    if scripture:
         width, maxl = 38, 3
     else:
         width, maxl = 48, 2
@@ -151,8 +160,8 @@ def timed_chunks(text, spoken_end, dur, kjv):
     return out
 
 
-def caption_filters(seg_id, dur, chunks, kjv):
-    if kjv:
+def caption_filters(seg_id, dur, chunks, scripture):
+    if scripture:
         font, size, color, width = SERIF_BI, 46, "0xFFF3DC", 38
     else:
         font, size, color, width = SERIF, 34, "white", 48
@@ -175,7 +184,7 @@ def caption_filters(seg_id, dur, chunks, kjv):
     return filters, labels
 
 
-def build_still(seg_id, src, dur, zdir, chunks, kjv, first):
+def build_still(seg_id, src, dur, zdir, chunks, speaker, first):
     frames = int(dur * FPS)
     if zdir == "in":
         z = f"1.001+0.09*on/{frames}"
@@ -190,7 +199,7 @@ def build_still(seg_id, src, dur, zdir, chunks, kjv, first):
         (c[0] if isinstance(c, (list, tuple)) else c) for c in chunks
     ) if isinstance(chunks, (list, tuple)) else (chunks or "")
     _cap_txt = " ".join(_cap_txt.split())
-    capf = caption_filter(seg_id, dur, dur, _cap_txt, kjv) if _cap_txt else ""
+    capf = caption_filter(seg_id, dur, dur, _cap_txt, speaker) if _cap_txt else ""
     fc = f"{base}{capf}{tail}[v]"
     run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
          "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
@@ -216,22 +225,22 @@ def main():
     card_spoken = spoken_of("audio/card.mp3")
 
     # Timeline: each beat may be one or two video segments; audio plays once.
-    segments = []          # (seg_id, still, zdir, dur, chunks, kjv, first)
+    segments = []          # (seg_id, still, zdir, dur, chunks, speaker, first)
     audio_place = []
     t = 0.0
     start_of = {}
-    for bi, (name, stills) in enumerate(BEATS):
-        kjv = name in KJV
-        gap = KJV_GAP if kjv else GAP
+    for bi, (name, stills, *_gap) in enumerate(BEATS):
+        speaker = SPEAKER[name]
+        gap = KJV_GAP if is_scripture(speaker) else GAP
         vdur = LEAD + spoken[name] + gap
         spoken_end = LEAD + spoken[name]
         a_start = t + LEAD
         audio_place.append((f"audio/{name}.mp3", a_start))
         start_of[name] = a_start
-        chunks = timed_chunks(TEXT[name], spoken_end, vdur, kjv)
+        chunks = timed_chunks(TEXT[name], spoken_end, vdur, is_scripture(speaker))
         if len(stills) == 1:
             still, zdir = stills[0]
-            segments.append((name, still, zdir, vdur, chunks, kjv, bi == 0))
+            segments.append((name, still, zdir, vdur, chunks, speaker, bi == 0))
         else:
             # Split beat: cut at the caption-chunk boundary nearest the midpoint,
             # so no caption straddles the picture cut.
@@ -244,20 +253,20 @@ def main():
                              for (c, cs, ce) in chunks if cs >= tcut - 1e-6]
             (stA, zdA), (stB, zdB) = stills
             segments.append((f"{name}a", stA, zdA, tcut, first_chunks,
-                             kjv, bi == 0))
+                             speaker, bi == 0))
             segments.append((f"{name}b", stB, zdB, vdur - tcut, second_chunks,
-                             kjv, False))
+                             speaker, False))
             print(f"split {name}: cut at {tcut:.2f}s of {vdur:.2f}s "
                   f"({len(first_chunks)}+{len(second_chunks)} chunks)", flush=True)
         t += vdur
-    card_vdur = LEAD + card_spoken + CARD_HOLD
+    card_vdur = LEAD + card_spoken + TAIL
     card_start = t
     audio_place.append(("audio/card.mp3", card_start + LEAD))
     total = t + card_vdur
 
     # No-Dead-Air Law: enforce in code, timed off the SPOKEN end.
     worst, worst_at, prev_end = 0.0, None, None
-    for name, _stills in BEATS:
+    for name, _stills, *_ in BEATS:
         a_start = start_of[name]
         if prev_end is not None and a_start - prev_end > worst:
             worst, worst_at = a_start - prev_end, name
@@ -274,8 +283,8 @@ def main():
     print(f"sacred silences: after j1 at {start_of['j1']+spoken['j1']:.1f}s, "
           f"after j2 at {start_of['j2']+spoken['j2']:.1f}s", flush=True)
 
-    for seg_id, still, zdir, dur, chunks, kjv, first in segments:
-        build_still(seg_id, still, dur, zdir, chunks, kjv, first)
+    for seg_id, still, zdir, dur, chunks, speaker, first in segments:
+        build_still(seg_id, still, dur, zdir, chunks, speaker, first)
     build_card(card_vdur, CARD_TEXT)
 
     with open(f"{S}/concat.txt", "w") as f:
