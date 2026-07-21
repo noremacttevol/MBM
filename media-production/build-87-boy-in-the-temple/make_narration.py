@@ -1,62 +1,85 @@
 #!/usr/bin/env python3
-"""Generate narration audio for Story Video #87 — "The Boy in the Temple" (Luke 2:41-52).
-Narrator: modern, warm, low, unhurried (American). Plain US model only.
-Jesus voice: AMERICAN, never British. Jesus speaks ONLY exact KJV: Luke 2:49.
-CONTENT-CARE: GREEN — tender family story; the parents' worry is love, never blame.
-HOMOGRAPH LAW: draft flags clean — SPOKEN empty; ear-check every segment anyway.
-No music bed: narration + intentional silence only.
-Built from DRAFTS/row-087.md (validated 2026-07-17 by W1-STILLS; face per
-Cameron's 2026-07-17 child addendum — boy version of the master face).
+"""Narration for build-87-boy-in-the-temple — Luke 2.
+
+SPEAKER-LAW rebuild (see media-production/SPEAKER-LAW.md). Who is speaking is
+declared once here and decides BOTH the voice and the caption colour.
+
+MARY SPEAKS -- IN PINK -- AND SHE WAS NOT IN THE VIDEO AT ALL. This is the fix
+this build existed for. n2 said 'His mother, relieved and worried, asked why he'd
+done this to them' -- a modern paraphrase, in white, standing in for one of the
+most human sentences any mother says in scripture. Lifted verbatim as `woman`:
+  w48  Luke 2:48  'Son, why hast thou thus dealt with us? behold, thy father and
+       I have sought thee sorrowing.'
+  n2 is trimmed to the frame and n2b carries the retelling. Both on ST6, no new
+  artwork. Hear what she actually says: not 'where were you' but 'we have been
+  looking for you, SORROWING'. Three days of it. That is a mother telling her son
+  what it cost, and the video was throwing the line away in a subordinate clause.
+
+STAYED RED: j1, Luke 2:49, 'How is it that ye sought me? wist ye not that I must
+be about my Father's business?' Jesus in the flesh, red-lettered, verbatim -- and
+these are the first recorded words of his life. Unchanged, id kept.
+
+RETELLING ADDED: n2c after j1, on ST7. The one red line in the build had no plain
+modern landing, and 'wist ye not' and 'my Father's business' are both phrases a
+listener today will not parse on the fly.
+
+THE MOTHER-AND-SON EXCHANGE IS DELIBERATELY BACK TO BACK. w48 (pink) runs
+straight into j1 (red) with n2b's retelling in between, which is where it has to
+go -- her line and his answer are a real question and a real answer, and n2b hands
+off into the reply rather than breaking the exchange. This is the shape the law
+sets out for build-98's 'Mary.' / 'Rabboni.', adapted for the fact that here the
+retelling belongs to her line and not to his.
+
+PRONUNCIATION: 'wist' is already in the global SPOKEN map, so nothing is added to
+this build's `spoken` -- a duplicate local entry is exactly how the audited-bad
+respellings got in.
+
+NO GREEN: Jesus talks ABOUT his Father here; the Father does not speak. Nothing in
+Luke 2:41-52 is a voice from heaven.
+
+WHY-LAW: at twelve years old he already knew whose he was and where he belonged,
+and then he went home and obeyed his parents anyway. Milk: knowing who your Father
+is does not make you too important for ordinary life.
 """
 import asyncio
-import edge_tts
-from mbm_caption_timing import save_narration
+import os
 
-NARRATOR = "en-US-AndrewNeural"     # plain American — never a Multilingual model
-JESUS = "en-US-ChristopherNeural"   # American. Never a British voice.
+from mbm_caption_timing import save_speaker_narration
+from mbm_pronounce import audit, spoken_text
+from mbm_speakers import JESUS, NARRATOR, WOMAN
 
+# (id, speaker, caption_text). The caption always shows this exact text; only the
+# string handed to the TTS is respelled.
 SEGMENTS = [
-    # (filename, voice, rate, pitch, text)
-    # n0 split: the caravan leaving (s1) then realizing he's missing (s2).
-    ("n0a", NARRATOR, "-20%", "-4Hz",
-     "Every year Jesus's family went to Jerusalem for the Passover. When "
-     "he was twelve, they made the trip as usual."),
-    ("n0b", NARRATOR, "-20%", "-4Hz",
-     "On the way home, they realized he wasn't with them."),
-    # n1 split: the three-day search (s3), finding him among the teachers
-    # (s4), and the questions that amazed them (s5).
-    ("n1a", NARRATOR, "-20%", "-4Hz",
-     "They turned back, searching for three days."),
-    ("n1b", NARRATOR, "-20%", "-4Hz",
-     "And they found him in the temple, sitting among the teachers, "
-     "listening,"),
-    ("n1c", NARRATOR, "-20%", "-4Hz",
-     "and asking questions that amazed everyone."),
-    ("n2", NARRATOR, "-20%", "-4Hz",
-     "His mother, relieved and worried, asked why he'd done this to "
-     "them. He answered with a question of his own."),
-    # Exact KJV Luke 2:49 — SILENCE around it.
-    ("j1", JESUS, "-18%", "-2Hz",
-     "How is it that ye sought me? wist ye not that I must be about my "
-     "Father's business?"),
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "They didn't fully understand. But he went home with them and "
-     "obeyed them — and he kept growing in wisdom, in stature, and in "
-     "favor with God and people."),
-    ("card", NARRATOR, "-22%", "-5Hz",
-     "Even as a boy he knew where he belonged. You were made for the "
-     "Father's house too — come find your place."),
+    ("n0a", NARRATOR, "Every year Jesus's family went to Jerusalem for the Passover. When he was twelve, they made the trip as usual."),
+    ("n0b", NARRATOR, "On the way home, they realized he wasn't with them."),
+    ("n1a", NARRATOR, "They turned back, searching for three days."),
+    ("n1b", NARRATOR, "And they found him in the temple, sitting among the teachers, listening,"),
+    ("n1c", NARRATOR, "and asking questions that amazed everyone."),
+    ("n2", NARRATOR, "His mother was the one who spoke. Relieved, and frightened, and hurt, Mary said this:"),
+    # Luke 2:48
+    ("w48", WOMAN, "Son, why hast thou thus dealt with us? behold, thy father and I have sought thee sorrowing."),
+    ("n2b", NARRATOR, "Son, why have you done this to us? she said. Your father and I have been looking for you, sick with worry. Listen to the word Luke gives her — sorrowing. Not annoyed. Grieving. Three days of a mother assuming the worst. And he answered her with a question of his own."),
+    # Luke 2:49
+    ("j1", JESUS, "How is it that ye sought me? wist ye not that I must be about my Father's business?"),
+    ("n2c", NARRATOR, "Why were you out looking for me? he said. Didn't you know I had to be in my Father's house, about my Father's work? He was twelve years old. He was not being smart with his mother. He genuinely could not imagine where else they thought he would be."),
+    ("n3", NARRATOR, "They didn't fully understand. But he went home with them and obeyed them — and he kept growing in wisdom, in stature, and in favor with God and people."),
+    ("card", NARRATOR, "Even as a boy he knew where he belonged. You were made for the Father's house too — come find your place."),
 ]
 
-# HOMOGRAPH LAW — draft flags clean; SPOKEN stays empty. Ear-check every
-# segment before assembly regardless ("wist" is archaic but not a homograph).
+# Homographs this build decides for itself (never auto-replaced globally).
 SPOKEN = {}
 
 
 async def main():
-    for name, voice, rate, pitch, text in SEGMENTS:
-        tts_text = SPOKEN.get(name, text)
-        await save_narration(tts_text, voice, rate, pitch, f"audio/{name}.mp3")
+    os.makedirs("audio", exist_ok=True)
+    for name, speaker, text in SEGMENTS:
+        flagged = [w for w in audit(text) if w not in SPOKEN]
+        if flagged:
+            print(f"  ! {name}: undecided homograph(s) {flagged}")
+        await save_speaker_narration(spoken_text(text, SPOKEN), speaker,
+                                     f"audio/{name}.mp3")
+        print(f"saved audio/{name}.mp3  [{speaker}]")
 
 
 if __name__ == "__main__":
