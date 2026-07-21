@@ -60,6 +60,9 @@ S13 = "s13-peter-leap.jpeg"
 S14 = "s14-swim.jpeg"
 S15 = "s15-fire-close.jpeg"
 S16 = "s16-breakfast.jpeg"
+# The three-questions CLIMAX gets its own coverage (added 2026-07-20):
+S17 = "s17-second-ask.jpeg"
+S18 = "s18-commission.jpeg"
 
 # Caption text = verbatim spoken text, keyed by segment name.
 TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
@@ -91,11 +94,11 @@ BEATS = [
     ("n9", S16, "in"),
     ("n10", S5, "in"),
     ("j1", S5, "out"),
-    ("n11", S5, "in"),
-    ("s16", S6, "in"),
-    ("n12", S6, "out"),
-    ("j2", S6, "in"),
-    ("n13", S6, "out"),
+    ("n11", S17, "in"),
+    ("s16", S17, "out"),
+    ("n12", S6, "in"),
+    ("j2", S18, "in"),
+    ("n13", S18, "out"),
     ("n14", S7, "in"),
 ]
 

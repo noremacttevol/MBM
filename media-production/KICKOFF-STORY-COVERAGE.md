@@ -17,7 +17,9 @@ PER VIDEO:
  2. Compare against the build's BEATS list and assets/. Missing beats -> write new
     prompts in PROMPTS.md (anti-panel clause, character locks byte-identical,
     positional enumeration for groups), generate via gen_stills_flow.py or
-    ../flow_driver.py ($0 Flow only, never paid API). VERIFY the assembled prompt
+    ../flow_driver.py (never the paid API — but FLOW IS UNLIMITED: Cameron has
+    the biggest Ultra sub, so generate EVERY beat's picture and reroll freely;
+    never trim the picture count to "save" Flow). VERIFY the assembled prompt
     has no unexpanded [TOKEN] before generating.
  3. Check every existing still AGREES with the exact narration line under it
     (direction, position, scale, emotion, likeness). "Went WITH them" = beside

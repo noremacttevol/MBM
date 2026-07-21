@@ -42,6 +42,9 @@ S5 = "s5.jpeg"
 S6 = "s6.jpeg"
 S7 = "s7.jpeg"
 S8 = "s8.jpeg"
+# Flashback coverage (added 2026-07-20): the cross far off, the empty tomb.
+S9B = "s9b.jpeg"
+S10B = "s10b.jpeg"
 
 TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
 # SPEAKER-LAW: declared once in make_narration, so the caption colour
@@ -58,11 +61,11 @@ SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 # n2: he asks while they walk (S2) -> "They stopped in the road" (S3).
 # n7: eyes opened at the bread (S6) -> "he was gone" (S7, the empty place).
 BEATS = [
-    ("n0", S1, "in"),
+    ("n0", [(S1, None), (S9B, "the arrest")], "in"),
     ("n1", S2, "in"),
     ("n2", [(S2, None), (S3, "They stopped in the road")], "in"),
     ("s18", S3, "out"),
-    ("n3", S3, "in"),
+    ("n3", [(S3, None), (S10B, "Now some women were saying")], "in"),
     ("s21", S3, "out"),
     ("n4a", S4, "in"),
     ("j1", S4, "out"),

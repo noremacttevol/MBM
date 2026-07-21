@@ -1,98 +1,96 @@
 #!/usr/bin/env python3
-"""Generate narration audio for Story Video #19 — Breakfast on the Shore:
-Peter Restored (John 21:1-17).
+"""Narration for build-19-shore — John 21.
 
-Narrator: en-US-AndrewNeural — plain American, never a Multilingual model.
-Jesus voice: en-US-ChristopherNeural — American, never British.
-Jesus speaks ONLY exact KJV: John 21:16 (j1) and John 21:17 (j2).
+SPEAKER-LAW rebuild (see media-production/SPEAKER-LAW.md). Who is speaking is
+declared once here and decides BOTH the voice and the caption colour.
 
-CAPTIONS ARE VERBATIM (Cameron, 2026-07-11): build.py imports these SEGMENTS
-and word-wraps each text as the on-screen caption, so every spoken word is on
-the screen. The narrator keeps the KJV Jesus lines in Old English AND explains
-plainly, in the next breath, what he meant — the point every time being how
-GOOD he is (he restores the man who failed him worst).
+STAYED RED: both existing red beats are the risen Christ speaking on the shore
+and a red-letter KJV prints both.
+  j1  John 21:16  'Simon, son of Jonas, lovest thou me?'
+  j2  John 21:16  'Feed my sheep.'
+Neither had John's framing welded on, so neither needed splitting.
 
-Two standards: STILLS-ONLY (Law E) + Jesus face-never (#18) — a parable-simple
-shore scene; the Lord is only ever behind / hand-only / at dawn distance.
+ADDED RED -- the dawn on the water was all paraphrase. n5 told the viewer that a
+figure called out and told them where to cast, without ever letting him say it.
+Both of his lines are red-letter, and both are now in his own voice, on the SAME
+still S3:
+  j0a  John 21:5  'Children, have ye any meat?'
+  j0b  John 21:6  'Cast the net on the right side of the ship, and ye shall find.'
+n5 is trimmed to the frame only; n5b and n5c are the retellings, one for each.
+
+ADDED BLUE -- PETER'S ANSWER. The whole video is one exchange and Peter's half of
+it was narrator paraphrase in white (n12, 'yes, Lord, you know that I love you').
+Lifted verbatim as SCRIPTURE -- Peter is an apostle, not Deity, so light blue:
+  s16  John 21:16  'Yea, Lord; thou knowest that I love thee.'
+This is a deliberate question-and-answer pair with j1 across two beats, with n11
+retelling the question in between so nothing lands unexplained. n12 keeps its
+original text and now works as the retelling of Peter's real words.
+
+LEFT AS PARAPHRASE ON PURPOSE: n6's 'it is the Lord.' John 21:7 reads 'Therefore
+that disciple whom Jesus loved saith unto Peter, It is the Lord.' The quoted
+words are only three, and lifting them would need its own frame and its own
+retelling for almost no gain. Left in the storyteller's voice.
+
+WOMEN: John 21 records no woman speaking. Nothing added; nothing invented.
+
+NO GREEN: no voice from heaven in John 21.
+
+WHY-LAW: three denials by a charcoal fire, three questions by another one. He did
+not bring up the failure, he asked about the love -- and then trusted him again.
 """
 import asyncio
-import edge_tts
-from mbm_caption_timing import save_narration
+import os
 
-NARRATOR = "en-US-AndrewNeural"     # plain American — never a Multilingual model
-JESUS = "en-US-ChristopherNeural"   # American. Never a British voice.
+from mbm_caption_timing import save_speaker_narration
+from mbm_pronounce import audit, spoken_text
+from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 
+# (id, speaker, caption_text). The caption always shows this exact text; only the
+# string handed to the TTS is respelled.
 SEGMENTS = [
-    # (filename, voice, rate, pitch, text)  — text is BOTH spoken and captioned.
-    # --- Shot 1: the night of the denial (prologue) ---
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "Peter had sworn he would die before he would ever deny Jesus."),
-    ("n2", NARRATOR, "-22%", "-4Hz",
-     "Then, in one terrible night, he denied him three times. The rooster "
-     "crowed, Jesus turned and looked at him, and Peter went out and wept "
-     "bitterly."),
-    # --- Shot 2: back to the old life ---
-    ("n3", NARRATOR, "-22%", "-4Hz",
-     "After the resurrection, Peter went back to fishing. Back to the old "
-     "life."),
-    ("n4", NARRATOR, "-22%", "-4Hz",
-     "It is what people do with a failure they cannot carry. They go back to "
-     "what they knew before it happened. And that night they caught nothing."),
-    # --- Shot 3: the figure on the shore ---
-    ("n5", NARRATOR, "-22%", "-4Hz",
-     "At dawn, a figure on the shore called out to the boat, and told them "
-     "where to let down the net. Suddenly it was full."),
-    ("n6", NARRATOR, "-22%", "-4Hz",
-     "Then one of them went very still and said, it is the Lord. And Peter "
-     "did not wait for the boat. He threw himself into the sea and swam for "
-     "shore, leaving everything behind."),
-    # --- Shot 4: the charcoal fire (the emotional key) ---
-    ("n7", NARRATOR, "-22%", "-4Hz",
-     "When he waded out of the water, he stopped cold. On the sand was a "
-     "charcoal fire, with fish already laid over it, and bread."),
-    ("n8", NARRATOR, "-24%", "-4Hz",
-     "A charcoal fire. The same kind of fire Peter had stood beside in the "
-     "courtyard the night he denied him. The smell alone would have brought "
-     "the whole night back."),
-    ("n9", NARRATOR, "-22%", "-4Hz",
-     "Jesus did not bring up the denial. He simply had breakfast waiting, and "
-     "they ate together on the shore in the first gold light."),
-    # --- Shot 5: do you love me, three times (the peak) ---
-    ("n10", NARRATOR, "-22%", "-4Hz",
-     "When breakfast was over, Jesus turned to Peter. Three times, once it "
-     "seems for each denial, he asked him the same question, using Peter's "
-     "old name, the name he had before any of it:"),
-    ("j1", JESUS, "-27%", "-6Hz",
-     "Simon, son of Jonas, lovest thou me?"),
-    ("n11", NARRATOR, "-22%", "-4Hz",
-     "Simon, son of Jonas, do you love me. Not, how could you. Not, prove it. "
-     "Not one word thrown back at him about the denial. Only: do you love me."),
-    # --- Shot 6: feed my sheep ---
-    ("n12", NARRATOR, "-22%", "-4Hz",
-     "Three times Peter answered him, yes, Lord, you know that I love you. "
-     "Each time it cost him more, and each time he meant it more."),
-    ("j2", JESUS, "-26%", "-6Hz",
-     "Feed my sheep."),
-    ("n13", NARRATOR, "-22%", "-4Hz",
-     "Feed my sheep. To the man who had failed him worst, Jesus handed the "
-     "biggest job of all. He did not only forgive Peter. He trusted him "
-     "again."),
-    # --- Shot 7: the failure who feeds ---
-    ("n14", NARRATOR, "-24%", "-4Hz",
-     "That is how good he is. He takes your worst night and hands you back "
-     "your life, with a purpose bigger than the one you thought you had "
-     "thrown away."),
-    # --- closing card, read gently (Readable-Card Law) ---
-    ("card", NARRATOR, "-26%", "-4Hz",
-     "Peter went back to fishing because he thought his failure was final. "
-     "Is there a failure you have quietly decided is final?"),
+    ("n1", NARRATOR, "Peter had sworn he would die before he would ever deny Jesus."),
+    ("n2", NARRATOR, "Then, in one terrible night, he denied him three times. The rooster crowed, Jesus turned and looked at him, and Peter went out and wept bitterly."),
+    ("n3", NARRATOR, "After the resurrection, Peter went back to fishing. Back to the old life."),
+    ("n4", NARRATOR, "It is what people do with a failure they cannot carry. They go back to what they knew before it happened. And that night they caught nothing."),
+    ("n5", NARRATOR, "At dawn, a figure on the shore called out across the water to the boat."),
+    # John 21:5
+    ("j0a", JESUS, "Children, have ye any meat?"),
+    ("n5b", NARRATOR, "Have you caught anything, he called. And they had to say it out loud to a stranger — no. Nothing. All night, nothing."),
+    # John 21:6
+    ("j0b", JESUS, "Cast the net on the right side of the ship, and ye shall find."),
+    ("n5c", NARRATOR, "Put the net over the right side, he told them, and you will find some. They did — and it came up so full they could not haul it in."),
+    ("n6", NARRATOR, "Then one of them went very still and said, it is the Lord. And Peter did not wait for the boat. He threw himself into the sea and swam for shore, leaving everything behind."),
+    ("n7", NARRATOR, "When he waded out of the water, he stopped cold. On the sand was a charcoal fire, with fish already laid over it, and bread."),
+    ("n8", NARRATOR, "A charcoal fire. The same kind of fire Peter had stood beside in the courtyard the night he denied him. The smell alone would have brought the whole night back."),
+    ("n9", NARRATOR, "Jesus did not bring up the denial. He simply had breakfast waiting, and they ate together on the shore in the first gold light."),
+    ("n10", NARRATOR, "When breakfast was over, Jesus turned to Peter. Three times, once it seems for each denial, he asked him the same question, using Peter's old name, the name he had before any of it:"),
+    # John 21:16
+    ("j1", JESUS, "Simon, son of Jonas, lovest thou me?"),
+    ("n11", NARRATOR, "Simon, son of Jonas, do you love me. Not, how could you. Not, prove it. Not one word thrown back at him about the denial. Only: do you love me."),
+    # John 21:16
+    ("s16", SCRIPTURE, "Yea, Lord; thou knowest that I love thee."),
+    ("n12", NARRATOR, "Three times Peter answered him, yes, Lord, you know that I love you. Each time it cost him more, and each time he meant it more."),
+    # John 21:16
+    ("j2", JESUS, "Feed my sheep."),
+    ("n13", NARRATOR, "Feed my sheep. To the man who had failed him worst, Jesus handed the biggest job of all. He did not only forgive Peter. He trusted him again."),
+    ("n14", NARRATOR, "That is how good he is. He takes your worst night and hands you back your life, with a purpose bigger than the one you thought you had thrown away."),
+    ("card", NARRATOR, "Peter went back to fishing because he thought his failure was final. Is there a failure you have quietly decided is final?"),
 ]
+
+# Homographs this build decides for itself (never auto-replaced globally).
+SPOKEN = {}
 
 
 async def main():
-    for name, voice, rate, pitch, text in SEGMENTS:
-        await save_narration(text, voice, rate, pitch, f"audio/{name}.mp3")
-        print(f"saved audio/{name}.mp3")
+    os.makedirs("audio", exist_ok=True)
+    for name, speaker, text in SEGMENTS:
+        flagged = [w for w in audit(text) if w not in SPOKEN]
+        if flagged:
+            print(f"  ! {name}: undecided homograph(s) {flagged}")
+        await save_speaker_narration(spoken_text(text, SPOKEN, speaker), speaker,
+                                     f"audio/{name}.mp3")
+        print(f"saved audio/{name}.mp3  [{speaker}]")
+
 
 if __name__ == "__main__":
     asyncio.run(main())
