@@ -1,129 +1,87 @@
 #!/usr/bin/env python3
-"""Generate narration audio for Story Video #47 — Houses on Rock and Sand
-(Matthew 7:24-27).
+"""Narration for build-47-houses-on-rock-and-sand — Matthew 7.
 
-Narrator: en-US-AndrewNeural — plain American, never a Multilingual model.
-Jesus voice: en-US-ChristopherNeural — American, never British.
+SPEAKER-LAW rebuild (see media-production/SPEAKER-LAW.md). Who is speaking is
+declared once here and decides BOTH the voice and the caption colour.
 
-Jesus speaks ONLY exact KJV. Four lines — the whole parable is his direct speech:
-  jv24 = Matt 7:24   the wise man on the rock (verse-card, sacred silence 1)
-  jv25 = Matt 7:25   the storm, and "it fell not" (sacred silence 2 — the payoff)
-  jv26 = Matt 7:26   the foolish man on the sand
-  jv27 = Matt 7:27   the storm, and "great was the fall of it"
+STAYED RED, ALL FOUR. Matthew 7:24-27 is the closing parable of the Sermon on
+the Mount, spoken by Jesus in the flesh, and a red-letter KJV inks every word of
+it -- both houses, both storms. jv24, jv25, jv26, jv27 are verbatim and carry no
+framing from Matthew, so none of them needed splitting.
 
-The two sacred silences land on the two ROCK beats (jv24, jv25) — the good news.
-jv26/jv27 (the foolish man and the fall) play UNDER a soft moving bed on purpose, so
-the weight stays on the rock, not the fall.
+NO SPLITS.
 
-WHY-LAW: the misread is "be good or God wrecks you." The point is the opposite and
-smaller and harder: BOTH men heard the same words (n2, n11) — the only difference was
-that one went home and DID them. STUDY GEMS: in that land you build in the dry summer,
-and the easy ground is the smooth sand of a dry riverbed — a wadi (n3, n6); the wise
-man does the slow, unseen work of digging down to bedrock (n4); the winter rains turn
-those dry beds into flash floods that hit BOTH houses the same (n7). The difference was
-underneath, where no one could see it until the water rose (n10).
+ADDED IN BLUE -- THE STILL NOBODY WAS USING. S11 is named s11-astonished.jpeg and
+the original n11 never mentioned the crowd's astonishment at all; the picture was
+carrying a moment the words had dropped. Matthew 7:28-29 is now lifted in as
+SCRIPTURE (light blue -- that is Matthew writing, not Jesus speaking):
+  s28  Matthew 7:28-29  'And it came to pass, when Jesus had ended these sayings,
+       the people were astonished at his doctrine: For he taught them as one
+       having authority, and not as the scribes.'
+  n11a is new and retells it. n11 keeps its id, its text and its place right
+  after, so nothing that references n11 outside BEATS is disturbed.
 
-TRANSLATION LAW: after each KJV line the narrator gives only the plain meaning and
-never re-quotes it. n5 says "stood without moving" not "it fell not"; n9 says "there
-was nothing left" not "great was the fall".
+NO GREEN. Nothing in Matthew 7 is the Father or a voice from heaven.
 
-MILK FRAMING: an invitation, never a threat. The foolish man is safe on the bank — it
-is his life's work that falls, not him. Ends on the open door: build your life on his
-words, and you can start with one thing this week.
+WOMEN: Matthew 7:24-29 records no woman speaking. Nothing added; nothing
+invented.
 
-NUMBER-STRESS LAW: no sentence opens with a bare number.
+RETELLING RULE: jv24 is retold by n5, jv25 by n6, jv26 by n8, jv27 by n9, and the
+new s28 by the new n11a. No two Old English blocks run back to back.
+
+WHY-LAW: both men heard exactly the same words -- hearing was never the
+difference. Milk: go home and do one of them, while the weather is still good.
 """
 import asyncio
-import edge_tts
-from mbm_caption_timing import save_narration
+import os
 
-NARRATOR = "en-US-AndrewNeural"
-JESUS = "en-US-ChristopherNeural"
+from mbm_caption_timing import save_speaker_narration
+from mbm_pronounce import audit, spoken_text
+from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 
+# (id, speaker, caption_text). The caption always shows this exact text; only the
+# string handed to the TTS is respelled.
 SEGMENTS = [
-    # (filename, voice, rate, pitch, text) — text is BOTH spoken and captioned.
-    # --- s1: the end of the sermon ---
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "He had been teaching all afternoon, and he ended with a story about two men and "
-     "two houses. It sounds simple. It is one of the most searching things he ever "
-     "said."),
-    # --- s2: both men heard ---
-    ("n2", NARRATOR, "-22%", "-4Hz",
-     "Picture two men in that crowd. Both of them heard him. Every word. That matters, "
-     "so hold onto it: both men heard exactly the same thing."),
-    # --- s3: the wise man digs deep. the gem. ---
-    ("n3", NARRATOR, "-22%", "-4Hz",
-     "The first man goes home to build. In that country you build in the dry season, "
-     "and the easy ground is the smooth, flat sand of a dry riverbed. But this man "
-     "walks past the easy ground."),
-    ("n4", NARRATOR, "-22%", "-4Hz",
-     "He digs. Down through the loose soil, all the way to bedrock, and he lays his "
-     "foundation on the stone. It is slow, hard work, and when he is done not one "
-     "person will ever see it. The whole house depends on the part nobody can see."),
-    # --- s4: jv24 — the wise man. SACRED SILENCE 1. ---
-    ("jv24", JESUS, "-26%", "-6Hz",
-     "Therefore whosoever heareth these sayings of mine, and doeth them, I will liken "
-     "him unto a wise man, which built his house upon a rock."),
-    # --- s5: the finished house, calm before the storm ---
-    ("n5", NARRATOR, "-22%", "-4Hz",
-     "His house goes up on the rock. It takes longer. And for a while, in the good "
-     "weather, it does not look one bit better than any other house on the plain."),
-    # --- s6: jv25 — the storm, it fell not. SACRED SILENCE 2. ---
-    ("jv25", JESUS, "-26%", "-6Hz",
-     "And the rain descended, and the floods came, and the winds blew, and beat upon "
-     "that house; and it fell not: for it was founded upon a rock."),
-    ("n6", NARRATOR, "-22%", "-4Hz",
-     "The storm hit it with everything, and the house did not even move. Because of "
-     "what was underneath it."),
-    # --- s7: jv26 — the foolish man on the sand ---
-    ("n7", NARRATOR, "-22%", "-4Hz",
-     "Now the second man. He heard the very same words. But when he goes home, he "
-     "builds the fast, easy way, straight down on the smooth sand, and he skips the "
-     "digging altogether."),
-    ("jv26", JESUS, "-26%", "-6Hz",
-     "And every one that heareth these sayings of mine, and doeth them not, shall be "
-     "likened unto a foolish man, which built his house upon the sand."),
-    # --- s8: the finished sand house, careless ---
-    ("n8", NARRATOR, "-22%", "-4Hz",
-     "And here is the thing. His house looked fine. It went up faster, it stood there "
-     "in the sunshine, and you could not have told the two houses apart. Not until the "
-     "weather turned."),
-    # --- s9: jv27 — the fall. Under music, restrained. ---
-    ("jv27", JESUS, "-26%", "-6Hz",
-     "And the rain descended, and the floods came, and the winds blew, and beat upon "
-     "that house; and it fell: and great was the fall of it."),
-    ("n9", NARRATOR, "-23%", "-4Hz",
-     "The same dry riverbed became a wall of water, it tore the sand out from under "
-     "the house, and there was nothing left. The man got out. But everything he had "
-     "built was gone."),
-    # --- s10: the morning after — the WHY ---
-    ("n10", NARRATOR, "-22%", "-4Hz",
-     "Two houses. One storm. One standing, one swept away. And the only difference "
-     "between them was down in the foundation, where nobody could see it, until the "
-     "day the water came up and asked."),
-    # --- s11: frame return — the point ---
-    ("n11", NARRATOR, "-22%", "-4Hz",
-     "Do not miss what he is actually saying. Both men heard him. Hearing was never "
-     "the thing that made the difference. The wise man is simply the one who went home "
-     "and did something about what he heard."),
-    # --- s12: the invitation. Milk framing. ---
-    ("n12", NARRATOR, "-24%", "-4Hz",
-     "That is the whole invitation. Not to admire what he said, and not to be afraid "
-     "of the storm, but to build your actual life on his words, one of them at a time, "
-     "starting now, while the weather is still good. The door is open, and the light "
-     "is already on inside."),
-    # --- closing card, read gently (Readable-Card Law) ---
-    ("card", NARRATOR, "-26%", "-4Hz",
-     "Everybody on that hillside heard the very same words. The one whose house stood "
-     "was the one who went home and did them. What is one thing he said that you could "
-     "actually go and do this week?"),
+    ("n1", NARRATOR, "He had been teaching all afternoon, and he ended with a story about two men and two houses. It sounds simple. It is one of the most searching things he ever said."),
+    ("n2", NARRATOR, "Picture two men in that crowd. Both of them heard him. Every word. That matters, so hold onto it: both men heard exactly the same thing."),
+    ("n3", NARRATOR, "The first man goes home to build. In that country you build in the dry season, and the easy ground is the smooth, flat sand of a dry riverbed. But this man walks past the easy ground."),
+    ("n4", NARRATOR, "He digs. Down through the loose soil, all the way to bedrock, and he lays his foundation on the stone. It is slow, hard work, and when he is done not one person will ever see it. The whole house depends on the part nobody can see."),
+    # Matthew 7:24
+    ("jv24", JESUS, "Therefore whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which built his house upon a rock."),
+    ("n5", NARRATOR, "His house goes up on the rock. It takes longer. And for a while, in the good weather, it does not look one bit better than any other house on the plain."),
+    # Matthew 7:25
+    ("jv25", JESUS, "And the rain descended, and the floods came, and the winds blew, and beat upon that house; and it fell not: for it was founded upon a rock."),
+    ("n6", NARRATOR, "The storm hit it with everything, and the house did not even move. Because of what was underneath it."),
+    ("n7", NARRATOR, "Now the second man. He heard the very same words. But when he goes home, he builds the fast, easy way, straight down on the smooth sand, and he skips the digging altogether."),
+    # Matthew 7:26
+    ("jv26", JESUS, "And every one that heareth these sayings of mine, and doeth them not, shall be likened unto a foolish man, which built his house upon the sand."),
+    ("n8", NARRATOR, "And here is the thing. His house looked fine. It went up faster, it stood there in the sunshine, and you could not have told the two houses apart. Not until the weather turned."),
+    # Matthew 7:27
+    ("jv27", JESUS, "And the rain descended, and the floods came, and the winds blew, and beat upon that house; and it fell: and great was the fall of it."),
+    ("n9", NARRATOR, "The same dry riverbed became a wall of water, it tore the sand out from under the house, and there was nothing left. The man got out. But everything he had built was gone."),
+    ("n10", NARRATOR, "Two houses. One storm. One standing, one swept away. And the only difference between them was down in the foundation, where nobody could see it, until the day the water came up and asked."),
+    # Matthew 7:28-29
+    ("s28", SCRIPTURE, "And it came to pass, when Jesus had ended these sayings, the people were astonished at his doctrine: For he taught them as one having authority, and not as the scribes."),
+    ("n11a", NARRATOR, "When he finished, the crowd just sat there. They had never heard anyone teach like that. Their own scholars quoted other men. This one spoke as though the words belonged to him."),
+    ("n11", NARRATOR, "Do not miss what he is actually saying. Both men heard him. Hearing was never the thing that made the difference. The wise man is simply the one who went home and did something about what he heard."),
+    ("n12", NARRATOR, "That is the whole invitation. Not to admire what he said, and not to be afraid of the storm, but to build your actual life on his words, one of them at a time, starting now, while the weather is still good. The door is open, and the light is already on inside."),
+    ("card", NARRATOR, "Everybody on that hillside heard the very same words. The one whose house stood was the one who went home and did them. What is one thing he said that you could actually go and do this week?"),
 ]
+
+# Homographs this build decides for itself (never auto-replaced globally).
+SPOKEN = {}
 
 
 async def main():
-    for name, voice, rate, pitch, text in SEGMENTS:
-        await save_narration(text, voice, rate, pitch, f"audio/{name}.mp3")
-        print(f"saved audio/{name}.mp3")
+    os.makedirs("audio", exist_ok=True)
+    for name, speaker, text in SEGMENTS:
+        flagged = [w for w in audit(text) if w not in SPOKEN]
+        if flagged:
+            print(f"  ! {name}: undecided homograph(s) {flagged}")
+        await save_speaker_narration(spoken_text(text, SPOKEN), speaker,
+                                     f"audio/{name}.mp3")
+        print(f"saved audio/{name}.mp3  [{speaker}]")
+
 
 if __name__ == "__main__":
     asyncio.run(main())
