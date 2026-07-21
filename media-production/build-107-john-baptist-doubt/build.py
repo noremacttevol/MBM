@@ -23,6 +23,7 @@ import textwrap
 
 import make_narration  # SEGMENTS -> verbatim caption text per segment
 from mbm_caption_timing import caption_filter
+from mbm_speakers import is_scripture
 
 A = "assets"
 S = "segs"
@@ -48,28 +49,34 @@ S8 = "s8-jesus-praises-john.jpeg"
 S9 = "s9-the-answer-returns.jpeg"
 S10 = "s10-do-not-be-offended.jpeg"
 
-TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
-KJV = {"jv4", "jv6"}
+TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
+# SPEAKER-LAW: declared once in make_narration, so the caption colour
+# and the narration voice can never drift apart.
+SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 
 # BEATS: (segment_name, still, zoom_dir). Zoom alternates in/out on a shared still.
 BEATS = [
     ("n1", S1, "in"),
     ("n2", S2, "in"),
-    ("nq", S3, "in"),           # John's question (narrator, white) over the messengers
-    ("n3", S4, "in"),           # they ask Jesus; he is not offended
-    ("jv4", S5, "in"),          # the answer of evidence — sacred silence 1
+    ("nq", S3, "in"),
+    ("n3", S4, "in"),
+    ("s4a", S4, "out"),
+    ("jv4", S5, "in"),
     ("n4", S5, "out"),
-    ("n5", S6, "in"),           # the poor hear good news
-    ("jv6", S7, "in"),          # blessed is he — sacred silence 2
-    ("n6", S8, "in"),           # Jesus praises John to the crowd
-    ("n7", S9, "in"),           # the answer returns to the cell; John at peace
-    ("n7b", S10, "in"),         # do not be offended — the closing invitation
+    ("n5", S6, "in"),
+    ("jv6", S7, "in"),
+    ("n6", S8, "in"),
+    ("n7", S9, "in"),
+    ("n7b", S10, "in"),
 ]
 
 LEAD = 0.28
 GAP = 0.65
 KJV_GAP = 1.60
-CARD_HOLD = 4.2
+# No-dead-air law: the video ends TAIL seconds after the last spoken
+# word. Derived, never hand-set. Clears the card's 0.8s fade-out so
+# the last word and the fade are never clipped.
+TAIL = 1.5
 
 
 def run(cmd):
@@ -125,47 +132,7 @@ def chunk_caption(text, width, max_lines):
     return out
 
 
-def caption_layers(seg_id, dur, spoken_end, text, kjv):
-    # NOTE: this ffmpeg build renders a raw '\n' in a drawtext textfile as a .notdef
-    # tofu box (□) at every wrap point (text_shaping=0 does NOT help). So we NEVER put
-    # a newline in a textfile — each wrapped LINE is its own drawtext layer, stacked
-    # from the bottom. Adjacent per-line boxes (boxborderw) overlap into one clean bar.
-    if kjv:
-        font, size, color, width, maxl = SERIF_BI, 46, "0xFFF3DC", 38, 3
-    else:
-        font, size, color, width, maxl = SERIF, 34, "white", 48, 2
-    lh = int(size * 1.34)
-    chunks = chunk_caption(text, width, maxl)
-    total = sum(len(c) for c in chunks) or 1
-    t0, t1 = 0.15, max(0.6, min(dur - 0.2, spoken_end + 0.35))
-    filters, labels = [], []
-    acc = 0
-    for i, c in enumerate(chunks):
-        cs = t0 + (t1 - t0) * acc / total
-        acc += len(c)
-        ce = t0 + (t1 - t0) * acc / total
-        fo = max(cs, ce - 0.35)
-        lines = textwrap.wrap(c, width)
-        L = len(lines)
-        for j, ln in enumerate(lines):
-            tf = f"{S}/{seg_id}_{i}_{j}.txt"
-            with open(tf, "w") as f:
-                f.write(ln)
-            # bottom line sits at ~h-120-texth; earlier lines stack upward by lh
-            y = f"h-120-text_h-{(L - 1 - j) * lh}"
-            filters.append(
-                f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
-                f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
-                f"fontcolor={color}:x=(w-text_w)/2:y={y}:"
-                f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
-                f"box=1:boxcolor=black@0.58:boxborderw=22,"
-                f"fade=t=in:st={cs:.2f}:d=0.35:alpha=1,"
-                f"fade=t=out:st={fo:.2f}:d=0.35:alpha=1[cap{seg_id}{i}x{j}]")
-            labels.append(f"[cap{seg_id}{i}x{j}]")
-    return filters, labels
-
-
-def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, kjv, first):
+def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, speaker, first):
     frames = int(dur * FPS)
     if zdir == "in":
         z = f"1.001+0.09*on/{frames}"
@@ -175,7 +142,7 @@ def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, kjv, first):
             f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"d={frames}:s=2160x3840:fps={FPS},"
             f"scale=1080:1920:flags=lanczos")
-    cap = caption_filter(seg_id, dur, spoken_end, cap_text, kjv)
+    cap = caption_filter(seg_id, dur, spoken_end, cap_text, speaker)
     tail = ",fade=t=in:st=0:d=1.0" if first else ""
     fc = f"{base}{cap}{tail}[v]"
     run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
@@ -242,22 +209,22 @@ def main():
     start_of = {}
     t = 0.0
     for name, still, zdir in BEATS:
-        kjv = name in KJV
-        gap = KJV_GAP if kjv else GAP
+        speaker = SPEAKER[name]
+        gap = KJV_GAP if is_scripture(speaker) else GAP
         vdur = LEAD + spoken[name] + gap
         a_start = t + LEAD
         audio_place.append((f"audio/{name}.mp3", a_start))
         start_of[name] = a_start
-        timeline.append((name, still, zdir, vdur, a_start, kjv))
+        timeline.append((name, still, zdir, vdur, a_start, speaker))
         t += vdur
-    card_vdur = LEAD + card_spoken + CARD_HOLD
+    card_vdur = LEAD + card_spoken + TAIL
     card_start = t
     audio_place.append(("audio/card.mp3", card_start + LEAD))
     total = t + card_vdur
 
     worst, worst_at = 0.0, None
     prev_end = None
-    for name, _s, _z, _v, a_start, _k in timeline:
+    for name, _s, _z, _v, a_start, _sp in timeline:
         if prev_end is not None and a_start - prev_end > worst:
             worst, worst_at = a_start - prev_end, name
         prev_end = a_start + spoken[name]
@@ -268,9 +235,9 @@ def main():
     print(f"sacred silence 1 (the evidence): jv4 at {start_of['jv4']:.1f}s", flush=True)
     print(f"sacred silence 2 (blessed is he): jv6 at {start_of['jv6']:.1f}s", flush=True)
 
-    for i, (seg_id, still, zdir, vdur, _a, kjv) in enumerate(timeline):
+    for i, (seg_id, still, zdir, vdur, _a, speaker) in enumerate(timeline):
         build_still(seg_id, still, vdur, zdir, LEAD + spoken[seg_id],
-                    TEXT[seg_id], kjv, first=(i == 0))
+                    TEXT[seg_id], speaker, first=(i == 0))
     build_card(card_vdur, TEXT["card"])
 
     with open(f"{S}/concat.txt", "w") as f:
