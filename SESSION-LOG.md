@@ -1,3 +1,41 @@
+## 2026-07-21 — REBUILD SESSION: #137 BUILT, #140 prepped, #179 regen prepped, CHARACTER-LAW handoff (Machine A)
+
+Commit: (this commit). Claims pushed earlier in de92c678; #137 build in 1b5da0f1.
+
+- **The five "missing mp4s" (65/67/86/87/89) were NOT missing.** All five exist in
+  their canonical build dirs, pass admin/verify-mp4.sh, match origin/main
+  byte-for-byte, and their board URLs return 200. The confusion is five stale
+  duplicate STUB dirs (build-65-help-thou-mine-unbelief, build-67-transfiguration,
+  build-86-wise-men, build-87-boy-in-temple, build-89-last-supper) that hold
+  STILLS-WANTED markers and no mp4. Nothing was rebuilt; nothing needed it.
+  (Their rostered characters — Moses/Elijah, wise men, boy-Jesus, apostles — are
+  listed in CHARACTERS/WANTED.md for retro-check once sheets exist.)
+- **#137 "One, as we are one" (John 17:20-23) BUILT + SHIPPED** ($0, Flow Nano
+  Banana 2 via flow_driver.py, 6 stills + 1 reroll — s2 v1 showed a side profile,
+  killed per face-law v3). Two exact KJV red-letter Jesus lines with sacred holds;
+  two-oil-lamps visual (two flames, one light) carries the distinct-persons
+  argument; night per TIME-OF-DAY law; disciples distant/non-individual (no
+  sheets yet); AUTO-WRAP card; ear-check 1.00 x7; face-gate PASS; verify-mp4 OK;
+  20.2MB/1:33. On origin (bytes verified). Awaiting Cameron's yes.
+- **#140 Naaman washes (2 Kgs 5) PREP DONE, stills blocked.** New draft, narration
+  (11 segs; maid = WOMAN voice; whisper verified "Naaman" heard right), build.py
+  (AUTO-WRAP), 10 prompts. The 3 sheet-free stills generated + zoom-QC'd (2
+  rerolls: v1 gave the maid a MAN listener instead of her mistress; v1 messenger
+  read cream). The 7 Naaman stills are BLOCKED on his Cameron-approved sheet.
+- **#179 Stephen's witness regen PREPPED, stills blocked.** s3 vision prompt fully
+  rewritten to TWO distinct glorified personages (Jesus LEFT standing at the
+  Father's own right hand, Father RIGHT per GOD-THE-FATHER-LOCK, pure-white vs
+  cream), old "Father never depicted / One figure only" language purged from
+  header + s8; martyrdom-care untouched; narration already correct (unchanged).
+  Waiting on the Father sheet RENDER + approval and a Stephen sheet.
+- **CHARACTER-LAW handoff written: media-production/CHARACTERS/WANTED.md** —
+  blocking list (Father render, Stephen, Naaman, Elisha), the #137 disciples
+  dependency, and the retro-check roster for 65/67/86/87/89.
+- Git notes: shared clone had a stale-rebase autostash + UU conflicts from
+  2026-07-20 — resolved to upstream versions (stash copies were stale), explicit-
+  path staging only throughout. Cron shipper raced one push; resolved on rebase.
+  $0 session — Flow only, no paid API.
+
 ## 2026-07-17 — CAPTION-LAW REPAIR: all 42 violating videos fixed + shipped (Machine C)
 
 Commit: 4c63345 (chain of ~10 caption-law commits; final = site index regen).
