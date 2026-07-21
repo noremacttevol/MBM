@@ -69,7 +69,7 @@ edge to edge, no panels.
 ### full-body (attach face-front.jpeg as --ref)
 [STYLE BLOCK] The SAME man as the attached reference image — identical face,
 hair and beard: a full-length standing figure, head to feet fully in frame:
-Daniel, a wise young court exile of about thirty-five, standing upright with
+Daniel, the SAME young man of about thirty-five as the attached reference with the same short dark beard,, a wise young court exile of about thirty-five, standing upright with
 courtly composure, hands folded calmly before him, wearing a dark brown
 ankle-length Babylonian-cut robe over an olive under-tunic with a muted
 indigo sash, simple leather sandals — modest cloth, dignified drape, no gold
