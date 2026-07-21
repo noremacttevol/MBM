@@ -703,6 +703,26 @@ first time.
 
 ## 5. QC Checklist (every video, before Cameron ever sees it)
 
+- [ ] 🛑 **MINISTRY GATE (Cameron, 2026-07-20 — the FIRST check, before any technical QC):**
+      Every other check on this list is machine-checkable, and that is exactly why
+      the 200 filled up with repeats, 1-minute compressions, and rows closed for
+      the board's sake. So before a cut ships to the review board, the builder
+      does ONE honest viewing as the person it's aimed at — a stranger with no
+      faith background (rows 1–100), a believer whose inherited theology hurt
+      them (101–150), or a member who wants the depth (151–200) — and answers
+      four questions IN WRITING in the build folder (MINISTRY-GATE.md):
+      1. What does this video teach about Jesus, in one sentence? If you can't
+         write the sentence, the video doesn't know either. Rebuild.
+      2. Does every claim come from the scripture on screen — nothing smuggled
+         in from the traditions of men, and nothing watered down from what the
+         text plainly says?
+      3. Did the story get its full weight — every beat, at its natural length —
+         or was it compressed to close a row? A story cut short to save art
+         cost FAILS this gate regardless of passing every technical check.
+      4. Would this cut, alone, make its target viewer want the next video?
+      A cut that fails any answer goes back to the bench, not to Cameron. His
+      board is for judging ministry, not for catching what QC skipped.
+
 - [ ] 🛑 **STORY COVERAGE LAW (Cameron, 2026-07-19 — see STORY-COVERAGE-LAW.md):**
       NO fixed picture count. One still per story BEAT — every action, reaction,
       realization and arrival the narration describes gets its own picture; a
