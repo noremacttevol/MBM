@@ -34,7 +34,7 @@ LOCKED by build-119: a rich PURPLE-AND-GOLD royal robe — deep royal purple
 with broad gold embroidery and trim — and a TALL GOLDEN CROWN. Gold
 armbands, rich dark under-tunic, royal sandals. Never cream, never off-white.
 (Build-160 rendered him in dark purple-and-red with a circlet; the build-119
-purple-and-gold robe with the tall golden crown is the LOCKED look going
+purple-and-gold robe with the tall golden crown of the SAME smooth conical shape as the reference (never crenellated, never spiked) is the LOCKED look going
 forward.)
 
 ## Generation prompts (Nano Banana 2 · 9:16 · 1x, flow_driver.py)
@@ -59,7 +59,7 @@ One single continuous scene painted edge to edge, no panels.
 [STYLE BLOCK] The SAME man as the attached reference image — identical face,
 hair, beard and crown: a reverent three-quarter bust portrait of King
 Nebuchadnezzar of Babylon, proud and dark-bearded, squared curled royal
-beard, rich purple-and-gold royal robe, tall golden crown, turned
+beard, rich purple-and-gold royal robe, tall golden crown of the SAME smooth conical shape as the reference (never crenellated, never spiked), turned
 three-quarters toward warm torch-gold light, imperious and commanding. Plain
 muted earth-tone background. One single continuous scene painted edge to
 edge, no panels.
@@ -69,7 +69,7 @@ edge, no panels.
 hair, beard and crown: a full-length standing figure, head to feet fully in
 frame: King Nebuchadnezzar of Babylon, a proud dark-bearded king in his
 fifties, standing in full royal state, a rich ankle-length royal purple robe
-with broad gold embroidery and trim, a tall golden crown, gold armbands, rich
+with broad gold embroidery and trim, a tall golden crown of the SAME smooth conical shape as the reference (never crenellated, never spiked), gold armbands, rich
 dark under-tunic, royal sandals, one hand raised in command. Proud imperial
 bearing. Plain muted earth-tone background, gentle ground shadow. Every
 figure has two arms, two hands, two legs and one head. One single continuous

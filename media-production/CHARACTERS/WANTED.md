@@ -45,3 +45,11 @@ sheets are not ready — flagging so the character session knows the dependency.
   prep (narration, scripts, build.py) until the BLOCKING sheets above are
   approved. Nothing here has been generated — sheets are the character
   session's to render, Cameron's to approve (CHARACTER-LAW rules 5-6).
+
+## 2026-07-21 — CHARACTER SESSION COMPLETE
+All BLOCKING sheets (God the Father, Stephen, Naaman, Elisha) plus the full
+63-character roster are RENDERED and awaiting Cameron's approval at
+https://milk-b4-meat.web.app/characters.html. #137/#140/#179 unblock the
+moment Cameron approves their characters. Young Jesus (boy ~12) variant sheet
+exists (CHARACTERS/young-jesus). Retro-check of already-shipped videos against
+the new sheets is a follow-up job once approvals land.

@@ -1,3 +1,24 @@
+## 2026-07-21 — CHARACTER BIBLE SESSION: all 63 reference sheets rendered + on the board (Machine A)
+
+Commit: (this commit). CHARACTER-LAW roster finalized by scanning all 201 build
+PROMPTS.md + the name harvest: 26 NT + 35 OT + Young Jesus variant + God the
+Father render (Jesus already locked). Every character has CHARACTERS/<slug>/
+SPEC.md (KJV citations, shipped-lock-faithful description, locked wardrobe,
+3 generation prompts) and a rendered 3-view sheet (face front / three-quarter /
+full body, same person), zoom-QC'd; ~25 views rerolled for identity drift,
+insets, halos, borders, wrong ages. AWAITING CAMERON'S APPROVAL:
+https://milk-b4-meat.web.app/characters.html (also CHARACTERS/_approval-*.jpg).
+Nothing is locked or used in videos until he approves (rules 5-6).
+
+Infrastructure this session: flow_driver.py gained a profile flock (two
+same-machine sessions were colliding on Chrome + could steal each other's
+gallery images); CHARACTERS/render_sheet.py (SPEC->3 gens with identity/
+background/anti-inset guards); qc_strip.py; approval_sheet.py. Firebase deploy
+from this machine worked (prune + concurrency 4). Blocked builds #137/#140/#179
+unblock on approval of Father/Stephen/Naaman/Elisha (WANTED.md updated).
+Follow-up once approvals land: retro-check shipped videos (#67/#86/#87/#89)
+against the sheets.
+
 ## 2026-07-21 — PRONUNCIATION SWEEP: all 200 final mp4s whisper-audited, 10 complaints cleared, 11 videos re-cut (Machine A)
 
 Commit: (this commit) — chain: 93b5ff71 (fix tool + #17/#119 scripts), eb58d0e2 (#22 owesst restore), 0da7ffa7 (maketh SAY_BY_VOICE + 5 build fixes + lib sync).

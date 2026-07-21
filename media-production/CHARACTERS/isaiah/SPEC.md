@@ -44,7 +44,7 @@ wool and linen in undyed earth colors. No modern objects.
 
 ### face-front (no ref — this creates the identity)
 [STYLE BLOCK] A reverent close bust portrait, facing the viewer directly:
-Isaiah the prophet, a dignified older Middle-Eastern man of about sixty,
+Isaiah, bare-headed with NO hood, a FULL head of thick swept-back grey-white hair and a LONG grey-white beard, the prophet, a dignified older Middle-Eastern man of about sixty,
 weathered olive-brown skin, a long flowing grey-white beard, grey-white hair,
 deep wise kind eyes, his face grave and hopeful. He wears flowing robes of
 undyed deep-brown and olive wool with a mantle over his shoulders — dark

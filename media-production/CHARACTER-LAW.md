@@ -63,6 +63,13 @@ recurs in a new story, rule 4 kicks in: sheet first.
 
 ## Status board
 
+**2026-07-21 — ALL 63 SHEETS RENDERED.** Every sheet is on Cameron's approval
+board: **https://milk-b4-meat.web.app/characters.html** (labeled contact
+sheets also at `CHARACTERS/_approval-1-NT.jpg` / `_approval-2-OT.jpg`).
+Nothing is locked until Cameron approves; a rejected name gets rerolled and
+reposted. Render harness: `CHARACTERS/render_sheet.py` (per-view rerolls =
+delete the jpeg and rerun); QC: `CHARACTERS/qc_strip.py`.
+
 | Character | SPEC.md | Sheet rendered | Cameron approved |
 |---|---|---|---|
 | Jesus | ✅ (face-law v3) | ✅ JESUS-MASTER-REF | ✅ |
@@ -119,13 +126,13 @@ recurs in a new story, rule 4 kicks in: sheet first.
 | Jonah | ✅ | ✅ | ⬜ |
 | Daniel | ✅ | ✅ | ⬜ |
 | Shadrach | ✅ | ✅ | ⬜ |
-| Meshach | ✅ | ⬜ | ⬜ |
-| Abednego | ✅ | ⬜ | ⬜ |
-| Nebuchadnezzar | ✅ | ⬜ | ⬜ |
-| Isaiah | ✅ | ⬜ | ⬜ |
-| Jeremiah | ✅ | ⬜ | ⬜ |
-| Ezekiel | ✅ | ⬜ | ⬜ |
-| Hosea | ✅ | ⬜ | ⬜ |
-| Gomer | ✅ | ⬜ | ⬜ |
-| Joel | ✅ | ⬜ | ⬜ |
-| Malachi | ✅ | ⬜ | ⬜ |
+| Meshach | ✅ | ✅ | ⬜ |
+| Abednego | ✅ | ✅ | ⬜ |
+| Nebuchadnezzar | ✅ | ✅ | ⬜ |
+| Isaiah | ✅ | ✅ | ⬜ |
+| Jeremiah | ✅ | ✅ | ⬜ |
+| Ezekiel | ✅ | ✅ | ⬜ |
+| Hosea | ✅ | ✅ | ⬜ |
+| Gomer | ✅ | ✅ | ⬜ |
+| Joel | ✅ | ✅ | ⬜ |
+| Malachi | ✅ | ✅ | ⬜ |
