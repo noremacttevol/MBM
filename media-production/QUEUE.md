@@ -92,6 +92,37 @@ fix in one pass at the end. Also AUDIT every already-approved video for this fau
 | 47 | Houses on rock and sand | check for long captions — FIXED 2026-07-17 |
 | ALL | every approved video | audit for whole-picture captions |
 
+## 🧍 CHARACTER-SESSION BLOCK LIST (picture-QC session, 2026-07-21)
+
+Per CHARACTER-LAW.md + Cameron's prerequisite, only Jesus has a Cameron-approved
+sheet (JESUS-MASTER-REF). Every video below DEPICTS a rostered character whose
+sheet is not approved yet, so its still-QC/regeneration is BLOCKED until the
+character session locks the sheets. Open Cameron complaints stuck behind this:
+**#3** (Zacchaeus looking wrong way — needs Zacchaeus sheet), **#19** (extra
+first-catch beats — needs Peter/John), **#90** (missing shirt — needs Peter/John
+in frame), **#113** (God's embodied look — needs God-the-Father sheet), **#135**
+(Noah family headcount — needs Noah), **#153** (weird 1:12 — needs Peter),
+**#157** (giant at 0:42 — needs Isaiah if his still is involved). #107 was fixed
+anyway because Cameron named the keeper (first John still) as the ref.
+
+Blocked builds (character(s) needing sheets): 3 (Zacchaeus) · 7 (Peter) · 10 (Jacob) ·
+19 (Peter, John) · 22 (Peter) · 37 (Abraham, Lazarus) · 40 (God the Father) ·
+48 (John) · 49 (Mary mother) · 51 (Peter, James, John) · 53 (Peter+3) ·
+57 (Peter, James, John) · 58 (Andrew) · 66 (Peter) · 67 (Peter, James, John,
+Moses, Elijah, the Father) · 69 (John the Baptist, the Father) · 71 (4
+fishermen) · 72 (Matthew) · 73 (Isaiah) · 84/85/86 (Mary, Joseph) · 87 (Mary,
+Joseph) · 88 (crowd w/ Matthew?) · 89 (the Twelve) · 90 (Peter, John) · 91
+(Peter, James, John) · 93 (Pilate) · 98 (Mary Magdalene) · 111 (the Father) ·
+113 (Adam, Eve, the Father) · 119 (Nebuchadnezzar+3) · 130 (James, John) · 132
+(John) · 133 (the Father) · 135 (Noah) · 137 (Stephen, the Father) · 147
+(Joseph of Egypt) · 148 (Ruth, Naomi, Boaz) · 149 (Hannah, Eli, Samuel) · 153
+(Peter) · 155 (Paul) · 157 (Isaiah) · 160 (Daniel, Nebuchadnezzar) · 161
+(Moses) · 162 (Peter) · 165 (Peter, John) · 166 (Paul, John) · 168 (Nicodemus) ·
+169 (John the Baptist, the Father) · 174 (Elijah) · 177 (Moses) · 178 (Adam,
+Eve) · 179 (Stephen, the Father — also in Fix queue) · 180 (Jeremiah) · 184
+(Paul) · 186 (Paul) · 190 (Abraham, Isaac, James) · 196 (Moses) · 197 (Peter) ·
+199 (Jeremiah)
+
 ## The 200
 
 | # | Story | Ref | Prep | Built | Appr | Post | Claim / notes |
