@@ -405,6 +405,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-21",
+   "note": "Audio was too quiet (-19.2 LUFS instead of the -15 standard) after the narration re-record. Raised it to -14.5 so it matches every other video. Nothing else changed."
   }
  ],
  "177": [
