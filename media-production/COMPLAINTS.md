@@ -12,7 +12,7 @@ touching anything else. Do NOT edit by hand.
 |---|---|---|
 | 7 | newer cut shipped — VERIFY fixed | the words only picture at the end is messed up and out of the frame  on the edges it should be 2 or 3 lines |
 | 8 | newer cut shipped — VERIFY fixed | Call eth calleth pronounced wrong. |
-| 9 | UNFIXED | Running raight oast jesus is what the picture looks like |
+| 9 | newer cut shipped — VERIFY fixed | Running raight oast jesus is what the picture looks like |
 | 10 | newer cut shipped — VERIFY fixed | My previous complaints were not fixed all 3 of them are still here |
 | 17 | UNFIXED | captions are messed up and the voice  is messed  up and is misspronouncing livest and  other old english pronunciation. |
 | 18 | newer cut shipped — VERIFY fixed | Same problems. Same main problem that nothing i say is getting fixed. Jesus once in one picture had short hair. Not like you care |
