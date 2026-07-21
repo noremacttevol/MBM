@@ -66,7 +66,10 @@ SAY = {
     # as "abideth" (denial #146, 2026-07-19).
     "Zacchaeus": "Zakkeeus",
     "abideth": "abiedeth",
-    "abide": "abied",
+    # "abide": "abied" REMOVED 2026-07-20: the shipped-audio audit caught the
+    # respell itself producing "abbey" (#3 j1b jesus) and "abbeyed" (#126 card
+    # narrator); plain "abide" scored 100% in both contexts. abideth keeps its
+    # measured fix; the bare verb never needed one.
 }
 
 # ---- 1b. PER-VOICE: winners from test_names.py (NAMES/respellings.json) -----
@@ -78,6 +81,13 @@ SAY_BY_VOICE = {
     "Gennesaret": {"narrator": "gunnessuhret"},
     "Esaias": {"scripture": "izayus"},
     "Judaea": {"jesus": "joodeeuh"},
+    # maketh (2026-07-21, measured this session): Eric reads the plain word as
+    # "MOCK-eth" (#124 shipped audio + fresh A/B; Cameron denial #188 was the
+    # same defect) and Steffan reads it "MOCKED (with)" (#150 Psalm 23 shipped
+    # audio, 2/2 takes). Winners per voice: 'mayketh' round-trips clean in Eric;
+    # 'makith' round-trips back as the exact word "maketh" in Steffan. Andrew's
+    # plain "maketh" tested fine — no narrator entry on purpose.
+    "maketh": {"jesus": "mayketh", "scripture": "makith"},
 }
 
 # ---- 2. PER-SEGMENT ONLY: never auto-replace these --------------------------
