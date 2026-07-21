@@ -1,5 +1,25 @@
 # THE 200 — PHASE 2 ARCHIVE (Book of Mormon / Restoration scenes)
 
+## ⭐ BATCH 1 — FRONT OF THE LINE (Bible-only gaps found by the 2026-07-20 full-200
+## ministry review; these build FIRST when weekly post-launch batches start)
+
+- **Eternal marriage and family** — Matt 19:4–6 "what therefore God hath joined
+  together" + 1 Cor 11:11 "neither is the man without the woman... in the Lord."
+  MEMBER shelf. The biggest single gap in the launch 200 — an LDS app with no row on
+  the family. Pairs with row 174 (Elijah, hearts of the fathers). → GL: Marriage; Family
+- **A priest for ever, after the order of Melchisedec** — Heb 5–7 + Ps 110:4. MEMBER.
+  Row 161 proves authority must be conferred; this names the higher priesthood that
+  was restored. Completes the authority section. → GL: Melchizedek Priesthood
+- **Daniel's pulse and water** — Dan 1:8–17. MEMBER discipleship. The Bible's own
+  Word-of-Wisdom story: the body as a stewardship. → GL: Word of Wisdom
+- **The shepherds who fed themselves** — Ezek 34, and God's answer: "I myself will
+  search for my sheep." BRIDGE. For the person hurt BY church people — the wound the
+  launch 50 doesn't yet answer. No church named; God indicts bad shepherds himself.
+- **"Call me Mara"** — Ruth 1. BRIDGE, come-remember. Naomi came home bitter and was
+  still gathered in. For the one who returns angry, not humble — and is welcome anyway.
+
+(Full reasoning: AUDITS/2026-07-20-full-200-ministry-review.md)
+
 > Archived 2026-07-15 from THE-200 v1 Section IX, per Cameron: these 20 designs are
 > NOT in the current 200. They are preserved intact for a later phase — possibly
 > after contact with the Church. Do not build these without Cameron's explicit word.
