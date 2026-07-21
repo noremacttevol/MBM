@@ -21,7 +21,7 @@ import os
 import subprocess
 import textwrap
 
-import make_narration  # SEGMENTS -> (id, speaker, verbatim caption text)
+import make_narration  # SEGMENTS -> verbatim caption text per segment
 from mbm_caption_timing import caption_filter
 from mbm_speakers import is_scripture
 
@@ -50,29 +50,27 @@ S9 = "s9-the-shining-face.jpeg"
 S10 = "s10-a-friend-of-god.jpeg"
 
 TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
-# SPEAKER-LAW: who is talking comes from make_narration, the one place it is declared,
-# so the caption colour and the narration voice can never drift apart.
+# SPEAKER-LAW: declared once in make_narration, so the caption colour
+# and the narration voice can never drift apart.
 SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 
 # BEATS: (segment_name, still, zoom_dir). Zoom alternates in/out on a shared still.
-# A split segment stays on the SAME still — consecutive beats over one image — so no
-# new artwork is needed and the edit the viewer sees is unchanged.
 BEATS = [
     ("n1", S1, "in"),
     ("n2", S2, "in"),
     ("n3", S3, "in"),
     ("n4", S4, "in"),
-    ("sface", S5, "in"),        # Ex 33:11 verbatim (scripture, light blue)
-    ("n5", S5, "out"),          # retold plainly
-    ("g14", S5, "in"),          # Ex 33:14 Jehovah (green) — sacred silence 1
-    ("n5b", S5, "out"),         # retold plainly
+    ("nface", S5, "in"),
+    ("n5", S5, "out"),
+    ("jv14", S5, "in"),
+    ("n5b", S5, "out"),
     ("n6", S6, "in"),
-    ("s18", S6, "out"),         # Ex 33:18 Moses asks (scripture, light blue)
-    ("g19", S6, "in"),          # Ex 33:19 Jehovah (green)
-    ("n6b", S7, "in"),          # retold plainly
-    ("g20", S7, "out"),         # Ex 33:20 Jehovah (green) — sacred silence 2
-    ("n6c", S7, "in"),          # retold plainly
-    ("n7", S8, "in"),
+    ("s18", S6, "out"),
+    ("jv19", S6, "in"),
+    ("n6b", S7, "in"),
+    ("jv20", S7, "out"),
+    ("n6c", S8, "in"),
+    ("n7", S8, "out"),
     ("n8", S9, "in"),
     ("n9", S10, "in"),
 ]
@@ -80,9 +78,9 @@ BEATS = [
 LEAD = 0.28
 GAP = 0.65
 KJV_GAP = 1.60
-# No-dead-air law: the video ends TAIL seconds after the last spoken word.
-# CARD_HOLD is derived from that, never hand-set. Must clear the card's 0.8s
-# fade-out so the last word and the fade are never clipped.
+# No-dead-air law: the video ends TAIL seconds after the last spoken
+# word. Derived, never hand-set. Clears the card's 0.8s fade-out so
+# the last word and the fade are never clipped.
 TAIL = 1.5
 
 
@@ -137,46 +135,6 @@ def chunk_caption(text, width, max_lines):
     if cur:
         out.append(cur)
     return out
-
-
-def caption_layers(seg_id, dur, spoken_end, text, kjv):
-    # NOTE: this ffmpeg build renders a raw '\n' in a drawtext textfile as a .notdef
-    # tofu box (□) at every wrap point (text_shaping=0 does NOT help). So we NEVER put
-    # a newline in a textfile — each wrapped LINE is its own drawtext layer, stacked
-    # from the bottom. Adjacent per-line boxes (boxborderw) overlap into one clean bar.
-    if kjv:
-        font, size, color, width, maxl = SERIF_BI, 46, "0xFFF3DC", 38, 3
-    else:
-        font, size, color, width, maxl = SERIF, 34, "white", 48, 2
-    lh = int(size * 1.34)
-    chunks = chunk_caption(text, width, maxl)
-    total = sum(len(c) for c in chunks) or 1
-    t0, t1 = 0.15, max(0.6, min(dur - 0.2, spoken_end + 0.35))
-    filters, labels = [], []
-    acc = 0
-    for i, c in enumerate(chunks):
-        cs = t0 + (t1 - t0) * acc / total
-        acc += len(c)
-        ce = t0 + (t1 - t0) * acc / total
-        fo = max(cs, ce - 0.35)
-        lines = textwrap.wrap(c, width)
-        L = len(lines)
-        for j, ln in enumerate(lines):
-            tf = f"{S}/{seg_id}_{i}_{j}.txt"
-            with open(tf, "w") as f:
-                f.write(ln)
-            # bottom line sits at ~h-120-texth; earlier lines stack upward by lh
-            y = f"h-120-text_h-{(L - 1 - j) * lh}"
-            filters.append(
-                f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
-                f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
-                f"fontcolor={color}:x=(w-text_w)/2:y={y}:"
-                f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
-                f"box=1:boxcolor=black@0.58:boxborderw=22,"
-                f"fade=t=in:st={cs:.2f}:d=0.35:alpha=1,"
-                f"fade=t=out:st={fo:.2f}:d=0.35:alpha=1[cap{seg_id}{i}x{j}]")
-            labels.append(f"[cap{seg_id}{i}x{j}]")
-    return filters, labels
 
 
 def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, speaker, first):
@@ -279,9 +237,8 @@ def main():
     print(f"worst spoken gap: {worst:.2f}s before {worst_at} (must be <= 2.5s)", flush=True)
     if worst > 2.5:
         raise SystemExit(f"DEAD AIR: {worst:.2f}s gap before {worst_at} exceeds 2.5s")
-    print(f"sacred silence 1 (my presence): g14 at {start_of['g14']:.1f}s", flush=True)
-    print(f"sacred silence 2 (canst not see my face): g20 at {start_of['g20']:.1f}s", flush=True)
-    print(f"trailing dead air: {TAIL:.1f}s (law: 1.5s target, 3.0s ceiling)", flush=True)
+    print(f"sacred silence 1 (my presence): jv14 at {start_of['jv14']:.1f}s", flush=True)
+    print(f"sacred silence 2 (canst not see my face): jv20 at {start_of['jv20']:.1f}s", flush=True)
 
     for i, (seg_id, still, zdir, vdur, _a, speaker) in enumerate(timeline):
         build_still(seg_id, still, vdur, zdir, LEAD + spoken[seg_id],
@@ -295,15 +252,15 @@ def main():
     run([FF, "-y", "-f", "concat", "-safe", "0", "-i", f"{S}/concat.txt",
          "-c", "copy", f"{S}/video_silent.mp4"])
 
-    p1_end = start_of["g14"] + spoken["g14"]
-    p2_end = start_of["g20"] + spoken["g20"]
+    p1_end = start_of["jv14"] + spoken["jv14"]
+    p2_end = start_of["jv20"] + spoken["jv20"]
     beds = [
-        (0.0, start_of["g14"] - 1.2, "b"),
-        (p1_end + 1.0, start_of["g20"] - 1.0, "a"),
+        (0.0, start_of["jv14"] - 1.2, "b"),
+        (p1_end + 1.0, start_of["jv20"] - 1.0, "a"),
         (p2_end + 1.0, card_start - 0.8, "a"),
     ]
-    print(f"music: bed out at {start_of['g14'] - 1.2:.1f}s, silent through g14 "
-          f"(ends {p1_end:.1f}s); returns; silent again through g20 "
+    print(f"music: bed out at {start_of['jv14'] - 1.2:.1f}s, silent through jv14 "
+          f"(ends {p1_end:.1f}s); returns; silent again through jv20 "
           f"(ends {p2_end:.1f}s)", flush=True)
 
     inputs, filters, labels = [], [], []
