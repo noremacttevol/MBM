@@ -66,66 +66,66 @@ recurs in a new story, rule 4 kicks in: sheet first.
 | Character | SPEC.md | Sheet rendered | Cameron approved |
 |---|---|---|---|
 | Jesus | ✅ (face-law v3) | ✅ JESUS-MASTER-REF | ✅ |
-| God the Father | ✅ GOD-THE-FATHER-LOCK | ⬜ | ⬜ |
-| Stephen | ⬜ | ⬜ | ⬜ |
-| Naaman | ⬜ | ⬜ | ⬜ |
-| Elisha | ⬜ | ⬜ | ⬜ |
-| Peter | ⬜ | ⬜ | ⬜ |
-| John (beloved) | ⬜ | ⬜ | ⬜ |
-| James (son of Zebedee) | ⬜ | ⬜ | ⬜ |
-| Andrew | ⬜ | ⬜ | ⬜ |
-| Matthew | ⬜ | ⬜ | ⬜ |
-| Thomas | ⬜ | ⬜ | ⬜ |
-| Judas Iscariot | ⬜ | ⬜ | ⬜ |
-| John the Baptist | ⬜ | ⬜ | ⬜ |
-| Mary (mother of Jesus) | ⬜ | ⬜ | ⬜ |
-| Joseph of Nazareth | ⬜ | ⬜ | ⬜ |
-| Mary Magdalene | ⬜ | ⬜ | ⬜ |
-| Martha | ⬜ | ⬜ | ⬜ |
-| Mary of Bethany | ⬜ | ⬜ | ⬜ |
-| Lazarus | ⬜ | ⬜ | ⬜ |
-| Zacchaeus | ⬜ | ⬜ | ⬜ |
-| Nicodemus | ⬜ | ⬜ | ⬜ |
-| Pilate | ⬜ | ⬜ | ⬜ |
-| Paul | ⬜ | ⬜ | ⬜ |
-| Bartimaeus | ⬜ | ⬜ | ⬜ |
-| Jairus | ⬜ | ⬜ | ⬜ |
-| Cleopas | ⬜ | ⬜ | ⬜ |
-| Barabbas | ⬜ | ⬜ | ⬜ |
-| Zebedee | ⬜ | ⬜ | ⬜ |
-| Malchus | ⬜ | ⬜ | ⬜ |
-| Simon the Pharisee | ⬜ | ⬜ | ⬜ |
-| Young Jesus (boy ~12) | ⬜ | ⬜ | ⬜ |
-| Adam | ⬜ | ⬜ | ⬜ |
-| Eve | ⬜ | ⬜ | ⬜ |
-| Noah | ⬜ | ⬜ | ⬜ |
-| Abraham | ⬜ | ⬜ | ⬜ |
-| Sarah | ⬜ | ⬜ | ⬜ |
-| Isaac | ⬜ | ⬜ | ⬜ |
-| Jacob | ⬜ | ⬜ | ⬜ |
-| Joseph (of Egypt) | ⬜ | ⬜ | ⬜ |
-| Moses | ⬜ | ⬜ | ⬜ |
-| Aaron | ⬜ | ⬜ | ⬜ |
-| Joshua | ⬜ | ⬜ | ⬜ |
-| Elijah | ⬜ | ⬜ | ⬜ |
-| Eli | ⬜ | ⬜ | ⬜ |
-| Samuel | ⬜ | ⬜ | ⬜ |
-| Hannah | ⬜ | ⬜ | ⬜ |
-| David | ⬜ | ⬜ | ⬜ |
-| Ruth | ⬜ | ⬜ | ⬜ |
-| Naomi | ⬜ | ⬜ | ⬜ |
-| Boaz | ⬜ | ⬜ | ⬜ |
-| Job | ⬜ | ⬜ | ⬜ |
-| Jonah | ⬜ | ⬜ | ⬜ |
-| Daniel | ⬜ | ⬜ | ⬜ |
-| Shadrach | ⬜ | ⬜ | ⬜ |
-| Meshach | ⬜ | ⬜ | ⬜ |
-| Abednego | ⬜ | ⬜ | ⬜ |
-| Nebuchadnezzar | ⬜ | ⬜ | ⬜ |
-| Isaiah | ⬜ | ⬜ | ⬜ |
-| Jeremiah | ⬜ | ⬜ | ⬜ |
-| Ezekiel | ⬜ | ⬜ | ⬜ |
-| Hosea | ⬜ | ⬜ | ⬜ |
-| Gomer | ⬜ | ⬜ | ⬜ |
-| Joel | ⬜ | ⬜ | ⬜ |
-| Malachi | ⬜ | ⬜ | ⬜ |
+| God the Father | ✅ GOD-THE-FATHER-LOCK | ✅ | ⬜ |
+| Stephen | ✅ | ✅ | ⬜ |
+| Naaman | ✅ | ✅ | ⬜ |
+| Elisha | ✅ | ✅ | ⬜ |
+| Peter | ✅ | ⬜ | ⬜ |
+| John (beloved) | ✅ | ⬜ | ⬜ |
+| James (son of Zebedee) | ✅ | ⬜ | ⬜ |
+| Andrew | ✅ | ⬜ | ⬜ |
+| Matthew | ✅ | ⬜ | ⬜ |
+| Thomas | ✅ | ⬜ | ⬜ |
+| Judas Iscariot | ✅ | ⬜ | ⬜ |
+| John the Baptist | ✅ | ⬜ | ⬜ |
+| Mary (mother of Jesus) | ✅ | ⬜ | ⬜ |
+| Joseph of Nazareth | ✅ | ⬜ | ⬜ |
+| Mary Magdalene | ✅ | ⬜ | ⬜ |
+| Martha | ✅ | ⬜ | ⬜ |
+| Mary of Bethany | ✅ | ⬜ | ⬜ |
+| Lazarus | ✅ | ⬜ | ⬜ |
+| Zacchaeus | ✅ | ⬜ | ⬜ |
+| Nicodemus | ✅ | ⬜ | ⬜ |
+| Pilate | ✅ | ⬜ | ⬜ |
+| Paul | ✅ | ⬜ | ⬜ |
+| Bartimaeus | ✅ | ⬜ | ⬜ |
+| Jairus | ✅ | ⬜ | ⬜ |
+| Cleopas | ✅ | ⬜ | ⬜ |
+| Barabbas | ✅ | ⬜ | ⬜ |
+| Zebedee | ✅ | ⬜ | ⬜ |
+| Malchus | ✅ | ⬜ | ⬜ |
+| Simon the Pharisee | ✅ | ⬜ | ⬜ |
+| Young Jesus (boy ~12) | ✅ | ⬜ | ⬜ |
+| Adam | ✅ | ⬜ | ⬜ |
+| Eve | ✅ | ⬜ | ⬜ |
+| Noah | ✅ | ⬜ | ⬜ |
+| Abraham | ✅ | ⬜ | ⬜ |
+| Sarah | ✅ | ⬜ | ⬜ |
+| Isaac | ✅ | ⬜ | ⬜ |
+| Jacob | ✅ | ⬜ | ⬜ |
+| Joseph (of Egypt) | ✅ | ⬜ | ⬜ |
+| Moses | ✅ | ⬜ | ⬜ |
+| Aaron | ✅ | ⬜ | ⬜ |
+| Joshua | ✅ | ⬜ | ⬜ |
+| Elijah | ✅ | ⬜ | ⬜ |
+| Eli | ✅ | ⬜ | ⬜ |
+| Samuel | ✅ | ⬜ | ⬜ |
+| Hannah | ✅ | ⬜ | ⬜ |
+| David | ✅ | ⬜ | ⬜ |
+| Ruth | ✅ | ⬜ | ⬜ |
+| Naomi | ✅ | ⬜ | ⬜ |
+| Boaz | ✅ | ⬜ | ⬜ |
+| Job | ✅ | ⬜ | ⬜ |
+| Jonah | ✅ | ⬜ | ⬜ |
+| Daniel | ✅ | ⬜ | ⬜ |
+| Shadrach | ✅ | ⬜ | ⬜ |
+| Meshach | ✅ | ⬜ | ⬜ |
+| Abednego | ✅ | ⬜ | ⬜ |
+| Nebuchadnezzar | ✅ | ⬜ | ⬜ |
+| Isaiah | ✅ | ⬜ | ⬜ |
+| Jeremiah | ✅ | ⬜ | ⬜ |
+| Ezekiel | ✅ | ⬜ | ⬜ |
+| Hosea | ✅ | ⬜ | ⬜ |
+| Gomer | ✅ | ⬜ | ⬜ |
+| Joel | ✅ | ⬜ | ⬜ |
+| Malachi | ✅ | ⬜ | ⬜ |

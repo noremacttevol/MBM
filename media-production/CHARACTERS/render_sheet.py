@@ -36,6 +36,16 @@ def parse_spec(slug):
             sys.exit(f"{slug}: no section for {view}")
         body = " ".join(vm.group(1).split())
         body = body.replace("[STYLE BLOCK]", style)
+        if view != "face-front":
+            # Identity guard (2026-07-21, learned on god-the-father): without
+            # this, derived views drift younger and paler than the locked face.
+            body += (" Copy the attached reference face EXACTLY — the same age"
+                     " with the same lines, the same skin tone never lighter,"
+                     " the same hair and beard length and color.")
+        # Background guard (2026-07-21): the style block's "glowing golden
+        # light" paints halo-like rays behind reference portraits — banned.
+        body += (" The background is FLAT and matte with NO light rays, NO"
+                 " radiance, NO aura or glow behind the figure.")
         prompts[view] = body
         # extra refs named in the section header, e.g. (ref: ../x.jpeg)
         hm = re.search(r"### " + view + r".*?\(refs?:([^)]+)\)", spec)

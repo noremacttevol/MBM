@@ -55,12 +55,15 @@ no glow. Plain soft warm golden-brown background. One single continuous scene
 painted edge to edge, no panels.
 
 ### full-body (attach face-front.jpeg as --ref)
-[STYLE BLOCK] The SAME man as the attached reference image — identical face,
-hair and beard: a full-length standing figure, head to feet fully in frame, of
-the majestic embodied man of about sixty, warm tan olive-brown skin, full
-silver-white hair to his shoulders, full silver-white beard, standing serene
+[STYLE BLOCK] The SAME man as the attached reference image — copy the
+reference face EXACTLY: the same age of about sixty with the same deep lines,
+the same deep warm tan olive-brown skin (never lighter, never pale), the same
+FULL broad silver-white beard and full silver-white hair to his shoulders: a
+full-length standing figure, head to feet fully in frame, standing serene
 and kingly and full of love, wearing a plain flowing pure-white robe reaching
 his feet, simple sandals. No crown, no throne, no halo, no glow. Plain soft
-warm golden-brown background, gentle ground shadow. Every figure has two arms,
+warm golden-brown background that is FLAT and matte with NO radiance, NO aura,
+NO pool of light around him — quiet and even like plaster — only a gentle
+ground shadow at his feet. Every figure has two arms,
 two hands, two legs and one head. One single continuous scene painted edge to
 edge, no panels.
