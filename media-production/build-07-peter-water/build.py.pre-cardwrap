@@ -27,7 +27,6 @@ size ladder are unchanged.
 Output: 1080x1920 H.264 30fps, <25MB.
 """
 import os
-import textwrap
 import shutil
 import subprocess
 
@@ -158,16 +157,12 @@ def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, speaker,
 
 
 def build_card(seg_id, dur, text):
-    # AUTO-WRAP CARD LAW (2026-07-21, Cameron): the closing-question card ran
-    # off-frame in 16 builds because this function trusted whatever line breaks
-    # the narration text happened to carry. It no longer trusts the text: every
-    # paragraph is re-wrapped to fit 1080px, and each line gets its OWN textfile
-    # + drawtext (a newline never enters a textfile — the tofu bug). Rewriting
-    # narration/card text can never break the card again.
-    size = 50
-    lh = size + 22
-    lines = [w for para in text.split("\n")
-             for w in (textwrap.wrap(para, width=30) or [""])]
+    # One drawtext per LINE (2026-07-17, Cameron's 3rd-rejection item d: the end
+    # card showed tofu squares). This machine's ffmpeg renders a textfile newline
+    # as a tofu box, so a newline never enters a textfile — each line of the card
+    # gets its own textfile + drawtext at a computed y; blank lines become gaps.
+    lines = text.split("\n")
+    lh = 50 + 22                       # fontsize + line spacing
     L = len(lines)
     vf = ""
     for j, ln in enumerate(lines):
@@ -177,7 +172,7 @@ def build_card(seg_id, dur, text):
         with open(tf, "w", encoding="utf-8") as f:
             f.write(ln)
         y = f"(h-{L * lh})/2+{j * lh}"
-        vf += (f"drawtext=fontfile={SERIF}:textfile={tf}:fontsize={size}:"
+        vf += (f"drawtext=fontfile={SERIF}:textfile={tf}:fontsize=50:"
                f"fontcolor={INK}:x=(w-text_w)/2:y={y},")
     vf += f"fade=t=in:st=0:d=0.8,fade=t=out:st={dur-0.8}:d=0.8"
     run([FF, "-y", "-f", "lavfi",
