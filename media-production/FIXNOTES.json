@@ -356,5 +356,11 @@
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
   }
+ ],
+ "70": [
+  {
+   "date": "2026-07-21",
+   "note": "File was 28.5MB, over the 25MB limit. Re-encoded the picture stream to bring it to 24MB. Same length, same audio, slightly lighter picture compression."
+  }
  ]
 }
