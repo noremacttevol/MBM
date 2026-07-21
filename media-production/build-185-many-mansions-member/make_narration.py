@@ -1,73 +1,78 @@
 #!/usr/bin/env python3
-"""Generate narration audio for MEMBER Verse Video #185 — "In My Father's
-House Are Many Mansions" (John 14:2-3). From DRAFTS/row-185.md, validated
-against the laws.
-(Distinct from build-133: that bridge-shelf video covers John 14:1-3 with the
-v3 return promise as narrator paraphrase; this member verse-video speaks BOTH
-verses exact — prepared rooms, degrees of nearness.)
-Narrator: modern, warm, low, unhurried (American). Plain US model only.
-Jesus voice: AMERICAN, never British. Jesus speaks ONLY exact KJV:
-John 14:2 and 14:3 (both verified against the passage) — the centerpiece.
-Closing card carries the Gospel Library pointer:
-"Learn more — Gospel Library: Heaven" (THE-200 → GL).
-HOMOGRAPH LAW: ear-checked — no bow/wound/wind/tears/lead/sow/live/read/dove/
-bass/minute/use(d)/close in any segment (card included). No SPOKEN overrides
-needed.
+"""Narration for build-185-many-mansions-member — John 14.
+
+SPEAKER-LAW rebuild (see media-production/SPEAKER-LAW.md). Who is speaking is
+declared once here and decides BOTH the voice and the caption colour.
+
+STAYED RED: both, unchanged.
+  j1  John 14:2  'In my Father's house are many mansions: if it were not so, I
+      would have told you. I go to prepare a place for you.'
+  j2  John 14:3  'And if I go and prepare a place for you, I will come again, and
+      receive you unto myself; that where I am, there ye may be also.'
+Gospel, Jesus in the flesh in the upper room, red-letter both, and both already
+verbatim. No evangelist frame welded on either one, so NO SPLITS.
+
+LIFTED FROM PARAPHRASE:
+  jv1  John 14:1  'Let not your heart be troubled: ye believe in God, believe also
+       in me.'   JESUS, RED
+n0 was giving the most comforting sentence in the chapter second-hand — 'told
+them not to let their hearts be troubled' — while the verse itself never got
+spoken. It is his line and it is red. jv1 sits on ST2 with n1, a still the build
+already has, so no new artwork.
+
+Companion to build-133-many-mansions, which covers the same passage. That plan
+folds John 14:1 into the front of its j1 beat; this build keeps j1 at verse 2
+only, so verse 1 is added as its own beat here instead. The speaker calls agree
+across both plans — 14:1, 14:2 and 14:3 are all red in each.
+
+Treated independently of 133 otherwise: different segments, different stills, and
+the Thomas exchange in 133 (John 14:5-6) is NOT imported here. This build is the
+short comfort piece and adding a second voice would change what it is.
+
+The closing card is not a beat in this build and has been left out of BEATS,
+exactly as the original had it.
+
+WHY-LAW: milk. A prepared place and a promise to come back. Nothing about
+degrees, nothing about who qualifies — just room enough, and he is coming.
 """
 import asyncio
-import edge_tts
-from mbm_caption_timing import save_narration
+import os
 
-NARRATOR = "en-US-AndrewNeural"     # plain American — never a Multilingual model
-JESUS = "en-US-ChristopherNeural"   # American. Never a British voice.
+from mbm_caption_timing import save_speaker_narration
+from mbm_pronounce import audit, spoken_text
+from mbm_speakers import JESUS, NARRATOR
 
+# (id, speaker, caption_text). The caption always shows this exact text; only the
+# string handed to the TTS is respelled.
 SEGMENTS = [
-    # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
-     "On the night before everything changed, Jesus sat with his "
-     "disciples and told them not to let their hearts be "
-     "troubled."),
-    # n1 reworded 2026-07-17 (ASSEMBLY-D ear-check): "leave them orphaned"
-    # slurred into "the morphant" on both whisper models — reworded to
-    # "leave them behind", which reads clean.
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "He was going somewhere — but not to leave them behind. He "
-     "was going to get a place ready."),
-    # Exact KJV John 14:2 — THE CENTERPIECE.
-    ("j1", JESUS, "-22%", "-2Hz",
-     "In my Father's house are many mansions: if it were not so, I "
-     "would have told you. I go to prepare a place for you."),
-    ("n2", NARRATOR, "-20%", "-4Hz",
-     "A house with room for everyone. He said it plainly — if it "
-     "were not true, he would have told them."),
-    # sacred-silence beat follows n2. Exact KJV John 14:3.
-    ("j2", JESUS, "-22%", "-2Hz",
-     "And if I go and prepare a place for you, I will come again, "
-     "and receive you unto myself; that where I am, there ye may "
-     "be also."),
-    # n3 is split in two so each sentence lands on its own storyboard still
-    # (s6 reassured, s7 dawn-at-the-window) with the caption on screen always
-    # matching what is being said (CAPTION LAW).
-    ("n3a", NARRATOR, "-20%", "-4Hz",
-     "He was not describing a far-off maybe."),
-    ("n3b", NARRATOR, "-20%", "-4Hz",
-     "He was promising to come back and carry them home himself."),
-    ("card", NARRATOR, "-22%", "-5Hz",
-     "He went to prepare a place — and he's coming back for you. "
-     "You are not forgotten."),
+    ("n0", NARRATOR, "On the night before everything changed, Jesus sat with his disciples and told them not to let their hearts be troubled."),
+    # John 14:1
+    ("jv1", JESUS, "Let not your heart be troubled: ye believe in God, believe also in me."),
+    ("n1", NARRATOR, "He was going somewhere — but not to leave them behind. He was going to get a place ready."),
+    # John 14:2
+    ("j1", JESUS, "In my Father's house are many mansions: if it were not so, I would have told you. I go to prepare a place for you."),
+    ("n2", NARRATOR, "A house with room for everyone. He said it plainly — if it were not true, he would have told them."),
+    # John 14:3
+    ("j2", JESUS, "And if I go and prepare a place for you, I will come again, and receive you unto myself; that where I am, there ye may be also."),
+    ("n3a", NARRATOR, "He was not describing a far-off maybe."),
+    ("n3b", NARRATOR, "He was promising to come back and carry them home himself."),
+    ("card", NARRATOR, "He went to prepare a place — and he's coming back for you. You are not forgotten."),
 ]
 
-# HOMOGRAPH LAW — every segment ear-checked against the flag list
-# (bow, wound, wind, tears, lead, sow, live/lives, read, dove, bass,
-# minute, use/used, close): none present. Captions stay exact.
+# Homographs this build decides for itself (never auto-replaced globally).
 SPOKEN = {}
 
 
 async def main():
-    for name, voice, rate, pitch, text in SEGMENTS:
-        tts_text = SPOKEN.get(name, text)
-        await save_narration(tts_text, voice, rate, pitch, f"audio/{name}.mp3")
-        print(f"saved audio/{name}.mp3")
+    os.makedirs("audio", exist_ok=True)
+    for name, speaker, text in SEGMENTS:
+        flagged = [w for w in audit(text) if w not in SPOKEN]
+        if flagged:
+            print(f"  ! {name}: undecided homograph(s) {flagged}")
+        await save_speaker_narration(spoken_text(text, SPOKEN), speaker,
+                                     f"audio/{name}.mp3")
+        print(f"saved audio/{name}.mp3  [{speaker}]")
+
 
 if __name__ == "__main__":
     asyncio.run(main())
