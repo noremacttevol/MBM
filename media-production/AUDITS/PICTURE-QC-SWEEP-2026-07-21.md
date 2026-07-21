@@ -33,6 +33,8 @@ Worklist JSON: scratchpad roster-scan (102 workable rows).
 | 41-counting-the-cost | CLEAN | 16/16 pass; s6-vs-s7 builder difference is BY DESIGN (BUILDER LOCK vs SECOND BUILDER LOCK in PROMPTS.md) |
 | 124-love-your-enemies | CLEAN | 10/10 pass; both neighbours consistent s2/s4/s5/s9/s10; Jesus per ref in s1/s3/s7 |
 | 20-samaritan | 2 FIXED | s4: victim gained a maroon robe + black hair though he was STRIPPED (lock: torn undertunic, dark brown hair); Samaritan's cloak was rainbow-striped vs locked ochre/rust. s5: painted parchment border + watercolour style break. Both regenerated, rebuilt, verified |
+| 38-persistent-widow | CLEAN (mandate) | 7/7 characters consistent (widow, judge). TWO NON-MANDATE OBSERVATIONS for Cameron to rule on: (a) s1–s5 render the judge's hall as GOTHIC — pointed arches, ribbed vaults, medieval capitals — an anachronism in first-century Judea; (b) s6/s7 praying man reads European rather than Middle Eastern and wears cream. Not regenerated: outside this session's defect list. If Cameron wants period-accurate architecture as a standing law, this build needs 5 stills |
+| 42-barren-fig-tree | 3 FIXED | s5 had an EXTRA unlocked figure (young beardless man) in a beat the prompt gives to the owner ALONE. s7+s8 showed the tree loaded with ripe figs during "dig about it"/"dung it" — contradicts the barren premise (s9 "if it bear fruit" correctly shows first buds). All 3 regenerated, rebuilt |
 | 21-lost-sheep | 4 FIXED | s2 was a STACKED TWO-PANEL image with a white divider (anti-panel violation). Shepherd drift: s2–s5 painted him grey-bearded ~55 while the build's own lock says dark hair/short dark beard (s6/s7 correct). s2,s3,s4,s5 regenerated to the locked look; rebuilt |
 
 ## Still to sweep (in priority order)
