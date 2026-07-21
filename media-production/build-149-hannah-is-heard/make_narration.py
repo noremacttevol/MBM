@@ -68,6 +68,7 @@ SPOKEN = {}
 
 
 SPOKEN.update({'watched': 'wotched'})  # round2 in-context A/B winners 2026-07-20 (SWEEP/round2-state.json)
+SPOKEN.update({'liveth': 'livveth'})  # Cameron complaint #149 "liveth pronounced wrong": whisper writes "liveeth" for every variant so it cannot rank them; 'livveth' is orthographically locked to LIV-eth (short i) and round-trips as clean as plain (A/B 2026-07-21)
 
 async def main():
     os.makedirs("audio", exist_ok=True)
