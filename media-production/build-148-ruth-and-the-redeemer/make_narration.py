@@ -70,6 +70,12 @@ SEGMENTS = [
 SPOKEN = {
     "Intreat": "in-treat",
     "ought": "awt",
+    # 2026-07-21 whisper sweep of the shipped mp4: Michelle read "diest" as
+    # "dost" (breaks Ruth's vow) and Andrew's "Boaz" came out "Boas/boss".
+    # A/B-tested in the real voices: 'dyest' round-trips "die-est"; 'bohazz'
+    # restores the two syllables BOH-az. Captions keep the exact KJV words.
+    "diest": "dyest",
+    "Boaz": "bohazz",
 }
 
 
