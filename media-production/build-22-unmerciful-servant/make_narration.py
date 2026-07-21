@@ -60,7 +60,10 @@ SEGMENTS = [
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
-SPOKEN = {}
+# owest (KJV Matt 18:28, Cameron complaint #22 twice): the Eric voice reads
+# "owest" as "our'st". A/B/C/D tested 2026-07-21: "owe est" renders OH-est —
+# the correct sound (whisper spells it o'est). Caption keeps KJV "owest".
+SPOKEN = {"owest": "owe est"}
 
 # Cameron complaint #22: Eric reads plain "owest" as "Alice" and the earlier
 # 'ohest' respell vanished in the mix. 'owesst' round-trips "owe-est" clean
