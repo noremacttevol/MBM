@@ -4,106 +4,83 @@
 THE LAW: the caption always keeps the true spelling. Only the spoken string changes.
 `spoken_text()` is applied at narration time only; `build.py` captions the original.
 
+REWRITTEN 2026-07-20 FROM MEASUREMENT, not guesses. ab_test_say.py rendered every
+old SAY entry BOTH ways (plain vs respelled) in the two heaviest voices and
+transcribed the audio back. Verdict: 50 of 65 respellings scored WORSE than the
+plain word — nearly all were hyphenated/ALL-CAPS forms, which PRONUNCIATION-LAW.md
+Trap 2 documents as being read as two words ("for-SAY-keth" -> "for Seyketh",
+"VAIR-ih-lee" -> "vjrs lead"). Those 50 are GONE: the neural voices already read
+the plain word better. Full evidence: NAMES/say-ab.json.
+
+What remains in SAY is only what measurably BEAT the plain spelling, plus two
+entries hand-verified round-trip clean on Cameron-flagged defects (Zacchaeus 7/18,
+abideth 7/19). SAY_BY_VOICE holds per-voice winners from test_names.py — the five
+voices do not mispronounce the same words, so a fix proven on one voice is applied
+only to that voice (NAMES/respellings.json).
+
 TWO KINDS OF FIX, and they are not interchangeable:
 
-  1. GLOBAL (this module's SAY dict) — words with exactly one correct reading no
-     matter the sentence. Archaic verbs and proper nouns. Safe to apply everywhere.
+  1. GLOBAL (SAY / SAY_BY_VOICE) — words with exactly one correct reading no
+     matter the sentence. Safe to apply everywhere (per voice where measured).
 
-  2. PER-SEGMENT (a build's own SPOKEN dict) — HOMOGRAPHS. "bow", "wound", "lead",
-     "tears", "live", "read", "close", "use", "minute", "bass", "does", "desert",
-     "content", "sow", "wind" are spelled one way and said two ways, and only the
-     sentence decides which. A global map for these WILL break the other reading.
-     They are listed in HOMOGRAPHS so a build can be audited for them, never
-     auto-replaced.
+  2. PER-SEGMENT (a build's own SPOKEN dict) — HOMOGRAPHS. "bow", "wound",
+     "lead", "tears", "live", "read", "close", "use", "minute", "bass", "does",
+     "desert", "content", "sow", "wind" are spelled one way and said two ways,
+     and only the sentence decides which. A global map for these WILL break the
+     other reading. They are listed in HOMOGRAPHS so a build can be audited for
+     them, never auto-replaced.
 
-Existing respellings across the library have themselves been wrong (#30's "uhs" was
-read as "Oz"; #41's "forsaketh" came out "for-Saccath"), so every fix is verified by
-transcribing the rendered audio with faster_whisper — never by assuming.
+RULE: never add a SAY / SAY_BY_VOICE entry that has not won an A/B test through
+check_pronunciation.py (render both, transcribe both, keep the winner). Existing
+respellings across the library have themselves been wrong (#30's "uhs" was read
+as "Oz"; #41's "forsaketh" came out "for-Saccath"). Hyphens and ALL-CAPS stress
+marks are BANNED in new entries — one continuous lowercase word only.
 """
 import re
 
-# ---- 1. GLOBAL: one correct reading regardless of context -------------------
-# Respellings use plain letters and hyphens; edge-tts handles these far more
-# reliably than IPA or SSML phonemes.
+# ---- 1a. GLOBAL: measured winners only (NAMES/say-ab.json, 2026-07-20) ------
+# The shew family and the names below beat the plain spelling in BOTH tested
+# voices. Everything else the old dict carried lost its A/B and was removed —
+# the plain word already reads better in these voices.
 SAY = {
-    # archaic KJV verb forms the neural voices routinely mangle
     "shew": "show",
     "shewed": "showed",
     "shewest": "show-est",
     "sheweth": "show-eth",
     "shewing": "showing",
-    "forsaketh": "for-SAY-keth",
     "forsook": "for-SOOK",
-    "spake": "spayk",
-    "wist": "wist",
-    "durst": "derst",
-    "verily": "VAIR-ih-lee",
-    # Cameron denial #146 (2026-07-19): heard as "abadeth" (flat i). It is from
-    # ABIDE — uh-BYDE-eth. Measured: "abydeth"/"a-bide-eth" split into "abbey
-    # death"; "abiedeth" round-trips clean as "abideth".
-    "abideth": "abiedeth",
-    "abide": "abied",
 
-    "hearkened": "HAR-kend",
-    "hearken": "HAR-ken",
-    "holpen": "HOLE-pen",
-    "wot": "wot",
-    "sith": "sith",
-    "twain": "twayn",
-    "raiment": "RAY-ment",
-    "asswaged": "a-SWAYJD",
-    "unloose": "un-LOOSS",
-
-    # proper nouns
-    "Gennesaret": "Ghen-NESS-a-ret",
-    "Bartimaeus": "Bar-tih-MEE-us",
-    # Measured 2026-07-18 (Cameron denial #3, "it misspronounced Zacchaeus every
-    # time"): the old hyphenated "Zak-KEE-us" was HEARD AS "Sekias" — 29% match.
-    # Hyphens split the word (see PRONUNCIATION-LAW §traps). Unhyphenated
-    # "Zakkeeus" round-trips as "Zacchaeus" — verified with check_pronunciation.
-    "Zacchaeus": "Zakkeeus",
-    "Iscariot": "iss-KAIR-ee-ot",
-    "Capernaum": "ka-PER-nay-um",
-    "Gethsemane": "geth-SEM-a-nee",
-    "Melchizedek": "mel-KIZ-eh-dek",
-    "Nebuchadnezzar": "neb-yoo-kad-NEZ-ar",
-    "Zarephath": "ZAIR-eh-fath",
-    "Abednego": "a-BED-nee-go",
-    "Shadrach": "SHAD-rak",
-    "Meshach": "MEE-shak",
-    "Siloam": "sy-LOH-am",
-    "Bethesda": "beth-EZ-da",
-    "Golgotha": "GOL-go-tha",
-    "Emmaus": "em-MAY-us",
-    "Nazareth": "NAZ-a-reth",
     "Bethsaida": "beth-SAY-ih-da",
-    "Chorazin": "ko-RAY-zin",
-    "Decapolis": "dee-KAP-o-liss",
-    "Cyrenian": "sy-REE-nee-an",
-    "Areopagus": "air-ee-OP-a-gus",
-    "Aenon": "AY-non",
-    "Salim": "SAY-lim",
-    "Ephphatha": "EF-fa-tha",
-    "Talitha": "TAL-ih-tha",
-    "Barabbas": "ba-RAB-bas",
-    "Caiaphas": "KY-a-fas",
-    "Sanhedrin": "SAN-heh-drin",
-    "Nicodemus": "nik-o-DEE-mus",
-    "Zebedee": "ZEB-eh-dee",
-    "Thaddaeus": "THAD-ee-us",
-    "Ephraim": "EE-fray-im",
-    "Manasseh": "ma-NASS-eh",
-    "Jehoshaphat": "jeh-HOSH-a-fat",
+    "Gennesaret": "Ghen-NESS-a-ret",
     "Habakkuk": "ha-BAK-kuk",
-    "Zerubbabel": "zeh-RUB-a-bel",
-    "Malachi": "MAL-a-ky",
     "Haggai": "HAG-eye",
-    "Zephaniah": "zef-a-NY-a",
-    "Philippi": "fih-LIP-eye",
-    "Colosse": "ko-LOSS-ee",
-    "Thessalonica": "thess-a-lo-NY-ka",
     "Laodicea": "lay-od-ih-SEE-a",
-    "Antipas": "AN-tih-pas",
+    "Salim": "SAY-lim",
+    "Shadrach": "SHAD-rak",
+    "Siloam": "sy-LOH-am",
+    "Zerubbabel": "zeh-RUB-a-bel",
+
+    # Hand-verified round-trip clean on Cameron-flagged defects, kept on that
+    # evidence: "Zakkeeus" transcribes back as "Zacchaeus" (denial #3, 2026-07-18);
+    # "abydeth"/"a-bide-eth" split into "abbey death" but "abiedeth" round-trips
+    # as "abideth" (denial #146, 2026-07-19).
+    "Zacchaeus": "Zakkeeus",
+    "abideth": "abiedeth",
+    # "abide": "abied" REMOVED 2026-07-20: the shipped-audio audit caught the
+    # respell itself producing "abbey" (#3 j1b jesus) and "abbeyed" (#126 card
+    # narrator); plain "abide" scored 100% in both contexts. abideth keeps its
+    # measured fix; the bare verb never needed one.
+}
+
+# ---- 1b. PER-VOICE: winners from test_names.py (NAMES/respellings.json) -----
+# {written: {speaker: spoken}} — applied only when that speaker is narrating.
+SAY_BY_VOICE = {
+    "Stephen": {"narrator": "steevun"},
+    "Cana": {"narrator": "kaynuh"},
+    "Meshach": {"scripture": "meeshak"},
+    "Gennesaret": {"narrator": "gunnessuhret"},
+    "Esaias": {"scripture": "izayus"},
+    "Judaea": {"jesus": "joodeeuh"},
 }
 
 # ---- 2. PER-SEGMENT ONLY: never auto-replace these --------------------------
@@ -152,15 +129,24 @@ PHRASES = [
 _WORD = re.compile(r"[A-Za-z]+")
 
 
-def spoken_text(text, overrides=None):
+def spoken_text(text, overrides=None, speaker=None):
     """Return the string to hand the TTS. The caption keeps `text` unchanged.
 
     `overrides` is a build's own {written: spoken} dict for homographs and any
-    one-off the global map should not own. Overrides win over SAY.
+    one-off the global map should not own. Priority: build overrides beat
+    per-voice entries, which beat the global SAY.
+
+    `speaker` is the segment's voice key ("narrator", "jesus", "god",
+    "scripture", "woman"); when given, SAY_BY_VOICE fixes proven on that voice
+    are applied. Omitting it keeps the old global-only behaviour.
     """
     for pat, rep in PHRASES:
         text = pat.sub(rep, text)
     table = dict(SAY)
+    if speaker:
+        for w, by_voice in SAY_BY_VOICE.items():
+            if speaker in by_voice:
+                table[w] = by_voice[speaker]
     if overrides:
         table.update(overrides)
     lower = {k.lower(): v for k, v in table.items()}
@@ -186,6 +172,6 @@ def audit(text):
 
 if __name__ == "__main__":
     s = "And he shewed them his hands. Verily I say, forsaketh not Gennesaret."
-    print("in :", s)
-    print("out:", spoken_text(s))
+    print("out (narrator):", spoken_text(s, speaker="narrator"))
+    print("out (no voice):", spoken_text(s))
     print("homographs to decide:", audit("He bowed his bow and the wind did wind."))
