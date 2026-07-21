@@ -74,6 +74,8 @@ SEGMENTS = [
 SPOKEN = {}
 
 
+SPOKEN.update({'Meshach': 'meeshak'})  # 2026-07-21: shipped narrator audio said "Emi Shek"/"Amishach"; plain "Meshach" is UNSTABLE in Andrew's voice (fresh render clean, recorded mp3 bad). 'meeshak' round-trips "Meshach" 3/3 in Andrew (already the measured winner for the scripture voice). Cameron complaint #119 area.
+
 async def main():
     os.makedirs("audio", exist_ok=True)
     for name, speaker, text in SEGMENTS:
