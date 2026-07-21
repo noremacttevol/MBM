@@ -63,7 +63,7 @@ SEGMENTS = [
 SPOKEN = {}
 
 
-SPOKEN.update({'owest': 'ohest'})  # round2 in-context A/B winners 2026-07-20 (SWEEP/round2-state.json)
+SPOKEN.update({'owest': 'owesst'})  # A/B 2026-07-21: plain read as "Alice", 'ohest' vanished in the shipped mix; 'owesst' round-trips "owe-est" clean (Cameron complaint #22)
 
 async def main():
     os.makedirs("audio", exist_ok=True)
