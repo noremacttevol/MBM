@@ -1,69 +1,79 @@
 #!/usr/bin/env python3
-"""Generate narration audio for Story Video #95 — The Thief on the Cross
-(Luke 23:39-43). From DRAFTS/row-095.md, validated against the laws.
-Narrator: modern, warm, low, unhurried (American). Plain US model only.
-Jesus voice: AMERICAN, never British. Jesus speaks ONLY exact KJV:
-Luke 23:43 (verified against the passage — the draft's shortened line was
-restored to the full exact clause "Verily I say unto thee, To day shalt thou
-be with me in paradise." KJV spells "To day" as two words; caption stays exact).
-CONTENT-CARE: crucifixion carried with reverent distance — faces, never wounds.
-HOMOGRAPH LAW: ear-checked — no bow/wound/wind/tears/lead/sow/live/read/dove/
-bass/minute/use(d)/close in any segment. No SPOKEN overrides needed.
+"""Narration for build-95-thief-on-the-cross — Luke 23.
+
+SPEAKER-LAW rebuild (see media-production/SPEAKER-LAW.md). Who is speaking is
+declared once here and decides BOTH the voice and the caption colour.
+
+STAYED RED, and it is exact:
+  j1  Luke 23:43  'Verily I say unto thee, To day shalt thou be with me in
+      paradise.'
+  Id kept. It carried no framing welded on, so it needed no split.
+
+THE THIEF IS BLUE, NOT RED -- and he is the reason this video exists. Every word
+he says was sitting in narrator paraphrase, in white. He is a man in the story,
+not Deity, so all three of his lines are SCRIPTURE (light blue):
+  s39  Luke 23:39  'If thou be Christ, save thyself and us.'
+       -- the one who railed on him. n0b keeps its id and now retells it.
+  s40  Luke 23:40-41  'Dost not thou fear God, seeing thou art in the same
+       condemnation? And we indeed justly; for we receive the due reward of our
+       deeds: but this man hath done nothing amiss.'
+       -- the other one answering him. n1 already retells this almost word for
+       word and was left exactly as it was.
+  s42  Luke 23:42  'Lord, remember me when thou comest into thy kingdom.'
+       -- THE line. n3 said it in modern English and the Old English was nowhere
+       in the video. It now sits on ST4, the still already named
+       's4-remember-me'. n2 is trimmed to the frame and n3 keeps its id as the
+       retelling.
+
+NO GREEN: the Father does not speak in Luke 23:39-43.
+
+WOMEN: Luke 23:39-43 records no woman speaking. Nothing added, nothing invented.
+
+WHY-LAW: a condemned criminal with nothing left to offer asked to be remembered,
+and got paradise the same day. Milk: it is never too late, and there is nothing
+to bring but the asking.
 """
 import asyncio
-import edge_tts
-from mbm_caption_timing import save_narration
+import os
 
-NARRATOR = "en-US-AndrewNeural"     # plain American — never a Multilingual model
-JESUS = "en-US-ChristopherNeural"   # American. Never a British voice.
+from mbm_caption_timing import save_speaker_narration
+from mbm_pronounce import audit, spoken_text
+from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 
+# (id, speaker, caption_text). The caption always shows this exact text; only the
+# string handed to the TTS is respelled.
 SEGMENTS = [
-    # (filename, voice, rate, pitch, text)
-    # n0 split so the scene and the mocker land on their own stills (s1
-    # three-crosses, s2 the-mocking-thief) per the CAPTION LAW.
-    ("n0a", NARRATOR, "-20%", "-4Hz",
-     "Two criminals were crucified with Jesus, one on each side."),
-    ("n0b", NARRATOR, "-20%", "-4Hz",
-     "One of them sneered — if you're really the Christ, save "
-     "yourself and us."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "But the other one stopped him. We're getting what we "
-     "deserve, he said. This man has done nothing wrong."),
-    # sacred-silence beat follows n1.
-    ("n2", NARRATOR, "-20%", "-4Hz",
-     "Then he turned his head toward Jesus and asked for the "
-     "smallest thing — just to be remembered."),
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "Lord, remember me when you come into your kingdom. No good "
-     "deeds to offer. No time left to fix his life. Just a dying "
-     "man asking."),
-    # Exact KJV Luke 23:43 — SILENCE around it.
-    ("j1", JESUS, "-22%", "-2Hz",
-     "Verily I say unto thee, To day shalt thou be with me in "
-     "paradise."),
-    ("n4", NARRATOR, "-20%", "-4Hz",
-     "Today. Not someday, not after you've earned it. Today. The "
-     "last-minute faith of a criminal was enough."),
-    ("card", NARRATOR, "-22%", "-5Hz",
-     "He saved a man who had nothing to give but a request. It's "
-     "never too late to ask."),
+    ("n0a", NARRATOR, "Two criminals were crucified with Jesus, one on each side."),
+    # Luke 23:39
+    ("s39", SCRIPTURE, "If thou be Christ, save thyself and us."),
+    ("n0b", NARRATOR, "If you're really the Christ, save yourself — and us. That was one of them, sneering at him from the next cross over."),
+    # Luke 23:40-41
+    ("s40", SCRIPTURE, "Dost not thou fear God, seeing thou art in the same condemnation? And we indeed justly; for we receive the due reward of our deeds: but this man hath done nothing amiss."),
+    ("n1", NARRATOR, "But the other one stopped him. We're getting what we deserve, he said. This man has done nothing wrong."),
+    ("n2", NARRATOR, "Then he turned his head toward Jesus and asked for the smallest thing he could think of."),
+    # Luke 23:42
+    ("s42", SCRIPTURE, "Lord, remember me when thou comest into thy kingdom."),
+    ("n3", NARRATOR, "Lord, remember me when you come into your kingdom. No good deeds to offer. No time left to fix his life. Just a dying man asking."),
+    # Luke 23:43
+    ("j1", JESUS, "Verily I say unto thee, To day shalt thou be with me in paradise."),
+    ("n4", NARRATOR, "Today. Not someday, not after you've earned it. Today. The last-minute faith of a criminal was enough."),
+    ("card", NARRATOR, "He saved a man who had nothing to give but a request. It's never too late to ask."),
 ]
 
-# HOMOGRAPH LAW — n4 contains "last-minute" ("minute" is on the flag list:
-# must read /MIN-it/, never /my-NOOT/). SPOKEN respelling steers the audio;
-# the caption keeps the true spelling. Ear-check n4 before assembly anyway.
-# No other flagged words in any segment ("life" in n3 is the noun, safe).
-SPOKEN = {
-    "n4": ("Today. Not someday, not after you've earned it. Today. The "
-           "last-minit faith of a criminal was enough."),
-}
+# Homographs this build decides for itself (never auto-replaced globally).
+SPOKEN = {}
 
 
 async def main():
-    for name, voice, rate, pitch, text in SEGMENTS:
-        tts_text = SPOKEN.get(name, text)
-        await save_narration(tts_text, voice, rate, pitch, f"audio/{name}.mp3")
-        print(f"saved audio/{name}.mp3")
+    os.makedirs("audio", exist_ok=True)
+    for name, speaker, text in SEGMENTS:
+        flagged = [w for w in audit(text) if w not in SPOKEN]
+        if flagged:
+            print(f"  ! {name}: undecided homograph(s) {flagged}")
+        await save_speaker_narration(spoken_text(text, SPOKEN), speaker,
+                                     f"audio/{name}.mp3")
+        print(f"saved audio/{name}.mp3  [{speaker}]")
+
 
 if __name__ == "__main__":
     asyncio.run(main())
