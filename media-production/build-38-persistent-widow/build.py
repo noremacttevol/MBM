@@ -58,6 +58,9 @@ TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
 # SPEAKER-LAW: declared once in make_narration, so the caption colour
 # and the narration voice can never drift apart.
 SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
+# SPEAKER-LAW: declared once in make_narration, so the caption colour
+# and the narration voice can never drift apart.
+SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 PEAK = "j2"   # "...shall not God avenge his own elect..." — music goes to silence
 
 # BEATS: (segment_name, still, zoom_dir). One still-drift beat per narration
