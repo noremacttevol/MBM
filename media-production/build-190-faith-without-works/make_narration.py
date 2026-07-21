@@ -1,67 +1,75 @@
 #!/usr/bin/env python3
-"""Generate narration audio for MEMBER Verse Video #190 — Faith Without Works
-Is Dead (James 2:14-26). From DRAFTS/row-190.md, validated against the laws.
-MEMBER-FORMAT + TRANSLATION-LAW FIX: the draft had no scripture-voice
-centerpiece and its narrator echoed James 2:17 nearly verbatim. Fixed:
-James 2:17 added verbatim as the SCRIPTURE VOICE centerpiece (Christopher);
-the narrator line is rewritten as plain paraphrase.
-Closing card carries the Gospel Library pointer:
-"Learn more — Gospel Library: Faith" (THE-200 → GL).
-Jesus does not appear (James's epistle).
-CONTENT-CARE: the needy shown with dignity; Abraham at reverent distance —
-obedience, never the act.
-HOMOGRAPH LAW: ear-checked — no bow/wound/wind/tears/lead/sow/live/read/dove/
-bass/minute/use(d)/close in any segment (card included). No SPOKEN overrides
-needed.
+"""Narration for build-190-faith-without-works — James 2.
+
+SPEAKER-LAW rebuild (see media-production/SPEAKER-LAW.md). Who is speaking is
+declared once here and decides BOTH the voice and the caption colour.
+
+MOVED OUT OF RED.
+  s1  RED -> SCRIPTURE, light blue.  James 2:17  'Even so faith, if it hath not
+      works, is dead, being alone.'
+James is an epistle. That is James writing to the twelve tribes scattered abroad,
+not Christ speaking, and a red-letter King James Bible prints no red anywhere in
+the letter. Red made an apostle's argument read as the Lord's own words. Blue is
+the writer. The line was already verbatim and is unchanged.
+
+NO SPLITS. James 2:17 is one speaker start to finish.
+
+LIFTED FROM PARAPHRASE:
+  s26  James 2:26  'For as the body without the spirit is dead, so faith without
+       works is dead also.'   SCRIPTURE, blue
+n4a and n4b were closing the build on the chapter's own conclusion — 'belief that
+never moves a muscle isn't belief yet' — while the verse that says it never got
+spoken. It is the sentence the whole letter is remembered for and it belongs in
+James's own words. s26 sits on ST6 with n4a, a still the build already has, so no
+new artwork, and n4a and n4b become its retelling right where they already were.
+
+The segment keeps its original id `s1` even though the id looks like a still var
+— renaming it would orphan anything referencing it by name.
+
+The closing card is not a beat in this build and has been left out of BEATS,
+exactly as the original had it.
+
+WHY-LAW: milk. Works are shown as faith becoming visible — a coat handed over, a
+window rope let down — never as a price paid or a score kept. The close is
+gentle: let your faith move, and he sees the small true things.
 """
 import asyncio
-import edge_tts
-from mbm_caption_timing import save_narration
+import os
 
-NARRATOR = "en-US-AndrewNeural"      # plain American — never a Multilingual model
-SCRIPTURE = "en-US-ChristopherNeural"  # the scripture voice. Exact KJV only.
+from mbm_caption_timing import save_speaker_narration
+from mbm_pronounce import audit, spoken_text
+from mbm_speakers import NARRATOR, SCRIPTURE
 
+# (id, speaker, caption_text). The caption always shows this exact text; only the
+# string handed to the TTS is respelled.
 SEGMENTS = [
-    # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
-     "James wrote plainly to the early church: a faith that stays "
-     "only in the head is already dead."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "He asked the sharp question — if a brother or sister has no "
-     "clothes and no food, and you wish them well but give "
-     "nothing, what good is that?"),
-    # Exact KJV James 2:17 — THE CENTERPIECE, scripture voice.
-    ("s1", NARRATOR, "-20%", "-4Hz",
-     "Even so faith, if it hath not works, is dead, being alone."),
-    ("n2", NARRATOR, "-20%", "-4Hz",
-     "Then he pointed to Abraham, who showed his faith by what he "
-     "did — offering his son on the altar."),
-    # sacred-silence beat follows n2.
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "And to Rahab, who hid the spies and was counted righteous by "
-     "her action, not just her words."),
-    # n4 is split in two so each sentence lands on its own storyboard still
-    # (s6 faith-made-visible, s7 live-the-words) per the CAPTION LAW.
-    ("n4a", NARRATOR, "-20%", "-4Hz",
-     "Belief that never moves a muscle isn't belief yet."),
-    ("n4b", NARRATOR, "-20%", "-4Hz",
-     "Faith and life belong together."),
-    ("card", NARRATOR, "-22%", "-5Hz",
-     "Real faith reaches out a hand. Let yours move — he sees "
-     "every small, true thing you do."),
+    ("n0", NARRATOR, "James wrote plainly to the early church: a faith that stays only in the head is already dead."),
+    ("n1", NARRATOR, "He asked the sharp question — if a brother or sister has no clothes and no food, and you wish them well but give nothing, what good is that?"),
+    # James 2:17
+    ("s1", SCRIPTURE, "Even so faith, if it hath not works, is dead, being alone."),
+    ("n2", NARRATOR, "Then he pointed to Abraham, who showed his faith by what he did — offering his son on the altar."),
+    ("n3", NARRATOR, "And to Rahab, who hid the spies and was counted righteous by her action, not just her words."),
+    # James 2:26
+    ("s26", SCRIPTURE, "For as the body without the spirit is dead, so faith without works is dead also."),
+    ("n4a", NARRATOR, "Belief that never moves a muscle isn't belief yet."),
+    ("n4b", NARRATOR, "Faith and life belong together."),
+    ("card", NARRATOR, "Real faith reaches out a hand. Let yours move — he sees every small, true thing you do."),
 ]
 
-# HOMOGRAPH LAW — every segment ear-checked against the flag list
-# (bow, wound, wind, tears, lead, sow, live/lives, read, dove, bass,
-# minute, use/used, close): none present. Captions stay exact.
+# Homographs this build decides for itself (never auto-replaced globally).
 SPOKEN = {}
 
 
 async def main():
-    for name, voice, rate, pitch, text in SEGMENTS:
-        tts_text = SPOKEN.get(name, text)
-        await save_narration(tts_text, voice, rate, pitch, f"audio/{name}.mp3")
-        print(f"saved audio/{name}.mp3")
+    os.makedirs("audio", exist_ok=True)
+    for name, speaker, text in SEGMENTS:
+        flagged = [w for w in audit(text) if w not in SPOKEN]
+        if flagged:
+            print(f"  ! {name}: undecided homograph(s) {flagged}")
+        await save_speaker_narration(spoken_text(text, SPOKEN), speaker,
+                                     f"audio/{name}.mp3")
+        print(f"saved audio/{name}.mp3  [{speaker}]")
+
 
 if __name__ == "__main__":
     asyncio.run(main())
