@@ -29,6 +29,17 @@
 > ~650MB, every deploy stores a full copy, and ~15 deploys across all sessions fill
 > the 10GB free tier. The script keeps the live version; the site never goes down.
 
+## STANDING ORDER — PRE-QC before Cameron sees it (added 2026-07-21)
+
+> Cameron's review time is the bottleneck. Before ANY unreviewed video reaches him,
+> run it through the known defect classes he has flagged 35+ times: (1) archaic-word
+> pronunciation — whisper-verify every -eth/-est word against the measured dict, (2)
+> end-card question must be multi-line and inside the frame, (3) caption color law —
+> ONLY Jesus's words red, scripture blue, (4) giant-Jesus / wrong-direction / anatomy
+> checks on every still, (5) trailing dead air after last word, (6) story coverage —
+> one still per beat, pictures match the words. Fix what fails, THEN ship. He should
+> mostly be watching clean cuts, not filing the same complaint a 36th time.
+
 ## Fix queue (rejected builds — fix before taking new work in that range)
 
 > **ALSO CHECK `media-production/COMPLAINTS.md`** — Cameron flags problems with one
