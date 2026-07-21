@@ -1,65 +1,75 @@
 #!/usr/bin/env python3
-"""Generate narration audio for Story Video #130 — "Ye Know Not What Manner of
-Spirit Ye Are Of" (Luke 9:51-56). From DRAFTS/row-130.md, validated against
-the laws.
-Narrator: modern, warm, low, unhurried (American). Plain US model only.
-Jesus voice: AMERICAN, never British. Jesus speaks ONLY exact KJV:
-Luke 9:55-56 (his spoken words, verified against the passage).
-HOMOGRAPH LAW — 🛑 BUILDER MUST EAR-CHECK j1 ("destroy men's LIVES"): "lives"
-is on the flag list. Here it is the NOUN and must read /LYVZ/ (rhymes with
-"hives"), never /LIVZ/. The natural TTS reading is usually right for the
-noun, but LISTEN before assembly. If misread, add SPOKEN override respelling
-it "lyves" (caption keeps the exact KJV word).
-No other flagged words in any segment.
+"""Narration for build-130-what-manner-of-spirit — Luke 9.
+
+SPEAKER-LAW rebuild (see media-production/SPEAKER-LAW.md). Who is speaking is
+declared once here and decides BOTH the voice and the caption colour.
+
+STAYED RED: j1 is correct as it stands. 'Ye know not what manner of spirit ye are
+of. For the Son of man is not come to destroy men's lives, but to save them' is
+Luke 9:55-56, Jesus speaking in the flesh, and a red-letter KJV inks it. The KJV
+frame around it - 'But he turned, and rebuked them, and said' - is NOT in the
+segment, so there was no welded frame to split. n2 already carries that framing
+in the storyteller's own modern words, which is where it belongs.
+
+LIFTED - the line the whole video answers, which was never voiced.
+  s54  Luke 9:54  'Lord, wilt thou that we command fire to come down from heaven,
+       and consume them, even as Elias did?'  SCRIPTURE, light blue. James and
+       John are apostles, not Deity, so blue is right. n1 was paraphrasing this
+       in the narrator's voice; n1 keeps its original text and now works as the
+       retelling immediately after it. The rebuke lands ten times harder once you
+       have heard two of the Twelve ask for it out loud.
+
+ADDED: n3b, covering Luke 9:56b - they simply went to another village. The
+original build had no beat doing that work on ST6 ('walking on'), and it moves n4
+onto ST7 ('warmth not fire'), which the original left unused entirely.
+
+NOTE ON THE STILLS: the brief's still_vars has no ST2 - s2-sorrow-not-wrath.jpeg
+is on disk but is not bound to a variable, so it cannot be used in beats. Left
+alone; the artwork is untouched.
+
+WOMEN: Luke 9:51-56 records no woman speaking. Nothing added, nothing invented.
+
+WHY-LAW: he did not rebuke the village that shut its gate. He rebuked the two men
+who wanted it burned. Milk framing - the wanting-to-destroy is the thing that is
+not from him, and he says so gently, to people he loves.
 """
 import asyncio
-import edge_tts
-from mbm_caption_timing import save_narration
+import os
 
-NARRATOR = "en-US-AndrewNeural"     # plain American — never a Multilingual model
-JESUS = "en-US-ChristopherNeural"   # American. Never a British voice.
+from mbm_caption_timing import save_speaker_narration
+from mbm_pronounce import audit, spoken_text
+from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 
+# (id, speaker, caption_text). The caption always shows this exact text; only the
+# string handed to the TTS is respelled.
 SEGMENTS = [
-    # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
-     "As Jesus traveled toward Jerusalem, a Samaritan village "
-     "refused to welcome Him. The disciples James and John were "
-     "hot with anger."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "They asked if they should call down fire from heaven to burn "
-     "the place. They wanted judgment."),
-    ("n2", NARRATOR, "-20%", "-4Hz",
-     "Jesus turned and rebuked them — not the village, but His own "
-     "disciples' hearts."),
-    # Exact KJV Luke 9:55-56 — SILENCE around it.
-    ("j1", JESUS, "-20%", "-2Hz",
-     "Ye know not what manner of spirit ye are of. For the Son of "
-     "man is not come to destroy men's lives, but to save them."),
-    ("n3", NARRATOR, "-20%", "-4Hz",
-     "He didn't come to burn. He came to rescue. The fire in the "
-     "disciples' hearts was the wrong kind."),
-    # sacred-silence beat follows n3.
-    ("n4", NARRATOR, "-20%", "-4Hz",
-     "Anger that wants to destroy isn't from Him. The spirit He "
-     "brings saves."),
-    ("card", NARRATOR, "-22%", "-5Hz",
-     "He came to save, not to burn. Let His Spirit — the saving "
-     "one — shape yours."),
+    ("n0", NARRATOR, "As Jesus traveled toward Jerusalem, a Samaritan village refused to welcome Him. The disciples James and John were hot with anger."),
+    # Luke 9:54
+    ("s54", SCRIPTURE, "Lord, wilt thou that we command fire to come down from heaven, and consume them, even as Elias did?"),
+    ("n1", NARRATOR, "They asked if they should call down fire from heaven to burn the place. They wanted judgment."),
+    ("n2", NARRATOR, "Jesus turned and rebuked them — not the village, but His own disciples' hearts."),
+    # Luke 9:55-56
+    ("j1", JESUS, "Ye know not what manner of spirit ye are of. For the Son of man is not come to destroy men's lives, but to save them."),
+    ("n3", NARRATOR, "He didn't come to burn. He came to rescue. The fire in the disciples' hearts was the wrong kind."),
+    ("n3b", NARRATOR, "And then they simply walked on to the next village. No fire. No answer to the insult at all — just the road, and somewhere else to be."),
+    ("n4", NARRATOR, "Anger that wants to destroy isn't from Him. The spirit He brings saves."),
+    ("card", NARRATOR, "He came to save, not to burn. Let His Spirit — the saving one — shape yours."),
 ]
 
-# HOMOGRAPH LAW — see the docstring: ear-check "lives" in j1 before assembly.
-# If (and only if) TTS misreads it as /LIVZ/, uncomment the override.
-SPOKEN = {
-    # "j1": ("Ye know not what manner of spirit ye are of. For the Son of "
-    #        "man is not come to destroy men's lyves, but to save them."),
-}
+# Homographs this build decides for itself (never auto-replaced globally).
+SPOKEN = {}
 
 
 async def main():
-    for name, voice, rate, pitch, text in SEGMENTS:
-        tts_text = SPOKEN.get(name, text)
-        await save_narration(tts_text, voice, rate, pitch, f"audio/{name}.mp3")
-        print(f"saved audio/{name}.mp3")
+    os.makedirs("audio", exist_ok=True)
+    for name, speaker, text in SEGMENTS:
+        flagged = [w for w in audit(text) if w not in SPOKEN]
+        if flagged:
+            print(f"  ! {name}: undecided homograph(s) {flagged}")
+        await save_speaker_narration(spoken_text(text, SPOKEN), speaker,
+                                     f"audio/{name}.mp3")
+        print(f"saved audio/{name}.mp3  [{speaker}]")
+
 
 if __name__ == "__main__":
     asyncio.run(main())
