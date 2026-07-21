@@ -50,33 +50,46 @@ S6 = "s6-disciples.jpeg"
 S7 = "s7-jar-left-anchor.jpeg"
 S8 = "s8-come-and-see.jpeg"
 S9 = "s9-road-filling.jpeg"
+# STORY-COVERAGE retrofit (Cameron, 2026-07-19 law; added 2026-07-20)
+S10 = "s10-morning-women.jpeg"
+S11 = "s11-turn-around.jpeg"
+S12 = "s12-truth-spoken.jpeg"
+S13 = "s13-i-am-he.jpeg"
+S14 = "s14-two-days.jpeg"
 
 TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
 # SPEAKER-LAW: declared once in make_narration, so the caption colour
 # and the narration voice can never drift apart.
 SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
+# SPEAKER-LAW: declared once in make_narration, so the caption colour
+# and the narration voice can never drift apart.
+SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 
 # BEATS: (segment_name, still, zoom_dir). Zoom alternates in/out on a shared still.
+# STORY-COVERAGE-LAW (Cameron, 2026-07-19): a still may be a LIST of
+# (image, marker) pairs — the picture switches mid-segment at the timestamp
+# where the marker words are spoken (matched against the TTS sentence timing).
 BEATS = [
-    ("n0", S1, "in"),
-    ("n1", S2, "in"),
-    ("n2", S3, "in"),
+    ("n0", [(S1, None), (S10, "Women drew their water"),
+            (S1, "She came at noon because of the talk")], "in"),
+    ("n1", [(S2, None), (S11, "Everything in her body said")], "in"),
+    ("n2", [(S3, None), (S4, "And he answered")], "in"),
     ("w9", S3, "out"),
     ("w11", S4, "in"),
     ("n3", S4, "out"),
     ("j1", S4, "in"),
     ("n4", S4, "out"),
     ("w15", S4, "in"),
-    ("n5", S5, "in"),
+    ("n5", [(S12, None), (S5, "She came for water")], "in"),
     ("w19", S5, "out"),
-    ("n6", S5, "out"),
-    ("w25", S5, "in"),
-    ("j2", S5, "out"),
-    ("n7", S6, "in"),
+    ("n6", S5, "in"),
+    ("w25", S5, "out"),
+    ("j2", S13, "in"),
+    ("n7", [(S13, None), (S6, "Right then his followers came back")], "out"),
     ("n8", S7, "in"),
     ("n8b", S8, "in"),
     ("w29", S8, "out"),
-    ("n9", S9, "in"),
+    ("n9", [(S9, None), (S14, "They asked him to stay")], "in"),
 ]
 
 # The closing card is narrated but is not a beat — build_card places it itself.
@@ -114,28 +127,74 @@ def spoken_of(path):
     return dur_of(tmp)
 
 
-def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, speaker,
-                first, last):
-    frames = int(dur * FPS)
-    if zdir == "in":
+def marker_time(seg_id, marker):
+    """Segment-local second at which the marker words are spoken, from the
+    edge-tts sentence timing sidecar (STORY-COVERAGE-LAW mid-segment switch)."""
+    import json
+    import re
+    with open(f"audio/{seg_id}.timing.json") as f:
+        timing = json.load(f)
+
+    def norm(x):
+        return re.sub(r"[^a-z0-9 ]", "", x.lower()).strip()
+
+    mk = norm(marker)
+    for s in timing:
+        nt = norm(s["text"])
+        i = nt.find(mk)
+        if i >= 0:
+            return s["start"] + (s["end"] - s["start"]) * (i / max(1, len(nt)))
+    raise SystemExit(f"STORY-COVERAGE: marker {marker!r} not found in {seg_id}.timing.json")
+
+
+def _zoompan(zd, frames):
+    if zd == "in":
         z = f"1.001+0.10*on/{frames}"
     else:
         z = f"1.101-0.10*on/{frames}"
     # Anti-shimmer law: supersample 4320x7680 -> zoompan at 2160x3840 ->
     # lanczos down to 1080x1920 so every zoom step lands on a quarter-pixel.
-    base = (f"[0:v]scale=4320:7680,setsar=1,"
+    return (f"scale=4320:7680,setsar=1,"
             f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"d={frames}:s=2160x3840:fps={FPS},"
             f"scale=1080:1920:flags=lanczos")
+
+
+def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, speaker,
+                first, last):
     tail = ""
     if first:                 # gentle fade-up to open the video
         tail = ",fade=t=in:st=0:d=1.2"
     if last:                  # fade to black into the closing card
         tail = f",fade=t=out:st={dur-1.2}:d=1.2"
     cap = caption_filter(seg_id, dur, spoken_end, cap_text, speaker)
-    fc = f"{base}{cap}{tail}[v]"
-    run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
-         "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
+    if not isinstance(src, list):
+        fc = f"[0:v]{_zoompan(zdir, int(dur * FPS))}{cap}{tail}[v]"
+        run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
+             "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
+        return
+    # STORY-COVERAGE-LAW: several stills inside one narration segment, switching
+    # at the timestamps where the words turn. Render each sub-still, concat,
+    # then draw the segment's captions over the joined clip.
+    cuts = [0.0] + [LEAD + marker_time(seg_id, m) for _s, m in src[1:]] + [dur]
+    subs = []
+    for i, (img, _m) in enumerate(src):
+        d = cuts[i + 1] - cuts[i]
+        if d <= 0:
+            raise SystemExit(f"STORY-COVERAGE: switch times out of order in {seg_id}")
+        zd = zdir if i % 2 == 0 else ("out" if zdir == "in" else "in")
+        out = f"{S}/{seg_id}_p{i}.mp4"
+        run([FF, "-y", "-loop", "1", "-i", f"{A}/{img}", "-t", f"{d:.3f}",
+             "-filter_complex", f"[0:v]{_zoompan(zd, max(1, int(d * FPS)))}[v]",
+             "-map", "[v]"] + ENC + [out])
+        subs.append(out)
+    lst = f"{S}/{seg_id}_parts.txt"
+    with open(lst, "w") as f:
+        for p in subs:
+            f.write(f"file '{os.path.basename(p)}'\n")
+    run([FF, "-y", "-f", "concat", "-safe", "0", "-i", lst,
+         "-filter_complex", f"[0:v]null{cap}{tail}[v]",
+         "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
 
 
 def build_card(seg_id, dur, text):
