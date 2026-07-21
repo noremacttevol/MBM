@@ -54,6 +54,7 @@ SPOKEN = {}
 
 
 SPOKEN.update({'kneels': 'neels'})  # round2 in-context A/B winners 2026-07-20 (SWEEP/round2-state.json)
+SPOKEN.update({'upbraideth': 'upbraydeth'})  # 2026-07-21: Steffan reads plain as "up-raid is" (shipped cut said "an upgrade is not"). 'upbraydeth' round-trips 100% (A/B in Steffan). Caption keeps KJV "upbraideth".
 
 async def main():
     os.makedirs("audio", exist_ok=True)
