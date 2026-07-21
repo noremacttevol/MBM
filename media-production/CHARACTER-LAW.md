@@ -30,6 +30,75 @@ pictures for a story and then it not keeping the people looking the same at all.
    Each character folder gets a `SPEC.md`: scripture citations, written
    description, generation prompt, and the date Cameron approved it.
 6. **Each sheet needs Cameron's approval before it's marked locked.**
+7. **A character shown at more than one age gets a sheet per age.** See the
+   AGE-VARIANT KEY below. Never age a character by imagination inside a story
+   prompt — if the beat needs him older or younger than his prime sheet, that
+   stage needs its own sheet first (rule 4 applies to stages, not just faces).
+
+---
+
+# AGE-VARIANT KEY (Cameron, 2026-07-21)
+
+*"A key for any other figures that are made into videos in their older years so
+they don't get confused."*
+
+Some figures live across decades on screen — the boy Samuel and the prophet
+Samuel, Jacob fleeing and Jacob dying, Saul holding the coats and Paul writing
+the epistles. Left alone, the image model paints them as unrelated strangers.
+The key below makes every stage a first-class, locked sheet that still reads as
+one person.
+
+## Stage names (use these exact words — nothing else)
+| Stage key | Means |
+|---|---|
+| `infant` | newborn to about two years |
+| `child` | roughly three to twelve |
+| `youth` | teens to early twenties |
+| `prime` | the age the character is in MOST of his stories — **this is the base sheet** and carries no suffix |
+| `aged` | visibly old: white or grey hair, lined skin, stooped or slowed |
+| `glorified` | a resurrected, translated, or heavenly appearance |
+| `risen` | reserved for Jesus after the Resurrection |
+
+## How a variant is built
+1. **The prime sheet comes first.** It is the base; every other stage is
+   derived FROM it, never invented beside it.
+2. **Folder name is `<stage>-<name>`** — `young-jesus`, `infant-jesus`,
+   `risen-jesus`, `aged-abraham`, `child-samuel`. The prime sheet keeps the
+   plain name (`abraham`, `samuel`, `jesus` → JESUS-MASTER-REF).
+3. **Every variant prompt attaches the prime sheet as a `--ref`**, and the
+   prompt says in words: *paint the SAME person at <age>*. A variant generated
+   without the prime sheet attached is void — reroll it.
+4. **Continuity anchors are mandatory.** Every variant SPEC.md carries a
+   "Continuity anchors" line listing the 3–5 features that do NOT change with
+   age: skin tone, eye color, facial structure, nose, any named scripture
+   feature (David ruddy, Elisha bald). These are identical across every stage.
+5. **Only these may change with age:** hair color and length, beard, skin
+   texture and lines, build, posture, bearing, and garments appropriate to
+   their station at that time.
+6. **PROMPTS.md names the stage per shot.** A story spanning years must say
+   which sheet each still uses and where it switches, so nobody has to guess.
+7. **Cameron approves each stage separately.** An approved prime sheet does not
+   auto-approve its variants.
+
+## Figures confirmed to need age variants (from the 200)
+| Character | Stages needed | Where they diverge |
+|---|---|---|
+| **Jesus** | `infant`, `young` (12), **prime**, `risen` | #84/#85/#86 babe → #87 boy → ministry → #97/#98/#99/#100/#134/#179 |
+| **Abraham** | **prime**, `aged` | #114 arguing for Sodom (~99) → #115 the ram in the thicket, Isaac a youth |
+| **Isaac** | `youth`, **prime** | #115 the binding → later patriarch |
+| **Jacob** | `youth`, **prime**, `aged` | #102 the ladder, fleeing → #147 dying in Egypt |
+| **Joseph of Egypt** | `youth`, **prime** | sold at seventeen → vizier in #147 |
+| **Samuel** | `child`, **prime** | #104 the boy who hears his name → the prophet |
+| **David** | `youth`, **prime** | shepherd boy → the king who writes #150 / #176 |
+| **Moses** | **prime**, `glorified` | #105/#177 Sinai → #67 the Transfiguration |
+| **Elijah** | **prime**, `glorified` | #101 the still small voice → #67 the Transfiguration |
+| **John (beloved)** | **prime**, `aged` | the young disciple → the old apostle of #154 / #189 |
+| **Paul** | `youth` (as Saul), **prime** | the young man at Stephen's stoning (Acts 7:58) → the apostle of #184 / #186 |
+| **God the Father** | `glorified` only | he has one appearance — `GOD-THE-FATHER-LOCK.md` |
+| **Noah, Sarah, Naomi, Eli** | `aged` is their **prime** | they appear old in every story they're in — no second stage needed |
+
+The character session finalizes this table after scanning all 200 PROMPTS.md;
+anything it adds gets appended here, not kept in a session note.
 
 ## Roster (FINAL — locked by the character session, 2026-07-21, after scanning
 ## all 201 build PROMPTS.md + QUEUE.md + the name harvest)
@@ -51,8 +120,16 @@ Naomi, Boaz, Job, Jonah, Daniel, Shadrach, Meshach, Abednego, Nebuchadnezzar,
 Naaman, Isaiah, Jeremiah, Ezekiel, Hosea, **Aaron (#161), Joshua (#196),
 Gomer (#117), Joel (#197), Malachi (#174/#191)** — added by the scan.
 
-**Variant sheet:** Young Jesus (boy, ~12) for #87 — must read as the SAME
-person as JESUS-MASTER-REF, features scaled young (per CHARACTERS/WANTED.md).
+**Variant sheets (Jesus has four stages — see the AGE-VARIANT KEY above):**
+| Stage | Folder | Used in | Status |
+|---|---|---|---|
+| `infant` | `CHARACTERS/infant-jesus` | #84, #85, #86 | 🟡 SPEC written 2026-07-21 — **needs rendering + Cameron's approval** |
+| `young` (boy ~12) | `CHARACTERS/young-jesus` | #87 | 🔒 LOCKED |
+| **prime** (ministry) | `JESUS-MASTER-REF` | most of the 200 | 🔒 LOCKED (face-law v3) |
+| `risen` (glorified) | `CHARACTERS/risen-jesus` | #97, #98, #99, #100, #134, #179, #154, #189 | 🟡 SPEC written 2026-07-21 — **needs rendering + Cameron's approval** |
+
+Every one must read as the SAME person as JESUS-MASTER-REF, features scaled to
+the stage. Other figures needing age variants are tabled in the AGE-VARIANT KEY.
 
 **Scanned and EXCLUDED (named but one background still only, no recurrence —
 in-build consistency lock suffices):** Peninnah (#149), Eldad & Medad (#196),
@@ -72,6 +149,16 @@ explicit approval (rule 5).**
 
 Board (kept live for reference): https://milk-b4-meat.web.app/characters.html
 Contact sheets: `CHARACTERS/_approval-1-NT.jpg` / `_approval-2-OT.jpg`.
+
+**⚠️ PENDING — added after the 63 were locked (Cameron, 2026-07-21):** two more
+Jesus stages, `infant-jesus` and `risen-jesus`, plus the AGE-VARIANT KEY above.
+Their SPEC.md files are written; the **sheets are not rendered and not
+approved**. Any build showing the babe (#84, #85, #86) or the risen Christ
+(#97, #98, #99, #100, #134, #179, #154, #189) is BLOCKED under rule 7 until
+those two sheets are rendered and Cameron approves them on the board. The
+age-variant stages listed for Abraham, Isaac, Jacob, Joseph, Samuel, David,
+Moses, Elijah, John and Paul are likewise unbuilt — build them before any story
+still shows those figures at a stage other than their locked prime sheet.
 
 **How a build uses a sheet (do this, every time):**
 ```python
