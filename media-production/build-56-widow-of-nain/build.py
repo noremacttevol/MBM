@@ -26,6 +26,7 @@ import textwrap
 
 import make_narration  # SEGMENTS -> verbatim caption text per segment
 from mbm_caption_timing import caption_filter
+from mbm_speakers import is_scripture
 
 A = "assets"
 S = "segs"
@@ -52,8 +53,10 @@ S8 = "s8-gave-him-to-his-mother.jpeg"
 S9 = "s9-they-glorified-god.jpeg"
 
 # Caption text = verbatim spoken text, keyed by segment name.
-TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
-KJV = {"jv13", "jv14"}
+TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
+# SPEAKER-LAW: declared once in make_narration, so the caption colour
+# and the narration voice can never drift apart.
+SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 
 # BEATS: (segment_name, still, zoom_dir). Consecutive beats on the SAME still alternate
 # in/out so the drift never jumps.
@@ -61,18 +64,27 @@ BEATS = [
     ("n1", S1, "in"),
     ("n2", S2, "in"),
     ("n3", S3, "in"),
-    ("jv13", S4, "in"),                         # WEEP NOT — full silence 1
+    ("s13a", S4, "in"),
+    ("jv13", S4, "out"),
+    ("n3b", S4, "in"),
     ("n4", S5, "in"),
-    ("jv14", S6, "in"),                         # YOUNG MAN, ARISE — full silence 2
+    ("s14a", S6, "in"),
+    ("jv14", S6, "out"),
+    ("n4b", S6, "in"),
     ("n5", S7, "in"),
     ("n6", S8, "in"),
     ("n7", S9, "in"),
+    ("s16", S9, "out"),
+    ("n7b", S9, "in"),
 ]
 
 LEAD = 0.28
 GAP = 0.65
 KJV_GAP = 1.60
-CARD_HOLD = 4.2
+# No-dead-air law: the video ends TAIL seconds after the last spoken
+# word. Derived, never hand-set. Clears the card's 0.8s fade-out so
+# the last word and the fade are never clipped.
+TAIL = 1.5
 
 
 def _ensure_fonts():
@@ -144,39 +156,7 @@ def chunk_caption(text, width, max_lines):
     return out
 
 
-def caption_layers(seg_id, dur, spoken_end, text, kjv):
-    """One drawtext layer per chunk, faded in/out at its share of the spoken time."""
-    if kjv:
-        font, size, color, width, maxl = SERIF_BI, 46, "0xFFF3DC", 38, 3
-    else:
-        font, size, color, width, maxl = SERIF, 34, "white", 48, 2
-    chunks = chunk_caption(text, width, maxl)
-    total = sum(len(c) for c in chunks) or 1
-    t0, t1 = 0.15, max(0.6, min(dur - 0.2, spoken_end + 0.35))
-    filters, labels = [], []
-    acc = 0
-    for i, c in enumerate(chunks):
-        cs = t0 + (t1 - t0) * acc / total
-        acc += len(c)
-        ce = t0 + (t1 - t0) * acc / total
-        tf = f"{S}/{seg_id}_{i}.txt"
-        with open(tf, "w", encoding="utf-8") as f:
-            f.write("\n".join(textwrap.wrap(c, width)))
-        fo = max(cs, ce - 0.35)
-        filters.append(
-            f"color=c=black@0.0:s=1080x1920:r={FPS}:d={dur},format=rgba,"
-            f"drawtext=fontfile={font}:textfile={tf}:fontsize={size}:"
-            f"fontcolor={color}:line_spacing=13:x=(w-text_w)/2:"
-            f"y=h-120-text_h:"
-            f"shadowcolor=black@0.9:shadowx=2:shadowy=2:"
-            f"box=1:boxcolor=black@0.58:boxborderw=22,"
-            f"fade=t=in:st={cs:.2f}:d=0.35:alpha=1,"
-            f"fade=t=out:st={fo:.2f}:d=0.35:alpha=1[cap{seg_id}{i}]")
-        labels.append(f"[cap{seg_id}{i}]")
-    return filters, labels
-
-
-def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, kjv, first):
+def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, speaker, first):
     frames = int(dur * FPS)
     if zdir == "in":
         z = f"1.001+0.09*on/{frames}"
@@ -186,7 +166,7 @@ def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, kjv, first):
             f"zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
             f"d={frames}:s=2160x3840:fps={FPS},"
             f"scale=1080:1920:flags=lanczos")
-    cap = caption_filter(seg_id, dur, spoken_end, cap_text, kjv)
+    cap = caption_filter(seg_id, dur, spoken_end, cap_text, speaker)
     tail = ",fade=t=in:st=0:d=1.0" if first else ""
     fc = f"{base}{cap}{tail}[v]"
     run([FF, "-y", "-loop", "1", "-i", f"{A}/{src}", "-t", str(dur),
@@ -245,15 +225,15 @@ def main():
     start_of = {}
     t = 0.0
     for name, still, zdir in BEATS:
-        kjv = name in KJV
-        gap = KJV_GAP if kjv else GAP
+        speaker = SPEAKER[name]
+        gap = KJV_GAP if is_scripture(speaker) else GAP
         vdur = LEAD + spoken[name] + gap
         a_start = t + LEAD
         audio_place.append((f"audio/{name}.mp3", a_start))
         start_of[name] = a_start
-        timeline.append((name, still, zdir, vdur, a_start, kjv))
+        timeline.append((name, still, zdir, vdur, a_start, speaker))
         t += vdur
-    card_vdur = LEAD + card_spoken + CARD_HOLD
+    card_vdur = LEAD + card_spoken + TAIL
     card_start = t
     audio_place.append(("audio/card.mp3", card_start + LEAD))
     total = t + card_vdur
@@ -261,7 +241,7 @@ def main():
     # ---- on-paper silence map: prove no spoken gap exceeds 2.5s BEFORE mixing ----
     worst, worst_at = 0.0, None
     prev_end = None
-    for name, _s, _z, _v, a_start, _k in timeline:
+    for name, _s, _z, _v, a_start, _sp in timeline:
         if prev_end is not None and a_start - prev_end > worst:
             worst, worst_at = a_start - prev_end, name
         prev_end = a_start + spoken[name]
@@ -275,9 +255,9 @@ def main():
     print(f"sacred silence 2 (arise): jv14 at {start_of['jv14']:.1f}s", flush=True)
 
     # ---- render every still beat ----
-    for i, (seg_id, still, zdir, vdur, _a, kjv) in enumerate(timeline):
+    for i, (seg_id, still, zdir, vdur, _a, speaker) in enumerate(timeline):
         build_still(seg_id, still, vdur, zdir, LEAD + spoken[seg_id],
-                    TEXT[seg_id], kjv, first=(i == 0))
+                    TEXT[seg_id], speaker, first=(i == 0))
     build_card(card_vdur, TEXT["card"])
 
     with open(f"{S}/concat.txt", "w") as f:
