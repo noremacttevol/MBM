@@ -45,10 +45,26 @@ for b in sorted(os.listdir(ROOT)):
         results.append((b, "NO_BUILD_CARD", "", ""))
         continue
     wraps = "textwrap.wrap" in fn
-    variant = "wrap" if wraps else ("perline-split" if 'split("\\n")' in fn or "split('\\n')" in fn else "raw-textfile")
+    # a "\n".join(...) into ONE textfile renders tofu boxes on Linux —
+    # per-line drawtext (one textfile per line) is the only safe shape here
+    newline_textfile = '"\\n".join' in fn or "'\\n'.join" in fn
+    variant = ("wrap-tofu-risk" if wraps and newline_textfile
+               else "wrap" if wraps
+               else ("perline-split" if 'split("\\n")' in fn or "split('\\n')" in fn else "raw-textfile"))
     cm = re.search(r'^CARD\s*=\s*["\'](\w+)["\']', src, re.M)
     card_id = cm.group(1) if cm else None
-    text = get_card_text(bdir, card_id) if card_id else None
+    if card_id is None and re.search(r'TEXT\[.card.\]|\(.card.,', src):
+        card_id = "card"
+    if card_id:
+        text = get_card_text(bdir, card_id)
+    else:
+        # newer template: the card text lives in build.py itself as CARD_TEXT
+        tm = re.search(r'^CARD_TEXT\s*=\s*(\(.*?\)|["\'].*?["\'])\s*$',
+                       src, re.M | re.S)
+        try:
+            text = eval(tm.group(1), {}, {}) if tm else None
+        except Exception:
+            text = ("CARD_TEXT_PARSE_FAIL", "")
     status, detail = "?", ""
     if isinstance(text, tuple):
         status, detail = "ERR:" + text[0], text[1]
