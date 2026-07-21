@@ -1,95 +1,77 @@
 #!/usr/bin/env python3
-"""Generate narration audio for Video #55 — The Withered Hand (Mark 3:1-6).
+"""Narration for build-55-withered-hand — Mark 3.
 
-Narrator: en-US-AndrewNeural — plain American, never a Multilingual model.
-Jesus voice: en-US-ChristopherNeural — American, never British.
+SPEAKER-LAW rebuild (see media-production/SPEAKER-LAW.md). Who is speaking is
+declared once here and decides BOTH the voice and the caption colour.
 
-Jesus speaks ONLY exact KJV. Two lines — his whole speech in this passage:
-  jv4 = Mark 3:4  "Is it lawful to do good on the sabbath days, or to do evil?
-                   to save life, or to kill?"   (SACRED SILENCE 1 — the question)
-  jv5 = Mark 3:5  "Stretch forth thine hand."   (SACRED SILENCE 2 — the healing)
+STAYED RED, both of them, and a third added.
+  jv4  Mark 3:4  "Is it lawful to do good on the sabbath days, or to do evil? to
+       save life, or to kill?"  -- already correctly stopping short of "But they
+       held their peace," which is Mark writing. Left exactly as it was.
+  jv5  Mark 3:5  "Stretch forth thine hand."  -- kept its id.
+  j3   Mark 3:3  "Stand forth."  -- MISSING ENTIRELY. n3 paraphrased it in white
+       ("stand up, and come out here into the midst"). Lifted verbatim as its own
+       red beat on the SAME still (S3). n3 keeps its id, trimmed to the frame, and
+       n3b carries the retelling.
 
-TRANSLATION LAW: after each KJV line the narrator gives plain meaning and never re-quotes
-it. The leaders' hostility is reported plainly; captioned in the narrator's plain white.
+NARRATION FRAMING SPLIT OFF THE SECOND RED LINE. Mark 3:5 reads "And when he had
+looked round about on them with anger, being grieved for the hardness of their
+hearts, he saith unto the man, Stretch forth thine hand." The anger and the grief
+are Mark writing, not Jesus speaking -- and they were sitting in white paraphrase at
+the tail of n4. Lifted as s5a [scripture, light blue] on S6, immediately before jv5
+on the same still. n4 is trimmed to end at their silence; n4b retells both halves.
 
-HOMOGRAPH LAW: no TTS homographs in this text (no live-adjective/bow/wound/read/tear/wind/
-lead/sow). SPOKEN is empty.
+NO GREEN: nothing in Mark 3:1-6 is the Father or a voice from heaven.
 
-CARE — ARC: the shadow of the cross begins here. Jesus's anger and grief at hard hearts is
-real but righteous; the leaders' plot to destroy him is reported, shown only as men leaving
-to conspire — no violence, no menace on screen. The heart is mercy over rule; the hope-beat
-is the restored hand.
+WOMEN: Mark 3:1-6 records no woman speaking. Nothing added; nothing invented.
 
-NUMBER-STRESS LAW: no sentence opens with a bare number.
+WHY-LAW: the room was full of people watching a man's suffering as an opportunity.
+Jesus put him in the middle of the floor where nobody could pretend not to see him.
+Milk: mercy was never a breaking of the sabbath. It was the whole reason for it.
 """
 import asyncio
-import edge_tts
-from mbm_caption_timing import save_narration
+import os
 
-NARRATOR = "en-US-AndrewNeural"
-JESUS = "en-US-ChristopherNeural"
+from mbm_caption_timing import save_speaker_narration
+from mbm_pronounce import audit, spoken_text
+from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 
-SPOKEN = {}
-
+# (id, speaker, caption_text). The caption always shows this exact text; only the
+# string handed to the TTS is respelled.
 SEGMENTS = [
-    # (filename, voice, rate, pitch, text) — text is BOTH spoken and captioned.
-    # --- s1: the man with the withered hand ---
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "On another sabbath Jesus went into the synagogue to teach, and there in the crowd "
-     "was a man whose hand was withered, shrunken and useless, a hand that could not "
-     "work or grip or hold. He had carried it, and the shame of it, for years."),
-    # --- s2: they watched him ---
-    ("n2", NARRATOR, "-22%", "-4Hz",
-     "But others in the room were watching — not the man, but Jesus. Some of the "
-     "religious leaders felt sure he would try to heal on the sabbath, and they waited, "
-     "hoping to catch him breaking the law, so they could accuse him."),
-    # --- s3: stand forth ---
-    ("n3", NARRATOR, "-22%", "-4Hz",
-     "Jesus knew exactly what was in their hearts. He did not hide the moment away in a "
-     "corner. He said to the man with the withered hand, stand up, and come out here "
-     "into the midst, where everyone can see."),
-    # --- s4: jv4 — is it lawful. SACRED SILENCE 1. ---
-    ("jv4", JESUS, "-26%", "-6Hz",
-     "Is it lawful to do good on the sabbath days, or to do evil? to save life, or to "
-     "kill?"),
-    # --- s5: hardness of heart ---
-    ("n4", NARRATOR, "-22%", "-4Hz",
-     "It was a simple question, and it left them no answer. They had no real love for "
-     "the law, or for the man; they only wanted a reason to condemn him. So they said "
-     "nothing at all. And Jesus looked around at them, angry and deeply grieved at how "
-     "hard their hearts had grown."),
-    # --- s6: jv5 — stretch forth thine hand. SACRED SILENCE 2. ---
-    ("jv5", JESUS, "-26%", "-6Hz",
-     "Stretch forth thine hand."),
-    # --- s7: restored whole ---
-    ("n5", NARRATOR, "-22%", "-4Hz",
-     "And the man stretched out the hand he could not use — and as he reached, it was "
-     "made whole, restored, strong and alive again, exactly like his other hand. The "
-     "thing that had been dead came back to life at a single word."),
-    # --- s8: they plotted ---
-    ("n6", NARRATOR, "-22%", "-4Hz",
-     "But the leaders were not amazed; they were furious. They walked out and began, that "
-     "very day, to plot together how they might destroy him. He had done nothing but "
-     "good, and it only hardened them."),
-    # --- s9: mercy over the rule ---
-    ("n7", NARRATOR, "-24%", "-4Hz",
-     "Faced with a rule on one side and a suffering man on the other, Jesus never wavered. "
-     "He will always move toward the person. Mercy, to him, was never a breaking of the "
-     "sabbath; it was the whole reason for it."),
-    # --- closing card, read gently (Readable-Card Law) ---
-    ("card", NARRATOR, "-26%", "-4Hz",
-     "There will always be people upset that he loves you without conditions. Let them "
-     "be. He looks past every rule that was ever used to shut you out, and he calls you "
-     "to stand up, out in the open, and be made whole. Will you stretch out the very "
-     "thing you thought was beyond help?"),
+    ("n1", NARRATOR, "On another sabbath Jesus went into the synagogue to teach, and there in the crowd was a man whose hand was withered, shrunken and useless, a hand that could not work or grip or hold. He had carried it, and the shame of it, for years."),
+    ("n2", NARRATOR, "But others in the room were watching — not the man, but Jesus. Some of the religious leaders felt sure he would try to heal on the sabbath, and they waited, hoping to catch him breaking the law, so they could accuse him."),
+    ("n3", NARRATOR, "Jesus knew exactly what was in their hearts. He did not hide the moment away in a corner. He said to the man with the withered hand:"),
+    # Mark 3:3
+    ("j3", JESUS, "Stand forth."),
+    ("n3b", NARRATOR, "Stand up. Come out here, into the middle, where everyone can see you. The man everybody in that room had learned to look past was moved to the center of the floor."),
+    # Mark 3:4
+    ("jv4", JESUS, "Is it lawful to do good on the sabbath days, or to do evil? to save life, or to kill?"),
+    ("n4", NARRATOR, "Is it lawful to do good on the sabbath, or to do harm? To save a life, or to kill one? It was a simple question, and it left them no answer. They had no real love for the law, or for the man; they only wanted a reason to condemn him. So they said nothing at all."),
+    # Mark 3:5
+    ("s5a", SCRIPTURE, "And when he had looked round about on them with anger, being grieved for the hardness of their hearts, he saith unto the man,"),
+    # Mark 3:5
+    ("jv5", JESUS, "Stretch forth thine hand."),
+    ("n4b", NARRATOR, "He looked around at every one of them, angry, and grieved to the heart at how hard they had let themselves become. And then he turned away from them, to the man, and said: stretch out your hand."),
+    ("n5", NARRATOR, "And the man stretched out the hand he could not use — and as he reached, it was made whole, restored, strong and alive again, exactly like his other hand. The thing that had been dead came back to life at a single word."),
+    ("n6", NARRATOR, "But the leaders were not amazed; they were furious. They walked out and began, that very day, to plot together how they might destroy him. He had done nothing but good, and it only hardened them."),
+    ("n7", NARRATOR, "Faced with a rule on one side and a suffering man on the other, Jesus never wavered. He will always move toward the person. Mercy, to him, was never a breaking of the sabbath; it was the whole reason for it."),
+    ("card", NARRATOR, "There will always be people upset that he loves you without conditions. Let them be. He looks past every rule that was ever used to shut you out, and he calls you to stand up, out in the open, and be made whole. Will you stretch out the very thing you thought was beyond help?"),
 ]
+
+# Homographs this build decides for itself (never auto-replaced globally).
+SPOKEN = {}
 
 
 async def main():
-    for name, voice, rate, pitch, text in SEGMENTS:
-        spoken = SPOKEN.get(name, text)
-        await save_narration(spoken, voice, rate, pitch, f"audio/{name}.mp3")
-        print(f"saved audio/{name}.mp3")
+    os.makedirs("audio", exist_ok=True)
+    for name, speaker, text in SEGMENTS:
+        flagged = [w for w in audit(text) if w not in SPOKEN]
+        if flagged:
+            print(f"  ! {name}: undecided homograph(s) {flagged}")
+        await save_speaker_narration(spoken_text(text, SPOKEN), speaker,
+                                     f"audio/{name}.mp3")
+        print(f"saved audio/{name}.mp3  [{speaker}]")
 
 
 if __name__ == "__main__":
