@@ -30,6 +30,7 @@ Worklist JSON: scratchpad roster-scan (102 workable rows).
 | 61-syrophoenician-woman | CLEAN | 9/9 pass; woman consistent every shot |
 | 44 fix status | s3+s6 regenerated (dry cheeks), zoom-QC'd, installed, rebuilt |
 | 63-man-born-blind | CLEAN | 10/10 pass; man consistent blind→believing; s5 slightly more painterly than the set (watch for style drift if regenerating) |
+| 41-counting-the-cost | CLEAN | 16/16 pass; s6-vs-s7 builder difference is BY DESIGN (BUILDER LOCK vs SECOND BUILDER LOCK in PROMPTS.md) |
 
 ## Still to sweep (in priority order)
 61, 63, 41, 48(blocked? no—48 blocked), 124, 129, 8, 13(blocked), 20, 21,
