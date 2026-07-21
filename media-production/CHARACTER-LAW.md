@@ -77,14 +77,14 @@ recurs in a new story, rule 4 kicks in: sheet first.
 | Matthew | ✅ | ✅ | ⬜ |
 | Thomas | ✅ | ✅ | ⬜ |
 | Judas Iscariot | ✅ | ✅ | ⬜ |
-| John the Baptist | ✅ | ⬜ | ⬜ |
+| John the Baptist | ✅ | ✅ | ⬜ |
 | Mary (mother of Jesus) | ✅ | ✅ | ⬜ |
 | Joseph of Nazareth | ✅ | ✅ | ⬜ |
-| Mary Magdalene | ✅ | ⬜ | ⬜ |
-| Martha | ✅ | ⬜ | ⬜ |
-| Mary of Bethany | ✅ | ⬜ | ⬜ |
-| Lazarus | ✅ | ⬜ | ⬜ |
-| Zacchaeus | ✅ | ⬜ | ⬜ |
+| Mary Magdalene | ✅ | ✅ | ⬜ |
+| Martha | ✅ | ✅ | ⬜ |
+| Mary of Bethany | ✅ | ✅ | ⬜ |
+| Lazarus | ✅ | ✅ | ⬜ |
+| Zacchaeus | ✅ | ✅ | ⬜ |
 | Nicodemus | ✅ | ⬜ | ⬜ |
 | Pilate | ✅ | ⬜ | ⬜ |
 | Paul | ✅ | ⬜ | ⬜ |

@@ -53,7 +53,7 @@ scene painted edge to edge, no panels.
 
 ### three-quarter (attach face-front.jpeg as --ref)
 [STYLE BLOCK] The SAME woman as the attached reference image — identical face,
-hair and shawl: a reverent three-quarter bust portrait of Mary Magdalene, a
+hair and shawl: a reverent three-quarter bust portrait of Mary Magdalene, a YOUNG woman of about thirty with smooth unlined skin exactly like the reference, a
 Middle Eastern Jewish woman of about thirty, warm brown skin, long dark wavy
 hair escaping her loosely draped deep madder-red shawl, dark olive-brown wool
 dress, turned three-quarters toward warm light, earnest and devoted. Plain

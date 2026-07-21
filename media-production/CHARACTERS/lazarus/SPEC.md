@@ -57,7 +57,7 @@ single continuous scene painted edge to edge, no panels.
 
 ### three-quarter (attach face-front.jpeg as --ref)
 [STYLE BLOCK] The SAME man as the attached reference image — identical face,
-hair and beard: a reverent three-quarter bust portrait of Lazarus of Bethany,
+hair and beard: a reverent three-quarter bust portrait of Lazarus with the SAME short dark curly hair as the reference (never long, never sleek) of Bethany,
 a Middle Eastern Jewish man of about forty, warm brown skin, dark hair, short
 dark beard, dun sandy grey-brown wool tunic with a dark olive mantle at the
 shoulder, turned three-quarters toward warm light, gentle and grateful. Plain
