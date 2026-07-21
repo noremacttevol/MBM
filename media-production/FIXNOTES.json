@@ -471,6 +471,10 @@
   {
    "date": "2026-07-21",
    "note": "Trimmed 8.0s of dead air off the end (ends ~2s after the last spoken word) and kept the file at its original quality/size (10.8MB). New length 56s. \u2014 narration re-recorded"
+  },
+  {
+   "date": "2026-07-21",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "65": [

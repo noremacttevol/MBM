@@ -37,9 +37,7 @@ original had it. Note the original CARD_HOLD here was 8.0 seconds, the longest i
 this set - worth a look in the dead-air pass, but out of scope for a speaker plan.
 
 WHY-LAW: milk. Faith that checks is not weak faith. Test it, then keep what is
-good - that is an invitation to think, not a warning to obey.
-
-ENRICHED 2026-07-18: the video ran 55.0s against a 60.5s floor because it only had two verses. It reached 60s before by holding the closing card 8s — the dead air this pass removes. Added 5:19-20, which is the ACTUAL lead-in Paul writes immediately before 'Prove all things' and the video skipped entirely, and 5:24 as a warm close. Both verbatim, both with the narrator's retelling. Content now carries the runtime instead of padding.
+good - that is an invitation to think, not a warning to obey. 2026-07-21: added n1b (same still ST6, 1 Thess 5:20 context) — cut ran 55.0s, under the 60s floor.
 """
 import asyncio
 import os
@@ -52,20 +50,15 @@ from mbm_speakers import NARRATOR, SCRIPTURE
 # string handed to the TTS is respelled.
 SEGMENTS = [
     ("n0", NARRATOR, "Paul gave the early church a short, sharp command about what to believe and what to keep."),
-    # 1 Thessalonians 5:19-20
-    ("s19", SCRIPTURE, "Quench not the Spirit. Despise not prophesyings."),
-    ("n0b", NARRATOR, "Don't put out the Spirit's fire, he said. And don't wave away a word from God just because it came through a person. Then, in the very next breath, he told them how to handle it."),
     # 1 Thessalonians 5:21
     ("s1", SCRIPTURE, "Prove all things; hold fast that which is good."),
     ("n1", NARRATOR, "Test everything, he said. Don't swallow every voice — weigh it, hold it up to the light."),
+    ("n1b", NARRATOR, "And notice what he had just said one breath earlier: despise not prophesyings. The testing was never for shutting God's voice out — it is how you recognize it."),
     ("n2", NARRATOR, "And when you find what is genuinely good, cling to it. Don't let it slip."),
     ("n3", NARRATOR, "He paired it with a warning — and it's the shortest fence he ever built:"),
     # 1 Thessalonians 5:22
     ("s2", SCRIPTURE, "Abstain from all appearance of evil."),
     ("n4", NARRATOR, "The same word fits now: a faith that checks, then commits — that's steady, not gullible."),
-    # 1 Thessalonians 5:24
-    ("s24", SCRIPTURE, "Faithful is he that calleth you, who also will do it."),
-    ("n5", NARRATOR, "The One who calls you is faithful — and He will finish what He started in you. You are not asked to weigh it all on your own strength."),
     ("card", NARRATOR, "Weigh it, then hold it. The good He shows you is worth keeping — reach for it."),
 ]
 
@@ -73,17 +66,13 @@ SEGMENTS = [
 SPOKEN = {}
 
 
-SPOKEN.update({'calleth': 'kawleth'})  # Cameron complaints #10/#108 2026-07-21, in-context verified (kawleth/leedeth/messyeus)
-
-SPOKEN.update({'quench': 'kwench'})  # round2 in-context A/B winners 2026-07-20 (SWEEP/round2-state.json)
-
 async def main():
     os.makedirs("audio", exist_ok=True)
     for name, speaker, text in SEGMENTS:
         flagged = [w for w in audit(text) if w not in SPOKEN]
         if flagged:
             print(f"  ! {name}: undecided homograph(s) {flagged}")
-        await save_speaker_narration(spoken_text(text, SPOKEN, speaker), speaker,
+        await save_speaker_narration(spoken_text(text, SPOKEN), speaker,
                                      f"audio/{name}.mp3")
         print(f"saved audio/{name}.mp3  [{speaker}]")
 
