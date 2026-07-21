@@ -11,6 +11,18 @@
 > zeroed, and the NO-BED law is now PRODUCTION-BIBLE §5 QC. Audio = narration + silence
 > only, forever. Re-reviews of already-built videos should be done on the post-purge files.
 
+> 🗣️ **PRONUNCIATION OVERHAUL 2026-07-20 (Cameron's order: "redo this all over again"):**
+> the global SAY dict was measured (ab_test_say.py) and 50 of its 65 respellings LOST
+> to the plain word — hyphenated forms read as two words. mbm_pronounce.py now carries
+> only measured winners + per-voice fixes (SAY_BY_VOICE), spoken_text() takes the
+> speaker, and save_narration applies the dict at the funnel so NO build can bypass it
+> (129 old-style builds never applied it at all — that is why fixes "kept reverting").
+> gate_rebuilds.py compares each build's timing.json sidecar text against the dict and
+> lists stale audio; 58 builds were re-rendered, verify-mp4'd and shipped to the board
+> via site/fixed on 2026-07-20. RULES: never add a respelling that has not won an
+> in-context A/B (round2_fixes.py pattern); no hyphens/ALL-CAPS ever; approved videos
+> (approvals.json) are LOCKED — never rebuilt.
+
 > 🚨 **DEPLOY 429 FIX (ASSEMBLY-D 2026-07-17):** if `firebase deploy` fails with
 > "exceeded the Hosting storage quota", run
 > `python3 media-production/prune_hosting_versions.py` and deploy again — site/ is

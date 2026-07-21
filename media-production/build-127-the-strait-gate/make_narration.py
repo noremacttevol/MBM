@@ -1,77 +1,74 @@
 #!/usr/bin/env python3
-"""Generate narration audio for Story Video #127 — The Strait Gate
-(Matthew 7:13-14). From DRAFTS/row-127.md, validated against the laws.
-Narrator: modern, warm, low, unhurried (American). Plain US model only.
-Jesus voice: AMERICAN, never British. Jesus speaks ONLY exact KJV:
-Matthew 7:13 and 7:14 (both verified against the passage).
-PRE-FLIGHT FIX: the draft's closing card opened with a bare number
-("Two gates. One choice.") — reworded per the NUMBER-STRESS law so the
-counts land stressed, in both audio and caption.
-HOMOGRAPH LAW — 🛑 BUILDER MUST EAR-CHECK j1 and j2 ("leadeth", twice):
-"lead" is on the flag list. It must read /LEED-eth/ (to guide), never
-/LED-eth/ (the metal). If misread, add SPOKEN overrides respelling it
-"leedeth" (captions keep the exact KJV spelling "leadeth").
-No other flagged words in any segment.
+"""Narration for build-127-the-strait-gate — Matthew 7.
+
+SPEAKER-LAW rebuild (see media-production/SPEAKER-LAW.md). Who is speaking is
+declared once here and decides BOTH the voice and the caption colour.
+
+STAYED RED: both j1 and j2 are Jesus preaching in the flesh in the Sermon on the
+Mount, and a red-letter KJV inks both. Neither carries evangelist framing, so
+neither needed splitting.
+  j1  Matthew 7:13
+  j2  Matthew 7:14
+
+THE FIX: the two red verses ran back to back with no storyteller between them,
+and the two narrator beats that explain them (n1, n2) sat BEFORE the verses
+instead of after. The viewer got the plain-English version first and the King
+James second, which is backwards - the retelling rule wants the Old English to
+land and then be made plain.
+
+Nothing was rewritten. n1 and n2 were already near-perfect retellings of 7:13 and
+7:14; they were simply moved to follow the verses they explain. It now reads
+verse, retelling, verse, retelling.
+
+ADDED: n4, a short closing narrator beat, so the video ends on S7 ('step through')
+instead of leaving that still unused. All seven stills are now in the running
+order; the original build used only six.
+
+WOMEN: Matthew 7:13-14 records no woman speaking. Nothing added.
+
+WHY-LAW: he did not describe two roads to frighten anybody. He described them
+because one of them is worth finding, and finding it is a decision, not an
+accident.
 """
 import asyncio
-import edge_tts
-from mbm_caption_timing import save_narration
+import os
 
-NARRATOR = "en-US-AndrewNeural"     # plain American — never a Multilingual model
-JESUS = "en-US-ChristopherNeural"   # American. Never a British voice.
+from mbm_caption_timing import save_speaker_narration
+from mbm_pronounce import audit, spoken_text
+from mbm_speakers import JESUS, NARRATOR
 
+# (id, speaker, caption_text). The caption always shows this exact text; only the
+# string handed to the TTS is respelled.
 SEGMENTS = [
-    # (filename, voice, rate, pitch, text)
-    ("n0", NARRATOR, "-20%", "-4Hz",
-     "Jesus stood before the crowd and described two roads — two "
-     "ways that every person gets to choose."),
-    ("n1", NARRATOR, "-20%", "-4Hz",
-     "One road looks easy. The gate is wide, the path is broad, "
-     "and a lot of people walk that way."),
-    ("n2", NARRATOR, "-20%", "-4Hz",
-     "The other road looks harder. The gate is narrow, the path is "
-     "tight, and far fewer find it."),
-    # Exact KJV Matt 7:13.
-    ("j1", JESUS, "-20%", "-2Hz",
-     "Enter ye in at the strait gate: for wide is the gate, and "
-     "broad is the way, that leadeth to destruction, and many "
-     "there be which go in thereat:"),
-    # Exact KJV Matt 7:14.
-    ("j2", JESUS, "-20%", "-2Hz",
-     "Because strait is the gate, and narrow is the way, which "
-     "leadeth unto life, and few there be that find it."),
-    # n3 is split in two so each closing still (s6 gate-in-light, s7 hand
-    # at dawn) carries the half being said — same draft words, verbatim.
-    ("n3a", NARRATOR, "-20%", "-4Hz",
-     "He wasn't describing geography. He was describing a decision."),
-    ("n3b", NARRATOR, "-20%", "-4Hz",
-     "A narrow gate that leads to life, found by the few who "
-     "choose it."),
-    # sacred-silence beat follows n3a on the gate-in-light still.
-    ("card", NARRATOR, "-22%", "-5Hz",
-     "There are two gates, and one choice. He said the narrow way "
-     "is worth finding. Step through."),
+    ("n0", NARRATOR, "Jesus stood before the crowd and described two roads — two ways that every person gets to choose."),
+    # Matthew 7:13
+    ("j1", JESUS, "Enter ye in at the strait gate: for wide is the gate, and broad is the way, that leadeth to destruction, and many there be which go in thereat:"),
+    ("n1", NARRATOR, "One road looks easy. The gate is wide, the path is broad, and a lot of people walk that way."),
+    # Matthew 7:14
+    ("j2", JESUS, "Because strait is the gate, and narrow is the way, which leadeth unto life, and few there be that find it."),
+    ("n2", NARRATOR, "The other road looks harder. The gate is narrow, the path is tight, and far fewer find it."),
+    ("n3a", NARRATOR, "He wasn't describing geography. He was describing a decision."),
+    ("n3b", NARRATOR, "A narrow gate that leads to life, found by the few who choose it."),
+    ("n4", NARRATOR, "He never said the narrow way would be crowded. He said it leads to life. Both gates are standing open right now, and nobody walks through either one by accident."),
+    ("card", NARRATOR, "There are two gates, and one choice. He said the narrow way is worth finding. Step through."),
 ]
 
-# HOMOGRAPH LAW — see the docstring: ear-check "leadeth" in j1/j2 before
-# assembly. If (and only if) TTS misreads it, uncomment the overrides.
-# Ear-check 2026-07-17 (ASSEMBLY-B): j2 read "leadeth" as /LED-eth/
-# ("letteth" per whisper). Overrides enabled for BOTH KJV lines —
-# captions keep the exact KJV spelling "leadeth".
-SPOKEN = {
-    "j1": ("Enter ye in at the strait gate: for wide is the gate, and "
-           "broad is the way, that leedeth to destruction, and many "
-           "there be which go in thereat:"),
-    "j2": ("Because strait is the gate, and narrow is the way, which "
-           "leedeth unto life, and few there be that find it."),
-}
+# Homographs this build decides for itself (never auto-replaced globally).
+SPOKEN = {}
 
+
+SPOKEN.update({'leadeth': 'leedeth'})  # round2 in-context A/B winners 2026-07-20 (SWEEP/round2-state.json)
 
 async def main():
-    for name, voice, rate, pitch, text in SEGMENTS:
-        tts_text = SPOKEN.get(name, text)
-        await save_narration(tts_text, voice, rate, pitch, f"audio/{name}.mp3")
-        print(f"saved audio/{name}.mp3")
+    os.makedirs("audio", exist_ok=True)
+    for name, speaker, text in SEGMENTS:
+        flagged = [w for w in audit(text) if w not in SPOKEN]
+        if flagged:
+            print(f"  ! {name}: undecided homograph(s) {flagged}")
+        await save_speaker_narration(spoken_text(text, SPOKEN, speaker), speaker,
+                                     f"audio/{name}.mp3")
+        print(f"saved audio/{name}.mp3  [{speaker}]")
+
 
 if __name__ == "__main__":
     asyncio.run(main())

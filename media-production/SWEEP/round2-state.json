@@ -1,0 +1,242 @@
+{
+ "build-62-ephphatha|j1|ephphatha": {
+  "base": 0.0,
+  "base_heard_has": false,
+  "cands": {
+   "effuhthuh": 0.0,
+   "effathah": 0.286
+  }
+ },
+ "build-22-unmerciful-servant|j4|owest": {
+  "base": 0.286,
+  "base_heard_has": false,
+  "cands": {
+   "ohest": 0.75,
+   "ohwest": 0.286
+  }
+ },
+ "build-160-stone-cut|kv45|sawest": {
+  "base": 0.5,
+  "base_heard_has": false,
+  "cands": {
+   "sawist": 0.5
+  }
+ },
+ "build-63-man-born-blind|j2|siloam": {
+  "base": 0.667,
+  "base_heard_has": false,
+  "cands": {
+   "sylohum": 0.8
+  }
+ },
+ "build-83-weeping-over-jerusalem|s41|wept": {
+  "base": 0.667,
+  "base_heard_has": false,
+  "cands": {
+   "weppt": 0.667
+  }
+ },
+ "build-59-feeding-4000|s4|whence": {
+  "base": 0.6,
+  "base_heard_has": false,
+  "cands": {
+   "wence": 0.6
+  }
+ },
+ "build-72-calling-matthew|s11|eateth": {
+  "base": 0.6,
+  "base_heard_has": false,
+  "cands": {
+   "eeteth": 0.667
+  }
+ },
+ "build-21-lost-sheep|s2|eateth": {
+  "base": 0.923,
+  "base_heard_has": true,
+  "cands": {
+   "eeteth": 0.833
+  }
+ },
+ "build-99-flesh-and-bone-thomas|n4b|doubt": {
+  "base": 0.6,
+  "base_heard_has": false,
+  "cands": {
+   "dowt": 1.0
+  }
+ },
+ "build-27-leaven|n6|dough": {
+  "base": 0.667,
+  "base_heard_has": false,
+  "cands": {
+   "doh": 1.0
+  }
+ },
+ "build-151-ask-of-god|n4|kneels": {
+  "base": 0.545,
+  "base_heard_has": false,
+  "cands": {
+   "neels": 1.0
+  }
+ },
+ "build-195-prove-all-things|s19|quench": {
+  "base": 0.667,
+  "base_heard_has": false,
+  "cands": {
+   "kwench": 1.0
+  }
+ },
+ "build-88-triumphal-entry|s5|sion": {
+  "base": 0.667,
+  "base_heard_has": false,
+  "cands": {
+   "zyon": 0.75
+  }
+ },
+ "build-150-shepherd-psalm|s2|maketh": {
+  "base": 0.5,
+  "base_heard_has": false,
+  "cands": {
+   "maykuth": 0.6
+  }
+ },
+ "build-150-shepherd-psalm|s2|leadeth": {
+  "base": 0.6,
+  "base_heard_has": false,
+  "cands": {
+   "leedeth": 0.714
+  }
+ },
+ "build-150-shepherd-psalm|s3a|restoreth": {
+  "base": 0.824,
+  "base_heard_has": false,
+  "cands": {
+   "ristoreth": 0.308
+  }
+ },
+ "build-127-the-strait-gate|j2|leadeth": {
+  "base": 0.6,
+  "base_heard_has": false,
+  "cands": {
+   "leedeth": 1.0
+  }
+ },
+ "build-150-shepherd-psalm|s4|yea": {
+  "base": 0.857,
+  "base_heard_has": true,
+  "cands": {
+   "yay": 0.667
+  }
+ },
+ "build-41-counting-the-cost|j1|yea": {
+  "base": 0.857,
+  "base_heard_has": true,
+  "cands": {
+   "yay": 0.667
+  }
+ },
+ "build-19-shore|s16|yea": {
+  "base": 0.857,
+  "base_heard_has": true,
+  "cands": {
+   "yay": 0.667
+  }
+ },
+ "build-164-unity-of-faith|n6|gem": {
+  "base": 0.571,
+  "base_heard_has": false,
+  "cands": {
+   "jem": 0.571
+  }
+ },
+ "build-50-noblemans-son|jv50|liveth": {
+  "base": 0.545,
+  "base_heard_has": false,
+  "cands": {
+   "livveth": 1.0
+  }
+ },
+ "build-57-jairus-daughter|jtal|talitha": {
+  "base": 0.857,
+  "base_heard_has": true,
+  "cands": {
+   "tuhleethuh": 0.857
+  }
+ },
+ "build-71-calling-the-fishermen|n7|zebedee": {
+  "base": 0.615,
+  "base_heard_has": false,
+  "cands": {
+   "zebbuhdee": 1.0
+  }
+ },
+ "build-87-boy-in-the-temple|j1|wist": {
+  "base": 0.75,
+  "base_heard_has": false,
+  "cands": {
+   "wisst": 0.75
+  }
+ },
+ "build-187-ye-are-gods|n82g|psalm": {
+  "base": 0.667,
+  "base_heard_has": false,
+  "cands": {
+   "sahm": 1.0
+  }
+ },
+ "build-171-baptized-for-the-dead|s20|slept": {
+  "base": 0.4,
+  "base_heard_has": false,
+  "cands": {
+   "sleppt": 0.4
+  }
+ },
+ "build-148-ruth-and-the-redeemer|n3|boaz": {
+  "base": 0.667,
+  "base_heard_has": false,
+  "cands": {
+   "bohaz": 0.667
+  }
+ },
+ "build-149-hannah-is-heard|n3a|watched": {
+  "base": 0.769,
+  "base_heard_has": false,
+  "cands": {
+   "wotched": 1.0
+  }
+ },
+ "build-68-multitudes-mountain|n7|faint": {
+  "base": 0.545,
+  "base_heard_has": false,
+  "cands": {
+   "faynt": 1.0
+  }
+ },
+ "build-192-the-fast-god-has-chosen|g7|seest": {
+  "base": 0.727,
+  "base_heard_has": false,
+  "cands": {
+   "seeust": 0.444
+  }
+ },
+ "build-44-two-debtors|jv44|seest": {
+  "base": 0.727,
+  "base_heard_has": false,
+  "cands": {
+   "seeust": 0.667
+  }
+ },
+ "build-169-fulfil-righteousness|s14|comest": {
+  "base": 0.667,
+  "base_heard_has": false,
+  "cands": {
+   "comust": 0.5
+  }
+ },
+ "build-69-baptism|s14|comest": {
+  "base": 0.667,
+  "base_heard_has": false,
+  "cands": {
+   "comust": 0.5
+  }
+ }
+}
