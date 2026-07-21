@@ -80,6 +80,39 @@ one person.
 7. **Cameron approves each stage separately.** An approved prime sheet does not
    auto-approve its variants.
 
+## FINAL age-variant worklist (Cameron 2026-07-21, from the all-200 scan)
+
+Built by `tools/char_story_map.py`, which reads each build's PROMPTS.md +
+gen_stills_flow.py through `character_refs.find_in_text` with scripture
+citations stripped (a "John 3:16" names a book, not a man standing in the shot).
+**Story numbers below are the videos whose stills must be REDONE** once the
+stage sheet exists — that is the redo trigger, not a suggestion.
+
+| Character | Stage to build | Story numbers to redo | Why the stage differs |
+|---|---|---|---|
+| **Jesus** | `infant` | **84, 85, 86** | Luke 2:7 swaddled newborn in the manger (84, 85); Matt 2:11 "the young child" in a house, 1–2 years old (86). Two sub-stages — see `CHARACTERS/infant-jesus/SPEC.md`. |
+| **Jesus** | `risen` | **97, 98, 99, 100, 134, 154, 179, 189** | Luke 24:39 flesh and bone with the wound marks; every post-Resurrection beat. `CHARACTERS/risen-jesus/SPEC.md`. |
+| **Mary (mother)** | `youth` | **84, 85, 86, 87** | A young mother at the nativity and still young at the temple visit — she is decades younger here than at Cana (#49), which uses her prime sheet. |
+| **John (beloved)** | `aged` | **154, 174, 189** | The Revelation beats are written by the old apostle on Patmos; the same face as the young fisherman of #51/#71 but sixty years on. |
+| **Moses** | `glorified` | **67** | At the Transfiguration he appears from beyond death in glory — not the Sinai elder of #105/#177/#196. |
+| **Elijah** | `glorified` | **67, 174** | Translated, not aged: the Transfiguration and the Mal 4 return promise. His prime sheet covers #101. |
+| **Abraham** | `aged` | **115, 190** | Gen 22 puts him past 115 with Isaac grown — visibly older than the man arguing for Sodom at 99 (#114). |
+| **Abraham** | `glorified` | **37** | In the rich man's parable he is seen in paradise, not on earth. |
+| **Isaac** | `youth` | **115, 190** | The son carrying the wood is a young man, not the child or the later patriarch. |
+| **Jacob** | `youth` | **102** | The ladder is Jacob fleeing Esau as a young man; his prime sheet is the elder. |
+| **Samuel** | `child` | **104, 149** | 1 Sam 3 is a boy ministering before Eli — a child sheet, not the prophet. |
+| **Peter** | `aged` | **172, 197** | The Pentecost/epistle beats are the elder apostle, not the fisherman of #7/#51. |
+| **Paul** | `youth` (as Saul) | **179** *(only if the Acts 7:58 coat-holder beat is added)* | The young man consenting to Stephen's death is the same face as the apostle of #184/#186. |
+
+Everything else on the roster appears at ONE life stage across all 200 and needs
+no variant — their locked prime sheet already governs every shot they're in.
+
+**Redo scope: 22 videos** — 37, 67, 84, 85, 86, 87, 97, 98, 99, 100, 102, 104,
+115, 134, 149, 154, 172, 174, 179, 189, 190, 197. Every still in these that
+shows the character at the stage named above gets regenerated against the new
+sheet. Approved-locked cuts among them go to FIX-LATER instead of being
+overwritten (approved-lock law still outranks this).
+
 ## Figures confirmed to need age variants (from the 200)
 | Character | Stages needed | Where they diverge |
 |---|---|---|

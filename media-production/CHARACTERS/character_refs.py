@@ -144,6 +144,32 @@ def find_in_text(text):
             r"beloved disciple|john the beloved|whom jesus loved|sons? of zebedee",
             low):
         hits.discard("john-beloved")
+
+    # Bare "Mary" is three different women, so it used to resolve to none of
+    # them — which silently hid Mary the mother from every nativity build
+    # (2026-07-21 scan: #84 named her 13 times and matched nobody). Same shape
+    # as the John rule: if the text says a bare Mary and never qualifies her as
+    # Magdalene or of Bethany, she is the mother.
+    if re.search(r"\bmary\b", low) and not (
+            hits & {"mary-magdalene", "mary-of-bethany"}):
+        # ...unless the scene is Bethany, where the bare Mary is Martha's sister.
+        if re.search(r"bethany|martha|lazarus", low):
+            hits.add("mary-of-bethany")
+        else:
+            hits.add("mary-mother-of-jesus")
+
+    # Bare "Joseph" is the carpenter in a nativity/childhood build and the
+    # vizier in a Genesis one. Disambiguate on the surrounding story words
+    # rather than dropping him.
+    # "stick of Joseph", "tribe/house/children of Joseph" name a TRIBE, not a man
+    # — Ezekiel 37 is about two nations, and nobody named Joseph is on screen.
+    tribal = re.compile(
+        r"(?:(?:stick|rod|tribe|house|children|sons?|land|seed)\s+(?:of|for)\s+joseph"
+        r"|stick-for-joseph|for\s+joseph\b)")
+    if re.search(r"\bjoseph\b", tribal.sub(" ", low)) and not (
+            hits & {"joseph-of-nazareth", "joseph-of-egypt"}):
+        egypt = re.search(r"egypt|pharaoh|vizier|brethren|coat of many|famine", low)
+        hits.add("joseph-of-egypt" if egypt else "joseph-of-nazareth")
     return sorted(hits)
 
 

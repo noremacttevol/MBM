@@ -11,13 +11,13 @@ IS shown via master ref — never flag it, never re-litigate it).
 **Stage key:** `risen` — see AGE-VARIANT KEY in `../../CHARACTER-LAW.md`.
 
 ## Why this variant exists (read before changing it)
-Cameron asked for "an older Jesus." In mortality there isn't one — He was
-crucified at about thirty-three, so no story in the 200 shows an aged mortal
-Jesus. What the stories DO show, and what has never had a locked sheet, is the
-Jesus **after** the Resurrection: the same man, glorified. That is the fourth
-and final Jesus stage (infant → boy of twelve → ministry → risen), and it is
-the one that kept drifting because nothing governed it. If Cameron meant
-something else by "older," this sheet gets rewritten on his word.
+Cameron clarified 2026-07-21 that by "older Jesus" he meant the **adult** Jesus,
+not an aged one — and the adult ministry Jesus is already locked as
+JESUS-MASTER-REF, so no new sheet was needed for that. This sheet covers the
+one Jesus stage that still had nothing governing it: the Jesus **after** the
+Resurrection. Same man, same age, now glorified. Jesus's four stages are
+therefore: `infant` → `young` (twelve) → **prime** (adult ministry,
+JESUS-MASTER-REF) → `risen`.
 
 ## What scripture tells us
 - Luke 24:39 — "a spirit hath not flesh and bones, as ye see me have." The
