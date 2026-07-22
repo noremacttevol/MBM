@@ -30,7 +30,7 @@ Named disciples or the whole Twelve are the visible subject.
 | ✅ | 51  | build-51-first-catch-of-fish    | Peter, James, John — REBUILT 2026-07-22, awaiting watch |
 | ✅ | 11  | build-11-storm                  | the Twelve, the boat — REBUILT 2026-07-22, awaiting watch |
 | ✅ | 89  | build-89-the-last-supper        | all Twelve at the table — REBUILT 2026-07-22, awaiting watch |
-| ⬜ | 90  | build-90-washing-feet           | Peter + the Twelve |
+| ✅ | 90  | build-90-washing-feet           | Peter + the Twelve — REBUILT 2026-07-22, awaiting watch |
 | ⬜ | 91  | build-91-gethsemane             | Peter, James, John |
 | ⬜ | 92  | build-92-peters-denial          | Peter |
 | ⬜ | 103 | build-103-peters-confession     | Peter + the Twelve |
