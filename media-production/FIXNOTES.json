@@ -1013,6 +1013,10 @@
   {
    "date": "2026-07-22",
    "note": "Pronunciation fix that had been silently thrown away is now actually in the video. What went wrong: this video's script never told the pronunciation list WHICH voice was speaking, so every correction that only applies to one voice was worked out and then dropped on the floor \u2014 \"Cana\" was not getting its corrected pronunciation. This was true in 175 of the 200 videos, so it has been fixed at the source in all of them, not just this one. Proof: the re-recorded line now contains the corrected spelling and transcribes back as the right word. \u2014 narration re-recorded"
+  },
+  {
+   "date": "2026-07-22",
+   "note": "Both words you named are fixed. \"Liveth\" in \"Go thy way; thy son liveth\" now says LIV-ith exactly as you spelled it (it was coming out with a long ee), and it is fixed in both places \u2014 where Jesus says it and where the scripture voice repeats it. \"Cana\" now gets its KAY-nuh correction, which had been silently thrown away because this video's script never told the pronunciation list which voice was speaking. Proof: both re-recorded lines transcribe back correctly. NOTE: the picture problems you listed in the same message (Jesus too big at 0:57, the 1:17 picture, and the man going grey at 2:10) are NOT fixed yet \u2014 this was the audio pass only. \u2014 narration re-recorded"
   }
  ],
  "51": [
