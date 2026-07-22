@@ -57,7 +57,14 @@ SEGMENTS = [
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
-SPOKEN = {}
+SPOKEN = {
+    # Cameron denial #173 (2026-07-22): "Mispronounced live at the end". Every
+    # "live" in this build is the VERB (rhymes with give) -- j1c "they that hear
+    # shall live", n2b "to hear him is to live", card "listen -- and live" --
+    # never the adjective (rhymes with hive). "liv" forces the verb reading and
+    # round-trips back as "live" 2/2 in both Eric and Andrew.
+    "live": "liv",
+}
 
 
 async def main():
