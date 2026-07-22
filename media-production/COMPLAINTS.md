@@ -11,7 +11,6 @@ touching anything else. Do NOT edit by hand.
 | # | Status | What Cameron said |
 |---|---|---|
 | 7 | newer cut shipped — VERIFY fixed | the words only picture at the end is messed up and out of the frame  on the edges it should be 2 or 3 lines |
-| 8 | newer cut shipped — VERIFY fixed | Call eth calleth pronounced wrong. |
 | 9 | newer cut shipped — VERIFY fixed | Running raight oast jesus is what the picture looks like |
 | 10 | newer cut shipped — VERIFY fixed | She says Messias again that is wrong |
 | 17 | UNFIXED | captions are messed up and the voice  is messed  up and is misspronouncing livest and  other old english pronunciation. |
