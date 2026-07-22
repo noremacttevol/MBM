@@ -50,6 +50,13 @@ SAY = {
     "shewing": "showing",
     "forsook": "for-SOOK",
 
+    # "an hungred" (Matt 25:35, KJV) — caught 2026-07-22 in the shipped audio of
+    # #33 while verifying the divideth fix, before Cameron had to flag it. Every
+    # voice breaks the plain spelling into two words, "hung red": Eric 2/2,
+    # Steffan 2/2, Andrew 2/2. "hungerd" restores the single word ("an hungered")
+    # in all three, 2/2 each. Global on that evidence.
+    "hungred": "hungerd",
+
     "Bethsaida": "beth-SAY-ih-da",
     "Gennesaret": "Ghen-NESS-a-ret",
     "Habakkuk": "ha-BAK-kuk",
@@ -88,6 +95,14 @@ SAY_BY_VOICE = {
     # 'makith' round-trips back as the exact word "maketh" in Steffan. Andrew's
     # plain "maketh" tested fine — no narrator entry on purpose.
     "maketh": {"jesus": "mayketh", "scripture": "maykith"},  # scripture entry upgraded 2026-07-21 (#150 round 2): fresh Steffan renders of "makith" came out "may keep"/"Mckeith"; "maykith" round-trips "maketh" exactly (MAY-kith, Cameron's #188 target).
+    # divideth (2026-07-22, measured on Cameron denial #33 "Divideth is
+    # pronounced wrong"): Eric reads the plain word as "divoteth" (2/2 takes on
+    # the exact #33 line, Matt 25:32). Candidates that lost: "divydeth" ->
+    # "divey death", "diviedeth" -> "divvy death", "dyvideth"/"dividuth" ->
+    # "divoteth" (no change), "divightheth" -> "deviteth", "divyeth" ->
+    # "divvyeth". Winner "divighdeth" round-trips as the exact word "divideth"
+    # 2/2 on the full segment. Jesus voice only — never measured on the others.
+    "divideth": {"jesus": "divighdeth"},
 }
 
 # ---- 2. PER-SEGMENT ONLY: never auto-replace these --------------------------
