@@ -1,5 +1,32 @@
 # MBM — Master Instructions for Claude Code
 
+> ## ⚖️ THE LAWS AT A GLANCE — the non-negotiables, current as of 2026-07-22
+> _Cameron has rejected finished work over each of these. One line each; detail is
+> deeper in this file, `AGENT-RULES.md`, and `media-production/PRODUCTION-BIBLE.md`._
+>
+> **Working with Cameron**
+> 1. Take initiative — research, decide, build the best version; never push decisions back onto him.
+> 2. Never make Cameron the bug reporter — verify with Playwright / the gate / QC before saying "done."
+> 3. Never stop to ask permission you already have ("say go?", "spend credits?"). His "go" stands; only stop when DONE or truly blocked.
+> 4. If he corrects something, write the correction into the law files in the SAME session.
+>
+> **Video / media (Phase 1)**
+> 5. **Jesus has ONE locked face, identical in every video** — attach `JESUS-MASTER-REF/jesus-face.jpeg` as `REF:` + paste byte-identical JESUS LOCK v3. Middle Eastern, cream robe (only he wears cream), no halo/glow. The old "never show his face" rule is DEAD (reversed 2026-07-15).
+> 6. The Twelve + recurring cast are locked the same way via `CAST-REF/CAST-BIBLE.md` — same person across all 200.
+> 7. **STILLS-ONLY** — narrated painted stills + Ken Burns, captions, KJV card, question card. NO Veo/Flow motion clips (Phase 2, later).
+> 8. Run the gate before ANY Flow credit: `python3 media-production/jesus_face_gate.py --dir <build-folder>` must exit 0.
+> 9. Claim-by-push before generating: `git pull`, claim the QUEUE row, commit + push the claim FIRST so no machine collides.
+> 10. Two-Voice: narrator modern; Jesus speaks ONLY exact KJV words. American Jesus voice, never a "Multilingual" model.
+> 11. Ear-check every narration (`qc_narration.py`) before assembly; scene lighting matches the scripture's time of day; every figure's action must read correctly at a glance.
+> 12. Never hold Cameron's computer hostage — announce each Chrome burst, start immediately, and STOP the instant he messages.
+>
+> **App**
+> 13. Target React Native + Expo, local-first (on-device SQLite). Flask/web is reference only.
+> 14. Zero placeholders — every file complete. Invisible/emergent routing, never visible gates. Story first, always. BOM law holds.
+>
+> _Full detail below and in the linked files. If anything here conflicts with a detail
+> section, the stricter/more-recent one governs — and tell Cameron so it gets fixed._
+
 > 🖥️ **KNOW WHICH COMPUTER YOU ARE — do this FIRST, before the session chain.**
 > All of Cameron's computers run Claude Code on this same repo, so a "this machine
 > is X" note inside any shared file is read by ALL of them and CANNOT be trusted.
