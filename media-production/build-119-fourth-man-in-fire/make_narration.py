@@ -75,7 +75,8 @@ SPOKEN = {}
 
 
 SPOKEN.update({'Meshach': 'meeshak'})  # 2026-07-21: shipped narrator audio said "Emi Shek"/"Amishach"; plain "Meshach" is UNSTABLE in Andrew's voice (fresh render clean, recorded mp3 bad). 'meeshak' round-trips "Meshach" 3/3 in Andrew (already the measured winner for the scripture voice). Cameron complaint #119 area.
-SPOKEN.update({'Shadrach': 'shadrack'})  # 2026-07-21: the GLOBAL 'SHAD-rak' entry is a hyphen split (Trap 2) — Steffan's recorded s326 take said "Red Rack". 'shadrack' round-trips "Shadrach" clean in Steffan; single word, no hyphen. Build override beats the global map.
+SPOKEN.update({'Shadrach': 'shadrack'})
+SPOKEN.update({'bows': 'boughs'})  # 2026-07-21 Cameron complaint #119 'bow' misread: acoustic vowel test showed n1's 'everyone bows' (0:08) sounded like BEAU (/bohz/) while the other three bows were fine. 'boughs' round-trips 'bows' in Andrew and matches the BOUGH (/bau/) reference. bow2-4 measured correct, left plain.  # 2026-07-21: the GLOBAL 'SHAD-rak' entry is a hyphen split (Trap 2) — Steffan's recorded s326 take said "Red Rack". 'shadrack' round-trips "Shadrach" clean in Steffan; single word, no hyphen. Build override beats the global map.
 
 async def main():
     os.makedirs("audio", exist_ok=True)

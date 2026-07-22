@@ -319,6 +319,10 @@
   {
    "date": "2026-07-21",
    "note": "Fixed the pronunciations of the three names. The old audio said \"Emi Shek\" / \"Amishach\" for Meshach, and one verse line said \"Red Rack\" for Shadrach. All three names \u2014 Shadrach, Meshach, Abednego \u2014 now read correctly in every segment (narrator and verse voice both checked). \"Bow\" reads as bend-down bow throughout. Captions unchanged. \u2014 narration re-recorded"
+  },
+  {
+   "date": "2026-07-21",
+   "note": "\"bow\" fixed at 0:08: proof-before \u2014 an acoustic vowel test against same-voice reference words showed \"everyone bows\" in the old cut sounded like \"beau\" (BOHZ), while the other three bow lines (0:20, 0:42, 1:23) were already correct; fix \u2014 spoken form \"boughs\" for that word only (measured: round-trips as \"bows\" and lands the BOW-as-in-bough vowel), caption unchanged; proof-after \u2014 the same acoustic test on the rebuilt video at 0:08 now matches the correct BOUGH vowel. \u2014 narration re-recorded; build script updated"
   }
  ],
  "13": [
