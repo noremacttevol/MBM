@@ -49,7 +49,12 @@ LOCK = Path.home() / ".mbm-flow-profile.flock"
 
 
 class profile_lock:
-    def __init__(self, wait_minutes=30):
+    # 3 hours, not 30 minutes (2026-07-21): when another session is running a
+    # whole video build, one job can hold the browser for well over half an
+    # hour. A queued job that gives up at 30 min looks exactly like a broken
+    # generator — it isn't, it just lost its place. Waiting is always cheaper
+    # than a failed batch, so be patient by default.
+    def __init__(self, wait_minutes=180):
         self.wait = wait_minutes * 60
         self.fh = None
 

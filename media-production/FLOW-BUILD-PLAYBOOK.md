@@ -31,6 +31,11 @@
    lock_text('peter')                        # paste verbatim into each prompt
    refs('peter')                             # 3 jpegs -> pass each as --ref
    ```
+   For a scene with several rostered people in it (last supper, the seventy,
+   a feeding crowd), don't hand-write the cast — print it:
+   `python3 CHARACTERS/group_scene.py --twelve` (or name them) gives the
+   paste-ready lock paragraphs plus the exact `--ref` list, and refuses to cast
+   anyone whose sheet doesn't exist yet.
 4. **BOTH gates → exit 0** before any Flow credit:
    - `python3 media-production/jesus_face_gate.py --dir build-NN-slug`
    - `python3 media-production/character_ref_gate.py --dir build-NN-slug`
@@ -72,6 +77,14 @@
      `[...document.querySelectorAll('button')].find(b=>(b.innerText||'').includes('arrow_forward')).click()`
   4. `wait 10s`, then poll the gallery names JS below. If no new image after ~60s,
      run step 3 once more (the first click can race the UI), then keep polling.
+
+**If a gen seems to hang, it is probably QUEUED, not broken.** The Chrome
+profile is shared with every other Claude session on the machine and only one
+may drive it at a time (`profile_lock` in flow_driver.py). A waiting job prints
+`(flow profile busy — another session is generating; waiting…)` and now waits
+up to **3 hours** before giving up. Check with
+`pgrep -f "flow_driver.py gen"` — several processes alive is normal; only one
+is actually working. Never kill another session's gen to jump the queue.
 
 **Download (clean jpeg, no zip, low-token):** the gallery thumbnails are a *virtualized*
 list — the `<img>` elements only mount when scrolled into view.
