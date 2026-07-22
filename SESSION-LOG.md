@@ -1,3 +1,35 @@
+## 2026-07-21 (night) — COMPLAINT BURN-DOWN: all 32 rows proven, 15 rebuilt, #140 Naaman BUILT (Machine A)
+
+Commit: (this commit). Verify-first pass over every COMPLAINTS.md row in number
+order. Every row now has proof-before AND proof-after (whisper word-isolation,
+acoustic vowel tests against same-voice references, or extracted frames) in
+FIXNOTES.json / the per-video ship notes. #17 stayed DEFERRED per Cameron.
+
+- REBUILT+SHIPPED: #8 calleth(kawleth), #9 run-toward-Jesus still (prior "fix"
+  was still wrong), #10 (finished a dead session's corrupt-mp4 windlass fix; a
+  second session later closed the seg-cache hole), #18 emmaus short-hair s6,
+  #19 shore story-coverage (9 beat stills wired: call/"it is the Lord"/leap/
+  swim/fire/breakfast), #65 (captions verified + cleaner take), #108 calleth+
+  leadeth(was "letteth"), #113 God EMBODIED from locked sheet (dead "formless
+  light" law reversed in PROMPTS.md), #119 bows(boughs — acoustic proof),
+  #135 family now 4m/4f + split-panel ark repainted, #149 liveth round 2
+  (livith; Cameron rejected livveth same-day), #150 maketh round 2 (maykith,
+  shared dict upgraded — scripture voice), #153 half-buried crowd repainted,
+  #157 giant scholar rescaled, #181 Job himself added to the Job beats,
+  #189 overcometh(overcummeth), #179 vision = TWO embodied personages.
+- #140 NAAMAN WASHES BUILT: sheet unblocked -> 7 character stills generated
+  (+1 upright re-roll), assembled, gated, shipped. QUEUE ticked.
+- VERIFIED-ALREADY-FIXED (proof notes on the board, no rebuild): #7, #22, #67,
+  #83, #86, #90, #107, #109, #112, #146, #171, #184, #188.
+- Tooling this session: whisper word-isolation proofs (small.en), an acoustic
+  homograph vowel test (scipy spectral envelope vs same-voice reference words
+  — settled bow/liveth/maketh arguments whisper can't hear), flow_driver refs
+  for character-locked regens.
+- OPEN QUESTION for Cameron: #10's original 3 complaints were overwritten on
+  the board before anyone saved them — the cut was swept against every defect
+  class instead. If one of the 3 was something else, one more complaint with
+  the word pins it.
+
 ## 2026-07-21 — CHARACTER SHEETS APPROVED + WIRED INTO THE PIPELINE (Machine A)
 
 Commit: (this commit). Cameron approved the whole roster ("okay characters are all

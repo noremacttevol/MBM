@@ -87,7 +87,7 @@ SAY_BY_VOICE = {
     # audio, 2/2 takes). Winners per voice: 'mayketh' round-trips clean in Eric;
     # 'makith' round-trips back as the exact word "maketh" in Steffan. Andrew's
     # plain "maketh" tested fine — no narrator entry on purpose.
-    "maketh": {"jesus": "mayketh", "scripture": "makith"},
+    "maketh": {"jesus": "mayketh", "scripture": "maykith"},  # scripture entry upgraded 2026-07-21 (#150 round 2): fresh Steffan renders of "makith" came out "may keep"/"Mckeith"; "maykith" round-trips "maketh" exactly (MAY-kith, Cameron's #188 target).
 }
 
 # ---- 2. PER-SEGMENT ONLY: never auto-replace these --------------------------
