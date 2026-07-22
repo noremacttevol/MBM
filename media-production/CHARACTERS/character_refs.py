@@ -52,7 +52,32 @@ ALIASES = {
     "simon the pharisee": "simon-the-pharisee",
     "judas iscariot": "judas-iscariot", "judas": "judas-iscariot",
     "john": "john-beloved",   # bare "John" in a gospel build = the beloved
+
+    # THE TWELVE, completed 2026-07-21 on Cameron's order. Several apostles go
+    # by more than one name in scripture; every name lands on the one sheet.
+    "nathanael": "bartholomew", "bartholomew": "bartholomew",
+    "james the son of alphaeus": "james-son-of-alphaeus",
+    "james son of alphaeus": "james-son-of-alphaeus",
+    "james the less": "james-son-of-alphaeus",
+    "thaddaeus": "thaddaeus", "thaddeus": "thaddaeus", "lebbaeus": "thaddaeus",
+    "judas the brother of james": "thaddaeus",
+    "judas son of james": "thaddaeus", "judas not iscariot": "thaddaeus",
+    "simon the zealot": "simon-the-zealot", "simon zelotes": "simon-the-zealot",
+    "simon the canaanite": "simon-the-zealot",
+    # NOTE: bare "Simon" is deliberately NOT an alias — it is Peter, the
+    # Zealot, the Pharisee (#74) and the leper (#82) depending on the story.
+    # Write the Simon out in full in a prompt and the gate will resolve him.
 }
+
+# The Twelve as called (Matt 10:2-4). `twelve()` is what a group scene uses.
+THE_TWELVE = ("peter", "andrew", "james", "john-beloved", "philip",
+              "bartholomew", "matthew", "thomas", "james-son-of-alphaeus",
+              "thaddaeus", "simon-the-zealot", "judas-iscariot")
+
+
+def twelve():
+    """Every apostle's slug, in the order the gospels list them."""
+    return list(THE_TWELVE)
 
 
 def _slugs():
@@ -127,12 +152,18 @@ def find_in_text(text):
     low = clean.lower()
     names = sorted(set(list(ALIASES) + [s.replace("-", " ") for s in _slugs()]),
                    key=len, reverse=True)
+    # Longest name first, and a matched name is CONSUMED from the working copy —
+    # otherwise "James the son of Alphaeus" also reads as plain James, and
+    # "Judas the brother of James" drags in Judas Iscariot. Both are different
+    # men from the ones named. (`low` stays intact for the heuristics below.)
+    work = low
     for n in names:
         if n in COMMON_WORD_NAMES:
             found = re.search(rf"\b{n.capitalize()}\b", clean)
         else:
-            found = re.search(rf"\b{re.escape(n)}\b", low)
+            found = re.search(rf"\b{re.escape(n)}\b", work)
         if found:
+            work = re.sub(rf"\b{re.escape(n)}\b", " ", work)
             try:
                 hits.add(resolve(n))
             except KeyError:

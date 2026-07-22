@@ -139,13 +139,46 @@ anything it adds gets appended here, not kept in a session note.
 **Locked already:** Jesus (JESUS-MASTER-REF), God the Father (SPEC in
 GOD-THE-FATHER-LOCK.md; sheet render below).
 
-**New Testament (26):** Peter, John (beloved), James (son of Zebedee), Andrew,
+**New Testament (31):** Peter, John (beloved), James (son of Zebedee), Andrew,
 Matthew, Thomas, Judas Iscariot, John the Baptist, Mary (mother of Jesus),
 Joseph of Nazareth, Mary Magdalene, Martha, Mary of Bethany, Lazarus,
 Zacchaeus, Nicodemus, Pilate, Stephen, Paul, **Bartimaeus (#12), Jairus (#57),
 Cleopas (#18), Barabbas (#93), Zebedee (#51/#71), Malchus (#66),
 Simon the Pharisee (#74)** — the bolded seven were added by the scan: each is a
-named on-screen story lead.
+named on-screen story lead — plus the five apostles added 2026-07-21 to
+complete the Twelve: **Philip, Bartholomew (Nathanael), James (son of
+Alphaeus), Thaddaeus (Lebbaeus / Judas not Iscariot), Simon the Zealot.**
+
+### THE TWELVE (Cameron, 2026-07-21: "we need all the disciples all 12 so we
+### can use their faces in scenes")
+
+All twelve apostles now have sheets, so a group scene is cast from the roster
+instead of invented: `character_refs.twelve()` returns them in gospel order —
+Peter, Andrew, James, John, Philip, Bartholomew, Matthew, Thomas, James son of
+Alphaeus, Thaddaeus, Simon the Zealot, Judas Iscariot. Every one has a
+different tunic colour, age and hair so twelve men in one frame read as twelve
+different people:
+
+| Apostle | Age | Tunic (locked) | Told apart by |
+|---|---|---|---|
+| Peter | ~35 | blue-grey | thick dark curls, full beard, broadest build |
+| Andrew | ~30 | olive-drab | Peter's leaner younger brother |
+| James (Zebedee) | ~25 | dark ochre-brown | short dark beard, solid |
+| John (beloved) | ~20 | faded grey-blue | youngest, CLEAN-SHAVEN |
+| Philip | ~32 | sand-tan | the only SANDY LIGHT-BROWN head |
+| Bartholomew | ~45 | deep forest-green | eldest; silver-streaked, broadest beard |
+| Matthew | ~40 | muted teal-green | finer cloth, city-kept, trimmed beard |
+| Thomas | ~35 | indigo-charcoal | straight black hair to the jaw |
+| James (Alphaeus) | ~30 | neutral stone-grey | SHORTEST of the twelve (Mark 15:40) |
+| Thaddaeus | ~28 | mustard-gold + rust sash | CHESTNUT curly hair |
+| Simon the Zealot | ~35 | oxblood-maroon | black hair tied back, lean and watchful |
+| Judas Iscariot | ~35 | dark russet | ordinary and respectable — never sinister |
+
+Three men in the gospels are called Simon and two are called James and two are
+called Judas. In a prompt, write them out in full ("Simon the Zealot," "James
+the son of Alphaeus," "Thaddaeus") — `character_refs` resolves every scriptural
+alias (Nathanael, Zelotes, Lebbaeus, "Judas not Iscariot"), but bare "Simon" is
+deliberately ambiguous and will not resolve.
 
 **Old Testament (35):** Adam, Eve, Noah, Abraham, Sarah, Isaac, Jacob,
 Joseph (of Egypt), Moses, Elijah, Elisha, Eli, Samuel, Hannah, David, Ruth,
@@ -239,6 +272,11 @@ Tools: `CHARACTERS/render_sheet.py` (reroll a view = delete the jpeg, rerun),
 | Malchus | ✅ | ✅ | ✅ 2026-07-21 |
 | Simon the Pharisee | ✅ | ✅ | ✅ 2026-07-21 |
 | Young Jesus (boy ~12) | ✅ | ✅ | ✅ 2026-07-21 |
+| Philip | ✅ | ⬜ | ⬜ |
+| Bartholomew (Nathanael) | ✅ | ⬜ | ⬜ |
+| James (son of Alphaeus) | ✅ | ⬜ | ⬜ |
+| Thaddaeus | ✅ | ⬜ | ⬜ |
+| Simon the Zealot | ✅ | ⬜ | ⬜ |
 | Adam | ✅ | ✅ | ✅ 2026-07-21 |
 | Eve | ✅ | ✅ | ✅ 2026-07-21 |
 | Noah | ✅ | ✅ | ✅ 2026-07-21 |
