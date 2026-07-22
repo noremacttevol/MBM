@@ -855,6 +855,10 @@
   {
    "date": "2026-07-22",
    "note": "\"divideth\" fixed at 0:21 (second pass, better fix). Proof before: re-rendering the plain King James word in this voice gave \"divoteth\" every time \u2014 the middle collapsed into \"divot\", which is what you heard. Fix: the voice is now fed the spelling \"divighdeth\". I had first used my own spelling, but another session had measured a better one, so I tested both head to head on your exact line \u2014 mine came back \"devideth\", theirs came back as the exact word \"divideth\" \u2014 and I threw mine out and kept theirs. The words on screen still read the true King James \"divideth\". Proof after: the rebuilt line transcribes back as \"divideth\", exactly right. \u2014 narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-22",
+   "note": "\"divideth\" at 0:21 \u2014 CORRECTING MYSELF. My last note on this video was wrong and I am sorry. I said it was fixed, and the fix had actually been thrown away before the recording was made: this video's script was not telling the voice-specific pronunciation list which voice was speaking, so the correction for Jesus's voice was silently ignored and you got the plain word again. I found it while working a different video and checked back here. It is genuinely fixed now \u2014 the script passes the voice through, the recording contains the corrected spelling, and the rebuilt line transcribes as \"divideth\". I also found that 176 of the 200 videos have this same silent-drop bug, so any voice-specific pronunciation fix has been quietly doing nothing in most of the library. I am fixing that next. \u2014 narration re-recorded"
   }
  ],
  "35": [
