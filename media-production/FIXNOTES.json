@@ -55,6 +55,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-21",
+   "note": "calleth AND leadeth (0:44 KJV line) re-recorded with measured respellings: proof-before \u2014 the old audio's \"leadeth\" whisper-transcribed as \"letteth\"/\"Lettuce\" both in the video and in the raw segment, and plain \"calleth\" in this voice renders the bad \"Kalloth\" vowel you flagged twice; fix \u2014 SPOKEN dict \"kawleth\" + \"leedeth\" (A/B winners, captions keep true KJV spelling); proof-after \u2014 the same line isolated from the rebuilt video transcribes \"and he calleth his own sheep by name, and leadeth them out.\" \u2014 narration re-recorded; build script updated"
   }
  ],
  "135": [
@@ -399,6 +403,10 @@
   {
    "date": "2026-07-21",
    "note": "Fixed the wrong voice/color at 0:42. Peter's line \"Master, it is good for us to be here...\" is no longer red and no longer in Jesus's voice \u2014 it now shows light blue in the shared scripture voice, per the speaker law (every quoted KJV line that isn't Jesus gets blue). The Father's words from the cloud, \"This is my beloved Son: hear him,\" are now green \u2014 that is the Father speaking, not Jesus. Nothing in this video is red anymore, because Jesus doesn't speak in Mark 9:2-8. The narrator also retells both quotes in plain English."
+  },
+  {
+   "date": "2026-07-21",
+   "note": "VERIFIED already fixed, no rebuild: frame at 0:43 shows Peter's 'Master, it is good for us to be here' in LIGHT BLUE (the shared scripture voice) \u2014 no longer red, no longer Jesus's voice; color and voice come from one declaration so they cannot drift apart. Tail also verified: last words end ~2s before the video does."
   }
  ],
  "80": [
@@ -559,6 +567,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-21",
+   "note": "VERIFIED already fixed, no rebuild: John is the SAME man in every picture of the current cut \u2014 dark shaggy shoulder-length hair, dark beard, deeply tanned, camel-hair garment (frames compared side by side from the prison, question-sent, and answer-returns beats, plus the mp4 itself at 0:22). The grey-haired old-man versions are gone, and the question-sent picture shows exactly two disciples per Matthew 11:2. John also now has a locked character sheet so every future video keeps this same face."
   }
  ],
  "112": [
@@ -1027,6 +1039,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-21",
+   "note": "VERIFIED all 3 already fixed in the current cut, no rebuild: (1) frame at 0:05 \u2014 Jesus and the crowd walk AWAY from camera TOWARD Jerusalem spread in front of them; (2) frame at 0:25 \u2014 the second picture is now a close-up of Jesus with tears, no group scene so no giant-scale mismatch is possible; (3) whisper on the last 16s \u2014 the final words end ~2.0s before the video ends, the 13 extra seconds are gone (total 1:38)."
   }
  ],
  "84": [
@@ -1045,6 +1061,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-21",
+   "note": "VERIFIED already fixed, no rebuild: whisper on the last 18s of the current cut \u2014 the closing words 'You're invited to worship too' end 2.0s before the video ends (2:50 total). The 13 extra seconds are gone, and build.py's end-hold constant is fixed at the source so a re-render cannot bring them back."
   }
  ],
  "87": [
@@ -1063,6 +1083,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-21",
+   "note": "VERIFIED already fixed, no rebuild: all 8 pictures in the current cut eyeballed one by one plus frames sampled across the video \u2014 Jesus wears his full cream robe in every scene including the kneeling/washing and drying beats; no bare torso anywhere. The shirtless picture is not in this cut."
   }
  ],
  "91": [

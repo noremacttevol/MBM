@@ -70,7 +70,12 @@ SEGMENTS = [
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
-SPOKEN = {}
+# calleth/leadeth (Cameron complaint #108, twice): measured A/B 2026-07-21 in the
+# jesus voice (EricNeural -22%): plain "calleth" renders isolated as "Kalloth";
+# "kawleth" round-trips "calleth" in-sentence (same fix as #8). Plain "leadeth"
+# renders "Lettuce"/"letteth" BOTH isolated and in-sentence; "leedeth"
+# round-trips "leadeth" clean both ways. Captions keep the true KJV spellings.
+SPOKEN = {"calleth": "kawleth", "leadeth": "leedeth"}
 
 
 async def main():
