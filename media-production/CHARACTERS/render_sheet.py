@@ -64,10 +64,20 @@ def gen(prompt, out, refs):
            "--prompt", prompt, "--out", str(out)]
     for r in refs:
         cmd += ["--ref", str(r)]
-    print(f"  gen -> {out.name}  (refs: {[Path(r).name for r in refs] or 'none'})")
-    res = subprocess.run(cmd, capture_output=True, text=True, timeout=600)
-    tail = (res.stdout + res.stderr).strip().splitlines()
-    print("   ", tail[-1] if tail else "(no output)")
+    print(f"  gen -> {out.name}  (refs: {[Path(r).name for r in refs] or 'none'})",
+          flush=True)
+    # NO 10-minute timeout (2026-07-22): the Chrome profile is shared with the
+    # other sessions and flow_driver will patiently wait its turn for up to 3
+    # hours. A 600s cap here killed every job that queued behind a video build
+    # and made a working generator look broken — the parent was shooting its
+    # own child. Give it four hours; flow_driver gives up long before that.
+    res = subprocess.run(cmd, capture_output=True, text=True, timeout=14400)
+    raw = (res.stdout + res.stderr).strip()
+    # Keep the full child output: a filtered one-line tail hid the real error
+    # for three rounds of debugging.
+    (CH / f"_gen-{out.parent.name}-{out.stem}.log").write_text(raw)
+    tail = raw.splitlines()
+    print("   ", tail[-1] if tail else "(no output)", flush=True)
     return res.returncode == 0 and out.exists()
 
 
