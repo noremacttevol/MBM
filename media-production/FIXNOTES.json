@@ -149,6 +149,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-22",
+   "note": "Fixed \"live\" at the end. It was being said like the adjective (rhyming with hive); it now says LIV, the verb that rhymes with give \u2014 in \"they that hear shall live\", \"to hear him is to live\", and the closing line. \u2014 narration re-recorded; build script updated"
   }
  ],
  "18": [
@@ -753,6 +757,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-22",
+   "note": "Fixed the word \"tear\" at 2:11. It was being said like a crying tear; it now says TAIR, the ripping kind, in \"you will tear up the good plants\". Same fix on \"tearing\" earlier in the video. \u2014 narration re-recorded; build script updated"
   }
  ],
  "27": [
@@ -819,6 +827,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-22",
+   "note": "Fixed \"divideth\" \u2014 the voice was saying \"divadeth\". It now says di-VIDE-eth. Also caught and fixed \"an hungred\", which was coming out as two words, \"hung red\"; it now reads as one word, \"an hungered\". \u2014 narration re-recorded"
   }
  ],
  "35": [
@@ -1459,6 +1471,12 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded"
+  }
+ ],
+ "11": [
+  {
+   "date": "2026-07-22",
+   "note": "new picture(s): s1-evening-shore.jpeg, s2-little-ships.jpeg, s2b-four-at-the-oars.jpeg, s3-the-storm.jpeg, s3b-boat-filling.jpeg, s4-asleep-in-stern.jpeg; narration re-recorded; build script updated"
   }
  ]
 }

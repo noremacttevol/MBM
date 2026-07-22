@@ -11,10 +11,9 @@ touching anything else. Do NOT edit by hand.
 | # | Status | What Cameron said |
 |---|---|---|
 | 7 | newer cut shipped — VERIFY fixed | the words only picture at the end is messed up and out of the frame  on the edges it should be 2 or 3 lines |
-| 10 | newer cut shipped — VERIFY fixed | She says Messias again that is wrong |
+| 11 | UNFIXED | still the trash old version |
 | 13 | UNFIXED | This is old and needs to be updated to the version where we can use Jesus' face |
 | 17 | newer cut shipped — VERIFY fixed | captions are messed up and the voice  is messed  up and is misspronouncing livest and  other old english pronunciation. |
-| 18 | newer cut shipped — VERIFY fixed | Same problems. Same main problem that nothing i say is getting fixed. Jesus once in one picture had short hair. Not like you care |
 | 19 | newer cut shipped — VERIFY fixed | The picture at 1 minute spans for way too long of the story and needs extra pictures to depict how impactful the scene was that Jesus called to them when they were catching no fish and then the other fisherman is the one who said that is the Lord and then Peter jumps into the water and swims over to him, that's like you can make like 5 pictures out of that, but you gave me 1.  We need to change the fact that this whole story relied on just a little bit of pictures when it could be made a lot better, so we need to insert more pictures.And then make the captions, right?All over again to make it a better depicting story illustrated |
 | 22 | newer cut shipped — VERIFY fixed | That's not how you pronounce owest. |
 | 25 | UNFIXED | At 2:11 tear was misspronounced because it means break tear not a cry tear |
@@ -34,7 +33,6 @@ touching anything else. Do NOT edit by hand.
 | 135 | newer cut shipped — VERIFY fixed | 1st picture has 3 girls and 5 boys that needs to change |
 | 140 | newer cut shipped — VERIFY fixed | What the f*** is this? Did we just run out of stories that were good about Jesus to tell? And now you are using somebody else's gospel to redo the same exact story we told earlier of the prodigal son that story, the prodigal son should have been summarized from this as well. You shouldn't use 2 different people telling the same story about Jesus.  As reasons to have the same story told twice, this is retarded.This is, I just can't.I can't believe you did this, and I like, did we seriously run out of Jesus stories like they're not that many, if there aren't 200, then we need to find some other way to get into things that would would be good for people to digest.But this is not good |
 | 146 | newer cut shipped — VERIFY fixed | Abideth is pronounced wrong |
-| 149 | UNFIXED | Liveth was pronounced wrong |
 | 150 | newer cut shipped — VERIFY fixed | Bad old , english and captions in white that are scripture |
 | 153 | newer cut shipped — VERIFY fixed | 1:12 is weird picture |
 | 157 | newer cut shipped — VERIFY fixed | 42 weird giant picture |
