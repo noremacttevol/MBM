@@ -843,6 +843,10 @@
   {
    "date": "2026-07-22",
    "note": "\"divideth\" fixed at 0:21. Proof before: I re-rendered the plain King James word in this voice three separate times and it came out \"divoteth\" every single time \u2014 the middle of the word collapsed into \"divot\", which is what you were hearing. Fix: the voice is now fed the spelling \"divyedeth\", the only one of six candidates I tested that keeps the \"divide\" sound (the others gave \"divey death\", \"divvieteth\", or split the word in two). The words on screen still read the true King James \"divideth\". Proof after: the rebuilt line transcribes back as \"devideth\" \u2014 divide plus eth. \u2014 narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-22",
+   "note": "\"divideth\" fixed at 0:21 (second pass, better fix). Proof before: re-rendering the plain King James word in this voice gave \"divoteth\" every time \u2014 the middle collapsed into \"divot\", which is what you heard. Fix: the voice is now fed the spelling \"divighdeth\". I had first used my own spelling, but another session had measured a better one, so I tested both head to head on your exact line \u2014 mine came back \"devideth\", theirs came back as the exact word \"divideth\" \u2014 and I threw mine out and kept theirs. The words on screen still read the true King James \"divideth\". Proof after: the rebuilt line transcribes back as \"divideth\", exactly right. \u2014 narration re-recorded; build script updated"
   }
  ],
  "35": [
