@@ -104,14 +104,32 @@ EOF
 Auto-shipped by admin/ship-fixes.sh (verify-mp4 passed, approved-lock checked).
 
 Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>" || continue
+  # Before pushing, say how big the push actually is. On 2026-07-22 a single
+  # commit carrying 12 GB of qc/ scratch made every push hang until it timed
+  # out; the errors went to /dev/null, so the log only ever said "push did not
+  # land" and five finished cuts sat unshipped for hours while Cameron watched
+  # a board that never changed. Never swallow the reason again.
+  payload=$(git rev-list --objects origin/main..HEAD 2>/dev/null | awk '{print $1}' \
+            | git cat-file --batch-check='%(objectsize:disk)' 2>/dev/null \
+            | awk '{s+=$1} END {printf "%.0f", s/1048576}')
+  nobj=$(git rev-list --objects origin/main..HEAD 2>/dev/null | wc -l)
+  if [ "${payload:-0}" -gt 500 ]; then
+    say "WARN  #$num ($b): push payload is ${payload} MB across ${nobj} objects — \
+something rebuildable is being committed. Check for qc/ or segs/ scratch."
+  fi
   ok=0
   for try in 1 2 3; do
-    git push -q origin main 2>/dev/null; git fetch -q origin
+    # 15 min is generous for a normal cut (~20 MB) and still fails fast enough
+    # that a wedged push cannot eat the whole cron slot.
+    if ! timeout 900 git push -q origin main 2>>"$LOG"; then
+      say "WARN  #$num ($b): push attempt $try failed or timed out (${payload:-?} MB)"
+    fi
+    git fetch -q origin
     if git merge-base --is-ancestor "$(git rev-parse HEAD)" origin/main; then ok=1; break; fi
     git -c rebase.autostash=true pull --rebase -q origin main || break
   done
   if [ $ok -eq 1 ]; then say "SHIP  #$num ($b): $note"; SHIPPED=$((SHIPPED+1));
-  else say "FAIL  #$num ($b): push did not land"; fi
+  else say "FAIL  #$num ($b): push did not land (${payload:-?} MB, ${nobj:-?} objects) — see errors above"; fi
 done
 
 # ---- 3. refresh board state + page (deploy only when the page changed) -------
