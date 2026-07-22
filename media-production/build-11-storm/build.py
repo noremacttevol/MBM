@@ -42,7 +42,9 @@ ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "16",
 
 S1 = "s1-evening-shore.jpeg"
 S2 = "s2-little-ships.jpeg"
+S2B = "s2b-four-at-the-oars.jpeg"
 S3 = "s3-the-storm.jpeg"
+S3B = "s3b-boat-filling.jpeg"
 S4 = "s4-asleep-in-stern.jpeg"
 S5 = "s5-carest-thou-not.jpeg"
 S6 = "s6-peace-be-still.jpeg"
@@ -64,7 +66,9 @@ BEATS = [
     ("n0", S1, "in"),
     ("j0", S1, "out"),
     ("n1", S2, "in"),
+    ("n1b", S2B, "in"),
     ("n2", S3, "in"),
+    ("n2b", S3B, "in"),
     ("n3", S4, "in"),
     ("n4", S5, "in"),
     ("s38", S5, "out"),
@@ -78,7 +82,10 @@ BEATS = [
     ("n9", S9, "in"),
     ("s41", S9, "out"),
     ("n9b", S9, "in"),
-    ("n10", S7, "out"),
+    # n10 is NOT a beat: it is the closing card's own narration and is placed on
+    # card.mp4 below. A 2026-07-18 "BEATS FIX" added it here as well, which put the
+    # same mp3 on the timeline twice — the closer played once over the calm still
+    # and again over the cream card. Removed 2026-07-22 (Machine A).
 ]
 
 LEAD = 0.28
