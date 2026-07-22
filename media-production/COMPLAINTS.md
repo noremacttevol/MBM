@@ -22,6 +22,7 @@ touching anything else. Do NOT edit by hand.
 | 56 | newer cut shipped — VERIFY fixed | The picture at 2:10 makes him look like he rose from the dead and immediately grew a beard. And his mom changed clothes again from blue to red now back to blue and got old with white hair. These things look and we need to get better at fixing it |
 | 57 | UNFIXED | Lieth is pronounced lie-eth |
 | 62 | newer cut shipped — VERIFY fixed | What happened its not working on the reviewer |
+| 63 | UNFIXED | Mispronounced Siloam |
 | 65 | newer cut shipped — VERIFY fixed | needs the captions to be redone still. |
 | 67 | newer cut shipped — VERIFY fixed | ohh nooo thats not good the video used a differnt voice for someone other than Jesus speaking so that also made the captions red in color like it was Jesus who said that. thats not good that wasetn Jesus speaking it was peter or one of his followers. fix that asap it should be told from the regualr narriarotrs voice and white text. 0:42 |
 | 83 | newer cut shipped — VERIFY fixed | 1. the first picture they are walking the wrong way and it looks like the are walking away from jerusalem rather than twords it. 2. the second picture Jesus looks like a giant. 3. at the end of the video the question is asked but then it stays going for an extra 13 seconds |
