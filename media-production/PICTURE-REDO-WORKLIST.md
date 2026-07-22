@@ -5,6 +5,23 @@
 > every video that shows the disciples needs its disciple stills regenerated with the
 > new REF images so Peter and the Twelve are the same faces everywhere.
 >
+> ## CORRECTED PIPELINE (2026-07-22) — captions must be Jost red-letter
+> A rebuild is only to-spec if it ALSO uses the current caption law (`CAPTION-LAW.md`):
+> **Jost Bold font, Jesus's KJV words RED, narration white, real edge-tts timing
+> (`.timing.json` sidecars), adaptive bottom band.** Builds ≤~99 are mostly NOT migrated
+> yet — migrate as part of the rebuild:
+> 1. `cp ../mbm_caption_timing.py .` into the build.
+> 2. `make_narration.py`: `from mbm_caption_timing import save_narration` + `await
+>    save_narration(text, voice, rate, pitch, f"audio/{name}.mp3")` (writes timing.json).
+> 3. `build.py`: `from mbm_caption_timing import caption_filter`; in `build_still`,
+>    `cap = caption_filter(seg_id, dur, spoken_end, cap_text, kjv)`; `fc = f"{base}{cap}{tail}[v]"`.
+> 4. Regenerate narration, rebuild, `/gate`, QC the RED Jesus line.
+> Builds ≥100 (and 04/05/06) are already Jost — rebuilding picks it up automatically.
+> **Respect `approvals.json`** — approved rows (2,3,5,6,80,89,100-108,111,185-200) get
+> redone but PRESENTED for re-approval, never silently overwritten.
+> **REDO-STATUS of this session's 6:** #71 ✅ corrected (Jost+cast). #7,#51,#11,#90 need the
+> Jost redo (cast stills already done, captions still old). #89 (approved) needs Jost redo + re-approval.
+>
 > **Method per video:** attach the relevant refs when regenerating each disciple still —
 > `--ref CAST-REF/the-twelve.jpeg` for crowd/boat scenes, plus the solo ref(s) for any
 > featured man (`CAST-REF/peter.jpeg`, `CAST-REF/john.jpeg`, …), and `--ref
