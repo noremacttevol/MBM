@@ -18,7 +18,7 @@ touching anything else. Do NOT edit by hand.
 | 20 | UNFIXED | one frame the samaratin had hair and the next he was bald. |
 | 25 | newer cut shipped — VERIFY fixed | At 2:11 tear was misspronounced because it means break tear not a cry tear |
 | 33 | newer cut shipped — VERIFY fixed | Divideth is pronounced wrong |
-| 46 | UNFIXED | 2:36 is pronounced put - teth |
+| 46 | newer cut shipped — VERIFY fixed | 2:36 is pronounced put - teth |
 | 50 | UNFIXED | liveth : Livith, Cana: KAY-nuh.   Pictures : 57: Jesus too big,  1:17 both caharacters jesus and the noble man look bad just redo that picture, 2:10 the character went grey when he was brown haired and young looking, same for the next picture but the at 2: 59 he went back to brown and that looks good. |
 | 51 | UNFIXED | Characters dont match the new characters we have made. neeeds updated pictures |
 | 52 | UNFIXED | 2:23 cammandeth +  kuh-MEN-duhth |
