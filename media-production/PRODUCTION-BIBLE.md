@@ -321,6 +321,32 @@ words. Nothing here overrides the sacred pause before Jesus's KJV words.
   open posture and light pouring toward them — never turned away. Hide the face with
   distance, a light dissolve, or framing, not a cold turned back.
 
+### The recurring cast — locked the same way as Jesus (Cameron, 2026-07-22)
+
+The discipline that locks Jesus's face now extends to every recurring character, so a
+viewer learns the disciples' faces the way they learn Jesus's voice — the SAME person in
+all 200 videos, and the Twelve visibly distinct from one another. Full roster, wardrobe
+colours, and byte-identical text locks: [`CAST-REF/CAST-BIBLE.md`](./CAST-REF/CAST-BIBLE.md).
+
+- **Locked by IMAGE + text, per character.** Every recurring figure has an approved
+  reference portrait in `CAST-REF/` (`peter.jpeg`, `john.jpeg`, … all Twelve, plus the
+  group `the-twelve.jpeg`). In any shot that names them, attach their portrait as a `REF:`
+  line (e.g. `REF: cast/peter` — and `jesus-master-ref` too when Jesus shares the shot),
+  and paste that character's byte-identical LOCK paragraph from CAST-BIBLE. The picture is
+  the face; the prose only keeps wardrobe and behaviour straight.
+- **Wardrobe is fixed per person and never cream.** Each man has one signature tunic colour
+  (Peter blue-grey, Andrew rust-brown, James-Z deep-olive, John sand, …). **Only Jesus wears
+  cream/off-white/white** — no disciple ever does, so no one is mistaken for the Lord.
+- **All the cast are first-century Galilean Jews** (Judas the lone Judean): warm tan to deep
+  olive-brown Middle Eastern skin, dark eyes, rough undyed wool — weathered, real, working
+  men, never modern or European. Their faces ARE shown and stay consistent.
+- **Gate-safe locks.** Disciple LOCK paragraphs never use the tokens *Jesus / the Lord /
+  Christ / Saviour* or the drift words (caucasian/pale/blue-eyed/blond/halo/glow), so the
+  face gate stays clean; when Jesus is in the shot, HIS JESUS LOCK v3 + `REF: jesus-master-ref`
+  are added exactly as always.
+- **Redo priority.** Existing videos are being re-stilled onto the locked cast per
+  [`PICTURE-REDO-WORKLIST.md`](./PICTURE-REDO-WORKLIST.md) (P1 = disciple-defining scenes first).
+
 ### Compose every scene around the PEOPLE
 
 - **The picture is the people.** In any reaction, witness, or crowd scene, build the
@@ -491,7 +517,8 @@ works. Then scale the motion budget per story as the Story-Fit Rule allows.
 5. **Assemble locally** (ffmpeg/editor on Cameron's machine — costs nothing):
    drift moves over stills, clips cut in at their beats, narration track,
    serif captions, KJV verse card, closing question card (6s, cream #F7F2E9),
-   music bed cut to silence at the sacred line. Export 1080×1920 H.264 <25MB.
+   and NO music bed or tone at all — narration over intentional silence (NO-BED
+   law, §5). Export 1080×1920 H.264 <25MB.
 6. **QC pass (checklist below), then present the finished video to Cameron.**
    He watches and says yes/no. On yes → delivery pipeline (Firebase Hosting
    /story-videos/, expo-video key per THE-200 id). On no → AI fixes and re-presents.
@@ -653,7 +680,8 @@ works. Then scale the motion budget per story as the Story-Fit Rule allows.
       trailing silence); compute every breath/gap from the SPOKEN end, not the
       file end — verify with silencedetect after the mix (added 2026-07-08,
       video #2: j1's 1.2s internal tail stretched a planned 2s breath to 3.5s)
-- [ ] Music bed scheduled to reach full silence BEFORE the peak KJV line
+- [ ] NO music bed or synthesized tone anywhere in the mix (NO-BED law, §5) —
+      intentional silence carries the peak KJV line
 
 **Assembly craft laws (added 2026-07-09 — Cameron: "it just seems like a video
 made by ai, it glitches" — every one of these was a real, found defect):**
@@ -672,9 +700,10 @@ made by ai, it glitches" — every one of these was a real, found defect):**
       visible blocking on video #2).
 - [ ] LOUDNESS: measure the final mix (EBU R128) and deliver ≈ -15 LUFS via
       static gain + true-peak limiter. Quiet audio reads as amateur.
-- [ ] MUSIC BED: no bare sine waves — every voice a slightly detuned pair
-      (natural slow beating) through a soft room echo. And no long bone-dry
-      stretches unless sacred quiet IS the point of that moment.
+- [ ] NO MUSIC BED AT ALL (NO-BED law, §5 below). There is no music/tone bed in
+      any video — the mix is narration + intentional silence only. No sine, drone,
+      detuned pair, or "atmosphere" tone is ever added; a constant tone under the
+      voice is a defect. Bone-dry stretches are fine; sacred quiet is the point.
 
 **Found by the self-revision loop on video #39 (added 2026-07-13) — three checks
 that were missing, each one a real defect that reached the built video:**

@@ -18,6 +18,7 @@
 > 9. Claim-by-push before generating: `git pull`, claim the QUEUE row, commit + push the claim FIRST so no machine collides.
 > 10. Two-Voice: narrator modern; Jesus speaks ONLY exact KJV words. American Jesus voice, never a "Multilingual" model.
 > 11. Ear-check every narration (`qc_narration.py`) before assembly; scene lighting matches the scripture's time of day; every figure's action must read correctly at a glance.
+> 11b. **NO music/tone bed — narration + intentional silence only** (a constant hum makes people not use it). Captions live ONLY in the bottom band, split long ones in sync with the narration, never covering the art.
 > 12. Never hold Cameron's computer hostage — announce each Chrome burst, start immediately, and STOP the instant he messages.
 >
 > **App**
