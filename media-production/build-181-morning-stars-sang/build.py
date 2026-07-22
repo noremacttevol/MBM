@@ -43,6 +43,7 @@ INK = "0x3B2A1E"
 ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "16",
        "-pix_fmt", "yuv420p", "-r", str(FPS), "-an"]
 
+ST0 = "s0-job-hears-the-answer.jpeg"  # Cameron #181: the story is God answering JOB - the man himself must appear
 ST1 = "s1-the-first-morning.jpeg"
 ST2 = "s2-the-earth-forming.jpeg"
 ST3 = "s3-the-stars-sing.jpeg"
@@ -60,11 +61,11 @@ SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 GL_POINTER = "Learn more — Gospel Library: Creation"
 
 BEATS = [
-    ("n0", ST1, "in"),
+    ("n0", ST0, "in"),
     ("n1a", ST2, "in"),
     ("n1b", ST4, "in"),
     ("g4", ST4, "out"),
-    ("n1r", ST6, "in"),
+    ("n1r", ST0, "out"),
     ("n2", ST6, "out"),
     ("s1", ST3, "in"),
     ("n3", ST5, "in"),
