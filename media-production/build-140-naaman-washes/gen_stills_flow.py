@@ -49,10 +49,28 @@ def parse_shots():
     return shots
 
 
+PREFIX = ("SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, "
+          "stacked panels or comic strip, no dividing lines, one picture only, artwork fills "
+          "the ENTIRE frame and bleeds to all four edges, no border, no vignette, one single "
+          "tall upright vertical painting. ")
+
+# CHARACTER-LAW (unblocked 2026-07-21: naaman sheet LOCKED, approved by Cameron):
+# [NAAMAN SHEET] becomes the locked spec text and the 3 sheet jpegs ride as --ref.
+sys.path.insert(0, str(HERE.parent / "CHARACTERS"))
+from character_refs import lock_text as _lock, refs as _refs
+NAAMAN_LOCK = _lock("naaman")
+NAAMAN_REFS = _refs("naaman")
+
+
 def gen(slug, body):
     out = ASSETS / f"{slug}.jpeg"
+    refs = []
+    if "[NAAMAN SHEET]" in body:
+        body = body.replace("[NAAMAN SHEET]", NAAMAN_LOCK)
+        for r in NAAMAN_REFS:
+            refs += ["--ref", str(r)]
     print(f"=== generating {slug} ===", flush=True)
-    r = subprocess.run([sys.executable, str(DRIVER), "gen", "--prompt", body, "--out", str(out)])
+    r = subprocess.run([sys.executable, str(DRIVER), "gen", "--prompt", PREFIX + body, "--out", str(out)] + refs)
     return r.returncode == 0 and out.exists()
 
 

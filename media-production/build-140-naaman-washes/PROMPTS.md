@@ -5,14 +5,15 @@ who almost missed his healing because the instruction was too simple. For the
 returner: do the simple thing again. From DRAFTS/row-140-naaman-washes.md —
 paint ONLY these 10 beats, nothing added.
 
-CHARACTER-LAW — **BLOCKED**: every still marked [NAAMAN SHEET] conditions on
-`CHARACTERS/naaman/` (sheet must cover the leprous-forearm AND healed states,
-same face) — the sheet does NOT exist yet and Cameron has not approved one.
-DO NOT render any [NAAMAN SHEET] still until it is locked. See
-CHARACTERS/WANTED.md. Elisha stays UNSEEN by composition (2 Kgs 5:10-11 — he
+CHARACTER-LAW — UNBLOCKED 2026-07-21: `CHARACTERS/naaman/` is LOCKED (approved
+by Cameron with the full roster). Every still marked [NAAMAN SHEET] conditions
+on that sheet: gen_stills_flow.py swaps in the locked spec text and attaches
+the 3 sheet jpegs as --ref. Elisha stays UNSEEN by composition (2 Kgs 5:10-11 — he
 sends a messenger; scripturally exact, and the story's very point). The maid,
 servants, messenger and mistress are non-rostered background figures kept
 consistent within this build.
+
+CHARACTER-REF-EXEMPT: elisha (never painted — he sends the messenger, 2 Kgs 5:10; staying unseen is the point of the story)
 
 CONTENT-CARE: leprosy shown modestly — pale mottled patches on forearms/hands
 only, never the face ruined, never sores in focus, never graphic; healed skin
@@ -32,9 +33,9 @@ NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one pict
 artwork fills the ENTIRE frame and bleeds to all four edges, no border, no vignette,
 one single tall upright vertical painting."
 
-[NAAMAN SHEET] = condition on CHARACTERS/naaman/ reference sheet (PENDING —
-blocked until Cameron approves it) plus its written spec, byte-identical, in
-every still he appears in.
+[NAAMAN SHEET] = the locked CHARACTERS/naaman/ spec (approved 2026-07-21),
+substituted by gen_stills_flow.py together with the 3 reference jpegs.
+NAAMAN LOCK (verbatim, for the gate): A powerfully built Aramean (Syrian) commander in his late forties — see CHARACTERS/naaman/SPEC.md, locked.
 
 ---
 
@@ -51,7 +52,7 @@ every still he appears in.
 [STILL STYLE BLOCK] [NAAMAN SHEET] A narrow dusty lane in Israel: the captain's magnificent horses and chariots and gift-chests crowded to a halt before a small plain mud-brick house with a shut wooden door — wealth and rank filling the frame's lower half, the humble house quiet and unimpressed above. The captain stands by his chariot looking at the door. Every clearly visible figure: two arms, two legs, one head. He appears exactly once. One single continuous scene painted edge to edge. 9:16 vertical.
 
 ## s5-the-messenger — Shot 5: the door stays shut (s1 — KJV, sacred hold)
-[STILL STYLE BLOCK] The same shut door, closer: a plainly dressed messenger standing in the doorway's shadow delivering a word, one hand gesturing gently toward the valley below where a ribbon of river glints — the door behind him still half-shut, the prophet himself NOWHERE in the frame, unseen. The messenger is an ordinary Israelite servant: SHORT dark hair, short beard, dressed ONLY in dull dust-brown and grey-brown rough wool — NEVER cream, NEVER off-white, NEVER pale robes, nothing that could read as a holy figure. The messenger: two arms, two legs, one head; he appears exactly once. NO other figure visible. One single continuous scene painted edge to edge. 9:16 vertical. Reroll note (v2): v1's pale ivory tunic brushed the only-Jesus-wears-cream law and the figure read too holy — this version pins drab servant clothing.
+[STILL STYLE BLOCK] The same shut door, closer: a plainly dressed messenger standing in the doorway's shadow delivering a word, one hand gesturing gently toward the valley below where a ribbon of river glints — the door behind him still half-shut, the prophet himself NOWHERE in the frame, unseen. The messenger is an ordinary Israelite servant: SHORT dark hair, short beard, dressed ONLY in dull dust-brown and grey-brown rough wool — NEVER cream, NEVER off-white, NEVER pale robes, nothing that could read as a holy figure. The messenger: two arms, two legs, one head; he appears exactly once. NO other figure visible. One single continuous scene painted edge to edge. 9:16 vertical. Reroll note (v2): v1's pale ivory tunic brushed the reserved-cream law (only one person in the whole library wears cream) and the figure read too holy — this version pins drab servant clothing.
 
 ## s6-riding-away — Shot 6: too plain, too simple (n3) [NAAMAN SHEET]
 [STILL STYLE BLOCK] [NAAMAN SHEET] The captain wheeling his chariot hard away down the lane in a storm of dust, his cloak snapping, jaw set in fury — and far below and behind him, ignored in the valley, the calm glinting Jordan he was just told could heal him. His action reads at a glance: he is DRIVING AWAY from the river, reins in both fists, horses leaning into the turn. Every figure: two arms, two legs, one head. He appears exactly once. One single continuous scene painted edge to edge. 9:16 vertical.
