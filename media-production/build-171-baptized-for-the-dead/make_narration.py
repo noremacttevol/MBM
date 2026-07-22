@@ -57,7 +57,7 @@ SEGMENTS = [
     ("s22", SCRIPTURE, "For as in Adam all die, even so in Christ shall all be made alive."),
     ("n5a", NARRATOR, "The ordinance done in love reaches across the veil."),
     ("n5b", NARRATOR, "Offering every soul the chance to choose."),
-    ("card", NARRATOR, "Death separates for a while, not forever. Because He lives, there is hope for every name on the other side of the veil."),
+    ("card", NARRATOR, "Death separates for a while, not forever. Because He livez, there is hope for every name on the other side of the veil."),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
