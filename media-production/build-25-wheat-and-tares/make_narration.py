@@ -95,6 +95,14 @@ SEGMENTS = [
 SPOKEN = {
     "sow": "soh",
     "sowed": "sohd",
+    # Cameron denial #25 (2026-07-22): "At 2:11 tear was misspronounced because
+    # it means break tear not a cry tear". n9 "you will tear up the good plants"
+    # is the RIP reading (TAIR), not the crying one (TEER). "tair" cannot be read
+    # any other way and round-trips back as "tear" 2/2 in Andrew. "tearing" (n8,
+    # "send them tearing through the field") is the same word and needs its own
+    # key -- spoken_text() replaces whole words only.
+    "tear": "tair",
+    "tearing": "tairing",
 }
 
 
