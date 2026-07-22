@@ -51,7 +51,11 @@ SEGMENTS = [
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
-SPOKEN = {}
+# overcometh (Cameron complaint #189, target OH-vur-kuh-muhth): plain word in the
+# jesus voice renders with a seam — isolated whisper hears "Over Kometh" (1.74s).
+# A/B 2026-07-21: "overcummeth" reads as ONE word (1.26s), round-trips isolated
+# as "Overcometh" and in-sentence as "overcometh". Caption keeps KJV spelling.
+SPOKEN = {"overcometh": "overcummeth"}
 
 
 async def main():
