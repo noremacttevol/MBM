@@ -11,13 +11,13 @@ touching anything else. Do NOT edit by hand.
 | # | Status | What Cameron said |
 |---|---|---|
 | 7 | newer cut shipped — VERIFY fixed | the words only picture at the end is messed up and out of the frame  on the edges it should be 2 or 3 lines |
-| 11 | UNFIXED | still the trash old version |
+| 11 | newer cut shipped — VERIFY fixed | Captions trash still the way old version this video keeps getting ignored and its making me mad |
 | 13 | UNFIXED | This is old and needs to be updated to the version where we can use Jesus' face |
 | 17 | newer cut shipped — VERIFY fixed | captions are messed up and the voice  is messed  up and is misspronouncing livest and  other old english pronunciation. |
-| 19 | newer cut shipped — VERIFY fixed | The picture at 1 minute spans for way too long of the story and needs extra pictures to depict how impactful the scene was that Jesus called to them when they were catching no fish and then the other fisherman is the one who said that is the Lord and then Peter jumps into the water and swims over to him, that's like you can make like 5 pictures out of that, but you gave me 1.  We need to change the fact that this whole story relied on just a little bit of pictures when it could be made a lot better, so we need to insert more pictures.And then make the captions, right?All over again to make it a better depicting story illustrated |
-| 22 | newer cut shipped — VERIFY fixed | That's not how you pronounce owest. |
-| 25 | UNFIXED | At 2:11 tear was misspronounced because it means break tear not a cry tear |
-| 33 | UNFIXED | Divideth is pronounced wrong |
+| 19 | UNFIXED | pictures for peters meeting are out of order and look like compltetely differnt people this al needs to be redone with better ways of matching the characters, the ones who are in other stories, peter and Jesus and the new people the other men in the boat need to be the same in every frame and that needs to be a laaaw we nneed to watch for things that will steer people astray from listening to the importnat words |
+| 20 | UNFIXED | one frame the samaratin had hair and the next he was bald. |
+| 25 | newer cut shipped — VERIFY fixed | At 2:11 tear was misspronounced because it means break tear not a cry tear |
+| 33 | newer cut shipped — VERIFY fixed | Divideth is pronounced wrong |
 | 56 | UNFIXED | The picture at 2:10 makes him look like he rose from the dead and immediately grew a beard. And his mom changed clothes again from blue to red now back to blue and got old with white hair. These things look and we need to get better at fixing it |
 | 65 | newer cut shipped — VERIFY fixed | needs the captions to be redone still. |
 | 67 | newer cut shipped — VERIFY fixed | ohh nooo thats not good the video used a differnt voice for someone other than Jesus speaking so that also made the captions red in color like it was Jesus who said that. thats not good that wasetn Jesus speaking it was peter or one of his followers. fix that asap it should be told from the regualr narriarotrs voice and white text. 0:42 |
@@ -37,7 +37,7 @@ touching anything else. Do NOT edit by hand.
 | 153 | newer cut shipped — VERIFY fixed | 1:12 is weird picture |
 | 157 | newer cut shipped — VERIFY fixed | 42 weird giant picture |
 | 171 | UNFIXED | The weird from scripture are supposed to be in blue |
-| 173 | UNFIXED | Mispronounced live at the end |
+| 173 | newer cut shipped — VERIFY fixed | Mispronounced live at the end |
 | 179 | newer cut shipped — VERIFY fixed | "Regenerate this video about Stephen in Acts 7 from a Latter-day Saint perspective. The vision scene (Acts 7:55-56) must clearly show two distinct glorified personages in radiant heavenly light: God the Father and His Son Jesus Christ standing at the Father's right hand. Portray them as separate embodied beings, just as Stephen saw them — not as one figure, not as Jesus only, and do not add a dove or Trinitarian symbol. Use a reverent, luminous style like official Latter-day Saint gospel art (similar to the Gospel Art Book depiction of this scene). Keep the story simple, scripturally accurate, and 'milk' level — Christ-centered and uplifting for everyone. Focus on Stephen being full of the Holy Ghost, his bold testimony of Jesus, the vision of the Father and Son, his martyrdom, and his forgiving prayers to the Lord Jesus. Use simple narration that promotes faith in Jesus and the gospel without extra doctrine or heavy emphasis. Follow your established reverent style rules for sacred figures. Make the whole short video feel like it was made by Latter-day Saints — warm, truthful, and focused on the Savior. |
 | 181 | newer cut shipped — VERIFY fixed | the pictures need to be better made i dont think they fit the story well |
 | 184 | newer cut shipped — VERIFY fixed | only Jesus's words in red. |
