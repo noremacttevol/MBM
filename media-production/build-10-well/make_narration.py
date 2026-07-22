@@ -48,7 +48,7 @@ SEGMENTS = [
     ("w19", WOMAN, "Sir, I perceive that thou art a prophet."),
     ("n6", NARRATOR, "She called him a prophet. She asked him her people's oldest question — which mountain is the right one to worship on — and he told her the day was coming when the question itself would be old news: God is spirit, and what he wants is the heart. Then she said, almost to herself: I know the Messiah is coming. When he comes, he'll explain everything. And the tired traveler at the well said:"),
     # John 4:25
-    ("w25", WOMAN, "I know that Messias cometh, which is called Christ: when he is come, he will tell us all things."),
+    ("w25", WOMAN, "I know that Messiah cometh, which is called Christ: when he is come, he will tell us all things."),
     # John 4:26
     ("j2", JESUS, "I that speak unto thee am he."),
     ("n7", NARRATOR, "The first person Jesus ever told plainly that he was the Messiah — not a king, not a priest, not even one of his twelve — a Samaritan woman with five marriages behind her, at the bottom of every list her world kept. Right then his followers came back from town, and stopped short — stunned that he was talking with her at all. Nobody dared say a word."),
@@ -61,12 +61,12 @@ SEGMENTS = [
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
-# Messias (KJV John 4:25), Cameron denial round 3 (2026-07-21 night): the plain
-# KJV word reads "Mesh is" in the Michelle voice, and the earlier fix "Messiahs"
-# made her say the POSSESSIVE "Messiah's cometh" — which is what he heard and
-# rejected. A/B in her voice: "Messiah" round-trips as "Messiah cometh", clean.
-# Caption keeps the exact KJV spelling "Messias".
-SPOKEN = {"Messias": "Messiah"}
+# CAPTION OVERRIDE (Cameron, 2026-07-21 night): he rejected "Messias" on screen as
+# well as in the voice — "the caption is still wrong". John 4:25's KJV spelling is
+# replaced with "Messiah" in the SEGMENT TEXT itself, so the caption and the audio
+# both read Messiah. This is a deliberate, Cameron-ordered exception to the
+# verbatim-KJV caption rule for this one word. No SPOKEN respelling is needed now.
+SPOKEN = {}
 
 # j2 "I that speak unto thee am he" (John 4:26) — the Eric voice slurs the
 # three-word run into "the Amhi" (Cameron complaint #10, heard at ~3:55, still
