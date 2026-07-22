@@ -68,7 +68,7 @@ SPOKEN = {}
 
 
 SPOKEN.update({'leadeth': 'leedeth'})  # round2 in-context A/B winners 2026-07-20 (SWEEP/round2-state.json)
-SPOKEN.update({'maketh': 'makith'})  # 2026-07-21: Steffan reads plain "maketh" as "MOCKED (with)" — shipped Psalm 23 said "He mocked me to lie down". 'makith' round-trips back as the exact word "maketh" (A/B in Steffan). Caption keeps KJV "maketh".
+SPOKEN.update({'maketh': 'maykith'})  # 2026-07-21: Steffan reads plain "maketh" as "MOCKED (with)" — shipped Psalm 23 said "He mocked me to lie down". Round 2 2026-07-21: 'makith' proved unstable in Steffan (fresh renders 'may keep'); 'maykith' round-trips "maketh" exactly = MAY-kith. Caption keeps KJV "maketh".
 
 async def main():
     os.makedirs("audio", exist_ok=True)
