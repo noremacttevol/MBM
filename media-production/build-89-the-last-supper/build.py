@@ -42,13 +42,13 @@ ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "16",
        "-pix_fmt", "yuv420p", "-r", str(FPS), "-an"]
 
 S1 = "s1-the-glowing-window.jpeg"
-S2 = "s2-gathered-at-the-table.jpeg"
-S3 = "s3-he-broke-the-bread.jpeg"
-S4 = "s4-the-cup-lifted.jpeg"
-S5 = "s5-resting-near-him.jpeg"
-S6 = "s6-turned-toward-him.jpeg"
-S7 = "s7-love-in-his-eyes.jpeg"
-S8 = "s8-singing-into-the-night.jpeg"
+S2 = "s2-cast.jpeg"
+S3 = "s3-cast.jpeg"
+S4 = "s4-cast.jpeg"
+S5 = "s5-cast.jpeg"
+S6 = "s6-cast.jpeg"
+S7 = "s7-cast.jpeg"
+S8 = "s8-cast.jpeg"
 S9 = "s9-bread-and-cup-remain.jpeg"
 
 TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
