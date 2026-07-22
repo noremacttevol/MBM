@@ -28,7 +28,7 @@ Named disciples or the whole Twelve are the visible subject.
 | ✅ | 7   | build-07-peter-water            | Peter (lead), the Twelve, the boat — REBUILT 2026-07-22, awaiting Cameron's watch |
 | ✅ | 71  | build-71-calling-the-fishermen  | Peter, Andrew, James, John — REBUILT 2026-07-22, awaiting watch |
 | ✅ | 51  | build-51-first-catch-of-fish    | Peter, James, John — REBUILT 2026-07-22, awaiting watch |
-| ⬜ | 11  | build-11-storm                  | the Twelve, the boat (Sea of Galilee) |
+| ✅ | 11  | build-11-storm                  | the Twelve, the boat — REBUILT 2026-07-22, awaiting watch |
 | ⬜ | 89  | build-89-the-last-supper        | all Twelve at the table |
 | ⬜ | 90  | build-90-washing-feet           | Peter + the Twelve |
 | ⬜ | 91  | build-91-gethsemane             | Peter, James, John |
