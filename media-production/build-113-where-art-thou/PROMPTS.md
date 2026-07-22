@@ -7,11 +7,12 @@ covering their shame. NO nudity (Adam and Eve are modestly clothed in simple lea
 garments and shown from a respectful distance or behind). NO serpent/devil figure shown at
 all. NO violence, no blood, no menace. The tone is sorrowful-yet-merciful, never frightening.
 
-NO DIVINE FIGURE ANYWHERE. God is a voice and a warm seeking PRESENCE and is NEVER depicted
-as a person — where God walks or calls in the garden, the picture is warm golden light
-moving among the trees; no figure, no face, no shape, no hand. (No Jesus is shown in any
-frame; nobody wears cream or off-white — Adam and Eve are in earth-toned leaf and skin
-garments.)
+GOD THE FATHER IS SHOWN EMBODIED (REVERSED 2026-07-21, Cameron denial #113: "God has a
+body, we've been through this"). Where God walks or calls in the garden (s5, s10) he is
+painted as the locked GOD THE FATHER character — see the lock text in those prompts and
+attach CHARACTERS/god-the-father refs. The old "formless light" law is DEAD for the Father.
+(No Jesus is shown in any frame; only the Father wears pure white — Adam and Eve are in
+earth-toned leaf and skin garments.)
 
 ADAM & EVE LOCK (s2-s10): a young man and young woman with warm olive-tan skin and dark
 hair, modestly clothed — first in simple woven fig-leaf garments, later in plain undyed
@@ -36,6 +37,8 @@ any baked-in text; a multi-panel or comic-strip layout.
 
 ---
 
+CHARACTER-REF-EXEMPT: adam (Adam/Eve stills predate the character law and are not re-rolled this pass; only the Father shots s5/s10 are regenerated)
+
 ## s1-the-garden
 [STILL STYLE BLOCK] A breathtaking garden paradise at golden morning: lush green trees heavy with fruit, flowering vines, a clear stream, gentle animals grazing in peace, warm gold light pouring through the leaves. In the middle stands one beautiful tree with bright ripe fruit. No people yet, no serpent — only the perfect, peaceful garden, whole and unspoiled. Warm golden light, deep abundance and peace. One single tall upright vertical scene painted edge to edge, no panels.
 
@@ -49,7 +52,8 @@ any baked-in text; a multi-panel or comic-strip layout.
 [STILL STYLE BLOCK] Evening falling in the garden, deep blue-green shadows among the trees. The young man and woman, in their simple leaf garments, crouch and hide themselves behind the thick trunks and foliage, peering out fearful and ashamed as a warm golden light begins to move gently through the garden toward them in the cool of the day — the presence of God, shown ONLY as soft warm radiant light among the trees, no figure and no shape within it. Their faces, shown, are anxious and hiding. Cool evening blue with warm approaching gold. Neither wears cream or off-white. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
 
 ## s5-where-art-thou
-[STILL STYLE BLOCK] Deep among the darkening garden trees, a warm, gentle golden light fills a clearing — the seeking presence of God calling out for his hiding children — shown ONLY as soft radiant light in the cool evening garden, holding no figure, no face and no shape anywhere. The light is warm and searching, sorrowful and kind, not angry. Empty of any person; just the calling light among the shadowed trees. Cool blue-green dusk pierced by warm seeking gold. One single tall upright vertical scene painted edge to edge, no panels.
+(REWRITTEN 2026-07-21, Cameron denial #113: "God has a body." The old prompt painted him as formless light — banned by GOD-THE-FATHER-LOCK.md.)
+[STILL STYLE BLOCK] Deep among the darkening garden trees, GOD THE FATHER himself walks the garden in the cool of the day, calling for his hiding children. GOD THE FATHER LOCK: the SAME glorified man in every picture — a majestic embodied man of about sixty, warm tan olive-brown skin, full silver-white hair to his shoulders and a full silver-white beard, calm deep-set eyes, serene and kingly and full of love, wearing a plain flowing pure-white robe (only the Father wears pure white; the Son alone wears cream). No crown, no throne-props, no ring of light, no glow around the head. A real painted person, never a cloud, never formless light, never a shape in the brightness. He stands full-length on the garden path in warm golden evening light that falls AROUND him (no ring of light, no glow outline), one hand gently raised as he calls out, his face sorrowful and kind, not angry. The trees around him are cool blue-green dusk; his presence brings the warm gold. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
 
 ## s6-i-was-afraid
 [STILL STYLE BLOCK] The young man, in his simple leaf garment, half-steps out from behind a tree into the edge of the warm golden light, his head lowered and one arm drawn across himself, his face, shown, full of fear and shame as he answers — I heard thee, and I was afraid, and I hid myself. Beside and behind him the young woman also lingers half-hidden, ashamed. The warm light before them holds no figure. Cool dusk, warm searching light, deep sorrow and honesty. Neither wears cream or off-white. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
@@ -64,4 +68,5 @@ any baked-in text; a multi-panel or comic-strip layout.
 [STILL STYLE BLOCK] Golden-grey dusk at the edge of the garden, a gateway of trees opening onto the wider wild land beyond. The young man and woman, now clothed in their plain brown skin garments, walk out of the garden hand in hand, looking back once with sorrow but stepping forward together — sent out, yet not abandoned, a faint warm light still resting on them from behind. No divine figure. The wide unknown world ahead in soft evening light. Sorrowful but not hopeless, a promise implied. Neither wears cream or off-white. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels.
 
 ## s10-the-God-who-seeks
-[STILL STYLE BLOCK] A quiet, resonant closing image: an empty garden path at soft golden evening, warm light still lingering gently among the trees as though someone is still walking there, still calling, still looking — the God who came seeking his hiding children and covered their shame, seeking still. No figure anywhere, only the warm searching light and the open, waiting path. The mood is tender and inviting, a question hanging warmly in the air. Warm gold evening light, deep gentleness, an open path. One single tall upright vertical scene painted edge to edge, no panels.
+(REWRITTEN 2026-07-21, Cameron denial #113 — the seeking God is a PERSON, not an empty path.)
+[STILL STYLE BLOCK] The closing image: GOD THE FATHER walks the quiet garden path at soft golden evening, still seeking, still calling — seen from a respectful distance, full-length, mid-stride along the open path between the trees, his head turning as he looks for his children. GOD THE FATHER LOCK: the SAME glorified man in every picture — a majestic embodied man of about sixty, warm tan olive-brown skin, full silver-white hair to his shoulders and a full silver-white beard, calm deep-set eyes, serene and kingly and full of love, wearing a plain flowing pure-white robe (only the Father wears pure white; the Son alone wears cream). No crown, no throne-props, no ring of light, no glow around the head. A real painted person, never a cloud, never formless light, never a shape in the brightness. Warm gold evening light around him, deep gentleness, the path open before him — the God who came seeking his hiding children and covered their shame, seeking still. The mood is tender and inviting. Every figure has two arms, two hands, two legs and one head. One single tall upright vertical scene painted edge to edge, no panels, artwork fills the ENTIRE frame and bleeds to all four edges, no border, no frame.

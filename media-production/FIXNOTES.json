@@ -305,6 +305,10 @@
   {
    "date": "2026-07-21",
    "note": "Re-cut with the corrected verse audio for \"For every one that asketh receiveth; and he that seeketh findeth\" (Matthew 7:8). The old cut's audio slurred it into \"asks it for sieveth\"; the fixed recording existed but was never muxed into the video. Now it reads the verse cleanly, with \"findeth\" as FYND-eth (long i) per the earlier complaint. \u2014 narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-21",
+   "note": "VERIFIED already fixed, no rebuild: the word at 0:50 isolated from the current cut whisper-transcribes as 'that seeketh findeth' \u2014 FIND-eth with the long i, and the whole Matthew 7:8 line reads clean (asketh receiveth / seeketh findeth / knocketh). The old 'asks it for sieveth' slur is gone."
   }
  ],
  "119": [
@@ -581,6 +585,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-21",
+   "note": "VERIFIED already fixed, no rebuild: the last picture in the current cut (frame at 2:40) shows Jesus standing WITH three others on the same ground, everyone in normal human proportion \u2014 he is only naturally taller, nobody is a giant. The frame at your 2:11 timestamp is now the peacemakers picture (three equal-size men clasping hands). The oversized-Jesus composition is not in this cut."
   }
  ],
  "19": [
@@ -1351,6 +1359,12 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  }
+ ],
+ "113": [
+  {
+   "date": "2026-07-21",
+   "note": "God the Father is now SHOWN with a body, from his locked character sheet: proof-before \u2014 the old \"Where art thou\" and closing pictures painted him as formless golden light / an empty path (frames extracted, no figure anywhere); fix \u2014 both pictures regenerated with the locked GOD-THE-FATHER character refs attached (the same silver-haired, white-robed embodied Father approved on the character board), and this build's prompt file rewritten so the dead \"no divine figure\" rule can never come back on a re-roll; proof-after \u2014 frame at 2:50 of the new cut shows the Father himself walking the garden path calling for his children. His look is locked to the same sheet used everywhere else. \u2014 new picture(s): s10-the-God-who-seeks-v2.jpeg, s10-the-God-who-seeks-v3.jpeg, s10-the-God-who-seeks.jpeg, s5-where-art-thou-v2.jpeg, s5-where-art-thou.jpeg; narration re-recorded"
   }
  ]
 }
