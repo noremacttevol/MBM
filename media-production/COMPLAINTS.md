@@ -15,7 +15,7 @@ touching anything else. Do NOT edit by hand.
 | 17 | newer cut shipped — VERIFY fixed | captions are messed up and the voice  is messed  up and is misspronouncing livest and  other old english pronunciation. |
 | 19 | UNFIXED | pictures for peters meeting are out of order and look like compltetely differnt people this al needs to be redone with better ways of matching the characters, the ones who are in other stories, peter and Jesus and the new people the other men in the boat need to be the same in every frame and that needs to be a laaaw we nneed to watch for things that will steer people astray from listening to the importnat words |
 | 20 | UNFIXED | one frame the samaratin had hair and the next he was bald. |
-| 46 | newer cut shipped — VERIFY fixed | 2:36 is pronounced put - teth |
+| 46 | UNFIXED | Figure out how to putteth like putith |
 | 50 | newer cut shipped — VERIFY fixed | liveth : Livith, Cana: KAY-nuh.   Pictures : 57: Jesus too big,  1:17 both caharacters jesus and the noble man look bad just redo that picture, 2:10 the character went grey when he was brown haired and young looking, same for the next picture but the at 2: 59 he went back to brown and that looks good. |
 | 51 | newer cut shipped — VERIFY fixed | Characters dont match the new characters we have made. neeeds updated pictures |
 | 52 | UNFIXED | 2:23 cammandeth +  kuh-MEN-duhth |
