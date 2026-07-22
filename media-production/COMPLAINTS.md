@@ -12,6 +12,7 @@ touching anything else. Do NOT edit by hand.
 |---|---|---|
 | 7 | newer cut shipped — VERIFY fixed | the words only picture at the end is messed up and out of the frame  on the edges it should be 2 or 3 lines |
 | 10 | newer cut shipped — VERIFY fixed | She says Messias again that is wrong |
+| 13 | UNFIXED | This is old and needs to be updated to the version where we can use Jesus' face |
 | 17 | UNFIXED | captions are messed up and the voice  is messed  up and is misspronouncing livest and  other old english pronunciation. |
 | 18 | newer cut shipped — VERIFY fixed | Same problems. Same main problem that nothing i say is getting fixed. Jesus once in one picture had short hair. Not like you care |
 | 19 | newer cut shipped — VERIFY fixed | The picture at 1 minute spans for way too long of the story and needs extra pictures to depict how impactful the scene was that Jesus called to them when they were catching no fish and then the other fisherman is the one who said that is the Lord and then Peter jumps into the water and swims over to him, that's like you can make like 5 pictures out of that, but you gave me 1.  We need to change the fact that this whole story relied on just a little bit of pictures when it could be made a lot better, so we need to insert more pictures.And then make the captions, right?All over again to make it a better depicting story illustrated |
