@@ -45,3 +45,9 @@ APPROVED-LOCKED, so it was NOT rebuilt. The 175-build "dropped speaker" bug
 spelling of "Cana" instead of the measured per-voice fix. Its script is
 already patched, so the correction lands the next time #49 is rebuilt for any
 other reason. Do NOT rebuild it just for this — Cameron approved this cut.
+
+## #120 job-from-whirlwind — "liveth" ("I know that my redeemer liveth")
+APPROVED-LOCKED 2026-07-22, so NOT rebuilt. The scripture voice splits the plain
+word into "Live Earth"; the measured fix ("livith") is now in the shared map and
+its script is patched, so it lands the next time #120 is rebuilt for any other
+reason. Do NOT rebuild it just for this — Cameron approved this cut.
