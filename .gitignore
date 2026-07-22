@@ -106,7 +106,12 @@ media-production/build-07-peter-water/segs/
 media-production/*/segs/
 media-production/bin/
 media-production/build-*/build_run.log
-media-production/build-*/qc/frames/
+# QC scratch is rebuildable and enormous. The old rule only covered qc/frames/,
+# so build-11-storm's qc/frames-clipA, qc/final, qc/rework and friends slipped
+# through: ship-fixes.sh's `git add -A -- "$dir/"` swept 4,529 files / 12 GB into
+# one commit on 2026-07-22, and every push after it hung and failed — #11, #171,
+# #173, #25 and #33 all sat unshipped behind it. Ignore the whole folder.
+media-production/build-*/qc/
 
 # Feed 2.0 streaming copies — duplicates of the tracked media-production finals,
 # staged here only for Firebase Hosting deploy (regenerate by copying finals in).
