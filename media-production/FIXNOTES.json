@@ -839,6 +839,10 @@
   {
    "date": "2026-07-21",
    "note": "re-rendered (audio + captions)"
+  },
+  {
+   "date": "2026-07-22",
+   "note": "Checked again, all four scripture lines, no rebuild needed: 'Else what shall they do\u2026' (0:12), 'why are they then baptized for the dead?' (0:17), 'But now is Christ risen\u2026' (0:47) and 'For as in Adam all die\u2026' (1:07) are ALL light blue on screen \u2014 frames pulled from the current cut and looked at one by one. Nothing white is scripture in this video. If the blue is not the blue you want, say so and I will change the colour itself."
   }
  ],
  "29": [
@@ -993,6 +997,10 @@
   {
    "date": "2026-07-22",
    "note": "Pronunciation fix that had been silently thrown away is now actually in the video. What went wrong: this video's script never told the pronunciation list WHICH voice was speaking, so every correction that only applies to one voice was worked out and then dropped on the floor \u2014 \"putteth\" was landing as two beats, \"put / teth\". This was true in 175 of the 200 videos, so it has been fixed at the source in all of them, not just this one. Proof: the re-recorded line now contains the corrected spelling and transcribes back as the right word. \u2014 narration re-recorded"
+  },
+  {
+   "date": "2026-07-22",
+   "note": "Already does exactly what you asked, no rebuild needed: the voice is fed the spelling 'putith' \u2014 that is the fix that shipped, and the current audio reads it back as one smooth word 'puteth', not the two-beat 'put / teth' you flagged. If it still sounds wrong to your ear in this cut, tell me and I will try a different spelling; the words on screen keep the true King James 'putteth' either way."
   }
  ],
  "47": [
