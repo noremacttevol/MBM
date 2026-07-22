@@ -61,10 +61,12 @@ SEGMENTS = [
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
-# Messias (KJV John 4:25): the Michelle voice reads it "mesh is" (Cameron
-# complaint #10, ~3:55, twice). A/B/C/D tested 2026-07-21: "Messiahs" round-
-# trips as meh-SIGH-us. Caption keeps the exact KJV spelling "Messias".
-SPOKEN = {"Messias": "Messiahs"}
+# Messias (KJV John 4:25), Cameron denial round 3 (2026-07-21 night): the plain
+# KJV word reads "Mesh is" in the Michelle voice, and the earlier fix "Messiahs"
+# made her say the POSSESSIVE "Messiah's cometh" — which is what he heard and
+# rejected. A/B in her voice: "Messiah" round-trips as "Messiah cometh", clean.
+# Caption keeps the exact KJV spelling "Messias".
+SPOKEN = {"Messias": "Messiah"}
 
 # j2 "I that speak unto thee am he" (John 4:26) — the Eric voice slurs the
 # three-word run into "the Amhi" (Cameron complaint #10, heard at ~3:55, still
