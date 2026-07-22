@@ -11,16 +11,14 @@ touching anything else. Do NOT edit by hand.
 | # | Status | What Cameron said |
 |---|---|---|
 | 7 | newer cut shipped — VERIFY fixed | the words only picture at the end is messed up and out of the frame  on the edges it should be 2 or 3 lines |
-| 11 | newer cut shipped — VERIFY fixed | Captions trash still the way old version this video keeps getting ignored and its making me mad |
 | 13 | UNFIXED | This is old and needs to be updated to the version where we can use Jesus' face |
 | 17 | newer cut shipped — VERIFY fixed | captions are messed up and the voice  is messed  up and is misspronouncing livest and  other old english pronunciation. |
 | 19 | UNFIXED | pictures for peters meeting are out of order and look like compltetely differnt people this al needs to be redone with better ways of matching the characters, the ones who are in other stories, peter and Jesus and the new people the other men in the boat need to be the same in every frame and that needs to be a laaaw we nneed to watch for things that will steer people astray from listening to the importnat words |
 | 20 | UNFIXED | one frame the samaratin had hair and the next he was bald. |
-| 25 | newer cut shipped — VERIFY fixed | At 2:11 tear was misspronounced because it means break tear not a cry tear |
 | 33 | newer cut shipped — VERIFY fixed | Divideth is pronounced wrong |
 | 46 | newer cut shipped — VERIFY fixed | 2:36 is pronounced put - teth |
-| 50 | UNFIXED | liveth : Livith, Cana: KAY-nuh.   Pictures : 57: Jesus too big,  1:17 both caharacters jesus and the noble man look bad just redo that picture, 2:10 the character went grey when he was brown haired and young looking, same for the next picture but the at 2: 59 he went back to brown and that looks good. |
-| 51 | UNFIXED | Characters dont match the new characters we have made. neeeds updated pictures |
+| 50 | newer cut shipped — VERIFY fixed | liveth : Livith, Cana: KAY-nuh.   Pictures : 57: Jesus too big,  1:17 both caharacters jesus and the noble man look bad just redo that picture, 2:10 the character went grey when he was brown haired and young looking, same for the next picture but the at 2: 59 he went back to brown and that looks good. |
+| 51 | newer cut shipped — VERIFY fixed | Characters dont match the new characters we have made. neeeds updated pictures |
 | 52 | UNFIXED | 2:23 cammandeth +  kuh-MEN-duhth |
 | 56 | UNFIXED | The picture at 2:10 makes him look like he rose from the dead and immediately grew a beard. And his mom changed clothes again from blue to red now back to blue and got old with white hair. These things look and we need to get better at fixing it |
 | 65 | newer cut shipped — VERIFY fixed | needs the captions to be redone still. |
