@@ -38,3 +38,10 @@ known — still re-verify in the segment's actual voice before rebuild.
 
 16-mary-martha was also complained about ("wound") but its approved cut now
 reads correctly (verified this sweep) — nothing to fix.
+
+## #49 water-to-wine — "Cana" per-voice fix never applied (2026-07-22)
+APPROVED-LOCKED, so it was NOT rebuilt. The 175-build "dropped speaker" bug
+(see `fix_dropped_voice.py`) means this cut was rendered with the plain
+spelling of "Cana" instead of the measured per-voice fix. Its script is
+already patched, so the correction lands the next time #49 is rebuilt for any
+other reason. Do NOT rebuild it just for this — Cameron approved this cut.

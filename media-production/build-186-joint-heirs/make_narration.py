@@ -59,7 +59,7 @@ async def main():
         flagged = [w for w in audit(text) if w not in SPOKEN]
         if flagged:
             print(f"  ! {name}: undecided homograph(s) {flagged}")
-        await save_speaker_narration(spoken_text(text, SPOKEN), speaker,
+        await save_speaker_narration(spoken_text(text, SPOKEN, speaker), speaker,
                                      f"audio/{name}.mp3")
         print(f"saved audio/{name}.mp3  [{speaker}]")
 

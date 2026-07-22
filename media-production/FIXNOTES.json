@@ -193,6 +193,10 @@
   {
    "date": "2026-07-21",
    "note": "VERIFIED already fixed, no rebuild: the verse line now sits at 0:44 in the current cut \u2014 'he maketh his sun to rise' isolated whisper-reads clean, and an acoustic vowel test against same-voice references matches the short-i KITH sound decisively (0.993 vs 0.952 for keeth). It says MAY-kith, exactly as you spelled it."
+  },
+  {
+   "date": "2026-07-22",
+   "note": "CORRECTION \u2014 my earlier note on this video was WRONG. I told you maketh was verified fixed. It was not: this video's script never told the pronunciation list which voice was speaking, so the Jesus-voice correction was computed and thrown away, and the line was actually being spoken 'for he MOCKETH his sun to rise.' My check missed it because I only compared the ending sound, not the whole word. Found and fixed 2026-07-22 while working a different video. The same silent-drop bug was in 175 of the 200 videos and is now fixed at the source in all of them. This video is re-recorded and rebuilt with the real fix."
   }
  ],
  "192": [
@@ -367,6 +371,10 @@
   {
    "date": "2026-07-21",
    "note": "\"bow\" fixed at 0:08: proof-before \u2014 an acoustic vowel test against same-voice reference words showed \"everyone bows\" in the old cut sounded like \"beau\" (BOHZ), while the other three bow lines (0:20, 0:42, 1:23) were already correct; fix \u2014 spoken form \"boughs\" for that word only (measured: round-trips as \"bows\" and lands the BOW-as-in-bough vowel), caption unchanged; proof-after \u2014 the same acoustic test on the rebuilt video at 0:08 now matches the correct BOUGH vowel. \u2014 narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-22",
+   "note": "Follow-up on the bow fix: while auditing a different problem I found this video's script was not passing the speaking voice to the pronunciation list, so the measured fix for 'Meshach' was being thrown away. That is corrected and the video re-recorded. The bow fix you already had is unaffected."
   }
  ],
  "13": [

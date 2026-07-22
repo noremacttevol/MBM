@@ -83,7 +83,7 @@ async def main():
         flagged = [w for w in audit(text) if w not in SPOKEN]
         if flagged:
             print(f"  ! {name}: undecided homograph(s) {flagged}")
-        st = spoken_text(text, SPOKEN)
+        st = spoken_text(text, SPOKEN, speaker)
         if name in PHRASE_SPOKEN:
             st = st.replace(*PHRASE_SPOKEN[name])
         await save_speaker_narration(st, speaker, f"audio/{name}.mp3")

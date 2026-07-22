@@ -103,6 +103,13 @@ SAY_BY_VOICE = {
     # "divvyeth". Winner "divighdeth" round-trips as the exact word "divideth"
     # 2/2 on the full segment. Jesus voice only — never measured on the others.
     "divideth": {"jesus": "divighdeth"},
+    # putteth (2026-07-22, Cameron denial #46 "2:36 is pronounced put - teth"):
+    # Eric reads the plain word with a hard double-T stop -- it lands as two
+    # beats, "put / teth", exactly as he described (isolated round-trip "Potth").
+    # Candidates that lost: "puttith" -> "poodeth" (wrong vowel), "puteth" ->
+    # "Pewders". Winner "putith" renders ONE smooth word (isolated "PUDITH",
+    # in-sentence "puteth"). Jesus voice only -- never measured on the others.
+    "putteth": {"jesus": "putith"},
 }
 
 # ---- 2. PER-SEGMENT ONLY: never auto-replace these --------------------------
