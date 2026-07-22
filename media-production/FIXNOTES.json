@@ -965,6 +965,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-22",
+   "note": "Pronunciation fix that had been silently thrown away is now actually in the video. What went wrong: this video's script never told the pronunciation list WHICH voice was speaking, so every correction that only applies to one voice was worked out and then dropped on the floor \u2014 \"putteth\" was landing as two beats, \"put / teth\". This was true in 175 of the 200 videos, so it has been fixed at the source in all of them, not just this one. Proof: the re-recorded line now contains the corrected spelling and transcribes back as the right word. \u2014 narration re-recorded"
   }
  ],
  "47": [
