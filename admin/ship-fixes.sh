@@ -58,6 +58,16 @@ for line in $(git status --porcelain media-production/ | awk '$2 ~ /^media-produ
   fi
 
   # ---- what changed, in plain English ---------------------------------------
+  # HOLD-FOR-NOTE (2026-07-22): a cut whose FIXNOTE.txt has not been written yet
+  # used to ship with only the auto-generated filename list, and the human note
+  # that arrived seconds later was lost — it happened twice on #10 in one night,
+  # because a session writes the mp4 first and the note last, and cron fires in
+  # between. If the mp4 is newer than 3 minutes and there is no FIXNOTE yet, the
+  # session is still mid-write: leave it for the next run.
+  if [ ! -f "$dir/FIXNOTE.txt" ] && [ -n "$(find "$mp4" -mmin -3 2>/dev/null)" ]; then
+    say "WAIT  #$num ($b): fresh cut, no FIXNOTE yet — holding for the next run"
+    continue
+  fi
   note=""
   [ -f "$dir/FIXNOTE.txt" ] && note=$(head -1 "$dir/FIXNOTE.txt" | tr -d '\n')
   auto=$(git status --porcelain "$dir/" | awk '{print $NF}' | python3 -c "
