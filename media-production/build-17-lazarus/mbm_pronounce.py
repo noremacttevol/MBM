@@ -103,6 +103,26 @@ SAY_BY_VOICE = {
     # "divvyeth". Winner "divighdeth" round-trips as the exact word "divideth"
     # 2/2 on the full segment. Jesus voice only — never measured on the others.
     "divideth": {"jesus": "divighdeth"},
+    # putteth (2026-07-22, Cameron denial #46 "2:36 is pronounced put - teth"):
+    # Eric reads the plain word with a hard double-T stop -- it lands as two
+    # beats, "put / teth", exactly as he described (isolated round-trip "Potth").
+    # Candidates that lost: "puttith" -> "poodeth" (wrong vowel), "puteth" ->
+    # "Pewders". Winner "putith" renders ONE smooth word (isolated "PUDITH",
+    # in-sentence "puteth"). Jesus voice only -- never measured on the others.
+    "putteth": {"jesus": "putith"},
+    # liveth (2026-07-22, Cameron denial #50 "liveth : Livith" -- he spelled the
+    # target himself -- and denial #17 "misspronouncing livest"). Plain word
+    # fails differently per voice: Eric gives "Liveeth" (long ee), Steffan
+    # SPLITS it into "Live Earth". "livith" round-trips as "liveth" in-sentence
+    # in both, and isolated as "Livith"/"liveth". Measured on the real lines
+    # (John 4:50 "thy son liveth", John 11:26 "whosoever liveth"). The woman
+    # voice already carries the same fix as a build override in #149.
+    "liveth": {"jesus": "livith", "scripture": "livith"},
+    # commandeth (2026-07-22, Cameron denial #52 "2:23 cammandeth"): Steffan
+    # reads the plain word as "come in death" / "common death" -- it breaks into
+    # separate words with a death-sound, which is what he flagged. "commandith"
+    # round-trips as the exact word "commandeth", isolated and in-sentence.
+    "commandeth": {"scripture": "commandith"},
 }
 
 # ---- 2. PER-SEGMENT ONLY: never auto-replace these --------------------------
