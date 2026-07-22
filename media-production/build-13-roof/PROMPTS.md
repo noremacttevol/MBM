@@ -1,3 +1,13 @@
+> **FACE-LAW UPDATE (Cameron denial #13, 2026-07-22):** *"This is old and needs to
+> be updated to the version where we can use Jesus' face."* This build was made
+> under the retired face-never law — Jesus was absent from the frame entirely in
+> the forgiveness and Arise beats, and s8 was the back of his head. The three
+> beats where he is the one acting (s6, s8, s9) are regenerated with his FACE
+> SHOWN and on-model, by `regen_jesus.py`. The old shot text below is kept for
+> history; the script is the authority for those three. s9 additionally locks the
+> healed man to `assets/HEALEDMAN-REF.jpeg` — the first re-roll came back with him
+> elderly and grey when he is a young man in his early thirties.
+
 # #13 Through the Roof — Generation prompts (pre-flighted per PREFLIGHT.md)
 
 All stills: Flow Image mode, Nano Banana 2, 9:16, 1x, 0 credits.
@@ -131,7 +141,7 @@ the camera; the scribes' cold stillness cuts against the room's wonder.
 Every figure has exactly two arms and two hands. Warm lamplight and the
 edge of the daylight shaft graze their faces from one side.
 
-## s8 — HE ANSWERED THEIR THOUGHTS (still — over-the-shoulder from directly BEHIND; Face Law: his face is never shown)
+## s8 — HE ANSWERED THEIR THOUGHTS (still — FACE SHOWN, regenerated 2026-07-22)
 
 STYLE Over-the-shoulder framing from directly BEHIND a man in an undyed
 cream wool robe: the camera sits low and behind him, so we see ONLY the back
