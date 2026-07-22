@@ -22,16 +22,19 @@ Cameron's order to have all twelve apostles on file.
   first-century Galilean Judean.
 
 ## Written description
-A practical Galilean of about thirty-two: warm olive-brown skin lightened by
-outdoor work, and — alone among the twelve — SANDY LIGHT-BROWN hair, wavy and
-cut to the nape, with a short trimmed light-brown beard. Level grey-brown eyes
-that habitually measure and weigh. A medium, capable build; the ready, helpful
-bearing of the man everyone asks first.
+A practical Galilean of about thirty-two: warm olive-brown Middle Eastern
+skin, DARK BROWN hair worn SHORTER than any other apostle's — cropped close
+above the ears — over a high forehead with the hairline already stepping back
+at the temples, and a short, neatly kept dark beard. Warm brown eyes that
+habitually measure and weigh. A medium, capable build; the ready, helpful
+bearing of the man everyone asks first. He is told apart by the short hair and
+high forehead, never by colouring: like every apostle he is a first-century
+Jew — never fair-haired, never blue-eyed, never European.
 
 ## Standard garments
 A SAND-TAN coarse wool tunic (a warm pale wheat colour — the lightest tunic of
 the twelve, but never cream and never off-white, which belong to the Lord
-alone), a plain brown leather belt, a darker earth-brown mantle when a cloak is
+alone; it is his TUNIC that is light, never his hair or his skin), a plain brown leather belt, a darker earth-brown mantle when a cloak is
 needed, worn leather sandals.
 
 ## Generation prompts (Nano Banana 2 · 9:16 · 1x, flow_driver.py)
@@ -45,26 +48,28 @@ linen in undyed earth colors. No modern objects.
 
 ### face-front (no ref — this creates the identity)
 [STYLE BLOCK] A reverent close bust portrait, facing the viewer directly:
-Philip the apostle, a practical Galilean man of about thirty-two, warm
-olive-brown skin, SANDY LIGHT-BROWN wavy hair cut to the nape, a short trimmed
-light-brown beard, level grey-brown eyes with a measuring, thoughtful look. He
-wears a sand-tan coarse wool tunic with a plain brown leather belt. Warm even
+Philip the apostle, a practical Galilean Jewish man of about thirty-two, warm
+olive-brown Middle Eastern skin, DARK BROWN hair cropped short above the ears
+over a high forehead with the hairline stepping back at the temples, a short
+neatly kept dark beard, warm BROWN eyes with a measuring thoughtful look. Never
+blond, never fair-haired, never blue-eyed, never European. He wears a sand-tan
+coarse wool tunic with a plain brown leather belt. Warm even
 light on his face, plain soft warm-brown background. One single continuous
 scene painted edge to edge, no panels.
 
 ### three-quarter (attach face-front.jpeg as --ref)
 [STYLE BLOCK] The SAME man as the attached reference image — identical face,
-sandy light-brown hair and light beard: a reverent three-quarter bust portrait
-of Philip the apostle, about thirty-two, warm olive-brown skin, sand-tan wool
-tunic, turned three-quarters toward warm light, earnest and attentive. Plain
+short dark hair, high forehead and short dark beard: a reverent three-quarter
+bust portrait of Philip the apostle, about thirty-two, warm olive-brown Middle
+Eastern skin and warm brown eyes, sand-tan wool tunic, turned three-quarters toward warm light, earnest and attentive. Plain
 muted earth-tone background. One single continuous scene painted edge to edge,
 no panels.
 
 ### full-body (attach face-front.jpeg as --ref)
 [STYLE BLOCK] The SAME man as the attached reference image — identical face,
-sandy light-brown hair and light beard: a full-length standing figure, head to
-feet fully in frame: Philip the apostle, a capable Galilean of about
-thirty-two, standing easily with his hands open at his sides, wearing a
+short dark hair, high forehead and short dark beard: a full-length standing
+figure, head to feet fully in frame: Philip the apostle, a capable Galilean
+Jewish man of about thirty-two with warm olive-brown Middle Eastern skin, standing easily with his hands open at his sides, wearing a
 knee-to-ankle sand-tan coarse wool tunic with a plain brown leather belt, a
 darker earth-brown mantle over one shoulder, worn leather sandals. Plain muted
 earth-tone background, gentle ground shadow. Every figure has two arms, two

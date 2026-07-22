@@ -24,11 +24,13 @@ sheet: in any prompt write him as "Thaddaeus," never as bare "Judas."
 
 ## Written description
 One of the youngest of the twelve, about twenty-eight: warm olive-brown Middle
-Eastern skin, thick CHESTNUT-BROWN curly hair (a warm reddish-brown, distinct
-from the black and dark-brown heads around him), and a soft short chestnut
-beard that has not fully filled in. Wide, warm brown eyes and an open,
-wondering, good-natured face — the face of a man in the middle of asking a
-sincere question. A slight, wiry build.
+Eastern skin, thick CURLY hair of warm dark chestnut-brown — a brown with a
+chestnut cast in the light, never red, never fair, never blond — and a soft
+short beard of the same colour that has not fully filled in. Wide, warm BROWN
+eyes (never blue) and an open, wondering, good-natured face — the face of a man
+in the middle of asking a sincere question. A slight, wiry build. He is a
+first-century Galilean Jew, never European; his curls and his youth tell him
+apart, not his colouring.
 
 ## Standard garments
 A WARM MUSTARD-GOLD wool tunic — a soft honey-gold, clearly yellower than
@@ -48,9 +50,10 @@ linen in undyed earth colors. No modern objects.
 ### face-front (no ref — this creates the identity)
 [STYLE BLOCK] A reverent close bust portrait, facing the viewer directly:
 Thaddaeus the apostle, a young Middle Eastern Jewish man of about twenty-eight,
-warm olive-brown skin, thick CHESTNUT-BROWN curly hair, a soft short chestnut
-beard not yet fully filled in, wide warm brown eyes, an open wondering
-good-natured face. He wears a warm mustard-gold wool tunic with a rust-red
+warm olive-brown Middle Eastern skin, thick curly hair of warm dark
+chestnut-BROWN (never red, never fair, never blond), a soft short beard of the
+same colour not yet fully filled in, wide warm BROWN eyes (never blue), an open
+wondering good-natured face. He wears a warm mustard-gold wool tunic with a rust-red
 woven sash. Warm even light on his face, plain soft warm-brown background. One
 single continuous scene painted edge to edge, no panels.
 
