@@ -68,7 +68,7 @@ SPOKEN = {}
 
 
 SPOKEN.update({'watched': 'wotched'})  # round2 in-context A/B winners 2026-07-20 (SWEEP/round2-state.json)
-SPOKEN.update({'liveth': 'livveth'})  # Cameron complaint #149 "liveth pronounced wrong": whisper writes "liveeth" for every variant so it cannot rank them; 'livveth' is orthographically locked to LIV-eth (short i) and round-trips as clean as plain (A/B 2026-07-21)
+SPOKEN.update({'liveth': 'livith'})  # Cameron complaint #149 TWICE: he rejected the 'livveth' cut on 2026-07-21 evening (shipped 04:30, complaint 18:29 — he heard it). Second A/B: 'livith' renders 0.1s crisper, isolated round-trip 'LIVETH', no double-v syllable seam. If this one is denied too, audition the whole line by ear, not by whisper.
 
 async def main():
     os.makedirs("audio", exist_ok=True)

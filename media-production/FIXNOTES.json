@@ -457,6 +457,10 @@
   {
    "date": "2026-07-21",
    "note": "Audio was too quiet (-19.2 LUFS instead of the -15 standard) after the narration re-record. Raised it to -14.5 so it matches every other video. Nothing else changed."
+  },
+  {
+   "date": "2026-07-21",
+   "note": "\"liveth\" (2:26, Hannah's KJV vow) re-recorded a SECOND time: proof-before \u2014 you denied the previous fix after hearing it (the double-v respelling left a syllable seam); fix \u2014 new spoken form \"livith\", the crisper A/B winner in her voice, caption unchanged; proof-after \u2014 the word isolated from this cut transcribes \"liveth\" and matches the short-i LIV reference, not the long-i one, and loudness stays at the -15 standard (-14.7). \u2014 narration re-recorded; build script updated"
   }
  ],
  "177": [
@@ -1247,6 +1251,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-21",
+   "note": "VERIFIED already fixed, no rebuild: 'He that abideth in me' at 0:56 isolated from the current cut whisper-transcribes as 'abideth' \u2014 the measured global respelling (the one that fixed your #3 complaint) is in this mix; the old 'abbey death' split is gone. The Abide/abide lines at 0:10-0:21 also read clean."
   }
  ],
  "155": [
