@@ -86,7 +86,16 @@ SEGMENTS = [
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
-SPOKEN = {}
+SPOKEN = {
+    # Cameron denial #33 (2026-07-22): "Divideth is pronounced wrong". Measured
+    # A/B in the jesus voice (EricNeural -22%), 3 rounds: the plain KJV word
+    # renders "divoteth" EVERY time -- the stem collapses to "divot". Rejected
+    # alternatives: "dividdeth" (also divoteth), "divydeth" ("divey death",
+    # splits -- Trap 2), "divyedith" ("divvieteth"), "divide eth" (splits).
+    # "divyedeth" is the only candidate that keeps the di-VIDE stem, round-
+    # tripping as "divideeth"/"dividedeth". Caption keeps KJV "divideth".
+    "divideth": "divyedeth",
+}
 
 
 async def main():

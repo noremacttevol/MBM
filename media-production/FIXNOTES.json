@@ -153,6 +153,10 @@
   {
    "date": "2026-07-22",
    "note": "Fixed \"live\" at the end. It was being said like the adjective (rhyming with hive); it now says LIV, the verb that rhymes with give \u2014 in \"they that hear shall live\", \"to hear him is to live\", and the closing line. \u2014 narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-22",
+   "note": "VERIFIED already fixed, no rebuild: all three 'live' words (0:29, 1:03, 1:11) were measured against controlled samples of this same voice saying 'live' the short way and the long way \u2014 all three match the SHORT verb sound (rhymes with give), not the long one (rhymes with hive). The spelling fix is in the build and it worked."
   }
  ],
  "18": [
@@ -761,6 +765,10 @@
   {
    "date": "2026-07-22",
    "note": "Fixed the word \"tear\" at 2:11. It was being said like a crying tear; it now says TAIR, the ripping kind, in \"you will tear up the good plants\". Same fix on \"tearing\" earlier in the video. \u2014 narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-22",
+   "note": "VERIFIED already fixed, no rebuild: the word at 2:10 was tested acoustically against reference words in the same voice \u2014 it matches the RIP sound (rhymes with bear), not the crying sound (rhymes with beer). The other one at 1:47 ('tearing through the field') matches the rip sound too. Both are the break-tear you asked for."
   }
  ],
  "27": [
@@ -831,6 +839,10 @@
   {
    "date": "2026-07-22",
    "note": "Fixed \"divideth\" \u2014 the voice was saying \"divadeth\". It now says di-VIDE-eth. Also caught and fixed \"an hungred\", which was coming out as two words, \"hung red\"; it now reads as one word, \"an hungered\". \u2014 narration re-recorded"
+  },
+  {
+   "date": "2026-07-22",
+   "note": "\"divideth\" fixed at 0:21. Proof before: I re-rendered the plain King James word in this voice three separate times and it came out \"divoteth\" every single time \u2014 the middle of the word collapsed into \"divot\", which is what you were hearing. Fix: the voice is now fed the spelling \"divyedeth\", the only one of six candidates I tested that keeps the \"divide\" sound (the others gave \"divey death\", \"divvieteth\", or split the word in two). The words on screen still read the true King James \"divideth\". Proof after: the rebuilt line transcribes back as \"devideth\" \u2014 divide plus eth. \u2014 narration re-recorded; build script updated"
   }
  ],
  "35": [
