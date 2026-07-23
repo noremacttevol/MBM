@@ -90,7 +90,12 @@ SEGMENTS = [
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
-SPOKEN = {}
+SPOKEN = {
+    # "Siloam" (j2, n4, n5) — plain spelling was read as "saloon". "sih low um"
+    # round-trips clean to "Siloam" (sih-LOH-um). A/B measured 2026-07-22
+    # (complaint #63). Caption keeps the true KJV "Siloam".
+    "Siloam": "sih low um",
+}
 
 
 async def main():

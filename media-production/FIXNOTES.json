@@ -1143,6 +1143,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-22",
+   "note": "Fixed \"Siloam\" \u2014 it was being read as \"saloon.\" Now says sih-LOH-am correctly in all three spots (the command and both narration lines). Verified in the rebuilt audio. Caption still shows the true KJV \"Siloam.\" \u2014 narration re-recorded; build script updated"
   }
  ],
  "64": [
