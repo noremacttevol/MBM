@@ -851,6 +851,10 @@
   {
    "date": "2026-07-22",
    "note": "Checked again, all four scripture lines, no rebuild needed: 'Else what shall they do\u2026' (0:12), 'why are they then baptized for the dead?' (0:17), 'But now is Christ risen\u2026' (0:47) and 'For as in Adam all die\u2026' (1:07) are ALL light blue on screen \u2014 frames pulled from the current cut and looked at one by one. Nothing white is scripture in this video. If the blue is not the blue you want, say so and I will change the colour itself."
+  },
+  {
+   "date": "2026-07-22",
+   "note": "Fixed the scripture caption color. The 1 Corinthians 15:29 verse was rendering in white/cream; the cut on the board was built before the color-by-speaker rule landed. Rebuilt so the scripture line now shows in light blue (confirmed on the actual frame). Narrator stays white, only Jesus is red. \u2014 narration re-recorded"
   }
  ],
  "29": [
