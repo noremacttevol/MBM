@@ -50,7 +50,7 @@ from mbm_speakers import JESUS, NARRATOR
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n1", NARRATOR, "Jesus told one more short story, only two lines long. The kingdom of heaven, he said, is like a merchant."),
+    ("n1", NARRATOR, "Jesus told one more short story, only two lines long."),
     # Matthew 13:45
     ("j1", JESUS, "Again, the kingdom of heaven is like unto a merchant man, seeking goodly pearls:"),
     ("n2", NARRATOR, "This was a man who knew pearls. He spent his whole life traveling and searching, handling the finest pearls in the world, always hunting for something better."),

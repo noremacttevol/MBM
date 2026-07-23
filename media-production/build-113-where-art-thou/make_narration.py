@@ -51,7 +51,7 @@ SEGMENTS = [
     ("n5", NARRATOR, "Where are you. Not, what have you done. Not, how dare you. Where are you — the cry of a Father looking for a child who is hiding. He knew exactly where they were. He asked so they would come out. And, trembling, the man answered."),
     # Genesis 3:10
     ("s10", SCRIPTURE, "I heard thy voice in the garden, and I was afraid, because I was naked; and I hid myself."),
-    ("n5b", NARRATOR, "I heard you, and I was afraid, and I hid. That is the whole of it. Not defiance — fear. Shame has never once made a person run toward God. It makes them run behind a tree."),
+    ("n5b", NARRATOR, "That is the whole of it. Not defiance — fear. Shame has never once made a person run toward God. It makes them run behind a tree."),
     # Genesis 3:13
     ("jv13", GOD, "What is this that thou hast done?"),
     # Genesis 3:13

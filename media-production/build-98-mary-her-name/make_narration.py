@@ -60,7 +60,7 @@ SEGMENTS = [
     ("n0", NARRATOR, "Mary Magdalene stayed behind at the tomb, weeping. When she was asked why she was crying, all she had was one answer."),
     # John 20:13
     ("w13", WOMAN, "They have taken away my Lord, and I know not where they have laid him."),
-    ("n0b", NARRATOR, "They have taken away my Lord, she said, and I don't know where they've put him. She had lost him once already. Now it felt like she had lost even the place where he lay."),
+    ("n0b", NARRATOR, "She had lost him once already. Now it felt like she had lost even the place where he lay."),
     ("n1a", NARRATOR, "She turned and saw a man standing there."),
     # John 20:15
     ("jv15", JESUS, "Woman, why weepest thou? whom seekest thou?"),

@@ -64,7 +64,7 @@ SEGMENTS = [
     ("n6", NARRATOR, "The father does not argue about it. He does not defend himself. He just says it again, plain and breaking."),
     # John 4:49
     ("s49", SCRIPTURE, "Sir, come down ere my child die."),
-    ("n6b", NARRATOR, "Sir, come down before my child dies. That is the whole prayer. No argument, no explaining himself, nothing clever. Just a father running out of hours."),
+    ("n6b", NARRATOR, "That is the whole prayer. No argument, no explaining himself, nothing clever. Just a father running out of hours."),
     # John 4:50
     ("jv50", JESUS, "Go thy way; thy son liveth."),
     ("n7", NARRATOR, "No trip to Capernaum. No hand laid on the boy. Just a word, spoken over a sick child a day's journey away. And the man believed him, turned, and started home."),
@@ -76,7 +76,7 @@ SEGMENTS = [
     ("n10", NARRATOR, "So he asked them exactly when the boy had started to mend."),
     # John 4:52
     ("s52", SCRIPTURE, "Yesterday at the seventh hour the fever left him."),
-    ("n10b", NARRATOR, "Yesterday, at the seventh hour, they told him. And he knew that hour. It was the exact hour Jesus had stood in front of him and said, thy son liveth. It had already been done while he was still walking."),
+    ("n10b", NARRATOR, "And he knew that hour. It was the exact hour Jesus had stood in front of him and said, thy son liveth. It had already been done while he was still walking."),
     ("n11", NARRATOR, "And that settled it. The man believed, and his whole household believed with him. The word had been true the entire way home, working quietly while he walked and could not see it."),
     ("card", NARRATOR, "He healed a boy he never touched, with a word that was already true before anyone could prove it. If his word can carry a whole day's journey, how far do you think it can reach? What would you trust him with tonight?"),
 ]

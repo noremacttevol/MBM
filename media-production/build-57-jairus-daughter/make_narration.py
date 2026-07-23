@@ -59,7 +59,7 @@ SEGMENTS = [
     ("n3", NARRATOR, "But before they arrived, messengers came from the house with the worst news a father can hear."),
     # Mark 5:35
     ("s35", SCRIPTURE, "Thy daughter is dead: why troublest thou the Master any further?"),
-    ("n3b", NARRATOR, "Your daughter is dead, they said. Why bother the Teacher any further? And Jairus' heart broke in the middle of the road. But Jesus heard it too, and he spoke before the father could say anything at all."),
+    ("n3b", NARRATOR, "Why bother the Teacher any further? And Jairus' heart broke in the middle of the road. But Jesus heard it too, and he spoke before the father could say anything at all."),
     # Mark 5:36
     ("jv36", JESUS, "Be not afraid, only believe."),
     ("n3c", NARRATOR, "Don't be afraid. Just keep believing. The worst thing had already happened, and Jesus told him to keep believing anyway — not that it would be undone, but that he should not stop trusting him now."),

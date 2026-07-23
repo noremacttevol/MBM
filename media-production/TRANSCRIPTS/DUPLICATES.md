@@ -2,4 +2,10 @@
 
 Each row below has more than one `build-<row>-*` folder. The canonical one (shipped mp4 > modern speaker format > most segments) was exported; the others are stale or archived-in-place (2026-07-20 audit) and were NOT exported. Do not delete archived builds; this is the list to verify against the QUEUE.
 
-_None — every row resolved to a single folder._
+| Row | Not exported (stale/archived) | Canonical (exported) |
+|---|---|---|
+| 65 | build-65-help-thou-mine-unbelief | build-65-help-mine-unbelief |
+| 67 | build-67-transfiguration | build-67-the-transfiguration |
+| 71 | build-71-calling-the-fishermen | build-71-the-great-commission |
+| 137 | build-137-stephen-sees-him-standing | build-137-one-as-we-are-one |
+| 140 | build-140-road-runs-both-ways | build-140-naaman-washes |

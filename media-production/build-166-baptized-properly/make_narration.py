@@ -45,7 +45,7 @@ SEGMENTS = [
     ("n1", NARRATOR, "Paul came through the inland country and arrived at Ephesus, where he found a small group of disciples. They were sincere. They already believed. By every outward sign they looked like people who were fully in."),
     # Acts 19:2
     ("s2", SCRIPTURE, "He said unto them, Have ye received the Holy Ghost since ye believed? And they said unto him, We have not so much as heard whether there be any Holy Ghost."),
-    ("n2", NARRATOR, "But Paul asked them a searching question: had they received the Holy Ghost since they believed? And their answer was startling. They had not so much as heard that there was a Holy Ghost to receive."),
+    ("n2", NARRATOR, "But Paul asked them a searching question: And their answer was startling."),
     # Acts 19:4
     ("s4", SCRIPTURE, "Then said Paul, John verily baptized with the baptism of repentance, saying unto the people, that they should believe on him which should come after him, that is, on Christ Jesus."),
     ("n3", NARRATOR, "So Paul asked what baptism they had been given. They had known only the baptism of John — a real and honest baptism of repentance, but a preparation, meant to point people forward to the one who was still to come."),

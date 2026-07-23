@@ -59,7 +59,7 @@ SEGMENTS = [
     ("n5", NARRATOR, "A boy was born, and she named him Samuel — because I asked God for him. Every time anyone said that child's name, they were saying it again: I asked, and He heard."),
     # 1 Samuel 1:28
     ("w4", WOMAN, "Therefore also I have lent him to the LORD; as long as he liveth he shall be lent to the LORD."),
-    ("n6", NARRATOR, "She kept her word. I have lent him to the Lord, she said — for as long as he lives. When he was weaned, she brought him to the house of the LORD and left him there to serve."),
+    ("n6", NARRATOR, "She kept her word. When he was weaned, she brought him to the house of the LORD and left him there to serve."),
     ("card", NARRATOR, "Hannah prayed the prayer no one else could hear, and God answered. Your quiet prayers are heard too."),
 ]
 

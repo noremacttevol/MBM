@@ -53,7 +53,7 @@ SEGMENTS = [
     ("n2", NARRATOR, "Then he turned his head toward Jesus and asked for the smallest thing he could think of."),
     # Luke 23:42
     ("s42", SCRIPTURE, "Lord, remember me when thou comest into thy kingdom."),
-    ("n3", NARRATOR, "Lord, remember me when you come into your kingdom. No good deeds to offer. No time left to fix his life. Just a dying man asking."),
+    ("n3", NARRATOR, "No good deeds to offer. No time left to fix his life. Just a dying man asking."),
     # Luke 23:43
     ("j1", JESUS, "Verily I say unto thee, To day shalt thou be with me in paradise."),
     ("n4", NARRATOR, "Today. Not someday, not after you've earned it. Today. The last-minute faith of a criminal was enough."),

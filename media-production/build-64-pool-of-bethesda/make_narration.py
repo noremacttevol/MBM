@@ -58,7 +58,7 @@ SEGMENTS = [
     ("n3", NARRATOR, "Do you want to be made well? After thirty-eight years, that is a real question. Healing would mean a new name, new work, a whole new life — and no more excuse. And notice: the man does not answer yes. He does not answer at all. He answers with the obstacle:"),
     # John 5:7
     ("s7", SCRIPTURE, "Sir, I have no man, when the water is troubled, to put me into the pool: but while I am coming, another steppeth down before me."),
-    ("n3b", NARRATOR, "Sir, I have nobody to put me in the water when it stirs, he said. While I'm dragging myself toward it, somebody else always gets down there first. He was explaining the system. Jesus had not asked him about the system."),
+    ("n3b", NARRATOR, "While I'm dragging myself toward it, somebody else always gets down there first. He was explaining the system. Jesus had not asked him about the system."),
     # John 5:8
     ("j2", JESUS, "Rise, take up thy bed, and walk."),
     ("n4", NARRATOR, "Get up. Pick up your mat. Walk. No angel. No water. No race. The pool had nothing to do with it. And immediately the man was made whole — thirty-eight years of atrophy gone between one breath and the next. Legs that had forgotten what weight felt like took his weight. He stood up, rolled up the mat that had been his whole world, and walked."),

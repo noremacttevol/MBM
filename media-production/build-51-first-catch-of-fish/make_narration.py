@@ -58,13 +58,13 @@ SEGMENTS = [
     ("n3", NARRATOR, "Simon was bone-tired. They had worked that water all night and come back with nothing, and every instinct a fisherman has told him this was pointless. But something about this man made him answer the way he did."),
     # Luke 5:5
     ("s5", SCRIPTURE, "Master, we have toiled all the night, and have taken nothing: nevertheless at thy word I will let down the net."),
-    ("n3b", NARRATOR, "Master, we worked that lake all night and caught nothing. But because you say so, I will put the net down again. Hear the word in the middle of that sentence. Nevertheless. He had every reason to say no, and he did it anyway."),
+    ("n3b", NARRATOR, "Master, we worked that lake all night and caught nothing. But because you say so, I will put the net down again. Hear the word in the middle of that sentence. He had every reason to say no, and he did it anyway."),
     ("n4", NARRATOR, "The moment the nets went down, they filled. A great shining mass of fish, far more than the ropes were made to hold, and the net began to tear under the sheer weight of it."),
     ("n5", NARRATOR, "There were too many for one boat. They waved to their partners, James and John, in the other boat to come and help, and both boats were loaded until they sat low in the water and began to sink."),
     ("n6", NARRATOR, "When Simon saw it, he fell down at Jesus' knees. He did not feel worthy of any of it, and what came out of him was not thank you."),
     # Luke 5:8
     ("s8", SCRIPTURE, "Depart from me; for I am a sinful man, O Lord."),
-    ("n6b", NARRATOR, "Go away from me, Lord. I am a sinful man. On the best morning of his working life, kneeling in fish, the first thing he wanted was distance. The wonder of it had shown him exactly who he was, and exactly who this was."),
+    ("n6b", NARRATOR, "Go away from me, Lord. On the best morning of his working life, kneeling in fish, the first thing he wanted was distance. The wonder of it had shown him exactly who he was, and exactly who this was."),
     # Luke 5:10
     ("jv10", JESUS, "Fear not; from henceforth thou shalt catch men."),
     ("n7", NARRATOR, "He does not send Simon away. He calls him. The trembling fisherman who begged him to leave is the very man he wants, and from this day on he will be gathering people, not fish."),

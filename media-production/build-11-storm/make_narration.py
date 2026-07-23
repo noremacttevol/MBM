@@ -81,7 +81,7 @@ SEGMENTS = [
     ("n9", NARRATOR, "And then a strange thing happened: the fear didn't leave the boat — it changed direction. Mark says they feared exceedingly — more awe after the calm than in the storm — and they asked each other:"),
     # Mark 4:41
     ("s41", SCRIPTURE, "What manner of man is this, that even the wind and the sea obey him?"),
-    ("n9b", NARRATOR, "What kind of man is this, that even the wind and the sea do what he says? These men knew their scriptures. They knew the old psalm that says it is God who stills the storm to a whisper. And now they were staring at a man in dripping clothes who had just done it."),
+    ("n9b", NARRATOR, "These men knew their scriptures. They knew the old psalm that says it is God who stills the storm to a whisper. And now they were staring at a man in dripping clothes who had just done it."),
     ("n10", NARRATOR, "Whatever storm you are in tonight, hear this: the same Jesus is still in the boat with you. He has not left you alone in it. Bring him your fear, and let him speak his peace over your storm."),
 ]
 

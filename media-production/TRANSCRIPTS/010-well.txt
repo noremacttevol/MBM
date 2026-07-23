@@ -20,7 +20,7 @@
 
 [woman] Sir, I perceive that thou art a prophet.
 
-[narrator] She called him a prophet. She asked him her people's oldest question — which mountain is the right one to worship on — and he told her the day was coming when the question itself would be old news: God is spirit, and what he wants is the heart. Then she said, almost to herself: I know the Messiah is coming. When he comes, he'll explain everything. And the tired traveler at the well said:
+[narrator] She called him a prophet. She asked him her people's oldest question — which mountain is the right one to worship on — and he told her the day was coming when the question itself would be old news: God is spirit, and what he wants is the heart. Then she said, almost to herself: When he comes, he'll explain everything. And the tired traveler at the well said:
 
 [woman] I know that Messiah cometh, which is called Christ: when he is come, he will tell us all things.
 
@@ -30,7 +30,7 @@
 
 [narrator] And look what she did. She left the jar. The thing she walked all that way in the heat to fill — she left it standing at the well, and she ran.
 
-[narrator] Ran toward the town she had spent years avoiding, to the very people she came out at noon to miss, shouting: come see a man who told me everything I ever did.
+[narrator] Ran toward the town she had spent years avoiding, to the very people she came out at noon to miss, shouting:
 
 [woman] Come, see a man, which told me all things that ever I did: is not this the Christ?
 

@@ -66,7 +66,7 @@ SEGMENTS = [
     ("n10", NARRATOR, "When breakfast was over, Jesus turned to Peter. Three times, once it seems for each denial, he asked him the same question, using Peter's old name, the name he had before any of it:"),
     # John 21:16
     ("j1", JESUS, "Simon, son of Jonas, lovest thou me?"),
-    ("n11", NARRATOR, "Simon, son of Jonas, do you love me. Not, how could you. Not, prove it. Not one word thrown back at him about the denial. Only: do you love me."),
+    ("n11", NARRATOR, "Not, how could you. Not, prove it. Not one word thrown back at him about the denial. Only: do you love me."),
     # John 21:16
     ("s16", SCRIPTURE, "Yea, Lord; thou knowest that I love thee."),
     ("n12", NARRATOR, "Three times Peter answered him, yes, Lord, you know that I love you. Each time it cost him more, and each time he meant it more."),

@@ -72,13 +72,13 @@ SEGMENTS = [
     ("jv9a", JESUS, "After this manner therefore pray ye:"),
     # Matthew 6:9-10
     ("jv9", JESUS, "Our Father which art in heaven, Hallowed be thy name. Thy kingdom come. Thy will be done in earth, as it is in heaven."),
-    ("n2", NARRATOR, "Father. Not a distant judge. Not a force. A Father you belong to. And the very first thing you long for, once you know him, is not for yourself at all — that his name be honoured, and his good kingdom come, everywhere."),
+    ("n2", NARRATOR, "Not a distant judge. Not a force. A Father you belong to. And the very first thing you long for, once you know him, is not for yourself at all — that his name be honoured, and his good kingdom come, everywhere."),
     # Matthew 6:11-12
     ("jv11", JESUS, "Give us this day our daily bread. And forgive us our debts, as we forgive our debtors."),
     ("n3", NARRATOR, "Then the plain, honest things. Bread — it is fine to ask for the ordinary needs of the day. And forgiveness — asked for, and passed on. We receive mercy with the same hands we use to give it away."),
     # Matthew 6:13
     ("jv13", JESUS, "And lead us not into temptation, but deliver us from evil: For thine is the kingdom, and the power, and the glory, for ever. Amen."),
-    ("n4", NARRATOR, "Keep me safe. Lead me away from what would harm me. And it ends where it began — with him: the kingdom, the power, the glory, all his, for ever. Short. Honest. Nothing showy."),
+    ("n4", NARRATOR, "Keep me safe. Lead me away from what would harm me. And it ends where it began — with him: Short. Honest. Nothing showy."),
     # Matthew 6:7
     ("jv7", JESUS, "But when ye pray, use not vain repetitions, as the heathen do: for they think that they shall be heard for their much speaking."),
     ("n5", NARRATOR, "That was his warning, just before this: prayer is not a performance. Not many clever words, not standing on a corner to be admired. The prayer God loves most may be the simplest one a child ever whispered."),

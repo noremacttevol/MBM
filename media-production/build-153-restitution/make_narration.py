@@ -35,7 +35,7 @@ SEGMENTS = [
     ("n1", NARRATOR, "After a lame man was healed at the temple gate, a crowd came running, amazed. And Peter, a fisherman turned preacher, stood up among them to explain what they had really just seen."),
     # Acts 3:6
     ("s6", SCRIPTURE, "Silver and gold have I none; but such as I have give I thee: In the name of Jesus Christ of Nazareth rise up and walk."),
-    ("n1b", NARRATOR, "I have no money, Peter told him. But what I do have, I give you. And in the name of Jesus Christ of Nazareth, he told a man who had never walked to stand up. He had nothing in his pockets, and he gave away the only thing he had that was worth anything."),
+    ("n1b", NARRATOR, "I have no money, Peter told him. And in the name of Jesus Christ of Nazareth, he told a man who had never walked to stand up. He had nothing in his pockets, and he gave away the only thing he had that was worth anything."),
     ("n2", NARRATOR, "His message was not complicated. Turn back to God, he said. Change your direction, let your wrongs be wiped away, and something good will follow — not someday far off, but seasons of relief, sent from God himself."),
     ("n3", NARRATOR, "Picture that word: refreshing. Like cool rain on cracked ground, like a deep breath after a long, hard road. That is what God longs to pour out on people who simply turn back toward him."),
     # Acts 3:19

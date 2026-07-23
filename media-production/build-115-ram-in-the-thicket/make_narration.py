@@ -50,7 +50,7 @@ SEGMENTS = [
     ("s7", SCRIPTURE, "Behold the fire and the wood: but where is the lamb for a burnt offering?"),
     # Genesis 22:8
     ("s8", SCRIPTURE, "My son, God will provide himself a lamb for a burnt offering."),
-    ("n4", NARRATOR, "Father, the boy said — we've got the fire and we've got the wood, but where's the lamb? And Abraham answered with the line that turns out to be the whole point of the story: my son, God will provide the lamb himself."),
+    ("n4", NARRATOR, "Father, the boy said — we've got the fire and we've got the wood, but where's the lamb? And Abraham answered with the line that turns out to be the whole point of the story:"),
     ("n5", NARRATOR, "God will provide. Abraham did not fully understand how. He only trusted that the God he loved would not, in the end, ask him to lose his son. And at the very last moment, at the edge of everything, heaven broke open."),
     # Genesis 22:11
     ("jv11", GOD, "Abraham, Abraham."),

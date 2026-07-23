@@ -58,7 +58,7 @@ SEGMENTS = [
     ("s1", SCRIPTURE, "Who shall ascend into the hill of the LORD? or who shall stand in his holy place?"),
     # Psalm 24:4
     ("s2", SCRIPTURE, "He that hath clean hands, and a pure heart; who hath not lifted up his soul unto vanity, nor sworn deceitfully."),
-    ("n1", NARRATOR, "The answer was not about bloodline or rank. It was about clean hands and a pure heart — someone who has not lifted their soul to what is false."),
+    ("n1", NARRATOR, "The answer was not about bloodline or rank."),
     # Psalm 24:7
     ("s4", SCRIPTURE, "Lift up your heads, O ye gates; and be ye lift up, ye everlasting doors; and the King of glory shall come in."),
     ("n3a", NARRATOR, "Then the call goes out to the gates themselves — lift up your heads, you ancient doors,"),

@@ -52,11 +52,11 @@ SEGMENTS = [
     ("n4a", NARRATOR, "Here I am — you called me. A boy standing in the doorway in the middle of the night, ready to work. But the old man had not called him."),
     # 1 Samuel 3:5
     ("s5b", SCRIPTURE, "I called not; lie down again."),
-    ("n4", NARRATOR, "But Eli said, I did not call you. Go back and lie down. So he did. And the voice came again — Samuel — and again he ran to the old man, and again Eli sent him back. It happened a third time."),
+    ("n4", NARRATOR, "But Eli said, I did not call you. So he did. And the voice came again — Samuel — and again he ran to the old man, and again Eli sent him back. It happened a third time."),
     ("n5", NARRATOR, "Then Eli understood. This was no dream, and it was not his voice. It was God himself, calling the child. So the old priest gently taught the boy what to do."),
     # 1 Samuel 3:9
     ("s9", SCRIPTURE, "Go, lie down: and it shall be, if he call thee, that thou shalt say, Speak, LORD; for thy servant heareth."),
-    ("n6", NARRATOR, "Do not run to me, Eli told him. Go lie back down. And if the voice comes again, answer it yourself — say, speak, Lord, your servant is listening. So Samuel went and lay down in his place, and waited in the dark."),
+    ("n6", NARRATOR, "Do not run to me, Eli told him. And if the voice comes again, answer it yourself — say, speak, Lord, your servant is listening. So Samuel went and lay down in his place, and waited in the dark."),
     # 1 Samuel 3:10
     ("jv10", GOD, "Samuel, Samuel."),
     # 1 Samuel 3:10

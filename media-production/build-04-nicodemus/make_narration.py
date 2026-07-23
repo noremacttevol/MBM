@@ -63,7 +63,7 @@ SEGMENTS = [
     ("n4", NARRATOR, "Nicodemus took it literally."),
     # John 3:4
     ("s4", SCRIPTURE, "How can a man be born when he is old? can he enter the second time into his mother's womb, and be born?"),
-    ("n4b", NARRATOR, "How can a man be born when he is old, he asked — can he go back a second time and start over? Here was a master of the scriptures, completely lost. And Jesus didn't laugh at him. He didn't shame him for not getting it. He reached for something Nicodemus could feel — the night wind moving outside the window."),
+    ("n4b", NARRATOR, "Here was a master of the scriptures, completely lost. And Jesus didn't laugh at him. He didn't shame him for not getting it. He reached for something Nicodemus could feel — the night wind moving outside the window."),
     # John 3:8
     ("j2", JESUS, "The wind bloweth where it listeth, and thou hearest the sound thereof, but canst not tell whence it cometh, and whither it goeth: so is every one that is born of the Spirit."),
     ("n5", NARRATOR, "You can't see the wind. You only see what it moves — the trees bending, the flame leaning. That, Jesus said, is how God changes a person. You may not be able to explain it. But you can watch a life bend."),

@@ -58,7 +58,7 @@ SEGMENTS = [
     ("n2", NARRATOR, "And when that man saw Jesus step out of the boat, far down the shore, he ran. Not to attack him. He ran and fell down at his feet. And the thing inside him cried out:"),
     # Mark 5:7
     ("s7", SCRIPTURE, "What have I to do with thee, Jesus, thou Son of the most high God? I adjure thee by God, that thou torment me not."),
-    ("n2b", NARRATOR, "What do you want with me, Jesus, Son of the most high God? Swear to me you won't torture me. Hear what just happened. The man's own town had given up on him and did not know who Jesus was. The darkness holding him knew exactly who had just stepped onto that beach, and knew it was finished."),
+    ("n2b", NARRATOR, "Swear to me you won't torture me. Hear what just happened. The man's own town had given up on him and did not know who Jesus was. The darkness holding him knew exactly who had just stepped onto that beach, and knew it was finished."),
     ("n3", NARRATOR, "Jesus did not step back. He was not afraid of him. He spoke straight past the man, to the thing that held him."),
     # Mark 5:8
     ("j1", JESUS, "Come out of the man, thou unclean spirit."),
@@ -67,7 +67,7 @@ SEGMENTS = [
     ("j2", JESUS, "What is thy name?"),
     # Mark 5:9
     ("s9", SCRIPTURE, "My name is Legion: for we are many."),
-    ("n5", NARRATOR, "My name is Legion, it said, for we are many. Legion was a Roman army word — thousands of soldiers. That is how outnumbered this one man was on the inside. And standing in front of Jesus, the thousands were the ones begging."),
+    ("n5", NARRATOR, "Legion was a Roman army word — thousands of soldiers. That is how outnumbered this one man was on the inside. And standing in front of Jesus, the thousands were the ones begging."),
     ("n6", NARRATOR, "On the hillside above them, a herd of about two thousand pigs was feeding — remember, this was Gentile land; no Jewish town keeps pigs. And the spirits begged him:"),
     # Mark 5:12
     ("s12", SCRIPTURE, "Send us into the swine, that we may enter into them."),
@@ -76,7 +76,7 @@ SEGMENTS = [
     ("n8", NARRATOR, "And he did. He never argues his way in where he is not wanted. But as he climbed into the boat, the healed man begged to come with him. It is the only time in the gospels someone asks to follow Jesus and is told no. Listen to what he was given instead."),
     # Mark 5:19
     ("j3", JESUS, "Go home to thy friends, and tell them how great things the Lord hath done for thee, and hath had compassion on thee."),
-    ("n9", NARRATOR, "Go home. To the town that chained you. To the people who gave up on you. Tell them what God did for you, and how he had compassion on you. The man everyone had written off became the first person Jesus ever sent out with his story — a one-man mission to the ten Gentile cities of the Decapolis. And everywhere he went, people were amazed."),
+    ("n9", NARRATOR, "To the town that chained you. To the people who gave up on you. Tell them what God did for you, and how he had compassion on you. The man everyone had written off became the first person Jesus ever sent out with his story — a one-man mission to the ten Gentile cities of the Decapolis. And everywhere he went, people were amazed."),
     ("card", NARRATOR, "He crossed a sea in a storm for one man everyone else had given up on. There is no distance he will not cross for you."),
 ]
 

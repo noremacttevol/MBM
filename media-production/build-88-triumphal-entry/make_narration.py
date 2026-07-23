@@ -53,7 +53,7 @@ SEGMENTS = [
     ("n0a", NARRATOR, "As Jesus came near Jerusalem, he sent two disciples ahead into the village with a strange errand."),
     # Matthew 21:2-3
     ("jv2", JESUS, "Go into the village over against you, and straightway ye shall find an ass tied, and a colt with her: loose them, and bring them unto me. And if any man say ought unto you, ye shall say, The Lord hath need of them; and straightway he will send them."),
-    ("n0a2", NARRATOR, "Go into the village, he told them. You'll find a donkey tied there with her colt. Untie them and bring them to me. And if anyone asks why, just say the Lord needs them — and he'll let them go."),
+    ("n0a2", NARRATOR, "Go into the village, he told them. Untie them and bring them to me. And if anyone asks why, just say the Lord needs them — and he'll let them go."),
     ("n0b", NARRATOR, "They went, and it happened exactly as he said. And all of it was exactly as the old prophecy had said, too."),
     # Matthew 21:5
     ("s5", SCRIPTURE, "Tell ye the daughter of Sion, Behold, thy King cometh unto thee, meek, and sitting upon an ass, and a colt the foal of an ass."),

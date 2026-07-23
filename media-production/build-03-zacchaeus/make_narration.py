@@ -64,7 +64,7 @@ SEGMENTS = [
     ("n6", NARRATOR, "Zacchaeus came down faster than he had climbed up, and welcomed him with joy. But the crowd was appalled, and they grumbled out loud."),
     # Luke 19:7
     ("s7", SCRIPTURE, "That he was gone to be guest with a man that is a sinner."),
-    ("n6b", NARRATOR, "He has gone to be the guest of a sinner. Of every house in Jericho, he had chosen the worst man's. In their rules, you earned your way back before anyone sat at your table."),
+    ("n6b", NARRATOR, "Of every house in Jericho, he had chosen the worst man's. In their rules, you earned your way back before anyone sat at your table."),
     ("n7a", NARRATOR, "Then, at that table, it happened. Zacchaeus stood up in front of everyone."),
     # Luke 19:8
     ("s8", SCRIPTURE, "Behold, Lord, the half of my goods I give to the poor; and if I have taken any thing from any man by false accusation, I restore him fourfold."),

@@ -41,7 +41,7 @@ SEGMENTS = [
     ("n1", NARRATOR, "Look up, he said. Not everything that shines shines the same way. There are different kinds of bodies, and different kinds of glory."),
     # 1 Corinthians 15:41
     ("s1", SCRIPTURE, "There is one glory of the sun, and another glory of the moon, and another glory of the stars: for one star differeth from another star in glory."),
-    ("n2", NARRATOR, "The sun has its own brightness. The moon has another. And no two stars burn quite alike. Then Paul said the astonishing part."),
+    ("n2", NARRATOR, "The sun has its own brightness. And no two stars burn quite alike. Then Paul said the astonishing part."),
     # 1 Corinthians 15:42
     ("s2", SCRIPTURE, "So also is the resurrection of the dead. It is sown in corruption; it is raised in incorruption:"),
     ("n3", NARRATOR, "That is what rising is like, he said. What goes into the ground breaks down; what comes back out never will again. The resurrection isn't one flat outcome. Like the lights above, there are glories — plural — and every one of them is a gift of light."),

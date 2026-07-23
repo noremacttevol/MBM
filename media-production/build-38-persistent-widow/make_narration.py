@@ -68,7 +68,7 @@ SEGMENTS = [
     ("n1", NARRATOR, "Jesus told a story about a widow. She had lost her husband and had no one to protect her. Someone had wronged her, and she had no power, no money, no one important to make anyone listen."),
     # Luke 18:2-3
     ("jv2", JESUS, "There was in a city a judge, which feared not God, neither regarded man: And there was a widow in that city; and she came unto him, saying, Avenge me of mine adversary."),
-    ("n2", NARRATOR, "In her town there was a judge who feared neither God nor man. The widow came to him with one simple plea: give me justice against the man who wronged me."),
+    ("n2", NARRATOR, "The widow came to him with one simple plea: give me justice against the man who wronged me."),
     ("n3", NARRATOR, "But the judge did not care. He waved her away. She had nothing to offer him, no bribe, no rank, no reason for him to lift a finger."),
     ("n4", NARRATOR, "So she came back. And again. And again. She would not stop. Every day the same worn face at his door, the same steady voice asking for what was right."),
     # Luke 18:4-5

@@ -62,7 +62,7 @@ SEGMENTS = [
     ("n5b", NARRATOR, "A child asks its father for bread. What kind of father hands his hungry child a stone instead? Or a snake when he asks for a fish? No father you would trust."),
     # Matthew 7:11
     ("jv11", JESUS, "If ye then, being evil, know how to give good gifts unto your children, how much more shall your Father which is in heaven give good things to them that ask him?"),
-    ("n6", NARRATOR, "How much more. If flawed, tired, imperfect parents still love to give their kids good things — how much more does a perfect Father delight to give to you? Prayer is not twisting God's arm. It is a child asking a good Father who is glad to be asked."),
+    ("n6", NARRATOR, "If flawed, tired, imperfect parents still love to give their kids good things — how much more does a perfect Father delight to give to you? Prayer is not twisting God's arm. It is a child asking a good Father who is glad to be asked."),
     ("n7", NARRATOR, "So the invitation is just this: ask. Not perfectly. Not impressively. Simply, honestly, like a child. The Father is not reluctant. He is leaning in, glad to hear your voice."),
     ("card", NARRATOR, "Ask, seek, knock. Jesus says your Father in heaven is far kinder than the best parent you can imagine, and glad to be asked. Is there something you have been afraid to ask him for?"),
 ]

@@ -68,7 +68,7 @@ SEGMENTS = [
     ("n2", NARRATOR, "And in a moment the one angel became a vast multitude of the heavenly host, filling the whole sky."),
     # Luke 2:14
     ("j2", SCRIPTURE, "Glory to God in the highest, and on earth peace, good will toward men."),
-    ("n2b", NARRATOR, "Glory to God in the highest, and on earth, peace, and good will toward people. That is what the sky said. Not a warning. Not a demand. Peace, and good will — heaven's opinion of the human race, said out loud over a sheep field."),
+    ("n2b", NARRATOR, "That is what the sky said. Not a warning. Not a demand. Peace, and good will — heaven's opinion of the human race, said out loud over a sheep field."),
     ("n3", NARRATOR, "When the angels had gone away into heaven, the shepherds said to one another:"),
     # Luke 2:15
     ("s15", SCRIPTURE, "Let us now go even unto Bethlehem, and see this thing which is come to pass, which the Lord hath made known unto us."),

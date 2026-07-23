@@ -59,7 +59,7 @@ SEGMENTS = [
     ("n2", NARRATOR, "His mother was the one who spoke. Relieved, and frightened, and hurt, Mary said this:"),
     # Luke 2:48
     ("w48", WOMAN, "Son, why hast thou thus dealt with us? behold, thy father and I have sought thee sorrowing."),
-    ("n2b", NARRATOR, "Son, why have you done this to us? she said. Your father and I have been looking for you, sick with worry. Listen to the word Luke gives her — sorrowing. Not annoyed. Grieving. Three days of a mother assuming the worst. And he answered her with a question of his own."),
+    ("n2b", NARRATOR, "she said. Your father and I have been looking for you, sick with worry. Listen to the word Luke gives her — sorrowing. Not annoyed. Grieving. Three days of a mother assuming the worst. And he answered her with a question of his own."),
     # Luke 2:49
     ("j1", JESUS, "How is it that ye sought me? wist ye not that I must be about my Father's business?"),
     ("n2c", NARRATOR, "Why were you out looking for me? he said. Didn't you know I had to be in my Father's house, about my Father's work? He was twelve years old. He was not being smart with his mother. He genuinely could not imagine where else they thought he would be."),

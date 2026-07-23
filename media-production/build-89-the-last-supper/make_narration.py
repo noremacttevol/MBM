@@ -58,10 +58,10 @@ SEGMENTS = [
     ("n3", NARRATOR, "After the meal he lifted the cup, and gave it to them, too."),
     # Luke 22:20
     ("j2", JESUS, "This cup is the new testament in my blood, which is shed for you."),
-    ("n3b", NARRATOR, "This cup is the new covenant in my blood, he said — poured out for you. A brand new promise between God and people, and he was signing it with his own life."),
+    ("n3b", NARRATOR, "A brand new promise between God and people, and he was signing it with his own life."),
     # Luke 22:18
     ("jv18", JESUS, "For I say unto you, I will not drink of the fruit of the vine, until the kingdom of God shall come."),
-    ("n4", NARRATOR, "He said he would not drink the fruit of the vine again until the kingdom of God arrives. He was telling them this was not goodbye — it was see you at the next meal. Then he and his friends sang together and walked out into the night."),
+    ("n4", NARRATOR, "He was telling them this was not goodbye — it was see you at the next meal. Then he and his friends sang together and walked out into the night."),
     ("n5", NARRATOR, "The bread and the cup, still on the table — a gift to remember him by."),
     ("card", NARRATOR, "He left a simple meal to remember him by. Come to his table — he is still the host."),
 ]

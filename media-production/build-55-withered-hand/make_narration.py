@@ -47,7 +47,7 @@ SEGMENTS = [
     ("n3b", NARRATOR, "Stand up. Come out here, into the middle, where everyone can see you. The man everybody in that room had learned to look past was moved to the center of the floor."),
     # Mark 3:4
     ("jv4", JESUS, "Is it lawful to do good on the sabbath days, or to do evil? to save life, or to kill?"),
-    ("n4", NARRATOR, "Is it lawful to do good on the sabbath, or to do harm? To save a life, or to kill one? It was a simple question, and it left them no answer. They had no real love for the law, or for the man; they only wanted a reason to condemn him. So they said nothing at all."),
+    ("n4", NARRATOR, "It was a simple question, and it left them no answer. They had no real love for the law, or for the man; they only wanted a reason to condemn him. So they said nothing at all."),
     # Mark 3:5
     ("s5a", SCRIPTURE, "And when he had looked round about on them with anger, being grieved for the hardness of their hearts, he saith unto the man,"),
     # Mark 3:5

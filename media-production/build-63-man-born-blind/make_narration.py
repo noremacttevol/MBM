@@ -67,16 +67,16 @@ SEGMENTS = [
     ("n3", NARRATOR, "Why clay? Bible students hear an echo: in the beginning, God formed man from the dust of the ground. Whatever had been left unfinished in those eyes from birth, the maker was finishing it now, with the same material he started with. Then he gave the man one simple instruction:"),
     # John 9:7
     ("j2", JESUS, "Go, wash in the pool of Siloam."),
-    ("n4", NARRATOR, "Go and wash in the pool of Siloam. Understand what was asked of him. A blind man, eyes packed with mud, feeling his way across Jerusalem, one wall and one step at a time, holding nothing but the instruction of a stranger whose face he had never seen. He went. That walk was the faith."),
+    ("n4", NARRATOR, "Understand what was asked of him. A blind man, eyes packed with mud, feeling his way across Jerusalem, one wall and one step at a time, holding nothing but the instruction of a stranger whose face he had never seen. He went. That walk was the faith."),
     ("n5", NARRATOR, "He knelt at the pool of Siloam and washed the clay away. And light came pouring in where there had never been light — color, water, sky, his own two hands. The first things he ever saw. He came back seeing."),
     ("n6", NARRATOR, "And then the trouble started. The neighbors argued about whether he was even the same man. The religious leaders hauled him in for questioning — twice — because the healing had happened on the sabbath, and that broke their rules. They pressed him to call Jesus a sinner. And he gave them one of the greatest answers anybody ever gave:"),
     # John 9:25
     ("s25", SCRIPTURE, "Whether he be a sinner or no, I know not: one thing I know, that, whereas I was blind, now I see."),
-    ("n6b", NARRATOR, "Whether he's a sinner, I don't know. One thing I know: I was blind, and now I see. He would not argue theology with trained men. He just told them the one thing that had happened to him, and there was nothing they could do with it."),
+    ("n6b", NARRATOR, "He would not argue theology with trained men. He just told them the one thing that had happened to him, and there was nothing they could do with it."),
     ("n7", NARRATOR, "They could not shake him, so they threw him out — cast out of the synagogue, cut off from the whole religious life of his people. Healed, and homeless in the same week. And here is the part to remember: when Jesus heard they had thrown him out, he went and FOUND him. The man had never actually seen the one who healed him. Jesus asked him:"),
     # John 9:35
     ("j3", JESUS, "Dost thou believe on the Son of God?"),
-    ("n8", NARRATOR, "Do you believe on the Son of God? And the man — who wants to, and does not know who that is — answers:"),
+    ("n8", NARRATOR, "And the man — who wants to, and does not know who that is — answers:"),
     # John 9:36
     ("s36", SCRIPTURE, "Who is he, Lord, that I might believe on him?"),
     ("n8b", NARRATOR, "Who is he, sir? Tell me, so I can believe in him. He is not stalling. He is asking for a name so he can give himself to it. And Jesus said:"),

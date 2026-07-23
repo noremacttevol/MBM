@@ -38,7 +38,7 @@ from mbm_speakers import NARRATOR, SCRIPTURE
 # string handed to the TTS is respelled.
 SEGMENTS = [
     ("n1", NARRATOR, "A wave of faith had swept through Samaria. Whole crowds had heard the good news, believed it with glad hearts, and been baptized in water. Something real and joyful was happening among them."),
-    ("n2", NARRATOR, "Word of it reached the apostles back in Jerusalem. And notice their response: they did not simply send a letter of congratulations. They sent two of their own number, Peter and John, to go down in person."),
+    ("n2", NARRATOR, "And notice their response: they did not simply send a letter of congratulations. They sent two of their own number, Peter and John, to go down in person."),
     # Acts 8:14
     ("kv14", SCRIPTURE, "Now when the apostles which were at Jerusalem heard that Samaria had received the word of God, they sent unto them Peter and John:"),
     # Acts 8:15

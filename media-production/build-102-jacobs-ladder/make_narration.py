@@ -52,7 +52,7 @@ SEGMENTS = [
     ("n6", NARRATOR, "I am with thee. I will keep thee. I will not leave thee. To a man who had just thrown his whole life away and run, God promised to go with him, everywhere, and never let go. He had done nothing to earn it."),
     # Genesis 28:16-17
     ("s16", SCRIPTURE, "Surely the LORD is in this place; and I knew it not. How dreadful is this place! this is none other but the house of God, and this is the gate of heaven."),
-    ("n7", NARRATOR, "Jacob woke with a start, shaken to his core. Surely the Lord is in this place, he said, and I did not even know it. This is nothing less than the house of God. This is the gate of heaven — and I nearly slept through it."),
+    ("n7", NARRATOR, "Jacob woke with a start, shaken to his core. This is nothing less than the house of God. This is the gate of heaven — and I nearly slept through it."),
     ("n8", NARRATOR, "So he took the stone that had been his pillow and stood it up on end as a pillar, a marker of the place where heaven had opened over him."),
     ("n8b", NARRATOR, "And he poured oil over the top of it to set it apart as holy, and he called that place Bethel — the house of God."),
     ("n9", NARRATOR, "Then he went on his way — the same road, the same troubles waiting ahead, but a different man. Not because he had fixed himself, but because he finally knew he was not walking alone. That is how God still meets people: not at their best, but wherever they happen to lie down in the dark."),

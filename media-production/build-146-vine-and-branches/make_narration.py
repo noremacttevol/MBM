@@ -38,7 +38,7 @@ SEGMENTS = [
     ("n0b", NARRATOR, "a vine, and the branches that grow from it."),
     # John 15:4
     ("j0", JESUS, "Abide in me, and I in you. As the branch cannot bear fruit of itself, except it abide in the vine; no more can ye, except ye abide in me."),
-    ("n0d", NARRATOR, "Stay in me, he said, and I will stay in you. A branch cannot make fruit on its own. It has never once done it. All it does is stay attached, and the life of the vine does the rest."),
+    ("n0d", NARRATOR, "Stay in me, he said, and I will stay in you. It has never once done it. All it does is stay attached, and the life of the vine does the rest."),
     # John 15:5
     ("j1a", JESUS, "I am the vine, ye are the branches:"),
     ("n0c", NARRATOR, "I am the vine, he said. You are the branches. Not visitors. Not hired hands. Branches — part of the same living thing."),

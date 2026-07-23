@@ -59,7 +59,7 @@ SEGMENTS = [
     ("kv3b", JESUS, "Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God."),
     # John 3:4
     ("s4", SCRIPTURE, "How can a man be born when he is old? can he enter the second time into his mother's womb, and be born?"),
-    ("n3", NARRATOR, "Nicodemus took it literally, and was baffled. How could a grown man possibly be born a second time? He could not picture it. Surely no one could climb back and start his life over from the beginning."),
+    ("n3", NARRATOR, "Nicodemus took it literally, and was baffled. He could not picture it. Surely no one could climb back and start his life over from the beginning."),
     ("n4", NARRATOR, "But the new birth was never meant to be physical. To be born again is first to be born of water — to go down into the water of baptism and come up new, the old life washed away and left behind."),
     ("n5", NARRATOR, "And there was a second half to it, not water only. To be born of the Spirit is to receive the gift of the Holy Ghost — a birth from above, life breathed into the soul by heaven itself."),
     # John 3:5

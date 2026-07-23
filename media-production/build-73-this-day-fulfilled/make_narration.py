@@ -65,7 +65,7 @@ SEGMENTS = [
     ("n1", NARRATOR, "They handed him the scroll of Isaiah. He found the place, and read it out loud."),
     # Luke 4:18-19
     ("j1", JESUS, "The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives, and recovering of sight to the blind, to set at liberty them that are bruised, to preach the acceptable year of the Lord."),
-    ("n1b", NARRATOR, "The Spirit of the Lord is on me, he read, because he anointed me — to bring good news to the poor, to bind up the broken-hearted, to tell prisoners they can go free, to give the blind their sight back, to set bruised people loose. This is the year the Lord has been promising. Every line of it was a promise about somebody who had not come yet."),
+    ("n1b", NARRATOR, "The Spirit of the Lord is on me, he read, because he anointed me — to bring good news to the poor, to bind up the broken-hearted, to tell prisoners they can go free, to give the blind their sight back, to set bruised people loose. Every line of it was a promise about somebody who had not come yet."),
     # Luke 4:20
     ("s20", SCRIPTURE, "And he closed the book, and he gave it again to the minister, and sat down. And the eyes of all them that were in the synagogue were fastened on him."),
     ("n2", NARRATOR, "Then he rolled the scroll up, handed it back, and sat down. Every eye in the room was fixed on him — this was the boy who grew up on their street. And the room held its breath."),

@@ -2,7 +2,7 @@
 
 [woman] Who shall roll us away the stone from the door of the sepulchre?
 
-[narrator] Who is going to roll the stone away for us? It took several men to move it, and there were only a few women walking up that hill in the dark.
+[narrator] It took several men to move it, and there were only a few women walking up that hill in the dark.
 
 [narrator] But when they arrived, the huge stone that had sealed the tomb was rolled away.
 
@@ -18,7 +18,7 @@
 
 [scripture] remember how he spake unto you when he was yet in Galilee, Saying, The Son of man must be delivered into the hands of sinful men, and be crucified, and the third day rise again.
 
-[narrator] Remember, they said, what he told you back in Galilee — that he would be handed over to sinful men, and crucified, and on the third day rise again. He had said all of it, out loud, before any of it happened.
+[narrator] He had said all of it, out loud, before any of it happened.
 
 [narrator] And they remembered.
 

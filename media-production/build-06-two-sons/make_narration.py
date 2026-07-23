@@ -62,7 +62,7 @@ SEGMENTS = [
     ("n0", NARRATOR, "Jesus told this story to religious leaders — people who were sure they had already said yes to God. He told it so they would hear themselves in it."),
     # Matthew 21:28
     ("j28", JESUS, "But what think ye? A certain man had two sons; and he came to the first, and said, Son, go work to day in my vineyard."),
-    ("n1", NARRATOR, "A father told his first son: go work in the vineyard today. And the son answered him flat."),
+    ("n1", NARRATOR, "A father told his first son: And the son answered him flat."),
     # Matthew 21:29
     ("j29", JESUS, "He answered and said, I will not."),
     ("n1b", NARRATOR, "I will not. No excuse offered, nothing softened. Just no."),

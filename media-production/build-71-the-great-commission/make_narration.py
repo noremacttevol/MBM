@@ -40,7 +40,7 @@ SEGMENTS = [
     ("n3", NARRATOR, "Every authority there is, in heaven and on the earth, belongs to him. Whatever he was about to ask of them, he had the right to ask it, and the power to back it."),
     # Matthew 28:19
     ("jv19", JESUS, "Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost:"),
-    ("n4", NARRATOR, "Go to everyone. Not one nation, not one kind of person, but all of them, to the far edges of the map, and bring them in through baptism. And hear the three he names together, plainly, one breath apart: the Father, and the Son, and the Holy Ghost. Three."),
+    ("n4", NARRATOR, "Go to everyone. Not one nation, not one kind of person, but all of them, to the far edges of the map, and bring them in through baptism. And hear the three he names together, plainly, one breath apart: Three."),
     # Matthew 28:20
     ("jv20", JESUS, "Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you alway, even unto the end of the world. Amen."),
     ("n5", NARRATOR, "Teach them not just to hear it but to live it, everything he had shown them. And then the promise that holds the whole thing up. I am with you always. Not until it gets hard. Not until you fail. Always, to the very end."),

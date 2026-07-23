@@ -56,7 +56,7 @@ SEGMENTS = [
     ("n5", NARRATOR, "And he went in to where she was lying. What happened next, Mark tells in a single sentence."),
     # Mark 1:31
     ("s31", SCRIPTURE, "And he came and took her by the hand, and lifted her up; and immediately the fever left her, and she ministered unto them."),
-    ("n6", NARRATOR, "He took her by the hand and lifted her up, and in that moment the fever simply left her. No slow recovery, no days of weakness; the heat and the sickness were gone, and she was herself once more, well and strong."),
+    ("n6", NARRATOR, "No slow recovery, no days of weakness; the heat and the sickness were gone, and she was herself once more, well and strong."),
     ("n7", NARRATOR, "And the first thing she did was rise and serve them. With her strength fully back, she cared for the very ones who had carried her trouble to Jesus, glad to be on her feet again."),
     ("n8", NARRATOR, "It is a small, quiet miracle, tucked into an ordinary house. No crowd and no spectacle; only a tired family, a sickbed, and a Savior who came in, took her by the hand, and made her whole."),
     ("card", NARRATOR, "He still comes into ordinary houses and ordinary lives. You do not need the right words or a grand request; you only need to tell him where it hurts. What would it mean to simply put your trouble into his hand?"),

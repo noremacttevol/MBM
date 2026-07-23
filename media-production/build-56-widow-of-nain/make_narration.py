@@ -63,7 +63,7 @@ SEGMENTS = [
     ("n7", NARRATOR, "A holy fear fell on everyone there, and they praised God, saying:"),
     # Luke 7:16
     ("s16", SCRIPTURE, "That a great prophet is risen up among us; and, That God hath visited his people."),
-    ("n7b", NARRATOR, "A great prophet has risen among us, they said. God has come to his own people. And the news of it went out through all the country round about."),
+    ("n7b", NARRATOR, "And the news of it went out through all the country round about."),
     ("card", NARRATOR, "He still meets us at the gate, on the worst day, in the middle of a grief no one can fix. He is not put off by death, or by sorrow, or by a thing everyone else has given up on. He sees you, his heart breaks, and he speaks life. What have you already buried that he is asking to raise?"),
 ]
 

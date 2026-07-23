@@ -93,7 +93,7 @@ SEGMENTS = [
     ("n8", NARRATOR, "Then Jesus turned and looked at the woman, but he kept speaking to Simon. He set the two of them side by side. Simon had given him no water for his feet; she had washed them with her tears. Simon had given him no greeting; she had not stopped kissing his feet since she came in."),
     # Luke 7:47
     ("j4", JESUS, "Her sins, which are many, are forgiven; for she loved much: but to whom little is forgiven, the same loveth little."),
-    ("n9", NARRATOR, "Read that slowly, because it is easy to turn it backwards. She was not forgiven because she loved so much. She loved so much because she had already been forgiven. The tears were not the payment. They were what it looks like when a debt you could never repay is torn up right in front of you. Simon loved little, because he believed he owed little."),
+    ("n9", NARRATOR, "Read that slowly, because it is easy to turn it backwards. The tears were not the payment. They were what it looks like when a debt you could never repay is torn up right in front of you. Simon loved little, because he believed he owed little."),
     # Luke 7:48
     ("jv48", JESUS, "Thy sins are forgiven."),
     ("n9b", NARRATOR, "Your sins are forgiven. He said it out loud, at a full table, in front of every important man in that town, to the one person in the room everybody there had already written off."),

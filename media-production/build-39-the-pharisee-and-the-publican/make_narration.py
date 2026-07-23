@@ -57,7 +57,7 @@ SEGMENTS = [
     ("n1", NARRATOR, "Jesus told this story to a certain kind of man. The kind who was sure he was one of the good ones, and just as sure that other people were not."),
     # Luke 18:10
     ("jv10", JESUS, "Two men went up into the temple to pray; the one a Pharisee, and the other a publican."),
-    ("n2", NARRATOR, "Two men went up to the temple to pray. One was a Pharisee. The other was a tax collector. And to anyone watching them climb those steps, it was obvious which of the two God was pleased with."),
+    ("n2", NARRATOR, "The other was a tax collector. And to anyone watching them climb those steps, it was obvious which of the two God was pleased with."),
     ("n3", NARRATOR, "The Pharisee was not a fake. God had asked for one fast a year, and this man fasted twice a week. He gave away a tenth of everything he owned, down to the herbs in his garden. Ask that city who its best man was, and every finger would have pointed at him."),
     ("n4", NARRATOR, "The tax collector was exactly what everyone thought he was. He worked for Rome, the empire occupying his own country, collecting from his own neighbors and keeping whatever extra he could squeeze out of them. A traitor with a money box. And he knew it."),
     ("n5", NARRATOR, "The Pharisee took his place out in the open, where he could be seen, and lifted his hands to pray. Listen to who his prayer is really about."),

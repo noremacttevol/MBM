@@ -59,11 +59,11 @@ SEGMENTS = [
     ("n3", NARRATOR, "There was only one lunch in the whole crowd. Andrew, Simon Peter's brother, brought a boy to Jesus, almost embarrassed to mention it."),
     # John 6:9
     ("s9", SCRIPTURE, "There is a lad here, which hath five barley loaves, and two small fishes: but what are they among so many?"),
-    ("n3b", NARRATOR, "There's a boy here with five little barley loaves and two small fish, he said — but what is that among so many? Barley was the poor man's bread. It was the smallest, cheapest lunch on that whole hillside, and it was the only thing anybody offered."),
+    ("n3b", NARRATOR, "Barley was the poor man's bread. It was the smallest, cheapest lunch on that whole hillside, and it was the only thing anybody offered."),
     ("n4", NARRATOR, "Jesus was not troubled by how little there was. He said simply:"),
     # John 6:10
     ("j10", JESUS, "Make the men sit down."),
-    ("n4b", NARRATOR, "Have everyone sit down. And they settled in groups on the green grass, five thousand men, besides women and children, waiting to see what he would do."),
+    ("n4b", NARRATOR, "And they settled in groups on the green grass, five thousand men, besides women and children, waiting to see what he would do."),
     ("nbless", NARRATOR, "Then he took the five loaves and the two fish, and looking up to heaven, he gave thanks, and broke the bread."),
     ("n5", NARRATOR, "And the food did not run out. The disciples carried it through the crowd, and it kept coming, bread and fish, more and more, until every single person there had eaten as much as they wanted, and was full."),
     # John 6:12

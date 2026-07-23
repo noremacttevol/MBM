@@ -52,7 +52,7 @@ SEGMENTS = [
     # Mark 1:40
     ("s40", SCRIPTURE, "If thou wilt, thou canst make me clean."),
     ("n2b", NARRATOR, "If you are willing, he said, you can make me clean. He never doubted the power. He only wondered about the will — whether a man like him was someone Jesus would want to bother with."),
-    ("n3", NARRATOR, "And Jesus was moved with compassion. He did not step back from the man everyone else stepped back from. He reached out his hand toward the very thing no one would touch."),
+    ("n3", NARRATOR, "He did not step back from the man everyone else stepped back from. He reached out his hand toward the very thing no one would touch."),
     # Mark 1:41
     ("s41a", SCRIPTURE, "And Jesus, moved with compassion, put forth his hand, and touched him, and saith unto him,"),
     # Mark 1:41

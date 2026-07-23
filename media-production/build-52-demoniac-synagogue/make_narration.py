@@ -59,7 +59,7 @@ SEGMENTS = [
     ("n4", NARRATOR, "And the voice that broke out of him was not his own."),
     # Mark 1:24
     ("s24", SCRIPTURE, "Let us alone; what have we to do with thee, thou Jesus of Nazareth? art thou come to destroy us? I know thee who thou art, the Holy One of God."),
-    ("n4b", NARRATOR, "Leave us alone. What do you want with us, Jesus of Nazareth? Have you come to destroy us? And then, almost trembling: I know who you are. The Holy One of God. Sit with that for a second. In a room full of religious people, the first one to say out loud exactly who he was, was the darkness."),
+    ("n4b", NARRATOR, "Leave us alone. And then, almost trembling: Sit with that for a second. In a room full of religious people, the first one to say out loud exactly who he was, was the darkness."),
     # Mark 1:25
     ("jv25", JESUS, "Hold thy peace, and come out of him."),
     ("n5", NARRATOR, "Be quiet, and come out of him. Just a few short words. There was no long battle, no struggle of equals. At his word the spirit shook the man one last time, cried out with a loud voice, and came out of him. The thing that had held him for so long simply had to go."),
@@ -67,7 +67,7 @@ SEGMENTS = [
     ("n7", NARRATOR, "The people were amazed, and they turned to one another asking:"),
     # Mark 1:27
     ("s27", SCRIPTURE, "What thing is this? what new doctrine is this? for with authority commandeth he even the unclean spirits, and they do obey him."),
-    ("n7b", NARRATOR, "What is this? A new teaching, and it comes with authority behind it. He gives an order to the unclean spirits, and they obey him. They had come to synagogue that morning expecting an ordinary sabbath."),
+    ("n7b", NARRATOR, "What is this? A new teaching, and it comes with authority behind it. They had come to synagogue that morning expecting an ordinary sabbath."),
     ("n8", NARRATOR, "And right away the news of him went out everywhere, through all the country round about Galilee. Wherever the story was carried, people heard that one had come whose word even the darkness could not resist."),
     ("card", NARRATOR, "The same voice that spoke into that man's torment still speaks today. There is no darkness in you so deep that his word cannot reach it, and nothing holding you that has to stay when he says come out. What is he asking you to let him set free?"),
 ]

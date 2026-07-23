@@ -29,7 +29,7 @@ SEGMENTS = [
     ("n0", NARRATOR, "One day Peter came to Jesus with a question that had been sitting heavy on his heart. It was about forgiveness — and about someone who kept hurting him."),
     # Matthew 18:21
     ("s21", SCRIPTURE, "Lord, how oft shall my brother sin against me, and I forgive him? till seven times?"),
-    ("n1", NARRATOR, "Lord, he asked, how many times do I have to forgive my brother when he keeps sinning against me? Would seven times be enough? Peter must have thought he was being generous."),
+    ("n1", NARRATOR, "Lord, he asked, how many times do I have to forgive my brother when he keeps sinning against me? Peter must have thought he was being generous."),
     # Matthew 18:22
     ("j1", JESUS, "I say not unto thee, Until seven times: but, Until seventy times seven."),
     ("n2", NARRATOR, "In other words, stop counting. Real forgiveness doesn't keep a ledger. And then, to show them what he meant, Jesus told a story."),
@@ -48,7 +48,7 @@ SEGMENTS = [
     ("n11", NARRATOR, "His fellow servant fell down at his feet and begged him with the very same words he himself had used only moments before: Please, be patient with me, and I will pay you back!"),
     ("n12", NARRATOR, "But he refused. He would not listen. He had the man thrown into prison until he could pay back every penny."),
     ("n13", NARRATOR, "The other servants saw the whole thing, and it grieved them deeply. They went and told the king everything that had happened."),
-    ("n14", NARRATOR, "The king summoned him back. You wicked servant! he said. I forgave you that enormous debt because you begged me to. Shouldn't you have shown the same mercy to your fellow servant that I showed to you?"),
+    ("n14", NARRATOR, "The king summoned him back. he said. Shouldn't you have shown the same mercy to your fellow servant that I showed to you?"),
     # Matthew 18:32-33
     ("j5", JESUS, "O thou wicked servant, I forgave thee all that debt, because thou desiredst me: Shouldest not thou also have had compassion on thy fellowservant, even as I had pity on thee?"),
     ("n15", NARRATOR, "And in his anger the king handed him over to be punished until he should pay back all that he owed. Then Jesus turned the story toward every one of us."),
