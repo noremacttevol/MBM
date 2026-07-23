@@ -83,5 +83,19 @@
       "Bash(rm -rf /:*)",
       "Bash(rm -rf ~:*)"
     ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "git -C \"$CLAUDE_PROJECT_DIR\" pull --rebase --autostash origin main 2>&1 | tail -3 || true",
+            "timeout": 45,
+            "statusMessage": "Syncing latest MBM from GitHub..."
+          }
+        ]
+      }
+    ]
   }
 }
