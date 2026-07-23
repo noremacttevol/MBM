@@ -83,7 +83,11 @@ SAY = {
 # {written: {speaker: spoken}} — applied only when that speaker is narrating.
 SAY_BY_VOICE = {
     "Stephen": {"narrator": "steevun"},
-    "Cana": {"narrator": "kaynuh"},
+    # "Cana": {"narrator": "kaynuh"} REMOVED 2026-07-23 (Cameron denial #50 "cana
+    # is pronounced Kay-Na"). Measured this session: the respell "kaynuh" is what
+    # MADE Andrew say "Canoe" (2/2 on n1/n3 context) — the exact defect. The PLAIN
+    # word "Cana" round-trips as "Kana" (KAY-nuh) 2/2. Candidates lost harder:
+    # "kayna" -> "China". Plain wins; no entry.
     "Meshach": {"scripture": "meeshak"},
     "Gennesaret": {"narrator": "gunnessuhret"},
     "Esaias": {"scripture": "izayus"},
