@@ -173,6 +173,10 @@
   {
    "date": "2026-07-22",
    "note": "VERIFIED already fixed, no rebuild: all three 'live' words (0:29, 1:03, 1:11) were measured against controlled samples of this same voice saying 'live' the short way and the long way \u2014 all three match the SHORT verb sound (rhymes with give), not the long one (rhymes with hive). The spelling fix is in the build and it worked."
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded"
   }
  ],
  "18": [
