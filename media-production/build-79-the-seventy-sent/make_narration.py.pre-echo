@@ -63,7 +63,7 @@ SEGMENTS = [
     ("n2", NARRATOR, "Wherever they were welcomed, they were to heal the sick and say the same simple thing."),
     # Luke 10:9
     ("j2", JESUS, "The kingdom of God is come nigh unto you."),
-    ("n2b", NARRATOR, "That was the whole message. Not a warning, not a threat — an announcement that the thing everyone had been waiting for had just walked into their town."),
+    ("n2b", NARRATOR, "God's kingdom has come close to you. That was the whole message. Not a warning, not a threat — an announcement that the thing everyone had been waiting for had just walked into their town."),
     ("n3", NARRATOR, "And they came back with joy, amazed at what had happened when they used his name:"),
     # Luke 10:17
     ("s17", SCRIPTURE, "Lord, even the devils are subject unto us through thy name."),
