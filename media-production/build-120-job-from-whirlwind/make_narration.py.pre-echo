@@ -56,14 +56,14 @@ SEGMENTS = [
     ("n5", NARRATOR, "But Job would not accept easy lies about God or about himself. He did something braver than pretending. He took his anguish straight to God and demanded an answer — and then, in the middle of it, he said this."),
     # Job 19:25
     ("s1925", SCRIPTURE, "For I know that my redeemer liveth, and that he shall stand at the latter day upon the earth."),
-    ("n5b", NARRATOR, "That is a man in the ashes with nothing left, saying it out loud. He does not understand a thing that is happening to him, and he still knows who is coming."),
+    ("n5b", NARRATOR, "I know my redeemer is alive, he says, and one day he will stand right here on this earth. That is a man in the ashes with nothing left, saying it out loud. He does not understand a thing that is happening to him, and he still knows who is coming."),
     ("n6", NARRATOR, "And God answered — though not in the way anyone expected. Out of a great whirlwind, the Maker of everything finally spoke."),
     # Job 38:4
     ("jvA", GOD, "Where wast thou when I laid the foundations of the earth? declare, if thou hast understanding."),
-    ("n6b", NARRATOR, "It sounds like a rebuke, and it is not. God is doing something gentler than that. He is taking a man who has shrunk down to the size of his own pain, and slowly widening the room."),
+    ("n6b", NARRATOR, "Where were you when I laid the foundations of the earth? It sounds like a rebuke, and it is not. God is doing something gentler than that. He is taking a man who has shrunk down to the size of his own pain, and slowly widening the room."),
     # Job 38:7
     ("jv387", GOD, "When the morning stars sang together, and all the sons of God shouted for joy."),
-    ("n7a", NARRATOR, "That is God describing the day the world was made — and it is not a lecture about power. It is a memory, and it is full of gladness."),
+    ("n7a", NARRATOR, "The morning stars sang together, and all the sons of God shouted for joy. That is God describing the day the world was made — and it is not a lecture about power. It is a memory, and it is full of gladness."),
     # Job 38:31
     ("jvB", GOD, "Canst thou bind the sweet influences of Pleiades, or loose the bands of Orion?"),
     ("n7b", NARRATOR, "Can you tie up the Pleiades, God asks, or unfasten Orion's belt? On and on it goes — the sea, the snow, the wild donkey, the horse, the hawk. Chapter after chapter of a world far bigger and stranger and kinder than the tidy little courtroom Job's friends had built."),
