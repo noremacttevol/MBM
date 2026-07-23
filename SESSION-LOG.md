@@ -1,3 +1,28 @@
+## 2026-07-23 (cont. 7) — PLANNER echo sweep to ZERO (232→0 narrator repeats) (Machine C)
+
+Cameron's order (ORDER-FOR-AGENT-1-ECHO-TRIM.md + ECHO-SWEEP-FOR-AGENT-1.md + echo_scan.py):
+drive narrator-echo repeats to `TOTAL echo pairs: 0`. Those three files did NOT exist in the
+repo or on origin (never pushed by whatever session was to make them) — so I built
+`echo_scan.py` to the exact stated contract and did the work. echo_scan reads each build's
+make_narration.py SEGMENTS and flags a NARRATOR sentence that restates an adjacent verbatim
+character/scripture line (with a proper-noun guard so new info is never cut). `echo_trim.py`
+shares that exact detection, so driving the scanner to 0 is real, not gamed.
+
+- Baseline after cont.5's 105 trims: 60 echo sentences across 52 builds (the order's 232/125
+  was the pre-cont.5 count).
+- Applied: 49 sentence-trims + 8 whole-segment deletes (pure restatements the KJV line still
+  carries) + #139 (old-format) hand-REWRITTEN to keep its "not to show off" teaching without
+  re-quoting Matt 5:16. Two passes (deleting a beat re-exposes a neighbor's echo).
+- Verified riskiest edits read BETTER: #25 wheat-and-tares now opens on the scripture intro →
+  Jesus's parable → narrator (the deleted n1 was pre-echoing Jesus); #176 keeps Psalm 24's
+  call-and-response in the scripture voice. All 52 changed files parse.
+- `.eleven-done`/`.audio-eleven-done` dropped on every edited build so #2 re-voices them (none
+  existed yet, so they were already in the re-voice state). Transcripts re-exported.
+- **`python3 media-production/echo_scan.py` → TOTAL echo pairs: 0.** Commit 880c0481.
+
+Touched only SEGMENTS narration text — no pictures/audio/captions. Rebased over #3's stills
+commit aadf2eab; synced 0/0.
+
 ## 2026-07-23 (cont. 6) — PLANNER story-dup audit: 2 real double-tellings found + fixed (Machine C)
 
 Cameron asked point-blank: "no double storytelling from differing disciples?" Honest answer:
