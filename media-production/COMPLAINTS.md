@@ -11,7 +11,7 @@ touching anything else. Do NOT edit by hand.
 | # | Status | What Cameron said |
 |---|---|---|
 | 7 | newer cut shipped — VERIFY fixed | the words only picture at the end is messed up and out of the frame  on the edges it should be 2 or 3 lines |
-| 13 | UNFIXED | Redo the picture of the pharisees in the corner that are judging at 3 minutes, that picture because it just doesn't look good and it's old.So we need to update it |
+| 13 | newer cut shipped — VERIFY fixed | Redo the picture of the pharisees in the corner that are judging at 3 minutes, that picture because it just doesn't look good and it's old.So we need to update it |
 | 17 | newer cut shipped — VERIFY fixed | captions are messed up and the voice  is messed  up and is misspronouncing livest and  other old english pronunciation. |
 | 19 | UNFIXED | The clothes of peter and his look and all of the people in the boat keep changing and then picture jesus looks like he's burning something out of his hand all of these pictures look like they've been made by AI and I get that they have , but let's try our best not to make you look stupid. So redo them all |
 | 46 | UNFIXED | its still wrong correct phonetic breakdown is put-uth. |
