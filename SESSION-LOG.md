@@ -1,3 +1,27 @@
+## 2026-07-23 (cont. 6) — PLANNER story-dup audit: 2 real double-tellings found + fixed (Machine C)
+
+Cameron asked point-blank: "no double storytelling from differing disciples?" Honest answer:
+the earlier pass was FOLDER-dedup, not a story audit — so I ran a real content-level one
+(`story_dup_audit.py`, TF-cosine over all 200 transcripts + shared-chapter grouping →
+`TRANSCRIPTS/STORY-DUP-AUDIT.md`). Found and CONFIRMED two genuine double-tellings the
+2026-07-20 audit missed:
+- **#44 two-debtors == #74 woman-washed-his-feet** — one Luke 7 scene (Simon's dinner);
+  both narrations open identically and #74 already tells the two-debtors parable in full.
+  #44 was POSTED. Cameron: "do what Jesus would want." → keep the fuller #74 as the Luke 7
+  keeper; retire #44; reuse slot #44 for **Pentecost (Acts 2)** (his approved new story).
+- **#128 == #156 Amos "famine of hearing"** — same story; #128's build folder still had
+  the Amos narration though its row was swapped to Mark 7 on paper (never re-narrated,
+  Built ⬜). → #156 keeps Amos; #128 rewritten to its true Mark 7 "their heart is far
+  from me."
+
+Delivered as Planner: full narration + storyboard DRAFTS (`DRAFTS/row-044-pentecost.md`,
+`DRAFTS/row-128-heart-far-from-me.md`), QUEUE rows 44/74/128 updated (incl. ⚠️ for #4 to
+pull the still-posted two-debtors and submit #74). New **STORY-INTEGRITY-LAW Rule 5**
+(Cameron): be honest about differing gospel witnesses ONLY where it enriches, NEVER where
+it invites doubt or degrades the sacred story. Candidate cluster (John 14 #133/#145/#185,
+Sermon-light #121/#139, John 10 #134/#159/#108) still needs the distinct-vs-merge judgment
+pass. Commit 97dab2a0. (Build/audio/stills for the two swaps belong to #2/#3/#4.)
+
 ## 2026-07-23 (cont. 5) — ROLE CORRECTED to #1 PLANNER: transcripts + dedup + Rule-4 trims (Machine C)
 
 Cameron clarified the 4-session split: **#1 = Video Planner (THIS session)** — check what
