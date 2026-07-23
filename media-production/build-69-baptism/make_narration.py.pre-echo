@@ -65,7 +65,7 @@ SEGMENTS = [
     ("j1", JESUS, "Suffer it to be so now: for thus it becometh us to fulfil all righteousness."),
     ("n3", NARRATOR, "Let it happen, John — this is how we do everything right, together. He was not washing anything away. He was stepping into line with us. If baptism is the doorway God asks people to walk through, then Jesus would walk through it first — not because he needed it, but so that no one who followed him would ever be asked to do something he had not done himself. He never leads from behind."),
     ("n4", NARRATOR, "So John baptized him — lowered him under the water of the Jordan, and raised him up again. And as Jesus came straight up out of the water, the sky itself broke open."),
-    ("n5", NARRATOR, "The Spirit of God came down through the opened heavens like a dove, gentle as falling light, and rested on him. A Father's voice."),
+    ("n5", NARRATOR, "The Spirit of God came down through the opened heavens like a dove, gentle as falling light, and rested on him. And then a voice came out of heaven — not John's voice, not any voice on the riverbank. A Father's voice."),
     # Matthew 3:17
     ("s17", SCRIPTURE, "And lo a voice from heaven, saying,"),
     # Matthew 3:17
