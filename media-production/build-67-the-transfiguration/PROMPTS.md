@@ -31,7 +31,7 @@ stone, a vast sky; as the story turns, the whole air on the summit fills with cl
 brilliant white light like snow at noon, then softens back to ordinary dusk.
 
 [THREE-DISCIPLES LOCK] = Peter, James and John: three Middle Eastern fishermen in
-earth-toned wool — one older with a gray-streaked beard, two younger — shown awestruck,
+earth-toned wool — Peter dark-curled with a full dark beard in blue-grey, James short-bearded in ochre, John the clean-shaven youth in grey-blue — shown awestruck,
 shielding their eyes, sinking to the rocky ground; none in off-white or cream, none
 resembling the man in cream.
 

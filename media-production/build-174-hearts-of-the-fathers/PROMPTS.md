@@ -73,3 +73,10 @@ GL_POINTER = "Learn more — Gospel Library: Elijah; Family History"
 
 ## CANONICAL CHARACTER LOCKS (picture-lane)
 JOHN BELOVED LOCK: (Consistent with the SONS OF ZEBEDEE LOCK in builds #51/#71 — John is the clean-shaven younger brother.) A young Galilean fisherman of about twenty: warm olive-brown skin, dark wavy hair to the jaw, CLEAN-SHAVEN (his standing distinguisher among the apostles), bright attentive dark eyes, a lean wiry build with a fisherman's hard forearms, an open earnest young face. Standard garments: A faded grey-blue coarse wool tunic with a rope belt (locked in #51/#71), bare forearms, an ochre-brown mantle when a cloak is needed, simple leather sandals. Never cream.
+
+CHARACTER-REF-EXEMPT: john-beloved (s6 "John in the wilderness" is John the BAPTIST — Malachi 4 / spirit of Elias — NOT the apostle John)
+
+## CHARACTER LOCK
+JOHN THE BAPTIST LOCK: A lean weathered man of about thirty with sun-darkened olive skin, wild dark shoulder-length hair and a rough dark beard — a lean desert ascetic, sinewy and spare from a diet of locusts and wild honey, with burning earnest eyes and a dignified bearing even in chains. Never bloodied or harmed on screen; the prison scenes keep him dignified and thoughtful. Standard garments: A coarse CAMEL-HAIR garment — rough woven animal-brown, texture visible — cinched with a wide LEATHER girdle (Matt 3:4; this wardrobe is scripture, not a style choice, and never changes), bare weathered forearms and shins, worn leather sandals or bare feet at the river.
+
+CHARACTER-REF-EXEMPT: elias (Malachi 4:5 PROPHESIED Elijah — referenced, fulfilled in John the Baptist who is the one depicted; Elijah himself not painted)
