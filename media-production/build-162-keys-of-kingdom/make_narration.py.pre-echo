@@ -49,7 +49,7 @@ SEGMENTS = [
     ("jv15", JESUS, "But whom say ye that I am?"),
     # Matthew 16:16
     ("s16", SCRIPTURE, "Thou art the Christ, the Son of the living God."),
-    ("n2", NARRATOR, "It was Simon Peter, the fisherman, who answered for them all. And Jesus told him that flesh and blood had not revealed that to him; his Father in heaven had."),
+    ("n2", NARRATOR, "It was Simon Peter, the fisherman, who answered for them all. You are the Christ, he said, the Son of the living God. And Jesus told him that flesh and blood had not revealed that to him; his Father in heaven had."),
     ("n3", NARRATOR, "Then Jesus said something that would change Simon's life. He gave him a new name — Peter, which means a rock — and told him that on rock like that, solid and sure, he would build something meant to outlast the ages."),
     # Matthew 16:18
     ("kv18", JESUS, "And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it."),
