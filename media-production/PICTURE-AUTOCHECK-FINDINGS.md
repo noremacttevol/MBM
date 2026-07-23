@@ -24,6 +24,23 @@ gates. #4: clear `segs/` cache, rebuild the mp4 (`build.py`), caption, submit.
 | Build | # | What was repainted |
 |---|---|---|
 | build-66-malchus-ear | 66 | Peter (gray old man in brown → approved young dark-curled fisherman, blue-grey tunic) + Malchus (→ approved walnut-tunic sheet, ear whole) on s2/s4/s5/s7 |
+| build-128-heart-far-from-me | 128 | **NEW build** (Mark 7:6-13, replaces stale Amos) — all 7 stills made + QC'd, Jesus locked. **#2 needs to make audio from `DRAFTS/row-128-heart-far-from-me.md` INTO this folder; #4 assembles + captions + closing card here.** Old `build-128-famine-of-hearing` (Amos) is untouched. |
+
+**⚠️ IN PROGRESS, NOT ready for #4:** `build-53-peters-mother-in-law` — disciple locks
+wired + John fixed to clean-shaven youth; **s1/s2/s4 repainted, but s6/s7/s8 still need
+regen** (interrupted). Do NOT assemble until s6/s7/s8 are done.
+
+## PROGRESS LOG (Machine C, 2026-07-23)
+- **#66** malchus-ear — REPAINTED (Peter+Malchus drift) → handed to #4. ✅
+- **#118** jonah, **#120** job, **#119**+**#160** nebuchadnezzar, **#117** hosea+gomer,
+  **#82** simon-the-pharisee — one-video figures VERIFIED on-model vs their approved
+  sheets (spot-checked by eye); lock wired so the gate passes; **no regen needed**. ✅
+- **Pattern learned:** one-video OT/minor characters already match their sheets (the
+  sheet was built from the same description), so they only need the lock marker, not a
+  repaint. RECURRING NT faces (Peter/John/James/Andrew/Mary/Martha/Lazarus) are where
+  real cross-video drift lives — those get QC'd and repainted like #66.
+- **Flag for a careful look:** #82 anointing — confirm the central figure isn't Jesus
+  in a non-cream (rose) robe.
 
 ## The regen tool (root-cause fix)
 `regen_shot.py` is the picture-lane workhorse. The OLD `gen_shots.py` only
