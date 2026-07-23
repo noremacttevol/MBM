@@ -34,7 +34,7 @@ flooded with disbelieving joy (s8).
 
 THE MOTHER: the girl's mother, a first-century woman, head covered, in muted dun and
 grey-blue, clearly NOT cream, grief-worn then overjoyed. THE THREE (Peter, James, John,
-s6-s8): plain Galilean fishermen in dun, brown and grey-blue, short hair and beards, NONE
+s6-s8): plain Galilean fishermen in dun, brown and grey-blue, each with his own locked look (Peter dark-curled full-beard blue-grey, Andrew/James short-beard, John the clean-shaven youth), NONE
 in cream. THE MOURNERS (s5): townsfolk weeping, in dun, faded brown and mourning greys, none
 in cream.
 
