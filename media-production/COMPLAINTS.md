@@ -34,6 +34,7 @@ touching anything else. Do NOT edit by hand.
 | 112 | newer cut shipped — VERIFY fixed | the last picture was bad Jesus was a giant compared to the other people again 2:11 |
 | 113 | newer cut shipped — VERIFY fixed | God has a body, weve bren through this and hopwfully you have created a character for him as well so his look doesnt change much like Jesus and other famous characters that will be ilustrated multiple times. |
 | 119 | newer cut shipped — VERIFY fixed | Miss pronounced bow |
+| 127 | UNFIXED | mispronounce leadeth |
 | 135 | newer cut shipped — VERIFY fixed | 1st picture has 3 girls and 5 boys that needs to change |
 | 140 | newer cut shipped — VERIFY fixed | What the f*** is this? Did we just run out of stories that were good about Jesus to tell? And now you are using somebody else's gospel to redo the same exact story we told earlier of the prodigal son that story, the prodigal son should have been summarized from this as well. You shouldn't use 2 different people telling the same story about Jesus.  As reasons to have the same story told twice, this is retarded.This is, I just can't.I can't believe you did this, and I like, did we seriously run out of Jesus stories like they're not that many, if there aren't 200, then we need to find some other way to get into things that would would be good for people to digest.But this is not good |
 | 146 | newer cut shipped — VERIFY fixed | Abideth is pronounced wrong |
