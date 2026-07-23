@@ -56,7 +56,7 @@ SEGMENTS = [
     ("n1", NARRATOR, "On a green hillside above the Sea of Galilee, Jesus sat down to teach, and a whole countryside climbed up to listen. He was walking through the old sayings one at a time — you have heard it said — and then he came to the hardest one of all: what to do with an enemy."),
     # Matthew 5:43
     ("jv43", JESUS, "Ye have heard that it hath been said, Thou shalt love thy neighbour, and hate thine enemy."),
-    ("n2", NARRATOR, "Everyone on that hillside knew that old arithmetic. Love the people who love you. Keep your guard up against the ones who don't. It felt fair. It felt safe. And then Jesus said this."),
+    ("n2", NARRATOR, "You have heard it said, he began — love your neighbour, and hate your enemy. Everyone on that hillside knew that old arithmetic. Love the people who love you. Keep your guard up against the ones who don't. It felt fair. It felt safe. And then Jesus said this."),
     # Matthew 5:44
     ("jvA", JESUS, "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you;"),
     ("n3", NARRATOR, "Not tolerate them. Not stay out of their way. Bless. Do good. Pray. Every one of those is something you go and do — aimed straight at the person who has earned none of it. Picture a farmer whose neighbor has wronged him: the fence knocked down, the insult at the well, years of cold looks across one stone wall."),
