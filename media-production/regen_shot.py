@@ -50,7 +50,7 @@ def style_block(text):
     # prompt, exactly):" or "STILL STYLE BLOCK (prepended ...):" — accept bold
     # markers, "prepend"/"prepended", and an optional leading "STILL".
     m = re.search(
-        r"\**\s*(?:STILL\s+)?STYLE BLOCK\**\s*\(prepend(?:ed)?[^\n]*\):\s*\n(.*?)\n\s*\n",
+        r"\**\s*(?:STILL\s+)?STYLE (?:BLOCK|PREFIX)\**\s*\([^)]*\):\s*\n(.*?)\n\s*\n",
         text, re.S | re.I)
     if not m:  # build-17 style: STYLE = "Beautiful hand-painted ..."
         m = re.search(r'^STYLE\s*=\s*"(.*?)"', text, re.S | re.M)
@@ -131,6 +131,11 @@ def main():
     if leftover:
         sys.exit(f"ABORT {a.dir}/{a.shot}: unexpanded tokens remain {sorted(set(leftover))} "
                  f"— fix the token definitions before generating.")
+    # Some builds (e.g. the great-commission) keep a "STYLE PREFIX" to prepend to
+    # each scene, with no token in the shot. If the prompt still lacks the style,
+    # prepend it rather than aborting.
+    if style and not re.search(r"hand-painted|painterly|animation|storybook|illustrat", prompt, re.I):
+        prompt = style + " " + prompt
     # Hard style guard: the house style is hand-painted 2D. If no painterly cue
     # survived into the prompt, something dropped the style — never ship photoreal.
     if not re.search(r"hand-painted|painterly|animation|storybook|illustrat", prompt, re.I):
