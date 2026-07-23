@@ -52,7 +52,7 @@ from mbm_speakers import NARRATOR, SCRIPTURE
 SEGMENTS = [
     # Luke 2:1
     ("sv1", SCRIPTURE, "And it came to pass in those days, that there went out a decree from Caesar Augustus, that all the world should be taxed."),
-    ("n1", NARRATOR, "And so every family in the land had to pack up and travel to the town their ancestors came from, to be registered."),
+    ("n1", NARRATOR, "In those days a decree went out from Caesar Augustus, the emperor in far-off Rome, that the whole known world should be counted and taxed. And so every family in the land had to pack up and travel to the town their ancestors came from, to be registered."),
     ("n2", NARRATOR, "For a young woman named Mary and a carpenter named Joseph, that meant a long, hard road. Ninety miles of hill country, on foot and by donkey, from Nazareth down to Bethlehem, the town of King David. And Mary was not travelling light. She was days away from giving birth."),
     ("n3", NARRATOR, "When they finally reached Bethlehem, the little town was bursting. Everyone with roots there had come back for the same count, and every house, every spare room, every corner was already taken. There was simply nowhere left."),
     ("n4", NARRATOR, "Door after door, the answer was the same. Not out of cruelty. The town was just full. And somewhere in that search, a tired householder, sorry that he had no space, pointed them to the only shelter left, the place where he kept his animals."),
