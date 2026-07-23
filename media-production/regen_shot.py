@@ -41,7 +41,7 @@ from character_refs import refs as char_refs, resolve  # noqa: E402
 CASTREF_ALIAS = {
     "john-beloved": "john", "james-son-of-zebedee": "james-z",
     "james-son-of-alphaeus": "james-a", "simon-the-zealot": "simon-z",
-    "judas-iscariot": "judas",
+    "judas-iscariot": "judas", "james": "james-z", "james-son-of-zebedee": "james-z",
 }
 
 
