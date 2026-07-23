@@ -72,7 +72,10 @@ def token_defs(text):
 
 
 def shot_block(text, slug):
-    m = re.search(r"^##\s*" + re.escape(slug) + r"[^\n]*\n(.*?)(?=^##\s|\Z)",
+    # Header format varies: "## s1-slug — ..." or "### Shot 1 — s1-slug.jpeg (...)".
+    # Match a markdown header line that CONTAINS the slug, then take everything
+    # up to the next header line.
+    m = re.search(r"^#{2,}[^\n]*" + re.escape(slug) + r"[^\n]*\n(.*?)(?=^#{2,}\s|\Z)",
                   text, re.S | re.M)
     if not m:
         sys.exit(f"shot '{slug}' not found in PROMPTS.md")
@@ -121,6 +124,13 @@ def main():
     # survived into the prompt, something dropped the style — never ship photoreal.
     if not re.search(r"hand-painted|painterly|animation|storybook|illustrat", prompt, re.I):
         sys.exit(f"ABORT {a.dir}/{a.shot}: prompt has no painterly style cue — refusing.")
+    # Universal anti-panel / anti-duplicate tail — some builds' prompts omit it
+    # and Nano Banana then tiles the scene or paints a figure twice. Append once.
+    prompt += (" ONE SINGLE UNIFIED SCENE filling the whole tall vertical 9:16 frame,"
+               " painted edge to edge as one continuous picture — NOT a diptych or"
+               " triptych, no panels, no horizontal or vertical split, no stacked or"
+               " side-by-side frames, no dividing line or border. Each person appears"
+               " EXACTLY ONCE — no duplicated or repeated figures.")
 
     refs = []
     for c in [x.strip() for x in a.chars.split(",") if x.strip()]:
