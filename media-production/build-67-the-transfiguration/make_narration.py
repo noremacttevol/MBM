@@ -50,11 +50,11 @@ from mbm_speakers import GOD, NARRATOR, SCRIPTURE
 SEGMENTS = [
     ("n0", NARRATOR, "Jesus took three of his closest friends — Peter, James, and John — up a high mountain, away from everyone."),
     ("n1", NARRATOR, "And there, in front of them, he changed. His clothes turned a blinding white, brighter than anything on earth, and for one moment they saw him shining with who he really is."),
-    ("n2a", NARRATOR, "Two of the greatest prophets, Moses and Elijah, appeared and stood talking with him."),
+    ("n2a", NARRATOR, "Two of the greatest prophets, Moses and Elias, appeared and stood talking with him."),
     ("n2b", NARRATOR, "Peter, overwhelmed, blurted out the first thing that came to him."),
     # Mark 9:5
     ("j1", SCRIPTURE, "Master, it is good for us to be here: and let us make three tabernacles; one for thee, and one for Moses, and one for Elias."),
-    ("n2c", NARRATOR, "Master, it's good that we're here — let us put up three shelters, one for you, one for Moses, one for Elijah. He wanted to keep the moment. Build something, stay a while. Mark adds, kindly, that Peter did not know what to say, because they were so afraid."),
+    ("n2c", NARRATOR, "Master, it's good that we're here — let us put up three shelters, one for you, one for Moses, one for Elias. He wanted to keep the moment. Build something, stay a while. Mark adds, kindly, that Peter did not know what to say, because they were so afraid."),
     ("n3", NARRATOR, "Then a bright cloud settled over the mountain, and out of it came a voice."),
     # Mark 9:7
     ("j2", GOD, "This is my beloved Son: hear him."),
@@ -64,7 +64,14 @@ SEGMENTS = [
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
-SPOKEN = {}
+SPOKEN = {
+    # "Elias" — Cameron wants ee-LY-us in EVERY voice (complaint #67), and the
+    # narrator paraphrases changed from "Elijah" to "Elias" above so all three
+    # speakers now say the KJV name. NOTE: whisper writes "Elias" back no matter
+    # the stress, so this respelling's ee-LY-us stress is NOT transcription-
+    # verifiable — confirm by ear.
+    "Elias": "ee lye us",
+}
 
 
 async def main():
