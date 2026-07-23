@@ -1,3 +1,39 @@
+## 2026-07-23 (cont. 4) — ELEVENLABS VOICE PATH built (kickoff priority #1) (Machine C)
+
+Fresh chat off `FRESH-CHAT-KICKOFF-2026-07-23.md`. Chain verified (top entry af0cf734
+present). Claimed the **ElevenLabs re-voice-setup lane** (priority #1) and pushed the
+claim first (`01617b50`). Both headline lanes have a real gate: the picture/Flow lane is
+character-sheet-blocked for every open picture complaint (#19/#56/#90/#113/#135/#153/#157
+all on the block list), and the re-voice lane's ONLY blocker is Cameron's ElevenLabs key +
+voice pick. So I built the entire drop-in ElevenLabs path up to that line:
+
+- **`mbm_eleven.py`** — dependency-free (stdlib `urllib`) client for
+  `/v1/text-to-speech/{voice}/with-timestamps`. Reproduces the exact per-sentence
+  `timing.json` contract (`{text,start,end}` segment-local secs) from ElevenLabs char
+  alignment — unit-tested on synthetic alignment (split + monotonic timing PASS).
+  English-only model enforced (Voice Law bans Multilingual). Optional pronunciation
+  dictionary built from a config lexicon (IPA), created once + locator cached.
+- **`eleven_config.json`** — the single file Cameron edits: `api_key`, 5 speaker voice
+  ids, model, seeded IPA lexicon for the archaic KJV words he's flagged (liveth, Esaias,
+  Siloam, Elias, findeth, calleth, leadeth, abideth, maketh, putteth, lieth, overcometh,
+  Cana, livest). Placeholders → treated as unset. Single-source (found via parent-dir
+  lookup) so the key is never copied 204×.
+- **`mbm_caption_timing.save_narration`** patched — routes to ElevenLabs when configured,
+  else edge-tts fallback (nothing breaks today). A real ElevenLabs error aborts LOUD —
+  never silently ships edge audio pretending it re-voiced.
+- **`revoice_sweep.py`** — claim-aware: regen audio → `qc_narration.py` whisper ear-check
+  → optional `build.py` mp4 rebuild. No-ops with a clear readiness report when no key.
+  Syncs engine modules into each build just-in-time (no 200-file pre-commit).
+- **`redistribute_modules.py`** (scoped to the 2 changed modules only — does NOT resync
+  pronounce/speakers) + **`ELEVENLABS-SETUP.md`** handoff.
+
+All pushed (`01617b50` claim, `e0282207` code). **BLOCKER for Cameron:** drop his
+ElevenLabs API key (env `ELEVENLABS_API_KEY` preferred, or config) + pick a voice per
+speaker (jesus must sound American), then `python3 revoice_sweep.py --rows 5 --build` to
+test one. The 200-video re-voice sweep runs the moment those are in. Pictures/Flow lane +
+character-sheet session are still open for another machine; #171 (scripture captions →
+blue) is the one open picture complaint needing NO character sheet and NO key.
+
 ## 2026-07-23 (cont. 3) — UNIFY ORDER + fresh-chat handoff (Machine C)
 
 Cameron issued the UNIFY ORDER (multi-session coordination): story source-of-truth =
