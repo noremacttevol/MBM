@@ -80,3 +80,7 @@ SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stack
 ### Closing card
 Text on cream (#F7F2E9), serif, spoken + captioned (an INVITATION): "She gave him her
 best and he called it beautiful. What would it mean to stop holding back from him?"
+
+## CHARACTER LOCK (picture-lane auto-check — Simon reads on-model; build flagged for a Jesus-robe/cream spot-check)
+SIMON THE PHARISEE LOCK: A man of about fifty-five, a RECEDING hairline of grey-streaked dark hair (the same receding hairline in every shot, never full), a full grey-streaked dark beard, solid build, warm Middle Eastern skin. He carries himself correct and a little cold — a respectable host whose judgment shows around the eyes. (Variance note: #44 painted the same man at "about fifty" with iron-grey streaks; #74 is the locked canonical: fifty-five, receding.) Standard garments: One DEEP INDIGO-BLUE wool robe with an OCHRE mantle and a fringed shawl (locked in #74) — plainly richer cloth than anyone else at his table — never off-white, never cream. Fine leather sandals.
+Attach CHARACTERS/simon-the-pharisee refs on any future regeneration.
