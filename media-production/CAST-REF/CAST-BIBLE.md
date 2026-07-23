@@ -11,6 +11,23 @@
 > all 200 videos, and the twelve are visibly distinct from one another so viewers learn
 > their faces the way they learn Jesus's voice.
 
+## ROSTER CORRECTIONS (Cameron, 2026-07-22) — for the character catalog / characters.html
+- **Adult Jesus is required** as his own character (not only the boy-at-twelve). The
+  master adult face is `JESUS-MASTER-REF/jesus-face.jpeg`.
+- **Elias and Elijah are TWO DISTINCT persons** (Latter-day Saint doctrine — the
+  Transfiguration / D&C 110 restoration). The catalog must list BOTH: **Elijah** (the OT
+  prophet, sealing keys) AND **Elias** (a separate personage, the Abrahamic/gospel
+  restoration) — never merged into one.
+- **All TWELVE apostles** must be present. The public sheet was missing five —
+  **Philip, Bartholomew (Nathanael), James son of Alphaeus, Thaddaeus (Jude), Simon the
+  Zealot** — all five are locked here in CAST-BIBLE and have portraits in `CAST-REF/`.
+
+## FACE-LOCK METHOD NOTE (2026-07-22)
+A single attached portrait on the FREE model only loosely matches (drifts in age/greying).
+For a reliable lock: use the PAID Pro image model AND attach MORE than one angle of the
+character (front + three-quarter), the way the character-sheet catalog stores each person
+in three views. Single-portrait + free-model is not tight enough for final art.
+
 ## HOW TO USE (per shot)
 1. In `PROMPTS.md`, any shot with a named disciple carries that disciple's LOCK
    paragraph below, byte-identical.
