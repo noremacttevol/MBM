@@ -16,9 +16,9 @@ touching anything else. Do NOT edit by hand.
 | 19 | UNFIXED | The clothes of peter and his look and all of the people in the boat keep changing and then picture jesus looks like he's burning something out of his hand all of these pictures look like they've been made by AI and I get that they have , but let's try our best not to make you look stupid. So redo them all |
 | 46 | UNFIXED | its still wrong correct phonetic breakdown is put-uth. |
 | 50 | UNFIXED | cana is pronounced Kay-Na |
-| 51 | UNFIXED | 1:30 nets dont tear like eyeballs do whydo you pronounce it like crying nets. also why is the rope wrapped around peters arm in the next. also why is it draft in the pronunciation but draught in the captions idk what Jesus says but its definetly not reading it right . but a big thing is that his name is not peter yet we should only call him peter whenJesus does and that will have to be a rule through the whole video series |
+| 51 | newer cut shipped — VERIFY fixed | 1:30 nets dont tear like eyeballs do whydo you pronounce it like crying nets. also why is the rope wrapped around peters arm in the next. also why is it draft in the pronunciation but draught in the captions idk what Jesus says but its definetly not reading it right . but a big thing is that his name is not peter yet we should only call him peter whenJesus does and that will have to be a rule through the whole video series |
 | 52 | UNFIXED | you said "hold thy peace, and come out of him" was 6 words thats wrong make a better real point like "short words" since we dont know how many were actualy said but we do know it was short. |
-| 56 | newer cut shipped — VERIFY fixed | The picture at 2:10 makes him look like he rose from the dead and immediately grew a beard. And his mom changed clothes again from blue to red now back to blue and got old with white hair. These things look and we need to get better at fixing it |
+| 56 | UNFIXED | pictures are lograde and the kids clothes keep changing and so does his size also Jesus was realy big in one of the photos. the whole thing needs to be redone |
 | 57 | newer cut shipped — VERIFY fixed | Lieth is pronounced lie-eth |
 | 62 | newer cut shipped — VERIFY fixed | What happened its not working on the reviewer |
 | 63 | newer cut shipped — VERIFY fixed | Mispronounced Siloam |
