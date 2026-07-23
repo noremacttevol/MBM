@@ -61,13 +61,13 @@ SEGMENTS = [
     ("n3b", NARRATOR, "Master, we worked that lake all night and caught nothing. But because you say so, I will put the net down again. Hear the word in the middle of that sentence. Nevertheless. He had every reason to say no, and he did it anyway."),
     ("n4", NARRATOR, "The moment the nets went down, they filled. A great shining mass of fish, far more than the ropes were made to hold, and the net began to tear under the sheer weight of it."),
     ("n5", NARRATOR, "There were too many for one boat. They waved to their partners, James and John, in the other boat to come and help, and both boats were loaded until they sat low in the water and began to sink."),
-    ("n6", NARRATOR, "When Simon Peter saw it, he fell down at Jesus' knees. He did not feel worthy of any of it, and what came out of him was not thank you."),
+    ("n6", NARRATOR, "When Simon saw it, he fell down at Jesus' knees. He did not feel worthy of any of it, and what came out of him was not thank you."),
     # Luke 5:8
     ("s8", SCRIPTURE, "Depart from me; for I am a sinful man, O Lord."),
     ("n6b", NARRATOR, "Go away from me, Lord. I am a sinful man. On the best morning of his working life, kneeling in fish, the first thing he wanted was distance. The wonder of it had shown him exactly who he was, and exactly who this was."),
     # Luke 5:10
     ("jv10", JESUS, "Fear not; from henceforth thou shalt catch men."),
-    ("n7", NARRATOR, "He does not send Peter away. He calls him. The trembling fisherman who begged him to leave is the very man he wants, and from this day on he will be gathering people, not fish."),
+    ("n7", NARRATOR, "He does not send Simon away. He calls him. The trembling fisherman who begged him to leave is the very man he wants, and from this day on he will be gathering people, not fish."),
     ("n8", NARRATOR, "And that was enough. They brought the boats to land, left the greatest catch of their lives lying there on the shore, and followed him. They forsook all, the nets, the boats, the best day they had ever had, and went with him."),
     ("card", NARRATOR, "He met them at their emptiest, a whole night of work and nothing to show, and filled their hands past overflowing. Then he asked for all of it, so he could give them something far greater. What is he calling you to leave behind, to follow him?"),
 ]
