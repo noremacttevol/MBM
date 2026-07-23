@@ -40,6 +40,25 @@ gates. #4: clear `segs/` cache, rebuild the mp4 (`build.py`), caption, submit.
 - **Flag for a careful look:** #82 anointing — confirm the central figure isn't Jesus
   in a non-cream (rose) robe.
 
+## REMAINING WORK (as of the big 2026-07-23 sweep — 42 → 10 gate fails)
+**Fixed/handled this session (~20 builds):** #66 #53 #58 #22 #130 #165 #91 #103 #16 #17
+#57 #37 repainted-or-verified; #118 #120 #119 #160 #117 #82 #144 #166 #128(new) locked;
+11 false-positives exempted. All committed + handed to #4.
+
+**Still open:**
+- **#137-one-as-we-are-one** (BUILT, 6 stills) — Peter/James/John drift → repaint (actionable).
+- **#67-the-transfiguration** (BUILT, 8 stills) — Peter/James/John (prime, fixable) + Moses/Elijah
+  **glorified** (needs stage sheet).
+- **Age-variant builds — need the stage sheet rendered first:** #149 child-Samuel · #154 aged-John
+  + risen-Jesus · #174 aged-John · #190 youth-Isaac · #67 glorified-Moses/Elijah · #84/#85/#86
+  infant-Jesus · #97-100/#134/#179/#189 risen-Jesus. **risen-Jesus sheet RENDERED this session**
+  (pending Cameron approval); infant-Jesus SPEC exists (needs render); child-Samuel/aged-John/
+  youth-Isaac/glorified-Moses/Elijah need SPEC written THEN rendered.
+- **Structural — need Cameron's call (NOT a stills defect):** #02-prodigal & #71-calling-the-fishermen
+  have NO PROMPTS.md; #67-transfiguration (empty) and #137 (one-as-we-are-one vs stephen) are
+  duplicate folders; #71-the-great-commission is an unbuilt template (no stills). Cameron/#1 decides
+  which folder is canonical before these can be built/cleared.
+
 ## The regen tool (root-cause fix)
 `regen_shot.py` is the picture-lane workhorse. The OLD `gen_shots.py` only
 attached the Jesus ref and never expanded `[X LOCK]` tokens or attached character
