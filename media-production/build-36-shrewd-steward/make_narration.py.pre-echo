@@ -86,7 +86,7 @@ SEGMENTS = [
     ("n4", NARRATOR, "So while he still could, he quickly called in every person who owed his employer money, one after another, to make himself some friends before it was too late."),
     # Luke 16:6
     ("j6", JESUS, "Take thy bill, and sit down quickly, and write fifty."),
-    ("n5", NARRATOR, "How much do you owe? he asked the first man. A hundred jugs of olive oil. And the farmer could hardly believe it."),
+    ("n5", NARRATOR, "How much do you owe? he asked the first man. A hundred jugs of olive oil. Quick, said the manager, take your bill and write down fifty. And the farmer could hardly believe it."),
     ("n6", NARRATOR, "And you? A hundred measures of wheat. Take your bill, he said, and write down eighty. One after another he made friends who would remember him and take him in when he had nothing."),
     # Luke 16:8
     ("j1", JESUS, "And the lord commended the unjust steward, because he had done wisely: for the children of this world are in their generation wiser than the children of light."),
