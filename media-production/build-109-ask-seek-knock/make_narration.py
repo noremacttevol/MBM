@@ -68,7 +68,16 @@ SEGMENTS = [
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
-SPOKEN = {}
+SPOKEN = {
+    # findeth (jv8, JESUS voice) — Cameron denial #109 "Findeth is pronounced as
+    # fynd-uhth. 0:51". Measured 2026-07-23: Eric reads the plain word IN CONTEXT
+    # ("...seeketh findeth; and to him that knocketh...") as "fendeth" (FEN-deth),
+    # reproduced 2/2 on the exact jv8 line and matching the shipped audio. Candidates
+    # fyndith / fyndeth / finedeth all round-trip as the exact word "findeth"; fyndith
+    # kept (one lowercase word, no caps/hyphens per PRONUNCIATION-LAW). Caption keeps
+    # the true KJV "findeth".
+    "findeth": "fyndith",
+}
 
 
 async def main():

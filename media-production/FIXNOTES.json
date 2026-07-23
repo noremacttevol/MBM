@@ -369,6 +369,10 @@
   {
    "date": "2026-07-21",
    "note": "VERIFIED already fixed, no rebuild: the word at 0:50 isolated from the current cut whisper-transcribes as 'that seeketh findeth' \u2014 FIND-eth with the long i, and the whole Matthew 7:8 line reads clean (asketh receiveth / seeketh findeth / knocketh). The old 'asks it for sieveth' slur is gone."
+  },
+  {
+   "date": "2026-07-23",
+   "note": "pronunciation: 'findeth' (jv8, Jesus voice) was reading as 'fendeth' \u2014 added measured respelling 'fyndith' so it says FIND-eth; caption keeps KJV 'findeth'. Rebuilt + verified."
   }
  ],
  "119": [
