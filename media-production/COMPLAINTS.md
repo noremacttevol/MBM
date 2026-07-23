@@ -11,9 +11,9 @@ touching anything else. Do NOT edit by hand.
 | # | Status | What Cameron said |
 |---|---|---|
 | 7 | newer cut shipped — VERIFY fixed | the words only picture at the end is messed up and out of the frame  on the edges it should be 2 or 3 lines |
-| 13 | newer cut shipped — VERIFY fixed | This is old and needs to be updated to the version where we can use Jesus' face |
+| 13 | UNFIXED | Redo the picture of the pharisees in the corner that are judging at 3 minutes, that picture because it just doesn't look good and it's old.So we need to update it |
 | 17 | newer cut shipped — VERIFY fixed | captions are messed up and the voice  is messed  up and is misspronouncing livest and  other old english pronunciation. |
-| 19 | newer cut shipped — VERIFY fixed | pictures for peters meeting are out of order and look like compltetely differnt people this al needs to be redone with better ways of matching the characters, the ones who are in other stories, peter and Jesus and the new people the other men in the boat need to be the same in every frame and that needs to be a laaaw we nneed to watch for things that will steer people astray from listening to the importnat words |
+| 19 | UNFIXED | The clothes of peter and his look and all of the people in the boat keep changing and then picture jesus looks like he's burning something out of his hand all of these pictures look like they've been made by AI and I get that they have , but let's try our best not to make you look stupid. So redo them all |
 | 20 | newer cut shipped — VERIFY fixed | one frame the samaratin had hair and the next he was bald. |
 | 46 | UNFIXED | Figure out how to putteth like putith |
 | 50 | newer cut shipped — VERIFY fixed | liveth : Livith, Cana: KAY-nuh.   Pictures : 57: Jesus too big,  1:17 both caharacters jesus and the noble man look bad just redo that picture, 2:10 the character went grey when he was brown haired and young looking, same for the next picture but the at 2: 59 he went back to brown and that looks good. |
