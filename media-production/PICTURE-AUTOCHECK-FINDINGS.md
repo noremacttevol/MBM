@@ -18,6 +18,24 @@
 > character not painted) is cleared with one line, no credit spent:
 > `CHARACTER-REF-EXEMPT: <name> (reason)`.
 
+## ✅ STILLS FIXED — HANDOFF TO #4 (reassemble + caption + submit)
+These builds have their stills repainted to the approved sheets and pass BOTH
+gates. #4: clear `segs/` cache, rebuild the mp4 (`build.py`), caption, submit.
+| Build | # | What was repainted |
+|---|---|---|
+| build-66-malchus-ear | 66 | Peter (gray old man in brown → approved young dark-curled fisherman, blue-grey tunic) + Malchus (→ approved walnut-tunic sheet, ear whole) on s2/s4/s5/s7 |
+
+## The regen tool (root-cause fix)
+`regen_shot.py` is the picture-lane workhorse. The OLD `gen_shots.py` only
+attached the Jesus ref and never expanded `[X LOCK]` tokens or attached character
+sheets — **that is why characters drifted even after their sheets were approved.**
+`regen_shot.py` expands every lock token and attaches the right cast + Jesus refs:
+```
+python3 regen_shot.py --dir build-NN --shot s2-slug --chars peter,malchus [--jesus] --dry-run
+```
+Always `--dry-run` first (prints the expanded prompt + ref list, generates nothing),
+eyeball it, then run for real. QC every output jpeg against the sheet before moving on.
+
 ## How each row is resolved
 - **DEPICTED** → paste the character's `lock_text(...)` into PROMPTS.md, attach
   their `refs(...)` jpegs, regenerate that still on Flow/Nano-Banana, QC the jpeg,
@@ -65,7 +83,7 @@
 | build-53-peters-mother-in-law | 53 | andrew, james, john-beloved, peter | DEPICTED | — |
 | build-57-jairus-daughter | 57 | jairus, james, john-beloved, peter | DEPICTED | — |
 | build-58-feeding-5000 | 58 | andrew | DEPICTED | — |
-| build-66-malchus-ear | 66 | malchus | DEPICTED | — |
+| build-66-malchus-ear | 66 | malchus | ✅ FIXED (see handoff section) | — |
 | build-67-the-transfiguration | 67 | james, john-beloved, moses, peter | DEPICTED (Moses glorified — variant; dup folder §D) | — |
 | build-67-transfiguration | 67 | elijah, james, john-beloved, moses, peter | DEPICTED (dup folder §D) | — |
 | build-71-the-great-commission | 71 | the Twelve (all) | DEPICTED (dup folder §D) | — |
