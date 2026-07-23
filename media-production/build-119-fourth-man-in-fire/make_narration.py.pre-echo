@@ -66,7 +66,7 @@ SEGMENTS = [
     ("n9", NARRATOR, "The officials crowded around and could not believe it. Not a hair of their heads was singed, their coats were not burned, and there was not even the smell of smoke on them. The fire had done nothing at all."),
     # Daniel 3:28
     ("s328", SCRIPTURE, "Blessed be the God of Shadrach, Meshach, and Abednego, who hath sent his angel, and delivered his servants that trusted in him."),
-    ("n10", NARRATOR, "That is the same man who asked, an hour earlier, who is that God that shall deliver you out of my hands. He got his answer, and he said it himself."),
+    ("n10", NARRATOR, "Blessed be their God, the proud king says, who sent his angel and rescued the servants that trusted him. That is the same man who asked, an hour earlier, who is that God that shall deliver you out of my hands. He got his answer, and he said it himself."),
     ("card", NARRATOR, "God never promised these three that they would not face the fire. He promised something better — that he would be in it with them. What would change if you believed God meets you inside the hard thing, not only on the far side of it?"),
 ]
 
