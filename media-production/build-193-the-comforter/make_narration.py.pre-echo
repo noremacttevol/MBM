@@ -52,7 +52,7 @@ SEGMENTS = [
     ("n0", NARRATOR, "On the night before He died, Jesus sat with His disciples and told them they would not be left alone."),
     # John 14:18
     ("j0", JESUS, "I will not leave you comfortless: I will come to you."),
-    ("n0b", NARRATOR, "He was hours from the cross, and He was the one doing the comforting — promising that whatever else they lost that week, they would not be left on their own."),
+    ("n0b", NARRATOR, "I will not leave you comfortless. He was hours from the cross, and He was the one doing the comforting — promising that whatever else they lost that week, they would not be left on their own."),
     ("n1", NARRATOR, "He promised another Helper would come — the Holy Ghost, sent by the Father in His name."),
     ("n2a", NARRATOR, "This Helper would do two things: teach them everything,"),
     ("n2b", NARRATOR, "and bring every word Jesus had spoken back to their minds."),
