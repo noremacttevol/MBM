@@ -62,7 +62,7 @@ SEGMENTS = [
     ("n4b", NARRATOR, "Leave us alone. What do you want with us, Jesus of Nazareth? Have you come to destroy us? And then, almost trembling: I know who you are. The Holy One of God. Sit with that for a second. In a room full of religious people, the first one to say out loud exactly who he was, was the darkness."),
     # Mark 1:25
     ("jv25", JESUS, "Hold thy peace, and come out of him."),
-    ("n5", NARRATOR, "Be quiet, and come out of him. Six words. There was no long battle, no struggle of equals. At his word the spirit shook the man one last time, cried out with a loud voice, and came out of him. The thing that had held him for so long simply had to go."),
+    ("n5", NARRATOR, "Be quiet, and come out of him. Just a few short words. There was no long battle, no struggle of equals. At his word the spirit shook the man one last time, cried out with a loud voice, and came out of him. The thing that had held him for so long simply had to go."),
     ("n6", NARRATOR, "And the man was free. The torment had drained from his face, and he stood there quiet and whole, himself again, like someone waking gently from a long and terrible dream."),
     ("n7", NARRATOR, "The people were amazed, and they turned to one another asking:"),
     # Mark 1:27
