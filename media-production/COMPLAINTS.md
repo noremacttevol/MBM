@@ -19,9 +19,9 @@ touching anything else. Do NOT edit by hand.
 | 51 | newer cut shipped — VERIFY fixed | Characters dont match the new characters we have made. neeeds updated pictures |
 | 52 | newer cut shipped — VERIFY fixed | 2:23 cammandeth +  kuh-MEN-duhth |
 | 56 | newer cut shipped — VERIFY fixed | The picture at 2:10 makes him look like he rose from the dead and immediately grew a beard. And his mom changed clothes again from blue to red now back to blue and got old with white hair. These things look and we need to get better at fixing it |
-| 57 | UNFIXED | Lieth is pronounced lie-eth |
+| 57 | newer cut shipped — VERIFY fixed | Lieth is pronounced lie-eth |
 | 62 | newer cut shipped — VERIFY fixed | What happened its not working on the reviewer |
-| 63 | UNFIXED | Mispronounced Siloam |
+| 63 | newer cut shipped — VERIFY fixed | Mispronounced Siloam |
 | 67 | UNFIXED | 1:02 its pronounced and spelled wrongly its pronounced: ee-LY-us and spelled in all persons speaking it even the narrirator : Elias. Elijah is a different prophet that is wrong |
 | 71 | UNFIXED | I cant tell if this were remade witht he correct refrences for the characters or not. Lets just redo the knes with the important characters that we have the refrence for now. |
 | 83 | newer cut shipped — VERIFY fixed | 1. the first picture they are walking the wrong way and it looks like the are walking away from jerusalem rather than twords it. 2. the second picture Jesus looks like a giant. 3. at the end of the video the question is asked but then it stays going for an extra 13 seconds |
