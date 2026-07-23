@@ -51,7 +51,28 @@ Before any story is built, check it here. Status meanings:
 | #2 / #8 / #21 (Luke 15 trio) | KEEP all | deliberately 3 angles of one sermon, not duplicates |
 | Sermon-on-the-Mount cluster (#47,109–112,121–127,139,188) | KEEP | separate teachings, not duplicates |
 
-_(full 200-row audit in progress — Claude adds rows here and pushes as it goes.)_
+### FULL 200 AUDIT RESULT (2026-07-23) — the library is NOT riddled with duplicates
+Swept all 200 by event vs scripture ref. **Only ONE true story-duplicate exists, and
+it's already fixed.** Cameron's fear ("did we run out of stories?") is unfounded — ~199
+of the 200 are genuinely distinct. Action list is tiny:
+
+| # | title(s) | verdict | action |
+|---|---|---|---|
+| — | build-140-road-runs-both-ways | **TRUE DUP — REPLACE (done)** | dead 2nd Prodigal; #140 is now Naaman. **Delete the folder.** |
+| #44 ↔ #74 | Two debtors (Luke 7) inside Woman washed his feet (Luke 7) | **MERGE→#74** | one scene; fold the parable into #74, retire #44's slot for a NEW story |
+| #74 ↔ #82 | Foot-washing (Luke 7) vs Anointing at Bethany (Mark 14) | **CAMERON'S DOCTRINE CALL** | scholars split: same anointing or two? If one → merge; if two → keep both distinct. Flagged, not guessed. |
+| #121 ↔ #139 | Salt & light (Matt 5) vs Lamp on a stand (Mark 4) | **REVIEW — likely KEEP** | different sermons, same "light" image; keep unless they play as a repeat |
+
+**Same event, DIFFERENT doctrinal purpose — all KEEP (do NOT re-narrate the scene;
+use the ONE line for the member-shelf point):**
+- #69 Baptism of Jesus (Matt 3) ↔ #169 "to fulfil all righteousness" (proper authority)
+- #103 Peter's confession (Matt 16) ↔ #162 keys of the kingdom (priesthood keys)
+- #95 Thief on the cross ↔ #134 "Today...paradise" (spirit world)
+These are legitimate: they teach doctrine from a scene, they don't re-tell the story.
+
+**Net for Cameron:** you need ~1–2 NEW replacement stories at most (the #44 slot, plus
+#140's slot which Naaman already fills), NOT dozens. Claude will propose the #44 swap
+for approval. Everything else is KEEP.
 
 ## Workflow discipline (multi-machine)
 - Push every change here immediately; other sessions are working the same problem and
