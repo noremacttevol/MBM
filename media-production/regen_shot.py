@@ -46,15 +46,28 @@ CASTREF_ALIAS = {
 
 
 def style_block(text):
-    m = re.search(r"STILL STYLE BLOCK \(prepended[^\n]*\):\n(.*?)\n\n", text, re.S)
+    # Header varies across builds: "**STILL STYLE BLOCK** (prepend to every
+    # prompt, exactly):" or "STILL STYLE BLOCK (prepended ...):" — accept bold
+    # markers, "prepend"/"prepended", and an optional leading "STILL".
+    m = re.search(
+        r"\**\s*(?:STILL\s+)?STYLE BLOCK\**\s*\(prepend(?:ed)?[^\n]*\):\s*\n(.*?)\n\s*\n",
+        text, re.S | re.I)
     return " ".join(m.group(1).split()) if m else ""
 
 
 def token_defs(text):
-    """Every `[TOKEN] = definition` (definition may wrap lines) -> dict."""
+    """Continuity tokens -> dict of "[TOKEN]" -> expansion text. Two formats:
+    A) `[TOKEN] = definition ...`  (definition may wrap lines)
+    B) `**TOKEN** (append/prepend to every prompt, exactly ...):\n<block>` — the
+       block until the next blank line (e.g. build-22's ANTI-PANEL CLAUSE)."""
     defs = {}
     for m in re.finditer(r"^\[([^\]]+)\]\s*=\s*(.+?)(?=\n\n|\n\[|\Z)", text, re.S | re.M):
         defs["[" + m.group(1) + "]"] = " ".join(m.group(2).split())
+    for m in re.finditer(
+            r"^\**\[?([A-Z][A-Z0-9 \-]+?)\]?\**\s*\((?:append|prepend|prepended)[^)]*\)\s*:\s*\n(.*?)\n\s*\n",
+            text, re.S | re.M | re.I):
+        key = "[" + m.group(1).strip() + "]"
+        defs.setdefault(key, " ".join(m.group(2).split()))
     return defs
 
 
@@ -93,12 +106,21 @@ def main():
     text = (d / "PROMPTS.md").read_text()
 
     prompt = shot_block(text, a.shot)
-    prompt = prompt.replace("[STILL STYLE BLOCK]", style_block(text))
+    style = style_block(text)
+    if "[STILL STYLE BLOCK]" in prompt and not style:
+        sys.exit(f"ABORT {a.dir}/{a.shot}: could not find the STILL STYLE BLOCK "
+                 f"definition — refusing to generate a style-less (photoreal) image.")
+    prompt = prompt.replace("[STILL STYLE BLOCK]", style)
     for tok, val in token_defs(text).items():
         prompt = prompt.replace(tok, val)
     leftover = re.findall(r"\[[A-Z][A-Z0-9 \-]*\]", prompt)
     if leftover:
-        print(f"WARNING: unexpanded tokens remain: {sorted(set(leftover))}", file=sys.stderr)
+        sys.exit(f"ABORT {a.dir}/{a.shot}: unexpanded tokens remain {sorted(set(leftover))} "
+                 f"— fix the token definitions before generating.")
+    # Hard style guard: the house style is hand-painted 2D. If no painterly cue
+    # survived into the prompt, something dropped the style — never ship photoreal.
+    if not re.search(r"hand-painted|painterly|animation|storybook|illustrat", prompt, re.I):
+        sys.exit(f"ABORT {a.dir}/{a.shot}: prompt has no painterly style cue — refusing.")
 
     refs = []
     for c in [x.strip() for x in a.chars.split(",") if x.strip()]:

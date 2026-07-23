@@ -53,8 +53,9 @@ comic strip, just one single picture.
 
 ## s1 — Shot 1: Peter's question (the only Jesus beat, from behind)
 [STILL STYLE BLOCK] A warm first-century Galilean courtyard in soft golden
-afternoon light. Peter — a broad, weathered fisherman with a short dark beard in
-a simple brown tunic — leans in earnestly, one hand open, mid-question. A small
+afternoon light. Peter — a broad Galilean fisherman with thick dark curly hair and a
+full dark beard, in his locked BLUE-GREY tunic (never cream), the same man as the
+attached peter reference — leans in earnestly, one hand open, mid-question. A small
 knot of other plainly dressed disciples gathers close around him, quietly
 listening. They are all turned toward a seated teacher, the Lord, resting on a
 low stone step at the near edge of the frame, shown only from directly behind
