@@ -22,8 +22,12 @@ Commands:
       set. `gen` verifies the chip says "Nano Banana 2" and "0 credits" appears;
       it sets 9:16/1x via the chip popup when needed.
 
-Money law: this drives Cameron's FLOW (Ultra, 0 credits for Nano Banana 2 images).
-It never touches the paid Gemini API.
+Money law: this drives Cameron's FLOW on his Ultra plan. His Flow credits are
+PREPAID and EXPIRE MONTHLY — do NOT hoard them and do NOT default to the cheapest
+model to save money that expires anyway. Spend on the model that gets it right:
+Nano Banana Pro (and other credit-costing models) are ALLOWED and encouraged for
+faces, Jesus, crowds, and anything that needs fewer rerolls. The ONLY thing banned
+is the paid Gemini API. Never call Flow generations "0 credits", "$0", or "free".
 """
 import argparse
 import base64

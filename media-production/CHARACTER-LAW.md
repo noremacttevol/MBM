@@ -37,6 +37,28 @@ pictures for a story and then it not keeping the people looking the same at all.
 
 ---
 
+# NAMING LAW (Cameron, 2026-07-22)
+
+**A character is called by the name scripture (or Jesus) uses at that point in the
+story — one name at a time, NEVER both.**
+
+- **Simon / Peter.** In the NARRATION he is **Simon** before Jesus renames him
+  (Matthew 16:18, *"thou art Peter"*), and **Peter** from that moment on. Pick the
+  one that fits where the story sits — the calling, the boats, the early miracles
+  are all **Simon**; Caesarea Philippi onward is **Peter**. **Never write "Simon
+  Peter" in narration**, and never flip between the two names inside one video.
+- **Captions stay verbatim KJV.** If the actual verse on screen prints "Simon
+  Peter" (e.g. Luke 5:8, John 21:15), the caption keeps it exactly — this law
+  governs the NARRATOR's modern retelling, never the scripture text a viewer could
+  look up.
+- **Same principle for every renamed figure:** Saul → Paul (Acts 13:9), Abram →
+  Abraham (Gen 17:5), Jacob → Israel (Gen 32:28), Sarai → Sarah. The narration uses
+  the name that belongs to that point in the account, one at a time, never both.
+- Fixed in #51 (first catch of fish) 2026-07-22: narrator said "Peter," "Simon,"
+  and "Simon Peter" all in one video — now **Simon** throughout the calling.
+
+---
+
 # AGE-VARIANT KEY (Cameron, 2026-07-21)
 
 *"A key for any other figures that are made into videos in their older years so

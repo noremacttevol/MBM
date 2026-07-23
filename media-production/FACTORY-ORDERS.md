@@ -26,7 +26,9 @@ never call the API. That bills Cameron's card on top of what he already pays.
 **FREE TO USE (already paid for):** Cameron's Flow ULTRA plan credits — 25,000/month,
 and they EXPIRE monthly. Spending them costs nothing extra; letting them rot wastes
 money already spent. So in Flow:
-- Nano Banana 2 (0 credits) is the default for ordinary stills.
+- Flow credits are PREPAID and EXPIRE MONTHLY — spend them on quality, don't hoard.
+  Use Nano Banana Pro for faces/Jesus/crowds/fewer rerolls; Nano Banana 2 is fine for
+  ordinary stills. Only the paid Gemini API is banned. (Never say "0 credits/free".)
 - SPEND CREDITS FREELY whenever they buy quality or fewer rerolls — Nano Banana Pro /
   higher tiers for the master face, Jesus close-ups, complex crowd scenes, or any shot
   that keeps failing on the free model. A 5-credit still that lands first try beats
