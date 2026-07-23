@@ -1,8 +1,21 @@
-# STORY LEDGER — the shared law for WHICH stories exist and WHY (Cameron, 2026-07-23)
+# STORY LEDGER — supporting notes (SUBORDINATE to the authoritative docs)
 
-> **Every Claude Code session on every machine reads THIS file before touching story
-> content.** It is the agreement so all sessions converge. If you change the plan,
-> change it HERE and push, then tell Cameron. Do not fork the story set in your head.
+> ⚠️ **THIS FILE IS NOT THE SOURCE OF TRUTH. Read these first, in order:**
+> 1. **`AUDITS/2026-07-20-repeat-audit.md`** — the authoritative dedup (Cameron-ordered).
+>    It already found & replaced SIX repeats (#71,128,133,134,137,140). Dedup is DONE.
+> 2. **`STORY-INTEGRITY-LAW.md`** — the reconciled standing law (rules + Pentecost + bench).
+>
+> This ledger was written 2026-07-23 by a parallel session BEFORE it read the Jul-20
+> audit, so two of its early calls were WRONG and are RETRACTED below. Kept only for the
+> one-event/blend-witnesses rule statement, which matches the authoritative docs.
+
+> ### RETRACTIONS (do not act on the old versions of these)
+> - ❌ "Only ONE true duplicate" — WRONG. There were SIX; five were already swapped in
+>   the Jul-20 audit, so the current queue only still showed #140. Dedup already complete.
+> - ❌ "MERGE #44 two-debtors → #74" — WRONG. Both audits rule **KEEP #44** (it's an
+>   APPROVED video; the parable vs. the woman it was told for is an allowed add-on).
+> - The #74/#82 anointing "doctrine call" is not raised by either audit — drop it unless
+>   Cameron asks.
 
 ## The decision (Cameron + Claude, 2026-07-23)
 
