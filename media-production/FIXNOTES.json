@@ -749,6 +749,10 @@
   {
    "date": "2026-07-21",
    "note": "File came out 28.5MB, over the 25MB limit (the re-recorded narration made it longer). Re-encoded the picture to 23.5MB. Same length, same audio, same words."
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "107": [
