@@ -80,7 +80,12 @@ SEGMENTS = [
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
-SPOKEN = {}
+SPOKEN = {
+    # s23 (Jairus) — plain "lieth" was read with a long-E ("leaves"); "lyeth"
+    # forces the long-I "LIE-eth" Cameron asked for (complaint #57). Whisper
+    # modernizes the -eth ending back to "lies" (Trap 1), the audio is correct.
+    "lieth": "lyeth",
+}
 
 
 async def main():

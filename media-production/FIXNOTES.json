@@ -255,6 +255,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-22",
+   "note": "Fixed \"lieth\" \u2014 it was being read with a long-E (\"leaves\"). Now says LIE-eth correctly (verified in final audio: \"My little daughter Lyeth at the point of death\"). Caption still shows the true KJV \"lieth.\" \u2014 narration re-recorded; build script updated"
   }
  ],
  "62": [
