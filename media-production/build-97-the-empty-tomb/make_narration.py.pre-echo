@@ -55,14 +55,14 @@ SEGMENTS = [
     ("n0", NARRATOR, "Very early on the first day of the week, while it was still dark, the women who loved him came to the tomb carrying spices to anoint his body. And the whole way there, one thing worried them."),
     # Mark 16:3
     ("w3", WOMAN, "Who shall roll us away the stone from the door of the sepulchre?"),
-    ("n0b", NARRATOR, "It took several men to move it, and there were only a few women walking up that hill in the dark."),
+    ("n0b", NARRATOR, "Who is going to roll the stone away for us? It took several men to move it, and there were only a few women walking up that hill in the dark."),
     ("n1", NARRATOR, "But when they arrived, the huge stone that had sealed the tomb was rolled away."),
     ("n2a", NARRATOR, "They stepped inside — and the body was gone."),
     ("n2b", NARRATOR, "They stood there, confused and afraid."),
     ("n3", NARRATOR, "Then two figures in dazzling clothing stood beside them, and asked a question that has echoed for two thousand years:"),
     # Luke 24:5-6
     ("s5", SCRIPTURE, "Why seek ye the living among the dead? He is not here, but is risen:"),
-    ("n4", NARRATOR, "He is not here — he is risen."),
+    ("n4", NARRATOR, "Why do you look for the living among the dead? He is not here — he is risen."),
     # Luke 24:6-7
     ("s6", SCRIPTURE, "remember how he spake unto you when he was yet in Galilee, Saying, The Son of man must be delivered into the hands of sinful men, and be crucified, and the third day rise again."),
     ("n5a", NARRATOR, "Remember, they said, what he told you back in Galilee — that he would be handed over to sinful men, and crucified, and on the third day rise again. He had said all of it, out loud, before any of it happened."),
