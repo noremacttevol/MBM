@@ -1,3 +1,38 @@
+## 2026-07-23 — GIT RECONCILE (orphan lineage → healthy peer) + AUTO-FIX LOOP: 3 shipped, audit of the rest (Machine C)
+
+Commit: (this commit). Ran AUTO-LOOP-KICKOFF.md (the auto-fix loop). First had to
+un-block shipping from this box.
+
+- **GIT: this box was an ORPHAN LINEAGE.** `git merge-base HEAD origin/main` = NO
+  COMMON ANCESTOR — local `main` (1443 commits) and origin were unrelated histories
+  (origin was rewritten, likely to get under GitHub's 1GB cap; this box kept
+  committing on the dead lineage, which is why its pull "hung" and it "couldn't
+  push"). Fixed non-destructively: `git pull --rebase origin main` actually
+  replayed only 23 unique commits (git dropped the rest as already-upstream);
+  SKIPPED the 2 old-caption-renderer commits (superseded by origin's Jost engine),
+  resolved every code/build.py conflict to origin (`--ours`), kept my additive cast
+  stills + CAST-REF + slash-commands/hooks. Net vs origin: +567/-30 (deletions only
+  in archive/retired-builds). PUSHED clean (594a0632). This box is now a normal peer;
+  normal pull-rebase+push works. The loop tools (admin/*.mjs|sh) need node, which is
+  NOT installed here — so live-complaint refresh + firebase deploy happen on other
+  machines; this box fixes + pushes, board deploys elsewhere.
+- **SHIPPED (rebuilt + whisper-verified):** #109 findeth (was "fendeth" → measured
+  respell "fyndith" = FIND-eth); #50 Cana (was "Canoe" — the respell "kaynuh" was
+  the CAUSE; removed it, plain word = KAY-nuh); #52 demoniac-synagogue ("Six words."
+  → "just a few short words", drops the wrong count).
+- **AUDITED already-fixed (current cut is correct; awaiting Cameron's APPROVAL to
+  clear — do NOT rebuild):** #46 putteth, #57 lieth, #62 "Mark records"(verb),
+  #67 Elias, #83/#86 tail-timing (~1.9s, not 13s), #108 calleth, #146 abideth,
+  #150/#171/#184 caption colour (scripture renders BLUE, only Jesus red — frame-
+  confirmed on #150 Psalm 23), #188 maketh. Machine A's prior entry also already
+  fixed #119 bows→"boughs", #135 family, #113 God-embodied.
+- **STILL OPEN — need a Flow session (pictures, credits, Cameron's screen; kept for
+  a fresh low-context session so a browser burst can't wedge on a context limit):**
+  #13 pharisees pic, #19 Peter/boat "redo them all", #56 low-grade/size drift,
+  #90, #107 John face-lock, #112/#157 giant Jesus, #153 weird pic, #181 pics-dont-fit.
+- **DOCTRINE / STOP (left for Cameron):** #140 duplicate prodigal, #179 Stephen
+  Father+Son vision. Borderline pron left: #63 Siloam, #173 live.
+
 ## 2026-07-21 (night) — COMPLAINT BURN-DOWN: all 32 rows proven, 15 rebuilt, #140 Naaman BUILT (Machine A)
 
 Commit: (this commit). Verify-first pass over every COMPLAINTS.md row in number
