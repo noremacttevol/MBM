@@ -50,7 +50,7 @@ def style_block(text):
     # prompt, exactly):" or "STILL STYLE BLOCK (prepended ...):" — accept bold
     # markers, "prepend"/"prepended", and an optional leading "STILL".
     m = re.search(
-        r"\**\s*(?:STILL\s+)?STYLE (?:BLOCK|PREFIX)\**\s*\([^)]*\):\s*\n(.*?)\n\s*\n",
+        r"(?:^|\n)[#*\s]*(?:STILL\s+)?STYLE (?:BLOCK|PREFIX)[#*\s]*\([^)]*\)\s*:?\s*\n(.*?)\n\s*\n",
         text, re.S | re.I)
     if not m:  # build-17 style: STYLE = "Beautiful hand-painted ..."
         m = re.search(r'^STYLE\s*=\s*"(.*?)"', text, re.S | re.M)
