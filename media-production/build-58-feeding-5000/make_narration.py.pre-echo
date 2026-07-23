@@ -55,11 +55,11 @@ SEGMENTS = [
     ("n2", NARRATOR, "His disciples grew anxious as the light went. But Jesus turned it back on them. He looked up at the crowd coming toward him and asked Philip:"),
     # John 6:5
     ("j5", JESUS, "Whence shall we buy bread, that these may eat?"),
-    ("n2b", NARRATOR, "He was not worried. John tells us plainly that he already knew exactly what he was going to do — he asked to see what Philip would say."),
+    ("n2b", NARRATOR, "Where are we going to buy bread for these people to eat? He was not worried. John tells us plainly that he already knew exactly what he was going to do — he asked to see what Philip would say."),
     ("n3", NARRATOR, "There was only one lunch in the whole crowd. Andrew, Simon Peter's brother, brought a boy to Jesus, almost embarrassed to mention it."),
     # John 6:9
     ("s9", SCRIPTURE, "There is a lad here, which hath five barley loaves, and two small fishes: but what are they among so many?"),
-    ("n3b", NARRATOR, "Barley was the poor man's bread. It was the smallest, cheapest lunch on that whole hillside, and it was the only thing anybody offered."),
+    ("n3b", NARRATOR, "There's a boy here with five little barley loaves and two small fish, he said — but what is that among so many? Barley was the poor man's bread. It was the smallest, cheapest lunch on that whole hillside, and it was the only thing anybody offered."),
     ("n4", NARRATOR, "Jesus was not troubled by how little there was. He said simply:"),
     # John 6:10
     ("j10", JESUS, "Make the men sit down."),
@@ -72,7 +72,7 @@ SEGMENTS = [
     ("n7", NARRATOR, "When the people saw the sign, they were amazed, and began to say:"),
     # John 6:14
     ("s14", SCRIPTURE, "This is of a truth that prophet that should come into the world."),
-    ("n7b", NARRATOR, "He had taken almost nothing, given thanks for it, and fed them all."),
+    ("n7b", NARRATOR, "This really is the Prophet who was promised, they said — the one who was to come into the world. He had taken almost nothing, given thanks for it, and fed them all."),
     ("card", NARRATOR, "He still takes the little you have, the not-enough, the barely-anything, the lunch you are embarrassed to offer, and gives thanks for it, and breaks it, and somehow it becomes enough, with baskets to spare. What small thing is he asking you to place in his hands?"),
 ]
 
