@@ -52,6 +52,8 @@ def style_block(text):
     m = re.search(
         r"\**\s*(?:STILL\s+)?STYLE BLOCK\**\s*\(prepend(?:ed)?[^\n]*\):\s*\n(.*?)\n\s*\n",
         text, re.S | re.I)
+    if not m:  # build-17 style: STYLE = "Beautiful hand-painted ..."
+        m = re.search(r'^STYLE\s*=\s*"(.*?)"', text, re.S | re.M)
     return " ".join(m.group(1).split()) if m else ""
 
 
@@ -114,6 +116,9 @@ def main():
         sys.exit(f"ABORT {a.dir}/{a.shot}: could not find the STILL STYLE BLOCK "
                  f"definition — refusing to generate a style-less (photoreal) image.")
     prompt = prompt.replace("[STILL STYLE BLOCK]", style)
+    # build-17 style: a shot begins with a bare "STYLE " keyword to be expanded.
+    if style and re.match(r"^\s*STYLE\s+\S", prompt) and "[STILL STYLE BLOCK]" not in shot_block(text, a.shot):
+        prompt = re.sub(r"^\s*STYLE\s+", style + " ", prompt, count=1)
     for tok, val in token_defs(text).items():
         prompt = prompt.replace(tok, val)
     leftover = re.findall(r"\[[A-Z][A-Z0-9 \-]*\]", prompt)
