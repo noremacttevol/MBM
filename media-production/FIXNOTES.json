@@ -1988,5 +1988,11 @@
    "date": "2026-07-23",
    "note": "re-rendered (audio + captions)"
   }
+ ],
+ "103": [
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
+  }
  ]
 }

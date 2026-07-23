@@ -65,7 +65,7 @@ SEGMENTS = [
     ("np", NARRATOR, "And Simon Peter answered him."),
     # Matthew 16:16
     ("sp16", SCRIPTURE, "Thou art the Christ, the Son of the living God."),
-    ("n5", NARRATOR, "Not a prophet. Not a teacher. Peter said out loud the thing the others had only half-dared to hope."),
+    ("n5", NARRATOR, "Not a prophet. Not a teacher. The Christ — the promised one — the Son of the living God himself. Peter said out loud the thing the others had only half-dared to hope."),
     # Matthew 16:17
     ("jv17", JESUS, "Blessed art thou, Simon Barjona: for flesh and blood hath not revealed it unto thee, but my Father which is in heaven."),
     ("n6", NARRATOR, "You did not work this out on your own, Jesus told him. My Father in heaven showed it to you. This kind of knowing does not come from clever thinking. It is given, quietly, from God, to a heart ready to receive it."),
