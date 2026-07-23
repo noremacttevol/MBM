@@ -1,3 +1,27 @@
+## 2026-07-23 (cont.) — PICTURE-REDO PASS: every picture complaint addressed (Machine C)
+
+Flow driver is live on this box (`flow_driver.py check` = logged_in). Went through EVERY
+picture complaint. The pattern: most "redo them all" complaints were ALREADY redone by
+prior sessions and look good now — only a few had live defects.
+
+- **REGENERATED + SHIPPED (Flow gen → Read-QC → rebuild → verify → push):**
+  - #112 beatitudes s10 — giant Jesus → now in-scale among the crowd.
+  - #157 marvellous-work s3 — oversized seated scribe → natural proportion.
+  - #153 restitution s3 — awkward gesture/off-white → cleaner faces, earth tones.
+  - #13 roof s7 — the judging scribes were in WHITE/CREAM (only-Jesus-cream violation)
+    → regenerated in dark scholarly robes. (build.py final-encode is veryslow on a 331s
+    video; ran the mux at preset slow to fit — 20.6MB. A temp SKIP_BUILT_SEGS guard was
+    added to build.py then reverted.)
+- **VERIFIED already-good (current stills fine; awaiting Cameron's APPROVAL, no regen):**
+  #90 washing-feet (all clothed, no bare chest), #56 widow-of-nain (Jesus in-scale,
+  consistent, kids fine), #107 john-baptist-doubt (John consistent across prison shots),
+  #19 shore (Peter/disciples consistent blue-grey, Jesus cream), #113 where-art-thou
+  (God embodied + consistent), #135 rainbow-covenant (family now balanced 4m/4f).
+- **NEEDS CAMERON'S DIRECTION:** #181 morning-stars-sang — the cosmic/creation images fit
+  Job 38 conceptually but read modern/sci-fi (NASA blue-marble Earth, a weird flaming-earth
+  s5) rather than reverent painted-storybook. Improvable but the right look is a taste call.
+- Untouched by design: #140 & #179 (doctrine/STOP); #63 Siloam / #173 live (borderline pron).
+
 ## 2026-07-23 — GIT RECONCILE (orphan lineage → healthy peer) + AUTO-FIX LOOP: 3 shipped, audit of the rest (Machine C)
 
 Commit: (this commit). Ran AUTO-LOOP-KICKOFF.md (the auto-fix loop). First had to
