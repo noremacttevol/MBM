@@ -172,12 +172,21 @@ def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, speaker, first):
          "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
 
 
+# --- MBM box-guard: strip Unicode line/paragraph separators + control chars that
+# drawtext renders as tofu boxes at line ends (Cameron complaint 2026-07-23). ---
+_MBM_SEP = {0x2028:0x20,0x2029:0x20,0x0085:0x20,0x000b:0x20,0x000c:0x20,0x000d:0x20}
+for _c in list(range(0x00,0x09))+list(range(0x0e,0x20))+list(range(0x7f,0xa0)):
+    _MBM_SEP[_c]=None
+def _mbm_clean(_t):
+    return _t.translate(_MBM_SEP)
+
+
 def build_card(dur, text):
     tf = f"{S}/card.txt"
     # UTF-8 so ffmpeg drawtext reads any em-dash correctly (Windows open() defaults to
     # cp1252, which renders "—" as a tofu box).
     with open(tf, "w", encoding="utf-8") as f:
-        f.write("\n".join(textwrap.wrap(text, width=30)))
+        f.write("\n".join(textwrap.wrap(_mbm_clean(text), width=30)))
     vf = (f"drawtext=fontfile={SERIF}:textfile={tf}:fontsize=52:"
           f"fontcolor={INK}:line_spacing=24:x=(w-text_w)/2:y=(h-text_h)/2,"
           f"fade=t=in:st=0:d=0.8,fade=t=out:st={dur-0.8}:d=0.8")

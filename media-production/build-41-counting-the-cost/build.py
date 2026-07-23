@@ -160,12 +160,21 @@ def build_still(seg_id, src, dur, zdir, cap_text, speaker, first):
          "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
 
 
+# --- MBM box-guard: strip Unicode line/paragraph separators + control chars that
+# drawtext renders as tofu boxes at line ends (Cameron complaint 2026-07-23). ---
+_MBM_SEP = {0x2028:0x20,0x2029:0x20,0x0085:0x20,0x000b:0x20,0x000c:0x20,0x000d:0x20}
+for _c in list(range(0x00,0x09))+list(range(0x0e,0x20))+list(range(0x7f,0xa0)):
+    _MBM_SEP[_c]=None
+def _mbm_clean(_t):
+    return _t.translate(_MBM_SEP)
+
+
 def build_card(dur, text):
     # One drawtext per LINE (2026-07-17, #7 end-card rejection): this box's
     # ffmpeg renders a textfile newline as a tofu box, so a newline never
     # enters a textfile — each wrapped line gets its own textfile + drawtext,
     # centered as a block.
-    lines = textwrap.wrap(text, width=30)
+    lines = textwrap.wrap(_mbm_clean(text), width=30)
     lh = 52 + 24                       # fontsize + line spacing
     L = len(lines)
     vf = ""
