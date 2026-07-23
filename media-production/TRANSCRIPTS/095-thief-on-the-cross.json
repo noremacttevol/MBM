@@ -1,0 +1,61 @@
+{
+  "row": 95,
+  "slug": "thief-on-the-cross",
+  "segments": [
+    {
+      "id": "n0a",
+      "speaker": "narrator",
+      "text": "Two criminals were crucified with Jesus, one on each side."
+    },
+    {
+      "id": "s39",
+      "speaker": "scripture",
+      "text": "If thou be Christ, save thyself and us."
+    },
+    {
+      "id": "n0b",
+      "speaker": "narrator",
+      "text": "If you're really the Christ, save yourself \u2014 and us. That was one of them, sneering at him from the next cross over."
+    },
+    {
+      "id": "s40",
+      "speaker": "scripture",
+      "text": "Dost not thou fear God, seeing thou art in the same condemnation? And we indeed justly; for we receive the due reward of our deeds: but this man hath done nothing amiss."
+    },
+    {
+      "id": "n1",
+      "speaker": "narrator",
+      "text": "But the other one stopped him. We're getting what we deserve, he said. This man has done nothing wrong."
+    },
+    {
+      "id": "n2",
+      "speaker": "narrator",
+      "text": "Then he turned his head toward Jesus and asked for the smallest thing he could think of."
+    },
+    {
+      "id": "s42",
+      "speaker": "scripture",
+      "text": "Lord, remember me when thou comest into thy kingdom."
+    },
+    {
+      "id": "n3",
+      "speaker": "narrator",
+      "text": "Lord, remember me when you come into your kingdom. No good deeds to offer. No time left to fix his life. Just a dying man asking."
+    },
+    {
+      "id": "j1",
+      "speaker": "jesus",
+      "text": "Verily I say unto thee, To day shalt thou be with me in paradise."
+    },
+    {
+      "id": "n4",
+      "speaker": "narrator",
+      "text": "Today. Not someday, not after you've earned it. Today. The last-minute faith of a criminal was enough."
+    },
+    {
+      "id": "card",
+      "speaker": "narrator",
+      "text": "He saved a man who had nothing to give but a request. It's never too late to ask."
+    }
+  ]
+}

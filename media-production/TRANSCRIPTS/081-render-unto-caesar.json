@@ -1,0 +1,76 @@
+{
+  "row": 81,
+  "slug": "render-unto-caesar",
+  "segments": [
+    {
+      "id": "n0",
+      "speaker": "narrator",
+      "text": "Some officials came to Jesus with a question built to trap him \u2014 flattering him first, so he'd let his guard down."
+    },
+    {
+      "id": "s14",
+      "speaker": "scripture",
+      "text": "Master, we know that thou art true, and carest for no man: for thou regardest not the person of men, but teachest the way of God in truth: Is it lawful to give tribute to Caesar, or not? Shall we give, or shall we not give?"
+    },
+    {
+      "id": "n1",
+      "speaker": "narrator",
+      "text": "Is it lawful to pay taxes to Caesar, or not? Say yes, and the crowd turns on you. Say no, and Rome arrests you. There was no safe answer."
+    },
+    {
+      "id": "n2",
+      "speaker": "narrator",
+      "text": "Jesus saw straight through it."
+    },
+    {
+      "id": "s15",
+      "speaker": "scripture",
+      "text": "But he, knowing their hypocrisy, said unto them,"
+    },
+    {
+      "id": "j1",
+      "speaker": "jesus",
+      "text": "Why tempt ye me? bring me a penny, that I may see it."
+    },
+    {
+      "id": "n3",
+      "speaker": "narrator",
+      "text": "They brought one \u2014 a small silver Roman coin. He held it up where everyone could see."
+    },
+    {
+      "id": "j2",
+      "speaker": "jesus",
+      "text": "Whose is this image and superscription?"
+    },
+    {
+      "id": "s16",
+      "speaker": "scripture",
+      "text": "And they said unto him, Caesar's."
+    },
+    {
+      "id": "n4",
+      "speaker": "narrator",
+      "text": "Whose face is this, he asked them, and whose name. They said it was Caesar's. And with that, the trap they had built swung shut on them instead."
+    },
+    {
+      "id": "s17",
+      "speaker": "scripture",
+      "text": "And Jesus answering said unto them,"
+    },
+    {
+      "id": "j3",
+      "speaker": "jesus",
+      "text": "Render to Caesar the things that are Caesar's, and to God the things that are God's."
+    },
+    {
+      "id": "n5",
+      "speaker": "narrator",
+      "text": "The coin bore Caesar's image, so give it back to Caesar. But you bear God's image \u2014 so the real question is what you owe to the One whose face you carry."
+    },
+    {
+      "id": "card",
+      "speaker": "narrator",
+      "text": "The coin belonged to Caesar because it bore his face. You bear God's. What does that make you worth to him?"
+    }
+  ]
+}

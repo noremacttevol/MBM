@@ -1,0 +1,76 @@
+{
+  "row": 1,
+  "slug": "cloak",
+  "segments": [
+    {
+      "id": "n1",
+      "speaker": "narrator",
+      "text": "There was a woman who had been suffering for twelve years."
+    },
+    {
+      "id": "n2",
+      "speaker": "narrator",
+      "text": "She had spent everything on doctors. Nothing helped. She was exhausted, desperate \u2014 and by the rules of her time, considered untouchable."
+    },
+    {
+      "id": "n2b",
+      "speaker": "narrator",
+      "text": "That day, Jesus was already on his way to save someone else \u2014 a ruler's daughter, twelve years old, and dying. The crowd pressed around him on every side. Almost no one would have noticed one more sick woman at its edge."
+    },
+    {
+      "id": "n3a",
+      "speaker": "narrator",
+      "text": "She heard Jesus was nearby. She did not ask permission. She did not make a speech. She said only one thing, and she said it to herself."
+    },
+    {
+      "id": "w28",
+      "speaker": "woman",
+      "text": "If I may touch but his clothes, I shall be whole."
+    },
+    {
+      "id": "n3b",
+      "speaker": "narrator",
+      "text": "If I can just touch his clothes, she told herself, I will be well. That was the whole of her plan. She pressed through the crowd and reached out to touch the edge of his cloak."
+    },
+    {
+      "id": "n4a",
+      "speaker": "narrator",
+      "text": "He stopped. He had felt it \u2014 power had gone out of him. The healing was already hers, given the moment she touched him."
+    },
+    {
+      "id": "j0",
+      "speaker": "jesus",
+      "text": "Who touched my clothes?"
+    },
+    {
+      "id": "s31",
+      "speaker": "scripture",
+      "text": "Thou seest the multitude thronging thee, and sayest thou, Who touched me?"
+    },
+    {
+      "id": "n4c",
+      "speaker": "narrator",
+      "text": "His disciples thought the question made no sense. The whole crowd was pressing against him \u2014 who hadn't touched him? He ignored them. He was already needed somewhere else, and he stopped anyway."
+    },
+    {
+      "id": "n4b",
+      "speaker": "narrator",
+      "text": "He looked for her until he found her."
+    },
+    {
+      "id": "j1",
+      "speaker": "jesus",
+      "text": "Daughter, thy faith hath made thee whole; go in peace, and be whole of thy plague."
+    },
+    {
+      "id": "n5",
+      "speaker": "narrator",
+      "text": "Be whole of thy plague \u2014 be free of what has been hurting you. Twelve years of it. Over, in a sentence. And the first word he chose was daughter."
+    },
+    {
+      "id": "card",
+      "speaker": "narrator",
+      "text": "Whatever you have carried for years \u2014 reach for him. He stops for the one. He calls you his own."
+    }
+  ]
+}

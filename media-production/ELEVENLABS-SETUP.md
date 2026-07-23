@@ -1,4 +1,7 @@
-# ELEVENLABS VOICE PATH — setup + handoff (LANE CLAIM)
+# ELEVENLABS VOICE PATH — setup + handoff (HANDOFF TO #2, the audio maker)
+
+> NOTE (2026-07-23): this scaffold was built by #1 (Planner) but the ElevenLabs
+> voice-making lane belongs to **#2, the audio maker**. #1 does not run it.
 
 **Lane claimed by Machine C (`cameron-lovett-MS-7C91`), 2026-07-23.** This is the
 infrastructure lane for FRESH-CHAT-KICKOFF priority #1 — "set up the ElevenLabs path;

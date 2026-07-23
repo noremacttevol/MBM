@@ -1,0 +1,41 @@
+{
+  "row": 142,
+  "slug": "light-of-the-world",
+  "segments": [
+    {
+      "id": "n0",
+      "speaker": "narrator",
+      "text": "Jesus stood among the temple courts and spoke into the noise of the crowd."
+    },
+    {
+      "id": "j1",
+      "speaker": "jesus",
+      "text": "I am the light of the world: he that followeth me shall not walk in darkness, but shall have the light of life."
+    },
+    {
+      "id": "n1",
+      "speaker": "narrator",
+      "text": "Not a lamp that burns out. A light that walks with you, so you're never feeling your way blind."
+    },
+    {
+      "id": "n2",
+      "speaker": "narrator",
+      "text": "Later, as He met a man born blind, He said it again."
+    },
+    {
+      "id": "j2",
+      "speaker": "jesus",
+      "text": "As long as I am in the world, I am the light of the world."
+    },
+    {
+      "id": "n3",
+      "speaker": "narrator",
+      "text": "He didn't just describe light. He opened blind eyes and proved it."
+    },
+    {
+      "id": "card",
+      "speaker": "narrator",
+      "text": "Stop groping in the dark. Walk with the Light."
+    }
+  ]
+}

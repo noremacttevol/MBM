@@ -1,0 +1,41 @@
+{
+  "row": 143,
+  "slug": "i-am-the-door",
+  "segments": [
+    {
+      "id": "n0",
+      "speaker": "narrator",
+      "text": "Jesus used a picture the crowd knew well \u2014 a sheepfold with one opening, and a shepherd who guards it."
+    },
+    {
+      "id": "j1",
+      "speaker": "jesus",
+      "text": "Verily, verily, I say unto you, I am the door of the sheep."
+    },
+    {
+      "id": "n1a",
+      "speaker": "narrator",
+      "text": "Anyone who climbs in some other way is there to take, not to care."
+    },
+    {
+      "id": "n1b",
+      "speaker": "narrator",
+      "text": "But the door? The door lets the flock in safe."
+    },
+    {
+      "id": "j2",
+      "speaker": "jesus",
+      "text": "I am the door: by me if any man enter in, he shall be saved, and shall go in and out, and find pasture."
+    },
+    {
+      "id": "n2",
+      "speaker": "narrator",
+      "text": "Through Him you come in and you go out \u2014 free, fed, not trapped. He's the way in, and the way to everything good."
+    },
+    {
+      "id": "card",
+      "speaker": "narrator",
+      "text": "There's one door. Knock, and walk through."
+    }
+  ]
+}
