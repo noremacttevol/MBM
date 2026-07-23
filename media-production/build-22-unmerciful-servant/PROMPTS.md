@@ -61,7 +61,7 @@ listening. They are all turned toward a seated teacher, the Lord, resting on a
 low stone step at the near edge of the frame, shown only from directly behind
 with his back fully to the camera and his face turned away, never shown — one
 plain undyed cream wool robe, long dark hair past the shoulders, warm
-Middle-Eastern, no halo and no glow. The whole gathering leans toward him in the
+Middle-Eastern, no bright ring and no glow. The whole gathering leans toward him in the
 honeyed light. [ANTI-PANEL CLAUSE]
 
 ## s2 — Shot 2: the king settles accounts

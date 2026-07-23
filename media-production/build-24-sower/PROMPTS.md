@@ -46,7 +46,7 @@ foreground, seen only from behind with his back fully to the camera and his face
 turned away, never shown, the seated storyteller — the Lord — sits in a small
 wooden fishing boat drawn up just off the shore, in a plain undyed cream wool
 robe with long dark hair past the shoulders, warm Middle-Eastern, one hand
-lifted as he teaches; no halo, no glow. Rising up the grassy hillside beyond the
+lifted as he teaches; no bright ring, no glow. Rising up the grassy hillside beyond the
 water, a large crowd of ordinary Galilean people sit and stand, every face
 turned toward the boat, listening. Soft gold light on the water. One single
 continuous scene painted edge to edge.
@@ -98,7 +98,7 @@ the foreground, seen only from behind with his back fully to the camera and his
 face turned away, never shown, the seated storyteller — the Lord — still sits in
 the small wooden boat just off the shore, in his plain cream wool robe with long
 dark hair past the shoulders, warm Middle-Eastern, both hands open in an
-unhurried, inviting gesture toward the listening crowd; no halo, no glow. On the
+unhurried, inviting gesture toward the listening crowd; no bright ring, no glow. On the
 grassy hillside beyond the water the large crowd leans in, every face turned
 toward the boat. Warm gold light low on the lake. One single continuous scene
 painted edge to edge.
