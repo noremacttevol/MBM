@@ -20,10 +20,10 @@ touching anything else. Do NOT edit by hand.
 | 52 | UNFIXED | you said "hold thy peace, and come out of him" was 6 words thats wrong make a better real point like "short words" since we dont know how many were actualy said but we do know it was short. |
 | 56 | UNFIXED | pictures are lograde and the kids clothes keep changing and so does his size also Jesus was realy big in one of the photos. the whole thing needs to be redone |
 | 57 | newer cut shipped — VERIFY fixed | Lieth is pronounced lie-eth |
-| 62 | newer cut shipped — VERIFY fixed | What happened its not working on the reviewer |
-| 63 | newer cut shipped — VERIFY fixed | Mispronounced Siloam |
+| 62 | UNFIXED | Mark RECORDS as in past tense of record not aan album called mark records that is a simple mix up and im dissappinted in you for having it |
+| 63 | UNFIXED | still wrong its : si-LOH-uhm |
 | 67 | newer cut shipped — VERIFY fixed | 1:02 its pronounced and spelled wrongly its pronounced: ee-LY-us and spelled in all persons speaking it even the narrirator : Elias. Elijah is a different prophet that is wrong |
-| 71 | UNFIXED | I cant tell if this were remade witht he correct refrences for the characters or not. Lets just redo the knes with the important characters that we have the refrence for now. |
+| 71 | newer cut shipped — VERIFY fixed | I cant tell if this were remade witht he correct refrences for the characters or not. Lets just redo the knes with the important characters that we have the refrence for now. |
 | 83 | newer cut shipped — VERIFY fixed | 1. the first picture they are walking the wrong way and it looks like the are walking away from jerusalem rather than twords it. 2. the second picture Jesus looks like a giant. 3. at the end of the video the question is asked but then it stays going for an extra 13 seconds |
 | 86 | newer cut shipped — VERIFY fixed | 13 extra seconds on the end of this video too those can be cut off as soon as the voice in the video stops talking. make sure its not before it cut 11 seconds off jut to be careful if you cant be sure |
 | 90 | newer cut shipped — VERIFY fixed | He didnt have a shirt on in one of the pictures |
