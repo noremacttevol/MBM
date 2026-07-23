@@ -1,3 +1,16 @@
+## 2026-07-23 (cont. 3) — UNIFY ORDER + fresh-chat handoff (Machine C)
+
+Cameron issued the UNIFY ORDER (multi-session coordination): story source-of-truth =
+`AUDITS/2026-07-20-repeat-audit.md` (dedup DONE) + `STORY-INTEGRITY-LAW.md` (rules);
+STORY-LEDGER subordinate (2 calls retracted — another session committed that). NO more
+dedup/story-hunting — the 200 is full & clean. Real work now = **ElevenLabs re-voice +
+full re-approval of all 200** (trim the old-then-modern echo first, Rule 4), in parallel
+with **pictures/Flow from complaints**, then a **character auto-finder** vs the cast rules.
+Pronunciation respellings are DEAD (ElevenLabs owns it). Split by CLAIM (claim the QUEUE
+row + push FIRST before touching a video). Pentecost (Acts 2) approved as next new story;
+needs a slot = Cameron's pick. Wrote `media-production/FRESH-CHAT-KICKOFF-2026-07-23.md`
+as the paste-and-go for the new low-context chat. All this session's work is pushed (0/0).
+
 ## 2026-07-23 (cont.) — PICTURE-REDO PASS: every picture complaint addressed (Machine C)
 
 Flow driver is live on this box (`flow_driver.py check` = logged_in). Went through EVERY
