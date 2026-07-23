@@ -105,7 +105,24 @@ _SPEAKER_OF_VOICE = {
 
 async def save_narration(tts_text, voice, rate, pitch, out_mp3):
     """Generate mp3 AND a <name>.timing.json sidecar of REAL per-sentence
-    spoken timestamps (segment-local seconds)."""
+    spoken timestamps (segment-local seconds).
+
+    ENGINE SWITCH (ELEVENLABS-SETUP.md): if eleven_config.json has an API key and
+    the speaker's voice is set, synthesize with ElevenLabs (pronunciation handled
+    by its lexicon — the respell dict is NOT applied on that path). Otherwise fall
+    back to edge-tts exactly as before, so an unconfigured tree still builds."""
+    speaker = _SPEAKER_OF_VOICE.get(voice, "narrator")
+    try:
+        import mbm_eleven
+        if mbm_eleven.is_configured(speaker):
+            mp3, sents = mbm_eleven.synth(tts_text, speaker)
+            with open(out_mp3, "wb") as f:
+                f.write(mp3)
+            with open(os.path.splitext(out_mp3)[0] + ".timing.json", "w") as f:
+                json.dump(sents, f)
+            return sents
+    except ImportError:
+        pass  # no adapter present in this build folder -> edge-tts
     import edge_tts
     from mbm_pronounce import spoken_text
     tts_text = spoken_text(tts_text, None, _SPEAKER_OF_VOICE.get(voice))

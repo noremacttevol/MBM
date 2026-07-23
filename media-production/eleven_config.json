@@ -1,0 +1,42 @@
+{
+  "_README": "The ONE file Cameron edits to turn on ElevenLabs. Fill api_key and the five voices with ids from your ElevenLabs library, then run: python3 revoice_sweep.py --range 1-10. Until api_key and a speaker's voice are set, that speaker falls back to edge-tts and nothing breaks. Never use a Multilingual model_id (Voice Law). Do NOT commit a real api_key to git — prefer the ELEVENLABS_API_KEY env var; this file's api_key is a convenience only.",
+
+  "api_key": "PUT_YOUR_ELEVENLABS_API_KEY_HERE",
+  "model_id": "eleven_turbo_v2",
+  "output_format": "mp3_44100_128",
+
+  "voices": {
+    "narrator":  "PUT_VOICE_ID  (warm modern storyteller, unhurried)",
+    "jesus":     "PUT_VOICE_ID  (AMERICAN male, warm, low — Voice Law: never British/Multilingual)",
+    "god":       "PUT_VOICE_ID  (the Father / premortal Christ — deep, weighty)",
+    "scripture": "PUT_VOICE_ID  (other KJV speakers: prophets, apostles, people)",
+    "woman":     "PUT_VOICE_ID  (any woman scripture records speaking)"
+  },
+
+  "voice_settings_default": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true
+  },
+
+  "_lexicon_README": "Archaic KJV words ElevenLabs may mispronounce. grapheme + phoneme(IPA) is best; grapheme + alias (plain respelling ElevenLabs reads aloud) also works. Seeded from Cameron's past complaints. Homographs that depend on context (tear=tare #51, bow #119, records #62) are intentionally NOT here — a global rule would break every other 'tear'/'bow'/'records'; those get handled by the model + per-line review. Created once as an ElevenLabs pronunciation dictionary and cached in _lexicon_locator.",
+  "lexicon": [
+    {"grapheme": "liveth",     "phoneme": "ˈlɪvɪθ"},
+    {"grapheme": "livest",     "phoneme": "ˈlɪvɪst"},
+    {"grapheme": "findeth",    "phoneme": "ˈfaɪndɪθ"},
+    {"grapheme": "calleth",    "phoneme": "ˈkɔːlɪθ"},
+    {"grapheme": "leadeth",    "phoneme": "ˈliːdɪθ"},
+    {"grapheme": "abideth",    "phoneme": "əˈbaɪdɪθ"},
+    {"grapheme": "maketh",     "phoneme": "ˈmeɪkɪθ"},
+    {"grapheme": "putteth",    "phoneme": "ˈpʊtɪθ"},
+    {"grapheme": "lieth",      "phoneme": "ˈlaɪɪθ"},
+    {"grapheme": "overcometh", "phoneme": "ˌoʊvərˈkʌmɪθ"},
+    {"grapheme": "Esaias",     "phoneme": "ɪˈzeɪəs"},
+    {"grapheme": "Elias",      "phoneme": "ɪˈlaɪəs"},
+    {"grapheme": "Siloam",     "phoneme": "sɪˈloʊəm"},
+    {"grapheme": "Cana",       "phoneme": "ˈkeɪnə"}
+  ],
+
+  "_lexicon_locator": null
+}

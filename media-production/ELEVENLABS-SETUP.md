@@ -45,8 +45,18 @@ Everything above is built and works the moment these are filled into `eleven_con
    The five are: `narrator`, `jesus` (must sound American — Voice Law), `god`,
    `scripture`, `woman`. He can start with just `narrator` + `jesus` and we test those first.
 
-Once those are in the config, run `python3 revoice_sweep.py --range 1-10` to re-voice and
-ear-check the first ten, eyeball one, then sweep the rest.
+Once those are in the config:
+```
+python3 mbm_eleven.py                          # readiness check — all voices "ready"
+python3 revoice_sweep.py --rows 5              # re-voice ONE, ear-check it (audio only)
+python3 revoice_sweep.py --rows 5 --build      # + reassemble the mp4 to eyeball
+python3 revoice_sweep.py --range 1-10 --build  # then sweep a batch
+```
+The sweep syncs the current engine modules into each build automatically (just-in-time),
+runs `make_narration.py` (new audio) → `qc_narration.py` (whisper ear-check, must pass) →
+`build.py` (with `--build`). Claim the rows in QUEUE.md and push the claim before a real
+sweep. `redistribute_modules.py` is available to push the engine modules to all builds at
+once if ever wanted, but the sweep does not need it.
 
 ## Pronunciation is ElevenLabs' job now (respellings are DEAD)
 The old `mbm_pronounce.py` respell dict is NOT applied on the ElevenLabs path. Archaic KJV
