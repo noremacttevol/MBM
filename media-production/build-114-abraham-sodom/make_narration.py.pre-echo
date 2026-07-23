@@ -43,7 +43,7 @@ SEGMENTS = [
     ("s32", SCRIPTURE, "Oh let not the Lord be angry, and I will speak yet but this once: Peradventure ten shall be found there."),
     # Genesis 18:32
     ("jv32", GOD, "I will not destroy it for ten's sake."),
-    ("n6b", NARRATOR, "Let me speak just once more, Abraham said. What if there are only ten?"),
+    ("n6b", NARRATOR, "Let me speak just once more, Abraham said. What if there are only ten? And the answer came back the same as every time before — for ten, I will not destroy it."),
     ("n7", NARRATOR, "For the sake of ten good people, the whole place would be spared. That is the God Abraham found at the top of that hill. Not one straining to condemn — one who could be talked, again and again, toward mercy."),
     ("n8", NARRATOR, "Abraham went home in the dusk, amazed. He had dared to plead for strangers, and found God kinder than he had hoped. God let a man argue with him — and kept saying yes."),
     ("card", NARRATOR, "God let one old man plead for strangers, and answered mercy every time. He is not looking for reasons to condemn — he welcomes the bold and the interceding. What would you dare ask him for?"),
