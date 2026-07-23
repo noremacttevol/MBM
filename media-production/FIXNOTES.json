@@ -1525,6 +1525,10 @@
   {
    "date": "2026-07-21",
    "note": "VERIFIED already fixed, no rebuild: whisper on the last 18s of the current cut \u2014 the closing words 'You're invited to worship too' end 2.0s before the video ends (2:50 total). The 13 extra seconds are gone, and build.py's end-hold constant is fixed at the source so a re-render cannot bring them back."
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "87": [
