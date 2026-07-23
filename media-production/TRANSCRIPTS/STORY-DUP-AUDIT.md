@@ -1,6 +1,17 @@
 # STORY DUPLICATE AUDIT (content-level)
 
-## ⚠️ CONFIRMED double-tellings (Planner verified, need Cameron's call)
+## ✅ CONFIRMED double-tellings — RESOLVED 2026-07-23 (Cameron: "do what Jesus would want")
+- **#44 == #74 → RESOLVED.** Keep the fuller #74 (woman + parable, one Luke 7 scene);
+  #44 retired; slot #44 reused for **Pentecost (Acts 2)** — DRAFTS/row-044-pentecost.md.
+  #44's old two-debtors is still POSTED → #4 pulls/replaces it when Pentecost ships and
+  submits #74 as the Luke 7 video.
+- **#128 == #156 → RESOLVED.** #156 keeps the Amos famine; #128 rewritten to its true
+  Mark 7 "their heart is far from me" — DRAFTS/row-128-heart-far-from-me.md. Build FROM
+  the draft (the folder still has stale Amos narration).
+- The candidate cluster below (John 14, Sermon-light, John 10) still needs the Planner's
+  distinct-vs-merge judgment — next pass.
+
+## ⚠️ CONFIRMED double-tellings (as first found — see resolution above)
 - **#44 two-debtors == #74 woman-washed-his-feet** — SAME scene (Luke 7:36-50, Simon's
   dinner). Both narrations open identically. The two-debtors parable is a line Jesus
   speaks INSIDE the feet-washing scene, not a separate event. → one video; the parable is
