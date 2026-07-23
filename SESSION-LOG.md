@@ -1,4 +1,33 @@
-## 2026-07-23 (cont. 4) — ELEVENLABS VOICE PATH built (kickoff priority #1) (Machine C)
+## 2026-07-23 (cont. 5) — ROLE CORRECTED to #1 PLANNER: transcripts + dedup + Rule-4 trims (Machine C)
+
+Cameron clarified the 4-session split: **#1 = Video Planner (THIS session)** — check what
+Jesus would want, write the transcripts + plans, keep the library non-duplicated, QC vs
+the others; **#2 = audio maker** (transcripts → ElevenLabs → new audio); **#3 = still
+maker** (fix picture complaints to the rules); **#4 = captions + organize + submit +
+reviewer health**. The ElevenLabs adapter I built in cont.4 is NOT my lane — it's handed
+to #2 (annotated atop `ELEVENLABS-SETUP.md`; scaffold is fine and ready for them). This
+session's real work, all pushed:
+
+- **`export_transcripts.py` → `TRANSCRIPTS/`** — 200 clean, speaker-tagged transcripts,
+  one per row (`{id,speaker,text}` JSON for #2 + human `.txt` + INDEX). AST-parsed from
+  each build's make_narration.py (no side effects), handles new & old SEGMENTS formats.
+- **Folder dedup** — found 5 rows with duplicate build folders (65, 67, 71, 137, 140:
+  stale/archived old builds beside the current). Canonical chosen by QUEUE story title
+  (so an archived build's leftover mp4 can't win); `TRANSCRIPTS/DUPLICATES.md` lists them.
+- **Rule-4 trim** — `rule4_scan.py` flagged 221 narrator beats echoing an adjacent KJV
+  verse. `rule4_trim.py` (sentence-level: drop the restatement, KEEP teaching, never empty
+  a beat, keep new-proper-noun sentences) applied **105 trims across 79 videos**; re-scan
+  221→131. Verified via git diff on sensitive builds (Job 19:25/38:4/38:7, Luke 22:18/
+  23:46 echoes cleanly removed, narration still flows). All 79 files parse OK.
+- **`TRANSCRIPT-LANE.md`** — claim + the 4-role division on the record; source of truth =
+  make_narration.py, TRANSCRIPTS/ is the exported handoff.
+
+NEXT for #1: the remaining **131 wholly-overlapping beats** (`TRIM-CANDIDATES.md`) need
+manual rewrite (rephrase, not delete); then the story/Jesus-alignment QC pass and slotting
+Pentecost (Acts 2). #2 reads `TRANSCRIPTS/*.json` when ready. Commits: d227962a (export +
+tools + dedup), afaeab1f (105 trims applied).
+
+## 2026-07-23 (cont. 4) — ELEVENLABS VOICE PATH built — SUPERSEDED, handed to #2 (Machine C)
 
 Fresh chat off `FRESH-CHAT-KICKOFF-2026-07-23.md`. Chain verified (top entry af0cf734
 present). Claimed the **ElevenLabs re-voice-setup lane** (priority #1) and pushed the
