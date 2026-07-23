@@ -41,7 +41,7 @@ touching anything else. Do NOT edit by hand.
 | 65 | newer cut shipped — VERIFY fixed | needs the captions to be redone still. |
 | 67 | newer cut shipped — VERIFY fixed | 1:02 its pronounced and spelled wrongly its pronounced: ee-LY-us and spelled in all persons speaking it even the narrirator : Elias. Elijah is a different prophet that is wrong |
 | 69 | newer cut shipped — VERIFY fixed | John is way too big in the first picture |
-| 70 | UNFIXED | The narrirator spells out  "I-S" instead of pronouncing the word like it should. Also it mispronounced "proceedeth" it should be pro-see-duhth |
+| 70 | newer cut shipped — VERIFY fixed | The narrirator spells out  "I-S" instead of pronouncing the word like it should. Also it mispronounced "proceedeth" it should be pro-see-duhth |
 | 71 | newer cut shipped — VERIFY fixed | I cant tell if this were remade witht he correct refrences for the characters or not. Lets just redo the knes with the important characters that we have the refrence for now. |
 | 73 | UNFIXED | are you kiding me it jsut pronounced "Esaias" as  "essy-y-es".  this is rediculous |
 | 83 | newer cut shipped — VERIFY fixed | 1. the first picture they are walking the wrong way and it looks like the are walking away from jerusalem rather than twords it. 2. the second picture Jesus looks like a giant. 3. at the end of the video the question is asked but then it stays going for an extra 13 seconds |
