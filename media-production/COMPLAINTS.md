@@ -37,10 +37,10 @@ touching anything else. Do NOT edit by hand.
 | 56 | newer cut shipped — VERIFY fixed | pictures are lograde and the kids clothes keep changing and so does his size also Jesus was realy big in one of the photos. the whole thing needs to be redone |
 | 57 | newer cut shipped — VERIFY fixed | Lieth is pronounced lie-eth |
 | 62 | newer cut shipped — VERIFY fixed | Mark RECORDS as in past tense of record not aan album called mark records that is a simple mix up and im dissappinted in you for having it |
-| 63 | UNFIXED | still wrong its : si-LOH-uhm |
+| 63 | newer cut shipped — VERIFY fixed | still wrong its : si-LOH-uhm |
 | 65 | newer cut shipped — VERIFY fixed | needs the captions to be redone still. |
 | 67 | newer cut shipped — VERIFY fixed | 1:02 its pronounced and spelled wrongly its pronounced: ee-LY-us and spelled in all persons speaking it even the narrirator : Elias. Elijah is a different prophet that is wrong |
-| 69 | UNFIXED | John is way too big in the first picture |
+| 69 | newer cut shipped — VERIFY fixed | John is way too big in the first picture |
 | 70 | UNFIXED | The narrirator spells out  "I-S" instead of pronouncing the word like it should. Also it mispronounced "proceedeth" it should be pro-see-duhth |
 | 71 | newer cut shipped — VERIFY fixed | I cant tell if this were remade witht he correct refrences for the characters or not. Lets just redo the knes with the important characters that we have the refrence for now. |
 | 73 | UNFIXED | are you kiding me it jsut pronounced "Esaias" as  "essy-y-es".  this is rediculous |
