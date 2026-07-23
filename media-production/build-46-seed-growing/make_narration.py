@@ -61,7 +61,11 @@ SEGMENTS = [
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
-SPOKEN = {}
+# "putteth" (jv29) — plain spelling is flapped to "puddeth" by the voice; the
+# triple-t "puttteth" restores the hard T and the -eth ending, transcribes back
+# clean. A/B measured 2026-07-22 (complaint #46: "putteth like putith"). Single-t
+# "putith" tested WORSE ("peered it"). Caption keeps the true KJV "putteth".
+SPOKEN = {"putteth": "puttteth"}
 
 
 async def main():
