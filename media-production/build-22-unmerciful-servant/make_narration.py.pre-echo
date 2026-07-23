@@ -29,7 +29,7 @@ SEGMENTS = [
     ("n0", NARRATOR, "One day Peter came to Jesus with a question that had been sitting heavy on his heart. It was about forgiveness — and about someone who kept hurting him."),
     # Matthew 18:21
     ("s21", SCRIPTURE, "Lord, how oft shall my brother sin against me, and I forgive him? till seven times?"),
-    ("n1", NARRATOR, "Would seven times be enough? Peter must have thought he was being generous."),
+    ("n1", NARRATOR, "Lord, he asked, how many times do I have to forgive my brother when he keeps sinning against me? Would seven times be enough? Peter must have thought he was being generous."),
     # Matthew 18:22
     ("j1", JESUS, "I say not unto thee, Until seven times: but, Until seventy times seven."),
     ("n2", NARRATOR, "In other words, stop counting. Real forgiveness doesn't keep a ledger. And then, to show them what he meant, Jesus told a story."),

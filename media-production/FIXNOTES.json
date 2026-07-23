@@ -525,6 +525,10 @@
   {
    "date": "2026-07-21",
    "note": "VERIFIED already fixed, no rebuild: the KJV line at 2:36 in the current cut whisper-transcribes as 'Pay me that thou oweest' \u2014 the voice now says OWE-est (the measured 'owesst' respelling is in the mix; the old cut read it as 'Alice'). Word-level proof from the isolated audio clip, not just the full transcript."
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "67": [
