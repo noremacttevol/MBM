@@ -17,9 +17,10 @@ prior sessions and look good now — only a few had live defects.
   consistent, kids fine), #107 john-baptist-doubt (John consistent across prison shots),
   #19 shore (Peter/disciples consistent blue-grey, Jesus cream), #113 where-art-thou
   (God embodied + consistent), #135 rainbow-covenant (family now balanced 4m/4f).
-- **NEEDS CAMERON'S DIRECTION:** #181 morning-stars-sang — the cosmic/creation images fit
-  Job 38 conceptually but read modern/sci-fi (NASA blue-marble Earth, a weird flaming-earth
-  s5) rather than reverent painted-storybook. Improvable but the right look is a taste call.
+- **#181 morning-stars-sang — DONE (Cameron chose "ground it in Job"):** regenerated s1-s6
+  as earthly painted skyscapes over ancient hills, with Job a small figure looking up at the
+  singing stars (s3/s5); removed the modern NASA Earth-in-space and the flaming-earth. Rebuilt
+  + shipped (18.8MB/85s).
 - Untouched by design: #140 & #179 (doctrine/STOP); #63 Siloam / #173 live (borderline pron).
 
 ## 2026-07-23 — GIT RECONCILE (orphan lineage → healthy peer) + AUTO-FIX LOOP: 3 shipped, audit of the rest (Machine C)
