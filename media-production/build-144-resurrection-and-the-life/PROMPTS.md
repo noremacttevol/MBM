@@ -79,3 +79,6 @@ SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stack
 ### Closing card
 Text on cream (#F7F2E9), serif, spoken + captioned (an INVITATION): "Death is not
 the end of the story. He is the life."
+
+## CHARACTER NOTE
+LAZARUS LOCK: (in THIS build Lazarus is shown ONLY as a faceless dark silhouette against golden light in s8 — no facial detail is rendered, deliberately, to keep resurrection not horror; so no face-sheet regen is required here. His approved CHARACTERS/lazarus sheet governs any future shot that shows his face.)

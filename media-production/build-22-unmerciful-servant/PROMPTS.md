@@ -134,3 +134,7 @@ blue light cutting the warm lamplight. [ANTI-PANEL CLAUSE]
 Text on cream (#F7F2E9), serif, no narration baked in (spoken + captioned in
 assembly): "You were forgiven a debt you could never repay. Who is holding a
 small one against you — that you could let go of today?"
+
+## CHARACTER LOCK
+PETER LOCK: A sturdy Galilean fisherman in his mid-thirties: thick dark curly hair, a full dark beard, weathered olive skin, broad-shouldered with strong rope-worn hands, an open expressive face — quick to speak, quick to feel. Standard garments: A BLUE-GREY wool tunic (locked in #7 — never cream, so he is never confused with the cream-robed Lord), rope belt, dun-brown fisher's mantle when a cloak is needed, bare muscular forearms, simple leather sandals.
+Attach CAST-REF/peter on regen.

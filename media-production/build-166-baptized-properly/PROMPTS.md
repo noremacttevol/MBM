@@ -70,3 +70,6 @@ earth colors. No modern objects.
 
 ## s8-offered-to-you — Shot 8: the same right pattern is offered to you
 [STILL STYLE BLOCK] Full warm golden light descending at the edge of a calm pool. A single ordinary young first-century person in dun-and-brown earth-tone wool (dark earth tones, never cream or pale) stands at the water's edge, hopeful and ready to be baptized properly, as an earth-tone-robed elder gently extends a hand toward them in welcome, warm light gathering softly above in promise — the same right pattern offered anew. The light is ONLY light: no face, no figure, no dove within it. Figures whole and correctly formed, faces shown. No one in cream or off-white. ONE single unbroken full-frame scene. One single continuous scene painted edge to edge.
+
+CHARACTER-REF-EXEMPT: john-beloved (s3 refers to "John's baptism" = John the Baptist's; no apostle depicted)
+CHARACTER-REF-EXEMPT: john-the-baptist (only referenced as a past baptism; not painted)

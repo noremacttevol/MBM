@@ -73,3 +73,7 @@ SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stack
 ### Closing card
 Text on cream (#F7F2E9), serif, spoken + captioned (an INVITATION): "He came to
 save, not to burn. Let His Spirit — the saving one — shape yours."
+
+## CHARACTER LOCK
+JAMES LOCK: (Consistent with the SONS OF ZEBEDEE LOCK in builds #51/#71 — James is the brother WITH the short beard.) A Galilean fisherman in his mid-to-late twenties: warm olive-brown skin, short dark hair, a SHORT dark beard (his standing distinguisher from clean-shaven John — the brothers share a family resemblance), strong brows, a solid muscled build heavier than John's, a direct forthright expression with thunder behind it. Standard garments: A dark ochre-brown coarse wool tunic with a rope belt (locked in #51/#71), bare forearms, a dun-grey mantle when a cloak is needed, simple leather sandals. Never cream.
+Attach CAST-REF/james-z on regen.
