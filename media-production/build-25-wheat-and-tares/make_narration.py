@@ -64,7 +64,6 @@ SEGMENTS = [
     ("s24", SCRIPTURE, "Another parable put he forth unto them, saying,"),
     # Matthew 13:24
     ("j24", JESUS, "The kingdom of heaven is likened unto a man which sowed good seed in his field:"),
-    ("n1", NARRATOR, "The kingdom of heaven, he said, is like a farmer who sowed good seed all across his field."),
     ("n2", NARRATOR, "It was clean, good wheat seed. He wanted a good harvest, and he did everything right."),
     # Matthew 13:25
     ("j25", JESUS, "But while men slept, his enemy came and sowed tares among the wheat, and went his way."),
@@ -78,7 +77,7 @@ SEGMENTS = [
     ("n8", NARRATOR, "And here is where you see what kind of man he is. He did not send them tearing through the field. He said, no."),
     # Matthew 13:29-30
     ("j1", JESUS, "Nay; lest while ye gather up the tares, ye root up also the wheat with them. Let both grow together until the harvest."),
-    ("n9", NARRATOR, "In other words: if you rip the weeds out now, their roots are tangled around the wheat, and you will tear up the good plants along with them. So let them both grow. He would rather wait than lose a single stalk of wheat."),
+    ("n9", NARRATOR, "In other words: if you rip the weeds out now, their roots are tangled around the wheat, and you will tear up the good plants along with them. He would rather wait than lose a single stalk of wheat."),
     ("n10", NARRATOR, "So the farmer waited. All season long the wheat and the weeds grew up side by side, and he let them, because his patience was protecting the crop he loved."),
     # Matthew 13:30
     ("j30", JESUS, "Gather ye together first the tares, and bind them in bundles to burn them: but gather the wheat into my barn."),

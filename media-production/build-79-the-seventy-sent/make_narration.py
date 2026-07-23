@@ -63,14 +63,14 @@ SEGMENTS = [
     ("n2", NARRATOR, "Wherever they were welcomed, they were to heal the sick and say the same simple thing."),
     # Luke 10:9
     ("j2", JESUS, "The kingdom of God is come nigh unto you."),
-    ("n2b", NARRATOR, "God's kingdom has come close to you. That was the whole message. Not a warning, not a threat — an announcement that the thing everyone had been waiting for had just walked into their town."),
+    ("n2b", NARRATOR, "That was the whole message. Not a warning, not a threat — an announcement that the thing everyone had been waiting for had just walked into their town."),
     ("n3", NARRATOR, "And they came back with joy, amazed at what had happened when they used his name:"),
     # Luke 10:17
     ("s17", SCRIPTURE, "Lord, even the devils are subject unto us through thy name."),
     ("n3b", NARRATOR, "Lord, even the evil spirits obey us when we use your name. They were thrilled, and they had every right to be. And then Jesus told them what to actually celebrate."),
     # Luke 10:20
     ("j3", JESUS, "Notwithstanding in this rejoice not, that the spirits are subject unto you; but rather rejoice, because your names are written in heaven."),
-    ("n3c", NARRATOR, "Don't be glad about that, he said. Don't let the power be the thing that thrills you. Be glad about this instead: your names are written down in heaven. The power was temporary and it was never really theirs. The name in the book was permanent, and it was theirs before they ever left on the trip."),
+    ("n3c", NARRATOR, "Don't be glad about that, he said. Don't let the power be the thing that thrills you. Be glad about this instead: The power was temporary and it was never really theirs. The name in the book was permanent, and it was theirs before they ever left on the trip."),
     ("card", NARRATOR, "Your name, written in heaven — that's the joy he wanted them to keep. It's meant for you as well."),
 ]
 

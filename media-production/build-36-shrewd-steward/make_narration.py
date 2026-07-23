@@ -96,7 +96,7 @@ SEGMENTS = [
     ("n8", NARRATOR, "Use your money, he said, use your things, use whatever you have, to love people now. Those friendships are the one thing you carry with you past the end of your life. Be that urgent about what actually lasts."),
     # Luke 16:13
     ("j13", JESUS, "No servant can serve two masters: for either he will hate the one, and love the other; or else he will hold to the one, and despise the other. Ye cannot serve God and mammon."),
-    ("n9", NARRATOR, "Then he said the line that ties it all together. You cannot serve God and money. You will end up loving one and despising the other. And money is a hard, hungry thing to serve."),
+    ("n9", NARRATOR, "Then he said the line that ties it all together. You will end up loving one and despising the other. And money is a hard, hungry thing to serve."),
     ("n10", NARRATOR, "That is how good he is. He is not after your money. He is after you. He wants your heart free of that cruel little master and your hands open, so that you spend your one short life being urgent about the things that last forever."),
     ("card", NARRATOR, "He is not after your money. He is after you. What are you being urgent about?"),
 ]

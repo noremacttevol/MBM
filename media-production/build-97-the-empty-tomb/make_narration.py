@@ -62,7 +62,7 @@ SEGMENTS = [
     ("n3", NARRATOR, "Then two figures in dazzling clothing stood beside them, and asked a question that has echoed for two thousand years:"),
     # Luke 24:5-6
     ("s5", SCRIPTURE, "Why seek ye the living among the dead? He is not here, but is risen:"),
-    ("n4", NARRATOR, "Why do you look for the living among the dead? He is not here — he is risen."),
+    ("n4", NARRATOR, "He is not here — he is risen."),
     # Luke 24:6-7
     ("s6", SCRIPTURE, "remember how he spake unto you when he was yet in Galilee, Saying, The Son of man must be delivered into the hands of sinful men, and be crucified, and the third day rise again."),
     ("n5a", NARRATOR, "He had said all of it, out loud, before any of it happened."),

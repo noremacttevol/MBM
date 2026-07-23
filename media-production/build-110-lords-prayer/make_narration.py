@@ -67,7 +67,7 @@ SEGMENTS = [
     ("n1", NARRATOR, "One day his followers asked him a simple question."),
     # Luke 11:1
     ("s11", SCRIPTURE, "Lord, teach us to pray, as John also taught his disciples."),
-    ("n1b", NARRATOR, "Teach us how to pray. They expected, maybe, a technique. A ritual. Instead, Jesus gave them a family word."),
+    ("n1b", NARRATOR, "They expected, maybe, a technique. A ritual. Instead, Jesus gave them a family word."),
     # Matthew 6:9
     ("jv9a", JESUS, "After this manner therefore pray ye:"),
     # Matthew 6:9-10

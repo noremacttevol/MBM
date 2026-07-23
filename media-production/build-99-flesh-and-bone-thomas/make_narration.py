@@ -76,7 +76,7 @@ SEGMENTS = [
     ("n3b", NARRATOR, "Put your finger here, he said, and look at my hands. Put your hand into my side. Stop doubting, and believe. Every single thing Thomas had demanded, handed to him without one word of scolding."),
     # John 20:28
     ("s28", SCRIPTURE, "My Lord and my God."),
-    ("n4a", NARRATOR, "My Lord and my God. That is all Thomas said. He never did reach out and touch anything. Jesus didn't scold him for doubting — he met the doubt with his own hands, and the doubt was over."),
+    ("n4a", NARRATOR, "That is all Thomas said. He never did reach out and touch anything. Jesus didn't scold him for doubting — he met the doubt with his own hands, and the doubt was over."),
     # John 20:29
     ("jv29", JESUS, "Thomas, because thou hast seen me, thou hast believed: blessed are they that have not seen, and yet have believed."),
     ("n4b", NARRATOR, "You believed because you saw me, he told him. Blessed are the ones who have not seen, and believe anyway. That last line was not about Thomas. That one was about you. And that's what he does with honest doubt — he steps toward it."),

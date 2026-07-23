@@ -48,10 +48,7 @@ SEGMENTS = [
     ("s1", SCRIPTURE,
      "Go and wash in Jordan seven times, and thy flesh shall come again to "
      "thee, and thou shalt be clean."),
-    ("n3", NARRATOR,
-     "And Naaman was furious. He had expected something great — a mighty "
-     "ceremony worthy of a mighty man. Wash in the Jordan? It was too "
-     "plain. Too simple. He turned and rode away in a rage."),
+    ("n3", NARRATOR, "And Naaman was furious. He had expected something great — a mighty ceremony worthy of a mighty man. It was too plain. Too simple. He turned and rode away in a rage."),
     # Exact KJV 2 Kings 5:13b — his servants, the wisest words in the story.
     ("s2", SCRIPTURE,
      "If the prophet had bid thee do some great thing, wouldest thou not "

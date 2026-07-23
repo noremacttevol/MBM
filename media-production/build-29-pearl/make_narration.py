@@ -53,7 +53,7 @@ SEGMENTS = [
     ("n1", NARRATOR, "Jesus told one more short story, only two lines long."),
     # Matthew 13:45
     ("j1", JESUS, "Again, the kingdom of heaven is like unto a merchant man, seeking goodly pearls:"),
-    ("n2", NARRATOR, "This was a man who knew pearls. He spent his whole life traveling and searching, handling the finest pearls in the world, always hunting for something better."),
+    ("n2", NARRATOR, "He spent his whole life traveling and searching, handling the finest pearls in the world, always hunting for something better."),
     ("n3", NARRATOR, "He had seen a lot of beautiful pearls. Good ones. Costly ones. But he kept looking, because not one of them was the one."),
     ("n4", NARRATOR, "And then one day, he found it. A single pearl, more perfect and more precious than anything he had ever held. The pearl he had been looking for his whole life."),
     ("n5", NARRATOR, "And he knew, the moment he saw it, exactly what he was going to do."),

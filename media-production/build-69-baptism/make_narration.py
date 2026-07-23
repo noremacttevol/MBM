@@ -70,7 +70,7 @@ SEGMENTS = [
     ("s17", SCRIPTURE, "And lo a voice from heaven, saying,"),
     # Matthew 3:17
     ("jv1", GOD, "This is my beloved Son, in whom I am well pleased."),
-    ("n6", NARRATOR, "Stand on that riverbank for a second. The Son is standing in the water. The Spirit is descending upon him. The Father is speaking from heaven. Three — each one distinct, each one present, all in one moment — and what the Father chose to say, before Jesus had preached one sermon or healed one person, was: this is my Son, and I love him, and I am pleased with him. Identity first. Approval before achievement."),
+    ("n6", NARRATOR, "Stand on that riverbank for a second. The Son is standing in the water. The Spirit is descending upon him. The Father is speaking from heaven. Three — each one distinct, each one present, all in one moment — and what the Father chose to say, before Jesus had preached one sermon or healed one person, was: Identity first. Approval before achievement."),
     ("n7", NARRATOR, "Jesus began everything from that sentence. Not working TOWARD being loved — working FROM it. And the doorway he walked through that day, he left standing open behind him."),
     ("card", NARRATOR, "He walked through the door first, so you would never face one he hadn't. The way in is still open."),
 ]

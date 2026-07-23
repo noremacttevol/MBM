@@ -55,7 +55,7 @@ SEGMENTS = [
     ("n2", NARRATOR, "He knocked on the door in the dark, and the first thing he said was this."),
     # John 3:2
     ("s2", SCRIPTURE, "Rabbi, we know that thou art a teacher come from God: for no man can do these miracles that thou doest, except God be with him."),
-    ("n2b", NARRATOR, "Teacher, we know you have come from God, because no one could do what you do unless God were with him. Bible students notice one small word there — we. Not I. We know. Nicodemus had been talking with other rulers, quietly, behind closed doors. Some of the very men who opposed Jesus in public already believed it in private. He just couldn't say it in daylight."),
+    ("n2b", NARRATOR, "Bible students notice one small word there — we. Not I. We know. Nicodemus had been talking with other rulers, quietly, behind closed doors. Some of the very men who opposed Jesus in public already believed it in private. He just couldn't say it in daylight."),
     ("n3a", NARRATOR, "And Jesus didn't turn him away for coming at night. He didn't point out the fear. He skipped past the compliment entirely, and answered the real question underneath — the one Nicodemus hadn't dared to ask."),
     # John 3:3
     ("j1", JESUS, "Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God."),
@@ -70,7 +70,7 @@ SEGMENTS = [
     ("n6", NARRATOR, "And something in Nicodemus gave way. Three words at a time, the formal questions of a scholar were falling away — until what was left was just a man in the lamplight, asking the only thing he had really come to ask."),
     # John 3:9
     ("s9", SCRIPTURE, "How can these things be?"),
-    ("n6b", NARRATOR, "How can these things be. No title on it. No argument behind it. Just a tired, honest man finally asking what he actually wanted to know."),
+    ("n6b", NARRATOR, "No title on it. No argument behind it. Just a tired, honest man finally asking what he actually wanted to know."),
     ("n7a", NARRATOR, "And then Jesus said the words. The ones the whole world would come to know."),
     # John 3:16-17
     ("j3", JESUS, "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life. For God sent not his Son into the world to condemn the world; but that the world through him might be saved."),

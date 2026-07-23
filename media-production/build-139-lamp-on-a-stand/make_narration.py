@@ -32,8 +32,9 @@ SEGMENTS = [
      "but on a candlestick; and it giveth light unto all that are "
      "in the house."),
     ("n2", NARRATOR, "-20%", "-4Hz",
-     "So let your light shine, He said — not to show off, but so "
-     "people see the good and look up to your Father."),
+     "Not to be noticed — he was never after applause. The point was "
+     "that people would see something good in a life and be drawn to the "
+     "God behind it."),
     # sacred-silence beat follows n2. Exact KJV Matt 5:16.
     ("j3", JESUS, "-22%", "-2Hz",
      "Let your light so shine before men, that they may see your "

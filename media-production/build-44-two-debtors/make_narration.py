@@ -90,13 +90,13 @@ SEGMENTS = [
     ("n7", NARRATOR, "To forgive them frankly meant he simply let it go. He did not lower the payments. He tore both debts up and asked for nothing back. And Simon answered, a little carefully: I suppose the one who was let off the most. You have judged rightly, Jesus told him. The one who was carrying the heavier weight is the one who walks away loving the most."),
     # Luke 7:44-46
     ("jv44", JESUS, "Seest thou this woman? I entered into thine house, thou gavest me no water for my feet: but she hath washed my feet with tears, and did wipe them with the hairs of her head. Thou gavest me no kiss: but this woman since the time I came in hath not ceased to kiss my feet. My head with oil thou didst not anoint: but this woman hath anointed my feet with ointment."),
-    ("n8", NARRATOR, "Then Jesus turned and looked at the woman, but he kept speaking to Simon. He set the two of them side by side. Simon had given him no water for his feet; she had washed them with her tears. Simon had given him no greeting; she had not stopped kissing his feet since she came in."),
+    ("n8", NARRATOR, "Then Jesus turned and looked at the woman, but he kept speaking to Simon. He set the two of them side by side. Simon had given him no water for his feet; Simon had given him no greeting; she had not stopped kissing his feet since she came in."),
     # Luke 7:47
     ("j4", JESUS, "Her sins, which are many, are forgiven; for she loved much: but to whom little is forgiven, the same loveth little."),
     ("n9", NARRATOR, "Read that slowly, because it is easy to turn it backwards. The tears were not the payment. They were what it looks like when a debt you could never repay is torn up right in front of you. Simon loved little, because he believed he owed little."),
     # Luke 7:48
     ("jv48", JESUS, "Thy sins are forgiven."),
-    ("n9b", NARRATOR, "Your sins are forgiven. He said it out loud, at a full table, in front of every important man in that town, to the one person in the room everybody there had already written off."),
+    ("n9b", NARRATOR, "He said it out loud, at a full table, in front of every important man in that town, to the one person in the room everybody there had already written off."),
     # Luke 7:50
     ("j5", JESUS, "Thy faith hath saved thee; go in peace."),
     ("n10", NARRATOR, "She came in as the woman everybody had already judged. She walked out saved, and at peace, and loved. And here is the quiet danger in Simon's seat at the table. If you are sure you are only a small sinner, you will only ever be a small lover of God. But let yourself be the one forgiven much, and you get to be the one who loves much. That was never the punishment. That is the gift."),

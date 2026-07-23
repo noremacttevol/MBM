@@ -44,7 +44,6 @@ SEGMENTS = [
     ("n0", NARRATOR, "Some who heard the good news had already died before they could finish their lives in the body."),
     # 1 Peter 4:6
     ("s1", SCRIPTURE, "For for this cause was the gospel preached also to them that are dead, that they might be judged according to men in the flesh, but live according to God in the spirit."),
-    ("n1a", NARRATOR, "The gospel was preached to them too."),
     ("n1b", NARRATOR, "Not in vain, not too late."),
     ("n2", NARRATOR, "They might be judged by men's measure in the flesh — and yet be alive by God's measure in the spirit."),
     # 1 Peter 3:18-19

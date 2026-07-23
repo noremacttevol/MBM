@@ -66,7 +66,7 @@ SEGMENTS = [
     ("s1", SCRIPTURE, "And God said,"),
     # Genesis 1:26
     ("g26", GOD, "Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth."),
-    ("n0b", NARRATOR, "Hear the word us. Let us make man in our image. God is not talking to himself there — he is talking with someone, and what they decide together is to make a creature that looks like them. Then he hands that creature the whole living world to take care of."),
+    ("n0b", NARRATOR, "Hear the word us. God is not talking to himself there — he is talking with someone, and what they decide together is to make a creature that looks like them. Then he hands that creature the whole living world to take care of."),
     # Genesis 1:27
     ("s2", SCRIPTURE, "So God created man in his own image, in the image of God created he him; male and female created he them."),
     ("n0c", NARRATOR, "And then he did it. Moses says it three times in one sentence, like he cannot get over it — in his own image, in the image of God, male and female both. Not one of them closer to God than the other. Both of them bearing the likeness."),

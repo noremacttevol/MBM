@@ -66,7 +66,7 @@ SEGMENTS = [
     ("n6", NARRATOR, "But the older brother stood outside, angry that grace looked so easy. The door ran both ways — it was open for him too."),
     # Luke 15:31-32
     ("j31", JESUS, "Son, thou art ever with me, and all that I have is thine. It was meet that we should make merry, and be glad: for this thy brother was dead, and is alive again; and was lost, and is found."),
-    ("n7", NARRATOR, "Son, you have always been with me, the father told him, and everything I have is already yours. Then he went right back to the reason for the party — your brother was dead, and he's alive. He was lost, and we found him. The father walked out to both sons."),
+    ("n7", NARRATOR, "Son, you have always been with me, the father told him, and everything I have is already yours. Then he went right back to the reason for the party — your brother was dead, and he's alive. The father walked out to both sons."),
     ("card", NARRATOR, "The road home is always open. However far you've gone, turn around — He's already running to meet you."),
 ]
 

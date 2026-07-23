@@ -53,7 +53,7 @@ SEGMENTS = [
     ("n2b", NARRATOR, "You will never wash my feet, Peter said. Not you. Not for me. And Jesus answered him gently, but he did not back down."),
     # John 13:8
     ("j1", JESUS, "If I wash thee not, thou hast no part with me."),
-    ("n2c", NARRATOR, "If I don't wash you, he said, you have no part with me. That is how serious this is. Peter thought he was protecting Jesus's dignity. What he was really doing was refusing to be loved."),
+    ("n2c", NARRATOR, "That is how serious this is. Peter thought he was protecting Jesus's dignity. What he was really doing was refusing to be loved."),
     ("n3", NARRATOR, "When he had finished, he dried their feet with the towel at his waist, sat back down, and asked if they understood what he had just done."),
     # John 13:14
     ("j2", JESUS, "If I then, your Lord and Master, have washed your feet; ye also ought to wash one another's feet."),

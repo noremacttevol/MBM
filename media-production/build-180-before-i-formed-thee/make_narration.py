@@ -61,7 +61,7 @@ SEGMENTS = [
     ("n2", NARRATOR, "The God who made him had already chosen him — and blessing, not pressure, was the shape of it."),
     # Jeremiah 1:5
     ("s1", GOD, "Before I formed thee in the belly I knew thee; and before thou camest forth out of the womb I sanctified thee, and I ordained thee a prophet unto the nations."),
-    ("n1r", NARRATOR, "Read that again slowly. Before I made your body, I knew you. Before you were ever born, I set you apart, and I gave you this work. God is telling a frightened young man that they had already met — long before anybody in Jerusalem knew his name."),
+    ("n1r", NARRATOR, "Read that again slowly. Before you were ever born, I set you apart, and I gave you this work. God is telling a frightened young man that they had already met — long before anybody in Jerusalem knew his name."),
     # Jeremiah 1:6
     ("s1b", SCRIPTURE, "Ah, Lord GOD! behold, I cannot speak: for I am a child."),
     ("n3a", NARRATOR, "Jeremiah answered that he was only a child."),

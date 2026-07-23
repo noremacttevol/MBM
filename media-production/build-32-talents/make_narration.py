@@ -75,7 +75,7 @@ SEGMENTS = [
     ("n6", NARRATOR, "When the master came home, the first two servants showed him what they had made. And he was overjoyed."),
     # Matthew 25:21
     ("j1", JESUS, "Well done, thou good and faithful servant: thou hast been faithful over a few things, I will make thee ruler over many things: enter thou into the joy of thy lord."),
-    ("n7", NARRATOR, "Enter into the joy of your master. He did not just reward them, he shared his own joy with them, and welcomed them deeper in."),
+    ("n7", NARRATOR, "He did not just reward them, he shared his own joy with them, and welcomed them deeper in."),
     ("n8", NARRATOR, "Then the last servant came, dug up his one buried bag, and handed it back untouched. And listen to why he had buried it."),
     # Matthew 25:24
     ("j24", JESUS, "Lord, I knew thee that thou art an hard man, reaping where thou hast not sown, and strawing where thou hast not strawed:"),

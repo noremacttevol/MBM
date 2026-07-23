@@ -37,7 +37,7 @@ SEGMENTS = [
     ("s23", SCRIPTURE, "Wilt thou also destroy the righteous with the wicked? Shall not the Judge of all the earth do right?"),
     # Genesis 18:26
     ("jv26", GOD, "If I find in Sodom fifty righteous within the city, then I will spare all the place for their sakes."),
-    ("n5", NARRATOR, "Yes, God said. For fifty, I will spare them all. And you can almost feel Abraham's courage grow. What about forty-five? What about forty? Thirty? Each time, gently, the answer came back — yes. Yes. I will spare it."),
+    ("n5", NARRATOR, "Yes, God said. And you can almost feel Abraham's courage grow. What about forty-five? What about forty? Thirty? Each time, gently, the answer came back — yes. Yes. I will spare it."),
     ("n6", NARRATOR, "He is not wearing God down. He is discovering how merciful God already is — how much God would rather spare than destroy. So Abraham dares one last step."),
     # Genesis 18:32
     ("s32", SCRIPTURE, "Oh let not the Lord be angry, and I will speak yet but this once: Peradventure ten shall be found there."),

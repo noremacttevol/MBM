@@ -29,7 +29,7 @@ from mbm_speakers import JESUS, NARRATOR, WOMAN
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, "In a village called Bethany, close enough to Jerusalem to walk, there lived two sisters, Martha and Mary, and their brother Lazarus. Jesus loved this family. Their home was the one place on the whole road where he could stop being a public figure and simply be a friend. And now their brother was dying. So the sisters sent word to Jesus — not a demand, just a few aching words: Lord, the one you love is sick."),
+    ("n0", NARRATOR, "In a village called Bethany, close enough to Jerusalem to walk, there lived two sisters, Martha and Mary, and their brother Lazarus. Jesus loved this family. Their home was the one place on the whole road where he could stop being a public figure and simply be a friend. And now their brother was dying. So the sisters sent word to Jesus — not a demand, just a few aching words:"),
     # John 11:3
     ("w3", WOMAN, "Lord, behold, he whom thou lovest is sick."),
     ("n1", NARRATOR, "You would expect him to drop everything and run. He did the opposite. When the news reached him, he stayed where he was two more days. But listen to what he said about it:"),

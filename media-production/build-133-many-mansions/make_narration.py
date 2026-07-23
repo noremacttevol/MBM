@@ -54,7 +54,7 @@ SEGMENTS = [
     ("n2", NARRATOR, "He described a home they couldn't see yet — a place He was going to make ready for them, room for each one."),
     # John 14:3
     ("jv3", JESUS, "And if I go and prepare a place for you, I will come again, and receive you unto myself; that where I am, there ye may be also."),
-    ("n3", NARRATOR, "And then the promise that undoes every fear: I'm coming back. I'll bring you to Myself, so you're where I am."),
+    ("n3", NARRATOR, "And then the promise that undoes every fear: I'm coming back."),
     # John 14:5
     ("s5", SCRIPTURE, "Lord, we know not whither thou goest; and how can we know the way?"),
     # John 14:6

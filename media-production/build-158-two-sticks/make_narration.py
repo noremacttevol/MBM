@@ -39,7 +39,7 @@ SEGMENTS = [
     ("n6", NARRATOR, "And of course the people came asking, what do you mean by this? Why two sticks made one? What are you trying to show us? God had built the question right into the lesson."),
     # Ezekiel 37:19
     ("kv19", GOD, "Say unto them, Thus saith the Lord GOD; Behold, I will take the stick of Joseph, which is in the hand of Ephraim, and the tribes of Israel his fellows, and will put them with him, even the stick of Judah, and make them one stick, and they shall be one in mine hand."),
-    ("n7", NARRATOR, "Notice whose hand does the joining. God says, they shall be one in mine hand. He is the one who gathers the scattered records, and the scattered people, and binds them together into one."),
+    ("n7", NARRATOR, "Notice whose hand does the joining. He is the one who gathers the scattered records, and the scattered people, and binds them together into one."),
     ("n8", NARRATOR, "So this strange little sign is really a promise of gathering. God does not leave his family, or his words to them, broken into separate pieces forever. He brings them back together. So the only question is a hopeful one. When the two are made one in his hand, will you take them both up and read?"),
     ("card", NARRATOR, "God had Ezekiel join two records into one stick — two witnesses made one in his hand. He gathers what was scattered, and binds his words together. When the two are one, will you take them both up and read?"),
 ]

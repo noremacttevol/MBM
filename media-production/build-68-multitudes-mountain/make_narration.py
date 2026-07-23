@@ -53,7 +53,7 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 SEGMENTS = [
     ("n0", NARRATOR, "After the coast, Jesus came back toward the Sea of Galilee, climbed partway up a mountain, and sat down. That's all he did. He sat down where he could be found. And the whole region emptied itself onto that mountainside to find him."),
     ("n1", NARRATOR, "Matthew says great multitudes came — and they did not come empty-handed. They came carrying people. Think about what that means on a mountain. Somebody hauled their father up a rocky slope on a plank. Somebody carried a grown brother on their back. Somebody led a blind neighbor by the hand over every single stone. Every step of that climb was somebody's love for somebody, written in sweat."),
-    ("n2", NARRATOR, "And they laid them down at his feet. Here is exactly how Matthew writes it:"),
+    ("n2", NARRATOR, "Here is exactly how Matthew writes it:"),
     # Matthew 15:30
     ("s30", SCRIPTURE, "And great multitudes came unto him, having with them those that were lame, blind, dumb, maimed, and many others, and cast them down at Jesus' feet;"),
     ("n3", NARRATOR, "The lame, the blind, the mute, the maimed — he stacks up the words until you can see it: the pain of an entire region, gathered into one place, set down in front of one man. And then the gospel gives us four of the biggest words in the Bible, with no fanfare at all: and he healed them. That's it. No names. No interviews. No list. Thousands of the greatest moments of thousands of lives, all hidden inside one quiet sentence."),

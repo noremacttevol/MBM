@@ -72,7 +72,7 @@ SEGMENTS = [
     ("n12", NARRATOR, "Three times Peter answered him, yes, Lord, you know that I love you. Each time it cost him more, and each time he meant it more."),
     # John 21:16
     ("j2", JESUS, "Feed my sheep."),
-    ("n13", NARRATOR, "Feed my sheep. To the man who had failed him worst, Jesus handed the biggest job of all. He did not only forgive Peter. He trusted him again."),
+    ("n13", NARRATOR, "To the man who had failed him worst, Jesus handed the biggest job of all. He did not only forgive Peter. He trusted him again."),
     ("n14", NARRATOR, "That is how good he is. He takes your worst night and hands you back your life, with a purpose bigger than the one you thought you had thrown away."),
     ("card", NARRATOR, "Peter went back to fishing because he thought his failure was final. Is there a failure you have quietly decided is final?"),
 ]

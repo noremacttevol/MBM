@@ -52,7 +52,7 @@ SEGMENTS = [
     ("n10", NARRATOR, "And the men in that boat — the same men who minutes earlier had screamed that he was a ghost — knelt down where they sat, soaked and shaking, and worshipped him."),
     # Matthew 14:33
     ("s33", SCRIPTURE, "Of a truth thou art the Son of God."),
-    ("n10b", NARRATOR, "You really are the Son of God, they said. The storm had taught them who he was. And notice what the story remembers about Peter. Not that he sank. That he walked. And that when he fell, he was caught."),
+    ("n10b", NARRATOR, "The storm had taught them who he was. And notice what the story remembers about Peter. Not that he sank. That he walked. And that when he fell, he was caught."),
     ("n11", NARRATOR, "When your storm gets loud and your faith slips, look back up — the same hand is already reaching for you. Keep your eyes on him."),
 ]
 

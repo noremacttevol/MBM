@@ -47,7 +47,7 @@ SEGMENTS = [
     ("w1a", WOMAN, "Intreat me not to leave thee, or to return from following after thee: for whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God."),
     # Ruth 1:17
     ("w1b", WOMAN, "Where thou diest, will I die, and there will I be buried: the LORD do so to me, and more also, if ought but death part thee and me."),
-    ("n2", NARRATOR, "Don't ask me to leave you, Ruth said. Wherever you go, I'm going. Wherever you stay, I'm staying. Your people are my people now, and your God is my God. Where you die, I'll die, and that's where they'll bury me. Only death gets to separate us — and even that, may God deal with me if it does."),
+    ("n2", NARRATOR, "Don't ask me to leave you, Ruth said. Wherever you go, I'm going. Wherever you stay, I'm staying. Your people are my people now, and your God is my God. Only death gets to separate us — and even that, may God deal with me if it does."),
     # Ruth 1:20
     ("w2a", WOMAN, "Call me not Naomi, call me Mara: for the Almighty hath dealt very bitterly with me."),
     # Ruth 1:21

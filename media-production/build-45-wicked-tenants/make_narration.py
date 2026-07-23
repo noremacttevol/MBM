@@ -77,7 +77,7 @@ SEGMENTS = [
     ("n5", NARRATOR, "And the man came back with the basket still empty, and shaken. They had handled him roughly and sent him off with nothing. Now here is where the story stops making ordinary sense. Anyone else sends the law next. This owner sent another messenger."),
     # Mark 12:4-5
     ("jv4_5", JESUS, "And again he sent unto them another servant; and at him they cast stones, and wounded him in the head, and sent him away shamefully handled. And again he sent another; and him they killed, and many others; beating some, and killing some."),
-    ("n6", NARRATOR, "And they treated that one worse. So he sent another. And another after that. Message after message, season after season, and every time it came back the same, or did not come back at all."),
+    ("n6", NARRATOR, "And they treated that one worse. And another after that. Message after message, season after season, and every time it came back the same, or did not come back at all."),
     ("n7", NARRATOR, "Stop and feel how strange that is. Every reasonable line was crossed a long time ago. He had every right to come with force and end it. Instead he kept doing the one thing that left him exposed. He kept reaching out to people who had already shown him exactly who they were."),
     # Mark 12:6
     ("jv6", JESUS, "Having yet therefore one son, his wellbeloved, he sent him also last unto them, saying, They will reverence my son."),

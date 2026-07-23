@@ -52,7 +52,7 @@ SEGMENTS = [
     ("s5a", SCRIPTURE, "And when he had looked round about on them with anger, being grieved for the hardness of their hearts, he saith unto the man,"),
     # Mark 3:5
     ("jv5", JESUS, "Stretch forth thine hand."),
-    ("n4b", NARRATOR, "He looked around at every one of them, angry, and grieved to the heart at how hard they had let themselves become. And then he turned away from them, to the man, and said: stretch out your hand."),
+    ("n4b", NARRATOR, "He looked around at every one of them, angry, and grieved to the heart at how hard they had let themselves become. And then he turned away from them, to the man, and said:"),
     ("n5", NARRATOR, "And the man stretched out the hand he could not use — and as he reached, it was made whole, restored, strong and alive again, exactly like his other hand. The thing that had been dead came back to life at a single word."),
     ("n6", NARRATOR, "But the leaders were not amazed; they were furious. They walked out and began, that very day, to plot together how they might destroy him. He had done nothing but good, and it only hardened them."),
     ("n7", NARRATOR, "Faced with a rule on one side and a suffering man on the other, Jesus never wavered. He will always move toward the person. Mercy, to him, was never a breaking of the sabbath; it was the whole reason for it."),

@@ -54,7 +54,7 @@ SEGMENTS = [
     ("n2", NARRATOR, "Then he took the bread, gave thanks, broke it, and gave it to them."),
     # Luke 22:19
     ("j1", JESUS, "This is my body which is given for you: this do in remembrance of me."),
-    ("n2b", NARRATOR, "This is my body, he said, and it is given for you. Do this to remember me. Not a symbol he was explaining — a gift he was handing over, piece by piece, into their hands."),
+    ("n2b", NARRATOR, "Do this to remember me. Not a symbol he was explaining — a gift he was handing over, piece by piece, into their hands."),
     ("n3", NARRATOR, "After the meal he lifted the cup, and gave it to them, too."),
     # Luke 22:20
     ("j2", JESUS, "This cup is the new testament in my blood, which is shed for you."),

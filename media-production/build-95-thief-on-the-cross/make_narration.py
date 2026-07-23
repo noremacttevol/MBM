@@ -49,7 +49,7 @@ SEGMENTS = [
     ("n0b", NARRATOR, "If you're really the Christ, save yourself — and us. That was one of them, sneering at him from the next cross over."),
     # Luke 23:40-41
     ("s40", SCRIPTURE, "Dost not thou fear God, seeing thou art in the same condemnation? And we indeed justly; for we receive the due reward of our deeds: but this man hath done nothing amiss."),
-    ("n1", NARRATOR, "But the other one stopped him. We're getting what we deserve, he said. This man has done nothing wrong."),
+    ("n1", NARRATOR, "But the other one stopped him. We're getting what we deserve, he said."),
     ("n2", NARRATOR, "Then he turned his head toward Jesus and asked for the smallest thing he could think of."),
     # Luke 23:42
     ("s42", SCRIPTURE, "Lord, remember me when thou comest into thy kingdom."),
