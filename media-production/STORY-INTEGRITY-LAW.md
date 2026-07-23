@@ -66,33 +66,43 @@ hear my voice" #108, and again as restoration "Other sheep I have" #159 / "Ye ar
 - Blind healings — #12 Bartimaeus, #63 man born blind. Distinct; keep.
 
 **Re-scope (a one-verse video whose verse is a line from a scene told elsewhere).** These
-stay in the library but must be built as TEACHING pieces per Rule 2, NOT as a second
-telling of the parent scene:
+stay in the library and must be built as TEACHING pieces per Rule 2, NOT as a second
+telling of the parent scene — this matches the 2026-07-20 audit's "add-on" ruling exactly:
 - #144 "I am the resurrection and the life" — teach Christ over death; do not re-narrate
-  #17 Lazarus.
+  #17 Lazarus. (When #17 gets its deferred redo, keep #17 on the weeping and the raising;
+  the "I AM" saying belongs to #144.)
 - #168 "Born of water and of the Spirit" — teach the new birth; do not re-narrate #4
   Nicodemus.
 - #169 "To fulfil all righteousness" — teach why the sinless One was baptized; do not
   re-narrate #69 the Baptism.
-- #134 — currently muddled (Luke 23:43 paradise + John 20:17 "touch me not" welded
-  together). Split the welding: the paradise promise belongs INSIDE #95 the thief on the
-  cross. **Recommend #134's slot be freed and replaced** (see below).
+- **#134 is NOT touched.** It was already reworked in the 2026-07-20 audit from a dupe of
+  #159 into a distinct spirit-world teaching (the thief, "I am not yet ascended" — more
+  mercy than one-heaven-one-chance). Keep it as built.
 
-## Recommended: 1 free slot now (#134), 4 strong untold scenes on the bench
+## This is a RECONCILIATION, not a new purge — the dedup was already done
 
-Rather than gut a carefully built 200, the only slot I'd actually empty today is **#134**
-(it double-covers the thief + welds in an unrelated verse). For it — and for any slot a
-future review frees — here are four untold, milk-friendly, Christ-centered scenes not yet
-anywhere in the 200, ready to drop in on Cameron's yes:
+The heavy lifting happened on **2026-07-20** (`AUDITS/2026-07-20-repeat-audit.md`,
+Cameron-ordered). It already fixed six repeats and set the same rules this file states:
+rows **71, 128, 133, 134, 137, 140** were swapped from dupes to new stories (Simeon &
+Anna; "their heart is far from me"; what Jesus called hell; the thief/spirit-world; "one,
+as we are one"; Naaman). Old builds were ARCHIVED in place, not deleted. That audit is
+authoritative and this law simply carries its rules forward for the ElevenLabs re-voice
+pass. **So there is no empty slot today — the 200 is full and clean.**
 
-- **Pentecost — the Spirit poured out (Acts 2).** The promise kept, boldness given.
-- **The Damascus road — Saul meets the risen Christ (Acts 9).** No one is too far gone.
-- **The Ethiopian at the water (Acts 8:26–39).** Met exactly where he was, on his road —
-  the Jesus Method in one story.
+## Next new story: PENTECOST (Acts 2) — approved by Cameron 2026-07-23
+
+Cameron approved building **Pentecost — the Spirit poured out (Acts 2)** as the next NEW
+story. Because the 200 is full, it must take ONE row. It fits the early-church/Restoration
+thread. **Recommendation for the slot is pending Cameron's pick** (his content call — I
+will not cut an approved story unasked). It slots naturally at the next row freed during
+the ElevenLabs re-review, since every video is being re-approved anyway.
+
+Bench (untold, milk-friendly, Christ-centered — for any slot that frees):
+- **Damascus road — Saul meets the risen Christ (Acts 9).** No one is too far gone.
+- **The Ethiopian at the water (Acts 8:26–39).** Met exactly where he was — the Method.
 - **Daniel in the lions' den (Daniel 6).** God with us in the closed place.
-
-(Alternates: David and Goliath (1 Sam 17); Esther "for such a time as this"; Peter freed
-by the angel (Acts 12); the widow of Zarephath's oil (1 Kgs 17).)
+- Alternates: David & Goliath (1 Sam 17); Esther; Peter freed by the angel (Acts 12);
+  the widow of Zarephath's oil (1 Kgs 17).
 
 ## Standing instruction to every session
 
