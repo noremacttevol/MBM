@@ -63,3 +63,7 @@ Text on cream (#F7F2E9), serif, spoken + captioned (an INVITATION): "The night
 before he died, he prayed for you — that you would be one with them, as they
 are one with each other."
 GL_POINTER = "Learn more — Gospel Library: Godhead"
+
+CHARACTER-REF-EXEMPT: peter (disciples appear ONLY distant and non-individual in this John 17 prayer — no rostered face rendered close, nothing to match)
+CHARACTER-REF-EXEMPT: james (distant/non-individual, no close face)
+CHARACTER-REF-EXEMPT: john-beloved (distant/non-individual, no close face)
