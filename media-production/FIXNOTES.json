@@ -555,6 +555,10 @@
   {
    "date": "2026-07-22",
    "note": "Fixed the Elias problem two ways. (1) Spelling: the narrator was saying \"Elijah\" in two spots \u2014 both changed to \"Elias\" so every voice, narrator included, now uses the KJV name. (2) Pronunciation: respelled to ee-LY-us. Captions verified saying \"Elias\" in the final cut. Please confirm the ee-LY-us stress on headphones \u2014 that part can't be machine-checked. \u2014 narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "80": [

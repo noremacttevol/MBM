@@ -54,7 +54,7 @@ SEGMENTS = [
     ("n2b", NARRATOR, "Peter, overwhelmed, blurted out the first thing that came to him."),
     # Mark 9:5
     ("j1", SCRIPTURE, "Master, it is good for us to be here: and let us make three tabernacles; one for thee, and one for Moses, and one for Elias."),
-    ("n2c", NARRATOR, "He wanted to keep the moment. Build something, stay a while. Mark adds, kindly, that Peter did not know what to say, because they were so afraid."),
+    ("n2c", NARRATOR, "Master, it's good that we're here — let us put up three shelters, one for you, one for Moses, one for Elias. He wanted to keep the moment. Build something, stay a while. Mark adds, kindly, that Peter did not know what to say, because they were so afraid."),
     ("n3", NARRATOR, "Then a bright cloud settled over the mountain, and out of it came a voice."),
     # Mark 9:7
     ("j2", GOD, "This is my beloved Son: hear him."),
