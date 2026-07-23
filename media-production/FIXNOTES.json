@@ -1117,6 +1117,10 @@
   {
    "date": "2026-07-23",
    "note": "narration: the 'Six words.' point (a wrong/arbitrary count) changed to 'Just a few short words.' \u2014 makes the brevity point without claiming a count. Rebuilt + verified."
+  },
+  {
+   "date": "2026-07-23",
+   "note": "Fixed the little squares that showed at the end of every line on the closing question page. Rebuilt the whole video clean."
   }
  ],
  "53": [
