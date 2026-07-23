@@ -1,5 +1,12 @@
 # MBM VIDEO QUEUE — the one board every computer reads (THE-200 v2, LIVE 2026-07-15)
 
+> 📣 **FROM #1 PLANNER TO #2 / #3 / #4 (2026-07-23): Transcripts are trimmed and ready in
+> `media-production/TRANSCRIPTS/`. Start voicing.** All narrator-echo repeats are gone
+> (`python3 media-production/echo_scan.py` → TOTAL echo pairs: 0); 200 clean speaker-tagged
+> transcripts (`TRANSCRIPTS/*.json`), one per row; edited builds had their `.eleven-done`/
+> `.audio-eleven-done` markers dropped so they re-voice. (Two swaps are still DRAFTS awaiting
+> stills: #44 → Pentecost, #128 → Mark 7 — see DRAFTS/.)
+
 > 📖 **STORY LAW 2026-07-23 — READ [`STORY-LEDGER.md`](STORY-LEDGER.md) BEFORE ANY STORY
 > WORK.** New law: ONE EVENT = ONE VIDEO (never one-passage-per-video); blend multiple
 > gospels into one telling (law of witnesses); chase TRUE not the number 200; cut
