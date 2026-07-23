@@ -134,6 +134,12 @@ async def save_speaker_narration(tts_text, speaker, out_mp3, rate=None, pitch=No
     apart. Per-segment rate/pitch overrides are still allowed for the rare beat
     that needs them.
     """
+    if os.environ.get("MBM_TTS") == "eleven":
+        # tts_text already passed through spoken_text(), which under MBM_TTS=eleven
+        # emits the clean ElevenLabs spelling. Render via the ElevenLabs engine,
+        # which writes the same mp3 + .timing.json sidecar edge-tts did.
+        from mbm_eleven import render_segment
+        return render_segment(tts_text, speaker, out_mp3)
     from mbm_speakers import voice_of
     voice, r, p = voice_of(speaker, rate, pitch)
     return await save_narration(tts_text, voice, r, p, out_mp3)
