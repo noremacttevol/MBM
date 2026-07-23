@@ -72,7 +72,7 @@ SEGMENTS = [
     ("j2", JESUS, "Woman, where are those thine accusers? hath no man condemned thee?"),
     # John 8:11
     ("w11", WOMAN, "No man, Lord."),
-    ("n5", NARRATOR, "Where are the ones accusing you, he asked her. Has no one condemned you? Three words — the only three the Bible gives her, and she got to say them standing up, in an empty courtyard, to the one person who had not walked away."),
+    ("n5", NARRATOR, "Where are the ones accusing you, he asked her. Has no one condemned you? No man, Lord, she said. Three words — the only three the Bible gives her, and she got to say them standing up, in an empty courtyard, to the one person who had not walked away."),
     # John 8:11
     ("j3", JESUS, "Neither do I condemn thee: go, and sin no more."),
     ("card", NARRATOR, "The only one with the right to condemn her, wouldn't. What would it change to hear him say that to you?"),
