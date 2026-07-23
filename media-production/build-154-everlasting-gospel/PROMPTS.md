@@ -66,3 +66,6 @@ earth colors. No modern objects.
 
 ## s8-the-gospel-for-you — Shot 8: it was sent for you — will you receive it?
 [STILL STYLE BLOCK] Full warm golden dawn over an open land. A single ordinary young person of the nations in earth-tone dun-and-brown wool (dark earth tones, never cream or pale) stands and holds a single open book to their chest with both hands, face lifted in quiet hope and gladness, having received the good news. Warm gold light across the whole landscape, open sky, a sense of gentle invitation. Only one figure, whole and correctly formed, one head, two arms, two legs, face shown. One single continuous scene painted edge to edge.
+
+## CANONICAL CHARACTER LOCKS (picture-lane)
+JOHN BELOVED LOCK: (Consistent with the SONS OF ZEBEDEE LOCK in builds #51/#71 — John is the clean-shaven younger brother.) A young Galilean fisherman of about twenty: warm olive-brown skin, dark wavy hair to the jaw, CLEAN-SHAVEN (his standing distinguisher among the apostles), bright attentive dark eyes, a lean wiry build with a fisherman's hard forearms, an open earnest young face. Standard garments: A faded grey-blue coarse wool tunic with a rope belt (locked in #51/#71), bare forearms, an ochre-brown mantle when a cloak is needed, simple leather sandals. Never cream.

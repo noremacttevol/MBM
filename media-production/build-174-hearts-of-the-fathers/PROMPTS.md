@@ -70,3 +70,6 @@ Text on cream (#F7F2E9), serif, spoken + captioned (an INVITATION): "He cares
 about your family. Let the healing start with your own heart."
 Plus the small one-line Gospel Library pointer (build-161 pattern):
 GL_POINTER = "Learn more — Gospel Library: Elijah; Family History"
+
+## CANONICAL CHARACTER LOCKS (picture-lane)
+JOHN BELOVED LOCK: (Consistent with the SONS OF ZEBEDEE LOCK in builds #51/#71 — John is the clean-shaven younger brother.) A young Galilean fisherman of about twenty: warm olive-brown skin, dark wavy hair to the jaw, CLEAN-SHAVEN (his standing distinguisher among the apostles), bright attentive dark eyes, a lean wiry build with a fisherman's hard forearms, an open earnest young face. Standard garments: A faded grey-blue coarse wool tunic with a rope belt (locked in #51/#71), bare forearms, an ochre-brown mantle when a cloak is needed, simple leather sandals. Never cream.

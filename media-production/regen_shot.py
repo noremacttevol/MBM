@@ -87,6 +87,12 @@ def shot_block(text, slug):
 
 
 def ref_paths(slug):
+    # Direct variant/character folder (e.g. aged-john, risen-jesus, infant-jesus)
+    # that character_refs doesn't register — use its sheet jpegs directly.
+    direct = HERE / "CHARACTERS" / slug
+    if (direct / "face-front.jpeg").is_file():
+        got = [direct / "face-front.jpeg", direct / "full-body.jpeg"]
+        return [p for p in got if p.is_file()]
     stem = CASTREF_ALIAS.get(slug, slug)
     single = CASTREF / f"{stem}.jpeg"
     if single.is_file():
@@ -139,7 +145,10 @@ def main():
 
     refs = []
     for c in [x.strip() for x in a.chars.split(",") if x.strip()]:
-        slug = resolve(c) or c
+        try:
+            slug = resolve(c) or c
+        except Exception:
+            slug = c  # variant/direct folder (aged-john, risen-jesus, …)
         for p in ref_paths(slug):
             if not p.is_file():
                 sys.exit(f"missing ref for {c}: {p}")
