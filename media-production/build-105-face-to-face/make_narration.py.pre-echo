@@ -51,7 +51,7 @@ SEGMENTS = [
     ("n5", NARRATOR, "Face to face. As a man speaks with his friend. Not a master barking at a servant. Not a king across a vast throne room — easy, honest, close. God wanted Moses. Not just his obedience. His friendship."),
     # Exodus 33:14
     ("jv14", GOD, "My presence shall go with thee, and I will give thee rest."),
-    ("n5b", NARRATOR, "Not send someone ahead. Not watch from somewhere far off. Go with you."),
+    ("n5b", NARRATOR, "I will go with you myself, and I will give you rest. Not send someone ahead. Not watch from somewhere far off. Go with you."),
     ("n6", NARRATOR, "And that friendship made Moses bold. He asked for the one thing no one had ever dared to ask."),
     # Exodus 33:18
     ("s18", SCRIPTURE, "I beseech thee, shew me thy glory."),
