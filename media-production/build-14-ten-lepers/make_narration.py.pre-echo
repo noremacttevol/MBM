@@ -26,7 +26,7 @@ SEGMENTS = [
     ("n1", NARRATOR, "As he reached a village, ten men met him — but they stopped far off, strung along a rise, and came no closer. They were lepers. The Law of Moses required them to live outside the town and to warn everyone away. That gap of empty ground between them and the road was not shyness. It was the law. These were ten men no one had touched in years."),
     # Luke 17:13
     ("s13", SCRIPTURE, "Jesus, Master, have mercy on us."),
-    ("n2", NARRATOR, "So they did the only thing the distance left them."),
+    ("n2", NARRATOR, "So they did the only thing the distance left them. They lifted up their voices together and called across the gap: Jesus, Master, have mercy on us."),
     ("n3", NARRATOR, "When he saw them, he did not close the distance. He did not touch them, and he did not announce that they were healed. He simply gave them an instruction:"),
     # Luke 17:14
     ("j1", JESUS, "Go shew yourselves unto the priests."),
