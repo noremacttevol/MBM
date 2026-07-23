@@ -81,7 +81,7 @@ SEGMENTS = [
     ("n5", NARRATOR, "Then he turned toward the woman — but kept talking to Simon. Look at her, he said. When I walked into your house, you offered me no water for my feet, no welcome, no oil. She has done nothing else since she came in."),
     # Luke 7:47
     ("j1", JESUS, "Her sins, which are many, are forgiven; for she loved much: but to whom little is forgiven, the same loveth little."),
-    ("n5b", NARRATOR, "The one who thinks he has been forgiven little, loves little. Simon had been sitting there the whole meal, certain he was the clean one."),
+    ("n5b", NARRATOR, "Her sins are many, he said, and they are forgiven — and that is exactly why she loves like this. The one who thinks he has been forgiven little, loves little. Simon had been sitting there the whole meal, certain he was the clean one."),
     # Luke 7:48
     ("j2", JESUS, "Thy sins are forgiven."),
     # Luke 7:49
