@@ -62,7 +62,7 @@ SEGMENTS = [
     ("n2", NARRATOR, "And the people shouted as he rode in:"),
     # Matthew 21:9
     ("j1", SCRIPTURE, "Hosanna to the son of David: Blessed is he that cometh in the name of the Lord; Hosanna in the highest."),
-    ("n2b", NARRATOR, "Hosanna means save us now. They were calling him King out loud, in the street, where everyone could hear it."),
+    ("n2b", NARRATOR, "Hosanna means save us now. Save us now, Son of David — blessed is the one coming in the name of the Lord. They were calling him King out loud, in the street, where everyone could hear it."),
     ("n3", NARRATOR, "The whole city was stirred. When they asked who this was, the crowd answered plainly."),
     # Matthew 21:10-11
     ("j2", SCRIPTURE, "And when he was come into Jerusalem, all the city was moved, saying, Who is this? And the multitude said, This is Jesus the prophet of Nazareth of Galilee."),
