@@ -25,7 +25,7 @@ touching anything else. Do NOT edit by hand.
 | 16 | newer cut shipped — VERIFY fixed | That's not how you pronounce wound |
 | 17 | newer cut shipped — VERIFY fixed | captions are messed up and the voice  is messed  up and is misspronouncing livest and  other old english pronunciation. |
 | 18 | newer cut shipped — VERIFY fixed | Same problems. Same main problem that nothing i say is getting fixed. Jesus once in one picture had short hair. Not like you care |
-| 19 | UNFIXED | The clothes of peter and his look and all of the people in the boat keep changing and then picture jesus looks like he's burning something out of his hand all of these pictures look like they've been made by AI and I get that they have , but let's try our best not to make you look stupid. So redo them all |
+| 19 | newer cut shipped — VERIFY fixed | The clothes of peter and his look and all of the people in the boat keep changing and then picture jesus looks like he's burning something out of his hand all of these pictures look like they've been made by AI and I get that they have , but let's try our best not to make you look stupid. So redo them all |
 | 20 | newer cut shipped — VERIFY fixed | one frame the samaratin had hair and the next he was bald. |
 | 22 | newer cut shipped — VERIFY fixed | That's not how you pronounce owest. |
 | 25 | newer cut shipped — VERIFY fixed | At 2:11 tear was misspronounced because it means break tear not a cry tear |
