@@ -50,7 +50,7 @@ SEGMENTS = [
     ("n1a", NARRATOR, "Pilate could see Jesus had done nothing worth death. So he put the choice to the crowd himself."),
     # Mark 15:9
     ("s9", SCRIPTURE, "Will ye that I release unto you the King of the Jews?"),
-    ("n1a2", NARRATOR, "He was almost offering it to them."),
+    ("n1a2", NARRATOR, "Do you want me to release the King of the Jews to you? He was almost offering it to them."),
     ("n1b", NARRATOR, "He thought the crowd would surely pick the innocent one."),
     ("n2", NARRATOR, "But the chief priests worked the crowd, and they shouted for Barabbas instead. Pilate asked them what he should do with Jesus, then — and they answered with one word."),
     # Mark 15:13
