@@ -1,5 +1,12 @@
 # MBM VIDEO QUEUE — the one board every computer reads (THE-200 v2, LIVE 2026-07-15)
 
+> 📖 **STORY LAW 2026-07-23 — READ [`STORY-LEDGER.md`](STORY-LEDGER.md) BEFORE ANY STORY
+> WORK.** New law: ONE EVENT = ONE VIDEO (never one-passage-per-video); blend multiple
+> gospels into one telling (law of witnesses); chase TRUE not the number 200; cut
+> duplicates/filler and refill with genuinely NEW stories (Cameron approves swaps first);
+> drop the narrator→scripture echo. Every session works from that ledger so all machines
+> agree. Moving to ElevenLabs voice → everything gets re-approved.
+
 > Three shelves: rows 1–100 EVERYONE · 101–150 BRIDGE · 151–200 MEMBER.
 > Full rules + machine assignments live in FACTORY-ORDERS.md — read that first.
 > Next job = lowest row IN YOUR MACHINE'S RANGE where Built is ⬜ and Claim is empty.
