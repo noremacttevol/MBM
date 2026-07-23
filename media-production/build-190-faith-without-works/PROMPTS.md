@@ -70,3 +70,5 @@ Text on cream (#F7F2E9), serif, spoken + captioned (an INVITATION): "Real faith
 reaches out a hand. Let yours move — he sees every small, true thing you do."
 Plus the small one-line Gospel Library pointer (build-161 pattern):
 GL_POINTER = "Learn more — Gospel Library: Faith"
+
+CHARACTER-REF-EXEMPT: james (James is the epistle's author (build header confirms), never on screen)

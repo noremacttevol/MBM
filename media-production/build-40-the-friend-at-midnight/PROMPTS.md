@@ -131,3 +131,5 @@ REF: s1-teach-us-to-pray, s12-the-neighbour-is-the-contrast
 
 ## s16-the-light-is-already-on — Shot 16: the door was never barred
 [STILL STYLE BLOCK] A village street at DEEP MIDNIGHT — a black sky crowded with cold stars, a thin sliver of moon, dark blue-black shuttered houses running away into the night on both sides. In the middle of all that darkness, one single door of a warm pale stone house stands WIDE OPEN, and warm orange-gold lamplight is pouring out of it in a broad welcoming path that spills right across the dark street toward us. A clay oil lamp burns in the window beside it, plainly set there on purpose for somebody. Nothing blocks the doorway — no bar, no gate, no rope, and nobody is asleep behind it. Walking toward that open door out of the darkness, small and unhurried and seen from behind, is a single ordinary Judean man in a plain undyed tunic. He is nearly there. Hopeful, tender, unpressured, overflowing warm gold light against a deep blue-black night. One single continuous scene painted edge to edge.
+
+CHARACTER-REF-EXEMPT: god-the-father ('how much more shall your heavenly Father' — named, not depicted)

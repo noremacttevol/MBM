@@ -85,3 +85,5 @@ SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stack
 ### Closing card
 Text on cream (#F7F2E9), serif, spoken + captioned (an INVITATION): "He still reads it
 as today. What would it mean if that promise were meant for you, right now?"
+
+CHARACTER-REF-EXEMPT: isaiah (the scroll of Isaiah is read; the prophet is not painted)
