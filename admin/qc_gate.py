@@ -292,7 +292,12 @@ def gate(bdir, fast=False):
     if not segs:
         reasons.append("SCRIPT: make_narration.py has no readable SEGMENTS")
     else:
-        reasons += check_engine(bdir)
+        # NOTE 2026-07-24: check_engine (grep make_narration.py for mbm_eleven) was
+        # WRONG and is retired — the real renderer is voice_from_transcripts.py at
+        # the mp root, which never touches make_narration.py. The clip sample rate
+        # IS trustworthy here: 44100 clips are written raw from the ElevenLabs API
+        # by render_segment; edge-tts writes raw 24000. (The re-encode fear was
+        # unfounded — no pipeline re-encodes narration clips to 44100.)
         reasons += check_voice_and_complete(bdir, segs)
         reasons += check_render_fresh(bdir, segs, mp4)
         reasons += check_script_echo(segs)
