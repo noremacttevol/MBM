@@ -61,7 +61,6 @@ The disciples are in-frame but not the whole subject; regenerate the group/crowd
 |---|---|---|
 | ⬜ | 59  | build-59-feeding-4000 |
 | ⬜ | 60  | build-60-gerasene-demoniac (boat) |
-| ⬜ | 57  | build-57-jairus-daughter (Peter, James, John) |
 | ⬜ | 76  | build-76-suffer-the-little-children |
 | ⬜ | 88  | build-88-triumphal-entry |
 | ⬜ | 63  | build-63-man-born-blind |
