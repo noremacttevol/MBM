@@ -53,7 +53,6 @@ The disciples are in-frame but not the whole subject; regenerate the group/crowd
 
 | ✓ | # | Build |
 |---|---|---|
-| ⬜ | 30  | build-30-net (fishermen/boat parable) |
 | ⬜ | 24  | build-24-sower (boat pulpit) |
 | ⬜ | 61  | build-61-syrophoenician-woman |
 | ⬜ | 10  | build-10-well (disciples return) |
