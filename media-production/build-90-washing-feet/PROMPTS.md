@@ -29,11 +29,7 @@ Passover supper — flat bread, clay cups, a small oil lamp — stone and plaste
 walls, cushions and low benches, deep warm shadows, night dark beyond one small
 window. All light is warm amber oil-lamp light.
 
-[DISCIPLES LOCK] = the disciples are the same twelve Middle Eastern Jewish men in
-every picture, dressed in dark saturated earth tones — deep brown, rust, charcoal,
-olive — never pale, never cream; no disciple resembles the man in cream; every
-visible figure has two arms, two hands, two legs, one head, every limb joined to
-the correct body.
+[DISCIPLES LOCK] = the twelve are TWELVE CLEARLY DIFFERENT men — NOT lookalikes, each his own age, hair and beard (attach the-twelve reference sheet): PETER broad, ~35, thick dark CURLY hair + full beard, blue-grey; ANDREW leaner ~30, short beard, olive-drab; JAMES (Zebedee) ~25, short dark beard, ochre-brown; JOHN the youngest ~20, CLEAN-SHAVEN, dark hair to the jaw, grey-blue; PHILIP ~32, the only SANDY LIGHT-BROWN head, sand-tan; BARTHOLOMEW the eldest ~45, SILVER-STREAKED broadest beard, forest-green; MATTHEW ~40, trimmed city beard, teal-green; THOMAS ~35, STRAIGHT BLACK hair to the jaw, indigo-charcoal; JAMES (Alphaeus) the SHORTEST ~30, stone-grey; THADDAEUS ~28, CHESTNUT curly hair, mustard-gold; SIMON the Zealot ~35, black hair tied back, oxblood-maroon; JUDAS ~35, ordinary, dark russet. All in dark saturated earth tones, never pale, never cream; no disciple resembles the man in cream; every visible figure has two arms, two hands, two legs, one head, every limb joined to the correct body. They must read as a dozen DISTINCT individuals, never twelve copies of one face.
 
 [PETER LOCK] = Peter, the same man in every picture he appears in: a stocky,
 broad-shouldered Middle Eastern Jewish fisherman of about fifty, weathered
