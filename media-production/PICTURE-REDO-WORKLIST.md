@@ -53,7 +53,6 @@ The disciples are in-frame but not the whole subject; regenerate the group/crowd
 
 | ✓ | # | Build |
 |---|---|---|
-| ⬜ | 49  | build-49-water-to-wine |
 | ⬜ | 77  | build-77-widows-mite |
 | ⬜ | 96  | build-96-it-is-finished (John at the cross) |
 | ⬜ | 98  | build-98-mary-her-name (John) |
