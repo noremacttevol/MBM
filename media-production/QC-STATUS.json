@@ -7,19 +7,14 @@
  },
  "10": {
   "mp4": "john-4_woman-at-the-well.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 20 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, n1, n2, w9, w11, n3, j1, n4"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "100": {
   "mp4": "acts-1_the-ascension.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 10 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, j0, j1, n1, n2a, n2b, n3, s11",
-   "STALE RENDER: mp4 is 116s but the current clips total only 100s \u2014 16s of audio the new clips can't explain (budget 14s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "101": {
@@ -48,42 +43,32 @@
  },
  "105": {
   "mp4": "exodus-33_face-to-face.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 18 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, n2, n3, n4, nface, n5, jv14, n5b"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "106": {
   "mp4": "hebrews-1_god-spake-by-prophets.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 16 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, jv1, n2, n3, n4, n5, jv2, sv5"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "107": {
   "mp4": "matthew-11_john-the-baptists-doubt.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 13 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, n2, nq, n3, s4a, jv4, n4, n5"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "108": {
   "mp4": "john-10_my-sheep-hear-my-voice.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 14 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, n2, n3, jv3, jv27, n4, jv11, n4b"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "109": {
   "mp4": "matthew-7_ask-seek-knock.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 13 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, jv7, n2, n3, jv8, n4, n5, jv910"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "11": {
@@ -94,34 +79,26 @@
  },
  "110": {
   "mp4": "matthew-6_the-lords-prayer.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 15 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, s11, n1b, jv9a, jv9, n2, jv11, n3"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "111": {
   "mp4": "matthew-6_lilies-and-sparrows.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 14 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, jv26, n2, n3, jv2829, n4, jv30, n5"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "112": {
   "mp4": "matthew-5_the-beatitudes.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 13 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, s1f, n1b, jv3, n2, jv456, n3, jv78"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "113": {
   "mp4": "genesis-3_where-art-thou.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 15 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, n2, n3, n4, jv9, n5, s10, n5b"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "114": {
@@ -144,26 +121,20 @@
  },
  "117": {
   "mp4": "hosea-1_hosea-buys-her-back.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 18 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, n2, w1, n2b, gv1, n3, n4, n5"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "118": {
   "mp4": "jonah-1_jonah-god-who-relents.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 22 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, gv1, n1b, n2, n3, s112, n3b, n4"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "119": {
   "mp4": "daniel-3_fourth-man-in-fire.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 18 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, n2, s315, n2b, s317, n3, n4, n5"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "12": {
@@ -174,10 +145,8 @@
  },
  "120": {
   "mp4": "job-38_job-from-whirlwind.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 22 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, n2, s121, n2b, n3, n4, n5, s1925"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "121": {
@@ -238,10 +207,8 @@
  },
  "13": {
   "mp4": "mark-2_man-through-the-roof.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 19 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, n1, n2, n3, n4, n5, j1, n6"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "130": {
@@ -252,42 +219,32 @@
  },
  "131": {
   "mp4": "mark-12_scribe-near-the-kingdom.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 10 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0a, s28, jv29, n1, s32, n2, n3, j1"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "132": {
   "mp4": "mark-9_forbid-him-not.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 11 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): s38, n0, n1, n2, j1, n2b, jv41, n3a"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "133": {
   "mp4": "john-14_many-mansions.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 11 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0a, n0b, n1, j1, n2, jv3, n3, s5"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "134": {
   "mp4": "john-10_other-sheep-i-have.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 9 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, jv14, n0b, n1a, j1, n2, n3, n4"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "135": {
   "mp4": "genesis-9_the-rainbow-covenant.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 19 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, n2, gv91, n2b, n3, jv22, n4, n5"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "136": {
@@ -307,18 +264,14 @@
  },
  "138": {
   "mp4": "acts-17_we-are-his-offspring.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 8 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0a, n0b, n1, n2, p1, n3, n4, card"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "139": {
   "mp4": "matthew-5_lamp-on-a-stand.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 8 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, j1, n1, j2, n2, j3, n3, card"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "14": {
@@ -338,63 +291,44 @@
  },
  "141": {
   "mp4": "john-6_i-am-the-bread-of-life.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 8 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, j1, n1, j2, n2, j3, n3, card"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "142": {
   "mp4": "john-8_i-am-the-light-of-the-world.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 7 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, j1, n1, n2, j2, n3, card",
-   "STALE RENDER: mp4 is 61s but the current clips total only 40s \u2014 22s of audio the new clips can't explain (budget 11s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "143": {
   "mp4": "john-10_i-am-the-door.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 7 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, j1, n1a, n1b, j2, n2, card",
-   "STALE RENDER: mp4 is 61s but the current clips total only 45s \u2014 16s of audio the new clips can't explain (budget 11s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "144": {
   "mp4": "john-11_resurrection-and-the-life.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 9 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, n1a, n1b, j1, n2, j2, n3a, n3b"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "145": {
   "mp4": "john-14_way-truth-life.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 9 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, n1, j1a, j1b, n2a, n2b, n3a, n3b",
-   "STALE RENDER: mp4 is 54s but the current clips total only 41s \u2014 13s of audio the new clips can't explain (budget 13s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "146": {
   "mp4": "john-15_vine-and-branches.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 12 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0a, n0b, j0, n0d, j1a, n0c, j1b, n1",
-   "STALE RENDER: mp4 is 97s but the current clips total only 80s \u2014 17s of audio the new clips can't explain (budget 16s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "147": {
   "mp4": "genesis-45_joseph-forgives.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 11 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0a, n0b, n1, s0, n1b, s1, n1c, n2",
-   "STALE RENDER: mp4 is 127s but the current clips total only 112s \u2014 15s of audio the new clips can't explain (budget 15s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "148": {
@@ -417,11 +351,8 @@
  },
  "150": {
   "mp4": "psalm-23_the-shepherd-psalm.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 19 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, s1, n0b, s2, n1a, s3a, n1b, s3b",
-   "STALE RENDER: mp4 is 156s but the current clips total only 120s \u2014 35s of audio the new clips can't explain (budget 22s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "151": {
@@ -438,18 +369,14 @@
  },
  "153": {
   "mp4": "acts-3_restitution-of-all-things.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 13 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, s6, n1b, n2, n3, kv19, n4, n5"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "154": {
   "mp4": "revelation-14_everlasting-gospel.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 11 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, n2, n3, kv6, n4, n5, n6, kv7"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "155": {
@@ -466,10 +393,8 @@
  },
  "157": {
   "mp4": "isaiah-29_marvellous-work.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 13 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, n2, n3, kv11, n4, kv13a, kv13b, n5"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "158": {
@@ -492,10 +417,8 @@
  },
  "160": {
   "mp4": "daniel-2_stone-cut-without-hands.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 11 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, n2, n3, kv45, n4, n5, n6, kv44"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "161": {
@@ -506,26 +429,20 @@
  },
  "162": {
   "mp4": "matthew-16_keys-of-the-kingdom.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 13 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, jv15, s16, n2, n3, kv18, n4, n5"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "163": {
   "mp4": "ephesians-2_apostles-and-prophets.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 11 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, n2, n3, kv19, n4, n5, n6, kv20"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "164": {
   "mp4": "ephesians-4_unity-of-the-faith.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 11 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, kv11, n2, n3, n4, kv13, s14, n5"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "165": {
@@ -580,8 +497,7 @@
   "mp4": "1-peter-4_gospel-preached-to-the-dead.mp4",
   "pass": false,
   "reasons": [
-   "COMPLETE: 1 segment(s) have no audio clip: n1a",
-   "STALE RENDER: mp4 is 71s but the current clips total only 43s \u2014 28s of audio the new clips can't explain (budget 13s). It's an OLD render, not rebuilt from the new voice; rebuild it"
+   "COMPLETE: 1 segment(s) have no audio clip: n1a"
   ],
   "whisper": false
  },
@@ -607,8 +523,7 @@
   "mp4": "psalm-24_who-shall-ascend.mp4",
   "pass": false,
   "reasons": [
-   "COMPLETE: 2 segment(s) have no audio clip: n3b, n4a",
-   "STALE RENDER: mp4 is 108s but the current clips total only 37s \u2014 71s of audio the new clips can't explain (budget 14s). It's an OLD render, not rebuilt from the new voice; rebuild it"
+   "COMPLETE: 2 segment(s) have no audio clip: n3b, n4a"
   ],
   "whisper": false
  },
@@ -646,8 +561,7 @@
   "mp4": "job-38_morning-stars-sang.mp4",
   "pass": false,
   "reasons": [
-   "COMPLETE: 1 segment(s) have no audio clip: n1b",
-   "STALE RENDER: mp4 is 80s but the current clips total only 58s \u2014 22s of audio the new clips can't explain (budget 14s). It's an OLD render, not rebuilt from the new voice; rebuild it"
+   "COMPLETE: 1 segment(s) have no audio clip: n1b"
   ],
   "whisper": false
  },
@@ -911,34 +825,26 @@
  },
  "40": {
   "mp4": "luke-11_friend-at-midnight.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 30 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): s1, n1, n2, j0, n3, n4, n5, n6"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "41": {
   "mp4": "luke-14_counting-the-cost.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 27 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, s25, n2, j1, n3, n4, j2, n5"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "42": {
   "mp4": "luke-13_barren-fig-tree.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 19 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, s6a, jv6, n2, n3, n4, jv7, n5"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "43": {
   "mp4": "matthew-22_wedding-garment.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 27 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): s1, n1, jv2, n2, jv3, n3, jv4, n4"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "44": {
@@ -949,42 +855,32 @@
  },
  "45": {
   "mp4": "mark-12_wicked-tenants.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 24 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): s1, n1, jv1, n2, n3, jv2, n4, jv3"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "46": {
   "mp4": "mark-4_seed-growing.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 16 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, jv26, n2, jv27, n3, n4, n5, jv28"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "47": {
   "mp4": "matthew-7_houses-on-rock-and-sand.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 19 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, n2, n3, n4, jv24, n5, jv25, n6"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "48": {
   "mp4": "mark-2_new-wine-old-bottles.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 16 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, s18, n1b, n2, jv19, n3, jv20, n4"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "49": {
   "mp4": "john-2_water-to-wine.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 22 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, n2, n3, n4, w3, n4b, jv4, n5"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "5": {
@@ -995,26 +891,20 @@
  },
  "50": {
   "mp4": "john-4_noblemans-son.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 20 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, n2, n3, n4, jv48, n5, n6, s49"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "51": {
   "mp4": "luke-5_first-catch-of-fish.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 15 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, n2, jv4, n3, s5, n3b, n4, n5"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "52": {
   "mp4": "mark-1_demoniac-synagogue.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 14 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, n2, n3, n4, s24, n4b, jv25, n5"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "53": {
@@ -1037,10 +927,8 @@
  },
  "56": {
   "mp4": "luke-7_widow-of-nain.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 16 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, n2, n3, s13a, jv13, n3b, n4, s14a"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "57": {
@@ -1057,34 +945,26 @@
  },
  "59": {
   "mp4": "mark-8_feeding-4000.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 17 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, jv2, j3, n1b, n2, s4, n2b, n3"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "6": {
   "mp4": "matthew-21_two-sons.mp4",
-  "pass": false,
-  "reasons": [
-   "COMPLETE: 19 segment(s) have no audio clip: n0, j28, n1, j29, n1b, n2, j30, n2b"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "60": {
   "mp4": "mark-5_gerasene-demoniac.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 19 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, n1, n2, s7, n2b, n3, j1, n4"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "61": {
   "mp4": "mark-7_syrophoenician-woman.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 15 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, n1, n2, n3, j1, n4, n5, w28"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "62": {
@@ -1095,10 +975,8 @@
  },
  "63": {
   "mp4": "john-9_man-born-blind.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 23 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, s2, n0b, n1, j1, n2, n3, j2"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "64": {
@@ -1137,10 +1015,8 @@
  },
  "69": {
   "mp4": "matt-3_baptism-of-jesus.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 14 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, n1, s14, n1b, n2, j1, n3, n4"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "7": {
@@ -1163,66 +1039,50 @@
  },
  "72": {
   "mp4": "matthew-9_calling-matthew.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 18 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n1, n2, n3, j1, n4, s9, n5, n6"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "73": {
   "mp4": "luke-4_this-day-fulfilled.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 10 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, s17, n1, j1, n1b, s20, n2, j2"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "74": {
   "mp4": "luke-7_woman-washed-his-feet.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 19 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, n1, n2, s39, n3, j40, s40, j41"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "75": {
   "mp4": "john-8_woman-taken-in-adultery.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 14 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, n1, s4, n2, n3, j1, n4a, s9"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "76": {
   "mp4": "mark-10_suffer-the-little-children.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 12 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, s13, n1, n2, s14, j1, n3, j2"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "77": {
   "mp4": "mark-12_the-widows-mite.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 12 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, s41, n1a, n1b, n2a, s42, n2b, n3"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "78": {
   "mp4": "mark-3_who-is-my-mother.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 11 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, n1a, n1b, s32, n1c, j1, n2, j2"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "79": {
   "mp4": "luke-10_the-seventy-sent.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 13 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, n1, j1, n1b, n2, j2, n2b, n3"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "8": {
@@ -1233,10 +1093,8 @@
  },
  "80": {
   "mp4": "matthew-11_come-unto-me.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 11 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0a, n0b, j1, n0c, n1, j2, j3, n1b"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "81": {
@@ -1247,18 +1105,14 @@
  },
  "82": {
   "mp4": "mark-14_anointing-at-bethany.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 19 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0a, n0b, n1a, n1b, n2, s4, n2b, n3"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "83": {
   "mp4": "luke-19_weeping-over-jerusalem.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 10 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, n1a, s41, n1b, n2, j1, n2b, n3a"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "84": {
@@ -1287,10 +1141,8 @@
  },
  "88": {
   "mp4": "matthew-21_triumphal-entry.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 15 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0a, jv2, n0a2, n0b, s5, n1b, n1a, n2"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "89": {
@@ -1307,10 +1159,8 @@
  },
  "90": {
   "mp4": "john-13_washing-the-disciples-feet.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 13 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, n1a, n1b, n2, s8, n2b, j1, n2c"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "91": {
@@ -1321,10 +1171,8 @@
  },
  "92": {
   "mp4": "luke-22_peters-denial.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 9 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, n1, n2, n3, n4, n5a, n5b, n5c"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "93": {
@@ -1347,10 +1195,8 @@
  },
  "96": {
   "mp4": "john-19_it-is-finished.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 14 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, n1, j1, n1b, jv46, n1c, s30b, n2"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "97": {
@@ -1361,19 +1207,14 @@
  },
  "98": {
   "mp4": "john-20_mary-her-name.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 17 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, w13, n0b, n1a, jv15, n1a2, n1b, w15"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "99": {
   "mp4": "john-20_flesh-and-bone-thomas.mp4",
-  "pass": false,
-  "reasons": [
-   "NEW VOICE: 10 clip(s) are the OLD voice (not 44100 Hz ElevenLabs): n0, n1, j1, n2, n2b, n3, j2, n4a",
-   "STALE RENDER: mp4 is 79s but the clips total 117s \u2014 the mp4 is missing narration; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  }
 }
