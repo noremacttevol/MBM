@@ -200,10 +200,16 @@ def load_approvals():
 
 
 def mp4_hashes():
-    """build number -> git blob hash of its finished mp4 (committed). Reads the
-    git tree, not the file bytes, so it's instant even for 15 GB of video."""
+    """build number -> git blob hash of its finished mp4 as it exists ON THE BOARD.
+    The board streams from origin/main (RAW_BASE), so the cache-buster MUST come
+    from origin/main — not local HEAD, which can diverge from what's published.
+    Reads the git tree, not the file bytes, so it's instant even for 15 GB of video."""
+    ref = "origin/main"
+    if subprocess.run(["git", "rev-parse", "--verify", "-q", ref],
+                      cwd=REPO, capture_output=True).returncode != 0:
+        ref = "HEAD"
     out = subprocess.run(
-        ["git", "ls-tree", "-r", "HEAD", "--", "media-production"],
+        ["git", "ls-tree", "-r", ref, "--", "media-production"],
         cwd=REPO, capture_output=True, text=True).stdout
     hashes = {}
     for line in out.splitlines():
@@ -445,6 +451,23 @@ try {
 
 FIXNOTES_FILE = os.path.join(REPO, "media-production", "FIXNOTES.json")
 
+# QC GATE (2026-07-24): the board's real source of truth for "is this actually
+# ready for Cameron." Written by admin/qc_sweep.py, which reads each video's ACTUAL
+# content (voice sample-rate, transcript echo, playable, complete). A video is
+# shown for review ONLY if it passes here — no more trusting a git timestamp.
+QC_STATUS_FILE = os.path.join(REPO, "media-production", "QC-STATUS.json")
+
+
+def load_qc():
+    """{num(int): {"pass": bool, "reasons": [...]}} — content-verified status.
+    Empty (missing file) = fail open to the old behaviour so the board never goes
+    blank if the sweep hasn't run; but the sweep is wired into the ship loop."""
+    try:
+        with open(QC_STATUS_FILE, encoding="utf-8") as f:
+            return {int(k): v for k, v in json.load(f).items()}
+    except (FileNotFoundError, ValueError):
+        return {}
+
 
 def load_fixnotes():
     """{num(str): [{"date": "YYYY-MM-DD", "note": "..."}]} — plain-English record of
@@ -459,8 +482,8 @@ def load_fixnotes():
 
 def card_html(num, title, scrip, length, rel, hashval, newvoice=False, fixnote=None):
     meta = f" · {scrip}" + (f" · {length}" if length else "")
-    voice_badge = ('<div class="flag voice">🔊 NEW VOICES — re-made, ready for your '
-                   'review</div>\n') if newvoice else ""
+    voice_badge = ('<div class="flag voice">✅ QC-VERIFIED — real new voice, no '
+                   'scripture echo, plays start to finish</div>\n') if newvoice else ""
     fix_line = ""
     if fixnote:
         import html as _html
@@ -473,7 +496,10 @@ def card_html(num, title, scrip, length, rel, hashval, newvoice=False, fixnote=N
         f'{voice_badge}'
         f'{fix_line}'
         f'<div class="flags" id="flags{num}"></div>\n'
-        f'<video controls preload="metadata" playsinline src="{RAW_BASE}{rel}"></video>\n'
+        # ?v=<content hash> busts GitHub-raw + browser caching: same filename, new
+        # bytes -> new URL, so Cameron always sees the CURRENT cut, never a stale one.
+        f'<video controls preload="metadata" playsinline '
+        f'src="{RAW_BASE}{rel}?v={(hashval or "0")[:12]}"></video>\n'
         f'<div class="actions">'
         f'<button class="approve" id="appbtn{num}" onclick="toggleApprove({num})">Approve</button>'
         f'<button class="cbtn" onclick="toggleBox({num})">🚩 Report a problem</button>'
@@ -488,10 +514,13 @@ def card_html(num, title, scrip, length, rel, hashval, newvoice=False, fixnote=N
 
 def main():
     approved_nums = set(load_approvals().keys())  # never hide an approved video
-    newvoice = new_voice_set()  # re-made with the new voices -> sort to top
+    qc = load_qc()
+    qc_pass = {n for n, v in qc.items() if v.get("pass")}  # content-verified good
+    newvoice = qc_pass  # the badge now means "QC-verified", not "committed recently"
     builds = sorted(glob.glob(os.path.join(REPO, "media-production", "build-*")))
     cards = []
     total_built = 0
+    qc_blocked = 0
     for bd in builds:
         m = re.match(r"build-(\d+)-", os.path.basename(bd))
         if not m:
@@ -505,6 +534,14 @@ def main():
         # Cameron already approved, so an approval can never vanish from the page.
         has_marker = os.path.exists(os.path.join(bd, NEW_CAPTION_MARKER)) if NEW_CAPTION_MARKER else True
         if not has_marker and str(num) not in approved_nums:
+            continue
+        # THE GATE: a video reaches the board ONLY if it passed content QC (real new
+        # voice, no echo, plays fully). If the sweep has a verdict and it's a FAIL,
+        # the video is held back — Cameron never sees a bad one dressed up as ready.
+        # (Approved cuts are never hidden. If the sweep hasn't run at all, qc is
+        # empty and we fall open so the board can't accidentally go blank.)
+        if qc and num not in qc_pass and str(num) not in approved_nums:
+            qc_blocked += 1
             continue
         rel = os.path.relpath(mp4, REPO).replace(os.sep, "/")
         fname = os.path.basename(mp4)
@@ -549,7 +586,9 @@ def main():
         "  <p class=\"sub\">These are the videos re-done with the <b>new captions</b> — the only "
         "ones here. Watch each, tap <b>Approve</b> if the captions are good, or <b>Report a "
         "problem</b> to flag it. Both save the second you tap. More appear as they're re-captioned.</p>\n"
-        f"  <p class=\"sub\">{count} of {total_built} re-captioned so far.</p>\n"
+        f"  <p class=\"sub\">{count} passed QC and are ready to review · "
+        f"{qc_blocked} held back (still old voice / not fully re-made) so you never "
+        f"watch a bad one.</p>\n"
         "  <p id=\"status\" class=\"sub\">Connecting…</p>\n"
         "</header>\n<div class=\"wrap\">\n"
         "  <h2 id=\"rh\">🟡 Needs your review</h2>\n  <div id=\"review\"></div>\n"

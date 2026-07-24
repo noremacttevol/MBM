@@ -85,6 +85,12 @@ for d in $STALE; do
     say "BLOCK  $b: render failed or verify-mp4 failed — NOT shipping"
     continue
   fi
+  # QC GATE (2026-07-24): block old-voice / still-echoing cuts before they ship.
+  if ! python3 admin/qc_gate.py "$d" >"/tmp/mbm-qc-cap-$b.txt" 2>&1; then
+    why=$(grep -m4 '  - ' "/tmp/mbm-qc-cap-$b.txt" | sed 's/^  - //' | tr '\n' '; ')
+    say "BLOCK  $b: QC GATE FAILED — ${why:-see /tmp/mbm-qc-cap-$b.txt}"
+    continue
+  fi
   say "OK     $b: $(basename "$mp4")"
   READY=$((READY + 1))
 done
