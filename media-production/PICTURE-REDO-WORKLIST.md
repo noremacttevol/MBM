@@ -47,7 +47,6 @@ Named disciples or the whole Twelve are the visible subject.
 | ✅ | 11  | build-11-storm                  | the Twelve, the boat — REBUILT 2026-07-22, awaiting watch |
 | ✅ | 89  | build-89-the-last-supper        | all Twelve at the table — REBUILT 2026-07-22, awaiting watch |
 | ✅ | 90  | build-90-washing-feet           | Peter + the Twelve — REBUILT 2026-07-22, awaiting watch |
-| ⬜ | 162 | build-162-keys-of-kingdom       | Peter |
 
 ## P2 — THE TWELVE PRESENT AS A GROUP (do after P1)
 The disciples are in-frame but not the whole subject; regenerate the group/crowd stills.
