@@ -87,6 +87,11 @@ def shot_block(text, slug):
 
 
 def ref_paths(slug):
+    # "twelve" -> the single group portrait of the Twelve (fast: 1 ref for a whole
+    # background group instead of 2-3 per named disciple).
+    if slug in ("twelve", "the-twelve"):
+        g = CASTREF / "the-twelve.jpeg"
+        return [g] if g.is_file() else []
     # Direct variant/character folder (e.g. aged-john, risen-jesus, infant-jesus)
     # that character_refs doesn't register — use its sheet jpegs directly.
     direct = HERE / "CHARACTERS" / slug
