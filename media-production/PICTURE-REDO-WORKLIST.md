@@ -53,7 +53,6 @@ The disciples are in-frame but not the whole subject; regenerate the group/crowd
 
 | ✓ | # | Build |
 |---|---|---|
-| ⬜ | 63  | build-63-man-born-blind |
 | ⬜ | 132 | build-132-forbid-him-not (John) |
 | ⬜ | 185 | build-185-many-mansions-member |
 | ⬜ | 193 | build-193-the-comforter |
