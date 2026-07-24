@@ -53,7 +53,6 @@ The disciples are in-frame but not the whole subject; regenerate the group/crowd
 
 | ✓ | # | Build |
 |---|---|---|
-| ⬜ | 1   | build-01-cloak (disciples around Jesus) |
 | ⬜ | 197 | build-197-sons-and-daughters-prophesy (Peter, Pentecost) |
 | ⬜ | 30  | build-30-net (fishermen/boat parable) |
 | ⬜ | 24  | build-24-sower (boat pulpit) |
