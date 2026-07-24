@@ -122,3 +122,7 @@ site/story-videos/
 media-production/SPEAKER-LAW/auditions/
 media-production/SPEAKER-LAW/audition.html
 media-production/build-*/*.pre-speaker
+
+# NEVER commit the ElevenLabs API key — repo is public, providers auto-revoke leaked keys
+elevenlabs*KEY*.txt
+media-production/elevenlabs*KEY*.txt
