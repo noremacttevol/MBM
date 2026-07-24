@@ -61,7 +61,7 @@ SEGMENTS = [
     ("j6", JESUS, "Why stand ye here all the day idle?"),
     # Matthew 20:7
     ("j7a", JESUS, "Because no man hath hired us."),
-    ("n5b", NARRATOR, "Why have you stood here all day doing nothing, he asked them. Because no one hired us, they said. Not lazy. Not hiding. Nobody had ever picked them."),
+    ("n5b", NARRATOR, "Why have you stood here all day doing nothing, he asked them. Not lazy. Not hiding. Nobody had ever picked them."),
     # Matthew 20:7
     ("j7b", JESUS, "Go ye also into the vineyard; and whatsoever is right, that shall ye receive."),
     ("n6", NARRATOR, "You go into the vineyard too, he told them, and whatever is right, that is what you will get. One hour of daylight left, and he was still out looking for people."),

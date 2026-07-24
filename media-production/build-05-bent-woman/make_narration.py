@@ -64,7 +64,7 @@ SEGMENTS = [
     ("n7", NARRATOR, "But not everyone rejoiced. The ruler of the synagogue — the man in charge of that meeting — was angry. In his mind, healing counted as work, and the sabbath was the day of rest. And he said this to the people."),
     # Luke 13:14
     ("s14", SCRIPTURE, "There are six days in which men ought to work: in them therefore come and be healed, and not on the sabbath day."),
-    ("n7b", NARRATOR, "There are six working days, he told them. Come and be healed on one of those. As if her freedom could have waited one more day. As if it had not already waited eighteen years."),
+    ("n7b", NARRATOR, "As if her freedom could have waited one more day. As if it had not already waited eighteen years."),
     ("n8", NARRATOR, "Jesus turned to him. And he did not soften it."),
     # Luke 13:15-16
     ("j2", JESUS, "Thou hypocrite, doth not each one of you on the sabbath loose his ox or his ass from the stall, and lead him away to watering? And ought not this woman, being a daughter of Abraham, whom Satan hath bound, lo, these eighteen years, be loosed from this bond on the sabbath day?"),
@@ -73,7 +73,7 @@ SEGMENTS = [
     ("n11", NARRATOR, "Luke tells us how the day ended."),
     # Luke 13:17
     ("s17", SCRIPTURE, "And when he had said these things, all his adversaries were ashamed: and all the people rejoiced for all the glorious things that were done by him."),
-    ("n11b", NARRATOR, "The ones who had stood against Jesus were ashamed, and the whole crowd rejoiced at the glorious things he was doing. And somewhere in that crowd stood a woman seeing faces instead of sandals — standing as straight as the truth he had just told about her."),
+    ("n11b", NARRATOR, "And somewhere in that crowd stood a woman seeing faces instead of sandals — standing as straight as the truth he had just told about her."),
     ("n12", NARRATOR, "Is there something you have been carrying so long that you have stopped expecting it to change? He saw her at the back of the room. And he called her first."),
 ]
 

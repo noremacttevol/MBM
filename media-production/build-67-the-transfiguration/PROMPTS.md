@@ -31,7 +31,7 @@ stone, a vast sky; as the story turns, the whole air on the summit fills with cl
 brilliant white light like snow at noon, then softens back to ordinary dusk.
 
 [THREE-DISCIPLES LOCK] = Peter, James and John: three Middle Eastern fishermen in
-earth-toned wool — one older with a gray-streaked beard, two younger — shown awestruck,
+earth-toned wool — Peter dark-curled with a full dark beard in blue-grey, James short-bearded in ochre, John the clean-shaven youth in grey-blue — shown awestruck,
 shielding their eyes, sinking to the rocky ground; none in off-white or cream, none
 resembling the man in cream.
 
@@ -81,3 +81,10 @@ REF: jesus-master-ref
 ### Closing card
 Text on cream (#F7F2E9), serif, spoken + captioned (an INVITATION): "For one moment
 they saw who he really is — and heaven said, hear him. That invitation still stands."
+
+## CANONICAL CHARACTER LOCKS (picture-lane)
+PETER LOCK: A sturdy Galilean fisherman in his mid-thirties: thick dark curly hair, a full dark beard, weathered olive skin, broad-shouldered with strong rope-worn hands, an open expressive face — quick to speak, quick to feel. Standard garments: A BLUE-GREY wool tunic (locked in #7 — never cream, so he is never confused with the cream-robed Lord), rope belt, dun-brown fisher's mantle when a cloak is needed, bare muscular forearms, simple leather sandals.
+JAMES LOCK: (Consistent with the SONS OF ZEBEDEE LOCK in builds #51/#71 — James is the brother WITH the short beard.) A Galilean fisherman in his mid-to-late twenties: warm olive-brown skin, short dark hair, a SHORT dark beard (his standing distinguisher from clean-shaven John — the brothers share a family resemblance), strong brows, a solid muscled build heavier than John's, a direct forthright expression with thunder behind it. Standard garments: A dark ochre-brown coarse wool tunic with a rope belt (locked in #51/#71), bare forearms, a dun-grey mantle when a cloak is needed, simple leather sandals. Never cream.
+JOHN BELOVED LOCK: (Consistent with the SONS OF ZEBEDEE LOCK in builds #51/#71 — John is the clean-shaven younger brother.) A young Galilean fisherman of about twenty: warm olive-brown skin, dark wavy hair to the jaw, CLEAN-SHAVEN (his standing distinguisher among the apostles), bright attentive dark eyes, a lean wiry build with a fisherman's hard forearms, an open earnest young face. Standard garments: A faded grey-blue coarse wool tunic with a rope belt (locked in #51/#71), bare forearms, an ochre-brown mantle when a cloak is needed, simple leather sandals. Never cream.
+MOSES LOCK: A strong elder of about eighty, warm olive-brown weathered skin, a long flowing white beard and long white hair, a deep kind lined face — dignified, humble and weathered, with the undimmed eye of Deut 34:7. He carries a tall wooden staff. His face IS shown (Moses is not divine), consistent every time. Never cream or off-white. Standard garments: (Locked by #105, adopted verbatim.) An ankle-length DEEP RUSSET-BROWN robe with a wide dark leather girdle and a coarse GREY-BROWN mantle; worn leather sandals; the tall wooden staff. No cream, no off-white, no ornament, no bright ring, no glow — and the sheet's face does NOT shine.
+ELIJAH LOCK: A weathered Middle Eastern prophet of about sixty with warm olive-brown sun-darkened skin, a long grey-streaked dark beard and long grey-streaked dark hair — the hairy man of 2 Kgs 1:8 — lean and wiry with desert endurance, deep-set burning eyes that can hold both fire and utter weariness. A man of the open wilderness, never of courts. Standard garments: (Locked by #101, adopted verbatim; mandated by 2 Kgs 1:8.) A coarse rough DARK-BROWN camel-hair mantle over a plain DUN-GREY wool tunic to the shins, girt with a wide worn LEATHER girdle; worn leather sandals; a plain wooden staff when full length. No ornament of any kind, no cream, no off-white, no bright ring, no glow.

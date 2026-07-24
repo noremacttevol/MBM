@@ -98,3 +98,5 @@ SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stack
 Text on cream (#F7F2E9), serif, spoken + captioned (an INVITATION): "Whatever you have
 carried so long you stopped expecting it to change — he sees you at the back of the room.
 And he calls you first."
+
+CHARACTER-REF-EXEMPT: abraham (Luke 13:16 'daughter of Abraham' — a phrase for the woman, Abraham not painted)

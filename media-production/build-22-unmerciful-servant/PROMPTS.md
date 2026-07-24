@@ -53,14 +53,15 @@ comic strip, just one single picture.
 
 ## s1 — Shot 1: Peter's question (the only Jesus beat, from behind)
 [STILL STYLE BLOCK] A warm first-century Galilean courtyard in soft golden
-afternoon light. Peter — a broad, weathered fisherman with a short dark beard in
-a simple brown tunic — leans in earnestly, one hand open, mid-question. A small
+afternoon light. Peter — a broad Galilean fisherman with thick dark curly hair and a
+full dark beard, in his locked BLUE-GREY tunic (never cream), the same man as the
+attached peter reference — leans in earnestly, one hand open, mid-question. A small
 knot of other plainly dressed disciples gathers close around him, quietly
 listening. They are all turned toward a seated teacher, the Lord, resting on a
 low stone step at the near edge of the frame, shown only from directly behind
 with his back fully to the camera and his face turned away, never shown — one
 plain undyed cream wool robe, long dark hair past the shoulders, warm
-Middle-Eastern, no halo and no glow. The whole gathering leans toward him in the
+Middle-Eastern, no bright ring and no glow. The whole gathering leans toward him in the
 honeyed light. [ANTI-PANEL CLAUSE]
 
 ## s2 — Shot 2: the king settles accounts
@@ -134,3 +135,7 @@ blue light cutting the warm lamplight. [ANTI-PANEL CLAUSE]
 Text on cream (#F7F2E9), serif, no narration baked in (spoken + captioned in
 assembly): "You were forgiven a debt you could never repay. Who is holding a
 small one against you — that you could let go of today?"
+
+## CHARACTER LOCK
+PETER LOCK: A sturdy Galilean fisherman in his mid-thirties: thick dark curly hair, a full dark beard, weathered olive skin, broad-shouldered with strong rope-worn hands, an open expressive face — quick to speak, quick to feel. Standard garments: A BLUE-GREY wool tunic (locked in #7 — never cream, so he is never confused with the cream-robed Lord), rope belt, dun-brown fisher's mantle when a cloak is needed, bare muscular forearms, simple leather sandals.
+Attach CAST-REF/peter on regen.

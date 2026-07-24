@@ -80,3 +80,6 @@ SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stack
 Text on cream (#F7F2E9), serif, spoken + captioned (an INVITATION): "Hannah prayed
 the prayer no one else could hear, and God answered. Your quiet prayers are heard
 too."
+
+## CANONICAL CHARACTER LOCKS (picture-lane)
+SAMUEL LOCK: An Israelite boy of about eleven: warm olive-tan skin, dark curly hair, a bright open young face with large attentive dark eyes — earnest, eager to serve, quick to run when called, wholly without guile. Small and slight, as a boy is, but steady; a child at home in a holy place, solemn when it matters and trusting always. No beard, obviously; nothing adult about him. Standard garments: The dress scripture gives him: a simple sleeveless oatmeal-linen tunic belted at the waist — the boy's linen ephod (his locked color, from #104; muted natural linen, never bright white, never cream) — worn with the little coat his mother made: a small russet-brown wool robe, open at the front, plainly homemade and lovingly kept. Bare feet or simple leather sandals.

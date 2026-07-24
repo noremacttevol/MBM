@@ -30,7 +30,7 @@ LOCKS (from PREFLIGHT.md, written into every prompt where they appear):
 MAT-MAN, FOUR-FRIENDS, JESUS (real Middle Eastern man — warm tan/olive skin,
 dark hair, and hands visible; kept non-specific: seen three-quarter, from
 behind, at distance, or in soft focus, NEVER a clear front or side portrait;
-never white; no rim-light/halo/glow outlining his head — Correction #16), MAT
+never white; no outlining light/bright ring/glow outlining his head — Correction #16), MAT
 (reed mat, rope at each corner), HOUSE (black basalt + pale clay plaster, flat
 roof, outside stone stair), ROOF HOLE.
 
@@ -150,7 +150,7 @@ upper back, close in the lower foreground of the frame. His head is turned
 completely away from the camera; nothing of the front of his head is ever
 visible — no cheek, no profile, no eye, no nose, no mouth — only the back of
 his head and his hair. His near hand, warm Middle Eastern tan skin, rests
-open and calm at his side. No rim-light, halo, or glow outlining his head or
+open and calm at his side. No outlining light, bright ring, or glow outlining his head or
 hair. Filling the picture beyond him, the row of four scribes in fine pale
 linen and fringed shawls sit on a low bench caught mid-thought, every one of
 their startled faces looking up and past the camera directly AT him — the

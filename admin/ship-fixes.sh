@@ -56,6 +56,15 @@ for line in $(git status --porcelain media-production/ | awk '$2 ~ /^media-produ
     say "BLOCK #$num ($b): verify-mp4 FAILED — needs re-render"
     continue
   fi
+  # QC GATE (2026-07-24): the board must never show a video that is still the OLD
+  # voice or still echoes the scripture. qc_gate.py reads the ACTUAL mp4 — voice
+  # sample-rate, transcript echo, AND what faster-whisper hears it say — and
+  # blocks anything bad. No timestamp, no marker, no session's word is trusted.
+  if ! python3 admin/qc_gate.py "$dir" >"/tmp/mbm-qc-$num.txt" 2>&1; then
+    why=$(grep -m4 '  - ' "/tmp/mbm-qc-$num.txt" | sed 's/^  - //' | tr '\n' '; ')
+    say "BLOCK #$num ($b): QC GATE FAILED — ${why:-see /tmp/mbm-qc-$num.txt}"
+    continue
+  fi
 
   # ---- what changed, in plain English ---------------------------------------
   # HOLD-FOR-NOTE (2026-07-22): a cut whose FIXNOTE.txt has not been written yet

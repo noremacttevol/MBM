@@ -94,3 +94,5 @@ No text. One single continuous scene painted edge to edge, 9:16 vertical.
 Text on cream (#F7F2E9), serif, no narration baked in (spoken + captioned in
 assembly): "He is not after your money. He is after you. What are you being urgent
 about?"
+
+CHARACTER-REF-EXEMPT: james (parable of a steward/lord/debtors; no apostle James is painted)

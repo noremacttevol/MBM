@@ -31,7 +31,7 @@ SEGMENTS = [
     # Mark 2:5
     ("j1", JESUS, "Son, thy sins be forgiven thee."),
     ("n6", NARRATOR, "The first word was son. Not a diagnosis. Not a lecture about his legs. Son — and then forgiveness. In that world, everyone assumed a body like his was the proof of some hidden guilt — he had carried the shame along with the paralysis his whole life. Jesus went to the deepest wound first. His legs had not moved yet. And it was already the miracle."),
-    ("n7", NARRATOR, "But in the corner sat the scribes — the religious experts — and nothing about this made them glad. They didn't say a word out loud. They reasoned it in their hearts: this is blasphemy. No one can forgive sins but God alone. And on the logic, they were exactly right. That was the point they refused to see."),
+    ("n7", NARRATOR, "But in the corner sat the scribes — the religious experts — and nothing about this made them glad. They didn't say a word out loud. They reasoned it in their hearts: this is blasphemy. And on the logic, they were exactly right. That was the point they refused to see."),
     # Mark 2:7
     ("s7", SCRIPTURE, "Why doth this man thus speak blasphemies? who can forgive sins but God only?"),
     ("n8", NARRATOR, "And then came the strangest moment in that room — stranger than the ceiling. Jesus knew what they were thinking. They had said nothing, and he answered them anyway:"),

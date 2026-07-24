@@ -46,14 +46,14 @@ SEGMENTS = [
     ("n5", NARRATOR, "Then he said: go get your husband. And the whole conversation changed. I have no husband, she said. And he agreed with her — gently, and completely. Five husbands, he said. And the man you have now is not one. He already knew. All of it. Every chapter the town whispered about — he said it out loud, to her face. And he did not turn away. He stayed in the conversation. She came for water, and found herself fully known — and still spoken to with respect."),
     # John 4:19
     ("w19", WOMAN, "Sir, I perceive that thou art a prophet."),
-    ("n6", NARRATOR, "She called him a prophet. She asked him her people's oldest question — which mountain is the right one to worship on — and he told her the day was coming when the question itself would be old news: God is spirit, and what he wants is the heart. Then she said, almost to herself: I know the Messiah is coming. When he comes, he'll explain everything. And the tired traveler at the well said:"),
+    ("n6", NARRATOR, "She called him a prophet. She asked him her people's oldest question — which mountain is the right one to worship on — and he told her the day was coming when the question itself would be old news: God is spirit, and what he wants is the heart. Then she said, almost to herself: When he comes, he'll explain everything. And the tired traveler at the well said:"),
     # John 4:25
     ("w25", WOMAN, "I know that Messiah cometh, which is called Christ: when he is come, he will tell us all things."),
     # John 4:26
     ("j2", JESUS, "I that speak unto thee am he."),
     ("n7", NARRATOR, "The first person Jesus ever told plainly that he was the Messiah — not a king, not a priest, not even one of his twelve — a Samaritan woman with five marriages behind her, at the bottom of every list her world kept. Right then his followers came back from town, and stopped short — stunned that he was talking with her at all. Nobody dared say a word."),
     ("n8", NARRATOR, "And look what she did. She left the jar. The thing she walked all that way in the heat to fill — she left it standing at the well, and she ran."),
-    ("n8b", NARRATOR, "Ran toward the town she had spent years avoiding, to the very people she came out at noon to miss, shouting: come see a man who told me everything I ever did."),
+    ("n8b", NARRATOR, "Ran toward the town she had spent years avoiding, to the very people she came out at noon to miss, shouting:"),
     # John 4:29
     ("w29", WOMAN, "Come, see a man, which told me all things that ever I did: is not this the Christ?"),
     ("n9", NARRATOR, "And they came. The town that whispered about her followed her up the road to see for themselves. Many believed because of her word — the woman who wouldn't meet their eyes at sunrise became the first missionary in that gospel by sundown. They asked him to stay, and he stayed two days — with Samaritans. And they told her: now we've heard him ourselves. We know."),

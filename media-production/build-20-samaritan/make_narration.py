@@ -57,7 +57,7 @@ SEGMENTS = [
     ("n1", NARRATOR, "A scholar of the law stood up to test Jesus, and asked him a question."),
     # Luke 10:25
     ("s25", SCRIPTURE, "Master, what shall I do to inherit eternal life?"),
-    ("n1b", NARRATOR, "Jesus turned it straight back on him — what does the law say? And the man answered it well: love God with everything you are, and love your neighbor as yourself. Then he asked one more question. It sounds humble. It was not."),
+    ("n1b", NARRATOR, "Teacher, what must I do to inherit eternal life? Jesus turned it straight back on him — what does the law say? And the man answered it well: love God with everything you are, and love your neighbor as yourself. Then he asked one more question. It sounds humble. It was not."),
     # Luke 10:29
     ("s29", SCRIPTURE, "And who is my neighbour?"),
     ("n2", NARRATOR, "It was the kind of question you ask when you are hoping the answer has limits. He wanted a line drawn, so he could know exactly who he was allowed to ignore."),

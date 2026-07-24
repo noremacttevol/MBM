@@ -89,7 +89,7 @@ SEGMENTS = [
     ("n15", NARRATOR, "In the Greek, none of those is a one-time act. Every one of them means keep coming back."),
     # Luke 11:11-12
     ("jv11", JESUS, "If a son shall ask bread of any of you that is a father, will he give him a stone? or if he ask a fish, will he for a fish give him a serpent? Or if he shall ask an egg, will he offer him a scorpion?"),
-    ("n16a", NARRATOR, "Then he asked them: if your son asked for bread, would you put a rock in his hand? If he asked for a fish, would you hand him a snake? An egg — a scorpion?"),
+    ("n16a", NARRATOR, "Then he asked them: if your son asked for bread, would you put a rock in his hand? If he asked for a fish, would you hand him a snake?"),
     ("n16b", NARRATOR, "Every pair is a lookalike — a river stone the size of a flat loaf, a scorpion curled pale and round like an egg. A father handing his hungry child a counterfeit. Not one of you, he said, would ever do it."),
     # Luke 11:13
     ("j5", JESUS, "If ye then, being evil, know how to give good gifts unto your children: how much more shall your heavenly Father give the Holy Spirit to them that ask him?"),

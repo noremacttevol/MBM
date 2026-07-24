@@ -86,7 +86,7 @@ SEGMENTS = [
     ("n4", NARRATOR, "So while he still could, he quickly called in every person who owed his employer money, one after another, to make himself some friends before it was too late."),
     # Luke 16:6
     ("j6", JESUS, "Take thy bill, and sit down quickly, and write fifty."),
-    ("n5", NARRATOR, "How much do you owe? he asked the first man. A hundred jugs of olive oil. And the farmer could hardly believe it."),
+    ("n5", NARRATOR, "How much do you owe? he asked the first man. A hundred jugs of olive oil. Quick, said the manager, take your bill and write down fifty. And the farmer could hardly believe it."),
     ("n6", NARRATOR, "And you? A hundred measures of wheat. Take your bill, he said, and write down eighty. One after another he made friends who would remember him and take him in when he had nothing."),
     # Luke 16:8
     ("j1", JESUS, "And the lord commended the unjust steward, because he had done wisely: for the children of this world are in their generation wiser than the children of light."),
@@ -96,7 +96,7 @@ SEGMENTS = [
     ("n8", NARRATOR, "Use your money, he said, use your things, use whatever you have, to love people now. Those friendships are the one thing you carry with you past the end of your life. Be that urgent about what actually lasts."),
     # Luke 16:13
     ("j13", JESUS, "No servant can serve two masters: for either he will hate the one, and love the other; or else he will hold to the one, and despise the other. Ye cannot serve God and mammon."),
-    ("n9", NARRATOR, "Then he said the line that ties it all together. You cannot serve God and money. You will end up loving one and despising the other. And money is a hard, hungry thing to serve."),
+    ("n9", NARRATOR, "Then he said the line that ties it all together. You will end up loving one and despising the other. And money is a hard, hungry thing to serve."),
     ("n10", NARRATOR, "That is how good he is. He is not after your money. He is after you. He wants your heart free of that cruel little master and your hands open, so that you spend your one short life being urgent about the things that last forever."),
     ("card", NARRATOR, "He is not after your money. He is after you. What are you being urgent about?"),
 ]

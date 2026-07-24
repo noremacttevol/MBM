@@ -52,7 +52,7 @@ a question with the smooth confidence of a man quietly setting a trap. The
 ordinary people around him are all turned toward a seated storyteller — the Lord
 — who sits on a low stone in a plain undyed cream wool robe, long dark hair
 falling past the shoulders, warm Middle-Eastern, seen only from behind with his
-back fully to us and his face turned away, never shown; no halo, no glow. Every
+back fully to us and his face turned away, never shown; no bright ring, no glow. Every
 person in the crowd looks past the camera straight at him. One single continuous
 scene painted edge to edge.
 
@@ -118,7 +118,7 @@ continuous scene painted edge to edge.
 — the Lord — has risen to his feet, a tall figure in the plain cream wool robe
 with long dark hair past the shoulders, warm Middle-Eastern, seen only from
 behind, his back to the camera and his face turned away, never shown, dark
-against the sunset; no halo, no glow. All around him the crowd is rising too,
+against the sunset; no bright ring, no glow. All around him the crowd is rising too,
 the fine-robed scholar among them, every face lifted toward the storyteller and
 the open road beyond. The road home stretches away downhill into the last gold
 light. One single continuous scene painted edge to edge.

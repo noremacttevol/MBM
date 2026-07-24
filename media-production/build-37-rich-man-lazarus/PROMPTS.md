@@ -114,3 +114,9 @@ simple, merciful moment. A picture of someone who stopped, and saw, and turned.
 Text on cream (#F7F2E9), serif, no narration baked in (spoken + captioned in
 assembly): "There is a gate before you today, and someone waiting at it. Who are you
 walking past — and will you stop while there is still time?"
+
+CHARACTER-REF-EXEMPT: lazarus (this is the PARABLE beggar of Luke 16, a generic poor man — NOT the rostered Bethany Lazarus; no sheet applies)
+
+## CHARACTER LOCK
+ABRAHAM LOCK: A dignified white-bearded elder of about ninety-nine with warm olive-brown skin: a long full white beard, white hair, a deep-lined face of great kindness and quiet authority, eyes that are bold before God and gentle with strangers. Great age worn with vigor — a man who still runs to serve guests and climbs a mountain with his son. The bearing of a chief of tents, never royalty. Standard garments: (Locked by #114/#115, adopted verbatim.) A DEEP RUSSET-BROWN ankle-length robe with a coarse TAN mantle over the shoulders, a plain cloth sash, worn leather sandals; a wooden walking staff when standing full length. No crown, no ornament, no cream, no off-white, no bright ring, no glow.
+(In THIS parable Abraham appears in paradise; the glorified-abraham variant is a future refinement — prime sheet governs for now. The current stills are on-model for the parable.)

@@ -32,14 +32,15 @@ village in warm late-afternoon light — pale stone and mud-brick houses behind 
 low wall, a heavy wooden gate on the road, terraced slopes and olive trees
 around it, long golden shadows.
 
-[JAMES-JOHN LOCK] = the two brothers, the same in every picture they appear in:
-JAMES, the elder — a broad-built Middle Eastern fisherman of about thirty, a
-FULL hairline of thick black curly hair, a full black beard, heavy brows,
-dressed in a dark rust-red tunic with a charcoal mantle; JOHN, the younger —
-leaner, about twenty-five, a FULL hairline of dark brown wavy hair to the jaw,
-a short young beard, quick dark eyes, dressed in a deep olive tunic with a dark
-brown mantle. Neither wears cream. Each brother appears EXACTLY ONCE in any
-frame, and they never resemble each other beyond brotherhood.
+[JAMES-JOHN LOCK] = JAMES LOCK + JOHN BELOVED LOCK — the two sons of Zebedee, the
+same locked cast faces in every picture they appear in (attach the james-z and john
+reference sheets): JAMES, the elder — a solid Middle Eastern fisherman of about
+twenty-eight, short dark hair, a SHORT dark beard, strong brows, dressed in his locked
+OCHRE-BROWN tunic with a dun-grey mantle; JOHN, the younger — leaner, about twenty, dark
+wavy hair to the jaw, CLEAN-SHAVEN (his standing distinguisher — never a beard), quick
+dark eyes, dressed in his locked faded GREY-BLUE tunic with an ochre-brown mantle. Neither
+wears cream. Each brother appears EXACTLY ONCE in any frame; they read as brothers but John
+is clearly the beardless youth beside the bearded James.
 
 ---
 
@@ -73,3 +74,7 @@ SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stack
 ### Closing card
 Text on cream (#F7F2E9), serif, spoken + captioned (an INVITATION): "He came to
 save, not to burn. Let His Spirit — the saving one — shape yours."
+
+## CHARACTER LOCK
+JAMES LOCK: (Consistent with the SONS OF ZEBEDEE LOCK in builds #51/#71 — James is the brother WITH the short beard.) A Galilean fisherman in his mid-to-late twenties: warm olive-brown skin, short dark hair, a SHORT dark beard (his standing distinguisher from clean-shaven John — the brothers share a family resemblance), strong brows, a solid muscled build heavier than John's, a direct forthright expression with thunder behind it. Standard garments: A dark ochre-brown coarse wool tunic with a rope belt (locked in #51/#71), bare forearms, a dun-grey mantle when a cloak is needed, simple leather sandals. Never cream.
+Attach CAST-REF/james-z on regen.
