@@ -53,7 +53,6 @@ The disciples are in-frame but not the whole subject; regenerate the group/crowd
 
 | ✓ | # | Build |
 |---|---|---|
-| ⬜ | 59  | build-59-feeding-4000 |
 | ⬜ | 60  | build-60-gerasene-demoniac (boat) |
 | ⬜ | 76  | build-76-suffer-the-little-children |
 | ⬜ | 88  | build-88-triumphal-entry |
