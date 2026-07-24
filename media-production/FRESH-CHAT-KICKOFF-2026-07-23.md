@@ -6,6 +6,36 @@ files it points to, claim a lane, and go. Nothing here needs re-deciding.
 
 ---
 
+## THE QC GATE LAW (Cameron, 2026-07-24) — NON-NEGOTIABLE, top priority
+
+Cameron's hardest rule: **he must NEVER be shown a video that is told "good" but is
+actually bad.** He wasted hours reviewing cuts that still had the OLD voice or still
+had the narrator echoing the scripture, because the board decided "ready" from a git
+TIMESTAMP (any touch flipped it green). That is banned forever.
+
+- **The gate is `admin/qc_gate.py <build-dir>`.** It reads the ACTUAL video, never a
+  date/marker/another session's word. A build passes ONLY if ALL hold: (1) plays start
+  to finish (moov + full audio), (2) real NEW voice — every spoken clip it uses is
+  44100 Hz ElevenLabs, never the 24000 Hz old edge-tts, (3) every segment has its audio
+  clip, (4) transcript has zero narrator-repeats-scripture echoes, (5) faster-whisper
+  hears no spoken echo in the finished audio.
+- **Nothing ships without it.** It is wired into `admin/ship-fixes.sh` AND
+  `media-production/caption-and-ship.sh` right after verify-mp4. A blocked build is
+  logged with the reason and NOT posted. Do not remove or bypass these calls.
+- **The board obeys it.** `gen_site_index.py` reads `media-production/QC-STATUS.json`
+  (written by `admin/qc_sweep.py`) and shows a video ONLY if it passed. Held-back
+  videos are counted on the page so Cameron sees the truth. Never revert the board to
+  the old `new_voice_set()` timestamp logic.
+- **After changing any video's audio/render, refresh its status:**
+  `python3 admin/qc_sweep.py <num>` (or a full `python3 admin/qc_sweep.py` sweep), then
+  regenerate + deploy the board. A build re-enters the board automatically once it
+  passes — no manual re-adding.
+- **Current state (2026-07-24 sweep): 168 PASS, 32 BLOCKED** (23 still old voice, 5
+  missing audio clips, 4 unplayable). The 32 blocked numbers are the real re-voice
+  worklist — get them to pass the gate, don't hand-wave them onto the board.
+
+---
+
 ## THE UNIFY ORDER (Cameron, 2026-07-23) — obey exactly
 
 - **One source of truth for STORIES:** `AUDITS/2026-07-20-repeat-audit.md` (authoritative
