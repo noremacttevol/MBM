@@ -3,7 +3,7 @@
   "mp4": "mark-5_woman-touches-his-cloak.mp4",
   "pass": true,
   "reasons": [],
-  "whisper": true
+  "whisper": false
  },
  "10": {
   "mp4": "john-4_woman-at-the-well.mp4",
@@ -24,34 +24,26 @@
  },
  "101": {
   "mp4": "1kings-19_the-still-small-voice.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 211s but the current clips total only 157s \u2014 54s of audio the new clips can't explain (budget 19s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "102": {
   "mp4": "genesis-28_jacobs-ladder.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 207s but the current clips total only 162s \u2014 46s of audio the new clips can't explain (budget 18s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "103": {
   "mp4": "matthew-16_peters-confession.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 155s but the current clips total only 107s \u2014 47s of audio the new clips can't explain (budget 18s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "104": {
   "mp4": "1samuel-3_the-boy-samuel.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 179s but the current clips total only 128s \u2014 51s of audio the new clips can't explain (budget 18s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "105": {
@@ -98,7 +90,7 @@
   "mp4": "mark-4_calming-the-storm.mp4",
   "pass": true,
   "reasons": [],
-  "whisper": true
+  "whisper": false
  },
  "110": {
   "mp4": "matthew-6_the-lords-prayer.mp4",
@@ -134,26 +126,20 @@
  },
  "114": {
   "mp4": "genesis-18_abraham-pleads-for-sodom.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 170s but the current clips total only 131s \u2014 38s of audio the new clips can't explain (budget 18s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "115": {
   "mp4": "genesis-22_the-ram-in-the-thicket.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 228s but the current clips total only 176s \u2014 52s of audio the new clips can't explain (budget 20s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "116": {
   "mp4": "isaiah-49_graven-on-his-palms.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 156s but the current clips total only 123s \u2014 33s of audio the new clips can't explain (budget 16s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "117": {
@@ -182,10 +168,8 @@
  },
  "12": {
   "mp4": "mark-10_bartimaeus.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 313s but the current clips total only 252s \u2014 61s of audio the new clips can't explain (budget 21s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "120": {
@@ -200,54 +184,42 @@
   "mp4": "matthew-5_salt-and-light.mp4",
   "pass": true,
   "reasons": [],
-  "whisper": true
+  "whisper": false
  },
  "122": {
   "mp4": "matthew-7_mote-and-beam.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 189s but the current clips total only 152s \u2014 37s of audio the new clips can't explain (budget 17s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "123": {
   "mp4": "matthew-7_golden-rule.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 172s but the current clips total only 134s \u2014 38s of audio the new clips can't explain (budget 15s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "124": {
   "mp4": "matthew-5_love-your-enemies.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 214s but the current clips total only 160s \u2014 54s of audio the new clips can't explain (budget 17s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "125": {
   "mp4": "matthew-7_i-never-knew-you.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 112s but the current clips total only 81s \u2014 31s of audio the new clips can't explain (budget 12s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "126": {
   "mp4": "matthew-7_by-their-fruits.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 123s but the current clips total only 92s \u2014 31s of audio the new clips can't explain (budget 15s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "127": {
   "mp4": "matthew-7_the-strait-gate.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 79s but the current clips total only 56s \u2014 23s of audio the new clips can't explain (budget 13s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "128": {
@@ -260,10 +232,8 @@
  },
  "129": {
   "mp4": "mark-6_nazareth-only-a-few.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 104s but the current clips total only 71s \u2014 32s of audio the new clips can't explain (budget 15s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "13": {
@@ -276,10 +246,8 @@
  },
  "130": {
   "mp4": "luke-9_what-manner-of-spirit.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 80s but the current clips total only 53s \u2014 27s of audio the new clips can't explain (budget 13s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "131": {
@@ -324,10 +292,8 @@
  },
  "136": {
   "mp4": "mark-8_healed-in-two-touches.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 62s but the current clips total only 40s \u2014 23s of audio the new clips can't explain (budget 12s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "137": {
@@ -357,10 +323,8 @@
  },
  "14": {
   "mp4": "luke-17_ten-lepers.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 262s but the current clips total only 191s \u2014 71s of audio the new clips can't explain (budget 23s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "140": {
@@ -435,26 +399,20 @@
  },
  "148": {
   "mp4": "ruth-1_ruth-and-the-redeemer.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 173s but the current clips total only 145s \u2014 28s of audio the new clips can't explain (budget 20s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "149": {
   "mp4": "1-samuel-1_hannah-is-heard.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 159s but the current clips total only 113s \u2014 47s of audio the new clips can't explain (budget 19s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "15": {
   "mp4": "matthew-8_centurion.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 308s but the current clips total only 224s \u2014 84s of audio the new clips can't explain (budget 29s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "150": {
@@ -470,14 +428,12 @@
   "mp4": "james-1_ask-of-god.mp4",
   "pass": true,
   "reasons": [],
-  "whisper": true
+  "whisper": false
  },
  "152": {
   "mp4": "amos-3_revealeth-his-secret.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 163s but the current clips total only 123s \u2014 40s of audio the new clips can't explain (budget 15s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "153": {
@@ -498,18 +454,14 @@
  },
  "155": {
   "mp4": "2thessalonians-2_a-falling-away.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 167s but the current clips total only 128s \u2014 38s of audio the new clips can't explain (budget 15s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "156": {
   "mp4": "amos-8_famine-of-hearing.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 162s but the current clips total only 128s \u2014 33s of audio the new clips can't explain (budget 15s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "157": {
@@ -522,26 +474,20 @@
  },
  "158": {
   "mp4": "ezekiel-37_two-sticks.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 187s but the current clips total only 158s \u2014 29s of audio the new clips can't explain (budget 16s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "159": {
   "mp4": "john-10_other-sheep.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 163s but the current clips total only 121s \u2014 42s of audio the new clips can't explain (budget 15s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "16": {
   "mp4": "luke-10_mary-and-martha.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 195s but the current clips total only 144s \u2014 51s of audio the new clips can't explain (budget 18s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "160": {
@@ -556,7 +502,7 @@
   "mp4": "hebrews-5_called-of-god.mp4",
   "pass": true,
   "reasons": [],
-  "whisper": true
+  "whisper": false
  },
  "162": {
   "mp4": "matthew-16_keys-of-the-kingdom.mp4",
@@ -584,64 +530,50 @@
  },
  "165": {
   "mp4": "acts-8_laying-on-of-hands.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 158s but the current clips total only 121s \u2014 37s of audio the new clips can't explain (budget 16s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "166": {
   "mp4": "acts-19_baptized-again-properly.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 174s but the current clips total only 125s \u2014 49s of audio the new clips can't explain (budget 16s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "167": {
   "mp4": "john-15_chosen-and-ordained.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 148s but the current clips total only 113s \u2014 35s of audio the new clips can't explain (budget 14s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "168": {
   "mp4": "john-3_born-of-water-and-spirit.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 171s but the current clips total only 123s \u2014 48s of audio the new clips can't explain (budget 17s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "169": {
   "mp4": "matthew-3_fulfil-all-righteousness.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 169s but the current clips total only 119s \u2014 49s of audio the new clips can't explain (budget 18s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "17": {
   "mp4": "john-11_lazarus.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 394s but the current clips total only 291s \u2014 103s of audio the new clips can't explain (budget 27s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "170": {
   "mp4": "1corinthians-11_the-sacrament-worthily.mp4",
   "pass": true,
   "reasons": [],
-  "whisper": true
+  "whisper": false
  },
  "171": {
   "mp4": "1-corinthians-15_baptized-for-the-dead.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 94s but the current clips total only 49s \u2014 45s of audio the new clips can't explain (budget 15s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "172": {
@@ -655,26 +587,20 @@
  },
  "173": {
   "mp4": "john-5_dead-shall-hear.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 59s but the current clips total only 45s \u2014 14s of audio the new clips can't explain (budget 14s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "174": {
   "mp4": "malachi-4_hearts-of-the-fathers.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 78s but the current clips total only 48s \u2014 30s of audio the new clips can't explain (budget 13s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "175": {
   "mp4": "isaiah-2_mountain-of-the-lords-house.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 94s but the current clips total only 63s \u2014 31s of audio the new clips can't explain (budget 13s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "176": {
@@ -688,42 +614,32 @@
  },
  "177": {
   "mp4": "exodus-25_make-me-a-sanctuary.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 110s but the current clips total only 74s \u2014 36s of audio the new clips can't explain (budget 17s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "178": {
   "mp4": "genesis-1_in-our-image.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 131s but the current clips total only 93s \u2014 39s of audio the new clips can't explain (budget 17s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "179": {
   "mp4": "acts-7_stephens-witness.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 74s but the current clips total only 55s \u2014 19s of audio the new clips can't explain (budget 14s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "18": {
   "mp4": "luke-24_emmaus.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 281s but the current clips total only 214s \u2014 66s of audio the new clips can't explain (budget 21s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "180": {
   "mp4": "jeremiah-1_before-i-formed-thee.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 120s but the current clips total only 88s \u2014 31s of audio the new clips can't explain (budget 16s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "181": {
@@ -737,343 +653,261 @@
  },
  "182": {
   "mp4": "ecclesiastes-12_the-spirit-returns-to-god.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 92s but the current clips total only 64s \u2014 29s of audio the new clips can't explain (budget 14s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "183": {
   "mp4": "1corinthians-15_sun-moon-and-stars.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 88s but the current clips total only 65s \u2014 23s of audio the new clips can't explain (budget 12s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "184": {
   "mp4": "2corinthians-12_caught-up-to-the-third-heaven.mp4",
-  "pass": false,
-  "reasons": [
-   "AUDIO ECHO (what it actually says): 1 spoken repeat(s), e.g. \"Paul was shown more than words can carry, and still pointed ...\" then \"Paul was shown more than words can hold, and still pointed b...\""
-  ],
-  "whisper": true
+  "pass": true,
+  "reasons": [],
+  "whisper": false
  },
  "185": {
   "mp4": "john-14_in-my-fathers-house.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 70s but the current clips total only 46s \u2014 24s of audio the new clips can't explain (budget 13s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "186": {
   "mp4": "romans-8_heirs-of-god.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 73s but the current clips total only 50s \u2014 23s of audio the new clips can't explain (budget 13s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "187": {
   "mp4": "john-10_ye-are-gods.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 79s but the current clips total only 56s \u2014 23s of audio the new clips can't explain (budget 13s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "188": {
   "mp4": "matthew-5_be-ye-therefore-perfect.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 96s but the current clips total only 67s \u2014 30s of audio the new clips can't explain (budget 13s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "189": {
   "mp4": "revelation-3_to-him-that-overcometh.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 64s but the current clips total only 46s \u2014 18s of audio the new clips can't explain (budget 11s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "19": {
   "mp4": "john-21_shore.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 200s but the current clips total only 133s \u2014 67s of audio the new clips can't explain (budget 25s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "190": {
   "mp4": "james-2_faith-without-works.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 69s but the current clips total only 45s \u2014 24s of audio the new clips can't explain (budget 13s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "191": {
   "mp4": "malachi-3_windows-of-heaven.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 68s but the current clips total only 51s \u2014 16s of audio the new clips can't explain (budget 12s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "192": {
   "mp4": "isaiah-58_the-fast-god-has-chosen.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 83s but the current clips total only 63s \u2014 20s of audio the new clips can't explain (budget 13s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "193": {
   "mp4": "john-14_the-comforter.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 76s but the current clips total only 50s \u2014 25s of audio the new clips can't explain (budget 14s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "194": {
   "mp4": "galatians-5_fruit-of-the-spirit.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 62s but the current clips total only 44s \u2014 18s of audio the new clips can't explain (budget 12s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "195": {
   "mp4": "1thessalonians-5_prove-all-things.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 67s but the current clips total only 45s \u2014 22s of audio the new clips can't explain (budget 13s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "196": {
   "mp4": "numbers-11_would-god-all-were-prophets.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 88s but the current clips total only 60s \u2014 28s of audio the new clips can't explain (budget 14s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "197": {
   "mp4": "joel-2_sons-and-daughters-prophesy.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 77s but the current clips total only 59s \u2014 18s of audio the new clips can't explain (budget 11s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "198": {
   "mp4": "isaiah-11_ensign-for-the-nations.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 71s but the current clips total only 52s \u2014 19s of audio the new clips can't explain (budget 11s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "199": {
   "mp4": "jeremiah-16_fishers-and-hunters.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 79s but the current clips total only 63s \u2014 16s of audio the new clips can't explain (budget 11s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "2": {
   "mp4": "luke-15_prodigal-son.mp4",
   "pass": true,
   "reasons": [],
-  "whisper": true
+  "whisper": false
  },
  "20": {
   "mp4": "luke-10_samaritan.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 232s but the current clips total only 160s \u2014 72s of audio the new clips can't explain (budget 26s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "200": {
   "mp4": "matthew-24_gospel-to-all-the-world.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 66s but the current clips total only 40s \u2014 25s of audio the new clips can't explain (budget 13s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "21": {
   "mp4": "luke-15_lost-sheep.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 177s but the current clips total only 113s \u2014 64s of audio the new clips can't explain (budget 21s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "22": {
   "mp4": "matthew-18_unmerciful-servant.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 272s but the current clips total only 196s \u2014 76s of audio the new clips can't explain (budget 28s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "23": {
   "mp4": "matthew-20_vineyard-workers.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 242s but the current clips total only 162s \u2014 80s of audio the new clips can't explain (budget 26s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "24": {
   "mp4": "matthew-13_sower.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 196s but the current clips total only 131s \u2014 64s of audio the new clips can't explain (budget 22s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "25": {
   "mp4": "matthew-13_wheat-and-tares.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 229s but the current clips total only 142s \u2014 87s of audio the new clips can't explain (budget 24s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "26": {
   "mp4": "matthew-13_mustard-seed.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 104s but the current clips total only 72s \u2014 32s of audio the new clips can't explain (budget 17s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "27": {
   "mp4": "matthew-13_leaven.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 124s but the current clips total only 85s \u2014 40s of audio the new clips can't explain (budget 15s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "28": {
   "mp4": "matthew-13_hidden-treasure.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 118s but the current clips total only 82s \u2014 36s of audio the new clips can't explain (budget 18s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "29": {
   "mp4": "matthew-13_pearl-of-great-price.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 145s but the current clips total only 97s \u2014 47s of audio the new clips can't explain (budget 17s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "3": {
   "mp4": "luke-19_zacchaeus.mp4",
   "pass": true,
   "reasons": [],
-  "whisper": true
+  "whisper": false
  },
  "30": {
   "mp4": "matthew-13_the-net.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 186s but the current clips total only 127s \u2014 58s of audio the new clips can't explain (budget 19s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "31": {
   "mp4": "matthew-25_ten-virgins.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 180s but the current clips total only 117s \u2014 63s of audio the new clips can't explain (budget 27s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "32": {
   "mp4": "matthew-25_talents.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 145s but the current clips total only 125s \u2014 19s of audio the new clips can't explain (budget 18s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "33": {
   "mp4": "matthew-25_sheep-and-goats.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 210s but the current clips total only 148s \u2014 62s of audio the new clips can't explain (budget 18s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "34": {
   "mp4": "luke-12_rich-fool.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 154s but the current clips total only 107s \u2014 48s of audio the new clips can't explain (budget 21s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "35": {
   "mp4": "luke-14_great-banquet.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 173s but the current clips total only 112s \u2014 62s of audio the new clips can't explain (budget 20s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "36": {
   "mp4": "luke-16_shrewd-steward.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 210s but the current clips total only 156s \u2014 54s of audio the new clips can't explain (budget 21s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "37": {
   "mp4": "luke-16_rich-man-lazarus.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 204s but the current clips total only 149s \u2014 55s of audio the new clips can't explain (budget 23s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "38": {
   "mp4": "luke-18_persistent-widow.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 216s but the current clips total only 146s \u2014 70s of audio the new clips can't explain (budget 19s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "39": {
   "mp4": "luke-18_pharisee-and-publican.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 292s but the current clips total only 215s \u2014 76s of audio the new clips can't explain (budget 24s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "4": {
   "mp4": "john-3_nicodemus.mp4",
-  "pass": false,
-  "reasons": [
-   "AUDIO ECHO (what it actually says): 1 spoken repeat(s), e.g. \"Does our law judge any man before it hear him and know what ...\" then \"Does our law judge a man, he asked before it hears him?...\""
-  ],
-  "whisper": true
+  "pass": true,
+  "reasons": [],
+  "whisper": false
  },
  "40": {
   "mp4": "luke-11_friend-at-midnight.mp4",
@@ -1109,10 +943,8 @@
  },
  "44": {
   "mp4": "luke-7_two-debtors.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 317s but the current clips total only 224s \u2014 92s of audio the new clips can't explain (budget 26s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "45": {
@@ -1159,7 +991,7 @@
   "mp4": "luke-13_bent-woman.mp4",
   "pass": true,
   "reasons": [],
-  "whisper": true
+  "whisper": false
  },
  "50": {
   "mp4": "john-4_noblemans-son.mp4",
@@ -1187,26 +1019,20 @@
  },
  "53": {
   "mp4": "mark-1_peters-mother-in-law.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 126s but the current clips total only 92s \u2014 34s of audio the new clips can't explain (budget 14s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "54": {
   "mp4": "mark-1_the-leper.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 187s but the current clips total only 132s \u2014 55s of audio the new clips can't explain (budget 18s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "55": {
   "mp4": "mark-3_withered-hand.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 189s but the current clips total only 134s \u2014 55s of audio the new clips can't explain (budget 18s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "56": {
@@ -1219,18 +1045,14 @@
  },
  "57": {
   "mp4": "mark-5_jairus-daughter.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 212s but the current clips total only 147s \u2014 65s of audio the new clips can't explain (budget 22s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "58": {
   "mp4": "john-6_feeding-5000.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 186s but the current clips total only 139s \u2014 47s of audio the new clips can't explain (budget 21s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "59": {
@@ -1269,7 +1091,7 @@
   "mp4": "mark-7_ephphatha.mp4",
   "pass": true,
   "reasons": [],
-  "whisper": true
+  "whisper": false
  },
  "63": {
   "mp4": "john-9_man-born-blind.mp4",
@@ -1281,10 +1103,8 @@
  },
  "64": {
   "mp4": "john-5_pool-of-bethesda.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 273s but the current clips total only 213s \u2014 60s of audio the new clips can't explain (budget 20s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "65": {
@@ -1297,10 +1117,8 @@
  },
  "66": {
   "mp4": "luke-22_malchus-ear.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 207s but the current clips total only 160s \u2014 47s of audio the new clips can't explain (budget 17s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "67": {
@@ -1313,11 +1131,9 @@
  },
  "68": {
   "mp4": "matt-15_multitudes-mountain.mp4",
-  "pass": false,
-  "reasons": [
-   "AUDIO ECHO (what it actually says): 1 spoken repeat(s), e.g. \"And great multitudes came unto him, having with them those t...\" then \"The lame, the blind, the mute, the maimed....\""
-  ],
-  "whisper": true
+  "pass": true,
+  "reasons": [],
+  "whisper": false
  },
  "69": {
   "mp4": "matt-3_baptism-of-jesus.mp4",
@@ -1331,22 +1147,18 @@
   "mp4": "matthew-14_peter-walks-on-water.mp4",
   "pass": true,
   "reasons": [],
-  "whisper": true
+  "whisper": false
  },
  "70": {
   "mp4": "matt-4_the-temptations.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 283s but the current clips total only 213s \u2014 70s of audio the new clips can't explain (budget 23s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "71": {
-  "mp4": "",
-  "pass": false,
-  "reasons": [
-   "PLAYABLE: no finished scripture-named mp4 in the build folder"
-  ],
+  "mp4": "matthew-28_the-great-commission.mp4",
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "72": {
@@ -1417,7 +1229,7 @@
   "mp4": "luke-15_lost-coin.mp4",
   "pass": true,
   "reasons": [],
-  "whisper": true
+  "whisper": false
  },
  "80": {
   "mp4": "matthew-11_come-unto-me.mp4",
@@ -1429,10 +1241,8 @@
  },
  "81": {
   "mp4": "mark-12_render-unto-caesar.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 114s but the current clips total only 77s \u2014 37s of audio the new clips can't explain (budget 18s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "82": {
@@ -1453,33 +1263,27 @@
  },
  "84": {
   "mp4": "luke-2_no-room-the-manger.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 264s but the current clips total only 219s \u2014 45s of audio the new clips can't explain (budget 18s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "85": {
   "mp4": "luke-2_shepherds-and-angels.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 184s but the current clips total only 135s \u2014 49s of audio the new clips can't explain (budget 19s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "86": {
   "mp4": "matthew-2_the-wise-men.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 170s but the current clips total only 102s \u2014 68s of audio the new clips can't explain (budget 18s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "87": {
   "mp4": "luke-2_boy-in-the-temple.mp4",
   "pass": true,
   "reasons": [],
-  "whisper": true
+  "whisper": false
  },
  "88": {
   "mp4": "matthew-21_triumphal-entry.mp4",
@@ -1491,17 +1295,15 @@
  },
  "89": {
   "mp4": "luke-22_the-last-supper.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 134s but the current clips total only 71s \u2014 63s of audio the new clips can't explain (budget 18s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "9": {
   "mp4": "mark-10_rich-ruler.mp4",
   "pass": true,
   "reasons": [],
-  "whisper": true
+  "whisper": false
  },
  "90": {
   "mp4": "john-13_washing-the-disciples-feet.mp4",
@@ -1513,10 +1315,8 @@
  },
  "91": {
   "mp4": "luke-22_gethsemane.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 284s but the current clips total only 216s \u2014 67s of audio the new clips can't explain (budget 20s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "92": {
@@ -1529,26 +1329,20 @@
  },
  "93": {
   "mp4": "mark-15_barabbas-goes-free.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 109s but the current clips total only 77s \u2014 32s of audio the new clips can't explain (budget 18s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "94": {
   "mp4": "luke-23_father-forgive-them.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 87s but the current clips total only 62s \u2014 25s of audio the new clips can't explain (budget 15s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "95": {
   "mp4": "luke-23_thief-on-the-cross.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 81s but the current clips total only 52s \u2014 29s of audio the new clips can't explain (budget 15s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "96": {
@@ -1561,10 +1355,8 @@
  },
  "97": {
   "mp4": "luke-24_the-empty-tomb.mp4",
-  "pass": false,
-  "reasons": [
-   "STALE RENDER: mp4 is 106s but the current clips total only 63s \u2014 43s of audio the new clips can't explain (budget 17s). It's an OLD render, not rebuilt from the new voice; rebuild it"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "98": {
