@@ -34,8 +34,18 @@
 > gate_rebuilds.py compares each build's timing.json sidecar text against the dict and
 > lists stale audio; 58 builds were re-rendered, verify-mp4'd and shipped to the board
 > via site/fixed on 2026-07-20. RULES: never add a respelling that has not won an
-> in-context A/B (round2_fixes.py pattern); no hyphens/ALL-CAPS ever; approved videos
-> (approvals.json) are LOCKED — never rebuilt.
+> in-context A/B (round2_fixes.py pattern); no hyphens/ALL-CAPS ever.
+
+> 🔴 **REDO-ALL LAW — Cameron, 2026-07-23 (he has said this multiple times; it was
+> ignored, and that failure is on us). EVERY video must be REDONE with the new voice
+> AND RE-APPROVED. A prior approval does NOT exempt any video from the rework — the
+> "approved-lock" is DEAD.** All earlier approvals are void (approvals.json cleared to
+> `{}`, backup in `approvals.json.pre-redo-all-2026-07-23`). No video counts as done
+> until it has the new speaker voices AND Cameron approves the NEW cut. The old
+> `FIX-LATER.md` "these approved builds are locked, do not rebuild" list is CANCELLED —
+> those builds go through the rework like everything else. The reviewer must only ever
+> show videos that actually carry the new voices; anything still on the old voice is
+> NOT ready and must not sit there labeled done.
 
 > 🚨 **DEPLOY 429 FIX (ASSEMBLY-D 2026-07-17):** if `firebase deploy` fails with
 > "exceeded the Hosting storage quota", run

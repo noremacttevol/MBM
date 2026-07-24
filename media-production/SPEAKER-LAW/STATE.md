@@ -1,5 +1,12 @@
 # SPEAKER LAW — where this job stands
 
+> 🔴 **REDO-ALL LAW (Cameron, 2026-07-23): the approved-lock is DEAD.** Every video is
+> redone with the new voice AND re-approved — prior approval exempts nothing.
+> `FIX-LATER.md` is no longer a lock; its 23 builds (the ones still on the OLD Jesus
+> voice) go through the rework now. All old approvals were voided (`approvals.json` → `{}`,
+> backup `approvals.json.pre-redo-all-2026-07-23`). Worklist: `SPEAKER-LAW/REDO-ALL-worklist.txt`.
+
+
 **Read this first if you are picking the job up.** It says what is done, what is
 running, how to restart it, and the traps that already cost real hours.
 

@@ -1,19 +1,24 @@
-# FIX-LATER — approved builds that still violate the speaker/caption law
+# FIX-LATER — CANCELLED (REDO-ALL LAW, Cameron 2026-07-23)
 
-These builds have `approved: true` in approvals.json, so their delivered cuts are
-LOCKED (approved-lock, 2026-07-21). Every one of them is still on pre-speaker-law
-sources (old Jesus voice Christopher, colors from the retired `KJV` red set), so
-they DO violate the color/voice law — but they must NOT be rebuilt or shipped over
-until Cameron un-approves them or asks for the pass to include them.
+**This list is DEAD as a lock.** It used to hold "approved builds we must NOT rebuild."
+Cameron has ruled — multiple times — that **it does not matter if a video was approved
+earlier: every video must be redone with the new voice and re-approved.** The
+approved-lock is gone. All prior approvals are void (`approvals.json` cleared to `{}`;
+backup in `media-production/approvals.json.pre-redo-all-2026-07-23`).
 
-When cleared: run `python3 run_batch.py <build>` from SPEAKER-LAW/ (plans already
-exist and are validated for all of them).
+So every build below now goes through the rework like any other — do NOT skip it because
+it was once approved. Plans already exist and are validated; run
+`python3 run_batch.py <build>` from `SPEAKER-LAW/`.
+
+These are the builds that were still on the OLD Jesus voice (Christopher) / retired KJV
+red color set when this lock was lifted — they need the new speaker voices + colors:
 
 - build-06-two-sons
 - build-11-storm
 - build-12-bartimaeus
 - build-15-centurion
 - build-16-mary-martha
+- build-17-lazarus   (was skipped on an old standing instruction — 2026-07-23 Cameron says redo it too; no longer exempt)
 - build-92-peters-denial
 - build-99-flesh-and-bone-thomas
 - build-100-the-ascension
@@ -29,11 +34,8 @@ exist and are validated for all of them).
 - build-143-i-am-the-door
 - build-144-resurrection-and-the-life
 - build-145-way-truth-life
+- build-152-revealeth-his-secret   (kv7/kv8 scripture beats render WHITE, not blue)
 - build-200-gospel-to-all-the-world
-- build-152-revealeth-his-secret — SHIPPED under speaker law but segcheck proves
-  its kv7/kv8 scripture beats render WHITE, not blue (the rest of the build is
-  correct). Approved, so the fix waits with the rest of this list.
 
-Also excluded from the pass on standing instruction: build-17-lazarus (skip #17).
-
-Generated 2026-07-21 during the full-library caption/voice-law verification.
+**Bigger rule (do not lose):** none of the ~177 "already reworked" videos count as done
+either until Cameron re-approves the NEW cut. Approval is earned per new cut, every time.

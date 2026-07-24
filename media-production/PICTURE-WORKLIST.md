@@ -13,7 +13,6 @@ Markers are DROPPED for every row below — W1/W2 just pull and farm.
 79. The seventy sent — build-79-the-seventy-sent (8 stills)
 80. "Come unto me, all ye that labour" — build-80-come-unto-me (8 stills)
 81. Render unto Caesar — build-81-render-unto-caesar (8 stills)
-82. The anointing at Bethany — build-82-anointing-at-bethany (8 stills)
 83. Weeping over Jerusalem — build-83-weeping-over-jerusalem (7 stills)
 
 ## W2 — ready now, rows 101-200 (0)
