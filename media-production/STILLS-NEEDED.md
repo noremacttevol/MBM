@@ -117,10 +117,7 @@ The ten worst holds, all of which were built for a six-second drift:
 
 | Seconds | Build | Still |
 |---|---|---|
-| 59.2 | build-44-two-debtors | S7 |
-| 56.7 | build-13-roof | S6 |
 
-`build-10-well` is the clearest case and worth understanding before starting. It
 is the woman at the well — a woman who talks with Christ longer than anyone else
 in the Gospels — and the video never let her speak. Six of her lines are now in
 her own voice, verbatim. That is the right fix, and it left one picture holding
