@@ -47,7 +47,6 @@ Named disciples or the whole Twelve are the visible subject.
 | ✅ | 11  | build-11-storm                  | the Twelve, the boat — REBUILT 2026-07-22, awaiting watch |
 | ✅ | 89  | build-89-the-last-supper        | all Twelve at the table — REBUILT 2026-07-22, awaiting watch |
 | ✅ | 90  | build-90-washing-feet           | Peter + the Twelve — REBUILT 2026-07-22, awaiting watch |
-| ⬜ | 145 | build-145-way-truth-life        | Thomas, Philip + the Twelve (upper room) |
 | ⬜ | 72  | build-72-calling-matthew        | Matthew (Levi) |
 | ⬜ | 18  | build-18-emmaus                 | two disciples (Cleopas + one) |
 | ⬜ | 100 | build-100-the-ascension         | the Twelve |
