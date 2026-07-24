@@ -53,7 +53,6 @@ The disciples are in-frame but not the whole subject; regenerate the group/crowd
 
 | ✓ | # | Build |
 |---|---|---|
-| ⬜ | 10  | build-10-well (disciples return) |
 | ⬜ | 14  | build-14-ten-lepers |
 | ⬜ | 15  | build-15-centurion |
 | ⬜ | 49  | build-49-water-to-wine |
