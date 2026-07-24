@@ -80,7 +80,8 @@ man in the dark olive tunic lifts away a mat of broken reed thatch. Dust
 rises around them in the sunlight and they grin at each other like men doing
 something magnificent and slightly insane. Beside them on the roof lies the
 thin paralyzed man on his woven reed mat, legs under a faded ochre blanket, a
-rope tied at each corner of the mat. Through the ragged hole between them,
+rope tied at each corner of the mat — a YOUNG man in his early thirties with
+short dark curly hair and a sparse dark beard, NOT old and NOT grey. Through the ragged hole between them,
 warm lamplight and small upturned faces are just visible in the dark room
 below. Every figure has exactly two arms, two hands, and two legs. Honest
 midday daylight, blue sky.
@@ -179,16 +180,21 @@ man are the whole picture.
 ## s10 — CARRYING THE MAT THAT CARRIED HIM (still)
 
 STYLE Bright midday street outside the small basalt-and-plaster Capernaum
-house: the thin man with short dark curly hair and sparse beard walks out
+house: the healed man — a young man in his early thirties with short dark
+curly hair and a short dark beard, NOT old and NOT grey — walks out
 through the low doorway into the sunlight, steady on his own two legs, the
 woven reed mat rolled up tight and tucked under one arm, his face split by
 disbelieving laughter. The crowd parts around the doorway in two awestruck
 waves, faces amazed, hands raised, some laughing, some weeping. Up on the
-flat roofline above the door, exactly four filthy dust-covered men — the
-big black-bearded one, the lean clean-shaven one, the wiry gray-bearded one,
-and the round-faced brown-bearded one — pound each other's shoulders and
-laugh toward heaven beside the ragged hole they dug. Every figure has
-exactly two arms and two legs. Honest joyful daylight.
+flat roofline above the door stand EXACTLY FOUR filthy dust-covered men —
+the SAME four friends who carried the mat, each a clearly DIFFERENT man:
+(1) a big broad man with a full BLACK beard and black hair, (2) a lean
+CLEAN-SHAVEN younger man with cropped brown hair, (3) a wiry OLDER man with
+GREY hair and a grey beard, and (4) a round-faced man with a short
+GINGER-BROWN beard — they pound each other's shoulders and laugh toward
+heaven beside the ragged hole they dug. The four are four distinct
+individuals of different ages and colouring, never four identical young
+men. Every figure has exactly two arms and two legs. Honest joyful daylight.
 
 ---
 
