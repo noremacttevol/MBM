@@ -252,11 +252,9 @@
   "whisper": false
  },
  "137": {
-  "mp4": "acts-7_stephen-sees-him-standing.mp4",
-  "pass": false,
-  "reasons": [
-   "COMPLETE: 5 segment(s) have no audio clip: n0a, n0b, s1, n2b, card"
-  ],
+  "mp4": "john-17_one-as-we-are-one.mp4",
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "138": {
@@ -278,11 +276,9 @@
   "whisper": false
  },
  "140": {
-  "mp4": "luke-15_road-runs-both-ways.mp4",
-  "pass": false,
-  "reasons": [
-   "COMPLETE: 9 segment(s) have no audio clip: j1, j18, n3a, n3b, j20, j22, n6, j31"
-  ],
+  "mp4": "2-kings-5_naaman-washes.mp4",
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "141": {
@@ -491,10 +487,8 @@
  },
  "172": {
   "mp4": "1-peter-4_gospel-preached-to-the-dead.mp4",
-  "pass": false,
-  "reasons": [
-   "COMPLETE: 1 segment(s) have no audio clip: n1a"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "173": {
@@ -517,10 +511,8 @@
  },
  "176": {
   "mp4": "psalm-24_who-shall-ascend.mp4",
-  "pass": false,
-  "reasons": [
-   "COMPLETE: 2 segment(s) have no audio clip: n3b, n4a"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "177": {
@@ -555,10 +547,8 @@
  },
  "181": {
   "mp4": "job-38_morning-stars-sang.mp4",
-  "pass": false,
-  "reasons": [
-   "COMPLETE: 1 segment(s) have no audio clip: n1b"
-  ],
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "182": {
