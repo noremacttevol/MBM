@@ -31,11 +31,11 @@ single arched gate, a low charcoal fire in a shallow brazier at its center, cold
 deep-blue night above the walls, the only warmth the small orange firelight.
 Servants and guards in dark earth tones cluster near the fire.
 
-[PETER LOCK] = Peter, the same man in every picture he appears in: a stocky,
-broad-shouldered Middle Eastern Jewish fisherman of about fifty, weathered
-sun-browned face, a FULL hairline of thick curly dark hair streaked with grey, a
-full grey-streaked dark beard, deep-set dark eyes, a dark rust-brown wool tunic
-with a charcoal-grey mantle (never cream). He appears EXACTLY ONCE in any frame;
+[PETER LOCK] = Peter, the same man in every picture he appears in (the locked cast
+Peter): a stocky, broad-shouldered Middle Eastern Jewish fisherman of about thirty-five,
+weathered sun-browned face, a FULL head of thick dark CURLY hair (not grey), a full dark
+beard, deep-set dark eyes, his BLUE-GREY wool tunic under a charcoal-grey mantle (never
+cream) — the same man as the attached peter reference. He appears EXACTLY ONCE in any frame;
 no other figure in the frame resembles him.
 
 [BYSTANDERS LOCK] = the servants and guards are ordinary Middle Eastern men and
