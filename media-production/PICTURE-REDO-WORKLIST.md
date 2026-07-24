@@ -53,7 +53,6 @@ The disciples are in-frame but not the whole subject; regenerate the group/crowd
 
 | ✓ | # | Build |
 |---|---|---|
-| ⬜ | 185 | build-185-many-mansions-member |
 | ⬜ | 193 | build-193-the-comforter |
 | ⬜ | 200 | build-200-gospel-to-all-the-world |
 | ⬜ | 1   | build-01-cloak (disciples around Jesus) |
