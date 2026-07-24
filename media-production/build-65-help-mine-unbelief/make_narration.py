@@ -57,7 +57,7 @@ SEGMENTS = [
     ("n3", NARRATOR, "And now comes the moment this whole story is remembered for. The father did not pretend. He did not put on a brave religious face and claim a faith he did not fully have. He did something braver. He cried out the truest prayer in the Bible for anyone who has ever wanted to believe and struggled to:"),
     # Mark 9:24
     ("fv1", SCRIPTURE, "Lord, I believe; help thou mine unbelief."),
-    ("n3b", NARRATOR, "Help me where I don't. He did not hand Jesus a finished faith. He handed him a cracked one, and asked him to hold it anyway."),
+    ("n3b", NARRATOR, "Lord, I believe, he said. Help me where I don't. He did not hand Jesus a finished faith. He handed him a cracked one, and asked him to hold it anyway."),
     ("n4", NARRATOR, "Think about what he just did. He brought Jesus the little bit of faith he had AND the unbelief he was ashamed of — and laid both of them down. He did not wait to believe perfectly before he asked. He asked for help WITH his believing. And that — that cracked-open, honest, half-full faith — was enough."),
     ("n5", NARRATOR, "Jesus saw the crowd rushing in to gawk, and he did not wait. He spoke directly to the thing that had stolen this boy's whole childhood, and commanded it, once and for all:"),
     # Mark 9:25

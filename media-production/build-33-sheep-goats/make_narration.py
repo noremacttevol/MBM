@@ -72,7 +72,7 @@ SEGMENTS = [
     ("n3", NARRATOR, "To the first group, the ones he welcomed in, the King said this."),
     # Matthew 25:34-36
     ("j1", JESUS, "Come, ye blessed of my Father, inherit the kingdom prepared for you from the foundation of the world: For I was an hungred, and ye gave me meat: I was thirsty, and ye gave me drink: I was a stranger, and ye took me in: Naked, and ye clothed me: I was sick, and ye visited me: I was in prison, and ye came unto me."),
-    ("n4", NARRATOR, "You fed me when I was hungry, he said. You clothed me, you sat with me when I was sick, you came to me when I was locked away."),
+    ("n4", NARRATOR, "You fed me when I was hungry, he said. You gave me water when I was thirsty. You took me in when I was a stranger. You clothed me, you sat with me when I was sick, you came to me when I was locked away."),
     # Matthew 25:37-39
     ("j37", JESUS, "Lord, when saw we thee an hungred, and fed thee? or thirsty, and gave thee drink? When saw we thee a stranger, and took thee in? or naked, and clothed thee? Or when saw we thee sick, or in prison, and came unto thee?"),
     ("n5", NARRATOR, "And here is the beautiful part. The good people are confused. They say, Lord, when did we ever see you hungry, or thirsty, or sick, or in prison? They do not even remember doing anything special. They just helped whoever was in front of them."),

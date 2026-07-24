@@ -44,7 +44,6 @@ SEGMENTS = [
     ("n1b", NARRATOR, "He puts my life back together."),
     # Psalm 23:3
     ("s3b", SCRIPTURE, "he leadeth me in the paths of righteousness for his name's sake."),
-    ("n2", NARRATOR, "He guides me down the right paths, for His name's sake — not because I earned the guiding, but because of who He is."),
     # Psalm 23:4
     ("s4", SCRIPTURE, "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me."),
     ("n3", NARRATOR, "Even in the darkest valley, I'm not afraid. And notice what changes right there: up to now David has been saying He. In the valley he starts saying You. He gets closer to the Shepherd in the dark, not further away."),

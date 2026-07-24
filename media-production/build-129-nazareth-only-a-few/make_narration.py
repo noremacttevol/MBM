@@ -56,7 +56,7 @@ SEGMENTS = [
     ("n2", NARRATOR, "He could do only a few mighty works there. Not because His power ran out, but because they wouldn't receive it."),
     # Mark 6:5-6
     ("s1", SCRIPTURE, "And he could there do no mighty work, save that he laid his hands upon a few sick folk, and healed them. And he marvelled because of their unbelief."),
-    ("n3", NARRATOR, "Even amazement at their doubt didn't stop His mercy."),
+    ("n3", NARRATOR, "He still healed the few who came. Even amazement at their doubt didn't stop His mercy."),
     ("n3b", NARRATOR, "A few sick folk. That is all Nazareth brought Him, and He laid His hands on every one of them. The mercy never shrank down to match the unbelief."),
     ("n4", NARRATOR, "Faith opens the door. Where people believed, even a little, He worked."),
     ("card", NARRATOR, "He healed the few who reached out. The door is the same today — believe, and let Him work."),

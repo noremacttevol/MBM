@@ -31,7 +31,7 @@ SEGMENTS = [
     ("n2", NARRATOR, "And then, through the spray and the dark, they saw something that made grown fishermen scream. A figure. Walking toward them. On top of the water. They cried out that it was a ghost — because nobody walks on the sea. But the voice that came back across the water was one they knew."),
     # Matthew 14:27
     ("j1", JESUS, "Be of good cheer; it is I; be not afraid."),
-    ("n3", NARRATOR, "Take heart. It's me. Don't be afraid. And Peter — impulsive, big-hearted Peter — called back across the storm: Lord, if it's really you, tell me to come to you on the water. Think about what he was asking for. Not for the storm to stop. To come out into it — to where Jesus stood."),
+    ("n3", NARRATOR, "Take heart. It's me. Don't be afraid. Think about what he was asking for. Not for the storm to stop. To come out into it — to where Jesus stood."),
     # Matthew 14:28
     ("s28", SCRIPTURE, "Lord, if it be thou, bid me come unto thee on the water."),
     # Matthew 14:29
@@ -52,7 +52,7 @@ SEGMENTS = [
     ("n10", NARRATOR, "And the men in that boat — the same men who minutes earlier had screamed that he was a ghost — knelt down where they sat, soaked and shaking, and worshipped him."),
     # Matthew 14:33
     ("s33", SCRIPTURE, "Of a truth thou art the Son of God."),
-    ("n10b", NARRATOR, "The storm had taught them who he was. And notice what the story remembers about Peter. Not that he sank. That he walked. And that when he fell, he was caught."),
+    ("n10b", NARRATOR, "You really are the Son of God, they said. The storm had taught them who he was. And notice what the story remembers about Peter. Not that he sank. That he walked. And that when he fell, he was caught."),
     ("n11", NARRATOR, "When your storm gets loud and your faith slips, look back up — the same hand is already reaching for you. Keep your eyes on him."),
 ]
 

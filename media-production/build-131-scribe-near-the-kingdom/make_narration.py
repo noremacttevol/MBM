@@ -51,7 +51,6 @@ SEGMENTS = [
     ("n0a", NARRATOR, "A teacher of the law came to Jesus with a real question, not a trap —"),
     # Mark 12:28
     ("s28", SCRIPTURE, "Which is the first commandment of all?"),
-    ("n0b", NARRATOR, "which commandment matters most of all?"),
     # Mark 12:29-31
     ("jv29", JESUS, "The first of all the commandments is, Hear, O Israel; The Lord our God is one Lord: And thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind, and with all thy strength: this is the first commandment. And the second is like, namely this, Thou shalt love thy neighbour as thyself. There is none other commandment greater than these."),
     ("n1", NARRATOR, "Jesus answered without hesitation. And love your neighbor as yourself. Everything else hangs on those two."),

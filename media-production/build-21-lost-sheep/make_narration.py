@@ -68,7 +68,7 @@ SEGMENTS = [
     ("n9", NARRATOR, "Then he calls everyone together — friends, neighbors, the whole village — and throws a celebration."),
     # Luke 15:6
     ("j3", JESUS, "Rejoice with me; for I have found my sheep which was lost."),
-    ("n9b", NARRATOR, "Be glad with me, he tells them. Not, I got my property back. It was his the whole time it was missing."),
+    ("n9b", NARRATOR, "Be glad with me, he tells them. Not, I got my property back. My sheep. It was his the whole time it was missing."),
     # Luke 15:7
     ("j4", JESUS, "I say unto you, that likewise joy shall be in heaven over one sinner that repenteth, more than over ninety and nine just persons, which need no repentance."),
     ("n10", NARRATOR, "That is how good he is. Heaven throws a party over one person turning back. Not a lecture. Not a grudge. Joy."),

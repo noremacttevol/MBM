@@ -38,7 +38,7 @@ SEGMENTS = [
     ("n1", NARRATOR, "Full of the Holy Ghost, he gazed up into heaven — and saw the glory of God."),
     # Acts 7:56
     ("s1", SCRIPTURE, "Behold, I see the heavens opened, and the Son of man standing on the right hand of God."),
-    ("n2", NARRATOR, "Look, he said — I can see heaven open, and the Son of man standing at God's right hand. Not sitting. Standing. As if ready to receive the one they were killing."),
+    ("n2", NARRATOR, "Not sitting. Standing. As if ready to receive the one they were killing."),
     ("n2b", NARRATOR, "Notice what Stephen actually saw: the glory of God, and the Son of man standing beside it, at his right hand. Two of them. Distinct. And the Son was on his feet for him."),
     ("n3", NARRATOR, "The vision held him steady while the stones fell. He saw his Savior standing for him."),
     ("card", NARRATOR, "He stands for you too. Whatever falls on you today, you are not alone."),

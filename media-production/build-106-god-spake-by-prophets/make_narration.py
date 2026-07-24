@@ -66,7 +66,7 @@ SEGMENTS = [
     ("sv5b", SCRIPTURE, "And again,"),
     # Hebrews 1:5 (2 Samuel 7:14)
     ("gv5b", GOD, "I will be to him a Father, and he shall be to me a Son?"),
-    ("nA", NARRATOR, "Listen to who is talking there. That is the Father's own voice, saying it out loud: you are my Son. God never said that to an angel. He said it to one person, and that is the person he sent."),
+    ("nA", NARRATOR, "Listen to who is talking there. God never said that to an angel. He said it to one person, and that is the person he sent."),
     ("n6", NARRATOR, "Not another prophet with another piece. The Son. God's own last and clearest word, spoken not in fire on a mountain, but in a real human life you could walk beside."),
     # Hebrews 1:3
     ("jv3", SCRIPTURE, "Who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power."),

@@ -69,7 +69,7 @@ SEGMENTS = [
     ("n1c", NARRATOR, "The last words he said were words of trust, spoken to the Father he had been talking to all night."),
     # John 19:30
     ("s30b", SCRIPTURE, "And he bowed his head, and gave up the ghost."),
-    ("n2", NARRATOR, "And he bowed his head and gave up the spirit — on his own terms, not theirs. Nobody took his life from him. He laid it down."),
+    ("n2", NARRATOR, "Nobody took his life from him. He laid it down."),
     # Matthew 27:51
     ("s51", SCRIPTURE, "And, behold, the veil of the temple was rent in twain from the top to the bottom."),
     ("n3a", NARRATOR, "At that moment, in the temple across the city, the great veil that walled off the holiest place was torn in two, from the top down —"),

@@ -65,7 +65,7 @@ SEGMENTS = [
     ("n4", NARRATOR, "He is not here — he is risen."),
     # Luke 24:6-7
     ("s6", SCRIPTURE, "remember how he spake unto you when he was yet in Galilee, Saying, The Son of man must be delivered into the hands of sinful men, and be crucified, and the third day rise again."),
-    ("n5a", NARRATOR, "He had said all of it, out loud, before any of it happened."),
+    ("n5a", NARRATOR, "Remember, they said, what he told you back in Galilee — that he would be handed over to sinful men, and crucified, and on the third day rise again. He had said all of it, out loud, before any of it happened."),
     ("n5b", NARRATOR, "And they remembered."),
     ("card", NARRATOR, "The tomb couldn't hold him. Whatever feels dead and sealed shut in your life — he's the God of the rolled-away stone."),
 ]

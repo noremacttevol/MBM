@@ -50,7 +50,7 @@ SEGMENTS = [
     ("n0", NARRATOR, "Paul wrote of a man he knew — caught up, in a single moment, far beyond the everyday world."),
     # 2 Corinthians 12:2
     ("s1", SCRIPTURE, "I knew a man in Christ above fourteen years ago, (whether in the body, I cannot tell; or whether out of the body, I cannot tell: God knoweth;) such an one caught up to the third heaven."),
-    ("n1", NARRATOR, "Whether in the body or out of it, Paul could not say; And from that height, he was carried further still."),
+    ("n1", NARRATOR, "Whether in the body or out of it, Paul could not say; God alone knew. And from that height, he was carried further still."),
     # 2 Corinthians 12:4
     ("s2", SCRIPTURE, "How that he was caught up into paradise, and heard unspeakable words, which it is not lawful for a man to utter."),
     ("n2", NARRATOR, "He heard things he was not allowed to repeat — words a person is not permitted to say out loud. He could have boasted. He had the credentials. Instead he pointed to his weakness — because of what the Lord had told him."),

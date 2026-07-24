@@ -60,7 +60,7 @@ SEGMENTS = [
     ("jv9", GOD, "What doest thou here, Elijah?"),
     # 1 Kings 19:10
     ("s10", SCRIPTURE, "I have been very jealous for the LORD God of hosts: for the children of Israel have forsaken thy covenant, thrown down thine altars, and slain thy prophets with the sword; and I, even I only, am left; and they seek my life, to take it away."),
-    ("n4", NARRATOR, "And out it all poured. I have given everything for you, he said. I am the only one left, and now they want me dead too."),
+    ("n4", NARRATOR, "And out it all poured. I have given everything for you, he said. They have torn down your altars and killed your prophets. I am the only one left, and now they want me dead too."),
     # 1 Kings 19:11
     ("jv11a", GOD, "Go forth, and stand upon the mount before the LORD."),
     # 1 Kings 19:11

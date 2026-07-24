@@ -53,21 +53,20 @@ from mbm_speakers import NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, "A question was put to Israel long ago — who gets to climb the hill of the LORD and stand in his holy place?"),
     # Psalm 24:3
     ("s1", SCRIPTURE, "Who shall ascend into the hill of the LORD? or who shall stand in his holy place?"),
     # Psalm 24:4
     ("s2", SCRIPTURE, "He that hath clean hands, and a pure heart; who hath not lifted up his soul unto vanity, nor sworn deceitfully."),
-    ("n1", NARRATOR, "The answer was not about bloodline or rank."),
+    ("n1", NARRATOR, "The answer was not about bloodline or rank. It was about clean hands and a pure heart — someone who has not lifted their soul to what is false."),
     # Psalm 24:7
     ("s4", SCRIPTURE, "Lift up your heads, O ye gates; and be ye lift up, ye everlasting doors; and the King of glory shall come in."),
-    ("n3a", NARRATOR, "Then the call goes out to the gates themselves — lift up your heads, you ancient doors,"),
+    ("n3b", NARRATOR, "and let the King of glory come in."),
     # Psalm 24:8
     ("s5", SCRIPTURE, "Who is this King of glory? The LORD strong and mighty, the LORD mighty in battle."),
-    ("n4b", NARRATOR, "He is the one who comes in."),
+    ("n4a", NARRATOR, "And who is this King of glory?"),
+    ("n4b", NARRATOR, "The LORD himself — strong, mighty, and unbeatable. He is the one who comes in."),
     # Psalm 24:5
     ("s3", SCRIPTURE, "He shall receive the blessing from the LORD, and righteousness from the God of his salvation."),
-    ("n2", NARRATOR, "Such a one receives blessing from the LORD, and righteousness from the God of their salvation."),
     ("card", NARRATOR, "The door is open to the one with a clean heart. Come and stand in his presence."),
 ]
 

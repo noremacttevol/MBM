@@ -29,7 +29,7 @@ from mbm_speakers import JESUS, NARRATOR, WOMAN
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, "In a village called Bethany, close enough to Jerusalem to walk, there lived two sisters, Martha and Mary, and their brother Lazarus. Jesus loved this family. Their home was the one place on the whole road where he could stop being a public figure and simply be a friend. And now their brother was dying. So the sisters sent word to Jesus — not a demand, just a few aching words:"),
+    ("n0", NARRATOR, "In a village called Bethany, close enough to Jerusalem to walk, there lived two sisters, Martha and Mary, and their brother Lazarus. Jesus loved this family. Their home was the one place on the whole road where he could stop being a public figure and simply be a friend. And now their brother was dying. So the sisters sent word to Jesus — not a demand, just a few aching words: Lord, the one you love is sick."),
     # John 11:3
     ("w3", WOMAN, "Lord, behold, he whom thou lovest is sick."),
     ("n1", NARRATOR, "You would expect him to drop everything and run. He did the opposite. When the news reached him, he stayed where he was two more days. But listen to what he said about it:"),
@@ -39,7 +39,7 @@ SEGMENTS = [
     ("n2", NARRATOR, "By the time Jesus started for Bethany, the message had changed. Lazarus was not sick anymore. Lazarus was dead, and had been sealed in the tomb four days. That number is in the story on purpose. People of that time held that a soul might linger near the body for three days. Four days meant the door was shut — no lingering, no hope, no loophole left. Everyone in Bethany knew exactly how final four days was."),
     # John 11:21-22
     ("w21", WOMAN, "Lord, if thou hadst been here, my brother had not died. But I know, that even now, whatsoever thou wilt ask of God, God will give it thee."),
-    ("n3", NARRATOR, "Martha heard he was finally near and ran out to meet him on the road, before he even reached the town. What she said was grief and faith tangled together in one breath:"),
+    ("n3", NARRATOR, "Martha heard he was finally near and ran out to meet him on the road, before he even reached the town. What she said was grief and faith tangled together in one breath: Lord, if you had been here, my brother would not have died. And then, still holding on — but even now, I know God will give you whatever you ask."),
     ("n4", NARRATOR, "Jesus told her, your brother will rise again. Martha nodded the way we nod at things we believe but cannot feel — yes, at the end of the world, on the last day, I know. And Jesus took the whole promise out of the far-off future and set it down in the person standing right in front of her:"),
     # John 11:25-26
     ("j2", JESUS, "I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live: And whosoever liveth and believeth in me shall never die. Believest thou this?"),

@@ -58,7 +58,7 @@ SEGMENTS = [
     ("n5b", NARRATOR, "Have you caught anything, he called. And they had to say it out loud to a stranger — no. Nothing. All night, nothing."),
     # John 21:6
     ("j0b", JESUS, "Cast the net on the right side of the ship, and ye shall find."),
-    ("n5c", NARRATOR, "Put the net over the right side, he told them, and you will find some. They did — and it came up so full they could not haul it in."),
+    ("n5c", NARRATOR, "They did — and it came up so full they could not haul it in."),
     ("n6", NARRATOR, "Then one of them went very still and said, it is the Lord. And Peter did not wait for the boat. He threw himself into the sea and swam for shore, leaving everything behind."),
     ("n7", NARRATOR, "When he waded out of the water, he stopped cold. On the sand was a charcoal fire, with fish already laid over it, and bread."),
     ("n8", NARRATOR, "A charcoal fire. The same kind of fire Peter had stood beside in the courtyard the night he denied him. The smell alone would have brought the whole night back."),

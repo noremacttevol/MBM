@@ -44,7 +44,7 @@ SEGMENTS = [
     ("n2", NARRATOR, "He saw the glory of God — and Jesus, standing at the right hand of the Father. And he said so, out loud:"),
     # Acts 7:56
     ("s1", SCRIPTURE, "Behold, I see the heavens opened, and the Son of man standing on the right hand of God."),
-    ("n3a", NARRATOR, "Look, he told them — heaven is open, and the Son of man is standing at God's right hand. They would not hear it. They rushed him out."),
+    ("n3a", NARRATOR, "They would not hear it. They rushed him out."),
     ("n3b", NARRATOR, "But Stephen's face was the face of an angel — at peace, not afraid."),
     ("n4a", NARRATOR, "Then he knelt down, with the stones still coming, and his last words asked mercy for the ones throwing them."),
     # Acts 7:60

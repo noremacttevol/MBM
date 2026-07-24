@@ -54,7 +54,7 @@ SEGMENTS = [
     ("n6", NARRATOR, "You set it up high, on a stand, so its light reaches into every corner and everyone in the house can see. Your goodness was never meant to be hidden away. It was meant to give light to the people around you."),
     # Matthew 5:16
     ("jv16", JESUS, "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven."),
-    ("n7", NARRATOR, "Live openly good — kind, honest, generous — right out where people can see it."),
+    ("n7", NARRATOR, "So let it shine, he said. Live openly good — kind, honest, generous — right out where people can see it."),
     ("n8", NARRATOR, "But notice the reason. Not so they will admire you. So that when they see the good you do, their eyes will lift past you to God, and they will love him for it. Your light is not about you at all. It points home to your Father."),
     ("n9", NARRATOR, "That is the whole charge, and it is a gentle one. You do not have to become something you are not. You already are salt; you already are light. Just don't lose your savour, and don't hide your lamp. Go out, stay bright, and be exactly what the world needs."),
     ("card", NARRATOR, "You are the salt of the earth. You are the light of the world. Not someday, if you are good enough — right now, as you are. Where could your light give someone else a little more of God today?"),

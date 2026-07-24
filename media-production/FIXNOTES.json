@@ -11,6 +11,10 @@
   {
    "date": "2026-07-21",
    "note": "VERIFIED already fixed, no rebuild: extracted end-card frames at 4:13 and 4:17 from the current cut \u2014 the closing words-only card text sits fully inside the frame with wide margins on both edges, wrapped cleanly (nothing cut off). The out-of-frame defect is not in this cut."
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "10": [
@@ -57,6 +61,10 @@
   {
    "date": "2026-07-22",
    "note": "Round 4, and this time the well is locked to a PICTURE instead of a description. What went wrong before: I was describing the well in words, and the art model redrew it from scratch every time \u2014 that is why the posts and the reel changed in all 8 pictures and some didn't even work mechanically. Fix: I took the one well in your video that was actually built right (stone rim, two posts, a turning roller, a crank handle, rope, bucket), saved it as a reference picture, and regenerated all 8 well pictures with that reference attached and orders to copy it piece for piece \u2014 the same trick that keeps faces the same. Now it is one real working well seen from different angles. Also: the caption now says \"Messiah\" too, not just the voice. And they still sit and talk like real people, her jar on the ground beside her, left behind on the rim when she goes, and the last picture still has her leading the town toward Jesus with empty hands."
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "108": [
@@ -75,6 +83,10 @@
   {
    "date": "2026-07-21",
    "note": "calleth AND leadeth (0:44 KJV line) re-recorded with measured respellings: proof-before \u2014 the old audio's \"leadeth\" whisper-transcribed as \"letteth\"/\"Lettuce\" both in the video and in the raw segment, and plain \"calleth\" in this voice renders the bad \"Kalloth\" vowel you flagged twice; fix \u2014 SPOKEN dict \"kawleth\" + \"leedeth\" (A/B winners, captions keep true KJV spelling); proof-after \u2014 the same line isolated from the rebuilt video transcribes \"and he calleth his own sheep by name, and leadeth them out.\" \u2014 narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "135": [
@@ -165,6 +177,10 @@
   {
    "date": "2026-07-22",
    "note": "VERIFIED already fixed, no rebuild: all three 'live' words (0:29, 1:03, 1:11) were measured against controlled samples of this same voice saying 'live' the short way and the long way \u2014 all three match the SHORT verb sound (rhymes with give), not the long one (rhymes with hive). The spelling fix is in the build and it worked."
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded"
   }
  ],
  "18": [
@@ -229,6 +245,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "40": [
@@ -252,6 +272,10 @@
   },
   {
    "date": "2026-07-21",
+   "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
    "note": "narration re-recorded; build script updated"
   }
  ],
@@ -281,6 +305,10 @@
   {
    "date": "2026-07-22",
    "note": "Pronunciation fix that had been silently thrown away is now actually in the video. What went wrong: this video's script never told the pronunciation list WHICH voice was speaking, so every correction that only applies to one voice was worked out and then dropped on the floor \u2014 \"maketh\" was being spoken \"mocketh\". This was true in 175 of the 200 videos, so it has been fixed at the source in all of them, not just this one. Proof: the re-recorded line now contains the corrected spelling and transcribes back as the right word. \u2014 narration re-recorded"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded"
   }
  ],
  "66": [
@@ -300,6 +328,10 @@
   },
   {
    "date": "2026-07-21",
+   "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
    "note": "narration re-recorded; build script updated"
   }
  ],
@@ -329,6 +361,10 @@
   {
    "date": "2026-07-21",
    "note": "the run picture (0:08-0:20) regenerated: proof-before \u2014 the previous cut's still had the runner moving toward the camera with Jesus BEHIND him (still read \"running past Jesus\", your complaint was right and the earlier fix note was wrong); fix \u2014 new Flow still, strict side view: runner on the LEFT moving left-to-right, Jesus on the RIGHT facing him, arms open, gap closing, both locks kept; proof-after \u2014 frame extracted from the rebuilt mp4 at 0:14 shows exactly that geometry. \u2014 new picture(s): s1-the-run-v2.jpeg, s1-the-run-v3.jpeg, s1-the-run-v4.jpeg, s1-the-run.jpeg"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "2": [
@@ -353,6 +389,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "calleth (0:39, jesus voice) re-recorded: proof-before \u2014 fresh render of plain \"calleth\" in this voice transcribes isolated as \"Kalloth\" (wrong vowel, what you heard); fix \u2014 measured SPOKEN respelling \"kawleth\" (A/B winner, caption text unchanged); proof-after \u2014 rebuilt mp4 word at 0:39 whisper-transcribes \"calleth\" in sentence AND isolated (\"She calleth her friends\"). \u2014 narration re-recorded"
   }
  ],
  "14": [
@@ -363,6 +403,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "build script updated"
   }
  ],
  "109": [
@@ -403,6 +447,10 @@
   {
    "date": "2026-07-22",
    "note": "Pronunciation fix that had been silently thrown away is now actually in the video. What went wrong: this video's script never told the pronunciation list WHICH voice was speaking, so every correction that only applies to one voice was worked out and then dropped on the floor \u2014 \"Meshach\" was not getting its corrected pronunciation. This was true in 175 of the 200 videos, so it has been fixed at the source in all of them, not just this one. Proof: the re-recorded line now contains the corrected spelling and transcribes back as the right word. \u2014 narration re-recorded"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "13": [
@@ -463,6 +511,10 @@
   {
    "date": "2026-07-21",
    "note": "VERIFIED already fixed, no rebuild: frames pulled from the current cut \u2014 Paul's verse lines at 0:12 and 0:37 are LIGHT BLUE; the only red caption is 'My grace is sufficient for thee' at 1:02, which is the risen Lord speaking (red-letter correct). Only Jesus's words are red."
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded"
   }
  ],
  "22": [
@@ -489,6 +541,10 @@
   {
    "date": "2026-07-21",
    "note": "VERIFIED already fixed, no rebuild: the KJV line at 2:36 in the current cut whisper-transcribes as 'Pay me that thou oweest' \u2014 the voice now says OWE-est (the measured 'owesst' respelling is in the mix; the old cut read it as 'Alice'). Word-level proof from the isolated audio clip, not just the full transcript."
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "67": [
@@ -511,6 +567,10 @@
   {
    "date": "2026-07-22",
    "note": "Fixed the Elias problem two ways. (1) Spelling: the narrator was saying \"Elijah\" in two spots \u2014 both changed to \"Elias\" so every voice, narrator included, now uses the KJV name. (2) Pronunciation: respelled to ee-LY-us. Captions verified saying \"Elias\" in the final cut. Please confirm the ee-LY-us stress on headphones \u2014 that part can't be machine-checked. \u2014 narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "80": [
@@ -524,6 +584,10 @@
   },
   {
    "date": "2026-07-21",
+   "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
    "note": "narration re-recorded; build script updated"
   }
  ],
@@ -557,6 +621,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "177": [
@@ -571,6 +639,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "178": [
@@ -584,6 +656,10 @@
   },
   {
    "date": "2026-07-21",
+   "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
    "note": "narration re-recorded; build script updated"
   }
  ],
@@ -611,6 +687,10 @@
   {
    "date": "2026-07-23",
    "note": "regenerated 6 stills (s1-s6) grounded in Job's earthly view per Cameron: painted dawn/night skies over ancient hills, Job as a small figure looking up at the singing stars (s3/s5) - removed the modern NASA Earth-in-space and the flaming-earth. Reverent painted storybook. Rebuilt + verified."
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "187": [
@@ -639,6 +719,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "65": [
@@ -663,6 +747,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "70": [
@@ -677,6 +765,10 @@
   {
    "date": "2026-07-21",
    "note": "File came out 28.5MB, over the 25MB limit (the re-recorded narration made it longer). Re-encoded the picture to 23.5MB. Same length, same audio, same words."
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "107": [
@@ -723,6 +815,10 @@
   {
    "date": "2026-07-22",
    "note": "The people are now the same men in every frame, which is what you asked to be made a law. What was wrong: Peter in this video was painted in a rust-brown robe, but his locked character sheet puts him in a BLUE-GREY tunic \u2014 so he did not match the Peter in your other stories at all. The rest of the boat crew drifted from picture to picture, and one of them was an elderly white-bearded man, when everyone at that shore should be a working-age fisherman. Fix: all nine people-pictures are regenerated with Peter, John and Thomas locked to their approved character sheets, with their reference pictures attached, and with a rule written into every single frame \u2014 the same three men, nobody swapped, no old white-haired man anywhere. Proof: all nine pulled up side by side, Peter is the same man in the same blue-grey in every one, and John (clean-shaven) and Thomas stay tellable apart the whole way through. \u2014 new picture(s): s10-cast-right.jpeg, s11-net-full.jpeg, s12-realization.jpeg, s13-peter-leap.jpeg, s14-swim.jpeg, s16-breakfast.jpeg"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "28": [
@@ -733,6 +829,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "31": [
@@ -761,6 +861,10 @@
   {
    "date": "2026-07-21",
    "note": "The shepherd is now the same man in all six of his pictures. He used to start out as a grey-haired older man for the first four pictures and then turn into a younger dark-haired man for the last two \u2014 the story's own character sheet says dark hair and a short dark beard, so the four grey-haired pictures were redone to match. The \"a hundred sheep, one straying\" picture had a second defect: it was actually two pictures stacked on top of each other with a white line across the middle, and it is now one single scene with the one stray sheep up on the ridge. \u2014 new picture(s): s2-flock-dusk.jpeg, s3-leaves.jpeg, s4-searches-night.jpeg, s5-finds.jpeg"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "34": [
@@ -771,6 +875,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "37": [
@@ -795,6 +903,10 @@
   {
    "date": "2026-07-22",
    "note": "The Samaritan going bald is fixed. Proof before: I pulled the pictures up side by side and zoomed in. In \"moved with compassion\" and at the inn he has a full head of thick black hair \u2014 but in the picture where he puts the man on his own animal he is plainly BALD on top, with hair only around the sides. That is the frame you caught. Fix: I cut a reference picture of his correct head out of the compassion frame and regenerated the road picture with that reference attached, with his black hair, black beard and his ochre-and-rust striped cloak locked, and no turban or head wrap allowed to hide it. Proof after: he now has the same full black hair in the road picture as in the frames before and after it. \u2014 new picture(s): SAMARITAN-REF.jpeg, s5-own-animal.jpeg"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "23": [
@@ -839,18 +951,30 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "148": [
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "Fixed Ruth's vow: \"Where thou diest, will I die\" was being read \"where thou DOST\" \u2014 now reads \"DIE-est\" correctly. Also fixed \"Boaz\" (was coming out like \"Boss\"/\"Boas\"; now BO-az). Captions unchanged. \u2014 narration re-recorded"
   }
  ],
  "151": [
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "Fixed two misreads in James 1:5: \"upbraideth not\" was being read \"an UPGRADE is not\", and \"he kneels down\" in the narration was read \"he MEALS down\". Both now read correctly. Captions unchanged. \u2014 narration re-recorded"
   }
  ],
  "166": [
@@ -901,6 +1025,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded"
   }
  ],
  "33": [
@@ -923,6 +1051,10 @@
   {
    "date": "2026-07-22",
    "note": "\"divideth\" at 0:21 \u2014 CORRECTING MYSELF. My last note on this video was wrong and I am sorry. I said it was fixed, and the fix had actually been thrown away before the recording was made: this video's script was not telling the voice-specific pronunciation list which voice was speaking, so the correction for Jesus's voice was silently ignored and you got the plain word again. I found it while working a different video and checked back here. It is genuinely fixed now \u2014 the script passes the voice through, the recording contains the corrected spelling, and the rebuilt line transcribes as \"divideth\". I also found that 176 of the 200 videos have this same silent-drop bug, so any voice-specific pronunciation fix has been quietly doing nothing in most of the library. I am fixing that next. \u2014 narration re-recorded"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "35": [
@@ -941,6 +1073,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "36": [
@@ -958,6 +1094,10 @@
   },
   {
    "date": "2026-07-21",
+   "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
    "note": "narration re-recorded; build script updated"
   }
  ],
@@ -977,6 +1117,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "39": [
@@ -986,6 +1130,10 @@
   },
   {
    "date": "2026-07-21",
+   "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
    "note": "narration re-recorded; build script updated"
   }
  ],
@@ -1057,6 +1205,10 @@
   {
    "date": "2026-07-22",
    "note": "Pronunciation fix that had been silently thrown away is now actually in the video. What went wrong: this video's script never told the pronunciation list WHICH voice was speaking, so every correction that only applies to one voice was worked out and then dropped on the floor \u2014 \"putteth\" was landing as two beats, \"put / teth\". This was true in 175 of the 200 videos, so it has been fixed at the source in all of them, not just this one. Proof: the re-recorded line now contains the corrected spelling and transcribes back as the right word. \u2014 narration re-recorded"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "49": [
@@ -1089,6 +1241,10 @@
   {
    "date": "2026-07-23",
    "note": "Fixed the little squares that showed at the end of every line on the closing question page. Rebuilt the whole video clean."
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "51": [
@@ -1135,6 +1291,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "54": [
@@ -1145,6 +1305,10 @@
   {
    "date": "2026-07-21",
    "note": "The leper is now the same man before and after he is healed. In the first three pictures he was painted as an old man with white hair and a grey beard, and then from the healing onward he became a dark-haired man in his thirties \u2014 two different people in one story. The three sick-stage pictures are redone to match the man in the healed pictures: mid-thirties, dark hair, short dark beard, gaunt and grey-skinned from the illness. The reason it drifted is that the picture instructions for this story never said how old he was, so his age was left to chance; that instruction is now written into the story's own prompt file so it cannot happen again here. The new pictures are also double the resolution of the old ones. \u2014 new picture(s): s1-the-outcast.jpeg, s2-if-thou-wilt.jpeg, s3-moved-with-compassion.jpeg"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "55": [
@@ -1155,6 +1319,10 @@
   {
    "date": "2026-07-21",
    "note": "Removed a glow around Jesus. In the \"stand forth\" picture there was a soft golden halo outlining his head and shoulders against the wall, which is against the standing rule \u2014 no halo, no glow, no rim-light, because it highlights him as artwork instead of letting the scene speak. The picture is redone with the plain plaster wall behind his head and the same ordinary daylight falling on him as on everyone else in the room. Everything else in the scene is the same, and the new picture is double the resolution of the old one. \u2014 new picture(s): s3-stand-forth.jpeg"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "56": [
@@ -1165,11 +1333,19 @@
   {
    "date": "2026-07-22",
    "note": "The picture where he is given back to his mother is redone \u2014 you were right on both counts. Proof before: I put the two pictures side by side. In \"he sat up\" the son is a clean-shaven boy of about twenty and his mother is a dark-haired woman in her forties; in the very next picture he had a full beard and looked nearly thirty, and she had turned into an old woman with a lined face and grey hair. He looked like he rose from the dead and grew a beard on the way up, exactly as you said. Fix: I cut reference pictures of the correct son and the correct mother out of the earlier frames and regenerated the picture with both of them attached and locked \u2014 no beard, no stubble, still in his grave linen; she stays middle-aged with dark hair in her same grey-blue shawl. Proof after: the new picture shows the same two people from the earlier frames, one moment later. \u2014 new picture(s): MOTHER-REF.jpeg, SON-REF.jpeg, s8-gave-him-to-his-mother.jpeg"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "58": [
   {
    "date": "2026-07-21",
+   "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
    "note": "narration re-recorded; build script updated"
   }
  ],
@@ -1183,11 +1359,19 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "61": [
   {
    "date": "2026-07-21",
+   "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
    "note": "narration re-recorded; build script updated"
   }
  ],
@@ -1199,23 +1383,39 @@
   {
    "date": "2026-07-22",
    "note": "Fixed \"Siloam\" \u2014 it was being read as \"saloon.\" Now says sih-LOH-am correctly in all three spots (the command and both narration lines). Verified in the rebuilt audio. Caption still shows the true KJV \"Siloam.\" \u2014 narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "64": [
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "68": [
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded"
   }
  ],
  "69": [
   {
    "date": "2026-07-21",
+   "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
    "note": "narration re-recorded; build script updated"
   }
  ],
@@ -1245,6 +1445,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "76": [
@@ -1263,11 +1467,19 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "79": [
   {
    "date": "2026-07-21",
+   "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
    "note": "narration re-recorded; build script updated"
   }
  ],
@@ -1280,6 +1492,10 @@
  "82": [
   {
    "date": "2026-07-21",
+   "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
    "note": "narration re-recorded; build script updated"
   }
  ],
@@ -1297,11 +1513,19 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "85": [
   {
    "date": "2026-07-21",
+   "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
    "note": "narration re-recorded; build script updated"
   }
  ],
@@ -1313,17 +1537,33 @@
   {
    "date": "2026-07-21",
    "note": "VERIFIED already fixed, no rebuild: whisper on the last 18s of the current cut \u2014 the closing words 'You're invited to worship too' end 2.0s before the video ends (2:50 total). The 13 extra seconds are gone, and build.py's end-hold constant is fixed at the source so a re-render cannot bring them back."
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "87": [
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "88": [
   {
    "date": "2026-07-21",
+   "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
    "note": "narration re-recorded; build script updated"
   }
  ],
@@ -1335,6 +1575,10 @@
   {
    "date": "2026-07-21",
    "note": "VERIFIED already fixed, no rebuild: all 8 pictures in the current cut eyeballed one by one plus frames sampled across the video \u2014 Jesus wears his full cream robe in every scene including the kneeling/washing and drying beats; no bare torso anywhere. The shirtless picture is not in this cut."
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "91": [
@@ -1347,23 +1591,39 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "94": [
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded"
   }
  ],
  "95": [
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "96": [
   {
    "date": "2026-07-21",
+   "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
    "note": "narration re-recorded; build script updated"
   }
  ],
@@ -1377,11 +1637,19 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded"
   }
  ],
  "97": [
   {
    "date": "2026-07-21",
+   "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
    "note": "narration re-recorded; build script updated"
   }
  ],
@@ -1389,11 +1657,19 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "122": [
   {
    "date": "2026-07-21",
+   "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
    "note": "narration re-recorded; build script updated"
   }
  ],
@@ -1401,6 +1677,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "124": [
@@ -1411,30 +1691,50 @@
   {
    "date": "2026-07-22",
    "note": "Pronunciation fix that had been silently thrown away is now actually in the video. What went wrong: this video's script never told the pronunciation list WHICH voice was speaking, so every correction that only applies to one voice was worked out and then dropped on the floor \u2014 \"maketh\" was being spoken \"mocketh\". This was true in 175 of the 200 videos, so it has been fixed at the source in all of them, not just this one. Proof: the re-recorded line now contains the corrected spelling and transcribes back as the right word. \u2014 narration re-recorded"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "125": [
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "126": [
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "127": [
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "129": [
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "130": [
@@ -1475,6 +1775,10 @@
   {
    "date": "2026-07-22",
    "note": "Pronunciation fix that had been silently thrown away is now actually in the video. What went wrong: this video's script never told the pronunciation list WHICH voice was speaking, so every correction that only applies to one voice was worked out and then dropped on the floor \u2014 \"Stephen\" was not getting its corrected pronunciation. This was true in 175 of the 200 videos, so it has been fixed at the source in all of them, not just this one. Proof: the re-recorded line now contains the corrected spelling and transcribes back as the right word. \u2014 narration re-recorded"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "NEW BUILD (2026-07-21, Machine A): the swapped story for row 137 \u2014 \"One, as we"
   }
  ],
  "140": [
@@ -1505,17 +1809,29 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "159": [
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "162": [
   {
    "date": "2026-07-21",
+   "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
    "note": "narration re-recorded; build script updated"
   }
  ],
@@ -1523,6 +1839,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "168": [
@@ -1559,6 +1879,10 @@
   {
    "date": "2026-07-22",
    "note": "Pronunciation fix that had been silently thrown away is now actually in the video. What went wrong: this video's script never told the pronunciation list WHICH voice was speaking, so every correction that only applies to one voice was worked out and then dropped on the floor \u2014 \"Stephen\" was not getting its corrected pronunciation. This was true in 175 of the 200 videos, so it has been fixed at the source in all of them, not just this one. Proof: the re-recorded line now contains the corrected spelling and transcribes back as the right word. \u2014 narration re-recorded"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "180": [
@@ -1571,6 +1895,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "183": [
@@ -1605,11 +1933,19 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "193": [
   {
    "date": "2026-07-21",
+   "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
    "note": "narration re-recorded; build script updated"
   }
  ],
@@ -1623,6 +1959,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "197": [
@@ -1635,6 +1975,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ],
  "113": [
@@ -1657,6 +2001,136 @@
   {
    "date": "2026-07-22",
    "note": "new picture(s): s1-evening-shore.jpeg, s2-little-ships.jpeg, s2b-four-at-the-oars.jpeg, s3-the-storm.jpeg, s3b-boat-filling.jpeg, s4-asleep-in-stern.jpeg; narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
+  }
+ ],
+ "12": [
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded"
+  }
+ ],
+ "116": [
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
+  }
+ ],
+ "128": [
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
+  }
+ ],
+ "136": [
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
+  }
+ ],
+ "152": [
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
+  }
+ ],
+ "156": [
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
+  }
+ ],
+ "161": [
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded"
+  }
+ ],
+ "170": [
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded"
+  }
+ ],
+ "186": [
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
+  }
+ ],
+ "103": [
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
+  }
+ ],
+ "105": [
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
+  }
+ ],
+ "106": [
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
+  }
+ ],
+ "114": [
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
+  }
+ ],
+ "115": [
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
+  }
+ ],
+ "117": [
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
+  }
+ ],
+ "120": [
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
+  }
+ ],
+ "158": [
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
+  }
+ ],
+ "165": [
+  {
+   "date": "2026-07-23",
+   "note": "narration re-recorded; build script updated"
+  }
+ ],
+ "101": [
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
+  }
+ ],
+ "102": [
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
+  }
+ ],
+ "104": [
+  {
+   "date": "2026-07-23",
+   "note": "re-rendered (audio + captions)"
   }
  ]
 }

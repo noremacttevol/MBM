@@ -69,7 +69,7 @@ SEGMENTS = [
     ("n2", NARRATOR, "But Thomas wasn't there. And when they told him what they had seen, he would not have it."),
     # John 20:25
     ("s25", SCRIPTURE, "Except I shall see in his hands the print of the nails, and put my finger into the print of the nails, and thrust my hand into his side, I will not believe."),
-    ("n2b", NARRATOR, "Unless I see the nail marks in his hands, he said, and put my finger where the nails went, and my hand into his side — I will not believe it. He did not just doubt. He named the exact proof he would need."),
+    ("n2b", NARRATOR, "He did not just doubt. He named the exact proof he would need."),
     ("n3", NARRATOR, "It was eight days later when Jesus appeared again — and he turned straight to Thomas, and offered him that exact proof, in almost the same words Thomas had used."),
     # John 20:27
     ("j2", JESUS, "Reach hither thy finger, and behold my hands; and reach hither thy hand, and thrust it into my side: and be not faithless, but believing."),

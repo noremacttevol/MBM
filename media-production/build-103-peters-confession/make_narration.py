@@ -58,7 +58,7 @@ SEGMENTS = [
     ("n2", NARRATOR, "It was an easy question at first. What are people saying? And they had plenty of answers ready."),
     # Matthew 16:14
     ("s14", SCRIPTURE, "Some say that thou art John the Baptist: some, Elias; and others, Jeremias, or one of the prophets."),
-    ("n3", NARRATOR, "Some say Elijah come back. Others, Jeremiah, or one of the old prophets. All respectful. All safe. All second-hand — what other people thought."),
+    ("n3", NARRATOR, "Some say you are John the Baptist, they told him. Some say Elijah come back. Others, Jeremiah, or one of the old prophets. All respectful. All safe. All second-hand — what other people thought."),
     # Matthew 16:15
     ("jv15", JESUS, "But whom say ye that I am?"),
     ("n4", NARRATOR, "And there it was. Not what have you heard. Not what is the crowd saying. But you — who do you say that I am? The question stopped them cold. This one you cannot borrow from anybody else."),
@@ -68,7 +68,7 @@ SEGMENTS = [
     ("n5", NARRATOR, "Not a prophet. Not a teacher. Peter said out loud the thing the others had only half-dared to hope."),
     # Matthew 16:17
     ("jv17", JESUS, "Blessed art thou, Simon Barjona: for flesh and blood hath not revealed it unto thee, but my Father which is in heaven."),
-    ("n6", NARRATOR, "You did not work this out on your own, Jesus told him. This kind of knowing does not come from clever thinking. It is given, quietly, from God, to a heart ready to receive it."),
+    ("n6", NARRATOR, "You did not work this out on your own, Jesus told him. My Father in heaven showed it to you. This kind of knowing does not come from clever thinking. It is given, quietly, from God, to a heart ready to receive it."),
     # Matthew 16:18
     ("jv18", JESUS, "And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it."),
     ("n7", NARRATOR, "On this — on knowing who he really is — he would build something that hell itself could never tear down. Everything else in the gospel is built on top of this one answer."),

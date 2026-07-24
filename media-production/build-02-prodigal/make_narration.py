@@ -25,7 +25,7 @@ SEGMENTS = [
     ("n0", NARRATOR, "When religious men complained that Jesus spent his time with sinners, he didn't argue with them. He answered with a story, about a father and his two sons."),
     ("n1", NARRATOR, "The younger son asked for his inheritance early — as if to say he wished his father were already dead. Then he left, and poured it all out on a life that emptied him."),
     ("n2", NARRATOR, "When the money was gone, a famine came. He ended up feeding pigs, so hungry he would have eaten what they ate. And there, in the mud, he came to his senses."),
-    ("n3", NARRATOR, "So he started walking home, rehearsing a speech the whole way."),
+    ("n3", NARRATOR, "So he started walking home, rehearsing a speech the whole way. Father, I am not worthy to be called your son. Make me one of your servants."),
     # Luke 15:18-19
     ("j3", JESUS, "I will arise and go to my father, and will say unto him, Father, I have sinned against heaven, and before thee, And am no more worthy to be called thy son: make me as one of thy hired servants."),
     ("n4", NARRATOR, "He was still a long way off... when his father saw him."),

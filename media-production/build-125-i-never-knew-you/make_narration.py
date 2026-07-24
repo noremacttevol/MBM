@@ -58,7 +58,7 @@ SEGMENTS = [
     ("n2", NARRATOR, "Lord, they will say, didn't we prophesy in your name? Didn't we drive out devils in your name? Didn't we do all kinds of wonderful works in your name? Listen to what is missing from that list. Every single sentence is about what they did. Not one of them is about him."),
     # Matthew 7:23
     ("j3", JESUS, "And then will I profess unto them, I never knew you: depart from me, ye that work iniquity."),
-    ("n3", NARRATOR, "He is not weighing the size of anyone's list. He is asking whether we ever really walked with him. And this is not a threat to scare you. It is an invitation to be known — to walk with him, not just speak his name."),
+    ("n3", NARRATOR, "I never knew you. Not, I never heard of your works — I never knew you. He is not weighing the size of anyone's list. He is asking whether we ever really walked with him. And this is not a threat to scare you. It is an invitation to be known — to walk with him, not just speak his name."),
     ("card", NARRATOR, "He wants to know you, not just be named by you. Come close, and let him know you."),
 ]
 

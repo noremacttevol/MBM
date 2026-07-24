@@ -56,10 +56,10 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, "In Jerusalem there was a man who begged at his same spot every day, because he had been blind since the day he was born. He had never seen his mother's face. Never seen morning. And as Jesus and his disciples passed by, the disciples asked him:"),
+    ("n0", NARRATOR, "He had never seen his mother's face. Never seen morning. And as Jesus and his disciples passed by, the disciples asked him:"),
     # John 9:2
     ("s2", SCRIPTURE, "Master, who did sin, this man, or his parents, that he was born blind?"),
-    ("n0b", NARRATOR, "Who sinned, Teacher — this man, or his parents — for him to be born blind? Notice they did not ask whether somebody was at fault. They asked which one. It was the question everyone in that world assumed had an answer."),
+    ("n0b", NARRATOR, "Notice they did not ask whether somebody was at fault. They asked which one. It was the question everyone in that world assumed had an answer."),
     ("n1", NARRATOR, "It was the standard theology of the day: if you are suffering, somebody must have earned it. People still run that math on themselves today. Jesus threw the whole equation out."),
     # John 9:3
     ("j1", JESUS, "Neither hath this man sinned, nor his parents: but that the works of God should be made manifest in him."),
@@ -85,7 +85,7 @@ SEGMENTS = [
     ("n9", NARRATOR, "You have seen him — and he is the one talking with you right now. The first face this man ever truly studied was the face of the one who gave him his eyes. And he said:"),
     # John 9:38
     ("s38", SCRIPTURE, "Lord, I believe."),
-    ("n9b", NARRATOR, "Lord, I believe — and he worshipped him, right there in the street the religious world had just thrown him out of. The question of whose fault it was never got an answer that day. The man got something better. He got found."),
+    ("n9b", NARRATOR, "The question of whose fault it was never got an answer that day. The man got something better. He got found."),
     ("card", NARRATOR, "You may never get the why for what you carry. But when the world shuts you out, he comes and finds you."),
 ]
 

@@ -55,7 +55,7 @@ SEGMENTS = [
     ("n2", NARRATOR, "He knocked on the door in the dark, and the first thing he said was this."),
     # John 3:2
     ("s2", SCRIPTURE, "Rabbi, we know that thou art a teacher come from God: for no man can do these miracles that thou doest, except God be with him."),
-    ("n2b", NARRATOR, "Bible students notice one small word there — we. Not I. We know. Nicodemus had been talking with other rulers, quietly, behind closed doors. Some of the very men who opposed Jesus in public already believed it in private. He just couldn't say it in daylight."),
+    ("n2b", NARRATOR, "Teacher, we know you have come from God, because no one could do what you do unless God were with him. Bible students notice one small word there — we. Not I. We know. Nicodemus had been talking with other rulers, quietly, behind closed doors. Some of the very men who opposed Jesus in public already believed it in private. He just couldn't say it in daylight."),
     ("n3a", NARRATOR, "And Jesus didn't turn him away for coming at night. He didn't point out the fear. He skipped past the compliment entirely, and answered the real question underneath — the one Nicodemus hadn't dared to ask."),
     # John 3:3
     ("j1", JESUS, "Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God."),

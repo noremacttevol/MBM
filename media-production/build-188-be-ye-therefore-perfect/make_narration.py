@@ -46,7 +46,7 @@ SEGMENTS = [
     ("n0", NARRATOR, "Jesus sat on the hillside and taught the crowds a kind of love they had never heard before — not just for friends, but for enemies too."),
     # Matthew 5:44
     ("j1", JESUS, "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you;"),
-    ("n0b", NARRATOR, "Do good to the ones who hate you, and pray for the people who use you badly. Not put up with them. Not stay out of their way. Love them, and mean it."),
+    ("n0b", NARRATOR, "Love your enemies, he said. Bless the ones who curse you. Do good to the ones who hate you, and pray for the people who use you badly. Not put up with them. Not stay out of their way. Love them, and mean it."),
     # Matthew 5:45
     ("j2", JESUS, "That ye may be the children of your Father which is in heaven: for he maketh his sun to rise on the evil and on the good, and sendeth rain on the just and on the unjust."),
     ("n1", NARRATOR, "The point was simple and hard at once — God's kindness falls on everyone, the grateful and the cruel alike."),

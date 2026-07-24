@@ -38,12 +38,12 @@ from mbm_speakers import NARRATOR, SCRIPTURE
 # string handed to the TTS is respelled.
 SEGMENTS = [
     ("n1", NARRATOR, "A wave of faith had swept through Samaria. Whole crowds had heard the good news, believed it with glad hearts, and been baptized in water. Something real and joyful was happening among them."),
-    ("n2", NARRATOR, "And notice their response: they did not simply send a letter of congratulations. They sent two of their own number, Peter and John, to go down in person."),
+    ("n2", NARRATOR, "Word of it reached the apostles back in Jerusalem. And notice their response: they did not simply send a letter of congratulations. They sent two of their own number, Peter and John, to go down in person."),
     # Acts 8:14
     ("kv14", SCRIPTURE, "Now when the apostles which were at Jerusalem heard that Samaria had received the word of God, they sent unto them Peter and John:"),
     # Acts 8:15
     ("s15", SCRIPTURE, "Who, when they were come down, prayed for them, that they might receive the Holy Ghost:"),
-    ("n3", NARRATOR, "When the two arrived, they prayed over the new believers, asking that they might receive the Holy Ghost. And here is the surprising part: even though these people already believed, and had already been baptized, the gift had not yet come to a single one of them."),
+    ("n3", NARRATOR, "And here is the surprising part: even though these people already believed, and had already been baptized, the gift had not yet come to a single one of them."),
     # Acts 8:16
     ("s16", SCRIPTURE, "For as yet he was fallen upon none of them: only they were baptized in the name of the Lord Jesus."),
     ("n4", NARRATOR, "So the water alone had not been enough. Their faith was sincere and their baptism was real, yet the promised gift of the Spirit still waited on something more — on the hands of those God had given authority."),

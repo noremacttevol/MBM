@@ -43,7 +43,6 @@ from mbm_speakers import NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, "Paul asked a striking question: if the dead don't rise at all, why would anyone be baptized on their behalf?"),
     # 1 Corinthians 15:29
     ("s1", SCRIPTURE, "Else what shall they do which are baptized for the dead, if the dead rise not at all? why are they then baptized for the dead?"),
     ("n1", NARRATOR, "The only reason to do such a thing is the quiet hope that the dead are not gone forever."),

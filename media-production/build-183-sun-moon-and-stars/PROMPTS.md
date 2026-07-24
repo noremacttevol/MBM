@@ -68,5 +68,3 @@ hold more than one kind of glory. Reach for the brightest — you were made for
 light."
 Plus the small one-line Gospel Library pointer (build-161 pattern):
 GL_POINTER = "Learn more — Gospel Library: Degrees of Glory"
-
-CHARACTER-REF-EXEMPT: paul (1 Cor 15:41 is Paul's analogy; the 7 beats paint sky/sun/moon/stars only)

@@ -49,11 +49,12 @@ purpose, not by oversight.
 WHY-LAW: the son who said no and went is the one who did his father's will. Milk
 framing - God reads what you actually do, and a late yes still counts.
 """
-import asyncio
 import os
 
-from mbm_caption_timing import save_speaker_narration
-from mbm_pronounce import audit, spoken_text
+# ELEVENLABS ENGINE (2026-07-24): the voice comes from mbm_eleven — the locked
+# cast (Brian/Chris/Bill/Roger/Matilda). The old edge-tts path and pronunciation
+# respellings are retired; ElevenLabs owns pronunciation (eleven_spoken_text).
+from mbm_eleven import eleven_spoken_text, render_segment
 from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 
 # (id, speaker, caption_text). The caption always shows this exact text; only the
@@ -91,16 +92,12 @@ SEGMENTS = [
 SPOKEN = {}
 
 
-async def main():
+def main():
     os.makedirs("audio", exist_ok=True)
     for name, speaker, text in SEGMENTS:
-        flagged = [w for w in audit(text) if w not in SPOKEN]
-        if flagged:
-            print(f"  ! {name}: undecided homograph(s) {flagged}")
-        await save_speaker_narration(spoken_text(text, SPOKEN, speaker), speaker,
-                                     f"audio/{name}.mp3")
-        print(f"saved audio/{name}.mp3  [{speaker}]")
+        render_segment(eleven_spoken_text(text), speaker, f"audio/{name}.mp3")
+        print(f"saved audio/{name}.mp3  [{speaker}] (ElevenLabs)")
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()

@@ -59,7 +59,7 @@ SEGMENTS = [
     ("n5", NARRATOR, "And then, if we are honest, the moment finally comes when we catch sight of the beam. Not his. Ours. The one we had been carrying the whole time."),
     # Matthew 7:5
     ("jvB", JESUS, "Thou hypocrite, first cast out the beam out of thine own eye; and then shalt thou see clearly to cast out the mote out of thy brother's eye."),
-    ("n6", NARRATOR, "Take the beam out of your own eye first, he said, and then you will see clearly enough to help your brother with his speck. Notice he does not say ignore your brother's speck. He says deal with your own beam first — and then you will actually be able to help him, gently, instead of just condemning him."),
+    ("n6", NARRATOR, "Notice he does not say ignore your brother's speck. He says deal with your own beam first — and then you will actually be able to help him, gently, instead of just condemning him."),
     ("n7", NARRATOR, "The goal was never to stop caring about each other. It was to come to each other humble instead of superior — as one flawed person helping another, not a judge passing a sentence."),
     ("n8", NARRATOR, "The measure you use is the measure you will get back. So Jesus offers a better one: mercy. Deal honestly with yourself, and you will be amazed how much patience you suddenly have for everyone else."),
     ("card", NARRATOR, "Jesus was not telling us to stop seeing clearly — he was telling us where to start: with the beam in our own eye. Deal with that, and our eyes for other people fill with mercy instead of judgment. Whose speck have you been watching, while a beam waited in your own eye?"),

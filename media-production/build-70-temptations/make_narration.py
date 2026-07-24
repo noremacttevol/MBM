@@ -78,7 +78,7 @@ SEGMENTS = [
     ("n5b", NARRATOR, "All of it, yours, right now — one bow, to me. It was the crown without the cross. Everything he came to win, offered as a shortcut with only one small condition: worship the wrong king."),
     # Matthew 4:10
     ("j3", JESUS, "Get thee hence, Satan: for it is written, Thou shalt worship the Lord thy God, and him only shalt thou serve."),
-    ("n6a", NARRATOR, "Get away from me. He did not haggle with the offer, and he did not admire it. He named it and ended it."),
+    ("n6a", NARRATOR, "Get away from me. Worship the Lord your God, and serve him only. He did not haggle with the offer, and he did not admire it. He named it and ended it."),
     # Matthew 4:11
     ("s11", SCRIPTURE, "Then the devil leaveth him, and, behold, angels came and ministered unto him."),
     ("n6", NARRATOR, "And it was over. The devil left him — for a season. And angels came and ministered to him, the way dawn comes after the longest night. Bread, after the fast. Company, after the silence. His Father had not been absent for one minute of it — he had been trusted."),

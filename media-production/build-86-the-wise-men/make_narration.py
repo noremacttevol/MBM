@@ -61,7 +61,7 @@ SEGMENTS = [
     ("n0", NARRATOR, "Some time after Jesus was born, travelers came from the east — scholars who had read the skies. They had seen his star, and followed it all the way to Jerusalem, where they walked into the king's hall and asked a dangerous question."),
     # Matthew 2:2
     ("j1", SCRIPTURE, "Where is he that is born King of the Jews? for we have seen his star in the east, and are come to worship him."),
-    ("n0b", NARRATOR, "Understand what they had just done. They asked the sitting king of Jerusalem to point them to the real one."),
+    ("n0b", NARRATOR, "Where is the one who has been born King of the Jews? We saw his star in the east, and we have come to worship him. Understand what they had just done. They asked the sitting king of Jerusalem to point them to the real one."),
     ("n1", NARRATOR, "Herod was frightened, and he was clever about it. He sent them on to Bethlehem with an errand of his own:"),
     # Matthew 2:8
     ("s8", SCRIPTURE, "Go and search diligently for the young child; and when ye have found him, bring me word again, that I may come and worship him also."),
@@ -71,7 +71,7 @@ SEGMENTS = [
     ("n3", NARRATOR, "The wise men knelt before the little child — everything their long journey had been for. Matthew writes it down like this:"),
     # Matthew 2:11
     ("j2", SCRIPTURE, "And when they were come into the house, they saw the young child with Mary his mother, and fell down, and worshipped him: and when they had opened their treasures, they presented unto him gifts; gold, and frankincense, and myrrh."),
-    ("n3b", NARRATOR, "Then they opened up what they had carried across the world and gave it to him — gold, and frankincense, and myrrh. They had crossed a desert to kneel on a dirt floor in a village nobody had heard of."),
+    ("n3b", NARRATOR, "They came into the house, they saw the little boy with his mother Mary, and they went straight down on the floor and worshipped him. Then they opened up what they had carried across the world and gave it to him — gold, and frankincense, and myrrh. They had crossed a desert to kneel on a dirt floor in a village nobody had heard of."),
     ("n4a", NARRATOR, "God warned them in a dream not to go back to Herod. So they went home another way, and the king never got his answer."),
     ("n4b", NARRATOR, "The nations had come to bow to the King."),
     ("card", NARRATOR, "Strangers from far away recognized him first. The door is open — you're invited to worship too."),

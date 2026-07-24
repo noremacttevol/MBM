@@ -32,7 +32,7 @@ SEGMENTS = [
     ("n0", NARRATOR, "When Jesus wanted to show how God feels about one lost soul, he didn't talk about crowds. He told this story."),
     # Luke 15:8
     ("jv8", JESUS, "Either what woman having ten pieces of silver, if she lose one piece, doth not light a candle, and sweep the house, and seek diligently till she find it?"),
-    ("n1", NARRATOR, "She loses one."),
+    ("n1", NARRATOR, "A woman has ten coins. She loses one."),
     ("n2a", NARRATOR, "She lights a lamp. She sweeps the whole house."),
     ("n2b", NARRATOR, "She searches carefully — not casually, carefully — until she finds it."),
     # Luke 15:9

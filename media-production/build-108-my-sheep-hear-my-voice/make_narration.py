@@ -59,7 +59,7 @@ SEGMENTS = [
     ("n4", NARRATOR, "He leads them to green places and still water, to rest and to plenty. And when one is small or tired or hurt, he does not scold it for falling behind — he lifts it up and carries it."),
     # John 10:11
     ("jv11", JESUS, "I am the good shepherd: the good shepherd giveth his life for the sheep."),
-    ("n4b", NARRATOR, "Not a hired man who runs off when it turns dangerous — a shepherd who lays his own life down for the sheep. That is what he was willing to spend to keep them. That is what he was willing to spend to keep you."),
+    ("n4b", NARRATOR, "That is what he was willing to spend to keep them. That is what he was willing to spend to keep you."),
     ("n5", NARRATOR, "And here is the turn: the sheep are people. You. Tired, wandering, easily lost people, whom he knows by name and leads with his voice and gathers close and will not lose."),
     # John 10:28
     ("jv28", JESUS, "And I give unto them eternal life; and they shall never perish, neither shall any man pluck them out of my hand."),

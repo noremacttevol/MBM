@@ -54,9 +54,10 @@ from mbm_speakers import GOD, NARRATOR
 SEGMENTS = [
     ("n0", NARRATOR, "Job had asked God hard questions. And God answered — not with explanations, but by taking Job back to the very first morning."),
     ("n1a", NARRATOR, "Before there were people to suffer or to doubt,"),
+    ("n1b", NARRATOR, "the foundations of the earth were being laid."),
     # Job 38:4
     ("g4", GOD, "Where wast thou when I laid the foundations of the earth? declare, if thou hast understanding."),
-    ("n1r", NARRATOR, "Where were you, God asked him, when I laid the foundations of the earth? Tell me, if you know. It sounds severe until you notice what it really does — it lifts Job's eyes off his own wreckage and sets them on something older and steadier than his pain."),
+    ("n1r", NARRATOR, "Tell me, if you know. It sounds severe until you notice what it really does — it lifts Job's eyes off his own wreckage and sets them on something older and steadier than his pain."),
     ("n2", NARRATOR, "And when that happened, something astonishing broke out in the sky."),
     # Job 38:7
     ("s1", GOD, "When the morning stars sang together, and all the sons of God shouted for joy?"),
