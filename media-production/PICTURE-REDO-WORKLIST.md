@@ -53,7 +53,6 @@ The disciples are in-frame but not the whole subject; regenerate the group/crowd
 
 | ✓ | # | Build |
 |---|---|---|
-| ⬜ | 98  | build-98-mary-her-name (John) |
 | ⬜ | 163 | build-163-apostles-prophets |
 | ⬜ | 164 | build-164-unity-of-faith (apostles) |
 
