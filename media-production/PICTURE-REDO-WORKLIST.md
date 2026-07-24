@@ -53,7 +53,6 @@ The disciples are in-frame but not the whole subject; regenerate the group/crowd
 
 | ✓ | # | Build |
 |---|---|---|
-| ⬜ | 164 | build-164-unity-of-faith (apostles) |
 
 ## VERIFY BEFORE TOUCHING (borderline — open the mp4/PROMPTS first)
 153 restitution · 190 faith-without-works (Epistle of James?) · 108/134/141/142/143/144/146/159/168/172/173/174 (mostly John-citation verse cards — likely SKIP) · 62 ephphatha · 161 called-of-god.
