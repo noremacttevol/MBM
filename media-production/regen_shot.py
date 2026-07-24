@@ -54,6 +54,9 @@ def style_block(text):
         text, re.S | re.I)
     if not m:  # build-17 style: STYLE = "Beautiful hand-painted ..."
         m = re.search(r'^STYLE\s*=\s*"(.*?)"', text, re.S | re.M)
+    if not m:  # fallback: the canonical style sentence inlined in a shot (build-19)
+        m = re.search(r"(Beautiful hand-painted 2D animation style.*?No modern objects\.)",
+                      text, re.S)
     return " ".join(m.group(1).split()) if m else ""
 
 
