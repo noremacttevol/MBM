@@ -36,12 +36,13 @@ charcoal, olive — never pale, never cream; no disciple resembles the man in
 cream; every visible figure has two arms, two hands, two legs, one head, every
 limb joined to the correct body.
 
-[THOMAS LOCK] = Thomas, the same man in every picture he appears in: a lean
-Middle Eastern Jewish man of about thirty-five, angular thoughtful face, a FULL
-hairline of straight black hair cropped to the jaw, a short trimmed black beard,
-sharp questioning dark eyes, dressed in a deep indigo-charcoal wool tunic with a
-dark brown mantle (never cream). He appears EXACTLY ONCE in any frame; no other
-figure in the frame resembles him.
+[THOMAS LOCK] = Thomas, the same man in every picture he appears in and
+IDENTICAL to the attached Thomas reference portrait: a lean Middle Eastern
+Jewish man of about thirty-five, angular thoughtful face, medium-length WAVY
+dark brown-black hair falling to the jaw and neck (never a flat straight
+bowl-cut), a FULL dark beard, warm thoughtful dark-brown eyes, dressed in a deep
+indigo-charcoal wool tunic with a dark brown mantle (never cream). He appears
+EXACTLY ONCE in any frame; no other figure in the frame resembles him.
 
 ---
 
