@@ -135,6 +135,56 @@ def check_voice_and_complete(bdir, segs):
     return fails
 
 
+def clip_duration(path):
+    r = subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+         "-of", "csv=p=0", path], capture_output=True, text=True)
+    try:
+        return float(r.stdout.strip())
+    except ValueError:
+        return 0.0
+
+
+def check_render_fresh(bdir, segs, mp4):
+    """The clips can all be new ElevenLabs while the SHIPPED mp4 is a stale OLD
+    render that was never rebuilt from them — exactly how #200 slipped through with
+    the old voice (its mp4 ran 65s while the new trimmed clips total 40s). The mp4
+    always runs a little longer than the raw clips (card hold + tiny gaps), but it
+    can NEVER contain many seconds of audio that aren't in the current clips. If it
+    does, it's an old cut carrying content (and voice) that no longer exists in the
+    script — block it as not-re-rendered."""
+    clip_total = sum(clip_duration(os.path.join(bdir, "audio", f"{sid}.mp3"))
+                     for sid, _sp, _t in segs
+                     if os.path.exists(os.path.join(bdir, "audio", f"{sid}.mp3")))
+    if clip_total <= 0:
+        return []
+    r = subprocess.run(["ffprobe", "-v", "error", "-show_entries",
+                        "format=duration", "-of", "csv=p=0", mp4],
+                       capture_output=True, text=True)
+    try:
+        mp4_dur = float(r.stdout.strip())
+    except ValueError:
+        return ["STALE RENDER: cannot read the mp4's duration"]
+    unaccounted = mp4_dur - clip_total
+    # A FRESH render is only longer than its raw clips by the card hold plus the
+    # small gap between segments. Anything past that budget is audio the current
+    # clips can't explain — i.e. an OLD render still carrying the echo/scripture
+    # lines that were trimmed out of the new script (and, with them, the old
+    # voice). Budget: ~5s card + ~0.9s per segment gap. Measured against real
+    # fresh cuts (#87: 12s over 12 segs, inside budget) and a known stale one
+    # (#200: 25s over 9 segs, well past budget).
+    budget = 5.0 + 0.9 * len(segs)
+    if unaccounted > budget:
+        return [f"STALE RENDER: mp4 is {mp4_dur:.0f}s but the current clips total "
+                f"only {clip_total:.0f}s — {unaccounted:.0f}s of audio the new clips "
+                f"can't explain (budget {budget:.0f}s). It's an OLD render, not "
+                f"rebuilt from the new voice; rebuild it"]
+    if unaccounted < -3:
+        return [f"STALE RENDER: mp4 is {mp4_dur:.0f}s but the clips total "
+                f"{clip_total:.0f}s — the mp4 is missing narration; rebuild it"]
+    return []
+
+
 def check_script_echo(segs):
     """Zero narrator-repeats-scripture pairs in the written transcript."""
     bad = []
@@ -222,6 +272,7 @@ def gate(bdir, fast=False):
         reasons.append("SCRIPT: make_narration.py has no readable SEGMENTS")
     else:
         reasons += check_voice_and_complete(bdir, segs)
+        reasons += check_render_fresh(bdir, segs, mp4)
         reasons += check_script_echo(segs)
 
     whisper_ran = False
