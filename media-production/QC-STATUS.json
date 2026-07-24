@@ -257,8 +257,7 @@
   "mp4": "acts-7_stephen-sees-him-standing.mp4",
   "pass": false,
   "reasons": [
-   "COMPLETE: 5 segment(s) have no audio clip: n0a, n0b, s1, n2b, card",
-   "STALE RENDER: mp4 is 72s but the current clips total only 30s \u2014 42s of audio the new clips can't explain (budget 12s). It's an OLD render, not rebuilt from the new voice; rebuild it"
+   "COMPLETE: 5 segment(s) have no audio clip: n0a, n0b, s1, n2b, card"
   ],
   "whisper": false
  },
@@ -284,8 +283,7 @@
   "mp4": "luke-15_road-runs-both-ways.mp4",
   "pass": false,
   "reasons": [
-   "COMPLETE: 9 segment(s) have no audio clip: j1, j18, n3a, n3b, j20, j22, n6, j31",
-   "STALE RENDER: mp4 is 170s but the current clips total only 51s \u2014 119s of audio the new clips can't explain (budget 18s). It's an OLD render, not rebuilt from the new voice; rebuild it"
+   "COMPLETE: 9 segment(s) have no audio clip: j1, j18, n3a, n3b, j20, j22, n6, j31"
   ],
   "whisper": false
  },
