@@ -8,12 +8,14 @@ The redo loop (`admin/redo_loop.sh`) rebuilds each video to this whole standard,
 one at a time, and only ships what passes.
 
 ## VOICE
-- **L1. Jesus voice must be the approved young, warm Jesus** — a ~33-year-old man
-  who sounds like he loves the people he speaks to. NOT old, NOT rushed. (Voice being
-  re-cast 2026-07-24; set in `mbm_eleven.py` VOICE_ELEVEN once Cameron picks.)
-- **L2. Pacing honors punctuation.** No voice rushes or blows through commas. Use
-  higher stability + `"speed"` ~0.88 in VOICE_SETTINGS; add natural breaks. Every
-  re-voice sample is listened to before mass application.
+- **L1. Jesus voice = Alexander** (id `UMnEnzK9QLLdRwnUyxMW`), Cameron's pick 2026-07-24:
+  warm, grounded, a man not a boy, sounds like he loves the people he speaks to. Locked
+  in `mbm_eleven.py` VOICE_ELEVEN[JESUS]. Do not change without Cameron.
+- **L2. Pacing honors punctuation — and Jesus PAUSES like Jesus would.** All voices are
+  slowed (`speed` 0.86–0.92, higher stability) so none rush. Jesus's lines get deliberate
+  reverent pauses via `jesus_pauses()` in mbm_eleven.py — a longer breath after each
+  sentence, a gentle breath after each comma/colon (ElevenLabs `<break>` tags in ms, so
+  caption timing stays clean). Let each thought land.
 - **L3. New voice only, in the actual mp4.** Every referenced clip 44100 Hz ElevenLabs
   AND the mp4 rebuilt from those clips (render-fresh). No old edge-tts anywhere.
 
