@@ -49,7 +49,7 @@ SEGMENTS = [
     ("n1", NARRATOR, "Some very sincere, very religious men came to him with an honest question."),
     # Mark 2:18
     ("s18", SCRIPTURE, "Why do the disciples of John and of the Pharisees fast, but thy disciples fast not?"),
-    ("n1b", NARRATOR, "John's followers fasted. The Pharisees fasted. It was a fair question, asked plainly."),
+    ("n1b", NARRATOR, "John's followers fasted. The Pharisees fasted. So why, they asked, did his own disciples not fast like everyone else? It was a fair question, asked plainly."),
     ("n2", NARRATOR, "Fasting was how you showed God you were serious. These were good men, going hungry to draw close to him. And here were his disciples, not fasting at all. It looked careless. His answer was not what they expected."),
     # Mark 2:19
     ("jv19", JESUS, "Can the children of the bridechamber fast, while the bridegroom is with them? as long as they have the bridegroom with them, they cannot fast."),

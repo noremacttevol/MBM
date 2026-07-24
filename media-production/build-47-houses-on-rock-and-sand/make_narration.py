@@ -48,7 +48,7 @@ SEGMENTS = [
     ("n4", NARRATOR, "He digs. Down through the loose soil, all the way to bedrock, and he lays his foundation on the stone. It is slow, hard work, and when he is done not one person will ever see it. The whole house depends on the part nobody can see."),
     # Matthew 7:24
     ("jv24", JESUS, "Therefore whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which built his house upon a rock."),
-    ("n5", NARRATOR, "His house goes up on the rock. It takes longer. And for a while, in the good weather, it does not look one bit better than any other house on the plain."),
+    ("n5", NARRATOR, "It takes longer. And for a while, in the good weather, it does not look one bit better than any other house on the plain."),
     # Matthew 7:25
     ("jv25", JESUS, "And the rain descended, and the floods came, and the winds blew, and beat upon that house; and it fell not: for it was founded upon a rock."),
     ("n6", NARRATOR, "The storm hit it with everything, and the house did not even move. Because of what was underneath it."),

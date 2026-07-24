@@ -97,3 +97,7 @@ REF: s8-new-wine-bursts
 JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.
 REF: jesus-master-ref
 [STILL STYLE BLOCK] The sunlit stone courtyard again in warm clear morning light, the answer just given. Jesus stands facing the same earnest men — the Pharisees in deep indigo-blue and dark maroon with prayer-fringes, the lean disciples of John in dun and faded brown — but their questioning has softened into wonder now, their faces painted fully and clearly, beginning to understand that something entirely new has come. Not one of them wears off-white or cream, and no second man wears a cream robe. Warm morning light on pale stone, open sky above. Every figure has two arms, two hands, two legs and one head. One single continuous scene painted edge to edge.
+
+CHARACTER-REF-EXEMPT: john-beloved (paints disciples of John the BAPTIST (Mark 2:18); the apostle John is not here)
+
+CHARACTER-REF-EXEMPT: john-the-baptist (only his disciples are painted, Mark 2:18; the Baptist himself is not in any shot)
