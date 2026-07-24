@@ -192,11 +192,9 @@
   "whisper": false
  },
  "128": {
-  "mp4": "",
-  "pass": false,
-  "reasons": [
-   "PLAYABLE: no finished scripture-named mp4 in the build folder"
-  ],
+  "mp4": "amos-8_famine-of-hearing.mp4",
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "129": {
@@ -984,11 +982,9 @@
   "whisper": false
  },
  "65": {
-  "mp4": "",
-  "pass": false,
-  "reasons": [
-   "PLAYABLE: no finished scripture-named mp4 in the build folder"
-  ],
+  "mp4": "mark-9_help-mine-unbelief.mp4",
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "66": {
@@ -998,11 +994,9 @@
   "whisper": false
  },
  "67": {
-  "mp4": "",
-  "pass": false,
-  "reasons": [
-   "PLAYABLE: no finished scripture-named mp4 in the build folder"
-  ],
+  "mp4": "mark-9_the-transfiguration.mp4",
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "68": {
