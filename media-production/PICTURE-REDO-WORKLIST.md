@@ -53,7 +53,6 @@ The disciples are in-frame but not the whole subject; regenerate the group/crowd
 
 | ✓ | # | Build |
 |---|---|---|
-| ⬜ | 163 | build-163-apostles-prophets |
 | ⬜ | 164 | build-164-unity-of-faith (apostles) |
 
 ## VERIFY BEFORE TOUCHING (borderline — open the mp4/PROMPTS first)
