@@ -513,7 +513,10 @@ def card_html(num, title, scrip, length, rel, hashval, newvoice=False, fixnote=N
 
 
 def main():
-    approved_nums = set(load_approvals().keys())  # never hide an approved video
+    # never hide an approved video — but ONLY a real approval (has content). Empty
+    # {} rows in approvals.json (sync artifacts) were letting old-voice videos
+    # bypass the QC gate on 2026-07-24 (#87/#121/#151/#170).
+    approved_nums = {k for k, v in load_approvals().items() if v}
     qc = load_qc()
     qc_pass = {n for n, v in qc.items() if v.get("pass")}  # content-verified good
     newvoice = qc_pass  # the badge now means "QC-verified", not "committed recently"

@@ -111,6 +111,27 @@ def check_playable(mp4):
     return []
 
 
+def check_engine(bdir):
+    """THE 2026-07-24 DISCOVERY that ended the sample-rate lie: every build's
+    make_narration.py still calls the OLD edge-tts engine (via mbm_caption_timing's
+    save_speaker_narration -> edge_tts.Communicate). The '44100 Hz = ElevenLabs'
+    assumption was defeated because re-encoded edge-tts clips are also 44100, and a
+    voice-fingerprint comparison confirmed the 'new' audio is the SAME old voice.
+    The only trustworthy signal is the generator itself: a build's narration is the
+    new voice ONLY if its make_narration.py actually calls the ElevenLabs module
+    (mbm_eleven). No mbm_eleven call = old voice by construction = block."""
+    mn = os.path.join(bdir, "make_narration.py")
+    try:
+        src = open(mn, encoding="utf-8", errors="replace").read()
+    except OSError:
+        return ["ENGINE: make_narration.py missing"]
+    if not re.search(r"\bmbm_eleven\b|\belevenlabs\b", src, re.I):
+        return ["ENGINE: make_narration.py still uses the OLD edge-tts voice engine "
+                "(no mbm_eleven/ElevenLabs call) — the audio is the old voice by "
+                "construction, whatever its sample rate says"]
+    return []
+
+
 def check_voice_and_complete(bdir, segs):
     """Every spoken clip the build USES must exist and be 44100 Hz."""
     fails = []
@@ -271,6 +292,7 @@ def gate(bdir, fast=False):
     if not segs:
         reasons.append("SCRIPT: make_narration.py has no readable SEGMENTS")
     else:
+        reasons += check_engine(bdir)
         reasons += check_voice_and_complete(bdir, segs)
         reasons += check_render_fresh(bdir, segs, mp4)
         reasons += check_script_echo(segs)
