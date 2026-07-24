@@ -4,8 +4,10 @@
 > `media-production/TRANSCRIPTS/`. Start voicing.** All narrator-echo repeats are gone
 > (`python3 media-production/echo_scan.py` → TOTAL echo pairs: 0); 200 clean speaker-tagged
 > transcripts (`TRANSCRIPTS/*.json`), one per row; edited builds had their `.eleven-done`/
-> `.audio-eleven-done` markers dropped so they re-voice. (Two swaps are still DRAFTS awaiting
-> stills: #44 → Pentecost, #128 → Mark 7 — see DRAFTS/.)
+> `.audio-eleven-done` markers dropped so they re-voice. **UPDATE: the two swaps now HAVE
+> transcripts too** — `TRANSCRIPTS/044-pentecost.json` and `TRANSCRIPTS/128-heart-far-from-me.json`
+> (build-44-pentecost / build-128-heart-far-from-me, stills already made by #3). #2 voice them;
+> #4 assemble + submit; retire the old build-44-two-debtors and build-128-famine-of-hearing.
 
 > 📖 **STORY LAW 2026-07-23 — READ [`STORY-LEDGER.md`](STORY-LEDGER.md) BEFORE ANY STORY
 > WORK.** New law: ONE EVENT = ONE VIDEO (never one-passage-per-video); blend multiple

@@ -96,9 +96,16 @@ def queue_titles(queue_path):
         return titles
     with open(queue_path) as f:
         for line in f:
+            # Only the main "The 200" table (>=7 columns: #|Story|Ref|Prep|Built|
+            # Appr|Post|notes). This excludes the shorter fix-queue rows, whose 3rd
+            # column is a defect note, not the canonical story (they were poisoning
+            # the canonical-folder pick — e.g. row 44 read "two debtors" instead of
+            # "Pentecost"). Last main-table row wins.
+            if line.count("|") < 7:
+                continue
             m = re.match(r"\|\s*(\d+)\s*\|\s*([^|]+?)\s*\|", line)
             if m:
-                titles.setdefault(int(m.group(1)), m.group(2).strip().strip('"'))
+                titles[int(m.group(1))] = m.group(2).strip().strip('"')
     return titles
 
 
@@ -163,6 +170,16 @@ def main():
                 f.write(f"[{s['speaker']}] {s['text']}\n\n")
         index.append((row, slug, len(segs), words))
         exported += 1
+
+    # Prune stale per-row transcripts (e.g. a row whose canonical slug changed
+    # after a story swap — the old slug's files must not linger for #2 to voice).
+    keep = {f"{row:03d}-{slug}" for row, slug, _, _ in index}
+    if not only:  # only prune on a full export
+        for p in glob.glob(os.path.join(OUT, "*.json")) + glob.glob(os.path.join(OUT, "*.txt")):
+            stem = os.path.splitext(os.path.basename(p))[0]
+            if re.match(r"\d{3}-", stem) and stem not in keep:
+                os.remove(p)
+                print(f"pruned stale transcript: {os.path.basename(p)}")
 
     with open(os.path.join(OUT, "INDEX.md"), "w") as f:
         f.write("# TRANSCRIPTS INDEX — narration handed to the ElevenLabs voice "
