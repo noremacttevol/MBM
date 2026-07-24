@@ -1,285 +1,159 @@
 #!/usr/bin/env python3
-"""MBM ElevenLabs voice backend — dependency-free (stdlib only).
+"""MBM ElevenLabs narration engine — replaces edge-tts (2026-07-23 migration).
 
-Replaces edge-tts as the TTS engine while keeping every downstream contract
-identical, so none of the 204 build scripts change. See ELEVENLABS-SETUP.md.
+WHY: edge-tts (Azure neural, free) mispronounces King James English and gives no
+lexicon control, so every fix was a hand-measured respelling tuned to one Azure
+voice. ElevenLabs reads archaic English far better AND supports a server-side
+pronunciation dictionary, so the whole respelling war can be replaced by one
+measured lexicon. Voices chosen by Cameron 2026-07-23 (see VOICE_ELEVEN).
 
-WHAT IT GUARANTEES (the contract mbm_caption_timing.save_narration relied on):
-  synth(text, speaker) -> (mp3_bytes, sentences)
-  where `sentences` is a list of {"text": <sentence>, "start": <sec>, "end": <sec>}
-  in SEGMENT-LOCAL seconds — byte-for-byte the same shape edge-tts produced from
-  its SentenceBoundary events. timed_windows() downstream is unchanged.
+CLEAN PRONUNCIATION LAYER: the old SAY / SAY_BY_VOICE respellings in
+mbm_pronounce.py were measured on Azure voices and must NOT be applied here — they
+would HURT ElevenLabs. Only two engine-agnostic layers carry over:
+  * PHRASES  — true orthographic splits ("to day"->"today", strip () emoticons)
+  * per-build SPOKEN overrides — homographs the sentence decides (tear/lead/wound)
+Everything else starts empty and grows ONLY from words measured to break on these
+ElevenLabs voices (round-tripped through whisper, same discipline as before).
 
-VOICE LAW: the Jesus voice must sound American, and NO "Multilingual" model may
-ever be used (edge-tts drift bug, 2026-07-08). ElevenLabs' equivalent of that ban
-is the model id: use an English-only model (default `eleven_turbo_v2`), never
-`eleven_multilingual_*`. load_config() refuses a multilingual model id.
-
-PRONUNCIATION: the old respelling dict (mbm_pronounce) is NOT used here. Archaic
-KJV words are handled by an ElevenLabs pronunciation dictionary built from the
-`lexicon` in eleven_config.json (grapheme -> IPA). It is created once and its
-locator cached back into the config, then attached to every request.
-
-Config lives in eleven_config.json next to this module (or in the parent
-media-production/ dir when this module sits inside a build folder).
+TIMING: caption timing needs real per-sentence timestamps. ElevenLabs'
+/with-timestamps endpoint returns character-level alignment; we aggregate it to
+per-sentence start/end and write the same <name>.timing.json sidecar edge-tts did,
+so mbm_caption_timing consumes it unchanged.
 """
 import base64
+import glob
 import json
 import os
 import re
-import urllib.error
-import urllib.request
 
-API_ROOT = "https://api.elevenlabs.io/v1"
-HERE = os.path.dirname(os.path.abspath(__file__))
-_PARENT = os.path.dirname(HERE)
+import requests
 
-# Same sentence split the caption timer uses, so sentence text lines up 1:1 with
-# what timed_windows() will look for later.
-_SENT_RE = re.compile(r"(?<=[.!?;:]) +")
+from mbm_speakers import NARRATOR, JESUS, GOD, SCRIPTURE, WOMAN
 
+API = "https://api.elevenlabs.io/v1"
+MODEL = "eleven_multilingual_v2"  # ElevenLabs flagship English model = the sampler Cameron approved.
 
-def _sentences(text):
-    return [p for p in _SENT_RE.split(text.strip()) if p]
+# Cameron's cast, locked 2026-07-23.
+VOICE_ELEVEN = {
+    NARRATOR:  ("Brian",   "nPczCjzI2devNBz1zQrb"),
+    JESUS:     ("Chris",   "iP95p4xoKVk53GoZ742B"),
+    GOD:       ("Bill",    "pqHfZKP75CvOlQylNhV4"),
+    SCRIPTURE: ("Roger",   "CwhRBWXzGAHq8TQ4Fs17"),
+    WOMAN:     ("Matilda", "XrExE9yKIg1WjnnlVkGX"),
+}
 
+# Reverent, steady delivery. CRITIQUE-LAW L2 (2026-07-24): the old cut RUSHED and
+# blew through commas. Higher stability + a "speed" below 1.0 slows the read and makes
+# it honor punctuation; a touch of style adds warmth without wandering. Jesus is the
+# warmest and slowest — he should sound like he loves the people he speaks to.
+VOICE_SETTINGS = {
+    NARRATOR:  {"stability": 0.55, "similarity_boost": 0.80, "style": 0.10, "use_speaker_boost": True, "speed": 0.92},
+    JESUS:     {"stability": 0.62, "similarity_boost": 0.80, "style": 0.18, "use_speaker_boost": True, "speed": 0.88},
+    GOD:       {"stability": 0.65, "similarity_boost": 0.80, "style": 0.05, "use_speaker_boost": True, "speed": 0.90},
+    SCRIPTURE: {"stability": 0.58, "similarity_boost": 0.80, "style": 0.08, "use_speaker_boost": True, "speed": 0.90},
+    WOMAN:     {"stability": 0.55, "similarity_boost": 0.80, "style": 0.12, "use_speaker_boost": True, "speed": 0.92},
+}
 
-# ----------------------------------------------------------------- config ----
-
-def config_path():
-    """eleven_config.json, found whether this module runs from media-production/
-    or from a build folder that has a copy of the config beside it."""
-    for d in (HERE, _PARENT, os.path.join(_PARENT, "media-production")):
-        p = os.path.join(d, "eleven_config.json")
-        if os.path.exists(p):
-            return p
-    return os.path.join(HERE, "eleven_config.json")
-
-
-def load_config():
-    p = config_path()
-    if not os.path.exists(p):
-        return None
-    with open(p) as f:
-        cfg = json.load(f)
-    model = (cfg.get("model_id") or "").lower()
-    if "multilingual" in model:
-        raise ValueError(
-            f"eleven_config.json model_id {cfg.get('model_id')!r} is a Multilingual "
-            "model — banned by the Voice Law. Use an English-only model "
-            "(e.g. eleven_turbo_v2).")
-    return cfg
+_SENT = re.compile(r"[^.!?]*[.!?]+|\S[^.!?]*$")
 
 
-def _save_config(cfg):
-    with open(config_path(), "w") as f:
-        json.dump(cfg, f, indent=2)
+def _key():
+    # search this module's dir and walk up to the shared media-production root,
+    # so a copy of this module inside a build folder still finds the one key.
+    d = os.path.dirname(os.path.abspath(__file__))
+    for _ in range(4):
+        f = glob.glob(os.path.join(d, "elevenlabs*KEY*.txt"))
+        if f:
+            raw = open(f[0]).read()
+            m = re.search(r"sk_[A-Za-z0-9]+", raw)   # tolerate a label/colon around the key
+            if m:
+                return m.group(0)
+            return raw.strip()
+        d = os.path.dirname(d)
+    raise RuntimeError("no ElevenLabs key file found (elevenlabs*KEY*.txt)")
 
 
-def api_key(cfg=None):
-    """Key from config or the ELEVENLABS_API_KEY env var (env wins if set).
-    A `PUT_...` placeholder counts as unset."""
-    cfg = cfg if cfg is not None else load_config()
-    k = (os.environ.get("ELEVENLABS_API_KEY")
-         or (cfg or {}).get("api_key") or "").strip()
-    return "" if k.startswith("PUT_") else k
+def eleven_spoken_text(text, overrides=None):
+    """The ElevenLabs spoken string: ONLY engine-agnostic fixes. No Azure respellings.
+    Applies PHRASES (orthographic) and any per-build SPOKEN overrides (homographs)."""
+    from mbm_pronounce import PHRASES
+    for pat, rep in PHRASES:
+        text = pat.sub(rep, text)
+    if overrides:
+        # word-boundary replace, preserving a leading capital
+        low = {k.lower(): v for k, v in overrides.items()}
+        def repl(m):
+            w = m.group(0); v = low.get(w.lower())
+            if v is None:
+                return w
+            return v[:1].upper() + v[1:] if (w[:1].isupper() and v[:1].islower()) else v
+        text = re.sub(r"[A-Za-z]+", repl, text)
+    return text
 
 
-def is_configured(speaker=None, cfg=None):
-    """True when we can synthesize: a key exists AND (if a speaker is named) that
-    speaker has a real voice id. This is what save_narration checks to decide
-    whether to use ElevenLabs or fall back to edge-tts."""
-    cfg = cfg if cfg is not None else load_config()
-    if not cfg or not api_key(cfg):
-        return False
-    if speaker is None:
-        return True
-    vid = (cfg.get("voices") or {}).get(speaker, "")
-    return bool(vid) and not vid.startswith("PUT_")
-
-
-def voice_id(speaker, cfg=None):
-    cfg = cfg if cfg is not None else load_config()
-    vid = (cfg.get("voices") or {}).get(speaker, "")
-    if not vid or vid.startswith("PUT_"):
-        raise ValueError(
-            f"no ElevenLabs voice configured for speaker {speaker!r} — set "
-            f'voices.{speaker} in eleven_config.json (Cameron picks it from his '
-            "ElevenLabs library).")
-    return vid
-
-
-# ------------------------------------------------ pronunciation dictionary ----
-
-def _http(method, path, key, body=None, is_json=True):
-    url = path if path.startswith("http") else API_ROOT + path
-    data = None
-    headers = {"xi-api-key": key}
-    if body is not None:
-        data = json.dumps(body).encode()
-        headers["Content-Type"] = "application/json"
-    req = urllib.request.Request(url, data=data, headers=headers, method=method)
-    try:
-        with urllib.request.urlopen(req, timeout=120) as r:
-            raw = r.read()
-    except urllib.error.HTTPError as e:
-        detail = e.read().decode("utf-8", "replace")[:500]
-        raise RuntimeError(f"ElevenLabs {method} {url} -> {e.code}: {detail}") from None
-    return json.loads(raw) if is_json else raw
-
-
-def ensure_lexicon(cfg=None):
-    """Create the pronunciation dictionary from cfg['lexicon'] once, cache its
-    locator in the config, and return the locator (or None if no lexicon).
-
-    lexicon entries: {"grapheme": "Esaias", "phoneme": "ɪˈzeɪəs"} (IPA), or
-    {"grapheme": "Cana", "alias": "Kane-uh"} for a plain respelling alias.
-    """
-    cfg = cfg if cfg is not None else load_config()
-    lex = (cfg or {}).get("lexicon") or []
-    if not lex:
-        return None
-    loc = cfg.get("_lexicon_locator")
-    if loc and loc.get("pronunciation_dictionary_id"):
-        return loc
-    key = api_key(cfg)
-    rules = []
-    for e in lex:
-        g = e.get("grapheme")
-        if not g:
+def _sentences_with_times(spoken, alignment):
+    """Aggregate ElevenLabs char-level alignment into per-sentence start/end."""
+    chars = alignment["characters"]
+    starts = alignment["character_start_times_seconds"]
+    ends = alignment["character_end_times_seconds"]
+    out, idx = [], 0
+    for m in _SENT.finditer(spoken):
+        s = m.group(0).strip()
+        if not s:
             continue
-        if e.get("phoneme"):
-            rules.append({"type": "phoneme", "string_to_replace": g,
-                          "phoneme": e["phoneme"], "alphabet": "ipa"})
-        elif e.get("alias"):
-            rules.append({"type": "alias", "string_to_replace": g,
-                          "alias": e["alias"]})
-    if not rules:
-        return None
-    resp = _http("POST", "/pronunciation-dictionaries/add-from-rules", key,
-                 {"name": "mbm-kjv-lexicon", "rules": rules})
-    loc = {"pronunciation_dictionary_id": resp.get("id"),
-           "version_id": resp.get("version_id")}
-    cfg["_lexicon_locator"] = loc
-    _save_config(cfg)
-    return loc
-
-
-# ------------------------------------------------------------- synthesis ----
-
-def _alignment_to_sentences(text, alignment):
-    """Fold ElevenLabs character alignment into per-sentence {text,start,end}.
-
-    alignment = {characters:[...], character_start_times_seconds:[...],
-                 character_end_times_seconds:[...]} over the SPOKEN string.
-    We walk the returned characters and cut a new sentence every time the
-    running text matches the next expected sentence boundary — robust to the
-    minor whitespace ElevenLabs may normalize."""
-    chars = alignment.get("characters") or []
-    starts = alignment.get("character_start_times_seconds") or []
-    ends = alignment.get("character_end_times_seconds") or []
-    sents = _sentences(text)
-    if not chars or not starts or not ends or not sents:
-        return _fallback_even(text, ends[-1] if ends else 0.0)
-
-    # Normalized target lengths (letters/digits only) per sentence, so alignment
-    # whitespace/punctuation differences don't throw off the split.
-    def norm(s):
-        return re.sub(r"[^a-z0-9]", "", s.lower())
-
-    targets = [len(norm(s)) for s in sents]
-    out, si, seen, cur_start, last_end = [], 0, 0, None, 0.0
-    for i, c in enumerate(chars):
-        st, en = starts[i], ends[i]
-        if re.match(r"[A-Za-z0-9]", c):
-            if cur_start is None:
-                cur_start = st
-            seen += 1
-            last_end = en
-            if si < len(targets) and seen >= targets[si]:
-                out.append({"text": sents[si],
-                            "start": round(cur_start or 0.0, 3),
-                            "end": round(en, 3)})
-                si += 1
-                seen, cur_start = 0, None
-        else:
-            last_end = max(last_end, en)
-    # Any trailing sentence the counter didn't close (rounding) gets the tail.
-    while si < len(sents):
-        out.append({"text": sents[si],
-                    "start": round(cur_start if cur_start is not None else last_end, 3),
-                    "end": round(last_end, 3)})
-        si += 1
-        cur_start = None
+        a = m.start()
+        b = m.end() - 1
+        a = max(0, min(a, len(chars) - 1))
+        b = max(0, min(b, len(chars) - 1))
+        out.append({"text": s, "start": float(starts[a]), "end": float(ends[b])})
     return out
 
 
-def _fallback_even(text, total):
-    """Char-proportional timing if alignment is unusable — keeps captions sane
-    rather than crashing. total = spoken duration in seconds."""
-    sents = _sentences(text)
-    lens = [max(1, len(s)) for s in sents]
-    tot = sum(lens) or 1
-    out, acc = [], 0.0
-    for s, L in zip(sents, lens):
-        st = total * acc / tot
-        acc += L
-        out.append({"text": s, "start": round(st, 3),
-                    "end": round(total * acc / tot, 3)})
-    return out
+# Some transcripts abbreviate speaker tags (e.g. build-15 uses 'nar'/'jes').
+SPEAKER_ALIAS = {
+    "nar": NARRATOR, "narr": NARRATOR, "n": NARRATOR,
+    "jes": JESUS, "jesus": JESUS, "j": JESUS,
+    "god": GOD, "g": GOD,
+    "scr": SCRIPTURE, "scripture": SCRIPTURE, "s": SCRIPTURE,
+    "wom": WOMAN, "woman": WOMAN, "w": WOMAN,
+}
 
 
-def synth(text, speaker, cfg=None):
-    """Return (mp3_bytes, sentences) for `text` in `speaker`'s voice.
-
-    sentences: [{text,start,end}] in segment-local seconds — the timing.json
-    contract. Raises if the speaker/key isn't configured (caller decides fallback).
-    """
-    cfg = cfg if cfg is not None else load_config()
-    if cfg is None:
-        raise RuntimeError("eleven_config.json not found")
-    key = api_key(cfg)
-    if not key:
-        raise RuntimeError("no ElevenLabs API key (config api_key or ELEVENLABS_API_KEY)")
-    vid = voice_id(speaker, cfg)
-    model = cfg.get("model_id") or "eleven_turbo_v2"
-    settings = (cfg.get("voice_settings") or {}).get(speaker) \
-        or cfg.get("voice_settings_default") \
-        or {"stability": 0.5, "similarity_boost": 0.75, "style": 0.0,
-            "use_speaker_boost": True}
-    body = {"text": text, "model_id": model, "voice_settings": settings}
-    loc = ensure_lexicon(cfg)
-    if loc:
-        body["pronunciation_dictionary_locators"] = [loc]
-    fmt = cfg.get("output_format", "mp3_44100_128")
-    path = f"/text-to-speech/{vid}/with-timestamps?output_format={fmt}"
-    resp = _http("POST", path, key, body)
-    audio_b64 = resp.get("audio_base64") or resp.get("audio")
-    if not audio_b64:
-        raise RuntimeError("ElevenLabs response had no audio_base64")
-    mp3 = base64.b64decode(audio_b64)
-    alignment = resp.get("alignment") or resp.get("normalized_alignment") or {}
-    sents = _alignment_to_sentences(text, alignment)
-    return mp3, sents
-
-
-def check():
-    """Human-readable readiness report. Never raises."""
-    cfg = load_config()
-    if cfg is None:
-        return "eleven_config.json: MISSING"
-    lines = [f"config: {config_path()}",
-             f"api_key: {'set' if api_key(cfg) else 'MISSING'}",
-             f"model_id: {cfg.get('model_id')}"]
-    voices = cfg.get("voices") or {}
-    for sp in ("narrator", "jesus", "god", "scripture", "woman"):
-        vid = voices.get(sp, "")
-        state = "ready" if (vid and not vid.startswith("PUT_")) else "NOT SET"
-        lines.append(f"  voice[{sp}]: {vid or '(none)'}  [{state}]")
-    lex = cfg.get("lexicon") or []
-    lines.append(f"lexicon: {len(lex)} rule(s)"
-                 + (" (dictionary created)" if cfg.get("_lexicon_locator") else ""))
-    return "\n".join(lines)
+def render_segment(spoken_text_str, speaker, out_mp3, key=None):
+    """Render one segment to mp3 + <name>.timing.json. Returns the sentence list."""
+    key = key or _key()
+    speaker = SPEAKER_ALIAS.get(speaker, speaker)
+    name, vid = VOICE_ELEVEN[speaker]
+    r = requests.post(
+        f"{API}/text-to-speech/{vid}/with-timestamps",
+        headers={"xi-api-key": key, "Content-Type": "application/json"},
+        json={"text": spoken_text_str, "model_id": MODEL,
+              "voice_settings": VOICE_SETTINGS[speaker]},
+        timeout=120,
+    )
+    if r.status_code != 200:
+        raise RuntimeError(f"ElevenLabs {r.status_code}: {r.text[:200]}")
+    data = r.json()
+    with open(out_mp3, "wb") as f:
+        f.write(base64.b64decode(data["audio_base64"]))
+    sents = _sentences_with_times(spoken_text_str, data["alignment"])
+    with open(os.path.splitext(out_mp3)[0] + ".timing.json", "w") as f:
+        json.dump(sents, f)
+    return sents
 
 
 if __name__ == "__main__":
-    print(check())
+    # self-test: render one line per voice into VOICE-SAMPLER/_engine-test
+    os.makedirs("VOICE-SAMPLER/_engine-test", exist_ok=True)
+    tests = [
+        (NARRATOR,  "There was a woman who had been suffering for twelve years. Nothing helped."),
+        (JESUS,     "Daughter, thy faith hath made thee whole; go in peace."),
+    ]
+    k = _key()
+    for spk, txt in tests:
+        spoken = eleven_spoken_text(txt)
+        out = f"VOICE-SAMPLER/_engine-test/{spk}.mp3"
+        sents = render_segment(spoken, spk, out, key=k)
+        print(f"{spk:<10} -> {out}  sentences={len(sents)} last_end={sents[-1]['end']:.2f}s")
+        for s in sents:
+            print(f"     [{s['start']:.2f}-{s['end']:.2f}] {s['text']}")
