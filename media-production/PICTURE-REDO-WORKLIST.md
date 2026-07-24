@@ -62,13 +62,10 @@ The disciples are in-frame but not the whole subject; regenerate the group/crowd
 | ⬜ | 88  | build-88-triumphal-entry |
 | ⬜ | 63  | build-63-man-born-blind |
 | ⬜ | 132 | build-132-forbid-him-not (John) |
-| ⬜ | 133 | build-133-many-mansions (upper room) |
-| ⬜ | 166 | build-166-baptized-properly |
 | ⬜ | 185 | build-185-many-mansions-member |
 | ⬜ | 193 | build-193-the-comforter |
 | ⬜ | 200 | build-200-gospel-to-all-the-world |
 | ⬜ | 1   | build-01-cloak (disciples around Jesus) |
-| ⬜ | 48  | build-48-new-wine-old-bottles |
 | ⬜ | 197 | build-197-sons-and-daughters-prophesy (Peter, Pentecost) |
 | ⬜ | 30  | build-30-net (fishermen/boat parable) |
 | ⬜ | 24  | build-24-sower (boat pulpit) |
