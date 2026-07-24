@@ -1,3 +1,25 @@
+## 2026-07-24 — #3 STILL-MAKER: cleared 9 picture complaints (Machine C)
+
+Read live complaints from the review board via the paired browser (git board is stale on
+this box). Fixed and pushed every open picture complaint, QC'ing each jpeg BY EYE (the gates
+can't see scale/duplicate/wrong-people/beard/grey drift):
+
+- **#83** weeping-over-jerusalem — VERIFIED already correct (walk toward Jerusalem; Jesus normal scale).
+- **#13** roof — s10's four celebrating friends now match the distinct carriers (black-beard / young-clean-shaven / grey-older / ginger-round); s3 mat-man young again (was grey). Sharpened the prose so it won't re-drift.
+- **#56** widow-of-nain — s6 giant Jesus → normal human scale; s8 halo/glow behind his head removed; son consistent.
+- **#99** flesh-and-bone-thomas — Thomas realigned to the canonical cast (wavy dark hair, not a black bowl-cut; full beard; brown eyes); regen s5/s6/s7 + fixed the LOCK prose.
+- **#153** restitution — the weird 1:12 shot (s3-cool-refreshing, hand-on-chest) replaced by the clean v3.
+- **#181** morning-stars-sang (Job 38) — cosmic beats had drifted terrestrial + a lone man; regen s1/s2/s3/s5/s6 as true outer-space creation, incl. the "sons of God" as ABSTRACT aurora light (not humanoid figures).
+- **#71** great-commission — cast verified consistent; s2 sunset-glow behind Jesus's head removed.
+- **#107** — VERIFIED (messengers distinct, John/Jesus normal scale). No regen.
+- **#161** called-of-god — Aaron still salt-and-pepper grey at the anointing → regen s6 dark-haired, oil on bare head.
+
+Visual-QC swept the highest-risk prior fixes (#90 washing-feet, #103 peters-confession): disciples
+distinct, Peter dark, Jesus on-model — both hold. Every build committed + pushed separately; gates
+green. Tool note: `regen_shot.py --out` defaults to `assets/<slug>.jpeg`, so a slug with an em-dash
+(build-71 s2) saves to a mismatched filename — move it into place after. Commit: 0d8aefa8 (#161) + the
+per-build commits above; final tracker/log commit follows.
+
 ## 2026-07-23 (cont. 7) — PLANNER echo sweep to ZERO (232→0 narrator repeats) (Machine C)
 
 Cameron's order (ORDER-FOR-AGENT-1-ECHO-TRIM.md + ECHO-SWEEP-FOR-AGENT-1.md + echo_scan.py):

@@ -29,12 +29,17 @@
 - **#153** restitution "weird picture at 1:12" → the 1:12 shot is s3-cool-refreshing (awkward hand-on-chest); promoted the clean v3 (joyful crowd + rain-light).
 - **#107** john-baptist-doubt → VERIFIED: s3 two messengers read as distinct men; John (s1) & Jesus (s8) at normal scale; Jesus on-model. Satisfied, no regen.
 
-## ⬜ IN PROGRESS / VERIFYING
-- **#181** morning-stars-sang (Job 38) "pictures don't fit the story" → the cosmic beats had drifted to terrestrial night-landscapes + a lone man; regenerating s1/s2/s3/s5/s6 as true OUTER-SPACE creation (starfield, forming blue-green world, abstract light-hosts). s0 (Job hears), s4 (burst), s7 (star over water) kept. QC after batch.
-- **#71** great-commission → cast VERIFIED consistent (Jesus on-model + distinct disciples across s2/s3/s7). Regenerating s2 only to remove a sunset glow behind Jesus's head (Law c).
+- **#181** morning-stars-sang (Job 38) "pictures don't fit the story" → the cosmic beats had drifted to terrestrial night-landscapes + a lone man; regenerated s1/s2/s3/s5/s6 as true OUTER-SPACE creation (dawn starfield, forming blue-green world, singing star-trails, ABSTRACT aurora light-host — NOT humanoid figures, morning star over the newborn world). s0 (Job hears), s4 (burst), s7 (star over water) kept. QC'd by eye.
+- **#71** great-commission → cast VERIFIED consistent (Jesus on-model + distinct disciples across s2/s3/s7). Regen s2 to remove a sunset glow behind Jesus's head (Law c).
+- **#161** called-of-god "at 1:30 aaron went grey + oil poured over his hat" → oil-on-hat was already fixed (bare head); Aaron still read salt-and-pepper grey at the anointing → regen s6 with DARK brown-black hair/beard (no grey) matching the darker Aaron of s5. NOTE: the canonical CHARACTERS/aaron ref is grey-bearded, but Cameron's word ("no grey") governs.
 
-## ALSO
-- **VISUAL QC sweep** of every shot regenerated this session — the gate can't see scale/duplicate/wrong-people/beard breaks, only eyes can. Re-read the key shots of each fixed video (found 3 breaks that way already).
+## ⬜ NOTHING LEFT ON THE PICTURE BOARD
+Re-pulled the live browser complaint list (2026-07-24): every remaining open picture
+complaint is either fixed above/in prior sessions (awaiting Cameron's re-approval) or
+belongs to #2/#4/#1 (see below). No NEW picture complaints have appeared.
+
+## ALSO — VISUAL QC sweep (done)
+- Spot-checked the highest-risk prior disciple/Peter fixes by eye: **#90** washing-feet (disciples distinct, not clones), **#103** peters-confession (Peter dark-haired not grey), Jesus on-model in both — both hold. #107 and #56 also eyeballed clean this session.
 
 ## NOT #3's LANE (flag for the other agents — they're also blind to these until the sync runs)
 - Audio / "not real new voice" / pronunciation: #6, #7, #9, #13, #14, #15, #16, #18, #20, #21, #22, #25, #28, #46, #50, #51, #63, #73, #99(audio part), #198, #200 → **#2 (audio)**
