@@ -67,7 +67,7 @@ SEGMENTS = [
     ("j2", JESUS, "Behold my mother and my brethren!"),
     # Mark 3:35
     ("j3", JESUS, "For whosoever shall do the will of God, the same is my brother, and my sister, and mother."),
-    ("n3", NARRATOR, "Here is my mother, he said. Here are my brothers. He wasn't pushing his family away. He was opening the circle — telling a room full of nobodies they could belong to him like blood."),
+    ("n3", NARRATOR, "Here are my brothers. Anyone who does what God wants — that person is my brother, and my sister, and my mother. He wasn't pushing his family away. He was opening the circle — telling a room full of nobodies they could belong to him like blood."),
     ("card", NARRATOR, "He drew the family line around whoever would come. That door is open to you too."),
 ]
 

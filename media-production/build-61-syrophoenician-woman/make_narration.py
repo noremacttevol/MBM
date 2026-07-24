@@ -62,7 +62,7 @@ SEGMENTS = [
     ("n5", NARRATOR, "She did not argue with him. She stepped right into the picture he had painted, and answered him:"),
     # Mark 7:28
     ("w28", WOMAN, "Yes, Lord: yet the dogs under the table eat of the children's crumbs."),
-    ("n5b", NARRATOR, "She did not ask him to change the order. She just pointed out that there is food under a table too. Bible students love this moment: it is the only time in the gospels anyone wins an exchange with Jesus. And you can almost hear how glad he was to lose it."),
+    ("n5b", NARRATOR, "Yes, Lord — but even the pups under the table get what the children drop. She did not ask him to change the order. She just pointed out that there is food under a table too. Bible students love this moment: it is the only time in the gospels anyone wins an exchange with Jesus. And you can almost hear how glad he was to lose it."),
     ("n6", NARRATOR, "He answered her:"),
     # Mark 7:29
     ("j2", JESUS, "For this saying go thy way; the devil is gone out of thy daughter."),

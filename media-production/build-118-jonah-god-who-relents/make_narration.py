@@ -64,10 +64,10 @@ SEGMENTS = [
     ("n8", NARRATOR, "And God, who had been looking for a reason to spare them all along, saw that they turned from their evil — and he relented. He did not destroy the city. He forgave it. The judgment never fell. And Jonah, watching from a hill outside the walls, was furious. Listen to why."),
     # Jonah 4:2
     ("s42", SCRIPTURE, "I knew that thou art a gracious God, and merciful, slow to anger, and of great kindness, and repentest thee of the evil."),
-    ("n8b", NARRATOR, "I knew it, he says. I knew you were gracious and merciful and slow to anger. I knew you would forgive them. That is the confession at the bottom of the book. Jonah never ran because he thought God was harsh. He ran because he was afraid God was too good."),
+    ("n8b", NARRATOR, "I knew it, he says. I knew you would forgive them. That is the confession at the bottom of the book. Jonah never ran because he thought God was harsh. He ran because he was afraid God was too good."),
     # Jonah 4:11
     ("jvB", GOD, "And should not I spare Nineveh, that great city, wherein are more than sixscore thousand persons that cannot discern between their right hand and their left hand; and also much cattle?"),
-    ("n9", NARRATOR, "Should I not spare Nineveh? A hundred and twenty thousand people who cannot tell their right hand from their left — and the animals too. That is how the book ends. Not with Jonah answering, but with God still arguing for mercy, out loud, with his own prophet."),
+    ("n9", NARRATOR, "A hundred and twenty thousand people who cannot tell their right hand from their left — and the animals too. That is how the book ends. Not with Jonah answering, but with God still arguing for mercy, out loud, with his own prophet."),
     ("card", NARRATOR, "The whole book of Jonah exists to answer one question: is God eager to destroy, or eager to spare? He spared a city of a hundred thousand strangers the moment they turned. What would it change to believe God is that quick to forgive?"),
 ]
 

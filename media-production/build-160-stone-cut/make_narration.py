@@ -39,7 +39,7 @@ SEGMENTS = [
     ("n6", NARRATOR, "Daniel told the king what it meant. Every human empire, however golden, would rise and then fall and be forgotten. But God himself would set up a kingdom of his own, and that one would be different."),
     # Daniel 2:44
     ("kv44", SCRIPTURE, "And in the days of these kings shall the God of heaven set up a kingdom, which shall never be destroyed: and the kingdom shall not be left to other people, but it shall break in pieces and consume all these kingdoms, and it shall stand for ever."),
-    ("n7", NARRATOR, "Never destroyed. Never handed off to someone else. Not built by human hands, and so not able to be torn down by them either — a kingdom cut from the mountain of God, that would outlast every throne on earth and stand forever."),
+    ("n7", NARRATOR, "Never handed off to someone else. Not built by human hands, and so not able to be torn down by them either — a kingdom cut from the mountain of God, that would outlast every throne on earth and stand forever."),
     ("n8", NARRATOR, "So this ancient dream is really a promise you can build your life on. The kingdoms of men come and go, but God is setting up one that never ends — a stone that fills the whole earth. So the only question is a hopeful one. When that kingdom is offered to you, will you belong to it?"),
     ("card", NARRATOR, "God showed a king a stone cut without hands that shattered every empire and grew to fill the earth — his own kingdom, that shall never be destroyed and shall stand for ever. When it is offered to you, will you belong to it?"),
 ]

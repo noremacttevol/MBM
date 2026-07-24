@@ -76,7 +76,7 @@ SEGMENTS = [
     ("n8", NARRATOR, "And he did. He never argues his way in where he is not wanted. But as he climbed into the boat, the healed man begged to come with him. It is the only time in the gospels someone asks to follow Jesus and is told no. Listen to what he was given instead."),
     # Mark 5:19
     ("j3", JESUS, "Go home to thy friends, and tell them how great things the Lord hath done for thee, and hath had compassion on thee."),
-    ("n9", NARRATOR, "Go home. To the town that chained you. To the people who gave up on you. Tell them what God did for you, and how he had compassion on you. The man everyone had written off became the first person Jesus ever sent out with his story — a one-man mission to the ten Gentile cities of the Decapolis. And everywhere he went, people were amazed."),
+    ("n9", NARRATOR, "To the town that chained you. To the people who gave up on you. Tell them what God did for you, and how he had compassion on you. The man everyone had written off became the first person Jesus ever sent out with his story — a one-man mission to the ten Gentile cities of the Decapolis. And everywhere he went, people were amazed."),
     ("card", NARRATOR, "He crossed a sea in a storm for one man everyone else had given up on. There is no distance he will not cross for you."),
 ]
 

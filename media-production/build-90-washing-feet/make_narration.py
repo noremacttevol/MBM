@@ -50,14 +50,14 @@ SEGMENTS = [
     ("n2", NARRATOR, "When he came to Peter, Peter pulled back."),
     # John 13:8
     ("s8", SCRIPTURE, "Thou shalt never wash my feet."),
-    ("n2b", NARRATOR, "Not you. Not for me. And Jesus answered him gently, but he did not back down."),
+    ("n2b", NARRATOR, "You will never wash my feet, Peter said. Not you. Not for me. And Jesus answered him gently, but he did not back down."),
     # John 13:8
     ("j1", JESUS, "If I wash thee not, thou hast no part with me."),
     ("n2c", NARRATOR, "That is how serious this is. Peter thought he was protecting Jesus's dignity. What he was really doing was refusing to be loved."),
     ("n3", NARRATOR, "When he had finished, he dried their feet with the towel at his waist, sat back down, and asked if they understood what he had just done."),
     # John 13:14
     ("j2", JESUS, "If I then, your Lord and Master, have washed your feet; ye also ought to wash one another's feet."),
-    ("n3b", NARRATOR, "Whatever he just did for them, they were to go do for each other."),
+    ("n3b", NARRATOR, "If I, your Lord and your Teacher, have washed your feet, he said, then you ought to wash each other's. Whatever he just did for them, they were to go do for each other."),
     ("n4", NARRATOR, "The greatest one in the room knelt at the dirtiest job in the house. That is the kind of king he is."),
     ("card", NARRATOR, "He kneels to serve the ones he loves. Will you let him near enough to do it for you?"),
 ]

@@ -47,13 +47,13 @@ SEGMENTS = [
     ("n2", NARRATOR, "He guides me down the right paths, for His name's sake — not because I earned the guiding, but because of who He is."),
     # Psalm 23:4
     ("s4", SCRIPTURE, "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me."),
-    ("n3", NARRATOR, "Even in the darkest valley, I'm not afraid. You are with me — Your rod and staff steady me. And notice what changes right there: up to now David has been saying He. In the valley he starts saying You. He gets closer to the Shepherd in the dark, not further away."),
+    ("n3", NARRATOR, "Even in the darkest valley, I'm not afraid. And notice what changes right there: up to now David has been saying He. In the valley he starts saying You. He gets closer to the Shepherd in the dark, not further away."),
     # Psalm 23:5
     ("s5a", SCRIPTURE, "Thou preparest a table before me in the presence of mine enemies:"),
     ("n4a", NARRATOR, "You set a table for me right in front of my enemies."),
     # Psalm 23:5
     ("s5b", SCRIPTURE, "thou anointest my head with oil; my cup runneth over."),
-    ("n4b", NARRATOR, "You honor me; my cup runs over."),
+    ("n4b", NARRATOR, "You honor me;"),
     # Psalm 23:6
     ("s6a", SCRIPTURE, "Surely goodness and mercy shall follow me all the days of my life:"),
     ("n5a", NARRATOR, "Your goodness and Your mercy will chase me down every day I have."),

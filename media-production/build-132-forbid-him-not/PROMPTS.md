@@ -30,10 +30,10 @@ one single tall upright vertical painting."
 clear daylight — low dry-stone walls, olive trees, pale hills rolling behind, a
 small village visible in the middle distance.
 
-[JOHN LOCK] = John, the same man in every picture he appears in: a lean Middle
-Eastern Jewish fisherman of about twenty-five, a FULL hairline of dark brown
-wavy hair to the jaw, a short young beard, quick dark eyes, dressed in a deep
-olive tunic with a dark brown mantle (never cream). He appears EXACTLY ONCE in
+[JOHN LOCK] = John (the beloved), the same locked cast face in every picture: a lean Middle
+Eastern Jewish fisherman of about twenty, dark wavy hair to the jaw, CLEAN-SHAVEN
+(never a beard — his standing distinguisher), quick dark eyes, dressed in his faded
+GREY-BLUE tunic with an ochre-brown mantle (never cream) — the same man as the attached john reference. He appears EXACTLY ONCE in
 any frame; no other figure in the frame resembles him.
 
 [DISCIPLES LOCK] = the other disciples are Middle Eastern Jewish men in dark

@@ -58,7 +58,7 @@ SEGMENTS = [
     ("n2", NARRATOR, "The peace they had been aching for had walked right up to their gates — and the city was too busy to see it."),
     # Luke 19:42
     ("j1", JESUS, "If thou hadst known, even thou, at least in this thy day, the things which belong unto thy peace! but now they are hid from thine eyes."),
-    ("n2b", NARRATOR, "If only you had known — even you, even today — what would have brought you peace. But now it's hidden from your eyes. He is not scolding the city. He is talking to it the way you talk to someone you love who is about to walk past the one thing that would have saved them."),
+    ("n2b", NARRATOR, "If only you had known — even you, even today — what would have brought you peace. He is not scolding the city. He is talking to it the way you talk to someone you love who is about to walk past the one thing that would have saved them."),
     ("n3a", NARRATOR, "He could see what was coming for the city he loved — armies and ruin, a generation away."),
     ("n3b", NARRATOR, "His tears weren't anger. They were the grief of love that sees exactly what could have been."),
     ("card", NARRATOR, "He wept because he loved the city that couldn't see him. He sees you clearly. Don't look away."),

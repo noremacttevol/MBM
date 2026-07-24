@@ -67,15 +67,15 @@ SEGMENTS = [
     ("n2", NARRATOR, "Some of the men at the table were furious. Mark writes down what they said:"),
     # Mark 14:4-5
     ("s4", SCRIPTURE, "Why was this waste of the ointment made? For it might have been sold for more than three hundred pence, and have been given to the poor."),
-    ("n2b", NARRATOR, "Why has this been wasted? they said. And Mark adds one more line: they murmured against her. They said it where she could hear it. She does not answer them. She never says a single word in this whole story."),
+    ("n2b", NARRATOR, "Why has this been wasted? they said. It could have been sold for more than three hundred silver coins — nearly a year's pay for a working man — and the money given to the poor. And Mark adds one more line: they murmured against her. They said it where she could hear it. She does not answer them. She never says a single word in this whole story."),
     ("n3", NARRATOR, "Jesus stopped them cold, and defended her."),
     # Mark 14:6
     ("j1", JESUS, "Let her alone; why trouble ye her? she hath wrought a good work on me."),
-    ("n3b", NARRATOR, "Leave her alone. Why are you giving her a hard time? She has done a beautiful thing for me. Not a wasteful thing. A good one."),
+    ("n3b", NARRATOR, "Leave her alone. Why are you giving her a hard time? She has done a beautiful thing for me. Not a wasteful thing."),
     ("n4", NARRATOR, "And then he answered the argument about the money directly:"),
     # Mark 14:7
     ("j1b", JESUS, "For ye have the poor with you always, and whensoever ye will ye may do them good: but me ye have not always."),
-    ("n4b", NARRATOR, "But you will not always have me. He was not brushing the poor aside. He was telling a room full of men that the window on this particular kindness was closing, and only one person in it had noticed."),
+    ("n4b", NARRATOR, "You will always have the poor with you, he said, and any time you want to, you can do good for them. He was not brushing the poor aside. He was telling a room full of men that the window on this particular kindness was closing, and only one person in it had noticed."),
     # Mark 14:8
     ("j2", JESUS, "She hath done what she could: she is come aforehand to anoint my body to the burying."),
     ("n4c", NARRATOR, "She did what she was able to do, he said. She has come ahead of time to prepare my body for burial. Nobody else in that house would even let him say the word."),

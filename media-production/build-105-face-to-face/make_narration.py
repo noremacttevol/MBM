@@ -48,7 +48,7 @@ SEGMENTS = [
     ("n4", NARRATOR, "As Moses reached the tent, a great pillar of cloud would come down and stand at the door — the presence of God himself, come down to meet one man."),
     # Exodus 33:11
     ("nface", SCRIPTURE, "And the LORD spake unto Moses face to face, as a man speaketh unto his friend."),
-    ("n5", NARRATOR, "Face to face. As a man speaks with his friend. Not a master barking at a servant. Not a king across a vast throne room — easy, honest, close. God wanted Moses. Not just his obedience. His friendship."),
+    ("n5", NARRATOR, "Not a master barking at a servant. Not a king across a vast throne room — easy, honest, close. God wanted Moses. Not just his obedience. His friendship."),
     # Exodus 33:14
     ("jv14", GOD, "My presence shall go with thee, and I will give thee rest."),
     ("n5b", NARRATOR, "Not send someone ahead. Not watch from somewhere far off. Go with you."),
@@ -60,7 +60,7 @@ SEGMENTS = [
     ("n6b", NARRATOR, "Show me your glory, Moses asked. And God answered — I will make all my goodness pass in front of you. Not his power. Not his greatness. His goodness. Of everything he could have shown a friend, that is what he chose."),
     # Exodus 33:20
     ("jv20", GOD, "Thou canst not see my face: for there shall no man see me, and live."),
-    ("n6c", NARRATOR, "You cannot see my face and live. That was not a refusal. It was care — the way you would not hand a child something far too heavy to hold."),
+    ("n6c", NARRATOR, "That was not a refusal. It was care — the way you would not hand a child something far too heavy to hold."),
     ("n7", NARRATOR, "So God did the gentlest thing. He tucked Moses into a cleft in the rock, and covered him with his own hand, and let all his goodness pass by — near enough to feel, too much to look on. He protected his friend even from the weight of his own glory."),
     ("n8", NARRATOR, "And when Moses came back down, his face was shining. He did not even know it."),
     ("n9", NARRATOR, "That is what happens to someone who spends time close to God — you start, quietly, to glow with a little of him. It began with a friendship, at a tent, outside the camp."),

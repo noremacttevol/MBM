@@ -56,7 +56,7 @@ SEGMENTS = [
     ("j2", JESUS, "Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls."),
     # Matthew 11:30
     ("j3", JESUS, "For my yoke is easy, and my burden is light."),
-    ("n1b", NARRATOR, "Take my yoke on you, he said, and learn from me, because I am gentle and I am humble — and you will find rest for your soul. He is not handing you a heavier beam. He is stepping into the empty side of the one you are already pulling."),
+    ("n1b", NARRATOR, "Take my yoke on you, he said, and learn from me, because I am gentle and I am humble — and you will find rest for your soul. My yoke fits easy, and what I ask you to carry is light. He is not handing you a heavier beam. He is stepping into the empty side of the one you are already pulling."),
     ("n2a", NARRATOR, "He wasn't promising a life with nothing to carry."),
     ("n2b", NARRATOR, "He was promising to get under the load with you, so it never has to be carried alone again."),
     ("card", NARRATOR, "Whatever you've been carrying by yourself — he's offering to take the other side of it. Come."),

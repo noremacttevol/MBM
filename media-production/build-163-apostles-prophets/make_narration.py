@@ -35,7 +35,7 @@ from mbm_speakers import NARRATOR, SCRIPTURE
 SEGMENTS = [
     ("n1", NARRATOR, "The people Paul was writing to had once been outsiders — foreigners, strangers, on the far edge of God's promises, with no place at the table and no share in the family."),
     ("n2", NARRATOR, "But something had changed everything. The door had been thrown open, and those who were far off had been brought near — no longer guests to be tolerated, but family to be embraced."),
-    ("n3", NARRATOR, "Paul reached for a beautiful picture: they were now part of a household — the very household of God. Not a crowd of strangers passing through, but sons and daughters at home, belonging."),
+    ("n3", NARRATOR, "Paul reached for a beautiful picture: Not a crowd of strangers passing through, but sons and daughters at home, belonging."),
     # Ephesians 2:19
     ("kv19", SCRIPTURE, "Now therefore ye are no more strangers and foreigners, but fellowcitizens with the saints, and of the household of God;"),
     ("n4", NARRATOR, "But a household needs a house — and a house needs to be built, and built right. So Paul changed the picture from a family to a building, the dwelling place of God among his people."),

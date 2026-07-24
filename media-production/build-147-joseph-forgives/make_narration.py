@@ -41,14 +41,14 @@ SEGMENTS = [
     ("n1", NARRATOR, "When the brothers came begging for food in the famine, they didn't recognize the brother they'd betrayed. Then he sent every Egyptian out of the room, and told them."),
     # Genesis 45:4
     ("s0", SCRIPTURE, "I am Joseph your brother, whom ye sold into Egypt."),
-    ("n1b", NARRATOR, "I'm Joseph. Your brother. The one you sold. He didn't soften it and he didn't skip it — he said the worst thing they ever did straight to their faces, and then he kept talking."),
+    ("n1b", NARRATOR, "He didn't soften it and he didn't skip it — he said the worst thing they ever did straight to their faces, and then he kept talking."),
     # Genesis 45:5
     ("s1", SCRIPTURE, "Now therefore be not grieved, nor angry with yourselves, that ye sold me hither: for God did send me before you to preserve life."),
     ("n1c", NARRATOR, "Don't tear yourselves up over it, he said. Don't be angry at yourselves that you sold me here. God sent me ahead of you — to keep people alive. He gave them the one thing they could not give themselves: permission to stop hating themselves."),
     ("n2", NARRATOR, "Much later, when their father died and the brothers feared revenge, Joseph spoke the line that closes the wound."),
     # Genesis 50:20
     ("s2", SCRIPTURE, "But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive."),
-    ("n3", NARRATOR, "You meant it for evil, he told them — I'm not going to call it anything else. But God meant it for good, and look what came of it: a whole lot of people are still alive. He didn't pretend it hadn't hurt. He saw God's hand turning their evil into rescue."),
+    ("n3", NARRATOR, "You meant it for evil, he told them — I'm not going to call it anything else. a whole lot of people are still alive. He didn't pretend it hadn't hurt. He saw God's hand turning their evil into rescue."),
     ("card", NARRATOR, "What others meant for harm, God can mean for good. Let it go."),
 ]
 

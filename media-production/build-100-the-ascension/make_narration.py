@@ -54,7 +54,6 @@ SEGMENTS = [
     ("n3", NARRATOR, "Then two figures in white stood beside them with a promise:"),
     # Acts 1:11
     ("s11", SCRIPTURE, "Ye men of Galilee, why stand ye gazing up into heaven? this same Jesus, which is taken up from you into heaven, shall so come in like manner as ye have seen him go into heaven."),
-    ("n4", NARRATOR, "This same Jesus, who was taken up from you into heaven, will come back the same way you've seen him go."),
     ("n5", NARRATOR, "He did not abandon them. He left them a mission, a promise, and the sure word that he's coming again."),
     ("card", NARRATOR, "He's coming back the same way he left. Until then, you're not alone — and you're not without purpose."),
 ]

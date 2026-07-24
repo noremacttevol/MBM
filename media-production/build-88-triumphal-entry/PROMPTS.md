@@ -82,3 +82,5 @@ REF: jesus-master-ref
 ### Closing card
 Text on cream (#F7F2E9), serif, spoken + captioned (an INVITATION): "The King rode
 in on a donkey, not a warhorse. His kingdom is peace. You're welcome in it."
+
+CHARACTER-REF-EXEMPT: matthew ('cloaks per Matthew' cites the gospel book, not the apostle)

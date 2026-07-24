@@ -45,12 +45,11 @@ SEGMENTS = [
     ("n0", NARRATOR, "Jesus used a picture His listeners knew well — a shepherd and his sheep, out on the open hill."),
     # John 10:14
     ("jv14", JESUS, "I am the good shepherd, and know my sheep, and am known of mine."),
-    ("n0b", NARRATOR, "I am the good shepherd, He said. I know My sheep, and My sheep know Me. Not a hired hand counting a herd — a shepherd who knows them one at a time, and is known back."),
+    ("n0b", NARRATOR, "Not a hired hand counting a herd — a shepherd who knows them one at a time, and is known back."),
     ("n1a", NARRATOR, "But the flock was bigger than the people standing in front of Him."),
     # John 10:16
     ("j1", JESUS, "And other sheep I have, which are not of this fold: them also I must bring, and they shall hear my voice; and there shall be one fold, and one shepherd."),
-    ("n1b", NARRATOR, "There were other sheep, not of that pen, that He would also bring."),
-    ("n2", NARRATOR, "They would hear His voice. And the result would be one flock, one Shepherd."),
+    ("n2", NARRATOR, "And the result would be one flock, one Shepherd."),
     ("n3", NARRATOR, "Not divided by nation or wall. One voice, one care, one Shepherd over all who listen."),
     ("n4", NARRATOR, "Whoever hears Him belongs — wherever they're from."),
     ("card", NARRATOR, "His voice reaches further than you think. Hear Him, and you're in the fold."),

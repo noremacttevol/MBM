@@ -55,14 +55,14 @@ SEGMENTS = [
     ("n3", NARRATOR, "Our God can save us, they said, and we believe he will. But if not — if he does not — we still will not bow. That is one of the bravest things anyone ever said. They did not obey because they were promised a rescue. They obeyed because he is God either way."),
     ("n4", NARRATOR, "So the king had the furnace stoked seven times hotter than ever and had the three cast in, still bound hand and foot — a fire so fierce no one should have survived a single moment in it."),
     ("n5", NARRATOR, "And that is exactly when the impossible began. The ropes burned away, but the men did not. They stood up inside the fire, unharmed, not a single thread of their clothing even scorched."),
-    ("n6", NARRATOR, "Then the king leapt up off his seat in astonishment. He had thrown in three men, bound. Now he was counting four, walking loose. And this is what he said out loud, in front of his whole court."),
+    ("n6", NARRATOR, "Then the king leapt up off his seat in astonishment. He had thrown in three men, bound. And this is what he said out loud, in front of his whole court."),
     # Daniel 3:25
     ("s325", SCRIPTURE, "Lo, I see four men loose, walking in the midst of the fire, and they have no hurt; and the form of the fourth is like the Son of God."),
-    ("n6b", NARRATOR, "Four men, loose, walking in the middle of the fire, and none of them hurt. And the fourth one, the king says, looks like the Son of God. The man who gave the order to light that furnace is now the eyewitness describing what came of it."),
+    ("n6b", NARRATOR, "And the fourth one, the king says, looks like the Son of God. The man who gave the order to light that furnace is now the eyewitness describing what came of it."),
     ("n7", NARRATOR, "They were not alone in the fire. Whatever else that fourth figure was, it walked with them, and where it walked the flames could not touch them. God had not kept them out of the furnace — he met them inside it."),
     # Daniel 3:26
     ("s326", SCRIPTURE, "Shadrach, Meshach, and Abednego, ye servants of the most high God, come forth, and come hither."),
-    ("n8", NARRATOR, "Come out, he called them — servants of the most high God. The man who demanded they call his statue god is now calling their God the highest one there is. And they walked from the heart of the fire onto solid ground, alive and whole, in front of everyone who had watched them go in."),
+    ("n8", NARRATOR, "The man who demanded they call his statue god is now calling their God the highest one there is. And they walked from the heart of the fire onto solid ground, alive and whole, in front of everyone who had watched them go in."),
     ("n9", NARRATOR, "The officials crowded around and could not believe it. Not a hair of their heads was singed, their coats were not burned, and there was not even the smell of smoke on them. The fire had done nothing at all."),
     # Daniel 3:28
     ("s328", SCRIPTURE, "Blessed be the God of Shadrach, Meshach, and Abednego, who hath sent his angel, and delivered his servants that trusted in him."),

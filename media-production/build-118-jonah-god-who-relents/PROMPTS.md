@@ -30,6 +30,9 @@ MUST NEVER SHOW: God as a figure, face or hand-of-God-as-a-person; anyone in cre
 off-white; the city being destroyed, burning or falling; gore or a horror-mouth fish; any
 baked-in text or written letters; any modern object; a multi-panel or comic-strip layout.
 
+## CONTINUITY LOCK
+JONAH LOCK: A weathered Israelite prophet in his fifties: warm Middle-Eastern skin roughened by sea-spray and desert sun, greying dark hair and a greying beard, deep-set eyes that are honest but troubled — a man who argues with God and loses, and knows it. A dull olive-brown wool robe (his locked color) with a faded ochre cloak thrown over one shoulder, plain leather belt, worn leather sandals — never cream, never off-white. This is the approved `CHARACTERS/jonah` sheet; the shipped stills already match it (verified on-model 2026-07-23). Attach the jonah refs on any future regeneration.
+
 ---
 
 ## s1-the-call

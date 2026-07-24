@@ -48,7 +48,7 @@ SEGMENTS = [
     ("n3", NARRATOR, "The grieving will be comforted. The gentle, who never push to the front, will inherit everything. Those aching to be made good will be filled. Every blessing goes to exactly the person the world would call a loser."),
     # Matthew 5:7-8
     ("jv78", JESUS, "Blessed are the merciful: for they shall obtain mercy. Blessed are the pure in heart: for they shall see God."),
-    ("n4", NARRATOR, "The merciful will be shown mercy. The pure in heart — the simple, honest, unguarded ones — will actually see God. Not the clever or the powerful. The clean of heart."),
+    ("n4", NARRATOR, "The pure in heart — the simple, honest, unguarded ones — will actually see God. Not the clever or the powerful. The clean of heart."),
     # Matthew 5:9-10
     ("jv910", JESUS, "Blessed are the peacemakers: for they shall be called the children of God. Blessed are they which are persecuted for righteousness' sake: for theirs is the kingdom of heaven."),
     ("n5", NARRATOR, "The ones who make peace instead of winning fights are called God's own children. And even those pushed aside for doing right are not forgotten — the kingdom is theirs, too. Every last person the world overlooks, God is reaching for."),
