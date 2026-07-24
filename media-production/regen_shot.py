@@ -154,7 +154,12 @@ def main():
                " painted edge to edge as one continuous picture — NOT a diptych or"
                " triptych, no panels, no horizontal or vertical split, no stacked or"
                " side-by-side frames, no dividing line or border. Each person appears"
-               " EXACTLY ONCE — no duplicated or repeated figures.")
+               " EXACTLY ONCE — no duplicated or repeated figures."
+               " ALL people are drawn at correct, consistent human scale and proportion:"
+               " nobody is oversized, giant or looming; every figure is the right size"
+               " relative to the others, feet grounded on the same ground plane, natural"
+               " realistic perspective. Every person keeps the same face, hair and beard"
+               " as in every other picture — no beard appearing or disappearing.")
 
     refs = []
     for c in [x.strip() for x in a.chars.split(",") if x.strip()]:
