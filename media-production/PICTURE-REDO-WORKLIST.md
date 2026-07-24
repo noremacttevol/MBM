@@ -53,7 +53,6 @@ The disciples are in-frame but not the whole subject; regenerate the group/crowd
 
 | ✓ | # | Build |
 |---|---|---|
-| ⬜ | 61  | build-61-syrophoenician-woman |
 | ⬜ | 10  | build-10-well (disciples return) |
 | ⬜ | 14  | build-14-ten-lepers |
 | ⬜ | 15  | build-15-centurion |
