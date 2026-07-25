@@ -31,7 +31,7 @@ touching anything else. Do NOT edit by hand.
 | 28 | newer cut shipped — VERIFY fixed | Not real new voice |
 | 32 | newer cut shipped — VERIFY fixed | The servant with 5 bags changes character and grows a beard it looks weird we need to redo the pictures for him |
 | 33 | newer cut shipped — VERIFY fixed | Divideth is pronounced wrong |
-| 46 | UNFIXED | its still wrong correct phonetic breakdown is put-uth. |
+| 46 | newer cut shipped — VERIFY fixed | its still wrong correct phonetic breakdown is put-uth. |
 | 50 | newer cut shipped — VERIFY fixed | the ned page question has some squares on the end of everyline like a typo or code fault. wierd fix it and we are still pronouncing Cana wrong its more like Kane-a |
 | 51 | UNFIXED | still mispronouncing tear  it should be like tare but its still spelled the same |
 | 52 | newer cut shipped — VERIFY fixed | squares at the end of every line in the question end page again if this is a problem wiht any more fix them all now |
