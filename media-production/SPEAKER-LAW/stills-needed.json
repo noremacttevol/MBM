@@ -2240,8 +2240,8 @@
   "current_still": "S13",
   "reason": "3 beats now sit on this still (33.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S13 now carries three beats: n14 naming who the story was about, the verbatim 'many are called, but few are chosen,' and n15's retelling. Frame the called and the chosen as the same crowd, not two: a wide hall doorway with light pouring out and a stream of road-worn people going in, and one or two standing outside in the dark who have simply not walked over. Nobody is being kept out.",
-  "slug": "",
-  "done": false
+  "slug": "s13b-the-same-crowd",
+  "done": true
  },
  {
   "build": "build-44-two-debtors",
