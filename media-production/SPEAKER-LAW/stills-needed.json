@@ -1781,7 +1781,8 @@
   "reason": "1 beats now sit on this still (35.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S10 now carries three beats — the furious council, Nicodemus's verbatim objection, and the retelling. Frame him standing while they sit: one older man on his feet in a stone council chamber in hard daylight, speaking into a room of seated, turning, hostile faces. He is alone, and he is not sitting down.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s10-council"
  },
  {
   "build": "build-84-no-room-manger",
