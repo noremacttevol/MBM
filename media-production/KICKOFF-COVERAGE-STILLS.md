@@ -45,3 +45,13 @@ builds per chat to keep context low (Cameron's one-chat-per-video law).
   (Dan 3:25 "like the Son of God"), `build-105-face-to-face` (Ex 33). Whether to depict a
   Christ-figure there is his call, not a guess.
 - Retired builds (archived): `build-44-two-debtors`, `build-128-famine-of-hearing` — skip.
+
+## FLAG (2026-07-24): build-24-sower has a PRE-EXISTING jesus-gate failure
+`jesus_face_gate.py --dir build-24-sower` exits 1 — but NOT from any coverage still.
+Causes: (a) s1-boat-teaching + s7-boat-close are the deliberate "storyteller" shots where the
+Lord is shown ONLY from behind / never-face — so they lack the byte-identical JESUS LOCK v3 +
+`REF: jesus-master-ref` line by design; (b) the literal word "halo" appears in a "No halo, no glow"
+character line (the gate bans the substring even in a negation). This predates the coverage work.
+Fixing it properly is a build-owner decision (reword "halo"→"no bright ring"; decide whether the
+never-shown storyteller shots should carry the lock) — NOT something to change blindly in a
+coverage pass, since forcing the "face shown" lock would contradict the intentional from-behind design.
