@@ -73,3 +73,6 @@ earth colors. No modern objects.
 
 CHARACTER-REF-EXEMPT: john-beloved (s3 refers to "John's baptism" = John the Baptist's; no apostle depicted)
 CHARACTER-REF-EXEMPT: john-the-baptist (only referenced as a past baptism; not painted)
+
+## s3b-john-points-forward — NEW (split off S3 / Acts 19:4, was 32.5s): a preparation that points forward
+[STILL STYLE BLOCK] At the Jordan river in warm daylight: John the Baptist — a rugged, weathered prophet with wild dark hair and a full dark beard, in a rough brown camel-hair garment with a leather belt — stands in the shallow flowing WATER, having just baptized a repentant man who rises from the water beside him, dripping and moved. But John's other ARM is RAISED and pointing away, up and toward SOMETHING BEYOND THE FRAME — toward the One who is coming after him — his face earnest and expectant. A few more people wait at the water's edge in humble repentance. The baptism is honest and good, but UNFINISHED — a preparation that points forward, never a mistake. Warm daylight on the river, reeds along the bank. No divine figure and no face for the Lord anywhere; the One pointed to is off-frame. No one wears cream or off-white. Every figure has two arms, two hands, two legs, one head. One single continuous scene painted edge to edge.

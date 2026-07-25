@@ -2510,8 +2510,8 @@
   "current_still": "S3",
   "reason": "2 beats now sit on this still (32.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S3 now carries Acts 19:4 and n3. It should show John's baptism as a good thing that pointed forward — water, repentance, an arm raised toward something beyond the frame. Honest and unfinished, a preparation rather than a mistake.",
-  "slug": "",
-  "done": false
+  "slug": "s3b-john-points-forward",
+  "done": true
  },
  {
   "build": "build-48-new-wine-old-bottles",
@@ -2831,7 +2831,8 @@
   "reason": "1 beats now sit on this still (31.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries three beats — the setup, the offer verbatim, and the retelling. Frame the offer as a feast laid out: from a high ridge at golden hour, kingdom after kingdom running to the horizon, cities and roads and harbours glowing, more than one man could ever want. Beautiful and completely available. No devil figure needed — the view IS the temptation.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s7-all-the-kingdoms"
  },
  {
   "build": "build-27-leaven",
