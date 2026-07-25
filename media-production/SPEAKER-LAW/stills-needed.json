@@ -37,8 +37,8 @@
   "current_still": "S9",
   "reason": "4 beats now sit on this still (59.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries FOUR beats — Job's first reply, Job 42:5, and both retellings. Intimate and quiet after the enormous sky: close on Job's face, hand near his mouth, eyes open and seeing something. Ashes still under him. This is the moment he stops arguing.",
-  "slug": "",
-  "done": false
+  "slug": "s9b-hand-upon-my-mouth",
+  "done": true
  },
  {
   "build": "build-44-two-debtors",
@@ -118,8 +118,8 @@
   "current_still": "S8",
   "reason": "4 beats now sit on this still (55.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries FOUR beats — the morning stars, Pleiades and Orion, and two retellings. The longest stretch on any single image in the video, so it should be the biggest picture in it: a vast night sky over a small figure, stars thick and deep, the whirlwind's edge still visible low in frame. Wide and slow enough to sit under a lot of words.",
-  "slug": "",
-  "done": false
+  "slug": "s8b-pleiades-and-orion",
+  "done": true
  },
  {
   "build": "build-120-job-from-whirlwind",
@@ -138,8 +138,8 @@
   "current_still": "S2",
   "reason": "3 beats now sit on this still (54.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries the loss, Job's verbatim 'the LORD gave, and the LORD hath taken away', and its retelling. Frame the moment he says it, not the disasters: a man on his knees on bare ground, coat torn, head shaved, hands open and empty. Everything he owned gone out of frame behind him.",
-  "slug": "",
-  "done": false
+  "slug": "s2b-blessed-be-the-name",
+  "done": true
  },
  {
   "build": "build-66-malchus-ear",
@@ -718,8 +718,8 @@
   "current_still": "S5",
   "reason": "3 beats now sit on this still (42.8s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries the honest cry, 'I know that my redeemer liveth', and its retelling. Needs to hold a turn from anguish to hope on one image — Job in the ash heap with his face lifted, not lowered. Dark ground, one break of light above the horizon.",
-  "slug": "",
-  "done": false
+  "slug": "s5b-my-redeemer-liveth",
+  "done": true
  },
  {
   "build": "build-104-boy-samuel",
