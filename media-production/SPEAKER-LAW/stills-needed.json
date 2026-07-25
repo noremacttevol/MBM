@@ -321,8 +321,8 @@
   "current_still": "S7",
   "reason": "3 beats now sit on this still (50.8s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries three beats — the verse, its retelling, and the study gem. Frame the moment Ephesians 4:14 describes rather than a general sea scene: a small open boat with no one at the tiller, shoved off its line by a crosswind, sail slack and snapping the wrong way. Keep it children-sized and unsteady, not a shipwreck — the verse is about being carried about, not destroyed. Open grey water to every horizon so there is visibly nothing to steer by.",
-  "slug": "",
-  "done": false
+  "slug": "s7b-carried-about",
+  "done": true
  },
  {
   "build": "build-65-help-mine-unbelief",
