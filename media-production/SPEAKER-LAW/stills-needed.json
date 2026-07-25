@@ -1337,7 +1337,8 @@
   "reason": "3 beats now sit on this still (37.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S5 now carries three beats — Isaiah 29:13 split in two plus the n5 retelling — so it holds a much longer stretch than before. Frame the exact moment the words describe: people at worship with their mouths moving, lips forming the right words, faces turned the right direction — and something in the posture or the eyes that is somewhere else entirely. Not a scene of wickedness. A scene of correct, hollow habit. Warm light, nothing sinister; the sadness should be gentle, because the verse is diagnosis, not condemnation.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s5-hearts-far-off"
  },
  {
   "build": "build-33-sheep-goats",
@@ -1568,7 +1569,8 @@
   "reason": "3 beats now sit on this still (36.6s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries the prayer, 'Salvation is of the LORD', and a retelling. Dark, close and still: a man in the deep with almost nothing visible and one faint light. The stillness has to hold under a long stretch of quiet words.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s5-prayer-in-the-deep"
  },
  {
   "build": "build-22-unmerciful-servant",
