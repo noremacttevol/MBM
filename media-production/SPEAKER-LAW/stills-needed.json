@@ -1878,7 +1878,8 @@
   "reason": "3 beats now sit on this still (35.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries four beats — the frame, both halves of the third servant's verbatim excuse, and the retelling. Frame the accusation rather than the hole in the ground: the servant standing before his master holding out one dirt-caked bag with both hands, eyes down, the earth still on his fingers. The master's face open and unguarded, not angry — the picture should show that the servant's idea of him was simply wrong.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s7-buried-returned"
  },
  {
   "build": "build-101-still-small-voice",
