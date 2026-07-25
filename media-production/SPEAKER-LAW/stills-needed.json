@@ -3047,8 +3047,8 @@
   "current_still": "S9",
   "reason": "2 beats now sit on this still (31.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S9 now carries three beats — the setup, Jesus's verbatim words about the three days, and their retelling. Frame the hunger, not the sermon: late afternoon on the hillside, families settled in for a third day, empty baskets and cloths turned out, and Jesus turned toward his disciples with the crowd behind him. He is looking at people who have stayed too long to walk home.",
-  "slug": "",
-  "done": false
+  "slug": "s9b-nothing-left-to-eat",
+  "done": true
  },
  {
   "build": "build-04-nicodemus",
