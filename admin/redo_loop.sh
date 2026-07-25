@@ -23,7 +23,16 @@ say(){ echo "[$(date '+%m-%d %H:%M:%S')] $*" | tee -a "$LOG"; }
 
 if [ "$#" -gt 0 ]; then LIST="$*"; else LIST=$(seq 1 200); fi
 
-dirof(){ ls -d "$MP"/build-$(printf '%02d' "$1")-* 2>/dev/null | grep -v _stale | head -1; }
+dirof(){
+  # A row can have DUPLICATE build dirs (a stray slug variant next to the real one).
+  # Prefer the one that has build.py (buildable), alphabetically first — IDENTICAL to
+  # voice_from_transcripts.build_map() so voicing and rendering hit the SAME dir.
+  local dirs withpy
+  dirs=$(ls -d "$MP"/build-$(printf '%02d' "$1")-* 2>/dev/null | grep -v _stale)
+  withpy=$(for d in $dirs; do [ -f "$d/build.py" ] && echo "$d"; done | head -1)
+  [ -n "$withpy" ] && { echo "$withpy"; return; }
+  echo "$dirs" | head -1
+}
 transcript_of(){ grep -l "\"row\": *$1\b" "$MP"/TRANSCRIPTS/*.json 2>/dev/null | head -1; }
 is_done(){ grep -q "^$1 done" "$LEDGER"; }
 
