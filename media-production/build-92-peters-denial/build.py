@@ -71,8 +71,11 @@ BEATS = [
 LEAD = 0.28
 GAP = 0.65
 KJV_GAP = 1.60
-# Per-beat gap overrides: n2 = the mounting denials; n4 = the wordless Look.
-HOLD = {"n2": 1.60, "n4": 1.80}
+# Per-beat gap overrides: reverent holds on the heaviest beats (the slowed redo
+# lets each land). n2 = the mounting denials; n3 = the rooster's crow hanging in the
+# air; n4 = the wordless Look; n5b = the silence after "wept bitterly". These also
+# carry the tight 57s telling over the 60s format floor without any dead air.
+HOLD = {"n2": 1.60, "n3": 2.20, "n4": 2.30, "n5b": 2.50}
 CARD_HOLD = 5.0
 
 
