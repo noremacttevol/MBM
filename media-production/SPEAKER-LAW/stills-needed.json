@@ -2931,7 +2931,8 @@
   "reason": "3 beats now sit on this still (31.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries three beats — God's question to the woman, Eve's verbatim answer, and the retelling into the consequences. It needs to include her. Frame the two of them standing together in the failing evening light at the edge of the garden, the woman speaking, the man beside her, both looking small against the trees. Sorrow and honesty, not accusation.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s7-the-sorrow-of-it"
  },
  {
   "build": "build-119-fourth-man-in-fire",
@@ -2969,7 +2970,8 @@
   "reason": "2 beats now sit on this still (31.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Carries the longest single scripture line in the video. The moment is the middle of verse 4: a narrow shadowed valley, the walls close, one figure walking through it and NOT running — and the shepherd walking with him, rod and staff visible in hand. The comfort has to be in frame, not just the danger.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s4-the-darkest-valley"
  },
  {
   "build": "build-147-joseph-forgives",
