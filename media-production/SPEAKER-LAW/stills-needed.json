@@ -158,8 +158,8 @@
   "current_still": "S3",
   "reason": "3 beats now sit on this still (54.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S3 now carries three beats — the setup, Jesus's verbatim 'put up again thy sword', and n3. Frame the disarming: Jesus's hand laid flat over Peter's on the sword, pushing it back down, and Jesus's eyes not on Peter but on the men coming. Calm in the middle of a mob.",
-  "slug": "",
-  "done": false
+  "slug": "s3b-put-up-thy-sword",
+  "done": true
  },
  {
   "build": "build-05-bent-woman",
