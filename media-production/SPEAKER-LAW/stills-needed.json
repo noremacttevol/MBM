@@ -178,8 +178,8 @@
   "current_still": "S9",
   "reason": "3 beats now sit on this still (53.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S9 now carries three beats — Jesus turning on him, the full verbatim answer, and the ox-and-donkey retelling. It has to hold a long stretch, so give it depth: Jesus square to the ruler in the middle of the synagogue floor, the congregation ranged behind on both sides, faces beginning to turn toward the ruler. Steady, not shouting. Sabbath light through high windows.",
-  "slug": "",
-  "done": false
+  "slug": "s9b-square-in-the-synagogue",
+  "done": true
  },
  {
   "build": "build-118-jonah-god-who-relents",
