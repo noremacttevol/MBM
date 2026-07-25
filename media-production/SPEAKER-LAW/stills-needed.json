@@ -3490,8 +3490,8 @@
   "current_still": "S7",
   "reason": "3 beats now sit on this still (29.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries three beats — the asking, the wave, and the retelling. Frame the moment James actually describes: open water at the edge of a storm, one swell being shoved sideways by the wind, no shoreline to steady it. Cold grey-green sea, low wind-torn light. It is the picture of a request that keeps getting pulled back apart, so it should feel unsettled rather than dramatic — no wreck, no danger, just water with nothing under it to hold it still.",
-  "slug": "",
-  "done": false
+  "slug": "s7b-a-wave-driven",
+  "done": true
  },
  {
   "build": "build-91-gethsemane",
