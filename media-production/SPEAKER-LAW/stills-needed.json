@@ -1158,8 +1158,8 @@
   "current_still": "S7",
   "reason": "2 beats now sit on this still (38.8s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries the great-calm beat AND the closing word to the viewer, which was previously never on screen at all. It has to hold for a long, quiet stretch. Frame it wide and still: the little boat small on a glass-flat lake, stars doubled in the water, no motion anywhere, the horizon barely visible. Room to breathe.",
-  "slug": "",
-  "done": false
+  "slug": "s7b-the-still-water",
+  "done": true
  },
  {
   "build": "build-35-great-banquet",
