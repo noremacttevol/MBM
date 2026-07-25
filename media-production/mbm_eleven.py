@@ -36,22 +36,19 @@ MODEL = "eleven_multilingual_v2"  # ElevenLabs flagship English model = the samp
 # Cameron's cast, locked 2026-07-23.
 VOICE_ELEVEN = {
     NARRATOR:  ("Brian",   "nPczCjzI2devNBz1zQrb"),
-    JESUS:     ("Alexander", "UMnEnzK9QLLdRwnUyxMW"),  # Cameron's pick 2026-07-24: warm, grounded, a man not a boy
+    JESUS:     ("Chris",   "iP95p4xoKVk53GoZ742B"),
     GOD:       ("Bill",    "pqHfZKP75CvOlQylNhV4"),
     SCRIPTURE: ("Roger",   "CwhRBWXzGAHq8TQ4Fs17"),
     WOMAN:     ("Matilda", "XrExE9yKIg1WjnnlVkGX"),
 }
 
-# Reverent, steady delivery. CRITIQUE-LAW L2 (2026-07-24): the old cut RUSHED and
-# blew through commas. Higher stability + a "speed" below 1.0 slows the read and makes
-# it honor punctuation; a touch of style adds warmth without wandering. Jesus is the
-# warmest and slowest — he should sound like he loves the people he speaks to.
+# Reverent, steady delivery. Higher stability = less wandering; modest style.
 VOICE_SETTINGS = {
-    NARRATOR:  {"stability": 0.55, "similarity_boost": 0.80, "style": 0.10, "use_speaker_boost": True, "speed": 0.92},
-    JESUS:     {"stability": 0.62, "similarity_boost": 0.80, "style": 0.18, "use_speaker_boost": True, "speed": 0.88},
-    GOD:       {"stability": 0.65, "similarity_boost": 0.80, "style": 0.05, "use_speaker_boost": True, "speed": 0.90},
-    SCRIPTURE: {"stability": 0.58, "similarity_boost": 0.80, "style": 0.08, "use_speaker_boost": True, "speed": 0.90},
-    WOMAN:     {"stability": 0.55, "similarity_boost": 0.80, "style": 0.12, "use_speaker_boost": True, "speed": 0.92},
+    NARRATOR:  {"stability": 0.45, "similarity_boost": 0.80, "style": 0.0, "use_speaker_boost": True},
+    JESUS:     {"stability": 0.55, "similarity_boost": 0.80, "style": 0.0, "use_speaker_boost": True},
+    GOD:       {"stability": 0.60, "similarity_boost": 0.80, "style": 0.0, "use_speaker_boost": True},
+    SCRIPTURE: {"stability": 0.50, "similarity_boost": 0.80, "style": 0.0, "use_speaker_boost": True},
+    WOMAN:     {"stability": 0.50, "similarity_boost": 0.80, "style": 0.0, "use_speaker_boost": True},
 }
 
 _SENT = re.compile(r"[^.!?]*[.!?]+|\S[^.!?]*$")
@@ -91,21 +88,6 @@ def eleven_spoken_text(text, overrides=None):
     return text
 
 
-def jesus_pauses(text):
-    """CRITIQUE-LAW L1/L2: make Jesus speak the way Jesus would — unhurried, letting
-    each thought land. ElevenLabs honours <break time="Xs"/> tags, so we add a gentle
-    breath after commas/colons/semicolons and a longer, weightier pause at the end of
-    each sentence. Applied to JESUS lines only; captions are unaffected (they come from
-    the segment text in build.py, not this spoken string)."""
-    # Use MILLISECONDS (no decimal point) so the "." in a duration can't be mistaken
-    # for a sentence end by the caption-timing splitter.
-    # longer, reverent pause after a full stop / question / exclamation
-    text = re.sub(r'([.!?])(\s+)', r'\1 <break time="650ms" /> ', text)
-    # gentle breath after internal punctuation
-    text = re.sub(r'([,;:])(\s+)', r'\1 <break time="350ms" /> ', text)
-    return text
-
-
 def _sentences_with_times(spoken, alignment):
     """Aggregate ElevenLabs char-level alignment into per-sentence start/end."""
     chars = alignment["characters"]
@@ -139,14 +121,10 @@ def render_segment(spoken_text_str, speaker, out_mp3, key=None):
     key = key or _key()
     speaker = SPEAKER_ALIAS.get(speaker, speaker)
     name, vid = VOICE_ELEVEN[speaker]
-    # Jesus speaks with deliberate, reverent pauses (break tags). The tags go to the
-    # API AND to the alignment (so char offsets line up); they're stripped from the
-    # per-sentence caption text afterward.
-    api_text = jesus_pauses(spoken_text_str) if speaker == JESUS else spoken_text_str
     r = requests.post(
         f"{API}/text-to-speech/{vid}/with-timestamps",
         headers={"xi-api-key": key, "Content-Type": "application/json"},
-        json={"text": api_text, "model_id": MODEL,
+        json={"text": spoken_text_str, "model_id": MODEL,
               "voice_settings": VOICE_SETTINGS[speaker]},
         timeout=120,
     )
@@ -155,9 +133,7 @@ def render_segment(spoken_text_str, speaker, out_mp3, key=None):
     data = r.json()
     with open(out_mp3, "wb") as f:
         f.write(base64.b64decode(data["audio_base64"]))
-    sents = _sentences_with_times(api_text, data["alignment"])
-    for s in sents:  # keep the pause tags out of the caption-timing text
-        s["text"] = re.sub(r'\s*<break[^>]*/>\s*', ' ', s["text"]).strip()
+    sents = _sentences_with_times(spoken_text_str, data["alignment"])
     with open(os.path.splitext(out_mp3)[0] + ".timing.json", "w") as f:
         json.dump(sents, f)
     return sents
