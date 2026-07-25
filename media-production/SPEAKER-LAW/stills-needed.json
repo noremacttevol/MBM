@@ -1078,8 +1078,8 @@
   "current_still": "S7",
   "reason": "4 beats now sit on this still (39.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries five beats — the celebration, the shepherd's verbatim call, its retelling, and Jesus's application. Frame the shepherd calling the village in: door thrown open, lamplight spilling out, the shepherd turned back over his shoulder toward the street with the sheep still in his arms, mouth open, shouting for people to come. Joy, not relief.",
-  "slug": "",
-  "done": false
+  "slug": "s7b-calling-the-village",
+  "done": true
  },
  {
   "build": "build-22-unmerciful-servant",
