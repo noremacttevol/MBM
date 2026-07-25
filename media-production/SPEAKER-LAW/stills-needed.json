@@ -3123,7 +3123,8 @@
   "reason": "2 beats now sit on this still (31.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries Jacob's verbatim outcry AND the retelling, so it holds twice as long. Frame the instant of waking, not the aftermath: Jacob bolt upright on the bare ground at first light, stone pillow beside him, one hand still on the dirt, face lit with fear and awe at once. This is the shot of a man realising he slept at the gate of heaven.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s7-surely-the-lord-is-here"
  },
  {
   "build": "build-40-the-friend-at-midnight",
