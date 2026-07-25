@@ -2990,8 +2990,8 @@
   "current_still": "ST3",
   "reason": "3 beats now sit on this still (31.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries three beats — the reveal. The moment is 'I am Joseph your brother, whom ye sold into Egypt': the Egyptian governor standing, the room emptied of servants, his face uncovered for the first time, and the brothers' recognition landing on them. Show it from behind or beside the brothers so the viewer sees what they see. Not an embrace yet — the second before it.",
-  "slug": "",
-  "done": false
+  "slug": "s3b-the-reveal",
+  "done": true
  },
  {
   "build": "build-157-marvellous-work",
