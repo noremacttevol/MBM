@@ -563,8 +563,8 @@
   "current_still": "S1",
   "reason": "3 beats now sit on this still (44.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S1 now carries three beats and has to hold the healing itself, not just the setting. Frame the exact moment of Acts 3:7 — Peter's right hand closed around the lame man's right hand, lifting, the man's weight just coming off the ground for the first time. Beautiful Gate of the temple behind them, early light on the stone, the beggar's mat still on the pavement. Faces should read as astonishment, not spectacle. Peter is giving, not performing.",
-  "slug": "",
-  "done": false
+  "slug": "s1b-the-healing-lift",
+  "done": true
  },
  {
   "build": "build-70-temptations",
