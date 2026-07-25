@@ -6,12 +6,12 @@ Paint the **missing-beat stills** the narration session catalogued in
 the words are saying, at the moment they say it. This is a marathon — do it a few
 builds per chat to keep context low (Cameron's one-chat-per-video law).
 
-## STATUS (2026-07-24, Machine C)
-- **15 new coverage stills painted + pushed** across 7 builds: 120-Job (4), 118-Jonah (3),
-  148-Ruth (3), 65-help-mine-unbelief (2), 117-Hosea (1), 70-temptations (1), 05-bent-woman (1).
-- Several beats marked **covered_by** an existing still (no repaint): build-03 (both),
-  118 (s1/s5/s10), 117 (s6/s8), 70 (s7/s9).
-- `done`/`slug` in the JSON is the source of truth. ~710 entries remain (293 "high" >25s).
+## STATUS (2026-07-24, Machine C) — updated live
+- **31 new coverage stills painted + pushed; 12 beats marked covered_by an existing still.**
+  43 of 728 resolved. ~48 "high"+wants entries remain unresolved (working worst-held first).
+- `done`/`slug`/`covered_by` in `SPEAKER-LAW/stills-needed.json` is the source of truth — the
+  marathon resumes from there. Painted builds so far include 120-Job, 118-Jonah, 148-Ruth,
+  65, 117, 70, 05, 161, 66, 149, 164, 158, 21, 11, 150, 101, 24, 111, 40, 74, 04, 135.
 
 ## THE WORKFLOW (per entry)
 1. Pick the highest `seconds_on_screen` `high`-priority entry with a `wants` brief that isn't `done`.
