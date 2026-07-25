@@ -81,3 +81,6 @@ painted edge to edge, 9:16 vertical.
 Text on cream (#F7F2E9), serif, no narration baked in (spoken + captioned in
 assembly): "The net was cast wide enough to gather you in. Will you let yourself
 be caught up in his grace?"
+
+## s5b-cast-away — NEW (split off S5 / Matthew 13:49, was 31.5s): restrained, no further than the words
+[STILL STYLE BLOCK] Restrained and sober, with NO figures at all: in the FOREGROUND at the water's edge, a small heap of the DISCARDED bad catch — a few dull, spoiled, worthless fish tipped out onto the wet dark stones and left behind, turned away from the good. Beyond them the OPEN SEA stretches out flat and grey-blue to the horizon under a LOW, HARD EVENING SKY — heavy bands of cloud, the last cold light going, quiet and sober. NO fire, NO flames, NO torment, NO person or figure of any kind anywhere — the picture holds still and says no more than the words do, a milk-before-meat restraint: only the cast-away fish, the water's edge, and the darkening sky. One single continuous scene painted edge to edge. 9:16 vertical.

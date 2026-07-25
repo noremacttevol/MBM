@@ -2891,8 +2891,8 @@
   "current_still": "S5",
   "reason": "3 beats now sit on this still (31.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S5 now carries four beats — the setting aside, Jesus's verbatim ending-of-the-world line, its continuation, and the retelling. Keep it restrained: the discarded catch tipped away at the water's edge in the foreground, and beyond it open sea and a low, hard evening sky. No fire, no torment, no figures — this is a milk-before-meat video and the picture must not go further than the words do.",
-  "slug": "",
-  "done": false
+  "slug": "s5b-cast-away",
+  "done": true
  },
  {
   "build": "build-43-the-wedding-garment",
