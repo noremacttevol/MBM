@@ -46,12 +46,15 @@ builds per chat to keep context low (Cameron's one-chat-per-video law).
   Christ-figure there is his call, not a guess.
 - Retired builds (archived): `build-44-two-debtors`, `build-128-famine-of-hearing` — skip.
 
-## FLAG (2026-07-24): build-24-sower has a PRE-EXISTING jesus-gate failure
-`jesus_face_gate.py --dir build-24-sower` exits 1 — but NOT from any coverage still.
-Causes: (a) s1-boat-teaching + s7-boat-close are the deliberate "storyteller" shots where the
-Lord is shown ONLY from behind / never-face — so they lack the byte-identical JESUS LOCK v3 +
-`REF: jesus-master-ref` line by design; (b) the literal word "halo" appears in a "No halo, no glow"
-character line (the gate bans the substring even in a negation). This predates the coverage work.
-Fixing it properly is a build-owner decision (reword "halo"→"no bright ring"; decide whether the
-never-shown storyteller shots should carry the lock) — NOT something to change blindly in a
-coverage pass, since forcing the "face shown" lock would contradict the intentional from-behind design.
+## FLAG (2026-07-24): a CATEGORY of builds has PRE-EXISTING jesus-gate failures (from-behind Jesus)
+Some older builds deliberately show the Lord ONLY from behind / face-never-shown (an older style,
+pre-dating the face-shown v3 law), so their Jesus shots lack the byte-identical JESUS LOCK v3 +
+`REF: jesus-master-ref` line BY DESIGN and `jesus_face_gate.py` exits 1 for the whole build.
+Confirmed so far: **build-24-sower** (s1, s7) and **build-40-the-friend-at-midnight** (s1, s2, s12, s15);
+build-24 also has the literal word "halo" in a "No halo, no glow" line (the gate bans the substring
+even inside a negation).
+- This is NOT caused by coverage stills — a new NON-Jesus still (hands, grain, a stone, a landscape)
+  added to such a build is clean and adds none of these failures. Verify your new shot isn't in the
+  FAIL list, record it, commit, and move on.
+- Converting these to the face-shown v3 standard (or rewording "halo") is a BUILD-OWNER decision, not
+  a coverage-pass change — forcing the "face shown" lock would contradict the intentional from-behind design.
