@@ -3085,8 +3085,8 @@
   "current_still": "S7",
   "reason": "2 beats now sit on this still (31.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries four beats and closes the whole argument: Jesus's 'he will avenge them speedily,' its retelling, and both of the good-Father beats. Frame the contrast with the judge: a father already leaning in toward someone speaking to him, face open and attentive, no gate, no desk, no waiting. Warmth and immediate attention, the exact opposite of the courtroom the story has been living in.",
-  "slug": "",
-  "done": false
+  "slug": "s7b-heard-at-once",
+  "done": true
  },
  {
   "build": "build-10-well",
