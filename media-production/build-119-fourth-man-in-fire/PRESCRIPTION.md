@@ -48,3 +48,12 @@
 - [ ] each still agrees with its line; the fourth figure is a glow among flames, **no clear face**, in beats 11, 12
 - [ ] the king's face carries the astonishment (10) and the confession (11, 16)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 9, 11, 12
+
+## Length read
+Verdict: TRIM to ~195s — a real multi-scene arc (statue, refusal, furnace, fourth man, deliverance), but two beats over-explain the moral.
+n3 ("They obeyed because he is God either way") and n7 ("God had not kept them out of the furnace — he met them inside it") both state the takeaway the card already delivers ("he would be in it with them"); the king's own question-and-answer frame (n2b → n10) is the better carrier, keep that.
+
+## Narration read
+- Narrator fixes: trim the moral-explaining sentences in n3 and n7 — the card and the s315/s328 payoff carry that meaning. The "hold on to that question… he is going to answer it himself" setup in n2b and its payoff in n10 are strong storytelling; keep both.
+- Scripture lifts: already the biggest gain in the range — this build had zero non-narrator beats and gained five: s315 (3:15), s317 (3:17-18), s325 (3:25), s326 (3:26), s328 (3:28), all SCRIPTURE. The fourth figure never speaks in Daniel 3, so there is no line to lift to GOD. None remaining.
+- Cast/colour: correct — Nebuchadnezzar and the three men SCRIPTURE-blue; "the form of the fourth is like the Son of God" stays blue because it is Nebuchadnezzar reporting, not the figure speaking; nothing red, nothing green.

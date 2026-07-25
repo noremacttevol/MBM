@@ -40,3 +40,12 @@
 - [ ] Mary and Joseph's faces carry beat 10 — the tender gaze, not the baby's face
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 8, 10, 12
+
+## Length read
+Verdict: TRIM to ~180s — cut the repeated moral in n9/n11/n12 (over-explaining)
+229s. The nativity earns length, but the back half preaches the same point four times: n7 ("He came all the way down"), n9 ("the scandal and the sweetness of it"), n11 ("something in that you were meant to see"), n12 ("the whole reason he came down so low... room for you") — and the card lands it again. Keep one, cut the rest.
+
+## Narration read
+- Narrator fixes: n9/n11/n12 -> three segments all sermonizing "he came low so there is room for you"; collapse to one and let the card carry it; n7 -> trim the "Read that again slowly..." editorial aside.
+- Scripture lifts: none available — Caesar's decree (sv1) and Luke's account (v7) are already SCRIPTURE blue; no Bible figure's own words are paraphrased in narration.
+- Cast/colour: correct — no red (the infant is silent); v7 correctly SCRIPTURE blue (Luke narrating), fixing the old wrongly-red state noted in the build comment.

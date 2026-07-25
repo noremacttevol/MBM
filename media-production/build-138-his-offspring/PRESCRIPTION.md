@@ -59,3 +59,12 @@ scenes Acts 17 does not paint.
       across s1/s3/s6; unknown-altar inscription non-legible
 - [ ] no divine figure depicted (Paul at Athens); "live" reads /LIV/ in n2 and p1
 - [ ] `bash admin/verify-mp4.sh <mp4> <len>` green
+
+## Length read
+Verdict: KEEP ~70s.
+mp4 is 70.4s. Tight Mars-hill arc — the unknown-god altar, Paul's "not far from any of us," the Acts 17:28 quote, the call to repent, the card. No repetition or dead stretch.
+
+## Narration read
+- Narrator fixes: n2 retells Acts 17:28 ("we live and move and have our being") BEFORE p1 delivers the KJV — the retelling rule wants the KJV first, then the plain retell. Re-order or let n2 follow p1.
+- Scripture lifts: n3 "God overlooked the times of ignorance before... now He commands all men everywhere to repent" → Acts 17:30 KJV "And the times of this ignorance God winked at; but now commandeth all men every where to repent:" → SCRIPTURE / light blue (Paul). One lift available. (n2's line is already carried by p1.)
+- Cast/colour: NOT MIGRATED to SPEAKER-LAW — old edge-tts format, and p1 is voiced with en-US-ChristopherNeural (the GOD voice). Paul is a man: his line must be SCRIPTURE = Steffan (blue), never green. Migrate to mbm_speakers.

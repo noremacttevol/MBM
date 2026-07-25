@@ -41,3 +41,12 @@
 - [ ] no face is put on the LORD — voice/light only
 - [ ] description links the Apostasy Gospel Library page
 - [ ] `bash admin/verify-mp4.sh <mp4>` green
+
+## Length read
+Verdict: TRIM to ~115s — cut the third setup beat and n8's restatement
+n1, n2, and n3 all establish the same idea (a famine that is hunger for God's word) — n3's "still feel a hollow place inside that no meal could reach" restates n2 — and n7/n8 both land "you only starve for what is real," which the card repeats.
+
+## Narration read
+- Narrator fixes: n3 → cut or merge into n2; n8 → keep only "will you sit down and eat?" handoff.
+- Scripture lifts: none available — kv11/kv12 are the LORD's first-person oracle and are already lifted to GOD (green); no further Deity line is paraphrased in narration.
+- Cast/colour: correct — kv11/kv12 GOD (green): Old Testament first-person Jehovah, not red.

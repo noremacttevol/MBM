@@ -44,3 +44,12 @@
 - [ ] each still agrees with its line; beat 8 shows her covered and welcomed, not shamed
 - [ ] God shown only as a voice — no face — in beats 4, 9, 11
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 7, 8, 10
+
+## Length read
+Verdict: TRIM to ~210s — the arc (wandering → far marketplace → bought back → betrothal) is real and earns most of 232s, but n8 rambles.
+n8 leaves the scene to preach the moral at length ("That is what God says to everyone sure they have wandered too far… He does not wait at the door with a list of your failures. He comes looking, he pays the price himself, and he calls you home") and the card then says the same thing again.
+
+## Narration read
+- Narrator fixes: n8 → shrink to a scene close; it explains the moral the card already carries. n3's "here the story stops being like any other" is a small editorial aside; optional trim. The retellings (n2b, n3, n6, n7b, n8w) are required by the retelling rule and are clean.
+- Scripture lifts: already complete and strong — w1 (Hosea 2:5) and w2 (2:7) in the WOMAN voice, gv1 (3:1), jvA (2:14), jvB (2:19-20) as GOD, s32 (3:2, Hosea's purchase) as SCRIPTURE. n6 correctly retells s32 ("he did not lecture her. He paid for her"). None remaining.
+- Cast/colour: correct — the wife WOMAN-pink (recorded speaking, 2:5 and 2:7), Jehovah GOD-green, Hosea's own line SCRIPTURE-blue.

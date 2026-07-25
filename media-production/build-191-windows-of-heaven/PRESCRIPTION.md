@@ -40,3 +40,11 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] s1 caption is green (GOD), not red — Malachi is Old Testament, Jehovah speaking
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 4 (windows) and 5 (overflow)
+
+## Length read
+Verdict: KEEP ~68s
+The one quote (Malachi 3:10, green) is retold across n2/n3a/n3b; setup n0/n1 is lean. n2b (added for the 60s floor) is the only soft spot — it re-states n2's "test me" and adds commentary — but the video stays short and earns its runtime.
+## Narration read
+- Narrator fixes: n2b → tighten. It repeats n2's "test me, and see if I don't open the windows" and editorializes ("the only one in scripture who ever says: prove me"). Keep the "prove me / put me to the test" idea once, drop the commentary clause.
+- Scripture lifts: none available — s1 is already the LORD's verbatim words; n0 only paraphrases the same verse the build already quotes.
+- Cast/colour: correct — s1 green (GOD/Jehovah, Old Testament first person), narrator white.

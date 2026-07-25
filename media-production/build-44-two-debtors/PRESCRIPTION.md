@@ -49,3 +49,12 @@ reads like a T2. Trusting the beats over the band.
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face not shown in beats 3, 9, 10 — over-the-shoulder / on the woman and Simon
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 3, 9, 11
+
+## Length read
+Verdict: TRIM to ~285s — trim the long closing sermon (n10's tail explains the moral the card already carries)
+n10 runs from scene ("she walked out saved") into a full moral lecture ("the quiet danger in Simon's seat... that was never the punishment, that is the gift"), which the card ("how much do you believe you have been forgiven?") delivers on its own.
+
+## Narration read
+- Narrator fixes: n10 → cut the "quiet danger in Simon's seat... that is the gift" tail; n7 → drop the re-quote of Simon ("I suppose the one who was let off the most") now that s43 says it verbatim just before.
+- Scripture lifts: none available — Simon (s40, s43, blue), Jesus's verdict (j3b), the comparison (jv44) and the absolution (jv48) were already lifted; the woman is silent in Luke 7:36-50 and was correctly not given an invented line.
+- Cast/colour: correct — parable stays Jesus-red, Simon is SCRIPTURE blue (outside the parable), woman silent; no God in the passage.

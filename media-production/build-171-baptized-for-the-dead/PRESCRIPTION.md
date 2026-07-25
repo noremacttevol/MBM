@@ -30,3 +30,14 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Christ at the tomb (beat 4) via master ref; no Jesus face-closeup
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; picture count inside 6–9 band
+
+
+## Length read
+Verdict: KEEP ~94s
+Terse throughout — s1 poses Paul's question, n1/n2/n3 are one-line bridges, s20/s22 carry the resurrection the argument rests on, and the retelling beats (n4a "Christ rose.") are single sentences. Nothing editorializes and no beat drags; every second earns its place.
+
+## Narration read
+- Narrator fixes: card caption reads "Because He livez" — "livez" is the misspelling written into the caption text, not the SPOKEN dict; fix the caption to "lives" (respellings belong only in SPOKEN, captions keep true spelling).
+- Scripture lifts: none available — s1 (15:29), s20 and s22 already lifted; no unquoted Paul line remains that the build needs.
+- Cast/colour: correct — epistle, no red, all quoted verses SCRIPTURE.
+

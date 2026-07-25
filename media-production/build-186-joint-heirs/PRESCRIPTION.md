@@ -41,3 +41,12 @@
 - [ ] the suffer/glorified split (beats 4, 5) preserved — the two terms get two frames
 - [ ] speaker map matches SPEAKER-LAW (s1, s2 SCRIPTURE-blue)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 2, 4, 6
+
+## Length read
+Verdict: KEEP ~73s
+Two verses, each retold, plus the inheritance framing — reasonable weight. n3a/n3b is a summary rather than new story, but at 73s it does not push the piece long.
+
+## Narration read
+- Narrator fixes: n3a/n3b ("Not earned by effort. Received by belonging. Heirs together with the Son.") → optional tighten; it summarizes the doctrine the card carries. n0b/n1/n2 retellings are good.
+- Scripture lifts: none available — 8:16 (s1) and 8:17 (s2) already lifted, both SCRIPTURE-blue; n0b split off as the retelling of 8:16.
+- Cast/colour: correct — both blue. This is the exact Paul-in-red case Cameron named, now fixed to blue. Matches SPEAKER-LAW.

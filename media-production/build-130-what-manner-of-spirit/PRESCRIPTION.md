@@ -56,3 +56,12 @@ starved. Padding would invent action Luke 9 does not paint.
       still carries the idea without spectacle
 - [ ] Jesus face-shown via master ref only (s4 rebuke), over-the-shoulder onto James/John
 - [ ] `bash admin/verify-mp4.sh <mp4> <len>` green
+
+## Length read
+Verdict: TRIM to ~56s — cut n4 ("Anger that wants to destroy isn't from Him. The spirit He brings saves.").
+mp4 is 62.3s. n3 already says "He didn't come to burn. He came to rescue"; n4 restates that, and the card ("He came to save, not to burn") says it a third time. The save-not-burn point lands three times across n3, n4, and the card.
+
+## Narration read
+- Narrator fixes: n4 → cut (repeats n3 and pre-empts the card, moral-explaining). n3/card carry the point cleanly on their own.
+- Scripture lifts: none available beyond s54 (Luke 9:54, James and John) already lifted to SCRIPTURE. j1 (Luke 9:55-56) is already JESUS. n2's "turned and rebuked them" frame is deliberately left in the narrator's modern voice per the build's own note.
+- Cast/colour: NARRATOR white, SCRIPTURE blue (the two apostles — not Deity), JESUS red — correct. Luke 9:51-56 records no woman speaking; none added.

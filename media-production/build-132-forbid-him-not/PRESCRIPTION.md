@@ -57,3 +57,12 @@ overcoming-shadow is mood and drops per the 62/68 precedent if runtime crowds.
 - [ ] each still agrees with its line; JOHN look-locked across s1/s4/s9
 - [ ] Jesus face-shown via master ref only (s1/s5); John's face carries the lesson
 - [ ] `bash admin/verify-mp4.sh <mp4> <len>` green
+
+## Length read
+Verdict: TRIM to ~68s — cut n4 ("John learned a lesson that day: the kingdom is bigger than the inner circle") and n3b ("The work isn't about belonging to a team — it's about Him").
+mp4 is 79.1s. n3b, n4, and the card all state the same moral three times ("bigger than the inner circle" / "not about a team" / "don't draw the circle too small"). n4 is textbook moral-explaining ("John learned a lesson that day"). n1 also lightly repeats n0's "wasn't one of their group."
+
+## Narration read
+- Narrator fixes: n4 → cut (explains the moral). n3b → cut or fold into the card (moralizes, card already carries it). n1 → tighten (repeats n0).
+- Scripture lifts: none available beyond s38 (Mark 9:38, John's complaint) and jv41 (Mark 9:41, cup of water) already lifted; j1 (Mark 9:39-40) is already JESUS.
+- Cast/colour: NARRATOR white, SCRIPTURE blue (John, an apostle), JESUS red — correct. Mark 9:38-41 records no woman speaking.

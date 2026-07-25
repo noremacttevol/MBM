@@ -58,3 +58,12 @@ don't paint. Trust the beats; do not pad with un-narrated Egypt spectacle.
 - [ ] the brothers' faces carry the reveal (6,7) and the relief (9); Joseph's tears carry (13,14) — no invented scenes
 - [ ] Joseph's lines painted light-blue (SCRIPTURE), never red or green
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 6, 12, 14
+
+## Length read
+Verdict: TRIM to ~88s — cut the editorial tails on n1c and n3
+Real mp4 runs 96.6s. The three Joseph quotes and their retells carry the story; the padding is the commentary added after each retell: n1c ends "permission to stop hating themselves" and n3 ends "He didn't pretend it hadn't hurt. He saw God's hand turning their evil into rescue" — both explain the moral that Genesis 50:20 (s2) and the card already deliver.
+
+## Narration read
+- Narrator fixes: n1c → cut the closing sentence ("He gave them the one thing they could not give themselves: permission to stop hating themselves"); n3 → cut the last two sentences ("He didn't pretend it hadn't hurt. He saw God's hand turning their evil into rescue"). Keep the plain retells of what Joseph said.
+- Scripture lifts: none available — Joseph's three lines (Gen 45:4, 45:5, 50:20) are already lifted to the SCRIPTURE voice.
+- Cast/colour: correct — Joseph = SCRIPTURE/blue (a man quoted, not Deity), narrator = white.

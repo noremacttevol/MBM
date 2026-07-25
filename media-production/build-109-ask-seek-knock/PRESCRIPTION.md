@@ -44,3 +44,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus shown teaching via master ref / over-the-shoulder; the child carries the emotional beats
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 5, 6, 7
+
+## Length read
+Verdict: TRIM to ~90s — shrink n7 ("So the invitation is just this: ask... The Father is not reluctant. He is leaning in, glad to hear your voice") and thin the stacked word-by-word gloss in n2–n4 (132s now vs a T1 45–75 target — nearly double).
+n7 restates the card's exact point ("glad to be asked"), and the ask/seek/knock unpacking is expanded a beat further than the verse needs.
+
+## Narration read
+- Narrator fixes: n7 → cut/shrink (repeats the card's "glad to be asked"). n6 → tighten the "Prayer is not twisting God's arm" moral to the retelling. n5b/n6 retellings of jv910/jv11 stay.
+- Scripture lifts: none available — all four quoted lines are already Jesus-red (jv7, jv8, jv910, jv11); no figure's words sit inside narrator paraphrase.
+- Cast/colour: correct — JESUS red (Sermon on the Mount, in the flesh).

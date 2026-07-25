@@ -42,3 +42,12 @@
 - [ ] Jesus shown via master ref / over-the-shoulder at the door and at glory distance enthroned — the person behind the door carries the emotion
 - [ ] speaker map matches SPEAKER-LAW (j1, j2 JESUS-red — the glorified Christ)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 1, 2, 5
+
+## Length read
+Verdict: KEEP ~64s
+Tightest in the set. Knock quoted (j1), the "he does not break the door" turn, the throne promise quoted (j2), the retelling. Every second earns its place; nothing to cut or add.
+
+## Narration read
+- Narrator fixes: clean. n1/n2/n3 are scene, turn, and retelling — no moral-explaining, no editorializing.
+- Scripture lifts: none available — 3:20 (j1) and 3:21 (j2) both red and present, with n1 and n3 already retelling them.
+- Cast/colour: correct — both JESUS-red (the risen Christ dictating to Laodicea; Revelation 3 prints red in a red-letter Bible). The "overcometh" pronunciation fix is already handled in SPOKEN.

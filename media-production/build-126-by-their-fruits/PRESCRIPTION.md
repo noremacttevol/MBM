@@ -37,3 +37,12 @@
 - [ ] each still agrees with its line; the wolf (2) is visibly in a sheep's coat
 - [ ] Jesus's face only via master ref / over-the-shoulder — the tree/fruit images carry it
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 2, 4, 6
+
+## Length read
+Verdict: KEEP ~104s — tight and well-sequenced: verse, retelling, verse, retelling, with no back-to-back red and no dead stretch.
+Every beat advances (false prophets → know them by fruit → good/corrupt tree → cannot switch → hewn down); nothing repeats or over-explains.
+
+## Narration read
+- Narrator fixes: clean. j1b is the narrator's retelling of Matthew 7:15 (correctly white, not red) and n2b carries the "cannot switch places" point of jv18; both are scene-work, not moralizing.
+- Scripture lifts: none available — jv18 (7:18) was already lifted out of n2's paraphrase into JESUS, and j1a (7:15), j2 (7:16-17), j3 (7:19-20) are Jesus, verbatim.
+- Cast/colour: correct — JESUS-red for the teaching beats, j1b correctly NARRATOR-white as the retelling.

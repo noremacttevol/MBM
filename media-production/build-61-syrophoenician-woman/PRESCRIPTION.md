@@ -54,3 +54,12 @@ Current 9 stills. Give her catching-the-opening (5) and the walk-home-on-his-wor
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] w28 caption is **pink** (WOMAN), not blue
 - [ ] `bash admin/verify-mp4.sh <mp4> 179` green; frame-verify beats 5, 9, 10
+
+## Length read
+Verdict: KEEP ~179s
+Mark 7:24-30 is one tight exchange; n4's long "children's bread / pups under the table" setup is needed to make j1 land, so it stays.
+
+## Narration read
+- Narrator fixes: n5b breaks tone with a modern aside ("Bible students love this moment: it is the only time in the gospels anyone wins an exchange with Jesus") → rephrase plain and reverent, or trim to "and you can almost hear how glad he was to lose it."
+- Scripture lifts: none available — her reply (w28) already lifted to WOMAN/pink; Jesus' j1/j2 red. Her Matthew 15:22 cry is not in Mark, correctly left out.
+- Cast/colour: correct — WOMAN/pink present on the line the whole build turns on.

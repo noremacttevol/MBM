@@ -48,3 +48,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Ruth's and Naomi's faces carry the vow (3) and the bitterness/filling (5,6,12); Boaz's lines are light-blue, never green
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 3, 12
+
+## Length read
+Verdict: KEEP ~173s
+Real mp4 runs 173.5s — long, but this is a genuine multi-scene epic covering the whole book of Ruth (chs. 1–4: the loss, the vow, the return, the gleaning, Boaz the redeemer, the marriage, the child, the line to David). Every beat advances the arc, and each Old-English woman/scripture line is followed by the modern retelling SPEAKER-LAW mandates, so the length is earned rather than padded.
+
+## Narration read
+- Narrator fixes: clean — the long retells (n2, n2b, n4, n5) are the required plain-English restatements of the KJV lines, not sermons; n7 bridges to the Redeemer without preaching and the card carries the moral.
+- Scripture lifts: none available — Ruth's vow (1:16–17), Naomi's lament (1:20–21), and Boaz's blessing/word (2:12, 3:11) are already lifted to WOMAN and SCRIPTURE voices.
+- Cast/colour: correct — Ruth = WOMAN/pink, Naomi = WOMAN/pink, Boaz = SCRIPTURE/blue (his lines speak about the LORD in third person, so blue not green), narrator = white.

@@ -53,3 +53,11 @@ intentional breathing room, not dead air. Not a starved cut.
 - [ ] j1 caption is red (JESUS)
 - [ ] the sacred-silence hold after n1b is preserved; do not clip it as dead air
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beat 7 (Matthew 24:14)
+
+## Length read
+Verdict: TRIM to ~60s — trim the pre-quote wind-up (n2a/n2b) that previews Matthew 24:14 before Jesus says it.
+n1b "a message carried to every corner of the earth", n2a "Not a secret kept for a few", and n2b "A witness given to all nations — the good news of the kingdom" all state j1's content before j1 lands, blunting the verse's punch. Keep one wind-up line, let the scripture land fresh.
+## Narration read
+- Narrator fixes: n2a/n2b → trim; they paraphrase j1 ("witness unto all nations", "gospel of the kingdom") ahead of the quote. n3 retelling after j1 is the right place for the plain-English version.
+- Scripture lifts: one available — n0a/n0b "the long road ahead... wars, rumors, hardship" → Matthew 24:6 "And ye shall hear of wars and rumours of wars: see that ye be not troubled" → JESUS/red (same Olivet discourse, mortality, red-letter).
+- Cast/colour: **NOT migrated to SPEAKER-LAW.** This build still uses the old edge_tts `save_narration` template with `JESUS = en-US-ChristopherNeural` — Christopher is the GOD voice; Jesus must be `en-US-EricNeural`. Convert to `mbm_speakers` (NARRATOR, JESUS) so j1 renders in the Eric voice. j1 red is doctrinally correct (Jesus in mortality); the voice is wrong.

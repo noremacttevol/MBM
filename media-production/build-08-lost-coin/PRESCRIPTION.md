@@ -33,3 +33,12 @@ Stepped to 8 pictures because this is a three-verse parable with one image and o
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] the woman's parable lines are red, not pink — verify jv8/jv9a/j1/j2 captions
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 5, 6
+
+## Length read
+Verdict: KEEP ~69s
+The tightest cut in the range — one lost coin, the search, the joy, the application — in 69s. Nothing to cut.
+
+## Narration read
+- Narrator fixes: clean.
+- Scripture lifts: none available — the parable is already lifted in full (jv8, jv9a, j1, j2).
+- Cast/colour: correct — the woman is a character inside Jesus's parable, so her words are JESUS-red (not pink), exactly as the build has it.

@@ -45,3 +45,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref (beats 3, 4, 12); the emotional beats ride Matthew + the outcasts
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 5, 9, 13
+
+## Length read
+Verdict: TRIM to ~200s — cut n12 and tighten n10 (repetition of the one point)
+"The door is open to the ones who assume they'd never be let in" is stated in n9, n10, n12 and the card. n12 ("the table is still set... He is not waiting for you to qualify... come and eat") is pure application already carried by the card.
+
+## Narration read
+- Narrator fixes: n12 → cut (duplicates card); n10 → tighten (restates n9's "the only thing that kept anyone away was believing they were already fine"); n11 (Matthew became a gospel writer) is a fair factual coda, keep.
+- Scripture lifts: none available — s9 (Matt 9:9 "And he arose, and followed him") and s11 (the Pharisees' 9:11 question) already lifted to SCRIPTURE/blue; j1/j2 red.
+- Cast/colour: correct — no green; no woman is quoted in Matthew 9:9-13 (n6's "men and women" rightly left unspoken).

@@ -43,3 +43,12 @@ the beats over the band.
 - [ ] each still agrees with its line — beat 3 shows the man mid-cry (torment), beat 5 the same man freed and calm
 - [ ] the bound man and the congregation carry the beats; Jesus speaks the command at beat 4 without being the emotional face
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 3, 4, 5
+
+## Length read
+Verdict: KEEP ~149s
+Tight and single-arc — the unclean spirit (s24) and the crowd (s27) are each retold once, and n5-n8 carry the deliverance and its spread without repeating the moral, which the card holds.
+
+## Narration read
+- Narrator fixes: clean — only n4b's "sit with that for a second" is a mild editorial aside, optional to trim.
+- Scripture lifts: none available — the spirit's cry (s24) and the congregation's question (s27) are already blue; jv25 stays red; Mark 1:22's authority line was deliberately left as paraphrase to avoid doubling s27.
+- Cast/colour: correct — the spirit is SCRIPTURE blue (not red, not green — a being in the story, not Deity), Jesus red; no women in Mark 1:21-28.

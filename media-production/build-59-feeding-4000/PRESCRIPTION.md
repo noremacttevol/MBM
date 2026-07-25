@@ -53,3 +53,12 @@ blessing and breaking) breathe.
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face not the subject at beat 8 (hands + bread, over-the-shoulder)
 - [ ] `bash admin/verify-mp4.sh <mp4> 165` green; frame-verify beats 7, 8, 10
+
+## Length read
+Verdict: KEEP ~164s
+Mark 8:1-9 runs tight; the j5 -> s5 "How many loaves have ye?" / "Seven." exchange is intentionally back-to-back and earns its place.
+
+## Narration read
+- Narrator fixes: n7 leans lightly on the moral ("That is simply who he is") — a one-line trim if needed; the card already carries it. Otherwise clean.
+- Scripture lifts: none available — jv2/j3/j5 red; the disciples' s4 and the one-word s5 ("Seven") already blue.
+- Cast/colour: correct.

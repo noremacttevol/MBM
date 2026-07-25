@@ -67,3 +67,12 @@ boundary and the honest beat read gives 7 distinct moments. Not starved: 7 still
 - [ ] Jesus face-shown via master ref only, answering — no close Jesus face in an
       emotional beat; the accusers' faces carry the confrontation
 - [ ] `bash admin/verify-mp4.sh <mp4> <len>` green
+
+## Length read
+Verdict: TRIM to ~90s — cut the moralizing tail of n5 ("never let the outside of religion grow so loud that it drowns out the heart of it. He would always rather have an honest heart than a flawless performance. Come to him with the real one.")
+Est. ~100s (261 narration words, no mp4 yet). Everything through j3 is tight scene/quote/retell, but n5 stops telling the story and starts preaching the moral — the closing card's job, not the narrator's. There is no separate `card` question beat, so n5 is doing double duty; shrink it to the scene/turn and let a closing question carry the meaning.
+
+## Narration read
+- Narrator fixes: n5 → cut the sermon tail (moral-explaining / tells the viewer what to feel); keep only the "rule about God to cancel a command from God — a loophole" turn. n3 is a borderline retelling of "their heart is far from me" — acceptable, leave it.
+- Scripture lifts: n4 "God had said, Honour thy father and thy mother" → Mark 7:10 KJV "For Moses said, Honour thy father and thy mother; and, Whoso curseth father or mother, let him die the death." → JESUS / red (Jesus speaks it in this passage; red-letter). One lift available.
+- Cast/colour: NARRATOR white, JESUS red — correct. No woman speaks in Mark 7:6-13; none added — correct.

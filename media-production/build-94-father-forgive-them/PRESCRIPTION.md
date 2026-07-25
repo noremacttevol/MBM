@@ -47,3 +47,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref / over-the-shoulder; the SOLDIERS carry the emotional beat (8)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 4, 7, 8
+
+## Length read
+Verdict: TRIM to ~65s — cut n4a/n4b (the mercy-covers-you application the card already makes)
+At 72s the scene is tight through the prayer, but after n3 already retells "forgive them now — while it's still happening," n4a ("That is how far his mercy reaches. If it covered the ones killing him,") and n4b ("there is no one, and nothing you've done, it can't cover") apply the moral to the viewer — which is exactly what the card does ("That mercy has your name in it too").
+ 
+## Narration read
+- Narrator fixes: n4a + n4b → cut or shrink; they tell the viewer what it means and duplicate the card. n0–n3 clean (scene, turn, retelling).
+- Scripture lifts: already done — s33 Luke 23:33 (the crucifixion account, Luke writing) and s34b Luke 23:34 "And they parted his raiment, and cast lots" both SCRIPTURE/blue, and j1 Luke 23:34 "Father, forgive them; for they know not what they do" JESUS/red. No figure's quoted words remain in white paraphrase. None available.
+- Cast/colour: Jesus's prayer red (exact, in the flesh), Luke's framing blue not red (the law calls this build out by name), no green (the Father is prayed to, does not answer aloud). Correct.

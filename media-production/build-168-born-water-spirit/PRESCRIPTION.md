@@ -30,3 +30,14 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face at beats 2 and 6 only via master ref / over-the-shoulder onto Nicodemus's face
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; picture count inside 6–9 band
+
+
+## Length read
+Verdict: TRIM to ~124s — cut n7 (duplicates the card), shrink n6 (explains the moral)
+n7 "When you stand before it, will you go through?" is the card's closing question word for word. n6's "quiet study gem... The gate is the gate" states the moral the card carries. n4/n5 wind up water-and-Spirit at length before kv5b quotes it — trim the wind-up so the verse keeps its punch.
+
+## Narration read
+- Narrator fixes: n7 → cut (card question restated); n6 → shrink (explains the moral); n4/n5 → tighten, they run long before the kv5b quote.
+- Scripture lifts: none available — kv3b/kv5b are Jesus-red, and Nicodemus's own words (John 3:4) are already lifted to s4; nothing unquoted remains.
+- Cast/colour: correct — splits done, kv3/kv5 (frame) SCRIPTURE, kv3b/kv5b JESUS-red, s4 Nicodemus SCRIPTURE.
+

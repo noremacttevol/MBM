@@ -41,3 +41,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref; the hungry witness (beat 3) carries the ache
 - [ ] `bash admin/verify-mp4.sh <mp4>` green
+
+## Length read
+Verdict: KEEP ~69s
+Real mp4 runs 68.7s. Three "I am the bread" statements (j1/j2/j3), each with a short narrator retelling; nothing repeats and no beat is padded. n3 ("given, like bread broken, so the world could have life") bridges cleanly to the card.
+
+## Narration read
+- Narrator fixes: clean — n1/n2/n3 stay in scene-and-retell, no moralizing.
+- Scripture lifts: none available — every quoted line is already Jesus's own words in the JESUS voice.
+- Cast/colour: correct — Jesus = red, narrator = white.

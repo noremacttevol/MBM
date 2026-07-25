@@ -29,3 +29,14 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's voice via master ref (beats 2–4); the coming-forth carried by the witnesses' faces
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; picture count inside 6–9 band
+
+
+## Length read
+Verdict: KEEP ~59s
+Sits right at the 60s floor after j2 (John 5:28-29) and n2c were added to lift it off 48.8s. Every beat earns its place: John 5:25 split three ways for pacing, the two retellings are single lines, and n2c ("Not some of the dead. All of them.") carries the added verse. No padding to trim.
+
+## Narration read
+- Narrator fixes: clean — n0/n1 set up, n2a/n2b/n2c retell in short reverent lines; none explain the moral.
+- Scripture lifts: none available — John 5:25 (j1a/b/c) and 5:28-29 (j2) are already in JESUS-red; no paraphrase of unquoted speech remains.
+- Cast/colour: correct — Gospel, Jesus in the flesh, all quoted beats JESUS-red.
+

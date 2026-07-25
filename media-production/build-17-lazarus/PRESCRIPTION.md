@@ -46,3 +46,12 @@ The sisters were never heard — five lines are now pink. The picture plan must 
 - [ ] Jesus's face restrained at beat 10 (weeping) — the mourners' faces carry it; over-the-shoulder at j4 (beat 15)
 - [ ] Lazarus is bound in grave-linen with his face wrapped in beat 16, not already unwrapped
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 10, 16, 19
+
+## Length read
+Verdict: TRIM — cut the moral-explaining tails; the mp4 is truncated (moov atom missing, runtime unmeasurable), but this is a genuine multi-scene raising and the arc earns most of its length.
+n6 ("Sit with that"), n10 ("The one who stands over every grave you have ever wept beside ... He does not merely explain the resurrection. He is the resurrection") and n5 ("He did not offer her a doctrine to file away") tell the viewer what to feel and preach the point the closing card already carries.
+
+## Narration read
+- Narrator fixes: n6 → cut "Sit with that"; n10 → cut the "does not merely explain the resurrection, he is the resurrection" sermon tail; n5 → trim the "doctrine to file away" editorial.
+- Scripture lifts: TWO available in n4 — "Jesus told her, your brother will rise again" → John 11:23 "Thy brother shall rise again" → JESUS red; and "yes, at the end of the world, on the last day, I know" → John 11:24 "I know that he shall rise again in the resurrection at the last day" → WOMAN pink (Martha). The five other sister lines are already lifted (w3/w21/w27/w32/w39).
+- Cast/colour: correct for what's lifted — sisters WOMAN pink, Jesus red (j1-j5); add the two above. (SPOKEN respells for liveth/believest/lovest/stinketh already staged; rebuild deferred.)

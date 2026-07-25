@@ -46,3 +46,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus shown teaching via master ref / over-the-shoulder; the child carries beats 8, 9, 10
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 2, 9, 10
+
+## Length read
+Verdict: TRIM to ~120s — cut/shrink n6 ("That is really all it is. Not a speech to impress heaven. A child, climbing into the lap of a good Father, and simply talking to him") (137s now vs 80–120 target).
+n6 says the same thing as n7 ("you do not need the right words") and the card ("talk to God the way a child talks to a good Father"). One of the three carries it; the other two are repetition.
+
+## Narration read
+- Narrator fixes: n6 → cut/shrink (repeats n7 and the card). n3/n4 retellings of the petitions stay; n5's "vain repetitions" retelling stays.
+- Scripture lifts: none available — the disciples' request is already lifted to s11 (Luke 11:1, blue) and the whole prayer plus the "vain repetitions" warning are Jesus-red (jv9a, jv9, jv11, jv13, jv7).
+- Cast/colour: correct — JESUS red (in the flesh); the disciples' request SCRIPTURE blue (s11).

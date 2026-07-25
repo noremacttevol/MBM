@@ -52,3 +52,12 @@
 - [ ] each still agrees with its line — especially the veil tearing top-to-bottom (9), not bottom-up
 - [ ] Jesus's face only via master ref / over-the-shoulder at the cross; the temple cut lands on the torn veil
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 3, 9, 12
+
+## Length read
+Verdict: TRIM to ~72s — collapse the triple "not defeat" wind-up (n0/n1/n1b) and cut n4a/n4b
+The "it's completion, not defeat" idea is stated three times around the line: n0 ("wasn't a victim losing a fight"), n1 ("not a cry of defeat, but a declaration of completion"), n1b ("Not I am finished... paid in full"). Keep the strongest (n1b) and thin the wind-up so "It is finished" lands. At the end, n4a/n4b explain the torn-veil meaning ("The way in was thrown wide — for everyone") which the card already delivers ("The way to God is open. Walk in.").
+
+## Narration read
+- Narrator fixes: n0 + n1 → trim; they pre-explain the line before j1 says it. n4a + n4b → cut/shrink; the veil's meaning is card territory (n3a already retells the tearing itself).
+- Scripture lifts: already done — j1 John 19:30 and jv46 Luke 23:46 "Father, into thy hands I commend my spirit" both JESUS/red; s30b John 19:30 "And he bowed his head, and gave up the ghost" and s51 Matthew 27:51 (the veil) both SCRIPTURE/blue (the evangelists writing). "I thirst" and "Eloi, Eloi" were considered and left out by design, not paraphrased. None available.
+- Cast/colour: two reds correct (both his own words in the flesh), John's and Matthew's framing blue, no green (Father spoken to, silent). Correct.

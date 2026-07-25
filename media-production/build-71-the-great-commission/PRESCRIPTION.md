@@ -50,3 +50,12 @@ The retell lines ride the same stills as the red quotes they explain (Part 4). N
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref; beat 2 rides the eleven's worship + doubt
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 2, 5, 9
+
+## Length read
+Verdict: KEEP ~120s
+Lean for the risen Christ's three-verse charge with a plain retelling after each red line (n3/n4/n5), no dead stretch. n6 is the one soft spot — it turns to application ("every person who ever told you about Jesus...") — but it is the bridge that lands the milk, and the card carries the question.
+
+## Narration read
+- Narrator fixes: n6 → optional tighten (application runs a touch long before the card); otherwise clean.
+- Scripture lifts: none available — jv18/jv19/jv20 (Matt 28:18-20) are all already JESUS/red and nobody else speaks in the passage.
+- Cast/colour: correct — JESUS red, NARRATOR white only. Face-law honored (risen Christ staged from behind).

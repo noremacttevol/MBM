@@ -42,3 +42,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref at j1/j2; the woman's face carries 2, 5, 9, 13, 17
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 9, 13, 15
+
+## Length read
+Verdict: TRIM to ~285s — trim editorial flourishes (n7 "at the bottom of every list her world kept"; n9 "the first missionary in that gospel by sundown") and let Jesus's paraphrased lines move to red, which tightens the long narrator wind-ups (n2, n5)
+At 313s it is a genuinely long conversation, but the narrator both editorializes and speaks several of Jesus's own lines instead of quoting them, which bloats his beats.
+
+## Narration read
+- Narrator fixes: n5 is very long because it paraphrases the whole five-husbands exchange — lift Jesus's words out (below) and keep only the retelling. n7 → trim "at the bottom of every list." n9 → trim "first missionary... by sundown."
+- Scripture lifts: n2 → "if she knew who was asking, she would have asked him — and he would have given her living water" → John 4:10 → JESUS/red. n5 → "Five husbands... And the man you have now is not one" → John 4:17-18 → JESUS/red. n6 → "God is spirit, and what he wants is the heart" → John 4:24 → JESUS/red. Three lifts available.
+- Cast/colour: correct on who is present — woman pink (w9, w11, w15, w19, w25, w29), Jesus red (j1, j2) — but Jesus's conversational lines are still missing from red (see lifts above).

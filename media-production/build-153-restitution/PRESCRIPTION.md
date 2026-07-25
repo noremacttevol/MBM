@@ -48,3 +48,12 @@ distinct moments (the amazed crowd, the command, the man rising) before Peter pr
 - [ ] captions: s6/kv19/kv21 light-blue (SCRIPTURE — Peter); rest white
 - [ ] description links the Restoration Gospel Library page
 - [ ] `bash admin/verify-mp4.sh <mp4>` green
+
+## Length read
+Verdict: TRIM to ~135s — cut n8's moral restatement (card duplicates it near-verbatim)
+n8 opens "So this verse is a promise you can lean your full weight on. The world is not just sliding into ruin," which the card repeats almost word-for-word ("The world is not ending in ruin. It is heading toward a restoration of all things"); n3's double simile ("like cool rain... like a deep breath") can shed a clause.
+
+## Narration read
+- Narrator fixes: n8 → cut the moral half, keep the "Will you turn...?" handoff; n3 → trim one of the two similes.
+- Scripture lifts: 1 (already applied) — s6 lifts Acts 3:6 out of n1's paraphrase → "Silver and gold have I none; but such as I have give I thee: In the name of Jesus Christ of Nazareth rise up and walk." → SCRIPTURE/blue (Peter). kv19/kv21 cover the rest.
+- Cast/colour: correct — Peter = SCRIPTURE (blue); no red (Jesus does not speak in Acts 3).

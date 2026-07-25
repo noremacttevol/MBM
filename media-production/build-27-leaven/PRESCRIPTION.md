@@ -36,3 +36,12 @@
 - [ ] each still agrees with its line (the leaven is small/plain, the meal is huge, the risen dough is alive)
 - [ ] Jesus's face only in beat 1, via master ref / over-the-shoulder
 - [ ] `bash admin/verify-mp4.sh <mp4> <len>` green
+
+## Length read
+Verdict: TRIM to ~88s — cut n8 (moral-explaining "That is how good he is... warmed and changed" that the closing card already carries).
+It's a single-verse parable (Matthew 13:33). n2-n6 honestly explain what leaven and three measures of meal were (scene). n7 names the point (hidden, quiet, changes everything). n8 then re-preaches that same point and tells the viewer what to feel - dead weight beside the card.
+
+## Narration read
+- Narrator fixes: n8 -> cut (explains the moral / tells us what to feel; card does this job). n7 -> keep but it is the last word needed on meaning.
+- Scripture lifts: none available - the one KJV line (Matthew 13:33) is already voiced as j1, and n2-n8 is genuine narrator exposition with no buried figure-quote to lift.
+- Cast/colour: correct - NARRATOR white, s33 SCRIPTURE blue (Matthew's framing "Another parable spake he unto them"), j1 JESUS red (verbatim parable). The woman in the parable is described, never quoted, so no pink is right.

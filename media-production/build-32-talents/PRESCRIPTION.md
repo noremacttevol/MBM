@@ -52,3 +52,12 @@ not a target).
 - [ ] the master is drawn as a wealthy lord, NOT a Jesus likeness (this is a parable about "a man")
 - [ ] beat 13 shows the master grieved, not cruel — the whole point of the story
 - [ ] `bash admin/verify-mp4.sh <mp4> <len>` green
+
+## Length read
+Verdict: TRIM to ~132s — shrink n10's "That is the real tragedy... God is not the hard man that servant imagined" editorial; the card ("What if he is kinder than you think?") carries it.
+143s, cleanly built: j14 opens, scene through n1-n6, "Well done" voiced (j1), the fearful servant's own words voiced (j24, j2). n9 names the turn (he misjudged the master). n10 then explains the moral and tells the viewer what to feel.
+
+## Narration read
+- Narrator fixes: n10 -> tighten to the turn (cut "That is the real tragedy of the story" and the "longing to say to you, well done" feeling-talk; card owns it). n9 -> keep (names the turn).
+- Scripture lifts: none available - all KJV beats (Matthew 25:14, 21, 24, 25) are voiced, including the fearful servant's speech.
+- Cast/colour: correct - JESUS red throughout the parable, including the master's "Well done" and the servant's fearful reply (parable rule).

@@ -60,3 +60,12 @@ its moment.
       look-locked across frames
 - [ ] Jesus face-shown via master ref only; the scribe's face carries the emotional beats
 - [ ] `bash admin/verify-mp4.sh <mp4> <len>` green
+
+## Length read
+Verdict: KEEP ~115s.
+mp4 is 115s. The runtime is carried by the full Mark 12:29-31 great-commandment quote (jv29) and the scribe's full 12:32-33 reply (s32), not by padding — every narrator beat is a short retell or bridge. The length is scripture-driven, so it earns its place.
+
+## Narration read
+- Narrator fixes: n2 → rephrase. It reads as a lead-in to the scribe's words ("The scribe agreed — and added something honest:") but s32 has already played before it, so the dangling colon mis-cues; make it a plain retell ("The scribe agreed, and went further than he was asked").
+- Scripture lifts: none available beyond the three already lifted — s28 (Mark 12:28, the scribe), jv29 (Mark 12:29-31, Jesus — stays red though he quotes Deut/Lev, because he is the one talking), s32 (Mark 12:32-33, the scribe). j1 (Mark 12:34) is already JESUS.
+- Cast/colour: NARRATOR white, SCRIPTURE blue (the scribe), JESUS red — correct. The widow of 12:41-44 says nothing and is not in this cut; no pink needed.

@@ -63,3 +63,12 @@ range (Part 3): 13 stills, no padding.
 - [ ] fv1 caption is **light-blue** SCRIPTURE (the father), not red
 - [ ] Jesus via master ref; the father and boy carry beats 6, 10, 11
 - [ ] `bash admin/verify-mp4.sh <mp4> 210` green; frame-verify beats 6, 10, 11
+
+## Length read
+Verdict: TRIM to ~195s — cut n4 (narrator explains the moral at length)
+n4 ("Think about what he just did... that cracked-open, honest, half-full faith — was enough") re-explains the point n3b just made and the card lands again — the story already showed it in the father's own lifted line.
+
+## Narration read
+- Narrator fixes: n4 explains the moral (redundant with n3b and the card) → cut or shrink hard. n7b tail is a mild explanation but it ties the disciples' failure to the father's honesty — keep.
+- Scripture lifts: none available — the father's lines (s22, fv1) already lifted to SCRIPTURE/blue and Jesus' j1/j2/j3 red.
+- Cast/colour: correct — and the headline fix is right: fv1 "Lord, I believe; help thou mine unbelief" is the father, so SCRIPTURE/blue, not Jesus-red. A quoted man is blue, never red or pink.

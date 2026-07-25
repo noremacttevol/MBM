@@ -35,3 +35,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] the loved look at beat 5 shot over Jesus's shoulder onto the man's face; the man's face carries 1, 8; his back carries 9
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 5, 8, 11
+
+## Length read
+Verdict: TRIM to ~185s — cut n6's rhetorical question ("Is that weakness — or is it the deepest respect you have ever been shown?"), which pre-empts the closing card (n7)
+197s is otherwise tight and moving; the only waste is a second question in n6 that competes with the card's job.
+
+## Narration read
+- Narrator fixes: n6 → cut the "Is that weakness..." question so the closing card (n7) carries the one question.
+- Scripture lifts: n1 → "Don't cheat anyone. Don't steal. Don't lie. Honor your father and your mother." → Mark 10:19 "Do not commit adultery, Do not kill, Do not steal, Do not bear false witness, Defraud not, Honour thy father and mother" → JESUS/red. One lift available (the ruler's own lines s17/s20 are already lifted).
+- Cast/colour: correct — Jesus red (j1), rich young ruler blue (s17, s20); no woman speaks in Mark 10:17-22.

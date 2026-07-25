@@ -42,3 +42,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] the father's face carries beats 4, 6, 8, 9, 10; Jesus speaks the word at beats 5 & 7 without being the emotional face
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 7, 9, 10
+
+## Length read
+Verdict: KEEP ~160s
+Tight three-voice retelling — each blue lift (s49, s51, s52) is set up and retold once, and the closing n11 plus card land the "his word was already true the whole way home" point without repeating it.
+
+## Narration read
+- Narrator fixes: clean — the frame/retell beats (n6/n6b, n9/n9b, n10/n10b) each do scene-and-turn only.
+- Scripture lifts: none available — the father (s49), the servants' message (s51) and the hour (s52) are all already lifted to SCRIPTURE blue; jv48/jv50 stay red; no woman speaks in John 4:46-54.
+- Cast/colour: correct — NARRATOR white, JESUS red, SCRIPTURE blue; note the validator will flag "ere" (s49) and "the seventh hour" (s52) as archaic-marker misses, but both are verbatim KJV.

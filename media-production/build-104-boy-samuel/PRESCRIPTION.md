@@ -47,3 +47,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] God is never given a face — voice only, in the dark
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 3, 9, 10
+
+## Length read
+Verdict: TRIM to ~120s — trim the moral in n7 ("That was all God had been waiting for. A heart small enough and open enough to stop running around and simply listen") and the summary tail of n8 ("It began with a boy saying, speak — I am listening") (142s now vs 80–120 target).
+The three-times call and the taught answer all earn their place — that repetition IS the story. What doesn't is n7/n8 editorializing the lesson the card already asks.
+
+## Narration read
+- Narrator fixes: n7 → cut the "A heart small enough and open enough..." moral. n8 → cut the closing "It began with a boy saying, speak — I am listening" (card echoes it). n1–n6 clean.
+- Scripture lifts: none available — Samuel's and Eli's lines are already lifted (s5a, s5b, s9, ns); God's call is its own green beat (jv10).
+- Cast/colour: correct — GOD green for Jehovah calling (1 Samuel, OT); Samuel and Eli SCRIPTURE blue (people in the story, never Deity).

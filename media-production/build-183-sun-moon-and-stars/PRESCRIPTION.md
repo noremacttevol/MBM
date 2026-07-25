@@ -41,3 +41,12 @@
 - [ ] the sown/raised split (beats 4, 5) is preserved — the reversal gets two frames
 - [ ] speaker map matches SPEAKER-LAW (s1, s2 SCRIPTURE-blue)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 2, 4, 5
+
+## Length read
+Verdict: KEEP ~73s
+Two quoted verses each retold immediately, plus framing — appropriate weight for the passage. Only n4 is expendable, so no structural trim is needed.
+
+## Narration read
+- Narrator fixes: n4 → cut or shrink ("The same God who hung the sun... is preparing a brightness for you" is moral-explaining the card carries); n3's "there are glories — plural — and every one of them is a gift of light" leans on the degrees-of-glory reading — the build's WHY-LAW defends it as milk, so leave unless Cameron wants it plainer.
+- Scripture lifts: none available — n0–n4 are the storyteller's own framing; both verses (15:41 s1, 15:42 s2) are quoted with the retelling following. Nothing a figure spoke was left as paraphrase.
+- Cast/colour: correct — s1 and s2 both SCRIPTURE-blue (Paul writing a letter; Jesus is not quoted in the passage).

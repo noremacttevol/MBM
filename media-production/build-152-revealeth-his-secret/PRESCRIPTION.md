@@ -41,3 +41,12 @@
 - [ ] captions: kv7/kv8 light-blue (SCRIPTURE, third-person about the LORD — NOT green); rest white
 - [ ] description links the Prophets Gospel Library page
 - [ ] `bash admin/verify-mp4.sh <mp4>` green
+
+## Length read
+Verdict: TRIM to ~110s — cut the third restatement of "God warns before he acts"
+n3 ("Before he acts, he tells someone") and n6 ("this is a mercy, not a threat") already land the point, then n8 ("God still does not leave his people guessing") explains it a third time before the card repeats it ("He warns before he acts... He still speaks this way").
+
+## Narration read
+- Narrator fixes: n8 → drop the moral restatement, keep only "Are you listening?"; n6 overlaps n3 — tighten one.
+- Scripture lifts: none available — the only first-person Jehovah line (Amos 3:2) was deliberately left out as meat; kv7/kv8 are Amos speaking about the LORD and are already quoted.
+- Cast/colour: correct — kv7/kv8 SCRIPTURE (blue), third-person about the LORD, not green (SPEAKER-LAW §9).

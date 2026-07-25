@@ -55,3 +55,12 @@
 - [ ] Jesus master-locked, behind / over-the-shoulder ONLY (no side-profile); no divine figure
       for the Father; no Trinitarian symbols; night time-of-day
 - [ ] `bash admin/verify-mp4.sh <mp4> <len>` green
+
+## Length read
+Verdict: KEEP ~75s.
+mp4 is 75.1s. The whole cut is Jesus's John 17 prayer in two red beats with three short retells between them. No repetition, no dead air; the runtime is scripture-driven. n2's doctrinal aside is the video's thesis, not padding.
+
+## Narration read
+- Narrator fixes: n2 ("this prayer would be asking millions of believers to melt into one person. It doesn't ask that") edges toward arguing the point rather than telling the story — soften if it reads as debate, but it stays reverent and is the reason the video exists. Otherwise clean.
+- Scripture lifts: none available — the full prayer is already in JESUS red (j1 John 17:20-21, j2 John 17:22-23a). The Father is addressed but speaks no line in John 17, so there is nothing to lift to GOD.
+- Cast/colour: NARRATOR white, JESUS red — correct. Build is on the SPEAKER-LAW schema (imports mbm_speakers). The Father is addressed, not depicted — correct.

@@ -41,3 +41,12 @@ mercy: the net gathered EVERY kind first (CONTENT-CARE's own note for #30).
 - [ ] beat 5 renders the sorting soberly, no literal fire
 - [ ] the close lands on grace reaching YOU, not on judgment
 - [ ] `bash admin/verify-mp4.sh <mp4> <len>` green
+
+## Length read
+Verdict: TRIM to ~120s — cut n9 and n11 (both repeat the "grace is wide / not yours to sort" point); keep n8 (the turn: angels sort, not us) and n10 (bridge to the card).
+Current mp4 is 145.97s (already down from the 182s .orig). The tail n8-n11 is four straight segments of moral-explanation: n8 names the turn, then n9 ("you do not have to spend your life deciding who belongs"), n10 ("grace reached out wide enough"), and n11 ("That is how good he is...") all restate it. The card carries the close.
+
+## Narration read
+- Narrator fixes: n9 -> cut (preaches the moral, repeats n8). n11 -> cut ("That is how good he is" editorial, duplicates n10 and the card). n8, n10 -> keep. n4 borderline editorial but tied to the scene.
+- Scripture lifts: none available - all four KJV beats (Matthew 13:47-50) are voiced (j1, j48, j2, j50).
+- Cast/colour: correct - JESUS red across the whole parable, including the furnace/angels lines (a red-letter KJV inks the whole parable); SCRIPTURE/NARRATOR as marked.

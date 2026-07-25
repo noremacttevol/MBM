@@ -46,3 +46,13 @@
 - [ ] each still agrees with its line — the silent moving lips (3) and Eli's misjudgment (5) must read clearly, they are the wound
 - [ ] Hannah's face carries the prayer (4), the answer to Eli (6), and the child (9); Eli's line is light-blue
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 3, 8
+
+## Length read
+Verdict: KEEP ~140s
+Real mp4 runs 139.6s — a full narrative arc of 1 Samuel 1 (the barren years and mocking, the silent prayer and vow, Eli's misread, the answer, Samuel's birth and naming, the giving-back). Each of Hannah's KJV lines gets its mandated modern retelling and every beat moves the story; none of it rambles.
+
+## Narration read
+- Narrator fixes: n5 ("Every time anyone said that child's name, they were saying it again: I asked, and He heard") edges into commentary — tighten to just the name's meaning if it needs room; otherwise clean.
+- Scripture lifts: one available —
+  - n3a "thought she was drunk" → 1 Samuel 1:14 "How long wilt thou be drunken? put away thy wine from thee." → SCRIPTURE/blue (Eli, whose actual rebuke is only paraphrased here; his blessing s1 is already lifted).
+- Cast/colour: correct — Hannah = WOMAN/pink, Eli = SCRIPTURE/blue, narrator = white.

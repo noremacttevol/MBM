@@ -77,3 +77,12 @@ the table row.
       Deity beats; Noah look-locked to the character sheet across frames
 - [ ] "bow" reads /boh/ in the rendered audio (jv13, jv16, n8); captions keep "bow"
 - [ ] `bash admin/verify-mp4.sh <mp4> <len>` green
+
+## Length read
+Verdict: TRIM to ~230s — cut n11 and tighten n10; trim the repeated clause in n2b.
+mp4 is 263.4s — the longest in the range and over the ~200s ramble flag. This is a single-scene covenant, not a multi-scene epic, so the length has to be earned. The five God-beats and their retells (n4, n6, n7, n8, n9) are the spine. n11 ("This is the God the whole story has been about... He has not changed") is a pure editorial summary — the closing card's job. n10's "Children point at it. Nobody runs from it" editorializes the same "living inside a kept promise" note. n2b repeats n2's "everything they had ever known was gone."
+
+## Narration read
+- Narrator fixes: n11 → cut (moral-explaining editorial summary; card carries it). n10 → tighten (drop the "children point at it" editorial). n2b → trim the "wreckage of a drowned world" line that repeats n2.
+- Scripture lifts: none available — all five Deity lines (gv91, jv22, jv9, jv11, jv13, jv16) are already lifted to GOD. Noah's only recorded words in the passage are the Canaan curse (9:25-27), correctly excluded as meat; no woman speaks.
+- Cast/colour: all five God beats correctly GREEN (Old-Testament Deity — a red-letter KJV prints them black, so green not red). This was the build's central fix and it is correct. "bow" respelled "boh" for the archery-bow sense — correct.

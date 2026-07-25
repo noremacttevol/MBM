@@ -34,3 +34,14 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] no Jesus face-closeup in beats 4–8; the Father is voice + light, never a face (SPEAKER-LAW §9)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; picture count inside 10–15 band
+
+
+## Length read
+Verdict: TRIM to ~122s — cut n7 (duplicates the card), shrink n6 (explains the moral)
+n7 "When you come to that same water, will you go down into it?" repeats the card's closing question. n6's "quiet study gem... the Godhead, standing plain to see" is the moral said aloud — though this is the doctrinal payload, the card already carries it. n5 and n6 both narrate the three-distinct-persons point.
+
+## Narration read
+- Narrator fixes: n7 → cut (card question restated); n6 → shrink (explains the moral, overlaps n5); n3 and n5 are valid retellings, keep.
+- Scripture lifts: none available — this is the SPEAKER-LAW worked example; John's protest (s14), Jesus (kv15b), and the Father (gv17) are all already lifted to their voices.
+- Cast/colour: correct — the exemplar: kv15/kv15c frame SCRIPTURE, kv15b JESUS-red, kv17 frame SCRIPTURE, gv17 the Father GOD-green.
+

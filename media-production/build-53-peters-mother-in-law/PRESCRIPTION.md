@@ -50,3 +50,12 @@ words arrive. Let the hand-and-lift (6) breathe.
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face not shown at beat 6 (hand + over-the-shoulder)
 - [ ] `bash admin/verify-mp4.sh <mp4> 100` green; frame-verify beats 6, 7, 8
+
+## Length read
+Verdict: KEEP ~100s
+Ten short segments carry Mark 1:29-31 end to end with no repetition and no over-explaining. The one reflective line (n8, "a small, quiet miracle... no crowd and no spectacle") is brief and reverent, so it stays.
+
+## Narration read
+- Narrator fixes: n8 slightly does the card's summarizing job ("a small, quiet miracle, tucked into an ordinary house") — trim only if a second is needed; otherwise clean.
+- Scripture lifts: none available — Mark 1:29-31 records no direct speech from anyone; the healing verse is already lifted as s31 (SCRIPTURE/blue).
+- Cast/colour: correct — no red/green/pink because no one speaks; Mark's sentence is blue. The woman is silent in Mark, Matthew 8 and Luke 4, so no pink is right.

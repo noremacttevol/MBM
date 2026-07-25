@@ -45,3 +45,12 @@
 - [ ] beat 8 shows the temple sacrifice behind the publican, tying his prayer to the lamb
 - [ ] no Jesus face except the teller frame at beat 1
 - [ ] `bash admin/verify-mp4.sh <mp4> <len>` green; frame-verify beats 7 and 10
+
+## Length read
+Verdict: TRIM to ~190s — cut n8a and n8b (added commentary not in the text: the hour-of-sacrifice reading and the "in Luke's Greek" lecture break the reverent story tone), and collapse the triple moral tail n11-n13 into one.
+234.75s - the longest in the range and it rambles. The story itself is tight (s9 frame, jv10, the two prayers j1/j2, the verdict j3, well retold). The bloat is the exposition: n8a/n8b stop the story to teach, and n11 ("he had not done one thing to earn it"), n12 ("the Pharisee... is still standing there"), n13 ("the door only closes from the inside") all preach the same moral the card makes.
+
+## Narration read
+- Narrator fixes: n8a -> cut (editorial commentary the scene doesn't need). n8b -> cut (academic "Luke's Greek" aside; breaks tone, is not scene/turn/bridge). n11-n13 -> collapse to one line (three segments explaining the moral / telling the viewer what to feel). n6's "says the word I five times" observation is fine as the turn.
+- Scripture lifts: none available - the Pharisee's prayer (Luke 18:11-12), the publican's "God be merciful to me a sinner" (Luke 18:13) and the verdict (Luke 18:14) are all voiced.
+- Cast/colour: correct - s9 SCRIPTURE blue (Luke's framing), and both prayers plus the verdict JESUS red, exactly as SPEAKER-LAW section 9 lists "the Pharisee and the publican at prayer" under red that must stay.

@@ -50,3 +50,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus shown via master ref only; the tempter never given a literal face
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 9, 11, 13
+
+## Length read
+Verdict: TRIM to ~205s — cut n7's moral recap, weigh the Hebrews epilogue
+At 232s it is a genuine three-scene duel, but n7 ("He has stood in your exact spot. That is why he knows how to stand next to you in it") repeats the card almost word for word. The s415/n7 Hebrews teaching tacked after "Get thee hence" softens the climax.
+
+## Narration read
+- Narrator fixes: n7 → cut the closing application (duplicates card); the Hebrews epilogue (s415 + n7) is optional weight after the story already ended on the angels ministering.
+- Scripture lifts: none available — all three temptations already lifted to SCRIPTURE/blue (s3/s6/s9), s11 and Hebrews s415 added, the three "It is written" answers correctly stay JESUS/red.
+- Cast/colour: correct — Satan is SCRIPTURE/blue (not red), no green (the Father does not speak here), no woman speaks in Matthew 4:1-11.

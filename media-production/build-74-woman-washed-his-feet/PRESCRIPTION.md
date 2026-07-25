@@ -48,3 +48,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref; the emotional beats ride the woman (and Simon for contrast)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 3–5, 12, 17
+
+## Length read
+Verdict: KEEP ~172s
+Dialogue-dense — Simon's thought, the two-debtors parable and answer, three of Jesus's lines, the table's mutter — and every beat is a real exchange, not padding. n4's parable retelling is the longest beat but the retelling rule requires it.
+
+## Narration read
+- Narrator fixes: clean; n4 is long but it is the mandated plain-English retelling of the parable.
+- Scripture lifts: none available — the pass already lifted j40 / j41 (two-debtors) / j44 to JESUS/red and Simon's lines (s39/s40/s43) and the table (s49) to SCRIPTURE/blue.
+- Cast/colour: correct — the woman is SILENT in Luke 7:36-50, so no pink is right; the two-debtors parable stays JESUS/red per SPEAKER-LAW §5.

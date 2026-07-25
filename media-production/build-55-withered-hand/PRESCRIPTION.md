@@ -55,3 +55,12 @@ coming alive as he reaches) breathe.
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] beat 7 shot over Jesus's shoulder onto the leaders' hard faces, not on his face
 - [ ] `bash admin/verify-mp4.sh <mp4> 147` green; frame-verify beats 4, 7, 9
+
+## Length read
+Verdict: TRIM to ~140s — cut n7 (narrator explains the moral)
+n7 ("Mercy, to him, was never a breaking of the sabbath; it was the whole reason for it") tells the viewer the meaning the story just showed, and the card lands the same point — dead weight against Part A.
+
+## Narration read
+- Narrator fixes: n7 explains the moral ("He will always move toward the person... mercy was the whole reason for it") → cut or shrink to a one-line bridge; the card carries it.
+- Scripture lifts: none available — j3 "Stand forth", jv4 and jv5 are all red already; Mark's anger/grief frame is s5a/blue.
+- Cast/colour: correct.

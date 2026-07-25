@@ -43,3 +43,12 @@
 - [ ] tone stays gentle — death shown as rest / return, never dramatised; God carried by receiving light, no face
 - [ ] speaker map matches SPEAKER-LAW (s0, s1 SCRIPTURE-blue — Solomon, not God)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 4, 5, 6
+
+## Length read
+Verdict: TRIM to ~65s — the "spirit returns to God" point is stated three times after it is quoted
+s1 quotes Ecclesiastes 12:7, n2 retells it plainly, then n3 ("It is the spirit's quiet return to the One who lent it") and n4a/n4b ("the Giver who receives it back is the same Giver who first breathed it into you — with mercy, not anger") say the same thing twice more. Keep n2's retelling; fold n3 and n4a/n4b into one gentle closing line.
+
+## Narration read
+- Narrator fixes: n3 and n4a/n4b → merge to one line (both restate the return-to-God point n2 already retold, and add reassurance the card carries). n0b's "He is not being grim... not to wait" is acceptable retelling.
+- Scripture lifts: none available — s0 (12:1) already lifted from n0's paraphrase and s1 (12:7) present, both SCRIPTURE-blue.
+- Cast/colour: correct — both blue. Ecclesiastes is the Preacher writing with God in the third person ("unto God who gave it"), so green would be wrong; matches SPEAKER-LAW section 9.

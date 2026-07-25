@@ -44,3 +44,12 @@ Stepped to 17 pictures (band tops at 15) because the narration walks through man
 - [ ] the gap of empty ground between lepers and road is real in beats 2–4 (it is the law, not shyness)
 - [ ] Jesus's face not shown in the thanks/lifting beats except over-the-shoulder / hand (beats 12, 15)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 7, 10, 13
+
+## Length read
+Verdict: TRIM to ~200s — cut the moral-explaining tails in n11 and n13, plus n0's foreshadow ("Keep that seam in mind. It matters at the end of this story.")
+n11 reassures at length ("This is not wounded pride — the nine did nothing wrong ... His question is grief, not a scolding") and n13 spells cleansed-vs-whole out twice ("Cleansed happened to his skin. Whole happened to all of him") — the closing card already carries that meaning. Keep the cleansed/whole distinction once; drop the repetition.
+
+## Narration read
+- Narrator fixes: n0 → cut the "keep that seam in mind / it matters at the end" foreshadow; n11 → shrink the "not wounded pride / grief not a scolding" moral-explain to the one-line turn; n13 → state cleansed/whole once, not both ways.
+- Scripture lifts: none available — the lepers' cry is already lifted (s13, Luke 17:13, SCRIPTURE) and Jesus's three lines are already red (j1/j2/j3); no other figure's words are paraphrased.
+- Cast/colour: correct — the ten lepers are men in the story, so their cry is SCRIPTURE blue and Jesus is red; no women in Luke 17:11-19, no heaven voice.

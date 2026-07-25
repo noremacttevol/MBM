@@ -43,3 +43,12 @@ Four exchanges lived only as paraphrase. The lawyer's questions go blue (outside
 - [ ] the Samaritan's line (beat 13) is JESUS-red, the lawyer's lines (1, 3, 15) are SCRIPTURE-blue
 - [ ] the wounded traveler's face and the Samaritan's compassion carry beats 5, 9–11 — not Jesus's face
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 5, 9, 15
+
+## Length read
+Verdict: KEEP ~187s — the story beats earn their place; the only fix is the editorial tail on n15.
+n15 retells "Go, and do thou likewise" (proper retelling) but adds "That is how good he is. He will not even let you keep score" — moral-explain the card already carries ("Where are you on that road right now?").
+
+## Narration read
+- Narrator fixes: n15 → cut the "That is how good he is / keep score" editorial tail after the retelling.
+- Scripture lifts: none required — the lawyer's questions are already blue (s25/s29/s37), the Samaritan's line inside the parable is already red (j35), Jesus red (j1/j2); the lawyer's recital of the law (Luke 10:27) was deliberately left as paraphrase in n1b to avoid a third blue block before the story starts.
+- Cast/colour: correct — the lawyer is SCRIPTURE blue (a real man in the frame), while Jesus and the parable's characters (including the Samaritan) are red (a red-letter KJV inks the whole parable); no women in Luke 10:25-37.

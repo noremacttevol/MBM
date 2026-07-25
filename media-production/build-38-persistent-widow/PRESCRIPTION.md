@@ -48,3 +48,12 @@ band, per the no-clock rule.
 - [ ] God is not depicted at beats 7–9 — the turn is spoken; the widow / heaven imagery holds
 - [ ] each still agrees with its line (the widow is worn but steady, not defeated)
 - [ ] `bash admin/verify-mp4.sh <mp4> <len>` green
+
+## Length read
+Verdict: TRIM to ~148s — cut n8 (repeats n7's "God is not that judge") and trim n1b (it duplicates the scripture s1 just quoted).
+164.8s. Luke's stated purpose is voiced (s1), the parable voiced (jv2, j1, j2, jv8) and retold well (n2-n6). But n6 already delivers "how much more will your Father hear you," then n7 AND n8 both re-explain "God is not that reluctant judge," which the card also says.
+
+## Narration read
+- Narrator fixes: n8 -> cut (repeats n7). n7 -> tighten (explains the moral / tells the viewer what to feel). n1b -> trim (restates s1 "men ought always to pray, and not to faint").
+- Scripture lifts: none available - the widow's "Avenge me of mine adversary" and every other line (Luke 18:1-8) are already voiced.
+- Cast/colour: correct - s1 SCRIPTURE blue (Luke's framing), the parable including the widow's plea and the judge's soliloquy JESUS red, exactly as SPEAKER-LAW section 9 lists "the widow's 'Avenge me of mine adversary'" under red that is correct.

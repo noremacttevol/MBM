@@ -39,3 +39,12 @@
 - [ ] each still agrees with its line — beat 6 shows BOTH boats sinking low, not one
 - [ ] Simon's face carries beats 3, 5, 7, 8; Jesus speaks without being the emotional face
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 5, 7, 8
+
+## Length read
+Verdict: KEEP ~154s
+Well-paced — Peter's two lifted lines (s5, s8) are each framed and retold once, and the ending (n8 + card) closes on "he asked for all of it" without padding.
+
+## Narration read
+- Narrator fixes: clean — the frame/retell pairs (n3/n3b, n6/n6b) stay scene-and-turn; note the open pronunciation risk on "Gennesaret" (n1) and "draught" (jv4), with SPOKEN left empty pending Cameron's ear.
+- Scripture lifts: none available — Peter's "nevertheless at thy word" (s5) and "depart from me" (s8) are already blue; jv4/jv10 stay red; no woman speaks in Luke 5:1-11.
+- Cast/colour: correct — Peter SCRIPTURE blue (a man, not Deity), Jesus red; matches SPEAKER-LAW.

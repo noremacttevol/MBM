@@ -51,3 +51,12 @@
 - [ ] God is never given a face — presence/light/hands moving through the garden
 - [ ] Eve's line (7) is pink; Adam's (6) is light blue — verify caption colours against SPEAKER-LAW
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 5, 9, 11
+
+## Length read
+Verdict: TRIM to ~120s — cut the moral close of n9 ("That is the God of the very first story. Not one who waits for you to clean yourself up and come find him...") and tighten n5b/n8 (163s now vs 80–120 target).
+The hide, the "Where art thou," the confession, and God clothing them all carry the story. n9 then restates the theme the card already asks ("Where are you hiding, that he is gently calling you out of?"), and n5b editorializes ("Shame has never once made a person run toward God").
+
+## Narration read
+- Narrator fixes: n9 → cut the "That is the God of the very first story..." moral (card carries it). n5b → tighten the "Shame has never once made a person run toward God" aside. n6 is the mandated retelling of w13 — keep.
+- Scripture lifts: none available — Adam's answer is already lifted to s10 (Genesis 3:10, blue), Eve's to w13 (Genesis 3:13, pink), and both of God's questions are green (jv9, jv13).
+- Cast/colour: correct — GOD green for Jehovah (Genesis, OT, never red); Adam SCRIPTURE blue (s10); Eve WOMAN pink (w13). Matches the self-check note.

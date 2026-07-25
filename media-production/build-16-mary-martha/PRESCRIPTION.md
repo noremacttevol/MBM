@@ -34,3 +34,12 @@
 - [ ] Martha's face carries beats 3, 4, 6, 7, 9, 10 — not Jesus's face
 - [ ] "wound tighter" (n4) reads /waund/ (past tense of wind), per the build's SPOKEN dict
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 5, 7, 9
+
+## Length read
+Verdict: TRIM to ~150s — cut the repetition across n10/n11/n12, which explain the same point three times.
+n10 ("What troubled him was the worry underneath it"), n11 ("she did not have to earn her place near him") and n12 ("He never scolded the serving. He worried about the worry. That is the kind of God he is") land the same idea back to back; keep the strongest and let the card carry the rest.
+
+## Narration read
+- Narrator fixes: n12 → cut ("That is the kind of God he is" editorial and it repeats n10); collapse n10/n11 so the moral isn't stated three ways.
+- Scripture lifts: none available — Martha's only line is already lifted (w40, Luke 10:40, WOMAN pink) with n8 as its retelling; Mary is silent in the passage and nothing was invented for her.
+- Cast/colour: correct — Martha WOMAN pink, Jesus red (j1, Luke 10:41-42); no green (no heaven voice in Luke 10:38-42).

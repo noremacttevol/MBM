@@ -36,3 +36,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref (asleep at 6, standing at 8); the disciples' faces carry 5, 12
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 6, 9, 10
+
+## Length read
+Verdict: TRIM to ~210s — cut the tone-explaining in n8 ("He never said the storm wasn't real. He never scolded them") and reshape the preachy closing card n10
+234s carries a scene that mostly earns its place, but n8 over-explains how to read Jesus's question and n10 exhorts ("Bring him your fear, and let him speak his peace") where the closing card should ask, not preach.
+
+## Narration read
+- Narrator fixes: n8 → trim the gloss on Jesus's tone. n10 → the closing card preaches rather than asks; tighten toward a single reverent line/question per Part B.
+- Scripture lifts: none available — the disciples' two lines (s38, s41) are already lifted; j0/j1/j2 stay red. The psalm referenced in n9b is not a figure's quoted speech.
+- Cast/colour: correct — Jesus red (j0, j1, j2), disciples blue (s38, s41); no woman speaks in Mark 4:35-41.

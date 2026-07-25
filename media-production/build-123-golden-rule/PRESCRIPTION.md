@@ -40,3 +40,12 @@
 - [ ] each still agrees with its line; beat 7 shows the overflowing measure spilling into a lap
 - [ ] Jesus's face only via master ref / over-the-shoulder — the ordinary people carry the emotion
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 3, 6, 8
+
+## Length read
+Verdict: TRIM to ~130s — the four parallel illustration beats make one point four ways.
+n3 (bread), n4 (drink), n5 (mercy) and n6 (lifting someone off the road) are all the same golden-rule move restated; keep the two strongest (bread and mercy) and n8 duplicates the card ("the shortest way to everything the law was ever trying to teach").
+
+## Narration read
+- Narrator fixes: n3-n6 → keep two, cut two (same illustration repeated). n8 → shrink; it restates the card. n2's opening retelling of jvA is good; keep.
+- Scripture lifts: none available — jvA (Matthew 7:12) and jvB (Luke 6:38) are already Jesus, verbatim; nothing is paraphrased that a figure spoke.
+- Cast/colour: correct — both red, including jvB from the Sermon on the Plain (Luke 6:38 is still Jesus in the flesh); "for this is the law and the prophets" stays red because Jesus is the one citing it.

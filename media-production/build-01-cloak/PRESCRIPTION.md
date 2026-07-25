@@ -39,3 +39,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face never carries an emotional beat — master ref / over-the-shoulder at 8, 9, 13; the woman's face carries 5, 12, 14
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 7, 13, 14
+
+## Length read
+Verdict: KEEP ~109s
+Tight through the whole arc — the plea, the secret touch (w28), "Who touched my clothes?", the disciples' pushback, "Daughter, thy faith hath made thee whole." No dead stretch; n5 lands "daughter" without over-explaining.
+
+## Narration read
+- Narrator fixes: clean — n3b already retells w28 and n4c already retells s31 per the retelling rule.
+- Scripture lifts: none available — Mark 5:33 (she told him "all the truth") records no words in the KJV, so nothing is left to lift.
+- Cast/colour: correct — woman pink (w28), Jesus red (j0, j1), disciples blue (s31), narrator white.

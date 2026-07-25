@@ -48,3 +48,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] the ELEVEN carry the emotional beat; during the lift, camera stays low / over-the-shoulder onto the rising figure and cloud
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 5, 6, 8
+
+## Length read
+Verdict: TRIM to ~105s — cut n5 and thin the n1 wind-up
+At 116s the runtime is inflated by two spots: n1 is one long block that both retells j0/j1 and tacks on a teaser ("And then something happened they would never forget"), and n5 ("He did not abandon them. He left them a mission, a promise, and the sure word that he's coming again") recaps the whole moral immediately before the card says it again ("He's coming back the same way he left. Until then, you're not alone — and you're not without purpose").
+ 
+## Narration read
+- Narrator fixes: n5 → cut (it summarizes the moral the card carries); n1 → trim the "something happened they would never forget" wind-up and keep only the plain retelling of the two red verses.
+- Scripture lifts: already done — j0 Acts 1:7 and j1 Acts 1:8 (restored to the full verbatim verse) both JESUS/red, correct under the risen-Christ exception the law names for Acts; s11 Acts 1:11 (the two men in white) lifted from paraphrase to SCRIPTURE/blue. Nothing left in white. None available.
+- Cast/colour: risen Christ red (Acts 1:7-8 is red-lettered — he speaks on the day he ascends), the angels blue not red/green. Correct.

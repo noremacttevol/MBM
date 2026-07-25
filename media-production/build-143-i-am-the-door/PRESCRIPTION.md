@@ -39,3 +39,12 @@
 - [ ] each still agrees with its line — the thief climbs (3) vs the flock enters safe (4) are two distinct beats, not one
 - [ ] Jesus's face only via master ref
 - [ ] `bash admin/verify-mp4.sh <mp4>` green
+
+## Length read
+Verdict: KEEP ~61s
+Real mp4 runs 61.5s. Two door sayings (j1 John 10:7, j2 John 10:9) with the n1 split already carrying the thief/safe-fold halves. n2 retells j2 without repeating it. No padding.
+
+## Narration read
+- Narrator fixes: clean — n2 ("free, fed, not trapped… the way to everything good") is a legitimate retelling of j2, not editorializing.
+- Scripture lifts: none available — both quoted lines are already Jesus's words in the JESUS voice.
+- Cast/colour: correct — Jesus = red, narrator = white.

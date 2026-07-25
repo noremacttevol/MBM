@@ -53,3 +53,12 @@ the ones to hold longest, not to split.
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's transfigured face only via master ref; beats 5, 7, 8 ride the disciples' faces
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 2, 7, 10
+
+## Length read
+Verdict: KEEP ~98s
+Already lean; n0–n4 move scene → Peter's outburst → the Father's voice → coming down with no dead stretch. The one instruction ("hear him") lands and stops.
+
+## Narration read
+- Narrator fixes: clean. n3b leans on emphasis ("of everything the Father could have said") but names the turn rather than preaching.
+- Scripture lifts: none available — j1 (Peter, Mark 9:5) already lifted to SCRIPTURE, the Father already lifted to GOD. n4's "Do not be afraid" is Matt 17:7, outside the cited Mark 9 and deliberately left as paraphrase.
+- Cast/colour: correct — headline fix stands: j2 the Father is GOD/green (not red), j1 Peter is SCRIPTURE/blue. No woman speaks in Mark 9:2-8.

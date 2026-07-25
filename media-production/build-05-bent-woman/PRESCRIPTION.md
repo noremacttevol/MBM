@@ -36,3 +36,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref at j1/j2; the woman's face carries 1, 6, 10, 12
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 6, 10
+
+## Length read
+Verdict: TRIM to ~220s — cut the moral repetition in the tail of n10 ("Her worth came first. She belonged — she had always belonged" restates "she was healed because of who she already was")
+248s mostly earns its place, but n10 makes the same point about her worth three times; keep the strongest phrasing and let the card carry the rest.
+
+## Narration read
+- Narrator fixes: n10 → tighten the closing repetition about her worth to one line.
+- Scripture lifts: none available — s14 (the ruler) and s17 (Luke's close) are already lifted, and j2 already speaks the "daughter of Abraham" line n10 retells.
+- Cast/colour: correct — Jesus red (j1, j2), synagogue ruler blue (s14), Luke's narration blue (s17). No pink: the KJV records no words from the woman, so none was invented.

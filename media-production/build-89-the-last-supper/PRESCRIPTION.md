@@ -52,3 +52,12 @@ three, which is the honest read. Trusting the beats over the range.
 - [ ] Jesus's hands carry the sacrament beats (master ref) — no emotional close-up on his face
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 6, 9, 13
+
+## Length read
+Verdict: KEEP ~133s
+133s, steady. The bread and the cup each land with their own red line and retell. n5 ("The bread and the cup, still on the table — a gift to remember him by") restates the card, so that's a narration trim, not a runtime one.
+
+## Narration read
+- Narrator fixes: n5 -> cut, it repeats the card's "a simple meal to remember him by"; n2b's "Not a symbol he was explaining" edges into commentary — tighten to the plain retell.
+- Scripture lifts: none available — all four quoted lines are already Jesus-red (jv15, j1, j2, jv18).
+- Cast/colour: correct — the institution of the sacrament is red-letter throughout; JESUS red, NARRATOR white.

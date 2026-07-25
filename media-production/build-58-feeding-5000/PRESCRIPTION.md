@@ -59,3 +59,12 @@ Trusting the beats over the range (Part 3): 14 stills, no padding.
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face not the subject at beat 8 (hands + bread, over-the-shoulder)
 - [ ] `bash admin/verify-mp4.sh <mp4> 156` green; frame-verify beats 6, 8, 12
+
+## Length read
+Verdict: KEEP ~156s
+John 6:1-14 is a single scene told once through; the deliberately-omitted Philip line (documented) keeps two "not enough" beats from stuttering.
+
+## Narration read
+- Narrator fixes: clean.
+- Scripture lifts: none available — Jesus' j5/j10/jv12 red; Andrew's line (s9) and the crowd's verdict (s14) already blue. Philip's John 6:7 left out on judgment, not oversight.
+- Cast/colour: correct — no woman is quoted in John 6.

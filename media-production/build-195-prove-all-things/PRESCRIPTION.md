@@ -39,3 +39,11 @@
 - [ ] each still agrees with its line; n1b shows listening, not doubting
 - [ ] s1, s2 captions are light blue (SCRIPTURE), not red — 1 Thessalonians is an epistle
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 2 (test) and 4 (despise not prophesyings)
+
+## Length read
+Verdict: KEEP ~67s
+Two short imperatives (1 Thess 5:21, 5:22) with retellings on each side. n1b (added for the 60s floor) and n4 both drift toward explaining the moral, but the video is short and the core earns its runtime.
+## Narration read
+- Narrator fixes: n1b → tighten the tail "The testing was never for shutting God's voice out — it is how you recognize it" (explains the moral); keep the v20 context. n4 → trim "that's steady, not gullible" (editorial); "a faith that checks, then commits" is enough.
+- Scripture lifts: n1b already speaks it verbatim in narrator white — "despise not prophesyings" → 1 Thessalonians 5:20 "Despise not prophesyings." → SCRIPTURE/light blue (Paul). Lift it out of narration into the scripture voice, then let n1b retell.
+- Cast/colour: correct — s1, s2 light blue (SCRIPTURE/Paul, epistle), narrator white.

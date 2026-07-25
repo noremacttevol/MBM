@@ -41,3 +41,12 @@
 - [ ] each still agrees with its line — beats 4 & 7 show the two houses looking alike before the storm, beats 5 & 8 the storm's opposite outcomes
 - [ ] the builders and the crowd carry the beats; no Jesus figure staged in the parable
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 3, 8, 10
+
+## Length read
+Verdict: TRIM to ~190s — cut the closing exhortation (n12 preaches "build your life on his words," the card's job) and thin the recap stack (n10/n11)
+n12 ("that is the whole invitation... build your actual life on his words") is moral exhortation the card delivers, and n2, n10 and n11 all restate "both men heard the same words."
+
+## Narration read
+- Narrator fixes: n12 → cut to scene or drop; n10/n11 → merge (both recap "hearing was never the difference").
+- Scripture lifts: none available — s28 (Matthew's "astonished at his doctrine," blue) was already lifted onto the unused astonishment still; both houses stay Jesus-red.
+- Cast/colour: correct — NARRATOR white, jv24-jv27 JESUS red, s28 SCRIPTURE blue; no women in Matthew 7:24-29.

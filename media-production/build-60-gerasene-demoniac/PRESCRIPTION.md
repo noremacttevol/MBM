@@ -61,3 +61,12 @@ right mind) breathe — it is the whole reversal.
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus via master ref only; emotional weight stays on the man (beats 5, 11)
 - [ ] `bash admin/verify-mp4.sh <mp4> 227` green; frame-verify beats 3, 9, 11
+
+## Length read
+Verdict: TRIM to ~205s — cut n2b's editorial aside ("Hear what just happened...")
+A genuine multi-scene arc (storm crossing, tombs, Legion, swine, the town, the sending), so most of the 227s earns its place; but n2b stops the story to explain the irony to the viewer, which Part B forbids.
+
+## Narration read
+- Narrator fixes: n2b ("Hear what just happened. The man's own town... The darkness holding him knew...") → trim to the plain contrast or cut; it editorializes instead of advancing the scene.
+- Scripture lifts: none available — j1/j2/j3 red; the Legion's three lines (s7, s9, s12) already blue.
+- Cast/colour: correct — the spirit's "Son of the most high God" stays SCRIPTURE/blue (the spirit is speaking, not Deity), so no green.

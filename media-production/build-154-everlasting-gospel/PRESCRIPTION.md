@@ -40,3 +40,12 @@
 - [ ] captions: kv6/kv7 light-blue (SCRIPTURE — the angel's call, NOT green); rest white
 - [ ] description links the Restoration Gospel Library page
 - [ ] `bash admin/verify-mp4.sh <mp4>` green
+
+## Length read
+Verdict: TRIM to ~120s — cut n7 (re-explains kv7) and n8's moral half
+n6 sets up the angel's cry and kv7 quotes it, then n7 ("It is a call to come home to the God of creation... the Maker of the very ground under your feet") re-explains the same verse, and n8's "The good news was never abandoned for good" is repeated by the card.
+
+## Narration read
+- Narrator fixes: n7 → fold into n6's retelling or cut (it re-states kv7); n8 → keep only "Will you receive it?"
+- Scripture lifts: none available — the angel's words are already quoted as SCRIPTURE (kv7); an angel is a messenger, not Deity, so blue is correct and there is no Deity line to lift.
+- Cast/colour: correct — kv6 (John narrating) and kv7 (the angel) both SCRIPTURE (blue), not red.

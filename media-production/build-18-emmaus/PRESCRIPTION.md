@@ -45,3 +45,12 @@ s32 — "did not our heart burn within us" — is the line the whole video is bu
 - [ ] Jesus's face is withheld until the breaking of bread (beats 11–12); beats 1–10 never show it
 - [ ] the vanish (beat 13) is its own frame after the recognition, not collapsed into it
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 11, 12, 13
+
+## Length read
+Verdict: TRIM to ~215s — cut n10, which steps out of the story to explain the moral.
+n10 ("Notice how the risen Jesus spent that first afternoon. Not with kings. Not with crowds ... He is still in the habit of walking with the ones who have lost hope") applies the lesson the closing card already asks ("has he been walking with you"); the road-and-table beats otherwise earn their runtime.
+
+## Narration read
+- Narrator fixes: n10 → cut or shrink to a single bridge sentence (moral-explain, duplicates the card).
+- Scripture lifts: one available — n9 "the Lord is risen. It's true. We have seen him" paraphrases the returning disciples' report → Luke 24:34 "The Lord is risen indeed, and hath appeared to Simon" → SCRIPTURE blue. (The two disciples' four road lines are already lifted: s18/s21/s29/s32.)
+- Cast/colour: correct — Cleopas and his companion are men, so SCRIPTURE blue; the risen Christ is red (j1, red-letter); no women in Luke 24:13-35.

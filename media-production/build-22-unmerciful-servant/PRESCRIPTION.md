@@ -42,3 +42,12 @@
 - [ ] "owest" (j4) reads OH-est per the build's SPOKEN dict; caption keeps KJV "owest"
 - [ ] Peter's line (beat 1) is SCRIPTURE-blue; every parable line is JESUS-red
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 8, 10, 14
+
+## Length read
+Verdict: TRIM to ~200s — cut n16 and n17, which explain the moral back to back.
+n16 opens "Here is the whole point of the story" and n17 ("We forgive the small things because of the mountain we've been forgiven ... that is the one thing this King cannot bear") both spell out the lesson the card already asks ("Who is holding a small one against you?"); collapse to one short bridge.
+
+## Narration read
+- Narrator fixes: n16/n17 → collapse the two moral-explain paragraphs into one short line (or cut, letting j2 and the card carry it).
+- Scripture lifts: one available — n11 "his fellow servant fell down at his feet and begged him with the very same words ... Please, be patient with me, and I will pay you back" → Matthew 18:29 "Have patience with me, and I will pay thee all" → JESUS red (inside the parable, so red not blue). Peter's question (s21) and the king/servant lines (j1-j5) are already lifted.
+- Cast/colour: correct — Peter SCRIPTURE blue (a real man in the frame), the king and servants red (parable inked red throughout); no women in Matthew 18:21-35.

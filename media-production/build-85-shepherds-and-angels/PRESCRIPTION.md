@@ -48,3 +48,12 @@ padded in. Trusting the beats over the range.
 - [ ] the angel and the host are light-blue captions, NOT red — this build's whole fix
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 4, 6, 15
+
+## Length read
+Verdict: KEEP ~148s
+148s, fair for a two-scene nativity beat (field, then stable). Minor: n5 ("There he was: the Saviour of the world... asleep in a feed trough") restates n4's arrival; a small trim, not a runtime problem.
+
+## Narration read
+- Narrator fixes: n1b -> "Listen to who he says it is for... For you" slides into direct-address preaching; tighten to scene. n5 -> repeats n4's "found the baby in the manger"; keep one.
+- Scripture lifts: none available — the angel (j1), the heavenly host (j2), the shepherds (s15) and Luke's Mary line (n7) are all already quoted.
+- Cast/colour: correct — the angel and the host are SCRIPTURE blue, not Deity-green (they are messengers, matches SPEAKER-LAW); Luke's "Mary kept all these things" SCRIPTURE blue. (Seg ids j1/j2 are misnamed for angels, but the SPEAKER tag is right.)

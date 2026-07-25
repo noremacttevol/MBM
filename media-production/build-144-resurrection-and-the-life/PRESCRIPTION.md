@@ -44,3 +44,14 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Martha's face carries beats 3, 5, 6, 7, 8; Jesus's face only via master ref
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 5, 9
+
+## Length read
+Verdict: KEEP ~48s
+Real mp4 runs 48.4s — the tightest in the range. It is an I-AM saying, not the full Lazarus raising, so the compression is right; the two Jesus lines (j1 John 11:25, j2 John 11:26) are the spine and land clean. Adding Martha's lifted lines (below) would add only a few seconds and still KEEP.
+
+## Narration read
+- Narrator fixes: clean — n2 retells j1 without preaching; n3a/n3b are minimal bridges.
+- Scripture lifts: two available, both Martha —
+  - n1a "She said she believed her brother would rise again at the last day" → John 11:24 "I know that he shall rise again in the resurrection at the last day." → WOMAN/pink.
+  - n3a "Martha said yes" → John 11:27 "Yea, Lord: I believe that thou art the Christ, the Son of God, which should come into the world." → WOMAN/pink.
+- Cast/colour: MISSING VOICE — Martha never speaks; add WOMAN/pink for the two lifts above. Jesus = red, narrator = white are correct.

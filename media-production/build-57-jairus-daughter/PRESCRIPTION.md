@@ -68,3 +68,12 @@ words arrive. Some frames (the entry into the quiet room, the held breath before
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face never shown in beats 8, 9, 16 (over-the-shoulder / hand)
 - [ ] `bash admin/verify-mp4.sh <mp4> 164` green; frame-verify beats 8, 16, 19
+
+## Length read
+Verdict: KEEP ~164s
+The existing prescription fixes this build by adding frames, not by re-timing audio; the narration itself walks the plea, the death-news, "only believe," the mourners, "talitha cumi" and the raising with no dead stretch.
+
+## Narration read
+- Narrator fixes: clean; n7's "the small things mattered to him too" is a one-clause tender read, not a moral lecture — keep.
+- Scripture lifts: none available — Jairus (s23), the messengers (s35) and Mark's "being interpreted" (s41i) are blue; jv36, j39, jtal, jv41 red. All lifted.
+- Cast/colour: correct — no pink; the mother and the girl say nothing in Mark 5.

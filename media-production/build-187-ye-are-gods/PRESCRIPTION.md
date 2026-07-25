@@ -43,3 +43,12 @@
 - [ ] Jesus shown via master ref / over-the-shoulder — the leaders' faces carry the reaction
 - [ ] speaker map matches SPEAKER-LAW (j1 GOD-green — the psalm's Deity voice; j2 JESUS-red)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 2, 4, 6
+
+## Length read
+Verdict: KEEP ~68s
+An argument-driven piece, deliberately expanded past the 60s floor with j2+n2b (per the build note). The restatements carry the logic rather than pad it; n3a/n3b is the only line that merely clarifies.
+
+## Narration read
+- Narrator fixes: n3a/n3b ("He was not making himself a second God. He was showing them their own book exposed their logic") → optional tighten; it is commentary explaining the point n2b already made. The scene/turn lines are clean.
+- Scripture lifts: none available — j1 (Psalm 82:6) is present and correctly recolored, and j2 (John 10:36) is Jesus's own answer already quoted. No paraphrase of a figure's words remains.
+- Cast/colour: correct, and this is the key fix — j1 moved RED→GOD-green (Psalm 82:6 is the LORD in Asaph's psalm, OT Deity, black in a red-letter Bible); j2 is JESUS-red (Jesus in the flesh, John 10:36, red-letter). Both right.

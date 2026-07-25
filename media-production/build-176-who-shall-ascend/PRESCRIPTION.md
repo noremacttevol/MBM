@@ -29,3 +29,14 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] the King of glory carried by lifted gates + glory/light, not a face-closeup; the worshipper's face carries the ascent
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; picture count inside 6–9 band
+
+
+## Length read
+Verdict: KEEP ~108s
+Mostly scripture (Psalm 24:3-8 across five blue beats) with short retellings; the back half was rescued from paraphrase by lifting s3/s4/s5 back in. n1 retells s1/s2 and n4a/n4b retell s5. No editorializing and no dead air; the runtime is verse-driven.
+
+## Narration read
+- Narrator fixes: n3b "and let the King of glory come in." is a fragment (its n3a partner is not in BEATS) — reads slightly orphaned as an opener; fold it into the retelling of s4 or restore a lead clause. Otherwise clean.
+- Scripture lifts: none available — s1, s2, s3, s4 and s5 already cover Psalm 24:3-8; this build did the heaviest lifting in the set.
+- Cast/colour: correct — the subtle case: Psalm 24 is David asking and answering ABOUT the LORD, third person throughout, so SCRIPTURE/light-blue with no green.
+

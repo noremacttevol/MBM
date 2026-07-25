@@ -47,3 +47,12 @@ Stepped to 21 pictures because the narration is not one encounter but a full arc
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref at j1/j2/j3; Nicodemus's face carries 4, 7, 12, 18, 20
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 12, 14, 20
+
+## Length read
+Verdict: TRIM to ~280s — cut repetition and meta-asides (n9 "a detail worth keeping"; the doubled "A hundred pounds" in n11; the explanatory "It wasn't a jab. It was an invitation" in n8)
+It is a genuine three-scene arc (night visit → council → burial), so length is partly earned, but 325s carries editorial glosses and a repeated line that add nothing the scene shows.
+
+## Narration read
+- Narrator fixes: n8 → trim the light/darkness gloss ("It wasn't a jab. It was an invitation"). n9 → tighten "Here's a detail worth keeping." n11 → drop the repeated "A hundred pounds."
+- Scripture lifts: n8 → "people hide in the dark when they're afraid of what the light will show, but whoever lives by the truth steps into the light gladly" → John 3:19-21 → JESUS/red (still Jesus speaking; the build left it narrator by choice). One lift available.
+- Cast/colour: correct — Jesus red (j1, j2, j3), Nicodemus blue (s2, s4, s9, s51); no woman speaks in John 3.

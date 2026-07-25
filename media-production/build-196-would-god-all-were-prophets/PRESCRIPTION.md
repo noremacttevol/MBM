@@ -41,3 +41,11 @@
 - [ ] each still agrees with its line (Moses's weight in 1, his generous face in 8)
 - [ ] s0, s1 captions are light blue (SCRIPTURE), NOT green — Moses/Joshua speaking about the LORD, not the LORD speaking
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 5 (in the camp) and 8 (Moses's answer)
+
+## Length read
+Verdict: KEEP ~69s
+This is a story with real backstory (Moses crushed, the seventy elders, Eldad and Medad in the camp), and n0–n2 spend that setup earning the payoff exchange. Only soft spot: n4 opens with commentary and overlaps the card.
+## Narration read
+- Narrator fixes: n4 → cut "One of the most generous answers in all of scripture" (editorial) and note that "Moses did not guard the gift — he wished it wider" is repeated almost verbatim by the card; keep it in one place.
+- Scripture lifts: s0 (Joshua, Num 11:28) and s1 (Moses, Num 11:29) already lifted. One more available — n0 "he could not carry the people alone, not one more day" → Numbers 11:14 "I am not able to bear all this people alone, because it is too heavy for me" → SCRIPTURE/light blue (Moses). Flagged as available; a fourth Old-English block in a short video is a real pacing cost, so optional.
+- Cast/colour: correct — s0, s1 light blue (SCRIPTURE), NOT green: Joshua and Moses speak about the LORD in the third person, not as the LORD.

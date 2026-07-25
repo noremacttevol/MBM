@@ -30,3 +30,14 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] God's promise (beats 1–3) shown as heaven / light, never a face; the hearts carried by fathers' and children's faces
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; picture count inside 6–9 band
+
+
+## Length read
+Verdict: KEEP ~61s
+Short and whole — the two green Malachi verses, one added retelling (n0b) between them, and three brief narrator lines. It ends on the family promise without over-explaining. No dead stretch to cut.
+
+## Narration read
+- Narrator fixes: n0b's rhetorical run "Not an army. Not a warning shot. A prophet." is a small flourish and could tighten, but it functions as the retelling and also names the speaker (God) — keep or trim one clause; otherwise clean.
+- Scripture lifts: none available — s1a (Mal 4:5) and s1b (Mal 4:6) are both verbatim and already lifted to GOD-green.
+- Cast/colour: correct — Old Testament LORD speaking first person ("I will send you Elijah") is premortal Jehovah, GOD-green per SPEAKER-LAW section 2, not blue.
+

@@ -45,3 +45,12 @@
 - [ ] captions: kv5/kv6/s6b light-blue (SCRIPTURE); rest white
 - [ ] description links the Restoration Gospel Library page
 - [ ] `bash admin/verify-mp4.sh <mp4>` green
+
+## Length read
+Verdict: TRIM to ~120s — merge n5+n6 (God re-described twice) and cut n8's moral wind-up
+n5 ("he gives... openly and generously") and n6 ("he does not scold") each spend a full beat unpacking the two words already in kv5 ("liberally... upbraideth not"), and n8's "the promise on the end of that verse is not a maybe" re-explains the moral the card then repeats ("He gives to all, openly, and does not scold").
+
+## Narration read
+- Narrator fixes: n5+n6 → merge to one beat (both only retell kv5's "liberally / upbraideth not"); n8 → cut the moral restatement, keep only the "What would you ask him?" handoff (card carries the meaning).
+- Scripture lifts: none available — James is an epistle; kv5/kv6/s6b are already SCRIPTURE and no figure's spoken words are paraphrased in the narration.
+- Cast/colour: correct — James = SCRIPTURE (blue), no Jesus/God/Woman lines.

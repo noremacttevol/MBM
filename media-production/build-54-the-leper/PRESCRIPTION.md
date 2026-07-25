@@ -52,3 +52,12 @@ the touch (5) breathe — that pause is the whole point.
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face not the subject at beat 5 (hand + leper's face)
 - [ ] `bash admin/verify-mp4.sh <mp4> 145` green; frame-verify beats 4, 5, 6
+
+## Length read
+Verdict: KEEP ~145s
+Mark 1:40-45 runs clean; the only soft spot is the spreading-news tail, where n7 ("told everyone, freely, everywhere") and n8 ("the news ran ahead of him... every corner of the land") make the same point twice.
+
+## Narration read
+- Narrator fixes: n7/n8 repeat the "news spread everywhere" beat — keep the stronger (n8) and trim n7 to a half-line. Else clean.
+- Scripture lifts: none available — the leper's plea (s40) and Jesus' two lines (jv41, j44) are already lifted; Mark's framing sits in s41a/blue.
+- Cast/colour: correct — JESUS red on the two spoken lines, SCRIPTURE blue on the leper and Mark's frame. No woman speaks in Mark 1.

@@ -53,3 +53,12 @@
       lightest-frame rule (mixed bright/dark stills)
 - [ ] Jesus face-shown via master ref only (s1/s4); the listener's shining life carries the point
 - [ ] `bash admin/verify-mp4.sh <mp4> <len>` green
+
+## Length read
+Verdict: KEEP ~65s.
+mp4 is 65.5s. Three short Matthew 5 red beats with a retell/bridge between each and a two-line application close. Tight, no repetition, no dead air.
+
+## Narration read
+- Narrator fixes: n1 retells Matthew 5:15 ("Nobody lights a lamp and then hides it under a bowl") BEFORE j2 speaks the KJV — the retelling rule wants the KJV first. Re-order or let n1 follow j2. Otherwise clean.
+- Scripture lifts: none available — all three sayings are already in JESUS red (j1 Matt 5:14, j2 Matt 5:15, j3 Matt 5:16). n1 only paraphrases j2, which is present.
+- Cast/colour: NOT MIGRATED to SPEAKER-LAW — old edge-tts format; Jesus's j1/j2/j3 are voiced with en-US-ChristopherNeural, now the GOD voice. Migrate to mbm_speakers so JESUS = Eric (red).

@@ -47,3 +47,12 @@
 - [ ] no face is put on the LORD — light only
 - [ ] description links the Book of Mormon Gospel Library page
 - [ ] `bash admin/verify-mp4.sh <mp4>` green
+
+## Length read
+Verdict: TRIM to ~150s — cut n8's moral restatement and tighten the sealed-book setup
+Longest in the range; n1 and n2 both describe the sealed book ("like a book that is sealed" / "a precious book, clasped and sealed") before kv11 quotes it, and n8's "When human wisdom hits its limit, God is only getting started" is restated by the card.
+
+## Narration read
+- Narrator fixes: n2 → trim (re-describes the sealed book from n1); n8 → keep only "will you receive it?" handoff.
+- Scripture lifts: 1 (already applied) — the kv13a/kv13b split lifts Isaiah 29:13 out of n5's paraphrase: the Deity clause "Forasmuch as this people draw near me with their mouth..." → GOD/green, with Isaiah's "Wherefore the Lord said," → SCRIPTURE/blue.
+- Cast/colour: correct — kv11 SCRIPTURE (Isaiah narrating), kv13b/kv14 GOD (first-person Jehovah, green).

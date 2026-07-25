@@ -52,3 +52,12 @@ own frame; collapsing them would flatten the whole point of "in many times and m
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face IS shown via master ref in beats 9, 10 (this is the intended payoff)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 7, 9
+
+## Length read
+Verdict: TRIM to ~90s — collapse the repeated "fragment/piece" point across n2, n3, n4 into one beat and trim the editorial windup in n7 ("whether he is angry, or distant, or cold") (145s now vs a T1 45–75 target — nearly double).
+The same idea — God spoke partially, a fragment here, a flash there, never the whole — is made three times (n2, n3, n4). Keep the strongest and let the Son be the turn. "Look at Jesus. That is God" is the payoff and stays.
+
+## Narration read
+- Narrator fixes: n3/n4 → merge (repeat n2's "partial/fragment" point). n7 → trim the "whether he is angry, or distant, or cold" feel-telling, keep "Look at Jesus."
+- Scripture lifts: none available — the two Father lines inside Hebrews 1:5 are already split out to GOD green (gv5 from Psalm 2:7, gv5b from 2 Samuel 7:14).
+- Cast/colour: correct — Paul's words SCRIPTURE blue (jv1, jv2, jv3, sv5, sv5b); the quoted Father GOD green. Matches SPEAKER-LAW §9 ("Hebrews 1:5 quotes the Father inside Paul's own sentence — split blue/green").

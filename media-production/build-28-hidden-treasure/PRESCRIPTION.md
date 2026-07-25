@@ -36,3 +36,12 @@
 - [ ] each still agrees with its line (the field is not his; the trade is JOYFUL, not grieving, in beats 5–7)
 - [ ] no Jesus face — the man's face carries the find and the joy
 - [ ] `bash admin/verify-mp4.sh <mp4> <len>` green
+
+## Length read
+Verdict: TRIM to ~86s — tighten n10-n11 (moral-explaining tail; the card already says "the best trade of his life").
+n0-n4 build the scene, j1/j1b carry the KJV, n5-n8 retell it well. n10 ("once you truly see who Jesus is - nothing else even compares") and n11 ("you don't give everything up sadly... out of pure joy") both spell out the moral the card lands cleanly.
+
+## Narration read
+- Narrator fixes: n10 -> tighten (explains the moral). n11 -> cut or fold into n10 (tells the viewer what to feel; duplicates the card's "best trade of his life").
+- Scripture lifts: none available - Matthew 13:44 is already voiced whole across j1/j1b; the surrounding narration is scene and retelling only.
+- Cast/colour: correct - NARRATOR white, j1/j1b JESUS red (parable, verbatim KJV).

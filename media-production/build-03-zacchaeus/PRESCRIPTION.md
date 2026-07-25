@@ -37,3 +37,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref at beat 7 (looking up); Zacchaeus's face carries 6, 12
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 7, 12
+
+## Length read
+Verdict: TRIM to ~200s — cut the study-note asides (n0 Matthew mix-up digression; "Bible students love this detail"/"study gem" meta in n3b/n7b; "that last line is the key to everything" in n9)
+At 222s the core story earns its place, but several beats step out of the scene to lecture the viewer (the Matthew/Zacchaeus mix-up, fourfold-repayment trivia, "the key to everything") — commentary the closing card does not need.
+
+## Narration read
+- Narrator fixes: n0 → cut the Matthew mix-up tangent (does not advance the scene). n7b → tighten "That number is a study gem." n9 → cut "that last line is the key to everything" (editorializing).
+- Scripture lifts: none available — s7 (the murmuring crowd) and s8 (Zacchaeus's vow) are already lifted; n7b correctly retells s8.
+- Cast/colour: correct — Jesus red (j1a/j1b/j2a/j2b), crowd blue (s7), Zacchaeus blue (s8); no woman speaks in Luke 19:1-10.

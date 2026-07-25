@@ -38,3 +38,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref; the hand carries the catch at beat 11; Peter's face carries 8, 10, 12
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 8, 10, 11
+
+## Length read
+Verdict: TRIM to ~200s — cut the tone-explaining in n8 ("It isn't a scolding. It's a real question") and the moral recap in n10b ("notice what the story remembers about Peter... when he fell, he was caught")
+223s runs long at the end: after the rescue the narrator explains how to read Jesus's question and then sums up the lesson — work the closing card already does.
+
+## Narration read
+- Narrator fixes: n8 → trim the gloss on Jesus's tone. n10b → cut the "notice what the story remembers about Peter" moral summary.
+- Scripture lifts: none available — Peter's two lines (s28, s30) and the disciples' confession (s33) are already lifted; j1/j2/j3 stay red.
+- Cast/colour: correct — Jesus red (j1, j2, j3), Peter blue (s28, s30), disciples blue (s33); no woman speaks in Matthew 14:22-33.

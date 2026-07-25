@@ -48,3 +48,12 @@ and the card should land there. Flagging for Cameron's call.
 - [ ] each still agrees with its line (bright vs sputtering lamps; door open at 14, shut at 11)
 - [ ] no Jesus face except the teller frame; the women carry every emotional beat
 - [ ] `bash admin/verify-mp4.sh <mp4> <len>` green
+
+## Length read
+Verdict: TRIM to ~128s — cut n16 (the "good news: the door is still open now" editorial the card already delivers).
+136.5s of well-woven parable: scene (n0-n5), dialogue voiced in KJV (j2-j6, j1), each retold in plain English (n6, n9, n10, n13) per the retelling rule - all legitimate. The only fat is the moral tail: n15 interprets the oil, n16 preaches the invitation the card makes.
+
+## Narration read
+- Narrator fixes: n16 -> cut (tells the viewer what to feel / preaches; card does it). n15 -> keep as a short bridge (names what the oil stands for).
+- Scripture lifts: none available - every quoted line (Matthew 25:6, 8, 9, 11, 12, 13) is already voiced; the narrator beats are the modern retellings of them.
+- Cast/colour: correct - the bridegroom's, the wise virgins' and the foolish virgins' lines are all JESUS red under the parable rule (a red-letter KJV inks a parable's dialogue red); no pink needed even though the virgins are women.

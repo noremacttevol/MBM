@@ -42,3 +42,12 @@
 - [ ] Jesus voice is Eric (red), not Christopher — the template-A conversion carried the speaker change
 - [ ] the servant is healed at a distance with no one in the room (beat 13) — do not put Jesus in that frame
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 8, 13, 14
+
+## Length read
+Verdict: TRIM to ~225s — the longest cut in the range and it rambles; cut the "that is who Jesus is" editorial and the foreshadow beats.
+n2 ("Hold on to that, because the man this story is about wears a Roman uniform") and n9 ("Stop and see what that means ... That is who Jesus is") tell the viewer what to feel instead of showing the scene, and several segments re-explain the same "his word alone was enough" point (n11, n13, n19, n21). Keep one, cut the rest.
+
+## Narration read
+- Narrator fixes: n2 → cut the foreshadow; n9 → cut "That is who Jesus is"; n11/n13 → collapse (both say "his word was enough"); n21 repeats n20's distance-healing — keep one.
+- Scripture lifts: TWO available — n10 "I am not worthy to have you come into my home. Only speak the word, and my servant will be healed" → Matthew 8:8 "Lord, I am not worthy that thou shouldest come under my roof: but speak the word only, and my servant shall be healed" → SCRIPTURE blue; n12 "I am a man under authority ... I tell one soldier, Go, and he goes" → Matthew 8:9 "For I am a man under authority ... I say to this man, Go, and he goeth" → SCRIPTURE blue.
+- Cast/colour: NOT MIGRATED — this build still uses the pre-SPEAKER-LAW template (save_narration; Jesus voiced by Christopher, no mbm_speakers). Migrate: j1/j2/j2b/j3 → JESUS (Eric) red; add the centurion as SCRIPTURE blue (the two lifts above). No women in Matthew 8:5-13.

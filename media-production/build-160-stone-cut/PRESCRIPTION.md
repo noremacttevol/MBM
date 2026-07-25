@@ -44,3 +44,12 @@
 - [ ] captions: kv45/kv44 light-blue (SCRIPTURE — third-person about the LORD, NOT green); rest white
 - [ ] description links the Kingdom of God Gospel Library page
 - [ ] `bash admin/verify-mp4.sh <mp4>` green
+
+## Length read
+Verdict: TRIM to ~140s — cut n8's moral restatement
+The dream beats each advance (statue, stone, striking, growing, meaning), but n8's "The kingdoms of men come and go, but God is setting up one that never ends" is repeated almost exactly by the card ("his own kingdom, that shall never be destroyed and shall stand for ever").
+
+## Narration read
+- Narrator fixes: n8 → cut the moral half, keep only "will you belong to it?" handoff.
+- Scripture lifts: none available — Daniel 2:44/45 speak about God in the third person throughout; there is no first-person Deity line to lift, and kv44/kv45 are already quoted.
+- Cast/colour: correct — kv44/kv45 SCRIPTURE (blue): Daniel speaking about the God of heaven, not green.

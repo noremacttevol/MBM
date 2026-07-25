@@ -48,3 +48,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref / over-the-shoulder in beats 5, 6, 8, 9
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 2, 6, 10
+
+## Length read
+Verdict: TRIM to ~120s — cut n7b entirely ("Sometimes the answer to our doubt is not the thing we asked for. It is simply, quietly: look at the love. It is real, and it is for you. Do not be offended — only trust, and be at peace") (148s now vs 80–120 target).
+That whole beat is the narrator preaching the moral and telling the viewer what to feel — the exact job the closing card does. Everything up through n7 (John at peace, not rescued but not alone) earns its place.
+
+## Narration read
+- Narrator fixes: n7b → cut (explains the moral, tells us what to feel: "It is real, and it is for you," "only trust, and be at peace"). n4/n5 are the mandated retelling of jv4 — keep.
+- Scripture lifts: none available — John's question is already lifted to nq (Matthew 11:3, blue) and Jesus's reply is red (jv4, jv6).
+- Cast/colour: correct — JESUS red (in the flesh); John's question SCRIPTURE blue (relayed by his messengers), and s4a ("Jesus answered and said unto them") correctly split off as blue narration frame.

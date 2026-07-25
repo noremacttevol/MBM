@@ -31,3 +31,14 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] the Lord's face is not shown in beat 1 (ascending, from below/behind)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; picture count inside 6–9 band
+
+
+## Length read
+Verdict: TRIM to ~125s — cut n7 (duplicates the card), shrink n6 (explains the moral)
+n7 ("You were never meant to grow up alone... will you come and grow?") is the card's closing question said twice; the card already carries it verbatim. n6's "quiet study gem" spells out the doctrinal takeaway the way the law reserves for the card. n3 and n4 also cover the same "knit into one body / one destination" idea in two beats.
+
+## Narration read
+- Narrator fixes: n7 → cut, it is the card question restated; n6 → shrink to one line, it explains the moral (the "study gem" preach); n3/n4 → tighten, both restate the one-body/one-goal point.
+- Scripture lifts: n2 "to do the work of the ministry, and to build up the body" → Ephesians 4:12 "For the perfecting of the saints, for the work of the ministry, for the edifying of the body of Christ" → SCRIPTURE/light-blue (s14 already lifted 4:14).
+- Cast/colour: correct — Ephesians is Paul, no red, both quoted verses SCRIPTURE.
+

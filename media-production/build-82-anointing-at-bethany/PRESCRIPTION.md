@@ -40,3 +40,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref at beats 7, 8, 11
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 4, 7, 10
+
+## Length read
+Verdict: TRIM to ~140s — cut n5 and the tail of n6 (repetition + explaining the moral)
+154s. n5 ("she was the only one in that room who had prepared him") repeats n4c, and n6's tail ("Not wasteful — worship... all these centuries later, here we are, telling her story") explains the memorial the card already carries.
+
+## Narration read
+- Narrator fixes: n6 -> cut the moral-explaining tail after the plain retell; n5 -> repeats n4c, drop or fold in.
+- Scripture lifts: none available — the woman is silent in the text (correctly given no line; n2b even flags "She never says a single word"); the complaining men are already quoted (s4) and Jesus's lines are red (j1/j1b/j2/j3).
+- Cast/colour: correct — the murmuring men = SCRIPTURE blue, Jesus red, no invented pink for the silent woman.

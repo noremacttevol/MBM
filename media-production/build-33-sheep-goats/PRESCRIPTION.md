@@ -39,3 +39,12 @@
 - [ ] beat 9 shows Christ IN the needy via master ref / over-the-shoulder, not a throne portrait
 - [ ] each still agrees with its line (the righteous are puzzled at beat 7, not proud)
 - [ ] `bash admin/verify-mp4.sh <mp4> <len>` green; frame-verify beat 9
+
+## Length read
+Verdict: TRIM to ~150s — cut n9 (the "That is how good he is... It might be him" editorial that duplicates the card) and tighten n8.
+164.8s built around long KJV blocks (j1 is a full six-clause quote, retold plainly in n4 per the retelling rule - legitimate). n7 is the reveal/turn ("he was in them the whole time"). n8 explains why the goats missed him; n9 preaches the moral the card already states ("He is hidden in the person in front of you").
+
+## Narration read
+- Narrator fixes: n9 -> cut (explains the moral / tells the viewer what to feel; card does it). n8 -> tighten. n7 keep (the turn).
+- Scripture lifts: none available - the present KJV (Matthew 25:32, 34-40) is all voiced; the righteous' "Lord, when saw we thee..." is voiced as j37. The goats' side (Matthew 25:41-45) is omitted by design, not paraphrased, so there is nothing to lift.
+- Cast/colour: correct - the King's words and the righteous' reply are JESUS red (Jesus prophesying in the flesh; a red-letter KJV inks them). NARRATOR/SCRIPTURE as marked.

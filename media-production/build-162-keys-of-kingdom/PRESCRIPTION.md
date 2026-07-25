@@ -44,3 +44,12 @@
 - [ ] captions: jv15/kv18/kv19 red (JESUS); s16 light-blue (SCRIPTURE — Peter); rest white
 - [ ] description links the Priesthood Keys Gospel Library page
 - [ ] `bash admin/verify-mp4.sh <mp4>` green
+
+## Length read
+Verdict: TRIM to ~130s — cut n8's moral restatement
+The scene beats each advance (question, confession, new name, church, keys) and the lift work is good, but n8's "He built it on rock and placed real keys in human hands" is restated by the card ("gave Peter the keys... given by the Lord and not seized by men").
+
+## Narration read
+- Narrator fixes: n8 → cut the moral half, keep only "will you trust it?" handoff.
+- Scripture lifts: 2 (already applied) — jv15 lifts Matthew 16:15 "But whom say ye that I am?" → JESUS/red, and s16 lifts Matthew 16:16 "Thou art the Christ, the Son of the living God." → SCRIPTURE/blue (Peter, an apostle, not Christ). kv18/kv19 stay JESUS/red.
+- Cast/colour: correct — Jesus red, Peter's confession blue.

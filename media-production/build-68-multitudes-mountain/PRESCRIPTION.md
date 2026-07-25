@@ -43,3 +43,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref at beats 4, 10; the emotional beats ride the carriers/healed
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 3, 5, 8
+
+## Length read
+Verdict: TRIM to ~175s — tighten n4, shrink n7 (moral explained)
+n7 ("That is who sat down on that mountain: not a distant power... a God who counts the days you have been carrying something") states the meaning the card already lands. n4's three invented "somewhere on that mountain" vignettes double the point n3 already made.
+
+## Narration read
+- Narrator fixes: n7 → shrink to scene (drop the "that is who sat down" thesis, redundant with card); n4 → keep one vignette, cut the other two (repetition); n5b's "preached better than any sermon" is mild editorial.
+- Scripture lifts: none available — Matthew's narration already lifted (s30 15:30, s31 15:31) and j1 (15:32) is red.
+- Cast/colour: correct — s30/s31 SCRIPTURE blue (Matthew writing), j1 JESUS red, no green. Canaanite woman is the prior passage, rightly left out.

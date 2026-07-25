@@ -60,3 +60,12 @@ padding to 16 would dilute them. Trust the beats over the band.
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] the WOMEN carry every emotional beat; the stone is already rolled away when they arrive (5), not moving as they watch
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 5, 7, 10
+
+## Length read
+Verdict: KEEP ~75s
+Clean single-scene arc: the women's walk and their one worry, the rolled stone, the empty tomb, the angels' question, the remembering. n4 ("He is not here — he is risen") is the exact retelling, n5b ("And they remembered") is a needed beat, not padding. Nothing rambles, nothing is rushed.
+
+## Narration read
+- Narrator fixes: clean. Narrator only sets scene and retells the quoted lines; the card carries the meaning.
+- Scripture lifts: already done — w3 Mark 16:3 "Who shall roll us away the stone from the door of the sepulchre?" lifted to WOMAN/pink (the women's only recorded speech in the hour), and s5/s6 Luke 24:5-7 (the angels) to SCRIPTURE/blue, including the inner quote of Jesus left blue rather than split red (a report of a report, Luke writing). None remain in paraphrase. None available.
+- Cast/colour: women pink, angels blue (messengers, not Deity — correctly not red and not green); no red (Jesus does not appear in Luke 24:1-8), no green. Correct.

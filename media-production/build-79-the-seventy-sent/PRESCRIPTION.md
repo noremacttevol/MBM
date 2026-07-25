@@ -41,3 +41,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref at beats 4, 7, 11 (over-the-shoulder at 11)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 8, 11, 12
+
+## Length read
+Verdict: TRIM to ~100s — cut the editorial asides in n1b and n3c (over-explaining)
+111s. n1b's "Notice what he did not say. He did not say the fields were empty" and n3c's "The power was temporary and it was never really theirs. The name in the book was permanent" both preach the moral the card already lands ("Your name, written in heaven — that's the joy he wanted them to keep").
+
+## Narration read
+- Narrator fixes: n1b -> cut the "Notice what he did not say..." commentary, keep the plain retell; n3b -> trim "They were thrilled, and they had every right to be"; n3c -> cut the moral-explaining tail, the card carries it.
+- Scripture lifts: none available — every quoted line is already in voice (j1/j2/j3 JESUS, s17 the seventy in SCRIPTURE); the narrator beats are retellings of lines already spoken.
+- Cast/colour: correct — Jesus red, the seventy's report (s17) SCRIPTURE blue, narrator white.

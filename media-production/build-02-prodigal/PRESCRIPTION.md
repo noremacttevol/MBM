@@ -41,3 +41,12 @@
 - [ ] the father runs at beat 9 (the hinge); the son's shame breaks at beat 6 and 10
 - [ ] parable dialogue is red, not white — verify j3/j1/j4/j2a/j2b captions
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 9, 10, 15
+
+## Length read
+Verdict: KEEP ~158s
+A full two-son parable — both the father's welcome and the elder brother's complaint land — carried in under 160s with no repetition; every beat advances the story.
+
+## Narration read
+- Narrator fixes: clean — n3 and n10b are wind-up paraphrases that hand into the red lines (j3, j4); no moral-explaining.
+- Scripture lifts: n7 → "dressed him in the finest robe, put a ring on his hand, and called for a feast" → Luke 15:22-23 "Bring forth the best robe... put a ring on his hand... bring hither the fatted calf" → JESUS/red (parable dialogue). One lift available.
+- Cast/colour: correct — whole parable JESUS-red (j1, j2a, j2b, j3, j4), narrator white; no other voices in the text.

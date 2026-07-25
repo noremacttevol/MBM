@@ -44,3 +44,12 @@
 - [ ] no face is put on the LORD — hand/voice only
 - [ ] description links the Book of Mormon Gospel Library page
 - [ ] `bash admin/verify-mp4.sh <mp4>` green
+
+## Length read
+Verdict: TRIM to ~145s — cut the n4 teaser and tighten, cut n8's restatement
+n4 is only a stalling teaser ("Now here is the part that made people stop and stare.") before n5 delivers, and n8's "God does not leave his family... broken into separate pieces forever" is restated by the card.
+
+## Narration read
+- Narrator fixes: n4 → cut or fold into n5; n8 → keep only the "will you take them both up and read?" handoff.
+- Scripture lifts: 1 (already applied) — kv17 lifts Ezekiel 37:17 out of n4's paraphrase → "And join them one to another into one stick; and they shall become one in thine hand." → GOD/green.
+- Cast/colour: correct — kv16/kv17/kv19 all GOD (green): the LORD speaking to Ezekiel in first person, not red.

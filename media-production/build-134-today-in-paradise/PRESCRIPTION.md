@@ -47,3 +47,12 @@ face kept away on the cross. Paradise is warmth and rest, not literal architectu
 - [ ] Jesus's lines verbatim KJV; his face only via master ref / over-the-shoulder
 - [ ] the two-verse pairing (beat 8) reads clearly — that is the whole point
 - [ ] `bash admin/verify-mp4.sh <mp4> <secs>` green
+
+## Length read
+Verdict: TRIM — tighten n5's opening ("That should change how you grieve... Mercy has more room than you were told, and more time").
+Est. ~120s (329 narration words, no mp4 yet). n4 is the actual content — the Friday/Sunday pairing that is the whole point — and earns its length. n5 then tells the viewer how to feel and re-states the mercy point; the closing card already lands the application, so shrink n5 to the plain "there is a place still called paradise, a place of waiting" and let the card do the rest.
+
+## Narration read
+- Narrator fixes: n5 → cut the "That should change how you grieve" moral-explaining opener; keep only the quiet factual close.
+- Scripture lifts: none available beyond what is present — s1 (Luke 23:42, the dying thief) is correctly lifted to SCRIPTURE blue (a man, NOT red), and j1 (Luke 23:43) / j2 (John 20:17) are JESUS red. Mary's action is described but her words are not paraphrased, so nothing to lift.
+- Cast/colour: NARRATOR white, SCRIPTURE blue (the thief), JESUS red — correct. Mary is depicted but silent in this cut; her "Rabboni" (John 20:16, WOMAN/pink) is not paraphrased here, so no pink beat is owed.

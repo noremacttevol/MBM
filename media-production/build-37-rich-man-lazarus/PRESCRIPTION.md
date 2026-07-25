@@ -52,3 +52,12 @@ The weight stays on the walked-past gate and the mercy of "still time," not on h
 - [ ] beats 9–10 render torment as dark/thirsty/distant — NO literal fire
 - [ ] no Jesus face; the rich man and Lazarus carry it, Abraham stays distant
 - [ ] `bash admin/verify-mp4.sh <mp4> <len>` green; frame-verify beats 9 and 16
+
+## Length read
+Verdict: TRIM to ~150s — cut n13 (the direct-address sermon that is the card) and tighten n12.
+165.4s, a rich multi-beat parable: scene n0-n6, the rich man's and Abraham's exchanges voiced (j3, j1, j4, j5, j2) and retold (n7, n8, n10). n12 frames the moral and n13 ("there is still a gate in front of you today... will you stop while there is still time") is the card spoken as narration.
+
+## Narration read
+- Narrator fixes: n13 -> cut (preaches / direct address; the card is "Who are you walking past - and will you stop while there is still time?"). n12 -> tighten.
+- Scripture lifts: 2 available. n9 -> "then send someone to my five brothers, to warn them" -> "I pray thee therefore, father, that thou wouldest send him to my father's house: For I have five brethren; that he may testify unto them, lest they also come into this place of torment." (Luke 16:27-28) -> JESUS/red. n10 -> "if only someone came back from the dead, then they would turn" -> "Nay, father Abraham: but if one went unto them from the dead, they will repent." (Luke 16:30) -> JESUS/red. Both are the rich man's further pleas, currently only paraphrased (parable dialogue = red).
+- Cast/colour: correct - the whole exchange, including Abraham's replies, is JESUS red under the parable rule.

@@ -45,3 +45,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus shown teaching via master ref / over-the-shoulder; the worried listener carries the emotional beats
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 3, 6, 9
+
+## Length read
+Verdict: TRIM to ~120s — thin n6 ("He is gently loosening your grip, one finger at a time, and offering to carry it with you") and cut the feel-telling tail of n7 ("You can breathe. You are cared for") (154s now vs 80–120 target).
+The sparrows and lilies beats with their retellings do the work. n6/n7 then step in to tell the viewer how to feel about it — the card ("What worry could you set down today") already lands that.
+
+## Narration read
+- Narrator fixes: n6 → tighten the "loosening your grip one finger at a time" editorializing. n7 → cut "You can breathe. You are cared for" (tells us what to feel). n2/n4/n5 retellings stay.
+- Scripture lifts: none available — every quoted line is already Jesus-red (jv26, jv2829, jv30, jv34, jv33); no figure's words hide in the narration.
+- Cast/colour: correct — JESUS red throughout (Sermon on the Mount, in the flesh).

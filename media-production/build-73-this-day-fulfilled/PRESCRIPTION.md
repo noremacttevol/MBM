@@ -49,3 +49,12 @@ not to split. Trust the beats over the band (SYSTEM Part 3).
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref (beats 3, 6); beats 5, 7 ride the townspeople
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 4, 5, 6
+
+## Length read
+Verdict: KEEP ~101s
+Tight throughout. The held-breath verse s20 sets up the shortest, largest line (j2), and n3 retells it and stops on "today." Nothing to cut.
+
+## Narration read
+- Narrator fixes: clean.
+- Scripture lifts: none available in the current narration — Luke's framing already lifted (s17 4:17, s20 4:20), and Isaiah read aloud by Jesus (j1) correctly stays JESUS/red. Luke 4:22 "Is not this Joseph's son?" exists but is not paraphrased anywhere in the cut and was deliberately left out.
+- Cast/colour: correct — s17/s20 SCRIPTURE blue (Luke writing), j1/j2 JESUS red. No woman speaks in Luke 4:16-21.

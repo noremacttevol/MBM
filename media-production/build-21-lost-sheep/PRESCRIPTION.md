@@ -33,3 +33,12 @@
 - [ ] j3 (the shepherd's "Rejoice with me") is JESUS-red, not blue; s2 (the muttering) is SCRIPTURE-blue
 - [ ] the found sheep and the shepherd's joy carry beats 6–8 — a genuine sheep on the shoulders, not a loss shrugged off
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 2, 6, 7
+
+## Length read
+Verdict: KEEP ~134s — tight and well-paced; nothing to cut.
+Every beat advances the search-and-find and the retellings (n4, n8, n9b, n10) each sit under their own picture; the one editorial tag, n10's "That is how good he is," is minor and reads as the bridge to the card.
+
+## Narration read
+- Narrator fixes: clean (optional: n10's "That is how good he is" is a light editorial tag).
+- Scripture lifts: none available — the Pharisees' complaint is already lifted (s2, Luke 15:2, SCRIPTURE blue) and the shepherd's/Jesus's lines are already red (j1/j2/j3/j4, the whole parable inked red).
+- Cast/colour: correct — scribes and Pharisees SCRIPTURE blue (men in the frame), the shepherd inside the parable stays JESUS red; no women (the lost-coin parable that follows is outside this passage), no heaven voice.

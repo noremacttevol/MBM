@@ -43,3 +43,12 @@ Trusting the beats over the range.
 - [ ] Jesus's one red line (jv2, the errand) is actually spoken, not paraphrased away
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 4, 6, 9
+
+## Length read
+Verdict: KEEP ~117s
+117s, paced well across errand -> prophecy -> the crowd's Hosanna -> the city's question. n4 ("He came not with swords but with peace... the humble King the scriptures had promised") restates the card, so that's a narration trim, not runtime.
+
+## Narration read
+- Narrator fixes: n4 -> cut or tighten; it pre-says the card ("a donkey, not a warhorse. His kingdom is peace"). n1b is a clean turn-namer.
+- Scripture lifts: none available — Zechariah's prophecy (s5), the crowd's Hosanna (j1), Matthew's account (j2) and Jesus's errand instruction (jv2) are all already quoted.
+- Cast/colour: correct — jv2 Jesus red; the crowd's Hosanna and Matthew's narration = SCRIPTURE blue; Zechariah's prophecy = SCRIPTURE blue. (Seg ids j1/j2 misnamed but tags correct.)

@@ -45,3 +45,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] the PENITENT THIEF carries every emotional beat; Jesus's face only over-the-shoulder at beat 8
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 4, 6, 8
+
+## Length read
+Verdict: KEEP ~64s
+The shortest of the crucifixion set and the cleanest — sneer, rebuke, the plea, the promise, one retelling each. n4 ("Today. Not someday, not after you've earned it. Today.") is the retelling of "To day... paradise" and lands the turn rather than padding it. Nothing to cut, nothing rushed.
+
+## Narration read
+- Narrator fixes: clean. n3 and n4 retell the quoted lines in plain words as the law requires; no moral-explaining beyond the card.
+- Scripture lifts: already done — s39 Luke 23:39 "If thou be Christ, save thyself and us," s40 Luke 23:40-41, and s42 Luke 23:42 "Lord, remember me when thou comest into thy kingdom," all the thief's own words lifted from white paraphrase to SCRIPTURE/blue; j1 Luke 23:43 stays JESUS/red. None remain in paraphrase. None available.
+- Cast/colour: both thieves blue (men in the story, not Deity — a red-letter KJV leaves them black), Jesus red. Correct.

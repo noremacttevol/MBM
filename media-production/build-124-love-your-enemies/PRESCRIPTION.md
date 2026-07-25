@@ -41,3 +41,12 @@
 - [ ] each still agrees with its line; beat 7 shows one sunrise over both fields, not two
 - [ ] Jesus's face only via master ref / over-the-shoulder — the farmer carries the emotion
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 5, 6, 9
+
+## Length read
+Verdict: KEEP ~170s — the farmer illustration (n3-n5: the knocked-down fence, lifting the neighbour's stones, praying by lamplight) turns an abstract command into a picture and earns its runtime; retellings map to the verses.
+Only a light editorial touch at the very end ("the wall between two houses becomes the place where they meet"), which doubles as scene.
+
+## Narration read
+- Narrator fixes: mostly clean. n8's "sometimes, slowly, it wins what coldness never could" edges toward editorializing; optional trim. The old-rule → turn structure (jv43 held apart from jvA by n2) is well built; leave it.
+- Scripture lifts: none available — jv43 (5:43, the old saying Jesus quotes) and jv46 (5:46, the publicans) were already lifted from paraphrase into JESUS, and jvA (5:44) / jvB (5:45) are Jesus. jv43 correctly stays red even though Jesus is citing the law.
+- Cast/colour: correct — JESUS-red for all four teaching beats, NARRATOR-white frame.

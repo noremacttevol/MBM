@@ -51,3 +51,12 @@
 - [ ] each still agrees with its line (green pastures, dark valley, table, overflowing cup, home)
 - [ ] David's verses painted light-blue (SCRIPTURE), never green
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beat 6
+
+## Length read
+Verdict: TRIM to ~145s — cut the meta-commentary that teaches about the text (n0b tail, n3)
+Real mp4 runs 155.8s. The verse-by-verse KJV + retell structure is right, but two spots step outside scene-and-turn to lecture the viewer about the writing: n0b ends "everything after it is David showing his work," and n3 stops the story to point out "up to now David has been saying He. In the valley he starts saying You" — that is literary commentary the law forbids the narrator.
+
+## Narration read
+- Narrator fixes: n0b → cut the tail "That is the whole psalm in one line — everything after it is David showing his work"; n3 → cut the "notice what changes… He/You" meta-observation, keep only "Even in the darkest valley, I'm not afraid." The retells n1a/n1b/n4a/n4b/n5a/n5b are clean plain-English restatements — leave them.
+- Scripture lifts: none available — the psalm (23:1–6) is already spoken verbatim in the SCRIPTURE voice; the narrator segments are retells, not paraphrased figure-speech.
+- Cast/colour: correct — David's verses = SCRIPTURE/blue (David speaking about the LORD in third person, so blue not green), narrator = white.

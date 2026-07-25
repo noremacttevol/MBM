@@ -41,3 +41,12 @@
 - [ ] God at beat 6/7 is a voice in the dark — no depicted figure, no face
 - [ ] each still agrees with its line (the man is alone and self-focused throughout)
 - [ ] `bash admin/verify-mp4.sh <mp4> <len>` green
+
+## Length read
+Verdict: TRIM to ~108s — cut n12 (it restates the card almost verbatim) and tighten n11.
+120.7s. Scene (n0-n2), the man's plans voiced (j3, j4), God's line voiced (j1), Jesus's close voiced (j2). n11 ("His barns were full, but his soul was empty") pre-says the card's first line, and n12 ("are you only storing up for yourself - or... rich with God?") is the card's question spoken twice.
+
+## Narration read
+- Narrator fixes: n12 -> cut (it is the closing-card question said as narration). n11 -> tighten (the card opens with "His barns were full. His soul was empty."). n9 keep.
+- Scripture lifts: none available - the rich fool's monologue (Luke 12:18-19), God's rebuke (Luke 12:20) and Jesus's tag (Luke 12:21) are all voiced.
+- Cast/colour: correct - j1 ("Thou fool, this night thy soul shall be required of thee") is God's line inside the parable and is JESUS red, exactly as SPEAKER-LAW section 9 lists "the rich fool's God" under red that must stay.

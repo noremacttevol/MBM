@@ -53,3 +53,12 @@
 - [ ] Jesus face-shown via master ref only, over-the-crowd/at distance — no close Jesus
       face in the decision beats; the traveler's choice carries the human moment
 - [ ] `bash admin/verify-mp4.sh <mp4> <len>` green
+
+## Length read
+Verdict: KEEP ~65s — already minimal; the fix (verse, retelling, verse, retelling) is right and there is nothing to cut at this runtime.
+The only mild softness is the close: n3b ("A narrow gate that leads to life, found by the few who choose it") lightly restates n2/n3a, but at 65s it costs nothing.
+
+## Narration read
+- Narrator fixes: n3b optionally trims (a small restatement of n2), but the beat is already lean; n4's "nobody walks through either one by accident" is the WHY-turn and earns its place.
+- Scripture lifts: none available — j1 (Matthew 7:13) and j2 (7:14) are already Jesus, verbatim, and neither carries evangelist framing to split.
+- Cast/colour: correct — JESUS-red for both verses, NARRATOR-white frame.

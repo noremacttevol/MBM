@@ -50,3 +50,12 @@ the same image.
 - [ ] the withered cut-off branch (7) reads clearly against the joined green one — the whole point of the wound
 - [ ] Jesus's face only via master ref
 - [ ] `bash admin/verify-mp4.sh <mp4>` green
+
+## Length read
+Verdict: TRIM to ~70s — cut the repeated "connection not effort" point (n1, n2, n3a/n3b all make it)
+Real mp4 runs 80.8s. After the Jesus lines and their retells, the same idea lands three times: n1 ("dries up because it's disconnected"), n2 ("Stay joined to Him… try to bear fruit on your own, and there's nothing"), n3a/n3b ("He wasn't asking for effort. He was offering connection"). Keep the strongest (n1) and let the card close it.
+
+## Narration read
+- Narrator fixes: n3a/n3b → cut (editorializes the moral the card already carries); n2 → cut or merge into n1 (same point). n0d muddled — "It has never once done it" has no clear subject; tighten to "A branch never bears fruit by itself — it only stays attached, and the vine does the rest."
+- Scripture lifts: none available — every quoted line (John 15:4–5) is already Jesus's words in the JESUS voice.
+- Cast/colour: correct — Jesus = red, narrator = white.

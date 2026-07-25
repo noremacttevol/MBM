@@ -46,3 +46,12 @@ is a landscape (a smoking ravine), not a torture scene. The turn is toward mercy
 - [ ] Jesus's lines verbatim KJV; his face only via master ref / over-the-shoulder
 - [ ] the pivot (beats 9–11) leaves the viewer with the trustworthy God, not fear
 - [ ] `bash admin/verify-mp4.sh <mp4> <secs>` green
+
+## Length read
+Verdict: TRIM — tighten the closing narrator stack n4→n5→n6 (they editorialize the same "the God who warned you is not a torturer, he is loving" point across three long beats).
+Est. ~145s (404 narration words, no mp4 yet). The Gehenna setup (n1-n3) and the three red Mark 9 verses are the spine and earn their runtime. But n4's tail ("He would not have loved them enough to warn them if it did not"), n5's "pit, the pitchfork, the endless screaming" list, and n6's shepherd/father imagery all make the same move — keep one strong image, not three.
+
+## Narration read
+- Narrator fixes: n4 → trim the moral tail. n5 + n6 → merge to one beat; both tell the viewer what to feel about God's character, which is the closing card's job.
+- Scripture lifts: n6 "a shepherd who leaves ninety-nine to chase one" → Luke 15:4 KJV "What man of you, having an hundred sheep, if he lose one of them, doth not leave the ninety and nine in the wilderness, and go after that which is lost, until he find it?" → JESUS / red. One lift available, but it is a cross-passage illustration (Luke 15, not the Mark 9 spine); optional, and pulling it in would lengthen a video already flagged to trim.
+- Cast/colour: NARRATOR white, JESUS red (Mark 9 in the flesh) — correct. No woman, no Deity-green beat in this cut — correct.

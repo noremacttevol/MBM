@@ -39,3 +39,11 @@
 - [ ] each still agrees with its line (the diverse crowd, no one type only)
 - [ ] s1, s2 captions are green (GOD), not red — Joel is Old Testament, Jehovah speaking
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 4 (servants & handmaids) and 5 (Pentecost)
+
+## Length read
+Verdict: KEEP ~65s
+Two green verses (Joel 2:28-29) as one continuous pour-out, then n1 retells and n2 adds the Pentecost fulfillment (genuine new content, not repeat). n3's close drifts slightly editorial but stays short.
+## Narration read
+- Narrator fixes: n3 → optional trim of "never meant to be locked in one building or one office" (mild editorial); the "poured out, freely, widely" landing is good.
+- Scripture lifts: one available — n3 "for whoever calls on the name of the LORD" → Joel 2:32 "whosoever shall call on the name of the LORD shall be delivered" → SCRIPTURE/light blue (Joel narrating about the LORD, third person — NOT green). The build already keeps Joel narration white to avoid stacking Old-English blocks; flagged as available.
+- Cast/colour: correct — s1, s2 green (GOD/Jehovah, Old Testament first person "I will pour out my spirit").

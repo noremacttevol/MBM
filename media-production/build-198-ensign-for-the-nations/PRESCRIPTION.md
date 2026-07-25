@@ -44,3 +44,11 @@ fabricate moments the words don't distinctly paint.
 - [ ] each still agrees with its line (banner raised HIGH and visible, exiles coming TOWARD it)
 - [ ] s1, s2 captions are light blue (SCRIPTURE), NOT green — Isaiah speaking about the Lord, not the Lord speaking
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 2 (banner) and 5 (gathering)
+
+## Length read
+Verdict: TRIM to ~68s — cut n3 ("The banner is raised — and the seeking ones... come home") — it repeats n2's gathering and previews the closing card's banner line.
+n2 already says "brought home... the ensign is the invitation; the gathering is the answer," and the card is "A banner was raised so you could find your way"; n3 sits between them saying the same thing a third time.
+## Narration read
+- Narrator fixes: n3 → cut (repeats n2 + the card). n0/n1 setup and n2 retelling are clean.
+- Scripture lifts: none available — s1, s2 are Isaiah's verbatim prophecy already quoted; n0/n1 describe (root of Jesse, the banner) without paraphrasing a speaker's quoted words.
+- Cast/colour: correct — s1, s2 light blue (SCRIPTURE), NOT green: Isaiah narrates about the Lord in the third person ("the LORD shall set his hand", "he shall set up an ensign").

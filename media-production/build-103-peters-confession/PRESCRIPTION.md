@@ -47,3 +47,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref / over-the-shoulder in beats 3, 8, 9
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 5, 6, 8
+
+## Length read
+Verdict: KEEP ~122s
+Runs 2s over its T2 target and every beat is one half of a live exchange — question, crowd's borrowed answers, the real question, Peter's confession, Jesus's blessing. Nothing repeats and nothing explains the moral; the card asks it instead.
+
+## Narration read
+- Narrator fixes: clean. n7 ("Everything else in the gospel is built on top of this one answer") is the bridge/turn, not padding. n3 and n6 are the mandated retellings of s14 and jv17.
+- Scripture lifts: none available — Peter's confession is already lifted to sp16 (Matthew 16:16, blue) and the disciples' answer to s14 (16:14, blue). Both Jesus questions and both blessings stay red.
+- Cast/colour: correct — JESUS red (in the flesh, all four print red in a red-letter KJV); Peter and the disciples SCRIPTURE blue (apostle, not Deity). "my Father which is in heaven" inside jv17 is Jesus speaking ABOUT the Father, so it correctly stays red — no green in Matthew 16.

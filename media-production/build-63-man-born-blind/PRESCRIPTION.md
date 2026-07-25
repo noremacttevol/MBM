@@ -66,3 +66,12 @@ Rewire build.py BEATS so each switches when its words arrive. Let 10 (first sigh
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face shown only at beat 15/17, over-the-shoulder onto the man's face
 - [ ] `bash admin/verify-mp4.sh <mp4> 241` green; frame-verify beats 10, 15, 17
+
+## Length read
+Verdict: TRIM to ~225s — cut the modern aside in n1 ("People still run that math on themselves today")
+John 9 is a real multi-scene chapter (healing, two interrogations, the casting-out, Jesus finding him), so the length is mostly earned; the trim is the handful of present-day asides that step outside the scene, not any story beat.
+
+## Narration read
+- Narrator fixes: n1 "People still run that math on themselves today" → cut (modern editorializing). Rest stays on scene and turn.
+- Scripture lifts: none available — the blind man's three lines (s25, s36, s38) and the disciples' question (s2) already blue; j1-j4 red.
+- Cast/colour: correct — the parents answer jointly in John 9:20-21, so no single line is the mother's; no pink is right.

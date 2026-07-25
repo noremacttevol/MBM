@@ -43,3 +43,12 @@
 - [ ] each still agrees with its line — beat 8 shows water going IN, beat 9 the wine drawn OUT
 - [ ] Mary, the servants, and the steward carry the emotional beats; Jesus not the face at beat 9
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 4, 8, 9
+
+## Length read
+Verdict: TRIM to ~210s — three stacked closers (n11, n12, card) all land "he saved the best for last / that is what he is like"
+n11 ("he saved the best for last") and n12 ("his first move... more joy than they started with") repeat, and the card restates both.
+
+## Narration read
+- Narrator fixes: n12 → shrink to one line (the card carries "what do you think he is like"); n11/n12 overlap on "best for last / more joy."
+- Scripture lifts: none available — Mary's two lines (w3, w5) are now pink and the governor's verdict (s10) is blue; John 2 records no servant speaking, so none was invented.
+- Cast/colour: correct — Mary WOMAN pink, governor SCRIPTURE blue, Jesus red; matches SPEAKER-LAW.

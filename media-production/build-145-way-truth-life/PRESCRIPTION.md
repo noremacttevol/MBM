@@ -48,3 +48,13 @@ truly doesn't change there, they collapse to 8. Trust the picture, not the count
 - [ ] each still agrees with its line — the map (7) and the following disciples (8) are the contrast, two beats
 - [ ] Jesus's face only via master ref; Thomas/the disciples carry the human beats
 - [ ] `bash admin/verify-mp4.sh <mp4>` green
+
+## Length read
+Verdict: KEEP ~44s
+Real mp4 runs 43.8s — the shortest in the range and rightly so. Thomas's question sets up the saying, the John 14:6 line is split j1a/j1b so each clause lands, and the retells (n2a/n2b/n3a/n3b) are one breath each. Nothing to cut.
+
+## Narration read
+- Narrator fixes: clean — n3a/n3b ("not a map to find… a person to follow") is the turn stated plainly, not a sermon.
+- Scripture lifts: one available —
+  - n1 "Thomas spoke up — Lord, we don't know where You're going, so how can we know the way?" → John 14:5 "Lord, we know not whither thou goest; and how can we know the way?" → SCRIPTURE/blue (Thomas, a man quoted).
+- Cast/colour: add SCRIPTURE/blue for Thomas's lifted question above. Jesus = red, narrator = white are correct.

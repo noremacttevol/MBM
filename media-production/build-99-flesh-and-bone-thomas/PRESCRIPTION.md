@@ -52,3 +52,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] THOMAS carries every emotional beat; Jesus's wounds via master ref, face over-the-shoulder at beats 3, 9
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 6, 9, 11
+
+## Length read
+Verdict: TRIM to ~72s — cut the editorial tail of n4b
+At 79s the story is well-paced through the wounds, the demand, and the exact-proof answer. The overrun is at the end: n4a already says "Jesus didn't scold him for doubting — he met the doubt with his own hands," then n4b repeats it ("That last line was not about Thomas. That one was about you... that's what he does with honest doubt — he steps toward it") — the same no-scolding/moves-toward-doubt point the card delivers.
+
+## Narration read
+- Narrator fixes: n4b → cut the "That last line was not about Thomas... he steps toward it" tail; it explains the moral the card already lands ("Bring him your doubt. He can handle it"). Keep n4b's plain retelling of Jesus's blessing; drop the application. n1b/n3b retellings are correct.
+- Scripture lifts: already done — Thomas's two lines lifted to SCRIPTURE/blue (s25 John 20:25, s28 John 20:28 "My Lord and my God"); j1 Luke 24:39, j2 John 20:27 (repaired to the full verse), and jv29 John 20:29 all JESUS/red. Nothing remains in paraphrase. None available.
+- Cast/colour: Thomas blue (a man in the story, not Deity), Jesus red. Correct.

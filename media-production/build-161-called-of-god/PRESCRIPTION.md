@@ -43,3 +43,12 @@
 - [ ] captions: kv1/kv4/kv5 light-blue; gv5 green; rest white — the kv5→gv5 split holds on one still
 - [ ] description links the Priesthood Gospel Library page
 - [ ] `bash admin/verify-mp4.sh <mp4>` green
+
+## Length read
+Verdict: TRIM to ~135s — merge the two ordination beats and cut n8's restatement
+n5 (hands laid on the head) and n6 (oil poured over him) both make the single point "received, not taken," and n8's "The right to speak and act for God has always come the same way... It is given" is restated by the card.
+
+## Narration read
+- Narrator fixes: n5+n6 → tighten to one beat (both illustrate "received, not seized"); n8 → keep only "Where is God calling you?" handoff.
+- Scripture lifts: 1 (already applied) — gv5 splits Hebrews 5:5 to lift the Father's quoted words (Psalm 2:7) "Thou art my Son, to day have I begotten thee." → GOD/green, with kv5's frame staying SCRIPTURE/blue.
+- Cast/colour: correct — kv1/kv4/kv5 SCRIPTURE (Paul, blue), gv5 GOD (the Father, green).

@@ -45,3 +45,12 @@
 - [ ] no face on Deity — council is light/figures, forming is hands only
 - [ ] speaker map matches SPEAKER-LAW (s1/s2/s3 blue, g26 green)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 1, 4, 5
+
+## Length read
+Verdict: TRIM to ~100s — cut n4 (explains the moral the card carries) and tighten the image-repeat in n1a/n1b
+Longest in the set at 113.7s. The "made in his image / original dignity" point lands three times: n0c ("bearing the likeness"), n1a/n1b ("bearing something of God himself... know him, choose him, reflect him"), and n4 ("Every person since carries that original dignity — made in the image, loved into being"). n4 is straight moral-explaining that the closing card already does.
+
+## Narration read
+- Narrator fixes: n4 → cut (tells the viewer the meaning/what to feel — the card's job); n1a/n1b → tighten, it restates the image point n0c just made. n0b/n0c/n3 retellings are good and stay.
+- Scripture lifts: none available — 1:26 already split (s1 "And God said," SCRIPTURE-blue / g26 GOD-green), 1:27 already blue (s2), and 2:7 already lifted from n3's paraphrase (s3 SCRIPTURE-blue).
+- Cast/colour: correct — the 1:26 split (Moses blue / Deity green), 1:27 blue (about God, third person), and 2:7 blue all match SPEAKER-LAW section 9 exactly.

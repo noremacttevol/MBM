@@ -33,3 +33,14 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] beats 7–8 carry the receiving believer's face, not an abstract of "authority"
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; picture count inside 10–15 band
+
+
+## Length read
+Verdict: TRIM to ~120s — cut n7 (duplicates the card), shrink n6 (explains the moral)
+n7 ends on "When that gift is offered to you, will you receive it?" — the card's closing question word for word. n6's "quiet study gem... Order and gift belong together" states the doctrine the card is meant to carry.
+
+## Narration read
+- Narrator fixes: n7 → cut (card question restated); n6 → shrink, it explains the moral; else clean, n3 and n4 are legitimate retellings of s15/s16.
+- Scripture lifts: none available — s15 and s16 already lifted; the rest of Acts 8 here is Luke narrating with no unquoted figure speech (Simon/Peter's dialogue in 8:18-24 is outside this cut).
+- Cast/colour: correct — Acts is Luke, no red, quoted verses SCRIPTURE.
+

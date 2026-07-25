@@ -42,3 +42,12 @@
 - [ ] Jesus shown via master ref / over-the-shoulder — the crowd / the enemy-love act carries the emotion
 - [ ] speaker map matches SPEAKER-LAW (j1, j2, j3 JESUS-red)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 2, 4, 5
+
+## Length read
+Verdict: KEEP ~76s
+Three red verses, each retold — appropriate weight, and 75.9s is reasonable for that many quotes. n2 and n3 add interpretation but each attaches to its verse rather than floating free.
+
+## Narration read
+- Narrator fixes: n3 ("Not perfect by comparison... Perfect by the measure of a Father whose love has no edge, no favor, no limit") clarifies a commonly-misread verse — borderline but useful, leave unless plainer is wanted; n2's "the bar that no one could reach alone" is mild editorial. n0b retelling is good.
+- Scripture lifts: none available — 5:44 (j1), 5:45 (j2), 5:48 (j3) all red and present; n0b added as the retelling of 5:44.
+- Cast/colour: correct — all three JESUS-red (Sermon on the Mount, red-letter), no evangelist frame to split.

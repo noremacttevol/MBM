@@ -43,3 +43,11 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] s1, g7, s2 captions are green (GOD), not red — Old Testament, Jehovah speaking
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 4 (bread) and 8 (light breaks)
+
+## Length read
+Verdict: KEEP ~74s
+Longest in the set, but it carries three quoted verses (Isaiah 58:6, 58:7, 58:8) and the three retelling beats (n1a/n1b/n2) each name a distinct concrete act — bread, shelter, clothing. Nothing repeats; the length is the content, not padding.
+## Narration read
+- Narrator fixes: clean. n1a/n1b/n2 are the mandated modern retelling of g7 and stay tight.
+- Scripture lifts: one still available — n3 "call, and He answers... your own darkness becomes noonday" → Isaiah 58:9 "Then shalt thou call, and the LORD shall answer; thou shalt cry, and he shall say, Here I am" → GOD/green. The build deliberately left it as paraphrase to avoid a third Old-English block in a short video; flagged as available, not required.
+- Cast/colour: correct — s1, g7, s2 green (GOD/Jehovah, Old Testament first person).

@@ -52,3 +52,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] MARY carries every emotional beat; Jesus's face only via master ref; NO narration between beats 9 and 10
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 9, 10, 11
+
+## Length read
+Verdict: KEEP ~120s
+Over 100s but earned — this is a genuine multi-exchange scene (angels, the mistaken gardener, "Mary"/"Rabboni," the sending), and every quoted line is a real turn, not filler. The one trimmable spot is n4b ("The first person to see the risen Lord... was a weeping woman he called by name"), which editorializes what the card already lands; length overall is justified by the six lifted quotes.
+
+## Narration read
+- Narrator fixes: n4b → tighten; it's commentary the card carries ("He knows your name — and he speaks it even in your grief"). n3's "Grief flipped to joy in a single heartbeat" edges toward feel-telling but is the retelling of the "Mary"/"Rabboni" hinge and stays. The deliberate no-narration gap between j1 and w16 is correct — do not add a bridge there.
+- Scripture lifts: already done — this is the showcase build. Mary's three lines lifted to WOMAN/pink (w13 John 20:13, w15 John 20:15, w16 "Rabboni"), and Jesus's jv15 John 20:15, j1 "Mary," and jv17 John 20:17 all JESUS/red. Nothing left in white paraphrase. None available.
+- Cast/colour: Mary pink, Jesus red, John's gloss "which is to say, Master" kept out of her line and carried by the narrator. No green (Father spoken about, not by him). Correct.

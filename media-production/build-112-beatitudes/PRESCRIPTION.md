@@ -56,3 +56,12 @@ blessing changes (mourn → meek → hunger; peacemakers → persecuted).
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus shown teaching via master ref / over-the-shoulder; the overlooked carry every blessing beat
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 3, 8, 11
+
+## Length read
+Verdict: TRIM to ~120s — cut/shrink n6 ("So if you have ever felt small, unseen, worn thin, or passed over — listen closely. In his kingdom, you are not at the back of the line. You are exactly the one he came for. That is how upside down, and how good, his kingdom really is") (153s now vs 80–120 target).
+The beatitudes and their plain-English retellings are the whole video and they land. n6 is a closing sermon that explains the moral and tells the viewer it was written for them — that is the card's job.
+
+## Narration read
+- Narrator fixes: n6 → cut/shrink (explains the moral, tells us what to feel). n2–n5 are the mandated retellings of the beatitude blocks — keep.
+- Scripture lifts: none available — Matthew's framing is already lifted to s1f (Matthew 5:1–2, blue) and every beatitude is Jesus-red (jv3, jv456, jv78, jv910).
+- Cast/colour: correct — JESUS red (in the flesh); s1f (Matthew narrating "he went up into a mountain... and taught them, saying") SCRIPTURE blue.

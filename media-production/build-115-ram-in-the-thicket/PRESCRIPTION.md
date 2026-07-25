@@ -48,3 +48,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion)
 - [ ] God shown only as light from the sky — no face — in beats 7, 9, 14; beat 15 is a landscape, no figure
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 4, 11, 12
+
+## Length read
+Verdict: TRIM to ~175s — cut the n1/n2 double on "Abraham trusted completely" and shrink n8's sermon.
+n2 restates n1's "trusting God completely" ("he believed… he walked, and he trusted, and he did not let go"), and n8 leaves the scene to preach the Christ-Lamb typology ("God would provide a Lamb again — this time, his own") — moral-explaining the card already delivers.
+
+## Narration read
+- Narrator fixes: n2 → tighten (repeats n1's trust beat). n6 → keep one of "The boy was safe. He was always going to be safe" / "God never wanted the child. He never did" (same point twice). n8 → shrink to the scene close; the Lamb typology and moral are the card's job, not the narrator's.
+- Scripture lifts: already rich — s7 (Isaac 22:7), s8 (Abraham 22:8), jv11/jv12/jv17 (GOD), s11 (Abraham). One still available and declined by the build: Gen 22:2, God's command, lives only as paraphrase in n1 ("God asks Abraham for the thing he loves most") → could lift to GOD/green: "Take now thy son, thine only son Isaac, whom thou lovest… and offer him there for a burnt offering." Build left it on purpose.
+- Cast/colour: correct — Jehovah green, Isaac and Abraham SCRIPTURE-blue (men, never red).

@@ -42,3 +42,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] card is NOT rendered as a beat (out of BEATS, as the build has it)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 5 (Abraham), 6 (Rahab)
+
+## Length read
+Verdict: TRIM to ~66s — cut n4b ("Faith and life belong together") — moral-summary restatement the closing card already delivers.
+s26 (James 2:26, verbatim) plus n4a already land the point; n4b just repeats it in softer words before the card says it a third time. Everything else earns its place — this is a tight 69s.
+
+## Narration read
+- Narrator fixes: n4b → cut (moral restatement duplicated by the card); n4a is a fine retelling of s26 and stays.
+- Scripture lifts: n1 "if a brother or sister has no clothes and no food, and you wish them well but give nothing, what good is that?" → James 2:15-16 "If a brother or sister be naked, and destitute of daily food, And one of you say unto them, Depart in peace, be ye warmed and filled; notwithstanding ye give them not those things which are needful to the body; what doth it profit?" → SCRIPTURE/light blue (James is already the scripture voice here). n1 then retells it in modern English.
+- Cast/colour: correct — s1, s26 light blue (SCRIPTURE/James, epistle), narrator white.

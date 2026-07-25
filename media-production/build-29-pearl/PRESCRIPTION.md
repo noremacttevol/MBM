@@ -35,3 +35,12 @@
 - [ ] each still agrees with its line (beat 5 reads JOYFUL, not robbed)
 - [ ] the turn at beat 6 is unmistakable — Jesus as buyer, the pearl as a person; Jesus face only via master ref
 - [ ] `bash admin/verify-mp4.sh <mp4> <len>` green; frame-verify beat 6
+
+## Length read
+Verdict: TRIM to ~100s — cut n8 (repeats n7's "gladly / worth more than all of it" point) and tighten n10's "That is how good he is" editorial.
+A two-line parable (j1, j2) stretched to 112s. n7 already lands "letting go of the rest is not a loss," then n8 says it again. n9-n10 add the reversed reading ("to Jesus, you are the pearl"), which is the card's payload and can stay - but n10's closing editorial repeats it.
+
+## Narration read
+- Narrator fixes: n8 -> cut (repetition of n7). n10 -> tighten ("That is how good he is... worth all of it to him" tells the viewer what to feel; card carries it). n9 is fine as the turn into the reversed reading.
+- Scripture lifts: none available - both KJV lines (Matthew 13:45, 46) are already voiced as j1/j2.
+- Cast/colour: correct - NARRATOR white, j1/j2 JESUS red (parable, verbatim KJV).

@@ -40,3 +40,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] the blind man's face (beat 6) carries the proof; Jesus's face only via master ref
 - [ ] `bash admin/verify-mp4.sh <mp4>` green
+
+## Length read
+Verdict: KEEP ~61s
+Real mp4 runs 61.3s. Two "light of the world" sayings (j1 John 8:12, j2 John 9:5) with tight narrator retellings; n3 ("He opened blind eyes and proved it") is scene, not sermon. Every second earns its place.
+
+## Narration read
+- Narrator fixes: clean.
+- Scripture lifts: none available — both quoted lines are already Jesus's words in the JESUS voice.
+- Cast/colour: correct — Jesus = red, narrator = white.

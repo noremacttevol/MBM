@@ -51,3 +51,12 @@ world), each a new thing the words paint — so the honest beat read runs a touc
 - [ ] the whirlwind speech is not one static shot — beats 10–13 move through distinct creation vistas as the words turn
 - [ ] each still agrees with its line; God shown only as whirlwind/creation — no face — in beats 10, 11, 12
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 3, 14, 15
+
+## Length read
+Verdict: TRIM to ~235s — the arc earns most of 258s (loss → grief → friends → the whirlwind → "now mine eye seeth thee"), but the ending states one moral three or four times.
+n7c ("not because he got his answer, but because he got God himself"), n8 ("that nearness was the answer his grief actually needed") and the card ("It was a Person who showed up in it") all deliver the same close; keep one narrator statement and let the card finish.
+
+## Narration read
+- Narrator fixes: keep one of n7c / n8 (both explain the same moral) and cut the other; n7's "God never explained why. Instead he showed Job the sea and the stars…" already makes the point, so the second and third passes are padding. n7b's creation catalogue ("the sea, the snow, the wild donkey, the horse, the hawk") is good scene; keep.
+- Scripture lifts: already complete — s121 (1:21), s1925 (19:25), s404 (40:4-5), s425 (42:5) as SCRIPTURE (Job is a man); jvA (38:4), jv387 (38:7), jvB (38:31) as GOD out of the whirlwind. One available and deliberately declined: Job's wife, Job 2:9 "curse God, and die" (WOMAN-pink) — the build omits it (bleakest line, no still, would pull a comfort video toward despair). Not required.
+- Cast/colour: correct — the whirlwind voice GOD-green (Jehovah, OT), Job's replies SCRIPTURE-blue.

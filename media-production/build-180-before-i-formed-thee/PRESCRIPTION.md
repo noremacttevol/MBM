@@ -43,3 +43,12 @@
 - [ ] no face on Deity — God carried by voice / light; Jeremiah's face carries every beat
 - [ ] speaker map matches SPEAKER-LAW (s1/g7/s2 green, s1b blue)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 4, 5, 6
+
+## Length read
+Verdict: TRIM to ~90s — cut n4 (moral summary the card carries) and trim n3b's tail (pre-echoes s2)
+n3b ends "...do not be afraid, for I am with you to deliver you," then s2 immediately quotes Jeremiah 1:8 saying the same thing in KJV — the retelling should follow the quote, not spoil it. n4 ("The same God who knew you before you were born... The calling is His; the courage is His gift") is moral-explaining that duplicates the card.
+
+## Narration read
+- Narrator fixes: n3b → trim so it retells only g7 and stops before "be not afraid / I am with you" (s2 says it next); n4 → cut (moral the card carries); n2's "blessing, not pressure, was the shape of it" is mild editorial, optional trim.
+- Scripture lifts: none available — the full exchange is already lifted: s1 (1:5 GOD), s1b (1:6 Jeremiah's protest, SCRIPTURE-blue), g7 (1:7 GOD), s2 (1:8 GOD). The blue-protest / green-answer alternation is the story and is already in place.
+- Cast/colour: correct — the man's protest blue, Deity's answers green; matches SPEAKER-LAW.

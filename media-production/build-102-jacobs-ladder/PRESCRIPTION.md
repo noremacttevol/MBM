@@ -50,3 +50,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] God is shown as presence/light above the stairway, never a rendered face
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 4, 8, 10
+
+## Length read
+Verdict: TRIM to ~120s — cut the moral close of n9 ("That is how God still meets people: not at their best, but wherever they happen to lie down in the dark") and merge the pillar/oil beats n8+n8b (173s now vs a T2 80–120 target — 50s over).
+n6 and n7 are the mandated retellings of jv15 and s16, so they stay. The padding is the editorial tail on n9 (the card already makes that point) and the two split marker beats that say one small action each.
+
+## Narration read
+- Narrator fixes: n9 → cut the closing "That is how God still meets people..." moral (card carries it). n8/n8b → combine into one beat. n6, n7 are mandated retellings — keep.
+- Scripture lifts: none available — Jacob's own words are already lifted to s16 (Genesis 28:16–17); both Jehovah lines (jv13, jv15) are already green beats.
+- Cast/colour: correct — GOD green for Jehovah (Genesis, OT), SCRIPTURE blue for Jacob (s16).

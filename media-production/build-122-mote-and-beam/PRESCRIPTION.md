@@ -39,3 +39,12 @@
 - [ ] each still agrees with its line; the beam is literal and absurd in beat 5
 - [ ] Jesus's face only via master ref / over-the-shoulder — the two brothers carry the emotion
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 5, 6, 8
+
+## Length read
+Verdict: KEEP ~163s — the absurd-picture beat (n4, the man with a beam in his own eye offering to remove a speck) is the vivid centre and earns its length; retellings map cleanly to the verses.
+The only softness is the close: n6, n7 and n8 all circle "deal with your own beam first, come humble, mercy" before the card lands the same point.
+
+## Narration read
+- Narrator fixes: n7 → trim; "come to each other humble instead of superior — as one flawed person helping another, not a judge passing a sentence" explains the moral the pictures and card already carry. n8's "the measure you use is the measure you will get back" is a fair retelling of the restored jvA mete-clause; keep.
+- Scripture lifts: none available — jv3 (7:3) and jv4 (7:4) were already lifted out of paraphrase into JESUS, and jvA (7:1-2, restored to the full mete clause) and jvB (7:5) are Jesus, verbatim.
+- Cast/colour: correct — JESUS-red for all four teaching beats, no mixed segments to split.

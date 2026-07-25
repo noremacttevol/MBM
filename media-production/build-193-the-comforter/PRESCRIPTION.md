@@ -40,3 +40,11 @@
 - [ ] Jesus's face never carries beats 2 or 6 alone — over-the-shoulder / master ref only
 - [ ] j0 and j1 captions are red (JESUS)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 2 (promise) and 6 (John 14:26)
+
+## Length read
+Verdict: KEEP ~61s
+Two red beats (John 14:18, 14:26) each with a plain-English retelling; setup is minimal. n0b runs a touch long ("whatever else they lost that week") but it is the required retelling of j0 and the video is already tight.
+## Narration read
+- Narrator fixes: n0b → optional light trim of "whatever else they lost that week"; otherwise clean.
+- Scripture lifts: none additional — j0 (14:18) is already lifted, and n1/n2a/n2b only paraphrase j1 (14:26), which is quoted verbatim right after them.
+- Cast/colour: correct — j0, j1 red (JESUS, Gospel of John, mortality, red-letter), narrator white.

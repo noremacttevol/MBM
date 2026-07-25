@@ -33,3 +33,14 @@ Reads to 7 pictures, below the T2 10–15 band. Isaiah 2:2–3 is a single susta
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] no God-speaking figure shown (Isaiah is describing); the picture is the streaming nations
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; 7 pictures is the honest beat count (see deviation)
+
+
+## Length read
+Verdict: KEEP ~76s
+Tight — Isaiah 2:2-3 across three blue beats, one added retelling (n0b) so the Old English does not stack, and short narrator bridges. n1 retells s2a/s2b. Nothing rambles or explains the moral; the mountain "draws" and the video lets that stand.
+
+## Narration read
+- Narrator fixes: clean — n0b retells s1 and correctly names Isaiah (not God) as the speaker; n1/n2a/n2b are brief bridges.
+- Scripture lifts: none available — s1 (Isaiah 2:2), s2a and s2b (Isaiah 2:3) are all already lifted; no paraphrase of unquoted speech remains.
+- Cast/colour: correct — the subtle case: Isaiah 2 is third-person ABOUT the LORD, so SCRIPTURE/light-blue, no green (SPEAKER-LAW section 9 lists Isaiah 2 explicitly as green-that-would-be-wrong).
+

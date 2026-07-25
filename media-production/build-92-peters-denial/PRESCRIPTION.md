@@ -61,3 +61,12 @@ frames to reach 16 would pad the sacred pause the story is built on. Trust the b
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face never carries an emotional beat — the LOOK (10) and the remembered look (14) are shot over Jesus's shoulder onto Peter
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 8, 10, 13
+
+## Length read
+Verdict: KEEP ~70s
+At 69.5s every beat earns its place — arrest, the three denials, the crow, the look, the remembering, the weeping. The one soft spot is n5c ("But the look wasn't scorn. It was the face of someone who already knew, and already loved him anyway"), which interprets the look for the viewer — a job the card already does — but it also carries the emotional turn, so it stays; nothing to trim for length.
+
+## Narration read
+- Narrator fixes: n5c → tell-us-what-to-feel ("already loved him anyway") duplicates the card's "He looks at you the same way"; shrink to the turn or let the card carry it. Rest clean.
+- Scripture lifts: three available, all currently in white paraphrase — n1 "a servant girl said, this man was with him too" → Luke 22:56 "This man was also with him" → WOMAN/pink; n1 "Peter said, woman, I don't know him" → Luke 22:57 "Woman, I know him not" → SCRIPTURE/blue; n2 "I don't know what you're talking about" → Luke 22:60 "Man, I know not what thou sayest" → SCRIPTURE/blue. (Jesus stays silent by design — the LOOK is the moment, no red.)
+- Cast/colour: the servant girl (WOMAN/pink) and Peter's own denials (SCRIPTURE/blue) are absent — their recorded KJV words exist but the build reports them in the narrator's voice. Add those voices; NARRATOR white otherwise correct.

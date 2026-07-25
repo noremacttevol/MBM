@@ -52,3 +52,12 @@ beat 4 (the compassion as he sees her) and beat 9 (the reunion) breathe.
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face not the subject in beats 4, 6, 7 (over-the-shoulder onto the mother / bier)
 - [ ] `bash admin/verify-mp4.sh <mp4> 149` green; frame-verify beats 4, 8, 9
+
+## Length read
+Verdict: KEEP ~149s
+Luke 7:11-17 moves beat to beat with no repetition; the widow's silence is named once (n3) as story, not padding.
+
+## Narration read
+- Narrator fixes: clean — narrator stays on scene and turn; the meaning is left to the card.
+- Scripture lifts: none available — Jesus' "Weep not" (jv13) and "Arise" (jv14) red; Luke's two frames (s13a, s14a) and the town's verdict (s16) already blue.
+- Cast/colour: correct — no pink, and rightly so: the widow of Nain speaks no recorded word (SPEAKER-LAW lists her among the silent).

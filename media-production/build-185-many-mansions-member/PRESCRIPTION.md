@@ -42,3 +42,12 @@
 - [ ] Jesus's face carried via master ref / over-the-shoulder — the disciples' faces carry the emotion
 - [ ] speaker map matches SPEAKER-LAW (jv1, j1, j2 JESUS-red)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 1, 2, 5
+
+## Length read
+Verdict: KEEP ~70s
+Comfort piece, tightly built: 14:1 lifted and quoted (jv1), then 14:2 (j1) and 14:3 (j2) each retold. No repetition, no rushed turn at 70s.
+
+## Narration read
+- Narrator fixes: clean. n0 paraphrases 14:1 as setup but jv1 quotes it right after, which is the intended lift-and-retell shape.
+- Scripture lifts: none available — jv1 (John 14:1) already lifted from n0's paraphrase into JESUS-red; 14:2 (j1) and 14:3 (j2) present.
+- Cast/colour: correct — all three red (Gospel, upper room, red-letter). No splits needed; none of the verses carries an evangelist frame.

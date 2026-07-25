@@ -59,3 +59,12 @@ over the skeptics image). Not starved — 7 stills carry the beats one-per-momen
 - [ ] Jesus face-shown via master ref only (s4 hands-laid); the townspeople's faces carry
       the rejection, the healed few carry the mercy
 - [ ] `bash admin/verify-mp4.sh <mp4> <len>` green
+
+## Length read
+Verdict: TRIM to ~72s — cut n3b (it repeats n3's mercy point) and tighten the n4/card door-echo.
+mp4 is 81.9s. n3 says "He still healed the few who came... didn't stop His mercy"; n3b says "A few sick folk... The mercy never shrank down to match the unbelief" — the same beat twice. n4 ("Faith opens the door") and the card ("The door is the same today") also double the same image.
+
+## Narration read
+- Narrator fixes: n3b → cut (duplicates n3). n4 → tighten; it and the card both preach "the door" — keep the stronger card line.
+- Scripture lifts: none available beyond what is already lifted — s3 (Mark 6:3, townspeople) and s1 (Mark 6:5-6, Mark narrating) are already SCRIPTURE, and jv4 (Mark 6:4) is already JESUS. n2 only paraphrases s1, which is present.
+- Cast/colour: NARRATOR white, SCRIPTURE blue (townspeople + evangelist), JESUS red (Mark 6:4 in the flesh) — correct. Mary is named but records no words; correctly no pink.

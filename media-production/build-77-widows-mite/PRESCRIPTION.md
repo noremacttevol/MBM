@@ -42,3 +42,12 @@ read is 10, with the widow's two coins (beat 6) as the held close. No padding.
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref; the emotional beats ride the widow
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 2, 6, 8
+
+## Length read
+Verdict: KEEP ~92s
+Lean. He sits and watches, the rich give loud, the widow gives silent, he calls it the largest gift — every beat earns its place.
+
+## Narration read
+- Narrator fixes: n4b ("Heaven does the math differently than we do") is a borderline editorial one-liner, but it is short and functions as the turn — keep or lightly tighten; otherwise clean.
+- Scripture lifts: none available — Mark's two setup verses already lifted (s41 12:41, s42 12:42); j1 (12:43-44) is the only spoken line and stays JESUS/red.
+- Cast/colour: correct — the widow is SILENT, so no pink; s41/s42 SCRIPTURE blue, j1 JESUS red, no green.

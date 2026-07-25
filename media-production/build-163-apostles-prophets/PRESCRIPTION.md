@@ -44,3 +44,12 @@
 - [ ] captions: kv19/kv20 light-blue (SCRIPTURE — Paul); rest white
 - [ ] description links the Church Organization Gospel Library page
 - [ ] `bash admin/verify-mp4.sh <mp4>` green
+
+## Length read
+Verdict: TRIM to ~110s — cut the doubled "outsiders brought near" setup and n8's restatement
+n1, n2, and n3 all state the same turn (once strangers, now family/belonging) before kv19, and n7 then n8 both restate the "there is a blueprint / you have a place" point the card also makes.
+
+## Narration read
+- Narrator fixes: n1–n3 → compress to two beats (all three say "strangers made family"); n8 → keep only "will you come inside?" handoff.
+- Scripture lifts: none available — Ephesians is Paul's epistle; kv20 names Christ but describes him in the third person, so there is nothing spoken by a figure to lift, and kv19/kv20 are already SCRIPTURE.
+- Cast/colour: correct — kv19/kv20 SCRIPTURE (Paul, blue); "Jesus Christ himself being the chief corner stone" is about Christ, not spoken by him, so not red.

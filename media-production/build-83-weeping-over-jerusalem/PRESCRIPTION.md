@@ -45,3 +45,12 @@ don't paint. Trusting the beats over the range.
 - [ ] the weeping-face beats are master ref only, reverent — no full dramatic close-up
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 3, 4, 8
+
+## Length read
+Verdict: KEEP ~77s
+77s and already lean. The one watch-point is that n1b, n2b, and n3b all interpret the tears ("Not for himself. For them" / "He is not scolding" / "His tears weren't anger"); that's a narration tighten, not a runtime cut.
+
+## Narration read
+- Narrator fixes: n3b -> "His tears weren't anger. They were the grief of love" tells the viewer what to feel; trim, since n2b already frames the tears. Keep the stronger of the two.
+- Scripture lifts: none available — Luke's "he beheld the city, and wept over it" (s41) is already SCRIPTURE blue and Jesus's lament (j1) is already red; n3a's future-destruction line is intentional narrator paraphrase (per the build comment), no single KJV to lift.
+- Cast/colour: correct — Luke's narration = SCRIPTURE blue, Jesus red.

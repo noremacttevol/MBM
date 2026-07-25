@@ -30,3 +30,12 @@
 - [ ] the seed (beat 3, "least of all seeds") and the grown tree (beats 4–5) are distinct pictures under j1 / j1b
 - [ ] the birds nesting (beat 6) is its own frame, not collapsed into the tree beat
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 3, 5, 6
+
+## Length read
+Verdict: KEEP ~82s — right length for the smallest parable; nothing to cut.
+Two verses of scripture (j1/j1b) with a short setup and a short application; n8/n9 apply the point briefly ("a whispered prayer, a single kind act") but at 82s there is no dead weight to trim.
+
+## Narration read
+- Narrator fixes: clean (n9 could shave a few words, but nothing is padding).
+- Scripture lifts: none available — the whole parable is Jesus's and is already red (j1 Matthew 13:31, j1b Matthew 13:32, split at the old caption boundary); nobody else speaks in Matthew 13:31-32.
+- Cast/colour: correct — JESUS red for the parable, NARRATOR white for the rest; no blue, no women, no heaven voice.

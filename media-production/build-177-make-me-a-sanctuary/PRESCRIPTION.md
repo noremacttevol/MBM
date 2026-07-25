@@ -48,3 +48,12 @@
 - [ ] no face on Deity — presence carried by the tent / the light over the mercy seat
 - [ ] speaker map matches SPEAKER-LAW (s1, g22 GOD-green)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 2, 4, 9
+
+## Length read
+Verdict: TRIM to ~80s — cut the repeated "God near his people" refrain (n1a/n1b and n3a/n3b) (the two retellings n0b and n2r already land it)
+The nearness point is made four times: n0b ("live right there with you... a tent in the middle of the camp"), n2b ("I am near"), n1a/n1b ("Not for his sake. For theirs... dwell among them in the middle of their ordinary days"), and n3b ("the promise was fixed — God with his people"). Keep the retellings; drop one of the two editorial refrains.
+
+## Narration read
+- Narrator fixes: n1a/n1b and n3a/n3b → cut or merge one pair (they repeat the nearness theme the retellings already carry); n2b "every detail meant to say: I am near" is fine as a bridge; n4's "would take a face" is an acceptable forward bridge. Rest clean.
+- Scripture lifts: none available — both Deity lines are already lifted (s1 Exodus 25:8 GOD-green; g22 Exodus 25:22 GOD-green added from the n2a/n2b paraphrase). n2a's list of ark/table/lampstand is descriptive, no first-person line left to lift.
+- Cast/colour: correct — s1 and g22 both GOD-green (OT Jehovah, first person). Matches the build's own SPEAKER-LAW note.

@@ -54,3 +54,12 @@ the picture stays behind. The turn (the sheep are people) needs its own frame.
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus shown as shepherd, face via master ref / over-the-shoulder; the outsider carries beat 10/11
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 6, 8, 9
+
+## Length read
+Verdict: TRIM to ~90s — cut the summary in n7b ("That is the shepherd he is. Led, not driven. Known, not counted. Held, and never let go") and tighten n6 (146s now vs a T1 45–75 target — nearly double).
+The red shepherd lines and their plain-English retellings carry the whole thing. n7b restates all of it as a slogan and then hands the same "still calling, past the flock, to whoever is outside" line to the card, which repeats it word for word.
+
+## Narration read
+- Narrator fixes: n7b → cut the "Led, not driven. Known, not counted..." summary (card echoes its closing line verbatim). n6 → tighten. n1–n5 clean scene-setting.
+- Scripture lifts: none available — every quoted line is already Jesus-red (jv3, jv27, jv11, jv28); the narrator beats set the shepherd scene rather than paraphrasing a figure's words.
+- Cast/colour: correct — JESUS red throughout (John 10, spoken in the flesh).

@@ -45,3 +45,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref (beats 6, 8, 11); the refusal rides John, the voice rides the crowd/John
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 9, 10, 11
+
+## Length read
+Verdict: TRIM to ~155s — tighten n7 (repeats the doorway image)
+The "he walked through the door first" picture is delivered three times: n3 ("he never leads from behind"), n7, and the card. n7's "working TOWARD / working FROM" also restates n6's "approval before achievement."
+
+## Narration read
+- Narrator fixes: n7 → tighten to one line (doorway + "working from love" repeats n3 and the card); rest clean.
+- Scripture lifts: none available — s14 (John, Matt 3:14) already lifted to SCRIPTURE, jv1 split off as GOD/green, j1 (3:15) red.
+- Cast/colour: correct — the headline split stands: s17 "And lo a voice from heaven, saying," is SCRIPTURE/blue, jv1 "This is my beloved Son" is GOD/green. No woman speaks in Matthew 3.

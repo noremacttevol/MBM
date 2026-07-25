@@ -50,3 +50,12 @@ beats over the band (SYSTEM Part 3).
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref; the emotional beats ride the woman
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 9, 11, 13
+
+## Length read
+Verdict: KEEP ~120s
+Lean; all four voices carry it. The accusers' challenge, the stone line, the courtyard emptying one by one, and her three words each land without filler.
+
+## Narration read
+- Narrator fixes: clean.
+- Scripture lifts: none available — accusers already lifted (s4 8:4-5, s9 8:9) and her "No man, Lord" already lifted to WOMAN/pink (w11).
+- Cast/colour: correct — all four voices present; w11 pink is the fix; j1/j2/j3 JESUS red; accusers SCRIPTURE blue; no green (the Father does not speak in John 8:1-11).

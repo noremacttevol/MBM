@@ -44,3 +44,12 @@
 - [ ] Jesus's face not used as an emotional close-up in beat 6 — voice over Paul, master ref / over-the-shoulder
 - [ ] speaker map matches SPEAKER-LAW (s1/s2 blue, j1 JESUS-red)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 2, 4, 6
+
+## Length read
+Verdict: TRIM to ~67s — cut the duplicated closing sentence
+n3 ends "Paul was shown more than words can carry — and still pointed back to grace" and the card opens "Paul was shown more than words can hold — and still pointed back to grace" — near-verbatim repetition back to back. Drop it from n3 and let the card land it.
+
+## Narration read
+- Narrator fixes: n3 → cut the final "Paul was shown more than words can carry — and still pointed back to grace" (the card says it verbatim). n2's setup for the red line ("because of what the Lord had told him") is good and stays.
+- Scripture lifts: none available — j1 (12:9) is correctly kept JESUS-red (Christ's own answer, "And he said unto me," red-letter); 12:2 and 12:4 are already blue (s1, s2). No paraphrase left to lift.
+- Cast/colour: correct — the one red beat is the rare correct red in an epistle; the two Paul beats are blue. Matches the build note.

@@ -58,3 +58,12 @@ Mark 8 does not paint.
       only — the man's wonder carries it. (Reviewer flagged soft radiance behind Jesus's head
       on s5 — reroll to flat background if it reads as a halo.)
 - [ ] `bash admin/verify-mp4.sh <mp4> <len>` green
+
+## Length read
+Verdict: KEEP ~62s.
+mp4 is 62.4s. Tight two-touch arc — friends bring him, first touch, "trees walking," second touch, clear sight, card. No repetition or dead stretch; every beat advances the healing. The card's "He is patient enough to touch you twice" is a light application, acceptable as the closing line.
+
+## Narration read
+- Narrator fixes: clean. n2 carries the story's most vivid line as paraphrase — see the lift below.
+- Scripture lifts: n2 "he could see, but only halfway. People looked like trees walking around" → Mark 8:24 KJV "I see men as trees, walking." → SCRIPTURE / light blue (the healed man). Strong lift — the still is built around this moment and the man never says it. One lift available.
+- Cast/colour: NOT MIGRATED to SPEAKER-LAW — this build still uses the old edge-tts format, and Jesus's j1 line is voiced with en-US-ChristopherNeural, which is now the GOD voice. Migrate to mbm_speakers so JESUS = Eric (red) and add a SCRIPTURE (Steffan, blue) beat for the lifted "trees walking" line.

@@ -33,3 +33,14 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] beats 2 and 3 are split (Paul asks / disciples answer) — an action and its reaction are two beats
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; picture count inside 10–15 band
+
+
+## Length read
+Verdict: TRIM to ~124s — cut n7 (duplicates the card), shrink n6 (explains the moral)
+n7 "When that pattern is offered to you, will you follow it in?" repeats the card's closing question. n6's "quiet study gem... Sincerity did not replace authority" is the moral stated aloud, which the card already delivers.
+
+## Narration read
+- Narrator fixes: n7 → cut (card question restated); n6 → shrink (explains the moral); n2 and n3 are valid retellings of s2/s4, keep.
+- Scripture lifts: n3 "So Paul asked what baptism they had been given. They had known only the baptism of John" → Acts 19:3 "Unto what then were ye baptized? And they said, Unto John's baptism." → SCRIPTURE/light-blue (s2, s4 already lifted).
+- Cast/colour: correct — Acts 19 is Luke + Paul, no red; quoted verses SCRIPTURE.
+

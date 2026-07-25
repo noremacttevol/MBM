@@ -39,3 +39,12 @@
 - [ ] Jesus via master ref / hands at the feet at beats 3, 6, 8
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 3, 6, 7
+
+## Length read
+Verdict: KEEP ~80s
+80s and lean. Peter's refusal and Jesus's answer land cleanly. n2c ("What he was really doing was refusing to be loved") and n4 ("That is the kind of king he is") interpret rather than pad — narration tightens, not runtime cuts.
+
+## Narration read
+- Narrator fixes: n2c -> "refusing to be loved" tells the viewer what to feel; tighten. n4 -> "That is the kind of king he is" states the card's point; trim.
+- Scripture lifts: none available — Peter (s8) and Jesus (j1, j2) already speak their own KJV lines.
+- Cast/colour: correct — Peter (a man quoted) = SCRIPTURE blue, Jesus red, narrator white.

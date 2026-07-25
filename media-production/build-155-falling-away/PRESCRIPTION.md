@@ -41,3 +41,12 @@
 - [ ] captions: kv2/kv3 light-blue (SCRIPTURE — Paul); rest white
 - [ ] description links the Apostasy Gospel Library page
 - [ ] `bash admin/verify-mp4.sh <mp4>` green
+
+## Length read
+Verdict: TRIM to ~115s — cut the doubled "falling away" description and one of the two hope restatements
+n4 introduces the falling away and n5 ("A drifting from the truth. A dimming of the light") restates it, then n7 and n8 both make the "foretold means restoration" point the card also makes ("what is foretold can be restored").
+
+## Narration read
+- Narrator fixes: n5 → merge into n4; n7/n8 → keep one statement of "foretold = restorable," drop the other, keep the "will you take hold?" handoff.
+- Scripture lifts: none available — 2 Thessalonians is Paul's epistle; kv2/kv3 are already SCRIPTURE and no figure's words are paraphrased in narration.
+- Cast/colour: correct — Paul = SCRIPTURE (blue), no red.

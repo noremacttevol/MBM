@@ -38,3 +38,12 @@
 - [ ] each still agrees with its line — beat 6 shows the old skin bursting AND the fresh skin, not just one
 - [ ] Jesus seen only answering (beats 3-4); the mender and the wineskins carry beats 5-6
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 3, 5, 6
+
+## Length read
+Verdict: TRIM to ~185s — the "a whole new thing, not a patch" moral is stated three times (n7 tail, n8, card)
+n7 ends on "not a patch on the old religion, a whole new thing," n8 repeats "God was not tinkering with the old rules... something brand new," and the card says it a third time.
+
+## Narration read
+- Narrator fixes: n7 → end at the wineskin scene and drop the moral tail; n8 → keep as the single moral beat (or merge with n7's tail).
+- Scripture lifts: none available — s18 (the fasting question, blue) was already lifted; both little parables (patch and wineskins) stay Jesus-red.
+- Cast/colour: correct — NARRATOR white, jv19-jv22 JESUS red, s18 SCRIPTURE blue; no God or women in Mark 2:18-22.

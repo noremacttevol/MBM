@@ -46,3 +46,12 @@
 - [ ] the angel (beat 9) is shown as presence/light over the kneeling figure, no quoted caption
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 7, 8, 16
+
+## Length read
+Verdict: TRIM to ~200s — cut the sermon tails in n8/n10/n12 (explaining the moral)
+230s. Gethsemane genuinely earns a long runtime, but the narrator keeps interpreting: n8 ("God's answer... was not to take the pain away... He was not abandoned"), n10 ("He knew the difference, and he was tender"), n12 ("He did it on purpose. He did it for us") preach what the card already asks.
+
+## Narration read
+- Narrator fixes: n8 -> keep the angel-strengthens-him scene, cut the "God's answer... was not abandoned" theology; n12 -> cut "He did it on purpose. He did it for us," the card carries it; n10 -> trim "He knew the difference, and he was tender," it tells us what to feel.
+- Scripture lifts: none available — Jesus's four lines (jv38, jv42, jv41, jv46) are all already red; the Father and the angel are unquoted (no words to lift).
+- Cast/colour: correct — all Jesus red (red-letter Gethsemane), narrator white; no Deity-green line since the Father does not speak here.

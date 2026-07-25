@@ -46,3 +46,12 @@ anywhere in this build, especially the closing card.
 - [ ] neither the steward nor his lord reads as Jesus in any frame or on the card
 - [ ] each still agrees with its line (the steward is anxious/scheming, not serene)
 - [ ] `bash admin/verify-mp4.sh <mp4> <len>` green; frame-verify the steward and the card
+
+## Length read
+Verdict: TRIM to ~160s — shrink n10 (the "He is not after your money. He is after you" editorial, which IS the card) and tighten n7's interpretation.
+177.9s. j0 opens, the steward's crisis and dealings voiced in part (j3, j6), the master's commendation and Jesus's applications voiced (j1, j2, j13), retold in n8-n9. n7 has to interpret the confusing point (urgency, not the cheating) - mostly earned but long. n10 restates the card word for word.
+
+## Narration read
+- Narrator fixes: n10 -> cut/shrink (it repeats the card "He is not after your money. He is after you"). n7 -> tighten the interpretation to one line.
+- Scripture lifts: 1 available. n5/n6 -> "How much do you owe?... A hundred jugs of olive oil... A hundred measures of wheat" -> "How much owest thou unto my lord?" / "An hundred measures of oil" / "An hundred measures of wheat" (Luke 16:5,7) -> JESUS/red (parable dialogue; j6 "write fifty" is already voiced, so the debtor exchange can be lifted to match). Marginal but genuine.
+- Cast/colour: correct - s1 SCRIPTURE blue (Luke's framing), all parable dialogue JESUS red, and j13 ("No servant can serve two masters") is Jesus teaching in the flesh - red is right.

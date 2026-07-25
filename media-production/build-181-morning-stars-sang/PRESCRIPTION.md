@@ -47,3 +47,12 @@
 - [ ] the sons-of-God beat (8) is split from the morning-stars beat (7) — the Council doctrine gets its own frame
 - [ ] speaker map matches SPEAKER-LAW (g4, s1 GOD-green)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 7, 8, 10
+
+## Length read
+Verdict: KEEP ~70s
+Short and story-shaped: the hard question, the foundations, God's question quoted (g4), the retelling, the stars singing quoted (s1). Nothing rambles at 70.8s, though three narrator lines lean interpretive (see below).
+
+## Narration read
+- Narrator fixes: n4 → tighten or cut ("The God who sang the world into being is the same one listening to your questions today" is moral-explaining the card carries); n1r ("It sounds severe until you notice what it really does...") and n3 ("Creation was not a cold accident — it was a celebration") are interpretive commentary — trim toward scene-and-turn. Not length-critical at this runtime.
+- Scripture lifts: none available — g4 (Job 38:4) already lifted from the n1a/n1b paraphrase; s1 (38:7) present. Both GOD-green.
+- Cast/colour: correct — both green (the LORD out of the whirlwind, first-person question). Matches the build note and SPEAKER-LAW.

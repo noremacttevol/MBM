@@ -40,3 +40,12 @@
 - [ ] each still agrees with its line; the palms show a name graven, not generic hands
 - [ ] God shown only as hands/palms — no face — in beats 4, 5
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 5, 6
+
+## Length read
+Verdict: TRIM to ~120s — collapse the three back-to-back "you are not forgotten" beats before the card.
+n6, n7 and n7b all restate the same reassurance ("carrying her the whole time" / "hear this slowly" / "You are not out of sight… graven on the hands of God") and then the card says it a fourth time — the point is made once by jv16 and over-said after.
+
+## Narration read
+- Narrator fixes: n7 and n7b → cut or shrink; they address the viewer and tell them what to feel ("hear this slowly", "You are not out of sight. You are not out of mind"), which is the closing card's job. n5 ("Graven — engraved, cut in deep, permanent") is a strong legitimate retelling of jv16; keep it. n6 lightly repeats n5.
+- Scripture lifts: already done — s14 (Isaiah 49:14, Zion's complaint) lifted to SCRIPTURE; jv15/jv16 are GOD. None remaining.
+- Cast/colour: correct — jv15/jv16 GOD-green (Jehovah through Isaiah, OT). s14 is SCRIPTURE-blue, not WOMAN-pink: Zion is a city spoken of as a woman, not a woman the Bible records speaking, so blue is the honest call per SPEAKER-LAW.

@@ -58,3 +58,12 @@ Trusting the beats over the band per the SYSTEM doc.
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only as the teacher (beats 3, 17-area); never inside the parable's staged beats 4–15
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 8, 14, 17
+
+## Length read
+Verdict: TRIM to ~265s — cut the moral-recap tail (n17, n18) to one closing beat (the "he was never asleep" point is already made, then repeated)
+The "God was never asleep" idea lands at n14b, is re-explained at n17 ("God does not have to be worn down. He was never asleep") and again at n18, and the card says it a fourth time; n15's Greek-tense aside adds nothing the story needs.
+
+## Narration read
+- Narrator fixes: n17/n18 → collapse to one beat (both re-explain "he was never asleep," which is the card's job); n15 → cut the Greek-tense aside; keep n14a/n14b (that is the real turn — the neighbour is the contrast — not a moral).
+- Scripture lifts: none available — the SPEAKER-LAW rebuild already lifted the disciple's request (s1, blue), jv5 and jv11 into voice; the rest of the Lord's Prayer was deliberately left out.
+- Cast/colour: correct — NARRATOR white, JESUS red, SCRIPTURE blue; no God or women speak in Luke 11:1-13.

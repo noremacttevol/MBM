@@ -45,3 +45,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face never carries beats 5–13 in the flesh — over-the-shoulder / hand only; face via master ref at red lines
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 6, 12, 13
+
+## Length read
+Verdict: TRIM to ~155s — cut n7 (explains the moral, duplicates the card)
+n7 ("This is who he is... he will not let the moment be about violence... no one on the wrong side of the sword he is unwilling to reach toward") tells the viewer the meaning the card already carries ("There is no enemy too far for his mercy"). Everything through n6 (Malchus walking home whole) has already shown it.
+
+## Narration read
+- Narrator fixes: n7 → cut (moral spelled out, redundant with card); n6 keep but the "you do not forget a thing like that" tail can tighten.
+- Scripture lifts: n3 "He said he could call down more than twelve legions of angels" → Matthew 26:53 "Thinkest thou that I cannot now pray to my Father, and he shall presently give me more than twelve legions of angels?" → JESUS/red (the build already blends Matt 26 for j1, so this is in-citation).
+- Cast/colour: correct — NARRATOR white, s49 SCRIPTURE blue (disciples), j1/j2 JESUS red; no woman speaks in Luke 22:47-53.

@@ -30,3 +30,14 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face at beat 2 only via master ref / over-the-shoulder onto the called one's face
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; picture count inside 6–9 band
+
+
+## Length read
+Verdict: TRIM to ~110s — cut n7 (duplicates the card), shrink n6 (explains the moral)
+n7 "When heaven singles you out and calls you by your own name, will you look up, and answer?" is the card's closing question restated. n6's "quiet study gem... a gift you receive, not a badge you take" preaches the point the card carries.
+
+## Narration read
+- Narrator fixes: n7 → cut (card question restated); n6 → shrink (explains the moral); n2 retells kv16a and n5 retells kv16b — both valid, keep.
+- Scripture lifts: none available — John 15:16 is the only quoted material and is fully in red (kv16a/kv16b); no unquoted figure speech remains to lift.
+- Cast/colour: correct — Gospel, Jesus in the flesh, both halves JESUS-red.
+

@@ -35,3 +35,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref at beats 2, 5, 6
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; trailing dead air ≤ 3.0s
+
+## Length read
+Verdict: KEEP ~88s
+88s and tight. Only soft spot is n2a/n2b ("He wasn't promising a life with nothing to carry" / "He was promising to get under the load with you"), which previews the card's exact point — a narration trim, not a length problem.
+
+## Narration read
+- Narrator fixes: n2a/n2b -> collapse to one line; they state the card's point ("he's offering to take the other side of it"). n0c/n1b retells are fine (SPEAKER-LAW retelling rule).
+- Scripture lifts: none available — all three quoted lines are already Jesus-red (j1/j2/j3).
+- Cast/colour: correct — NARRATOR white, JESUS red only.

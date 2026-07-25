@@ -34,3 +34,14 @@
 - [ ] beats 6 and 7 are split (looking back / looking forward — two directions, two beats)
 - [ ] the Master's hands (bread, cup) via master ref; no Jesus face-closeup
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; picture count inside 10–15 band
+
+
+## Length read
+Verdict: TRIM to ~123s — cut n7 (duplicates the card), shrink n6 (explains the moral)
+n7 "When the bread and the cup are offered to you, will you come to the table?" is the card's closing question restated. n6's "quiet study gem... a covenant renewed" states the moral the card carries.
+
+## Narration read
+- Narrator fixes: n7 → cut (card question restated); n6 → shrink (explains the moral); n4 retells s26 and n5 retells s28 — valid, keep.
+- Scripture lifts: none available — kv24/kv25 quoted, s26 and s28 already lifted; 1 Cor 11:27 (the "unworthily" verse) is deliberately not lifted to keep the milk/reverent aim.
+- Cast/colour: correct, but note the one judgement call — kv24/kv25 are the Lord's Supper words some red-letter editions ink red; under SPEAKER-LAW's epistle rule (Paul recounting, not Jesus in the flesh) light-blue SCRIPTURE is right and validate_plan.py forbids jesus here.
+

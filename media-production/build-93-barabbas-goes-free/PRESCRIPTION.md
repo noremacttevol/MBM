@@ -52,3 +52,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus stays bound and silent; his face only via master ref, never carrying the emotional beat
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 7, 11, 12
+
+## Length read
+Verdict: TRIM to ~80s — cut n5 and tighten the n1a2/n1b pair (the moral is explained three times)
+The swap-as-gospel point lands in n3, then again in n4 ("that's the whole gospel in one swap"), then again in n5 ("That's not just Barabbas's story. That's the whole gospel in one swap"), and a fourth time in the card. n5 is pure editorial the card already delivers. n1a2 "He was almost offering it to them" and n1b "He thought the crowd would surely pick the innocent one" repeat Pilate's expectation — keep the stronger one.
+ 
+## Narration read
+- Narrator fixes: n5 → cut (moral explained; card carries "the innocent for the guilty" already); n1a2 + n1b → collapse to one line about Pilate expecting the crowd to free the innocent man; n4 second half tips into commentary, tighten.
+- Scripture lifts: already done in the SPEAKER-LAW rebuild — s9 Mark 15:9 (Pilate) and s14 Mark 15:14 "Why, what evil hath he done?" and s13 Mark 15:13 "Crucify him" (crowd), all SCRIPTURE/blue. None newly available: Jesus's Mark 15:2 "Thou sayest it" is not carried in narrator paraphrase (the trial is summarized, not paraphrased) and was left out on judgment. So "none available."
+- Cast/colour: Pilate and the crowd correctly blue (a quoted man / crowd, not Deity). No red by design, no green (Father does not speak in Mark 15). Correct.

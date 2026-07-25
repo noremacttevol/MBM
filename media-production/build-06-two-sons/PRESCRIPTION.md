@@ -34,3 +34,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] parable dialogue is red, not white — verify j28/j29/j30/j29b/j1/j2 captions
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 5, 6, 10
+
+## Length read
+Verdict: KEEP ~83s
+A two-son parable told in full and answered in 83s — the refusal, the turning, the crowd's verdict, and Jesus's application all land with nothing padded.
+
+## Narration read
+- Narrator fixes: clean — narrator beats are pure bridge/retelling around the red lines.
+- Scripture lifts: none available — the whole parable is already lifted to red (j28, j29, j30, j29b) and the crowd's answer is blue (s31).
+- Cast/colour: correct — parable JESUS-red, crowd blue (s31); no woman speaks in Matthew 21:28-32.

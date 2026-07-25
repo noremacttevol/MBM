@@ -39,3 +39,12 @@
 - [ ] each still agrees with its line; beat 8 shows eyes lifting to God, not admiring the person
 - [ ] Jesus's face only via master ref / over-the-shoulder onto the crowd — the crowd carries the emotion
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 3, 6, 8
+
+## Length read
+Verdict: TRIM to ~160s — cut n9, which restates the closing card almost verbatim.
+n9 ("You do not have to become something you are not. You already are salt; you already are light") and the card ("You are the salt of the earth. You are the light of the world. Not someday… right now") make the identical point back to back; one of them is dead weight.
+
+## Narration read
+- Narrator fixes: n9 → cut or shrink; it duplicates the card. The rest are clean retellings that map 1:1 to the verses (n2/n3 → jv13, n4 → jv14, n5/n6 → jv15, n7/n8 → jv16). n8's "so that… their eyes will lift past you to God" is a legitimate retelling of "glorify your Father," not editorializing; keep.
+- Scripture lifts: none available — all four teaching beats (jv13-jv16, Matthew 5:13-16) are already Jesus, verbatim and unsplit; no figure's words are sitting in paraphrase.
+- Cast/colour: correct — JESUS-red throughout, NARRATOR-white for the frame.

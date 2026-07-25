@@ -43,3 +43,11 @@ paint — a NO-CLOCK / anti-fabrication call, not a starved cut.
 - [ ] each still agrees with its line (emotion/expression on the witness's face)
 - [ ] s1 caption is light blue (SCRIPTURE), not red — Galatians is an epistle
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beat 2 (the verse) and 7 (no law)
+
+## Length read
+Verdict: TRIM to ~57s — compress n1a/n1b (the bare re-naming of love/joy/peace) — the verse just said those exact plain words.
+s1 already reads "love, joy, peace" in modern English, so n1a "First, love. Then joy." and n1b's "peace" add nothing; the retelling only earns its place where it explains (longsuffering → "patience that doesn't quit", meekness/temperance → "self-control"). Keep those, drop the echo.
+## Narration read
+- Narrator fixes: n1a/n1b → compress into the explaining beats (n2/n3); they repeat the verse's own plain words. n4's "the things that can't be overdone" is a nice landing on "against such there is no law" — keep.
+- Scripture lifts: none available — s1 is Paul's verbatim verse; no figure's dialogue is being paraphrased.
+- Cast/colour: correct — s1 light blue (SCRIPTURE/Paul, epistle), narrator white.

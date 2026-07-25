@@ -43,3 +43,12 @@ honest beat read is 10, with the blessing (beat 9) as the held frame. No padding
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref; beats 1–4 ride the children/parents/disciples
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 3, 5, 9
+
+## Length read
+Verdict: KEEP ~80s
+Already tight. The split verse (s14 → j1), the "suffer means let" gloss the line needs, the blessing verse, and the card — no dead space.
+
+## Narration read
+- Narrator fixes: clean.
+- Scripture lifts: none available — Mark's narration already lifted (s13 10:13, s16 10:16) and the 10:14 frame split (s14 blue / j1 red).
+- Cast/colour: correct — s13/s14/s16 SCRIPTURE blue (Mark writing), j1/j2 JESUS red, no green; parents are not quoted, so no pink.

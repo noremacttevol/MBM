@@ -36,3 +36,12 @@
 - [ ] the four soils (beats 4–7) each read as a distinct kind of ground; two verbatim, two retold, alternating
 - [ ] s3 (framing) is blue and j1 both ride the same still (beat 2) — no new artwork for the split
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 4, 5, 7
+
+## Length read
+Verdict: KEEP ~154s — the four-soils structure earns the runtime; the only soft spot is n12's editorial tail.
+Each soil gets its own beat (two verbatim, two retold, alternating) and none drag; n12 ("That is how good he is. He keeps sowing, and he never stops hoping your heart will be the good ground") explains the moral the card already asks ("What is the soil of your heart today?").
+
+## Narration read
+- Narrator fixes: n12 → trim the "That is how good he is / never stops hoping" editorial after "ground can change."
+- Scripture lifts: none required — the framing is already split to blue (s3, Matthew 13:3) and Jesus's parable and explanation are red (j1/j4/j8/j3/j2); the stony ground and thorns (verses 5-7, 20-22) were deliberately left as narrator paraphrase to avoid a back-to-back Old-English recitation.
+- Cast/colour: correct — Matthew's framing "And he spake many things unto them in parables, saying" is SCRIPTURE blue, the parable is JESUS red; no women, no heaven voice in Matthew 13.

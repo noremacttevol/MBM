@@ -45,3 +45,12 @@
 - [ ] the massacre (Matt 2:16) stays out — milk build
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 6, 9, 12
+
+## Length read
+Verdict: KEEP ~124s
+124s, well-paced. Watch-points are narration, not length: n0b ("Understand what they had just done") is a direct-address aside and n4b ("The nations had come to bow to the King") states the theme the card already carries.
+
+## Narration read
+- Narrator fixes: n0b -> drop "Understand what they had just done," keep the scene; n4b -> cut, the card lands "you're invited to worship too."
+- Scripture lifts: none available — the wise men (j1), Herod (s8) and Matthew's account (j2) are all already quoted in SCRIPTURE.
+- Cast/colour: correct — the magi = SCRIPTURE blue, Herod (a man) = SCRIPTURE blue, Matthew's narration = SCRIPTURE blue, no Jesus red (infant, silent). (Seg ids j1/j2 misnamed but tags correct.)

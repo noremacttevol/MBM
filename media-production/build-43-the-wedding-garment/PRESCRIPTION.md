@@ -44,3 +44,12 @@
 - [ ] each still agrees with its line — the unrobed man is dressed in road clothes among robed guests (beat 10), not ragged/poor
 - [ ] no Jesus face inside the parable beats — the king and the guests carry it
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 9, 10, 12
+
+## Length read
+Verdict: TRIM to ~240s — cut the sermon at the close (n15/n16 both preach "you cannot make yourself presentable, let him dress you," which the card delivers)
+n15 ("the ones who came, and who let the King put the clean clothes on them") and n16 ("you do not have to make yourself presentable first... let him dress you") are the same moral twice, and n14 also stops to editorialize "do not miss what the story is really doing."
+
+## Narration read
+- Narrator fixes: n15/n16 → collapse to one; n14 → cut the "do not miss what the story is really doing" nudge.
+- Scripture lifts: none available — s1 (Matthew's frame, blue) plus jv2/jv3/jv5_6/jv10 were already lifted; the whole parable (king, servants, the man) stays red, and v7 / v13b were deliberately left un-quoted.
+- Cast/colour: correct — NARRATOR white, all parable dialogue JESUS red, s1 SCRIPTURE blue; no women speak in the parable.

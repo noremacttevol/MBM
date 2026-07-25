@@ -46,3 +46,12 @@
 - [ ] Jesus shown only in the vision (beat 5), standing, master ref / glory distance — no emotional close-up
 - [ ] speaker map matches SPEAKER-LAW (s1, s60 SCRIPTURE-blue — Stephen, not Christ)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 5, 7, 9
+
+## Length read
+Verdict: KEEP ~64s
+Tight throughout — plea, the look up, the vision quoted (s1), the stoning, the dying prayer quoted (s60), the sleep. No dead stretch and no beat rushed; every second advances the martyrdom.
+
+## Narration read
+- Narrator fixes: clean. n1 "changed everything" is mild but functions as the turn; the card's second sentence carries meaning but that is the card's allowed job.
+- Scripture lifts: none available — 7:56 already moved red→blue (s1) and 7:60 already lifted from n4a's paraphrase (s60 SCRIPTURE-blue). n3b's "face of an angel" echoes Acts 6:15, but that is Luke's description, not a spoken line — no lift.
+- Cast/colour: correct — both quotes SCRIPTURE-blue (Stephen is a man, not Deity); Jesus stands in the vision but never speaks, so no red is right.

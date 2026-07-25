@@ -52,3 +52,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] God is never given a face — cloud/light/hand only (the text: "there shall no man see me")
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 5, 10, 12
+
+## Length read
+Verdict: TRIM to ~120s — cut the moral close of n9 ("That is what happens to someone who spends time close to God — you start, quietly, to glow with a little of him") and thin the editorial asides in n5 and n6b (164s now vs 80–120 target).
+The friendship beats and the cleft-of-the-rock protection carry the story well; the drag is the narrator stepping in to interpret it (n5 "His friendship," n6b "that is what he chose," n9's glow moral) — the pictures and the card already say it.
+
+## Narration read
+- Narrator fixes: n9 → cut the "That is what happens..." moral. n5, n6b → trim the interpretive commentary to scene-and-turn. n6b's retelling of jv19 stays.
+- Scripture lifts: none available — Moses' "shew me thy glory" is already lifted to s18 (Exodus 33:18); all three Deity lines (jv14, jv19, jv20) are green.
+- Cast/colour: correct — GOD green for Jehovah; nface (Exodus 33:11, "the LORD spake unto Moses face to face") SCRIPTURE blue because it is the writer narrating ABOUT the LORD, and Moses' own request blue (s18).

@@ -38,3 +38,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref at j1/j2/j3; the friends' faces carry 3, 5; the man's face carries 6, 8, 12
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 4, 5, 12
+
+## Length read
+Verdict: TRIM to ~275s — tighten the moral gloss in n6 ("Jesus went to the deepest wound first. His legs had not moved yet. And it was already the miracle" restates the point) and the long explanation in n9
+295s is a full single-scene story that mostly earns its length; the trims are the explanatory recaps, not the action.
+
+## Narration read
+- Narrator fixes: n6 → tighten the "deepest wound first / already the miracle" recap to one line. n9 → shorten the "which is easier to say" explanation to scene-and-turn.
+- Scripture lifts: none available — the scribes' reasoning (s7) and the crowd's line (s12) are already lifted; j1/j2/j3 stay red.
+- Cast/colour: correct — Jesus red (j1, j2, j3), scribes blue (s7), crowd blue (s12); no woman speaks in Mark 2:1-12.

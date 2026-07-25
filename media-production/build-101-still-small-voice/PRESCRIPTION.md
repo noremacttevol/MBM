@@ -56,3 +56,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] God is never given a face — voice only, in the whirlwind and in the whisper
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 2, 13, 16
+
+## Length read
+Verdict: TRIM to ~165s — cut the moral tail of n8 ("That is how God answered a tired, frightened man — not with thunder, but with a whisper, and with the truth that he was never as alone as he feared") (173s now; that sentence restates what the card already says).
+The three theophany beats (wind/earthquake/fire in n5, then the whisper in n6) earn every second — that contrast IS the story. The only dead weight is the closing summary in n8, which explains the moral the card is built to carry.
+
+## Narration read
+- Narrator fixes: n8 → cut the final "That is how God answered..." sentence (explains the moral; card's job). n7 → tighten "He was being sent back, steadied and not alone" (mild feel-telling). n1–n6 clean.
+- Scripture lifts: none available — Elijah's own answer is already lifted to s10 (1 Kings 19:10); every God line (jv9, jv11a, jv18) is already its own green beat.
+- Cast/colour: correct — GOD green for Jehovah (OT, never red), SCRIPTURE blue for jv11c/jv11b/jv12 (writer narrating ABOUT the LORD, not Deity speaking — matches SPEAKER-LAW §9).

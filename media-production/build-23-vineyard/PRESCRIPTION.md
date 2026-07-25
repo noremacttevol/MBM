@@ -36,3 +36,12 @@
 - [ ] j6/j7a (beat 5) is the question-and-answer pair on one still; j12 (beat 10) sits on the grumbling still
 - [ ] the laborers' and murmurers' lines are JESUS-red, not blue — they are Jesus's words inside the parable
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 5, 8, 11
+
+## Length read
+Verdict: TRIM to ~175s — cut the doubled moral-explain in n13 and n14.
+n13 ("That is the whole point. The first men were not underpaid ... watching someone else receive grace they had not earned") and n14 ("God does not run low on generosity ... a full day's welcome waiting for you") both explain the lesson the card carries ("Will you come into the vineyard now?"); keep one bridge.
+
+## Narration read
+- Narrator fixes: n13/n14 → collapse to a single bridge; both currently state the moral.
+- Scripture lifts: none available — every parable line is already red, including the labourers' "Because no man hath hired us" (j7a) and the murmurers' complaint (j12); the householder's speech stays red (j1/j2/j6/j7b).
+- Cast/colour: correct — all speech is inside the parable, so it is JESUS red (a red-letter KJV inks the labourers' and murmurers' words too); no blue frame-speaker, no women, no heaven voice in Matthew 20:1-16.

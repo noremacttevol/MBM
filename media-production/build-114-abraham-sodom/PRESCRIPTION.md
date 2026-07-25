@@ -46,3 +46,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion)
 - [ ] God shown only as warm presence/light — no face — in beats 8, 12
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 6, 9, 13
+
+## Length read
+Verdict: KEEP ~143s — the arc from the first plea (s23) down to "ten" (s32/jv32) earns every second, and 143s is already lean for a full descent.
+The one soft spot is the tail: n8 ("God let a man argue with him — and kept saying yes") restates n7 and pre-says the card almost word for word, so the meaning lands three times before the closing question.
+
+## Narration read
+- Narrator fixes: n8 → trim; it explains the moral ("He is not looking for reasons to condemn") that the card already carries — shrink to the scene close ("Abraham went home in the dusk, amazed"). n7's "Not one straining to condemn — one who could be talked, again and again, toward mercy" is mild editorializing; keep or tighten. n5/n6 are clean retellings.
+- Scripture lifts: already done — s23 (Gen 18:23) and s32 (Gen 18:32a) lifted to SCRIPTURE, jv26/jv32 are GOD. The one remaining paraphrase is n5's 45/40/30 exchange (Gen 18:28-31, God's repeated "I will not do it for forty's sake…"); it works as a montage in the narrator's voice and need not be lifted. None newly required.
+- Cast/colour: correct — Jehovah green (premortal Christ, OT), Abraham's pleas SCRIPTURE-blue.

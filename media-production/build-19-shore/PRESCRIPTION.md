@@ -43,3 +43,12 @@ The dawn on the water was all paraphrase — the figure told them where to cast 
 - [ ] the charcoal fire (beats 9–10) is genuinely a charcoal fire — it is the emotional hinge, not set dressing
 - [ ] Peter's face carries beats 2, 8, 10, 13, 14 — not Jesus's face
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 7, 10, 12
+
+## Length read
+Verdict: KEEP ~158s — well-paced; the one soft spot is n13/n14 landing "he trusted him again" twice.
+The exchange (three questions, Peter's answer, "Feed my sheep") carries the runtime cleanly; n14 ("He takes your worst night and hands you back your life") slightly repeats n13's "He did not only forgive Peter. He trusted him again" — optional trim, not required.
+
+## Narration read
+- Narrator fixes: optional — n14 could shrink so it doesn't repeat n13's "trusted him again"; otherwise clean.
+- Scripture lifts: none available — Jesus's dawn calls and shore questions are already red (j0a/j0b/j1/j2) and Peter's answer is already blue (s16, John 21:16); "it is the Lord" (n6) was deliberately left in narrator voice (three words, documented).
+- Cast/colour: correct — risen Christ red (red-letter), Peter SCRIPTURE blue (apostle, not Deity); no women in John 21.

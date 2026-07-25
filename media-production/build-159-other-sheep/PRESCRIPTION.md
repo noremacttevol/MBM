@@ -41,3 +41,12 @@
 - [ ] captions: kv14/kv16 red (JESUS); rest white
 - [ ] description links the Book of Mormon Gospel Library page
 - [ ] `bash admin/verify-mp4.sh <mp4>` green
+
+## Length read
+Verdict: TRIM to ~110s — cut n7's "what to feel" beat and n8's restatement
+n7 ("So if you have ever felt like an outsider... hear this. He counted you in") tells the viewer what to feel — the pictures and kv16 already carry it — and n8 restates the same point the card makes.
+
+## Narration read
+- Narrator fixes: n7 → cut (editorial "what to feel"); n8 → keep only "will you follow?" handoff.
+- Scripture lifts: none available — both quoted verses (kv14, kv16) are already JESUS/red and no further saying is paraphrased in narration.
+- Cast/colour: correct — kv14/kv16 JESUS (red): Gospel, Christ in the flesh.

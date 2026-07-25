@@ -40,3 +40,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref at beats 5, 7, 10
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 7, 9, 11
+
+## Length read
+Verdict: KEEP ~92s
+92s, well-paced. The trap-question, the coin, and "render unto Caesar" each land in order, with Mark's tags split off as blue (s15/s17) so Jesus's red lines stay clean. Nothing rambles.
+
+## Narration read
+- Narrator fixes: n5 -> mostly the retell/bridge to the card, but tighten "the real question is what you owe to the One whose face you carry" so it doesn't pre-say the card. Otherwise clean.
+- Scripture lifts: none available — the questioners (s14), the crowd's "Caesar's" (s16), and Jesus (j1/j2/j3) are all already quoted.
+- Cast/colour: correct — the flattering officials and the crowd = SCRIPTURE blue, Mark's "said unto them" tags = SCRIPTURE blue, Jesus red (matches SPEAKER-LAW section 4 split and the build's own comment).

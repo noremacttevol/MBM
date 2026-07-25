@@ -43,3 +43,12 @@ read is 9 (j2 and j3 land on the same gesture toward the circle, one still). No 
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref; beats 6, 8 ride the circle of ordinary faces
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 5, 6, 7
+
+## Length read
+Verdict: KEEP ~78s
+Tight question-and-answer shape: the message in, Jesus's question, his own answer, one retelling, the card. No padding.
+
+## Narration read
+- Narrator fixes: clean; no retelling is wedged between j1 and n2 on purpose, which is right.
+- Scripture lifts: none available — the crowd's message already lifted (s32 Mark 3:32); j1/j2/j3 are all JESUS/red.
+- Cast/colour: correct — s32 is SCRIPTURE/blue (the crowd relays it, not Mary), so no pink; Mary is present but silent; no green.

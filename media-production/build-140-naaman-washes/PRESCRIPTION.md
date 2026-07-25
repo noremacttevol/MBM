@@ -58,3 +58,12 @@ padding with invented moments. Trust the beats.
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] the girl's face (beat 4) and Naaman's clean skin (beat 13) carry the emotion; no invented scenes
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 10, 13
+
+## Length read
+Verdict: TRIM to ~85s — cut n5 (explains the moral the closing card already lands)
+Real mp4 runs 96.6s. The story ends on the sacred beat s3 ("his flesh came again like unto the flesh of a little child, and he was clean"). n5 then preaches it — "the way back may look almost too simple — pray again, read again, come back again. Do the simple thing" — which is the card's exact job ("He almost rode away from his healing because it sounded too simple. Do the simple thing.").
+
+## Narration read
+- Narrator fixes: n5 → cut (moral sermon that duplicates the card); n3 is fine as the turn (his rage) — keep.
+- Scripture lifts: none available — the three lines a figure actually speaks (the maid's plea, the messenger's instruction, the servants' reasoning) are already lifted to WOMAN/SCRIPTURE, and s3 is verbatim KJV narrative already in the scripture voice.
+- Cast/colour: correct — maid = WOMAN/pink, messenger + servants + healing verse = SCRIPTURE/blue, no Deity line present.

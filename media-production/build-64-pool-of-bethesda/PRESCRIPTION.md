@@ -58,3 +58,12 @@ Flagging the length so no one "fixes" it by trimming narration.
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus via master ref; the man's face carries beats 2, 6, 10
 - [ ] `bash admin/verify-mp4.sh <mp4> 227` green; frame-verify beats 2, 6, 9
+
+## Length read
+Verdict: TRIM to ~205s — cut n7 (moral summary) and the "Grace came first" tail of n5b
+The story is a full arc and most of 227s earns it, but n7 ("Thirty-eight years, and one question... The pool never healed anybody. The person standing next to that man did") restates the meaning the card already lands ("do you want to be whole?").
+
+## Narration read
+- Narrator fixes: n7 summarizes the moral / duplicates the card → cut. n5b tail "Grace came first. Everything else came after." → editorial, trim.
+- Scripture lifts: none available — the man's answer (s7) and the rule-keepers (s10) blue; j1/j2/j14 red.
+- Cast/colour: correct.

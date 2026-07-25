@@ -45,3 +45,11 @@ honest beat read is 7. Not a starved cut.
 - [ ] each still agrees with its line — read as SEARCH-to-find, never a frightening chase; the faces are being FOUND
 - [ ] s1 caption is green (GOD), not red — Jeremiah is Old Testament, Jehovah speaking
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 3 (hunters) and 7 (brought home)
+
+## Length read
+Verdict: TRIM to ~62s — collapse n2/n3/n4, which make the same point three times: the search is mercy, not condemnation.
+n2 "the same God who sends the search... wants them found, not lost", n3 "would not let His people slip away unnamed", and n4 "not to condemn, but to bring home" are one idea said thrice. Keep the strongest (n2 or n4) plus n1's literal retelling; the rest is the moral over-explained.
+## Narration read
+- Narrator fixes: n2/n3/n4 → compress to one beat; they repeat the "search-to-save" reading and editorialize ("The point was never the catching"). n1 (literal retelling of the verse) stays.
+- Scripture lifts: none available — s1 is the LORD's verbatim words; the narrator beats interpret, they don't paraphrase another quoted line.
+- Cast/colour: correct — s1 green (GOD/Jehovah, Old Testament first person "I will send for many fishers").

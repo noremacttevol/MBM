@@ -51,3 +51,12 @@ city → hill, each a distinct place. Honoring the words over the mirror-range (
 - [ ] each still agrees with its line; the fish (7) reads as rescue, not punishment
 - [ ] God shown only as a voice — no face — in beats 2, 9, 15
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 11, 12, 13
+
+## Length read
+Verdict: TRIM to ~255s — it is a genuine full-book retelling (commission, storm, fish, Nineveh, relenting, complaint) so much of 278s is earned, but the moral-explaining tails on the retellings pad it.
+Cut the commentary bolted onto the plain-English retellings — n1b's "It is a warning. God would far rather warn a wicked city than lose it," n8's "who had been looking for a reason to spare them all along," n8b's "That is the confession at the bottom of the book" — the lifted lines and the card already carry that thesis.
+
+## Narration read
+- Narrator fixes: keep the required retellings but trim their moral tails — n1b (drop the "it is a warning" editorial), n8 (drop "looking for a reason to spare them all along"), n8b (shrink; it explains the moral). n9 is a fair retelling of jvB; keep.
+- Scripture lifts: already extensive — gv1 (1:2), jvA (3:2), jvB (4:11) as GOD; s112 (1:12), s29 (2:9), s34 (3:4), s42 (4:2) as SCRIPTURE. One remaining paraphrase, declined by the build: the king's decree / Nineveh repenting in n7 (Jonah 3:5-9) — Jonah 3:9 "Who can tell if God will turn and repent…" could lift to SCRIPTURE/blue; build left it because the clause order across 3:7-9 was uncertain. Not required.
+- Cast/colour: correct — the LORD to Jonah is GOD-green (OT), Jonah and the sailors SCRIPTURE-blue, nothing red.

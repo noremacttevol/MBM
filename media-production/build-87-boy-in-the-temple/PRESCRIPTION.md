@@ -39,3 +39,12 @@
 - [ ] Mary's face carries beats 6 and 7; the boy's face via master ref at 8
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 6, 7, 8
+
+## Length read
+Verdict: KEEP ~87s
+87s and tight. The plea -> answer turn lands cleanly, Mary in pink and the boy in red. n2b/n2c interpret a little ("Not annoyed. Grieving" / "He was not being smart with his mother") but they carry the emotional beat rather than pad it.
+
+## Narration read
+- Narrator fixes: mostly clean; n2c's tail ("could not imagine where else they thought he would be") lightly over-explains — optional trim. n2b's "sorrowing / grieving" gloss is a fair retell.
+- Scripture lifts: none available — Mary (w48) and Jesus (j1) already speak their own KJV lines.
+- Cast/colour: correct — Mary = WOMAN pink, Jesus = JESUS red, narrator white. Model build.

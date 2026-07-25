@@ -30,3 +30,14 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Christ going to preach (beat 5) via master ref; no Jesus face-closeup
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; picture count inside 6–9 band
+
+
+## Length read
+Verdict: KEEP ~60s
+Lean and complete — n0 sets it up, s1 (1 Pet 4:6) and s19 (1 Pet 3:18-19) sit side by side, and the narrator beats are all one-liners that bridge and retell without preaching. No moral is explained; the two verses do the work.
+
+## Narration read
+- Narrator fixes: clean — n1a/n1b/n2 and n3a/n3b are short scene-and-bridge lines, no editorializing.
+- Scripture lifts: none available — s1 and s19 already lifted; Peter's letter has no unquoted figure speech left.
+- Cast/colour: correct — 1 Peter is Peter writing, no red, both quoted passages SCRIPTURE.
+

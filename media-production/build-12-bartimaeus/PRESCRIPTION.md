@@ -38,3 +38,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only via master ref at j1/j2; Bartimaeus's face carries 5, 8, 13
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 6, 8, 13
+
+## Length read
+Verdict: TRIM to ~260s — tighten the doubled cloak aside in n7 (the cloak is explained as "his coat, his bed... the very thing he spread out to catch the coins" and then again "coins and all... spent everything he owned")
+283s is rich and the cloak detail carries the meaning, but n7 states it twice; the title teaching in n2 and the beat asides can each lose a sentence.
+
+## Narration read
+- Narrator fixes: n7 → cut the second cloak explanation (keep one). n2 → tighten the "Son of David" study note.
+- Scripture lifts: none available — Bartimaeus's cries (s47, s51) and the crowd's relay (s49) are already lifted; j1/j2 stay red. Mark 10:49 gives Jesus no direct red quote to lift.
+- Cast/colour: correct — Jesus red (j1, j2), Bartimaeus blue (s47, s51), crowd blue (s49); no woman speaks in Mark 10:46-52.

@@ -39,3 +39,12 @@
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] no Jesus face in the parable beats — the owner and the gardener carry it
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 6, 7, 10
+
+## Length read
+Verdict: TRIM to ~190s — collapse the doubled interpretive beats (n10b repeats n10; n12 re-wraps the moral the card carries)
+n10 ("the tree had not changed... someone stood between it and the axe and asked") and n10b ("not a tree earning its keep, a gardener buying it time") say the same thing back to back; n12 and the card both close on "the tree is still standing."
+
+## Narration read
+- Narrator fixes: n10b → fold into n10; n11/n12 → trim the overlap (both name the gardener and land the mercy point).
+- Scripture lifts: none available — all four verses (jv6-jv9) are already verbatim red and s6a (Luke's framing) is blue; the docstring confirms nothing is left to lift without inventing scripture.
+- Cast/colour: correct — owner and vinedresser stay Jesus-red (parable law; SPEAKER-LAW names this parable as the worked example); no God or women in Luke 13:6-9.

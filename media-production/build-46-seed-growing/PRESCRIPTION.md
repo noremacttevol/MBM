@@ -38,3 +38,12 @@
 - [ ] each still agrees with its line — beat 5 shows the three stages of growth, not a jump straight to harvest
 - [ ] the field and the farmer carry every beat; no Jesus figure staged in the parable
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 4, 5, 7
+
+## Length read
+Verdict: TRIM to ~168s — the "resting / it is not your job" refrain lands 4-5 times (n4, n8, n10, n11); keep the strongest and drop n11
+n10 ("God does the part you were never strong enough to do... he makes it grow") and n11 ("so you can actually sleep tonight") are the same rest back to back, and the card closes on it again.
+
+## Narration read
+- Narrator fixes: n11 → cut (n10 already gives the rest, the card closes it); n4/n5 → tighten the overlap ("the growing was never his job" / "he does not even grasp the miracle").
+- Scripture lifts: none available — the farmer never speaks in Mark 4:26-29, so there is no second voice to lift; the four red beats (jv26-jv29) are already verbatim.
+- Cast/colour: correct — NARRATOR white and JESUS red only; no blue, green, or women in the passage.

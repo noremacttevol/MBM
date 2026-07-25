@@ -38,3 +38,12 @@
 - [ ] s24 (framing) is blue and j24 both ride the same still (beat 1) — no new artwork for the split
 - [ ] "tear up the good plants" (n9) reads TAIR, not TEER
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 2, 4, 10
+
+## Length read
+Verdict: TRIM to ~210s — over 200 for a single parable-plus-explanation; cut n14's repetition of the card line.
+n14 ends "He is patient enough to wait for you, and he will not let one good stalk be lost" and the card immediately repeats "He is patient enough to wait for you" — drop the editorial from n14; n12 ("Nothing good was lost ... came safely home") also softly restates the harvest just shown.
+
+## Narration read
+- Narrator fixes: n14 → cut the "That is how good he is / patient enough to wait for you" tail (the card says it verbatim); tighten n12.
+- Scripture lifts: none required — the framing is already split to blue (s24) and the parable dialogue is already red (j24/j25/j27/j30/j1/j2, including the servants' question); the master's "An enemy hath done this" (Matthew 13:28, in n7) was deliberately left as paraphrase to avoid a run of back-to-back Old English.
+- Cast/colour: correct — Matthew's framing "Another parable put he forth unto them, saying" is SCRIPTURE blue, the parable and its servants are JESUS red; no women, no heaven voice in Matthew 13.

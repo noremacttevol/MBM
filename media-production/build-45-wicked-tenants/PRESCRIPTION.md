@@ -51,3 +51,12 @@ band.
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] no Jesus face inside the parable beats; beat 13 (the stone = himself) shown as the cornerstone image, not his face
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 9, 11, 13
+
+## Length read
+Verdict: TRIM to ~275s — trim the doubled moral at the end (n13 and the card both land "the owner never stopped sending")
+n13 ("the owner never stopped sending... that is the God this whole thing is about") states the moral, then the card repeats it ("an owner who keeps sending... is not looking for a reason to be done with you"); n7's "stop and feel how strange that is" is an editorial nudge.
+
+## Narration read
+- Narrator fixes: n13 → shrink to scene-and-turn and let the card carry the moral; n7 → cut the "stop and feel" aside.
+- Scripture lifts: none available — s1 (Mark's frame, blue) plus jv3/jv4_5/jv7/jv8 already lifted; the tenants' plotting (jv7) correctly stays red inside the parable, and 12:12 was deliberately left out.
+- Cast/colour: correct — all parable speech JESUS red, s1 SCRIPTURE blue; no God or women in Mark 12:1-12.

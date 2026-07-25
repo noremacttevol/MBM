@@ -49,3 +49,12 @@ like a T2 in scope. Trusting the beats over the band.
 - [ ] each still agrees with its line (direction/position/scale/emotion/likeness)
 - [ ] Jesus's face only at beats 2–3 (turned to the crowd); parable beats 5–8 show the builder/king, not Jesus
 - [ ] `bash admin/verify-mp4.sh <mp4>` green; frame-verify beats 6, 10, 12
+
+## Length read
+Verdict: TRIM to ~285s — cut the redundant closing commentary (n13a/n13b/n14/n16 all re-make the "he told the whole price first / he counted his own cost" point)
+n13b, n15 and n16 each restate that Jesus counted the cost himself and refuses to lie about the price, and the card says it once more; keep n15 (walking to Jerusalem — the strongest) and trim the overlap.
+
+## Narration read
+- Narrator fixes: n14 and n16 → merge (both "he is not keeping you out, he wants the tower standing"); n13a ("why would a man... thin it out") overlaps n2 — tighten.
+- Scripture lifts: none available — s25 (Luke's turn, blue) and jv29 (the mocked half-built tower, red) were already lifted; the passage is otherwise ~70% verbatim.
+- Cast/colour: correct — the two mini-parables are Jesus's own illustrations, all red; no God or women in Luke 14:25-35.
