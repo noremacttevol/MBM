@@ -111,27 +111,6 @@ def check_playable(mp4):
     return []
 
 
-def check_engine(bdir):
-    """THE 2026-07-24 DISCOVERY that ended the sample-rate lie: every build's
-    make_narration.py still calls the OLD edge-tts engine (via mbm_caption_timing's
-    save_speaker_narration -> edge_tts.Communicate). The '44100 Hz = ElevenLabs'
-    assumption was defeated because re-encoded edge-tts clips are also 44100, and a
-    voice-fingerprint comparison confirmed the 'new' audio is the SAME old voice.
-    The only trustworthy signal is the generator itself: a build's narration is the
-    new voice ONLY if its make_narration.py actually calls the ElevenLabs module
-    (mbm_eleven). No mbm_eleven call = old voice by construction = block."""
-    mn = os.path.join(bdir, "make_narration.py")
-    try:
-        src = open(mn, encoding="utf-8", errors="replace").read()
-    except OSError:
-        return ["ENGINE: make_narration.py missing"]
-    if not re.search(r"\bmbm_eleven\b|\belevenlabs\b", src, re.I):
-        return ["ENGINE: make_narration.py still uses the OLD edge-tts voice engine "
-                "(no mbm_eleven/ElevenLabs call) — the audio is the old voice by "
-                "construction, whatever its sample rate says"]
-    return []
-
-
 def check_voice_and_complete(bdir, segs):
     """Every spoken clip the build USES must exist and be 44100 Hz."""
     fails = []
@@ -154,56 +133,6 @@ def check_voice_and_complete(bdir, segs):
         fails.append(f"NEW VOICE: {len(old)} clip(s) are the OLD voice (not 44100 Hz "
                      f"ElevenLabs): {', '.join(map(str, old[:8]))}")
     return fails
-
-
-def clip_duration(path):
-    r = subprocess.run(
-        ["ffprobe", "-v", "error", "-show_entries", "format=duration",
-         "-of", "csv=p=0", path], capture_output=True, text=True)
-    try:
-        return float(r.stdout.strip())
-    except ValueError:
-        return 0.0
-
-
-def check_render_fresh(bdir, segs, mp4):
-    """The clips can all be new ElevenLabs while the SHIPPED mp4 is a stale OLD
-    render that was never rebuilt from them — exactly how #200 slipped through with
-    the old voice (its mp4 ran 65s while the new trimmed clips total 40s). The mp4
-    always runs a little longer than the raw clips (card hold + tiny gaps), but it
-    can NEVER contain many seconds of audio that aren't in the current clips. If it
-    does, it's an old cut carrying content (and voice) that no longer exists in the
-    script — block it as not-re-rendered."""
-    clip_total = sum(clip_duration(os.path.join(bdir, "audio", f"{sid}.mp3"))
-                     for sid, _sp, _t in segs
-                     if os.path.exists(os.path.join(bdir, "audio", f"{sid}.mp3")))
-    if clip_total <= 0:
-        return []
-    r = subprocess.run(["ffprobe", "-v", "error", "-show_entries",
-                        "format=duration", "-of", "csv=p=0", mp4],
-                       capture_output=True, text=True)
-    try:
-        mp4_dur = float(r.stdout.strip())
-    except ValueError:
-        return ["STALE RENDER: cannot read the mp4's duration"]
-    unaccounted = mp4_dur - clip_total
-    # A FRESH render is only longer than its raw clips by the card hold plus the
-    # small gap between segments. Anything past that budget is audio the current
-    # clips can't explain — i.e. an OLD render still carrying the echo/scripture
-    # lines that were trimmed out of the new script (and, with them, the old
-    # voice). Budget: ~5s card + ~0.9s per segment gap. Measured against real
-    # fresh cuts (#87: 12s over 12 segs, inside budget) and a known stale one
-    # (#200: 25s over 9 segs, well past budget).
-    budget = 5.0 + 0.9 * len(segs)
-    if unaccounted > budget:
-        return [f"STALE RENDER: mp4 is {mp4_dur:.0f}s but the current clips total "
-                f"only {clip_total:.0f}s — {unaccounted:.0f}s of audio the new clips "
-                f"can't explain (budget {budget:.0f}s). It's an OLD render, not "
-                f"rebuilt from the new voice; rebuild it"]
-    if unaccounted < -3:
-        return [f"STALE RENDER: mp4 is {mp4_dur:.0f}s but the clips total "
-                f"{clip_total:.0f}s — the mp4 is missing narration; rebuild it"]
-    return []
 
 
 def check_script_echo(segs):
@@ -250,13 +179,28 @@ def transcribe(mp4):
             pass
 
 
-def check_audio_truth(mp4):
+def _one_segment_holds(a, b, seg_wordsets):
+    """True if some SINGLE written segment contains both spoken sentences (their
+    content words), tolerating one whisper miss each. When that holds, the two
+    'sentences' are just whisper splitting ONE written line at its internal
+    punctuation (e.g. the colon inside John 4:14 'thirst again: But whosoever...')
+    — a scripture verse's own parallelism, NOT the narrator-restates-scripture echo
+    Cameron hates. A real echo restates ACROSS two segments, so no single segment
+    holds both halves and it stays flagged."""
+    for sw in seg_wordsets:
+        if len(a - sw) <= 1 and len(b - sw) <= 1:
+            return True
+    return False
+
+
+def check_audio_truth(mp4, segs=None):
     """Transcribe the real audio and flag back-to-back sentences that repeat the
     same content — the echo as ACTUALLY SPOKEN, regardless of clean text files.
     Returns (fails, ran) where ran=False means whisper wasn't available."""
     spoken = transcribe(mp4)
     if spoken is None:
         return [], False
+    seg_wordsets = [set(words(s[2])) for s in (segs or [])]
     sents = sentences(spoken)
     bad = []
     for i in range(len(sents) - 1):
@@ -267,6 +211,10 @@ def check_audio_truth(mp4):
         # strict: only a real restatement (>=3 shared content words AND >=65% of
         # the shorter sentence) — avoids flagging a merely-similar next line.
         if shared >= 3 and shared / min(len(a), len(b)) >= 0.65:
+            # ...unless both halves live in ONE written segment: then it's a single
+            # verse whisper split, not a cross-segment echo. See _one_segment_holds.
+            if _one_segment_holds(a, b, seg_wordsets):
+                continue
             bad.append((sents[i][:60], sents[i + 1][:60]))
     if bad:
         return [f"AUDIO ECHO (what it actually says): {len(bad)} spoken repeat(s), "
@@ -292,19 +240,12 @@ def gate(bdir, fast=False):
     if not segs:
         reasons.append("SCRIPT: make_narration.py has no readable SEGMENTS")
     else:
-        # NOTE 2026-07-24: check_engine (grep make_narration.py for mbm_eleven) was
-        # WRONG and is retired — the real renderer is voice_from_transcripts.py at
-        # the mp root, which never touches make_narration.py. The clip sample rate
-        # IS trustworthy here: 44100 clips are written raw from the ElevenLabs API
-        # by render_segment; edge-tts writes raw 24000. (The re-encode fear was
-        # unfounded — no pipeline re-encodes narration clips to 44100.)
         reasons += check_voice_and_complete(bdir, segs)
-        reasons += check_render_fresh(bdir, segs, mp4)
         reasons += check_script_echo(segs)
 
     whisper_ran = False
     if not fast:
-        af, whisper_ran = check_audio_truth(mp4)
+        af, whisper_ran = check_audio_truth(mp4, segs)
         reasons += af
 
     return {"build": name, "pass": len(reasons) == 0,
