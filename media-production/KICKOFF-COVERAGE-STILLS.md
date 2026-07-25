@@ -58,3 +58,9 @@ even inside a negation).
   FAIL list, record it, commit, and move on.
 - Converting these to the face-shown v3 standard (or rewording "halo") is a BUILD-OWNER decision, not
   a coverage-pass change — forcing the "face shown" lock would contradict the intentional from-behind design.
+
+## GOTCHA: some builds have a LOCAL `assets/` .gitignore — use `git add -f` for the new jpeg
+A few builds (e.g. build-04-nicodemus) carry a `build-NN/.gitignore` containing `assets/`. The
+existing stills are tracked (force-added long ago), but a NEW jpeg is silently skipped by a plain
+`git add` (you'll see "paths are ignored by .gitignore"). Fix: `git add -f build-NN/assets/<slug>.jpeg`.
+Always verify the asset actually committed (`git show --stat HEAD | grep <slug>`), not just the JSON/PROMPTS.
