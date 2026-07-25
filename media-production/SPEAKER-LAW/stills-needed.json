@@ -4540,8 +4540,8 @@
   "current_still": "S3",
   "reason": "1 beats now sit on this still (27.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S3 now carries the tempter's first line verbatim and its retelling. Frame the bait, not the devil: a hand's-reach of smooth wilderness stones on baked ground, loaf-sized and loaf-shaped, warm light on them so they genuinely look like bread — and the edge of a starving man's shadow falling across them. The temptation has to look reasonable.",
-  "slug": "",
-  "done": false
+  "slug": "s3b-the-bait",
+  "done": true
  },
  {
   "build": "build-07-peter-water",
