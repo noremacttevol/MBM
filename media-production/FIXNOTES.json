@@ -1257,6 +1257,10 @@
   {
    "date": "2026-07-22",
    "note": "Fixed \"putteth\" \u2014 it was being read as \"puddeth.\" Now says PUT-eth correctly (verified in final audio). Caption still shows the true KJV \"putteth.\" \u2014 narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-24",
+   "note": "narration re-recorded"
   }
  ],
  "47": [
