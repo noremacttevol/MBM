@@ -3432,7 +3432,8 @@
   "reason": "3 beats now sit on this still (29.8s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries three beats — the boy's question and the father's answer. The moment is verse 7 exactly: Isaac stopped on the path, turned back toward his father, the bundle of wood still on his own shoulders, one hand gesturing at the fire his father carries. Nothing else in his hands. The absence of a lamb has to be the loudest thing in the frame.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s4-the-boys-question"
  },
  {
   "build": "build-65-help-mine-unbelief",
@@ -3469,8 +3470,8 @@
   "current_still": "S9",
   "reason": "2 beats now sit on this still (29.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Carries the blessing and its retelling. The moment of verse 17: Abraham standing on the mountain at night under a sky thick with stars, the boy alive beside him, the man looking up rather than down. The scale of the promise should be in the sky, not in the man.",
-  "slug": "",
-  "done": false
+  "slug": "s9b-as-the-stars",
+  "done": true
  },
  {
   "build": "build-151-ask-of-god",
