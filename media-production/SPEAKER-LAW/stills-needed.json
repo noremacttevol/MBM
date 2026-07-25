@@ -523,7 +523,8 @@
   "reason": "3 beats now sit on this still (46.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S9 now carries three beats — the table, Zacchaeus's verbatim pledge, and the fourfold retelling. Frame the moment he stands: a small man risen to his feet at a crowded low table, hands open and empty at his sides, everyone else still seated and looking up at him. Lamplight, food untouched. He is not being confronted — he is volunteering.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s9-table-gives"
  },
  {
   "build": "build-158-two-sticks",
@@ -3962,7 +3963,8 @@
   "reason": "3 beats now sit on this still (28.6s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S8 now carries three beats — Zacchaeus coming down, the city's verbatim murmur, and its retelling. It needs the crowd in it, not just the two men. Frame the street outside the house: Zacchaeus on the ground beside Jesus, glad and awkward, while the townspeople behind them lean together, faces turned, talking about him. Judgment on their faces, joy on his.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s8-comes-down"
  },
  {
   "build": "build-159-other-sheep",
