@@ -2353,8 +2353,8 @@
   "current_still": "S3",
   "reason": "1 beats now sit on this still (33.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S3 now carries three beats — the knock, Nicodemus's verbatim greeting, and the 'we know' retelling. Frame the greeting, not the arrival: an older, well-dressed man just inside a doorway, hood pushed back off grey hair, speaking, one hand still on the doorframe as though he has not decided to stay. Lamplight on his face from inside, a black street behind him.",
-  "slug": "",
-  "done": false
+  "slug": "s3b-the-greeting-at-the-threshold",
+  "done": true
  },
  {
   "build": "build-117-hosea-buys-her-back",

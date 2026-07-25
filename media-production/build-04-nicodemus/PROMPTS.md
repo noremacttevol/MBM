@@ -86,3 +86,6 @@ SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stack
 Text on cream (#F7F2E9), serif, spoken + captioned (an INVITATION): "He never shamed
 the fear, or the night. Whatever draws you toward him — you can bring it in the dark. The
 courage grows on its own."
+
+## s3b-the-greeting-at-the-threshold — NEW (split off S3 / John 3:2, was 33.0s): the greeting, not the arrival
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only. [STILL STYLE BLOCK] [NICODEMUS LOCK] Close on Nicodemus at the threshold, the moment of his greeting (John 3:2) — NOT the arrival. The distinguished elderly Pharisee stands just INSIDE the doorway, his hood now PUSHED BACK off his grey hair and lined face, SPEAKING earnestly — but one hand still rests on the wooden doorframe, as though he has not yet decided whether to stay, half in and half out. Warm lamplight from inside falls on his face and his rich dark robe; behind him through the open door is the black night street, deep blue-black and empty, a few cold stars. He is alone in the frame, caught between coming in and slipping back into the dark. Exactly one man, two arms, two hands, two legs, one head. One single continuous scene painted edge to edge, no border. 9:16 vertical.
