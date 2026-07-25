@@ -78,3 +78,6 @@ SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stack
 Text on cream (#F7F2E9), serif, spoken + captioned (an INVITATION): "However long it
 has been for you — he is not put off by the years. He is still asking: do you want to
 be whole?"
+
+## s7b-the-bedding — NEW (split off S7 / John 5:10, was 29.5s): everybody looking at the mat
+[STILL STYLE BLOCK] [INFIRM-MAN LOCK] In a Jerusalem street in plain daylight, the sheer ABSURDITY of it: the healed man (WHOLE phase) stands UPRIGHT and strong in the middle of the street, on his own two good legs, his rolled reed MAT tucked under one arm. Exactly TWO stern religious officials in fine fringed robes have stopped him and are POINTING accusingly at the rolled MAT under his arm, their faces indignant — objecting that he carries his bed on the Sabbath. NOBODY is looking at his legs; every eye and every pointing finger is aimed at the BEDDING, not at the miracle of the man walking. He looks bewildered that the mat is all they can see. Plain warm daylight, a pale stone street. Nobody wears cream or off-white. Every figure has two arms, two hands, two legs and one head. One single continuous scene painted edge to edge. 9:16 vertical.

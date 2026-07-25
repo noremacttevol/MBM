@@ -3583,8 +3583,8 @@
   "current_still": "S7",
   "reason": "1 beats now sit on this still (29.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries the frame, the rule-keepers' verbatim words, and the retelling. Frame the absurdity plainly: a man standing upright in the street with his rolled mat under his arm, stopped by two officials pointing at the mat. Nobody is looking at his legs. Everybody is looking at the bedding.",
-  "slug": "",
-  "done": false
+  "slug": "s7b-the-bedding",
+  "done": true
  },
  {
   "build": "build-108-my-sheep-hear-my-voice",
