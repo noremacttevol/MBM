@@ -2851,8 +2851,8 @@
   "current_still": "S1",
   "reason": "3 beats now sit on this still (31.6s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S1 now carries four beats — the on-ramp, Matthew's framing, the verbatim verse, and the retelling. Frame the leaven itself at close range: a woman's hands holding a small torn piece of old grey sourdough starter over a wide wooden trough of pale flour. The piece is tiny in the frame and the flour is vast. Warm kitchen light, ordinary morning, nothing dramatic — the whole point is that this is the least impressive thing in the room.",
-  "slug": "",
-  "done": false
+  "slug": "s1b-the-leaven-itself",
+  "done": true
  },
  {
   "build": "build-20-samaritan",
