@@ -281,8 +281,8 @@
   "current_still": "ST3",
   "reason": "3 beats now sit on this still (51.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries three beats — the whole vow. It should be the moment of the words themselves: Ruth on the road with both hands gripping Naomi's forearms, refusing to let go, Naomi already half-turned away toward Bethlehem. Orpah small and distant behind them, walking the other direction. Close enough to read Ruth's face.",
-  "slug": "",
-  "done": false
+  "slug": "s3b-the-vow-on-the-road",
+  "done": true
  },
  {
   "build": "build-118-jonah-god-who-relents",
@@ -1135,8 +1135,8 @@
   "current_still": "ST1",
   "reason": "4 beats now sit on this still (39.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "ST1 is reused for Naomi's 'call me Mara' and now carries three beats. It needs to read as the arrival, not the leaving — Naomi at the edge of Bethlehem with the town's women recognizing her, her face turned down and away, hands open and empty at her sides. The visual has to say the word empty before the narrator does.",
-  "slug": "",
-  "done": false
+  "slug": "s1b-call-me-mara",
+  "done": true
  },
  {
   "build": "build-11-storm",
@@ -2781,8 +2781,8 @@
   "current_still": "ST5",
   "reason": "2 beats now sit on this still (31.8s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Boaz standing at the edge of his own field speaking directly to Ruth, who is straightened up from gleaning with grain still in her arms — the moment he blesses her rather than the moment he first notices her. His posture respectful, a little distance kept between them.",
-  "slug": "",
-  "done": false
+  "slug": "s5b-the-blessing",
+  "done": true
  },
  {
   "build": "build-36-shrewd-steward",
