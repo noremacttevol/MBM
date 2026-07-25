@@ -543,8 +543,8 @@
   "current_still": "S4",
   "reason": "3 beats now sit on this still (46.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S4 now carries three beats — kv16, the newly added kv17, and the n4 retelling — so it holds the longest stretch in the build. Frame the moment of joining itself, not the two sticks lying apart: Ezekiel's hands bringing the two marked wooden writing-rods end to end, the seam between them closing, the two becoming one solid piece in his grip. The names written on them should be legible as marks on wood without being the subject. Quiet, close, hands and wood.",
-  "slug": "",
-  "done": false
+  "slug": "s4b-the-seam-closes",
+  "done": true
  },
  {
   "build": "build-153-restitution",
