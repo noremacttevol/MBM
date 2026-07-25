@@ -1,3 +1,23 @@
+## 2026-07-24 (cont.) — #3 STILL-MAKER: started the COVERAGE-STILLS marathon (15 painted) (Machine C)
+
+Cameron pointed me at the narration session's per-story audit — `SPEAKER-LAW/stills-needed.json`,
+728 beats where the improved narration leaves one picture frozen too long (293 "high", >25s).
+Per `STORY-COVERAGE-LAW.md` I paint the missing moments, add each as a shot in the build's
+PROMPTS.md, generate to a named slug, gate, and record slug+`done` in the JSON (assembly wires
+build.py). Painting a new file never collides with other sessions.
+
+- **15 new coverage stills painted, gated, pushed** across 7 builds: 120-Job (4: blessed-be-the-name,
+  my-redeemer-liveth, pleiades-and-orion, hand-upon-my-mouth), 118-Jonah (3), 148-Ruth (3),
+  65-help-mine-unbelief (2, Jesus-present, no halo), 117-Hosea (1), 70-temptations (1), 05-bent-woman (1).
+- **Anti-duplication discipline** (the key lesson): checked existing art by eye on every build and
+  marked ~11 flagged beats `covered_by` an existing still instead of repainting (build-03 both,
+  118 s1/s5/s10, 117 s6/s8, 70 s7/s9). Never repaint what's already there.
+- Wrote `media-production/KICKOFF-COVERAGE-STILLS.md` (workflow, gotchas, deferred theophany builds)
+  so the marathon resumes seamlessly in a fresh chat from the JSON's `done` flags. ~710 entries remain.
+- Gotchas logged: jesus gate bans `halo`/`rim-light` + JESUS_WORD in slugs; `--chars` only for
+  characters with a CHARACTERS sheet; deferred build-119-fourth-man / build-105-face-to-face
+  (Christ-figure depiction = Cameron's call). Commits fb545fd8…6976b7b6.
+
 ## 2026-07-24 — #3 STILL-MAKER: cleared 9 picture complaints (Machine C)
 
 Read live complaints from the review board via the paired browser (git board is stale on
