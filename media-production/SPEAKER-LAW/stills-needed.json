@@ -939,8 +939,8 @@
   "current_still": "S2",
   "reason": "3 beats now sit on this still (41.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries three beats — stepping out, God's verbatim blessing, and its retelling. Should show all eight of them on the open hillside, small against an enormous washed sky, animals scattering out around them. Morning light. The feeling wanted is an empty world being handed back, not survivors surveying damage.",
-  "slug": "",
-  "done": false
+  "slug": "s2b-the-empty-world",
+  "done": true
  },
  {
   "build": "build-17-lazarus",
