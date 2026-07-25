@@ -583,7 +583,8 @@
   "reason": "2 beats now sit on this still (44.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S9 now carries four beats — the devil leaving, angels ministering, the Hebrews verse, and the close. Frame the aftercare, not the victory: Jesus sitting down at last on the rock, gaunt and spent, hands open on his knees, with quiet figures close beside him and food set within reach. First light coming over the ridge behind. The end of the longest night.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s9-angels-ministered"
  },
  {
   "build": "build-23-vineyard",
@@ -802,7 +803,8 @@
   "reason": "3 beats now sit on this still (41.9s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries three beats — the setup, God's first commission, and its retelling. Should be the call itself: Jonah alone and small with the word coming to him, and a sense of a far-off great city he does not want to go to. Not the harbour yet.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s1-the-call"
  },
  {
   "build": "build-18-emmaus",
