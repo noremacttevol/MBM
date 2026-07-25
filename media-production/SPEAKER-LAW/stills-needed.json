@@ -2660,8 +2660,8 @@
   "current_still": "S7",
   "reason": "2 beats now sit on this still (32.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries three beats and two colour changes — blue, red, then white — running from John 3:5 through the narrator's study gem. It needs to hold the whole answer, so frame the gate itself rather than a single figure: water below, light from above, the way in standing open and plain. Unhurried and uncrowded, something a viewer can rest on while the voice changes twice.",
-  "slug": "",
-  "done": false
+  "slug": "s7b-the-way-in",
+  "done": true
  },
  {
   "build": "build-30-net",
