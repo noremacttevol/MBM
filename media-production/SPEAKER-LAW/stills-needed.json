@@ -1628,8 +1628,8 @@
   "current_still": "S6",
   "reason": "2 beats now sit on this still (36.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S6 now carries three beats - the Solomon retelling, Matthew 6:30 verbatim, and its retelling. The verse turns on grass that is alive today and burned tomorrow, so frame the fragility rather than just a pretty field: low golden light raking across a hillside of dry summer grass and wildflowers, heads already going to seed, a thin haze of smoke on the far ridge. Beautiful and clearly temporary.",
-  "slug": "",
-  "done": false
+  "slug": "s6b-alive-today-gone-tomorrow",
+  "done": true
  },
  {
   "build": "build-23-vineyard",
