@@ -3603,7 +3603,8 @@
   "reason": "2 beats now sit on this still (29.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S8 now carries John 10:28 and the retelling that follows it. Frame the holding: an open hand closed around a small sheep, seen close, the hand steady and unhurried, the light warm, nothing threatening in frame. The point is security, not a rescue in progress.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s8-in-his-hand"
  },
  {
   "build": "build-12-bartimaeus",
@@ -4074,7 +4075,8 @@
   "reason": "2 beats now sit on this still (28.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries the verbatim purchase line plus its retelling. Frame the money itself — a hand counting silver coins and measures of barley out onto a rough table. Close on the transaction, not the faces. The point is that a real price was actually paid.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s6-the-price-paid"
  },
  {
   "build": "build-153-restitution",
