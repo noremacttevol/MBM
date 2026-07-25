@@ -88,3 +88,6 @@ SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stack
 Text on cream (#F7F2E9), serif, spoken + captioned (an INVITATION): "He crossed a sea
 in a storm for one man everyone else had given up on. There is no distance he will
 not cross for you."
+
+## s6b-the-stillness-before — NEW (split off S6 / Mark 5:12, was 32.4s): the held breath before
+[STILL STYLE BLOCK] The hillside a half-second BEFORE it breaks: an ENORMOUS HERD of pigs feeding QUIETLY and peacefully, scattered thick across the green-brown slope above the shore, heads down, calm and unhurried in the warm daylight. A couple of herdsmen lean easily on their long staffs, watching over them, at rest. Below, the calm Sea of Galilee stretches out under a soft sky. Everything is STILL and ordinary — the held breath of the moment just before two thousand animals move at once; NOTHING is running yet, no stampede, no panic, no animals in the water. Warm daylight, deep quiet. No demon, devil or figure of harm anywhere. Nobody wears cream or off-white. One single continuous scene painted edge to edge. 9:16 vertical.

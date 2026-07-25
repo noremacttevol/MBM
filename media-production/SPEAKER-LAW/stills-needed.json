@@ -2603,8 +2603,8 @@
   "current_still": "S6",
   "reason": "1 beats now sit on this still (32.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S6 now carries the frame, the spirits' verbatim request, and the retelling of it and the stampede. Frame the hillside before it breaks: the enormous herd feeding quietly on the slope above the shore, a couple of herdsmen leaning on staffs, the sea below. The stillness a half-second before two thousand animals move at once.",
-  "slug": "",
-  "done": false
+  "slug": "s6b-the-stillness-before",
+  "done": true
  },
  {
   "build": "build-17-lazarus",
