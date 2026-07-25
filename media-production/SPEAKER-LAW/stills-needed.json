@@ -1277,8 +1277,8 @@
   "current_still": "S6",
   "reason": "3 beats now sit on this still (37.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S6 now carries four beats — the verbatim good ground, its retelling, Jesus's own explanation, and the close. Frame the yield: heavy-headed grain filling most of the frame at close range, bent under its own weight, with the sower small and far behind it. The harvest is the subject, not the man.",
-  "slug": "",
-  "done": false
+  "slug": "s6b-the-yield",
+  "done": true
  },
  {
   "build": "build-30-net",
