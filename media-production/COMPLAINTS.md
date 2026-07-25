@@ -44,7 +44,7 @@ touching anything else. Do NOT edit by hand.
 | 69 | newer cut shipped — VERIFY fixed | John is way too big in the first picture |
 | 70 | newer cut shipped — VERIFY fixed | The narrirator spells out  "I-S" instead of pronouncing the word like it should. Also it mispronounced "proceedeth" it should be pro-see-duhth |
 | 71 | newer cut shipped — VERIFY fixed | I cant tell if this were remade witht he correct refrences for the characters or not. Lets just redo the knes with the important characters that we have the refrence for now. |
-| 73 | UNFIXED | are you kiding me it jsut pronounced "Esaias" as  "essy-y-es".  this is rediculous |
+| 73 | newer cut shipped — VERIFY fixed | are you kiding me it jsut pronounced "Esaias" as  "essy-y-es".  this is rediculous |
 | 83 | newer cut shipped — VERIFY fixed | 1. the first picture they are walking the wrong way and it looks like the are walking away from jerusalem rather than twords it. 2. the second picture Jesus looks like a giant. 3. at the end of the video the question is asked but then it stays going for an extra 13 seconds |
 | 86 | newer cut shipped — VERIFY fixed | 13 extra seconds on the end of this video too those can be cut off as soon as the voice in the video stops talking. make sure its not before it cut 11 seconds off jut to be careful if you cant be sure |
 | 90 | newer cut shipped — VERIFY fixed | Why does every disciple look the fucking same. |
