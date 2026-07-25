@@ -198,8 +198,8 @@
   "current_still": "S9",
   "reason": "3 beats now sit on this still (51.6s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries God relenting, Jonah's angry confession, and its retelling. Should move from the spared city to the sulking prophet — a figure alone on a hillside above a city that is still standing, back to the camera, arms crossed.",
-  "slug": "",
-  "done": false
+  "slug": "s9b-the-sulking-prophet",
+  "done": true
  },
  {
   "build": "build-13-roof",
@@ -301,8 +301,8 @@
   "current_still": "S3",
   "reason": "3 beats now sit on this still (50.8s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries the storm, Jonah's 'cast me forth into the sea', and the retelling. Frame the moment of the offer, not the throw — Jonah braced on a pitching deck facing the terrified sailors, mid-sentence, the sea violent behind him.",
-  "slug": "",
-  "done": false
+  "slug": "s3b-cast-me-into-the-sea",
+  "done": true
  },
  {
   "build": "build-164-unity-of-faith",
@@ -1014,8 +1014,8 @@
   "current_still": "S7",
   "reason": "3 beats now sit on this still (40.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries the preaching, the verbatim 'Yet forty days', and its retelling. Jonah mid-cry in a huge city street, people beginning to turn and look. Bleak delivery against an enormous place — the smallness of the messenger is the point.",
-  "slug": "",
-  "done": false
+  "slug": "s7b-a-small-voice-in-a-great-city",
+  "done": true
  },
  {
   "build": "build-119-fourth-man-in-fire",
