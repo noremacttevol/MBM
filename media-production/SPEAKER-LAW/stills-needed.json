@@ -1857,8 +1857,8 @@
   "current_still": "S14",
   "reason": "2 beats now sit on this still (35.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S14 now carries Jesus's three verbatim questions -- stone for bread, serpent for fish, scorpion for egg -- plus both retellings. Frame the counterfeit, not the meal: a father's open hand held out to a child's reaching hands, and what is lying in the father's palm is a smooth river stone the exact size and shape of a flat loaf. Close, plain, and quietly wrong.",
-  "slug": "",
-  "done": false
+  "slug": "s14b-a-stone-for-bread",
+  "done": true
  },
  {
   "build": "build-32-talents",
