@@ -37,7 +37,7 @@ touching anything else. Do NOT edit by hand.
 | 52 | newer cut shipped — VERIFY fixed | squares at the end of every line in the question end page again if this is a problem wiht any more fix them all now |
 | 56 | newer cut shipped — VERIFY fixed | pictures are lograde and the kids clothes keep changing and so does his size also Jesus was realy big in one of the photos. the whole thing needs to be redone |
 | 57 | newer cut shipped — VERIFY fixed | Lieth is pronounced lie-eth |
-| 62 | UNFIXED | He lost his beard in one of the pictures |
+| 62 | newer cut shipped — VERIFY fixed | He lost his beard in one of the pictures |
 | 63 | newer cut shipped — VERIFY fixed | still wrong its : si-LOH-uhm |
 | 65 | newer cut shipped — VERIFY fixed | needs the captions to be redone still. |
 | 67 | newer cut shipped — VERIFY fixed | 1:02 its pronounced and spelled wrongly its pronounced: ee-LY-us and spelled in all persons speaking it even the narrirator : Elias. Elijah is a different prophet that is wrong |
