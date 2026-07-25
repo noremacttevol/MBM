@@ -35,9 +35,12 @@ builds per chat to keep context low (Cameron's one-chat-per-video law).
 8. `git add` PROMPTS.md + the new asset(s) + the JSON; commit; pull --rebase; push. One commit per build.
 
 ## GOTCHAS
-- The jesus gate bans the literal words `halo`/`rim-light` in prose AND any JESUS_WORD
-  (`jesus`/`the lord`/`christ`) in a header/slug. Keep slugs clean: use `s2b-blessed-be-the-name`,
-  NOT `s2b-the-lord-gave`. Say "no bright ring / glow / backlight," never "no halo."
+- The jesus gate bans the literal words `halo`/`rim-light` in prose. It also treats ANY JESUS_WORD
+  (`jesus`/`the lord`/`christ`) — in the header/slug **OR anywhere in the shot body** — as marking a
+  Jesus shot that then REQUIRES the byte-identical JESUS LOCK v3 + `REF: jesus-master-ref` line.
+  So in a NO-figure shot, never write "the Lord"/"Christ"/"Jesus" even in a negation like "no face for
+  the Lord" — say "no divine figure, no face for the coming one" instead. Keep slugs clean too
+  (`s2b-blessed-be-the-name`, NOT `s2b-the-lord-gave`). Say "no bright ring / glow / backlight," never "no halo."
 - `regen_shot --out` defaults to `assets/<--shot value>.jpeg`. Pass a clean slug as `--shot`.
 - Do NOT edit `build.py` (assembly session wires the new slug into BEATS), `make_narration.py`,
   `QUEUE.md`, `approvals.json`, or `COMPLAINTS.md`.
