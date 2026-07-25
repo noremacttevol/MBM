@@ -96,3 +96,6 @@ assembly): "He is not after your money. He is after you. What are you being urge
 about?"
 
 CHARACTER-REF-EXEMPT: james (parable of a steward/lord/debtors; no apostle James is painted)
+
+## s8b-the-fork — NEW (split off S8 / Luke 16:13, was 31.7s): the impossible choice, plain
+[STILL STYLE BLOCK] Plain and human-scale: a single ordinary man stands at the JOIN OF TWO ROADS where the path forks in two — one road winding away to the LEFT, one to the RIGHT, each leading off over the open hills. He holds ONE hand out toward each road, right hand toward the right path and left hand toward the left, caught in the middle and unable to walk either way, his face torn and uncertain. Just the man and the fork of the two roads in ordinary warm daylight — NO treasure chest, NO coins, NO scales, NO symbols of any kind, no house and no other figure — the picture only has to hold still and human while the words do the work. He wears a plain earth-toned wool tunic, not cream or off-white. Open country, the two roads clearly diverging. Two arms, two hands, two legs, one head. One single continuous scene painted edge to edge. 9:16 vertical.

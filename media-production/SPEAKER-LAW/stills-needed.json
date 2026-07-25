@@ -2491,7 +2491,8 @@
   "reason": "3 beats now sit on this still (32.6s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries three beats and the colour changes mid-still — blue to green and back to white. It should be able to hold the Father's voice, not just illustrate Christ. Frame the moment of the words themselves: Christ standing, head slightly bowed, receiving — light falling on him from above rather than radiating out of him, so the source of the speaking is clearly overhead and not himself. Quiet, unstaged, no crowd, no throne room. The whole point of the beat is that he did not glorify himself, so nothing in the frame should look like a coronation.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s7-so-also-christ"
  },
  {
   "build": "build-166-baptized-properly",
@@ -2811,8 +2812,8 @@
   "current_still": "S8",
   "reason": "2 beats now sit on this still (31.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S8 now carries three beats — the verbatim two-masters saying, its retelling, and the close. Frame the impossible choice as a single figure: a man standing at the join of two roads with a hand held out toward each, unable to walk either. Keep it plain and human-scale. No scales, no coins piled into a symbol — the words do the work and the picture only has to hold still under them.",
-  "slug": "",
-  "done": false
+  "slug": "s8b-the-fork",
+  "done": true
  },
  {
   "build": "build-70-temptations",
