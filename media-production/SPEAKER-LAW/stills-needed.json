@@ -1801,7 +1801,8 @@
   "reason": "2 beats now sit on this still (35.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries Luke's verbatim 'no room for them in the inn' and its retelling — the sentence the whole build is named for. Frame the trough itself: a rough stone-and-wood feed box at the level of the straw, the wrapped baby inside it, a mother's hand on the edge. Shot low, close, warm. No angels, no glow, no crowd. The power of this still has to come from how ordinary and how small the container is.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s7-the-manger"
  },
  {
   "build": "build-135-rainbow-covenant",
@@ -1935,7 +1936,8 @@
   "reason": "2 beats now sit on this still (34.6s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries God's closing question and its retelling. The city as God sees it: ordinary people and animals going about a normal evening, warm and alive and completely unaware how close it came.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s10-should-i-not-spare"
  },
  {
   "build": "build-64-pool-of-bethesda",
