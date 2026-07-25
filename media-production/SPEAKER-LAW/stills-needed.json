@@ -3199,7 +3199,8 @@
   "reason": "1 beats now sit on this still (30.8s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries the frame, the man's verbatim 'now I see,' and its retelling. Frame the interrogation as one man against a room: the healed man standing alone in the middle of a semicircle of seated officials, plainly dressed, not angry, completely immovable. Their faces frustrated. His face open. He is the calmest person in the room because he is the only one talking about something that happened to him.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s7-the-interrogation"
  },
  {
   "build": "build-08-lost-coin",
