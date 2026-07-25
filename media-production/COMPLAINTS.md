@@ -10,25 +10,26 @@ touching anything else. Do NOT edit by hand.
 
 | # | Status | What Cameron said |
 |---|---|---|
-| 1 | newer cut shipped — VERIFY fixed | You gave me a wrong version she is grabbing him again not just touching his ends of his cloak. I fixxed this before and now its back and wrong |
-| 2 | newer cut shipped — VERIFY fixed | The picture at  0:15 is still him walking the wrong way |
-| 3 | newer cut shipped — VERIFY fixed | He is still looking the wrong way at 45 seconds. He should be lolking at Jesus . |
-| 4 | newer cut shipped — VERIFY fixed | If you cant learn how to pronounce the names and the words correctly then we are going to be doing this forever. Here niccodemus is pronounced wrong |
-| 5 | newer cut shipped — VERIFY fixed | caption |
-| 6 | newer cut shipped — VERIFY fixed | pronounced "verily" wrong |
-| 7 | newer cut shipped — VERIFY fixed | the words only picture at the end is messed up and out of the frame  on the edges it should be 2 or 3 lines |
-| 8 | newer cut shipped — VERIFY fixed | Call eth calleth pronounced wrong. |
-| 9 | newer cut shipped — VERIFY fixed | Running raight oast jesus is what the picture looks like |
-| 10 | newer cut shipped — VERIFY fixed | She says Messias again that is wrong |
-| 11 | newer cut shipped — VERIFY fixed | Captions trash still the way old version this video keeps getting ignored and its making me mad |
-| 13 | newer cut shipped — VERIFY fixed | Redo the picture of the pharisees in the corner that are judging at 3 minutes, that picture because it just doesn't look good and it's old.So we need to update it |
+| 1 | newer cut shipped — VERIFY fixed | Still echoing what she said about touching his clothes |
+| 4 | newer cut shipped — VERIFY fixed | Captions are messed up at 38 - 46 seconds |
+| 6 | newer cut shipped — VERIFY fixed | The "row" at 35 seconds it pronounced wrong. Its a row of grape vine like wrowe. But im upset that this entore video got shortened so much. We need to rework the whole thing. |
+| 7 | newer cut shipped — VERIFY fixed | 1:03 audio problem.  He speaks way to fast. |
+| 9 | newer cut shipped — VERIFY fixed | Mispronounced jesus again at 21 seconds |
+| 10 | newer cut shipped — VERIFY fixed | This was a 5 minute long story before and you shortened it way too much |
+| 12 | newer cut shipped — VERIFY fixed | Captions are off at 1 minute |
+| 13 | newer cut shipped — VERIFY fixed | I thought the picture at 1:30 mayched the priginal character that carried him in and broke through the roof but it doesnt they all look different and this will trow the story off. Fix it picutre fixmatch the characters in this story. My main concern is how much you shortened this story. The original story was 5 minutes long and all good stuff. Showing how good Jesus Christ was and you took it away, you cut the video in half and that ruined it redo it just like the original one with the same new voice and all of the pictures made better and give me 100% effort or tell me you can't and just f*** off.  Sto.\nP lying to me and tell me telling me that you fixed my videos like I asked you too and realistically you just f***** them up |
+| 14 | newer cut shipped — VERIFY fixed | Why does Jesus always talk so fast the voice just ignores the commas this is a big problme across all videos and needs to be fixed now. The voice for Jesus needs to listen to the commas and slow down on every one |
+| 15 | newer cut shipped — VERIFY fixed | We need to change vouchers for Jesus it doesn't sound like how he would talk.  It's sounds demeaning |
 | 16 | newer cut shipped — VERIFY fixed | That's not how you pronounce wound |
-| 17 | newer cut shipped — VERIFY fixed | captions are messed up and the voice  is messed  up and is misspronouncing livest and  other old english pronunciation. |
-| 18 | newer cut shipped — VERIFY fixed | Same problems. Same main problem that nothing i say is getting fixed. Jesus once in one picture had short hair. Not like you care |
+| 17 | newer cut shipped — VERIFY fixed | At 23 seconds it shows the wrong captions from.the older version for a split second before going to the new edit where it has the pink captions |
+| 18 | UNFIXED | Not real new voice |
 | 19 | newer cut shipped — VERIFY fixed | The clothes of peter and his look and all of the people in the boat keep changing and then picture jesus looks like he's burning something out of his hand all of these pictures look like they've been made by AI and I get that they have , but let's try our best not to make you look stupid. So redo them all |
-| 20 | newer cut shipped — VERIFY fixed | one frame the samaratin had hair and the next he was bald. |
-| 22 | newer cut shipped — VERIFY fixed | That's not how you pronounce owest. |
+| 20 | newer cut shipped — VERIFY fixed | Not real new voice |
+| 21 | UNFIXED | Not real new voice |
+| 22 | newer cut shipped — VERIFY fixed | Not real new voice |
 | 25 | newer cut shipped — VERIFY fixed | At 2:11 tear was misspronounced because it means break tear not a cry tear |
+| 28 | newer cut shipped — VERIFY fixed | Not real new voice |
+| 32 | newer cut shipped — VERIFY fixed | The servant with 5 bags changes character and grows a beard it looks weird we need to redo the pictures for him |
 | 33 | newer cut shipped — VERIFY fixed | Divideth is pronounced wrong |
 | 46 | UNFIXED | its still wrong correct phonetic breakdown is put-uth. |
 | 50 | newer cut shipped — VERIFY fixed | the ned page question has some squares on the end of everyline like a typo or code fault. wierd fix it and we are still pronouncing Cana wrong its more like Kane-a |
@@ -36,7 +37,7 @@ touching anything else. Do NOT edit by hand.
 | 52 | newer cut shipped — VERIFY fixed | squares at the end of every line in the question end page again if this is a problem wiht any more fix them all now |
 | 56 | newer cut shipped — VERIFY fixed | pictures are lograde and the kids clothes keep changing and so does his size also Jesus was realy big in one of the photos. the whole thing needs to be redone |
 | 57 | newer cut shipped — VERIFY fixed | Lieth is pronounced lie-eth |
-| 62 | newer cut shipped — VERIFY fixed | Mark RECORDS as in past tense of record not aan album called mark records that is a simple mix up and im dissappinted in you for having it |
+| 62 | UNFIXED | He lost his beard in one of the pictures |
 | 63 | newer cut shipped — VERIFY fixed | still wrong its : si-LOH-uhm |
 | 65 | newer cut shipped — VERIFY fixed | needs the captions to be redone still. |
 | 67 | newer cut shipped — VERIFY fixed | 1:02 its pronounced and spelled wrongly its pronounced: ee-LY-us and spelled in all persons speaking it even the narrirator : Elias. Elijah is a different prophet that is wrong |
@@ -46,28 +47,32 @@ touching anything else. Do NOT edit by hand.
 | 73 | UNFIXED | are you kiding me it jsut pronounced "Esaias" as  "essy-y-es".  this is rediculous |
 | 83 | newer cut shipped — VERIFY fixed | 1. the first picture they are walking the wrong way and it looks like the are walking away from jerusalem rather than twords it. 2. the second picture Jesus looks like a giant. 3. at the end of the video the question is asked but then it stays going for an extra 13 seconds |
 | 86 | newer cut shipped — VERIFY fixed | 13 extra seconds on the end of this video too those can be cut off as soon as the voice in the video stops talking. make sure its not before it cut 11 seconds off jut to be careful if you cant be sure |
-| 90 | newer cut shipped — VERIFY fixed | He didnt have a shirt on in one of the pictures |
-| 99 | newer cut shipped — VERIFY fixed | 51 seconds picture weird needs redo where they can be on the same ground |
-| 107 | newer cut shipped — VERIFY fixed | John.\n 's picture looks too different across all of them, the first image of him in this video was good, darker hair, more Middle Eastern, but anything other than that makes him not look into character and null, especially when it changes in the next picture. So we need to set his look to make him look the same in this video and story as in as as well as in every other video and story that he should be in in these  In this app in these videos and everything I'd say him and peter and some of the other disciples and mary magdalene and a whole bunch of other ones should have the same face per every video , they shouldn't be changing so much , including god as well |
-| 108 | newer cut shipped — VERIFY fixed | Calleth still wrong again. Same problem |
-| 109 | newer cut shipped — VERIFY fixed | Findeth is pronounced as fynd-uhth. 0:51 sec |
+| 90 | newer cut shipped — VERIFY fixed | Why does every disciple look the fucking same. |
+| 91 | newer cut shipped — VERIFY fixed | The pictures of the disciples did not stay the same. One grew a beard with in seconds |
+| 92 | newer cut shipped — VERIFY fixed | Peter went from grey to not grey hair. |
+| 99 | UNFIXED | Old audio needs updating and i belive the thomas character is off |
+| 102 | newer cut shipped — VERIFY fixed | Jacob doesnt have a beard and then does. We need to make a qc just for beards dissapeaering or appearing it throws people off the story |
+| 103 | newer cut shipped — VERIFY fixed | This is where peter got his name but it called him simon before and the pictures are all bad they keep changing and are not remade with the character ref in this |
+| 107 | newer cut shipped — VERIFY fixed | Needs better pictures the disciples shluld be some of Jesus' disciples and shouldnt look exactly alike but also Jesus and John the baptist are bigger then other people like giants in some pictures. Just redo all of them and research who the people John sent were and if they are important enough to be the characters because i thought they were and if not just dont make them look like tiwns and have everyone be the same size |
 | 110 | newer cut shipped — VERIFY fixed | pronounced "lead" wrong at1:27 it rhymes with "seed" and is pronounced as /liːd/. |
 | 112 | newer cut shipped — VERIFY fixed | the last picture was bad Jesus was a giant compared to the other people again 2:11 |
 | 113 | newer cut shipped — VERIFY fixed | God has a body, weve bren through this and hopwfully you have created a character for him as well so his look doesnt change much like Jesus and other famous characters that will be ilustrated multiple times. |
 | 119 | newer cut shipped — VERIFY fixed | Miss pronounced bow |
-| 127 | newer cut shipped — VERIFY fixed | mispronounce leadeth |
+| 127 | UNFIXED | Not real new voice |
 | 135 | newer cut shipped — VERIFY fixed | 1st picture has 3 girls and 5 boys that needs to change |
 | 140 | newer cut shipped — VERIFY fixed | What the f*** is this? Did we just run out of stories that were good about Jesus to tell? And now you are using somebody else's gospel to redo the same exact story we told earlier of the prodigal son that story, the prodigal son should have been summarized from this as well. You shouldn't use 2 different people telling the same story about Jesus.  As reasons to have the same story told twice, this is retarded.This is, I just can't.I can't believe you did this, and I like, did we seriously run out of Jesus stories like they're not that many, if there aren't 200, then we need to find some other way to get into things that would would be good for people to digest.But this is not good |
 | 146 | newer cut shipped — VERIFY fixed | Abideth is pronounced wrong |
-| 149 | UNFIXED | Liveth was pronounced wrong |
 | 150 | newer cut shipped — VERIFY fixed | Bad old , english and captions in white that are scripture |
 | 153 | newer cut shipped — VERIFY fixed | 1:12 is weird picture |
 | 157 | newer cut shipped — VERIFY fixed | 42 weird giant picture |
-| 171 | UNFIXED | The weird from scripture are supposed to be in blue |
-| 172 | UNFIXED | The scripture wordss are supposed to be in blue |
+| 161 | UNFIXED | At 1:30 aaron went grey and the anointing oil was poured over his hat and that is all wrong this picture needs to be redone |
+| 171 | UNFIXED | First picture is weird there are no scripture that roll like that on 2 edges |
 | 173 | newer cut shipped — VERIFY fixed | Mispronounced live at the end |
-| 179 | newer cut shipped — VERIFY fixed | "Regenerate this video about Stephen in Acts 7 from a Latter-day Saint perspective. The vision scene (Acts 7:55-56) must clearly show two distinct glorified personages in radiant heavenly light: God the Father and His Son Jesus Christ standing at the Father's right hand. Portray them as separate embodied beings, just as Stephen saw them — not as one figure, not as Jesus only, and do not add a dove or Trinitarian symbol. Use a reverent, luminous style like official Latter-day Saint gospel art (similar to the Gospel Art Book depiction of this scene). Keep the story simple, scripturally accurate, and 'milk' level — Christ-centered and uplifting for everyone. Focus on Stephen being full of the Holy Ghost, his bold testimony of Jesus, the vision of the Father and Son, his martyrdom, and his forgiving prayers to the Lord Jesus. Use simple narration that promotes faith in Jesus and the gospel without extra doctrine or heavy emphasis. Follow your established reverent style rules for sacred figures. Make the whole short video feel like it was made by Latter-day Saints — warm, truthful, and focused on the Savior. |
+| 177 | UNFIXED | Not real new voice |
 | 181 | newer cut shipped — VERIFY fixed | the pictures need to be better made i dont think they fit the story well |
 | 184 | newer cut shipped — VERIFY fixed | only Jesus's words in red. |
 | 188 | newer cut shipped — VERIFY fixed | "Maketh" (the archaic version of the modern word "makes") is pronounced MAY-kith 0:29 |
 | 189 | newer cut shipped — VERIFY fixed | Pronounce overcometh as OH-vur-kuh-muhth 0:38 |
+| 191 | UNFIXED | Not real new voice |
+| 198 | UNFIXED | Not new audio |
+| 200 | UNFIXED | Still the wrong audio. Im pissed |
