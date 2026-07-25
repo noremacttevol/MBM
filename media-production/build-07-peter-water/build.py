@@ -275,10 +275,8 @@ def main():
     # The bed is fully out before the peak so the sacred line lands in
     # silence, then a quieter, warmer bed returns until the closing card.
     peak_end = start_of[PEAK] + spoken[PEAK]
-    beds = [
-        (0.0, start_of[PEAK] - 1.2, "a"),
-        (peak_end + 1.0, card_start - 0.8, "b"),
-    ]
+    # NO BEDS - narration only per Cameron (HUM rejected 2026-07-16)
+    beds = []
 
     inputs = []
     filters = []
