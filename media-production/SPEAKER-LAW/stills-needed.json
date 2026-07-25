@@ -482,8 +482,8 @@
   "current_still": "ST1",
   "reason": "4 beats now sit on this still (47.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "This still now carries four straight beats — the whole vow. It should be Hannah alone at the doorpost of the tabernacle at Shiloh, close on her face, lips parted and moving with no sound coming out, eyes shut, hands empty in her lap. Not a wide temple shot: the moment is that nobody around her can hear a word of it.",
-  "slug": "",
-  "done": false
+  "slug": "s1b-the-silent-vow",
+  "done": true
  },
  {
   "build": "build-07-peter-water",
