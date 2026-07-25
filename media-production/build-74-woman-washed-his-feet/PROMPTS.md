@@ -88,3 +88,8 @@ SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stack
 Text on cream (#F7F2E9), serif, spoken + captioned (an INVITATION): "She was known for
 the worst thing she'd done. He knew her for her love. Which name would you rather
 answer to?"
+
+## s3b-the-comparison — NEW (split off S3 / Luke 7:44, was 33.8s): the thing Simon did not do
+JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.
+REF: jesus-master-ref
+[STILL STYLE BLOCK] [HOUSE LOCK] [WOMAN LOCK] A close, low view of the thing Simon did NOT do (Luke 7:44): Jesus's bare FEET as he reclines at the low table, and the woman's HANDS and her LONG loose dark HAIR working over them, WET with her tears — she is washing his feet with her tears and wiping them with her hair, her face lowered in devotion. His cream robe and its hem fall near his feet. AND clearly visible in the BACKGROUND by the room's doorway, a large household WATER JUG and a CLEAN FOLDED pale TOWEL sit UNTOUCHED and dry on the floor, exactly where the host left them and never used — the water for a guest's feet that Simon never offered. The whole rebuke lives in that comparison: her tears and hair here, the untouched jug and towel there. Warm evening lamplight. Only Jesus wears cream. No ring of light or aura around any head. Every figure has two arms, two hands, one head. One single continuous scene painted edge to edge. 9:16 vertical.

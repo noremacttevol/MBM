@@ -1839,7 +1839,8 @@
   "reason": "1 beats now sit on this still (35.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S9 now carries three beats - the fear changing direction, the disciples' verbatim question, and the closing reflection. Frame the aftermath: three or four men in soaked clothes on a flat black lake under stars, no longer looking at the water but at each other and at him, one still gripping a rope he has forgotten he is holding. Awe, not relief.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s9-what-manner-of-man"
  },
  {
   "build": "build-40-the-friend-at-midnight",
@@ -2127,8 +2128,8 @@
   "current_still": "S3",
   "reason": "2 beats now sit on this still (33.8s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S3 now carries j44 verbatim and n5's retelling as well as its original beat. Frame the thing Simon did not do: Jesus's feet, and her hands and hair working over them, wet — with the untouched water jar and clean folded towel sitting by the door in the background, exactly where the host left them. The whole rebuke is in that comparison.",
-  "slug": "",
-  "done": false
+  "slug": "s3b-the-comparison",
+  "done": true
  },
  {
   "build": "build-72-calling-matthew",
