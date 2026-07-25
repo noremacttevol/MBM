@@ -1219,8 +1219,8 @@
   "current_still": "ST1",
   "reason": "5 beats now sit on this still (38.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries five beats — the opening and all of verse 2. It should show the two things verse 2 actually names, in one frame: a flock lying down at rest in deep green pasture, and quiet unmoving water alongside them. Still water, not a stream. Late gentle light. The shepherd present but not the subject — the sheep are lying down because he is there.",
-  "slug": "",
-  "done": false
+  "slug": "s1b-lie-down-still-waters",
+  "done": true
  },
  {
   "build": "build-101-still-small-voice",

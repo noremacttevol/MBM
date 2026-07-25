@@ -73,3 +73,6 @@ SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stack
 Text on cream (#F7F2E9), serif, spoken + captioned (an INVITATION): "The Shepherd
 who leads, restores, and walks the dark valley with you is the same One who
 invites you home. Let Him lead."
+
+## s1b-lie-down-still-waters — NEW (split off ST1 / Psalm 23:2, was 38.3s): lying down, still water
+[STILL STYLE BLOCK] [PSALM-COUNTRY LOCK] [FLOCK LOCK] [SHEPHERD LOCK] The two things the psalm names, together in one frame (Psalm 23:2): a flock of woolly cream-grey sheep LYING DOWN at rest, folded and settled on the deep green grass — most of them resting quietly, NOT grazing — in a lush green pasture, and right beside them a pool of quiet, UNMOVING STILL WATER, smooth as glass: a calm still pool, NOT a flowing stream, no current, no ripples, the green banks mirrored in it. The weathered shepherd stands quietly a little apart in the background, present but small and clearly NOT the subject — the sheep lie down at ease precisely because he is near. Late gentle golden light over the green country, deep peace and rest. Every sheep correctly formed. One single continuous scene painted edge to edge. 9:16 vertical.
