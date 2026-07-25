@@ -740,7 +740,8 @@
   "reason": "3 beats now sit on this still (42.6s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S6 now carries three beats — Eli realising who is calling, his verbatim instruction, and the retelling. Frame the moment of realisation and teaching together: Eli sitting up, leaning toward the boy, a hand on the child's shoulder, speaking close. The old man's face should show recognition, not alarm.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s6-eli-understands"
  },
  {
   "build": "build-61-syrophoenician-woman",
