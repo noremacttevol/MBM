@@ -974,8 +974,8 @@
   "current_still": "S2",
   "reason": "3 beats now sit on this still (40.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries three beats — her leaving, her own words, and the retelling. Should hold on HER: a woman walking away down a road at dusk, face still visible, chin up, choosing this. Not a victim shot. The moment she believes she is walking toward something better.",
-  "slug": "",
-  "done": false
+  "slug": "s2b-she-chooses",
+  "done": true
  },
  {
   "build": "build-18-emmaus",
