@@ -1239,8 +1239,8 @@
   "current_still": "S4",
   "reason": "3 beats now sit on this still (38.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S4 now carries three beats — God's question into the cave, Elijah's full verbatim complaint, and the retelling. Frame the moment Elijah answers, not the moment he arrives: a man sitting in the mouth of a dark cave, head down, mid-sentence, pouring it out to an unseen presence. Interior gloom with hard daylight at the cave mouth behind him. He should look exhausted, not reverent.",
-  "slug": "",
-  "done": false
+  "slug": "s4b-pouring-it-out",
+  "done": true
  },
  {
   "build": "build-09-rich-ruler",
