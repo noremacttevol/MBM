@@ -341,8 +341,8 @@
   "current_still": "S4",
   "reason": "3 beats now sit on this still (50.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S4 now carries four beats — the setup, the father's verbatim 'Lord, I believe; help thou mine unbelief', its retelling, and n4. Frame the confession: the father's face alone, close, wet, eyes open and looking straight at Jesus. Not a man performing faith. A man admitting he is out of it and asking anyway.",
-  "slug": "",
-  "done": false
+  "slug": "s4b-help-mine-unbelief",
+  "done": true
  },
  {
   "build": "build-63-man-born-blind",
@@ -3433,8 +3433,8 @@
   "current_still": "S3",
   "reason": "2 beats now sit on this still (29.8s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S3 now carries four beats — the frame, the father's verbatim 'if thou canst do any thing', its retelling, and Jesus's answer. Frame the asking, not the crowd: the father on his knees with both hands closed around the hem of Jesus's robe, face tipped up, mid-sentence. Behind him, blurred, the argument he pushed through. The word he is saying is 'if', and it should look like it costs him something.",
-  "slug": "",
-  "done": false
+  "slug": "s3b-the-if-that-costs",
+  "done": true
  },
  {
   "build": "build-115-ram-in-the-thicket",
