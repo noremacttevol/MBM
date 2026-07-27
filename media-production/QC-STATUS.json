@@ -13,8 +13,10 @@
  },
  "100": {
   "mp4": "acts-1_the-ascension.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "101": {
@@ -31,8 +33,10 @@
  },
  "103": {
   "mp4": "matthew-16_peters-confession.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "104": {
@@ -49,50 +53,67 @@
  },
  "106": {
   "mp4": "hebrews-1_god-spake-by-prophets.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "SCRIPT ECHO: 1 narrator-repeats-scripture pair(s): gv5b->nA"
+  ],
   "whisper": false
  },
  "107": {
   "mp4": "matthew-11_john-the-baptists-doubt.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "108": {
   "mp4": "john-10_my-sheep-hear-my-voice.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander",
+   "SCRIPT ECHO: 1 narrator-repeats-scripture pair(s): jv11->n4b"
+  ],
   "whisper": false
  },
  "109": {
   "mp4": "matthew-7_ask-seek-knock.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "11": {
   "mp4": "mark-4_calming-the-storm.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "SCRIPT ECHO: 1 narrator-repeats-scripture pair(s): s41->n9b"
+  ],
   "whisper": false
  },
  "110": {
   "mp4": "matthew-6_the-lords-prayer.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "111": {
   "mp4": "matthew-6_lilies-and-sparrows.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "112": {
   "mp4": "matthew-5_the-beatitudes.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "113": {
@@ -121,8 +142,10 @@
  },
  "117": {
   "mp4": "hosea-1_hosea-buys-her-back.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "SCRIPT ECHO: 2 narrator-repeats-scripture pair(s): s32->n6, w2->n8w"
+  ],
   "whisper": false
  },
  "118": {
@@ -139,8 +162,10 @@
  },
  "12": {
   "mp4": "mark-10_bartimaeus.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "SCRIPT ECHO: 1 narrator-repeats-scripture pair(s): s47->n2"
+  ],
   "whisper": false
  },
  "120": {
@@ -151,56 +176,74 @@
  },
  "121": {
   "mp4": "matthew-5_salt-and-light.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "122": {
   "mp4": "matthew-7_mote-and-beam.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "123": {
   "mp4": "matthew-7_golden-rule.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "124": {
   "mp4": "matthew-5_love-your-enemies.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "125": {
   "mp4": "matthew-7_i-never-knew-you.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "126": {
   "mp4": "matthew-7_by-their-fruits.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "127": {
   "mp4": "matthew-7_the-strait-gate.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "128": {
-  "mp4": "amos-8_famine-of-hearing.mp4",
-  "pass": true,
-  "reasons": [],
+  "mp4": "",
+  "pass": false,
+  "reasons": [
+   "PLAYABLE: no finished scripture-named mp4 in the build folder"
+  ],
   "whisper": false
  },
  "129": {
   "mp4": "mark-6_nazareth-only-a-few.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "13": {
@@ -211,32 +254,43 @@
  },
  "130": {
   "mp4": "luke-9_what-manner-of-spirit.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "131": {
   "mp4": "mark-12_scribe-near-the-kingdom.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander",
+   "SCRIPT ECHO: 1 narrator-repeats-scripture pair(s): s28->n0b"
+  ],
   "whisper": false
  },
  "132": {
   "mp4": "mark-9_forbid-him-not.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "133": {
-  "mp4": "john-14_many-mansions.mp4",
-  "pass": true,
-  "reasons": [],
+  "mp4": "",
+  "pass": false,
+  "reasons": [
+   "PLAYABLE: no finished scripture-named mp4 in the build folder"
+  ],
   "whisper": false
  },
  "134": {
-  "mp4": "john-10_other-sheep-i-have.mp4",
-  "pass": true,
-  "reasons": [],
+  "mp4": "",
+  "pass": false,
+  "reasons": [
+   "PLAYABLE: no finished scripture-named mp4 in the build folder"
+  ],
   "whisper": false
  },
  "135": {
@@ -252,9 +306,13 @@
   "whisper": false
  },
  "137": {
-  "mp4": "john-17_one-as-we-are-one.mp4",
-  "pass": true,
-  "reasons": [],
+  "mp4": "acts-7_stephen-sees-him-standing.mp4",
+  "pass": false,
+  "reasons": [
+   "COMPLETE: 5 segment(s) have no audio clip: n0a, n0b, s1, n2b, card",
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander",
+   "SCRIPT ECHO: 1 narrator-repeats-scripture pair(s): s1->n2"
+  ],
   "whisper": false
  },
  "138": {
@@ -276,9 +334,11 @@
   "whisper": false
  },
  "140": {
-  "mp4": "2-kings-5_naaman-washes.mp4",
-  "pass": true,
-  "reasons": [],
+  "mp4": "luke-15_road-runs-both-ways.mp4",
+  "pass": false,
+  "reasons": [
+   "COMPLETE: 9 segment(s) have no audio clip: j1, j18, n3a, n3b, j20, j22, n6, j31"
+  ],
   "whisper": false
  },
  "141": {
@@ -313,8 +373,10 @@
  },
  "146": {
   "mp4": "john-15_vine-and-branches.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "147": {
@@ -343,8 +405,10 @@
  },
  "150": {
   "mp4": "psalm-23_the-shepherd-psalm.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "SCRIPT ECHO: 1 narrator-repeats-scripture pair(s): s3b->n2"
+  ],
   "whisper": false
  },
  "151": {
@@ -397,8 +461,10 @@
  },
  "159": {
   "mp4": "john-10_other-sheep.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "16": {
@@ -421,8 +487,10 @@
  },
  "162": {
   "mp4": "matthew-16_keys-of-the-kingdom.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "163": {
@@ -451,20 +519,26 @@
  },
  "167": {
   "mp4": "john-15_chosen-and-ordained.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "168": {
   "mp4": "john-3_born-of-water-and-spirit.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Alexander, Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "169": {
   "mp4": "matthew-3_fulfil-all-righteousness.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "17": {
@@ -481,8 +555,10 @@
  },
  "171": {
   "mp4": "1-corinthians-15_baptized-for-the-dead.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "SCRIPT ECHO: 1 narrator-repeats-scripture pair(s): n0->s1"
+  ],
   "whisper": false
  },
  "172": {
@@ -493,8 +569,10 @@
  },
  "173": {
   "mp4": "john-5_dead-shall-hear.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "174": {
@@ -511,8 +589,10 @@
  },
  "176": {
   "mp4": "psalm-24_who-shall-ascend.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "SCRIPT ECHO: 3 narrator-repeats-scripture pair(s): n0->s1, s4->n3a, s3->n2"
+  ],
   "whisper": false
  },
  "177": {
@@ -565,14 +645,18 @@
  },
  "184": {
   "mp4": "2corinthians-12_caught-up-to-the-third-heaven.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "185": {
   "mp4": "john-14_in-my-fathers-house.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "186": {
@@ -583,20 +667,26 @@
  },
  "187": {
   "mp4": "john-10_ye-are-gods.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "188": {
   "mp4": "matthew-5_be-ye-therefore-perfect.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "189": {
   "mp4": "revelation-3_to-him-that-overcometh.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "19": {
@@ -625,8 +715,10 @@
  },
  "193": {
   "mp4": "john-14_the-comforter.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "194": {
@@ -673,8 +765,10 @@
  },
  "20": {
   "mp4": "luke-10_samaritan.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "SCRIPT ECHO: 1 narrator-repeats-scripture pair(s): s25->n1b"
+  ],
   "whisper": false
  },
  "200": {
@@ -721,152 +815,204 @@
  },
  "27": {
   "mp4": "matthew-13_leaven.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "28": {
   "mp4": "matthew-13_hidden-treasure.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "29": {
   "mp4": "matthew-13_pearl-of-great-price.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "3": {
   "mp4": "luke-19_zacchaeus.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "SCRIPT ECHO: 1 narrator-repeats-scripture pair(s): s7->n6b"
+  ],
   "whisper": false
  },
  "30": {
   "mp4": "matthew-13_the-net.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "31": {
   "mp4": "matthew-25_ten-virgins.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "32": {
   "mp4": "matthew-25_talents.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "33": {
   "mp4": "matthew-25_sheep-and-goats.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "34": {
   "mp4": "luke-12_rich-fool.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "35": {
   "mp4": "luke-14_great-banquet.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "36": {
   "mp4": "luke-16_shrewd-steward.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander",
+   "SCRIPT ECHO: 1 narrator-repeats-scripture pair(s): j6->n5"
+  ],
   "whisper": false
  },
  "37": {
   "mp4": "luke-16_rich-man-lazarus.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "38": {
   "mp4": "luke-18_persistent-widow.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "39": {
   "mp4": "luke-18_pharisee-and-publican.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "4": {
   "mp4": "john-3_nicodemus.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "SCRIPT ECHO: 2 narrator-repeats-scripture pair(s): s4->n4b, s9->n6b"
+  ],
   "whisper": false
  },
  "40": {
   "mp4": "luke-11_friend-at-midnight.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "41": {
   "mp4": "luke-14_counting-the-cost.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "42": {
   "mp4": "luke-13_barren-fig-tree.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "43": {
   "mp4": "matthew-22_wedding-garment.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "44": {
   "mp4": "luke-7_two-debtors.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "45": {
   "mp4": "mark-12_wicked-tenants.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "46": {
   "mp4": "mark-4_seed-growing.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "47": {
   "mp4": "matthew-7_houses-on-rock-and-sand.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "48": {
   "mp4": "mark-2_new-wine-old-bottles.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander",
+   "SCRIPT ECHO: 1 narrator-repeats-scripture pair(s): s18->n1b"
+  ],
   "whisper": false
  },
  "49": {
   "mp4": "john-2_water-to-wine.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "5": {
@@ -877,20 +1023,26 @@
  },
  "50": {
   "mp4": "john-4_noblemans-son.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "51": {
   "mp4": "luke-5_first-catch-of-fish.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "52": {
   "mp4": "mark-1_demoniac-synagogue.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "53": {
@@ -901,38 +1053,51 @@
  },
  "54": {
   "mp4": "mark-1_the-leper.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "55": {
   "mp4": "mark-3_withered-hand.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "56": {
   "mp4": "luke-7_widow-of-nain.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander",
+   "SCRIPT ECHO: 2 narrator-repeats-scripture pair(s): n3->s13a, jv14->n4b"
+  ],
   "whisper": false
  },
  "57": {
   "mp4": "mark-5_jairus-daughter.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "58": {
   "mp4": "john-6_feeding-5000.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "59": {
   "mp4": "mark-8_feeding-4000.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "6": {
@@ -943,128 +1108,175 @@
  },
  "60": {
   "mp4": "mark-5_gerasene-demoniac.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "61": {
   "mp4": "mark-7_syrophoenician-woman.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander",
+   "SCRIPT ECHO: 1 narrator-repeats-scripture pair(s): w28->n5b"
+  ],
   "whisper": false
  },
  "62": {
   "mp4": "mark-7_ephphatha.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "63": {
   "mp4": "john-9_man-born-blind.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander",
+   "SCRIPT ECHO: 3 narrator-repeats-scripture pair(s): n0->s2, s2->n0b, s38->n9b"
+  ],
   "whisper": false
  },
  "64": {
   "mp4": "john-5_pool-of-bethesda.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "65": {
-  "mp4": "mark-9_help-mine-unbelief.mp4",
-  "pass": true,
-  "reasons": [],
+  "mp4": "",
+  "pass": false,
+  "reasons": [
+   "PLAYABLE: no finished scripture-named mp4 in the build folder"
+  ],
   "whisper": false
  },
  "66": {
   "mp4": "luke-22_malchus-ear.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "67": {
-  "mp4": "mark-9_the-transfiguration.mp4",
-  "pass": true,
-  "reasons": [],
+  "mp4": "",
+  "pass": false,
+  "reasons": [
+   "PLAYABLE: no finished scripture-named mp4 in the build folder"
+  ],
   "whisper": false
  },
  "68": {
   "mp4": "matt-15_multitudes-mountain.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "69": {
   "mp4": "matt-3_baptism-of-jesus.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander",
+   "SCRIPT ECHO: 1 narrator-repeats-scripture pair(s): n5->s17"
+  ],
   "whisper": false
  },
  "7": {
   "mp4": "matthew-14_peter-walks-on-water.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "SCRIPT ECHO: 1 narrator-repeats-scripture pair(s): n3->s28"
+  ],
   "whisper": false
  },
  "70": {
   "mp4": "matt-4_the-temptations.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "71": {
   "mp4": "matthew-28_the-great-commission.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "72": {
   "mp4": "matthew-9_calling-matthew.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "73": {
   "mp4": "luke-4_this-day-fulfilled.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "74": {
   "mp4": "luke-7_woman-washed-his-feet.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander",
+   "SCRIPT ECHO: 1 narrator-repeats-scripture pair(s): n5b->j2"
+  ],
   "whisper": false
  },
  "75": {
   "mp4": "john-8_woman-taken-in-adultery.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "76": {
   "mp4": "mark-10_suffer-the-little-children.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "77": {
   "mp4": "mark-12_the-widows-mite.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "78": {
   "mp4": "mark-3_who-is-my-mother.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander",
+   "SCRIPT ECHO: 1 narrator-repeats-scripture pair(s): j3->n3"
+  ],
   "whisper": false
  },
  "79": {
   "mp4": "luke-10_the-seventy-sent.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "8": {
@@ -1075,26 +1287,36 @@
  },
  "80": {
   "mp4": "matthew-11_come-unto-me.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander",
+   "SCRIPT ECHO: 1 narrator-repeats-scripture pair(s): j3->n1b"
+  ],
   "whisper": false
  },
  "81": {
   "mp4": "mark-12_render-unto-caesar.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "82": {
   "mp4": "mark-14_anointing-at-bethany.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander",
+   "SCRIPT ECHO: 2 narrator-repeats-scripture pair(s): s4->n2b, j1b->n4b"
+  ],
   "whisper": false
  },
  "83": {
   "mp4": "luke-19_weeping-over-jerusalem.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "84": {
@@ -1111,26 +1333,36 @@
  },
  "86": {
   "mp4": "matthew-2_the-wise-men.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "COMPLETE: 14 segment(s) have no audio clip: n0, j1, n0b, n1, s8, n1b, n2a, n2b"
+  ],
   "whisper": false
  },
  "87": {
   "mp4": "luke-2_boy-in-the-temple.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "88": {
   "mp4": "matthew-21_triumphal-entry.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander",
+   "SCRIPT ECHO: 1 narrator-repeats-scripture pair(s): j1->n2b"
+  ],
   "whisper": false
  },
  "89": {
   "mp4": "luke-22_the-last-supper.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander",
+   "SCRIPT ECHO: 1 narrator-repeats-scripture pair(s): jv18->n4"
+  ],
   "whisper": false
  },
  "9": {
@@ -1141,14 +1373,19 @@
  },
  "90": {
   "mp4": "john-13_washing-the-disciples-feet.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander",
+   "SCRIPT ECHO: 2 narrator-repeats-scripture pair(s): s8->n2b, j2->n3b"
+  ],
   "whisper": false
  },
  "91": {
   "mp4": "luke-22_gethsemane.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "92": {
@@ -1165,20 +1402,27 @@
  },
  "94": {
   "mp4": "luke-23_father-forgive-them.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "95": {
   "mp4": "luke-23_thief-on-the-cross.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "96": {
   "mp4": "john-19_it-is-finished.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander",
+   "SCRIPT ECHO: 1 narrator-repeats-scripture pair(s): s30b->n2"
+  ],
   "whisper": false
  },
  "97": {
@@ -1189,14 +1433,19 @@
  },
  "98": {
   "mp4": "john-20_mary-her-name.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander"
+  ],
   "whisper": false
  },
  "99": {
   "mp4": "john-20_flesh-and-bone-thomas.mp4",
-  "pass": true,
-  "reasons": [],
+  "pass": false,
+  "reasons": [
+   "JESUS VOICE: Jesus lines voiced by Chris \u2014 not Alexander \u2014 re-voice with Alexander",
+   "SCRIPT ECHO: 1 narrator-repeats-scripture pair(s): s25->n2b"
+  ],
   "whisper": false
  }
 }

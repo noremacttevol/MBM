@@ -135,6 +135,33 @@ def check_voice_and_complete(bdir, segs):
     return fails
 
 
+def check_jesus_voice(bdir):
+    """CAMERON'S RULE (2026-07-25): nothing reaches the board unless Jesus is the
+    APPROVED voice (Alexander). Checking "is it ElevenLabs / 44100 Hz" is NOT enough —
+    that passes wave-1 audio voiced by Chris, which is exactly the trash he kept being
+    shown as 'ready'. The verdict comes from admin/jesus_voice_audit.py, which reads
+    ElevenLabs' own history (the pause-tag signature only the Alexander pipeline
+    produces), never a marker or timestamp.
+
+    Fails CLOSED: if the audit has no verdict for this build, it does not ship."""
+    m = re.search(r"build-(\d+)-", os.path.basename(bdir.rstrip("/")))
+    if not m:
+        return []
+    num = str(int(m.group(1)))
+    path = os.path.join(MP, "JESUS-VOICE.json")
+    try:
+        with open(path, encoding="utf-8") as f:
+            audit = json.load(f)
+    except (FileNotFoundError, ValueError):
+        return ["JESUS VOICE: no audit yet — run `python3 admin/jesus_voice_audit.py`"]
+    v = audit.get(num)
+    if not v:
+        return [f"JESUS VOICE: build #{num} has no audit verdict — run jesus_voice_audit.py"]
+    if v.get("ok"):
+        return []
+    return [f"JESUS VOICE: {v.get('how', 'not the approved Jesus voice')} — re-voice with Alexander"]
+
+
 def check_script_echo(segs):
     """Zero narrator-repeats-scripture pairs in the written transcript."""
     bad = []
@@ -241,6 +268,7 @@ def gate(bdir, fast=False):
         reasons.append("SCRIPT: make_narration.py has no readable SEGMENTS")
     else:
         reasons += check_voice_and_complete(bdir, segs)
+        reasons += check_jesus_voice(bdir)
         reasons += check_script_echo(segs)
 
     whisper_ran = False
