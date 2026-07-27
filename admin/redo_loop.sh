@@ -23,6 +23,26 @@ say(){ echo "[$(date '+%m-%d %H:%M:%S')] $*" | tee -a "$LOG"; }
 
 if [ "$#" -gt 0 ]; then LIST="$*"; else LIST=$(seq 1 200); fi
 
+# PREFLIGHT (2026-07-25) — a shared-clone revert silently put Jesus back to Chris and
+# this loop then burned 207 generations on the WRONG voice before anyone noticed.
+# Never render again without proving the approved cast is actually loaded.
+python3 - <<'PRE' || { echo "ABORT: voice config is wrong — fix mbm_eleven.py before running."; exit 1; }
+import sys
+sys.path.insert(0, "media-production")
+from mbm_eleven import VOICE_ELEVEN, VOICE_SETTINGS, jesus_pauses
+from mbm_speakers import JESUS
+name, vid = VOICE_ELEVEN[JESUS]
+ok = True
+if name != "Alexander" or vid != "UMnEnzK9QLLdRwnUyxMW":
+    print(f"  !! Jesus voice is {name} ({vid}) — must be Alexander (UMnEnzK9QLLdRwnUyxMW)"); ok = False
+if "speed" not in VOICE_SETTINGS[JESUS]:
+    print("  !! Jesus VOICE_SETTINGS has no slowed 'speed' — pacing fix missing"); ok = False
+if "<break" not in jesus_pauses("A word, and more. Then this."):
+    print("  !! jesus_pauses() is not inserting reverent pauses"); ok = False
+print("preflight: approved cast loaded (Jesus=Alexander, slowed, reverent pauses)" if ok else "preflight FAILED")
+sys.exit(0 if ok else 1)
+PRE
+
 dirof(){
   # A row can have DUPLICATE build dirs (a stray slug variant next to the real one).
   # Prefer the one that has build.py (buildable), alphabetically first — IDENTICAL to
