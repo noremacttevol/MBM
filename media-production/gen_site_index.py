@@ -164,11 +164,7 @@ def dur(path):
 # usually NOT committed — so linking one gives Cameron a dead URL and a blank
 # player. (Video #16: the card pointed at luke-10_mary-and-martha.orig.mp4, which
 # was never pushed — he reported "what the heck no video", 2026-07-18.)
-# Backup/superseded cuts to hide. NOTE (2026-07-24): the old clause "[._-]old[._-]"
-# matched the WORD "old" anywhere in a title — it hid build-48's real cut
-# "mark-2_new-wine-old-bottles.mp4" from the board. "old" only means a backup when
-# it's a suffix right before the extension (slug-old.mp4), never mid-title.
-_BACKUP_MP4 = re.compile(r"(\.orig\.|\.bak\.|[._-]old\.mp4$|_OLD\b|pre-[a-z0-9]+-fix)", re.I)
+_BACKUP_MP4 = re.compile(r"(\.orig\.|\.bak\.|[._-]old[._-]|_OLD|pre-[a-z0-9]+-fix)", re.I)
 
 
 def find_main_mp4(build_dir):
@@ -517,10 +513,7 @@ def card_html(num, title, scrip, length, rel, hashval, newvoice=False, fixnote=N
 
 
 def main():
-    # never hide an approved video — but ONLY a real approval (has content). Empty
-    # {} rows in approvals.json (sync artifacts) were letting old-voice videos
-    # bypass the QC gate on 2026-07-24 (#87/#121/#151/#170).
-    approved_nums = {k for k, v in load_approvals().items() if v}
+    approved_nums = set(load_approvals().keys())  # never hide an approved video
     qc = load_qc()
     qc_pass = {n for n, v in qc.items() if v.get("pass")}  # content-verified good
     newvoice = qc_pass  # the badge now means "QC-verified", not "committed recently"
@@ -542,12 +535,19 @@ def main():
         has_marker = os.path.exists(os.path.join(bd, NEW_CAPTION_MARKER)) if NEW_CAPTION_MARKER else True
         if not has_marker and str(num) not in approved_nums:
             continue
-        # THE GATE: a video reaches the board ONLY if it passed content QC (real new
-        # voice, no echo, plays fully). If the sweep has a verdict and it's a FAIL,
-        # the video is held back — Cameron never sees a bad one dressed up as ready.
-        # (Approved cuts are never hidden. If the sweep hasn't run at all, qc is
-        # empty and we fall open so the board can't accidentally go blank.)
-        if qc and num not in qc_pass and str(num) not in approved_nums:
+        # THE GATE: a video reaches the board ONLY if it passed content QC (approved
+        # Jesus voice, ElevenLabs cast, no echo, plays fully). If the sweep has a
+        # verdict and it's a FAIL, the video is held back — Cameron never sees a bad
+        # one dressed up as ready.
+        #
+        # 2026-07-25: the old "approved cuts are never hidden" exemption is GONE.
+        # Cameron's rule is absolute — no video appears without the new Jesus voice,
+        # approved or not, because the approvals predate the re-cast. His approval
+        # RECORD is untouched (approvals.json / Firestore); the cut simply doesn't
+        # show as ready until it is re-voiced, then it returns automatically.
+        # If the sweep never ran, qc is empty and we fall open so the board can't
+        # accidentally go blank.
+        if qc and num not in qc_pass:
             qc_blocked += 1
             continue
         rel = os.path.relpath(mp4, REPO).replace(os.sep, "/")
