@@ -99,8 +99,8 @@
   "current_still": "S6",
   "reason": "4 beats now sit on this still (56.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s6b-the-first-word-was-son + s6c-the-shame-he-carried",
+  "done": true
  },
  {
   "build": "build-120-job-from-whirlwind",
@@ -220,8 +220,8 @@
   "current_still": "S8",
   "reason": "3 beats now sit on this still (51.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s8b-they-had-said-nothing + s8c-the-room-holds-its-breath",
+  "done": true
  },
  {
   "build": "build-02-prodigal",
@@ -3531,8 +3531,8 @@
   "current_still": "S3",
   "reason": "1 beats now sit on this still (29.6s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s2b-up-the-outside-stair",
+  "done": true
  },
  {
   "build": "build-155-falling-away",
@@ -4385,7 +4385,9 @@
   "reason": "1 beats now sit on this still (27.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s10-out-the-door",
+  "note": "s10-out-the-door IS n11 — he walks out through the crowd that had no room for him. 27.7s on the exactly-right picture."
  },
  {
   "build": "build-14-ten-lepers",
@@ -4626,8 +4628,8 @@
   "current_still": "S1",
   "reason": "1 beats now sit on this still (27.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s1b-capernaum-on-the-shore",
+  "done": true
  },
  {
   "build": "build-16-mary-martha",
@@ -5672,7 +5674,9 @@
   "reason": "1 beats now sit on this still (24.9s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s5-their-faith",
+  "note": "s5-their-faith IS n4 — the four faces looking down through the hole. 24.9s, medium."
  },
  {
   "build": "build-15-centurion",
@@ -5954,7 +5958,9 @@
   "reason": "1 beats now sit on this still (24.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s4-lowered",
+  "note": "s4-lowered IS n3 — the ceiling opening and the mat coming down into the light. 24.1s, medium."
  },
  {
   "build": "build-43-the-wedding-garment",
@@ -6121,7 +6127,9 @@
   "reason": "1 beats now sit on this still (23.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s2-no-way-through",
+  "note": "s2-no-way-through IS n1 — the doorway a wall of backs. 23.7s, medium."
  },
  {
   "build": "build-19-shore",
@@ -6291,7 +6299,9 @@
   "reason": "1 beats now sit on this still (23.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s7-scribes",
+  "note": "s7-scribes IS n7 — the scribes in the corner. 23.4s, medium (and s8b now splits their unspoken thought off S8)."
  },
  {
   "build": "build-15-centurion",
@@ -8404,7 +8414,9 @@
   "reason": "1 beats now sit on this still (20.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s9-arise",
+  "note": "s9-arise IS n10 — he stands on trembling legs. 20.3s, medium, and s9b-holding-mat already follows it at n10b."
  },
  {
   "build": "build-58-feeding-5000",
