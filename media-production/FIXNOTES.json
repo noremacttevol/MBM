@@ -2117,6 +2117,10 @@
   {
    "date": "2026-07-23",
    "note": "Fixed Ruth's vow: \"Where thou diest, will I die\" was being read \"where thou DOST\" \u2014 now reads \"DIE-est\" correctly. Also fixed \"Boaz\" (was coming out like \"Boss\"/\"Boas\"; now BO-az). Captions unchanged. \u2014 narration re-recorded"
+  },
+  {
+   "date": "2026-07-28",
+   "note": "narration re-recorded; build script updated"
   }
  ],
  "151": [
