@@ -46,23 +46,19 @@ from mbm_speakers import JESUS, NARRATOR
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n1", NARRATOR, "Of all the things Jesus taught on that hillside, one of them cuts straight to how we treat each other — and it starts with a warning we would rather skip."),
-    # Matthew 7:1-2
-    ("jvA", JESUS, "Judge not, that ye be not judged. For with what judgment ye judge, ye shall be judged: and with what measure ye mete, it shall be measured to you again."),
+    ("n1", NARRATOR, 'Of all the things Jesus taught on that hillside, one of them cuts straight to how we treat each other — and it starts with a warning we would rather skip.'),
+    ("jvA", JESUS, 'Judge not, that ye be not judged. For with what judgment ye judge, ye shall be judged: and with what measure ye mete, it shall be measured to you again.'),
     ("n2", NARRATOR, "Don't set yourself up as the judge, he said, because whatever standard you hold other people to is the one that will be held up to you. And we are experts at spotting the small faults in someone else. A tiny speck, a mote, in our brother's eye — and we cannot wait to point it out. So he asked a question."),
-    # Matthew 7:3
     ("jv3", JESUS, "And why beholdest thou the mote that is in thy brother's eye, but considerest not the beam that is in thine own eye?"),
     ("n3", NARRATOR, "Why do you stare at the speck of sawdust in your brother's eye, he asked, and never once notice the plank in your own? Then he drew the picture out until it was absurd enough to make you laugh."),
-    # Matthew 7:4
-    ("jv4", JESUS, "Or how wilt thou say to thy brother, Let me pull out the mote out of thine eye; and, behold, a beam is in thine own eye?"),
-    ("n4", NARRATOR, "Picture it. A man leaning in, saying hold still, let me get that little speck out for you — with an entire wooden beam sticking straight out of his own head. He cannot even see straight. The beam is in the way of everything he does. And yet he is completely sure that he is the one who ought to be fixing other people."),
-    ("n5", NARRATOR, "And then, if we are honest, the moment finally comes when we catch sight of the beam. Not his. Ours. The one we had been carrying the whole time."),
-    # Matthew 7:5
+    ("jv4", JESUS, 'Or how wilt thou say to thy brother, Let me pull out the mote out of thine eye; and, behold, a beam is in thine own eye?'),
+    ("n4", NARRATOR, 'Picture it. A man leaning in, saying hold still, let me get that little speck out for you — with an entire wooden beam sticking straight out of his own head. He cannot even see straight. The beam is in the way of everything he does. And yet he is completely sure that he is the one who ought to be fixing other people.'),
+    ("n5", NARRATOR, 'And then, if we are honest, the moment finally comes when we catch sight of the beam. Not his. Ours. The one we had been carrying the whole time.'),
     ("jvB", JESUS, "Thou hypocrite, first cast out the beam out of thine own eye; and then shalt thou see clearly to cast out the mote out of thy brother's eye."),
     ("n6", NARRATOR, "Notice he does not say ignore your brother's speck. He says deal with your own beam first — and then you will actually be able to help him, gently, instead of just condemning him."),
-    ("n7", NARRATOR, "The goal was never to stop caring about each other. It was to come to each other humble instead of superior — as one flawed person helping another, not a judge passing a sentence."),
-    ("n8", NARRATOR, "The measure you use is the measure you will get back. So Jesus offers a better one: mercy. Deal honestly with yourself, and you will be amazed how much patience you suddenly have for everyone else."),
-    ("card", NARRATOR, "Jesus was not telling us to stop seeing clearly — he was telling us where to start: with the beam in our own eye. Deal with that, and our eyes for other people fill with mercy instead of judgment. Whose speck have you been watching, while a beam waited in your own eye?"),
+    ("n7", NARRATOR, 'The goal was never to stop caring about each other. It was to come to each other humble instead of superior — as one flawed person helping another, not a judge passing a sentence.'),
+    ("n8", NARRATOR, 'The measure you use is the measure you will get back. So Jesus offers a better one: mercy. Deal honestly with yourself, and you will be amazed how much patience you suddenly have for everyone else.'),
+    ("card", NARRATOR, 'Jesus was not telling us to stop seeing clearly — he was telling us where to start: with the beam in our own eye. Deal with that, and our eyes for other people fill with mercy instead of judgment. Whose speck have you been watching, while a beam waited in your own eye?'),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
