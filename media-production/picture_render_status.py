@@ -1,5 +1,18 @@
 #!/usr/bin/env python3
-"""picture_render_status.py — is every repainted still actually inside its video yet?
+""".. WARNING — THIS TOOL IS NOT EVIDENCE. Use still_in_movie.py instead. ..
+
+It reported "0 stranded" on 2026-07-28 while FIFTY repainted stills were missing from
+their videos, including the #112 fix made an hour earlier. The reasoning is unsound: it
+compares the commit that last touched the mp4 against the commit that last touched the
+still, and a commit timestamp records when a file was SAVED, never what was on disk when
+ffmpeg ran. A machine that pulls once at the start of a long render batch commits fresh
+mp4s built from days-old stills, and this tool calls every one of them current.
+
+Kept only because its WIRED-vs-UNWIRED split is still useful: a still absent from
+build.py's BEATS cannot appear no matter how often you rebuild. For "is the fix actually
+in the movie", the pixels are the only evidence — run still_in_movie.py.
+
+picture_render_status.py — is every repainted still actually inside its video yet?
 
 Cameron, 2026-07-28: "there is another session fixing the voices so we need to make sure
 we have all the newest versions of pictures for the session to work on the correct videos
