@@ -164,7 +164,10 @@ def dur(path):
 # usually NOT committed — so linking one gives Cameron a dead URL and a blank
 # player. (Video #16: the card pointed at luke-10_mary-and-martha.orig.mp4, which
 # was never pushed — he reported "what the heck no video", 2026-07-18.)
-_BACKUP_MP4 = re.compile(r"(\.orig\.|\.bak\.|[._-]old[._-]|_OLD|pre-[a-z0-9]+-fix)", re.I)
+# NOTE (2026-07-24, re-applied 07-28 after a revert): the clause "[._-]old[._-]"
+# matched the WORD "old" anywhere in a title and hid build-48's real cut
+# "mark-2_new-wine-old-bottles.mp4". "old" only means a backup as a suffix.
+_BACKUP_MP4 = re.compile(r"(\.orig\.|\.bak\.|[._-]old\.mp4$|_OLD\b|pre-[a-z0-9]+-fix)", re.I)
 
 
 def find_main_mp4(build_dir):

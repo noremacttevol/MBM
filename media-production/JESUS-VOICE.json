@@ -10,9 +10,9 @@
   "voice": "Alexander"
  },
  "100": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "101": {
   "how": "story has no Jesus lines",
@@ -25,9 +25,9 @@
   "voice": "n/a"
  },
  "103": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 4 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "104": {
   "how": "story has no Jesus lines",
@@ -45,19 +45,19 @@
   "voice": "n/a"
  },
  "107": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "108": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 4 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "109": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 4 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "11": {
   "how": "all 3 Jesus line(s) match Alexander in history",
@@ -65,19 +65,19 @@
   "voice": "Alexander"
  },
  "110": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 5 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "111": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 5 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "112": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 4 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "113": {
   "how": "story has no Jesus lines",
@@ -125,49 +125,49 @@
   "voice": "n/a"
  },
  "121": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 4 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "122": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 4 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "123": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "124": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 4 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "125": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 3 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "126": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 4 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "127": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "128": {
-  "how": "story has no Jesus lines",
+  "how": "all 3 Jesus line(s) match Alexander in history",
   "ok": true,
-  "voice": "n/a"
+  "voice": "Alexander"
  },
  "129": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 1 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "13": {
   "how": "all 3 Jesus line(s) match Alexander in history",
@@ -175,29 +175,29 @@
   "voice": "Alexander"
  },
  "130": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 1 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "131": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "132": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "133": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 3 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "134": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "135": {
   "how": "story has no Jesus lines",
@@ -205,14 +205,14 @@
   "voice": "n/a"
  },
  "136": {
-  "how": "story has no Jesus lines",
+  "how": "all 1 Jesus line(s) match Alexander in history",
   "ok": true,
-  "voice": "n/a"
+  "voice": "Alexander"
  },
  "137": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "138": {
   "how": "story has no Jesus lines",
@@ -220,9 +220,9 @@
   "voice": "n/a"
  },
  "139": {
-  "how": "story has no Jesus lines",
+  "how": "all 3 Jesus line(s) match Alexander in history",
   "ok": true,
-  "voice": "n/a"
+  "voice": "Alexander"
  },
  "14": {
   "how": "all 3 Jesus line(s) match Alexander in history",
@@ -235,34 +235,34 @@
   "voice": "n/a"
  },
  "141": {
-  "how": "story has no Jesus lines",
+  "how": "all 3 Jesus line(s) match Alexander in history",
   "ok": true,
-  "voice": "n/a"
+  "voice": "Alexander"
  },
  "142": {
-  "how": "story has no Jesus lines",
+  "how": "all 2 Jesus line(s) match Alexander in history",
   "ok": true,
-  "voice": "n/a"
+  "voice": "Alexander"
  },
  "143": {
-  "how": "story has no Jesus lines",
+  "how": "all 2 Jesus line(s) match Alexander in history",
   "ok": true,
-  "voice": "n/a"
+  "voice": "Alexander"
  },
  "144": {
-  "how": "story has no Jesus lines",
+  "how": "all 2 Jesus line(s) match Alexander in history",
   "ok": true,
-  "voice": "n/a"
+  "voice": "Alexander"
  },
  "145": {
-  "how": "story has no Jesus lines",
+  "how": "all 2 Jesus line(s) match Alexander in history",
   "ok": true,
-  "voice": "n/a"
+  "voice": "Alexander"
  },
  "146": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 3 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "147": {
   "how": "story has no Jesus lines",
@@ -280,9 +280,9 @@
   "voice": "n/a"
  },
  "15": {
-  "how": "story has no Jesus lines",
+  "how": "all 4 Jesus line(s) match Alexander in history",
   "ok": true,
-  "voice": "n/a"
+  "voice": "Alexander"
  },
  "150": {
   "how": "story has no Jesus lines",
@@ -330,9 +330,9 @@
   "voice": "n/a"
  },
  "159": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "16": {
   "how": "all 1 Jesus line(s) match Alexander in history",
@@ -350,9 +350,9 @@
   "voice": "n/a"
  },
  "162": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 3 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "163": {
   "how": "story has no Jesus lines",
@@ -375,19 +375,19 @@
   "voice": "n/a"
  },
  "167": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "168": {
-  "how": "Jesus lines voiced by Alexander, Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "169": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 1 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "17": {
   "how": "all 5 Jesus line(s) match Alexander in history",
@@ -410,9 +410,9 @@
   "voice": "n/a"
  },
  "173": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 4 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "174": {
   "how": "story has no Jesus lines",
@@ -470,14 +470,14 @@
   "voice": "n/a"
  },
  "184": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 1 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "185": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 3 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "186": {
   "how": "story has no Jesus lines",
@@ -485,19 +485,19 @@
   "voice": "n/a"
  },
  "187": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 1 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "188": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 3 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "189": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "19": {
   "how": "all 4 Jesus line(s) match Alexander in history",
@@ -520,9 +520,9 @@
   "voice": "n/a"
  },
  "193": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "194": {
   "how": "story has no Jesus lines",
@@ -565,9 +565,9 @@
   "voice": "Alexander"
  },
  "200": {
-  "how": "story has no Jesus lines",
+  "how": "all 1 Jesus line(s) match Alexander in history",
   "ok": true,
-  "voice": "n/a"
+  "voice": "Alexander"
  },
  "21": {
   "how": "all 4 Jesus line(s) match Alexander in history",
@@ -600,19 +600,19 @@
   "voice": "Alexander"
  },
  "27": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 1 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "28": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "29": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "3": {
   "how": "all 4 Jesus line(s) match Alexander in history",
@@ -620,54 +620,54 @@
   "voice": "Alexander"
  },
  "30": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 4 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "31": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 6 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "32": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 4 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "33": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 4 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "34": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 4 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "35": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 5 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "36": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 6 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "37": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 5 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "38": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 4 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "39": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 5 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "4": {
   "how": "all 3 Jesus line(s) match Alexander in history",
@@ -675,54 +675,54 @@
   "voice": "Alexander"
  },
  "40": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 8 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "41": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 8 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "42": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 4 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "43": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 9 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "44": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 8 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "45": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 9 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "46": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 4 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "47": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 4 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "48": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 4 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "49": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 3 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "5": {
   "how": "all 2 Jesus line(s) match Alexander in history",
@@ -730,19 +730,19 @@
   "voice": "Alexander"
  },
  "50": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "51": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "52": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 1 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "53": {
   "how": "story has no Jesus lines",
@@ -750,34 +750,34 @@
   "voice": "n/a"
  },
  "54": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "55": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 3 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "56": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "57": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 4 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "58": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 3 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "59": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 3 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "6": {
   "how": "all 6 Jesus line(s) match Alexander in history",
@@ -785,39 +785,39 @@
   "voice": "Alexander"
  },
  "60": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 3 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "61": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "62": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 1 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "63": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 4 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "64": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 3 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "65": {
-  "how": "missing Jesus clip(s): j1, j2, j3",
-  "ok": false,
-  "voice": "incomplete"
+  "how": "all 3 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "66": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "67": {
   "how": "story has no Jesus lines",
@@ -825,14 +825,14 @@
   "voice": "n/a"
  },
  "68": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 1 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "69": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 1 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "7": {
   "how": "all 3 Jesus line(s) match Alexander in history",
@@ -840,54 +840,54 @@
   "voice": "Alexander"
  },
  "70": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 3 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "71": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 3 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "72": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "73": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "74": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 6 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "75": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 3 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "76": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "77": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 1 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "78": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 3 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "79": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 3 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "8": {
   "how": "all 4 Jesus line(s) match Alexander in history",
@@ -895,24 +895,24 @@
   "voice": "Alexander"
  },
  "80": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 3 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "81": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 3 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "82": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 4 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "83": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 1 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "84": {
   "how": "story has no Jesus lines",
@@ -930,19 +930,19 @@
   "voice": "n/a"
  },
  "87": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 1 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "88": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 1 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "89": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 4 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "9": {
   "how": "all 1 Jesus line(s) match Alexander in history",
@@ -950,14 +950,14 @@
   "voice": "Alexander"
  },
  "90": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "91": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 4 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "92": {
   "how": "story has no Jesus lines",
@@ -970,19 +970,19 @@
   "voice": "n/a"
  },
  "94": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 1 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "95": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 1 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "96": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 2 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "97": {
   "how": "story has no Jesus lines",
@@ -990,13 +990,13 @@
   "voice": "n/a"
  },
  "98": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 3 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  },
  "99": {
-  "how": "Jesus lines voiced by Chris \u2014 not Alexander",
-  "ok": false,
-  "voice": "Chris"
+  "how": "all 3 Jesus line(s) match Alexander in history",
+  "ok": true,
+  "voice": "Alexander"
  }
 }

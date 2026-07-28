@@ -42,6 +42,7 @@ OUT = os.path.join(MP, "JESUS-VOICE.json")
 REQUIRED_JESUS = "Alexander"          # Cameron's locked pick (mbm_eleven VOICE_ELEVEN)
 
 sys.path.insert(0, MP)
+from corpus import canonical_builds, load_build_segments  # noqa: E402
 
 
 def _key():
@@ -106,19 +107,11 @@ def norm(s):
 
 
 def build_dir(n):
-    ds = [d for d in glob.glob(os.path.join(MP, f"build-{n:02d}-*")) + glob.glob(os.path.join(MP, f"build-{n}-*"))
-          if "_stale" not in d and os.path.isfile(os.path.join(d, "make_narration.py"))]
-    return sorted(ds)[0] if ds else None
+    return canonical_builds(MP).get(n)
 
 
 def segments(d):
-    code = ("import make_narration as m,json;"
-            "print(json.dumps([[s[0],s[1],s[2]] for s in m.SEGMENTS]))")
-    r = subprocess.run([sys.executable, "-c", code], cwd=d, capture_output=True, text=True)
-    try:
-        return json.loads(r.stdout.strip().splitlines()[-1])
-    except Exception:
-        return []
+    return load_build_segments(d, executable=sys.executable) or []
 
 
 def audit(n, voice_of_text, spoken_fn, pause_fn):
