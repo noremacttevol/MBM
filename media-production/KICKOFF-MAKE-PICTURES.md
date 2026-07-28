@@ -149,6 +149,20 @@ build's own law says otherwise — the build's law always beats this brief.
    the back of everyone's heads because its prompt still carried the retired face-never
    staging. If a shot looks inexplicably weak, read its prompt for a rule that was repealed.
 
+11. **`git add -f` also defeats the ignore rules that keep build junk out of the repo.** Trap 4
+   tells you to force-add because some builds gitignore `assets/`. Force-add the FILES, never a
+   whole directory: `git add -f build-NN/segs` staged a 182 MB `video_silent.mp4` and GitHub
+   rejected the push outright (2026-07-28). Check `git show --stat HEAD` before pushing a build.
+12. **`still_in_movie.py` can FALSE-FAIL on pale, low-contrast stills — confirm with a frame
+   before you rebuild.** On build-14 it reported s2 and s7 missing from a movie that plainly
+   contained both, including s7 which had not been touched. It matches an HSV + greyscale
+   signature at a 0.86 threshold; a mostly-empty pale-stone-and-sky picture, plus the caption
+   band the video burns in over the bottom that the source jpeg lacks, drags the score under
+   threshold. Settle it the same way the tool itself argues for — with pixels:
+   compute the beat's time from `segs/concat.txt` durations, then
+   `ffmpeg -ss <t> -i <movie.mp4> -frames:v 1 out.jpeg` and LOOK. Do not loosen the threshold
+   to make the warning go away; that is how a genuinely stranded still gets shipped.
+
 Known pre-existing gate failures that are NOT your regression: build-24-sower and
 build-40-the-friend-at-midnight use a deliberate from-behind Jesus; build-90-washing-feet
 fails the character gate because its twelve disciples have no individual lock text; and

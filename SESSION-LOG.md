@@ -1,3 +1,57 @@
+## 2026-07-28 (cont.) — COMPLAINTS #13 + #14: repainted 6 broken pictures and re-rendered both videos (Machine C)
+
+Cameron: "we need new stills for some of the new compliants i just made." Read them live off
+review.html via the paired browser (COMPLAINTS.md on this machine is five days stale). Nine new
+complaints; **two are picture complaints** — #13 "some of the pictures need to be redone, I hope
+you can figure out which ones" and #14 "the first half needs better pictures." The other seven
+(#1, #2 background sound; #6 the script cut what the father asked the sons; #10 still too short;
+#15, #92 old voice; #149 wrong caption at 2:06) are NOT picture-lane work and I did not touch them.
+
+**#14 — repainted s1, s2, s3, s4.** s3 was the offender and was already logged in QUEUE.md as a
+FIX-LATER ("the ten lepers look like GIANTS next to Jesus"). It was worse than the note: the ten
+were ONE man copy-pasted ten times in a single cupped-hands pose, drawn enormous across the top,
+and the group in the valley was not Jesus and the disciples at all — a stranger, a woman and a
+donkey. Restaged level between the groups, one ground plane and one horizon, both sides at the
+same human scale, ten men calling ten different ways, Jesus actually in the frame. s2 was the
+same clone row too far off to have faces; s4 was ten silhouettes on a cliff; s1 opened the entire
+story on the back of everyone's heads **because its prompt still carried the DEAD face-never
+rule** — repainted face-shown per Face Law v3.
+
+**#13 — repainted s1-carried and s5-their-faith,** the two that are objectively broken.
+s5 had **two of the four friends' heads painted UPSIDE DOWN** and more gripping hands than arms
+to attach them to; cause was the straight-up-through-the-hole camera, so it is now staged from a
+low three-quarter angle with the men above the roofline. s1 had the **paralyzed man SITTING BOLT
+UPRIGHT** — the one thing he cannot do — on a litter that floated with the carry-ropes slack in
+the men's fists and tied to nothing.
+
+**Rebuilt BOTH videos, deliberately, against KICKOFF §5.** §5 says leave rendering to the REDO
+sweep — but #13 and #14 have ALREADY had their voice REDO (e0542b134, af3914f78) and neither is
+on SPEAKER-LAW/REDO-ALL-worklist.txt, so nothing was ever coming back for them and six repaints
+would have sat stranded forever. Checked no other render was running first.
+
+**`still_in_movie.py` FALSE-ALARMED on #14 and I nearly rebuilt on it.** It reported s2 and s7
+missing — including s7, which I never touched. Extracted the actual frames: 25s is the new s2,
+109s is s7, both plainly there. It matches an HSV+greyscale signature at 0.86, and both stills
+are pale, low-contrast, mostly empty pale-stone-and-sky, while the movie burns in a caption band
+the jpeg lacks. **I did not touch the tool** — loosening a threshold to silence a warning is how
+a real stranded still ships. It needs a caption-band mask plus a full re-sweep, by whoever owns
+it. Its core claim (only pixels are evidence) is right and is what settled this.
+
+Also nearly broke the push: `git add -f build-13-roof/segs` staged a 182 MB intermediate and
+GitHub rejected it. Reset and recommitted with only the mp4; nothing lost.
+
+Five new traps into KICKOFF-MAKE-PICTURES.md (8-12): the model cannot count a group (ten men came
+back as TWELVE twice — only 4+3+3 named capped clusters worked); clone crowds and giant figures
+are one defect with one cure; a weak shot may be the model obeying a repealed law; `git add -f`
+a FILE never a directory; and confirm still_in_movie.py with a frame before rebuilding.
+
+**Still not fixed, needs Cameron's call:** build-13's paralytic wears an "undyed flax-linen
+tunic" that paints white, so s6/s9/s9b/s10 each show TWO figures in cream. Changing it in one
+shot alone would make him a different colour mid-story — it is a whole-build repaint decision.
+Also unchanged: today's 6 new #13 coverage stills are still not in build.py's BEATS.
+
+Commits: e17365938, d3919fcd5, and the #14 rebuild that follows.
+
 ## 2026-07-28 — PICTURE-MAKER: painted 45 missing coverage stills across 8 stories, and found 5 more already painted (Machine C)
 
 Cameron: "read KICKOFF-MAKE-PICTURES.md and do that job. Paint the missing pictures and keep
