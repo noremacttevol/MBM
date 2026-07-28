@@ -51,31 +51,38 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 # string handed to the TTS is respelled.
 SEGMENTS = [
     ("n0", NARRATOR, "In Jerusalem there was a man named Nicodemus. He was a Pharisee, and more than that — a ruler of the Jews, a member of the great council that governed the nation's faith. Educated. Respected. Listened to. A man like that had everything to lose by being seen with a controversial teacher from Galilee. His seat, his standing, his name."),
-    ("n1", NARRATOR, 'So he came at night.'),
-    ("n2", NARRATOR, 'He knocked on the door in the dark, and the first thing he said was this.'),
-    ("s2", SCRIPTURE, 'Rabbi, we know that thou art a teacher come from God: for no man can do these miracles that thou doest, except God be with him.'),
-    ("n2b", NARRATOR, "Bible students notice one small word there — we. Not I. We know. Nicodemus had been talking with other rulers, quietly, behind closed doors. Some of the very men who opposed Jesus in public already believed it in private. He just couldn't say it in daylight."),
+    ("n1", NARRATOR, "So he came at night."),
+    ("n2", NARRATOR, "He knocked on the door in the dark, and the first thing he said was this."),
+    # John 3:2
+    ("s2", SCRIPTURE, "Rabbi, we know that thou art a teacher come from God: for no man can do these miracles that thou doest, except God be with him."),
+    ("n2b", NARRATOR, "Teacher, we know you have come from God, because no one could do what you do unless God were with him. Bible students notice one small word there — we. Not I. We know. Nicodemus had been talking with other rulers, quietly, behind closed doors. Some of the very men who opposed Jesus in public already believed it in private. He just couldn't say it in daylight."),
     ("n3a", NARRATOR, "And Jesus didn't turn him away for coming at night. He didn't point out the fear. He skipped past the compliment entirely, and answered the real question underneath — the one Nicodemus hadn't dared to ask."),
-    ("j1", JESUS, 'Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God.'),
+    # John 3:3
+    ("j1", JESUS, "Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God."),
     ("n3b", NARRATOR, "That's where the phrase comes from — this conversation, this night. And notice who heard it first. Not a hardened sinner. The most religious man in the country. Jesus was telling him that all his learning and all his rule-keeping could not do it. Everyone has to start over. Everyone."),
-    ("n4", NARRATOR, 'Nicodemus took it literally.'),
+    ("n4", NARRATOR, "Nicodemus took it literally."),
+    # John 3:4
     ("s4", SCRIPTURE, "How can a man be born when he is old? can he enter the second time into his mother's womb, and be born?"),
-    ("n4b", NARRATOR, "Here was a master of the scriptures, completely lost. And Jesus didn't laugh at him. He didn't shame him for not getting it. He reached for something Nicodemus could feel — the night wind moving outside the window."),
-    ("j2", JESUS, 'The wind bloweth where it listeth, and thou hearest the sound thereof, but canst not tell whence it cometh, and whither it goeth: so is every one that is born of the Spirit.'),
+    ("n4b", NARRATOR, "How can a man be born when he is old, he asked — can he go back a second time and start over? Here was a master of the scriptures, completely lost. And Jesus didn't laugh at him. He didn't shame him for not getting it. He reached for something Nicodemus could feel — the night wind moving outside the window."),
+    # John 3:8
+    ("j2", JESUS, "The wind bloweth where it listeth, and thou hearest the sound thereof, but canst not tell whence it cometh, and whither it goeth: so is every one that is born of the Spirit."),
     ("n5", NARRATOR, "You can't see the wind. You only see what it moves — the trees bending, the flame leaning. That, Jesus said, is how God changes a person. You may not be able to explain it. But you can watch a life bend."),
-    ("n6", NARRATOR, 'And something in Nicodemus gave way. Three words at a time, the formal questions of a scholar were falling away — until what was left was just a man in the lamplight, asking the only thing he had really come to ask.'),
-    ("s9", SCRIPTURE, 'How can these things be?'),
-    ("n6b", NARRATOR, 'No title on it. No argument behind it. Just a tired, honest man finally asking what he actually wanted to know.'),
-    ("n7a", NARRATOR, 'And then Jesus said the words. The ones the whole world would come to know.'),
-    ("j3", JESUS, 'For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life. For God sent not his Son into the world to condemn the world; but that the world through him might be saved.'),
+    ("n6", NARRATOR, "And something in Nicodemus gave way. Three words at a time, the formal questions of a scholar were falling away — until what was left was just a man in the lamplight, asking the only thing he had really come to ask."),
+    # John 3:9
+    ("s9", SCRIPTURE, "How can these things be?"),
+    ("n6b", NARRATOR, "How can these things be. No title on it. No argument behind it. Just a tired, honest man finally asking what he actually wanted to know."),
+    ("n7a", NARRATOR, "And then Jesus said the words. The ones the whole world would come to know."),
+    # John 3:16-17
+    ("j3", JESUS, "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life. For God sent not his Son into the world to condemn the world; but that the world through him might be saved."),
     ("n7b", NARRATOR, "Those words weren't preached to a stadium. They were said quietly, at night, to one scared man who came with questions."),
     ("n8", NARRATOR, "Then Jesus spoke about light and darkness — how people hide in the dark when they're afraid of what the light will show, but whoever lives by the truth steps into the light gladly. Think about who he was saying that to. A man who had crept to his door under cover of darkness. It wasn't a jab. It was an invitation: you won't always have to come at night."),
     ("n9", NARRATOR, "Here's a detail worth keeping. Every time John's gospel mentions Nicodemus again, it adds the same tag — the one who came to Jesus by night. John wants you to remember how he started. Because he wants you to watch what happened to him."),
-    ("n10", NARRATOR, 'Months later, the council met in broad daylight, furious, ready to condemn Jesus without a hearing. And one voice rose to stop them. Nicodemus.'),
-    ("s51", SCRIPTURE, 'Doth our law judge any man, before it hear him, and know what he doeth?'),
-    ("n10b", NARRATOR, "It sounds mild. It wasn't. He was defending Jesus to the most powerful men in the nation — the very room he had everything to lose in. They turned on him for it. The man who once came at night was starting to speak in the light."),
+    ("n10", NARRATOR, "Months later, the council met in broad daylight, furious, ready to condemn Jesus without a hearing. And one voice rose to stop them. Nicodemus."),
+    # John 7:51
+    ("s51", SCRIPTURE, "Doth our law judge any man, before it hear him, and know what he doeth?"),
+    ("n10b", NARRATOR, "Does our law judge a man, he asked, before it hears him? It sounds mild. It wasn't. He was defending Jesus to the most powerful men in the nation — the very room he had everything to lose in. They turned on him for it. The man who once came at night was starting to speak in the light."),
     ("n11", NARRATOR, "And then came the darkest day. Jesus was dead. His own apostles were hiding behind locked doors. And Nicodemus came — openly, in the daylight, when believing could no longer gain anyone anything — carrying a hundred pounds of myrrh and aloes for the burial. A hundred pounds. That was a quantity fit for royalty. The man who had crept to Jesus in the dark gave him a king's burial in the open."),
-    ("n12", NARRATOR, 'Jesus never shamed the fear, and never shamed the night. He just answered the real question underneath — and let the courage grow on its own. Have you ever felt drawn toward something, and been afraid to let anyone else see it?'),
+    ("n12", NARRATOR, "Jesus never shamed the fear, and never shamed the night. He just answered the real question underneath — and let the courage grow on its own. Have you ever felt drawn toward something, and been afraid to let anyone else see it?"),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
