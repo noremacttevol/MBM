@@ -52,7 +52,7 @@ ST6 = "s6-reach-hither.jpeg"
 ST7 = "s7-my-lord-and-my-god.jpeg"
 ST8 = "s8-the-open-hand.jpeg"
 
-TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
+TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
 KJV = {"j1", "j2"}
 
 # MEMBER shelf: one-line Gospel Library pointer under the closing invitation.
