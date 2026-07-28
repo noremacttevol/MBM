@@ -1435,8 +1435,8 @@
   "current_still": "S1",
   "reason": "1 beats now sit on this still (36.9s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s1b-half-the-country-on-the-road",
+  "done": true
  },
  {
   "build": "build-167-chosen-ordained",
@@ -2014,8 +2014,8 @@
   "current_still": "S3",
   "reason": "1 beats now sit on this still (34.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s3b-son-of-david",
+  "done": true
  },
  {
   "build": "build-121-salt-and-light",
@@ -2549,8 +2549,8 @@
   "current_still": "S8",
   "reason": "1 beats now sit on this still (32.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s8b-the-cloak-in-the-dust",
+  "done": true
  },
  {
   "build": "build-15-centurion",
@@ -3320,8 +3320,8 @@
   "current_still": "S11",
   "reason": "1 beats now sit on this still (30.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s11b-his-own-two-hands",
+  "done": true
  },
  {
   "build": "build-155-falling-away",
@@ -3625,8 +3625,8 @@
   "current_still": "S6",
   "reason": "1 beats now sit on this still (29.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s6b-the-climb-up-to-jerusalem",
+  "done": true
  },
  {
   "build": "build-70-temptations",
@@ -3719,8 +3719,8 @@
   "current_still": "S2",
   "reason": "1 beats now sit on this still (29.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s2b-a-moving-wall-of-voices",
+  "done": true
  },
  {
   "build": "build-39-the-pharisee-and-the-publican",
@@ -4213,8 +4213,8 @@
   "current_still": "S10B",
   "reason": "2 beats now sit on this still (28.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s10c-daylight-on-the-road-ahead",
+  "done": true
  },
  {
   "build": "build-10-well",
@@ -5934,7 +5934,9 @@
   "reason": "1 beats now sit on this still (24.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s4",
+  "note": "s4 IS n3 — the knot of respectable travelers bending over him telling him to be quiet. 24.1s on the exactly-right picture, medium."
  },
  {
   "build": "build-13-roof",
@@ -6664,7 +6666,9 @@
   "reason": "1 beats now sit on this still (22.9s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s10a",
+  "note": "s10a IS n9 — the intimate close-up of his upturned clouded eyes as he answers. 22.9s, medium."
  },
  {
   "build": "build-40-the-friend-at-midnight",
@@ -9792,7 +9796,9 @@
   "reason": "2 beats now sit on this still (18.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s9",
+  "note": "s9 IS Mark 10:51, the over-the-shoulder of the question being asked. 18.7s, medium — the shortest hold in the build."
  },
  {
   "build": "build-130-what-manner-of-spirit",
