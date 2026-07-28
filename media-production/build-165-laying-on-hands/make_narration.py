@@ -37,22 +37,18 @@ from mbm_speakers import NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n1", NARRATOR, "A wave of faith had swept through Samaria. Whole crowds had heard the good news, believed it with glad hearts, and been baptized in water. Something real and joyful was happening among them."),
-    ("n2", NARRATOR, "Word of it reached the apostles back in Jerusalem. And notice their response: they did not simply send a letter of congratulations. They sent two of their own number, Peter and John, to go down in person."),
-    # Acts 8:14
-    ("kv14", SCRIPTURE, "Now when the apostles which were at Jerusalem heard that Samaria had received the word of God, they sent unto them Peter and John:"),
-    # Acts 8:15
-    ("s15", SCRIPTURE, "Who, when they were come down, prayed for them, that they might receive the Holy Ghost:"),
-    ("n3", NARRATOR, "And here is the surprising part: even though these people already believed, and had already been baptized, the gift had not yet come to a single one of them."),
-    # Acts 8:16
-    ("s16", SCRIPTURE, "For as yet he was fallen upon none of them: only they were baptized in the name of the Lord Jesus."),
-    ("n4", NARRATOR, "So the water alone had not been enough. Their faith was sincere and their baptism was real, yet the promised gift of the Spirit still waited on something more — on the hands of those God had given authority."),
-    ("n5", NARRATOR, "Then Peter and John did the simple, deliberate thing Luke records so plainly. They laid their hands on each believer. And in that moment, under that authority, the gift finally came."),
-    # Acts 8:17
-    ("kv17", SCRIPTURE, "Then laid they their hands on them, and they received the Holy Ghost."),
-    ("n6", NARRATOR, "Here is the quiet study gem. The gift of the Holy Ghost did not arrive by sincerity alone, or by baptism alone. It travelled by authority — conferred through the laying on of hands by those God had sent. Order and gift belong together."),
-    ("n7", NARRATOR, "And that same gift is still offered to you, by that same pattern. Faith and baptism open the door, and then, by the hands of those with authority, the Comforter is given to be with you. When that gift is offered to you, will you receive it?"),
-    ("card", NARRATOR, "Samaria believed and was baptized, but the Holy Ghost came only when the apostles laid their hands on them. The gift travels by authority. When that gift is offered to you, will you receive it?"),
+    ("n1", NARRATOR, 'A wave of faith had swept through Samaria. Whole crowds had heard the good news, believed it with glad hearts, and been baptized in water. Something real and joyful was happening among them.'),
+    ("n2", NARRATOR, 'And notice their response: they did not simply send a letter of congratulations. They sent two of their own number, Peter and John, to go down in person.'),
+    ("kv14", SCRIPTURE, 'Now when the apostles which were at Jerusalem heard that Samaria had received the word of God, they sent unto them Peter and John:'),
+    ("s15", SCRIPTURE, 'Who, when they were come down, prayed for them, that they might receive the Holy Ghost:'),
+    ("n3", NARRATOR, 'And here is the surprising part: even though these people already believed, and had already been baptized, the gift had not yet come to a single one of them.'),
+    ("s16", SCRIPTURE, 'For as yet he was fallen upon none of them: only they were baptized in the name of the Lord Jesus.'),
+    ("n4", NARRATOR, 'So the water alone had not been enough. Their faith was sincere and their baptism was real, yet the promised gift of the Spirit still waited on something more — on the hands of those God had given authority.'),
+    ("n5", NARRATOR, 'Then Peter and John did the simple, deliberate thing Luke records so plainly. They laid their hands on each believer. And in that moment, under that authority, the gift finally came.'),
+    ("kv17", SCRIPTURE, 'Then laid they their hands on them, and they received the Holy Ghost.'),
+    ("n6", NARRATOR, 'Here is the quiet study gem. The gift of the Holy Ghost did not arrive by sincerity alone, or by baptism alone. It travelled by authority — conferred through the laying on of hands by those God had sent. Order and gift belong together.'),
+    ("n7", NARRATOR, 'And that same gift is still offered to you, by that same pattern. Faith and baptism open the door, and then, by the hands of those with authority, the Comforter is given to be with you. When that gift is offered to you, will you receive it?'),
+    ("card", NARRATOR, 'Samaria believed and was baptized, but the Holy Ghost came only when the apostles laid their hands on them. The gift travels by authority. When that gift is offered to you, will you receive it?'),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
