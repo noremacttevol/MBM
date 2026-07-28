@@ -263,8 +263,8 @@
   "current_still": "S8",
   "reason": "4 beats now sit on this still (51.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s8b-the-grip + s8c-the-question",
+  "done": true
  },
  {
   "build": "build-148-ruth-and-the-redeemer",
@@ -504,8 +504,8 @@
   "current_still": "S4",
   "reason": "3 beats now sit on this still (46.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s4b-bid-me-come",
+  "done": true
  },
  {
   "build": "build-03-zacchaeus",
@@ -4589,8 +4589,8 @@
   "current_still": "S11",
   "reason": "1 beats now sit on this still (27.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s11b-soaked-and-shaking",
+  "done": true
  },
  {
   "build": "build-128-famine-of-hearing",
@@ -4683,8 +4683,8 @@
   "current_still": "S3",
   "reason": "2 beats now sit on this still (27.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s3b-it-is-i",
+  "done": true
  },
  {
   "build": "build-09-rich-ruler",
@@ -5001,8 +5001,8 @@
   "current_still": "S1",
   "reason": "1 beats now sit on this still (26.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s1b-the-crowds-went-home",
+  "done": true
  },
  {
   "build": "build-32-talents",
@@ -5560,8 +5560,8 @@
   "current_still": "S2",
   "reason": "1 beats now sit on this still (25.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s2b-the-fourth-watch",
+  "done": true
  },
  {
   "build": "build-152-revealeth-his-secret",
@@ -8641,7 +8641,9 @@
   "reason": "1 beats now sit on this still (20.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s6-fix",
+  "note": "s6-fix IS n5 — Peter looking DOWN at the waves instead of ahead, fear breaking across his face. 20.0s, medium."
  },
  {
   "build": "build-115-ram-in-the-thicket",
@@ -11689,7 +11691,9 @@
   "reason": "1 beats now sit on this still (17.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s9-fix",
+  "note": "s9-fix IS n9 — the two of them walking back across the water to the boat together. 17.1s, medium."
  },
  {
   "build": "build-107-john-baptist-doubt",
