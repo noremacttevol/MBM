@@ -65,25 +65,21 @@ from mbm_speakers import JESUS, NARRATOR
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    # Matthew 25:14
-    ("j14", JESUS, "For the kingdom of heaven is as a man travelling into a far country, who called his own servants, and delivered unto them his goods."),
-    ("n1", NARRATOR, "Jesus told a story about a wealthy man who, before a long journey, entrusted his servants with his own fortune. To one he gave five bags of silver, to another two, and to another one, each according to what he could handle."),
-    ("n2", NARRATOR, "It was a staggering amount of trust. He handed his wealth to his servants and left them free to use it."),
-    ("n3", NARRATOR, "The servant with five bags went straight to work, trading and investing, and doubled everything he had been given."),
-    ("n4", NARRATOR, "The servant with two bags did the same, and doubled his as well. Neither one played it safe. They took what they were trusted with and made it grow."),
-    ("n5", NARRATOR, "But the servant with one bag was afraid. So he dug a hole in the ground, buried the silver, and did nothing with it at all."),
-    ("n6", NARRATOR, "When the master came home, the first two servants showed him what they had made. And he was overjoyed."),
-    # Matthew 25:21
-    ("j1", JESUS, "Well done, thou good and faithful servant: thou hast been faithful over a few things, I will make thee ruler over many things: enter thou into the joy of thy lord."),
-    ("n7", NARRATOR, "Enter into the joy of your master. He did not just reward them, he shared his own joy with them, and welcomed them deeper in."),
-    ("n8", NARRATOR, "Then the last servant came, dug up his one buried bag, and handed it back untouched. And listen to why he had buried it."),
-    # Matthew 25:24
-    ("j24", JESUS, "Lord, I knew thee that thou art an hard man, reaping where thou hast not sown, and strawing where thou hast not strawed:"),
-    # Matthew 25:25
-    ("j2", JESUS, "And I was afraid, and went and hid thy talent in the earth: lo, there thou hast that is thine."),
-    ("n9", NARRATOR, "There it is. He buried the gift because he believed his master was harsh and cruel. He was wrong about him. His fear was built on a lie about who his master really was, and that lie cost him everything."),
-    ("n10", NARRATOR, "That is the real tragedy of the story. Not that he had little, but that he so badly misjudged the heart of the one who trusted him. God is not the hard man that servant imagined. He trusts you with something real, and he is longing to say to you, well done, and to share his joy."),
-    ("card", NARRATOR, "What has God trusted you with that fear has kept you from using? What if he is kinder than you think?"),
+    ("j14", JESUS, 'For the kingdom of heaven is as a man travelling into a far country, who called his own servants, and delivered unto them his goods.'),
+    ("n1", NARRATOR, 'Jesus told a story about a wealthy man who, before a long journey, entrusted his servants with his own fortune. To one he gave five bags of silver, to another two, and to another one, each according to what he could handle.'),
+    ("n2", NARRATOR, 'It was a staggering amount of trust. He handed his wealth to his servants and left them free to use it.'),
+    ("n3", NARRATOR, 'The servant with five bags went straight to work, trading and investing, and doubled everything he had been given.'),
+    ("n4", NARRATOR, 'The servant with two bags did the same, and doubled his as well. Neither one played it safe. They took what they were trusted with and made it grow.'),
+    ("n5", NARRATOR, 'But the servant with one bag was afraid. So he dug a hole in the ground, buried the silver, and did nothing with it at all.'),
+    ("n6", NARRATOR, 'When the master came home, the first two servants showed him what they had made. And he was overjoyed.'),
+    ("j1", JESUS, 'Well done, thou good and faithful servant: thou hast been faithful over a few things, I will make thee ruler over many things: enter thou into the joy of thy lord.'),
+    ("n7", NARRATOR, 'He did not just reward them, he shared his own joy with them, and welcomed them deeper in.'),
+    ("n8", NARRATOR, 'Then the last servant came, dug up his one buried bag, and handed it back untouched. And listen to why he had buried it.'),
+    ("j24", JESUS, 'Lord, I knew thee that thou art an hard man, reaping where thou hast not sown, and strawing where thou hast not strawed:'),
+    ("j2", JESUS, 'And I was afraid, and went and hid thy talent in the earth: lo, there thou hast that is thine.'),
+    ("n9", NARRATOR, 'There it is. He buried the gift because he believed his master was harsh and cruel. He was wrong about him. His fear was built on a lie about who his master really was, and that lie cost him everything.'),
+    ("n10", NARRATOR, 'That is the real tragedy of the story. Not that he had little, but that he so badly misjudged the heart of the one who trusted him. God is not the hard man that servant imagined. He trusts you with something real, and he is longing to say to you, well done, and to share his joy.'),
+    ("card", NARRATOR, 'What has God trusted you with that fear has kept you from using? What if he is kinder than you think?'),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
