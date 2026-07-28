@@ -1197,8 +1197,8 @@
   "current_still": "S12",
   "reason": "2 beats now sit on this still (38.8s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s12b-the-savourless-powder",
+  "done": true
  },
  {
   "build": "build-150-shepherd-psalm",
@@ -3028,8 +3028,8 @@
   "current_still": "S8",
   "reason": "2 beats now sit on this still (31.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s8b-ten-thousand-against-twenty-thousand",
+  "done": true
  },
  {
   "build": "build-68-multitudes-mountain",
@@ -3679,8 +3679,8 @@
   "current_still": "S10",
   "reason": "2 beats now sit on this still (29.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s10b-nothing-held-back",
+  "done": true
  },
  {
   "build": "build-68-multitudes-mountain",
@@ -3753,8 +3753,8 @@
   "current_still": "S9",
   "reason": "2 beats now sit on this still (29.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s9b-open-ground-between-them",
+  "done": true
  },
  {
   "build": "build-62-ephphatha",
@@ -4113,7 +4113,9 @@
   "reason": "1 beats now sit on this still (28.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s4-the-hand-on-the-sleeve",
+  "note": "n3 explains that 'hate' meant loved-less — 'he is asking for first place'. s4-the-hand-on-the-sleeve IS that picture (the mother's hand letting go of her son) and is already painted; a second one would repeat it."
  },
  {
   "build": "build-60-gerasene-demoniac",
@@ -5027,8 +5029,8 @@
   "current_still": "S5",
   "reason": "2 beats now sit on this still (26.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s5b-everybody-walked-past",
+  "done": true
  },
  {
   "build": "build-166-baptized-properly",
@@ -5103,8 +5105,8 @@
   "current_still": "S13",
   "reason": "2 beats now sit on this still (26.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s13b-he-would-not-let-them-sign-first",
+  "done": true
  },
  {
   "build": "build-09-rich-ruler",
@@ -5141,7 +5143,9 @@
   "reason": "2 beats now sit on this still (26.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S2 now carries three beats: Luke's verbatim 'he turned, and said unto them,' its retelling, and the hardest sentence in the passage. Frame the turn itself -- Jesus stopped mid-road with his body already come around to face the crowd behind him, the road ahead of him empty over his shoulder. A man who has just decided to say something that will cost him half his following.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s3-the-crowd-goes-quiet",
+  "note": "Luke 14:26 landing on the crowd is already its own painted still, s3-the-crowd-goes-quiet, right next to it."
  },
  {
   "build": "build-04-nicodemus",
@@ -5506,7 +5510,9 @@
   "reason": "2 beats now sit on this still (25.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s14-the-finished-tower",
+  "note": "n6 is 'a watchtower in a vineyard guarded the harvest' — s14-the-finished-tower already paints exactly that and is only used once, at n14."
  },
  {
   "build": "build-39-the-pharisee-and-the-publican",
