@@ -16,8 +16,8 @@ touching anything else. Do NOT edit by hand.
 | 7 | newer cut shipped — VERIFY fixed | 1:03 audio problem.  He speaks way to fast. |
 | 10 | newer cut shipped — VERIFY fixed | Still to short |
 | 12 | newer cut shipped — VERIFY fixed | Captions are off at 1 minute |
-| 13 | newer cut shipped — VERIFY fixed | I thought the picture at 1:30 mayched the priginal character that carried him in and broke through the roof but it doesnt they all look different and this will trow the story off. Fix it picutre fixmatch the characters in this story. My main concern is how much you shortened this story. The original story was 5 minutes long and all good stuff. Showing how good Jesus Christ was and you took it away, you cut the video in half and that ruined it redo it just like the original one with the same new voice and all of the pictures made better and give me 100% effort or tell me you can't and just f*** off.  Sto.\nP lying to me and tell me telling me that you fixed my videos like I asked you too and realistically you just f***** them up |
-| 14 | newer cut shipped — VERIFY fixed | Why does Jesus always talk so fast the voice just ignores the commas this is a big problme across all videos and needs to be fixed now. The voice for Jesus needs to listen to the commas and slow down on every one |
+| 13 | newer cut shipped — VERIFY fixed | Some of the pictures need to be redone. I hope you can figure out which ones if not i will get.you to design a bot or find a better ai |
+| 14 | newer cut shipped — VERIFY fixed | The first half needs better pictures |
 | 15 | newer cut shipped — VERIFY fixed | Old voice still this isn't the newest one i picked |
 | 16 | newer cut shipped — VERIFY fixed | That's not how you pronounce wound |
 | 17 | newer cut shipped — VERIFY fixed | At 23 seconds it shows the wrong captions from.the older version for a split second before going to the new edit where it has the pink captions |
