@@ -402,8 +402,8 @@
   "current_still": "S4",
   "reason": "2 beats now sit on this still (48.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s4b-give-to-the-poor",
+  "done": true
  },
  {
   "build": "build-04-nicodemus",
@@ -1259,8 +1259,8 @@
   "current_still": "S2",
   "reason": "1 beats now sit on this still (37.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s2b-the-question-he-had-carried",
+  "done": true
  },
  {
   "build": "build-24-sower",
@@ -4441,8 +4441,8 @@
   "current_still": "S1",
   "reason": "1 beats now sit on this still (27.6s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s1b-men-like-that-did-not-run",
+  "done": true
  },
  {
   "build": "build-115-ram-in-the-thicket",
@@ -4704,7 +4704,9 @@
   "reason": "1 beats now sit on this still (27.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s3-the-look",
+  "note": "s3-the-look IS n2 — 'Jesus, looking at him, loved him', the five words the whole build is staged around. 27.1s on exactly the right picture."
  },
  {
   "build": "build-120-job-from-whirlwind",
@@ -5136,7 +5138,9 @@
   "reason": "1 beats now sit on this still (26.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s5-words-land",
+  "note": "s5-words-land IS n4 — his face falling. 26.2s, and s6-walk-away already follows it at n4b."
  },
  {
   "build": "build-41-counting-the-cost",
@@ -9132,7 +9136,9 @@
   "reason": "1 beats now sit on this still (19.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s8-empty-road",
+  "note": "s8-empty-road IS n6 — the road empty, the sun down, the story just ending there. 19.5s, medium."
  },
  {
   "build": "build-169-fulfil-righteousness",
