@@ -15,11 +15,11 @@ touching anything else. Do NOT edit by hand.
 | 6 | newer cut shipped — VERIFY fixed | The "row" at 35 seconds it pronounced wrong. Its a row of grape vine like wrowe. But im upset that this entore video got shortened so much. We need to rework the whole thing. |
 | 7 | newer cut shipped — VERIFY fixed | 1:03 audio problem.  He speaks way to fast. |
 | 9 | newer cut shipped — VERIFY fixed | Mispronounced jesus again at 21 seconds |
-| 10 | newer cut shipped — VERIFY fixed | This was a 5 minute long story before and you shortened it way too much |
+| 10 | newer cut shipped — VERIFY fixed | Still to short |
 | 12 | newer cut shipped — VERIFY fixed | Captions are off at 1 minute |
 | 13 | newer cut shipped — VERIFY fixed | I thought the picture at 1:30 mayched the priginal character that carried him in and broke through the roof but it doesnt they all look different and this will trow the story off. Fix it picutre fixmatch the characters in this story. My main concern is how much you shortened this story. The original story was 5 minutes long and all good stuff. Showing how good Jesus Christ was and you took it away, you cut the video in half and that ruined it redo it just like the original one with the same new voice and all of the pictures made better and give me 100% effort or tell me you can't and just f*** off.  Sto.\nP lying to me and tell me telling me that you fixed my videos like I asked you too and realistically you just f***** them up |
 | 14 | newer cut shipped — VERIFY fixed | Why does Jesus always talk so fast the voice just ignores the commas this is a big problme across all videos and needs to be fixed now. The voice for Jesus needs to listen to the commas and slow down on every one |
-| 15 | newer cut shipped — VERIFY fixed | We need to change vouchers for Jesus it doesn't sound like how he would talk.  It's sounds demeaning |
+| 15 | newer cut shipped — VERIFY fixed | Old voice still this isn't the newest one i picked |
 | 16 | newer cut shipped — VERIFY fixed | That's not how you pronounce wound |
 | 17 | newer cut shipped — VERIFY fixed | At 23 seconds it shows the wrong captions from.the older version for a split second before going to the new edit where it has the pink captions |
 | 18 | UNFIXED | Not real new voice |
@@ -62,6 +62,7 @@ touching anything else. Do NOT edit by hand.
 | 135 | newer cut shipped — VERIFY fixed | 1st picture has 3 girls and 5 boys that needs to change |
 | 140 | newer cut shipped — VERIFY fixed | What the f*** is this? Did we just run out of stories that were good about Jesus to tell? And now you are using somebody else's gospel to redo the same exact story we told earlier of the prodigal son that story, the prodigal son should have been summarized from this as well. You shouldn't use 2 different people telling the same story about Jesus.  As reasons to have the same story told twice, this is retarded.This is, I just can't.I can't believe you did this, and I like, did we seriously run out of Jesus stories like they're not that many, if there aren't 200, then we need to find some other way to get into things that would would be good for people to digest.But this is not good |
 | 146 | newer cut shipped — VERIFY fixed | Abideth is pronounced wrong |
+| 149 | UNFIXED | Wrong caption at 2:06 |
 | 150 | newer cut shipped — VERIFY fixed | Bad old , english and captions in white that are scripture |
 | 153 | newer cut shipped — VERIFY fixed | 1:12 is weird picture |
 | 157 | newer cut shipped — VERIFY fixed | 42 weird giant picture |
