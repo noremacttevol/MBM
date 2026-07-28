@@ -95,7 +95,7 @@ build's own law says otherwise — the build's law always beats this brief.
 
 ---
 
-## 4. THE FOUR TRAPS THAT COST REAL TIME
+## 4. THE TRAPS THAT COST REAL TIME
 
 1. **The build's own lock text may be wrong.** Each build carries its own inline
    `[X LOCK] = ...` copy of a character, and those copies drift from the approved sheet.
@@ -115,9 +115,30 @@ build's own law says otherwise — the build's law always beats this brief.
    build-04-nicodemus). A plain `git add` silently drops your new jpeg. Use `git add -f`
    and verify with `git show --stat HEAD | grep <slug>`.
 
+5. **Positional counting with `(1) … (2) …` can get PAINTED INTO THE PICTURE as literal
+   labels** (2026-07-28, build-41 s13b: the model rendered "(1)" and "(2)" floating over the
+   two men's heads, which the style block forbids). Still count positionally — that is the
+   only way the model gets numbers right — but count in WORDS and places: "on the left, a
+   man in maroon … standing on the near right, a working man in brown". Reserve the
+   parenthesised digits for crowd shots where they have never leaked.
+6. **The build's own law beats this brief, and some builds forbid subject matter outright.**
+   build-41 bans "no cross, no crucifixion, no condemned man, no beam" anywhere in the video
+   and allows the opposing army only as distant dust — so the obvious picture for "the
+   condemned man carried the beam through his own town" was illegal, and the beat got Rome's
+   presence on the road instead. **Read the build's preamble before designing the shot**, not
+   after you have written it.
+7. **An art-rich build may need fewer new pictures than the JSON implies.** build-41 already
+   had 16 stills for 26 beats; three flagged beats were already painted elsewhere in the same
+   build (s3, s4, s14) and got `covered_by` instead of a duplicate.
+
 Known pre-existing gate failures that are NOT your regression: build-24-sower and
 build-40-the-friend-at-midnight use a deliberate from-behind Jesus; build-90-washing-feet
-fails the character gate because its twelve disciples have no individual lock text.
+fails the character gate because its twelve disciples have no individual lock text; and
+**build-41-counting-the-cost fails the jesus gate 10x** — all five of its Jesus shots are
+staged on the DEAD "his face is never shown" rule with no lock and no ref. Do not paint a
+face-shown Jesus into a build like that as a coverage still: one face-shown frame among five
+from-behind frames is worse than either. Paint the non-Jesus beats and flag the build for a
+repaint sweep.
 
 ---
 
