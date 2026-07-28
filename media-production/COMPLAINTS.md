@@ -65,7 +65,7 @@ touching anything else. Do NOT edit by hand.
 | 150 | newer cut shipped — VERIFY fixed | Bad old , english and captions in white that are scripture |
 | 153 | newer cut shipped — VERIFY fixed | 1:12 is weird picture |
 | 157 | newer cut shipped — VERIFY fixed | 42 weird giant picture |
-| 161 | UNFIXED | At 1:30 aaron went grey and the anointing oil was poured over his hat and that is all wrong this picture needs to be redone |
+| 161 | newer cut shipped — VERIFY fixed | At 1:30 aaron went grey and the anointing oil was poured over his hat and that is all wrong this picture needs to be redone |
 | 171 | UNFIXED | First picture is weird there are no scripture that roll like that on 2 edges |
 | 173 | newer cut shipped — VERIFY fixed | Mispronounced live at the end |
 | 177 | UNFIXED | Not real new voice |
