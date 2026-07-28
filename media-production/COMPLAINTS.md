@@ -10,7 +10,7 @@ touching anything else. Do NOT edit by hand.
 
 | # | Status | What Cameron said |
 |---|---|---|
-| 1 | newer cut shipped — VERIFY fixed | Still echoing what she said about touching his clothes |
+| 1 | newer cut shipped — VERIFY fixed | Back ground sound problem again when Jesus was talking. |
 | 4 | newer cut shipped — VERIFY fixed | Captions are messed up at 38 - 46 seconds |
 | 6 | newer cut shipped — VERIFY fixed | The "row" at 35 seconds it pronounced wrong. Its a row of grape vine like wrowe. But im upset that this entore video got shortened so much. We need to rework the whole thing. |
 | 7 | newer cut shipped — VERIFY fixed | 1:03 audio problem.  He speaks way to fast. |
@@ -49,7 +49,7 @@ touching anything else. Do NOT edit by hand.
 | 86 | newer cut shipped — VERIFY fixed | 13 extra seconds on the end of this video too those can be cut off as soon as the voice in the video stops talking. make sure its not before it cut 11 seconds off jut to be careful if you cant be sure |
 | 90 | newer cut shipped — VERIFY fixed | Why does every disciple look the fucking same. |
 | 91 | newer cut shipped — VERIFY fixed | The pictures of the disciples did not stay the same. One grew a beard with in seconds |
-| 92 | newer cut shipped — VERIFY fixed | Peter went from grey to not grey hair. |
+| 92 | newer cut shipped — VERIFY fixed | Old voice still |
 | 99 | UNFIXED | Old audio needs updating and i belive the thomas character is off |
 | 102 | newer cut shipped — VERIFY fixed | Jacob doesnt have a beard and then does. We need to make a qc just for beards dissapeaering or appearing it throws people off the story |
 | 103 | newer cut shipped — VERIFY fixed | This is where peter got his name but it called him simon before and the pictures are all bad they keep changing and are not remade with the character ref in this |
