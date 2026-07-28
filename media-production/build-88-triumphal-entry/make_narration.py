@@ -50,24 +50,20 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0a", NARRATOR, "As Jesus came near Jerusalem, he sent two disciples ahead into the village with a strange errand."),
-    # Matthew 21:2-3
-    ("jv2", JESUS, "Go into the village over against you, and straightway ye shall find an ass tied, and a colt with her: loose them, and bring them unto me. And if any man say ought unto you, ye shall say, The Lord hath need of them; and straightway he will send them."),
+    ("n0a", NARRATOR, 'As Jesus came near Jerusalem, he sent two disciples ahead into the village with a strange errand.'),
+    ("jv2", JESUS, 'Go into the village over against you, and straightway ye shall find an ass tied, and a colt with her: loose them, and bring them unto me. And if any man say ought unto you, ye shall say, The Lord hath need of them; and straightway he will send them.'),
     ("n0a2", NARRATOR, "Go into the village, he told them. Untie them and bring them to me. And if anyone asks why, just say the Lord needs them — and he'll let them go."),
-    ("n0b", NARRATOR, "They went, and it happened exactly as he said. And all of it was exactly as the old prophecy had said, too."),
-    # Matthew 21:5
-    ("s5", SCRIPTURE, "Tell ye the daughter of Sion, Behold, thy King cometh unto thee, meek, and sitting upon an ass, and a colt the foal of an ass."),
-    ("n1b", NARRATOR, "The King was coming — but not the kind they expected."),
-    ("n1a", NARRATOR, "The crowds spread their cloaks on the road, and cut branches from the trees, and lined his path."),
-    ("n2", NARRATOR, "And the people shouted as he rode in:"),
-    # Matthew 21:9
-    ("j1", SCRIPTURE, "Hosanna to the son of David: Blessed is he that cometh in the name of the Lord; Hosanna in the highest."),
-    ("n2b", NARRATOR, "Hosanna means save us now. Save us now, Son of David — blessed is the one coming in the name of the Lord. They were calling him King out loud, in the street, where everyone could hear it."),
-    ("n3", NARRATOR, "The whole city was stirred. When they asked who this was, the crowd answered plainly."),
-    # Matthew 21:10-11
-    ("j2", SCRIPTURE, "And when he was come into Jerusalem, all the city was moved, saying, Who is this? And the multitude said, This is Jesus the prophet of Nazareth of Galilee."),
-    ("n3b", NARRATOR, "Who is this? the city asked. And the answer came back from the road — this is Jesus, the prophet, out of Nazareth in Galilee."),
-    ("n4", NARRATOR, "He came not with swords but with peace — riding on a donkey, the humble King the scriptures had promised."),
+    ("n0b", NARRATOR, 'They went, and it happened exactly as he said. And all of it was exactly as the old prophecy had said, too.'),
+    ("s5", SCRIPTURE, 'Tell ye the daughter of Sion, Behold, thy King cometh unto thee, meek, and sitting upon an ass, and a colt the foal of an ass.'),
+    ("n1b", NARRATOR, 'The King was coming — but not the kind they expected.'),
+    ("n1a", NARRATOR, 'The crowds spread their cloaks on the road, and cut branches from the trees, and lined his path.'),
+    ("n2", NARRATOR, 'And the people shouted as he rode in:'),
+    ("j1", SCRIPTURE, 'Hosanna to the son of David: Blessed is he that cometh in the name of the Lord; Hosanna in the highest.'),
+    ("n2b", NARRATOR, 'Hosanna means save us now. They were calling him King out loud, in the street, where everyone could hear it.'),
+    ("n3", NARRATOR, 'The whole city was stirred. When they asked who this was, the crowd answered plainly.'),
+    ("j2", SCRIPTURE, 'And when he was come into Jerusalem, all the city was moved, saying, Who is this? And the multitude said, This is Jesus the prophet of Nazareth of Galilee.'),
+    ("n3b", NARRATOR, 'Who is this? the city asked. And the answer came back from the road — this is Jesus, the prophet, out of Nazareth in Galilee.'),
+    ("n4", NARRATOR, 'He came not with swords but with peace — riding on a donkey, the humble King the scriptures had promised.'),
     ("card", NARRATOR, "The King rode in on a donkey, not a warhorse. His kingdom is peace. You're welcome in it."),
 ]
 
