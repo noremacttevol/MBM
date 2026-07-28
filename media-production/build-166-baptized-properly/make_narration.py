@@ -42,22 +42,18 @@ from mbm_speakers import NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n1", NARRATOR, "Paul came through the inland country and arrived at Ephesus, where he found a small group of disciples. They were sincere. They already believed. By every outward sign they looked like people who were fully in."),
-    # Acts 19:2
-    ("s2", SCRIPTURE, "He said unto them, Have ye received the Holy Ghost since ye believed? And they said unto him, We have not so much as heard whether there be any Holy Ghost."),
-    ("n2", NARRATOR, "But Paul asked them a searching question: had they received the Holy Ghost since they believed? And their answer was startling. They had not so much as heard that there was a Holy Ghost to receive."),
-    # Acts 19:4
-    ("s4", SCRIPTURE, "Then said Paul, John verily baptized with the baptism of repentance, saying unto the people, that they should believe on him which should come after him, that is, on Christ Jesus."),
-    ("n3", NARRATOR, "So Paul asked what baptism they had been given. They had known only the baptism of John — a real and honest baptism of repentance, but a preparation, meant to point people forward to the one who was still to come."),
-    ("n4", NARRATOR, "Here is the tender thing: these were good, believing people, and yet something was genuinely missing. Their baptism had prepared them, but it had not been the full ordinance done under the authority now given. So Paul set it right."),
-    # Acts 19:5
-    ("kv5", SCRIPTURE, "When they heard this, they were baptized in the name of the Lord Jesus."),
-    ("n5", NARRATOR, "And baptism was not the final step. There was one thing more, the same step we have seen before: the laying on of hands by one who held the authority to give the gift."),
-    # Acts 19:6
-    ("kv6", SCRIPTURE, "And when Paul had laid his hands upon them, the Holy Ghost came on them; and they spake with tongues, and prophesied."),
-    ("n6", NARRATOR, "Here is the quiet study gem. Their sincerity was never in doubt, and it was never enough on its own. The ordinance still had to be done right, by one who was sent. Sincerity did not replace authority — it was completed by it."),
-    ("n7", NARRATOR, "And the same careful pattern is offered to you: not a vague good feeling, but a real baptism by proper authority, and then the gift of the Spirit by the laying on of hands. When that pattern is offered to you, will you follow it in?"),
-    ("card", NARRATOR, "Sincere disciples at Ephesus were baptized again, properly, and received the Holy Ghost when Paul laid his hands on them. Sincerity did not replace authority. When that pattern is offered to you, will you follow it in?"),
+    ("n1", NARRATOR, 'Paul came through the inland country and arrived at Ephesus, where he found a small group of disciples. They were sincere. They already believed. By every outward sign they looked like people who were fully in.'),
+    ("s2", SCRIPTURE, 'He said unto them, Have ye received the Holy Ghost since ye believed? And they said unto him, We have not so much as heard whether there be any Holy Ghost.'),
+    ("n2", NARRATOR, 'But Paul asked them a searching question: And their answer was startling.'),
+    ("s4", SCRIPTURE, 'Then said Paul, John verily baptized with the baptism of repentance, saying unto the people, that they should believe on him which should come after him, that is, on Christ Jesus.'),
+    ("n3", NARRATOR, 'So Paul asked what baptism they had been given. They had known only the baptism of John — a real and honest baptism of repentance, but a preparation, meant to point people forward to the one who was still to come.'),
+    ("n4", NARRATOR, 'Here is the tender thing: these were good, believing people, and yet something was genuinely missing. Their baptism had prepared them, but it had not been the full ordinance done under the authority now given. So Paul set it right.'),
+    ("kv5", SCRIPTURE, 'When they heard this, they were baptized in the name of the Lord Jesus.'),
+    ("n5", NARRATOR, 'And baptism was not the final step. There was one thing more, the same step we have seen before: the laying on of hands by one who held the authority to give the gift.'),
+    ("kv6", SCRIPTURE, 'And when Paul had laid his hands upon them, the Holy Ghost came on them; and they spake with tongues, and prophesied.'),
+    ("n6", NARRATOR, 'Here is the quiet study gem. Their sincerity was never in doubt, and it was never enough on its own. The ordinance still had to be done right, by one who was sent. Sincerity did not replace authority — it was completed by it.'),
+    ("n7", NARRATOR, 'And the same careful pattern is offered to you: not a vague good feeling, but a real baptism by proper authority, and then the gift of the Spirit by the laying on of hands. When that pattern is offered to you, will you follow it in?'),
+    ("card", NARRATOR, 'Sincere disciples at Ephesus were baptized again, properly, and received the Holy Ghost when Paul laid his hands on them. Sincerity did not replace authority. When that pattern is offered to you, will you follow it in?'),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

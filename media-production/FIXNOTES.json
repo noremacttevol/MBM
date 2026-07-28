@@ -2165,6 +2165,10 @@
   {
    "date": "2026-07-21",
    "note": "narration re-recorded; build script updated"
+  },
+  {
+   "date": "2026-07-28",
+   "note": "Fixed \"sincerity\" \u2014 it was being read \"sen-SAR-ity\" in two places (the study-gem line and the closing question). Now reads sin-SERR-ity in both. Captions unchanged. \u2014 narration re-recorded; build script updated"
   }
  ],
  "171": [
