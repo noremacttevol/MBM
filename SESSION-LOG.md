@@ -1,3 +1,57 @@
+## 2026-07-28 — STILL-QC: found the ROOT CAUSE of the "same face / grey Peter / vanishing beard" complaints (Machine C)
+
+Cameron ("you know what i want right?") — picture complaints, plain-language session.
+Read the 67 open complaints live off review.html via the paired browser; 25 are picture
+ones, and they say three things over and over: clone disciples (#90/#91/#103/#107),
+beards + hair changing between shots (#102/#62/#32/#92), and somebody drawn as a giant
+(#69/#112/#157/#56).
+
+**The root cause, and it was not the image model.** Every build's PROMPTS.md carries its
+OWN inline `[X LOCK] = ...` copy of a character's description, and those copies drifted
+away from the approved sheet in `CHARACTERS/REFS.json`. build-90 contained BOTH at once —
+its DISCIPLES LOCK said "PETER ~35 ... blue-grey" while its PETER LOCK said "of about
+fifty ... streaked with grey ... rust-brown" — and the picture obeyed the wrong one. The
+art was correctly following bad instructions.
+
+- **NEW `media-production/character_drift_qc.py`** — the beard QC Cameron asked for in
+  #102, generalised: compares every inline lock against the approved sheet and fails on a
+  contradiction in AGE / GREY-HAIR / BEARD / GARMENT colour. Swept 203 builds → 4 real
+  contradictions (Peter, in build-90 + build-197). Now exits 0.
+  Killed three false-positive classes while building it, because a QC that cries wolf is
+  worse than none: fuzzy name matching checked the Two Sons parable's vineyard FATHER
+  against the GOD THE FATHER sheet, Joseph of EGYPT (#147) against Joseph of NAZARETH, and
+  John the BAPTIST (#69) against John the Beloved → exact-slug only, bare first names never
+  resolve; "never bearded" in Pilate's sheet read as an assertion → negation-stripping;
+  young Jeremiah at his call (Jer 1:6) → explicit waiver with a scripture reason.
+- **#90/#92/#103** build-90 + build-197 PETER LOCK rewritten to the sheet; repainted
+  s4-peter-protests and s4-peter-stands with the peter refs attached. QC'd by eye against
+  face-front.jpeg — both are now the same dark-bearded man in his thirties in the blue-grey
+  tunic. Commit c912cf89.
+- **#112** "last picture Jesus was a giant" = `s10-the-upside-down-kingdom`. Its prompt
+  already had a long anti-giant paragraph and still lost, because the shot attached NO ref
+  ("prompt-driven"). Attached the master face + put him IN the group, people on both sides,
+  heads on one line. The first repaint then landed the sunset directly behind his head and
+  gave him a glowing outline — caught by eye, no gate can see it — so the sun was pinned
+  low and off to one side. Second repaint clean. Also enforced only-Jesus-wears-cream (a
+  woman had a cream shawl). Commit after c912cf89.
+- **#135** VERIFIED already correct (counted 4 men + 4 women, no children) — but its prompt
+  said BOTH "No people are in the frame" AND "EIGHT GROWN ADULTS", and the abandoned
+  `s1-the-ark-at-rest-v2.jpeg` is what that contradiction produces (empty hillside). Removed
+  the contradiction and enumerated the eight positionally so it cannot regress.
+
+**Deliberately did NOT rebuild any video.** A REDO-ALL sweep was running live on another
+machine all through this session (at #72, 01:07). It re-renders every build, so these
+stills reach the movies without two machines fighting over the same 250MB mp4. Checked the
+whole backlog first: 32 fixed stills across 18 builds are painted-but-not-yet-rendered, and
+every one of those builds is still pending REDO, so the sweep picks them all up. A separate
+33 stills across 23 builds are new coverage art not yet wired into build.py — assembly's job.
+
+Known/left open: build-90's character gate FAILS pre-existingly (verified against HEAD) —
+its twelve disciples have no individual lock text or refs, which is the remaining half of
+complaint #90. Old complaint timestamps ("2:11", "42") no longer map to the videos because
+the voice/pacing rework moved every timing — identify shots by looking, not by seeking.
+Commits: c912cf89 + the two that follow it.
+
 ## 2026-07-24 (cont.) — #3 STILL-MAKER: started the COVERAGE-STILLS marathon (15 painted) (Machine C)
 
 Cameron pointed me at the narration session's per-story audit — `SPEAKER-LAW/stills-needed.json`,
