@@ -24,7 +24,7 @@ touching anything else. Do NOT edit by hand.
 | 18 | newer cut shipped — VERIFY fixed | Not real new voice |
 | 19 | newer cut shipped — VERIFY fixed | The clothes of peter and his look and all of the people in the boat keep changing and then picture jesus looks like he's burning something out of his hand all of these pictures look like they've been made by AI and I get that they have , but let's try our best not to make you look stupid. So redo them all |
 | 20 | newer cut shipped — VERIFY fixed | Not real new voice |
-| 21 | UNFIXED | Not real new voice |
+| 21 | newer cut shipped — VERIFY fixed | Not real new voice |
 | 22 | newer cut shipped — VERIFY fixed | Not real new voice |
 | 25 | newer cut shipped — VERIFY fixed | At 2:11 tear was misspronounced because it means break tear not a cry tear |
 | 28 | newer cut shipped — VERIFY fixed | Not real new voice |
