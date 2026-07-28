@@ -422,8 +422,8 @@
   "current_still": "S4",
   "reason": "3 beats now sit on this still (48.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s4b-everyone-has-to-start-over",
+  "done": true
  },
  {
   "build": "build-32-talents",
@@ -644,8 +644,8 @@
   "current_still": "S9",
   "reason": "2 beats now sit on this still (44.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s9b-into-the-light",
+  "done": true
  },
  {
   "build": "build-14-ten-lepers",
@@ -1397,8 +1397,8 @@
   "current_still": "S8",
   "reason": "3 beats now sit on this still (37.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s8b-not-preached-to-a-stadium",
+  "done": true
  },
  {
   "build": "build-30-net",
@@ -2222,8 +2222,8 @@
   "current_still": "S11",
   "reason": "1 beats now sit on this still (33.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s11b-behind-locked-doors",
+  "done": true
  },
  {
   "build": "build-43-the-wedding-garment",
@@ -3068,8 +3068,8 @@
   "current_still": "S6",
   "reason": "2 beats now sit on this still (31.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s6b-you-only-see-what-it-moves",
+  "done": true
  },
  {
   "build": "build-38-persistent-widow",
@@ -4834,7 +4834,9 @@
   "reason": "1 beats now sit on this still (27.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s10-council",
+  "note": "n0 is 'a member of the great council that governed the nation's faith — everything to lose'. s10-council already paints that room and that body, and is used only once (n10)."
  },
  {
   "build": "build-11-storm",
@@ -5171,7 +5173,9 @@
   "reason": "1 beats now sit on this still (26.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S5 now carries three beats — his literal misunderstanding, the verbatim question, and the retelling into the wind. Frame the confusion: the old scholar leaning forward across the low lamp, brow drawn, hands opened in genuine bewilderment. Not offended — stumped. A shuttered window behind him with the night moving beyond it.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s5-womb-question",
+  "note": "s5-womb-question IS 'Nicodemus took it literally' — he is spreading his hands asking how a man can be born when he is old. 26.1s on exactly the right picture."
  },
  {
   "build": "build-21-lost-sheep",
@@ -9364,7 +9368,9 @@
   "reason": "1 beats now sit on this still (19.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries three beats — the giving way, 'How can these things be?', and the retelling. Frame the surrender: the same face, closer than any shot before it, the argument gone out of it. Eyes up, mouth open on a short question, hands come to rest. The lamp low and close, everything else dark.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s7-face",
+  "note": "s7-face IS n6 — the scholar's composure gone, just a man in the lamplight. 19.2s, medium."
  },
  {
   "build": "build-165-laying-on-hands",
