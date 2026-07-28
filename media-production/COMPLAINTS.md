@@ -68,7 +68,7 @@ touching anything else. Do NOT edit by hand.
 | 161 | newer cut shipped — VERIFY fixed | At 1:30 aaron went grey and the anointing oil was poured over his hat and that is all wrong this picture needs to be redone |
 | 171 | UNFIXED | First picture is weird there are no scripture that roll like that on 2 edges |
 | 173 | newer cut shipped — VERIFY fixed | Mispronounced live at the end |
-| 177 | UNFIXED | Not real new voice |
+| 177 | newer cut shipped — VERIFY fixed | Not real new voice |
 | 181 | newer cut shipped — VERIFY fixed | the pictures need to be better made i dont think they fit the story well |
 | 184 | newer cut shipped — VERIFY fixed | only Jesus's words in red. |
 | 185 | newer cut shipped — VERIFY fixed | Old.  That's not the chosen Jesus voice |
