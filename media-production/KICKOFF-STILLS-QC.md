@@ -76,7 +76,29 @@ python3 regen_shot.py --dir build-NN-slug --shot <slug> [--chars peter,john-belo
 - `--chars` **only** for characters that have a `CHARACTERS/<name>/` folder. Text-lock-only characters (e.g. build-65 "father") have no sheet — omit them; the `[X LOCK]` token in the prompt carries them. Passing a sheet-less name throws `KeyError: no locked sheet`.
 - `--jesus` attaches the master face for any shot Jesus is in.
 - Always `--dry-run` once to eyeball the expanded prompt.
-- Then both gates must exit 0: `python3 character_ref_gate.py --dir <build>` and `python3 jesus_face_gate.py --dir <build>`.
+- Then all three gates must exit 0: `python3 character_ref_gate.py --dir <build>`,
+  `python3 jesus_face_gate.py --dir <build>`, and `python3 character_drift_qc.py`.
+
+### FIRST suspect for "he looks like a different person": the build's OWN lock text
+Found 2026-07-28, and it explains #90/#92/#102/#103/#62/#32. Each build's PROMPTS.md
+carries its own inline `[X LOCK] = ...` copy of a character. Those copies DRIFT from the
+approved sheet in `CHARACTERS/REFS.json`. build-90 held both descriptions at once — its
+DISCIPLES LOCK said "PETER ~35 ... blue-grey", its PETER LOCK said "about fifty ...
+streaked with grey ... rust-brown" — so Peter went grey between videos while every
+prompt was being obeyed perfectly. **Before repainting anything, run
+`character_drift_qc.py` and read the `--dry-run` expansion. Fix the lock text first,
+or you will repaint the same wrong man again.**
+
+### Prose alone does not beat a missing reference image
+Both fixes this session turned on ATTACHING THE REF, not on wording. build-112's giant
+Jesus survived a whole paragraph of "NOT oversized, NOT towering, NOT a giant" because
+the shot attached no ref at all. Add `--jesus` / `--chars`, then fix the prose.
+
+### Repainting for scale tends to introduce the glow
+Twice now, moving Jesus into a group at correct scale put the sun directly behind his
+head and gave him a glowing outline — the single most-rejected defect, and NO gate can
+see it. After any repaint of a Jesus shot, LOOK at the sky behind his head, and if
+needed pin the sun low and off to one side.
 
 ### Gate traps (these cost real time)
 - The jesus gate bans the literal strings `halo` and `rim-light` **even inside a negation**. Write "no bright ring / no glow / no backlight" instead.
