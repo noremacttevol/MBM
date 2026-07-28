@@ -38,21 +38,32 @@ roof, outside stone stair), ROOF HOLE.
 
 ## s1 — CARRIED THROUGH THE STREETS (still)
 
-STYLE Morning daylight in a narrow Capernaum street of black basalt stone and
-pale clay-plastered houses. Exactly four working men carry a thin paralyzed man
-on a woven reed sleeping mat, one man gripping each corner of the mat, all four
-leaning into the work, sweating and determined: a big broad man with a black
-beard in a walnut-brown wool tunic at the front left, a lean clean-shaven
-younger man with cropped dark hair in a tan tunic at the front right, a wiry
-gray-bearded older man in a gray-brown tunic at the back left, and a
-round-faced man with a short brown beard in a dark olive tunic at the back
-right, every man with exactly two arms and two legs. The man on the mat is
-thin, in his early thirties, with short dark curly hair and a sparse young
-beard, olive-skinned and hollow-cheeked, wearing an undyed flax-linen tunic,
-his motionless legs covered by a faded ochre wool blanket, his face a mix of
-embarrassment and fragile hope, exactly two arms and two legs. A rope is tied
-at each corner of the mat. Villagers step aside and watch. Warm dusty morning
-light rakes the street.
+STYLE REPAINTED 2026-07-28 (complaint #13): the old version painted the paralyzed man SITTING BOLT UPRIGHT
+on the mat, which is the one thing a man who cannot move cannot do, and left the mat floating with the carry-ropes
+hanging slack in the men's fists and attached to nothing.
+
+Morning daylight in a narrow Capernaum street of black basalt stone and pale clay-plastered houses. Exactly four
+working men carry a thin paralyzed man on a woven reed sleeping mat, and HOW THEY CARRY IT IS THE MOST IMPORTANT
+THING IN THIS PICTURE: the mat is a stiff reed litter held roughly at hip height, and at EACH of its four corners
+a short rope is plainly KNOTTED THROUGH the woven reed edge and runs straight UP, pulled dead TAUT and straight
+by the weight, into the closed fist of the man at that corner. Four corners, four knots, four taut vertical ropes,
+four gripping fists — no rope hangs loose, no rope dangles below the mat, no rope leads out of the picture or ends
+in nothing, and the mat is visibly SUSPENDED from those four ropes and does not float. All four men lean into the
+work, sweating and determined: a big broad man with a black beard in a walnut-brown wool tunic at the front left,
+a lean clean-shaven younger man with cropped dark hair in a tan tunic at the front right, a wiry gray-bearded older
+man in a gray-brown tunic at the back left, and a round-faced man with a short brown beard in a dark olive tunic at
+the back right, every man with exactly two arms and two legs.
+
+THE MAN ON THE MAT IS LYING COMPLETELY FLAT ON HIS BACK AND HE IS NOT SITTING UP. His shoulders, his back and the
+back of his head all rest DOWN on the reed mat; his head is turned a little to one side against it; his neck is not
+lifted, his shoulders are not raised, his torso is not propped, he is not leaning on his elbows and he is not
+holding himself up in any way — he cannot, and the picture must say so instantly. Both of his arms lie limp and
+still along his sides ON the mat, his hands open and slack. He is thin, in his early thirties, with short dark curly
+hair and a sparse young beard, olive-skinned and hollow-cheeked, wearing an undyed flax-linen tunic, his motionless
+legs covered by a faded ochre wool blanket, his feet inside the mat and not hanging off the end. His face, seen from
+above and to one side, is a mix of embarrassment and fragile hope, exactly two arms and two legs. Villagers step
+aside and watch. Warm dusty morning light rakes the street. Every figure has two arms, two hands, two legs and one
+head, each person appearing exactly once. One single continuous scene painted edge to edge.
 
 ## s2 — NO WAY THROUGH (still)
 
@@ -105,16 +116,28 @@ them alone. Every visible figure has exactly two arms and two legs.
 
 ## s5 — THEIR FAITH (still)
 
-STYLE Looking straight up from inside the dark room through the ragged broken
-hole in the clay roof: exactly four dusty, sweat-streaked faces ring the
-opening, framed against the bright blue midday sky, all four looking down
-with fierce breathless hope — the big man with the black beard, the lean
-clean-shaven young man, the wiry gray-bearded older man, and the round-faced
-man with the short brown beard. Their hands grip the edge of the opening and
-the four taut ropes. Broken reed thatch and clay crumbs edge the hole, dust
-motes drift in the light. Only those four faces and the sky beyond them —
-each face painted clearly enough to read its hope. Every visible hand and arm
-correctly counted, no extra fingers.
+STYLE REPAINTED 2026-07-28 (complaint #13): the old version looked straight up through the hole, and the model
+answered that by painting two of the four friends with their HEADS UPSIDE DOWN, plus more gripping hands than there
+were arms to attach them to. This version is staged from a low angle instead of straight up, so every head in the
+frame is the right way up.
+
+A LOW THREE-QUARTER VIEW from inside the dim room, looking UP AND ACROSS at the broken roof — not straight up. The
+ragged hole in the packed clay roof is in the upper part of the frame and we see it from the side and below, so the
+open sky beyond it and the roof edge both read clearly. EVERY HEAD IN THIS PICTURE IS THE RIGHT WAY UP, upright and
+correctly attached to the neck and shoulders below it: no head is inverted, rotated, upside down, tilted past the
+horizontal or floating free of a body. Exactly FOUR men kneel and crouch along the FAR side of the hole up on the
+roof, their bodies clearly above the roofline against the bright blue midday sky, leaning forward over the opening
+and looking down and toward the camera with fierce breathless hope — the big man with the black beard, the lean
+clean-shaven young man, the wiry gray-bearded older man, and the round-faced man with the short brown beard. Each
+of the four faces is dusty and sweat-streaked and painted clearly enough to read its hope.
+
+HANDS: each of these four men has EXACTLY TWO arms and EXACTLY TWO hands, and every single hand in this picture is
+plainly joined by a complete visible arm to the shoulder of the man it belongs to. There is no spare hand, no extra
+hand, no floating or disconnected hand, and no hand gripping anything at the edge of the frame without its arm.
+Between them two ropes run down taut over the broken edge into the room. Broken reed thatch and clay crumbs edge the
+hole, dust motes drift in the shaft of light. Only those four men, the roof and the sky above — nobody else is in
+the frame. Every figure has two arms, two hands and one head, each appearing exactly once. One single continuous
+scene painted edge to edge.
 
 ## s6 — THE DEEPEST WOUND FIRST (still)
 

@@ -131,6 +131,24 @@ build's own law says otherwise — the build's law always beats this brief.
    had 16 stills for 26 beats; three flagged beats were already painted elsewhere in the same
    build (s3, s4, s14) and got `covered_by` instead of a duplicate.
 
+8. **The model cannot count a group. Break the count into small named clusters that add up.**
+   "Exactly ten men" produced TWELVE, twice (2026-07-28, build-14 s2). What worked was
+   spelling out the arithmetic: "LOWER CLUSTER nearest the camera: FOUR men and no more —
+   … MIDDLE CLUSTER: THREE men and no more — … UPPER CLUSTER: THREE men and no more — …
+   FOUR PLUS THREE PLUS THREE IS TEN", plus "no eleventh man, no twelfth man, nobody in the
+   background, nobody half-cropped at any edge; if a figure would make it eleven, leave him
+   out." Three groups of ≤4 are countable; ten in a row is not.
+9. **Clone crowds and giant figures are the SAME defect and have one cure: describe each
+   person individually.** build-14's ten lepers were one man repeated ten times in one
+   cupped-hands pose, drawn enormous above a valley where Jesus had been replaced by a
+   stranger with a donkey. Giving all ten a distinct age, build, hair, garment colour AND a
+   distinct posture fixed the cloning; putting both groups on ONE ground plane at one horizon
+   with "a man further away is only MODERATELY smaller, never many times smaller" fixed the
+   scale.
+10. **A defect can be the model obeying a DEAD law.** build-14's s1 opened the whole story on
+   the back of everyone's heads because its prompt still carried the retired face-never
+   staging. If a shot looks inexplicably weak, read its prompt for a rule that was repealed.
+
 Known pre-existing gate failures that are NOT your regression: build-24-sower and
 build-40-the-friend-at-midnight use a deliberate from-behind Jesus; build-90-washing-feet
 fails the character gate because its twelve disciples have no individual lock text; and
