@@ -1,3 +1,62 @@
+## 2026-07-28 — PICTURE-MAKER: painted 45 missing coverage stills across 8 stories, and found 5 more already painted (Machine C)
+
+Cameron: "read KICKOFF-MAKE-PICTURES.md and do that job. Paint the missing pictures and keep
+going until you run out of room." Ran the loop straight through, one build at a time, no stops.
+
+**45 new paintings, 26 beats marked already-covered, across 8 builds.** The work list
+(`SPEAKER-LAW/stills-needed.json`) went from 66 beats handled to 134; 594 remain, 172 of them
+"high". Every jpeg was opened and looked at on a contact sheet before it was committed.
+
+- **#17 Lazarus** — 8 painted. S6 had been holding 58.4s across BOTH "Mary fell at his feet"
+  AND "Jesus wept" — the shortest verse in the Bible had no picture of its own. It has one now.
+- **#41 Counting the Cost** — 6 painted, 3 covered. The build's OWN law beat this brief twice
+  and I obeyed the build: it bans any cross, condemned man or beam anywhere in the video, and
+  allows the opposing army only as distant dust.
+- **#10 The Well** — 3 painted, **5 already existed**. build-10 carries a 2026-07-20
+  "STORY-COVERAGE RETROFIT" block — s10-morning-women, s11-turn-around, s12-truth-spoken,
+  s13-i-am-he, s14-two-days — painted, banked, and referenced NOWHERE in build.py's BEATS.
+  Their own prompt headers name the beats they were built for. The 71.8s hold on S5 needs no
+  new art at all; it needs assembly to wire s12 and s13 in.
+- **#04 Nicodemus** — 5 painted, 3 covered. This build's real weakness was sameness: s4-s9 are
+  all the same two men at the same lamplit table, so a 48s hold was 48s of one composition.
+  Every new still deliberately leaves that room.
+- **#12 Bartimaeus** — 7 painted, 3 covered.
+- **#07 Peter on the Water** — 7 painted, 2 covered. S8 was carrying four beats for 51.2s.
+- **#13 Through the Roof** — 6 painted, 6 covered.
+- **#09 The Rich Young Ruler** — 3 painted, 3 covered.
+
+**Every real defect was caught by EYE, and not one of them by a gate** — the gates only read
+prompt text. Seven rerolls: the moon parked directly behind Jesus's head with a pale halo of
+sky (#07 s4b — the exact thing Cameron rejects videos over); then that same shot came back with
+a FULL moon when every other still in the story has a thin crescent; a "spring of water
+springing up" painted as a WATERFALL pouring down, the literal opposite of the beat (#10 s4b);
+the labels "(1)" and "(2)" painted into the frame as on-image text (#41 s13b); disciples staring
+the wrong way (#10 s6b); Mary of Bethany bare-headed against her locked sheet (#17 s9b); and
+two mourners in near-cream robes plus invisible tears (#17 s6b).
+
+Wrote three new traps into `KICKOFF-MAKE-PICTURES.md` §4 so the next session does not repeat
+them: parenthesised (1)(2) enumeration can be painted in as literal labels; the build's own law
+can forbid the obvious picture outright; and an art-rich build needs covered_by far more often
+than new paint.
+
+**Deliberately did NOT rebuild any video** (KICKOFF §5). All 45 new stills are painted and
+pushed but NOT yet in any movie — `picture_render_status.py` now lists 76 coverage stills across
+28 builds waiting to be added to build.py's BEATS. **That is assembly's job, not the picture
+lane's, and none of these are "done" until someone wires them in.** Stranded fixes needing a
+deliberate rebuild: still 0.
+
+Flagged, not fixed (all are repaint-sweep decisions, not coverage ones):
+- **build-41 fails the jesus gate 10x, pre-existing** — all five of its Jesus shots are staged
+  on the DEAD "his face is never shown" rule with no JESUS LOCK v3 and no master-face ref. I
+  painted no Jesus into that build on purpose: one face-shown frame among five from-behind
+  frames is worse than either.
+- **build-13's paralytic** wears an "undyed flax-linen tunic" that reads white, so s6/s9/s10
+  each show TWO figures in cream. It is baked into the build's MAT-MAN lock.
+- **build-17's PROMPTS.md preamble** still states the dead "his face is never shown" rule even
+  though its shots were rebuilt face-shown.
+
+Commits: 1d5fc5cc5, de20ec4f6, b749f6341, and the five that follow, ending f25826e10.
+
 ## 2026-07-28 — STILL-QC: found the ROOT CAUSE of the "same face / grey Peter / vanishing beard" complaints (Machine C)
 
 Cameron ("you know what i want right?") — picture complaints, plain-language session.
