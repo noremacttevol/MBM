@@ -50,9 +50,12 @@ def _key():
     return m.group(0) if m else raw.strip()
 
 
-def fetch_history():
+def fetch_history(pages=None):
+    """Pull generation history. pages=1 grabs only the newest page — enough to see
+    clips rendered seconds ago, which is what the redo loop needs after re-voicing
+    (a full pull is ~10 pages and far too slow to run per build)."""
     hdr = {"xi-api-key": _key()}
-    items, last = [], None
+    items, last, n = [], None, 0
     while True:
         u = "https://api.elevenlabs.io/v1/history?page_size=1000"
         if last:
@@ -61,20 +64,41 @@ def fetch_history():
         its = d.get("history", [])
         items += [{"voice": (h.get("voice_name") or "").split(" -")[0].strip(),
                    "text": h.get("text", ""), "date": h.get("date_unix", 0)} for h in its]
-        if not d.get("has_more") or not its:
+        n += 1
+        if not d.get("has_more") or not its or (pages and n >= pages):
             break
         last = its[-1]["history_item_id"]
-    json.dump(items, open(HIST_CACHE, "w"))
     return items
 
 
 def load_history():
-    if os.environ.get("REFRESH") or not os.path.exists(HIST_CACHE):
-        return fetch_history()
+    """REFRESH=1 -> full re-pull. REFRESH=new -> merge just the newest page into the
+    cache (fast; use right after re-voicing so the fresh clips are visible)."""
+    mode = os.environ.get("REFRESH", "")
+    if mode == "new" and os.path.exists(HIST_CACHE):
+        try:
+            cached = json.load(open(HIST_CACHE))
+        except Exception:
+            cached = []
+        merged = cached + fetch_history(pages=1)
+        seen, out = set(), []
+        for h in merged:                       # de-dupe on (text, date, voice)
+            k = (h["text"], h["date"], h["voice"])
+            if k not in seen:
+                seen.add(k)
+                out.append(h)
+        json.dump(out, open(HIST_CACHE, "w"))
+        return out
+    if mode or not os.path.exists(HIST_CACHE):
+        items = fetch_history()
+        json.dump(items, open(HIST_CACHE, "w"))
+        return items
     try:
         return json.load(open(HIST_CACHE))
     except Exception:
-        return fetch_history()
+        items = fetch_history()
+        json.dump(items, open(HIST_CACHE, "w"))
+        return items
 
 
 def norm(s):

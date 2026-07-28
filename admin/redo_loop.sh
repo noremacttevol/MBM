@@ -74,6 +74,11 @@ for n in $LIST; do
   ( cd "$d" && timeout 900 python3 build.py ) >"/tmp/redo-$n.log" 2>&1 \
     || { say "#$n RENDER FAILED — $(grep -m1 -iE 'error|trace' /tmp/redo-$n.log|cut -c1-70)"; continue; }
 
+  # 2b. re-audit THIS build's Jesus voice against fresh ElevenLabs history. Without
+  #     this the gate reads the stale pre-re-voice verdict and blocks a build that
+  #     was just correctly re-voiced (cost us a whole run on 2026-07-25).
+  REFRESH=new python3 admin/jesus_voice_audit.py "$n" >>"$LOG" 2>&1
+
   # 3. gate hard against the law (new voice + render-fresh + complete + no echo).
   if ! python3 admin/qc_gate.py "$d" >"/tmp/redo-qc-$n.txt" 2>&1; then
     why=$(grep -m3 '  - ' "/tmp/redo-qc-$n.txt" | sed 's/^  - //' | tr '\n' '; ')
