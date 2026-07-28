@@ -192,11 +192,9 @@
   "whisper": false
  },
  "128": {
-  "mp4": "",
-  "pass": false,
-  "reasons": [
-   "PLAYABLE: no finished scripture-named mp4 in the build folder"
-  ],
+  "mp4": "mark-7_heart-far-from-me.mp4",
+  "pass": true,
+  "reasons": [],
   "whisper": false
  },
  "129": {
