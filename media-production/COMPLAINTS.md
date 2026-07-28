@@ -72,7 +72,7 @@ touching anything else. Do NOT edit by hand.
 | 177 | UNFIXED | Not real new voice |
 | 181 | newer cut shipped — VERIFY fixed | the pictures need to be better made i dont think they fit the story well |
 | 184 | newer cut shipped — VERIFY fixed | only Jesus's words in red. |
-| 185 | UNFIXED | Old.  That's not the chosen Jesus voice |
+| 185 | newer cut shipped — VERIFY fixed | Old.  That's not the chosen Jesus voice |
 | 188 | newer cut shipped — VERIFY fixed | "Maketh" (the archaic version of the modern word "makes") is pronounced MAY-kith 0:29 |
 | 189 | newer cut shipped — VERIFY fixed | Pronounce overcometh as OH-vur-kuh-muhth 0:38 |
 | 191 | UNFIXED | Not real new voice |
