@@ -12,9 +12,8 @@ touching anything else. Do NOT edit by hand.
 |---|---|---|
 | 1 | newer cut shipped — VERIFY fixed | Back ground sound problem again when Jesus was talking. |
 | 4 | newer cut shipped — VERIFY fixed | Captions are messed up at 38 - 46 seconds |
-| 6 | newer cut shipped — VERIFY fixed | The "row" at 35 seconds it pronounced wrong. Its a row of grape vine like wrowe. But im upset that this entore video got shortened so much. We need to rework the whole thing. |
+| 6 | newer cut shipped — VERIFY fixed | Your shortening of the videos has gotten out of hand. In this one the father didnt really ask either son anything and thats not how Jesus tsught it. It can be shorter than the original but it has to hit all of the points well. And here you cut out the original thing the father asked the sons |
 | 7 | newer cut shipped — VERIFY fixed | 1:03 audio problem.  He speaks way to fast. |
-| 9 | newer cut shipped — VERIFY fixed | Mispronounced jesus again at 21 seconds |
 | 10 | newer cut shipped — VERIFY fixed | Still to short |
 | 12 | newer cut shipped — VERIFY fixed | Captions are off at 1 minute |
 | 13 | newer cut shipped — VERIFY fixed | I thought the picture at 1:30 mayched the priginal character that carried him in and broke through the roof but it doesnt they all look different and this will trow the story off. Fix it picutre fixmatch the characters in this story. My main concern is how much you shortened this story. The original story was 5 minutes long and all good stuff. Showing how good Jesus Christ was and you took it away, you cut the video in half and that ruined it redo it just like the original one with the same new voice and all of the pictures made better and give me 100% effort or tell me you can't and just f*** off.  Sto.\nP lying to me and tell me telling me that you fixed my videos like I asked you too and realistically you just f***** them up |
