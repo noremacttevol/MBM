@@ -17,7 +17,9 @@
   "reason": "3 beats now sit on this still (71.8s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s13-i-am-he",
+  "note": "Already painted in the 2026-07-20 STORY-COVERAGE RETROFIT block and never wired into build.py. s13-i-am-he is John 4:26 itself, and s12-truth-spoken covers n5 in the same 71.8s block — so this still needs no new art, it needs assembly to add s12 and s13 to BEATS."
  },
  {
   "build": "build-120-job-from-whirlwind",
@@ -381,8 +383,8 @@
   "current_still": "S4",
   "reason": "3 beats now sit on this still (48.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s4b-a-well-of-water-springing-up",
+  "done": true
  },
  {
   "build": "build-09-rich-ruler",
@@ -2183,8 +2185,8 @@
   "current_still": "S3",
   "reason": "1 beats now sit on this still (33.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s3b-he-asked-her-for-a-drink",
+  "done": true
  },
  {
   "build": "build-157-marvellous-work",
@@ -3104,7 +3106,9 @@
   "reason": "1 beats now sit on this still (31.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s10-morning-women",
+  "note": "Already painted (retrofit block, unused). s10-morning-women IS n0's 'women drew their water in the cool of the morning, together' — the contrast that explains noon."
  },
  {
   "build": "build-102-jacobs-ladder",
@@ -4038,7 +4042,9 @@
   "reason": "1 beats now sit on this still (28.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s11-turn-around",
+  "note": "Already painted (retrofit block, unused). s11-turn-around IS n1 — she stops on the path and sees a traveler already sitting at the well."
  },
  {
   "build": "build-10-well",
@@ -4055,8 +4061,8 @@
   "current_still": "S6",
   "reason": "1 beats now sit on this still (28.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s6b-the-disciples-stop-short",
+  "done": true
  },
  {
   "build": "build-117-hosea-buys-her-back",
@@ -4226,7 +4232,9 @@
   "reason": "1 beats now sit on this still (27.9s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s14-two-days",
+  "note": "Already painted (retrofit block, unused). s14-two-days IS the end of n9 — the town gathered around him, and he stayed."
  },
  {
   "build": "build-151-ask-of-god",
@@ -6540,7 +6548,9 @@
   "reason": "1 beats now sit on this still (23.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s7-jar-left-anchor",
+  "note": "s7-jar-left-anchor already IS 'she left the jar' — the abandoned jar on the rim and her hurrying off empty-handed. 23s on the exactly-right picture; a second one would repeat it."
  },
  {
   "build": "build-158-two-sticks",
