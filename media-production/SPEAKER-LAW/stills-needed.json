@@ -76,8 +76,8 @@
   "current_still": "S6",
   "reason": "2 beats now sit on this still (58.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s6b-jesus-wept",
+  "done": true
  },
  {
   "build": "build-13-roof",
@@ -881,8 +881,8 @@
   "current_still": "S8",
   "reason": "3 beats now sit on this still (41.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s7c-he-lifted-his-eyes",
+  "done": true
  },
  {
   "build": "build-160-stone-cut",
@@ -919,8 +919,8 @@
   "current_still": "S9",
   "reason": "2 beats now sit on this still (41.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s9b-walking-home",
+  "done": true
  },
  {
   "build": "build-135-rainbow-covenant",
@@ -958,8 +958,8 @@
   "current_still": "S5",
   "reason": "2 beats now sit on this still (40.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s5b-believest-thou-this",
+  "done": true
  },
  {
   "build": "build-117-hosea-buys-her-back",
@@ -1118,8 +1118,8 @@
   "current_still": "S2",
   "reason": "3 beats now sit on this still (39.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s2b-he-stayed-two-days",
+  "done": true
  },
  {
   "build": "build-148-ruth-and-the-redeemer",
@@ -1472,8 +1472,8 @@
   "current_still": "S7",
   "reason": "3 beats now sit on this still (36.9s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s7b-the-open-grave",
+  "done": true
  },
  {
   "build": "build-158-two-sticks",
@@ -1974,8 +1974,8 @@
   "current_still": "S3",
   "reason": "1 beats now sit on this still (34.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s3b-the-house-of-mourning",
+  "done": true
  },
  {
   "build": "build-19-shore",
@@ -2622,8 +2622,8 @@
   "current_still": "S1",
   "reason": "1 beats now sit on this still (32.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s1b-the-sisters-send-word",
+  "done": true
  },
  {
   "build": "build-84-no-room-manger",
@@ -5446,7 +5446,9 @@
   "reason": "1 beats now sit on this still (25.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s4",
+  "note": "S4 already IS this beat — Martha running out to meet him on the road. 25.5s on the correct picture; painting a duplicate would repeat the same staging."
  },
  {
   "build": "build-170-sacrament-worthily",
