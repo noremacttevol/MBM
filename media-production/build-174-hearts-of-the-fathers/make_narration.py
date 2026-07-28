@@ -38,17 +38,15 @@ from mbm_speakers import GOD, NARRATOR
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, "Before the great day, a messenger would come first — Elijah, the prophet, sent ahead."),
-    # Malachi 4:5
-    ("s1a", GOD, "Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the LORD:"),
-    ("n0b", NARRATOR, "Listen to who is talking there. That is God himself, making a promise out loud: before the last great day arrives, I am sending Elijah back. Not an army. Not a warning shot. A prophet."),
-    # Malachi 4:6
-    ("s1b", GOD, "And he shall turn the heart of the fathers to the children, and the heart of the children to their fathers, lest I come and smite the earth with a curse."),
-    ("n1", NARRATOR, "His work was not to thunder, but to mend. To turn the hearts of fathers back to their children, and children back to their fathers."),
-    ("n3", NARRATOR, "The same spirit would later rest on John, preparing the way."),
-    ("n2a", NARRATOR, "So that when the Lord came, families would be ready."),
-    ("n2b", NARRATOR, "Not divided, but whole."),
-    ("card", NARRATOR, "He cares about your family. Let the healing start with your own heart."),
+    ("n0", NARRATOR, 'Before the great day, a messenger would come first — Elijah, the prophet, sent ahead.'),
+    ("s1a", GOD, 'Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the LORD:'),
+    ("n0b", NARRATOR, 'Listen to who is talking there. That is God himself, making a promise out loud: before the last great day arrives, I am sending Elijah back. Not an army. Not a warning shot.'),
+    ("s1b", GOD, 'And he shall turn the heart of the fathers to the children, and the heart of the children to their fathers, lest I come and smite the earth with a curse.'),
+    ("n1", NARRATOR, 'His work was not to thunder, but to mend.'),
+    ("n3", NARRATOR, 'The same spirit would later rest on John, preparing the way.'),
+    ("n2a", NARRATOR, 'So that when the Lord came, families would be ready.'),
+    ("n2b", NARRATOR, 'Not divided, but whole.'),
+    ("card", NARRATOR, 'He cares about your family. Let the healing start with your own heart.'),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
