@@ -43,18 +43,21 @@ from mbm_speakers import NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, 'Some in Corinth were arguing as though resurrection might not be real. Paul pointed to a practice already familiar to them and pressed the contradiction.'),
-    ("s1", SCRIPTURE, 'Else what shall they do which are baptized for the dead, if the dead rise not at all? why are they then baptized for the dead?'),
-    ("n1", NARRATOR, 'The only reason to do such a thing is the quiet hope that the dead are not gone forever.'),
-    ("n2", NARRATOR, 'Baptism stands for new life — a beginning, not an end.'),
+    ("n0", NARRATOR, "Paul asked a striking question: if the dead don't rise at all, why would anyone be baptized on their behalf?"),
+    # 1 Corinthians 15:29
+    ("s1", SCRIPTURE, "Else what shall they do which are baptized for the dead, if the dead rise not at all? why are they then baptized for the dead?"),
+    ("n1", NARRATOR, "The only reason to do such a thing is the quiet hope that the dead are not gone forever."),
+    ("n2", NARRATOR, "Baptism stands for new life — a beginning, not an end."),
     ("n3", NARRATOR, "So the work done for those who've passed is built on one promise: that death is not the last word."),
-    ("s20", SCRIPTURE, 'But now is Christ risen from the dead, and become the firstfruits of them that slept.'),
-    ("n4a", NARRATOR, "That is Paul's foundation — not a metaphor or a wish."),
-    ("n4b", NARRATOR, 'And because He rose, the grave loses its grip — for Him first, and then for all who belong to Him.'),
-    ("s22", SCRIPTURE, 'For as in Adam all die, even so in Christ shall all be made alive.'),
-    ("n5a", NARRATOR, 'The ordinance done in love reaches across the veil.'),
-    ("n5b", NARRATOR, 'Offering every soul the chance to choose.'),
-    ("card", NARRATOR, 'Death separates for a while, not forever. Because He lives, there is hope for every name on the other side of the veil.'),
+    # 1 Corinthians 15:20
+    ("s20", SCRIPTURE, "But now is Christ risen from the dead, and become the firstfruits of them that slept."),
+    ("n4a", NARRATOR, "Christ rose."),
+    ("n4b", NARRATOR, "And because He rose, the grave loses its grip — for Him first, and then for all who belong to Him."),
+    # 1 Corinthians 15:22
+    ("s22", SCRIPTURE, "For as in Adam all die, even so in Christ shall all be made alive."),
+    ("n5a", NARRATOR, "The ordinance done in love reaches across the veil."),
+    ("n5b", NARRATOR, "Offering every soul the chance to choose."),
+    ("card", NARRATOR, "Death separates for a while, not forever. Because He livez, there is hope for every name on the other side of the veil."),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
