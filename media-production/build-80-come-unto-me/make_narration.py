@@ -46,19 +46,16 @@ from mbm_speakers import JESUS, NARRATOR
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0a", NARRATOR, "To a crowd of people worn down by work, by rules, by just getting through the day,"),
-    ("n0b", NARRATOR, "Jesus made one of the gentlest offers ever spoken."),
-    # Matthew 11:28
-    ("j1", JESUS, "Come unto me, all ye that labour and are heavy laden, and I will give you rest."),
-    ("n0c", NARRATOR, "Come to me, all of you who are worn out and carrying too much — and I will give you rest. He does not say come once you have it handled. He says come while you are still under it."),
-    ("n1", NARRATOR, "A yoke was the wooden beam that let two oxen pull a load together, so no single animal carried it alone."),
-    # Matthew 11:29
-    ("j2", JESUS, "Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls."),
-    # Matthew 11:30
-    ("j3", JESUS, "For my yoke is easy, and my burden is light."),
-    ("n1b", NARRATOR, "Take my yoke on you, he said, and learn from me, because I am gentle and I am humble — and you will find rest for your soul. My yoke fits easy, and what I ask you to carry is light. He is not handing you a heavier beam. He is stepping into the empty side of the one you are already pulling."),
+    ("n0a", NARRATOR, 'To a crowd of people worn down by work, by rules, by just getting through the day,'),
+    ("n0b", NARRATOR, 'Jesus made one of the gentlest offers ever spoken.'),
+    ("j1", JESUS, 'Come unto me, all ye that labour and are heavy laden, and I will give you rest.'),
+    ("n0c", NARRATOR, 'Come to me, all of you who are worn out and carrying too much — and I will give you rest. He does not say come once you have it handled. He says come while you are still under it.'),
+    ("n1", NARRATOR, 'A yoke was the wooden beam that let two oxen pull a load together, so no single animal carried it alone.'),
+    ("j2", JESUS, 'Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls.'),
+    ("j3", JESUS, 'For my yoke is easy, and my burden is light.'),
+    ("n1b", NARRATOR, 'Take my yoke on you, he said, and learn from me, because I am gentle and I am humble — and you will find rest for your soul. He is not handing you a heavier beam. He is stepping into the empty side of the one you are already pulling.'),
     ("n2a", NARRATOR, "He wasn't promising a life with nothing to carry."),
-    ("n2b", NARRATOR, "He was promising to get under the load with you, so it never has to be carried alone again."),
+    ("n2b", NARRATOR, 'He was promising to get under the load with you, so it never has to be carried alone again.'),
     ("card", NARRATOR, "Whatever you've been carrying by yourself — he's offering to take the other side of it. Come."),
 ]
 
