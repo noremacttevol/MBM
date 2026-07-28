@@ -74,31 +74,24 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    # Luke 16:1
-    ("s1", SCRIPTURE, "And he said also unto his disciples,"),
-    # Luke 16:1
-    ("j0", JESUS, "There was a certain rich man, which had a steward; and the same was accused unto him that he had wasted his goods."),
-    ("n1", NARRATOR, "Jesus told a story about a rich man and the manager who ran everything he owned. Word came to the rich man that this manager had been wasting his goods."),
-    ("n2", NARRATOR, "So he called the manager in and said, give an account of your work, because you cannot be my manager any longer. Just like that, the man was about to lose his job and his home."),
-    # Luke 16:3
-    ("j3", JESUS, "What shall I do? for my lord taketh away from me the stewardship: I cannot dig; to beg I am ashamed."),
-    ("n3", NARRATOR, "And the manager panicked. I am not strong enough to dig ditches, he thought, and I am too ashamed to beg. He had to think fast, and he had to act right now, before the news got out."),
-    ("n4", NARRATOR, "So while he still could, he quickly called in every person who owed his employer money, one after another, to make himself some friends before it was too late."),
-    # Luke 16:6
-    ("j6", JESUS, "Take thy bill, and sit down quickly, and write fifty."),
-    ("n5", NARRATOR, "How much do you owe? he asked the first man. A hundred jugs of olive oil. Quick, said the manager, take your bill and write down fifty. And the farmer could hardly believe it."),
-    ("n6", NARRATOR, "And you? A hundred measures of wheat. Take your bill, he said, and write down eighty. One after another he made friends who would remember him and take him in when he had nothing."),
-    # Luke 16:8
-    ("j1", JESUS, "And the lord commended the unjust steward, because he had done wisely: for the children of this world are in their generation wiser than the children of light."),
-    ("n7", NARRATOR, "Even his employer had to admire it. And here is the strange point Jesus was making. He was not praising the cheating. He was pointing at the urgency. Worldly people are so clever, so quick, about money and their own future."),
-    # Luke 16:9
-    ("j2", JESUS, "And I say unto you, Make to yourselves friends of the mammon of unrighteousness; that, when ye fail, they may receive you into everlasting habitations."),
-    ("n8", NARRATOR, "Use your money, he said, use your things, use whatever you have, to love people now. Those friendships are the one thing you carry with you past the end of your life. Be that urgent about what actually lasts."),
-    # Luke 16:13
-    ("j13", JESUS, "No servant can serve two masters: for either he will hate the one, and love the other; or else he will hold to the one, and despise the other. Ye cannot serve God and mammon."),
-    ("n9", NARRATOR, "Then he said the line that ties it all together. You will end up loving one and despising the other. And money is a hard, hungry thing to serve."),
-    ("n10", NARRATOR, "That is how good he is. He is not after your money. He is after you. He wants your heart free of that cruel little master and your hands open, so that you spend your one short life being urgent about the things that last forever."),
-    ("card", NARRATOR, "He is not after your money. He is after you. What are you being urgent about?"),
+    ("s1", SCRIPTURE, 'And he said also unto his disciples,'),
+    ("j0", JESUS, 'There was a certain rich man, which had a steward; and the same was accused unto him that he had wasted his goods.'),
+    ("n1", NARRATOR, 'Jesus told a story about a rich man and the manager who ran everything he owned. Word came to the rich man that this manager had been wasting his goods.'),
+    ("n2", NARRATOR, 'So he called the manager in and said, give an account of your work, because you cannot be my manager any longer. Just like that, the man was about to lose his job and his home.'),
+    ("j3", JESUS, 'What shall I do? for my lord taketh away from me the stewardship: I cannot dig; to beg I am ashamed.'),
+    ("n3", NARRATOR, 'And the manager panicked. I am not strong enough to dig ditches, he thought, and I am too ashamed to beg. He had to think fast, and he had to act right now, before the news got out.'),
+    ("n4", NARRATOR, 'So while he still could, he quickly called in every person who owed his employer money, one after another, to make himself some friends before it was too late. How much do you owe? he asked the first man. A hundred jugs of olive oil.'),
+    ("j6", JESUS, 'Take thy bill, and sit down quickly, and write fifty.'),
+    ("n5", NARRATOR, 'And the farmer could hardly believe it.'),
+    ("n6", NARRATOR, 'And you? A hundred measures of wheat. Take your bill, he said, and write down eighty. One after another he made friends who would remember him and take him in when he had nothing.'),
+    ("j1", JESUS, 'And the lord commended the unjust steward, because he had done wisely: for the children of this world are in their generation wiser than the children of light.'),
+    ("n7", NARRATOR, 'Even his employer had to admire it. And here is the strange point Jesus was making. He was not praising the cheating. He was pointing at the urgency. Worldly people are so clever, so quick, about money and their own future.'),
+    ("j2", JESUS, 'And I say unto you, Make to yourselves friends of the mammon of unrighteousness; that, when ye fail, they may receive you into everlasting habitations.'),
+    ("n8", NARRATOR, 'Use your money, he said, use your things, use whatever you have, to love people now. Those friendships are the one thing you carry with you past the end of your life. Be that urgent about what actually lasts.'),
+    ("j13", JESUS, 'No servant can serve two masters: for either he will hate the one, and love the other; or else he will hold to the one, and despise the other. Ye cannot serve God and mammon.'),
+    ("n9", NARRATOR, 'Then he said the line that ties it all together. You will end up loving one and despising the other. And money is a hard, hungry thing to serve.'),
+    ("n10", NARRATOR, 'That is how good he is. He is not after your money. He is after you. He wants your heart free of that cruel little master and your hands open, so that you spend your one short life being urgent about the things that last forever.'),
+    ("card", NARRATOR, 'He is not after your money. He is after you. What are you being urgent about?'),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
