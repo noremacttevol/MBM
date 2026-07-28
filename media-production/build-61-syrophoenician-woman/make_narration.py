@@ -52,24 +52,21 @@ from mbm_speakers import JESUS, NARRATOR, WOMAN
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, "Jesus went north — out of Jewish land entirely, up to the coast around Tyre. Gentile country. He slipped into a house and wanted no one to know he was there. But Mark says it plainly: he could not be hidden. Word about him had crossed the border long before he did."),
+    ("n0", NARRATOR, 'Jesus went north — out of Jewish land entirely, up to the coast around Tyre. Gentile country. He slipped into a house and wanted no one to know he was there. But Mark says it plainly: he could not be hidden. Word about him had crossed the border long before he did.'),
     ("n1", NARRATOR, "And one woman heard it. A Greek, born in that country — a Syrophoenician, which is Mark's way of saying: not one of us. Wrong nation, wrong religion, no claim at all on a Jewish rabbi. But her little girl was sick with something dark that no one could fix. And a mother with a sick child does not care about borders."),
-    ("n2", NARRATOR, "She found the house. She came in uninvited, fell down at his feet, and begged him — cast this thing out of my daughter. Every social rule in the room said she had no right to ask. She asked anyway."),
-    ("n3", NARRATOR, "What Jesus said next sounds harsh — until you hear it the way she heard it."),
-    # Mark 7:27
+    ("n2", NARRATOR, 'She found the house. She came in uninvited, fell down at his feet, and begged him — cast this thing out of my daughter. Every social rule in the room said she had no right to ask. She asked anyway.'),
+    ("n3", NARRATOR, 'What Jesus said next sounds harsh — until you hear it the way she heard it.'),
     ("j1", JESUS, "Let the children first be filled: for it is not meet to take the children's bread, and to cast it unto the dogs."),
-    ("n4", NARRATOR, "Here is the why. Let the children be fed first — that was his mission order: Israel first, then the whole world. And the word he chose was not the word for street dogs. It was the word for the little pups a family keeps under its own table. He had not slammed a door. He had painted a picture of a household — and left her a place in it, if she could see it. She saw it instantly."),
-    ("n5", NARRATOR, "She did not argue with him. She stepped right into the picture he had painted, and answered him:"),
-    # Mark 7:28
+    ("n4", NARRATOR, 'Here is the why. Let the children be fed first — that was his mission order: Israel first, then the whole world. And the word he chose was not the word for street dogs. It was the word for the little pups a family keeps under its own table. He had not slammed a door. He had painted a picture of a household — and left her a place in it, if she could see it. She saw it instantly.'),
+    ("n5", NARRATOR, 'She did not argue with him. She stepped right into the picture he had painted, and answered him:'),
     ("w28", WOMAN, "Yes, Lord: yet the dogs under the table eat of the children's crumbs."),
-    ("n5b", NARRATOR, "Yes, Lord — but even the pups under the table get what the children drop. She did not ask him to change the order. She just pointed out that there is food under a table too. Bible students love this moment: it is the only time in the gospels anyone wins an exchange with Jesus. And you can almost hear how glad he was to lose it."),
-    ("n6", NARRATOR, "He answered her:"),
-    # Mark 7:29
-    ("j2", JESUS, "For this saying go thy way; the devil is gone out of thy daughter."),
-    ("n7", NARRATOR, "Because you said that — go on home. It is already done. Notice what he did not do. He did not walk to her house. He did not touch the girl. He simply said it was finished, across the distance, on his word alone. And she believed him enough to just... go home. That walk home, holding nothing but his word, was the faith he praised."),
-    ("n8", NARRATOR, "She came to her door and found her daughter lying on the bed, resting — quiet, and whole. The dark thing was gone. It had left at the exact moment he spoke."),
+    ("n5b", NARRATOR, 'She did not ask him to change the order. She just pointed out that there is food under a table too. Bible students love this moment: it is the only time in the gospels anyone wins an exchange with Jesus. And you can almost hear how glad he was to lose it.'),
+    ("n6", NARRATOR, 'He answered her:'),
+    ("j2", JESUS, 'For this saying go thy way; the devil is gone out of thy daughter.'),
+    ("n7", NARRATOR, 'Because you said that — go on home. It is already done. Notice what he did not do. He did not walk to her house. He did not touch the girl. He simply said it was finished, across the distance, on his word alone. And she believed him enough to just... go home. That walk home, holding nothing but his word, was the faith he praised.'),
+    ("n8", NARRATOR, 'She came to her door and found her daughter lying on the bed, resting — quiet, and whole. The dark thing was gone. It had left at the exact moment he spoke.'),
     ("n9", NARRATOR, "The first outsider in Mark's gospel to be told yes was a Gentile mother with no credentials, no standing, and no appointment — just a stubborn, clear-eyed faith that would not leave without the crumbs. He gave her the whole loaf."),
-    ("card", NARRATOR, "She refused to believe there was no room for her at his table. There is room for you."),
+    ("card", NARRATOR, 'She refused to believe there was no room for her at his table. There is room for you.'),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
