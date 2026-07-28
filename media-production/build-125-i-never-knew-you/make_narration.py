@@ -49,17 +49,14 @@ from mbm_speakers import JESUS, NARRATOR
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, "Jesus warned that saying the right words is not the same as knowing him. The door is not opened by a name we repeat."),
-    # Matthew 7:21
-    ("j1", JESUS, "Not every one that saith unto me, Lord, Lord, shall enter into the kingdom of heaven; but he that doeth the will of my Father which is in heaven."),
-    ("n1", NARRATOR, "Not everyone who calls me Lord will come into the kingdom, he said — only the one who actually does what my Father wants. Words are cheap. A life is not. And then he described a day when many will point to everything they did in his name."),
-    # Matthew 7:22
-    ("j2", JESUS, "Many will say to me in that day, Lord, Lord, have we not prophesied in thy name? and in thy name have cast out devils? and in thy name done many wonderful works?"),
+    ("n0", NARRATOR, 'Jesus warned that saying the right words is not the same as knowing him. The door is not opened by a name we repeat.'),
+    ("j1", JESUS, 'Not every one that saith unto me, Lord, Lord, shall enter into the kingdom of heaven; but he that doeth the will of my Father which is in heaven.'),
+    ("n1", NARRATOR, 'Not everyone who calls me Lord will come into the kingdom, he said — only the one who actually does what my Father wants. Words are cheap. A life is not. And then he described a day when many will point to everything they did in his name.'),
+    ("j2", JESUS, 'Many will say to me in that day, Lord, Lord, have we not prophesied in thy name? and in thy name have cast out devils? and in thy name done many wonderful works?'),
     ("n2", NARRATOR, "Lord, they will say, didn't we prophesy in your name? Didn't we drive out devils in your name? Didn't we do all kinds of wonderful works in your name? Listen to what is missing from that list. Every single sentence is about what they did. Not one of them is about him."),
-    # Matthew 7:23
-    ("j3", JESUS, "And then will I profess unto them, I never knew you: depart from me, ye that work iniquity."),
-    ("n3", NARRATOR, "I never knew you. Not, I never heard of your works — I never knew you. He is not weighing the size of anyone's list. He is asking whether we ever really walked with him. And this is not a threat to scare you. It is an invitation to be known — to walk with him, not just speak his name."),
-    ("card", NARRATOR, "He wants to know you, not just be named by you. Come close, and let him know you."),
+    ("j3", JESUS, 'And then will I profess unto them, I never knew you: depart from me, ye that work iniquity.'),
+    ("n3", NARRATOR, "He is not weighing the size of anyone's list. He is asking whether we ever really walked with him. And this is not a threat to scare you. It is an invitation to be known — to walk with him, not just speak his name."),
+    ("card", NARRATOR, 'He wants to know you, not just be named by you. Come close, and let him know you.'),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
