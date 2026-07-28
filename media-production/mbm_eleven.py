@@ -25,6 +25,8 @@ import glob
 import json
 import os
 import re
+import subprocess
+import sys
 
 import requests
 
@@ -106,6 +108,41 @@ def jesus_pauses(text):
     return text
 
 
+def clean_clip(path):
+    """CRITIQUE-LAW L15 (2026-07-25): kill the background sound Cameron hears.
+
+    The ElevenLabs voices carry room tone — broadband hiss plus low rumble — and it
+    is worst on the scripture and Jesus voices (measured: between-word floor -47 dB
+    for scripture vs -80 dB for the narrator). build.py then normalises loudness with
+    about +8 dB of gain, which lifts that tone into audible range under the narration.
+
+    highpass removes the rumble below the male vocal fundamental; afftdn takes out the
+    hiss. Measured effect: noise down 8-13 dB, speech within ~1 dB, and — critically —
+    the duration is bit-for-bit unchanged, so the caption timing built from the
+    ElevenLabs alignment stays in sync. Output stays 44100 Hz so the QC gate still
+    reads it as ElevenLabs.
+    """
+    tmp = path + ".clean.mp3"
+    try:
+        subprocess.run(
+            ["ffmpeg", "-y", "-v", "error", "-i", path,
+             "-af", "highpass=f=75,afftdn=nf=-32:nt=w",
+             "-c:a", "libmp3lame", "-b:a", "128k", "-ar", "44100", tmp],
+            check=True, capture_output=True)
+        if os.path.getsize(tmp) > 1000:
+            os.replace(tmp, path)
+            return True
+    except Exception as e:
+        sys.stderr.write(f"[mbm_eleven] clean_clip skipped for {path}: {e}\n")
+    finally:
+        if os.path.exists(tmp):
+            try:
+                os.remove(tmp)
+            except OSError:
+                pass
+    return False
+
+
 def _sentences_with_times(spoken, alignment):
     """Aggregate ElevenLabs char-level alignment into per-sentence start/end."""
     chars = alignment["characters"]
@@ -155,6 +192,7 @@ def render_segment(spoken_text_str, speaker, out_mp3, key=None):
     data = r.json()
     with open(out_mp3, "wb") as f:
         f.write(base64.b64decode(data["audio_base64"]))
+    clean_clip(out_mp3)          # strip the room tone before it gets +8 dB of gain
     sents = _sentences_with_times(api_text, data["alignment"])
     for s in sents:  # keep the pause tags out of the caption-timing text
         s["text"] = re.sub(r'\s*<break[^>]*/>\s*', ' ', s["text"]).strip()
