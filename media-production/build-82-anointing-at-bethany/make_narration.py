@@ -60,30 +60,25 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0a", NARRATOR, "In a house in Bethany, days before the end, a woman came to Jesus at the table."),
-    ("n0b", NARRATOR, "She carried an alabaster jar of pure, costly perfume."),
-    ("n1a", NARRATOR, "She broke the jar open,"),
+    ("n0a", NARRATOR, 'In a house in Bethany, days before the end, a woman came to Jesus at the table.'),
+    ("n0b", NARRATOR, 'She carried an alabaster jar of pure, costly perfume.'),
+    ("n1a", NARRATOR, 'She broke the jar open,'),
     ("n1b", NARRATOR, "and poured all of it over his head — a year's wages, gone in a moment."),
-    ("n2", NARRATOR, "Some of the men at the table were furious. Mark writes down what they said:"),
-    # Mark 14:4-5
-    ("s4", SCRIPTURE, "Why was this waste of the ointment made? For it might have been sold for more than three hundred pence, and have been given to the poor."),
-    ("n2b", NARRATOR, "Why has this been wasted? they said. It could have been sold for more than three hundred silver coins — nearly a year's pay for a working man — and the money given to the poor. And Mark adds one more line: they murmured against her. They said it where she could hear it. She does not answer them. She never says a single word in this whole story."),
-    ("n3", NARRATOR, "Jesus stopped them cold, and defended her."),
-    # Mark 14:6
-    ("j1", JESUS, "Let her alone; why trouble ye her? she hath wrought a good work on me."),
-    ("n3b", NARRATOR, "Leave her alone. Why are you giving her a hard time? She has done a beautiful thing for me. Not a wasteful thing."),
-    ("n4", NARRATOR, "And then he answered the argument about the money directly:"),
-    # Mark 14:7
-    ("j1b", JESUS, "For ye have the poor with you always, and whensoever ye will ye may do them good: but me ye have not always."),
-    ("n4b", NARRATOR, "You will always have the poor with you, he said, and any time you want to, you can do good for them. He was not brushing the poor aside. He was telling a room full of men that the window on this particular kindness was closing, and only one person in it had noticed."),
-    # Mark 14:8
-    ("j2", JESUS, "She hath done what she could: she is come aforehand to anoint my body to the burying."),
-    ("n4c", NARRATOR, "She did what she was able to do, he said. She has come ahead of time to prepare my body for burial. Nobody else in that house would even let him say the word."),
-    ("n5", NARRATOR, "Whether she fully knew it or not, she was the only one in that room who had prepared him for what was coming."),
-    # Mark 14:9
-    ("j3", JESUS, "Verily I say unto you, Wheresoever this gospel shall be preached throughout the whole world, this also that she hath done shall be spoken of for a memorial of her."),
-    ("n6", NARRATOR, "Wherever this good news is told, anywhere in the world, what she did today will be told with it, so she is remembered. She gave the most extravagant thing she owned, and he received it as beautiful. Not wasteful — worship. And he was right about the memorial: all these centuries later, here we are, telling her story."),
-    ("card", NARRATOR, "She gave him her best and he called it beautiful. What would it mean to stop holding back from him?"),
+    ("n2", NARRATOR, 'Some of the men at the table were furious. Mark writes down what they said:'),
+    ("s4", SCRIPTURE, 'Why was this waste of the ointment made? For it might have been sold for more than three hundred pence, and have been given to the poor.'),
+    ("n2b", NARRATOR, 'And Mark adds one more line: they murmured against her. They said it where she could hear it. She does not answer them. She never says a single word in this whole story.'),
+    ("n3", NARRATOR, 'Jesus stopped them cold, and defended her.'),
+    ("j1", JESUS, 'Let her alone; why trouble ye her? she hath wrought a good work on me.'),
+    ("n3b", NARRATOR, 'Leave her alone. Why are you giving her a hard time? She has done a beautiful thing for me. Not a wasteful thing.'),
+    ("n4", NARRATOR, 'And then he answered the argument about the money directly:'),
+    ("j1b", JESUS, 'For ye have the poor with you always, and whensoever ye will ye may do them good: but me ye have not always.'),
+    ("n4b", NARRATOR, 'He was not brushing the poor aside. He was telling a room full of men that the window on this particular kindness was closing, and only one person in it had noticed.'),
+    ("j2", JESUS, 'She hath done what she could: she is come aforehand to anoint my body to the burying.'),
+    ("n4c", NARRATOR, 'She did what she was able to do, he said. She has come ahead of time to prepare my body for burial. Nobody else in that house would even let him say the word.'),
+    ("n5", NARRATOR, 'Whether she fully knew it or not, she was the only one in that room who had prepared him for what was coming.'),
+    ("j3", JESUS, 'Verily I say unto you, Wheresoever this gospel shall be preached throughout the whole world, this also that she hath done shall be spoken of for a memorial of her.'),
+    ("n6", NARRATOR, 'Wherever this good news is told, anywhere in the world, what she did today will be told with it, so she is remembered. She gave the most extravagant thing she owned, and he received it as beautiful. Not wasteful — worship. And he was right about the memorial: all these centuries later, here we are, telling her story.'),
+    ("card", NARRATOR, 'She gave him her best and he called it beautiful. What would it mean to stop holding back from him?'),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
