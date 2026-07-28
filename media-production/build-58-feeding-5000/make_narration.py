@@ -51,29 +51,24 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n1", NARRATOR, "A huge crowd had followed Jesus to a lonely green hillside beside the lake, hungry to hear him and to be healed. He taught them and cared for them all day, until the sun began to sink and they were a long way from any town or food."),
-    ("n2", NARRATOR, "His disciples grew anxious as the light went. But Jesus turned it back on them. He looked up at the crowd coming toward him and asked Philip:"),
-    # John 6:5
-    ("j5", JESUS, "Whence shall we buy bread, that these may eat?"),
-    ("n2b", NARRATOR, "He was not worried. John tells us plainly that he already knew exactly what he was going to do — he asked to see what Philip would say."),
+    ("n1", NARRATOR, 'A huge crowd had followed Jesus to a lonely green hillside beside the lake, hungry to hear him and to be healed. He taught them and cared for them all day, until the sun began to sink and they were a long way from any town or food.'),
+    ("n2", NARRATOR, 'His disciples grew anxious as the light went. But Jesus turned it back on them. He looked up at the crowd coming toward him and asked Philip:'),
+    ("j5", JESUS, 'Whence shall we buy bread, that these may eat?'),
+    ("n2b", NARRATOR, 'He was not worried. John tells us plainly that he already knew exactly what he was going to do — he asked to see what Philip would say.'),
     ("n3", NARRATOR, "There was only one lunch in the whole crowd. Andrew, Simon Peter's brother, brought a boy to Jesus, almost embarrassed to mention it."),
-    # John 6:9
-    ("s9", SCRIPTURE, "There is a lad here, which hath five barley loaves, and two small fishes: but what are they among so many?"),
+    ("s9", SCRIPTURE, 'There is a lad here, which hath five barley loaves, and two small fishes: but what are they among so many?'),
     ("n3b", NARRATOR, "Barley was the poor man's bread. It was the smallest, cheapest lunch on that whole hillside, and it was the only thing anybody offered."),
-    ("n4", NARRATOR, "Jesus was not troubled by how little there was. He said simply:"),
-    # John 6:10
-    ("j10", JESUS, "Make the men sit down."),
-    ("n4b", NARRATOR, "Have everyone sit down. And they settled in groups on the green grass, five thousand men, besides women and children, waiting to see what he would do."),
-    ("nbless", NARRATOR, "Then he took the five loaves and the two fish, and looking up to heaven, he gave thanks, and broke the bread."),
-    ("n5", NARRATOR, "And the food did not run out. The disciples carried it through the crowd, and it kept coming, bread and fish, more and more, until every single person there had eaten as much as they wanted, and was full."),
-    # John 6:12
-    ("jv12", JESUS, "Gather up the fragments that remain, that nothing be lost."),
+    ("n4", NARRATOR, 'Jesus was not troubled by how little there was. He said simply:'),
+    ("j10", JESUS, 'Make the men sit down.'),
+    ("n4b", NARRATOR, 'And they settled in groups on the green grass, five thousand men, besides women and children, waiting to see what he would do.'),
+    ("nbless", NARRATOR, 'Then he took the five loaves and the two fish, and looking up to heaven, he gave thanks, and broke the bread.'),
+    ("n5", NARRATOR, 'And the food did not run out. The disciples carried it through the crowd, and it kept coming, bread and fish, more and more, until every single person there had eaten as much as they wanted, and was full.'),
+    ("jv12", JESUS, 'Gather up the fragments that remain, that nothing be lost.'),
     ("n6", NARRATOR, "Pick up every scrap that's left, he said. Let nothing go to waste. So they went through the crowd and gathered what was left, and filled twelve baskets with the broken pieces. They ended with far more than they had started with. The little lunch, placed in his hands, had become a feast."),
-    ("n7", NARRATOR, "When the people saw the sign, they were amazed, and began to say:"),
-    # John 6:14
-    ("s14", SCRIPTURE, "This is of a truth that prophet that should come into the world."),
-    ("n7b", NARRATOR, "He had taken almost nothing, given thanks for it, and fed them all."),
-    ("card", NARRATOR, "He still takes the little you have, the not-enough, the barely-anything, the lunch you are embarrassed to offer, and gives thanks for it, and breaks it, and somehow it becomes enough, with baskets to spare. What small thing is he asking you to place in his hands?"),
+    ("n7", NARRATOR, 'When the people saw the sign, they were amazed, and began to say:'),
+    ("s14", SCRIPTURE, 'This is of a truth that prophet that should come into the world.'),
+    ("n7b", NARRATOR, 'He had taken almost nothing, given thanks for it, and fed them all.'),
+    ("card", NARRATOR, 'He still takes the little you have, the not-enough, the barely-anything, the lunch you are embarrassed to offer, and gives thanks for it, and breaks it, and somehow it becomes enough, with baskets to spare. What small thing is he asking you to place in his hands?'),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
