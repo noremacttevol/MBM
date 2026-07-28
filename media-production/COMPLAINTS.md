@@ -21,7 +21,7 @@ touching anything else. Do NOT edit by hand.
 | 15 | newer cut shipped — VERIFY fixed | Old voice still this isn't the newest one i picked |
 | 16 | newer cut shipped — VERIFY fixed | That's not how you pronounce wound |
 | 17 | newer cut shipped — VERIFY fixed | At 23 seconds it shows the wrong captions from.the older version for a split second before going to the new edit where it has the pink captions |
-| 18 | UNFIXED | Not real new voice |
+| 18 | newer cut shipped — VERIFY fixed | Not real new voice |
 | 19 | newer cut shipped — VERIFY fixed | The clothes of peter and his look and all of the people in the boat keep changing and then picture jesus looks like he's burning something out of his hand all of these pictures look like they've been made by AI and I get that they have , but let's try our best not to make you look stupid. So redo them all |
 | 20 | newer cut shipped — VERIFY fixed | Not real new voice |
 | 21 | UNFIXED | Not real new voice |
