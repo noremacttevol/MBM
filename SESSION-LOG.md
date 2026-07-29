@@ -1,3 +1,57 @@
+## 2026-07-28 — V2 PRODUCTION LINE OPEN: row 1 delivered at 2K (Machine A / `Dev`)
+
+Commit: 5cd098dd9. Ran `V2-KICKOFF.md` from scratch. `media-production-v2/` did not
+exist; it does now, and **video #1 is finished and sent to Cameron**.
+
+- **Bootstrap.** Flow confirmed `logged_in`. Jesus V2 face: 3 candidates from a
+  byte-identical identity sentence (only light/background varied) → **candidate-1
+  locked** as `JESUS-V2-REF/jesus-v2-face.jpeg` — neutral light + neutral background
+  are what a face-lock ref needs so the model copies the FACE, not a scene. **Cameron
+  confirmed "1"** when shown all three. Three angle refs generated off the winner.
+- **Two tooling gaps closed in `flow_driver.py`:** it had NO model selector — every
+  generation silently rode whatever the project remembered, unlogged. Added
+  `gen --model` (verifies the chip, aborts rather than spend on a lesser model) and a
+  `models` diagnostic. Chip confirmed **Nano Banana Pro**; Flow's image output is
+  768x1376 regardless of model.
+- **`extract_beats.py`** parses a V1 build with `ast` instead of importing it, so V1
+  stays read-only (build.py's own `spoken_of()` would have written into the V1 folder).
+  It reproduced build-01's timeline to **109.0s vs the shipped mp4's 108.971s**.
+- **`v2_prompt.py`** assembles STYLE-V2 / LOCK v4 / defense line / anti-panel from
+  single definitions, so byte-identity is a property of the code, not a QC chore.
+- **MONEY LAW REVERSED BY CAMERON MID-BUILD.** *"ignore the money law that was
+  supposed to be removed because I already paid for it… there shouldn't be any
+  limitations on the money. Make it how its supposed to be."* Written into
+  FACTORY-ORDERS MONEY RULE #1 and propagated to V2-KICKOFF, PIPELINE-STATE,
+  HERMES-HANDOFF, NEXT-SESSION-C. **This matters technically, not just financially:**
+  Flow's 768x1376 is BELOW the 1080x1920 delivery size, so every Ken Burns move was
+  upscaling — the exact thing the anti-shimmer law exists to prevent. That has been
+  wrong since V1. `gemini-3-pro-image` at 2K = **1536x2752**, 4x the pixels, real
+  supersample headroom, no ~20 gens/hr ceiling, and it never touches Cameron's screen.
+  New `v2_gen_api.py` (deliberately NOT gen_stills.py, whose ANCHOR_TEXT/CHAR_TEXT
+  tell the model to match a reference PAINTING — the style V2 retired).
+- **Row 1 DONE.** 20 pictures vs V1's 11 on identical audio. V1's two STORY-COVERAGE
+  misses fixed: `w28` — her only spoken line in all of Mark 5 — now has its own frame,
+  and the hem-touch is separated from the pressing-through. Mark 5:27 obeyed: she
+  reaches from BEHIND him in every approach shot. 109.0s / 19.8 MB, verify-mp4 OK,
+  worst gap 1.58s, no music bed, captions correct per frame-strip. MINISTRY-GATE PASS.
+- **Two defects caught at the LOCK, not the frame** — the reusable lesson:
+  1. `CREAM-CROWD` — the crowd came back dressed in cream, so the one man allowed to
+     wear cream did not read as different from anybody.
+  2. `STRAY-JESUS` — the fix for #1 NAMED Jesus inside the SETTING lock, and the model
+     duly painted him into b03, seven seconds before the narration introduces him.
+  **Rule now written into the lock file itself: a setting lock describes the street and
+  the villagers and must NEVER name a character, because naming one puts him in the
+  frame.** The cream contrast belongs to JESUS LOCK v4's own "(only he wears cream)",
+  which appears in exactly the shots he belongs in.
+- **PUSH SKIPPED** (both attempts): `git push` rejected, branch behind origin — this
+  box's known 12.7 GB backlog. All work is committed locally: be02f951a, ba8b6e93a,
+  5cd098dd9. **The backlog still needs a separate repair before this machine can share.**
+- **Cost measured:** $0.134/image → **$2.68 for row 1**; ~$536 for 200 videos at 20
+  stills each, before rerolls. Generation ran ~2-3 min per 2K still.
+- **Next session:** `Read V2-KICKOFF.md and continue.` Ledger says row 1 DONE, so the
+  line resumes at row 2. Open question for Cameron: he has not yet approved video #1,
+  and the Jesus face is still marked CANDIDATE pending that approval.
+
 ## 2026-07-23 (cont. 3) — UNIFY ORDER + fresh-chat handoff (Machine C)
 
 Cameron issued the UNIFY ORDER (multi-session coordination): story source-of-truth =
