@@ -1,3 +1,47 @@
+## 2026-07-29 — PICTURES-ONLY: rows 5-11 authored (216 pictures), two silent defects killed (Machine A / `Dev`)
+
+Commit: 1283299a6 (the chain link this session verified). Continued the pictures-only
+order with the unattended runner left alive the whole time.
+
+- **Seven beat maps authored and checker-clean: rows 5, 6, 7, 8, 9, 10, 11 — 216
+  pictures queued.** Density held at 4.6-6.0 s per picture across every row, the same
+  band rows 1-4 shipped at. Rows 6 and 8 sit below the band only because they are the
+  two shortest stories, where the coverage law's floor of 10 binds before the scaling
+  does. Row 10 (John 4) is the biggest yet at 49.
+- **The runner was never restarted.** It finished row 4, rolled onto row 5, and picked
+  up each new beat map as it was committed — the re-scan design works. Throughput is
+  ~1 picture per 1.3 min, better than the 3 min/picture estimate the 270-hour figure
+  was built on.
+- **THE FLOW DRIVER WAS SILENTLY DROPPING PICTURES.** Row 5 lost two beats to a race
+  in `select_model`: it read the model chip once, got nothing, and gave up on a model
+  that was *already selected* — logging "chip says: Nano Banana Pro" in the very line
+  announcing it could not select Nano Banana Pro. Fixed by polling for the chip and
+  re-checking it before aborting. It cannot green-light a wrong model. The runner's
+  per-lap re-scan meant nothing was lost permanently, but every miss burned a lap.
+- **The ground-level-camera rotation trap.** Row 5 s02 came back rotated 90 degrees —
+  the street up the left edge, everyone on their side — because my own prompt said
+  "the camera is set LOW, close to the paving stones." Fixed the four beats across
+  rows 5/7/8 that carried that phrasing BEFORE they reached the generator, and wrote
+  the trap into V2-NEXT-SESSION-PROMPT step C. Say the low VIEWPOINT, then pin the
+  frame: "an upright vertical photograph ... the horizon is level - the picture is the
+  right way up."
+- **Step F QC on row 5** (s02, s11, s17 read at full resolution). s11 and s17 both
+  PASS and are the best evidence yet that V2 is right: locked face with green eyes,
+  cream on Jesus and nobody else, no halo, and the posture arc holding — she is bent
+  double for twelve frames and then plainly upright, face to face with him. Two soft
+  notes logged in the ledger, neither worth a reroll: crowds read calmer than the
+  beats ask for, and interiors lean slightly Byzantine rather than first-century.
+- **New tool `media-production-v2/v2_outline.py`** — prints a row's narration as one
+  line per timing phrase with absolute audio windows. beats.json is ~40 KB per row and
+  unreadable at authoring speed; this is the form a beat map is actually written from.
+- **Carried forward for the re-voice track:** Cameron's row-6 note (explain publican
+  and harlot in modern terms) is a NARRATION change and the audio is preserved, so it
+  is logged in the ledger rather than fixed here.
+- **PUSH STILL BROKEN** — this box's 12.7 GB backlog. Everything committed locally.
+- **Next session:** `Read V2-NEXT-SESSION-PROMPT.md and execute it. Start now.` The
+  runner should still be alive; check with `ps aux | grep v2_run_all` and only start
+  it if it is gone. Then author rows 12+ (`v2_prep_row.py --status`).
+
 ## 2026-07-29 — PICTURES-ONLY ORDER: all 200 rows prepped, generator running unattended (Machine A / `Dev`)
 
 Commit: 01bfe7b2c. Cameron changed the job mid-session, twice, and both are now law.

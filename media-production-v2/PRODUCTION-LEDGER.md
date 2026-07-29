@@ -251,3 +251,101 @@ the ones QC accepted before the credits ran out). All 24 are 1536×2752 on disk,
 the mix is invisible in dimensions but the API six carry more real detail. If he
 refills the API the whole row can be re-shot for pixel parity;
 if not, Flow at 2K is the standing path and rows 3+ will be uniform.
+
+---
+
+## Session 4 — 2026-07-29 (pictures-only order, authoring pass)
+
+- **Model:** Opus 5 (Claude Code)
+- **Machine:** Machine A — hostname `Dev`
+- **Job:** the PICTURES-ONLY order. Steps G (assemble), H (ministry gate) and every
+  mp4 gate are suspended. This session's work is step C (author `beats_v2.py`) plus
+  step F QC on what the unattended runner produces.
+
+### Runner
+
+`v2_run_all.py` was already alive from session 3 (PID 3817195) and was left alone all
+session. It finished row 4 (30/30), rolled onto row 5, and picked up each new beat map
+as it was committed **without a restart** — the re-scan design works as intended.
+Observed throughput ≈ 1 picture per 1.3 min, better than the 3 min/picture estimate.
+
+### Rows authored this session
+
+| row | build | scripture | pictures | runtime | s/picture | checker |
+|---|---|---|---|---|---|---|
+| 5 | build-05-bent-woman | Luke 13:10-17 | 37 | 223.0 s | 6.0 | PASS |
+| 6 | build-06-two-sons | Matt 21:28-32 | 16 | 73.1 s | 4.6 | PASS |
+| 7 | build-07-peter-water | Matt 14:22-33 | 37 | 202.1 s | 5.5 | PASS |
+| 8 | build-08-lost-coin | Luke 15:8-10 | 12 | 58.2 s | 4.9 | PASS |
+| 9 | build-09-rich-ruler | Mark 10:17-22 | 31 | 177.4 s | 5.7 | PASS |
+| 10 | build-10-well | John 4:1-42 | 49 | 282.4 s | 5.9 | PASS |
+| 11 | build-11-storm | Mark 4:35-41 | 34 | 199.8 s | 5.9 | PASS |
+
+**216 pictures queued**, all seven `--check --dump` clean. Density held at 4.6–6.0 s
+per picture across every row, which is the band rows 1–4 shipped at. The two rows
+below the band (6 and 8) are the two shortest stories, where the coverage law's floor
+of 10 pictures binds before the scaling does.
+
+### Tooling added
+
+- **`media-production-v2/v2_outline.py`** — prints a prepped row's narration as one
+  line per timing phrase with absolute audio windows. `beats.json` is ~40 KB of JSON
+  per row and cannot be read at authoring speed; this is the form a beat map is
+  actually written from. `v2_outline.py <row-number-or-dir>`.
+
+### Defects found and fixed
+
+1. **Flow driver dropped pictures silently** (`flow_driver.py select_model`). Row 5
+   lost b01 and b08 to:
+   `model chip reads: '?'` … `WARNING: could not select model 'Nano Banana Pro'
+   (chip says: Nano Banana Pro)` — the warning naming the model it claimed it could
+   not select. It read the chip ONCE, raced the page, got nothing, and dropped into
+   the selection loop for a model that was already selected; the popup has no
+   clickable row for the current model, so all four attempts failed and the
+   generation was abandoned. **Fixed:** poll for the chip (6 × 500 ms), and re-check
+   the chip before giving up — if it names the wanted model the model was right all
+   along and only the READ was late. Cannot green-light a wrong model, since the
+   True path still requires the chip's own text to match. `v2_run_all.py` re-scans
+   for missing files each lap so nothing was permanently lost, but each miss burned
+   a whole lap.
+
+2. **The ground-level-camera rotation trap.** Row 5 s02 came back ROTATED 90° — the
+   street running up the left edge, every figure on its side, unusable in a 9:16
+   cut. Cause was my own prompt: *"the camera is set LOW, close to the paving
+   stones, at the exact height her eyes have been."* Fixed the four beats across
+   three rows carrying that phrasing (r5 b02, r7 b07, r7 b20, r8 b04) before they
+   reached the generator, deleted the rotated jpeg for regeneration, and wrote the
+   trap into `V2-NEXT-SESSION-PROMPT` step C. **Replacement pattern:** state the low
+   VIEWPOINT, then pin the frame — *"an upright vertical photograph … the ground is
+   at the bottom of the frame and the sky at the top, and the horizon is level — the
+   picture is the right way up."*
+
+### Step F QC — row 5 sample
+
+Read at full resolution: s02 (FAIL, rotated — fixed above), s11, s17.
+
+- **s11 `he-came-down-to-her`** — PASS, and the strongest evidence yet that the V2
+  pipeline is right. Locked Jesus face with green eyes, cream robe with no cream
+  anywhere else in the room, no halo or rim-light, her bent double with their gazes
+  meeting, congregation in saturated deep earth colours, correct anatomy.
+- **s17 `she-stood-up-straight`** — PASS. The POSTURE ARC holds: she is fully
+  upright, shoulders back, chin level, face to face with him after twelve frames
+  bent double. Two soft notes, neither a fail: the congregation reads seated and
+  calm where the beat asked for half-risen and stunned, and the architecture leans
+  slightly Byzantine (pointed arches, carved capitals) rather than plain
+  first-century Galilean. Worth watching across the library; not worth a reroll.
+
+### Notes carried forward
+
+- **Row 6 (two sons):** Cameron's QUEUE note — "could explain in modern terms what a
+  publican and a harlot are" — is a NARRATION change. Audio is preserved untouched
+  under the pictures-only order, so it is logged here for the re-voice track.
+- **Row 6 structural note:** the V1 audio has NO voice segments for either son, so
+  the pictures carry both answers with no words to help them.
+- **Row 10** introduces a WOMAN speaker (w9/w11/w15/w19/w25/w29) — first row in the
+  queue with three distinct voices.
+
+### Not done
+
+- No mp4 assembled (steps G/H suspended by the pictures-only order).
+- Push still blocked by this box's 12.7 GB backlog; all work committed locally.
