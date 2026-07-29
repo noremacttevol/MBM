@@ -104,4 +104,5 @@ CAPTCHA by hand in the Chrome window. Cap this session to ~6–8 videos to stay 
 ## SESSION HYGIENE
 Build a handful of videos, then hand off with a fresh chat (this file + the repo hold all
 state). Announce each Chrome burst; if Cameron messages mid-burst, yield instantly. Never
-touch the paid Gemini API — Flow only.
+touch the paid Gemini API — Flow only. [SUPERSEDED 2026-07-28: the Gemini-API ban
+is LIFTED; money is not a constraint. Flow stays the default because it works.]

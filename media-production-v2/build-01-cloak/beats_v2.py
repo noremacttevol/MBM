@@ -48,12 +48,28 @@ LOCKS = {
         "INDIGO-BLUE robe with a woven border and a dark blue head covering (never "
         "cream). His face is shown clearly."
     ),
+    # SETTING LOCK v3 (2026-07-28). Two failures produced this wording:
+    #   v1 said the crowd wore "earth-toned wool" and trusted the sentence "no one
+    #   but Jesus in cream" to do the separating. The model read the whole street as
+    #   one pale sand palette and dressed the CROWD in cream, so the one man who may
+    #   wear cream did not read as different from anybody (s05, HARD FAIL).
+    #   v2 fixed the colours but NAMED Jesus inside the setting description — and the
+    #   model duly painted him into b03, a beat that happens seven seconds before the
+    #   narration introduces him, standing in the background in cream (s03, story
+    #   accuracy FAIL).
+    # A setting lock describes the STREET and the VILLAGERS. It must never name a
+    # character, because naming one puts him in the frame. The cream contrast is
+    # carried by JESUS LOCK v4's own "(only he wears cream)", which is present in
+    # exactly the shots he belongs in.
     "SETTING": (
         "SETTING LOCK: a crowded lakeside town street in Galilee — pale dressed "
         "limestone walls, packed dust underfoot, the Sea of Galilee showing in gaps "
-        "between the buildings, bright honest midday light and hard clean shadows, a "
-        "dense press of ordinary Galilean villagers in earth-toned wool: browns, "
-        "russets, ochres, olive greens and dusty blues, and no one but Jesus in cream."
+        "between the buildings, bright honest midday light and hard clean shadows. "
+        "The villagers are a dense press of ordinary Galileans dressed in SATURATED, "
+        "DEEP, DARK earth colours — dark chocolate brown, deep russet red, burnt "
+        "ochre, dark olive green, and dusty indigo blue wool. Every villager is "
+        "clearly DARKER in tone than pale cream: no villager wears cream, off-white, "
+        "oatmeal, ivory, sand or any pale near-white cloth."
     ),
 }
 
@@ -107,8 +123,9 @@ BEATS = [
             "both sides step back from her and pull their children in close, leaving a "
             "clear empty gap of dust all around her. Nobody touches her and nobody meets "
             "her eyes; their faces are wary rather than cruel. She is the clear focus in "
-            "the centre of the frame, small inside that empty space, exhausted. Every "
-            "figure has two arms, two hands and one head."
+            "the centre of the frame, small inside that empty space, exhausted. Everyone "
+            "in this frame is an ordinary villager. Every figure has two arms, two hands "
+            "and one head."
         ),
     },
     {
@@ -208,7 +225,8 @@ BEATS = [
             "outer ring of the crowd, drawing her dust-rose head cloth close around her "
             "face with one hand so she will not be recognised, quiet determination "
             "replacing hesitation. The villagers around her are all facing away toward "
-            "something ahead and none of them notice her. Bright midday light on pale "
+            "something ahead and none of them notice her. Everyone in this frame is an "
+            "ordinary villager. Bright midday light on pale "
             "stone. Every figure has two arms, two hands and one head."
         ),
     },

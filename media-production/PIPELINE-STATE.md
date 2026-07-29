@@ -32,7 +32,9 @@
   PROVEN end-to-end on build-73 (luke-4_this-day-fulfilled.mp4, 18 MB).
 
 ## HARD LAWS (tripwires)
-- Never spend Cameron's card. Paid Gemini image API / `gen_stills.py` = BANNED.
+- MONEY IS NOT A CONSTRAINT (Cameron, 2026-07-28 — ban LIFTED). Never refuse a
+  model/tier/resolution to save money. A paid API still needs a KEY from Cameron.
+  See FACTORY-ORDERS.md MONEY RULE #1.
   Flow ULTRA credits are prepaid — spend freely.
 - Never make Cameron the machine's hands — his only task is a Google login/CAPTCHA.
 - Finish what you start. 2 failed browser attempts = stop and switch.

@@ -18,10 +18,28 @@
 
 ---
 
-## MONEY RULE #1 — corrected by Cameron, 2026-07-15
+## MONEY RULE #1 — corrected by Cameron, 2026-07-15; **BAN LIFTED by Cameron, 2026-07-28**
 
-**BANNED (real extra dollars):** the paid Gemini image API — never run gen_stills.py,
-never call the API. That bills Cameron's card on top of what he already pays.
+> **2026-07-28 — Cameron:** *"ignore the money law that was supposed to be removed
+> because I already paid for it and I just need to use the subscription I have
+> already. There shouldn't be any limitations on the money. Make it how it's supposed
+> to be."*
+>
+> **The Gemini-API ban is LIFTED.** Do not refuse a generation path, a model tier, or a
+> resolution on cost grounds. Pick whatever produces the right picture. Quality is the
+> constraint; money is not.
+>
+> Two things that are still true and are NOT money limits:
+> 1. **A paid API needs a key from Cameron.** Nothing can call the Gemini API until he
+>    supplies one — that is a missing credential, not a budget rule. Ask for it plainly
+>    if a job needs it; never invent or go hunting for a key.
+> 2. **Never say a Flow generation is "free", "$0" or "0 credits."** It runs on the plan
+>    he already pays for. Log the figure the tool prints, verbatim, without calling it
+>    free.
+
+**Superseded (kept for provenance — this was the rule from 2026-07-15 to 2026-07-28):**
+~~BANNED (real extra dollars): the paid Gemini image API — never run gen_stills.py,
+never call the API. That bills Cameron's card on top of what he already pays.~~
 
 **FREE TO USE (already paid for):** Cameron's Flow ULTRA plan credits — 25,000/month,
 and they EXPIRE monthly. Spending them costs nothing extra; letting them rot wastes

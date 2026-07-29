@@ -67,4 +67,54 @@ rather than copying the portrait.
 
 | row | slug | start | end | mins | beats | gens | accepted | rerolls | credits-noted | status | notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| _pending_ | | | | | | | | | | | |
+| 1 | build-01-cloak | 2026-07-28 22:06 | — | — | 20 | — | — | 1× CREAM-CROWD (+2 relock) | `0 credits` per gen | IN-PROGRESS (last step E) | see below |
+
+#### Row 1 — build-01-cloak (Mark 5:25-34)
+
+- **Steps A–D complete.** Beat truth extracted from the read-only V1 build; the V2
+  timeline arithmetic reproduces the shipped V1 mp4 to within 0.03 s (109.0 vs 108.97).
+  Audio COPIED, never moved. v4 checklist: PASS on all 20.
+- **Coverage: 20 pictures, against V1's 11.** V1's two clear STORY-COVERAGE misses are
+  fixed: `w28` — her only spoken line in all of Mark 5 — now has its own frame, and the
+  hem-touch is separated from the pressing-through.
+- **Defect: CREAM-CROWD (s05).** The crowd came back dressed in pale cream, so the one
+  man who may wear cream did not read as different from anybody. Root cause was in the
+  SETTING lock, not the beat: it said "earth-toned wool" and leaned on the sentence "no
+  one but Jesus in cream" to do the work. Fixed at the lock (now **SETTING LOCK v2** —
+  colours stated as SATURATED/DEEP/DARK and explicitly darker than his robe), so it
+  cannot recur on the other 10 crowd shots.
+- **Why the run was stopped to fix it:** 11 crowd shots were still queued behind s05 and
+  would have inherited the same failure — ~35 min of generation to throw away. Cheaper
+  to stop, fix the lock, resume.
+- **s03/s04 regenerated too.** Both were visually fine under SETTING LOCK v1, but the
+  law requires one byte-identical lock across a video's prompts, so they were re-shot
+  under v2 rather than left as the odd ones out. Originals kept in
+  `assets/_v1lock-fallback/` — if a re-shot one comes back worse, the better picture
+  wins and the discrepancy gets recorded here honestly.
+- **Second defect: STRAY-JESUS (s03 under lock v2).** The v2 lock fixed the crowd
+  colours — and then put Jesus in a frame he does not belong in. The lock said "darker
+  than Jesus's pale cream robe … Jesus alone wears cream", and the model did the
+  reasonable thing with a named character: it painted him in, standing in the
+  background in cream, **seven seconds before the narration introduces him**. The
+  reveal at 15.11 s ("That day, Jesus was already on his way…") would have landed on a
+  man the viewer had already been looking at.
+- **Rule learned, written into the lock as a comment:** *a setting lock describes the
+  street and the villagers and must never name a character, because naming one puts him
+  in the frame.* **SETTING LOCK v3** states the villagers' colours and the no-pale-cloth
+  rule with no character named; the cream contrast is carried by JESUS LOCK v4's own
+  "(only he wears cream)", which is present in exactly the shots he belongs in. The two
+  non-Jesus setting beats (b03, b09) also gained the positive line "Everyone in this
+  frame is an ordinary villager."
+- Cost of catching it here rather than at assembly: one still. Cost if the crowd fix
+  had been trusted without re-QC: a stray Jesus in every non-Jesus street shot of 200
+  videos.
+
+QC record (V2 rubric — accept only ≥4 average with nothing below 3):
+
+| still | verdict | note |
+|---|---|---|
+| s01-twelve-years | ACCEPT | alone in a bare room, cup and blanket, twelve years on her face; anatomy clean |
+| s02-physicians | ACCEPT | the last coins visibly leaving her purse into his palm — action reads at a glance; woman consistent with s01 |
+| s03-untouchable | re-shot under SETTING LOCK v2 | v1-lock version was good: a corridor of villagers stepping back, clear empty dust around her |
+| s04-jairus-urging | re-shot under SETTING LOCK v2 | v1-lock version was good: **first Jesus shot — face matched the ref, composed the wide scene instead of echoing the portrait, only he in cream** |
+| s05-crowd-pressing | **HARD FAIL → CREAM-CROWD** | composition and face were right; the crowd's cream wardrobe killed it |

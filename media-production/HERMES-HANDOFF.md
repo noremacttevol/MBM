@@ -25,7 +25,9 @@ DONE = all 200 built to law, approved by Cameron, live on the review gallery.
 5. media-production/QUEUE.md — the one board; media-production/AUDITS/ — session audit data
 
 ## CAMERON'S RULES — STATED OVER AND OVER, VIOLATED TOO MANY TIMES. NEVER AGAIN:
-1. **Never spend his card.** The paid Gemini image API is BANNED (gen_stills.py never runs).
+1. **Money is NOT a constraint (Cameron, 2026-07-28 — the old Gemini-API ban is
+   LIFTED).** Never refuse a model, tier or resolution on cost grounds. A paid API
+   still needs a KEY from Cameron. See FACTORY-ORDERS.md MONEY RULE #1.
    His Flow ULTRA credits (25k/mo, expire monthly) are prepaid — SPEND THEM FREELY for
    quality. This was violated once ($1.47) and it nearly ended the project.
 2. **Never make Cameron the machine's hands.** He does exactly two things: Google
