@@ -37,7 +37,38 @@ order with the unattended runner left alive the whole time.
 - **Carried forward for the re-voice track:** Cameron's row-6 note (explain publican
   and harlot in modern terms) is a NARRATION change and the audio is preserved, so it
   is logged in the ledger rather than fixed here.
-- **PUSH STILL BROKEN** — this box's 12.7 GB backlog. Everything committed locally.
+- **THE GIT SPLIT IS NOT WHAT THE DOCS SAY, AND IT IS NOW MERGED LOCALLY.** The
+  blocker was never a "12.7 GB backlog" — this box had genuinely DIVERGED from origin
+  at 35489e5b1 (2026-07-23): 792 commits here, 433 on origin from Machine C. Cameron
+  chose merge over rebase. Two things had to happen first:
+  - **`git status` under-reports untracked files.** It collapses a wholly-untracked
+    DIRECTORY into one entry ending in `/`, so a per-extension filter silently skips
+    every file inside it. There were **4286** untracked files, not the 1551 status
+    showed, and the first merge attempt aborted on `media-production/TRANSCRIPTS/`
+    because of it. Use `git ls-files --others --exclude-standard`. Everything was
+    COMMITTED (never stashed) as two checkpoints, because committing cannot lose work.
+  - **3081 conflicts, ZERO of them in `media-production-v2/`** — the V2 rebuild and
+    Machine C's V1 redos never touched the same file. Resolution: V1 media/site took
+    ORIGIN's version (V2-KICKOFF makes V1 read-only for this box); `admin/qc_gate.py`
+    and `qc_sweep.py` kept OURS, because this box's refactor imports `corpus.py` and
+    `render_receipt.py` which exist ONLY here — origin's older inline version would
+    have been a regression, and it adds nothing ours lacks; `SESSION-LOG.md` was
+    hand-merged so all 17 entries from both machines survive.
+  - All seven beat maps re-verified PASS after the merge. Recovery tag
+    **`pre-merge-2026-07-29`** points at the pre-merge state.
+- **THE PUSH STILL FAILS, AND NOW WE KNOW WHY: the repo is 65.6 GiB of packed
+  history.** `git push` dies with `RPC failed; HTTP 500` — GitHub refusing 19,408
+  objects in one upload. Things that were tried and DO NOT work, so nobody repeats
+  them: chunked pushes (every intermediate commit on this side lacks origin's 433
+  commits, so each is a non-fast-forward — only the merge commit itself is a valid
+  fast-forward, and it must go as one unit); raising `http.postBuffer`; SSH (a key
+  exists at `~/.ssh/id_ed25519` but GitHub answers `Permission denied (publickey)`,
+  so it is not registered on Cameron's account).
+  **The real fix is for Cameron, and it is a decision, not a command:** either
+  register that SSH key on GitHub (SSH has no HTTP-layer size ceiling and is the most
+  likely one-step fix), or stop tracking generated media in git — the mp4/mp3/jpeg
+  under `media-production/` are what make this history 65 GB, and `media-production-v2`
+  already gitignores them.
 - **Next session:** `Read V2-NEXT-SESSION-PROMPT.md and execute it. Start now.` The
   runner should still be alive; check with `ps aux | grep v2_run_all` and only start
   it if it is gone. Then author rows 12+ (`v2_prep_row.py --status`).
