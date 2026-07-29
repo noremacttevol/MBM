@@ -184,8 +184,26 @@ def ensure_model(page, want, open_chip, chip_text):
     # here and produced 768x1376 stills — Nano Banana 2's size — with no line in the
     # log saying which model ran. A generation you cannot attribute to a model is a
     # generation you cannot trust, so the chip text goes in the log every time.
-    first = (chip_text() or "?").strip().splitlines()[0]
-    print(f"  model chip reads: {first!r} (want {want!r})")
+    #
+    # POLL for the chip instead of reading it once (2026-07-29, Machine A). Reading
+    # it once raced the page: on a slow lap chip_text() came back empty, `first`
+    # became '?', and the driver dropped into the selection loop for a model that
+    # was ALREADY selected — then failed every attempt, because the popup offers no
+    # clickable row for the current model. Row 5 lost b01 and b08 that way, each
+    # logging "chip says: Nano Banana Pro" in the very line announcing it could not
+    # select Nano Banana Pro. The runner re-scans and retries, so nothing was lost
+    # permanently, but every miss burns a whole lap.
+    def first_line():
+        lines = (chip_text() or "").strip().splitlines()
+        return lines[0].strip() if lines else ""
+
+    first = ""
+    for _ in range(6):
+        first = first_line()
+        if first:
+            break
+        page.wait_for_timeout(500)
+    print(f"  model chip reads: {(first or '?')!r} (want {want!r})")
     if want.lower() in first.lower():
         return True
 
@@ -226,8 +244,17 @@ def ensure_model(page, want, open_chip, chip_text):
                 return True
         page.keyboard.press("Escape")
         page.wait_for_timeout(400)
-    print(f"  WARNING: could not select model '{want}' "
-          f"(chip says: {(chip_text() or '?').splitlines()[0]})")
+    # LAST CHECK BEFORE GIVING UP (2026-07-29, Machine A). The chip is the
+    # authority on which model will run, so ask it one more time before aborting a
+    # generation. If it now names the wanted model then the model was correct all
+    # along and only the READ was late — abort anyway and we throw away a good
+    # picture. This can never green-light the wrong model: returning True here
+    # still requires the chip's own text to contain `want`.
+    final = first_line() or "?"
+    if want.lower() in final.lower():
+        print(f"  model: {want} (chip confirmed it on the final check)")
+        return True
+    print(f"  WARNING: could not select model '{want}' (chip says: {final})")
     return False
 
 
