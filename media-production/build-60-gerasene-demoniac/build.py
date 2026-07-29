@@ -37,6 +37,7 @@ S3 = "s3-he-ran.jpeg"
 S4 = "s4-at-his-feet.jpeg"
 S5 = "s5-the-question.jpeg"
 S6 = "s6-the-herd.jpeg"
+S6B = "s6b-the-stillness-before.jpeg"  # coverage split 2026-07-29: quiet herd before the break (n6+s12); n6b keeps the stampede
 S7 = "s7-right-mind.jpeg"
 S8 = "s8-the-commission.jpeg"
 S9 = "s9-decapolis.jpeg"
@@ -60,8 +61,8 @@ BEATS = [
     ("j2", S5, "out"),
     ("s9", S5, "in"),
     ("n5", S5, "out"),
-    ("n6", S6, "in"),
-    ("s12", S6, "out"),
+    ("n6", S6B, "in"),
+    ("s12", S6B, "out"),
     ("n6b", S6, "in"),
     ("n7", S7, "in"),
     ("n8", S8, "in"),
