@@ -1,0 +1,41 @@
+{
+  "row": 189,
+  "slug": "to-him-that-overcometh",
+  "segments": [
+    {
+      "id": "n0",
+      "speaker": "narrator",
+      "text": "To a church that had grown comfortable and half-asleep, Jesus sent a knock at the door \u2014 not a storm, just a knock."
+    },
+    {
+      "id": "j1",
+      "speaker": "jesus",
+      "text": "Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him, and will sup with him, and he with me."
+    },
+    {
+      "id": "n1",
+      "speaker": "narrator",
+      "text": "He does not break the door. He waits to be invited in."
+    },
+    {
+      "id": "n2",
+      "speaker": "narrator",
+      "text": "And to the one who opens, who keeps opening, he promises a seat no empire can give."
+    },
+    {
+      "id": "j2",
+      "speaker": "jesus",
+      "text": "To him that overcometh will I grant to sit with me in my throne, even as I also overcame, and am set down with my Father in his throne."
+    },
+    {
+      "id": "n3",
+      "speaker": "narrator",
+      "text": "The one who overcomes doesn't earn a throne by being flawless. He shares the one Christ already won."
+    },
+    {
+      "id": "card",
+      "speaker": "narrator",
+      "text": "He is knocking right now. Open, and you will eat with him \u2014 and reign with him."
+    }
+  ]
+}

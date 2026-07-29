@@ -1,0 +1,52 @@
+saved audio/n0.mp3  [narrator]
+saved audio/n1.mp3  [narrator]
+saved audio/j1.mp3  [jesus]
+saved audio/n1b.mp3  [narrator]
+saved audio/jv46.mp3  [jesus]
+saved audio/n1c.mp3  [narrator]
+saved audio/s30b.mp3  [scripture]
+saved audio/n2.mp3  [narrator]
+saved audio/s51.mp3  [scripture]
+saved audio/n3a.mp3  [narrator]
+saved audio/n3b.mp3  [narrator]
+saved audio/n4a.mp3  [narrator]
+saved audio/n4b.mp3  [narrator]
+saved audio/card.mp3  [narrator]
+>> ffmpeg -y -v error -i audio/n0.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/n1.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/j1.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/n1b.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse 
+>> ffmpeg -y -v error -i audio/jv46.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse
+>> ffmpeg -y -v error -i audio/n1c.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse 
+>> ffmpeg -y -v error -i audio/s30b.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse
+>> ffmpeg -y -v error -i audio/n2.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/s51.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse 
+>> ffmpeg -y -v error -i audio/n3a.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse 
+>> ffmpeg -y -v error -i audio/n3b.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse 
+>> ffmpeg -y -v error -i audio/n4a.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse 
+>> ffmpeg -y -v error -i audio/n4b.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse 
+>> ffmpeg -y -v error -i audio/card.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse
+total runtime: 106.3s (1.77 min)
+worst spoken gap: 1.88s before j1 (<= 2.5s)
+sacred silence: j1 (John 19:30) at 19.9s
+>> ffmpeg -y -loop 1 -i assets/s1-the-failing-light.jpeg -t 10.485458 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+
+>> ffmpeg -y -loop 1 -i assets/s2-eyes-toward-heaven.jpeg -t 9.164375 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+
+>> ffmpeg -y -loop 1 -i assets/s3-it-is-finished.jpeg -t 3.20275 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+0.09*
+>> ffmpeg -y -loop 1 -i assets/s3-it-is-finished.jpeg -t 10.111583 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.091-0.0
+>> ffmpeg -y -loop 1 -i assets/s4-he-bowed-his-head.jpeg -t 5.616417 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+0
+>> ffmpeg -y -loop 1 -i assets/s4-he-bowed-his-head.jpeg -t 11.055708 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.091-
+>> ffmpeg -y -loop 1 -i assets/s4-he-bowed-his-head.jpeg -t 5.019208000000001 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z
+>> ffmpeg -y -loop 1 -i assets/s4-he-bowed-his-head.jpeg -t 10.026 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.091-0.0
+>> ffmpeg -y -loop 1 -i assets/s5-the-veil-begins-to-split.jpeg -t 6.84075 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1
+>> ffmpeg -y -loop 1 -i assets/s5-the-veil-begins-to-split.jpeg -t 10.733 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.
+>> ffmpeg -y -loop 1 -i assets/s6-torn-in-two.jpeg -t 3.1384579999999995 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.0
+>> ffmpeg -y -loop 1 -i assets/s7-the-way-standing-open.jpeg -t 8.443917 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.0
+>> ffmpeg -y -loop 1 -i assets/s8-light-into-darkness.jpeg -t 3.9165829999999997 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompa
+>> ffmpeg -y -f lavfi -i color=c=0xF7F2E9:s=1080x1920:r=30:d=8.567833 -vf drawtext=fontfile=segs/serif.ttf:textfile=segs/card.txt:fon
+>> ffmpeg -y -f concat -safe 0 -i segs/concat.txt -c copy segs/video_silent.mp4
+>> ffmpeg -y -i audio/n0.mp3 -i audio/n1.mp3 -i audio/j1.mp3 -i audio/n1b.mp3 -i audio/jv46.mp3 -i audio/n1c.mp3 -i audio/s30b.mp3 -i
+loudness: measured -20.1 LUFS, applying +5.1 dB
+video budget: 2103 kbps (106s)
+>> ffmpeg -y -i segs/video_silent.mp4 -i segs/audio_mix.m4a -map 0:v -map 1:a -c:v libx264 -preset slow -crf 20 -maxrate 2103k -bufsi
+DONE: john-19_it-is-finished.mp4  23.5 MB, 106.3s (crf 20, vcap 2103k)
+OK: john-19_it-is-finished.mp4  video=106.333333s audio=106.323991s size=23483518

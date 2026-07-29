@@ -1,0 +1,91 @@
+#!/usr/bin/env bash
+# AGENT #4 — SYNC AND FINISH. The hands-off loop Cameron asked for: always turn
+# everyone else's finished work into fresh videos on the reviewer.
+#
+# For each build whose INPUTS on GitHub (stills #3 / audio #2 / script #1) are
+# newer than its video on the board:
+#   1. adopt GitHub as truth  — checkout origin's assets/audio/PROMPTS/make_narration
+#   2. re-apply the echo trim  — echo_fix.py is idempotent (0 echoes -> no-op), so
+#      the narrator-repeat can NEVER come back no matter who edits the script
+#   3. rebuild the captioned video (build.py) + verify-mp4
+#   4. ship ONLY if the bytes actually changed (no wasted pushes), race-retry
+#   5. redeploy the board (cache-buster) so Cameron sees the current cut
+#
+# GitHub is the single source of truth; this box never invents state. Safe to run
+# on cron — a build already current rebuilds to identical bytes and ships nothing.
+#
+# Usage: bash media-production/sync-and-finish.sh          # all stale
+#        BATCH=5 bash media-production/sync-and-finish.sh  # cap per run (cron)
+set -u
+cd "$(dirname "$0")/.." || exit 1
+export PATH="$HOME/.npm-global/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
+LOG=media-production/sync-and-finish.log
+LOCK=/tmp/mbm-sync-finish.lock
+exec 9>"$LOCK"; flock -n 9 || { echo "already running"; exit 0; }
+say() { echo "[$(date '+%m-%d %H:%M:%S')] $*" | tee -a "$LOG"; }
+
+git fetch -q origin 2>/dev/null || { say "fetch failed"; exit 1; }
+# Explicit build numbers as args override auto-detection (used for a voice-first pass).
+if [ "$#" -gt 0 ]; then
+  NUMS="$*"
+else
+  NUMS=$(python3 media-production/stale_videos.py --nums 2>/dev/null)
+fi
+[ -z "${NUMS// }" ] && { say "nothing stale — board is current with everyone's work."; exit 0; }
+[ -n "${BATCH:-}" ] && NUMS=$(echo $NUMS | tr ' ' '\n' | head -n "$BATCH")
+say "builds to redo: $(echo $NUMS | tr '\n' ' ')"
+
+CHANGED=""
+for n in $NUMS; do
+  d=$(ls -d media-production/build-$(printf '%02d' "$n")-* 2>/dev/null | head -1)
+  [ -z "$d" ] && continue
+  b=$(basename "$d"); mp4=$(find "$d" -maxdepth 1 -name '*_*.mp4' | head -1)
+  [ -z "$mp4" ] && { say "SKIP $b: no mp4 path"; continue; }
+  rel=$mp4
+  # 1. adopt GitHub's inputs as truth
+  git checkout -q origin/main -- "$d/assets" "$d/audio" "$d/PROMPTS.md" "$d/make_narration.py" 2>/dev/null
+  # 2. re-apply echo trim (idempotent; re-voices trimmed segments)
+  python3 media-production/echo_fix.py "$n" >>"$LOG" 2>&1 || true
+  # 3. rebuild + verify
+  ( cd "$d" && timeout 900 python3 build.py ) >>"$LOG" 2>&1
+  if ! bash admin/verify-mp4.sh "$mp4" >/dev/null 2>&1; then say "BLOCK $b: verify-mp4 failed"; continue; fi
+  # 4. changed vs board?
+  if [ "$(git hash-object "$mp4")" = "$(git rev-parse origin/main:"$rel" 2>/dev/null)" ]; then
+    say "OK    $b: already current (no change)"; continue
+  fi
+  say "NEW   $b: rebuilt, differs from board — will ship"
+  CHANGED="$CHANGED $n"
+done
+
+[ -z "${CHANGED// }" ] && { say "done: nothing changed."; exit 0; }
+
+# 5. ship all changed in ONE commit, race-retry, then deploy board
+WT=$(mktemp -d /tmp/mbm-wt.XXXX)
+for attempt in 1 2 3 4 5; do
+  git fetch -q origin 2>/dev/null
+  rm -rf "$WT"; git worktree prune 2>/dev/null; git worktree add --detach -q "$WT" origin/main || continue
+  for n in $CHANGED; do
+    d=$(ls -d media-production/build-$(printf '%02d' "$n")-* | head -1); mp4=$(find "$d" -maxdepth 1 -name '*_*.mp4'|head -1)
+    mkdir -p "$WT/$(dirname "$mp4")"; cp "$mp4" "$WT/$mp4"
+  done
+  ( cd "$WT" && git add -A && git -c user.name="Claude Fable 5" -c user.email="noreply@anthropic.com" \
+      commit -q -m "Agent #4: sync+finish — rebuilt from latest GitHub inputs ($(echo $CHANGED|tr '\n' ' '))" 2>/dev/null
+    git push origin HEAD:main 2>>"$LOG" )
+  git fetch -q origin 2>/dev/null
+  d1=$(ls -d media-production/build-$(printf '%02d' "$(echo $CHANGED|awk '{print $1}')")-*|head -1)
+  m1=$(find "$d1" -maxdepth 1 -name '*_*.mp4'|head -1)
+  [ "$(git hash-object "$m1")" = "$(git rev-parse origin/main:"$m1" 2>/dev/null)" ] && { say "SHIPPED:$CHANGED"; break; }
+  say "race lost, retry $attempt"
+done
+git worktree remove --force "$WT" 2>/dev/null; git worktree prune 2>/dev/null; rm -rf "$WT"
+
+# board refresh so the cache-buster points at the new bytes
+node admin/sync-reviews.mjs >/dev/null 2>&1 || true
+# regen the QC gate from reality FIRST — else a stale QC-STATUS.json hides the
+# freshly-shipped videos (this exact bug hid 192 of 200 on 2026-07-24).
+python3 media-production/regen_qc_status.py >/dev/null 2>&1 || true
+python3 media-production/gen_site_index.py >/dev/null 2>&1 || true
+if firebase deploy --only hosting --project milk-b4-meat >/dev/null 2>&1; then say "board redeployed";
+else python3 media-production/prune_hosting_versions.py >/dev/null 2>&1
+     firebase deploy --only hosting --project milk-b4-meat >/dev/null 2>&1 && say "board redeployed (after prune)" || say "deploy FAILED"; fi
+say "done."

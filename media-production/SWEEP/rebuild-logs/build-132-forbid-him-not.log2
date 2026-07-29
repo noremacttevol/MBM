@@ -1,0 +1,41 @@
+saved audio/s38.mp3  [scripture]
+saved audio/n0.mp3  [narrator]
+saved audio/n1.mp3  [narrator]
+saved audio/n2.mp3  [narrator]
+saved audio/j1.mp3  [jesus]
+saved audio/n2b.mp3  [narrator]
+saved audio/jv41.mp3  [jesus]
+saved audio/n3a.mp3  [narrator]
+saved audio/n3b.mp3  [narrator]
+saved audio/n4.mp3  [narrator]
+saved audio/card.mp3  [narrator]
+>> ffmpeg -y -v error -i audio/s38.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse 
+>> ffmpeg -y -v error -i audio/n0.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/n1.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/n2.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/j1.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/n2b.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse 
+>> ffmpeg -y -v error -i audio/jv41.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse
+>> ffmpeg -y -v error -i audio/n3a.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse 
+>> ffmpeg -y -v error -i audio/n3b.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse 
+>> ffmpeg -y -v error -i audio/n4.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/card.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse
+total runtime: 100.8s (1.68 min); silence after j1 (KJV) + breath on s10; worst spoken gap 1.88s before n2b
+>> ffmpeg -y -loop 1 -i assets/s1-johns-complaint.jpeg -t 11.213708 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+0.
+>> ffmpeg -y -loop 1 -i assets/s1-johns-complaint.jpeg -t 12.210833 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.091-0.
+>> ffmpeg -y -loop 1 -i assets/s4-defensive-loyalty.jpeg -t 7.611125 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+0
+>> ffmpeg -y -loop 1 -i assets/s5-the-correction.jpeg -t 6.648625 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+0.09
+>> ffmpeg -y -loop 1 -i assets/s6-forbid-him-not.jpeg -t 13.967792 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+0.0
+>> ffmpeg -y -loop 1 -i assets/s7-the-wide-circle.jpeg -t 11.9925 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+0.09
+>> ffmpeg -y -loop 1 -i assets/s8-a-cup-of-water.jpeg -t 12.117583 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+0.0
+>> ffmpeg -y -loop 1 -i assets/s8-a-cup-of-water.jpeg -t 5.586208 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.091-0.09
+>> ffmpeg -y -loop 1 -i assets/s10-many-hands-one-name.jpeg -t 4.9930829999999995 -filter_complex [0:v]scale=2160:3868,setsar=1,zoomp
+>> ffmpeg -y -loop 1 -i assets/s9-john-understands.jpeg -t 6.211 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+0.09*
+>> ffmpeg -y -loop 1 -i assets/s10-many-hands-one-name.jpeg -t 1.2 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+0.0
+>> ffmpeg -y -f lavfi -i color=c=0xF7F2E9:s=1080x1920:r=30:d=7.0833330000000005 -vf drawtext=fontfile=/usr/share/fonts/truetype/dejav
+>> ffmpeg -y -f concat -safe 0 -i segs/concat.txt -c copy segs/video_silent.mp4
+>> ffmpeg -y -i audio/s38.mp3 -i audio/n0.mp3 -i audio/n1.mp3 -i audio/n2.mp3 -i audio/j1.mp3 -i audio/n2b.mp3 -i audio/jv41.mp3 -i a
+loudness: measured -19.8 LUFS, applying +4.8 dB
+>> ffmpeg -y -i segs/video_silent.mp4 -i segs/audio_mix.m4a -map 0:v -map 1:a -c:v libx264 -preset slow -crf 20 -maxrate 1788k -bufsi
+DONE: mark-9_forbid-him-not.mp4  18.7 MB, 100.8s (crf 20, vcap 1788k)
+OK: mark-9_forbid-him-not.mp4  video=100.843991s audio=100.843991s size=18707927

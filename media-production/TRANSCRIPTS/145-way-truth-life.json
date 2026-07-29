@@ -1,0 +1,51 @@
+{
+  "row": 145,
+  "slug": "way-truth-life",
+  "segments": [
+    {
+      "id": "n0",
+      "speaker": "narrator",
+      "text": "In the upper room, the night before the cross, Jesus told His disciples He was going to prepare a place for them."
+    },
+    {
+      "id": "n1",
+      "speaker": "narrator",
+      "text": "Thomas spoke up \u2014 Lord, we don't know where You're going, so how can we know the way?"
+    },
+    {
+      "id": "j1a",
+      "speaker": "jesus",
+      "text": "I am the way, the truth, and the life:"
+    },
+    {
+      "id": "j1b",
+      "speaker": "jesus",
+      "text": "no man cometh unto the Father, but by me."
+    },
+    {
+      "id": "n2a",
+      "speaker": "narrator",
+      "text": "Not one way among many."
+    },
+    {
+      "id": "n2b",
+      "speaker": "narrator",
+      "text": "The way itself. The truth itself. The life itself \u2014 standing right there in the room with them."
+    },
+    {
+      "id": "n3a",
+      "speaker": "narrator",
+      "text": "The door to the Father isn't a map to find."
+    },
+    {
+      "id": "n3b",
+      "speaker": "narrator",
+      "text": "It's a person to follow."
+    },
+    {
+      "id": "card",
+      "speaker": "narrator",
+      "text": "Stop looking for the road. Walk with Him."
+    }
+  ]
+}

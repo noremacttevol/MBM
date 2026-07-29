@@ -1,0 +1,9821 @@
+{
+ "Nothing": {
+  "count": 9,
+  "builds": {
+   "build-01-cloak": [
+    "n2"
+   ],
+   "build-11-storm": [
+    "n1"
+   ],
+   "build-19-shore": [
+    "n5b"
+   ],
+   "build-25-wheat-and-tares": [
+    "n12"
+   ],
+   "build-27-leaven": [
+    "n5"
+   ],
+   "build-41-counting-the-cost": [
+    "card"
+   ],
+   "build-65-help-mine-unbelief": [
+    "n0",
+    "n7b"
+   ],
+   "build-110-lords-prayer": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Almost": {
+  "count": 1,
+  "builds": {
+   "build-01-cloak": [
+    "n2b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Daughter": {
+  "count": 1,
+  "builds": {
+   "build-01-cloak": [
+    "j1"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Twelve": {
+  "count": 2,
+  "builds": {
+   "build-01-cloak": [
+    "n5"
+   ],
+   "build-66-malchus-ear": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Whatever": {
+  "count": 13,
+  "builds": {
+   "build-01-cloak": [
+    "card"
+   ],
+   "build-11-storm": [
+    "n10"
+   ],
+   "build-40-the-friend-at-midnight": [
+    "n18"
+   ],
+   "build-49-water-to-wine": [
+    "n6b"
+   ],
+   "build-63-man-born-blind": [
+    "n3"
+   ],
+   "build-66-malchus-ear": [
+    "n6"
+   ],
+   "build-67-transfiguration": [
+    "card"
+   ],
+   "build-80-come-unto-me": [
+    "card"
+   ],
+   "build-90-washing-feet": [
+    "n3b"
+   ],
+   "build-91-gethsemane": [
+    "n6"
+   ],
+   "build-97-the-empty-tomb": [
+    "card"
+   ],
+   "build-119-fourth-man-in-fire": [
+    "n7"
+   ],
+   "build-137-stephen-sees-him-standing": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Old": {
+  "count": 2,
+  "builds": {
+   "build-02-prodigal": [
+    "n5b"
+   ],
+   "build-67-transfiguration": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Which": {
+  "count": 11,
+  "builds": {
+   "build-02-prodigal": [
+    "n8"
+   ],
+   "build-13-roof": [
+    "n2"
+   ],
+   "build-16-mary-martha": [
+    "card"
+   ],
+   "build-20-samaritan": [
+    "j1"
+   ],
+   "build-21-lost-sheep": [
+    "n4"
+   ],
+   "build-30-net": [
+    "j48"
+   ],
+   "build-40-the-friend-at-midnight": [
+    "jv5"
+   ],
+   "build-74-woman-washed-his-feet": [
+    "n4",
+    "card"
+   ],
+   "build-112-beatitudes": [
+    "card"
+   ],
+   "build-131-scribe-near-the-kingdom": [
+    "s28"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus",
+   "scripture"
+  ]
+ },
+ "Jericho": {
+  "count": 7,
+  "builds": {
+   "build-03-zacchaeus": [
+    "n0",
+    "n2",
+    "n6b"
+   ],
+   "build-12-bartimaeus": [
+    "n0"
+   ],
+   "build-20-samaritan": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Zacchaeus": {
+  "count": 10,
+  "builds": {
+   "build-03-zacchaeus": [
+    "n0",
+    "n1",
+    "n2",
+    "n3b",
+    "j1a",
+    "n5",
+    "n6",
+    "n7a",
+    "n7b"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus"
+  ]
+ },
+ "Matthew": {
+  "count": 18,
+  "builds": {
+   "build-03-zacchaeus": [
+    "n0"
+   ],
+   "build-07-peter-water": [
+    "n1",
+    "n7"
+   ],
+   "build-41-counting-the-cost": [
+    "n3"
+   ],
+   "build-68-multitudes-mountain": [
+    "n1",
+    "n2",
+    "n5"
+   ],
+   "build-71-calling-the-fishermen": [
+    "n9"
+   ],
+   "build-72-calling-matthew": [
+    "n1",
+    "n2",
+    "n5",
+    "n6",
+    "n11"
+   ],
+   "build-86-the-wise-men": [
+    "n3"
+   ],
+   "build-112-beatitudes": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Bible": {
+  "count": 16,
+  "builds": {
+   "build-03-zacchaeus": [
+    "n0",
+    "n3b"
+   ],
+   "build-04-nicodemus": [
+    "n2b"
+   ],
+   "build-07-peter-water": [
+    "n5b"
+   ],
+   "build-17-lazarus": [
+    "n6"
+   ],
+   "build-49-water-to-wine": [
+    "n6"
+   ],
+   "build-61-syrophoenician-woman": [
+    "n5b"
+   ],
+   "build-63-man-born-blind": [
+    "n3"
+   ],
+   "build-65-help-mine-unbelief": [
+    "n3"
+   ],
+   "build-65-help-thou-mine-unbelief": [
+    "n3"
+   ],
+   "build-68-multitudes-mountain": [
+    "n3"
+   ],
+   "build-75-woman-taken-in-adultery": [
+    "n5"
+   ],
+   "build-107-john-baptist-doubt": [
+    "n3"
+   ],
+   "build-115-ram-in-the-thicket": [
+    "n1"
+   ],
+   "build-135-rainbow-covenant": [
+    "n6",
+    "n8"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Galilee": {
+  "count": 21,
+  "builds": {
+   "build-03-zacchaeus": [
+    "n0"
+   ],
+   "build-04-nicodemus": [
+    "n0"
+   ],
+   "build-11-storm": [
+    "n0",
+    "n2"
+   ],
+   "build-13-roof": [
+    "n0"
+   ],
+   "build-14-ten-lepers": [
+    "n0"
+   ],
+   "build-15-centurion": [
+    "n1"
+   ],
+   "build-41-counting-the-cost": [
+    "n5"
+   ],
+   "build-52-demoniac-synagogue": [
+    "n8"
+   ],
+   "build-60-gerasene-demoniac": [
+    "n0"
+   ],
+   "build-68-multitudes-mountain": [
+    "n0"
+   ],
+   "build-69-baptism": [
+    "n1"
+   ],
+   "build-71-calling-the-fishermen": [
+    "n1"
+   ],
+   "build-72-calling-matthew": [
+    "n1"
+   ],
+   "build-88-triumphal-entry": [
+    "j2",
+    "n3b"
+   ],
+   "build-97-the-empty-tomb": [
+    "s6",
+    "n5a"
+   ],
+   "build-100-the-ascension": [
+    "s11"
+   ],
+   "build-121-salt-and-light": [
+    "n1"
+   ],
+   "build-124-love-your-enemies": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "scripture"
+  ]
+ },
+ "Tax": {
+  "count": 2,
+  "builds": {
+   "build-03-zacchaeus": [
+    "n1"
+   ],
+   "build-72-calling-matthew": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Rome": {
+  "count": 9,
+  "builds": {
+   "build-03-zacchaeus": [
+    "n1"
+   ],
+   "build-15-centurion": [
+    "n2"
+   ],
+   "build-39-the-pharisee-and-the-publican": [
+    "n4"
+   ],
+   "build-41-counting-the-cost": [
+    "n5"
+   ],
+   "build-72-calling-matthew": [
+    "n1"
+   ],
+   "build-81-render-unto-caesar": [
+    "n1"
+   ],
+   "build-84-no-room-manger": [
+    "n1"
+   ],
+   "build-186-joint-heirs": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Understand": {
+  "count": 6,
+  "builds": {
+   "build-03-zacchaeus": [
+    "n5"
+   ],
+   "build-10-well": [
+    "n2"
+   ],
+   "build-12-bartimaeus": [
+    "n3"
+   ],
+   "build-63-man-born-blind": [
+    "n4"
+   ],
+   "build-66-malchus-ear": [
+    "n2"
+   ],
+   "build-86-the-wise-men": [
+    "n0b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Half": {
+  "count": 1,
+  "builds": {
+   "build-03-zacchaeus": [
+    "n7b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Moses": {
+  "count": 37,
+  "builds": {
+   "build-03-zacchaeus": [
+    "n7b"
+   ],
+   "build-14-ten-lepers": [
+    "n1"
+   ],
+   "build-18-emmaus": [
+    "n4b"
+   ],
+   "build-37-rich-man-lazarus": [
+    "j5",
+    "n10",
+    "j2"
+   ],
+   "build-54-the-leper": [
+    "j44",
+    "n6b"
+   ],
+   "build-67-the-transfiguration": [
+    "n2a",
+    "j1",
+    "n2c"
+   ],
+   "build-67-transfiguration": [
+    "n3",
+    "n4",
+    "n6",
+    "n7"
+   ],
+   "build-75-woman-taken-in-adultery": [
+    "n1",
+    "s4"
+   ],
+   "build-105-face-to-face": [
+    "n1",
+    "n2",
+    "n4",
+    "nface",
+    "n5",
+    "n6",
+    "n6b",
+    "n7",
+    "n8"
+   ],
+   "build-161-called-of-god": [
+    "n4"
+   ],
+   "build-177-make-me-a-sanctuary": [
+    "n0"
+   ],
+   "build-178-in-our-image": [
+    "n0c"
+   ],
+   "build-196-would-god-all-were-prophets": [
+    "n0",
+    "n1a",
+    "n1b",
+    "n3a",
+    "n3b",
+    "s0",
+    "n4",
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus",
+   "scripture"
+  ]
+ },
+ "Nobody": {
+  "count": 23,
+  "builds": {
+   "build-03-zacchaeus": [
+    "n7b"
+   ],
+   "build-10-well": [
+    "n7"
+   ],
+   "build-12-bartimaeus": [
+    "n9"
+   ],
+   "build-17-lazarus": [
+    "n9"
+   ],
+   "build-23-vineyard": [
+    "n5b"
+   ],
+   "build-30-net": [
+    "n4"
+   ],
+   "build-35-great-banquet": [
+    "n7"
+   ],
+   "build-41-counting-the-cost": [
+    "n5"
+   ],
+   "build-43-the-wedding-garment": [
+    "n10",
+    "n16"
+   ],
+   "build-48-new-wine-old-bottles": [
+    "n3"
+   ],
+   "build-59-feeding-4000": [
+    "n1b"
+   ],
+   "build-63-man-born-blind": [
+    "n2"
+   ],
+   "build-78-who-is-my-mother": [
+    "n2"
+   ],
+   "build-82-anointing-at-bethany": [
+    "n4c"
+   ],
+   "build-96-it-is-finished": [
+    "n2"
+   ],
+   "build-121-salt-and-light": [
+    "n5"
+   ],
+   "build-126-by-their-fruits": [
+    "n2"
+   ],
+   "build-132-forbid-him-not": [
+    "n2b"
+   ],
+   "build-135-rainbow-covenant": [
+    "n10"
+   ],
+   "build-139-lamp-on-a-stand": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Being": {
+  "count": 1,
+  "builds": {
+   "build-03-zacchaeus": [
+    "n7b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Abraham": {
+  "count": 30,
+  "builds": {
+   "build-03-zacchaeus": [
+    "j2a",
+    "n8"
+   ],
+   "build-05-bent-woman": [
+    "j2",
+    "n10"
+   ],
+   "build-15-centurion": [
+    "j2b"
+   ],
+   "build-37-rich-man-lazarus": [
+    "n5",
+    "j3",
+    "n7",
+    "n8",
+    "n10",
+    "n11"
+   ],
+   "build-102-jacobs-ladder": [
+    "jv13",
+    "n5"
+   ],
+   "build-114-abraham-sodom": [
+    "n1",
+    "n3",
+    "n5",
+    "n6",
+    "n6b",
+    "n7",
+    "n8"
+   ],
+   "build-115-ram-in-the-thicket": [
+    "n1",
+    "n2",
+    "n4",
+    "n5",
+    "jv11",
+    "n6",
+    "n7"
+   ],
+   "build-190-faith-without-works": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "narrator",
+   "god"
+  ]
+ },
+ "Jerusalem": {
+  "count": 28,
+  "builds": {
+   "build-04-nicodemus": [
+    "n0"
+   ],
+   "build-12-bartimaeus": [
+    "n0",
+    "n5",
+    "n11"
+   ],
+   "build-14-ten-lepers": [
+    "n0"
+   ],
+   "build-16-mary-martha": [
+    "n1"
+   ],
+   "build-17-lazarus": [
+    "n0"
+   ],
+   "build-18-emmaus": [
+    "n0",
+    "n2",
+    "s18",
+    "n9"
+   ],
+   "build-41-counting-the-cost": [
+    "n15"
+   ],
+   "build-63-man-born-blind": [
+    "n0",
+    "n4"
+   ],
+   "build-64-pool-of-bethesda": [
+    "n0"
+   ],
+   "build-67-transfiguration": [
+    "n0"
+   ],
+   "build-83-weeping-over-jerusalem": [
+    "n0"
+   ],
+   "build-86-the-wise-men": [
+    "n0",
+    "n0b"
+   ],
+   "build-87-boy-in-the-temple": [
+    "n0a"
+   ],
+   "build-88-triumphal-entry": [
+    "n0a",
+    "j2"
+   ],
+   "build-100-the-ascension": [
+    "j1"
+   ],
+   "build-130-what-manner-of-spirit": [
+    "n0"
+   ],
+   "build-165-laying-on-hands": [
+    "n2",
+    "kv14"
+   ],
+   "build-175-mountain-of-the-lords-house": [
+    "s2b"
+   ],
+   "build-180-before-i-formed-thee": [
+    "n1r"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "scripture",
+   "jesus"
+  ]
+ },
+ "Nicodemus": {
+  "count": 12,
+  "builds": {
+   "build-04-nicodemus": [
+    "n0",
+    "n2b",
+    "n3a",
+    "n4",
+    "n4b",
+    "n6",
+    "n9",
+    "n10",
+    "n11"
+   ],
+   "build-168-born-water-spirit": [
+    "n1",
+    "n3",
+    "n6"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Pharisee": {
+  "count": 9,
+  "builds": {
+   "build-04-nicodemus": [
+    "n0"
+   ],
+   "build-39-the-pharisee-and-the-publican": [
+    "jv10",
+    "n2",
+    "n3",
+    "n5",
+    "n12"
+   ],
+   "build-44-two-debtors": [
+    "n1",
+    "n2"
+   ],
+   "build-74-woman-washed-his-feet": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus"
+  ]
+ },
+ "Jews": {
+  "count": 8,
+  "builds": {
+   "build-04-nicodemus": [
+    "n0"
+   ],
+   "build-10-well": [
+    "n1"
+   ],
+   "build-15-centurion": [
+    "n2",
+    "n5"
+   ],
+   "build-86-the-wise-men": [
+    "j1",
+    "n0b"
+   ],
+   "build-93-barabbas-goes-free": [
+    "s9",
+    "n1a2"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "scripture"
+  ]
+ },
+ "Educated": {
+  "count": 1,
+  "builds": {
+   "build-04-nicodemus": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Respected": {
+  "count": 1,
+  "builds": {
+   "build-04-nicodemus": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Listened": {
+  "count": 1,
+  "builds": {
+   "build-04-nicodemus": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Rabbi": {
+  "count": 2,
+  "builds": {
+   "build-04-nicodemus": [
+    "s2"
+   ],
+   "build-12-bartimaeus": [
+    "n9"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "narrator"
+  ]
+ },
+ "Teacher": {
+  "count": 8,
+  "builds": {
+   "build-04-nicodemus": [
+    "n2b"
+   ],
+   "build-09-rich-ruler": [
+    "n1"
+   ],
+   "build-20-samaritan": [
+    "n1b"
+   ],
+   "build-57-jairus-daughter": [
+    "n3b"
+   ],
+   "build-63-man-born-blind": [
+    "n0b"
+   ],
+   "build-76-suffer-the-little-children": [
+    "n1"
+   ],
+   "build-90-washing-feet": [
+    "n3b"
+   ],
+   "build-182-spirit-returns-to-god": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Except": {
+  "count": 8,
+  "builds": {
+   "build-04-nicodemus": [
+    "j1"
+   ],
+   "build-14-ten-lepers": [
+    "n11"
+   ],
+   "build-50-noblemans-son": [
+    "jv48"
+   ],
+   "build-99-flesh-and-bone-thomas": [
+    "s25"
+   ],
+   "build-129-nazareth-only-a-few": [
+    "n1b"
+   ],
+   "build-168-born-water-spirit": [
+    "kv3b",
+    "kv5b"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "narrator",
+   "scripture"
+  ]
+ },
+ "Everyone": {
+  "count": 16,
+  "builds": {
+   "build-04-nicodemus": [
+    "n3b"
+   ],
+   "build-12-bartimaeus": [
+    "n2"
+   ],
+   "build-17-lazarus": [
+    "n2"
+   ],
+   "build-20-samaritan": [
+    "card"
+   ],
+   "build-41-counting-the-cost": [
+    "n6"
+   ],
+   "build-42-barren-fig-tree": [
+    "n11"
+   ],
+   "build-43-the-wedding-garment": [
+    "n11",
+    "n15"
+   ],
+   "build-44-two-debtors": [
+    "n2"
+   ],
+   "build-77-widows-mite": [
+    "n4a"
+   ],
+   "build-78-who-is-my-mother": [
+    "n1c"
+   ],
+   "build-84-no-room-manger": [
+    "n3"
+   ],
+   "build-119-fourth-man-in-fire": [
+    "n1"
+   ],
+   "build-124-love-your-enemies": [
+    "n2"
+   ],
+   "build-157-marvellous-work": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "John": {
+  "count": 46,
+  "builds": {
+   "build-04-nicodemus": [
+    "n9"
+   ],
+   "build-09-rich-ruler": [
+    "n3b"
+   ],
+   "build-40-the-friend-at-midnight": [
+    "s1"
+   ],
+   "build-48-new-wine-old-bottles": [
+    "s18",
+    "n1b"
+   ],
+   "build-51-first-catch-of-fish": [
+    "n5"
+   ],
+   "build-53-peters-mother-in-law": [
+    "n1"
+   ],
+   "build-58-feeding-5000": [
+    "n2b"
+   ],
+   "build-64-pool-of-bethesda": [
+    "n2"
+   ],
+   "build-67-the-transfiguration": [
+    "n0"
+   ],
+   "build-67-transfiguration": [
+    "n0"
+   ],
+   "build-69-baptism": [
+    "n0",
+    "n1",
+    "n2",
+    "n3",
+    "n4",
+    "n5"
+   ],
+   "build-71-calling-the-fishermen": [
+    "n7"
+   ],
+   "build-91-gethsemane": [
+    "n3"
+   ],
+   "build-103-peters-confession": [
+    "s14",
+    "n3"
+   ],
+   "build-107-john-baptist-doubt": [
+    "n1",
+    "n2",
+    "n3",
+    "jv4",
+    "n4",
+    "n6",
+    "n7",
+    "card"
+   ],
+   "build-110-lords-prayer": [
+    "s11"
+   ],
+   "build-130-what-manner-of-spirit": [
+    "n0"
+   ],
+   "build-132-forbid-him-not": [
+    "n0",
+    "n1",
+    "n2",
+    "n4"
+   ],
+   "build-154-everlasting-gospel": [
+    "n2"
+   ],
+   "build-165-laying-on-hands": [
+    "n2",
+    "kv14",
+    "n5"
+   ],
+   "build-166-baptized-properly": [
+    "s4",
+    "n3"
+   ],
+   "build-169-fulfil-righteousness": [
+    "n1",
+    "n2"
+   ],
+   "build-174-hearts-of-the-fathers": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "scripture",
+   "jesus"
+  ]
+ },
+ "Months": {
+  "count": 1,
+  "builds": {
+   "build-04-nicodemus": [
+    "n10"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Doth": {
+  "count": 1,
+  "builds": {
+   "build-04-nicodemus": [
+    "s51"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Does": {
+  "count": 1,
+  "builds": {
+   "build-04-nicodemus": [
+    "n10b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Have": {
+  "count": 11,
+  "builds": {
+   "build-04-nicodemus": [
+    "n12"
+   ],
+   "build-06-two-sons": [
+    "n6"
+   ],
+   "build-08-lost-coin": [
+    "card"
+   ],
+   "build-10-well": [
+    "n10"
+   ],
+   "build-14-ten-lepers": [
+    "n15"
+   ],
+   "build-19-shore": [
+    "n5b"
+   ],
+   "build-21-lost-sheep": [
+    "card"
+   ],
+   "build-29-pearl": [
+    "card"
+   ],
+   "build-52-demoniac-synagogue": [
+    "n4b"
+   ],
+   "build-58-feeding-5000": [
+    "n4b"
+   ],
+   "build-166-baptized-properly": [
+    "s2"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "scripture"
+  ]
+ },
+ "Eighteen": {
+  "count": 3,
+  "builds": {
+   "build-05-bent-woman": [
+    "n0",
+    "n6"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Present": {
+  "count": 1,
+  "builds": {
+   "build-05-bent-woman": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Notice": {
+  "count": 19,
+  "builds": {
+   "build-05-bent-woman": [
+    "n3"
+   ],
+   "build-09-rich-ruler": [
+    "n4"
+   ],
+   "build-12-bartimaeus": [
+    "n10"
+   ],
+   "build-18-emmaus": [
+    "n10"
+   ],
+   "build-24-sower": [
+    "n11"
+   ],
+   "build-40-the-friend-at-midnight": [
+    "n7"
+   ],
+   "build-46-seed-growing": [
+    "n4"
+   ],
+   "build-61-syrophoenician-woman": [
+    "n7"
+   ],
+   "build-62-ephphatha": [
+    "n7"
+   ],
+   "build-63-man-born-blind": [
+    "n0b"
+   ],
+   "build-70-temptations": [
+    "n3"
+   ],
+   "build-71-calling-the-fishermen": [
+    "n4"
+   ],
+   "build-79-the-seventy-sent": [
+    "n1b"
+   ],
+   "build-118-jonah-god-who-relents": [
+    "n1b"
+   ],
+   "build-122-mote-and-beam": [
+    "n6"
+   ],
+   "build-154-everlasting-gospel": [
+    "n4"
+   ],
+   "build-158-two-sticks": [
+    "n7"
+   ],
+   "build-167-chosen-ordained": [
+    "n2"
+   ],
+   "build-168-born-water-spirit": [
+    "n6"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Loosed": {
+  "count": 1,
+  "builds": {
+   "build-05-bent-woman": [
+    "n5a"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Something": {
+  "count": 6,
+  "builds": {
+   "build-05-bent-woman": [
+    "n5a"
+   ],
+   "build-49-water-to-wine": [
+    "n11"
+   ],
+   "build-52-demoniac-synagogue": [
+    "n3"
+   ],
+   "build-60-gerasene-demoniac": [
+    "n1"
+   ],
+   "build-165-laying-on-hands": [
+    "n1"
+   ],
+   "build-169-fulfil-righteousness": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Satan": {
+  "count": 2,
+  "builds": {
+   "build-05-bent-woman": [
+    "j2"
+   ],
+   "build-70-temptations": [
+    "j3"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Luke": {
+  "count": 15,
+  "builds": {
+   "build-05-bent-woman": [
+    "n11"
+   ],
+   "build-14-ten-lepers": [
+    "n9"
+   ],
+   "build-18-emmaus": [
+    "n1"
+   ],
+   "build-38-persistent-widow": [
+    "n1b"
+   ],
+   "build-39-the-pharisee-and-the-publican": [
+    "n8b"
+   ],
+   "build-40-the-friend-at-midnight": [
+    "n11"
+   ],
+   "build-56-widow-of-nain": [
+    "n3"
+   ],
+   "build-66-malchus-ear": [
+    "n1"
+   ],
+   "build-83-weeping-over-jerusalem": [
+    "n1a"
+   ],
+   "build-84-no-room-manger": [
+    "n6"
+   ],
+   "build-85-shepherds-and-angels": [
+    "n7b"
+   ],
+   "build-87-boy-in-the-temple": [
+    "n2b"
+   ],
+   "build-91-gethsemane": [
+    "n7",
+    "n9"
+   ],
+   "build-165-laying-on-hands": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Whether": {
+  "count": 8,
+  "builds": {
+   "build-06-two-sons": [
+    "j1"
+   ],
+   "build-13-roof": [
+    "j2"
+   ],
+   "build-41-counting-the-cost": [
+    "n8"
+   ],
+   "build-63-man-born-blind": [
+    "s25",
+    "n6b"
+   ],
+   "build-82-anointing-at-bethany": [
+    "n5"
+   ],
+   "build-111-lilies-and-sparrows": [
+    "n1"
+   ],
+   "build-184-third-heaven": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "narrator",
+   "scripture"
+  ]
+ },
+ "Walking": {
+  "count": 2,
+  "builds": {
+   "build-07-peter-water": [
+    "n2"
+   ],
+   "build-71-calling-the-fishermen": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Don": {
+  "count": 31,
+  "builds": {
+   "build-07-peter-water": [
+    "n3"
+   ],
+   "build-09-rich-ruler": [
+    "n1"
+   ],
+   "build-11-storm": [
+    "n4b"
+   ],
+   "build-56-widow-of-nain": [
+    "n3b"
+   ],
+   "build-57-jairus-daughter": [
+    "n3c"
+   ],
+   "build-76-suffer-the-little-children": [
+    "n3"
+   ],
+   "build-79-the-seventy-sent": [
+    "n3c"
+   ],
+   "build-83-weeping-over-jerusalem": [
+    "card"
+   ],
+   "build-85-shepherds-and-angels": [
+    "n1b"
+   ],
+   "build-98-mary-her-name": [
+    "n4a"
+   ],
+   "build-111-lilies-and-sparrows": [
+    "n5b"
+   ],
+   "build-115-ram-in-the-thicket": [
+    "n6"
+   ],
+   "build-122-mote-and-beam": [
+    "n2"
+   ],
+   "build-132-forbid-him-not": [
+    "n2b",
+    "card"
+   ],
+   "build-133-many-mansions": [
+    "card"
+   ],
+   "build-136-healed-in-two-touches": [
+    "n5"
+   ],
+   "build-147-joseph-forgives": [
+    "n1c"
+   ],
+   "build-148-ruth-and-the-redeemer": [
+    "n2",
+    "n2b"
+   ],
+   "build-149-hannah-is-heard": [
+    "n2"
+   ],
+   "build-179-stephens-witness": [
+    "n4b"
+   ],
+   "build-192-the-fast-god-has-chosen": [
+    "n2"
+   ],
+   "build-195-prove-all-things": [
+    "n0b",
+    "n1",
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Peter": {
+  "count": 60,
+  "builds": {
+   "build-07-peter-water": [
+    "n3",
+    "n4",
+    "n10b"
+   ],
+   "build-09-rich-ruler": [
+    "n3b"
+   ],
+   "build-19-shore": [
+    "n1",
+    "n2",
+    "n3",
+    "n6",
+    "n8",
+    "n10",
+    "n12",
+    "n13",
+    "card"
+   ],
+   "build-22-unmerciful-servant": [
+    "n0",
+    "n1"
+   ],
+   "build-51-first-catch-of-fish": [
+    "n6",
+    "n7"
+   ],
+   "build-58-feeding-5000": [
+    "n3"
+   ],
+   "build-66-malchus-ear": [
+    "n1b",
+    "n2",
+    "n3"
+   ],
+   "build-67-the-transfiguration": [
+    "n0",
+    "n2b",
+    "n2c"
+   ],
+   "build-67-transfiguration": [
+    "n0",
+    "n4",
+    "n6"
+   ],
+   "build-90-washing-feet": [
+    "n2",
+    "n2b",
+    "n2c"
+   ],
+   "build-91-gethsemane": [
+    "n3"
+   ],
+   "build-92-peters-denial": [
+    "n0",
+    "n1b",
+    "n2",
+    "n4",
+    "n5a",
+    "card"
+   ],
+   "build-103-peters-confession": [
+    "np",
+    "n5",
+    "jv18",
+    "card"
+   ],
+   "build-153-restitution": [
+    "n1",
+    "n1b",
+    "n4",
+    "n6"
+   ],
+   "build-162-keys-of-kingdom": [
+    "n2",
+    "n3",
+    "kv18",
+    "n6",
+    "card"
+   ],
+   "build-165-laying-on-hands": [
+    "n2",
+    "kv14",
+    "n5"
+   ],
+   "build-197-sons-and-daughters-prophesy": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus",
+   "scripture"
+  ]
+ },
+ "Step": {
+  "count": 2,
+  "builds": {
+   "build-07-peter-water": [
+    "n4b"
+   ],
+   "build-127-the-strait-gate": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Immediately": {
+  "count": 1,
+  "builds": {
+   "build-07-peter-water": [
+    "n6"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Keep": {
+  "count": 4,
+  "builds": {
+   "build-07-peter-water": [
+    "n11"
+   ],
+   "build-14-ten-lepers": [
+    "n0"
+   ],
+   "build-110-lords-prayer": [
+    "n4"
+   ],
+   "build-124-love-your-enemies": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Either": {
+  "count": 2,
+  "builds": {
+   "build-08-lost-coin": [
+    "jv8"
+   ],
+   "build-20-samaritan": [
+    "n6"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "narrator"
+  ]
+ },
+ "Rejoice": {
+  "count": 2,
+  "builds": {
+   "build-08-lost-coin": [
+    "j1"
+   ],
+   "build-21-lost-sheep": [
+    "j3"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Likewise": {
+  "count": 1,
+  "builds": {
+   "build-08-lost-coin": [
+    "j2"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Running": {
+  "count": 1,
+  "builds": {
+   "build-09-rich-ruler": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Good": {
+  "count": 5,
+  "builds": {
+   "build-09-rich-ruler": [
+    "s17",
+    "n1"
+   ],
+   "build-29-pearl": [
+    "n3"
+   ],
+   "build-85-shepherds-and-angels": [
+    "card"
+   ],
+   "build-159-other-sheep": [
+    "n8"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "narrator"
+  ]
+ },
+ "Master": {
+  "count": 22,
+  "builds": {
+   "build-09-rich-ruler": [
+    "s17",
+    "s20"
+   ],
+   "build-11-storm": [
+    "s38"
+   ],
+   "build-14-ten-lepers": [
+    "s13",
+    "n2"
+   ],
+   "build-20-samaritan": [
+    "s25"
+   ],
+   "build-44-two-debtors": [
+    "s40"
+   ],
+   "build-51-first-catch-of-fish": [
+    "s5",
+    "n3b"
+   ],
+   "build-57-jairus-daughter": [
+    "s35"
+   ],
+   "build-63-man-born-blind": [
+    "s2"
+   ],
+   "build-67-the-transfiguration": [
+    "j1",
+    "n2c"
+   ],
+   "build-72-calling-matthew": [
+    "s11"
+   ],
+   "build-74-woman-washed-his-feet": [
+    "s40"
+   ],
+   "build-75-woman-taken-in-adultery": [
+    "s4"
+   ],
+   "build-81-render-unto-caesar": [
+    "s14"
+   ],
+   "build-90-washing-feet": [
+    "j2"
+   ],
+   "build-98-mary-her-name": [
+    "n3"
+   ],
+   "build-131-scribe-near-the-kingdom": [
+    "s32"
+   ],
+   "build-132-forbid-him-not": [
+    "s38"
+   ],
+   "build-170-sacrament-worthily": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "narrator",
+   "jesus"
+  ]
+ },
+ "Honor": {
+  "count": 1,
+  "builds": {
+   "build-09-rich-ruler": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Mark": {
+  "count": 23,
+  "builds": {
+   "build-09-rich-ruler": [
+    "n2",
+    "n6"
+   ],
+   "build-11-storm": [
+    "n1",
+    "n9"
+   ],
+   "build-12-bartimaeus": [
+    "n3",
+    "n10",
+    "n11"
+   ],
+   "build-13-roof": [
+    "n11"
+   ],
+   "build-53-peters-mother-in-law": [
+    "n5"
+   ],
+   "build-61-syrophoenician-woman": [
+    "n0",
+    "n1",
+    "n9"
+   ],
+   "build-62-ephphatha": [
+    "n4"
+   ],
+   "build-65-help-mine-unbelief": [
+    "n2"
+   ],
+   "build-67-the-transfiguration": [
+    "n2c"
+   ],
+   "build-67-transfiguration": [
+    "n1"
+   ],
+   "build-70-temptations": [
+    "n1"
+   ],
+   "build-76-suffer-the-little-children": [
+    "n2"
+   ],
+   "build-77-widows-mite": [
+    "n2b"
+   ],
+   "build-78-who-is-my-mother": [
+    "n1b"
+   ],
+   "build-82-anointing-at-bethany": [
+    "n2",
+    "n2b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Sell": {
+  "count": 1,
+  "builds": {
+   "build-09-rich-ruler": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Andrew": {
+  "count": 4,
+  "builds": {
+   "build-09-rich-ruler": [
+    "n3b"
+   ],
+   "build-53-peters-mother-in-law": [
+    "n1"
+   ],
+   "build-58-feeding-5000": [
+    "n3"
+   ],
+   "build-71-calling-the-fishermen": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "James": {
+  "count": 10,
+  "builds": {
+   "build-09-rich-ruler": [
+    "n3b"
+   ],
+   "build-51-first-catch-of-fish": [
+    "n5"
+   ],
+   "build-53-peters-mother-in-law": [
+    "n1"
+   ],
+   "build-67-the-transfiguration": [
+    "n0"
+   ],
+   "build-67-transfiguration": [
+    "n0"
+   ],
+   "build-71-calling-the-fishermen": [
+    "n7"
+   ],
+   "build-91-gethsemane": [
+    "n3"
+   ],
+   "build-129-nazareth-only-a-few": [
+    "s3"
+   ],
+   "build-130-what-manner-of-spirit": [
+    "n0"
+   ],
+   "build-190-faith-without-works": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "scripture"
+  ]
+ },
+ "Sit": {
+  "count": 3,
+  "builds": {
+   "build-09-rich-ruler": [
+    "n6"
+   ],
+   "build-17-lazarus": [
+    "n6"
+   ],
+   "build-52-demoniac-synagogue": [
+    "n4b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Women": {
+  "count": 1,
+  "builds": {
+   "build-10-well": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Noon": {
+  "count": 1,
+  "builds": {
+   "build-10-well": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Jewish": {
+  "count": 5,
+  "builds": {
+   "build-10-well": [
+    "n1"
+   ],
+   "build-15-centurion": [
+    "n6"
+   ],
+   "build-60-gerasene-demoniac": [
+    "n6"
+   ],
+   "build-61-syrophoenician-woman": [
+    "n0",
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Samaria": {
+  "count": 7,
+  "builds": {
+   "build-10-well": [
+    "n1",
+    "w9"
+   ],
+   "build-14-ten-lepers": [
+    "n0"
+   ],
+   "build-100-the-ascension": [
+    "j1"
+   ],
+   "build-165-laying-on-hands": [
+    "n1",
+    "kv14",
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "woman",
+   "jesus",
+   "scripture"
+  ]
+ },
+ "Samaritans": {
+  "count": 3,
+  "builds": {
+   "build-10-well": [
+    "n1",
+    "n9"
+   ],
+   "build-20-samaritan": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Everything": {
+  "count": 14,
+  "builds": {
+   "build-10-well": [
+    "n1"
+   ],
+   "build-25-wheat-and-tares": [
+    "n12"
+   ],
+   "build-42-barren-fig-tree": [
+    "n2"
+   ],
+   "build-45-wicked-tenants": [
+    "n2"
+   ],
+   "build-46-seed-growing": [
+    "n7"
+   ],
+   "build-64-pool-of-bethesda": [
+    "n5b"
+   ],
+   "build-70-temptations": [
+    "n5b"
+   ],
+   "build-91-gethsemane": [
+    "n5",
+    "n12"
+   ],
+   "build-103-peters-confession": [
+    "n7"
+   ],
+   "build-131-scribe-near-the-kingdom": [
+    "n1"
+   ],
+   "build-138-his-offspring": [
+    "n3"
+   ],
+   "build-161-called-of-god": [
+    "n6"
+   ],
+   "build-163-apostles-prophets": [
+    "n6"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Jew": {
+  "count": 3,
+  "builds": {
+   "build-10-well": [
+    "n2",
+    "w9"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "woman"
+  ]
+ },
+ "Samaritan": {
+  "count": 7,
+  "builds": {
+   "build-10-well": [
+    "n2",
+    "n7"
+   ],
+   "build-14-ten-lepers": [
+    "n9"
+   ],
+   "build-20-samaritan": [
+    "n7",
+    "n8",
+    "n14"
+   ],
+   "build-130-what-manner-of-spirit": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Sir": {
+  "count": 10,
+  "builds": {
+   "build-10-well": [
+    "w11",
+    "w15",
+    "w19"
+   ],
+   "build-25-wheat-and-tares": [
+    "j27"
+   ],
+   "build-50-noblemans-son": [
+    "s49",
+    "n6b"
+   ],
+   "build-64-pool-of-bethesda": [
+    "s7",
+    "n3b"
+   ],
+   "build-98-mary-her-name": [
+    "w15",
+    "n1b2"
+   ]
+  },
+  "voices": [
+   "woman",
+   "jesus",
+   "scripture",
+   "narrator"
+  ]
+ },
+ "Jacob": {
+  "count": 7,
+  "builds": {
+   "build-10-well": [
+    "n3"
+   ],
+   "build-15-centurion": [
+    "j2b"
+   ],
+   "build-41-counting-the-cost": [
+    "n3"
+   ],
+   "build-102-jacobs-ladder": [
+    "n1",
+    "n7"
+   ],
+   "build-175-mountain-of-the-lords-house": [
+    "s2a"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus",
+   "scripture"
+  ]
+ },
+ "Are": {
+  "count": 6,
+  "builds": {
+   "build-10-well": [
+    "n3"
+   ],
+   "build-23-vineyard": [
+    "n12"
+   ],
+   "build-107-john-baptist-doubt": [
+    "n3"
+   ],
+   "build-111-lilies-and-sparrows": [
+    "jv26"
+   ],
+   "build-152-revealeth-his-secret": [
+    "n8",
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus"
+  ]
+ },
+ "Whosoever": {
+  "count": 2,
+  "builds": {
+   "build-10-well": [
+    "j1"
+   ],
+   "build-76-suffer-the-little-children": [
+    "j2"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Messiah": {
+  "count": 3,
+  "builds": {
+   "build-10-well": [
+    "n6",
+    "n7"
+   ],
+   "build-12-bartimaeus": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Messias": {
+  "count": 1,
+  "builds": {
+   "build-10-well": [
+    "w25"
+   ]
+  },
+  "voices": [
+   "woman"
+  ]
+ },
+ "Right": {
+  "count": 2,
+  "builds": {
+   "build-10-well": [
+    "n7"
+   ],
+   "build-71-calling-the-fishermen": [
+    "n9"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Ran": {
+  "count": 1,
+  "builds": {
+   "build-10-well": [
+    "n8b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Many": {
+  "count": 4,
+  "builds": {
+   "build-10-well": [
+    "n9"
+   ],
+   "build-12-bartimaeus": [
+    "n3"
+   ],
+   "build-125-i-never-knew-you": [
+    "j2"
+   ],
+   "build-155-falling-away": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus"
+  ]
+ },
+ "Evening": {
+  "count": 1,
+  "builds": {
+   "build-11-storm": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Sea": {
+  "count": 10,
+  "builds": {
+   "build-11-storm": [
+    "n0",
+    "n2"
+   ],
+   "build-13-roof": [
+    "n0"
+   ],
+   "build-15-centurion": [
+    "n1"
+   ],
+   "build-41-counting-the-cost": [
+    "n12"
+   ],
+   "build-60-gerasene-demoniac": [
+    "n0"
+   ],
+   "build-68-multitudes-mountain": [
+    "n0"
+   ],
+   "build-71-calling-the-fishermen": [
+    "n1"
+   ],
+   "build-121-salt-and-light": [
+    "n1"
+   ],
+   "build-124-love-your-enemies": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Other": {
+  "count": 2,
+  "builds": {
+   "build-11-storm": [
+    "n1"
+   ],
+   "build-72-calling-matthew": [
+    "n6"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Waves": {
+  "count": 1,
+  "builds": {
+   "build-11-storm": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Rough": {
+  "count": 1,
+  "builds": {
+   "build-11-storm": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Listen": {
+  "count": 17,
+  "builds": {
+   "build-11-storm": [
+    "n4b"
+   ],
+   "build-38-persistent-widow": [
+    "n6"
+   ],
+   "build-39-the-pharisee-and-the-publican": [
+    "n5"
+   ],
+   "build-60-gerasene-demoniac": [
+    "n8"
+   ],
+   "build-62-ephphatha": [
+    "n4"
+   ],
+   "build-65-help-mine-unbelief": [
+    "n2b"
+   ],
+   "build-67-the-transfiguration": [
+    "n3b"
+   ],
+   "build-85-shepherds-and-angels": [
+    "n1b"
+   ],
+   "build-87-boy-in-the-temple": [
+    "n2b"
+   ],
+   "build-98-mary-her-name": [
+    "card"
+   ],
+   "build-106-god-spake-by-prophets": [
+    "nA"
+   ],
+   "build-118-jonah-god-who-relents": [
+    "n8"
+   ],
+   "build-125-i-never-knew-you": [
+    "n2"
+   ],
+   "build-128-famine-of-hearing": [
+    "card"
+   ],
+   "build-173-dead-shall-hear": [
+    "n24"
+   ],
+   "build-174-hearts-of-the-fathers": [
+    "n0b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Peace": {
+  "count": 2,
+  "builds": {
+   "build-11-storm": [
+    "j1"
+   ],
+   "build-85-shepherds-and-angels": [
+    "n2b"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "narrator"
+  ]
+ },
+ "Sailors": {
+  "count": 1,
+  "builds": {
+   "build-11-storm": [
+    "n6"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Standing": {
+  "count": 4,
+  "builds": {
+   "build-11-storm": [
+    "n8"
+   ],
+   "build-49-water-to-wine": [
+    "n7"
+   ],
+   "build-137-stephen-sees-him-standing": [
+    "n2"
+   ],
+   "build-144-resurrection-and-the-life": [
+    "n3a"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Bring": {
+  "count": 9,
+  "builds": {
+   "build-11-storm": [
+    "n10"
+   ],
+   "build-65-help-mine-unbelief": [
+    "card"
+   ],
+   "build-65-help-thou-mine-unbelief": [
+    "card"
+   ],
+   "build-99-flesh-and-bone-thomas": [
+    "card"
+   ],
+   "build-140-road-runs-both-ways": [
+    "j22"
+   ],
+   "build-158-two-sticks": [
+    "n4"
+   ],
+   "build-191-windows-of-heaven": [
+    "s1",
+    "card"
+   ],
+   "build-192-the-fast-god-has-chosen": [
+    "n1b"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus",
+   "god"
+  ]
+ },
+ "Passover": {
+  "count": 4,
+  "builds": {
+   "build-12-bartimaeus": [
+    "n0"
+   ],
+   "build-87-boy-in-the-temple": [
+    "n0a"
+   ],
+   "build-89-the-last-supper": [
+    "n0a"
+   ],
+   "build-93-barabbas-goes-free": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Bartimaeus": {
+  "count": 2,
+  "builds": {
+   "build-12-bartimaeus": [
+    "n0",
+    "n9"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Listening": {
+  "count": 1,
+  "builds": {
+   "build-12-bartimaeus": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Nazareth": {
+  "count": 14,
+  "builds": {
+   "build-12-bartimaeus": [
+    "n1",
+    "n2"
+   ],
+   "build-18-emmaus": [
+    "n3"
+   ],
+   "build-52-demoniac-synagogue": [
+    "s24",
+    "n4b"
+   ],
+   "build-67-transfiguration": [
+    "n2"
+   ],
+   "build-73-this-day-fulfilled": [
+    "n0"
+   ],
+   "build-84-no-room-manger": [
+    "n2"
+   ],
+   "build-88-triumphal-entry": [
+    "j2",
+    "n3b"
+   ],
+   "build-129-nazareth-only-a-few": [
+    "n0",
+    "n3b"
+   ],
+   "build-153-restitution": [
+    "s6",
+    "n1b"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "scripture"
+  ]
+ },
+ "Passing": {
+  "count": 1,
+  "builds": {
+   "build-12-bartimaeus": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "David": {
+  "count": 12,
+  "builds": {
+   "build-12-bartimaeus": [
+    "s47",
+    "n2"
+   ],
+   "build-84-no-room-manger": [
+    "n2"
+   ],
+   "build-85-shepherds-and-angels": [
+    "j1",
+    "n1b"
+   ],
+   "build-88-triumphal-entry": [
+    "j1",
+    "n2b"
+   ],
+   "build-148-ruth-and-the-redeemer": [
+    "n7"
+   ],
+   "build-150-shepherd-psalm": [
+    "n0b",
+    "n3"
+   ],
+   "build-198-ensign-for-the-nations": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "narrator"
+  ]
+ },
+ "Catch": {
+  "count": 1,
+  "builds": {
+   "build-12-bartimaeus": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Respectable": {
+  "count": 1,
+  "builds": {
+   "build-12-bartimaeus": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Remember": {
+  "count": 6,
+  "builds": {
+   "build-12-bartimaeus": [
+    "n5"
+   ],
+   "build-62-ephphatha": [
+    "n0"
+   ],
+   "build-97-the-empty-tomb": [
+    "n5a"
+   ],
+   "build-149-hannah-is-heard": [
+    "n2"
+   ],
+   "build-182-spirit-returns-to-god": [
+    "s0",
+    "n0b"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "scripture"
+  ]
+ },
+ "Free": {
+  "count": 2,
+  "builds": {
+   "build-12-bartimaeus": [
+    "n10",
+    "n11"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Capernaum": {
+  "count": 6,
+  "builds": {
+   "build-13-roof": [
+    "n0"
+   ],
+   "build-15-centurion": [
+    "n1"
+   ],
+   "build-50-noblemans-son": [
+    "n2",
+    "n4",
+    "n7"
+   ],
+   "build-52-demoniac-synagogue": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Below": {
+  "count": 1,
+  "builds": {
+   "build-13-roof": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Daylight": {
+  "count": 1,
+  "builds": {
+   "build-13-roof": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Arise": {
+  "count": 7,
+  "builds": {
+   "build-13-roof": [
+    "j2",
+    "j3"
+   ],
+   "build-14-ten-lepers": [
+    "j3"
+   ],
+   "build-56-widow-of-nain": [
+    "jv14"
+   ],
+   "build-67-transfiguration": [
+    "j1"
+   ],
+   "build-118-jonah-god-who-relents": [
+    "gv1",
+    "jvA"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "narrator",
+   "god"
+  ]
+ },
+ "Anyone": {
+  "count": 4,
+  "builds": {
+   "build-13-roof": [
+    "n9"
+   ],
+   "build-45-wicked-tenants": [
+    "n5"
+   ],
+   "build-78-who-is-my-mother": [
+    "n3"
+   ],
+   "build-143-i-am-the-door": [
+    "n1a"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Law": {
+  "count": 1,
+  "builds": {
+   "build-14-ten-lepers": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Israel": {
+  "count": 27,
+  "builds": {
+   "build-14-ten-lepers": [
+    "n4"
+   ],
+   "build-15-centurion": [
+    "j2"
+   ],
+   "build-18-emmaus": [
+    "n3",
+    "s21"
+   ],
+   "build-61-syrophoenician-woman": [
+    "n4"
+   ],
+   "build-68-multitudes-mountain": [
+    "s31",
+    "n5b"
+   ],
+   "build-73-this-day-fulfilled": [
+    "n3"
+   ],
+   "build-101-still-small-voice": [
+    "s10",
+    "jv18"
+   ],
+   "build-117-hosea-buys-her-back": [
+    "gv1"
+   ],
+   "build-118-jonah-god-who-relents": [
+    "n1"
+   ],
+   "build-131-scribe-near-the-kingdom": [
+    "jv29"
+   ],
+   "build-148-ruth-and-the-redeemer": [
+    "s1",
+    "n4"
+   ],
+   "build-149-hannah-is-heard": [
+    "s1",
+    "n4"
+   ],
+   "build-158-two-sticks": [
+    "kv16",
+    "kv19"
+   ],
+   "build-161-called-of-god": [
+    "n1"
+   ],
+   "build-176-who-shall-ascend": [
+    "n0"
+   ],
+   "build-177-make-me-a-sanctuary": [
+    "n0"
+   ],
+   "build-179-stephens-witness": [
+    "n0"
+   ],
+   "build-187-ye-are-gods": [
+    "n82a"
+   ],
+   "build-198-ensign-for-the-nations": [
+    "s2"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus",
+   "scripture",
+   "god"
+  ]
+ },
+ "Sending": {
+  "count": 1,
+  "builds": {
+   "build-14-ten-lepers": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "New": {
+  "count": 2,
+  "builds": {
+   "build-14-ten-lepers": [
+    "n7"
+   ],
+   "build-40-the-friend-at-midnight": [
+    "n11"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Were": {
+  "count": 1,
+  "builds": {
+   "build-14-ten-lepers": [
+    "j2"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Cleansed": {
+  "count": 1,
+  "builds": {
+   "build-14-ten-lepers": [
+    "n13"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Whole": {
+  "count": 3,
+  "builds": {
+   "build-14-ten-lepers": [
+    "n13"
+   ],
+   "build-64-pool-of-bethesda": [
+    "n1"
+   ],
+   "build-165-laying-on-hands": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Roman": {
+  "count": 10,
+  "builds": {
+   "build-15-centurion": [
+    "n1",
+    "n2",
+    "n3",
+    "n5",
+    "n9",
+    "n14",
+    "n20",
+    "card"
+   ],
+   "build-60-gerasene-demoniac": [
+    "n5"
+   ],
+   "build-81-render-unto-caesar": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Hold": {
+  "count": 4,
+  "builds": {
+   "build-15-centurion": [
+    "n2"
+   ],
+   "build-52-demoniac-synagogue": [
+    "jv25"
+   ],
+   "build-119-fourth-man-in-fire": [
+    "n2b"
+   ],
+   "build-148-ruth-and-the-redeemer": [
+    "n2b"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus"
+  ]
+ },
+ "Could": {
+  "count": 2,
+  "builds": {
+   "build-15-centurion": [
+    "n7"
+   ],
+   "build-135-rainbow-covenant": [
+    "n2b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Stop": {
+  "count": 7,
+  "builds": {
+   "build-15-centurion": [
+    "n9"
+   ],
+   "build-20-samaritan": [
+    "n15"
+   ],
+   "build-45-wicked-tenants": [
+    "n7"
+   ],
+   "build-99-flesh-and-bone-thomas": [
+    "n3b"
+   ],
+   "build-115-ram-in-the-thicket": [
+    "n6"
+   ],
+   "build-142-light-of-the-world": [
+    "card"
+   ],
+   "build-145-way-truth-life": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Gospels": {
+  "count": 1,
+  "builds": {
+   "build-15-centurion": [
+    "n14"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Isaac": {
+  "count": 2,
+  "builds": {
+   "build-15-centurion": [
+    "j2b"
+   ],
+   "build-102-jacobs-ladder": [
+    "jv13"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "god"
+  ]
+ },
+ "Bethany": {
+  "count": 5,
+  "builds": {
+   "build-16-mary-martha": [
+    "n1"
+   ],
+   "build-17-lazarus": [
+    "n0",
+    "n2"
+   ],
+   "build-82-anointing-at-bethany": [
+    "n0a"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Martha": {
+  "count": 14,
+  "builds": {
+   "build-16-mary-martha": [
+    "n1",
+    "n2",
+    "n3",
+    "n7",
+    "j1"
+   ],
+   "build-17-lazarus": [
+    "n0",
+    "n3",
+    "n4",
+    "n7"
+   ],
+   "build-144-resurrection-and-the-life": [
+    "n0",
+    "n1a",
+    "n3a"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus"
+  ]
+ },
+ "Mary": {
+  "count": 19,
+  "builds": {
+   "build-16-mary-martha": [
+    "n1",
+    "n5",
+    "n6",
+    "j1",
+    "n10"
+   ],
+   "build-17-lazarus": [
+    "n0",
+    "n5"
+   ],
+   "build-84-no-room-manger": [
+    "n2",
+    "n6"
+   ],
+   "build-85-shepherds-and-angels": [
+    "n4",
+    "n7"
+   ],
+   "build-86-the-wise-men": [
+    "j2",
+    "n3b"
+   ],
+   "build-87-boy-in-the-temple": [
+    "n2"
+   ],
+   "build-98-mary-her-name": [
+    "n0",
+    "j1",
+    "n3"
+   ],
+   "build-129-nazareth-only-a-few": [
+    "s3"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus",
+   "scripture"
+  ]
+ },
+ "Stirring": {
+  "count": 1,
+  "builds": {
+   "build-16-mary-martha": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Meanwhile": {
+  "count": 1,
+  "builds": {
+   "build-16-mary-martha": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Tell": {
+  "count": 7,
+  "builds": {
+   "build-16-mary-martha": [
+    "n8"
+   ],
+   "build-44-two-debtors": [
+    "j3"
+   ],
+   "build-60-gerasene-demoniac": [
+    "n9"
+   ],
+   "build-63-man-born-blind": [
+    "n8b"
+   ],
+   "build-74-woman-washed-his-feet": [
+    "j41"
+   ],
+   "build-88-triumphal-entry": [
+    "s5"
+   ],
+   "build-181-morning-stars-sang": [
+    "n1r"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus",
+   "scripture"
+  ]
+ },
+ "Worried": {
+  "count": 1,
+  "builds": {
+   "build-16-mary-martha": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Lazarus": {
+  "count": 14,
+  "builds": {
+   "build-17-lazarus": [
+    "n0",
+    "n2",
+    "n6",
+    "j4",
+    "n9"
+   ],
+   "build-37-rich-man-lazarus": [
+    "n2",
+    "n5",
+    "j3",
+    "n7",
+    "j1"
+   ],
+   "build-144-resurrection-and-the-life": [
+    "n0",
+    "j43",
+    "n3b"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus"
+  ]
+ },
+ "Believest": {
+  "count": 2,
+  "builds": {
+   "build-17-lazarus": [
+    "j2"
+   ],
+   "build-144-resurrection-and-the-life": [
+    "j2"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Yea": {
+  "count": 4,
+  "builds": {
+   "build-17-lazarus": [
+    "w27"
+   ],
+   "build-19-shore": [
+    "s16"
+   ],
+   "build-144-resurrection-and-the-life": [
+    "w27"
+   ],
+   "build-150-shepherd-psalm": [
+    "s4"
+   ]
+  },
+  "voices": [
+   "woman",
+   "scripture"
+  ]
+ },
+ "Practical": {
+  "count": 1,
+  "builds": {
+   "build-17-lazarus": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Bound": {
+  "count": 1,
+  "builds": {
+   "build-17-lazarus": [
+    "n9"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Loose": {
+  "count": 1,
+  "builds": {
+   "build-17-lazarus": [
+    "j5"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Unwrap": {
+  "count": 1,
+  "builds": {
+   "build-17-lazarus": [
+    "n10"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Sunday": {
+  "count": 1,
+  "builds": {
+   "build-18-emmaus": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Emmaus": {
+  "count": 2,
+  "builds": {
+   "build-18-emmaus": [
+    "n0",
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Cleopas": {
+  "count": 1,
+  "builds": {
+   "build-18-emmaus": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Art": {
+  "count": 2,
+  "builds": {
+   "build-18-emmaus": [
+    "s18"
+   ],
+   "build-107-john-baptist-doubt": [
+    "nq"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Ought": {
+  "count": 1,
+  "builds": {
+   "build-18-emmaus": [
+    "j1"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Stay": {
+  "count": 7,
+  "builds": {
+   "build-18-emmaus": [
+    "n5"
+   ],
+   "build-42-barren-fig-tree": [
+    "n1"
+   ],
+   "build-121-salt-and-light": [
+    "n3"
+   ],
+   "build-146-vine-and-branches": [
+    "n0d",
+    "n2",
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Abide": {
+  "count": 3,
+  "builds": {
+   "build-18-emmaus": [
+    "s29"
+   ],
+   "build-126-by-their-fruits": [
+    "card"
+   ],
+   "build-146-vine-and-branches": [
+    "j0"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "narrator",
+   "jesus"
+  ]
+ },
+ "Weren": {
+  "count": 1,
+  "builds": {
+   "build-18-emmaus": [
+    "n8"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Did": {
+  "count": 3,
+  "builds": {
+   "build-18-emmaus": [
+    "s32"
+   ],
+   "build-28-hidden-treasure": [
+    "n5"
+   ],
+   "build-135-rainbow-covenant": [
+    "n9"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "narrator"
+  ]
+ },
+ "Children": {
+  "count": 3,
+  "builds": {
+   "build-19-shore": [
+    "j0a"
+   ],
+   "build-135-rainbow-covenant": [
+    "n10"
+   ],
+   "build-186-joint-heirs": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "narrator"
+  ]
+ },
+ "Cast": {
+  "count": 1,
+  "builds": {
+   "build-19-shore": [
+    "j0b"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Put": {
+  "count": 7,
+  "builds": {
+   "build-19-shore": [
+    "n5c"
+   ],
+   "build-48-new-wine-old-bottles": [
+    "n5b"
+   ],
+   "build-66-malchus-ear": [
+    "j1",
+    "n3"
+   ],
+   "build-99-flesh-and-bone-thomas": [
+    "n3b"
+   ],
+   "build-111-lilies-and-sparrows": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus"
+  ]
+ },
+ "Simon": {
+  "count": 33,
+  "builds": {
+   "build-19-shore": [
+    "j1",
+    "n11"
+   ],
+   "build-44-two-debtors": [
+    "n1",
+    "n4",
+    "j1",
+    "n4b",
+    "n7",
+    "n8",
+    "n9",
+    "n10"
+   ],
+   "build-51-first-catch-of-fish": [
+    "n2",
+    "n3",
+    "n6"
+   ],
+   "build-53-peters-mother-in-law": [
+    "n1",
+    "n3"
+   ],
+   "build-58-feeding-5000": [
+    "n3"
+   ],
+   "build-71-calling-the-fishermen": [
+    "n2",
+    "n5"
+   ],
+   "build-74-woman-washed-his-feet": [
+    "n0",
+    "n3",
+    "j40",
+    "n4",
+    "n5",
+    "n5b"
+   ],
+   "build-103-peters-confession": [
+    "np",
+    "jv17"
+   ],
+   "build-129-nazareth-only-a-few": [
+    "s3"
+   ],
+   "build-162-keys-of-kingdom": [
+    "n2",
+    "n3"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "narrator",
+   "scripture"
+  ]
+ },
+ "Jonas": {
+  "count": 2,
+  "builds": {
+   "build-19-shore": [
+    "j1",
+    "n11"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "narrator"
+  ]
+ },
+ "Each": {
+  "count": 2,
+  "builds": {
+   "build-19-shore": [
+    "n12"
+   ],
+   "build-114-abraham-sodom": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Feed": {
+  "count": 2,
+  "builds": {
+   "build-19-shore": [
+    "j2",
+    "n13"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "narrator"
+  ]
+ },
+ "Way": {
+  "count": 1,
+  "builds": {
+   "build-20-samaritan": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Blood": {
+  "count": 1,
+  "builds": {
+   "build-20-samaritan": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Robbers": {
+  "count": 1,
+  "builds": {
+   "build-20-samaritan": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Maybe": {
+  "count": 2,
+  "builds": {
+   "build-20-samaritan": [
+    "n6"
+   ],
+   "build-136-healed-in-two-touches": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Different": {
+  "count": 1,
+  "builds": {
+   "build-20-samaritan": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Rejoicing": {
+  "count": 1,
+  "builds": {
+   "build-21-lost-sheep": [
+    "n8"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Heaven": {
+  "count": 6,
+  "builds": {
+   "build-21-lost-sheep": [
+    "n10"
+   ],
+   "build-70-temptations": [
+    "n2"
+   ],
+   "build-77-widows-mite": [
+    "n4b"
+   ],
+   "build-102-jacobs-ladder": [
+    "n4"
+   ],
+   "build-154-everlasting-gospel": [
+    "n8",
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Joy": {
+  "count": 1,
+  "builds": {
+   "build-21-lost-sheep": [
+    "n10"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Would": {
+  "count": 2,
+  "builds": {
+   "build-22-unmerciful-servant": [
+    "n1"
+   ],
+   "build-105-face-to-face": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Until": {
+  "count": 4,
+  "builds": {
+   "build-22-unmerciful-servant": [
+    "j1"
+   ],
+   "build-100-the-ascension": [
+    "card"
+   ],
+   "build-153-restitution": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "narrator"
+  ]
+ },
+ "Real": {
+  "count": 3,
+  "builds": {
+   "build-22-unmerciful-servant": [
+    "n2",
+    "n9"
+   ],
+   "build-190-faith-without-works": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Please": {
+  "count": 4,
+  "builds": {
+   "build-22-unmerciful-servant": [
+    "n6",
+    "n11"
+   ],
+   "build-31-ten-virgins": [
+    "n9"
+   ],
+   "build-57-jairus-daughter": [
+    "n1b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Pay": {
+  "count": 3,
+  "builds": {
+   "build-22-unmerciful-servant": [
+    "n10",
+    "j4"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus"
+  ]
+ },
+ "Shouldn": {
+  "count": 1,
+  "builds": {
+   "build-22-unmerciful-servant": [
+    "n14"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Shouldest": {
+  "count": 1,
+  "builds": {
+   "build-22-unmerciful-servant": [
+    "j5"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "More": {
+  "count": 1,
+  "builds": {
+   "build-23-vineyard": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Friend": {
+  "count": 5,
+  "builds": {
+   "build-23-vineyard": [
+    "j1"
+   ],
+   "build-40-the-friend-at-midnight": [
+    "j1"
+   ],
+   "build-43-the-wedding-garment": [
+    "jv12",
+    "n12"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "narrator"
+  ]
+ },
+ "Will": {
+  "count": 12,
+  "builds": {
+   "build-23-vineyard": [
+    "card"
+   ],
+   "build-25-wheat-and-tares": [
+    "card"
+   ],
+   "build-30-net": [
+    "card"
+   ],
+   "build-33-sheep-goats": [
+    "card"
+   ],
+   "build-55-withered-hand": [
+    "card"
+   ],
+   "build-90-washing-feet": [
+    "card"
+   ],
+   "build-93-barabbas-goes-free": [
+    "s9"
+   ],
+   "build-115-ram-in-the-thicket": [
+    "n7"
+   ],
+   "build-153-restitution": [
+    "n8",
+    "card"
+   ],
+   "build-154-everlasting-gospel": [
+    "n8",
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "scripture"
+  ]
+ },
+ "Rocky": {
+  "count": 1,
+  "builds": {
+   "build-24-sower": [
+    "n12"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "None": {
+  "count": 1,
+  "builds": {
+   "build-24-sower": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Another": {
+  "count": 4,
+  "builds": {
+   "build-25-wheat-and-tares": [
+    "s24"
+   ],
+   "build-27-leaven": [
+    "s33"
+   ],
+   "build-59-feeding-4000": [
+    "n1"
+   ],
+   "build-106-god-spake-by-prophets": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "narrator"
+  ]
+ },
+ "Nay": {
+  "count": 1,
+  "builds": {
+   "build-25-wheat-and-tares": [
+    "j1"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Gather": {
+  "count": 2,
+  "builds": {
+   "build-25-wheat-and-tares": [
+    "j30"
+   ],
+   "build-58-feeding-5000": [
+    "jv12"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Quietly": {
+  "count": 1,
+  "builds": {
+   "build-26-mustard-seed": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Leaven": {
+  "count": 1,
+  "builds": {
+   "build-27-leaven": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Small": {
+  "count": 1,
+  "builds": {
+   "build-27-leaven": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Plain": {
+  "count": 1,
+  "builds": {
+   "build-27-leaven": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Easy": {
+  "count": 1,
+  "builds": {
+   "build-27-leaven": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Hidden": {
+  "count": 2,
+  "builds": {
+   "build-28-hidden-treasure": [
+    "n3"
+   ],
+   "build-46-seed-growing": [
+    "n8"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Quickly": {
+  "count": 1,
+  "builds": {
+   "build-28-hidden-treasure": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Costly": {
+  "count": 1,
+  "builds": {
+   "build-29-pearl": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Picture": {
+  "count": 7,
+  "builds": {
+   "build-30-net": [
+    "n2"
+   ],
+   "build-45-wicked-tenants": [
+    "n2"
+   ],
+   "build-47-houses-on-rock-and-sand": [
+    "n2"
+   ],
+   "build-122-mote-and-beam": [
+    "n4"
+   ],
+   "build-124-love-your-enemies": [
+    "n3"
+   ],
+   "build-139-lamp-on-a-stand": [
+    "n0b"
+   ],
+   "build-153-restitution": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Your": {
+  "count": 21,
+  "builds": {
+   "build-30-net": [
+    "n10"
+   ],
+   "build-44-two-debtors": [
+    "n9b"
+   ],
+   "build-50-noblemans-son": [
+    "n9b"
+   ],
+   "build-57-jairus-daughter": [
+    "n3b"
+   ],
+   "build-79-the-seventy-sent": [
+    "card"
+   ],
+   "build-87-boy-in-the-temple": [
+    "n2b"
+   ],
+   "build-111-lilies-and-sparrows": [
+    "n5b"
+   ],
+   "build-115-ram-in-the-thicket": [
+    "n7b"
+   ],
+   "build-121-salt-and-light": [
+    "n6",
+    "n8"
+   ],
+   "build-124-love-your-enemies": [
+    "n7"
+   ],
+   "build-141-bread-of-life": [
+    "j49",
+    "n2b"
+   ],
+   "build-144-resurrection-and-the-life": [
+    "n1a"
+   ],
+   "build-147-joseph-forgives": [
+    "n1b"
+   ],
+   "build-148-ruth-and-the-redeemer": [
+    "n2"
+   ],
+   "build-149-hannah-is-heard": [
+    "card"
+   ],
+   "build-150-shepherd-psalm": [
+    "n3",
+    "n5a"
+   ],
+   "build-181-morning-stars-sang": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus"
+  ]
+ },
+ "Grace": {
+  "count": 2,
+  "builds": {
+   "build-30-net": [
+    "n10"
+   ],
+   "build-64-pool-of-bethesda": [
+    "n5b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Along": {
+  "count": 1,
+  "builds": {
+   "build-31-ten-virgins": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Hour": {
+  "count": 1,
+  "builds": {
+   "build-31-ten-virgins": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Hurry": {
+  "count": 1,
+  "builds": {
+   "build-31-ten-virgins": [
+    "n10"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Later": {
+  "count": 4,
+  "builds": {
+   "build-31-ten-virgins": [
+    "n13"
+   ],
+   "build-64-pool-of-bethesda": [
+    "n6"
+   ],
+   "build-65-help-mine-unbelief": [
+    "n7"
+   ],
+   "build-142-light-of-the-world": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Watch": {
+  "count": 3,
+  "builds": {
+   "build-31-ten-virgins": [
+    "j1"
+   ],
+   "build-91-gethsemane": [
+    "jv41"
+   ],
+   "build-126-by-their-fruits": [
+    "j1b"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "narrator"
+  ]
+ },
+ "Tonight": {
+  "count": 1,
+  "builds": {
+   "build-31-ten-virgins": [
+    "n16"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Neither": {
+  "count": 8,
+  "builds": {
+   "build-32-talents": [
+    "n4"
+   ],
+   "build-63-man-born-blind": [
+    "j1"
+   ],
+   "build-75-woman-taken-in-adultery": [
+    "j3"
+   ],
+   "build-121-salt-and-light": [
+    "jv15"
+   ],
+   "build-136-healed-in-two-touches": [
+    "j1"
+   ],
+   "build-139-lamp-on-a-stand": [
+    "j2"
+   ],
+   "build-148-ruth-and-the-redeemer": [
+    "card"
+   ],
+   "build-157-marvellous-work": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus"
+  ]
+ },
+ "Enter": {
+  "count": 2,
+  "builds": {
+   "build-32-talents": [
+    "n7"
+   ],
+   "build-127-the-strait-gate": [
+    "j1"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus"
+  ]
+ },
+ "Near": {
+  "count": 1,
+  "builds": {
+   "build-33-sheep-goats": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Like": {
+  "count": 3,
+  "builds": {
+   "build-33-sheep-goats": [
+    "n2"
+   ],
+   "build-153-restitution": [
+    "n3"
+   ],
+   "build-183-sun-moon-and-stars": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Naked": {
+  "count": 2,
+  "builds": {
+   "build-33-sheep-goats": [
+    "j1"
+   ],
+   "build-120-job-from-whirlwind": [
+    "s121"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "scripture"
+  ]
+ },
+ "Kindness": {
+  "count": 1,
+  "builds": {
+   "build-33-sheep-goats": [
+    "n6"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Inasmuch": {
+  "count": 1,
+  "builds": {
+   "build-33-sheep-goats": [
+    "j2"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Soul": {
+  "count": 1,
+  "builds": {
+   "build-34-rich-fool": [
+    "j4"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Relax": {
+  "count": 1,
+  "builds": {
+   "build-34-rich-fool": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Eat": {
+  "count": 1,
+  "builds": {
+   "build-34-rich-fool": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Word": {
+  "count": 3,
+  "builds": {
+   "build-36-shrewd-steward": [
+    "n1"
+   ],
+   "build-61-syrophoenician-woman": [
+    "n0"
+   ],
+   "build-165-laying-on-hands": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Quick": {
+  "count": 1,
+  "builds": {
+   "build-36-shrewd-steward": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Worldly": {
+  "count": 1,
+  "builds": {
+   "build-36-shrewd-steward": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Use": {
+  "count": 2,
+  "builds": {
+   "build-36-shrewd-steward": [
+    "n8"
+   ],
+   "build-70-temptations": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Across": {
+  "count": 3,
+  "builds": {
+   "build-37-rich-man-lazarus": [
+    "n7"
+   ],
+   "build-91-gethsemane": [
+    "n12"
+   ],
+   "build-92-peters-denial": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Between": {
+  "count": 1,
+  "builds": {
+   "build-37-rich-man-lazarus": [
+    "j4"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Someone": {
+  "count": 3,
+  "builds": {
+   "build-38-persistent-widow": [
+    "n1"
+   ],
+   "build-42-barren-fig-tree": [
+    "n10",
+    "n11"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Avenge": {
+  "count": 1,
+  "builds": {
+   "build-38-persistent-widow": [
+    "jv2"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Though": {
+  "count": 2,
+  "builds": {
+   "build-38-persistent-widow": [
+    "j1"
+   ],
+   "build-40-the-friend-at-midnight": [
+    "j3"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Fine": {
+  "count": 1,
+  "builds": {
+   "build-38-persistent-widow": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Nevertheless": {
+  "count": 2,
+  "builds": {
+   "build-38-persistent-widow": [
+    "jv8"
+   ],
+   "build-51-first-catch-of-fish": [
+    "n3b"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "narrator"
+  ]
+ },
+ "Ask": {
+  "count": 9,
+  "builds": {
+   "build-39-the-pharisee-and-the-publican": [
+    "n3"
+   ],
+   "build-40-the-friend-at-midnight": [
+    "j4"
+   ],
+   "build-70-temptations": [
+    "card"
+   ],
+   "build-109-ask-seek-knock": [
+    "jv7",
+    "n2",
+    "card"
+   ],
+   "build-151-ask-of-god": [
+    "card"
+   ],
+   "build-194-fruit-of-the-spirit": [
+    "card"
+   ],
+   "build-196-would-god-all-were-prophets": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus"
+  ]
+ },
+ "Greek": {
+  "count": 3,
+  "builds": {
+   "build-39-the-pharisee-and-the-publican": [
+    "n8b"
+   ],
+   "build-40-the-friend-at-midnight": [
+    "n15"
+   ],
+   "build-61-syrophoenician-woman": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Teach": {
+  "count": 2,
+  "builds": {
+   "build-40-the-friend-at-midnight": [
+    "n1"
+   ],
+   "build-110-lords-prayer": [
+    "n1b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Hallowed": {
+  "count": 2,
+  "builds": {
+   "build-40-the-friend-at-midnight": [
+    "j0"
+   ],
+   "build-110-lords-prayer": [
+    "jv9"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Feeding": {
+  "count": 1,
+  "builds": {
+   "build-40-the-friend-at-midnight": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Getting": {
+  "count": 1,
+  "builds": {
+   "build-40-the-friend-at-midnight": [
+    "n8"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Trouble": {
+  "count": 1,
+  "builds": {
+   "build-40-the-friend-at-midnight": [
+    "j2"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Louder": {
+  "count": 1,
+  "builds": {
+   "build-40-the-friend-at-midnight": [
+    "n10"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Shutters": {
+  "count": 1,
+  "builds": {
+   "build-40-the-friend-at-midnight": [
+    "n10"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Dogs": {
+  "count": 1,
+  "builds": {
+   "build-40-the-friend-at-midnight": [
+    "n10"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Testament": {
+  "count": 2,
+  "builds": {
+   "build-40-the-friend-at-midnight": [
+    "n11"
+   ],
+   "build-67-transfiguration": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Most": {
+  "count": 1,
+  "builds": {
+   "build-40-the-friend-at-midnight": [
+    "n11"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Bibles": {
+  "count": 1,
+  "builds": {
+   "build-40-the-friend-at-midnight": [
+    "n11"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Annoyed": {
+  "count": 1,
+  "builds": {
+   "build-40-the-friend-at-midnight": [
+    "n14a"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Asleep": {
+  "count": 1,
+  "builds": {
+   "build-40-the-friend-at-midnight": [
+    "n14a"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Somebody": {
+  "count": 4,
+  "builds": {
+   "build-40-the-friend-at-midnight": [
+    "n14a"
+   ],
+   "build-68-multitudes-mountain": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Thousands": {
+  "count": 3,
+  "builds": {
+   "build-41-counting-the-cost": [
+    "n1"
+   ],
+   "build-68-multitudes-mountain": [
+    "n3",
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Leah": {
+  "count": 1,
+  "builds": {
+   "build-41-counting-the-cost": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Rachel": {
+  "count": 1,
+  "builds": {
+   "build-41-counting-the-cost": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "First": {
+  "count": 3,
+  "builds": {
+   "build-41-counting-the-cost": [
+    "n4"
+   ],
+   "build-66-malchus-ear": [
+    "n2"
+   ],
+   "build-194-fruit-of-the-spirit": [
+    "n1a"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Lest": {
+  "count": 1,
+  "builds": {
+   "build-41-counting-the-cost": [
+    "jv29"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Saying": {
+  "count": 3,
+  "builds": {
+   "build-41-counting-the-cost": [
+    "jv29"
+   ],
+   "build-97-the-empty-tomb": [
+    "s6"
+   ],
+   "build-154-everlasting-gospel": [
+    "kv7"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "scripture"
+  ]
+ },
+ "Second": {
+  "count": 1,
+  "builds": {
+   "build-41-counting-the-cost": [
+    "n8"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Both": {
+  "count": 5,
+  "builds": {
+   "build-41-counting-the-cost": [
+    "n9"
+   ],
+   "build-47-houses-on-rock-and-sand": [
+    "n2",
+    "n11"
+   ],
+   "build-127-the-strait-gate": [
+    "n4"
+   ],
+   "build-178-in-our-image": [
+    "n0c"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Salt": {
+  "count": 2,
+  "builds": {
+   "build-41-counting-the-cost": [
+    "j8",
+    "n12"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "narrator"
+  ]
+ },
+ "Dead": {
+  "count": 1,
+  "builds": {
+   "build-41-counting-the-cost": [
+    "n12"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Leave": {
+  "count": 3,
+  "builds": {
+   "build-41-counting-the-cost": [
+    "n12"
+   ],
+   "build-52-demoniac-synagogue": [
+    "n4b"
+   ],
+   "build-82-anointing-at-bethany": [
+    "n3b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Deep": {
+  "count": 1,
+  "builds": {
+   "build-42-barren-fig-tree": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Bare": {
+  "count": 1,
+  "builds": {
+   "build-42-barren-fig-tree": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Coming": {
+  "count": 1,
+  "builds": {
+   "build-42-barren-fig-tree": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Get": {
+  "count": 4,
+  "builds": {
+   "build-42-barren-fig-tree": [
+    "n7"
+   ],
+   "build-64-pool-of-bethesda": [
+    "n4"
+   ],
+   "build-70-temptations": [
+    "j3",
+    "n6a"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus"
+  ]
+ },
+ "Work": {
+  "count": 1,
+  "builds": {
+   "build-42-barren-fig-tree": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Gardener": {
+  "count": 1,
+  "builds": {
+   "build-42-barren-fig-tree": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Whoever": {
+  "count": 6,
+  "builds": {
+   "build-43-the-wedding-garment": [
+    "n8"
+   ],
+   "build-132-forbid-him-not": [
+    "n2b",
+    "n3a",
+    "card"
+   ],
+   "build-134-other-sheep-i-have": [
+    "n4"
+   ],
+   "build-173-dead-shall-hear": [
+    "n24"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Bind": {
+  "count": 1,
+  "builds": {
+   "build-43-the-wedding-garment": [
+    "jv13"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Very": {
+  "count": 2,
+  "builds": {
+   "build-44-two-debtors": [
+    "n6"
+   ],
+   "build-97-the-empty-tomb": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Seest": {
+  "count": 2,
+  "builds": {
+   "build-44-two-debtors": [
+    "jv44"
+   ],
+   "build-74-woman-washed-his-feet": [
+    "j44"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Read": {
+  "count": 4,
+  "builds": {
+   "build-44-two-debtors": [
+    "n9"
+   ],
+   "build-84-no-room-manger": [
+    "n7"
+   ],
+   "build-157-marvellous-work": [
+    "kv11"
+   ],
+   "build-180-before-i-formed-thee": [
+    "n1r"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "scripture"
+  ]
+ },
+ "About": {
+  "count": 4,
+  "builds": {
+   "build-45-wicked-tenants": [
+    "n1"
+   ],
+   "build-50-noblemans-son": [
+    "n2"
+   ],
+   "build-59-feeding-4000": [
+    "n6"
+   ],
+   "build-67-transfiguration": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Message": {
+  "count": 1,
+  "builds": {
+   "build-45-wicked-tenants": [
+    "n6"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Instead": {
+  "count": 8,
+  "builds": {
+   "build-45-wicked-tenants": [
+    "n7"
+   ],
+   "build-110-lords-prayer": [
+    "n1b"
+   ],
+   "build-117-hosea-buys-her-back": [
+    "n5"
+   ],
+   "build-118-jonah-god-who-relents": [
+    "n4"
+   ],
+   "build-120-job-from-whirlwind": [
+    "n7"
+   ],
+   "build-124-love-your-enemies": [
+    "n4"
+   ],
+   "build-184-third-heaven": [
+    "n2"
+   ],
+   "build-187-ye-are-gods": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Having": {
+  "count": 1,
+  "builds": {
+   "build-45-wicked-tenants": [
+    "jv6"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Surely": {
+  "count": 7,
+  "builds": {
+   "build-45-wicked-tenants": [
+    "n8"
+   ],
+   "build-101-still-small-voice": [
+    "n5"
+   ],
+   "build-102-jacobs-ladder": [
+    "s16",
+    "n7"
+   ],
+   "build-150-shepherd-psalm": [
+    "s6a"
+   ],
+   "build-152-revealeth-his-secret": [
+    "kv7"
+   ],
+   "build-168-born-water-spirit": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "scripture"
+  ]
+ },
+ "Ordinary": {
+  "count": 1,
+  "builds": {
+   "build-46-seed-growing": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Slow": {
+  "count": 1,
+  "builds": {
+   "build-46-seed-growing": [
+    "n8"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Therefore": {
+  "count": 4,
+  "builds": {
+   "build-47-houses-on-rock-and-sand": [
+    "jv24"
+   ],
+   "build-123-golden-rule": [
+    "jvA"
+   ],
+   "build-149-hannah-is-heard": [
+    "w4"
+   ],
+   "build-157-marvellous-work": [
+    "kv14"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "woman",
+   "god"
+  ]
+ },
+ "Hearing": {
+  "count": 1,
+  "builds": {
+   "build-47-houses-on-rock-and-sand": [
+    "n11"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Everybody": {
+  "count": 2,
+  "builds": {
+   "build-47-houses-on-rock-and-sand": [
+    "card"
+   ],
+   "build-49-water-to-wine": [
+    "n10b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Pharisees": {
+  "count": 2,
+  "builds": {
+   "build-48-new-wine-old-bottles": [
+    "s18",
+    "n1b"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "narrator"
+  ]
+ },
+ "Fasting": {
+  "count": 1,
+  "builds": {
+   "build-48-new-wine-old-bottles": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Can": {
+  "count": 3,
+  "builds": {
+   "build-48-new-wine-old-bottles": [
+    "jv19"
+   ],
+   "build-116-graven-on-his-palms": [
+    "jv15"
+   ],
+   "build-120-job-from-whirlwind": [
+    "n7b"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "god",
+   "narrator"
+  ]
+ },
+ "While": {
+  "count": 8,
+  "builds": {
+   "build-48-new-wine-old-bottles": [
+    "n3"
+   ],
+   "build-64-pool-of-bethesda": [
+    "n3b"
+   ],
+   "build-94-father-forgive-them": [
+    "n2b"
+   ],
+   "build-100-the-ascension": [
+    "n2a"
+   ],
+   "build-101-still-small-voice": [
+    "n2"
+   ],
+   "build-135-rainbow-covenant": [
+    "jv22"
+   ],
+   "build-142-light-of-the-world": [
+    "n2b"
+   ],
+   "build-177-make-me-a-sanctuary": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "god"
+  ]
+ },
+ "Fresh": {
+  "count": 1,
+  "builds": {
+   "build-48-new-wine-old-bottles": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Cana": {
+  "count": 3,
+  "builds": {
+   "build-49-water-to-wine": [
+    "n2"
+   ],
+   "build-50-noblemans-son": [
+    "n1",
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "English": {
+  "count": 1,
+  "builds": {
+   "build-49-water-to-wine": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Whatsoever": {
+  "count": 1,
+  "builds": {
+   "build-49-water-to-wine": [
+    "w5"
+   ]
+  },
+  "voices": [
+   "woman"
+  ]
+ },
+ "Empty": {
+  "count": 1,
+  "builds": {
+   "build-49-water-to-wine": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Fill": {
+  "count": 2,
+  "builds": {
+   "build-49-water-to-wine": [
+    "jv7"
+   ],
+   "build-135-rainbow-covenant": [
+    "n2b"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "narrator"
+  ]
+ },
+ "Water": {
+  "count": 1,
+  "builds": {
+   "build-49-water-to-wine": [
+    "n8"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Draw": {
+  "count": 1,
+  "builds": {
+   "build-49-water-to-wine": [
+    "jv8"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Yesterday": {
+  "count": 2,
+  "builds": {
+   "build-50-noblemans-son": [
+    "s52",
+    "n10b"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "narrator"
+  ]
+ },
+ "Gennesaret": {
+  "count": 1,
+  "builds": {
+   "build-51-first-catch-of-fish": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Launch": {
+  "count": 1,
+  "builds": {
+   "build-51-first-catch-of-fish": [
+    "jv4"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Depart": {
+  "count": 1,
+  "builds": {
+   "build-51-first-catch-of-fish": [
+    "s8"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Fear": {
+  "count": 3,
+  "builds": {
+   "build-51-first-catch-of-fish": [
+    "jv10"
+   ],
+   "build-85-shepherds-and-angels": [
+    "j1"
+   ],
+   "build-154-everlasting-gospel": [
+    "kv7"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "scripture"
+  ]
+ },
+ "Unable": {
+  "count": 1,
+  "builds": {
+   "build-52-demoniac-synagogue": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Wherever": {
+  "count": 6,
+  "builds": {
+   "build-52-demoniac-synagogue": [
+    "n8"
+   ],
+   "build-79-the-seventy-sent": [
+    "n2"
+   ],
+   "build-82-anointing-at-bethany": [
+    "n6"
+   ],
+   "build-148-ruth-and-the-redeemer": [
+    "n2"
+   ],
+   "build-159-other-sheep": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Savior": {
+  "count": 3,
+  "builds": {
+   "build-53-peters-mother-in-law": [
+    "n8"
+   ],
+   "build-70-temptations": [
+    "n7"
+   ],
+   "build-137-stephen-sees-him-standing": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Stand": {
+  "count": 3,
+  "builds": {
+   "build-55-withered-hand": [
+    "j3",
+    "n3b"
+   ],
+   "build-69-baptism": [
+    "n6"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "narrator"
+  ]
+ },
+ "Stretch": {
+  "count": 1,
+  "builds": {
+   "build-55-withered-hand": [
+    "jv5"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Faced": {
+  "count": 1,
+  "builds": {
+   "build-55-withered-hand": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Mercy": {
+  "count": 1,
+  "builds": {
+   "build-55-withered-hand": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Nain": {
+  "count": 1,
+  "builds": {
+   "build-56-widow-of-nain": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Weep": {
+  "count": 1,
+  "builds": {
+   "build-56-widow-of-nain": [
+    "jv13"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Young": {
+  "count": 1,
+  "builds": {
+   "build-56-widow-of-nain": [
+    "jv14"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Life": {
+  "count": 1,
+  "builds": {
+   "build-56-widow-of-nain": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Death": {
+  "count": 5,
+  "builds": {
+   "build-56-widow-of-nain": [
+    "n5"
+   ],
+   "build-144-resurrection-and-the-life": [
+    "card"
+   ],
+   "build-171-baptized-for-the-dead": [
+    "card"
+   ],
+   "build-172-gospel-preached-to-the-dead": [
+    "n3a"
+   ],
+   "build-182-spirit-returns-to-god": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Jairus": {
+  "count": 2,
+  "builds": {
+   "build-57-jairus-daughter": [
+    "n1",
+    "n3b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Talitha": {
+  "count": 1,
+  "builds": {
+   "build-57-jairus-daughter": [
+    "jtal"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Damsel": {
+  "count": 1,
+  "builds": {
+   "build-57-jairus-daughter": [
+    "jv41"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Aramaic": {
+  "count": 2,
+  "builds": {
+   "build-57-jairus-daughter": [
+    "n6"
+   ],
+   "build-62-ephphatha": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Philip": {
+  "count": 2,
+  "builds": {
+   "build-58-feeding-5000": [
+    "n2",
+    "n2b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Whence": {
+  "count": 1,
+  "builds": {
+   "build-58-feeding-5000": [
+    "j5"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Barley": {
+  "count": 1,
+  "builds": {
+   "build-58-feeding-5000": [
+    "n3b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Pick": {
+  "count": 2,
+  "builds": {
+   "build-58-feeding-5000": [
+    "n6"
+   ],
+   "build-64-pool-of-bethesda": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Prophet": {
+  "count": 1,
+  "builds": {
+   "build-58-feeding-5000": [
+    "n7b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Gentile": {
+  "count": 6,
+  "builds": {
+   "build-60-gerasene-demoniac": [
+    "n0",
+    "n6",
+    "n9"
+   ],
+   "build-61-syrophoenician-woman": [
+    "n0",
+    "n9"
+   ],
+   "build-62-ephphatha": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Foreign": {
+  "count": 1,
+  "builds": {
+   "build-60-gerasene-demoniac": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Swear": {
+  "count": 1,
+  "builds": {
+   "build-60-gerasene-demoniac": [
+    "n2b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Legion": {
+  "count": 3,
+  "builds": {
+   "build-60-gerasene-demoniac": [
+    "s9",
+    "n5"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "narrator"
+  ]
+ },
+ "Send": {
+  "count": 2,
+  "builds": {
+   "build-60-gerasene-demoniac": [
+    "s12",
+    "n6b"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "narrator"
+  ]
+ },
+ "Clothed": {
+  "count": 2,
+  "builds": {
+   "build-60-gerasene-demoniac": [
+    "n7"
+   ],
+   "build-113-where-art-thou": [
+    "n8"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Calm": {
+  "count": 1,
+  "builds": {
+   "build-60-gerasene-demoniac": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Power": {
+  "count": 1,
+  "builds": {
+   "build-60-gerasene-demoniac": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Decapolis": {
+  "count": 2,
+  "builds": {
+   "build-60-gerasene-demoniac": [
+    "n9"
+   ],
+   "build-62-ephphatha": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Tyre": {
+  "count": 1,
+  "builds": {
+   "build-61-syrophoenician-woman": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Syrophoenician": {
+  "count": 1,
+  "builds": {
+   "build-61-syrophoenician-woman": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Wrong": {
+  "count": 1,
+  "builds": {
+   "build-61-syrophoenician-woman": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Last": {
+  "count": 1,
+  "builds": {
+   "build-62-ephphatha": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Sign": {
+  "count": 1,
+  "builds": {
+   "build-62-ephphatha": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Ephphatha": {
+  "count": 1,
+  "builds": {
+   "build-62-ephphatha": [
+    "j1"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Sound": {
+  "count": 1,
+  "builds": {
+   "build-62-ephphatha": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Never": {
+  "count": 11,
+  "builds": {
+   "build-63-man-born-blind": [
+    "n0"
+   ],
+   "build-65-help-mine-unbelief": [
+    "n5b"
+   ],
+   "build-106-god-spake-by-prophets": [
+    "n1",
+    "n4"
+   ],
+   "build-108-my-sheep-hear-my-voice": [
+    "n6"
+   ],
+   "build-135-rainbow-covenant": [
+    "n7"
+   ],
+   "build-160-stone-cut": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Siloam": {
+  "count": 3,
+  "builds": {
+   "build-63-man-born-blind": [
+    "j2",
+    "n4",
+    "n5"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "narrator"
+  ]
+ },
+ "Healed": {
+  "count": 1,
+  "builds": {
+   "build-63-man-born-blind": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "FOUND": {
+  "count": 1,
+  "builds": {
+   "build-63-man-born-blind": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Dost": {
+  "count": 2,
+  "builds": {
+   "build-63-man-born-blind": [
+    "j3"
+   ],
+   "build-95-thief-on-the-cross": [
+    "s40"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "scripture"
+  ]
+ },
+ "Bethesda": {
+  "count": 1,
+  "builds": {
+   "build-64-pool-of-bethesda": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Imagine": {
+  "count": 2,
+  "builds": {
+   "build-64-pool-of-bethesda": [
+    "n0"
+   ],
+   "build-157-marvellous-work": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Hundreds": {
+  "count": 1,
+  "builds": {
+   "build-64-pool-of-bethesda": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Wilt": {
+  "count": 2,
+  "builds": {
+   "build-64-pool-of-bethesda": [
+    "j1"
+   ],
+   "build-114-abraham-sodom": [
+    "s23"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "scripture"
+  ]
+ },
+ "Healing": {
+  "count": 1,
+  "builds": {
+   "build-64-pool-of-bethesda": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Rise": {
+  "count": 2,
+  "builds": {
+   "build-64-pool-of-bethesda": [
+    "j2"
+   ],
+   "build-91-gethsemane": [
+    "jv46"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Walk": {
+  "count": 4,
+  "builds": {
+   "build-64-pool-of-bethesda": [
+    "n4"
+   ],
+   "build-96-it-is-finished": [
+    "card"
+   ],
+   "build-142-light-of-the-world": [
+    "card"
+   ],
+   "build-145-way-truth-life": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Legs": {
+  "count": 1,
+  "builds": {
+   "build-64-pool-of-bethesda": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Thirty": {
+  "count": 2,
+  "builds": {
+   "build-64-pool-of-bethesda": [
+    "n7"
+   ],
+   "build-114-abraham-sodom": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "However": {
+  "count": 4,
+  "builds": {
+   "build-64-pool-of-bethesda": [
+    "card"
+   ],
+   "build-123-golden-rule": [
+    "n2"
+   ],
+   "build-140-road-runs-both-ways": [
+    "card"
+   ],
+   "build-161-called-of-god": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Years": {
+  "count": 2,
+  "builds": {
+   "build-65-help-mine-unbelief": [
+    "n1"
+   ],
+   "build-147-joseph-forgives": [
+    "n0a"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Help": {
+  "count": 2,
+  "builds": {
+   "build-65-help-mine-unbelief": [
+    "n3b"
+   ],
+   "build-192-the-fast-god-has-chosen": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Gethsemane": {
+  "count": 2,
+  "builds": {
+   "build-66-malchus-ear": [
+    "n0"
+   ],
+   "build-91-gethsemane": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Impulsive": {
+  "count": 1,
+  "builds": {
+   "build-66-malchus-ear": [
+    "n1b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Malchus": {
+  "count": 2,
+  "builds": {
+   "build-66-malchus-ear": [
+    "n1b",
+    "n6"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Suffer": {
+  "count": 4,
+  "builds": {
+   "build-66-malchus-ear": [
+    "j2"
+   ],
+   "build-69-baptism": [
+    "j1"
+   ],
+   "build-76-suffer-the-little-children": [
+    "j1"
+   ],
+   "build-169-fulfil-righteousness": [
+    "kv15b"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Elijah": {
+  "count": 13,
+  "builds": {
+   "build-67-the-transfiguration": [
+    "n2a",
+    "n2c"
+   ],
+   "build-67-transfiguration": [
+    "n3",
+    "n4",
+    "n6",
+    "n7"
+   ],
+   "build-101-still-small-voice": [
+    "n1",
+    "jv9",
+    "n6"
+   ],
+   "build-103-peters-confession": [
+    "n3"
+   ],
+   "build-174-hearts-of-the-fathers": [
+    "n0",
+    "s1a",
+    "n0b"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "god"
+  ]
+ },
+ "Elias": {
+  "count": 3,
+  "builds": {
+   "build-67-the-transfiguration": [
+    "j1"
+   ],
+   "build-103-peters-confession": [
+    "s14"
+   ],
+   "build-130-what-manner-of-spirit": [
+    "s54"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Build": {
+  "count": 2,
+  "builds": {
+   "build-67-the-transfiguration": [
+    "n2c"
+   ],
+   "build-177-make-me-a-sanctuary": [
+    "n0b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Somewhere": {
+  "count": 3,
+  "builds": {
+   "build-68-multitudes-mountain": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Multiply": {
+  "count": 1,
+  "builds": {
+   "build-68-multitudes-mountain": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Insomuch": {
+  "count": 1,
+  "builds": {
+   "build-68-multitudes-mountain": [
+    "s31"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Jordan": {
+  "count": 3,
+  "builds": {
+   "build-69-baptism": [
+    "n0",
+    "n4"
+   ],
+   "build-169-fulfil-righteousness": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Baptism": {
+  "count": 2,
+  "builds": {
+   "build-69-baptism": [
+    "n2"
+   ],
+   "build-171-baptized-for-the-dead": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Identity": {
+  "count": 1,
+  "builds": {
+   "build-69-baptism": [
+    "n6"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Approval": {
+  "count": 1,
+  "builds": {
+   "build-69-baptism": [
+    "n6"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "TOWARD": {
+  "count": 1,
+  "builds": {
+   "build-69-baptism": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Straight": {
+  "count": 1,
+  "builds": {
+   "build-70-temptations": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Led": {
+  "count": 2,
+  "builds": {
+   "build-70-temptations": [
+    "n0"
+   ],
+   "build-108-my-sheep-hear-my-voice": [
+    "n7b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Throw": {
+  "count": 2,
+  "builds": {
+   "build-70-temptations": [
+    "n4b"
+   ],
+   "build-118-jonah-god-who-relents": [
+    "n3b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Force": {
+  "count": 1,
+  "builds": {
+   "build-70-temptations": [
+    "n4b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Trust": {
+  "count": 1,
+  "builds": {
+   "build-70-temptations": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Worship": {
+  "count": 1,
+  "builds": {
+   "build-70-temptations": [
+    "n6a"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Bread": {
+  "count": 2,
+  "builds": {
+   "build-70-temptations": [
+    "n6"
+   ],
+   "build-110-lords-prayer": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Company": {
+  "count": 1,
+  "builds": {
+   "build-70-temptations": [
+    "n6"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Hebrews": {
+  "count": 1,
+  "builds": {
+   "build-70-temptations": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Hungry": {
+  "count": 1,
+  "builds": {
+   "build-70-temptations": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Follow": {
+  "count": 2,
+  "builds": {
+   "build-71-calling-the-fishermen": [
+    "j1"
+   ],
+   "build-72-calling-matthew": [
+    "j1"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Zebedee": {
+  "count": 2,
+  "builds": {
+   "build-71-calling-the-fishermen": [
+    "n7",
+    "n9"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Rich": {
+  "count": 1,
+  "builds": {
+   "build-72-calling-matthew": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Past": {
+  "count": 1,
+  "builds": {
+   "build-72-calling-matthew": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Outcasts": {
+  "count": 1,
+  "builds": {
+   "build-72-calling-matthew": [
+    "n6"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Gospel": {
+  "count": 1,
+  "builds": {
+   "build-72-calling-matthew": [
+    "n11"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Sabbath": {
+  "count": 1,
+  "builds": {
+   "build-73-this-day-fulfilled": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Esaias": {
+  "count": 1,
+  "builds": {
+   "build-73-this-day-fulfilled": [
+    "s17"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ],
+  "existing": "eh-ZAY-us"
+ },
+ "Isaiah": {
+  "count": 6,
+  "builds": {
+   "build-73-this-day-fulfilled": [
+    "n1"
+   ],
+   "build-157-marvellous-work": [
+    "n1",
+    "n5"
+   ],
+   "build-175-mountain-of-the-lords-house": [
+    "n0b"
+   ],
+   "build-192-the-fast-god-has-chosen": [
+    "n0"
+   ],
+   "build-198-ensign-for-the-nations": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Today": {
+  "count": 4,
+  "builds": {
+   "build-73-this-day-fulfilled": [
+    "n3"
+   ],
+   "build-85-shepherds-and-angels": [
+    "n1b"
+   ],
+   "build-95-thief-on-the-cross": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Early": {
+  "count": 1,
+  "builds": {
+   "build-75-woman-taken-in-adultery": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Whichever": {
+  "count": 1,
+  "builds": {
+   "build-75-woman-taken-in-adultery": [
+    "n4a"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Has": {
+  "count": 1,
+  "builds": {
+   "build-75-woman-taken-in-adultery": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Parents": {
+  "count": 1,
+  "builds": {
+   "build-76-suffer-the-little-children": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Notwithstanding": {
+  "count": 1,
+  "builds": {
+   "build-79-the-seventy-sent": [
+    "j3"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Caesar": {
+  "count": 11,
+  "builds": {
+   "build-81-render-unto-caesar": [
+    "s14",
+    "n1",
+    "s16",
+    "n4",
+    "j3",
+    "n5",
+    "card"
+   ],
+   "build-84-no-room-manger": [
+    "sv1",
+    "n1"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "narrator",
+   "jesus"
+  ]
+ },
+ "Shall": {
+  "count": 2,
+  "builds": {
+   "build-81-render-unto-caesar": [
+    "s14"
+   ],
+   "build-114-abraham-sodom": [
+    "s23"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Whose": {
+  "count": 3,
+  "builds": {
+   "build-81-render-unto-caesar": [
+    "j2",
+    "n4"
+   ],
+   "build-122-mote-and-beam": [
+    "card"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "narrator"
+  ]
+ },
+ "Render": {
+  "count": 1,
+  "builds": {
+   "build-81-render-unto-caesar": [
+    "j3"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Wheresoever": {
+  "count": 1,
+  "builds": {
+   "build-82-anointing-at-bethany": [
+    "j3"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Augustus": {
+  "count": 2,
+  "builds": {
+   "build-84-no-room-manger": [
+    "sv1",
+    "n1"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "narrator"
+  ]
+ },
+ "Joseph": {
+  "count": 9,
+  "builds": {
+   "build-84-no-room-manger": [
+    "n2"
+   ],
+   "build-85-shepherds-and-angels": [
+    "n4"
+   ],
+   "build-147-joseph-forgives": [
+    "n0a",
+    "s0",
+    "n1b",
+    "n2"
+   ],
+   "build-158-two-sticks": [
+    "n3",
+    "kv16",
+    "kv19"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "scripture",
+   "god"
+  ]
+ },
+ "Ninety": {
+  "count": 1,
+  "builds": {
+   "build-84-no-room-manger": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Bethlehem": {
+  "count": 7,
+  "builds": {
+   "build-84-no-room-manger": [
+    "n2",
+    "n3"
+   ],
+   "build-85-shepherds-and-angels": [
+    "n0",
+    "s15",
+    "n3b"
+   ],
+   "build-86-the-wise-men": [
+    "n1",
+    "n2a"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "scripture"
+  ]
+ },
+ "Door": {
+  "count": 1,
+  "builds": {
+   "build-84-no-room-manger": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Outside": {
+  "count": 1,
+  "builds": {
+   "build-85-shepherds-and-angels": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Suddenly": {
+  "count": 1,
+  "builds": {
+   "build-85-shepherds-and-angels": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Saviour": {
+  "count": 3,
+  "builds": {
+   "build-85-shepherds-and-angels": [
+    "j1",
+    "n1b",
+    "n5"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "narrator"
+  ]
+ },
+ "Glory": {
+  "count": 2,
+  "builds": {
+   "build-85-shepherds-and-angels": [
+    "j2",
+    "n2b"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "narrator"
+  ]
+ },
+ "Including": {
+  "count": 1,
+  "builds": {
+   "build-85-shepherds-and-angels": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Herod": {
+  "count": 2,
+  "builds": {
+   "build-86-the-wise-men": [
+    "n1",
+    "n4a"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Strangers": {
+  "count": 1,
+  "builds": {
+   "build-86-the-wise-men": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Relieved": {
+  "count": 1,
+  "builds": {
+   "build-87-boy-in-the-temple": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Grieving": {
+  "count": 1,
+  "builds": {
+   "build-87-boy-in-the-temple": [
+    "n2b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Didn": {
+  "count": 3,
+  "builds": {
+   "build-87-boy-in-the-temple": [
+    "n2c"
+   ],
+   "build-125-i-never-knew-you": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Untie": {
+  "count": 1,
+  "builds": {
+   "build-88-triumphal-entry": [
+    "n0a2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Sion": {
+  "count": 1,
+  "builds": {
+   "build-88-triumphal-entry": [
+    "s5"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Hosanna": {
+  "count": 3,
+  "builds": {
+   "build-88-triumphal-entry": [
+    "j1",
+    "n2b"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "narrator"
+  ]
+ },
+ "Blessed": {
+  "count": 14,
+  "builds": {
+   "build-88-triumphal-entry": [
+    "j1"
+   ],
+   "build-99-flesh-and-bone-thomas": [
+    "n4b"
+   ],
+   "build-103-peters-confession": [
+    "jv17"
+   ],
+   "build-107-john-baptist-doubt": [
+    "n6"
+   ],
+   "build-112-beatitudes": [
+    "jv3",
+    "jv456",
+    "jv78",
+    "jv910"
+   ],
+   "build-119-fourth-man-in-fire": [
+    "s328",
+    "n10"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "narrator",
+   "jesus"
+  ]
+ },
+ "Save": {
+  "count": 1,
+  "builds": {
+   "build-88-triumphal-entry": [
+    "n2b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Pilate": {
+  "count": 4,
+  "builds": {
+   "build-93-barabbas-goes-free": [
+    "n0",
+    "n1a",
+    "n2",
+    "n2b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Barabbas": {
+  "count": 5,
+  "builds": {
+   "build-93-barabbas-goes-free": [
+    "n0",
+    "n2",
+    "n4",
+    "n5",
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Crucify": {
+  "count": 2,
+  "builds": {
+   "build-93-barabbas-goes-free": [
+    "s13",
+    "n2b"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "narrator"
+  ]
+ },
+ "Calvary": {
+  "count": 2,
+  "builds": {
+   "build-94-father-forgive-them": [
+    "s33",
+    "n0"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "narrator"
+  ]
+ },
+ "Forgive": {
+  "count": 1,
+  "builds": {
+   "build-94-father-forgive-them": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Magdalene": {
+  "count": 1,
+  "builds": {
+   "build-98-mary-her-name": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Through": {
+  "count": 3,
+  "builds": {
+   "build-98-mary-her-name": [
+    "n1a2"
+   ],
+   "build-143-i-am-the-door": [
+    "n2"
+   ],
+   "build-191-windows-of-heaven": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Thinking": {
+  "count": 1,
+  "builds": {
+   "build-98-mary-her-name": [
+    "n1b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Rabboni": {
+  "count": 2,
+  "builds": {
+   "build-98-mary-her-name": [
+    "w16",
+    "n3"
+   ]
+  },
+  "voices": [
+   "woman",
+   "narrator"
+  ]
+ },
+ "Grief": {
+  "count": 1,
+  "builds": {
+   "build-98-mary-her-name": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Touch": {
+  "count": 2,
+  "builds": {
+   "build-98-mary-her-name": [
+    "jv17"
+   ],
+   "build-99-flesh-and-bone-thomas": [
+    "n1b"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "narrator"
+  ]
+ },
+ "Thomas": {
+  "count": 9,
+  "builds": {
+   "build-99-flesh-and-bone-thomas": [
+    "n2",
+    "n3",
+    "n3b",
+    "n4a",
+    "jv29",
+    "n4b"
+   ],
+   "build-133-many-mansions": [
+    "n4"
+   ],
+   "build-145-way-truth-life": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus"
+  ]
+ },
+ "Unless": {
+  "count": 1,
+  "builds": {
+   "build-99-flesh-and-bone-thomas": [
+    "n2b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Reach": {
+  "count": 3,
+  "builds": {
+   "build-99-flesh-and-bone-thomas": [
+    "j2"
+   ],
+   "build-138-his-offspring": [
+    "card"
+   ],
+   "build-183-sun-moon-and-stars": [
+    "card"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "narrator"
+  ]
+ },
+ "Ghost": {
+  "count": 16,
+  "builds": {
+   "build-100-the-ascension": [
+    "j1"
+   ],
+   "build-137-stephen-sees-him-standing": [
+    "n1"
+   ],
+   "build-165-laying-on-hands": [
+    "s15",
+    "n3",
+    "kv17",
+    "n6",
+    "card"
+   ],
+   "build-166-baptized-properly": [
+    "s2",
+    "n2",
+    "kv6",
+    "card"
+   ],
+   "build-168-born-water-spirit": [
+    "n5"
+   ],
+   "build-193-the-comforter": [
+    "n1",
+    "j1"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "narrator",
+   "scripture"
+  ]
+ },
+ "Judaea": {
+  "count": 1,
+  "builds": {
+   "build-100-the-ascension": [
+    "j1"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Twice": {
+  "count": 1,
+  "builds": {
+   "build-101-still-small-voice": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Baal": {
+  "count": 1,
+  "builds": {
+   "build-101-still-small-voice": [
+    "jv18"
+   ]
+  },
+  "voices": [
+   "god"
+  ]
+ },
+ "Scattered": {
+  "count": 1,
+  "builds": {
+   "build-101-still-small-voice": [
+    "n8"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Bethel": {
+  "count": 1,
+  "builds": {
+   "build-102-jacobs-ladder": [
+    "n8b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Whom": {
+  "count": 3,
+  "builds": {
+   "build-103-peters-confession": [
+    "jv13"
+   ],
+   "build-138-his-offspring": [
+    "s23"
+   ],
+   "build-153-restitution": [
+    "kv21"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "scripture"
+  ]
+ },
+ "Baptist": {
+  "count": 3,
+  "builds": {
+   "build-103-peters-confession": [
+    "s14",
+    "n3"
+   ],
+   "build-107-john-baptist-doubt": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "narrator"
+  ]
+ },
+ "Jeremias": {
+  "count": 1,
+  "builds": {
+   "build-103-peters-confession": [
+    "s14"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Others": {
+  "count": 1,
+  "builds": {
+   "build-103-peters-confession": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Jeremiah": {
+  "count": 4,
+  "builds": {
+   "build-103-peters-confession": [
+    "n3"
+   ],
+   "build-180-before-i-formed-thee": [
+    "n0",
+    "n3a"
+   ],
+   "build-199-fishers-and-hunters": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Barjona": {
+  "count": 1,
+  "builds": {
+   "build-103-peters-confession": [
+    "jv17"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Samuel": {
+  "count": 8,
+  "builds": {
+   "build-104-boy-samuel": [
+    "n2",
+    "n3",
+    "n4",
+    "n6",
+    "jv10",
+    "n8"
+   ],
+   "build-149-hannah-is-heard": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "god"
+  ]
+ },
+ "Eli": {
+  "count": 8,
+  "builds": {
+   "build-104-boy-samuel": [
+    "n2",
+    "n3",
+    "n4",
+    "n5",
+    "n6"
+   ],
+   "build-149-hannah-is-heard": [
+    "n3a",
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Speak": {
+  "count": 3,
+  "builds": {
+   "build-104-boy-samuel": [
+    "s9",
+    "ns",
+    "n7"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "narrator"
+  ]
+ },
+ "Tent": {
+  "count": 1,
+  "builds": {
+   "build-105-face-to-face": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Meeting": {
+  "count": 1,
+  "builds": {
+   "build-105-face-to-face": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Whenever": {
+  "count": 1,
+  "builds": {
+   "build-105-face-to-face": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Face": {
+  "count": 1,
+  "builds": {
+   "build-105-face-to-face": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Show": {
+  "count": 1,
+  "builds": {
+   "build-105-face-to-face": [
+    "n6b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Century": {
+  "count": 1,
+  "builds": {
+   "build-106-god-spake-by-prophets": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Hath": {
+  "count": 1,
+  "builds": {
+   "build-106-god-spake-by-prophets": [
+    "jv2"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Lamb": {
+  "count": 2,
+  "builds": {
+   "build-107-john-baptist-doubt": [
+    "n1"
+   ],
+   "build-115-ram-in-the-thicket": [
+    "n8"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Sometimes": {
+  "count": 1,
+  "builds": {
+   "build-107-john-baptist-doubt": [
+    "n7b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Several": {
+  "count": 1,
+  "builds": {
+   "build-108-my-sheep-hear-my-voice": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Tired": {
+  "count": 1,
+  "builds": {
+   "build-108-my-sheep-hear-my-voice": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Once": {
+  "count": 2,
+  "builds": {
+   "build-108-my-sheep-hear-my-voice": [
+    "n6"
+   ],
+   "build-120-job-from-whirlwind": [
+    "s404"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "scripture"
+  ]
+ },
+ "Known": {
+  "count": 1,
+  "builds": {
+   "build-108-my-sheep-hear-my-voice": [
+    "n7b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Held": {
+  "count": 1,
+  "builds": {
+   "build-108-my-sheep-hear-my-voice": [
+    "n7b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Wear": {
+  "count": 1,
+  "builds": {
+   "build-109-ask-seek-knock": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Seek": {
+  "count": 2,
+  "builds": {
+   "build-109-ask-seek-knock": [
+    "n3"
+   ],
+   "build-198-ensign-for-the-nations": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Knock": {
+  "count": 2,
+  "builds": {
+   "build-109-ask-seek-knock": [
+    "n4"
+   ],
+   "build-143-i-am-the-door": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Prayer": {
+  "count": 1,
+  "builds": {
+   "build-109-ask-seek-knock": [
+    "n6"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Simply": {
+  "count": 1,
+  "builds": {
+   "build-109-ask-seek-knock": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Lead": {
+  "count": 1,
+  "builds": {
+   "build-110-lords-prayer": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ],
+  "existing": "Leed"
+ },
+ "Short": {
+  "count": 1,
+  "builds": {
+   "build-110-lords-prayer": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Honest": {
+  "count": 1,
+  "builds": {
+   "build-110-lords-prayer": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Consider": {
+  "count": 1,
+  "builds": {
+   "build-111-lilies-and-sparrows": [
+    "jv2829"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Solomon": {
+  "count": 2,
+  "builds": {
+   "build-111-lilies-and-sparrows": [
+    "jv2829"
+   ],
+   "build-182-spirit-returns-to-god": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "narrator"
+  ]
+ },
+ "Wherefore": {
+  "count": 3,
+  "builds": {
+   "build-111-lilies-and-sparrows": [
+    "jv30"
+   ],
+   "build-126-by-their-fruits": [
+    "j3"
+   ],
+   "build-157-marvellous-work": [
+    "kv13a"
+   ]
+  },
+  "voices": [
+   "jesus",
+   "scripture"
+  ]
+ },
+ "Sufficient": {
+  "count": 1,
+  "builds": {
+   "build-111-lilies-and-sparrows": [
+    "jv34"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Tomorrow": {
+  "count": 1,
+  "builds": {
+   "build-111-lilies-and-sparrows": [
+    "n5b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Shame": {
+  "count": 1,
+  "builds": {
+   "build-113-where-art-thou": [
+    "n5b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Sodom": {
+  "count": 2,
+  "builds": {
+   "build-114-abraham-sodom": [
+    "n2",
+    "jv26"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "god"
+  ]
+ },
+ "Judge": {
+  "count": 2,
+  "builds": {
+   "build-114-abraham-sodom": [
+    "s23"
+   ],
+   "build-122-mote-and-beam": [
+    "jvA"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "jesus"
+  ]
+ },
+ "Peradventure": {
+  "count": 1,
+  "builds": {
+   "build-114-abraham-sodom": [
+    "s32"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Lay": {
+  "count": 1,
+  "builds": {
+   "build-115-ram-in-the-thicket": [
+    "jv12"
+   ]
+  },
+  "voices": [
+   "god"
+  ]
+ },
+ "Provide": {
+  "count": 1,
+  "builds": {
+   "build-115-ram-in-the-thicket": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Centuries": {
+  "count": 2,
+  "builds": {
+   "build-115-ram-in-the-thicket": [
+    "n8"
+   ],
+   "build-177-make-me-a-sanctuary": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Slipped": {
+  "count": 1,
+  "builds": {
+   "build-116-graven-on-his-palms": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Zion": {
+  "count": 2,
+  "builds": {
+   "build-116-graven-on-his-palms": [
+    "s14"
+   ],
+   "build-175-mountain-of-the-lords-house": [
+    "s2b"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Graven": {
+  "count": 1,
+  "builds": {
+   "build-116-graven-on-his-palms": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Love": {
+  "count": 8,
+  "builds": {
+   "build-117-hosea-buys-her-back": [
+    "n1"
+   ],
+   "build-124-love-your-enemies": [
+    "n2",
+    "jvA"
+   ],
+   "build-131-scribe-near-the-kingdom": [
+    "n1",
+    "card"
+   ],
+   "build-188-be-ye-therefore-perfect": [
+    "j1",
+    "n0b"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus"
+  ]
+ },
+ "Hosea": {
+  "count": 2,
+  "builds": {
+   "build-117-hosea-buys-her-back": [
+    "n2",
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Brought": {
+  "count": 1,
+  "builds": {
+   "build-117-hosea-buys-her-back": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Fifteen": {
+  "count": 1,
+  "builds": {
+   "build-117-hosea-buys-her-back": [
+    "n6"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Speaking": {
+  "count": 1,
+  "builds": {
+   "build-117-hosea-buys-her-back": [
+    "n7b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Turning": {
+  "count": 1,
+  "builds": {
+   "build-117-hosea-buys-her-back": [
+    "n8w"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Betrothed": {
+  "count": 1,
+  "builds": {
+   "build-117-hosea-buys-her-back": [
+    "n8"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Jonah": {
+  "count": 11,
+  "builds": {
+   "build-118-jonah-god-who-relents": [
+    "n1",
+    "n2",
+    "n3",
+    "n4",
+    "n5",
+    "n5b",
+    "n6",
+    "n8",
+    "n8b",
+    "n9",
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Nineveh": {
+  "count": 7,
+  "builds": {
+   "build-118-jonah-god-who-relents": [
+    "n1",
+    "gv1",
+    "n3b",
+    "jvA",
+    "s34",
+    "jvB",
+    "n9"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "god",
+   "scripture"
+  ]
+ },
+ "Salvation": {
+  "count": 1,
+  "builds": {
+   "build-118-jonah-god-who-relents": [
+    "s29"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Rescue": {
+  "count": 1,
+  "builds": {
+   "build-118-jonah-god-who-relents": [
+    "n5b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Forty": {
+  "count": 1,
+  "builds": {
+   "build-118-jonah-god-who-relents": [
+    "n6b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Should": {
+  "count": 1,
+  "builds": {
+   "build-118-jonah-god-who-relents": [
+    "n9"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Shadrach": {
+  "count": 3,
+  "builds": {
+   "build-119-fourth-man-in-fire": [
+    "n2",
+    "s326",
+    "s328"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "scripture"
+  ]
+ },
+ "Meshach": {
+  "count": 3,
+  "builds": {
+   "build-119-fourth-man-in-fire": [
+    "n2",
+    "s326",
+    "s328"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "scripture"
+  ]
+ },
+ "Abednego": {
+  "count": 3,
+  "builds": {
+   "build-119-fourth-man-in-fire": [
+    "n2",
+    "s326",
+    "s328"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "scripture"
+  ]
+ },
+ "Bow": {
+  "count": 1,
+  "builds": {
+   "build-119-fourth-man-in-fire": [
+    "n2b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Job": {
+  "count": 13,
+  "builds": {
+   "build-120-job-from-whirlwind": [
+    "n1",
+    "n5",
+    "n7b",
+    "n7",
+    "n7c",
+    "n8",
+    "card"
+   ],
+   "build-181-morning-stars-sang": [
+    "n0",
+    "n1r"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Maker": {
+  "count": 4,
+  "builds": {
+   "build-120-job-from-whirlwind": [
+    "n6"
+   ],
+   "build-154-everlasting-gospel": [
+    "n6",
+    "n7"
+   ],
+   "build-182-spirit-returns-to-god": [
+    "n0b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Canst": {
+  "count": 1,
+  "builds": {
+   "build-120-job-from-whirlwind": [
+    "jvB"
+   ]
+  },
+  "voices": [
+   "god"
+  ]
+ },
+ "Pleiades": {
+  "count": 2,
+  "builds": {
+   "build-120-job-from-whirlwind": [
+    "jvB",
+    "n7b"
+   ]
+  },
+  "voices": [
+   "god",
+   "narrator"
+  ]
+ },
+ "Orion": {
+  "count": 2,
+  "builds": {
+   "build-120-job-from-whirlwind": [
+    "jvB",
+    "n7b"
+   ]
+  },
+  "voices": [
+   "god",
+   "narrator"
+  ]
+ },
+ "Chapter": {
+  "count": 1,
+  "builds": {
+   "build-120-job-from-whirlwind": [
+    "n7b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Person": {
+  "count": 1,
+  "builds": {
+   "build-120-job-from-whirlwind": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Live": {
+  "count": 1,
+  "builds": {
+   "build-121-salt-and-light": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Ours": {
+  "count": 1,
+  "builds": {
+   "build-122-mote-and-beam": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Deal": {
+  "count": 2,
+  "builds": {
+   "build-122-mote-and-beam": [
+    "n8",
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Lift": {
+  "count": 2,
+  "builds": {
+   "build-123-golden-rule": [
+    "n6"
+   ],
+   "build-176-who-shall-ascend": [
+    "s4"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "scripture"
+  ]
+ },
+ "Treat": {
+  "count": 1,
+  "builds": {
+   "build-123-golden-rule": [
+    "n8"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Bless": {
+  "count": 2,
+  "builds": {
+   "build-124-love-your-enemies": [
+    "n3"
+   ],
+   "build-188-be-ye-therefore-perfect": [
+    "n0b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Pray": {
+  "count": 1,
+  "builds": {
+   "build-124-love-your-enemies": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Loving": {
+  "count": 1,
+  "builds": {
+   "build-124-love-your-enemies": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Words": {
+  "count": 1,
+  "builds": {
+   "build-125-i-never-knew-you": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Beware": {
+  "count": 1,
+  "builds": {
+   "build-126-by-their-fruits": [
+    "j1a"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Inside": {
+  "count": 1,
+  "builds": {
+   "build-126-by-their-fruits": [
+    "j1b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Cannot": {
+  "count": 1,
+  "builds": {
+   "build-126-by-their-fruits": [
+    "n2b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Amos": {
+  "count": 4,
+  "builds": {
+   "build-128-famine-of-hearing": [
+    "n0a"
+   ],
+   "build-156-famine-of-hearing": [
+    "n1",
+    "n5",
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Joses": {
+  "count": 1,
+  "builds": {
+   "build-129-nazareth-only-a-few": [
+    "s3"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Juda": {
+  "count": 1,
+  "builds": {
+   "build-129-nazareth-only-a-few": [
+    "s3"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Faith": {
+  "count": 3,
+  "builds": {
+   "build-129-nazareth-only-a-few": [
+    "n4"
+   ],
+   "build-165-laying-on-hands": [
+    "n7"
+   ],
+   "build-190-faith-without-works": [
+    "n4b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Anger": {
+  "count": 1,
+  "builds": {
+   "build-130-what-manner-of-spirit": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Forbid": {
+  "count": 1,
+  "builds": {
+   "build-132-forbid-him-not": [
+    "j1"
+   ]
+  },
+  "voices": [
+   "jesus"
+  ]
+ },
+ "Myself": {
+  "count": 1,
+  "builds": {
+   "build-133-many-mansions": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Shepherd": {
+  "count": 5,
+  "builds": {
+   "build-134-other-sheep-i-have": [
+    "n2",
+    "n3"
+   ],
+   "build-150-shepherd-psalm": [
+    "n3",
+    "card"
+   ],
+   "build-159-other-sheep": [
+    "n8"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Noah": {
+  "count": 5,
+  "builds": {
+   "build-135-rainbow-covenant": [
+    "n2",
+    "n3",
+    "n5",
+    "n6"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Planting": {
+  "count": 1,
+  "builds": {
+   "build-135-rainbow-covenant": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Rain": {
+  "count": 1,
+  "builds": {
+   "build-135-rainbow-covenant": [
+    "n10"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Friends": {
+  "count": 2,
+  "builds": {
+   "build-136-healed-in-two-touches": [
+    "n0"
+   ],
+   "build-151-ask-of-god": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Bethsaida": {
+  "count": 1,
+  "builds": {
+   "build-136-healed-in-two-touches": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Stephen": {
+  "count": 6,
+  "builds": {
+   "build-137-stephen-sees-him-standing": [
+    "n0a",
+    "n0b",
+    "s59"
+   ],
+   "build-179-stephens-witness": [
+    "n0",
+    "n1",
+    "n3b"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "scripture"
+  ]
+ },
+ "Full": {
+  "count": 1,
+  "builds": {
+   "build-137-stephen-sees-him-standing": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Paul": {
+  "count": 32,
+  "builds": {
+   "build-138-his-offspring": [
+    "n0a",
+    "n1",
+    "n2",
+    "n3"
+   ],
+   "build-155-falling-away": [
+    "n1",
+    "n4",
+    "n6",
+    "card"
+   ],
+   "build-163-apostles-prophets": [
+    "n1",
+    "n3",
+    "n4",
+    "n5"
+   ],
+   "build-164-unity-of-faith": [
+    "n5"
+   ],
+   "build-166-baptized-properly": [
+    "n1",
+    "n2",
+    "s4",
+    "n3",
+    "n4",
+    "kv6",
+    "card"
+   ],
+   "build-170-sacrament-worthily": [
+    "n1",
+    "n5"
+   ],
+   "build-171-baptized-for-the-dead": [
+    "n0"
+   ],
+   "build-183-sun-moon-and-stars": [
+    "n0",
+    "n2"
+   ],
+   "build-184-third-heaven": [
+    "n0",
+    "n1",
+    "n3",
+    "card"
+   ],
+   "build-186-joint-heirs": [
+    "n0"
+   ],
+   "build-194-fruit-of-the-spirit": [
+    "n0"
+   ],
+   "build-195-prove-all-things": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "scripture"
+  ]
+ },
+ "Athens": {
+  "count": 1,
+  "builds": {
+   "build-138-his-offspring": [
+    "n0a"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Himself": {
+  "count": 2,
+  "builds": {
+   "build-141-bread-of-life": [
+    "n3"
+   ],
+   "build-144-resurrection-and-the-life": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Light": {
+  "count": 1,
+  "builds": {
+   "build-142-light-of-the-world": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Branches": {
+  "count": 1,
+  "builds": {
+   "build-146-vine-and-branches": [
+    "n0c"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Try": {
+  "count": 1,
+  "builds": {
+   "build-146-vine-and-branches": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Vine": {
+  "count": 1,
+  "builds": {
+   "build-146-vine-and-branches": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Pharaoh": {
+  "count": 1,
+  "builds": {
+   "build-147-joseph-forgives": [
+    "n0b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Egypt": {
+  "count": 2,
+  "builds": {
+   "build-147-joseph-forgives": [
+    "n0b",
+    "s0"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "scripture"
+  ]
+ },
+ "Egyptian": {
+  "count": 1,
+  "builds": {
+   "build-147-joseph-forgives": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Much": {
+  "count": 1,
+  "builds": {
+   "build-147-joseph-forgives": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Naomi": {
+  "count": 5,
+  "builds": {
+   "build-148-ruth-and-the-redeemer": [
+    "n0",
+    "w2a",
+    "n2b",
+    "n3",
+    "n6b"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "woman"
+  ]
+ },
+ "Ruth": {
+  "count": 6,
+  "builds": {
+   "build-148-ruth-and-the-redeemer": [
+    "n1",
+    "n2",
+    "n3",
+    "n5",
+    "n6a",
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Intreat": {
+  "count": 1,
+  "builds": {
+   "build-148-ruth-and-the-redeemer": [
+    "w1a"
+   ]
+  },
+  "voices": [
+   "woman"
+  ],
+  "existing": "in-treat"
+ },
+ "Call": {
+  "count": 1,
+  "builds": {
+   "build-148-ruth-and-the-redeemer": [
+    "w2a"
+   ]
+  },
+  "voices": [
+   "woman"
+  ]
+ },
+ "Mara": {
+  "count": 1,
+  "builds": {
+   "build-148-ruth-and-the-redeemer": [
+    "w2a"
+   ]
+  },
+  "voices": [
+   "woman"
+  ]
+ },
+ "Almighty": {
+  "count": 1,
+  "builds": {
+   "build-148-ruth-and-the-redeemer": [
+    "w2a"
+   ]
+  },
+  "voices": [
+   "woman"
+  ]
+ },
+ "Boaz": {
+  "count": 3,
+  "builds": {
+   "build-148-ruth-and-the-redeemer": [
+    "n3",
+    "n4",
+    "n6a"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "May": {
+  "count": 1,
+  "builds": {
+   "build-148-ruth-and-the-redeemer": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Redeemer": {
+  "count": 1,
+  "builds": {
+   "build-148-ruth-and-the-redeemer": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Year": {
+  "count": 1,
+  "builds": {
+   "build-149-hannah-is-heard": [
+    "n0a"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Hannah": {
+  "count": 3,
+  "builds": {
+   "build-149-hannah-is-heard": [
+    "n0a",
+    "n1",
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Shiloh": {
+  "count": 1,
+  "builds": {
+   "build-149-hannah-is-heard": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Sooner": {
+  "count": 1,
+  "builds": {
+   "build-151-ask-of-god": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Honestly": {
+  "count": 1,
+  "builds": {
+   "build-151-ask-of-god": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Wisdom": {
+  "count": 1,
+  "builds": {
+   "build-151-ask-of-god": [
+    "n8"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Silver": {
+  "count": 1,
+  "builds": {
+   "build-153-restitution": [
+    "s6"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Turn": {
+  "count": 3,
+  "builds": {
+   "build-153-restitution": [
+    "n2",
+    "card"
+   ],
+   "build-154-everlasting-gospel": [
+    "n6"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Change": {
+  "count": 1,
+  "builds": {
+   "build-153-restitution": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Repent": {
+  "count": 1,
+  "builds": {
+   "build-153-restitution": [
+    "kv19"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Restitution": {
+  "count": 1,
+  "builds": {
+   "build-153-restitution": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Patmos": {
+  "count": 1,
+  "builds": {
+   "build-154-everlasting-gospel": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Honour": {
+  "count": 1,
+  "builds": {
+   "build-154-everlasting-gospel": [
+    "n6"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Thessalonica": {
+  "count": 1,
+  "builds": {
+   "build-155-falling-away": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Rumors": {
+  "count": 1,
+  "builds": {
+   "build-155-falling-away": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Feelings": {
+  "count": 1,
+  "builds": {
+   "build-155-falling-away": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Forasmuch": {
+  "count": 2,
+  "builds": {
+   "build-157-marvellous-work": [
+    "kv13b"
+   ],
+   "build-160-stone-cut": [
+    "kv45"
+   ]
+  },
+  "voices": [
+   "god",
+   "scripture"
+  ]
+ },
+ "Among": {
+  "count": 1,
+  "builds": {
+   "build-158-two-sticks": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Ezekiel": {
+  "count": 2,
+  "builds": {
+   "build-158-two-sticks": [
+    "n1",
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Judah": {
+  "count": 4,
+  "builds": {
+   "build-158-two-sticks": [
+    "n2",
+    "kv16",
+    "kv19"
+   ],
+   "build-198-ensign-for-the-nations": [
+    "s2"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "god",
+   "scripture"
+  ]
+ },
+ "Moreover": {
+  "count": 1,
+  "builds": {
+   "build-158-two-sticks": [
+    "kv16"
+   ]
+  },
+  "voices": [
+   "god"
+  ]
+ },
+ "Ephraim": {
+  "count": 2,
+  "builds": {
+   "build-158-two-sticks": [
+    "kv16",
+    "kv19"
+   ]
+  },
+  "voices": [
+   "god"
+  ]
+ },
+ "Thus": {
+  "count": 1,
+  "builds": {
+   "build-158-two-sticks": [
+    "kv19"
+   ]
+  },
+  "voices": [
+   "god"
+  ]
+ },
+ "Babylon": {
+  "count": 1,
+  "builds": {
+   "build-160-stone-cut": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Daniel": {
+  "count": 2,
+  "builds": {
+   "build-160-stone-cut": [
+    "n1",
+    "n6"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Aaron": {
+  "count": 4,
+  "builds": {
+   "build-161-called-of-god": [
+    "kv4",
+    "n4",
+    "n6",
+    "card"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "narrator"
+  ]
+ },
+ "Far": {
+  "count": 1,
+  "builds": {
+   "build-162-keys-of-kingdom": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Caesarea": {
+  "count": 1,
+  "builds": {
+   "build-162-keys-of-kingdom": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Philippi": {
+  "count": 1,
+  "builds": {
+   "build-162-keys-of-kingdom": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Empires": {
+  "count": 1,
+  "builds": {
+   "build-162-keys-of-kingdom": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Keys": {
+  "count": 1,
+  "builds": {
+   "build-162-keys-of-kingdom": [
+    "n7"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Taught": {
+  "count": 1,
+  "builds": {
+   "build-164-unity-of-faith": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Till": {
+  "count": 1,
+  "builds": {
+   "build-164-unity-of-faith": [
+    "kv13"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Without": {
+  "count": 1,
+  "builds": {
+   "build-164-unity-of-faith": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Order": {
+  "count": 1,
+  "builds": {
+   "build-165-laying-on-hands": [
+    "n6"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Comforter": {
+  "count": 3,
+  "builds": {
+   "build-165-laying-on-hands": [
+    "n7"
+   ],
+   "build-193-the-comforter": [
+    "j1",
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator",
+   "jesus"
+  ]
+ },
+ "Ephesus": {
+  "count": 2,
+  "builds": {
+   "build-166-baptized-properly": [
+    "n1",
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Sincerity": {
+  "count": 2,
+  "builds": {
+   "build-166-baptized-properly": [
+    "n6",
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Sincere": {
+  "count": 1,
+  "builds": {
+   "build-166-baptized-properly": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Better": {
+  "count": 1,
+  "builds": {
+   "build-167-chosen-ordained": [
+    "n5"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Godhead": {
+  "count": 3,
+  "builds": {
+   "build-169-fulfil-righteousness": [
+    "n6",
+    "card"
+   ],
+   "build-178-in-our-image": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Sinless": {
+  "count": 1,
+  "builds": {
+   "build-169-fulfil-righteousness": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Ever": {
+  "count": 1,
+  "builds": {
+   "build-170-sacrament-worthily": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Else": {
+  "count": 1,
+  "builds": {
+   "build-171-baptized-for-the-dead": [
+    "s1"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Adam": {
+  "count": 1,
+  "builds": {
+   "build-171-baptized-for-the-dead": [
+    "s22"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Offering": {
+  "count": 1,
+  "builds": {
+   "build-171-baptized-for-the-dead": [
+    "n5b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Lean": {
+  "count": 1,
+  "builds": {
+   "build-173-dead-shall-hear": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Nations": {
+  "count": 1,
+  "builds": {
+   "build-175-mountain-of-the-lords-house": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Such": {
+  "count": 1,
+  "builds": {
+   "build-176-who-shall-ascend": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Stewards": {
+  "count": 1,
+  "builds": {
+   "build-178-in-our-image": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Long": {
+  "count": 1,
+  "builds": {
+   "build-180-before-i-formed-thee": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Creation": {
+  "count": 1,
+  "builds": {
+   "build-181-morning-stars-sang": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Creator": {
+  "count": 1,
+  "builds": {
+   "build-182-spirit-returns-to-god": [
+    "s0"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Giver": {
+  "count": 2,
+  "builds": {
+   "build-182-spirit-returns-to-god": [
+    "n4a"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Received": {
+  "count": 1,
+  "builds": {
+   "build-186-joint-heirs": [
+    "n3a"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Heirs": {
+  "count": 1,
+  "builds": {
+   "build-186-joint-heirs": [
+    "n3b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Heir": {
+  "count": 1,
+  "builds": {
+   "build-186-joint-heirs": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "High": {
+  "count": 1,
+  "builds": {
+   "build-187-ye-are-gods": [
+    "j1"
+   ]
+  },
+  "voices": [
+   "god"
+  ]
+ },
+ "Perfect": {
+  "count": 1,
+  "builds": {
+   "build-188-be-ye-therefore-perfect": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Open": {
+  "count": 2,
+  "builds": {
+   "build-189-to-him-that-overcometh": [
+    "card"
+   ],
+   "build-192-the-fast-god-has-chosen": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Rahab": {
+  "count": 1,
+  "builds": {
+   "build-190-faith-without-works": [
+    "n3"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Belief": {
+  "count": 1,
+  "builds": {
+   "build-190-faith-without-works": [
+    "n4a"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Malachi": {
+  "count": 1,
+  "builds": {
+   "build-191-windows-of-heaven": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Share": {
+  "count": 1,
+  "builds": {
+   "build-192-the-fast-god-has-chosen": [
+    "n1a"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Helper": {
+  "count": 2,
+  "builds": {
+   "build-193-the-comforter": [
+    "n1",
+    "n2a"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Meekness": {
+  "count": 2,
+  "builds": {
+   "build-194-fruit-of-the-spirit": [
+    "s1",
+    "n3"
+   ]
+  },
+  "voices": [
+   "scripture",
+   "narrator"
+  ]
+ },
+ "Longsuffering": {
+  "count": 1,
+  "builds": {
+   "build-194-fruit-of-the-spirit": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Quench": {
+  "count": 1,
+  "builds": {
+   "build-195-prove-all-things": [
+    "s19"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Despise": {
+  "count": 1,
+  "builds": {
+   "build-195-prove-all-things": [
+    "s19"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Prove": {
+  "count": 1,
+  "builds": {
+   "build-195-prove-all-things": [
+    "s1"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Test": {
+  "count": 1,
+  "builds": {
+   "build-195-prove-all-things": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Abstain": {
+  "count": 1,
+  "builds": {
+   "build-195-prove-all-things": [
+    "s2"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Faithful": {
+  "count": 1,
+  "builds": {
+   "build-195-prove-all-things": [
+    "s24"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Weigh": {
+  "count": 1,
+  "builds": {
+   "build-195-prove-all-things": [
+    "card"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Eldad": {
+  "count": 1,
+  "builds": {
+   "build-196-would-god-all-were-prophets": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Medad": {
+  "count": 1,
+  "builds": {
+   "build-196-would-god-all-were-prophets": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Joshua": {
+  "count": 1,
+  "builds": {
+   "build-196-would-god-all-were-prophets": [
+    "n3b"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Enviest": {
+  "count": 1,
+  "builds": {
+   "build-196-would-god-all-were-prophets": [
+    "s1"
+   ]
+  },
+  "voices": [
+   "scripture"
+  ]
+ },
+ "Joel": {
+  "count": 1,
+  "builds": {
+   "build-197-sons-and-daughters-prophesy": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Decades": {
+  "count": 1,
+  "builds": {
+   "build-197-sons-and-daughters-prophesy": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Pentecost": {
+  "count": 1,
+  "builds": {
+   "build-197-sons-and-daughters-prophesy": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Jesse": {
+  "count": 1,
+  "builds": {
+   "build-198-ensign-for-the-nations": [
+    "n0"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Raised": {
+  "count": 1,
+  "builds": {
+   "build-198-ensign-for-the-nations": [
+    "n1"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Exiles": {
+  "count": 1,
+  "builds": {
+   "build-198-ensign-for-the-nations": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Judgment": {
+  "count": 1,
+  "builds": {
+   "build-199-fishers-and-hunters": [
+    "n2"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Fisher": {
+  "count": 1,
+  "builds": {
+   "build-199-fishers-and-hunters": [
+    "n4"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Mount": {
+  "count": 1,
+  "builds": {
+   "build-200-gospel-to-all-the-world": [
+    "n0a"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ },
+ "Olives": {
+  "count": 1,
+  "builds": {
+   "build-200-gospel-to-all-the-world": [
+    "n0a"
+   ]
+  },
+  "voices": [
+   "narrator"
+  ]
+ }
+}

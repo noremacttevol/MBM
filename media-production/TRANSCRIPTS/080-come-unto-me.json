@@ -1,0 +1,61 @@
+{
+  "row": 80,
+  "slug": "come-unto-me",
+  "segments": [
+    {
+      "id": "n0a",
+      "speaker": "narrator",
+      "text": "To a crowd of people worn down by work, by rules, by just getting through the day,"
+    },
+    {
+      "id": "n0b",
+      "speaker": "narrator",
+      "text": "Jesus made one of the gentlest offers ever spoken."
+    },
+    {
+      "id": "j1",
+      "speaker": "jesus",
+      "text": "Come unto me, all ye that labour and are heavy laden, and I will give you rest."
+    },
+    {
+      "id": "n0c",
+      "speaker": "narrator",
+      "text": "Come to me, all of you who are worn out and carrying too much — and I will give you rest. He does not say come once you have it handled. He says come while you are still under it."
+    },
+    {
+      "id": "n1",
+      "speaker": "narrator",
+      "text": "A yoke was the wooden beam that let two oxen pull a load together, so no single animal carried it alone."
+    },
+    {
+      "id": "j2",
+      "speaker": "jesus",
+      "text": "Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls."
+    },
+    {
+      "id": "j3",
+      "speaker": "jesus",
+      "text": "For my yoke is easy, and my burden is light."
+    },
+    {
+      "id": "n1b",
+      "speaker": "narrator",
+      "text": "Take my yoke on you, he said, and learn from me, because I am gentle and I am humble — and you will find rest for your soul. He is not handing you a heavier beam. He is stepping into the empty side of the one you are already pulling."
+    },
+    {
+      "id": "n2a",
+      "speaker": "narrator",
+      "text": "He wasn't promising a life with nothing to carry."
+    },
+    {
+      "id": "n2b",
+      "speaker": "narrator",
+      "text": "He was promising to get under the load with you, so it never has to be carried alone again."
+    },
+    {
+      "id": "card",
+      "speaker": "narrator",
+      "text": "Whatever you've been carrying by yourself — he's offering to take the other side of it. Come."
+    }
+  ]
+}

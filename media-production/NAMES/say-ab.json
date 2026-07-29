@@ -1,0 +1,1302 @@
+{
+ "Abednego": {
+  "respell": "a-BED-nee-go",
+  "voices": {
+   "narrator": {
+    "plain_heard": "set bed go",
+    "plain": 0.667,
+    "respell_heard": "bit may go",
+    "respell": 0.444
+   },
+   "scripture": {
+    "plain_heard": "bad nigga",
+    "plain": 1.0,
+    "respell_heard": "bad may go",
+    "respell": 0.667
+   }
+  },
+  "plain_avg": 0.834,
+  "respell_avg": 0.555,
+  "verdict": "use-plain-word"
+ },
+ "Aenon": {
+  "respell": "AY-non",
+  "voices": {
+   "narrator": {
+    "plain_heard": "on",
+    "plain": 1.0,
+    "respell_heard": "awine onto",
+    "respell": 0.5
+   },
+   "scripture": {
+    "plain_heard": "unto",
+    "plain": 0.667,
+    "respell_heard": "why not",
+    "respell": 0.4
+   }
+  },
+  "plain_avg": 0.834,
+  "respell_avg": 0.45,
+  "verdict": "use-plain-word"
+ },
+ "Antipas": {
+  "respell": "AN-tih-pas",
+  "voices": {
+   "narrator": {
+    "plain_heard": "antipas",
+    "plain": 1.0,
+    "respell_heard": "an thai pa",
+    "respell": 0.75
+   },
+   "scripture": {
+    "plain_heard": "antipas",
+    "plain": 1.0,
+    "respell_heard": "antipot",
+    "respell": 0.75
+   }
+  },
+  "plain_avg": 1.0,
+  "respell_avg": 0.75,
+  "verdict": "use-plain-word"
+ },
+ "Areopagus": {
+  "respell": "air-ee-OP-a-gus",
+  "voices": {
+   "narrator": {
+    "plain_heard": "ariapagos",
+    "plain": 1.0,
+    "respell_heard": "arialpia gust",
+    "respell": 0.8
+   },
+   "scripture": {
+    "plain_heard": "ariapagos",
+    "plain": 1.0,
+    "respell_heard": "ariopeia gust",
+    "respell": 0.889
+   }
+  },
+  "plain_avg": 1.0,
+  "respell_avg": 0.845,
+  "verdict": "use-plain-word"
+ },
+ "Barabbas": {
+  "respell": "ba-RAB-bas",
+  "voices": {
+   "narrator": {
+    "plain_heard": "barabbas",
+    "plain": 1.0,
+    "respell_heard": "barab bought",
+    "respell": 0.6
+   },
+   "scripture": {
+    "plain_heard": "barabbas",
+    "plain": 1.0,
+    "respell_heard": "brb by",
+    "respell": 0.75
+   }
+  },
+  "plain_avg": 1.0,
+  "respell_avg": 0.675,
+  "verdict": "use-plain-word"
+ },
+ "Bartimaeus": {
+  "respell": "Bar-tih-MEE-us",
+  "voices": {
+   "narrator": {
+    "plain_heard": "bartimaeus",
+    "plain": 1.0,
+    "respell_heard": "bartia meas",
+    "respell": 1.0
+   },
+   "scripture": {
+    "plain_heard": "bartimius",
+    "plain": 1.0,
+    "respell_heard": "bartime asked",
+    "respell": 0.833
+   }
+  },
+  "plain_avg": 1.0,
+  "respell_avg": 0.916,
+  "verdict": "use-plain-word"
+ },
+ "Bethesda": {
+  "respell": "beth-EZ-da",
+  "voices": {
+   "narrator": {
+    "plain_heard": "bethesda",
+    "plain": 1.0,
+    "respell_heard": "beth easy",
+    "respell": 0.8
+   },
+   "scripture": {
+    "plain_heard": "bethesda",
+    "plain": 1.0,
+    "respell_heard": "beth easy",
+    "respell": 0.8
+   }
+  },
+  "plain_avg": 1.0,
+  "respell_avg": 0.8,
+  "verdict": "use-plain-word"
+ },
+ "Bethsaida": {
+  "respell": "beth-SAY-ih-da",
+  "voices": {
+   "narrator": {
+    "plain_heard": "beth up",
+    "plain": 0.667,
+    "respell_heard": "beth say i aged it",
+    "respell": 0.769
+   },
+   "scripture": {
+    "plain_heard": "but it",
+    "plain": 0.571,
+    "respell_heard": "beths i aged it",
+    "respell": 0.833
+   }
+  },
+  "plain_avg": 0.619,
+  "respell_avg": 0.801,
+  "verdict": "keep-respelling"
+ },
+ "Caiaphas": {
+  "respell": "KY-a-fas",
+  "voices": {
+   "narrator": {
+    "plain_heard": "kayafist",
+    "plain": 0.5,
+    "respell_heard": "kyfos",
+    "respell": 0.571
+   },
+   "scripture": {
+    "plain_heard": "kiafus",
+    "plain": 0.667,
+    "respell_heard": "k why are files",
+    "respell": 0.4
+   }
+  },
+  "plain_avg": 0.584,
+  "respell_avg": 0.485,
+  "verdict": "use-plain-word"
+ },
+ "Capernaum": {
+  "respell": "ka-PER-nay-um",
+  "voices": {
+   "narrator": {
+    "plain_heard": "capronom",
+    "plain": 1.0,
+    "respell_heard": "copper or an aom",
+    "respell": 1.0
+   },
+   "scripture": {
+    "plain_heard": "capronome",
+    "plain": 1.0,
+    "respell_heard": "copy on am",
+    "respell": 0.8
+   }
+  },
+  "plain_avg": 1.0,
+  "respell_avg": 0.9,
+  "verdict": "use-plain-word"
+ },
+ "Chorazin": {
+  "respell": "ko-RAY-zin",
+  "voices": {
+   "narrator": {
+    "plain_heard": "coraising",
+    "plain": 0.6,
+    "respell_heard": "ko raised in",
+    "respell": 0.4
+   },
+   "scripture": {
+    "plain_heard": "cora is into",
+    "plain": 0.6,
+    "respell_heard": "kale raised into",
+    "respell": 0.333
+   }
+  },
+  "plain_avg": 0.6,
+  "respell_avg": 0.367,
+  "verdict": "use-plain-word"
+ },
+ "Colosse": {
+  "respell": "ko-LOSS-ee",
+  "voices": {
+   "narrator": {
+    "plain_heard": "coloss",
+    "plain": 1.0,
+    "respell_heard": "ko lassi you",
+    "respell": 0.571
+   },
+   "scripture": {
+    "plain_heard": "coloste then",
+    "plain": 0.667,
+    "respell_heard": "kael lost eat",
+    "respell": 0.571
+   }
+  },
+  "plain_avg": 0.834,
+  "respell_avg": 0.571,
+  "verdict": "use-plain-word"
+ },
+ "Cyrenian": {
+  "respell": "sy-REE-nee-an",
+  "voices": {
+   "narrator": {
+    "plain_heard": "cyrenean",
+    "plain": 1.0,
+    "respell_heard": "syrena into",
+    "respell": 0.667
+   },
+   "scripture": {
+    "plain_heard": "cyrenean",
+    "plain": 1.0,
+    "respell_heard": "syrenn",
+    "respell": 0.75
+   }
+  },
+  "plain_avg": 1.0,
+  "respell_avg": 0.709,
+  "verdict": "use-plain-word"
+ },
+ "Decapolis": {
+  "respell": "dee-KAP-o-liss",
+  "voices": {
+   "narrator": {
+    "plain_heard": "decapolis",
+    "plain": 1.0,
+    "respell_heard": "dk piel list",
+    "respell": 0.727
+   },
+   "scripture": {
+    "plain_heard": "decapolis",
+    "plain": 1.0,
+    "respell_heard": "dkpl is",
+    "respell": 0.8
+   }
+  },
+  "plain_avg": 1.0,
+  "respell_avg": 0.764,
+  "verdict": "use-plain-word"
+ },
+ "Emmaus": {
+  "respell": "em-MAY-us",
+  "voices": {
+   "narrator": {
+    "plain_heard": "may as",
+    "plain": 0.8,
+    "respell_heard": "it may us",
+    "respell": 0.667
+   },
+   "scripture": {
+    "plain_heard": "may as",
+    "plain": 0.8,
+    "respell_heard": "emma asked",
+    "respell": 0.667
+   }
+  },
+  "plain_avg": 0.8,
+  "respell_avg": 0.667,
+  "verdict": "use-plain-word"
+ },
+ "Ephphatha": {
+  "respell": "EF-fa-tha",
+  "voices": {
+   "narrator": {
+    "plain_heard": "fther",
+    "plain": 0.857,
+    "respell_heard": "effa that",
+    "respell": 0.857
+   },
+   "scripture": {
+    "plain_heard": "f with it",
+    "plain": 0.75,
+    "respell_heard": "ffad it",
+    "respell": 0.667
+   }
+  },
+  "plain_avg": 0.803,
+  "respell_avg": 0.762,
+  "verdict": "use-plain-word"
+ },
+ "Ephraim": {
+  "respell": "EE-fray-im",
+  "voices": {
+   "narrator": {
+    "plain_heard": "efrem",
+    "plain": 1.0,
+    "respell_heard": "efrayon",
+    "respell": 0.571
+   },
+   "scripture": {
+    "plain_heard": "ephraim",
+    "plain": 1.0,
+    "respell_heard": "hed fray on",
+    "respell": 0.444
+   }
+  },
+  "plain_avg": 1.0,
+  "respell_avg": 0.507,
+  "verdict": "use-plain-word"
+ },
+ "Gennesaret": {
+  "respell": "Ghen-NESS-a-ret",
+  "voices": {
+   "narrator": {
+    "plain_heard": "jinnister it",
+    "plain": 0.727,
+    "respell_heard": "guinness are at",
+    "respell": 1.0
+   },
+   "scripture": {
+    "plain_heard": "genocide",
+    "plain": 0.444,
+    "respell_heard": "gennesertt",
+    "respell": 1.0
+   }
+  },
+  "plain_avg": 0.586,
+  "respell_avg": 1.0,
+  "verdict": "keep-respelling"
+ },
+ "Gethsemane": {
+  "respell": "geth-SEM-a-nee",
+  "voices": {
+   "narrator": {
+    "plain_heard": "giftssemane",
+    "plain": 0.833,
+    "respell_heard": "get cmna",
+    "respell": 0.727
+   },
+   "scripture": {
+    "plain_heard": "get cemented",
+    "plain": 0.615,
+    "respell_heard": "get cmna",
+    "respell": 0.727
+   }
+  },
+  "plain_avg": 0.724,
+  "respell_avg": 0.727,
+  "verdict": "use-plain-word"
+ },
+ "Golgotha": {
+  "respell": "GOL-go-tha",
+  "voices": {
+   "narrator": {
+    "plain_heard": "golgotha",
+    "plain": 1.0,
+    "respell_heard": "joe elgo",
+    "respell": 0.5
+   },
+   "scripture": {
+    "plain_heard": "galled with it",
+    "plain": 0.667,
+    "respell_heard": "you all go there",
+    "respell": 0.727
+   }
+  },
+  "plain_avg": 0.834,
+  "respell_avg": 0.613,
+  "verdict": "use-plain-word"
+ },
+ "Habakkuk": {
+  "respell": "ha-BAK-kuk",
+  "voices": {
+   "narrator": {
+    "plain_heard": "have cook",
+    "plain": 0.571,
+    "respell_heard": "habe k koop",
+    "respell": 0.857
+   },
+   "scripture": {
+    "plain_heard": "have cook",
+    "plain": 0.571,
+    "respell_heard": "hubby can cook",
+    "respell": 0.6
+   }
+  },
+  "plain_avg": 0.571,
+  "respell_avg": 0.728,
+  "verdict": "keep-respelling"
+ },
+ "Haggai": {
+  "respell": "HAG-eye",
+  "voices": {
+   "narrator": {
+    "plain_heard": "haggyeyed",
+    "plain": 0.667,
+    "respell_heard": "hagi",
+    "respell": 1.0
+   },
+   "scripture": {
+    "plain_heard": "haggai",
+    "plain": 1.0,
+    "respell_heard": "hhgi",
+    "respell": 1.0
+   }
+  },
+  "plain_avg": 0.834,
+  "respell_avg": 1.0,
+  "verdict": "keep-respelling"
+ },
+ "Iscariot": {
+  "respell": "iss-KAIR-ee-ot",
+  "voices": {
+   "narrator": {
+    "plain_heard": "i scary it",
+    "plain": 0.889,
+    "respell_heard": "iss gator eot",
+    "respell": 0.667
+   },
+   "scripture": {
+    "plain_heard": "i scary it",
+    "plain": 0.889,
+    "respell_heard": "i assess kireot",
+    "respell": 0.75
+   }
+  },
+  "plain_avg": 0.889,
+  "respell_avg": 0.709,
+  "verdict": "use-plain-word"
+ },
+ "Jehoshaphat": {
+  "respell": "jeh-HOSH-a-fat",
+  "voices": {
+   "narrator": {
+    "plain_heard": "jahaa fat",
+    "plain": 0.8,
+    "respell_heard": "j chosatra fat",
+    "respell": 0.714
+   },
+   "scripture": {
+    "plain_heard": "jahaa shafat",
+    "plain": 1.0,
+    "respell_heard": "j joseph",
+    "respell": 0.667
+   }
+  },
+  "plain_avg": 0.9,
+  "respell_avg": 0.691,
+  "verdict": "use-plain-word"
+ },
+ "Laodicea": {
+  "respell": "lay-od-ih-SEE-a",
+  "voices": {
+   "narrator": {
+    "plain_heard": "layout is see you",
+    "plain": 0.25,
+    "respell_heard": "leo died she looked at",
+    "respell": 0.364
+   },
+   "scripture": {
+    "plain_heard": "lay out seer",
+    "plain": 0.25,
+    "respell_heard": "lay of ihca",
+    "respell": 0.5
+   }
+  },
+  "plain_avg": 0.25,
+  "respell_avg": 0.432,
+  "verdict": "keep-respelling"
+ },
+ "Malachi": {
+  "respell": "MAL-a-ky",
+  "voices": {
+   "narrator": {
+    "plain_heard": "malachi",
+    "plain": 1.0,
+    "respell_heard": "meellicay why",
+    "respell": 0.6
+   },
+   "scripture": {
+    "plain_heard": "malachi",
+    "plain": 1.0,
+    "respell_heard": "i may have looked ky",
+    "respell": 0.308
+   }
+  },
+  "plain_avg": 1.0,
+  "respell_avg": 0.454,
+  "verdict": "use-plain-word"
+ },
+ "Manasseh": {
+  "respell": "ma-NASS-eh",
+  "voices": {
+   "narrator": {
+    "plain_heard": "manasseh",
+    "plain": 1.0,
+    "respell_heard": "miney ssf",
+    "respell": 0.667
+   },
+   "scripture": {
+    "plain_heard": "manasseh",
+    "plain": 1.0,
+    "respell_heard": "my ss",
+    "respell": 0.571
+   }
+  },
+  "plain_avg": 1.0,
+  "respell_avg": 0.619,
+  "verdict": "use-plain-word"
+ },
+ "Melchizedek": {
+  "respell": "mel-KIZ-eh-dek",
+  "voices": {
+   "narrator": {
+    "plain_heard": "melchizadec",
+    "plain": 0.857,
+    "respell_heard": "melka eyes your deck",
+    "respell": 0.471
+   },
+   "scripture": {
+    "plain_heard": "melchizedek",
+    "plain": 1.0,
+    "respell_heard": "milk aisietic",
+    "respell": 0.462
+   }
+  },
+  "plain_avg": 0.928,
+  "respell_avg": 0.467,
+  "verdict": "use-plain-word"
+ },
+ "Meshach": {
+  "respell": "MEE-shak",
+  "voices": {
+   "narrator": {
+    "plain_heard": "mesh shock",
+    "plain": 0.667,
+    "respell_heard": "emmy shacked",
+    "respell": 0.667
+   },
+   "scripture": {
+    "plain_heard": "meshock",
+    "plain": 0.8,
+    "respell_heard": "me shack",
+    "respell": 0.8
+   }
+  },
+  "plain_avg": 0.734,
+  "respell_avg": 0.734,
+  "verdict": "use-plain-word"
+ },
+ "Nazareth": {
+  "respell": "NAZ-a-reth",
+  "voices": {
+   "narrator": {
+    "plain_heard": "nazareth",
+    "plain": 1.0,
+    "respell_heard": "an easier wrath",
+    "respell": 0.667
+   },
+   "scripture": {
+    "plain_heard": "nazareth",
+    "plain": 1.0,
+    "respell_heard": "an easier wrath",
+    "respell": 0.667
+   }
+  },
+  "plain_avg": 1.0,
+  "respell_avg": 0.667,
+  "verdict": "use-plain-word"
+ },
+ "Nebuchadnezzar": {
+  "respell": "neb-yoo-kad-NEZ-ar",
+  "voices": {
+   "narrator": {
+    "plain_heard": "nebuchadnezzar",
+    "plain": 1.0,
+    "respell_heard": "nebu katanar",
+    "respell": 0.571
+   },
+   "scripture": {
+    "plain_heard": "nebuchadnezzar",
+    "plain": 1.0,
+    "respell_heard": "nebuchadnezzar",
+    "respell": 1.0
+   }
+  },
+  "plain_avg": 1.0,
+  "respell_avg": 0.785,
+  "verdict": "use-plain-word"
+ },
+ "Nicodemus": {
+  "respell": "nik-o-DEE-mus",
+  "voices": {
+   "narrator": {
+    "plain_heard": "nicodemus",
+    "plain": 1.0,
+    "respell_heard": "nick odeeam used",
+    "respell": 0.833
+   },
+   "scripture": {
+    "plain_heard": "nicodemus",
+    "plain": 1.0,
+    "respell_heard": "nicodem used",
+    "respell": 0.909
+   }
+  },
+  "plain_avg": 1.0,
+  "respell_avg": 0.871,
+  "verdict": "use-plain-word"
+ },
+ "Philippi": {
+  "respell": "fih-LIP-eye",
+  "voices": {
+   "narrator": {
+    "plain_heard": "philip",
+    "plain": 1.0,
+    "respell_heard": "file buy",
+    "respell": 0.571
+   },
+   "scripture": {
+    "plain_heard": "philipied",
+    "plain": 0.857,
+    "respell_heard": "file it by",
+    "respell": 0.5
+   }
+  },
+  "plain_avg": 0.928,
+  "respell_avg": 0.535,
+  "verdict": "use-plain-word"
+ },
+ "Salim": {
+  "respell": "SAY-lim",
+  "voices": {
+   "narrator": {
+    "plain_heard": "selemed",
+    "plain": 0.857,
+    "respell_heard": "salem",
+    "respell": 1.0
+   },
+   "scripture": {
+    "plain_heard": "celine",
+    "plain": 0.333,
+    "respell_heard": "say",
+    "respell": 0.4
+   }
+  },
+  "plain_avg": 0.595,
+  "respell_avg": 0.7,
+  "verdict": "keep-respelling"
+ },
+ "Sanhedrin": {
+  "respell": "SAN-heh-drin",
+  "voices": {
+   "narrator": {
+    "plain_heard": "sanhedrin",
+    "plain": 1.0,
+    "respell_heard": "essay headring",
+    "respell": 0.769
+   },
+   "scripture": {
+    "plain_heard": "sanhedrin",
+    "plain": 1.0,
+    "respell_heard": "sn headring",
+    "respell": 0.923
+   }
+  },
+  "plain_avg": 1.0,
+  "respell_avg": 0.846,
+  "verdict": "use-plain-word"
+ },
+ "Shadrach": {
+  "respell": "SHAD-rak",
+  "voices": {
+   "narrator": {
+    "plain_heard": "shadrock",
+    "plain": 0.833,
+    "respell_heard": "shadrach",
+    "respell": 1.0
+   },
+   "scripture": {
+    "plain_heard": "shadrock",
+    "plain": 0.833,
+    "respell_heard": "shad rack",
+    "respell": 0.833
+   }
+  },
+  "plain_avg": 0.833,
+  "respell_avg": 0.916,
+  "verdict": "keep-respelling"
+ },
+ "Siloam": {
+  "respell": "sy-LOH-am",
+  "voices": {
+   "narrator": {
+    "plain_heard": "so long",
+    "plain": 0.571,
+    "respell_heard": "sylohm",
+    "respell": 0.75
+   },
+   "scripture": {
+    "plain_heard": "so long",
+    "plain": 0.571,
+    "respell_heard": "s y l o h n",
+    "respell": 0.5
+   }
+  },
+  "plain_avg": 0.571,
+  "respell_avg": 0.625,
+  "verdict": "keep-respelling"
+ },
+ "Talitha": {
+  "respell": "TAL-ih-tha",
+  "voices": {
+   "narrator": {
+    "plain_heard": "talah",
+    "plain": 0.857,
+    "respell_heard": "tlh",
+    "respell": 0.857
+   },
+   "scripture": {
+    "plain_heard": "talladah",
+    "plain": 0.75,
+    "respell_heard": "elijah that",
+    "respell": 0.6
+   }
+  },
+  "plain_avg": 0.803,
+  "respell_avg": 0.728,
+  "verdict": "use-plain-word"
+ },
+ "Thaddaeus": {
+  "respell": "THAD-ee-us",
+  "voices": {
+   "narrator": {
+    "plain_heard": "that is",
+    "plain": 0.75,
+    "respell_heard": "that asked",
+    "respell": 0.6
+   },
+   "scripture": {
+    "plain_heard": "that is",
+    "plain": 0.75,
+    "respell_heard": "that asked",
+    "respell": 0.6
+   }
+  },
+  "plain_avg": 0.75,
+  "respell_avg": 0.6,
+  "verdict": "use-plain-word"
+ },
+ "Thessalonica": {
+  "respell": "thess-a-lo-NY-ka",
+  "voices": {
+   "narrator": {
+    "plain_heard": "thessalonica",
+    "plain": 1.0,
+    "respell_heard": "thessalonah your kah",
+    "respell": 0.625
+   },
+   "scripture": {
+    "plain_heard": "salon could",
+    "plain": 0.667,
+    "respell_heard": "thessalonians are caught",
+    "respell": 0.706
+   }
+  },
+  "plain_avg": 0.834,
+  "respell_avg": 0.665,
+  "verdict": "use-plain-word"
+ },
+ "Zacchaeus": {
+  "respell": "Zakkeeus",
+  "voices": {
+   "narrator": {
+    "plain_heard": "zacchaeus",
+    "plain": 1.0,
+    "respell_heard": "zacchaeus",
+    "respell": 1.0
+   },
+   "scripture": {
+    "plain_heard": "zacchaeus",
+    "plain": 1.0,
+    "respell_heard": "zacchaeus",
+    "respell": 1.0
+   }
+  },
+  "plain_avg": 1.0,
+  "respell_avg": 1.0,
+  "verdict": "use-plain-word"
+ },
+ "Zarephath": {
+  "respell": "ZAIR-eh-fath",
+  "voices": {
+   "narrator": {
+    "plain_heard": "zerafath",
+    "plain": 1.0,
+    "respell_heard": "zrf fast",
+    "respell": 0.8
+   },
+   "scripture": {
+    "plain_heard": "zara fast",
+    "plain": 0.8,
+    "respell_heard": "ziarra fast",
+    "respell": 0.8
+   }
+  },
+  "plain_avg": 0.9,
+  "respell_avg": 0.8,
+  "verdict": "use-plain-word"
+ },
+ "Zebedee": {
+  "respell": "ZEB-eh-dee",
+  "voices": {
+   "narrator": {
+    "plain_heard": "zebedee",
+    "plain": 1.0,
+    "respell_heard": "zbad",
+    "respell": 1.0
+   },
+   "scripture": {
+    "plain_heard": "zebedee",
+    "plain": 1.0,
+    "respell_heard": "zbid",
+    "respell": 1.0
+   }
+  },
+  "plain_avg": 1.0,
+  "respell_avg": 1.0,
+  "verdict": "use-plain-word"
+ },
+ "Zephaniah": {
+  "respell": "zef-a-NY-a",
+  "voices": {
+   "narrator": {
+    "plain_heard": "zephaniah",
+    "plain": 1.0,
+    "respell_heard": "d f in new york",
+    "respell": 0.364
+   },
+   "scripture": {
+    "plain_heard": "zephaniah",
+    "plain": 1.0,
+    "respell_heard": "zf in new york ate",
+    "respell": 0.5
+   }
+  },
+  "plain_avg": 1.0,
+  "respell_avg": 0.432,
+  "verdict": "use-plain-word"
+ },
+ "Zerubbabel": {
+  "respell": "zeh-RUB-a-bel",
+  "voices": {
+   "narrator": {
+    "plain_heard": "saids are rubble",
+    "plain": 0.6,
+    "respell_heard": "zare you be bell",
+    "respell": 0.889
+   },
+   "scripture": {
+    "plain_heard": "saids rubble",
+    "plain": 0.6,
+    "respell_heard": "say are you be bell",
+    "respell": 0.6
+   }
+  },
+  "plain_avg": 0.6,
+  "respell_avg": 0.744,
+  "verdict": "keep-respelling"
+ },
+ "asswaged": {
+  "respell": "a-SWAYJD",
+  "voices": {
+   "narrator": {
+    "plain_heard": "ass waged",
+    "plain": 1.0,
+    "respell_heard": "ace weighed",
+    "respell": 0.667
+   },
+   "scripture": {
+    "plain_heard": "i swaged",
+    "plain": 1.0,
+    "respell_heard": "swayed",
+    "respell": 0.75
+   }
+  },
+  "plain_avg": 1.0,
+  "respell_avg": 0.709,
+  "verdict": "use-plain-word"
+ },
+ "durst": {
+  "respell": "derst",
+  "voices": {
+   "narrator": {
+    "plain_heard": "ders",
+    "plain": 0.857,
+    "respell_heard": "ders",
+    "respell": 0.857
+   },
+   "scripture": {
+    "plain_heard": "ders",
+    "plain": 0.857,
+    "respell_heard": "ders",
+    "respell": 0.857
+   }
+  },
+  "plain_avg": 0.857,
+  "respell_avg": 0.857,
+  "verdict": "use-plain-word"
+ },
+ "forsaketh": {
+  "respell": "for-SAY-keth",
+  "voices": {
+   "narrator": {
+    "plain_heard": "for sakith",
+    "plain": 1.0,
+    "respell_heard": "set for seiketh",
+    "respell": 0.857
+   },
+   "scripture": {
+    "plain_heard": "hes for saccath",
+    "plain": 0.714,
+    "respell_heard": "for sicketh",
+    "respell": 0.923
+   }
+  },
+  "plain_avg": 0.857,
+  "respell_avg": 0.89,
+  "verdict": "use-plain-word"
+ },
+ "forsook": {
+  "respell": "for-SOOK",
+  "voices": {
+   "narrator": {
+    "plain_heard": "set for soup",
+    "plain": 0.6,
+    "respell_heard": "for soot",
+    "respell": 0.75
+   },
+   "scripture": {
+    "plain_heard": "for soup",
+    "plain": 0.75,
+    "respell_heard": "for soot",
+    "respell": 0.75
+   }
+  },
+  "plain_avg": 0.675,
+  "respell_avg": 0.75,
+  "verdict": "keep-respelling"
+ },
+ "hearken": {
+  "respell": "HAR-ken",
+  "voices": {
+   "narrator": {
+    "plain_heard": "hearkened",
+    "plain": 0.889,
+    "respell_heard": "her ken",
+    "respell": 1.0
+   },
+   "scripture": {
+    "plain_heard": "hearken",
+    "plain": 1.0,
+    "respell_heard": "hr can",
+    "respell": 0.75
+   }
+  },
+  "plain_avg": 0.945,
+  "respell_avg": 0.875,
+  "verdict": "use-plain-word"
+ },
+ "hearkened": {
+  "respell": "HAR-kend",
+  "voices": {
+   "narrator": {
+    "plain_heard": "hark unto",
+    "plain": 0.8,
+    "respell_heard": "har kin",
+    "respell": 0.889
+   },
+   "scripture": {
+    "plain_heard": "hearken",
+    "plain": 0.889,
+    "respell_heard": "hr ken",
+    "respell": 0.889
+   }
+  },
+  "plain_avg": 0.845,
+  "respell_avg": 0.889,
+  "verdict": "use-plain-word"
+ },
+ "holpen": {
+  "respell": "HOLE-pen",
+  "voices": {
+   "narrator": {
+    "plain_heard": "hoping",
+    "plain": 0.75,
+    "respell_heard": "set whole pin",
+    "respell": 0.6
+   },
+   "scripture": {
+    "plain_heard": "hope unto",
+    "plain": 0.75,
+    "respell_heard": "whole pen",
+    "respell": 0.75
+   }
+  },
+  "plain_avg": 0.75,
+  "respell_avg": 0.675,
+  "verdict": "use-plain-word"
+ },
+ "raiment": {
+  "respell": "RAY-ment",
+  "voices": {
+   "narrator": {
+    "plain_heard": "raymond",
+    "plain": 0.667,
+    "respell_heard": "raymond",
+    "respell": 0.667
+   },
+   "scripture": {
+    "plain_heard": "raymond",
+    "plain": 0.667,
+    "respell_heard": "raymond",
+    "respell": 0.667
+   }
+  },
+  "plain_avg": 0.667,
+  "respell_avg": 0.667,
+  "verdict": "use-plain-word"
+ },
+ "shew": {
+  "respell": "show",
+  "voices": {
+   "narrator": {
+    "plain_heard": "shoot",
+    "plain": 0.667,
+    "respell_heard": "show",
+    "respell": 1.0
+   },
+   "scripture": {
+    "plain_heard": "shoot",
+    "plain": 0.667,
+    "respell_heard": "show",
+    "respell": 1.0
+   }
+  },
+  "plain_avg": 0.667,
+  "respell_avg": 1.0,
+  "verdict": "keep-respelling"
+ },
+ "shewed": {
+  "respell": "showed",
+  "voices": {
+   "narrator": {
+    "plain_heard": "shoot",
+    "plain": 0.571,
+    "respell_heard": "showed",
+    "respell": 1.0
+   },
+   "scripture": {
+    "plain_heard": "shoot",
+    "plain": 0.571,
+    "respell_heard": "showed",
+    "respell": 1.0
+   }
+  },
+  "plain_avg": 0.571,
+  "respell_avg": 1.0,
+  "verdict": "keep-respelling"
+ },
+ "shewest": {
+  "respell": "show-est",
+  "voices": {
+   "narrator": {
+    "plain_heard": "shoe is",
+    "plain": 0.75,
+    "respell_heard": "show us",
+    "respell": 0.889
+   },
+   "scripture": {
+    "plain_heard": "chew us",
+    "plain": 0.667,
+    "respell_heard": "show us",
+    "respell": 0.889
+   }
+  },
+  "plain_avg": 0.709,
+  "respell_avg": 0.889,
+  "verdict": "keep-respelling"
+ },
+ "sheweth": {
+  "respell": "show-eth",
+  "voices": {
+   "narrator": {
+    "plain_heard": "shueth",
+    "plain": 0.889,
+    "respell_heard": "showeth",
+    "respell": 1.0
+   },
+   "scripture": {
+    "plain_heard": "sure",
+    "plain": 0.286,
+    "respell_heard": "showeth",
+    "respell": 1.0
+   }
+  },
+  "plain_avg": 0.588,
+  "respell_avg": 1.0,
+  "verdict": "keep-respelling"
+ },
+ "shewing": {
+  "respell": "showing",
+  "voices": {
+   "narrator": {
+    "plain_heard": "shooing",
+    "plain": 0.889,
+    "respell_heard": "showing",
+    "respell": 1.0
+   },
+   "scripture": {
+    "plain_heard": "chewing",
+    "plain": 0.8,
+    "respell_heard": "showing",
+    "respell": 1.0
+   }
+  },
+  "plain_avg": 0.845,
+  "respell_avg": 1.0,
+  "verdict": "keep-respelling"
+ },
+ "sith": {
+  "respell": "sith",
+  "voices": {
+   "narrator": {
+    "plain_heard": "sith",
+    "plain": 1.0,
+    "respell_heard": "sith",
+    "respell": 1.0
+   },
+   "scripture": {
+    "plain_heard": "sift",
+    "plain": 0.667,
+    "respell_heard": "sift",
+    "respell": 0.667
+   }
+  },
+  "plain_avg": 0.834,
+  "respell_avg": 0.834,
+  "verdict": "use-plain-word"
+ },
+ "spake": {
+  "respell": "spayk",
+  "voices": {
+   "narrator": {
+    "plain_heard": "speak",
+    "plain": 1.0,
+    "respell_heard": "spake",
+    "respell": 1.0
+   },
+   "scripture": {
+    "plain_heard": "speak",
+    "plain": 1.0,
+    "respell_heard": "speak",
+    "respell": 1.0
+   }
+  },
+  "plain_avg": 1.0,
+  "respell_avg": 1.0,
+  "verdict": "use-plain-word"
+ },
+ "twain": {
+  "respell": "twayn",
+  "voices": {
+   "narrator": {
+    "plain_heard": "twain",
+    "plain": 1.0,
+    "respell_heard": "twain",
+    "respell": 1.0
+   },
+   "scripture": {
+    "plain_heard": "twain",
+    "plain": 1.0,
+    "respell_heard": "twain",
+    "respell": 1.0
+   }
+  },
+  "plain_avg": 1.0,
+  "respell_avg": 1.0,
+  "verdict": "use-plain-word"
+ },
+ "unloose": {
+  "respell": "un-LOOSS",
+  "voices": {
+   "narrator": {
+    "plain_heard": "unloosed",
+    "plain": 0.857,
+    "respell_heard": "unlist",
+    "respell": 0.857
+   },
+   "scripture": {
+    "plain_heard": "im loose",
+    "plain": 0.667,
+    "respell_heard": "unlisted",
+    "respell": 0.75
+   }
+  },
+  "plain_avg": 0.762,
+  "respell_avg": 0.803,
+  "verdict": "use-plain-word"
+ },
+ "verily": {
+  "respell": "VAIR-ih-lee",
+  "voices": {
+   "narrator": {
+    "plain_heard": "verily",
+    "plain": 1.0,
+    "respell_heard": "vjrs lead",
+    "respell": 0.6
+   },
+   "scripture": {
+    "plain_heard": "verily",
+    "plain": 1.0,
+    "respell_heard": "hour i actually",
+    "respell": 0.6
+   }
+  },
+  "plain_avg": 1.0,
+  "respell_avg": 0.6,
+  "verdict": "use-plain-word"
+ },
+ "wist": {
+  "respell": "wist",
+  "voices": {
+   "narrator": {
+    "plain_heard": "whisk",
+    "plain": 0.667,
+    "respell_heard": "whisk",
+    "respell": 0.667
+   },
+   "scripture": {
+    "plain_heard": "was",
+    "plain": 0.8,
+    "respell_heard": "was",
+    "respell": 0.8
+   }
+  },
+  "plain_avg": 0.734,
+  "respell_avg": 0.734,
+  "verdict": "use-plain-word"
+ },
+ "wot": {
+  "respell": "wot",
+  "voices": {
+   "narrator": {
+    "plain_heard": "what",
+    "plain": 1.0,
+    "respell_heard": "what",
+    "respell": 1.0
+   },
+   "scripture": {
+    "plain_heard": "what",
+    "plain": 1.0,
+    "respell_heard": "what",
+    "respell": 1.0
+   }
+  },
+  "plain_avg": 1.0,
+  "respell_avg": 1.0,
+  "verdict": "use-plain-word"
+ }
+}

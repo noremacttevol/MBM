@@ -1,0 +1,24 @@
+#!/bin/bash
+# AUDIO ONLY — generate ElevenLabs narration mp3s + timing.json into a build's
+# audio/ folder. No video assembly. Safe to run in parallel.
+b="$1"
+cd ~/Desktop/MBM/media-production || exit 1
+export MBM_TTS=eleven
+[ -f "$b/make_narration.py" ] || exit 0
+# skip if already has fresh ElevenLabs audio (this run, or a completed full render)
+if [ -f "$b/.audio-eleven-done" ] && [ "$b/.audio-eleven-done" -nt "$b/make_narration.py" ]; then exit 0; fi
+if [ -f "$b/.eleven-done" ] && [ "$b/.eleven-done" -nt "$b/make_narration.py" ]; then
+  touch "$b/.audio-eleven-done"; exit 0
+fi
+cp mbm_eleven.py mbm_pronounce.py mbm_caption_timing.py mbm_speakers.py "$b/" 2>/dev/null
+rm -rf "$b/audio"
+( cd "$b" && MBM_TTS=eleven python3 make_narration.py ) > "$b/audio-eleven.log" 2>&1
+rc=$?
+n=$(ls "$b"/audio/*.mp3 2>/dev/null | wc -l)
+t=$(ls "$b"/audio/*.timing.json 2>/dev/null | wc -l)
+if [ $rc -eq 0 ] && ! grep -q "Traceback" "$b/audio-eleven.log" && [ "$n" -ge 1 ] && [ "$t" -ge 1 ]; then
+  touch "$b/.audio-eleven-done"
+  echo "OK   $b  ${n} clips" >> AUDIO-RENDER.log
+else
+  echo "FAIL $b  rc=$rc clips=$n timing=$t  ($(tail -1 "$b/audio-eleven.log" 2>/dev/null | cut -c1-80))" >> AUDIO-RENDER.log
+fi

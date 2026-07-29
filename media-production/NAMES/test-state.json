@@ -1,0 +1,2739 @@
+{
+ "tested": {
+  "Galilee|narrator": {
+   "heard": "galilee",
+   "base": 1.0
+  },
+  "Galilee|scripture": {
+   "heard": "on galilee",
+   "base": 0.8
+  },
+  "Nazareth|narrator": {
+   "heard": "nazareth",
+   "base": 1.0
+  },
+  "Nazareth|scripture": {
+   "heard": "nazareth",
+   "base": 1.0
+  },
+  "Lazarus|narrator": {
+   "heard": "lazarus",
+   "base": 1.0
+  },
+  "Lazarus|jesus": {
+   "heard": "lazarus",
+   "base": 1.0
+  },
+  "Elijah|narrator": {
+   "heard": "elijah",
+   "base": 1.0
+  },
+  "Elijah|god": {
+   "heard": "elijah",
+   "base": 1.0
+  },
+  "Nicodemus|narrator": {
+   "heard": "nicodemus",
+   "base": 1.0
+  },
+  "Jonah|narrator": {
+   "heard": "jonah",
+   "base": 1.0
+  },
+  "Zacchaeus|narrator": {
+   "heard": "zacchaeus",
+   "base": 1.0
+  },
+  "Zacchaeus|jesus": {
+   "heard": "zacchaeus",
+   "base": 1.0
+  },
+  "Thomas|narrator": {
+   "heard": "thomas",
+   "base": 1.0
+  },
+  "Thomas|jesus": {
+   "heard": "on thomas",
+   "base": 0.889
+  },
+  "Jericho|narrator": {
+   "heard": "jericho",
+   "base": 1.0
+  },
+  "Samaria|narrator": {
+   "heard": "samaria",
+   "base": 1.0
+  },
+  "Samaria|woman": {
+   "heard": "samaria",
+   "base": 1.0
+  },
+  "Samaria|jesus": {
+   "heard": "samaria",
+   "base": 1.0
+  },
+  "Samaria|scripture": {
+   "heard": "samaria",
+   "base": 1.0
+  },
+  "Samaritan|narrator": {
+   "heard": "samaritan",
+   "base": 1.0
+  },
+  "Bethlehem|narrator": {
+   "heard": "on bethlehem",
+   "base": 0.923
+  },
+  "Bethlehem|scripture": {
+   "heard": "bethlehem",
+   "base": 1.0
+  },
+  "Nineveh|narrator": {
+   "heard": "nineveh",
+   "base": 1.0
+  },
+  "Nineveh|god": {
+   "heard": "nineveh",
+   "base": 1.0
+  },
+  "Nineveh|scripture": {
+   "heard": "nineveh",
+   "base": 1.0
+  },
+  "Capernaum|narrator": {
+   "heard": "on capronome",
+   "base": 0.909
+  },
+  "Isaiah|narrator": {
+   "heard": "on isaiah",
+   "base": 0.8
+  },
+  "Stephen|narrator": {
+   "heard": "under stephen",
+   "base": 0.727,
+   "fix": "steevun",
+   "fixed_score": 1.0,
+   "fixed_heard": "stephen"
+  },
+  "Stephen|scripture": {
+   "heard": "steven",
+   "base": 0.75
+  },
+  "Ruth|narrator": {
+   "heard": "ruth",
+   "base": 1.0
+  },
+  "Bethany|narrator": {
+   "heard": "bethany",
+   "base": 1.0
+  },
+  "Barabbas|narrator": {
+   "heard": "barabbas",
+   "base": 1.0
+  },
+  "Naomi|narrator": {
+   "heard": "naomi",
+   "base": 1.0
+  },
+  "Naomi|woman": {
+   "heard": "naomi",
+   "base": 1.0
+  },
+  "Pilate|narrator": {
+   "heard": "on pilot",
+   "base": 0.857
+  },
+  "Jeremiah|narrator": {
+   "heard": "jeremiah",
+   "base": 1.0
+  },
+  "Judah|narrator": {
+   "heard": "on judah",
+   "base": 0.857
+  },
+  "Judah|god": {
+   "heard": "on judah",
+   "base": 0.857
+  },
+  "Judah|scripture": {
+   "heard": "on judah",
+   "base": 0.857
+  },
+  "Cana|narrator": {
+   "heard": "on kana",
+   "base": 0.4,
+   "fix": "kaynuh",
+   "fixed_score": 0.8,
+   "fixed_heard": "canew"
+  },
+  "Siloam|jesus": {
+   "heard": "solomon",
+   "base": 0.857
+  },
+  "Siloam|narrator": {
+   "heard": "salome",
+   "base": 1.0
+  },
+  "Elias|scripture": {
+   "heard": "elias",
+   "base": 1.0
+  },
+  "Jordan|narrator": {
+   "heard": "jordan",
+   "base": 1.0
+  },
+  "Hosanna|scripture": {
+   "heard": "hosanna",
+   "base": 1.0
+  },
+  "Hosanna|narrator": {
+   "heard": "hosanna",
+   "base": 1.0
+  },
+  "Shadrach|narrator": {
+   "heard": "shadrach",
+   "base": 1.0
+  },
+  "Shadrach|scripture": {
+   "heard": "shadrach",
+   "base": 1.0
+  },
+  "Meshach|narrator": {
+   "heard": "meshock",
+   "base": 0.8
+  },
+  "Meshach|scripture": {
+   "heard": "my shock",
+   "base": 0.727,
+   "fix": "meeshak",
+   "fixed_score": 0.8,
+   "fixed_heard": "me shack"
+  },
+  "Abednego|narrator": {
+   "heard": "on bed niggle",
+   "base": 0.8
+  },
+  "Abednego|scripture": {
+   "heard": "bed go",
+   "base": 0.857
+  },
+  "Boaz|narrator": {
+   "heard": "boaz",
+   "base": 1.0
+  },
+  "Hannah|narrator": {
+   "heard": "on hannah",
+   "base": 0.857
+  },
+  "Bartimaeus|narrator": {
+   "heard": "on bartimius",
+   "base": 0.909
+  },
+  "Isaac|jesus": {
+   "heard": "on isaac",
+   "base": 0.8
+  },
+  "Isaac|god": {
+   "heard": "isaac",
+   "base": 1.0
+  },
+  "Emmaus|narrator": {
+   "heard": "mayis",
+   "base": 0.8
+  },
+  "Pharisees|scripture": {
+   "heard": "pharisees",
+   "base": 1.0
+  },
+  "Pharisees|narrator": {
+   "heard": "under pharisees",
+   "base": 0.667,
+   "unfixed": true
+  },
+  "Jairus|narrator": {
+   "heard": "jarius",
+   "base": 1.0
+  },
+  "Philip|narrator": {
+   "heard": "on philip",
+   "base": 0.857
+  },
+  "Decapolis|narrator": {
+   "heard": "decapolis",
+   "base": 1.0
+  },
+  "Gethsemane|narrator": {
+   "heard": "on get seminy",
+   "base": 0.769
+  },
+  "Malchus|narrator": {
+   "heard": "malchis",
+   "base": 1.0
+  },
+  "Zebedee|narrator": {
+   "heard": "zebedee",
+   "base": 1.0
+  },
+  "Augustus|scripture": {
+   "heard": "augustus",
+   "base": 1.0
+  },
+  "Augustus|narrator": {
+   "heard": "on augustus",
+   "base": 0.889
+  },
+  "Herod|narrator": {
+   "heard": "on harrod",
+   "base": 0.857
+  },
+  "Calvary|scripture": {
+   "heard": "on calvary",
+   "base": 0.909
+  },
+  "Calvary|narrator": {
+   "heard": "calvary",
+   "base": 1.0
+  },
+  "Solomon|jesus": {
+   "heard": "solomon",
+   "base": 1.0
+  },
+  "Solomon|narrator": {
+   "heard": "solomon",
+   "base": 1.0
+  },
+  "Ezekiel|narrator": {
+   "heard": "ezekiel",
+   "base": 1.0
+  },
+  "Ephraim|god": {
+   "heard": "ephraim",
+   "base": 1.0
+  },
+  "Ephesus|narrator": {
+   "heard": "ephesus",
+   "base": 1.0
+  },
+  "Cleopas|narrator": {
+   "heard": "cleopah",
+   "base": 0.75
+  },
+  "Leah|narrator": {
+   "heard": "on leah",
+   "base": 0.8
+  },
+  "Rachel|narrator": {
+   "heard": "rachel",
+   "base": 1.0
+  },
+  "Gennesaret|narrator": {
+   "heard": "on genesarid",
+   "base": 0.727,
+   "fix": "gunnessuhret",
+   "fixed_score": 0.833,
+   "fixed_heard": "gunnar shiret"
+  },
+  "Talitha|jesus": {
+   "heard": "on talatha",
+   "base": 0.889
+  },
+  "Ephphatha|jesus": {
+   "heard": "ephatha",
+   "base": 1.0
+  },
+  "Bethesda|narrator": {
+   "heard": "bethesda",
+   "base": 1.0
+  },
+  "Esaias|scripture": {
+   "heard": "us say as",
+   "base": 0.5,
+   "fix": "izayus",
+   "fixed_score": 0.667,
+   "fixed_heard": "zaius"
+  },
+  "Magdalene|narrator": {
+   "heard": "magdalene",
+   "base": 1.0
+  },
+  "Judaea|jesus": {
+   "heard": "on do durya",
+   "base": 0.333,
+   "fix": "joodeeuh",
+   "fixed_score": 0.8,
+   "fixed_heard": "on judea"
+  },
+  "Bethsaida|narrator": {
+   "heard": "beth seida",
+   "base": 1.0
+  },
+  "Pharaoh|narrator": {
+   "heard": "on pharaoh",
+   "base": 0.857
+  },
+  "Patmos|narrator": {
+   "heard": "patmos",
+   "base": 1.0
+  },
+  "Thessalonica|narrator": {
+   "heard": "thessalonica",
+   "base": 1.0
+  },
+  "Philippi|narrator": {
+   "heard": "philippine",
+   "base": 0.857
+  },
+  "Malachi|narrator": {
+   "heard": "malachi",
+   "base": 1.0
+  },
+  "Jesse|narrator": {
+   "heard": "jesse",
+   "base": 1.0
+  },
+  "Peter|narrator": {
+   "heard": "peter",
+   "base": 1.0
+  },
+  "Peter|jesus": {
+   "heard": "on peter",
+   "base": 0.857
+  },
+  "Peter|scripture": {
+   "heard": "peter",
+   "base": 1.0
+  },
+  "John|narrator": {
+   "heard": "on john",
+   "base": 0.857
+  },
+  "John|scripture": {
+   "heard": "on john",
+   "base": 0.857
+  },
+  "John|jesus": {
+   "heard": "john",
+   "base": 1.0
+  },
+  "Moses|narrator": {
+   "heard": "moses",
+   "base": 1.0
+  },
+  "Moses|jesus": {
+   "heard": "moses",
+   "base": 1.0
+  },
+  "Moses|scripture": {
+   "heard": "moses",
+   "base": 1.0
+  },
+  "Simon|jesus": {
+   "heard": "simon",
+   "base": 1.0
+  },
+  "Simon|narrator": {
+   "heard": "simon",
+   "base": 1.0
+  },
+  "Simon|scripture": {
+   "heard": "simon",
+   "base": 1.0
+  },
+  "Paul|narrator": {
+   "heard": "paul",
+   "base": 1.0
+  },
+  "Paul|scripture": {
+   "heard": "paul",
+   "base": 1.0
+  },
+  "Abraham|jesus": {
+   "heard": "on abraham",
+   "base": 0.889
+  },
+  "Abraham|narrator": {
+   "heard": "abraham",
+   "base": 1.0
+  },
+  "Abraham|god": {
+   "heard": "abraham",
+   "base": 1.0
+  },
+  "Jerusalem|narrator": {
+   "heard": "jerusalem",
+   "base": 1.0
+  },
+  "Jerusalem|scripture": {
+   "heard": "jerusalem",
+   "base": 1.0
+  },
+  "Jerusalem|jesus": {
+   "heard": "on jerusalem",
+   "base": 0.909
+  },
+  "Israel|narrator": {
+   "heard": "israel",
+   "base": 1.0
+  },
+  "Israel|jesus": {
+   "heard": "israel",
+   "base": 1.0
+  },
+  "Israel|scripture": {
+   "heard": "israel",
+   "base": 1.0
+  },
+  "Israel|god": {
+   "heard": "israel",
+   "base": 1.0
+  },
+  "Mark|narrator": {
+   "heard": "on mark",
+   "base": 0.857
+  },
+  "Mary|narrator": {
+   "heard": "on mary",
+   "base": 0.857
+  },
+  "Mary|jesus": {
+   "heard": "on mary",
+   "base": 0.857
+  },
+  "Mary|scripture": {
+   "heard": "on mary",
+   "base": 0.857
+  },
+  "Matthew|narrator": {
+   "heard": "matthew",
+   "base": 1.0
+  },
+  "Luke|narrator": {
+   "heard": "on luke",
+   "base": 0.8
+  },
+  "Martha|narrator": {
+   "heard": "martha",
+   "base": 1.0
+  },
+  "Martha|jesus": {
+   "heard": "on martha",
+   "base": 0.889
+  },
+  "David|scripture": {
+   "heard": "david",
+   "base": 1.0
+  },
+  "David|narrator": {
+   "heard": "david",
+   "base": 1.0
+  },
+  "Caesar|scripture": {
+   "heard": "caesar",
+   "base": 1.0
+  },
+  "Caesar|narrator": {
+   "heard": "on caesar",
+   "base": 0.857
+  },
+  "Caesar|jesus": {
+   "heard": "caesar",
+   "base": 1.0
+  },
+  "James|narrator": {
+   "heard": "james",
+   "base": 1.0
+  },
+  "James|scripture": {
+   "heard": "james",
+   "base": 1.0
+  },
+  "Roman|narrator": {
+   "heard": "roman",
+   "base": 1.0
+  },
+  "Rome|narrator": {
+   "heard": "on rome",
+   "base": 0.8
+  },
+  "Pharisee|narrator": {
+   "heard": "under pharisee",
+   "base": 0.667,
+   "unfixed": true
+  },
+  "Pharisee|jesus": {
+   "heard": "pharisee",
+   "base": 1.0
+  },
+  "Bring|narrator": {
+   "heard": "on bring",
+   "base": 0.889
+  },
+  "Bring|jesus": {
+   "heard": "on bring",
+   "base": 0.889
+  },
+  "Bring|god": {
+   "heard": "on bring",
+   "base": 0.889
+  },
+  "Joseph|narrator": {
+   "heard": "joseph",
+   "base": 1.0
+  },
+  "Joseph|scripture": {
+   "heard": "joseph",
+   "base": 1.0
+  },
+  "Joseph|god": {
+   "heard": "joseph",
+   "base": 1.0
+  },
+  "Jews|narrator": {
+   "heard": "jews",
+   "base": 1.0
+  },
+  "Jews|scripture": {
+   "heard": "on jews",
+   "base": 0.857
+  },
+  "Teacher|narrator": {
+   "heard": "on teacher",
+   "base": 0.889
+  },
+  "Except|jesus": {
+   "heard": "accept",
+   "base": 0.857
+  },
+  "Except|narrator": {
+   "heard": "on accept",
+   "base": 0.75
+  },
+  "Except|scripture": {
+   "heard": "on accept",
+   "base": 0.75
+  },
+  "Whether|jesus": {
+   "heard": "on weather",
+   "base": 0.889
+  },
+  "Whether|narrator": {
+   "heard": "on weather",
+   "base": 0.889
+  },
+  "Whether|scripture": {
+   "heard": "weather",
+   "base": 1.0
+  },
+  "Neither|narrator": {
+   "heard": "on neither",
+   "base": 1.0
+  },
+  "Neither|jesus": {
+   "heard": "on neither",
+   "base": 1.0
+  },
+  "Instead|narrator": {
+   "heard": "on instead",
+   "base": 1.0
+  },
+  "Samuel|narrator": {
+   "heard": "samuel",
+   "base": 1.0
+  },
+  "Samuel|god": {
+   "heard": "samuel",
+   "base": 1.0
+  },
+  "Love|narrator": {
+   "heard": "on love",
+   "base": 0.8
+  },
+  "Love|jesus": {
+   "heard": "on love",
+   "base": 0.8
+  },
+  "Jacob|narrator": {
+   "heard": "jacob",
+   "base": 1.0
+  },
+  "Jacob|jesus": {
+   "heard": "jacob",
+   "base": 1.0
+  },
+  "Jacob|scripture": {
+   "heard": "jacob",
+   "base": 1.0
+  },
+  "Arise|jesus": {
+   "heard": "on arise",
+   "base": 0.8
+  },
+  "Arise|narrator": {
+   "heard": "on rise",
+   "base": 0.8
+  },
+  "Arise|god": {
+   "heard": "on arise",
+   "base": 0.8
+  },
+  "Stop|narrator": {
+   "heard": "on stop",
+   "base": 0.857
+  },
+  "Tell|narrator": {
+   "heard": "on tell",
+   "base": 0.8
+  },
+  "Tell|jesus": {
+   "heard": "on tell",
+   "base": 0.8
+  },
+  "Tell|scripture": {
+   "heard": "on tell",
+   "base": 0.8
+  },
+  "Stay|narrator": {
+   "heard": "on stay",
+   "base": 0.857
+  },
+  "Picture|narrator": {
+   "heard": "picture",
+   "base": 1.0
+  },
+  "Surely|narrator": {
+   "heard": "on shirley",
+   "base": 0.8
+  },
+  "Surely|scripture": {
+   "heard": "on shirley",
+   "base": 0.8
+  },
+  "Understand|narrator": {
+   "heard": "on understand",
+   "base": 1.0
+  },
+  "Remember|narrator": {
+   "heard": "on remember",
+   "base": 0.889
+  },
+  "Remember|scripture": {
+   "heard": "on remember",
+   "base": 0.889
+  },
+  "Heaven|narrator": {
+   "heard": "heaven",
+   "base": 1.0
+  },
+  "Whoever|narrator": {
+   "heard": "whoever",
+   "base": 1.0
+  },
+  "Wherever|narrator": {
+   "heard": "wherever",
+   "base": 1.0
+  },
+  "Gentile|narrator": {
+   "heard": "on gentile",
+   "base": 0.889
+  },
+  "Good|scripture": {
+   "heard": "good",
+   "base": 1.0
+  },
+  "Good|narrator": {
+   "heard": "good",
+   "base": 1.0
+  },
+  "Jewish|narrator": {
+   "heard": "jewish",
+   "base": 1.0
+  },
+  "Friend|jesus": {
+   "heard": "on friend",
+   "base": 0.889
+  },
+  "Friend|narrator": {
+   "heard": "on friend",
+   "base": 0.889
+  },
+  "Death|narrator": {
+   "heard": "death",
+   "base": 1.0
+  },
+  "Shepherd|narrator": {
+   "heard": "shepherd",
+   "base": 1.0
+  },
+  "Noah|narrator": {
+   "heard": "on noaa",
+   "base": 0.667,
+   "unfixed": true
+  },
+  "Keep|narrator": {
+   "heard": "on keep",
+   "base": 0.8
+  },
+  "Andrew|narrator": {
+   "heard": "on andrew",
+   "base": 1.0
+  },
+  "Standing|narrator": {
+   "heard": "on standing",
+   "base": 0.923
+  },
+  "Passover|narrator": {
+   "heard": "on passover",
+   "base": 0.889
+  },
+  "Hold|narrator": {
+   "heard": "on hold",
+   "base": 0.857
+  },
+  "Hold|jesus": {
+   "heard": "on hold",
+   "base": 0.857
+  },
+  "Until|jesus": {
+   "heard": "until",
+   "base": 1.0
+  },
+  "Until|narrator": {
+   "heard": "on until",
+   "base": 1.0
+  },
+  "Please|narrator": {
+   "heard": "police",
+   "base": 0.667,
+   "unfixed": true
+  },
+  "Later|narrator": {
+   "heard": "on later",
+   "base": 0.857
+  },
+  "Read|narrator": {
+   "heard": "on read",
+   "base": 0.8
+  },
+  "Read|scripture": {
+   "heard": "on read",
+   "base": 0.8
+  },
+  "Therefore|jesus": {
+   "heard": "on therefore",
+   "base": 0.909
+  },
+  "Therefore|woman": {
+   "heard": "therefore",
+   "base": 1.0
+  },
+  "Therefore|god": {
+   "heard": "therefore",
+   "base": 1.0
+  },
+  "Walk|narrator": {
+   "heard": "on walk",
+   "base": 0.857
+  },
+  "However|narrator": {
+   "heard": "on however",
+   "base": 0.889
+  },
+  "Suffer|jesus": {
+   "heard": "on suffer",
+   "base": 0.857
+  },
+  "Today|narrator": {
+   "heard": "on today",
+   "base": 0.857
+  },
+  "Maker|narrator": {
+   "heard": "maker",
+   "base": 1.0
+  },
+  "Amos|narrator": {
+   "heard": "amos",
+   "base": 1.0
+  },
+  "Aaron|scripture": {
+   "heard": "on aaron",
+   "base": 0.8
+  },
+  "Aaron|narrator": {
+   "heard": "on aaron",
+   "base": 0.8
+  },
+  "Eighteen|narrator": {
+   "heard": "on",
+   "base": 0.4,
+   "unfixed": true
+  },
+  "Samaritans|narrator": {
+   "heard": "samaritans",
+   "base": 1.0
+  },
+  "Messiah|narrator": {
+   "heard": "messiah",
+   "base": 1.0
+  },
+  "Whole|narrator": {
+   "heard": "on whole",
+   "base": 0.8
+  },
+  "Abide|scripture": {
+   "heard": "bride",
+   "base": 0.8
+  },
+  "Abide|narrator": {
+   "heard": "on abide",
+   "base": 0.8
+  },
+  "Abide|jesus": {
+   "heard": "on abide",
+   "base": 0.8
+  },
+  "Children|jesus": {
+   "heard": "on children",
+   "base": 0.923
+  },
+  "Children|narrator": {
+   "heard": "children",
+   "base": 1.0
+  },
+  "Watch|jesus": {
+   "heard": "on watch",
+   "base": 0.889
+  },
+  "Watch|narrator": {
+   "heard": "on watch",
+   "base": 0.889
+  },
+  "Like|narrator": {
+   "heard": "on like",
+   "base": 0.8
+  },
+  "Word|narrator": {
+   "heard": "on word",
+   "base": 0.857
+  },
+  "Across|narrator": {
+   "heard": "cross",
+   "base": 1.0
+  },
+  "Greek|narrator": {
+   "heard": "greek",
+   "base": 1.0
+  },
+  "Thousands|narrator": {
+   "heard": "thousands",
+   "base": 1.0
+  },
+  "Saying|jesus": {
+   "heard": "saying",
+   "base": 1.0
+  },
+  "Saying|scripture": {
+   "heard": "saying",
+   "base": 1.0
+  },
+  "Leave|narrator": {
+   "heard": "on leave",
+   "base": 0.8
+  },
+  "Fear|jesus": {
+   "heard": "on fear",
+   "base": 0.8
+  },
+  "Fear|scripture": {
+   "heard": "on fear",
+   "base": 0.8
+  },
+  "Savior|narrator": {
+   "heard": "on savior",
+   "base": 0.857
+  },
+  "Stand|jesus": {
+   "heard": "on stand",
+   "base": 0.889
+  },
+  "Stand|narrator": {
+   "heard": "on stand",
+   "base": 0.889
+  },
+  "Legion|scripture": {
+   "heard": "legion",
+   "base": 1.0
+  },
+  "Legion|narrator": {
+   "heard": "on legion",
+   "base": 0.857
+  },
+  "Somewhere|narrator": {
+   "heard": "somewhere",
+   "base": 1.0
+  },
+  "Whose|jesus": {
+   "heard": "on whos",
+   "base": 0.8
+  },
+  "Whose|narrator": {
+   "heard": "on whos",
+   "base": 0.8
+  },
+  "Saviour|scripture": {
+   "heard": "savior",
+   "base": 1.0
+  },
+  "Saviour|narrator": {
+   "heard": "on savior",
+   "base": 0.857
+  },
+  "Didn|narrator": {
+   "heard": "on diddin",
+   "base": 0.8
+  },
+  "Through|narrator": {
+   "heard": "on through",
+   "base": 0.909
+  },
+  "Reach|jesus": {
+   "heard": "on reach",
+   "base": 0.857
+  },
+  "Reach|narrator": {
+   "heard": "on reach",
+   "base": 0.857
+  },
+  "Whom|jesus": {
+   "heard": "whom",
+   "base": 1.0
+  },
+  "Whom|scripture": {
+   "heard": "whom",
+   "base": 1.0
+  },
+  "Baptist|scripture": {
+   "heard": "baptist",
+   "base": 1.0
+  },
+  "Baptist|narrator": {
+   "heard": "baptist",
+   "base": 1.0
+  },
+  "Speak|scripture": {
+   "heard": "on speak",
+   "base": 0.857
+  },
+  "Speak|narrator": {
+   "heard": "on speak",
+   "base": 0.857
+  },
+  "Wherefore|jesus": {
+   "heard": "on wherefore",
+   "base": 0.889
+  },
+  "Wherefore|scripture": {
+   "heard": "wherefore",
+   "base": 1.0
+  },
+  "Faith|narrator": {
+   "heard": "faith",
+   "base": 1.0
+  },
+  "Turn|narrator": {
+   "heard": "on turn",
+   "base": 0.857
+  },
+  "Comforter|narrator": {
+   "heard": "on comforter",
+   "base": 0.923
+  },
+  "Comforter|jesus": {
+   "heard": "on comforter",
+   "base": 0.923
+  },
+  "Godhead|narrator": {
+   "heard": "godhead",
+   "base": 1.0
+  },
+  "Twelve|narrator": {
+   "heard": "under",
+   "base": 0.0,
+   "unfixed": true
+  },
+  "Rabbi|scripture": {
+   "heard": "on rabbi",
+   "base": 0.8
+  },
+  "Rabbi|narrator": {
+   "heard": "on rabbi",
+   "base": 0.8
+  },
+  "Satan|jesus": {
+   "heard": "satan",
+   "base": 1.0
+  },
+  "Walking|narrator": {
+   "heard": "on walking",
+   "base": 0.909
+  },
+  "Step|narrator": {
+   "heard": "on step",
+   "base": 0.857
+  },
+  "Either|jesus": {
+   "heard": "on either",
+   "base": 0.857
+  },
+  "Either|narrator": {
+   "heard": "on either",
+   "base": 0.857
+  },
+  "Rejoice|jesus": {
+   "heard": "on rejoice",
+   "base": 0.857
+  },
+  "Whosoever|jesus": {
+   "heard": "whosoever",
+   "base": 1.0
+  },
+  "Right|narrator": {
+   "heard": "on write",
+   "base": 0.5,
+   "unfixed": true
+  },
+  "Peace|jesus": {
+   "heard": "on peace",
+   "base": 0.8
+  },
+  "Peace|narrator": {
+   "heard": "peace",
+   "base": 1.0
+  },
+  "Free|narrator": {
+   "heard": "free",
+   "base": 1.0
+  },
+  "Believest|jesus": {
+   "heard": "on believe us",
+   "base": 0.8
+  },
+  "Jonas|jesus": {
+   "heard": "on jonas",
+   "base": 0.857
+  },
+  "Jonas|narrator": {
+   "heard": "jonas",
+   "base": 1.0
+  },
+  "Each|narrator": {
+   "heard": "on each",
+   "base": 0.8
+  },
+  "Feed|jesus": {
+   "heard": "on feed",
+   "base": 0.8
+  },
+  "Feed|narrator": {
+   "heard": "on feed",
+   "base": 0.8
+  },
+  "Gather|jesus": {
+   "heard": "on gather",
+   "base": 0.889
+  },
+  "Hidden|narrator": {
+   "heard": "on hidden",
+   "base": 0.857
+  },
+  "Grace|narrator": {
+   "heard": "grace",
+   "base": 1.0
+  },
+  "Enter|narrator": {
+   "heard": "on enter",
+   "base": 1.0
+  },
+  "Enter|jesus": {
+   "heard": "on enter",
+   "base": 1.0
+  },
+  "Naked|jesus": {
+   "heard": "on naked",
+   "base": 1.0
+  },
+  "Naked|scripture": {
+   "heard": "on naked",
+   "base": 1.0
+  },
+  "Though|jesus": {
+   "heard": "on though",
+   "base": 0.889
+  },
+  "Nevertheless|jesus": {
+   "heard": "on nevertheless",
+   "base": 1.0
+  },
+  "Nevertheless|narrator": {
+   "heard": "on nevertheless",
+   "base": 1.0
+  },
+  "Teach|narrator": {
+   "heard": "on teach",
+   "base": 0.857
+  },
+  "Hallowed|jesus": {
+   "heard": "on hallowed",
+   "base": 0.889
+  },
+  "Testament|narrator": {
+   "heard": "testament",
+   "base": 1.0
+  },
+  "Salt|jesus": {
+   "heard": "on salt",
+   "base": 0.857
+  },
+  "Salt|narrator": {
+   "heard": "on assault",
+   "base": 0.857
+  },
+  "Very|narrator": {
+   "heard": "on vary",
+   "base": 0.857
+  },
+  "Seest|jesus": {
+   "heard": "seyest",
+   "base": 0.667,
+   "unfixed": true
+  },
+  "Everybody|narrator": {
+   "heard": "on everybody",
+   "base": 0.923
+  },
+  "Fill|jesus": {
+   "heard": "on fill",
+   "base": 0.8
+  },
+  "Fill|narrator": {
+   "heard": "on phil",
+   "base": 0.8
+  },
+  "Yesterday|scripture": {
+   "heard": "yesterday",
+   "base": 1.0
+  },
+  "Yesterday|narrator": {
+   "heard": "on yesterday",
+   "base": 0.923
+  },
+  "Aramaic|narrator": {
+   "heard": "on aramaic",
+   "base": 0.857
+  },
+  "Pick|narrator": {
+   "heard": "on pick",
+   "base": 0.857
+  },
+  "Send|scripture": {
+   "heard": "on send",
+   "base": 0.857
+  },
+  "Send|narrator": {
+   "heard": "on send",
+   "base": 0.857
+  },
+  "Clothed|narrator": {
+   "heard": "on clothe",
+   "base": 0.8
+  },
+  "Dost|jesus": {
+   "heard": "dust",
+   "base": 1.0
+  },
+  "Dost|scripture": {
+   "heard": "dust",
+   "base": 1.0
+  },
+  "Imagine|narrator": {
+   "heard": "on imagine",
+   "base": 0.857
+  },
+  "Wilt|jesus": {
+   "heard": "wilton",
+   "base": 0.857
+  },
+  "Wilt|scripture": {
+   "heard": "wilt",
+   "base": 1.0
+  },
+  "Rise|jesus": {
+   "heard": "on rise",
+   "base": 0.8
+  },
+  "Thirty|narrator": {
+   "heard": "on",
+   "base": 0.0,
+   "unfixed": true
+  },
+  "Years|narrator": {
+   "heard": "on years",
+   "base": 0.857
+  },
+  "Help|narrator": {
+   "heard": "on help",
+   "base": 0.857
+  },
+  "Build|narrator": {
+   "heard": "on build",
+   "base": 0.857
+  },
+  "Baptism|narrator": {
+   "heard": "baptism",
+   "base": 1.0
+  },
+  "Throw|narrator": {
+   "heard": "on throw",
+   "base": 0.889
+  },
+  "Bread|narrator": {
+   "heard": "bread",
+   "base": 1.0
+  },
+  "Follow|jesus": {
+   "heard": "on follow",
+   "base": 0.857
+  },
+  "Shall|scripture": {
+   "heard": "shall",
+   "base": 1.0
+  },
+  "Glory|scripture": {
+   "heard": "on glory",
+   "base": 0.889
+  },
+  "Glory|narrator": {
+   "heard": "glory",
+   "base": 1.0
+  },
+  "Crucify|scripture": {
+   "heard": "on crucify",
+   "base": 0.909
+  },
+  "Crucify|narrator": {
+   "heard": "on crucify",
+   "base": 0.909
+  },
+  "Rabboni|woman": {
+   "heard": "raboni",
+   "base": 1.0
+  },
+  "Rabboni|narrator": {
+   "heard": "on rap bony",
+   "base": 0.667,
+   "unfixed": true
+  },
+  "Touch|jesus": {
+   "heard": "on touch",
+   "base": 0.857
+  },
+  "Touch|narrator": {
+   "heard": "on touch",
+   "base": 0.857
+  },
+  "Lamb|narrator": {
+   "heard": "lamb",
+   "base": 1.0
+  },
+  "Seek|narrator": {
+   "heard": "on seek",
+   "base": 0.8
+  },
+  "Knock|narrator": {
+   "heard": "on knock",
+   "base": 0.889
+  },
+  "Sodom|narrator": {
+   "heard": "on sod them",
+   "base": 0.667,
+   "unfixed": true
+  },
+  "Sodom|god": {
+   "heard": "sodom",
+   "base": 1.0
+  },
+  "Judge|scripture": {
+   "heard": "on judge",
+   "base": 0.857
+  },
+  "Judge|jesus": {
+   "heard": "on judge",
+   "base": 0.857
+  },
+  "Centuries|narrator": {
+   "heard": "centuries",
+   "base": 1.0
+  },
+  "Zion|scripture": {
+   "heard": "zion",
+   "base": 1.0
+  },
+  "Hosea|narrator": {
+   "heard": "hosea",
+   "base": 1.0
+  },
+  "Pleiades|god": {
+   "heard": "pleiades",
+   "base": 1.0
+  },
+  "Pleiades|narrator": {
+   "heard": "pleiades",
+   "base": 1.0
+  },
+  "Orion|god": {
+   "heard": "orion",
+   "base": 1.0
+  },
+  "Orion|narrator": {
+   "heard": "on orion",
+   "base": 0.8
+  },
+  "Deal|narrator": {
+   "heard": "on deal",
+   "base": 0.8
+  },
+  "Lift|narrator": {
+   "heard": "on lift",
+   "base": 0.857
+  },
+  "Lift|scripture": {
+   "heard": "on lift",
+   "base": 0.857
+  },
+  "Bless|narrator": {
+   "heard": "bless",
+   "base": 1.0
+  },
+  "Friends|narrator": {
+   "heard": "friends",
+   "base": 1.0
+  },
+  "Himself|narrator": {
+   "heard": "himself",
+   "base": 1.0
+  },
+  "Egypt|narrator": {
+   "heard": "egypt",
+   "base": 1.0
+  },
+  "Egypt|scripture": {
+   "heard": "egypt",
+   "base": 1.0
+  },
+  "Forasmuch|god": {
+   "heard": "on for as much",
+   "base": 0.923
+  },
+  "Forasmuch|scripture": {
+   "heard": "on for as much",
+   "base": 0.923
+  },
+  "Daniel|narrator": {
+   "heard": "daniel",
+   "base": 1.0
+  },
+  "Sincerity|narrator": {
+   "heard": "sincerity",
+   "base": 1.0
+  },
+  "Giver|narrator": {
+   "heard": "on giver",
+   "base": 0.857
+  },
+  "Open|narrator": {
+   "heard": "on open",
+   "base": 0.8
+  },
+  "Helper|narrator": {
+   "heard": "on help her",
+   "base": 0.667,
+   "unfixed": true
+  },
+  "Meekness|scripture": {
+   "heard": "meekness",
+   "base": 1.0
+  },
+  "Meekness|narrator": {
+   "heard": "meekness",
+   "base": 1.0
+  },
+  "Almost|narrator": {
+   "heard": "on almost",
+   "base": 0.889
+  },
+  "Daughter|jesus": {
+   "heard": "on daughter",
+   "base": 0.909
+  },
+  "Half|narrator": {
+   "heard": "half",
+   "base": 1.0
+  },
+  "Being|narrator": {
+   "heard": "on being",
+   "base": 0.857
+  },
+  "Educated|narrator": {
+   "heard": "on educated",
+   "base": 0.889
+  },
+  "Respected|narrator": {
+   "heard": "respected",
+   "base": 1.0
+  },
+  "Listened|narrator": {
+   "heard": "on listen",
+   "base": 0.8
+  },
+  "Months|narrator": {
+   "heard": "months",
+   "base": 1.0
+  },
+  "Doth|scripture": {
+   "heard": "death",
+   "base": 1.0
+  },
+  "Does|narrator": {
+   "heard": "does",
+   "base": 1.0
+  },
+  "Present|narrator": {
+   "heard": "present",
+   "base": 1.0
+  },
+  "Loosed|narrator": {
+   "heard": "on loose",
+   "base": 0.667,
+   "unfixed": true
+  },
+  "Immediately|narrator": {
+   "heard": "on immediately",
+   "base": 0.909
+  },
+  "Likewise|jesus": {
+   "heard": "on likewise",
+   "base": 0.889
+  },
+  "Running|narrator": {
+   "heard": "on running",
+   "base": 0.857
+  },
+  "Honor|narrator": {
+   "heard": "honor",
+   "base": 1.0
+  },
+  "Sell|narrator": {
+   "heard": "on sell",
+   "base": 0.8
+  },
+  "Women|narrator": {
+   "heard": "women",
+   "base": 1.0
+  },
+  "Noon|narrator": {
+   "heard": "on noon",
+   "base": 1.0
+  },
+  "Messias|woman": {
+   "heard": "meshes",
+   "base": 0.667,
+   "unfixed": true
+  },
+  "Evening|narrator": {
+   "heard": "on till evening",
+   "base": 0.667,
+   "unfixed": true
+  },
+  "Waves|narrator": {
+   "heard": "waves",
+   "base": 1.0
+  },
+  "Rough|narrator": {
+   "heard": "on rough",
+   "base": 0.857
+  },
+  "Sailors|narrator": {
+   "heard": "sailors",
+   "base": 1.0
+  },
+  "Listening|narrator": {
+   "heard": "on listening",
+   "base": 0.909
+  },
+  "Passing|narrator": {
+   "heard": "on passing",
+   "base": 0.889
+  },
+  "Catch|narrator": {
+   "heard": "on catch",
+   "base": 0.889
+  },
+  "Respectable|narrator": {
+   "heard": "respectable",
+   "base": 1.0
+  },
+  "Below|narrator": {
+   "heard": "below",
+   "base": 1.0
+  },
+  "Daylight|narrator": {
+   "heard": "daylight",
+   "base": 1.0
+  },
+  "Sending|narrator": {
+   "heard": "on sending",
+   "base": 0.909
+  },
+  "Were|jesus": {
+   "heard": "on where",
+   "base": 0.8
+  },
+  "Cleansed|narrator": {
+   "heard": "under cleanse",
+   "base": 0.667,
+   "unfixed": true
+  },
+  "Gospels|narrator": {
+   "heard": "gospels",
+   "base": 1.0
+  },
+  "Stirring|narrator": {
+   "heard": "on stirring",
+   "base": 0.909
+  },
+  "Meanwhile|narrator": {
+   "heard": "on meanwhile",
+   "base": 0.889
+  },
+  "Worried|narrator": {
+   "heard": "on worried",
+   "base": 0.857
+  },
+  "Practical|narrator": {
+   "heard": "practical",
+   "base": 1.0
+  },
+  "Bound|narrator": {
+   "heard": "on bound",
+   "base": 0.857
+  },
+  "Loose|jesus": {
+   "heard": "on loose",
+   "base": 0.8
+  },
+  "Unwrap|narrator": {
+   "heard": "on unwrap",
+   "base": 1.0
+  },
+  "Sunday|narrator": {
+   "heard": "on sunday",
+   "base": 0.889
+  },
+  "Ought|jesus": {
+   "heard": "on art",
+   "base": 0.333,
+   "unfixed": true
+  },
+  "Weren|narrator": {
+   "heard": "on wearing",
+   "base": 0.75
+  },
+  "Cast|jesus": {
+   "heard": "on cast",
+   "base": 0.857
+  },
+  "Blood|narrator": {
+   "heard": "blood",
+   "base": 1.0
+  },
+  "Robbers|narrator": {
+   "heard": "robbers",
+   "base": 1.0
+  },
+  "Different|narrator": {
+   "heard": "on different",
+   "base": 0.909
+  },
+  "Rejoicing|narrator": {
+   "heard": "on rejoicing",
+   "base": 0.909
+  },
+  "Shouldn|narrator": {
+   "heard": "on shoot",
+   "base": 0.444,
+   "unfixed": true
+  },
+  "Shouldest|jesus": {
+   "heard": "on shoot us",
+   "base": 0.545,
+   "unfixed": true
+  },
+  "Rocky|narrator": {
+   "heard": "rocky",
+   "base": 1.0
+  },
+  "None|narrator": {
+   "heard": "on none",
+   "base": 1.0
+  },
+  "Quietly|narrator": {
+   "heard": "quietly",
+   "base": 1.0
+  },
+  "Leaven|narrator": {
+   "heard": "on",
+   "base": 0.5,
+   "unfixed": true
+  },
+  "Small|narrator": {
+   "heard": "small",
+   "base": 1.0
+  },
+  "Plain|narrator": {
+   "heard": "plane",
+   "base": 1.0
+  },
+  "Easy|narrator": {
+   "heard": "on easy",
+   "base": 0.8
+  },
+  "Quickly|narrator": {
+   "heard": "under quickly",
+   "base": 0.769
+  },
+  "Costly|narrator": {
+   "heard": "under costly",
+   "base": 0.769
+  },
+  "Along|narrator": {
+   "heard": "lawn",
+   "base": 0.667,
+   "unfixed": true
+  },
+  "Hour|narrator": {
+   "heard": "until hour",
+   "base": 0.571,
+   "unfixed": true
+  },
+  "Hurry|narrator": {
+   "heard": "on hurry",
+   "base": 0.857
+  },
+  "Tonight|narrator": {
+   "heard": "on tonight",
+   "base": 0.909
+  },
+  "Near|narrator": {
+   "heard": "near",
+   "base": 1.0
+  },
+  "Kindness|narrator": {
+   "heard": "kindness",
+   "base": 1.0
+  },
+  "Inasmuch|jesus": {
+   "heard": "on innos much",
+   "base": 1.0
+  },
+  "Soul|jesus": {
+   "heard": "soul",
+   "base": 1.0
+  },
+  "Relax|narrator": {
+   "heard": "on relax",
+   "base": 0.857
+  },
+  "Quick|narrator": {
+   "heard": "on quick",
+   "base": 0.857
+  },
+  "Worldly|narrator": {
+   "heard": "worldly",
+   "base": 1.0
+  },
+  "Between|jesus": {
+   "heard": "on between",
+   "base": 0.889
+  },
+  "Avenge|jesus": {
+   "heard": "on avenge",
+   "base": 0.857
+  },
+  "Fine|narrator": {
+   "heard": "on find",
+   "base": 0.667,
+   "unfixed": true
+  },
+  "Feeding|narrator": {
+   "heard": "on feeding",
+   "base": 0.889
+  },
+  "Getting|narrator": {
+   "heard": "on getting",
+   "base": 0.889
+  },
+  "Trouble|jesus": {
+   "heard": "on trouble",
+   "base": 0.889
+  },
+  "Louder|narrator": {
+   "heard": "on louder",
+   "base": 0.857
+  },
+  "Shutters|narrator": {
+   "heard": "on shutters",
+   "base": 0.909
+  },
+  "Dogs|narrator": {
+   "heard": "dogs",
+   "base": 1.0
+  },
+  "Bibles|narrator": {
+   "heard": "bibles",
+   "base": 1.0
+  },
+  "Annoyed|narrator": {
+   "heard": "on annoyed",
+   "base": 1.0
+  },
+  "Asleep|narrator": {
+   "heard": "his sleep",
+   "base": 0.857
+  },
+  "Lest|jesus": {
+   "heard": "on last",
+   "base": 0.857
+  },
+  "Second|narrator": {
+   "heard": "on second",
+   "base": 0.889
+  },
+  "Dead|narrator": {
+   "heard": "dead",
+   "base": 1.0
+  },
+  "Deep|narrator": {
+   "heard": "deep",
+   "base": 1.0
+  },
+  "Bare|narrator": {
+   "heard": "on bear",
+   "base": 0.8
+  },
+  "Coming|narrator": {
+   "heard": "on coming",
+   "base": 0.889
+  },
+  "Work|narrator": {
+   "heard": "on work",
+   "base": 0.857
+  },
+  "Gardener|narrator": {
+   "heard": "gardener",
+   "base": 1.0
+  },
+  "Bind|jesus": {
+   "heard": "bind",
+   "base": 1.0
+  },
+  "Message|narrator": {
+   "heard": "on message",
+   "base": 0.857
+  },
+  "Having|jesus": {
+   "heard": "on having",
+   "base": 0.889
+  },
+  "Ordinary|narrator": {
+   "heard": "on ordinary",
+   "base": 0.909
+  },
+  "Slow|narrator": {
+   "heard": "on slow",
+   "base": 0.857
+  },
+  "Hearing|narrator": {
+   "heard": "hearing",
+   "base": 1.0
+  },
+  "Fasting|narrator": {
+   "heard": "fasting",
+   "base": 1.0
+  },
+  "Fresh|narrator": {
+   "heard": "on fresh",
+   "base": 0.889
+  },
+  "English|narrator": {
+   "heard": "on english",
+   "base": 1.0
+  },
+  "Whatsoever|woman": {
+   "heard": "on whatsoever",
+   "base": 0.909
+  },
+  "Empty|narrator": {
+   "heard": "on empty",
+   "base": 0.889
+  },
+  "Water|narrator": {
+   "heard": "water",
+   "base": 1.0
+  },
+  "Draw|jesus": {
+   "heard": "on draw",
+   "base": 0.857
+  },
+  "Launch|jesus": {
+   "heard": "on launch",
+   "base": 0.889
+  },
+  "Depart|scripture": {
+   "heard": "on depart",
+   "base": 0.889
+  },
+  "Unable|narrator": {
+   "heard": "one able",
+   "base": 1.0
+  },
+  "Stretch|jesus": {
+   "heard": "on stretch",
+   "base": 0.923
+  },
+  "Faced|narrator": {
+   "heard": "face",
+   "base": 0.8
+  },
+  "Mercy|narrator": {
+   "heard": "mercy",
+   "base": 1.0
+  },
+  "Nain|narrator": {
+   "heard": "on nain",
+   "base": 1.0
+  },
+  "Weep|jesus": {
+   "heard": "weep",
+   "base": 1.0
+  },
+  "Young|jesus": {
+   "heard": "young",
+   "base": 1.0
+  },
+  "Life|narrator": {
+   "heard": "on life",
+   "base": 0.8
+  },
+  "Damsel|jesus": {
+   "heard": "damsel",
+   "base": 1.0
+  },
+  "Whence|jesus": {
+   "heard": "whence",
+   "base": 1.0
+  },
+  "Barley|narrator": {
+   "heard": "on barley",
+   "base": 0.889
+  },
+  "Prophet|narrator": {
+   "heard": "on profit",
+   "base": 0.889
+  },
+  "Foreign|narrator": {
+   "heard": "foreign",
+   "base": 1.0
+  },
+  "Swear|narrator": {
+   "heard": "on swear",
+   "base": 0.857
+  },
+  "Calm|narrator": {
+   "heard": "on calm",
+   "base": 0.857
+  },
+  "Power|narrator": {
+   "heard": "on power",
+   "base": 0.857
+  },
+  "Tyre|narrator": {
+   "heard": "tire",
+   "base": 0.8
+  },
+  "Syrophoenician|narrator": {
+   "heard": "cyrofenition",
+   "base": 0.714,
+   "unfixed": true
+  },
+  "Wrong|narrator": {
+   "heard": "on wrong",
+   "base": 0.889
+  },
+  "Sign|narrator": {
+   "heard": "on sign",
+   "base": 0.857
+  },
+  "Sound|narrator": {
+   "heard": "on sound",
+   "base": 0.857
+  },
+  "Healed|narrator": {
+   "heard": "on heal",
+   "base": 0.667,
+   "unfixed": true
+  },
+  "Hundreds|narrator": {
+   "heard": "under hundreds",
+   "base": 0.8
+  },
+  "Healing|narrator": {
+   "heard": "healing",
+   "base": 1.0
+  },
+  "Legs|narrator": {
+   "heard": "legs",
+   "base": 1.0
+  },
+  "Impulsive|narrator": {
+   "heard": "impulsive",
+   "base": 1.0
+  },
+  "Multiply|narrator": {
+   "heard": "on multiply",
+   "base": 0.923
+  },
+  "Insomuch|scripture": {
+   "heard": "on insomuch",
+   "base": 1.0
+  },
+  "Identity|narrator": {
+   "heard": "on identity",
+   "base": 0.889
+  },
+  "Approval|narrator": {
+   "heard": "on approval",
+   "base": 0.889
+  },
+  "Straight|narrator": {
+   "heard": "straight",
+   "base": 1.0
+  },
+  "Force|narrator": {
+   "heard": "on force",
+   "base": 0.857
+  },
+  "Trust|narrator": {
+   "heard": "on trust",
+   "base": 0.889
+  },
+  "Worship|narrator": {
+   "heard": "worship",
+   "base": 1.0
+  },
+  "Company|narrator": {
+   "heard": "under company",
+   "base": 0.769
+  },
+  "Hebrews|narrator": {
+   "heard": "hebrews",
+   "base": 1.0
+  },
+  "Hungry|narrator": {
+   "heard": "under hungary",
+   "base": 0.769
+  },
+  "Rich|narrator": {
+   "heard": "on rich",
+   "base": 0.857
+  },
+  "Past|narrator": {
+   "heard": "on past",
+   "base": 0.857
+  },
+  "Outcasts|narrator": {
+   "heard": "outcasts",
+   "base": 1.0
+  },
+  "Gospel|narrator": {
+   "heard": "gospel",
+   "base": 1.0
+  },
+  "Sabbath|narrator": {
+   "heard": "sabbath",
+   "base": 1.0
+  },
+  "Early|narrator": {
+   "heard": "on early",
+   "base": 0.857
+  },
+  "Whichever|narrator": {
+   "heard": "whichever",
+   "base": 1.0
+  },
+  "Parents|narrator": {
+   "heard": "parents",
+   "base": 1.0
+  },
+  "Notwithstanding|jesus": {
+   "heard": "on notwithstanding",
+   "base": 1.0
+  },
+  "Render|jesus": {
+   "heard": "on render",
+   "base": 0.889
+  },
+  "Wheresoever|jesus": {
+   "heard": "on where so ever",
+   "base": 0.909
+  },
+  "Ninety|narrator": {
+   "heard": "-",
+   "base": 0.0,
+   "unfixed": true
+  },
+  "Door|narrator": {
+   "heard": "door",
+   "base": 1.0
+  },
+  "Outside|narrator": {
+   "heard": "outside",
+   "base": 1.0
+  },
+  "Suddenly|narrator": {
+   "heard": "on suddenly",
+   "base": 0.909
+  },
+  "Including|narrator": {
+   "heard": "on including",
+   "base": 1.0
+  },
+  "Strangers|narrator": {
+   "heard": "under strangers",
+   "base": 0.824
+  },
+  "Relieved|narrator": {
+   "heard": "on relieved",
+   "base": 0.889
+  },
+  "Grieving|narrator": {
+   "heard": "grieving",
+   "base": 1.0
+  },
+  "Untie|narrator": {
+   "heard": "one tie",
+   "base": 1.0
+  },
+  "Sion|scripture": {
+   "heard": "on shoun",
+   "base": 0.667,
+   "unfixed": true
+  },
+  "Save|narrator": {
+   "heard": "on save",
+   "base": 0.8
+  },
+  "Forgive|narrator": {
+   "heard": "on forgive",
+   "base": 0.889
+  },
+  "Thinking|narrator": {
+   "heard": "on thinking",
+   "base": 0.923
+  },
+  "Grief|narrator": {
+   "heard": "grief",
+   "base": 1.0
+  },
+  "Unless|narrator": {
+   "heard": "on unless",
+   "base": 1.0
+  },
+  "Baal|god": {
+   "heard": "ball",
+   "base": 1.0
+  },
+  "Scattered|narrator": {
+   "heard": "on scattered",
+   "base": 0.909
+  },
+  "Bethel|narrator": {
+   "heard": "on bethel",
+   "base": 0.889
+  },
+  "Jeremias|scripture": {
+   "heard": "jeremiahs",
+   "base": 0.889
+  },
+  "Others|narrator": {
+   "heard": "on others",
+   "base": 0.889
+  },
+  "Barjona|jesus": {
+   "heard": "on bargeona",
+   "base": 0.667,
+   "unfixed": true
+  },
+  "Tent|narrator": {
+   "heard": "on tent",
+   "base": 0.857
+  },
+  "Meeting|narrator": {
+   "heard": "on meeting",
+   "base": 0.889
+  },
+  "Whenever|narrator": {
+   "heard": "on whenever",
+   "base": 0.889
+  },
+  "Face|narrator": {
+   "heard": "face",
+   "base": 1.0
+  },
+  "Show|narrator": {
+   "heard": "on show",
+   "base": 0.857
+  },
+  "Century|narrator": {
+   "heard": "on century",
+   "base": 0.909
+  },
+  "Hath|scripture": {
+   "heard": "half",
+   "base": 0.333,
+   "unfixed": true
+  },
+  "Several|narrator": {
+   "heard": "under several",
+   "base": 0.727,
+   "unfixed": true
+  },
+  "Tired|narrator": {
+   "heard": "tired",
+   "base": 1.0
+  },
+  "Known|narrator": {
+   "heard": "on know",
+   "base": 0.75
+  },
+  "Held|narrator": {
+   "heard": "on help",
+   "base": 0.571,
+   "unfixed": true
+  },
+  "Wear|narrator": {
+   "heard": "on where",
+   "base": 0.8
+  },
+  "Prayer|narrator": {
+   "heard": "prayer",
+   "base": 1.0
+  },
+  "Simply|narrator": {
+   "heard": "on simply",
+   "base": 0.909
+  },
+  "Lead|narrator": {
+   "heard": "on lead",
+   "base": 0.8
+  },
+  "Short|narrator": {
+   "heard": "short",
+   "base": 1.0
+  },
+  "Honest|narrator": {
+   "heard": "honest",
+   "base": 1.0
+  },
+  "Consider|jesus": {
+   "heard": "on consider",
+   "base": 0.909
+  },
+  "Sufficient|jesus": {
+   "heard": "on sufficient",
+   "base": 0.909
+  },
+  "Tomorrow|narrator": {
+   "heard": "tomorrow",
+   "base": 1.0
+  },
+  "Shame|narrator": {
+   "heard": "shame",
+   "base": 1.0
+  },
+  "Peradventure|scripture": {
+   "heard": "paradventure",
+   "base": 1.0
+  },
+  "Provide|narrator": {
+   "heard": "on provide",
+   "base": 0.889
+  },
+  "Slipped|narrator": {
+   "heard": "on slip",
+   "base": 0.75
+  },
+  "Graven|narrator": {
+   "heard": "graven",
+   "base": 1.0
+  },
+  "Brought|narrator": {
+   "heard": "on broad",
+   "base": 0.444,
+   "unfixed": true
+  },
+  "Fifteen|narrator": {
+   "heard": "on",
+   "base": 0.5,
+   "unfixed": true
+  },
+  "Speaking|narrator": {
+   "heard": "on speaking",
+   "base": 0.909
+  },
+  "Turning|narrator": {
+   "heard": "on turning",
+   "base": 0.889
+  },
+  "Betrothed|narrator": {
+   "heard": "on betrothed",
+   "base": 0.923
+  },
+  "Salvation|scripture": {
+   "heard": "on salvation",
+   "base": 0.909
+  },
+  "Rescue|narrator": {
+   "heard": "on rescue",
+   "base": 0.857
+  },
+  "Forty|narrator": {
+   "heard": "on",
+   "base": 0.0,
+   "unfixed": true
+  },
+  "Canst|god": {
+   "heard": "kansht",
+   "base": 0.667,
+   "unfixed": true
+  },
+  "Chapter|narrator": {
+   "heard": "chapter",
+   "base": 1.0
+  },
+  "Person|narrator": {
+   "heard": "person",
+   "base": 1.0
+  },
+  "Live|narrator": {
+   "heard": "on live",
+   "base": 0.8
+  },
+  "Ours|narrator": {
+   "heard": "on two hours",
+   "base": 0.5,
+   "unfixed": true
+  },
+  "Treat|narrator": {
+   "heard": "on treat",
+   "base": 0.857
+  },
+  "Pray|narrator": {
+   "heard": "on pray",
+   "base": 0.857
+  },
+  "Loving|narrator": {
+   "heard": "on loving",
+   "base": 0.889
+  },
+  "Words|narrator": {
+   "heard": "words",
+   "base": 1.0
+  },
+  "Beware|jesus": {
+   "heard": "on beware",
+   "base": 0.857
+  },
+  "Inside|narrator": {
+   "heard": "on inside",
+   "base": 1.0
+  },
+  "Cannot|narrator": {
+   "heard": "on cannot",
+   "base": 0.857
+  },
+  "Joses|scripture": {
+   "heard": "hoseys",
+   "base": 0.333,
+   "unfixed": true
+  },
+  "Juda|scripture": {
+   "heard": "on judah",
+   "base": 0.667,
+   "unfixed": true
+  },
+  "Anger|narrator": {
+   "heard": "on anger",
+   "base": 1.0
+  },
+  "Forbid|jesus": {
+   "heard": "on forbid",
+   "base": 0.889
+  },
+  "Myself|narrator": {
+   "heard": "myself",
+   "base": 1.0
+  },
+  "Planting|narrator": {
+   "heard": "planting",
+   "base": 1.0
+  },
+  "Rain|narrator": {
+   "heard": "rain",
+   "base": 1.0
+  },
+  "Full|narrator": {
+   "heard": "full",
+   "base": 1.0
+  },
+  "Athens|narrator": {
+   "heard": "athens",
+   "base": 1.0
+  },
+  "Light|narrator": {
+   "heard": "on light",
+   "base": 0.889
+  },
+  "Branches|narrator": {
+   "heard": "branches",
+   "base": 1.0
+  },
+  "Vine|narrator": {
+   "heard": "on vine",
+   "base": 0.8
+  },
+  "Egyptian|narrator": {
+   "heard": "egyptian",
+   "base": 1.0
+  },
+  "Intreat|woman": {
+   "heard": "on entry",
+   "base": 0.75
+  },
+  "Call|woman": {
+   "heard": "on call",
+   "base": 0.8
+  },
+  "Mara|woman": {
+   "heard": "on mara",
+   "base": 0.8
+  },
+  "Almighty|woman": {
+   "heard": "almighty",
+   "base": 1.0
+  },
+  "Redeemer|narrator": {
+   "heard": "on redeemer",
+   "base": 0.889
+  },
+  "Year|narrator": {
+   "heard": "on year",
+   "base": 0.8
+  },
+  "Shiloh|narrator": {
+   "heard": "shiloh",
+   "base": 1.0
+  },
+  "Sooner|narrator": {
+   "heard": "on sooner",
+   "base": 0.857
+  },
+  "Honestly|narrator": {
+   "heard": "on honestly",
+   "base": 0.923
+  },
+  "Wisdom|narrator": {
+   "heard": "on wisdom",
+   "base": 0.889
+  },
+  "Silver|scripture": {
+   "heard": "silver",
+   "base": 1.0
+  },
+  "Change|narrator": {
+   "heard": "on change",
+   "base": 0.889
+  },
+  "Repent|scripture": {
+   "heard": "on repent",
+   "base": 0.889
+  },
+  "Restitution|narrator": {
+   "heard": "on restitution",
+   "base": 0.889
+  },
+  "Honour|narrator": {
+   "heard": "honor",
+   "base": 1.0
+  },
+  "Rumors|narrator": {
+   "heard": "rumors",
+   "base": 1.0
+  },
+  "Feelings|narrator": {
+   "heard": "feelings",
+   "base": 1.0
+  },
+  "Among|narrator": {
+   "heard": "on mom",
+   "base": 0.4,
+   "unfixed": true
+  },
+  "Moreover|god": {
+   "heard": "on tomorrow for",
+   "base": 0.545,
+   "unfixed": true
+  },
+  "Thus|god": {
+   "heard": "thus",
+   "base": 1.0
+  },
+  "Babylon|narrator": {
+   "heard": "on babylon",
+   "base": 0.889
+  },
+  "Caesarea|narrator": {
+   "heard": "caesarea",
+   "base": 1.0
+  },
+  "Empires|narrator": {
+   "heard": "empires",
+   "base": 1.0
+  },
+  "Keys|narrator": {
+   "heard": "keys",
+   "base": 1.0
+  },
+  "Taught|narrator": {
+   "heard": "on todd",
+   "base": 0.286,
+   "unfixed": true
+  },
+  "Till|scripture": {
+   "heard": "on chill",
+   "base": 0.333,
+   "unfixed": true
+  },
+  "Without|narrator": {
+   "heard": "on without",
+   "base": 0.889
+  },
+  "Order|narrator": {
+   "heard": "on order",
+   "base": 0.857
+  },
+  "Sincere|narrator": {
+   "heard": "sincere",
+   "base": 1.0
+  },
+  "Better|narrator": {
+   "heard": "on better",
+   "base": 0.857
+  },
+  "Sinless|narrator": {
+   "heard": "sinless",
+   "base": 1.0
+  },
+  "Ever|narrator": {
+   "heard": "on ever",
+   "base": 0.8
+  },
+  "Else|scripture": {
+   "heard": "us",
+   "base": 0.667,
+   "unfixed": true
+  },
+  "Adam|scripture": {
+   "heard": "on adam",
+   "base": 0.8
+  },
+  "Offering|narrator": {
+   "heard": "on offering",
+   "base": 0.889
+  },
+  "Lean|narrator": {
+   "heard": "on lean",
+   "base": 0.8
+  },
+  "Nations|narrator": {
+   "heard": "nations",
+   "base": 1.0
+  },
+  "Such|narrator": {
+   "heard": "on such",
+   "base": 0.857
+  },
+  "Stewards|narrator": {
+   "heard": "stewards",
+   "base": 1.0
+  },
+  "Long|narrator": {
+   "heard": "until long",
+   "base": 0.75
+  },
+  "Creation|narrator": {
+   "heard": "on creation",
+   "base": 0.889
+  },
+  "Creator|scripture": {
+   "heard": "on creator",
+   "base": 0.889
+  },
+  "Received|narrator": {
+   "heard": "on receive",
+   "base": 0.75
+  },
+  "Heirs|narrator": {
+   "heard": "heirs",
+   "base": 1.0
+  },
+  "Heir|narrator": {
+   "heard": "air",
+   "base": 0.667,
+   "unfixed": true
+  },
+  "High|god": {
+   "heard": "on high",
+   "base": 0.857
+  },
+  "Perfect|narrator": {
+   "heard": "perfect",
+   "base": 1.0
+  },
+  "Rahab|narrator": {
+   "heard": "rahab",
+   "base": 1.0
+  },
+  "Belief|narrator": {
+   "heard": "on belief",
+   "base": 0.857
+  },
+  "Share|narrator": {
+   "heard": "on share",
+   "base": 0.857
+  },
+  "Longsuffering|narrator": {
+   "heard": "long suffering",
+   "base": 1.0
+  },
+  "Quench|scripture": {
+   "heard": "on quench",
+   "base": 0.889
+  },
+  "Despise|scripture": {
+   "heard": "despise",
+   "base": 1.0
+  },
+  "Prove|scripture": {
+   "heard": "on prove",
+   "base": 0.857
+  },
+  "Test|narrator": {
+   "heard": "on test",
+   "base": 0.857
+  },
+  "Abstain|scripture": {
+   "heard": "on abstain",
+   "base": 0.889
+  },
+  "Faithful|scripture": {
+   "heard": "faithful",
+   "base": 1.0
+  },
+  "Weigh|narrator": {
+   "heard": "way",
+   "base": 0.4,
+   "unfixed": true
+  },
+  "Eldad|narrator": {
+   "heard": "on ldad",
+   "base": 0.8
+  },
+  "Medad|narrator": {
+   "heard": "medad",
+   "base": 1.0
+  },
+  "Joshua|narrator": {
+   "heard": "joshua",
+   "base": 1.0
+  },
+  "Enviest|scripture": {
+   "heard": "envius",
+   "base": 0.857
+  },
+  "Joel|narrator": {
+   "heard": "joel",
+   "base": 1.0
+  },
+  "Decades|narrator": {
+   "heard": "decades",
+   "base": 1.0
+  },
+  "Pentecost|narrator": {
+   "heard": "pentecost",
+   "base": 1.0
+  },
+  "Raised|narrator": {
+   "heard": "raised",
+   "base": 1.0
+  },
+  "Exiles|narrator": {
+   "heard": "on exiles",
+   "base": 0.857
+  },
+  "Judgment|narrator": {
+   "heard": "judgment",
+   "base": 1.0
+  },
+  "Fisher|narrator": {
+   "heard": "fisher",
+   "base": 1.0
+  },
+  "Mount|narrator": {
+   "heard": "on mount",
+   "base": 0.857
+  },
+  "Olives|narrator": {
+   "heard": "olives",
+   "base": 1.0
+  }
+ },
+ "wins": {
+  "Stephen": {
+   "narrator": "steevun"
+  },
+  "Cana": {
+   "narrator": "kaynuh"
+  },
+  "Meshach": {
+   "scripture": "meeshak"
+  },
+  "Gennesaret": {
+   "narrator": "gunnessuhret"
+  },
+  "Esaias": {
+   "scripture": "izayus"
+  },
+  "Judaea": {
+   "jesus": "joodeeuh"
+  }
+ }
+}

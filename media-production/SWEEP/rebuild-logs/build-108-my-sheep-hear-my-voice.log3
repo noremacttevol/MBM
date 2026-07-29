@@ -1,0 +1,57 @@
+saved audio/n1.mp3  [narrator]
+saved audio/n2.mp3  [narrator]
+saved audio/n3.mp3  [narrator]
+saved audio/jv3.mp3  [jesus]
+saved audio/jv27.mp3  [jesus]
+  ! n4: undecided homograph(s) ['does']
+saved audio/n4.mp3  [narrator]
+saved audio/jv11.mp3  [jesus]
+saved audio/n4b.mp3  [narrator]
+  ! n5: undecided homograph(s) ['close']
+saved audio/n5.mp3  [narrator]
+saved audio/jv28.mp3  [jesus]
+  ! n6: undecided homograph(s) ['does']
+saved audio/n6.mp3  [narrator]
+saved audio/n7.mp3  [narrator]
+saved audio/n7b.mp3  [narrator]
+saved audio/card.mp3  [narrator]
+>> ffmpeg -y -v error -i audio/n1.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/n2.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/n3.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/jv3.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse 
+>> ffmpeg -y -v error -i audio/jv27.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse
+>> ffmpeg -y -v error -i audio/n4.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/jv11.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse
+>> ffmpeg -y -v error -i audio/n4b.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse 
+>> ffmpeg -y -v error -i audio/n5.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/jv28.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse
+>> ffmpeg -y -v error -i audio/n6.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/n7.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/n7b.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse 
+>> ffmpeg -y -v error -i audio/card.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse
+total runtime: 184.9s (3.08 min)
+worst spoken gap: 1.88s before n4b (must be <= 2.5s)
+sacred silence 1 (hear my voice): jv27 at 52.1s
+sacred silence 2 (my hand): jv28 at 114.6s
+>> ffmpeg -y -loop 1 -i assets/s1-the-sheepfold-at-dawn.jpeg -t 12.924707999999999 -filter_complex [0:v]scale=2160:3868,setsar=1,zoom
+>> ffmpeg -y -loop 1 -i assets/s2-the-shepherd-comes.jpeg -t 16.955167 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001
+>> ffmpeg -y -loop 1 -i assets/s3-he-calls-them-by-name.jpeg -t 13.872375 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.
+>> ffmpeg -y -loop 1 -i assets/s3-he-calls-them-by-name.jpeg -t 8.056958 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.0
+>> ffmpeg -y -loop 1 -i assets/s4-they-follow-him.jpeg -t 6.350042 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+0.0
+>> ffmpeg -y -loop 1 -i assets/s5-green-pastures.jpeg -t 17.252208 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+0.0
+>> ffmpeg -y -loop 1 -i assets/s6-the-lamb-carried.jpeg -t 6.736000000000001 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z=
+>> ffmpeg -y -loop 1 -i assets/s6-the-lamb-carried.jpeg -t 16.79725 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.091-0.
+>> ffmpeg -y -loop 1 -i assets/s7-the-people-who-are-his-sheep.jpeg -t 15.340583 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompa
+>> ffmpeg -y -loop 1 -i assets/s8-in-his-hand.jpeg -t 9.617542 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+0.09*on
+>> ffmpeg -y -loop 1 -i assets/s8-in-his-hand.jpeg -t 18.997667 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.091-0.09*o
+>> ffmpeg -y -loop 1 -i assets/s9-leading-home-at-evening.jpeg -t 7.168042000000001 -filter_complex [0:v]scale=2160:3868,setsar=1,zoo
+>> ffmpeg -y -loop 1 -i assets/s10-the-voice-that-calls-you.jpeg -t 15.636708 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z
+>> ffmpeg -y -f lavfi -i color=c=0xF7F2E9:s=1080x1920:r=30:d=19.145333 -vf drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuS
+>> ffmpeg -y -f concat -safe 0 -i segs/concat.txt -c copy segs/video_silent.mp4
+music: bed out at 50.9s, silent through jv27 (ends 56.6s); returns; silent again through jv28 (ends 122.3s)
+>> ffmpeg -y -i audio/n1.mp3 -i audio/n2.mp3 -i audio/n3.mp3 -i audio/jv3.mp3 -i audio/jv27.mp3 -i audio/n4.mp3 -i audio/jv11.mp3 -i 
+loudness: measured -20.1 LUFS, applying +5.1 dB
+video budget: 1139 kbps (185s, 96k audio)
+>> ffmpeg -y -i segs/video_silent.mp4 -i segs/audio_mix.m4a -map 0:v -map 1:a -c:v libx264 -preset slow -crf 20 -maxrate 1139k -bufsi
+DONE: john-10_my-sheep-hear-my-voice.mp4  20.7 MB, 184.9s (crf 20, vcap 1139k)
+OK: john-10_my-sheep-hear-my-voice.mp4  video=184.933333s audio=184.853991s size=20712533

@@ -1,0 +1,121 @@
+{
+  "row": 20,
+  "slug": "samaritan",
+  "segments": [
+    {
+      "id": "n1",
+      "speaker": "narrator",
+      "text": "A scholar of the law stood up to test Jesus, and asked him a question."
+    },
+    {
+      "id": "s25",
+      "speaker": "scripture",
+      "text": "Master, what shall I do to inherit eternal life?"
+    },
+    {
+      "id": "n1b",
+      "speaker": "narrator",
+      "text": "Jesus turned it straight back on him — what does the law say? And the man answered it well: love God with everything you are, and love your neighbor as yourself. Then he asked one more question. It sounds humble. It was not."
+    },
+    {
+      "id": "s29",
+      "speaker": "scripture",
+      "text": "And who is my neighbour?"
+    },
+    {
+      "id": "n2",
+      "speaker": "narrator",
+      "text": "It was the kind of question you ask when you are hoping the answer has limits. He wanted a line drawn, so he could know exactly who he was allowed to ignore."
+    },
+    {
+      "id": "n3",
+      "speaker": "narrator",
+      "text": "Jesus answered with a story. A man was traveling the steep, lonely road down to Jericho, a road so full of robbers that people called it the Way of Blood."
+    },
+    {
+      "id": "n4",
+      "speaker": "narrator",
+      "text": "Robbers were exactly what he found. They stripped him, beat him, and left him half dead in the dust beside the road."
+    },
+    {
+      "id": "n5",
+      "speaker": "narrator",
+      "text": "A priest came down that same road, saw the man, and crossed to the far side. Then a temple assistant came, looked, and also crossed over."
+    },
+    {
+      "id": "n6",
+      "speaker": "narrator",
+      "text": "These were the religious professionals, the men who knew the law best. Maybe they feared a bloody body would make them unclean for the temple. Either way, they kept their distance."
+    },
+    {
+      "id": "n7",
+      "speaker": "narrator",
+      "text": "Then a Samaritan came down the road. And the crowd listening to Jesus was raised to despise Samaritans. Different blood, wrong worship, an old hatred hundreds of years deep."
+    },
+    {
+      "id": "n8",
+      "speaker": "narrator",
+      "text": "A Samaritan was the last man in the world they expected to be the hero of the story."
+    },
+    {
+      "id": "n9",
+      "speaker": "narrator",
+      "text": "He saw the beaten stranger. And the text says he was moved with compassion."
+    },
+    {
+      "id": "n10",
+      "speaker": "narrator",
+      "text": "He knelt down in the dirt beside a man his people were supposed to hate. He cleaned and bound the wounds, lifted him onto his own animal, and walked beside him on foot."
+    },
+    {
+      "id": "n11",
+      "speaker": "narrator",
+      "text": "He brought him to an inn and cared for him through the night. In the morning he pressed two silver coins into the innkeeper's hand, about two days wages, and said, take care of him."
+    },
+    {
+      "id": "j35",
+      "speaker": "jesus",
+      "text": "Take care of him; and whatsoever thou spendest more, when I come again, I will repay thee."
+    },
+    {
+      "id": "n12",
+      "speaker": "narrator",
+      "text": "He did not just help and move on. He tied his own name to a stranger's recovery."
+    },
+    {
+      "id": "n13",
+      "speaker": "narrator",
+      "text": "Then Jesus turned the scholar's own question back on him, and asked which of the three men had been the neighbor."
+    },
+    {
+      "id": "j1",
+      "speaker": "jesus",
+      "text": "Which now of these three, thinkest thou, was neighbour unto him that fell among the thieves?"
+    },
+    {
+      "id": "s37",
+      "speaker": "scripture",
+      "text": "He that shewed mercy on him."
+    },
+    {
+      "id": "n14",
+      "speaker": "narrator",
+      "text": "The scholar could not even bring himself to name the Samaritan. But he had understood the point: neighbor is not a category to define; it is mercy given to the person in front of you."
+    },
+    {
+      "id": "j2",
+      "speaker": "jesus",
+      "text": "Go, and do thou likewise."
+    },
+    {
+      "id": "n15",
+      "speaker": "narrator",
+      "text": "The lesson ends in motion, not admiration. Mercy is something to practice. That is how good he is. He will not even let you keep score."
+    },
+    {
+      "id": "card",
+      "speaker": "narrator",
+      "text": "Everyone finds themselves somewhere on that road. Where are you on it right now?"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "row": 8,
+  "slug": "lost-coin",
+  "segments": [
+    {
+      "id": "n0",
+      "speaker": "narrator",
+      "text": "When Jesus wanted to show how God feels about one lost soul, he didn't talk about crowds. He told this story."
+    },
+    {
+      "id": "jv8",
+      "speaker": "jesus",
+      "text": "Either what woman having ten pieces of silver, if she lose one piece, doth not light a candle, and sweep the house, and seek diligently till she find it?"
+    },
+    {
+      "id": "n1",
+      "speaker": "narrator",
+      "text": "She loses one."
+    },
+    {
+      "id": "n2a",
+      "speaker": "narrator",
+      "text": "She lights a lamp. She sweeps the whole house."
+    },
+    {
+      "id": "n2b",
+      "speaker": "narrator",
+      "text": "She searches carefully \u2014 not casually, carefully \u2014 until she finds it."
+    },
+    {
+      "id": "jv9a",
+      "speaker": "jesus",
+      "text": "And when she hath found it, she calleth her friends and her neighbours together, saying,"
+    },
+    {
+      "id": "j1",
+      "speaker": "jesus",
+      "text": "Rejoice with me; for I have found the piece which I had lost."
+    },
+    {
+      "id": "n3",
+      "speaker": "narrator",
+      "text": "Then she calls her neighbors and friends to celebrate."
+    },
+    {
+      "id": "n4",
+      "speaker": "narrator",
+      "text": "One coin. Out of ten. The joy is disproportionate to the value of the coin."
+    },
+    {
+      "id": "j2",
+      "speaker": "jesus",
+      "text": "Likewise, I say unto you, there is joy in the presence of the angels of God over one sinner that repenteth."
+    },
+    {
+      "id": "n5",
+      "speaker": "narrator",
+      "text": "Over one. Not a crowd. One."
+    },
+    {
+      "id": "card",
+      "speaker": "narrator",
+      "text": "Have you ever felt like the thing that got lost, rather than the one doing the searching?"
+    }
+  ]
+}

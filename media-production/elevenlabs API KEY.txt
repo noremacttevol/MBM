@@ -1,0 +1,4 @@
+elevenlabs_API_KEY:sk_73471d0f7f610c1c1ca5c4aa410e6ab0c37bb4e27b7a4eb2
+
+cloudflare API Token:
+cfut_FYnARcD2cMDdbFLef8TIlA8Qhu7Ggg5ksfP5WKHHe5d4b4f3

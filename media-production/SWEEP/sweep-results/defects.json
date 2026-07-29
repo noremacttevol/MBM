@@ -1,0 +1,1122 @@
+{
+  "silence_gaps": [],
+  "video_audio_mismatch": [],
+  "prompts_violations": [
+    {
+      "build": "build-16-mary-martha",
+      "issue": "FACE-LAW-OUTDATED: Still using old 'face never shown' \u2014 should show Jesus face per FACE LAW v3 (2026-07-15)"
+    },
+    {
+      "build": "build-44-two-debtors",
+      "issue": "FACE-LAW-OUTDATED: Still using old 'face never shown' \u2014 should show Jesus face per FACE LAW v3 (2026-07-15)"
+    },
+    {
+      "build": "build-47-houses-on-rock-and-sand",
+      "issue": "FACE-LAW-OUTDATED: Still using old 'face never shown' \u2014 should show Jesus face per FACE LAW v3 (2026-07-15)"
+    },
+    {
+      "build": "build-40-the-friend-at-midnight",
+      "issue": "FACE-LAW-OUTDATED: Still using old 'face never shown' \u2014 should show Jesus face per FACE LAW v3 (2026-07-15)"
+    },
+    {
+      "build": "build-31-ten-virgins",
+      "issue": "FACE-LAW-OUTDATED: Still using old 'face never shown' \u2014 should show Jesus face per FACE LAW v3 (2026-07-15)"
+    },
+    {
+      "build": "build-34-rich-fool",
+      "issue": "FACE-LAW-OUTDATED: Still using old 'face never shown' \u2014 should show Jesus face per FACE LAW v3 (2026-07-15)"
+    },
+    {
+      "build": "build-46-seed-growing",
+      "issue": "FACE-LAW-OUTDATED: Still using old 'face never shown' \u2014 should show Jesus face per FACE LAW v3 (2026-07-15)"
+    },
+    {
+      "build": "build-17-lazarus",
+      "issue": "FACE-LAW-OUTDATED: Still using old 'face never shown' \u2014 should show Jesus face per FACE LAW v3 (2026-07-15)"
+    },
+    {
+      "build": "build-13-roof",
+      "issue": "FACE-LAW-OUTDATED: Still using old 'face never shown' \u2014 should show Jesus face per FACE LAW v3 (2026-07-15)"
+    },
+    {
+      "build": "build-42-barren-fig-tree",
+      "issue": "FACE-LAW-OUTDATED: Still using old 'face never shown' \u2014 should show Jesus face per FACE LAW v3 (2026-07-15)"
+    },
+    {
+      "build": "build-43-the-wedding-garment",
+      "issue": "FACE-LAW-OUTDATED: Still using old 'face never shown' \u2014 should show Jesus face per FACE LAW v3 (2026-07-15)"
+    },
+    {
+      "build": "build-41-counting-the-cost",
+      "issue": "FACE-LAW-OUTDATED: Still using old 'face never shown' \u2014 should show Jesus face per FACE LAW v3 (2026-07-15)"
+    },
+    {
+      "build": "build-37-rich-man-lazarus",
+      "issue": "FACE-LAW-OUTDATED: Still using old 'face never shown' \u2014 should show Jesus face per FACE LAW v3 (2026-07-15)"
+    },
+    {
+      "build": "build-39-the-pharisee-and-the-publican",
+      "issue": "FACE-LAW-OUTDATED: Still using old 'face never shown' \u2014 should show Jesus face per FACE LAW v3 (2026-07-15)"
+    },
+    {
+      "build": "build-33-sheep-goats",
+      "issue": "FACE-LAW-OUTDATED: Still using old 'face never shown' \u2014 should show Jesus face per FACE LAW v3 (2026-07-15)"
+    },
+    {
+      "build": "build-48-new-wine-old-bottles",
+      "issue": "FACE-LAW-OUTDATED: Still using old 'face never shown' \u2014 should show Jesus face per FACE LAW v3 (2026-07-15)"
+    },
+    {
+      "build": "build-28-hidden-treasure",
+      "issue": "FACE-LAW-OUTDATED: Still using old 'face never shown' \u2014 should show Jesus face per FACE LAW v3 (2026-07-15)"
+    },
+    {
+      "build": "build-45-wicked-tenants",
+      "issue": "FACE-LAW-OUTDATED: Still using old 'face never shown' \u2014 should show Jesus face per FACE LAW v3 (2026-07-15)"
+    },
+    {
+      "build": "build-26-mustard-seed",
+      "issue": "FACE-LAW-OUTDATED: Still using old 'face never shown' \u2014 should show Jesus face per FACE LAW v3 (2026-07-15)"
+    }
+  ],
+  "homograph_warnings": [
+    {
+      "build": "build-141-bread-of-life",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-10-well",
+      "warning": "HOMOGRAPH-WARNING: Found 'messias' - check pronunciation"
+    },
+    {
+      "build": "build-143-i-am-the-door",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-77-widows-mite",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-44-two-debtors",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-27-leaven",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-71-calling-the-fishermen",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-136-healed-in-two-touches",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-154-everlasting-gospel",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-76-suffer-the-little-children",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-14-ten-lepers",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-157-marvellous-work",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-15-centurion",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-194-fruit-of-the-spirit",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-60-gerasene-demoniac",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-140-road-runs-both-ways",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-135-rainbow-covenant",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-111-lilies-and-sparrows",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-140-naaman-washes",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-08-lost-coin",
+      "warning": "HOMOGRAPH-WARNING: Found 'calleth' - check pronunciation"
+    },
+    {
+      "build": "build-117-hosea-buys-her-back",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-50-noblemans-son",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-50-noblemans-son",
+      "warning": "HOMOGRAPH-WARNING: Found 'liveth' - check pronunciation"
+    },
+    {
+      "build": "build-108-my-sheep-hear-my-voice",
+      "warning": "HOMOGRAPH-WARNING: Found 'calleth' - check pronunciation"
+    },
+    {
+      "build": "build-55-withered-hand",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-46-seed-growing",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-46-seed-growing",
+      "warning": "HOMOGRAPH-WARNING: Found 'oweth' - check pronunciation"
+    },
+    {
+      "build": "build-75-woman-taken-in-adultery",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-04-nicodemus",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-04-nicodemus",
+      "warning": "HOMOGRAPH-WARNING: Found 'oweth' - check pronunciation"
+    },
+    {
+      "build": "build-17-lazarus",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-17-lazarus",
+      "warning": "HOMOGRAPH-WARNING: Found 'liveth' - check pronunciation"
+    },
+    {
+      "build": "build-70-temptations",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-171-baptized-for-the-dead",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-137-one-as-we-are-one",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-73-this-day-fulfilled",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-97-the-empty-tomb",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-121-salt-and-light",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-07-peter-water",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-184-third-heaven",
+      "warning": "HOMOGRAPH-WARNING: Found 'oweth' - check pronunciation"
+    },
+    {
+      "build": "build-200-gospel-to-all-the-world",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-64-pool-of-bethesda",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-105-face-to-face",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-18-emmaus",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-32-talents",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-110-lords-prayer",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-68-multitudes-mountain",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-37-rich-man-lazarus",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-178-in-our-image",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-09-rich-ruler",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-149-hannah-is-heard",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-149-hannah-is-heard",
+      "warning": "HOMOGRAPH-WARNING: Found 'liveth' - check pronunciation"
+    },
+    {
+      "build": "build-36-shrewd-steward",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-138-his-offspring",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-98-mary-her-name",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-91-gethsemane",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-119-fourth-man-in-fire",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-144-resurrection-and-the-life",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-144-resurrection-and-the-life",
+      "warning": "HOMOGRAPH-WARNING: Found 'liveth' - check pronunciation"
+    },
+    {
+      "build": "build-92-peters-denial",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-49-water-to-wine",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-33-sheep-goats",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-48-new-wine-old-bottles",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-02-prodigal",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-12-bartimaeus",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-12-bartimaeus",
+      "warning": "HOMOGRAPH-WARNING: Found 'calleth' - check pronunciation"
+    },
+    {
+      "build": "build-53-peters-mother-in-law",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-118-jonah-god-who-relents",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-172-gospel-preached-to-the-dead",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-180-before-i-formed-thee",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-120-job-from-whirlwind",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-120-job-from-whirlwind",
+      "warning": "HOMOGRAPH-WARNING: Found 'liveth' - check pronunciation"
+    },
+    {
+      "build": "build-145-way-truth-life",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-130-what-manner-of-spirit",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-11-storm",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-51-first-catch-of-fish",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-06-two-sons",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-85-shepherds-and-angels",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-142-light-of-the-world",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-142-light-of-the-world",
+      "warning": "HOMOGRAPH-WARNING: Found 'oweth' - check pronunciation"
+    },
+    {
+      "build": "build-133-many-mansions",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-177-make-me-a-sanctuary",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-123-golden-rule",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-173-dead-shall-hear",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-147-joseph-forgives",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-57-jairus-daughter",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-132-forbid-him-not",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-132-forbid-him-not",
+      "warning": "HOMOGRAPH-WARNING: Found 'oweth' - check pronunciation"
+    },
+    {
+      "build": "build-03-zacchaeus",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    },
+    {
+      "build": "build-139-lamp-on-a-stand",
+      "warning": "HOMOGRAPH-WARNING: Found 'live' - check pronunciation"
+    }
+  ],
+  "character_ref_missing": [
+    {
+      "build": "build-151-ask-of-god",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-83-weeping-over-jerusalem",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-141-bread-of-life",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-16-mary-martha",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-143-i-am-the-door",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-86-the-wise-men",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-77-widows-mite",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-89-the-last-supper",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-44-two-debtors",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-61-syrophoenician-woman",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-131-scribe-near-the-kingdom",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-90-washing-feet",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-156-famine-of-hearing",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-196-would-god-all-were-prophets",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-27-leaven",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-136-healed-in-two-touches",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-47-houses-on-rock-and-sand",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-01-cloak",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-40-the-friend-at-midnight",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-158-two-sticks",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-161-called-of-god",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-114-abraham-sodom",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-155-falling-away",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-154-everlasting-gospel",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-102-jacobs-ladder",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-76-suffer-the-little-children",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-69-baptism",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-195-prove-all-things",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-191-windows-of-heaven",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-198-ensign-for-the-nations",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-167-chosen-ordained",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-84-no-room-manger",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-186-joint-heirs",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-14-ten-lepers",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-19-shore",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-74-woman-washed-his-feet",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-80-come-unto-me",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-152-revealeth-his-secret",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-146-vine-and-branches",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-25-wheat-and-tares",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-157-marvellous-work",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-15-centurion",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-194-fruit-of-the-spirit",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-104-boy-samuel",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-60-gerasene-demoniac",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-187-ye-are-gods",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-31-ten-virgins",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-140-road-runs-both-ways",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-135-rainbow-covenant",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-125-i-never-knew-you",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-169-fulfil-righteousness",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-129-nazareth-only-a-few",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-38-persistent-widow",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-08-lost-coin",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-34-rich-fool",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-22-unmerciful-servant",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-117-hosea-buys-her-back",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-50-noblemans-son",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-67-the-transfiguration",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-137-stephen-sees-him-standing",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-174-hearts-of-the-fathers",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-134-other-sheep-i-have",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-163-apostles-prophets",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-185-many-mansions-member",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-159-other-sheep",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-21-lost-sheep",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-46-seed-growing",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-75-woman-taken-in-adultery",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-99-flesh-and-bone-thomas",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-87-boy-in-the-temple",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-04-nicodemus",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-93-barabbas-goes-free",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-17-lazarus",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-115-ram-in-the-thicket",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-70-temptations",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-35-great-banquet",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-137-one-as-we-are-one",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-78-who-is-my-mother",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-95-thief-on-the-cross",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-73-this-day-fulfilled",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-97-the-empty-tomb",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-116-graven-on-his-palms",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-121-salt-and-light",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-05-bent-woman",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-07-peter-water",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-164-unity-of-faith",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-94-father-forgive-them",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-100-the-ascension",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-13-roof",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-42-barren-fig-tree",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-200-gospel-to-all-the-world",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-190-faith-without-works",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-124-love-your-enemies",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-122-mote-and-beam",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-64-pool-of-bethesda",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-105-face-to-face",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-18-emmaus",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-43-the-wedding-garment",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-66-malchus-ear",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-32-talents",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-127-the-strait-gate",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-63-man-born-blind",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-41-counting-the-cost",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-113-where-art-thou",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-68-multitudes-mountain",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-37-rich-man-lazarus",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-178-in-our-image",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-188-be-ye-therefore-perfect",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-09-rich-ruler",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-149-hannah-is-heard",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-23-vineyard",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-36-shrewd-steward",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-138-his-offspring",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-98-mary-her-name",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-81-render-unto-caesar",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-126-by-their-fruits",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-119-fourth-man-in-fire",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-144-resurrection-and-the-life",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-39-the-pharisee-and-the-publican",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-170-sacrament-worthily",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-92-peters-denial",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-49-water-to-wine",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-153-restitution",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-33-sheep-goats",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-48-new-wine-old-bottles",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-197-sons-and-daughters-prophesy",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-101-still-small-voice",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-193-the-comforter",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-165-laying-on-hands",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-65-help-mine-unbelief",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-29-pearl",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-166-baptized-properly",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-79-the-seventy-sent",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-192-the-fast-god-has-chosen",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-30-net",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-28-hidden-treasure",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-118-jonah-god-who-relents",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-199-fishers-and-hunters",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-175-mountain-of-the-lords-house",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-45-wicked-tenants",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-120-job-from-whirlwind",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-182-spirit-returns-to-god",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-145-way-truth-life",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-130-what-manner-of-spirit",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-181-morning-stars-sang",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-62-ephphatha",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-160-stone-cut",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-148-ruth-and-the-redeemer",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-06-two-sons",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-85-shepherds-and-angels",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-168-born-water-spirit",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-142-light-of-the-world",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-88-triumphal-entry",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-133-many-mansions",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-177-make-me-a-sanctuary",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-24-sower",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-123-golden-rule",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-179-stephens-witness",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-82-anointing-at-bethany",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-173-dead-shall-hear",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-147-joseph-forgives",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-26-mustard-seed",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-20-samaritan",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-189-to-him-that-overcometh",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-132-forbid-him-not",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-03-zacchaeus",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-96-it-is-finished",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-139-lamp-on-a-stand",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    },
+    {
+      "build": "build-162-keys-of-kingdom",
+      "issue": "CHARACTER-REF-MISSING: Characters described but no --ref image attachments (faces/clothes will drift)"
+    }
+  ]
+}

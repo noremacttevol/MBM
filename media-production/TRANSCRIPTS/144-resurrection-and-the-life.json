@@ -1,0 +1,51 @@
+{
+  "row": 144,
+  "slug": "resurrection-and-the-life",
+  "segments": [
+    {
+      "id": "n0",
+      "speaker": "narrator",
+      "text": "Lazarus had been in the tomb four days. His sister Martha came to Jesus, heavy with grief but still full of faith."
+    },
+    {
+      "id": "n1a",
+      "speaker": "narrator",
+      "text": "She said she believed her brother would rise again at the last day."
+    },
+    {
+      "id": "n1b",
+      "speaker": "narrator",
+      "text": "Jesus answered with a promise bigger than the last day."
+    },
+    {
+      "id": "j1",
+      "speaker": "jesus",
+      "text": "I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live:"
+    },
+    {
+      "id": "n2",
+      "speaker": "narrator",
+      "text": "Not a theory about life after death. He said He Himself is the life \u2014 and that trusting Him beats the grave."
+    },
+    {
+      "id": "j2",
+      "speaker": "jesus",
+      "text": "And whosoever liveth and believeth in me shall never die. Believest thou this?"
+    },
+    {
+      "id": "n3a",
+      "speaker": "narrator",
+      "text": "Martha said yes."
+    },
+    {
+      "id": "n3b",
+      "speaker": "narrator",
+      "text": "And moments later, her brother walked out of the tomb."
+    },
+    {
+      "id": "card",
+      "speaker": "narrator",
+      "text": "Death is not the end of the story. He is the life."
+    }
+  ]
+}

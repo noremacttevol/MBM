@@ -1,0 +1,17 @@
+saved audio/n0.mp3  [narrator]
+saved audio/s19.mp3  [scripture]
+saved audio/n0b.mp3  [narrator]
+saved audio/s1.mp3  [scripture]
+saved audio/n1.mp3  [narrator]
+saved audio/n2.mp3  [narrator]
+saved audio/n3.mp3  [narrator]
+saved audio/s2.mp3  [scripture]
+saved audio/n4.mp3  [narrator]
+saved audio/s24.mp3  [scripture]
+saved audio/n5.mp3  [narrator]
+saved audio/card.mp3  [narrator]
+Traceback (most recent call last):
+  File "/home/noremacttevol/Desktop/MBM/media-production/build-195-prove-all-things/build.py", line 52, in <module>
+    TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
+                  ~^^^
+IndexError: tuple index out of range

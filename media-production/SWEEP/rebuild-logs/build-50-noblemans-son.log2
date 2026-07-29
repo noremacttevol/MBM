@@ -1,0 +1,74 @@
+saved audio/n1.mp3  [narrator]
+  ! n2: undecided homograph(s) ['use', 'used']
+saved audio/n2.mp3  [narrator]
+saved audio/n3.mp3  [narrator]
+saved audio/n4.mp3  [narrator]
+saved audio/jv48.mp3  [jesus]
+saved audio/n5.mp3  [narrator]
+  ! n6: undecided homograph(s) ['does']
+saved audio/n6.mp3  [narrator]
+saved audio/s49.mp3  [scripture]
+saved audio/n6b.mp3  [narrator]
+saved audio/jv50.mp3  [jesus]
+saved audio/n7.mp3  [narrator]
+saved audio/n8.mp3  [narrator]
+saved audio/n9.mp3  [narrator]
+saved audio/s51.mp3  [scripture]
+saved audio/n9b.mp3  [narrator]
+saved audio/n10.mp3  [narrator]
+saved audio/s52.mp3  [scripture]
+saved audio/n10b.mp3  [narrator]
+saved audio/n11.mp3  [narrator]
+saved audio/card.mp3  [narrator]
+>> ffmpeg -y -v error -i audio/n1.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/n2.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/n3.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/n4.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/jv48.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse
+>> ffmpeg -y -v error -i audio/n5.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/n6.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/s49.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse 
+>> ffmpeg -y -v error -i audio/n6b.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse 
+>> ffmpeg -y -v error -i audio/jv50.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse
+>> ffmpeg -y -v error -i audio/n7.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/n8.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/n9.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse -
+>> ffmpeg -y -v error -i audio/s51.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse 
+>> ffmpeg -y -v error -i audio/n9b.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse 
+>> ffmpeg -y -v error -i audio/n10.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse 
+>> ffmpeg -y -v error -i audio/s52.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse 
+>> ffmpeg -y -v error -i audio/n10b.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse
+>> ffmpeg -y -v error -i audio/n11.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse 
+>> ffmpeg -y -v error -i audio/card.mp3 -af areverse,silenceremove=start_periods=1:start_threshold=-50dB:start_duration=0.02,areverse
+total runtime: 207.4s (3.46 min)
+worst spoken gap: 1.88s before n5 (No-Dead-Air law: must be <= 2.5s)
+sacred silence 1 (signs): jv48 at 56.1s
+sacred silence 2 (liveth): jv50 at 100.1s
+>> ffmpeg -y -loop 1 -i assets/s1-cana-again.jpeg -t 9.157708 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+0.09*on/
+>> ffmpeg -y -loop 1 -i assets/s2-the-sick-son.jpeg -t 18.903792 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+0.09*
+>> ffmpeg -y -loop 1 -i assets/s3-the-journey.jpeg -t 16.550124999999998 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.0
+>> ffmpeg -y -loop 1 -i assets/s4-come-down.jpeg -t 11.196083 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+0.09*on/
+>> ffmpeg -y -loop 1 -i assets/s5-signs-and-wonders.jpeg -t 6.404333000000001 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z
+>> ffmpeg -y -loop 1 -i assets/s5-signs-and-wonders.jpeg -t 12.241417 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.091-
+>> ffmpeg -y -loop 1 -i assets/s6-my-child-die.jpeg -t 8.330667 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+0.09*o
+>> ffmpeg -y -loop 1 -i assets/s6-my-child-die.jpeg -t 4.4315 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.091-0.09*on/
+>> ffmpeg -y -loop 1 -i assets/s6-my-child-die.jpeg -t 12.583458 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+0.09*
+>> ffmpeg -y -loop 1 -i assets/s7-thy-son-liveth.jpeg -t 4.476333 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+0.09
+>> ffmpeg -y -loop 1 -i assets/s7-thy-son-liveth.jpeg -t 13.445083 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.091-0.0
+>> ffmpeg -y -loop 1 -i assets/s8-the-road-home.jpeg -t 11.63425 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+0.09*
+>> ffmpeg -y -loop 1 -i assets/s9-servants-meet-him.jpeg -t 6.279750000000001 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z
+>> ffmpeg -y -loop 1 -i assets/s9-servants-meet-him.jpeg -t 2.970167 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.091-0
+>> ffmpeg -y -loop 1 -i assets/s9-servants-meet-him.jpeg -t 13.569208 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+
+>> ffmpeg -y -loop 1 -i assets/s10-the-seventh-hour.jpeg -t 4.611833000000001 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z
+>> ffmpeg -y -loop 1 -i assets/s10-the-seventh-hour.jpeg -t 5.1300419999999995 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=
+>> ffmpeg -y -loop 1 -i assets/s10-the-seventh-hour.jpeg -t 15.422625 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+
+>> ffmpeg -y -loop 1 -i assets/s11-his-whole-house.jpeg -t 13.330917 -filter_complex [0:v]scale=2160:3868,setsar=1,zoompan=z='1.001+0
+>> ffmpeg -y -f lavfi -i color=c=0xF7F2E9:s=1080x1920:r=30:d=16.744208 -vf drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuS
+>> ffmpeg -y -f concat -safe 0 -i segs/concat.txt -c copy segs/video_silent.mp4
+music: bed out at 54.9s, silent through jv48 (ends 60.6s); returns; silent again through jv50 (ends 102.7s)
+>> ffmpeg -y -i audio/n1.mp3 -i audio/n2.mp3 -i audio/n3.mp3 -i audio/n4.mp3 -i audio/jv48.mp3 -i audio/n5.mp3 -i audio/n6.mp3 -i aud
+loudness: measured -19.8 LUFS, applying +4.8 dB
+video budget: 1041 kbps (207s, 96k audio)
+>> ffmpeg -y -i segs/video_silent.mp4 -i segs/audio_mix.m4a -map 0:v -map 1:a -c:v libx264 -preset slow -crf 20 -maxrate 1041k -bufsi
+DONE: john-4_noblemans-son.mp4  22.4 MB, 207.4s (crf 20, vcap 1041k)
+OK: john-4_noblemans-son.mp4  video=207.433333s audio=207.423991s size=22380787

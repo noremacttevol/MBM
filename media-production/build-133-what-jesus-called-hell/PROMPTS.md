@@ -1,0 +1,42 @@
+# STILL PROMPTS — Story Video #133: What Jesus called hell (mark-9_what-jesus-called-hell)
+
+THE POINT (Why-Law): the word Jesus used for "hell" was Gehenna — a real, smoking rubbish
+valley just outside Jerusalem that every listener could see. He used that picture to warn
+people He loved that sin is worth cutting loose from. The dungeon-and-pitchfork torture
+chamber came later, from tradition and paintings, not from Him. The God He showed is the
+shepherd who chases the one and the father who runs down the road.
+
+REVERENCE RULES: nothing grotesque, no demons, no torment of people, no pitchforks shown as
+real. The fire is a rubbish fire in a valley — sober and sad, never a horror image. Jesus is
+shown warm and compassionate, warning the way a parent pulls a child back from a cliff.
+Every visible hand joined to a visible arm. No text, letters or words anywhere in any image.
+
+## s1-the-inherited-fear — Shot 1: the picture people were handed
+[STILL STYLE BLOCK] SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid or comic strip, no dividing lines, artwork fills the ENTIRE frame and bleeds to all four edges, one single tall upright vertical painting. A dim old chapel wall at dusk where an ancient, cracked, soot-darkened painting of flames hangs in a heavy frame; a small figure of an ordinary person stands before it looking up, shoulders drawn in, uneasy. The painted flames are old pigment, clearly a PICTURE on a wall and not a real place — no people in the flames, no demons, no torment shown, nothing grotesque. Cool blue shadow fills the room; one small warm candle burns near the viewer, unnoticed by the figure. The mood is inherited fear, quiet and sad. No text or letters anywhere.
+
+## s2-the-city-and-the-valley — Shot 2: a real place, just outside the wall
+[STILL STYLE BLOCK] SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, no dividing lines, artwork fills the ENTIRE frame and bleeds to all four edges, one single tall upright vertical painting. A wide warm view of first-century Jerusalem's honey-coloured stone wall along the top of a ridge, and falling away just outside it a deep narrow valley in shadow. Late afternoon gold on the wall, cool blue-grey in the valley below. A thin ribbon of pale smoke rises from somewhere down in the valley. Ordinary people walk a dusty path along the wall, unbothered, going about their day. Sober, real, geographic — a place you could walk to. No text or letters anywhere.
+
+## s3-the-burning-valley — Shot 3: the city's rubbish fires, smoldering day and night
+[STILL STYLE BLOCK] SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, no dividing lines, artwork fills the ENTIRE frame and bleeds to all four edges, one single tall upright vertical painting. Down inside the valley of Hinnom: heaps of the city's discarded rubbish — broken pottery, ash, worn-out cloth, kitchen refuse — smoldering with low orange fires and thick pale smoke drifting sideways in the evening air. Two labourers in rough tunics, small in the frame and seen from behind at a distance, tip another basket of refuse onto the heap. NO bodies, NO people in the fire, no suffering, nothing grotesque — this is a rubbish dump, sad and grey-orange and ordinary. Dusk light, smoke softening the far side of the valley. No text or letters anywhere.
+
+## s4-he-points-at-it — Shot 4: Jesus teaching, the smoke visible behind Him
+[STILL STYLE BLOCK] SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, no dividing lines, artwork fills the ENTIRE frame and bleeds to all four edges, one single tall upright vertical painting. Jesus stands on the high ground outside the city, turned partly toward a small gathered group of listeners who sit and stand close around Him, His face shown, warm and serious and full of care, one hand opened gently toward the valley behind Him where pale smoke rises. He is not angry and not shouting; He looks like a man warning people He loves. Warm gold light on the group, cool smoky valley beyond. Two arms, two hands, one head on every figure. No text or letters anywhere.
+
+## s5-better-to-enter-life — Shot 5: cut it loose — the hand
+[STILL STYLE BLOCK] SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, no dividing lines, artwork fills the ENTIRE frame and bleeds to all four edges, one single tall upright vertical painting. A close, tender image: an ordinary man's weathered hand held open in the warm foreground, and looped loosely around his wrist a frayed rope that trails back into cool shadow behind him, its far end lost in dim smoky grey. The rope is old and worn thin and clearly about to be let go. NOTHING severed, no wound, no blood, no injury of any kind — the meaning is releasing what binds you, not harming the body. Warm gold light on the open hand, cold blue on the trailing rope. No text or letters anywhere.
+
+## s6-the-narrow-road-of-letting-go — Shot 6: better maimed than bound
+[STILL STYLE BLOCK] SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, no dividing lines, artwork fills the ENTIRE frame and bleeds to all four edges, one single tall upright vertical painting. A lone traveller in a rough undyed tunic walking away from the viewer up a narrow stony path toward a warm sunrise on the ridge, carrying almost nothing; behind and below him, dropped in the dust of the path, lie a heavy bundle and a coiled rope he has set down and left. His step is light and unburdened. Warm gold ahead of him, cool grey behind. Whole and unharmed, just carrying less. No text or letters anywhere.
+
+## s7-the-fire-not-quenched — Shot 7: the fire that never goes out
+[STILL STYLE BLOCK] SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, no dividing lines, artwork fills the ENTIRE frame and bleeds to all four edges, one single tall upright vertical painting. The valley of Hinnom at night from the ridge above: low orange embers glowing in long smoldering lines across the dark heaps, thin smoke rising and catching starlight, the sleeping city's dark wall along the top of the frame. Empty of people, quiet, solemn. Beautiful and sorrowful rather than frightening — no figures in the fire, nothing grotesque. Deep blues and warm ember orange. No text or letters anywhere.
+
+## s8-warned-because-loved — Shot 8: the warning is love
+[STILL STYLE BLOCK] SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, no dividing lines, artwork fills the ENTIRE frame and bleeds to all four edges, one single tall upright vertical painting. On a high stony ridge in warm late light, a parent in first-century dress kneels and catches a small child firmly but gently by both arms, drawing the child back from a crumbling cliff edge; the parent's face is not angry but frightened for the child and full of love. The drop beyond is soft with haze, not dramatic or gory. Warm gold on the two figures, cool empty air past the edge. Two arms, two hands, one head on each figure. No text or letters anywhere.
+
+## s9-the-picture-he-never-painted — Shot 9: the dungeon came later, from tradition
+[STILL STYLE BLOCK] SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, no dividing lines, artwork fills the ENTIRE frame and bleeds to all four edges, one single tall upright vertical painting. A dim medieval scriptorium: on a slanted wooden desk lies a half-finished old painting panel showing only crude decorative flames and a dark arched doorway, with pots of pigment and brushes beside it; a robed illustrator's hands work at it by candlelight. It is unmistakably a MAN MAKING A PICTURE — an artefact of tradition, not a real place. NO demons, NO devils, NO tormented people, no pitchforks, nothing grotesque anywhere in the panel. Cool dim stone room, one warm candle. No text, letters or writing anywhere.
+
+## s10-the-shepherd-and-the-father — Shot 10: the God He actually showed
+[STILL STYLE BLOCK] SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, no dividing lines, artwork fills the ENTIRE frame and bleeds to all four edges, one single tall upright vertical painting. Golden hour on open hills: in the warm foreground a shepherd in a rough cloak strides out across the slope with his staff, searching, one lamb already carried close against his chest; far down the valley behind him the flock waits safely. Everything is light and motion and going-after — relief and tenderness, not scolding. Broad warm gold light, long soft shadows, wide open country. Two arms, two hands, one head. No text or letters anywhere.

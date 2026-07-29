@@ -1,0 +1,41 @@
+{
+  "row": 142,
+  "slug": "light-of-the-world",
+  "segments": [
+    {
+      "id": "n0",
+      "speaker": "narrator",
+      "text": "Jesus stood among the temple courts and spoke into the noise of the crowd. He did not offer another rule for finding God. He offered himself."
+    },
+    {
+      "id": "j1",
+      "speaker": "jesus",
+      "text": "I am the light of the world: he that followeth me shall not walk in darkness, but shall have the light of life."
+    },
+    {
+      "id": "n1",
+      "speaker": "narrator",
+      "text": "Not a lamp that burns out. A light that walks with you, so you're never feeling your way blind. It does not pretend the night is harmless. It gives you someone to follow through it."
+    },
+    {
+      "id": "n2",
+      "speaker": "narrator",
+      "text": "Later, as he met a man who had never seen a face or a sunrise, he said it again."
+    },
+    {
+      "id": "j2",
+      "speaker": "jesus",
+      "text": "As long as I am in the world, I am the light of the world."
+    },
+    {
+      "id": "n3",
+      "speaker": "narrator",
+      "text": "He did not leave the claim floating in the air. He opened the man's eyes, then stayed with him when the crowd pushed him away. The sign became an invitation: let Jesus show you what is true, then keep walking with him."
+    },
+    {
+      "id": "card",
+      "speaker": "narrator",
+      "text": "You do not have to know the whole road to take the next honest step. Walk with the Light."
+    }
+  ]
+}

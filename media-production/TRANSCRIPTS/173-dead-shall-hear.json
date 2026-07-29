@@ -1,0 +1,56 @@
+{
+  "row": 173,
+  "slug": "dead-shall-hear",
+  "segments": [
+    {
+      "id": "n0",
+      "speaker": "narrator",
+      "text": "Jesus said a time was coming \u2014 and had already begun \u2014 when something impossible would happen."
+    },
+    {
+      "id": "n1",
+      "speaker": "narrator",
+      "text": "The dead would hear a voice. Not a rumor of a voice. His voice."
+    },
+    {
+      "id": "j1a",
+      "speaker": "jesus",
+      "text": "Verily, verily, I say unto you, The hour is coming, and now is,"
+    },
+    {
+      "id": "j1b",
+      "speaker": "jesus",
+      "text": "when the dead shall hear the voice of the Son of God:"
+    },
+    {
+      "id": "j1c",
+      "speaker": "jesus",
+      "text": "and they that hear shall live."
+    },
+    {
+      "id": "n2a",
+      "speaker": "narrator",
+      "text": "The One who made life is the One who calls it back."
+    },
+    {
+      "id": "j2",
+      "speaker": "jesus",
+      "text": "Marvel not at this: for the hour is coming, in the which all that are in the graves shall hear his voice, and shall come forth."
+    },
+    {
+      "id": "n2c",
+      "speaker": "narrator",
+      "text": "Not some of the dead. All of them. He said every grave will hear that same voice \u2014 and open. Nobody is too far gone, and nobody gets left in the ground."
+    },
+    {
+      "id": "n2b",
+      "speaker": "narrator",
+      "text": "To hear him is to live."
+    },
+    {
+      "id": "card",
+      "speaker": "narrator",
+      "text": "He speaks, and death loses its grip. Lean in and listen \u2014 and live."
+    }
+  ]
+}
