@@ -40,9 +40,15 @@
   (it drives Flow with `--model "Nano Banana Pro" --size 2K`). Flow limits that
   remain: ~20 pictures/hour, one at a time, Chrome runs on the machine — announce
   each burst, stop instantly if Cameron messages.
-- **`media-production-v2/v2_gen_api.py` is the optional SPEED lever only** —
-  native-2K Gemini API at $0.134/picture (~3× faster, no browser). Use it ONLY if
-  Cameron explicitly says to spend on the API.
+- 🛑 **FLOW ONLY. THE PAID API IS BANNED (Cameron, 2026-07-29).** His words:
+  *"i told you to stop with the api key. use flow only why can you listen."* He had
+  said it once already; a session ran `v2_gen_api.py` anyway, burned his prepaid
+  credits and hit `RESOURCE_EXHAUSTED` mid-row. **`v2_gen_api.py` is RETIRED and now
+  refuses to run.** There is no budget exception, no speed exception, no "the API is
+  faster" exception, and no "Flow is throttling" exception. If Flow is slow, you wait.
+  Every picture comes from Flow on Cameron's subscription, via
+  `python3 media-production-v2/v2_prompt.py <build-dir> --gen`. Do not add a new API
+  path, do not un-retire the old one, do not ask him to refill credits.
 - **The Jesus face is LOCKED and APPROVED**: `media-production-v2/JESUS-V2-REF/jesus-v2-face.jpeg`.
   Never regenerate or "improve" it. Every Jesus shot = byte-identical JESUS LOCK v4
   (assembled by code) + that ref attached.

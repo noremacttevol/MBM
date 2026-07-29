@@ -1,30 +1,27 @@
 #!/usr/bin/env python3
-"""v2_gen_api.py — generate V2 stills through the Gemini image API at 2K.
+"""RETIRED 2026-07-29 BY CAMERON'S ORDER — DO NOT USE. FLOW ONLY.
 
-WHY THIS EXISTS (2026-07-28)
-----------------------------
-Cameron lifted the paid-API ban: *"ignore the money law … I already paid for it …
-there shouldn't be any limitations on the money. Make it how it's supposed to be."*
-(FACTORY-ORDERS.md MONEY RULE #1.) That unlocks the one thing Flow could not give V2:
+Cameron, 2026-07-29: *"i told you to stop with the api key. use flow only why can
+you listen."* He had already said this once. A session resumed row 2 by running this
+script anyway, spent his prepaid credits, and hit RESOURCE_EXHAUSTED mid-row.
 
-  Flow            768 x 1376   — below the 1080x1920 delivery size, so every Ken
-                                 Burns move upscales, which the anti-shimmer law
-                                 is written against
-  gemini-3-pro-image 2K   1536 x 2752   — 4x the pixels and real headroom to
-                                 supersample the drift
+THE LAW: **every V2 picture comes from Flow on Cameron's subscription.** There is no
+budget exception, no speed exception, and no "the API would be faster" exception.
+Generate with:
 
-It also removes the Flow ceiling (~20 generations/hour, one browser at a time) and
-never touches Cameron's screen — no stolen mouse, no announced bursts.
+    python3 media-production-v2/v2_prompt.py <build-dir> --gen
 
-This is deliberately NOT gen_stills.py. That script is V1: its ANCHOR_TEXT and
-CHAR_TEXT tell the model to match a *reference painting* and to *paint* the
-characters, which is the exact style V2 retired. V2 needs photographic wording, so
-the request is built here and V1's script is left untouched.
-
-Usage:
-    python3 media-production-v2/v2_gen_api.py <build-dir> [--only b03 b05] [--redo]
-    python3 media-production-v2/v2_gen_api.py <build-dir> --dry-run
+This file is kept only so its history is not lost. It refuses to run.
 """
+import sys
+
+print(__doc__, file=sys.stderr)
+raise SystemExit(
+    "v2_gen_api.py is RETIRED (Cameron, 2026-07-29): FLOW ONLY. "
+    "Use: python3 media-production-v2/v2_prompt.py <build-dir> --gen")
+
+_RETIRED_ORIGINAL = r"""
+
 import argparse
 import base64
 import json
@@ -199,3 +196,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+"""

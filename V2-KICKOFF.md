@@ -23,14 +23,20 @@ old painted style, and the old Jesus depiction are RETIRED for V2.
 1. **V1 is read-only.** Never modify, delete, move, or overwrite ANYTHING in `media-production/build-*`. You READ from V1 (audio, timing, scripts, beat maps); you WRITE only inside `media-production-v2/`.
 2. **The app, site/, firebase — untouched.** Nothing deploys. Nothing replaces a live video. Cameron approves V2 cuts later, per video.
 3. **Git:** `git add` ONLY small text files (ledger, prompt sheets, MINISTRY-GATE, build scripts). NEVER add images/audio/mp4s from media-production-v2 (put `*.jpeg`, `*.jpg`, `*.png`, `*.mp4`, `*.mp3` in `media-production-v2/.gitignore` first thing). Commit locally with clear messages. Try `git push` at most ONCE per video with a 2-minute timeout; if it fails or hangs, note "push skipped" in the ledger and move on — this machine's push is known-broken until a separate repair (12.7 GB backlog). Never retry pushes in a loop.
-4. **MONEY IS NOT A CONSTRAINT (Cameron, 2026-07-28 — this REVERSED the old "paid
-   Gemini API is BANNED" line).** His words: *"ignore the money law… I already paid for
-   it… there shouldn't be any limitations on the money. Make it how it's supposed to
-   be."* Never refuse a model, a tier, or a resolution to save money. Flow via
-   `media-production/flow_driver.py` is still the proven path and stays the default
-   because it works, not because it is cheap. A paid API additionally needs a KEY from
-   Cameron — that is a missing credential, not a budget rule. See FACTORY-ORDERS.md
-   MONEY RULE #1.
+4. 🛑 **FLOW ONLY — THE PAID API IS BANNED AGAIN (Cameron, 2026-07-29). This is the
+   CURRENT rule and it OVERRIDES the 2026-07-28 "money is not a constraint" line
+   below.** His words: *"i told you to stop with the api key. use flow only why can
+   you listen."* He had already said it once; a session ran `v2_gen_api.py` anyway,
+   spent his prepaid Gemini credits and hit `RESOURCE_EXHAUSTED` mid-row.
+   `v2_gen_api.py` is RETIRED and refuses to run. Every V2 picture comes from Flow on
+   his subscription: `python3 media-production-v2/v2_prompt.py <build-dir> --gen`.
+   No budget exception, no speed exception, no throttling exception — if Flow is
+   slow, you wait. Do not build a new API path and do not ask him to refill credits.
+
+   *(Superseded, kept for provenance — Cameron, 2026-07-28: "ignore the money law… I
+   already paid for it… there shouldn't be any limitations on the money." That lifted
+   a COST ceiling; it never meant "use the API," and 2026-07-29 settles it. Money is
+   still not the reason to refuse a Flow model, tier or resolution — always pull 2K.)*
 
 ## STYLE-V2 — the V2 master style block (byte-identical opener of EVERY image prompt)
 
