@@ -1,3 +1,55 @@
+## 2026-07-29 — V2 row 2 DELIVERED: build-02-prodigal, 24 stills (Machine A / `Dev`)
+
+Commit: ccbcb9f1d. Resumed row 2 at step E per the ledger and took it to delivery.
+**Video #2 is finished and sent to Cameron; awaiting his approval.**
+
+- **API died on arrival.** `v2_gen_api.py` hit `RESOURCE_EXHAUSTED` — *"prepayment
+  credits are depleted"* — on b20. That is Cameron's Google AI Studio billing, not
+  something a session can fix, so the line moved to Flow at 2K (already the standing
+  default in V2-NEXT-SESSION-PROMPT) rather than stalling. **18 of the 24 delivered
+  frames are Flow 2K (an upscale of 768x1376); 6 are API-native 2K.** Cameron's call
+  whether to refill and re-shoot for parity.
+- **QC was brutal and correct: 13 of the 19 API stills REJECTED.** Every still was
+  Read at full resolution. Four of the six defect families were traced to root causes
+  in the prompt system, so the fixes went into the system, not the frames:
+  1. **PHARISEES LOCK v2** — the lock said "never white, never cream, never pale" and
+     the model dressed all three in white prayer shawls anyway, the biggest pale mass
+     in frame, beside the one man allowed cream. Colours now stated positively and
+     anchored to the wall behind them.
+  2. **Camera position** — the beats said WHAT happened but never where the lens was,
+     so the model defaulted to hero-shots facing the camera. **The father ran AWAY
+     from his son in the icon shot of the whole parable**, and "Then he left" read as
+     the son ARRIVING. Four beats now state camera and travel direction.
+  3. **`char_refs` added to `v2_prompt.py`** — recurring cast is now locked by IMAGE,
+     not just text. The elder son had come back as three visibly different men across
+     s16/s17/s18. `flow_driver` already accepted repeated `--ref`; `v2_prompt` was
+     never passing any. Fixed, and it held on every subsequent frame.
+  4. **`ANTI_PANEL` now goes on EVERY prompt**, not just wide ones — it used to ride
+     along with the wide-shot defense line, so tight shots had no panel protection,
+     and s18 came back with a landscape pasted in above the wall.
+  Plus per-frame: wardrobe drift on the younger son (his lock omits clothing on
+  purpose, so the beats that forgot to state it drifted rust-red to brown — and he is
+  now BAREFOOT until the shoes are given in v22, so the gift still means something),
+  two CGI-style drifts, one frame rendered ROTATED 90 degrees, one with a solid BLACK
+  BAND across the bottom third.
+- **Five beats needed a second pass; all five came good.** Final: **24/24 accepted**
+  after 43 generations.
+- **Delivered:** 158.4 s, 19.9 MB, 1080x1920, verify-mp4 OK, no silence gap over
+  2.5 s, no music bed, captions correct per frame-strip (white narrator, red for
+  every exact-KJV line — Jesus is the one telling the parable — cream question card).
+  MINISTRY-GATE PASS on all four. V1 verified untouched.
+- **Coverage:** 24 pictures against V1's 10. Seeing him a great way off, the run, the
+  scandal of the run and the embrace are four frames instead of one; the elder
+  brother's arc gets eight.
+- **PUSH SKIPPED** — rejected again, this box's known 12.7 GB backlog. Commits
+  5b98f8597 and ccbcb9f1d are safe locally. **Other machines still cannot see
+  `media-production-v2/` until that repair happens.**
+- **Two laws worth promoting, both now paid for twice:** state the CAMERA and not just
+  the action; and a negation is a suggestion while a stated positive is an instruction
+  (third occurrence — row 1 setting lock, row 2 pharisees lock, row 2 CGI drift).
+- **Next session:** `Read V2-NEXT-SESSION-PROMPT.md and execute it. Start now.` The
+  ledger says row 2 is DONE, so the line resumes at row 3.
+
 ## 2026-07-28 — V2 PRODUCTION LINE OPEN: row 1 delivered at 2K (Machine A / `Dev`)
 
 Commit: 5cd098dd9. Ran `V2-KICKOFF.md` from scratch. `media-production-v2/` did not
