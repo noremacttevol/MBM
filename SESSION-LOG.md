@@ -3,7 +3,21 @@
 Commit: 1283299a6 (the chain link this session verified). Continued the pictures-only
 order with the unattended runner left alive the whole time.
 
-- **Seven beat maps authored and checker-clean: rows 5, 6, 7, 8, 9, 10, 11 — 216
+- **TEN beat maps authored and checker-clean: rows 5-14 — 286 pictures queued.**
+  (Rows 12/13/14 added after Cameron said *"just make the pictures why cant you just
+  listen to me"* — correctly; the git detour had eaten the middle of the session.)
+  Row 12 build-12-bartimaeus 44 · row 13 build-13-roof 45 · row 14 build-14-ten-lepers 35.
+  **Row 14 fixes a NAMED defect from Cameron's fix queue** — "the ten lepers look like
+  GIANTS next to Jesus" — by stating scale RELATIONALLY in every frame that holds both
+  groups ("each roughly half the height of the nearer men") instead of relying on the
+  words "afar off", which the model ignores because the lepers are the subject of the
+  sentence.
+- **A stale `.git/rebase-merge` from 2026-07-24 was making `git status` announce "You
+  are currently rebasing"** and silently breaking `git add`. It held an orphaned
+  AUTOSTASH COMMIT with 1521 files of never-recovered work from that day. It was NOT
+  applied (that would undo the merge); it is tagged **`stale-autostash-2026-07-24`** so
+  it can never be garbage-collected, and the stale directory was cleared.
+- **Seven earlier beat maps: rows 5, 6, 7, 8, 9, 10, 11 — 216
   pictures queued.** Density held at 4.6-6.0 s per picture across every row, the same
   band rows 1-4 shipped at. Rows 6 and 8 sit below the band only because they are the
   two shortest stories, where the coverage law's floor of 10 binds before the scaling
@@ -69,9 +83,16 @@ order with the unattended runner left alive the whole time.
   likely one-step fix), or stop tracking generated media in git — the mp4/mp3/jpeg
   under `media-production/` are what make this history 65 GB, and `media-production-v2`
   already gitignores them.
-- **Next session:** `Read V2-NEXT-SESSION-PROMPT.md and execute it. Start now.` The
-  runner should still be alive; check with `ps aux | grep v2_run_all` and only start
-  it if it is gone. Then author rows 12+ (`v2_prep_row.py --status`).
+- **Next session:** `Read V2-NEXT-SESSION-PROMPT.md and execute it. Start now.`
+  **CHECK THE RUNNER WITH CARE:** `ps aux | grep v2_run_all` — and if the grep comes
+  back empty, run it a SECOND time before concluding it is dead. A racy single check
+  during this session read "dead" when the runner was alive, and starting a second one
+  put two processes on the same Chrome. Only ever run one. Then author rows 15+
+  (`v2_prep_row.py --status`).
+- **Known non-fatal generator failure:** individual beats occasionally die with a
+  Playwright `Timeout ... waiting for event "download"` (Flow hiccup, unrelated to the
+  model-chip race fixed this session). The runner logs `exit=1`, moves on, and picks the
+  beat up on a later lap. Nothing to fix; do not restart the runner over it.
 
 ## 2026-07-29 — PICTURES-ONLY ORDER: all 200 rows prepped, generator running unattended (Machine A / `Dev`)
 
