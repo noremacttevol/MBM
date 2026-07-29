@@ -115,6 +115,14 @@ window. Copy (never move) the V1 `audio/` into the V2 build folder, plus
   knowing it's Jesus → being told → realizing → leaping out of the boat → swimming.
   Each micro-beat is its OWN frame, switched mid-segment with word-anchored
   markers (`marker_time`). Any fast action chain works this way.
+- **NEVER write "the camera is at ground level" (or sea level, or floor level).**
+  Rotation trap, paid for on row 5 b02 (Machine A, 2026-07-29): that phrasing made
+  the model ROLL THE WHOLE FRAME 90°, so the street ran up the left edge and every
+  figure lay on its side. A picture that has to be turned to be read is unusable in
+  a 9:16 cut. For any low shot, say instead: *"An upright vertical photograph taken
+  from a low viewpoint about knee height … the ground is at the bottom of the frame
+  and the sky at the top, and the horizon is level — the picture is the right way
+  up."* Low viewpoint yes; camera lying on the floor no.
 - Study the KJV passage first; write the scripture facts into the file header and
   let them govern direction, position, scale, time of day.
 - Check `media-production/CONTENT-CARE.md` §3 for the row's flags FIRST.

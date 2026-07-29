@@ -147,16 +147,26 @@ BEATS = [
                       "knowing people by their sandals instead of their faces."),
         "must_show": "THE WORLD SHE ACTUALLY SEES — a low camera near the street stones: passing sandals, dusty feet and robe hems, and her own downturned face at the frame edge.",
         "must_not_show": "no faces of the passers-by visible — the whole point is that she cannot see them; not a first-person camera trick, a real low camera angle.",
+        # ROTATION TRAP (Machine A, 2026-07-29). The first version of this scene said
+        # "the camera is set LOW, close to the paving stones, at the exact height her
+        # eyes have been" — and the model answered by ROLLING THE WHOLE FRAME 90
+        # degrees, so the street ran up the left edge and every figure lay on its
+        # side. A picture that has to be turned to be read is unusable in a 9:16 cut.
+        # The fix is to describe a low VIEWPOINT while stating plainly that the
+        # photograph itself is upright and the ground is at the bottom. Any beat that
+        # asks for a ground-level camera needs the same two sentences.
         "scene": (
-            "The camera is set LOW, close to the worn paving stones of the village "
-            "street, at the exact height her eyes have been for eighteen years. "
-            "Across the frame pass the dusty sandalled feet, bare ankles and swinging "
-            "robe hems of villagers walking by, their bodies cut off well below the "
-            "shoulders so that not one face is visible. At the near edge of the frame "
-            "the woman's own worn sandals, the planted tip of her olive-wood stick and "
-            "her thin hands are close to the camera, and her downturned weathered face "
-            "is turned toward the stones, deeply lined and patient. Warm dust hangs in "
-            "the morning light. Each visible hand has five fingers."
+            "An upright vertical photograph taken from a low viewpoint about knee "
+            "height, looking along the village street. The ground is at the bottom of "
+            "the frame and the sky and rooftops are at the top, and the horizon is "
+            "level — the picture is the right way up. Across the lower half of the "
+            "frame pass the dusty sandalled feet, bare ankles and swinging robe hems "
+            "of villagers walking by, their bodies cut off at the waist by the top of "
+            "the frame so that not one face is visible. At the near edge the woman's "
+            "own worn sandals, the planted tip of her olive-wood stick and her thin "
+            "hands are close to the camera, and her downturned weathered face is bent "
+            "low toward the stones, deeply lined and patient. Warm dust hangs in the "
+            "morning light. Each visible hand has five fingers."
         ),
     },
     {

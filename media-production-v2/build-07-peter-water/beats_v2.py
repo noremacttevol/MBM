@@ -252,7 +252,10 @@ BEATS = [
         "must_show": "THE FEET. Low and close on the water surface: both of Jesus's feet resting ON TOP of unbroken water, taking his weight, with a ring of ripples spreading out from each sole.",
         "must_not_show": "NOT ankle-deep, NOT calf-deep, NOT wading, NOT standing on a rock or a sandbar — the surface is whole and unbroken beneath his soles; no glare, glow or light on the water.",
         "scene": (
-            "The camera is low and close, almost at the level of the sea itself. Both "
+            "An upright vertical photograph taken from a low viewpoint just above the "
+            "sea, looking across it — the water is at the bottom of the frame and the "
+            "night sky is at the top, and the horizon is level; the picture is the "
+            "right way up. Both "
             "of Jesus's bare feet are resting ON TOP OF THE WATER, the surface whole "
             "and unbroken beneath his soles, taking his full weight — the skin of the "
             "water dimpling slightly under each heel and a clean ring of ripples "
@@ -498,7 +501,10 @@ BEATS = [
         "must_show": "THE SURFACE GIVING WAY: one foot has broken through and gone in to the shin, the other still on top, the water torn open around the sinking leg.",
         "must_not_show": "he is not to the waist yet — v30 says BEGINNING to sink, and this frame is the beginning; do not put Jesus in this frame.",
         "scene": (
-            "Low and close on Peter's legs and lower body. The surface has GIVEN WAY "
+            "An upright vertical photograph, low and close on Peter's legs and lower "
+            "body, with the sea at the bottom of the frame and the night sky at the "
+            "top and the horizon level — the picture is the right way up. The surface "
+            "has GIVEN WAY "
             "under one foot — that leg has punched through and gone into the black "
             "water to the shin, torn white water flying up around it — while his other "
             "bare foot is still up on the unbroken surface behind him, taking the last "

@@ -165,7 +165,10 @@ BEATS = [
         "must_show": "her hands scrabbling through the folds of the cloth and shaking it out, checking the floor at her feet — the first frantic seconds.",
         "must_not_show": "she has not begun the real search yet; no lamp lit in this frame.",
         "scene": (
-            "Close and low. The woman is up on her knees on the flagstones with the "
+            "An upright vertical photograph from a low viewpoint, with the floor at "
+            "the bottom of the frame and the room above it and the horizon level — "
+            "the picture is the right way up. The woman is up on her knees on the "
+            "flagstones with the "
             "worn cloth caught up in both hands, shaking it out hard and dragging her "
             "fingers through its folds, the nine coins spilled and rolling on the "
             "stone beside her. Her head is down and turned, eyes already searching the "
