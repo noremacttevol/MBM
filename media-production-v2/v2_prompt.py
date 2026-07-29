@@ -201,6 +201,7 @@ def gen(build_dir, mod, only, redo_suffix=""):
             print(f"= {beat['id']} already present, skipping")
             continue
         cmd = [sys.executable, FLOW_DRIVER, "gen",
+               "--size", "2K",
                "--model", beat.get("model", "Nano Banana Pro"),
                "--prompt", assemble(beat, mod.LOCKS),
                "--out", dest]

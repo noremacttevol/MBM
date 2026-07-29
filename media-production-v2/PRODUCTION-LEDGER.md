@@ -62,6 +62,7 @@ rather than copying the portrait.
 | Flow output resolution | **768×1376** for 9:16 — same as V1's painted refs. Flow's image size, not a model limit; build.py supersamples to 4320×7680 and lands at 1080×1920 |
 | credit figure printed by the driver | `0 credits` on every generation this session (recorded verbatim, not interpreted) |
 | generation wall-time | ~2–3.5 min per still including download |
+| **Flow download sizes (found 23:4x after Cameron's "same quality from Flow")** | viewer Download menu: **1K 768×1376 (what the driver always fetched) · 2K 1536×2752 · 4K 3072×5504**. Measured on a real download each. `flow_driver.py gen --size 2K` is now the default path; `v2_prompt.py --gen` passes it. The API's only remaining edge is speed (~3×, no browser) at $0.134/picture. |
 
 ### Videos
 

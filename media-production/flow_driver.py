@@ -334,7 +334,49 @@ def ensure_settings(page, model=None):
     return model_ok
 
 
-def cmd_gen(prompt, out, refs, model=None, model_required=True):
+def _leaf_spot(page, tok):
+    """Center of the smallest visible element whose exact text is `tok`."""
+    return page.evaluate(
+        "(tok) => { const cand=[...document.querySelectorAll('*')]"
+        "  .filter(e=>e.offsetParent!==null && (e.innerText||'').trim()===tok)"
+        "  .map(e=>{const r=e.getBoundingClientRect();"
+        "           return {x:r.x+r.width/2,y:r.y+r.height/2};});"
+        " return cand[0]||null; }", tok)
+
+
+def download_variant(page, name, size, out):
+    """Download a gallery image at Flow's 2K/4K size via the viewer's Download menu.
+
+    Found 2026-07-28 (Machine A): the viewer offers 1K (Original size) / 2K
+    (Upscaled, 1536x2752) / 4K (3072x5504). The old path fetched the gallery
+    <img> src, which is ALWAYS the 1K original — every Flow still ever delivered
+    was the smallest variant. The 2K download matches the Gemini API's native-2K
+    pixel size on Cameron's subscription.
+    """
+    spot = page.evaluate(
+        "(name) => { const img=[...document.querySelectorAll('img')]"
+        "  .find(i => i.src.includes(name)); if(!img) return null;"
+        "  const r=img.getBoundingClientRect();"
+        "  return {x:r.x+r.width/2, y:r.y+r.height/2}; }", name)
+    if not spot:
+        raise SystemExit("viewer: fresh image not found in gallery")
+    page.mouse.click(spot["x"], spot["y"])
+    page.wait_for_timeout(2500)
+    dspot = _leaf_spot(page, "download")
+    if not dspot:
+        raise SystemExit("viewer: download button not found")
+    page.mouse.click(dspot["x"], dspot["y"])
+    page.wait_for_timeout(1200)
+    sspot = _leaf_spot(page, size)
+    if not sspot:
+        raise SystemExit(f"viewer: size option {size!r} not found")
+    with page.expect_download(timeout=180000) as dl:
+        page.mouse.click(sspot["x"], sspot["y"])
+    Path(out).parent.mkdir(parents=True, exist_ok=True)
+    dl.value.save_as(out)
+
+
+def cmd_gen(prompt, out, refs, model=None, model_required=True, size="2K"):
     url = CONF.read_text().strip() if CONF.exists() else ""
     if not url:
         raise SystemExit("No saved project. Run: flow_driver.py open")
@@ -462,13 +504,18 @@ def cmd_gen(prompt, out, refs, model=None, model_required=True):
         if not newest:
             raise SystemExit("No new image appeared within 6 minutes.")
         page.wait_for_timeout(2000)
-        data = page.evaluate(FETCH_JS, newest)
+        if size and size != "1K":
+            download_variant(page, newest, size, out)
+            data = None
+        else:
+            data = page.evaluate(FETCH_JS, newest)
         ctx.close()
-    if not data or "," not in data:
-        raise SystemExit("Download failed (empty data URL).")
-    Path(out).parent.mkdir(parents=True, exist_ok=True)
-    Path(out).write_bytes(base64.b64decode(data.split(",", 1)[1]))
-    print(f"saved {out} ({Path(out).stat().st_size // 1024} KB)")
+    if data is not None:
+        if "," not in data:
+            raise SystemExit("Download failed (empty data URL).")
+        Path(out).parent.mkdir(parents=True, exist_ok=True)
+        Path(out).write_bytes(base64.b64decode(data.split(",", 1)[1]))
+    print(f"saved {out} ({Path(out).stat().st_size // 1024} KB, {size})")
 
 
 def main():
@@ -490,6 +537,9 @@ def main():
     g.add_argument("--model-best-effort", action="store_true",
                    help="Generate anyway if --model can't be confirmed "
                         "(default: abort rather than spend on the wrong model).")
+    g.add_argument("--size", default="2K", choices=["1K", "2K", "4K"],
+                   help="Download size from the viewer menu (default 2K = "
+                        "1536x2752; 1K = the old gallery-src path).")
     a = ap.parse_args()
     if a.cmd == "open":
         cmd_open()
@@ -502,7 +552,7 @@ def main():
     elif a.cmd == "grab":
         cmd_grab(a.out)
     else:
-        cmd_gen(a.prompt, a.out, a.ref, a.model, not a.model_best_effort)
+        cmd_gen(a.prompt, a.out, a.ref, a.model, not a.model_best_effort, a.size)
 
 
 

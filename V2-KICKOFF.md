@@ -128,7 +128,9 @@ contact shots assigned a job; counts stated positively; no NEGATIVE-PROMPT lists
 
 **E. Generate (announce the Chrome burst first, then start immediately):**
 `python3 media-production/flow_driver.py gen --prompt "<full prompt>" --out
-media-production-v2/build-NN-slug/assets/sBB-slug.jpeg [--ref ...]` — **Nano Banana
+media-production-v2/build-NN-slug/assets/sBB-slug.jpeg --size 2K [--ref ...]`
+(the `--size 2K` download = 1536×2752 from the viewer menu, found 2026-07-28 —
+the old gallery fetch was silently 1K/768×1376; never ship 1K again) — **Nano Banana
 Pro for every shot containing Jesus, any close face, or a crowd; Nano Banana 2
 allowed only for empty landscapes/objects.** One gen at a time (the profile lock
 enforces it). Log every credit figure the driver prints. If Flow throttles

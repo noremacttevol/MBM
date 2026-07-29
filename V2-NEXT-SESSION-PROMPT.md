@@ -30,12 +30,19 @@
 
 ### 1. The standing decisions (do not re-litigate these)
 
-- **Pictures come from `media-production-v2/v2_gen_api.py`** — Gemini
-  `gemini-3-pro-image` at 2K (1536×2752), $0.134/picture on Cameron's API key
-  (`.env.mbm-media`). Cameron has seen and approved both the result and the cost
-  path. **If (and only if) Cameron says "Flow only"**, switch to
-  `media-production/flow_driver.py gen --model "Nano Banana Pro"` — his prepaid
-  subscription, 768×1376, ~20 pictures/hour, announce every Chrome burst.
+- **Pictures come from FLOW on Cameron's subscription — at 2K (Cameron's order,
+  2026-07-28: "I need the same quality from Flow").** Discovered the same night:
+  Flow's image viewer has a Download menu with **1K (original) / 2K (upscaled,
+  1536×2752) / 4K (3072×5504)** — the old driver always fetched the 1K gallery
+  copy. `flow_driver.py gen` now downloads **2K by default** (`--size`), which
+  matches the API's 2K pixel-for-pixel in size. Generate with:
+  `python3 media-production-v2/v2_prompt.py <build-dir> --gen`
+  (it drives Flow with `--model "Nano Banana Pro" --size 2K`). Flow limits that
+  remain: ~20 pictures/hour, one at a time, Chrome runs on the machine — announce
+  each burst, stop instantly if Cameron messages.
+- **`media-production-v2/v2_gen_api.py` is the optional SPEED lever only** —
+  native-2K Gemini API at $0.134/picture (~3× faster, no browser). Use it ONLY if
+  Cameron explicitly says to spend on the API.
 - **The Jesus face is LOCKED and APPROVED**: `media-production-v2/JESUS-V2-REF/jesus-v2-face.jpeg`.
   Never regenerate or "improve" it. Every Jesus shot = byte-identical JESUS LOCK v4
   (assembled by code) + that ref attached.
