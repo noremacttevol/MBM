@@ -78,7 +78,7 @@ within each video by locking each character's description text (hairline, hair,
 beard, age, build, garment: length, sleeves, fastening) byte-identical across all
 of that video's prompts.
 
-## ONE-TIME BOOTSTRAP (only if media-production-v2/ does not exist yet)
+## ONE-TIME BOOTSTRAP — COMPLETE 2026-07-28 (face APPROVED by Cameron; never regenerate it) (only if media-production-v2/ does not exist yet)
 
 1. `python3 media-production/flow_driver.py check` — must print logged_in. If not,
    STOP and tell Cameron in one line; do no browser retries beyond two.
@@ -110,8 +110,12 @@ COPY (never move) the audio dir into `media-production-v2/build-NN-slug/audio/`.
 action, reaction, realization, arrival in the narration gets its own picture; a
 picture may span two segments only if nothing visually changes; long segments with
 multiple visual moments get word-anchored sub-beats (the marker_time pattern from
-build-10/18/19). Expect ~12–16 pictures for a normal story — the narration decides,
-never a forced count. Write `media-production-v2/build-NN-slug/PROMPTS-V2.md`: per
+build-10/18/19). **Coverage law (Cameron, 2026-07-28): aim ~15 pictures per story, range 10–20,
+scaled by runtime** — the narration decides, never a forced count; a 2.5-minute
+story may exceed 20 only when the beats genuinely demand it. **Burst sequences get
+burst coverage** (Cameron's example, John 21: not knowing it's Jesus → told →
+realizing → leaping from the boat → swimming — each micro-beat its OWN frame via
+word-anchored markers). Write `media-production-v2/build-NN-slug/PROMPTS-V2.md`: per
 beat — beat id (v2-rNNN-bBB), the exact narration text it covers, its audio window,
 MUST SHOW / MUST NOT SHOW from the scripture, characters, camera/composition,
 time of day, then the full prompt (STYLE-V2 + defense line if wide + scene + locks).

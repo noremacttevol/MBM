@@ -11,7 +11,7 @@ Status values: `DONE` / `IN-PROGRESS (last step X)` / `BLOCKED(reason)`.
 
 ## Session 1 — 2026-07-28
 
-- **Model:** Opus 5 (Claude Code)
+- **Model:** Opus 5 (Claude Code), switched to Fable 5 by Cameron ~23:05
 - **Machine:** Machine A — hostname `Dev`
 - **Start:** 2026-07-28 22:01:09 EDT
 
@@ -52,7 +52,7 @@ FACE ref is the operative lock); not re-rolled, since rerolling a support asset 
 nothing. Useful signal: **ref-echo did not occur** — the model composed new scenes
 rather than copying the portrait.
 
-**JESUS V2 FACE = CANDIDATE, locked for this run, pending Cameron's approval of video #1.**
+**JESUS V2 FACE = APPROVED. Cameron approved video #1 on 2026-07-28 ("it beautiful i approve already") and confirmed candidate 1 by number. The face is now the LOCK for all 200 — never regenerate it.**
 
 #### Measured facts (record these — the plan rested on estimates)
 
@@ -67,7 +67,8 @@ rather than copying the portrait.
 
 | row | slug | start | end | mins | beats | gens | accepted | rerolls | credits-noted | status | notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | build-01-cloak | 2026-07-28 22:06 | 2026-07-28 23:00 | 54 | 20 | 43 | 20 | 1× CREAM-CROWD, 1× STRAY-JESUS, 21 discarded on the Flow→API switch | Flow: `0 credits`/gen · API: $2.68 | **DONE** | 109.0 s · 19.8 MB · verify-mp4 OK |
+| 1 | build-01-cloak | 2026-07-28 22:06 | 2026-07-28 23:00 | 54 | 20 | 43 | 20 | 1× CREAM-CROWD, 1× STRAY-JESUS, 21 discarded on the Flow→API switch | Flow: `0 credits`/gen · API: $2.68 | **DONE · APPROVED by Cameron 2026-07-28** | 109.0 s · 19.8 MB · verify-mp4 OK |
+| 2 | build-02-prodigal | 2026-07-28 23:07 | — | — | 24 | — | — | — | API $0.134/img | IN-PROGRESS (last step E) | 158.4 s plan · 24 stills vs V1's 10 · markers verified · Alexander voice verified via jesus_voice_audit |
 
 #### Row 1 — build-01-cloak (Mark 5:25-34)
 

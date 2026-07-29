@@ -189,10 +189,15 @@ def extract(row):
             })
             t += vdur
 
-        card_mp3 = os.path.join(bdir, "audio", "card.mp3")
+        # The closing card's segment id varies per build: most use "card", but e.g.
+        # build-02 declares CARD = "n8". Read THAT build's constant, same as the
+        # timing constants — never assume.
+        card_id = bconsts.get("CARD", "card")
+        card_mp3 = os.path.join(bdir, "audio", f"{card_id}.mp3")
         card_dur = dur_of(card_mp3)
         out["card"] = {
-            "text": text.get("card", ""),
+            "seg": card_id,
+            "text": text.get(card_id, ""),
             "seg_start": round(t, 3),
             "audio_start": round(t + lead, 3),
             "seg_dur": round(lead + card_dur + tail, 3),
