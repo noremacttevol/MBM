@@ -1,0 +1,621 @@
+{
+ "row": 3,
+ "slug": "build-03-zacchaeus",
+ "v1_dir": "media-production/build-03-zacchaeus",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.2,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-jericho.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "In Jericho there lived a man named Zacchaeus. And if you're thinking of Matthew \u2014 the tax collector who became an apostle \u2014 that's a different man. It's one of the most common mix-ups in the Bible. Matthew worked a tax booth up in Galilee. Zacchaeus ran the whole tax office in Jericho. And he was rich.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 20.0,
+   "seg_end": 20.72,
+   "audio_dur": 20.14,
+   "spoken_dur": 19.72,
+   "seg_dur": 20.72,
+   "timing": [
+    {
+     "text": "In Jericho there lived a man named Zacchaeus.",
+     "start": 0.0,
+     "end": 2.612
+    },
+    {
+     "text": "And if you're thinking of Matthew \u2014 the tax collector who became an apostle \u2014 that's a different man.",
+     "start": 2.612,
+     "end": 9.474
+    },
+    {
+     "text": "It's one of the most common mix-ups in the Bible.",
+     "start": 9.474,
+     "end": 11.97
+    },
+    {
+     "text": "Matthew worked a tax booth up in Galilee.",
+     "start": 11.97,
+     "end": 15.221
+    },
+    {
+     "text": "Zacchaeus ran the whole tax office in Jericho.",
+     "start": 15.221,
+     "end": 18.774
+    },
+    {
+     "text": "And he was rich.",
+     "start": 18.774,
+     "end": 20.109
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-despised.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Here's why that mattered. Tax collectors worked for Rome \u2014 the empire occupying their own people \u2014 and they got rich by charging extra and keeping the difference. So to his neighbors, Zacchaeus wasn't just a cheat. He was a traitor. No one greeted him. No one wanted him at their table.",
+   "seg_start": 20.72,
+   "audio_start": 21.0,
+   "spoken_end": 39.343,
+   "seg_end": 40.063,
+   "audio_dur": 18.756,
+   "spoken_dur": 18.344,
+   "seg_dur": 19.344,
+   "timing": [
+    {
+     "text": "Here's why that mattered.",
+     "start": 0.0,
+     "end": 1.115
+    },
+    {
+     "text": "Tax collectors worked for Rome \u2014 the empire occupying their own people \u2014 and they got rich by charging extra and keeping the difference.",
+     "start": 1.115,
+     "end": 9.892
+    },
+    {
+     "text": "So to his neighbors, Zacchaeus wasn't just a cheat.",
+     "start": 9.892,
+     "end": 13.653
+    },
+    {
+     "text": "He was a traitor.",
+     "start": 13.653,
+     "end": 15.012
+    },
+    {
+     "text": "No one greeted him.",
+     "start": 15.012,
+     "end": 16.486
+    },
+    {
+     "text": "No one wanted him at their table.",
+     "start": 16.486,
+     "end": 18.715
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s3-crowd.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "When Jesus came to Jericho, the whole city pressed into the street to see him. And Zacchaeus had a problem. He was a short man \u2014 the scripture goes out of its way to mention it \u2014 and the crowd stood like a wall. Not one person made room for him.",
+   "seg_start": 40.063,
+   "audio_start": 40.343,
+   "spoken_end": 54.648,
+   "seg_end": 55.368,
+   "audio_dur": 14.655,
+   "spoken_dur": 14.304,
+   "seg_dur": 15.304,
+   "timing": [
+    {
+     "text": "When Jesus came to Jericho, the whole city pressed into the street to see him.",
+     "start": 0.0,
+     "end": 4.261
+    },
+    {
+     "text": "And Zacchaeus had a problem.",
+     "start": 4.261,
+     "end": 6.084
+    },
+    {
+     "text": "He was a short man \u2014 the scripture goes out of its way to mention it \u2014 and the crowd stood like a wall.",
+     "start": 6.084,
+     "end": 11.865
+    },
+    {
+     "text": "Not one person made room for him.",
+     "start": 11.865,
+     "end": 14.629
+    }
+   ]
+  },
+  {
+   "seg": "n3a",
+   "v1_still": "s4-runs.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So this small, wealthy man did something no respectable person would ever do. He gathered up his fine robes, and he ran.",
+   "seg_start": 55.368,
+   "audio_start": 55.648,
+   "spoken_end": 62.727,
+   "seg_end": 63.447,
+   "audio_dur": 7.471,
+   "spoken_dur": 7.079,
+   "seg_dur": 8.079,
+   "timing": [
+    {
+     "text": "So this small, wealthy man did something no respectable person would ever do.",
+     "start": 0.0,
+     "end": 4.168
+    },
+    {
+     "text": "He gathered up his fine robes, and he ran.",
+     "start": 4.168,
+     "end": 7.43
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s5-climbs.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And he climbed a sycamore tree, like a child. Bible students love this detail. In that world, a grown man running and climbing was humiliating. Zacchaeus traded the last of his dignity for one glimpse of Jesus \u2014 from a distance. He would have settled for that.",
+   "seg_start": 63.447,
+   "audio_start": 63.727,
+   "spoken_end": 81.216,
+   "seg_end": 81.936,
+   "audio_dur": 17.92,
+   "spoken_dur": 17.49,
+   "seg_dur": 18.49,
+   "timing": [
+    {
+     "text": "And he climbed a sycamore tree, like a child.",
+     "start": 0.0,
+     "end": 2.914
+    },
+    {
+     "text": "Bible students love this detail.",
+     "start": 2.914,
+     "end": 5.642
+    },
+    {
+     "text": "In that world, a grown man running and climbing was humiliating.",
+     "start": 5.642,
+     "end": 9.729
+    },
+    {
+     "text": "Zacchaeus traded the last of his dignity for one glimpse of Jesus \u2014 from a distance.",
+     "start": 9.729,
+     "end": 15.894
+    },
+    {
+     "text": "He would have settled for that.",
+     "start": 15.894,
+     "end": 17.879
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s6-looks-up.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He got far more. Jesus stopped \u2014 under that exact tree \u2014 looked up, and called him by name.",
+   "seg_start": 81.936,
+   "audio_start": 82.216,
+   "spoken_end": 88.765,
+   "seg_end": 89.485,
+   "audio_dur": 6.949,
+   "spoken_dur": 6.549,
+   "seg_dur": 7.549,
+   "timing": [
+    {
+     "text": "He got far more.",
+     "start": 0.0,
+     "end": 1.115
+    },
+    {
+     "text": "Jesus stopped \u2014 under that exact tree \u2014 looked up, and called him by name.",
+     "start": 1.115,
+     "end": 6.92
+    }
+   ]
+  },
+  {
+   "seg": "j1a",
+   "v1_still": "s6-looks-up.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Zacchaeus, make haste, and come down;",
+   "seg_start": 89.485,
+   "audio_start": 89.765,
+   "spoken_end": 91.857,
+   "seg_end": 93.057,
+   "audio_dur": 2.508,
+   "spoken_dur": 2.092,
+   "seg_dur": 3.572,
+   "timing": [
+    {
+     "text": "Zacchaeus, make haste, and come down;",
+     "start": 0.0,
+     "end": 2.461
+    }
+   ]
+  },
+  {
+   "seg": "j1b",
+   "v1_still": "s6-looks-up.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "for to day I must abide at thy house.",
+   "seg_start": 93.057,
+   "audio_start": 93.337,
+   "spoken_end": 95.617,
+   "seg_end": 96.817,
+   "audio_dur": 2.456,
+   "spoken_dur": 2.279,
+   "seg_dur": 3.759,
+   "timing": [
+    {
+     "text": "for today I must abide at thy house.",
+     "start": 0.0,
+     "end": 2.415
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s7-invites.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Now \u2014 why would Jesus do that? Understand what a meal meant back then. To eat at a man's house was to publicly accept him. Jesus didn't tell him to clean up his life first. He invited himself in \u2014 before Zacchaeus had changed a single thing. That is the point of the whole story. Jesus moves first.",
+   "seg_start": 96.817,
+   "audio_start": 97.097,
+   "spoken_end": 118.133,
+   "seg_end": 118.853,
+   "audio_dur": 21.394,
+   "spoken_dur": 21.037,
+   "seg_dur": 22.037,
+   "timing": [
+    {
+     "text": "Now \u2014 why would Jesus do that?",
+     "start": 0.0,
+     "end": 2.299
+    },
+    {
+     "text": "Understand what a meal meant back then.",
+     "start": 2.299,
+     "end": 4.923
+    },
+    {
+     "text": "To eat at a man's house was to publicly accept him.",
+     "start": 4.923,
+     "end": 8.591
+    },
+    {
+     "text": "Jesus didn't tell him to clean up his life first.",
+     "start": 8.591,
+     "end": 11.854
+    },
+    {
+     "text": "He invited himself in \u2014 before Zacchaeus had changed a single thing.",
+     "start": 11.854,
+     "end": 16.567
+    },
+    {
+     "text": "That is the point of the whole story.",
+     "start": 16.567,
+     "end": 19.179
+    },
+    {
+     "text": "Jesus moves first.",
+     "start": 19.179,
+     "end": 20.805
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s8-comes-down.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Zacchaeus came down faster than he had climbed up, and welcomed him with joy. But the crowd was appalled, and they grumbled out loud.",
+   "seg_start": 118.853,
+   "audio_start": 119.133,
+   "spoken_end": 125.993,
+   "seg_end": 126.713,
+   "audio_dur": 7.236,
+   "spoken_dur": 6.86,
+   "seg_dur": 7.86,
+   "timing": [
+    {
+     "text": "Zacchaeus came down faster than he had climbed up, and welcomed him with joy.",
+     "start": 0.0,
+     "end": 3.924
+    },
+    {
+     "text": "But the crowd was appalled, and they grumbled out loud.",
+     "start": 3.924,
+     "end": 7.198
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "v1_still": "s8-comes-down.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "That he was gone to be guest with a man that is a sinner.",
+   "seg_start": 126.713,
+   "audio_start": 126.993,
+   "spoken_end": 129.677,
+   "seg_end": 130.877,
+   "audio_dur": 3.056,
+   "spoken_dur": 2.684,
+   "seg_dur": 4.164,
+   "timing": [
+    {
+     "text": "That he was gone to be guest with a man that is a sinner.",
+     "start": 0.0,
+     "end": 3.019
+    }
+   ]
+  },
+  {
+   "seg": "n6b",
+   "v1_still": "s8-comes-down.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Of every house in Jericho, he had chosen the worst man's. In their rules, you earned your way back before anyone sat at your table.",
+   "seg_start": 130.877,
+   "audio_start": 131.157,
+   "spoken_end": 138.293,
+   "seg_end": 139.013,
+   "audio_dur": 7.549,
+   "spoken_dur": 7.136,
+   "seg_dur": 8.136,
+   "timing": [
+    {
+     "text": "Of every house in Jericho, he had chosen the worst man's.",
+     "start": 0.0,
+     "end": 3.135
+    },
+    {
+     "text": "In their rules, you earned your way back before anyone sat at your table.",
+     "start": 3.135,
+     "end": 7.523
+    }
+   ]
+  },
+  {
+   "seg": "n7a",
+   "v1_still": "s9-table-gives.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then, at that table, it happened. Zacchaeus stood up in front of everyone.",
+   "seg_start": 139.013,
+   "audio_start": 139.293,
+   "spoken_end": 143.101,
+   "seg_end": 143.821,
+   "audio_dur": 4.206,
+   "spoken_dur": 3.808,
+   "seg_dur": 4.808,
+   "timing": [
+    {
+     "text": "Then, at that table, it happened.",
+     "start": 0.0,
+     "end": 1.567
+    },
+    {
+     "text": "Zacchaeus stood up in front of everyone.",
+     "start": 1.567,
+     "end": 4.18
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "v1_still": "s9-table-gives.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Behold, Lord, the half of my goods I give to the poor; and if I have taken any thing from any man by false accusation, I restore him fourfold.",
+   "seg_start": 143.821,
+   "audio_start": 144.101,
+   "spoken_end": 152.805,
+   "seg_end": 154.005,
+   "audio_dur": 9.143,
+   "spoken_dur": 8.704,
+   "seg_dur": 10.184,
+   "timing": [
+    {
+     "text": "Behold, Lord, the half of my goods I give to the poor; and if I have taken anything from any man by false accusation, I restore him fourfold.",
+     "start": 0.0,
+     "end": 9.102
+    }
+   ]
+  },
+  {
+   "seg": "n7b",
+   "v1_still": "s9-table-gives.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Half of everything I own goes to the poor, he said \u2014 and anyone I have cheated, I will pay back four times over. That number is a study gem. The law of Moses required fourfold repayment only for outright theft. Zacchaeus was judging himself by the harshest standard \u2014 and paying it gladly. Nobody demanded it. Being loved first is what changed him.",
+   "seg_start": 154.005,
+   "audio_start": 154.285,
+   "spoken_end": 176.581,
+   "seg_end": 177.301,
+   "audio_dur": 22.596,
+   "spoken_dur": 22.296,
+   "seg_dur": 23.296,
+   "timing": [
+    {
+     "text": "Half of everything I own goes to the poor, he said \u2014 and anyone I have cheated, I will pay back four times over.",
+     "start": 0.0,
+     "end": 6.792
+    },
+    {
+     "text": "That number is a study gem.",
+     "start": 6.792,
+     "end": 9.114
+    },
+    {
+     "text": "The law of Moses required fourfold repayment only for outright theft.",
+     "start": 9.114,
+     "end": 13.595
+    },
+    {
+     "text": "Zacchaeus was judging himself by the harshest standard \u2014 and paying it gladly.",
+     "start": 13.595,
+     "end": 18.472
+    },
+    {
+     "text": "Nobody demanded it.",
+     "start": 18.472,
+     "end": 19.969
+    },
+    {
+     "text": "Being loved first is what changed him.",
+     "start": 19.969,
+     "end": 22.57
+    }
+   ]
+  },
+  {
+   "seg": "n7c",
+   "v1_still": "s10-salvation.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And Jesus answered him with the words this story was written to keep.",
+   "seg_start": 177.301,
+   "audio_start": 177.581,
+   "spoken_end": 180.935,
+   "seg_end": 181.655,
+   "audio_dur": 3.84,
+   "spoken_dur": 3.354,
+   "seg_dur": 4.354,
+   "timing": [
+    {
+     "text": "And Jesus answered him with the words this story was written to keep.",
+     "start": 0.0,
+     "end": 3.808
+    }
+   ]
+  },
+  {
+   "seg": "j2a",
+   "v1_still": "s10-salvation.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "This day is salvation come to this house, forsomuch as he also is a son of Abraham.",
+   "seg_start": 181.655,
+   "audio_start": 181.935,
+   "spoken_end": 187.21,
+   "seg_end": 188.41,
+   "audio_dur": 5.669,
+   "spoken_dur": 5.274,
+   "seg_dur": 6.754,
+   "timing": [
+    {
+     "text": "This day is salvation come to this house, forsomuch as he also is a son of Abraham.",
+     "start": 0.0,
+     "end": 5.619
+    }
+   ]
+  },
+  {
+   "seg": "j2b",
+   "v1_still": "s11-seek-save.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "For the Son of man is come to seek and to save that which was lost.",
+   "seg_start": 188.41,
+   "audio_start": 188.69,
+   "spoken_end": 192.733,
+   "seg_end": 193.933,
+   "audio_dur": 4.415,
+   "spoken_dur": 4.044,
+   "seg_dur": 5.524,
+   "timing": [
+    {
+     "text": "For the Son of man is come to seek and to save that which was lost.",
+     "start": 0.0,
+     "end": 4.365
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s11-seek-save.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "A son of Abraham \u2014 with those words, Jesus gave him back his place in the family his whole city said he had forfeited.",
+   "seg_start": 193.933,
+   "audio_start": 194.213,
+   "spoken_end": 200.518,
+   "seg_end": 201.238,
+   "audio_dur": 6.713,
+   "spoken_dur": 6.304,
+   "seg_dur": 7.304,
+   "timing": [
+    {
+     "text": "A son of Abraham \u2014 with those words, Jesus gave him back his place in the family his whole city said he had forfeited.",
+     "start": 0.0,
+     "end": 6.687
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s11-seek-save.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And that last line is the key to everything. Jesus was not stuck in that crowd by accident. He was seeking. The man everyone stepped in front of was the one he came to find.",
+   "seg_start": 201.238,
+   "audio_start": 201.518,
+   "spoken_end": 211.561,
+   "seg_end": 212.281,
+   "audio_dur": 10.449,
+   "spoken_dur": 10.043,
+   "seg_dur": 11.043,
+   "timing": [
+    {
+     "text": "And that last line is the key to everything.",
+     "start": 0.0,
+     "end": 2.159
+    },
+    {
+     "text": "Jesus was not stuck in that crowd by accident.",
+     "start": 2.159,
+     "end": 5.352
+    },
+    {
+     "text": "He was seeking.",
+     "start": 5.352,
+     "end": 6.711
+    },
+    {
+     "text": "The man everyone stepped in front of was the one he came to find.",
+     "start": 6.711,
+     "end": 10.403
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "n10",
+  "text": "Jesus called him by name before he changed anything. What would it mean to you \u2014 to be wanted like that, exactly as you are right now?",
+  "seg_start": 212.281,
+  "audio_start": 212.561,
+  "seg_dur": 10.087
+ },
+ "total": 222.368
+}

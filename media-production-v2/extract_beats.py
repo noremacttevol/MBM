@@ -192,8 +192,21 @@ def extract(row):
         # The closing card's segment id varies per build: most use "card", but e.g.
         # build-02 declares CARD = "n8". Read THAT build's constant, same as the
         # timing constants — never assume.
-        card_id = bconsts.get("CARD", "card")
+        # Builds declare the card three different ways, so ASK THE BUILD, never
+        # assume: build-02 has CARD = "n8"; build-03 has no CARD constant at all and
+        # hardcodes `card_dur = dur_of("audio/n10.mp3")` with the words in a separate
+        # CARD_TEXT constant. Falling through to the "card" default made ffprobe
+        # return nothing and blew up on float('').
+        card_id = bconsts.get("CARD")
+        if not card_id:
+            m = re.search(r'card_dur\s*=\s*dur_of\(\s*[\'"]audio/([A-Za-z0-9_]+)\.mp3',
+                          open(os.path.join(bdir, "build.py")).read())
+            card_id = m.group(1) if m else "card"
         card_mp3 = os.path.join(bdir, "audio", f"{card_id}.mp3")
+        if not os.path.exists(card_mp3):
+            raise SystemExit(
+                f"card segment {card_id!r} has no mp3 in {bdir}/audio — "
+                f"read that build's build.py and pass the right id")
         card_dur = dur_of(card_mp3)
         out["card"] = {
             "seg": card_id,

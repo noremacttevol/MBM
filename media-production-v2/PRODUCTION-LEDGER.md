@@ -71,6 +71,8 @@ rather than copying the portrait.
 | 1 | build-01-cloak | 2026-07-28 22:06 | 2026-07-28 23:00 | 54 | 20 | 43 | 20 | 1× CREAM-CROWD, 1× STRAY-JESUS, 21 discarded on the Flow→API switch | Flow: `0 credits`/gen · API: $2.68 | **DONE · APPROVED by Cameron 2026-07-28** | 109.0 s · 19.8 MB · verify-mp4 OK |
 | 2 | build-02-prodigal | 2026-07-28 23:07 | 2026-07-29 00:5x | ~110 | 24 | 43 | 24 | 2× CREAM-CROWD · 4× WRONG-DIRECTION · 3× WARDROBE-DRIFT · 3× CAST-DRIFT · 2× CGI-STYLE · 1× ROTATED · 1× BLACK-BAND | API $2.55 (19 gens, then credits depleted) · Flow: `0 credits`/gen × 24 | **DONE — awaiting Cameron's approval** | 158.4 s · 19.9 MB · verify-mp4 OK · 24 stills |
 
+| 3 | build-03-zacchaeus | 2026-07-29 01:2x | — | — | 26 | — | — | — | Flow only | IN-PROGRESS (step E) | Machine A `Dev`. Steps A-D done: beats extracted, audio copied, beats_v2.py written, v4 checklist PASS. **FLOW ONLY** per Cameron 2026-07-29. |
+
 #### Row 1 — build-01-cloak (Mark 5:25-34)
 
 - **Steps A–D complete.** Beat truth extracted from the read-only V1 build; the V2
