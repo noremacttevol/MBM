@@ -61,18 +61,22 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 SEGMENTS = [
     ("n0", NARRATOR, "At the very end, Jesus knew everything had now been accomplished. He wasn't a victim losing a fight — he was finishing a work."),
     ("n1", NARRATOR, "With his last breath he spoke three words that weren't a cry of defeat, but a declaration of completion."),
-    ("j1", JESUS, 'It is finished.'),
-    ("n1b", NARRATOR, 'It is finished. Not I am finished. The thing he came to do was done — completed, paid in full, nothing left owing.'),
-    ("jv46", JESUS, 'Father, into thy hands I commend my spirit.'),
-    ("n1c", NARRATOR, 'The last words he said were words of trust, spoken to the Father he had been talking to all night.'),
-    ("s30b", SCRIPTURE, 'And he bowed his head, and gave up the ghost.'),
-    ("n2", NARRATOR, 'Nobody took his life from him. He laid it down.'),
-    ("s51", SCRIPTURE, 'And, behold, the veil of the temple was rent in twain from the top to the bottom.'),
-    ("n3a", NARRATOR, 'At that moment, in the temple across the city, the great veil that walled off the holiest place was torn in two, from the top down —'),
-    ("n3b", NARRATOR, 'as if torn by a hand from above.'),
+    # John 19:30
+    ("j1", JESUS, "It is finished."),
+    ("n1b", NARRATOR, "It is finished. Not I am finished. The thing he came to do was done — completed, paid in full, nothing left owing."),
+    # Luke 23:46
+    ("jv46", JESUS, "Father, into thy hands I commend my spirit."),
+    ("n1c", NARRATOR, "The last words he said were words of trust, spoken to the Father he had been talking to all night."),
+    # John 19:30
+    ("s30b", SCRIPTURE, "And he bowed his head, and gave up the ghost."),
+    ("n2", NARRATOR, "And he bowed his head and gave up the spirit — on his own terms, not theirs. Nobody took his life from him. He laid it down."),
+    # Matthew 27:51
+    ("s51", SCRIPTURE, "And, behold, the veil of the temple was rent in twain from the top to the bottom."),
+    ("n3a", NARRATOR, "At that moment, in the temple across the city, the great veil that walled off the holiest place was torn in two, from the top down —"),
+    ("n3b", NARRATOR, "as if torn by a hand from above."),
     ("n4a", NARRATOR, "That curtain had kept people out of God's presence for centuries. The instant he died, it was ripped open."),
-    ("n4b", NARRATOR, 'The way in was thrown wide — for everyone.'),
-    ("card", NARRATOR, 'The curtain that kept you out was torn open the moment he died. The way to God is open. Walk in.'),
+    ("n4b", NARRATOR, "The way in was thrown wide — for everyone."),
+    ("card", NARRATOR, "The curtain that kept you out was torn open the moment he died. The way to God is open. Walk in."),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

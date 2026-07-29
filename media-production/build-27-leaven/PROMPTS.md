@@ -89,3 +89,6 @@ villagers — men, women, and children — wait to be fed, their faces warm and
 glad, hands reaching to receive the bread. Warm gold evening light, a sense of
 one small hidden thing having become food for many. One single continuous scene
 painted edge to edge.
+
+## s1b-the-leaven-itself — NEW (split off S1 / Matthew 13:33, was 31.6s): the least impressive thing
+[STILL STYLE BLOCK] A CLOSE macro view: a woman's flour-dusted HANDS, plain earth-toned wool sleeves at the wrists, hold a SMALL torn piece of old GREY sourdough starter — dull, grey and unremarkable, no bigger than a walnut — poised over a WIDE wooden kneading trough heaped with PALE flour. The little grey lump of leaven is TINY in the frame; the vast expanse of pale flour fills most of the picture around and below it. Warm ordinary morning kitchen light, soft and plain. Nothing dramatic, nothing glowing — the whole point is that this scrap of leaven is the LEAST impressive thing in the room, easy to overlook. Only the hands, the tiny grey starter, and the great field of flour. No cream or off-white clothing anywhere. One single continuous scene painted edge to edge. 9:16 vertical.

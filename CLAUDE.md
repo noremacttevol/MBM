@@ -17,6 +17,7 @@
 > 8. Run the gate before ANY Flow credit: `python3 media-production/jesus_face_gate.py --dir <build-folder>` must exit 0.
 > 9. Claim-by-push before generating: `git pull`, claim the QUEUE row, commit + push the claim FIRST so no machine collides.
 > 10. Two-Voice: narrator modern; Jesus speaks ONLY exact KJV words. American Jesus voice, never a "Multilingual" model.
+> 10b. **REDO-ALL (Cameron, 2026-07-23, said repeatedly): EVERY video gets redone with the new voice AND re-approved — a prior approval NEVER exempts it. The "approved-lock" is DEAD; all old approvals are void.** The reviewer must only ever contain videos that actually carry the new voices; anything still on the old voice is NOT ready and must not sit there labeled done. (Details in QUEUE.md "REDO-ALL LAW" + SPEAKER-LAW/FIX-LATER.md.)
 > 11. Ear-check every narration (`qc_narration.py`) before assembly; scene lighting matches the scripture's time of day; every figure's action must read correctly at a glance.
 > 11b. **NO music/tone bed — narration + intentional silence only** (a constant hum makes people not use it). Captions live ONLY in the bottom band, split long ones in sync with the narration, never covering the art.
 > 12. Never hold Cameron's computer hostage — announce each Chrome burst, start immediately, and STOP the instant he messages.

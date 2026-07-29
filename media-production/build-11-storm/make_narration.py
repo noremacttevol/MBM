@@ -58,26 +58,31 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, 'Evening, on the Sea of Galilee. Jesus had been teaching crowds on the shore all day — story after story, until the light was going and his voice was nearly gone with it. He was worn through. And when the last story was told, he said to his friends:'),
-    ("j0", JESUS, 'Let us pass over unto the other side.'),
-    ("n1", NARRATOR, 'So they took him, Mark says, even as he was — no rest, no supper, straight from the last word into the boat. Other little boats followed them out.'),
-    ("n1b", NARRATOR, 'And here is something worth knowing about the men at the oars: at least four of them were professional fishermen. Peter and his brother Andrew, and James and John, the sons of Zebedee. This lake was their workplace. They had crossed it at night their whole lives. Nothing about dark water scared them.'),
+    ("n0", NARRATOR, "Evening, on the Sea of Galilee. Jesus had been teaching crowds on the shore all day — story after story, until the light was going and his voice was nearly gone with it. He was worn through. And when the last story was told, he said to his friends:"),
+    # Mark 4:35
+    ("j0", JESUS, "Let us pass over unto the other side."),
+    ("n1", NARRATOR, "So they took him, Mark says, even as he was — no rest, no supper, straight from the last word into the boat. Other little boats followed them out."),
+    ("n1b", NARRATOR, "And here is something worth knowing about the men at the oars: at least four of them were professional fishermen. Peter and his brother Andrew, and James and John, the sons of Zebedee. This lake was their workplace. They had crossed it at night their whole lives. Nothing about dark water scared them."),
     ("n2", NARRATOR, "Then the lake turned on them. The Sea of Galilee lies seven hundred feet below sea level, in a bowl of hills — when cold wind spills down those slopes, calm water can turn violent in minutes. This storm was savage even by that lake's standard."),
-    ("n2b", NARRATOR, 'Waves broke over the side faster than the men could bail. The boat was filling. And the fishermen who had survived a hundred storms looked at this one — and believed it was going to be their last.'),
+    ("n2b", NARRATOR, "Waves broke over the side faster than the men could bail. The boat was filling. And the fishermen who had survived a hundred storms looked at this one — and believed it was going to be their last."),
     ("n3", NARRATOR, "And Jesus was asleep. In the stern, on the steersman's cushion, soaked with spray, rising and falling with the pitching deck — asleep. Not because he didn't know what was happening. Because he wasn't afraid of it."),
-    ("n4", NARRATOR, 'So they woke him. Rough hands on his shoulder, screaming over the wind the question people have been asking in storms ever since:'),
-    ("s38", SCRIPTURE, 'Master, carest thou not that we perish?'),
+    ("n4", NARRATOR, "So they woke him. Rough hands on his shoulder, screaming over the wind the question people have been asking in storms ever since:"),
+    # Mark 4:38
+    ("s38", SCRIPTURE, "Master, carest thou not that we perish?"),
     ("n4b", NARRATOR, "Don't you care that we are going down? Listen to what they were really saying. They never doubted his power. They doubted his heart."),
-    ("n5", NARRATOR, 'He got up. He stood in the stern of a sinking boat, in the middle of the worst storm those fishermen had ever seen. And he did not speak to the men. He spoke to the storm.'),
-    ("j1", JESUS, 'Peace, be still.'),
+    ("n5", NARRATOR, "He got up. He stood in the stern of a sinking boat, in the middle of the worst storm those fishermen had ever seen. And he did not speak to the men. He spoke to the storm."),
+    # Mark 4:39
+    ("j1", JESUS, "Peace, be still."),
     ("n6", NARRATOR, "And the wind quit. The sea fell flat — glass flat — with stars where the storm had been, and the only sound left was water dripping off the ropes. Sailors will tell you the waves keep rolling for hours after a wind dies. These didn't. The lake did not calm down. It obeyed."),
-    ("n7", NARRATOR, 'Then he turned to his friends — soaked, shaking, still gripping the ropes — and he asked them, gently:'),
-    ("j2", JESUS, 'Why are ye so fearful? how is it that ye have no faith?'),
+    ("n7", NARRATOR, "Then he turned to his friends — soaked, shaking, still gripping the ropes — and he asked them, gently:"),
+    # Mark 4:40
+    ("j2", JESUS, "Why are ye so fearful? how is it that ye have no faith?"),
     ("n8", NARRATOR, "Hear where he asked that from. Standing in their boat, on the sea he had just flattened to save them. He didn't ask it from the shore. He came through the storm with them — and then he asked why the fear had gotten so much bigger than their trust. He never said the storm wasn't real. He never scolded them for waking him. He was simply bigger than it."),
     ("n9", NARRATOR, "And then a strange thing happened: the fear didn't leave the boat — it changed direction. Mark says they feared exceedingly — more awe after the calm than in the storm — and they asked each other:"),
-    ("s41", SCRIPTURE, 'What manner of man is this, that even the wind and the sea obey him?'),
-    ("n9b", NARRATOR, 'These men knew their scriptures. They knew the old psalm that says it is God who stills the storm to a whisper. And now they were staring at a man in dripping clothes who had just done it.'),
-    ("n10", NARRATOR, 'Whatever storm you are in tonight, hear this: the same Jesus is still in the boat with you. He has not left you alone in it. Bring him your fear, and let him speak his peace over your storm.'),
+    # Mark 4:41
+    ("s41", SCRIPTURE, "What manner of man is this, that even the wind and the sea obey him?"),
+    ("n9b", NARRATOR, "These men knew their scriptures. They knew the old psalm that says it is God who stills the storm to a whisper. And now they were staring at a man in dripping clothes who had just done it."),
+    ("n10", NARRATOR, "Whatever storm you are in tonight, hear this: the same Jesus is still in the boat with you. He has not left you alone in it. Bring him your fear, and let him speak his peace over your storm."),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

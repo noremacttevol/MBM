@@ -43,15 +43,19 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0a", NARRATOR, 'Two criminals were crucified with Jesus, one on each side.'),
-    ("s39", SCRIPTURE, 'If thou be Christ, save thyself and us.'),
-    ("n0b", NARRATOR, 'That was one of them, sneering at him from the next cross over.'),
-    ("s40", SCRIPTURE, 'Dost not thou fear God, seeing thou art in the same condemnation? And we indeed justly; for we receive the due reward of our deeds: but this man hath done nothing amiss.'),
+    ("n0a", NARRATOR, "Two criminals were crucified with Jesus, one on each side."),
+    # Luke 23:39
+    ("s39", SCRIPTURE, "If thou be Christ, save thyself and us."),
+    ("n0b", NARRATOR, "If you're really the Christ, save yourself — and us. That was one of them, sneering at him from the next cross over."),
+    # Luke 23:40-41
+    ("s40", SCRIPTURE, "Dost not thou fear God, seeing thou art in the same condemnation? And we indeed justly; for we receive the due reward of our deeds: but this man hath done nothing amiss."),
     ("n1", NARRATOR, "But the other one stopped him. We're getting what we deserve, he said."),
-    ("n2", NARRATOR, 'Then he turned his head toward Jesus and asked for the smallest thing he could think of.'),
-    ("s42", SCRIPTURE, 'Lord, remember me when thou comest into thy kingdom.'),
-    ("n3", NARRATOR, 'No good deeds to offer. No time left to fix his life. Just a dying man asking.'),
-    ("j1", JESUS, 'Verily I say unto thee, To day shalt thou be with me in paradise.'),
+    ("n2", NARRATOR, "Then he turned his head toward Jesus and asked for the smallest thing he could think of."),
+    # Luke 23:42
+    ("s42", SCRIPTURE, "Lord, remember me when thou comest into thy kingdom."),
+    ("n3", NARRATOR, "No good deeds to offer. No time left to fix his life. Just a dying man asking."),
+    # Luke 23:43
+    ("j1", JESUS, "Verily I say unto thee, To day shalt thou be with me in paradise."),
     ("n4", NARRATOR, "Today. Not someday, not after you've earned it. Today. The last-minute faith of a criminal was enough."),
     ("card", NARRATOR, "He saved a man who had nothing to give but a request. It's never too late to ask."),
 ]

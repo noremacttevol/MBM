@@ -27,18 +27,21 @@ from mbm_speakers import GOD, NARRATOR
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n1", NARRATOR, 'Among the exiles by the river, the prophet Ezekiel received an unusual assignment from God — not a sermon to preach, but an object lesson to act out, so plain that anyone watching could understand it.'),
+    ("n1", NARRATOR, "Among the exiles by the river, the prophet Ezekiel received an unusual assignment from God — not a sermon to preach, but an object lesson to act out, so plain that anyone watching could understand it."),
     ("n2", NARRATOR, "Take a stick, God told him — a flat wooden writing-rod — and mark it with a name: for Judah, and for the people gathered with him. One record, belonging to one part of God's scattered family."),
-    ("n3", NARRATOR, 'Then take a second stick, God said, and mark it with another name: for Joseph. A separate record, belonging to another branch of the same family, long divided from the first.'),
-    ("kv16", GOD, 'Moreover, thou son of man, take thee one stick, and write upon it, For Judah, and for the children of Israel his companions: then take another stick, and write upon it, For Joseph, the stick of Ephraim, and for all the house of Israel his companions:'),
-    ("kv17", GOD, 'And join them one to another into one stick; and they shall become one in thine hand.'),
-    ("n4", NARRATOR, 'Now here is the part that made people stop and stare.'),
-    ("n5", NARRATOR, 'Two separate records, from two separated peoples, brought together and made one. Not one erasing the other, but the two joined, each completing the other, speaking now with a single united voice.'),
-    ("n6", NARRATOR, 'And of course the people came asking, what do you mean by this? Why two sticks made one? What are you trying to show us? God had built the question right into the lesson.'),
-    ("kv19", GOD, 'Say unto them, Thus saith the Lord GOD; Behold, I will take the stick of Joseph, which is in the hand of Ephraim, and the tribes of Israel his fellows, and will put them with him, even the stick of Judah, and make them one stick, and they shall be one in mine hand.'),
-    ("n7", NARRATOR, 'Notice whose hand does the joining. He is the one who gathers the scattered records, and the scattered people, and binds them together into one.'),
-    ("n8", NARRATOR, 'So this strange little sign is really a promise of gathering. God does not leave his family, or his words to them, broken into separate pieces forever. He brings them back together. So the only question is a hopeful one. When the two are made one in his hand, will you take them both up and read?'),
-    ("card", NARRATOR, 'God had Ezekiel join two records into one stick — two witnesses made one in his hand. He gathers what was scattered, and binds his words together. When the two are one, will you take them both up and read?'),
+    ("n3", NARRATOR, "Then take a second stick, God said, and mark it with another name: for Joseph. A separate record, belonging to another branch of the same family, long divided from the first."),
+    # Ezekiel 37:16
+    ("kv16", GOD, "Moreover, thou son of man, take thee one stick, and write upon it, For Judah, and for the children of Israel his companions: then take another stick, and write upon it, For Joseph, the stick of Ephraim, and for all the house of Israel his companions:"),
+    # Ezekiel 37:17
+    ("kv17", GOD, "And join them one to another into one stick; and they shall become one in thine hand."),
+    ("n4", NARRATOR, "Now here is the part that made people stop and stare. Bring the two sticks together, God said, and join them — until the two become a single stick, one solid piece, held together in your hand."),
+    ("n5", NARRATOR, "Two separate records, from two separated peoples, brought together and made one. Not one erasing the other, but the two joined, each completing the other, speaking now with a single united voice."),
+    ("n6", NARRATOR, "And of course the people came asking, what do you mean by this? Why two sticks made one? What are you trying to show us? God had built the question right into the lesson."),
+    # Ezekiel 37:19
+    ("kv19", GOD, "Say unto them, Thus saith the Lord GOD; Behold, I will take the stick of Joseph, which is in the hand of Ephraim, and the tribes of Israel his fellows, and will put them with him, even the stick of Judah, and make them one stick, and they shall be one in mine hand."),
+    ("n7", NARRATOR, "Notice whose hand does the joining. He is the one who gathers the scattered records, and the scattered people, and binds them together into one."),
+    ("n8", NARRATOR, "So this strange little sign is really a promise of gathering. God does not leave his family, or his words to them, broken into separate pieces forever. He brings them back together. So the only question is a hopeful one. When the two are made one in his hand, will you take them both up and read?"),
+    ("card", NARRATOR, "God had Ezekiel join two records into one stick — two witnesses made one in his hand. He gathers what was scattered, and binds his words together. When the two are one, will you take them both up and read?"),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

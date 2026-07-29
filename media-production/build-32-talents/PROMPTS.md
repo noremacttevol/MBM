@@ -15,7 +15,7 @@ stale master-plan photorealistic block).
   shown — he is an ordinary man in the story, generous and kind, not a holy or
   divine figure.
 - **The five-talent servant (shots 1, 2, 5, 6)** — a capable, energetic younger
-  man, short dark hair, a clean olive-green tunic. His face IS shown.
+  man, short dark hair, CLEAN-SHAVEN (no beard, ever — the same beardless young face in every shot), a clean olive-green tunic. His face IS shown.
 - **The two-talent servant (shots 1, 3, 5)** — a steady, earnest man, a warm
   ochre-tan tunic. His face IS shown.
 - **The one-talent servant (shots 1, 4, 7)** — an anxious, careworn man, a drab

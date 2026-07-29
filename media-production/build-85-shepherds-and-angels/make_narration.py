@@ -60,22 +60,26 @@ from mbm_speakers import NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, 'Outside Bethlehem, shepherds were keeping watch over their flocks by night — ordinary men working the late shift, about the lowest job there was.'),
-    ("n1", NARRATOR, 'Suddenly an angel of the Lord stood before them, and the glory of the Lord blazed all around. They were terrified. And the angel said:'),
-    ("j1", SCRIPTURE, 'Fear not: for, behold, I bring you good tidings of great joy, which shall be to all people. For unto you is born this day in the city of David a Saviour, which is Christ the Lord.'),
-    ("n1b", NARRATOR, 'Listen to who he says it is for. Not for the palace. Not for the temple. For you — the men out in the field on the night shift.'),
-    ("n2", NARRATOR, 'And in a moment the one angel became a vast multitude of the heavenly host, filling the whole sky.'),
-    ("j2", SCRIPTURE, 'Glory to God in the highest, and on earth peace, good will toward men.'),
+    ("n0", NARRATOR, "Outside Bethlehem, shepherds were keeping watch over their flocks by night — ordinary men working the late shift, about the lowest job there was."),
+    ("n1", NARRATOR, "Suddenly an angel of the Lord stood before them, and the glory of the Lord blazed all around. They were terrified. And the angel said:"),
+    # Luke 2:10-11
+    ("j1", SCRIPTURE, "Fear not: for, behold, I bring you good tidings of great joy, which shall be to all people. For unto you is born this day in the city of David a Saviour, which is Christ the Lord."),
+    ("n1b", NARRATOR, "Don't be afraid, he told them — I'm bringing you good news, and it's going to be a joy to everybody. Today, in David's town, a Saviour has been born for you. Listen to who he says it is for. Not for the palace. Not for the temple. For you — the men out in the field on the night shift."),
+    ("n2", NARRATOR, "And in a moment the one angel became a vast multitude of the heavenly host, filling the whole sky."),
+    # Luke 2:14
+    ("j2", SCRIPTURE, "Glory to God in the highest, and on earth peace, good will toward men."),
     ("n2b", NARRATOR, "That is what the sky said. Not a warning. Not a demand. Peace, and good will — heaven's opinion of the human race, said out loud over a sheep field."),
-    ("n3", NARRATOR, 'When the angels had gone away into heaven, the shepherds said to one another:'),
-    ("s15", SCRIPTURE, 'Let us now go even unto Bethlehem, and see this thing which is come to pass, which the Lord hath made known unto us.'),
-    ("n3b", NARRATOR, 'They did not stand around discussing it. They came with haste into the town.'),
-    ("n4", NARRATOR, 'They found Mary and Joseph, and the baby lying in the manger — exactly as they had been told.'),
-    ("n5", NARRATOR, 'There he was: the Saviour of the world, a tiny newborn asleep in a feed trough, wrapped in strips of cloth.'),
-    ("n6", NARRATOR, 'The shepherds could not keep it in. They went out glorifying and praising God, telling everyone they met what they had seen and heard.'),
-    ("n7", SCRIPTURE, 'But Mary kept all these things, and pondered them in her heart.'),
-    ("n7b", NARRATOR, 'In a story full of people shouting, Luke stops to tell you about the one person who said nothing. She gathered it all up — the angels, the shepherds, the trough, the strangers at the door in the middle of the night — and she held on to it, and turned it over, for the rest of her life.'),
-    ("card", NARRATOR, 'The first birth announcement in history went to night-shift workers on a hillside. Good news of great joy, for all people. Including you.'),
+    ("n3", NARRATOR, "When the angels had gone away into heaven, the shepherds said to one another:"),
+    # Luke 2:15
+    ("s15", SCRIPTURE, "Let us now go even unto Bethlehem, and see this thing which is come to pass, which the Lord hath made known unto us."),
+    ("n3b", NARRATOR, "Let's go over to Bethlehem right now and see this thing that has happened, that the Lord has told us about. They did not stand around discussing it. They came with haste into the town."),
+    ("n4", NARRATOR, "They found Mary and Joseph, and the baby lying in the manger — exactly as they had been told."),
+    ("n5", NARRATOR, "There he was: the Saviour of the world, a tiny newborn asleep in a feed trough, wrapped in strips of cloth."),
+    ("n6", NARRATOR, "The shepherds could not keep it in. They went out glorifying and praising God, telling everyone they met what they had seen and heard."),
+    # Luke 2:19
+    ("n7", SCRIPTURE, "But Mary kept all these things, and pondered them in her heart."),
+    ("n7b", NARRATOR, "In a story full of people shouting, Luke stops to tell you about the one person who said nothing. She gathered it all up — the angels, the shepherds, the trough, the strangers at the door in the middle of the night — and she held on to it, and turned it over, for the rest of her life."),
+    ("card", NARRATOR, "The first birth announcement in history went to night-shift workers on a hillside. Good news of great joy, for all people. Including you."),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

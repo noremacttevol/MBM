@@ -32,11 +32,12 @@ man of about fifty, a lean weathered face, a FULL hairline of grey-streaked
 dark hair, a full grey-streaked beard, dressed in a dark umber robe with a
 charcoal mantle (never pale, never cream). He appears EXACTLY ONCE.
 
-[PETER LOCK] = Peter, in the picture he appears in: a stocky, broad-shouldered
-Middle Eastern Jewish fisherman of about fifty, weathered sun-browned face, a
-FULL hairline of thick curly dark hair streaked with grey, a full
-grey-streaked dark beard, deep-set dark eyes, a dark rust-brown wool tunic
-with a charcoal-grey mantle (never cream). He appears EXACTLY ONCE.
+[PETER LOCK] = Peter, in the picture he appears in: a sturdy broad-shouldered
+Galilean fisherman in his MID-THIRTIES, weathered olive skin, thick DARK curly
+hair and a full DARK beard — never grey, never silver, never salt-and-pepper,
+never an old man — deep-set dark eyes, strong rope-worn hands, an open
+expressive face. A BLUE-GREY wool tunic with a rope belt and a dun-brown
+fisher's mantle (never cream). He appears EXACTLY ONCE.
 
 [PEOPLE LOCK] = all other people are Middle Eastern men, women and children of
 every age and station in dark saturated earth tones — deep brown, rust,

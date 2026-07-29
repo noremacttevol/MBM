@@ -80,3 +80,6 @@ SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stack
 ### Closing card
 Text on cream (#F7F2E9), serif, spoken + captioned (an INVITATION): "What others
 meant for harm, God can mean for good. Let it go."
+
+## s3b-the-reveal — NEW (split off ST3 / Genesis 45:4, was 31.3s): what the brothers see
+[STILL STYLE BLOCK] [PALACE LOCK] [JOSEPH LOCK] The reveal, seen from BEHIND and beside the brothers so the viewer sees what THEY see. In the foreground stand the backs and half-turned profiles of the travel-worn Hebrew brothers — a group of bearded shepherd men in dusty earth-toned robes, frozen where they stand. Facing them across the suddenly EMPTIED Egyptian hall — every servant sent out, the great room bare and quiet — stands Joseph the governor: clean-shaven, straight black Egyptian court hair, in fine white linen with a gold-and-blue broad collar, his FACE now uncovered and open for the first time, wet with tears, telling them who he is. RECOGNITION is just breaking over the brothers — shock, dawning dread and wonder on the few faces turned enough to see. It is the SECOND BEFORE any embrace: nobody has moved yet, the air held still. Warm Egyptian palace light on stone and painted columns. Every figure has two arms, two hands, two legs and one head. One single continuous scene painted edge to edge.

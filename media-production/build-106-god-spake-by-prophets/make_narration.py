@@ -49,22 +49,29 @@ from mbm_speakers import GOD, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n1", NARRATOR, 'For thousands of years, God had been speaking. Never all at once. Never the whole picture. But always, patiently, reaching toward people who could barely hear him.'),
-    ("jv1", SCRIPTURE, 'God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets,'),
-    ("n2", NARRATOR, 'In many times, and in many different ways. To one he spoke from a bush that burned but would not burn up. To another, in fire that fell on a mountain.'),
-    ("n3", NARRATOR, 'To one he gave words to write on a scroll in the lamplight. Another he sent to cry out in the city gate to people who mostly would not listen. A fragment here, a flash there — true, but partial.'),
-    ("n4", NARRATOR, 'Century after century, messenger after messenger, each one carrying a piece of it. Never quite the whole. Never a face you could look full into and say, so that is what God is like.'),
-    ("n5", NARRATOR, 'And then, after all the fragments, God did something he had never done. He stopped sending messages about himself — and came in person.'),
-    ("jv2", SCRIPTURE, 'Hath in these last days spoken unto us by his Son.'),
-    ("sv5", SCRIPTURE, 'For unto which of the angels said he at any time,'),
-    ("gv5", GOD, 'Thou art my Son, this day have I begotten thee?'),
-    ("sv5b", SCRIPTURE, 'And again,'),
-    ("gv5b", GOD, 'I will be to him a Father, and he shall be to me a Son?'),
-    ("nA", NARRATOR, 'Listen to who is talking there. God never said that to an angel. He said it to one person, and that is the person he sent.'),
+    ("n1", NARRATOR, "For thousands of years, God had been speaking. Never all at once. Never the whole picture. But always, patiently, reaching toward people who could barely hear him."),
+    # Hebrews 1:1
+    ("jv1", SCRIPTURE, "God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets,"),
+    ("n2", NARRATOR, "In many times, and in many different ways. To one he spoke from a bush that burned but would not burn up. To another, in fire that fell on a mountain."),
+    ("n3", NARRATOR, "To one he gave words to write on a scroll in the lamplight. Another he sent to cry out in the city gate to people who mostly would not listen. A fragment here, a flash there — true, but partial."),
+    ("n4", NARRATOR, "Century after century, messenger after messenger, each one carrying a piece of it. Never quite the whole. Never a face you could look full into and say, so that is what God is like."),
+    ("n5", NARRATOR, "And then, after all the fragments, God did something he had never done. He stopped sending messages about himself — and came in person."),
+    # Hebrews 1:2
+    ("jv2", SCRIPTURE, "Hath in these last days spoken unto us by his Son."),
+    # Hebrews 1:5
+    ("sv5", SCRIPTURE, "For unto which of the angels said he at any time,"),
+    # Hebrews 1:5 (Psalm 2:7)
+    ("gv5", GOD, "Thou art my Son, this day have I begotten thee?"),
+    # Hebrews 1:5
+    ("sv5b", SCRIPTURE, "And again,"),
+    # Hebrews 1:5 (2 Samuel 7:14)
+    ("gv5b", GOD, "I will be to him a Father, and he shall be to me a Son?"),
+    ("nA", NARRATOR, "Listen to who is talking there. That is the Father's own voice, saying it out loud: you are my Son. God never said that to an angel. He said it to one person, and that is the person he sent."),
     ("n6", NARRATOR, "Not another prophet with another piece. The Son. God's own last and clearest word, spoken not in fire on a mountain, but in a real human life you could walk beside."),
-    ("jv3", SCRIPTURE, 'Who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power.'),
-    ("n7", NARRATOR, 'The exact likeness of God, in a face you could actually look at. If you have ever wondered what God is really like — whether he is angry, or distant, or cold — the answer is not a guess. Look at Jesus. That is God, saying everything, at last.'),
-    ("card", NARRATOR, 'For ages God spoke in fragments; then he said it all in a Son. His clearest word about himself is a warm human face inviting you in. If you want to know what God is really like, where might you start looking?'),
+    # Hebrews 1:3
+    ("jv3", SCRIPTURE, "Who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power."),
+    ("n7", NARRATOR, "The exact likeness of God, in a face you could actually look at. If you have ever wondered what God is really like — whether he is angry, or distant, or cold — the answer is not a guess. Look at Jesus. That is God, saying everything, at last."),
+    ("card", NARRATOR, "For ages God spoke in fragments; then he said it all in a Son. His clearest word about himself is a warm human face inviting you in. If you want to know what God is really like, where might you start looking?"),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

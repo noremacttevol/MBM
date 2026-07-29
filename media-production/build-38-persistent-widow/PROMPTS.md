@@ -108,3 +108,6 @@ window glowing with welcome. The same humble young man in his plain undyed tunic
 rises with peace on his face, unburdened, at the start of a new day — the picture
 of a prayer already heard by a God who was never reluctant. Radiant, hopeful,
 overflowing warm light. One single continuous scene painted edge to edge.
+
+## s7b-heard-at-once — NEW (split off S7 / Luke 18, was 31.1s): the opposite of the courtroom
+[STILL STYLE BLOCK] The exact OPPOSITE of the cold courtroom: a warm, kindly father in a simple warm earth-toned tunic crouches down and LEANS IN toward his young child, who stands close before him speaking earnestly — the father's face OPEN, attentive and glad, giving his whole immediate warm attention, listening with his whole heart, one hand gently on the child's shoulder. NO judgment desk, NO gate, NO guards, NO cold stone pillars, NO line of people waiting — just a warm ordinary home in soft golden light, and a father who turns toward the one asking the very instant they speak. Warmth and immediate, personal attention, unhurried and glad. Nobody wears cream or off-white. Two figures near, each with two arms, two hands, one head. One single continuous scene painted edge to edge. 9:16 vertical.

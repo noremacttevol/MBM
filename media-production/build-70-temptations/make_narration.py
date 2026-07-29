@@ -59,25 +59,33 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 # string handed to the TTS is respelled.
 SEGMENTS = [
     ("n0", NARRATOR, "Straight from the river, still carrying his Father's words — this is my beloved Son — Jesus was led by the Spirit up into the wilderness. Not by accident. Led there. Before the teaching, before the miracles, there was going to be a battle, and it was going to happen in the emptiest place in the country: bare rock, dead heat, and silence."),
-    ("n1", NARRATOR, 'He fasted forty days and forty nights. Mark that: he was not floating above any of it. He got hungrier every single day, the way you would. And when he was at his weakest and emptiest — that is exactly when the tempter came.'),
-    ("s3", SCRIPTURE, 'If thou be the Son of God, command that these stones be made bread.'),
+    ("n1", NARRATOR, "He fasted forty days and forty nights. Mark that: he was not floating above any of it. He got hungrier every single day, the way you would. And when he was at his weakest and emptiest — that is exactly when the tempter came."),
+    # Matthew 4:3
+    ("s3", SCRIPTURE, "If thou be the Son of God, command that these stones be made bread."),
     ("n2", NARRATOR, "Hear what that little word IF is doing. Heaven had just said, this IS my Son. The very first attack was aimed at that sentence — prove it, earn it, doubt it. And the bait was reasonable: you're starving, you have the power, feed yourself. Use what you are for you."),
-    ("j1", JESUS, 'It is written, Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God.'),
-    ("n3", NARRATOR, 'Notice what he did NOT do. He did not argue. He did not use his own power. He answered with a line of scripture — a sentence any of us could memorize — and stood on it. The Son of God fought hungry, as a man, with the same weapon you have on your shelf.'),
-    ("n4", NARRATOR, 'The second try was stranger. In a flash he was at the highest corner of the temple, the city far below — and the voice turned religious. It quoted scripture back at him.'),
-    ("s6", SCRIPTURE, 'If thou be the Son of God, cast thyself down: for it is written, He shall give his angels charge concerning thee: and in their hands they shall bear thee up, lest at any time thou dash thy foot against a stone.'),
-    ("n4b", NARRATOR, 'Throw yourself down, it said — the angels are promised to catch you. Force your Father to prove himself, publicly, on demand. Make God perform.'),
-    ("j2", JESUS, 'It is written again, Thou shalt not tempt the Lord thy God.'),
-    ("n5", NARRATOR, 'Trust does not run experiments on the one it trusts. Then came the last offer, the biggest one. From a high mountain, all the kingdoms of the world and the glory of them, spread out like a feast.'),
-    ("s9", SCRIPTURE, 'All these things will I give thee, if thou wilt fall down and worship me.'),
-    ("n5b", NARRATOR, 'All of it, yours, right now — one bow, to me. It was the crown without the cross. Everything he came to win, offered as a shortcut with only one small condition: worship the wrong king.'),
-    ("j3", JESUS, 'Get thee hence, Satan: for it is written, Thou shalt worship the Lord thy God, and him only shalt thou serve.'),
-    ("n6a", NARRATOR, 'Get away from me. He did not haggle with the offer, and he did not admire it. He named it and ended it.'),
-    ("s11", SCRIPTURE, 'Then the devil leaveth him, and, behold, angels came and ministered unto him.'),
-    ("n6", NARRATOR, 'And it was over. The devil left him — for a season. And angels came and ministered to him, the way dawn comes after the longest night. Bread, after the fast. Company, after the silence. His Father had not been absent for one minute of it — he had been trusted.'),
-    ("s415", SCRIPTURE, 'For we have not an high priest which cannot be touched with the feeling of our infirmities; but was in all points tempted like as we are, yet without sin.'),
-    ("n7", NARRATOR, 'That is what the book of Hebrews is saying. We do not have a Savior who cannot understand our weakness — he was tempted in every way we are. Hungry, alone, offered every shortcut. He has stood in your exact spot. That is why he knows how to stand next to you in it.'),
-    ("card", NARRATOR, 'He has stood where you stand — hungry, alone, offered every shortcut — and he held. Ask him. He knows how to help you hold.'),
+    # Matthew 4:4
+    ("j1", JESUS, "It is written, Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God."),
+    ("n3", NARRATOR, "Notice what he did NOT do. He did not argue. He did not use his own power. He answered with a line of scripture — a sentence any of us could memorize — and stood on it. The Son of God fought hungry, as a man, with the same weapon you have on your shelf."),
+    ("n4", NARRATOR, "The second try was stranger. In a flash he was at the highest corner of the temple, the city far below — and the voice turned religious. It quoted scripture back at him."),
+    # Matthew 4:6
+    ("s6", SCRIPTURE, "If thou be the Son of God, cast thyself down: for it is written, He shall give his angels charge concerning thee: and in their hands they shall bear thee up, lest at any time thou dash thy foot against a stone."),
+    ("n4b", NARRATOR, "Throw yourself down, it said — the angels are promised to catch you. Force your Father to prove himself, publicly, on demand. Make God perform."),
+    # Matthew 4:7
+    ("j2", JESUS, "It is written again, Thou shalt not tempt the Lord thy God."),
+    ("n5", NARRATOR, "Trust does not run experiments on the one it trusts. Then came the last offer, the biggest one. From a high mountain, all the kingdoms of the world and the glory of them, spread out like a feast."),
+    # Matthew 4:9
+    ("s9", SCRIPTURE, "All these things will I give thee, if thou wilt fall down and worship me."),
+    ("n5b", NARRATOR, "All of it, yours, right now — one bow, to me. It was the crown without the cross. Everything he came to win, offered as a shortcut with only one small condition: worship the wrong king."),
+    # Matthew 4:10
+    ("j3", JESUS, "Get thee hence, Satan: for it is written, Thou shalt worship the Lord thy God, and him only shalt thou serve."),
+    ("n6a", NARRATOR, "Get away from me. He did not haggle with the offer, and he did not admire it. He named it and ended it."),
+    # Matthew 4:11
+    ("s11", SCRIPTURE, "Then the devil leaveth him, and, behold, angels came and ministered unto him."),
+    ("n6", NARRATOR, "And it was over. The devil left him — for a season. And angels came and ministered to him, the way dawn comes after the longest night. Bread, after the fast. Company, after the silence. His Father had not been absent for one minute of it — he had been trusted."),
+    # Hebrews 4:15
+    ("s415", SCRIPTURE, "For we have not an high priest which cannot be touched with the feeling of our infirmities; but was in all points tempted like as we are, yet without sin."),
+    ("n7", NARRATOR, "That is what the book of Hebrews is saying. We do not have a Savior who cannot understand our weakness — he was tempted in every way we are. Hungry, alone, offered every shortcut. He has stood in your exact spot. That is why he knows how to stand next to you in it."),
+    ("card", NARRATOR, "He has stood where you stand — hungry, alone, offered every shortcut — and he held. Ask him. He knows how to help you hold."),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

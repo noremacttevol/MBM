@@ -143,6 +143,34 @@ SHOTS = {
         "the SAME direction she is, toward the well — nobody walks toward the viewer. Jesus is "
         "small in the distance ahead, seated at the well, waiting. "
         + JESUS + " " + WOMAN + " " + WELL + " " + LAND + " " + ANAT,
+
+    "s3b-he-asked-her-for-a-drink":
+        "The impossible sentence, the moment before she answers: JESUS sits on the stone rim "
+        "in the blazing noon, tired and completely at ease, and he has just held out one open "
+        "hand toward her clay water jar and asked her for a drink — his hand is plainly "
+        "extended, palm up and empty, and there is no cup and no bucket in it. The Samaritan "
+        "woman has stopped a few paces short of the well with the jar still on her shoulder "
+        "and both her hands on it, not yet set down, not yet seated; she is looking straight "
+        "at him, motionless, her mouth just parted, caught completely off guard that he spoke "
+        "to her at all. She has NOT yet answered. Nobody else is anywhere in the picture. "
+        + JESUS + " " + WOMAN + " " + WELL + " " + LAND + " " + ANAT,
+
+    "s6b-the-disciples-stop-short":
+        "THE RETURNING DISCIPLES, halted dead on the dusty path at noon, and EVERY ONE OF "
+        "THEM IS LOOKING IN THE SAME DIRECTION AT THE SAME THING. STRICT GEOMETRY: the five "
+        "disciples stand together in the RIGHT HALF of the frame, close to the camera and "
+        "large; the well with JESUS and the Samaritan woman seated and talking beside it "
+        "stands in the LEFT HALF, in the middle distance and clearly smaller, on the same "
+        "ground plane. Every single disciple has his head and body turned toward that seated "
+        "pair on the left, so that every gaze in the picture converges on them — not one of "
+        "them looks at the camera, at the ground, or off in any other direction. They are "
+        "stopped mid-step, not walking. Five Jewish men in rough wool tunics of dun, faded "
+        "brown, olive and grey-blue, all with SHORT hair or head-cloths, and not one of them "
+        "in cream or off-white: a broad bearded man with a cloth-wrapped bundle of bread "
+        "half-lowered and forgotten in his hands, a younger man beside him, a man gripping a "
+        "water-skin, and two more behind. Every one of their faces is painted fully and "
+        "clearly, astonished but not angry, and not one of them says a word. "
+        + JESUS + " " + WOMAN + " " + WELL + " " + LAND + " " + ANAT,
 }
 
 

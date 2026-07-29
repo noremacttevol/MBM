@@ -1,0 +1,11 @@
+# REDO-ALL worklist — builds still on the OLD voice, must be reworked to new speaker voices.
+# Cameron 2026-07-23: approved-lock is dead; redo + re-approve every one.
+# Render machine: from SPEAKER-LAW/ run  python3 run_batch.py <build-folder>  (plans exist).
+build-06-two-sons
+build-11-storm
+build-12-bartimaeus
+build-15-centurion
+build-16-mary-martha
+build-17-lazarus
+build-92-peters-denial
+build-99-flesh-and-bone-thomas

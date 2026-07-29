@@ -61,24 +61,34 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, 'A Pharisee named Simon invited Jesus to dinner. It was a careful, respectable house — and it was about to be interrupted.'),
-    ("n1", NARRATOR, 'A woman from the town — a woman everyone in that room knew by her reputation — came in uninvited. She carried an alabaster jar of costly perfume.'),
-    ("n2", NARRATOR, 'She stood behind him at his feet — guests reclined at meals like this, their feet stretched away from the table — and she was weeping. Her tears fell on his feet. She wiped them with her hair, kissed them, and poured out the perfume.'),
-    ("s39", SCRIPTURE, 'This man, if he were a prophet, would have known who and what manner of woman this is that toucheth him: for she is a sinner.'),
-    ("n3", NARRATOR, 'Simon thought to himself: if this man were really a prophet, he would know what kind of woman is touching him. He never said a word of it out loud.'),
-    ("j40", JESUS, 'Simon, I have somewhat to say unto thee.'),
-    ("s40", SCRIPTURE, 'Master, say on.'),
-    ("j41", JESUS, 'There was a certain creditor which had two debtors: the one owed five hundred pence, and the other fifty. And when they had nothing to pay, he frankly forgave them both. Tell me therefore, which of them will love him most?'),
-    ("s43", SCRIPTURE, 'I suppose that he, to whom he forgave most.'),
-    ("n4", NARRATOR, 'Jesus answered the thought Simon never said out loud — with a small story. Two men were in debt. One owed ten times what the other did, and neither of them could pay a penny of it, so the lender wiped out both debts. Which one will love him more? Simon gave the only answer there was: the one who was forgiven more. And he was right — he just had not noticed he was talking about the woman on the floor.'),
-    ("j44", JESUS, 'Seest thou this woman? I entered into thine house, thou gavest me no water for my feet: but she hath washed my feet with tears, and wiped them with the hairs of her head.'),
-    ("n5", NARRATOR, 'Then he turned toward the woman — but kept talking to Simon. Look at her, he said. When I walked into your house, you offered me no water for my feet, no welcome, no oil. She has done nothing else since she came in.'),
-    ("j1", JESUS, 'Her sins, which are many, are forgiven; for she loved much: but to whom little is forgiven, the same loveth little.'),
-    ("n5b", NARRATOR, 'Her sins are many, he said — and that is exactly why she loves like this. Simon had been sitting there the whole meal, certain he was the clean one.'),
-    ("j2", JESUS, 'Thy sins are forgiven.'),
-    ("s49", SCRIPTURE, 'Who is this that forgiveth sins also?'),
-    ("n6", NARRATOR, 'The table stirred — who is this, who even forgives sins? He did not answer them. He was still looking at her.'),
-    ("j3", JESUS, 'Thy faith hath saved thee; go in peace.'),
+    ("n0", NARRATOR, "A Pharisee named Simon invited Jesus to dinner. It was a careful, respectable house — and it was about to be interrupted."),
+    ("n1", NARRATOR, "A woman from the town — a woman everyone in that room knew by her reputation — came in uninvited. She carried an alabaster jar of costly perfume."),
+    ("n2", NARRATOR, "She stood behind him at his feet — guests reclined at meals like this, their feet stretched away from the table — and she was weeping. Her tears fell on his feet. She wiped them with her hair, kissed them, and poured out the perfume."),
+    # Luke 7:39
+    ("s39", SCRIPTURE, "This man, if he were a prophet, would have known who and what manner of woman this is that toucheth him: for she is a sinner."),
+    ("n3", NARRATOR, "Simon thought to himself: if this man were really a prophet, he would know what kind of woman is touching him. He never said a word of it out loud."),
+    # Luke 7:40
+    ("j40", JESUS, "Simon, I have somewhat to say unto thee."),
+    # Luke 7:40
+    ("s40", SCRIPTURE, "Master, say on."),
+    # Luke 7:41-42
+    ("j41", JESUS, "There was a certain creditor which had two debtors: the one owed five hundred pence, and the other fifty. And when they had nothing to pay, he frankly forgave them both. Tell me therefore, which of them will love him most?"),
+    # Luke 7:43
+    ("s43", SCRIPTURE, "I suppose that he, to whom he forgave most."),
+    ("n4", NARRATOR, "Jesus answered the thought Simon never said out loud — with a small story. Two men were in debt. One owed ten times what the other did, and neither of them could pay a penny of it, so the lender wiped out both debts. Which one will love him more? Simon gave the only answer there was: the one who was forgiven more. And he was right — he just had not noticed he was talking about the woman on the floor."),
+    # Luke 7:44
+    ("j44", JESUS, "Seest thou this woman? I entered into thine house, thou gavest me no water for my feet: but she hath washed my feet with tears, and wiped them with the hairs of her head."),
+    ("n5", NARRATOR, "Then he turned toward the woman — but kept talking to Simon. Look at her, he said. When I walked into your house, you offered me no water for my feet, no welcome, no oil. She has done nothing else since she came in."),
+    # Luke 7:47
+    ("j1", JESUS, "Her sins, which are many, are forgiven; for she loved much: but to whom little is forgiven, the same loveth little."),
+    ("n5b", NARRATOR, "Her sins are many, he said, and they are forgiven — and that is exactly why she loves like this. Simon had been sitting there the whole meal, certain he was the clean one."),
+    # Luke 7:48
+    ("j2", JESUS, "Thy sins are forgiven."),
+    # Luke 7:49
+    ("s49", SCRIPTURE, "Who is this that forgiveth sins also?"),
+    ("n6", NARRATOR, "The table stirred — who is this, who even forgives sins? He did not answer them. He was still looking at her."),
+    # Luke 7:50
+    ("j3", JESUS, "Thy faith hath saved thee; go in peace."),
     ("card", NARRATOR, "She was known for the worst thing she'd done. He knew her for her love. Which name would you rather answer to?"),
 ]
 

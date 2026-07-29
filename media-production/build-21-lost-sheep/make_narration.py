@@ -50,24 +50,29 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n1", NARRATOR, 'The people everyone else had written off — the cheats, the outcasts, the ones with a past — kept crowding in close to hear Jesus.'),
-    ("n2", NARRATOR, 'And the religious men muttered about it.'),
-    ("s2", SCRIPTURE, 'This man receiveth sinners, and eateth with them.'),
-    ("n2b", NARRATOR, 'This man welcomes sinners, they said, and even eats with them.'),
-    ("n3", NARRATOR, 'So Jesus told them a story about how heaven really feels about one lost person.'),
-    ("j1", JESUS, 'What man of you, having an hundred sheep, if he lose one of them, doth not leave the ninety and nine in the wilderness, and go after that which is lost, until he find it?'),
-    ("n4", NARRATOR, 'Which of you, he asks, with a hundred sheep, would not leave the ninety-nine behind to go after the one that wandered off, and keep searching until you found it?'),
-    ("n5", NARRATOR, 'He does not stand there counting what he still has. He leaves the ninety-nine behind to go out after the one that is gone.'),
-    ("n6", NARRATOR, 'He searches through the night, over the rocks and the ravines, calling into the dark, because to him that one is not a loss he can shrug off. That one is his.'),
-    ("n7", NARRATOR, 'And when he finds it — frightened, tangled in the thorns, too worn out to walk — he does not scold it, and he does not leave it there.'),
-    ("j2", JESUS, 'And when he hath found it, he layeth it on his shoulders, rejoicing.'),
-    ("n8", NARRATOR, 'He lifts it up, lays it across his own shoulders, and carries it the whole way home, rejoicing. Not relieved. Not annoyed at the trouble. Rejoicing.'),
-    ("n9", NARRATOR, 'Then he calls everyone together — friends, neighbors, the whole village — and throws a celebration.'),
-    ("j3", JESUS, 'Rejoice with me; for I have found my sheep which was lost.'),
-    ("n9b", NARRATOR, 'Be glad with me, he tells them. Not, I got my property back. It was his the whole time it was missing.'),
-    ("j4", JESUS, 'I say unto you, that likewise joy shall be in heaven over one sinner that repenteth, more than over ninety and nine just persons, which need no repentance.'),
-    ("n10", NARRATOR, 'That is how good he is. Heaven throws a party over one person turning back. Not a lecture. Not a grudge. Joy.'),
-    ("card", NARRATOR, 'To him, you were never one of a crowd. Have you ever felt like the one who wandered too far to be worth coming after?'),
+    ("n1", NARRATOR, "The people everyone else had written off — the cheats, the outcasts, the ones with a past — kept crowding in close to hear Jesus."),
+    ("n2", NARRATOR, "And the religious men muttered about it."),
+    # Luke 15:2
+    ("s2", SCRIPTURE, "This man receiveth sinners, and eateth with them."),
+    ("n2b", NARRATOR, "This man welcomes sinners, they said, and even eats with them."),
+    ("n3", NARRATOR, "So Jesus told them a story about how heaven really feels about one lost person."),
+    # Luke 15:4
+    ("j1", JESUS, "What man of you, having an hundred sheep, if he lose one of them, doth not leave the ninety and nine in the wilderness, and go after that which is lost, until he find it?"),
+    ("n4", NARRATOR, "Which of you, he asks, with a hundred sheep, would not leave the ninety-nine behind to go after the one that wandered off, and keep searching until you found it?"),
+    ("n5", NARRATOR, "He does not stand there counting what he still has. He leaves the ninety-nine behind to go out after the one that is gone."),
+    ("n6", NARRATOR, "He searches through the night, over the rocks and the ravines, calling into the dark, because to him that one is not a loss he can shrug off. That one is his."),
+    ("n7", NARRATOR, "And when he finds it — frightened, tangled in the thorns, too worn out to walk — he does not scold it, and he does not leave it there."),
+    # Luke 15:5
+    ("j2", JESUS, "And when he hath found it, he layeth it on his shoulders, rejoicing."),
+    ("n8", NARRATOR, "He lifts it up, lays it across his own shoulders, and carries it the whole way home, rejoicing. Not relieved. Not annoyed at the trouble. Rejoicing."),
+    ("n9", NARRATOR, "Then he calls everyone together — friends, neighbors, the whole village — and throws a celebration."),
+    # Luke 15:6
+    ("j3", JESUS, "Rejoice with me; for I have found my sheep which was lost."),
+    ("n9b", NARRATOR, "Be glad with me, he tells them. Not, I got my property back. It was his the whole time it was missing."),
+    # Luke 15:7
+    ("j4", JESUS, "I say unto you, that likewise joy shall be in heaven over one sinner that repenteth, more than over ninety and nine just persons, which need no repentance."),
+    ("n10", NARRATOR, "That is how good he is. Heaven throws a party over one person turning back. Not a lecture. Not a grudge. Joy."),
+    ("card", NARRATOR, "To him, you were never one of a crowd. Have you ever felt like the one who wandered too far to be worth coming after?"),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

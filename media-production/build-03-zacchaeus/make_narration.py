@@ -52,25 +52,31 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 SEGMENTS = [
     ("n0", NARRATOR, "In Jericho there lived a man named Zacchaeus. And if you're thinking of Matthew — the tax collector who became an apostle — that's a different man. It's one of the most common mix-ups in the Bible. Matthew worked a tax booth up in Galilee. Zacchaeus ran the whole tax office in Jericho. And he was rich."),
     ("n1", NARRATOR, "Here's why that mattered. Tax collectors worked for Rome — the empire occupying their own people — and they got rich by charging extra and keeping the difference. So to his neighbors, Zacchaeus wasn't just a cheat. He was a traitor. No one greeted him. No one wanted him at their table."),
-    ("n2", NARRATOR, 'When Jesus came to Jericho, the whole city pressed into the street to see him. And Zacchaeus had a problem. He was a short man — the scripture goes out of its way to mention it — and the crowd stood like a wall. Not one person made room for him.'),
-    ("n3a", NARRATOR, 'So this small, wealthy man did something no respectable person would ever do. He gathered up his fine robes, and he ran.'),
-    ("n3b", NARRATOR, 'And he climbed a sycamore tree, like a child. Bible students love this detail. In that world, a grown man running and climbing was humiliating. Zacchaeus traded the last of his dignity for one glimpse of Jesus — from a distance. He would have settled for that.'),
-    ("n4", NARRATOR, 'He got far more. Jesus stopped — under that exact tree — looked up, and called him by name.'),
-    ("j1a", JESUS, 'Zacchaeus, make haste, and come down;'),
-    ("j1b", JESUS, 'for to day I must abide at thy house.'),
+    ("n2", NARRATOR, "When Jesus came to Jericho, the whole city pressed into the street to see him. And Zacchaeus had a problem. He was a short man — the scripture goes out of its way to mention it — and the crowd stood like a wall. Not one person made room for him."),
+    ("n3a", NARRATOR, "So this small, wealthy man did something no respectable person would ever do. He gathered up his fine robes, and he ran."),
+    ("n3b", NARRATOR, "And he climbed a sycamore tree, like a child. Bible students love this detail. In that world, a grown man running and climbing was humiliating. Zacchaeus traded the last of his dignity for one glimpse of Jesus — from a distance. He would have settled for that."),
+    ("n4", NARRATOR, "He got far more. Jesus stopped — under that exact tree — looked up, and called him by name."),
+    # Luke 19:5
+    ("j1a", JESUS, "Zacchaeus, make haste, and come down;"),
+    # Luke 19:5
+    ("j1b", JESUS, "for to day I must abide at thy house."),
     ("n5", NARRATOR, "Now — why would Jesus do that? Understand what a meal meant back then. To eat at a man's house was to publicly accept him. Jesus didn't tell him to clean up his life first. He invited himself in — before Zacchaeus had changed a single thing. That is the point of the whole story. Jesus moves first."),
-    ("n6", NARRATOR, 'Zacchaeus came down faster than he had climbed up, and welcomed him with joy. But the crowd was appalled, and they grumbled out loud.'),
-    ("s7", SCRIPTURE, 'That he was gone to be guest with a man that is a sinner.'),
+    ("n6", NARRATOR, "Zacchaeus came down faster than he had climbed up, and welcomed him with joy. But the crowd was appalled, and they grumbled out loud."),
+    # Luke 19:7
+    ("s7", SCRIPTURE, "That he was gone to be guest with a man that is a sinner."),
     ("n6b", NARRATOR, "Of every house in Jericho, he had chosen the worst man's. In their rules, you earned your way back before anyone sat at your table."),
-    ("n7a", NARRATOR, 'Then, at that table, it happened. Zacchaeus stood up in front of everyone.'),
-    ("s8", SCRIPTURE, 'Behold, Lord, the half of my goods I give to the poor; and if I have taken any thing from any man by false accusation, I restore him fourfold.'),
-    ("n7b", NARRATOR, 'Half of everything I own goes to the poor, he said — and anyone I have cheated, I will pay back four times over. That number is a study gem. The law of Moses required fourfold repayment only for outright theft. Zacchaeus was judging himself by the harshest standard — and paying it gladly. Nobody demanded it. Being loved first is what changed him.'),
-    ("n7c", NARRATOR, 'And Jesus answered him with the words this story was written to keep.'),
-    ("j2a", JESUS, 'This day is salvation come to this house, forsomuch as he also is a son of Abraham.'),
-    ("j2b", JESUS, 'For the Son of man is come to seek and to save that which was lost.'),
-    ("n8", NARRATOR, 'A son of Abraham — with those words, Jesus gave him back his place in the family his whole city said he had forfeited.'),
-    ("n9", NARRATOR, 'And that last line is the key to everything. Jesus was not stuck in that crowd by accident. He was seeking. The man everyone stepped in front of was the one he came to find.'),
-    ("n10", NARRATOR, 'Jesus called him by name before he changed anything. What would it mean to you — to be wanted like that, exactly as you are right now?'),
+    ("n7a", NARRATOR, "Then, at that table, it happened. Zacchaeus stood up in front of everyone."),
+    # Luke 19:8
+    ("s8", SCRIPTURE, "Behold, Lord, the half of my goods I give to the poor; and if I have taken any thing from any man by false accusation, I restore him fourfold."),
+    ("n7b", NARRATOR, "Half of everything I own goes to the poor, he said — and anyone I have cheated, I will pay back four times over. That number is a study gem. The law of Moses required fourfold repayment only for outright theft. Zacchaeus was judging himself by the harshest standard — and paying it gladly. Nobody demanded it. Being loved first is what changed him."),
+    ("n7c", NARRATOR, "And Jesus answered him with the words this story was written to keep."),
+    # Luke 19:9
+    ("j2a", JESUS, "This day is salvation come to this house, forsomuch as he also is a son of Abraham."),
+    # Luke 19:10
+    ("j2b", JESUS, "For the Son of man is come to seek and to save that which was lost."),
+    ("n8", NARRATOR, "A son of Abraham — with those words, Jesus gave him back his place in the family his whole city said he had forfeited."),
+    ("n9", NARRATOR, "And that last line is the key to everything. Jesus was not stuck in that crowd by accident. He was seeking. The man everyone stepped in front of was the one he came to find."),
+    ("n10", NARRATOR, "Jesus called him by name before he changed anything. What would it mean to you — to be wanted like that, exactly as you are right now?"),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

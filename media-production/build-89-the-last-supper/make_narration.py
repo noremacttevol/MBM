@@ -46,20 +46,24 @@ from mbm_speakers import JESUS, NARRATOR
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0a", NARRATOR, 'The Passover had come.'),
-    ("n0b", NARRATOR, 'Jesus gathered his closest friends around one table in an upper room, knowing the night would change everything.'),
-    ("jv15", JESUS, 'With desire I have desired to eat this passover with you before I suffer.'),
-    ("n1", NARRATOR, 'I have wanted this meal with you, he told them — wanted it badly — before the hard thing happens. He knew what was coming that night, and what he wanted first was to sit down and eat with his friends.'),
-    ("n2", NARRATOR, 'Then he took the bread, gave thanks, broke it, and gave it to them.'),
-    ("j1", JESUS, 'This is my body which is given for you: this do in remembrance of me.'),
-    ("n2b", NARRATOR, 'Do this to remember me. Not a symbol he was explaining — a gift he was handing over, piece by piece, into their hands.'),
-    ("n3", NARRATOR, 'After the meal he lifted the cup, and gave it to them, too.'),
-    ("j2", JESUS, 'This cup is the new testament in my blood, which is shed for you.'),
-    ("n3b", NARRATOR, 'A brand new promise between God and people, and he was signing it with his own life.'),
-    ("jv18", JESUS, 'For I say unto you, I will not drink of the fruit of the vine, until the kingdom of God shall come.'),
-    ("n4", NARRATOR, 'He was telling them this was not goodbye — it was see you at the next meal. Then he and his friends sang together and walked out into the night.'),
-    ("n5", NARRATOR, 'The bread and the cup, still on the table — a gift to remember him by.'),
-    ("card", NARRATOR, 'He left a simple meal to remember him by. Come to his table — he is still the host.'),
+    ("n0a", NARRATOR, "The Passover had come."),
+    ("n0b", NARRATOR, "Jesus gathered his closest friends around one table in an upper room, knowing the night would change everything."),
+    # Luke 22:15
+    ("jv15", JESUS, "With desire I have desired to eat this passover with you before I suffer."),
+    ("n1", NARRATOR, "I have wanted this meal with you, he told them — wanted it badly — before the hard thing happens. He knew what was coming that night, and what he wanted first was to sit down and eat with his friends."),
+    ("n2", NARRATOR, "Then he took the bread, gave thanks, broke it, and gave it to them."),
+    # Luke 22:19
+    ("j1", JESUS, "This is my body which is given for you: this do in remembrance of me."),
+    ("n2b", NARRATOR, "Do this to remember me. Not a symbol he was explaining — a gift he was handing over, piece by piece, into their hands."),
+    ("n3", NARRATOR, "After the meal he lifted the cup, and gave it to them, too."),
+    # Luke 22:20
+    ("j2", JESUS, "This cup is the new testament in my blood, which is shed for you."),
+    ("n3b", NARRATOR, "A brand new promise between God and people, and he was signing it with his own life."),
+    # Luke 22:18
+    ("jv18", JESUS, "For I say unto you, I will not drink of the fruit of the vine, until the kingdom of God shall come."),
+    ("n4", NARRATOR, "He was telling them this was not goodbye — it was see you at the next meal. Then he and his friends sang together and walked out into the night."),
+    ("n5", NARRATOR, "The bread and the cup, still on the table — a gift to remember him by."),
+    ("card", NARRATOR, "He left a simple meal to remember him by. Come to his table — he is still the host."),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

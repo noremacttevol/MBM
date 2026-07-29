@@ -102,3 +102,6 @@ unhurried, inviting gesture toward the listening crowd; no bright ring, no glow.
 grassy hillside beyond the water the large crowd leans in, every face turned
 toward the boat. Warm gold light low on the lake. One single continuous scene
 painted edge to edge.
+
+## s6b-the-yield — NEW (split off S6 / Matthew 13:23, was 37.5s): the harvest is the subject
+[STILL STYLE BLOCK] A CLOSE view of the harvest itself: heavy, golden, ripe heads of wheat filling MOST of the tall frame at close range, thick and abundant, each full ear BENT and drooping UNDER ITS OWN WEIGHT — a hundredfold yield, the fruit of the good ground. Warm golden late light catches the loaded grain. Far behind and SMALL, softly out of focus, the weathered farmer moves through his field, seen from a distance and turned away, in earth-toned wool — the HARVEST is the subject, not the man; no face is shown clearly. A calm Galilee field, gentle hills faint beyond. No one wears cream or off-white. One single continuous scene painted edge to edge. 9:16 vertical.

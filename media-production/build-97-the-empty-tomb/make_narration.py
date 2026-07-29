@@ -52,18 +52,21 @@ from mbm_speakers import NARRATOR, SCRIPTURE, WOMAN
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, 'Very early on the first day of the week, while it was still dark, the women who loved him came to the tomb carrying spices to anoint his body. And the whole way there, one thing worried them.'),
-    ("w3", WOMAN, 'Who shall roll us away the stone from the door of the sepulchre?'),
-    ("n0b", NARRATOR, 'It took several men to move it, and there were only a few women walking up that hill in the dark.'),
-    ("n1", NARRATOR, 'But when they arrived, the huge stone that had sealed the tomb was rolled away.'),
-    ("n2a", NARRATOR, 'They stepped inside — and the body was gone.'),
-    ("n2b", NARRATOR, 'They stood there, confused and afraid.'),
-    ("n3", NARRATOR, 'Then two figures in dazzling clothing stood beside them, and asked a question that has echoed for two thousand years:'),
-    ("s5", SCRIPTURE, 'Why seek ye the living among the dead? He is not here, but is risen:'),
-    ("n4", NARRATOR, 'He is not here — he is risen.'),
-    ("s6", SCRIPTURE, 'remember how he spake unto you when he was yet in Galilee, Saying, The Son of man must be delivered into the hands of sinful men, and be crucified, and the third day rise again.'),
-    ("n5a", NARRATOR, 'He had said all of it, out loud, before any of it happened.'),
-    ("n5b", NARRATOR, 'And they remembered.'),
+    ("n0", NARRATOR, "Very early on the first day of the week, while it was still dark, the women who loved him came to the tomb carrying spices to anoint his body. And the whole way there, one thing worried them."),
+    # Mark 16:3
+    ("w3", WOMAN, "Who shall roll us away the stone from the door of the sepulchre?"),
+    ("n0b", NARRATOR, "It took several men to move it, and there were only a few women walking up that hill in the dark."),
+    ("n1", NARRATOR, "But when they arrived, the huge stone that had sealed the tomb was rolled away."),
+    ("n2a", NARRATOR, "They stepped inside — and the body was gone."),
+    ("n2b", NARRATOR, "They stood there, confused and afraid."),
+    ("n3", NARRATOR, "Then two figures in dazzling clothing stood beside them, and asked a question that has echoed for two thousand years:"),
+    # Luke 24:5-6
+    ("s5", SCRIPTURE, "Why seek ye the living among the dead? He is not here, but is risen:"),
+    ("n4", NARRATOR, "He is not here — he is risen."),
+    # Luke 24:6-7
+    ("s6", SCRIPTURE, "remember how he spake unto you when he was yet in Galilee, Saying, The Son of man must be delivered into the hands of sinful men, and be crucified, and the third day rise again."),
+    ("n5a", NARRATOR, "He had said all of it, out loud, before any of it happened."),
+    ("n5b", NARRATOR, "And they remembered."),
     ("card", NARRATOR, "The tomb couldn't hold him. Whatever feels dead and sealed shut in your life — he's the God of the rolled-away stone."),
 ]
 

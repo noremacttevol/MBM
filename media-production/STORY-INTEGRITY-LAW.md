@@ -26,7 +26,7 @@ build: the Prodigal Son was told as its own video AND told again from another fr
 (that dup is now #140 → Naaman). The same trap sits under several "one-verse" videos
 whose verse is simply a line from a scene already told elsewhere.
 
-## The four rules (law)
+## The five rules (law)
 
 1. **A story is a SCENE — who, where, what happened — and every scene is told ONCE.**
    A narrative is never re-told, not even across shelves. If two entries point at the
@@ -48,6 +48,15 @@ whose verse is simply a line from a scene already told elsewhere.
    old-English scripture and then repeating it in modern English is dropped. Restate a
    scripture line in plain words ONLY when the old English is genuinely hard to follow;
    if it already lands, let it stand and move on.
+
+5. **Honest about the witnesses — only where it enriches, never where it degrades
+   (Cameron, 2026-07-23).** When one event was recorded by more than one writer, it is
+   honest and good to weave in what each uniquely saw (John's boy with the loaves, Luke's
+   tears) — but ONLY where the added detail deepens the story. NEVER frame it as "the
+   accounts differ" in a way that invites doubt, reads as academic source-dissection, or
+   cheapens a sacred moment. Combine into one reverent telling; let the extra witness make
+   it richer, not shakier. If naming the difference would degrade the story, don't — just
+   tell it plainly and true.
 
 ## Rulings on the overlaps found in the current 200
 

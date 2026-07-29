@@ -33,16 +33,19 @@ from mbm_speakers import JESUS, NARRATOR
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled. JESUS lines are verbatim KJV (Matt 28).
 SEGMENTS = [
-    ("n1", NARRATOR, 'He had been crucified. He had been buried. And now he was alive, and it was almost over. Before he returned to his Father, he gathered the eleven one last time, on a mountain in Galilee he had told them to go to.'),
-    ("n2", NARRATOR, 'They climbed it not really knowing what to expect. And when they saw him standing there, alive, they fell down and worshipped him. Some of them still could hardly believe it was real. He did not scold the doubt. He gave them the whole world anyway.'),
-    ("jv18", JESUS, 'All power is given unto me in heaven and in earth.'),
-    ("n3", NARRATOR, 'Every authority there is, in heaven and on the earth, belongs to him. Whatever he was about to ask of them, he had the right to ask it, and the power to back it.'),
-    ("jv19", JESUS, 'Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost:'),
-    ("n4", NARRATOR, 'Go to everyone. Not one nation, not one kind of person, but all of them, to the far edges of the map, and bring them in through baptism. And hear the three he names together, plainly, one breath apart: Three.'),
-    ("jv20", JESUS, 'Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you alway, even unto the end of the world. Amen.'),
-    ("n5", NARRATOR, 'Teach them not just to hear it but to live it, everything he had shown them. And then the promise that holds the whole thing up. I am with you always. Not until it gets hard. Not until you fail. Always, to the very end.'),
-    ("n6", NARRATOR, 'That command has never stopped moving. Every person who ever told you about Jesus was standing in the long tail of that one sentence on that mountain. It reached across two thousand years and the whole round earth to get to you. That is how far he was willing to send someone, so that you would know.'),
-    ("card", NARRATOR, 'He looked at eleven ordinary men, some of them still unsure, and trusted them with everyone. If it really is true that he is with you always, to the very end, what would that change about today?'),
+    ("n1", NARRATOR, "He had been crucified. He had been buried. And now he was alive, and it was almost over. Before he returned to his Father, he gathered the eleven one last time, on a mountain in Galilee he had told them to go to."),
+    ("n2", NARRATOR, "They climbed it not really knowing what to expect. And when they saw him standing there, alive, they fell down and worshipped him. Some of them still could hardly believe it was real. He did not scold the doubt. He gave them the whole world anyway."),
+    # Matthew 28:18
+    ("jv18", JESUS, "All power is given unto me in heaven and in earth."),
+    ("n3", NARRATOR, "Every authority there is, in heaven and on the earth, belongs to him. Whatever he was about to ask of them, he had the right to ask it, and the power to back it."),
+    # Matthew 28:19
+    ("jv19", JESUS, "Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost:"),
+    ("n4", NARRATOR, "Go to everyone. Not one nation, not one kind of person, but all of them, to the far edges of the map, and bring them in through baptism. And hear the three he names together, plainly, one breath apart: Three."),
+    # Matthew 28:20
+    ("jv20", JESUS, "Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you alway, even unto the end of the world. Amen."),
+    ("n5", NARRATOR, "Teach them not just to hear it but to live it, everything he had shown them. And then the promise that holds the whole thing up. I am with you always. Not until it gets hard. Not until you fail. Always, to the very end."),
+    ("n6", NARRATOR, "That command has never stopped moving. Every person who ever told you about Jesus was standing in the long tail of that one sentence on that mountain. It reached across two thousand years and the whole round earth to get to you. That is how far he was willing to send someone, so that you would know."),
+    ("card", NARRATOR, "He looked at eleven ordinary men, some of them still unsure, and trusted them with everyone. If it really is true that he is with you always, to the very end, what would that change about today?"),
 ]
 
 # Homographs / archaic words this build decides for itself (A/B tested only).

@@ -40,20 +40,23 @@ from mbm_speakers import GOD, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n1", NARRATOR, 'Jacob was running. He had lied to his blind father and cheated his own brother, and now he was fleeing for his life, alone, with everything he knew behind him.'),
-    ("n2", NARRATOR, 'When the sun went down he was in the middle of nowhere. No home, no bed, no welcome. He took a stone, put it under his head for a pillow, and lay down in the dark to sleep.'),
-    ("n3", NARRATOR, 'And there, in the last place he would have expected it, God came to him in a dream. He saw a great stairway rising from the very ground where he lay, all the way up into an opening in heaven.'),
-    ("n4", NARRATOR, 'And on it the angels of God were going up and coming down, moving between heaven and this lonely patch of dirt where a runaway lay sleeping. Heaven was not far off. It was open, right above him.'),
-    ("jv13", GOD, 'I am the LORD God of Abraham thy father, and the God of Isaac: the land whereon thou liest, to thee will I give it, and to thy seed.'),
-    ("n5", NARRATOR, 'God did not scold him for what he had done. He stood above the stairway and made him a promise — the same promise he had made to his grandfather Abraham. This wanderer with nothing would become a family as many as the dust of the earth.'),
-    ("jv15", GOD, 'And, behold, I am with thee, and will keep thee in all places whither thou goest, and will bring thee again into this land; for I will not leave thee, until I have done that which I have spoken to thee of.'),
-    ("n6", NARRATOR, 'I am with thee. I will keep thee. I will not leave thee. To a man who had just thrown his whole life away and run, God promised to go with him, everywhere, and never let go. He had done nothing to earn it.'),
-    ("s16", SCRIPTURE, 'Surely the LORD is in this place; and I knew it not. How dreadful is this place! this is none other but the house of God, and this is the gate of heaven.'),
-    ("n7", NARRATOR, 'Jacob woke with a start, shaken to his core. This is nothing less than the house of God. This is the gate of heaven — and I nearly slept through it.'),
-    ("n8", NARRATOR, 'So he took the stone that had been his pillow and stood it up on end as a pillar, a marker of the place where heaven had opened over him.'),
-    ("n8b", NARRATOR, 'And he poured oil over the top of it to set it apart as holy, and he called that place Bethel — the house of God.'),
-    ("n9", NARRATOR, 'Then he went on his way — the same road, the same troubles waiting ahead, but a different man. Not because he had fixed himself, but because he finally knew he was not walking alone. That is how God still meets people: not at their best, but wherever they happen to lie down in the dark.'),
-    ("card", NARRATOR, 'God met a runaway with a rock for a pillow, and promised to go with him and never leave. If heaven is that near even to the one who ran, what might God be wanting to say to you, right where you are?'),
+    ("n1", NARRATOR, "Jacob was running. He had lied to his blind father and cheated his own brother, and now he was fleeing for his life, alone, with everything he knew behind him."),
+    ("n2", NARRATOR, "When the sun went down he was in the middle of nowhere. No home, no bed, no welcome. He took a stone, put it under his head for a pillow, and lay down in the dark to sleep."),
+    ("n3", NARRATOR, "And there, in the last place he would have expected it, God came to him in a dream. He saw a great stairway rising from the very ground where he lay, all the way up into an opening in heaven."),
+    ("n4", NARRATOR, "And on it the angels of God were going up and coming down, moving between heaven and this lonely patch of dirt where a runaway lay sleeping. Heaven was not far off. It was open, right above him."),
+    # Genesis 28:13
+    ("jv13", GOD, "I am the LORD God of Abraham thy father, and the God of Isaac: the land whereon thou liest, to thee will I give it, and to thy seed."),
+    ("n5", NARRATOR, "God did not scold him for what he had done. He stood above the stairway and made him a promise — the same promise he had made to his grandfather Abraham. This wanderer with nothing would become a family as many as the dust of the earth."),
+    # Genesis 28:15
+    ("jv15", GOD, "And, behold, I am with thee, and will keep thee in all places whither thou goest, and will bring thee again into this land; for I will not leave thee, until I have done that which I have spoken to thee of."),
+    ("n6", NARRATOR, "I am with thee. I will keep thee. I will not leave thee. To a man who had just thrown his whole life away and run, God promised to go with him, everywhere, and never let go. He had done nothing to earn it."),
+    # Genesis 28:16-17
+    ("s16", SCRIPTURE, "Surely the LORD is in this place; and I knew it not. How dreadful is this place! this is none other but the house of God, and this is the gate of heaven."),
+    ("n7", NARRATOR, "Jacob woke with a start, shaken to his core. This is nothing less than the house of God. This is the gate of heaven — and I nearly slept through it."),
+    ("n8", NARRATOR, "So he took the stone that had been his pillow and stood it up on end as a pillar, a marker of the place where heaven had opened over him."),
+    ("n8b", NARRATOR, "And he poured oil over the top of it to set it apart as holy, and he called that place Bethel — the house of God."),
+    ("n9", NARRATOR, "Then he went on his way — the same road, the same troubles waiting ahead, but a different man. Not because he had fixed himself, but because he finally knew he was not walking alone. That is how God still meets people: not at their best, but wherever they happen to lie down in the dark."),
+    ("card", NARRATOR, "God met a runaway with a rock for a pillow, and promised to go with him and never leave. If heaven is that near even to the one who ran, what might God be wanting to say to you, right where you are?"),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

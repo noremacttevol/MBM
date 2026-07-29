@@ -53,12 +53,14 @@ from mbm_speakers import JESUS, NARRATOR, WOMAN
 SEGMENTS = [
     ("n0a", NARRATOR, "Every year Jesus's family went to Jerusalem for the Passover. When he was twelve, they made the trip as usual."),
     ("n0b", NARRATOR, "On the way home, they realized he wasn't with them."),
-    ("n1a", NARRATOR, 'They turned back, searching for three days.'),
-    ("n1b", NARRATOR, 'And they found him in the temple, sitting among the teachers, listening,'),
-    ("n1c", NARRATOR, 'and asking questions that amazed everyone.'),
-    ("n2", NARRATOR, 'His mother was the one who spoke. Relieved, and frightened, and hurt, Mary said this:'),
-    ("w48", WOMAN, 'Son, why hast thou thus dealt with us? behold, thy father and I have sought thee sorrowing.'),
-    ("n2b", NARRATOR, 'she said. Your father and I have been looking for you, sick with worry. Listen to the word Luke gives her — sorrowing. Not annoyed. Grieving. Three days of a mother assuming the worst. And he answered her with a question of his own.'),
+    ("n1a", NARRATOR, "They turned back, searching for three days."),
+    ("n1b", NARRATOR, "And they found him in the temple, sitting among the teachers, listening,"),
+    ("n1c", NARRATOR, "and asking questions that amazed everyone."),
+    ("n2", NARRATOR, "His mother was the one who spoke. Relieved, and frightened, and hurt, Mary said this:"),
+    # Luke 2:48
+    ("w48", WOMAN, "Son, why hast thou thus dealt with us? behold, thy father and I have sought thee sorrowing."),
+    ("n2b", NARRATOR, "she said. Your father and I have been looking for you, sick with worry. Listen to the word Luke gives her — sorrowing. Not annoyed. Grieving. Three days of a mother assuming the worst. And he answered her with a question of his own."),
+    # Luke 2:49
     ("j1", JESUS, "How is it that ye sought me? wist ye not that I must be about my Father's business?"),
     ("n2c", NARRATOR, "Why were you out looking for me? he said. Didn't you know I had to be in my Father's house, about my Father's work? He was twelve years old. He was not being smart with his mother. He genuinely could not imagine where else they thought he would be."),
     ("n3", NARRATOR, "They didn't fully understand. But he went home with them and obeyed them — and he kept growing in wisdom, in stature, and in favor with God and people."),

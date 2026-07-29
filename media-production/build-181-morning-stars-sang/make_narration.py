@@ -52,15 +52,17 @@ from mbm_speakers import GOD, NARRATOR
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, 'Job had asked God hard questions. And God answered — not with explanations, but by taking Job back to the very first morning.'),
-    ("n1a", NARRATOR, 'Before there were people to suffer or to doubt,'),
-    ("g4", GOD, 'Where wast thou when I laid the foundations of the earth? declare, if thou hast understanding.'),
-    ("n1r", NARRATOR, "Tell me, if you know. It sounds severe until you notice what it really does — it lifts Job's eyes off his own wreckage and sets them on something older and steadier than his pain."),
-    ("n2", NARRATOR, 'And when that happened, something astonishing broke out in the sky.'),
-    ("s1", GOD, 'When the morning stars sang together, and all the sons of God shouted for joy?'),
-    ("n3", NARRATOR, 'The stars themselves broke into song. Creation was not a cold accident — it was a celebration.'),
-    ("n4", NARRATOR, 'The God who sang the world into being is the same one listening to your questions today.'),
-    ("card", NARRATOR, 'The stars sang when the world began. Your story is still being written by the same hand.'),
+    ("n0", NARRATOR, "Job had asked God hard questions. And God answered — not with explanations, but by taking Job back to the very first morning."),
+    ("n1a", NARRATOR, "Before there were people to suffer or to doubt,"),
+    # Job 38:4
+    ("g4", GOD, "Where wast thou when I laid the foundations of the earth? declare, if thou hast understanding."),
+    ("n1r", NARRATOR, "Where were you, God asked him, when I laid the foundations of the earth? Tell me, if you know. It sounds severe until you notice what it really does — it lifts Job's eyes off his own wreckage and sets them on something older and steadier than his pain."),
+    ("n2", NARRATOR, "And when that happened, something astonishing broke out in the sky."),
+    # Job 38:7
+    ("s1", GOD, "When the morning stars sang together, and all the sons of God shouted for joy?"),
+    ("n3", NARRATOR, "The stars themselves broke into song. Creation was not a cold accident — it was a celebration."),
+    ("n4", NARRATOR, "The God who sang the world into being is the same one listening to your questions today."),
+    ("card", NARRATOR, "The stars sang when the world began. Your story is still being written by the same hand."),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

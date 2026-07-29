@@ -64,3 +64,5 @@ REF: jesus-master-ref
 
 ## s8-the-way-for-you — Shot 8: the way is opened to you
 [STILL STYLE BLOCK] Full warm golden light of morning at the calm green edge of the river Jordan, the water still and inviting where the sacred baptism took place. A single ordinary young first-century person in dun-and-brown earth-tone wool (dark earth tones, never cream or pale) stands humbly at the water's edge, looking toward the gentle warm light over the river, hopeful and ready to follow down into the same water. No divine figure of any kind, no dove. The light is ONLY light. Figure whole and correctly formed, face shown. No one in cream or off-white. ONE single unbroken full-frame scene painted edge to edge.
+
+CHARACTER-REF-EXEMPT: god-the-father (baptism: a voice from heaven (Matt 3:17), Father heard not seen)

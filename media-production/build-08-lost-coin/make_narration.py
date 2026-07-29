@@ -30,17 +30,21 @@ from mbm_speakers import JESUS, NARRATOR
 # string handed to the TTS is respelled.
 SEGMENTS = [
     ("n0", NARRATOR, "When Jesus wanted to show how God feels about one lost soul, he didn't talk about crowds. He told this story."),
-    ("jv8", JESUS, 'Either what woman having ten pieces of silver, if she lose one piece, doth not light a candle, and sweep the house, and seek diligently till she find it?'),
-    ("n1", NARRATOR, 'She loses one.'),
-    ("n2a", NARRATOR, 'She lights a lamp. She sweeps the whole house.'),
-    ("n2b", NARRATOR, 'She searches carefully — not casually, carefully — until she finds it.'),
-    ("jv9a", JESUS, 'And when she hath found it, she calleth her friends and her neighbours together, saying,'),
-    ("j1", JESUS, 'Rejoice with me; for I have found the piece which I had lost.'),
-    ("n3", NARRATOR, 'Then she calls her neighbors and friends to celebrate.'),
-    ("n4", NARRATOR, 'One coin. Out of ten. The joy is disproportionate to the value of the coin.'),
-    ("j2", JESUS, 'Likewise, I say unto you, there is joy in the presence of the angels of God over one sinner that repenteth.'),
-    ("n5", NARRATOR, 'Over one. Not a crowd. One.'),
-    ("card", NARRATOR, 'Have you ever felt like the thing that got lost, rather than the one doing the searching?'),
+    # Luke 15:8
+    ("jv8", JESUS, "Either what woman having ten pieces of silver, if she lose one piece, doth not light a candle, and sweep the house, and seek diligently till she find it?"),
+    ("n1", NARRATOR, "She loses one."),
+    ("n2a", NARRATOR, "She lights a lamp. She sweeps the whole house."),
+    ("n2b", NARRATOR, "She searches carefully — not casually, carefully — until she finds it."),
+    # Luke 15:9
+    ("jv9a", JESUS, "And when she hath found it, she calleth her friends and her neighbours together, saying,"),
+    # Luke 15:9
+    ("j1", JESUS, "Rejoice with me; for I have found the piece which I had lost."),
+    ("n3", NARRATOR, "Then she calls her neighbors and friends to celebrate."),
+    ("n4", NARRATOR, "One coin. Out of ten. The joy is disproportionate to the value of the coin."),
+    # Luke 15:10
+    ("j2", JESUS, "Likewise, I say unto you, there is joy in the presence of the angels of God over one sinner that repenteth."),
+    ("n5", NARRATOR, "Over one. Not a crowd. One."),
+    ("card", NARRATOR, "Have you ever felt like the thing that got lost, rather than the one doing the searching?"),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

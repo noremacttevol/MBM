@@ -182,3 +182,6 @@ SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stack
 Text on cream (#F7F2E9), spoken + captioned in assembly (an INVITATION, not a
 fear-question): "The same Jesus is in your boat. Bring him your storm — and let him
 speak his peace."
+
+## s7b-the-still-water — NEW (split off S7, was 38.8s): wide, still, the closing breath
+[STILL STYLE BLOCK] A WIDE, still, contemplative NIGHT view across the Sea of Galilee after the storm: the water lies GLASS-FLAT and utterly motionless, a perfect dark mirror, the crescent moon and the scattered stars DOUBLED in its unbroken surface. [BOAT LOCK] The single Galilean fishing boat sits SMALL and far off toward the middle of the frame, tiny and at rest on the mirror-calm water, its mast and furled sail a quiet silhouette, the men aboard only small indistinct shapes at this distance — no faces read. The far shore is the barest low line on the horizon. Deep blue-black night, cool moonlight, absolute stillness — no wind, no wave, no motion anywhere. Room to breathe. One single continuous scene painted edge to edge. 9:16 vertical.

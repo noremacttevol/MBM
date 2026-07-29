@@ -53,17 +53,22 @@ from mbm_speakers import NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, 'Psalm 24 begins like a procession approaching the place where heaven and earth meet.'),
-    ("s1", SCRIPTURE, 'Who shall ascend into the hill of the LORD? or who shall stand in his holy place?'),
-    ("s2", SCRIPTURE, 'He that hath clean hands, and a pure heart; who hath not lifted up his soul unto vanity, nor sworn deceitfully.'),
-    ("n1", NARRATOR, 'The answer was not about bloodline or rank.'),
-    ("s3", SCRIPTURE, 'He shall receive the blessing from the LORD, and righteousness from the God of his salvation.'),
-    ("n2", NARRATOR, 'Purity does not purchase that blessing; it describes the person ready to receive what God gives.'),
-    ("s4", SCRIPTURE, 'Lift up your heads, O ye gates; and be ye lift up, ye everlasting doors; and the King of glory shall come in.'),
-    ("n3a", NARRATOR, 'The poem widens from a single worshiper to a royal arrival.'),
-    ("s5", SCRIPTURE, 'Who is this King of glory? The LORD strong and mighty, the LORD mighty in battle.'),
-    ("n4b", NARRATOR, 'He is the one who comes in.'),
-    ("card", NARRATOR, 'The door is open to the one with a clean heart. Come and stand in his presence.'),
+    ("n0", NARRATOR, "A question was put to Israel long ago — who gets to climb the hill of the LORD and stand in his holy place?"),
+    # Psalm 24:3
+    ("s1", SCRIPTURE, "Who shall ascend into the hill of the LORD? or who shall stand in his holy place?"),
+    # Psalm 24:4
+    ("s2", SCRIPTURE, "He that hath clean hands, and a pure heart; who hath not lifted up his soul unto vanity, nor sworn deceitfully."),
+    ("n1", NARRATOR, "The answer was not about bloodline or rank."),
+    # Psalm 24:7
+    ("s4", SCRIPTURE, "Lift up your heads, O ye gates; and be ye lift up, ye everlasting doors; and the King of glory shall come in."),
+    ("n3a", NARRATOR, "Then the call goes out to the gates themselves — lift up your heads, you ancient doors,"),
+    # Psalm 24:8
+    ("s5", SCRIPTURE, "Who is this King of glory? The LORD strong and mighty, the LORD mighty in battle."),
+    ("n4b", NARRATOR, "He is the one who comes in."),
+    # Psalm 24:5
+    ("s3", SCRIPTURE, "He shall receive the blessing from the LORD, and righteousness from the God of his salvation."),
+    ("n2", NARRATOR, "Such a one receives blessing from the LORD, and righteousness from the God of their salvation."),
+    ("card", NARRATOR, "The door is open to the one with a clean heart. Come and stand in his presence."),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

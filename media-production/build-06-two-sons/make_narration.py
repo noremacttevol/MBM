@@ -59,24 +59,31 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, 'Jesus told this story to religious leaders — people who were sure they had already said yes to God. He told it so they would hear themselves in it.'),
-    ("j28", JESUS, 'But what think ye? A certain man had two sons; and he came to the first, and said, Son, go work to day in my vineyard.'),
-    ("n1", NARRATOR, 'The first answer was blunt.'),
-    ("j29", JESUS, 'He answered and said, I will not.'),
-    ("n1b", NARRATOR, 'No excuse offered, nothing softened.'),
-    ("n2", NARRATOR, 'The answer from the other son sounded much better.'),
-    ("j30", JESUS, 'And he came to the second, and said likewise. And he answered and said, I go, sir: and went not.'),
-    ("n2b", NARRATOR, 'The promise sounded respectful, but it never became obedience.'),
+    ("n0", NARRATOR, "Jesus told this story to religious leaders — people who were sure they had already said yes to God. He told it so they would hear themselves in it."),
+    # Matthew 21:28
+    ("j28", JESUS, "But what think ye? A certain man had two sons; and he came to the first, and said, Son, go work to day in my vineyard."),
+    ("n1", NARRATOR, "A father told his first son: And the son answered him flat."),
+    # Matthew 21:29
+    ("j29", JESUS, "He answered and said, I will not."),
+    ("n1b", NARRATOR, "I will not. No excuse offered, nothing softened. Just no."),
+    ("n2", NARRATOR, "Then the father went to his second son and asked him the same thing."),
+    # Matthew 21:30
+    ("j30", JESUS, "And he came to the second, and said likewise. And he answered and said, I go, sir: and went not."),
+    ("n2b", NARRATOR, "Yes sir, that one said. I'm going. And didn't."),
     ("n2c", NARRATOR, "The first son meant his no. But it wouldn't leave him alone. All morning, the vineyard kept pulling at him."),
-    ("j29b", JESUS, 'but afterward he repented, and went.'),
-    ("n2d", NARRATOR, 'So he got up. And he went. No announcement, no apology. He went back to the vineyard, and he worked.'),
-    ("n3", NARRATOR, 'The row the second son promised to work stayed empty all day. Then Jesus asked the crowd a question.'),
-    ("j1", JESUS, 'Whether of them twain did the will of his father?'),
-    ("n4", NARRATOR, 'The difference was not what the sons said; it was what they finally did. The crowd knew the answer.'),
-    ("s31", SCRIPTURE, 'They say unto him, The first.'),
-    ("n5", NARRATOR, 'Their answer condemned their own confidence. The son who began in rebellion had changed direction; the polite son had not. Then Jesus turned to the religious leaders — the ones who were sure they were the second son.'),
-    ("j2", JESUS, 'Verily I say unto you, That the publicans and the harlots go into the kingdom of God before you.'),
-    ("n5b", NARRATOR, 'That reversal landed hard. The people those leaders had written off were responding to God, while their own polished words had become a hiding place.'),
+    # Matthew 21:29
+    ("j29b", JESUS, "but afterward he repented, and went."),
+    ("n2d", NARRATOR, "So he got up. And he went. No announcement, no apology. He went back to the vineyard, and he worked."),
+    ("n3", NARRATOR, "The row the second son promised to work stayed empty all day. Then Jesus asked the crowd a question."),
+    # Matthew 21:31
+    ("j1", JESUS, "Whether of them twain did the will of his father?"),
+    ("n4", NARRATOR, "He was asking: which of the two actually did what his father wanted? And the crowd answered him."),
+    # Matthew 21:31
+    ("s31", SCRIPTURE, "They say unto him, The first."),
+    ("n5", NARRATOR, "The first one, they said. The one who started with no. Then he turned to the religious leaders — the ones who were sure they were the second son."),
+    # Matthew 21:31
+    ("j2", JESUS, "Verily I say unto you, That the publicans and the harlots go into the kingdom of God before you."),
+    ("n5b", NARRATOR, "The tax collectors and the worst-thought-of people in town are going in ahead of you. Not because their lives were tidier. Because when they finally heard, they turned around and went."),
     ("n6", NARRATOR, "Have you ever said no to something — maybe loudly — and found yourself moving toward it anyway, because part of you couldn't let it go?"),
 ]
 

@@ -42,7 +42,7 @@ S6 = "s6-jesus-asks.jpeg"
 S7 = "s7-turns-leaders.jpeg"
 S8 = "s8-verdict.jpeg"
 
-TEXT = {s[0]: (s[4] if len(s) >= 5 else s[2]) for s in make_narration.SEGMENTS}
+TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
 KJV = {"j1", "j2"}
 PEAK = "n4"   # the crowd's answer — sacred silence
 CARD_TEXT = ("It was never about the perfect yes. The son who changed his "

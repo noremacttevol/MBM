@@ -54,17 +54,21 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, 'Jesus was inside a packed house, teaching, when word came in from the edge of the crowd.'),
-    ("n1a", NARRATOR, 'His mother and his brothers were standing outside, asking for him.'),
-    ("n1b", NARRATOR, 'The people sitting around him passed it forward, and Mark writes down exactly what they said:'),
-    ("s32", SCRIPTURE, 'Behold, thy mother and thy brethren without seek for thee.'),
+    ("n0", NARRATOR, "Jesus was inside a packed house, teaching, when word came in from the edge of the crowd."),
+    ("n1a", NARRATOR, "His mother and his brothers were standing outside, asking for him."),
+    ("n1b", NARRATOR, "The people sitting around him passed it forward, and Mark writes down exactly what they said:"),
+    # Mark 3:32
+    ("s32", SCRIPTURE, "Behold, thy mother and thy brethren without seek for thee."),
     ("n1c", NARRATOR, "Look — your mother and your brothers are outside, and they're asking for you. Everyone in that room knew what happens next. You stop teaching, and you go out to your family."),
-    ("j1", JESUS, 'Who is my mother, or my brethren?'),
-    ("n2", NARRATOR, 'Nobody expected that. Then he looked slowly around at the ordinary people sitting in a circle right in front of him — farmers, fishermen, mothers, a child — and answered his own question.'),
-    ("j2", JESUS, 'Behold my mother and my brethren!'),
-    ("j3", JESUS, 'For whosoever shall do the will of God, the same is my brother, and my sister, and mother.'),
-    ("n3", NARRATOR, "He wasn't pushing his family away. He was opening the circle — telling a room full of nobodies they could belong to him like blood."),
-    ("card", NARRATOR, 'He drew the family line around whoever would come. That door is open to you too.'),
+    # Mark 3:33
+    ("j1", JESUS, "Who is my mother, or my brethren?"),
+    ("n2", NARRATOR, "Nobody expected that. Then he looked slowly around at the ordinary people sitting in a circle right in front of him — farmers, fishermen, mothers, a child — and answered his own question."),
+    # Mark 3:34
+    ("j2", JESUS, "Behold my mother and my brethren!"),
+    # Mark 3:35
+    ("j3", JESUS, "For whosoever shall do the will of God, the same is my brother, and my sister, and mother."),
+    ("n3", NARRATOR, "Here are my brothers. Anyone who does what God wants — that person is my brother, and my sister, and my mother. He wasn't pushing his family away. He was opening the circle — telling a room full of nobodies they could belong to him like blood."),
+    ("card", NARRATOR, "He drew the family line around whoever would come. That door is open to you too."),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

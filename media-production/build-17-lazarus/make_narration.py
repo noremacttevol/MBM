@@ -29,30 +29,40 @@ from mbm_speakers import JESUS, NARRATOR, WOMAN
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, 'In a village called Bethany, close enough to Jerusalem to walk, there lived two sisters, Martha and Mary, and their brother Lazarus. Jesus loved this family. Their home was the one place on the whole road where he could stop being a public figure and simply be a friend. And now their brother was dying. So the sisters sent word to Jesus — not a demand, just a few aching words:'),
-    ("w3", WOMAN, 'Lord, behold, he whom thou lovest is sick.'),
-    ("n1", NARRATOR, 'You would expect him to drop everything and run. He did the opposite. When the news reached him, he stayed where he was two more days. But listen to what he said about it:'),
-    ("j1", JESUS, 'This sickness is not unto death, but for the glory of God, that the Son of God might be glorified thereby.'),
-    ("n1b", NARRATOR, 'He was not being careless with the people he loved. He was reaching for something deeper than a quick rescue — something that would show everyone who he really was. And it would cost those two sisters four days of grief to see it.'),
-    ("n2", NARRATOR, 'By the time Jesus started for Bethany, the message had changed. Lazarus was not sick anymore. Lazarus was dead, and had been sealed in the tomb four days. That number is in the story on purpose. People of that time held that a soul might linger near the body for three days. Four days meant the door was shut — no lingering, no hope, no loophole left. Everyone in Bethany knew exactly how final four days was.'),
-    ("w21", WOMAN, 'Lord, if thou hadst been here, my brother had not died. But I know, that even now, whatsoever thou wilt ask of God, God will give it thee.'),
-    ("n3", NARRATOR, 'Martha heard he was finally near and ran out to meet him on the road, before he even reached the town. What she said was grief and faith tangled together in one breath:'),
-    ("n4", NARRATOR, 'Jesus told her, your brother will rise again. Martha nodded the way we nod at things we believe but cannot feel — yes, at the end of the world, on the last day, I know. And Jesus took the whole promise out of the far-off future and set it down in the person standing right in front of her:'),
-    ("j2", JESUS, 'I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live: And whosoever liveth and believeth in me shall never die. Believest thou this?'),
-    ("w27", WOMAN, 'Yea, Lord: I believe that thou art the Christ, the Son of God, which should come into the world.'),
-    ("n5", NARRATOR, 'He did not offer her a doctrine to file away until the last day. He offered her himself, right there in the dust of the road. Then Mary came — the quieter sister — and she fell at his feet and wept, and every mourner who had followed her out wept too. The whole road dissolved into grief.'),
-    ("w32", WOMAN, 'Lord, if thou hadst been here, my brother had not died.'),
+    ("n0", NARRATOR, "In a village called Bethany, close enough to Jerusalem to walk, there lived two sisters, Martha and Mary, and their brother Lazarus. Jesus loved this family. Their home was the one place on the whole road where he could stop being a public figure and simply be a friend. And now their brother was dying. So the sisters sent word to Jesus — not a demand, just a few aching words:"),
+    # John 11:3
+    ("w3", WOMAN, "Lord, behold, he whom thou lovest is sick."),
+    ("n1", NARRATOR, "You would expect him to drop everything and run. He did the opposite. When the news reached him, he stayed where he was two more days. But listen to what he said about it:"),
+    # John 11:4
+    ("j1", JESUS, "This sickness is not unto death, but for the glory of God, that the Son of God might be glorified thereby."),
+    ("n1b", NARRATOR, "He was not being careless with the people he loved. He was reaching for something deeper than a quick rescue — something that would show everyone who he really was. And it would cost those two sisters four days of grief to see it."),
+    ("n2", NARRATOR, "By the time Jesus started for Bethany, the message had changed. Lazarus was not sick anymore. Lazarus was dead, and had been sealed in the tomb four days. That number is in the story on purpose. People of that time held that a soul might linger near the body for three days. Four days meant the door was shut — no lingering, no hope, no loophole left. Everyone in Bethany knew exactly how final four days was."),
+    # John 11:21-22
+    ("w21", WOMAN, "Lord, if thou hadst been here, my brother had not died. But I know, that even now, whatsoever thou wilt ask of God, God will give it thee."),
+    ("n3", NARRATOR, "Martha heard he was finally near and ran out to meet him on the road, before he even reached the town. What she said was grief and faith tangled together in one breath:"),
+    ("n4", NARRATOR, "Jesus told her, your brother will rise again. Martha nodded the way we nod at things we believe but cannot feel — yes, at the end of the world, on the last day, I know. And Jesus took the whole promise out of the far-off future and set it down in the person standing right in front of her:"),
+    # John 11:25-26
+    ("j2", JESUS, "I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live: And whosoever liveth and believeth in me shall never die. Believest thou this?"),
+    # John 11:27
+    ("w27", WOMAN, "Yea, Lord: I believe that thou art the Christ, the Son of God, which should come into the world."),
+    ("n5", NARRATOR, "He did not offer her a doctrine to file away until the last day. He offered her himself, right there in the dust of the road. Then Mary came — the quieter sister — and she fell at his feet and wept, and every mourner who had followed her out wept too. The whole road dissolved into grief."),
+    # John 11:32
+    ("w32", WOMAN, "Lord, if thou hadst been here, my brother had not died."),
     ("n6", NARRATOR, "And then comes the shortest verse in the whole Bible, and one of the most staggering. Jesus wept. Sit with that. The one man there who knew — knew — that in a few minutes Lazarus would be breathing again, stood at the grave of his friend and cried. Not because he had run out of options. He cried because the people he loved were broken, and death is a horror, and he would not stand there pretending it wasn't. He did not skip the grief. He walked all the way into it with them."),
-    ("n7", NARRATOR, 'The tomb was a cave with a heavy stone rolled across its mouth. Jesus said, take away the stone. Practical, careful Martha panicked:'),
-    ("w39", WOMAN, 'Lord, by this time he stinketh: for he hath been dead four days.'),
-    ("j3", JESUS, 'Said I not unto thee, that, if thou wouldest believe, thou shouldest see the glory of God?'),
-    ("n7b", NARRATOR, 'So they leaned into the great stone and rolled it back, and the dark mouth of the grave stood open to the daylight.'),
-    ("n8", NARRATOR, 'He lifted his eyes and prayed out loud — not because heaven was hard of hearing, but because he wanted the crowd to know exactly where the power came from. And then he called into the dark, in a voice they said was loud enough to wake the dead:'),
-    ("j4", JESUS, 'Lazarus, come forth.'),
-    ("n9", NARRATOR, 'And the dead man came out. Bound hand and foot in strips of grave-linen, his face still wrapped, Lazarus stood in the mouth of his own tomb — alive. Four days gone, and standing in the light. Nobody moved. Nobody breathed.'),
-    ("j5", JESUS, 'Loose him, and let him go.'),
-    ("n10", NARRATOR, 'Unwrap him. Take the grave-linen off a living man and let him walk home to dinner. This was the last great sign before Jesus turned toward his own cross — and he did it in the open, at a marked grave, in front of a crowd, so that no one could ever call it a trick of the light. The one who stands over every grave you have ever wept beside looked death full in the face and called a friend home. He does not merely explain the resurrection. He is the resurrection.'),
-    ("n11", NARRATOR, 'He wept at the grave, even though he was about to open it. Is there a grief you are carrying that he would not rush you past, but would sit down inside it, and weep there with you first?'),
+    ("n7", NARRATOR, "The tomb was a cave with a heavy stone rolled across its mouth. Jesus said, take away the stone. Practical, careful Martha panicked — Lord, by now there will be a smell, it has been four days. And Jesus answered her:"),
+    # John 11:39
+    ("w39", WOMAN, "Lord, by this time he stinketh: for he hath been dead four days."),
+    # John 11:40
+    ("j3", JESUS, "Said I not unto thee, that, if thou wouldest believe, thou shouldest see the glory of God?"),
+    ("n7b", NARRATOR, "So they leaned into the great stone and rolled it back, and the dark mouth of the grave stood open to the daylight."),
+    ("n8", NARRATOR, "He lifted his eyes and prayed out loud — not because heaven was hard of hearing, but because he wanted the crowd to know exactly where the power came from. And then he called into the dark, in a voice they said was loud enough to wake the dead:"),
+    # John 11:43
+    ("j4", JESUS, "Lazarus, come forth."),
+    ("n9", NARRATOR, "And the dead man came out. Bound hand and foot in strips of grave-linen, his face still wrapped, Lazarus stood in the mouth of his own tomb — alive. Four days gone, and standing in the light. Nobody moved. Nobody breathed."),
+    # John 11:44
+    ("j5", JESUS, "Loose him, and let him go."),
+    ("n10", NARRATOR, "Unwrap him. Take the grave-linen off a living man and let him walk home to dinner. This was the last great sign before Jesus turned toward his own cross — and he did it in the open, at a marked grave, in front of a crowd, so that no one could ever call it a trick of the light. The one who stands over every grave you have ever wept beside looked death full in the face and called a friend home. He does not merely explain the resurrection. He is the resurrection."),
+    ("n11", NARRATOR, "He wept at the grave, even though he was about to open it. Is there a grief you are carrying that he would not rush you past, but would sit down inside it, and weep there with you first?"),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

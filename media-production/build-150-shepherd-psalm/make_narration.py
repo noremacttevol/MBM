@@ -32,26 +32,35 @@ from mbm_speakers import NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, 'Three thousand years ago a shepherd-king wrote a song about being shepherded himself. It starts like this:'),
-    ("s1", SCRIPTURE, 'The LORD is my shepherd; I shall not want.'),
-    ("n0b", NARRATOR, "David begins with trust, not scarcity. Everything after that opening line shows what the Shepherd's care looks like."),
-    ("s2", SCRIPTURE, 'He maketh me to lie down in green pastures: he leadeth me beside the still waters.'),
-    ("n1a", NARRATOR, 'The image is deliberate: a sheep lies down only when it feels safe.'),
-    ("s3a", SCRIPTURE, 'He restoreth my soul:'),
-    ("n1b", NARRATOR, 'The Shepherd does more than keep David alive; he brings him back when he is spent.'),
+    ("n0", NARRATOR, "Three thousand years ago a shepherd-king wrote a song about being shepherded himself. It starts like this:"),
+    # Psalm 23:1
+    ("s1", SCRIPTURE, "The LORD is my shepherd; I shall not want."),
+    ("n0b", NARRATOR, "The Lord takes care of me. There is nothing I need that I won't have. That is the whole psalm in one line — everything after it is David showing his work."),
+    # Psalm 23:2
+    ("s2", SCRIPTURE, "He maketh me to lie down in green pastures: he leadeth me beside the still waters."),
+    ("n1a", NARRATOR, "He leads me to quiet water and green places to rest."),
+    # Psalm 23:3
+    ("s3a", SCRIPTURE, "He restoreth my soul:"),
+    ("n1b", NARRATOR, "He puts my life back together."),
+    # Psalm 23:3
     ("s3b", SCRIPTURE, "he leadeth me in the paths of righteousness for his name's sake."),
-    ("n2", NARRATOR, "The guarantee is the Shepherd's own character, not David's performance."),
-    ("s4", SCRIPTURE, 'Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me.'),
-    ("n3", NARRATOR, 'Notice what changes here: up to now David has been saying He. In the valley he starts saying You. He gets closer to the Shepherd in the dark, not further away.'),
-    ("s5a", SCRIPTURE, 'Thou preparest a table before me in the presence of mine enemies:'),
-    ("n4a", NARRATOR, 'Even danger has to watch while the Shepherd provides.'),
-    ("s5b", SCRIPTURE, 'thou anointest my head with oil; my cup runneth over.'),
-    ("n4b", NARRATOR, 'This is welcome and abundance, not bare survival.'),
-    ("s6a", SCRIPTURE, 'Surely goodness and mercy shall follow me all the days of my life:'),
-    ("n5a", NARRATOR, 'David pictures those gifts not trailing weakly behind, but pursuing him.'),
-    ("s6b", SCRIPTURE, 'and I will dwell in the house of the LORD for ever.'),
-    ("n5b", NARRATOR, "The song ends where every sheep longs to be: safely in the Shepherd's presence."),
-    ("card", NARRATOR, 'The Shepherd who leads, restores, and walks the dark valley with you is the same One who invites you home. Let Him lead.'),
+    ("n2", NARRATOR, "He guides me down the right paths, for His name's sake — not because I earned the guiding, but because of who He is."),
+    # Psalm 23:4
+    ("s4", SCRIPTURE, "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me."),
+    ("n3", NARRATOR, "Even in the darkest valley, I'm not afraid. And notice what changes right there: up to now David has been saying He. In the valley he starts saying You. He gets closer to the Shepherd in the dark, not further away."),
+    # Psalm 23:5
+    ("s5a", SCRIPTURE, "Thou preparest a table before me in the presence of mine enemies:"),
+    ("n4a", NARRATOR, "You set a table for me right in front of my enemies."),
+    # Psalm 23:5
+    ("s5b", SCRIPTURE, "thou anointest my head with oil; my cup runneth over."),
+    ("n4b", NARRATOR, "You honor me;"),
+    # Psalm 23:6
+    ("s6a", SCRIPTURE, "Surely goodness and mercy shall follow me all the days of my life:"),
+    ("n5a", NARRATOR, "Your goodness and Your mercy will chase me down every day I have."),
+    # Psalm 23:6
+    ("s6b", SCRIPTURE, "and I will dwell in the house of the LORD for ever."),
+    ("n5b", NARRATOR, "And I'll be home with You forever."),
+    ("card", NARRATOR, "The Shepherd who leads, restores, and walks the dark valley with you is the same One who invites you home. Let Him lead."),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

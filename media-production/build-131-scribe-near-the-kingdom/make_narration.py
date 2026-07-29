@@ -48,17 +48,21 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0a", NARRATOR, 'A teacher of the law came to Jesus with a real question, not a trap —'),
-    ("s28", SCRIPTURE, 'Which is the first commandment of all?'),
-    ("n0b", NARRATOR, 'Jesus answered from words the scribe had known by heart for years.'),
-    ("jv29", JESUS, 'The first of all the commandments is, Hear, O Israel; The Lord our God is one Lord: And thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind, and with all thy strength: this is the first commandment. And the second is like, namely this, Thou shalt love thy neighbour as thyself. There is none other commandment greater than these.'),
-    ("n1", NARRATOR, 'The answer was not merely an idea to admire. It measured every other act of devotion.'),
-    ("s32", SCRIPTURE, 'Well, Master, thou hast said the truth: for there is one God; and there is none other but he: And to love him with all the heart, and with all the understanding, and with all the soul, and with all the strength, and to love his neighbour as himself, is more than all whole burnt offerings and sacrifices.'),
-    ("n2", NARRATOR, 'The scribe had not merely repeated Jesus. He understood the weight of the answer.'),
-    ("n3", NARRATOR, 'Jesus looked at him and saw a man thinking clearly, with an open heart.'),
-    ("j1", JESUS, 'Thou art not far from the kingdom of God.'),
-    ("n4", NARRATOR, 'That was both recognition and invitation. Understanding had brought the man to the threshold; now he had to enter. And no one dared question Jesus after that.'),
-    ("card", NARRATOR, 'You may be closer than you think. Love God, love your neighbor — and step through the door.'),
+    ("n0a", NARRATOR, "A teacher of the law came to Jesus with a real question, not a trap —"),
+    # Mark 12:28
+    ("s28", SCRIPTURE, "Which is the first commandment of all?"),
+    ("n0b", NARRATOR, "which commandment matters most of all?"),
+    # Mark 12:29-31
+    ("jv29", JESUS, "The first of all the commandments is, Hear, O Israel; The Lord our God is one Lord: And thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind, and with all thy strength: this is the first commandment. And the second is like, namely this, Thou shalt love thy neighbour as thyself. There is none other commandment greater than these."),
+    ("n1", NARRATOR, "Jesus answered without hesitation. And love your neighbor as yourself. Everything else hangs on those two."),
+    # Mark 12:32-33
+    ("s32", SCRIPTURE, "Well, Master, thou hast said the truth: for there is one God; and there is none other but he: And to love him with all the heart, and with all the understanding, and with all the soul, and with all the strength, and to love his neighbour as himself, is more than all whole burnt offerings and sacrifices."),
+    ("n2", NARRATOR, "The scribe agreed — and added something honest:"),
+    ("n3", NARRATOR, "Jesus looked at him and saw a man thinking clearly, with an open heart."),
+    # Mark 12:34
+    ("j1", JESUS, "Thou art not far from the kingdom of God."),
+    ("n4", NARRATOR, "Not far. The man was close — a step from the door. And no one dared question Jesus after that."),
+    ("card", NARRATOR, "You may be closer than you think. Love God, love your neighbor — and step through the door."),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

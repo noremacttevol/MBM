@@ -48,28 +48,33 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n1", NARRATOR, 'Peter had sworn he would die before he would ever deny Jesus.'),
-    ("n2", NARRATOR, 'Then, in one terrible night, he denied him three times. The rooster crowed, Jesus turned and looked at him, and Peter went out and wept bitterly.'),
-    ("n3", NARRATOR, 'After the resurrection, Peter went back to fishing. Back to the old life.'),
-    ("n4", NARRATOR, 'It is what people do with a failure they cannot carry. They go back to what they knew before it happened. And that night they caught nothing.'),
-    ("n5", NARRATOR, 'At dawn, a figure on the shore called out across the water to the boat.'),
-    ("j0a", JESUS, 'Children, have ye any meat?'),
-    ("n5b", NARRATOR, 'Their answer was only one word: no. All night, nothing.'),
-    ("j0b", JESUS, 'Cast the net on the right side of the ship, and ye shall find.'),
-    ("n5c", NARRATOR, 'They did — and it came up so full they could not haul it in.'),
-    ("n6", NARRATOR, 'Then one of them went very still and said, it is the Lord. And Peter did not wait for the boat. He threw himself into the sea and swam for shore, leaving everything behind.'),
-    ("n7", NARRATOR, 'When he waded out of the water, he stopped cold. On the sand was a charcoal fire, with fish already laid over it, and bread.'),
-    ("n8", NARRATOR, 'A charcoal fire. The same kind of fire Peter had stood beside in the courtyard the night he denied him. The smell alone would have brought the whole night back.'),
-    ("n9", NARRATOR, 'Jesus did not bring up the denial. He simply had breakfast waiting, and they ate together on the shore in the first gold light.'),
+    ("n1", NARRATOR, "Peter had sworn he would die before he would ever deny Jesus."),
+    ("n2", NARRATOR, "Then, in one terrible night, he denied him three times. The rooster crowed, Jesus turned and looked at him, and Peter went out and wept bitterly."),
+    ("n3", NARRATOR, "After the resurrection, Peter went back to fishing. Back to the old life."),
+    ("n4", NARRATOR, "It is what people do with a failure they cannot carry. They go back to what they knew before it happened. And that night they caught nothing."),
+    ("n5", NARRATOR, "At dawn, a figure on the shore called out across the water to the boat."),
+    # John 21:5
+    ("j0a", JESUS, "Children, have ye any meat?"),
+    ("n5b", NARRATOR, "Have you caught anything, he called. And they had to say it out loud to a stranger — no. Nothing. All night, nothing."),
+    # John 21:6
+    ("j0b", JESUS, "Cast the net on the right side of the ship, and ye shall find."),
+    ("n5c", NARRATOR, "Put the net over the right side, he told them, and you will find some. They did — and it came up so full they could not haul it in."),
+    ("n6", NARRATOR, "Then one of them went very still and said, it is the Lord. And Peter did not wait for the boat. He threw himself into the sea and swam for shore, leaving everything behind."),
+    ("n7", NARRATOR, "When he waded out of the water, he stopped cold. On the sand was a charcoal fire, with fish already laid over it, and bread."),
+    ("n8", NARRATOR, "A charcoal fire. The same kind of fire Peter had stood beside in the courtyard the night he denied him. The smell alone would have brought the whole night back."),
+    ("n9", NARRATOR, "Jesus did not bring up the denial. He simply had breakfast waiting, and they ate together on the shore in the first gold light."),
     ("n10", NARRATOR, "When breakfast was over, Jesus turned to Peter. Three times, once it seems for each denial, he asked him the same question, using Peter's old name, the name he had before any of it:"),
-    ("j1", JESUS, 'Simon, son of Jonas, lovest thou me?'),
-    ("n11", NARRATOR, 'Not, how could you. Not, prove it. Not one word thrown back at him about the denial.'),
-    ("s16", SCRIPTURE, 'Yea, Lord; thou knowest that I love thee.'),
-    ("n12", NARRATOR, 'Peter answered each time. Every answer cost him more, and every answer carried more of the truth.'),
-    ("j2", JESUS, 'Feed my sheep.'),
-    ("n13", NARRATOR, 'To the man who had failed him worst, Jesus handed the biggest job of all. He did not only forgive Peter. He trusted him again.'),
-    ("n14", NARRATOR, 'That is how good he is. He takes your worst night and hands you back your life, with a purpose bigger than the one you thought you had thrown away.'),
-    ("card", NARRATOR, 'Peter went back to fishing because he thought his failure was final. Is there a failure you have quietly decided is final?'),
+    # John 21:16
+    ("j1", JESUS, "Simon, son of Jonas, lovest thou me?"),
+    ("n11", NARRATOR, "Not, how could you. Not, prove it. Not one word thrown back at him about the denial. Only: do you love me."),
+    # John 21:16
+    ("s16", SCRIPTURE, "Yea, Lord; thou knowest that I love thee."),
+    ("n12", NARRATOR, "Three times Peter answered him, yes, Lord, you know that I love you. Each time it cost him more, and each time he meant it more."),
+    # John 21:16
+    ("j2", JESUS, "Feed my sheep."),
+    ("n13", NARRATOR, "To the man who had failed him worst, Jesus handed the biggest job of all. He did not only forgive Peter. He trusted him again."),
+    ("n14", NARRATOR, "That is how good he is. He takes your worst night and hands you back your life, with a purpose bigger than the one you thought you had thrown away."),
+    ("card", NARRATOR, "Peter went back to fishing because he thought his failure was final. Is there a failure you have quietly decided is final?"),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

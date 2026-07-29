@@ -16,17 +16,20 @@ from mbm_pronounce import audit, spoken_text
 from mbm_speakers import JESUS, NARRATOR
 
 SEGMENTS = [
-    ("n0", NARRATOR, 'Many of the pictures people carry of hell came through centuries of art and tradition. Jesus did give severe warnings. But to hear one of his most famous warnings clearly, start with the history inside the word Gehenna.'),
-    ("n1", NARRATOR, "Gehenna is the Greek form of the name Valley of Hinnom, a real ravine along the southern side of Jerusalem. Long before Jesus, that name had become a memory of one of Judah's darkest apostasies."),
-    ("n2", NARRATOR, 'The prophets condemned a place there called Topheth, where children had been passed through fire. Jeremiah said it would be called the Valley of Slaughter. The name carried shame, ruin, and judgment.'),
-    ("n3", NARRATOR, "By the time Mark recorded Jesus' warning, Gehenna was a place-name charged with that biblical history. Jesus used it, along with the closing image from Isaiah of fire and the worm, to make the danger of sin impossible to ignore:"),
-    ("j1", JESUS, 'And if thy hand offend thee, cut it off: it is better for thee to enter into life maimed, than having two hands to go into hell, into the fire that never shall be quenched:'),
-    ("j2", JESUS, 'And if thine eye offend thee, pluck it out: it is better for thee to enter into the kingdom of God with one eye, than having two eyes to be cast into hell fire:'),
-    ("j3", JESUS, 'Where their worm dieth not, and the fire is not quenched.'),
-    ("n4", NARRATOR, "The images are deliberately severe. Hand and eye name things as precious as parts of your own body, yet no cherished sin is worth surrendering life in God's kingdom. Love does not make the warning smaller. Love tells the truth about what destroys us."),
-    ("n5", NARRATOR, 'Later art supplied pitchforks, elaborate torture chambers, and maps of the underworld. Scripture itself uses several warning images: death, destruction, darkness, exclusion, and fire. The images are meant to call you back, not satisfy curiosity about every detail beyond death.'),
-    ("n6", NARRATOR, 'Read the warning beside the whole life of the speaker: the shepherd who searches for the lost, the father who runs down the road, the Savior who enters death to bring people home. He warns because sin destroys and because he came to save.'),
-    ("card", NARRATOR, 'The warning is real. So is the rescue. What would you leave behind if you trusted that the one warning you is also the one searching for you?'),
+    ("n0", NARRATOR, "You were probably taught that hell is a torture chamber, and that God keeps most of his children there forever. Jesus did warn about hell. But the word he used, and the place he pointed at, are not what tradition made them."),
+    ("n1", NARRATOR, "When Jesus said hell, the word in his language was Gehenna — and everyone listening knew exactly what he meant. It was a real place. A valley just outside the wall of Jerusalem."),
+    ("n2", NARRATOR, "The valley of Hinnom. Long before, terrible things had happened there, and by Jesus' day it had become the city's burning garbage dump — fires that smoldered day and night, always another load, the smoke never seeming to stop."),
+    ("n3", NARRATOR, "So when Jesus said this, he was pointing at a smoking valley his listeners could have walked to that same afternoon:"),
+    # Mark 9:43
+    ("j1", JESUS, "And if thy hand offend thee, cut it off: it is better for thee to enter into life maimed, than having two hands to go into hell, into the fire that never shall be quenched:"),
+    # Mark 9:47
+    ("j2", JESUS, "And if thine eye offend thee, pluck it out: it is better for thee to enter into the kingdom of God with one eye, than having two eyes to be cast into hell fire:"),
+    # Mark 9:48
+    ("j3", JESUS, "Where their worm dieth not, and the fire is not quenched."),
+    ("n4", NARRATOR, "He used the most vivid picture his listeners owned — the ever-burning dump — to say something deadly serious: sin is worth cutting loose from, and what you carry into eternity matters. He would not have loved them enough to warn them if it did not."),
+    ("n5", NARRATOR, "But notice what he did NOT say. He never described God shoveling his own children into a dungeon to torture them forever for his pleasure. That picture — the pit, the pitchfork, the endless screaming — came later, from tradition and from paintings. It did not come from him."),
+    ("n6", NARRATOR, "The God Jesus actually showed was a shepherd who leaves ninety-nine to chase one, a father who runs down the road. That God warns you about the fire the way a parent yanks a child back from a cliff — because he wants you, not because he is hunting for a reason to lose you."),
+    ("card", NARRATOR, "What if the God you were afraid of was never the God who warned you — but the God who came to carry you past the fire himself? Who taught you to fear him more than to trust him?"),
 ]
 
 SPOKEN = {}

@@ -29,17 +29,15 @@ Passover supper — flat bread, clay cups, a small oil lamp — stone and plaste
 walls, cushions and low benches, deep warm shadows, night dark beyond one small
 window. All light is warm amber oil-lamp light.
 
-[DISCIPLES LOCK] = the disciples are the same twelve Middle Eastern Jewish men in
-every picture, dressed in dark saturated earth tones — deep brown, rust, charcoal,
-olive — never pale, never cream; no disciple resembles the man in cream; every
-visible figure has two arms, two hands, two legs, one head, every limb joined to
-the correct body.
+[DISCIPLES LOCK] = the twelve are TWELVE CLEARLY DIFFERENT men — NOT lookalikes, each his own age, hair and beard (attach the-twelve reference sheet): PETER broad, ~35, thick dark CURLY hair + full beard, blue-grey; ANDREW leaner ~30, short beard, olive-drab; JAMES (Zebedee) ~25, short dark beard, ochre-brown; JOHN the youngest ~20, CLEAN-SHAVEN, dark hair to the jaw, grey-blue; PHILIP ~32, the only SANDY LIGHT-BROWN head, sand-tan; BARTHOLOMEW the eldest ~45, SILVER-STREAKED broadest beard, forest-green; MATTHEW ~40, trimmed city beard, teal-green; THOMAS ~35, STRAIGHT BLACK hair to the jaw, indigo-charcoal; JAMES (Alphaeus) the SHORTEST ~30, stone-grey; THADDAEUS ~28, CHESTNUT curly hair, mustard-gold; SIMON the Zealot ~35, black hair tied back, oxblood-maroon; JUDAS ~35, ordinary, dark russet. All in dark saturated earth tones, never pale, never cream; no disciple resembles the man in cream; every visible figure has two arms, two hands, two legs, one head, every limb joined to the correct body. They must read as a dozen DISTINCT individuals, never twelve copies of one face.
 
-[PETER LOCK] = Peter, the same man in every picture he appears in: a stocky,
-broad-shouldered Middle Eastern Jewish fisherman of about fifty, weathered
-sun-browned face, a FULL hairline of thick curly dark hair streaked with grey, a
-full grey-streaked dark beard, deep-set dark eyes, a dark rust-brown wool tunic
-with a charcoal-grey mantle (never cream). He appears EXACTLY ONCE in any frame;
+[PETER LOCK] = Peter, the same man in every picture he appears in: a sturdy
+broad-shouldered Galilean fisherman in his MID-THIRTIES, weathered olive skin,
+thick DARK curly hair and a full DARK beard — never grey, never silver, never
+salt-and-pepper, never an old man — deep-set dark eyes, strong rope-worn hands,
+an open expressive face, quick to speak and quick to feel. A BLUE-GREY wool
+tunic with a rope belt and a dun-brown fisher's mantle (never cream, so he is
+never confused with the cream-robed Lord). He appears EXACTLY ONCE in any frame;
 no other figure in the frame resembles him.
 
 ---
@@ -62,7 +60,7 @@ SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stack
 ## s4-peter-protests — Shot 4: "you'll never wash MY feet"
 JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.
 REF: jesus-master-ref
-SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only, artwork fills the ENTIRE frame and bleeds to all four edges, no border, no vignette, one single tall upright vertical painting. [STILL STYLE BLOCK] [UPPER-ROOM LOCK] [PETER LOCK] Peter sits half-recoiling on the low bench, drawing his feet back, one hand raised in protest, his weathered face conflicted — awe and refusal at once. Jesus kneels before him with the towel about his waist and the basin beside him, looking up at Peter with calm unhurried warmth, his face shown clearly, utterly unoffended. Only Jesus wears cream; Peter in his dark rust-brown tunic and charcoal-grey mantle. Warm amber lamplight. Each man appears exactly once. Every figure: two arms, two hands, two legs, one head, every limb joined to the correct body. One single continuous scene painted edge to edge. 9:16 vertical.
+SINGLE UNIFIED ILLUSTRATION, one scene edge to edge, NOT a grid, triptych, stacked panels or comic strip, no dividing lines, one picture only, artwork fills the ENTIRE frame and bleeds to all four edges, no border, no vignette, one single tall upright vertical painting. [STILL STYLE BLOCK] [UPPER-ROOM LOCK] [PETER LOCK] Peter — the SAME man as the attached PETER reference images, a sturdy Galilean fisherman in his MID-THIRTIES with thick dark curly hair and a full DARK beard; he is NOT old, NOT grey-haired, NOT grey-bearded, NOT white-haired — sits half-recoiling on the low bench, drawing his feet back, one hand raised in protest, his face conflicted — awe and refusal at once. Jesus kneels before him with the towel about his waist and the basin beside him, looking up at Peter with calm unhurried warmth, his face shown clearly, utterly unoffended. Only Jesus wears cream; Peter in his locked BLUE-GREY wool tunic with a dun-brown fisher's mantle. Warm amber lamplight. Each man appears exactly once. Every figure: two arms, two hands, two legs, one head, every limb joined to the correct body. One single continuous scene painted edge to edge. 9:16 vertical.
 
 ## s5-no-part-with-me — Shot 5: gentle and certain [SILENCE]
 JESUS LOCK v3: the SAME man as the attached JESUS-MASTER-REF images — identical face, hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, warm tan olive-brown skin, shoulder-length dark brown-black wavy hair, a full dark beard, kind warm BROWN eyes, one plain undyed off-white cream wool robe (only he wears cream). No halo, no glow. Never caucasian, never pale, never blue-eyed, never blond.

@@ -61,21 +61,26 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, 'The disciples were hiding behind locked doors, afraid, when Jesus suddenly stood among them. They thought they were seeing a ghost.'),
-    ("n1", NARRATOR, 'He calmed them and showed them it was really him — flesh and bone, not a spirit.'),
-    ("j1", JESUS, 'Behold my hands and my feet, that it is I myself: handle me, and see; for a spirit hath not flesh and bones, as ye see me have.'),
+    ("n0", NARRATOR, "The disciples were hiding behind locked doors, afraid, when Jesus suddenly stood among them. They thought they were seeing a ghost."),
+    ("n1", NARRATOR, "He calmed them and showed them it was really him — flesh and bone, not a spirit."),
+    # Luke 24:39
+    ("j1", JESUS, "Behold my hands and my feet, that it is I myself: handle me, and see; for a spirit hath not flesh and bones, as ye see me have."),
     ("n1b", NARRATOR, "Look at my hands and my feet, he said. It's me. Touch me and see — a spirit doesn't have flesh and bones like I have. He did not ask them to take it on faith. He told them to put their hands on him."),
     ("n2", NARRATOR, "But Thomas wasn't there. And when they told him what they had seen, he would not have it."),
-    ("s25", SCRIPTURE, 'Except I shall see in his hands the print of the nails, and put my finger into the print of the nails, and thrust my hand into his side, I will not believe.'),
-    ("n2b", NARRATOR, 'He did not just doubt. He named the exact proof he would need.'),
-    ("n3", NARRATOR, 'It was eight days later when Jesus appeared again — and he turned straight to Thomas, and offered him that exact proof, in almost the same words Thomas had used.'),
-    ("j2", JESUS, 'Reach hither thy finger, and behold my hands; and reach hither thy hand, and thrust it into my side: and be not faithless, but believing.'),
-    ("n3b", NARRATOR, 'Put your finger here, he said, and look at my hands. Put your hand into my side. Stop doubting, and believe. Every single thing Thomas had demanded, handed to him without one word of scolding.'),
-    ("s28", SCRIPTURE, 'My Lord and my God.'),
+    # John 20:25
+    ("s25", SCRIPTURE, "Except I shall see in his hands the print of the nails, and put my finger into the print of the nails, and thrust my hand into his side, I will not believe."),
+    ("n2b", NARRATOR, "Unless I see the nail marks in his hands, he said, and put my finger where the nails went, and my hand into his side — I will not believe it. He did not just doubt. He named the exact proof he would need."),
+    ("n3", NARRATOR, "It was eight days later when Jesus appeared again — and he turned straight to Thomas, and offered him that exact proof, in almost the same words Thomas had used."),
+    # John 20:27
+    ("j2", JESUS, "Reach hither thy finger, and behold my hands; and reach hither thy hand, and thrust it into my side: and be not faithless, but believing."),
+    ("n3b", NARRATOR, "Put your finger here, he said, and look at my hands. Put your hand into my side. Stop doubting, and believe. Every single thing Thomas had demanded, handed to him without one word of scolding."),
+    # John 20:28
+    ("s28", SCRIPTURE, "My Lord and my God."),
     ("n4a", NARRATOR, "That is all Thomas said. He never did reach out and touch anything. Jesus didn't scold him for doubting — he met the doubt with his own hands, and the doubt was over."),
-    ("jv29", JESUS, 'Thomas, because thou hast seen me, thou hast believed: blessed are they that have not seen, and yet have believed.'),
+    # John 20:29
+    ("jv29", JESUS, "Thomas, because thou hast seen me, thou hast believed: blessed are they that have not seen, and yet have believed."),
     ("n4b", NARRATOR, "You believed because you saw me, he told him. Blessed are the ones who have not seen, and believe anyway. That last line was not about Thomas. That one was about you. And that's what he does with honest doubt — he steps toward it."),
-    ("card", NARRATOR, 'He met a doubter with open hands, not anger. Bring him your doubt. He can handle it.'),
+    ("card", NARRATOR, "He met a doubter with open hands, not anger. Bring him your doubt. He can handle it."),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

@@ -56,18 +56,22 @@ from mbm_speakers import GOD, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, 'A young man named Jeremiah felt far too small for the job. God was calling him to speak to nations, and he was certain he could not do it.'),
-    ("n1", NARRATOR, 'But the call did not begin the day he heard it. Long before he was born, before he ever drew a breath, the plan was already set.'),
-    ("n2", NARRATOR, 'The God who made him had already chosen him — and blessing, not pressure, was the shape of it.'),
-    ("s1", GOD, 'Before I formed thee in the belly I knew thee; and before thou camest forth out of the womb I sanctified thee, and I ordained thee a prophet unto the nations.'),
-    ("n1r", NARRATOR, 'Read that again slowly. Before you were ever born, I set you apart, and I gave you this work. God is telling a frightened young man that they had already met — long before anybody in Jerusalem knew his name.'),
-    ("s1b", SCRIPTURE, 'Ah, Lord GOD! behold, I cannot speak: for I am a child.'),
-    ("n3a", NARRATOR, 'Jeremiah answered that he was only a child.'),
-    ("g7", GOD, 'Say not, I am a child: for thou shalt go to all that I shall send thee, and whatsoever I command thee thou shalt speak.'),
-    ("n3b", NARRATOR, 'The LORD replied — go where I send you, speak what I command, and do not be afraid, for I am with you to deliver you.'),
-    ("s2", GOD, 'Be not afraid of their faces: for I am with thee to deliver thee, saith the LORD.'),
-    ("n4", NARRATOR, 'The same God who knew you before you were born is the one who walks with you now. The calling is His; the courage is His gift.'),
-    ("card", NARRATOR, 'You were known before you were born. You are not too small for what He has for you.'),
+    ("n0", NARRATOR, "A young man named Jeremiah felt far too small for the job. God was calling him to speak to nations, and he was certain he could not do it."),
+    ("n1", NARRATOR, "But the call did not begin the day he heard it. Long before he was born, before he ever drew a breath, the plan was already set."),
+    ("n2", NARRATOR, "The God who made him had already chosen him — and blessing, not pressure, was the shape of it."),
+    # Jeremiah 1:5
+    ("s1", GOD, "Before I formed thee in the belly I knew thee; and before thou camest forth out of the womb I sanctified thee, and I ordained thee a prophet unto the nations."),
+    ("n1r", NARRATOR, "Read that again slowly. Before you were ever born, I set you apart, and I gave you this work. God is telling a frightened young man that they had already met — long before anybody in Jerusalem knew his name."),
+    # Jeremiah 1:6
+    ("s1b", SCRIPTURE, "Ah, Lord GOD! behold, I cannot speak: for I am a child."),
+    ("n3a", NARRATOR, "Jeremiah answered that he was only a child."),
+    # Jeremiah 1:7
+    ("g7", GOD, "Say not, I am a child: for thou shalt go to all that I shall send thee, and whatsoever I command thee thou shalt speak."),
+    ("n3b", NARRATOR, "The LORD replied — go where I send you, speak what I command, and do not be afraid, for I am with you to deliver you."),
+    # Jeremiah 1:8
+    ("s2", GOD, "Be not afraid of their faces: for I am with thee to deliver thee, saith the LORD."),
+    ("n4", NARRATOR, "The same God who knew you before you were born is the one who walks with you now. The calling is His; the courage is His gift."),
+    ("card", NARRATOR, "You were known before you were born. You are not too small for what He has for you."),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

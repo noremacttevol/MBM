@@ -51,19 +51,24 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n1", NARRATOR, 'Nicodemus was a ruler and a respected teacher, a man near the top of his world. And yet, one night, he slipped quietly through the dark streets to ask his questions in private, humble enough to come and learn.'),
-    ("n2", NARRATOR, 'He came to the light and listened. And what he heard turned his careful world upside down. It was not a small adjustment or one more rule to keep. It was a whole new beginning — a person must be born all over again.'),
-    ("kv3", SCRIPTURE, 'Jesus answered and said unto him,'),
-    ("kv3b", JESUS, 'Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God.'),
+    ("n1", NARRATOR, "Nicodemus was a ruler and a respected teacher, a man near the top of his world. And yet, one night, he slipped quietly through the dark streets to ask his questions in private, humble enough to come and learn."),
+    ("n2", NARRATOR, "He came to the light and listened. And what he heard turned his careful world upside down. It was not a small adjustment or one more rule to keep. It was a whole new beginning — a person must be born all over again."),
+    # John 3:3
+    ("kv3", SCRIPTURE, "Jesus answered and said unto him,"),
+    # John 3:3
+    ("kv3b", JESUS, "Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God."),
+    # John 3:4
     ("s4", SCRIPTURE, "How can a man be born when he is old? can he enter the second time into his mother's womb, and be born?"),
-    ("n3", NARRATOR, 'Nicodemus took it literally, and was baffled. He could not picture it. Surely no one could climb back and start his life over from the beginning.'),
-    ("n4", NARRATOR, 'But the new birth was never meant to be physical. To be born again is first to be born of water — to go down into the water of baptism and come up new, the old life washed away and left behind.'),
-    ("n5", NARRATOR, 'And there was a second half to it, not water only. To be born of the Spirit is to receive the gift of the Holy Ghost — a birth from above, life breathed into the soul by heaven itself.'),
-    ("kv5", SCRIPTURE, 'Jesus answered,'),
-    ("kv5b", JESUS, 'Verily, verily, I say unto thee, Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God.'),
-    ("n6", NARRATOR, 'Here is the quiet study gem. Notice he did not say this was one good option among many. He said a person cannot enter without it. The gate is the gate — the same for everyone, even a learned and upright ruler like Nicodemus.'),
-    ("n7", NARRATOR, 'And that same single gate still stands open before you: born of water, and born of the Spirit. The door is not hidden and it is not narrow with pride — it is simply the way in. When you stand before it, will you go through?'),
-    ("card", NARRATOR, 'To enter the kingdom, a person must be born again — born of water in baptism, and of the Spirit from above. The gate is the gate, the same for everyone. When you stand before it, will you go through?'),
+    ("n3", NARRATOR, "Nicodemus took it literally, and was baffled. He could not picture it. Surely no one could climb back and start his life over from the beginning."),
+    ("n4", NARRATOR, "But the new birth was never meant to be physical. To be born again is first to be born of water — to go down into the water of baptism and come up new, the old life washed away and left behind."),
+    ("n5", NARRATOR, "And there was a second half to it, not water only. To be born of the Spirit is to receive the gift of the Holy Ghost — a birth from above, life breathed into the soul by heaven itself."),
+    # John 3:5
+    ("kv5", SCRIPTURE, "Jesus answered,"),
+    # John 3:5
+    ("kv5b", JESUS, "Verily, verily, I say unto thee, Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God."),
+    ("n6", NARRATOR, "Here is the quiet study gem. Notice he did not say this was one good option among many. He said a person cannot enter without it. The gate is the gate — the same for everyone, even a learned and upright ruler like Nicodemus."),
+    ("n7", NARRATOR, "And that same single gate still stands open before you: born of water, and born of the Spirit. The door is not hidden and it is not narrow with pride — it is simply the way in. When you stand before it, will you go through?"),
+    ("card", NARRATOR, "To enter the kingdom, a person must be born again — born of water in baptism, and of the Spirit from above. The gate is the gate, the same for everyone. When you stand before it, will you go through?"),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

@@ -43,23 +43,29 @@ from mbm_speakers import GOD, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n1", NARRATOR, 'It is one of the hardest stories in the Bible, and one of the most misread. God asks Abraham for the thing he loves most in all the world — his son. And Abraham, trusting God completely, sets out.'),
-    ("n2", NARRATOR, 'Now watch closely, because everything the story means is in how it ends. Abraham believed, somehow, that God was good — that whatever this was, God could be trusted with his boy. So he walked, and he trusted, and he did not let go of that.'),
-    ("n3", NARRATOR, 'Father and son climbed the mountain together, the boy carrying the wood, the old man carrying the fire and a heart full of faith and ache. And as they climbed, the child asked the question that hangs over the whole story.'),
-    ("s7", SCRIPTURE, 'Behold the fire and the wood: but where is the lamb for a burnt offering?'),
-    ("s8", SCRIPTURE, 'My son, God will provide himself a lamb for a burnt offering.'),
+    ("n1", NARRATOR, "It is one of the hardest stories in the Bible, and one of the most misread. God asks Abraham for the thing he loves most in all the world — his son. And Abraham, trusting God completely, sets out."),
+    ("n2", NARRATOR, "Now watch closely, because everything the story means is in how it ends. Abraham believed, somehow, that God was good — that whatever this was, God could be trusted with his boy. So he walked, and he trusted, and he did not let go of that."),
+    ("n3", NARRATOR, "Father and son climbed the mountain together, the boy carrying the wood, the old man carrying the fire and a heart full of faith and ache. And as they climbed, the child asked the question that hangs over the whole story."),
+    # Genesis 22:7
+    ("s7", SCRIPTURE, "Behold the fire and the wood: but where is the lamb for a burnt offering?"),
+    # Genesis 22:8
+    ("s8", SCRIPTURE, "My son, God will provide himself a lamb for a burnt offering."),
     ("n4", NARRATOR, "Father, the boy said — we've got the fire and we've got the wood, but where's the lamb? And Abraham answered with the line that turns out to be the whole point of the story:"),
-    ("n5", NARRATOR, 'God will provide. Abraham did not fully understand how. He only trusted that the God he loved would not, in the end, ask him to lose his son. And at the very last moment, at the edge of everything, heaven broke open.'),
-    ("jv11", GOD, 'Abraham, Abraham.'),
-    ("s11", SCRIPTURE, 'Here am I.'),
-    ("n5b", NARRATOR, 'His name, twice, out of the sky. And the old man answered the way he always had — here I am. Then came the words that ended it.'),
-    ("jv12", GOD, 'Lay not thine hand upon the lad, neither do thou any thing unto him: for now I know that thou fearest God.'),
+    ("n5", NARRATOR, "God will provide. Abraham did not fully understand how. He only trusted that the God he loved would not, in the end, ask him to lose his son. And at the very last moment, at the edge of everything, heaven broke open."),
+    # Genesis 22:11
+    ("jv11", GOD, "Abraham, Abraham."),
+    # Genesis 22:11
+    ("s11", SCRIPTURE, "Here am I."),
+    ("n5b", NARRATOR, "His name, twice, out of the sky. And the old man answered the way he always had — here I am. Then came the words that ended it."),
+    # Genesis 22:12
+    ("jv12", GOD, "Lay not thine hand upon the lad, neither do thou any thing unto him: for now I know that thou fearest God."),
     ("n6", NARRATOR, "Don't lay a hand on the boy. Don't do anything to him at all. Stop. God never wanted the child. He never did. He stopped Abraham's hand, and right there, caught in a thicket, was a ram — God's own provision, ready all along. The boy was safe. He was always going to be safe."),
-    ("n7", NARRATOR, 'And the old father gathered his living son into his arms and held him, and wept, and would not let go. God had provided. Abraham named that place The Lord Will Provide, and the name has echoed down every generation since.'),
-    ("jv17", GOD, 'In blessing I will bless thee, and in multiplying I will multiply thy seed as the stars of the heaven, and as the sand which is upon the sea shore.'),
-    ("n7b", NARRATOR, 'I will bless you and bless you again, God told him. Your family will outnumber the stars over your head and the sand under your feet. The man who was willing to hand back his only son was promised more children than he could count.'),
-    ("n8", NARRATOR, 'This was never a story about a God who takes. It is about a God who provides — who steps in at the last moment with what we could never provide ourselves. Centuries later, on another hill nearby, God would provide a Lamb again — this time, his own. The Lord will provide. He always has.'),
-    ("card", NARRATOR, 'God never wanted the child; he wanted to show he provides. He stopped the hand and gave the ram, and the boy went home safe. Where do you most need to trust that the Lord will provide?'),
+    ("n7", NARRATOR, "And the old father gathered his living son into his arms and held him, and wept, and would not let go. God had provided. Abraham named that place The Lord Will Provide, and the name has echoed down every generation since."),
+    # Genesis 22:17
+    ("jv17", GOD, "In blessing I will bless thee, and in multiplying I will multiply thy seed as the stars of the heaven, and as the sand which is upon the sea shore."),
+    ("n7b", NARRATOR, "I will bless you and bless you again, God told him. Your family will outnumber the stars over your head and the sand under your feet. The man who was willing to hand back his only son was promised more children than he could count."),
+    ("n8", NARRATOR, "This was never a story about a God who takes. It is about a God who provides — who steps in at the last moment with what we could never provide ourselves. Centuries later, on another hill nearby, God would provide a Lamb again — this time, his own. The Lord will provide. He always has."),
+    ("card", NARRATOR, "God never wanted the child; he wanted to show he provides. He stopped the hand and gave the ram, and the boy went home safe. Where do you most need to trust that the Lord will provide?"),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

@@ -17,7 +17,9 @@
   "reason": "3 beats now sit on this still (71.8s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s13-i-am-he",
+  "note": "Already painted in the 2026-07-20 STORY-COVERAGE RETROFIT block and never wired into build.py. s13-i-am-he is John 4:26 itself, and s12-truth-spoken covers n5 in the same 71.8s block — so this still needs no new art, it needs assembly to add s12 and s13 to BEATS."
  },
  {
   "build": "build-120-job-from-whirlwind",
@@ -37,8 +39,8 @@
   "current_still": "S9",
   "reason": "4 beats now sit on this still (59.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries FOUR beats — Job's first reply, Job 42:5, and both retellings. Intimate and quiet after the enormous sky: close on Job's face, hand near his mouth, eyes open and seeing something. Ashes still under him. This is the moment he stops arguing.",
-  "slug": "",
-  "done": false
+  "slug": "s9b-hand-upon-my-mouth",
+  "done": true
  },
  {
   "build": "build-44-two-debtors",
@@ -76,8 +78,8 @@
   "current_still": "S6",
   "reason": "2 beats now sit on this still (58.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s6b-jesus-wept",
+  "done": true
  },
  {
   "build": "build-13-roof",
@@ -97,8 +99,8 @@
   "current_still": "S6",
   "reason": "4 beats now sit on this still (56.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s6b-the-first-word-was-son + s6c-the-shame-he-carried",
+  "done": true
  },
  {
   "build": "build-120-job-from-whirlwind",
@@ -118,8 +120,8 @@
   "current_still": "S8",
   "reason": "4 beats now sit on this still (55.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries FOUR beats — the morning stars, Pleiades and Orion, and two retellings. The longest stretch on any single image in the video, so it should be the biggest picture in it: a vast night sky over a small figure, stars thick and deep, the whirlwind's edge still visible low in frame. Wide and slow enough to sit under a lot of words.",
-  "slug": "",
-  "done": false
+  "slug": "s8b-pleiades-and-orion",
+  "done": true
  },
  {
   "build": "build-120-job-from-whirlwind",
@@ -138,8 +140,8 @@
   "current_still": "S2",
   "reason": "3 beats now sit on this still (54.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries the loss, Job's verbatim 'the LORD gave, and the LORD hath taken away', and its retelling. Frame the moment he says it, not the disasters: a man on his knees on bare ground, coat torn, head shaved, hands open and empty. Everything he owned gone out of frame behind him.",
-  "slug": "",
-  "done": false
+  "slug": "s2b-blessed-be-the-name",
+  "done": true
  },
  {
   "build": "build-66-malchus-ear",
@@ -158,8 +160,8 @@
   "current_still": "S3",
   "reason": "3 beats now sit on this still (54.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S3 now carries three beats — the setup, Jesus's verbatim 'put up again thy sword', and n3. Frame the disarming: Jesus's hand laid flat over Peter's on the sword, pushing it back down, and Jesus's eyes not on Peter but on the men coming. Calm in the middle of a mob.",
-  "slug": "",
-  "done": false
+  "slug": "s3b-put-up-thy-sword",
+  "done": true
  },
  {
   "build": "build-05-bent-woman",
@@ -178,8 +180,8 @@
   "current_still": "S9",
   "reason": "3 beats now sit on this still (53.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S9 now carries three beats — Jesus turning on him, the full verbatim answer, and the ox-and-donkey retelling. It has to hold a long stretch, so give it depth: Jesus square to the ruler in the middle of the synagogue floor, the congregation ranged behind on both sides, faces beginning to turn toward the ruler. Steady, not shouting. Sabbath light through high windows.",
-  "slug": "",
-  "done": false
+  "slug": "s9b-square-in-the-synagogue",
+  "done": true
  },
  {
   "build": "build-118-jonah-god-who-relents",
@@ -198,8 +200,8 @@
   "current_still": "S9",
   "reason": "3 beats now sit on this still (51.6s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries God relenting, Jonah's angry confession, and its retelling. Should move from the spared city to the sulking prophet — a figure alone on a hillside above a city that is still standing, back to the camera, arms crossed.",
-  "slug": "",
-  "done": false
+  "slug": "s9b-the-sulking-prophet",
+  "done": true
  },
  {
   "build": "build-13-roof",
@@ -218,8 +220,8 @@
   "current_still": "S8",
   "reason": "3 beats now sit on this still (51.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s8b-they-had-said-nothing + s8c-the-room-holds-its-breath",
+  "done": true
  },
  {
   "build": "build-02-prodigal",
@@ -261,8 +263,8 @@
   "current_still": "S8",
   "reason": "4 beats now sit on this still (51.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s8b-the-grip + s8c-the-question",
+  "done": true
  },
  {
   "build": "build-148-ruth-and-the-redeemer",
@@ -281,8 +283,8 @@
   "current_still": "ST3",
   "reason": "3 beats now sit on this still (51.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries three beats — the whole vow. It should be the moment of the words themselves: Ruth on the road with both hands gripping Naomi's forearms, refusing to let go, Naomi already half-turned away toward Bethlehem. Orpah small and distant behind them, walking the other direction. Close enough to read Ruth's face.",
-  "slug": "",
-  "done": false
+  "slug": "s3b-the-vow-on-the-road",
+  "done": true
  },
  {
   "build": "build-118-jonah-god-who-relents",
@@ -301,8 +303,8 @@
   "current_still": "S3",
   "reason": "3 beats now sit on this still (50.8s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries the storm, Jonah's 'cast me forth into the sea', and the retelling. Frame the moment of the offer, not the throw — Jonah braced on a pitching deck facing the terrified sailors, mid-sentence, the sea violent behind him.",
-  "slug": "",
-  "done": false
+  "slug": "s3b-cast-me-into-the-sea",
+  "done": true
  },
  {
   "build": "build-164-unity-of-faith",
@@ -321,8 +323,8 @@
   "current_still": "S7",
   "reason": "3 beats now sit on this still (50.8s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries three beats — the verse, its retelling, and the study gem. Frame the moment Ephesians 4:14 describes rather than a general sea scene: a small open boat with no one at the tiller, shoved off its line by a crosswind, sail slack and snapping the wrong way. Keep it children-sized and unsteady, not a shipwreck — the verse is about being carried about, not destroyed. Open grey water to every horizon so there is visibly nothing to steer by.",
-  "slug": "",
-  "done": false
+  "slug": "s7b-carried-about",
+  "done": true
  },
  {
   "build": "build-65-help-mine-unbelief",
@@ -341,8 +343,8 @@
   "current_still": "S4",
   "reason": "3 beats now sit on this still (50.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S4 now carries four beats — the setup, the father's verbatim 'Lord, I believe; help thou mine unbelief', its retelling, and n4. Frame the confession: the father's face alone, close, wet, eyes open and looking straight at Jesus. Not a man performing faith. A man admitting he is out of it and asking anyway.",
-  "slug": "",
-  "done": false
+  "slug": "s4b-help-mine-unbelief",
+  "done": true
  },
  {
   "build": "build-63-man-born-blind",
@@ -381,8 +383,8 @@
   "current_still": "S4",
   "reason": "3 beats now sit on this still (48.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s4b-a-well-of-water-springing-up",
+  "done": true
  },
  {
   "build": "build-09-rich-ruler",
@@ -400,8 +402,8 @@
   "current_still": "S4",
   "reason": "2 beats now sit on this still (48.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s4b-give-to-the-poor",
+  "done": true
  },
  {
   "build": "build-04-nicodemus",
@@ -420,8 +422,8 @@
   "current_still": "S4",
   "reason": "3 beats now sit on this still (48.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s4b-everyone-has-to-start-over",
+  "done": true
  },
  {
   "build": "build-32-talents",
@@ -461,8 +463,8 @@
   "current_still": "S8",
   "reason": "4 beats now sit on this still (47.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries four beats — God's 'I will allure her', its retelling, her 'I will go and return to my first husband', and its retelling. The road home at first light, seen from behind and slightly low, the two of them small and walking together toward open country. Quiet, wide, unhurried, with room for a long stretch of words over it.",
-  "slug": "",
-  "done": false
+  "slug": "s8b-the-road-home-behind",
+  "done": true
  },
  {
   "build": "build-149-hannah-is-heard",
@@ -482,8 +484,8 @@
   "current_still": "ST1",
   "reason": "4 beats now sit on this still (47.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "This still now carries four straight beats — the whole vow. It should be Hannah alone at the doorpost of the tabernacle at Shiloh, close on her face, lips parted and moving with no sound coming out, eyes shut, hands empty in her lap. Not a wide temple shot: the moment is that nobody around her can hear a word of it.",
-  "slug": "",
-  "done": false
+  "slug": "s1b-the-silent-vow",
+  "done": true
  },
  {
   "build": "build-07-peter-water",
@@ -502,8 +504,8 @@
   "current_still": "S4",
   "reason": "3 beats now sit on this still (46.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s4b-bid-me-come",
+  "done": true
  },
  {
   "build": "build-03-zacchaeus",
@@ -523,7 +525,8 @@
   "reason": "3 beats now sit on this still (46.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S9 now carries three beats — the table, Zacchaeus's verbatim pledge, and the fourfold retelling. Frame the moment he stands: a small man risen to his feet at a crowded low table, hands open and empty at his sides, everyone else still seated and looking up at him. Lamplight, food untouched. He is not being confronted — he is volunteering.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s9-table-gives"
  },
  {
   "build": "build-158-two-sticks",
@@ -542,8 +545,8 @@
   "current_still": "S4",
   "reason": "3 beats now sit on this still (46.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S4 now carries three beats — kv16, the newly added kv17, and the n4 retelling — so it holds the longest stretch in the build. Frame the moment of joining itself, not the two sticks lying apart: Ezekiel's hands bringing the two marked wooden writing-rods end to end, the seam between them closing, the two becoming one solid piece in his grip. The names written on them should be legible as marks on wood without being the subject. Quiet, close, hands and wood.",
-  "slug": "",
-  "done": false
+  "slug": "s4b-the-seam-closes",
+  "done": true
  },
  {
   "build": "build-153-restitution",
@@ -562,8 +565,8 @@
   "current_still": "S1",
   "reason": "3 beats now sit on this still (44.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S1 now carries three beats and has to hold the healing itself, not just the setting. Frame the exact moment of Acts 3:7 — Peter's right hand closed around the lame man's right hand, lifting, the man's weight just coming off the ground for the first time. Beautiful Gate of the temple behind them, early light on the stone, the beggar's mat still on the pavement. Faces should read as astonishment, not spectacle. Peter is giving, not performing.",
-  "slug": "",
-  "done": false
+  "slug": "s1b-the-healing-lift",
+  "done": true
  },
  {
   "build": "build-70-temptations",
@@ -582,7 +585,8 @@
   "reason": "2 beats now sit on this still (44.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S9 now carries four beats — the devil leaving, angels ministering, the Hebrews verse, and the close. Frame the aftercare, not the victory: Jesus sitting down at last on the rock, gaunt and spent, hands open on his knees, with quiet figures close beside him and food set within reach. First light coming over the ridge behind. The end of the longest night.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s9-angels-ministered"
  },
  {
   "build": "build-23-vineyard",
@@ -640,8 +644,8 @@
   "current_still": "S9",
   "reason": "2 beats now sit on this still (44.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s9b-into-the-light",
+  "done": true
  },
  {
   "build": "build-14-ten-lepers",
@@ -718,8 +722,8 @@
   "current_still": "S5",
   "reason": "3 beats now sit on this still (42.8s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries the honest cry, 'I know that my redeemer liveth', and its retelling. Needs to hold a turn from anguish to hope on one image — Job in the ash heap with his face lifted, not lowered. Dark ground, one break of light above the horizon.",
-  "slug": "",
-  "done": false
+  "slug": "s5b-my-redeemer-liveth",
+  "done": true
  },
  {
   "build": "build-104-boy-samuel",
@@ -739,7 +743,8 @@
   "reason": "3 beats now sit on this still (42.6s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S6 now carries three beats — Eli realising who is calling, his verbatim instruction, and the retelling. Frame the moment of realisation and teaching together: Eli sitting up, leaning toward the boy, a hand on the child's shoulder, speaking close. The old man's face should show recognition, not alarm.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s6-eli-understands"
  },
  {
   "build": "build-61-syrophoenician-woman",
@@ -800,7 +805,8 @@
   "reason": "3 beats now sit on this still (41.9s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries three beats — the setup, God's first commission, and its retelling. Should be the call itself: Jonah alone and small with the word coming to him, and a sense of a far-off great city he does not want to go to. Not the harbour yet.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s1-the-call"
  },
  {
   "build": "build-18-emmaus",
@@ -877,8 +883,8 @@
   "current_still": "S8",
   "reason": "3 beats now sit on this still (41.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s7c-he-lifted-his-eyes",
+  "done": true
  },
  {
   "build": "build-160-stone-cut",
@@ -915,8 +921,8 @@
   "current_still": "S9",
   "reason": "2 beats now sit on this still (41.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s9b-walking-home",
+  "done": true
  },
  {
   "build": "build-135-rainbow-covenant",
@@ -935,8 +941,8 @@
   "current_still": "S2",
   "reason": "3 beats now sit on this still (41.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries three beats — stepping out, God's verbatim blessing, and its retelling. Should show all eight of them on the open hillside, small against an enormous washed sky, animals scattering out around them. Morning light. The feeling wanted is an empty world being handed back, not survivors surveying damage.",
-  "slug": "",
-  "done": false
+  "slug": "s2b-the-empty-world",
+  "done": true
  },
  {
   "build": "build-17-lazarus",
@@ -954,8 +960,8 @@
   "current_still": "S5",
   "reason": "2 beats now sit on this still (40.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s5b-believest-thou-this",
+  "done": true
  },
  {
   "build": "build-117-hosea-buys-her-back",
@@ -974,8 +980,8 @@
   "current_still": "S2",
   "reason": "3 beats now sit on this still (40.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries three beats — her leaving, her own words, and the retelling. Should hold on HER: a woman walking away down a road at dusk, face still visible, chin up, choosing this. Not a victim shot. The moment she believes she is walking toward something better.",
-  "slug": "",
-  "done": false
+  "slug": "s2b-she-chooses",
+  "done": true
  },
  {
   "build": "build-18-emmaus",
@@ -1014,8 +1020,8 @@
   "current_still": "S7",
   "reason": "3 beats now sit on this still (40.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries the preaching, the verbatim 'Yet forty days', and its retelling. Jonah mid-cry in a huge city street, people beginning to turn and look. Bleak delivery against an enormous place — the smallness of the messenger is the point.",
-  "slug": "",
-  "done": false
+  "slug": "s7b-a-small-voice-in-a-great-city",
+  "done": true
  },
  {
   "build": "build-119-fourth-man-in-fire",
@@ -1074,8 +1080,8 @@
   "current_still": "S7",
   "reason": "4 beats now sit on this still (39.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries five beats — the celebration, the shepherd's verbatim call, its retelling, and Jesus's application. Frame the shepherd calling the village in: door thrown open, lamplight spilling out, the shepherd turned back over his shoulder toward the street with the sheep still in his arms, mouth open, shouting for people to come. Joy, not relief.",
-  "slug": "",
-  "done": false
+  "slug": "s7b-calling-the-village",
+  "done": true
  },
  {
   "build": "build-22-unmerciful-servant",
@@ -1114,8 +1120,8 @@
   "current_still": "S2",
   "reason": "3 beats now sit on this still (39.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s2b-he-stayed-two-days",
+  "done": true
  },
  {
   "build": "build-148-ruth-and-the-redeemer",
@@ -1135,8 +1141,8 @@
   "current_still": "ST1",
   "reason": "4 beats now sit on this still (39.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "ST1 is reused for Naomi's 'call me Mara' and now carries three beats. It needs to read as the arrival, not the leaving — Naomi at the edge of Bethlehem with the town's women recognizing her, her face turned down and away, hands open and empty at her sides. The visual has to say the word empty before the narrator does.",
-  "slug": "",
-  "done": false
+  "slug": "s1b-call-me-mara",
+  "done": true
  },
  {
   "build": "build-11-storm",
@@ -1154,8 +1160,8 @@
   "current_still": "S7",
   "reason": "2 beats now sit on this still (38.8s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries the great-calm beat AND the closing word to the viewer, which was previously never on screen at all. It has to hold for a long, quiet stretch. Frame it wide and still: the little boat small on a glass-flat lake, stars doubled in the water, no motion anywhere, the horizon barely visible. Room to breathe.",
-  "slug": "",
-  "done": false
+  "slug": "s7b-the-still-water",
+  "done": true
  },
  {
   "build": "build-35-great-banquet",
@@ -1193,8 +1199,8 @@
   "current_still": "S12",
   "reason": "2 beats now sit on this still (38.8s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s12b-the-savourless-powder",
+  "done": true
  },
  {
   "build": "build-150-shepherd-psalm",
@@ -1215,8 +1221,8 @@
   "current_still": "ST1",
   "reason": "5 beats now sit on this still (38.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries five beats — the opening and all of verse 2. It should show the two things verse 2 actually names, in one frame: a flock lying down at rest in deep green pasture, and quiet unmoving water alongside them. Still water, not a stream. Late gentle light. The shepherd present but not the subject — the sheep are lying down because he is there.",
-  "slug": "",
-  "done": false
+  "slug": "s1b-lie-down-still-waters",
+  "done": true
  },
  {
   "build": "build-101-still-small-voice",
@@ -1235,8 +1241,8 @@
   "current_still": "S4",
   "reason": "3 beats now sit on this still (38.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S4 now carries three beats — God's question into the cave, Elijah's full verbatim complaint, and the retelling. Frame the moment Elijah answers, not the moment he arrives: a man sitting in the mouth of a dark cave, head down, mid-sentence, pouring it out to an unseen presence. Interior gloom with hard daylight at the cave mouth behind him. He should look exhausted, not reverent.",
-  "slug": "",
-  "done": false
+  "slug": "s4b-pouring-it-out",
+  "done": true
  },
  {
   "build": "build-09-rich-ruler",
@@ -1253,8 +1259,8 @@
   "current_still": "S2",
   "reason": "1 beats now sit on this still (37.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s2b-the-question-he-had-carried",
+  "done": true
  },
  {
   "build": "build-24-sower",
@@ -1273,8 +1279,8 @@
   "current_still": "S6",
   "reason": "3 beats now sit on this still (37.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S6 now carries four beats — the verbatim good ground, its retelling, Jesus's own explanation, and the close. Frame the yield: heavy-headed grain filling most of the frame at close range, bent under its own weight, with the sower small and far behind it. The harvest is the subject, not the man.",
-  "slug": "",
-  "done": false
+  "slug": "s6b-the-yield",
+  "done": true
  },
  {
   "build": "build-30-net",
@@ -1333,7 +1339,8 @@
   "reason": "3 beats now sit on this still (37.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S5 now carries three beats — Isaiah 29:13 split in two plus the n5 retelling — so it holds a much longer stretch than before. Frame the exact moment the words describe: people at worship with their mouths moving, lips forming the right words, faces turned the right direction — and something in the posture or the eyes that is somewhere else entirely. Not a scene of wickedness. A scene of correct, hollow habit. Warm light, nothing sinister; the sadness should be gentle, because the verse is diagnosis, not condemnation.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s5-hearts-far-off"
  },
  {
   "build": "build-33-sheep-goats",
@@ -1390,8 +1397,8 @@
   "current_still": "S8",
   "reason": "3 beats now sit on this still (37.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s8b-not-preached-to-a-stadium",
+  "done": true
  },
  {
   "build": "build-30-net",
@@ -1428,8 +1435,8 @@
   "current_still": "S1",
   "reason": "1 beats now sit on this still (36.9s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s1b-half-the-country-on-the-road",
+  "done": true
  },
  {
   "build": "build-167-chosen-ordained",
@@ -1467,8 +1474,8 @@
   "current_still": "S7",
   "reason": "3 beats now sit on this still (36.9s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s7b-the-open-grave",
+  "done": true
  },
  {
   "build": "build-158-two-sticks",
@@ -1564,7 +1571,8 @@
   "reason": "3 beats now sit on this still (36.6s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries the prayer, 'Salvation is of the LORD', and a retelling. Dark, close and still: a man in the deep with almost nothing visible and one faint light. The stillness has to hold under a long stretch of quiet words.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s5-prayer-in-the-deep"
  },
  {
   "build": "build-22-unmerciful-servant",
@@ -1622,8 +1630,8 @@
   "current_still": "S6",
   "reason": "2 beats now sit on this still (36.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S6 now carries three beats - the Solomon retelling, Matthew 6:30 verbatim, and its retelling. The verse turns on grass that is alive today and burned tomorrow, so frame the fragility rather than just a pretty field: low golden light raking across a hillside of dry summer grass and wildflowers, heads already going to seed, a thin haze of smoke on the far ridge. Beautiful and clearly temporary.",
-  "slug": "",
-  "done": false
+  "slug": "s6b-alive-today-gone-tomorrow",
+  "done": true
  },
  {
   "build": "build-23-vineyard",
@@ -1775,7 +1783,8 @@
   "reason": "1 beats now sit on this still (35.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S10 now carries three beats — the furious council, Nicodemus's verbatim objection, and the retelling. Frame him standing while they sit: one older man on his feet in a stone council chamber in hard daylight, speaking into a room of seated, turning, hostile faces. He is alone, and he is not sitting down.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s10-council"
  },
  {
   "build": "build-84-no-room-manger",
@@ -1794,7 +1803,8 @@
   "reason": "2 beats now sit on this still (35.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries Luke's verbatim 'no room for them in the inn' and its retelling — the sentence the whole build is named for. Frame the trough itself: a rough stone-and-wood feed box at the level of the straw, the wrapped baby inside it, a mother's hand on the edge. Shot low, close, warm. No angels, no glow, no crowd. The power of this still has to come from how ordinary and how small the container is.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s7-the-manger"
  },
  {
   "build": "build-135-rainbow-covenant",
@@ -1831,7 +1841,8 @@
   "reason": "1 beats now sit on this still (35.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S9 now carries three beats - the fear changing direction, the disciples' verbatim question, and the closing reflection. Frame the aftermath: three or four men in soaked clothes on a flat black lake under stars, no longer looking at the water but at each other and at him, one still gripping a rope he has forgotten he is holding. Awe, not relief.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s9-what-manner-of-man"
  },
  {
   "build": "build-40-the-friend-at-midnight",
@@ -1849,8 +1860,8 @@
   "current_still": "S14",
   "reason": "2 beats now sit on this still (35.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S14 now carries Jesus's three verbatim questions -- stone for bread, serpent for fish, scorpion for egg -- plus both retellings. Frame the counterfeit, not the meal: a father's open hand held out to a child's reaching hands, and what is lying in the father's palm is a smooth river stone the exact size and shape of a flat loaf. Close, plain, and quietly wrong.",
-  "slug": "",
-  "done": false
+  "slug": "s14b-a-stone-for-bread",
+  "done": true
  },
  {
   "build": "build-32-talents",
@@ -1870,7 +1881,8 @@
   "reason": "3 beats now sit on this still (35.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries four beats — the frame, both halves of the third servant's verbatim excuse, and the retelling. Frame the accusation rather than the hole in the ground: the servant standing before his master holding out one dirt-caked bag with both hands, eyes down, the earth still on his fingers. The master's face open and unguarded, not angry — the picture should show that the servant's idea of him was simply wrong.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s7-buried-returned"
  },
  {
   "build": "build-101-still-small-voice",
@@ -1928,7 +1940,8 @@
   "reason": "2 beats now sit on this still (34.6s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries God's closing question and its retelling. The city as God sees it: ordinary people and animals going about a normal evening, warm and alive and completely unaware how close it came.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s10-should-i-not-spare"
  },
  {
   "build": "build-64-pool-of-bethesda",
@@ -1963,8 +1976,8 @@
   "current_still": "S3",
   "reason": "1 beats now sit on this still (34.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s3b-the-house-of-mourning",
+  "done": true
  },
  {
   "build": "build-19-shore",
@@ -2001,8 +2014,8 @@
   "current_still": "S3",
   "reason": "1 beats now sit on this still (34.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s3b-son-of-david",
+  "done": true
  },
  {
   "build": "build-121-salt-and-light",
@@ -2117,8 +2130,8 @@
   "current_still": "S3",
   "reason": "2 beats now sit on this still (33.8s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S3 now carries j44 verbatim and n5's retelling as well as its original beat. Frame the thing Simon did not do: Jesus's feet, and her hands and hair working over them, wet — with the untouched water jar and clean folded towel sitting by the door in the background, exactly where the host left them. The whole rebuke is in that comparison.",
-  "slug": "",
-  "done": false
+  "slug": "s3b-the-comparison",
+  "done": true
  },
  {
   "build": "build-72-calling-matthew",
@@ -2172,8 +2185,8 @@
   "current_still": "S3",
   "reason": "1 beats now sit on this still (33.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s3b-he-asked-her-for-a-drink",
+  "done": true
  },
  {
   "build": "build-157-marvellous-work",
@@ -2209,8 +2222,8 @@
   "current_still": "S11",
   "reason": "1 beats now sit on this still (33.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s11b-behind-locked-doors",
+  "done": true
  },
  {
   "build": "build-43-the-wedding-garment",
@@ -2229,8 +2242,8 @@
   "current_still": "S13",
   "reason": "3 beats now sit on this still (33.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S13 now carries three beats: n14 naming who the story was about, the verbatim 'many are called, but few are chosen,' and n15's retelling. Frame the called and the chosen as the same crowd, not two: a wide hall doorway with light pouring out and a stream of road-worn people going in, and one or two standing outside in the dark who have simply not walked over. Nobody is being kept out.",
-  "slug": "",
-  "done": false
+  "slug": "s13b-the-same-crowd",
+  "done": true
  },
  {
   "build": "build-44-two-debtors",
@@ -2342,8 +2355,8 @@
   "current_still": "S3",
   "reason": "1 beats now sit on this still (33.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S3 now carries three beats — the knock, Nicodemus's verbatim greeting, and the 'we know' retelling. Frame the greeting, not the arrival: an older, well-dressed man just inside a doorway, hood pushed back off grey hair, speaking, one hand still on the doorframe as though he has not decided to stay. Lamplight on his face from inside, a black street behind him.",
-  "slug": "",
-  "done": false
+  "slug": "s3b-the-greeting-at-the-threshold",
+  "done": true
  },
  {
   "build": "build-117-hosea-buys-her-back",
@@ -2480,7 +2493,8 @@
   "reason": "3 beats now sit on this still (32.6s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries three beats and the colour changes mid-still — blue to green and back to white. It should be able to hold the Father's voice, not just illustrate Christ. Frame the moment of the words themselves: Christ standing, head slightly bowed, receiving — light falling on him from above rather than radiating out of him, so the source of the speaking is clearly overhead and not himself. Quiet, unstaged, no crowd, no throne room. The whole point of the beat is that he did not glorify himself, so nothing in the frame should look like a coronation.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s7-so-also-christ"
  },
  {
   "build": "build-166-baptized-properly",
@@ -2498,8 +2512,8 @@
   "current_still": "S3",
   "reason": "2 beats now sit on this still (32.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S3 now carries Acts 19:4 and n3. It should show John's baptism as a good thing that pointed forward — water, repentance, an arm raised toward something beyond the frame. Honest and unfinished, a preparation rather than a mistake.",
-  "slug": "",
-  "done": false
+  "slug": "s3b-john-points-forward",
+  "done": true
  },
  {
   "build": "build-48-new-wine-old-bottles",
@@ -2535,8 +2549,8 @@
   "current_still": "S8",
   "reason": "1 beats now sit on this still (32.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s8b-the-cloak-in-the-dust",
+  "done": true
  },
  {
   "build": "build-15-centurion",
@@ -2592,8 +2606,8 @@
   "current_still": "S6",
   "reason": "1 beats now sit on this still (32.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S6 now carries the frame, the spirits' verbatim request, and the retelling of it and the stampede. Frame the hillside before it breaks: the enormous herd feeding quietly on the slope above the shore, a couple of herdsmen leaning on staffs, the sea below. The stillness a half-second before two thousand animals move at once.",
-  "slug": "",
-  "done": false
+  "slug": "s6b-the-stillness-before",
+  "done": true
  },
  {
   "build": "build-17-lazarus",
@@ -2610,8 +2624,8 @@
   "current_still": "S1",
   "reason": "1 beats now sit on this still (32.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s1b-the-sisters-send-word",
+  "done": true
  },
  {
   "build": "build-84-no-room-manger",
@@ -2648,8 +2662,8 @@
   "current_still": "S7",
   "reason": "2 beats now sit on this still (32.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries three beats and two colour changes — blue, red, then white — running from John 3:5 through the narrator's study gem. It needs to hold the whole answer, so frame the gate itself rather than a single figure: water below, light from above, the way in standing open and plain. Unhurried and uncrowded, something a viewer can rest on while the voice changes twice.",
-  "slug": "",
-  "done": false
+  "slug": "s7b-the-way-in",
+  "done": true
  },
  {
   "build": "build-30-net",
@@ -2705,8 +2719,8 @@
   "current_still": "S7",
   "reason": "2 beats now sit on this still (31.9s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries SIX beats — Simon called by name, his 'say on', the whole two-debtors parable, his answer, the retelling, and later Jesus's 'her sins, which are many' with its retelling. This still has to hold the longest stretch in the video. Frame the exchange rather than the parable: Simon and Jesus across the table from each other, a strip of the room between them, Jesus mid-sentence and unhurried, Simon leaning in and answering — and her, small and out of focus, low in the frame at the far edge. Both men are talking about her and only one of them is looking at her.",
-  "slug": "",
-  "done": false
+  "slug": "s7b-they-speak-of-her",
+  "done": true
  },
  {
   "build": "build-91-gethsemane",
@@ -2781,8 +2795,8 @@
   "current_still": "ST5",
   "reason": "2 beats now sit on this still (31.8s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Boaz standing at the edge of his own field speaking directly to Ruth, who is straightened up from gleaning with grain still in her arms — the moment he blesses her rather than the moment he first notices her. His posture respectful, a little distance kept between them.",
-  "slug": "",
-  "done": false
+  "slug": "s5b-the-blessing",
+  "done": true
  },
  {
   "build": "build-36-shrewd-steward",
@@ -2800,8 +2814,8 @@
   "current_still": "S8",
   "reason": "2 beats now sit on this still (31.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S8 now carries three beats — the verbatim two-masters saying, its retelling, and the close. Frame the impossible choice as a single figure: a man standing at the join of two roads with a hand held out toward each, unable to walk either. Keep it plain and human-scale. No scales, no coins piled into a symbol — the words do the work and the picture only has to hold still under them.",
-  "slug": "",
-  "done": false
+  "slug": "s8b-the-fork",
+  "done": true
  },
  {
   "build": "build-70-temptations",
@@ -2819,7 +2833,8 @@
   "reason": "1 beats now sit on this still (31.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries three beats — the setup, the offer verbatim, and the retelling. Frame the offer as a feast laid out: from a high ridge at golden hour, kingdom after kingdom running to the horizon, cities and roads and harbours glowing, more than one man could ever want. Beautiful and completely available. No devil figure needed — the view IS the temptation.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s7-all-the-kingdoms"
  },
  {
   "build": "build-27-leaven",
@@ -2838,8 +2853,8 @@
   "current_still": "S1",
   "reason": "3 beats now sit on this still (31.6s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S1 now carries four beats — the on-ramp, Matthew's framing, the verbatim verse, and the retelling. Frame the leaven itself at close range: a woman's hands holding a small torn piece of old grey sourdough starter over a wide wooden trough of pale flour. The piece is tiny in the frame and the flour is vast. Warm kitchen light, ordinary morning, nothing dramatic — the whole point is that this is the least impressive thing in the room.",
-  "slug": "",
-  "done": false
+  "slug": "s1b-the-leaven-itself",
+  "done": true
  },
  {
   "build": "build-20-samaritan",
@@ -2878,8 +2893,8 @@
   "current_still": "S5",
   "reason": "3 beats now sit on this still (31.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S5 now carries four beats — the setting aside, Jesus's verbatim ending-of-the-world line, its continuation, and the retelling. Keep it restrained: the discarded catch tipped away at the water's edge in the foreground, and beyond it open sea and a low, hard evening sky. No fire, no torment, no figures — this is a milk-before-meat video and the picture must not go further than the words do.",
-  "slug": "",
-  "done": false
+  "slug": "s5b-cast-away",
+  "done": true
  },
  {
   "build": "build-43-the-wedding-garment",
@@ -2918,7 +2933,8 @@
   "reason": "3 beats now sit on this still (31.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries three beats — God's question to the woman, Eve's verbatim answer, and the retelling into the consequences. It needs to include her. Frame the two of them standing together in the failing evening light at the edge of the garden, the woman speaking, the man beside her, both looking small against the trees. Sorrow and honesty, not accusation.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s7-the-sorrow-of-it"
  },
  {
   "build": "build-119-fourth-man-in-fire",
@@ -2956,7 +2972,8 @@
   "reason": "2 beats now sit on this still (31.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Carries the longest single scripture line in the video. The moment is the middle of verse 4: a narrow shadowed valley, the walls close, one figure walking through it and NOT running — and the shepherd walking with him, rod and staff visible in hand. The comfort has to be in frame, not just the danger.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s4-the-darkest-valley"
  },
  {
   "build": "build-147-joseph-forgives",
@@ -2975,8 +2992,8 @@
   "current_still": "ST3",
   "reason": "3 beats now sit on this still (31.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries three beats — the reveal. The moment is 'I am Joseph your brother, whom ye sold into Egypt': the Egyptian governor standing, the room emptied of servants, his face uncovered for the first time, and the brothers' recognition landing on them. Show it from behind or beside the brothers so the viewer sees what they see. Not an embrace yet — the second before it.",
-  "slug": "",
-  "done": false
+  "slug": "s3b-the-reveal",
+  "done": true
  },
  {
   "build": "build-157-marvellous-work",
@@ -3013,8 +3030,8 @@
   "current_still": "S8",
   "reason": "2 beats now sit on this still (31.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s8b-ten-thousand-against-twenty-thousand",
+  "done": true
  },
  {
   "build": "build-68-multitudes-mountain",
@@ -3032,8 +3049,8 @@
   "current_still": "S9",
   "reason": "2 beats now sit on this still (31.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S9 now carries three beats — the setup, Jesus's verbatim words about the three days, and their retelling. Frame the hunger, not the sermon: late afternoon on the hillside, families settled in for a third day, empty baskets and cloths turned out, and Jesus turned toward his disciples with the crowd behind him. He is looking at people who have stayed too long to walk home.",
-  "slug": "",
-  "done": false
+  "slug": "s9b-nothing-left-to-eat",
+  "done": true
  },
  {
   "build": "build-04-nicodemus",
@@ -3051,8 +3068,8 @@
   "current_still": "S6",
   "reason": "2 beats now sit on this still (31.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s6b-you-only-see-what-it-moves",
+  "done": true
  },
  {
   "build": "build-38-persistent-widow",
@@ -3070,8 +3087,8 @@
   "current_still": "S7",
   "reason": "2 beats now sit on this still (31.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries four beats and closes the whole argument: Jesus's 'he will avenge them speedily,' its retelling, and both of the good-Father beats. Frame the contrast with the judge: a father already leaning in toward someone speaking to him, face open and attentive, no gate, no desk, no waiting. Warmth and immediate attention, the exact opposite of the courtroom the story has been living in.",
-  "slug": "",
-  "done": false
+  "slug": "s7b-heard-at-once",
+  "done": true
  },
  {
   "build": "build-10-well",
@@ -3089,7 +3106,9 @@
   "reason": "1 beats now sit on this still (31.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s10-morning-women",
+  "note": "Already painted (retrofit block, unused). s10-morning-women IS n0's 'women drew their water in the cool of the morning, together' — the contrast that explains noon."
  },
  {
   "build": "build-102-jacobs-ladder",
@@ -3108,7 +3127,8 @@
   "reason": "2 beats now sit on this still (31.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries Jacob's verbatim outcry AND the retelling, so it holds twice as long. Frame the instant of waking, not the aftermath: Jacob bolt upright on the bare ground at first light, stone pillow beside him, one hand still on the dirt, face lit with fear and awe at once. This is the shot of a man realising he slept at the gate of heaven.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s7-surely-the-lord-is-here"
  },
  {
   "build": "build-40-the-friend-at-midnight",
@@ -3184,7 +3204,8 @@
   "reason": "1 beats now sit on this still (30.8s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries the frame, the man's verbatim 'now I see,' and its retelling. Frame the interrogation as one man against a room: the healed man standing alone in the middle of a semicircle of seated officials, plainly dressed, not angry, completely immovable. Their faces frustrated. His face open. He is the calmest person in the room because he is the only one talking about something that happened to him.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s7-the-interrogation"
  },
  {
   "build": "build-08-lost-coin",
@@ -3299,8 +3320,8 @@
   "current_still": "S11",
   "reason": "1 beats now sit on this still (30.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s11b-his-own-two-hands",
+  "done": true
  },
  {
   "build": "build-155-falling-away",
@@ -3415,7 +3436,8 @@
   "reason": "3 beats now sit on this still (29.8s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries three beats — the boy's question and the father's answer. The moment is verse 7 exactly: Isaac stopped on the path, turned back toward his father, the bundle of wood still on his own shoulders, one hand gesturing at the fire his father carries. Nothing else in his hands. The absence of a lamb has to be the loudest thing in the frame.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s4-the-boys-question"
  },
  {
   "build": "build-65-help-mine-unbelief",
@@ -3433,8 +3455,8 @@
   "current_still": "S3",
   "reason": "2 beats now sit on this still (29.8s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S3 now carries four beats — the frame, the father's verbatim 'if thou canst do any thing', its retelling, and Jesus's answer. Frame the asking, not the crowd: the father on his knees with both hands closed around the hem of Jesus's robe, face tipped up, mid-sentence. Behind him, blurred, the argument he pushed through. The word he is saying is 'if', and it should look like it costs him something.",
-  "slug": "",
-  "done": false
+  "slug": "s3b-the-if-that-costs",
+  "done": true
  },
  {
   "build": "build-115-ram-in-the-thicket",
@@ -3452,8 +3474,8 @@
   "current_still": "S9",
   "reason": "2 beats now sit on this still (29.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Carries the blessing and its retelling. The moment of verse 17: Abraham standing on the mountain at night under a sky thick with stars, the boy alive beside him, the man looking up rather than down. The scale of the promise should be in the sky, not in the man.",
-  "slug": "",
-  "done": false
+  "slug": "s9b-as-the-stars",
+  "done": true
  },
  {
   "build": "build-151-ask-of-god",
@@ -3472,8 +3494,8 @@
   "current_still": "S7",
   "reason": "3 beats now sit on this still (29.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries three beats — the asking, the wave, and the retelling. Frame the moment James actually describes: open water at the edge of a storm, one swell being shoved sideways by the wind, no shoreline to steady it. Cold grey-green sea, low wind-torn light. It is the picture of a request that keeps getting pulled back apart, so it should feel unsettled rather than dramatic — no wreck, no danger, just water with nothing under it to hold it still.",
-  "slug": "",
-  "done": false
+  "slug": "s7b-a-wave-driven",
+  "done": true
  },
  {
   "build": "build-91-gethsemane",
@@ -3509,8 +3531,8 @@
   "current_still": "S3",
   "reason": "1 beats now sit on this still (29.6s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s2b-up-the-outside-stair",
+  "done": true
  },
  {
   "build": "build-155-falling-away",
@@ -3565,8 +3587,8 @@
   "current_still": "S7",
   "reason": "1 beats now sit on this still (29.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries the frame, the rule-keepers' verbatim words, and the retelling. Frame the absurdity plainly: a man standing upright in the street with his rolled mat under his arm, stopped by two officials pointing at the mat. Nobody is looking at his legs. Everybody is looking at the bedding.",
-  "slug": "",
-  "done": false
+  "slug": "s7b-the-bedding",
+  "done": true
  },
  {
   "build": "build-108-my-sheep-hear-my-voice",
@@ -3585,7 +3607,8 @@
   "reason": "2 beats now sit on this still (29.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S8 now carries John 10:28 and the retelling that follows it. Frame the holding: an open hand closed around a small sheep, seen close, the hand steady and unhurried, the light warm, nothing threatening in frame. The point is security, not a rescue in progress.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s8-in-his-hand"
  },
  {
   "build": "build-12-bartimaeus",
@@ -3602,8 +3625,8 @@
   "current_still": "S6",
   "reason": "1 beats now sit on this still (29.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s6b-the-climb-up-to-jerusalem",
+  "done": true
  },
  {
   "build": "build-70-temptations",
@@ -3660,8 +3683,8 @@
   "current_still": "S10",
   "reason": "2 beats now sit on this still (29.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s10b-nothing-held-back",
+  "done": true
  },
  {
   "build": "build-68-multitudes-mountain",
@@ -3696,8 +3719,8 @@
   "current_still": "S2",
   "reason": "1 beats now sit on this still (29.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s2b-a-moving-wall-of-voices",
+  "done": true
  },
  {
   "build": "build-39-the-pharisee-and-the-publican",
@@ -3734,8 +3757,8 @@
   "current_still": "S9",
   "reason": "2 beats now sit on this still (29.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s9b-open-ground-between-them",
+  "done": true
  },
  {
   "build": "build-62-ephphatha",
@@ -3962,7 +3985,8 @@
   "reason": "3 beats now sit on this still (28.6s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S8 now carries three beats — Zacchaeus coming down, the city's verbatim murmur, and its retelling. It needs the crowd in it, not just the two men. Frame the street outside the house: Zacchaeus on the ground beside Jesus, glad and awkward, while the townspeople behind them lean together, faces turned, talking about him. Judgment on their faces, joy on his.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s8-comes-down"
  },
  {
   "build": "build-159-other-sheep",
@@ -4018,7 +4042,9 @@
   "reason": "1 beats now sit on this still (28.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s11-turn-around",
+  "note": "Already painted (retrofit block, unused). s11-turn-around IS n1 — she stops on the path and sees a traveler already sitting at the well."
  },
  {
   "build": "build-10-well",
@@ -4035,8 +4061,8 @@
   "current_still": "S6",
   "reason": "1 beats now sit on this still (28.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s6b-the-disciples-stop-short",
+  "done": true
  },
  {
   "build": "build-117-hosea-buys-her-back",
@@ -4055,7 +4081,8 @@
   "reason": "2 beats now sit on this still (28.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "Now carries the verbatim purchase line plus its retelling. Frame the money itself — a hand counting silver coins and measures of barley out onto a rough table. Close on the transaction, not the faces. The point is that a real price was actually paid.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s6-the-price-paid"
  },
  {
   "build": "build-153-restitution",
@@ -4092,7 +4119,9 @@
   "reason": "1 beats now sit on this still (28.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s4-the-hand-on-the-sleeve",
+  "note": "n3 explains that 'hate' meant loved-less — 'he is asking for first place'. s4-the-hand-on-the-sleeve IS that picture (the mother's hand letting go of her son) and is already painted; a second one would repeat it."
  },
  {
   "build": "build-60-gerasene-demoniac",
@@ -4184,8 +4213,8 @@
   "current_still": "S10B",
   "reason": "2 beats now sit on this still (28.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s10c-daylight-on-the-road-ahead",
+  "done": true
  },
  {
   "build": "build-10-well",
@@ -4203,7 +4232,9 @@
   "reason": "1 beats now sit on this still (27.9s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s14-two-days",
+  "note": "Already painted (retrofit block, unused). s14-two-days IS the end of n9 — the town gathered around him, and he stayed."
  },
  {
   "build": "build-151-ask-of-god",
@@ -4354,7 +4385,9 @@
   "reason": "1 beats now sit on this still (27.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s10-out-the-door",
+  "note": "s10-out-the-door IS n11 — he walks out through the crowd that had no room for him. 27.7s on the exactly-right picture."
  },
  {
   "build": "build-14-ten-lepers",
@@ -4408,8 +4441,8 @@
   "current_still": "S1",
   "reason": "1 beats now sit on this still (27.6s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s1b-men-like-that-did-not-run",
+  "done": true
  },
  {
   "build": "build-115-ram-in-the-thicket",
@@ -4540,8 +4573,8 @@
   "current_still": "S3",
   "reason": "1 beats now sit on this still (27.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S3 now carries the tempter's first line verbatim and its retelling. Frame the bait, not the devil: a hand's-reach of smooth wilderness stones on baked ground, loaf-sized and loaf-shaped, warm light on them so they genuinely look like bread — and the edge of a starving man's shadow falling across them. The temptation has to look reasonable.",
-  "slug": "",
-  "done": false
+  "slug": "s3b-the-bait",
+  "done": true
  },
  {
   "build": "build-07-peter-water",
@@ -4558,8 +4591,8 @@
   "current_still": "S11",
   "reason": "1 beats now sit on this still (27.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s11b-soaked-and-shaking",
+  "done": true
  },
  {
   "build": "build-128-famine-of-hearing",
@@ -4595,8 +4628,8 @@
   "current_still": "S1",
   "reason": "1 beats now sit on this still (27.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s1b-capernaum-on-the-shore",
+  "done": true
  },
  {
   "build": "build-16-mary-martha",
@@ -4652,8 +4685,8 @@
   "current_still": "S3",
   "reason": "2 beats now sit on this still (27.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s3b-it-is-i",
+  "done": true
  },
  {
   "build": "build-09-rich-ruler",
@@ -4671,7 +4704,9 @@
   "reason": "1 beats now sit on this still (27.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s3-the-look",
+  "note": "s3-the-look IS n2 — 'Jesus, looking at him, loved him', the five words the whole build is staged around. 27.1s on exactly the right picture."
  },
  {
   "build": "build-120-job-from-whirlwind",
@@ -4803,7 +4838,9 @@
   "reason": "1 beats now sit on this still (27.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s10-council",
+  "note": "n0 is 'a member of the great council that governed the nation's faith — everything to lose'. s10-council already paints that room and that body, and is used only once (n10)."
  },
  {
   "build": "build-11-storm",
@@ -4968,8 +5005,8 @@
   "current_still": "S1",
   "reason": "1 beats now sit on this still (26.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s1b-the-crowds-went-home",
+  "done": true
  },
  {
   "build": "build-32-talents",
@@ -5006,8 +5043,8 @@
   "current_still": "S5",
   "reason": "2 beats now sit on this still (26.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s5b-everybody-walked-past",
+  "done": true
  },
  {
   "build": "build-166-baptized-properly",
@@ -5082,8 +5119,8 @@
   "current_still": "S13",
   "reason": "2 beats now sit on this still (26.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s13b-he-would-not-let-them-sign-first",
+  "done": true
  },
  {
   "build": "build-09-rich-ruler",
@@ -5101,7 +5138,9 @@
   "reason": "1 beats now sit on this still (26.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s5-words-land",
+  "note": "s5-words-land IS n4 — his face falling. 26.2s, and s6-walk-away already follows it at n4b."
  },
  {
   "build": "build-41-counting-the-cost",
@@ -5120,7 +5159,9 @@
   "reason": "2 beats now sit on this still (26.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S2 now carries three beats: Luke's verbatim 'he turned, and said unto them,' its retelling, and the hardest sentence in the passage. Frame the turn itself -- Jesus stopped mid-road with his body already come around to face the crowd behind him, the road ahead of him empty over his shoulder. A man who has just decided to say something that will cost him half his following.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s3-the-crowd-goes-quiet",
+  "note": "Luke 14:26 landing on the crowd is already its own painted still, s3-the-crowd-goes-quiet, right next to it."
  },
  {
   "build": "build-04-nicodemus",
@@ -5138,7 +5179,9 @@
   "reason": "1 beats now sit on this still (26.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S5 now carries three beats — his literal misunderstanding, the verbatim question, and the retelling into the wind. Frame the confusion: the old scholar leaning forward across the low lamp, brow drawn, hands opened in genuine bewilderment. Not offended — stumped. A shuttered window behind him with the night moving beyond it.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s5-womb-question",
+  "note": "s5-womb-question IS 'Nicodemus took it literally' — he is spreading his hands asking how a man can be born when he is old. 26.1s on exactly the right picture."
  },
  {
   "build": "build-21-lost-sheep",
@@ -5425,7 +5468,9 @@
   "reason": "1 beats now sit on this still (25.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s4",
+  "note": "S4 already IS this beat — Martha running out to meet him on the road. 25.5s on the correct picture; painting a duplicate would repeat the same staging."
  },
  {
   "build": "build-170-sacrament-worthily",
@@ -5483,7 +5528,9 @@
   "reason": "2 beats now sit on this still (25.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s14-the-finished-tower",
+  "note": "n6 is 'a watchtower in a vineyard guarded the harvest' — s14-the-finished-tower already paints exactly that and is only used once, at n14."
  },
  {
   "build": "build-39-the-pharisee-and-the-publican",
@@ -5519,8 +5566,8 @@
   "current_still": "S2",
   "reason": "1 beats now sit on this still (25.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
-  "slug": "",
-  "done": false
+  "slug": "s2b-the-fourth-watch",
+  "done": true
  },
  {
   "build": "build-152-revealeth-his-secret",
@@ -5631,7 +5678,9 @@
   "reason": "1 beats now sit on this still (24.9s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s5-their-faith",
+  "note": "s5-their-faith IS n4 — the four faces looking down through the hole. 24.9s, medium."
  },
  {
   "build": "build-15-centurion",
@@ -5893,7 +5942,9 @@
   "reason": "1 beats now sit on this still (24.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s4",
+  "note": "s4 IS n3 — the knot of respectable travelers bending over him telling him to be quiet. 24.1s on the exactly-right picture, medium."
  },
  {
   "build": "build-13-roof",
@@ -5911,7 +5962,9 @@
   "reason": "1 beats now sit on this still (24.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s4-lowered",
+  "note": "s4-lowered IS n3 — the ceiling opening and the mat coming down into the light. 24.1s, medium."
  },
  {
   "build": "build-43-the-wedding-garment",
@@ -6078,7 +6131,9 @@
   "reason": "1 beats now sit on this still (23.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s2-no-way-through",
+  "note": "s2-no-way-through IS n1 — the doorway a wall of backs. 23.7s, medium."
  },
  {
   "build": "build-19-shore",
@@ -6248,7 +6303,9 @@
   "reason": "1 beats now sit on this still (23.4s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s7-scribes",
+  "note": "s7-scribes IS n7 — the scribes in the corner. 23.4s, medium (and s8b now splits their unspoken thought off S8)."
  },
  {
   "build": "build-15-centurion",
@@ -6511,7 +6568,9 @@
   "reason": "1 beats now sit on this still (23.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s7-jar-left-anchor",
+  "note": "s7-jar-left-anchor already IS 'she left the jar' — the abandoned jar on the rim and her hurrying off empty-handed. 23s on the exactly-right picture; a second one would repeat it."
  },
  {
   "build": "build-158-two-sticks",
@@ -6621,7 +6680,9 @@
   "reason": "1 beats now sit on this still (22.9s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s10a",
+  "note": "s10a IS n9 — the intimate close-up of his upturned clouded eyes as he answers. 22.9s, medium."
  },
  {
   "build": "build-40-the-friend-at-midnight",
@@ -8357,7 +8418,9 @@
   "reason": "1 beats now sit on this still (20.3s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s9-arise",
+  "note": "s9-arise IS n10 — he stands on trembling legs. 20.3s, medium, and s9b-holding-mat already follows it at n10b."
  },
  {
   "build": "build-58-feeding-5000",
@@ -8594,7 +8657,9 @@
   "reason": "1 beats now sit on this still (20.0s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s6-fix",
+  "note": "s6-fix IS n5 — Peter looking DOWN at the waves instead of ahead, fear breaking across his face. 20.0s, medium."
  },
  {
   "build": "build-115-ram-in-the-thicket",
@@ -9071,7 +9136,9 @@
   "reason": "1 beats now sit on this still (19.5s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s8-empty-road",
+  "note": "s8-empty-road IS n6 — the road empty, the sun down, the story just ending there. 19.5s, medium."
  },
  {
   "build": "build-169-fulfil-righteousness",
@@ -9325,7 +9392,9 @@
   "reason": "1 beats now sit on this still (19.2s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "S7 now carries three beats — the giving way, 'How can these things be?', and the retelling. Frame the surrender: the same face, closer than any shot before it, the argument gone out of it. Eyes up, mouth open on a short question, hands come to rest. The lamp low and close, everything else dark.",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s7-face",
+  "note": "s7-face IS n6 — the scholar's composure gone, just a man in the lamplight. 19.2s, medium."
  },
  {
   "build": "build-165-laying-on-hands",
@@ -9747,7 +9816,9 @@
   "reason": "2 beats now sit on this still (18.7s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s9",
+  "note": "s9 IS Mark 10:51, the over-the-shoulder of the question being asked. 18.7s, medium — the shortest hold in the build."
  },
  {
   "build": "build-130-what-manner-of-spirit",
@@ -11638,7 +11709,9 @@
   "reason": "1 beats now sit on this still (17.1s); splitting verses and adding the narrator's retelling multiplied the hold time",
   "wants": "",
   "slug": "",
-  "done": false
+  "done": true,
+  "covered_by": "s9-fix",
+  "note": "s9-fix IS n9 — the two of them walking back across the water to the boat together. 17.1s, medium."
  },
  {
   "build": "build-107-john-baptist-doubt",

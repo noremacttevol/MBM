@@ -53,19 +53,23 @@ from mbm_speakers import JESUS, NARRATOR
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n1", NARRATOR, 'On a green hillside above the Sea of Galilee, Jesus sat down to teach, and a whole countryside climbed up to listen. He was walking through the old sayings one at a time — you have heard it said — and then he came to the hardest one of all: what to do with an enemy.'),
-    ("jv43", JESUS, 'Ye have heard that it hath been said, Thou shalt love thy neighbour, and hate thine enemy.'),
+    ("n1", NARRATOR, "On a green hillside above the Sea of Galilee, Jesus sat down to teach, and a whole countryside climbed up to listen. He was walking through the old sayings one at a time — you have heard it said — and then he came to the hardest one of all: what to do with an enemy."),
+    # Matthew 5:43
+    ("jv43", JESUS, "Ye have heard that it hath been said, Thou shalt love thy neighbour, and hate thine enemy."),
     ("n2", NARRATOR, "Everyone on that hillside knew that old arithmetic. Keep your guard up against the ones who don't. It felt fair. It felt safe. And then Jesus said this."),
-    ("jvA", JESUS, 'But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you;'),
-    ("n3", NARRATOR, 'Not tolerate them. Not stay out of their way. Bless. Do good. Pray. Every one of those is something you go and do — aimed straight at the person who has earned none of it. Picture a farmer whose neighbor has wronged him: the fence knocked down, the insult at the well, years of cold looks across one stone wall.'),
+    # Matthew 5:44
+    ("jvA", JESUS, "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you;"),
+    ("n3", NARRATOR, "Not tolerate them. Not stay out of their way. Bless. Do good. Pray. Every one of those is something you go and do — aimed straight at the person who has earned none of it. Picture a farmer whose neighbor has wronged him: the fence knocked down, the insult at the well, years of cold looks across one stone wall."),
     ("n4", NARRATOR, "He has every right to answer coldness with coldness. That is the old arithmetic, and nobody would blame him for it. Instead, when his neighbor's wall gives way in the rains, he walks over quietly and starts lifting stones."),
-    ("n5", NARRATOR, 'And at night, when the work is done and no one is watching, he does the thing Jesus asked that no one ever sees. By the light of his lamp, he prays for the man across the wall — not about him. For him. By name.'),
+    ("n5", NARRATOR, "And at night, when the work is done and no one is watching, he does the thing Jesus asked that no one ever sees. By the light of his lamp, he prays for the man across the wall — not about him. For him. By name."),
     ("n6", NARRATOR, "Why would Jesus ask for something this unreasonable? He was not pretending enemies don't hurt. He gave his reason on the same hillside, and the reason changes everything."),
-    ("jvB", JESUS, 'That ye may be the children of your Father which is in heaven: for he maketh his sun to rise on the evil and on the good, and sendeth rain on the just and on the unjust.'),
+    # Matthew 5:45
+    ("jvB", JESUS, "That ye may be the children of your Father which is in heaven: for he maketh his sun to rise on the evil and on the good, and sendeth rain on the just and on the unjust."),
     ("n7", NARRATOR, "Look at the sky, he was saying. Your Father's sun came up this morning over every field in the valley — the kind man's and the cruel man's alike. His rain waters both. Loving an enemy is not unnatural. In this family, it is the resemblance. And then he asked the question that leaves none of us out."),
-    ("jv46", JESUS, 'For if ye love them which love you, what reward have ye? do not even the publicans the same?'),
+    # Matthew 5:46
+    ("jv46", JESUS, "For if ye love them which love you, what reward have ye? do not even the publicans the same?"),
     ("n8", NARRATOR, "If you only love the people who love you back, he asked, what credit is that? Even the tax collectors manage that much. The love that marks you as your Father's child is the love that is not owed. And sometimes, slowly, it wins what coldness never could: the wall between two houses becomes the place where they meet."),
-    ("card", NARRATOR, 'Jesus never said your enemy deserves it. He said this is how the family likeness shows. Who is the hardest person in your life to bless? What might change if, tonight, you prayed for them — by name?'),
+    ("card", NARRATOR, "Jesus never said your enemy deserves it. He said this is how the family likeness shows. Who is the hardest person in your life to bless? What might change if, tonight, you prayed for them — by name?"),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

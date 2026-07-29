@@ -53,7 +53,7 @@ the bright open summit and a vast pale sky. Small against the great hill. No Jes
 figure in this shot. Wide, quiet, expectant.
 
 ### s2 — they-saw-him  (n2: they saw him, worshipped, some doubted)
-On the windswept mountaintop, the eleven have stopped and are reacting to the risen Christ at the right of the frame — his face SHOWN, calm and majestic, a man in a plain undyed cream wool robe with dark shoulder-length wavy hair and a full dark beard, standing against the sky. Most
+On the windswept mountaintop, the eleven have stopped and are reacting to the risen Christ at the right of the frame — his face SHOWN, calm and majestic, a man in a plain undyed cream wool robe with dark shoulder-length wavy hair and a full dark beard, standing on the mountaintop. The sun and the brightest part of the sky are OFF to one side, NOT directly behind his head; no bright glow, ring, backlight or bright outline around his head or hair; even natural daylight on his clearly-shown face. Most
 of the disciples have fallen to their knees in worship, faces lifted toward him,
 lit with awe; **Peter** (blue-grey tunic, thick dark curls, full beard) kneels
 nearest; **John** (youngest, clean-shaven, faded grey-blue) beside him. One man at

@@ -53,22 +53,29 @@ from mbm_speakers import GOD, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n1", NARRATOR, 'Elijah had just won the greatest victory of his life. And then a single threat sent him running for the wilderness, until he sank down under a lone bush, worn out and afraid, and asked God to let him die.'),
-    ("n2", NARRATOR, 'God did not scold him. While he slept, warm bread was baked for him and a jar of water set by his head. Twice he was fed, and gently told the journey was too great for him to make alone.'),
-    ("n3", NARRATOR, 'In that strength he walked forty days across the wilderness, all the way to the mountain of God, and found a cave, and went in, and stayed there in the dark.'),
-    ("jv9", GOD, 'What doest thou here, Elijah?'),
-    ("s10", SCRIPTURE, 'I have been very jealous for the LORD God of hosts: for the children of Israel have forsaken thy covenant, thrown down thine altars, and slain thy prophets with the sword; and I, even I only, am left; and they seek my life, to take it away.'),
-    ("n4", NARRATOR, 'And out it all poured. I have given everything for you, he said. I am the only one left, and now they want me dead too.'),
-    ("jv11a", GOD, 'Go forth, and stand upon the mount before the LORD.'),
-    ("jv11c", SCRIPTURE, 'And, behold, the LORD passed by, and a great and strong wind rent the mountains, and brake in pieces the rocks before the LORD; but the LORD was not in the wind:'),
-    ("jv11b", SCRIPTURE, 'and after the wind an earthquake; but the LORD was not in the earthquake:'),
-    ("n5", NARRATOR, 'A wind strong enough to tear the mountain apart. Then an earthquake that split the rock under his feet. Then a fire sweeping across the stone. Surely God would be in something that big. But he was not in any of them.'),
-    ("jv12", SCRIPTURE, 'And after the fire a still small voice.'),
-    ("n6", NARRATOR, 'After all the noise and power, everything went quiet. And in the quiet came a low, gentle whisper. That was where God was. Elijah heard it, and wrapped his face in his cloak, and came to the mouth of the cave to listen.'),
-    ("n7", NARRATOR, 'The whisper did not shame him for being afraid. It asked him again what troubled him, let him say it all a second time, and then quietly gave him work to do and people to go to. He was being sent back, steadied and not alone.'),
-    ("jv18", GOD, 'Yet I have left me seven thousand in Israel, all the knees which have not bowed unto Baal, and every mouth which hath not kissed him.'),
-    ("n8", NARRATOR, 'You are not the only one, God told him. Scattered across the land are thousands who have never bent the knee to the lie. You feel alone, but you are not. That is how God answered a tired, frightened man — not with thunder, but with a whisper, and with the truth that he was never as alone as he feared.'),
-    ("card", NARRATOR, 'The wind, the earthquake and the fire were not God. The whisper was. When you are worn out and sure you are the only one left, could the voice you most need be the gentle one?'),
+    ("n1", NARRATOR, "Elijah had just won the greatest victory of his life. And then a single threat sent him running for the wilderness, until he sank down under a lone bush, worn out and afraid, and asked God to let him die."),
+    ("n2", NARRATOR, "God did not scold him. While he slept, warm bread was baked for him and a jar of water set by his head. Twice he was fed, and gently told the journey was too great for him to make alone."),
+    ("n3", NARRATOR, "In that strength he walked forty days across the wilderness, all the way to the mountain of God, and found a cave, and went in, and stayed there in the dark."),
+    # 1 Kings 19:9
+    ("jv9", GOD, "What doest thou here, Elijah?"),
+    # 1 Kings 19:10
+    ("s10", SCRIPTURE, "I have been very jealous for the LORD God of hosts: for the children of Israel have forsaken thy covenant, thrown down thine altars, and slain thy prophets with the sword; and I, even I only, am left; and they seek my life, to take it away."),
+    ("n4", NARRATOR, "And out it all poured. I have given everything for you, he said. I am the only one left, and now they want me dead too."),
+    # 1 Kings 19:11
+    ("jv11a", GOD, "Go forth, and stand upon the mount before the LORD."),
+    # 1 Kings 19:11
+    ("jv11c", SCRIPTURE, "And, behold, the LORD passed by, and a great and strong wind rent the mountains, and brake in pieces the rocks before the LORD; but the LORD was not in the wind:"),
+    # 1 Kings 19:11
+    ("jv11b", SCRIPTURE, "and after the wind an earthquake; but the LORD was not in the earthquake:"),
+    ("n5", NARRATOR, "A wind strong enough to tear the mountain apart. Then an earthquake that split the rock under his feet. Then a fire sweeping across the stone. Surely God would be in something that big. But he was not in any of them."),
+    # 1 Kings 19:12
+    ("jv12", SCRIPTURE, "And after the fire a still small voice."),
+    ("n6", NARRATOR, "After all the noise and power, everything went quiet. And in the quiet came a low, gentle whisper. That was where God was. Elijah heard it, and wrapped his face in his cloak, and came to the mouth of the cave to listen."),
+    ("n7", NARRATOR, "The whisper did not shame him for being afraid. It asked him again what troubled him, let him say it all a second time, and then quietly gave him work to do and people to go to. He was being sent back, steadied and not alone."),
+    # 1 Kings 19:18
+    ("jv18", GOD, "Yet I have left me seven thousand in Israel, all the knees which have not bowed unto Baal, and every mouth which hath not kissed him."),
+    ("n8", NARRATOR, "You are not the only one, God told him. Scattered across the land are thousands who have never bent the knee to the lie. You feel alone, but you are not. That is how God answered a tired, frightened man — not with thunder, but with a whisper, and with the truth that he was never as alone as he feared."),
+    ("card", NARRATOR, "The wind, the earthquake and the fire were not God. The whisper was. When you are worn out and sure you are the only one left, could the voice you most need be the gentle one?"),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

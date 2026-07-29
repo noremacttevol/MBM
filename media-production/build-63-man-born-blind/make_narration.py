@@ -56,29 +56,37 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, "In Jerusalem there was a man who begged at his same spot every day, because he had been sightless from birth. He had never seen his mother's face. Never seen morning. And as Jesus and his disciples passed by, the disciples asked him:"),
-    ("s2", SCRIPTURE, 'Master, who did sin, this man, or his parents, that he was born blind?'),
-    ("n0b", NARRATOR, 'Notice they did not ask whether somebody was at fault. They asked which one. It was the question everyone in that world assumed had an answer.'),
-    ("n1", NARRATOR, 'It was the standard theology of the day: if you are suffering, somebody must have earned it. People still run that math on themselves today. Jesus threw the whole equation out.'),
-    ("j1", JESUS, 'Neither hath this man sinned, nor his parents: but that the works of God should be made manifest in him.'),
+    ("n0", NARRATOR, "In Jerusalem there was a man who begged at his same spot every day, because he had been blind since the day he was born. He had never seen his mother's face. Never seen morning. And as Jesus and his disciples passed by, the disciples asked him:"),
+    # John 9:2
+    ("s2", SCRIPTURE, "Master, who did sin, this man, or his parents, that he was born blind?"),
+    ("n0b", NARRATOR, "Who sinned, Teacher — this man, or his parents — for him to be born blind? Notice they did not ask whether somebody was at fault. They asked which one. It was the question everyone in that world assumed had an answer."),
+    ("n1", NARRATOR, "It was the standard theology of the day: if you are suffering, somebody must have earned it. People still run that math on themselves today. Jesus threw the whole equation out."),
+    # John 9:3
+    ("j1", JESUS, "Neither hath this man sinned, nor his parents: but that the works of God should be made manifest in him."),
     ("n2", NARRATOR, "Nobody's fault. Not a punishment. Jesus refused to explain the man's suffering — and instead announced what it was about to become: a place where God's work would be seen. Then he knelt down, made soft clay with the dust of the ground, and gently spread it over the blind man's eyes with his own hands."),
-    ("n3", NARRATOR, 'Why clay? Bible students hear an echo: in the beginning, God formed man from the dust of the ground. Whatever had been left unfinished in those eyes from birth, the maker was finishing it now, with the same material he started with. Then he gave the man one simple instruction:'),
-    ("j2", JESUS, 'Go, wash in the pool of Siloam.'),
-    ("n4", NARRATOR, 'Understand what was asked of him. A blind man, eyes packed with mud, feeling his way across Jerusalem, one wall and one step at a time, holding nothing but the instruction of a stranger whose face he had never seen. He went. That walk was the faith.'),
-    ("n5", NARRATOR, 'He knelt at the pool of Siloam and washed the clay away. And light came pouring in where there had never been light — color, water, sky, his own two hands. The first things he ever saw. He came back seeing.'),
-    ("n6", NARRATOR, 'And then the trouble started. The neighbors argued about whether he was even the same man. The religious leaders hauled him in for questioning — twice — because the healing had happened on the sabbath, and that broke their rules. They pressed him to call Jesus a sinner. And he gave them one of the greatest answers anybody ever gave:'),
-    ("s25", SCRIPTURE, 'Whether he be a sinner or no, I know not: one thing I know, that, whereas I was blind, now I see.'),
-    ("n6b", NARRATOR, 'He would not argue theology with trained men. He just told them the one thing that had happened to him, and there was nothing they could do with it.'),
-    ("n7", NARRATOR, 'They could not shake him, so they threw him out — cast out of the synagogue, cut off from the whole religious life of his people. Healed, and homeless in the same week. And here is the part to remember: when Jesus heard they had thrown him out, he went and FOUND him. The man had never actually seen the one who healed him. Jesus asked him:'),
-    ("j3", JESUS, 'Dost thou believe on the Son of God?'),
-    ("n8", NARRATOR, 'And the man — who wants to, and does not know who that is — answers:'),
-    ("s36", SCRIPTURE, 'Who is he, Lord, that I might believe on him?'),
-    ("n8b", NARRATOR, 'Who is he, sir? Tell me, so I can believe in him. He is not stalling. He is asking for a name so he can give himself to it. And Jesus said:'),
-    ("j4", JESUS, 'Thou hast both seen him, and it is he that talketh with thee.'),
-    ("n9", NARRATOR, 'You have seen him — and he is the one talking with you right now. The first face this man ever truly studied was the face of the one who gave him his eyes. And he said:'),
-    ("s38", SCRIPTURE, 'Lord, I believe.'),
-    ("n9b", NARRATOR, 'And he worshipped him, right there in the street the religious world had just thrown him out of. The question of whose fault it was never got an answer that day. The man got something better. He got found.'),
-    ("card", NARRATOR, 'You may never get the why for what you carry. But when the world shuts you out, he comes and finds you.'),
+    ("n3", NARRATOR, "Why clay? Bible students hear an echo: in the beginning, God formed man from the dust of the ground. Whatever had been left unfinished in those eyes from birth, the maker was finishing it now, with the same material he started with. Then he gave the man one simple instruction:"),
+    # John 9:7
+    ("j2", JESUS, "Go, wash in the pool of Siloam."),
+    ("n4", NARRATOR, "Understand what was asked of him. A blind man, eyes packed with mud, feeling his way across Jerusalem, one wall and one step at a time, holding nothing but the instruction of a stranger whose face he had never seen. He went. That walk was the faith."),
+    ("n5", NARRATOR, "He knelt at the pool of Siloam and washed the clay away. And light came pouring in where there had never been light — color, water, sky, his own two hands. The first things he ever saw. He came back seeing."),
+    ("n6", NARRATOR, "And then the trouble started. The neighbors argued about whether he was even the same man. The religious leaders hauled him in for questioning — twice — because the healing had happened on the sabbath, and that broke their rules. They pressed him to call Jesus a sinner. And he gave them one of the greatest answers anybody ever gave:"),
+    # John 9:25
+    ("s25", SCRIPTURE, "Whether he be a sinner or no, I know not: one thing I know, that, whereas I was blind, now I see."),
+    ("n6b", NARRATOR, "He would not argue theology with trained men. He just told them the one thing that had happened to him, and there was nothing they could do with it."),
+    ("n7", NARRATOR, "They could not shake him, so they threw him out — cast out of the synagogue, cut off from the whole religious life of his people. Healed, and homeless in the same week. And here is the part to remember: when Jesus heard they had thrown him out, he went and FOUND him. The man had never actually seen the one who healed him. Jesus asked him:"),
+    # John 9:35
+    ("j3", JESUS, "Dost thou believe on the Son of God?"),
+    ("n8", NARRATOR, "And the man — who wants to, and does not know who that is — answers:"),
+    # John 9:36
+    ("s36", SCRIPTURE, "Who is he, Lord, that I might believe on him?"),
+    ("n8b", NARRATOR, "Who is he, sir? Tell me, so I can believe in him. He is not stalling. He is asking for a name so he can give himself to it. And Jesus said:"),
+    # John 9:37
+    ("j4", JESUS, "Thou hast both seen him, and it is he that talketh with thee."),
+    ("n9", NARRATOR, "You have seen him — and he is the one talking with you right now. The first face this man ever truly studied was the face of the one who gave him his eyes. And he said:"),
+    # John 9:38
+    ("s38", SCRIPTURE, "Lord, I believe."),
+    ("n9b", NARRATOR, "Lord, I believe — and he worshipped him, right there in the street the religious world had just thrown him out of. The question of whose fault it was never got an answer that day. The man got something better. He got found."),
+    ("card", NARRATOR, "You may never get the why for what you carry. But when the world shuts you out, he comes and finds you."),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

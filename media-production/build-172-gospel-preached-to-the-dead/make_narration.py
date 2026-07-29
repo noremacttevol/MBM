@@ -41,14 +41,16 @@ from mbm_speakers import NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, 'Some who heard the good news had already died before they could finish their lives in the body.'),
-    ("s1", SCRIPTURE, 'For for this cause was the gospel preached also to them that are dead, that they might be judged according to men in the flesh, but live according to God in the spirit.'),
-    ("n1b", NARRATOR, 'Not in vain, not too late.'),
+    ("n0", NARRATOR, "Some who heard the good news had already died before they could finish their lives in the body."),
+    # 1 Peter 4:6
+    ("s1", SCRIPTURE, "For for this cause was the gospel preached also to them that are dead, that they might be judged according to men in the flesh, but live according to God in the spirit."),
+    ("n1b", NARRATOR, "Not in vain, not too late."),
     ("n2", NARRATOR, "They might be judged by men's measure in the flesh — and yet be alive by God's measure in the spirit."),
-    ("s19", SCRIPTURE, 'For Christ also hath once suffered for sins, the just for the unjust, that he might bring us to God, being put to death in the flesh, but quickened by the Spirit: By which also he went and preached unto the spirits in prison;'),
-    ("n3a", NARRATOR, 'Death did not close the door.'),
-    ("n3b", NARRATOR, 'The message crossed over.'),
-    ("card", NARRATOR, 'The gospel reaches beyond the grave. No one is outside the reach of his mercy.'),
+    # 1 Peter 3:18-19
+    ("s19", SCRIPTURE, "For Christ also hath once suffered for sins, the just for the unjust, that he might bring us to God, being put to death in the flesh, but quickened by the Spirit: By which also he went and preached unto the spirits in prison;"),
+    ("n3a", NARRATOR, "Death did not close the door."),
+    ("n3b", NARRATOR, "The message crossed over."),
+    ("card", NARRATOR, "The gospel reaches beyond the grave. No one is outside the reach of his mercy."),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

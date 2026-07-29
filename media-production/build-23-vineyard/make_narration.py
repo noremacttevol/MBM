@@ -52,29 +52,35 @@ from mbm_speakers import JESUS, NARRATOR
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n1", NARRATOR, 'Jesus said the kingdom of heaven is like a landowner who went out at first light to hire workers for his vineyard.'),
+    ("n1", NARRATOR, "Jesus said the kingdom of heaven is like a landowner who went out at first light to hire workers for his vineyard."),
     ("n2", NARRATOR, "He agreed with the first crew on a penny for the day — a full day's fair wage — and sent them out into the rows."),
-    ("n3", NARRATOR, 'A few hours later he went back to the market and found more men just standing around with no work. He sent them into the vineyard too, and promised to pay them what was right.'),
-    ("n4", NARRATOR, 'He did the same thing again at noon, and again in the middle of the afternoon. More workers, the same promise.'),
-    ("n5", NARRATOR, 'Then, with only one hour of daylight left, he went out a final time and found still more men standing idle.'),
-    ("j6", JESUS, 'Why stand ye here all the day idle?'),
-    ("j7a", JESUS, 'Because no man hath hired us.'),
-    ("n5b", NARRATOR, 'The question revealed the wound: they had not refused work. Nobody had chosen them.'),
-    ("j7b", JESUS, 'Go ye also into the vineyard; and whatsoever is right, that shall ye receive.'),
-    ("n6", NARRATOR, 'Even with one hour of daylight left, the owner was still looking for people others had passed over.'),
-    ("n7", NARRATOR, 'When evening came, the owner told his foreman to call the workers and pay them — starting, strangely, with the ones hired last.'),
+    ("n3", NARRATOR, "A few hours later he went back to the market and found more men just standing around with no work. He sent them into the vineyard too, and promised to pay them what was right."),
+    ("n4", NARRATOR, "He did the same thing again at noon, and again in the middle of the afternoon. More workers, the same promise."),
+    ("n5", NARRATOR, "Then, with only one hour of daylight left, he went out a final time and found still more men standing idle."),
+    # Matthew 20:6
+    ("j6", JESUS, "Why stand ye here all the day idle?"),
+    # Matthew 20:7
+    ("j7a", JESUS, "Because no man hath hired us."),
+    ("n5b", NARRATOR, "Why have you stood here all day doing nothing, he asked them. Not lazy. Not hiding. Nobody had ever picked them."),
+    # Matthew 20:7
+    ("j7b", JESUS, "Go ye also into the vineyard; and whatsoever is right, that shall ye receive."),
+    ("n6", NARRATOR, "You go into the vineyard too, he told them, and whatever is right, that is what you will get. One hour of daylight left, and he was still out looking for people."),
+    ("n7", NARRATOR, "When evening came, the owner told his foreman to call the workers and pay them — starting, strangely, with the ones hired last."),
     ("n8", NARRATOR, "The men who had worked a single hour came up first, and each of them was handed a full day's pay. A whole penny, for one hour of work."),
-    ("n9", NARRATOR, 'You can guess what the men who had worked since dawn were thinking. If the one-hour crew got a full penny, surely they would get more.'),
-    ("n10", NARRATOR, 'But when their turn came, they got the very same — one penny. And they were furious.'),
-    ("j12", JESUS, 'These last have wrought but one hour, and thou hast made them equal unto us, which have borne the burden and heat of the day.'),
-    ("n10b", NARRATOR, 'Their anger was not about a broken agreement. It was about being treated no better than men they considered less deserving.'),
-    ("n11", NARRATOR, 'The owner turned to one of them, and he was not harsh about it. He called him friend.'),
-    ("j1", JESUS, 'Friend, I do thee no wrong: didst not thou agree with me for a penny? Take that thine is, and go thy way: I will give unto the last, even as unto thee. Is it not lawful for me to do what I will with mine own? Is thine eye evil, because I am good?'),
-    ("n12", NARRATOR, "The owner's answer exposed the real grievance: generosity to the latecomers felt like theft to those who had arrived early."),
-    ("n13", NARRATOR, 'That is the whole point. The first men were not underpaid. They got everything they were promised. What stung was watching someone else receive grace they had not earned.'),
-    ("j2", JESUS, 'So the last shall be first, and the first last: for many be called, but few chosen.'),
+    ("n9", NARRATOR, "You can guess what the men who had worked since dawn were thinking. If the one-hour crew got a full penny, surely they would get more."),
+    ("n10", NARRATOR, "But when their turn came, they got the very same — one penny. And they were furious."),
+    # Matthew 20:12
+    ("j12", JESUS, "These last have wrought but one hour, and thou hast made them equal unto us, which have borne the burden and heat of the day."),
+    ("n10b", NARRATOR, "These men worked one hour, they said, and you have made them equal to us — and we carried the whole day and the burning heat of it."),
+    ("n11", NARRATOR, "The owner turned to one of them, and he was not harsh about it. He called him friend."),
+    # Matthew 20:13-15
+    ("j1", JESUS, "Friend, I do thee no wrong: didst not thou agree with me for a penny? Take that thine is, and go thy way: I will give unto the last, even as unto thee. Is it not lawful for me to do what I will with mine own? Is thine eye evil, because I am good?"),
+    ("n12", NARRATOR, "In other words: I have not cheated you. You got exactly what we agreed on. Why is my kindness to someone else a problem for you? Are you really angry only because I chose to be good?"),
+    ("n13", NARRATOR, "That is the whole point. The first men were not underpaid. They got everything they were promised. What stung was watching someone else receive grace they had not earned."),
+    # Matthew 20:16
+    ("j2", JESUS, "So the last shall be first, and the first last: for many be called, but few chosen."),
     ("n14", NARRATOR, "God does not run low on generosity when he spends it on someone who came late. His goodness is never used up. There is a full day's welcome waiting for you, no matter what hour you finally come in."),
-    ("card", NARRATOR, 'You have not missed your chance by coming late. Will you come into the vineyard now?'),
+    ("card", NARRATOR, "You have not missed your chance by coming late. Will you come into the vineyard now?"),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

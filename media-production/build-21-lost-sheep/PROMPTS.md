@@ -92,3 +92,6 @@ sheep. One single continuous scene painted edge to edge, 9:16 vertical.
 Text on cream (#F7F2E9), serif, no narration baked in (spoken + captioned in
 assembly): "To him, you were never one of a crowd. Have you ever felt like the one
 who wandered too far to be worth coming after?"
+
+## s7b-calling-the-village — NEW (split off S7 / Luke 15:6, was 39.7s): calling everyone in
+[STILL STYLE BLOCK] Dusk in the small village lane, the moment the shepherd calls everyone IN. The weathered shepherd — dark hair and a dark beard, in an undyed cream-tan wool tunic with a leather shepherd's bag — stands at his own doorway with the DOOR THROWN OPEN behind him, warm lamplight spilling out into the blue dusk street. The recovered ewe (white with a brown patch) is still held safe in his arms against his chest, and he is turned back OVER HIS SHOULDER toward the street, his MOUTH OPEN, SHOUTING with joy for his friends and neighbours to come and rejoice with him — pure JOY, not relief, the delight of a man who cannot keep the good news to himself. A couple of neighbours in the far street just beginning to turn toward his voice. Warm lamplight glow against the cool dusk. Every figure has one head, two arms and two hands. One single continuous scene painted edge to edge. 9:16 vertical.

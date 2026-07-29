@@ -62,21 +62,26 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("s1", SCRIPTURE, 'And he spake a parable unto them to this end, that men ought always to pray, and not to faint.'),
-    ("n1b", NARRATOR, 'Luke tells us up front why Jesus told this one. He wanted people to keep praying and not lose heart. That is the whole reason the story exists.'),
-    ("n1", NARRATOR, 'Jesus told a story about a widow. She had lost her husband and had no one to protect her. Someone had wronged her, and she had no power, no money, no one important to make anyone listen.'),
-    ("jv2", JESUS, 'There was in a city a judge, which feared not God, neither regarded man: And there was a widow in that city; and she came unto him, saying, Avenge me of mine adversary.'),
-    ("n2", NARRATOR, 'The widow came to him with one simple plea: give me justice against the man who wronged me.'),
-    ("n3", NARRATOR, 'But the judge did not care. He waved her away. She had nothing to offer him, no bribe, no rank, no reason for him to lift a finger.'),
-    ("n4", NARRATOR, 'So she came back. And again. And again. She would not stop. Every day the same worn face at his door, the same steady voice asking for what was right.'),
-    ("j1", JESUS, 'Though I fear not God, nor regard man; yet because this widow troubleth me, I will avenge her, lest by her continual coming she weary me.'),
-    ("n5", NARRATOR, 'Fine, the judge finally said. I do not fear God, and I do not care about her. But she is wearing me out. I will give her justice just to be rid of her.'),
-    ("j2", JESUS, 'Hear what the unjust judge saith. And shall not God avenge his own elect, which cry day and night unto him, though he bear long with them?'),
-    ("n6", NARRATOR, 'Listen to what even that cold judge finally did, Jesus said. Now think about God. If a man who cares for no one will still give justice to the one who keeps coming, how much more will your Father, who loves you, hear you?'),
-    ("jv8", JESUS, 'I tell you that he will avenge them speedily. Nevertheless when the Son of man cometh, shall he find faith on the earth?'),
-    ("n7b", NARRATOR, 'He will not drag his feet, Jesus said. He will act, and quickly. And then he asked one more question, almost quietly. When the Son of Man comes back, will he find anybody still believing that?'),
-    ("n7", NARRATOR, 'Here is the whole point. God is not that judge. He is not reluctant. He is not annoyed by you. He does not have to be worn down into caring, because he already loves you, and he already wants to hear you.'),
-    ("n8", NARRATOR, 'So when Jesus says to keep praying and never give up, it is not because God is hard to move. It is because he is the very opposite of that judge, and he has been waiting to hear from you all along.'),
+    # Luke 18:1
+    ("s1", SCRIPTURE, "And he spake a parable unto them to this end, that men ought always to pray, and not to faint."),
+    ("n1b", NARRATOR, "Luke tells us up front why Jesus told this one. He wanted people to keep praying and not lose heart. That is the whole reason the story exists."),
+    ("n1", NARRATOR, "Jesus told a story about a widow. She had lost her husband and had no one to protect her. Someone had wronged her, and she had no power, no money, no one important to make anyone listen."),
+    # Luke 18:2-3
+    ("jv2", JESUS, "There was in a city a judge, which feared not God, neither regarded man: And there was a widow in that city; and she came unto him, saying, Avenge me of mine adversary."),
+    ("n2", NARRATOR, "The widow came to him with one simple plea: give me justice against the man who wronged me."),
+    ("n3", NARRATOR, "But the judge did not care. He waved her away. She had nothing to offer him, no bribe, no rank, no reason for him to lift a finger."),
+    ("n4", NARRATOR, "So she came back. And again. And again. She would not stop. Every day the same worn face at his door, the same steady voice asking for what was right."),
+    # Luke 18:4-5
+    ("j1", JESUS, "Though I fear not God, nor regard man; yet because this widow troubleth me, I will avenge her, lest by her continual coming she weary me."),
+    ("n5", NARRATOR, "Fine, the judge finally said. I do not fear God, and I do not care about her. But she is wearing me out. I will give her justice just to be rid of her."),
+    # Luke 18:6-7
+    ("j2", JESUS, "Hear what the unjust judge saith. And shall not God avenge his own elect, which cry day and night unto him, though he bear long with them?"),
+    ("n6", NARRATOR, "Listen to what even that cold judge finally did, Jesus said. Now think about God. If a man who cares for no one will still give justice to the one who keeps coming, how much more will your Father, who loves you, hear you?"),
+    # Luke 18:8
+    ("jv8", JESUS, "I tell you that he will avenge them speedily. Nevertheless when the Son of man cometh, shall he find faith on the earth?"),
+    ("n7b", NARRATOR, "He will not drag his feet, Jesus said. He will act, and quickly. And then he asked one more question, almost quietly. When the Son of Man comes back, will he find anybody still believing that?"),
+    ("n7", NARRATOR, "Here is the whole point. God is not that judge. He is not reluctant. He is not annoyed by you. He does not have to be worn down into caring, because he already loves you, and he already wants to hear you."),
+    ("n8", NARRATOR, "So when Jesus says to keep praying and never give up, it is not because God is hard to move. It is because he is the very opposite of that judge, and he has been waiting to hear from you all along."),
     ("card", NARRATOR, "God is not the reluctant judge. What have you stopped asking him for, because you assumed he wasn't listening?"),
 ]
 
