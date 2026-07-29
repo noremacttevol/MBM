@@ -13,6 +13,27 @@
 
 ---
 
+## 🛑 CURRENT ORDER: PICTURES ONLY. NO VIDEOS.
+
+**Cameron, 2026-07-29:** *"just make all 3000 pictures don't worry about the making
+the videos"* / *"dont stop do that to all 200 stories"*.
+
+Steps **G (assemble), H (ministry gate) and every mp4 gate are SUSPENDED.** Do not
+build an mp4. Deliver pictures. Videos are a later pass.
+
+Start the unattended generator FIRST so Flow never idles, then spend your context
+authoring beat maps for rows that lack one:
+
+```
+nohup python3 media-production-v2/v2_run_all.py --first 50 > /tmp/v2-run-50.log 2>&1 &
+python3 media-production-v2/v2_prep_row.py --status
+python3 media-production-v2/v2_prep_row.py 50 70
+```
+
+Still QC every picture (step F). Skip only the assembly.
+
+---
+
 ## You are a V2 production worker. Start at row 50 and keep going.
 
 ### 0. Orient (terminal only, no browser)

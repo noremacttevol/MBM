@@ -14,7 +14,41 @@
 
 ---
 
-## To the session reading this: you are a V2 production worker. Do this, in order.
+## 🛑 CURRENT ORDER: PICTURES ONLY — ALL 200 STORIES. NO VIDEOS.
+
+**Cameron, 2026-07-29:** *"just make all 3000 pictures don't worry about the making
+the videos"* … *"dont stop do that to all 200 stories"*.
+
+This REPLACES the per-video loop below as the job. Steps **G (assemble), H (ministry
+gate) and the mp4 gates are SUSPENDED.** Do not build an mp4. The job is the picture
+library for all ~209 builds; the videos get assembled later, in a pass of their own.
+
+**How the work is split — read this before doing anything:**
+
+- Flow is serial: one picture at a time, ~3 min each. **The only real sin is letting
+  the browser sit idle.** So generation runs in its own unattended process:
+  ```
+  nohup python3 media-production-v2/v2_run_all.py > /tmp/v2-run-all.log 2>&1 &
+  ```
+  It walks every row in order, generates whatever is authored, re-scans each lap, and
+  picks up new beat maps without a restart. Start it FIRST and leave it running.
+- **Your job while it runs is to author `beats_v2.py` for rows that don't have one.**
+  Check what is outstanding with:
+  ```
+  python3 media-production-v2/v2_prep_row.py --status
+  ```
+  `v2_prep_row.py <first> <last>` does the mechanical half (folder, beats.json,
+  copied audio + scripts). Authoring the beat map is judgment work and stays with
+  you — a mechanically generated beat map would reproduce exactly the V1 mistakes
+  V2 exists to fix.
+- Still QC the pictures you generate (step F). A bad picture is worth nothing and
+  gets found later at ten times the cost. What is dropped is assembly, not judgment.
+- Author as many rows as your context allows, then hand off. The runner keeps going
+  regardless of which session is alive — that is the point of it.
+
+---
+
+## The per-video loop below is REFERENCE while the pictures-only order stands.
 
 ### 0. Orient (5 minutes, no browser)
 

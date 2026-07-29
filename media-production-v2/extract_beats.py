@@ -92,6 +92,11 @@ def _const(node, consts):
         return node.id
     if isinstance(node, ast.UnaryOp) and isinstance(node.op, ast.USub):
         return -_const(node.operand, consts)
+    # Multi-still segments nest: ("n0", [(S1, "in"), (S2, "marker words")], "in").
+    # Rows 10/18/19 (the word-anchored marker builds) all use this shape and were
+    # failing extraction outright because the resolver only handled flat nodes.
+    if isinstance(node, (ast.List, ast.Tuple)):
+        return [_const(e, consts) for e in node.elts]
     raise ValueError(ast.dump(node))
 
 
