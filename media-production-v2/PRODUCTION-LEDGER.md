@@ -161,3 +161,45 @@ with its own lock, so the scene text was corrected.
 | caption frame-strip | white narrator · **pink for her own line (w28)** · red for Jesus (j1) · cream invitation card — each on the correct scene, all inside the bottom band |
 
 **Ministry gate:** PASS on all four (`MINISTRY-GATE.md`).
+
+---
+
+## Session 2 — 2026-07-28 (cont.)
+
+- **Model:** Opus 5 (Claude Code) · **Machine:** Machine A — hostname `Dev`
+- **Start:** 2026-07-28 23:31 EDT · resumed row 2 at step E per the ledger.
+
+### BLOCKER HIT IMMEDIATELY — the Gemini API is out of money
+
+`v2_gen_api.py` died on b20 with `RESOURCE_EXHAUSTED`: *"Your prepayment credits are
+depleted."* That is Cameron's Google AI Studio billing; topping it up is his to do, not
+something a session can or should do. **The line did not stall** — `V2-NEXT-SESSION-PROMPT`
+already names Flow at 2K as the default path, so row 2 finished on
+`flow_driver.py --size 2K`. Flow's 2K is an UPSCALE of 768×1376; the API's was native
+2K. Same pixel dimensions, less real detail. Worth Cameron knowing when he decides
+whether to refill the API.
+
+### Row 2 QC — 19 API stills judged, 13 REJECTED
+
+Every still was Read at full resolution. This is the honest tally, and it is worse than
+row 1's: **6 accepted, 13 rejected.** Five defect families, four of them traced to a
+root cause in the prompt system rather than to bad luck on one frame:
+
+| defect | frames | root cause | fix |
+|---|---|---|---|
+| `CREAM-CROWD` (recurrence) | s01, s02 | PHARISEES LOCK leaned on the NEGATION "never white, never cream, never pale" — the model dressed all three in white striped prayer shawls, the largest pale mass in frame, beside the one man allowed cream | **PHARISEES LOCK v2** states the colours POSITIVELY and anchors them ("plainly DARKER than the sunlit stone wall behind them"). Row 1 paid for this exact lesson at the SETTING lock; it had not been generalised. |
+| `WRONG-DIRECTION` | s04, s10, s11, s12 | the beats said *what* happened but never where the CAMERA stood, so the model defaulted to hero-shots facing the lens. **The father ran AWAY from his son in the icon shot of the whole parable**, and s04 read as the son ARRIVING while the narration says "Then he left" | every one of the four now opens with an explicit camera position and a stated travel direction ("SHOT FROM THE SIDE OF THE ROAD… far ahead of him IN THE DIRECTION HE IS RUNNING") |
+| `WARDROBE-DRIFT` | s07, s09, s13 | the YOUNGER lock deliberately omits clothing (his wardrobe changes through the story) — so any beat whose scene text forgot to state it let the model invent one. Exactly the beats that forgot it drifted: rust-red → brown | clothing stated in every younger-son beat, plus **BAREFOOT until b14** so the gift of shoes in v22 still means something |
+| `CAST-DRIFT` | s17, s18, s19 | text locks alone did NOT hold a face. The elder son came back as **three visibly different men** across s16/s17/s18 | **char_refs added to `v2_prompt.py`** — recurring characters are now locked by IMAGE (CAST-BIBLE principle), refs staged in `CAST-REF-V2/` from accepted stills. `flow_driver` already accepted repeated `--ref`; nothing was passing them. |
+| `CGI-STYLE` | s12, s19 | STYLE-V2 forbids "plastic CGI" and it drifted anyway on two frames | rerolled; the attached photographic char_refs also anchor realism |
+| `ROTATED` | s15 | the entire feast rendered sideways in the portrait canvas | b15 now states "A TALL VERTICAL FRAME… every figure upright with their feet on the floor". Reroll came back correct. |
+
+**One systemic bug fixed in the assembler, not the beat:** the anti-panel clause was
+only appended to `wide` beats, so tight shots had no panel protection at all — and
+s18, a tight shot, came back with a landscape pasted in above the wall like a second
+panel. `ANTI_PANEL` now goes on **every** prompt. A panel artifact was never a
+wide-shot problem.
+
+**ACCEPTED from the API pass (6, kept as-is):** s03 · s05 · s06 · s08 · s14 · s16.
+All 13 rejects are preserved in `assets/_rejected/` — if a reroll comes back worse,
+the better picture wins and the discrepancy gets recorded here honestly (row-1 rule).

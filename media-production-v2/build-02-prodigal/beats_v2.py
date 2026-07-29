@@ -50,12 +50,21 @@ LOCKS = {
     # Jesus appears ONLY in the two frame-story shots (b01, b02). Inside the
     # parable he is the storyteller, not a figure — nobody in the parable wears
     # cream (only-Jesus-cream law).
+    # PHARISEES LOCK v2 (row 2 QC, CREAM-CROWD recurrence). v1 leaned on the
+    # negation "never white, never cream, never pale" and the model dressed all
+    # three in white striped prayer shawls anyway — the single largest pale mass in
+    # the frame, standing right beside the one man allowed to wear cream. Same
+    # lesson row 1 paid for at the SETTING lock: state the colours POSITIVELY and
+    # anchor them against something in the frame. Negations do not hold; a stated
+    # colour does.
     "PHARISEES": (
         "PHARISEES LOCK: the religious men are the same three in both shots — older "
         "scribes with long grey-streaked beards, in DARK CHARCOAL-BROWN and DEEP "
-        "UMBER scholarly robes with fringed prayer shawls in the same dark tones "
-        "(never white, never cream, never pale), standing stiffly together, faces "
-        "tight with disapproval."
+        "UMBER scholarly robes. Their prayer shawls are woven from the SAME "
+        "SATURATED DARK wool as their robes — deep charcoal, dark umber and "
+        "near-black, with dark indigo stripes and dark fringe — so that every shawl "
+        "is plainly DARKER than the sunlit stone wall behind them. They stand "
+        "stiffly together, faces tight with disapproval."
     ),
     "TABLE": (
         "TABLE LOCK: a low stone courtyard off a Galilean street in bright honest "
@@ -163,14 +172,19 @@ BEATS = [
         "must_show": "the son walking away down the long road with his bag; the father watching him go from the gate.",
         "must_not_show": "no party scene, nothing of the riotous living depicted; the leaving carries it.",
         "scene": (
-            "The younger son walks away from the farm down the long pale dirt "
-            "road, a full travel bag over his shoulder and the heavy money pouch "
-            "at his belt, his fine rust-red tunic and travel cloak bright with "
-            "morning, not looking back — and far behind him at the courtyard gate "
-            "the father stands alone watching him shrink down the road, one hand "
-            "resting on the gatepost. Morning light, long shadows. Exactly two "
-            "people are in the frame; each has two arms, two hands, two legs and "
-            "one head."
+            "SHOT FROM BEHIND THE FATHER, the camera at the courtyard gate looking "
+            "DOWN the long pale dirt road as it runs away from the farm toward "
+            "distant hills. In the near foreground, seen from behind and slightly "
+            "to one side, the father stands alone in the open gateway, one hand "
+            "resting on the gatepost, head and shoulders turned to watch. Far down "
+            "the road ahead of him, WALKING AWAY FROM THE CAMERA with his back to "
+            "us and never once looking back, the younger son is already small with "
+            "distance, a full travel bag over his shoulder and the heavy money "
+            "pouch at his belt, his fine RUST-RED tunic and travel cloak bright "
+            "with morning. He is leaving; the road carries him toward the far "
+            "horizon and the farm is behind him. Morning light, long shadows. "
+            "Exactly two people are in the frame; each has two arms, two hands, "
+            "two legs and one head."
         ),
     },
     {
@@ -211,15 +225,19 @@ BEATS = [
     {
         "id": "v2-r002-b07", "out": "s07-came-to-his-senses.jpeg", "seg": "n2 p3",
         "window": "27.4-30.39", "wide": False, "jesus": False, "ref": False,
+        "char_refs": ["CAST-REF-V2/younger-ref.jpeg"],
         "locks": ["YOUNGER"],
         "narration": "And there, in the mud, he came to his senses.",
         "must_show": "the realization — kneeling in the mire, head lifting, the thought arriving (v17 'he came to himself').",
         "must_not_show": "no light beam, no glow; the change is on his face only.",
         "scene": (
-            "Close on the younger son sunk to one knee in the mud of the pigsty, "
-            "one hand braced on the stone fence, his head just lifting — and his "
-            "eyes coming clear for the first time, the realization arriving on his "
-            "gaunt dirty face: his father's hired servants have bread enough. The "
+            "Close on the younger son sunk to one knee in the churned mud of the "
+            "stone-fenced pigsty under a hard midday sun, still wearing the SAME "
+            "torn, faded, filthy RUST-RED tunic and barefoot, one hand braced on "
+            "the low stone fence, his head just lifting — and his eyes coming clear "
+            "for the first time, the realization arriving on his gaunt dirty face: "
+            "his father's hired servants have bread enough. Two dark pigs root in "
+            "the mud at the edge of the frame. The "
             "change is entirely in his face; nothing else in the frame changes. "
             "Exactly one person is in the frame, with two arms, two hands and one "
             "head."
@@ -245,6 +263,7 @@ BEATS = [
     {
         "id": "v2-r002-b09", "out": "s09-the-rehearsed-speech.jpeg", "seg": "j3",
         "window": "34.86-50.05", "wide": False, "jesus": False, "ref": False,
+        "char_refs": ["CAST-REF-V2/younger-ref.jpeg"],
         "locks": ["YOUNGER"],
         "narration": ("I will arise and go to my father... make me as one of thy "
                       "hired servants. (Luke 15:18-19)"),
@@ -252,7 +271,8 @@ BEATS = [
         "must_not_show": "no tears streaming; restrained; late afternoon.",
         "scene": (
             "A tight shot of the younger son paused at a rise in the road in low "
-            "late-afternoon light, eyes down, jaw tight, mid-word — shame and "
+            "late-afternoon light, still in the SAME torn, faded, filthy RUST-RED "
+            "tunic and barefoot, eyes down, jaw tight, mid-word — shame and "
             "resolve fighting in his gaunt face as he practises the hardest "
             "sentence of his life. Far behind him, small in the distance haze, the "
             "first pale line of his home valley. Exactly one person is in the "
@@ -262,59 +282,74 @@ BEATS = [
     {
         "id": "v2-r002-b10", "out": "s10-father-saw-him.jpeg", "seg": "n4",
         "window": "50.05-53.78", "wide": True, "jesus": False, "ref": False,
+        "char_refs": ["CAST-REF-V2/father-ref.jpeg"],
         "locks": ["FATHER", "ESTATE"],
         "narration": "He was still a long way off... when his father saw him.",
         "must_show": "v20 — the father catching sight of a tiny far figure on the road; recognition seizing him.",
         "must_not_show": "the son is a DISTANT small figure, not close; the father has not started running yet.",
         "scene": (
-            "The father stands at the courtyard gate in golden late-afternoon "
-            "light, one hand gripping the gatepost, his whole body suddenly rigid, "
-            "shading his eyes with the other hand — far down the long pale road, "
-            "tiny in the distance, a single ragged figure is walking toward the "
-            "farm. The father's lined face is caught in the first instant of "
-            "recognition. Every figure has two arms, two hands and one head."
+            "SHOT FROM BESIDE AND SLIGHTLY BEHIND THE FATHER so that his face is "
+            "seen in profile and the long pale road runs away from him into the "
+            "distance ALONG HIS LINE OF SIGHT. He stands at the courtyard gate in "
+            "golden late-afternoon light, one hand gripping the gatepost, his whole "
+            "body suddenly gone rigid, the other hand raised to shade his eyes as "
+            "he stares FAR UP THE ROAD — and there, tiny with distance and directly "
+            "ahead of his gaze, a single ragged figure is walking toward the farm. "
+            "The father's lined face is caught in the first instant of recognition, "
+            "and every line in the frame leads from his eyes down the road to that "
+            "distant figure. Every figure has two arms, two hands and one head."
         ),
     },
     {
         "id": "v2-r002-b11", "out": "s11-the-father-ran.jpeg", "seg": "n5a",
         "window": "53.78-55.61", "wide": True, "jesus": False, "ref": False,
+        "char_refs": ["CAST-REF-V2/father-ref.jpeg"],
         "locks": ["FATHER", "ESTATE"],
         "narration": "The father ran.",
         "must_show": "the icon of the story — an old man in full undignified RUN down the road, robe hitched.",
         "must_not_show": "not a jog, not a stride — a RUN; sandals kicking dust.",
         "scene": (
-            "The father is in full run down the middle of the long dirt road, his "
+            "SHOT FROM THE SIDE OF THE ROAD with the camera low, so the father runs "
+            "ACROSS the frame from left to right and the long dirt road stretches "
+            "away to the right toward distant hills. The father is in full run, his "
             "deep indigo-blue robe hitched up in both fists above his knees, grey "
             "beard streaming, sandals hammering up dust, his face blazing with "
-            "urgency and joy — an old man running with everything he has, "
-            "photographed mid-stride with both feet clear of the ground's dust. "
-            "The tiny ragged figure is still far down the road ahead of him. "
-            "Golden late-afternoon light. Every figure has two arms, two hands, "
-            "two legs and one head."
+            "urgency and joy — an old man running with everything he has, caught "
+            "mid-stride with both feet clear of the ground. FAR AHEAD OF HIM TO THE "
+            "RIGHT, small with distance and squarely IN THE DIRECTION HE IS "
+            "RUNNING, the tiny ragged figure of his son comes up the road toward "
+            "him. The two of them are closing the same stretch of road. Golden "
+            "late-afternoon light. Every figure has two arms, two hands, two legs "
+            "and one head."
         ),
     },
     {
         "id": "v2-r002-b12", "out": "s12-he-ran-anyway.jpeg", "seg": "n5b",
         "window": "55.61-61.25", "wide": True, "jesus": False, "ref": False,
+        "char_refs": ["CAST-REF-V2/father-ref.jpeg"],
         "locks": ["FATHER", "ESTATE"],
         "narration": ("Old men in that world did not run. It was beneath their "
                       "dignity. He ran anyway."),
         "must_show": "the scandal of it — household servants stopped dead, staring, as he tears past.",
         "must_not_show": "no mockery on the servants' faces — pure astonishment.",
         "scene": (
-            "The father tears past the farm's outer wall at a full run, indigo "
-            "robe still hitched in his fists, and two household servants in plain "
-            "dark earth-brown wool have stopped dead — a dropped water jar "
-            "spilling at one servant's feet — staring open-mouthed after their "
-            "master, astonished to see the old man run. He pays them no mind, his "
-            "eyes locked on the far road ahead. Golden late-afternoon light. "
-            "Exactly three people are in the frame; each has two arms, two hands, "
-            "two legs and one head."
+            "SHOT FROM THE SIDE with the camera low beside the farm's outer wall: "
+            "the father tears past from left to right at a full run, his deep "
+            "indigo-blue robe still hitched up in both fists above his knees, "
+            "heading AWAY down the road toward the distant figure. Two household "
+            "servants in plain dark earth-brown wool have stopped dead where they "
+            "stood, a dropped water jar shattering and spilling at one servant's "
+            "feet, staring open-mouthed after their master, astonished to see the "
+            "old man run. He pays them no mind; his eyes are locked on the far road "
+            "ahead of him. Golden late-afternoon light on real skin, real dust and "
+            "real wool, photographed on location. Exactly three people are in the "
+            "frame; each has two arms, two hands, two legs and one head."
         ),
     },
     {
         "id": "v2-r002-b13", "out": "s13-the-embrace.jpeg", "seg": "n6",
         "window": "61.25-66.87", "wide": True, "jesus": False, "ref": False,
+        "char_refs": ["CAST-REF-V2/father-ref.jpeg", "CAST-REF-V2/younger-ref.jpeg"],
         "locks": ["FATHER", "YOUNGER", "ESTATE"],
         "narration": ("He didn't wait for the speech. He wrapped his arms around "
                       "his son before a single word was said."),
@@ -326,8 +361,11 @@ BEATS = [
             "against his chest, his silver-grey head pressed to the boy's filthy "
             "shoulder, eyes shut — and over the father's shoulder the son's gaunt "
             "face is stunned open, his rehearsed words dying on his lips, his own "
-            "arms only beginning to rise as if he cannot believe he is allowed to "
-            "return the embrace. Dust still hangs from the run. Exactly two people "
+            "arms only beginning to rise, hands not yet closed on his father's "
+            "back, as if he cannot believe he is allowed to return the embrace. "
+            "The son is still in the SAME torn, faded, filthy RUST-RED tunic and is "
+            "BAREFOOT — he has not been given shoes yet. "
+            "Dust still hangs from the run. Exactly two people "
             "are in the frame; each has two arms, two hands of five fingers each "
             "and one head."
         ),
@@ -354,6 +392,7 @@ BEATS = [
     {
         "id": "v2-r002-b15", "out": "s15-my-son-was-dead.jpeg", "seg": "n7 p2 + j1",
         "window": "71.5-82.05", "wide": True, "jesus": False, "ref": False,
+        "char_refs": ["CAST-REF-V2/father-ref.jpeg", "CAST-REF-V2/younger-ref.jpeg"],
         "locks": ["FATHER", "YOUNGER", "ESTATE"],
         "narration": ("and called for a feast — and he told everyone why. / For "
                       "this my son was dead, and is alive again; he was lost, and "
@@ -361,6 +400,9 @@ BEATS = [
         "must_show": "the feast alive; the father proclaiming with his hand on the son's shoulder; every face turned to them.",
         "must_not_show": "nobody at the feast in cream; the son in the wine-red robe.",
         "scene": (
+            "A TALL VERTICAL FRAME with the camera upright and level at standing "
+            "eye height, every figure standing upright with their feet on the floor "
+            "and their head above their shoulders. "
             "The farmhouse hall blazes with lamplight and a feast in full life — "
             "laden tables, musicians with pipe and drum, household and neighbours "
             "in deep russet, ochre, olive and indigo wool — and at the head of it "
@@ -391,6 +433,7 @@ BEATS = [
     {
         "id": "v2-r002-b17", "out": "s17-musick-and-dancing.jpeg", "seg": "n9 p2",
         "window": "87.0-91.5", "wide": True, "jesus": False, "ref": False,
+        "char_refs": ["CAST-REF-V2/elder-ref.jpeg"],
         "locks": ["ELDER", "ESTATE"],
         "narration": ("When he came near the house and heard the music, a servant "
                       "told him: your brother is home."),
@@ -401,7 +444,9 @@ BEATS = [
             "stands stopped with his hoe still over his shoulder, head turned "
             "toward the house where every window pours warm light and the sound "
             "of pipes and dancing — while a young servant in plain earth-brown "
-            "wool, torch in hand, gestures toward the house explaining, and the "
+            "wool stands facing him holding a burning torch upright in one fist, "
+            "the flame sitting directly on the head of the torch and touching it, "
+            "and gestures toward the house with his free hand, explaining, and the "
             "elder son's dusty face is beginning to harden as he understands. "
             "Exactly two people are in the frame; each has two arms, two hands "
             "and one head."
@@ -410,6 +455,7 @@ BEATS = [
     {
         "id": "v2-r002-b18", "out": "s18-would-not-go-in.jpeg", "seg": "n9 p3",
         "window": "91.5-94.96", "wide": False, "jesus": False, "ref": False,
+        "char_refs": ["CAST-REF-V2/elder-ref.jpeg"],
         "locks": ["ELDER", "ESTATE"],
         "narration": "And he was so angry, he refused to go in.",
         "must_show": "v28 — turned AWAY from the lit doorway, arms locked, jaw set; the feast light on his back.",
@@ -426,6 +472,7 @@ BEATS = [
     {
         "id": "v2-r002-b19", "out": "s19-father-came-out.jpeg", "seg": "n10a",
         "window": "94.96-101.19", "wide": True, "jesus": False, "ref": False,
+        "char_refs": ["CAST-REF-V2/father-ref.jpeg", "CAST-REF-V2/elder-ref.jpeg"],
         "locks": ["FATHER", "ELDER", "ESTATE"],
         "narration": ("So the father left his own feast, and went out again — "
                       "this time to the son who had never left."),
@@ -444,6 +491,7 @@ BEATS = [
     {
         "id": "v2-r002-b20", "out": "s20-the-hurt-poured-out.jpeg", "seg": "n10b",
         "window": "101.19-111.74", "wide": True, "jesus": False, "ref": False,
+        "char_refs": ["CAST-REF-V2/father-ref.jpeg", "CAST-REF-V2/elder-ref.jpeg"],
         "locks": ["FATHER", "ELDER", "ESTATE"],
         "narration": ("The older son's hurt poured out. All these years I have "
                       "served you. I never disobeyed you. And you never gave me "
@@ -463,6 +511,7 @@ BEATS = [
     {
         "id": "v2-r002-b21", "out": "s21-lo-these-many-years.jpeg", "seg": "j4",
         "window": "111.74-125.05", "wide": False, "jesus": False, "ref": False,
+        "char_refs": ["CAST-REF-V2/father-ref.jpeg", "CAST-REF-V2/elder-ref.jpeg"],
         "locks": ["FATHER", "ELDER"],
         "narration": ("Lo, these many years do I serve thee... and yet thou never "
                       "gavest me a kid, that I might make merry with my friends. "
@@ -481,6 +530,7 @@ BEATS = [
     {
         "id": "v2-r002-b22", "out": "s22-the-last-words.jpeg", "seg": "n11",
         "window": "125.05-130.17", "wide": True, "jesus": False, "ref": False,
+        "char_refs": ["CAST-REF-V2/father-ref.jpeg", "CAST-REF-V2/elder-ref.jpeg"],
         "locks": ["FATHER", "ELDER", "ESTATE"],
         "narration": ("The father didn't argue with him, either. Jesus gave him "
                       "the last words of the story."),
@@ -499,6 +549,7 @@ BEATS = [
     {
         "id": "v2-r002-b23", "out": "s23-all-that-i-have-is-thine.jpeg", "seg": "j2a",
         "window": "130.17-135.36", "wide": False, "jesus": False, "ref": False,
+        "char_refs": ["CAST-REF-V2/father-ref.jpeg", "CAST-REF-V2/elder-ref.jpeg"],
         "locks": ["FATHER", "ELDER"],
         "narration": "Son, thou art ever with me, and all that I have is thine. (Luke 15:31)",
         "must_show": "close on the father's face saying the tender sentence — all warmth, no rebuke.",
@@ -515,6 +566,7 @@ BEATS = [
     {
         "id": "v2-r002-b24", "out": "s24-the-open-door.jpeg", "seg": "j2b",
         "window": "135.36-146.21", "wide": True, "jesus": False, "ref": False,
+        "char_refs": ["CAST-REF-V2/father-ref.jpeg", "CAST-REF-V2/elder-ref.jpeg"],
         "locks": ["FATHER", "ELDER", "ESTATE"],
         "narration": ("It was meet that we should make merry, and be glad: for "
                       "this thy brother was dead, and is alive again; and was "

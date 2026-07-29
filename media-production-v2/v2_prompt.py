@@ -126,7 +126,11 @@ def assemble(beat, local_locks):
     parts = [STYLE_V2]
     if beat.get("wide"):
         parts.append(WIDE_DEFENSE)
-        parts.append(ANTI_PANEL)
+    # ANTI-PANEL ON EVERY BEAT, not just wide ones (row 2, b18). It used to ride
+    # along with the wide defense line, so tight shots got no panel protection —
+    # and b18, a tight shot, came back with a landscape pasted in above the wall
+    # like a second panel. A panel artifact is not a wide-shot problem.
+    parts.append(ANTI_PANEL)
     for name in beat.get("locks", []):
         block = local_locks.get(name) or CAST_LOCKS.get(name)
         if block is None:
@@ -168,6 +172,11 @@ def check(build_dir, mod):
             fails.append(f"{beat['id']}: NEGATIVE-PROMPT list is banned in V2")
         if beat.get("wide") and ANTI_PANEL not in p:
             fails.append(f"{beat['id']}: wide shot missing the anti-panel clause")
+        # A char_ref that does not exist must fail HERE, not after a credit is spent.
+        for cref in beat.get("char_refs", []):
+            path = cref if os.path.isabs(cref) else os.path.join(build_dir, cref)
+            if not os.path.isfile(path):
+                fails.append(f"{beat['id']}: char_ref missing on disk: {cref}")
     print(f"checked {len(mod.BEATS)} beats in {os.path.basename(build_dir)}")
     for w in warns:
         print(f"  WARN  {w}")
@@ -185,7 +194,8 @@ def dump(build_dir, mod):
             f.write(f"### {beat['id']}  ->  {beat['out']}\n")
             f.write(f"# window {beat['window']}  seg {beat['seg']}  "
                     f"model {beat.get('model', 'Nano Banana Pro')}"
-                    f"{'  REF ' + JESUS_REF if beat.get('ref') else ''}\n")
+                    f"{'  REF ' + JESUS_REF if beat.get('ref') else ''}"
+                    f"{''.join('  CHAR-REF ' + c for c in beat.get('char_refs', []))}\n")
             f.write(assemble(beat, mod.LOCKS) + "\n\n")
     print(f"wrote {out} ({len(mod.BEATS)} prompts)")
 
@@ -207,6 +217,15 @@ def gen(build_dir, mod, only, redo_suffix=""):
                "--out", dest]
         if beat.get("ref"):
             cmd += ["--ref", os.path.join(ROOT, JESUS_REF)]
+        # Character locks by IMAGE (CAST-BIBLE principle). Text locks alone did NOT
+        # hold the elder son across row 2 (s16/s17/s18 came back as three different
+        # men), so a build may point each recurring character at an ACCEPTED still of
+        # its own and every later shot of that character gets it attached.
+        for cref in beat.get("char_refs", []):
+            path = cref if os.path.isabs(cref) else os.path.join(build_dir, cref)
+            if not os.path.isfile(path):
+                raise SystemExit(f"{beat['id']}: char_ref not found: {path}")
+            cmd += ["--ref", path]
         print(f"=== {beat['id']} -> {beat['out']} ===", flush=True)
         r = subprocess.run(cmd, cwd=ROOT)
         print(f"=== {beat['id']} exit={r.returncode} ===", flush=True)
