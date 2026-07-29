@@ -1,0 +1,266 @@
+{
+ "row": 132,
+ "slug": "build-132-forbid-him-not",
+ "v1_dir": "media-production/build-132-forbid-him-not",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "s38",
+   "v1_still": "s1-johns-complaint.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Master, we saw one casting out devils in thy name, and he followeth not us: and we forbad him, because he followeth not us.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 7.604,
+   "seg_end": 9.204,
+   "audio_dur": 7.706,
+   "spoken_dur": 7.324,
+   "seg_dur": 9.204,
+   "timing": [
+    {
+     "text": "Master, we saw one casting out devils in thy name, and he followeth not us: and we forbad him, because he followeth not us.",
+     "start": 0.0,
+     "end": 7.663
+    }
+   ]
+  },
+  {
+   "seg": "n0",
+   "v1_still": "s1-johns-complaint.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "John came to Jesus with a complaint. They'd seen someone driving out demons using Jesus's name \u2014 and the man wasn't one of their group. So they told him to stop.",
+   "seg_start": 9.204,
+   "audio_start": 9.484,
+   "spoken_end": 18.812,
+   "seg_end": 19.532,
+   "audio_dur": 9.796,
+   "spoken_dur": 9.328,
+   "seg_dur": 10.328,
+   "timing": [
+    {
+     "text": "John came to Jesus with a complaint.",
+     "start": 0.0,
+     "end": 1.869
+    },
+    {
+     "text": "They'd seen someone driving out demons using Jesus's name \u2014 and the man wasn't one of their group.",
+     "start": 1.869,
+     "end": 7.721
+    },
+    {
+     "text": "So they told him to stop.",
+     "start": 7.721,
+     "end": 9.752
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s4-defensive-loyalty.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "John thought he was protecting the cause. The man wasn't with them, so he shouldn't be using the name.",
+   "seg_start": 19.532,
+   "audio_start": 19.812,
+   "spoken_end": 24.62,
+   "seg_end": 25.34,
+   "audio_dur": 5.198,
+   "spoken_dur": 4.808,
+   "seg_dur": 5.808,
+   "timing": [
+    {
+     "text": "John thought he was protecting the cause.",
+     "start": 0.0,
+     "end": 1.834
+    },
+    {
+     "text": "The man wasn't with them, so he shouldn't be using the name.",
+     "start": 1.834,
+     "end": 5.155
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s5-the-correction.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus didn't take John's side. He went after the instinct underneath the complaint.",
+   "seg_start": 25.34,
+   "audio_start": 25.62,
+   "spoken_end": 29.756,
+   "seg_end": 30.476,
+   "audio_dur": 4.598,
+   "spoken_dur": 4.136,
+   "seg_dur": 5.136,
+   "timing": [
+    {
+     "text": "Jesus didn't take John's side.",
+     "start": 0.0,
+     "end": 1.695
+    },
+    {
+     "text": "He went after the instinct underneath the complaint.",
+     "start": 1.695,
+     "end": 4.551
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s6-forbid-him-not.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Forbid him not: for there is no man which shall do a miracle in my name, that can lightly speak evil of me. For he that is not against us is on our part.",
+   "seg_start": 30.476,
+   "audio_start": 30.756,
+   "spoken_end": 41.57,
+   "seg_end": 43.17,
+   "audio_dur": 11.233,
+   "spoken_dur": 10.813,
+   "seg_dur": 12.693,
+   "timing": [
+    {
+     "text": "Forbid him not: for there is no man which shall do a miracle in my name, that can lightly speak evil of me.",
+     "start": 0.0,
+     "end": 7.419
+    },
+    {
+     "text": "For he that is not against us is on our part.",
+     "start": 7.419,
+     "end": 11.192
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s7-the-wide-circle.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Don't stop him, He said. Nobody works a miracle in My name and then turns around and speaks against Me. Whoever isn't against us is on our side.",
+   "seg_start": 43.17,
+   "audio_start": 43.45,
+   "spoken_end": 52.683,
+   "seg_end": 53.403,
+   "audio_dur": 9.639,
+   "spoken_dur": 9.234,
+   "seg_dur": 10.234,
+   "timing": [
+    {
+     "text": "Don't stop him, He said.",
+     "start": 0.0,
+     "end": 1.428
+    },
+    {
+     "text": "Nobody works a miracle in My name and then turns around and speaks against Me.",
+     "start": 1.428,
+     "end": 6.293
+    },
+    {
+     "text": "Whoever isn't against us is on our side.",
+     "start": 6.293,
+     "end": 9.613
+    }
+   ]
+  },
+  {
+   "seg": "jv41",
+   "v1_still": "s8-a-cup-of-water.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "For whosoever shall give you a cup of water to drink in my name, because ye belong to Christ, verily I say unto you, he shall not lose his reward.",
+   "seg_start": 53.403,
+   "audio_start": 53.683,
+   "spoken_end": 63.858,
+   "seg_end": 65.458,
+   "audio_dur": 10.475,
+   "spoken_dur": 10.174,
+   "seg_dur": 12.054,
+   "timing": [
+    {
+     "text": "For whosoever shall give you a cup of water to drink in my name, because ye belong to Christ, verily I say unto you, he shall not lose his reward.",
+     "start": 0.0,
+     "end": 10.449
+    }
+   ]
+  },
+  {
+   "seg": "n3a",
+   "v1_still": "s8-a-cup-of-water.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Whoever gives a cup of water in His name won't lose his reward.",
+   "seg_start": 65.458,
+   "audio_start": 65.738,
+   "spoken_end": 68.756,
+   "seg_end": 69.476,
+   "audio_dur": 3.422,
+   "spoken_dur": 3.019,
+   "seg_dur": 4.019,
+   "timing": [
+    {
+     "text": "Whoever gives a cup of water in His name won't lose his reward.",
+     "start": 0.0,
+     "end": 3.39
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s10-many-hands-one-name.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The work isn't about belonging to a team \u2014 it's about Him.",
+   "seg_start": 69.476,
+   "audio_start": 69.756,
+   "spoken_end": 73.136,
+   "seg_end": 73.856,
+   "audio_dur": 3.788,
+   "spoken_dur": 3.38,
+   "seg_dur": 4.38,
+   "timing": [
+    {
+     "text": "The work isn't about belonging to a team \u2014 it's about Him.",
+     "start": 0.0,
+     "end": 3.762
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s9-john-understands.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "John learned a lesson that day: the kingdom is bigger than the inner circle.",
+   "seg_start": 73.856,
+   "audio_start": 74.136,
+   "spoken_end": 78.109,
+   "seg_end": 78.829,
+   "audio_dur": 4.362,
+   "spoken_dur": 3.973,
+   "seg_dur": 4.973,
+   "timing": [
+    {
+     "text": "John learned a lesson that day: the kingdom is bigger than the inner circle.",
+     "start": 0.0,
+     "end": 4.319
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "Don't draw the circle too small. Whoever works in His name is on your side.",
+  "seg_start": 78.829,
+  "audio_start": 79.109,
+  "seg_dur": 6.691
+ },
+ "total": 85.52
+}

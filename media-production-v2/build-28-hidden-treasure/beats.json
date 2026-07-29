@@ -1,0 +1,360 @@
+{
+ "row": 28,
+ "slug": "build-28-hidden-treasure",
+ "v1_dir": "media-production/build-28-hidden-treasure",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus once told a very short story \u2014 about a man, and a field.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 4.493,
+   "seg_end": 5.143,
+   "audio_dur": 4.598,
+   "spoken_dur": 4.213,
+   "seg_dur": 5.143,
+   "timing": [
+    {
+     "text": "Jesus once told a very short story \u2014 about a man, and a field.",
+     "start": 0.0,
+     "end": 4.551
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s1.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He was a hired worker, out digging in a field that wasn't even his own.",
+   "seg_start": 5.143,
+   "audio_start": 5.423,
+   "spoken_end": 9.208,
+   "seg_end": 9.858,
+   "audio_dur": 4.127,
+   "spoken_dur": 3.785,
+   "seg_dur": 4.715,
+   "timing": [
+    {
+     "text": "He was a hired worker, out digging in a field that wasn't even his own.",
+     "start": 0.0,
+     "end": 4.087
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And on one ordinary day, his spade struck something hard, buried in the ground.",
+   "seg_start": 9.858,
+   "audio_start": 10.138,
+   "spoken_end": 14.22,
+   "seg_end": 14.87,
+   "audio_dur": 4.493,
+   "spoken_dur": 4.081,
+   "seg_dur": 5.011,
+   "timing": [
+    {
+     "text": "And on one ordinary day, his spade struck something hard, buried in the ground.",
+     "start": 0.0,
+     "end": 4.458
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He cleared away the dirt \u2014 and there it was. A treasure. Hidden, forgotten, and worth more than he had ever seen in his life.",
+   "seg_start": 14.87,
+   "audio_start": 15.15,
+   "spoken_end": 23.623,
+   "seg_end": 24.273,
+   "audio_dur": 9.012,
+   "spoken_dur": 8.473,
+   "seg_dur": 9.403,
+   "timing": [
+    {
+     "text": "He cleared away the dirt \u2014 and there it was.",
+     "start": 0.0,
+     "end": 2.705
+    },
+    {
+     "text": "A treasure.",
+     "start": 2.705,
+     "end": 3.82
+    },
+    {
+     "text": "Hidden, forgotten, and worth more than he had ever seen in his life.",
+     "start": 3.82,
+     "end": 8.963
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "His heart pounded. Quickly, quietly, he covered it back over \u2014 and told no one.",
+   "seg_start": 24.273,
+   "audio_start": 24.553,
+   "spoken_end": 29.57,
+   "seg_end": 30.22,
+   "audio_dur": 5.433,
+   "spoken_dur": 5.018,
+   "seg_dur": 5.948,
+   "timing": [
+    {
+     "text": "His heart pounded.",
+     "start": 0.0,
+     "end": 1.08
+    },
+    {
+     "text": "Quickly, quietly, he covered it back over \u2014 and told no one.",
+     "start": 1.08,
+     "end": 5.387
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s4.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Again, the kingdom of heaven is like unto treasure hid in a field; the which when a man hath found, he hideth,",
+   "seg_start": 30.22,
+   "audio_start": 30.5,
+   "spoken_end": 37.693,
+   "seg_end": 39.293,
+   "audio_dur": 7.471,
+   "spoken_dur": 7.193,
+   "seg_dur": 9.073,
+   "timing": [
+    {
+     "text": "Again, the kingdom of heaven is like unto treasure hid in a field; the which when a man hath found, he hideth,",
+     "start": 0.0,
+     "end": 7.43
+    }
+   ]
+  },
+  {
+   "seg": "j1b",
+   "v1_still": "s5.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "and for joy thereof goeth and selleth all that he hath, and buyeth that field.",
+   "seg_start": 39.293,
+   "audio_start": 39.573,
+   "spoken_end": 44.599,
+   "seg_end": 46.199,
+   "audio_dur": 5.433,
+   "spoken_dur": 5.025,
+   "seg_dur": 6.905,
+   "timing": [
+    {
+     "text": "and for joy thereof goeth and selleth all that he hath, and buyeth that field.",
+     "start": 0.0,
+     "end": 5.387
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Did you catch what he did? He went home and sold everything he owned.",
+   "seg_start": 46.199,
+   "audio_start": 46.479,
+   "spoken_end": 50.14,
+   "seg_end": 50.79,
+   "audio_dur": 4.075,
+   "spoken_dur": 3.661,
+   "seg_dur": 4.591,
+   "timing": [
+    {
+     "text": "Did you catch what he did?",
+     "start": 0.0,
+     "end": 1.347
+    },
+    {
+     "text": "He went home and sold everything he owned.",
+     "start": 1.347,
+     "end": 4.04
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s5.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "His house. His tools. All of it \u2014 gladly, without a second thought.",
+   "seg_start": 50.79,
+   "audio_start": 51.07,
+   "spoken_end": 55.202,
+   "seg_end": 55.852,
+   "audio_dur": 4.598,
+   "spoken_dur": 4.132,
+   "seg_dur": 5.062,
+   "timing": [
+    {
+     "text": "His house.",
+     "start": 0.0,
+     "end": 0.639
+    },
+    {
+     "text": "His tools.",
+     "start": 0.639,
+     "end": 1.463
+    },
+    {
+     "text": "All of it \u2014 gladly, without a second thought.",
+     "start": 1.463,
+     "end": 4.551
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s6.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And with every coin he had, he bought that one field for himself.",
+   "seg_start": 55.852,
+   "audio_start": 56.132,
+   "spoken_end": 59.793,
+   "seg_end": 60.443,
+   "audio_dur": 4.18,
+   "spoken_dur": 3.661,
+   "seg_dur": 4.591,
+   "timing": [
+    {
+     "text": "And with every coin he had, he bought that one field for himself.",
+     "start": 0.0,
+     "end": 4.133
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s6.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Because he knew what was waiting under the soil. That field was worth more than everything else he owned, put together.",
+   "seg_start": 60.443,
+   "audio_start": 60.723,
+   "spoken_end": 66.941,
+   "seg_end": 67.591,
+   "audio_dur": 6.583,
+   "spoken_dur": 6.219,
+   "seg_dur": 7.149,
+   "timing": [
+    {
+     "text": "Because he knew what was waiting under the soil.",
+     "start": 0.0,
+     "end": 2.183
+    },
+    {
+     "text": "That field was worth more than everything else he owned, put together.",
+     "start": 2.183,
+     "end": 6.548
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s7.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That, Jesus said, is what God's kingdom is like.",
+   "seg_start": 67.591,
+   "audio_start": 67.871,
+   "spoken_end": 70.52,
+   "seg_end": 71.17,
+   "audio_dur": 3.161,
+   "spoken_dur": 2.649,
+   "seg_dur": 3.579,
+   "timing": [
+    {
+     "text": "That, Jesus said, is what God's kingdom is like.",
+     "start": 0.0,
+     "end": 3.111
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s7.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "At first it can look like an ordinary field. But once you catch sight of the treasure in it \u2014 once you truly see who Jesus is \u2014 nothing else even compares.",
+   "seg_start": 71.17,
+   "audio_start": 71.45,
+   "spoken_end": 81.184,
+   "seg_end": 81.834,
+   "audio_dur": 10.109,
+   "spoken_dur": 9.734,
+   "seg_dur": 10.664,
+   "timing": [
+    {
+     "text": "At first it can look like an ordinary field.",
+     "start": 0.0,
+     "end": 2.38
+    },
+    {
+     "text": "But once you catch sight of the treasure in it \u2014 once you truly see who Jesus is \u2014 nothing else even compares.",
+     "start": 2.38,
+     "end": 10.077
+    }
+   ]
+  },
+  {
+   "seg": "n11",
+   "v1_still": "s7.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And you don't give everything up sadly. You do it out of pure joy \u2014 because you've found the one thing worth having everything else.",
+   "seg_start": 81.834,
+   "audio_start": 82.114,
+   "spoken_end": 89.548,
+   "seg_end": 90.198,
+   "audio_dur": 7.837,
+   "spoken_dur": 7.434,
+   "seg_dur": 8.364,
+   "timing": [
+    {
+     "text": "And you don't give everything up sadly.",
+     "start": 0.0,
+     "end": 2.136
+    },
+    {
+     "text": "You do it out of pure joy \u2014 because you've found the one thing worth having everything else.",
+     "start": 2.136,
+     "end": 7.802
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "The man sold all he had \u2014 and called it the best trade of his life. If you have found the treasure, what is he worth to you?",
+  "seg_start": 90.198,
+  "audio_start": 90.478,
+  "seg_dur": 9.147
+ },
+ "total": 99.345
+}

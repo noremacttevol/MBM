@@ -1,0 +1,525 @@
+{
+ "row": 50,
+ "slug": "build-50-noblemans-son",
+ "v1_dir": "media-production/build-50-noblemans-son",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-cana-again.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus came back to Cana, the little town where he had turned the water into wine. And word of it was spreading fast.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 6.722,
+   "seg_end": 7.372,
+   "audio_dur": 6.87,
+   "spoken_dur": 6.442,
+   "seg_dur": 7.372,
+   "timing": [
+    {
+     "text": "Jesus came back to Cana, the little town where he had turned the water into wine.",
+     "start": 0.0,
+     "end": 4.423
+    },
+    {
+     "text": "And word of it was spreading fast.",
+     "start": 4.423,
+     "end": 6.827
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-the-sick-son.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "About twenty miles away, in Capernaum, a royal official sat by his son's bed. A man of rank, used to giving orders and being obeyed. And none of it was any use now. His boy was burning with fever, and the doctors had run out of answers.",
+   "seg_start": 7.372,
+   "audio_start": 7.652,
+   "spoken_end": 21.406,
+   "seg_end": 22.056,
+   "audio_dur": 14.158,
+   "spoken_dur": 13.754,
+   "seg_dur": 14.684,
+   "timing": [
+    {
+     "text": "About twenty miles away, in Capernaum, a royal official sat by his son's bed.",
+     "start": 0.0,
+     "end": 4.354
+    },
+    {
+     "text": "A man of rank, used to giving orders and being obeyed.",
+     "start": 4.354,
+     "end": 7.883
+    },
+    {
+     "text": "And none of it was any use now.",
+     "start": 7.883,
+     "end": 9.938
+    },
+    {
+     "text": "His boy was burning with fever, and the doctors had run out of answers.",
+     "start": 9.938,
+     "end": 14.118
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-the-journey.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then he heard the healer was in Cana, a full day's walk uphill. So this powerful man dropped everything and went, hurrying on foot to find a village carpenter's son, because he had nowhere else left to turn.",
+   "seg_start": 22.056,
+   "audio_start": 22.336,
+   "spoken_end": 34.956,
+   "seg_end": 35.606,
+   "audio_dur": 13.035,
+   "spoken_dur": 12.62,
+   "seg_dur": 13.55,
+   "timing": [
+    {
+     "text": "Then he heard the healer was in Cana, a full day's walk uphill.",
+     "start": 0.0,
+     "end": 4.261
+    },
+    {
+     "text": "So this powerful man dropped everything and went, hurrying on foot to find a village carpenter's son, because he had nowhere else left to turn.",
+     "start": 4.261,
+     "end": 13.003
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-come-down.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He found Jesus and begged him to come down to Capernaum and heal his boy before it was too late. A father with no pride left, only fear.",
+   "seg_start": 35.606,
+   "audio_start": 35.886,
+   "spoken_end": 43.996,
+   "seg_end": 44.646,
+   "audio_dur": 8.542,
+   "spoken_dur": 8.11,
+   "seg_dur": 9.04,
+   "timing": [
+    {
+     "text": "He found Jesus and begged him to come down to Capernaum and heal his boy before it was too late.",
+     "start": 0.0,
+     "end": 5.004
+    },
+    {
+     "text": "A father with no pride left, only fear.",
+     "start": 5.004,
+     "end": 8.499
+    }
+   ]
+  },
+  {
+   "seg": "jv48",
+   "v1_still": "s5-signs-and-wonders.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Except ye see signs and wonders, ye will not believe.",
+   "seg_start": 44.646,
+   "audio_start": 44.926,
+   "spoken_end": 47.734,
+   "seg_end": 49.334,
+   "audio_dur": 3.187,
+   "spoken_dur": 2.808,
+   "seg_dur": 4.688,
+   "timing": [
+    {
+     "text": "Except ye see signs and wonders, ye will not believe.",
+     "start": 0.0,
+     "end": 3.158
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-signs-and-wonders.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "It can sound like a scolding, but it was not. Jesus was reaching past the man's panic for something deeper. He was inviting him to trust without needing a show first.",
+   "seg_start": 49.334,
+   "audio_start": 49.614,
+   "spoken_end": 59.705,
+   "seg_end": 60.355,
+   "audio_dur": 10.475,
+   "spoken_dur": 10.091,
+   "seg_dur": 11.021,
+   "timing": [
+    {
+     "text": "It can sound like a scolding, but it was not.",
+     "start": 0.0,
+     "end": 2.705
+    },
+    {
+     "text": "Jesus was reaching past the man's panic for something deeper.",
+     "start": 2.705,
+     "end": 6.792
+    },
+    {
+     "text": "He was inviting him to trust without needing a show first.",
+     "start": 6.792,
+     "end": 10.449
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6-my-child-die.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The father does not argue about it. He does not defend himself. He just says it again, plain and breaking.",
+   "seg_start": 60.355,
+   "audio_start": 60.635,
+   "spoken_end": 66.883,
+   "seg_end": 67.533,
+   "audio_dur": 6.635,
+   "spoken_dur": 6.248,
+   "seg_dur": 7.178,
+   "timing": [
+    {
+     "text": "The father does not argue about it.",
+     "start": 0.0,
+     "end": 1.881
+    },
+    {
+     "text": "He does not defend himself.",
+     "start": 1.881,
+     "end": 3.692
+    },
+    {
+     "text": "He just says it again, plain and breaking.",
+     "start": 3.692,
+     "end": 6.594
+    }
+   ]
+  },
+  {
+   "seg": "s49",
+   "v1_still": "s6-my-child-die.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Sir, come down ere my child die.",
+   "seg_start": 67.533,
+   "audio_start": 67.813,
+   "spoken_end": 69.815,
+   "seg_end": 71.415,
+   "audio_dur": 2.351,
+   "spoken_dur": 2.002,
+   "seg_dur": 3.882,
+   "timing": [
+    {
+     "text": "Sir, come down ere my child die.",
+     "start": 0.0,
+     "end": 2.322
+    }
+   ]
+  },
+  {
+   "seg": "n6b",
+   "v1_still": "s6-my-child-die.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That is the whole prayer. No argument, no explaining himself, nothing clever. Just a father running out of hours.",
+   "seg_start": 71.415,
+   "audio_start": 71.695,
+   "spoken_end": 78.943,
+   "seg_end": 79.593,
+   "audio_dur": 7.654,
+   "spoken_dur": 7.248,
+   "seg_dur": 8.178,
+   "timing": [
+    {
+     "text": "That is the whole prayer.",
+     "start": 0.0,
+     "end": 1.393
+    },
+    {
+     "text": "No argument, no explaining himself, nothing clever.",
+     "start": 1.393,
+     "end": 5.364
+    },
+    {
+     "text": "Just a father running out of hours.",
+     "start": 5.364,
+     "end": 7.616
+    }
+   ]
+  },
+  {
+   "seg": "jv50",
+   "v1_still": "s7-thy-son-liveth.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Go thy way; thy son liveth.",
+   "seg_start": 79.593,
+   "audio_start": 79.873,
+   "spoken_end": 81.66,
+   "seg_end": 83.26,
+   "audio_dur": 2.325,
+   "spoken_dur": 1.787,
+   "seg_dur": 3.667,
+   "timing": [
+    {
+     "text": "Go thy way; thy son liveth.",
+     "start": 0.0,
+     "end": 2.276
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s7-thy-son-liveth.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "No trip to Capernaum. No hand laid on the boy. Just a word, spoken over a sick child a day's journey away. And the man believed him, turned, and started home.",
+   "seg_start": 83.26,
+   "audio_start": 83.54,
+   "spoken_end": 94.356,
+   "seg_end": 95.006,
+   "audio_dur": 11.233,
+   "spoken_dur": 10.816,
+   "seg_dur": 11.746,
+   "timing": [
+    {
+     "text": "No trip to Capernaum.",
+     "start": 0.0,
+     "end": 1.265
+    },
+    {
+     "text": "No hand laid on the boy.",
+     "start": 1.265,
+     "end": 3.146
+    },
+    {
+     "text": "Just a word, spoken over a sick child a day's journey away.",
+     "start": 3.146,
+     "end": 7.314
+    },
+    {
+     "text": "And the man believed him, turned, and started home.",
+     "start": 7.314,
+     "end": 11.192
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s8-the-road-home.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Think about that walk. A whole day on the road with no proof in his hands, nothing to hold but a stranger's word that his son was already well.",
+   "seg_start": 95.006,
+   "audio_start": 95.286,
+   "spoken_end": 103.153,
+   "seg_end": 103.803,
+   "audio_dur": 8.307,
+   "spoken_dur": 7.867,
+   "seg_dur": 8.797,
+   "timing": [
+    {
+     "text": "Think about that walk.",
+     "start": 0.0,
+     "end": 1.219
+    },
+    {
+     "text": "A whole day on the road with no proof in his hands, nothing to hold but a stranger's word that his son was already well.",
+     "start": 1.219,
+     "end": 8.266
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s9-servants-meet-him.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The next day, still on the road, he saw his own servants running toward him.",
+   "seg_start": 103.803,
+   "audio_start": 104.083,
+   "spoken_end": 107.66,
+   "seg_end": 108.31,
+   "audio_dur": 3.944,
+   "spoken_dur": 3.578,
+   "seg_dur": 4.508,
+   "timing": [
+    {
+     "text": "The next day, still on the road, he saw his own servants running toward him.",
+     "start": 0.0,
+     "end": 3.901
+    }
+   ]
+  },
+  {
+   "seg": "s51",
+   "v1_still": "s9-servants-meet-him.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Thy son liveth.",
+   "seg_start": 108.31,
+   "audio_start": 108.59,
+   "spoken_end": 109.541,
+   "seg_end": 111.141,
+   "audio_dur": 1.437,
+   "spoken_dur": 0.95,
+   "seg_dur": 2.83,
+   "timing": [
+    {
+     "text": "Thy son liveth.",
+     "start": 0.0,
+     "end": 1.393
+    }
+   ]
+  },
+  {
+   "seg": "n9b",
+   "v1_still": "s9-servants-meet-him.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Your boy is alive. The very same two words Jesus had said to him a day before, coming back to him now from his own servants' mouths, out of breath from running to say them.",
+   "seg_start": 111.141,
+   "audio_start": 111.421,
+   "spoken_end": 122.409,
+   "seg_end": 123.059,
+   "audio_dur": 11.416,
+   "spoken_dur": 10.988,
+   "seg_dur": 11.918,
+   "timing": [
+    {
+     "text": "Your boy is alive.",
+     "start": 0.0,
+     "end": 1.161
+    },
+    {
+     "text": "The very same two words Jesus had said to him a day before, coming back to him now from his own servants' mouths, out of breath from running to say them.",
+     "start": 1.161,
+     "end": 11.378
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s10-the-seventh-hour.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So he asked them exactly when the boy had started to mend.",
+   "seg_start": 123.059,
+   "audio_start": 123.339,
+   "spoken_end": 126.243,
+   "seg_end": 126.893,
+   "audio_dur": 3.344,
+   "spoken_dur": 2.904,
+   "seg_dur": 3.834,
+   "timing": [
+    {
+     "text": "So he asked them exactly when the boy had started to mend.",
+     "start": 0.0,
+     "end": 3.297
+    }
+   ]
+  },
+  {
+   "seg": "s52",
+   "v1_still": "s10-the-seventh-hour.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Yesterday at the seventh hour the fever left him.",
+   "seg_start": 126.893,
+   "audio_start": 127.173,
+   "spoken_end": 129.73,
+   "seg_end": 131.33,
+   "audio_dur": 2.926,
+   "spoken_dur": 2.557,
+   "seg_dur": 4.437,
+   "timing": [
+    {
+     "text": "Yesterday at the seventh hour the fever left him.",
+     "start": 0.0,
+     "end": 2.879
+    }
+   ]
+  },
+  {
+   "seg": "n10b",
+   "v1_still": "s10-the-seventh-hour.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And he knew that hour. It was the exact hour Jesus had stood in front of him and said, thy son liveth. It had already been done while he was still walking.",
+   "seg_start": 131.33,
+   "audio_start": 131.61,
+   "spoken_end": 140.46,
+   "seg_end": 141.11,
+   "audio_dur": 9.221,
+   "spoken_dur": 8.85,
+   "seg_dur": 9.78,
+   "timing": [
+    {
+     "text": "And he knew that hour.",
+     "start": 0.0,
+     "end": 1.149
+    },
+    {
+     "text": "It was the exact hour Jesus had stood in front of him and said, thy son liveth.",
+     "start": 1.149,
+     "end": 6.432
+    },
+    {
+     "text": "It had already been done while he was still walking.",
+     "start": 6.432,
+     "end": 9.195
+    }
+   ]
+  },
+  {
+   "seg": "n11",
+   "v1_still": "s11-his-whole-house.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And that settled it. The man believed, and his whole household believed with him. The word had been true the entire way home, working quietly while he walked and could not see it.",
+   "seg_start": 141.11,
+   "audio_start": 141.39,
+   "spoken_end": 151.459,
+   "seg_end": 152.109,
+   "audio_dur": 10.527,
+   "spoken_dur": 10.069,
+   "seg_dur": 10.999,
+   "timing": [
+    {
+     "text": "And that settled it.",
+     "start": 0.0,
+     "end": 1.08
+    },
+    {
+     "text": "The man believed, and his whole household believed with him.",
+     "start": 1.08,
+     "end": 4.621
+    },
+    {
+     "text": "The word had been true the entire way home, working quietly while he walked and could not see it.",
+     "start": 4.621,
+     "end": 10.495
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He healed a boy he never touched, with a word that was already true before anyone could prove it. If his word can carry a whole day's journey, how far do you think it can reach? What would you trust him with tonight?",
+  "seg_start": 152.109,
+  "audio_start": 152.389,
+  "seg_dur": 14.502
+ },
+ "total": 166.61
+}

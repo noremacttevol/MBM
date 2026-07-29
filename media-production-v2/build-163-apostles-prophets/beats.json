@@ -1,0 +1,281 @@
+{
+ "row": 163,
+ "slug": "build-163-apostles-prophets",
+ "v1_dir": "media-production/build-163-apostles-prophets",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-once-strangers.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The people Paul was writing to had once been outsiders \u2014 foreigners, strangers, on the far edge of God's promises, with no place at the table and no share in the family.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 10.517,
+   "seg_end": 11.167,
+   "audio_dur": 10.632,
+   "spoken_dur": 10.237,
+   "seg_dur": 11.167,
+   "timing": [
+    {
+     "text": "The people Paul was writing to had once been outsiders \u2014 foreigners, strangers, on the far edge of God's promises, with no place at the table and no share in the family.",
+     "start": 0.0,
+     "end": 10.632
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-brought-near.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But something had changed everything. The door had been thrown open, and those who were far off had been brought near \u2014 no longer guests to be tolerated, but family to be embraced.",
+   "seg_start": 11.167,
+   "audio_start": 11.447,
+   "spoken_end": 21.321,
+   "seg_end": 21.971,
+   "audio_dur": 10.214,
+   "spoken_dur": 9.874,
+   "seg_dur": 10.804,
+   "timing": [
+    {
+     "text": "But something had changed everything.",
+     "start": 0.0,
+     "end": 2.111
+    },
+    {
+     "text": "The door had been thrown open, and those who were far off had been brought near \u2014 no longer guests to be tolerated, but family to be embraced.",
+     "start": 2.111,
+     "end": 10.214
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-household-of-god.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Paul reached for a beautiful picture: Not a crowd of strangers passing through, but sons and daughters at home, belonging.",
+   "seg_start": 21.971,
+   "audio_start": 22.251,
+   "spoken_end": 29.085,
+   "seg_end": 29.735,
+   "audio_dur": 7.184,
+   "spoken_dur": 6.834,
+   "seg_dur": 7.764,
+   "timing": [
+    {
+     "text": "Paul reached for a beautiful picture: Not a crowd of strangers passing through, but sons and daughters at home, belonging.",
+     "start": 0.0,
+     "end": 7.184
+    }
+   ]
+  },
+  {
+   "seg": "kv19",
+   "v1_still": "s4-fellowcitizens.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Now therefore ye are no more strangers and foreigners, but fellowcitizens with the saints, and of the household of God;",
+   "seg_start": 29.735,
+   "audio_start": 30.015,
+   "spoken_end": 36.405,
+   "seg_end": 38.005,
+   "audio_dur": 6.713,
+   "spoken_dur": 6.391,
+   "seg_dur": 8.271,
+   "timing": [
+    {
+     "text": "Now therefore ye are no more strangers and foreigners, but fellowcitizens with the saints, and of the household of God;",
+     "start": 0.0,
+     "end": 6.713
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-fellowcitizens.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "But a household needs a house \u2014 and a house needs to be built, and built right. So Paul changed the picture from a family to a building, the dwelling place of God among his people.",
+   "seg_start": 38.005,
+   "audio_start": 38.285,
+   "spoken_end": 48.085,
+   "seg_end": 48.735,
+   "audio_dur": 10.214,
+   "spoken_dur": 9.799,
+   "seg_dur": 10.729,
+   "timing": [
+    {
+     "text": "But a household needs a house \u2014 and a house needs to be built, and built right.",
+     "start": 0.0,
+     "end": 4.508
+    },
+    {
+     "text": "So Paul changed the picture from a family to a building, the dwelling place of God among his people.",
+     "start": 4.508,
+     "end": 10.214
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-the-foundation.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Every real building rests on a foundation. And this one, Paul said, was laid on the apostles and the prophets \u2014 men God had called and taught, whose witness became the solid ground the whole structure would stand on.",
+   "seg_start": 48.735,
+   "audio_start": 49.015,
+   "spoken_end": 62.204,
+   "seg_end": 62.854,
+   "audio_dur": 13.558,
+   "spoken_dur": 13.19,
+   "seg_dur": 14.12,
+   "timing": [
+    {
+     "text": "Every real building rests on a foundation.",
+     "start": 0.0,
+     "end": 2.648
+    },
+    {
+     "text": "And this one, Paul said, was laid on the apostles and the prophets \u2014 men God had called and taught, whose witness became the solid ground the whole structure would stand on.",
+     "start": 2.648,
+     "end": 13.558
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6-the-cornerstone.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And at the most important place of all \u2014 the cornerstone, the stone that sets the angle, holds two walls together, and keeps the whole building square and true \u2014 stood Christ himself. Everything is lined up to him.",
+   "seg_start": 62.854,
+   "audio_start": 63.134,
+   "spoken_end": 76.867,
+   "seg_end": 77.517,
+   "audio_dur": 14.106,
+   "spoken_dur": 13.732,
+   "seg_dur": 14.662,
+   "timing": [
+    {
+     "text": "And at the most important place of all \u2014 the cornerstone, the stone that sets the angle, holds two walls together, and keeps the whole building square and true \u2014 stood Christ himself.",
+     "start": 0.0,
+     "end": 12.119
+    },
+    {
+     "text": "Everything is lined up to him.",
+     "start": 12.119,
+     "end": 14.106
+    }
+   ]
+  },
+  {
+   "seg": "kv20",
+   "v1_still": "s7-built-together.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And are built upon the foundation of the apostles and prophets, Jesus Christ himself being the chief corner stone;",
+   "seg_start": 77.517,
+   "audio_start": 77.797,
+   "spoken_end": 84.313,
+   "seg_end": 85.913,
+   "audio_dur": 6.87,
+   "spoken_dur": 6.517,
+   "seg_dur": 8.397,
+   "timing": [
+    {
+     "text": "And are built upon the foundation of the apostles and prophets, Jesus Christ himself being the chief corner stone;",
+     "start": 0.0,
+     "end": 6.87
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s7-built-together.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "So the church was never meant to be a loose, shapeless crowd. It has a design \u2014 a foundation of apostles and prophets, a cornerstone that is Christ, and living people fitted together into a home for God. There is a blueprint.",
+   "seg_start": 85.913,
+   "audio_start": 86.193,
+   "spoken_end": 99.519,
+   "seg_end": 100.169,
+   "audio_dur": 13.74,
+   "spoken_dur": 13.326,
+   "seg_dur": 14.256,
+   "timing": [
+    {
+     "text": "So the church was never meant to be a loose, shapeless crowd.",
+     "start": 0.0,
+     "end": 3.759
+    },
+    {
+     "text": "It has a design \u2014 a foundation of apostles and prophets, a cornerstone that is Christ, and living people fitted together into a home for God.",
+     "start": 3.759,
+     "end": 12.446
+    },
+    {
+     "text": "There is a blueprint.",
+     "start": 12.446,
+     "end": 13.74
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s8-you-belong.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And the best part is where that leaves you. You are not a stranger at the door. In this house you have a place, fitted in and belonging, part of what God is building. So the only question is a hopeful one. When he offers you a place in it, will you come inside?",
+   "seg_start": 100.169,
+   "audio_start": 100.449,
+   "spoken_end": 116.064,
+   "seg_end": 116.714,
+   "audio_dur": 15.961,
+   "spoken_dur": 15.615,
+   "seg_dur": 16.545,
+   "timing": [
+    {
+     "text": "And the best part is where that leaves you.",
+     "start": 0.0,
+     "end": 2.67
+    },
+    {
+     "text": "You are not a stranger at the door.",
+     "start": 2.67,
+     "end": 4.844
+    },
+    {
+     "text": "In this house you have a place, fitted in and belonging, part of what God is building.",
+     "start": 4.844,
+     "end": 10.185
+    },
+    {
+     "text": "So the only question is a hopeful one.",
+     "start": 10.185,
+     "end": 12.545
+    },
+    {
+     "text": "When he offers you a place in it, will you come inside?",
+     "start": 12.545,
+     "end": 15.961
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "You are no longer a stranger, but part of the household of God \u2014 a building laid on apostles and prophets, with Christ the cornerstone holding it all together. When he offers you a place in it, will you come inside?",
+  "seg_start": 116.714,
+  "audio_start": 116.994,
+  "seg_dur": 14.684
+ },
+ "total": 131.399
+}

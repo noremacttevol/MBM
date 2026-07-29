@@ -1,0 +1,209 @@
+{
+ "row": 188,
+ "slug": "build-188-be-ye-therefore-perfect",
+ "v1_dir": "media-production/build-188-be-ye-therefore-perfect",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-a-love-never-heard.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus sat on the hillside and taught the crowds a kind of love they had never heard before \u2014 not just for friends, but for enemies too.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 8.218,
+   "seg_end": 8.868,
+   "audio_dur": 8.307,
+   "spoken_dur": 7.938,
+   "seg_dur": 8.868,
+   "timing": [
+    {
+     "text": "Jesus sat on the hillside and taught the crowds a kind of love they had never heard before \u2014 not just for friends, but for enemies too.",
+     "start": 0.0,
+     "end": 8.266
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s2-love-your-enemies.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you;",
+   "seg_start": 8.868,
+   "audio_start": 9.148,
+   "spoken_end": 20.549,
+   "seg_end": 22.149,
+   "audio_dur": 11.781,
+   "spoken_dur": 11.4,
+   "seg_dur": 13.28,
+   "timing": [
+    {
+     "text": "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you;",
+     "start": 0.0,
+     "end": 11.749
+    }
+   ]
+  },
+  {
+   "seg": "n0b",
+   "v1_still": "s2-love-your-enemies.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Do good to the ones who hate you, and pray for the people who use you badly. Not put up with them. Not stay out of their way. Love them, and mean it.",
+   "seg_start": 22.149,
+   "audio_start": 22.429,
+   "spoken_end": 32.021,
+   "seg_end": 32.671,
+   "audio_dur": 10.057,
+   "spoken_dur": 9.592,
+   "seg_dur": 10.522,
+   "timing": [
+    {
+     "text": "Do good to the ones who hate you, and pray for the people who use you badly.",
+     "start": 0.0,
+     "end": 4.052
+    },
+    {
+     "text": "Not put up with them.",
+     "start": 4.052,
+     "end": 5.851
+    },
+    {
+     "text": "Not stay out of their way.",
+     "start": 5.851,
+     "end": 7.674
+    },
+    {
+     "text": "Love them, and mean it.",
+     "start": 7.674,
+     "end": 10.031
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s3-the-mixed-crowd.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "That ye may be the children of your Father which is in heaven: for he maketh his sun to rise on the evil and on the good, and sendeth rain on the just and on the unjust.",
+   "seg_start": 32.671,
+   "audio_start": 32.951,
+   "spoken_end": 43.419,
+   "seg_end": 45.019,
+   "audio_dur": 10.945,
+   "spoken_dur": 10.468,
+   "seg_dur": 12.348,
+   "timing": [
+    {
+     "text": "That ye may be the children of your Father which is in heaven: for he maketh his sun to rise on the evil and on the good, and sendeth rain on the just and on the unjust.",
+     "start": 0.0,
+     "end": 10.913
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s4-sun-on-the-just-and-unjust.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The point was simple and hard at once \u2014 God's kindness falls on everyone, the grateful and the cruel alike.",
+   "seg_start": 45.019,
+   "audio_start": 45.299,
+   "spoken_end": 51.722,
+   "seg_end": 52.372,
+   "audio_dur": 6.922,
+   "spoken_dur": 6.423,
+   "seg_dur": 7.353,
+   "timing": [
+    {
+     "text": "The point was simple and hard at once \u2014 God's kindness falls on everyone, the grateful and the cruel alike.",
+     "start": 0.0,
+     "end": 6.873
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s5-invitation-not-command.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then he set the bar that no one could reach alone, and meant for us to run toward it.",
+   "seg_start": 52.372,
+   "audio_start": 52.652,
+   "spoken_end": 56.446,
+   "seg_end": 57.096,
+   "audio_dur": 4.206,
+   "spoken_dur": 3.794,
+   "seg_dur": 4.724,
+   "timing": [
+    {
+     "text": "Then he set the bar that no one could reach alone, and meant for us to run toward it.",
+     "start": 0.0,
+     "end": 4.18
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": "s6-the-teaching-lands.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Be ye therefore perfect, even as your Father which is in heaven is perfect.",
+   "seg_start": 57.096,
+   "audio_start": 57.376,
+   "spoken_end": 61.319,
+   "seg_end": 62.919,
+   "audio_dur": 4.441,
+   "spoken_dur": 3.943,
+   "seg_dur": 5.823,
+   "timing": [
+    {
+     "text": "Be ye therefore perfect, even as your Father which is in heaven is perfect.",
+     "start": 0.0,
+     "end": 4.412
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s7-come-and-learn-it.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Not perfect by comparison with each other. Perfect by the measure of a Father whose love has no edge, no favor, no limit.",
+   "seg_start": 62.919,
+   "audio_start": 63.199,
+   "spoken_end": 71.074,
+   "seg_end": 71.724,
+   "audio_dur": 8.359,
+   "spoken_dur": 7.875,
+   "seg_dur": 8.805,
+   "timing": [
+    {
+     "text": "Not perfect by comparison with each other.",
+     "start": 0.0,
+     "end": 2.067
+    },
+    {
+     "text": "Perfect by the measure of a Father whose love has no edge, no favor, no limit.",
+     "start": 2.067,
+     "end": 8.313
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He asks for a love without limits \u2014 and he gives the grace to grow into it. Come and learn it from him.",
+  "seg_start": 71.724,
+  "audio_start": 72.004,
+  "seg_dur": 8.049
+ },
+ "total": 79.773
+}

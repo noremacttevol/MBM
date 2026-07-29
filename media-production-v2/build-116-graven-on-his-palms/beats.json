@@ -1,0 +1,322 @@
+{
+ "row": 116,
+ "slug": "build-116-graven-on-his-palms",
+ "v1_dir": "media-production/build-116-graven-on-his-palms",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-the-forgotten-one.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "There is a particular loneliness that comes from feeling forgotten. Not hated. Just overlooked. Slipped from someone's mind, as if you never really mattered enough to be remembered.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 10.55,
+   "seg_end": 11.2,
+   "audio_dur": 10.684,
+   "spoken_dur": 10.27,
+   "seg_dur": 11.2,
+   "timing": [
+    {
+     "text": "There is a particular loneliness that comes from feeling forgotten.",
+     "start": 0.0,
+     "end": 3.286
+    },
+    {
+     "text": "Not hated.",
+     "start": 3.286,
+     "end": 4.551
+    },
+    {
+     "text": "Just overlooked.",
+     "start": 4.551,
+     "end": 5.7
+    },
+    {
+     "text": "Slipped from someone's mind, as if you never really mattered enough to be remembered.",
+     "start": 5.7,
+     "end": 10.635
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "v1_still": "s2-has-god-forgotten.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "But Zion said, The LORD hath forsaken me, and my Lord hath forgotten me.",
+   "seg_start": 11.2,
+   "audio_start": 11.48,
+   "spoken_end": 15.617,
+   "seg_end": 17.217,
+   "audio_dur": 4.493,
+   "spoken_dur": 4.137,
+   "seg_dur": 6.017,
+   "timing": [
+    {
+     "text": "But Zion said, The LORD hath forsaken me, and my Lord hath forgotten me.",
+     "start": 0.0,
+     "end": 4.458
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-has-god-forgotten.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "That is exactly how God's people felt, and they said it out loud \u2014 the Lord has walked away from me, and my God has forgotten I exist. And God's answer to that fear is one of the most tender things he ever said.",
+   "seg_start": 17.217,
+   "audio_start": 17.497,
+   "spoken_end": 30.263,
+   "seg_end": 30.913,
+   "audio_dur": 13.14,
+   "spoken_dur": 12.766,
+   "seg_dur": 13.696,
+   "timing": [
+    {
+     "text": "That is exactly how God's people felt, and they said it out loud \u2014 the Lord has walked away from me, and my God has forgotten I exist.",
+     "start": 0.0,
+     "end": 8.684
+    },
+    {
+     "text": "And God's answer to that fear is one of the most tender things he ever said.",
+     "start": 8.684,
+     "end": 13.096
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-a-mother-and-child.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He points to the strongest, most instinctive love a human being knows \u2014 a mother with her newborn, unable to look away, unable to forget the child at her breast even for a moment.",
+   "seg_start": 30.913,
+   "audio_start": 31.193,
+   "spoken_end": 42.157,
+   "seg_end": 42.807,
+   "audio_dur": 11.363,
+   "spoken_dur": 10.965,
+   "seg_dur": 11.895,
+   "timing": [
+    {
+     "text": "He points to the strongest, most instinctive love a human being knows \u2014 a mother with her newborn, unable to look away, unable to forget the child at her breast even for a moment.",
+     "start": 0.0,
+     "end": 11.331
+    }
+   ]
+  },
+  {
+   "seg": "jv15",
+   "v1_still": "s4-even-if-she-could.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "Can a woman forget her sucking child, that she should not have compassion on the son of her womb? yea, they may forget, yet will I not forget thee.",
+   "seg_start": 42.807,
+   "audio_start": 43.087,
+   "spoken_end": 55.853,
+   "seg_end": 57.453,
+   "audio_dur": 13.192,
+   "spoken_dur": 12.765,
+   "seg_dur": 14.645,
+   "timing": [
+    {
+     "text": "Can a woman forget her sucking child, that she should not have compassion on the son of her womb?",
+     "start": 0.0,
+     "end": 7.001
+    },
+    {
+     "text": "yea, they may forget, yet will I not forget thee.",
+     "start": 7.001,
+     "end": 13.142
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s5-graven-on-the-palms.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Even if a mother somehow could forget \u2014 I never will. And then he says something almost too intimate to imagine. He does not just keep you in mind. He has carved you into his own hands, where he cannot help but see you.",
+   "seg_start": 57.453,
+   "audio_start": 57.733,
+   "spoken_end": 70.638,
+   "seg_end": 71.288,
+   "audio_dur": 13.27,
+   "spoken_dur": 12.906,
+   "seg_dur": 13.836,
+   "timing": [
+    {
+     "text": "Even if a mother somehow could forget \u2014 I never will.",
+     "start": 0.0,
+     "end": 3.634
+    },
+    {
+     "text": "And then he says something almost too intimate to imagine.",
+     "start": 3.634,
+     "end": 7.175
+    },
+    {
+     "text": "He does not just keep you in mind.",
+     "start": 7.175,
+     "end": 9.346
+    },
+    {
+     "text": "He has carved you into his own hands, where he cannot help but see you.",
+     "start": 9.346,
+     "end": 13.235
+    }
+   ]
+  },
+  {
+   "seg": "jv16",
+   "v1_still": "s6-your-walls-before-me.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "Behold, I have graven thee upon the palms of my hands; thy walls are continually before me.",
+   "seg_start": 71.288,
+   "audio_start": 71.568,
+   "spoken_end": 78.589,
+   "seg_end": 80.189,
+   "audio_dur": 7.367,
+   "spoken_dur": 7.02,
+   "seg_dur": 8.9,
+   "timing": [
+    {
+     "text": "Behold, I have graven thee upon the palms of my hands; thy walls are continually before me.",
+     "start": 0.0,
+     "end": 7.338
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s7-the-light-finds-her.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Graven \u2014 engraved, cut in deep, permanent. Not a note he might lose. You are written into the very hands of God, and everything about you is always right there in front of him. He could not forget you if he tried.",
+   "seg_start": 80.189,
+   "audio_start": 80.469,
+   "spoken_end": 92.72,
+   "seg_end": 93.37,
+   "audio_dur": 12.617,
+   "spoken_dur": 12.251,
+   "seg_dur": 13.181,
+   "timing": [
+    {
+     "text": "Graven \u2014 engraved, cut in deep, permanent.",
+     "start": 0.0,
+     "end": 2.949
+    },
+    {
+     "text": "Not a note he might lose.",
+     "start": 2.949,
+     "end": 4.748
+    },
+    {
+     "text": "You are written into the very hands of God, and everything about you is always right there in front of him.",
+     "start": 4.748,
+     "end": 9.996
+    },
+    {
+     "text": "He could not forget you if he tried.",
+     "start": 9.996,
+     "end": 12.585
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s8-she-lifts-her-head.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And that changes the person who thought she had been left behind. The same God she feared had forgotten her was carrying her the whole time \u2014 her name, her walls, her whole life, held in his hands.",
+   "seg_start": 93.37,
+   "audio_start": 93.65,
+   "spoken_end": 106.042,
+   "seg_end": 106.692,
+   "audio_dur": 12.774,
+   "spoken_dur": 12.392,
+   "seg_dur": 13.322,
+   "timing": [
+    {
+     "text": "And that changes the person who thought she had been left behind.",
+     "start": 0.0,
+     "end": 3.425
+    },
+    {
+     "text": "The same God she feared had forgotten her was carrying her the whole time \u2014 her name, her walls, her whole life, held in his hands.",
+     "start": 3.425,
+     "end": 12.725
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s9-not-forgotten.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So if you have ever felt like the one who gets forgotten \u2014 the one nobody keeps in mind \u2014 hear this slowly.",
+   "seg_start": 106.692,
+   "audio_start": 106.972,
+   "spoken_end": 113.254,
+   "seg_end": 113.904,
+   "audio_dur": 6.687,
+   "spoken_dur": 6.283,
+   "seg_dur": 7.213,
+   "timing": [
+    {
+     "text": "So if you have ever felt like the one who gets forgotten \u2014 the one nobody keeps in mind \u2014 hear this slowly.",
+     "start": 0.0,
+     "end": 6.641
+    }
+   ]
+  },
+  {
+   "seg": "n7b",
+   "v1_still": "s10-you-are-kept.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "You are not out of sight. You are not out of mind. You are graven on the hands of God, and he has never once looked away.",
+   "seg_start": 113.904,
+   "audio_start": 114.184,
+   "spoken_end": 120.633,
+   "seg_end": 121.283,
+   "audio_dur": 6.818,
+   "spoken_dur": 6.449,
+   "seg_dur": 7.379,
+   "timing": [
+    {
+     "text": "You are not out of sight.",
+     "start": 0.0,
+     "end": 1.254
+    },
+    {
+     "text": "You are not out of mind.",
+     "start": 1.254,
+     "end": 2.74
+    },
+    {
+     "text": "You are graven on the hands of God, and he has never once looked away.",
+     "start": 2.74,
+     "end": 6.78
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "God told the ones who felt forgotten that he had carved them into his own hands, always before his eyes. You are not overlooked. Where do you most need to hear that you have not been forgotten?",
+  "seg_start": 121.283,
+  "audio_start": 121.563,
+  "seg_dur": 12.595
+ },
+ "total": 133.878
+}

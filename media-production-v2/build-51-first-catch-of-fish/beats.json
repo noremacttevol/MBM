@@ -1,0 +1,400 @@
+{
+ "row": 51,
+ "slug": "build-51-first-catch-of-fish",
+ "v1_dir": "media-production/build-51-first-catch-of-fish",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-crowds-at-the-lake.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "By the lake of Gennesaret, a crowd pressed in around him, hungry to hear the word of God. Two empty boats sat at the water's edge, and beside them tired fishermen were washing out their nets after a long night that had given them nothing.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 13.591,
+   "seg_end": 14.241,
+   "audio_dur": 13.74,
+   "spoken_dur": 13.311,
+   "seg_dur": 14.241,
+   "timing": [
+    {
+     "text": "By the lake of Gennesaret, a crowd pressed in around him, hungry to hear the word of God.",
+     "start": 0.0,
+     "end": 4.923
+    },
+    {
+     "text": "Two empty boats sat at the water's edge, and beside them tired fishermen were washing out their nets after a long night that had given them nothing.",
+     "start": 4.923,
+     "end": 13.7
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-teaching-from-the-boat.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He stepped into one of the boats. It belonged to a fisherman named Simon. He asked him to push out a little way from the shore, and then he sat down and taught the people from the water.",
+   "seg_start": 14.241,
+   "audio_start": 14.521,
+   "spoken_end": 23.815,
+   "seg_end": 24.465,
+   "audio_dur": 9.691,
+   "spoken_dur": 9.293,
+   "seg_dur": 10.223,
+   "timing": [
+    {
+     "text": "He stepped into one of the boats.",
+     "start": 0.0,
+     "end": 1.428
+    },
+    {
+     "text": "It belonged to a fisherman named Simon.",
+     "start": 1.428,
+     "end": 3.657
+    },
+    {
+     "text": "He asked him to push out a little way from the shore, and then he sat down and taught the people from the water.",
+     "start": 3.657,
+     "end": 9.659
+    }
+   ]
+  },
+  {
+   "seg": "jv4",
+   "v1_still": "s3-launch-out-into-the-deep.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Launch out into the deep, and let down your nets for a draught.",
+   "seg_start": 24.465,
+   "audio_start": 24.745,
+   "spoken_end": 27.801,
+   "seg_end": 29.401,
+   "audio_dur": 3.474,
+   "spoken_dur": 3.057,
+   "seg_dur": 4.937,
+   "timing": [
+    {
+     "text": "Launch out into the deep, and let down your nets for a draught.",
+     "start": 0.0,
+     "end": 3.437
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s4-toiled-all-night.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Simon was bone-tired. They had worked that water all night and come back with nothing, and every instinct a fisherman has told him this was pointless. But something about this man made him answer the way he did.",
+   "seg_start": 29.401,
+   "audio_start": 29.681,
+   "spoken_end": 40.835,
+   "seg_end": 41.485,
+   "audio_dur": 11.52,
+   "spoken_dur": 11.154,
+   "seg_dur": 12.084,
+   "timing": [
+    {
+     "text": "Simon was bone-tired.",
+     "start": 0.0,
+     "end": 1.498
+    },
+    {
+     "text": "They had worked that water all night and come back with nothing, and every instinct a fisherman has told him this was pointless.",
+     "start": 1.498,
+     "end": 8.057
+    },
+    {
+     "text": "But something about this man made him answer the way he did.",
+     "start": 8.057,
+     "end": 11.471
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "v1_still": "s4-toiled-all-night.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Master, we have toiled all the night, and have taken nothing: nevertheless at thy word I will let down the net.",
+   "seg_start": 41.485,
+   "audio_start": 41.765,
+   "spoken_end": 48.463,
+   "seg_end": 50.063,
+   "audio_dur": 7.131,
+   "spoken_dur": 6.698,
+   "seg_dur": 8.578,
+   "timing": [
+    {
+     "text": "Master, we have toiled all the night, and have taken nothing: nevertheless at thy word I will let down the net.",
+     "start": 0.0,
+     "end": 7.105
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s4-toiled-all-night.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Master, we worked that lake all night and caught nothing. But because you say so, I will put the net down again. Hear the word in the middle of that sentence. He had every reason to say no, and he did it anyway.",
+   "seg_start": 50.063,
+   "audio_start": 50.343,
+   "spoken_end": 62.513,
+   "seg_end": 63.163,
+   "audio_dur": 12.565,
+   "spoken_dur": 12.17,
+   "seg_dur": 13.1,
+   "timing": [
+    {
+     "text": "Master, we worked that lake all night and caught nothing.",
+     "start": 0.0,
+     "end": 2.485
+    },
+    {
+     "text": "But because you say so, I will put the net down again.",
+     "start": 2.485,
+     "end": 6.304
+    },
+    {
+     "text": "Hear the word in the middle of that sentence.",
+     "start": 6.304,
+     "end": 8.522
+    },
+    {
+     "text": "He had every reason to say no, and he did it anyway.",
+     "start": 8.522,
+     "end": 12.539
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s5-the-great-catch.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The moment the nets went down, they filled. A great shining mass of fish, far more than the ropes were made to hold, and the net began to tear under the sheer weight of it.",
+   "seg_start": 63.163,
+   "audio_start": 63.443,
+   "spoken_end": 73.269,
+   "seg_end": 73.919,
+   "audio_dur": 10.266,
+   "spoken_dur": 9.826,
+   "seg_dur": 10.756,
+   "timing": [
+    {
+     "text": "The moment the nets went down, they filled.",
+     "start": 0.0,
+     "end": 2.183
+    },
+    {
+     "text": "A great shining mass of fish, far more than the ropes were made to hold, and the net began to tear under the sheer weight of it.",
+     "start": 2.183,
+     "end": 10.217
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s6-both-boats-sinking.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "There were too many for one boat. They waved to their partners, James and John, in the other boat to come and help, and both boats were loaded until they sat low in the water and began to sink.",
+   "seg_start": 73.919,
+   "audio_start": 74.199,
+   "spoken_end": 84.673,
+   "seg_end": 85.323,
+   "audio_dur": 10.867,
+   "spoken_dur": 10.474,
+   "seg_dur": 11.404,
+   "timing": [
+    {
+     "text": "There were too many for one boat.",
+     "start": 0.0,
+     "end": 1.649
+    },
+    {
+     "text": "They waved to their partners, James and John, in the other boat to come and help, and both boats were loaded until they sat low in the water and began to sink.",
+     "start": 1.649,
+     "end": 10.82
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s7-at-his-knees.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "When Simon saw it, he fell down at Jesus' knees. He did not feel worthy of any of it, and what came out of him was not thank you.",
+   "seg_start": 85.323,
+   "audio_start": 85.603,
+   "spoken_end": 93.021,
+   "seg_end": 93.671,
+   "audio_dur": 7.837,
+   "spoken_dur": 7.418,
+   "seg_dur": 8.348,
+   "timing": [
+    {
+     "text": "When Simon saw it, he fell down at Jesus' knees.",
+     "start": 0.0,
+     "end": 2.694
+    },
+    {
+     "text": "He did not feel worthy of any of it, and what came out of him was not thank you.",
+     "start": 2.694,
+     "end": 7.802
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "v1_still": "s7-at-his-knees.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Depart from me; for I am a sinful man, O Lord.",
+   "seg_start": 93.671,
+   "audio_start": 93.951,
+   "spoken_end": 96.616,
+   "seg_end": 98.216,
+   "audio_dur": 3.056,
+   "spoken_dur": 2.665,
+   "seg_dur": 4.545,
+   "timing": [
+    {
+     "text": "Depart from me; for I am a sinful man, O Lord.",
+     "start": 0.0,
+     "end": 3.019
+    }
+   ]
+  },
+  {
+   "seg": "n6b",
+   "v1_still": "s7-at-his-knees.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Go away from me, Lord. On the best morning of his working life, kneeling in fish, the first thing he wanted was distance. The wonder of it had shown him exactly who he was, and exactly who this was.",
+   "seg_start": 98.216,
+   "audio_start": 98.496,
+   "spoken_end": 112.111,
+   "seg_end": 112.761,
+   "audio_dur": 14.028,
+   "spoken_dur": 13.615,
+   "seg_dur": 14.545,
+   "timing": [
+    {
+     "text": "Go away from me, Lord.",
+     "start": 0.0,
+     "end": 1.509
+    },
+    {
+     "text": "On the best morning of his working life, kneeling in fish, the first thing he wanted was distance.",
+     "start": 1.509,
+     "end": 8.231
+    },
+    {
+     "text": "The wonder of it had shown him exactly who he was, and exactly who this was.",
+     "start": 8.231,
+     "end": 13.978
+    }
+   ]
+  },
+  {
+   "seg": "jv10",
+   "v1_still": "s8-fear-not.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Fear not; from henceforth thou shalt catch men.",
+   "seg_start": 112.761,
+   "audio_start": 113.041,
+   "spoken_end": 116.301,
+   "seg_end": 117.901,
+   "audio_dur": 3.657,
+   "spoken_dur": 3.26,
+   "seg_dur": 5.14,
+   "timing": [
+    {
+     "text": "Fear not; from henceforth thou shalt catch men.",
+     "start": 0.0,
+     "end": 3.622
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s8-fear-not.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He does not send Simon away. He calls him. The trembling fisherman who begged him to leave is the very man he wants, and from this day on he will be gathering people, not fish.",
+   "seg_start": 117.901,
+   "audio_start": 118.181,
+   "spoken_end": 129.285,
+   "seg_end": 129.935,
+   "audio_dur": 11.546,
+   "spoken_dur": 11.104,
+   "seg_dur": 12.034,
+   "timing": [
+    {
+     "text": "He does not send Simon away.",
+     "start": 0.0,
+     "end": 1.672
+    },
+    {
+     "text": "He calls him.",
+     "start": 1.672,
+     "end": 2.763
+    },
+    {
+     "text": "The trembling fisherman who begged him to leave is the very man he wants, and from this day on he will be gathering people, not fish.",
+     "start": 2.763,
+     "end": 11.517
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s9-forsook-all.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And that was enough. They brought the boats to land, left the greatest catch of their lives lying there on the shore, and followed him. They forsook all, the nets, the boats, the best day they had ever had, and went with him.",
+   "seg_start": 129.935,
+   "audio_start": 130.215,
+   "spoken_end": 143.705,
+   "seg_end": 144.355,
+   "audio_dur": 13.923,
+   "spoken_dur": 13.49,
+   "seg_dur": 14.42,
+   "timing": [
+    {
+     "text": "And that was enough.",
+     "start": 0.0,
+     "end": 1.103
+    },
+    {
+     "text": "They brought the boats to land, left the greatest catch of their lives lying there on the shore, and followed him.",
+     "start": 1.103,
+     "end": 7.755
+    },
+    {
+     "text": "They forsook all, the nets, the boats, the best day they had ever had, and went with him.",
+     "start": 7.755,
+     "end": 13.886
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He met them at their emptiest, a whole night of work and nothing to show, and filled their hands past overflowing. Then he asked for all of it, so he could give them something far greater. What is he calling you to leave behind, to follow him?",
+  "seg_start": 144.355,
+  "audio_start": 144.635,
+  "seg_dur": 15.834
+ },
+ "total": 160.189
+}

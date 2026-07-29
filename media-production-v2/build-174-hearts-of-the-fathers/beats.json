@@ -1,0 +1,204 @@
+{
+ "row": 174,
+ "slug": "build-174-hearts-of-the-fathers",
+ "v1_dir": "media-production/build-174-hearts-of-the-fathers",
+ "constants": {
+  "LEAD": 0.4,
+  "GAP": 1.65,
+  "KJV_GAP": 1.65,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-the-messenger.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Before the great day, a messenger would come first \u2014 Elijah, the prophet, sent ahead.",
+   "seg_start": 0.0,
+   "audio_start": 0.4,
+   "spoken_end": 4.933,
+   "seg_end": 6.583,
+   "audio_dur": 4.859,
+   "spoken_dur": 4.533,
+   "seg_dur": 6.583,
+   "timing": [
+    {
+     "text": "Before the great day, a messenger would come first \u2014 Elijah, the prophet, sent ahead.",
+     "start": 0.0,
+     "end": 4.83
+    }
+   ]
+  },
+  {
+   "seg": "s1a",
+   "v1_still": "s2-resolve-and-mercy.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the LORD:",
+   "seg_start": 6.583,
+   "audio_start": 6.983,
+   "spoken_end": 13.923,
+   "seg_end": 15.573,
+   "audio_dur": 7.419,
+   "spoken_dur": 6.94,
+   "seg_dur": 8.99,
+   "timing": [
+    {
+     "text": "Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the LORD:",
+     "start": 0.0,
+     "end": 7.384
+    }
+   ]
+  },
+  {
+   "seg": "n0b",
+   "v1_still": "s2-resolve-and-mercy.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Listen to who is talking there. That is God himself, making a promise out loud: before the last great day arrives, I am sending Elijah back. Not an army. Not a warning shot.",
+   "seg_start": 15.573,
+   "audio_start": 15.973,
+   "spoken_end": 27.25,
+   "seg_end": 28.9,
+   "audio_dur": 11.729,
+   "spoken_dur": 11.277,
+   "seg_dur": 13.327,
+   "timing": [
+    {
+     "text": "Listen to who is talking there.",
+     "start": 0.0,
+     "end": 1.892
+    },
+    {
+     "text": "That is God himself, making a promise out loud: before the last great day arrives, I am sending Elijah back.",
+     "start": 1.892,
+     "end": 8.8
+    },
+    {
+     "text": "Not an army.",
+     "start": 8.8,
+     "end": 10.019
+    },
+    {
+     "text": "Not a warning shot.",
+     "start": 10.019,
+     "end": 11.703
+    }
+   ]
+  },
+  {
+   "seg": "s1b",
+   "v1_still": "s3-the-turn-beginning.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "And he shall turn the heart of the fathers to the children, and the heart of the children to their fathers, lest I come and smite the earth with a curse.",
+   "seg_start": 28.9,
+   "audio_start": 29.3,
+   "spoken_end": 38.323,
+   "seg_end": 39.973,
+   "audio_dur": 9.378,
+   "spoken_dur": 9.023,
+   "seg_dur": 11.073,
+   "timing": [
+    {
+     "text": "And he shall turn the heart of the fathers to the children, and the heart of the children to their fathers, lest I come and smite the earth with a curse.",
+     "start": 0.0,
+     "end": 9.334
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s4-three-generations.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "His work was not to thunder, but to mend.",
+   "seg_start": 39.973,
+   "audio_start": 40.373,
+   "spoken_end": 42.653,
+   "seg_end": 44.303,
+   "audio_dur": 2.691,
+   "spoken_dur": 2.28,
+   "seg_dur": 4.33,
+   "timing": [
+    {
+     "text": "His work was not to thunder, but to mend.",
+     "start": 0.0,
+     "end": 2.647
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s6-the-same-spirit.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The same spirit would later rest on John, preparing the way.",
+   "seg_start": 44.303,
+   "audio_start": 44.703,
+   "spoken_end": 47.522,
+   "seg_end": 49.172,
+   "audio_dur": 3.187,
+   "spoken_dur": 2.819,
+   "seg_dur": 4.869,
+   "timing": [
+    {
+     "text": "The same spirit would later rest on John, preparing the way.",
+     "start": 0.0,
+     "end": 3.158
+    }
+   ]
+  },
+  {
+   "seg": "n2a",
+   "v1_still": "s5-pointing-down-the-road.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So that when the Lord came, families would be ready.",
+   "seg_start": 49.172,
+   "audio_start": 49.572,
+   "spoken_end": 52.304,
+   "seg_end": 53.954,
+   "audio_dur": 3.056,
+   "spoken_dur": 2.732,
+   "seg_dur": 4.782,
+   "timing": [
+    {
+     "text": "So that when the Lord came, families would be ready.",
+     "start": 0.0,
+     "end": 3.019
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s7-the-whole-family.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Not divided, but whole.",
+   "seg_start": 53.954,
+   "audio_start": 54.354,
+   "spoken_end": 55.578,
+   "seg_end": 57.228,
+   "audio_dur": 1.62,
+   "spoken_dur": 1.224,
+   "seg_dur": 3.274,
+   "timing": [
+    {
+     "text": "Not divided, but whole.",
+     "start": 0.0,
+     "end": 1.579
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He cares about your family. Let the healing start with your own heart.",
+  "seg_start": 57.228,
+  "audio_start": 57.628,
+  "seg_dur": 5.792
+ },
+ "total": 63.02
+}

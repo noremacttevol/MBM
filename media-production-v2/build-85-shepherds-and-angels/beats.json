@@ -1,0 +1,396 @@
+{
+ "row": 85,
+ "slug": "build-85-shepherds-and-angels",
+ "v1_dir": "media-production/build-85-shepherds-and-angels",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-night-watch.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Outside Bethlehem, shepherds were keeping watch over their flocks by night \u2014 ordinary men working the late shift, about the lowest job there was.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 8.877,
+   "seg_end": 9.597,
+   "audio_dur": 9.012,
+   "spoken_dur": 8.597,
+   "seg_dur": 9.597,
+   "timing": [
+    {
+     "text": "Outside Bethlehem, shepherds were keeping watch over their flocks by night \u2014 ordinary men working the late shift, about the lowest job there was.",
+     "start": 0.0,
+     "end": 8.963
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-the-angel.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Suddenly an angel of the Lord stood before them, and the glory of the Lord blazed all around. They were terrified. And the angel said:",
+   "seg_start": 9.597,
+   "audio_start": 9.877,
+   "spoken_end": 17.964,
+   "seg_end": 18.684,
+   "audio_dur": 8.438,
+   "spoken_dur": 8.087,
+   "seg_dur": 9.087,
+   "timing": [
+    {
+     "text": "Suddenly an angel of the Lord stood before them, and the glory of the Lord blazed all around.",
+     "start": 0.0,
+     "end": 5.236
+    },
+    {
+     "text": "They were terrified.",
+     "start": 5.236,
+     "end": 6.687
+    },
+    {
+     "text": "And the angel said:",
+     "start": 7.105,
+     "end": 8.406
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s3-fear-not.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Fear not: for, behold, I bring you good tidings of great joy, which shall be to all people. For unto you is born this day in the city of David a Saviour, which is Christ the Lord.",
+   "seg_start": 18.684,
+   "audio_start": 18.964,
+   "spoken_end": 31.014,
+   "seg_end": 32.614,
+   "audio_dur": 12.434,
+   "spoken_dur": 12.05,
+   "seg_dur": 13.93,
+   "timing": [
+    {
+     "text": "Fear not: for, behold, I bring you good tidings of great joy, which shall be to all people.",
+     "start": 0.0,
+     "end": 6.142
+    },
+    {
+     "text": "For unto you is born this day in the city of David a Saviour, which is Christ the Lord.",
+     "start": 6.142,
+     "end": 12.399
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s3-fear-not.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Listen to who he says it is for. Not for the palace. Not for the temple. For you \u2014 the men out in the field on the night shift.",
+   "seg_start": 32.614,
+   "audio_start": 32.894,
+   "spoken_end": 40.391,
+   "seg_end": 41.111,
+   "audio_dur": 8.02,
+   "spoken_dur": 7.497,
+   "seg_dur": 8.497,
+   "timing": [
+    {
+     "text": "Listen to who he says it is for.",
+     "start": 0.0,
+     "end": 2.113
+    },
+    {
+     "text": "Not for the palace.",
+     "start": 2.113,
+     "end": 3.611
+    },
+    {
+     "text": "Not for the temple.",
+     "start": 3.611,
+     "end": 4.679
+    },
+    {
+     "text": "For you \u2014 the men out in the field on the night shift.",
+     "start": 4.679,
+     "end": 7.988
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-heavenly-host.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And in a moment the one angel became a vast multitude of the heavenly host, filling the whole sky.",
+   "seg_start": 41.111,
+   "audio_start": 41.391,
+   "spoken_end": 47.48,
+   "seg_end": 48.2,
+   "audio_dur": 6.531,
+   "spoken_dur": 6.089,
+   "seg_dur": 7.089,
+   "timing": [
+    {
+     "text": "And in a moment the one angel became a vast multitude of the heavenly host, filling the whole sky.",
+     "start": 0.0,
+     "end": 6.502
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s4-heavenly-host.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Glory to God in the highest, and on earth peace, good will toward men.",
+   "seg_start": 48.2,
+   "audio_start": 48.48,
+   "spoken_end": 52.502,
+   "seg_end": 54.102,
+   "audio_dur": 4.362,
+   "spoken_dur": 4.022,
+   "seg_dur": 5.902,
+   "timing": [
+    {
+     "text": "Glory to God in the highest, and on earth peace, good will toward men.",
+     "start": 0.0,
+     "end": 4.319
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s4-heavenly-host.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That is what the sky said. Not a warning. Not a demand. Peace, and good will \u2014 heaven's opinion of the human race, said out loud over a sheep field.",
+   "seg_start": 54.102,
+   "audio_start": 54.382,
+   "spoken_end": 66.248,
+   "seg_end": 66.968,
+   "audio_dur": 12.251,
+   "spoken_dur": 11.866,
+   "seg_dur": 12.866,
+   "timing": [
+    {
+     "text": "That is what the sky said.",
+     "start": 0.0,
+     "end": 1.869
+    },
+    {
+     "text": "Not a warning.",
+     "start": 1.869,
+     "end": 3.204
+    },
+    {
+     "text": "Not a demand.",
+     "start": 3.204,
+     "end": 4.76
+    },
+    {
+     "text": "Peace, and good will \u2014 heaven's opinion of the human race, said out loud over a sheep field.",
+     "start": 4.76,
+     "end": 12.214
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s5-let-us-go.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "When the angels had gone away into heaven, the shepherds said to one another:",
+   "seg_start": 66.968,
+   "audio_start": 67.248,
+   "spoken_end": 70.982,
+   "seg_end": 71.702,
+   "audio_dur": 4.075,
+   "spoken_dur": 3.734,
+   "seg_dur": 4.734,
+   "timing": [
+    {
+     "text": "When the angels had gone away into heaven, the shepherds said to one another:",
+     "start": 0.0,
+     "end": 4.04
+    }
+   ]
+  },
+  {
+   "seg": "s15",
+   "v1_still": "s5-let-us-go.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Let us now go even unto Bethlehem, and see this thing which is come to pass, which the Lord hath made known unto us.",
+   "seg_start": 71.702,
+   "audio_start": 71.982,
+   "spoken_end": 78.697,
+   "seg_end": 80.297,
+   "audio_dur": 7.053,
+   "spoken_dur": 6.715,
+   "seg_dur": 8.595,
+   "timing": [
+    {
+     "text": "Let us now go even unto Bethlehem, and see this thing which is come to pass, which the Lord hath made known unto us.",
+     "start": 0.0,
+     "end": 7.012
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s5-let-us-go.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "They did not stand around discussing it. They came with haste into the town.",
+   "seg_start": 80.297,
+   "audio_start": 80.577,
+   "spoken_end": 84.682,
+   "seg_end": 85.402,
+   "audio_dur": 4.441,
+   "spoken_dur": 4.105,
+   "seg_dur": 5.105,
+   "timing": [
+    {
+     "text": "They did not stand around discussing it.",
+     "start": 0.0,
+     "end": 1.916
+    },
+    {
+     "text": "They came with haste into the town.",
+     "start": 1.916,
+     "end": 4.412
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s6-they-found-him.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "They found Mary and Joseph, and the baby lying in the manger \u2014 exactly as they had been told.",
+   "seg_start": 85.402,
+   "audio_start": 85.682,
+   "spoken_end": 91.172,
+   "seg_end": 91.892,
+   "audio_dur": 5.878,
+   "spoken_dur": 5.49,
+   "seg_dur": 6.49,
+   "timing": [
+    {
+     "text": "They found Mary and Joseph, and the baby lying in the manger \u2014 exactly as they had been told.",
+     "start": 0.0,
+     "end": 5.851
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s7-the-manger.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "There he was: the Saviour of the world, a tiny newborn asleep in a feed trough, wrapped in strips of cloth.",
+   "seg_start": 91.892,
+   "audio_start": 92.172,
+   "spoken_end": 99.774,
+   "seg_end": 100.494,
+   "audio_dur": 8.124,
+   "spoken_dur": 7.602,
+   "seg_dur": 8.602,
+   "timing": [
+    {
+     "text": "There he was: the Saviour of the world, a tiny newborn asleep in a feed trough, wrapped in strips of cloth.",
+     "start": 0.0,
+     "end": 8.081
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s8-they-made-known-abroad.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The shepherds could not keep it in. They went out glorifying and praising God, telling everyone they met what they had seen and heard.",
+   "seg_start": 100.494,
+   "audio_start": 100.774,
+   "spoken_end": 107.89,
+   "seg_end": 108.61,
+   "audio_dur": 7.523,
+   "spoken_dur": 7.116,
+   "seg_dur": 8.116,
+   "timing": [
+    {
+     "text": "The shepherds could not keep it in.",
+     "start": 0.0,
+     "end": 1.95
+    },
+    {
+     "text": "They went out glorifying and praising God, telling everyone they met what they had seen and heard.",
+     "start": 1.95,
+     "end": 7.477
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s9-mary-kept-these-things.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "But Mary kept all these things, and pondered them in her heart.",
+   "seg_start": 108.61,
+   "audio_start": 108.89,
+   "spoken_end": 112.403,
+   "seg_end": 114.003,
+   "audio_dur": 3.944,
+   "spoken_dur": 3.513,
+   "seg_dur": 5.393,
+   "timing": [
+    {
+     "text": "But Mary kept all these things, and pondered them in her heart.",
+     "start": 0.0,
+     "end": 3.901
+    }
+   ]
+  },
+  {
+   "seg": "n7b",
+   "v1_still": "s9-mary-kept-these-things.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "In a story full of people shouting, Luke stops to tell you about the one person who said nothing. She gathered it all up \u2014 the angels, the shepherds, the trough, the strangers at the door in the middle of the night \u2014 and she held on to it, and turned it over, for the rest of her life.",
+   "seg_start": 114.003,
+   "audio_start": 114.283,
+   "spoken_end": 131.553,
+   "seg_end": 132.273,
+   "audio_dur": 17.737,
+   "spoken_dur": 17.27,
+   "seg_dur": 18.27,
+   "timing": [
+    {
+     "text": "In a story full of people shouting, Luke stops to tell you about the one person who said nothing.",
+     "start": 0.0,
+     "end": 5.689
+    },
+    {
+     "text": "She gathered it all up \u2014 the angels, the shepherds, the trough, the strangers at the door in the middle of the night \u2014 and she held on to it, and turned it over, for the rest of her life.",
+     "start": 5.689,
+     "end": 17.694
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "The first birth announcement in history went to night-shift workers on a hillside. Good news of great joy, for all people. Including you.",
+  "seg_start": 132.273,
+  "audio_start": 132.553,
+  "seg_dur": 9.852
+ },
+ "total": 142.125
+}

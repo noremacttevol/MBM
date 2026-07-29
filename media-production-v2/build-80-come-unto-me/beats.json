@@ -1,0 +1,251 @@
+{
+ "row": 80,
+ "slug": "build-80-come-unto-me",
+ "v1_dir": "media-production/build-80-come-unto-me",
+ "constants": {
+  "LEAD": 0.4,
+  "GAP": 1.65,
+  "KJV_GAP": 1.65,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0a",
+   "v1_still": "s1-the-worn-down.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "To a crowd of people worn down by work, by rules, by just getting through the day,",
+   "seg_start": 0.0,
+   "audio_start": 0.4,
+   "spoken_end": 4.897,
+   "seg_end": 6.547,
+   "audio_dur": 4.859,
+   "spoken_dur": 4.497,
+   "seg_dur": 6.547,
+   "timing": [
+    {
+     "text": "To a crowd of people worn down by work, by rules, by just getting through the day,",
+     "start": 0.0,
+     "end": 4.83
+    }
+   ]
+  },
+  {
+   "seg": "n0b",
+   "v1_still": "s2-the-weight.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus made one of the gentlest offers ever spoken.",
+   "seg_start": 6.547,
+   "audio_start": 6.947,
+   "spoken_end": 9.911,
+   "seg_end": 11.561,
+   "audio_dur": 3.37,
+   "spoken_dur": 2.963,
+   "seg_dur": 5.013,
+   "timing": [
+    {
+     "text": "Jesus made one of the gentlest offers ever spoken.",
+     "start": 0.0,
+     "end": 3.344
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s3-come-unto-me.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Come unto me, all ye that labour and are heavy laden, and I will give you rest.",
+   "seg_start": 11.561,
+   "audio_start": 11.961,
+   "spoken_end": 16.964,
+   "seg_end": 18.614,
+   "audio_dur": 5.381,
+   "spoken_dur": 5.004,
+   "seg_dur": 7.054,
+   "timing": [
+    {
+     "text": "Come unto me, all ye that labour and are heavy laden, and I will give you rest.",
+     "start": 0.0,
+     "end": 5.341
+    }
+   ]
+  },
+  {
+   "seg": "n0c",
+   "v1_still": "s3-come-unto-me.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Come to me, all of you who are worn out and carrying too much \u2014 and I will give you rest. He does not say come once you have it handled. He says come while you are still under it.",
+   "seg_start": 18.614,
+   "audio_start": 19.014,
+   "spoken_end": 29.81,
+   "seg_end": 31.46,
+   "audio_dur": 11.285,
+   "spoken_dur": 10.796,
+   "seg_dur": 12.846,
+   "timing": [
+    {
+     "text": "Come to me, all of you who are worn out and carrying too much \u2014 and I will give you rest.",
+     "start": 0.0,
+     "end": 5.631
+    },
+    {
+     "text": "He does not say come once you have it handled.",
+     "start": 5.631,
+     "end": 8.545
+    },
+    {
+     "text": "He says come while you are still under it.",
+     "start": 8.545,
+     "end": 11.238
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s4-the-empty-yoke.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "A yoke was the wooden beam that let two oxen pull a load together, so no single animal carried it alone.",
+   "seg_start": 31.46,
+   "audio_start": 31.86,
+   "spoken_end": 37.801,
+   "seg_end": 39.451,
+   "audio_dur": 6.348,
+   "spoken_dur": 5.941,
+   "seg_dur": 7.991,
+   "timing": [
+    {
+     "text": "A yoke was the wooden beam that let two oxen pull a load together, so no single animal carried it alone.",
+     "start": 0.0,
+     "end": 6.316
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s5-the-shared-load.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls.",
+   "seg_start": 39.451,
+   "audio_start": 39.851,
+   "spoken_end": 47.798,
+   "seg_end": 49.448,
+   "audio_dur": 8.359,
+   "spoken_dur": 7.948,
+   "seg_dur": 9.998,
+   "timing": [
+    {
+     "text": "Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls.",
+     "start": 0.0,
+     "end": 8.313
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": "s6-the-weight-lifts.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "For my yoke is easy, and my burden is light.",
+   "seg_start": 49.448,
+   "audio_start": 49.848,
+   "spoken_end": 52.498,
+   "seg_end": 54.148,
+   "audio_dur": 3.056,
+   "spoken_dur": 2.649,
+   "seg_dur": 4.699,
+   "timing": [
+    {
+     "text": "For my yoke is easy, and my burden is light.",
+     "start": 0.0,
+     "end": 3.019
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s6-the-weight-lifts.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Take my yoke on you, he said, and learn from me, because I am gentle and I am humble \u2014 and you will find rest for your soul. He is not handing you a heavier beam. He is stepping into the empty side of the one you are already pulling.",
+   "seg_start": 54.148,
+   "audio_start": 54.548,
+   "spoken_end": 69.621,
+   "seg_end": 71.271,
+   "audio_dur": 15.491,
+   "spoken_dur": 15.073,
+   "seg_dur": 17.123,
+   "timing": [
+    {
+     "text": "Take my yoke on you, he said, and learn from me, because I am gentle and I am humble \u2014 and you will find rest for your soul.",
+     "start": 0.0,
+     "end": 8.255
+    },
+    {
+     "text": "He is not handing you a heavier beam.",
+     "start": 8.255,
+     "end": 11.122
+    },
+    {
+     "text": "He is stepping into the empty side of the one you are already pulling.",
+     "start": 11.122,
+     "end": 15.464
+    }
+   ]
+  },
+  {
+   "seg": "n2a",
+   "v1_still": "s7-rest.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He wasn't promising a life with nothing to carry.",
+   "seg_start": 71.271,
+   "audio_start": 71.671,
+   "spoken_end": 74.431,
+   "seg_end": 76.081,
+   "audio_dur": 3.161,
+   "spoken_dur": 2.76,
+   "seg_dur": 4.81,
+   "timing": [
+    {
+     "text": "He wasn't promising a life with nothing to carry.",
+     "start": 0.0,
+     "end": 3.111
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s8-room-beside-him.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He was promising to get under the load with you, so it never has to be carried alone again.",
+   "seg_start": 76.081,
+   "audio_start": 76.481,
+   "spoken_end": 81.307,
+   "seg_end": 82.957,
+   "audio_dur": 5.251,
+   "spoken_dur": 4.827,
+   "seg_dur": 6.877,
+   "timing": [
+    {
+     "text": "He was promising to get under the load with you, so it never has to be carried alone again.",
+     "start": 0.0,
+     "end": 5.201
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "Whatever you've been carrying by yourself \u2014 he's offering to take the other side of it. Come.",
+  "seg_start": 82.957,
+  "audio_start": 83.357,
+  "seg_dur": 7.647
+ },
+ "total": 90.604
+}

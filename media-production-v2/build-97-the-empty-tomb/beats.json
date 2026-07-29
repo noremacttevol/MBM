@@ -1,0 +1,283 @@
+{
+ "row": 97,
+ "slug": "build-97-the-empty-tomb",
+ "v1_dir": "media-production/build-97-the-empty-tomb",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-spices-before-dawn.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Very early on the first day of the week, while it was still dark, the women who loved him came to the tomb carrying spices to anoint his body. And the whole way there, one thing worried them.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 10.627,
+   "seg_end": 11.277,
+   "audio_dur": 10.762,
+   "spoken_dur": 10.347,
+   "seg_dur": 11.277,
+   "timing": [
+    {
+     "text": "Very early on the first day of the week, while it was still dark, the women who loved him came to the tomb carrying spices to anoint his body.",
+     "start": 0.0,
+     "end": 7.512
+    },
+    {
+     "text": "And the whole way there, one thing worried them.",
+     "start": 7.512,
+     "end": 10.728
+    }
+   ]
+  },
+  {
+   "seg": "w3",
+   "v1_still": "s1-spices-before-dawn.jpeg",
+   "zoom": "out",
+   "speaker": "woman",
+   "text": "Who shall roll us away the stone from the door of the sepulchre?",
+   "seg_start": 11.277,
+   "audio_start": 11.557,
+   "spoken_end": 14.532,
+   "seg_end": 16.132,
+   "audio_dur": 3.344,
+   "spoken_dur": 2.975,
+   "seg_dur": 4.855,
+   "timing": [
+    {
+     "text": "Who shall roll us away the stone from the door of the sepulchre?",
+     "start": 0.0,
+     "end": 3.297
+    }
+   ]
+  },
+  {
+   "seg": "n0b",
+   "v1_still": "s1-spices-before-dawn.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "It took several men to move it, and there were only a few women walking up that hill in the dark.",
+   "seg_start": 16.132,
+   "audio_start": 16.412,
+   "spoken_end": 20.725,
+   "seg_end": 21.375,
+   "audio_dur": 4.78,
+   "spoken_dur": 4.313,
+   "seg_dur": 5.243,
+   "timing": [
+    {
+     "text": "It took several men to move it, and there were only a few women walking up that hill in the dark.",
+     "start": 0.0,
+     "end": 4.737
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-the-stone-rolled-away.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But when they arrived, the huge stone that had sealed the tomb was rolled away.",
+   "seg_start": 21.375,
+   "audio_start": 21.655,
+   "spoken_end": 25.256,
+   "seg_end": 25.906,
+   "audio_dur": 3.997,
+   "spoken_dur": 3.601,
+   "seg_dur": 4.531,
+   "timing": [
+    {
+     "text": "But when they arrived, the huge stone that had sealed the tomb was rolled away.",
+     "start": 0.0,
+     "end": 3.947
+    }
+   ]
+  },
+  {
+   "seg": "n2a",
+   "v1_still": "s3-the-empty-ledge.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "They stepped inside \u2014 and the body was gone.",
+   "seg_start": 25.906,
+   "audio_start": 26.186,
+   "spoken_end": 28.564,
+   "seg_end": 29.214,
+   "audio_dur": 2.769,
+   "spoken_dur": 2.378,
+   "seg_dur": 3.308,
+   "timing": [
+    {
+     "text": "They stepped inside \u2014 and the body was gone.",
+     "start": 0.0,
+     "end": 2.74
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s4-fear-and-awe-in-the-doorway.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "They stood there, confused and afraid.",
+   "seg_start": 29.214,
+   "audio_start": 29.494,
+   "spoken_end": 31.35,
+   "seg_end": 32.0,
+   "audio_dur": 2.168,
+   "spoken_dur": 1.856,
+   "seg_dur": 2.786,
+   "timing": [
+    {
+     "text": "They stood there, confused and afraid.",
+     "start": 0.0,
+     "end": 2.136
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s5-two-in-dazzling-clothing.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then two figures in dazzling clothing stood beside them, and asked a question that has echoed for two thousand years:",
+   "seg_start": 32.0,
+   "audio_start": 32.28,
+   "spoken_end": 38.304,
+   "seg_end": 38.954,
+   "audio_dur": 6.4,
+   "spoken_dur": 6.024,
+   "seg_dur": 6.954,
+   "timing": [
+    {
+     "text": "Then two figures in dazzling clothing stood beside them, and asked a question that has echoed for two thousand years:",
+     "start": 0.0,
+     "end": 6.362
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "v1_still": "s5-two-in-dazzling-clothing.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Why seek ye the living among the dead? He is not here, but is risen:",
+   "seg_start": 38.954,
+   "audio_start": 39.234,
+   "spoken_end": 43.481,
+   "seg_end": 45.081,
+   "audio_dur": 4.598,
+   "spoken_dur": 4.247,
+   "seg_dur": 6.127,
+   "timing": [
+    {
+     "text": "Why seek ye the living among the dead?",
+     "start": 0.0,
+     "end": 1.95
+    },
+    {
+     "text": "He is not here, but is risen:",
+     "start": 2.554,
+     "end": 4.551
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s8-death-undone.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He is not here \u2014 he is risen.",
+   "seg_start": 45.081,
+   "audio_start": 45.361,
+   "spoken_end": 47.327,
+   "seg_end": 47.977,
+   "audio_dur": 2.325,
+   "spoken_dur": 1.966,
+   "seg_dur": 2.896,
+   "timing": [
+    {
+     "text": "He is not here \u2014 he is risen.",
+     "start": 0.0,
+     "end": 2.276
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "v1_still": "s6-she-remembers.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "remember how he spake unto you when he was yet in Galilee, Saying, The Son of man must be delivered into the hands of sinful men, and be crucified, and the third day rise again.",
+   "seg_start": 47.977,
+   "audio_start": 48.257,
+   "spoken_end": 58.485,
+   "seg_end": 60.085,
+   "audio_dur": 10.527,
+   "spoken_dur": 10.228,
+   "seg_dur": 12.108,
+   "timing": [
+    {
+     "text": "remember how he spake unto you when he was yet in Galilee, Saying, The Son of man must be delivered into the hands of sinful men, and be crucified, and the third day rise again.",
+     "start": 0.0,
+     "end": 10.495
+    }
+   ]
+  },
+  {
+   "seg": "n5a",
+   "v1_still": "s6-she-remembers.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He had said all of it, out loud, before any of it happened.",
+   "seg_start": 60.085,
+   "audio_start": 60.365,
+   "spoken_end": 63.105,
+   "seg_end": 63.755,
+   "audio_dur": 3.187,
+   "spoken_dur": 2.74,
+   "seg_dur": 3.67,
+   "timing": [
+    {
+     "text": "He had said all of it, out loud, before any of it happened.",
+     "start": 0.0,
+     "end": 3.158
+    }
+   ]
+  },
+  {
+   "seg": "n5b",
+   "v1_still": "s7-running-into-sunrise.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And they remembered.",
+   "seg_start": 63.755,
+   "audio_start": 64.035,
+   "spoken_end": 64.912,
+   "seg_end": 65.562,
+   "audio_dur": 1.254,
+   "spoken_dur": 0.877,
+   "seg_dur": 1.807,
+   "timing": [
+    {
+     "text": "And they remembered.",
+     "start": 0.0,
+     "end": 1.207
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "The tomb couldn't hold him. Whatever feels dead and sealed shut in your life \u2014 he's the God of the rolled-away stone.",
+  "seg_start": 65.562,
+  "audio_start": 65.842,
+  "seg_dur": 8.467
+ },
+ "total": 74.029
+}

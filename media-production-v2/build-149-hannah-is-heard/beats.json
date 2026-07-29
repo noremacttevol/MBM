@@ -1,0 +1,391 @@
+{
+ "row": 149,
+ "slug": "build-149-hannah-is-heard",
+ "v1_dir": "media-production/build-149-hannah-is-heard",
+ "constants": {
+  "LEAD": 0.4,
+  "GAP": 1.45,
+  "KJV_GAP": 1.9,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0a",
+   "v1_still": "s2-sorrow-held.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Year after year, Hannah went to the house of the LORD and came away with an empty lap.",
+   "seg_start": 0.0,
+   "audio_start": 0.4,
+   "spoken_end": 4.239,
+   "seg_end": 5.689,
+   "audio_dur": 4.18,
+   "spoken_dur": 3.839,
+   "seg_dur": 5.689,
+   "timing": [
+    {
+     "text": "Year after year, Hannah went to the house of the LORD and came away with an empty lap.",
+     "start": 0.0,
+     "end": 4.133
+    }
+   ]
+  },
+  {
+   "seg": "n0b",
+   "v1_still": "s3-the-other-wife.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The other wife mocked her for it.",
+   "seg_start": 5.689,
+   "audio_start": 6.089,
+   "spoken_end": 7.578,
+   "seg_end": 9.028,
+   "audio_dur": 1.933,
+   "spoken_dur": 1.49,
+   "seg_dur": 3.34,
+   "timing": [
+    {
+     "text": "The other wife mocked her for it.",
+     "start": 0.0,
+     "end": 1.904
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s1-the-silent-prayer.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "One year at Shiloh, Hannah slipped to the door of the tabernacle and prayed with a voice no one could hear \u2014 only her lips moved. This is what she said.",
+   "seg_start": 9.028,
+   "audio_start": 9.428,
+   "spoken_end": 18.5,
+   "seg_end": 19.95,
+   "audio_dur": 9.43,
+   "spoken_dur": 9.072,
+   "seg_dur": 10.922,
+   "timing": [
+    {
+     "text": "One year at Shiloh, Hannah slipped to the door of the tabernacle and prayed with a voice no one could hear \u2014 only her lips moved.",
+     "start": 0.0,
+     "end": 7.512
+    },
+    {
+     "text": "This is what she said.",
+     "start": 7.512,
+     "end": 9.381
+    }
+   ]
+  },
+  {
+   "seg": "w1a",
+   "v1_still": "s1-the-silent-prayer.jpeg",
+   "zoom": "out",
+   "speaker": "woman",
+   "text": "O LORD of hosts, if thou wilt indeed look on the affliction of thine handmaid, and remember me, and not forget thine handmaid,",
+   "seg_start": 19.95,
+   "audio_start": 20.35,
+   "spoken_end": 27.646,
+   "seg_end": 29.546,
+   "audio_dur": 7.706,
+   "spoken_dur": 7.296,
+   "seg_dur": 9.596,
+   "timing": [
+    {
+     "text": "O LORD of hosts, if thou wilt indeed look on the affliction of thine handmaid, and remember me, and not forget thine handmaid,",
+     "start": 0.0,
+     "end": 7.663
+    }
+   ]
+  },
+  {
+   "seg": "w1b",
+   "v1_still": "s1-the-silent-prayer.jpeg",
+   "zoom": "in",
+   "speaker": "woman",
+   "text": "but wilt give unto thine handmaid a man child, then I will give him unto the LORD all the days of his life.",
+   "seg_start": 29.546,
+   "audio_start": 29.946,
+   "spoken_end": 35.841,
+   "seg_end": 37.741,
+   "audio_dur": 6.348,
+   "spoken_dur": 5.895,
+   "seg_dur": 8.195,
+   "timing": [
+    {
+     "text": "but wilt give unto thine handmaid a man child, then I will give him unto the LORD all the days of his life.",
+     "start": 0.0,
+     "end": 6.316
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s1-the-silent-prayer.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Just look at me, she was saying. Remember me. Don't forget me. Give me a son \u2014 and I will give him back to You for the whole of his life. She asked for the one thing she wanted most, and promised it away in the same breath.",
+   "seg_start": 37.741,
+   "audio_start": 38.141,
+   "spoken_end": 53.104,
+   "seg_end": 54.554,
+   "audio_dur": 15.464,
+   "spoken_dur": 14.963,
+   "seg_dur": 16.813,
+   "timing": [
+    {
+     "text": "Just look at me, she was saying.",
+     "start": 0.0,
+     "end": 1.707
+    },
+    {
+     "text": "Remember me.",
+     "start": 1.707,
+     "end": 2.775
+    },
+    {
+     "text": "Don't forget me.",
+     "start": 2.775,
+     "end": 4.18
+    },
+    {
+     "text": "Give me a son \u2014 and I will give him back to You for the whole of his life.",
+     "start": 4.18,
+     "end": 8.893
+    },
+    {
+     "text": "She asked for the one thing she wanted most, and promised it away in the same breath.",
+     "start": 8.893,
+     "end": 15.418
+    }
+   ]
+  },
+  {
+   "seg": "n3a",
+   "v1_still": "s4-eli-mistaken.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Eli the priest watched her lips move with no sound coming out, and thought she was drunk.",
+   "seg_start": 54.554,
+   "audio_start": 54.954,
+   "spoken_end": 59.408,
+   "seg_end": 60.858,
+   "audio_dur": 4.911,
+   "spoken_dur": 4.453,
+   "seg_dur": 6.303,
+   "timing": [
+    {
+     "text": "Eli the priest watched her lips move with no sound coming out, and thought she was drunk.",
+     "start": 0.0,
+     "end": 4.876
+    }
+   ]
+  },
+  {
+   "seg": "w2",
+   "v1_still": "s5-poured-out-not-drunk.jpeg",
+   "zoom": "in",
+   "speaker": "woman",
+   "text": "No, my lord, I am a woman of a sorrowful spirit: I have drunk neither wine nor strong drink, but have poured out my soul before the LORD.",
+   "seg_start": 60.858,
+   "audio_start": 61.258,
+   "spoken_end": 70.326,
+   "seg_end": 72.226,
+   "audio_dur": 9.509,
+   "spoken_dur": 9.068,
+   "seg_dur": 11.368,
+   "timing": [
+    {
+     "text": "No, my lord, I am a woman of a sorrowful spirit: I have drunk neither wine nor strong drink, but have poured out my soul before the LORD.",
+     "start": 0.0,
+     "end": 9.474
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s5-poured-out-not-drunk.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "No, my lord, she told him. I haven't been drinking. I'm a woman with a heavy heart, and I've been pouring my soul out to the Lord. She was not ashamed of the prayer. She just wanted him to know what he was looking at.",
+   "seg_start": 72.226,
+   "audio_start": 72.626,
+   "spoken_end": 84.541,
+   "seg_end": 85.991,
+   "audio_dur": 12.304,
+   "spoken_dur": 11.916,
+   "seg_dur": 13.766,
+   "timing": [
+    {
+     "text": "No, my lord, she told him.",
+     "start": 0.0,
+     "end": 1.207
+    },
+    {
+     "text": "I haven't been drinking.",
+     "start": 1.207,
+     "end": 2.357
+    },
+    {
+     "text": "I'm a woman with a heavy heart, and I've been pouring my soul out to the Lord.",
+     "start": 2.357,
+     "end": 6.943
+    },
+    {
+     "text": "She was not ashamed of the prayer.",
+     "start": 6.943,
+     "end": 9.369
+    },
+    {
+     "text": "She just wanted him to know what he was looking at.",
+     "start": 9.369,
+     "end": 12.26
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "v1_still": "s4-eli-mistaken.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Go in peace: and the God of Israel grant thee thy petition that thou hast asked of him.",
+   "seg_start": 85.991,
+   "audio_start": 86.391,
+   "spoken_end": 91.376,
+   "seg_end": 93.276,
+   "audio_dur": 5.381,
+   "spoken_dur": 4.985,
+   "seg_dur": 7.285,
+   "timing": [
+    {
+     "text": "Go in peace: and the God of Israel grant thee thy petition that thou hast asked of him.",
+     "start": 0.0,
+     "end": 5.341
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s6-her-face-no-longer-sad.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "She went away, and her face was no longer sad. The LORD remembered her.",
+   "seg_start": 93.276,
+   "audio_start": 93.676,
+   "spoken_end": 98.19,
+   "seg_end": 99.64,
+   "audio_dur": 4.911,
+   "spoken_dur": 4.514,
+   "seg_dur": 6.364,
+   "timing": [
+    {
+     "text": "She went away, and her face was no longer sad.",
+     "start": 0.0,
+     "end": 2.914
+    },
+    {
+     "text": "The LORD remembered her.",
+     "start": 2.914,
+     "end": 4.876
+    }
+   ]
+  },
+  {
+   "seg": "w3",
+   "v1_still": "s7-samuel-in-her-arms.jpeg",
+   "zoom": "in",
+   "speaker": "woman",
+   "text": "Because I have asked him of the LORD.",
+   "seg_start": 99.64,
+   "audio_start": 100.04,
+   "spoken_end": 101.784,
+   "seg_end": 103.684,
+   "audio_dur": 2.168,
+   "spoken_dur": 1.743,
+   "seg_dur": 4.043,
+   "timing": [
+    {
+     "text": "Because I have asked him of the LORD.",
+     "start": 0.0,
+     "end": 2.136
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s7-samuel-in-her-arms.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Every time anyone said that child's name, they were saying it again: I asked, and He heard.",
+   "seg_start": 103.684,
+   "audio_start": 104.084,
+   "spoken_end": 109.3,
+   "seg_end": 110.75,
+   "audio_dur": 5.616,
+   "spoken_dur": 5.217,
+   "seg_dur": 7.067,
+   "timing": [
+    {
+     "text": "Every time anyone said that child's name, they were saying it again: I asked, and He heard.",
+     "start": 0.0,
+     "end": 5.573
+    }
+   ]
+  },
+  {
+   "seg": "w4",
+   "v1_still": "s8-given-back.jpeg",
+   "zoom": "in",
+   "speaker": "woman",
+   "text": "Therefore also I have lent him to the LORD; as long as he liveth he shall be lent to the LORD.",
+   "seg_start": 110.75,
+   "audio_start": 111.15,
+   "spoken_end": 117.203,
+   "seg_end": 119.103,
+   "audio_dur": 6.504,
+   "spoken_dur": 6.053,
+   "seg_dur": 8.353,
+   "timing": [
+    {
+     "text": "Therefore also I have lent him to the LORD; as long as he liveth he shall be lent to the LORD.",
+     "start": 0.0,
+     "end": 6.455
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s8-given-back.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "She kept her word. When he was weaned, she brought him to the house of the LORD and left him there to serve.",
+   "seg_start": 119.103,
+   "audio_start": 119.503,
+   "spoken_end": 124.735,
+   "seg_end": 126.185,
+   "audio_dur": 5.695,
+   "spoken_dur": 5.232,
+   "seg_dur": 7.082,
+   "timing": [
+    {
+     "text": "She kept her word.",
+     "start": 0.0,
+     "end": 0.987
+    },
+    {
+     "text": "When he was weaned, she brought him to the house of the LORD and left him there to serve.",
+     "start": 0.987,
+     "end": 5.666
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "Hannah prayed the prayer no one else could hear, and God answered. Your quiet prayers are heard too.",
+  "seg_start": 126.185,
+  "audio_start": 126.585,
+  "seg_dur": 7.934
+ },
+ "total": 134.119
+}

@@ -1,0 +1,296 @@
+{
+ "row": 123,
+ "slug": "build-123-golden-rule",
+ "v1_dir": "media-production/build-123-golden-rule",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-the-crowd-listening.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Of everything Jesus taught on that hillside, he gave the whole law of how to treat each other in a single sentence \u2014 one so simple a child can live it, and so deep it holds up everything else.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 11.287,
+   "seg_end": 11.937,
+   "audio_dur": 11.416,
+   "spoken_dur": 11.007,
+   "seg_dur": 11.937,
+   "timing": [
+    {
+     "text": "Of everything Jesus taught on that hillside, he gave the whole law of how to treat each other in a single sentence \u2014 one so simple a child can live it, and so deep it holds up everything else.",
+     "start": 0.0,
+     "end": 11.378
+    }
+   ]
+  },
+  {
+   "seg": "jvA",
+   "v1_still": "s2-two-travelers-as-equals.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Therefore all things whatsoever ye would that men should do to you, do ye even so to them: for this is the law and the prophets.",
+   "seg_start": 11.937,
+   "audio_start": 12.217,
+   "spoken_end": 20.816,
+   "seg_end": 22.416,
+   "audio_dur": 8.777,
+   "spoken_dur": 8.599,
+   "seg_dur": 10.479,
+   "timing": [
+    {
+     "text": "Therefore all things whatsoever ye would that men should do to you, do ye even so to them: for this is the law and the prophets.",
+     "start": 0.0,
+     "end": 8.731
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s3-the-longing-at-the-gate.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "However you wish people would treat you, he said \u2014 go and treat them that way. That is the law and the prophets, the whole of it, in one line. And every one of us already knows how we long to be treated. To be seen when we are tired. To be fed when we are hungry. To be forgiven when we have failed. That longing is not selfish \u2014 it is the measuring line.",
+   "seg_start": 22.416,
+   "audio_start": 22.696,
+   "spoken_end": 44.731,
+   "seg_end": 45.381,
+   "audio_dur": 22.387,
+   "spoken_dur": 22.035,
+   "seg_dur": 22.965,
+   "timing": [
+    {
+     "text": "However you wish people would treat you, he said \u2014 go and treat them that way.",
+     "start": 0.0,
+     "end": 4.505
+    },
+    {
+     "text": "That is the law and the prophets, the whole of it, in one line.",
+     "start": 4.505,
+     "end": 8.348
+    },
+    {
+     "text": "And every one of us already knows how we long to be treated.",
+     "start": 8.348,
+     "end": 11.668
+    },
+    {
+     "text": "To be seen when we are tired.",
+     "start": 11.668,
+     "end": 13.805
+    },
+    {
+     "text": "To be fed when we are hungry.",
+     "start": 13.805,
+     "end": 15.79
+    },
+    {
+     "text": "To be forgiven when we have failed.",
+     "start": 15.79,
+     "end": 17.949
+    },
+    {
+     "text": "That longing is not selfish \u2014 it is the measuring line.",
+     "start": 17.949,
+     "end": 22.338
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s4-bread-to-the-stranger.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So Jesus turns it outward. The bread you wish someone would hand you when you are empty \u2014 hand it to the next person you find standing at your door with nothing.",
+   "seg_start": 45.381,
+   "audio_start": 45.661,
+   "spoken_end": 54.282,
+   "seg_end": 54.932,
+   "audio_dur": 9.038,
+   "spoken_dur": 8.62,
+   "seg_dur": 9.55,
+   "timing": [
+    {
+     "text": "So Jesus turns it outward.",
+     "start": 0.0,
+     "end": 1.637
+    },
+    {
+     "text": "The bread you wish someone would hand you when you are empty \u2014 hand it to the next person you find standing at your door with nothing.",
+     "start": 1.637,
+     "end": 9.009
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s5-water-on-the-road.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The cool drink you would want on a long, dusty road \u2014 be the one who holds it out to the stranger before he even thinks to ask.",
+   "seg_start": 54.932,
+   "audio_start": 55.212,
+   "spoken_end": 62.958,
+   "seg_end": 63.608,
+   "audio_dur": 8.176,
+   "spoken_dur": 7.747,
+   "seg_dur": 8.677,
+   "timing": [
+    {
+     "text": "The cool drink you would want on a long, dusty road \u2014 be the one who holds it out to the stranger before he even thinks to ask.",
+     "start": 0.0,
+     "end": 8.127
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s6-the-mercy-given.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And the mercy you would ache for if it were your own mistake laid bare \u2014 give that first, and give it fully, to the person who wronged you.",
+   "seg_start": 63.608,
+   "audio_start": 63.888,
+   "spoken_end": 71.963,
+   "seg_end": 72.613,
+   "audio_dur": 8.49,
+   "spoken_dur": 8.075,
+   "seg_dur": 9.005,
+   "timing": [
+    {
+     "text": "And the mercy you would ache for if it were your own mistake laid bare \u2014 give that first, and give it fully, to the person who wronged you.",
+     "start": 0.0,
+     "end": 8.452
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s7-lifting-the-fallen.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "When someone stumbles on the road ahead of you, do not step around him. Lift him the way you would want to be lifted if it were your own knees in the dust.",
+   "seg_start": 72.613,
+   "audio_start": 72.893,
+   "spoken_end": 80.558,
+   "seg_end": 81.208,
+   "audio_dur": 8.124,
+   "spoken_dur": 7.665,
+   "seg_dur": 8.595,
+   "timing": [
+    {
+     "text": "When someone stumbles on the road ahead of you, do not step around him.",
+     "start": 0.0,
+     "end": 3.564
+    },
+    {
+     "text": "Lift him the way you would want to be lifted if it were your own knees in the dust.",
+     "start": 3.564,
+     "end": 8.081
+    }
+   ]
+  },
+  {
+   "seg": "jvB",
+   "v1_still": "s8-good-measure-returned.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Give, and it shall be given unto you; good measure, pressed down, and shaken together, and running over, shall men give into your bosom.",
+   "seg_start": 81.208,
+   "audio_start": 81.488,
+   "spoken_end": 91.667,
+   "seg_end": 93.267,
+   "audio_dur": 10.58,
+   "spoken_dur": 10.179,
+   "seg_dur": 12.059,
+   "timing": [
+    {
+     "text": "Give, and it shall be given unto you; good measure, pressed down, and shaken together, and running over, shall men give into your bosom.",
+     "start": 0.0,
+     "end": 10.542
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s9-the-shared-table.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Give, he said, and it will be given back to you \u2014 a full measure, packed down, shaken together to make room for more, and spilling over the sides into your lap. That is the quiet secret of it. A life poured out in kindness does not run dry. It comes back around \u2014 table to table, neighbor to neighbor \u2014 until a whole village is carrying one another.",
+   "seg_start": 93.267,
+   "audio_start": 93.547,
+   "spoken_end": 116.743,
+   "seg_end": 117.393,
+   "audio_dur": 23.641,
+   "spoken_dur": 23.196,
+   "seg_dur": 24.126,
+   "timing": [
+    {
+     "text": "Give, he said, and it will be given back to you \u2014 a full measure, packed down, shaken together to make room for more, and spilling over the sides into your lap.",
+     "start": 0.0,
+     "end": 11.378
+    },
+    {
+     "text": "That is the quiet secret of it.",
+     "start": 11.378,
+     "end": 13.735
+    },
+    {
+     "text": "A life poured out in kindness does not run dry.",
+     "start": 13.735,
+     "end": 17.299
+    },
+    {
+     "text": "It comes back around \u2014 table to table, neighbor to neighbor \u2014 until a whole village is carrying one another.",
+     "start": 17.299,
+     "end": 23.592
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s10-neighbors-at-peace.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The golden rule is not a weight Jesus laid on us. It is the shortest way to everything the law was ever trying to teach. Treat others the way you long to be treated, and you will have kept nearly all of it at once.",
+   "seg_start": 117.393,
+   "audio_start": 117.673,
+   "spoken_end": 129.18,
+   "seg_end": 129.83,
+   "audio_dur": 11.938,
+   "spoken_dur": 11.506,
+   "seg_dur": 12.436,
+   "timing": [
+    {
+     "text": "The golden rule is not a weight Jesus laid on us.",
+     "start": 0.0,
+     "end": 2.392
+    },
+    {
+     "text": "It is the shortest way to everything the law was ever trying to teach.",
+     "start": 2.392,
+     "end": 6.142
+    },
+    {
+     "text": "Treat others the way you long to be treated, and you will have kept nearly all of it at once.",
+     "start": 6.142,
+     "end": 11.889
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "Jesus folded the whole law into one line you can start living today. Before you decide how to treat someone, picture how you would want to be treated in their place \u2014 then simply do that. Who is the one person, this week, you could treat the way you have always wished someone would treat you?",
+  "seg_start": 129.83,
+  "audio_start": 130.11,
+  "seg_dur": 19.36
+ },
+ "total": 149.19
+}

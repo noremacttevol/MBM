@@ -1,0 +1,199 @@
+{
+ "row": 175,
+ "slug": "build-175-mountain-of-the-lords-house",
+ "v1_dir": "media-production/build-175-mountain-of-the-lords-house",
+ "constants": {
+  "LEAD": 0.4,
+  "GAP": 1.65,
+  "KJV_GAP": 1.65,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-the-mountain-at-dawn.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "In the last days, a mountain would rise above all mountains \u2014 not by height, but by drawing every people to it.",
+   "seg_start": 0.0,
+   "audio_start": 0.4,
+   "spoken_end": 6.479,
+   "seg_end": 8.129,
+   "audio_dur": 6.531,
+   "spoken_dur": 6.079,
+   "seg_dur": 8.129,
+   "timing": [
+    {
+     "text": "In the last days, a mountain would rise above all mountains \u2014 not by height, but by drawing every people to it.",
+     "start": 0.0,
+     "end": 6.502
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "v1_still": "s2-beginning-to-walk.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And it shall come to pass in the last days, that the mountain of the LORD's house shall be established in the top of the mountains, and shall be exalted above the hills; and all nations shall flow unto it.",
+   "seg_start": 8.129,
+   "audio_start": 8.529,
+   "spoken_end": 19.511,
+   "seg_end": 21.161,
+   "audio_dur": 11.363,
+   "spoken_dur": 10.983,
+   "seg_dur": 13.033,
+   "timing": [
+    {
+     "text": "And it shall come to pass in the last days, that the mountain of the LORD's house shall be established in the top of the mountains, and shall be exalted above the hills; and all nations shall flow unto it.",
+     "start": 0.0,
+     "end": 11.331
+    }
+   ]
+  },
+  {
+   "seg": "n0b",
+   "v1_still": "s2-beginning-to-walk.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "That is Isaiah writing, not God speaking \u2014 a prophet describing what he was shown. In the last days, he says, the house of the Lord will be set up higher than anything else on earth, and people from every nation will come streaming toward it.",
+   "seg_start": 21.161,
+   "audio_start": 21.561,
+   "spoken_end": 36.219,
+   "seg_end": 37.869,
+   "audio_dur": 15.073,
+   "spoken_dur": 14.658,
+   "seg_dur": 16.708,
+   "timing": [
+    {
+     "text": "That is Isaiah writing, not God speaking \u2014 a prophet describing what he was shown.",
+     "start": 0.0,
+     "end": 5.631
+    },
+    {
+     "text": "In the last days, he says, the house of the Lord will be set up higher than anything else on earth, and people from every nation will come streaming toward it.",
+     "start": 5.631,
+     "end": 15.047
+    }
+   ]
+  },
+  {
+   "seg": "s2a",
+   "v1_still": "s3-faces-upward.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And many people shall go and say, Come ye, and let us go up to the mountain of the LORD, to the house of the God of Jacob; and he will teach us of his ways, and we will walk in his paths:",
+   "seg_start": 37.869,
+   "audio_start": 38.269,
+   "spoken_end": 48.525,
+   "seg_end": 50.175,
+   "audio_dur": 10.632,
+   "spoken_dur": 10.256,
+   "seg_dur": 12.306,
+   "timing": [
+    {
+     "text": "And many people shall go and say, Come ye, and let us go up to the mountain of the LORD, to the house of the God of Jacob; and he will teach us of his ways, and we will walk in his paths:",
+     "start": 0.0,
+     "end": 10.588
+    }
+   ]
+  },
+  {
+   "seg": "s2b",
+   "v1_still": "s4-the-path-upward.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "for out of Zion shall go forth the law, and the word of the LORD from Jerusalem.",
+   "seg_start": 50.175,
+   "audio_start": 50.575,
+   "spoken_end": 54.758,
+   "seg_end": 56.408,
+   "audio_dur": 4.545,
+   "spoken_dur": 4.184,
+   "seg_dur": 6.234,
+   "timing": [
+    {
+     "text": "for out of Zion shall go forth the law, and the word of the LORD from Jerusalem.",
+     "start": 0.0,
+     "end": 4.505
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s5-the-city-of-peace.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Nations streaming uphill \u2014 not summoned by force, but drawn by invitation. The mountain everyone chooses to climb.",
+   "seg_start": 56.408,
+   "audio_start": 56.808,
+   "spoken_end": 63.601,
+   "seg_end": 65.251,
+   "audio_dur": 7.131,
+   "spoken_dur": 6.793,
+   "seg_dur": 8.843,
+   "timing": [
+    {
+     "text": "Nations streaming uphill \u2014 not summoned by force, but drawn by invitation.",
+     "start": 0.0,
+     "end": 4.516
+    },
+    {
+     "text": "The mountain everyone chooses to climb.",
+     "start": 4.516,
+     "end": 7.105
+    }
+   ]
+  },
+  {
+   "seg": "n2a",
+   "v1_still": "s6-many-peoples-listening.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And from that high place, God's teaching would go out",
+   "seg_start": 65.251,
+   "audio_start": 65.651,
+   "spoken_end": 68.265,
+   "seg_end": 69.915,
+   "audio_dur": 2.952,
+   "spoken_dur": 2.614,
+   "seg_dur": 4.664,
+   "timing": [
+    {
+     "text": "And from that high place, God's teaching would go out",
+     "start": 0.0,
+     "end": 2.926
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s7-the-word-going-out.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "to everyone, everywhere.",
+   "seg_start": 69.915,
+   "audio_start": 70.315,
+   "spoken_end": 71.656,
+   "seg_end": 73.306,
+   "audio_dur": 1.672,
+   "spoken_dur": 1.341,
+   "seg_dur": 3.391,
+   "timing": [
+    {
+     "text": "to everyone, everywhere.",
+     "start": 0.0,
+     "end": 1.625
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "The mountain is open to you. Come, and walk in his paths.",
+  "seg_start": 73.306,
+  "audio_start": 73.706,
+  "seg_dur": 5.191
+ },
+ "total": 78.497
+}

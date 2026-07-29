@@ -1,0 +1,369 @@
+{
+ "row": 55,
+ "slug": "build-55-withered-hand",
+ "v1_dir": "media-production/build-55-withered-hand",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-the-withered-hand.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "On another sabbath Jesus went into the synagogue to teach, and there in the crowd was a man whose hand was withered, shrunken and useless, a hand that could not work or grip or hold. He had carried it, and the shame of it, for years.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 14.224,
+   "seg_end": 14.874,
+   "audio_dur": 14.341,
+   "spoken_dur": 13.944,
+   "seg_dur": 14.874,
+   "timing": [
+    {
+     "text": "On another sabbath Jesus went into the synagogue to teach, and there in the crowd was a man whose hand was withered, shrunken and useless, a hand that could not work or grip or hold.",
+     "start": 0.0,
+     "end": 10.832
+    },
+    {
+     "text": "He had carried it, and the shame of it, for years.",
+     "start": 10.832,
+     "end": 14.303
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-they-watched-him.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But others in the room were watching \u2014 not the man, but Jesus. Some of the religious leaders felt sure he would try to heal on the sabbath, and they waited, hoping to catch him breaking the law, so they could accuse him.",
+   "seg_start": 14.874,
+   "audio_start": 15.154,
+   "spoken_end": 28.106,
+   "seg_end": 28.756,
+   "audio_dur": 13.322,
+   "spoken_dur": 12.953,
+   "seg_dur": 13.883,
+   "timing": [
+    {
+     "text": "But others in the room were watching \u2014 not the man, but Jesus.",
+     "start": 0.0,
+     "end": 3.994
+    },
+    {
+     "text": "Some of the religious leaders felt sure he would try to heal on the sabbath, and they waited, hoping to catch him breaking the law, so they could accuse him.",
+     "start": 3.994,
+     "end": 13.282
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-stand-forth.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus knew exactly what was in their hearts. He did not hide the moment away in a corner. He said to the man with the withered hand:",
+   "seg_start": 28.756,
+   "audio_start": 29.036,
+   "spoken_end": 36.176,
+   "seg_end": 36.826,
+   "audio_dur": 7.549,
+   "spoken_dur": 7.14,
+   "seg_dur": 8.07,
+   "timing": [
+    {
+     "text": "Jesus knew exactly what was in their hearts.",
+     "start": 0.0,
+     "end": 2.357
+    },
+    {
+     "text": "He did not hide the moment away in a corner.",
+     "start": 2.357,
+     "end": 5.05
+    },
+    {
+     "text": "He said to the man with the withered hand:",
+     "start": 5.468,
+     "end": 7.523
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": "s3-stand-forth.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Stand forth.",
+   "seg_start": 36.826,
+   "audio_start": 37.106,
+   "spoken_end": 38.098,
+   "seg_end": 39.698,
+   "audio_dur": 1.202,
+   "spoken_dur": 0.992,
+   "seg_dur": 2.872,
+   "timing": [
+    {
+     "text": "Stand forth.",
+     "start": 0.0,
+     "end": 1.161
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s3-stand-forth.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Stand up. Come out here, into the middle, where everyone can see you. The man everybody in that room had learned to look past was moved to the center of the floor.",
+   "seg_start": 39.698,
+   "audio_start": 39.978,
+   "spoken_end": 49.314,
+   "seg_end": 49.964,
+   "audio_dur": 9.744,
+   "spoken_dur": 9.336,
+   "seg_dur": 10.266,
+   "timing": [
+    {
+     "text": "Stand up.",
+     "start": 0.0,
+     "end": 0.882
+    },
+    {
+     "text": "Come out here, into the middle, where everyone can see you.",
+     "start": 0.882,
+     "end": 4.342
+    },
+    {
+     "text": "The man everybody in that room had learned to look past was moved to the center of the floor.",
+     "start": 4.342,
+     "end": 9.706
+    }
+   ]
+  },
+  {
+   "seg": "jv4",
+   "v1_still": "s4-is-it-lawful.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Is it lawful to do good on the sabbath days, or to do evil? to save life, or to kill?",
+   "seg_start": 49.964,
+   "audio_start": 50.244,
+   "spoken_end": 55.674,
+   "seg_end": 57.274,
+   "audio_dur": 5.799,
+   "spoken_dur": 5.431,
+   "seg_dur": 7.311,
+   "timing": [
+    {
+     "text": "Is it lawful to do good on the sabbath days, or to do evil?",
+     "start": 0.0,
+     "end": 3.32
+    },
+    {
+     "text": "to save life, or to kill?",
+     "start": 3.32,
+     "end": 5.759
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s5-hardness-of-heart.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "It was a simple question, and it left them no answer. They had no real love for the law, or for the man; they only wanted a reason to condemn him. So they said nothing at all.",
+   "seg_start": 57.274,
+   "audio_start": 57.554,
+   "spoken_end": 68.165,
+   "seg_end": 68.815,
+   "audio_dur": 10.998,
+   "spoken_dur": 10.61,
+   "seg_dur": 11.54,
+   "timing": [
+    {
+     "text": "It was a simple question, and it left them no answer.",
+     "start": 0.0,
+     "end": 3.053
+    },
+    {
+     "text": "They had no real love for the law, or for the man; they only wanted a reason to condemn him.",
+     "start": 3.053,
+     "end": 8.8
+    },
+    {
+     "text": "So they said nothing at all.",
+     "start": 8.8,
+     "end": 10.96
+    }
+   ]
+  },
+  {
+   "seg": "s5a",
+   "v1_still": "s6-stretch-forth-thine-hand.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And when he had looked round about on them with anger, being grieved for the hardness of their hearts, he saith unto the man,",
+   "seg_start": 68.815,
+   "audio_start": 69.095,
+   "spoken_end": 75.628,
+   "seg_end": 77.228,
+   "audio_dur": 6.87,
+   "spoken_dur": 6.533,
+   "seg_dur": 8.413,
+   "timing": [
+    {
+     "text": "And when he had looked round about on them with anger, being grieved for the hardness of their hearts, he saith unto the man,",
+     "start": 0.0,
+     "end": 6.827
+    }
+   ]
+  },
+  {
+   "seg": "jv5",
+   "v1_still": "s6-stretch-forth-thine-hand.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Stretch forth thine hand.",
+   "seg_start": 77.228,
+   "audio_start": 77.508,
+   "spoken_end": 78.96,
+   "seg_end": 80.56,
+   "audio_dur": 1.855,
+   "spoken_dur": 1.452,
+   "seg_dur": 3.332,
+   "timing": [
+    {
+     "text": "Stretch forth thine hand.",
+     "start": 0.0,
+     "end": 1.811
+    }
+   ]
+  },
+  {
+   "seg": "n4b",
+   "v1_still": "s6-stretch-forth-thine-hand.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He looked around at every one of them, angry, and grieved to the heart at how hard they had let themselves become. And then he turned away from them, to the man, and said:",
+   "seg_start": 80.56,
+   "audio_start": 80.84,
+   "spoken_end": 90.069,
+   "seg_end": 90.719,
+   "audio_dur": 9.613,
+   "spoken_dur": 9.229,
+   "seg_dur": 10.159,
+   "timing": [
+    {
+     "text": "He looked around at every one of them, angry, and grieved to the heart at how hard they had let themselves become.",
+     "start": 0.0,
+     "end": 5.805
+    },
+    {
+     "text": "And then he turned away from them, to the man, and said:",
+     "start": 6.281,
+     "end": 9.567
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s7-restored-whole.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And the man stretched out the hand he could not use \u2014 and as he reached, it was made whole, restored, strong and alive again, exactly like his other hand. The thing that had been dead came back to life at a single word.",
+   "seg_start": 90.719,
+   "audio_start": 90.999,
+   "spoken_end": 105.463,
+   "seg_end": 106.113,
+   "audio_dur": 14.864,
+   "spoken_dur": 14.464,
+   "seg_dur": 15.394,
+   "timing": [
+    {
+     "text": "And the man stretched out the hand he could not use \u2014 and as he reached, it was made whole, restored, strong and alive again, exactly like his other hand.",
+     "start": 0.0,
+     "end": 10.588
+    },
+    {
+     "text": "The thing that had been dead came back to life at a single word.",
+     "start": 10.588,
+     "end": 14.814
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s8-they-plotted.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But the leaders were not amazed; they were furious. They walked out and began, that very day, to plot together how they might destroy him. He had done nothing but good, and it only hardened them.",
+   "seg_start": 106.113,
+   "audio_start": 106.393,
+   "spoken_end": 118.675,
+   "seg_end": 119.325,
+   "audio_dur": 12.722,
+   "spoken_dur": 12.283,
+   "seg_dur": 13.213,
+   "timing": [
+    {
+     "text": "But the leaders were not amazed; they were furious.",
+     "start": 0.0,
+     "end": 3.065
+    },
+    {
+     "text": "They walked out and began, that very day, to plot together how they might destroy him.",
+     "start": 3.065,
+     "end": 8.905
+    },
+    {
+     "text": "He had done nothing but good, and it only hardened them.",
+     "start": 8.905,
+     "end": 12.678
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s9-mercy-over-rule.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Faced with a rule on one side and a suffering man on the other, Jesus never wavered. He will always move toward the person. Mercy, to him, was never a breaking of the sabbath; it was the whole reason for it.",
+   "seg_start": 119.325,
+   "audio_start": 119.605,
+   "spoken_end": 132.38,
+   "seg_end": 133.03,
+   "audio_dur": 13.27,
+   "spoken_dur": 12.775,
+   "seg_dur": 13.705,
+   "timing": [
+    {
+     "text": "Faced with a rule on one side and a suffering man on the other, Jesus never wavered.",
+     "start": 0.0,
+     "end": 4.795
+    },
+    {
+     "text": "He will always move toward the person.",
+     "start": 4.795,
+     "end": 7.221
+    },
+    {
+     "text": "Mercy, to him, was never a breaking of the sabbath; it was the whole reason for it.",
+     "start": 7.221,
+     "end": 13.235
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "There will always be people upset that he loves you without conditions. Let them be. He looks past every rule that was ever used to shut you out, and he calls you to stand up, out in the open, and be made whole. Will you stretch out the very thing you thought was beyond help?",
+  "seg_start": 133.03,
+  "audio_start": 133.31,
+  "seg_dur": 18.681
+ },
+ "total": 151.712
+}

@@ -1,0 +1,717 @@
+{
+ "row": 15,
+ "slug": "build-15-centurion",
+ "v1_dir": "media-production/build-15-centurion",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.15,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-capernaum.jpeg",
+   "zoom": "in",
+   "speaker": "en-US-AndrewNeural",
+   "text": "-15%",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 12.383,
+   "seg_end": 13.533,
+   "audio_dur": 12.539,
+   "spoken_dur": 12.103,
+   "seg_dur": 13.533,
+   "timing": [
+    {
+     "text": "This is Capernaum, a fishing town on the Sea of Galilee, where Jesus often stayed and taught.",
+     "start": 0.0,
+     "end": 5.573
+    },
+    {
+     "text": "It was also filled with Roman soldiers \u2014 the army that had conquered these people and now ruled them by force.",
+     "start": 5.573,
+     "end": 12.492
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s1-capernaum.jpeg",
+   "zoom": "out",
+   "speaker": "en-US-AndrewNeural",
+   "text": "-15%",
+   "seg_start": 13.533,
+   "audio_start": 13.813,
+   "spoken_end": 20.374,
+   "seg_end": 21.524,
+   "audio_dur": 6.949,
+   "spoken_dur": 6.561,
+   "seg_dur": 7.991,
+   "timing": [
+    {
+     "text": "So the Jews here had every reason to hate Rome.",
+     "start": 0.0,
+     "end": 2.461
+    },
+    {
+     "text": "Hold on to that, because the man this story is about wears a Roman uniform.",
+     "start": 2.461,
+     "end": 6.92
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s2-sick-servant.jpeg",
+   "zoom": "in",
+   "speaker": "en-US-AndrewNeural",
+   "text": "-15%",
+   "seg_start": 21.524,
+   "audio_start": 21.804,
+   "spoken_end": 28.959,
+   "seg_end": 30.109,
+   "audio_dur": 7.523,
+   "spoken_dur": 7.154,
+   "seg_dur": 8.584,
+   "timing": [
+    {
+     "text": "In one of those Roman houses, a young servant was dying.",
+     "start": 0.0,
+     "end": 3.17
+    },
+    {
+     "text": "His body had gone stiff and useless, and he was in terrible pain.",
+     "start": 3.17,
+     "end": 7.477
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s2-sick-servant.jpeg",
+   "zoom": "out",
+   "speaker": "en-US-AndrewNeural",
+   "text": "-15%",
+   "seg_start": 30.109,
+   "audio_start": 30.389,
+   "spoken_end": 39.412,
+   "seg_end": 40.562,
+   "audio_dur": 9.43,
+   "spoken_dur": 9.023,
+   "seg_dur": 10.453,
+   "timing": [
+    {
+     "text": "A servant in those days was treated as property.",
+     "start": 0.0,
+     "end": 2.705
+    },
+    {
+     "text": "If he died, most masters would simply replace him.",
+     "start": 2.705,
+     "end": 5.921
+    },
+    {
+     "text": "But this master could not bring himself to walk away.",
+     "start": 5.921,
+     "end": 9.381
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s3-approach.jpeg",
+   "zoom": "in",
+   "speaker": "en-US-AndrewNeural",
+   "text": "-15%",
+   "seg_start": 40.562,
+   "audio_start": 40.842,
+   "spoken_end": 48.69,
+   "seg_end": 49.84,
+   "audio_dur": 8.255,
+   "spoken_dur": 7.849,
+   "seg_dur": 9.279,
+   "timing": [
+    {
+     "text": "The master was a centurion \u2014 a Roman officer in command of a hundred soldiers.",
+     "start": 0.0,
+     "end": 4.992
+    },
+    {
+     "text": "A powerful man, and to the Jews, the enemy.",
+     "start": 4.992,
+     "end": 8.22
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s3-approach.jpeg",
+   "zoom": "out",
+   "speaker": "en-US-AndrewNeural",
+   "text": "-15%",
+   "seg_start": 49.84,
+   "audio_start": 50.12,
+   "spoken_end": 58.848,
+   "seg_end": 59.998,
+   "audio_dur": 9.143,
+   "spoken_dur": 8.727,
+   "seg_dur": 10.157,
+   "timing": [
+    {
+     "text": "Yet he left his house and went straight to Jesus, a Jewish teacher, to beg for help.",
+     "start": 0.0,
+     "end": 4.47
+    },
+    {
+     "text": "Not for himself.",
+     "start": 4.47,
+     "end": 5.933
+    },
+    {
+     "text": "Not even for his own son.",
+     "start": 5.933,
+     "end": 7.767
+    },
+    {
+     "text": "For a servant.",
+     "start": 7.767,
+     "end": 9.102
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s4-the-plea.jpeg",
+   "zoom": "in",
+   "speaker": "en-US-AndrewNeural",
+   "text": "-16%",
+   "seg_start": 59.998,
+   "audio_start": 60.278,
+   "spoken_end": 69.31,
+   "seg_end": 70.46,
+   "audio_dur": 9.378,
+   "spoken_dur": 9.032,
+   "seg_dur": 10.462,
+   "timing": [
+    {
+     "text": "He came humbly, head bowed, and told Jesus the plain truth: his servant was at home, unable to move, in agony.",
+     "start": 0.0,
+     "end": 7.57
+    },
+    {
+     "text": "Could Jesus help him?",
+     "start": 7.57,
+     "end": 9.334
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s5-i-will-come.jpeg",
+   "zoom": "in",
+   "speaker": "en-US-AndrewNeural",
+   "text": "-15%",
+   "seg_start": 70.46,
+   "audio_start": 70.74,
+   "spoken_end": 74.987,
+   "seg_end": 76.137,
+   "audio_dur": 4.624,
+   "spoken_dur": 4.247,
+   "seg_dur": 5.677,
+   "timing": [
+    {
+     "text": "Jesus did not hesitate for a moment.",
+     "start": 0.0,
+     "end": 1.741
+    },
+    {
+     "text": "He answered that he would go to the house himself.",
+     "start": 1.741,
+     "end": 4.598
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s5-i-will-come.jpeg",
+   "zoom": "out",
+   "speaker": "en-US-ChristopherNeural",
+   "text": "-20%",
+   "seg_start": 76.137,
+   "audio_start": 76.417,
+   "spoken_end": 77.346,
+   "seg_end": 78.496,
+   "audio_dur": 1.332,
+   "spoken_dur": 0.928,
+   "seg_dur": 2.358,
+   "timing": [
+    {
+     "text": "I will come and heal him.",
+     "start": 0.0,
+     "end": 1.3
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s5-i-will-come.jpeg",
+   "zoom": "in",
+   "speaker": "en-US-AndrewNeural",
+   "text": "-16%",
+   "seg_start": 78.496,
+   "audio_start": 78.776,
+   "spoken_end": 89.959,
+   "seg_end": 91.109,
+   "audio_dur": 11.598,
+   "spoken_dur": 11.183,
+   "seg_dur": 12.613,
+   "timing": [
+    {
+     "text": "Stop and see what that means.",
+     "start": 0.0,
+     "end": 1.707
+    },
+    {
+     "text": "Jesus was willing to walk into the home of a Roman \u2014 the enemy \u2014 for the sake of one dying servant nobody else valued.",
+     "start": 1.707,
+     "end": 9.567
+    },
+    {
+     "text": "That is who Jesus is.",
+     "start": 9.567,
+     "end": 11.564
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s6-speak-the-word.jpeg",
+   "zoom": "in",
+   "speaker": "en-US-AndrewNeural",
+   "text": "-16%",
+   "seg_start": 91.109,
+   "audio_start": 91.389,
+   "spoken_end": 99.964,
+   "seg_end": 101.114,
+   "audio_dur": 9.012,
+   "spoken_dur": 8.576,
+   "seg_dur": 10.006,
+   "timing": [
+    {
+     "text": "But the officer stopped him.",
+     "start": 0.0,
+     "end": 1.382
+    },
+    {
+     "text": "Lord, he said, I am not worthy to have you come into my home.",
+     "start": 1.382,
+     "end": 5.608
+    },
+    {
+     "text": "Only speak the word, and my servant will be healed.",
+     "start": 5.608,
+     "end": 8.963
+    }
+   ]
+  },
+  {
+   "seg": "n11",
+   "v1_still": "s6-speak-the-word.jpeg",
+   "zoom": "out",
+   "speaker": "en-US-AndrewNeural",
+   "text": "-16%",
+   "seg_start": 101.114,
+   "audio_start": 101.394,
+   "spoken_end": 109.79,
+   "seg_end": 110.94,
+   "audio_dur": 8.803,
+   "spoken_dur": 8.395,
+   "seg_dur": 9.825,
+   "timing": [
+    {
+     "text": "He was not just being polite.",
+     "start": 0.0,
+     "end": 1.521
+    },
+    {
+     "text": "He truly believed Jesus did not need to be there at all.",
+     "start": 1.521,
+     "end": 4.83
+    },
+    {
+     "text": "He believed that Jesus's word, by itself, was enough.",
+     "start": 4.83,
+     "end": 8.777
+    }
+   ]
+  },
+  {
+   "seg": "n12",
+   "v1_still": "s7-authority.jpeg",
+   "zoom": "in",
+   "speaker": "en-US-AndrewNeural",
+   "text": "-15%",
+   "seg_start": 110.94,
+   "audio_start": 111.22,
+   "spoken_end": 123.163,
+   "seg_end": 124.313,
+   "audio_dur": 12.304,
+   "spoken_dur": 11.943,
+   "seg_dur": 13.373,
+   "timing": [
+    {
+     "text": "And he explained why, in the only language a soldier knows.",
+     "start": 0.0,
+     "end": 2.902
+    },
+    {
+     "text": "I am a man under authority, he said.",
+     "start": 2.902,
+     "end": 5.55
+    },
+    {
+     "text": "I tell one soldier, Go, and he goes.",
+     "start": 5.55,
+     "end": 9.172
+    },
+    {
+     "text": "I tell another, Come, and he comes.",
+     "start": 9.172,
+     "end": 12.26
+    }
+   ]
+  },
+  {
+   "seg": "n13",
+   "v1_still": "s7-authority.jpeg",
+   "zoom": "out",
+   "speaker": "en-US-AndrewNeural",
+   "text": "-16%",
+   "seg_start": 124.313,
+   "audio_start": 124.593,
+   "spoken_end": 134.964,
+   "seg_end": 136.114,
+   "audio_dur": 10.71,
+   "spoken_dur": 10.371,
+   "seg_dur": 11.801,
+   "timing": [
+    {
+     "text": "He never has to go himself; his word alone carries his power across the whole camp.",
+     "start": 0.0,
+     "end": 4.505
+    },
+    {
+     "text": "He was certain Jesus's word worked the same way \u2014 that it could reach across the town and heal on its own.",
+     "start": 4.505,
+     "end": 10.681
+    }
+   ]
+  },
+  {
+   "seg": "n14",
+   "v1_still": "s8-marvels.jpeg",
+   "zoom": "in",
+   "speaker": "en-US-AndrewNeural",
+   "text": "-16%",
+   "seg_start": 136.114,
+   "audio_start": 136.394,
+   "spoken_end": 145.836,
+   "seg_end": 146.986,
+   "audio_dur": 9.796,
+   "spoken_dur": 9.442,
+   "seg_dur": 10.872,
+   "timing": [
+    {
+     "text": "And this amazed Jesus.",
+     "start": 0.0,
+     "end": 1.416
+    },
+    {
+     "text": "The Gospels almost never say that anyone surprised him, yet the faith of this Roman outsider stopped him.",
+     "start": 1.416,
+     "end": 7.697
+    },
+    {
+     "text": "He turned to the crowd and said:",
+     "start": 8.139,
+     "end": 9.752
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s8-marvels.jpeg",
+   "zoom": "out",
+   "speaker": "en-US-ChristopherNeural",
+   "text": "-20%",
+   "seg_start": 146.986,
+   "audio_start": 147.266,
+   "spoken_end": 151.084,
+   "seg_end": 152.234,
+   "audio_dur": 4.258,
+   "spoken_dur": 3.818,
+   "seg_dur": 5.248,
+   "timing": [
+    {
+     "text": "Verily I say unto you, I have not found so great faith, no, not in Israel.",
+     "start": 0.0,
+     "end": 4.226
+    }
+   ]
+  },
+  {
+   "seg": "n15",
+   "v1_still": "s8-marvels.jpeg",
+   "zoom": "in",
+   "speaker": "en-US-AndrewNeural",
+   "text": "-16%",
+   "seg_start": 152.234,
+   "audio_start": 152.514,
+   "spoken_end": 160.988,
+   "seg_end": 162.138,
+   "audio_dur": 8.856,
+   "spoken_dur": 8.474,
+   "seg_dur": 9.904,
+   "timing": [
+    {
+     "text": "In plain words: no one among his own people, the ones who should have known God best, had ever trusted him the way this outsider just had.",
+     "start": 0.0,
+     "end": 8.824
+    }
+   ]
+  },
+  {
+   "seg": "n16",
+   "v1_still": "s9-east-west.jpeg",
+   "zoom": "in",
+   "speaker": "en-US-AndrewNeural",
+   "text": "-16%",
+   "seg_start": 162.138,
+   "audio_start": 162.418,
+   "spoken_end": 165.294,
+   "seg_end": 166.444,
+   "audio_dur": 3.291,
+   "spoken_dur": 2.875,
+   "seg_dur": 4.305,
+   "timing": [
+    {
+     "text": "Then Jesus opened heaven wider than anyone listening expected:",
+     "start": 0.0,
+     "end": 3.251
+    }
+   ]
+  },
+  {
+   "seg": "j2b",
+   "v1_still": "s9-east-west.jpeg",
+   "zoom": "out",
+   "speaker": "en-US-ChristopherNeural",
+   "text": "-20%",
+   "seg_start": 166.444,
+   "audio_start": 166.724,
+   "spoken_end": 174.35,
+   "seg_end": 175.5,
+   "audio_dur": 8.072,
+   "spoken_dur": 7.626,
+   "seg_dur": 9.056,
+   "timing": [
+    {
+     "text": "And I say unto you, That many shall come from the east and west, and shall sit down with Abraham, and Isaac, and Jacob, in the kingdom of heaven.",
+     "start": 0.0,
+     "end": 8.034
+    }
+   ]
+  },
+  {
+   "seg": "n17",
+   "v1_still": "s9-east-west.jpeg",
+   "zoom": "in",
+   "speaker": "en-US-AndrewNeural",
+   "text": "-16%",
+   "seg_start": 175.5,
+   "audio_start": 175.78,
+   "spoken_end": 186.017,
+   "seg_end": 187.167,
+   "audio_dur": 10.632,
+   "spoken_dur": 10.238,
+   "seg_dur": 11.668,
+   "timing": [
+    {
+     "text": "He meant that people from every nation on earth would be welcomed to God's table.",
+     "start": 0.0,
+     "end": 3.715
+    },
+    {
+     "text": "What brings you in is not where you were born, or which group you belong to.",
+     "start": 3.715,
+     "end": 8.603
+    },
+    {
+     "text": "It is whether you trust him.",
+     "start": 8.603,
+     "end": 10.588
+    }
+   ]
+  },
+  {
+   "seg": "n18",
+   "v1_still": "s10-go-thy-way.jpeg",
+   "zoom": "in",
+   "speaker": "en-US-AndrewNeural",
+   "text": "-15%",
+   "seg_start": 187.167,
+   "audio_start": 187.447,
+   "spoken_end": 192.519,
+   "seg_end": 193.669,
+   "audio_dur": 5.433,
+   "spoken_dur": 5.071,
+   "seg_dur": 6.501,
+   "timing": [
+    {
+     "text": "Then Jesus turned back to the soldier and gave him the one thing he had asked for \u2014 a single word.",
+     "start": 0.0,
+     "end": 5.387
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": "s10-go-thy-way.jpeg",
+   "zoom": "out",
+   "speaker": "en-US-ChristopherNeural",
+   "text": "-20%",
+   "seg_start": 193.669,
+   "audio_start": 193.949,
+   "spoken_end": 197.148,
+   "seg_end": 198.298,
+   "audio_dur": 3.657,
+   "spoken_dur": 3.2,
+   "seg_dur": 4.63,
+   "timing": [
+    {
+     "text": "Go thy way; and as thou hast believed, so be it done unto thee.",
+     "start": 0.0,
+     "end": 3.622
+    }
+   ]
+  },
+  {
+   "seg": "n19",
+   "v1_still": "s10-go-thy-way.jpeg",
+   "zoom": "in",
+   "speaker": "en-US-AndrewNeural",
+   "text": "-16%",
+   "seg_start": 198.298,
+   "audio_start": 198.578,
+   "spoken_end": 205.907,
+   "seg_end": 207.057,
+   "audio_dur": 7.706,
+   "spoken_dur": 7.329,
+   "seg_dur": 8.759,
+   "timing": [
+    {
+     "text": "Go home; it has already happened, just as you trusted it would.",
+     "start": 0.0,
+     "end": 3.216
+    },
+    {
+     "text": "No touch, no visit \u2014 only his word, sent across the town.",
+     "start": 3.216,
+     "end": 7.663
+    }
+   ]
+  },
+  {
+   "seg": "n20",
+   "v1_still": "s11-healing.jpeg",
+   "zoom": "in",
+   "speaker": "en-US-AndrewNeural",
+   "text": "-16%",
+   "seg_start": 207.057,
+   "audio_start": 207.337,
+   "spoken_end": 218.809,
+   "seg_end": 219.959,
+   "audio_dur": 11.833,
+   "spoken_dur": 11.472,
+   "seg_dur": 12.902,
+   "timing": [
+    {
+     "text": "And in that very hour, far away in the Roman house, the young servant drew a deep, clean breath.",
+     "start": 0.0,
+     "end": 5.84
+    },
+    {
+     "text": "The color flowed back into his face, his body loosened, and he sat up, completely well.",
+     "start": 5.84,
+     "end": 11.796
+    }
+   ]
+  },
+  {
+   "seg": "n21",
+   "v1_still": "s11-healing.jpeg",
+   "zoom": "out",
+   "speaker": "en-US-AndrewNeural",
+   "text": "-16%",
+   "seg_start": 219.959,
+   "audio_start": 220.239,
+   "spoken_end": 225.797,
+   "seg_end": 226.947,
+   "audio_dur": 5.982,
+   "spoken_dur": 5.558,
+   "seg_dur": 6.988,
+   "timing": [
+    {
+     "text": "No one was in the room with him.",
+     "start": 0.0,
+     "end": 1.428
+    },
+    {
+     "text": "He was made whole by nothing but the word of a man he had never even met.",
+     "start": 1.428,
+     "end": 5.944
+    }
+   ]
+  },
+  {
+   "seg": "n22",
+   "v1_still": "s12-reunion.jpeg",
+   "zoom": "in",
+   "speaker": "en-US-AndrewNeural",
+   "text": "-16%",
+   "seg_start": 226.947,
+   "audio_start": 227.227,
+   "spoken_end": 239.682,
+   "seg_end": 240.832,
+   "audio_dur": 12.8,
+   "spoken_dur": 12.456,
+   "seg_dur": 13.886,
+   "timing": [
+    {
+     "text": "When the officer reached home, his servant rose to meet him at the door, alive and well.",
+     "start": 0.0,
+     "end": 5.41
+    },
+    {
+     "text": "This hardened soldier, who commanded a hundred men, came apart.",
+     "start": 5.41,
+     "end": 9.056
+    },
+    {
+     "text": "He had trusted Jesus's word, and the word had been enough.",
+     "start": 9.056,
+     "end": 12.771
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "-17%",
+  "seg_start": 240.832,
+  "audio_start": 241.112,
+  "seg_dur": 11.654
+ },
+ "total": 252.487
+}

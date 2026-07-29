@@ -1,0 +1,316 @@
+{
+ "row": 140,
+ "slug": "build-140-naaman-washes",
+ "v1_dir": "media-production/build-140-naaman-washes",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-captain-in-command.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Naaman was a great man. Captain of the armies of Syria, honorable, mighty in valour. And under all that armor \u2014 he was a leper.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 8.873,
+   "seg_end": 9.523,
+   "audio_dur": 8.96,
+   "spoken_dur": 8.593,
+   "seg_dur": 9.523,
+   "timing": [
+    {
+     "text": "Naaman was a great man.",
+     "start": 0.0,
+     "end": 1.649
+    },
+    {
+     "text": "Captain of the armies of Syria, honorable, mighty in valour.",
+     "start": 1.649,
+     "end": 5.949
+    },
+    {
+     "text": "And under all that armor \u2014 he was a leper.",
+     "start": 5.949,
+     "end": 8.96
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-under-the-armor.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "In his house served a young girl carried captive out of Israel. She knew where healing was.",
+   "seg_start": 9.523,
+   "audio_start": 9.803,
+   "spoken_end": 14.523,
+   "seg_end": 15.173,
+   "audio_dur": 5.094,
+   "spoken_dur": 4.72,
+   "seg_dur": 5.65,
+   "timing": [
+    {
+     "text": "In his house served a young girl carried captive out of Israel.",
+     "start": 0.0,
+     "end": 3.566
+    },
+    {
+     "text": "She knew where healing was.",
+     "start": 3.566,
+     "end": 5.094
+    }
+   ]
+  },
+  {
+   "seg": "w1",
+   "v1_still": "s3-the-little-maid.jpeg",
+   "zoom": "in",
+   "speaker": "woman",
+   "text": "Would God my lord were with the prophet that is in Samaria! for he would recover him of his leprosy.",
+   "seg_start": 15.173,
+   "audio_start": 15.453,
+   "spoken_end": 20.774,
+   "seg_end": 22.374,
+   "audio_dur": 5.669,
+   "spoken_dur": 5.321,
+   "seg_dur": 7.201,
+   "timing": [
+    {
+     "text": "Would God my lord were with the prophet that is in Samaria!",
+     "start": 0.0,
+     "end": 3.378
+    },
+    {
+     "text": "for he would recover him of his leprosy.",
+     "start": 3.378,
+     "end": 5.669
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-grandeur-at-a-plain-door.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So Naaman came \u2014 with his horses, his chariots, his silver and gold \u2014 and stood at the door of a plain little house. The prophet didn't even come out. He sent a messenger.",
+   "seg_start": 22.374,
+   "audio_start": 22.654,
+   "spoken_end": 33.259,
+   "seg_end": 33.909,
+   "audio_dur": 10.998,
+   "spoken_dur": 10.605,
+   "seg_dur": 11.535,
+   "timing": [
+    {
+     "text": "So Naaman came \u2014 with his horses, his chariots, his silver and gold \u2014 and stood at the door of a plain little house.",
+     "start": 0.0,
+     "end": 7.549
+    },
+    {
+     "text": "The prophet didn't even come out.",
+     "start": 7.549,
+     "end": 9.696
+    },
+    {
+     "text": "He sent a messenger.",
+     "start": 9.696,
+     "end": 10.998
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "v1_still": "s5-the-messenger.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Go and wash in Jordan seven times, and thy flesh shall come again to thee, and thou shalt be clean.",
+   "seg_start": 33.909,
+   "audio_start": 34.189,
+   "spoken_end": 39.472,
+   "seg_end": 41.072,
+   "audio_dur": 5.564,
+   "spoken_dur": 5.283,
+   "seg_dur": 7.163,
+   "timing": [
+    {
+     "text": "Go and wash in Jordan seven times, and thy flesh shall come again to thee, and thou shalt be clean.",
+     "start": 0.0,
+     "end": 5.564
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s6-riding-away.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "And Naaman was furious. He had expected something great \u2014 a mighty ceremony worthy of a mighty man. It was too plain. Too simple. He turned and rode away in a rage.",
+   "seg_start": 41.072,
+   "audio_start": 41.352,
+   "spoken_end": 51.553,
+   "seg_end": 52.203,
+   "audio_dur": 10.58,
+   "spoken_dur": 10.201,
+   "seg_dur": 11.131,
+   "timing": [
+    {
+     "text": "And Naaman was furious.",
+     "start": 0.0,
+     "end": 1.521
+    },
+    {
+     "text": "He had expected something great \u2014 a mighty ceremony worthy of a mighty man.",
+     "start": 1.521,
+     "end": 6.48
+    },
+    {
+     "text": "It was too plain.",
+     "start": 6.48,
+     "end": 7.604
+    },
+    {
+     "text": "Too simple.",
+     "start": 7.604,
+     "end": 8.331
+    },
+    {
+     "text": "He turned and rode away in a rage.",
+     "start": 8.331,
+     "end": 10.58
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "v1_still": "s7-the-servants-plead.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "If the prophet had bid thee do some great thing, wouldest thou not have done it? how much rather then, when he saith to thee, Wash, and be clean?",
+   "seg_start": 52.203,
+   "audio_start": 52.483,
+   "spoken_end": 60.349,
+   "seg_end": 61.949,
+   "audio_dur": 8.202,
+   "spoken_dur": 7.865,
+   "seg_dur": 9.745,
+   "timing": [
+    {
+     "text": "If the prophet had bid thee do some great thing, wouldest thou not have done it?",
+     "start": 0.0,
+     "end": 4.557
+    },
+    {
+     "text": "how much rather then, when he saith to thee, Wash, and be clean?",
+     "start": 4.557,
+     "end": 8.202
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s8-down-into-the-jordan.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So the great captain went down, and dipped himself in the Jordan. Once. Twice. Seven times, exactly as the man of God had said.",
+   "seg_start": 61.949,
+   "audio_start": 62.229,
+   "spoken_end": 70.419,
+   "seg_end": 71.069,
+   "audio_dur": 8.594,
+   "spoken_dur": 8.191,
+   "seg_dur": 9.121,
+   "timing": [
+    {
+     "text": "So the great captain went down, and dipped himself in the Jordan.",
+     "start": 0.0,
+     "end": 4.505
+    },
+    {
+     "text": "Once.",
+     "start": 4.505,
+     "end": 4.852
+    },
+    {
+     "text": "Twice.",
+     "start": 4.852,
+     "end": 5.267
+    },
+    {
+     "text": "Seven times, exactly as the man of God had said.",
+     "start": 5.267,
+     "end": 8.594
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "v1_still": "s9-clean.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And his flesh came again like unto the flesh of a little child, and he was clean.",
+   "seg_start": 71.069,
+   "audio_start": 71.349,
+   "spoken_end": 75.755,
+   "seg_end": 77.355,
+   "audio_dur": 4.78,
+   "spoken_dur": 4.406,
+   "seg_dur": 6.286,
+   "timing": [
+    {
+     "text": "And his flesh came again like unto the flesh of a little child, and he was clean.",
+     "start": 0.0,
+     "end": 4.78
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s10-armor-on-the-bank.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "The instruction wasn't beneath him. It was the way back. If you've been away, the way back may look almost too simple \u2014 pray again, read again, come back again. Do the simple thing.",
+   "seg_start": 77.355,
+   "audio_start": 77.635,
+   "spoken_end": 90.1,
+   "seg_end": 90.75,
+   "audio_dur": 12.8,
+   "spoken_dur": 12.465,
+   "seg_dur": 13.395,
+   "timing": [
+    {
+     "text": "The instruction wasn't beneath him.",
+     "start": 0.0,
+     "end": 2.517
+    },
+    {
+     "text": "It was the way back.",
+     "start": 2.517,
+     "end": 3.955
+    },
+    {
+     "text": "If you've been away, the way back may look almost too simple \u2014 pray again, read again, come back again.",
+     "start": 3.955,
+     "end": 11.362
+    },
+    {
+     "text": "Do the simple thing.",
+     "start": 11.362,
+     "end": 12.8
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He almost rode away from his healing because it sounded too simple. Do the simple thing.",
+  "seg_start": 90.75,
+  "audio_start": 91.03,
+  "seg_dur": 6.404
+ },
+ "total": 97.153
+}

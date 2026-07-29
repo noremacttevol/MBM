@@ -1,0 +1,214 @@
+{
+ "row": 127,
+ "slug": "build-127-the-strait-gate",
+ "v1_dir": "media-production/build-127-the-strait-gate",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-two-roads.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus stood before the crowd and described two roads \u2014 two ways that every person gets to choose.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 6.195,
+   "seg_end": 6.915,
+   "audio_dur": 6.348,
+   "spoken_dur": 5.915,
+   "seg_dur": 6.915,
+   "timing": [
+    {
+     "text": "Jesus stood before the crowd and described two roads \u2014 two ways that every person gets to choose.",
+     "start": 0.0,
+     "end": 6.316
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s2-the-wide-gate.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Enter ye in at the strait gate: for wide is the gate, and broad is the way, that leadeth to destruction, and many there be which go in thereat:",
+   "seg_start": 6.915,
+   "audio_start": 7.195,
+   "spoken_end": 17.558,
+   "seg_end": 19.158,
+   "audio_dur": 10.867,
+   "spoken_dur": 10.363,
+   "seg_dur": 12.243,
+   "timing": [
+    {
+     "text": "Enter ye in at the strait gate: for wide is the gate, and broad is the way, that leadeth to destruction, and many there be which go in thereat:",
+     "start": 0.0,
+     "end": 10.82
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-the-wide-gate.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "One road looks easy. The gate is wide, the path is broad, and a lot of people walk that way.",
+   "seg_start": 19.158,
+   "audio_start": 19.438,
+   "spoken_end": 24.52,
+   "seg_end": 25.24,
+   "audio_dur": 5.46,
+   "spoken_dur": 5.082,
+   "seg_dur": 6.082,
+   "timing": [
+    {
+     "text": "One road looks easy.",
+     "start": 0.0,
+     "end": 1.358
+    },
+    {
+     "text": "The gate is wide, the path is broad, and a lot of people walk that way.",
+     "start": 1.358,
+     "end": 5.433
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s3-the-narrow-path.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Because strait is the gate, and narrow is the way, which leadeth unto life, and few there be that find it.",
+   "seg_start": 25.24,
+   "audio_start": 25.52,
+   "spoken_end": 32.958,
+   "seg_end": 34.558,
+   "audio_dur": 7.837,
+   "spoken_dur": 7.438,
+   "seg_dur": 9.318,
+   "timing": [
+    {
+     "text": "Because strait is the gate, and narrow is the way, which leadeth unto life, and few there be that find it.",
+     "start": 0.0,
+     "end": 7.802
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-the-gentle-warning.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The other road looks harder. The gate is narrow, the path is tight, and far fewer find it.",
+   "seg_start": 34.558,
+   "audio_start": 34.838,
+   "spoken_end": 39.75,
+   "seg_end": 40.47,
+   "audio_dur": 5.329,
+   "spoken_dur": 4.912,
+   "seg_dur": 5.912,
+   "timing": [
+    {
+     "text": "The other road looks harder.",
+     "start": 0.0,
+     "end": 1.428
+    },
+    {
+     "text": "The gate is narrow, the path is tight, and far fewer find it.",
+     "start": 1.428,
+     "end": 5.294
+    }
+   ]
+  },
+  {
+   "seg": "n3a",
+   "v1_still": "s5-pointing-the-way.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He wasn't describing geography. He was describing a decision.",
+   "seg_start": 40.47,
+   "audio_start": 40.75,
+   "spoken_end": 44.388,
+   "seg_end": 45.108,
+   "audio_dur": 4.023,
+   "spoken_dur": 3.638,
+   "seg_dur": 4.638,
+   "timing": [
+    {
+     "text": "He wasn't describing geography.",
+     "start": 0.0,
+     "end": 1.858
+    },
+    {
+     "text": "He was describing a decision.",
+     "start": 1.858,
+     "end": 3.994
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s6-light-through-the-narrow-gate.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "A narrow gate that leads to life, found by the few who choose it.",
+   "seg_start": 45.108,
+   "audio_start": 45.388,
+   "spoken_end": 48.735,
+   "seg_end": 49.455,
+   "audio_dur": 3.762,
+   "spoken_dur": 3.347,
+   "seg_dur": 4.347,
+   "timing": [
+    {
+     "text": "A narrow gate that leads to life, found by the few who choose it.",
+     "start": 0.0,
+     "end": 3.715
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s7-step-through.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He never said the narrow way would be crowded. He said it leads to life. Both gates are standing open right now, and nobody walks through either one by accident.",
+   "seg_start": 49.455,
+   "audio_start": 49.735,
+   "spoken_end": 58.6,
+   "seg_end": 59.32,
+   "audio_dur": 9.273,
+   "spoken_dur": 8.864,
+   "seg_dur": 9.864,
+   "timing": [
+    {
+     "text": "He never said the narrow way would be crowded.",
+     "start": 0.0,
+     "end": 2.125
+    },
+    {
+     "text": "He said it leads to life.",
+     "start": 2.125,
+     "end": 3.947
+    },
+    {
+     "text": "Both gates are standing open right now, and nobody walks through either one by accident.",
+     "start": 3.947,
+     "end": 9.242
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "There are two gates, and one choice. He said the narrow way is worth finding. Step through.",
+  "seg_start": 59.32,
+  "audio_start": 59.6,
+  "seg_dur": 7.814
+ },
+ "total": 67.134
+}

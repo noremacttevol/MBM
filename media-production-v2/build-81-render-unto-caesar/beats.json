@@ -1,0 +1,404 @@
+{
+ "row": 81,
+ "slug": "build-81-render-unto-caesar",
+ "v1_dir": "media-production/build-81-render-unto-caesar",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.5,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": [
+    [
+     "s1-the-flatterers.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "Some officials came to Jesus with a question built to trap him \u2014 flattering him first, so he'd let his guard down.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 6.365,
+   "seg_end": 7.085,
+   "audio_dur": 6.452,
+   "spoken_dur": 6.085,
+   "seg_dur": 7.085,
+   "timing": [
+    {
+     "text": "Some officials came to Jesus with a question built to trap him \u2014 flattering him first, so he'd let his guard down.",
+     "start": 0.0,
+     "end": 6.409
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "v1_still": [
+    [
+     "s2-the-mask.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "scripture",
+   "text": "Master, we know that thou art true, and carest for no man: for thou regardest not the person of men, but teachest the way of God in truth: Is it lawful to give tribute to Caesar, or not? Shall we give, or shall we not give?",
+   "seg_start": 7.085,
+   "audio_start": 7.365,
+   "spoken_end": 22.899,
+   "seg_end": 24.399,
+   "audio_dur": 16.013,
+   "spoken_dur": 15.534,
+   "seg_dur": 17.314,
+   "timing": [
+    {
+     "text": "Master, we know that thou art true, and carest for no man: for thou regardest not the person of men, but teachest the way of God in truth: Is it lawful to give tribute to Caesar, or not?",
+     "start": 0.0,
+     "end": 12.817
+    },
+    {
+     "text": "Shall we give, or shall we not give?",
+     "start": 12.817,
+     "end": 15.975
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": [
+    [
+     "s2-the-mask.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "Is it lawful to pay taxes to Caesar, or not? Say yes, and the crowd turns on you. Say no, and Rome arrests you. There was no safe answer.",
+   "seg_start": 24.399,
+   "audio_start": 24.679,
+   "spoken_end": 34.448,
+   "seg_end": 35.168,
+   "audio_dur": 10.214,
+   "spoken_dur": 9.769,
+   "seg_dur": 10.769,
+   "timing": [
+    {
+     "text": "Is it lawful to pay taxes to Caesar, or not?",
+     "start": 0.0,
+     "end": 3.077
+    },
+    {
+     "text": "Say yes, and the crowd turns on you.",
+     "start": 3.077,
+     "end": 5.48
+    },
+    {
+     "text": "Say no, and Rome arrests you.",
+     "start": 5.48,
+     "end": 8.231
+    },
+    {
+     "text": "There was no safe answer.",
+     "start": 8.231,
+     "end": 10.17
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": [
+    [
+     "s3-he-saw-through-it.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "Jesus saw straight through it.",
+   "seg_start": 35.168,
+   "audio_start": 35.448,
+   "spoken_end": 36.748,
+   "seg_end": 37.468,
+   "audio_dur": 1.75,
+   "spoken_dur": 1.3,
+   "seg_dur": 2.3,
+   "timing": [
+    {
+     "text": "Jesus saw straight through it.",
+     "start": 0.0,
+     "end": 1.718
+    }
+   ]
+  },
+  {
+   "seg": "s15",
+   "v1_still": [
+    [
+     "s4-bring-me-a-penny.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "scripture",
+   "text": "But he, knowing their hypocrisy, said unto them,",
+   "seg_start": 37.468,
+   "audio_start": 37.748,
+   "spoken_end": 40.552,
+   "seg_end": 42.052,
+   "audio_dur": 3.161,
+   "spoken_dur": 2.804,
+   "seg_dur": 4.584,
+   "timing": [
+    {
+     "text": "But he, knowing their hypocrisy, said unto them,",
+     "start": 0.0,
+     "end": 3.111
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": [
+    [
+     "s4-bring-me-a-penny.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "jesus",
+   "text": "Why tempt ye me? bring me a penny, that I may see it.",
+   "seg_start": 42.052,
+   "audio_start": 42.332,
+   "spoken_end": 45.516,
+   "seg_end": 47.016,
+   "audio_dur": 3.605,
+   "spoken_dur": 3.184,
+   "seg_dur": 4.964,
+   "timing": [
+    {
+     "text": "Why tempt ye me?",
+     "start": 0.0,
+     "end": 1.138
+    },
+    {
+     "text": "bring me a penny, that I may see it.",
+     "start": 1.138,
+     "end": 3.576
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": [
+    [
+     "s5-the-image-on-the-coin.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "They brought one \u2014 a small silver Roman coin. He held it up where everyone could see.",
+   "seg_start": 47.016,
+   "audio_start": 47.296,
+   "spoken_end": 52.466,
+   "seg_end": 53.186,
+   "audio_dur": 5.564,
+   "spoken_dur": 5.17,
+   "seg_dur": 6.17,
+   "timing": [
+    {
+     "text": "They brought one \u2014 a small silver Roman coin.",
+     "start": 0.0,
+     "end": 3.111
+    },
+    {
+     "text": "He held it up where everyone could see.",
+     "start": 3.111,
+     "end": 5.526
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": [
+    [
+     "s6-whose-image.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "jesus",
+   "text": "Whose is this image and superscription?",
+   "seg_start": 53.186,
+   "audio_start": 53.466,
+   "spoken_end": 55.516,
+   "seg_end": 57.016,
+   "audio_dur": 2.456,
+   "spoken_dur": 2.05,
+   "seg_dur": 3.83,
+   "timing": [
+    {
+     "text": "Whose is this image and superscription?",
+     "start": 0.0,
+     "end": 2.415
+    }
+   ]
+  },
+  {
+   "seg": "s16",
+   "v1_still": [
+    [
+     "s6-whose-image.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "scripture",
+   "text": "And they said unto him, Caesar's.",
+   "seg_start": 57.016,
+   "audio_start": 57.296,
+   "spoken_end": 59.113,
+   "seg_end": 60.613,
+   "audio_dur": 2.22,
+   "spoken_dur": 1.818,
+   "seg_dur": 3.598,
+   "timing": [
+    {
+     "text": "And they said unto him, Caesar's.",
+     "start": 0.0,
+     "end": 2.183
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": [
+    [
+     "s6-whose-image.jpeg",
+     "out"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "Whose face is this, he asked them, and whose name. They said it was Caesar's. And with that, the trap they had built swung shut on them instead.",
+   "seg_start": 60.613,
+   "audio_start": 60.893,
+   "spoken_end": 69.702,
+   "seg_end": 70.422,
+   "audio_dur": 9.195,
+   "spoken_dur": 8.808,
+   "seg_dur": 9.808,
+   "timing": [
+    {
+     "text": "Whose face is this, he asked them, and whose name.",
+     "start": 0.0,
+     "end": 3.053
+    },
+    {
+     "text": "They said it was Caesar's.",
+     "start": 3.053,
+     "end": 4.888
+    },
+    {
+     "text": "And with that, the trap they had built swung shut on them instead.",
+     "start": 4.888,
+     "end": 9.149
+    }
+   ]
+  },
+  {
+   "seg": "s17",
+   "v1_still": [
+    [
+     "s7-the-answer.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "scripture",
+   "text": "And Jesus answering said unto them,",
+   "seg_start": 70.422,
+   "audio_start": 70.702,
+   "spoken_end": 72.72,
+   "seg_end": 74.22,
+   "audio_dur": 2.403,
+   "spoken_dur": 2.019,
+   "seg_dur": 3.799,
+   "timing": [
+    {
+     "text": "And Jesus answering said unto them,",
+     "start": 0.0,
+     "end": 2.368
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": [
+    [
+     "s7-the-answer.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "jesus",
+   "text": "Render to Caesar the things that are Caesar's, and to God the things that are God's.",
+   "seg_start": 74.22,
+   "audio_start": 74.5,
+   "spoken_end": 78.883,
+   "seg_end": 80.383,
+   "audio_dur": 4.78,
+   "spoken_dur": 4.382,
+   "seg_dur": 6.162,
+   "timing": [
+    {
+     "text": "Render to Caesar the things that are Caesar's, and to God the things that are God's.",
+     "start": 0.0,
+     "end": 4.737
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": [
+    [
+     "s8-two-images.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "The coin bore Caesar's image, so give it back to Caesar. But you bear God's image \u2014 so the real question is what you owe to the One whose face you carry.",
+   "seg_start": 80.383,
+   "audio_start": 80.663,
+   "spoken_end": 90.596,
+   "seg_end": 91.316,
+   "audio_dur": 10.292,
+   "spoken_dur": 9.933,
+   "seg_dur": 10.933,
+   "timing": [
+    {
+     "text": "The coin bore Caesar's image, so give it back to Caesar.",
+     "start": 0.0,
+     "end": 3.483
+    },
+    {
+     "text": "But you bear God's image \u2014 so the real question is what you owe to the One whose face you carry.",
+     "start": 3.483,
+     "end": 10.263
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "The coin belonged to Caesar because it bore his face. You bear God's. What does that make you worth to him?",
+  "seg_start": 91.316,
+  "audio_start": 91.596,
+  "seg_dur": 8.729
+ },
+ "total": 100.044
+}

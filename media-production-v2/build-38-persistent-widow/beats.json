@@ -1,0 +1,461 @@
+{
+ "row": 38,
+ "slug": "build-38-persistent-widow",
+ "v1_dir": "media-production/build-38-persistent-widow",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.15,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "s1",
+   "v1_still": "s1-widow-alone.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And he spake a parable unto them to this end, that men ought always to pray, and not to faint.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 6.011,
+   "seg_end": 7.161,
+   "audio_dur": 6.165,
+   "spoken_dur": 5.731,
+   "seg_dur": 7.161,
+   "timing": [
+    {
+     "text": "And he spake a parable unto them to this end, that men ought always to pray, and not to faint.",
+     "start": 0.0,
+     "end": 6.13
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s1-widow-alone.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Luke tells us up front why Jesus told this one. He wanted people to keep praying and not lose heart. That is the whole reason the story exists.",
+   "seg_start": 7.161,
+   "audio_start": 7.441,
+   "spoken_end": 14.822,
+   "seg_end": 15.542,
+   "audio_dur": 7.837,
+   "spoken_dur": 7.381,
+   "seg_dur": 8.381,
+   "timing": [
+    {
+     "text": "Luke tells us up front why Jesus told this one.",
+     "start": 0.0,
+     "end": 2.345
+    },
+    {
+     "text": "He wanted people to keep praying and not lose heart.",
+     "start": 2.345,
+     "end": 5.12
+    },
+    {
+     "text": "That is the whole reason the story exists.",
+     "start": 5.12,
+     "end": 7.802
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s1-widow-alone.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus told a story about a widow. She had lost her husband and had no one to protect her. Someone had wronged her, and she had no power, no money, no one important to make anyone listen.",
+   "seg_start": 15.542,
+   "audio_start": 15.822,
+   "spoken_end": 27.406,
+   "seg_end": 28.126,
+   "audio_dur": 12.016,
+   "spoken_dur": 11.584,
+   "seg_dur": 12.584,
+   "timing": [
+    {
+     "text": "Jesus told a story about a widow.",
+     "start": 0.0,
+     "end": 1.718
+    },
+    {
+     "text": "She had lost her husband and had no one to protect her.",
+     "start": 1.718,
+     "end": 4.876
+    },
+    {
+     "text": "Someone had wronged her, and she had no power, no money, no one important to make anyone listen.",
+     "start": 4.876,
+     "end": 11.981
+    }
+   ]
+  },
+  {
+   "seg": "jv2",
+   "v1_still": "s2-widow-pleads.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "There was in a city a judge, which feared not God, neither regarded man: And there was a widow in that city; and she came unto him, saying, Avenge me of mine adversary.",
+   "seg_start": 28.126,
+   "audio_start": 28.406,
+   "spoken_end": 40.211,
+   "seg_end": 41.361,
+   "audio_dur": 12.199,
+   "spoken_dur": 11.805,
+   "seg_dur": 13.235,
+   "timing": [
+    {
+     "text": "There was in a city a judge, which feared not God, neither regarded man: And there was a widow in that city; and she came unto him, saying, Avenge me of mine adversary.",
+     "start": 0.0,
+     "end": 12.167
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-widow-pleads.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "The widow came to him with one simple plea: give me justice against the man who wronged me.",
+   "seg_start": 41.361,
+   "audio_start": 41.641,
+   "spoken_end": 46.955,
+   "seg_end": 47.675,
+   "audio_dur": 5.747,
+   "spoken_dur": 5.314,
+   "seg_dur": 6.314,
+   "timing": [
+    {
+     "text": "The widow came to him with one simple plea: give me justice against the man who wronged me.",
+     "start": 0.0,
+     "end": 5.712
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-judge-dismisses.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But the judge did not care. He waved her away. She had nothing to offer him, no bribe, no rank, no reason for him to lift a finger.",
+   "seg_start": 47.675,
+   "audio_start": 47.955,
+   "spoken_end": 57.135,
+   "seg_end": 57.855,
+   "audio_dur": 9.561,
+   "spoken_dur": 9.18,
+   "seg_dur": 10.18,
+   "timing": [
+    {
+     "text": "But the judge did not care.",
+     "start": 0.0,
+     "end": 1.405
+    },
+    {
+     "text": "He waved her away.",
+     "start": 1.405,
+     "end": 2.868
+    },
+    {
+     "text": "She had nothing to offer him, no bribe, no rank, no reason for him to lift a finger.",
+     "start": 2.868,
+     "end": 9.52
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-again-and-again.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So she came back. And again. And again. She would not stop. Every day the same worn face at his door, the same steady voice asking for what was right.",
+   "seg_start": 57.855,
+   "audio_start": 58.135,
+   "spoken_end": 69.62,
+   "seg_end": 70.34,
+   "audio_dur": 11.964,
+   "spoken_dur": 11.486,
+   "seg_dur": 12.486,
+   "timing": [
+    {
+     "text": "So she came back.",
+     "start": 0.0,
+     "end": 1.324
+    },
+    {
+     "text": "And again.",
+     "start": 1.324,
+     "end": 2.554
+    },
+    {
+     "text": "And again.",
+     "start": 2.554,
+     "end": 3.715
+    },
+    {
+     "text": "She would not stop.",
+     "start": 3.715,
+     "end": 5.584
+    },
+    {
+     "text": "Every day the same worn face at his door, the same steady voice asking for what was right.",
+     "start": 5.584,
+     "end": 11.935
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s5-judge-relents.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Though I fear not God, nor regard man; yet because this widow troubleth me, I will avenge her, lest by her continual coming she weary me.",
+   "seg_start": 70.34,
+   "audio_start": 70.62,
+   "spoken_end": 81.165,
+   "seg_end": 82.315,
+   "audio_dur": 10.945,
+   "spoken_dur": 10.545,
+   "seg_dur": 11.975,
+   "timing": [
+    {
+     "text": "Though I fear not God, nor regard man; yet because this widow troubleth me, I will avenge her, lest by her continual coming she weary me.",
+     "start": 0.0,
+     "end": 10.913
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-judge-relents.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Fine, the judge finally said. I do not fear God, and I do not care about her. But she is wearing me out. I will give her justice just to be rid of her.",
+   "seg_start": 82.315,
+   "audio_start": 82.595,
+   "spoken_end": 92.057,
+   "seg_end": 92.777,
+   "audio_dur": 9.874,
+   "spoken_dur": 9.462,
+   "seg_dur": 10.462,
+   "timing": [
+    {
+     "text": "Fine, the judge finally said.",
+     "start": 0.0,
+     "end": 1.579
+    },
+    {
+     "text": "I do not fear God, and I do not care about her.",
+     "start": 1.579,
+     "end": 5.062
+    },
+    {
+     "text": "But she is wearing me out.",
+     "start": 5.062,
+     "end": 6.92
+    },
+    {
+     "text": "I will give her justice just to be rid of her.",
+     "start": 6.92,
+     "end": 9.845
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s6-praying-heard.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Hear what the unjust judge saith. And shall not God avenge his own elect, which cry day and night unto him, though he bear long with them?",
+   "seg_start": 92.777,
+   "audio_start": 93.057,
+   "spoken_end": 102.069,
+   "seg_end": 103.219,
+   "audio_dur": 9.43,
+   "spoken_dur": 9.012,
+   "seg_dur": 10.442,
+   "timing": [
+    {
+     "text": "Hear what the unjust judge saith.",
+     "start": 0.0,
+     "end": 2.02
+    },
+    {
+     "text": "And shall not God avenge his own elect, which cry day and night unto him, though he bear long with them?",
+     "start": 2.02,
+     "end": 9.381
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6-praying-heard.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Listen to what even that cold judge finally did, Jesus said. Now think about God. If a man who cares for no one will still give justice to the one who keeps coming, how much more will your Father, who loves you, hear you?",
+   "seg_start": 103.219,
+   "audio_start": 103.499,
+   "spoken_end": 116.363,
+   "seg_end": 117.083,
+   "audio_dur": 13.322,
+   "spoken_dur": 12.864,
+   "seg_dur": 13.864,
+   "timing": [
+    {
+     "text": "Listen to what even that cold judge finally did, Jesus said.",
+     "start": 0.0,
+     "end": 3.715
+    },
+    {
+     "text": "Now think about God.",
+     "start": 3.715,
+     "end": 5.399
+    },
+    {
+     "text": "If a man who cares for no one will still give justice to the one who keeps coming, how much more will your Father, who loves you, hear you?",
+     "start": 5.399,
+     "end": 13.282
+    }
+   ]
+  },
+  {
+   "seg": "jv8",
+   "v1_still": "s7-the-good-father.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "I tell you that he will avenge them speedily. Nevertheless when the Son of man cometh, shall he find faith on the earth?",
+   "seg_start": 117.083,
+   "audio_start": 117.363,
+   "spoken_end": 125.229,
+   "seg_end": 126.379,
+   "audio_dur": 8.359,
+   "spoken_dur": 7.866,
+   "seg_dur": 9.296,
+   "timing": [
+    {
+     "text": "I tell you that he will avenge them speedily.",
+     "start": 0.0,
+     "end": 2.67
+    },
+    {
+     "text": "Nevertheless when the Son of man cometh, shall he find faith on the earth?",
+     "start": 2.67,
+     "end": 8.313
+    }
+   ]
+  },
+  {
+   "seg": "n7b",
+   "v1_still": "s7-the-good-father.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He will not drag his feet, Jesus said. He will act, and quickly. And then he asked one more question, almost quietly. When the Son of Man comes back, will he find anybody still believing that?",
+   "seg_start": 126.379,
+   "audio_start": 126.659,
+   "spoken_end": 138.699,
+   "seg_end": 139.419,
+   "audio_dur": 12.434,
+   "spoken_dur": 12.04,
+   "seg_dur": 13.04,
+   "timing": [
+    {
+     "text": "He will not drag his feet, Jesus said.",
+     "start": 0.0,
+     "end": 2.159
+    },
+    {
+     "text": "He will act, and quickly.",
+     "start": 2.159,
+     "end": 4.191
+    },
+    {
+     "text": "And then he asked one more question, almost quietly.",
+     "start": 4.191,
+     "end": 7.314
+    },
+    {
+     "text": "When the Son of Man comes back, will he find anybody still believing that?",
+     "start": 7.314,
+     "end": 12.399
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s7-the-good-father.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Here is the whole point. God is not that judge. He is not reluctant. He is not annoyed by you. He does not have to be worn down into caring, because he already loves you, and he already wants to hear you.",
+   "seg_start": 139.419,
+   "audio_start": 139.699,
+   "spoken_end": 151.546,
+   "seg_end": 152.266,
+   "audio_dur": 12.304,
+   "spoken_dur": 11.847,
+   "seg_dur": 12.847,
+   "timing": [
+    {
+     "text": "Here is the whole point.",
+     "start": 0.0,
+     "end": 0.987
+    },
+    {
+     "text": "God is not that judge.",
+     "start": 0.987,
+     "end": 2.775
+    },
+    {
+     "text": "He is not reluctant.",
+     "start": 2.775,
+     "end": 4.493
+    },
+    {
+     "text": "He is not annoyed by you.",
+     "start": 4.493,
+     "end": 6.142
+    },
+    {
+     "text": "He does not have to be worn down into caring, because he already loves you, and he already wants to hear you.",
+     "start": 6.142,
+     "end": 12.26
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s7-the-good-father.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "So when Jesus says to keep praying and never give up, it is not because God is hard to move. It is because he is the very opposite of that judge, and he has been waiting to hear from you all along.",
+   "seg_start": 152.266,
+   "audio_start": 152.546,
+   "spoken_end": 164.61,
+   "seg_end": 165.33,
+   "audio_dur": 12.434,
+   "spoken_dur": 12.064,
+   "seg_dur": 13.064,
+   "timing": [
+    {
+     "text": "So when Jesus says to keep praying and never give up, it is not because God is hard to move.",
+     "start": 0.0,
+     "end": 5.84
+    },
+    {
+     "text": "It is because he is the very opposite of that judge, and he has been waiting to hear from you all along.",
+     "start": 5.84,
+     "end": 12.399
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "God is not the reluctant judge. What have you stopped asking him for, because you assumed he wasn't listening?",
+  "seg_start": 165.33,
+  "audio_start": 165.61,
+  "seg_dur": 8.311
+ },
+ "total": 173.641
+}

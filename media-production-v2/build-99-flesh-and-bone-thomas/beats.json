@@ -1,0 +1,229 @@
+{
+ "row": 99,
+ "slug": "build-99-flesh-and-bone-thomas",
+ "v1_dir": "media-production/build-99-flesh-and-bone-thomas",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-he-stood-among-them.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The disciples were hiding behind locked doors, afraid, when Jesus suddenly stood among them. They thought they were seeing a ghost.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 7.692,
+   "seg_end": 8.342,
+   "audio_dur": 7.889,
+   "spoken_dur": 7.412,
+   "seg_dur": 8.342,
+   "timing": [
+    {
+     "text": "The disciples were hiding behind locked doors, afraid, when Jesus suddenly stood among them.",
+     "start": 0.0,
+     "end": 5.48
+    },
+    {
+     "text": "They thought they were seeing a ghost.",
+     "start": 5.48,
+     "end": 7.848
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s3-terror-to-joy.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He calmed them and showed them it was really him \u2014 flesh and bone, not a spirit.",
+   "seg_start": 8.342,
+   "audio_start": 8.622,
+   "spoken_end": 13.136,
+   "seg_end": 13.786,
+   "audio_dur": 4.911,
+   "spoken_dur": 4.514,
+   "seg_dur": 5.444,
+   "timing": [
+    {
+     "text": "He calmed them and showed them it was really him \u2014 flesh and bone, not a spirit.",
+     "start": 0.0,
+     "end": 4.876
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s2-behold-my-hands.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Behold my hands and my feet, that it is I myself: handle me, and see; for a spirit hath not flesh and bones, as ye see me have.",
+   "seg_start": 13.786,
+   "audio_start": 14.066,
+   "spoken_end": 24.053,
+   "seg_end": 25.653,
+   "audio_dur": 10.449,
+   "spoken_dur": 9.987,
+   "seg_dur": 11.867,
+   "timing": [
+    {
+     "text": "Behold my hands and my feet, that it is I myself: handle me, and see; for a spirit hath not flesh and bones, as ye see me have.",
+     "start": 0.0,
+     "end": 10.403
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s5-thomas-doubts.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But Thomas wasn't there. And when they told him what they had seen, he would not have it.",
+   "seg_start": 25.653,
+   "audio_start": 25.933,
+   "spoken_end": 31.065,
+   "seg_end": 31.715,
+   "audio_dur": 5.669,
+   "spoken_dur": 5.132,
+   "seg_dur": 6.062,
+   "timing": [
+    {
+     "text": "But Thomas wasn't there.",
+     "start": 0.0,
+     "end": 1.509
+    },
+    {
+     "text": "And when they told him what they had seen, he would not have it.",
+     "start": 1.509,
+     "end": 5.619
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s4-the-quiet-proof.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "It was eight days later when Jesus appeared again \u2014 and he turned straight to Thomas, and offered him that exact proof, in almost the same words Thomas had used.",
+   "seg_start": 31.715,
+   "audio_start": 31.995,
+   "spoken_end": 40.806,
+   "seg_end": 41.456,
+   "audio_dur": 9.221,
+   "spoken_dur": 8.811,
+   "seg_dur": 9.741,
+   "timing": [
+    {
+     "text": "It was eight days later when Jesus appeared again \u2014 and he turned straight to Thomas, and offered him that exact proof, in almost the same words Thomas had used.",
+     "start": 0.0,
+     "end": 9.195
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s6-reach-hither.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Reach hither thy finger, and behold my hands; and reach hither thy hand, and thrust it into my side: and be not faithless, but believing.",
+   "seg_start": 41.456,
+   "audio_start": 41.736,
+   "spoken_end": 51.438,
+   "seg_end": 53.038,
+   "audio_dur": 10.057,
+   "spoken_dur": 9.702,
+   "seg_dur": 11.582,
+   "timing": [
+    {
+     "text": "Reach hither thy finger, and behold my hands; and reach hither thy hand, and thrust it into my side: and be not faithless, but believing.",
+     "start": 0.0,
+     "end": 10.031
+    }
+   ]
+  },
+  {
+   "seg": "n4a",
+   "v1_still": "s7-my-lord-and-my-god.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That is all Thomas said. He never did reach out and touch anything. Jesus didn't scold him for doubting \u2014 he met the doubt with his own hands, and the doubt was over.",
+   "seg_start": 53.038,
+   "audio_start": 53.318,
+   "spoken_end": 63.047,
+   "seg_end": 63.697,
+   "audio_dur": 10.109,
+   "spoken_dur": 9.729,
+   "seg_dur": 10.659,
+   "timing": [
+    {
+     "text": "That is all Thomas said.",
+     "start": 0.0,
+     "end": 1.474
+    },
+    {
+     "text": "He never did reach out and touch anything.",
+     "start": 1.474,
+     "end": 3.947
+    },
+    {
+     "text": "Jesus didn't scold him for doubting \u2014 he met the doubt with his own hands, and the doubt was over.",
+     "start": 3.947,
+     "end": 10.077
+    }
+   ]
+  },
+  {
+   "seg": "n4b",
+   "v1_still": "s8-the-open-hand.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "You believed because you saw me, he told him. Blessed are the ones who have not seen, and believe anyway. That last line was not about Thomas. That one was about you. And that's what he does with honest doubt \u2014 he steps toward it.",
+   "seg_start": 63.697,
+   "audio_start": 63.977,
+   "spoken_end": 78.516,
+   "seg_end": 79.166,
+   "audio_dur": 14.994,
+   "spoken_dur": 14.539,
+   "seg_dur": 15.469,
+   "timing": [
+    {
+     "text": "You believed because you saw me, he told him.",
+     "start": 0.0,
+     "end": 2.438
+    },
+    {
+     "text": "Blessed are the ones who have not seen, and believe anyway.",
+     "start": 2.438,
+     "end": 6.385
+    },
+    {
+     "text": "That last line was not about Thomas.",
+     "start": 6.385,
+     "end": 9.253
+    },
+    {
+     "text": "That one was about you.",
+     "start": 9.253,
+     "end": 10.983
+    },
+    {
+     "text": "And that's what he does with honest doubt \u2014 he steps toward it.",
+     "start": 10.983,
+     "end": 14.954
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He met a doubter with open hands, not anger. Bring him your doubt. He can handle it.",
+  "seg_start": 79.166,
+  "audio_start": 79.446,
+  "seg_dur": 6.456
+ },
+ "total": 85.622
+}

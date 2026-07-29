@@ -1,0 +1,251 @@
+{
+ "row": 78,
+ "slug": "build-78-who-is-my-mother",
+ "v1_dir": "media-production/build-78-who-is-my-mother",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-the-packed-house.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus was inside a packed house, teaching, when word came in from the edge of the crowd.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 4.601,
+   "seg_end": 5.321,
+   "audio_dur": 4.676,
+   "spoken_dur": 4.321,
+   "seg_dur": 5.321,
+   "timing": [
+    {
+     "text": "Jesus was inside a packed house, teaching, when word came in from the edge of the crowd.",
+     "start": 0.0,
+     "end": 4.644
+    }
+   ]
+  },
+  {
+   "seg": "n1a",
+   "v1_still": "s2-standing-without.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "His mother and his brothers were standing outside, asking for him.",
+   "seg_start": 5.321,
+   "audio_start": 5.601,
+   "spoken_end": 8.443,
+   "seg_end": 9.163,
+   "audio_dur": 3.239,
+   "spoken_dur": 2.842,
+   "seg_dur": 3.842,
+   "timing": [
+    {
+     "text": "His mother and his brothers were standing outside, asking for him.",
+     "start": 0.0,
+     "end": 3.204
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s3-word-passed-in.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The people sitting around him passed it forward, and Mark writes down exactly what they said:",
+   "seg_start": 9.163,
+   "audio_start": 9.443,
+   "spoken_end": 13.815,
+   "seg_end": 14.535,
+   "audio_dur": 4.78,
+   "spoken_dur": 4.372,
+   "seg_dur": 5.372,
+   "timing": [
+    {
+     "text": "The people sitting around him passed it forward, and Mark writes down exactly what they said:",
+     "start": 0.0,
+     "end": 4.737
+    }
+   ]
+  },
+  {
+   "seg": "s32",
+   "v1_still": "s3-word-passed-in.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Behold, thy mother and thy brethren without seek for thee.",
+   "seg_start": 14.535,
+   "audio_start": 14.815,
+   "spoken_end": 17.789,
+   "seg_end": 19.389,
+   "audio_dur": 3.37,
+   "spoken_dur": 2.975,
+   "seg_dur": 4.855,
+   "timing": [
+    {
+     "text": "Behold, thy mother and thy brethren without seek for thee.",
+     "start": 0.0,
+     "end": 3.344
+    }
+   ]
+  },
+  {
+   "seg": "n1c",
+   "v1_still": "s3-word-passed-in.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Look \u2014 your mother and your brothers are outside, and they're asking for you. Everyone in that room knew what happens next. You stop teaching, and you go out to your family.",
+   "seg_start": 19.389,
+   "audio_start": 19.669,
+   "spoken_end": 28.568,
+   "seg_end": 29.288,
+   "audio_dur": 9.326,
+   "spoken_dur": 8.899,
+   "seg_dur": 9.899,
+   "timing": [
+    {
+     "text": "Look \u2014 your mother and your brothers are outside, and they're asking for you.",
+     "start": 0.0,
+     "end": 3.634
+    },
+    {
+     "text": "Everyone in that room knew what happens next.",
+     "start": 3.634,
+     "end": 6.235
+    },
+    {
+     "text": "You stop teaching, and you go out to your family.",
+     "start": 6.235,
+     "end": 9.288
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s5-the-question.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Who is my mother, or my brethren?",
+   "seg_start": 29.288,
+   "audio_start": 29.568,
+   "spoken_end": 31.67,
+   "seg_end": 33.27,
+   "audio_dur": 2.508,
+   "spoken_dur": 2.102,
+   "seg_dur": 3.982,
+   "timing": [
+    {
+     "text": "Who is my mother, or my brethren?",
+     "start": 0.0,
+     "end": 2.461
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-he-looked-around.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Nobody expected that. Then he looked slowly around at the ordinary people sitting in a circle right in front of him \u2014 farmers, fishermen, mothers, a child \u2014 and answered his own question.",
+   "seg_start": 33.27,
+   "audio_start": 33.55,
+   "spoken_end": 45.718,
+   "seg_end": 46.438,
+   "audio_dur": 12.565,
+   "spoken_dur": 12.168,
+   "seg_dur": 13.168,
+   "timing": [
+    {
+     "text": "Nobody expected that.",
+     "start": 0.0,
+     "end": 1.324
+    },
+    {
+     "text": "Then he looked slowly around at the ordinary people sitting in a circle right in front of him \u2014 farmers, fishermen, mothers, a child \u2014 and answered his own question.",
+     "start": 1.324,
+     "end": 12.539
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s6-behold-my-family.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Behold my mother and my brethren!",
+   "seg_start": 46.438,
+   "audio_start": 46.718,
+   "spoken_end": 48.543,
+   "seg_end": 50.143,
+   "audio_dur": 2.22,
+   "spoken_dur": 1.825,
+   "seg_dur": 3.705,
+   "timing": [
+    {
+     "text": "Behold my mother and my brethren!",
+     "start": 0.0,
+     "end": 2.183
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": "s7-like-a-family.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "For whosoever shall do the will of God, the same is my brother, and my sister, and mother.",
+   "seg_start": 50.143,
+   "audio_start": 50.423,
+   "spoken_end": 56.137,
+   "seg_end": 57.737,
+   "audio_dur": 6.113,
+   "spoken_dur": 5.714,
+   "seg_dur": 7.594,
+   "timing": [
+    {
+     "text": "For whosoever shall do the will of God, the same is my brother, and my sister, and mother.",
+     "start": 0.0,
+     "end": 6.084
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s8-the-open-door.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He wasn't pushing his family away. He was opening the circle \u2014 telling a room full of nobodies they could belong to him like blood.",
+   "seg_start": 57.737,
+   "audio_start": 58.017,
+   "spoken_end": 65.728,
+   "seg_end": 66.448,
+   "audio_dur": 8.124,
+   "spoken_dur": 7.712,
+   "seg_dur": 8.712,
+   "timing": [
+    {
+     "text": "He wasn't pushing his family away.",
+     "start": 0.0,
+     "end": 1.66
+    },
+    {
+     "text": "He was opening the circle \u2014 telling a room full of nobodies they could belong to him like blood.",
+     "start": 1.66,
+     "end": 8.081
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He drew the family line around whoever would come. That door is open to you too.",
+  "seg_start": 66.448,
+  "audio_start": 66.728,
+  "seg_dur": 6.56
+ },
+ "total": 73.009
+}

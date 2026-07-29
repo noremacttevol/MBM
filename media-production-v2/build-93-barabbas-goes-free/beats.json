@@ -1,0 +1,349 @@
+{
+ "row": 93,
+ "slug": "build-93-barabbas-goes-free",
+ "v1_dir": "media-production/build-93-barabbas-goes-free",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-two-men-before-the-crowd.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "It was the custom at Passover for the governor to release one prisoner the crowd chose. Pilate had two men: Jesus, and a killer named Barabbas.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 9.857,
+   "seg_end": 10.507,
+   "audio_dur": 9.927,
+   "spoken_dur": 9.577,
+   "seg_dur": 10.507,
+   "timing": [
+    {
+     "text": "It was the custom at Passover for the governor to release one prisoner the crowd chose.",
+     "start": 0.0,
+     "end": 5.213
+    },
+    {
+     "text": "Pilate had two men: Jesus, and a killer named Barabbas.",
+     "start": 5.213,
+     "end": 9.892
+    }
+   ]
+  },
+  {
+   "seg": "n1a",
+   "v1_still": "s2-pilate-weighs-it.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Pilate could see Jesus had done nothing worth death. So he put the choice to the crowd himself.",
+   "seg_start": 10.507,
+   "audio_start": 10.787,
+   "spoken_end": 15.775,
+   "seg_end": 16.425,
+   "audio_dur": 5.433,
+   "spoken_dur": 4.988,
+   "seg_dur": 5.918,
+   "timing": [
+    {
+     "text": "Pilate could see Jesus had done nothing worth death.",
+     "start": 0.0,
+     "end": 2.728
+    },
+    {
+     "text": "So he put the choice to the crowd himself.",
+     "start": 2.728,
+     "end": 5.387
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "v1_still": "s2-pilate-weighs-it.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Will ye that I release unto you the King of the Jews?",
+   "seg_start": 16.425,
+   "audio_start": 16.705,
+   "spoken_end": 19.233,
+   "seg_end": 20.833,
+   "audio_dur": 2.873,
+   "spoken_dur": 2.528,
+   "seg_dur": 4.408,
+   "timing": [
+    {
+     "text": "Will ye that I release unto you the King of the Jews?",
+     "start": 0.0,
+     "end": 2.833
+    }
+   ]
+  },
+  {
+   "seg": "n1a2",
+   "v1_still": "s2-pilate-weighs-it.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He was almost offering it to them.",
+   "seg_start": 20.833,
+   "audio_start": 21.113,
+   "spoken_end": 22.943,
+   "seg_end": 23.593,
+   "audio_dur": 2.22,
+   "spoken_dur": 1.83,
+   "seg_dur": 2.76,
+   "timing": [
+    {
+     "text": "He was almost offering it to them.",
+     "start": 0.0,
+     "end": 2.183
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s3-the-innocent-one.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He thought the crowd would surely pick the innocent one.",
+   "seg_start": 23.593,
+   "audio_start": 23.873,
+   "spoken_end": 26.53,
+   "seg_end": 27.18,
+   "audio_dur": 2.952,
+   "spoken_dur": 2.657,
+   "seg_dur": 3.587,
+   "timing": [
+    {
+     "text": "He thought the crowd would surely pick the innocent one.",
+     "start": 0.0,
+     "end": 2.926
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-the-crowd-shouts.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But the chief priests worked the crowd, and they shouted for Barabbas instead. Pilate asked them what he should do with Jesus, then \u2014 and they answered with one word.",
+   "seg_start": 27.18,
+   "audio_start": 27.46,
+   "spoken_end": 37.704,
+   "seg_end": 38.354,
+   "audio_dur": 10.684,
+   "spoken_dur": 10.244,
+   "seg_dur": 11.174,
+   "timing": [
+    {
+     "text": "But the chief priests worked the crowd, and they shouted for Barabbas instead.",
+     "start": 0.0,
+     "end": 4.783
+    },
+    {
+     "text": "Pilate asked them what he should do with Jesus, then \u2014 and they answered with one word.",
+     "start": 4.783,
+     "end": 10.635
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "v1_still": "s4-the-crowd-shouts.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Crucify him.",
+   "seg_start": 38.354,
+   "audio_start": 38.634,
+   "spoken_end": 39.5,
+   "seg_end": 41.1,
+   "audio_dur": 1.149,
+   "spoken_dur": 0.866,
+   "seg_dur": 2.746,
+   "timing": [
+    {
+     "text": "Crucify him.",
+     "start": 0.0,
+     "end": 1.115
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s4-the-crowd-shouts.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Crucify him. That was it. That was the answer. And Pilate could not make sense of it.",
+   "seg_start": 41.1,
+   "audio_start": 41.38,
+   "spoken_end": 46.188,
+   "seg_end": 46.838,
+   "audio_dur": 5.251,
+   "spoken_dur": 4.808,
+   "seg_dur": 5.738,
+   "timing": [
+    {
+     "text": "Crucify him.",
+     "start": 0.0,
+     "end": 0.987
+    },
+    {
+     "text": "That was it.",
+     "start": 0.987,
+     "end": 1.776
+    },
+    {
+     "text": "That was the answer.",
+     "start": 1.776,
+     "end": 2.961
+    },
+    {
+     "text": "And Pilate could not make sense of it.",
+     "start": 2.961,
+     "end": 5.201
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "v1_still": "s4-the-crowd-shouts.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Why, what evil hath he done?",
+   "seg_start": 46.838,
+   "audio_start": 47.118,
+   "spoken_end": 48.472,
+   "seg_end": 50.072,
+   "audio_dur": 1.672,
+   "spoken_dur": 1.355,
+   "seg_dur": 3.235,
+   "timing": [
+    {
+     "text": "Why, what evil hath he done?",
+     "start": 0.0,
+     "end": 1.625
+    }
+   ]
+  },
+  {
+   "seg": "n2c",
+   "v1_still": "s4-the-crowd-shouts.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Why? he asked them. What has he actually done? The man holding all the power in that courtyard said out loud that there was no case \u2014 and then handed him over anyway.",
+   "seg_start": 50.072,
+   "audio_start": 50.352,
+   "spoken_end": 59.484,
+   "seg_end": 60.134,
+   "audio_dur": 9.561,
+   "spoken_dur": 9.132,
+   "seg_dur": 10.062,
+   "timing": [
+    {
+     "text": "Why?",
+     "start": 0.0,
+     "end": 0.58
+    },
+    {
+     "text": "he asked them.",
+     "start": 0.58,
+     "end": 1.405
+    },
+    {
+     "text": "What has he actually done?",
+     "start": 1.405,
+     "end": 2.926
+    },
+    {
+     "text": "The man holding all the power in that courtyard said out loud that there was no case \u2014 and then handed him over anyway.",
+     "start": 2.926,
+     "end": 9.52
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s5-chains-struck-off.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So the guilty man walked free, and the innocent one was handed over in his place.",
+   "seg_start": 60.134,
+   "audio_start": 60.414,
+   "spoken_end": 64.72,
+   "seg_end": 65.37,
+   "audio_dur": 4.624,
+   "spoken_dur": 4.305,
+   "seg_dur": 5.235,
+   "timing": [
+    {
+     "text": "So the guilty man walked free, and the innocent one was handed over in his place.",
+     "start": 0.0,
+     "end": 4.598
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s6-walking-away-free.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Think about what Barabbas got: he was condemned, and then someone else took his exact sentence. He walked out free because Jesus took his cross.",
+   "seg_start": 65.37,
+   "audio_start": 65.65,
+   "spoken_end": 74.251,
+   "seg_end": 74.901,
+   "audio_dur": 8.96,
+   "spoken_dur": 8.601,
+   "seg_dur": 9.531,
+   "timing": [
+    {
+     "text": "Think about what Barabbas got: he was condemned, and then someone else took his exact sentence.",
+     "start": 0.0,
+     "end": 5.666
+    },
+    {
+     "text": "He walked out free because Jesus took his cross.",
+     "start": 5.666,
+     "end": 8.916
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s7-the-empty-shackles.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That's not just Barabbas's story. That's the whole gospel in one swap \u2014 the innocent for the guilty, so the guilty could go free.",
+   "seg_start": 74.901,
+   "audio_start": 75.181,
+   "spoken_end": 83.01,
+   "seg_end": 83.66,
+   "audio_dur": 8.202,
+   "spoken_dur": 7.829,
+   "seg_dur": 8.759,
+   "timing": [
+    {
+     "text": "That's not just Barabbas's story.",
+     "start": 0.0,
+     "end": 1.858
+    },
+    {
+     "text": "That's the whole gospel in one swap \u2014 the innocent for the guilty, so the guilty could go free.",
+     "start": 1.858,
+     "end": 8.173
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "Barabbas walked free because the Son of God took his place. So can you. That's the whole point.",
+  "seg_start": 83.66,
+  "audio_start": 83.94,
+  "seg_dur": 7.161
+ },
+ "total": 90.821
+}

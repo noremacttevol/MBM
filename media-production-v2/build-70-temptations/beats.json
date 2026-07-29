@@ -1,0 +1,680 @@
+{
+ "row": 70,
+ "slug": "build-70-temptations",
+ "v1_dir": "media-production/build-70-temptations",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.5,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": [
+    [
+     "s1-led-into-the-wilderness.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "Straight from the river, still carrying his Father's words \u2014 this is my beloved Son \u2014 Jesus was led by the Spirit up into the wilderness. Not by accident. Led there. Before the teaching, before the miracles, there was going to be a battle, and it was going to happen in the emptiest place in the country: bare rock, dead heat, and silence.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 23.797,
+   "seg_end": 24.517,
+   "audio_dur": 23.954,
+   "spoken_dur": 23.517,
+   "seg_dur": 24.517,
+   "timing": [
+    {
+     "text": "Straight from the river, still carrying his Father's words \u2014 this is my beloved Son \u2014 Jesus was led by the Spirit up into the wilderness.",
+     "start": 0.0,
+     "end": 8.464
+    },
+    {
+     "text": "Not by accident.",
+     "start": 8.464,
+     "end": 10.136
+    },
+    {
+     "text": "Led there.",
+     "start": 10.136,
+     "end": 11.587
+    },
+    {
+     "text": "Before the teaching, before the miracles, there was going to be a battle, and it was going to happen in the emptiest place in the country: bare rock, dead heat, and silence.",
+     "start": 11.587,
+     "end": 23.917
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": [
+    [
+     "s2-forty-days.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "He fasted forty days and forty nights. Mark that: he was not floating above any of it. He got hungrier every single day, the way you would. And when he was at his weakest and emptiest \u2014 that is exactly when the tempter came.",
+   "seg_start": 24.517,
+   "audio_start": 24.797,
+   "spoken_end": 38.925,
+   "seg_end": 39.645,
+   "audio_dur": 14.524,
+   "spoken_dur": 14.128,
+   "seg_dur": 15.128,
+   "timing": [
+    {
+     "text": "He fasted forty days and forty nights.",
+     "start": 0.0,
+     "end": 2.473
+    },
+    {
+     "text": "Mark that: he was not floating above any of it.",
+     "start": 2.473,
+     "end": 5.84
+    },
+    {
+     "text": "He got hungrier every single day, the way you would.",
+     "start": 5.84,
+     "end": 8.87
+    },
+    {
+     "text": "And when he was at his weakest and emptiest \u2014 that is exactly when the tempter came.",
+     "start": 8.87,
+     "end": 14.489
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "v1_still": [
+    [
+     "s3-stones-like-loaves.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "scripture",
+   "text": "If thou be the Son of God, command that these stones be made bread.",
+   "seg_start": 39.645,
+   "audio_start": 39.925,
+   "spoken_end": 43.609,
+   "seg_end": 45.109,
+   "audio_dur": 4.127,
+   "spoken_dur": 3.684,
+   "seg_dur": 5.464,
+   "timing": [
+    {
+     "text": "If thou be the Son of God, command that these stones be made bread.",
+     "start": 0.0,
+     "end": 4.087
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": [
+    [
+     "s3-stones-like-loaves.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "Hear what that little word IF is doing. Heaven had just said, this IS my Son. The very first attack was aimed at that sentence \u2014 prove it, earn it, doubt it. And the bait was reasonable: you're starving, you have the power, feed yourself. Use what you are for you.",
+   "seg_start": 45.109,
+   "audio_start": 45.389,
+   "spoken_end": 63.451,
+   "seg_end": 64.171,
+   "audio_dur": 18.469,
+   "spoken_dur": 18.062,
+   "seg_dur": 19.062,
+   "timing": [
+    {
+     "text": "Hear what that little word IF is doing.",
+     "start": 0.0,
+     "end": 2.067
+    },
+    {
+     "text": "Heaven had just said, this IS my Son.",
+     "start": 2.067,
+     "end": 4.888
+    },
+    {
+     "text": "The very first attack was aimed at that sentence \u2014 prove it, earn it, doubt it.",
+     "start": 4.888,
+     "end": 10.53
+    },
+    {
+     "text": "And the bait was reasonable: you're starving, you have the power, feed yourself.",
+     "start": 10.53,
+     "end": 16.231
+    },
+    {
+     "text": "Use what you are for you.",
+     "start": 16.231,
+     "end": 18.437
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": [
+    [
+     "s4-not-by-bread-alone.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "jesus",
+   "text": "It is written, Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God.",
+   "seg_start": 64.171,
+   "audio_start": 64.451,
+   "spoken_end": 71.946,
+   "seg_end": 73.446,
+   "audio_dur": 7.837,
+   "spoken_dur": 7.495,
+   "seg_dur": 9.275,
+   "timing": [
+    {
+     "text": "It is written, Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God.",
+     "start": 0.0,
+     "end": 7.802
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": [
+    [
+     "s4-not-by-bread-alone.jpeg",
+     "out"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "Notice what he did NOT do. He did not argue. He did not use his own power. He answered with a line of scripture \u2014 a sentence any of us could memorize \u2014 and stood on it. The Son of God fought hungry, as a man, with the same weapon you have on your shelf.",
+   "seg_start": 73.446,
+   "audio_start": 73.726,
+   "spoken_end": 89.969,
+   "seg_end": 90.689,
+   "audio_dur": 16.718,
+   "spoken_dur": 16.243,
+   "seg_dur": 17.243,
+   "timing": [
+    {
+     "text": "Notice what he did NOT do.",
+     "start": 0.0,
+     "end": 1.486
+    },
+    {
+     "text": "He did not argue.",
+     "start": 1.486,
+     "end": 2.821
+    },
+    {
+     "text": "He did not use his own power.",
+     "start": 2.821,
+     "end": 5.12
+    },
+    {
+     "text": "He answered with a line of scripture \u2014 a sentence any of us could memorize \u2014 and stood on it.",
+     "start": 5.12,
+     "end": 10.658
+    },
+    {
+     "text": "The Son of God fought hungry, as a man, with the same weapon you have on your shelf.",
+     "start": 10.658,
+     "end": 16.672
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": [
+    [
+     "s5-the-pinnacle.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "The second try was stranger. In a flash he was at the highest corner of the temple, the city far below \u2014 and the voice turned religious. It quoted scripture back at him.",
+   "seg_start": 90.689,
+   "audio_start": 90.969,
+   "spoken_end": 101.307,
+   "seg_end": 102.027,
+   "audio_dur": 10.762,
+   "spoken_dur": 10.338,
+   "seg_dur": 11.338,
+   "timing": [
+    {
+     "text": "The second try was stranger.",
+     "start": 0.0,
+     "end": 1.846
+    },
+    {
+     "text": "In a flash he was at the highest corner of the temple, the city far below \u2014 and the voice turned religious.",
+     "start": 1.846,
+     "end": 8.533
+    },
+    {
+     "text": "It quoted scripture back at him.",
+     "start": 8.533,
+     "end": 10.728
+    }
+   ]
+  },
+  {
+   "seg": "s6",
+   "v1_still": [
+    [
+     "s5-the-pinnacle.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "scripture",
+   "text": "If thou be the Son of God, cast thyself down: for it is written, He shall give his angels charge concerning thee: and in their hands they shall bear thee up, lest at any time thou dash thy foot against a stone.",
+   "seg_start": 102.027,
+   "audio_start": 102.307,
+   "spoken_end": 114.874,
+   "seg_end": 116.374,
+   "audio_dur": 12.957,
+   "spoken_dur": 12.567,
+   "seg_dur": 14.347,
+   "timing": [
+    {
+     "text": "If thou be the Son of God, cast thyself down: for it is written, He shall give his angels charge concerning thee: and in their hands they shall bear thee up, lest at any time thou dash thy foot against a stone.",
+     "start": 0.0,
+     "end": 12.91
+    }
+   ]
+  },
+  {
+   "seg": "n4b",
+   "v1_still": [
+    [
+     "s5-the-pinnacle.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "Throw yourself down, it said \u2014 the angels are promised to catch you. Force your Father to prove himself, publicly, on demand. Make God perform.",
+   "seg_start": 116.374,
+   "audio_start": 116.654,
+   "spoken_end": 127.541,
+   "seg_end": 128.261,
+   "audio_dur": 11.233,
+   "spoken_dur": 10.888,
+   "seg_dur": 11.888,
+   "timing": [
+    {
+     "text": "Throw yourself down, it said \u2014 the angels are promised to catch you.",
+     "start": 0.0,
+     "end": 4.644
+    },
+    {
+     "text": "Force your Father to prove himself, publicly, on demand.",
+     "start": 4.644,
+     "end": 9.137
+    },
+    {
+     "text": "Make God perform.",
+     "start": 9.137,
+     "end": 11.192
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": [
+    [
+     "s6-thou-shalt-not-tempt.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "jesus",
+   "text": "It is written again, Thou shalt not tempt the Lord thy God.",
+   "seg_start": 128.261,
+   "audio_start": 128.541,
+   "spoken_end": 132.312,
+   "seg_end": 133.812,
+   "audio_dur": 4.18,
+   "spoken_dur": 3.771,
+   "seg_dur": 5.551,
+   "timing": [
+    {
+     "text": "It is written again, Thou shalt not tempt the Lord thy God.",
+     "start": 0.0,
+     "end": 4.133
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": [
+    [
+     "s7-all-the-kingdoms.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "Trust does not run experiments on the one it trusts. Then came the last offer, the biggest one. From a high mountain, all the kingdoms of the world and the glory of them, spread out like a feast.",
+   "seg_start": 133.812,
+   "audio_start": 134.092,
+   "spoken_end": 145.949,
+   "seg_end": 146.669,
+   "audio_dur": 12.304,
+   "spoken_dur": 11.857,
+   "seg_dur": 12.857,
+   "timing": [
+    {
+     "text": "Trust does not run experiments on the one it trusts.",
+     "start": 0.0,
+     "end": 2.868
+    },
+    {
+     "text": "Then came the last offer, the biggest one.",
+     "start": 2.868,
+     "end": 5.851
+    },
+    {
+     "text": "From a high mountain, all the kingdoms of the world and the glory of them, spread out like a feast.",
+     "start": 5.851,
+     "end": 12.26
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "v1_still": [
+    [
+     "s7-all-the-kingdoms.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "scripture",
+   "text": "All these things will I give thee, if thou wilt fall down and worship me.",
+   "seg_start": 146.669,
+   "audio_start": 146.949,
+   "spoken_end": 150.511,
+   "seg_end": 152.011,
+   "audio_dur": 3.997,
+   "spoken_dur": 3.562,
+   "seg_dur": 5.342,
+   "timing": [
+    {
+     "text": "All these things will I give thee, if thou wilt fall down and worship me.",
+     "start": 0.0,
+     "end": 3.947
+    }
+   ]
+  },
+  {
+   "seg": "n5b",
+   "v1_still": [
+    [
+     "s7-all-the-kingdoms.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "All of it, yours, right now \u2014 one bow, to me. It was the crown without the cross. Everything he came to win, offered as a shortcut with only one small condition: worship the wrong king.",
+   "seg_start": 152.011,
+   "audio_start": 152.291,
+   "spoken_end": 165.637,
+   "seg_end": 166.357,
+   "audio_dur": 13.793,
+   "spoken_dur": 13.345,
+   "seg_dur": 14.345,
+   "timing": [
+    {
+     "text": "All of it, yours, right now \u2014 one bow, to me.",
+     "start": 0.0,
+     "end": 3.553
+    },
+    {
+     "text": "It was the crown without the cross.",
+     "start": 3.553,
+     "end": 6.072
+    },
+    {
+     "text": "Everything he came to win, offered as a shortcut with only one small condition: worship the wrong king.",
+     "start": 6.072,
+     "end": 13.746
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": [
+    [
+     "s8-get-thee-hence.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "jesus",
+   "text": "Get thee hence, Satan: for it is written, Thou shalt worship the Lord thy God, and him only shalt thou serve.",
+   "seg_start": 166.357,
+   "audio_start": 166.637,
+   "spoken_end": 173.891,
+   "seg_end": 175.391,
+   "audio_dur": 7.758,
+   "spoken_dur": 7.255,
+   "seg_dur": 9.035,
+   "timing": [
+    {
+     "text": "Get thee hence, Satan: for it is written, Thou shalt worship the Lord thy God, and him only shalt thou serve.",
+     "start": 0.0,
+     "end": 7.709
+    }
+   ]
+  },
+  {
+   "seg": "n6a",
+   "v1_still": [
+    [
+     "s8-get-thee-hence.jpeg",
+     "out"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "Get away from me. He did not haggle with the offer, and he did not admire it. He named it and ended it.",
+   "seg_start": 175.391,
+   "audio_start": 175.671,
+   "spoken_end": 181.68,
+   "seg_end": 182.4,
+   "audio_dur": 6.504,
+   "spoken_dur": 6.009,
+   "seg_dur": 7.009,
+   "timing": [
+    {
+     "text": "Get away from me.",
+     "start": 0.0,
+     "end": 0.917
+    },
+    {
+     "text": "He did not haggle with the offer, and he did not admire it.",
+     "start": 0.917,
+     "end": 4.435
+    },
+    {
+     "text": "He named it and ended it.",
+     "start": 4.435,
+     "end": 6.455
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "v1_still": [
+    [
+     "s9-angels-ministered.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "scripture",
+   "text": "Then the devil leaveth him, and, behold, angels came and ministered unto him.",
+   "seg_start": 182.4,
+   "audio_start": 182.68,
+   "spoken_end": 186.836,
+   "seg_end": 188.336,
+   "audio_dur": 4.545,
+   "spoken_dur": 4.156,
+   "seg_dur": 5.936,
+   "timing": [
+    {
+     "text": "Then the devil leaveth him, and, behold, angels came and ministered unto him.",
+     "start": 0.0,
+     "end": 4.505
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": [
+    [
+     "s9-angels-ministered.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "And it was over. The devil left him \u2014 for a season. And angels came and ministered to him, the way dawn comes after the longest night. Bread, after the fast. Company, after the silence. His Father had not been absent for one minute of it \u2014 he had been trusted.",
+   "seg_start": 188.336,
+   "audio_start": 188.616,
+   "spoken_end": 207.538,
+   "seg_end": 208.258,
+   "audio_dur": 19.304,
+   "spoken_dur": 18.922,
+   "seg_dur": 19.922,
+   "timing": [
+    {
+     "text": "And it was over.",
+     "start": 0.0,
+     "end": 1.08
+    },
+    {
+     "text": "The devil left him \u2014 for a season.",
+     "start": 1.08,
+     "end": 4.168
+    },
+    {
+     "text": "And angels came and ministered to him, the way dawn comes after the longest night.",
+     "start": 4.168,
+     "end": 9.613
+    },
+    {
+     "text": "Bread, after the fast.",
+     "start": 9.613,
+     "end": 12.005
+    },
+    {
+     "text": "Company, after the silence.",
+     "start": 12.005,
+     "end": 14.431
+    },
+    {
+     "text": "His Father had not been absent for one minute of it \u2014 he had been trusted.",
+     "start": 14.431,
+     "end": 19.273
+    }
+   ]
+  },
+  {
+   "seg": "s415",
+   "v1_still": [
+    [
+     "s9-angels-ministered.jpeg",
+     "out"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "scripture",
+   "text": "For we have not an high priest which cannot be touched with the feeling of our infirmities; but was in all points tempted like as we are, yet without sin.",
+   "seg_start": 208.258,
+   "audio_start": 208.538,
+   "spoken_end": 217.924,
+   "seg_end": 219.424,
+   "audio_dur": 9.744,
+   "spoken_dur": 9.386,
+   "seg_dur": 11.166,
+   "timing": [
+    {
+     "text": "For we have not an high priest which cannot be touched with the feeling of our infirmities; but was in all points tempted like as we are, yet without sin.",
+     "start": 0.0,
+     "end": 9.706
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": [
+    [
+     "s9-angels-ministered.jpeg",
+     "out"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "That is what the book of Hebrews is saying. We do not have a Savior who cannot understand our weakness \u2014 he was tempted in every way we are. Hungry, alone, offered every shortcut. He has stood in your exact spot. That is why he knows how to stand next to you in it.",
+   "seg_start": 219.424,
+   "audio_start": 219.704,
+   "spoken_end": 236.185,
+   "seg_end": 236.905,
+   "audio_dur": 16.953,
+   "spoken_dur": 16.481,
+   "seg_dur": 17.481,
+   "timing": [
+    {
+     "text": "That is what the book of Hebrews is saying.",
+     "start": 0.0,
+     "end": 1.95
+    },
+    {
+     "text": "We do not have a Savior who cannot understand our weakness \u2014 he was tempted in every way we are.",
+     "start": 1.95,
+     "end": 8.162
+    },
+    {
+     "text": "Hungry, alone, offered every shortcut.",
+     "start": 8.162,
+     "end": 11.088
+    },
+    {
+     "text": "He has stood in your exact spot.",
+     "start": 11.088,
+     "end": 13.618
+    },
+    {
+     "text": "That is why he knows how to stand next to you in it.",
+     "start": 13.618,
+     "end": 16.904
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He has stood where you stand \u2014 hungry, alone, offered every shortcut \u2014 and he held. Ask him. He knows how to help you hold.",
+  "seg_start": 236.905,
+  "audio_start": 237.185,
+  "seg_dur": 12.124
+ },
+ "total": 249.029
+}

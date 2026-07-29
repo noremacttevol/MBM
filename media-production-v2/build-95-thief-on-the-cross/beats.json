@@ -1,0 +1,266 @@
+{
+ "row": 95,
+ "slug": "build-95-thief-on-the-cross",
+ "v1_dir": "media-production/build-95-thief-on-the-cross",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0a",
+   "v1_still": "s1-three-crosses.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Two criminals were crucified with Jesus, one on each side.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 3.44,
+   "seg_end": 4.09,
+   "audio_dur": 3.579,
+   "spoken_dur": 3.16,
+   "seg_dur": 4.09,
+   "timing": [
+    {
+     "text": "Two criminals were crucified with Jesus, one on each side.",
+     "start": 0.0,
+     "end": 3.529
+    }
+   ]
+  },
+  {
+   "seg": "s39",
+   "v1_still": "s2-the-mocking-thief.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "If thou be Christ, save thyself and us.",
+   "seg_start": 4.09,
+   "audio_start": 4.37,
+   "spoken_end": 6.549,
+   "seg_end": 8.149,
+   "audio_dur": 2.586,
+   "spoken_dur": 2.179,
+   "seg_dur": 4.059,
+   "timing": [
+    {
+     "text": "If thou be Christ, save thyself and us.",
+     "start": 0.0,
+     "end": 2.554
+    }
+   ]
+  },
+  {
+   "seg": "n0b",
+   "v1_still": "s2-the-mocking-thief.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "That was one of them, sneering at him from the next cross over.",
+   "seg_start": 8.149,
+   "audio_start": 8.429,
+   "spoken_end": 11.93,
+   "seg_end": 12.58,
+   "audio_dur": 3.892,
+   "spoken_dur": 3.501,
+   "seg_dur": 4.431,
+   "timing": [
+    {
+     "text": "That was one of them, sneering at him from the next cross over.",
+     "start": 0.0,
+     "end": 3.855
+    }
+   ]
+  },
+  {
+   "seg": "s40",
+   "v1_still": "s3-recognition-dawning.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Dost not thou fear God, seeing thou art in the same condemnation? And we indeed justly; for we receive the due reward of our deeds: but this man hath done nothing amiss.",
+   "seg_start": 12.58,
+   "audio_start": 12.86,
+   "spoken_end": 24.164,
+   "seg_end": 25.764,
+   "audio_dur": 11.729,
+   "spoken_dur": 11.304,
+   "seg_dur": 13.184,
+   "timing": [
+    {
+     "text": "Dost not thou fear God, seeing thou art in the same condemnation?",
+     "start": 0.0,
+     "end": 4.063
+    },
+    {
+     "text": "And we indeed justly; for we receive the due reward of our deeds: but this man hath done nothing amiss.",
+     "start": 4.063,
+     "end": 11.703
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s3-recognition-dawning.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "But the other one stopped him. We're getting what we deserve, he said.",
+   "seg_start": 25.764,
+   "audio_start": 26.044,
+   "spoken_end": 29.619,
+   "seg_end": 30.269,
+   "audio_dur": 3.944,
+   "spoken_dur": 3.575,
+   "seg_dur": 4.505,
+   "timing": [
+    {
+     "text": "But the other one stopped him.",
+     "start": 0.0,
+     "end": 1.347
+    },
+    {
+     "text": "We're getting what we deserve, he said.",
+     "start": 1.347,
+     "end": 3.901
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-remember-me.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then he turned his head toward Jesus and asked for the smallest thing he could think of.",
+   "seg_start": 30.269,
+   "audio_start": 30.549,
+   "spoken_end": 34.548,
+   "seg_end": 35.198,
+   "audio_dur": 4.415,
+   "spoken_dur": 3.999,
+   "seg_dur": 4.929,
+   "timing": [
+    {
+     "text": "Then he turned his head toward Jesus and asked for the smallest thing he could think of.",
+     "start": 0.0,
+     "end": 4.365
+    }
+   ]
+  },
+  {
+   "seg": "s42",
+   "v1_still": "s4-remember-me.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Lord, remember me when thou comest into thy kingdom.",
+   "seg_start": 35.198,
+   "audio_start": 35.478,
+   "spoken_end": 38.346,
+   "seg_end": 39.946,
+   "audio_dur": 3.187,
+   "spoken_dur": 2.868,
+   "seg_dur": 4.748,
+   "timing": [
+    {
+     "text": "Lord, remember me when thou comest into thy kingdom.",
+     "start": 0.0,
+     "end": 3.158
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s6-grace-in-the-darkest-place.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "No good deeds to offer. No time left to fix his life. Just a dying man asking.",
+   "seg_start": 39.946,
+   "audio_start": 40.226,
+   "spoken_end": 45.766,
+   "seg_end": 46.416,
+   "audio_dur": 5.982,
+   "spoken_dur": 5.541,
+   "seg_dur": 6.471,
+   "timing": [
+    {
+     "text": "No good deeds to offer.",
+     "start": 0.0,
+     "end": 1.498
+    },
+    {
+     "text": "No time left to fix his life.",
+     "start": 1.498,
+     "end": 3.576
+    },
+    {
+     "text": "Just a dying man asking.",
+     "start": 3.576,
+     "end": 5.944
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s5-to-day-in-paradise.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Verily I say unto thee, To day shalt thou be with me in paradise.",
+   "seg_start": 46.416,
+   "audio_start": 46.696,
+   "spoken_end": 50.763,
+   "seg_end": 52.363,
+   "audio_dur": 4.441,
+   "spoken_dur": 4.067,
+   "seg_dur": 5.947,
+   "timing": [
+    {
+     "text": "Verily I say unto thee, today shalt thou be with me in paradise.",
+     "start": 0.0,
+     "end": 4.412
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s7-today-paradise.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Today. Not someday, not after you've earned it. Today. The last-minute faith of a criminal was enough.",
+   "seg_start": 52.363,
+   "audio_start": 52.643,
+   "spoken_end": 59.747,
+   "seg_end": 60.397,
+   "audio_dur": 7.549,
+   "spoken_dur": 7.104,
+   "seg_dur": 8.034,
+   "timing": [
+    {
+     "text": "Today.",
+     "start": 0.0,
+     "end": 0.755
+    },
+    {
+     "text": "Not someday, not after you've earned it.",
+     "start": 0.755,
+     "end": 3.216
+    },
+    {
+     "text": "Today.",
+     "start": 3.216,
+     "end": 4.331
+    },
+    {
+     "text": "The last-minute faith of a criminal was enough.",
+     "start": 4.331,
+     "end": 7.523
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He saved a man who had nothing to give but a request. It's never too late to ask.",
+  "seg_start": 60.397,
+  "audio_start": 60.677,
+  "seg_dur": 6.456
+ },
+ "total": 66.853
+}

@@ -1,0 +1,283 @@
+{
+ "row": 26,
+ "slug": "build-26-mustard-seed",
+ "v1_dir": "media-production/build-26-mustard-seed",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus told a story about the smallest seed a farmer knew.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 3.077,
+   "seg_end": 3.727,
+   "audio_dur": 3.187,
+   "spoken_dur": 2.797,
+   "seg_dur": 3.727,
+   "timing": [
+    {
+     "text": "Jesus told a story about the smallest seed a farmer knew.",
+     "start": 0.0,
+     "end": 3.158
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s1.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "It was a mustard seed \u2014 so tiny it could be lost in the palm of your hand.",
+   "seg_start": 3.727,
+   "audio_start": 4.007,
+   "spoken_end": 8.544,
+   "seg_end": 9.194,
+   "audio_dur": 4.963,
+   "spoken_dur": 4.537,
+   "seg_dur": 5.467,
+   "timing": [
+    {
+     "text": "It was a mustard seed \u2014 so tiny it could be lost in the palm of your hand.",
+     "start": 0.0,
+     "end": 4.923
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "A man took that one little seed and planted it in his field.",
+   "seg_start": 9.194,
+   "audio_start": 9.474,
+   "spoken_end": 12.523,
+   "seg_end": 13.173,
+   "audio_dur": 3.474,
+   "spoken_dur": 3.049,
+   "seg_dur": 3.979,
+   "timing": [
+    {
+     "text": "A man took that one little seed and planted it in his field.",
+     "start": 0.0,
+     "end": 3.437
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s2.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Of all the seeds he could have sown, it was just about the smallest of them all.",
+   "seg_start": 13.173,
+   "audio_start": 13.453,
+   "spoken_end": 17.542,
+   "seg_end": 18.192,
+   "audio_dur": 4.493,
+   "spoken_dur": 4.089,
+   "seg_dur": 5.019,
+   "timing": [
+    {
+     "text": "Of all the seeds he could have sown, it was just about the smallest of them all.",
+     "start": 0.0,
+     "end": 4.458
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s3.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "The kingdom of heaven is like to a grain of mustard seed, which a man took, and sowed in his field: which indeed is the least of all seeds:",
+   "seg_start": 18.192,
+   "audio_start": 18.472,
+   "spoken_end": 27.514,
+   "seg_end": 29.114,
+   "audio_dur": 9.43,
+   "spoken_dur": 9.042,
+   "seg_dur": 10.922,
+   "timing": [
+    {
+     "text": "The kingdom of heaven is like to a grain of mustard seed, which a man took, and sowed in his field: which indeed is the least of all seeds:",
+     "start": 0.0,
+     "end": 9.381
+    }
+   ]
+  },
+  {
+   "seg": "j1b",
+   "v1_still": "s4.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "but when it is grown, it is the greatest among herbs, and becometh a tree, so that the birds of the air come and lodge in the branches thereof.",
+   "seg_start": 29.114,
+   "audio_start": 29.394,
+   "spoken_end": 39.637,
+   "seg_end": 41.237,
+   "audio_dur": 10.71,
+   "spoken_dur": 10.243,
+   "seg_dur": 12.123,
+   "timing": [
+    {
+     "text": "but when it is grown, it is the greatest among herbs, and becometh a tree, so that the birds of the air come and lodge in the branches thereof.",
+     "start": 0.0,
+     "end": 10.681
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s5.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But that tiny seed did not stay small. Quietly, slowly, it began to grow.",
+   "seg_start": 41.237,
+   "audio_start": 41.517,
+   "spoken_end": 46.18,
+   "seg_end": 46.83,
+   "audio_dur": 5.042,
+   "spoken_dur": 4.664,
+   "seg_dur": 5.594,
+   "timing": [
+    {
+     "text": "But that tiny seed did not stay small.",
+     "start": 0.0,
+     "end": 2.334
+    },
+    {
+     "text": "Quietly, slowly, it began to grow.",
+     "start": 2.334,
+     "end": 5.016
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Up out of the ground, higher and higher, until it became the largest plant in the whole garden \u2014 a tall, spreading tree.",
+   "seg_start": 46.83,
+   "audio_start": 47.11,
+   "spoken_end": 53.91,
+   "seg_end": 54.56,
+   "audio_dur": 7.236,
+   "spoken_dur": 6.8,
+   "seg_dur": 7.73,
+   "timing": [
+    {
+     "text": "Up out of the ground, higher and higher, until it became the largest plant in the whole garden \u2014 a tall, spreading tree.",
+     "start": 0.0,
+     "end": 7.198
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And the wild birds came and built their nests in its broad, sheltering branches.",
+   "seg_start": 54.56,
+   "audio_start": 54.84,
+   "spoken_end": 59.074,
+   "seg_end": 59.724,
+   "audio_dur": 4.624,
+   "spoken_dur": 4.234,
+   "seg_dur": 5.164,
+   "timing": [
+    {
+     "text": "And the wild birds came and built their nests in its broad, sheltering branches.",
+     "start": 0.0,
+     "end": 4.598
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s6.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "That, Jesus said, is what God's kingdom is like.",
+   "seg_start": 59.724,
+   "audio_start": 60.004,
+   "spoken_end": 62.719,
+   "seg_end": 63.369,
+   "audio_dur": 3.187,
+   "spoken_dur": 2.715,
+   "seg_dur": 3.645,
+   "timing": [
+    {
+     "text": "That, Jesus said, is what God's kingdom is like.",
+     "start": 0.0,
+     "end": 3.158
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s1.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "It almost never begins big. It begins small \u2014 a whispered prayer, a single kind act, one quiet change of heart.",
+   "seg_start": 63.369,
+   "audio_start": 63.649,
+   "spoken_end": 71.58,
+   "seg_end": 72.23,
+   "audio_dur": 8.359,
+   "spoken_dur": 7.931,
+   "seg_dur": 8.861,
+   "timing": [
+    {
+     "text": "It almost never begins big.",
+     "start": 0.0,
+     "end": 1.649
+    },
+    {
+     "text": "It begins small \u2014 a whispered prayer, a single kind act, one quiet change of heart.",
+     "start": 1.649,
+     "end": 8.313
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s5.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "But God takes that smallest beginning and grows it into something far greater than anyone could have imagined.",
+   "seg_start": 72.23,
+   "audio_start": 72.51,
+   "spoken_end": 78.769,
+   "seg_end": 79.419,
+   "audio_dur": 6.687,
+   "spoken_dur": 6.259,
+   "seg_dur": 7.189,
+   "timing": [
+    {
+     "text": "But God takes that smallest beginning and grows it into something far greater than anyone could have imagined.",
+     "start": 0.0,
+     "end": 6.641
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "God does enormous things from the smallest of starts. What small seed is he asking you to plant today?",
+  "seg_start": 79.419,
+  "audio_start": 79.699,
+  "seg_dur": 7.945
+ },
+ "total": 87.364
+}

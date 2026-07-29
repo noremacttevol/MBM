@@ -1,0 +1,209 @@
+{
+ "row": 181,
+ "slug": "build-181-morning-stars-sang",
+ "v1_dir": "media-production/build-181-morning-stars-sang",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.8,
+  "KJV_GAP": 1.7,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s0-job-hears-the-answer.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Job had asked God hard questions. And God answered \u2014 not with explanations, but by taking Job back to the very first morning.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 8.404,
+   "seg_end": 9.204,
+   "audio_dur": 8.49,
+   "spoken_dur": 8.124,
+   "seg_dur": 9.204,
+   "timing": [
+    {
+     "text": "Job had asked God hard questions.",
+     "start": 0.0,
+     "end": 2.171
+    },
+    {
+     "text": "And God answered \u2014 not with explanations, but by taking Job back to the very first morning.",
+     "start": 2.171,
+     "end": 8.452
+    }
+   ]
+  },
+  {
+   "seg": "n1a",
+   "v1_still": "s2-the-earth-forming.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Before there were people to suffer or to doubt,",
+   "seg_start": 9.204,
+   "audio_start": 9.484,
+   "spoken_end": 11.945,
+   "seg_end": 12.745,
+   "audio_dur": 2.873,
+   "spoken_dur": 2.461,
+   "seg_dur": 3.541,
+   "timing": [
+    {
+     "text": "Before there were people to suffer or to doubt,",
+     "start": 0.0,
+     "end": 2.833
+    }
+   ]
+  },
+  {
+   "seg": "g4",
+   "v1_still": "s4-foundations-laid-in-joy.jpeg",
+   "zoom": "out",
+   "speaker": "god",
+   "text": "Where wast thou when I laid the foundations of the earth? declare, if thou hast understanding.",
+   "seg_start": 12.745,
+   "audio_start": 13.025,
+   "spoken_end": 20.244,
+   "seg_end": 21.944,
+   "audio_dur": 7.602,
+   "spoken_dur": 7.219,
+   "seg_dur": 9.199,
+   "timing": [
+    {
+     "text": "Where wast thou when I laid the foundations of the earth?",
+     "start": 0.0,
+     "end": 3.669
+    },
+    {
+     "text": "declare, if thou hast understanding.",
+     "start": 3.669,
+     "end": 7.57
+    }
+   ]
+  },
+  {
+   "seg": "n1r",
+   "v1_still": "s0-job-hears-the-answer.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Tell me, if you know. It sounds severe until you notice what it really does \u2014 it lifts Job's eyes off his own wreckage and sets them on something older and steadier than his pain.",
+   "seg_start": 21.944,
+   "audio_start": 22.224,
+   "spoken_end": 32.969,
+   "seg_end": 33.769,
+   "audio_dur": 11.128,
+   "spoken_dur": 10.745,
+   "seg_dur": 11.825,
+   "timing": [
+    {
+     "text": "Tell me, if you know.",
+     "start": 0.0,
+     "end": 1.103
+    },
+    {
+     "text": "It sounds severe until you notice what it really does \u2014 it lifts Job's eyes off his own wreckage and sets them on something older and steadier than his pain.",
+     "start": 1.103,
+     "end": 11.099
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s6-the-morning-star.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "And when that happened, something astonishing broke out in the sky.",
+   "seg_start": 33.769,
+   "audio_start": 34.049,
+   "spoken_end": 37.551,
+   "seg_end": 38.351,
+   "audio_dur": 3.892,
+   "spoken_dur": 3.502,
+   "seg_dur": 4.582,
+   "timing": [
+    {
+     "text": "And when that happened, something astonishing broke out in the sky.",
+     "start": 0.0,
+     "end": 3.855
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "v1_still": "s3-the-stars-sing.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "When the morning stars sang together, and all the sons of God shouted for joy?",
+   "seg_start": 38.351,
+   "audio_start": 38.631,
+   "spoken_end": 44.837,
+   "seg_end": 46.537,
+   "audio_dur": 6.583,
+   "spoken_dur": 6.206,
+   "seg_dur": 8.186,
+   "timing": [
+    {
+     "text": "When the morning stars sang together, and all the sons of God shouted for joy?",
+     "start": 0.0,
+     "end": 6.548
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s5-the-sons-of-god-shouted.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The stars themselves broke into song. Creation was not a cold accident \u2014 it was a celebration.",
+   "seg_start": 46.537,
+   "audio_start": 46.817,
+   "spoken_end": 53.07,
+   "seg_end": 53.87,
+   "audio_dur": 6.687,
+   "spoken_dur": 6.253,
+   "seg_dur": 7.333,
+   "timing": [
+    {
+     "text": "The stars themselves broke into song.",
+     "start": 0.0,
+     "end": 2.078
+    },
+    {
+     "text": "Creation was not a cold accident \u2014 it was a celebration.",
+     "start": 2.078,
+     "end": 6.641
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s7-pleased-with-what-he-made.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The God who sang the world into being is the same one listening to your questions today.",
+   "seg_start": 53.87,
+   "audio_start": 54.15,
+   "spoken_end": 58.368,
+   "seg_end": 59.168,
+   "audio_dur": 4.624,
+   "spoken_dur": 4.218,
+   "seg_dur": 5.298,
+   "timing": [
+    {
+     "text": "The God who sang the world into being is the same one listening to your questions today.",
+     "start": 0.0,
+     "end": 4.598
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "The stars sang when the world began. Your story is still being written by the same hand.",
+  "seg_start": 59.168,
+  "audio_start": 59.448,
+  "seg_dur": 7.161
+ },
+ "total": 66.329
+}

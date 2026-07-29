@@ -1,0 +1,598 @@
+{
+ "row": 72,
+ "slug": "build-72-calling-matthew",
+ "v1_dir": "media-production/build-72-calling-matthew",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-the-customs-booth.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "There was one job in every Galilee town that made you a traitor to your own people. Tax collector. You worked for Rome, the empire occupying your homeland, and you got rich taking money from your neighbors, most of it more than Rome even asked. Matthew had that job.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 16.599,
+   "seg_end": 17.249,
+   "audio_dur": 16.718,
+   "spoken_dur": 16.319,
+   "seg_dur": 17.249,
+   "timing": [
+    {
+     "text": "There was one job in every Galilee town that made you a traitor to your own people.",
+     "start": 0.0,
+     "end": 3.878
+    },
+    {
+     "text": "Tax collector.",
+     "start": 3.878,
+     "end": 5.422
+    },
+    {
+     "text": "You worked for Rome, the empire occupying your homeland, and you got rich taking money from your neighbors, most of it more than Rome even asked.",
+     "start": 5.422,
+     "end": 14.71
+    },
+    {
+     "text": "Matthew had that job.",
+     "start": 14.71,
+     "end": 16.672
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-the-isolated-man.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So Matthew had money, and Matthew had no one. The devout would not touch him. His old friends were long gone. He sat at his booth by the road every day, counting silver, while the whole town walked a little wider around him. Rich, and completely alone.",
+   "seg_start": 17.249,
+   "audio_start": 17.529,
+   "spoken_end": 32.834,
+   "seg_end": 33.484,
+   "audio_dur": 15.726,
+   "spoken_dur": 15.304,
+   "seg_dur": 16.234,
+   "timing": [
+    {
+     "text": "So Matthew had money, and Matthew had no one.",
+     "start": 0.0,
+     "end": 2.601
+    },
+    {
+     "text": "The devout would not touch him.",
+     "start": 2.601,
+     "end": 4.621
+    },
+    {
+     "text": "His old friends were long gone.",
+     "start": 4.621,
+     "end": 6.583
+    },
+    {
+     "text": "He sat at his booth by the road every day, counting silver, while the whole town walked a little wider around him.",
+     "start": 6.583,
+     "end": 13.131
+    },
+    {
+     "text": "Rich, and completely alone.",
+     "start": 13.131,
+     "end": 15.697
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-he-sees-him.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And this is the man Jesus walked up to. Not around. Up to. Past everyone who would have been a safer, more respectable choice, straight to the booth nobody else wanted to stand near.",
+   "seg_start": 33.484,
+   "audio_start": 33.764,
+   "spoken_end": 45.797,
+   "seg_end": 46.447,
+   "audio_dur": 12.382,
+   "spoken_dur": 12.033,
+   "seg_dur": 12.963,
+   "timing": [
+    {
+     "text": "And this is the man Jesus walked up to.",
+     "start": 0.0,
+     "end": 2.055
+    },
+    {
+     "text": "Not around.",
+     "start": 2.055,
+     "end": 3.158
+    },
+    {
+     "text": "Up to.",
+     "start": 3.158,
+     "end": 4.284
+    },
+    {
+     "text": "Past everyone who would have been a safer, more respectable choice, straight to the booth nobody else wanted to stand near.",
+     "start": 4.284,
+     "end": 12.353
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s4-follow-me.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Follow me.",
+   "seg_start": 46.447,
+   "audio_start": 46.727,
+   "spoken_end": 47.385,
+   "seg_end": 48.985,
+   "audio_dur": 1.071,
+   "spoken_dur": 0.658,
+   "seg_dur": 2.538,
+   "timing": [
+    {
+     "text": "Follow me.",
+     "start": 0.0,
+     "end": 1.022
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-follow-me.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Two words. And notice what is missing from them. No pay it all back first. No prove you have changed. No list of conditions to clear before he was allowed to come. Just, come.",
+   "seg_start": 48.985,
+   "audio_start": 49.265,
+   "spoken_end": 60.402,
+   "seg_end": 61.052,
+   "audio_dur": 11.546,
+   "spoken_dur": 11.138,
+   "seg_dur": 12.068,
+   "timing": [
+    {
+     "text": "Two words.",
+     "start": 0.0,
+     "end": 0.697
+    },
+    {
+     "text": "And notice what is missing from them.",
+     "start": 0.697,
+     "end": 2.194
+    },
+    {
+     "text": "No pay it all back first.",
+     "start": 2.194,
+     "end": 4.238
+    },
+    {
+     "text": "No prove you have changed.",
+     "start": 4.238,
+     "end": 6.362
+    },
+    {
+     "text": "No list of conditions to clear before he was allowed to come.",
+     "start": 6.362,
+     "end": 9.961
+    },
+    {
+     "text": "Just, come.",
+     "start": 9.961,
+     "end": 11.517
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "v1_still": "s5-he-arose.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And he arose, and followed him.",
+   "seg_start": 61.052,
+   "audio_start": 61.332,
+   "spoken_end": 62.892,
+   "seg_end": 64.492,
+   "audio_dur": 1.933,
+   "spoken_dur": 1.56,
+   "seg_dur": 3.44,
+   "timing": [
+    {
+     "text": "And he arose, and followed him.",
+     "start": 0.0,
+     "end": 1.904
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-he-arose.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He got up, and he left it. The coins, the scales, the ledgers, the whole profitable, lonely life, sitting right there on the table. Matthew tells his own story in five words and does not give himself a single one of them for hesitating. He walked away from all of it that afternoon, and followed him.",
+   "seg_start": 64.492,
+   "audio_start": 64.772,
+   "spoken_end": 84.438,
+   "seg_end": 85.088,
+   "audio_dur": 20.14,
+   "spoken_dur": 19.666,
+   "seg_dur": 20.596,
+   "timing": [
+    {
+     "text": "He got up, and he left it.",
+     "start": 0.0,
+     "end": 1.73
+    },
+    {
+     "text": "The coins, the scales, the ledgers, the whole profitable, lonely life, sitting right there on the table.",
+     "start": 1.73,
+     "end": 9.671
+    },
+    {
+     "text": "Matthew tells his own story in five words and does not give himself a single one of them for hesitating.",
+     "start": 9.671,
+     "end": 16.486
+    },
+    {
+     "text": "He walked away from all of it that afternoon, and followed him.",
+     "start": 16.486,
+     "end": 20.016
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6-the-feast.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And then something even stranger. Jesus went to Matthew's house for dinner. And the room filled up with Matthew's kind of people. Other tax collectors. Outcasts. The men and women the rest of the town had quietly given up on. And he sat down in the middle of them and ate.",
+   "seg_start": 85.088,
+   "audio_start": 85.368,
+   "spoken_end": 102.392,
+   "seg_end": 103.042,
+   "audio_dur": 17.398,
+   "spoken_dur": 17.024,
+   "seg_dur": 17.954,
+   "timing": [
+    {
+     "text": "And then something even stranger.",
+     "start": 0.0,
+     "end": 1.916
+    },
+    {
+     "text": "Jesus went to Matthew's house for dinner.",
+     "start": 1.916,
+     "end": 4.598
+    },
+    {
+     "text": "And the room filled up with Matthew's kind of people.",
+     "start": 4.598,
+     "end": 7.616
+    },
+    {
+     "text": "Other tax collectors.",
+     "start": 7.616,
+     "end": 9.474
+    },
+    {
+     "text": "Outcasts.",
+     "start": 9.474,
+     "end": 10.461
+    },
+    {
+     "text": "The men and women the rest of the town had quietly given up on.",
+     "start": 10.461,
+     "end": 14.245
+    },
+    {
+     "text": "And he sat down in the middle of them and ate.",
+     "start": 14.245,
+     "end": 17.369
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s7-the-welcomed.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Look at who is at that table. Not the respectable. Not the qualified. The people who were used to being turned away at every door, finding themselves, for once, welcome. You can see it on their faces.",
+   "seg_start": 103.042,
+   "audio_start": 103.322,
+   "spoken_end": 116.889,
+   "seg_end": 117.539,
+   "audio_dur": 14.028,
+   "spoken_dur": 13.567,
+   "seg_dur": 14.497,
+   "timing": [
+    {
+     "text": "Look at who is at that table.",
+     "start": 0.0,
+     "end": 1.683
+    },
+    {
+     "text": "Not the respectable.",
+     "start": 1.683,
+     "end": 3.355
+    },
+    {
+     "text": "Not the qualified.",
+     "start": 3.355,
+     "end": 4.957
+    },
+    {
+     "text": "The people who were used to being turned away at every door, finding themselves, for once, welcome.",
+     "start": 4.957,
+     "end": 11.598
+    },
+    {
+     "text": "You can see it on their faces.",
+     "start": 11.598,
+     "end": 13.978
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s8-the-pharisees-object.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The religious men could not stand it. They stood at the door, too clean to come in, and asked his disciples the question that gave the whole thing away:",
+   "seg_start": 117.539,
+   "audio_start": 117.819,
+   "spoken_end": 125.458,
+   "seg_end": 126.108,
+   "audio_dur": 8.02,
+   "spoken_dur": 7.639,
+   "seg_dur": 8.569,
+   "timing": [
+    {
+     "text": "The religious men could not stand it.",
+     "start": 0.0,
+     "end": 1.858
+    },
+    {
+     "text": "They stood at the door, too clean to come in, and asked his disciples the question that gave the whole thing away:",
+     "start": 2.276,
+     "end": 7.988
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "v1_still": "s8-the-pharisees-object.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Why eateth your Master with publicans and sinners?",
+   "seg_start": 126.108,
+   "audio_start": 126.388,
+   "spoken_end": 129.213,
+   "seg_end": 130.813,
+   "audio_dur": 3.239,
+   "spoken_dur": 2.825,
+   "seg_dur": 4.705,
+   "timing": [
+    {
+     "text": "Why eateth your Master with publicans and sinners?",
+     "start": 0.0,
+     "end": 3.204
+    }
+   ]
+  },
+  {
+   "seg": "n8b",
+   "v1_still": "s8-the-pharisees-object.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Why does your teacher eat with tax collectors and sinners? They did not ask it to learn anything. They asked it because they could not imagine why anyone good would want to be in that room.",
+   "seg_start": 130.813,
+   "audio_start": 131.093,
+   "spoken_end": 141.579,
+   "seg_end": 142.229,
+   "audio_dur": 10.893,
+   "spoken_dur": 10.486,
+   "seg_dur": 11.416,
+   "timing": [
+    {
+     "text": "Why does your teacher eat with tax collectors and sinners?",
+     "start": 0.0,
+     "end": 3.239
+    },
+    {
+     "text": "They did not ask it to learn anything.",
+     "start": 3.239,
+     "end": 5.759
+    },
+    {
+     "text": "They asked it because they could not imagine why anyone good would want to be in that room.",
+     "start": 5.759,
+     "end": 10.867
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s9-the-physician.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "They that be whole need not a physician, but they that are sick. But go ye and learn what that meaneth, I will have mercy, and not sacrifice: for I am not come to call the righteous, but sinners to repentance.",
+   "seg_start": 142.229,
+   "audio_start": 142.509,
+   "spoken_end": 157.092,
+   "seg_end": 158.692,
+   "audio_dur": 14.942,
+   "spoken_dur": 14.583,
+   "seg_dur": 16.463,
+   "timing": [
+    {
+     "text": "They that be whole need not a physician, but they that are sick.",
+     "start": 0.0,
+     "end": 4.005
+    },
+    {
+     "text": "But go ye and learn what that meaneth, I will have mercy, and not sacrifice: for I am not come to call the righteous, but sinners to repentance.",
+     "start": 4.005,
+     "end": 14.907
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s9-the-physician.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "A doctor does not spend his day with the healthy. He goes where the sickness is. Go and learn what this means, he told them \u2014 I want mercy, not sacrifice. That was his whole answer. He did not come for the people who had it all together. He came for the ones who knew that they did not.",
+   "seg_start": 158.692,
+   "audio_start": 158.972,
+   "spoken_end": 176.058,
+   "seg_end": 176.708,
+   "audio_dur": 17.554,
+   "spoken_dur": 17.086,
+   "seg_dur": 18.016,
+   "timing": [
+    {
+     "text": "A doctor does not spend his day with the healthy.",
+     "start": 0.0,
+     "end": 2.357
+    },
+    {
+     "text": "He goes where the sickness is.",
+     "start": 2.357,
+     "end": 4.493
+    },
+    {
+     "text": "Go and learn what this means, he told them \u2014 I want mercy, not sacrifice.",
+     "start": 4.493,
+     "end": 9.543
+    },
+    {
+     "text": "That was his whole answer.",
+     "start": 9.543,
+     "end": 11.529
+    },
+    {
+     "text": "He did not come for the people who had it all together.",
+     "start": 11.529,
+     "end": 14.582
+    },
+    {
+     "text": "He came for the ones who knew that they did not.",
+     "start": 14.582,
+     "end": 17.508
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s10-mercy-not-sacrifice.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And that is the quiet turn in the story. The outcasts were close to him because they knew they needed him. The religious men stood outside, arms folded, because they were sure they did not. The only thing that kept anyone from that table was believing they were already fine.",
+   "seg_start": 176.708,
+   "audio_start": 176.988,
+   "spoken_end": 193.977,
+   "seg_end": 194.627,
+   "audio_dur": 17.371,
+   "spoken_dur": 16.989,
+   "seg_dur": 17.919,
+   "timing": [
+    {
+     "text": "And that is the quiet turn in the story.",
+     "start": 0.0,
+     "end": 2.194
+    },
+    {
+     "text": "The outcasts were close to him because they knew they needed him.",
+     "start": 2.194,
+     "end": 6.2
+    },
+    {
+     "text": "The religious men stood outside, arms folded, because they were sure they did not.",
+     "start": 6.2,
+     "end": 12.016
+    },
+    {
+     "text": "The only thing that kept anyone from that table was believing they were already fine.",
+     "start": 12.016,
+     "end": 17.322
+    }
+   ]
+  },
+  {
+   "seg": "n11",
+   "v1_still": "s11-matthew-the-writer.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "As for Matthew, the man who had spent his life writing down what other people owed became a writer of a very different kind: one of the four accounts of Jesus's life we still read today came from his pen, the Gospel of the tax collector nobody wanted. That is what the call did to him.",
+   "seg_start": 194.627,
+   "audio_start": 194.907,
+   "spoken_end": 213.688,
+   "seg_end": 214.338,
+   "audio_dur": 19.174,
+   "spoken_dur": 18.78,
+   "seg_dur": 19.71,
+   "timing": [
+    {
+     "text": "As for Matthew, the man who had spent his life writing down what other people owed became a writer of a very different kind: one of the four accounts of Jesus's life we still read today came from his pen, the Gospel of the tax collector nobody wanted.",
+     "start": 0.0,
+     "end": 16.231
+    },
+    {
+     "text": "That is what the call did to him.",
+     "start": 16.231,
+     "end": 19.133
+    }
+   ]
+  },
+  {
+   "seg": "n12",
+   "v1_still": "s12-the-open-door.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And the table he sat at is still set. The same door is still open, the same welcome still held out to exactly the people who assume they would never be let in. He is not waiting for you to qualify. He is asking you to come and eat.",
+   "seg_start": 214.338,
+   "audio_start": 214.618,
+   "spoken_end": 230.574,
+   "seg_end": 231.224,
+   "audio_dur": 16.379,
+   "spoken_dur": 15.956,
+   "seg_dur": 16.886,
+   "timing": [
+    {
+     "text": "And the table he sat at is still set.",
+     "start": 0.0,
+     "end": 2.659
+    },
+    {
+     "text": "The same door is still open, the same welcome still held out to exactly the people who assume they would never be let in.",
+     "start": 2.659,
+     "end": 11.088
+    },
+    {
+     "text": "He is not waiting for you to qualify.",
+     "start": 11.088,
+     "end": 13.584
+    },
+    {
+     "text": "He is asking you to come and eat.",
+     "start": 13.584,
+     "end": 16.347
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He walked past every respectable man in town to sit down with the one nobody else would. If the door was open that wide for the man the whole town had written off, what makes you think it is closed to you?",
+  "seg_start": 231.224,
+  "audio_start": 231.504,
+  "seg_dur": 13.744
+ },
+ "total": 244.968
+}

@@ -1,0 +1,453 @@
+{
+ "row": 62,
+ "slug": "build-62-ephphatha",
+ "v1_dir": "media-production/build-62-ephphatha",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.2,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-the-road-back.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus came back from the coast by a long road \u2014 down through the Decapolis, the ten Gentile cities. Remember that name. It is the same region where the man from the tombs had been telling his story to anyone who would listen. Last time Jesus was on this side of the sea, the people asked him to leave. Now they come running, bringing him their broken. One man's testimony had changed the whole neighborhood.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 26.302,
+   "seg_end": 27.022,
+   "audio_dur": 26.41,
+   "spoken_dur": 26.022,
+   "seg_dur": 27.022,
+   "timing": [
+    {
+     "text": "Jesus came back from the coast by a long road \u2014 down through the Decapolis, the ten Gentile cities.",
+     "start": 0.0,
+     "end": 6.954
+    },
+    {
+     "text": "Remember that name.",
+     "start": 6.954,
+     "end": 8.51
+    },
+    {
+     "text": "It is the same region where the man from the tombs had been telling his story to anyone who would listen.",
+     "start": 8.51,
+     "end": 14.315
+    },
+    {
+     "text": "Last time Jesus was on this side of the sea, the people asked him to leave.",
+     "start": 14.315,
+     "end": 19.319
+    },
+    {
+     "text": "Now they come running, bringing him their broken.",
+     "start": 19.319,
+     "end": 22.477
+    },
+    {
+     "text": "One man's testimony had changed the whole neighborhood.",
+     "start": 22.477,
+     "end": 26.377
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-behind-the-wall.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And they brought him a man who was deaf, and whose speech was tangled because of it. Think about what deafness meant in that world. No writing tablets for the poor, no signing schools, no way in. Every conversation, every joke, every warning, every kind word \u2014 all of it happened on the other side of a wall he could not cross. He was surrounded by people, and utterly alone.",
+   "seg_start": 27.022,
+   "audio_start": 27.302,
+   "spoken_end": 52.839,
+   "seg_end": 53.559,
+   "audio_dur": 25.94,
+   "spoken_dur": 25.537,
+   "seg_dur": 26.537,
+   "timing": [
+    {
+     "text": "And they brought him a man who was deaf, and whose speech was tangled because of it.",
+     "start": 0.0,
+     "end": 4.447
+    },
+    {
+     "text": "Think about what deafness meant in that world.",
+     "start": 4.447,
+     "end": 7.372
+    },
+    {
+     "text": "No writing tablets for the poor, no signing schools, no way in.",
+     "start": 7.372,
+     "end": 12.086
+    },
+    {
+     "text": "Every conversation, every joke, every warning, every kind word \u2014 all of it happened on the other side of a wall he could not cross.",
+     "start": 12.086,
+     "end": 21.676
+    },
+    {
+     "text": "He was surrounded by people, and utterly alone.",
+     "start": 21.676,
+     "end": 25.914
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-aside.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "His friends begged Jesus just to touch him. Jesus did something better. He took the man by the hand and led him away from the crowd \u2014 completely alone, just the two of them. No audience. No spectacle. This healing was going to be private, personal, his.",
+   "seg_start": 53.559,
+   "audio_start": 53.839,
+   "spoken_end": 69.848,
+   "seg_end": 70.568,
+   "audio_dur": 16.379,
+   "spoken_dur": 16.009,
+   "seg_dur": 17.009,
+   "timing": [
+    {
+     "text": "His friends begged Jesus just to touch him.",
+     "start": 0.0,
+     "end": 2.635
+    },
+    {
+     "text": "Jesus did something better.",
+     "start": 2.635,
+     "end": 4.621
+    },
+    {
+     "text": "He took the man by the hand and led him away from the crowd \u2014 completely alone, just the two of them.",
+     "start": 4.621,
+     "end": 10.205
+    },
+    {
+     "text": "No audience.",
+     "start": 10.205,
+     "end": 11.308
+    },
+    {
+     "text": "No spectacle.",
+     "start": 11.308,
+     "end": 12.19
+    },
+    {
+     "text": "This healing was going to be private, personal, his.",
+     "start": 12.19,
+     "end": 16.347
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s5-the-sign.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then Jesus did something beautiful. He could not explain anything with words \u2014 the man could not hear them. So he spoke the only language the man could receive. He put his fingers gently to the man's ears: I see exactly what is wrong. He touched the man's mouth: and this too. Then he looked up to heaven: what happens next comes from God. Sign language, from the Son of God, to one deaf man.",
+   "seg_start": 70.568,
+   "audio_start": 70.848,
+   "spoken_end": 97.324,
+   "seg_end": 98.044,
+   "audio_dur": 26.828,
+   "spoken_dur": 26.476,
+   "seg_dur": 27.476,
+   "timing": [
+    {
+     "text": "Then Jesus did something beautiful.",
+     "start": 0.0,
+     "end": 1.788
+    },
+    {
+     "text": "He could not explain anything with words \u2014 the man could not hear them.",
+     "start": 1.788,
+     "end": 6.339
+    },
+    {
+     "text": "So he spoke the only language the man could receive.",
+     "start": 6.339,
+     "end": 9.532
+    },
+    {
+     "text": "He put his fingers gently to the man's ears: I see exactly what is wrong.",
+     "start": 9.532,
+     "end": 14.814
+    },
+    {
+     "text": "He touched the man's mouth: and this too.",
+     "start": 14.814,
+     "end": 17.774
+    },
+    {
+     "text": "Then he looked up to heaven: what happens next comes from God.",
+     "start": 17.774,
+     "end": 22.117
+    },
+    {
+     "text": "Sign language, from the Son of God, to one deaf man.",
+     "start": 22.117,
+     "end": 26.795
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s6-the-sigh.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And then Mark records a small, stunning detail \u2014 one that has nothing to do with the healing at all. Listen to exactly how he writes it.",
+   "seg_start": 98.044,
+   "audio_start": 98.324,
+   "spoken_end": 106.832,
+   "seg_end": 107.552,
+   "audio_dur": 8.96,
+   "spoken_dur": 8.507,
+   "seg_dur": 9.507,
+   "timing": [
+    {
+     "text": "And then Mark records a small, stunning detail \u2014 one that has nothing to do with the healing at all.",
+     "start": 0.0,
+     "end": 6.107
+    },
+    {
+     "text": "Listen to exactly how he writes it.",
+     "start": 6.107,
+     "end": 8.916
+    }
+   ]
+  },
+  {
+   "seg": "s34a",
+   "v1_still": "s6-the-sigh.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "And looking up to heaven, he sighed, and saith unto him,",
+   "seg_start": 107.552,
+   "audio_start": 107.832,
+   "spoken_end": 110.928,
+   "seg_end": 112.128,
+   "audio_dur": 3.37,
+   "spoken_dur": 3.096,
+   "seg_dur": 4.576,
+   "timing": [
+    {
+     "text": "And looking up to heaven, he sighed, and saith unto him,",
+     "start": 0.0,
+     "end": 3.344
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s6-the-sigh.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Ephphatha.",
+   "seg_start": 112.128,
+   "audio_start": 112.408,
+   "spoken_end": 113.32,
+   "seg_end": 114.52,
+   "audio_dur": 1.254,
+   "spoken_dur": 0.913,
+   "seg_dur": 2.393,
+   "timing": [
+    {
+     "text": "Ephphatha.",
+     "start": 0.0,
+     "end": 1.207
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s7-opened.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He sighed. Before the word, he sighed. He felt the weight of it \u2014 a world so broken that a man could go a whole lifetime without hearing his own name. The sigh came first. Then one word, in his own Aramaic mother tongue. It means: be opened. And everything opened. Sound rushed in where there had been a lifetime of nothing \u2014 birdsong, footsteps, voices, his own name. The knot in his tongue came loose, and the first plain words of his life came out.",
+   "seg_start": 114.52,
+   "audio_start": 114.8,
+   "spoken_end": 148.446,
+   "seg_end": 149.166,
+   "audio_dur": 34.116,
+   "spoken_dur": 33.646,
+   "seg_dur": 34.646,
+   "timing": [
+    {
+     "text": "He sighed.",
+     "start": 0.0,
+     "end": 0.929
+    },
+    {
+     "text": "Before the word, he sighed.",
+     "start": 0.929,
+     "end": 3.135
+    },
+    {
+     "text": "He felt the weight of it \u2014 a world so broken that a man could go a whole lifetime without hearing his own name.",
+     "start": 3.135,
+     "end": 9.88
+    },
+    {
+     "text": "The sigh came first.",
+     "start": 9.88,
+     "end": 12.028
+    },
+    {
+     "text": "Then one word, in his own Aramaic mother tongue.",
+     "start": 12.028,
+     "end": 16.045
+    },
+    {
+     "text": "It means: be opened.",
+     "start": 16.045,
+     "end": 18.216
+    },
+    {
+     "text": "And everything opened.",
+     "start": 18.216,
+     "end": 19.841
+    },
+    {
+     "text": "Sound rushed in where there had been a lifetime of nothing \u2014 birdsong, footsteps, voices, his own name.",
+     "start": 19.841,
+     "end": 28.386
+    },
+    {
+     "text": "The knot in his tongue came loose, and the first plain words of his life came out.",
+     "start": 28.386,
+     "end": 34.086
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s8-plain-words.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus asked them to keep it quiet. They could not. The more he asked, the more they told everyone \u2014 and honestly, how do you keep a man's first words a secret? The whole region came to one verdict about him:",
+   "seg_start": 149.166,
+   "audio_start": 149.446,
+   "spoken_end": 161.483,
+   "seg_end": 162.203,
+   "audio_dur": 12.382,
+   "spoken_dur": 12.037,
+   "seg_dur": 13.037,
+   "timing": [
+    {
+     "text": "Jesus asked them to keep it quiet.",
+     "start": 0.0,
+     "end": 2.113
+    },
+    {
+     "text": "They could not.",
+     "start": 2.113,
+     "end": 2.937
+    },
+    {
+     "text": "The more he asked, the more they told everyone \u2014 and honestly, how do you keep a man's first words a secret?",
+     "start": 2.937,
+     "end": 9.253
+    },
+    {
+     "text": "The whole region came to one verdict about him:",
+     "start": 9.81,
+     "end": 12.353
+    }
+   ]
+  },
+  {
+   "seg": "s37",
+   "v1_still": "s8-plain-words.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "He hath done all things well: he maketh both the deaf to hear, and the dumb to speak.",
+   "seg_start": 162.203,
+   "audio_start": 162.483,
+   "spoken_end": 167.503,
+   "seg_end": 168.703,
+   "audio_dur": 5.564,
+   "spoken_dur": 5.02,
+   "seg_dur": 6.5,
+   "timing": [
+    {
+     "text": "He hath done all things well: he maketh both the deaf to hear, and the dumb to speak.",
+     "start": 0.0,
+     "end": 5.526
+    }
+   ]
+  },
+  {
+   "seg": "n6b",
+   "v1_still": "s8-plain-words.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He has done everything well, they said. He makes the deaf hear, and he gives the speechless their voice. Not a bad verdict from a region that had asked him to leave the last time he came.",
+   "seg_start": 168.703,
+   "audio_start": 168.983,
+   "spoken_end": 179.91,
+   "seg_end": 180.63,
+   "audio_dur": 11.311,
+   "spoken_dur": 10.927,
+   "seg_dur": 11.927,
+   "timing": [
+    {
+     "text": "He has done everything well, they said.",
+     "start": 0.0,
+     "end": 2.055
+    },
+    {
+     "text": "He makes the deaf hear, and he gives the speechless their voice.",
+     "start": 2.055,
+     "end": 6.374
+    },
+    {
+     "text": "Not a bad verdict from a region that had asked him to leave the last time he came.",
+     "start": 6.374,
+     "end": 11.285
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s9-done-all-things-well.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Notice what kind of healer he is. He did not shout over the crowd. He took one man aside, met him inside his silence, explained everything in the man's own language before asking anything of him \u2014 and gave him back the world.",
+   "seg_start": 180.63,
+   "audio_start": 180.91,
+   "spoken_end": 193.615,
+   "seg_end": 194.335,
+   "audio_dur": 13.087,
+   "spoken_dur": 12.705,
+   "seg_dur": 13.705,
+   "timing": [
+    {
+     "text": "Notice what kind of healer he is.",
+     "start": 0.0,
+     "end": 1.672
+    },
+    {
+     "text": "He did not shout over the crowd.",
+     "start": 1.672,
+     "end": 3.599
+    },
+    {
+     "text": "He took one man aside, met him inside his silence, explained everything in the man's own language before asking anything of him \u2014 and gave him back the world.",
+     "start": 3.599,
+     "end": 13.05
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He does not heal for an audience. He takes you aside, meets you in your silence, and opens what was shut.",
+  "seg_start": 194.335,
+  "audio_start": 194.615,
+  "seg_dur": 8.493
+ },
+ "total": 202.828
+}

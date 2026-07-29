@@ -1,0 +1,734 @@
+{
+ "row": 45,
+ "slug": "build-45-wicked-tenants",
+ "v1_dir": "media-production/build-45-wicked-tenants",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "s1",
+   "v1_still": "s1-the-telling.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And he began to speak unto them by parables.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 2.651,
+   "seg_end": 4.251,
+   "audio_dur": 2.743,
+   "spoken_dur": 2.371,
+   "seg_dur": 4.251,
+   "timing": [
+    {
+     "text": "And he began to speak unto them by parables.",
+     "start": 0.0,
+     "end": 2.694
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s1-the-telling.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He told this one in the temple, standing in front of the very men who were plotting against him. And underneath it, it is a story about patience. About an owner who kept giving people one more chance, long past the point anyone else would have.",
+   "seg_start": 4.251,
+   "audio_start": 4.531,
+   "spoken_end": 18.309,
+   "seg_end": 18.959,
+   "audio_dur": 14.237,
+   "spoken_dur": 13.778,
+   "seg_dur": 14.708,
+   "timing": [
+    {
+     "text": "He told this one in the temple, standing in front of the very men who were plotting against him.",
+     "start": 0.0,
+     "end": 4.598
+    },
+    {
+     "text": "And underneath it, it is a story about patience.",
+     "start": 4.598,
+     "end": 7.825
+    },
+    {
+     "text": "About an owner who kept giving people one more chance, long past the point anyone else would have.",
+     "start": 7.825,
+     "end": 14.211
+    }
+   ]
+  },
+  {
+   "seg": "jv1",
+   "v1_still": "s2-the-vineyard-made.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "A certain man planted a vineyard, and set an hedge about it, and digged a place for the winefat, and built a tower, and let it out to husbandmen, and went into a far country.",
+   "seg_start": 18.959,
+   "audio_start": 19.239,
+   "spoken_end": 30.349,
+   "seg_end": 31.949,
+   "audio_dur": 11.468,
+   "spoken_dur": 11.11,
+   "seg_dur": 12.99,
+   "timing": [
+    {
+     "text": "A certain man planted a vineyard, and set an hedge about it, and digged a place for the winefat, and built a tower, and let it out to husbandmen, and went into a far country.",
+     "start": 0.0,
+     "end": 11.424
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-the-vineyard-made.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Picture how much he put into it. He broke the ground and set in the young vines, ringed it with a wall to guard them, hollowed out a press for the grapes, and raised a lookout over the whole field. Everything was ready. Then he handed the whole place to the workers and trusted them with it.",
+   "seg_start": 31.949,
+   "audio_start": 32.229,
+   "spoken_end": 48.047,
+   "seg_end": 48.697,
+   "audio_dur": 16.3,
+   "spoken_dur": 15.817,
+   "seg_dur": 16.747,
+   "timing": [
+    {
+     "text": "Picture how much he put into it.",
+     "start": 0.0,
+     "end": 1.881
+    },
+    {
+     "text": "He broke the ground and set in the young vines, ringed it with a wall to guard them, hollowed out a press for the grapes, and raised a lookout over the whole field.",
+     "start": 1.881,
+     "end": 10.681
+    },
+    {
+     "text": "Everything was ready.",
+     "start": 10.681,
+     "end": 12.585
+    },
+    {
+     "text": "Then he handed the whole place to the workers and trusted them with it.",
+     "start": 12.585,
+     "end": 16.254
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-he-goes-away.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And he left. That is the setup. The owner is far away, the workers have the run of the place, and all he asked for was a share of the harvest when it came in, the way any honest agreement works.",
+   "seg_start": 48.697,
+   "audio_start": 48.977,
+   "spoken_end": 61.113,
+   "seg_end": 61.763,
+   "audio_dur": 12.487,
+   "spoken_dur": 12.136,
+   "seg_dur": 13.066,
+   "timing": [
+    {
+     "text": "And he left.",
+     "start": 0.0,
+     "end": 0.801
+    },
+    {
+     "text": "That is the setup.",
+     "start": 0.801,
+     "end": 2.287
+    },
+    {
+     "text": "The owner is far away, the workers have the run of the place, and all he asked for was a share of the harvest when it came in, the way any honest agreement works.",
+     "start": 2.287,
+     "end": 12.446
+    }
+   ]
+  },
+  {
+   "seg": "jv2",
+   "v1_still": "s4-the-first-servant.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "And at the season he sent to the husbandmen a servant, that he might receive from the husbandmen of the fruit of the vineyard.",
+   "seg_start": 61.763,
+   "audio_start": 62.043,
+   "spoken_end": 69.084,
+   "seg_end": 70.684,
+   "audio_dur": 7.471,
+   "spoken_dur": 7.041,
+   "seg_dur": 8.921,
+   "timing": [
+    {
+     "text": "And at the season he sent to the husbandmen a servant, that he might receive from the husbandmen of the fruit of the vineyard.",
+     "start": 0.0,
+     "end": 7.43
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-the-first-servant.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "So when the season came, he sent a man to collect his share. Not soldiers. One messenger, walking up the road with an empty basket, expecting nothing but an honest exchange.",
+   "seg_start": 70.684,
+   "audio_start": 70.964,
+   "spoken_end": 82.844,
+   "seg_end": 83.494,
+   "audio_dur": 12.304,
+   "spoken_dur": 11.88,
+   "seg_dur": 12.81,
+   "timing": [
+    {
+     "text": "So when the season came, he sent a man to collect his share.",
+     "start": 0.0,
+     "end": 3.611
+    },
+    {
+     "text": "Not soldiers.",
+     "start": 3.611,
+     "end": 5.19
+    },
+    {
+     "text": "One messenger, walking up the road with an empty basket, expecting nothing but an honest exchange.",
+     "start": 5.19,
+     "end": 12.26
+    }
+   ]
+  },
+  {
+   "seg": "jv3",
+   "v1_still": "s5-sent-away-empty.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "And they caught him, and beat him, and sent him away empty.",
+   "seg_start": 83.494,
+   "audio_start": 83.774,
+   "spoken_end": 86.52,
+   "seg_end": 88.12,
+   "audio_dur": 3.109,
+   "spoken_dur": 2.747,
+   "seg_dur": 4.627,
+   "timing": [
+    {
+     "text": "And they caught him, and beat him, and sent him away empty.",
+     "start": 0.0,
+     "end": 3.065
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-sent-away-empty.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "And the man came back with the basket still empty, and shaken. They had handled him roughly and sent him off with nothing. Now here is where the story stops making ordinary sense. Anyone else sends the law next. This owner sent another messenger.",
+   "seg_start": 88.12,
+   "audio_start": 88.4,
+   "spoken_end": 104.251,
+   "seg_end": 104.901,
+   "audio_dur": 16.248,
+   "spoken_dur": 15.851,
+   "seg_dur": 16.781,
+   "timing": [
+    {
+     "text": "And the man came back with the basket still empty, and shaken.",
+     "start": 0.0,
+     "end": 3.878
+    },
+    {
+     "text": "They had handled him roughly and sent him off with nothing.",
+     "start": 3.878,
+     "end": 6.966
+    },
+    {
+     "text": "Now here is where the story stops making ordinary sense.",
+     "start": 6.966,
+     "end": 11.297
+    },
+    {
+     "text": "Anyone else sends the law next.",
+     "start": 11.297,
+     "end": 13.839
+    },
+    {
+     "text": "This owner sent another messenger.",
+     "start": 13.839,
+     "end": 16.208
+    }
+   ]
+  },
+  {
+   "seg": "jv4_5",
+   "v1_still": "s6-he-sent-another.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "And again he sent unto them another servant; and at him they cast stones, and wounded him in the head, and sent him away shamefully handled. And again he sent another; and him they killed, and many others; beating some, and killing some.",
+   "seg_start": 104.901,
+   "audio_start": 105.181,
+   "spoken_end": 121.544,
+   "seg_end": 123.144,
+   "audio_dur": 16.744,
+   "spoken_dur": 16.363,
+   "seg_dur": 18.243,
+   "timing": [
+    {
+     "text": "And again he sent unto them another servant; and at him they cast stones, and wounded him in the head, and sent him away shamefully handled.",
+     "start": 0.0,
+     "end": 8.975
+    },
+    {
+     "text": "And again he sent another; and him they killed, and many others; beating some, and killing some.",
+     "start": 8.975,
+     "end": 16.718
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6-he-sent-another.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "And they treated that one worse. And another after that. Message after message, season after season, and every time it came back the same, or did not come back at all.",
+   "seg_start": 123.144,
+   "audio_start": 123.424,
+   "spoken_end": 134.502,
+   "seg_end": 135.152,
+   "audio_dur": 11.52,
+   "spoken_dur": 11.078,
+   "seg_dur": 12.008,
+   "timing": [
+    {
+     "text": "And they treated that one worse.",
+     "start": 0.0,
+     "end": 1.811
+    },
+    {
+     "text": "And another after that.",
+     "start": 1.811,
+     "end": 3.564
+    },
+    {
+     "text": "Message after message, season after season, and every time it came back the same, or did not come back at all.",
+     "start": 3.564,
+     "end": 11.471
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s7-the-long-patience.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Stop and feel how strange that is. Every reasonable line was crossed a long time ago. He had every right to come with force and end it. Instead he kept doing the one thing that left him exposed. He kept reaching out to people who had already shown him exactly who they were.",
+   "seg_start": 135.152,
+   "audio_start": 135.432,
+   "spoken_end": 152.303,
+   "seg_end": 152.953,
+   "audio_dur": 17.267,
+   "spoken_dur": 16.871,
+   "seg_dur": 17.801,
+   "timing": [
+    {
+     "text": "Stop and feel how strange that is.",
+     "start": 0.0,
+     "end": 2.183
+    },
+    {
+     "text": "Every reasonable line was crossed a long time ago.",
+     "start": 2.183,
+     "end": 5.817
+    },
+    {
+     "text": "He had every right to come with force and end it.",
+     "start": 5.817,
+     "end": 8.94
+    },
+    {
+     "text": "Instead he kept doing the one thing that left him exposed.",
+     "start": 8.94,
+     "end": 12.562
+    },
+    {
+     "text": "He kept reaching out to people who had already shown him exactly who they were.",
+     "start": 12.562,
+     "end": 17.229
+    }
+   ]
+  },
+  {
+   "seg": "jv6",
+   "v1_still": "s8-the-beloved-son.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Having yet therefore one son, his wellbeloved, he sent him also last unto them, saying, They will reverence my son.",
+   "seg_start": 152.953,
+   "audio_start": 153.233,
+   "spoken_end": 161.309,
+   "seg_end": 162.909,
+   "audio_dur": 8.438,
+   "spoken_dur": 8.076,
+   "seg_dur": 9.956,
+   "timing": [
+    {
+     "text": "Having yet therefore one son, his wellbeloved, he sent him also last unto them, saying, They will reverence my son.",
+     "start": 0.0,
+     "end": 8.406
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s8-the-beloved-son.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He had one person left. His son. The one he loved most in the world. And he sent him too, holding on to a hope you can hear him say out loud. Surely they will respect my son.",
+   "seg_start": 162.909,
+   "audio_start": 163.189,
+   "spoken_end": 175.642,
+   "seg_end": 176.292,
+   "audio_dur": 12.852,
+   "spoken_dur": 12.454,
+   "seg_dur": 13.384,
+   "timing": [
+    {
+     "text": "He had one person left.",
+     "start": 0.0,
+     "end": 1.625
+    },
+    {
+     "text": "His son.",
+     "start": 1.625,
+     "end": 2.856
+    },
+    {
+     "text": "The one he loved most in the world.",
+     "start": 2.856,
+     "end": 4.923
+    },
+    {
+     "text": "And he sent him too, holding on to a hope you can hear him say out loud.",
+     "start": 4.923,
+     "end": 9.95
+    },
+    {
+     "text": "Surely they will respect my son.",
+     "start": 9.95,
+     "end": 12.817
+    }
+   ]
+  },
+  {
+   "seg": "jv7",
+   "v1_still": "s9-they-saw-the-heir.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "But those husbandmen said among themselves, This is the heir; come, let us kill him, and the inheritance shall be ours.",
+   "seg_start": 176.292,
+   "audio_start": 176.572,
+   "spoken_end": 183.996,
+   "seg_end": 185.596,
+   "audio_dur": 7.837,
+   "spoken_dur": 7.424,
+   "seg_dur": 9.304,
+   "timing": [
+    {
+     "text": "But those husbandmen said among themselves, This is the heir; come, let us kill him, and the inheritance shall be ours.",
+     "start": 0.0,
+     "end": 7.802
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s9-they-saw-the-heir.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "But when the workers saw the son coming up the road, they did not see a person. They saw an opening. If the heir is gone, they said to each other, the whole place falls to us. It is the coldest arithmetic in any story he ever told.",
+   "seg_start": 185.596,
+   "audio_start": 185.876,
+   "spoken_end": 199.765,
+   "seg_end": 200.415,
+   "audio_dur": 14.289,
+   "spoken_dur": 13.889,
+   "seg_dur": 14.819,
+   "timing": [
+    {
+     "text": "But when the workers saw the son coming up the road, they did not see a person.",
+     "start": 0.0,
+     "end": 4.272
+    },
+    {
+     "text": "They saw an opening.",
+     "start": 4.272,
+     "end": 5.712
+    },
+    {
+     "text": "If the heir is gone, they said to each other, the whole place falls to us.",
+     "start": 5.712,
+     "end": 10.298
+    },
+    {
+     "text": "It is the coldest arithmetic in any story he ever told.",
+     "start": 10.298,
+     "end": 14.257
+    }
+   ]
+  },
+  {
+   "seg": "jv8",
+   "v1_still": "s10-the-fathers-grief.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "And they took him, and killed him, and cast him out of the vineyard.",
+   "seg_start": 200.415,
+   "audio_start": 200.695,
+   "spoken_end": 203.806,
+   "seg_end": 205.406,
+   "audio_dur": 3.527,
+   "spoken_dur": 3.111,
+   "seg_dur": 4.991,
+   "timing": [
+    {
+     "text": "And they took him, and killed him, and cast him out of the vineyard.",
+     "start": 0.0,
+     "end": 3.483
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s10-the-fathers-grief.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "You can guess what they chose. The story does not linger on it and neither will we. They shut him out, and they took his life. And the father who had waited all those years, still hoping, lost the one he loved most of all. That is how far the patience went, and what it finally cost him.",
+   "seg_start": 205.406,
+   "audio_start": 205.686,
+   "spoken_end": 223.737,
+   "seg_end": 224.387,
+   "audio_dur": 18.416,
+   "spoken_dur": 18.05,
+   "seg_dur": 18.98,
+   "timing": [
+    {
+     "text": "You can guess what they chose.",
+     "start": 0.0,
+     "end": 1.382
+    },
+    {
+     "text": "The story does not linger on it and neither will we.",
+     "start": 1.382,
+     "end": 4.667
+    },
+    {
+     "text": "They shut him out, and they took his life.",
+     "start": 4.667,
+     "end": 7.488
+    },
+    {
+     "text": "And the father who had waited all those years, still hoping, lost the one he loved most of all.",
+     "start": 7.488,
+     "end": 13.955
+    },
+    {
+     "text": "That is how far the patience went, and what it finally cost him.",
+     "start": 13.955,
+     "end": 18.39
+    }
+   ]
+  },
+  {
+   "seg": "jv9",
+   "v1_still": "s11-given-to-others.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "What shall therefore the lord of the vineyard do? he will come and destroy the husbandmen, and will give the vineyard unto others.",
+   "seg_start": 224.387,
+   "audio_start": 224.667,
+   "spoken_end": 232.619,
+   "seg_end": 234.219,
+   "audio_dur": 8.359,
+   "spoken_dur": 7.952,
+   "seg_dur": 9.832,
+   "timing": [
+    {
+     "text": "What shall therefore the lord of the vineyard do?",
+     "start": 0.0,
+     "end": 2.473
+    },
+    {
+     "text": "he will come and destroy the husbandmen, and will give the vineyard unto others.",
+     "start": 2.473,
+     "end": 8.313
+    }
+   ]
+  },
+  {
+   "seg": "n11",
+   "v1_still": "s11-given-to-others.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Then he turned it into a question. What is the owner going to do now? And the weight of the answer is not really the punishment. It is that the vineyard finally passes to people who will actually tend it and give its fruit back. The trust does not vanish. It goes to hands that will keep it. And then he reached back into their own scriptures for the last word.",
+   "seg_start": 234.219,
+   "audio_start": 234.499,
+   "spoken_end": 255.183,
+   "seg_end": 255.833,
+   "audio_dur": 21.029,
+   "spoken_dur": 20.685,
+   "seg_dur": 21.615,
+   "timing": [
+    {
+     "text": "Then he turned it into a question.",
+     "start": 0.0,
+     "end": 1.579
+    },
+    {
+     "text": "What is the owner going to do now?",
+     "start": 1.579,
+     "end": 3.936
+    },
+    {
+     "text": "And the weight of the answer is not really the punishment.",
+     "start": 3.936,
+     "end": 7.279
+    },
+    {
+     "text": "It is that the vineyard finally passes to people who will actually tend it and give its fruit back.",
+     "start": 7.279,
+     "end": 13.538
+    },
+    {
+     "text": "The trust does not vanish.",
+     "start": 13.538,
+     "end": 15.511
+    },
+    {
+     "text": "It goes to hands that will keep it.",
+     "start": 15.511,
+     "end": 17.38
+    },
+    {
+     "text": "And then he reached back into their own scriptures for the last word.",
+     "start": 17.38,
+     "end": 20.991
+    }
+   ]
+  },
+  {
+   "seg": "jv10",
+   "v1_still": "s12-the-cornerstone.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "And have ye not read this scripture; The stone which the builders rejected is become the head of the corner: This was the Lord's doing, and it is marvellous in our eyes?",
+   "seg_start": 255.833,
+   "audio_start": 256.113,
+   "spoken_end": 267.5,
+   "seg_end": 269.1,
+   "audio_dur": 11.781,
+   "spoken_dur": 11.387,
+   "seg_dur": 13.267,
+   "timing": [
+    {
+     "text": "And have ye not read this scripture; The stone which the builders rejected is become the head of the corner: This was the Lord's doing, and it is marvellous in our eyes?",
+     "start": 0.0,
+     "end": 11.749
+    }
+   ]
+  },
+  {
+   "seg": "n12",
+   "v1_still": "s12-the-cornerstone.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "The block the builders threw on the reject pile turned out to be the one the whole building leans its weight on. He is talking about himself. The son they were ready to throw out is the foundation everything else gets built on. They meant it for an ending. It was the beginning.",
+   "seg_start": 269.1,
+   "audio_start": 269.38,
+   "spoken_end": 285.313,
+   "seg_end": 285.963,
+   "audio_dur": 16.327,
+   "spoken_dur": 15.933,
+   "seg_dur": 16.863,
+   "timing": [
+    {
+     "text": "The block the builders threw on the reject pile turned out to be the one the whole building leans its weight on.",
+     "start": 0.0,
+     "end": 5.375
+    },
+    {
+     "text": "He is talking about himself.",
+     "start": 5.375,
+     "end": 7.639
+    },
+    {
+     "text": "The son they were ready to throw out is the foundation everything else gets built on.",
+     "start": 7.639,
+     "end": 12.852
+    },
+    {
+     "text": "They meant it for an ending.",
+     "start": 12.852,
+     "end": 14.698
+    },
+    {
+     "text": "It was the beginning.",
+     "start": 14.698,
+     "end": 16.3
+    }
+   ]
+  },
+  {
+   "seg": "n13",
+   "v1_still": "s13-the-invitation.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The men he told it to heard themselves in it, and it made them furious. But sitting right underneath their anger is the kindest fact in the whole story. The owner never stopped sending. Not after the first, not after the tenth, not even after the worst. That is the God this whole thing is about.",
+   "seg_start": 285.963,
+   "audio_start": 286.243,
+   "spoken_end": 304.38,
+   "seg_end": 305.03,
+   "audio_dur": 18.573,
+   "spoken_dur": 18.137,
+   "seg_dur": 19.067,
+   "timing": [
+    {
+     "text": "The men he told it to heard themselves in it, and it made them furious.",
+     "start": 0.0,
+     "end": 4.04
+    },
+    {
+     "text": "But sitting right underneath their anger is the kindest fact in the whole story.",
+     "start": 4.04,
+     "end": 8.766
+    },
+    {
+     "text": "The owner never stopped sending.",
+     "start": 8.766,
+     "end": 11.169
+    },
+    {
+     "text": "Not after the first, not after the tenth, not even after the worst.",
+     "start": 11.169,
+     "end": 15.859
+    },
+    {
+     "text": "That is the God this whole thing is about.",
+     "start": 15.859,
+     "end": 18.53
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He told this to the very people about to reject him, and he was still calling them in. An owner who keeps sending, after all of that, is not looking for a reason to be done with you. What would you do with a patience like that?",
+  "seg_start": 305.03,
+  "audio_start": 305.31,
+  "seg_dur": 14.92
+ },
+ "total": 319.949
+}

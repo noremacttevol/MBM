@@ -1,0 +1,296 @@
+{
+ "row": 154,
+ "slug": "build-154-everlasting-gospel",
+ "v1_dir": "media-production/build-154-everlasting-gospel",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-the-world-waiting.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "For long stretches of history, whole peoples lived without it \u2014 the good news about God, misplaced, buried, or never yet heard. Men reached for heaven in the dark and could not quite find the way.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 11.836,
+   "seg_end": 12.486,
+   "audio_dur": 11.938,
+   "spoken_dur": 11.556,
+   "seg_dur": 12.486,
+   "timing": [
+    {
+     "text": "For long stretches of history, whole peoples lived without it \u2014 the good news about God, misplaced, buried, or never yet heard.",
+     "start": 0.0,
+     "end": 7.775
+    },
+    {
+     "text": "Men reached for heaven in the dark and could not quite find the way.",
+     "start": 7.775,
+     "end": 11.938
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-the-angel-appears.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And then, in a vision, John of Patmos saw heaven open, and something come. Not an army, not a storm, but an angel, sent on an errand of mercy, carrying a message meant for the whole earth.",
+   "seg_start": 12.486,
+   "audio_start": 12.766,
+   "spoken_end": 24.6,
+   "seg_end": 25.25,
+   "audio_dur": 12.199,
+   "spoken_dur": 11.835,
+   "seg_dur": 12.765,
+   "timing": [
+    {
+     "text": "And then, in a vision, John of Patmos saw heaven open, and something come.",
+     "start": 0.0,
+     "end": 4.827
+    },
+    {
+     "text": "Not an army, not a storm, but an angel, sent on an errand of mercy, carrying a message meant for the whole earth.",
+     "start": 4.827,
+     "end": 12.199
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-flying-in-heaven.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The angel flew across the height of heaven for all to see, holding out an open book: the good news about God, ready to be given back to a world that had lost hold of it.",
+   "seg_start": 25.25,
+   "audio_start": 25.53,
+   "spoken_end": 34.374,
+   "seg_end": 35.024,
+   "audio_dur": 9.221,
+   "spoken_dur": 8.844,
+   "seg_dur": 9.774,
+   "timing": [
+    {
+     "text": "The angel flew across the height of heaven for all to see, holding out an open book: the good news about God, ready to be given back to a world that had lost hold of it.",
+     "start": 0.0,
+     "end": 9.221
+    }
+   ]
+  },
+  {
+   "seg": "kv6",
+   "v1_still": "s4-the-everlasting-gospel.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And I saw another angel fly in the midst of heaven, having the everlasting gospel to preach unto them that dwell on the earth, and to every nation, and kindred, and tongue, and people,",
+   "seg_start": 35.024,
+   "audio_start": 35.304,
+   "spoken_end": 45.783,
+   "seg_end": 47.383,
+   "audio_dur": 10.815,
+   "spoken_dur": 10.478,
+   "seg_dur": 12.358,
+   "timing": [
+    {
+     "text": "And I saw another angel fly in the midst of heaven, having the everlasting gospel to preach unto them that dwell on the earth, and to every nation, and kindred, and tongue, and people,",
+     "start": 0.0,
+     "end": 10.815
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-the-everlasting-gospel.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Notice the word: everlasting. This good news was never really invented, or improved, by anyone. It is older than the nations, the same true message from the beginning, carried down from heaven and offered fresh again.",
+   "seg_start": 47.383,
+   "audio_start": 47.663,
+   "spoken_end": 59.637,
+   "seg_end": 60.287,
+   "audio_dur": 12.304,
+   "spoken_dur": 11.974,
+   "seg_dur": 12.904,
+   "timing": [
+    {
+     "text": "Notice the word: everlasting.",
+     "start": 0.0,
+     "end": 1.66
+    },
+    {
+     "text": "This good news was never really invented, or improved, by anyone.",
+     "start": 1.66,
+     "end": 5.379
+    },
+    {
+     "text": "It is older than the nations, the same true message from the beginning, carried down from heaven and offered fresh again.",
+     "start": 5.379,
+     "end": 12.304
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-to-every-nation.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And notice who it is for. Not one favoured people, not one language or land, but every nation, every family, every tongue. No one is too far away, too foreign, or too late to be handed this.",
+   "seg_start": 60.287,
+   "audio_start": 60.567,
+   "spoken_end": 72.108,
+   "seg_end": 72.758,
+   "audio_dur": 11.938,
+   "spoken_dur": 11.541,
+   "seg_dur": 12.471,
+   "timing": [
+    {
+     "text": "And notice who it is for.",
+     "start": 0.0,
+     "end": 1.587
+    },
+    {
+     "text": "Not one favoured people, not one language or land, but every nation, every family, every tongue.",
+     "start": 1.587,
+     "end": 7.683
+    },
+    {
+     "text": "No one is too far away, too foreign, or too late to be handed this.",
+     "start": 7.683,
+     "end": 11.938
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6-fear-God-give-glory.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The angel's call is simple and clean. Honour God, give him the glory, and worship the One who made it all \u2014 the heavens, the earth, the sea, and every spring of water. Turn your face back toward your Maker.",
+   "seg_start": 72.758,
+   "audio_start": 73.038,
+   "spoken_end": 85.713,
+   "seg_end": 86.363,
+   "audio_dur": 13.035,
+   "spoken_dur": 12.675,
+   "seg_dur": 13.605,
+   "timing": [
+    {
+     "text": "The angel's call is simple and clean.",
+     "start": 0.0,
+     "end": 2.364
+    },
+    {
+     "text": "Honour God, give him the glory, and worship the One who made it all \u2014 the heavens, the earth, the sea, and every spring of water.",
+     "start": 2.364,
+     "end": 10.607
+    },
+    {
+     "text": "Turn your face back toward your Maker.",
+     "start": 10.607,
+     "end": 13.035
+    }
+   ]
+  },
+  {
+   "seg": "kv7",
+   "v1_still": "s7-worship-the-creator.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Saying with a loud voice, Fear God, and give glory to him; for the hour of his judgment is come: worship him that made heaven and earth, and the sea, and the fountains of waters.",
+   "seg_start": 86.363,
+   "audio_start": 86.643,
+   "spoken_end": 96.907,
+   "seg_end": 98.507,
+   "audio_dur": 10.632,
+   "spoken_dur": 10.264,
+   "seg_dur": 12.144,
+   "timing": [
+    {
+     "text": "Saying with a loud voice, Fear God, and give glory to him; for the hour of his judgment is come: worship him that made heaven and earth, and the sea, and the fountains of waters.",
+     "start": 0.0,
+     "end": 10.632
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s7-worship-the-creator.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "It is a call to come home to the God of creation \u2014 the same God who set the stars in place and filled the seas. Not a distant idea, but the Maker of the very ground under your feet, quietly asking for your heart.",
+   "seg_start": 98.507,
+   "audio_start": 98.787,
+   "spoken_end": 111.809,
+   "seg_end": 112.459,
+   "audio_dur": 13.453,
+   "spoken_dur": 13.022,
+   "seg_dur": 13.952,
+   "timing": [
+    {
+     "text": "It is a call to come home to the God of creation \u2014 the same God who set the stars in place and filled the seas.",
+     "start": 0.0,
+     "end": 7.077
+    },
+    {
+     "text": "Not a distant idea, but the Maker of the very ground under your feet, quietly asking for your heart.",
+     "start": 7.077,
+     "end": 13.453
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s8-the-gospel-for-you.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So here is the quiet wonder of this verse. The good news was never abandoned for good. Heaven sent it out again, on purpose, for everyone \u2014 which means it was sent for you, too. So the only question is a gentle one. Will you receive it?",
+   "seg_start": 112.459,
+   "audio_start": 112.739,
+   "spoken_end": 127.947,
+   "seg_end": 128.597,
+   "audio_dur": 15.647,
+   "spoken_dur": 15.207,
+   "seg_dur": 16.137,
+   "timing": [
+    {
+     "text": "So here is the quiet wonder of this verse.",
+     "start": 0.0,
+     "end": 2.833
+    },
+    {
+     "text": "The good news was never abandoned for good.",
+     "start": 2.833,
+     "end": 5.733
+    },
+    {
+     "text": "Heaven sent it out again, on purpose, for everyone \u2014 which means it was sent for you, too.",
+     "start": 5.733,
+     "end": 11.803
+    },
+    {
+     "text": "So the only question is a gentle one.",
+     "start": 11.803,
+     "end": 14.298
+    },
+    {
+     "text": "Will you receive it?",
+     "start": 14.298,
+     "end": 15.647
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "The gospel was never lost for good. Heaven sent an angel to carry it back to every nation, kindred, and tongue \u2014 everlasting, and meant for you. Will you receive it?",
+  "seg_start": 128.597,
+  "audio_start": 128.877,
+  "seg_dur": 13.196
+ },
+ "total": 141.792
+}

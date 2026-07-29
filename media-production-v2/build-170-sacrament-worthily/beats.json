@@ -1,0 +1,287 @@
+{
+ "row": 170,
+ "slug": "build-170-sacrament-worthily",
+ "v1_dir": "media-production/build-170-sacrament-worthily",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-upper-room.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Paul was handing on something sacred that he had received himself: on the very night he was betrayed, at supper with his friends, the Master took a simple loaf of bread into his hands and gave thanks over it.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 11.693,
+   "seg_end": 12.343,
+   "audio_dur": 11.886,
+   "spoken_dur": 11.413,
+   "seg_dur": 12.343,
+   "timing": [
+    {
+     "text": "Paul was handing on something sacred that he had received himself: on the very night he was betrayed, at supper with his friends, the Master took a simple loaf of bread into his hands and gave thanks over it.",
+     "start": 0.0,
+     "end": 11.842
+    }
+   ]
+  },
+  {
+   "seg": "kv24",
+   "v1_still": "s2-the-bread.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And when he had given thanks, he brake it, and said, Take, eat: this is my body, which is broken for you: this do in remembrance of me.",
+   "seg_start": 12.343,
+   "audio_start": 12.623,
+   "spoken_end": 20.939,
+   "seg_end": 22.539,
+   "audio_dur": 8.673,
+   "spoken_dur": 8.315,
+   "seg_dur": 10.195,
+   "timing": [
+    {
+     "text": "And when he had given thanks, he brake it, and said, Take, eat: this is my body, which is broken for you: this do in remembrance of me.",
+     "start": 0.0,
+     "end": 8.638
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s3-the-cup.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then he lifted the cup. This one, he said, was the sign of a new covenant \u2014 a solemn promise sealed between God and his people, and offered freely to them.",
+   "seg_start": 22.539,
+   "audio_start": 22.819,
+   "spoken_end": 31.976,
+   "seg_end": 32.626,
+   "audio_dur": 9.456,
+   "spoken_dur": 9.157,
+   "seg_dur": 10.087,
+   "timing": [
+    {
+     "text": "Then he lifted the cup.",
+     "start": 0.0,
+     "end": 1.01
+    },
+    {
+     "text": "This one, he said, was the sign of a new covenant \u2014 a solemn promise sealed between God and his people, and offered freely to them.",
+     "start": 1.01,
+     "end": 9.427
+    }
+   ]
+  },
+  {
+   "seg": "kv25",
+   "v1_still": "s3-the-cup.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "After the same manner also he took the cup, when he had supped, saying, This cup is the new testament in my blood: this do ye, as oft as ye drink it, in remembrance of me.",
+   "seg_start": 32.626,
+   "audio_start": 32.906,
+   "spoken_end": 42.706,
+   "seg_end": 44.306,
+   "audio_dur": 10.162,
+   "spoken_dur": 9.8,
+   "seg_dur": 11.68,
+   "timing": [
+    {
+     "text": "After the same manner also he took the cup, when he had supped, saying, This cup is the new testament in my blood: this do ye, as oft as ye drink it, in remembrance of me.",
+     "start": 0.0,
+     "end": 10.124
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s4-in-remembrance.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Ever since, his people have taken that same bread and that same cup together, quietly, reverently \u2014 a small, holy act of remembering the One who gave everything for them.",
+   "seg_start": 44.306,
+   "audio_start": 44.586,
+   "spoken_end": 54.47,
+   "seg_end": 55.12,
+   "audio_dur": 10.266,
+   "spoken_dur": 9.884,
+   "seg_dur": 10.814,
+   "timing": [
+    {
+     "text": "Ever since, his people have taken that same bread and that same cup together, quietly, reverently \u2014 a small, holy act of remembering the One who gave everything for them.",
+     "start": 0.0,
+     "end": 10.217
+    }
+   ]
+  },
+  {
+   "seg": "s26",
+   "v1_still": "s5-till-he-come.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "For as often as ye eat this bread, and drink this cup, ye do shew the Lord's death till he come.",
+   "seg_start": 55.12,
+   "audio_start": 55.4,
+   "spoken_end": 60.095,
+   "seg_end": 61.695,
+   "audio_dur": 5.042,
+   "spoken_dur": 4.696,
+   "seg_dur": 6.576,
+   "timing": [
+    {
+     "text": "For as often as ye eat this bread, and drink this cup, ye do shew the Lord's death till he come.",
+     "start": 0.0,
+     "end": 5.016
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s5-till-he-come.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "And it looks in two directions at once. Every time we take it, we are remembering a sacrifice already made, and we are looking forward, in hope, to the day he returns.",
+   "seg_start": 61.695,
+   "audio_start": 61.975,
+   "spoken_end": 72.058,
+   "seg_end": 72.708,
+   "audio_dur": 10.475,
+   "spoken_dur": 10.082,
+   "seg_dur": 11.012,
+   "timing": [
+    {
+     "text": "And it looks in two directions at once.",
+     "start": 0.0,
+     "end": 2.136
+    },
+    {
+     "text": "Every time we take it, we are remembering a sacrifice already made, and we are looking forward, in hope, to the day he returns.",
+     "start": 2.136,
+     "end": 10.449
+    }
+   ]
+  },
+  {
+   "seg": "s28",
+   "v1_still": "s6-examine-yourself.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "But let a man examine himself, and so let him eat of that bread, and drink of that cup.",
+   "seg_start": 72.708,
+   "audio_start": 72.988,
+   "spoken_end": 77.3,
+   "seg_end": 78.9,
+   "audio_dur": 4.78,
+   "spoken_dur": 4.312,
+   "seg_dur": 6.192,
+   "timing": [
+    {
+     "text": "But let a man examine himself, and so let him eat of that bread, and drink of that cup.",
+     "start": 0.0,
+     "end": 4.737
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s6-examine-yourself.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Paul asked for just one thing beforehand, and he asked it gently: that each person pause and look honestly into his own heart, and come sincerely. Not to keep anyone away, but so the moment stays real and tender.",
+   "seg_start": 78.9,
+   "audio_start": 79.18,
+   "spoken_end": 92.298,
+   "seg_end": 92.948,
+   "audio_dur": 13.505,
+   "spoken_dur": 13.118,
+   "seg_dur": 14.048,
+   "timing": [
+    {
+     "text": "Paul asked for just one thing beforehand, and he asked it gently: that each person pause and look honestly into his own heart, and come sincerely.",
+     "start": 0.0,
+     "end": 8.649
+    },
+    {
+     "text": "Not to keep anyone away, but so the moment stays real and tender.",
+     "start": 8.649,
+     "end": 13.468
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s7-covenant-renewed.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Here is the quiet study gem. This is why it is done again and again, and never just once. It is a covenant renewed \u2014 week after week, a fresh chance to be made clean, to set down the past and begin again.",
+   "seg_start": 92.948,
+   "audio_start": 93.228,
+   "spoken_end": 106.065,
+   "seg_end": 106.715,
+   "audio_dur": 13.218,
+   "spoken_dur": 12.837,
+   "seg_dur": 13.767,
+   "timing": [
+    {
+     "text": "Here is the quiet study gem.",
+     "start": 0.0,
+     "end": 1.579
+    },
+    {
+     "text": "This is why it is done again and again, and never just once.",
+     "start": 1.579,
+     "end": 5.48
+    },
+    {
+     "text": "It is a covenant renewed \u2014 week after week, a fresh chance to be made clean, to set down the past and begin again.",
+     "start": 5.48,
+     "end": 13.189
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s8-a-place-for-you.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And a place at that table is kept for you. Not for the perfect, but for the sincere \u2014 for anyone willing to come and remember. When the bread and the cup are offered to you, will you come to the table?",
+   "seg_start": 106.715,
+   "audio_start": 106.995,
+   "spoken_end": 118.752,
+   "seg_end": 119.402,
+   "audio_dur": 12.121,
+   "spoken_dur": 11.756,
+   "seg_dur": 12.686,
+   "timing": [
+    {
+     "text": "And a place at that table is kept for you.",
+     "start": 0.0,
+     "end": 2.159
+    },
+    {
+     "text": "Not for the perfect, but for the sincere \u2014 for anyone willing to come and remember.",
+     "start": 2.159,
+     "end": 7.744
+    },
+    {
+     "text": "When the bread and the cup are offered to you, will you come to the table?",
+     "start": 7.744,
+     "end": 12.074
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "The bread and the cup are taken in remembrance \u2014 a covenant renewed again and again, a fresh chance to be made clean. Not for the perfect, but for the sincere. When they are offered to you, will you come to the table?",
+  "seg_start": 119.402,
+  "audio_start": 119.682,
+  "seg_dur": 14.867
+ },
+ "total": 134.269
+}

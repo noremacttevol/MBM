@@ -1,0 +1,416 @@
+{
+ "row": 30,
+ "slug": "build-30-net",
+ "v1_dir": "media-production/build-30-net",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.15,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-cast.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus told one more short story about the kingdom of heaven, and this time he set it out on the water.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 5.604,
+   "seg_end": 6.324,
+   "audio_dur": 5.747,
+   "spoken_dur": 5.324,
+   "seg_dur": 6.324,
+   "timing": [
+    {
+     "text": "Jesus told one more short story about the kingdom of heaven, and this time he set it out on the water.",
+     "start": 0.0,
+     "end": 5.712
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s1-cast.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Again, the kingdom of heaven is like unto a net, that was cast into the sea, and gathered of every kind:",
+   "seg_start": 6.324,
+   "audio_start": 6.604,
+   "spoken_end": 13.509,
+   "seg_end": 14.659,
+   "audio_dur": 7.34,
+   "spoken_dur": 6.906,
+   "seg_dur": 8.336,
+   "timing": [
+    {
+     "text": "Again, the kingdom of heaven is like unto a net, that was cast into the sea, and gathered of every kind:",
+     "start": 0.0,
+     "end": 7.291
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s1-cast.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Picture fishermen throwing a great wide net off the side of the boat, letting it sink down and drag through the whole sea.",
+   "seg_start": 14.659,
+   "audio_start": 14.939,
+   "spoken_end": 21.731,
+   "seg_end": 22.451,
+   "audio_dur": 7.184,
+   "spoken_dur": 6.792,
+   "seg_dur": 7.792,
+   "timing": [
+    {
+     "text": "Picture fishermen throwing a great wide net off the side of the boat, letting it sink down and drag through the whole sea.",
+     "start": 0.0,
+     "end": 7.152
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s2-every-kind.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And here is the first beautiful thing. That net does not pick and choose. It sweeps up every kind of fish there is: big ones, small ones, common ones, strange ones, everything the sea has in it, gathered in together.",
+   "seg_start": 22.451,
+   "audio_start": 22.731,
+   "spoken_end": 37.215,
+   "seg_end": 37.935,
+   "audio_dur": 14.864,
+   "spoken_dur": 14.484,
+   "seg_dur": 15.484,
+   "timing": [
+    {
+     "text": "And here is the first beautiful thing.",
+     "start": 0.0,
+     "end": 1.625
+    },
+    {
+     "text": "That net does not pick and choose.",
+     "start": 1.625,
+     "end": 4.214
+    },
+    {
+     "text": "It sweeps up every kind of fish there is: big ones, small ones, common ones, strange ones, everything the sea has in it, gathered in together.",
+     "start": 4.214,
+     "end": 14.814
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s2-every-kind.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "The net is not fussy about who gets caught up in it. The gathering is wide open. Nobody swimming in that sea is too ordinary, or too far gone, to be swept up into it.",
+   "seg_start": 37.935,
+   "audio_start": 38.215,
+   "spoken_end": 48.279,
+   "seg_end": 48.999,
+   "audio_dur": 10.527,
+   "spoken_dur": 10.064,
+   "seg_dur": 11.064,
+   "timing": [
+    {
+     "text": "The net is not fussy about who gets caught up in it.",
+     "start": 0.0,
+     "end": 2.508
+    },
+    {
+     "text": "The gathering is wide open.",
+     "start": 2.508,
+     "end": 4.447
+    },
+    {
+     "text": "Nobody swimming in that sea is too ordinary, or too far gone, to be swept up into it.",
+     "start": 4.447,
+     "end": 10.495
+    }
+   ]
+  },
+  {
+   "seg": "j48",
+   "v1_still": "s3-draw-shore.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Which, when it was full, they drew to shore, and sat down, and gathered the good into vessels, but cast the bad away.",
+   "seg_start": 48.999,
+   "audio_start": 49.279,
+   "spoken_end": 56.39,
+   "seg_end": 57.54,
+   "audio_dur": 7.523,
+   "spoken_dur": 7.111,
+   "seg_dur": 8.541,
+   "timing": [
+    {
+     "text": "Which, when it was full, they drew to shore, and sat down, and gathered the good into vessels, but cast the bad away.",
+     "start": 0.0,
+     "end": 7.477
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s3-draw-shore.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "When the net is full, the fishermen drag the whole heavy thing up onto the shore, and they sit down beside it. And only then, once everyone is already gathered in, does any sorting begin.",
+   "seg_start": 57.54,
+   "audio_start": 57.82,
+   "spoken_end": 68.566,
+   "seg_end": 69.286,
+   "audio_dur": 11.128,
+   "spoken_dur": 10.746,
+   "seg_dur": 11.746,
+   "timing": [
+    {
+     "text": "When the net is full, the fishermen drag the whole heavy thing up onto the shore, and they sit down beside it.",
+     "start": 0.0,
+     "end": 6.026
+    },
+    {
+     "text": "And only then, once everyone is already gathered in, does any sorting begin.",
+     "start": 6.026,
+     "end": 11.099
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s4-good-vessels.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "They gather the good fish carefully into baskets, keeping them, valuing them, not losing a single one.",
+   "seg_start": 69.286,
+   "audio_start": 69.566,
+   "spoken_end": 75.995,
+   "seg_end": 76.715,
+   "audio_dur": 6.818,
+   "spoken_dur": 6.429,
+   "seg_dur": 7.429,
+   "timing": [
+    {
+     "text": "They gather the good fish carefully into baskets, keeping them, valuing them, not losing a single one.",
+     "start": 0.0,
+     "end": 6.78
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s5-cast-bad.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And the ones that cannot be kept, they set aside. Jesus said that is a picture of how things finally end.",
+   "seg_start": 76.715,
+   "audio_start": 76.995,
+   "spoken_end": 83.236,
+   "seg_end": 83.956,
+   "audio_dur": 6.687,
+   "spoken_dur": 6.241,
+   "seg_dur": 7.241,
+   "timing": [
+    {
+     "text": "And the ones that cannot be kept, they set aside.",
+     "start": 0.0,
+     "end": 2.995
+    },
+    {
+     "text": "Jesus said that is a picture of how things finally end.",
+     "start": 2.995,
+     "end": 6.641
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s5-cast-bad.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "So shall it be at the end of the world: the angels shall come forth, and sever the wicked from among the just",
+   "seg_start": 83.956,
+   "audio_start": 84.236,
+   "spoken_end": 91.178,
+   "seg_end": 92.328,
+   "audio_dur": 7.34,
+   "spoken_dur": 6.942,
+   "seg_dur": 8.372,
+   "timing": [
+    {
+     "text": "So shall it be at the end of the world: the angels shall come forth, and sever the wicked from among the just",
+     "start": 0.0,
+     "end": 7.291
+    }
+   ]
+  },
+  {
+   "seg": "j50",
+   "v1_still": "s5-cast-bad.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "And shall cast them into the furnace of fire: there shall be wailing and gnashing of teeth.",
+   "seg_start": 92.328,
+   "audio_start": 92.608,
+   "spoken_end": 98.358,
+   "seg_end": 99.508,
+   "audio_dur": 6.217,
+   "spoken_dur": 5.75,
+   "seg_dur": 7.18,
+   "timing": [
+    {
+     "text": "And shall cast them into the furnace of fire: there shall be wailing and gnashing of teeth.",
+     "start": 0.0,
+     "end": 6.177
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s5-cast-bad.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "There is a real end, and a real sorting. But notice whose job it is. The angels do it. God does it. At the very end. It was never handed to us to do.",
+   "seg_start": 99.508,
+   "audio_start": 99.788,
+   "spoken_end": 110.018,
+   "seg_end": 110.738,
+   "audio_dur": 10.684,
+   "spoken_dur": 10.23,
+   "seg_dur": 11.23,
+   "timing": [
+    {
+     "text": "There is a real end, and a real sorting.",
+     "start": 0.0,
+     "end": 2.345
+    },
+    {
+     "text": "But notice whose job it is.",
+     "start": 2.345,
+     "end": 4.365
+    },
+    {
+     "text": "The angels do it.",
+     "start": 4.365,
+     "end": 5.875
+    },
+    {
+     "text": "God does it.",
+     "start": 5.875,
+     "end": 6.885
+    },
+    {
+     "text": "At the very end.",
+     "start": 6.885,
+     "end": 8.464
+    },
+    {
+     "text": "It was never handed to us to do.",
+     "start": 8.464,
+     "end": 10.635
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s6-shore-close.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So here is what the little story leaves you with. You do not have to spend your life deciding who belongs and who does not. That is not your net, and it is not your sorting.",
+   "seg_start": 110.738,
+   "audio_start": 111.018,
+   "spoken_end": 120.481,
+   "seg_end": 121.201,
+   "audio_dur": 9.874,
+   "spoken_dur": 9.463,
+   "seg_dur": 10.463,
+   "timing": [
+    {
+     "text": "So here is what the little story leaves you with.",
+     "start": 0.0,
+     "end": 2.183
+    },
+    {
+     "text": "You do not have to spend your life deciding who belongs and who does not.",
+     "start": 2.183,
+     "end": 6.316
+    },
+    {
+     "text": "That is not your net, and it is not your sorting.",
+     "start": 6.316,
+     "end": 9.845
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s6-shore-close.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Your part is simply this: the net was cast for the whole sea, and it was cast for you. The gathering came first. Grace reached out wide enough to catch you up in it.",
+   "seg_start": 121.201,
+   "audio_start": 121.481,
+   "spoken_end": 130.95,
+   "seg_end": 131.67,
+   "audio_dur": 9.874,
+   "spoken_dur": 9.469,
+   "seg_dur": 10.469,
+   "timing": [
+    {
+     "text": "Your part is simply this: the net was cast for the whole sea, and it was cast for you.",
+     "start": 0.0,
+     "end": 4.957
+    },
+    {
+     "text": "The gathering came first.",
+     "start": 4.957,
+     "end": 6.769
+    },
+    {
+     "text": "Grace reached out wide enough to catch you up in it.",
+     "start": 6.769,
+     "end": 9.845
+    }
+   ]
+  },
+  {
+   "seg": "n11",
+   "v1_still": "s6-shore-close.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That is how good he is. He threw the net over the whole ocean of us, of every kind, so that not one soul who wanted to be found would be missed.",
+   "seg_start": 131.67,
+   "audio_start": 131.95,
+   "spoken_end": 140.629,
+   "seg_end": 141.349,
+   "audio_dur": 9.143,
+   "spoken_dur": 8.679,
+   "seg_dur": 9.679,
+   "timing": [
+    {
+     "text": "That is how good he is.",
+     "start": 0.0,
+     "end": 1.533
+    },
+    {
+     "text": "He threw the net over the whole ocean of us, of every kind, so that not one soul who wanted to be found would be missed.",
+     "start": 1.533,
+     "end": 9.102
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "The net was cast wide enough to gather you in. Will you let yourself be caught up in his grace?",
+  "seg_start": 141.349,
+  "audio_start": 141.629,
+  "seg_dur": 7.213
+ },
+ "total": 148.562
+}

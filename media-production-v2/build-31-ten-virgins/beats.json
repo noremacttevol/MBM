@@ -1,0 +1,569 @@
+{
+ "row": 31,
+ "slug": "build-31-ten-virgins",
+ "v1_dir": "media-production/build-31-ten-virgins",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus told a story about ten young women waiting for a wedding.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 3.224,
+   "seg_end": 3.874,
+   "audio_dur": 3.37,
+   "spoken_dur": 2.944,
+   "seg_dur": 3.874,
+   "timing": [
+    {
+     "text": "Jesus told a story about ten young women waiting for a wedding.",
+     "start": 0.0,
+     "end": 3.344
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s1.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "In those days, a whole village would wait for the bridegroom to come, late in the evening, and lead everyone in to the feast.",
+   "seg_start": 3.874,
+   "audio_start": 4.154,
+   "spoken_end": 10.94,
+   "seg_end": 11.59,
+   "audio_dur": 7.184,
+   "spoken_dur": 6.786,
+   "seg_dur": 7.716,
+   "timing": [
+    {
+     "text": "In those days, a whole village would wait for the bridegroom to come, late in the evening, and lead everyone in to the feast.",
+     "start": 0.0,
+     "end": 7.152
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s1.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So ten young women took their oil lamps and went out into the dusk to meet him.",
+   "seg_start": 11.59,
+   "audio_start": 11.87,
+   "spoken_end": 15.779,
+   "seg_end": 16.429,
+   "audio_dur": 4.31,
+   "spoken_dur": 3.91,
+   "seg_dur": 4.84,
+   "timing": [
+    {
+     "text": "So ten young women took their oil lamps and went out into the dusk to meet him.",
+     "start": 0.0,
+     "end": 4.272
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s2.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Five of them were wise. Along with their lamps, they each carried a small jar of extra oil.",
+   "seg_start": 16.429,
+   "audio_start": 16.709,
+   "spoken_end": 22.037,
+   "seg_end": 22.687,
+   "audio_dur": 5.695,
+   "spoken_dur": 5.328,
+   "seg_dur": 6.258,
+   "timing": [
+    {
+     "text": "Five of them were wise.",
+     "start": 0.0,
+     "end": 1.463
+    },
+    {
+     "text": "Along with their lamps, they each carried a small jar of extra oil.",
+     "start": 1.463,
+     "end": 5.666
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s2.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "The other five were foolish. They brought their lamps \u2014 but no extra oil at all.",
+   "seg_start": 22.687,
+   "audio_start": 22.967,
+   "spoken_end": 27.443,
+   "seg_end": 28.093,
+   "audio_dur": 4.833,
+   "spoken_dur": 4.476,
+   "seg_dur": 5.406,
+   "timing": [
+    {
+     "text": "The other five were foolish.",
+     "start": 0.0,
+     "end": 1.358
+    },
+    {
+     "text": "They brought their lamps \u2014 but no extra oil at all.",
+     "start": 1.358,
+     "end": 4.783
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s3.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The bridegroom was delayed. Hour after hour slipped by, and one by one, all ten women grew drowsy and fell asleep.",
+   "seg_start": 28.093,
+   "audio_start": 28.373,
+   "spoken_end": 35.101,
+   "seg_end": 35.751,
+   "audio_dur": 7.236,
+   "spoken_dur": 6.729,
+   "seg_dur": 7.659,
+   "timing": [
+    {
+     "text": "The bridegroom was delayed.",
+     "start": 0.0,
+     "end": 1.347
+    },
+    {
+     "text": "Hour after hour slipped by, and one by one, all ten women grew drowsy and fell asleep.",
+     "start": 1.347,
+     "end": 7.198
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s4.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Behold, the bridegroom cometh; go ye out to meet him.",
+   "seg_start": 35.751,
+   "audio_start": 36.031,
+   "spoken_end": 39.016,
+   "seg_end": 40.616,
+   "audio_dur": 3.37,
+   "spoken_dur": 2.985,
+   "seg_dur": 4.865,
+   "timing": [
+    {
+     "text": "Behold, the bridegroom cometh; go ye out to meet him.",
+     "start": 0.0,
+     "end": 3.344
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s4.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Then, at midnight, a cry rang out: The bridegroom is coming! Come out to meet him!",
+   "seg_start": 40.616,
+   "audio_start": 40.896,
+   "spoken_end": 45.587,
+   "seg_end": 46.237,
+   "audio_dur": 5.042,
+   "spoken_dur": 4.691,
+   "seg_dur": 5.621,
+   "timing": [
+    {
+     "text": "Then, at midnight, a cry rang out: The bridegroom is coming!",
+     "start": 0.0,
+     "end": 3.564
+    },
+    {
+     "text": "Come out to meet him!",
+     "start": 3.564,
+     "end": 5.016
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s4.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "They all woke and reached for their lamps. The wise trimmed theirs, and they burned warm and bright.",
+   "seg_start": 46.237,
+   "audio_start": 46.517,
+   "spoken_end": 51.379,
+   "seg_end": 52.029,
+   "audio_dur": 5.329,
+   "spoken_dur": 4.862,
+   "seg_dur": 5.792,
+   "timing": [
+    {
+     "text": "They all woke and reached for their lamps.",
+     "start": 0.0,
+     "end": 1.823
+    },
+    {
+     "text": "The wise trimmed theirs, and they burned warm and bright.",
+     "start": 1.823,
+     "end": 5.294
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s5.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But the foolish looked down in dismay. Their lamps were sputtering out \u2014 they had no oil left.",
+   "seg_start": 52.029,
+   "audio_start": 52.309,
+   "spoken_end": 58.303,
+   "seg_end": 58.953,
+   "audio_dur": 6.504,
+   "spoken_dur": 5.994,
+   "seg_dur": 6.924,
+   "timing": [
+    {
+     "text": "But the foolish looked down in dismay.",
+     "start": 0.0,
+     "end": 2.264
+    },
+    {
+     "text": "Their lamps were sputtering out \u2014 they had no oil left.",
+     "start": 2.264,
+     "end": 6.455
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": "s5.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Give us of your oil; for our lamps are gone out.",
+   "seg_start": 58.953,
+   "audio_start": 59.233,
+   "spoken_end": 62.167,
+   "seg_end": 63.767,
+   "audio_dur": 3.422,
+   "spoken_dur": 2.934,
+   "seg_dur": 4.814,
+   "timing": [
+    {
+     "text": "Give us of your oil; for our lamps are gone out.",
+     "start": 0.0,
+     "end": 3.39
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s5.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Please, they cried out to the others \u2014 give us some of your oil!",
+   "seg_start": 63.767,
+   "audio_start": 64.047,
+   "spoken_end": 67.543,
+   "seg_end": 68.193,
+   "audio_dur": 3.944,
+   "spoken_dur": 3.495,
+   "seg_dur": 4.425,
+   "timing": [
+    {
+     "text": "Please, they cried out to the others \u2014 give us some of your oil!",
+     "start": 0.0,
+     "end": 3.901
+    }
+   ]
+  },
+  {
+   "seg": "j4",
+   "v1_still": "s5.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Not so; lest there be not enough for us and you: but go ye rather to them that sell, and buy for yourselves.",
+   "seg_start": 68.193,
+   "audio_start": 68.473,
+   "spoken_end": 76.746,
+   "seg_end": 78.346,
+   "audio_dur": 8.49,
+   "spoken_dur": 8.274,
+   "seg_dur": 10.154,
+   "timing": [
+    {
+     "text": "Not so; lest there be not enough for us and you: but go ye rather to them that sell, and buy for yourselves.",
+     "start": 0.0,
+     "end": 8.452
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s5.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But the wise couldn't. There isn't enough for all of us, they said. Hurry \u2014 go and buy your own.",
+   "seg_start": 78.346,
+   "audio_start": 78.626,
+   "spoken_end": 84.218,
+   "seg_end": 84.868,
+   "audio_dur": 5.982,
+   "spoken_dur": 5.592,
+   "seg_dur": 6.522,
+   "timing": [
+    {
+     "text": "But the wise couldn't.",
+     "start": 0.0,
+     "end": 1.138
+    },
+    {
+     "text": "There isn't enough for all of us, they said.",
+     "start": 1.138,
+     "end": 3.529
+    },
+    {
+     "text": "Hurry \u2014 go and buy your own.",
+     "start": 3.529,
+     "end": 5.944
+    }
+   ]
+  },
+  {
+   "seg": "n11",
+   "v1_still": "s6.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And while the foolish rushed off into the dark to find oil, the bridegroom arrived.",
+   "seg_start": 84.868,
+   "audio_start": 85.148,
+   "spoken_end": 89.614,
+   "seg_end": 90.264,
+   "audio_dur": 4.963,
+   "spoken_dur": 4.466,
+   "seg_dur": 5.396,
+   "timing": [
+    {
+     "text": "And while the foolish rushed off into the dark to find oil, the bridegroom arrived.",
+     "start": 0.0,
+     "end": 4.923
+    }
+   ]
+  },
+  {
+   "seg": "n12",
+   "v1_still": "s6.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "The ones who were ready went in with him to the wedding feast. And the door was shut.",
+   "seg_start": 90.264,
+   "audio_start": 90.544,
+   "spoken_end": 94.438,
+   "seg_end": 95.088,
+   "audio_dur": 4.362,
+   "spoken_dur": 3.893,
+   "seg_dur": 4.823,
+   "timing": [
+    {
+     "text": "The ones who were ready went in with him to the wedding feast.",
+     "start": 0.0,
+     "end": 2.566
+    },
+    {
+     "text": "And the door was shut.",
+     "start": 2.566,
+     "end": 4.319
+    }
+   ]
+  },
+  {
+   "seg": "j5",
+   "v1_still": "s7.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Lord, Lord, open to us.",
+   "seg_start": 95.088,
+   "audio_start": 95.368,
+   "spoken_end": 96.953,
+   "seg_end": 98.553,
+   "audio_dur": 1.75,
+   "spoken_dur": 1.586,
+   "seg_dur": 3.466,
+   "timing": [
+    {
+     "text": "Lord, Lord, open to us.",
+     "start": 0.0,
+     "end": 1.718
+    }
+   ]
+  },
+  {
+   "seg": "j6",
+   "v1_still": "s7.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Verily I say unto you, I know you not.",
+   "seg_start": 98.553,
+   "audio_start": 98.833,
+   "spoken_end": 100.827,
+   "seg_end": 102.427,
+   "audio_dur": 2.403,
+   "spoken_dur": 1.994,
+   "seg_dur": 3.874,
+   "timing": [
+    {
+     "text": "Verily I say unto you, I know you not.",
+     "start": 0.0,
+     "end": 2.368
+    }
+   ]
+  },
+  {
+   "seg": "n13",
+   "v1_still": "s7.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Later the others came back, knocking. Lord, they called, open the door for us! But the answer came from inside: I do not know you.",
+   "seg_start": 102.427,
+   "audio_start": 102.707,
+   "spoken_end": 110.856,
+   "seg_end": 111.506,
+   "audio_dur": 8.542,
+   "spoken_dur": 8.149,
+   "seg_dur": 9.079,
+   "timing": [
+    {
+     "text": "Later the others came back, knocking.",
+     "start": 0.0,
+     "end": 2.032
+    },
+    {
+     "text": "Lord, they called, open the door for us!",
+     "start": 2.032,
+     "end": 4.83
+    },
+    {
+     "text": "But the answer came from inside: I do not know you.",
+     "start": 4.83,
+     "end": 8.499
+    }
+   ]
+  },
+  {
+   "seg": "n14",
+   "v1_still": "s7.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Then Jesus told them why he had shared this story.",
+   "seg_start": 111.506,
+   "audio_start": 111.786,
+   "spoken_end": 114.097,
+   "seg_end": 114.747,
+   "audio_dur": 2.743,
+   "spoken_dur": 2.31,
+   "seg_dur": 3.24,
+   "timing": [
+    {
+     "text": "Then Jesus told them why he had shared this story.",
+     "start": 0.0,
+     "end": 2.694
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s4.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Watch therefore, for ye know neither the day nor the hour wherein the Son of man cometh.",
+   "seg_start": 114.747,
+   "audio_start": 115.027,
+   "spoken_end": 121.185,
+   "seg_end": 122.785,
+   "audio_dur": 6.531,
+   "spoken_dur": 6.158,
+   "seg_dur": 8.038,
+   "timing": [
+    {
+     "text": "Watch therefore, for ye know neither the day nor the hour wherein the Son of man cometh.",
+     "start": 0.0,
+     "end": 6.502
+    }
+   ]
+  },
+  {
+   "seg": "n15",
+   "v1_still": "s2.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "The oil is the one thing you cannot borrow at the last minute \u2014 a heart that is truly ready, a faith that is really your own, a lamp you have kept burning.",
+   "seg_start": 122.785,
+   "audio_start": 123.065,
+   "spoken_end": 132.634,
+   "seg_end": 133.284,
+   "audio_dur": 9.979,
+   "spoken_dur": 9.57,
+   "seg_dur": 10.5,
+   "timing": [
+    {
+     "text": "The oil is the one thing you cannot borrow at the last minute \u2014 a heart that is truly ready, a faith that is really your own, a lamp you have kept burning.",
+     "start": 0.0,
+     "end": 9.938
+    }
+   ]
+  },
+  {
+   "seg": "n16",
+   "v1_still": "s6.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And here is the good news: the door is still open now. Tonight, your lamp can be filled. He is worth being ready for.",
+   "seg_start": 133.284,
+   "audio_start": 133.564,
+   "spoken_end": 140.37,
+   "seg_end": 141.02,
+   "audio_dur": 7.236,
+   "spoken_dur": 6.806,
+   "seg_dur": 7.736,
+   "timing": [
+    {
+     "text": "And here is the good news: the door is still open now.",
+     "start": 0.0,
+     "end": 2.949
+    },
+    {
+     "text": "Tonight, your lamp can be filled.",
+     "start": 2.949,
+     "end": 5.016
+    },
+    {
+     "text": "He is worth being ready for.",
+     "start": 5.016,
+     "end": 7.198
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "You cannot borrow someone else's oil. Is your own lamp burning \u2014 are you ready to meet him?",
+  "seg_start": 141.02,
+  "audio_start": 141.3,
+  "seg_dur": 7.579
+ },
+ "total": 148.599
+}

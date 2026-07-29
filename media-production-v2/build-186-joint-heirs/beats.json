@@ -1,0 +1,204 @@
+{
+ "row": 186,
+ "slug": "build-186-joint-heirs",
+ "v1_dir": "media-production/build-186-joint-heirs",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-writing-to-rome.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Paul wrote to the believers in Rome about who they really were \u2014 not strangers, not outsiders.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 5.951,
+   "seg_end": 6.601,
+   "audio_dur": 6.034,
+   "spoken_dur": 5.671,
+   "seg_dur": 6.601,
+   "timing": [
+    {
+     "text": "Paul wrote to the believers in Rome about who they really were \u2014 not strangers, not outsiders.",
+     "start": 0.0,
+     "end": 5.991
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "v1_still": "s2-children-of-god.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "The Spirit itself beareth witness with our spirit, that we are the children of God:",
+   "seg_start": 6.601,
+   "audio_start": 6.881,
+   "spoken_end": 11.135,
+   "seg_end": 12.735,
+   "audio_dur": 4.624,
+   "spoken_dur": 4.254,
+   "seg_dur": 6.134,
+   "timing": [
+    {
+     "text": "The Spirit itself beareth witness with our spirit, that we are the children of God:",
+     "start": 0.0,
+     "end": 4.598
+    }
+   ]
+  },
+  {
+   "seg": "n0b",
+   "v1_still": "s2-children-of-god.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "God's own Spirit tells your spirit the truth about you. Not a rumour, not a hope \u2014 a witness, given straight to you: you are a child of God.",
+   "seg_start": 12.735,
+   "audio_start": 13.015,
+   "spoken_end": 22.335,
+   "seg_end": 22.985,
+   "audio_dur": 9.691,
+   "spoken_dur": 9.32,
+   "seg_dur": 10.25,
+   "timing": [
+    {
+     "text": "God's own Spirit tells your spirit the truth about you.",
+     "start": 0.0,
+     "end": 2.81
+    },
+    {
+     "text": "Not a rumour, not a hope \u2014 a witness, given straight to you: you are a child of God.",
+     "start": 2.81,
+     "end": 9.659
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "v1_still": "s3-the-doorway-of-inheritance.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And if children, then heirs; heirs of God, and joint-heirs with Christ; if so be that we suffer with him, that we may be also glorified together.",
+   "seg_start": 22.985,
+   "audio_start": 23.265,
+   "spoken_end": 32.088,
+   "seg_end": 33.688,
+   "audio_dur": 9.195,
+   "spoken_dur": 8.824,
+   "seg_dur": 10.704,
+   "timing": [
+    {
+     "text": "And if children, then heirs; heirs of God, and joint-heirs with Christ; if so be that we suffer with him, that we may be also glorified together.",
+     "start": 0.0,
+     "end": 9.149
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s5-room-for-all.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Children first \u2014 and because children, inheritors. What the Father has belongs to the family, and the family includes you.",
+   "seg_start": 33.688,
+   "audio_start": 33.968,
+   "spoken_end": 40.883,
+   "seg_end": 41.533,
+   "audio_dur": 7.288,
+   "spoken_dur": 6.915,
+   "seg_dur": 7.845,
+   "timing": [
+    {
+     "text": "Children first \u2014 and because children, inheritors.",
+     "start": 0.0,
+     "end": 3.065
+    },
+    {
+     "text": "What the Father has belongs to the family, and the family includes you.",
+     "start": 3.065,
+     "end": 7.245
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-walking-as-co-heirs.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The terms were honest: share in his suffering, and you will share in his glory too.",
+   "seg_start": 41.533,
+   "audio_start": 41.813,
+   "spoken_end": 45.937,
+   "seg_end": 46.587,
+   "audio_dur": 4.493,
+   "spoken_dur": 4.124,
+   "seg_dur": 5.054,
+   "timing": [
+    {
+     "text": "The terms were honest: share in his suffering, and you will share in his glory too.",
+     "start": 0.0,
+     "end": 4.458
+    }
+   ]
+  },
+  {
+   "seg": "n3a",
+   "v1_still": "s6-the-closing-line.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Not earned by effort. Received by belonging.",
+   "seg_start": 46.587,
+   "audio_start": 46.867,
+   "spoken_end": 49.243,
+   "seg_end": 49.893,
+   "audio_dur": 2.743,
+   "spoken_dur": 2.375,
+   "seg_dur": 3.305,
+   "timing": [
+    {
+     "text": "Not earned by effort.",
+     "start": 0.0,
+     "end": 1.219
+    },
+    {
+     "text": "Received by belonging.",
+     "start": 1.219,
+     "end": 2.694
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s7-dawn-over-the-city.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Heirs together with the Son.",
+   "seg_start": 49.893,
+   "audio_start": 50.173,
+   "spoken_end": 51.626,
+   "seg_end": 52.276,
+   "audio_dur": 1.802,
+   "spoken_dur": 1.453,
+   "seg_dur": 2.383,
+   "timing": [
+    {
+     "text": "Heirs together with the Son.",
+     "start": 0.0,
+     "end": 1.765
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "You're not a visitor at the table \u2014 you're family. Heir with the Son. Come home.",
+  "seg_start": 52.276,
+  "audio_start": 52.556,
+  "seg_dur": 6.404
+ },
+ "total": 58.679
+}

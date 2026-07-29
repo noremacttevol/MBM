@@ -1,0 +1,549 @@
+{
+ "row": 47,
+ "slug": "build-47-houses-on-rock-and-sand",
+ "v1_dir": "media-production/build-47-houses-on-rock-and-sand",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-on-the-hillside.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He had been teaching all afternoon, and he ended with a story about two men and two houses. It sounds simple. It is one of the most searching things he ever said.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 9.269,
+   "seg_end": 9.919,
+   "audio_dur": 9.378,
+   "spoken_dur": 8.989,
+   "seg_dur": 9.919,
+   "timing": [
+    {
+     "text": "He had been teaching all afternoon, and he ended with a story about two men and two houses.",
+     "start": 0.0,
+     "end": 4.934
+    },
+    {
+     "text": "It sounds simple.",
+     "start": 4.934,
+     "end": 6.374
+    },
+    {
+     "text": "It is one of the most searching things he ever said.",
+     "start": 6.374,
+     "end": 9.334
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-both-men-heard.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Picture two men in that crowd. Both of them heard him. Every word. That matters, so hold onto it: both men heard exactly the same thing.",
+   "seg_start": 9.919,
+   "audio_start": 10.199,
+   "spoken_end": 19.374,
+   "seg_end": 20.024,
+   "audio_dur": 9.561,
+   "spoken_dur": 9.175,
+   "seg_dur": 10.105,
+   "timing": [
+    {
+     "text": "Picture two men in that crowd.",
+     "start": 0.0,
+     "end": 1.846
+    },
+    {
+     "text": "Both of them heard him.",
+     "start": 1.846,
+     "end": 3.297
+    },
+    {
+     "text": "Every word.",
+     "start": 3.297,
+     "end": 4.447
+    },
+    {
+     "text": "That matters, so hold onto it: both men heard exactly the same thing.",
+     "start": 4.447,
+     "end": 9.52
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-digging-to-the-rock.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The first man goes home to build. In that country you build in the dry season, and the easy ground is the smooth, flat sand of a dry riverbed. But this man walks past the easy ground.",
+   "seg_start": 20.024,
+   "audio_start": 20.304,
+   "spoken_end": 32.601,
+   "seg_end": 33.251,
+   "audio_dur": 12.722,
+   "spoken_dur": 12.297,
+   "seg_dur": 13.227,
+   "timing": [
+    {
+     "text": "The first man goes home to build.",
+     "start": 0.0,
+     "end": 1.695
+    },
+    {
+     "text": "In that country you build in the dry season, and the easy ground is the smooth, flat sand of a dry riverbed.",
+     "start": 1.695,
+     "end": 9.311
+    },
+    {
+     "text": "But this man walks past the easy ground.",
+     "start": 9.311,
+     "end": 12.678
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s3-digging-to-the-rock.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He digs. Down through the loose soil, all the way to bedrock, and he lays his foundation on the stone. It is slow, hard work, and when he is done not one person will ever see it. The whole house depends on the part nobody can see.",
+   "seg_start": 33.251,
+   "audio_start": 33.531,
+   "spoken_end": 49.496,
+   "seg_end": 50.146,
+   "audio_dur": 16.379,
+   "spoken_dur": 15.965,
+   "seg_dur": 16.895,
+   "timing": [
+    {
+     "text": "He digs.",
+     "start": 0.0,
+     "end": 0.964
+    },
+    {
+     "text": "Down through the loose soil, all the way to bedrock, and he lays his foundation on the stone.",
+     "start": 0.964,
+     "end": 7.279
+    },
+    {
+     "text": "It is slow, hard work, and when he is done not one person will ever see it.",
+     "start": 7.279,
+     "end": 12.934
+    },
+    {
+     "text": "The whole house depends on the part nobody can see.",
+     "start": 12.934,
+     "end": 16.347
+    }
+   ]
+  },
+  {
+   "seg": "jv24",
+   "v1_still": "s4-founded-on-the-rock.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Therefore whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which built his house upon a rock.",
+   "seg_start": 50.146,
+   "audio_start": 50.426,
+   "spoken_end": 60.046,
+   "seg_end": 61.646,
+   "audio_dur": 10.031,
+   "spoken_dur": 9.62,
+   "seg_dur": 11.5,
+   "timing": [
+    {
+     "text": "Therefore whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which built his house upon a rock.",
+     "start": 0.0,
+     "end": 9.985
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-the-house-on-the-rock.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "It takes longer. And for a while, in the good weather, it does not look one bit better than any other house on the plain.",
+   "seg_start": 61.646,
+   "audio_start": 61.926,
+   "spoken_end": 68.05,
+   "seg_end": 68.7,
+   "audio_dur": 6.531,
+   "spoken_dur": 6.124,
+   "seg_dur": 7.054,
+   "timing": [
+    {
+     "text": "It takes longer.",
+     "start": 0.0,
+     "end": 0.975
+    },
+    {
+     "text": "And for a while, in the good weather, it does not look one bit better than any other house on the plain.",
+     "start": 0.975,
+     "end": 6.502
+    }
+   ]
+  },
+  {
+   "seg": "jv25",
+   "v1_still": "s6-it-fell-not.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "And the rain descended, and the floods came, and the winds blew, and beat upon that house; and it fell not: for it was founded upon a rock.",
+   "seg_start": 68.7,
+   "audio_start": 68.98,
+   "spoken_end": 78.36,
+   "seg_end": 79.96,
+   "audio_dur": 9.848,
+   "spoken_dur": 9.381,
+   "seg_dur": 11.261,
+   "timing": [
+    {
+     "text": "And the rain descended, and the floods came, and the winds blew, and beat upon that house; and it fell not: for it was founded upon a rock.",
+     "start": 0.0,
+     "end": 9.799
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6-it-fell-not.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "The storm hit it with everything, and the house did not even move. Because of what was underneath it.",
+   "seg_start": 79.96,
+   "audio_start": 80.24,
+   "spoken_end": 85.798,
+   "seg_end": 86.448,
+   "audio_dur": 6.034,
+   "spoken_dur": 5.558,
+   "seg_dur": 6.488,
+   "timing": [
+    {
+     "text": "The storm hit it with everything, and the house did not even move.",
+     "start": 0.0,
+     "end": 3.587
+    },
+    {
+     "text": "Because of what was underneath it.",
+     "start": 3.587,
+     "end": 5.991
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s7-building-on-the-sand.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Now the second man. He heard the very same words. But when he goes home, he builds the fast, easy way, straight down on the smooth sand, and he skips the digging altogether.",
+   "seg_start": 86.448,
+   "audio_start": 86.728,
+   "spoken_end": 97.338,
+   "seg_end": 97.988,
+   "audio_dur": 11.05,
+   "spoken_dur": 10.61,
+   "seg_dur": 11.54,
+   "timing": [
+    {
+     "text": "Now the second man.",
+     "start": 0.0,
+     "end": 1.115
+    },
+    {
+     "text": "He heard the very same words.",
+     "start": 1.115,
+     "end": 2.694
+    },
+    {
+     "text": "But when he goes home, he builds the fast, easy way, straight down on the smooth sand, and he skips the digging altogether.",
+     "start": 2.694,
+     "end": 11.006
+    }
+   ]
+  },
+  {
+   "seg": "jv26",
+   "v1_still": "s7-building-on-the-sand.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "And every one that heareth these sayings of mine, and doeth them not, shall be likened unto a foolish man, which built his house upon the sand.",
+   "seg_start": 97.988,
+   "audio_start": 98.268,
+   "spoken_end": 107.621,
+   "seg_end": 109.221,
+   "audio_dur": 9.744,
+   "spoken_dur": 9.353,
+   "seg_dur": 11.233,
+   "timing": [
+    {
+     "text": "And every one that heareth these sayings of mine, and doeth them not, shall be likened unto a foolish man, which built his house upon the sand.",
+     "start": 0.0,
+     "end": 9.706
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s8-the-house-on-the-sand.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And here is the thing. His house looked fine. It went up faster, it stood there in the sunshine, and you could not have told the two houses apart. Not until the weather turned.",
+   "seg_start": 109.221,
+   "audio_start": 109.501,
+   "spoken_end": 120.305,
+   "seg_end": 120.955,
+   "audio_dur": 11.233,
+   "spoken_dur": 10.803,
+   "seg_dur": 11.733,
+   "timing": [
+    {
+     "text": "And here is the thing.",
+     "start": 0.0,
+     "end": 1.045
+    },
+    {
+     "text": "His house looked fine.",
+     "start": 1.045,
+     "end": 2.752
+    },
+    {
+     "text": "It went up faster, it stood there in the sunshine, and you could not have told the two houses apart.",
+     "start": 2.752,
+     "end": 9.16
+    },
+    {
+     "text": "Not until the weather turned.",
+     "start": 9.16,
+     "end": 11.192
+    }
+   ]
+  },
+  {
+   "seg": "jv27",
+   "v1_still": "s9-great-was-the-fall.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "And the rain descended, and the floods came, and the winds blew, and beat upon that house; and it fell: and great was the fall of it.",
+   "seg_start": 120.955,
+   "audio_start": 121.235,
+   "spoken_end": 129.856,
+   "seg_end": 131.456,
+   "audio_dur": 9.091,
+   "spoken_dur": 8.621,
+   "seg_dur": 10.501,
+   "timing": [
+    {
+     "text": "And the rain descended, and the floods came, and the winds blew, and beat upon that house; and it fell: and great was the fall of it.",
+     "start": 0.0,
+     "end": 9.056
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s9-great-was-the-fall.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "The same dry riverbed became a wall of water, it tore the sand out from under the house, and there was nothing left. The man got out. But everything he had built was gone.",
+   "seg_start": 131.456,
+   "audio_start": 131.736,
+   "spoken_end": 142.409,
+   "seg_end": 143.059,
+   "audio_dur": 11.102,
+   "spoken_dur": 10.673,
+   "seg_dur": 11.603,
+   "timing": [
+    {
+     "text": "The same dry riverbed became a wall of water, it tore the sand out from under the house, and there was nothing left.",
+     "start": 0.0,
+     "end": 6.699
+    },
+    {
+     "text": "The man got out.",
+     "start": 6.699,
+     "end": 8.208
+    },
+    {
+     "text": "But everything he had built was gone.",
+     "start": 8.208,
+     "end": 11.053
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s10-the-morning-after.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Two houses. One storm. One standing, one swept away. And the only difference between them was down in the foundation, where nobody could see it, until the day the water came up and asked.",
+   "seg_start": 143.059,
+   "audio_start": 143.339,
+   "spoken_end": 155.239,
+   "seg_end": 155.889,
+   "audio_dur": 12.356,
+   "spoken_dur": 11.901,
+   "seg_dur": 12.831,
+   "timing": [
+    {
+     "text": "Two houses.",
+     "start": 0.0,
+     "end": 0.952
+    },
+    {
+     "text": "One storm.",
+     "start": 0.952,
+     "end": 1.962
+    },
+    {
+     "text": "One standing, one swept away.",
+     "start": 1.962,
+     "end": 4.644
+    },
+    {
+     "text": "And the only difference between them was down in the foundation, where nobody could see it, until the day the water came up and asked.",
+     "start": 4.644,
+     "end": 12.307
+    }
+   ]
+  },
+  {
+   "seg": "s28",
+   "v1_still": "s11-astonished.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And it came to pass, when Jesus had ended these sayings, the people were astonished at his doctrine: For he taught them as one having authority, and not as the scribes.",
+   "seg_start": 155.889,
+   "audio_start": 156.169,
+   "spoken_end": 165.955,
+   "seg_end": 167.555,
+   "audio_dur": 10.214,
+   "spoken_dur": 9.786,
+   "seg_dur": 11.666,
+   "timing": [
+    {
+     "text": "And it came to pass, when Jesus had ended these sayings, the people were astonished at his doctrine: For he taught them as one having authority, and not as the scribes.",
+     "start": 0.0,
+     "end": 10.17
+    }
+   ]
+  },
+  {
+   "seg": "n11a",
+   "v1_still": "s11-astonished.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "When he finished, the crowd just sat there. They had never heard anyone teach like that. Their own scholars quoted other men. This one spoke as though the words belonged to him.",
+   "seg_start": 167.555,
+   "audio_start": 167.835,
+   "spoken_end": 176.94,
+   "seg_end": 177.59,
+   "audio_dur": 9.456,
+   "spoken_dur": 9.105,
+   "seg_dur": 10.035,
+   "timing": [
+    {
+     "text": "When he finished, the crowd just sat there.",
+     "start": 0.0,
+     "end": 1.8
+    },
+    {
+     "text": "They had never heard anyone teach like that.",
+     "start": 1.8,
+     "end": 4.18
+    },
+    {
+     "text": "Their own scholars quoted other men.",
+     "start": 4.18,
+     "end": 6.362
+    },
+    {
+     "text": "This one spoke as though the words belonged to him.",
+     "start": 6.362,
+     "end": 9.427
+    }
+   ]
+  },
+  {
+   "seg": "n11",
+   "v1_still": "s11-astonished.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Do not miss what he is actually saying. Both men heard him. Hearing was never the thing that made the difference. The wise man is simply the one who went home and did something about what he heard.",
+   "seg_start": 177.59,
+   "audio_start": 177.87,
+   "spoken_end": 188.76,
+   "seg_end": 189.41,
+   "audio_dur": 11.311,
+   "spoken_dur": 10.89,
+   "seg_dur": 11.82,
+   "timing": [
+    {
+     "text": "Do not miss what he is actually saying.",
+     "start": 0.0,
+     "end": 1.962
+    },
+    {
+     "text": "Both men heard him.",
+     "start": 1.962,
+     "end": 3.344
+    },
+    {
+     "text": "Hearing was never the thing that made the difference.",
+     "start": 3.344,
+     "end": 5.979
+    },
+    {
+     "text": "The wise man is simply the one who went home and did something about what he heard.",
+     "start": 5.979,
+     "end": 11.285
+    }
+   ]
+  },
+  {
+   "seg": "n12",
+   "v1_still": "s12-build-here.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That is the whole invitation. Not to admire what he said, and not to be afraid of the storm, but to build your actual life on his words, one of them at a time, starting now, while the weather is still good. The door is open, and the light is already on inside.",
+   "seg_start": 189.41,
+   "audio_start": 189.69,
+   "spoken_end": 207.406,
+   "seg_end": 208.056,
+   "audio_dur": 18.103,
+   "spoken_dur": 17.716,
+   "seg_dur": 18.646,
+   "timing": [
+    {
+     "text": "That is the whole invitation.",
+     "start": 0.0,
+     "end": 1.858
+    },
+    {
+     "text": "Not to admire what he said, and not to be afraid of the storm, but to build your actual life on his words, one of them at a time, starting now, while the weather is still good.",
+     "start": 1.858,
+     "end": 13.56
+    },
+    {
+     "text": "The door is open, and the light is already on inside.",
+     "start": 13.56,
+     "end": 18.065
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "Everybody on that hillside heard the very same words. The one whose house stood was the one who went home and did them. What is one thing he said that you could actually go and do this week?",
+  "seg_start": 208.056,
+  "audio_start": 208.336,
+  "seg_dur": 13.927
+ },
+ "total": 221.983
+}

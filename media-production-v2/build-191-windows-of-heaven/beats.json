@@ -1,0 +1,173 @@
+{
+ "row": 191,
+ "slug": "build-191-windows-of-heaven",
+ "v1_dir": "media-production/build-191-windows-of-heaven",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-the-storehouse-at-dawn.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Through the prophet Malachi, the LORD made a strange offer to a people holding back \u2014 bring everything in, and watch what I do.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 7.733,
+   "seg_end": 8.383,
+   "audio_dur": 7.758,
+   "spoken_dur": 7.453,
+   "seg_dur": 8.383,
+   "timing": [
+    {
+     "text": "Through the prophet Malachi, the LORD made a strange offer to a people holding back \u2014 bring everything in, and watch what I do.",
+     "start": 0.0,
+     "end": 7.709
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-the-willing-tithe.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The storehouse was the place set apart for the Lord's house, and the tithe was the part meant for him.",
+   "seg_start": 8.383,
+   "audio_start": 8.663,
+   "spoken_end": 13.856,
+   "seg_end": 14.506,
+   "audio_dur": 5.564,
+   "spoken_dur": 5.192,
+   "seg_dur": 6.122,
+   "timing": [
+    {
+     "text": "The storehouse was the place set apart for the Lord's house, and the tithe was the part meant for him.",
+     "start": 0.0,
+     "end": 5.526
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "v1_still": "s3-the-prophet-speaks.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "Bring ye all the tithes into the storehouse, that there may be meat in mine house, and prove me now herewith, saith the LORD of hosts, if I will not open you the windows of heaven, and pour you out a blessing, that there shall not be room enough to receive it.",
+   "seg_start": 14.506,
+   "audio_start": 14.786,
+   "spoken_end": 32.801,
+   "seg_end": 34.401,
+   "audio_dur": 18.469,
+   "spoken_dur": 18.015,
+   "seg_dur": 19.895,
+   "timing": [
+    {
+     "text": "Bring ye all the tithes into the storehouse, that there may be meat in mine house, and prove me now herewith, saith the LORD of hosts, if I will not open you the windows of heaven, and pour you out a blessing, that there shall not be room enough to receive it.",
+     "start": 0.0,
+     "end": 18.437
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-the-windows-open.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "A dare no king could make \u2014 test me, and see if I don't open the windows.",
+   "seg_start": 34.401,
+   "audio_start": 34.681,
+   "spoken_end": 39.08,
+   "seg_end": 39.73,
+   "audio_dur": 4.78,
+   "spoken_dur": 4.399,
+   "seg_dur": 5.329,
+   "timing": [
+    {
+     "text": "A dare no king could make \u2014 test me, and see if I don't open the windows.",
+     "start": 0.0,
+     "end": 4.737
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s4-the-windows-open.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He is the only one in scripture who ever says: prove me. Put me to the test, and watch what I do.",
+   "seg_start": 39.73,
+   "audio_start": 40.01,
+   "spoken_end": 45.833,
+   "seg_end": 46.483,
+   "audio_dur": 6.217,
+   "spoken_dur": 5.823,
+   "seg_dur": 6.753,
+   "timing": [
+    {
+     "text": "He is the only one in scripture who ever says: prove me.",
+     "start": 0.0,
+     "end": 3.541
+    },
+    {
+     "text": "Put me to the test, and watch what I do.",
+     "start": 3.541,
+     "end": 6.177
+    }
+   ]
+  },
+  {
+   "seg": "n3a",
+   "v1_still": "s5-no-room-enough.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Not a trickle.",
+   "seg_start": 46.483,
+   "audio_start": 46.763,
+   "spoken_end": 47.458,
+   "seg_end": 48.108,
+   "audio_dur": 1.071,
+   "spoken_dur": 0.695,
+   "seg_dur": 1.625,
+   "timing": [
+    {
+     "text": "Not a trickle.",
+     "start": 0.0,
+     "end": 1.022
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s6-wonder-not-worry.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "A pouring out, more than there is room to hold.",
+   "seg_start": 48.108,
+   "audio_start": 48.388,
+   "spoken_end": 50.868,
+   "seg_end": 51.518,
+   "audio_dur": 2.873,
+   "spoken_dur": 2.479,
+   "seg_dur": 3.409,
+   "timing": [
+    {
+     "text": "A pouring out, more than there is room to hold.",
+     "start": 0.0,
+     "end": 2.833
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He invites you to test his goodness. Bring it all, and watch the windows open.",
+  "seg_start": 51.518,
+  "audio_start": 51.798,
+  "seg_dur": 6.273
+ },
+ "total": 57.791
+}

@@ -1,0 +1,620 @@
+{
+ "row": 5,
+ "slug": "build-05-bent-woman",
+ "v1_dir": "media-production/build-05-bent-woman",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.2,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-eighteen-years.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "There was a woman who had been bent over for eighteen years. She could not straighten up at all. Eighteen years of looking at the ground. Eighteen years of knowing people by their sandals instead of their faces. And in all that time, no one had been able to help her.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 15.306,
+   "seg_end": 16.026,
+   "audio_dur": 15.36,
+   "spoken_dur": 15.026,
+   "seg_dur": 16.026,
+   "timing": [
+    {
+     "text": "There was a woman who had been bent over for eighteen years.",
+     "start": 0.0,
+     "end": 2.868
+    },
+    {
+     "text": "She could not straighten up at all.",
+     "start": 2.868,
+     "end": 4.69
+    },
+    {
+     "text": "Eighteen years of looking at the ground.",
+     "start": 4.69,
+     "end": 7.233
+    },
+    {
+     "text": "Eighteen years of knowing people by their sandals instead of their faces.",
+     "start": 7.233,
+     "end": 11.494
+    },
+    {
+     "text": "And in all that time, no one had been able to help her.",
+     "start": 11.494,
+     "end": 15.325
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-back-wall.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "One sabbath day, Jesus was teaching in a synagogue, and she was there \u2014 at the back, by the wall, folded over her walking stick. She had not come to ask him for anything. She was simply there, the way she had been there for years. Present, and unseen.",
+   "seg_start": 16.026,
+   "audio_start": 16.306,
+   "spoken_end": 33.931,
+   "seg_end": 34.651,
+   "audio_dur": 17.972,
+   "spoken_dur": 17.625,
+   "seg_dur": 18.625,
+   "timing": [
+    {
+     "text": "One sabbath day, Jesus was teaching in a synagogue, and she was there \u2014 at the back, by the wall, folded over her walking stick.",
+     "start": 0.0,
+     "end": 9.044
+    },
+    {
+     "text": "She had not come to ask him for anything.",
+     "start": 9.044,
+     "end": 11.761
+    },
+    {
+     "text": "She was simply there, the way she had been there for years.",
+     "start": 11.761,
+     "end": 15.778
+    },
+    {
+     "text": "Present, and unseen.",
+     "start": 15.778,
+     "end": 17.926
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s3-he-stops.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And in the middle of his teaching, Jesus stopped. He looked past every face in the room, all the way to the back wall. He saw her. And he called her over.",
+   "seg_start": 34.651,
+   "audio_start": 34.931,
+   "spoken_end": 43.769,
+   "seg_end": 44.489,
+   "audio_dur": 9.221,
+   "spoken_dur": 8.838,
+   "seg_dur": 9.838,
+   "timing": [
+    {
+     "text": "And in the middle of his teaching, Jesus stopped.",
+     "start": 0.0,
+     "end": 2.577
+    },
+    {
+     "text": "He looked past every face in the room, all the way to the back wall.",
+     "start": 2.577,
+     "end": 6.722
+    },
+    {
+     "text": "He saw her.",
+     "start": 6.722,
+     "end": 7.628
+    },
+    {
+     "text": "And he called her over.",
+     "start": 7.628,
+     "end": 9.195
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-he-stops.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Notice what did not happen. She did not push through a crowd. She did not call out to him. She did not ask. He called her first. Before she said one word, he had already decided.",
+   "seg_start": 44.489,
+   "audio_start": 44.769,
+   "spoken_end": 55.681,
+   "seg_end": 56.401,
+   "audio_dur": 11.285,
+   "spoken_dur": 10.912,
+   "seg_dur": 11.912,
+   "timing": [
+    {
+     "text": "Notice what did not happen.",
+     "start": 0.0,
+     "end": 1.382
+    },
+    {
+     "text": "She did not push through a crowd.",
+     "start": 1.382,
+     "end": 3.402
+    },
+    {
+     "text": "She did not call out to him.",
+     "start": 3.402,
+     "end": 5.259
+    },
+    {
+     "text": "She did not ask.",
+     "start": 5.259,
+     "end": 6.571
+    },
+    {
+     "text": "He called her first.",
+     "start": 6.571,
+     "end": 7.976
+    },
+    {
+     "text": "Before she said one word, he had already decided.",
+     "start": 7.976,
+     "end": 11.238
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-called-first.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "She made her slow way up the middle of that room, her stick tapping the stone floor, every eye on her. And when she finally stood in front of him \u2014 still bent, still staring at the ground \u2014 he said this.",
+   "seg_start": 56.401,
+   "audio_start": 56.681,
+   "spoken_end": 69.523,
+   "seg_end": 70.243,
+   "audio_dur": 13.218,
+   "spoken_dur": 12.842,
+   "seg_dur": 13.842,
+   "timing": [
+    {
+     "text": "She made her slow way up the middle of that room, her stick tapping the stone floor, every eye on her.",
+     "start": 0.0,
+     "end": 6.223
+    },
+    {
+     "text": "And when she finally stood in front of him \u2014 still bent, still staring at the ground \u2014 he said this.",
+     "start": 6.223,
+     "end": 13.189
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s5-loosed.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Woman, thou art loosed from thine infirmity.",
+   "seg_start": 70.243,
+   "audio_start": 70.523,
+   "spoken_end": 72.346,
+   "seg_end": 73.546,
+   "audio_dur": 2.273,
+   "spoken_dur": 1.823,
+   "seg_dur": 3.303,
+   "timing": [
+    {
+     "text": "Woman, thou art loosed from thine infirmity.",
+     "start": 0.0,
+     "end": 2.229
+    }
+   ]
+  },
+  {
+   "seg": "n5a",
+   "v1_still": "s5-loosed.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Loosed. In their language it was an everyday word. It meant untied \u2014 the same word a farmer used when he untied his animal from its stall. Something that had been knotted for eighteen years was coming undone.",
+   "seg_start": 73.546,
+   "audio_start": 73.826,
+   "spoken_end": 87.484,
+   "seg_end": 88.204,
+   "audio_dur": 14.028,
+   "spoken_dur": 13.658,
+   "seg_dur": 14.658,
+   "timing": [
+    {
+     "text": "Loosed.",
+     "start": 0.0,
+     "end": 0.697
+    },
+    {
+     "text": "In their language it was an everyday word.",
+     "start": 0.697,
+     "end": 3.634
+    },
+    {
+     "text": "It meant untied \u2014 the same word a farmer used when he untied his animal from its stall.",
+     "start": 3.634,
+     "end": 9.706
+    },
+    {
+     "text": "Something that had been knotted for eighteen years was coming undone.",
+     "start": 9.706,
+     "end": 13.978
+    }
+   ]
+  },
+  {
+   "seg": "n5b",
+   "v1_still": "s6-hands.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He laid his hands on her. And slowly \u2014 for the first time in eighteen years \u2014 she stood up straight.",
+   "seg_start": 88.204,
+   "audio_start": 88.484,
+   "spoken_end": 94.464,
+   "seg_end": 95.184,
+   "audio_dur": 6.348,
+   "spoken_dur": 5.98,
+   "seg_dur": 6.98,
+   "timing": [
+    {
+     "text": "He laid his hands on her.",
+     "start": 0.0,
+     "end": 1.242
+    },
+    {
+     "text": "And slowly \u2014 for the first time in eighteen years \u2014 she stood up straight.",
+     "start": 1.242,
+     "end": 6.316
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s7-praise.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The first thing she did with a straight back was praise God. Out loud, right there in the middle of the meeting. Eighteen years of silence turned into worship that nobody could stop.",
+   "seg_start": 95.184,
+   "audio_start": 95.464,
+   "spoken_end": 105.015,
+   "seg_end": 105.735,
+   "audio_dur": 9.979,
+   "spoken_dur": 9.551,
+   "seg_dur": 10.551,
+   "timing": [
+    {
+     "text": "The first thing she did with a straight back was praise God.",
+     "start": 0.0,
+     "end": 2.659
+    },
+    {
+     "text": "Out loud, right there in the middle of the meeting.",
+     "start": 2.659,
+     "end": 5.283
+    },
+    {
+     "text": "Eighteen years of silence turned into worship that nobody could stop.",
+     "start": 5.283,
+     "end": 9.938
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s8-ruler.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But not everyone rejoiced. The ruler of the synagogue \u2014 the man in charge of that meeting \u2014 was angry. In his mind, healing counted as work, and the sabbath was the day of rest. And he said this to the people.",
+   "seg_start": 105.735,
+   "audio_start": 106.015,
+   "spoken_end": 118.339,
+   "seg_end": 119.059,
+   "audio_dur": 12.722,
+   "spoken_dur": 12.324,
+   "seg_dur": 13.324,
+   "timing": [
+    {
+     "text": "But not everyone rejoiced.",
+     "start": 0.0,
+     "end": 1.44
+    },
+    {
+     "text": "The ruler of the synagogue \u2014 the man in charge of that meeting \u2014 was angry.",
+     "start": 1.44,
+     "end": 6.072
+    },
+    {
+     "text": "In his mind, healing counted as work, and the sabbath was the day of rest.",
+     "start": 6.072,
+     "end": 10.716
+    },
+    {
+     "text": "And he said this to the people.",
+     "start": 10.716,
+     "end": 12.678
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "v1_still": "s8-ruler.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "There are six days in which men ought to work: in them therefore come and be healed, and not on the sabbath day.",
+   "seg_start": 119.059,
+   "audio_start": 119.339,
+   "spoken_end": 125.201,
+   "seg_end": 126.401,
+   "audio_dur": 6.269,
+   "spoken_dur": 5.862,
+   "seg_dur": 7.342,
+   "timing": [
+    {
+     "text": "There are six days in which men ought to work: in them therefore come and be healed, and not on the sabbath day.",
+     "start": 0.0,
+     "end": 6.223
+    }
+   ]
+  },
+  {
+   "seg": "n7b",
+   "v1_still": "s8-ruler.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "As if her freedom could have waited one more day. As if it had not already waited eighteen years.",
+   "seg_start": 126.401,
+   "audio_start": 126.681,
+   "spoken_end": 131.98,
+   "seg_end": 132.7,
+   "audio_dur": 5.695,
+   "spoken_dur": 5.298,
+   "seg_dur": 6.298,
+   "timing": [
+    {
+     "text": "As if her freedom could have waited one more day.",
+     "start": 0.0,
+     "end": 2.299
+    },
+    {
+     "text": "As if it had not already waited eighteen years.",
+     "start": 2.299,
+     "end": 5.666
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s9-hypocrite.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus turned to him. And he did not soften it.",
+   "seg_start": 132.7,
+   "audio_start": 132.98,
+   "spoken_end": 135.559,
+   "seg_end": 136.279,
+   "audio_dur": 2.952,
+   "spoken_dur": 2.58,
+   "seg_dur": 3.58,
+   "timing": [
+    {
+     "text": "Jesus turned to him.",
+     "start": 0.0,
+     "end": 1.033
+    },
+    {
+     "text": "And he did not soften it.",
+     "start": 1.033,
+     "end": 2.926
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s9-hypocrite.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Thou hypocrite, doth not each one of you on the sabbath loose his ox or his ass from the stall, and lead him away to watering? And ought not this woman, being a daughter of Abraham, whom Satan hath bound, lo, these eighteen years, be loosed from this bond on the sabbath day?",
+   "seg_start": 136.279,
+   "audio_start": 136.559,
+   "spoken_end": 153.177,
+   "seg_end": 154.377,
+   "audio_dur": 16.98,
+   "spoken_dur": 16.618,
+   "seg_dur": 18.098,
+   "timing": [
+    {
+     "text": "Thou hypocrite, doth not each one of you on the sabbath loose his ox or his ass from the stall, and lead him away to watering?",
+     "start": 0.0,
+     "end": 7.175
+    },
+    {
+     "text": "And ought not this woman, being a daughter of Abraham, whom Satan hath bound, lo, these eighteen years, be loosed from this bond on the sabbath day?",
+     "start": 7.175,
+     "end": 16.951
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s9-hypocrite.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Every man in that room did exactly that on the sabbath. He untied his ox or his donkey and led it to water, and the rules allowed it \u2014 simple kindness to an animal was never against the day of rest. So Jesus asked the only question left. If you will untie an animal on the sabbath, how could it be wrong to untie a daughter?",
+   "seg_start": 154.377,
+   "audio_start": 154.657,
+   "spoken_end": 173.584,
+   "seg_end": 174.304,
+   "audio_dur": 19.304,
+   "spoken_dur": 18.927,
+   "seg_dur": 19.927,
+   "timing": [
+    {
+     "text": "Every man in that room did exactly that on the sabbath.",
+     "start": 0.0,
+     "end": 2.821
+    },
+    {
+     "text": "He untied his ox or his donkey and led it to water, and the rules allowed it \u2014 simple kindness to an animal was never against the day of rest.",
+     "start": 2.821,
+     "end": 11.331
+    },
+    {
+     "text": "So Jesus asked the only question left.",
+     "start": 11.331,
+     "end": 14.106
+    },
+    {
+     "text": "If you will untie an animal on the sabbath, how could it be wrong to untie a daughter?",
+     "start": 14.106,
+     "end": 19.273
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s10-daughter.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And listen to what he called her. A daughter of Abraham. In that room, those words were a declaration \u2014 family of the covenant, a child of the promise. For eighteen years she had been the bent woman, the one people stepped around. Now, in front of everyone, he gave her back her name. And notice the order. He did not say she became a daughter by being healed. She was healed because of who she already was. Her worth came first. She belonged \u2014 she had always belonged.",
+   "seg_start": 174.304,
+   "audio_start": 174.584,
+   "spoken_end": 202.547,
+   "seg_end": 203.267,
+   "audio_dur": 28.421,
+   "spoken_dur": 27.962,
+   "seg_dur": 28.962,
+   "timing": [
+    {
+     "text": "And listen to what he called her.",
+     "start": 0.0,
+     "end": 1.718
+    },
+    {
+     "text": "A daughter of Abraham.",
+     "start": 1.718,
+     "end": 3.204
+    },
+    {
+     "text": "In that room, those words were a declaration \u2014 family of the covenant, a child of the promise.",
+     "start": 3.204,
+     "end": 9.253
+    },
+    {
+     "text": "For eighteen years she had been the bent woman, the one people stepped around.",
+     "start": 9.253,
+     "end": 13.781
+    },
+    {
+     "text": "Now, in front of everyone, he gave her back her name.",
+     "start": 13.781,
+     "end": 16.661
+    },
+    {
+     "text": "And notice the order.",
+     "start": 16.661,
+     "end": 18.112
+    },
+    {
+     "text": "He did not say she became a daughter by being healed.",
+     "start": 18.112,
+     "end": 21.2
+    },
+    {
+     "text": "She was healed because of who she already was.",
+     "start": 21.2,
+     "end": 23.894
+    },
+    {
+     "text": "Her worth came first.",
+     "start": 23.894,
+     "end": 25.333
+    },
+    {
+     "text": "She belonged \u2014 she had always belonged.",
+     "start": 25.333,
+     "end": 28.375
+    }
+   ]
+  },
+  {
+   "seg": "n11",
+   "v1_still": "s11-rejoiced.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Luke tells us how the day ended.",
+   "seg_start": 203.267,
+   "audio_start": 203.547,
+   "spoken_end": 204.931,
+   "seg_end": 205.651,
+   "audio_dur": 1.802,
+   "spoken_dur": 1.384,
+   "seg_dur": 2.384,
+   "timing": [
+    {
+     "text": "Luke tells us how the day ended.",
+     "start": 0.0,
+     "end": 1.765
+    }
+   ]
+  },
+  {
+   "seg": "s17",
+   "v1_still": "s11-rejoiced.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "And when he had said these things, all his adversaries were ashamed: and all the people rejoiced for all the glorious things that were done by him.",
+   "seg_start": 205.651,
+   "audio_start": 205.931,
+   "spoken_end": 213.345,
+   "seg_end": 214.545,
+   "audio_dur": 7.758,
+   "spoken_dur": 7.415,
+   "seg_dur": 8.895,
+   "timing": [
+    {
+     "text": "And when he had said these things, all his adversaries were ashamed: and all the people rejoiced for all the glorious things that were done by him.",
+     "start": 0.0,
+     "end": 7.709
+    }
+   ]
+  },
+  {
+   "seg": "n11b",
+   "v1_still": "s11-rejoiced.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And somewhere in that crowd stood a woman seeing faces instead of sandals \u2014 standing as straight as the truth he had just told about her.",
+   "seg_start": 214.545,
+   "audio_start": 214.825,
+   "spoken_end": 222.272,
+   "seg_end": 222.992,
+   "audio_dur": 7.784,
+   "spoken_dur": 7.447,
+   "seg_dur": 8.447,
+   "timing": [
+    {
+     "text": "And somewhere in that crowd stood a woman seeing faces instead of sandals \u2014 standing as straight as the truth he had just told about her.",
+     "start": 0.0,
+     "end": 7.755
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "n12",
+  "text": "Is there something you have been carrying so long that you have stopped expecting it to change? He saw her at the back of the room. And he called her first.",
+  "seg_start": 222.992,
+  "audio_start": 223.272,
+  "seg_dur": 9.982
+ },
+ "total": 232.975
+}

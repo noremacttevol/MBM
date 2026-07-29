@@ -1,0 +1,368 @@
+{
+ "row": 112,
+ "slug": "build-112-beatitudes",
+ "v1_dir": "media-production/build-112-beatitudes",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-up-the-mountain.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The crowds came up the mountain expecting, maybe, the usual \u2014 that God blesses the strong, the rich, the winners. Matthew was there on the grass that day, and this is how he wrote down the beginning of it.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 13.352,
+   "seg_end": 14.002,
+   "audio_dur": 13.558,
+   "spoken_dur": 13.072,
+   "seg_dur": 14.002,
+   "timing": [
+    {
+     "text": "The crowds came up the mountain expecting, maybe, the usual \u2014 that God blesses the strong, the rich, the winners.",
+     "start": 0.0,
+     "end": 7.755
+    },
+    {
+     "text": "Matthew was there on the grass that day, and this is how he wrote down the beginning of it.",
+     "start": 7.755,
+     "end": 13.514
+    }
+   ]
+  },
+  {
+   "seg": "s1f",
+   "v1_still": "s1-up-the-mountain.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "And seeing the multitudes, he went up into a mountain: and when he was set, his disciples came unto him: And he opened his mouth, and taught them, saying,",
+   "seg_start": 14.002,
+   "audio_start": 14.282,
+   "spoken_end": 23.014,
+   "seg_end": 24.614,
+   "audio_dur": 9.143,
+   "spoken_dur": 8.732,
+   "seg_dur": 10.612,
+   "timing": [
+    {
+     "text": "And seeing the multitudes, he went up into a mountain: and when he was set, his disciples came unto him: And he opened his mouth, and taught them, saying,",
+     "start": 0.0,
+     "end": 9.102
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s1-up-the-mountain.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He saw the crowd coming, climbed the hillside, and sat down. His friends gathered in close around him. And then he opened his mouth and began to teach \u2014 and turned the whole thing upside down.",
+   "seg_start": 24.614,
+   "audio_start": 24.894,
+   "spoken_end": 35.708,
+   "seg_end": 36.358,
+   "audio_dur": 11.18,
+   "spoken_dur": 10.814,
+   "seg_dur": 11.744,
+   "timing": [
+    {
+     "text": "He saw the crowd coming, climbed the hillside, and sat down.",
+     "start": 0.0,
+     "end": 3.483
+    },
+    {
+     "text": "His friends gathered in close around him.",
+     "start": 3.483,
+     "end": 6.06
+    },
+    {
+     "text": "And then he opened his mouth and began to teach \u2014 and turned the whole thing upside down.",
+     "start": 6.06,
+     "end": 11.146
+    }
+   ]
+  },
+  {
+   "seg": "jv3",
+   "v1_still": "s2-blessed-are-the-poor-in-spirit.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Blessed are the poor in spirit: for theirs is the kingdom of heaven.",
+   "seg_start": 36.358,
+   "audio_start": 36.638,
+   "spoken_end": 40.921,
+   "seg_end": 42.521,
+   "audio_dur": 4.676,
+   "spoken_dur": 4.283,
+   "seg_dur": 6.163,
+   "timing": [
+    {
+     "text": "Blessed are the poor in spirit: for theirs is the kingdom of heaven.",
+     "start": 0.0,
+     "end": 4.644
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s3-they-that-mourn.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He starts with the very people the world walks past. Not the self-made and self-assured \u2014 the ones who know they have nothing to offer God but empty hands. The kingdom, he says, belongs to them first.",
+   "seg_start": 42.521,
+   "audio_start": 42.801,
+   "spoken_end": 55.482,
+   "seg_end": 56.132,
+   "audio_dur": 13.087,
+   "spoken_dur": 12.681,
+   "seg_dur": 13.611,
+   "timing": [
+    {
+     "text": "He starts with the very people the world walks past.",
+     "start": 0.0,
+     "end": 2.589
+    },
+    {
+     "text": "Not the self-made and self-assured \u2014 the ones who know they have nothing to offer God but empty hands.",
+     "start": 2.589,
+     "end": 9.776
+    },
+    {
+     "text": "The kingdom, he says, belongs to them first.",
+     "start": 9.776,
+     "end": 13.05
+    }
+   ]
+  },
+  {
+   "seg": "jv456",
+   "v1_still": "s4-the-meek.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Blessed are they that mourn: for they shall be comforted. Blessed are the meek: for they shall inherit the earth. Blessed are they which do hunger and thirst after righteousness: for they shall be filled.",
+   "seg_start": 56.132,
+   "audio_start": 56.412,
+   "spoken_end": 70.246,
+   "seg_end": 71.846,
+   "audio_dur": 14.237,
+   "spoken_dur": 13.833,
+   "seg_dur": 15.713,
+   "timing": [
+    {
+     "text": "Blessed are they that mourn: for they shall be comforted.",
+     "start": 0.0,
+     "end": 3.425
+    },
+    {
+     "text": "Blessed are the meek: for they shall inherit the earth.",
+     "start": 3.425,
+     "end": 6.92
+    },
+    {
+     "text": "Blessed are they which do hunger and thirst after righteousness: for they shall be filled.",
+     "start": 6.92,
+     "end": 14.211
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s5-hunger-for-righteousness.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The grieving will be comforted. The gentle, who never push to the front, will inherit everything. Those aching to be made good will be filled. Every blessing goes to exactly the person the world would call a loser.",
+   "seg_start": 71.846,
+   "audio_start": 72.126,
+   "spoken_end": 84.569,
+   "seg_end": 85.219,
+   "audio_dur": 12.852,
+   "spoken_dur": 12.443,
+   "seg_dur": 13.373,
+   "timing": [
+    {
+     "text": "The grieving will be comforted.",
+     "start": 0.0,
+     "end": 1.544
+    },
+    {
+     "text": "The gentle, who never push to the front, will inherit everything.",
+     "start": 1.544,
+     "end": 5.375
+    },
+    {
+     "text": "Those aching to be made good will be filled.",
+     "start": 5.375,
+     "end": 8.197
+    },
+    {
+     "text": "Every blessing goes to exactly the person the world would call a loser.",
+     "start": 8.197,
+     "end": 12.817
+    }
+   ]
+  },
+  {
+   "seg": "jv78",
+   "v1_still": "s6-the-merciful.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Blessed are the merciful: for they shall obtain mercy. Blessed are the pure in heart: for they shall see God.",
+   "seg_start": 85.219,
+   "audio_start": 85.499,
+   "spoken_end": 93.462,
+   "seg_end": 95.062,
+   "audio_dur": 8.359,
+   "spoken_dur": 7.963,
+   "seg_dur": 9.843,
+   "timing": [
+    {
+     "text": "Blessed are the merciful: for they shall obtain mercy.",
+     "start": 0.0,
+     "end": 3.773
+    },
+    {
+     "text": "Blessed are the pure in heart: for they shall see God.",
+     "start": 3.773,
+     "end": 8.313
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s7-the-pure-in-heart.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The pure in heart \u2014 the simple, honest, unguarded ones \u2014 will actually see God. Not the clever or the powerful. The clean of heart.",
+   "seg_start": 95.062,
+   "audio_start": 95.342,
+   "spoken_end": 104.545,
+   "seg_end": 105.195,
+   "audio_dur": 9.639,
+   "spoken_dur": 9.203,
+   "seg_dur": 10.133,
+   "timing": [
+    {
+     "text": "The pure in heart \u2014 the simple, honest, unguarded ones \u2014 will actually see God.",
+     "start": 0.0,
+     "end": 5.666
+    },
+    {
+     "text": "Not the clever or the powerful.",
+     "start": 5.666,
+     "end": 7.848
+    },
+    {
+     "text": "The clean of heart.",
+     "start": 7.848,
+     "end": 9.613
+    }
+   ]
+  },
+  {
+   "seg": "jv910",
+   "v1_still": "s8-the-peacemakers.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Blessed are the peacemakers: for they shall be called the children of God. Blessed are they which are persecuted for righteousness' sake: for theirs is the kingdom of heaven.",
+   "seg_start": 105.195,
+   "audio_start": 105.475,
+   "spoken_end": 117.605,
+   "seg_end": 119.205,
+   "audio_dur": 12.539,
+   "spoken_dur": 12.13,
+   "seg_dur": 14.01,
+   "timing": [
+    {
+     "text": "Blessed are the peacemakers: for they shall be called the children of God.",
+     "start": 0.0,
+     "end": 4.47
+    },
+    {
+     "text": "Blessed are they which are persecuted for righteousness' sake: for theirs is the kingdom of heaven.",
+     "start": 4.47,
+     "end": 12.492
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s9-the-persecuted.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The ones who make peace instead of winning fights are called God's own children. And even those pushed aside for doing right are not forgotten \u2014 the kingdom is theirs, too. Every last person the world overlooks, God is reaching for.",
+   "seg_start": 119.205,
+   "audio_start": 119.485,
+   "spoken_end": 132.692,
+   "seg_end": 133.342,
+   "audio_dur": 13.61,
+   "spoken_dur": 13.207,
+   "seg_dur": 14.137,
+   "timing": [
+    {
+     "text": "The ones who make peace instead of winning fights are called God's own children.",
+     "start": 0.0,
+     "end": 3.425
+    },
+    {
+     "text": "And even those pushed aside for doing right are not forgotten \u2014 the kingdom is theirs, too.",
+     "start": 3.425,
+     "end": 9.288
+    },
+    {
+     "text": "Every last person the world overlooks, God is reaching for.",
+     "start": 9.288,
+     "end": 13.56
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s10-the-upside-down-kingdom.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So if you have ever felt small, unseen, worn thin, or passed over \u2014 listen closely. In his kingdom, you are not at the back of the line. You are exactly the one he came for. That is how upside down, and how good, his kingdom really is.",
+   "seg_start": 133.342,
+   "audio_start": 133.622,
+   "spoken_end": 152.515,
+   "seg_end": 153.165,
+   "audio_dur": 19.304,
+   "spoken_dur": 18.893,
+   "seg_dur": 19.823,
+   "timing": [
+    {
+     "text": "So if you have ever felt small, unseen, worn thin, or passed over \u2014 listen closely.",
+     "start": 0.0,
+     "end": 7.755
+    },
+    {
+     "text": "In his kingdom, you are not at the back of the line.",
+     "start": 7.755,
+     "end": 11.622
+    },
+    {
+     "text": "You are exactly the one he came for.",
+     "start": 11.622,
+     "end": 14.303
+    },
+    {
+     "text": "That is how upside down, and how good, his kingdom really is.",
+     "start": 14.303,
+     "end": 19.273
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "The world blesses the winners; Jesus blesses the overlooked \u2014 the poor, the grieving, the gentle, the merciful. Which of these blessings sounds like it was written for you?",
+  "seg_start": 153.165,
+  "audio_start": 153.445,
+  "seg_dur": 14.58
+ },
+ "total": 167.745
+}

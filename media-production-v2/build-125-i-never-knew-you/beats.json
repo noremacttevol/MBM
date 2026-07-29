@@ -1,0 +1,238 @@
+{
+ "row": 125,
+ "slug": "build-125-i-never-knew-you",
+ "v1_dir": "media-production/build-125-i-never-knew-you",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-teaching-on-the-mountainside.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus warned that saying the right words is not the same as knowing him. The door is not opened by a name we repeat.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 6.244,
+   "seg_end": 6.964,
+   "audio_dur": 6.4,
+   "spoken_dur": 5.964,
+   "seg_dur": 6.964,
+   "timing": [
+    {
+     "text": "Jesus warned that saying the right words is not the same as knowing him.",
+     "start": 0.0,
+     "end": 3.576
+    },
+    {
+     "text": "The door is not opened by a name we repeat.",
+     "start": 3.576,
+     "end": 6.362
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s2-the-warning.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Not every one that saith unto me, Lord, Lord, shall enter into the kingdom of heaven; but he that doeth the will of my Father which is in heaven.",
+   "seg_start": 6.964,
+   "audio_start": 7.244,
+   "spoken_end": 15.786,
+   "seg_end": 17.386,
+   "audio_dur": 8.908,
+   "spoken_dur": 8.542,
+   "seg_dur": 10.422,
+   "timing": [
+    {
+     "text": "Not every one that saith unto me, Lord, Lord, shall enter into the kingdom of heaven; but he that doeth the will of my Father which is in heaven.",
+     "start": 0.0,
+     "end": 8.87
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s3-a-listener-thinks-hard.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Not everyone who calls me Lord will come into the kingdom, he said \u2014 only the one who actually does what my Father wants. Words are cheap. A life is not. And then he described a day when many will point to everything they did in his name.",
+   "seg_start": 17.386,
+   "audio_start": 17.666,
+   "spoken_end": 32.622,
+   "seg_end": 33.342,
+   "audio_dur": 15.36,
+   "spoken_dur": 14.956,
+   "seg_dur": 15.956,
+   "timing": [
+    {
+     "text": "Not everyone who calls me Lord will come into the kingdom, he said \u2014 only the one who actually does what my Father wants.",
+     "start": 0.0,
+     "end": 7.14
+    },
+    {
+     "text": "Words are cheap.",
+     "start": 7.14,
+     "end": 8.719
+    },
+    {
+     "text": "A life is not.",
+     "start": 8.719,
+     "end": 10.252
+    },
+    {
+     "text": "And then he described a day when many will point to everything they did in his name.",
+     "start": 10.252,
+     "end": 15.325
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s4-recounting-the-deeds.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Many will say to me in that day, Lord, Lord, have we not prophesied in thy name? and in thy name have cast out devils? and in thy name done many wonderful works?",
+   "seg_start": 33.342,
+   "audio_start": 33.622,
+   "spoken_end": 44.235,
+   "seg_end": 45.835,
+   "audio_dur": 10.998,
+   "spoken_dur": 10.614,
+   "seg_dur": 12.494,
+   "timing": [
+    {
+     "text": "Many will say to me in that day, Lord, Lord, have we not prophesied in thy name?",
+     "start": 0.0,
+     "end": 4.83
+    },
+    {
+     "text": "and in thy name have cast out devils?",
+     "start": 4.83,
+     "end": 7.651
+    },
+    {
+     "text": "and in thy name done many wonderful works?",
+     "start": 7.651,
+     "end": 10.96
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s6-knowing-shown-by-love.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Lord, they will say, didn't we prophesy in your name? Didn't we drive out devils in your name? Didn't we do all kinds of wonderful works in your name? Listen to what is missing from that list. Every single sentence is about what they did. Not one of them is about him.",
+   "seg_start": 45.835,
+   "audio_start": 46.115,
+   "spoken_end": 62.463,
+   "seg_end": 63.183,
+   "audio_dur": 16.744,
+   "spoken_dur": 16.347,
+   "seg_dur": 17.347,
+   "timing": [
+    {
+     "text": "Lord, they will say, didn't we prophesy in your name?",
+     "start": 0.0,
+     "end": 3.123
+    },
+    {
+     "text": "Didn't we drive out devils in your name?",
+     "start": 3.123,
+     "end": 5.735
+    },
+    {
+     "text": "Didn't we do all kinds of wonderful works in your name?",
+     "start": 5.735,
+     "end": 8.87
+    },
+    {
+     "text": "Listen to what is missing from that list.",
+     "start": 8.87,
+     "end": 11.505
+    },
+    {
+     "text": "Every single sentence is about what they did.",
+     "start": 11.505,
+     "end": 14.362
+    },
+    {
+     "text": "Not one of them is about him.",
+     "start": 14.362,
+     "end": 16.718
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": "s5-the-solemn-line.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "And then will I profess unto them, I never knew you: depart from me, ye that work iniquity.",
+   "seg_start": 63.183,
+   "audio_start": 63.463,
+   "spoken_end": 69.814,
+   "seg_end": 71.414,
+   "audio_dur": 6.766,
+   "spoken_dur": 6.351,
+   "seg_dur": 8.231,
+   "timing": [
+    {
+     "text": "And then will I profess unto them, I never knew you: depart from me, ye that work iniquity.",
+     "start": 0.0,
+     "end": 6.734
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s7-the-door-is-knowing.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He is not weighing the size of anyone's list. He is asking whether we ever really walked with him. And this is not a threat to scare you. It is an invitation to be known \u2014 to walk with him, not just speak his name.",
+   "seg_start": 71.414,
+   "audio_start": 71.694,
+   "spoken_end": 84.678,
+   "seg_end": 85.398,
+   "audio_dur": 13.401,
+   "spoken_dur": 12.985,
+   "seg_dur": 13.985,
+   "timing": [
+    {
+     "text": "He is not weighing the size of anyone's list.",
+     "start": 0.0,
+     "end": 2.322
+    },
+    {
+     "text": "He is asking whether we ever really walked with him.",
+     "start": 2.322,
+     "end": 5.271
+    },
+    {
+     "text": "And this is not a threat to scare you.",
+     "start": 5.271,
+     "end": 7.639
+    },
+    {
+     "text": "It is an invitation to be known \u2014 to walk with him, not just speak his name.",
+     "start": 7.639,
+     "end": 13.375
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He wants to know you, not just be named by you. Come close, and let him know you.",
+  "seg_start": 85.398,
+  "audio_start": 85.678,
+  "seg_dur": 6.874
+ },
+ "total": 92.272
+}

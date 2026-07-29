@@ -1,0 +1,637 @@
+{
+ "row": 118,
+ "slug": "build-118-jonah-god-who-relents",
+ "v1_dir": "media-production/build-118-jonah-god-who-relents",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-the-call.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "God had a hard errand for a man named Jonah. He was to go to Nineveh \u2014 a huge, violent, foreign city, the capital of the empire everyone in Israel was afraid of. And this is how the word came to him.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 12.695,
+   "seg_end": 13.345,
+   "audio_dur": 12.774,
+   "spoken_dur": 12.415,
+   "seg_dur": 13.345,
+   "timing": [
+    {
+     "text": "God had a hard errand for a man named Jonah.",
+     "start": 0.0,
+     "end": 2.853
+    },
+    {
+     "text": "He was to go to Nineveh \u2014 a huge, violent, foreign city, the capital of the empire everyone in Israel was afraid of.",
+     "start": 2.853,
+     "end": 10.375
+    },
+    {
+     "text": "And this is how the word came to him.",
+     "start": 10.375,
+     "end": 12.774
+    }
+   ]
+  },
+  {
+   "seg": "gv1",
+   "v1_still": "s1-the-call.jpeg",
+   "zoom": "out",
+   "speaker": "god",
+   "text": "Arise, go to Nineveh, that great city, and cry against it; for their wickedness is come up before me.",
+   "seg_start": 13.345,
+   "audio_start": 13.625,
+   "spoken_end": 21.911,
+   "seg_end": 23.511,
+   "audio_dur": 8.673,
+   "spoken_dur": 8.286,
+   "seg_dur": 10.166,
+   "timing": [
+    {
+     "text": "Arise, go to Nineveh, that great city, and cry against it; for their wickedness is come up before me.",
+     "start": 0.0,
+     "end": 8.673
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s1-the-call.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Go to that great city and preach against it, God said, because I have seen how bad it has gotten. Notice what that actually is. It is a warning. God would far rather warn a wicked city than lose it.",
+   "seg_start": 23.511,
+   "audio_start": 23.791,
+   "spoken_end": 35.584,
+   "seg_end": 36.234,
+   "audio_dur": 12.251,
+   "spoken_dur": 11.793,
+   "seg_dur": 12.723,
+   "timing": [
+    {
+     "text": "Go to that great city and preach against it, God said, because I have seen how bad it has gotten.",
+     "start": 0.0,
+     "end": 6.094
+    },
+    {
+     "text": "Notice what that actually is.",
+     "start": 6.094,
+     "end": 7.916
+    },
+    {
+     "text": "It is a warning.",
+     "start": 7.916,
+     "end": 8.922
+    },
+    {
+     "text": "God would far rather warn a wicked city than lose it.",
+     "start": 8.922,
+     "end": 12.251
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-he-flees.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But Jonah did not want mercy for people like that. So he ran. He found a ship going the exact opposite way and sailed off, trying to put an ocean between himself and a God he thought was far too forgiving.",
+   "seg_start": 36.234,
+   "audio_start": 36.514,
+   "spoken_end": 48.375,
+   "seg_end": 49.025,
+   "audio_dur": 12.251,
+   "spoken_dur": 11.861,
+   "seg_dur": 12.791,
+   "timing": [
+    {
+     "text": "But Jonah did not want mercy for people like that.",
+     "start": 0.0,
+     "end": 3.018
+    },
+    {
+     "text": "So he ran.",
+     "start": 3.018,
+     "end": 3.621
+    },
+    {
+     "text": "He found a ship going the exact opposite way and sailed off, trying to put an ocean between himself and a God he thought was far too forgiving.",
+     "start": 3.621,
+     "end": 12.251
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-the-great-storm.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "A great storm caught the ship, so fierce the sailors were sure they would all drown. They cast lots to find out whose fault it was, and the lot fell on Jonah. He knew it already. And what he told them is the first decent thing he does in the whole book.",
+   "seg_start": 49.025,
+   "audio_start": 49.305,
+   "spoken_end": 63.787,
+   "seg_end": 64.437,
+   "audio_dur": 14.942,
+   "spoken_dur": 14.481,
+   "seg_dur": 15.411,
+   "timing": [
+    {
+     "text": "A great storm caught the ship, so fierce the sailors were sure they would all drown.",
+     "start": 0.0,
+     "end": 5.021
+    },
+    {
+     "text": "They cast lots to find out whose fault it was, and the lot fell on Jonah.",
+     "start": 5.021,
+     "end": 9.384
+    },
+    {
+     "text": "He knew it already.",
+     "start": 9.384,
+     "end": 10.519
+    },
+    {
+     "text": "And what he told them is the first decent thing he does in the whole book.",
+     "start": 10.519,
+     "end": 14.942
+    }
+   ]
+  },
+  {
+   "seg": "s112",
+   "v1_still": "s3-the-great-storm.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Take me up, and cast me forth into the sea; so shall the sea be calm unto you: for I know that for my sake this great tempest is upon you.",
+   "seg_start": 64.437,
+   "audio_start": 64.717,
+   "spoken_end": 72.855,
+   "seg_end": 74.455,
+   "audio_dur": 8.438,
+   "spoken_dur": 8.138,
+   "seg_dur": 10.018,
+   "timing": [
+    {
+     "text": "Take me up, and cast me forth into the sea; so shall the sea be calm unto you: for I know that for my sake this great tempest is upon you.",
+     "start": 0.0,
+     "end": 8.438
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s3-the-great-storm.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Throw me in, he said. The sea will go quiet, because this storm is on me, not on you. He would rather drown than preach to Nineveh \u2014 but he would not let a boatful of strangers go down with him. So at last they did the only thing left, and cast him into the raging sea.",
+   "seg_start": 74.455,
+   "audio_start": 74.735,
+   "spoken_end": 91.561,
+   "seg_end": 92.211,
+   "audio_dur": 17.162,
+   "spoken_dur": 16.826,
+   "seg_dur": 17.756,
+   "timing": [
+    {
+     "text": "Throw me in, he said.",
+     "start": 0.0,
+     "end": 1.355
+    },
+    {
+     "text": "The sea will go quiet, because this storm is on me, not on you.",
+     "start": 1.355,
+     "end": 5.42
+    },
+    {
+     "text": "He would rather drown than preach to Nineveh \u2014 but he would not let a boatful of strangers go down with him.",
+     "start": 5.42,
+     "end": 12.388
+    },
+    {
+     "text": "So at last they did the only thing left, and cast him into the raging sea.",
+     "start": 12.388,
+     "end": 17.162
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-the-great-fish.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And here is the first surprise of this story. The sea should have been the end of him. Instead, God sent a great fish \u2014 not to punish Jonah, but to catch him, and carry him, and keep him alive in the deep.",
+   "seg_start": 92.211,
+   "audio_start": 92.491,
+   "spoken_end": 105.305,
+   "seg_end": 105.955,
+   "audio_dur": 13.27,
+   "spoken_dur": 12.815,
+   "seg_dur": 13.745,
+   "timing": [
+    {
+     "text": "And here is the first surprise of this story.",
+     "start": 0.0,
+     "end": 2.942
+    },
+    {
+     "text": "The sea should have been the end of him.",
+     "start": 2.942,
+     "end": 5.556
+    },
+    {
+     "text": "Instead, God sent a great fish \u2014 not to punish Jonah, but to catch him, and carry him, and keep him alive in the deep.",
+     "start": 5.556,
+     "end": 13.27
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-prayer-in-the-deep.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "For three days and three nights, in the dark, Jonah finally stopped running. From the belly of the fish he prayed, and his hard, resentful heart began at last to turn back toward the God who would not let him drown. His prayer ends in four words.",
+   "seg_start": 105.955,
+   "audio_start": 106.235,
+   "spoken_end": 120.467,
+   "seg_end": 121.117,
+   "audio_dur": 14.576,
+   "spoken_dur": 14.232,
+   "seg_dur": 15.162,
+   "timing": [
+    {
+     "text": "For three days and three nights, in the dark, Jonah finally stopped running.",
+     "start": 0.0,
+     "end": 4.54
+    },
+    {
+     "text": "From the belly of the fish he prayed, and his hard, resentful heart began at last to turn back toward the God who would not let him drown.",
+     "start": 4.54,
+     "end": 12.784
+    },
+    {
+     "text": "His prayer ends in four words.",
+     "start": 12.784,
+     "end": 14.576
+    }
+   ]
+  },
+  {
+   "seg": "s29",
+   "v1_still": "s5-prayer-in-the-deep.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Salvation is of the LORD.",
+   "seg_start": 121.117,
+   "audio_start": 121.397,
+   "spoken_end": 122.804,
+   "seg_end": 124.404,
+   "audio_dur": 1.75,
+   "spoken_dur": 1.406,
+   "seg_dur": 3.286,
+   "timing": [
+    {
+     "text": "Salvation is of the LORD.",
+     "start": 0.0,
+     "end": 1.75
+    }
+   ]
+  },
+  {
+   "seg": "n5b",
+   "v1_still": "s5-prayer-in-the-deep.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Rescue belongs to God. That is the whole lesson of the fish, and Jonah says it from the one place on earth where he could not save himself and had nothing left to bargain with.",
+   "seg_start": 124.404,
+   "audio_start": 124.684,
+   "spoken_end": 134.062,
+   "seg_end": 134.712,
+   "audio_dur": 9.848,
+   "spoken_dur": 9.378,
+   "seg_dur": 10.308,
+   "timing": [
+    {
+     "text": "Rescue belongs to God.",
+     "start": 0.0,
+     "end": 1.238
+    },
+    {
+     "text": "That is the whole lesson of the fish, and Jonah says it from the one place on earth where he could not save himself and had nothing left to bargain with.",
+     "start": 1.238,
+     "end": 9.848
+    }
+   ]
+  },
+  {
+   "seg": "jvA",
+   "v1_still": "s6-cast-upon-dry-land.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "Arise, go unto Nineveh, that great city, and preach unto it the preaching that I bid thee.",
+   "seg_start": 134.712,
+   "audio_start": 134.992,
+   "spoken_end": 142.459,
+   "seg_end": 144.059,
+   "audio_dur": 7.889,
+   "spoken_dur": 7.467,
+   "seg_dur": 9.347,
+   "timing": [
+    {
+     "text": "Arise, go unto Nineveh, that great city, and preach unto it the preaching that I bid thee.",
+     "start": 0.0,
+     "end": 7.889
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s7-preaching-to-nineveh.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The fish set him safe on dry land, and God gave him the exact same errand a second time \u2014 no mention of the running, no punishment attached. This time Jonah went. He walked into the great city and cried out his warning.",
+   "seg_start": 144.059,
+   "audio_start": 144.339,
+   "spoken_end": 158.292,
+   "seg_end": 158.942,
+   "audio_dur": 14.289,
+   "spoken_dur": 13.953,
+   "seg_dur": 14.883,
+   "timing": [
+    {
+     "text": "The fish set him safe on dry land, and God gave him the exact same errand a second time \u2014 no mention of the running, no punishment attached.",
+     "start": 0.0,
+     "end": 9.219
+    },
+    {
+     "text": "This time Jonah went.",
+     "start": 9.219,
+     "end": 10.602
+    },
+    {
+     "text": "He walked into the great city and cried out his warning.",
+     "start": 10.602,
+     "end": 14.289
+    }
+   ]
+  },
+  {
+   "seg": "s34",
+   "v1_still": "s7-preaching-to-nineveh.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Yet forty days, and Nineveh shall be overthrown.",
+   "seg_start": 158.942,
+   "audio_start": 159.222,
+   "spoken_end": 161.966,
+   "seg_end": 163.566,
+   "audio_dur": 3.056,
+   "spoken_dur": 2.744,
+   "seg_dur": 4.624,
+   "timing": [
+    {
+     "text": "Yet forty days, and Nineveh shall be overthrown.",
+     "start": 0.0,
+     "end": 3.056
+    }
+   ]
+  },
+  {
+   "seg": "n6b",
+   "v1_still": "s7-preaching-to-nineveh.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Forty more days and this city is finished. That was the entire sermon. No comfort in it anywhere, no invitation, no offer \u2014 just a countdown, preached by a man who was hoping it would come true.",
+   "seg_start": 163.566,
+   "audio_start": 163.846,
+   "spoken_end": 176.629,
+   "seg_end": 177.279,
+   "audio_dur": 13.14,
+   "spoken_dur": 12.783,
+   "seg_dur": 13.713,
+   "timing": [
+    {
+     "text": "Forty more days and this city is finished.",
+     "start": 0.0,
+     "end": 2.874
+    },
+    {
+     "text": "That was the entire sermon.",
+     "start": 2.874,
+     "end": 4.722
+    },
+    {
+     "text": "No comfort in it anywhere, no invitation, no offer \u2014 just a countdown, preached by a man who was hoping it would come true.",
+     "start": 4.722,
+     "end": 13.14
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s8-the-city-repents.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And the second surprise is bigger than the first. They listened. From the king on his throne down to the poorest beggar, the whole city turned \u2014 sackcloth, fasting, and honest sorrow \u2014 begging God for mercy they knew they did not deserve.",
+   "seg_start": 177.279,
+   "audio_start": 177.559,
+   "spoken_end": 192.855,
+   "seg_end": 193.505,
+   "audio_dur": 15.726,
+   "spoken_dur": 15.296,
+   "seg_dur": 16.226,
+   "timing": [
+    {
+     "text": "And the second surprise is bigger than the first.",
+     "start": 0.0,
+     "end": 3.265
+    },
+    {
+     "text": "They listened.",
+     "start": 3.265,
+     "end": 4.198
+    },
+    {
+     "text": "From the king on his throne down to the poorest beggar, the whole city turned \u2014 sackcloth, fasting, and honest sorrow \u2014 begging God for mercy they knew they did not deserve.",
+     "start": 4.198,
+     "end": 15.726
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s9-god-relents.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And God, who had been looking for a reason to spare them all along, saw that they turned from their evil \u2014 and he relented. He did not destroy the city. He forgave it. The judgment never fell. And Jonah, watching from a hill outside the walls, was furious. Listen to why.",
+   "seg_start": 193.505,
+   "audio_start": 193.785,
+   "spoken_end": 210.464,
+   "seg_end": 211.114,
+   "audio_dur": 17.084,
+   "spoken_dur": 16.679,
+   "seg_dur": 17.609,
+   "timing": [
+    {
+     "text": "And God, who had been looking for a reason to spare them all along, saw that they turned from their evil \u2014 and he relented.",
+     "start": 0.0,
+     "end": 7.9
+    },
+    {
+     "text": "He did not destroy the city.",
+     "start": 7.9,
+     "end": 9.698
+    },
+    {
+     "text": "He forgave it.",
+     "start": 9.698,
+     "end": 10.597
+    },
+    {
+     "text": "The judgment never fell.",
+     "start": 10.597,
+     "end": 12.139
+    },
+    {
+     "text": "And Jonah, watching from a hill outside the walls, was furious.",
+     "start": 12.139,
+     "end": 16.185
+    },
+    {
+     "text": "Listen to why.",
+     "start": 16.185,
+     "end": 17.084
+    }
+   ]
+  },
+  {
+   "seg": "s42",
+   "v1_still": "s9-god-relents.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "I knew that thou art a gracious God, and merciful, slow to anger, and of great kindness, and repentest thee of the evil.",
+   "seg_start": 211.114,
+   "audio_start": 211.394,
+   "spoken_end": 217.692,
+   "seg_end": 219.292,
+   "audio_dur": 6.635,
+   "spoken_dur": 6.297,
+   "seg_dur": 8.177,
+   "timing": [
+    {
+     "text": "I knew that thou art a gracious God, and merciful, slow to anger, and of great kindness, and repentest thee of the evil.",
+     "start": 0.0,
+     "end": 6.635
+    }
+   ]
+  },
+  {
+   "seg": "n8b",
+   "v1_still": "s9-god-relents.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "I knew it, he says. I knew you would forgive them. That is the confession at the bottom of the book. Jonah never ran because he thought God was harsh. He ran because he was afraid God was too good.",
+   "seg_start": 219.292,
+   "audio_start": 219.572,
+   "spoken_end": 230.872,
+   "seg_end": 231.522,
+   "audio_dur": 11.703,
+   "spoken_dur": 11.301,
+   "seg_dur": 12.231,
+   "timing": [
+    {
+     "text": "I knew it, he says.",
+     "start": 0.0,
+     "end": 1.152
+    },
+    {
+     "text": "I knew you would forgive them.",
+     "start": 1.152,
+     "end": 2.971
+    },
+    {
+     "text": "That is the confession at the bottom of the book.",
+     "start": 2.971,
+     "end": 5.942
+    },
+    {
+     "text": "Jonah never ran because he thought God was harsh.",
+     "start": 5.942,
+     "end": 8.914
+    },
+    {
+     "text": "He ran because he was afraid God was too good.",
+     "start": 8.914,
+     "end": 11.703
+    }
+   ]
+  },
+  {
+   "seg": "jvB",
+   "v1_still": "s10-should-i-not-spare.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "And should not I spare Nineveh, that great city, wherein are more than sixscore thousand persons that cannot discern between their right hand and their left hand; and also much cattle?",
+   "seg_start": 231.522,
+   "audio_start": 231.802,
+   "spoken_end": 243.94,
+   "seg_end": 245.54,
+   "audio_dur": 12.539,
+   "spoken_dur": 12.138,
+   "seg_dur": 14.018,
+   "timing": [
+    {
+     "text": "And should not I spare Nineveh, that great city, wherein are more than sixscore thousand persons that cannot discern between their right hand and their left hand; and also much cattle?",
+     "start": 0.0,
+     "end": 12.539
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s10-should-i-not-spare.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "A hundred and twenty thousand people who cannot tell their right hand from their left \u2014 and the animals too. That is how the book ends. Not with Jonah answering, but with God still arguing for mercy, out loud, with his own prophet.",
+   "seg_start": 245.54,
+   "audio_start": 245.82,
+   "spoken_end": 261.485,
+   "seg_end": 262.135,
+   "audio_dur": 16.065,
+   "spoken_dur": 15.665,
+   "seg_dur": 16.595,
+   "timing": [
+    {
+     "text": "A hundred and twenty thousand people who cannot tell their right hand from their left \u2014 and the animals too.",
+     "start": 0.0,
+     "end": 7.577
+    },
+    {
+     "text": "That is how the book ends.",
+     "start": 7.577,
+     "end": 9.401
+    },
+    {
+     "text": "Not with Jonah answering, but with God still arguing for mercy, out loud, with his own prophet.",
+     "start": 9.401,
+     "end": 16.065
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "The whole book of Jonah exists to answer one question: is God eager to destroy, or eager to spare? He spared a city of a hundred thousand strangers the moment they turned. What would it change to believe God is that quick to forgive?",
+  "seg_start": 262.135,
+  "audio_start": 262.415,
+  "seg_dur": 16.487
+ },
+ "total": 278.622
+}

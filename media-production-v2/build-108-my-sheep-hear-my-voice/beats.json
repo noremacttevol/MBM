@@ -1,0 +1,379 @@
+{
+ "row": 108,
+ "slug": "build-108-my-sheep-hear-my-voice",
+ "v1_dir": "media-production/build-108-my-sheep-hear-my-voice",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-the-sheepfold-at-dawn.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "In that world, a shepherd did not drive his sheep from behind. He walked out in front of them, and they followed \u2014 not because they were forced, but because they knew his voice.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 9.713,
+   "seg_end": 10.363,
+   "audio_dur": 9.848,
+   "spoken_dur": 9.433,
+   "seg_dur": 10.363,
+   "timing": [
+    {
+     "text": "In that world, a shepherd did not drive his sheep from behind.",
+     "start": 0.0,
+     "end": 3.111
+    },
+    {
+     "text": "He walked out in front of them, and they followed \u2014 not because they were forced, but because they knew his voice.",
+     "start": 3.111,
+     "end": 9.799
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-the-shepherd-comes.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Several flocks might share one fold overnight. But in the morning, when a shepherd called, only his own sheep lifted their heads and came. They could tell his voice from a stranger's. That is the picture Jesus reaches for.",
+   "seg_start": 10.363,
+   "audio_start": 10.643,
+   "spoken_end": 23.762,
+   "seg_end": 24.412,
+   "audio_dur": 13.505,
+   "spoken_dur": 13.119,
+   "seg_dur": 14.049,
+   "timing": [
+    {
+     "text": "Several flocks might share one fold overnight.",
+     "start": 0.0,
+     "end": 2.81
+    },
+    {
+     "text": "But in the morning, when a shepherd called, only his own sheep lifted their heads and came.",
+     "start": 2.81,
+     "end": 8.29
+    },
+    {
+     "text": "They could tell his voice from a stranger's.",
+     "start": 8.29,
+     "end": 10.762
+    },
+    {
+     "text": "That is the picture Jesus reaches for.",
+     "start": 10.762,
+     "end": 13.468
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-he-calls-them-by-name.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He knows them one at a time. Not a nameless herd \u2014 each one, called by its own name, gently, personally. And knowing his voice, they come to him and follow.",
+   "seg_start": 24.412,
+   "audio_start": 24.692,
+   "spoken_end": 35.225,
+   "seg_end": 35.875,
+   "audio_dur": 10.893,
+   "spoken_dur": 10.533,
+   "seg_dur": 11.463,
+   "timing": [
+    {
+     "text": "He knows them one at a time.",
+     "start": 0.0,
+     "end": 1.602
+    },
+    {
+     "text": "Not a nameless herd \u2014 each one, called by its own name, gently, personally.",
+     "start": 1.602,
+     "end": 7.57
+    },
+    {
+     "text": "And knowing his voice, they come to him and follow.",
+     "start": 7.57,
+     "end": 10.867
+    }
+   ]
+  },
+  {
+   "seg": "jv3",
+   "v1_still": "s3-he-calls-them-by-name.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "The sheep hear his voice: and he calleth his own sheep by name, and leadeth them out.",
+   "seg_start": 35.875,
+   "audio_start": 36.155,
+   "spoken_end": 41.523,
+   "seg_end": 43.123,
+   "audio_dur": 5.851,
+   "spoken_dur": 5.368,
+   "seg_dur": 7.248,
+   "timing": [
+    {
+     "text": "The sheep hear his voice: and he calleth his own sheep by name, and leadeth them out.",
+     "start": 0.0,
+     "end": 5.805
+    }
+   ]
+  },
+  {
+   "seg": "jv27",
+   "v1_still": "s4-they-follow-him.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "My sheep hear my voice, and I know them, and they follow me:",
+   "seg_start": 43.123,
+   "audio_start": 43.403,
+   "spoken_end": 46.278,
+   "seg_end": 47.878,
+   "audio_dur": 3.291,
+   "spoken_dur": 2.875,
+   "seg_dur": 4.755,
+   "timing": [
+    {
+     "text": "My sheep hear my voice, and I know them, and they follow me:",
+     "start": 0.0,
+     "end": 3.251
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s5-green-pastures.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He leads them to green places and still water, to rest and to plenty. And when one is small or tired or hurt, he does not scold it for falling behind \u2014 he lifts it up and carries it.",
+   "seg_start": 47.878,
+   "audio_start": 48.158,
+   "spoken_end": 60.715,
+   "seg_end": 61.365,
+   "audio_dur": 12.983,
+   "spoken_dur": 12.557,
+   "seg_dur": 13.487,
+   "timing": [
+    {
+     "text": "He leads them to green places and still water, to rest and to plenty.",
+     "start": 0.0,
+     "end": 4.667
+    },
+    {
+     "text": "And when one is small or tired or hurt, he does not scold it for falling behind \u2014 he lifts it up and carries it.",
+     "start": 4.667,
+     "end": 12.957
+    }
+   ]
+  },
+  {
+   "seg": "jv11",
+   "v1_still": "s6-the-lamb-carried.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "I am the good shepherd: the good shepherd giveth his life for the sheep.",
+   "seg_start": 61.365,
+   "audio_start": 61.645,
+   "spoken_end": 65.966,
+   "seg_end": 67.566,
+   "audio_dur": 4.78,
+   "spoken_dur": 4.321,
+   "seg_dur": 6.201,
+   "timing": [
+    {
+     "text": "I am the good shepherd: the good shepherd giveth his life for the sheep.",
+     "start": 0.0,
+     "end": 4.737
+    }
+   ]
+  },
+  {
+   "seg": "n4b",
+   "v1_still": "s6-the-lamb-carried.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "That is what he was willing to spend to keep them. That is what he was willing to spend to keep you.",
+   "seg_start": 67.566,
+   "audio_start": 67.846,
+   "spoken_end": 73.03,
+   "seg_end": 73.68,
+   "audio_dur": 5.564,
+   "spoken_dur": 5.184,
+   "seg_dur": 6.114,
+   "timing": [
+    {
+     "text": "That is what he was willing to spend to keep them.",
+     "start": 0.0,
+     "end": 2.392
+    },
+    {
+     "text": "That is what he was willing to spend to keep you.",
+     "start": 2.392,
+     "end": 5.526
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s7-the-people-who-are-his-sheep.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And here is the turn: the sheep are people. You. Tired, wandering, easily lost people, whom he knows by name and leads with his voice and gathers close and will not lose.",
+   "seg_start": 73.68,
+   "audio_start": 73.96,
+   "spoken_end": 86.391,
+   "seg_end": 87.041,
+   "audio_dur": 12.904,
+   "spoken_dur": 12.431,
+   "seg_dur": 13.361,
+   "timing": [
+    {
+     "text": "And here is the turn: the sheep are people.",
+     "start": 0.0,
+     "end": 2.786
+    },
+    {
+     "text": "You.",
+     "start": 2.786,
+     "end": 3.82
+    },
+    {
+     "text": "Tired, wandering, easily lost people, whom he knows by name and leads with his voice and gathers close and will not lose.",
+     "start": 3.82,
+     "end": 12.864
+    }
+   ]
+  },
+  {
+   "seg": "jv28",
+   "v1_still": "s8-in-his-hand.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "And I give unto them eternal life; and they shall never perish, neither shall any man pluck them out of my hand.",
+   "seg_start": 87.041,
+   "audio_start": 87.321,
+   "spoken_end": 94.64,
+   "seg_end": 96.24,
+   "audio_dur": 7.758,
+   "spoken_dur": 7.319,
+   "seg_dur": 9.199,
+   "timing": [
+    {
+     "text": "And I give unto them eternal life; and they shall never perish, neither shall any man pluck them out of my hand.",
+     "start": 0.0,
+     "end": 7.709
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s8-in-his-hand.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Once you are in his hand, it is over \u2014 for the fear, that is. Never be snatched away. Not by your failures, not by your enemies, not by death itself. His grip on you does not depend on how tightly you can hold on to him.",
+   "seg_start": 96.24,
+   "audio_start": 96.52,
+   "spoken_end": 111.304,
+   "seg_end": 111.954,
+   "audio_dur": 15.177,
+   "spoken_dur": 14.784,
+   "seg_dur": 15.714,
+   "timing": [
+    {
+     "text": "Once you are in his hand, it is over \u2014 for the fear, that is.",
+     "start": 0.0,
+     "end": 3.901
+    },
+    {
+     "text": "Never be snatched away.",
+     "start": 3.901,
+     "end": 5.968
+    },
+    {
+     "text": "Not by your failures, not by your enemies, not by death itself.",
+     "start": 5.968,
+     "end": 10.658
+    },
+    {
+     "text": "His grip on you does not depend on how tightly you can hold on to him.",
+     "start": 10.658,
+     "end": 15.139
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s9-leading-home-at-evening.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He leads them home in the evening to the safe fold, and counts them in, and none are missing.",
+   "seg_start": 111.954,
+   "audio_start": 112.234,
+   "spoken_end": 117.26,
+   "seg_end": 117.91,
+   "audio_dur": 5.46,
+   "spoken_dur": 5.026,
+   "seg_dur": 5.956,
+   "timing": [
+    {
+     "text": "He leads them home in the evening to the safe fold, and counts them in, and none are missing.",
+     "start": 0.0,
+     "end": 5.433
+    }
+   ]
+  },
+  {
+   "seg": "n7b",
+   "v1_still": "s10-the-voice-that-calls-you.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That is the shepherd he is. Led, not driven. Known, not counted. Held, and never let go. And even now he is calling, gently, past the flock, to whoever is still outside.",
+   "seg_start": 117.91,
+   "audio_start": 118.19,
+   "spoken_end": 132.167,
+   "seg_end": 132.817,
+   "audio_dur": 14.393,
+   "spoken_dur": 13.977,
+   "seg_dur": 14.907,
+   "timing": [
+    {
+     "text": "That is the shepherd he is.",
+     "start": 0.0,
+     "end": 1.881
+    },
+    {
+     "text": "Led, not driven.",
+     "start": 1.881,
+     "end": 4.052
+    },
+    {
+     "text": "Known, not counted.",
+     "start": 4.052,
+     "end": 5.817
+    },
+    {
+     "text": "Held, and never let go.",
+     "start": 5.817,
+     "end": 7.883
+    },
+    {
+     "text": "And even now he is calling, gently, past the flock, to whoever is still outside.",
+     "start": 7.883,
+     "end": 14.35
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "The good shepherd knows his sheep by name, leads them by his voice, and holds them so no one can pluck them from his hand. He is still calling, gently, past the flock, to whoever is outside. Do you think that voice could be for you?",
+  "seg_start": 132.817,
+  "audio_start": 133.097,
+  "seg_dur": 16.226
+ },
+ "total": 149.043
+}

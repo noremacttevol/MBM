@@ -1,0 +1,235 @@
+{
+ "row": 173,
+ "slug": "build-173-dead-shall-hear",
+ "v1_dir": "media-production/build-173-dead-shall-hear",
+ "constants": {
+  "LEAD": 0.4,
+  "GAP": 1.65,
+  "KJV_GAP": 1.65,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-speaking-to-the-crowd.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus said a time was coming \u2014 and had already begun \u2014 when something impossible would happen.",
+   "seg_start": 0.0,
+   "audio_start": 0.4,
+   "spoken_end": 6.484,
+   "seg_end": 8.134,
+   "audio_dur": 6.452,
+   "spoken_dur": 6.084,
+   "seg_dur": 8.134,
+   "timing": [
+    {
+     "text": "Jesus said a time was coming \u2014 and had already begun \u2014 when something impossible would happen.",
+     "start": 0.0,
+     "end": 6.409
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s3-faces-turning.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The dead would hear a voice. Not a rumor of a voice. His voice.",
+   "seg_start": 8.134,
+   "audio_start": 8.534,
+   "spoken_end": 12.488,
+   "seg_end": 14.138,
+   "audio_dur": 4.362,
+   "spoken_dur": 3.954,
+   "seg_dur": 6.004,
+   "timing": [
+    {
+     "text": "The dead would hear a voice.",
+     "start": 0.0,
+     "end": 1.312
+    },
+    {
+     "text": "Not a rumor of a voice.",
+     "start": 1.312,
+     "end": 3.088
+    },
+    {
+     "text": "His voice.",
+     "start": 3.088,
+     "end": 4.319
+    }
+   ]
+  },
+  {
+   "seg": "j1a",
+   "v1_still": "s2-verily-verily.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Verily, verily, I say unto you, The hour is coming, and now is,",
+   "seg_start": 14.138,
+   "audio_start": 14.538,
+   "spoken_end": 18.704,
+   "seg_end": 20.354,
+   "audio_dur": 4.545,
+   "spoken_dur": 4.166,
+   "seg_dur": 6.216,
+   "timing": [
+    {
+     "text": "Verily, verily, I say unto you, The hour is coming, and now is,",
+     "start": 0.0,
+     "end": 4.505
+    }
+   ]
+  },
+  {
+   "seg": "j1b",
+   "v1_still": "s4-light-summoned.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "when the dead shall hear the voice of the Son of God:",
+   "seg_start": 20.354,
+   "audio_start": 20.754,
+   "spoken_end": 23.256,
+   "seg_end": 24.906,
+   "audio_dur": 2.873,
+   "spoken_dur": 2.502,
+   "seg_dur": 4.552,
+   "timing": [
+    {
+     "text": "when the dead shall hear the voice of the Son of God:",
+     "start": 0.0,
+     "end": 2.833
+    }
+   ]
+  },
+  {
+   "seg": "j1c",
+   "v1_still": "s5-the-calling-hand.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "and they that hear shall live.",
+   "seg_start": 24.906,
+   "audio_start": 25.306,
+   "spoken_end": 26.958,
+   "seg_end": 28.608,
+   "audio_dur": 1.985,
+   "spoken_dur": 1.652,
+   "seg_dur": 3.702,
+   "timing": [
+    {
+     "text": "and they that hear shall live.",
+     "start": 0.0,
+     "end": 1.95
+    }
+   ]
+  },
+  {
+   "seg": "n2a",
+   "v1_still": "s6-hope-dawning.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The One who made life is the One who calls it back.",
+   "seg_start": 28.608,
+   "audio_start": 29.008,
+   "spoken_end": 31.572,
+   "seg_end": 33.222,
+   "audio_dur": 3.056,
+   "spoken_dur": 2.564,
+   "seg_dur": 4.614,
+   "timing": [
+    {
+     "text": "The One who made life is the One who calls it back.",
+     "start": 0.0,
+     "end": 3.019
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s6-hope-dawning.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Marvel not at this: for the hour is coming, in the which all that are in the graves shall hear his voice, and shall come forth.",
+   "seg_start": 33.222,
+   "audio_start": 33.622,
+   "spoken_end": 41.685,
+   "seg_end": 43.335,
+   "audio_dur": 8.594,
+   "spoken_dur": 8.062,
+   "seg_dur": 10.112,
+   "timing": [
+    {
+     "text": "Marvel not at this: for the hour is coming, in the which all that are in the graves shall hear his voice, and shall come forth.",
+     "start": 0.0,
+     "end": 8.545
+    }
+   ]
+  },
+  {
+   "seg": "n2c",
+   "v1_still": "s6-hope-dawning.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Not some of the dead. All of them. He said every grave will hear that same voice \u2014 and open. Nobody is too far gone, and nobody gets left in the ground.",
+   "seg_start": 43.335,
+   "audio_start": 43.735,
+   "spoken_end": 54.0,
+   "seg_end": 55.65,
+   "audio_dur": 10.632,
+   "spoken_dur": 10.265,
+   "seg_dur": 12.315,
+   "timing": [
+    {
+     "text": "Not some of the dead.",
+     "start": 0.0,
+     "end": 1.149
+    },
+    {
+     "text": "All of them.",
+     "start": 1.149,
+     "end": 1.974
+    },
+    {
+     "text": "He said every grave will hear that same voice \u2014 and open.",
+     "start": 1.974,
+     "end": 6.269
+    },
+    {
+     "text": "Nobody is too far gone, and nobody gets left in the ground.",
+     "start": 6.269,
+     "end": 10.588
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s7-the-promise-of-life.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "To hear him is to live.",
+   "seg_start": 55.65,
+   "audio_start": 56.05,
+   "spoken_end": 57.201,
+   "seg_end": 58.851,
+   "audio_dur": 1.62,
+   "spoken_dur": 1.152,
+   "seg_dur": 3.202,
+   "timing": [
+    {
+     "text": "To hear him is to live.",
+     "start": 0.0,
+     "end": 1.579
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He speaks, and death loses its grip. Lean in and listen \u2014 and live.",
+  "seg_start": 58.851,
+  "audio_start": 59.251,
+  "seg_dur": 7.177
+ },
+ "total": 66.028
+}

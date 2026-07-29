@@ -1,0 +1,183 @@
+{
+ "row": 138,
+ "slug": "build-138-his-offspring",
+ "v1_dir": "media-production/build-138-his-offspring",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0a",
+   "v1_still": "s1-paul-on-mars-hill.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 4.948,
+   "seg_end": 5.668,
+   "audio_dur": 5.094,
+   "spoken_dur": 4.668,
+   "seg_dur": 5.668,
+   "timing": [
+    {
+     "text": "Paul stood in the middle of Athens, surrounded by statues to every god they could think of \u2014",
+     "start": 0.0,
+     "end": 5.094
+    }
+   ]
+  },
+  {
+   "seg": "n0b",
+   "v1_still": "s2-the-unknown-altar.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 5.668,
+   "audio_start": 5.948,
+   "spoken_end": 8.84,
+   "seg_end": 9.56,
+   "audio_dur": 3.291,
+   "spoken_dur": 2.893,
+   "seg_dur": 3.893,
+   "timing": [
+    {
+     "text": "and one altar that simply said, To the unknown God.",
+     "start": 0.0,
+     "end": 3.291
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s3-not-far-from-any-of-us.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 9.56,
+   "audio_start": 9.84,
+   "spoken_end": 17.028,
+   "seg_end": 17.748,
+   "audio_dur": 7.549,
+   "spoken_dur": 7.188,
+   "seg_dur": 8.188,
+   "timing": [
+    {
+     "text": "He told them they were already closer than they knew.",
+     "start": 0.0,
+     "end": 2.942
+    },
+    {
+     "text": "The God they'd left unnamed made the whole world, and He is not far from any of us.",
+     "start": 2.942,
+     "end": 7.549
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-a-city-of-idols-one-open-sky.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 17.748,
+   "audio_start": 18.028,
+   "spoken_end": 24.561,
+   "seg_end": 25.281,
+   "audio_dur": 6.922,
+   "spoken_dur": 6.532,
+   "seg_dur": 7.532,
+   "timing": [
+    {
+     "text": "In Him, Paul said, we live and move and have our being.",
+     "start": 0.0,
+     "end": 3.558
+    },
+    {
+     "text": "He even quoted their own poets: we are His children.",
+     "start": 3.558,
+     "end": 6.922
+    }
+   ]
+  },
+  {
+   "seg": "p1",
+   "v1_still": "s5-the-created-world.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "-22%",
+   "seg_start": 25.281,
+   "audio_start": 25.561,
+   "spoken_end": 32.87,
+   "seg_end": 34.47,
+   "audio_dur": 7.654,
+   "spoken_dur": 7.309,
+   "seg_dur": 9.189,
+   "timing": [
+    {
+     "text": "For in him we live, and move, and have our being; as certain also of your own poets have said, For we are also his offspring.",
+     "start": 0.0,
+     "end": 7.654
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s6-conviction-and-gentleness.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 34.47,
+   "audio_start": 34.75,
+   "spoken_end": 41.122,
+   "seg_end": 41.842,
+   "audio_dur": 6.713,
+   "spoken_dur": 6.372,
+   "seg_dur": 7.372,
+   "timing": [
+    {
+     "text": "God overlooked the times of ignorance before, Paul said \u2014 but now He commands all men everywhere to repent.",
+     "start": 0.0,
+     "end": 6.713
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s7-the-unknown-god-named-by-light.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 41.842,
+   "audio_start": 42.122,
+   "spoken_end": 45.935,
+   "seg_end": 46.655,
+   "audio_dur": 4.18,
+   "spoken_dur": 3.813,
+   "seg_dur": 4.813,
+   "timing": [
+    {
+     "text": "The unknown God was never unknown to Him.",
+     "start": 0.0,
+     "end": 2.347
+    },
+    {
+     "text": "He had been near the whole time.",
+     "start": 2.347,
+     "end": 4.18
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "-22%",
+  "seg_start": 46.655,
+  "audio_start": 46.935,
+  "seg_dur": 5.124
+ },
+ "total": 51.778
+}

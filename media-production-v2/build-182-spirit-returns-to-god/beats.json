@@ -1,0 +1,245 @@
+{
+ "row": 182,
+ "slug": "build-182-spirit-returns-to-god",
+ "v1_dir": "media-production/build-182-spirit-returns-to-god",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-the-long-light-of-evening.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The Teacher, Solomon, wrote honestly about the end of life. The body grows old, the days grow dim, and then \u2014 the breath leaves.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 7.315,
+   "seg_end": 7.965,
+   "audio_dur": 7.419,
+   "spoken_dur": 7.035,
+   "seg_dur": 7.965,
+   "timing": [
+    {
+     "text": "The Teacher, Solomon, wrote honestly about the end of life.",
+     "start": 0.0,
+     "end": 2.844
+    },
+    {
+     "text": "The body grows old, the days grow dim, and then \u2014 the breath leaves.",
+     "start": 2.844,
+     "end": 7.384
+    }
+   ]
+  },
+  {
+   "seg": "s0",
+   "v1_still": "s1-the-long-light-of-evening.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them;",
+   "seg_start": 7.965,
+   "audio_start": 8.245,
+   "spoken_end": 16.596,
+   "seg_end": 18.196,
+   "audio_dur": 8.725,
+   "spoken_dur": 8.352,
+   "seg_dur": 10.232,
+   "timing": [
+    {
+     "text": "Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when thou shalt say, I have no pleasure in them;",
+     "start": 0.0,
+     "end": 8.684
+    }
+   ]
+  },
+  {
+   "seg": "n0b",
+   "v1_still": "s2-hands-at-rest.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That is how he opens it. Remember your Maker while you are still young, he says \u2014 before the hard years arrive, before you get to the age where you say there is nothing in this for me anymore. He is not being grim. He is telling you not to wait.",
+   "seg_start": 18.196,
+   "audio_start": 18.476,
+   "spoken_end": 32.927,
+   "seg_end": 33.577,
+   "audio_dur": 14.89,
+   "spoken_dur": 14.451,
+   "seg_dur": 15.381,
+   "timing": [
+    {
+     "text": "That is how he opens it.",
+     "start": 0.0,
+     "end": 1.474
+    },
+    {
+     "text": "Remember your Maker while you are still young, he says \u2014 before the hard years arrive, before you get to the age where you say there is nothing in this for me anymore.",
+     "start": 1.474,
+     "end": 11.308
+    },
+    {
+     "text": "He is not being grim.",
+     "start": 11.308,
+     "end": 12.875
+    },
+    {
+     "text": "He is telling you not to wait.",
+     "start": 12.875,
+     "end": 14.861
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-hands-at-rest.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He did not leave it there in the dark. He pointed plainly to where the breath goes.",
+   "seg_start": 33.577,
+   "audio_start": 33.857,
+   "spoken_end": 37.91,
+   "seg_end": 38.56,
+   "audio_dur": 4.441,
+   "spoken_dur": 4.053,
+   "seg_dur": 4.983,
+   "timing": [
+    {
+     "text": "He did not leave it there in the dark.",
+     "start": 0.0,
+     "end": 1.614
+    },
+    {
+     "text": "He pointed plainly to where the breath goes.",
+     "start": 1.614,
+     "end": 4.412
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "v1_still": "s3-dust-to-dust.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.",
+   "seg_start": 38.56,
+   "audio_start": 38.84,
+   "spoken_end": 43.93,
+   "seg_end": 45.53,
+   "audio_dur": 5.512,
+   "spoken_dur": 5.089,
+   "seg_dur": 6.969,
+   "timing": [
+    {
+     "text": "Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.",
+     "start": 0.0,
+     "end": 5.48
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-the-spirit-rises.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The body, made from dust, goes back to the ground. But the part of you that is from God goes home to Him.",
+   "seg_start": 45.53,
+   "audio_start": 45.81,
+   "spoken_end": 51.192,
+   "seg_end": 51.842,
+   "audio_dur": 5.799,
+   "spoken_dur": 5.382,
+   "seg_dur": 6.312,
+   "timing": [
+    {
+     "text": "The body, made from dust, goes back to the ground.",
+     "start": 0.0,
+     "end": 2.345
+    },
+    {
+     "text": "But the part of you that is from God goes home to Him.",
+     "start": 2.345,
+     "end": 5.759
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s5-the-giver-receives.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Death is not the end of the story. It is the spirit's quiet return to the One who lent it.",
+   "seg_start": 51.842,
+   "audio_start": 52.122,
+   "spoken_end": 57.191,
+   "seg_end": 57.841,
+   "audio_dur": 5.512,
+   "spoken_dur": 5.069,
+   "seg_dur": 5.999,
+   "timing": [
+    {
+     "text": "Death is not the end of the story.",
+     "start": 0.0,
+     "end": 1.846
+    },
+    {
+     "text": "It is the spirit's quiet return to the One who lent it.",
+     "start": 1.846,
+     "end": 5.48
+    }
+   ]
+  },
+  {
+   "seg": "n4a",
+   "v1_still": "s6-peace-on-the-face.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And the Giver who receives it back is the same Giver who first breathed it into you \u2014",
+   "seg_start": 57.841,
+   "audio_start": 58.121,
+   "spoken_end": 62.332,
+   "seg_end": 62.982,
+   "audio_dur": 4.676,
+   "spoken_dur": 4.211,
+   "seg_dur": 5.141,
+   "timing": [
+    {
+     "text": "And the Giver who receives it back is the same Giver who first breathed it into you \u2014",
+     "start": 0.0,
+     "end": 4.644
+    }
+   ]
+  },
+  {
+   "seg": "n4b",
+   "v1_still": "s7-rest-not-terror.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "\u2014 with mercy, not anger.",
+   "seg_start": 62.982,
+   "audio_start": 63.262,
+   "spoken_end": 64.728,
+   "seg_end": 65.378,
+   "audio_dur": 1.855,
+   "spoken_dur": 1.465,
+   "seg_dur": 2.395,
+   "timing": [
+    {
+     "text": "\u2014 with mercy, not anger.",
+     "start": 0.0,
+     "end": 1.811
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "You were given breath by God. He is ready to receive it \u2014 and ready to give you more.",
+  "seg_start": 65.378,
+  "audio_start": 65.658,
+  "seg_dur": 6.822
+ },
+ "total": 72.199
+}

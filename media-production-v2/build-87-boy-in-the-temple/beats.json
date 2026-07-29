@@ -1,0 +1,332 @@
+{
+ "row": 87,
+ "slug": "build-87-boy-in-the-temple",
+ "v1_dir": "media-production/build-87-boy-in-the-temple",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0a",
+   "v1_still": "s1-the-caravan-leaves.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Every year Jesus's family went to Jerusalem for the Passover. When he was twelve, they made the trip as usual.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 6.522,
+   "seg_end": 7.242,
+   "audio_dur": 6.635,
+   "spoken_dur": 6.242,
+   "seg_dur": 7.242,
+   "timing": [
+    {
+     "text": "Every year Jesus's family went to Jerusalem for the Passover.",
+     "start": 0.0,
+     "end": 3.715
+    },
+    {
+     "text": "When he was twelve, they made the trip as usual.",
+     "start": 3.715,
+     "end": 6.594
+    }
+   ]
+  },
+  {
+   "seg": "n0b",
+   "v1_still": "s2-he-is-not-with-us.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "On the way home, they realized he wasn't with them.",
+   "seg_start": 7.242,
+   "audio_start": 7.522,
+   "spoken_end": 9.727,
+   "seg_end": 10.447,
+   "audio_dur": 2.586,
+   "spoken_dur": 2.205,
+   "seg_dur": 3.205,
+   "timing": [
+    {
+     "text": "On the way home, they realized he wasn't with them.",
+     "start": 0.0,
+     "end": 2.554
+    }
+   ]
+  },
+  {
+   "seg": "n1a",
+   "v1_still": "s3-three-days-searching.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "They turned back, searching for three days.",
+   "seg_start": 10.447,
+   "audio_start": 10.727,
+   "spoken_end": 12.934,
+   "seg_end": 13.654,
+   "audio_dur": 2.638,
+   "spoken_dur": 2.207,
+   "seg_dur": 3.207,
+   "timing": [
+    {
+     "text": "They turned back, searching for three days.",
+     "start": 0.0,
+     "end": 2.601
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s4-among-the-teachers.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And they found him in the temple, sitting among the teachers, listening,",
+   "seg_start": 13.654,
+   "audio_start": 13.934,
+   "spoken_end": 18.152,
+   "seg_end": 18.872,
+   "audio_dur": 4.598,
+   "spoken_dur": 4.218,
+   "seg_dur": 5.218,
+   "timing": [
+    {
+     "text": "And they found him in the temple, sitting among the teachers, listening,",
+     "start": 0.0,
+     "end": 4.551
+    }
+   ]
+  },
+  {
+   "seg": "n1c",
+   "v1_still": "s5-the-question-that-silenced.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "and asking questions that amazed everyone.",
+   "seg_start": 18.872,
+   "audio_start": 19.152,
+   "spoken_end": 21.105,
+   "seg_end": 21.825,
+   "audio_dur": 2.351,
+   "spoken_dur": 1.953,
+   "seg_dur": 2.953,
+   "timing": [
+    {
+     "text": "and asking questions that amazed everyone.",
+     "start": 0.0,
+     "end": 2.322
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s6-found.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "His mother was the one who spoke. Relieved, and frightened, and hurt, Mary said this:",
+   "seg_start": 21.825,
+   "audio_start": 22.105,
+   "spoken_end": 26.925,
+   "seg_end": 27.645,
+   "audio_dur": 5.198,
+   "spoken_dur": 4.82,
+   "seg_dur": 5.82,
+   "timing": [
+    {
+     "text": "His mother was the one who spoke.",
+     "start": 0.0,
+     "end": 1.625
+    },
+    {
+     "text": "Relieved, and frightened, and hurt, Mary said this:",
+     "start": 2.101,
+     "end": 5.155
+    }
+   ]
+  },
+  {
+   "seg": "w48",
+   "v1_still": "s6-found.jpeg",
+   "zoom": "out",
+   "speaker": "woman",
+   "text": "Son, why hast thou thus dealt with us? behold, thy father and I have sought thee sorrowing.",
+   "seg_start": 27.645,
+   "audio_start": 27.925,
+   "spoken_end": 34.379,
+   "seg_end": 35.979,
+   "audio_dur": 6.818,
+   "spoken_dur": 6.453,
+   "seg_dur": 8.333,
+   "timing": [
+    {
+     "text": "Son, why hast thou thus dealt with us?",
+     "start": 0.0,
+     "end": 2.879
+    },
+    {
+     "text": "behold, thy father and I have sought thee sorrowing.",
+     "start": 2.879,
+     "end": 6.78
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s6-found.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "she said. Your father and I have been looking for you, sick with worry. Listen to the word Luke gives her \u2014 sorrowing. Not annoyed. Grieving. Three days of a mother assuming the worst. And he answered her with a question of his own.",
+   "seg_start": 35.979,
+   "audio_start": 36.259,
+   "spoken_end": 52.124,
+   "seg_end": 52.844,
+   "audio_dur": 16.248,
+   "spoken_dur": 15.865,
+   "seg_dur": 16.865,
+   "timing": [
+    {
+     "text": "she said.",
+     "start": 0.0,
+     "end": 0.743
+    },
+    {
+     "text": "Your father and I have been looking for you, sick with worry.",
+     "start": 0.743,
+     "end": 4.505
+    },
+    {
+     "text": "Listen to the word Luke gives her \u2014 sorrowing.",
+     "start": 4.505,
+     "end": 8.313
+    },
+    {
+     "text": "Not annoyed.",
+     "start": 8.313,
+     "end": 9.3
+    },
+    {
+     "text": "Grieving.",
+     "start": 9.3,
+     "end": 10.379
+    },
+    {
+     "text": "Three days of a mother assuming the worst.",
+     "start": 10.379,
+     "end": 12.968
+    },
+    {
+     "text": "And he answered her with a question of his own.",
+     "start": 12.968,
+     "end": 16.208
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s7-my-fathers-business.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "How is it that ye sought me? wist ye not that I must be about my Father's business?",
+   "seg_start": 52.844,
+   "audio_start": 53.124,
+   "spoken_end": 58.477,
+   "seg_end": 60.077,
+   "audio_dur": 5.695,
+   "spoken_dur": 5.353,
+   "seg_dur": 7.233,
+   "timing": [
+    {
+     "text": "How is it that ye sought me?",
+     "start": 0.0,
+     "end": 1.521
+    },
+    {
+     "text": "wist ye not that I must be about my Father's business?",
+     "start": 1.521,
+     "end": 5.666
+    }
+   ]
+  },
+  {
+   "seg": "n2c",
+   "v1_still": "s7-my-fathers-business.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Why were you out looking for me? he said. Didn't you know I had to be in my Father's house, about my Father's work? He was twelve years old. He was not being smart with his mother. He genuinely could not imagine where else they thought he would be.",
+   "seg_start": 60.077,
+   "audio_start": 60.357,
+   "spoken_end": 75.231,
+   "seg_end": 75.951,
+   "audio_dur": 15.229,
+   "spoken_dur": 14.874,
+   "seg_dur": 15.874,
+   "timing": [
+    {
+     "text": "Why were you out looking for me?",
+     "start": 0.0,
+     "end": 1.683
+    },
+    {
+     "text": "he said.",
+     "start": 1.683,
+     "end": 2.322
+    },
+    {
+     "text": "Didn't you know I had to be in my Father's house, about my Father's work?",
+     "start": 2.322,
+     "end": 6.838
+    },
+    {
+     "text": "He was twelve years old.",
+     "start": 6.838,
+     "end": 8.882
+    },
+    {
+     "text": "He was not being smart with his mother.",
+     "start": 8.882,
+     "end": 11.134
+    },
+    {
+     "text": "He genuinely could not imagine where else they thought he would be.",
+     "start": 11.134,
+     "end": 15.186
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s8-walking-home.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "They didn't fully understand. But he went home with them and obeyed them \u2014 and he kept growing in wisdom, in stature, and in favor with God and people.",
+   "seg_start": 75.951,
+   "audio_start": 76.231,
+   "spoken_end": 85.235,
+   "seg_end": 85.955,
+   "audio_dur": 9.43,
+   "spoken_dur": 9.004,
+   "seg_dur": 10.004,
+   "timing": [
+    {
+     "text": "They didn't fully understand.",
+     "start": 0.0,
+     "end": 1.3
+    },
+    {
+     "text": "But he went home with them and obeyed them \u2014 and he kept growing in wisdom, in stature, and in favor with God and people.",
+     "start": 1.3,
+     "end": 9.381
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "Even as a boy he knew where he belonged. You were made for the Father's house too \u2014 come find your place.",
+  "seg_start": 85.955,
+  "audio_start": 86.235,
+  "seg_dur": 8.467
+ },
+ "total": 94.422
+}

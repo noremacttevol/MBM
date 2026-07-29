@@ -1,0 +1,198 @@
+{
+ "row": 136,
+ "slug": "build-136-healed-in-two-touches",
+ "v1_dir": "media-production/build-136-healed-in-two-touches",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-brought-to-him.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 4.925,
+   "seg_end": 5.645,
+   "audio_dur": 5.042,
+   "spoken_dur": 4.645,
+   "seg_dur": 5.645,
+   "timing": [
+    {
+     "text": "Friends brought a blind man to Jesus in Bethsaida and begged Him just to touch him.",
+     "start": 0.0,
+     "end": 5.016
+    }
+   ]
+  },
+  {
+   "seg": "n1a",
+   "v1_still": "s2-taken-by-the-hand.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 5.645,
+   "audio_start": 5.925,
+   "spoken_end": 8.852,
+   "seg_end": 9.572,
+   "audio_dur": 3.291,
+   "spoken_dur": 2.927,
+   "seg_dur": 3.927,
+   "timing": [
+    {
+     "text": "Jesus took the man by the hand and walked him outside the village.",
+     "start": 0.0,
+     "end": 3.251
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s3-the-first-touch.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 9.572,
+   "audio_start": 9.852,
+   "spoken_end": 14.629,
+   "seg_end": 15.349,
+   "audio_dur": 5.251,
+   "spoken_dur": 4.777,
+   "seg_dur": 5.777,
+   "timing": [
+    {
+     "text": "He spit on the man's eyes and laid His hands on him, then asked if he could see anything yet.",
+     "start": 0.0,
+     "end": 5.201
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-men-as-trees-walking.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 15.349,
+   "audio_start": 15.629,
+   "spoken_end": 28.085,
+   "seg_end": 28.805,
+   "audio_dur": 12.8,
+   "spoken_dur": 12.456,
+   "seg_dur": 13.456,
+   "timing": [
+    {
+     "text": "The man looked up and said the strangest thing \u2014 he could see, but only halfway.",
+     "start": 0.0,
+     "end": 4.505
+    },
+    {
+     "text": "People looked like trees walking around.",
+     "start": 4.505,
+     "end": 7.129
+    },
+    {
+     "text": "His first glimpse was real, but unfinished.",
+     "start": 7.129,
+     "end": 9.822
+    },
+    {
+     "text": "Jesus did not scold him for saying so.",
+     "start": 9.822,
+     "end": 12.771
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s5-the-second-touch.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 28.805,
+   "audio_start": 29.085,
+   "spoken_end": 33.45,
+   "seg_end": 34.17,
+   "audio_dur": 4.78,
+   "spoken_dur": 4.366,
+   "seg_dur": 5.366,
+   "timing": [
+    {
+     "text": "So Jesus put His hands on the man's eyes a second time and told him to look up again.",
+     "start": 0.0,
+     "end": 4.737
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s6-every-face-every-leaf.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 34.17,
+   "audio_start": 34.45,
+   "spoken_end": 50.742,
+   "seg_end": 51.462,
+   "audio_dur": 16.744,
+   "spoken_dur": 16.292,
+   "seg_dur": 17.292,
+   "timing": [
+    {
+     "text": "And this time he saw everything clearly \u2014 every face, every leaf.",
+     "start": 0.0,
+     "end": 4.772
+    },
+    {
+     "text": "The second touch finished what the first had started.",
+     "start": 4.772,
+     "end": 8.092
+    },
+    {
+     "text": "The story never explains why healing came in stages.",
+     "start": 8.092,
+     "end": 11.912
+    },
+    {
+     "text": "It simply shows that an unfinished beginning was not the end.",
+     "start": 11.912,
+     "end": 16.718
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s7-seeing-the-world.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "-22%",
+   "seg_start": 51.462,
+   "audio_start": 51.742,
+   "spoken_end": 54.692,
+   "seg_end": 56.292,
+   "audio_dur": 3.344,
+   "spoken_dur": 2.95,
+   "seg_dur": 4.83,
+   "timing": [
+    {
+     "text": "Neither go into the town, nor tell it to any in the town.",
+     "start": 0.0,
+     "end": 3.297
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "-22%",
+  "seg_start": 56.292,
+  "audio_start": 56.572,
+  "seg_dur": 9.251
+ },
+ "total": 65.543
+}

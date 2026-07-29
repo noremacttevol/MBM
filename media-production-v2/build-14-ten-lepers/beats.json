@@ -1,0 +1,585 @@
+{
+ "row": 14,
+ "slug": "build-14-ten-lepers",
+ "v1_dir": "media-production/build-14-ten-lepers",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "On the way to Jerusalem, Jesus walked the borderland between Samaria and Galilee \u2014 the seam between two peoples who despised each other. Keep that seam in mind. It matters at the end of this story.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 11.49,
+   "seg_end": 12.14,
+   "audio_dur": 11.598,
+   "spoken_dur": 11.21,
+   "seg_dur": 12.14,
+   "timing": [
+    {
+     "text": "On the way to Jerusalem, Jesus walked the borderland between Samaria and Galilee \u2014 the seam between two peoples who despised each other.",
+     "start": 0.0,
+     "end": 7.5
+    },
+    {
+     "text": "Keep that seam in mind.",
+     "start": 7.5,
+     "end": 9.358
+    },
+    {
+     "text": "It matters at the end of this story.",
+     "start": 9.358,
+     "end": 11.564
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "As he reached a village, ten men met him \u2014 but they stopped far off, strung along a rise, and came no closer. They were lepers. The Law of Moses required them to live outside the town and to warn everyone away. That gap of empty ground between them and the road was not shyness. It was the law. These were ten men no one had touched in years.",
+   "seg_start": 12.14,
+   "audio_start": 12.42,
+   "spoken_end": 34.236,
+   "seg_end": 34.886,
+   "audio_dur": 22.178,
+   "spoken_dur": 21.816,
+   "seg_dur": 22.746,
+   "timing": [
+    {
+     "text": "As he reached a village, ten men met him \u2014 but they stopped far off, strung along a rise, and came no closer.",
+     "start": 0.0,
+     "end": 6.687
+    },
+    {
+     "text": "They were lepers.",
+     "start": 6.687,
+     "end": 8.069
+    },
+    {
+     "text": "The Law of Moses required them to live outside the town and to warn everyone away.",
+     "start": 8.069,
+     "end": 13.386
+    },
+    {
+     "text": "That gap of empty ground between them and the road was not shyness.",
+     "start": 13.386,
+     "end": 17.763
+    },
+    {
+     "text": "It was the law.",
+     "start": 17.763,
+     "end": 18.762
+    },
+    {
+     "text": "These were ten men no one had touched in years.",
+     "start": 18.762,
+     "end": 22.152
+    }
+   ]
+  },
+  {
+   "seg": "s13",
+   "v1_still": "s3.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Jesus, Master, have mercy on us.",
+   "seg_start": 34.886,
+   "audio_start": 35.166,
+   "spoken_end": 36.928,
+   "seg_end": 38.528,
+   "audio_dur": 1.907,
+   "spoken_dur": 1.762,
+   "seg_dur": 3.642,
+   "timing": [
+    {
+     "text": "Jesus, Master, have mercy on us.",
+     "start": 0.0,
+     "end": 1.858
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s3.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "So they did the only thing the distance left them. They lifted up their voices together and called across the gap:",
+   "seg_start": 38.528,
+   "audio_start": 38.808,
+   "spoken_end": 44.463,
+   "seg_end": 45.113,
+   "audio_dur": 6.113,
+   "spoken_dur": 5.655,
+   "seg_dur": 6.585,
+   "timing": [
+    {
+     "text": "So they did the only thing the distance left them.",
+     "start": 0.0,
+     "end": 2.461
+    },
+    {
+     "text": "They lifted up their voices together and called across the gap:",
+     "start": 2.902,
+     "end": 6.084
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s4.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "When he saw them, he did not close the distance. He did not touch them, and he did not announce that they were healed. He simply gave them an instruction:",
+   "seg_start": 45.113,
+   "audio_start": 45.393,
+   "spoken_end": 53.354,
+   "seg_end": 54.004,
+   "audio_dur": 8.307,
+   "spoken_dur": 7.961,
+   "seg_dur": 8.891,
+   "timing": [
+    {
+     "text": "When he saw them, he did not close the distance.",
+     "start": 0.0,
+     "end": 1.997
+    },
+    {
+     "text": "He did not touch them, and he did not announce that they were healed.",
+     "start": 1.997,
+     "end": 5.979
+    },
+    {
+     "text": "He simply gave them an instruction:",
+     "start": 6.42,
+     "end": 8.266
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s4.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Go shew yourselves unto the priests.",
+   "seg_start": 54.004,
+   "audio_start": 54.284,
+   "spoken_end": 55.867,
+   "seg_end": 57.467,
+   "audio_dur": 1.802,
+   "spoken_dur": 1.583,
+   "seg_dur": 3.463,
+   "timing": [
+    {
+     "text": "Go shew yourselves unto the priests.",
+     "start": 0.0,
+     "end": 1.765
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s5.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Now, why send them to a priest? Because in Israel the priest was the only inspector who could certify a leper clean and let him back into his family, his work, his worship. Sending them was a promise in disguise. That errand only made sense one way: if they would be clean by the time they arrived.",
+   "seg_start": 57.467,
+   "audio_start": 57.747,
+   "spoken_end": 74.824,
+   "seg_end": 75.474,
+   "audio_dur": 17.554,
+   "spoken_dur": 17.077,
+   "seg_dur": 18.007,
+   "timing": [
+    {
+     "text": "Now, why send them to a priest?",
+     "start": 0.0,
+     "end": 1.591
+    },
+    {
+     "text": "Because in Israel the priest was the only inspector who could certify a leper clean and let him back into his family, his work, his worship.",
+     "start": 1.591,
+     "end": 9.741
+    },
+    {
+     "text": "Sending them was a promise in disguise.",
+     "start": 9.741,
+     "end": 12.307
+    },
+    {
+     "text": "That errand only made sense one way: if they would be clean by the time they arrived.",
+     "start": 12.307,
+     "end": 17.508
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "But nothing had changed yet. They looked at each other, at their own still-bandaged hands, at the long road to a city they had no proof they would be welcome in. And then, one by one, they turned and started walking anyway.",
+   "seg_start": 75.474,
+   "audio_start": 75.754,
+   "spoken_end": 87.916,
+   "seg_end": 88.566,
+   "audio_dur": 12.539,
+   "spoken_dur": 12.161,
+   "seg_dur": 13.091,
+   "timing": [
+    {
+     "text": "But nothing had changed yet.",
+     "start": 0.0,
+     "end": 1.498
+    },
+    {
+     "text": "They looked at each other, at their own still-bandaged hands, at the long road to a city they had no proof they would be welcome in.",
+     "start": 1.498,
+     "end": 8.847
+    },
+    {
+     "text": "And then, one by one, they turned and started walking anyway.",
+     "start": 8.847,
+     "end": 12.492
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And as they went \u2014 on the road, mid-step, in the middle of obeying, before there was one thing to see \u2014 they were made clean.",
+   "seg_start": 88.566,
+   "audio_start": 88.846,
+   "spoken_end": 96.366,
+   "seg_end": 97.016,
+   "audio_dur": 7.889,
+   "spoken_dur": 7.521,
+   "seg_dur": 8.451,
+   "timing": [
+    {
+     "text": "And as they went \u2014 on the road, mid-step, in the middle of obeying, before there was one thing to see \u2014 they were made clean.",
+     "start": 0.0,
+     "end": 7.848
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s7.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The linen loosened and fell. New skin underneath. Nine of them ran on toward the city, toward the priests, toward their old lives handed back. But one of them, when he saw what had happened to him, stopped in the road.",
+   "seg_start": 97.016,
+   "audio_start": 97.296,
+   "spoken_end": 110.134,
+   "seg_end": 110.784,
+   "audio_dur": 13.14,
+   "spoken_dur": 12.838,
+   "seg_dur": 13.768,
+   "timing": [
+    {
+     "text": "The linen loosened and fell.",
+     "start": 0.0,
+     "end": 1.591
+    },
+    {
+     "text": "New skin underneath.",
+     "start": 1.591,
+     "end": 3.576
+    },
+    {
+     "text": "Nine of them ran on toward the city, toward the priests, toward their old lives handed back.",
+     "start": 3.576,
+     "end": 8.812
+    },
+    {
+     "text": "But one of them, when he saw what had happened to him, stopped in the road.",
+     "start": 8.812,
+     "end": 13.096
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s8.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And he turned around. He came back the way he came, running, praising God at the top of his voice \u2014 the whole road hearing it.",
+   "seg_start": 110.784,
+   "audio_start": 111.064,
+   "spoken_end": 118.798,
+   "seg_end": 119.448,
+   "audio_dur": 8.176,
+   "spoken_dur": 7.734,
+   "seg_dur": 8.664,
+   "timing": [
+    {
+     "text": "And he turned around.",
+     "start": 0.0,
+     "end": 0.987
+    },
+    {
+     "text": "He came back the way he came, running, praising God at the top of his voice \u2014 the whole road hearing it.",
+     "start": 0.987,
+     "end": 8.127
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s9.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He threw himself face-down in the dust at Jesus's feet and poured out his thanks. And Luke adds one detail that would have stunned everyone listening: he was a Samaritan. The outsider. The one the religion of the day said did not belong.",
+   "seg_start": 119.448,
+   "audio_start": 119.728,
+   "spoken_end": 134.809,
+   "seg_end": 135.459,
+   "audio_dur": 15.464,
+   "spoken_dur": 15.081,
+   "seg_dur": 16.011,
+   "timing": [
+    {
+     "text": "He threw himself face-down in the dust at Jesus's feet and poured out his thanks.",
+     "start": 0.0,
+     "end": 4.807
+    },
+    {
+     "text": "And Luke adds one detail that would have stunned everyone listening: he was a Samaritan.",
+     "start": 4.807,
+     "end": 10.461
+    },
+    {
+     "text": "The outsider.",
+     "start": 10.461,
+     "end": 11.784
+    },
+    {
+     "text": "The one the religion of the day said did not belong.",
+     "start": 11.784,
+     "end": 15.418
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s10.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus looked at the empty road where the other nine had gone, and asked:",
+   "seg_start": 135.459,
+   "audio_start": 135.739,
+   "spoken_end": 139.397,
+   "seg_end": 140.047,
+   "audio_dur": 4.075,
+   "spoken_dur": 3.658,
+   "seg_dur": 4.588,
+   "timing": [
+    {
+     "text": "Jesus looked at the empty road where the other nine had gone, and asked:",
+     "start": 0.0,
+     "end": 4.04
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s10.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Were there not ten cleansed? but where are the nine? There are not found that returned to give glory to God, save this stranger.",
+   "seg_start": 140.047,
+   "audio_start": 140.327,
+   "spoken_end": 147.326,
+   "seg_end": 148.926,
+   "audio_dur": 7.367,
+   "spoken_dur": 6.999,
+   "seg_dur": 8.879,
+   "timing": [
+    {
+     "text": "Were there not ten cleansed?",
+     "start": 0.0,
+     "end": 1.474
+    },
+    {
+     "text": "but where are the nine?",
+     "start": 1.474,
+     "end": 2.914
+    },
+    {
+     "text": "There are not found that returned to give glory to God, save this stranger.",
+     "start": 2.914,
+     "end": 7.338
+    }
+   ]
+  },
+  {
+   "seg": "n11",
+   "v1_still": "s9.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Except this stranger. This outsider. This is not wounded pride \u2014 the nine did nothing wrong. They obeyed, and they were healed, every one of them. His question is grief, not a scolding: they got the gift and kept walking, and they missed the giver. Only the one everyone counted out came back to find him.",
+   "seg_start": 148.926,
+   "audio_start": 149.206,
+   "spoken_end": 167.624,
+   "seg_end": 168.274,
+   "audio_dur": 18.834,
+   "spoken_dur": 18.418,
+   "seg_dur": 19.348,
+   "timing": [
+    {
+     "text": "Except this stranger.",
+     "start": 0.0,
+     "end": 1.149
+    },
+    {
+     "text": "This outsider.",
+     "start": 1.149,
+     "end": 2.392
+    },
+    {
+     "text": "This is not wounded pride \u2014 the nine did nothing wrong.",
+     "start": 2.392,
+     "end": 6.235
+    },
+    {
+     "text": "They obeyed, and they were healed, every one of them.",
+     "start": 6.235,
+     "end": 9.23
+    },
+    {
+     "text": "His question is grief, not a scolding: they got the gift and kept walking, and they missed the giver.",
+     "start": 9.23,
+     "end": 15.418
+    },
+    {
+     "text": "Only the one everyone counted out came back to find him.",
+     "start": 15.418,
+     "end": 18.808
+    }
+   ]
+  },
+  {
+   "seg": "n12",
+   "v1_still": "s11.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then Jesus reached down to the man still trembling at his feet, and lifted him with a word:",
+   "seg_start": 168.274,
+   "audio_start": 168.554,
+   "spoken_end": 173.073,
+   "seg_end": 173.723,
+   "audio_dur": 4.911,
+   "spoken_dur": 4.519,
+   "seg_dur": 5.449,
+   "timing": [
+    {
+     "text": "Then Jesus reached down to the man still trembling at his feet, and lifted him with a word:",
+     "start": 0.0,
+     "end": 4.876
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": "s11.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Arise, go thy way: thy faith hath made thee whole.",
+   "seg_start": 173.723,
+   "audio_start": 174.003,
+   "spoken_end": 176.288,
+   "seg_end": 177.888,
+   "audio_dur": 2.743,
+   "spoken_dur": 2.285,
+   "seg_dur": 4.165,
+   "timing": [
+    {
+     "text": "Arise, go thy way: thy faith hath made thee whole.",
+     "start": 0.0,
+     "end": 2.694
+    }
+   ]
+  },
+  {
+   "seg": "n13",
+   "v1_still": "s12.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Hear the two different words. All ten were cleansed \u2014 out on the road, before any of them said thank you. But only this one, the one who came back, was made whole. Cleansed happened to his skin. Whole happened to all of him.",
+   "seg_start": 177.888,
+   "audio_start": 178.168,
+   "spoken_end": 191.382,
+   "seg_end": 192.032,
+   "audio_dur": 13.61,
+   "spoken_dur": 13.213,
+   "seg_dur": 14.143,
+   "timing": [
+    {
+     "text": "Hear the two different words.",
+     "start": 0.0,
+     "end": 1.405
+    },
+    {
+     "text": "All ten were cleansed \u2014 out on the road, before any of them said thank you.",
+     "start": 1.405,
+     "end": 5.619
+    },
+    {
+     "text": "But only this one, the one who came back, was made whole.",
+     "start": 5.619,
+     "end": 9.451
+    },
+    {
+     "text": "Cleansed happened to his skin.",
+     "start": 9.451,
+     "end": 11.668
+    },
+    {
+     "text": "Whole happened to all of him.",
+     "start": 11.668,
+     "end": 13.56
+    }
+   ]
+  },
+  {
+   "seg": "n14",
+   "v1_still": "s12.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "And he rose and walked home a whole man, the old wrappings left behind him in the road.",
+   "seg_start": 192.032,
+   "audio_start": 192.312,
+   "spoken_end": 197.056,
+   "seg_end": 197.706,
+   "audio_dur": 5.094,
+   "spoken_dur": 4.745,
+   "seg_dur": 5.675,
+   "timing": [
+    {
+     "text": "And he rose and walked home a whole man, the old wrappings left behind him in the road.",
+     "start": 0.0,
+     "end": 5.062
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "n15",
+  "text": "The healing happened while they walked, before they could see it. Have you ever had to move forward on nothing but a word \u2014 before there was any proof?",
+  "seg_start": 197.706,
+  "audio_start": 197.986,
+  "seg_dur": 9.617
+ },
+ "total": 207.323
+}

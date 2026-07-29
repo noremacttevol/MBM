@@ -1,0 +1,157 @@
+{
+ "row": 189,
+ "slug": "build-189-to-him-that-overcometh",
+ "v1_dir": "media-production/build-189-to-him-that-overcometh",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-the-door-at-night.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "To a church that had grown comfortable and half-asleep, Jesus sent a knock at the door \u2014 not a storm, just a knock.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 7.053,
+   "seg_end": 7.703,
+   "audio_dur": 7.184,
+   "spoken_dur": 6.773,
+   "seg_dur": 7.703,
+   "timing": [
+    {
+     "text": "To a church that had grown comfortable and half-asleep, Jesus sent a knock at the door \u2014 not a storm, just a knock.",
+     "start": 0.0,
+     "end": 7.152
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s2-the-knock.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him, and will sup with him, and he with me.",
+   "seg_start": 7.703,
+   "audio_start": 7.983,
+   "spoken_end": 17.871,
+   "seg_end": 19.471,
+   "audio_dur": 10.292,
+   "spoken_dur": 9.888,
+   "seg_dur": 11.768,
+   "timing": [
+    {
+     "text": "Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him, and will sup with him, and he with me.",
+     "start": 0.0,
+     "end": 10.263
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s3-recognition.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He does not break the door. He waits to be invited in.",
+   "seg_start": 19.471,
+   "audio_start": 19.751,
+   "spoken_end": 22.656,
+   "seg_end": 23.306,
+   "audio_dur": 3.291,
+   "spoken_dur": 2.905,
+   "seg_dur": 3.835,
+   "timing": [
+    {
+     "text": "He does not break the door.",
+     "start": 0.0,
+     "end": 1.382
+    },
+    {
+     "text": "He waits to be invited in.",
+     "start": 1.382,
+     "end": 3.251
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-the-open-door.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And to the one who opens, who keeps opening, he promises a seat no empire can give.",
+   "seg_start": 23.306,
+   "audio_start": 23.586,
+   "spoken_end": 28.467,
+   "seg_end": 29.117,
+   "audio_dur": 5.329,
+   "spoken_dur": 4.881,
+   "seg_dur": 5.811,
+   "timing": [
+    {
+     "text": "And to the one who opens, who keeps opening, he promises a seat no empire can give.",
+     "start": 0.0,
+     "end": 5.294
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s6-the-shared-seat.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "To him that overcometh will I grant to sit with me in my throne, even as I also overcame, and am set down with my Father in his throne.",
+   "seg_start": 29.117,
+   "audio_start": 29.397,
+   "spoken_end": 38.352,
+   "seg_end": 39.952,
+   "audio_dur": 9.326,
+   "spoken_dur": 8.956,
+   "seg_dur": 10.836,
+   "timing": [
+    {
+     "text": "To him that overcometh will I grant to sit with me in my throne, even as I also overcame, and am set down with my Father in his throne.",
+     "start": 0.0,
+     "end": 9.288
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s7-hand-near-the-latch.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The one who overcomes doesn't earn a throne by being flawless. He shares the one Christ already won.",
+   "seg_start": 39.952,
+   "audio_start": 40.232,
+   "spoken_end": 45.591,
+   "seg_end": 46.241,
+   "audio_dur": 5.747,
+   "spoken_dur": 5.359,
+   "seg_dur": 6.289,
+   "timing": [
+    {
+     "text": "The one who overcomes doesn't earn a throne by being flawless.",
+     "start": 0.0,
+     "end": 3.088
+    },
+    {
+     "text": "He shares the one Christ already won.",
+     "start": 3.088,
+     "end": 5.712
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He is knocking right now. Open, and you will eat with him \u2014 and reign with him.",
+  "seg_start": 46.241,
+  "audio_start": 46.521,
+  "seg_dur": 7.292
+ },
+ "total": 53.533
+}

@@ -1,0 +1,384 @@
+{
+ "row": 102,
+ "slug": "build-102-jacobs-ladder",
+ "v1_dir": "media-production/build-102-jacobs-ladder",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-the-lonely-road.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jacob was running. He had lied to his blind father and cheated his own brother, and now he was fleeing for his life, alone, with everything he knew behind him.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 9.435,
+   "seg_end": 10.085,
+   "audio_dur": 9.509,
+   "spoken_dur": 9.155,
+   "seg_dur": 10.085,
+   "timing": [
+    {
+     "text": "Jacob was running.",
+     "start": 0.0,
+     "end": 0.894
+    },
+    {
+     "text": "He had lied to his blind father and cheated his own brother, and now he was fleeing for his life, alone, with everything he knew behind him.",
+     "start": 0.894,
+     "end": 9.474
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-a-stone-for-a-pillow.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "When the sun went down he was in the middle of nowhere. No home, no bed, no welcome. He took a stone, put it under his head for a pillow, and lay down in the dark to sleep.",
+   "seg_start": 10.085,
+   "audio_start": 10.365,
+   "spoken_end": 20.865,
+   "seg_end": 21.515,
+   "audio_dur": 10.945,
+   "spoken_dur": 10.5,
+   "seg_dur": 11.43,
+   "timing": [
+    {
+     "text": "When the sun went down he was in the middle of nowhere.",
+     "start": 0.0,
+     "end": 2.31
+    },
+    {
+     "text": "No home, no bed, no welcome.",
+     "start": 2.31,
+     "end": 5.236
+    },
+    {
+     "text": "He took a stone, put it under his head for a pillow, and lay down in the dark to sleep.",
+     "start": 5.236,
+     "end": 10.913
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-the-ladder-set-up.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And there, in the last place he would have expected it, God came to him in a dream. He saw a great stairway rising from the very ground where he lay, all the way up into an opening in heaven.",
+   "seg_start": 21.515,
+   "audio_start": 21.795,
+   "spoken_end": 32.455,
+   "seg_end": 33.105,
+   "audio_dur": 11.05,
+   "spoken_dur": 10.66,
+   "seg_dur": 11.59,
+   "timing": [
+    {
+     "text": "And there, in the last place he would have expected it, God came to him in a dream.",
+     "start": 0.0,
+     "end": 4.644
+    },
+    {
+     "text": "He saw a great stairway rising from the very ground where he lay, all the way up into an opening in heaven.",
+     "start": 4.644,
+     "end": 11.006
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-angels-ascending.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And on it the angels of God were going up and coming down, moving between heaven and this lonely patch of dirt where a runaway lay sleeping. Heaven was not far off. It was open, right above him.",
+   "seg_start": 33.105,
+   "audio_start": 33.385,
+   "spoken_end": 44.602,
+   "seg_end": 45.252,
+   "audio_dur": 11.598,
+   "spoken_dur": 11.217,
+   "seg_dur": 12.147,
+   "timing": [
+    {
+     "text": "And on it the angels of God were going up and coming down, moving between heaven and this lonely patch of dirt where a runaway lay sleeping.",
+     "start": 0.0,
+     "end": 7.697
+    },
+    {
+     "text": "Heaven was not far off.",
+     "start": 7.697,
+     "end": 9.59
+    },
+    {
+     "text": "It was open, right above him.",
+     "start": 9.59,
+     "end": 11.564
+    }
+   ]
+  },
+  {
+   "seg": "jv13",
+   "v1_still": "s5-the-voice-from-the-light.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "I am the LORD God of Abraham thy father, and the God of Isaac: the land whereon thou liest, to thee will I give it, and to thy seed.",
+   "seg_start": 45.252,
+   "audio_start": 45.532,
+   "spoken_end": 57.299,
+   "seg_end": 58.899,
+   "audio_dur": 12.147,
+   "spoken_dur": 11.767,
+   "seg_dur": 13.647,
+   "timing": [
+    {
+     "text": "I am the LORD God of Abraham thy father, and the God of Isaac: the land whereon thou liest, to thee will I give it, and to thy seed.",
+     "start": 0.0,
+     "end": 12.121
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-the-voice-from-the-light.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "God did not scold him for what he had done. He stood above the stairway and made him a promise \u2014 the same promise he had made to his grandfather Abraham. This wanderer with nothing would become a family as many as the dust of the earth.",
+   "seg_start": 58.899,
+   "audio_start": 59.179,
+   "spoken_end": 71.729,
+   "seg_end": 72.379,
+   "audio_dur": 13.035,
+   "spoken_dur": 12.55,
+   "seg_dur": 13.48,
+   "timing": [
+    {
+     "text": "God did not scold him for what he had done.",
+     "start": 0.0,
+     "end": 2.09
+    },
+    {
+     "text": "He stood above the stairway and made him a promise \u2014 the same promise he had made to his grandfather Abraham.",
+     "start": 2.09,
+     "end": 8.162
+    },
+    {
+     "text": "This wanderer with nothing would become a family as many as the dust of the earth.",
+     "start": 8.162,
+     "end": 13.003
+    }
+   ]
+  },
+  {
+   "seg": "jv15",
+   "v1_still": "s6-the-light-over-the-sleeper.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "And, behold, I am with thee, and will keep thee in all places whither thou goest, and will bring thee again into this land; for I will not leave thee, until I have done that which I have spoken to thee of.",
+   "seg_start": 72.379,
+   "audio_start": 72.659,
+   "spoken_end": 88.355,
+   "seg_end": 89.955,
+   "audio_dur": 16.144,
+   "spoken_dur": 15.696,
+   "seg_dur": 17.576,
+   "timing": [
+    {
+     "text": "And, behold, I am with thee, and will keep thee in all places whither thou goest, and will bring thee again into this land; for I will not leave thee, until I have done that which I have spoken to thee of.",
+     "start": 0.0,
+     "end": 16.115
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6-the-light-over-the-sleeper.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "I am with thee. I will keep thee. I will not leave thee. To a man who had just thrown his whole life away and run, God promised to go with him, everywhere, and never let go. He had done nothing to earn it.",
+   "seg_start": 89.955,
+   "audio_start": 90.235,
+   "spoken_end": 103.374,
+   "seg_end": 104.024,
+   "audio_dur": 13.505,
+   "spoken_dur": 13.139,
+   "seg_dur": 14.069,
+   "timing": [
+    {
+     "text": "I am with thee.",
+     "start": 0.0,
+     "end": 0.824
+    },
+    {
+     "text": "I will keep thee.",
+     "start": 0.824,
+     "end": 1.892
+    },
+    {
+     "text": "I will not leave thee.",
+     "start": 1.892,
+     "end": 3.402
+    },
+    {
+     "text": "To a man who had just thrown his whole life away and run, God promised to go with him, everywhere, and never let go.",
+     "start": 3.402,
+     "end": 11.157
+    },
+    {
+     "text": "He had done nothing to earn it.",
+     "start": 11.157,
+     "end": 13.468
+    }
+   ]
+  },
+  {
+   "seg": "s16",
+   "v1_still": "s7-surely-the-lord-is-here.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Surely the LORD is in this place; and I knew it not. How dreadful is this place! this is none other but the house of God, and this is the gate of heaven.",
+   "seg_start": 104.024,
+   "audio_start": 104.304,
+   "spoken_end": 113.562,
+   "seg_end": 115.162,
+   "audio_dur": 9.613,
+   "spoken_dur": 9.258,
+   "seg_dur": 11.138,
+   "timing": [
+    {
+     "text": "Surely the LORD is in this place; and I knew it not.",
+     "start": 0.0,
+     "end": 2.937
+    },
+    {
+     "text": "How dreadful is this place!",
+     "start": 2.937,
+     "end": 5.294
+    },
+    {
+     "text": "this is none other but the house of God, and this is the gate of heaven.",
+     "start": 5.294,
+     "end": 9.567
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s7-surely-the-lord-is-here.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Jacob woke with a start, shaken to his core. This is nothing less than the house of God. This is the gate of heaven \u2014 and I nearly slept through it.",
+   "seg_start": 115.162,
+   "audio_start": 115.442,
+   "spoken_end": 124.238,
+   "seg_end": 124.888,
+   "audio_dur": 9.221,
+   "spoken_dur": 8.796,
+   "seg_dur": 9.726,
+   "timing": [
+    {
+     "text": "Jacob woke with a start, shaken to his core.",
+     "start": 0.0,
+     "end": 2.635
+    },
+    {
+     "text": "This is nothing less than the house of God.",
+     "start": 2.635,
+     "end": 5.294
+    },
+    {
+     "text": "This is the gate of heaven \u2014 and I nearly slept through it.",
+     "start": 5.294,
+     "end": 9.195
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s8-the-pillar-set-up.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So he took the stone that had been his pillow and stood it up on end as a pillar, a marker of the place where heaven had opened over him.",
+   "seg_start": 124.888,
+   "audio_start": 125.168,
+   "spoken_end": 132.236,
+   "seg_end": 132.886,
+   "audio_dur": 7.367,
+   "spoken_dur": 7.068,
+   "seg_dur": 7.998,
+   "timing": [
+    {
+     "text": "So he took the stone that had been his pillow and stood it up on end as a pillar, a marker of the place where heaven had opened over him.",
+     "start": 0.0,
+     "end": 7.338
+    }
+   ]
+  },
+  {
+   "seg": "n8b",
+   "v1_still": "s9-oil-on-the-pillar.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And he poured oil over the top of it to set it apart as holy, and he called that place Bethel \u2014 the house of God.",
+   "seg_start": 132.886,
+   "audio_start": 133.166,
+   "spoken_end": 140.201,
+   "seg_end": 140.851,
+   "audio_dur": 7.419,
+   "spoken_dur": 7.035,
+   "seg_dur": 7.965,
+   "timing": [
+    {
+     "text": "And he poured oil over the top of it to set it apart as holy, and he called that place Bethel \u2014 the house of God.",
+     "start": 0.0,
+     "end": 7.384
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s10-on-his-way.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then he went on his way \u2014 the same road, the same troubles waiting ahead, but a different man. Not because he had fixed himself, but because he finally knew he was not walking alone. That is how God still meets people: not at their best, but wherever they happen to lie down in the dark.",
+   "seg_start": 140.851,
+   "audio_start": 141.131,
+   "spoken_end": 159.525,
+   "seg_end": 160.175,
+   "audio_dur": 18.834,
+   "spoken_dur": 18.393,
+   "seg_dur": 19.323,
+   "timing": [
+    {
+     "text": "Then he went on his way \u2014 the same road, the same troubles waiting ahead, but a different man.",
+     "start": 0.0,
+     "end": 6.269
+    },
+    {
+     "text": "Not because he had fixed himself, but because he finally knew he was not walking alone.",
+     "start": 6.269,
+     "end": 12.028
+    },
+    {
+     "text": "That is how God still meets people: not at their best, but wherever they happen to lie down in the dark.",
+     "start": 12.028,
+     "end": 18.808
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "God met a runaway with a rock for a pillow, and promised to go with him and never leave. If heaven is that near even to the one who ran, what might God be wanting to say to you, right where you are?",
+  "seg_start": 160.175,
+  "audio_start": 160.455,
+  "seg_dur": 13.065
+ },
+ "total": 173.24
+}

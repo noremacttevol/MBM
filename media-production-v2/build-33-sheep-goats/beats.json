@@ -1,0 +1,399 @@
+{
+ "row": 33,
+ "slug": "build-33-sheep-goats",
+ "v1_dir": "media-production/build-33-sheep-goats",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.15,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-separate.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Near the end, Jesus told his friends what the last day would really be like. He said the King would gather all the nations in front of him and separate them into two groups.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 9.695,
+   "seg_end": 10.415,
+   "audio_dur": 9.691,
+   "spoken_dur": 9.415,
+   "seg_dur": 10.415,
+   "timing": [
+    {
+     "text": "Near the end, Jesus told his friends what the last day would really be like.",
+     "start": 0.0,
+     "end": 3.843
+    },
+    {
+     "text": "He said the King would gather all the nations in front of him and separate them into two groups.",
+     "start": 3.843,
+     "end": 9.659
+    }
+   ]
+  },
+  {
+   "seg": "j32",
+   "v1_still": "s1-separate.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "And before him shall be gathered all nations: and he shall separate them one from another, as a shepherd divideth his sheep from the goats:",
+   "seg_start": 10.415,
+   "audio_start": 10.695,
+   "spoken_end": 20.325,
+   "seg_end": 21.475,
+   "audio_dur": 9.796,
+   "spoken_dur": 9.63,
+   "seg_dur": 11.06,
+   "timing": [
+    {
+     "text": "And before him shall be gathered all nations: and he shall separate them one from another, as a shepherd divideth his sheep from the goats:",
+     "start": 0.0,
+     "end": 9.752
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s1-separate.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Like a shepherd at evening quietly dividing his flock, the sheep to one side and the goats to the other. And what decided which side you were on was not at all what people expect.",
+   "seg_start": 21.475,
+   "audio_start": 21.755,
+   "spoken_end": 32.288,
+   "seg_end": 33.008,
+   "audio_dur": 10.893,
+   "spoken_dur": 10.533,
+   "seg_dur": 11.533,
+   "timing": [
+    {
+     "text": "Like a shepherd at evening quietly dividing his flock, the sheep to one side and the goats to the other.",
+     "start": 0.0,
+     "end": 6.002
+    },
+    {
+     "text": "And what decided which side you were on was not at all what people expect.",
+     "start": 6.002,
+     "end": 10.867
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s2-hungry-fed.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "To the first group, the ones he welcomed in, the King said this.",
+   "seg_start": 33.008,
+   "audio_start": 33.288,
+   "spoken_end": 36.869,
+   "seg_end": 37.589,
+   "audio_dur": 3.944,
+   "spoken_dur": 3.581,
+   "seg_dur": 4.581,
+   "timing": [
+    {
+     "text": "To the first group, the ones he welcomed in, the King said this.",
+     "start": 0.0,
+     "end": 3.901
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s2-hungry-fed.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Come, ye blessed of my Father, inherit the kingdom prepared for you from the foundation of the world: For I was an hungred, and ye gave me meat: I was thirsty, and ye gave me drink: I was a stranger, and ye took me in: Naked, and ye clothed me: I was sick, and ye visited me: I was in prison, and ye came unto me.",
+   "seg_start": 37.589,
+   "audio_start": 37.869,
+   "spoken_end": 62.427,
+   "seg_end": 63.577,
+   "audio_dur": 25.025,
+   "spoken_dur": 24.558,
+   "seg_dur": 25.988,
+   "timing": [
+    {
+     "text": "Come, ye blessed of my Father, inherit the kingdom prepared for you from the foundation of the world: For I was an hungred, and ye gave me meat: I was thirsty, and ye gave me drink: I was a stranger, and ye took me in: Naked, and ye clothed me: I was sick, and ye visited me: I was in prison, and ye came unto me.",
+     "start": 0.0,
+     "end": 24.984
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s3-stranger-drink.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "You fed me when I was hungry, he said. You clothed me, you sat with me when I was sick, you came to me when I was locked away.",
+   "seg_start": 63.577,
+   "audio_start": 63.857,
+   "spoken_end": 71.701,
+   "seg_end": 72.421,
+   "audio_dur": 8.255,
+   "spoken_dur": 7.844,
+   "seg_dur": 8.844,
+   "timing": [
+    {
+     "text": "You fed me when I was hungry, he said.",
+     "start": 0.0,
+     "end": 2.334
+    },
+    {
+     "text": "You clothed me, you sat with me when I was sick, you came to me when I was locked away.",
+     "start": 2.334,
+     "end": 8.22
+    }
+   ]
+  },
+  {
+   "seg": "j37",
+   "v1_still": "s4-clothed-sick.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Lord, when saw we thee an hungred, and fed thee? or thirsty, and gave thee drink? When saw we thee a stranger, and took thee in? or naked, and clothed thee? Or when saw we thee sick, or in prison, and came unto thee?",
+   "seg_start": 72.421,
+   "audio_start": 72.701,
+   "spoken_end": 89.189,
+   "seg_end": 90.339,
+   "audio_dur": 16.901,
+   "spoken_dur": 16.489,
+   "seg_dur": 17.919,
+   "timing": [
+    {
+     "text": "Lord, when saw we thee an hungred, and fed thee?",
+     "start": 0.0,
+     "end": 3.808
+    },
+    {
+     "text": "or thirsty, and gave thee drink?",
+     "start": 3.808,
+     "end": 6.374
+    },
+    {
+     "text": "When saw we thee a stranger, and took thee in?",
+     "start": 6.374,
+     "end": 10.147
+    },
+    {
+     "text": "or naked, and clothed thee?",
+     "start": 10.147,
+     "end": 12.423
+    },
+    {
+     "text": "Or when saw we thee sick, or in prison, and came unto thee?",
+     "start": 12.423,
+     "end": 16.858
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s4-clothed-sick.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "And here is the beautiful part. The good people are confused. They say, Lord, when did we ever see you hungry, or thirsty, or sick, or in prison? They do not even remember doing anything special. They just helped whoever was in front of them.",
+   "seg_start": 90.339,
+   "audio_start": 90.619,
+   "spoken_end": 104.653,
+   "seg_end": 105.373,
+   "audio_dur": 14.393,
+   "spoken_dur": 14.034,
+   "seg_dur": 15.034,
+   "timing": [
+    {
+     "text": "And here is the beautiful part.",
+     "start": 0.0,
+     "end": 1.324
+    },
+    {
+     "text": "The good people are confused.",
+     "start": 1.324,
+     "end": 3.39
+    },
+    {
+     "text": "They say, Lord, when did we ever see you hungry, or thirsty, or sick, or in prison?",
+     "start": 3.39,
+     "end": 8.661
+    },
+    {
+     "text": "They do not even remember doing anything special.",
+     "start": 8.661,
+     "end": 11.714
+    },
+    {
+     "text": "They just helped whoever was in front of them.",
+     "start": 11.714,
+     "end": 14.35
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s5-prison-visit.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "They were not keeping score. They were not trying to earn anything. Kindness was simply their reflex. And then the King tells them the secret behind all of it.",
+   "seg_start": 105.373,
+   "audio_start": 105.653,
+   "spoken_end": 115.58,
+   "seg_end": 116.3,
+   "audio_dur": 10.397,
+   "spoken_dur": 9.927,
+   "seg_dur": 10.927,
+   "timing": [
+    {
+     "text": "They were not keeping score.",
+     "start": 0.0,
+     "end": 1.521
+    },
+    {
+     "text": "They were not trying to earn anything.",
+     "start": 1.521,
+     "end": 3.947
+    },
+    {
+     "text": "Kindness was simply their reflex.",
+     "start": 3.947,
+     "end": 6.42
+    },
+    {
+     "text": "And then the King tells them the secret behind all of it.",
+     "start": 6.42,
+     "end": 10.356
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s6-least.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Verily I say unto you, Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me.",
+   "seg_start": 116.3,
+   "audio_start": 116.58,
+   "spoken_end": 124.48,
+   "seg_end": 125.63,
+   "audio_dur": 8.307,
+   "spoken_dur": 7.9,
+   "seg_dur": 9.33,
+   "timing": [
+    {
+     "text": "Verily I say unto you, Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me.",
+     "start": 0.0,
+     "end": 8.266
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s6-least.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He was in them the whole time. Every hungry person, every stranger, every sick and forgotten and locked-away person, was him, wearing a disguise.",
+   "seg_start": 125.63,
+   "audio_start": 125.91,
+   "spoken_end": 135.883,
+   "seg_end": 136.603,
+   "audio_dur": 10.449,
+   "spoken_dur": 9.973,
+   "seg_dur": 10.973,
+   "timing": [
+    {
+     "text": "He was in them the whole time.",
+     "start": 0.0,
+     "end": 1.463
+    },
+    {
+     "text": "Every hungry person, every stranger, every sick and forgotten and locked-away person, was him, wearing a disguise.",
+     "start": 1.463,
+     "end": 10.403
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s7-hands-close.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The others missed him for the very same reason. They were waiting to serve a King on a throne, and they walked right past him a hundred times, because he did not look like a King. He looked like someone who needed help.",
+   "seg_start": 136.603,
+   "audio_start": 136.883,
+   "spoken_end": 149.0,
+   "seg_end": 149.72,
+   "audio_dur": 12.617,
+   "spoken_dur": 12.117,
+   "seg_dur": 13.117,
+   "timing": [
+    {
+     "text": "The others missed him for the very same reason.",
+     "start": 0.0,
+     "end": 2.218
+    },
+    {
+     "text": "They were waiting to serve a King on a throne, and they walked right past him a hundred times, because he did not look like a King.",
+     "start": 2.218,
+     "end": 9.799
+    },
+    {
+     "text": "He looked like someone who needed help.",
+     "start": 9.799,
+     "end": 12.585
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s7-hands-close.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "That is how good he is. He did not hide himself behind something impressive. He hid in the people easiest to overlook, so that plain, ordinary kindness would always reach him. So when someone small and needy stands in front of you, that is not an interruption. It might be him.",
+   "seg_start": 149.72,
+   "audio_start": 150.0,
+   "spoken_end": 167.403,
+   "seg_end": 168.123,
+   "audio_dur": 17.789,
+   "spoken_dur": 17.403,
+   "seg_dur": 18.403,
+   "timing": [
+    {
+     "text": "That is how good he is.",
+     "start": 0.0,
+     "end": 1.591
+    },
+    {
+     "text": "He did not hide himself behind something impressive.",
+     "start": 1.591,
+     "end": 4.934
+    },
+    {
+     "text": "He hid in the people easiest to overlook, so that plain, ordinary kindness would always reach him.",
+     "start": 4.934,
+     "end": 11.25
+    },
+    {
+     "text": "So when someone small and needy stands in front of you, that is not an interruption.",
+     "start": 11.25,
+     "end": 16.66
+    },
+    {
+     "text": "It might be him.",
+     "start": 16.66,
+     "end": 17.74
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He is hidden in the person in front of you who needs help. Will you show him a kindness today?",
+  "seg_start": 168.123,
+  "audio_start": 168.403,
+  "seg_dur": 6.796
+ },
+ "total": 174.919
+}

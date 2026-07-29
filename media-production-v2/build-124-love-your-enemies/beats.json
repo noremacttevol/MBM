@@ -1,0 +1,408 @@
+{
+ "row": 124,
+ "slug": "build-124-love-your-enemies",
+ "v1_dir": "media-production/build-124-love-your-enemies",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-hillside-teaching.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "On a green hillside above the Sea of Galilee, Jesus sat down to teach, and a whole countryside climbed up to listen. He was walking through the old sayings one at a time \u2014 you have heard it said \u2014 and then he came to the hardest one of all: what to do with an enemy.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 17.086,
+   "seg_end": 17.736,
+   "audio_dur": 17.162,
+   "spoken_dur": 16.806,
+   "seg_dur": 17.736,
+   "timing": [
+    {
+     "text": "On a green hillside above the Sea of Galilee, Jesus sat down to teach, and a whole countryside climbed up to listen.",
+     "start": 0.0,
+     "end": 7.314
+    },
+    {
+     "text": "He was walking through the old sayings one at a time \u2014 you have heard it said \u2014 and then he came to the hardest one of all: what to do with an enemy.",
+     "start": 7.314,
+     "end": 17.136
+    }
+   ]
+  },
+  {
+   "seg": "jv43",
+   "v1_still": "s2-the-old-wall.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Ye have heard that it hath been said, Thou shalt love thy neighbour, and hate thine enemy.",
+   "seg_start": 17.736,
+   "audio_start": 18.016,
+   "spoken_end": 22.893,
+   "seg_end": 24.493,
+   "audio_dur": 5.277,
+   "spoken_dur": 4.878,
+   "seg_dur": 6.758,
+   "timing": [
+    {
+     "text": "Ye have heard that it hath been said, Thou shalt love thy neighbour, and hate thine enemy.",
+     "start": 0.0,
+     "end": 5.248
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-the-old-wall.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Everyone on that hillside knew that old arithmetic. Keep your guard up against the ones who don't. It felt fair. It felt safe. And then Jesus said this.",
+   "seg_start": 24.493,
+   "audio_start": 24.773,
+   "spoken_end": 33.839,
+   "seg_end": 34.489,
+   "audio_dur": 9.456,
+   "spoken_dur": 9.066,
+   "seg_dur": 9.996,
+   "timing": [
+    {
+     "text": "Everyone on that hillside knew that old arithmetic.",
+     "start": 0.0,
+     "end": 2.577
+    },
+    {
+     "text": "Keep your guard up against the ones who don't.",
+     "start": 2.577,
+     "end": 4.981
+    },
+    {
+     "text": "It felt fair.",
+     "start": 4.981,
+     "end": 6.072
+    },
+    {
+     "text": "It felt safe.",
+     "start": 6.072,
+     "end": 7.338
+    },
+    {
+     "text": "And then Jesus said this.",
+     "start": 7.338,
+     "end": 9.427
+    }
+   ]
+  },
+  {
+   "seg": "jvA",
+   "v1_still": "s3-but-i-say.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you;",
+   "seg_start": 34.489,
+   "audio_start": 34.769,
+   "spoken_end": 45.668,
+   "seg_end": 47.268,
+   "audio_dur": 11.285,
+   "spoken_dur": 10.899,
+   "seg_dur": 12.779,
+   "timing": [
+    {
+     "text": "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you;",
+     "start": 0.0,
+     "end": 11.238
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s4-the-wrong.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Not tolerate them. Not stay out of their way. Bless. Do good. Pray. Every one of those is something you go and do \u2014 aimed straight at the person who has earned none of it. Picture a farmer whose neighbor has wronged him: the fence knocked down, the insult at the well, years of cold looks across one stone wall.",
+   "seg_start": 47.268,
+   "audio_start": 47.548,
+   "spoken_end": 69.571,
+   "seg_end": 70.221,
+   "audio_dur": 22.387,
+   "spoken_dur": 22.023,
+   "seg_dur": 22.953,
+   "timing": [
+    {
+     "text": "Not tolerate them.",
+     "start": 0.0,
+     "end": 1.265
+    },
+    {
+     "text": "Not stay out of their way.",
+     "start": 1.265,
+     "end": 3.042
+    },
+    {
+     "text": "Bless.",
+     "start": 3.042,
+     "end": 4.122
+    },
+    {
+     "text": "Do good.",
+     "start": 4.122,
+     "end": 5.306
+    },
+    {
+     "text": "Pray.",
+     "start": 5.306,
+     "end": 6.316
+    },
+    {
+     "text": "Every one of those is something you go and do \u2014 aimed straight at the person who has earned none of it.",
+     "start": 6.316,
+     "end": 12.968
+    },
+    {
+     "text": "Picture a farmer whose neighbor has wronged him: the fence knocked down, the insult at the well, years of cold looks across one stone wall.",
+     "start": 12.968,
+     "end": 22.337
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s5-lifting-stones.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He has every right to answer coldness with coldness. That is the old arithmetic, and nobody would blame him for it. Instead, when his neighbor's wall gives way in the rains, he walks over quietly and starts lifting stones.",
+   "seg_start": 70.221,
+   "audio_start": 70.501,
+   "spoken_end": 83.188,
+   "seg_end": 83.838,
+   "audio_dur": 13.087,
+   "spoken_dur": 12.687,
+   "seg_dur": 13.617,
+   "timing": [
+    {
+     "text": "He has every right to answer coldness with coldness.",
+     "start": 0.0,
+     "end": 3.158
+    },
+    {
+     "text": "That is the old arithmetic, and nobody would blame him for it.",
+     "start": 3.158,
+     "end": 6.803
+    },
+    {
+     "text": "Instead, when his neighbor's wall gives way in the rains, he walks over quietly and starts lifting stones.",
+     "start": 6.803,
+     "end": 13.05
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s6-lamplight-prayer.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And at night, when the work is done and no one is watching, he does the thing Jesus asked that no one ever sees. By the light of his lamp, he prays for the man across the wall \u2014 not about him. For him. By name.",
+   "seg_start": 83.838,
+   "audio_start": 84.118,
+   "spoken_end": 98.945,
+   "seg_end": 99.595,
+   "audio_dur": 15.229,
+   "spoken_dur": 14.827,
+   "seg_dur": 15.757,
+   "timing": [
+    {
+     "text": "And at night, when the work is done and no one is watching, he does the thing Jesus asked that no one ever sees.",
+     "start": 0.0,
+     "end": 7.221
+    },
+    {
+     "text": "By the light of his lamp, he prays for the man across the wall \u2014 not about him.",
+     "start": 7.221,
+     "end": 12.783
+    },
+    {
+     "text": "For him.",
+     "start": 12.783,
+     "end": 13.839
+    },
+    {
+     "text": "By name.",
+     "start": 13.839,
+     "end": 15.186
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s7-the-reason.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Why would Jesus ask for something this unreasonable? He was not pretending enemies don't hurt. He gave his reason on the same hillside, and the reason changes everything.",
+   "seg_start": 99.595,
+   "audio_start": 99.875,
+   "spoken_end": 109.541,
+   "seg_end": 110.191,
+   "audio_dur": 10.057,
+   "spoken_dur": 9.666,
+   "seg_dur": 10.596,
+   "timing": [
+    {
+     "text": "Why would Jesus ask for something this unreasonable?",
+     "start": 0.0,
+     "end": 2.902
+    },
+    {
+     "text": "He was not pretending enemies don't hurt.",
+     "start": 2.902,
+     "end": 5.515
+    },
+    {
+     "text": "He gave his reason on the same hillside, and the reason changes everything.",
+     "start": 5.515,
+     "end": 10.031
+    }
+   ]
+  },
+  {
+   "seg": "jvB",
+   "v1_still": "s8-sun-on-both.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "That ye may be the children of your Father which is in heaven: for he maketh his sun to rise on the evil and on the good, and sendeth rain on the just and on the unjust.",
+   "seg_start": 110.191,
+   "audio_start": 110.471,
+   "spoken_end": 120.814,
+   "seg_end": 122.414,
+   "audio_dur": 10.684,
+   "spoken_dur": 10.343,
+   "seg_dur": 12.223,
+   "timing": [
+    {
+     "text": "That ye may be the children of your Father which is in heaven: for he maketh his sun to rise on the evil and on the good, and sendeth rain on the just and on the unjust.",
+     "start": 0.0,
+     "end": 10.635
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s9-meeting-at-the-wall.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Look at the sky, he was saying. Your Father's sun came up this morning over every field in the valley \u2014 the kind man's and the cruel man's alike. His rain waters both. Loving an enemy is not unnatural. In this family, it is the resemblance. And then he asked the question that leaves none of us out.",
+   "seg_start": 122.414,
+   "audio_start": 122.694,
+   "spoken_end": 141.837,
+   "seg_end": 142.487,
+   "audio_dur": 19.592,
+   "spoken_dur": 19.143,
+   "seg_dur": 20.073,
+   "timing": [
+    {
+     "text": "Look at the sky, he was saying.",
+     "start": 0.0,
+     "end": 2.032
+    },
+    {
+     "text": "Your Father's sun came up this morning over every field in the valley \u2014 the kind man's and the cruel man's alike.",
+     "start": 2.032,
+     "end": 8.94
+    },
+    {
+     "text": "His rain waters both.",
+     "start": 8.94,
+     "end": 10.995
+    },
+    {
+     "text": "Loving an enemy is not unnatural.",
+     "start": 10.995,
+     "end": 13.526
+    },
+    {
+     "text": "In this family, it is the resemblance.",
+     "start": 13.526,
+     "end": 15.976
+    },
+    {
+     "text": "And then he asked the question that leaves none of us out.",
+     "start": 15.976,
+     "end": 19.552
+    }
+   ]
+  },
+  {
+   "seg": "jv46",
+   "v1_still": "s9-meeting-at-the-wall.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "For if ye love them which love you, what reward have ye? do not even the publicans the same?",
+   "seg_start": 142.487,
+   "audio_start": 142.767,
+   "spoken_end": 149.034,
+   "seg_end": 150.634,
+   "audio_dur": 6.635,
+   "spoken_dur": 6.267,
+   "seg_dur": 8.147,
+   "timing": [
+    {
+     "text": "For if ye love them which love you, what reward have ye?",
+     "start": 0.0,
+     "end": 3.634
+    },
+    {
+     "text": "do not even the publicans the same?",
+     "start": 3.634,
+     "end": 6.594
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s10-the-shared-table.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "If you only love the people who love you back, he asked, what credit is that? Even the tax collectors manage that much. The love that marks you as your Father's child is the love that is not owed. And sometimes, slowly, it wins what coldness never could: the wall between two houses becomes the place where they meet.",
+   "seg_start": 150.634,
+   "audio_start": 150.914,
+   "spoken_end": 171.181,
+   "seg_end": 171.831,
+   "audio_dur": 20.741,
+   "spoken_dur": 20.267,
+   "seg_dur": 21.197,
+   "timing": [
+    {
+     "text": "If you only love the people who love you back, he asked, what credit is that?",
+     "start": 0.0,
+     "end": 4.54
+    },
+    {
+     "text": "Even the tax collectors manage that much.",
+     "start": 4.54,
+     "end": 7.396
+    },
+    {
+     "text": "The love that marks you as your Father's child is the love that is not owed.",
+     "start": 7.396,
+     "end": 11.761
+    },
+    {
+     "text": "And sometimes, slowly, it wins what coldness never could: the wall between two houses becomes the place where they meet.",
+     "start": 11.761,
+     "end": 20.713
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "Jesus never said your enemy deserves it. He said this is how the family likeness shows. Who is the hardest person in your life to bless? What might change if, tonight, you prayed for them \u2014 by name?",
+  "seg_start": 171.831,
+  "audio_start": 172.111,
+  "seg_dur": 13.849
+ },
+ "total": 185.68
+}

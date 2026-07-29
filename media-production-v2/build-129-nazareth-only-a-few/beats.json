@@ -1,0 +1,281 @@
+{
+ "row": 129,
+ "slug": "build-129-nazareth-only-a-few",
+ "v1_dir": "media-production/build-129-nazareth-only-a-few",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-back-in-nazareth.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus went back to Nazareth, the town that watched Him grow up. He taught in the synagogue.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 5.061,
+   "seg_end": 5.781,
+   "audio_dur": 5.146,
+   "spoken_dur": 4.781,
+   "seg_dur": 5.781,
+   "timing": [
+    {
+     "text": "Jesus went back to Nazareth, the town that watched Him grow up.",
+     "start": 0.0,
+     "end": 3.204
+    },
+    {
+     "text": "He taught in the synagogue.",
+     "start": 3.204,
+     "end": 5.108
+    }
+   ]
+  },
+  {
+   "seg": "s3",
+   "v1_still": "s2-isnt-this-the-carpenter.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Is not this the carpenter, the son of Mary, the brother of James, and Joses, and of Juda, and Simon? and are not his sisters here with us?",
+   "seg_start": 5.781,
+   "audio_start": 6.061,
+   "spoken_end": 14.496,
+   "seg_end": 16.096,
+   "audio_dur": 8.803,
+   "spoken_dur": 8.435,
+   "seg_dur": 10.315,
+   "timing": [
+    {
+     "text": "Is not this the carpenter, the son of Mary, the brother of James, and Joses, and of Juda, and Simon?",
+     "start": 0.0,
+     "end": 6.211
+    },
+    {
+     "text": "and are not his sisters here with us?",
+     "start": 6.211,
+     "end": 8.777
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-isnt-this-the-carpenter.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "But the people who'd known Him as a boy couldn't believe. They took offense at Him \u2014 and their unbelief became a wall.",
+   "seg_start": 16.096,
+   "audio_start": 16.376,
+   "spoken_end": 22.765,
+   "seg_end": 23.485,
+   "audio_dur": 6.818,
+   "spoken_dur": 6.388,
+   "seg_dur": 7.388,
+   "timing": [
+    {
+     "text": "But the people who'd known Him as a boy couldn't believe.",
+     "start": 0.0,
+     "end": 2.415
+    },
+    {
+     "text": "They took offense at Him \u2014 and their unbelief became a wall.",
+     "start": 2.415,
+     "end": 6.78
+    }
+   ]
+  },
+  {
+   "seg": "jv4",
+   "v1_still": "s2-isnt-this-the-carpenter.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "A prophet is not without honour, but in his own country, and among his own kin, and in his own house.",
+   "seg_start": 23.485,
+   "audio_start": 23.765,
+   "spoken_end": 30.564,
+   "seg_end": 32.164,
+   "audio_dur": 7.184,
+   "spoken_dur": 6.8,
+   "seg_dur": 8.68,
+   "timing": [
+    {
+     "text": "A prophet is not without honour, but in his own country, and among his own kin, and in his own house.",
+     "start": 0.0,
+     "end": 7.152
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s3-the-few-who-came.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "A prophet gets honored everywhere, He said \u2014 everywhere except home. Except among his own relatives. Except in his own house.",
+   "seg_start": 32.164,
+   "audio_start": 32.444,
+   "spoken_end": 40.237,
+   "seg_end": 40.957,
+   "audio_dur": 8.202,
+   "spoken_dur": 7.793,
+   "seg_dur": 8.793,
+   "timing": [
+    {
+     "text": "A prophet gets honored everywhere, He said \u2014 everywhere except home.",
+     "start": 0.0,
+     "end": 3.936
+    },
+    {
+     "text": "Except among his own relatives.",
+     "start": 3.936,
+     "end": 6.049
+    },
+    {
+     "text": "Except in his own house.",
+     "start": 6.049,
+     "end": 8.173
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s3-the-few-who-came.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He could do only a few mighty works there. Not because His power ran out, but because they wouldn't receive it.",
+   "seg_start": 40.957,
+   "audio_start": 41.237,
+   "spoken_end": 48.015,
+   "seg_end": 48.735,
+   "audio_dur": 7.184,
+   "spoken_dur": 6.778,
+   "seg_dur": 7.778,
+   "timing": [
+    {
+     "text": "He could do only a few mighty works there.",
+     "start": 0.0,
+     "end": 2.415
+    },
+    {
+     "text": "Not because His power ran out, but because they wouldn't receive it.",
+     "start": 2.415,
+     "end": 7.152
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "v1_still": "s4-hands-laid-on-the-sick.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And he could there do no mighty work, save that he laid his hands upon a few sick folk, and healed them. And he marvelled because of their unbelief.",
+   "seg_start": 48.735,
+   "audio_start": 49.015,
+   "spoken_end": 57.648,
+   "seg_end": 59.248,
+   "audio_dur": 9.143,
+   "spoken_dur": 8.632,
+   "seg_dur": 10.512,
+   "timing": [
+    {
+     "text": "And he could there do no mighty work, save that he laid his hands upon a few sick folk, and healed them.",
+     "start": 0.0,
+     "end": 6.072
+    },
+    {
+     "text": "And he marvelled because of their unbelief.",
+     "start": 6.072,
+     "end": 9.102
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s5-he-marvelled.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Even amazement at their doubt didn't stop His mercy.",
+   "seg_start": 59.248,
+   "audio_start": 59.528,
+   "spoken_end": 62.149,
+   "seg_end": 62.869,
+   "audio_dur": 3.004,
+   "spoken_dur": 2.621,
+   "seg_dur": 3.621,
+   "timing": [
+    {
+     "text": "Even amazement at their doubt didn't stop His mercy.",
+     "start": 0.0,
+     "end": 2.972
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s6-the-healed-few.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "A few sick folk. That is all Nazareth brought Him, and He laid His hands on every one of them. The mercy never shrank down to match the unbelief.",
+   "seg_start": 62.869,
+   "audio_start": 63.149,
+   "spoken_end": 71.847,
+   "seg_end": 72.567,
+   "audio_dur": 9.195,
+   "spoken_dur": 8.699,
+   "seg_dur": 9.699,
+   "timing": [
+    {
+     "text": "A few sick folk.",
+     "start": 0.0,
+     "end": 1.207
+    },
+    {
+     "text": "That is all Nazareth brought Him, and He laid His hands on every one of them.",
+     "start": 1.207,
+     "end": 5.584
+    },
+    {
+     "text": "The mercy never shrank down to match the unbelief.",
+     "start": 5.584,
+     "end": 9.149
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s7-the-door-faith-opens.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Faith opens the door. Where people believed, even a little, He worked.",
+   "seg_start": 72.567,
+   "audio_start": 72.847,
+   "spoken_end": 77.442,
+   "seg_end": 78.162,
+   "audio_dur": 4.963,
+   "spoken_dur": 4.595,
+   "seg_dur": 5.595,
+   "timing": [
+    {
+     "text": "Faith opens the door.",
+     "start": 0.0,
+     "end": 1.3
+    },
+    {
+     "text": "Where people believed, even a little, He worked.",
+     "start": 1.3,
+     "end": 4.923
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He healed the few who reached out. The door is the same today \u2014 believe, and let Him work.",
+  "seg_start": 78.162,
+  "audio_start": 78.442,
+  "seg_dur": 7.762
+ },
+ "total": 85.924
+}

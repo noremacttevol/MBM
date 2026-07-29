@@ -1,0 +1,296 @@
+{
+ "row": 160,
+ "slug": "build-160-stone-cut",
+ "v1_dir": "media-production/build-160-stone-cut",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-daniel-before-the-king.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The king of Babylon had a dream that troubled him deeply, and none of his wise men could tell him what it meant. So a young exile named Daniel, who served the God of heaven, was brought in to explain it.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 11.126,
+   "seg_end": 11.776,
+   "audio_dur": 11.233,
+   "spoken_dur": 10.846,
+   "seg_dur": 11.776,
+   "timing": [
+    {
+     "text": "The king of Babylon had a dream that troubled him deeply, and none of his wise men could tell him what it meant.",
+     "start": 0.0,
+     "end": 6.228
+    },
+    {
+     "text": "So a young exile named Daniel, who served the God of heaven, was brought in to explain it.",
+     "start": 6.228,
+     "end": 11.233
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-the-great-image.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "In the dream, the king had seen an enormous statue, dazzling and terrible \u2014 a head of gold, chest of silver, belly of bronze, legs of iron, and feet of iron mixed with crumbling clay. It stood for the great kingdoms of the world, one after another.",
+   "seg_start": 11.776,
+   "audio_start": 12.056,
+   "spoken_end": 28.987,
+   "seg_end": 29.637,
+   "audio_dur": 17.319,
+   "spoken_dur": 16.932,
+   "seg_dur": 17.862,
+   "timing": [
+    {
+     "text": "In the dream, the king had seen an enormous statue, dazzling and terrible \u2014 a head of gold, chest of silver, belly of bronze, legs of iron, and feet of iron mixed with crumbling clay.",
+     "start": 0.0,
+     "end": 12.832
+    },
+    {
+     "text": "It stood for the great kingdoms of the world, one after another.",
+     "start": 12.832,
+     "end": 17.319
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-the-stone-cut-without-hands.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And then, in the dream, something small appeared. A single stone, cut out of a mountain \u2014 but cut by no human hand. No chisel, no workman, no army. It simply broke free, all on its own.",
+   "seg_start": 29.637,
+   "audio_start": 29.917,
+   "spoken_end": 44.272,
+   "seg_end": 44.922,
+   "audio_dur": 14.707,
+   "spoken_dur": 14.355,
+   "seg_dur": 15.285,
+   "timing": [
+    {
+     "text": "And then, in the dream, something small appeared.",
+     "start": 0.0,
+     "end": 3.96
+    },
+    {
+     "text": "A single stone, cut out of a mountain \u2014 but cut by no human hand.",
+     "start": 3.96,
+     "end": 9.212
+    },
+    {
+     "text": "No chisel, no workman, no army.",
+     "start": 9.212,
+     "end": 11.717
+    },
+    {
+     "text": "It simply broke free, all on its own.",
+     "start": 11.717,
+     "end": 14.707
+    }
+   ]
+  },
+  {
+   "seg": "kv45",
+   "v1_still": "s4-the-stone-strikes.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Forasmuch as thou sawest that the stone was cut out of the mountain without hands, and that it brake in pieces the iron, the brass, the clay, the silver, and the gold; the great God hath made known to the king what shall come to pass hereafter: and the dream is certain, and the interpretation thereof sure.",
+   "seg_start": 44.922,
+   "audio_start": 45.202,
+   "spoken_end": 62.408,
+   "seg_end": 64.008,
+   "audio_dur": 17.58,
+   "spoken_dur": 17.206,
+   "seg_dur": 19.086,
+   "timing": [
+    {
+     "text": "Forasmuch as thou sawest that the stone was cut out of the mountain without hands, and that it brake in pieces the iron, the brass, the clay, the silver, and the gold; the great God hath made known to the king what shall come to pass hereafter: and the dream is certain, and the interpretation thereof sure.",
+     "start": 0.0,
+     "end": 17.58
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-the-stone-strikes.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "That little stone, made by God and not by men, struck the great statue at its feet \u2014 and the whole towering thing came crashing down, shattered to dust, and blew away on the wind like chaff, until not a trace was left.",
+   "seg_start": 64.008,
+   "audio_start": 64.288,
+   "spoken_end": 78.494,
+   "seg_end": 79.144,
+   "audio_dur": 14.629,
+   "spoken_dur": 14.206,
+   "seg_dur": 15.136,
+   "timing": [
+    {
+     "text": "That little stone, made by God and not by men, struck the great statue at its feet \u2014 and the whole towering thing came crashing down, shattered to dust, and blew away on the wind like chaff, until not a trace was left.",
+     "start": 0.0,
+     "end": 14.629
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-the-image-shatters.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But the stone did not stop. It began to grow. It became a mountain, and then a greater mountain, until it filled the whole earth, from one end of it to the other.",
+   "seg_start": 79.144,
+   "audio_start": 79.424,
+   "spoken_end": 88.011,
+   "seg_end": 88.661,
+   "audio_dur": 8.96,
+   "spoken_dur": 8.587,
+   "seg_dur": 9.517,
+   "timing": [
+    {
+     "text": "But the stone did not stop.",
+     "start": 0.0,
+     "end": 1.512
+    },
+    {
+     "text": "It began to grow.",
+     "start": 1.512,
+     "end": 2.464
+    },
+    {
+     "text": "It became a mountain, and then a greater mountain, until it filled the whole earth, from one end of it to the other.",
+     "start": 2.464,
+     "end": 8.96
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6-the-stone-becomes-a-mountain.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Daniel told the king what it meant. Every human empire, however golden, would rise and then fall and be forgotten. But God himself would set up a kingdom of his own, and that one would be different.",
+   "seg_start": 88.661,
+   "audio_start": 88.941,
+   "spoken_end": 100.95,
+   "seg_end": 101.6,
+   "audio_dur": 12.382,
+   "spoken_dur": 12.009,
+   "seg_dur": 12.939,
+   "timing": [
+    {
+     "text": "Daniel told the king what it meant.",
+     "start": 0.0,
+     "end": 2.211
+    },
+    {
+     "text": "Every human empire, however golden, would rise and then fall and be forgotten.",
+     "start": 2.211,
+     "end": 7.139
+    },
+    {
+     "text": "But God himself would set up a kingdom of his own, and that one would be different.",
+     "start": 7.139,
+     "end": 12.382
+    }
+   ]
+  },
+  {
+   "seg": "kv44",
+   "v1_still": "s7-fills-the-whole-earth.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And in the days of these kings shall the God of heaven set up a kingdom, which shall never be destroyed: and the kingdom shall not be left to other people, but it shall break in pieces and consume all these kingdoms, and it shall stand for ever.",
+   "seg_start": 101.6,
+   "audio_start": 101.88,
+   "spoken_end": 114.929,
+   "seg_end": 116.529,
+   "audio_dur": 13.401,
+   "spoken_dur": 13.049,
+   "seg_dur": 14.929,
+   "timing": [
+    {
+     "text": "And in the days of these kings shall the God of heaven set up a kingdom, which shall never be destroyed: and the kingdom shall not be left to other people, but it shall break in pieces and consume all these kingdoms, and it shall stand forever.",
+     "start": 0.0,
+     "end": 13.401
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s7-fills-the-whole-earth.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Never handed off to someone else. Not built by human hands, and so not able to be torn down by them either \u2014 a kingdom cut from the mountain of God, that would outlast every throne on earth and stand forever.",
+   "seg_start": 116.529,
+   "audio_start": 116.809,
+   "spoken_end": 128.371,
+   "seg_end": 129.021,
+   "audio_dur": 11.964,
+   "spoken_dur": 11.562,
+   "seg_dur": 12.492,
+   "timing": [
+    {
+     "text": "Never handed off to someone else.",
+     "start": 0.0,
+     "end": 1.907
+    },
+    {
+     "text": "Not built by human hands, and so not able to be torn down by them either \u2014 a kingdom cut from the mountain of God, that would outlast every throne on earth and stand forever.",
+     "start": 1.907,
+     "end": 11.964
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s8-a-kingdom-forever.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So this ancient dream is really a promise you can build your life on. The kingdoms of men come and go, but God is setting up one that never ends \u2014 a stone that fills the whole earth. So the only question is a hopeful one. When that kingdom is offered to you, will you belong to it?",
+   "seg_start": 129.021,
+   "audio_start": 129.301,
+   "spoken_end": 145.205,
+   "seg_end": 145.855,
+   "audio_dur": 16.327,
+   "spoken_dur": 15.905,
+   "seg_dur": 16.835,
+   "timing": [
+    {
+     "text": "So this ancient dream is really a promise you can build your life on.",
+     "start": 0.0,
+     "end": 4.052
+    },
+    {
+     "text": "The kingdoms of men come and go, but God is setting up one that never ends \u2014 a stone that fills the whole earth.",
+     "start": 4.052,
+     "end": 10.63
+    },
+    {
+     "text": "So the only question is a hopeful one.",
+     "start": 10.63,
+     "end": 12.862
+    },
+    {
+     "text": "When that kingdom is offered to you, will you belong to it?",
+     "start": 12.862,
+     "end": 16.327
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "God showed a king a stone cut without hands that shattered every empire and grew to fill the earth \u2014 his own kingdom, that shall never be destroyed and shall stand for ever. When it is offered to you, will you belong to it?",
+  "seg_start": 145.855,
+  "audio_start": 146.135,
+  "seg_dur": 17.062
+ },
+ "total": 162.917
+}

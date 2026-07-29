@@ -1,0 +1,474 @@
+{
+ "row": 82,
+ "slug": "build-82-anointing-at-bethany",
+ "v1_dir": "media-production/build-82-anointing-at-bethany",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0a",
+   "v1_still": "s1-the-table-at-bethany.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "In a house in Bethany, days before the end, a woman came to Jesus at the table.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 4.369,
+   "seg_end": 5.089,
+   "audio_dur": 4.545,
+   "spoken_dur": 4.089,
+   "seg_dur": 5.089,
+   "timing": [
+    {
+     "text": "In a house in Bethany, days before the end, a woman came to Jesus at the table.",
+     "start": 0.0,
+     "end": 4.505
+    }
+   ]
+  },
+  {
+   "seg": "n0b",
+   "v1_still": "s2-she-came-with-a-jar.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "She carried an alabaster jar of pure, costly perfume.",
+   "seg_start": 5.089,
+   "audio_start": 5.369,
+   "spoken_end": 8.445,
+   "seg_end": 9.165,
+   "audio_dur": 3.474,
+   "spoken_dur": 3.077,
+   "seg_dur": 4.077,
+   "timing": [
+    {
+     "text": "She carried an alabaster jar of pure, costly perfume.",
+     "start": 0.0,
+     "end": 3.437
+    }
+   ]
+  },
+  {
+   "seg": "n1a",
+   "v1_still": "s3-she-broke-it-open.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "She broke the jar open,",
+   "seg_start": 9.165,
+   "audio_start": 9.445,
+   "spoken_end": 10.686,
+   "seg_end": 11.406,
+   "audio_dur": 1.62,
+   "spoken_dur": 1.241,
+   "seg_dur": 2.241,
+   "timing": [
+    {
+     "text": "She broke the jar open,",
+     "start": 0.0,
+     "end": 1.579
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s4-poured-on-his-head.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "and poured all of it over his head \u2014 a year's wages, gone in a moment.",
+   "seg_start": 11.406,
+   "audio_start": 11.686,
+   "spoken_end": 16.266,
+   "seg_end": 16.986,
+   "audio_dur": 5.042,
+   "spoken_dur": 4.58,
+   "seg_dur": 5.58,
+   "timing": [
+    {
+     "text": "and poured all of it over his head \u2014 a year's wages, gone in a moment.",
+     "start": 0.0,
+     "end": 5.016
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s5-the-indignation.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Some of the men at the table were furious. Mark writes down what they said:",
+   "seg_start": 16.986,
+   "audio_start": 17.266,
+   "spoken_end": 21.47,
+   "seg_end": 22.19,
+   "audio_dur": 4.545,
+   "spoken_dur": 4.204,
+   "seg_dur": 5.204,
+   "timing": [
+    {
+     "text": "Some of the men at the table were furious.",
+     "start": 0.0,
+     "end": 2.067
+    },
+    {
+     "text": "Mark writes down what they said:",
+     "start": 2.415,
+     "end": 4.505
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "v1_still": "s5-the-indignation.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Why was this waste of the ointment made? For it might have been sold for more than three hundred pence, and have been given to the poor.",
+   "seg_start": 22.19,
+   "audio_start": 22.47,
+   "spoken_end": 30.225,
+   "seg_end": 31.825,
+   "audio_dur": 8.072,
+   "spoken_dur": 7.754,
+   "seg_dur": 9.634,
+   "timing": [
+    {
+     "text": "Why was this waste of the ointment made?",
+     "start": 0.0,
+     "end": 2.415
+    },
+    {
+     "text": "For it might have been sold for more than three hundred pence, and have been given to the poor.",
+     "start": 2.415,
+     "end": 8.034
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s5-the-indignation.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And Mark adds one more line: they murmured against her. They said it where she could hear it. She does not answer them. She never says a single word in this whole story.",
+   "seg_start": 31.825,
+   "audio_start": 32.105,
+   "spoken_end": 41.913,
+   "seg_end": 42.633,
+   "audio_dur": 10.162,
+   "spoken_dur": 9.808,
+   "seg_dur": 10.808,
+   "timing": [
+    {
+     "text": "And Mark adds one more line: they murmured against her.",
+     "start": 0.0,
+     "end": 3.17
+    },
+    {
+     "text": "They said it where she could hear it.",
+     "start": 3.17,
+     "end": 5.155
+    },
+    {
+     "text": "She does not answer them.",
+     "start": 5.155,
+     "end": 6.908
+    },
+    {
+     "text": "She never says a single word in this whole story.",
+     "start": 6.908,
+     "end": 10.124
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s6-let-her-alone.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus stopped them cold, and defended her.",
+   "seg_start": 42.633,
+   "audio_start": 42.913,
+   "spoken_end": 44.933,
+   "seg_end": 45.653,
+   "audio_dur": 2.403,
+   "spoken_dur": 2.02,
+   "seg_dur": 3.02,
+   "timing": [
+    {
+     "text": "Jesus stopped them cold, and defended her.",
+     "start": 0.0,
+     "end": 2.368
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s6-let-her-alone.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Let her alone; why trouble ye her? she hath wrought a good work on me.",
+   "seg_start": 45.653,
+   "audio_start": 45.933,
+   "spoken_end": 51.124,
+   "seg_end": 52.724,
+   "audio_dur": 5.564,
+   "spoken_dur": 5.191,
+   "seg_dur": 7.071,
+   "timing": [
+    {
+     "text": "Let her alone; why trouble ye her?",
+     "start": 0.0,
+     "end": 3.03
+    },
+    {
+     "text": "she hath wrought a good work on me.",
+     "start": 3.03,
+     "end": 5.526
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s6-let-her-alone.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Leave her alone. Why are you giving her a hard time? She has done a beautiful thing for me. Not a wasteful thing.",
+   "seg_start": 52.724,
+   "audio_start": 53.004,
+   "spoken_end": 59.08,
+   "seg_end": 59.8,
+   "audio_dur": 6.452,
+   "spoken_dur": 6.075,
+   "seg_dur": 7.075,
+   "timing": [
+    {
+     "text": "Leave her alone.",
+     "start": 0.0,
+     "end": 0.824
+    },
+    {
+     "text": "Why are you giving her a hard time?",
+     "start": 0.824,
+     "end": 2.577
+    },
+    {
+     "text": "She has done a beautiful thing for me.",
+     "start": 2.577,
+     "end": 4.748
+    },
+    {
+     "text": "Not a wasteful thing.",
+     "start": 4.748,
+     "end": 6.409
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s7-she-hath-done-what-she-could.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And then he answered the argument about the money directly:",
+   "seg_start": 59.8,
+   "audio_start": 60.08,
+   "spoken_end": 62.563,
+   "seg_end": 63.283,
+   "audio_dur": 2.873,
+   "spoken_dur": 2.484,
+   "seg_dur": 3.484,
+   "timing": [
+    {
+     "text": "And then he answered the argument about the money directly:",
+     "start": 0.0,
+     "end": 2.833
+    }
+   ]
+  },
+  {
+   "seg": "j1b",
+   "v1_still": "s7-she-hath-done-what-she-could.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "For ye have the poor with you always, and whensoever ye will ye may do them good: but me ye have not always.",
+   "seg_start": 63.283,
+   "audio_start": 63.563,
+   "spoken_end": 71.211,
+   "seg_end": 72.811,
+   "audio_dur": 8.02,
+   "spoken_dur": 7.648,
+   "seg_dur": 9.528,
+   "timing": [
+    {
+     "text": "For ye have the poor with you always, and whensoever ye will ye may do them good: but me ye have not always.",
+     "start": 0.0,
+     "end": 7.988
+    }
+   ]
+  },
+  {
+   "seg": "n4b",
+   "v1_still": "s7-she-hath-done-what-she-could.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He was not brushing the poor aside. He was telling a room full of men that the window on this particular kindness was closing, and only one person in it had noticed.",
+   "seg_start": 72.811,
+   "audio_start": 73.091,
+   "spoken_end": 82.473,
+   "seg_end": 83.193,
+   "audio_dur": 9.874,
+   "spoken_dur": 9.382,
+   "seg_dur": 10.382,
+   "timing": [
+    {
+     "text": "He was not brushing the poor aside.",
+     "start": 0.0,
+     "end": 1.904
+    },
+    {
+     "text": "He was telling a room full of men that the window on this particular kindness was closing, and only one person in it had noticed.",
+     "start": 1.904,
+     "end": 9.845
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s7-she-hath-done-what-she-could.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "She hath done what she could: she is come aforehand to anoint my body to the burying.",
+   "seg_start": 83.193,
+   "audio_start": 83.473,
+   "spoken_end": 88.408,
+   "seg_end": 90.008,
+   "audio_dur": 5.381,
+   "spoken_dur": 4.935,
+   "seg_dur": 6.815,
+   "timing": [
+    {
+     "text": "She hath done what she could: she is come aforehand to anoint my body to the burying.",
+     "start": 0.0,
+     "end": 5.341
+    }
+   ]
+  },
+  {
+   "seg": "n4c",
+   "v1_still": "s7-she-hath-done-what-she-could.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "She did what she was able to do, he said. She has come ahead of time to prepare my body for burial. Nobody else in that house would even let him say the word.",
+   "seg_start": 90.008,
+   "audio_start": 90.288,
+   "spoken_end": 98.164,
+   "seg_end": 98.884,
+   "audio_dur": 8.255,
+   "spoken_dur": 7.876,
+   "seg_dur": 8.876,
+   "timing": [
+    {
+     "text": "She did what she was able to do, he said.",
+     "start": 0.0,
+     "end": 1.869
+    },
+    {
+     "text": "She has come ahead of time to prepare my body for burial.",
+     "start": 1.869,
+     "end": 5.085
+    },
+    {
+     "text": "Nobody else in that house would even let him say the word.",
+     "start": 5.085,
+     "end": 8.22
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s8-poured-out.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Whether she fully knew it or not, she was the only one in that room who had prepared him for what was coming.",
+   "seg_start": 98.884,
+   "audio_start": 99.164,
+   "spoken_end": 104.412,
+   "seg_end": 105.132,
+   "audio_dur": 5.669,
+   "spoken_dur": 5.248,
+   "seg_dur": 6.248,
+   "timing": [
+    {
+     "text": "Whether she fully knew it or not, she was the only one in that room who had prepared him for what was coming.",
+     "start": 0.0,
+     "end": 5.619
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": "s8-poured-out.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Verily I say unto you, Wheresoever this gospel shall be preached throughout the whole world, this also that she hath done shall be spoken of for a memorial of her.",
+   "seg_start": 105.132,
+   "audio_start": 105.412,
+   "spoken_end": 115.946,
+   "seg_end": 117.546,
+   "audio_dur": 10.893,
+   "spoken_dur": 10.534,
+   "seg_dur": 12.414,
+   "timing": [
+    {
+     "text": "Verily I say unto you, Wheresoever this gospel shall be preached throughout the whole world, this also that she hath done shall be spoken of for a memorial of her.",
+     "start": 0.0,
+     "end": 10.867
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s1-the-table-at-bethany.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Wherever this good news is told, anywhere in the world, what she did today will be told with it, so she is remembered. She gave the most extravagant thing she owned, and he received it as beautiful. Not wasteful \u2014 worship. And he was right about the memorial: all these centuries later, here we are, telling her story.",
+   "seg_start": 117.546,
+   "audio_start": 117.826,
+   "spoken_end": 140.169,
+   "seg_end": 140.889,
+   "audio_dur": 22.805,
+   "spoken_dur": 22.343,
+   "seg_dur": 23.343,
+   "timing": [
+    {
+     "text": "Wherever this good news is told, anywhere in the world, what she did today will be told with it, so she is remembered.",
+     "start": 0.0,
+     "end": 7.326
+    },
+    {
+     "text": "She gave the most extravagant thing she owned, and he received it as beautiful.",
+     "start": 7.326,
+     "end": 12.759
+    },
+    {
+     "text": "Not wasteful \u2014 worship.",
+     "start": 12.759,
+     "end": 15.662
+    },
+    {
+     "text": "And he was right about the memorial: all these centuries later, here we are, telling her story.",
+     "start": 15.662,
+     "end": 22.756
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "She gave him her best and he called it beautiful. What would it mean to stop holding back from him?",
+  "seg_start": 140.889,
+  "audio_start": 141.169,
+  "seg_dur": 7.213
+ },
+ "total": 148.102
+}

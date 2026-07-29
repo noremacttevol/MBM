@@ -1,0 +1,663 @@
+{
+ "row": 44,
+ "slug": "build-44-two-debtors",
+ "v1_dir": "media-production/build-44-two-debtors",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-the-invitation.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "A Pharisee named Simon invited Jesus to dinner. It was a careful, respectable house, and having a well-known teacher at your table made you look good. So Jesus came, and took his place at the low table with the other guests.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 13.759,
+   "seg_end": 14.409,
+   "audio_dur": 13.871,
+   "spoken_dur": 13.479,
+   "seg_dur": 14.409,
+   "timing": [
+    {
+     "text": "A Pharisee named Simon invited Jesus to dinner.",
+     "start": 0.0,
+     "end": 2.694
+    },
+    {
+     "text": "It was a careful, respectable house, and having a well-known teacher at your table made you look good.",
+     "start": 2.694,
+     "end": 8.916
+    },
+    {
+     "text": "So Jesus came, and took his place at the low table with the other guests.",
+     "start": 8.916,
+     "end": 13.839
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-the-woman-comes.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then the door opened, and a woman came in who did not belong there. Everyone in that town knew what she was. She had lived a life the whole village whispered about, and she walked into a Pharisee's house carrying a small alabaster jar of costly perfume.",
+   "seg_start": 14.409,
+   "audio_start": 14.689,
+   "spoken_end": 28.706,
+   "seg_end": 29.356,
+   "audio_dur": 14.446,
+   "spoken_dur": 14.017,
+   "seg_dur": 14.947,
+   "timing": [
+    {
+     "text": "Then the door opened, and a woman came in who did not belong there.",
+     "start": 0.0,
+     "end": 3.32
+    },
+    {
+     "text": "Everyone in that town knew what she was.",
+     "start": 3.32,
+     "end": 5.968
+    },
+    {
+     "text": "She had lived a life the whole village whispered about, and she walked into a Pharisee's house carrying a small alabaster jar of costly perfume.",
+     "start": 5.968,
+     "end": 14.396
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-at-his-feet.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "She went straight to his feet. And there, in front of every important man in the room, she broke. She wept until her tears fell on his feet, and she wiped them away with her own hair, and kissed them, and poured the perfume out over them.",
+   "seg_start": 29.356,
+   "audio_start": 29.636,
+   "spoken_end": 43.68,
+   "seg_end": 44.33,
+   "audio_dur": 14.446,
+   "spoken_dur": 14.045,
+   "seg_dur": 14.975,
+   "timing": [
+    {
+     "text": "She went straight to his feet.",
+     "start": 0.0,
+     "end": 1.486
+    },
+    {
+     "text": "And there, in front of every important man in the room, she broke.",
+     "start": 1.486,
+     "end": 5.631
+    },
+    {
+     "text": "She wept until her tears fell on his feet, and she wiped them away with her own hair, and kissed them, and poured the perfume out over them.",
+     "start": 5.631,
+     "end": 14.396
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-simon-judges.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Simon watched, and said nothing out loud. But inside, he had already made up his mind. If this man were really a prophet, he thought, he would know what kind of woman is touching him, and he would never let her near.",
+   "seg_start": 44.33,
+   "audio_start": 44.61,
+   "spoken_end": 56.42,
+   "seg_end": 57.07,
+   "audio_dur": 12.251,
+   "spoken_dur": 11.81,
+   "seg_dur": 12.74,
+   "timing": [
+    {
+     "text": "Simon watched, and said nothing out loud.",
+     "start": 0.0,
+     "end": 2.032
+    },
+    {
+     "text": "But inside, he had already made up his mind.",
+     "start": 2.032,
+     "end": 4.621
+    },
+    {
+     "text": "If this man were really a prophet, he thought, he would know what kind of woman is touching him, and he would never let her near.",
+     "start": 4.621,
+     "end": 12.214
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s4-simon-judges.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Simon, I have somewhat to say unto thee.",
+   "seg_start": 57.07,
+   "audio_start": 57.35,
+   "spoken_end": 59.272,
+   "seg_end": 60.872,
+   "audio_dur": 2.325,
+   "spoken_dur": 1.922,
+   "seg_dur": 3.802,
+   "timing": [
+    {
+     "text": "Simon, I have somewhat to say unto thee.",
+     "start": 0.0,
+     "end": 2.276
+    }
+   ]
+  },
+  {
+   "seg": "s40",
+   "v1_still": "s4-simon-judges.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Master, say on.",
+   "seg_start": 60.872,
+   "audio_start": 61.152,
+   "spoken_end": 62.3,
+   "seg_end": 63.9,
+   "audio_dur": 1.515,
+   "spoken_dur": 1.148,
+   "seg_dur": 3.028,
+   "timing": [
+    {
+     "text": "Master, say on.",
+     "start": 0.0,
+     "end": 1.486
+    }
+   ]
+  },
+  {
+   "seg": "n4b",
+   "v1_still": "s4-simon-judges.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Simon, there is something I want to say to you. Say it, teacher, Simon answered. He had been thinking it, not saying it, and Jesus answered the thought.",
+   "seg_start": 63.9,
+   "audio_start": 64.18,
+   "spoken_end": 73.813,
+   "seg_end": 74.463,
+   "audio_dur": 10.057,
+   "spoken_dur": 9.633,
+   "seg_dur": 10.563,
+   "timing": [
+    {
+     "text": "Simon, there is something I want to say to you.",
+     "start": 0.0,
+     "end": 2.357
+    },
+    {
+     "text": "Say it, teacher, Simon answered.",
+     "start": 2.357,
+     "end": 5.085
+    },
+    {
+     "text": "He had been thinking it, not saying it, and Jesus answered the thought.",
+     "start": 5.085,
+     "end": 10.031
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-the-two-debtors.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And instead of scolding anyone, Jesus told him a small story. There was a man who lent money, and two people owed him.",
+   "seg_start": 74.463,
+   "audio_start": 74.743,
+   "spoken_end": 81.398,
+   "seg_end": 82.048,
+   "audio_dur": 7.001,
+   "spoken_dur": 6.655,
+   "seg_dur": 7.585,
+   "timing": [
+    {
+     "text": "And instead of scolding anyone, Jesus told him a small story.",
+     "start": 0.0,
+     "end": 3.448
+    },
+    {
+     "text": "There was a man who lent money, and two people owed him.",
+     "start": 3.448,
+     "end": 6.966
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s5-the-two-debtors.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "There was a certain creditor which had two debtors: the one owed five hundred pence, and the other fifty.",
+   "seg_start": 82.048,
+   "audio_start": 82.328,
+   "spoken_end": 87.89,
+   "seg_end": 89.49,
+   "audio_dur": 6.034,
+   "spoken_dur": 5.562,
+   "seg_dur": 7.442,
+   "timing": [
+    {
+     "text": "There was a certain creditor which had two debtors: the one owed five hundred pence, and the other fifty.",
+     "start": 0.0,
+     "end": 5.991
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s5-the-two-debtors.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "One of them owed about two years of wages. The other owed a couple of months. Very different weights around their necks. But the same problem: neither of them had a single coin left to pay it back.",
+   "seg_start": 89.49,
+   "audio_start": 89.77,
+   "spoken_end": 102.213,
+   "seg_end": 102.863,
+   "audio_dur": 12.904,
+   "spoken_dur": 12.443,
+   "seg_dur": 13.373,
+   "timing": [
+    {
+     "text": "One of them owed about two years of wages.",
+     "start": 0.0,
+     "end": 2.276
+    },
+    {
+     "text": "The other owed a couple of months.",
+     "start": 2.276,
+     "end": 4.4
+    },
+    {
+     "text": "Very different weights around their necks.",
+     "start": 4.4,
+     "end": 6.943
+    },
+    {
+     "text": "But the same problem: neither of them had a single coin left to pay it back.",
+     "start": 6.943,
+     "end": 12.864
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": "s6-frankly-forgave.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "And when they had nothing to pay, he frankly forgave them both. Tell me therefore, which of them will love him most?",
+   "seg_start": 102.863,
+   "audio_start": 103.143,
+   "spoken_end": 110.854,
+   "seg_end": 112.454,
+   "audio_dur": 8.176,
+   "spoken_dur": 7.711,
+   "seg_dur": 9.591,
+   "timing": [
+    {
+     "text": "And when they had nothing to pay, he frankly forgave them both.",
+     "start": 0.0,
+     "end": 3.855
+    },
+    {
+     "text": "Tell me therefore, which of them will love him most?",
+     "start": 3.855,
+     "end": 8.127
+    }
+   ]
+  },
+  {
+   "seg": "s43",
+   "v1_still": "s6-frankly-forgave.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "I suppose that he, to whom he forgave most.",
+   "seg_start": 112.454,
+   "audio_start": 112.734,
+   "spoken_end": 115.086,
+   "seg_end": 116.686,
+   "audio_dur": 2.769,
+   "spoken_dur": 2.353,
+   "seg_dur": 4.233,
+   "timing": [
+    {
+     "text": "I suppose that he, to whom he forgave most.",
+     "start": 0.0,
+     "end": 2.74
+    }
+   ]
+  },
+  {
+   "seg": "j3b",
+   "v1_still": "s6-frankly-forgave.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Thou hast rightly judged.",
+   "seg_start": 116.686,
+   "audio_start": 116.966,
+   "spoken_end": 118.365,
+   "seg_end": 119.965,
+   "audio_dur": 1.802,
+   "spoken_dur": 1.398,
+   "seg_dur": 3.278,
+   "timing": [
+    {
+     "text": "Thou hast rightly judged.",
+     "start": 0.0,
+     "end": 1.765
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s6-frankly-forgave.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "To forgive them frankly meant he simply let it go. He did not lower the payments. He tore both debts up and asked for nothing back. And Simon answered, a little carefully: I suppose the one who was let off the most. The one who was carrying the heavier weight is the one who walks away loving the most.",
+   "seg_start": 119.965,
+   "audio_start": 120.245,
+   "spoken_end": 138.725,
+   "seg_end": 139.375,
+   "audio_dur": 18.939,
+   "spoken_dur": 18.481,
+   "seg_dur": 19.411,
+   "timing": [
+    {
+     "text": "To forgive them frankly meant he simply let it go.",
+     "start": 0.0,
+     "end": 2.879
+    },
+    {
+     "text": "He did not lower the payments.",
+     "start": 2.879,
+     "end": 4.923
+    },
+    {
+     "text": "He tore both debts up and asked for nothing back.",
+     "start": 4.923,
+     "end": 7.477
+    },
+    {
+     "text": "And Simon answered, a little carefully: I suppose the one who was let off the most.",
+     "start": 7.477,
+     "end": 13.479
+    },
+    {
+     "text": "The one who was carrying the heavier weight is the one who walks away loving the most.",
+     "start": 13.479,
+     "end": 18.901
+    }
+   ]
+  },
+  {
+   "seg": "jv44",
+   "v1_still": "s7-she-loved-much.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Seest thou this woman? I entered into thine house, thou gavest me no water for my feet: but she hath washed my feet with tears, and did wipe them with the hairs of her head. Thou gavest me no kiss: but this woman since the time I came in hath not ceased to kiss my feet. My head with oil thou didst not anoint: but this woman hath anointed my feet with ointment.",
+   "seg_start": 139.375,
+   "audio_start": 139.655,
+   "spoken_end": 167.384,
+   "seg_end": 168.984,
+   "audio_dur": 28.186,
+   "spoken_dur": 27.728,
+   "seg_dur": 29.608,
+   "timing": [
+    {
+     "text": "Seest thou this woman?",
+     "start": 0.0,
+     "end": 1.44
+    },
+    {
+     "text": "I entered into thine house, thou gavest me no water for my feet: but she hath washed my feet with tears, and did wipe them with the hairs of her head.",
+     "start": 1.44,
+     "end": 12.771
+    },
+    {
+     "text": "Thou gavest me no kiss: but this woman since the time I came in hath not ceased to kiss my feet.",
+     "start": 12.771,
+     "end": 21.188
+    },
+    {
+     "text": "My head with oil thou didst not anoint: but this woman hath anointed my feet with ointment.",
+     "start": 21.188,
+     "end": 28.143
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s7-she-loved-much.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Then Jesus turned and looked at the woman, but he kept speaking to Simon. He set the two of them side by side. Simon had given him no water for his feet; she had washed them with her tears. Simon had given him no greeting; she had not stopped kissing his feet since she came in.",
+   "seg_start": 168.984,
+   "audio_start": 169.264,
+   "spoken_end": 185.535,
+   "seg_end": 186.185,
+   "audio_dur": 16.666,
+   "spoken_dur": 16.272,
+   "seg_dur": 17.202,
+   "timing": [
+    {
+     "text": "Then Jesus turned and looked at the woman, but he kept speaking to Simon.",
+     "start": 0.0,
+     "end": 3.924
+    },
+    {
+     "text": "He set the two of them side by side.",
+     "start": 3.924,
+     "end": 6.327
+    },
+    {
+     "text": "Simon had given him no water for his feet; she had washed them with her tears.",
+     "start": 6.327,
+     "end": 11.204
+    },
+    {
+     "text": "Simon had given him no greeting; she had not stopped kissing his feet since she came in.",
+     "start": 11.204,
+     "end": 16.625
+    }
+   ]
+  },
+  {
+   "seg": "j4",
+   "v1_still": "s7-she-loved-much.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Her sins, which are many, are forgiven; for she loved much: but to whom little is forgiven, the same loveth little.",
+   "seg_start": 186.185,
+   "audio_start": 186.465,
+   "spoken_end": 193.702,
+   "seg_end": 195.302,
+   "audio_dur": 7.654,
+   "spoken_dur": 7.236,
+   "seg_dur": 9.116,
+   "timing": [
+    {
+     "text": "Her sins, which are many, are forgiven; for she loved much: but to whom little is forgiven, the same loveth little.",
+     "start": 0.0,
+     "end": 7.616
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s7-she-loved-much.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Read that slowly, because it is easy to turn it backwards. She was not forgiven because she loved so much. She loved so much because she had already been forgiven. The tears were not the payment. They were what it looks like when a debt you could never repay is torn up right in front of you. Simon loved little, because he believed he owed little.",
+   "seg_start": 195.302,
+   "audio_start": 195.582,
+   "spoken_end": 216.472,
+   "seg_end": 217.122,
+   "audio_dur": 21.316,
+   "spoken_dur": 20.89,
+   "seg_dur": 21.82,
+   "timing": [
+    {
+     "text": "Read that slowly, because it is easy to turn it backwards.",
+     "start": 0.0,
+     "end": 3.727
+    },
+    {
+     "text": "She was not forgiven because she loved so much.",
+     "start": 3.727,
+     "end": 7.175
+    },
+    {
+     "text": "She loved so much because she had already been forgiven.",
+     "start": 7.175,
+     "end": 10.577
+    },
+    {
+     "text": "The tears were not the payment.",
+     "start": 10.577,
+     "end": 12.759
+    },
+    {
+     "text": "They were what it looks like when a debt you could never repay is torn up right in front of you.",
+     "start": 12.759,
+     "end": 17.427
+    },
+    {
+     "text": "Simon loved little, because he believed he owed little.",
+     "start": 17.427,
+     "end": 21.27
+    }
+   ]
+  },
+  {
+   "seg": "jv48",
+   "v1_still": "s8-go-in-peace.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Thy sins are forgiven.",
+   "seg_start": 217.122,
+   "audio_start": 217.402,
+   "spoken_end": 218.729,
+   "seg_end": 220.329,
+   "audio_dur": 1.698,
+   "spoken_dur": 1.326,
+   "seg_dur": 3.206,
+   "timing": [
+    {
+     "text": "Thy sins are forgiven.",
+     "start": 0.0,
+     "end": 1.672
+    }
+   ]
+  },
+  {
+   "seg": "n9b",
+   "v1_still": "s8-go-in-peace.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He said it out loud, at a full table, in front of every important man in that town, to the one person in the room everybody there had already written off.",
+   "seg_start": 220.329,
+   "audio_start": 220.609,
+   "spoken_end": 229.383,
+   "seg_end": 230.033,
+   "audio_dur": 9.221,
+   "spoken_dur": 8.774,
+   "seg_dur": 9.704,
+   "timing": [
+    {
+     "text": "He said it out loud, at a full table, in front of every important man in that town, to the one person in the room everybody there had already written off.",
+     "start": 0.0,
+     "end": 9.195
+    }
+   ]
+  },
+  {
+   "seg": "j5",
+   "v1_still": "s8-go-in-peace.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Thy faith hath saved thee; go in peace.",
+   "seg_start": 230.033,
+   "audio_start": 230.313,
+   "spoken_end": 232.651,
+   "seg_end": 234.251,
+   "audio_dur": 2.743,
+   "spoken_dur": 2.339,
+   "seg_dur": 4.219,
+   "timing": [
+    {
+     "text": "Thy faith hath saved thee; go in peace.",
+     "start": 0.0,
+     "end": 2.694
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s8-go-in-peace.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "She came in as the woman everybody had already judged. She walked out saved, and at peace, and loved. And here is the quiet danger in Simon's seat at the table. If you are sure you are only a small sinner, you will only ever be a small lover of God. But let yourself be the one forgiven much, and you get to be the one who loves much. That was never the punishment. That is the gift.",
+   "seg_start": 234.251,
+   "audio_start": 234.531,
+   "spoken_end": 257.975,
+   "seg_end": 258.625,
+   "audio_dur": 23.954,
+   "spoken_dur": 23.444,
+   "seg_dur": 24.374,
+   "timing": [
+    {
+     "text": "She came in as the woman everybody had already judged.",
+     "start": 0.0,
+     "end": 2.461
+    },
+    {
+     "text": "She walked out saved, and at peace, and loved.",
+     "start": 2.461,
+     "end": 6.2
+    },
+    {
+     "text": "And here is the quiet danger in Simon's seat at the table.",
+     "start": 6.2,
+     "end": 9.451
+    },
+    {
+     "text": "If you are sure you are only a small sinner, you will only ever be a small lover of God.",
+     "start": 9.451,
+     "end": 15.14
+    },
+    {
+     "text": "But let yourself be the one forgiven much, and you get to be the one who loves much.",
+     "start": 15.14,
+     "end": 20.48
+    },
+    {
+     "text": "That was never the punishment.",
+     "start": 20.48,
+     "end": 22.419
+    },
+    {
+     "text": "That is the gift.",
+     "start": 22.419,
+     "end": 23.917
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "The woman knew exactly how much she had been forgiven, and it made her fearless with love. How much do you believe you have been forgiven?",
+  "seg_start": 258.625,
+  "audio_start": 258.905,
+  "seg_dur": 9.617
+ },
+ "total": 268.242
+}

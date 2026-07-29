@@ -1,0 +1,353 @@
+{
+ "row": 122,
+ "slug": "build-122-mote-and-beam",
+ "v1_dir": "media-production/build-122-mote-and-beam",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-the-crowd-listening.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Of all the things Jesus taught on that hillside, one of them cuts straight to how we treat each other \u2014 and it starts with a warning we would rather skip.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 8.521,
+   "seg_end": 9.171,
+   "audio_dur": 8.725,
+   "spoken_dur": 8.241,
+   "seg_dur": 9.171,
+   "timing": [
+    {
+     "text": "Of all the things Jesus taught on that hillside, one of them cuts straight to how we treat each other \u2014 and it starts with a warning we would rather skip.",
+     "start": 0.0,
+     "end": 8.684
+    }
+   ]
+  },
+  {
+   "seg": "jvA",
+   "v1_still": "s2-the-critical-eye.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Judge not, that ye be not judged. For with what judgment ye judge, ye shall be judged: and with what measure ye mete, it shall be measured to you again.",
+   "seg_start": 9.171,
+   "audio_start": 9.451,
+   "spoken_end": 20.195,
+   "seg_end": 21.795,
+   "audio_dur": 11.128,
+   "spoken_dur": 10.744,
+   "seg_dur": 12.624,
+   "timing": [
+    {
+     "text": "Judge not, that ye be not judged.",
+     "start": 0.0,
+     "end": 2.276
+    },
+    {
+     "text": "For with what judgment ye judge, ye shall be judged: and with what measure ye mete, it shall be measured to you again.",
+     "start": 2.276,
+     "end": 11.099
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s3-the-tiny-mote.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Don't set yourself up as the judge, he said, because whatever standard you hold other people to is the one that will be held up to you. And we are experts at spotting the small faults in someone else. A tiny speck, a mote, in our brother's eye \u2014 and we cannot wait to point it out. So he asked a question.",
+   "seg_start": 21.795,
+   "audio_start": 22.075,
+   "spoken_end": 42.255,
+   "seg_end": 42.905,
+   "audio_dur": 20.793,
+   "spoken_dur": 20.18,
+   "seg_dur": 21.11,
+   "timing": [
+    {
+     "text": "Don't set yourself up as the judge, he said, because whatever standard you hold other people to is the one that will be held up to you.",
+     "start": 0.0,
+     "end": 7.976
+    },
+    {
+     "text": "And we are experts at spotting the small faults in someone else.",
+     "start": 7.976,
+     "end": 12.458
+    },
+    {
+     "text": "A tiny speck, a mote, in our brother's eye \u2014 and we cannot wait to point it out.",
+     "start": 12.458,
+     "end": 18.785
+    },
+    {
+     "text": "So he asked a question.",
+     "start": 18.785,
+     "end": 20.527
+    }
+   ]
+  },
+  {
+   "seg": "jv3",
+   "v1_still": "s3-the-tiny-mote.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "And why beholdest thou the mote that is in thy brother's eye, but considerest not the beam that is in thine own eye?",
+   "seg_start": 42.905,
+   "audio_start": 43.185,
+   "spoken_end": 50.299,
+   "seg_end": 51.899,
+   "audio_dur": 7.549,
+   "spoken_dur": 7.114,
+   "seg_dur": 8.994,
+   "timing": [
+    {
+     "text": "And why beholdest thou the mote that is in thy brother's eye, but considerest not the beam that is in thine own eye?",
+     "start": 0.0,
+     "end": 7.523
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s4-the-beam-revealed.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Why do you stare at the speck of sawdust in your brother's eye, he asked, and never once notice the plank in your own? Then he drew the picture out until it was absurd enough to make you laugh.",
+   "seg_start": 51.899,
+   "audio_start": 52.179,
+   "spoken_end": 62.666,
+   "seg_end": 63.316,
+   "audio_dur": 10.893,
+   "spoken_dur": 10.487,
+   "seg_dur": 11.417,
+   "timing": [
+    {
+     "text": "Why do you stare at the speck of sawdust in your brother's eye, he asked, and never once notice the plank in your own?",
+     "start": 0.0,
+     "end": 6.769
+    },
+    {
+     "text": "Then he drew the picture out until it was absurd enough to make you laugh.",
+     "start": 6.769,
+     "end": 10.867
+    }
+   ]
+  },
+  {
+   "seg": "jv4",
+   "v1_still": "s4-the-beam-revealed.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Or how wilt thou say to thy brother, Let me pull out the mote out of thine eye; and, behold, a beam is in thine own eye?",
+   "seg_start": 63.316,
+   "audio_start": 63.596,
+   "spoken_end": 71.313,
+   "seg_end": 72.913,
+   "audio_dur": 8.124,
+   "spoken_dur": 7.717,
+   "seg_dur": 9.597,
+   "timing": [
+    {
+     "text": "Or how wilt thou say to thy brother, Let me pull out the mote out of thine eye; and, behold, a beam is in thine own eye?",
+     "start": 0.0,
+     "end": 8.081
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s5-blundering-about.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Picture it. A man leaning in, saying hold still, let me get that little speck out for you \u2014 with an entire wooden beam sticking straight out of his own head. He cannot even see straight. The beam is in the way of everything he does. And yet he is completely sure that he is the one who ought to be fixing other people.",
+   "seg_start": 72.913,
+   "audio_start": 73.193,
+   "spoken_end": 92.044,
+   "seg_end": 92.694,
+   "audio_dur": 19.252,
+   "spoken_dur": 18.851,
+   "seg_dur": 19.781,
+   "timing": [
+    {
+     "text": "Picture it.",
+     "start": 0.0,
+     "end": 0.755
+    },
+    {
+     "text": "A man leaning in, saying hold still, let me get that little speck out for you \u2014 with an entire wooden beam sticking straight out of his own head.",
+     "start": 0.755,
+     "end": 9.95
+    },
+    {
+     "text": "He cannot even see straight.",
+     "start": 9.95,
+     "end": 11.889
+    },
+    {
+     "text": "The beam is in the way of everything he does.",
+     "start": 11.889,
+     "end": 14.524
+    },
+    {
+     "text": "And yet he is completely sure that he is the one who ought to be fixing other people.",
+     "start": 14.524,
+     "end": 19.226
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s6-the-moment-he-sees-it.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And then, if we are honest, the moment finally comes when we catch sight of the beam. Not his. Ours. The one we had been carrying the whole time.",
+   "seg_start": 92.694,
+   "audio_start": 92.974,
+   "spoken_end": 103.937,
+   "seg_end": 104.587,
+   "audio_dur": 11.363,
+   "spoken_dur": 10.963,
+   "seg_dur": 11.893,
+   "timing": [
+    {
+     "text": "And then, if we are honest, the moment finally comes when we catch sight of the beam.",
+     "start": 0.0,
+     "end": 5.805
+    },
+    {
+     "text": "Not his.",
+     "start": 5.805,
+     "end": 7.546
+    },
+    {
+     "text": "Ours.",
+     "start": 7.546,
+     "end": 8.766
+    },
+    {
+     "text": "The one we had been carrying the whole time.",
+     "start": 8.766,
+     "end": 11.331
+    }
+   ]
+  },
+  {
+   "seg": "jvB",
+   "v1_still": "s7-casting-out-the-beam.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Thou hypocrite, first cast out the beam out of thine own eye; and then shalt thou see clearly to cast out the mote out of thy brother's eye.",
+   "seg_start": 104.587,
+   "audio_start": 104.867,
+   "spoken_end": 112.617,
+   "seg_end": 114.217,
+   "audio_dur": 8.176,
+   "spoken_dur": 7.749,
+   "seg_dur": 9.629,
+   "timing": [
+    {
+     "text": "Thou hypocrite, first cast out the beam out of thine own eye; and then shalt thou see clearly to cast out the mote out of thy brother's eye.",
+     "start": 0.0,
+     "end": 8.127
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s8-now-he-sees-clearly.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Notice he does not say ignore your brother's speck. He says deal with your own beam first \u2014 and then you will actually be able to help him, gently, instead of just condemning him.",
+   "seg_start": 114.217,
+   "audio_start": 114.497,
+   "spoken_end": 124.904,
+   "seg_end": 125.554,
+   "audio_dur": 10.815,
+   "spoken_dur": 10.408,
+   "seg_dur": 11.338,
+   "timing": [
+    {
+     "text": "Notice he does not say ignore your brother's speck.",
+     "start": 0.0,
+     "end": 2.543
+    },
+    {
+     "text": "He says deal with your own beam first \u2014 and then you will actually be able to help him, gently, instead of just condemning him.",
+     "start": 2.543,
+     "end": 10.774
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s9-gently-helping.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The goal was never to stop caring about each other. It was to come to each other humble instead of superior \u2014 as one flawed person helping another, not a judge passing a sentence.",
+   "seg_start": 125.554,
+   "audio_start": 125.834,
+   "spoken_end": 136.977,
+   "seg_end": 137.627,
+   "audio_dur": 11.546,
+   "spoken_dur": 11.143,
+   "seg_dur": 12.073,
+   "timing": [
+    {
+     "text": "The goal was never to stop caring about each other.",
+     "start": 0.0,
+     "end": 2.357
+    },
+    {
+     "text": "It was to come to each other humble instead of superior \u2014 as one flawed person helping another, not a judge passing a sentence.",
+     "start": 2.357,
+     "end": 11.517
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s10-two-brothers-at-peace.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The measure you use is the measure you will get back. So Jesus offers a better one: mercy. Deal honestly with yourself, and you will be amazed how much patience you suddenly have for everyone else.",
+   "seg_start": 137.627,
+   "audio_start": 137.907,
+   "spoken_end": 150.402,
+   "seg_end": 151.052,
+   "audio_dur": 12.957,
+   "spoken_dur": 12.495,
+   "seg_dur": 13.425,
+   "timing": [
+    {
+     "text": "The measure you use is the measure you will get back.",
+     "start": 0.0,
+     "end": 2.81
+    },
+    {
+     "text": "So Jesus offers a better one: mercy.",
+     "start": 2.81,
+     "end": 6.165
+    },
+    {
+     "text": "Deal honestly with yourself, and you will be amazed how much patience you suddenly have for everyone else.",
+     "start": 6.165,
+     "end": 12.91
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "Jesus was not telling us to stop seeing clearly \u2014 he was telling us where to start: with the beam in our own eye. Deal with that, and our eyes for other people fill with mercy instead of judgment. Whose speck have you been watching, while a beam waited in your own eye?",
+  "seg_start": 151.052,
+  "audio_start": 151.332,
+  "seg_dur": 19.047
+ },
+ "total": 170.099
+}

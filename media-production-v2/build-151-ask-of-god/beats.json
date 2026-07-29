@@ -1,0 +1,347 @@
+{
+ "row": 151,
+ "slug": "build-151-ask-of-god",
+ "v1_dir": "media-production/build-151-ask-of-god",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-lacking-wisdom.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Sooner or later, every one of us reaches a question too big for us. A fork in the road, a choice we cannot reason our way through, a doubt we cannot settle on our own. We lack wisdom, and trying harder does not seem to give it.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 13.172,
+   "seg_end": 13.822,
+   "audio_dur": 13.322,
+   "spoken_dur": 12.892,
+   "seg_dur": 13.822,
+   "timing": [
+    {
+     "text": "Sooner or later, every one of us reaches a question too big for us.",
+     "start": 0.0,
+     "end": 3.704
+    },
+    {
+     "text": "A fork in the road, a choice we cannot reason our way through, a doubt we cannot settle on our own.",
+     "start": 3.704,
+     "end": 9.822
+    },
+    {
+     "text": "We lack wisdom, and trying harder does not seem to give it.",
+     "start": 9.822,
+     "end": 13.282
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-many-voices.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "When that happens, most of us ask everyone around us. Friends, teachers, the loudest voices in the crowd. And often we come away more tangled than before, because the answers all disagree with each other.",
+   "seg_start": 13.822,
+   "audio_start": 14.102,
+   "spoken_end": 27.142,
+   "seg_end": 27.792,
+   "audio_dur": 13.401,
+   "spoken_dur": 13.039,
+   "seg_dur": 13.969,
+   "timing": [
+    {
+     "text": "When that happens, most of us ask everyone around us.",
+     "start": 0.0,
+     "end": 2.81
+    },
+    {
+     "text": "Friends, teachers, the loudest voices in the crowd.",
+     "start": 2.81,
+     "end": 6.885
+    },
+    {
+     "text": "And often we come away more tangled than before, because the answers all disagree with each other.",
+     "start": 6.885,
+     "end": 13.375
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-the-quiet-place.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But there is another door, and it has been standing open the whole time. You can go straight to the One who made you and simply ask. Not only a teacher, not only a book, but God himself, directly.",
+   "seg_start": 27.792,
+   "audio_start": 28.072,
+   "spoken_end": 40.397,
+   "seg_end": 41.047,
+   "audio_dur": 12.722,
+   "spoken_dur": 12.325,
+   "seg_dur": 13.255,
+   "timing": [
+    {
+     "text": "But there is another door, and it has been standing open the whole time.",
+     "start": 0.0,
+     "end": 4.133
+    },
+    {
+     "text": "You can go straight to the One who made you and simply ask.",
+     "start": 4.133,
+     "end": 7.709
+    },
+    {
+     "text": "Not only a teacher, not only a book, but God himself, directly.",
+     "start": 7.709,
+     "end": 12.678
+    }
+   ]
+  },
+  {
+   "seg": "kv5",
+   "v1_still": "s4-kneeling-to-ask.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him.",
+   "seg_start": 41.047,
+   "audio_start": 41.327,
+   "spoken_end": 48.751,
+   "seg_end": 50.351,
+   "audio_dur": 7.784,
+   "spoken_dur": 7.424,
+   "seg_dur": 9.304,
+   "timing": [
+    {
+     "text": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him.",
+     "start": 0.0,
+     "end": 7.755
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-kneeling-to-ask.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "So a young man does the plainest thing there is. He finds a quiet place away from the noise, he kneels down, and he asks. Honestly, out loud, the way a child asks a father who is glad to be asked.",
+   "seg_start": 50.351,
+   "audio_start": 50.631,
+   "spoken_end": 62.136,
+   "seg_end": 62.786,
+   "audio_dur": 11.886,
+   "spoken_dur": 11.505,
+   "seg_dur": 12.435,
+   "timing": [
+    {
+     "text": "So a young man does the plainest thing there is.",
+     "start": 0.0,
+     "end": 2.334
+    },
+    {
+     "text": "He finds a quiet place away from the noise, he kneels down, and he asks.",
+     "start": 2.334,
+     "end": 7.094
+    },
+    {
+     "text": "Honestly, out loud, the way a child asks a father who is glad to be asked.",
+     "start": 7.094,
+     "end": 11.842
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-given-liberally.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Now look at how God is described here. He gives to everyone who asks. Not grudgingly, not a thin trickle measured out drop by drop, but openly and generously, more than the person even came for.",
+   "seg_start": 62.786,
+   "audio_start": 63.066,
+   "spoken_end": 74.765,
+   "seg_end": 75.415,
+   "audio_dur": 12.121,
+   "spoken_dur": 11.699,
+   "seg_dur": 12.629,
+   "timing": [
+    {
+     "text": "Now look at how God is described here.",
+     "start": 0.0,
+     "end": 1.846
+    },
+    {
+     "text": "He gives to everyone who asks.",
+     "start": 1.846,
+     "end": 4.098
+    },
+    {
+     "text": "Not grudgingly, not a thin trickle measured out drop by drop, but openly and generously, more than the person even came for.",
+     "start": 4.098,
+     "end": 12.074
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6-upbraideth-not.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And he does not scold. He does not shame you for not knowing, or hold your past against you, or make you feel small for coming late to ask. He simply gives. That is the kind of God this verse is describing.",
+   "seg_start": 75.415,
+   "audio_start": 75.695,
+   "spoken_end": 88.556,
+   "seg_end": 89.206,
+   "audio_dur": 13.218,
+   "spoken_dur": 12.861,
+   "seg_dur": 13.791,
+   "timing": [
+    {
+     "text": "And he does not scold.",
+     "start": 0.0,
+     "end": 1.231
+    },
+    {
+     "text": "He does not shame you for not knowing, or hold your past against you, or make you feel small for coming late to ask.",
+     "start": 1.231,
+     "end": 8.731
+    },
+    {
+     "text": "He simply gives.",
+     "start": 8.731,
+     "end": 10.321
+    },
+    {
+     "text": "That is the kind of God this verse is describing.",
+     "start": 10.321,
+     "end": 13.189
+    }
+   ]
+  },
+  {
+   "seg": "kv6",
+   "v1_still": "s7-ask-in-faith.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "But let him ask in faith, nothing wavering.",
+   "seg_start": 89.206,
+   "audio_start": 89.486,
+   "spoken_end": 91.67,
+   "seg_end": 93.27,
+   "audio_dur": 2.508,
+   "spoken_dur": 2.183,
+   "seg_dur": 4.063,
+   "timing": [
+    {
+     "text": "But let him ask in faith, nothing wavering.",
+     "start": 0.0,
+     "end": 2.461
+    }
+   ]
+  },
+  {
+   "seg": "s6b",
+   "v1_still": "s7-ask-in-faith.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "For he that wavereth is like a wave of the sea driven with the wind and tossed.",
+   "seg_start": 93.27,
+   "audio_start": 93.55,
+   "spoken_end": 97.514,
+   "seg_end": 99.114,
+   "audio_dur": 4.415,
+   "spoken_dur": 3.964,
+   "seg_dur": 5.844,
+   "timing": [
+    {
+     "text": "For he that wavereth is like a wave of the sea driven with the wind and tossed.",
+     "start": 0.0,
+     "end": 4.365
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s7-ask-in-faith.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "There is one thing asked of us in return, and it is not cleverness. It is faith. To ask believing that he truly hears, and then to hold steady, without letting doubt quietly pull the question back apart before the answer comes.",
+   "seg_start": 99.114,
+   "audio_start": 99.394,
+   "spoken_end": 113.422,
+   "seg_end": 114.072,
+   "audio_dur": 14.393,
+   "spoken_dur": 14.028,
+   "seg_dur": 14.958,
+   "timing": [
+    {
+     "text": "There is one thing asked of us in return, and it is not cleverness.",
+     "start": 0.0,
+     "end": 3.727
+    },
+    {
+     "text": "It is faith.",
+     "start": 3.727,
+     "end": 5.039
+    },
+    {
+     "text": "To ask believing that he truly hears, and then to hold steady, without letting doubt quietly pull the question back apart before the answer comes.",
+     "start": 5.039,
+     "end": 14.35
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s8-it-shall-be-given.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And the promise on the end of that verse is not a maybe. It shall be given him. Wisdom you could never argue your way into can be given, to anyone, for the honest asking. So here is the only question left. What have you been trying to work out all alone, that you could ask him about instead?",
+   "seg_start": 114.072,
+   "audio_start": 114.352,
+   "spoken_end": 132.664,
+   "seg_end": 133.314,
+   "audio_dur": 18.651,
+   "spoken_dur": 18.312,
+   "seg_dur": 19.242,
+   "timing": [
+    {
+     "text": "And the promise on the end of that verse is not a maybe.",
+     "start": 0.0,
+     "end": 2.914
+    },
+    {
+     "text": "It shall be given him.",
+     "start": 2.914,
+     "end": 4.656
+    },
+    {
+     "text": "Wisdom you could never argue your way into can be given, to anyone, for the honest asking.",
+     "start": 4.656,
+     "end": 11.122
+    },
+    {
+     "text": "So here is the only question left.",
+     "start": 11.122,
+     "end": 13.584
+    },
+    {
+     "text": "What have you been trying to work out all alone, that you could ask him about instead?",
+     "start": 13.584,
+     "end": 18.622
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "You do not have to stay stuck. If you lack wisdom, ask of God. He gives to all, openly, and does not scold. Ask in faith, and it shall be given. What would you ask him?",
+  "seg_start": 133.314,
+  "audio_start": 133.594,
+  "seg_dur": 12.464
+ },
+ "total": 145.778
+}

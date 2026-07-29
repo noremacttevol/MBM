@@ -1,0 +1,193 @@
+{
+ "row": 139,
+ "slug": "build-139-lamp-on-a-stand",
+ "v1_dir": "media-production/build-139-lamp-on-a-stand",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-teaching-on-the-hillside.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 5.557,
+   "seg_end": 6.277,
+   "audio_dur": 5.616,
+   "spoken_dur": 5.277,
+   "seg_dur": 6.277,
+   "timing": [
+    {
+     "text": "Jesus was teaching a crowd on a mountainside.",
+     "start": 0.0,
+     "end": 2.454
+    },
+    {
+     "text": "He told them who they were before He told them what to do.",
+     "start": 2.454,
+     "end": 5.616
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s3-a-city-on-a-hill.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "-20%",
+   "seg_start": 6.277,
+   "audio_start": 6.557,
+   "spoken_end": 11.052,
+   "seg_end": 12.652,
+   "audio_dur": 4.911,
+   "spoken_dur": 4.496,
+   "seg_dur": 6.376,
+   "timing": [
+    {
+     "text": "Ye are the light of the world.",
+     "start": 0.0,
+     "end": 1.991
+    },
+    {
+     "text": "A city that is set on an hill cannot be hid.",
+     "start": 1.991,
+     "end": 4.911
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-onto-the-stand.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 12.652,
+   "audio_start": 12.932,
+   "spoken_end": 18.003,
+   "seg_end": 18.723,
+   "audio_dur": 5.433,
+   "spoken_dur": 5.071,
+   "seg_dur": 6.071,
+   "timing": [
+    {
+     "text": "Nobody lights a lamp and then hides it under a bowl.",
+     "start": 0.0,
+     "end": 2.825
+    },
+    {
+     "text": "You put it up where it can light the whole room.",
+     "start": 2.825,
+     "end": 5.433
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s5-out-from-under-the-bushel.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "-20%",
+   "seg_start": 18.723,
+   "audio_start": 19.003,
+   "spoken_end": 25.738,
+   "seg_end": 27.338,
+   "audio_dur": 7.131,
+   "spoken_dur": 6.735,
+   "seg_dur": 8.615,
+   "timing": [
+    {
+     "text": "Neither do men light a candle, and put it under a bushel, but on a candlestick; and it giveth light unto all that are in the house.",
+     "start": 0.0,
+     "end": 7.131
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s6-something-kindling.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 27.338,
+   "audio_start": 27.618,
+   "spoken_end": 35.972,
+   "seg_end": 36.692,
+   "audio_dur": 8.803,
+   "spoken_dur": 8.354,
+   "seg_dur": 9.354,
+   "timing": [
+    {
+     "text": "Not to be noticed \u2014 he was never after applause.",
+     "start": 0.0,
+     "end": 2.955
+    },
+    {
+     "text": "The point was that people would see something good in a life and be drawn to the God behind it.",
+     "start": 2.955,
+     "end": 8.803
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": "s4-ye-are-the-light.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "-22%",
+   "seg_start": 36.692,
+   "audio_start": 36.972,
+   "spoken_end": 42.476,
+   "seg_end": 44.076,
+   "audio_dur": 5.982,
+   "spoken_dur": 5.504,
+   "seg_dur": 7.384,
+   "timing": [
+    {
+     "text": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.",
+     "start": 0.0,
+     "end": 5.982
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s7-light-to-every-corner.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 44.076,
+   "audio_start": 44.356,
+   "spoken_end": 47.318,
+   "seg_end": 48.038,
+   "audio_dur": 3.344,
+   "spoken_dur": 2.962,
+   "seg_dur": 3.962,
+   "timing": [
+    {
+     "text": "You were lit on purpose.",
+     "start": 0.0,
+     "end": 1.316
+    },
+    {
+     "text": "You were put on the stand on purpose.",
+     "start": 1.316,
+     "end": 3.344
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "-22%",
+  "seg_start": 48.038,
+  "audio_start": 48.318,
+  "seg_dur": 4.706
+ },
+ "total": 52.743
+}

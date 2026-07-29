@@ -1,0 +1,614 @@
+{
+ "row": 13,
+ "slug": "build-13-roof",
+ "v1_dir": "media-production/build-13-roof",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-carried.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Capernaum, on the north shore of the Sea of Galilee. Jesus was home \u2014 and the word got out. By the time four men came up the street carrying their friend on a sleeping mat, one at each corner, the house he was teaching in had already swallowed half the town. The man on the mat was paralyzed. He could not walk to Jesus. So the people who loved him decided he would get there anyway.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 21.819,
+   "seg_end": 22.469,
+   "audio_dur": 21.969,
+   "spoken_dur": 21.539,
+   "seg_dur": 22.469,
+   "timing": [
+    {
+     "text": "Capernaum, on the north shore of the Sea of Galilee.",
+     "start": 0.0,
+     "end": 3.022
+    },
+    {
+     "text": "Jesus was home \u2014 and the word got out.",
+     "start": 3.022,
+     "end": 5.231
+    },
+    {
+     "text": "By the time four men came up the street carrying their friend on a sleeping mat, one at each corner, the house he was teaching in had already swallowed half the town.",
+     "start": 5.231,
+     "end": 14.878
+    },
+    {
+     "text": "The man on the mat was paralyzed.",
+     "start": 14.878,
+     "end": 16.796
+    },
+    {
+     "text": "He could not walk to Jesus.",
+     "start": 16.796,
+     "end": 18.366
+    },
+    {
+     "text": "So the people who loved him decided he would get there anyway.",
+     "start": 18.366,
+     "end": 21.969
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-no-way-through.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But the doorway was a wall of backs. People packed the room, packed the doorway, spilled into the street \u2014 no one was giving up a spot, not even for a man on a mat. Four friends stood there breathing hard, holding their friend, staring at an impossible crowd. And then one of them looked up. At the roof.",
+   "seg_start": 22.469,
+   "audio_start": 22.749,
+   "spoken_end": 42.372,
+   "seg_end": 43.022,
+   "audio_dur": 20.297,
+   "spoken_dur": 19.622,
+   "seg_dur": 20.552,
+   "timing": [
+    {
+     "text": "But the doorway was a wall of backs.",
+     "start": 0.0,
+     "end": 2.436
+    },
+    {
+     "text": "People packed the room, packed the doorway, spilled into the street \u2014 no one was giving up a spot, not even for a man on a mat.",
+     "start": 2.436,
+     "end": 11.028
+    },
+    {
+     "text": "Four friends stood there breathing hard, holding their friend, staring at an impossible crowd.",
+     "start": 11.028,
+     "end": 17.388
+    },
+    {
+     "text": "And then one of them looked up.",
+     "start": 17.388,
+     "end": 19.485
+    },
+    {
+     "text": "At the roof.",
+     "start": 19.485,
+     "end": 20.297
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s3-digging.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Here is something worth knowing: houses there had flat roofs of packed clay over reeds and beams, with a stairway up the outside wall. You could dig through one with your hands in a few minutes \u2014 and patch it in a day. Which is exactly what they did. Four men on a stranger's roof, tearing through the clay, coughing in the dust, grinning at each other like men doing something magnificent and slightly insane.",
+   "seg_start": 43.022,
+   "audio_start": 43.302,
+   "spoken_end": 68.009,
+   "seg_end": 68.659,
+   "audio_dur": 25.104,
+   "spoken_dur": 24.708,
+   "seg_dur": 25.638,
+   "timing": [
+    {
+     "text": "Here is something worth knowing: houses there had flat roofs of packed clay over reeds and beams, with a stairway up the outside wall.",
+     "start": 0.0,
+     "end": 8.265
+    },
+    {
+     "text": "You could dig through one with your hands in a few minutes \u2014 and patch it in a day.",
+     "start": 8.265,
+     "end": 13.385
+    },
+    {
+     "text": "Which is exactly what they did.",
+     "start": 13.385,
+     "end": 15.297
+    },
+    {
+     "text": "Four men on a stranger's roof, tearing through the clay, coughing in the dust, grinning at each other like men doing something magnificent and slightly insane.",
+     "start": 15.297,
+     "end": 25.104
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s4-lowered.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Below them, in the middle of the sermon, the ceiling cracked open. Daylight poured into the dark room through falling dust and straw. And down through that column of light, swaying on four ropes, lowered with enormous care, came a man on a mat \u2014 landing right at the feet of Jesus.",
+   "seg_start": 68.659,
+   "audio_start": 68.939,
+   "spoken_end": 86.27,
+   "seg_end": 86.92,
+   "audio_dur": 17.685,
+   "spoken_dur": 17.331,
+   "seg_dur": 18.261,
+   "timing": [
+    {
+     "text": "Below them, in the middle of the sermon, the ceiling cracked open.",
+     "start": 0.0,
+     "end": 4.184
+    },
+    {
+     "text": "Daylight poured into the dark room through falling dust and straw.",
+     "start": 4.184,
+     "end": 8.367
+    },
+    {
+     "text": "And down through that column of light, swaying on four ropes, lowered with enormous care, came a man on a mat \u2014 landing right at the feet of Jesus.",
+     "start": 8.367,
+     "end": 17.685
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s5-their-faith.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Now listen to what the story says next, because it is easy to miss. When Jesus saw their faith \u2014 theirs. The friends'. The four sweat-streaked faces ringing the hole in the roof. The man on the mat hadn't said a word. His friends' faith counted for him. He was carried there \u2014 and heaven honored the carrying.",
+   "seg_start": 86.92,
+   "audio_start": 87.2,
+   "spoken_end": 106.813,
+   "seg_end": 107.463,
+   "audio_dur": 19.958,
+   "spoken_dur": 19.613,
+   "seg_dur": 20.543,
+   "timing": [
+    {
+     "text": "Now listen to what the story says next, because it is easy to miss.",
+     "start": 0.0,
+     "end": 4.413
+    },
+    {
+     "text": "When Jesus saw their faith \u2014 theirs.",
+     "start": 4.413,
+     "end": 6.784
+    },
+    {
+     "text": "The friends'.",
+     "start": 6.784,
+     "end": 7.641
+    },
+    {
+     "text": "The four sweat-streaked faces ringing the hole in the roof.",
+     "start": 7.641,
+     "end": 11.527
+    },
+    {
+     "text": "The man on the mat hadn't said a word.",
+     "start": 11.527,
+     "end": 14.03
+    },
+    {
+     "text": "His friends' faith counted for him.",
+     "start": 14.03,
+     "end": 16.335
+    },
+    {
+     "text": "He was carried there \u2014 and heaven honored the carrying.",
+     "start": 16.335,
+     "end": 19.958
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s6-deepest-wound.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And Jesus looked at the man lying in the dusty light \u2014 a man braced for words about his legs \u2014 and the first thing he said was not about his legs at all.",
+   "seg_start": 107.463,
+   "audio_start": 107.743,
+   "spoken_end": 115.965,
+   "seg_end": 116.615,
+   "audio_dur": 8.594,
+   "spoken_dur": 8.221,
+   "seg_dur": 9.151,
+   "timing": [
+    {
+     "text": "And Jesus looked at the man lying in the dusty light \u2014 a man braced for words about his legs \u2014 and the first thing he said was not about his legs at all.",
+     "start": 0.0,
+     "end": 8.594
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s6-deepest-wound.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Son, thy sins be forgiven thee.",
+   "seg_start": 116.615,
+   "audio_start": 116.895,
+   "spoken_end": 118.355,
+   "seg_end": 119.955,
+   "audio_dur": 1.698,
+   "spoken_dur": 1.461,
+   "seg_dur": 3.341,
+   "timing": [
+    {
+     "text": "Son, thy sins be forgiven thee.",
+     "start": 0.0,
+     "end": 1.698
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6-deepest-wound.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The first word was son. Not a diagnosis. Not a lecture about his legs. Son \u2014 and then forgiveness. In that world, everyone assumed a body like his was the proof of some hidden guilt \u2014 he had carried the shame along with the paralysis his whole life. Jesus went to the deepest wound first. His legs had not moved yet. And it was already the miracle.",
+   "seg_start": 119.955,
+   "audio_start": 120.235,
+   "spoken_end": 143.843,
+   "seg_end": 144.493,
+   "audio_dur": 24.007,
+   "spoken_dur": 23.608,
+   "seg_dur": 24.538,
+   "timing": [
+    {
+     "text": "The first word was son.",
+     "start": 0.0,
+     "end": 1.619
+    },
+    {
+     "text": "Not a diagnosis.",
+     "start": 1.619,
+     "end": 2.746
+    },
+    {
+     "text": "Not a lecture about his legs.",
+     "start": 2.746,
+     "end": 4.787
+    },
+    {
+     "text": "Son \u2014 and then forgiveness.",
+     "start": 4.787,
+     "end": 6.688
+    },
+    {
+     "text": "In that world, everyone assumed a body like his was the proof of some hidden guilt \u2014 he had carried the shame along with the paralysis his whole life.",
+     "start": 6.688,
+     "end": 17.248
+    },
+    {
+     "text": "Jesus went to the deepest wound first.",
+     "start": 17.248,
+     "end": 19.923
+    },
+    {
+     "text": "His legs had not moved yet.",
+     "start": 19.923,
+     "end": 21.824
+    },
+    {
+     "text": "And it was already the miracle.",
+     "start": 21.824,
+     "end": 24.007
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s7-scribes.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But in the corner sat the scribes \u2014 the religious experts \u2014 and nothing about this made them glad. They didn't say a word out loud. They reasoned it in their hearts: this is blasphemy. And on the logic, they were exactly right. That was the point they refused to see.",
+   "seg_start": 144.493,
+   "audio_start": 144.773,
+   "spoken_end": 162.353,
+   "seg_end": 163.003,
+   "audio_dur": 17.972,
+   "spoken_dur": 17.58,
+   "seg_dur": 18.51,
+   "timing": [
+    {
+     "text": "But in the corner sat the scribes \u2014 the religious experts \u2014 and nothing about this made them glad.",
+     "start": 0.0,
+     "end": 6.697
+    },
+    {
+     "text": "They didn't say a word out loud.",
+     "start": 6.697,
+     "end": 8.884
+    },
+    {
+     "text": "They reasoned it in their hearts: this is blasphemy.",
+     "start": 8.884,
+     "end": 12.437
+    },
+    {
+     "text": "And on the logic, they were exactly right.",
+     "start": 12.437,
+     "end": 15.307
+    },
+    {
+     "text": "That was the point they refused to see.",
+     "start": 15.307,
+     "end": 17.972
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "v1_still": "s7-scribes.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Why doth this man thus speak blasphemies? who can forgive sins but God only?",
+   "seg_start": 163.003,
+   "audio_start": 163.283,
+   "spoken_end": 167.603,
+   "seg_end": 169.203,
+   "audio_dur": 4.676,
+   "spoken_dur": 4.32,
+   "seg_dur": 6.2,
+   "timing": [
+    {
+     "text": "Why doth this man thus speak blasphemies?",
+     "start": 0.0,
+     "end": 2.556
+    },
+    {
+     "text": "who can forgive sins but God only?",
+     "start": 2.556,
+     "end": 4.676
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s8-answered-thoughts.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And then came the strangest moment in that room \u2014 stranger than the ceiling. Jesus knew what they were thinking. They had said nothing, and he answered them anyway:",
+   "seg_start": 169.203,
+   "audio_start": 169.483,
+   "spoken_end": 178.631,
+   "seg_end": 179.281,
+   "audio_dur": 9.509,
+   "spoken_dur": 9.148,
+   "seg_dur": 10.078,
+   "timing": [
+    {
+     "text": "And then came the strangest moment in that room \u2014 stranger than the ceiling.",
+     "start": 0.0,
+     "end": 4.461
+    },
+    {
+     "text": "Jesus knew what they were thinking.",
+     "start": 4.461,
+     "end": 6.515
+    },
+    {
+     "text": "They had said nothing, and he answered them anyway:",
+     "start": 6.515,
+     "end": 9.509
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s8-answered-thoughts.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Whether is it easier to say to the sick of the palsy, Thy sins be forgiven thee; or to say, Arise, and take up thy bed, and walk?",
+   "seg_start": 179.281,
+   "audio_start": 179.561,
+   "spoken_end": 187.195,
+   "seg_end": 188.795,
+   "audio_dur": 8.124,
+   "spoken_dur": 7.634,
+   "seg_dur": 9.514,
+   "timing": [
+    {
+     "text": "Whether is it easier to say to the sick of the palsy, Thy sins be forgiven thee; or to say, Arise, and take up thy bed, and walk?",
+     "start": 0.0,
+     "end": 8.124
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s8-answered-thoughts.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He was asking them: which is easier to say? Anyone can announce that sins are forgiven \u2014 no one can check. But tell a paralyzed man to stand, and everyone in the room finds out in a second what your words are worth. So \u2014 he said \u2014 so that you will know the forgiveness was real, watch this. He turned back to the man on the mat:",
+   "seg_start": 188.795,
+   "audio_start": 189.075,
+   "spoken_end": 210.396,
+   "seg_end": 211.046,
+   "audio_dur": 21.682,
+   "spoken_dur": 21.32,
+   "seg_dur": 22.25,
+   "timing": [
+    {
+     "text": "He was asking them: which is easier to say?",
+     "start": 0.0,
+     "end": 2.878
+    },
+    {
+     "text": "Anyone can announce that sins are forgiven \u2014 no one can check.",
+     "start": 2.878,
+     "end": 7.026
+    },
+    {
+     "text": "But tell a paralyzed man to stand, and everyone in the room finds out in a second what your words are worth.",
+     "start": 7.026,
+     "end": 14.254
+    },
+    {
+     "text": "So \u2014 he said \u2014 so that you will know the forgiveness was real, watch this.",
+     "start": 14.254,
+     "end": 19.206
+    },
+    {
+     "text": "He turned back to the man on the mat:",
+     "start": 19.206,
+     "end": 21.682
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": "s6-deepest-wound.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "I say unto thee, Arise, and take up thy bed, and go thy way into thine house.",
+   "seg_start": 211.046,
+   "audio_start": 211.326,
+   "spoken_end": 214.688,
+   "seg_end": 216.288,
+   "audio_dur": 3.944,
+   "spoken_dur": 3.362,
+   "seg_dur": 5.242,
+   "timing": [
+    {
+     "text": "I say unto thee, Arise, and take up thy bed, and go thy way into thine house.",
+     "start": 0.0,
+     "end": 3.944
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s9-arise.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And immediately, he did. He stood \u2014 on legs trembling like a newborn colt's \u2014 while the crowd pulled back and the dust floated in the light.",
+   "seg_start": 216.288,
+   "audio_start": 216.568,
+   "spoken_end": 224.954,
+   "seg_end": 225.604,
+   "audio_dur": 8.777,
+   "spoken_dur": 8.386,
+   "seg_dur": 9.316,
+   "timing": [
+    {
+     "text": "And immediately, he did.",
+     "start": 0.0,
+     "end": 1.515
+    },
+    {
+     "text": "He stood \u2014 on legs trembling like a newborn colt's \u2014 while the crowd pulled back and the dust floated in the light.",
+     "start": 1.515,
+     "end": 8.777
+    }
+   ]
+  },
+  {
+   "seg": "n10b",
+   "v1_still": "s9b-holding-mat.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Then he bent down, rolled up his mat, and tucked it under his arm. The bed that had carried him, he carried home.",
+   "seg_start": 225.604,
+   "audio_start": 225.884,
+   "spoken_end": 231.556,
+   "seg_end": 232.206,
+   "audio_dur": 6.034,
+   "spoken_dur": 5.672,
+   "seg_dur": 6.602,
+   "timing": [
+    {
+     "text": "Then he bent down, rolled up his mat, and tucked it under his arm.",
+     "start": 0.0,
+     "end": 3.556
+    },
+    {
+     "text": "The bed that had carried him, he carried home.",
+     "start": 3.556,
+     "end": 6.034
+    }
+   ]
+  },
+  {
+   "seg": "n11",
+   "v1_still": "s10-out-the-door.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He walked out the door in front of everyone \u2014 through the same crowd that had no room for him an hour before. They made room now. Mark says they were all amazed, and gave the glory to God, and said to each other: we have never seen anything like this. And up on the roofline, four filthy, grinning friends pounded each other's shoulders and laughed toward heaven.",
+   "seg_start": 232.206,
+   "audio_start": 232.486,
+   "spoken_end": 253.614,
+   "seg_end": 254.264,
+   "audio_dur": 21.499,
+   "spoken_dur": 21.128,
+   "seg_dur": 22.058,
+   "timing": [
+    {
+     "text": "He walked out the door in front of everyone \u2014 through the same crowd that had no room for him an hour before.",
+     "start": 0.0,
+     "end": 6.509
+    },
+    {
+     "text": "They made room now.",
+     "start": 6.509,
+     "end": 7.644
+    },
+    {
+     "text": "Mark says they were all amazed, and gave the glory to God, and said to each other: we have never seen anything like this.",
+     "start": 7.644,
+     "end": 14.87
+    },
+    {
+     "text": "And up on the roofline, four filthy, grinning friends pounded each other's shoulders and laughed toward heaven.",
+     "start": 14.87,
+     "end": 21.499
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "v1_still": "s10-out-the-door.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "We never saw it on this fashion.",
+   "seg_start": 254.264,
+   "audio_start": 254.544,
+   "spoken_end": 256.074,
+   "seg_end": 257.674,
+   "audio_dur": 1.855,
+   "spoken_dur": 1.53,
+   "seg_dur": 3.41,
+   "timing": [
+    {
+     "text": "We never saw it on this fashion.",
+     "start": 0.0,
+     "end": 1.855
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "n12",
+  "text": "Four people tore a roof open because their friend could not get there alone. His faith didn't carry him that day \u2014 theirs did, and heaven counted it. So here is the question this story leaves behind: where do you find yourself in that room? On the mat \u2014 or holding a rope?",
+  "seg_start": 257.674,
+  "audio_start": 257.954,
+  "seg_dur": 18.498
+ },
+ "total": 276.172
+}

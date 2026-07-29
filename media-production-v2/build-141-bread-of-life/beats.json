@@ -1,0 +1,188 @@
+{
+ "row": 141,
+ "slug": "build-141-bread-of-life",
+ "v1_dir": "media-production/build-141-bread-of-life",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-they-wanted-more-bread.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 7.601,
+   "seg_end": 8.321,
+   "audio_dur": 7.706,
+   "spoken_dur": 7.321,
+   "seg_dur": 8.321,
+   "timing": [
+    {
+     "text": "A crowd had followed Jesus after He fed thousands with a few loaves.",
+     "start": 0.0,
+     "end": 4.249
+    },
+    {
+     "text": "They wanted more bread.",
+     "start": 4.249,
+     "end": 5.666
+    },
+    {
+     "text": "He gave them something deeper.",
+     "start": 5.666,
+     "end": 7.663
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s2-the-miracles-remnant.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "-20%",
+   "seg_start": 8.321,
+   "audio_start": 8.601,
+   "spoken_end": 16.048,
+   "seg_end": 17.648,
+   "audio_dur": 7.706,
+   "spoken_dur": 7.447,
+   "seg_dur": 9.327,
+   "timing": [
+    {
+     "text": "I am the bread of life: he that cometh to me shall never hunger; and he that believeth on me shall never thirst.",
+     "start": 0.0,
+     "end": 7.663
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s3-hungry-for-more-than-food.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 17.648,
+   "audio_start": 17.928,
+   "spoken_end": 22.603,
+   "seg_end": 23.323,
+   "audio_dur": 5.094,
+   "spoken_dur": 4.675,
+   "seg_dur": 5.675,
+   "timing": [
+    {
+     "text": "Not the kind you chew.",
+     "start": 0.0,
+     "end": 1.428
+    },
+    {
+     "text": "The kind that satisfies the part of you food can't reach.",
+     "start": 1.428,
+     "end": 5.062
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s4-i-am-the-bread.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "-22%",
+   "seg_start": 23.323,
+   "audio_start": 23.603,
+   "spoken_end": 24.974,
+   "seg_end": 26.574,
+   "audio_dur": 1.698,
+   "spoken_dur": 1.371,
+   "seg_dur": 3.251,
+   "timing": [
+    {
+     "text": "I am that bread of life.",
+     "start": 0.0,
+     "end": 1.672
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s5-bread-that-lasts.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 26.574,
+   "audio_start": 26.854,
+   "spoken_end": 32.79,
+   "seg_end": 33.51,
+   "audio_dur": 6.269,
+   "spoken_dur": 5.936,
+   "seg_dur": 6.936,
+   "timing": [
+    {
+     "text": "The bread their ancestors ate in the wilderness didn't keep them alive forever.",
+     "start": 0.0,
+     "end": 3.657
+    },
+    {
+     "text": "But the bread Jesus gives does.",
+     "start": 3.657,
+     "end": 6.223
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": "s6-given-for-the-world.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "-20%",
+   "seg_start": 33.51,
+   "audio_start": 33.79,
+   "spoken_end": 46.262,
+   "seg_end": 47.862,
+   "audio_dur": 12.904,
+   "spoken_dur": 12.473,
+   "seg_dur": 14.353,
+   "timing": [
+    {
+     "text": "I am the living bread which came down from heaven: if any man eat of this bread, he shall live forever: and the bread that I will give is my flesh, which I will give for the life of the world.",
+     "start": 0.0,
+     "end": 12.864
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s7-come-hungry.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 47.862,
+   "audio_start": 48.142,
+   "spoken_end": 53.139,
+   "seg_end": 53.859,
+   "audio_dur": 5.433,
+   "spoken_dur": 4.997,
+   "seg_dur": 5.997,
+   "timing": [
+    {
+     "text": "He was speaking of Himself \u2014 given, like bread broken, so the world could have life.",
+     "start": 0.0,
+     "end": 5.387
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "-22%",
+  "seg_start": 53.859,
+  "audio_start": 54.139,
+  "seg_dur": 4.889
+ },
+ "total": 58.748
+}

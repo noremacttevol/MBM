@@ -1,0 +1,437 @@
+{
+ "row": 98,
+ "slug": "build-98-mary-her-name",
+ "v1_dir": "media-production/build-98-mary-her-name",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-weeping-at-the-tomb.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Mary Magdalene stayed behind at the tomb, weeping. When she was asked why she was crying, all she had was one answer.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 7.016,
+   "seg_end": 7.666,
+   "audio_dur": 7.131,
+   "spoken_dur": 6.736,
+   "seg_dur": 7.666,
+   "timing": [
+    {
+     "text": "Mary Magdalene stayed behind at the tomb, weeping.",
+     "start": 0.0,
+     "end": 2.902
+    },
+    {
+     "text": "When she was asked why she was crying, all she had was one answer.",
+     "start": 2.902,
+     "end": 7.105
+    }
+   ]
+  },
+  {
+   "seg": "w13",
+   "v1_still": "s1-weeping-at-the-tomb.jpeg",
+   "zoom": "out",
+   "speaker": "woman",
+   "text": "They have taken away my Lord, and I know not where they have laid him.",
+   "seg_start": 7.666,
+   "audio_start": 7.946,
+   "spoken_end": 11.75,
+   "seg_end": 13.35,
+   "audio_dur": 4.18,
+   "spoken_dur": 3.805,
+   "seg_dur": 5.685,
+   "timing": [
+    {
+     "text": "They have taken away my Lord, and I know not where they have laid him.",
+     "start": 0.0,
+     "end": 4.133
+    }
+   ]
+  },
+  {
+   "seg": "n0b",
+   "v1_still": "s1-weeping-at-the-tomb.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "She had lost him once already. Now it felt like she had lost even the place where he lay.",
+   "seg_start": 13.35,
+   "audio_start": 13.63,
+   "spoken_end": 18.27,
+   "seg_end": 18.92,
+   "audio_dur": 5.042,
+   "spoken_dur": 4.64,
+   "seg_dur": 5.57,
+   "timing": [
+    {
+     "text": "She had lost him once already.",
+     "start": 0.0,
+     "end": 1.509
+    },
+    {
+     "text": "Now it felt like she had lost even the place where he lay.",
+     "start": 1.509,
+     "end": 5.016
+    }
+   ]
+  },
+  {
+   "seg": "n1a",
+   "v1_still": "s2-the-gardener.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "She turned and saw a man standing there.",
+   "seg_start": 18.92,
+   "audio_start": 19.2,
+   "spoken_end": 20.915,
+   "seg_end": 21.565,
+   "audio_dur": 2.116,
+   "spoken_dur": 1.715,
+   "seg_dur": 2.645,
+   "timing": [
+    {
+     "text": "She turned and saw a man standing there.",
+     "start": 0.0,
+     "end": 2.09
+    }
+   ]
+  },
+  {
+   "seg": "jv15",
+   "v1_still": "s2-the-gardener.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Woman, why weepest thou? whom seekest thou?",
+   "seg_start": 21.565,
+   "audio_start": 21.845,
+   "spoken_end": 24.684,
+   "seg_end": 26.284,
+   "audio_dur": 3.239,
+   "spoken_dur": 2.839,
+   "seg_dur": 4.719,
+   "timing": [
+    {
+     "text": "Woman, why weepest thou?",
+     "start": 0.0,
+     "end": 1.637
+    },
+    {
+     "text": "whom seekest thou?",
+     "start": 1.637,
+     "end": 3.204
+    }
+   ]
+  },
+  {
+   "seg": "n1a2",
+   "v1_still": "s2-the-gardener.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Why are you crying? he asked her. Who is it you're looking for? She did not know the voice yet. Through the tears, she could not even see his face.",
+   "seg_start": 26.284,
+   "audio_start": 26.564,
+   "spoken_end": 35.431,
+   "seg_end": 36.081,
+   "audio_dur": 9.273,
+   "spoken_dur": 8.867,
+   "seg_dur": 9.797,
+   "timing": [
+    {
+     "text": "Why are you crying?",
+     "start": 0.0,
+     "end": 1.393
+    },
+    {
+     "text": "he asked her.",
+     "start": 1.393,
+     "end": 2.276
+    },
+    {
+     "text": "Who is it you're looking for?",
+     "start": 2.276,
+     "end": 4.04
+    },
+    {
+     "text": "She did not know the voice yet.",
+     "start": 4.04,
+     "end": 6.13
+    },
+    {
+     "text": "Through the tears, she could not even see his face.",
+     "start": 6.13,
+     "end": 9.242
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s3-tell-me-where.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Thinking he was the gardener, she pleaded with him.",
+   "seg_start": 36.081,
+   "audio_start": 36.361,
+   "spoken_end": 38.865,
+   "seg_end": 39.515,
+   "audio_dur": 2.873,
+   "spoken_dur": 2.505,
+   "seg_dur": 3.435,
+   "timing": [
+    {
+     "text": "Thinking he was the gardener, she pleaded with him.",
+     "start": 0.0,
+     "end": 2.833
+    }
+   ]
+  },
+  {
+   "seg": "w15",
+   "v1_still": "s3-tell-me-where.jpeg",
+   "zoom": "out",
+   "speaker": "woman",
+   "text": "Sir, if thou have borne him hence, tell me where thou hast laid him, and I will take him away.",
+   "seg_start": 39.515,
+   "audio_start": 39.795,
+   "spoken_end": 45.458,
+   "seg_end": 47.058,
+   "audio_dur": 6.087,
+   "spoken_dur": 5.662,
+   "seg_dur": 7.542,
+   "timing": [
+    {
+     "text": "Sir, if thou have borne him hence, tell me where thou hast laid him, and I will take him away.",
+     "start": 0.0,
+     "end": 6.037
+    }
+   ]
+  },
+  {
+   "seg": "n1b2",
+   "v1_still": "s3-tell-me-where.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Sir, if you carried him off, just tell me where you put him, and I will go and get him. She was a woman offering to carry a grown man's body home by herself. That is how much she loved him.",
+   "seg_start": 47.058,
+   "audio_start": 47.338,
+   "spoken_end": 58.067,
+   "seg_end": 58.717,
+   "audio_dur": 11.128,
+   "spoken_dur": 10.729,
+   "seg_dur": 11.659,
+   "timing": [
+    {
+     "text": "Sir, if you carried him off, just tell me where you put him, and I will go and get him.",
+     "start": 0.0,
+     "end": 4.574
+    },
+    {
+     "text": "She was a woman offering to carry a grown man's body home by herself.",
+     "start": 4.574,
+     "end": 8.754
+    },
+    {
+     "text": "That is how much she loved him.",
+     "start": 8.754,
+     "end": 11.099
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-about-to-speak-her-name.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He said one word. Her name.",
+   "seg_start": 58.717,
+   "audio_start": 58.997,
+   "spoken_end": 60.416,
+   "seg_end": 61.066,
+   "audio_dur": 1.802,
+   "spoken_dur": 1.419,
+   "seg_dur": 2.349,
+   "timing": [
+    {
+     "text": "He said one word.",
+     "start": 0.0,
+     "end": 0.917
+    },
+    {
+     "text": "Her name.",
+     "start": 0.917,
+     "end": 1.765
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s5-she-knows.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Mary.",
+   "seg_start": 61.066,
+   "audio_start": 61.346,
+   "spoken_end": 61.852,
+   "seg_end": 63.452,
+   "audio_dur": 0.914,
+   "spoken_dur": 0.506,
+   "seg_dur": 2.386,
+   "timing": [
+    {
+     "text": "Mary.",
+     "start": 0.0,
+     "end": 0.882
+    }
+   ]
+  },
+  {
+   "seg": "w16",
+   "v1_still": "s5-she-knows.jpeg",
+   "zoom": "out",
+   "speaker": "woman",
+   "text": "Rabboni.",
+   "seg_start": 63.452,
+   "audio_start": 63.732,
+   "spoken_end": 64.47,
+   "seg_end": 66.07,
+   "audio_dur": 1.097,
+   "spoken_dur": 0.739,
+   "seg_dur": 2.619,
+   "timing": [
+    {
+     "text": "Rabboni.",
+     "start": 0.0,
+     "end": 1.068
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s8-grief-turned-to-morning.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Mary. And she answered him \u2014 Rabboni. It means Master, in her own language, the word she had always called him. And instantly she knew. Grief flipped to joy in a single heartbeat \u2014 he was alive, and he had come looking for HER, by name.",
+   "seg_start": 66.07,
+   "audio_start": 66.35,
+   "spoken_end": 83.702,
+   "seg_end": 84.352,
+   "audio_dur": 17.789,
+   "spoken_dur": 17.352,
+   "seg_dur": 18.282,
+   "timing": [
+    {
+     "text": "Mary.",
+     "start": 0.0,
+     "end": 0.662
+    },
+    {
+     "text": "And she answered him \u2014 Rabboni.",
+     "start": 0.662,
+     "end": 3.518
+    },
+    {
+     "text": "It means Master, in her own language, the word she had always called him.",
+     "start": 3.518,
+     "end": 8.22
+    },
+    {
+     "text": "And instantly she knew.",
+     "start": 8.22,
+     "end": 10.194
+    },
+    {
+     "text": "Grief flipped to joy in a single heartbeat \u2014 he was alive, and he had come looking for HER, by name.",
+     "start": 10.194,
+     "end": 17.74
+    }
+   ]
+  },
+  {
+   "seg": "jv17",
+   "v1_still": "s6-go-and-tell.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Touch me not; for I am not yet ascended to my Father: but go to my brethren, and say unto them, I ascend unto my Father, and your Father; and to my God, and your God.",
+   "seg_start": 84.352,
+   "audio_start": 84.632,
+   "spoken_end": 97.829,
+   "seg_end": 99.429,
+   "audio_dur": 13.61,
+   "spoken_dur": 13.197,
+   "seg_dur": 15.077,
+   "timing": [
+    {
+     "text": "Touch me not; for I am not yet ascended to my Father: but go to my brethren, and say unto them, I ascend unto my Father, and your Father; and to my God, and your God.",
+     "start": 0.0,
+     "end": 13.56
+    }
+   ]
+  },
+  {
+   "seg": "n4a",
+   "v1_still": "s6-go-and-tell.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Don't hold on to me yet, he told her \u2014 I haven't gone up to my Father. Go to my brothers and tell them I'm going to my Father and your Father, to my God and your God. He gave her the message, and he sent her to carry it.",
+   "seg_start": 99.429,
+   "audio_start": 99.709,
+   "spoken_end": 112.937,
+   "seg_end": 113.587,
+   "audio_dur": 13.636,
+   "spoken_dur": 13.228,
+   "seg_dur": 14.158,
+   "timing": [
+    {
+     "text": "Don't hold on to me yet, he told her \u2014 I haven't gone up to my Father.",
+     "start": 0.0,
+     "end": 4.005
+    },
+    {
+     "text": "Go to my brothers and tell them I'm going to my Father and your Father, to my God and your God.",
+     "start": 4.005,
+     "end": 9.845
+    },
+    {
+     "text": "He gave her the message, and he sent her to carry it.",
+     "start": 9.845,
+     "end": 13.607
+    }
+   ]
+  },
+  {
+   "seg": "n4b",
+   "v1_still": "s7-running-to-tell.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The first person to see the risen Lord, and the first preacher of the resurrection, was a weeping woman he called by name.",
+   "seg_start": 113.587,
+   "audio_start": 113.867,
+   "spoken_end": 120.38,
+   "seg_end": 121.03,
+   "audio_dur": 6.87,
+   "spoken_dur": 6.512,
+   "seg_dur": 7.442,
+   "timing": [
+    {
+     "text": "The first person to see the risen Lord, and the first preacher of the resurrection, was a weeping woman he called by name.",
+     "start": 0.0,
+     "end": 6.827
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He knows your name \u2014 and he speaks it even in your grief. Listen for it.",
+  "seg_start": 121.03,
+  "audio_start": 121.31,
+  "seg_dur": 6.325
+ },
+ "total": 127.355
+}

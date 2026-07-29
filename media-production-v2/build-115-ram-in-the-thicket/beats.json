@@ -1,0 +1,487 @@
+{
+ "row": 115,
+ "slug": "build-115-ram-in-the-thicket",
+ "v1_dir": "media-production/build-115-ram-in-the-thicket",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-they-set-out.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "It is one of the hardest stories in the Bible, and one of the most misread. God asks Abraham for the thing he loves most in all the world \u2014 his son. And Abraham, trusting God completely, sets out.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 11.926,
+   "seg_end": 12.576,
+   "audio_dur": 12.069,
+   "spoken_dur": 11.646,
+   "seg_dur": 12.576,
+   "timing": [
+    {
+     "text": "It is one of the hardest stories in the Bible, and one of the most misread.",
+     "start": 0.0,
+     "end": 3.692
+    },
+    {
+     "text": "God asks Abraham for the thing he loves most in all the world \u2014 his son.",
+     "start": 3.692,
+     "end": 8.568
+    },
+    {
+     "text": "And Abraham, trusting God completely, sets out.",
+     "start": 8.568,
+     "end": 12.028
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-the-long-walk.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Now watch closely, because everything the story means is in how it ends. Abraham believed, somehow, that God was good \u2014 that whatever this was, God could be trusted with his boy. So he walked, and he trusted, and he did not let go of that.",
+   "seg_start": 12.576,
+   "audio_start": 12.856,
+   "spoken_end": 28.547,
+   "seg_end": 29.197,
+   "audio_dur": 16.118,
+   "spoken_dur": 15.691,
+   "seg_dur": 16.621,
+   "timing": [
+    {
+     "text": "Now watch closely, because everything the story means is in how it ends.",
+     "start": 0.0,
+     "end": 4.447
+    },
+    {
+     "text": "Abraham believed, somehow, that God was good \u2014 that whatever this was, God could be trusted with his boy.",
+     "start": 4.447,
+     "end": 11.703
+    },
+    {
+     "text": "So he walked, and he trusted, and he did not let go of that.",
+     "start": 11.703,
+     "end": 16.068
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-up-the-mountain-together.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Father and son climbed the mountain together, the boy carrying the wood, the old man carrying the fire and a heart full of faith and ache. And as they climbed, the child asked the question that hangs over the whole story.",
+   "seg_start": 29.197,
+   "audio_start": 29.477,
+   "spoken_end": 41.79,
+   "seg_end": 42.44,
+   "audio_dur": 12.669,
+   "spoken_dur": 12.312,
+   "seg_dur": 13.242,
+   "timing": [
+    {
+     "text": "Father and son climbed the mountain together, the boy carrying the wood, the old man carrying the fire and a heart full of faith and ache.",
+     "start": 0.0,
+     "end": 7.651
+    },
+    {
+     "text": "And as they climbed, the child asked the question that hangs over the whole story.",
+     "start": 7.651,
+     "end": 12.632
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "v1_still": "s4-the-boys-question.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Behold the fire and the wood: but where is the lamb for a burnt offering?",
+   "seg_start": 42.44,
+   "audio_start": 42.72,
+   "spoken_end": 46.496,
+   "seg_end": 48.096,
+   "audio_dur": 4.127,
+   "spoken_dur": 3.777,
+   "seg_dur": 5.657,
+   "timing": [
+    {
+     "text": "Behold the fire and the wood: but where is the lamb for a burnt offering?",
+     "start": 0.0,
+     "end": 4.087
+    }
+   ]
+  },
+  {
+   "seg": "s8",
+   "v1_still": "s4-the-boys-question.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "My son, God will provide himself a lamb for a burnt offering.",
+   "seg_start": 48.096,
+   "audio_start": 48.376,
+   "spoken_end": 51.437,
+   "seg_end": 53.037,
+   "audio_dur": 3.422,
+   "spoken_dur": 3.061,
+   "seg_dur": 4.941,
+   "timing": [
+    {
+     "text": "My son, God will provide himself a lamb for a burnt offering.",
+     "start": 0.0,
+     "end": 3.39
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-the-boys-question.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Father, the boy said \u2014 we've got the fire and we've got the wood, but where's the lamb? And Abraham answered with the line that turns out to be the whole point of the story:",
+   "seg_start": 53.037,
+   "audio_start": 53.317,
+   "spoken_end": 62.581,
+   "seg_end": 63.231,
+   "audio_dur": 9.613,
+   "spoken_dur": 9.264,
+   "seg_dur": 10.194,
+   "timing": [
+    {
+     "text": "Father, the boy said \u2014 we've got the fire and we've got the wood, but where's the lamb?",
+     "start": 0.0,
+     "end": 5.236
+    },
+    {
+     "text": "And Abraham answered with the line that turns out to be the whole point of the story:",
+     "start": 5.561,
+     "end": 9.567
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-building-the-altar.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "God will provide. Abraham did not fully understand how. He only trusted that the God he loved would not, in the end, ask him to lose his son. And at the very last moment, at the edge of everything, heaven broke open.",
+   "seg_start": 63.231,
+   "audio_start": 63.511,
+   "spoken_end": 77.083,
+   "seg_end": 77.733,
+   "audio_dur": 13.976,
+   "spoken_dur": 13.572,
+   "seg_dur": 14.502,
+   "timing": [
+    {
+     "text": "God will provide.",
+     "start": 0.0,
+     "end": 1.219
+    },
+    {
+     "text": "Abraham did not fully understand how.",
+     "start": 1.219,
+     "end": 3.971
+    },
+    {
+     "text": "He only trusted that the God he loved would not, in the end, ask him to lose his son.",
+     "start": 3.971,
+     "end": 9.265
+    },
+    {
+     "text": "And at the very last moment, at the edge of everything, heaven broke open.",
+     "start": 9.265,
+     "end": 13.932
+    }
+   ]
+  },
+  {
+   "seg": "jv11",
+   "v1_still": "s6-the-voice-from-heaven.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "Abraham, Abraham.",
+   "seg_start": 77.733,
+   "audio_start": 78.013,
+   "spoken_end": 79.397,
+   "seg_end": 80.997,
+   "audio_dur": 1.698,
+   "spoken_dur": 1.384,
+   "seg_dur": 3.264,
+   "timing": [
+    {
+     "text": "Abraham, Abraham.",
+     "start": 0.0,
+     "end": 1.672
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "v1_still": "s6-the-voice-from-heaven.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Here am I.",
+   "seg_start": 80.997,
+   "audio_start": 81.277,
+   "spoken_end": 81.946,
+   "seg_end": 83.546,
+   "audio_dur": 0.967,
+   "spoken_dur": 0.669,
+   "seg_dur": 2.549,
+   "timing": [
+    {
+     "text": "Here am I.",
+     "start": 0.0,
+     "end": 0.929
+    }
+   ]
+  },
+  {
+   "seg": "n5b",
+   "v1_still": "s6-the-voice-from-heaven.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "His name, twice, out of the sky. And the old man answered the way he always had \u2014 here I am. Then came the words that ended it.",
+   "seg_start": 83.546,
+   "audio_start": 83.826,
+   "spoken_end": 92.058,
+   "seg_end": 92.708,
+   "audio_dur": 8.594,
+   "spoken_dur": 8.232,
+   "seg_dur": 9.162,
+   "timing": [
+    {
+     "text": "His name, twice, out of the sky.",
+     "start": 0.0,
+     "end": 1.881
+    },
+    {
+     "text": "And the old man answered the way he always had \u2014 here I am.",
+     "start": 1.881,
+     "end": 5.921
+    },
+    {
+     "text": "Then came the words that ended it.",
+     "start": 5.921,
+     "end": 8.545
+    }
+   ]
+  },
+  {
+   "seg": "jv12",
+   "v1_still": "s6-the-voice-from-heaven.jpeg",
+   "zoom": "out",
+   "speaker": "god",
+   "text": "Lay not thine hand upon the lad, neither do thou any thing unto him: for now I know that thou fearest God.",
+   "seg_start": 92.708,
+   "audio_start": 92.988,
+   "spoken_end": 101.491,
+   "seg_end": 103.091,
+   "audio_dur": 8.908,
+   "spoken_dur": 8.503,
+   "seg_dur": 10.383,
+   "timing": [
+    {
+     "text": "Lay not thine hand upon the lad, neither do thou anything unto him: for now I know that thou fearest God.",
+     "start": 0.0,
+     "end": 8.87
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s7-the-ram-in-the-thicket.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Don't lay a hand on the boy. Don't do anything to him at all. Stop. God never wanted the child. He never did. He stopped Abraham's hand, and right there, caught in a thicket, was a ram \u2014 God's own provision, ready all along. The boy was safe. He was always going to be safe.",
+   "seg_start": 103.091,
+   "audio_start": 103.371,
+   "spoken_end": 121.115,
+   "seg_end": 121.765,
+   "audio_dur": 18.155,
+   "spoken_dur": 17.744,
+   "seg_dur": 18.674,
+   "timing": [
+    {
+     "text": "Don't lay a hand on the boy.",
+     "start": 0.0,
+     "end": 1.428
+    },
+    {
+     "text": "Don't do anything to him at all.",
+     "start": 1.428,
+     "end": 3.111
+    },
+    {
+     "text": "Stop.",
+     "start": 3.111,
+     "end": 3.646
+    },
+    {
+     "text": "God never wanted the child.",
+     "start": 3.646,
+     "end": 6.002
+    },
+    {
+     "text": "He never did.",
+     "start": 6.002,
+     "end": 7.268
+    },
+    {
+     "text": "He stopped Abraham's hand, and right there, caught in a thicket, was a ram \u2014 God's own provision, ready all along.",
+     "start": 7.268,
+     "end": 14.768
+    },
+    {
+     "text": "The boy was safe.",
+     "start": 14.768,
+     "end": 16.115
+    },
+    {
+     "text": "He was always going to be safe.",
+     "start": 16.115,
+     "end": 18.112
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s8-the-embrace.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And the old father gathered his living son into his arms and held him, and wept, and would not let go. God had provided. Abraham named that place The Lord Will Provide, and the name has echoed down every generation since.",
+   "seg_start": 121.765,
+   "audio_start": 122.045,
+   "spoken_end": 135.226,
+   "seg_end": 135.876,
+   "audio_dur": 13.61,
+   "spoken_dur": 13.181,
+   "seg_dur": 14.111,
+   "timing": [
+    {
+     "text": "And the old father gathered his living son into his arms and held him, and wept, and would not let go.",
+     "start": 0.0,
+     "end": 5.759
+    },
+    {
+     "text": "God had provided.",
+     "start": 5.759,
+     "end": 7.279
+    },
+    {
+     "text": "Abraham named that place The Lord Will Provide, and the name has echoed down every generation since.",
+     "start": 7.279,
+     "end": 13.56
+    }
+   ]
+  },
+  {
+   "seg": "jv17",
+   "v1_still": "s9-god-provided.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "In blessing I will bless thee, and in multiplying I will multiply thy seed as the stars of the heaven, and as the sand which is upon the sea shore.",
+   "seg_start": 135.876,
+   "audio_start": 136.156,
+   "spoken_end": 145.873,
+   "seg_end": 147.473,
+   "audio_dur": 10.057,
+   "spoken_dur": 9.717,
+   "seg_dur": 11.597,
+   "timing": [
+    {
+     "text": "In blessing I will bless thee, and in multiplying I will multiply thy seed as the stars of the heaven, and as the sand which is upon the sea shore.",
+     "start": 0.0,
+     "end": 10.031
+    }
+   ]
+  },
+  {
+   "seg": "n7b",
+   "v1_still": "s9-god-provided.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "I will bless you and bless you again, God told him. Your family will outnumber the stars over your head and the sand under your feet. The man who was willing to hand back his only son was promised more children than he could count.",
+   "seg_start": 147.473,
+   "audio_start": 147.753,
+   "spoken_end": 159.072,
+   "seg_end": 159.722,
+   "audio_dur": 11.729,
+   "spoken_dur": 11.319,
+   "seg_dur": 12.249,
+   "timing": [
+    {
+     "text": "I will bless you and bless you again, God told him.",
+     "start": 0.0,
+     "end": 2.647
+    },
+    {
+     "text": "Your family will outnumber the stars over your head and the sand under your feet.",
+     "start": 2.647,
+     "end": 6.641
+    },
+    {
+     "text": "The man who was willing to hand back his only son was promised more children than he could count.",
+     "start": 6.641,
+     "end": 11.703
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s10-the-lord-will-provide.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "This was never a story about a God who takes. It is about a God who provides \u2014 who steps in at the last moment with what we could never provide ourselves. Centuries later, on another hill nearby, God would provide a Lamb again \u2014 this time, his own. The Lord will provide. He always has.",
+   "seg_start": 159.722,
+   "audio_start": 160.002,
+   "spoken_end": 179.348,
+   "seg_end": 179.998,
+   "audio_dur": 19.775,
+   "spoken_dur": 19.345,
+   "seg_dur": 20.275,
+   "timing": [
+    {
+     "text": "This was never a story about a God who takes.",
+     "start": 0.0,
+     "end": 2.577
+    },
+    {
+     "text": "It is about a God who provides \u2014 who steps in at the last moment with what we could never provide ourselves.",
+     "start": 2.577,
+     "end": 9.009
+    },
+    {
+     "text": "Centuries later, on another hill nearby, God would provide a Lamb again \u2014 this time, his own.",
+     "start": 9.009,
+     "end": 16.033
+    },
+    {
+     "text": "The Lord will provide.",
+     "start": 16.033,
+     "end": 18.1
+    },
+    {
+     "text": "He always has.",
+     "start": 18.1,
+     "end": 19.737
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "God never wanted the child; he wanted to show he provides. He stopped the hand and gave the ram, and the boy went home safe. Where do you most need to trust that the Lord will provide?",
+  "seg_start": 179.998,
+  "audio_start": 180.278,
+  "seg_dur": 11.837
+ },
+ "total": 191.835
+}

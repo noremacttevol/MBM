@@ -1,0 +1,569 @@
+{
+ "row": 42,
+ "slug": "build-42-barren-fig-tree",
+ "v1_dir": "media-production/build-42-barren-fig-tree",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-the-telling.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He told them a short story about a tree that was not doing its job. It sounds at first like a warning. Stay with it, because it turns into one of the kindest things he ever said about being given more time.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 11.587,
+   "seg_end": 12.237,
+   "audio_dur": 11.729,
+   "spoken_dur": 11.307,
+   "seg_dur": 12.237,
+   "timing": [
+    {
+     "text": "He told them a short story about a tree that was not doing its job.",
+     "start": 0.0,
+     "end": 3.483
+    },
+    {
+     "text": "It sounds at first like a warning.",
+     "start": 3.483,
+     "end": 5.492
+    },
+    {
+     "text": "Stay with it, because it turns into one of the kindest things he ever said about being given more time.",
+     "start": 5.492,
+     "end": 11.703
+    }
+   ]
+  },
+  {
+   "seg": "s6a",
+   "v1_still": "s2-the-fig-tree.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "He spake also this parable;",
+   "seg_start": 12.237,
+   "audio_start": 12.517,
+   "spoken_end": 14.211,
+   "seg_end": 15.811,
+   "audio_dur": 2.09,
+   "spoken_dur": 1.694,
+   "seg_dur": 3.574,
+   "timing": [
+    {
+     "text": "He spake also this parable;",
+     "start": 0.0,
+     "end": 2.043
+    }
+   ]
+  },
+  {
+   "seg": "jv6",
+   "v1_still": "s2-the-fig-tree.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "A certain man had a fig tree planted in his vineyard; and he came and sought fruit thereon, and found none.",
+   "seg_start": 15.811,
+   "audio_start": 16.091,
+   "spoken_end": 22.867,
+   "seg_end": 24.467,
+   "audio_dur": 7.131,
+   "spoken_dur": 6.777,
+   "seg_dur": 8.657,
+   "timing": [
+    {
+     "text": "A certain man had a fig tree planted in his vineyard; and he came and sought fruit thereon, and found none.",
+     "start": 0.0,
+     "end": 7.105
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-the-fig-tree.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "A fig tree in a vineyard had the best spot on the whole property. Deep worked soil, water meant for the grapes, a wall around it, full sun. Everything a tree could want was already handed to it. All it had to do was grow figs.",
+   "seg_start": 24.467,
+   "audio_start": 24.747,
+   "spoken_end": 40.078,
+   "seg_end": 40.728,
+   "audio_dur": 15.726,
+   "spoken_dur": 15.33,
+   "seg_dur": 16.26,
+   "timing": [
+    {
+     "text": "A fig tree in a vineyard had the best spot on the whole property.",
+     "start": 0.0,
+     "end": 3.123
+    },
+    {
+     "text": "Deep worked soil, water meant for the grapes, a wall around it, full sun.",
+     "start": 3.123,
+     "end": 9.242
+    },
+    {
+     "text": "Everything a tree could want was already handed to it.",
+     "start": 9.242,
+     "end": 12.678
+    },
+    {
+     "text": "All it had to do was grow figs.",
+     "start": 12.678,
+     "end": 15.697
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-seeking-fruit.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So the owner came out to pick a few, the way you would. And there was nothing on it. Not a small crop. Not a late one. Bare leaves, and no fruit at all.",
+   "seg_start": 40.728,
+   "audio_start": 41.008,
+   "spoken_end": 50.8,
+   "seg_end": 51.45,
+   "audio_dur": 10.214,
+   "spoken_dur": 9.792,
+   "seg_dur": 10.722,
+   "timing": [
+    {
+     "text": "So the owner came out to pick a few, the way you would.",
+     "start": 0.0,
+     "end": 2.589
+    },
+    {
+     "text": "And there was nothing on it.",
+     "start": 2.589,
+     "end": 4.423
+    },
+    {
+     "text": "Not a small crop.",
+     "start": 4.423,
+     "end": 5.991
+    },
+    {
+     "text": "Not a late one.",
+     "start": 5.991,
+     "end": 7.233
+    },
+    {
+     "text": "Bare leaves, and no fruit at all.",
+     "start": 7.233,
+     "end": 10.17
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-three-years.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And this was not the first time. Coming up on three seasons now he had walked out to that same tree expecting figs, and walked back with empty hands every time. A fig tree gets a fair trial, and this one had had a long one.",
+   "seg_start": 51.45,
+   "audio_start": 51.73,
+   "spoken_end": 65.288,
+   "seg_end": 65.938,
+   "audio_dur": 14.028,
+   "spoken_dur": 13.559,
+   "seg_dur": 14.489,
+   "timing": [
+    {
+     "text": "And this was not the first time.",
+     "start": 0.0,
+     "end": 1.672
+    },
+    {
+     "text": "Coming up on three seasons now he had walked out to that same tree expecting figs, and walked back with empty hands every time.",
+     "start": 1.672,
+     "end": 9.567
+    },
+    {
+     "text": "A fig tree gets a fair trial, and this one had had a long one.",
+     "start": 9.567,
+     "end": 13.978
+    }
+   ]
+  },
+  {
+   "seg": "jv7",
+   "v1_still": "s5-cut-it-down.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Then said he unto the dresser of his vineyard, Behold, these three years I come seeking fruit on this fig tree, and find none: cut it down; why cumbereth it the ground?",
+   "seg_start": 65.938,
+   "audio_start": 66.218,
+   "spoken_end": 79.341,
+   "seg_end": 80.941,
+   "audio_dur": 13.558,
+   "spoken_dur": 13.123,
+   "seg_dur": 15.003,
+   "timing": [
+    {
+     "text": "Then said he unto the dresser of his vineyard, Behold, these three years I come seeking fruit on this fig tree, and find none: cut it down; why cumbereth it the ground?",
+     "start": 0.0,
+     "end": 13.514
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-cut-it-down.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "And you can hear that he is not being cruel. His last words are just plain sense. The tree is holding a place a fruitful one could be using, and any farmer in that crowd would have nodded. It was a fair call.",
+   "seg_start": 80.941,
+   "audio_start": 81.221,
+   "spoken_end": 94.107,
+   "seg_end": 94.757,
+   "audio_dur": 13.322,
+   "spoken_dur": 12.886,
+   "seg_dur": 13.816,
+   "timing": [
+    {
+     "text": "And you can hear that he is not being cruel.",
+     "start": 0.0,
+     "end": 2.589
+    },
+    {
+     "text": "His last words are just plain sense.",
+     "start": 2.589,
+     "end": 5.132
+    },
+    {
+     "text": "The tree is holding a place a fruitful one could be using, and any farmer in that crowd would have nodded.",
+     "start": 5.132,
+     "end": 11.622
+    },
+    {
+     "text": "It was a fair call.",
+     "start": 11.622,
+     "end": 13.282
+    }
+   ]
+  },
+  {
+   "seg": "jv8",
+   "v1_still": "s6-let-it-alone.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "And he answering said unto him, Lord, let it alone this year also, till I shall dig about it, and dung it:",
+   "seg_start": 94.757,
+   "audio_start": 95.037,
+   "spoken_end": 101.988,
+   "seg_end": 103.588,
+   "audio_dur": 7.419,
+   "spoken_dur": 6.951,
+   "seg_dur": 8.831,
+   "timing": [
+    {
+     "text": "And he answering said unto him, Lord, let it alone this year also, till I shall dig about it, and dung it:",
+     "start": 0.0,
+     "end": 7.384
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6-let-it-alone.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "The gardener steps between the sentence and the tree. He does not deny the failure; he volunteers his own labor.",
+   "seg_start": 103.588,
+   "audio_start": 103.868,
+   "spoken_end": 110.02,
+   "seg_end": 110.67,
+   "audio_dur": 6.531,
+   "spoken_dur": 6.152,
+   "seg_dur": 7.082,
+   "timing": [
+    {
+     "text": "The gardener steps between the sentence and the tree.",
+     "start": 0.0,
+     "end": 2.473
+    },
+    {
+     "text": "He does not deny the failure; he volunteers his own labor.",
+     "start": 2.473,
+     "end": 6.502
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s7-dig-about-it.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And look at what he offers to do with that year. Get down and break up the hard, packed earth around the roots, so the tree can finally breathe and drink. Not scold the tree. Work the soil.",
+   "seg_start": 110.67,
+   "audio_start": 110.95,
+   "spoken_end": 122.166,
+   "seg_end": 122.816,
+   "audio_dur": 11.546,
+   "spoken_dur": 11.216,
+   "seg_dur": 12.146,
+   "timing": [
+    {
+     "text": "And look at what he offers to do with that year.",
+     "start": 0.0,
+     "end": 2.276
+    },
+    {
+     "text": "Get down and break up the hard, packed earth around the roots, so the tree can finally breathe and drink.",
+     "start": 2.276,
+     "end": 8.266
+    },
+    {
+     "text": "Not scold the tree.",
+     "start": 8.266,
+     "end": 9.996
+    },
+    {
+     "text": "Work the soil.",
+     "start": 9.996,
+     "end": 11.517
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s8-dung-it.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And then feed it. The lowest, messiest job on the whole farm, done by hand at the foot of a tree that has given him nothing back. He is not asking for time so he can wait and watch. He is asking for time so he can go to work.",
+   "seg_start": 122.816,
+   "audio_start": 123.096,
+   "spoken_end": 137.309,
+   "seg_end": 137.959,
+   "audio_dur": 14.655,
+   "spoken_dur": 14.213,
+   "seg_dur": 15.143,
+   "timing": [
+    {
+     "text": "And then feed it.",
+     "start": 0.0,
+     "end": 1.022
+    },
+    {
+     "text": "The lowest, messiest job on the whole farm, done by hand at the foot of a tree that has given him nothing back.",
+     "start": 1.022,
+     "end": 8.139
+    },
+    {
+     "text": "He is not asking for time so he can wait and watch.",
+     "start": 8.139,
+     "end": 11.285
+    },
+    {
+     "text": "He is asking for time so he can go to work.",
+     "start": 11.285,
+     "end": 14.629
+    }
+   ]
+  },
+  {
+   "seg": "jv9",
+   "v1_still": "s9-if-it-bear-fruit.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "And if it bear fruit, well: and if not, then after that thou shalt cut it down.",
+   "seg_start": 137.959,
+   "audio_start": 138.239,
+   "spoken_end": 143.463,
+   "seg_end": 145.063,
+   "audio_dur": 5.616,
+   "spoken_dur": 5.225,
+   "seg_dur": 7.105,
+   "timing": [
+    {
+     "text": "And if it bear fruit, well: and if not, then after that thou shalt cut it down.",
+     "start": 0.0,
+     "end": 5.573
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s9-if-it-bear-fruit.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "The ending is deliberately unfinished. Jesus leaves his listeners inside that extra year, while mercy is still at work.",
+   "seg_start": 145.063,
+   "audio_start": 145.343,
+   "spoken_end": 152.114,
+   "seg_end": 152.764,
+   "audio_dur": 7.131,
+   "spoken_dur": 6.77,
+   "seg_dur": 7.7,
+   "timing": [
+    {
+     "text": "The ending is deliberately unfinished.",
+     "start": 0.0,
+     "end": 1.997
+    },
+    {
+     "text": "Jesus leaves his listeners inside that extra year, while mercy is still at work.",
+     "start": 1.997,
+     "end": 7.105
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s10-the-axe-set-aside.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Here is the part worth sitting with. The tree had not changed. It had not turned itself around or grown a single fig overnight. It got its extra year for one reason only. Someone who cared for it stood between it and the axe and asked.",
+   "seg_start": 152.764,
+   "audio_start": 153.044,
+   "spoken_end": 167.021,
+   "seg_end": 167.671,
+   "audio_dur": 14.446,
+   "spoken_dur": 13.978,
+   "seg_dur": 14.908,
+   "timing": [
+    {
+     "text": "Here is the part worth sitting with.",
+     "start": 0.0,
+     "end": 1.602
+    },
+    {
+     "text": "The tree had not changed.",
+     "start": 1.602,
+     "end": 3.657
+    },
+    {
+     "text": "It had not turned itself around or grown a single fig overnight.",
+     "start": 3.657,
+     "end": 7.303
+    },
+    {
+     "text": "It got its extra year for one reason only.",
+     "start": 7.303,
+     "end": 10.17
+    },
+    {
+     "text": "Someone who cared for it stood between it and the axe and asked.",
+     "start": 10.17,
+     "end": 14.396
+    }
+   ]
+  },
+  {
+   "seg": "n10b",
+   "v1_still": "s10-the-axe-set-aside.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "That is the whole picture. Not a tree earning its keep. A gardener buying it time it could never have bought for itself.",
+   "seg_start": 167.671,
+   "audio_start": 167.951,
+   "spoken_end": 175.269,
+   "seg_end": 175.919,
+   "audio_dur": 7.706,
+   "spoken_dur": 7.318,
+   "seg_dur": 8.248,
+   "timing": [
+    {
+     "text": "That is the whole picture.",
+     "start": 0.0,
+     "end": 1.579
+    },
+    {
+     "text": "Not a tree earning its keep.",
+     "start": 1.579,
+     "end": 3.738
+    },
+    {
+     "text": "A gardener buying it time it could never have bought for itself.",
+     "start": 3.738,
+     "end": 7.663
+    }
+   ]
+  },
+  {
+   "seg": "n11",
+   "v1_still": "s11-the-intercession.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He never tells us who the gardener is. He does not have to. Everyone listening knew what it felt like to be the barren tree. And every one of them just heard that there is Someone in the vineyard whose first move is to ask for more time on your behalf.",
+   "seg_start": 175.919,
+   "audio_start": 176.199,
+   "spoken_end": 189.459,
+   "seg_end": 190.109,
+   "audio_dur": 13.688,
+   "spoken_dur": 13.26,
+   "seg_dur": 14.19,
+   "timing": [
+    {
+     "text": "He never tells us who the gardener is.",
+     "start": 0.0,
+     "end": 1.8
+    },
+    {
+     "text": "He does not have to.",
+     "start": 1.8,
+     "end": 3.228
+    },
+    {
+     "text": "Everyone listening knew what it felt like to be the barren tree.",
+     "start": 3.228,
+     "end": 6.722
+    },
+    {
+     "text": "And every one of them just heard that there is Someone in the vineyard whose first move is to ask for more time on your behalf.",
+     "start": 6.722,
+     "end": 13.653
+    }
+   ]
+  },
+  {
+   "seg": "n12",
+   "v1_still": "s12-the-invitation.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So the story he told to warn them turns out to be the story that saves them. The owner had every right to the axe. The gardener asked for the year. And the tree is still standing.",
+   "seg_start": 190.109,
+   "audio_start": 190.389,
+   "spoken_end": 199.638,
+   "seg_end": 200.288,
+   "audio_dur": 9.639,
+   "spoken_dur": 9.249,
+   "seg_dur": 10.179,
+   "timing": [
+    {
+     "text": "So the story he told to warn them turns out to be the story that saves them.",
+     "start": 0.0,
+     "end": 3.355
+    },
+    {
+     "text": "The owner had every right to the axe.",
+     "start": 3.355,
+     "end": 5.631
+    },
+    {
+     "text": "The gardener asked for the year.",
+     "start": 5.631,
+     "end": 7.477
+    },
+    {
+     "text": "And the tree is still standing.",
+     "start": 7.477,
+     "end": 9.613
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He told a story where the tree that had earned the axe got another year instead, because someone knelt down in the dirt and asked for it. What would you say to a Gardener like that?",
+  "seg_start": 200.288,
+  "audio_start": 200.568,
+  "seg_dur": 11.21
+ },
+ "total": 211.498
+}

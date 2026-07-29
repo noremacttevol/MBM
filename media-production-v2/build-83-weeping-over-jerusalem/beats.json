@@ -1,0 +1,245 @@
+{
+ "row": 83,
+ "slug": "build-83-weeping-over-jerusalem",
+ "v1_dir": "media-production/build-83-weeping-over-jerusalem",
+ "constants": {
+  "LEAD": 0.4,
+  "GAP": 1.65,
+  "KJV_GAP": 1.65,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-the-city-opens-up.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "As Jesus came over the hill and the whole city of Jerusalem opened up in front of him, he did something the crowds didn't expect.",
+   "seg_start": 0.0,
+   "audio_start": 0.4,
+   "spoken_end": 7.846,
+   "seg_end": 9.496,
+   "audio_dur": 7.889,
+   "spoken_dur": 7.446,
+   "seg_dur": 9.496,
+   "timing": [
+    {
+     "text": "As Jesus came over the hill and the whole city of Jerusalem opened up in front of him, he did something the crowds didn't expect.",
+     "start": 0.0,
+     "end": 7.848
+    }
+   ]
+  },
+  {
+   "seg": "n1a",
+   "v1_still": "s2-he-stopped.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He stopped. Luke writes it in one plain sentence:",
+   "seg_start": 9.496,
+   "audio_start": 9.896,
+   "spoken_end": 12.992,
+   "seg_end": 14.642,
+   "audio_dur": 3.474,
+   "spoken_dur": 3.096,
+   "seg_dur": 5.146,
+   "timing": [
+    {
+     "text": "He stopped.",
+     "start": 0.0,
+     "end": 0.673
+    },
+    {
+     "text": "Luke writes it in one plain sentence:",
+     "start": 1.231,
+     "end": 3.437
+    }
+   ]
+  },
+  {
+   "seg": "s41",
+   "v1_still": "s3-he-wept.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And when he was come near, he beheld the city, and wept over it.",
+   "seg_start": 14.642,
+   "audio_start": 15.042,
+   "spoken_end": 18.288,
+   "seg_end": 19.938,
+   "audio_dur": 3.709,
+   "spoken_dur": 3.245,
+   "seg_dur": 5.295,
+   "timing": [
+    {
+     "text": "And when he was come near, he beheld the city, and wept over it.",
+     "start": 0.0,
+     "end": 3.669
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s3-he-wept.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He came close, he looked at the city, and he cried over it. Not for himself. For them.",
+   "seg_start": 19.938,
+   "audio_start": 20.338,
+   "spoken_end": 25.037,
+   "seg_end": 26.687,
+   "audio_dur": 5.042,
+   "spoken_dur": 4.699,
+   "seg_dur": 6.749,
+   "timing": [
+    {
+     "text": "He came close, he looked at the city, and he cried over it.",
+     "start": 0.0,
+     "end": 2.717
+    },
+    {
+     "text": "Not for himself.",
+     "start": 2.717,
+     "end": 4.11
+    },
+    {
+     "text": "For them.",
+     "start": 4.11,
+     "end": 5.016
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-the-city-unaware.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The peace they had been aching for had walked right up to their gates \u2014 and the city was too busy to see it.",
+   "seg_start": 26.687,
+   "audio_start": 27.087,
+   "spoken_end": 32.747,
+   "seg_end": 34.397,
+   "audio_dur": 6.113,
+   "spoken_dur": 5.661,
+   "seg_dur": 7.711,
+   "timing": [
+    {
+     "text": "The peace they had been aching for had walked right up to their gates \u2014 and the city was too busy to see it.",
+     "start": 0.0,
+     "end": 6.084
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s5-if-thou-hadst-known.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "If thou hadst known, even thou, at least in this thy day, the things which belong unto thy peace! but now they are hid from thine eyes.",
+   "seg_start": 34.397,
+   "audio_start": 34.797,
+   "spoken_end": 44.732,
+   "seg_end": 46.382,
+   "audio_dur": 10.344,
+   "spoken_dur": 9.934,
+   "seg_dur": 11.984,
+   "timing": [
+    {
+     "text": "If thou hadst known, even thou, at least in this thy day, the things which belong unto thy peace!",
+     "start": 0.0,
+     "end": 7.291
+    },
+    {
+     "text": "but now they are hid from thine eyes.",
+     "start": 7.291,
+     "end": 10.31
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s5-if-thou-hadst-known.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "If only you had known \u2014 even you, even today \u2014 what would have brought you peace. He is not scolding the city. He is talking to it the way you talk to someone you love who is about to walk past the one thing that would have saved them.",
+   "seg_start": 46.382,
+   "audio_start": 46.782,
+   "spoken_end": 61.678,
+   "seg_end": 63.328,
+   "audio_dur": 15.308,
+   "spoken_dur": 14.896,
+   "seg_dur": 16.946,
+   "timing": [
+    {
+     "text": "If only you had known \u2014 even you, even today \u2014 what would have brought you peace.",
+     "start": 0.0,
+     "end": 5.84
+    },
+    {
+     "text": "He is not scolding the city.",
+     "start": 5.84,
+     "end": 8.069
+    },
+    {
+     "text": "He is talking to it the way you talk to someone you love who is about to walk past the one thing that would have saved them.",
+     "start": 8.069,
+     "end": 15.279
+    }
+   ]
+  },
+  {
+   "seg": "n3a",
+   "v1_still": "s6-they-watched-him-weep.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He could see what was coming for the city he loved \u2014 armies and ruin, a generation away.",
+   "seg_start": 63.328,
+   "audio_start": 63.728,
+   "spoken_end": 69.37,
+   "seg_end": 71.02,
+   "audio_dur": 6.034,
+   "spoken_dur": 5.643,
+   "seg_dur": 7.693,
+   "timing": [
+    {
+     "text": "He could see what was coming for the city he loved \u2014 armies and ruin, a generation away.",
+     "start": 0.0,
+     "end": 5.991
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s7-love-looking-on.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "His tears weren't anger. They were the grief of love that sees exactly what could have been.",
+   "seg_start": 71.02,
+   "audio_start": 71.42,
+   "spoken_end": 76.554,
+   "seg_end": 78.204,
+   "audio_dur": 5.46,
+   "spoken_dur": 5.133,
+   "seg_dur": 7.183,
+   "timing": [
+    {
+     "text": "His tears weren't anger.",
+     "start": 0.0,
+     "end": 1.289
+    },
+    {
+     "text": "They were the grief of love that sees exactly what could have been.",
+     "start": 1.289,
+     "end": 5.433
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He wept because he loved the city that couldn't see him. He sees you clearly. Don't look away.",
+  "seg_start": 78.204,
+  "audio_start": 78.604,
+  "seg_dur": 7.281
+ },
+ "total": 85.485
+}

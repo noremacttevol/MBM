@@ -1,0 +1,605 @@
+{
+ "row": 11,
+ "slug": "build-11-storm",
+ "v1_dir": "media-production/build-11-storm",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.15,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-evening-shore.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Evening, on the Sea of Galilee. Jesus had been teaching crowds on the shore all day \u2014 story after story, until the light was going and his voice was nearly gone with it. He was worn through. And when the last story was told, he said to his friends:",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 15.569,
+   "seg_end": 16.289,
+   "audio_dur": 15.647,
+   "spoken_dur": 15.289,
+   "seg_dur": 16.289,
+   "timing": [
+    {
+     "text": "Evening, on the Sea of Galilee.",
+     "start": 0.0,
+     "end": 1.556
+    },
+    {
+     "text": "Jesus had been teaching crowds on the shore all day \u2014 story after story, until the light was going and his voice was nearly gone with it.",
+     "start": 1.556,
+     "end": 10.379
+    },
+    {
+     "text": "He was worn through.",
+     "start": 10.379,
+     "end": 11.796
+    },
+    {
+     "text": "And when the last story was told, he said to his friends:",
+     "start": 12.179,
+     "end": 15.604
+    }
+   ]
+  },
+  {
+   "seg": "j0",
+   "v1_still": "s1-evening-shore.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Let us pass over unto the other side.",
+   "seg_start": 16.289,
+   "audio_start": 16.569,
+   "spoken_end": 18.246,
+   "seg_end": 19.396,
+   "audio_dur": 2.116,
+   "spoken_dur": 1.677,
+   "seg_dur": 3.107,
+   "timing": [
+    {
+     "text": "Let us pass over unto the other side.",
+     "start": 0.0,
+     "end": 2.09
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-little-ships.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So they took him, Mark says, even as he was \u2014 no rest, no supper, straight from the last word into the boat. Other little boats followed them out.",
+   "seg_start": 19.396,
+   "audio_start": 19.676,
+   "spoken_end": 29.356,
+   "seg_end": 30.076,
+   "audio_dur": 10.109,
+   "spoken_dur": 9.68,
+   "seg_dur": 10.68,
+   "timing": [
+    {
+     "text": "So they took him, Mark says, even as he was \u2014 no rest, no supper, straight from the last word into the boat.",
+     "start": 0.0,
+     "end": 7.744
+    },
+    {
+     "text": "Other little boats followed them out.",
+     "start": 7.744,
+     "end": 10.077
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s2b-four-at-the-oars.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And here is something worth knowing about the men at the oars: at least four of them were professional fishermen. Peter and his brother Andrew, and James and John, the sons of Zebedee. This lake was their workplace. They had crossed it at night their whole lives. Nothing about dark water scared them.",
+   "seg_start": 30.076,
+   "audio_start": 30.356,
+   "spoken_end": 47.651,
+   "seg_end": 48.371,
+   "audio_dur": 17.737,
+   "spoken_dur": 17.295,
+   "seg_dur": 18.295,
+   "timing": [
+    {
+     "text": "And here is something worth knowing about the men at the oars: at least four of them were professional fishermen.",
+     "start": 0.0,
+     "end": 5.666
+    },
+    {
+     "text": "Peter and his brother Andrew, and James and John, the sons of Zebedee.",
+     "start": 5.666,
+     "end": 10.519
+    },
+    {
+     "text": "This lake was their workplace.",
+     "start": 10.519,
+     "end": 12.62
+    },
+    {
+     "text": "They had crossed it at night their whole lives.",
+     "start": 12.62,
+     "end": 15.209
+    },
+    {
+     "text": "Nothing about dark water scared them.",
+     "start": 15.209,
+     "end": 17.647
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s3-the-storm.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then the lake turned on them. The Sea of Galilee lies seven hundred feet below sea level, in a bowl of hills \u2014 when cold wind spills down those slopes, calm water can turn violent in minutes. This storm was savage even by that lake's standard.",
+   "seg_start": 48.371,
+   "audio_start": 48.651,
+   "spoken_end": 62.728,
+   "seg_end": 63.448,
+   "audio_dur": 14.472,
+   "spoken_dur": 14.076,
+   "seg_dur": 15.076,
+   "timing": [
+    {
+     "text": "Then the lake turned on them.",
+     "start": 0.0,
+     "end": 1.265
+    },
+    {
+     "text": "The Sea of Galilee lies seven hundred feet below sea level, in a bowl of hills \u2014 when cold wind spills down those slopes, calm water can turn violent in minutes.",
+     "start": 1.265,
+     "end": 10.995
+    },
+    {
+     "text": "This storm was savage even by that lake's standard.",
+     "start": 10.995,
+     "end": 14.443
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s3b-boat-filling.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Waves broke over the side faster than the men could bail. The boat was filling. And the fishermen who had survived a hundred storms looked at this one \u2014 and believed it was going to be their last.",
+   "seg_start": 63.448,
+   "audio_start": 63.728,
+   "spoken_end": 74.808,
+   "seg_end": 75.528,
+   "audio_dur": 11.468,
+   "spoken_dur": 11.08,
+   "seg_dur": 12.08,
+   "timing": [
+    {
+     "text": "Waves broke over the side faster than the men could bail.",
+     "start": 0.0,
+     "end": 3.03
+    },
+    {
+     "text": "The boat was filling.",
+     "start": 3.03,
+     "end": 4.493
+    },
+    {
+     "text": "And the fishermen who had survived a hundred storms looked at this one \u2014 and believed it was going to be their last.",
+     "start": 4.493,
+     "end": 11.424
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s4-asleep-in-stern.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And Jesus was asleep. In the stern, on the steersman's cushion, soaked with spray, rising and falling with the pitching deck \u2014 asleep. Not because he didn't know what was happening. Because he wasn't afraid of it.",
+   "seg_start": 75.528,
+   "audio_start": 75.808,
+   "spoken_end": 88.287,
+   "seg_end": 89.007,
+   "audio_dur": 12.852,
+   "spoken_dur": 12.479,
+   "seg_dur": 13.479,
+   "timing": [
+    {
+     "text": "And Jesus was asleep.",
+     "start": 0.0,
+     "end": 1.231
+    },
+    {
+     "text": "In the stern, on the steersman's cushion, soaked with spray, rising and falling with the pitching deck \u2014 asleep.",
+     "start": 1.231,
+     "end": 8.173
+    },
+    {
+     "text": "Not because he didn't know what was happening.",
+     "start": 8.173,
+     "end": 11.018
+    },
+    {
+     "text": "Because he wasn't afraid of it.",
+     "start": 11.018,
+     "end": 12.817
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s5-carest-thou-not.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So they woke him. Rough hands on his shoulder, screaming over the wind the question people have been asking in storms ever since:",
+   "seg_start": 89.007,
+   "audio_start": 89.287,
+   "spoken_end": 95.984,
+   "seg_end": 96.704,
+   "audio_dur": 7.105,
+   "spoken_dur": 6.697,
+   "seg_dur": 7.697,
+   "timing": [
+    {
+     "text": "So they woke him.",
+     "start": 0.0,
+     "end": 0.94
+    },
+    {
+     "text": "Rough hands on his shoulder, screaming over the wind the question people have been asking in storms ever since:",
+     "start": 1.451,
+     "end": 7.059
+    }
+   ]
+  },
+  {
+   "seg": "s38",
+   "v1_still": "s5-carest-thou-not.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Master, carest thou not that we perish?",
+   "seg_start": 96.704,
+   "audio_start": 96.984,
+   "spoken_end": 99.029,
+   "seg_end": 100.179,
+   "audio_dur": 2.403,
+   "spoken_dur": 2.045,
+   "seg_dur": 3.475,
+   "timing": [
+    {
+     "text": "Master, carest thou not that we perish?",
+     "start": 0.0,
+     "end": 2.368
+    }
+   ]
+  },
+  {
+   "seg": "n4b",
+   "v1_still": "s5-carest-thou-not.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Don't you care that we are going down? Listen to what they were really saying. They never doubted his power. They doubted his heart.",
+   "seg_start": 100.179,
+   "audio_start": 100.459,
+   "spoken_end": 107.841,
+   "seg_end": 108.561,
+   "audio_dur": 7.758,
+   "spoken_dur": 7.382,
+   "seg_dur": 8.382,
+   "timing": [
+    {
+     "text": "Don't you care that we are going down?",
+     "start": 0.0,
+     "end": 1.974
+    },
+    {
+     "text": "Listen to what they were really saying.",
+     "start": 1.974,
+     "end": 4.168
+    },
+    {
+     "text": "They never doubted his power.",
+     "start": 4.168,
+     "end": 5.863
+    },
+    {
+     "text": "They doubted his heart.",
+     "start": 5.863,
+     "end": 7.709
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s6-peace-be-still.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He got up. He stood in the stern of a sinking boat, in the middle of the worst storm those fishermen had ever seen. And he did not speak to the men. He spoke to the storm.",
+   "seg_start": 108.561,
+   "audio_start": 108.841,
+   "spoken_end": 118.358,
+   "seg_end": 119.078,
+   "audio_dur": 9.874,
+   "spoken_dur": 9.517,
+   "seg_dur": 10.517,
+   "timing": [
+    {
+     "text": "He got up.",
+     "start": 0.0,
+     "end": 0.789
+    },
+    {
+     "text": "He stood in the stern of a sinking boat, in the middle of the worst storm those fishermen had ever seen.",
+     "start": 0.789,
+     "end": 6.269
+    },
+    {
+     "text": "And he did not speak to the men.",
+     "start": 6.269,
+     "end": 8.127
+    },
+    {
+     "text": "He spoke to the storm.",
+     "start": 8.127,
+     "end": 9.845
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s6-peace-be-still.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Peace, be still.",
+   "seg_start": 119.078,
+   "audio_start": 119.358,
+   "spoken_end": 120.156,
+   "seg_end": 121.306,
+   "audio_dur": 1.202,
+   "spoken_dur": 0.797,
+   "seg_dur": 2.227,
+   "timing": [
+    {
+     "text": "Peace, be still.",
+     "start": 0.0,
+     "end": 1.161
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s7-great-calm.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And the wind quit. The sea fell flat \u2014 glass flat \u2014 with stars where the storm had been, and the only sound left was water dripping off the ropes. Sailors will tell you the waves keep rolling for hours after a wind dies. These didn't. The lake did not calm down. It obeyed.",
+   "seg_start": 121.306,
+   "audio_start": 121.586,
+   "spoken_end": 139.871,
+   "seg_end": 140.591,
+   "audio_dur": 18.704,
+   "spoken_dur": 18.285,
+   "seg_dur": 19.285,
+   "timing": [
+    {
+     "text": "And the wind quit.",
+     "start": 0.0,
+     "end": 0.964
+    },
+    {
+     "text": "The sea fell flat \u2014 glass flat \u2014 with stars where the storm had been, and the only sound left was water dripping off the ropes.",
+     "start": 0.964,
+     "end": 9.485
+    },
+    {
+     "text": "Sailors will tell you the waves keep rolling for hours after a wind dies.",
+     "start": 9.485,
+     "end": 14.187
+    },
+    {
+     "text": "These didn't.",
+     "start": 14.187,
+     "end": 15.418
+    },
+    {
+     "text": "The lake did not calm down.",
+     "start": 15.418,
+     "end": 17.403
+    },
+    {
+     "text": "It obeyed.",
+     "start": 17.403,
+     "end": 18.669
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s8-turned-to-them.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then he turned to his friends \u2014 soaked, shaking, still gripping the ropes \u2014 and he asked them, gently:",
+   "seg_start": 140.591,
+   "audio_start": 140.871,
+   "spoken_end": 147.618,
+   "seg_end": 148.338,
+   "audio_dur": 7.105,
+   "spoken_dur": 6.746,
+   "seg_dur": 7.746,
+   "timing": [
+    {
+     "text": "Then he turned to his friends \u2014 soaked, shaking, still gripping the ropes \u2014 and he asked them, gently:",
+     "start": 0.0,
+     "end": 7.059
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s8-turned-to-them.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Why are ye so fearful? how is it that ye have no faith?",
+   "seg_start": 148.338,
+   "audio_start": 148.618,
+   "spoken_end": 151.189,
+   "seg_end": 152.339,
+   "audio_dur": 3.056,
+   "spoken_dur": 2.572,
+   "seg_dur": 4.002,
+   "timing": [
+    {
+     "text": "Why are ye so fearful?",
+     "start": 0.0,
+     "end": 1.231
+    },
+    {
+     "text": "how is it that ye have no faith?",
+     "start": 1.231,
+     "end": 3.019
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s8-turned-to-them.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Hear where he asked that from. Standing in their boat, on the sea he had just flattened to save them. He didn't ask it from the shore. He came through the storm with them \u2014 and then he asked why the fear had gotten so much bigger than their trust. He never said the storm wasn't real. He never scolded them for waking him. He was simply bigger than it.",
+   "seg_start": 152.339,
+   "audio_start": 152.619,
+   "spoken_end": 170.937,
+   "seg_end": 171.657,
+   "audio_dur": 18.704,
+   "spoken_dur": 18.318,
+   "seg_dur": 19.318,
+   "timing": [
+    {
+     "text": "Hear where he asked that from.",
+     "start": 0.0,
+     "end": 1.474
+    },
+    {
+     "text": "Standing in their boat, on the sea he had just flattened to save them.",
+     "start": 1.474,
+     "end": 5.178
+    },
+    {
+     "text": "He didn't ask it from the shore.",
+     "start": 5.178,
+     "end": 6.978
+    },
+    {
+     "text": "He came through the storm with them \u2014 and then he asked why the fear had gotten so much bigger than their trust.",
+     "start": 6.978,
+     "end": 12.387
+    },
+    {
+     "text": "He never said the storm wasn't real.",
+     "start": 12.387,
+     "end": 14.489
+    },
+    {
+     "text": "He never scolded them for waking him.",
+     "start": 14.489,
+     "end": 16.706
+    },
+    {
+     "text": "He was simply bigger than it.",
+     "start": 16.706,
+     "end": 18.668
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s9-what-manner-of-man.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And then a strange thing happened: the fear didn't leave the boat \u2014 it changed direction. Mark says they feared exceedingly \u2014 more awe after the calm than in the storm \u2014 and they asked each other:",
+   "seg_start": 171.657,
+   "audio_start": 171.937,
+   "spoken_end": 183.785,
+   "seg_end": 184.505,
+   "audio_dur": 12.199,
+   "spoken_dur": 11.848,
+   "seg_dur": 12.848,
+   "timing": [
+    {
+     "text": "And then a strange thing happened: the fear didn't leave the boat \u2014 it changed direction.",
+     "start": 0.0,
+     "end": 4.911
+    },
+    {
+     "text": "Mark says they feared exceedingly \u2014 more awe after the calm than in the storm \u2014 and they asked each other:",
+     "start": 5.515,
+     "end": 12.167
+    }
+   ]
+  },
+  {
+   "seg": "s41",
+   "v1_still": "s9-what-manner-of-man.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "What manner of man is this, that even the wind and the sea obey him?",
+   "seg_start": 184.505,
+   "audio_start": 184.785,
+   "spoken_end": 188.314,
+   "seg_end": 189.464,
+   "audio_dur": 3.84,
+   "spoken_dur": 3.529,
+   "seg_dur": 4.959,
+   "timing": [
+    {
+     "text": "What manner of man is this, that even the wind and the sea obey him?",
+     "start": 0.0,
+     "end": 3.808
+    }
+   ]
+  },
+  {
+   "seg": "n9b",
+   "v1_still": "s9-what-manner-of-man.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "These men knew their scriptures. They knew the old psalm that says it is God who stills the storm to a whisper. And now they were staring at a man in dripping clothes who had just done it.",
+   "seg_start": 189.464,
+   "audio_start": 189.744,
+   "spoken_end": 199.079,
+   "seg_end": 199.799,
+   "audio_dur": 9.744,
+   "spoken_dur": 9.334,
+   "seg_dur": 10.334,
+   "timing": [
+    {
+     "text": "These men knew their scriptures.",
+     "start": 0.0,
+     "end": 1.556
+    },
+    {
+     "text": "They knew the old psalm that says it is God who stills the storm to a whisper.",
+     "start": 1.556,
+     "end": 5.55
+    },
+    {
+     "text": "And now they were staring at a man in dripping clothes who had just done it.",
+     "start": 5.55,
+     "end": 9.706
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "n10",
+  "text": "Whatever storm you are in tonight, hear this: the same Jesus is still in the boat with you. He has not left you alone in it. Bring him your fear, and let him speak his peace over your storm.",
+  "seg_start": 199.799,
+  "audio_start": 200.079,
+  "seg_dur": 13.065
+ },
+ "total": 212.863
+}

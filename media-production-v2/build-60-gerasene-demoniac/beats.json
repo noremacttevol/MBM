@@ -1,0 +1,624 @@
+{
+ "row": 60,
+ "slug": "build-60-gerasene-demoniac",
+ "v1_dir": "media-production/build-60-gerasene-demoniac",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.2,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-far-shore.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The boat touched the far shore of the Sea of Galilee at first light \u2014 the disciples still shaking from the storm that had nearly sunk them in the night. This was the other side. Gentile country. Foreign gods, foreign food, herds of pigs on the hills. No rabbi took his students here on purpose. Jesus had crossed the whole sea in a storm to reach it.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 21.94,
+   "seg_end": 22.66,
+   "audio_dur": 22.1,
+   "spoken_dur": 21.66,
+   "seg_dur": 22.66,
+   "timing": [
+    {
+     "text": "The boat touched the far shore of the Sea of Galilee at first light \u2014 the disciples still shaking from the storm that had nearly sunk them in the night.",
+     "start": 0.0,
+     "end": 7.802
+    },
+    {
+     "text": "This was the other side.",
+     "start": 7.802,
+     "end": 9.497
+    },
+    {
+     "text": "Gentile country.",
+     "start": 9.497,
+     "end": 11.099
+    },
+    {
+     "text": "Foreign gods, foreign food, herds of pigs on the hills.",
+     "start": 11.099,
+     "end": 15.522
+    },
+    {
+     "text": "No rabbi took his students here on purpose.",
+     "start": 15.522,
+     "end": 18.587
+    },
+    {
+     "text": "Jesus had crossed the whole sea in a storm to reach it.",
+     "start": 18.587,
+     "end": 22.059
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-among-the-tombs.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Because one man lived there \u2014 if you could call it living. He made his home among the tombs, the caves where the dead were laid, because the town had driven him out. Something had hold of him that no one could fix. They had tried chains. He tore them apart. Night and day he cried out among the graves. To his town he was no longer a name. He was a warning.",
+   "seg_start": 22.66,
+   "audio_start": 22.94,
+   "spoken_end": 47.207,
+   "seg_end": 47.927,
+   "audio_dur": 24.66,
+   "spoken_dur": 24.267,
+   "seg_dur": 25.267,
+   "timing": [
+    {
+     "text": "Because one man lived there \u2014 if you could call it living.",
+     "start": 0.0,
+     "end": 3.32
+    },
+    {
+     "text": "He made his home among the tombs, the caves where the dead were laid, because the town had driven him out.",
+     "start": 3.32,
+     "end": 10.089
+    },
+    {
+     "text": "Something had hold of him that no one could fix.",
+     "start": 10.089,
+     "end": 13.909
+    },
+    {
+     "text": "They had tried chains.",
+     "start": 13.909,
+     "end": 15.708
+    },
+    {
+     "text": "He tore them apart.",
+     "start": 15.708,
+     "end": 17.125
+    },
+    {
+     "text": "Night and day he cried out among the graves.",
+     "start": 17.125,
+     "end": 20.19
+    },
+    {
+     "text": "To his town he was no longer a name.",
+     "start": 20.19,
+     "end": 22.93
+    },
+    {
+     "text": "He was a warning.",
+     "start": 22.93,
+     "end": 24.613
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s3-he-ran.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And when that man saw Jesus step out of the boat, far down the shore, he ran. Not to attack him. He ran and fell down at his feet. And the thing inside him cried out:",
+   "seg_start": 47.927,
+   "audio_start": 48.207,
+   "spoken_end": 59.265,
+   "seg_end": 59.985,
+   "audio_dur": 11.468,
+   "spoken_dur": 11.059,
+   "seg_dur": 12.059,
+   "timing": [
+    {
+     "text": "And when that man saw Jesus step out of the boat, far down the shore, he ran.",
+     "start": 0.0,
+     "end": 5.132
+    },
+    {
+     "text": "Not to attack him.",
+     "start": 5.132,
+     "end": 6.444
+    },
+    {
+     "text": "He ran and fell down at his feet.",
+     "start": 6.444,
+     "end": 8.951
+    },
+    {
+     "text": "And the thing inside him cried out:",
+     "start": 9.369,
+     "end": 11.424
+    }
+   ]
+  },
+  {
+   "seg": "s7",
+   "v1_still": "s3-he-ran.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "What have I to do with thee, Jesus, thou Son of the most high God? I adjure thee by God, that thou torment me not.",
+   "seg_start": 59.985,
+   "audio_start": 60.265,
+   "spoken_end": 67.237,
+   "seg_end": 68.437,
+   "audio_dur": 7.419,
+   "spoken_dur": 6.972,
+   "seg_dur": 8.452,
+   "timing": [
+    {
+     "text": "What have I to do with thee, Jesus, thou Son of the most high God?",
+     "start": 0.0,
+     "end": 3.39
+    },
+    {
+     "text": "I adjure thee by God, that thou torment me not.",
+     "start": 3.39,
+     "end": 7.384
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s3-he-ran.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Swear to me you won't torture me. Hear what just happened. The man's own town had given up on him and did not know who Jesus was. The darkness holding him knew exactly who had just stepped onto that beach, and knew it was finished.",
+   "seg_start": 68.437,
+   "audio_start": 68.717,
+   "spoken_end": 81.429,
+   "seg_end": 82.149,
+   "audio_dur": 13.192,
+   "spoken_dur": 12.712,
+   "seg_dur": 13.712,
+   "timing": [
+    {
+     "text": "Swear to me you won't torture me.",
+     "start": 0.0,
+     "end": 1.788
+    },
+    {
+     "text": "Hear what just happened.",
+     "start": 1.788,
+     "end": 3.1
+    },
+    {
+     "text": "The man's own town had given up on him and did not know who Jesus was.",
+     "start": 3.1,
+     "end": 7.616
+    },
+    {
+     "text": "The darkness holding him knew exactly who had just stepped onto that beach, and knew it was finished.",
+     "start": 7.616,
+     "end": 13.142
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s4-at-his-feet.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus did not step back. He was not afraid of him. He spoke straight past the man, to the thing that held him.",
+   "seg_start": 82.149,
+   "audio_start": 82.429,
+   "spoken_end": 88.699,
+   "seg_end": 89.419,
+   "audio_dur": 6.687,
+   "spoken_dur": 6.27,
+   "seg_dur": 7.27,
+   "timing": [
+    {
+     "text": "Jesus did not step back.",
+     "start": 0.0,
+     "end": 1.66
+    },
+    {
+     "text": "He was not afraid of him.",
+     "start": 1.66,
+     "end": 3.332
+    },
+    {
+     "text": "He spoke straight past the man, to the thing that held him.",
+     "start": 3.332,
+     "end": 6.641
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s4-at-his-feet.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Come out of the man, thou unclean spirit.",
+   "seg_start": 89.419,
+   "audio_start": 89.699,
+   "spoken_end": 91.713,
+   "seg_end": 92.913,
+   "audio_dur": 2.456,
+   "spoken_dur": 2.014,
+   "seg_dur": 3.494,
+   "timing": [
+    {
+     "text": "Come out of the man, thou unclean spirit.",
+     "start": 0.0,
+     "end": 2.415
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s5-the-question.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Come out of him. Not a negotiation, not a ritual \u2014 one sentence, aimed past the man at the thing wearing him. And then he asked it a question.",
+   "seg_start": 92.913,
+   "audio_start": 93.193,
+   "spoken_end": 102.943,
+   "seg_end": 103.663,
+   "audio_dur": 10.162,
+   "spoken_dur": 9.749,
+   "seg_dur": 10.749,
+   "timing": [
+    {
+     "text": "Come out of him.",
+     "start": 0.0,
+     "end": 0.906
+    },
+    {
+     "text": "Not a negotiation, not a ritual \u2014 one sentence, aimed past the man at the thing wearing him.",
+     "start": 0.906,
+     "end": 7.964
+    },
+    {
+     "text": "And then he asked it a question.",
+     "start": 7.964,
+     "end": 10.124
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s5-the-question.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "What is thy name?",
+   "seg_start": 103.663,
+   "audio_start": 103.943,
+   "spoken_end": 104.871,
+   "seg_end": 106.071,
+   "audio_dur": 1.28,
+   "spoken_dur": 0.929,
+   "seg_dur": 2.409,
+   "timing": [
+    {
+     "text": "What is thy name?",
+     "start": 0.0,
+     "end": 1.254
+    }
+   ]
+  },
+  {
+   "seg": "s9",
+   "v1_still": "s5-the-question.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "My name is Legion: for we are many.",
+   "seg_start": 106.071,
+   "audio_start": 106.351,
+   "spoken_end": 108.32,
+   "seg_end": 109.52,
+   "audio_dur": 2.325,
+   "spoken_dur": 1.969,
+   "seg_dur": 3.449,
+   "timing": [
+    {
+     "text": "My name is Legion: for we are many.",
+     "start": 0.0,
+     "end": 2.276
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-the-question.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Legion was a Roman army word \u2014 thousands of soldiers. That is how outnumbered this one man was on the inside. And standing in front of Jesus, the thousands were the ones begging.",
+   "seg_start": 109.52,
+   "audio_start": 109.8,
+   "spoken_end": 121.71,
+   "seg_end": 122.43,
+   "audio_dur": 12.304,
+   "spoken_dur": 11.909,
+   "seg_dur": 12.909,
+   "timing": [
+    {
+     "text": "Legion was a Roman army word \u2014 thousands of soldiers.",
+     "start": 0.0,
+     "end": 3.878
+    },
+    {
+     "text": "That is how outnumbered this one man was on the inside.",
+     "start": 3.878,
+     "end": 7.605
+    },
+    {
+     "text": "And standing in front of Jesus, the thousands were the ones begging.",
+     "start": 7.605,
+     "end": 12.26
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6-the-herd.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "On the hillside above them, a herd of about two thousand pigs was feeding \u2014 remember, this was Gentile land; no Jewish town keeps pigs. And the spirits begged him:",
+   "seg_start": 122.43,
+   "audio_start": 122.71,
+   "spoken_end": 133.715,
+   "seg_end": 134.435,
+   "audio_dur": 11.363,
+   "spoken_dur": 11.006,
+   "seg_dur": 12.006,
+   "timing": [
+    {
+     "text": "On the hillside above them, a herd of about two thousand pigs was feeding \u2014 remember, this was Gentile land; no Jewish town keeps pigs.",
+     "start": 0.0,
+     "end": 9.404
+    },
+    {
+     "text": "And the spirits begged him:",
+     "start": 9.752,
+     "end": 11.331
+    }
+   ]
+  },
+  {
+   "seg": "s12",
+   "v1_still": "s6-the-herd.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Send us into the swine, that we may enter into them.",
+   "seg_start": 134.435,
+   "audio_start": 134.715,
+   "spoken_end": 137.554,
+   "seg_end": 138.754,
+   "audio_dur": 3.187,
+   "spoken_dur": 2.839,
+   "seg_dur": 4.319,
+   "timing": [
+    {
+     "text": "Send us into the swine, that we may enter into them.",
+     "start": 0.0,
+     "end": 3.158
+    }
+   ]
+  },
+  {
+   "seg": "n6b",
+   "v1_still": "s6-the-herd.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Send us into the pigs, they said. Let us go into them. And Jesus gave them leave. In an instant the whole herd stampeded down the steep bank into the sea, and the water closed over them. The men tending the pigs ran for town with the story of their lives.",
+   "seg_start": 138.754,
+   "audio_start": 139.034,
+   "spoken_end": 154.35,
+   "seg_end": 155.07,
+   "audio_dur": 15.7,
+   "spoken_dur": 15.316,
+   "seg_dur": 16.316,
+   "timing": [
+    {
+     "text": "Send us into the pigs, they said.",
+     "start": 0.0,
+     "end": 1.927
+    },
+    {
+     "text": "Let us go into them.",
+     "start": 1.927,
+     "end": 3.355
+    },
+    {
+     "text": "And Jesus gave them leave.",
+     "start": 3.355,
+     "end": 5.213
+    },
+    {
+     "text": "In an instant the whole herd stampeded down the steep bank into the sea, and the water closed over them.",
+     "start": 5.213,
+     "end": 11.61
+    },
+    {
+     "text": "The men tending the pigs ran for town with the story of their lives.",
+     "start": 11.61,
+     "end": 15.65
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s7-right-mind.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The whole town came out to see. And what they found was the man they had chained and lost and buried in their memory \u2014 sitting quietly at the feet of Jesus. Clothed. Calm. In his right mind. And the scripture says a strange thing: they were afraid. Power like that, standing on their beach, had just cost them two thousand pigs. So they asked Jesus to leave.",
+   "seg_start": 155.07,
+   "audio_start": 155.35,
+   "spoken_end": 178.64,
+   "seg_end": 179.36,
+   "audio_dur": 23.771,
+   "spoken_dur": 23.29,
+   "seg_dur": 24.29,
+   "timing": [
+    {
+     "text": "The whole town came out to see.",
+     "start": 0.0,
+     "end": 1.672
+    },
+    {
+     "text": "And what they found was the man they had chained and lost and buried in their memory \u2014 sitting quietly at the feet of Jesus.",
+     "start": 1.672,
+     "end": 9.102
+    },
+    {
+     "text": "Clothed.",
+     "start": 9.102,
+     "end": 10.205
+    },
+    {
+     "text": "Calm.",
+     "start": 10.205,
+     "end": 11.18
+    },
+    {
+     "text": "In his right mind.",
+     "start": 11.18,
+     "end": 12.608
+    },
+    {
+     "text": "And the scripture says a strange thing: they were afraid.",
+     "start": 12.608,
+     "end": 16.544
+    },
+    {
+     "text": "Power like that, standing on their beach, had just cost them two thousand pigs.",
+     "start": 16.544,
+     "end": 21.316
+    },
+    {
+     "text": "So they asked Jesus to leave.",
+     "start": 21.316,
+     "end": 23.731
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s8-the-commission.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And he did. He never argues his way in where he is not wanted. But as he climbed into the boat, the healed man begged to come with him. It is the only time in the gospels someone asks to follow Jesus and is told no. Listen to what he was given instead.",
+   "seg_start": 179.36,
+   "audio_start": 179.64,
+   "spoken_end": 195.064,
+   "seg_end": 195.784,
+   "audio_dur": 15.83,
+   "spoken_dur": 15.424,
+   "seg_dur": 16.424,
+   "timing": [
+    {
+     "text": "And he did.",
+     "start": 0.0,
+     "end": 0.906
+    },
+    {
+     "text": "He never argues his way in where he is not wanted.",
+     "start": 0.906,
+     "end": 4.087
+    },
+    {
+     "text": "But as he climbed into the boat, the healed man begged to come with him.",
+     "start": 4.087,
+     "end": 8.29
+    },
+    {
+     "text": "It is the only time in the gospels someone asks to follow Jesus and is told no.",
+     "start": 8.29,
+     "end": 13.259
+    },
+    {
+     "text": "Listen to what he was given instead.",
+     "start": 13.259,
+     "end": 15.79
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": "s8-the-commission.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Go home to thy friends, and tell them how great things the Lord hath done for thee, and hath had compassion on thee.",
+   "seg_start": 195.784,
+   "audio_start": 196.064,
+   "spoken_end": 202.618,
+   "seg_end": 203.818,
+   "audio_dur": 6.949,
+   "spoken_dur": 6.554,
+   "seg_dur": 8.034,
+   "timing": [
+    {
+     "text": "Go home to thy friends, and tell them how great things the Lord hath done for thee, and hath had compassion on thee.",
+     "start": 0.0,
+     "end": 6.92
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s9-decapolis.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "To the town that chained you. To the people who gave up on you. Tell them what God did for you, and how he had compassion on you. The man everyone had written off became the first person Jesus ever sent out with his story \u2014 a one-man mission to the ten Gentile cities of the Decapolis. And everywhere he went, people were amazed.",
+   "seg_start": 203.818,
+   "audio_start": 204.098,
+   "spoken_end": 225.272,
+   "seg_end": 225.992,
+   "audio_dur": 21.577,
+   "spoken_dur": 21.174,
+   "seg_dur": 22.174,
+   "timing": [
+    {
+     "text": "To the town that chained you.",
+     "start": 0.0,
+     "end": 1.66
+    },
+    {
+     "text": "To the people who gave up on you.",
+     "start": 1.66,
+     "end": 3.971
+    },
+    {
+     "text": "Tell them what God did for you, and how he had compassion on you.",
+     "start": 3.971,
+     "end": 8.475
+    },
+    {
+     "text": "The man everyone had written off became the first person Jesus ever sent out with his story \u2014 a one-man mission to the ten Gentile cities of the Decapolis.",
+     "start": 8.475,
+     "end": 18.471
+    },
+    {
+     "text": "And everywhere he went, people were amazed.",
+     "start": 18.471,
+     "end": 21.548
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He crossed a sea in a storm for one man everyone else had given up on. There is no distance he will not cross for you.",
+  "seg_start": 225.992,
+  "audio_start": 226.272,
+  "seg_dur": 8.911
+ },
+ "total": 234.903
+}

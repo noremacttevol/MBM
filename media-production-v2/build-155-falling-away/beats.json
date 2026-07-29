@@ -1,0 +1,306 @@
+{
+ "row": 155,
+ "slug": "build-155-falling-away",
+ "v1_dir": "media-production/build-155-falling-away",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-paul-writing.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The young believers in Thessalonica were rattled. Rumors were flying that the great Day of the Lord had already come, and they were frightened and confused. So Paul sat down to write them a steadying letter.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 11.124,
+   "seg_end": 11.774,
+   "audio_dur": 11.233,
+   "spoken_dur": 10.844,
+   "seg_dur": 11.774,
+   "timing": [
+    {
+     "text": "The young believers in Thessalonica were rattled.",
+     "start": 0.0,
+     "end": 2.403
+    },
+    {
+     "text": "Rumors were flying that the great Day of the Lord had already come, and they were frightened and confused.",
+     "start": 2.403,
+     "end": 8.22
+    },
+    {
+     "text": "So Paul sat down to write them a steadying letter.",
+     "start": 8.22,
+     "end": 11.192
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-rumors-and-fear.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "His first word to them was calm. Do not let yourselves be shaken or alarmed, he said, by every excited rumor and secondhand report, or stampeded into fear by things you cannot even trace to their source.",
+   "seg_start": 11.774,
+   "audio_start": 12.054,
+   "spoken_end": 24.781,
+   "seg_end": 25.431,
+   "audio_dur": 13.192,
+   "spoken_dur": 12.727,
+   "seg_dur": 13.657,
+   "timing": [
+    {
+     "text": "His first word to them was calm.",
+     "start": 0.0,
+     "end": 1.753
+    },
+    {
+     "text": "Do not let yourselves be shaken or alarmed, he said, by every excited rumor and secondhand report, or stampeded into fear by things you cannot even trace to their source.",
+     "start": 1.753,
+     "end": 13.142
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-paul-steadies-them.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He wanted them anchored, not tossed around by the loudest voice in the room. Feelings and hearsay are not the same as truth, and a frightened crowd is rarely a wise one.",
+   "seg_start": 25.431,
+   "audio_start": 25.711,
+   "spoken_end": 35.098,
+   "seg_end": 35.748,
+   "audio_dur": 9.796,
+   "spoken_dur": 9.387,
+   "seg_dur": 10.317,
+   "timing": [
+    {
+     "text": "He wanted them anchored, not tossed around by the loudest voice in the room.",
+     "start": 0.0,
+     "end": 3.936
+    },
+    {
+     "text": "Feelings and hearsay are not the same as truth, and a frightened crowd is rarely a wise one.",
+     "start": 3.936,
+     "end": 9.752
+    }
+   ]
+  },
+  {
+   "seg": "kv2",
+   "v1_still": "s4-anchored.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "That ye be not soon shaken in mind, or be troubled, neither by spirit, nor by word, nor by letter as from us, as that the day of Christ is at hand.",
+   "seg_start": 35.748,
+   "audio_start": 36.028,
+   "spoken_end": 44.907,
+   "seg_end": 46.507,
+   "audio_dur": 9.273,
+   "spoken_dur": 8.879,
+   "seg_dur": 10.759,
+   "timing": [
+    {
+     "text": "That ye be not soon shaken in mind, or be troubled, neither by spirit, nor by word, nor by letter as from us, as that the day of Christ is at hand.",
+     "start": 0.0,
+     "end": 9.242
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-anchored.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Then Paul told them plainly what to watch for. That day, he said, would not arrive until something else happened first \u2014 and it was sobering. Before the end, there would come a falling away.",
+   "seg_start": 46.507,
+   "audio_start": 46.787,
+   "spoken_end": 57.97,
+   "seg_end": 58.62,
+   "audio_dur": 11.598,
+   "spoken_dur": 11.184,
+   "seg_dur": 12.114,
+   "timing": [
+    {
+     "text": "Then Paul told them plainly what to watch for.",
+     "start": 0.0,
+     "end": 2.264
+    },
+    {
+     "text": "That day, he said, would not arrive until something else happened first \u2014 and it was sobering.",
+     "start": 2.264,
+     "end": 8.266
+    },
+    {
+     "text": "Before the end, there would come a falling away.",
+     "start": 8.266,
+     "end": 11.564
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-the-light-dimming.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "A drifting from the truth. A dimming of the light that had been lit. Many hearts, over time, turning away from what the apostles had actually given them, until much of it was lost from view.",
+   "seg_start": 58.62,
+   "audio_start": 58.9,
+   "spoken_end": 69.904,
+   "seg_end": 70.554,
+   "audio_dur": 11.363,
+   "spoken_dur": 11.003,
+   "seg_dur": 11.933,
+   "timing": [
+    {
+     "text": "A drifting from the truth.",
+     "start": 0.0,
+     "end": 1.416
+    },
+    {
+     "text": "A dimming of the light that had been lit.",
+     "start": 1.416,
+     "end": 3.599
+    },
+    {
+     "text": "Many hearts, over time, turning away from what the apostles had actually given them, until much of it was lost from view.",
+     "start": 3.599,
+     "end": 11.331
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6-foretold-not-failed.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But here is the part that turns dread into hope. Paul is telling them ahead of time. A falling away would not mean God had failed, or his plan had broken. It would mean the very thing he predicted was coming to pass.",
+   "seg_start": 70.554,
+   "audio_start": 70.834,
+   "spoken_end": 83.85,
+   "seg_end": 84.5,
+   "audio_dur": 13.375,
+   "spoken_dur": 13.016,
+   "seg_dur": 13.946,
+   "timing": [
+    {
+     "text": "But here is the part that turns dread into hope.",
+     "start": 0.0,
+     "end": 2.786
+    },
+    {
+     "text": "Paul is telling them ahead of time.",
+     "start": 2.786,
+     "end": 4.957
+    },
+    {
+     "text": "A falling away would not mean God had failed, or his plan had broken.",
+     "start": 4.957,
+     "end": 9.822
+    },
+    {
+     "text": "It would mean the very thing he predicted was coming to pass.",
+     "start": 9.822,
+     "end": 13.328
+    }
+   ]
+  },
+  {
+   "seg": "kv3",
+   "v1_still": "s7-night-before-morning.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Let no man deceive you by any means: for that day shall not come, except there come a falling away first, and that man of sin be revealed, the son of perdition;",
+   "seg_start": 84.5,
+   "audio_start": 84.78,
+   "spoken_end": 93.735,
+   "seg_end": 95.335,
+   "audio_dur": 9.273,
+   "spoken_dur": 8.955,
+   "seg_dur": 10.835,
+   "timing": [
+    {
+     "text": "Let no man deceive you by any means: for that day shall not come, except there come a falling away first, and that man of sin be revealed, the son of perdition;",
+     "start": 0.0,
+     "end": 9.242
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s7-night-before-morning.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "And you do not warn people about a night unless a morning is meant to follow. A falling away only makes sense if there is something to fall back to \u2014 a truth that can be restored, brought back, and lit again.",
+   "seg_start": 95.335,
+   "audio_start": 95.615,
+   "spoken_end": 107.461,
+   "seg_end": 108.111,
+   "audio_dur": 12.199,
+   "spoken_dur": 11.846,
+   "seg_dur": 12.776,
+   "timing": [
+    {
+     "text": "And you do not warn people about a night unless a morning is meant to follow.",
+     "start": 0.0,
+     "end": 3.622
+    },
+    {
+     "text": "A falling away only makes sense if there is something to fall back to \u2014 a truth that can be restored, brought back, and lit again.",
+     "start": 3.622,
+     "end": 12.167
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s8-the-light-returns.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So this hard little verse is really a quiet promise. The dimming was foretold, which means the returning was always part of the plan. So the only question is a hopeful one. When the light is offered again, will you know it, and take hold?",
+   "seg_start": 108.111,
+   "audio_start": 108.391,
+   "spoken_end": 122.419,
+   "seg_end": 123.069,
+   "audio_dur": 14.446,
+   "spoken_dur": 14.029,
+   "seg_dur": 14.959,
+   "timing": [
+    {
+     "text": "So this hard little verse is really a quiet promise.",
+     "start": 0.0,
+     "end": 3.367
+    },
+    {
+     "text": "The dimming was foretold, which means the returning was always part of the plan.",
+     "start": 3.367,
+     "end": 7.964
+    },
+    {
+     "text": "So the only question is a hopeful one.",
+     "start": 7.964,
+     "end": 10.461
+    },
+    {
+     "text": "When the light is offered again, will you know it, and take hold?",
+     "start": 10.461,
+     "end": 14.396
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "Paul warned that a falling away would come first \u2014 not because God failed, but because he foretold it. And what is foretold can be restored. When the light returns, will you take hold of it?",
+  "seg_start": 123.069,
+  "audio_start": 123.349,
+  "seg_dur": 14.319
+ },
+ "total": 137.388
+}

@@ -1,0 +1,760 @@
+{
+ "row": 10,
+ "slug": "build-10-well",
+ "v1_dir": "media-production/build-10-well",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": [
+    [
+     "s1-noon-path.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "A woman walked out to a well at noon \u2014 the hottest, emptiest hour of the day. You need to understand what that hour means. Women drew their water in the cool of the morning, together. It was where the talk happened. She came at noon because of the talk. Five marriages behind her, living now with a man who wasn't her husband \u2014 and the whole town knew every chapter. Noon was the hour with nobody in it. She chose it on purpose.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 27.36,
+   "seg_end": 28.01,
+   "audio_dur": 27.429,
+   "spoken_dur": 27.08,
+   "seg_dur": 28.01,
+   "timing": [
+    {
+     "text": "A woman walked out to a well at noon \u2014 the hottest, emptiest hour of the day.",
+     "start": 0.0,
+     "end": 5.017
+    },
+    {
+     "text": "You need to understand what that hour means.",
+     "start": 5.017,
+     "end": 7.883
+    },
+    {
+     "text": "Women drew their water in the cool of the morning, together.",
+     "start": 7.883,
+     "end": 11.792
+    },
+    {
+     "text": "It was where the talk happened.",
+     "start": 11.792,
+     "end": 13.812
+    },
+    {
+     "text": "She came at noon because of the talk.",
+     "start": 13.812,
+     "end": 16.223
+    },
+    {
+     "text": "Five marriages behind her, living now with a man who wasn't her husband \u2014 and the whole town knew every chapter.",
+     "start": 16.223,
+     "end": 23.52
+    },
+    {
+     "text": "Noon was the hour with nobody in it.",
+     "start": 23.52,
+     "end": 25.865
+    },
+    {
+     "text": "She chose it on purpose.",
+     "start": 25.865,
+     "end": 27.429
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": [
+    [
+     "s2-traveler.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But this day, somebody was there. A traveler sat by the well, worn out from the road \u2014 a Jewish man, resting in Samaria. That detail matters more than it sounds. Jews and Samaritans had despised each other for seven hundred years. They didn't share roads if they could help it, didn't share tables, and certainly didn't share water. Everything in her body said: turn around.",
+   "seg_start": 28.01,
+   "audio_start": 28.29,
+   "spoken_end": 53.886,
+   "seg_end": 54.536,
+   "audio_dur": 25.992,
+   "spoken_dur": 25.596,
+   "seg_dur": 26.526,
+   "timing": [
+    {
+     "text": "But this day, somebody was there.",
+     "start": 0.0,
+     "end": 2.324
+    },
+    {
+     "text": "A traveler sat by the well, worn out from the road \u2014 a Jewish man, resting in Samaria.",
+     "start": 2.324,
+     "end": 8.382
+    },
+    {
+     "text": "That detail matters more than it sounds.",
+     "start": 8.382,
+     "end": 11.2
+    },
+    {
+     "text": "Jews and Samaritans had despised each other for seven hundred years.",
+     "start": 11.2,
+     "end": 15.99
+    },
+    {
+     "text": "They didn't share roads if they could help it, didn't share tables, and certainly didn't share water.",
+     "start": 15.99,
+     "end": 23.104
+    },
+    {
+     "text": "Everything in her body said: turn around.",
+     "start": 23.104,
+     "end": 25.992
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": [
+    [
+     "s3-disbelief.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then he spoke to her. He asked her for a drink. Understand how impossible that sentence was. A rabbi did not speak to an unknown woman in public \u2014 and no Jew asked a Samaritan for anything. He broke both walls at once, and he did it by needing her help. She almost laughed. How is it that you, a Jew, would ask me for water? And he answered that if she knew who was asking, she would have asked him \u2014 and he would have given her living water.",
+   "seg_start": 54.536,
+   "audio_start": 54.816,
+   "spoken_end": 81.889,
+   "seg_end": 82.539,
+   "audio_dur": 27.481,
+   "spoken_dur": 27.073,
+   "seg_dur": 28.003,
+   "timing": [
+    {
+     "text": "Then he spoke to her.",
+     "start": 0.0,
+     "end": 1.327
+    },
+    {
+     "text": "He asked her for a drink.",
+     "start": 1.327,
+     "end": 2.906
+    },
+    {
+     "text": "Understand how impossible that sentence was.",
+     "start": 2.906,
+     "end": 5.686
+    },
+    {
+     "text": "A rabbi did not speak to an unknown woman in public \u2014 and no Jew asked a Samaritan for anything.",
+     "start": 5.686,
+     "end": 11.75
+    },
+    {
+     "text": "He broke both walls at once, and he did it by needing her help.",
+     "start": 11.75,
+     "end": 15.73
+    },
+    {
+     "text": "She almost laughed.",
+     "start": 15.73,
+     "end": 16.931
+    },
+    {
+     "text": "How is it that you, a Jew, would ask me for water?",
+     "start": 16.931,
+     "end": 20.089
+    },
+    {
+     "text": "And he answered that if she knew who was asking, she would have asked him \u2014 and he would have given her living water.",
+     "start": 20.089,
+     "end": 27.481
+    }
+   ]
+  },
+  {
+   "seg": "w9",
+   "v1_still": [
+    [
+     "s3-disbelief.jpeg",
+     "out"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "woman",
+   "text": "How is it that thou, being a Jew, askest drink of me, which am a woman of Samaria?",
+   "seg_start": 82.539,
+   "audio_start": 82.819,
+   "spoken_end": 87.644,
+   "seg_end": 89.244,
+   "audio_dur": 5.198,
+   "spoken_dur": 4.825,
+   "seg_dur": 6.705,
+   "timing": [
+    {
+     "text": "How is it that thou, being a Jew, askest drink of me, which am a woman of Samaria?",
+     "start": 0.0,
+     "end": 5.198
+    }
+   ]
+  },
+  {
+   "seg": "w11",
+   "v1_still": [
+    [
+     "s4-living-water.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "woman",
+   "text": "Sir, thou hast nothing to draw with, and the well is deep: from whence then hast thou that living water?",
+   "seg_start": 89.244,
+   "audio_start": 89.524,
+   "spoken_end": 95.956,
+   "seg_end": 97.556,
+   "audio_dur": 6.818,
+   "spoken_dur": 6.432,
+   "seg_dur": 8.312,
+   "timing": [
+    {
+     "text": "Sir, thou hast nothing to draw with, and the well is deep: from whence then hast thou that living water?",
+     "start": 0.0,
+     "end": 6.818
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": [
+    [
+     "s4-living-water.jpeg",
+     "out"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "She pointed out the obvious \u2014 the well is deep, sir, and you don't even have a rope. This well came from Jacob himself. Are you greater than Jacob? She meant it as a corner. He stepped right into it.",
+   "seg_start": 97.556,
+   "audio_start": 97.836,
+   "spoken_end": 110.348,
+   "seg_end": 110.998,
+   "audio_dur": 12.904,
+   "spoken_dur": 12.512,
+   "seg_dur": 13.442,
+   "timing": [
+    {
+     "text": "She pointed out the obvious \u2014 the well is deep, sir, and you don't even have a rope.",
+     "start": 0.0,
+     "end": 5.559
+    },
+    {
+     "text": "This well came from Jacob himself.",
+     "start": 5.559,
+     "end": 7.809
+    },
+    {
+     "text": "Are you greater than Jacob?",
+     "start": 7.809,
+     "end": 9.596
+    },
+    {
+     "text": "She meant it as a corner.",
+     "start": 9.596,
+     "end": 11.25
+    },
+    {
+     "text": "He stepped right into it.",
+     "start": 11.25,
+     "end": 12.904
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": [
+    [
+     "s4-living-water.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "jesus",
+   "text": "Whosoever drinketh of this water shall thirst again: But whosoever drinketh of the water that I shall give him shall never thirst; but the water that I shall give him shall be in him a well of water springing up into everlasting life.",
+   "seg_start": 110.998,
+   "audio_start": 111.278,
+   "spoken_end": 124.816,
+   "seg_end": 126.416,
+   "audio_dur": 14.054,
+   "spoken_dur": 13.539,
+   "seg_dur": 15.419,
+   "timing": [
+    {
+     "text": "Whosoever drinketh of this water shall thirst again: But whosoever drinketh of the water that I shall give him shall never thirst; but the water that I shall give him shall be in him a well of water springing up into everlasting life.",
+     "start": 0.0,
+     "end": 14.054
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": [
+    [
+     "s4-living-water.jpeg",
+     "out"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "A well inside you \u2014 springing up, not running dry. He wasn't talking about the water in the jar. He was talking about the thirst underneath the thirst. The one you can't carry a jar big enough for.",
+   "seg_start": 126.416,
+   "audio_start": 126.696,
+   "spoken_end": 138.001,
+   "seg_end": 138.651,
+   "audio_dur": 11.703,
+   "spoken_dur": 11.304,
+   "seg_dur": 12.234,
+   "timing": [
+    {
+     "text": "A well inside you \u2014 springing up, not running dry.",
+     "start": 0.0,
+     "end": 3.016
+    },
+    {
+     "text": "He wasn't talking about the water in the jar.",
+     "start": 3.016,
+     "end": 5.731
+    },
+    {
+     "text": "He was talking about the thirst underneath the thirst.",
+     "start": 5.731,
+     "end": 8.988
+    },
+    {
+     "text": "The one you can't carry a jar big enough for.",
+     "start": 8.988,
+     "end": 11.703
+    }
+   ]
+  },
+  {
+   "seg": "w15",
+   "v1_still": [
+    [
+     "s4-living-water.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "woman",
+   "text": "Sir, give me this water, that I thirst not, neither come hither to draw.",
+   "seg_start": 138.651,
+   "audio_start": 138.931,
+   "spoken_end": 143.433,
+   "seg_end": 145.033,
+   "audio_dur": 4.859,
+   "spoken_dur": 4.502,
+   "seg_dur": 6.382,
+   "timing": [
+    {
+     "text": "Sir, give me this water, that I thirst not, neither come hither to draw.",
+     "start": 0.0,
+     "end": 4.859
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": [
+    [
+     "s5-conversation-anchor.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then he said: go get your husband. And the whole conversation changed. I have no husband, she said. And he agreed with her \u2014 gently, and completely. Five husbands, he said. And the man you have now is not one. He already knew. All of it. Every chapter the town whispered about \u2014 he said it out loud, to her face. And he did not turn away. He stayed in the conversation. She came for water, and found herself fully known \u2014 and still spoken to with respect.",
+   "seg_start": 145.033,
+   "audio_start": 145.313,
+   "spoken_end": 173.538,
+   "seg_end": 174.188,
+   "audio_dur": 28.604,
+   "spoken_dur": 28.225,
+   "seg_dur": 29.155,
+   "timing": [
+    {
+     "text": "Then he said: go get your husband.",
+     "start": 0.0,
+     "end": 2.19
+    },
+    {
+     "text": "And the whole conversation changed.",
+     "start": 2.19,
+     "end": 4.445
+    },
+    {
+     "text": "I have no husband, she said.",
+     "start": 4.445,
+     "end": 6.249
+    },
+    {
+     "text": "And he agreed with her \u2014 gently, and completely.",
+     "start": 6.249,
+     "end": 9.341
+    },
+    {
+     "text": "Five husbands, he said.",
+     "start": 9.341,
+     "end": 10.823
+    },
+    {
+     "text": "And the man you have now is not one.",
+     "start": 10.823,
+     "end": 13.142
+    },
+    {
+     "text": "He already knew.",
+     "start": 13.142,
+     "end": 14.173
+    },
+    {
+     "text": "All of it.",
+     "start": 14.173,
+     "end": 14.817
+    },
+    {
+     "text": "Every chapter the town whispered about \u2014 he said it out loud, to her face.",
+     "start": 14.817,
+     "end": 19.585
+    },
+    {
+     "text": "And he did not turn away.",
+     "start": 19.585,
+     "end": 21.195
+    },
+    {
+     "text": "He stayed in the conversation.",
+     "start": 21.195,
+     "end": 23.128
+    },
+    {
+     "text": "She came for water, and found herself fully known \u2014 and still spoken to with respect.",
+     "start": 23.128,
+     "end": 28.604
+    }
+   ]
+  },
+  {
+   "seg": "w19",
+   "v1_still": [
+    [
+     "s5-conversation-anchor.jpeg",
+     "out"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "woman",
+   "text": "Sir, I perceive that thou art a prophet.",
+   "seg_start": 174.188,
+   "audio_start": 174.468,
+   "spoken_end": 176.803,
+   "seg_end": 178.403,
+   "audio_dur": 2.743,
+   "spoken_dur": 2.335,
+   "seg_dur": 4.215,
+   "timing": [
+    {
+     "text": "Sir, I perceive that thou art a prophet.",
+     "start": 0.0,
+     "end": 2.743
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": [
+    [
+     "s5-conversation-anchor.jpeg",
+     "out"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "She called him a prophet. She asked him her people's oldest question \u2014 which mountain is the right one to worship on \u2014 and he told her the day was coming when the question itself would be old news: God is spirit, and what he wants is the heart. Then she said, almost to herself: When he comes, he'll explain everything. And the tired traveler at the well said:",
+   "seg_start": 178.403,
+   "audio_start": 178.683,
+   "spoken_end": 201.388,
+   "seg_end": 202.038,
+   "audio_dur": 23.014,
+   "spoken_dur": 22.705,
+   "seg_dur": 23.635,
+   "timing": [
+    {
+     "text": "She called him a prophet.",
+     "start": 0.0,
+     "end": 1.612
+    },
+    {
+     "text": "She asked him her people's oldest question \u2014 which mountain is the right one to worship on \u2014 and he told her the day was coming when the question itself would be old news: God is spirit, and what he wants is the heart.",
+     "start": 1.612,
+     "end": 15.665
+    },
+    {
+     "text": "Then she said, almost to herself: When he comes, he'll explain everything.",
+     "start": 15.665,
+     "end": 20.435
+    },
+    {
+     "text": "And the tired traveler at the well said:",
+     "start": 20.435,
+     "end": 23.014
+    }
+   ]
+  },
+  {
+   "seg": "w25",
+   "v1_still": [
+    [
+     "s5-conversation-anchor.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "woman",
+   "text": "I know that Messiah cometh, which is called Christ: when he is come, he will tell us all things.",
+   "seg_start": 202.038,
+   "audio_start": 202.318,
+   "spoken_end": 208.036,
+   "seg_end": 209.636,
+   "audio_dur": 5.799,
+   "spoken_dur": 5.719,
+   "seg_dur": 7.599,
+   "timing": [
+    {
+     "text": "I know that Messiah cometh, which is called Christ: when he is come, he will tell us all things.",
+     "start": 0.0,
+     "end": 5.799
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": [
+    [
+     "s5-conversation-anchor.jpeg",
+     "out"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "jesus",
+   "text": "I that speak unto thee am he.",
+   "seg_start": 209.636,
+   "audio_start": 209.916,
+   "spoken_end": 211.234,
+   "seg_end": 212.834,
+   "audio_dur": 1.672,
+   "spoken_dur": 1.318,
+   "seg_dur": 3.198,
+   "timing": [
+    {
+     "text": "I that speak unto thee am he.",
+     "start": 0.0,
+     "end": 1.672
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": [
+    [
+     "s6-disciples.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "The first person Jesus ever told plainly that he was the Messiah \u2014 not a king, not a priest, not even one of his twelve \u2014 a Samaritan woman with five marriages behind her, at the bottom of every list her world kept. Right then his followers came back from town, and stopped short \u2014 stunned that he was talking with her at all. Nobody dared say a word.",
+   "seg_start": 212.834,
+   "audio_start": 213.114,
+   "spoken_end": 236.853,
+   "seg_end": 237.503,
+   "audio_dur": 24.137,
+   "spoken_dur": 23.739,
+   "seg_dur": 24.669,
+   "timing": [
+    {
+     "text": "The first person Jesus ever told plainly that he was the Messiah \u2014 not a king, not a priest, not even one of his twelve \u2014 a Samaritan woman with five marriages behind her, at the bottom of every list her world kept.",
+     "start": 0.0,
+     "end": 14.87
+    },
+    {
+     "text": "Right then his followers came back from town, and stopped short \u2014 stunned that he was talking with her at all.",
+     "start": 14.87,
+     "end": 22.477
+    },
+    {
+     "text": "Nobody dared say a word.",
+     "start": 22.477,
+     "end": 24.137
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": [
+    [
+     "s7-jar-left-anchor.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "And look what she did. She left the jar. The thing she walked all that way in the heat to fill \u2014 she left it standing at the well, and she ran.",
+   "seg_start": 237.503,
+   "audio_start": 237.783,
+   "spoken_end": 246.72,
+   "seg_end": 247.37,
+   "audio_dur": 9.273,
+   "spoken_dur": 8.936,
+   "seg_dur": 9.866,
+   "timing": [
+    {
+     "text": "And look what she did.",
+     "start": 0.0,
+     "end": 1.447
+    },
+    {
+     "text": "She left the jar.",
+     "start": 1.447,
+     "end": 2.565
+    },
+    {
+     "text": "The thing she walked all that way in the heat to fill \u2014 she left it standing at the well, and she ran.",
+     "start": 2.565,
+     "end": 9.273
+    }
+   ]
+  },
+  {
+   "seg": "n8b",
+   "v1_still": [
+    [
+     "s8-come-and-see.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "Ran toward the town she had spent years avoiding, to the very people she came out at noon to miss, shouting:",
+   "seg_start": 247.37,
+   "audio_start": 247.65,
+   "spoken_end": 253.228,
+   "seg_end": 253.878,
+   "audio_dur": 5.93,
+   "spoken_dur": 5.579,
+   "seg_dur": 6.509,
+   "timing": [
+    {
+     "text": "Ran toward the town she had spent years avoiding, to the very people she came out at noon to miss, shouting:",
+     "start": 0.0,
+     "end": 5.93
+    }
+   ]
+  },
+  {
+   "seg": "w29",
+   "v1_still": [
+    [
+     "s8-come-and-see.jpeg",
+     "out"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "woman",
+   "text": "Come, see a man, which told me all things that ever I did: is not this the Christ?",
+   "seg_start": 253.878,
+   "audio_start": 254.158,
+   "spoken_end": 259.298,
+   "seg_end": 260.898,
+   "audio_dur": 5.512,
+   "spoken_dur": 5.139,
+   "seg_dur": 7.019,
+   "timing": [
+    {
+     "text": "Come, see a man, which told me all things that ever I did: is not this the Christ?",
+     "start": 0.0,
+     "end": 5.512
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": [
+    [
+     "s9-road-filling.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And they came. The town that whispered about her followed her up the road to see for themselves. Many believed because of her word \u2014 the woman who wouldn't meet their eyes at sunrise became the first missionary in that gospel by sundown. They asked him to stay, and he stayed two days \u2014 with Samaritans. And they told her: now we've heard him ourselves. We know.",
+   "seg_start": 260.898,
+   "audio_start": 261.178,
+   "spoken_end": 281.76,
+   "seg_end": 282.41,
+   "audio_dur": 20.976,
+   "spoken_dur": 20.582,
+   "seg_dur": 21.512,
+   "timing": [
+    {
+     "text": "And they came.",
+     "start": 0.0,
+     "end": 0.823
+    },
+    {
+     "text": "The town that whispered about her followed her up the road to see for themselves.",
+     "start": 0.823,
+     "end": 5.582
+    },
+    {
+     "text": "Many believed because of her word \u2014 the woman who wouldn't meet their eyes at sunrise became the first missionary in that gospel by sundown.",
+     "start": 5.582,
+     "end": 13.808
+    },
+    {
+     "text": "They asked him to stay, and he stayed two days \u2014 with Samaritans.",
+     "start": 13.808,
+     "end": 17.627
+    },
+    {
+     "text": "And they told her: now we've heard him ourselves.",
+     "start": 17.627,
+     "end": 20.506
+    },
+    {
+     "text": "We know.",
+     "start": 20.506,
+     "end": 20.976
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "n10",
+  "text": "She came for one thing, and found out she was thirsty for something much deeper. Have you ever been searching for something \u2014 and realized later it was deeper than what you thought you wanted?",
+  "seg_start": 282.41,
+  "audio_start": 282.69,
+  "seg_dur": 12.229
+ },
+ "total": 294.639
+}

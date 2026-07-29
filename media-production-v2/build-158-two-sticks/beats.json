@@ -1,0 +1,307 @@
+{
+ "row": 158,
+ "slug": "build-158-two-sticks",
+ "v1_dir": "media-production/build-158-two-sticks",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-word-to-ezekiel.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Among the exiles by the river, the prophet Ezekiel received an unusual assignment from God \u2014 not a sermon to preach, but an object lesson to act out, so plain that anyone watching could understand it.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 12.732,
+   "seg_end": 13.382,
+   "audio_dur": 12.904,
+   "spoken_dur": 12.452,
+   "seg_dur": 13.382,
+   "timing": [
+    {
+     "text": "Among the exiles by the river, the prophet Ezekiel received an unusual assignment from God \u2014 not a sermon to preach, but an object lesson to act out, so plain that anyone watching could understand it.",
+     "start": 0.0,
+     "end": 12.864
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-stick-for-judah.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Take a stick, God told him \u2014 a flat wooden writing-rod \u2014 and mark it with a name: for Judah, and for the people gathered with him. One record, belonging to one part of God's scattered family.",
+   "seg_start": 13.382,
+   "audio_start": 13.662,
+   "spoken_end": 27.312,
+   "seg_end": 27.962,
+   "audio_dur": 14.054,
+   "spoken_dur": 13.649,
+   "seg_dur": 14.579,
+   "timing": [
+    {
+     "text": "Take a stick, God told him \u2014 a flat wooden writing-rod \u2014 and mark it with a name: for Judah, and for the people gathered with him.",
+     "start": 0.0,
+     "end": 9.218
+    },
+    {
+     "text": "One record, belonging to one part of God's scattered family.",
+     "start": 9.218,
+     "end": 14.025
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-stick-for-joseph.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then take a second stick, God said, and mark it with another name: for Joseph. A separate record, belonging to another branch of the same family, long divided from the first.",
+   "seg_start": 27.962,
+   "audio_start": 28.242,
+   "spoken_end": 38.647,
+   "seg_end": 39.297,
+   "audio_dur": 10.893,
+   "spoken_dur": 10.405,
+   "seg_dur": 11.335,
+   "timing": [
+    {
+     "text": "Then take a second stick, God said, and mark it with another name: for Joseph.",
+     "start": 0.0,
+     "end": 4.516
+    },
+    {
+     "text": "A separate record, belonging to another branch of the same family, long divided from the first.",
+     "start": 4.516,
+     "end": 10.867
+    }
+   ]
+  },
+  {
+   "seg": "kv16",
+   "v1_still": "s4-join-them.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "Moreover, thou son of man, take thee one stick, and write upon it, For Judah, and for the children of Israel his companions: then take another stick, and write upon it, For Joseph, the stick of Ephraim, and for all the house of Israel his companions:",
+   "seg_start": 39.297,
+   "audio_start": 39.577,
+   "spoken_end": 59.399,
+   "seg_end": 60.999,
+   "audio_dur": 20.245,
+   "spoken_dur": 19.822,
+   "seg_dur": 21.702,
+   "timing": [
+    {
+     "text": "Moreover, thou son of man, take thee one stick, and write upon it, For Judah, and for the children of Israel his companions: then take another stick, and write upon it, For Joseph, the stick of Ephraim, and for all the house of Israel his companions:",
+     "start": 0.0,
+     "end": 20.201
+    }
+   ]
+  },
+  {
+   "seg": "kv17",
+   "v1_still": "s4-join-them.jpeg",
+   "zoom": "out",
+   "speaker": "god",
+   "text": "And join them one to another into one stick; and they shall become one in thine hand.",
+   "seg_start": 60.999,
+   "audio_start": 61.279,
+   "spoken_end": 67.639,
+   "seg_end": 69.239,
+   "audio_dur": 6.818,
+   "spoken_dur": 6.359,
+   "seg_dur": 8.239,
+   "timing": [
+    {
+     "text": "And join them one to another into one stick; and they shall become one in thine hand.",
+     "start": 0.0,
+     "end": 6.78
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-join-them.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Now here is the part that made people stop and stare.",
+   "seg_start": 69.239,
+   "audio_start": 69.519,
+   "spoken_end": 71.843,
+   "seg_end": 72.493,
+   "audio_dur": 2.743,
+   "spoken_dur": 2.324,
+   "seg_dur": 3.254,
+   "timing": [
+    {
+     "text": "Now here is the part that made people stop and stare.",
+     "start": 0.0,
+     "end": 2.694
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-two-made-one.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Two separate records, from two separated peoples, brought together and made one. Not one erasing the other, but the two joined, each completing the other, speaking now with a single united voice.",
+   "seg_start": 72.493,
+   "audio_start": 72.773,
+   "spoken_end": 84.804,
+   "seg_end": 85.454,
+   "audio_dur": 12.434,
+   "spoken_dur": 12.031,
+   "seg_dur": 12.961,
+   "timing": [
+    {
+     "text": "Two separate records, from two separated peoples, brought together and made one.",
+     "start": 0.0,
+     "end": 4.319
+    },
+    {
+     "text": "Not one erasing the other, but the two joined, each completing the other, speaking now with a single united voice.",
+     "start": 4.319,
+     "end": 12.399
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6-the-people-ask.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And of course the people came asking, what do you mean by this? Why two sticks made one? What are you trying to show us? God had built the question right into the lesson.",
+   "seg_start": 85.454,
+   "audio_start": 85.734,
+   "spoken_end": 95.651,
+   "seg_end": 96.301,
+   "audio_dur": 10.344,
+   "spoken_dur": 9.917,
+   "seg_dur": 10.847,
+   "timing": [
+    {
+     "text": "And of course the people came asking, what do you mean by this?",
+     "start": 0.0,
+     "end": 3.367
+    },
+    {
+     "text": "Why two sticks made one?",
+     "start": 3.367,
+     "end": 5.317
+    },
+    {
+     "text": "What are you trying to show us?",
+     "start": 5.317,
+     "end": 7.407
+    },
+    {
+     "text": "God had built the question right into the lesson.",
+     "start": 7.407,
+     "end": 10.31
+    }
+   ]
+  },
+  {
+   "seg": "kv19",
+   "v1_still": "s7-one-in-Gods-hand.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "Say unto them, Thus saith the Lord GOD; Behold, I will take the stick of Joseph, which is in the hand of Ephraim, and the tribes of Israel his fellows, and will put them with him, even the stick of Judah, and make them one stick, and they shall be one in mine hand.",
+   "seg_start": 96.301,
+   "audio_start": 96.581,
+   "spoken_end": 119.873,
+   "seg_end": 121.473,
+   "audio_dur": 23.719,
+   "spoken_dur": 23.292,
+   "seg_dur": 25.172,
+   "timing": [
+    {
+     "text": "Say unto them, Thus saith the Lord GOD; Behold, I will take the stick of Joseph, which is in the hand of Ephraim, and the tribes of Israel his fellows, and will put them with him, even the stick of Judah, and make them one stick, and they shall be one in mine hand.",
+     "start": 0.0,
+     "end": 23.684
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s7-one-in-Gods-hand.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Notice whose hand does the joining. He is the one who gathers the scattered records, and the scattered people, and binds them together into one.",
+   "seg_start": 121.473,
+   "audio_start": 121.753,
+   "spoken_end": 129.558,
+   "seg_end": 130.208,
+   "audio_dur": 8.202,
+   "spoken_dur": 7.805,
+   "seg_dur": 8.735,
+   "timing": [
+    {
+     "text": "Notice whose hand does the joining.",
+     "start": 0.0,
+     "end": 1.753
+    },
+    {
+     "text": "He is the one who gathers the scattered records, and the scattered people, and binds them together into one.",
+     "start": 1.753,
+     "end": 8.173
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s8-take-them-up.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So this strange little sign is really a promise of gathering. God does not leave his family, or his words to them, broken into separate pieces forever. He brings them back together. So the only question is a hopeful one. When the two are made one in his hand, will you take them both up and read?",
+   "seg_start": 130.208,
+   "audio_start": 130.488,
+   "spoken_end": 148.908,
+   "seg_end": 149.558,
+   "audio_dur": 18.834,
+   "spoken_dur": 18.42,
+   "seg_dur": 19.35,
+   "timing": [
+    {
+     "text": "So this strange little sign is really a promise of gathering.",
+     "start": 0.0,
+     "end": 3.181
+    },
+    {
+     "text": "God does not leave his family, or his words to them, broken into separate pieces forever.",
+     "start": 3.181,
+     "end": 9.125
+    },
+    {
+     "text": "He brings them back together.",
+     "start": 9.125,
+     "end": 10.948
+    },
+    {
+     "text": "So the only question is a hopeful one.",
+     "start": 10.948,
+     "end": 13.479
+    },
+    {
+     "text": "When the two are made one in his hand, will you take them both up and read?",
+     "start": 13.479,
+     "end": 18.808
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "God had Ezekiel join two records into one stick \u2014 two witnesses made one in his hand. He gathers what was scattered, and binds his words together. When the two are one, will you take them both up and read?",
+  "seg_start": 149.558,
+  "audio_start": 149.838,
+  "seg_dur": 15.39
+ },
+ "total": 164.948
+}

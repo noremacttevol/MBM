@@ -1,0 +1,204 @@
+{
+ "row": 185,
+ "slug": "build-185-many-mansions-member",
+ "v1_dir": "media-production/build-185-many-mansions-member",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-the-last-night-together.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "On the night before everything changed, Jesus sat with his disciples and told them not to let their hearts be troubled.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 6.102,
+   "seg_end": 6.752,
+   "audio_dur": 6.217,
+   "spoken_dur": 5.822,
+   "seg_dur": 6.752,
+   "timing": [
+    {
+     "text": "On the night before everything changed, Jesus sat with his disciples and told them not to let their hearts be troubled.",
+     "start": 0.0,
+     "end": 6.177
+    }
+   ]
+  },
+  {
+   "seg": "jv1",
+   "v1_still": "s2-let-not-your-heart.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Let not your heart be troubled: ye believe in God, believe also in me.",
+   "seg_start": 6.752,
+   "audio_start": 7.032,
+   "spoken_end": 11.959,
+   "seg_end": 13.559,
+   "audio_dur": 5.329,
+   "spoken_dur": 4.927,
+   "seg_dur": 6.807,
+   "timing": [
+    {
+     "text": "Let not your heart be troubled: ye believe in God, believe also in me.",
+     "start": 0.0,
+     "end": 5.294
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-let-not-your-heart.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He was going somewhere \u2014 but not to leave them behind. He was going to get a place ready.",
+   "seg_start": 13.559,
+   "audio_start": 13.839,
+   "spoken_end": 19.161,
+   "seg_end": 19.811,
+   "audio_dur": 5.695,
+   "spoken_dur": 5.322,
+   "seg_dur": 6.252,
+   "timing": [
+    {
+     "text": "He was going somewhere \u2014 but not to leave them behind.",
+     "start": 0.0,
+     "end": 3.425
+    },
+    {
+     "text": "He was going to get a place ready.",
+     "start": 3.425,
+     "end": 5.666
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s3-the-promise-lands.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "In my Father's house are many mansions: if it were not so, I would have told you. I go to prepare a place for you.",
+   "seg_start": 19.811,
+   "audio_start": 20.091,
+   "spoken_end": 26.881,
+   "seg_end": 28.481,
+   "audio_dur": 7.184,
+   "spoken_dur": 6.79,
+   "seg_dur": 8.67,
+   "timing": [
+    {
+     "text": "In my Father's house are many mansions: if it were not so, I would have told you.",
+     "start": 0.0,
+     "end": 4.702
+    },
+    {
+     "text": "I go to prepare a place for you.",
+     "start": 4.702,
+     "end": 7.152
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-many-rooms-of-light.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "A house with room for everyone. He said it plainly \u2014 if it were not true, he would have told them.",
+   "seg_start": 28.481,
+   "audio_start": 28.761,
+   "spoken_end": 34.749,
+   "seg_end": 35.399,
+   "audio_dur": 6.4,
+   "spoken_dur": 5.988,
+   "seg_dur": 6.918,
+   "timing": [
+    {
+     "text": "A house with room for everyone.",
+     "start": 0.0,
+     "end": 1.672
+    },
+    {
+     "text": "He said it plainly \u2014 if it were not true, he would have told them.",
+     "start": 1.672,
+     "end": 6.362
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s5-i-will-come-again.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "And if I go and prepare a place for you, I will come again, and receive you unto myself; that where I am, there ye may be also.",
+   "seg_start": 35.399,
+   "audio_start": 35.679,
+   "spoken_end": 44.996,
+   "seg_end": 46.596,
+   "audio_dur": 9.691,
+   "spoken_dur": 9.317,
+   "seg_dur": 11.197,
+   "timing": [
+    {
+     "text": "And if I go and prepare a place for you, I will come again, and receive you unto myself; that where I am, there ye may be also.",
+     "start": 0.0,
+     "end": 9.66
+    }
+   ]
+  },
+  {
+   "seg": "n3a",
+   "v1_still": "s6-reassured.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He was not describing a far-off maybe.",
+   "seg_start": 46.596,
+   "audio_start": 46.876,
+   "spoken_end": 49.051,
+   "seg_end": 49.701,
+   "audio_dur": 2.534,
+   "spoken_dur": 2.175,
+   "seg_dur": 3.105,
+   "timing": [
+    {
+     "text": "He was not describing a far-off maybe.",
+     "start": 0.0,
+     "end": 2.508
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s7-dawn-at-the-window.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He was promising to come back and carry them home himself.",
+   "seg_start": 49.701,
+   "audio_start": 49.981,
+   "spoken_end": 52.525,
+   "seg_end": 53.175,
+   "audio_dur": 3.004,
+   "spoken_dur": 2.544,
+   "seg_dur": 3.474,
+   "timing": [
+    {
+     "text": "He was promising to come back and carry them home himself.",
+     "start": 0.0,
+     "end": 2.972
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He went to prepare a place \u2014 and he's coming back for you. You are not forgotten.",
+  "seg_start": 53.175,
+  "audio_start": 53.455,
+  "seg_dur": 7.161
+ },
+ "total": 60.336
+}

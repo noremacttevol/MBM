@@ -1,0 +1,296 @@
+{
+ "row": 159,
+ "slug": "build-159-other-sheep",
+ "v1_dir": "media-production/build-159-other-sheep",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-the-good-shepherd.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "On a hillside, surrounded by his listeners, Jesus reached for the most familiar picture they had \u2014 a shepherd and his flock. He was the shepherd, he told them, the good one, and the sheep were his very own.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 13.248,
+   "seg_end": 13.898,
+   "audio_dur": 13.375,
+   "spoken_dur": 12.968,
+   "seg_dur": 13.898,
+   "timing": [
+    {
+     "text": "On a hillside, surrounded by his listeners, Jesus reached for the most familiar picture they had \u2014 a shepherd and his flock.",
+     "start": 0.0,
+     "end": 7.663
+    },
+    {
+     "text": "He was the shepherd, he told them, the good one, and the sheep were his very own.",
+     "start": 7.663,
+     "end": 13.328
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-he-knows-his-sheep.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "It is a tender thing to be known like that. Not counted as part of a crowd, but known \u2014 each one, by name, by voice, by the particular way it strays and the particular way it finds its way home.",
+   "seg_start": 13.898,
+   "audio_start": 14.178,
+   "spoken_end": 29.48,
+   "seg_end": 30.13,
+   "audio_dur": 15.7,
+   "spoken_dur": 15.302,
+   "seg_dur": 16.232,
+   "timing": [
+    {
+     "text": "It is a tender thing to be known like that.",
+     "start": 0.0,
+     "end": 2.345
+    },
+    {
+     "text": "Not counted as part of a crowd, but known \u2014 each one, by name, by voice, by the particular way it strays and the particular way it finds its way home.",
+     "start": 2.345,
+     "end": 15.65
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-known-of-mine.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And the knowing runs both ways. His own know him too \u2014 the sound of his voice, the shape of his care \u2014 the way sheep will lift their heads at one familiar step and follow no stranger.",
+   "seg_start": 30.13,
+   "audio_start": 30.41,
+   "spoken_end": 42.593,
+   "seg_end": 43.243,
+   "audio_dur": 12.565,
+   "spoken_dur": 12.184,
+   "seg_dur": 13.114,
+   "timing": [
+    {
+     "text": "And the knowing runs both ways.",
+     "start": 0.0,
+     "end": 1.823
+    },
+    {
+     "text": "His own know him too \u2014 the sound of his voice, the shape of his care \u2014 the way sheep will lift their heads at one familiar step and follow no stranger.",
+     "start": 1.823,
+     "end": 12.539
+    }
+   ]
+  },
+  {
+   "seg": "kv14",
+   "v1_still": "s4-not-all-my-sheep.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "I am the good shepherd, and know my sheep, and am known of mine.",
+   "seg_start": 43.243,
+   "audio_start": 43.523,
+   "spoken_end": 46.944,
+   "seg_end": 48.544,
+   "audio_dur": 3.788,
+   "spoken_dur": 3.421,
+   "seg_dur": 5.301,
+   "timing": [
+    {
+     "text": "I am the good shepherd, and know my sheep, and am known of mine.",
+     "start": 0.0,
+     "end": 3.762
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-not-all-my-sheep.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "But then Jesus said something that must have stopped them cold. This flock, right here in front of me, he told them \u2014 you are not all the sheep I have. There are others, in other places, not of this fold.",
+   "seg_start": 48.544,
+   "audio_start": 48.824,
+   "spoken_end": 60.491,
+   "seg_end": 61.141,
+   "audio_dur": 12.121,
+   "spoken_dur": 11.667,
+   "seg_dur": 12.597,
+   "timing": [
+    {
+     "text": "But then Jesus said something that must have stopped them cold.",
+     "start": 0.0,
+     "end": 2.879
+    },
+    {
+     "text": "This flock, right here in front of me, he told them \u2014 you are not all the sheep I have.",
+     "start": 2.879,
+     "end": 8.58
+    },
+    {
+     "text": "There are others, in other places, not of this fold.",
+     "start": 8.58,
+     "end": 12.074
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-a-far-off-fold.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "People they had never met, in lands they had never seen, who also belonged to him and were waiting to be brought in. And about them he made a quiet, sweeping promise: they too shall hear my voice.",
+   "seg_start": 61.141,
+   "audio_start": 61.421,
+   "spoken_end": 74.185,
+   "seg_end": 74.835,
+   "audio_dur": 13.087,
+   "spoken_dur": 12.764,
+   "seg_dur": 13.694,
+   "timing": [
+    {
+     "text": "People they had never met, in lands they had never seen, who also belonged to him and were waiting to be brought in.",
+     "start": 0.0,
+     "end": 6.56
+    },
+    {
+     "text": "And about them he made a quiet, sweeping promise: they too shall hear my voice.",
+     "start": 6.56,
+     "end": 13.05
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6-they-shall-hear.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Not two rival flocks. Not one favoured and one forgotten. In the end, one fold and one shepherd \u2014 every scattered sheep gathered home under the same gentle hand.",
+   "seg_start": 74.835,
+   "audio_start": 75.115,
+   "spoken_end": 85.927,
+   "seg_end": 86.577,
+   "audio_dur": 11.18,
+   "spoken_dur": 10.812,
+   "seg_dur": 11.742,
+   "timing": [
+    {
+     "text": "Not two rival flocks.",
+     "start": 0.0,
+     "end": 1.672
+    },
+    {
+     "text": "Not one favoured and one forgotten.",
+     "start": 1.672,
+     "end": 4.098
+    },
+    {
+     "text": "In the end, one fold and one shepherd \u2014 every scattered sheep gathered home under the same gentle hand.",
+     "start": 4.098,
+     "end": 11.146
+    }
+   ]
+  },
+  {
+   "seg": "kv16",
+   "v1_still": "s7-other-sheep.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "And other sheep I have, which are not of this fold: them also I must bring, and they shall hear my voice; and there shall be one fold, and one shepherd.",
+   "seg_start": 86.577,
+   "audio_start": 86.857,
+   "spoken_end": 96.876,
+   "seg_end": 98.476,
+   "audio_dur": 10.449,
+   "spoken_dur": 10.02,
+   "seg_dur": 11.9,
+   "timing": [
+    {
+     "text": "And other sheep I have, which are not of this fold: them also I must bring, and they shall hear my voice; and there shall be one fold, and one shepherd.",
+     "start": 0.0,
+     "end": 10.403
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s7-other-sheep.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "So if you have ever felt like an outsider \u2014 like one of the other sheep, far from where the story seemed to be happening \u2014 hear this. He counted you in from the beginning. He always meant to come for you too.",
+   "seg_start": 98.476,
+   "audio_start": 98.756,
+   "spoken_end": 112.064,
+   "seg_end": 112.714,
+   "audio_dur": 13.688,
+   "spoken_dur": 13.308,
+   "seg_dur": 14.238,
+   "timing": [
+    {
+     "text": "So if you have ever felt like an outsider \u2014 like one of the other sheep, far from where the story seemed to be happening \u2014 hear this.",
+     "start": 0.0,
+     "end": 8.522
+    },
+    {
+     "text": "He counted you in from the beginning.",
+     "start": 8.522,
+     "end": 11.088
+    },
+    {
+     "text": "He always meant to come for you too.",
+     "start": 11.088,
+     "end": 13.653
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s8-one-fold-one-shepherd.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That is the wide, patient heart of the Good Shepherd. He has sheep the crowd never counted, and he will not rest until they hear him and come. So the only question is a gentle one. When you hear his voice, will you know it, and follow?",
+   "seg_start": 112.714,
+   "audio_start": 112.994,
+   "spoken_end": 126.458,
+   "seg_end": 127.108,
+   "audio_dur": 13.793,
+   "spoken_dur": 13.464,
+   "seg_dur": 14.394,
+   "timing": [
+    {
+     "text": "That is the wide, patient heart of the Good Shepherd.",
+     "start": 0.0,
+     "end": 2.81
+    },
+    {
+     "text": "He has sheep the crowd never counted, and he will not rest until they hear him and come.",
+     "start": 2.81,
+     "end": 7.814
+    },
+    {
+     "text": "So the only question is a gentle one.",
+     "start": 7.814,
+     "end": 10.403
+    },
+    {
+     "text": "When you hear his voice, will you know it, and follow?",
+     "start": 10.403,
+     "end": 13.746
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "Jesus said he has other sheep, not of this fold \u2014 and they too will hear his voice, until there is one fold and one shepherd. Wherever you are, he counted you in. When you hear his voice, will you follow?",
+  "seg_start": 127.108,
+  "audio_start": 127.388,
+  "seg_dur": 15.703
+ },
+ "total": 142.812
+}

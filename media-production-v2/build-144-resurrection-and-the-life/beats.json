@@ -1,0 +1,204 @@
+{
+ "row": 144,
+ "slug": "build-144-resurrection-and-the-life",
+ "v1_dir": "media-production/build-144-resurrection-and-the-life",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.4,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-outside-the-tomb.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 6.986,
+   "seg_end": 7.706,
+   "audio_dur": 7.184,
+   "spoken_dur": 6.706,
+   "seg_dur": 7.706,
+   "timing": [
+    {
+     "text": "Lazarus had been in the tomb four days.",
+     "start": 0.0,
+     "end": 2.194
+    },
+    {
+     "text": "His sister Martha came to Jesus, heavy with grief but still full of faith.",
+     "start": 2.194,
+     "end": 7.152
+    }
+   ]
+  },
+  {
+   "seg": "n1a",
+   "v1_still": "s2-marthas-faith.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 7.706,
+   "audio_start": 7.986,
+   "spoken_end": 11.319,
+   "seg_end": 12.039,
+   "audio_dur": 3.762,
+   "spoken_dur": 3.333,
+   "seg_dur": 4.333,
+   "timing": [
+    {
+     "text": "She said she believed her brother would rise again at the last day.",
+     "start": 0.0,
+     "end": 3.715
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s3-steady-and-tender.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 12.039,
+   "audio_start": 12.319,
+   "spoken_end": 15.545,
+   "seg_end": 16.265,
+   "audio_dur": 3.657,
+   "spoken_dur": 3.227,
+   "seg_dur": 4.227,
+   "timing": [
+    {
+     "text": "Jesus answered with a promise bigger than the last day.",
+     "start": 0.0,
+     "end": 3.622
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s4-the-promise.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "-22%",
+   "seg_start": 16.265,
+   "audio_start": 16.545,
+   "spoken_end": 24.005,
+   "seg_end": 25.405,
+   "audio_dur": 7.837,
+   "spoken_dur": 7.46,
+   "seg_dur": 9.14,
+   "timing": [
+    {
+     "text": "I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live:",
+     "start": 0.0,
+     "end": 7.802
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s5-light-from-the-seam.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 25.405,
+   "audio_start": 25.685,
+   "spoken_end": 32.16,
+   "seg_end": 32.88,
+   "audio_dur": 6.922,
+   "spoken_dur": 6.475,
+   "seg_dur": 7.475,
+   "timing": [
+    {
+     "text": "Not a theory about life after death.",
+     "start": 0.0,
+     "end": 1.846
+    },
+    {
+     "text": "He said He Himself is the life \u2014 and that trusting Him beats the grave.",
+     "start": 1.846,
+     "end": 6.873
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s6-believest-thou-this.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "-22%",
+   "seg_start": 32.88,
+   "audio_start": 33.16,
+   "spoken_end": 38.3,
+   "seg_end": 39.7,
+   "audio_dur": 5.512,
+   "spoken_dur": 5.14,
+   "seg_dur": 6.82,
+   "timing": [
+    {
+     "text": "And whosoever liveth and believeth in me shall never die.",
+     "start": 0.0,
+     "end": 3.297
+    },
+    {
+     "text": "Believest thou this?",
+     "start": 3.297,
+     "end": 5.48
+    }
+   ]
+  },
+  {
+   "seg": "n3a",
+   "v1_still": "s7-the-weight-lifting.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 39.7,
+   "audio_start": 39.98,
+   "spoken_end": 40.947,
+   "seg_end": 41.667,
+   "audio_dur": 1.332,
+   "spoken_dur": 0.967,
+   "seg_dur": 1.967,
+   "timing": [
+    {
+     "text": "Martha said yes.",
+     "start": 0.0,
+     "end": 1.3
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s8-out-of-the-tomb.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 41.667,
+   "audio_start": 41.947,
+   "spoken_end": 44.789,
+   "seg_end": 45.509,
+   "audio_dur": 3.239,
+   "spoken_dur": 2.842,
+   "seg_dur": 3.842,
+   "timing": [
+    {
+     "text": "And moments later, her brother walked out of the tomb.",
+     "start": 0.0,
+     "end": 3.204
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "-22%",
+  "seg_start": 45.509,
+  "audio_start": 45.789,
+  "seg_dur": 4.967
+ },
+ "total": 50.476
+}

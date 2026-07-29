@@ -1,0 +1,385 @@
+{
+ "row": 54,
+ "slug": "build-54-the-leper",
+ "v1_dir": "media-production/build-54-the-leper",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-the-outcast.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "In those days there was no lonelier life than a leper's. The disease wasted his skin, and the law kept him apart from everyone he loved \u2014 no home, no temple, no touch, made to cry out 'unclean' if anyone drew near. He had not felt a kind hand in years.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 18.513,
+   "seg_end": 19.163,
+   "audio_dur": 18.625,
+   "spoken_dur": 18.233,
+   "seg_dur": 19.163,
+   "timing": [
+    {
+     "text": "In those days there was no lonelier life than a leper's.",
+     "start": 0.0,
+     "end": 3.181
+    },
+    {
+     "text": "The disease wasted his skin, and the law kept him apart from everyone he loved \u2014 no home, no temple, no touch, made to cry out 'unclean' if anyone drew near.",
+     "start": 3.181,
+     "end": 15.511
+    },
+    {
+     "text": "He had not felt a kind hand in years.",
+     "start": 15.511,
+     "end": 18.576
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-if-thou-wilt.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "When he heard that Jesus was near, he did the forbidden thing: he came close. He fell on his knees and begged him.",
+   "seg_start": 19.163,
+   "audio_start": 19.443,
+   "spoken_end": 25.4,
+   "seg_end": 26.05,
+   "audio_dur": 6.4,
+   "spoken_dur": 5.957,
+   "seg_dur": 6.887,
+   "timing": [
+    {
+     "text": "When he heard that Jesus was near, he did the forbidden thing: he came close.",
+     "start": 0.0,
+     "end": 4.122
+    },
+    {
+     "text": "He fell on his knees and begged him.",
+     "start": 4.122,
+     "end": 6.362
+    }
+   ]
+  },
+  {
+   "seg": "s40",
+   "v1_still": "s2-if-thou-wilt.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "If thou wilt, thou canst make me clean.",
+   "seg_start": 26.05,
+   "audio_start": 26.33,
+   "spoken_end": 28.694,
+   "seg_end": 30.294,
+   "audio_dur": 2.743,
+   "spoken_dur": 2.365,
+   "seg_dur": 4.245,
+   "timing": [
+    {
+     "text": "If thou wilt, thou canst make me clean.",
+     "start": 0.0,
+     "end": 2.694
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s2-if-thou-wilt.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "If you are willing, he said, you can make me clean. He never doubted the power. He only wondered about the will \u2014 whether a man like him was someone Jesus would want to bother with.",
+   "seg_start": 30.294,
+   "audio_start": 30.574,
+   "spoken_end": 41.054,
+   "seg_end": 41.704,
+   "audio_dur": 10.945,
+   "spoken_dur": 10.48,
+   "seg_dur": 11.41,
+   "timing": [
+    {
+     "text": "If you are willing, he said, you can make me clean.",
+     "start": 0.0,
+     "end": 2.937
+    },
+    {
+     "text": "He never doubted the power.",
+     "start": 2.937,
+     "end": 4.83
+    },
+    {
+     "text": "He only wondered about the will \u2014 whether a man like him was someone Jesus would want to bother with.",
+     "start": 4.83,
+     "end": 10.913
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-moved-with-compassion.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He did not step back from the man everyone else stepped back from. He reached out his hand toward the very thing no one would touch.",
+   "seg_start": 41.704,
+   "audio_start": 41.984,
+   "spoken_end": 48.39,
+   "seg_end": 49.04,
+   "audio_dur": 6.818,
+   "spoken_dur": 6.406,
+   "seg_dur": 7.336,
+   "timing": [
+    {
+     "text": "He did not step back from the man everyone else stepped back from.",
+     "start": 0.0,
+     "end": 3.1
+    },
+    {
+     "text": "He reached out his hand toward the very thing no one would touch.",
+     "start": 3.1,
+     "end": 6.78
+    }
+   ]
+  },
+  {
+   "seg": "s41a",
+   "v1_still": "s4-be-thou-clean.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And Jesus, moved with compassion, put forth his hand, and touched him, and saith unto him,",
+   "seg_start": 49.04,
+   "audio_start": 49.32,
+   "spoken_end": 54.144,
+   "seg_end": 55.744,
+   "audio_dur": 5.146,
+   "spoken_dur": 4.823,
+   "seg_dur": 6.703,
+   "timing": [
+    {
+     "text": "And Jesus, moved with compassion, put forth his hand, and touched him, and saith unto him,",
+     "start": 0.0,
+     "end": 5.108
+    }
+   ]
+  },
+  {
+   "seg": "jv41",
+   "v1_still": "s4-be-thou-clean.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "I will; be thou clean.",
+   "seg_start": 55.744,
+   "audio_start": 56.024,
+   "spoken_end": 57.88,
+   "seg_end": 59.48,
+   "audio_dur": 2.22,
+   "spoken_dur": 1.856,
+   "seg_dur": 3.736,
+   "timing": [
+    {
+     "text": "I will; be thou clean.",
+     "start": 0.0,
+     "end": 2.183
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s5-the-leprosy-departed.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "I will. Two words, and the wondering was over. And he touched him. Before the healing had even come, the untouchable man was touched; and then, at once, the leprosy left him, and his skin was made new.",
+   "seg_start": 59.48,
+   "audio_start": 59.76,
+   "spoken_end": 72.364,
+   "seg_end": 73.014,
+   "audio_dur": 13.035,
+   "spoken_dur": 12.604,
+   "seg_dur": 13.534,
+   "timing": [
+    {
+     "text": "I will.",
+     "start": 0.0,
+     "end": 0.685
+    },
+    {
+     "text": "Two words, and the wondering was over.",
+     "start": 0.685,
+     "end": 3.042
+    },
+    {
+     "text": "And he touched him.",
+     "start": 3.042,
+     "end": 4.296
+    },
+    {
+     "text": "Before the healing had even come, the untouchable man was touched; and then, at once, the leprosy left him, and his skin was made new.",
+     "start": 4.296,
+     "end": 13.003
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s6-made-whole.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The sores were gone. The pale, wasted skin was warm and whole again, like the skin of a young child. In a moment he was clean, and more than clean; he was a man who could go home.",
+   "seg_start": 73.014,
+   "audio_start": 73.294,
+   "spoken_end": 85.408,
+   "seg_end": 86.058,
+   "audio_dur": 12.539,
+   "spoken_dur": 12.114,
+   "seg_dur": 13.044,
+   "timing": [
+    {
+     "text": "The sores were gone.",
+     "start": 0.0,
+     "end": 1.184
+    },
+    {
+     "text": "The pale, wasted skin was warm and whole again, like the skin of a young child.",
+     "start": 1.184,
+     "end": 6.653
+    },
+    {
+     "text": "In a moment he was clean, and more than clean; he was a man who could go home.",
+     "start": 6.653,
+     "end": 12.492
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s7-tell-no-man.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then Jesus sent him away with strict instructions.",
+   "seg_start": 86.058,
+   "audio_start": 86.338,
+   "spoken_end": 88.743,
+   "seg_end": 89.393,
+   "audio_dur": 2.821,
+   "spoken_dur": 2.405,
+   "seg_dur": 3.335,
+   "timing": [
+    {
+     "text": "Then Jesus sent him away with strict instructions.",
+     "start": 0.0,
+     "end": 2.786
+    }
+   ]
+  },
+  {
+   "seg": "j44",
+   "v1_still": "s7-tell-no-man.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "See thou say nothing to any man: but go thy way, shew thyself to the priest, and offer for thy cleansing those things which Moses commanded, for a testimony unto them.",
+   "seg_start": 89.393,
+   "audio_start": 89.673,
+   "spoken_end": 100.925,
+   "seg_end": 102.525,
+   "audio_dur": 11.703,
+   "spoken_dur": 11.252,
+   "seg_dur": 13.132,
+   "timing": [
+    {
+     "text": "See thou say nothing to any man: but go thy way, shew thyself to the priest, and offer for thy cleansing those things which Moses commanded, for a testimony unto them.",
+     "start": 0.0,
+     "end": 11.656
+    }
+   ]
+  },
+  {
+   "seg": "n6b",
+   "v1_still": "s7-tell-no-man.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Say nothing to anyone, he told him. Just go and show yourself to the priest, and make the offering Moses commanded \u2014 and be given back, quietly and legally, the whole life that had been taken from you.",
+   "seg_start": 102.525,
+   "audio_start": 102.805,
+   "spoken_end": 114.748,
+   "seg_end": 115.398,
+   "audio_dur": 12.356,
+   "spoken_dur": 11.943,
+   "seg_dur": 12.873,
+   "timing": [
+    {
+     "text": "Say nothing to anyone, he told him.",
+     "start": 0.0,
+     "end": 1.962
+    },
+    {
+     "text": "Just go and show yourself to the priest, and make the offering Moses commanded \u2014 and be given back, quietly and legally, the whole life that had been taken from you.",
+     "start": 1.962,
+     "end": 12.307
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s8-he-published-it.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But the man could not hold it in. He went out and told everyone, freely, everywhere; how could he not? The mercy was far too great to keep to himself.",
+   "seg_start": 115.398,
+   "audio_start": 115.678,
+   "spoken_end": 124.265,
+   "seg_end": 124.915,
+   "audio_dur": 9.038,
+   "spoken_dur": 8.586,
+   "seg_dur": 9.516,
+   "timing": [
+    {
+     "text": "But the man could not hold it in.",
+     "start": 0.0,
+     "end": 1.695
+    },
+    {
+     "text": "He went out and told everyone, freely, everywhere; how could he not?",
+     "start": 1.695,
+     "end": 5.979
+    },
+    {
+     "text": "The mercy was far too great to keep to himself.",
+     "start": 5.979,
+     "end": 9.009
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s9-they-came-to-him.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And so the news ran ahead of him, until he could hardly walk into a town in the open, and people came to him from every direction, out of every corner of the land.",
+   "seg_start": 124.915,
+   "audio_start": 125.195,
+   "spoken_end": 135.045,
+   "seg_end": 135.695,
+   "audio_dur": 10.266,
+   "spoken_dur": 9.851,
+   "seg_dur": 10.781,
+   "timing": [
+    {
+     "text": "And so the news ran ahead of him, until he could hardly walk into a town in the open, and people came to him from every direction, out of every corner of the land.",
+     "start": 0.0,
+     "end": 10.217
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He is still willing. There is no part of you so unclean, so far gone, so long untouched, that he will draw back his hand from it. He reaches for the very thing you are most ashamed of and says, I will. What would you ask him to make clean?",
+  "seg_start": 135.695,
+  "audio_start": 135.975,
+  "seg_dur": 18.812
+ },
+ "total": 154.507
+}

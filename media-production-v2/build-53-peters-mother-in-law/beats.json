@@ -1,0 +1,245 @@
+{
+ "row": 53,
+ "slug": "build-53-peters-mother-in-law",
+ "v1_dir": "media-production/build-53-peters-mother-in-law",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-home-from-synagogue.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "When Jesus came out of the synagogue that sabbath, he did not go off alone. He went home with his friends, into the house of Simon and Andrew, and James and John went in with them.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 10.425,
+   "seg_end": 11.075,
+   "audio_dur": 10.527,
+   "spoken_dur": 10.145,
+   "seg_dur": 11.075,
+   "timing": [
+    {
+     "text": "When Jesus came out of the synagogue that sabbath, he did not go off alone.",
+     "start": 0.0,
+     "end": 4.249
+    },
+    {
+     "text": "He went home with his friends, into the house of Simon and Andrew, and James and John went in with them.",
+     "start": 4.249,
+     "end": 10.495
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-the-house.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "It was an ordinary house, the kind of place where real life happens. But that day the house was heavy, because someone they loved was ill.",
+   "seg_start": 11.075,
+   "audio_start": 11.355,
+   "spoken_end": 18.786,
+   "seg_end": 19.436,
+   "audio_dur": 7.784,
+   "spoken_dur": 7.431,
+   "seg_dur": 8.361,
+   "timing": [
+    {
+     "text": "It was an ordinary house, the kind of place where real life happens.",
+     "start": 0.0,
+     "end": 3.088
+    },
+    {
+     "text": "But that day the house was heavy, because someone they loved was ill.",
+     "start": 3.088,
+     "end": 7.755
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-sick-with-fever.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Simon's wife's mother lay in a back room, sick with a fever. In those days a fever like that could take a life, and there was little anyone could do but sit beside her and worry.",
+   "seg_start": 19.436,
+   "audio_start": 19.716,
+   "spoken_end": 29.347,
+   "seg_end": 29.997,
+   "audio_dur": 10.031,
+   "spoken_dur": 9.631,
+   "seg_dur": 10.561,
+   "timing": [
+    {
+     "text": "Simon's wife's mother lay in a back room, sick with a fever.",
+     "start": 0.0,
+     "end": 3.193
+    },
+    {
+     "text": "In those days a fever like that could take a life, and there was little anyone could do but sit beside her and worry.",
+     "start": 3.193,
+     "end": 9.985
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-they-tell-him.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So they told Jesus about her. They did not make a speech or a grand request; they simply brought their trouble to him, the way you tell a friend what is wrong.",
+   "seg_start": 29.997,
+   "audio_start": 30.277,
+   "spoken_end": 39.076,
+   "seg_end": 39.726,
+   "audio_dur": 9.195,
+   "spoken_dur": 8.8,
+   "seg_dur": 9.73,
+   "timing": [
+    {
+     "text": "So they told Jesus about her.",
+     "start": 0.0,
+     "end": 1.683
+    },
+    {
+     "text": "They did not make a speech or a grand request; they simply brought their trouble to him, the way you tell a friend what is wrong.",
+     "start": 1.683,
+     "end": 9.149
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-took-her-by-the-hand.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And he went in to where she was lying. What happened next, Mark tells in a single sentence.",
+   "seg_start": 39.726,
+   "audio_start": 40.006,
+   "spoken_end": 44.4,
+   "seg_end": 45.05,
+   "audio_dur": 4.728,
+   "spoken_dur": 4.393,
+   "seg_dur": 5.323,
+   "timing": [
+    {
+     "text": "And he went in to where she was lying.",
+     "start": 0.0,
+     "end": 1.544
+    },
+    {
+     "text": "What happened next, Mark tells in a single sentence.",
+     "start": 1.544,
+     "end": 4.69
+    }
+   ]
+  },
+  {
+   "seg": "s31",
+   "v1_still": "s5-took-her-by-the-hand.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "And he came and took her by the hand, and lifted her up; and immediately the fever left her, and she ministered unto them.",
+   "seg_start": 45.05,
+   "audio_start": 45.33,
+   "spoken_end": 51.359,
+   "seg_end": 52.959,
+   "audio_dur": 6.348,
+   "spoken_dur": 6.029,
+   "seg_dur": 7.909,
+   "timing": [
+    {
+     "text": "And he came and took her by the hand, and lifted her up; and immediately the fever left her, and she ministered unto them.",
+     "start": 0.0,
+     "end": 6.316
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6-the-fever-left-her.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "No slow recovery, no days of weakness; the heat and the sickness were gone, and she was herself once more, well and strong.",
+   "seg_start": 52.959,
+   "audio_start": 53.239,
+   "spoken_end": 61.598,
+   "seg_end": 62.248,
+   "audio_dur": 8.725,
+   "spoken_dur": 8.358,
+   "seg_dur": 9.288,
+   "timing": [
+    {
+     "text": "No slow recovery, no days of weakness; the heat and the sickness were gone, and she was herself once more, well and strong.",
+     "start": 0.0,
+     "end": 8.684
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s7-she-ministered.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And the first thing she did was rise and serve them. With her strength fully back, she cared for the very ones who had carried her trouble to Jesus, glad to be on her feet again.",
+   "seg_start": 62.248,
+   "audio_start": 62.528,
+   "spoken_end": 72.099,
+   "seg_end": 72.749,
+   "audio_dur": 9.927,
+   "spoken_dur": 9.571,
+   "seg_dur": 10.501,
+   "timing": [
+    {
+     "text": "And the first thing she did was rise and serve them.",
+     "start": 0.0,
+     "end": 2.635
+    },
+    {
+     "text": "With her strength fully back, she cared for the very ones who had carried her trouble to Jesus, glad to be on her feet again.",
+     "start": 2.635,
+     "end": 9.892
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s8-the-quiet-house.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "It is a small, quiet miracle, tucked into an ordinary house. No crowd and no spectacle; only a tired family, a sickbed, and a Savior who came in, took her by the hand, and made her whole.",
+   "seg_start": 72.749,
+   "audio_start": 73.029,
+   "spoken_end": 86.513,
+   "seg_end": 87.163,
+   "audio_dur": 13.871,
+   "spoken_dur": 13.484,
+   "seg_dur": 14.414,
+   "timing": [
+    {
+     "text": "It is a small, quiet miracle, tucked into an ordinary house.",
+     "start": 0.0,
+     "end": 3.994
+    },
+    {
+     "text": "No crowd and no spectacle; only a tired family, a sickbed, and a Savior who came in, took her by the hand, and made her whole.",
+     "start": 3.994,
+     "end": 13.839
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He still comes into ordinary houses and ordinary lives. You do not need the right words or a grand request; you only need to tell him where it hurts. What would it mean to simply put your trouble into his hand?",
+  "seg_start": 87.163,
+  "audio_start": 87.443,
+  "seg_dur": 13.326
+ },
+ "total": 100.489
+}

@@ -1,0 +1,209 @@
+{
+ "row": 192,
+ "slug": "build-192-the-fast-god-has-chosen",
+ "v1_dir": "media-production/build-192-the-fast-god-has-chosen",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-loosing-the-ropes.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Isaiah told God's people what kind of fast the LORD actually wants \u2014 not just going hungry to look holy.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 5.964,
+   "seg_end": 6.614,
+   "audio_dur": 6.113,
+   "spoken_dur": 5.684,
+   "seg_dur": 6.614,
+   "timing": [
+    {
+     "text": "Isaiah told God's people what kind of fast the LORD actually wants \u2014 not just going hungry to look holy.",
+     "start": 0.0,
+     "end": 6.084
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "v1_still": "s2-the-yoke-set-down.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "Is not this the fast that I have chosen? to loose the bands of wickedness, to undo the heavy burdens, and to let the oppressed go free, and that ye break every yoke?",
+   "seg_start": 6.614,
+   "audio_start": 6.894,
+   "spoken_end": 20.065,
+   "seg_end": 21.665,
+   "audio_dur": 13.558,
+   "spoken_dur": 13.171,
+   "seg_dur": 15.051,
+   "timing": [
+    {
+     "text": "Is not this the fast that I have chosen?",
+     "start": 0.0,
+     "end": 2.752
+    },
+    {
+     "text": "to loose the bands of wickedness, to undo the heavy burdens, and to let the oppressed go free, and that ye break every yoke?",
+     "start": 2.752,
+     "end": 13.514
+    }
+   ]
+  },
+  {
+   "seg": "g7",
+   "v1_still": "s3-bread-shared.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "Is it not to deal thy bread to the hungry, and that thou bring the poor that are cast out to thy house? when thou seest the naked, that thou cover him; and that thou hide not thyself from thine own flesh?",
+   "seg_start": 21.665,
+   "audio_start": 21.945,
+   "spoken_end": 37.083,
+   "seg_end": 38.683,
+   "audio_dur": 15.491,
+   "spoken_dur": 15.138,
+   "seg_dur": 17.018,
+   "timing": [
+    {
+     "text": "Is it not to deal thy bread to the hungry, and that thou bring the poor that are cast out to thy house?",
+     "start": 0.0,
+     "end": 6.943
+    },
+    {
+     "text": "when thou seest the naked, that thou cover him; and that thou hide not thyself from thine own flesh?",
+     "start": 6.943,
+     "end": 15.464
+    }
+   ]
+  },
+  {
+   "seg": "n1a",
+   "v1_still": "s3-bread-shared.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Share your bread with the hungry.",
+   "seg_start": 38.683,
+   "audio_start": 38.963,
+   "spoken_end": 41.01,
+   "seg_end": 41.66,
+   "audio_dur": 2.456,
+   "spoken_dur": 2.047,
+   "seg_dur": 2.977,
+   "timing": [
+    {
+     "text": "Share your bread with the hungry.",
+     "start": 0.0,
+     "end": 2.415
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s4-the-open-door.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Bring the poor, the ones with nowhere to go, into your home.",
+   "seg_start": 41.66,
+   "audio_start": 41.94,
+   "spoken_end": 44.839,
+   "seg_end": 45.489,
+   "audio_dur": 3.239,
+   "spoken_dur": 2.899,
+   "seg_dur": 3.829,
+   "timing": [
+    {
+     "text": "Bring the poor, the ones with nowhere to go, into your home.",
+     "start": 0.0,
+     "end": 3.204
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s5-covered.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "When you see someone with no clothes, cover them. Don't turn away from your own family.",
+   "seg_start": 45.489,
+   "audio_start": 45.769,
+   "spoken_end": 50.095,
+   "seg_end": 50.745,
+   "audio_dur": 4.728,
+   "spoken_dur": 4.325,
+   "seg_dur": 5.255,
+   "timing": [
+    {
+     "text": "When you see someone with no clothes, cover them.",
+     "start": 0.0,
+     "end": 2.334
+    },
+    {
+     "text": "Don't turn away from your own family.",
+     "start": 2.334,
+     "end": 4.69
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "v1_still": "s6-light-breaks-like-dawn.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "Then shall thy light break forth as the morning, and thine health shall spring forth speedily:",
+   "seg_start": 50.745,
+   "audio_start": 51.025,
+   "spoken_end": 56.926,
+   "seg_end": 58.526,
+   "audio_dur": 6.269,
+   "spoken_dur": 5.902,
+   "seg_dur": 7.782,
+   "timing": [
+    {
+     "text": "Then shall thy light break forth as the morning, and thine health shall spring forth speedily:",
+     "start": 0.0,
+     "end": 6.223
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s7-open-yours.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The LORD promises \u2014 call, and He answers. Help others, and your own darkness becomes noonday.",
+   "seg_start": 58.526,
+   "audio_start": 58.806,
+   "spoken_end": 64.489,
+   "seg_end": 65.139,
+   "audio_dur": 6.113,
+   "spoken_dur": 5.682,
+   "seg_dur": 6.612,
+   "timing": [
+    {
+     "text": "The LORD promises \u2014 call, and He answers.",
+     "start": 0.0,
+     "end": 2.508
+    },
+    {
+     "text": "Help others, and your own darkness becomes noonday.",
+     "start": 2.508,
+     "end": 6.084
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "The fast God chooses is a hand opened to the hurting. Open yours \u2014 He meets you there.",
+  "seg_start": 65.139,
+  "audio_start": 65.419,
+  "seg_dur": 7.24
+ },
+ "total": 72.378
+}

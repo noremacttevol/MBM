@@ -1,0 +1,662 @@
+{
+ "row": 49,
+ "slug": "build-49-water-to-wine",
+ "v1_dir": "media-production/build-49-water-to-wine",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-the-wedding-feast.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The very first miracle he ever did was not what you would guess. Not a healing. Not calming a storm. He saved a village wedding from falling apart.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 9.821,
+   "seg_end": 10.471,
+   "audio_dur": 10.031,
+   "spoken_dur": 9.541,
+   "seg_dur": 10.471,
+   "timing": [
+    {
+     "text": "The very first miracle he ever did was not what you would guess.",
+     "start": 0.0,
+     "end": 3.982
+    },
+    {
+     "text": "Not a healing.",
+     "start": 3.982,
+     "end": 5.341
+    },
+    {
+     "text": "Not calming a storm.",
+     "start": 5.341,
+     "end": 7.001
+    },
+    {
+     "text": "He saved a village wedding from falling apart.",
+     "start": 7.001,
+     "end": 9.985
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-the-guest.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He was there as a guest, with his mother and his friends. A wedding in a small town like Cana ran for days, and the whole village came. It was pure, ordinary joy, and he was right in the middle of it.",
+   "seg_start": 10.471,
+   "audio_start": 10.751,
+   "spoken_end": 22.221,
+   "seg_end": 22.871,
+   "audio_dur": 11.938,
+   "spoken_dur": 11.47,
+   "seg_dur": 12.4,
+   "timing": [
+    {
+     "text": "He was there as a guest, with his mother and his friends.",
+     "start": 0.0,
+     "end": 2.635
+    },
+    {
+     "text": "A wedding in a small town like Cana ran for days, and the whole village came.",
+     "start": 2.635,
+     "end": 7.21
+    },
+    {
+     "text": "It was pure, ordinary joy, and he was right in the middle of it.",
+     "start": 7.21,
+     "end": 11.889
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-the-wine-runs-out.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And then, quietly, disaster. The wine ran out. To us that sounds small. To that family it was a public shame they would carry for years. The feast, and their good name, were about to collapse.",
+   "seg_start": 22.871,
+   "audio_start": 23.151,
+   "spoken_end": 37.173,
+   "seg_end": 37.823,
+   "audio_dur": 14.446,
+   "spoken_dur": 14.022,
+   "seg_dur": 14.952,
+   "timing": [
+    {
+     "text": "And then, quietly, disaster.",
+     "start": 0.0,
+     "end": 2.717
+    },
+    {
+     "text": "The wine ran out.",
+     "start": 2.717,
+     "end": 4.354
+    },
+    {
+     "text": "To us that sounds small.",
+     "start": 4.354,
+     "end": 6.258
+    },
+    {
+     "text": "To that family it was a public shame they would carry for years.",
+     "start": 6.258,
+     "end": 10.426
+    },
+    {
+     "text": "The feast, and their good name, were about to collapse.",
+     "start": 10.426,
+     "end": 14.396
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-they-have-no-wine.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "His mother noticed before anyone else did. And she did not go to the host, or the kitchen. She went straight to her son and told him the plain truth.",
+   "seg_start": 37.823,
+   "audio_start": 38.103,
+   "spoken_end": 46.412,
+   "seg_end": 47.062,
+   "audio_dur": 8.803,
+   "spoken_dur": 8.309,
+   "seg_dur": 9.239,
+   "timing": [
+    {
+     "text": "His mother noticed before anyone else did.",
+     "start": 0.0,
+     "end": 2.159
+    },
+    {
+     "text": "And she did not go to the host, or the kitchen.",
+     "start": 2.159,
+     "end": 4.981
+    },
+    {
+     "text": "She went straight to her son and told him the plain truth.",
+     "start": 4.981,
+     "end": 8.777
+    }
+   ]
+  },
+  {
+   "seg": "w3",
+   "v1_still": "s4-they-have-no-wine.jpeg",
+   "zoom": "out",
+   "speaker": "woman",
+   "text": "They have no wine.",
+   "seg_start": 47.062,
+   "audio_start": 47.342,
+   "spoken_end": 48.466,
+   "seg_end": 50.066,
+   "audio_dur": 1.515,
+   "spoken_dur": 1.123,
+   "seg_dur": 3.003,
+   "timing": [
+    {
+     "text": "They have no wine.",
+     "start": 0.0,
+     "end": 1.486
+    }
+   ]
+  },
+  {
+   "seg": "n4b",
+   "v1_still": "s4-they-have-no-wine.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Four words. They have no wine. She did not tell him what to do about it, and she did not ask him for anything. She simply put it in front of him and left the deciding to him.",
+   "seg_start": 50.066,
+   "audio_start": 50.346,
+   "spoken_end": 59.779,
+   "seg_end": 60.429,
+   "audio_dur": 9.848,
+   "spoken_dur": 9.434,
+   "seg_dur": 10.364,
+   "timing": [
+    {
+     "text": "Four words.",
+     "start": 0.0,
+     "end": 0.813
+    },
+    {
+     "text": "They have no wine.",
+     "start": 0.813,
+     "end": 1.776
+    },
+    {
+     "text": "She did not tell him what to do about it, and she did not ask him for anything.",
+     "start": 1.776,
+     "end": 5.817
+    },
+    {
+     "text": "She simply put it in front of him and left the deciding to him.",
+     "start": 5.817,
+     "end": 9.799
+    }
+   ]
+  },
+  {
+   "seg": "jv4",
+   "v1_still": "s5-mine-hour.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Woman, what have I to do with thee? mine hour is not yet come.",
+   "seg_start": 60.429,
+   "audio_start": 60.709,
+   "spoken_end": 64.817,
+   "seg_end": 66.417,
+   "audio_dur": 4.493,
+   "spoken_dur": 4.108,
+   "seg_dur": 5.988,
+   "timing": [
+    {
+     "text": "Woman, what have I to do with thee?",
+     "start": 0.0,
+     "end": 1.718
+    },
+    {
+     "text": "mine hour is not yet come.",
+     "start": 1.718,
+     "end": 4.458
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-mine-hour.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "That sounds sharp in English, but it was not. Woman was a word of respect, and the phrase was a gentle old idiom, something like, is this really ours to fix, and is now the time? He was not brushing her off. He was wondering out loud whether this was the moment to begin.",
+   "seg_start": 66.417,
+   "audio_start": 66.697,
+   "spoken_end": 85.664,
+   "seg_end": 86.314,
+   "audio_dur": 19.357,
+   "spoken_dur": 18.967,
+   "seg_dur": 19.897,
+   "timing": [
+    {
+     "text": "That sounds sharp in English, but it was not.",
+     "start": 0.0,
+     "end": 2.403
+    },
+    {
+     "text": "Woman was a word of respect, and the phrase was a gentle old idiom, something like, is this really ours to fix, and is now the time?",
+     "start": 2.403,
+     "end": 13.259
+    },
+    {
+     "text": "He was not brushing her off.",
+     "start": 13.259,
+     "end": 15.72
+    },
+    {
+     "text": "He was wondering out loud whether this was the moment to begin.",
+     "start": 15.72,
+     "end": 19.319
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6-do-whatever-he-says.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And his mother, who knew him better than anyone alive, did not argue with him. She just turned to the servants and gave them the best advice in the whole Bible.",
+   "seg_start": 86.314,
+   "audio_start": 86.594,
+   "spoken_end": 94.884,
+   "seg_end": 95.534,
+   "audio_dur": 8.673,
+   "spoken_dur": 8.29,
+   "seg_dur": 9.22,
+   "timing": [
+    {
+     "text": "And his mother, who knew him better than anyone alive, did not argue with him.",
+     "start": 0.0,
+     "end": 4.644
+    },
+    {
+     "text": "She just turned to the servants and gave them the best advice in the whole Bible.",
+     "start": 4.644,
+     "end": 8.638
+    }
+   ]
+  },
+  {
+   "seg": "w5",
+   "v1_still": "s6-do-whatever-he-says.jpeg",
+   "zoom": "out",
+   "speaker": "woman",
+   "text": "Whatsoever he saith unto you, do it.",
+   "seg_start": 95.534,
+   "audio_start": 95.814,
+   "spoken_end": 97.885,
+   "seg_end": 99.485,
+   "audio_dur": 2.456,
+   "spoken_dur": 2.071,
+   "seg_dur": 3.951,
+   "timing": [
+    {
+     "text": "Whatsoever he saith unto you, do it.",
+     "start": 0.0,
+     "end": 2.415
+    }
+   ]
+  },
+  {
+   "seg": "n6b",
+   "v1_still": "s6-do-whatever-he-says.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Whatever he tells you, do it. That is all of it. She did not explain, and she did not stay to supervise. She handed the servants over to him and stepped back, and trusted her son with the rest.",
+   "seg_start": 99.485,
+   "audio_start": 99.765,
+   "spoken_end": 110.959,
+   "seg_end": 111.609,
+   "audio_dur": 11.598,
+   "spoken_dur": 11.194,
+   "seg_dur": 12.124,
+   "timing": [
+    {
+     "text": "Whatever he tells you, do it.",
+     "start": 0.0,
+     "end": 1.892
+    },
+    {
+     "text": "That is all of it.",
+     "start": 1.892,
+     "end": 2.961
+    },
+    {
+     "text": "She did not explain, and she did not stay to supervise.",
+     "start": 2.961,
+     "end": 6.664
+    },
+    {
+     "text": "She handed the servants over to him and stepped back, and trusted her son with the rest.",
+     "start": 6.664,
+     "end": 11.564
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s7-the-six-waterpots.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Standing nearby were six big stone jars, the kind kept for the washing rituals, each one holding twenty or thirty gallons. Empty jars, meant for making things clean. Not a wine cup in sight.",
+   "seg_start": 111.609,
+   "audio_start": 111.889,
+   "spoken_end": 126.235,
+   "seg_end": 126.885,
+   "audio_dur": 14.811,
+   "spoken_dur": 14.347,
+   "seg_dur": 15.277,
+   "timing": [
+    {
+     "text": "Standing nearby were six big stone jars, the kind kept for the washing rituals, each one holding twenty or thirty gallons.",
+     "start": 0.0,
+     "end": 8.603
+    },
+    {
+     "text": "Empty jars, meant for making things clean.",
+     "start": 8.603,
+     "end": 12.597
+    },
+    {
+     "text": "Not a wine cup in sight.",
+     "start": 12.597,
+     "end": 14.768
+    }
+   ]
+  },
+  {
+   "seg": "jv7",
+   "v1_still": "s8-fill-them-with-water.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Fill the waterpots with water.",
+   "seg_start": 126.885,
+   "audio_start": 127.165,
+   "spoken_end": 128.697,
+   "seg_end": 130.297,
+   "audio_dur": 1.907,
+   "spoken_dur": 1.531,
+   "seg_dur": 3.411,
+   "timing": [
+    {
+     "text": "Fill the waterpots with water.",
+     "start": 0.0,
+     "end": 1.858
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s8-fill-them-with-water.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Not wine. Water. The plainest thing there is, from the nearest well. The servants filled all six to the very top, hauling bucket after bucket, surely wondering what plain water had to do with the problem.",
+   "seg_start": 130.297,
+   "audio_start": 130.577,
+   "spoken_end": 145.083,
+   "seg_end": 145.733,
+   "audio_dur": 14.89,
+   "spoken_dur": 14.506,
+   "seg_dur": 15.436,
+   "timing": [
+    {
+     "text": "Not wine.",
+     "start": 0.0,
+     "end": 1.045
+    },
+    {
+     "text": "Water.",
+     "start": 1.045,
+     "end": 2.125
+    },
+    {
+     "text": "The plainest thing there is, from the nearest well.",
+     "start": 2.125,
+     "end": 5.828
+    },
+    {
+     "text": "The servants filled all six to the very top, hauling bucket after bucket, surely wondering what plain water had to do with the problem.",
+     "start": 5.828,
+     "end": 14.861
+    }
+   ]
+  },
+  {
+   "seg": "jv8",
+   "v1_still": "s9-draw-out-now.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Draw out now, and bear unto the governor of the feast.",
+   "seg_start": 145.733,
+   "audio_start": 146.013,
+   "spoken_end": 149.564,
+   "seg_end": 151.164,
+   "audio_dur": 3.892,
+   "spoken_dur": 3.551,
+   "seg_dur": 5.431,
+   "timing": [
+    {
+     "text": "Draw out now, and bear unto the governor of the feast.",
+     "start": 0.0,
+     "end": 3.855
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s9-draw-out-now.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "No lightning. No words spoken over the jars. No show at all. He simply told them to dip a cup and carry it to the man in charge of the feast. And somewhere between the jar and the cup, the water quietly became something else.",
+   "seg_start": 151.164,
+   "audio_start": 151.444,
+   "spoken_end": 166.412,
+   "seg_end": 167.062,
+   "audio_dur": 15.412,
+   "spoken_dur": 14.968,
+   "seg_dur": 15.898,
+   "timing": [
+    {
+     "text": "No lightning.",
+     "start": 0.0,
+     "end": 0.94
+    },
+    {
+     "text": "No words spoken over the jars.",
+     "start": 0.94,
+     "end": 3.344
+    },
+    {
+     "text": "No show at all.",
+     "start": 3.344,
+     "end": 4.865
+    },
+    {
+     "text": "He simply told them to dip a cup and carry it to the man in charge of the feast.",
+     "start": 4.865,
+     "end": 9.892
+    },
+    {
+     "text": "And somewhere between the jar and the cup, the water quietly became something else.",
+     "start": 9.892,
+     "end": 15.372
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s10-the-good-wine.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The steward tasted it and had no idea where it came from. He pulled the bridegroom aside, half laughing.",
+   "seg_start": 167.062,
+   "audio_start": 167.342,
+   "spoken_end": 172.861,
+   "seg_end": 173.511,
+   "audio_dur": 5.878,
+   "spoken_dur": 5.519,
+   "seg_dur": 6.449,
+   "timing": [
+    {
+     "text": "The steward tasted it and had no idea where it came from.",
+     "start": 0.0,
+     "end": 2.879
+    },
+    {
+     "text": "He pulled the bridegroom aside, half laughing.",
+     "start": 2.879,
+     "end": 5.851
+    }
+   ]
+  },
+  {
+   "seg": "s10",
+   "v1_still": "s10-the-good-wine.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Every man at the beginning doth set forth good wine; and when men have well drunk, then that which is worse: but thou hast kept the good wine until now.",
+   "seg_start": 173.511,
+   "audio_start": 173.791,
+   "spoken_end": 182.933,
+   "seg_end": 184.533,
+   "audio_dur": 9.456,
+   "spoken_dur": 9.142,
+   "seg_dur": 11.022,
+   "timing": [
+    {
+     "text": "Every man at the beginning doth set forth good wine; and when men have well drunk, then that which is worse: but thou hast kept the good wine until now.",
+     "start": 0.0,
+     "end": 9.427
+    }
+   ]
+  },
+  {
+   "seg": "n10b",
+   "v1_still": "s10-the-good-wine.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Everybody serves the good wine first, he said, and brings out the cheap stuff once the guests have stopped paying attention. You have done it backwards. You saved the best for last.",
+   "seg_start": 184.533,
+   "audio_start": 184.813,
+   "spoken_end": 195.046,
+   "seg_end": 195.696,
+   "audio_dur": 10.71,
+   "spoken_dur": 10.232,
+   "seg_dur": 11.162,
+   "timing": [
+    {
+     "text": "Everybody serves the good wine first, he said, and brings out the cheap stuff once the guests have stopped paying attention.",
+     "start": 0.0,
+     "end": 6.594
+    },
+    {
+     "text": "You have done it backwards.",
+     "start": 6.594,
+     "end": 8.499
+    },
+    {
+     "text": "You saved the best for last.",
+     "start": 8.499,
+     "end": 10.681
+    }
+   ]
+  },
+  {
+   "seg": "n11",
+   "v1_still": "s11-the-feast-restored.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And that is the line to hold on to. He saved the best for last. Not a bare rescue, not just barely enough to get by. Something like a hundred and fifty gallons of the finest wine at the party, poured out on ordinary people who would never even know who paid for it.",
+   "seg_start": 195.696,
+   "audio_start": 195.976,
+   "spoken_end": 211.78,
+   "seg_end": 212.43,
+   "audio_dur": 16.3,
+   "spoken_dur": 15.804,
+   "seg_dur": 16.734,
+   "timing": [
+    {
+     "text": "And that is the line to hold on to.",
+     "start": 0.0,
+     "end": 1.881
+    },
+    {
+     "text": "He saved the best for last.",
+     "start": 1.881,
+     "end": 3.727
+    },
+    {
+     "text": "Not a bare rescue, not just barely enough to get by.",
+     "start": 3.727,
+     "end": 7.488
+    },
+    {
+     "text": "Something like a hundred and fifty gallons of the finest wine at the party, poured out on ordinary people who would never even know who paid for it.",
+     "start": 7.488,
+     "end": 16.254
+    }
+   ]
+  },
+  {
+   "seg": "n12",
+   "v1_still": "s12-they-believed.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That is the God this story is showing you. His first move in the whole world was not to frighten anyone or settle a score. It was to walk into a family's worst moment of the day and quietly turn it into more joy than they started with. His friends saw it, and they believed him.",
+   "seg_start": 212.43,
+   "audio_start": 212.71,
+   "spoken_end": 229.716,
+   "seg_end": 230.366,
+   "audio_dur": 17.398,
+   "spoken_dur": 17.006,
+   "seg_dur": 17.936,
+   "timing": [
+    {
+     "text": "That is the God this story is showing you.",
+     "start": 0.0,
+     "end": 2.612
+    },
+    {
+     "text": "His first move in the whole world was not to frighten anyone or settle a score.",
+     "start": 2.612,
+     "end": 7.5
+    },
+    {
+     "text": "It was to walk into a family's worst moment of the day and quietly turn it into more joy than they started with.",
+     "start": 7.5,
+     "end": 14.524
+    },
+    {
+     "text": "His friends saw it, and they believed him.",
+     "start": 14.524,
+     "end": 17.369
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "His very first miracle was making a good day even better, for people who never asked and never knew. If that is how he begins, what do you think he is like? What would you bring a God who saves the best for last?",
+  "seg_start": 230.366,
+  "audio_start": 230.646,
+  "seg_dur": 15.181
+ },
+ "total": 245.547
+}

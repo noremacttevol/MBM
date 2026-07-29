@@ -1,0 +1,229 @@
+{
+ "row": 130,
+ "slug": "build-130-what-manner-of-spirit",
+ "v1_dir": "media-production/build-130-what-manner-of-spirit",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-the-closed-gate.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "As Jesus traveled toward Jerusalem, a Samaritan village refused to welcome Him. The disciples James and John were hot with anger.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 7.685,
+   "seg_end": 8.405,
+   "audio_dur": 7.837,
+   "spoken_dur": 7.405,
+   "seg_dur": 8.405,
+   "timing": [
+    {
+     "text": "As Jesus traveled toward Jerusalem, a Samaritan village refused to welcome Him.",
+     "start": 0.0,
+     "end": 4.458
+    },
+    {
+     "text": "The disciples James and John were hot with anger.",
+     "start": 4.458,
+     "end": 7.802
+    }
+   ]
+  },
+  {
+   "seg": "s54",
+   "v1_still": "s3-ready-for-fire.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Lord, wilt thou that we command fire to come down from heaven, and consume them, even as Elias did?",
+   "seg_start": 8.405,
+   "audio_start": 8.685,
+   "spoken_end": 14.247,
+   "seg_end": 15.847,
+   "audio_dur": 5.982,
+   "spoken_dur": 5.562,
+   "seg_dur": 7.442,
+   "timing": [
+    {
+     "text": "Lord, wilt thou that we command fire to come down from heaven, and consume them, even as Elias did?",
+     "start": 0.0,
+     "end": 5.944
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s3-ready-for-fire.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "They asked if they should call down fire from heaven to burn the place. They wanted judgment.",
+   "seg_start": 15.847,
+   "audio_start": 16.127,
+   "spoken_end": 21.118,
+   "seg_end": 21.838,
+   "audio_dur": 5.433,
+   "spoken_dur": 4.991,
+   "seg_dur": 5.991,
+   "timing": [
+    {
+     "text": "They asked if they should call down fire from heaven to burn the place.",
+     "start": 0.0,
+     "end": 3.564
+    },
+    {
+     "text": "They wanted judgment.",
+     "start": 3.564,
+     "end": 5.387
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-the-rebuke.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus turned and rebuked them \u2014 not the village, but His own disciples' hearts.",
+   "seg_start": 21.838,
+   "audio_start": 22.118,
+   "spoken_end": 26.297,
+   "seg_end": 27.017,
+   "audio_dur": 4.545,
+   "spoken_dur": 4.179,
+   "seg_dur": 5.179,
+   "timing": [
+    {
+     "text": "Jesus turned and rebuked them \u2014 not the village, but His own disciples' hearts.",
+     "start": 0.0,
+     "end": 4.505
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s4-the-rebuke.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Ye know not what manner of spirit ye are of. For the Son of man is not come to destroy men's lives, but to save them.",
+   "seg_start": 27.017,
+   "audio_start": 27.297,
+   "spoken_end": 34.988,
+   "seg_end": 36.588,
+   "audio_dur": 8.072,
+   "spoken_dur": 7.691,
+   "seg_dur": 9.571,
+   "timing": [
+    {
+     "text": "Ye know not what manner of spirit ye are of.",
+     "start": 0.0,
+     "end": 2.461
+    },
+    {
+     "text": "For the Son of man is not come to destroy men's lives, but to save them.",
+     "start": 2.461,
+     "end": 8.034
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s5-two-fires.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He didn't come to burn. He came to rescue. The fire in the disciples' hearts was the wrong kind.",
+   "seg_start": 36.588,
+   "audio_start": 36.868,
+   "spoken_end": 42.243,
+   "seg_end": 42.963,
+   "audio_dur": 5.799,
+   "spoken_dur": 5.375,
+   "seg_dur": 6.375,
+   "timing": [
+    {
+     "text": "He didn't come to burn.",
+     "start": 0.0,
+     "end": 1.126
+    },
+    {
+     "text": "He came to rescue.",
+     "start": 1.126,
+     "end": 2.624
+    },
+    {
+     "text": "The fire in the disciples' hearts was the wrong kind.",
+     "start": 2.624,
+     "end": 5.759
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s6-walking-on.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And then they simply walked on to the next village. No fire. No answer to the insult at all \u2014 just the road, and somewhere else to be.",
+   "seg_start": 42.963,
+   "audio_start": 43.243,
+   "spoken_end": 52.369,
+   "seg_end": 53.089,
+   "audio_dur": 9.561,
+   "spoken_dur": 9.126,
+   "seg_dur": 10.126,
+   "timing": [
+    {
+     "text": "And then they simply walked on to the next village.",
+     "start": 0.0,
+     "end": 2.473
+    },
+    {
+     "text": "No fire.",
+     "start": 2.473,
+     "end": 3.796
+    },
+    {
+     "text": "No answer to the insult at all \u2014 just the road, and somewhere else to be.",
+     "start": 3.796,
+     "end": 9.52
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s7-warmth-not-fire.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Anger that wants to destroy isn't from Him. The spirit He brings saves.",
+   "seg_start": 53.089,
+   "audio_start": 53.369,
+   "spoken_end": 58.043,
+   "seg_end": 58.763,
+   "audio_dur": 4.963,
+   "spoken_dur": 4.675,
+   "seg_dur": 5.675,
+   "timing": [
+    {
+     "text": "Anger that wants to destroy isn't from Him.",
+     "start": 0.0,
+     "end": 2.508
+    },
+    {
+     "text": "The spirit He brings saves.",
+     "start": 2.508,
+     "end": 4.923
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He came to save, not to burn. Let His Spirit \u2014 the saving one \u2014 shape yours.",
+  "seg_start": 58.763,
+  "audio_start": 59.043,
+  "seg_dur": 7.213
+ },
+ "total": 65.977
+}

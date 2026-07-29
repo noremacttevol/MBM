@@ -1,0 +1,642 @@
+{
+ "row": 120,
+ "slug": "build-120-job-from-whirlwind",
+ "v1_dir": "media-production/build-120-job-from-whirlwind",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-a-good-man-blessed.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Job was a good man \u2014 honest, generous, devoted to God \u2014 and for most of his life that goodness and a happy, prosperous home went together.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 8.777,
+   "seg_end": 9.427,
+   "audio_dur": 8.856,
+   "spoken_dur": 8.497,
+   "seg_dur": 9.427,
+   "timing": [
+    {
+     "text": "Job was a good man \u2014 honest, generous, devoted to God \u2014 and for most of his life that goodness and a happy, prosperous home went together.",
+     "start": 0.0,
+     "end": 8.856
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-everything-taken.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And then, in a single devastating stretch, it was all taken. His wealth, his health, and \u2014 most unbearable of all \u2014 his children. One of the oldest, hardest questions in the world landed on the best man in it: why do good people suffer? And this is what he said on the day it happened.",
+   "seg_start": 9.427,
+   "audio_start": 9.707,
+   "spoken_end": 28.931,
+   "seg_end": 29.581,
+   "audio_dur": 19.592,
+   "spoken_dur": 19.224,
+   "seg_dur": 20.154,
+   "timing": [
+    {
+     "text": "And then, in a single devastating stretch, it was all taken.",
+     "start": 0.0,
+     "end": 4.168
+    },
+    {
+     "text": "His wealth, his health, and \u2014 most unbearable of all \u2014 his children.",
+     "start": 4.168,
+     "end": 8.893
+    },
+    {
+     "text": "One of the oldest, hardest questions in the world landed on the best man in it: why do good people suffer?",
+     "start": 8.893,
+     "end": 16.257
+    },
+    {
+     "text": "And this is what he said on the day it happened.",
+     "start": 16.257,
+     "end": 19.592
+    }
+   ]
+  },
+  {
+   "seg": "s121",
+   "v1_still": "s2-everything-taken.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Naked came I out of my mother's womb, and naked shall I return thither: the LORD gave, and the LORD hath taken away; blessed be the name of the LORD.",
+   "seg_start": 29.581,
+   "audio_start": 29.861,
+   "spoken_end": 38.197,
+   "seg_end": 39.797,
+   "audio_dur": 8.673,
+   "spoken_dur": 8.336,
+   "seg_dur": 10.216,
+   "timing": [
+    {
+     "text": "Naked came I out of my mother's womb, and naked shall I return thither: the LORD gave, and the LORD hath taken away; blessed be the name of the LORD.",
+     "start": 0.0,
+     "end": 8.673
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s2-everything-taken.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "I came into this world with nothing and I will leave with nothing. God gave it and God has taken it, and I will bless him anyway. He is not calm when he says it. He has just torn his coat and shaved his head. He is wrecked, and still holding on.",
+   "seg_start": 39.797,
+   "audio_start": 40.077,
+   "spoken_end": 53.988,
+   "seg_end": 54.638,
+   "audio_dur": 14.289,
+   "spoken_dur": 13.911,
+   "seg_dur": 14.841,
+   "timing": [
+    {
+     "text": "I came into this world with nothing and I will leave with nothing.",
+     "start": 0.0,
+     "end": 3.913
+    },
+    {
+     "text": "God gave it and God has taken it, and I will bless him anyway.",
+     "start": 3.913,
+     "end": 7.589
+    },
+    {
+     "text": "He is not calm when he says it.",
+     "start": 7.589,
+     "end": 9.427
+    },
+    {
+     "text": "He has just torn his coat and shaved his head.",
+     "start": 9.427,
+     "end": 12.155
+    },
+    {
+     "text": "He is wrecked, and still holding on.",
+     "start": 12.155,
+     "end": 14.289
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-ashes-and-silence.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He sat down in the ashes, sick and broken, and he did not pretend to be all right. He grieved out loud. And scripture never once scolds him for it.",
+   "seg_start": 54.638,
+   "audio_start": 54.918,
+   "spoken_end": 63.307,
+   "seg_end": 63.957,
+   "audio_dur": 8.777,
+   "spoken_dur": 8.39,
+   "seg_dur": 9.32,
+   "timing": [
+    {
+     "text": "He sat down in the ashes, sick and broken, and he did not pretend to be all right.",
+     "start": 0.0,
+     "end": 4.964
+    },
+    {
+     "text": "He grieved out loud.",
+     "start": 4.964,
+     "end": 6.174
+    },
+    {
+     "text": "And scripture never once scolds him for it.",
+     "start": 6.174,
+     "end": 8.777
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-cold-comfort.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "His friends came, and at first they simply sat with him \u2014 which was the best thing they did. Then they started explaining. You must have sinned, they said. This must be your fault. Their tidy answers only deepened the wound.",
+   "seg_start": 63.957,
+   "audio_start": 64.237,
+   "spoken_end": 77.76,
+   "seg_end": 78.41,
+   "audio_dur": 13.923,
+   "spoken_dur": 13.522,
+   "seg_dur": 14.452,
+   "timing": [
+    {
+     "text": "His friends came, and at first they simply sat with him \u2014 which was the best thing they did.",
+     "start": 0.0,
+     "end": 5.822
+    },
+    {
+     "text": "Then they started explaining.",
+     "start": 5.822,
+     "end": 7.658
+    },
+    {
+     "text": "You must have sinned, they said.",
+     "start": 7.658,
+     "end": 9.683
+    },
+    {
+     "text": "This must be your fault.",
+     "start": 9.683,
+     "end": 11.202
+    },
+    {
+     "text": "Their tidy answers only deepened the wound.",
+     "start": 11.202,
+     "end": 13.923
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-the-honest-cry.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But Job would not accept easy lies about God or about himself. He did something braver than pretending. He took his anguish straight to God and demanded an answer \u2014 and then, in the middle of it, he said this.",
+   "seg_start": 78.41,
+   "audio_start": 78.69,
+   "spoken_end": 90.571,
+   "seg_end": 91.221,
+   "audio_dur": 12.304,
+   "spoken_dur": 11.881,
+   "seg_dur": 12.811,
+   "timing": [
+    {
+     "text": "But Job would not accept easy lies about God or about himself.",
+     "start": 0.0,
+     "end": 3.685
+    },
+    {
+     "text": "He did something braver than pretending.",
+     "start": 3.685,
+     "end": 6.063
+    },
+    {
+     "text": "He took his anguish straight to God and demanded an answer \u2014 and then, in the middle of it, he said this.",
+     "start": 6.063,
+     "end": 12.304
+    }
+   ]
+  },
+  {
+   "seg": "s1925",
+   "v1_still": "s5-the-honest-cry.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "For I know that my redeemer liveth, and that he shall stand at the latter day upon the earth.",
+   "seg_start": 91.221,
+   "audio_start": 91.501,
+   "spoken_end": 96.098,
+   "seg_end": 97.698,
+   "audio_dur": 5.042,
+   "spoken_dur": 4.597,
+   "seg_dur": 6.477,
+   "timing": [
+    {
+     "text": "For I know that my redeemer liveth, and that he shall stand at the latter day upon the earth.",
+     "start": 0.0,
+     "end": 5.042
+    }
+   ]
+  },
+  {
+   "seg": "n5b",
+   "v1_still": "s5-the-honest-cry.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That is a man in the ashes with nothing left, saying it out loud. He does not understand a thing that is happening to him, and he still knows who is coming.",
+   "seg_start": 97.698,
+   "audio_start": 97.978,
+   "spoken_end": 107.38,
+   "seg_end": 108.03,
+   "audio_dur": 9.796,
+   "spoken_dur": 9.402,
+   "seg_dur": 10.332,
+   "timing": [
+    {
+     "text": "That is a man in the ashes with nothing left, saying it out loud.",
+     "start": 0.0,
+     "end": 4.108
+    },
+    {
+     "text": "He does not understand a thing that is happening to him, and he still knows who is coming.",
+     "start": 4.108,
+     "end": 9.796
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6-out-of-the-whirlwind.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And God answered \u2014 though not in the way anyone expected. Out of a great whirlwind, the Maker of everything finally spoke.",
+   "seg_start": 108.03,
+   "audio_start": 108.31,
+   "spoken_end": 115.326,
+   "seg_end": 115.976,
+   "audio_dur": 7.419,
+   "spoken_dur": 7.016,
+   "seg_dur": 7.946,
+   "timing": [
+    {
+     "text": "And God answered \u2014 though not in the way anyone expected.",
+     "start": 0.0,
+     "end": 3.495
+    },
+    {
+     "text": "Out of a great whirlwind, the Maker of everything finally spoke.",
+     "start": 3.495,
+     "end": 7.419
+    }
+   ]
+  },
+  {
+   "seg": "jvA",
+   "v1_still": "s7-where-wast-thou.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "Where wast thou when I laid the foundations of the earth? declare, if thou hast understanding.",
+   "seg_start": 115.976,
+   "audio_start": 116.256,
+   "spoken_end": 122.651,
+   "seg_end": 124.251,
+   "audio_dur": 6.766,
+   "spoken_dur": 6.396,
+   "seg_dur": 8.276,
+   "timing": [
+    {
+     "text": "Where wast thou when I laid the foundations of the earth?",
+     "start": 0.0,
+     "end": 4.147
+    },
+    {
+     "text": "declare, if thou hast understanding.",
+     "start": 4.147,
+     "end": 6.766
+    }
+   ]
+  },
+  {
+   "seg": "n6b",
+   "v1_still": "s7-where-wast-thou.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "It sounds like a rebuke, and it is not. God is doing something gentler than that. He is taking a man who has shrunk down to the size of his own pain, and slowly widening the room.",
+   "seg_start": 124.251,
+   "audio_start": 124.531,
+   "spoken_end": 135.115,
+   "seg_end": 135.765,
+   "audio_dur": 10.945,
+   "spoken_dur": 10.584,
+   "seg_dur": 11.514,
+   "timing": [
+    {
+     "text": "It sounds like a rebuke, and it is not.",
+     "start": 0.0,
+     "end": 2.412
+    },
+    {
+     "text": "God is doing something gentler than that.",
+     "start": 2.412,
+     "end": 4.947
+    },
+    {
+     "text": "He is taking a man who has shrunk down to the size of his own pain, and slowly widening the room.",
+     "start": 4.947,
+     "end": 10.945
+    }
+   ]
+  },
+  {
+   "seg": "jv387",
+   "v1_still": "s8-the-morning-stars.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "When the morning stars sang together, and all the sons of God shouted for joy.",
+   "seg_start": 135.765,
+   "audio_start": 136.045,
+   "spoken_end": 141.151,
+   "seg_end": 142.751,
+   "audio_dur": 5.46,
+   "spoken_dur": 5.105,
+   "seg_dur": 6.985,
+   "timing": [
+    {
+     "text": "When the morning stars sang together, and all the sons of God shouted for joy.",
+     "start": 0.0,
+     "end": 5.46
+    }
+   ]
+  },
+  {
+   "seg": "n7a",
+   "v1_still": "s8-the-morning-stars.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "That is God describing the day the world was made \u2014 and it is not a lecture about power. It is a memory, and it is full of gladness.",
+   "seg_start": 142.751,
+   "audio_start": 143.031,
+   "spoken_end": 151.009,
+   "seg_end": 151.659,
+   "audio_dur": 8.359,
+   "spoken_dur": 7.978,
+   "seg_dur": 8.908,
+   "timing": [
+    {
+     "text": "That is God describing the day the world was made \u2014 and it is not a lecture about power.",
+     "start": 0.0,
+     "end": 5.615
+    },
+    {
+     "text": "It is a memory, and it is full of gladness.",
+     "start": 5.615,
+     "end": 8.359
+    }
+   ]
+  },
+  {
+   "seg": "jvB",
+   "v1_still": "s8-the-morning-stars.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "Canst thou bind the sweet influences of Pleiades, or loose the bands of Orion?",
+   "seg_start": 151.659,
+   "audio_start": 151.939,
+   "spoken_end": 157.527,
+   "seg_end": 159.127,
+   "audio_dur": 5.982,
+   "spoken_dur": 5.588,
+   "seg_dur": 7.468,
+   "timing": [
+    {
+     "text": "Canst thou bind the sweet influences of Pleiades, or loose the bands of Orion?",
+     "start": 0.0,
+     "end": 5.982
+    }
+   ]
+  },
+  {
+   "seg": "n7b",
+   "v1_still": "s8-the-morning-stars.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Can you tie up the Pleiades, God asks, or unfasten Orion's belt? On and on it goes \u2014 the sea, the snow, the wild donkey, the horse, the hawk. Chapter after chapter of a world far bigger and stranger and kinder than the tidy little courtroom Job's friends had built.",
+   "seg_start": 159.127,
+   "audio_start": 159.407,
+   "spoken_end": 176.662,
+   "seg_end": 177.312,
+   "audio_dur": 17.685,
+   "spoken_dur": 17.255,
+   "seg_dur": 18.185,
+   "timing": [
+    {
+     "text": "Can you tie up the Pleiades, God asks, or unfasten Orion's belt?",
+     "start": 0.0,
+     "end": 4.304
+    },
+    {
+     "text": "On and on it goes \u2014 the sea, the snow, the wild donkey, the horse, the hawk.",
+     "start": 4.304,
+     "end": 9.414
+    },
+    {
+     "text": "Chapter after chapter of a world far bigger and stranger and kinder than the tidy little courtroom Job's friends had built.",
+     "start": 9.414,
+     "end": 17.685
+    }
+   ]
+  },
+  {
+   "seg": "s404",
+   "v1_still": "s9-now-mine-eye-seeth-thee.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Behold, I am vile; what shall I answer thee? I will lay mine hand upon my mouth. Once have I spoken; but I will not answer: yea, twice; but I will proceed no further.",
+   "seg_start": 177.312,
+   "audio_start": 177.592,
+   "spoken_end": 188.262,
+   "seg_end": 189.862,
+   "audio_dur": 11.05,
+   "spoken_dur": 10.67,
+   "seg_dur": 12.55,
+   "timing": [
+    {
+     "text": "Behold, I am vile; what shall I answer thee?",
+     "start": 0.0,
+     "end": 2.965
+    },
+    {
+     "text": "I will lay mine hand upon my mouth.",
+     "start": 2.965,
+     "end": 5.323
+    },
+    {
+     "text": "Once have I spoken; but I will not answer: yea, twice; but I will proceed no further.",
+     "start": 5.323,
+     "end": 11.05
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s9-now-mine-eye-seeth-thee.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "I have nothing to say, Job answers. I am putting my hand over my mouth. I have said my piece and I will not say it again. Not beaten \u2014 quieted. God never explained why. Instead he showed Job the sea and the stars and the wild goodness of a world Job could never have made or held. And somehow it was enough.",
+   "seg_start": 189.862,
+   "audio_start": 190.142,
+   "spoken_end": 210.921,
+   "seg_end": 211.571,
+   "audio_dur": 21.159,
+   "spoken_dur": 20.778,
+   "seg_dur": 21.708,
+   "timing": [
+    {
+     "text": "I have nothing to say, Job answers.",
+     "start": 0.0,
+     "end": 2.46
+    },
+    {
+     "text": "I am putting my hand over my mouth.",
+     "start": 2.46,
+     "end": 4.921
+    },
+    {
+     "text": "I have said my piece and I will not say it again.",
+     "start": 4.921,
+     "end": 8.365
+    },
+    {
+     "text": "Not beaten \u2014 quieted.",
+     "start": 8.365,
+     "end": 9.841
+    },
+    {
+     "text": "God never explained why.",
+     "start": 9.841,
+     "end": 11.529
+    },
+    {
+     "text": "Instead he showed Job the sea and the stars and the wild goodness of a world Job could never have made or held.",
+     "start": 11.529,
+     "end": 19.331
+    },
+    {
+     "text": "And somehow it was enough.",
+     "start": 19.331,
+     "end": 21.159
+    }
+   ]
+  },
+  {
+   "seg": "s425",
+   "v1_still": "s9-now-mine-eye-seeth-thee.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "I have heard of thee by the hearing of the ear: but now mine eye seeth thee.",
+   "seg_start": 211.571,
+   "audio_start": 211.851,
+   "spoken_end": 215.425,
+   "seg_end": 217.025,
+   "audio_dur": 3.944,
+   "spoken_dur": 3.574,
+   "seg_dur": 5.454,
+   "timing": [
+    {
+     "text": "I have heard of thee by the hearing of the ear: but now mine eye seeth thih.",
+     "start": 0.0,
+     "end": 3.944
+    }
+   ]
+  },
+  {
+   "seg": "n7c",
+   "v1_still": "s9-now-mine-eye-seeth-thee.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "I had only ever heard about you, Job says. Now I have seen you with my own eyes. That is the ending. Not because he got his answer, but because he got God himself.",
+   "seg_start": 217.025,
+   "audio_start": 217.305,
+   "spoken_end": 227.032,
+   "seg_end": 227.682,
+   "audio_dur": 10.214,
+   "spoken_dur": 9.727,
+   "seg_dur": 10.657,
+   "timing": [
+    {
+     "text": "I had only ever heard about you, Job says.",
+     "start": 0.0,
+     "end": 2.681
+    },
+    {
+     "text": "Now I have seen you with my own eyes.",
+     "start": 2.681,
+     "end": 5.043
+    },
+    {
+     "text": "That is the ending.",
+     "start": 5.043,
+     "end": 6.256
+    },
+    {
+     "text": "Not because he got his answer, but because he got God himself.",
+     "start": 6.256,
+     "end": 10.214
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s10-comforted.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The suffering was never fully explained \u2014 not to Job, and not to us. But Job was no longer alone in it. The God he thought had abandoned him had come near, and that nearness was the answer his grief actually needed.",
+   "seg_start": 227.682,
+   "audio_start": 227.962,
+   "spoken_end": 241.15,
+   "seg_end": 241.8,
+   "audio_dur": 13.558,
+   "spoken_dur": 13.188,
+   "seg_dur": 14.118,
+   "timing": [
+    {
+     "text": "The suffering was never fully explained \u2014 not to Job, and not to us.",
+     "start": 0.0,
+     "end": 4.328
+    },
+    {
+     "text": "But Job was no longer alone in it.",
+     "start": 4.328,
+     "end": 6.492
+    },
+    {
+     "text": "The God he thought had abandoned him had come near, and that nearness was the answer his grief actually needed.",
+     "start": 6.492,
+     "end": 13.558
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "Job's comfort was never a reason for his pain. It was a Person who showed up in it. If you are in the ashes right now, the promise is not a tidy explanation \u2014 it is that God draws near to the broken. Where do you most need him to show up?",
+  "seg_start": 241.8,
+  "audio_start": 242.08,
+  "seg_dur": 17.244
+ },
+ "total": 259.044
+}

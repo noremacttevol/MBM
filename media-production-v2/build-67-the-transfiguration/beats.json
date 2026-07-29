@@ -1,0 +1,281 @@
+{
+ "row": 67,
+ "slug": "build-67-the-transfiguration",
+ "v1_dir": "media-production/build-67-the-transfiguration",
+ "constants": {
+  "LEAD": 0.4,
+  "GAP": 1.65,
+  "KJV_GAP": 1.65,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-up-the-mountain.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus took three of his closest friends \u2014 Peter, James, and John \u2014 up a high mountain, away from everyone.",
+   "seg_start": 0.0,
+   "audio_start": 0.4,
+   "spoken_end": 6.517,
+   "seg_end": 8.167,
+   "audio_dur": 6.504,
+   "spoken_dur": 6.117,
+   "seg_dur": 8.167,
+   "timing": [
+    {
+     "text": "Jesus took three of his closest friends \u2014 Peter, James, and John \u2014 up a high mountain, away from everyone.",
+     "start": 0.0,
+     "end": 6.455
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-transfigured.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And there, in front of them, he changed. His clothes turned a blinding white, brighter than anything on earth, and for one moment they saw him shining with who he really is.",
+   "seg_start": 8.167,
+   "audio_start": 8.567,
+   "spoken_end": 18.533,
+   "seg_end": 20.183,
+   "audio_dur": 10.344,
+   "spoken_dur": 9.965,
+   "seg_dur": 12.015,
+   "timing": [
+    {
+     "text": "And there, in front of them, he changed.",
+     "start": 0.0,
+     "end": 2.252
+    },
+    {
+     "text": "His clothes turned a blinding white, brighter than anything on earth, and for one moment they saw him shining with who he really is.",
+     "start": 2.252,
+     "end": 10.31
+    }
+   ]
+  },
+  {
+   "seg": "n2a",
+   "v1_still": "s3-moses-and-elijah.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Two of the greatest prophets, Moses and Elias, appeared and stood talking with him.",
+   "seg_start": 20.183,
+   "audio_start": 20.583,
+   "spoken_end": 25.002,
+   "seg_end": 26.652,
+   "audio_dur": 4.833,
+   "spoken_dur": 4.42,
+   "seg_dur": 6.47,
+   "timing": [
+    {
+     "text": "Two of the greatest prophets, Moses and Elias, appeared and stood talking with him.",
+     "start": 0.0,
+     "end": 4.783
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s4-the-disciples-fall-back.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Peter, overwhelmed, blurted out the first thing that came to him.",
+   "seg_start": 26.652,
+   "audio_start": 27.052,
+   "spoken_end": 30.28,
+   "seg_end": 31.93,
+   "audio_dur": 3.605,
+   "spoken_dur": 3.227,
+   "seg_dur": 5.277,
+   "timing": [
+    {
+     "text": "Peter, overwhelmed, blurted out the first thing that came to him.",
+     "start": 0.0,
+     "end": 3.576
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s5-peter-speaks.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Master, it is good for us to be here: and let us make three tabernacles; one for thee, and one for Moses, and one for Elias.",
+   "seg_start": 31.93,
+   "audio_start": 32.33,
+   "spoken_end": 39.794,
+   "seg_end": 41.444,
+   "audio_dur": 7.941,
+   "spoken_dur": 7.464,
+   "seg_dur": 9.514,
+   "timing": [
+    {
+     "text": "Master, it is good for us to be here: and let us make three tabernacles; one for thee, and one for Moses, and one for Elias.",
+     "start": 0.0,
+     "end": 7.895
+    }
+   ]
+  },
+  {
+   "seg": "n2c",
+   "v1_still": "s5-peter-speaks.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He wanted to keep the moment. Build something, stay a while. Mark adds, kindly, that Peter did not know what to say, because they were so afraid.",
+   "seg_start": 41.444,
+   "audio_start": 41.844,
+   "spoken_end": 50.218,
+   "seg_end": 51.868,
+   "audio_dur": 8.777,
+   "spoken_dur": 8.374,
+   "seg_dur": 10.424,
+   "timing": [
+    {
+     "text": "He wanted to keep the moment.",
+     "start": 0.0,
+     "end": 1.312
+    },
+    {
+     "text": "Build something, stay a while.",
+     "start": 1.312,
+     "end": 3.332
+    },
+    {
+     "text": "Mark adds, kindly, that Peter did not know what to say, because they were so afraid.",
+     "start": 3.332,
+     "end": 8.731
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s6-the-bright-cloud.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then a bright cloud settled over the mountain, and out of it came a voice.",
+   "seg_start": 51.868,
+   "audio_start": 52.268,
+   "spoken_end": 56.257,
+   "seg_end": 57.907,
+   "audio_dur": 4.415,
+   "spoken_dur": 3.989,
+   "seg_dur": 6.039,
+   "timing": [
+    {
+     "text": "Then a bright cloud settled over the mountain, and out of it came a voice.",
+     "start": 0.0,
+     "end": 4.365
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s7-this-is-my-beloved-son.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "This is my beloved Son: hear him.",
+   "seg_start": 57.907,
+   "audio_start": 58.307,
+   "spoken_end": 60.949,
+   "seg_end": 62.599,
+   "audio_dur": 3.056,
+   "spoken_dur": 2.641,
+   "seg_dur": 4.691,
+   "timing": [
+    {
+     "text": "This is my beloved Son: hear him.",
+     "start": 0.0,
+     "end": 3.019
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s7-this-is-my-beloved-son.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "This is my Son, whom I love. Listen to him. Not build for him. Not stay up here with him. Listen to him. Of everything the Father could have said on that mountain, he gave them one sentence and one instruction.",
+   "seg_start": 62.599,
+   "audio_start": 62.999,
+   "spoken_end": 76.362,
+   "seg_end": 78.012,
+   "audio_dur": 13.793,
+   "spoken_dur": 13.363,
+   "seg_dur": 15.413,
+   "timing": [
+    {
+     "text": "This is my Son, whom I love.",
+     "start": 0.0,
+     "end": 2.159
+    },
+    {
+     "text": "Listen to him.",
+     "start": 2.159,
+     "end": 3.17
+    },
+    {
+     "text": "Not build for him.",
+     "start": 3.17,
+     "end": 4.772
+    },
+    {
+     "text": "Not stay up here with him.",
+     "start": 4.772,
+     "end": 6.873
+    },
+    {
+     "text": "Listen to him.",
+     "start": 6.873,
+     "end": 8.127
+    },
+    {
+     "text": "Of everything the Father could have said on that mountain, he gave them one sentence and one instruction.",
+     "start": 8.127,
+     "end": 13.746
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s8-jesus-only.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "And then it was over. The light faded, the cloud lifted, and Jesus stood there alone \u2014 the same gentle friend, reaching down to lift them up. Do not be afraid, he told them.",
+   "seg_start": 78.012,
+   "audio_start": 78.412,
+   "spoken_end": 89.846,
+   "seg_end": 91.496,
+   "audio_dur": 11.833,
+   "spoken_dur": 11.434,
+   "seg_dur": 13.484,
+   "timing": [
+    {
+     "text": "And then it was over.",
+     "start": 0.0,
+     "end": 1.057
+    },
+    {
+     "text": "The light faded, the cloud lifted, and Jesus stood there alone \u2014 the same gentle friend, reaching down to lift them up.",
+     "start": 1.057,
+     "end": 9.207
+    },
+    {
+     "text": "Do not be afraid, he told them.",
+     "start": 9.207,
+     "end": 11.796
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "For one moment they saw who he really is \u2014 and heaven said, hear him. That invitation still stands.",
+  "seg_start": 91.496,
+  "audio_start": 91.896,
+  "seg_dur": 8.483
+ },
+ "total": 99.979
+}

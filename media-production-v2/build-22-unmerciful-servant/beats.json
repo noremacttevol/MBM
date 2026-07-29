@@ -1,0 +1,670 @@
+{
+ "row": 22,
+ "slug": "build-22-unmerciful-servant",
+ "v1_dir": "media-production/build-22-unmerciful-servant",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "One day Peter came to Jesus with a question that had been sitting heavy on his heart. It was about forgiveness \u2014 and about someone who kept hurting him.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 9.096,
+   "seg_end": 9.746,
+   "audio_dur": 9.195,
+   "spoken_dur": 8.816,
+   "seg_dur": 9.746,
+   "timing": [
+    {
+     "text": "One day Peter came to Jesus with a question that had been sitting heavy on his heart.",
+     "start": 0.0,
+     "end": 4.54
+    },
+    {
+     "text": "It was about forgiveness \u2014 and about someone who kept hurting him.",
+     "start": 4.54,
+     "end": 9.149
+    }
+   ]
+  },
+  {
+   "seg": "s21",
+   "v1_still": "s1.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Lord, how oft shall my brother sin against me, and I forgive him? till seven times?",
+   "seg_start": 9.746,
+   "audio_start": 10.026,
+   "spoken_end": 14.709,
+   "seg_end": 16.309,
+   "audio_dur": 5.094,
+   "spoken_dur": 4.683,
+   "seg_dur": 6.563,
+   "timing": [
+    {
+     "text": "Lord, how oft shall my brother sin against me, and I forgive him?",
+     "start": 0.0,
+     "end": 3.425
+    },
+    {
+     "text": "till seven times?",
+     "start": 3.425,
+     "end": 5.062
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s1.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Peter must have thought he was being generous.",
+   "seg_start": 16.309,
+   "audio_start": 16.589,
+   "spoken_end": 18.693,
+   "seg_end": 19.343,
+   "audio_dur": 2.534,
+   "spoken_dur": 2.103,
+   "seg_dur": 3.033,
+   "timing": [
+    {
+     "text": "Peter must have thought he was being generous.",
+     "start": 0.0,
+     "end": 2.508
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s1.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "I say not unto thee, Until seven times: but, Until seventy times seven.",
+   "seg_start": 19.343,
+   "audio_start": 19.623,
+   "spoken_end": 25.01,
+   "seg_end": 26.61,
+   "audio_dur": 5.799,
+   "spoken_dur": 5.388,
+   "seg_dur": 7.268,
+   "timing": [
+    {
+     "text": "I say not unto thee, Until seven times: but, Until seventy times seven.",
+     "start": 0.0,
+     "end": 5.759
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s1.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "In other words, stop counting. Real forgiveness doesn't keep a ledger. And then, to show them what he meant, Jesus told a story.",
+   "seg_start": 26.61,
+   "audio_start": 26.89,
+   "spoken_end": 34.731,
+   "seg_end": 35.381,
+   "audio_dur": 8.255,
+   "spoken_dur": 7.84,
+   "seg_dur": 8.77,
+   "timing": [
+    {
+     "text": "In other words, stop counting.",
+     "start": 0.0,
+     "end": 1.556
+    },
+    {
+     "text": "Real forgiveness doesn't keep a ledger.",
+     "start": 1.556,
+     "end": 3.971
+    },
+    {
+     "text": "And then, to show them what he meant, Jesus told a story.",
+     "start": 3.971,
+     "end": 8.22
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s2.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "There was once a king who decided to settle his accounts. One by one, his servants were brought in to answer for what they owed him.",
+   "seg_start": 35.381,
+   "audio_start": 35.661,
+   "spoken_end": 42.918,
+   "seg_end": 43.568,
+   "audio_dur": 7.654,
+   "spoken_dur": 7.257,
+   "seg_dur": 8.187,
+   "timing": [
+    {
+     "text": "There was once a king who decided to settle his accounts.",
+     "start": 0.0,
+     "end": 2.775
+    },
+    {
+     "text": "One by one, his servants were brought in to answer for what they owed him.",
+     "start": 2.775,
+     "end": 7.616
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s2.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "One man was dragged forward who owed the king ten thousand talents. It was a staggering fortune \u2014 more money than a working man could earn in ten thousand lifetimes. A debt like that could never, ever be repaid.",
+   "seg_start": 43.568,
+   "audio_start": 43.848,
+   "spoken_end": 57.208,
+   "seg_end": 57.858,
+   "audio_dur": 13.74,
+   "spoken_dur": 13.36,
+   "seg_dur": 14.29,
+   "timing": [
+    {
+     "text": "One man was dragged forward who owed the king ten thousand talents.",
+     "start": 0.0,
+     "end": 3.913
+    },
+    {
+     "text": "It was a staggering fortune \u2014 more money than a working man could earn in ten thousand lifetimes.",
+     "start": 3.913,
+     "end": 10.101
+    },
+    {
+     "text": "A debt like that could never, ever be repaid.",
+     "start": 10.101,
+     "end": 13.7
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s3.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The man had nothing to pay with. So the king ordered that he be sold \u2014 his wife, his children, everything he owned \u2014 to recover even a fraction of it.",
+   "seg_start": 57.858,
+   "audio_start": 58.138,
+   "spoken_end": 67.379,
+   "seg_end": 68.029,
+   "audio_dur": 9.744,
+   "spoken_dur": 9.241,
+   "seg_dur": 10.171,
+   "timing": [
+    {
+     "text": "The man had nothing to pay with.",
+     "start": 0.0,
+     "end": 1.521
+    },
+    {
+     "text": "So the king ordered that he be sold \u2014 his wife, his children, everything he owned \u2014 to recover even a fraction of it.",
+     "start": 1.521,
+     "end": 9.706
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s3.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "The servant threw himself down on the ground and begged. Please, he cried, be patient with me, and I will pay back everything!",
+   "seg_start": 68.029,
+   "audio_start": 68.309,
+   "spoken_end": 75.37,
+   "seg_end": 76.02,
+   "audio_dur": 7.471,
+   "spoken_dur": 7.062,
+   "seg_dur": 7.992,
+   "timing": [
+    {
+     "text": "The servant threw himself down on the ground and begged.",
+     "start": 0.0,
+     "end": 2.438
+    },
+    {
+     "text": "Please, he cried, be patient with me, and I will pay back everything!",
+     "start": 2.438,
+     "end": 7.43
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": "s3.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Lord, have patience with me, and I will pay thee all.",
+   "seg_start": 76.02,
+   "audio_start": 76.3,
+   "spoken_end": 78.788,
+   "seg_end": 80.388,
+   "audio_dur": 2.873,
+   "spoken_dur": 2.488,
+   "seg_dur": 4.368,
+   "timing": [
+    {
+     "text": "Lord, have patience with me, and I will pay thee all.",
+     "start": 0.0,
+     "end": 2.833
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s4.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And the king looked at this desperate man crumpled before him \u2014 and his heart broke with compassion. He did something no one expected.",
+   "seg_start": 80.388,
+   "audio_start": 80.668,
+   "spoken_end": 88.582,
+   "seg_end": 89.232,
+   "audio_dur": 8.359,
+   "spoken_dur": 7.913,
+   "seg_dur": 8.843,
+   "timing": [
+    {
+     "text": "And the king looked at this desperate man crumpled before him \u2014 and his heart broke with compassion.",
+     "start": 0.0,
+     "end": 5.596
+    },
+    {
+     "text": "He did something no one expected.",
+     "start": 5.596,
+     "end": 8.313
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s4.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He didn't just give him more time. He cancelled the whole debt. Every last coin of that impossible fortune \u2014 forgiven, wiped away, gone. The man was free.",
+   "seg_start": 89.232,
+   "audio_start": 89.512,
+   "spoken_end": 100.508,
+   "seg_end": 101.158,
+   "audio_dur": 11.363,
+   "spoken_dur": 10.997,
+   "seg_dur": 11.927,
+   "timing": [
+    {
+     "text": "He didn't just give him more time.",
+     "start": 0.0,
+     "end": 1.649
+    },
+    {
+     "text": "He cancelled the whole debt.",
+     "start": 1.649,
+     "end": 3.506
+    },
+    {
+     "text": "Every last coin of that impossible fortune \u2014 forgiven, wiped away, gone.",
+     "start": 3.506,
+     "end": 9.451
+    },
+    {
+     "text": "The man was free.",
+     "start": 9.451,
+     "end": 11.331
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s5.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But then that same servant walked outside. And there he found one of his fellow servants \u2014 a man who owed him a hundred silver coins. A few months' wages. Real money, yes \u2014 but nothing next to the ocean he'd just been forgiven.",
+   "seg_start": 101.158,
+   "audio_start": 101.438,
+   "spoken_end": 116.037,
+   "seg_end": 116.687,
+   "audio_dur": 14.994,
+   "spoken_dur": 14.599,
+   "seg_dur": 15.529,
+   "timing": [
+    {
+     "text": "But then that same servant walked outside.",
+     "start": 0.0,
+     "end": 2.438
+    },
+    {
+     "text": "And there he found one of his fellow servants \u2014 a man who owed him a hundred silver coins.",
+     "start": 2.438,
+     "end": 8.278
+    },
+    {
+     "text": "A few months' wages.",
+     "start": 8.278,
+     "end": 9.985
+    },
+    {
+     "text": "Real money, yes \u2014 but nothing next to the ocean he'd just been forgiven.",
+     "start": 9.985,
+     "end": 14.954
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s5.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He grabbed the man by the throat and started to choke him. Pay me what you owe me! he snarled. Pay me now!",
+   "seg_start": 116.687,
+   "audio_start": 116.967,
+   "spoken_end": 123.167,
+   "seg_end": 123.817,
+   "audio_dur": 6.583,
+   "spoken_dur": 6.2,
+   "seg_dur": 7.13,
+   "timing": [
+    {
+     "text": "He grabbed the man by the throat and started to choke him.",
+     "start": 0.0,
+     "end": 2.612
+    },
+    {
+     "text": "Pay me what you owe me!",
+     "start": 2.612,
+     "end": 4.354
+    },
+    {
+     "text": "he snarled.",
+     "start": 4.354,
+     "end": 5.062
+    },
+    {
+     "text": "Pay me now!",
+     "start": 5.062,
+     "end": 6.548
+    }
+   ]
+  },
+  {
+   "seg": "j4",
+   "v1_still": "s5.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Pay me that thou owest.",
+   "seg_start": 123.817,
+   "audio_start": 124.097,
+   "spoken_end": 125.483,
+   "seg_end": 127.083,
+   "audio_dur": 1.75,
+   "spoken_dur": 1.385,
+   "seg_dur": 3.265,
+   "timing": [
+    {
+     "text": "Pay me that thou owest.",
+     "start": 0.0,
+     "end": 1.718
+    }
+   ]
+  },
+  {
+   "seg": "n11",
+   "v1_still": "s6.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "His fellow servant fell down at his feet and begged him with the very same words he himself had used only moments before: Please, be patient with me, and I will pay you back!",
+   "seg_start": 127.083,
+   "audio_start": 127.363,
+   "spoken_end": 136.886,
+   "seg_end": 137.536,
+   "audio_dur": 9.979,
+   "spoken_dur": 9.523,
+   "seg_dur": 10.453,
+   "timing": [
+    {
+     "text": "His fellow servant fell down at his feet and begged him with the very same words he himself had used only moments before: Please, be patient with me, and I will pay you back!",
+     "start": 0.0,
+     "end": 9.938
+    }
+   ]
+  },
+  {
+   "seg": "n12",
+   "v1_still": "s6.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "But he refused. He would not listen. He had the man thrown into prison until he could pay back every penny.",
+   "seg_start": 137.536,
+   "audio_start": 137.816,
+   "spoken_end": 144.001,
+   "seg_end": 144.651,
+   "audio_dur": 6.635,
+   "spoken_dur": 6.185,
+   "seg_dur": 7.115,
+   "timing": [
+    {
+     "text": "But he refused.",
+     "start": 0.0,
+     "end": 1.068
+    },
+    {
+     "text": "He would not listen.",
+     "start": 1.068,
+     "end": 2.136
+    },
+    {
+     "text": "He had the man thrown into prison until he could pay back every penny.",
+     "start": 2.136,
+     "end": 6.594
+    }
+   ]
+  },
+  {
+   "seg": "n13",
+   "v1_still": "s7.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The other servants saw the whole thing, and it grieved them deeply. They went and told the king everything that had happened.",
+   "seg_start": 144.651,
+   "audio_start": 144.931,
+   "spoken_end": 151.443,
+   "seg_end": 152.093,
+   "audio_dur": 6.949,
+   "spoken_dur": 6.512,
+   "seg_dur": 7.442,
+   "timing": [
+    {
+     "text": "The other servants saw the whole thing, and it grieved them deeply.",
+     "start": 0.0,
+     "end": 3.831
+    },
+    {
+     "text": "They went and told the king everything that had happened.",
+     "start": 3.831,
+     "end": 6.92
+    }
+   ]
+  },
+  {
+   "seg": "n14",
+   "v1_still": "s8.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The king summoned him back. he said. Shouldn't you have shown the same mercy to your fellow servant that I showed to you?",
+   "seg_start": 152.093,
+   "audio_start": 152.373,
+   "spoken_end": 159.018,
+   "seg_end": 159.668,
+   "audio_dur": 7.001,
+   "spoken_dur": 6.645,
+   "seg_dur": 7.575,
+   "timing": [
+    {
+     "text": "The king summoned him back.",
+     "start": 0.0,
+     "end": 1.521
+    },
+    {
+     "text": "he said.",
+     "start": 1.521,
+     "end": 2.264
+    },
+    {
+     "text": "Shouldn't you have shown the same mercy to your fellow servant that I showed to you?",
+     "start": 2.264,
+     "end": 6.966
+    }
+   ]
+  },
+  {
+   "seg": "j5",
+   "v1_still": "s8.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "O thou wicked servant, I forgave thee all that debt, because thou desiredst me: Shouldest not thou also have had compassion on thy fellowservant, even as I had pity on thee?",
+   "seg_start": 159.668,
+   "audio_start": 159.948,
+   "spoken_end": 172.168,
+   "seg_end": 173.768,
+   "audio_dur": 12.617,
+   "spoken_dur": 12.22,
+   "seg_dur": 14.1,
+   "timing": [
+    {
+     "text": "O thou wicked servant, I forgave thee all that debt, because thou desiredst me: Shouldest not thou also have had compassion on thy fellowservant, even as I had pity on thee?",
+     "start": 0.0,
+     "end": 12.585
+    }
+   ]
+  },
+  {
+   "seg": "n15",
+   "v1_still": "s8.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And in his anger the king handed him over to be punished until he should pay back all that he owed. Then Jesus turned the story toward every one of us.",
+   "seg_start": 173.768,
+   "audio_start": 174.048,
+   "spoken_end": 181.884,
+   "seg_end": 182.534,
+   "audio_dur": 8.202,
+   "spoken_dur": 7.836,
+   "seg_dur": 8.766,
+   "timing": [
+    {
+     "text": "And in his anger the king handed him over to be punished until he should pay back all that he owed.",
+     "start": 0.0,
+     "end": 5.016
+    },
+    {
+     "text": "Then Jesus turned the story toward every one of us.",
+     "start": 5.016,
+     "end": 8.173
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s8.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "So likewise shall my heavenly Father do also unto you, if ye from your hearts forgive not every one his brother their trespasses.",
+   "seg_start": 182.534,
+   "audio_start": 182.814,
+   "spoken_end": 191.593,
+   "seg_end": 193.193,
+   "audio_dur": 9.012,
+   "spoken_dur": 8.779,
+   "seg_dur": 10.659,
+   "timing": [
+    {
+     "text": "So likewise shall my heavenly Father do also unto you, if ye from your hearts forgive not every one his brother their trespasses.",
+     "start": 0.0,
+     "end": 8.963
+    }
+   ]
+  },
+  {
+   "seg": "n16",
+   "v1_still": "s4.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Here is the whole point of the story. Look at the two debts side by side. The mountain that was forgiven us, and the small handful we're asked to forgive each other. They aren't even close.",
+   "seg_start": 193.193,
+   "audio_start": 193.473,
+   "spoken_end": 203.898,
+   "seg_end": 204.548,
+   "audio_dur": 10.815,
+   "spoken_dur": 10.424,
+   "seg_dur": 11.354,
+   "timing": [
+    {
+     "text": "Here is the whole point of the story.",
+     "start": 0.0,
+     "end": 1.533
+    },
+    {
+     "text": "Look at the two debts side by side.",
+     "start": 1.533,
+     "end": 4.284
+    },
+    {
+     "text": "The mountain that was forgiven us, and the small handful we're asked to forgive each other.",
+     "start": 4.284,
+     "end": 9.044
+    },
+    {
+     "text": "They aren't even close.",
+     "start": 9.044,
+     "end": 10.774
+    }
+   ]
+  },
+  {
+   "seg": "n17",
+   "v1_still": "s5.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "We forgive the small things because of the mountain we've been forgiven. To be handed an ocean of mercy, and then choke someone over a cup of it \u2014 that is the one thing this King cannot bear.",
+   "seg_start": 204.548,
+   "audio_start": 204.828,
+   "spoken_end": 215.454,
+   "seg_end": 216.104,
+   "audio_dur": 10.998,
+   "spoken_dur": 10.626,
+   "seg_dur": 11.556,
+   "timing": [
+    {
+     "text": "We forgive the small things because of the mountain we've been forgiven.",
+     "start": 0.0,
+     "end": 3.437
+    },
+    {
+     "text": "To be handed an ocean of mercy, and then choke someone over a cup of it \u2014 that is the one thing this King cannot bear.",
+     "start": 3.437,
+     "end": 10.96
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "You were forgiven a debt you could never repay. Who is holding a small one against you \u2014 that you could let go of today?",
+  "seg_start": 216.104,
+  "audio_start": 216.384,
+  "seg_dur": 9.329
+ },
+ "total": 225.433
+}

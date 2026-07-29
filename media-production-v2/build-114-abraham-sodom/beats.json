@@ -1,0 +1,399 @@
+{
+ "row": 114,
+ "slug": "build-114-abraham-sodom",
+ "v1_dir": "media-production/build-114-abraham-sodom",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-the-three-visitors.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "In the heat of the day, three travelers appeared at Abraham's tent. He did not know at first who they were. He only knew they were strangers, and tired, and that hospitality was sacred.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 11.054,
+   "seg_end": 11.704,
+   "audio_dur": 11.18,
+   "spoken_dur": 10.774,
+   "seg_dur": 11.704,
+   "timing": [
+    {
+     "text": "In the heat of the day, three travelers appeared at Abraham's tent.",
+     "start": 0.0,
+     "end": 3.564
+    },
+    {
+     "text": "He did not know at first who they were.",
+     "start": 3.564,
+     "end": 5.968
+    },
+    {
+     "text": "He only knew they were strangers, and tired, and that hospitality was sacred.",
+     "start": 5.968,
+     "end": 11.146
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-abrahams-welcome.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He washed their feet, baked fresh bread, set out the best he had, and waited on them himself under the oak. And as they ate, they brought him astonishing news \u2014 and a heavy word about Sodom.",
+   "seg_start": 11.704,
+   "audio_start": 11.984,
+   "spoken_end": 23.679,
+   "seg_end": 24.329,
+   "audio_dur": 12.121,
+   "spoken_dur": 11.695,
+   "seg_dur": 12.625,
+   "timing": [
+    {
+     "text": "He washed their feet, baked fresh bread, set out the best he had, and waited on them himself under the oak.",
+     "start": 0.0,
+     "end": 6.653
+    },
+    {
+     "text": "And as they ate, they brought him astonishing news \u2014 and a heavy word about Sodom.",
+     "start": 6.653,
+     "end": 12.074
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-bread-and-rest.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "For those cities had grown very dark, and judgment was near. Two of the travelers went on ahead. But Abraham stayed behind, standing before the warm presence of the Lord \u2014 and he began to plead.",
+   "seg_start": 24.329,
+   "audio_start": 24.609,
+   "spoken_end": 37.003,
+   "seg_end": 37.653,
+   "audio_dur": 12.774,
+   "spoken_dur": 12.394,
+   "seg_dur": 13.324,
+   "timing": [
+    {
+     "text": "For those cities had grown very dark, and judgment was near.",
+     "start": 0.0,
+     "end": 3.599
+    },
+    {
+     "text": "Two of the travelers went on ahead.",
+     "start": 3.599,
+     "end": 5.944
+    },
+    {
+     "text": "But Abraham stayed behind, standing before the warm presence of the Lord \u2014 and he began to plead.",
+     "start": 5.944,
+     "end": 12.725
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-looking-toward-the-plain.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Not for himself. For strangers \u2014 for the good people who might still be down in that doomed city.",
+   "seg_start": 37.653,
+   "audio_start": 37.933,
+   "spoken_end": 44.665,
+   "seg_end": 45.315,
+   "audio_dur": 7.105,
+   "spoken_dur": 6.732,
+   "seg_dur": 7.662,
+   "timing": [
+    {
+     "text": "Not for himself.",
+     "start": 0.0,
+     "end": 1.265
+    },
+    {
+     "text": "For strangers \u2014 for the good people who might still be down in that doomed city.",
+     "start": 1.265,
+     "end": 7.059
+    }
+   ]
+  },
+  {
+   "seg": "s23",
+   "v1_still": "s4-looking-toward-the-plain.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Wilt thou also destroy the righteous with the wicked? Shall not the Judge of all the earth do right?",
+   "seg_start": 45.315,
+   "audio_start": 45.595,
+   "spoken_end": 50.627,
+   "seg_end": 52.227,
+   "audio_dur": 5.433,
+   "spoken_dur": 5.033,
+   "seg_dur": 6.913,
+   "timing": [
+    {
+     "text": "Wilt thou also destroy the righteous with the wicked?",
+     "start": 0.0,
+     "end": 2.624
+    },
+    {
+     "text": "Shall not the Judge of all the earth do right?",
+     "start": 2.624,
+     "end": 5.387
+    }
+   ]
+  },
+  {
+   "seg": "jv26",
+   "v1_still": "s5-abraham-stands-before-the-presence.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "If I find in Sodom fifty righteous within the city, then I will spare all the place for their sakes.",
+   "seg_start": 52.227,
+   "audio_start": 52.507,
+   "spoken_end": 59.56,
+   "seg_end": 61.16,
+   "audio_dur": 7.419,
+   "spoken_dur": 7.053,
+   "seg_dur": 8.933,
+   "timing": [
+    {
+     "text": "If I find in Sodom fifty righteous within the city, then I will spare all the place for their sakes.",
+     "start": 0.0,
+     "end": 7.384
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s6-the-bold-question.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Yes, God said. And you can almost feel Abraham's courage grow. What about forty-five? What about forty? Thirty? Each time, gently, the answer came back \u2014 yes. Yes. I will spare it.",
+   "seg_start": 61.16,
+   "audio_start": 61.44,
+   "spoken_end": 76.066,
+   "seg_end": 76.716,
+   "audio_dur": 15.073,
+   "spoken_dur": 14.626,
+   "seg_dur": 15.556,
+   "timing": [
+    {
+     "text": "Yes, God said.",
+     "start": 0.0,
+     "end": 1.207
+    },
+    {
+     "text": "And you can almost feel Abraham's courage grow.",
+     "start": 1.207,
+     "end": 4.435
+    },
+    {
+     "text": "What about forty-five?",
+     "start": 4.435,
+     "end": 6.2
+    },
+    {
+     "text": "What about forty?",
+     "start": 6.2,
+     "end": 7.686
+    },
+    {
+     "text": "Thirty?",
+     "start": 7.686,
+     "end": 8.766
+    },
+    {
+     "text": "Each time, gently, the answer came back \u2014 yes.",
+     "start": 8.766,
+     "end": 13.235
+    },
+    {
+     "text": "Yes.",
+     "start": 13.235,
+     "end": 13.886
+    },
+    {
+     "text": "I will spare it.",
+     "start": 13.886,
+     "end": 15.047
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s7-the-bargaining.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He is not wearing God down. He is discovering how merciful God already is \u2014 how much God would rather spare than destroy. So Abraham dares one last step.",
+   "seg_start": 76.716,
+   "audio_start": 76.996,
+   "spoken_end": 87.973,
+   "seg_end": 88.623,
+   "audio_dur": 11.468,
+   "spoken_dur": 10.977,
+   "seg_dur": 11.907,
+   "timing": [
+    {
+     "text": "He is not wearing God down.",
+     "start": 0.0,
+     "end": 1.649
+    },
+    {
+     "text": "He is discovering how merciful God already is \u2014 how much God would rather spare than destroy.",
+     "start": 1.649,
+     "end": 8.115
+    },
+    {
+     "text": "So Abraham dares one last step.",
+     "start": 8.115,
+     "end": 11.424
+    }
+   ]
+  },
+  {
+   "seg": "s32",
+   "v1_still": "s7-the-bargaining.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Oh let not the Lord be angry, and I will speak yet but this once: Peradventure ten shall be found there.",
+   "seg_start": 88.623,
+   "audio_start": 88.903,
+   "spoken_end": 94.979,
+   "seg_end": 96.579,
+   "audio_dur": 6.452,
+   "spoken_dur": 6.075,
+   "seg_dur": 7.955,
+   "timing": [
+    {
+     "text": "Oh let not the Lord be angry, and I will speak yet but this once: Peradventure ten shall be found there.",
+     "start": 0.0,
+     "end": 6.409
+    }
+   ]
+  },
+  {
+   "seg": "jv32",
+   "v1_still": "s8-for-ten-i-will-spare.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "I will not destroy it for ten's sake.",
+   "seg_start": 96.579,
+   "audio_start": 96.859,
+   "spoken_end": 98.745,
+   "seg_end": 100.345,
+   "audio_dur": 2.403,
+   "spoken_dur": 1.886,
+   "seg_dur": 3.766,
+   "timing": [
+    {
+     "text": "I will not destroy it for ten's sake.",
+     "start": 0.0,
+     "end": 2.368
+    }
+   ]
+  },
+  {
+   "seg": "n6b",
+   "v1_still": "s8-for-ten-i-will-spare.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Let me speak just once more, Abraham said. What if there are only ten?",
+   "seg_start": 100.345,
+   "audio_start": 100.625,
+   "spoken_end": 104.49,
+   "seg_end": 105.14,
+   "audio_dur": 4.258,
+   "spoken_dur": 3.865,
+   "seg_dur": 4.795,
+   "timing": [
+    {
+     "text": "Let me speak just once more, Abraham said.",
+     "start": 0.0,
+     "end": 2.241
+    },
+    {
+     "text": "What if there are only ten?",
+     "start": 2.241,
+     "end": 4.226
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s9-abraham-goes-home.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "For the sake of ten good people, the whole place would be spared. That is the God Abraham found at the top of that hill. Not one straining to condemn \u2014 one who could be talked, again and again, toward mercy.",
+   "seg_start": 105.14,
+   "audio_start": 105.42,
+   "spoken_end": 117.741,
+   "seg_end": 118.391,
+   "audio_dur": 12.669,
+   "spoken_dur": 12.321,
+   "seg_dur": 13.251,
+   "timing": [
+    {
+     "text": "For the sake of ten good people, the whole place would be spared.",
+     "start": 0.0,
+     "end": 3.634
+    },
+    {
+     "text": "That is the God Abraham found at the top of that hill.",
+     "start": 3.634,
+     "end": 6.815
+    },
+    {
+     "text": "Not one straining to condemn \u2014 one who could be talked, again and again, toward mercy.",
+     "start": 6.815,
+     "end": 12.632
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s10-the-God-who-listens.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Abraham went home in the dusk, amazed. He had dared to plead for strangers, and found God kinder than he had hoped. God let a man argue with him \u2014 and kept saying yes.",
+   "seg_start": 118.391,
+   "audio_start": 118.671,
+   "spoken_end": 129.096,
+   "seg_end": 129.746,
+   "audio_dur": 10.815,
+   "spoken_dur": 10.426,
+   "seg_dur": 11.356,
+   "timing": [
+    {
+     "text": "Abraham went home in the dusk, amazed.",
+     "start": 0.0,
+     "end": 2.426
+    },
+    {
+     "text": "He had dared to plead for strangers, and found God kinder than he had hoped.",
+     "start": 2.426,
+     "end": 6.943
+    },
+    {
+     "text": "God let a man argue with him \u2014 and kept saying yes.",
+     "start": 6.943,
+     "end": 10.774
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "God let one old man plead for strangers, and answered mercy every time. He is not looking for reasons to condemn \u2014 he welcomes the bold and the interceding. What would you dare ask him for?",
+  "seg_start": 129.746,
+  "audio_start": 130.026,
+  "seg_dur": 15.181
+ },
+ "total": 144.927
+}

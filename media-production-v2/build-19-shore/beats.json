@@ -1,0 +1,574 @@
+{
+ "row": 19,
+ "slug": "build-19-shore",
+ "v1_dir": "media-production/build-19-shore",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.15,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-denial.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Peter had sworn he would die before he would ever deny Jesus.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 3.606,
+   "seg_end": 4.326,
+   "audio_dur": 3.709,
+   "spoken_dur": 3.326,
+   "seg_dur": 4.326,
+   "timing": [
+    {
+     "text": "Peter had sworn he would die before he would ever deny Jesus.",
+     "start": 0.0,
+     "end": 3.669
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s1-denial.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Then, in one terrible night, he denied him three times. The rooster crowed, Jesus turned and looked at him, and Peter went out and wept bitterly.",
+   "seg_start": 4.326,
+   "audio_start": 4.606,
+   "spoken_end": 13.048,
+   "seg_end": 13.768,
+   "audio_dur": 8.856,
+   "spoken_dur": 8.442,
+   "seg_dur": 9.442,
+   "timing": [
+    {
+     "text": "Then, in one terrible night, he denied him three times.",
+     "start": 0.0,
+     "end": 2.786
+    },
+    {
+     "text": "The rooster crowed, Jesus turned and looked at him, and Peter went out and wept bitterly.",
+     "start": 2.786,
+     "end": 8.824
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s2-empty-net.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "After the resurrection, Peter went back to fishing. Back to the old life.",
+   "seg_start": 13.768,
+   "audio_start": 14.048,
+   "spoken_end": 17.845,
+   "seg_end": 18.565,
+   "audio_dur": 4.31,
+   "spoken_dur": 3.797,
+   "seg_dur": 4.797,
+   "timing": [
+    {
+     "text": "After the resurrection, Peter went back to fishing.",
+     "start": 0.0,
+     "end": 2.357
+    },
+    {
+     "text": "Back to the old life.",
+     "start": 2.357,
+     "end": 4.272
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s2-empty-net.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "It is what people do with a failure they cannot carry. They go back to what they knew before it happened. And that night they caught nothing.",
+   "seg_start": 18.565,
+   "audio_start": 18.845,
+   "spoken_end": 26.168,
+   "seg_end": 26.888,
+   "audio_dur": 7.784,
+   "spoken_dur": 7.323,
+   "seg_dur": 8.323,
+   "timing": [
+    {
+     "text": "It is what people do with a failure they cannot carry.",
+     "start": 0.0,
+     "end": 2.786
+    },
+    {
+     "text": "They go back to what they knew before it happened.",
+     "start": 2.786,
+     "end": 5.538
+    },
+    {
+     "text": "And that night they caught nothing.",
+     "start": 5.538,
+     "end": 7.755
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s3-figure-shore.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "At dawn, a figure on the shore called out across the water to the boat.",
+   "seg_start": 26.888,
+   "audio_start": 27.168,
+   "spoken_end": 30.872,
+   "seg_end": 31.592,
+   "audio_dur": 4.18,
+   "spoken_dur": 3.704,
+   "seg_dur": 4.704,
+   "timing": [
+    {
+     "text": "At dawn, a figure on the shore called out across the water to the boat.",
+     "start": 0.0,
+     "end": 4.133
+    }
+   ]
+  },
+  {
+   "seg": "j0a",
+   "v1_still": "s8-call-shore.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Children, have ye any meat?",
+   "seg_start": 31.592,
+   "audio_start": 31.872,
+   "spoken_end": 33.245,
+   "seg_end": 34.395,
+   "audio_dur": 1.75,
+   "spoken_dur": 1.374,
+   "seg_dur": 2.804,
+   "timing": [
+    {
+     "text": "Children, have ye any meat?",
+     "start": 0.0,
+     "end": 1.718
+    }
+   ]
+  },
+  {
+   "seg": "n5b",
+   "v1_still": "s9-answer-nothing.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Their answer was only one word: no. All night, nothing.",
+   "seg_start": 34.395,
+   "audio_start": 34.675,
+   "spoken_end": 38.074,
+   "seg_end": 38.794,
+   "audio_dur": 3.84,
+   "spoken_dur": 3.399,
+   "seg_dur": 4.399,
+   "timing": [
+    {
+     "text": "Their answer was only one word: no.",
+     "start": 0.0,
+     "end": 2.194
+    },
+    {
+     "text": "All night, nothing.",
+     "start": 2.194,
+     "end": 3.808
+    }
+   ]
+  },
+  {
+   "seg": "j0b",
+   "v1_still": "s9-answer-nothing.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Cast the net on the right side of the ship, and ye shall find.",
+   "seg_start": 38.794,
+   "audio_start": 39.074,
+   "spoken_end": 41.999,
+   "seg_end": 43.149,
+   "audio_dur": 3.344,
+   "spoken_dur": 2.925,
+   "seg_dur": 4.355,
+   "timing": [
+    {
+     "text": "Cast the net on the right side of the ship, and ye shall find.",
+     "start": 0.0,
+     "end": 3.297
+    }
+   ]
+  },
+  {
+   "seg": "n5c",
+   "v1_still": [
+    [
+     "s10-cast-right.jpeg",
+     null
+    ],
+    [
+     "s11-net-full.jpeg",
+     "and it came up so full"
+    ]
+   ],
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "They did \u2014 and it came up so full they could not haul it in.",
+   "seg_start": 43.149,
+   "audio_start": 43.429,
+   "spoken_end": 47.051,
+   "seg_end": 47.771,
+   "audio_dur": 4.023,
+   "spoken_dur": 3.621,
+   "seg_dur": 4.621,
+   "timing": [
+    {
+     "text": "They did \u2014 and it came up so full they could not haul it in.",
+     "start": 0.0,
+     "end": 3.994
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": [
+    [
+     "s12-realization.jpeg",
+     null
+    ],
+    [
+     "s13-peter-leap.jpeg",
+     "And Peter did not wait"
+    ],
+    [
+     "s14-swim.jpeg",
+     "and swam for shore"
+    ]
+   ],
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Then one of them went very still and said, it is the Lord. And Peter did not wait for the boat. He threw himself into the sea and swam for shore, leaving everything behind.",
+   "seg_start": 47.771,
+   "audio_start": 48.051,
+   "spoken_end": 58.902,
+   "seg_end": 59.622,
+   "audio_dur": 11.285,
+   "spoken_dur": 10.851,
+   "seg_dur": 11.851,
+   "timing": [
+    {
+     "text": "Then one of them went very still and said, it is the Lord.",
+     "start": 0.0,
+     "end": 3.587
+    },
+    {
+     "text": "And Peter did not wait for the boat.",
+     "start": 3.587,
+     "end": 5.828
+    },
+    {
+     "text": "He threw himself into the sea and swam for shore, leaving everything behind.",
+     "start": 5.828,
+     "end": 11.238
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s4-charcoal-fire.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "When he waded out of the water, he stopped cold. On the sand was a charcoal fire, with fish already laid over it, and bread.",
+   "seg_start": 59.622,
+   "audio_start": 59.902,
+   "spoken_end": 67.346,
+   "seg_end": 68.066,
+   "audio_dur": 7.889,
+   "spoken_dur": 7.445,
+   "seg_dur": 8.445,
+   "timing": [
+    {
+     "text": "When he waded out of the water, he stopped cold.",
+     "start": 0.0,
+     "end": 2.136
+    },
+    {
+     "text": "On the sand was a charcoal fire, with fish already laid over it, and bread.",
+     "start": 2.136,
+     "end": 7.848
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s15-fire-close.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "A charcoal fire. The same kind of fire Peter had stood beside in the courtyard the night he denied him. The smell alone would have brought the whole night back.",
+   "seg_start": 68.066,
+   "audio_start": 68.346,
+   "spoken_end": 76.413,
+   "seg_end": 77.133,
+   "audio_dur": 8.542,
+   "spoken_dur": 8.066,
+   "seg_dur": 9.066,
+   "timing": [
+    {
+     "text": "A charcoal fire.",
+     "start": 0.0,
+     "end": 1.115
+    },
+    {
+     "text": "The same kind of fire Peter had stood beside in the courtyard the night he denied him.",
+     "start": 1.115,
+     "end": 5.329
+    },
+    {
+     "text": "The smell alone would have brought the whole night back.",
+     "start": 5.329,
+     "end": 8.498
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s16-breakfast.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus did not bring up the denial. He simply had breakfast waiting, and they ate together on the shore in the first gold light.",
+   "seg_start": 77.133,
+   "audio_start": 77.413,
+   "spoken_end": 84.106,
+   "seg_end": 84.826,
+   "audio_dur": 7.131,
+   "spoken_dur": 6.693,
+   "seg_dur": 7.693,
+   "timing": [
+    {
+     "text": "Jesus did not bring up the denial.",
+     "start": 0.0,
+     "end": 2.032
+    },
+    {
+     "text": "He simply had breakfast waiting, and they ate together on the shore in the first gold light.",
+     "start": 2.032,
+     "end": 7.105
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s5-do-you-love-me.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "When breakfast was over, Jesus turned to Peter. Three times, once it seems for each denial, he asked him the same question, using Peter's old name, the name he had before any of it:",
+   "seg_start": 84.826,
+   "audio_start": 85.106,
+   "spoken_end": 96.083,
+   "seg_end": 96.803,
+   "audio_dur": 11.468,
+   "spoken_dur": 10.977,
+   "seg_dur": 11.977,
+   "timing": [
+    {
+     "text": "When breakfast was over, Jesus turned to Peter.",
+     "start": 0.0,
+     "end": 2.543
+    },
+    {
+     "text": "Three times, once it seems for each denial, he asked him the same question, using Peter's old name, the name he had before any of it:",
+     "start": 3.019,
+     "end": 11.424
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s5-do-you-love-me.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Simon, son of Jonas, lovest thou me?",
+   "seg_start": 96.803,
+   "audio_start": 97.083,
+   "spoken_end": 99.305,
+   "seg_end": 100.455,
+   "audio_dur": 2.586,
+   "spoken_dur": 2.222,
+   "seg_dur": 3.652,
+   "timing": [
+    {
+     "text": "Simon, son of Jonas, lovest thou me?",
+     "start": 0.0,
+     "end": 2.554
+    }
+   ]
+  },
+  {
+   "seg": "n11",
+   "v1_still": "s5-do-you-love-me.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Not, how could you. Not, prove it. Not one word thrown back at him about the denial.",
+   "seg_start": 100.455,
+   "audio_start": 100.735,
+   "spoken_end": 106.092,
+   "seg_end": 106.812,
+   "audio_dur": 5.799,
+   "spoken_dur": 5.357,
+   "seg_dur": 6.357,
+   "timing": [
+    {
+     "text": "Not, how could you.",
+     "start": 0.0,
+     "end": 1.265
+    },
+    {
+     "text": "Not, prove it.",
+     "start": 1.265,
+     "end": 2.438
+    },
+    {
+     "text": "Not one word thrown back at him about the denial.",
+     "start": 2.438,
+     "end": 5.759
+    }
+   ]
+  },
+  {
+   "seg": "s16",
+   "v1_still": "s6-feed-my-sheep.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Yea, Lord; thou knowest that I love thee.",
+   "seg_start": 106.812,
+   "audio_start": 107.092,
+   "spoken_end": 109.142,
+   "seg_end": 110.292,
+   "audio_dur": 2.456,
+   "spoken_dur": 2.05,
+   "seg_dur": 3.48,
+   "timing": [
+    {
+     "text": "Yea, Lord; thou knowest that I love thee.",
+     "start": 0.0,
+     "end": 2.415
+    }
+   ]
+  },
+  {
+   "seg": "n12",
+   "v1_still": "s6-feed-my-sheep.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Peter answered each time. Every answer cost him more, and every answer carried more of the truth.",
+   "seg_start": 110.292,
+   "audio_start": 110.572,
+   "spoken_end": 116.448,
+   "seg_end": 117.168,
+   "audio_dur": 6.269,
+   "spoken_dur": 5.876,
+   "seg_dur": 6.876,
+   "timing": [
+    {
+     "text": "Peter answered each time.",
+     "start": 0.0,
+     "end": 1.44
+    },
+    {
+     "text": "Every answer cost him more, and every answer carried more of the truth.",
+     "start": 1.44,
+     "end": 6.223
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s6-feed-my-sheep.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Feed my sheep.",
+   "seg_start": 117.168,
+   "audio_start": 117.448,
+   "spoken_end": 118.269,
+   "seg_end": 119.419,
+   "audio_dur": 1.254,
+   "spoken_dur": 0.821,
+   "seg_dur": 2.251,
+   "timing": [
+    {
+     "text": "Feed my sheep.",
+     "start": 0.0,
+     "end": 1.207
+    }
+   ]
+  },
+  {
+   "seg": "n13",
+   "v1_still": "s6-feed-my-sheep.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "To the man who had failed him worst, Jesus handed the biggest job of all. He did not only forgive Peter. He trusted him again.",
+   "seg_start": 119.419,
+   "audio_start": 119.699,
+   "spoken_end": 126.522,
+   "seg_end": 127.242,
+   "audio_dur": 7.236,
+   "spoken_dur": 6.823,
+   "seg_dur": 7.823,
+   "timing": [
+    {
+     "text": "To the man who had failed him worst, Jesus handed the biggest job of all.",
+     "start": 0.0,
+     "end": 3.553
+    },
+    {
+     "text": "He did not only forgive Peter.",
+     "start": 3.553,
+     "end": 5.619
+    },
+    {
+     "text": "He trusted him again.",
+     "start": 5.619,
+     "end": 7.198
+    }
+   ]
+  },
+  {
+   "seg": "n14",
+   "v1_still": "s7-breaks-bread.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That is how good he is. He takes your worst night and hands you back your life, with a purpose bigger than the one you thought you had thrown away.",
+   "seg_start": 127.242,
+   "audio_start": 127.522,
+   "spoken_end": 135.391,
+   "seg_end": 136.111,
+   "audio_dur": 8.307,
+   "spoken_dur": 7.869,
+   "seg_dur": 8.869,
+   "timing": [
+    {
+     "text": "That is how good he is.",
+     "start": 0.0,
+     "end": 1.37
+    },
+    {
+     "text": "He takes your worst night and hands you back your life, with a purpose bigger than the one you thought you had thrown away.",
+     "start": 1.37,
+     "end": 8.266
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "Peter went back to fishing because he thought his failure was final. Is there a failure you have quietly decided is final?",
+  "seg_start": 136.111,
+  "audio_start": 136.391,
+  "seg_dur": 8.65
+ },
+ "total": 144.761
+}

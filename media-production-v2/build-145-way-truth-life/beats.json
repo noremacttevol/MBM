@@ -1,0 +1,199 @@
+{
+ "row": 145,
+ "slug": "build-145-way-truth-life",
+ "v1_dir": "media-production/build-145-way-truth-life",
+ "constants": {
+  "LEAD": 0.4,
+  "GAP": 1.45,
+  "KJV_GAP": 1.9,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-the-upper-room.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 0.0,
+   "audio_start": 0.4,
+   "spoken_end": 6.897,
+   "seg_end": 8.347,
+   "audio_dur": 6.87,
+   "spoken_dur": 6.497,
+   "seg_dur": 8.347,
+   "timing": [
+    {
+     "text": "In the upper room, the night before the cross, Jesus told His disciples He was going to prepare a place for them.",
+     "start": 0.0,
+     "end": 6.827
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-thomas-asks.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 8.347,
+   "audio_start": 8.747,
+   "spoken_end": 13.071,
+   "seg_end": 14.521,
+   "audio_dur": 4.728,
+   "spoken_dur": 4.324,
+   "seg_dur": 6.174,
+   "timing": [
+    {
+     "text": "Thomas spoke up \u2014 Lord, we don't know where You're going, so how can we know the way?",
+     "start": 0.0,
+     "end": 4.69
+    }
+   ]
+  },
+  {
+   "seg": "j1a",
+   "v1_still": "s3-i-am-the-way.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "-22%",
+   "seg_start": 14.521,
+   "audio_start": 14.921,
+   "spoken_end": 17.331,
+   "seg_end": 19.231,
+   "audio_dur": 2.743,
+   "spoken_dur": 2.41,
+   "seg_dur": 4.71,
+   "timing": [
+    {
+     "text": "I am the way, the truth, and the life:",
+     "start": 0.0,
+     "end": 2.694
+    }
+   ]
+  },
+  {
+   "seg": "j1b",
+   "v1_still": "s6-but-by-me.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "-22%",
+   "seg_start": 19.231,
+   "audio_start": 19.631,
+   "spoken_end": 21.961,
+   "seg_end": 23.861,
+   "audio_dur": 2.743,
+   "spoken_dur": 2.33,
+   "seg_dur": 4.63,
+   "timing": [
+    {
+     "text": "no man cometh unto the Father, but by me.",
+     "start": 0.0,
+     "end": 2.694
+    }
+   ]
+  },
+  {
+   "seg": "n2a",
+   "v1_still": "s4-question-met-with-promise.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 23.861,
+   "audio_start": 24.261,
+   "spoken_end": 25.758,
+   "seg_end": 27.208,
+   "audio_dur": 1.907,
+   "spoken_dur": 1.497,
+   "seg_dur": 3.347,
+   "timing": [
+    {
+     "text": "Not one way among many.",
+     "start": 0.0,
+     "end": 1.858
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s7-the-room-at-peace.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 27.208,
+   "audio_start": 27.608,
+   "spoken_end": 34.331,
+   "seg_end": 35.781,
+   "audio_dur": 7.105,
+   "spoken_dur": 6.723,
+   "seg_dur": 8.573,
+   "timing": [
+    {
+     "text": "The way itself.",
+     "start": 0.0,
+     "end": 1.138
+    },
+    {
+     "text": "The truth itself.",
+     "start": 1.138,
+     "end": 2.74
+    },
+    {
+     "text": "The life itself \u2014 standing right there in the room with them.",
+     "start": 2.74,
+     "end": 7.059
+    }
+   ]
+  },
+  {
+   "seg": "n3a",
+   "v1_still": "s5-the-way-made-personal.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 35.781,
+   "audio_start": 36.181,
+   "spoken_end": 38.176,
+   "seg_end": 39.626,
+   "audio_dur": 2.403,
+   "spoken_dur": 1.995,
+   "seg_dur": 3.845,
+   "timing": [
+    {
+     "text": "The door to the Father isn't a map to find.",
+     "start": 0.0,
+     "end": 2.368
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s8-standing-in-the-doorway.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 39.626,
+   "audio_start": 40.026,
+   "spoken_end": 41.134,
+   "seg_end": 42.584,
+   "audio_dur": 1.515,
+   "spoken_dur": 1.108,
+   "seg_dur": 2.958,
+   "timing": [
+    {
+     "text": "It's a person to follow.",
+     "start": 0.0,
+     "end": 1.486
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "-22%",
+  "seg_start": 42.584,
+  "audio_start": 42.984,
+  "seg_dur": 4.486
+ },
+ "total": 47.07
+}

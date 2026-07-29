@@ -1,0 +1,447 @@
+{
+ "row": 59,
+ "slug": "build-59-feeding-4000",
+ "v1_dir": "media-production/build-59-feeding-4000",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-three-days-with-him.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Another huge crowd had come to Jesus, this time in a remote and rugged place far from any town. They had been with him three whole days, listening and being healed, and now their food was completely gone, and they were a long way from home. And Jesus called his disciples over and said:",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 18.594,
+   "seg_end": 19.244,
+   "audio_dur": 18.651,
+   "spoken_dur": 18.314,
+   "seg_dur": 19.244,
+   "timing": [
+    {
+     "text": "Another huge crowd had come to Jesus, this time in a remote and rugged place far from any town.",
+     "start": 0.0,
+     "end": 6.2
+    },
+    {
+     "text": "They had been with him three whole days, listening and being healed, and now their food was completely gone, and they were a long way from home.",
+     "start": 6.2,
+     "end": 15.337
+    },
+    {
+     "text": "And Jesus called his disciples over and said:",
+     "start": 15.755,
+     "end": 18.622
+    }
+   ]
+  },
+  {
+   "seg": "jv2",
+   "v1_still": "s2-i-have-compassion.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "I have compassion on the multitude, because they have now been with me three days, and have nothing to eat.",
+   "seg_start": 19.244,
+   "audio_start": 19.524,
+   "spoken_end": 26.036,
+   "seg_end": 27.636,
+   "audio_dur": 6.922,
+   "spoken_dur": 6.512,
+   "seg_dur": 8.392,
+   "timing": [
+    {
+     "text": "I have compassion on the multitude, because they have now been with me three days, and have nothing to eat.",
+     "start": 0.0,
+     "end": 6.873
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": "s2-i-have-compassion.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "And if I send them away fasting to their own houses, they will faint by the way: for divers of them came from far.",
+   "seg_start": 27.636,
+   "audio_start": 27.916,
+   "spoken_end": 35.569,
+   "seg_end": 37.169,
+   "audio_dur": 8.02,
+   "spoken_dur": 7.653,
+   "seg_dur": 9.533,
+   "timing": [
+    {
+     "text": "And if I send them away fasting to their own houses, they will faint by the way: for divers of them came from far.",
+     "start": 0.0,
+     "end": 7.988
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s2-i-have-compassion.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "I feel for these people, he said. They have been with me three days and they have nothing left to eat. And if I send them home hungry they will collapse on the way \u2014 some of them have come a very long distance. Nobody had raised it with him. He was the one who noticed.",
+   "seg_start": 37.169,
+   "audio_start": 37.449,
+   "spoken_end": 53.156,
+   "seg_end": 53.806,
+   "audio_dur": 16.144,
+   "spoken_dur": 15.707,
+   "seg_dur": 16.637,
+   "timing": [
+    {
+     "text": "I feel for these people, he said.",
+     "start": 0.0,
+     "end": 1.73
+    },
+    {
+     "text": "They have been with me three days and they have nothing left to eat.",
+     "start": 1.73,
+     "end": 5.7
+    },
+    {
+     "text": "And if I send them home hungry they will collapse on the way \u2014 some of them have come a very long distance.",
+     "start": 5.7,
+     "end": 12.144
+    },
+    {
+     "text": "Nobody had raised it with him.",
+     "start": 12.144,
+     "end": 14.338
+    },
+    {
+     "text": "He was the one who noticed.",
+     "start": 14.338,
+     "end": 16.115
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s3-in-the-wilderness.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He would not just send them off. So he turned to his disciples; but they were baffled.",
+   "seg_start": 53.806,
+   "audio_start": 54.086,
+   "spoken_end": 58.305,
+   "seg_end": 58.955,
+   "audio_dur": 4.676,
+   "spoken_dur": 4.219,
+   "seg_dur": 5.149,
+   "timing": [
+    {
+     "text": "He would not just send them off.",
+     "start": 0.0,
+     "end": 1.533
+    },
+    {
+     "text": "So he turned to his disciples; but they were baffled.",
+     "start": 1.533,
+     "end": 4.644
+    }
+   ]
+  },
+  {
+   "seg": "s4",
+   "v1_still": "s3-in-the-wilderness.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "From whence can a man satisfy these men with bread here in the wilderness?",
+   "seg_start": 58.955,
+   "audio_start": 59.235,
+   "spoken_end": 63.141,
+   "seg_end": 64.741,
+   "audio_dur": 4.31,
+   "spoken_dur": 3.906,
+   "seg_dur": 5.786,
+   "timing": [
+    {
+     "text": "From whence can a man satisfy these men with bread here in the wilderness?",
+     "start": 0.0,
+     "end": 4.272
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s3-in-the-wilderness.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Where out here, they said, could anybody get enough bread to fill a crowd this size? They were standing in a wilderness doing the arithmetic, with the man who had already fed five thousand standing right in front of them.",
+   "seg_start": 64.741,
+   "audio_start": 65.021,
+   "spoken_end": 77.727,
+   "seg_end": 78.377,
+   "audio_dur": 13.087,
+   "spoken_dur": 12.706,
+   "seg_dur": 13.636,
+   "timing": [
+    {
+     "text": "Where out here, they said, could anybody get enough bread to fill a crowd this size?",
+     "start": 0.0,
+     "end": 4.957
+    },
+    {
+     "text": "They were standing in a wilderness doing the arithmetic, with the man who had already fed five thousand standing right in front of them.",
+     "start": 4.957,
+     "end": 13.05
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s4-seven-loaves.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus did not scold them for it. He just asked them what they already had.",
+   "seg_start": 78.377,
+   "audio_start": 78.657,
+   "spoken_end": 82.714,
+   "seg_end": 83.364,
+   "audio_dur": 4.493,
+   "spoken_dur": 4.057,
+   "seg_dur": 4.987,
+   "timing": [
+    {
+     "text": "Jesus did not scold them for it.",
+     "start": 0.0,
+     "end": 2.009
+    },
+    {
+     "text": "He just asked them what they already had.",
+     "start": 2.009,
+     "end": 4.458
+    }
+   ]
+  },
+  {
+   "seg": "j5",
+   "v1_still": "s4-seven-loaves.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "How many loaves have ye?",
+   "seg_start": 83.364,
+   "audio_start": 83.644,
+   "spoken_end": 84.867,
+   "seg_end": 86.467,
+   "audio_dur": 1.62,
+   "spoken_dur": 1.222,
+   "seg_dur": 3.102,
+   "timing": [
+    {
+     "text": "How many loaves have ye?",
+     "start": 0.0,
+     "end": 1.579
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "v1_still": "s4-seven-loaves.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Seven.",
+   "seg_start": 86.467,
+   "audio_start": 86.747,
+   "spoken_end": 87.244,
+   "seg_end": 88.844,
+   "audio_dur": 0.862,
+   "spoken_dur": 0.498,
+   "seg_dur": 2.378,
+   "timing": [
+    {
+     "text": "Seven.",
+     "start": 0.0,
+     "end": 0.836
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s4-seven-loaves.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "How many loaves do you have, he asked. Seven, they said \u2014 and a few small fish. It was almost nothing against so great a need. But he took it gladly; in his hands, it was more than enough.",
+   "seg_start": 88.844,
+   "audio_start": 89.124,
+   "spoken_end": 101.165,
+   "seg_end": 101.815,
+   "audio_dur": 12.434,
+   "spoken_dur": 12.041,
+   "seg_dur": 12.971,
+   "timing": [
+    {
+     "text": "How many loaves do you have, he asked.",
+     "start": 0.0,
+     "end": 1.939
+    },
+    {
+     "text": "Seven, they said \u2014 and a few small fish.",
+     "start": 1.939,
+     "end": 5.364
+    },
+    {
+     "text": "It was almost nothing against so great a need.",
+     "start": 5.364,
+     "end": 8.568
+    },
+    {
+     "text": "But he took it gladly; in his hands, it was more than enough.",
+     "start": 8.568,
+     "end": 12.399
+    }
+   ]
+  },
+  {
+   "seg": "nbless",
+   "v1_still": "s5-he-gave-thanks.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He had the people sit down on the ground. Then he took the seven loaves, and gave thanks, and broke them, and gave them to his disciples to set before the crowd.",
+   "seg_start": 101.815,
+   "audio_start": 102.095,
+   "spoken_end": 110.619,
+   "seg_end": 111.269,
+   "audio_dur": 8.908,
+   "spoken_dur": 8.523,
+   "seg_dur": 9.453,
+   "timing": [
+    {
+     "text": "He had the people sit down on the ground.",
+     "start": 0.0,
+     "end": 1.927
+    },
+    {
+     "text": "Then he took the seven loaves, and gave thanks, and broke them, and gave them to his disciples to set before the crowd.",
+     "start": 1.927,
+     "end": 8.87
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s6-all-were-filled.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And once again the food did not run out. The disciples carried bread and fish through the whole multitude, and everyone ate until they were completely satisfied, thousands of people, fed from almost nothing.",
+   "seg_start": 111.269,
+   "audio_start": 111.549,
+   "spoken_end": 124.128,
+   "seg_end": 124.778,
+   "audio_dur": 12.983,
+   "spoken_dur": 12.58,
+   "seg_dur": 13.51,
+   "timing": [
+    {
+     "text": "And once again the food did not run out.",
+     "start": 0.0,
+     "end": 2.078
+    },
+    {
+     "text": "The disciples carried bread and fish through the whole multitude, and everyone ate until they were completely satisfied, thousands of people, fed from almost nothing.",
+     "start": 2.078,
+     "end": 12.957
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s7-seven-baskets.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "When they gathered up what was left over, they filled seven large baskets with the broken pieces. There was far more at the end than there had been at the start.",
+   "seg_start": 124.778,
+   "audio_start": 125.058,
+   "spoken_end": 133.39,
+   "seg_end": 134.04,
+   "audio_dur": 8.803,
+   "spoken_dur": 8.331,
+   "seg_dur": 9.261,
+   "timing": [
+    {
+     "text": "When they gathered up what was left over, they filled seven large baskets with the broken pieces.",
+     "start": 0.0,
+     "end": 5.074
+    },
+    {
+     "text": "There was far more at the end than there had been at the start.",
+     "start": 5.074,
+     "end": 8.777
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s8-four-thousand.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "About four thousand people were there that day, and every single one of them went home full. Then he sent them away, cared for, in body and in soul.",
+   "seg_start": 134.04,
+   "audio_start": 134.32,
+   "spoken_end": 143.229,
+   "seg_end": 143.879,
+   "audio_dur": 9.326,
+   "spoken_dur": 8.909,
+   "seg_dur": 9.839,
+   "timing": [
+    {
+     "text": "About four thousand people were there that day, and every single one of them went home full.",
+     "start": 0.0,
+     "end": 4.934
+    },
+    {
+     "text": "Then he sent them away, cared for, in body and in soul.",
+     "start": 4.934,
+     "end": 9.288
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s9-who-he-is.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He did not owe them a meal. But he saw tired, hungry people a long way from home, and he could not bear to send them away empty. That is simply who he is.",
+   "seg_start": 143.879,
+   "audio_start": 144.159,
+   "spoken_end": 153.871,
+   "seg_end": 154.521,
+   "audio_dur": 10.109,
+   "spoken_dur": 9.712,
+   "seg_dur": 10.642,
+   "timing": [
+    {
+     "text": "He did not owe them a meal.",
+     "start": 0.0,
+     "end": 1.405
+    },
+    {
+     "text": "But he saw tired, hungry people a long way from home, and he could not bear to send them away empty.",
+     "start": 1.405,
+     "end": 7.755
+    },
+    {
+     "text": "That is simply who he is.",
+     "start": 7.755,
+     "end": 10.077
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He notices what everyone else overlooks, that you are tired, that you are running on empty, that you have come a long way. He cares about your soul, and he also cares that you would faint on the road. What ordinary need are you afraid is too small to bring to him?",
+  "seg_start": 154.521,
+  "audio_start": 154.801,
+  "seg_dur": 18.446
+ },
+ "total": 172.967
+}

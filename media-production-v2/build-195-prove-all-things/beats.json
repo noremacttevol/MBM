@@ -1,0 +1,204 @@
+{
+ "row": 195,
+ "slug": "build-195-prove-all-things",
+ "v1_dir": "media-production/build-195-prove-all-things",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.9,
+  "KJV_GAP": 1.8,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-weighing-the-scrolls.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Paul gave the early church a short, sharp command about what to believe and what to keep.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 4.768,
+   "seg_end": 5.668,
+   "audio_dur": 4.963,
+   "spoken_dur": 4.488,
+   "seg_dur": 5.668,
+   "timing": [
+    {
+     "text": "Paul gave the early church a short, sharp command about what to believe and what to keep.",
+     "start": 0.0,
+     "end": 4.923
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "v1_still": "s2-held-to-the-light.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Prove all things; hold fast that which is good.",
+   "seg_start": 5.668,
+   "audio_start": 5.948,
+   "spoken_end": 8.49,
+   "seg_end": 10.29,
+   "audio_dur": 2.926,
+   "spoken_dur": 2.542,
+   "seg_dur": 4.622,
+   "timing": [
+    {
+     "text": "Prove all things; hold fast that which is good.",
+     "start": 0.0,
+     "end": 2.879
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s6-carried-like-a-lantern.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Test everything, he said. Don't swallow every voice \u2014 weigh it, hold it up to the light.",
+   "seg_start": 10.29,
+   "audio_start": 10.57,
+   "spoken_end": 15.319,
+   "seg_end": 16.219,
+   "audio_dur": 5.146,
+   "spoken_dur": 4.749,
+   "seg_dur": 5.929,
+   "timing": [
+    {
+     "text": "Test everything, he said.",
+     "start": 0.0,
+     "end": 1.289
+    },
+    {
+     "text": "Don't swallow every voice \u2014 weigh it, hold it up to the light.",
+     "start": 1.289,
+     "end": 5.108
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s6-carried-like-a-lantern.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "And notice what he had just said one breath earlier: despise not prophesyings. The testing was never for shutting God's voice out \u2014 it is how you recognize it.",
+   "seg_start": 16.219,
+   "audio_start": 16.499,
+   "spoken_end": 26.434,
+   "seg_end": 27.334,
+   "audio_dur": 10.397,
+   "spoken_dur": 9.935,
+   "seg_dur": 11.115,
+   "timing": [
+    {
+     "text": "And notice what he had just said one breath earlier: despise not prophesyings.",
+     "start": 0.0,
+     "end": 5.085
+    },
+    {
+     "text": "The testing was never for shutting God's voice out \u2014 it is how you recognize it.",
+     "start": 5.085,
+     "end": 10.356
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s3-holding-fast-the-good.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And when you find what is genuinely good, cling to it. Don't let it slip.",
+   "seg_start": 27.334,
+   "audio_start": 27.614,
+   "spoken_end": 31.927,
+   "seg_end": 32.827,
+   "audio_dur": 4.78,
+   "spoken_dur": 4.313,
+   "seg_dur": 5.493,
+   "timing": [
+    {
+     "text": "And when you find what is genuinely good, cling to it.",
+     "start": 0.0,
+     "end": 3.019
+    },
+    {
+     "text": "Don't let it slip.",
+     "start": 3.019,
+     "end": 4.737
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s5-conviction-not-anxiety.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He paired it with a warning \u2014 and it's the shortest fence he ever built:",
+   "seg_start": 32.827,
+   "audio_start": 33.107,
+   "spoken_end": 36.826,
+   "seg_end": 37.726,
+   "audio_dur": 4.18,
+   "spoken_dur": 3.719,
+   "seg_dur": 4.899,
+   "timing": [
+    {
+     "text": "He paired it with a warning \u2014 and it's the shortest fence he ever built:",
+     "start": 0.0,
+     "end": 4.133
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "v1_still": "s4-the-closed-door.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Abstain from all appearance of evil.",
+   "seg_start": 37.726,
+   "audio_start": 38.006,
+   "spoken_end": 39.952,
+   "seg_end": 41.752,
+   "audio_dur": 2.325,
+   "spoken_dur": 1.946,
+   "seg_dur": 4.026,
+   "timing": [
+    {
+     "text": "Abstain from all appearance of evil.",
+     "start": 0.0,
+     "end": 2.276
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s7-worth-keeping.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The same word fits now: a faith that checks, then commits \u2014 that's steady, not gullible.",
+   "seg_start": 41.752,
+   "audio_start": 42.032,
+   "spoken_end": 47.032,
+   "seg_end": 47.932,
+   "audio_dur": 5.329,
+   "spoken_dur": 5.0,
+   "seg_dur": 6.18,
+   "timing": [
+    {
+     "text": "The same word fits now: a faith that checks, then commits \u2014 that's steady, not gullible.",
+     "start": 0.0,
+     "end": 5.294
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "Weigh it, then hold it. The good He shows you is worth keeping \u2014 reach for it.",
+  "seg_start": 47.932,
+  "audio_start": 48.212,
+  "seg_dur": 6.613
+ },
+ "total": 54.545
+}

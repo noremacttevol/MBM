@@ -1,0 +1,509 @@
+{
+ "row": 9,
+ "slug": "build-09-rich-ruler",
+ "v1_dir": "media-production/build-09-rich-ruler",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-the-run.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus was setting out on a journey when a young man came running down the road after him. Running. You need to understand what that looked like.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 7.561,
+   "seg_end": 8.211,
+   "audio_dur": 7.758,
+   "spoken_dur": 7.281,
+   "seg_dur": 8.211,
+   "timing": [
+    {
+     "text": "Jesus was setting out on a journey when a young man came running down the road after him.",
+     "start": 0.0,
+     "end": 4.098
+    },
+    {
+     "text": "Running.",
+     "start": 4.098,
+     "end": 5.224
+    },
+    {
+     "text": "You need to understand what that looked like.",
+     "start": 5.224,
+     "end": 7.709
+    }
+   ]
+  },
+  {
+   "seg": "n0b",
+   "v1_still": "s2-kneeling-earnest.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "This man was wealthy \u2014 fine robes, gold rings, a name people knew. Men like that did not run in public. It was beneath them. He ran anyway, in front of everyone, and dropped to his knees in the dust at Jesus's feet.",
+   "seg_start": 8.211,
+   "audio_start": 8.491,
+   "spoken_end": 22.022,
+   "seg_end": 22.672,
+   "audio_dur": 13.976,
+   "spoken_dur": 13.531,
+   "seg_dur": 14.461,
+   "timing": [
+    {
+     "text": "This man was wealthy \u2014 fine robes, gold rings, a name people knew.",
+     "start": 0.0,
+     "end": 5.05
+    },
+    {
+     "text": "Men like that did not run in public.",
+     "start": 5.05,
+     "end": 7.663
+    },
+    {
+     "text": "It was beneath them.",
+     "start": 7.663,
+     "end": 8.766
+    },
+    {
+     "text": "He ran anyway, in front of everyone, and dropped to his knees in the dust at Jesus's feet.",
+     "start": 8.766,
+     "end": 13.932
+    }
+   ]
+  },
+  {
+   "seg": "s17",
+   "v1_still": "s2-kneeling-earnest.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Good Master, what shall I do that I may inherit eternal life?",
+   "seg_start": 22.672,
+   "audio_start": 22.952,
+   "spoken_end": 25.843,
+   "seg_end": 27.443,
+   "audio_dur": 3.37,
+   "spoken_dur": 2.891,
+   "seg_dur": 4.771,
+   "timing": [
+    {
+     "text": "Good Master, what shall I do that I may inherit eternal life?",
+     "start": 0.0,
+     "end": 3.344
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-kneeling-earnest.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He asked the question he had been carrying, maybe his whole life. Good teacher \u2014 what do I have to do to live forever with God? Jesus pointed him to the commandments. Don't cheat anyone. Don't steal. Don't lie. Honor your father and your mother. And the young man answered: Teacher, I have kept every one of them since I was a boy. And here is the thing. He meant it. This was not a proud man showing off. This was a student who had done all the homework, kneeling in the dirt, asking if it was enough.",
+   "seg_start": 27.443,
+   "audio_start": 27.723,
+   "spoken_end": 59.351,
+   "seg_end": 60.001,
+   "audio_dur": 32.078,
+   "spoken_dur": 31.629,
+   "seg_dur": 32.559,
+   "timing": [
+    {
+     "text": "He asked the question he had been carrying, maybe his whole life.",
+     "start": 0.0,
+     "end": 3.065
+    },
+    {
+     "text": "Good teacher \u2014 what do I have to do to live forever with God?",
+     "start": 3.065,
+     "end": 7.338
+    },
+    {
+     "text": "Jesus pointed him to the commandments.",
+     "start": 7.338,
+     "end": 9.776
+    },
+    {
+     "text": "Don't cheat anyone.",
+     "start": 9.776,
+     "end": 11.331
+    },
+    {
+     "text": "Don't steal.",
+     "start": 11.331,
+     "end": 12.643
+    },
+    {
+     "text": "Don't lie.",
+     "start": 12.643,
+     "end": 13.746
+    },
+    {
+     "text": "Honor your father and your mother.",
+     "start": 13.746,
+     "end": 15.882
+    },
+    {
+     "text": "And the young man answered: Teacher, I have kept every one of them since I was a boy.",
+     "start": 15.882,
+     "end": 21.443
+    },
+    {
+     "text": "And here is the thing.",
+     "start": 21.443,
+     "end": 23.103
+    },
+    {
+     "text": "He meant it.",
+     "start": 23.103,
+     "end": 23.8
+    },
+    {
+     "text": "This was not a proud man showing off.",
+     "start": 23.8,
+     "end": 26.25
+    },
+    {
+     "text": "This was a student who had done all the homework, kneeling in the dirt, asking if it was enough.",
+     "start": 26.25,
+     "end": 32.043
+    }
+   ]
+  },
+  {
+   "seg": "s20",
+   "v1_still": "s2-kneeling-earnest.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Master, all these have I observed from my youth.",
+   "seg_start": 60.001,
+   "audio_start": 60.281,
+   "spoken_end": 62.733,
+   "seg_end": 64.333,
+   "audio_dur": 2.638,
+   "spoken_dur": 2.452,
+   "seg_dur": 4.332,
+   "timing": [
+    {
+     "text": "Master, all these have I observed from my youth.",
+     "start": 0.0,
+     "end": 2.601
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s3-the-look.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Mark writes what happened next in five words. Jesus, looking at him, loved him. Of all the people in Mark's story, this is the one he says it about, straight out. Jesus looked at this man \u2014 his sincerity, his gold rings, his hope \u2014 and loved him. And then, with love in his voice, he said the hardest sentence in the book.",
+   "seg_start": 64.333,
+   "audio_start": 64.613,
+   "spoken_end": 84.417,
+   "seg_end": 85.067,
+   "audio_dur": 20.297,
+   "spoken_dur": 19.803,
+   "seg_dur": 20.733,
+   "timing": [
+    {
+     "text": "Mark writes what happened next in five words.",
+     "start": 0.0,
+     "end": 2.322
+    },
+    {
+     "text": "Jesus, looking at him, loved him.",
+     "start": 2.322,
+     "end": 5.41
+    },
+    {
+     "text": "Of all the people in Mark's story, this is the one he says it about, straight out.",
+     "start": 5.41,
+     "end": 10.182
+    },
+    {
+     "text": "Jesus looked at this man \u2014 his sincerity, his gold rings, his hope \u2014 and loved him.",
+     "start": 10.182,
+     "end": 15.557
+    },
+    {
+     "text": "And then, with love in his voice, he said the hardest sentence in the book.",
+     "start": 15.557,
+     "end": 20.248
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s4-the-one-thing.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "One thing thou lackest: go thy way, sell whatsoever thou hast, and give to the poor, and thou shalt have treasure in heaven: and come, take up the cross, and follow me.",
+   "seg_start": 85.067,
+   "audio_start": 85.347,
+   "spoken_end": 94.688,
+   "seg_end": 96.288,
+   "audio_dur": 9.744,
+   "spoken_dur": 9.342,
+   "seg_dur": 11.222,
+   "timing": [
+    {
+     "text": "One thing thou lackest: go thy way, sell whatsoever thou hast, and give to the poor, and thou shalt have treasure in heaven: and come, take up the cross, and follow me.",
+     "start": 0.0,
+     "end": 9.706
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s4-the-one-thing.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "You're missing one thing. Not one more rule. One thing standing between you and God. Sell what you have. Give it to the people who have nothing. And then \u2014 come, follow me.",
+   "seg_start": 96.288,
+   "audio_start": 96.568,
+   "spoken_end": 108.313,
+   "seg_end": 108.963,
+   "audio_dur": 12.147,
+   "spoken_dur": 11.745,
+   "seg_dur": 12.675,
+   "timing": [
+    {
+     "text": "You're missing one thing.",
+     "start": 0.0,
+     "end": 1.335
+    },
+    {
+     "text": "Not one more rule.",
+     "start": 1.335,
+     "end": 3.007
+    },
+    {
+     "text": "One thing standing between you and God.",
+     "start": 3.007,
+     "end": 5.526
+    },
+    {
+     "text": "Sell what you have.",
+     "start": 5.526,
+     "end": 7.047
+    },
+    {
+     "text": "Give it to the people who have nothing.",
+     "start": 7.047,
+     "end": 9.091
+    },
+    {
+     "text": "And then \u2014 come, follow me.",
+     "start": 9.091,
+     "end": 12.121
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s3-the-look.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Hear that last part. It was an invitation. The same words Jesus used to call Peter, and Andrew, and James, and John. He was being invited into the inner circle. It just came wrapped in the one thing this man could not put down.",
+   "seg_start": 108.963,
+   "audio_start": 109.243,
+   "spoken_end": 122.576,
+   "seg_end": 123.226,
+   "audio_dur": 13.688,
+   "spoken_dur": 13.333,
+   "seg_dur": 14.263,
+   "timing": [
+    {
+     "text": "Hear that last part.",
+     "start": 0.0,
+     "end": 0.975
+    },
+    {
+     "text": "It was an invitation.",
+     "start": 0.975,
+     "end": 2.299
+    },
+    {
+     "text": "The same words Jesus used to call Peter, and Andrew, and James, and John.",
+     "start": 2.299,
+     "end": 7.14
+    },
+    {
+     "text": "He was being invited into the inner circle.",
+     "start": 7.14,
+     "end": 9.764
+    },
+    {
+     "text": "It just came wrapped in the one thing this man could not put down.",
+     "start": 9.764,
+     "end": 13.653
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s5-words-land.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "His face fell. And he walked away grieved \u2014 because he was very rich. Notice what the text does not say. It does not say he stopped believing. It does not say he argued.",
+   "seg_start": 123.226,
+   "audio_start": 123.506,
+   "spoken_end": 135.055,
+   "seg_end": 135.705,
+   "audio_dur": 11.938,
+   "spoken_dur": 11.549,
+   "seg_dur": 12.479,
+   "timing": [
+    {
+     "text": "His face fell.",
+     "start": 0.0,
+     "end": 1.103
+    },
+    {
+     "text": "And he walked away grieved \u2014 because he was very rich.",
+     "start": 1.103,
+     "end": 5.132
+    },
+    {
+     "text": "Notice what the text does not say.",
+     "start": 5.132,
+     "end": 7.535
+    },
+    {
+     "text": "It does not say he stopped believing.",
+     "start": 7.535,
+     "end": 9.764
+    },
+    {
+     "text": "It does not say he argued.",
+     "start": 9.764,
+     "end": 11.889
+    }
+   ]
+  },
+  {
+   "seg": "n4b",
+   "v1_still": "s6-walk-away.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He grieved \u2014 because he believed every word, and the price was the thing he loved most. He turned around, and he walked back down that road toward everything he owned.",
+   "seg_start": 135.705,
+   "audio_start": 135.985,
+   "spoken_end": 145.525,
+   "seg_end": 146.175,
+   "audio_dur": 9.874,
+   "spoken_dur": 9.539,
+   "seg_dur": 10.469,
+   "timing": [
+    {
+     "text": "He grieved \u2014 because he believed every word, and the price was the thing he loved most.",
+     "start": 0.0,
+     "end": 5.689
+    },
+    {
+     "text": "He turned around, and he walked back down that road toward everything he owned.",
+     "start": 5.689,
+     "end": 9.845
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s7-he-let-him-go.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And Jesus let him go. He did not lower the bar. He did not soften the terms. He did not chase him down the road. He stood there, and he watched him walk away \u2014 and he loved him the whole time.",
+   "seg_start": 146.175,
+   "audio_start": 146.455,
+   "spoken_end": 159.166,
+   "seg_end": 159.816,
+   "audio_dur": 13.087,
+   "spoken_dur": 12.711,
+   "seg_dur": 13.641,
+   "timing": [
+    {
+     "text": "And Jesus let him go.",
+     "start": 0.0,
+     "end": 1.335
+    },
+    {
+     "text": "He did not lower the bar.",
+     "start": 1.335,
+     "end": 3.274
+    },
+    {
+     "text": "He did not soften the terms.",
+     "start": 3.274,
+     "end": 5.433
+    },
+    {
+     "text": "He did not chase him down the road.",
+     "start": 5.433,
+     "end": 7.535
+    },
+    {
+     "text": "He stood there, and he watched him walk away \u2014 and he loved him the whole time.",
+     "start": 7.535,
+     "end": 13.05
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s8-empty-road.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "The road emptied. The sun went down. And the story just ends there \u2014 Mark leaves it exactly that sad, on purpose. Sit with it. A love that will not force you. Is that weakness \u2014 or is it the deepest respect you have ever been shown?",
+   "seg_start": 159.816,
+   "audio_start": 160.096,
+   "spoken_end": 176.737,
+   "seg_end": 177.387,
+   "audio_dur": 17.032,
+   "spoken_dur": 16.641,
+   "seg_dur": 17.571,
+   "timing": [
+    {
+     "text": "The road emptied.",
+     "start": 0.0,
+     "end": 0.906
+    },
+    {
+     "text": "The sun went down.",
+     "start": 0.906,
+     "end": 2.38
+    },
+    {
+     "text": "And the story just ends there \u2014 Mark leaves it exactly that sad, on purpose.",
+     "start": 2.38,
+     "end": 8.557
+    },
+    {
+     "text": "Sit with it.",
+     "start": 8.557,
+     "end": 9.752
+    },
+    {
+     "text": "A love that will not force you.",
+     "start": 9.752,
+     "end": 11.865
+    },
+    {
+     "text": "Is that weakness \u2014 or is it the deepest respect you have ever been shown?",
+     "start": 11.865,
+     "end": 16.997
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "n7",
+  "text": "Is there something you already know \u2014 quietly \u2014 that stands between you and fully following what you believe?",
+  "seg_start": 177.387,
+  "audio_start": 177.667,
+  "seg_dur": 8.911
+ },
+ "total": 186.298
+}

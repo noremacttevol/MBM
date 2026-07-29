@@ -1,0 +1,360 @@
+{
+ "row": 88,
+ "slug": "build-88-triumphal-entry",
+ "v1_dir": "media-production/build-88-triumphal-entry",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0a",
+   "v1_still": "s1-go-into-the-village.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "As Jesus came near Jerusalem, he sent two disciples ahead into the village with a strange errand.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 5.376,
+   "seg_end": 6.096,
+   "audio_dur": 5.512,
+   "spoken_dur": 5.096,
+   "seg_dur": 6.096,
+   "timing": [
+    {
+     "text": "As Jesus came near Jerusalem, he sent two disciples ahead into the village with a strange errand.",
+     "start": 0.0,
+     "end": 5.48
+    }
+   ]
+  },
+  {
+   "seg": "jv2",
+   "v1_still": "s1-go-into-the-village.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Go into the village over against you, and straightway ye shall find an ass tied, and a colt with her: loose them, and bring them unto me. And if any man say ought unto you, ye shall say, The Lord hath need of them; and straightway he will send them.",
+   "seg_start": 6.096,
+   "audio_start": 6.376,
+   "spoken_end": 25.037,
+   "seg_end": 26.637,
+   "audio_dur": 19.069,
+   "spoken_dur": 18.661,
+   "seg_dur": 20.541,
+   "timing": [
+    {
+     "text": "Go into the village over against you, and straightway ye shall find an ass tied, and a colt with her: loose them, and bring them unto me.",
+     "start": 0.0,
+     "end": 9.334
+    },
+    {
+     "text": "And if any man say ought unto you, ye shall say, The Lord hath need of them; and straightway he will send them.",
+     "start": 9.334,
+     "end": 19.04
+    }
+   ]
+  },
+  {
+   "seg": "n0a2",
+   "v1_still": "s1-go-into-the-village.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Go into the village, he told them. Untie them and bring them to me. And if anyone asks why, just say the Lord needs them \u2014 and he'll let them go.",
+   "seg_start": 26.637,
+   "audio_start": 26.917,
+   "spoken_end": 35.577,
+   "seg_end": 36.297,
+   "audio_dur": 9.038,
+   "spoken_dur": 8.659,
+   "seg_dur": 9.659,
+   "timing": [
+    {
+     "text": "Go into the village, he told them.",
+     "start": 0.0,
+     "end": 1.463
+    },
+    {
+     "text": "Untie them and bring them to me.",
+     "start": 1.463,
+     "end": 3.634
+    },
+    {
+     "text": "And if anyone asks why, just say the Lord needs them \u2014 and he'll let them go.",
+     "start": 3.634,
+     "end": 9.009
+    }
+   ]
+  },
+  {
+   "seg": "n0b",
+   "v1_still": "s2-they-brought-the-colt.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "They went, and it happened exactly as he said. And all of it was exactly as the old prophecy had said, too.",
+   "seg_start": 36.297,
+   "audio_start": 36.577,
+   "spoken_end": 42.539,
+   "seg_end": 43.259,
+   "audio_dur": 6.348,
+   "spoken_dur": 5.962,
+   "seg_dur": 6.962,
+   "timing": [
+    {
+     "text": "They went, and it happened exactly as he said.",
+     "start": 0.0,
+     "end": 2.566
+    },
+    {
+     "text": "And all of it was exactly as the old prophecy had said, too.",
+     "start": 2.566,
+     "end": 6.316
+    }
+   ]
+  },
+  {
+   "seg": "s5",
+   "v1_still": "s3-riding-toward-the-gate.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Tell ye the daughter of Sion, Behold, thy King cometh unto thee, meek, and sitting upon an ass, and a colt the foal of an ass.",
+   "seg_start": 43.259,
+   "audio_start": 43.539,
+   "spoken_end": 50.274,
+   "seg_end": 51.874,
+   "audio_dur": 7.131,
+   "spoken_dur": 6.735,
+   "seg_dur": 8.615,
+   "timing": [
+    {
+     "text": "Tell ye the daughter of Sion, Behold, thy King cometh unto thee, meek, and sitting upon an ass, and a colt the foal of an ass.",
+     "start": 0.0,
+     "end": 7.105
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s3-riding-toward-the-gate.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "The King was coming \u2014 but not the kind they expected.",
+   "seg_start": 51.874,
+   "audio_start": 52.154,
+   "spoken_end": 55.133,
+   "seg_end": 55.853,
+   "audio_dur": 3.37,
+   "spoken_dur": 2.979,
+   "seg_dur": 3.979,
+   "timing": [
+    {
+     "text": "The King was coming \u2014 but not the kind they expected.",
+     "start": 0.0,
+     "end": 3.344
+    }
+   ]
+  },
+  {
+   "seg": "n1a",
+   "v1_still": "s4-cloaks-and-branches.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The crowds spread their cloaks on the road, and cut branches from the trees, and lined his path.",
+   "seg_start": 55.853,
+   "audio_start": 56.133,
+   "spoken_end": 60.723,
+   "seg_end": 61.443,
+   "audio_dur": 5.094,
+   "spoken_dur": 4.59,
+   "seg_dur": 5.59,
+   "timing": [
+    {
+     "text": "The crowds spread their cloaks on the road, and cut branches from the trees, and lined his path.",
+     "start": 0.0,
+     "end": 5.062
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s5-the-kings-face.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And the people shouted as he rode in:",
+   "seg_start": 61.443,
+   "audio_start": 61.723,
+   "spoken_end": 63.51,
+   "seg_end": 64.23,
+   "audio_dur": 2.168,
+   "spoken_dur": 1.786,
+   "seg_dur": 2.786,
+   "timing": [
+    {
+     "text": "And the people shouted as he rode in:",
+     "start": 0.0,
+     "end": 2.136
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s6-hosanna.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Hosanna to the son of David: Blessed is he that cometh in the name of the Lord; Hosanna in the highest.",
+   "seg_start": 64.23,
+   "audio_start": 64.51,
+   "spoken_end": 70.805,
+   "seg_end": 72.405,
+   "audio_dur": 6.713,
+   "spoken_dur": 6.296,
+   "seg_dur": 8.176,
+   "timing": [
+    {
+     "text": "Hosanna to the son of David: Blessed is he that cometh in the name of the Lord; Hosanna in the highest.",
+     "start": 0.0,
+     "end": 6.687
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s6-hosanna.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Hosanna means save us now. They were calling him King out loud, in the street, where everyone could hear it.",
+   "seg_start": 72.405,
+   "audio_start": 72.685,
+   "spoken_end": 77.995,
+   "seg_end": 78.715,
+   "audio_dur": 5.747,
+   "spoken_dur": 5.309,
+   "seg_dur": 6.309,
+   "timing": [
+    {
+     "text": "Hosanna means save us now.",
+     "start": 0.0,
+     "end": 1.695
+    },
+    {
+     "text": "They were calling him King out loud, in the street, where everyone could hear it.",
+     "start": 1.695,
+     "end": 5.712
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s7-entering-jerusalem.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The whole city was stirred. When they asked who this was, the crowd answered plainly.",
+   "seg_start": 78.715,
+   "audio_start": 78.995,
+   "spoken_end": 83.51,
+   "seg_end": 84.23,
+   "audio_dur": 4.911,
+   "spoken_dur": 4.516,
+   "seg_dur": 5.516,
+   "timing": [
+    {
+     "text": "The whole city was stirred.",
+     "start": 0.0,
+     "end": 1.3
+    },
+    {
+     "text": "When they asked who this was, the crowd answered plainly.",
+     "start": 1.3,
+     "end": 4.876
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s8-who-is-this.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And when he was come into Jerusalem, all the city was moved, saying, Who is this? And the multitude said, This is Jesus the prophet of Nazareth of Galilee.",
+   "seg_start": 84.23,
+   "audio_start": 84.51,
+   "spoken_end": 93.93,
+   "seg_end": 95.53,
+   "audio_dur": 9.796,
+   "spoken_dur": 9.419,
+   "seg_dur": 11.299,
+   "timing": [
+    {
+     "text": "And when he was come into Jerusalem, all the city was moved, saying, Who is this?",
+     "start": 0.0,
+     "end": 4.841
+    },
+    {
+     "text": "And the multitude said, This is Jesus the prophet of Nazareth of Galilee.",
+     "start": 4.841,
+     "end": 9.752
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s8-who-is-this.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Who is this? the city asked. And the answer came back from the road \u2014 this is Jesus, the prophet, out of Nazareth in Galilee.",
+   "seg_start": 95.53,
+   "audio_start": 95.81,
+   "spoken_end": 103.52,
+   "seg_end": 104.24,
+   "audio_dur": 8.176,
+   "spoken_dur": 7.71,
+   "seg_dur": 8.71,
+   "timing": [
+    {
+     "text": "Who is this?",
+     "start": 0.0,
+     "end": 0.859
+    },
+    {
+     "text": "the city asked.",
+     "start": 0.859,
+     "end": 1.707
+    },
+    {
+     "text": "And the answer came back from the road \u2014 this is Jesus, the prophet, out of Nazareth in Galilee.",
+     "start": 1.707,
+     "end": 8.127
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s9-the-humble-king.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He came not with swords but with peace \u2014 riding on a donkey, the humble King the scriptures had promised.",
+   "seg_start": 104.24,
+   "audio_start": 104.52,
+   "spoken_end": 110.918,
+   "seg_end": 111.638,
+   "audio_dur": 6.87,
+   "spoken_dur": 6.399,
+   "seg_dur": 7.399,
+   "timing": [
+    {
+     "text": "He came not with swords but with peace \u2014 riding on a donkey, the humble King the scriptures had promised.",
+     "start": 0.0,
+     "end": 6.827
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "The King rode in on a donkey, not a warhorse. His kingdom is peace. You're welcome in it.",
+  "seg_start": 111.638,
+  "audio_start": 111.918,
+  "seg_dur": 6.926
+ },
+ "total": 118.564
+}

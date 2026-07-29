@@ -1,0 +1,406 @@
+{
+ "row": 56,
+ "slug": "build-56-widow-of-nain",
+ "v1_dir": "media-production/build-56-widow-of-nain",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-nearing-nain.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "As Jesus came near the town of Nain, a great crowd walked along with him. It was an ordinary day on an ordinary road, until they reached the town gate and met something coming the other way.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 11.278,
+   "seg_end": 11.928,
+   "audio_dur": 11.416,
+   "spoken_dur": 10.998,
+   "seg_dur": 11.928,
+   "timing": [
+    {
+     "text": "As Jesus came near the town of Nain, a great crowd walked along with him.",
+     "start": 0.0,
+     "end": 4.11
+    },
+    {
+     "text": "It was an ordinary day on an ordinary road, until they reached the town gate and met something coming the other way.",
+     "start": 4.11,
+     "end": 11.378
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-the-funeral.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Out of the gate came a funeral. A young man had died, carried out on an open bier, and behind him walked his mother, a widow, grieving. He was her only son, and now she had no one. A large crowd from the town walked with her in her sorrow.",
+   "seg_start": 11.928,
+   "audio_start": 12.208,
+   "spoken_end": 28.798,
+   "seg_end": 29.448,
+   "audio_dur": 17.032,
+   "spoken_dur": 16.59,
+   "seg_dur": 17.52,
+   "timing": [
+    {
+     "text": "Out of the gate came a funeral.",
+     "start": 0.0,
+     "end": 1.602
+    },
+    {
+     "text": "A young man had died, carried out on an open bier, and behind him walked his mother, a widow, grieving.",
+     "start": 1.602,
+     "end": 9.067
+    },
+    {
+     "text": "He was her only son, and now she had no one.",
+     "start": 9.067,
+     "end": 12.771
+    },
+    {
+     "text": "A large crowd from the town walked with her in her sorrow.",
+     "start": 12.771,
+     "end": 16.997
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-he-saw-her.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Here is what Luke does not record: a single word from her. She never asks him for anything. She does not know who he is. She is simply walking behind her son's body.",
+   "seg_start": 29.448,
+   "audio_start": 29.728,
+   "spoken_end": 40.091,
+   "seg_end": 40.741,
+   "audio_dur": 10.762,
+   "spoken_dur": 10.363,
+   "seg_dur": 11.293,
+   "timing": [
+    {
+     "text": "Here is what Luke does not record: a single word from her.",
+     "start": 0.0,
+     "end": 3.506
+    },
+    {
+     "text": "She never asks him for anything.",
+     "start": 3.506,
+     "end": 5.561
+    },
+    {
+     "text": "She does not know who he is.",
+     "start": 5.561,
+     "end": 7.686
+    },
+    {
+     "text": "She is simply walking behind her son's body.",
+     "start": 7.686,
+     "end": 10.728
+    }
+   ]
+  },
+  {
+   "seg": "s13a",
+   "v1_still": "s4-weep-not.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And when the Lord saw her, he had compassion on her, and said unto her,",
+   "seg_start": 40.741,
+   "audio_start": 41.021,
+   "spoken_end": 45.011,
+   "seg_end": 46.611,
+   "audio_dur": 4.362,
+   "spoken_dur": 3.99,
+   "seg_dur": 5.87,
+   "timing": [
+    {
+     "text": "And when the Lord saw her, he had compassion on her, and said unto her,",
+     "start": 0.0,
+     "end": 4.319
+    }
+   ]
+  },
+  {
+   "seg": "jv13",
+   "v1_still": "s4-weep-not.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Weep not.",
+   "seg_start": 46.611,
+   "audio_start": 46.891,
+   "spoken_end": 47.431,
+   "seg_end": 49.031,
+   "audio_dur": 1.019,
+   "spoken_dur": 0.541,
+   "seg_dur": 2.421,
+   "timing": [
+    {
+     "text": "Weep not.",
+     "start": 0.0,
+     "end": 0.975
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s4-weep-not.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Don't cry. Two words, to the one woman in that whole procession nobody could comfort. No one there had asked him to do a single thing. He simply could not walk past her sorrow.",
+   "seg_start": 49.031,
+   "audio_start": 49.311,
+   "spoken_end": 59.596,
+   "seg_end": 60.246,
+   "audio_dur": 10.71,
+   "spoken_dur": 10.285,
+   "seg_dur": 11.215,
+   "timing": [
+    {
+     "text": "Don't cry.",
+     "start": 0.0,
+     "end": 0.882
+    },
+    {
+     "text": "Two words, to the one woman in that whole procession nobody could comfort.",
+     "start": 0.882,
+     "end": 4.957
+    },
+    {
+     "text": "No one there had asked him to do a single thing.",
+     "start": 4.957,
+     "end": 7.906
+    },
+    {
+     "text": "He simply could not walk past her sorrow.",
+     "start": 7.906,
+     "end": 10.681
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s5-he-touched-the-bier.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then he did something no one does at a funeral.",
+   "seg_start": 60.246,
+   "audio_start": 60.526,
+   "spoken_end": 62.603,
+   "seg_end": 63.253,
+   "audio_dur": 2.508,
+   "spoken_dur": 2.077,
+   "seg_dur": 3.007,
+   "timing": [
+    {
+     "text": "Then he did something no one does at a funeral.",
+     "start": 0.0,
+     "end": 2.461
+    }
+   ]
+  },
+  {
+   "seg": "s14a",
+   "v1_still": "s6-young-man-arise.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And he came and touched the bier: and they that bare him stood still. And he said,",
+   "seg_start": 63.253,
+   "audio_start": 63.533,
+   "spoken_end": 68.401,
+   "seg_end": 70.001,
+   "audio_dur": 5.251,
+   "spoken_dur": 4.867,
+   "seg_dur": 6.747,
+   "timing": [
+    {
+     "text": "And he came and touched the bier: and they that bare him stood still.",
+     "start": 0.0,
+     "end": 4.017
+    },
+    {
+     "text": "And he said,",
+     "start": 4.214,
+     "end": 5.201
+    }
+   ]
+  },
+  {
+   "seg": "jv14",
+   "v1_still": "s6-young-man-arise.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Young man, I say unto thee, Arise.",
+   "seg_start": 70.001,
+   "audio_start": 70.281,
+   "spoken_end": 72.183,
+   "seg_end": 73.783,
+   "audio_dur": 2.325,
+   "spoken_dur": 1.903,
+   "seg_dur": 3.783,
+   "timing": [
+    {
+     "text": "Young man, I say unto thee, Arise.",
+     "start": 0.0,
+     "end": 2.276
+    }
+   ]
+  },
+  {
+   "seg": "n4b",
+   "v1_still": "s6-young-man-arise.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He said it the way you would wake a sleeping child.",
+   "seg_start": 73.783,
+   "audio_start": 74.063,
+   "spoken_end": 77.029,
+   "seg_end": 77.679,
+   "audio_dur": 3.37,
+   "spoken_dur": 2.966,
+   "seg_dur": 3.896,
+   "timing": [
+    {
+     "text": "He said it the way you would wake a sleeping child.",
+     "start": 0.0,
+     "end": 3.344
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s7-he-sat-up.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And the young man who had been dead sat up, and began to speak. Life poured back into him at the sound of that voice, as simply as morning comes. Death let go of him, because it had no choice.",
+   "seg_start": 77.679,
+   "audio_start": 77.959,
+   "spoken_end": 90.665,
+   "seg_end": 91.315,
+   "audio_dur": 13.14,
+   "spoken_dur": 12.706,
+   "seg_dur": 13.636,
+   "timing": [
+    {
+     "text": "And the young man who had been dead sat up, and began to speak.",
+     "start": 0.0,
+     "end": 3.646
+    },
+    {
+     "text": "Life poured back into him at the sound of that voice, as simply as morning comes.",
+     "start": 3.646,
+     "end": 9.16
+    },
+    {
+     "text": "Death let go of him, because it had no choice.",
+     "start": 9.16,
+     "end": 13.096
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s8-gave-him-to-his-mother.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And Jesus took him by the hand and gave him back to his mother. He did not keep him or make a spectacle of him; he simply returned a son to the arms of the woman who thought she had buried him.",
+   "seg_start": 91.315,
+   "audio_start": 91.595,
+   "spoken_end": 101.77,
+   "seg_end": 102.42,
+   "audio_dur": 10.58,
+   "spoken_dur": 10.175,
+   "seg_dur": 11.105,
+   "timing": [
+    {
+     "text": "And Jesus took him by the hand and gave him back to his mother.",
+     "start": 0.0,
+     "end": 2.786
+    },
+    {
+     "text": "He did not keep him or make a spectacle of him; he simply returned a son to the arms of the woman who thought she had buried him.",
+     "start": 2.786,
+     "end": 10.542
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s9-they-glorified-god.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "A holy fear fell on everyone there, and they praised God, saying:",
+   "seg_start": 102.42,
+   "audio_start": 102.7,
+   "spoken_end": 106.391,
+   "seg_end": 107.041,
+   "audio_dur": 4.075,
+   "spoken_dur": 3.691,
+   "seg_dur": 4.621,
+   "timing": [
+    {
+     "text": "A holy fear fell on everyone there, and they praised God, saying:",
+     "start": 0.0,
+     "end": 4.04
+    }
+   ]
+  },
+  {
+   "seg": "s16",
+   "v1_still": "s9-they-glorified-god.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "That a great prophet is risen up among us; and, That God hath visited his people.",
+   "seg_start": 107.041,
+   "audio_start": 107.321,
+   "spoken_end": 112.466,
+   "seg_end": 114.066,
+   "audio_dur": 5.564,
+   "spoken_dur": 5.145,
+   "seg_dur": 7.025,
+   "timing": [
+    {
+     "text": "That a great prophet is risen up among us; and, That God hath visited his people.",
+     "start": 0.0,
+     "end": 5.526
+    }
+   ]
+  },
+  {
+   "seg": "n7b",
+   "v1_still": "s9-they-glorified-god.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And the news of it went out through all the country round about.",
+   "seg_start": 114.066,
+   "audio_start": 114.346,
+   "spoken_end": 116.974,
+   "seg_end": 117.624,
+   "audio_dur": 3.109,
+   "spoken_dur": 2.628,
+   "seg_dur": 3.558,
+   "timing": [
+    {
+     "text": "And the news of it went out through all the country round about.",
+     "start": 0.0,
+     "end": 3.065
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He still meets us at the gate, on the worst day, in the middle of a grief no one can fix. He is not put off by death, or by sorrow, or by a thing everyone else has given up on. He sees you, his heart breaks, and he speaks life. What have you already buried that he is asking to raise?",
+  "seg_start": 117.624,
+  "audio_start": 117.904,
+  "seg_dur": 22.495
+ },
+ "total": 140.119
+}

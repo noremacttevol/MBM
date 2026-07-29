@@ -1,0 +1,167 @@
+{
+ "row": 143,
+ "slug": "build-143-i-am-the-door",
+ "v1_dir": "media-production/build-143-i-am-the-door",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.9,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-one-opening.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 10.862,
+   "seg_end": 11.582,
+   "audio_dur": 10.998,
+   "spoken_dur": 10.582,
+   "seg_dur": 11.582,
+   "timing": [
+    {
+     "text": "Jesus used a picture the crowd knew well \u2014 a sheepfold with one opening, and a shepherd who guards it through the night.",
+     "start": 0.0,
+     "end": 7.21
+    },
+    {
+     "text": "The opening is where danger is stopped and every sheep is known.",
+     "start": 7.21,
+     "end": 10.96
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s2-the-door-of-the-sheep.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "-20%",
+   "seg_start": 11.582,
+   "audio_start": 11.862,
+   "spoken_end": 15.336,
+   "seg_end": 17.236,
+   "audio_dur": 3.892,
+   "spoken_dur": 3.474,
+   "seg_dur": 5.654,
+   "timing": [
+    {
+     "text": "Verily, verily, I say unto you, I am the door of the sheep.",
+     "start": 0.0,
+     "end": 3.855
+    }
+   ]
+  },
+  {
+   "seg": "n1a",
+   "v1_still": "s3-the-wall-and-the-door.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 17.236,
+   "audio_start": 17.516,
+   "spoken_end": 23.25,
+   "seg_end": 23.97,
+   "audio_dur": 5.799,
+   "spoken_dur": 5.734,
+   "seg_dur": 6.734,
+   "timing": [
+    {
+     "text": "Someone who sneaks over the wall avoids the shepherd because he is there to take, not to care.",
+     "start": 0.0,
+     "end": 5.759
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s4-in-safe.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 23.97,
+   "audio_start": 24.25,
+   "spoken_end": 29.197,
+   "seg_end": 29.917,
+   "audio_dur": 5.433,
+   "spoken_dur": 4.947,
+   "seg_dur": 5.947,
+   "timing": [
+    {
+     "text": "But the door is not another trap or test.",
+     "start": 0.0,
+     "end": 2.252
+    },
+    {
+     "text": "It is the guarded way the flock comes in safe.",
+     "start": 2.252,
+     "end": 5.387
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s5-go-in-and-out-find-pasture.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "-22%",
+   "seg_start": 29.917,
+   "audio_start": 30.197,
+   "spoken_end": 37.588,
+   "seg_end": 39.488,
+   "audio_dur": 7.837,
+   "spoken_dur": 7.391,
+   "seg_dur": 9.571,
+   "timing": [
+    {
+     "text": "I am the door: by me if any man enter in, he shall be saved, and shall go in and out, and find pasture.",
+     "start": 0.0,
+     "end": 7.802
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s6-open-and-inviting.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 39.488,
+   "audio_start": 39.768,
+   "spoken_end": 54.222,
+   "seg_end": 54.942,
+   "audio_dur": 14.89,
+   "spoken_dur": 14.454,
+   "seg_dur": 15.454,
+   "timing": [
+    {
+     "text": "Through him you come in and you go out \u2014 free, fed, not trapped.",
+     "start": 0.0,
+     "end": 5.515
+    },
+    {
+     "text": "Notice that the door is a person, not a score you must earn.",
+     "start": 5.515,
+     "end": 9.752
+    },
+    {
+     "text": "Safety and pasture begin with trusting the shepherd who put himself in the opening.",
+     "start": 9.752,
+     "end": 14.861
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "-22%",
+  "seg_start": 54.942,
+  "audio_start": 55.222,
+  "seg_dur": 8.128
+ },
+ "total": 63.07
+}

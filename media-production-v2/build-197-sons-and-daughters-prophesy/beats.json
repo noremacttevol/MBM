@@ -1,0 +1,157 @@
+{
+ "row": 197,
+ "slug": "build-197-sons-and-daughters-prophesy",
+ "v1_dir": "media-production/build-197-sons-and-daughters-prophesy",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-joel-names-the-future.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The prophet Joel looked down the long corridor of time and described a day the LORD promised \u2014 not for a few insiders, but for all.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 8.245,
+   "seg_end": 8.895,
+   "audio_dur": 8.359,
+   "spoken_dur": 7.965,
+   "seg_dur": 8.895,
+   "timing": [
+    {
+     "text": "The prophet Joel looked down the long corridor of time and described a day the LORD promised \u2014 not for a few insiders, but for all.",
+     "start": 0.0,
+     "end": 8.313
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "v1_still": "s2-every-kind-of-person.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "And it shall come to pass afterward, that I will pour out my spirit upon all flesh; and your sons and your daughters shall prophesy, your old men shall dream dreams, your young men shall see visions:",
+   "seg_start": 8.895,
+   "audio_start": 9.175,
+   "spoken_end": 24.639,
+   "seg_end": 26.239,
+   "audio_dur": 15.83,
+   "spoken_dur": 15.463,
+   "seg_dur": 17.343,
+   "timing": [
+    {
+     "text": "And it shall come to pass afterward, that I will pour out my spirit upon all flesh; and your sons and your daughters shall prophesy, your old men shall dream dreams, your young men shall see visions:",
+     "start": 0.0,
+     "end": 15.79
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "v1_still": "s6-all-flesh.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "And also upon the servants and upon the handmaids in those days will I pour out my spirit.",
+   "seg_start": 26.239,
+   "audio_start": 26.519,
+   "spoken_end": 31.594,
+   "seg_end": 33.194,
+   "audio_dur": 5.564,
+   "spoken_dur": 5.075,
+   "seg_dur": 6.955,
+   "timing": [
+    {
+     "text": "And also upon the servants and upon the handmaids in those days will I pour out my spirit.",
+     "start": 0.0,
+     "end": 5.526
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s3-pentecost.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Not stopped by age or status \u2014 every kind of person, filled with the same Spirit.",
+   "seg_start": 33.194,
+   "audio_start": 33.474,
+   "spoken_end": 38.408,
+   "seg_end": 39.058,
+   "audio_dur": 5.329,
+   "spoken_dur": 4.934,
+   "seg_dur": 5.864,
+   "timing": [
+    {
+     "text": "Not stopped by age or status \u2014 every kind of person, filled with the same Spirit.",
+     "start": 0.0,
+     "end": 5.294
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-peter-stands.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Decades later, on the day of Pentecost, the apostle Peter stood and said this promise had arrived. The Spirit fell, and ordinary people told of the mighty works of God.",
+   "seg_start": 39.058,
+   "audio_start": 39.338,
+   "spoken_end": 48.7,
+   "seg_end": 49.35,
+   "audio_dur": 9.691,
+   "spoken_dur": 9.363,
+   "seg_dur": 10.293,
+   "timing": [
+    {
+     "text": "Decades later, on the day of Pentecost, the apostle Peter stood and said this promise had arrived.",
+     "start": 0.0,
+     "end": 5.642
+    },
+    {
+     "text": "The Spirit fell, and ordinary people told of the mighty works of God.",
+     "start": 5.642,
+     "end": 9.66
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s5-in-every-tongue.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The promise was never meant to be locked in one building or one office. It was poured out \u2014 freely, widely, for whoever calls on the name of the LORD.",
+   "seg_start": 49.35,
+   "audio_start": 49.63,
+   "spoken_end": 58.313,
+   "seg_end": 58.963,
+   "audio_dur": 9.091,
+   "spoken_dur": 8.683,
+   "seg_dur": 9.613,
+   "timing": [
+    {
+     "text": "The promise was never meant to be locked in one building or one office.",
+     "start": 0.0,
+     "end": 3.332
+    },
+    {
+     "text": "It was poured out \u2014 freely, widely, for whoever calls on the name of the LORD.",
+     "start": 3.332,
+     "end": 9.056
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "The promise was all flesh. That includes you. The Spirit is offered \u2014 receive Him.",
+  "seg_start": 58.963,
+  "audio_start": 59.243,
+  "seg_dur": 6.874
+ },
+ "total": 65.837
+}

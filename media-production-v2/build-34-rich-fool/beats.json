@@ -1,0 +1,418 @@
+{
+ "row": 34,
+ "slug": "build-34-rich-fool",
+ "v1_dir": "media-production/build-34-rich-fool",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus told a story about a rich man who had a very good year.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 3.275,
+   "seg_end": 3.925,
+   "audio_dur": 3.422,
+   "spoken_dur": 2.995,
+   "seg_dur": 3.925,
+   "timing": [
+    {
+     "text": "Jesus told a story about a rich man who had a very good year.",
+     "start": 0.0,
+     "end": 3.39
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s1.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "His fields produced an enormous harvest \u2014 more grain and fruit than he had ever gathered in his life.",
+   "seg_start": 3.925,
+   "audio_start": 4.205,
+   "spoken_end": 9.895,
+   "seg_end": 10.545,
+   "audio_dur": 6.165,
+   "spoken_dur": 5.69,
+   "seg_dur": 6.62,
+   "timing": [
+    {
+     "text": "His fields produced an enormous harvest \u2014 more grain and fruit than he had ever gathered in his life.",
+     "start": 0.0,
+     "end": 6.13
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "In fact, he had so much that he ran out of room to store it all.",
+   "seg_start": 10.545,
+   "audio_start": 10.825,
+   "spoken_end": 14.134,
+   "seg_end": 14.784,
+   "audio_dur": 3.709,
+   "spoken_dur": 3.309,
+   "seg_dur": 4.239,
+   "timing": [
+    {
+     "text": "In fact, he had so much that he ran out of room to store it all.",
+     "start": 0.0,
+     "end": 3.669
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": "s3.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "This will I do: I will pull down my barns, and build greater; and there will I bestow all my fruits and my goods.",
+   "seg_start": 14.784,
+   "audio_start": 15.064,
+   "spoken_end": 22.73,
+   "seg_end": 24.33,
+   "audio_dur": 8.072,
+   "spoken_dur": 7.666,
+   "seg_dur": 9.546,
+   "timing": [
+    {
+     "text": "This will I do: I will pull down my barns, and build greater; and there will I bestow all my fruits and my goods.",
+     "start": 0.0,
+     "end": 8.034
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "So he thought to himself: What should I do? I know \u2014 I will tear down my barns and build bigger ones.",
+   "seg_start": 24.33,
+   "audio_start": 24.61,
+   "spoken_end": 30.723,
+   "seg_end": 31.373,
+   "audio_dur": 6.504,
+   "spoken_dur": 6.114,
+   "seg_dur": 7.044,
+   "timing": [
+    {
+     "text": "So he thought to himself: What should I do?",
+     "start": 0.0,
+     "end": 2.31
+    },
+    {
+     "text": "I know \u2014 I will tear down my barns and build bigger ones.",
+     "start": 2.31,
+     "end": 6.455
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s3.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "There I will store up all my grain and all my goods.",
+   "seg_start": 31.373,
+   "audio_start": 31.653,
+   "spoken_end": 34.465,
+   "seg_end": 35.115,
+   "audio_dur": 3.239,
+   "spoken_dur": 2.812,
+   "seg_dur": 3.742,
+   "timing": [
+    {
+     "text": "There I will store up all my grain and all my goods.",
+     "start": 0.0,
+     "end": 3.204
+    }
+   ]
+  },
+  {
+   "seg": "j4",
+   "v1_still": "s4.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "And I will say to my soul, Soul, thou hast much goods laid up for many years; take thine ease, eat, drink, and be merry.",
+   "seg_start": 35.115,
+   "audio_start": 35.395,
+   "spoken_end": 43.726,
+   "seg_end": 45.326,
+   "audio_dur": 8.725,
+   "spoken_dur": 8.331,
+   "seg_dur": 10.211,
+   "timing": [
+    {
+     "text": "And I will say to my soul, Soul, thou hast much goods laid up for many years; take thine ease, eat, drink, and be merry.",
+     "start": 0.0,
+     "end": 8.684
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s4.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "And then I will say to myself: You have plenty saved up for years to come. Relax. Eat, drink, and enjoy your life.",
+   "seg_start": 45.326,
+   "audio_start": 45.606,
+   "spoken_end": 52.387,
+   "seg_end": 53.037,
+   "audio_dur": 7.184,
+   "spoken_dur": 6.781,
+   "seg_dur": 7.711,
+   "timing": [
+    {
+     "text": "And then I will say to myself: You have plenty saved up for years to come.",
+     "start": 0.0,
+     "end": 4.075
+    },
+    {
+     "text": "Relax.",
+     "start": 4.075,
+     "end": 5.132
+    },
+    {
+     "text": "Eat, drink, and enjoy your life.",
+     "start": 5.132,
+     "end": 7.152
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s4.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He had it all figured out. Every single plan was about himself \u2014 his barns, his goods, his own comfort.",
+   "seg_start": 53.037,
+   "audio_start": 53.317,
+   "spoken_end": 59.461,
+   "seg_end": 60.111,
+   "audio_dur": 6.583,
+   "spoken_dur": 6.144,
+   "seg_dur": 7.074,
+   "timing": [
+    {
+     "text": "He had it all figured out.",
+     "start": 0.0,
+     "end": 1.254
+    },
+    {
+     "text": "Every single plan was about himself \u2014 his barns, his goods, his own comfort.",
+     "start": 1.254,
+     "end": 6.548
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s5.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But there was one thing he had never planned for. And that very night, God spoke to him.",
+   "seg_start": 60.111,
+   "audio_start": 60.391,
+   "spoken_end": 64.813,
+   "seg_end": 65.463,
+   "audio_dur": 4.833,
+   "spoken_dur": 4.422,
+   "seg_dur": 5.352,
+   "timing": [
+    {
+     "text": "But there was one thing he had never planned for.",
+     "start": 0.0,
+     "end": 2.159
+    },
+    {
+     "text": "And that very night, God spoke to him.",
+     "start": 2.159,
+     "end": 4.783
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s5.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Thou fool, this night thy soul shall be required of thee: then whose shall those things be, which thou hast provided?",
+   "seg_start": 65.463,
+   "audio_start": 65.743,
+   "spoken_end": 72.989,
+   "seg_end": 74.589,
+   "audio_dur": 7.602,
+   "spoken_dur": 7.246,
+   "seg_dur": 9.126,
+   "timing": [
+    {
+     "text": "Thou fool, this night thy soul shall be required of thee: then whose shall those things be, which thou hast provided?",
+     "start": 0.0,
+     "end": 7.57
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s6.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That night, his life was over. And everything he had piled up \u2014 the barns, the grain, all of it \u2014 would simply pass to someone else.",
+   "seg_start": 74.589,
+   "audio_start": 74.869,
+   "spoken_end": 83.372,
+   "seg_end": 84.022,
+   "audio_dur": 8.908,
+   "spoken_dur": 8.503,
+   "seg_dur": 9.433,
+   "timing": [
+    {
+     "text": "That night, his life was over.",
+     "start": 0.0,
+     "end": 1.695
+    },
+    {
+     "text": "And everything he had piled up \u2014 the barns, the grain, all of it \u2014 would simply pass to someone else.",
+     "start": 1.695,
+     "end": 8.87
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s6.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He had planned for everything except the one thing that was certain: that one day he would stand before God.",
+   "seg_start": 84.022,
+   "audio_start": 84.302,
+   "spoken_end": 90.341,
+   "seg_end": 90.991,
+   "audio_dur": 6.452,
+   "spoken_dur": 6.039,
+   "seg_dur": 6.969,
+   "timing": [
+    {
+     "text": "He had planned for everything except the one thing that was certain: that one day he would stand before God.",
+     "start": 0.0,
+     "end": 6.409
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s6.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And Jesus ended the story with these words.",
+   "seg_start": 90.991,
+   "audio_start": 91.271,
+   "spoken_end": 93.435,
+   "seg_end": 94.085,
+   "audio_dur": 2.586,
+   "spoken_dur": 2.164,
+   "seg_dur": 3.094,
+   "timing": [
+    {
+     "text": "And Jesus ended the story with these words.",
+     "start": 0.0,
+     "end": 2.554
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s7.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "So is he that layeth up treasure for himself, and is not rich toward God.",
+   "seg_start": 94.085,
+   "audio_start": 94.365,
+   "spoken_end": 98.967,
+   "seg_end": 100.567,
+   "audio_dur": 5.016,
+   "spoken_dur": 4.603,
+   "seg_dur": 6.483,
+   "timing": [
+    {
+     "text": "So is he that layeth up treasure for himself, and is not rich toward God.",
+     "start": 0.0,
+     "end": 4.969
+    }
+   ]
+  },
+  {
+   "seg": "n11",
+   "v1_still": "s6.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "His barns were full, but his soul was empty. He was rich in things \u2014 and poor in the only wealth that lasts.",
+   "seg_start": 100.567,
+   "audio_start": 100.847,
+   "spoken_end": 107.212,
+   "seg_end": 107.862,
+   "audio_dur": 6.766,
+   "spoken_dur": 6.365,
+   "seg_dur": 7.295,
+   "timing": [
+    {
+     "text": "His barns were full, but his soul was empty.",
+     "start": 0.0,
+     "end": 2.566
+    },
+    {
+     "text": "He was rich in things \u2014 and poor in the only wealth that lasts.",
+     "start": 2.566,
+     "end": 6.734
+    }
+   ]
+  },
+  {
+   "seg": "n12",
+   "v1_still": "s7.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "There is nothing wrong with a good harvest. The real question is quieter than that: are you only storing up for yourself \u2014 or are you storing up a life that is rich with God?",
+   "seg_start": 107.862,
+   "audio_start": 108.142,
+   "spoken_end": 118.683,
+   "seg_end": 119.333,
+   "audio_dur": 10.893,
+   "spoken_dur": 10.541,
+   "seg_dur": 11.471,
+   "timing": [
+    {
+     "text": "There is nothing wrong with a good harvest.",
+     "start": 0.0,
+     "end": 2.032
+    },
+    {
+     "text": "The real question is quieter than that: are you only storing up for yourself \u2014 or are you storing up a life that is rich with God?",
+     "start": 2.032,
+     "end": 10.867
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "His barns were full. His soul was empty. What are you storing up for yourself \u2014 and what are you storing up with God?",
+  "seg_start": 119.333,
+  "audio_start": 119.613,
+  "seg_dur": 9.303
+ },
+ "total": 128.636
+}

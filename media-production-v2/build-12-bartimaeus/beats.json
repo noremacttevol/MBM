@@ -1,0 +1,588 @@
+{
+ "row": 12,
+ "slug": "build-12-bartimaeus",
+ "v1_dir": "media-production/build-12-bartimaeus",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The road out of Jericho, on a loud and dusty day. Jericho was the last stop before the climb up to Jerusalem, and with the Passover feast coming, that road carried half the country. For a beggar, crowds meant coins. And so a blind man named Bartimaeus sat where he always sat \u2014 at the edge of the highway, his ragged cloak spread across his lap to catch whatever fell, listening to a thousand feet walk past him. Listening was his whole life. He knew the road by its sounds.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 29.231,
+   "seg_end": 29.881,
+   "audio_dur": 29.336,
+   "spoken_dur": 28.951,
+   "seg_dur": 29.881,
+   "timing": [
+    {
+     "text": "The road out of Jericho, on a loud and dusty day.",
+     "start": 0.0,
+     "end": 2.833
+    },
+    {
+     "text": "Jericho was the last stop before the climb up to Jerusalem, and with the Passover feast coming, that road carried half the country.",
+     "start": 2.833,
+     "end": 10.553
+    },
+    {
+     "text": "For a beggar, crowds meant coins.",
+     "start": 10.553,
+     "end": 13.201
+    },
+    {
+     "text": "And so a blind man named Bartimaeus sat where he always sat \u2014 at the edge of the highway, his ragged cloak spread across his lap to catch whatever fell, listening to a thousand feet walk past him.",
+     "start": 13.201,
+     "end": 25.007
+    },
+    {
+     "text": "Listening was his whole life.",
+     "start": 25.007,
+     "end": 27.26
+    },
+    {
+     "text": "He knew the road by its sounds.",
+     "start": 27.26,
+     "end": 29.303
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But this day the sound was different. A procession was coming out of the city \u2014 a moving wall of voices \u2014 and inside the noise he caught a name. Jesus of Nazareth was passing by. He had heard the stories everyone had heard: a teacher who opened deaf ears, who made lepers clean. Passing by, and never again. A blind man cannot chase a crowd. All he had was his voice.",
+   "seg_start": 29.881,
+   "audio_start": 30.161,
+   "spoken_end": 55.281,
+   "seg_end": 55.931,
+   "audio_dur": 25.443,
+   "spoken_dur": 25.12,
+   "seg_dur": 26.05,
+   "timing": [
+    {
+     "text": "But this day the sound was different.",
+     "start": 0.0,
+     "end": 1.602
+    },
+    {
+     "text": "A procession was coming out of the city \u2014 a moving wall of voices \u2014 and inside the noise he caught a name.",
+     "start": 1.602,
+     "end": 8.591
+    },
+    {
+     "text": "Jesus of Nazareth was passing by.",
+     "start": 8.591,
+     "end": 11.552
+    },
+    {
+     "text": "He had heard the stories everyone had heard: a teacher who opened deaf ears, who made lepers clean.",
+     "start": 11.552,
+     "end": 18.1
+    },
+    {
+     "text": "Passing by, and never again.",
+     "start": 18.1,
+     "end": 20.677
+    },
+    {
+     "text": "A blind man cannot chase a crowd.",
+     "start": 20.677,
+     "end": 23.104
+    },
+    {
+     "text": "All he had was his voice.",
+     "start": 23.104,
+     "end": 25.403
+    }
+   ]
+  },
+  {
+   "seg": "s47",
+   "v1_still": "s3.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Jesus, thou Son of David, have mercy on me.",
+   "seg_start": 55.931,
+   "audio_start": 56.211,
+   "spoken_end": 58.545,
+   "seg_end": 60.145,
+   "audio_dur": 2.691,
+   "spoken_dur": 2.334,
+   "seg_dur": 4.214,
+   "timing": [
+    {
+     "text": "Jesus, thou Son of David, have mercy on me.",
+     "start": 0.0,
+     "end": 2.647
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s3.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "So he used it. He pulled in all the air his body would hold and shouted: Catch that title. The crowd called him Jesus of Nazareth \u2014 the man from up north. Son of David was something else entirely: it was the name reserved for the promised King, the Messiah. Everyone with working eyes saw a traveling teacher. The blind man was the one who saw who was actually walking past.",
+   "seg_start": 60.145,
+   "audio_start": 60.425,
+   "spoken_end": 82.642,
+   "seg_end": 83.292,
+   "audio_dur": 22.648,
+   "spoken_dur": 22.217,
+   "seg_dur": 23.147,
+   "timing": [
+    {
+     "text": "So he used it.",
+     "start": 0.0,
+     "end": 0.998
+    },
+    {
+     "text": "He pulled in all the air his body would hold and shouted: Catch that title.",
+     "start": 0.998,
+     "end": 5.19
+    },
+    {
+     "text": "The crowd called him Jesus of Nazareth \u2014 the man from up north.",
+     "start": 5.19,
+     "end": 9.207
+    },
+    {
+     "text": "Son of David was something else entirely: it was the name reserved for the promised King, the Messiah.",
+     "start": 9.207,
+     "end": 15.569
+    },
+    {
+     "text": "Everyone with working eyes saw a traveling teacher.",
+     "start": 15.569,
+     "end": 18.738
+    },
+    {
+     "text": "The blind man was the one who saw who was actually walking past.",
+     "start": 18.738,
+     "end": 22.616
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s4.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And the crowd turned on him. Many voices \u2014 Mark says many \u2014 told one desperate man to be quiet. Understand why: to them, a beggar screaming at a famous rabbi was an embarrassment, noise that needed hushing. Respectable people, telling a man in the dust that his need was bad manners.",
+   "seg_start": 83.292,
+   "audio_start": 83.572,
+   "spoken_end": 104.283,
+   "seg_end": 104.933,
+   "audio_dur": 21.133,
+   "spoken_dur": 20.711,
+   "seg_dur": 21.641,
+   "timing": [
+    {
+     "text": "And the crowd turned on him.",
+     "start": 0.0,
+     "end": 1.66
+    },
+    {
+     "text": "Many voices \u2014 Mark says many \u2014 told one desperate man to be quiet.",
+     "start": 1.66,
+     "end": 7.779
+    },
+    {
+     "text": "Understand why: to them, a beggar screaming at a famous rabbi was an embarrassment, noise that needed hushing.",
+     "start": 7.779,
+     "end": 15.755
+    },
+    {
+     "text": "Respectable people, telling a man in the dust that his need was bad manners.",
+     "start": 15.755,
+     "end": 21.084
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s5.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He shouted louder.",
+   "seg_start": 104.933,
+   "audio_start": 105.213,
+   "spoken_end": 106.129,
+   "seg_end": 106.779,
+   "audio_dur": 1.28,
+   "spoken_dur": 0.916,
+   "seg_dur": 1.846,
+   "timing": [
+    {
+     "text": "He shouted louder.",
+     "start": 0.0,
+     "end": 1.254
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s6.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And Jesus stood still. The whole procession stopped around him \u2014 hundreds of feet going quiet in the dust. Remember where this road was taking him: up to Jerusalem, into the last week of his life. He was carrying all of that. And one blind beggar's voice \u2014 the voice everyone else was trying to shut off \u2014 stopped him in the road. He told them: call him over.",
+   "seg_start": 106.779,
+   "audio_start": 107.059,
+   "spoken_end": 130.373,
+   "seg_end": 131.023,
+   "audio_dur": 23.719,
+   "spoken_dur": 23.314,
+   "seg_dur": 24.244,
+   "timing": [
+    {
+     "text": "And Jesus stood still.",
+     "start": 0.0,
+     "end": 1.3
+    },
+    {
+     "text": "The whole procession stopped around him \u2014 hundreds of feet going quiet in the dust.",
+     "start": 1.3,
+     "end": 6.896
+    },
+    {
+     "text": "Remember where this road was taking him: up to Jerusalem, into the last week of his life.",
+     "start": 6.896,
+     "end": 12.783
+    },
+    {
+     "text": "He was carrying all of that.",
+     "start": 12.783,
+     "end": 14.582
+    },
+    {
+     "text": "And one blind beggar's voice \u2014 the voice everyone else was trying to shut off \u2014 stopped him in the road.",
+     "start": 14.582,
+     "end": 21.258
+    },
+    {
+     "text": "He told them: call him over.",
+     "start": 21.258,
+     "end": 23.684
+    }
+   ]
+  },
+  {
+   "seg": "s49",
+   "v1_still": "s7.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Be of good comfort, rise; he calleth thee.",
+   "seg_start": 131.023,
+   "audio_start": 131.303,
+   "spoken_end": 133.404,
+   "seg_end": 135.004,
+   "audio_dur": 2.403,
+   "spoken_dur": 2.102,
+   "seg_dur": 3.982,
+   "timing": [
+    {
+     "text": "Be of good comfort, rise; he calleth thih.",
+     "start": 0.0,
+     "end": 2.368
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s7.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "And listen to the crowd change its tune. The same voices that had been hushing him now crowded in with: take heart \u2014 get up! He is calling for you.",
+   "seg_start": 135.004,
+   "audio_start": 135.284,
+   "spoken_end": 145.019,
+   "seg_end": 145.669,
+   "audio_dur": 10.109,
+   "spoken_dur": 9.734,
+   "seg_dur": 10.664,
+   "timing": [
+    {
+     "text": "And listen to the crowd change its tune.",
+     "start": 0.0,
+     "end": 2.287
+    },
+    {
+     "text": "The same voices that had been hushing him now crowded in with: take heart \u2014 get up!",
+     "start": 2.287,
+     "end": 8.266
+    },
+    {
+     "text": "He is calling for you.",
+     "start": 8.266,
+     "end": 10.077
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s8.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "What happened next is one small verse, and it holds the whole man. He threw off his cloak, jumped up, and came. That cloak was a beggar's entire world \u2014 his coat, his bed at night, the very thing he spread out to catch the coins he lived on. A blind man who throws his cloak behind him may never find it again. He threw it anyway, coins and all. He spent everything he owned on the chance that the shout had been heard.",
+   "seg_start": 145.669,
+   "audio_start": 145.949,
+   "spoken_end": 172.763,
+   "seg_end": 173.413,
+   "audio_dur": 27.167,
+   "spoken_dur": 26.814,
+   "seg_dur": 27.744,
+   "timing": [
+    {
+     "text": "What happened next is one small verse, and it holds the whole man.",
+     "start": 0.0,
+     "end": 4.156
+    },
+    {
+     "text": "He threw off his cloak, jumped up, and came.",
+     "start": 4.156,
+     "end": 7.372
+    },
+    {
+     "text": "That cloak was a beggar's entire world \u2014 his coat, his bed at night, the very thing he spread out to catch the coins he lived on.",
+     "start": 7.372,
+     "end": 15.975
+    },
+    {
+     "text": "A blind man who throws his cloak behind him may never find it again.",
+     "start": 15.975,
+     "end": 20.317
+    },
+    {
+     "text": "He threw it anyway, coins and all.",
+     "start": 20.317,
+     "end": 23.011
+    },
+    {
+     "text": "He spent everything he owned on the chance that the shout had been heard.",
+     "start": 23.011,
+     "end": 27.121
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s9.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So he came, hands out in front of him, through a corridor of staring people, and stood breathing hard in front of the man he could not see. And Jesus asked him one question:",
+   "seg_start": 173.413,
+   "audio_start": 173.693,
+   "spoken_end": 183.625,
+   "seg_end": 184.275,
+   "audio_dur": 10.292,
+   "spoken_dur": 9.932,
+   "seg_dur": 10.862,
+   "timing": [
+    {
+     "text": "So he came, hands out in front of him, through a corridor of staring people, and stood breathing hard in front of the man he could not see.",
+     "start": 0.0,
+     "end": 7.814
+    },
+    {
+     "text": "And Jesus asked him one question:",
+     "start": 8.324,
+     "end": 10.263
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s9.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "What wilt thou that I should do unto thee?",
+   "seg_start": 184.275,
+   "audio_start": 184.555,
+   "spoken_end": 186.093,
+   "seg_end": 187.693,
+   "audio_dur": 1.907,
+   "spoken_dur": 1.539,
+   "seg_dur": 3.419,
+   "timing": [
+    {
+     "text": "What wilt thou that I should do unto thee?",
+     "start": 0.0,
+     "end": 1.858
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s10a.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "As if it weren't obvious. A blind man, standing in a beggar's tunic. But he asked anyway \u2014 because he wanted the man's own voice, not the crowd's guess about him. Nobody had asked Bartimaeus what he wanted in a very long time. His answer came out in a breath: Rabbi \u2014 I want to see.",
+   "seg_start": 187.693,
+   "audio_start": 187.973,
+   "spoken_end": 208.232,
+   "seg_end": 208.882,
+   "audio_dur": 20.611,
+   "spoken_dur": 20.259,
+   "seg_dur": 21.189,
+   "timing": [
+    {
+     "text": "As if it weren't obvious.",
+     "start": 0.0,
+     "end": 1.451
+    },
+    {
+     "text": "A blind man, standing in a beggar's tunic.",
+     "start": 1.451,
+     "end": 4.69
+    },
+    {
+     "text": "But he asked anyway \u2014 because he wanted the man's own voice, not the crowd's guess about him.",
+     "start": 4.69,
+     "end": 11.088
+    },
+    {
+     "text": "Nobody had asked Bartimaeus what he wanted in a very long time.",
+     "start": 11.088,
+     "end": 15.232
+    },
+    {
+     "text": "His answer came out in a breath: Rabbi \u2014 I want to see.",
+     "start": 15.232,
+     "end": 20.573
+    }
+   ]
+  },
+  {
+   "seg": "s51",
+   "v1_still": "s10a.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Lord, that I might receive my sight.",
+   "seg_start": 208.882,
+   "audio_start": 209.162,
+   "spoken_end": 210.935,
+   "seg_end": 212.535,
+   "audio_dur": 2.116,
+   "spoken_dur": 1.773,
+   "seg_dur": 3.653,
+   "timing": [
+    {
+     "text": "Lord, that I might receive my sight.",
+     "start": 0.0,
+     "end": 2.09
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s10b.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Go thy way; thy faith hath made thee whole.",
+   "seg_start": 212.535,
+   "audio_start": 212.815,
+   "spoken_end": 215.039,
+   "seg_end": 216.639,
+   "audio_dur": 2.638,
+   "spoken_dur": 2.223,
+   "seg_dur": 4.103,
+   "timing": [
+    {
+     "text": "Go thy way; thy faith hath made thee whole.",
+     "start": 0.0,
+     "end": 2.601
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s10b.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "And immediately, Mark says, he saw. The clouds in his eyes cleared like silt settling out of water, and the first thing those new eyes ever held was daylight on the road ahead. Notice what Jesus told him: your trust did this \u2014 and you are free. Free to go anywhere.",
+   "seg_start": 216.639,
+   "audio_start": 216.919,
+   "spoken_end": 234.767,
+   "seg_end": 235.417,
+   "audio_dur": 18.233,
+   "spoken_dur": 17.848,
+   "seg_dur": 18.778,
+   "timing": [
+    {
+     "text": "And immediately, Mark says, he saw.",
+     "start": 0.0,
+     "end": 2.891
+    },
+    {
+     "text": "The clouds in his eyes cleared like silt settling out of water, and the first thing those new eyes ever held was daylight on the road ahead.",
+     "start": 2.891,
+     "end": 10.867
+    },
+    {
+     "text": "Notice what Jesus told him: your trust did this \u2014 and you are free.",
+     "start": 10.867,
+     "end": 16.486
+    },
+    {
+     "text": "Free to go anywhere.",
+     "start": 16.486,
+     "end": 18.204
+    }
+   ]
+  },
+  {
+   "seg": "n11",
+   "v1_still": "s11.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And here is the ending Mark wants you to catch. Free to go anywhere, with brand new eyes and no cloak to go back for, he picked his road \u2014 the one Jesus was walking. He followed him, up the climb toward Jerusalem, staring at everything: the hills, the faces, his own two hands. The man who had been told to keep quiet walked in the middle of the procession that had hushed him.",
+   "seg_start": 235.417,
+   "audio_start": 235.697,
+   "spoken_end": 258.679,
+   "seg_end": 259.329,
+   "audio_dur": 23.353,
+   "spoken_dur": 22.982,
+   "seg_dur": 23.912,
+   "timing": [
+    {
+     "text": "And here is the ending Mark wants you to catch.",
+     "start": 0.0,
+     "end": 2.159
+    },
+    {
+     "text": "Free to go anywhere, with brand new eyes and no cloak to go back for, he picked his road \u2014 the one Jesus was walking.",
+     "start": 2.159,
+     "end": 10.414
+    },
+    {
+     "text": "He followed him, up the climb toward Jerusalem, staring at everything: the hills, the faces, his own two hands.",
+     "start": 10.414,
+     "end": 18.297
+    },
+    {
+     "text": "The man who had been told to keep quiet walked in the middle of the procession that had hushed him.",
+     "start": 18.297,
+     "end": 23.313
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "n12",
+  "text": "The crowd told him to keep quiet, and he shouted louder. What is the thing you would shout for, if no one could tell you to be quiet?",
+  "seg_start": 259.329,
+  "audio_start": 259.609,
+  "seg_dur": 8.493
+ },
+ "total": 267.822
+}

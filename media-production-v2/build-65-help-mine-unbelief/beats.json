@@ -1,0 +1,559 @@
+{
+ "row": 65,
+ "slug": "build-65-help-mine-unbelief",
+ "v1_dir": "media-production/build-65-help-mine-unbelief",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.2,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-down-to-the-argument.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus came down from the mountain and walked straight into a mess. A crowd was arguing. His own disciples were in the middle of it, cornered and embarrassed \u2014 because a desperate father had brought them his son, and for once, they could not help. They had tried. Nothing happened. And everyone was watching them fail.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 18.547,
+   "seg_end": 19.267,
+   "audio_dur": 18.651,
+   "spoken_dur": 18.267,
+   "seg_dur": 19.267,
+   "timing": [
+    {
+     "text": "Jesus came down from the mountain and walked straight into a mess.",
+     "start": 0.0,
+     "end": 2.995
+    },
+    {
+     "text": "A crowd was arguing.",
+     "start": 2.995,
+     "end": 4.748
+    },
+    {
+     "text": "His own disciples were in the middle of it, cornered and embarrassed \u2014 because a desperate father had brought them his son, and for once, they could not help.",
+     "start": 4.748,
+     "end": 13.874
+    },
+    {
+     "text": "They had tried.",
+     "start": 13.874,
+     "end": 15.174
+    },
+    {
+     "text": "Nothing happened.",
+     "start": 15.174,
+     "end": 16.382
+    },
+    {
+     "text": "And everyone was watching them fail.",
+     "start": 16.382,
+     "end": 18.622
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-the-father-pleads.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The father pushed through to Jesus and told him the whole story. His only son had been tormented since he was little \u2014 thrown down, unable to speak, hurt again and again by something the family could not fight. Years of it. A father who had watched his boy suffer his entire childhood and could do nothing.",
+   "seg_start": 19.267,
+   "audio_start": 19.547,
+   "spoken_end": 39.384,
+   "seg_end": 40.104,
+   "audio_dur": 20.297,
+   "spoken_dur": 19.837,
+   "seg_dur": 20.837,
+   "timing": [
+    {
+     "text": "The father pushed through to Jesus and told him the whole story.",
+     "start": 0.0,
+     "end": 3.088
+    },
+    {
+     "text": "His only son had been tormented since he was little \u2014 thrown down, unable to speak, hurt again and again by something the family could not fight.",
+     "start": 3.088,
+     "end": 13.224
+    },
+    {
+     "text": "Years of it.",
+     "start": 13.224,
+     "end": 14.791
+    },
+    {
+     "text": "A father who had watched his boy suffer his entire childhood and could do nothing.",
+     "start": 14.791,
+     "end": 20.248
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s3-all-things-possible.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And then he said the most honest thing in the story. He looked at Jesus, and this is exactly how Mark writes down what he said:",
+   "seg_start": 40.104,
+   "audio_start": 40.384,
+   "spoken_end": 47.574,
+   "seg_end": 48.294,
+   "audio_dur": 7.602,
+   "spoken_dur": 7.19,
+   "seg_dur": 8.19,
+   "timing": [
+    {
+     "text": "And then he said the most honest thing in the story.",
+     "start": 0.0,
+     "end": 2.485
+    },
+    {
+     "text": "He looked at Jesus, and this is exactly how Mark writes down what he said:",
+     "start": 2.961,
+     "end": 7.57
+    }
+   ]
+  },
+  {
+   "seg": "s22",
+   "v1_still": "s3-all-things-possible.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "If thou canst do any thing, have compassion on us, and help us.",
+   "seg_start": 48.294,
+   "audio_start": 48.574,
+   "spoken_end": 52.041,
+   "seg_end": 53.241,
+   "audio_dur": 3.84,
+   "spoken_dur": 3.468,
+   "seg_dur": 4.948,
+   "timing": [
+    {
+     "text": "If thou canst do anything, have compassion on us, and help us.",
+     "start": 0.0,
+     "end": 3.808
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s3-all-things-possible.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "If you can do anything \u2014 anything at all \u2014 have compassion on us, and help us. If. After all those years of disappointment, hope had gotten expensive. Listen to how Jesus answered that trembling little word IF:",
+   "seg_start": 53.241,
+   "audio_start": 53.521,
+   "spoken_end": 68.833,
+   "seg_end": 69.553,
+   "audio_dur": 15.726,
+   "spoken_dur": 15.312,
+   "seg_dur": 16.312,
+   "timing": [
+    {
+     "text": "If you can do anything \u2014 anything at all \u2014 have compassion on us, and help us.",
+     "start": 0.0,
+     "end": 5.259
+    },
+    {
+     "text": "If.",
+     "start": 5.259,
+     "end": 6.188
+    },
+    {
+     "text": "After all those years of disappointment, hope had gotten expensive.",
+     "start": 6.188,
+     "end": 10.971
+    },
+    {
+     "text": "Listen to how Jesus answered that trembling little word IF:",
+     "start": 11.633,
+     "end": 15.697
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s3-all-things-possible.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "If thou canst believe, all things are possible to him that believeth.",
+   "seg_start": 69.553,
+   "audio_start": 69.833,
+   "spoken_end": 73.941,
+   "seg_end": 75.141,
+   "audio_dur": 4.415,
+   "spoken_dur": 4.108,
+   "seg_dur": 5.588,
+   "timing": [
+    {
+     "text": "If thou canst believe, all things are possible to him that believeth.",
+     "start": 0.0,
+     "end": 4.365
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s4-lord-i-believe.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And now comes the moment this whole story is remembered for. The father did not pretend. He did not put on a brave religious face and claim a faith he did not fully have. He did something braver. He cried out the truest prayer in the Bible for anyone who has ever wanted to believe and struggled to:",
+   "seg_start": 75.141,
+   "audio_start": 75.421,
+   "spoken_end": 94.265,
+   "seg_end": 94.985,
+   "audio_dur": 19.226,
+   "spoken_dur": 18.844,
+   "seg_dur": 19.844,
+   "timing": [
+    {
+     "text": "And now comes the moment this whole story is remembered for.",
+     "start": 0.0,
+     "end": 2.926
+    },
+    {
+     "text": "The father did not pretend.",
+     "start": 2.926,
+     "end": 5.132
+    },
+    {
+     "text": "He did not put on a brave religious face and claim a faith he did not fully have.",
+     "start": 5.132,
+     "end": 10.879
+    },
+    {
+     "text": "He did something braver.",
+     "start": 10.879,
+     "end": 12.574
+    },
+    {
+     "text": "He cried out the truest prayer in the Bible for anyone who has ever wanted to believe and struggled to:",
+     "start": 13.131,
+     "end": 19.18
+    }
+   ]
+  },
+  {
+   "seg": "fv1",
+   "v1_still": "s4-lord-i-believe.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Lord, I believe; help thou mine unbelief.",
+   "seg_start": 94.985,
+   "audio_start": 95.265,
+   "spoken_end": 97.682,
+   "seg_end": 98.882,
+   "audio_dur": 2.873,
+   "spoken_dur": 2.417,
+   "seg_dur": 3.897,
+   "timing": [
+    {
+     "text": "Lord, I believe; help thou mine unbelief.",
+     "start": 0.0,
+     "end": 2.833
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s4-lord-i-believe.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Help me where I don't. He did not hand Jesus a finished faith. He handed him a cracked one, and asked him to hold it anyway.",
+   "seg_start": 98.882,
+   "audio_start": 99.162,
+   "spoken_end": 106.399,
+   "seg_end": 107.119,
+   "audio_dur": 7.654,
+   "spoken_dur": 7.237,
+   "seg_dur": 8.237,
+   "timing": [
+    {
+     "text": "Help me where I don't.",
+     "start": 0.0,
+     "end": 0.998
+    },
+    {
+     "text": "He did not hand Jesus a finished faith.",
+     "start": 0.998,
+     "end": 3.738
+    },
+    {
+     "text": "He handed him a cracked one, and asked him to hold it anyway.",
+     "start": 3.738,
+     "end": 7.616
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-lord-i-believe.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Think about what he just did. He brought Jesus the little bit of faith he had AND the unbelief he was ashamed of \u2014 and laid both of them down. He did not wait to believe perfectly before he asked. He asked for help WITH his believing. And that \u2014 that cracked-open, honest, half-full faith \u2014 was enough.",
+   "seg_start": 107.119,
+   "audio_start": 107.399,
+   "spoken_end": 128.109,
+   "seg_end": 128.829,
+   "audio_dur": 21.264,
+   "spoken_dur": 20.71,
+   "seg_dur": 21.71,
+   "timing": [
+    {
+     "text": "Think about what he just did.",
+     "start": 0.0,
+     "end": 1.44
+    },
+    {
+     "text": "He brought Jesus the little bit of faith he had AND the unbelief he was ashamed of \u2014 and laid both of them down.",
+     "start": 1.44,
+     "end": 8.87
+    },
+    {
+     "text": "He did not wait to believe perfectly before he asked.",
+     "start": 8.87,
+     "end": 12.005
+    },
+    {
+     "text": "He asked for help WITH his believing.",
+     "start": 12.005,
+     "end": 14.861
+    },
+    {
+     "text": "And that \u2014 that cracked-open, honest, half-full faith \u2014 was enough.",
+     "start": 14.861,
+     "end": 21.223
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-i-charge-thee.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus saw the crowd rushing in to gawk, and he did not wait. He spoke directly to the thing that had stolen this boy's whole childhood, and commanded it, once and for all:",
+   "seg_start": 128.829,
+   "audio_start": 129.109,
+   "spoken_end": 139.36,
+   "seg_end": 140.08,
+   "audio_dur": 10.632,
+   "spoken_dur": 10.251,
+   "seg_dur": 11.251,
+   "timing": [
+    {
+     "text": "Jesus saw the crowd rushing in to gawk, and he did not wait.",
+     "start": 0.0,
+     "end": 3.622
+    },
+    {
+     "text": "He spoke directly to the thing that had stolen this boy's whole childhood, and commanded it, once and for all:",
+     "start": 4.098,
+     "end": 10.588
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s5-i-charge-thee.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Thou dumb and deaf spirit, I charge thee, come out of him, and enter no more into him.",
+   "seg_start": 140.08,
+   "audio_start": 140.36,
+   "spoken_end": 145.05,
+   "seg_end": 146.25,
+   "audio_dur": 5.042,
+   "spoken_dur": 4.69,
+   "seg_dur": 6.17,
+   "timing": [
+    {
+     "text": "Thou dumb and deaf spirit, I charge thee, come out of him, and enter no more into him.",
+     "start": 0.0,
+     "end": 5.016
+    }
+   ]
+  },
+  {
+   "seg": "n5b",
+   "v1_still": "s5-i-charge-thee.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "You spirit that has kept him silent and shut his ears \u2014 I command you: come out of him, and never come back into him again. Not for a while. Never again.",
+   "seg_start": 146.25,
+   "audio_start": 146.53,
+   "spoken_end": 156.951,
+   "seg_end": 157.671,
+   "audio_dur": 10.815,
+   "spoken_dur": 10.421,
+   "seg_dur": 11.421,
+   "timing": [
+    {
+     "text": "You spirit that has kept him silent and shut his ears \u2014 I command you: come out of him, and never come back into him again.",
+     "start": 0.0,
+     "end": 7.5
+    },
+    {
+     "text": "Not for a while.",
+     "start": 7.5,
+     "end": 9.323
+    },
+    {
+     "text": "Never again.",
+     "start": 9.323,
+     "end": 10.774
+    }
+   ]
+  },
+  {
+   "seg": "n6a",
+   "v1_still": "s6-lifted-up.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "It left. The boy went so still that people whispered he was dead. But Jesus reached down, took him by the hand, and lifted him up \u2014 and the boy stood, quiet and whole.",
+   "seg_start": 157.671,
+   "audio_start": 157.951,
+   "spoken_end": 168.957,
+   "seg_end": 169.677,
+   "audio_dur": 11.416,
+   "spoken_dur": 11.006,
+   "seg_dur": 12.006,
+   "timing": [
+    {
+     "text": "It left.",
+     "start": 0.0,
+     "end": 0.801
+    },
+    {
+     "text": "The boy went so still that people whispered he was dead.",
+     "start": 0.801,
+     "end": 4.447
+    },
+    {
+     "text": "But Jesus reached down, took him by the hand, and lifted him up \u2014 and the boy stood, quiet and whole.",
+     "start": 4.447,
+     "end": 11.378
+    }
+   ]
+  },
+  {
+   "seg": "n6b",
+   "v1_still": "s7-given-back.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And he gave him back to his father. The tormented childhood was over. It ended with a hand reaching down into the dust to pull a son to his feet.",
+   "seg_start": 169.677,
+   "audio_start": 169.957,
+   "spoken_end": 178.014,
+   "seg_end": 178.734,
+   "audio_dur": 8.542,
+   "spoken_dur": 8.057,
+   "seg_dur": 9.057,
+   "timing": [
+    {
+     "text": "And he gave him back to his father.",
+     "start": 0.0,
+     "end": 1.556
+    },
+    {
+     "text": "The tormented childhood was over.",
+     "start": 1.556,
+     "end": 3.994
+    },
+    {
+     "text": "It ended with a hand reaching down into the dust to pull a son to his feet.",
+     "start": 3.994,
+     "end": 8.499
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s8-alone-with-the-twelve.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Later, alone in the house, the disciples asked him why they had failed. And Jesus gave them one sentence:",
+   "seg_start": 178.734,
+   "audio_start": 179.014,
+   "spoken_end": 184.658,
+   "seg_end": 185.378,
+   "audio_dur": 6.034,
+   "spoken_dur": 5.644,
+   "seg_dur": 6.644,
+   "timing": [
+    {
+     "text": "Later, alone in the house, the disciples asked him why they had failed.",
+     "start": 0.0,
+     "end": 3.506
+    },
+    {
+     "text": "And Jesus gave them one sentence:",
+     "start": 3.855,
+     "end": 5.991
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": "s8-alone-with-the-twelve.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "This kind can come forth by nothing, but by prayer and fasting.",
+   "seg_start": 185.378,
+   "audio_start": 185.658,
+   "spoken_end": 189.205,
+   "seg_end": 190.405,
+   "audio_dur": 3.944,
+   "spoken_dur": 3.548,
+   "seg_dur": 5.028,
+   "timing": [
+    {
+     "text": "This kind can come forth by nothing, but by prayer and fasting.",
+     "start": 0.0,
+     "end": 3.901
+    }
+   ]
+  },
+  {
+   "seg": "n7b",
+   "v1_still": "s8-alone-with-the-twelve.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Nothing gets this out except prayer and fasting, he told them \u2014 meaning this was never about their technique. It was about who they were leaning on. The father got it right without knowing the rules: he stopped trying to be strong, and just brought his weakness to the only one who could carry it.",
+   "seg_start": 190.405,
+   "audio_start": 190.685,
+   "spoken_end": 206.978,
+   "seg_end": 207.698,
+   "audio_dur": 16.744,
+   "spoken_dur": 16.292,
+   "seg_dur": 17.292,
+   "timing": [
+    {
+     "text": "Nothing gets this out except prayer and fasting, he told them \u2014 meaning this was never about their technique.",
+     "start": 0.0,
+     "end": 6.2
+    },
+    {
+     "text": "It was about who they were leaning on.",
+     "start": 6.2,
+     "end": 8.499
+    },
+    {
+     "text": "The father got it right without knowing the rules: he stopped trying to be strong, and just brought his weakness to the only one who could carry it.",
+     "start": 8.499,
+     "end": 16.718
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "You do not need perfect faith to come to him. Bring the little you have \u2014 and the doubt you're ashamed of \u2014 and ask him to help you believe. That prayer has never been turned away.",
+  "seg_start": 207.698,
+  "audio_start": 207.978,
+  "seg_dur": 12.673
+ },
+ "total": 220.371
+}

@@ -1,0 +1,465 @@
+{
+ "row": 37,
+ "slug": "build-37-rich-man-lazarus",
+ "v1_dir": "media-production/build-37-rich-man-lazarus",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus once told a story about two men who lived side by side, yet worlds apart.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 4.324,
+   "seg_end": 4.974,
+   "audio_dur": 4.545,
+   "spoken_dur": 4.044,
+   "seg_dur": 4.974,
+   "timing": [
+    {
+     "text": "Jesus once told a story about two men who lived side by side, yet worlds apart.",
+     "start": 0.0,
+     "end": 4.505
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s1.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "One was rich. He wore the finest purple and linen, and every day of his life was a feast.",
+   "seg_start": 4.974,
+   "audio_start": 5.254,
+   "spoken_end": 10.48,
+   "seg_end": 11.13,
+   "audio_dur": 5.695,
+   "spoken_dur": 5.226,
+   "seg_dur": 6.156,
+   "timing": [
+    {
+     "text": "One was rich.",
+     "start": 0.0,
+     "end": 0.882
+    },
+    {
+     "text": "He wore the finest purple and linen, and every day of his life was a feast.",
+     "start": 0.882,
+     "end": 5.666
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Just outside his house, at his own gate, lay a poor beggar named Lazarus.",
+   "seg_start": 11.13,
+   "audio_start": 11.41,
+   "spoken_end": 15.883,
+   "seg_end": 16.533,
+   "audio_dur": 4.859,
+   "spoken_dur": 4.473,
+   "seg_dur": 5.403,
+   "timing": [
+    {
+     "text": "Just outside his house, at his own gate, lay a poor beggar named Lazarus.",
+     "start": 0.0,
+     "end": 4.83
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s2.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He was covered in sores, and so hungry he only wished for the scraps that fell from the rich man's table. Even the stray dogs came and licked his wounds.",
+   "seg_start": 16.533,
+   "audio_start": 16.813,
+   "spoken_end": 25.552,
+   "seg_end": 26.202,
+   "audio_dur": 9.091,
+   "spoken_dur": 8.739,
+   "seg_dur": 9.669,
+   "timing": [
+    {
+     "text": "He was covered in sores, and so hungry he only wished for the scraps that fell from the rich man's table.",
+     "start": 0.0,
+     "end": 5.712
+    },
+    {
+     "text": "Even the stray dogs came and licked his wounds.",
+     "start": 5.712,
+     "end": 9.056
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s3.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The rich man walked past that gate every single day. And every day he stepped around the suffering man lying there, and did nothing.",
+   "seg_start": 26.202,
+   "audio_start": 26.482,
+   "spoken_end": 33.972,
+   "seg_end": 34.622,
+   "audio_dur": 7.889,
+   "spoken_dur": 7.49,
+   "seg_dur": 8.42,
+   "timing": [
+    {
+     "text": "The rich man walked past that gate every single day.",
+     "start": 0.0,
+     "end": 3.216
+    },
+    {
+     "text": "And every day he stepped around the suffering man lying there, and did nothing.",
+     "start": 3.216,
+     "end": 7.848
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s4.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then the day came that comes for us all. Lazarus died \u2014 and the angels carried him home, to Abraham's side, into light and comfort at last.",
+   "seg_start": 34.622,
+   "audio_start": 34.902,
+   "spoken_end": 44.017,
+   "seg_end": 44.667,
+   "audio_dur": 9.613,
+   "spoken_dur": 9.115,
+   "seg_dur": 10.045,
+   "timing": [
+    {
+     "text": "Then the day came that comes for us all.",
+     "start": 0.0,
+     "end": 2.38
+    },
+    {
+     "text": "Lazarus died \u2014 and the angels carried him home, to Abraham's side, into light and comfort at last.",
+     "start": 2.38,
+     "end": 9.567
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s5.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The rich man died too, and was buried. But he opened his eyes in a place of torment: a dark and thirsty place, far from the light.",
+   "seg_start": 44.667,
+   "audio_start": 44.947,
+   "spoken_end": 53.287,
+   "seg_end": 53.937,
+   "audio_dur": 8.777,
+   "spoken_dur": 8.339,
+   "seg_dur": 9.269,
+   "timing": [
+    {
+     "text": "The rich man died too, and was buried.",
+     "start": 0.0,
+     "end": 2.276
+    },
+    {
+     "text": "But he opened his eyes in a place of torment: a dark and thirsty place, far from the light.",
+     "start": 2.276,
+     "end": 8.731
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": "s5.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Father Abraham, have mercy on me, and send Lazarus, that he may dip the tip of his finger in water, and cool my tongue; for I am tormented in this flame.",
+   "seg_start": 53.937,
+   "audio_start": 54.217,
+   "spoken_end": 65.199,
+   "seg_end": 66.799,
+   "audio_dur": 11.416,
+   "spoken_dur": 10.982,
+   "seg_dur": 12.862,
+   "timing": [
+    {
+     "text": "Father Abraham, have mercy on me, and send Lazarus, that he may dip the tip of his finger in water, and cool my tongue; for I am tormented in this flame.",
+     "start": 0.0,
+     "end": 11.378
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s5.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Across a vast divide he could see Abraham in the distance, with Lazarus resting beside him. And he cried out, begging for just a drop of water to cool his tongue.",
+   "seg_start": 66.799,
+   "audio_start": 67.079,
+   "spoken_end": 77.05,
+   "seg_end": 77.7,
+   "audio_dur": 10.344,
+   "spoken_dur": 9.971,
+   "seg_dur": 10.901,
+   "timing": [
+    {
+     "text": "Across a vast divide he could see Abraham in the distance, with Lazarus resting beside him.",
+     "start": 0.0,
+     "end": 5.55
+    },
+    {
+     "text": "And he cried out, begging for just a drop of water to cool his tongue.",
+     "start": 5.55,
+     "end": 10.31
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s6.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Son, remember that thou in thy lifetime receivedst thy good things, and likewise Lazarus evil things: but now he is comforted, and thou art tormented.",
+   "seg_start": 77.7,
+   "audio_start": 77.98,
+   "spoken_end": 88.326,
+   "seg_end": 89.926,
+   "audio_dur": 10.762,
+   "spoken_dur": 10.345,
+   "seg_dur": 12.225,
+   "timing": [
+    {
+     "text": "Son, remember that thou in thy lifetime receivedst thy good things, and likewise Lazarus evil things: but now he is comforted, and thou art tormented.",
+     "start": 0.0,
+     "end": 10.728
+    }
+   ]
+  },
+  {
+   "seg": "j4",
+   "v1_still": "s6.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Between us and you there is a great gulf fixed: so that they which would pass from hence to you cannot; neither can they pass to us, that would come from thence.",
+   "seg_start": 89.926,
+   "audio_start": 90.206,
+   "spoken_end": 101.131,
+   "seg_end": 102.731,
+   "audio_dur": 11.128,
+   "spoken_dur": 10.925,
+   "seg_dur": 12.805,
+   "timing": [
+    {
+     "text": "Between us and you there is a great gulf fixed: so that they which would pass from hence to you cannot; neither can they pass to us, that would come from thence.",
+     "start": 0.0,
+     "end": 11.099
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s6.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And between them, Abraham said, a great gulf had been fixed \u2014 one that no one could ever cross.",
+   "seg_start": 102.731,
+   "audio_start": 103.011,
+   "spoken_end": 109.068,
+   "seg_end": 109.718,
+   "audio_dur": 6.452,
+   "spoken_dur": 6.057,
+   "seg_dur": 6.987,
+   "timing": [
+    {
+     "text": "And between them, Abraham said, a great gulf had been fixed \u2014 one that no one could ever cross.",
+     "start": 0.0,
+     "end": 6.409
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s7.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So the rich man begged again: then send someone to my five brothers, to warn them, so they never come to this place.",
+   "seg_start": 109.718,
+   "audio_start": 109.998,
+   "spoken_end": 116.628,
+   "seg_end": 117.278,
+   "audio_dur": 7.053,
+   "spoken_dur": 6.63,
+   "seg_dur": 7.56,
+   "timing": [
+    {
+     "text": "So the rich man begged again: then send someone to my five brothers, to warn them, so they never come to this place.",
+     "start": 0.0,
+     "end": 7.012
+    }
+   ]
+  },
+  {
+   "seg": "j5",
+   "v1_still": "s7.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "They have Moses and the prophets; let them hear them.",
+   "seg_start": 117.278,
+   "audio_start": 117.558,
+   "spoken_end": 120.068,
+   "seg_end": 121.668,
+   "audio_dur": 2.926,
+   "spoken_dur": 2.51,
+   "seg_dur": 4.39,
+   "timing": [
+    {
+     "text": "They have Moses and the prophets; let them hear them.",
+     "start": 0.0,
+     "end": 2.879
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s7.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "They already have the writings of Moses and the prophets, Abraham replied. Let them listen. But the man pleaded \u2014 no, if only someone came back from the dead, then they would turn.",
+   "seg_start": 121.668,
+   "audio_start": 121.948,
+   "spoken_end": 132.873,
+   "seg_end": 133.523,
+   "audio_dur": 11.311,
+   "spoken_dur": 10.925,
+   "seg_dur": 11.855,
+   "timing": [
+    {
+     "text": "They already have the writings of Moses and the prophets, Abraham replied.",
+     "start": 0.0,
+     "end": 3.576
+    },
+    {
+     "text": "Let them listen.",
+     "start": 3.576,
+     "end": 5.004
+    },
+    {
+     "text": "But the man pleaded \u2014 no, if only someone came back from the dead, then they would turn.",
+     "start": 5.004,
+     "end": 11.285
+    }
+   ]
+  },
+  {
+   "seg": "n11",
+   "v1_still": "s6.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "And Abraham gave his final answer.",
+   "seg_start": 133.523,
+   "audio_start": 133.803,
+   "spoken_end": 135.435,
+   "seg_end": 136.085,
+   "audio_dur": 2.038,
+   "spoken_dur": 1.632,
+   "seg_dur": 2.562,
+   "timing": [
+    {
+     "text": "And Abraham gave his final answer.",
+     "start": 0.0,
+     "end": 1.997
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s6.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "If they hear not Moses and the prophets, neither will they be persuaded, though one rose from the dead.",
+   "seg_start": 136.085,
+   "audio_start": 136.365,
+   "spoken_end": 142.115,
+   "seg_end": 143.715,
+   "audio_dur": 6.165,
+   "spoken_dur": 5.75,
+   "seg_dur": 7.63,
+   "timing": [
+    {
+     "text": "If they hear not Moses and the prophets, neither will they be persuaded, though one rose from the dead.",
+     "start": 0.0,
+     "end": 6.13
+    }
+   ]
+  },
+  {
+   "seg": "n12",
+   "v1_still": "s8.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus told this to people who had everything, and walked right past the ones who had nothing. It was a warning \u2014 but underneath it, a mercy.",
+   "seg_start": 143.715,
+   "audio_start": 143.995,
+   "spoken_end": 152.825,
+   "seg_end": 153.475,
+   "audio_dur": 9.273,
+   "spoken_dur": 8.83,
+   "seg_dur": 9.76,
+   "timing": [
+    {
+     "text": "Jesus told this to people who had everything, and walked right past the ones who had nothing.",
+     "start": 0.0,
+     "end": 5.341
+    },
+    {
+     "text": "It was a warning \u2014 but underneath it, a mercy.",
+     "start": 5.341,
+     "end": 9.242
+    }
+   ]
+  },
+  {
+   "seg": "n13",
+   "v1_still": "s8.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Because the day is still yours \u2014 for now.",
+   "seg_start": 153.475,
+   "audio_start": 153.755,
+   "spoken_end": 155.989,
+   "seg_end": 156.639,
+   "audio_dur": 2.586,
+   "spoken_dur": 2.234,
+   "seg_dur": 3.164,
+   "timing": [
+    {
+     "text": "Because the day is still yours \u2014 for now.",
+     "start": 0.0,
+     "end": 2.554
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "There is a gate before you today, and someone waiting at it. Who are you walking past \u2014 and will you stop while there is still time?",
+  "seg_start": 156.639,
+  "audio_start": 156.919,
+  "seg_dur": 9.303
+ },
+ "total": 165.943
+}

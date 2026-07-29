@@ -1,0 +1,445 @@
+{
+ "row": 84,
+ "slug": "build-84-no-room-manger",
+ "v1_dir": "media-production/build-84-no-room-manger",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "sv1",
+   "v1_still": "s1-the-decree.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And it came to pass in those days, that there went out a decree from Caesar Augustus, that all the world should be taxed.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 7.077,
+   "seg_end": 8.677,
+   "audio_dur": 7.184,
+   "spoken_dur": 6.797,
+   "seg_dur": 8.677,
+   "timing": [
+    {
+     "text": "And it came to pass in those days, that there went out a decree from Caesar Augustus, that all the world should be taxed.",
+     "start": 0.0,
+     "end": 7.152
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s1-the-decree.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "A command issued in a distant palace reached all the way into two ordinary lives in Nazareth.",
+   "seg_start": 8.677,
+   "audio_start": 8.957,
+   "spoken_end": 14.065,
+   "seg_end": 14.715,
+   "audio_dur": 5.564,
+   "spoken_dur": 5.108,
+   "seg_dur": 6.038,
+   "timing": [
+    {
+     "text": "A command issued in a distant palace reached all the way into two ordinary lives in Nazareth.",
+     "start": 0.0,
+     "end": 5.526
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-the-long-road.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "For a young woman named Mary and a carpenter named Joseph, that meant a long, hard road. Ninety miles of hill country, on foot and by donkey, from Nazareth down to Bethlehem, the town of King David. And Mary was not travelling light. She was days away from giving birth.",
+   "seg_start": 14.715,
+   "audio_start": 14.995,
+   "spoken_end": 33.803,
+   "seg_end": 34.453,
+   "audio_dur": 19.226,
+   "spoken_dur": 18.808,
+   "seg_dur": 19.738,
+   "timing": [
+    {
+     "text": "For a young woman named Mary and a carpenter named Joseph, that meant a long, hard road.",
+     "start": 0.0,
+     "end": 6.269
+    },
+    {
+     "text": "Ninety miles of hill country, on foot and by donkey, from Nazareth down to Bethlehem, the town of King David.",
+     "start": 6.269,
+     "end": 14.338
+    },
+    {
+     "text": "And Mary was not travelling light.",
+     "start": 14.338,
+     "end": 16.649
+    },
+    {
+     "text": "She was days away from giving birth.",
+     "start": 16.649,
+     "end": 19.18
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-crowded-bethlehem.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "When they finally reached Bethlehem, the little town was bursting. Everyone with roots there had come back for the same count, and every house, every spare room, every corner was already taken. There was simply nowhere left.",
+   "seg_start": 34.453,
+   "audio_start": 34.733,
+   "spoken_end": 48.114,
+   "seg_end": 48.764,
+   "audio_dur": 13.871,
+   "spoken_dur": 13.382,
+   "seg_dur": 14.312,
+   "timing": [
+    {
+     "text": "When they finally reached Bethlehem, the little town was bursting.",
+     "start": 0.0,
+     "end": 3.46
+    },
+    {
+     "text": "Everyone with roots there had come back for the same count, and every house, every spare room, every corner was already taken.",
+     "start": 3.46,
+     "end": 11.564
+    },
+    {
+     "text": "There was simply nowhere left.",
+     "start": 11.564,
+     "end": 13.839
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-no-room.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Door after door, the answer was the same. Not out of cruelty. The town was just full. And somewhere in that search, a tired householder, sorry that he had no space, pointed them to the only shelter left, the place where he kept his animals.",
+   "seg_start": 48.764,
+   "audio_start": 49.044,
+   "spoken_end": 64.954,
+   "seg_end": 65.604,
+   "audio_dur": 16.3,
+   "spoken_dur": 15.909,
+   "seg_dur": 16.839,
+   "timing": [
+    {
+     "text": "Door after door, the answer was the same.",
+     "start": 0.0,
+     "end": 2.694
+    },
+    {
+     "text": "Not out of cruelty.",
+     "start": 2.694,
+     "end": 4.284
+    },
+    {
+     "text": "The town was just full.",
+     "start": 4.284,
+     "end": 6.142
+    },
+    {
+     "text": "And somewhere in that search, a tired householder, sorry that he had no space, pointed them to the only shelter left, the place where he kept his animals.",
+     "start": 6.142,
+     "end": 16.254
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-the-stable.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So the King of all creation was born in a stable. A cave of rough stone, straw on the floor, an ox and a donkey for company, and a wooden feed-trough standing in the corner. It was the lowest room in the whole town. And it was the only one with space.",
+   "seg_start": 65.604,
+   "audio_start": 65.884,
+   "spoken_end": 81.456,
+   "seg_end": 82.106,
+   "audio_dur": 15.909,
+   "spoken_dur": 15.572,
+   "seg_dur": 16.502,
+   "timing": [
+    {
+     "text": "So the King of all creation was born in a stable.",
+     "start": 0.0,
+     "end": 2.508
+    },
+    {
+     "text": "A cave of rough stone, straw on the floor, an ox and a donkey for company, and a wooden feed-trough standing in the corner.",
+     "start": 2.508,
+     "end": 10.635
+    },
+    {
+     "text": "It was the lowest room in the whole town.",
+     "start": 10.635,
+     "end": 13.351
+    },
+    {
+     "text": "And it was the only one with space.",
+     "start": 13.351,
+     "end": 15.882
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6-the-birth.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Luke records the moment without spectacle, in a single quiet sentence:",
+   "seg_start": 82.106,
+   "audio_start": 82.386,
+   "spoken_end": 86.645,
+   "seg_end": 87.295,
+   "audio_dur": 4.676,
+   "spoken_dur": 4.259,
+   "seg_dur": 5.189,
+   "timing": [
+    {
+     "text": "Luke records the moment without spectacle, in a single quiet sentence:",
+     "start": 0.0,
+     "end": 4.644
+    }
+   ]
+  },
+  {
+   "seg": "v7",
+   "v1_still": "s7-the-manger.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And she brought forth her firstborn son, and wrapped him in swaddling clothes, and laid him in a manger; because there was no room for them in the inn.",
+   "seg_start": 87.295,
+   "audio_start": 87.575,
+   "spoken_end": 95.856,
+   "seg_end": 97.456,
+   "audio_dur": 8.673,
+   "spoken_dur": 8.282,
+   "seg_dur": 10.162,
+   "timing": [
+    {
+     "text": "And she brought forth her firstborn son, and wrapped him in swaddling clothes, and laid him in a manger; because there was no room for them in the inn.",
+     "start": 0.0,
+     "end": 8.638
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s7-the-manger.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Read that again slowly. The one who made the stars had nowhere to lay his head the very night he arrived. The hands that shaped the mountains were small enough to curl around a mother's finger. He did not come down halfway. He came all the way down, to the bottom, to the people the world had no space for.",
+   "seg_start": 97.456,
+   "audio_start": 97.736,
+   "spoken_end": 115.538,
+   "seg_end": 116.188,
+   "audio_dur": 18.233,
+   "spoken_dur": 17.802,
+   "seg_dur": 18.732,
+   "timing": [
+    {
+     "text": "Read that again slowly.",
+     "start": 0.0,
+     "end": 1.474
+    },
+    {
+     "text": "The one who made the stars had nowhere to lay his head the very night he arrived.",
+     "start": 1.474,
+     "end": 6.118
+    },
+    {
+     "text": "The hands that shaped the mountains were small enough to curl around a mother's finger.",
+     "start": 6.118,
+     "end": 10.472
+    },
+    {
+     "text": "He did not come down halfway.",
+     "start": 10.472,
+     "end": 12.736
+    },
+    {
+     "text": "He came all the way down, to the bottom, to the people the world had no space for.",
+     "start": 12.736,
+     "end": 18.205
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s8-the-wonder.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And his mother and the man who would raise him knelt in the straw and simply looked at him. No trumpets. No palace. Just two ordinary, exhausted, overjoyed people, and a baby, and more love in that cold little room than the whole full town could hold.",
+   "seg_start": 116.188,
+   "audio_start": 116.468,
+   "spoken_end": 133.257,
+   "seg_end": 133.907,
+   "audio_dur": 17.162,
+   "spoken_dur": 16.789,
+   "seg_dur": 17.719,
+   "timing": [
+    {
+     "text": "And his mother and the man who would raise him knelt in the straw and simply looked at him.",
+     "start": 0.0,
+     "end": 4.226
+    },
+    {
+     "text": "No trumpets.",
+     "start": 4.226,
+     "end": 5.851
+    },
+    {
+     "text": "No palace.",
+     "start": 5.851,
+     "end": 6.815
+    },
+    {
+     "text": "Just two ordinary, exhausted, overjoyed people, and a baby, and more love in that cold little room than the whole full town could hold.",
+     "start": 6.815,
+     "end": 17.136
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s9-the-humble-king.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That is the scandal and the sweetness of it. The King everyone was too busy to make room for did not force his way in. He came small, and quiet, and poor, and laid himself down among the animals, close enough for anyone at all to come near.",
+   "seg_start": 133.907,
+   "audio_start": 134.187,
+   "spoken_end": 149.124,
+   "seg_end": 149.774,
+   "audio_dur": 15.36,
+   "spoken_dur": 14.937,
+   "seg_dur": 15.867,
+   "timing": [
+    {
+     "text": "That is the scandal and the sweetness of it.",
+     "start": 0.0,
+     "end": 2.334
+    },
+    {
+     "text": "The King everyone was too busy to make room for did not force his way in.",
+     "start": 2.334,
+     "end": 6.745
+    },
+    {
+     "text": "He came small, and quiet, and poor, and laid himself down among the animals, close enough for anyone at all to come near.",
+     "start": 6.745,
+     "end": 15.325
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s10-the-sleeping-town.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And the town slept on, not knowing. Every crowded house with no room, every window dark, while a few streets over the most important thing in the history of the world had just happened by the light of one small lamp.",
+   "seg_start": 149.774,
+   "audio_start": 150.054,
+   "spoken_end": 163.705,
+   "seg_end": 164.355,
+   "audio_dur": 14.211,
+   "spoken_dur": 13.651,
+   "seg_dur": 14.581,
+   "timing": [
+    {
+     "text": "And the town slept on, not knowing.",
+     "start": 0.0,
+     "end": 2.264
+    },
+    {
+     "text": "Every crowded house with no room, every window dark, while a few streets over the most important thing in the history of the world had just happened by the light of one small lamp.",
+     "start": 2.264,
+     "end": 14.164
+    }
+   ]
+  },
+  {
+   "seg": "n11",
+   "v1_still": "s11-the-one-light.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "There is something in that you were meant to see. The room the world would not give him, heaven filled with light. He was turned away at every door, so that no one who comes to him would ever have to be.",
+   "seg_start": 164.355,
+   "audio_start": 164.635,
+   "spoken_end": 175.584,
+   "seg_end": 176.234,
+   "audio_dur": 11.363,
+   "spoken_dur": 10.948,
+   "seg_dur": 11.878,
+   "timing": [
+    {
+     "text": "There is something in that you were meant to see.",
+     "start": 0.0,
+     "end": 1.927
+    },
+    {
+     "text": "The room the world would not give him, heaven filled with light.",
+     "start": 1.927,
+     "end": 5.689
+    },
+    {
+     "text": "He was turned away at every door, so that no one who comes to him would ever have to be.",
+     "start": 5.689,
+     "end": 11.331
+    }
+   ]
+  },
+  {
+   "seg": "n12",
+   "v1_still": "s11-the-one-light.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Because that is the whole reason he came down so low. There was no room for him, once, so that there would always be room for you. The door of that stable is still open. He is still the easiest person in the world to reach.",
+   "seg_start": 176.234,
+   "audio_start": 176.514,
+   "spoken_end": 190.332,
+   "seg_end": 190.982,
+   "audio_dur": 14.211,
+   "spoken_dur": 13.818,
+   "seg_dur": 14.748,
+   "timing": [
+    {
+     "text": "Because that is the whole reason he came down so low.",
+     "start": 0.0,
+     "end": 3.274
+    },
+    {
+     "text": "There was no room for him, once, so that there would always be room for you.",
+     "start": 3.274,
+     "end": 8.231
+    },
+    {
+     "text": "The door of that stable is still open.",
+     "start": 8.231,
+     "end": 10.913
+    },
+    {
+     "text": "He is still the easiest person in the world to reach.",
+     "start": 10.913,
+     "end": 14.164
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "There was no room for him in the whole town, on the night he came to save it. If he was willing to be born in a cattle-stall to be near you, what makes you think there is no room for you near him?",
+  "seg_start": 190.982,
+  "audio_start": 191.262,
+  "seg_dur": 13.378
+ },
+ "total": 204.36
+}

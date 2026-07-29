@@ -1,0 +1,282 @@
+{
+ "row": 8,
+ "slug": "build-08-lost-coin",
+ "v1_dir": "media-production/build-08-lost-coin",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "stars.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "When Jesus wanted to show how God feels about one lost soul, he didn't talk about crowds. He told this story.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 6.002,
+   "seg_end": 6.652,
+   "audio_dur": 6.113,
+   "spoken_dur": 5.722,
+   "seg_dur": 6.652,
+   "timing": [
+    {
+     "text": "When Jesus wanted to show how God feels about one lost soul, he didn't talk about crowds.",
+     "start": 0.0,
+     "end": 4.865
+    },
+    {
+     "text": "He told this story.",
+     "start": 4.865,
+     "end": 6.641
+    }
+   ]
+  },
+  {
+   "seg": "jv8",
+   "v1_still": "count.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Either what woman having ten pieces of silver, if she lose one piece, doth not light a candle, and sweep the house, and seek diligently till she find it?",
+   "seg_start": 6.652,
+   "audio_start": 6.932,
+   "spoken_end": 16.88,
+   "seg_end": 18.48,
+   "audio_dur": 10.397,
+   "spoken_dur": 9.948,
+   "seg_dur": 11.828,
+   "timing": [
+    {
+     "text": "Either what woman having ten pieces of silver, if she lose one piece, doth not light a candle, and sweep the house, and seek diligently till she find it?",
+     "start": 0.0,
+     "end": 10.356
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "count.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "She loses one.",
+   "seg_start": 18.48,
+   "audio_start": 18.76,
+   "spoken_end": 19.594,
+   "seg_end": 20.244,
+   "audio_dur": 1.254,
+   "spoken_dur": 0.834,
+   "seg_dur": 1.764,
+   "timing": [
+    {
+     "text": "She loses one.",
+     "start": 0.0,
+     "end": 1.347
+    }
+   ]
+  },
+  {
+   "seg": "n2a",
+   "v1_still": "lamp.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "She lights a lamp. She sweeps the whole house.",
+   "seg_start": 20.244,
+   "audio_start": 20.524,
+   "spoken_end": 23.128,
+   "seg_end": 23.778,
+   "audio_dur": 2.952,
+   "spoken_dur": 2.604,
+   "seg_dur": 3.534,
+   "timing": [
+    {
+     "text": "She lights a lamp.",
+     "start": 0.0,
+     "end": 0.987
+    },
+    {
+     "text": "She sweeps the whole house.",
+     "start": 0.987,
+     "end": 2.833
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "sweep.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "She searches carefully \u2014 not casually, carefully \u2014 until she finds it.",
+   "seg_start": 23.778,
+   "audio_start": 24.058,
+   "spoken_end": 28.47,
+   "seg_end": 29.12,
+   "audio_dur": 4.833,
+   "spoken_dur": 4.412,
+   "seg_dur": 5.342,
+   "timing": [
+    {
+     "text": "She searches carefully \u2014 not casually, carefully \u2014 until she finds it.",
+     "start": 0.0,
+     "end": 5.108
+    }
+   ]
+  },
+  {
+   "seg": "jv9a",
+   "v1_still": "found.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "And when she hath found it, she calleth her friends and her neighbours together, saying,",
+   "seg_start": 29.12,
+   "audio_start": 29.4,
+   "spoken_end": 33.438,
+   "seg_end": 35.038,
+   "audio_dur": 4.441,
+   "spoken_dur": 4.037,
+   "seg_dur": 5.917,
+   "timing": [
+    {
+     "text": "And when she hath found it, she calleth her friends and her neighbours together, saying,",
+     "start": 0.0,
+     "end": 4.412
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "door.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Rejoice with me; for I have found the piece which I had lost.",
+   "seg_start": 35.038,
+   "audio_start": 35.318,
+   "spoken_end": 38.289,
+   "seg_end": 39.889,
+   "audio_dur": 3.291,
+   "spoken_dur": 2.971,
+   "seg_dur": 4.851,
+   "timing": [
+    {
+     "text": "Rejoice with me; for I have found the piece which I had lost.",
+     "start": 0.0,
+     "end": 4.133
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "door.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Then she calls her neighbors and friends to celebrate.",
+   "seg_start": 39.889,
+   "audio_start": 40.169,
+   "spoken_end": 42.259,
+   "seg_end": 42.909,
+   "audio_dur": 2.508,
+   "spoken_dur": 2.091,
+   "seg_dur": 3.021,
+   "timing": [
+    {
+     "text": "Then she calls her neighbors and friends to celebrate.",
+     "start": 0.0,
+     "end": 2.554
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "stars.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "One coin. Out of ten. The joy is disproportionate to the value of the coin.",
+   "seg_start": 42.909,
+   "audio_start": 43.189,
+   "spoken_end": 47.451,
+   "seg_end": 48.101,
+   "audio_dur": 4.624,
+   "spoken_dur": 4.262,
+   "seg_dur": 5.192,
+   "timing": [
+    {
+     "text": "One coin.",
+     "start": 0.0,
+     "end": 0.789
+    },
+    {
+     "text": "Out of ten.",
+     "start": 0.789,
+     "end": 1.788
+    },
+    {
+     "text": "The joy is disproportionate to the value of the coin.",
+     "start": 1.788,
+     "end": 5.248
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "stars.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Likewise, I say unto you, there is joy in the presence of the angels of God over one sinner that repenteth.",
+   "seg_start": 48.101,
+   "audio_start": 48.381,
+   "spoken_end": 53.823,
+   "seg_end": 55.423,
+   "audio_dur": 5.93,
+   "spoken_dur": 5.442,
+   "seg_dur": 7.322,
+   "timing": [
+    {
+     "text": "Likewise, I say unto you, there is joy in the presence of the angels of God over one sinner that repenteth.",
+     "start": 0.0,
+     "end": 7.755
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "stars.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Over one. Not a crowd. One.",
+   "seg_start": 55.423,
+   "audio_start": 55.703,
+   "spoken_end": 57.509,
+   "seg_end": 58.159,
+   "audio_dur": 2.168,
+   "spoken_dur": 1.806,
+   "seg_dur": 2.736,
+   "timing": [
+    {
+     "text": "Over one.",
+     "start": 0.0,
+     "end": 0.639
+    },
+    {
+     "text": "Not a crowd.",
+     "start": 0.639,
+     "end": 1.242
+    },
+    {
+     "text": "One.",
+     "start": 1.242,
+     "end": 1.997
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "Have you ever felt like the thing that got lost, rather than the one doing the searching?",
+  "seg_start": 58.159,
+  "audio_start": 58.439,
+  "seg_dur": 6.978
+ },
+ "total": 65.137
+}

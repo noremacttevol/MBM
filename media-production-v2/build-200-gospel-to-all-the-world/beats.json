@@ -1,0 +1,194 @@
+{
+ "row": 200,
+ "slug": "build-200-gospel-to-all-the-world",
+ "v1_dir": "media-production/build-200-gospel-to-all-the-world",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0a",
+   "v1_still": "s1-on-the-mount-of-olives.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 5.599,
+   "seg_end": 6.249,
+   "audio_dur": 5.695,
+   "spoken_dur": 5.319,
+   "seg_dur": 6.249,
+   "timing": [
+    {
+     "text": "Jesus sat with his disciples on the Mount of Olives, telling them what the long road ahead would hold \u2014",
+     "start": 0.0,
+     "end": 5.666
+    }
+   ]
+  },
+  {
+   "seg": "n0b",
+   "v1_still": "s2-tender-and-sure.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 6.249,
+   "audio_start": 6.529,
+   "spoken_end": 9.787,
+   "seg_end": 10.437,
+   "audio_dur": 3.605,
+   "spoken_dur": 3.259,
+   "seg_dur": 4.189,
+   "timing": [
+    {
+     "text": "wars, rumors, hardship, and patience under strain.",
+     "start": 0.0,
+     "end": 3.576
+    }
+   ]
+  },
+  {
+   "seg": "n1a",
+   "v1_still": "s3-steady-hope.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 10.437,
+   "audio_start": 10.717,
+   "spoken_end": 13.401,
+   "seg_end": 14.051,
+   "audio_dur": 3.161,
+   "spoken_dur": 2.683,
+   "seg_dur": 3.613,
+   "timing": [
+    {
+     "text": "Then he turned to the one thing that would outlast all of it:",
+     "start": 0.0,
+     "end": 3.111
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s4-the-listeners.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 14.051,
+   "audio_start": 14.331,
+   "spoken_end": 16.561,
+   "seg_end": 17.211,
+   "audio_dur": 2.769,
+   "spoken_dur": 2.23,
+   "seg_dur": 3.16,
+   "timing": [
+    {
+     "text": "a message carried to every corner of the earth.",
+     "start": 0.0,
+     "end": 2.74
+    }
+   ]
+  },
+  {
+   "seg": "n2a",
+   "v1_still": "s5-the-word-goes-walking.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 17.211,
+   "audio_start": 17.491,
+   "spoken_end": 18.867,
+   "seg_end": 19.517,
+   "audio_dur": 1.698,
+   "spoken_dur": 1.376,
+   "seg_dur": 2.306,
+   "timing": [
+    {
+     "text": "Not a secret kept for a few.",
+     "start": 0.0,
+     "end": 1.672
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s6-every-corner.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 19.517,
+   "audio_start": 19.797,
+   "spoken_end": 25.333,
+   "seg_end": 25.983,
+   "audio_dur": 5.982,
+   "spoken_dur": 5.536,
+   "seg_dur": 6.466,
+   "timing": [
+    {
+     "text": "A witness given to all nations \u2014 the good news of the kingdom going out until the very end.",
+     "start": 0.0,
+     "end": 5.944
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s7-seeing-the-whole-world.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "-22%",
+   "seg_start": 25.983,
+   "audio_start": 26.263,
+   "spoken_end": 34.461,
+   "seg_end": 36.061,
+   "audio_dur": 8.594,
+   "spoken_dur": 8.198,
+   "seg_dur": 10.078,
+   "timing": [
+    {
+     "text": "And this gospel of the kingdom shall be preached in all the world for a witness unto all nations; and then shall the end come.",
+     "start": 0.0,
+     "end": 8.545
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s8-for-all-nations.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 36.061,
+   "audio_start": 36.341,
+   "spoken_end": 49.477,
+   "seg_end": 50.127,
+   "audio_dur": 13.558,
+   "spoken_dur": 13.136,
+   "seg_dur": 14.066,
+   "timing": [
+    {
+     "text": "The task he gave is still the task we carry: tell it, show it, live it \u2014 until the promise is fulfilled.",
+     "start": 0.0,
+     "end": 6.722
+    },
+    {
+     "text": "Every honest witness, every quiet act of discipleship, carries the message one person farther.",
+     "start": 6.722,
+     "end": 13.514
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "-22%",
+  "seg_start": 50.127,
+  "audio_start": 50.407,
+  "seg_dur": 10.74
+ },
+ "total": 60.867
+}

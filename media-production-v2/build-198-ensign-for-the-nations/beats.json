@@ -1,0 +1,162 @@
+{
+ "row": 198,
+ "slug": "build-198-ensign-for-the-nations",
+ "v1_dir": "media-production/build-198-ensign-for-the-nations",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s2-the-root-of-jesse.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The prophet Isaiah pointed far ahead to a figure he called the root of Jesse \u2014 David's family tree, springing up fresh after it looked cut down.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 9.248,
+   "seg_end": 9.898,
+   "audio_dur": 9.326,
+   "spoken_dur": 8.968,
+   "seg_dur": 9.898,
+   "timing": [
+    {
+     "text": "The prophet Isaiah pointed far ahead to a figure he called the root of Jesse \u2014 David's family tree, springing up fresh after it looked cut down.",
+     "start": 0.0,
+     "end": 9.288
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s1-the-ensign-raised.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "This one would stand as a banner, a signal, lifted up so the nations could find their way to Him. Not hidden. Raised for all to see.",
+   "seg_start": 9.898,
+   "audio_start": 10.178,
+   "spoken_end": 18.173,
+   "seg_end": 18.823,
+   "audio_dur": 8.385,
+   "spoken_dur": 7.995,
+   "seg_dur": 8.925,
+   "timing": [
+    {
+     "text": "This one would stand as a banner, a signal, lifted up so the nations could find their way to Him.",
+     "start": 0.0,
+     "end": 5.364
+    },
+    {
+     "text": "Not hidden.",
+     "start": 5.364,
+     "end": 6.536
+    },
+    {
+     "text": "Raised for all to see.",
+     "start": 6.536,
+     "end": 8.359
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "v1_still": "s1-the-ensign-raised.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "And it shall come to pass in that day, that the Lord shall set his hand again the second time to recover the remnant of his people,",
+   "seg_start": 18.823,
+   "audio_start": 19.103,
+   "spoken_end": 25.755,
+   "seg_end": 27.355,
+   "audio_dur": 7.001,
+   "spoken_dur": 6.652,
+   "seg_dur": 8.532,
+   "timing": [
+    {
+     "text": "And it shall come to pass in that day, that the Lord shall set his hand again the second time to recover the remnant of his people,",
+     "start": 0.0,
+     "end": 6.966
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "v1_still": "s3-from-the-four-corners.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And he shall set up an ensign for the nations, and shall assemble the outcasts of Israel, and gather together the dispersed of Judah from the four corners of the earth.",
+   "seg_start": 27.355,
+   "audio_start": 27.635,
+   "spoken_end": 36.959,
+   "seg_end": 38.559,
+   "audio_dur": 9.744,
+   "spoken_dur": 9.324,
+   "seg_dur": 11.204,
+   "timing": [
+    {
+     "text": "And he shall set up an ensign for the nations, and shall assemble the outcasts of Israel, and gather together the dispersed of Judah from the four corners of the earth.",
+     "start": 0.0,
+     "end": 9.706
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-the-gathered.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Exiles in every direction, lifted out of every nation, brought home. The ensign is the invitation; the gathering is the answer.",
+   "seg_start": 38.559,
+   "audio_start": 38.839,
+   "spoken_end": 46.622,
+   "seg_end": 47.272,
+   "audio_dur": 8.176,
+   "spoken_dur": 7.783,
+   "seg_dur": 8.713,
+   "timing": [
+    {
+     "text": "Exiles in every direction, lifted out of every nation, brought home.",
+     "start": 0.0,
+     "end": 4.087
+    },
+    {
+     "text": "The ensign is the invitation; the gathering is the answer.",
+     "start": 4.087,
+     "end": 8.127
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s5-home.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The banner is raised \u2014 and the seeking ones, from every people, come home.",
+   "seg_start": 47.272,
+   "audio_start": 47.552,
+   "spoken_end": 51.786,
+   "seg_end": 52.436,
+   "audio_dur": 4.624,
+   "spoken_dur": 4.234,
+   "seg_dur": 5.164,
+   "timing": [
+    {
+     "text": "The banner is raised \u2014 and the seeking ones, from every people, come home.",
+     "start": 0.0,
+     "end": 4.598
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "A banner was raised so you could find your way. Seek Him, and you'll be gathered in.",
+  "seg_start": 52.436,
+  "audio_start": 52.716,
+  "seg_dur": 6.613
+ },
+ "total": 59.049
+}

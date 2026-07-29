@@ -1,0 +1,599 @@
+{
+ "row": 135,
+ "slug": "build-135-rainbow-covenant",
+ "v1_dir": "media-production/build-135-rainbow-covenant",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-the-ark-at-rest.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The rain had stopped. For the better part of a year, one family and a great wooden boat full of animals had ridden out the end of the world they knew. Then one morning the ark sat still on a mountainside, and the earth lay quiet and washed and new.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 14.124,
+   "seg_end": 14.774,
+   "audio_dur": 14.158,
+   "spoken_dur": 13.844,
+   "seg_dur": 14.774,
+   "timing": [
+    {
+     "text": "The rain had stopped.",
+     "start": 0.0,
+     "end": 1.209
+    },
+    {
+     "text": "For the better part of a year, one family and a great wooden boat full of animals had ridden out the end of the world they knew.",
+     "start": 1.209,
+     "end": 8.576
+    },
+    {
+     "text": "Then one morning the ark sat still on a mountainside, and the earth lay quiet and washed and new.",
+     "start": 8.576,
+     "end": 14.158
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-first-steps.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Noah and his family stepped out onto wet grass under an open sky. There were eight of them, and everything they had ever known was gone. The whole human story was starting over. And the very first thing God said to them was not a warning.",
+   "seg_start": 14.774,
+   "audio_start": 15.054,
+   "spoken_end": 29.146,
+   "seg_end": 29.796,
+   "audio_dur": 14.446,
+   "spoken_dur": 14.092,
+   "seg_dur": 15.022,
+   "timing": [
+    {
+     "text": "Noah and his family stepped out onto wet grass under an open sky.",
+     "start": 0.0,
+     "end": 3.996
+    },
+    {
+     "text": "There were eight of them, and everything they had ever known was gone.",
+     "start": 3.996,
+     "end": 8.299
+    },
+    {
+     "text": "The whole human story was starting over.",
+     "start": 8.299,
+     "end": 10.757
+    },
+    {
+     "text": "And the very first thing God said to them was not a warning.",
+     "start": 10.757,
+     "end": 14.446
+    }
+   ]
+  },
+  {
+   "seg": "gv91",
+   "v1_still": "s2-first-steps.jpeg",
+   "zoom": "out",
+   "speaker": "god",
+   "text": "Be fruitful, and multiply, and replenish the earth.",
+   "seg_start": 29.796,
+   "audio_start": 30.076,
+   "spoken_end": 33.564,
+   "seg_end": 35.164,
+   "audio_dur": 3.709,
+   "spoken_dur": 3.489,
+   "seg_dur": 5.369,
+   "timing": [
+    {
+     "text": "Be fruitful, and multiply, and replenish the earth.",
+     "start": 0.0,
+     "end": 3.709
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s2-first-steps.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Fill it back up. Go live. Eight people standing in the wreckage of a drowned world, and God's opening word to them is a blessing and a future. But one heavy question still hung over it all. Could anyone trust the sky again?",
+   "seg_start": 35.164,
+   "audio_start": 35.444,
+   "spoken_end": 49.785,
+   "seg_end": 50.435,
+   "audio_dur": 14.707,
+   "spoken_dur": 14.341,
+   "seg_dur": 15.271,
+   "timing": [
+    {
+     "text": "Fill it back up.",
+     "start": 0.0,
+     "end": 1.074
+    },
+    {
+     "text": "Go live.",
+     "start": 1.074,
+     "end": 1.612
+    },
+    {
+     "text": "Eight people standing in the wreckage of a drowned world, and God's opening word to them is a blessing and a future.",
+     "start": 1.612,
+     "end": 9.402
+    },
+    {
+     "text": "But one heavy question still hung over it all.",
+     "start": 9.402,
+     "end": 12.491
+    },
+    {
+     "text": "Could anyone trust the sky again?",
+     "start": 12.491,
+     "end": 14.707
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-building-the-altar.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Here is the first thing Noah built in the new world. Not a house. Not a fence. He gathered stones and built an altar, and he gave thanks. And God answered that small smoking altar with a promise about the whole future.",
+   "seg_start": 50.435,
+   "audio_start": 50.715,
+   "spoken_end": 63.282,
+   "seg_end": 63.932,
+   "audio_dur": 12.983,
+   "spoken_dur": 12.567,
+   "seg_dur": 13.497,
+   "timing": [
+    {
+     "text": "Here is the first thing Noah built in the new world.",
+     "start": 0.0,
+     "end": 3.155
+    },
+    {
+     "text": "Not a house.",
+     "start": 3.155,
+     "end": 3.883
+    },
+    {
+     "text": "Not a fence.",
+     "start": 3.883,
+     "end": 4.611
+    },
+    {
+     "text": "He gathered stones and built an altar, and he gave thanks.",
+     "start": 4.611,
+     "end": 8.129
+    },
+    {
+     "text": "And God answered that small smoking altar with a promise about the whole future.",
+     "start": 8.129,
+     "end": 12.983
+    }
+   ]
+  },
+  {
+   "seg": "jv22",
+   "v1_still": "s4-the-offering.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "While the earth remaineth, seedtime and harvest, and cold and heat, and summer and winter, and day and night shall not cease.",
+   "seg_start": 63.932,
+   "audio_start": 64.212,
+   "spoken_end": 72.818,
+   "seg_end": 74.418,
+   "audio_dur": 8.96,
+   "spoken_dur": 8.606,
+   "seg_dur": 10.486,
+   "timing": [
+    {
+     "text": "While the earth remaineth, seedtime and harvest, and cold and heat, and summer and winter, and day and night shall not cease.",
+     "start": 0.0,
+     "end": 8.96
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-the-offering.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Planting time and gathering time, winter and summer, morning and night. The world would keep its rhythm for as long as it stands. But God was not finished, because he knew something about these eight people. He knew what rain now meant to them.",
+   "seg_start": 74.418,
+   "audio_start": 74.698,
+   "spoken_end": 89.969,
+   "seg_end": 90.619,
+   "audio_dur": 15.647,
+   "spoken_dur": 15.272,
+   "seg_dur": 16.202,
+   "timing": [
+    {
+     "text": "Planting time and gathering time, winter and summer, morning and night.",
+     "start": 0.0,
+     "end": 4.61
+    },
+    {
+     "text": "The world would keep its rhythm for as long as it stands.",
+     "start": 4.61,
+     "end": 8.311
+    },
+    {
+     "text": "But God was not finished, because he knew something about these eight people.",
+     "start": 8.311,
+     "end": 13.31
+    },
+    {
+     "text": "He knew what rain now meant to them.",
+     "start": 13.31,
+     "end": 15.647
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-the-gathering-clouds.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Think about the first time clouds rolled in after the flood. For Noah's family, a dark sky was no longer just weather. It was the memory of everything they had lost. And God did not scold them for being afraid. He moved to meet the fear.",
+   "seg_start": 90.619,
+   "audio_start": 90.899,
+   "spoken_end": 104.487,
+   "seg_end": 105.137,
+   "audio_dur": 13.976,
+   "spoken_dur": 13.587,
+   "seg_dur": 14.517,
+   "timing": [
+    {
+     "text": "Think about the first time clouds rolled in after the flood.",
+     "start": 0.0,
+     "end": 3.599
+    },
+    {
+     "text": "For Noah's family, a dark sky was no longer just weather.",
+     "start": 3.599,
+     "end": 7.018
+    },
+    {
+     "text": "It was the memory of everything they had lost.",
+     "start": 7.018,
+     "end": 9.777
+    },
+    {
+     "text": "And God did not scold them for being afraid.",
+     "start": 9.777,
+     "end": 12.416
+    },
+    {
+     "text": "He moved to meet the fear.",
+     "start": 12.416,
+     "end": 13.976
+    }
+   ]
+  },
+  {
+   "seg": "jv9",
+   "v1_still": "s6-god-speaks.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "And I, behold, I establish my covenant with you, and with your seed after you.",
+   "seg_start": 105.137,
+   "audio_start": 105.417,
+   "spoken_end": 111.555,
+   "seg_end": 113.155,
+   "audio_dur": 6.504,
+   "spoken_dur": 6.139,
+   "seg_dur": 8.019,
+   "timing": [
+    {
+     "text": "And I, behold, I establish my covenant with you, and with your seed after you.",
+     "start": 0.0,
+     "end": 6.504
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6-god-speaks.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "A covenant is the Bible's most serious word for a promise, one that binds the person who makes it. And notice who is doing the binding here. Noah is not asked to promise anything, sign anything, or earn anything. God binds himself, one way, for free. To Noah, to his children, and to every living creature that walked off that boat.",
+   "seg_start": 113.155,
+   "audio_start": 113.435,
+   "spoken_end": 135.22,
+   "seg_end": 135.87,
+   "audio_dur": 22.23,
+   "spoken_dur": 21.785,
+   "seg_dur": 22.715,
+   "timing": [
+    {
+     "text": "A covenant is the Bible's most serious word for a promise, one that binds the person who makes it.",
+     "start": 0.0,
+     "end": 6.642
+    },
+    {
+     "text": "And notice who is doing the binding here.",
+     "start": 6.642,
+     "end": 9.421
+    },
+    {
+     "text": "Noah is not asked to promise anything, sign anything, or earn anything.",
+     "start": 9.421,
+     "end": 14.233
+    },
+    {
+     "text": "God binds himself, one way, for free.",
+     "start": 14.233,
+     "end": 16.74
+    },
+    {
+     "text": "To Noah, to his children, and to every living creature that walked off that boat.",
+     "start": 16.74,
+     "end": 22.23
+    }
+   ]
+  },
+  {
+   "seg": "jv11",
+   "v1_still": "s7-never-again.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "And I will establish my covenant with you; neither shall all flesh be cut off any more by the waters of a flood; neither shall there any more be a flood to destroy the earth.",
+   "seg_start": 135.87,
+   "audio_start": 136.15,
+   "spoken_end": 148.132,
+   "seg_end": 149.732,
+   "audio_dur": 12.539,
+   "spoken_dur": 11.982,
+   "seg_dur": 13.862,
+   "timing": [
+    {
+     "text": "And I will establish my covenant with you; neither shall all flesh be cut off any more by the waters of a flood; neither shall there any more be a flood to destroy the earth.",
+     "start": 0.0,
+     "end": 12.539
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s7-never-again.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Never again. That is the whole promise, with no conditions attached and no expiration date. And then God does something wonderfully tender. He gives the promise a sign you can see with your eyes.",
+   "seg_start": 149.732,
+   "audio_start": 150.012,
+   "spoken_end": 161.621,
+   "seg_end": 162.271,
+   "audio_dur": 12.016,
+   "spoken_dur": 11.609,
+   "seg_dur": 12.539,
+   "timing": [
+    {
+     "text": "Never again.",
+     "start": 0.0,
+     "end": 0.751
+    },
+    {
+     "text": "That is the whole promise, with no conditions attached and no expiration date.",
+     "start": 0.751,
+     "end": 5.633
+    },
+    {
+     "text": "And then God does something wonderfully tender.",
+     "start": 5.633,
+     "end": 8.574
+    },
+    {
+     "text": "He gives the promise a sign you can see with your eyes.",
+     "start": 8.574,
+     "end": 12.016
+    }
+   ]
+  },
+  {
+   "seg": "jv13",
+   "v1_still": "s8-the-bow-in-the-cloud.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "I do set my bow in the cloud, and it shall be for a token of a covenant between me and the earth.",
+   "seg_start": 162.271,
+   "audio_start": 162.551,
+   "spoken_end": 169.062,
+   "seg_end": 170.662,
+   "audio_dur": 7.053,
+   "spoken_dur": 6.512,
+   "seg_dur": 8.392,
+   "timing": [
+    {
+     "text": "I do set my bow in the cloud, and it shall be for a token of a covenant between me and the earth.",
+     "start": 0.0,
+     "end": 7.053
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s9-faces-lifted.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The word there is simply bow, and it is the same word the Bible uses for a battle bow, a weapon of war. God hangs a bow in the clouds, unstrung, aimed away from the earth. It is the picture of a warrior hanging up his weapon on the wall. The storm between heaven and earth is over.",
+   "seg_start": 170.662,
+   "audio_start": 170.942,
+   "spoken_end": 189.247,
+   "seg_end": 189.897,
+   "audio_dur": 18.704,
+   "spoken_dur": 18.304,
+   "seg_dur": 19.234,
+   "timing": [
+    {
+     "text": "The word there is simply bow, and it is the same word the Bible uses for a battle bow, a weapon of war.",
+     "start": 0.0,
+     "end": 6.93
+    },
+    {
+     "text": "God hangs a bow in the clouds, unstrung, aimed away from the earth.",
+     "start": 6.93,
+     "end": 11.437
+    },
+    {
+     "text": "It is the picture of a warrior hanging up his weapon on the wall.",
+     "start": 11.437,
+     "end": 15.811
+    },
+    {
+     "text": "The storm between heaven and earth is over.",
+     "start": 15.811,
+     "end": 18.704
+    }
+   ]
+  },
+  {
+   "seg": "jv16",
+   "v1_still": "s10-god-remembers.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "And the bow shall be in the cloud; and I will look upon it, that I may remember the everlasting covenant between God and every living creature of all flesh that is upon the earth.",
+   "seg_start": 189.897,
+   "audio_start": 190.177,
+   "spoken_end": 202.434,
+   "seg_end": 204.034,
+   "audio_dur": 12.774,
+   "spoken_dur": 12.257,
+   "seg_dur": 14.137,
+   "timing": [
+    {
+     "text": "And the bow shall be in the cloud; and I will look upon it, that I may remember the everlasting covenant between God and every living creature of all flesh that is upon the earth.",
+     "start": 0.0,
+     "end": 12.774
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s10-god-remembers.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Did you catch who the sign is for? God set the reminder where he would see it. The rainbow is the string God tied around his own finger. Before it ever comforts you, it is his own promise, kept deliberately in his own sight.",
+   "seg_start": 204.034,
+   "audio_start": 204.314,
+   "spoken_end": 217.703,
+   "seg_end": 218.353,
+   "audio_dur": 13.819,
+   "spoken_dur": 13.39,
+   "seg_dur": 14.32,
+   "timing": [
+    {
+     "text": "Did you catch who the sign is for?",
+     "start": 0.0,
+     "end": 2.126
+    },
+    {
+     "text": "God set the reminder where he would see it.",
+     "start": 2.126,
+     "end": 4.815
+    },
+    {
+     "text": "The rainbow is the string God tied around his own finger.",
+     "start": 4.815,
+     "end": 8.379
+    },
+    {
+     "text": "Before it ever comforts you, it is his own promise, kept deliberately in his own sight.",
+     "start": 8.379,
+     "end": 13.819
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s11-every-rain-since.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And the promise held. Rain has come and gone for thousands of years since that mountainside, and when the shower passes, the same sign still climbs the sky. Children point at it. Nobody runs from it. That is what it feels like to live inside a promise God is keeping.",
+   "seg_start": 218.353,
+   "audio_start": 218.633,
+   "spoken_end": 234.829,
+   "seg_end": 235.479,
+   "audio_dur": 16.562,
+   "spoken_dur": 16.195,
+   "seg_dur": 17.125,
+   "timing": [
+    {
+     "text": "And the promise held.",
+     "start": 0.0,
+     "end": 1.322
+    },
+    {
+     "text": "Rain has come and gone for thousands of years since that mountainside, and when the shower passes, the same sign still climbs the sky.",
+     "start": 1.322,
+     "end": 9.761
+    },
+    {
+     "text": "Children point at it.",
+     "start": 9.761,
+     "end": 11.083
+    },
+    {
+     "text": "Nobody runs from it.",
+     "start": 11.083,
+     "end": 12.343
+    },
+    {
+     "text": "That is what it feels like to live inside a promise God is keeping.",
+     "start": 12.343,
+     "end": 16.562
+    }
+   ]
+  },
+  {
+   "seg": "n11",
+   "v1_still": "s12-the-promise-keeper.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "This is the God the whole story has been about. A God who knows exactly what frightens his people, and answers fear with beauty instead of blame. A God who binds himself with promises, and then keeps them. He has not changed.",
+   "seg_start": 235.479,
+   "audio_start": 235.759,
+   "spoken_end": 249.559,
+   "seg_end": 250.209,
+   "audio_dur": 14.211,
+   "spoken_dur": 13.8,
+   "seg_dur": 14.73,
+   "timing": [
+    {
+     "text": "This is the God the whole story has been about.",
+     "start": 0.0,
+     "end": 3.009
+    },
+    {
+     "text": "A God who knows exactly what frightens his people, and answers fear with beauty instead of blame.",
+     "start": 3.009,
+     "end": 9.218
+    },
+    {
+     "text": "A God who binds himself with promises, and then keeps them.",
+     "start": 9.218,
+     "end": 12.994
+    },
+    {
+     "text": "He has not changed.",
+     "start": 12.994,
+     "end": 14.211
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "After the flood, God made a one-way promise, and hung the reminder where he himself would see it. The next rainbow you see is God remembering. What might change for you, if you believed he keeps his promises?",
+  "seg_start": 250.209,
+  "audio_start": 250.489,
+  "seg_dur": 13.483
+ },
+ "total": 263.692
+}

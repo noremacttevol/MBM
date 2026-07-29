@@ -1,0 +1,162 @@
+{
+ "row": 199,
+ "slug": "build-199-fishers-and-hunters",
+ "v1_dir": "media-production/build-199-fishers-and-hunters",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-the-fishers.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The prophet Jeremiah spoke a hard word to a people who would not turn. The LORD said He would send searchers \u2014 and no hiding place would be far enough.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 8.309,
+   "seg_end": 8.959,
+   "audio_dur": 8.385,
+   "spoken_dur": 8.029,
+   "seg_dur": 8.959,
+   "timing": [
+    {
+     "text": "The prophet Jeremiah spoke a hard word to a people who would not turn.",
+     "start": 0.0,
+     "end": 3.576
+    },
+    {
+     "text": "The LORD said He would send searchers \u2014 and no hiding place would be far enough.",
+     "start": 3.576,
+     "end": 8.359
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "v1_still": "s2-the-hunters.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "Behold, I will send for many fishers, saith the LORD, and they shall fish them; and after will I send for many hunters, and they shall hunt them from every mountain, and from every hill, and out of the holes of the rocks.",
+   "seg_start": 8.959,
+   "audio_start": 9.239,
+   "spoken_end": 26.424,
+   "seg_end": 28.024,
+   "audio_dur": 17.58,
+   "spoken_dur": 17.185,
+   "seg_dur": 19.065,
+   "timing": [
+    {
+     "text": "Behold, I will send for many fishers, saith the LORD, and they shall fish them; and after will I send for many hunters, and they shall hunt them from every mountain, and from every hill, and out of the holes of the rocks.",
+     "start": 0.0,
+     "end": 17.554
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-the-hunters.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "It is a picture of judgment \u2014 the nets and the hunt find everyone.",
+   "seg_start": 28.024,
+   "audio_start": 28.304,
+   "spoken_end": 32.224,
+   "seg_end": 32.874,
+   "audio_dur": 4.362,
+   "spoken_dur": 3.92,
+   "seg_dur": 4.85,
+   "timing": [
+    {
+     "text": "It is a picture of judgment \u2014 the nets and the hunt find everyone.",
+     "start": 0.0,
+     "end": 4.319
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s3-found-by-an-open-hand.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But hear the mercy underneath: the same God who sends the search is the one who wants them found, not lost. Judgment is the last call, not the first.",
+   "seg_start": 32.874,
+   "audio_start": 33.154,
+   "spoken_end": 41.966,
+   "seg_end": 42.616,
+   "audio_dur": 9.221,
+   "spoken_dur": 8.813,
+   "seg_dur": 9.743,
+   "timing": [
+    {
+     "text": "But hear the mercy underneath: the same God who sends the search is the one who wants them found, not lost.",
+     "start": 0.0,
+     "end": 5.944
+    },
+    {
+     "text": "Judgment is the last call, not the first.",
+     "start": 5.944,
+     "end": 9.195
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s4-the-weight-of-love-in-the-warning.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The point was never the catching \u2014 it was that a holy God would not let His people slip away unnamed. He seeks, even when seeking means discipline.",
+   "seg_start": 42.616,
+   "audio_start": 42.896,
+   "spoken_end": 51.43,
+   "seg_end": 52.08,
+   "audio_dur": 8.96,
+   "spoken_dur": 8.534,
+   "seg_dur": 9.464,
+   "timing": [
+    {
+     "text": "The point was never the catching \u2014 it was that a holy God would not let His people slip away unnamed.",
+     "start": 0.0,
+     "end": 5.642
+    },
+    {
+     "text": "He seeks, even when seeking means discipline.",
+     "start": 5.642,
+     "end": 8.916
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s5-the-search-reframed.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "For us the picture flips into hope: the Fisher of men searches still, not to condemn, but to bring home whoever will be found.",
+   "seg_start": 52.08,
+   "audio_start": 52.36,
+   "spoken_end": 60.232,
+   "seg_end": 60.882,
+   "audio_dur": 8.202,
+   "spoken_dur": 7.872,
+   "seg_dur": 8.802,
+   "timing": [
+    {
+     "text": "For us the picture flips into hope: the Fisher of men searches still, not to condemn, but to bring home whoever will be found.",
+     "start": 0.0,
+     "end": 8.173
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "The hunt was a wake-up, not a goodbye. He's still searching for you \u2014 let yourself be found.",
+  "seg_start": 60.882,
+  "audio_start": 61.162,
+  "seg_dur": 7.631
+ },
+ "total": 68.514
+}

@@ -1,0 +1,291 @@
+{
+ "row": 156,
+ "slug": "build-156-famine-of-hearing",
+ "v1_dir": "media-production/build-156-famine-of-hearing",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-amos-foretells.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The prophet Amos gave his people a strange warning. A famine is coming, he said. But not the kind you are picturing. There would be bread on the tables and water in the wells, and still the land would starve.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 11.956,
+   "seg_end": 12.606,
+   "audio_dur": 12.069,
+   "spoken_dur": 11.676,
+   "seg_dur": 12.606,
+   "timing": [
+    {
+     "text": "The prophet Amos gave his people a strange warning.",
+     "start": 0.0,
+     "end": 2.601
+    },
+    {
+     "text": "A famine is coming, he said.",
+     "start": 2.601,
+     "end": 4.737
+    },
+    {
+     "text": "But not the kind you are picturing.",
+     "start": 4.737,
+     "end": 6.885
+    },
+    {
+     "text": "There would be bread on the tables and water in the wells, and still the land would starve.",
+     "start": 6.885,
+     "end": 12.028
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-fed-but-hollow.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "It would be a famine of a different kind \u2014 a hunger for the word of God. A time when the living voice from heaven grew scarce, and people ached for it without always knowing what the ache even was.",
+   "seg_start": 12.606,
+   "audio_start": 12.886,
+   "spoken_end": 24.496,
+   "seg_end": 25.146,
+   "audio_dur": 12.016,
+   "spoken_dur": 11.609,
+   "seg_dur": 12.539,
+   "timing": [
+    {
+     "text": "It would be a famine of a different kind \u2014 a hunger for the word of God.",
+     "start": 0.0,
+     "end": 4.412
+    },
+    {
+     "text": "A time when the living voice from heaven grew scarce, and people ached for it without always knowing what the ache even was.",
+     "start": 4.412,
+     "end": 11.981
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-the-hollow-place.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "You could go about your days, eat your fill, and still feel a hollow place inside that no meal could reach \u2014 a quiet starving of the soul for something true and living from God.",
+   "seg_start": 25.146,
+   "audio_start": 25.426,
+   "spoken_end": 34.831,
+   "seg_end": 35.481,
+   "audio_dur": 9.796,
+   "spoken_dur": 9.405,
+   "seg_dur": 10.335,
+   "timing": [
+    {
+     "text": "You could go about your days, eat your fill, and still feel a hollow place inside that no meal could reach \u2014 a quiet starving of the soul for something true and living from God.",
+     "start": 0.0,
+     "end": 9.752
+    }
+   ]
+  },
+  {
+   "seg": "kv11",
+   "v1_still": "s4-the-empty-shelf.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "Behold, the days come, saith the Lord GOD, that I will send a famine in the land, not a famine of bread, nor a thirst for water, but of hearing the words of the LORD:",
+   "seg_start": 35.481,
+   "audio_start": 35.761,
+   "spoken_end": 48.822,
+   "seg_end": 50.422,
+   "audio_dur": 13.453,
+   "spoken_dur": 13.06,
+   "seg_dur": 14.94,
+   "timing": [
+    {
+     "text": "Behold, the days come, saith the Lord GOD, that I will send a famine in the land, not a famine of bread, nor a thirst for water, but of hearing the words of the LORD:",
+     "start": 0.0,
+     "end": 13.421
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-the-empty-shelf.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "And when people feel that kind of hunger, they do what hungry people do. They go looking. They search high and low, near and far, hoping to stumble on the thing that will finally fill them.",
+   "seg_start": 50.422,
+   "audio_start": 50.702,
+   "spoken_end": 61.88,
+   "seg_end": 62.53,
+   "audio_dur": 11.52,
+   "spoken_dur": 11.179,
+   "seg_dur": 12.109,
+   "timing": [
+    {
+     "text": "And when people feel that kind of hunger, they do what hungry people do.",
+     "start": 0.0,
+     "end": 3.808
+    },
+    {
+     "text": "They go looking.",
+     "start": 3.808,
+     "end": 5.12
+    },
+    {
+     "text": "They search high and low, near and far, hoping to stumble on the thing that will finally fill them.",
+     "start": 5.12,
+     "end": 11.471
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-wandering-to-seek.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Amos saw them wandering from one end of the world to the other, running here and there, chasing every rumor of where the word of God might still be found.",
+   "seg_start": 62.53,
+   "audio_start": 62.81,
+   "spoken_end": 70.975,
+   "seg_end": 71.625,
+   "audio_dur": 8.542,
+   "spoken_dur": 8.165,
+   "seg_dur": 9.095,
+   "timing": [
+    {
+     "text": "Amos saw them wandering from one end of the world to the other, running here and there, chasing every rumor of where the word of God might still be found.",
+     "start": 0.0,
+     "end": 8.499
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s6-seeking-not-finding.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But in a famine of the word, the seeking alone does not satisfy. They looked, and looked, and could not lay hold of it \u2014 because what they were hungry for had grown rare in the land.",
+   "seg_start": 71.625,
+   "audio_start": 71.905,
+   "spoken_end": 82.636,
+   "seg_end": 83.286,
+   "audio_dur": 11.102,
+   "spoken_dur": 10.731,
+   "seg_dur": 11.661,
+   "timing": [
+    {
+     "text": "But in a famine of the word, the seeking alone does not satisfy.",
+     "start": 0.0,
+     "end": 4.122
+    },
+    {
+     "text": "They looked, and looked, and could not lay hold of it \u2014 because what they were hungry for had grown rare in the land.",
+     "start": 4.122,
+     "end": 11.053
+    }
+   ]
+  },
+  {
+   "seg": "kv12",
+   "v1_still": "s7-from-sea-to-sea.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "And they shall wander from sea to sea, and from the north even to the east, they shall run to and fro to seek the word of the LORD, and shall not find it.",
+   "seg_start": 83.286,
+   "audio_start": 83.566,
+   "spoken_end": 93.133,
+   "seg_end": 94.733,
+   "audio_dur": 10.057,
+   "spoken_dur": 9.567,
+   "seg_dur": 11.447,
+   "timing": [
+    {
+     "text": "And they shall wander from sea to sea, and from the north even to the east, they shall run to and fro to seek the word of the LORD, and shall not find it.",
+     "start": 0.0,
+     "end": 10.031
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s7-from-sea-to-sea.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "But think about what that hunger really means. You do not ache for what was never real. The very fact that a soul can starve for God's word is proof that such a word exists, and that it was always meant to be found.",
+   "seg_start": 94.733,
+   "audio_start": 95.013,
+   "spoken_end": 107.267,
+   "seg_end": 107.917,
+   "audio_dur": 12.617,
+   "spoken_dur": 12.254,
+   "seg_dur": 13.184,
+   "timing": [
+    {
+     "text": "But think about what that hunger really means.",
+     "start": 0.0,
+     "end": 2.426
+    },
+    {
+     "text": "You do not ache for what was never real.",
+     "start": 2.426,
+     "end": 5.085
+    },
+    {
+     "text": "The very fact that a soul can starve for God's word is proof that such a word exists, and that it was always meant to be found.",
+     "start": 5.085,
+     "end": 12.585
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s8-the-word-returns.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So a famine is never the end of the story; it is the ache that comes right before the harvest. God does not leave his people hungry forever. So the only question is a hopeful one. When the word is set before you again, will you sit down and eat?",
+   "seg_start": 107.917,
+   "audio_start": 108.197,
+   "spoken_end": 121.909,
+   "seg_end": 122.559,
+   "audio_dur": 14.106,
+   "spoken_dur": 13.711,
+   "seg_dur": 14.641,
+   "timing": [
+    {
+     "text": "So a famine is never the end of the story; it is the ache that comes right before the harvest.",
+     "start": 0.0,
+     "end": 5.062
+    },
+    {
+     "text": "God does not leave his people hungry forever.",
+     "start": 5.062,
+     "end": 7.86
+    },
+    {
+     "text": "So the only question is a hopeful one.",
+     "start": 7.86,
+     "end": 10.112
+    },
+    {
+     "text": "When the word is set before you again, will you sit down and eat?",
+     "start": 10.112,
+     "end": 14.071
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "Amos foretold a famine \u2014 not of bread, but of hearing the word of God. Yet a hunger like that is a promise: you only starve for what is real. When the word is offered again, will you feed on it?",
+  "seg_start": 122.559,
+  "audio_start": 122.839,
+  "seg_dur": 14.92
+ },
+ "total": 137.478
+}

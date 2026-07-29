@@ -1,0 +1,296 @@
+{
+ "row": 27,
+ "slug": "build-27-leaven",
+ "v1_dir": "media-production/build-27-leaven",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.15,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-takes-leaven.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus said the kingdom of God is like something a woman does every week, in her own kitchen, with her own hands.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 6.203,
+   "seg_end": 6.923,
+   "audio_dur": 6.296,
+   "spoken_dur": 5.923,
+   "seg_dur": 6.923,
+   "timing": [
+    {
+     "text": "Jesus said the kingdom of God is like something a woman does every week, in her own kitchen, with her own hands.",
+     "start": 0.0,
+     "end": 6.269
+    }
+   ]
+  },
+  {
+   "seg": "s33",
+   "v1_still": "s1-takes-leaven.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Another parable spake he unto them;",
+   "seg_start": 6.923,
+   "audio_start": 7.203,
+   "spoken_end": 9.301,
+   "seg_end": 10.451,
+   "audio_dur": 2.403,
+   "spoken_dur": 2.099,
+   "seg_dur": 3.529,
+   "timing": [
+    {
+     "text": "Another parable spake he unto them;",
+     "start": 0.0,
+     "end": 2.368
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s1-takes-leaven.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "The kingdom of heaven is like unto leaven, which a woman took, and hid in three measures of meal, till the whole was leavened.",
+   "seg_start": 10.451,
+   "audio_start": 10.731,
+   "spoken_end": 18.386,
+   "seg_end": 19.536,
+   "audio_dur": 8.072,
+   "spoken_dur": 7.655,
+   "seg_dur": 9.085,
+   "timing": [
+    {
+     "text": "The kingdom of heaven is like unto leaven, which a woman took, and hid in three measures of meal, till the whole was leavened.",
+     "start": 0.0,
+     "end": 8.034
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s1-takes-leaven.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Leaven is just a little piece of old, living dough, what we would call a sourdough starter. Small. Plain. Easy to overlook.",
+   "seg_start": 19.536,
+   "audio_start": 19.816,
+   "spoken_end": 28.288,
+   "seg_end": 29.008,
+   "audio_dur": 8.908,
+   "spoken_dur": 8.472,
+   "seg_dur": 9.472,
+   "timing": [
+    {
+     "text": "Leaven is just a little piece of old, living dough, what we would call a sourdough starter.",
+     "start": 0.0,
+     "end": 5.283
+    },
+    {
+     "text": "Small.",
+     "start": 5.283,
+     "end": 6.42
+    },
+    {
+     "text": "Plain.",
+     "start": 6.42,
+     "end": 7.454
+    },
+    {
+     "text": "Easy to overlook.",
+     "start": 7.454,
+     "end": 8.87
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s2-three-measures.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And three measures of meal is not a small bowl. It is an enormous amount of flour, enough bread to feed a hundred people.",
+   "seg_start": 29.008,
+   "audio_start": 29.288,
+   "spoken_end": 35.716,
+   "seg_end": 36.436,
+   "audio_dur": 6.818,
+   "spoken_dur": 6.428,
+   "seg_dur": 7.428,
+   "timing": [
+    {
+     "text": "And three measures of meal is not a small bowl.",
+     "start": 0.0,
+     "end": 2.426
+    },
+    {
+     "text": "It is an enormous amount of flour, enough bread to feed a hundred people.",
+     "start": 2.426,
+     "end": 6.78
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s3-hides-it-in.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "She takes that tiny bit of leaven and works it down deep into the whole mass, hiding it, until you cannot even see where it went.",
+   "seg_start": 36.436,
+   "audio_start": 36.716,
+   "spoken_end": 44.25,
+   "seg_end": 44.97,
+   "audio_dur": 7.967,
+   "spoken_dur": 7.534,
+   "seg_dur": 8.534,
+   "timing": [
+    {
+     "text": "She takes that tiny bit of leaven and works it down deep into the whole mass, hiding it, until you cannot even see where it went.",
+     "start": 0.0,
+     "end": 7.941
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s4-covered-waiting.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then she covers it and waits. Nothing looks like it is happening. No noise, no show, no spectacle. Just quiet, hidden time.",
+   "seg_start": 44.97,
+   "audio_start": 45.25,
+   "spoken_end": 54.243,
+   "seg_end": 54.963,
+   "audio_dur": 9.43,
+   "spoken_dur": 8.993,
+   "seg_dur": 9.993,
+   "timing": [
+    {
+     "text": "Then she covers it and waits.",
+     "start": 0.0,
+     "end": 1.649
+    },
+    {
+     "text": "Nothing looks like it is happening.",
+     "start": 1.649,
+     "end": 3.808
+    },
+    {
+     "text": "No noise, no show, no spectacle.",
+     "start": 3.808,
+     "end": 6.536
+    },
+    {
+     "text": "Just quiet, hidden time.",
+     "start": 6.536,
+     "end": 9.381
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s5-risen.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But inside, the leaven is spreading through every part of the dough. And by morning the whole heavy mass has risen, alive, changed all the way through.",
+   "seg_start": 54.963,
+   "audio_start": 55.243,
+   "spoken_end": 64.617,
+   "seg_end": 65.337,
+   "audio_dur": 9.744,
+   "spoken_dur": 9.374,
+   "seg_dur": 10.374,
+   "timing": [
+    {
+     "text": "But inside, the leaven is spreading through every part of the dough.",
+     "start": 0.0,
+     "end": 3.077
+    },
+    {
+     "text": "And by morning the whole heavy mass has risen, alive, changed all the way through.",
+     "start": 3.077,
+     "end": 9.706
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s6-baked-bread.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That, Jesus said, is how the kingdom of God works. Not by force. Not by noise. It starts small and hidden, and it quietly changes everything it touches, from the inside out.",
+   "seg_start": 65.337,
+   "audio_start": 65.617,
+   "spoken_end": 78.204,
+   "seg_end": 78.924,
+   "audio_dur": 12.983,
+   "spoken_dur": 12.587,
+   "seg_dur": 13.587,
+   "timing": [
+    {
+     "text": "That, Jesus said, is how the kingdom of God works.",
+     "start": 0.0,
+     "end": 3.355
+    },
+    {
+     "text": "Not by force.",
+     "start": 3.355,
+     "end": 4.807
+    },
+    {
+     "text": "Not by noise.",
+     "start": 4.807,
+     "end": 6.002
+    },
+    {
+     "text": "It starts small and hidden, and it quietly changes everything it touches, from the inside out.",
+     "start": 6.002,
+     "end": 12.957
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s7-bread-to-table.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That is how good he is. He does not overpower you. He works gently, patiently, from within, until the whole of you is warmed and changed and made into something that can feed other people.",
+   "seg_start": 78.924,
+   "audio_start": 79.204,
+   "spoken_end": 90.839,
+   "seg_end": 91.559,
+   "audio_dur": 12.016,
+   "spoken_dur": 11.635,
+   "seg_dur": 12.635,
+   "timing": [
+    {
+     "text": "That is how good he is.",
+     "start": 0.0,
+     "end": 1.451
+    },
+    {
+     "text": "He does not overpower you.",
+     "start": 1.451,
+     "end": 3.39
+    },
+    {
+     "text": "He works gently, patiently, from within, until the whole of you is warmed and changed and made into something that can feed other people.",
+     "start": 3.39,
+     "end": 11.981
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "God is often working quietest right where you cannot see it yet. Where might he already be at work inside you?",
+  "seg_start": 91.559,
+  "audio_start": 91.839,
+  "seg_dur": 8.911
+ },
+ "total": 100.47
+}

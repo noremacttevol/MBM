@@ -1,0 +1,235 @@
+{
+ "row": 196,
+ "slug": "build-196-would-god-all-were-prophets",
+ "v1_dir": "media-production/build-196-would-god-all-were-prophets",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-the-weight.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The weight of leading a whole nation was crushing Moses. He told the LORD he could not carry the people alone, not one more day.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 7.129,
+   "seg_end": 7.779,
+   "audio_dur": 7.236,
+   "spoken_dur": 6.849,
+   "seg_dur": 7.779,
+   "timing": [
+    {
+     "text": "The weight of leading a whole nation was crushing Moses.",
+     "start": 0.0,
+     "end": 2.752
+    },
+    {
+     "text": "He told the LORD he could not carry the people alone, not one more day.",
+     "start": 2.752,
+     "end": 7.198
+    }
+   ]
+  },
+  {
+   "seg": "n1a",
+   "v1_still": "s2-gather-me-seventy.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So God told Moses to gather seventy trusted men.",
+   "seg_start": 7.779,
+   "audio_start": 8.059,
+   "spoken_end": 10.782,
+   "seg_end": 11.432,
+   "audio_dur": 3.004,
+   "spoken_dur": 2.723,
+   "seg_dur": 3.653,
+   "timing": [
+    {
+     "text": "So God told Moses to gather seventy trusted men.",
+     "start": 0.0,
+     "end": 2.972
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s3-the-spirit-shared.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He would take some of the Spirit that rested on Moses and share it with them, and together they would help bear the load.",
+   "seg_start": 11.432,
+   "audio_start": 11.712,
+   "spoken_end": 17.405,
+   "seg_end": 18.055,
+   "audio_dur": 6.113,
+   "spoken_dur": 5.693,
+   "seg_dur": 6.623,
+   "timing": [
+    {
+     "text": "He would take some of the Spirit that rested on Moses and share it with them, and together they would help bear the load.",
+     "start": 0.0,
+     "end": 6.084
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-eldad-and-medad.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "When the Spirit came down on those seventy, they began to speak God's words. But two men, Eldad and Medad, had stayed back in the camp \u2014 and the Spirit came on them too, right there among the tents.",
+   "seg_start": 18.055,
+   "audio_start": 18.335,
+   "spoken_end": 30.049,
+   "seg_end": 30.699,
+   "audio_dur": 12.069,
+   "spoken_dur": 11.713,
+   "seg_dur": 12.643,
+   "timing": [
+    {
+     "text": "When the Spirit came down on those seventy, they began to speak God's words.",
+     "start": 0.0,
+     "end": 3.994
+    },
+    {
+     "text": "But two men, Eldad and Medad, had stayed back in the camp \u2014 and the Spirit came on them too, right there among the tents.",
+     "start": 3.994,
+     "end": 12.028
+    }
+   ]
+  },
+  {
+   "seg": "n3a",
+   "v1_still": "s5-the-runner.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "A runner hurried to Moses with the news.",
+   "seg_start": 30.699,
+   "audio_start": 30.979,
+   "spoken_end": 32.733,
+   "seg_end": 33.383,
+   "audio_dur": 2.116,
+   "spoken_dur": 1.754,
+   "seg_dur": 2.684,
+   "timing": [
+    {
+     "text": "A runner hurried to Moses with the news.",
+     "start": 0.0,
+     "end": 2.09
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s6-forbid-them.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Joshua, Moses's right-hand man, was worried \u2014 stop them, he said. That is not how it is supposed to work.",
+   "seg_start": 33.383,
+   "audio_start": 33.663,
+   "spoken_end": 40.562,
+   "seg_end": 41.212,
+   "audio_dur": 7.367,
+   "spoken_dur": 6.9,
+   "seg_dur": 7.83,
+   "timing": [
+    {
+     "text": "Joshua, Moses's right-hand man, was worried \u2014 stop them, he said.",
+     "start": 0.0,
+     "end": 5.016
+    },
+    {
+     "text": "That is not how it is supposed to work.",
+     "start": 5.016,
+     "end": 7.338
+    }
+   ]
+  },
+  {
+   "seg": "s0",
+   "v1_still": "s6-forbid-them.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "My lord Moses, forbid them.",
+   "seg_start": 41.212,
+   "audio_start": 41.492,
+   "spoken_end": 42.917,
+   "seg_end": 44.517,
+   "audio_dur": 1.515,
+   "spoken_dur": 1.424,
+   "seg_dur": 3.304,
+   "timing": [
+    {
+     "text": "My lord Moses, forbid them.",
+     "start": 0.0,
+     "end": 1.486
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "v1_still": "s7-the-generous-answer.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Enviest thou me for my sake? would God that all the LORD's people were prophets, and that the LORD would put his spirit upon them!",
+   "seg_start": 44.517,
+   "audio_start": 44.797,
+   "spoken_end": 51.504,
+   "seg_end": 53.104,
+   "audio_dur": 7.053,
+   "spoken_dur": 6.707,
+   "seg_dur": 8.587,
+   "timing": [
+    {
+     "text": "Enviest thou me for my sake?",
+     "start": 0.0,
+     "end": 1.66
+    },
+    {
+     "text": "would God that all the LORD's people were prophets, and that the LORD would put his spirit upon them!",
+     "start": 1.66,
+     "end": 7.012
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s8-the-wish-over-every-tent.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "One of the most generous answers in all of scripture. Moses did not guard the gift \u2014 he wished it wider.",
+   "seg_start": 53.104,
+   "audio_start": 53.384,
+   "spoken_end": 59.193,
+   "seg_end": 59.843,
+   "audio_dur": 6.217,
+   "spoken_dur": 5.809,
+   "seg_dur": 6.739,
+   "timing": [
+    {
+     "text": "One of the most generous answers in all of scripture.",
+     "start": 0.0,
+     "end": 2.357
+    },
+    {
+     "text": "Moses did not guard the gift \u2014 he wished it wider.",
+     "start": 2.357,
+     "end": 6.177
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "Moses did not guard the gift \u2014 he wished it for everyone. The same Spirit is offered to you. Ask, and receive.",
+  "seg_start": 59.843,
+  "audio_start": 60.123,
+  "seg_dur": 8.885
+ },
+ "total": 68.728
+}

@@ -1,0 +1,287 @@
+{
+ "row": 77,
+ "slug": "build-77-widows-mite",
+ "v1_dir": "media-production/build-77-widows-mite",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-he-sat-and-watched.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus sat down across from the temple treasury and just watched people give.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 4.545,
+   "seg_end": 5.265,
+   "audio_dur": 4.728,
+   "spoken_dur": 4.265,
+   "seg_dur": 5.265,
+   "timing": [
+    {
+     "text": "Jesus sat down across from the temple treasury and just watched people give.",
+     "start": 0.0,
+     "end": 4.69
+    }
+   ]
+  },
+  {
+   "seg": "s41",
+   "v1_still": "s1-he-sat-and-watched.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "And Jesus sat over against the treasury, and beheld how the people cast money into the treasury: and many that were rich cast in much.",
+   "seg_start": 5.265,
+   "audio_start": 5.545,
+   "spoken_end": 13.531,
+   "seg_end": 15.131,
+   "audio_dur": 8.385,
+   "spoken_dur": 7.986,
+   "seg_dur": 9.866,
+   "timing": [
+    {
+     "text": "And Jesus sat over against the treasury, and beheld how the people cast money into the treasury: and many that were rich cast in much.",
+     "start": 0.0,
+     "end": 8.359
+    }
+   ]
+  },
+  {
+   "seg": "n1a",
+   "v1_still": "s2-the-flourish.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He sat down facing the collection boxes and watched how people put their money in. And the rich came through and put in large amounts.",
+   "seg_start": 15.131,
+   "audio_start": 15.411,
+   "spoken_end": 22.402,
+   "seg_end": 23.122,
+   "audio_dur": 7.34,
+   "spoken_dur": 6.992,
+   "seg_dur": 7.992,
+   "timing": [
+    {
+     "text": "He sat down facing the collection boxes and watched how people put their money in.",
+     "start": 0.0,
+     "end": 4.11
+    },
+    {
+     "text": "And the rich came through and put in large amounts.",
+     "start": 4.11,
+     "end": 7.291
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s3-the-parade.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "You could hear the coins land, and everyone noticed.",
+   "seg_start": 23.122,
+   "audio_start": 23.402,
+   "spoken_end": 26.053,
+   "seg_end": 26.773,
+   "audio_dur": 3.109,
+   "spoken_dur": 2.651,
+   "seg_dur": 3.651,
+   "timing": [
+    {
+     "text": "You could hear the coins land, and everyone noticed.",
+     "start": 0.0,
+     "end": 3.065
+    }
+   ]
+  },
+  {
+   "seg": "n2a",
+   "v1_still": "s4-small-and-unnoticed.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then a poor widow came, small and unnoticed.",
+   "seg_start": 26.773,
+   "audio_start": 27.053,
+   "spoken_end": 29.596,
+   "seg_end": 30.316,
+   "audio_dur": 2.952,
+   "spoken_dur": 2.542,
+   "seg_dur": 3.542,
+   "timing": [
+    {
+     "text": "Then a poor widow came, small and unnoticed.",
+     "start": 0.0,
+     "end": 2.926
+    }
+   ]
+  },
+  {
+   "seg": "s42",
+   "v1_still": "s5-two-mites.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And there came a certain poor widow, and she threw in two mites, which make a farthing.",
+   "seg_start": 30.316,
+   "audio_start": 30.596,
+   "spoken_end": 35.229,
+   "seg_end": 36.829,
+   "audio_dur": 5.016,
+   "spoken_dur": 4.634,
+   "seg_dur": 6.514,
+   "timing": [
+    {
+     "text": "And there came a certain poor widow, and she threw in two mites, which make a farthing.",
+     "start": 0.0,
+     "end": 4.969
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s5-two-mites.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "She put in two tiny copper coins \u2014 together worth less than a penny. That is the whole of what Mark records about her. She does not say a word, and nobody in that courtyard looks up.",
+   "seg_start": 36.829,
+   "audio_start": 37.109,
+   "spoken_end": 48.263,
+   "seg_end": 48.983,
+   "audio_dur": 11.598,
+   "spoken_dur": 11.154,
+   "seg_dur": 12.154,
+   "timing": [
+    {
+     "text": "She put in two tiny copper coins \u2014 together worth less than a penny.",
+     "start": 0.0,
+     "end": 4.667
+    },
+    {
+     "text": "That is the whole of what Mark records about her.",
+     "start": 4.667,
+     "end": 7.639
+    },
+    {
+     "text": "She does not say a word, and nobody in that courtyard looks up.",
+     "start": 7.639,
+     "end": 11.564
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s6-he-saw-it.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus called his disciples over, like he had just seen the most important thing all day.",
+   "seg_start": 48.983,
+   "audio_start": 49.263,
+   "spoken_end": 53.897,
+   "seg_end": 54.617,
+   "audio_dur": 5.042,
+   "spoken_dur": 4.634,
+   "seg_dur": 5.634,
+   "timing": [
+    {
+     "text": "Jesus called his disciples over, like he had just seen the most important thing all day.",
+     "start": 0.0,
+     "end": 5.016
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s7-more-than-all-of-them.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Verily I say unto you, That this poor widow hath cast more in, than all they which have cast into the treasury: for all they did cast in of their abundance; but she of her want did cast in all that she had, even all her living.",
+   "seg_start": 54.617,
+   "audio_start": 54.897,
+   "spoken_end": 71.53,
+   "seg_end": 73.13,
+   "audio_dur": 17.084,
+   "spoken_dur": 16.633,
+   "seg_dur": 18.513,
+   "timing": [
+    {
+     "text": "Verily I say unto you, That this poor widow hath cast more in, than all they which have cast into the treasury: for all they did cast in of their abundance; but she of her want did cast in all that she had, even all her living.",
+     "start": 0.0,
+     "end": 17.043
+    }
+   ]
+  },
+  {
+   "seg": "n4a",
+   "v1_still": "s8-she-never-knew.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "I'm telling you the truth, he said \u2014 this poor widow has put in more than every one of them. They gave out of what they had spare. She gave out of what she did not have. Everyone else gave from what they had left over. She gave from what she needed.",
+   "seg_start": 73.13,
+   "audio_start": 73.41,
+   "spoken_end": 88.646,
+   "seg_end": 89.366,
+   "audio_dur": 15.647,
+   "spoken_dur": 15.236,
+   "seg_dur": 16.236,
+   "timing": [
+    {
+     "text": "I'm telling you the truth, he said \u2014 this poor widow has put in more than every one of them.",
+     "start": 0.0,
+     "end": 5.538
+    },
+    {
+     "text": "They gave out of what they had spare.",
+     "start": 5.538,
+     "end": 7.674
+    },
+    {
+     "text": "She gave out of what she did not have.",
+     "start": 7.674,
+     "end": 10.472
+    },
+    {
+     "text": "Everyone else gave from what they had left over.",
+     "start": 10.472,
+     "end": 13.282
+    },
+    {
+     "text": "She gave from what she needed.",
+     "start": 13.282,
+     "end": 15.604
+    }
+   ]
+  },
+  {
+   "seg": "n4b",
+   "v1_still": "s9-heavens-math.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Heaven does the math differently than we do.",
+   "seg_start": 89.366,
+   "audio_start": 89.646,
+   "spoken_end": 91.51,
+   "seg_end": 92.23,
+   "audio_dur": 2.273,
+   "spoken_dur": 1.864,
+   "seg_dur": 2.864,
+   "timing": [
+    {
+     "text": "Heaven does the math differently than we do.",
+     "start": 0.0,
+     "end": 2.229
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He noticed the gift no one else did. What might he already see in you that others overlook?",
+  "seg_start": 92.23,
+  "audio_start": 92.51,
+  "seg_dur": 7.031
+ },
+ "total": 99.261
+}

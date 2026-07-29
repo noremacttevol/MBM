@@ -1,0 +1,427 @@
+{
+ "row": 35,
+ "slug": "build-35-great-banquet",
+ "v1_dir": "media-production/build-35-great-banquet",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.15,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "s16",
+   "v1_still": "s1-feast-ready.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Then said he unto him,",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 1.512,
+   "seg_end": 2.662,
+   "audio_dur": 1.567,
+   "spoken_dur": 1.232,
+   "seg_dur": 2.662,
+   "timing": [
+    {
+     "text": "Then said he unto him,",
+     "start": 0.0,
+     "end": 1.533
+    }
+   ]
+  },
+  {
+   "seg": "j16",
+   "v1_still": "s1-feast-ready.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "A certain man made a great supper, and bade many:",
+   "seg_start": 2.662,
+   "audio_start": 2.942,
+   "spoken_end": 5.769,
+   "seg_end": 6.919,
+   "audio_dur": 3.239,
+   "spoken_dur": 2.826,
+   "seg_dur": 4.256,
+   "timing": [
+    {
+     "text": "A certain man made a great supper, and bade many:",
+     "start": 0.0,
+     "end": 3.204
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s1-feast-ready.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "A man threw a great feast. He prepared everything, the finest food, the tables set, every place ready, and he sent out his invitations.",
+   "seg_start": 6.919,
+   "audio_start": 7.199,
+   "spoken_end": 16.564,
+   "seg_end": 17.284,
+   "audio_dur": 9.744,
+   "spoken_dur": 9.365,
+   "seg_dur": 10.365,
+   "timing": [
+    {
+     "text": "A man threw a great feast.",
+     "start": 0.0,
+     "end": 1.544
+    },
+    {
+     "text": "He prepared everything, the finest food, the tables set, every place ready, and he sent out his invitations.",
+     "start": 1.544,
+     "end": 9.706
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-servant-sent.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "When the feast was ready, he sent his servant to tell the invited guests, come, for everything is ready now.",
+   "seg_start": 17.284,
+   "audio_start": 17.564,
+   "spoken_end": 23.193,
+   "seg_end": 23.913,
+   "audio_dur": 6.034,
+   "spoken_dur": 5.629,
+   "seg_dur": 6.629,
+   "timing": [
+    {
+     "text": "When the feast was ready, he sent his servant to tell the invited guests, come, for everything is ready now.",
+     "start": 0.0,
+     "end": 5.991
+    }
+   ]
+  },
+  {
+   "seg": "j18",
+   "v1_still": "s3-excuses.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "I have bought a piece of ground, and I must needs go and see it: I pray thee have me excused.",
+   "seg_start": 23.913,
+   "audio_start": 24.193,
+   "spoken_end": 30.319,
+   "seg_end": 31.469,
+   "audio_dur": 6.531,
+   "spoken_dur": 6.127,
+   "seg_dur": 7.557,
+   "timing": [
+    {
+     "text": "I have bought a piece of ground, and I must needs go and see it: I pray thee have me excused.",
+     "start": 0.0,
+     "end": 6.502
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-excuses.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "But one by one, they all made excuses. One had just bought a field and had to go see it. One had bought oxen and had to try them out. One had just married, and simply would not come.",
+   "seg_start": 31.469,
+   "audio_start": 31.749,
+   "spoken_end": 42.29,
+   "seg_end": 43.01,
+   "audio_dur": 10.945,
+   "spoken_dur": 10.541,
+   "seg_dur": 11.541,
+   "timing": [
+    {
+     "text": "But one by one, they all made excuses.",
+     "start": 0.0,
+     "end": 2.543
+    },
+    {
+     "text": "One had just bought a field and had to go see it.",
+     "start": 2.543,
+     "end": 5.236
+    },
+    {
+     "text": "One had bought oxen and had to try them out.",
+     "start": 5.236,
+     "end": 7.837
+    },
+    {
+     "text": "One had just married, and simply would not come.",
+     "start": 7.837,
+     "end": 10.913
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s3-excuses.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "They were not evil people. They were just busy. Their own plans felt more urgent than the joy waiting for them at his table.",
+   "seg_start": 43.01,
+   "audio_start": 43.29,
+   "spoken_end": 50.39,
+   "seg_end": 51.11,
+   "audio_dur": 7.523,
+   "spoken_dur": 7.099,
+   "seg_dur": 8.099,
+   "timing": [
+    {
+     "text": "They were not evil people.",
+     "start": 0.0,
+     "end": 1.324
+    },
+    {
+     "text": "They were just busy.",
+     "start": 1.324,
+     "end": 3.019
+    },
+    {
+     "text": "Their own plans felt more urgent than the joy waiting for them at his table.",
+     "start": 3.019,
+     "end": 7.477
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s4-servant-returns.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The servant came back alone. And here is where you would expect the host to cancel the feast, hurt and offended. He did not.",
+   "seg_start": 51.11,
+   "audio_start": 51.39,
+   "spoken_end": 58.105,
+   "seg_end": 58.825,
+   "audio_dur": 7.131,
+   "spoken_dur": 6.715,
+   "seg_dur": 7.715,
+   "timing": [
+    {
+     "text": "The servant came back alone.",
+     "start": 0.0,
+     "end": 1.358
+    },
+    {
+     "text": "And here is where you would expect the host to cancel the feast, hurt and offended.",
+     "start": 1.358,
+     "end": 5.77
+    },
+    {
+     "text": "He did not.",
+     "start": 5.77,
+     "end": 7.105
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s5-to-the-streets.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Go out quickly into the streets and lanes of the city, and bring in hither the poor, and the maimed, and the halt, and the blind.",
+   "seg_start": 58.825,
+   "audio_start": 59.105,
+   "spoken_end": 66.97,
+   "seg_end": 68.12,
+   "audio_dur": 8.255,
+   "spoken_dur": 7.865,
+   "seg_dur": 9.295,
+   "timing": [
+    {
+     "text": "Go out quickly into the streets and lanes of the city, and bring in hither the poor, and the maimed, and the halt, and the blind.",
+     "start": 0.0,
+     "end": 8.22
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s5-to-the-streets.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Go out into the streets, he said, and bring in the poor, the crippled, the blind, everyone the respectable guests would never have invited.",
+   "seg_start": 68.12,
+   "audio_start": 68.4,
+   "spoken_end": 76.326,
+   "seg_end": 77.046,
+   "audio_dur": 8.359,
+   "spoken_dur": 7.926,
+   "seg_dur": 8.926,
+   "timing": [
+    {
+     "text": "Go out into the streets, he said, and bring in the poor, the crippled, the blind, everyone the respectable guests would never have invited.",
+     "start": 0.0,
+     "end": 8.313
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s6-bringing-them-in.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So the servant went and found them, the overlooked and the left out, and told them there was a seat with their name on it. You can imagine their faces. Nobody had ever invited them to anything.",
+   "seg_start": 77.046,
+   "audio_start": 77.326,
+   "spoken_end": 88.432,
+   "seg_end": 89.152,
+   "audio_dur": 11.52,
+   "spoken_dur": 11.105,
+   "seg_dur": 12.105,
+   "timing": [
+    {
+     "text": "So the servant went and found them, the overlooked and the left out, and told them there was a seat with their name on it.",
+     "start": 0.0,
+     "end": 6.536
+    },
+    {
+     "text": "You can imagine their faces.",
+     "start": 6.536,
+     "end": 8.557
+    },
+    {
+     "text": "Nobody had ever invited them to anything.",
+     "start": 8.557,
+     "end": 11.471
+    }
+   ]
+  },
+  {
+   "seg": "j22",
+   "v1_still": "s6-bringing-them-in.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Lord, it is done as thou hast commanded, and yet there is room.",
+   "seg_start": 89.152,
+   "audio_start": 89.432,
+   "spoken_end": 92.546,
+   "seg_end": 93.696,
+   "audio_dur": 3.527,
+   "spoken_dur": 3.114,
+   "seg_dur": 4.544,
+   "timing": [
+    {
+     "text": "Lord, it is done as thou hast commanded, and yet there is room.",
+     "start": 0.0,
+     "end": 3.483
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s6-bringing-them-in.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And there was still room.",
+   "seg_start": 93.696,
+   "audio_start": 93.976,
+   "spoken_end": 95.199,
+   "seg_end": 95.919,
+   "audio_dur": 1.62,
+   "spoken_dur": 1.223,
+   "seg_dur": 2.223,
+   "timing": [
+    {
+     "text": "And there was still room.",
+     "start": 0.0,
+     "end": 1.579
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s7-table-full.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Go out into the highways and hedges, and compel them to come in, that my house may be filled.",
+   "seg_start": 95.919,
+   "audio_start": 96.199,
+   "spoken_end": 101.636,
+   "seg_end": 102.786,
+   "audio_dur": 5.851,
+   "spoken_dur": 5.437,
+   "seg_dur": 6.867,
+   "timing": [
+    {
+     "text": "Go out into the highways and hedges, and compel them to come in, that my house may be filled.",
+     "start": 0.0,
+     "end": 5.805
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s7-table-full.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Go further out, he said, to the roads and the edges of town, and do not take no for an answer. Make sure they know they are truly wanted, until my house is full.",
+   "seg_start": 102.786,
+   "audio_start": 103.066,
+   "spoken_end": 112.639,
+   "seg_end": 113.359,
+   "audio_dur": 9.979,
+   "spoken_dur": 9.573,
+   "seg_dur": 10.573,
+   "timing": [
+    {
+     "text": "Go further out, he said, to the roads and the edges of town, and do not take no for an answer.",
+     "start": 0.0,
+     "end": 5.41
+    },
+    {
+     "text": "Make sure they know they are truly wanted, until my house is full.",
+     "start": 5.41,
+     "end": 9.938
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s7-table-full.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That is how good he is. When the ones who should have come turned him down, he did not shrink his table. He opened the doors wider. The feast was always going to be full, and there has always been a place at it for you.",
+   "seg_start": 113.359,
+   "audio_start": 113.639,
+   "spoken_end": 126.756,
+   "seg_end": 127.476,
+   "audio_dur": 13.505,
+   "spoken_dur": 13.118,
+   "seg_dur": 14.118,
+   "timing": [
+    {
+     "text": "That is how good he is.",
+     "start": 0.0,
+     "end": 1.486
+    },
+    {
+     "text": "When the ones who should have come turned him down, he did not shrink his table.",
+     "start": 1.486,
+     "end": 6.13
+    },
+    {
+     "text": "He opened the doors wider.",
+     "start": 6.13,
+     "end": 8.011
+    },
+    {
+     "text": "The feast was always going to be full, and there has always been a place at it for you.",
+     "start": 8.011,
+     "end": 13.468
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "The table is set, and there is a seat with your name on it. What excuse have you been giving for not sitting down?",
+  "seg_start": 127.476,
+  "audio_start": 127.756,
+  "seg_dur": 7.762
+ },
+ "total": 135.238
+}

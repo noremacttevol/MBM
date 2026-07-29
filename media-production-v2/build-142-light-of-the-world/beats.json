@@ -1,0 +1,182 @@
+{
+ "row": 142,
+ "slug": "build-142-light-of-the-world",
+ "v1_dir": "media-production/build-142-light-of-the-world",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 1.0,
+  "KJV_GAP": 1.9,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-into-the-noise.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 8.264,
+   "seg_end": 9.264,
+   "audio_dur": 8.385,
+   "spoken_dur": 7.984,
+   "seg_dur": 9.264,
+   "timing": [
+    {
+     "text": "Jesus stood among the temple courts and spoke into the noise of the crowd.",
+     "start": 0.0,
+     "end": 3.483
+    },
+    {
+     "text": "He did not offer another rule for finding God.",
+     "start": 3.483,
+     "end": 6.49
+    },
+    {
+     "text": "He offered himself.",
+     "start": 6.49,
+     "end": 8.359
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s2-the-declaration.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "-20%",
+   "seg_start": 9.264,
+   "audio_start": 9.544,
+   "spoken_end": 15.658,
+   "seg_end": 17.558,
+   "audio_dur": 6.504,
+   "spoken_dur": 6.114,
+   "seg_dur": 8.294,
+   "timing": [
+    {
+     "text": "I am the light of the world: he that followeth me shall not walk in darkness, but shall have the light of life.",
+     "start": 0.0,
+     "end": 6.455
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s3-a-light-that-walks-with-you.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 17.558,
+   "audio_start": 17.838,
+   "spoken_end": 28.314,
+   "seg_end": 29.314,
+   "audio_dur": 10.893,
+   "spoken_dur": 10.476,
+   "seg_dur": 11.756,
+   "timing": [
+    {
+     "text": "Not a lamp that burns out.",
+     "start": 0.0,
+     "end": 1.533
+    },
+    {
+     "text": "A light that walks with you, so you're never feeling your way blind.",
+     "start": 1.533,
+     "end": 6.049
+    },
+    {
+     "text": "It does not pretend the night is harmless.",
+     "start": 6.049,
+     "end": 8.545
+    },
+    {
+     "text": "It gives you someone to follow through it.",
+     "start": 8.545,
+     "end": 10.867
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-the-hand-and-the-closed-eyes.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 29.314,
+   "audio_start": 29.594,
+   "spoken_end": 33.679,
+   "seg_end": 34.679,
+   "audio_dur": 4.493,
+   "spoken_dur": 4.085,
+   "seg_dur": 5.365,
+   "timing": [
+    {
+     "text": "Later, as he met a man who had never seen a face or a sunrise, he said it again.",
+     "start": 0.0,
+     "end": 4.458
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s6-tender-and-certain.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "-22%",
+   "seg_start": 34.679,
+   "audio_start": 34.959,
+   "spoken_end": 37.654,
+   "seg_end": 39.554,
+   "audio_dur": 3.109,
+   "spoken_dur": 2.694,
+   "seg_dur": 4.874,
+   "timing": [
+    {
+     "text": "As long as I am in the world, I am the light of the world.",
+     "start": 0.0,
+     "end": 3.065
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s5-eyes-opening.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "-20%",
+   "seg_start": 39.554,
+   "audio_start": 39.834,
+   "spoken_end": 51.671,
+   "seg_end": 52.671,
+   "audio_dur": 12.251,
+   "spoken_dur": 11.837,
+   "seg_dur": 13.117,
+   "timing": [
+    {
+     "text": "He did not leave the claim floating in the air.",
+     "start": 0.0,
+     "end": 2.043
+    },
+    {
+     "text": "He opened the man's eyes, then stayed with him when the crowd pushed him away.",
+     "start": 2.043,
+     "end": 5.875
+    },
+    {
+     "text": "The sign became an invitation: let Jesus show you what is true, then keep walking with him.",
+     "start": 5.875,
+     "end": 12.214
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "-22%",
+  "seg_start": 52.671,
+  "audio_start": 52.951,
+  "seg_dur": 6.691
+ },
+ "total": 59.362
+}

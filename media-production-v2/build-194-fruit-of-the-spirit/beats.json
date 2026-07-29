@@ -1,0 +1,183 @@
+{
+ "row": 194,
+ "slug": "build-194-fruit-of-the-spirit",
+ "v1_dir": "media-production/build-194-fruit-of-the-spirit",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-the-harvest-of-character.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Paul wrote that when God's Spirit lives in a person, a harvest grows \u2014 not crops, but character.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 6.119,
+   "seg_end": 6.769,
+   "audio_dur": 6.217,
+   "spoken_dur": 5.839,
+   "seg_dur": 6.769,
+   "timing": [
+    {
+     "text": "Paul wrote that when God's Spirit lives in a person, a harvest grows \u2014 not crops, but character.",
+     "start": 0.0,
+     "end": 6.177
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "v1_still": "s2-love.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance: against such there is no law.",
+   "seg_start": 6.769,
+   "audio_start": 7.049,
+   "spoken_end": 17.01,
+   "seg_end": 18.61,
+   "audio_dur": 10.266,
+   "spoken_dur": 9.961,
+   "seg_dur": 11.841,
+   "timing": [
+    {
+     "text": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance: against such there is no law.",
+     "start": 0.0,
+     "end": 10.217
+    }
+   ]
+  },
+  {
+   "seg": "n1a",
+   "v1_still": "s3-joy.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "First, love. Then joy.",
+   "seg_start": 18.61,
+   "audio_start": 18.89,
+   "spoken_end": 20.239,
+   "seg_end": 20.889,
+   "audio_dur": 1.75,
+   "spoken_dur": 1.349,
+   "seg_dur": 2.279,
+   "timing": [
+    {
+     "text": "First, love.",
+     "start": 0.0,
+     "end": 0.731
+    },
+    {
+     "text": "Then joy.",
+     "start": 0.731,
+     "end": 1.718
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s4-peace.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then peace \u2014 the kind that doesn't depend on circumstances.",
+   "seg_start": 20.889,
+   "audio_start": 21.169,
+   "spoken_end": 24.58,
+   "seg_end": 25.23,
+   "audio_dur": 3.762,
+   "spoken_dur": 3.411,
+   "seg_dur": 4.341,
+   "timing": [
+    {
+     "text": "Then peace \u2014 the kind that doesn't depend on circumstances.",
+     "start": 0.0,
+     "end": 3.715
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s5-longsuffering.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Longsuffering next \u2014 patience that doesn't quit. Then gentleness, and goodness, and faith that holds.",
+   "seg_start": 25.23,
+   "audio_start": 25.51,
+   "spoken_end": 33.205,
+   "seg_end": 33.855,
+   "audio_dur": 8.02,
+   "spoken_dur": 7.695,
+   "seg_dur": 8.625,
+   "timing": [
+    {
+     "text": "Longsuffering next \u2014 patience that doesn't quit.",
+     "start": 0.0,
+     "end": 3.402
+    },
+    {
+     "text": "Then gentleness, and goodness, and faith that holds.",
+     "start": 3.402,
+     "end": 7.988
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s6-temperance.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Meekness, and temperance \u2014 self-control that masters the storms inside.",
+   "seg_start": 33.855,
+   "audio_start": 34.135,
+   "spoken_end": 38.43,
+   "seg_end": 39.08,
+   "audio_dur": 4.676,
+   "spoken_dur": 4.295,
+   "seg_dur": 5.225,
+   "timing": [
+    {
+     "text": "Meekness, and temperance \u2014 self-control that masters the storms inside.",
+     "start": 0.0,
+     "end": 4.644
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s7-let-it-ripen.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And no law anywhere forbids any of it. These are the things that can't be overdone.",
+   "seg_start": 39.08,
+   "audio_start": 39.36,
+   "spoken_end": 43.77,
+   "seg_end": 44.42,
+   "audio_dur": 4.833,
+   "spoken_dur": 4.41,
+   "seg_dur": 5.34,
+   "timing": [
+    {
+     "text": "And no law anywhere forbids any of it.",
+     "start": 0.0,
+     "end": 2.194
+    },
+    {
+     "text": "These are the things that can't be overdone.",
+     "start": 2.194,
+     "end": 4.783
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "This fruit isn't grown by strain. Ask the Spirit \u2014 and let it ripen in you.",
+  "seg_start": 44.42,
+  "audio_start": 44.7,
+  "seg_dur": 6.613
+ },
+ "total": 51.033
+}

@@ -1,0 +1,303 @@
+{
+ "row": 177,
+ "slug": "build-177-make-me-a-sanctuary",
+ "v1_dir": "media-production/build-177-make-me-a-sanctuary",
+ "constants": {
+  "LEAD": 0.4,
+  "GAP": 1.65,
+  "KJV_GAP": 1.65,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-the-camp-at-dusk.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "While Israel camped in the wilderness, the LORD gave Moses a strange instruction \u2014 have the people build me a sanctuary.",
+   "seg_start": 0.0,
+   "audio_start": 0.4,
+   "spoken_end": 6.331,
+   "seg_end": 7.981,
+   "audio_dur": 6.296,
+   "spoken_dur": 5.931,
+   "seg_dur": 7.981,
+   "timing": [
+    {
+     "text": "While Israel camped in the wilderness, the LORD gave Moses a strange instruction \u2014 have the people build me a sanctuary.",
+     "start": 0.0,
+     "end": 6.269
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "v1_still": "s2-moses-on-the-mountain.jpeg",
+   "zoom": "in",
+   "speaker": "god",
+   "text": "And let them make me a sanctuary; that I may dwell among them.",
+   "seg_start": 7.981,
+   "audio_start": 8.381,
+   "spoken_end": 11.906,
+   "seg_end": 13.556,
+   "audio_dur": 3.84,
+   "spoken_dur": 3.526,
+   "seg_dur": 5.576,
+   "timing": [
+    {
+     "text": "And let them make me a sanctuary; that I may dwell among them.",
+     "start": 0.0,
+     "end": 3.808
+    }
+   ]
+  },
+  {
+   "seg": "n0b",
+   "v1_still": "s2-moses-on-the-mountain.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Build me a place, God said, so that I can live right there with you. Not a palace on a far-off hill. A tent, pitched in the middle of the camp, with everybody else's tents circled around it.",
+   "seg_start": 13.556,
+   "audio_start": 13.956,
+   "spoken_end": 25.53,
+   "seg_end": 27.18,
+   "audio_dur": 11.964,
+   "spoken_dur": 11.574,
+   "seg_dur": 13.624,
+   "timing": [
+    {
+     "text": "Build me a place, God said, so that I can live right there with you.",
+     "start": 0.0,
+     "end": 4.005
+    },
+    {
+     "text": "Not a palace on a far-off hill.",
+     "start": 4.005,
+     "end": 6.409
+    },
+    {
+     "text": "A tent, pitched in the middle of the camp, with everybody else's tents circled around it.",
+     "start": 6.409,
+     "end": 11.935
+    }
+   ]
+  },
+  {
+   "seg": "n2a",
+   "v1_still": "s3-the-pattern-in-the-dust.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He told them exactly how \u2014 the ark, the table, the lampstand \u2014",
+   "seg_start": 27.18,
+   "audio_start": 27.58,
+   "spoken_end": 31.621,
+   "seg_end": 33.271,
+   "audio_dur": 4.415,
+   "spoken_dur": 4.041,
+   "seg_dur": 6.091,
+   "timing": [
+    {
+     "text": "He told them exactly how \u2014 the ark, the table, the lampstand \u2014",
+     "start": 0.0,
+     "end": 4.365
+    }
+   ]
+  },
+  {
+   "seg": "g22",
+   "v1_still": "s3-the-pattern-in-the-dust.jpeg",
+   "zoom": "out",
+   "speaker": "god",
+   "text": "And there I will meet with thee, and I will commune with thee from above the mercy seat, from between the two cherubims which are upon the ark of the testimony.",
+   "seg_start": 33.271,
+   "audio_start": 33.671,
+   "spoken_end": 42.846,
+   "seg_end": 44.496,
+   "audio_dur": 9.561,
+   "spoken_dur": 9.176,
+   "seg_dur": 11.226,
+   "timing": [
+    {
+     "text": "And there I will meet with thee, and I will commune with thee from above the mercy seat, from between the two cherubims which are upon the ark of the testimony.",
+     "start": 0.0,
+     "end": 9.52
+    }
+   ]
+  },
+  {
+   "seg": "n2r",
+   "v1_still": "s4-the-craftsmen.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That is what all the measurements were for. There, God said \u2014 right there, above that lid, between those two carved angels \u2014 that is where I will meet you and talk with you. He gave them an address.",
+   "seg_start": 44.496,
+   "audio_start": 44.896,
+   "spoken_end": 56.99,
+   "seg_end": 58.64,
+   "audio_dur": 12.487,
+   "spoken_dur": 12.093,
+   "seg_dur": 14.143,
+   "timing": [
+    {
+     "text": "That is what all the measurements were for.",
+     "start": 0.0,
+     "end": 2.148
+    },
+    {
+     "text": "There, God said \u2014 right there, above that lid, between those two carved angels \u2014 that is where I will meet you and talk with you.",
+     "start": 2.148,
+     "end": 10.461
+    },
+    {
+     "text": "He gave them an address.",
+     "start": 10.461,
+     "end": 12.446
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s4-the-craftsmen.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "every detail meant to say: I am near.",
+   "seg_start": 58.64,
+   "audio_start": 59.04,
+   "spoken_end": 61.162,
+   "seg_end": 62.812,
+   "audio_dur": 2.508,
+   "spoken_dur": 2.122,
+   "seg_dur": 4.172,
+   "timing": [
+    {
+     "text": "every detail meant to say: I am near.",
+     "start": 0.0,
+     "end": 2.461
+    }
+   ]
+  },
+  {
+   "seg": "n1a",
+   "v1_still": "s5-the-tent-raised.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Not for his sake. For theirs.",
+   "seg_start": 62.812,
+   "audio_start": 63.212,
+   "spoken_end": 64.707,
+   "seg_end": 66.357,
+   "audio_dur": 1.907,
+   "spoken_dur": 1.494,
+   "seg_dur": 3.544,
+   "timing": [
+    {
+     "text": "Not for his sake.",
+     "start": 0.0,
+     "end": 0.94
+    },
+    {
+     "text": "For theirs.",
+     "start": 0.94,
+     "end": 1.858
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s6-i-am-near.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So that he could dwell among them in the middle of their ordinary days.",
+   "seg_start": 66.357,
+   "audio_start": 66.757,
+   "spoken_end": 70.55,
+   "seg_end": 72.2,
+   "audio_dur": 4.127,
+   "spoken_dur": 3.794,
+   "seg_dur": 5.844,
+   "timing": [
+    {
+     "text": "So that he could dwell among them in the middle of their ordinary days.",
+     "start": 0.0,
+     "end": 4.087
+    }
+   ]
+  },
+  {
+   "seg": "n3a",
+   "v1_still": "s7-the-camp-at-night.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The pattern was carried by a people on the move,",
+   "seg_start": 72.2,
+   "audio_start": 72.6,
+   "spoken_end": 74.767,
+   "seg_end": 76.417,
+   "audio_dur": 2.534,
+   "spoken_dur": 2.167,
+   "seg_dur": 4.217,
+   "timing": [
+    {
+     "text": "The pattern was carried by a people on the move,",
+     "start": 0.0,
+     "end": 2.508
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s8-the-open-tent-flap.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "yet the promise was fixed \u2014 God with his people.",
+   "seg_start": 76.417,
+   "audio_start": 76.817,
+   "spoken_end": 79.517,
+   "seg_end": 81.167,
+   "audio_dur": 3.109,
+   "spoken_dur": 2.7,
+   "seg_dur": 4.75,
+   "timing": [
+    {
+     "text": "yet the promise was fixed \u2014 God with his people.",
+     "start": 0.0,
+     "end": 3.065
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s9-dawn-on-the-camp.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Centuries later that promise would take a face. But here it begins as a tent in the desert, God pitching his tent beside them.",
+   "seg_start": 81.167,
+   "audio_start": 81.567,
+   "spoken_end": 88.353,
+   "seg_end": 90.003,
+   "audio_dur": 7.184,
+   "spoken_dur": 6.786,
+   "seg_dur": 8.836,
+   "timing": [
+    {
+     "text": "Centuries later that promise would take a face.",
+     "start": 0.0,
+     "end": 2.078
+    },
+    {
+     "text": "But here it begins as a tent in the desert, God pitching his tent beside them.",
+     "start": 2.078,
+     "end": 7.152
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He wanted to live among his people then. He wants to live among you now.",
+  "seg_start": 90.003,
+  "audio_start": 90.403,
+  "seg_dur": 6.106
+ },
+ "total": 96.108
+}

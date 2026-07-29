@@ -1,0 +1,301 @@
+{
+ "row": 126,
+ "slug": "build-126-by-their-fruits",
+ "v1_dir": "media-production/build-126-by-their-fruits",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-teaching-the-crowd.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus taught how to tell what is true \u2014 look at what grows from it.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 4.115,
+   "seg_end": 4.765,
+   "audio_dur": 4.258,
+   "spoken_dur": 3.835,
+   "seg_dur": 4.765,
+   "timing": [
+    {
+     "text": "Jesus taught how to tell what is true \u2014 look at what grows from it.",
+     "start": 0.0,
+     "end": 4.226
+    }
+   ]
+  },
+  {
+   "seg": "j1a",
+   "v1_still": "s2-beware.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Beware of false prophets, which come to you in sheep's clothing, but inwardly they are ravening wolves.",
+   "seg_start": 4.765,
+   "audio_start": 5.045,
+   "spoken_end": 11.672,
+   "seg_end": 13.272,
+   "audio_dur": 7.001,
+   "spoken_dur": 6.627,
+   "seg_dur": 8.507,
+   "timing": [
+    {
+     "text": "Beware of false prophets, which come to you in sheep's clothing, but inwardly they are ravening wolves.",
+     "start": 0.0,
+     "end": 6.966
+    }
+   ]
+  },
+  {
+   "seg": "j1b",
+   "v1_still": "s3-sheeps-clothing.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Watch out, he said. Some of them will come to you looking like part of the flock \u2014 gentle, harmless, one of your own. Inside, they are wolves.",
+   "seg_start": 13.272,
+   "audio_start": 13.552,
+   "spoken_end": 22.561,
+   "seg_end": 23.211,
+   "audio_dur": 9.43,
+   "spoken_dur": 9.009,
+   "seg_dur": 9.939,
+   "timing": [
+    {
+     "text": "Watch out, he said.",
+     "start": 0.0,
+     "end": 1.126
+    },
+    {
+     "text": "Some of them will come to you looking like part of the flock \u2014 gentle, harmless, one of your own.",
+     "start": 1.126,
+     "end": 7.129
+    },
+    {
+     "text": "Inside, they are wolves.",
+     "start": 7.129,
+     "end": 9.381
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s4-the-good-tree.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "A tree shows what it is by what it bears. You don't guess at a tree by its bark.",
+   "seg_start": 23.211,
+   "audio_start": 23.491,
+   "spoken_end": 28.155,
+   "seg_end": 28.805,
+   "audio_dur": 5.042,
+   "spoken_dur": 4.664,
+   "seg_dur": 5.594,
+   "timing": [
+    {
+     "text": "A tree shows what it is by what it bears.",
+     "start": 0.0,
+     "end": 2.345
+    },
+    {
+     "text": "You don't guess at a tree by its bark.",
+     "start": 2.345,
+     "end": 5.016
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s4-the-good-tree.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Ye shall know them by their fruits. Do men gather grapes of thorns, or figs of thistles? Even so every good tree bringeth forth good fruit; but a corrupt tree bringeth forth evil fruit.",
+   "seg_start": 28.805,
+   "audio_start": 29.085,
+   "spoken_end": 42.027,
+   "seg_end": 43.627,
+   "audio_dur": 13.375,
+   "spoken_dur": 12.942,
+   "seg_dur": 14.822,
+   "timing": [
+    {
+     "text": "Ye shall know them by their fruits.",
+     "start": 0.0,
+     "end": 1.985
+    },
+    {
+     "text": "Do men gather grapes of thorns, or figs of thistles?",
+     "start": 1.985,
+     "end": 5.724
+    },
+    {
+     "text": "Even so every good tree bringeth forth good fruit; but a corrupt tree bringeth forth evil fruit.",
+     "start": 5.724,
+     "end": 13.328
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s5-the-corrupt-tree.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Nobody picks grapes off a thorn bush. Nobody gathers figs off a thistle. You already know how this works \u2014 a good tree gives good fruit, and a bad one gives bad fruit.",
+   "seg_start": 43.627,
+   "audio_start": 43.907,
+   "spoken_end": 53.561,
+   "seg_end": 54.211,
+   "audio_dur": 10.109,
+   "spoken_dur": 9.654,
+   "seg_dur": 10.584,
+   "timing": [
+    {
+     "text": "Nobody picks grapes off a thorn bush.",
+     "start": 0.0,
+     "end": 1.95
+    },
+    {
+     "text": "Nobody gathers figs off a thistle.",
+     "start": 1.95,
+     "end": 4.203
+    },
+    {
+     "text": "You already know how this works \u2014 a good tree gives good fruit, and a bad one gives bad fruit.",
+     "start": 4.203,
+     "end": 10.077
+    }
+   ]
+  },
+  {
+   "seg": "jv18",
+   "v1_still": "s5-the-corrupt-tree.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "A good tree cannot bring forth evil fruit, neither can a corrupt tree bring forth good fruit.",
+   "seg_start": 54.211,
+   "audio_start": 54.491,
+   "spoken_end": 60.399,
+   "seg_end": 61.999,
+   "audio_dur": 6.296,
+   "spoken_dur": 5.908,
+   "seg_dur": 7.788,
+   "timing": [
+    {
+     "text": "A good tree cannot bring forth evil fruit, neither can a corrupt tree bring forth good fruit.",
+     "start": 0.0,
+     "end": 6.269
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s6-gathering-the-fruit.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Cannot. Not will not \u2014 cannot. The good and the rotten cannot switch places. What is inside comes out in the open, given long enough.",
+   "seg_start": 61.999,
+   "audio_start": 62.279,
+   "spoken_end": 71.82,
+   "seg_end": 72.47,
+   "audio_dur": 10.031,
+   "spoken_dur": 9.541,
+   "seg_dur": 10.471,
+   "timing": [
+    {
+     "text": "Cannot.",
+     "start": 0.0,
+     "end": 0.882
+    },
+    {
+     "text": "Not will not \u2014 cannot.",
+     "start": 0.882,
+     "end": 3.216
+    },
+    {
+     "text": "The good and the rotten cannot switch places.",
+     "start": 3.216,
+     "end": 6.188
+    },
+    {
+     "text": "What is inside comes out in the open, given long enough.",
+     "start": 6.188,
+     "end": 9.985
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": "s7-know-them-by-their-fruits.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Every tree that bringeth not forth good fruit is hewn down, and cast into the fire. Wherefore by their fruits ye shall know them.",
+   "seg_start": 72.47,
+   "audio_start": 72.75,
+   "spoken_end": 81.359,
+   "seg_end": 82.959,
+   "audio_dur": 8.96,
+   "spoken_dur": 8.609,
+   "seg_dur": 10.489,
+   "timing": [
+    {
+     "text": "Every tree that bringeth not forth good fruit is hewn down, and cast into the fire.",
+     "start": 0.0,
+     "end": 5.689
+    },
+    {
+     "text": "Wherefore by their fruits ye shall know them.",
+     "start": 5.689,
+     "end": 8.916
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s7-know-them-by-their-fruits.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "A tree that never gives anything worth eating gets cut down. So watch the fruit. Not the clothes, not the confidence, not the words \u2014 the fruit. That is the whole test, and anybody can run it.",
+   "seg_start": 82.959,
+   "audio_start": 83.239,
+   "spoken_end": 95.839,
+   "seg_end": 96.489,
+   "audio_dur": 13.035,
+   "spoken_dur": 12.6,
+   "seg_dur": 13.53,
+   "timing": [
+    {
+     "text": "A tree that never gives anything worth eating gets cut down.",
+     "start": 0.0,
+     "end": 3.146
+    },
+    {
+     "text": "So watch the fruit.",
+     "start": 3.146,
+     "end": 4.621
+    },
+    {
+     "text": "Not the clothes, not the confidence, not the words \u2014 the fruit.",
+     "start": 4.621,
+     "end": 9.509
+    },
+    {
+     "text": "That is the whole test, and anybody can run it.",
+     "start": 9.509,
+     "end": 13.003
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "What grows from a life with him is good fruit \u2014 love, kindness, truth. Abide in him, and let it show.",
+  "seg_start": 96.489,
+  "audio_start": 96.769,
+  "seg_dur": 10.139
+ },
+ "total": 106.628
+}

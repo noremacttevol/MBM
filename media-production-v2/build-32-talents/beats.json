@@ -1,0 +1,380 @@
+{
+ "row": 32,
+ "slug": "build-32-talents",
+ "v1_dir": "media-production/build-32-talents",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.15,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "j14",
+   "v1_still": "s1-entrusting.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "For the kingdom of heaven is as a man travelling into a far country, who called his own servants, and delivered unto them his goods.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 8.648,
+   "seg_end": 9.798,
+   "audio_dur": 8.777,
+   "spoken_dur": 8.368,
+   "seg_dur": 9.798,
+   "timing": [
+    {
+     "text": "For the kingdom of heaven is as a man travelling into a far country, who called his own servants, and delivered unto them his goods.",
+     "start": 0.0,
+     "end": 8.731
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s1-entrusting.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Jesus told a story about a wealthy man who, before a long journey, entrusted his servants with his own fortune. To one he gave five bags of silver, to another two, and to another one, each according to what he could handle.",
+   "seg_start": 9.798,
+   "audio_start": 10.078,
+   "spoken_end": 24.798,
+   "seg_end": 25.518,
+   "audio_dur": 15.125,
+   "spoken_dur": 14.72,
+   "seg_dur": 15.72,
+   "timing": [
+    {
+     "text": "Jesus told a story about a wealthy man who, before a long journey, entrusted his servants with his own fortune.",
+     "start": 0.0,
+     "end": 6.502
+    },
+    {
+     "text": "To one he gave five bags of silver, to another two, and to another one, each according to what he could handle.",
+     "start": 6.502,
+     "end": 15.093
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s1-entrusting.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "It was a staggering amount of trust. He handed his wealth to his servants and left them free to use it.",
+   "seg_start": 25.518,
+   "audio_start": 25.798,
+   "spoken_end": 31.258,
+   "seg_end": 31.978,
+   "audio_dur": 5.878,
+   "spoken_dur": 5.46,
+   "seg_dur": 6.46,
+   "timing": [
+    {
+     "text": "It was a staggering amount of trust.",
+     "start": 0.0,
+     "end": 1.962
+    },
+    {
+     "text": "He handed his wealth to his servants and left them free to use it.",
+     "start": 1.962,
+     "end": 5.851
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s2-five-trades.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The servant with five bags went straight to work, trading and investing, and doubled everything he had been given.",
+   "seg_start": 31.978,
+   "audio_start": 32.258,
+   "spoken_end": 38.886,
+   "seg_end": 39.606,
+   "audio_dur": 7.053,
+   "spoken_dur": 6.628,
+   "seg_dur": 7.628,
+   "timing": [
+    {
+     "text": "The servant with five bags went straight to work, trading and investing, and doubled everything he had been given.",
+     "start": 0.0,
+     "end": 7.012
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s3-two-works.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The servant with two bags did the same, and doubled his as well. Neither one played it safe. They took what they were trusted with and made it grow.",
+   "seg_start": 39.606,
+   "audio_start": 39.886,
+   "spoken_end": 49.048,
+   "seg_end": 49.768,
+   "audio_dur": 9.561,
+   "spoken_dur": 9.162,
+   "seg_dur": 10.162,
+   "timing": [
+    {
+     "text": "The servant with two bags did the same, and doubled his as well.",
+     "start": 0.0,
+     "end": 3.924
+    },
+    {
+     "text": "Neither one played it safe.",
+     "start": 3.924,
+     "end": 6.2
+    },
+    {
+     "text": "They took what they were trusted with and made it grow.",
+     "start": 6.2,
+     "end": 9.52
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s4-one-buries.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But the servant with one bag was afraid. So he dug a hole in the ground, buried the silver, and did nothing with it at all.",
+   "seg_start": 49.768,
+   "audio_start": 50.048,
+   "spoken_end": 57.032,
+   "seg_end": 57.752,
+   "audio_dur": 7.419,
+   "spoken_dur": 6.984,
+   "seg_dur": 7.984,
+   "timing": [
+    {
+     "text": "But the servant with one bag was afraid.",
+     "start": 0.0,
+     "end": 2.183
+    },
+    {
+     "text": "So he dug a hole in the ground, buried the silver, and did nothing with it at all.",
+     "start": 2.183,
+     "end": 7.384
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s5-return-reckon.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "When the master came home, the first two servants showed him what they had made. And he was overjoyed.",
+   "seg_start": 57.752,
+   "audio_start": 58.032,
+   "spoken_end": 64.035,
+   "seg_end": 64.755,
+   "audio_dur": 6.4,
+   "spoken_dur": 6.004,
+   "seg_dur": 7.004,
+   "timing": [
+    {
+     "text": "When the master came home, the first two servants showed him what they had made.",
+     "start": 0.0,
+     "end": 4.4
+    },
+    {
+     "text": "And he was overjoyed.",
+     "start": 4.4,
+     "end": 6.362
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s6-well-done.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Well done, thou good and faithful servant: thou hast been faithful over a few things, I will make thee ruler over many things: enter thou into the joy of thy lord.",
+   "seg_start": 64.755,
+   "audio_start": 65.035,
+   "spoken_end": 76.237,
+   "seg_end": 77.387,
+   "audio_dur": 11.598,
+   "spoken_dur": 11.202,
+   "seg_dur": 12.632,
+   "timing": [
+    {
+     "text": "Well done, thou good and faithful servant: thou hast been faithful over a few things, I will make thee ruler over many things: enter thou into the joy of thy lord.",
+     "start": 0.0,
+     "end": 11.564
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s6-well-done.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He did not just reward them, he shared his own joy with them, and welcomed them deeper in.",
+   "seg_start": 77.387,
+   "audio_start": 77.667,
+   "spoken_end": 83.448,
+   "seg_end": 84.168,
+   "audio_dur": 6.165,
+   "spoken_dur": 5.781,
+   "seg_dur": 6.781,
+   "timing": [
+    {
+     "text": "He did not just reward them, he shared his own joy with them, and welcomed them deeper in.",
+     "start": 0.0,
+     "end": 6.13
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s7-buried-returned.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then the last servant came, dug up his one buried bag, and handed it back untouched. And listen to why he had buried it.",
+   "seg_start": 84.168,
+   "audio_start": 84.448,
+   "spoken_end": 91.671,
+   "seg_end": 92.391,
+   "audio_dur": 7.706,
+   "spoken_dur": 7.223,
+   "seg_dur": 8.223,
+   "timing": [
+    {
+     "text": "Then the last servant came, dug up his one buried bag, and handed it back untouched.",
+     "start": 0.0,
+     "end": 5.085
+    },
+    {
+     "text": "And listen to why he had buried it.",
+     "start": 5.085,
+     "end": 7.663
+    }
+   ]
+  },
+  {
+   "seg": "j24",
+   "v1_still": "s7-buried-returned.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Lord, I knew thee that thou art an hard man, reaping where thou hast not sown, and strawing where thou hast not strawed:",
+   "seg_start": 92.391,
+   "audio_start": 92.671,
+   "spoken_end": 100.483,
+   "seg_end": 101.633,
+   "audio_dur": 8.255,
+   "spoken_dur": 7.812,
+   "seg_dur": 9.242,
+   "timing": [
+    {
+     "text": "Lord, I knew thee that thou art an hard man, reaping where thou hast not sown, and strawing where thou hast not strawed:",
+     "start": 0.0,
+     "end": 8.22
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s7-buried-returned.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "And I was afraid, and went and hid thy talent in the earth: lo, there thou hast that is thine.",
+   "seg_start": 101.633,
+   "audio_start": 101.913,
+   "spoken_end": 108.988,
+   "seg_end": 110.138,
+   "audio_dur": 7.523,
+   "spoken_dur": 7.075,
+   "seg_dur": 8.505,
+   "timing": [
+    {
+     "text": "And I was afraid, and went and hid thy talent in the earth: lo, there thou hast that is thine.",
+     "start": 0.0,
+     "end": 7.477
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s7-buried-returned.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "There it is. He buried the gift because he believed his master was harsh and cruel. He was wrong about him. His fear was built on a lie about who his master really was, and that lie cost him everything.",
+   "seg_start": 110.138,
+   "audio_start": 110.418,
+   "spoken_end": 123.007,
+   "seg_end": 123.727,
+   "audio_dur": 12.983,
+   "spoken_dur": 12.589,
+   "seg_dur": 13.589,
+   "timing": [
+    {
+     "text": "There it is.",
+     "start": 0.0,
+     "end": 0.836
+    },
+    {
+     "text": "He buried the gift because he believed his master was harsh and cruel.",
+     "start": 0.836,
+     "end": 4.923
+    },
+    {
+     "text": "He was wrong about him.",
+     "start": 4.923,
+     "end": 6.653
+    },
+    {
+     "text": "His fear was built on a lie about who his master really was, and that lie cost him everything.",
+     "start": 6.653,
+     "end": 12.957
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s6-well-done.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That is the real tragedy of the story. Not that he had little, but that he so badly misjudged the heart of the one who trusted him. God is not the hard man that servant imagined. He trusts you with something real, and he is longing to say to you, well done, and to share his joy.",
+   "seg_start": 123.727,
+   "audio_start": 124.007,
+   "spoken_end": 143.05,
+   "seg_end": 143.77,
+   "audio_dur": 19.461,
+   "spoken_dur": 19.042,
+   "seg_dur": 20.042,
+   "timing": [
+    {
+     "text": "That is the real tragedy of the story.",
+     "start": 0.0,
+     "end": 2.322
+    },
+    {
+     "text": "Not that he had little, but that he so badly misjudged the heart of the one who trusted him.",
+     "start": 2.322,
+     "end": 8.812
+    },
+    {
+     "text": "God is not the hard man that servant imagined.",
+     "start": 8.812,
+     "end": 12.121
+    },
+    {
+     "text": "He trusts you with something real, and he is longing to say to you, well done, and to share his joy.",
+     "start": 12.121,
+     "end": 19.412
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "What has God trusted you with that fear has kept you from using? What if he is kinder than you think?",
+  "seg_start": 143.77,
+  "audio_start": 144.05,
+  "seg_dur": 7.631
+ },
+ "total": 151.401
+}

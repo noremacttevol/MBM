@@ -1,0 +1,213 @@
+{
+ "row": 183,
+ "slug": "build-183-sun-moon-and-stars",
+ "v1_dir": "media-production/build-183-sun-moon-and-stars",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-the-waiting-sky.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "When Paul wrote about the resurrection, people asked him what kind of body the dead could possibly rise with. He answered by pointing at the sky.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 7.636,
+   "seg_end": 8.286,
+   "audio_dur": 7.758,
+   "spoken_dur": 7.356,
+   "seg_dur": 8.286,
+   "timing": [
+    {
+     "text": "When Paul wrote about the resurrection, people asked him what kind of body the dead could possibly rise with.",
+     "start": 0.0,
+     "end": 5.364
+    },
+    {
+     "text": "He answered by pointing at the sky.",
+     "start": 5.364,
+     "end": 7.709
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-the-glory-of-the-sun.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Look up, he said. Not everything that shines shines the same way. There are different kinds of bodies, and different kinds of glory.",
+   "seg_start": 8.286,
+   "audio_start": 8.566,
+   "spoken_end": 15.715,
+   "seg_end": 16.365,
+   "audio_dur": 7.549,
+   "spoken_dur": 7.15,
+   "seg_dur": 8.08,
+   "timing": [
+    {
+     "text": "Look up, he said.",
+     "start": 0.0,
+     "end": 0.882
+    },
+    {
+     "text": "Not everything that shines shines the same way.",
+     "start": 0.882,
+     "end": 3.959
+    },
+    {
+     "text": "There are different kinds of bodies, and different kinds of glory.",
+     "start": 3.959,
+     "end": 7.523
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "v1_still": "s3-the-glory-of-the-moon.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "There is one glory of the sun, and another glory of the moon, and another glory of the stars: for one star differeth from another star in glory.",
+   "seg_start": 16.365,
+   "audio_start": 16.645,
+   "spoken_end": 24.961,
+   "seg_end": 26.561,
+   "audio_dur": 8.62,
+   "spoken_dur": 8.316,
+   "seg_dur": 10.196,
+   "timing": [
+    {
+     "text": "There is one glory of the sun, and another glory of the moon, and another glory of the stars: for one star differeth from another star in glory.",
+     "start": 0.0,
+     "end": 8.591
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-star-differeth-from-star.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The sun has its own brightness. And no two stars burn quite alike. Then Paul said the astonishing part.",
+   "seg_start": 26.561,
+   "audio_start": 26.841,
+   "spoken_end": 32.936,
+   "seg_end": 33.586,
+   "audio_dur": 6.531,
+   "spoken_dur": 6.094,
+   "seg_dur": 7.024,
+   "timing": [
+    {
+     "text": "The sun has its own brightness.",
+     "start": 0.0,
+     "end": 1.533
+    },
+    {
+     "text": "And no two stars burn quite alike.",
+     "start": 1.533,
+     "end": 3.796
+    },
+    {
+     "text": "Then Paul said the astonishing part.",
+     "start": 3.796,
+     "end": 6.502
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "v1_still": "s5-ordered-not-chaotic.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "So also is the resurrection of the dead. It is sown in corruption; it is raised in incorruption:",
+   "seg_start": 33.586,
+   "audio_start": 33.866,
+   "spoken_end": 39.691,
+   "seg_end": 41.291,
+   "audio_dur": 6.165,
+   "spoken_dur": 5.825,
+   "seg_dur": 7.705,
+   "timing": [
+    {
+     "text": "So also is the resurrection of the dead.",
+     "start": 0.0,
+     "end": 2.334
+    },
+    {
+     "text": "It is sown in corruption; it is raised in incorruption:",
+     "start": 2.659,
+     "end": 6.13
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s6-a-canopy-of-care.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That is what rising is like, he said. What goes into the ground breaks down; what comes back out never will again. The resurrection isn't one flat outcome. Like the lights above, there are glories \u2014 plural \u2014 and every one of them is a gift of light.",
+   "seg_start": 41.291,
+   "audio_start": 41.571,
+   "spoken_end": 57.98,
+   "seg_end": 58.63,
+   "audio_dur": 16.849,
+   "spoken_dur": 16.409,
+   "seg_dur": 17.339,
+   "timing": [
+    {
+     "text": "That is what rising is like, he said.",
+     "start": 0.0,
+     "end": 2.194
+    },
+    {
+     "text": "What goes into the ground breaks down; what comes back out never will again.",
+     "start": 2.194,
+     "end": 7.326
+    },
+    {
+     "text": "The resurrection isn't one flat outcome.",
+     "start": 7.326,
+     "end": 9.961
+    },
+    {
+     "text": "Like the lights above, there are glories \u2014 plural \u2014 and every one of them is a gift of light.",
+     "start": 9.961,
+     "end": 16.811
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s7-made-for-light.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The same God who hung the sun, the moon, and every different star is preparing a brightness for you.",
+   "seg_start": 58.63,
+   "audio_start": 58.91,
+   "spoken_end": 63.77,
+   "seg_end": 64.419,
+   "audio_dur": 5.251,
+   "spoken_dur": 4.859,
+   "seg_dur": 5.789,
+   "timing": [
+    {
+     "text": "The same God who hung the sun, the moon, and every different star is preparing a brightness for you.",
+     "start": 0.0,
+     "end": 5.201
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "The heavens hold more than one kind of glory. Reach for the brightest \u2014 you were made for light.",
+  "seg_start": 64.419,
+  "audio_start": 64.7,
+  "seg_dur": 7.867
+ },
+ "total": 72.286
+}

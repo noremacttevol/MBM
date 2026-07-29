@@ -1,0 +1,563 @@
+{
+ "row": 23,
+ "slug": "build-23-vineyard",
+ "v1_dir": "media-production/build-23-vineyard",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.15,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-dawn-hire.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus said the kingdom of heaven is like a landowner who went out at first light to hire workers for his vineyard.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 5.556,
+   "seg_end": 6.276,
+   "audio_dur": 5.747,
+   "spoken_dur": 5.276,
+   "seg_dur": 6.276,
+   "timing": [
+    {
+     "text": "Jesus said the kingdom of heaven is like a landowner who went out at first light to hire workers for his vineyard.",
+     "start": 0.0,
+     "end": 5.712
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s1-dawn-hire.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He agreed with the first crew on a penny for the day \u2014 a full day's fair wage \u2014 and sent them out into the rows.",
+   "seg_start": 6.276,
+   "audio_start": 6.556,
+   "spoken_end": 13.025,
+   "seg_end": 13.745,
+   "audio_dur": 6.87,
+   "spoken_dur": 6.469,
+   "seg_dur": 7.469,
+   "timing": [
+    {
+     "text": "He agreed with the first crew on a penny for the day \u2014 a full day's fair wage \u2014 and sent them out into the rows.",
+     "start": 0.0,
+     "end": 6.827
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s2-marketplace-idle.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "A few hours later he went back to the market and found more men just standing around with no work. He sent them into the vineyard too, and promised to pay them what was right.",
+   "seg_start": 13.745,
+   "audio_start": 14.025,
+   "spoken_end": 22.854,
+   "seg_end": 23.574,
+   "audio_dur": 9.273,
+   "spoken_dur": 8.829,
+   "seg_dur": 9.829,
+   "timing": [
+    {
+     "text": "A few hours later he went back to the market and found more men just standing around with no work.",
+     "start": 0.0,
+     "end": 4.667
+    },
+    {
+     "text": "He sent them into the vineyard too, and promised to pay them what was right.",
+     "start": 4.667,
+     "end": 9.242
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s2-marketplace-idle.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He did the same thing again at noon, and again in the middle of the afternoon. More workers, the same promise.",
+   "seg_start": 23.574,
+   "audio_start": 23.854,
+   "spoken_end": 30.232,
+   "seg_end": 30.952,
+   "audio_dur": 6.766,
+   "spoken_dur": 6.378,
+   "seg_dur": 7.378,
+   "timing": [
+    {
+     "text": "He did the same thing again at noon, and again in the middle of the afternoon.",
+     "start": 0.0,
+     "end": 3.971
+    },
+    {
+     "text": "More workers, the same promise.",
+     "start": 3.971,
+     "end": 6.734
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s3-eleventh-hour.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then, with only one hour of daylight left, he went out a final time and found still more men standing idle.",
+   "seg_start": 30.952,
+   "audio_start": 31.232,
+   "spoken_end": 36.834,
+   "seg_end": 37.554,
+   "audio_dur": 6.034,
+   "spoken_dur": 5.602,
+   "seg_dur": 6.602,
+   "timing": [
+    {
+     "text": "Then, with only one hour of daylight left, he went out a final time and found still more men standing idle.",
+     "start": 0.0,
+     "end": 5.991
+    }
+   ]
+  },
+  {
+   "seg": "j6",
+   "v1_still": "s3-eleventh-hour.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Why stand ye here all the day idle?",
+   "seg_start": 37.554,
+   "audio_start": 37.834,
+   "spoken_end": 39.797,
+   "seg_end": 40.947,
+   "audio_dur": 2.351,
+   "spoken_dur": 1.963,
+   "seg_dur": 3.393,
+   "timing": [
+    {
+     "text": "Why stand ye here all the day idle?",
+     "start": 0.0,
+     "end": 2.322
+    }
+   ]
+  },
+  {
+   "seg": "j7a",
+   "v1_still": "s3-eleventh-hour.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Because no man hath hired us.",
+   "seg_start": 40.947,
+   "audio_start": 41.227,
+   "spoken_end": 42.924,
+   "seg_end": 44.074,
+   "audio_dur": 2.038,
+   "spoken_dur": 1.697,
+   "seg_dur": 3.127,
+   "timing": [
+    {
+     "text": "Because no man hath hired us.",
+     "start": 0.0,
+     "end": 1.997
+    }
+   ]
+  },
+  {
+   "seg": "n5b",
+   "v1_still": "s3-eleventh-hour.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "The question revealed the wound: they had not refused work. Nobody had chosen them.",
+   "seg_start": 44.074,
+   "audio_start": 44.354,
+   "spoken_end": 49.098,
+   "seg_end": 49.818,
+   "audio_dur": 5.198,
+   "spoken_dur": 4.744,
+   "seg_dur": 5.744,
+   "timing": [
+    {
+     "text": "The question revealed the wound: they had not refused work.",
+     "start": 0.0,
+     "end": 3.402
+    },
+    {
+     "text": "Nobody had chosen them.",
+     "start": 3.402,
+     "end": 5.155
+    }
+   ]
+  },
+  {
+   "seg": "j7b",
+   "v1_still": "s3-eleventh-hour.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Go ye also into the vineyard; and whatsoever is right, that shall ye receive.",
+   "seg_start": 49.818,
+   "audio_start": 50.098,
+   "spoken_end": 54.382,
+   "seg_end": 55.532,
+   "audio_dur": 4.624,
+   "spoken_dur": 4.285,
+   "seg_dur": 5.715,
+   "timing": [
+    {
+     "text": "Go ye also into the vineyard; and whatsoever is right, that shall ye receive.",
+     "start": 0.0,
+     "end": 4.598
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s3-eleventh-hour.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Even with one hour of daylight left, the owner was still looking for people others had passed over.",
+   "seg_start": 55.532,
+   "audio_start": 55.812,
+   "spoken_end": 60.951,
+   "seg_end": 61.671,
+   "audio_dur": 5.564,
+   "spoken_dur": 5.139,
+   "seg_dur": 6.139,
+   "timing": [
+    {
+     "text": "Even with one hour of daylight left, the owner was still looking for people others had passed over.",
+     "start": 0.0,
+     "end": 5.526
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s4-evening-pay.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "When evening came, the owner told his foreman to call the workers and pay them \u2014 starting, strangely, with the ones hired last.",
+   "seg_start": 61.671,
+   "audio_start": 61.951,
+   "spoken_end": 69.109,
+   "seg_end": 69.829,
+   "audio_dur": 7.602,
+   "spoken_dur": 7.158,
+   "seg_dur": 8.158,
+   "timing": [
+    {
+     "text": "When evening came, the owner told his foreman to call the workers and pay them \u2014 starting, strangely, with the ones hired last.",
+     "start": 0.0,
+     "end": 7.57
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s5-last-paid.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The men who had worked a single hour came up first, and each of them was handed a full day's pay. A whole penny, for one hour of work.",
+   "seg_start": 69.829,
+   "audio_start": 70.109,
+   "spoken_end": 77.365,
+   "seg_end": 78.085,
+   "audio_dur": 7.784,
+   "spoken_dur": 7.256,
+   "seg_dur": 8.256,
+   "timing": [
+    {
+     "text": "The men who had worked a single hour came up first, and each of them was handed a full day's pay.",
+     "start": 0.0,
+     "end": 4.748
+    },
+    {
+     "text": "A whole penny, for one hour of work.",
+     "start": 4.748,
+     "end": 7.755
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s6-first-murmur.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "You can guess what the men who had worked since dawn were thinking. If the one-hour crew got a full penny, surely they would get more.",
+   "seg_start": 78.085,
+   "audio_start": 78.365,
+   "spoken_end": 85.561,
+   "seg_end": 86.281,
+   "audio_dur": 7.602,
+   "spoken_dur": 7.196,
+   "seg_dur": 8.196,
+   "timing": [
+    {
+     "text": "You can guess what the men who had worked since dawn were thinking.",
+     "start": 0.0,
+     "end": 3.111
+    },
+    {
+     "text": "If the one-hour crew got a full penny, surely they would get more.",
+     "start": 3.111,
+     "end": 7.57
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s6-first-murmur.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "But when their turn came, they got the very same \u2014 one penny. And they were furious.",
+   "seg_start": 86.281,
+   "audio_start": 86.561,
+   "spoken_end": 90.85,
+   "seg_end": 91.57,
+   "audio_dur": 4.676,
+   "spoken_dur": 4.289,
+   "seg_dur": 5.289,
+   "timing": [
+    {
+     "text": "But when their turn came, they got the very same \u2014 one penny.",
+     "start": 0.0,
+     "end": 3.135
+    },
+    {
+     "text": "And they were furious.",
+     "start": 3.135,
+     "end": 4.644
+    }
+   ]
+  },
+  {
+   "seg": "j12",
+   "v1_still": "s6-first-murmur.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "These last have wrought but one hour, and thou hast made them equal unto us, which have borne the burden and heat of the day.",
+   "seg_start": 91.57,
+   "audio_start": 91.85,
+   "spoken_end": 99.152,
+   "seg_end": 100.302,
+   "audio_dur": 7.706,
+   "spoken_dur": 7.302,
+   "seg_dur": 8.732,
+   "timing": [
+    {
+     "text": "These last have wrought but one hour, and thou hast made them equal unto us, which have borne the burden and heat of the day.",
+     "start": 0.0,
+     "end": 7.663
+    }
+   ]
+  },
+  {
+   "seg": "n10b",
+   "v1_still": "s6-first-murmur.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Their anger was not about a broken agreement. It was about being treated no better than men they considered less deserving.",
+   "seg_start": 100.302,
+   "audio_start": 100.582,
+   "spoken_end": 107.155,
+   "seg_end": 107.875,
+   "audio_dur": 6.949,
+   "spoken_dur": 6.573,
+   "seg_dur": 7.573,
+   "timing": [
+    {
+     "text": "Their anger was not about a broken agreement.",
+     "start": 0.0,
+     "end": 1.904
+    },
+    {
+     "text": "It was about being treated no better than men they considered less deserving.",
+     "start": 1.904,
+     "end": 6.92
+    }
+   ]
+  },
+  {
+   "seg": "n11",
+   "v1_still": "s7-friend-reply.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The owner turned to one of them, and he was not harsh about it. He called him friend.",
+   "seg_start": 107.875,
+   "audio_start": 108.155,
+   "spoken_end": 112.658,
+   "seg_end": 113.378,
+   "audio_dur": 4.911,
+   "spoken_dur": 4.503,
+   "seg_dur": 5.503,
+   "timing": [
+    {
+     "text": "The owner turned to one of them, and he was not harsh about it.",
+     "start": 0.0,
+     "end": 3.135
+    },
+    {
+     "text": "He called him friend.",
+     "start": 3.135,
+     "end": 4.876
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s7-friend-reply.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Friend, I do thee no wrong: didst not thou agree with me for a penny? Take that thine is, and go thy way: I will give unto the last, even as unto thee. Is it not lawful for me to do what I will with mine own? Is thine eye evil, because I am good?",
+   "seg_start": 113.378,
+   "audio_start": 113.658,
+   "spoken_end": 132.819,
+   "seg_end": 133.969,
+   "audio_dur": 19.592,
+   "spoken_dur": 19.162,
+   "seg_dur": 20.592,
+   "timing": [
+    {
+     "text": "Friend, I do thee no wrong: didst not thou agree with me for a penny?",
+     "start": 0.0,
+     "end": 4.795
+    },
+    {
+     "text": "Take that thine is, and go thy way: I will give unto the last, even as unto thee.",
+     "start": 4.795,
+     "end": 11.598
+    },
+    {
+     "text": "Is it not lawful for me to do what I will with mine own?",
+     "start": 11.598,
+     "end": 16.103
+    },
+    {
+     "text": "Is thine eye evil, because I am good?",
+     "start": 16.103,
+     "end": 19.551
+    }
+   ]
+  },
+  {
+   "seg": "n12",
+   "v1_still": "s7-friend-reply.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The owner's answer exposed the real grievance: generosity to the latecomers felt like theft to those who had arrived early.",
+   "seg_start": 133.969,
+   "audio_start": 134.249,
+   "spoken_end": 141.213,
+   "seg_end": 141.933,
+   "audio_dur": 7.367,
+   "spoken_dur": 6.964,
+   "seg_dur": 7.964,
+   "timing": [
+    {
+     "text": "The owner's answer exposed the real grievance: generosity to the latecomers felt like theft to those who had arrived early.",
+     "start": 0.0,
+     "end": 7.338
+    }
+   ]
+  },
+  {
+   "seg": "n13",
+   "v1_still": "s8-vineyard-dusk.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That is the whole point. The first men were not underpaid. They got everything they were promised. What stung was watching someone else receive grace they had not earned.",
+   "seg_start": 141.933,
+   "audio_start": 142.213,
+   "spoken_end": 152.354,
+   "seg_end": 153.074,
+   "audio_dur": 10.632,
+   "spoken_dur": 10.141,
+   "seg_dur": 11.141,
+   "timing": [
+    {
+     "text": "That is the whole point.",
+     "start": 0.0,
+     "end": 1.219
+    },
+    {
+     "text": "The first men were not underpaid.",
+     "start": 1.219,
+     "end": 3.68
+    },
+    {
+     "text": "They got everything they were promised.",
+     "start": 3.68,
+     "end": 5.863
+    },
+    {
+     "text": "What stung was watching someone else receive grace they had not earned.",
+     "start": 5.863,
+     "end": 10.588
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s8-vineyard-dusk.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "So the last shall be first, and the first last: for many be called, but few chosen.",
+   "seg_start": 153.074,
+   "audio_start": 153.354,
+   "spoken_end": 158.373,
+   "seg_end": 159.523,
+   "audio_dur": 5.433,
+   "spoken_dur": 5.019,
+   "seg_dur": 6.449,
+   "timing": [
+    {
+     "text": "So the last shall be first, and the first last: for many be called, but few chosen.",
+     "start": 0.0,
+     "end": 5.387
+    }
+   ]
+  },
+  {
+   "seg": "n14",
+   "v1_still": "s8-vineyard-dusk.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "God does not run low on generosity when he spends it on someone who came late. His goodness is never used up. There is a full day's welcome waiting for you, no matter what hour you finally come in.",
+   "seg_start": 159.523,
+   "audio_start": 159.803,
+   "spoken_end": 170.87,
+   "seg_end": 171.59,
+   "audio_dur": 11.468,
+   "spoken_dur": 11.067,
+   "seg_dur": 12.067,
+   "timing": [
+    {
+     "text": "God does not run low on generosity when he spends it on someone who came late.",
+     "start": 0.0,
+     "end": 4.319
+    },
+    {
+     "text": "His goodness is never used up.",
+     "start": 4.319,
+     "end": 6.641
+    },
+    {
+     "text": "There is a full day's welcome waiting for you, no matter what hour you finally come in.",
+     "start": 6.641,
+     "end": 11.424
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "You have not missed your chance by coming late. Will you come into the vineyard now?",
+  "seg_start": 171.59,
+  "audio_start": 171.87,
+  "seg_dur": 6.325
+ },
+ "total": 177.916
+}

@@ -1,0 +1,262 @@
+{
+ "row": 171,
+ "slug": "build-171-baptized-for-the-dead",
+ "v1_dir": "media-production/build-171-baptized-for-the-dead",
+ "constants": {
+  "LEAD": 0.4,
+  "GAP": 1.45,
+  "KJV_GAP": 1.9,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-pauls-question.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Some in Corinth were arguing as though resurrection might not be real. Paul pointed to a practice already familiar to them and pressed the contradiction.",
+   "seg_start": 0.0,
+   "audio_start": 0.4,
+   "spoken_end": 8.475,
+   "seg_end": 9.925,
+   "audio_dur": 8.49,
+   "spoken_dur": 8.075,
+   "seg_dur": 9.925,
+   "timing": [
+    {
+     "text": "Some in Corinth were arguing as though resurrection might not be real.",
+     "start": 0.0,
+     "end": 3.541
+    },
+    {
+     "text": "Paul pointed to a practice already familiar to them and pressed the contradiction.",
+     "start": 3.541,
+     "end": 8.452
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "v1_still": "s1-pauls-question.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Else what shall they do which are baptized for the dead, if the dead rise not at all? why are they then baptized for the dead?",
+   "seg_start": 9.925,
+   "audio_start": 10.325,
+   "spoken_end": 17.562,
+   "seg_end": 19.462,
+   "audio_dur": 7.602,
+   "spoken_dur": 7.237,
+   "seg_dur": 9.537,
+   "timing": [
+    {
+     "text": "Else what shall they do which are baptized for the dead, if the dead rise not at all?",
+     "start": 0.0,
+     "end": 4.284
+    },
+    {
+     "text": "why are they then baptized for the dead?",
+     "start": 4.284,
+     "end": 7.57
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s3-standing-in-for-another.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The only reason to do such a thing is the quiet hope that the dead are not gone forever.",
+   "seg_start": 19.462,
+   "audio_start": 19.862,
+   "spoken_end": 24.087,
+   "seg_end": 25.537,
+   "audio_dur": 4.624,
+   "spoken_dur": 4.225,
+   "seg_dur": 6.075,
+   "timing": [
+    {
+     "text": "The only reason to do such a thing is the quiet hope that the dead are not gone forever.",
+     "start": 0.0,
+     "end": 4.598
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-new-life-breaking-through.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Baptism stands for new life \u2014 a beginning, not an end.",
+   "seg_start": 25.537,
+   "audio_start": 25.937,
+   "spoken_end": 29.33,
+   "seg_end": 30.78,
+   "audio_dur": 3.788,
+   "spoken_dur": 3.392,
+   "seg_dur": 5.242,
+   "timing": [
+    {
+     "text": "Baptism stands for new life \u2014 a beginning, not an end.",
+     "start": 0.0,
+     "end": 3.762
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s4-the-doorway-of-light.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So the work done for those who've passed is built on one promise: that death is not the last word.",
+   "seg_start": 30.78,
+   "audio_start": 31.18,
+   "spoken_end": 36.52,
+   "seg_end": 37.97,
+   "audio_dur": 5.747,
+   "spoken_dur": 5.34,
+   "seg_dur": 7.19,
+   "timing": [
+    {
+     "text": "So the work done for those who've passed is built on one promise: that death is not the last word.",
+     "start": 0.0,
+     "end": 5.712
+    }
+   ]
+  },
+  {
+   "seg": "s20",
+   "v1_still": "s5-the-anchor.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "But now is Christ risen from the dead, and become the firstfruits of them that slept.",
+   "seg_start": 37.97,
+   "audio_start": 38.37,
+   "spoken_end": 43.545,
+   "seg_end": 45.445,
+   "audio_dur": 5.695,
+   "spoken_dur": 5.175,
+   "seg_dur": 7.475,
+   "timing": [
+    {
+     "text": "But now is Christ risen from the dead, and become the firstfruits of them that slept.",
+     "start": 0.0,
+     "end": 5.666
+    }
+   ]
+  },
+  {
+   "seg": "n4a",
+   "v1_still": "s5-the-anchor.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "That is Paul's foundation \u2014 not a metaphor or a wish.",
+   "seg_start": 45.445,
+   "audio_start": 45.845,
+   "spoken_end": 49.313,
+   "seg_end": 50.763,
+   "audio_dur": 3.84,
+   "spoken_dur": 3.469,
+   "seg_dur": 5.319,
+   "timing": [
+    {
+     "text": "That is Paul's foundation \u2014 not a metaphor or a wish.",
+     "start": 0.0,
+     "end": 3.808
+    }
+   ]
+  },
+  {
+   "seg": "n4b",
+   "v1_still": "s8-the-candle-passed.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And because He rose, the grave loses its grip \u2014 for Him first, and then for all who belong to Him.",
+   "seg_start": 50.763,
+   "audio_start": 51.163,
+   "spoken_end": 57.274,
+   "seg_end": 58.724,
+   "audio_dur": 6.452,
+   "spoken_dur": 6.11,
+   "seg_dur": 7.96,
+   "timing": [
+    {
+     "text": "And because He rose, the grave loses its grip \u2014 for Him first, and then for all who belong to Him.",
+     "start": 0.0,
+     "end": 6.409
+    }
+   ]
+  },
+  {
+   "seg": "s22",
+   "v1_still": "s6-through-the-veil.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "For as in Adam all die, even so in Christ shall all be made alive.",
+   "seg_start": 58.724,
+   "audio_start": 59.124,
+   "spoken_end": 63.189,
+   "seg_end": 65.089,
+   "audio_dur": 4.545,
+   "spoken_dur": 4.065,
+   "seg_dur": 6.365,
+   "timing": [
+    {
+     "text": "For as in Adam all die, even so in Christ shall all be made alive.",
+     "start": 0.0,
+     "end": 4.505
+    }
+   ]
+  },
+  {
+   "seg": "n5a",
+   "v1_still": "s6-through-the-veil.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "The ordinance done in love reaches across the veil.",
+   "seg_start": 65.089,
+   "audio_start": 65.489,
+   "spoken_end": 68.122,
+   "seg_end": 69.572,
+   "audio_dur": 3.004,
+   "spoken_dur": 2.633,
+   "seg_dur": 4.483,
+   "timing": [
+    {
+     "text": "The ordinance done in love reaches across the veil.",
+     "start": 0.0,
+     "end": 2.972
+    }
+   ]
+  },
+  {
+   "seg": "n5b",
+   "v1_still": "s7-every-name-invited.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Offering every soul the chance to choose.",
+   "seg_start": 69.572,
+   "audio_start": 69.972,
+   "spoken_end": 71.977,
+   "seg_end": 73.427,
+   "audio_dur": 2.403,
+   "spoken_dur": 2.005,
+   "seg_dur": 3.855,
+   "timing": [
+    {
+     "text": "Offering every soul the chance to choose.",
+     "start": 0.0,
+     "end": 2.368
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "Death separates for a while, not forever. Because He lives, there is hope for every name on the other side of the veil.",
+  "seg_start": 73.427,
+  "audio_start": 73.827,
+  "seg_dur": 8.666
+ },
+ "total": 82.093
+}

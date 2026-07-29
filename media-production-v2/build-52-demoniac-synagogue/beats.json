@@ -1,0 +1,389 @@
+{
+ "row": 52,
+ "slug": "build-52-demoniac-synagogue",
+ "v1_dir": "media-production/build-52-demoniac-synagogue",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-sabbath-synagogue.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "On the sabbath day, Jesus went into the synagogue at Capernaum and stood up to teach. The people had gathered as they always did, to hear the scriptures taught and explained by the teachers they knew.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 11.869,
+   "seg_end": 12.519,
+   "audio_dur": 12.016,
+   "spoken_dur": 11.589,
+   "seg_dur": 12.519,
+   "timing": [
+    {
+     "text": "On the sabbath day, Jesus went into the synagogue at Capernaum and stood up to teach.",
+     "start": 0.0,
+     "end": 5.561
+    },
+    {
+     "text": "The people had gathered as they always did, to hear the scriptures taught and explained by the teachers they knew.",
+     "start": 5.561,
+     "end": 11.981
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-taught-with-authority.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But this was different. He taught them as one who had authority of his own, not leaning on teacher after teacher the way the scribes did. His words carried a quiet weight, and the whole room felt it, and was astonished.",
+   "seg_start": 12.519,
+   "audio_start": 12.799,
+   "spoken_end": 25.417,
+   "seg_end": 26.067,
+   "audio_dur": 13.14,
+   "spoken_dur": 12.618,
+   "seg_dur": 13.548,
+   "timing": [
+    {
+     "text": "But this was different.",
+     "start": 0.0,
+     "end": 1.08
+    },
+    {
+     "text": "He taught them as one who had authority of his own, not leaning on teacher after teacher the way the scribes did.",
+     "start": 1.08,
+     "end": 7.546
+    },
+    {
+     "text": "His words carried a quiet weight, and the whole room felt it, and was astonished.",
+     "start": 7.546,
+     "end": 13.096
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-the-tormented-man.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "There in the congregation was a man held by an unclean spirit. Something dark had bound him for a long time, and the nearness of Jesus stirred it. Unable to stay silent any longer, he suddenly cried out.",
+   "seg_start": 26.067,
+   "audio_start": 26.347,
+   "spoken_end": 39.506,
+   "seg_end": 40.156,
+   "audio_dur": 13.61,
+   "spoken_dur": 13.159,
+   "seg_dur": 14.089,
+   "timing": [
+    {
+     "text": "There in the congregation was a man held by an unclean spirit.",
+     "start": 0.0,
+     "end": 3.808
+    },
+    {
+     "text": "Something dark had bound him for a long time, and the nearness of Jesus stirred it.",
+     "start": 3.808,
+     "end": 9.16
+    },
+    {
+     "text": "Unable to stay silent any longer, he suddenly cried out.",
+     "start": 9.16,
+     "end": 13.56
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-the-unclean-cry.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And the voice that broke out of him was not his own.",
+   "seg_start": 40.156,
+   "audio_start": 40.436,
+   "spoken_end": 43.155,
+   "seg_end": 43.805,
+   "audio_dur": 3.109,
+   "spoken_dur": 2.719,
+   "seg_dur": 3.649,
+   "timing": [
+    {
+     "text": "And the voice that broke out of him was not his own.",
+     "start": 0.0,
+     "end": 3.065
+    }
+   ]
+  },
+  {
+   "seg": "s24",
+   "v1_still": "s4-the-unclean-cry.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Let us alone; what have we to do with thee, thou Jesus of Nazareth? art thou come to destroy us? I know thee who thou art, the Holy One of God.",
+   "seg_start": 43.805,
+   "audio_start": 44.085,
+   "spoken_end": 54.23,
+   "seg_end": 55.83,
+   "audio_dur": 10.527,
+   "spoken_dur": 10.144,
+   "seg_dur": 12.024,
+   "timing": [
+    {
+     "text": "Let us alone; what have we to do with thee, thou Jesus of Nazareth?",
+     "start": 0.0,
+     "end": 4.191
+    },
+    {
+     "text": "art thou come to destroy us?",
+     "start": 4.191,
+     "end": 6.745
+    },
+    {
+     "text": "I know thee who thou art, the Holy One of God.",
+     "start": 6.745,
+     "end": 10.495
+    }
+   ]
+  },
+  {
+   "seg": "n4b",
+   "v1_still": "s4-the-unclean-cry.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Leave us alone. And then, almost trembling: Sit with that for a second. In a room full of religious people, the first one to say out loud exactly who he was, was the darkness.",
+   "seg_start": 55.83,
+   "audio_start": 56.11,
+   "spoken_end": 68.801,
+   "seg_end": 69.451,
+   "audio_dur": 13.087,
+   "spoken_dur": 12.691,
+   "seg_dur": 13.621,
+   "timing": [
+    {
+     "text": "Leave us alone.",
+     "start": 0.0,
+     "end": 0.975
+    },
+    {
+     "text": "And then, almost trembling: Sit with that for a second.",
+     "start": 0.975,
+     "end": 5.538
+    },
+    {
+     "text": "In a room full of religious people, the first one to say out loud exactly who he was, was the darkness.",
+     "start": 5.538,
+     "end": 13.05
+    }
+   ]
+  },
+  {
+   "seg": "jv25",
+   "v1_still": "s5-hold-thy-peace.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Hold thy peace, and come out of him.",
+   "seg_start": 69.451,
+   "audio_start": 69.731,
+   "spoken_end": 71.366,
+   "seg_end": 72.966,
+   "audio_dur": 1.985,
+   "spoken_dur": 1.635,
+   "seg_dur": 3.515,
+   "timing": [
+    {
+     "text": "Hold thy peace, and come out of him.",
+     "start": 0.0,
+     "end": 1.95
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s6-come-out-of-him.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Be quiet, and come out of him. Just a few short words. There was no long battle, no struggle of equals. At his word the spirit shook the man one last time, cried out with a loud voice, and came out of him. The thing that had held him for so long simply had to go.",
+   "seg_start": 72.966,
+   "audio_start": 73.246,
+   "spoken_end": 91.32,
+   "seg_end": 91.97,
+   "audio_dur": 18.521,
+   "spoken_dur": 18.074,
+   "seg_dur": 19.004,
+   "timing": [
+    {
+     "text": "Be quiet, and come out of him.",
+     "start": 0.0,
+     "end": 1.672
+    },
+    {
+     "text": "Just a few short words.",
+     "start": 1.672,
+     "end": 3.529
+    },
+    {
+     "text": "There was no long battle, no struggle of equals.",
+     "start": 3.529,
+     "end": 7.117
+    },
+    {
+     "text": "At his word the spirit shook the man one last time, cried out with a loud voice, and came out of him.",
+     "start": 7.117,
+     "end": 14.234
+    },
+    {
+     "text": "The thing that had held him for so long simply had to go.",
+     "start": 14.234,
+     "end": 18.483
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s7-in-his-right-mind.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And the man was free. The torment had drained from his face, and he stood there quiet and whole, himself again, like someone waking gently from a long and terrible dream.",
+   "seg_start": 91.97,
+   "audio_start": 92.25,
+   "spoken_end": 102.91,
+   "seg_end": 103.56,
+   "audio_dur": 11.05,
+   "spoken_dur": 10.659,
+   "seg_dur": 11.589,
+   "timing": [
+    {
+     "text": "And the man was free.",
+     "start": 0.0,
+     "end": 1.149
+    },
+    {
+     "text": "The torment had drained from his face, and he stood there quiet and whole, himself again, like someone waking gently from a long and terrible dream.",
+     "start": 1.149,
+     "end": 11.006
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s8-the-people-amazed.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The people were amazed, and they turned to one another asking:",
+   "seg_start": 103.56,
+   "audio_start": 103.84,
+   "spoken_end": 106.761,
+   "seg_end": 107.411,
+   "audio_dur": 3.239,
+   "spoken_dur": 2.921,
+   "seg_dur": 3.851,
+   "timing": [
+    {
+     "text": "The people were amazed, and they turned to one another asking:",
+     "start": 0.0,
+     "end": 3.204
+    }
+   ]
+  },
+  {
+   "seg": "s27",
+   "v1_still": "s8-the-people-amazed.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "What thing is this? what new doctrine is this? for with authority commandeth he even the unclean spirits, and they do obey him.",
+   "seg_start": 107.411,
+   "audio_start": 107.691,
+   "spoken_end": 116.453,
+   "seg_end": 118.053,
+   "audio_dur": 9.143,
+   "spoken_dur": 8.763,
+   "seg_dur": 10.643,
+   "timing": [
+    {
+     "text": "What thing is this?",
+     "start": 0.0,
+     "end": 1.173
+    },
+    {
+     "text": "what new doctrine is this?",
+     "start": 1.173,
+     "end": 3.262
+    },
+    {
+     "text": "for with authority commandeth he even the unclean spirits, and they do obey him.",
+     "start": 3.262,
+     "end": 9.102
+    }
+   ]
+  },
+  {
+   "seg": "n7b",
+   "v1_still": "s8-the-people-amazed.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "What is this? A new teaching, and it comes with authority behind it. They had come to synagogue that morning expecting an ordinary sabbath.",
+   "seg_start": 118.053,
+   "audio_start": 118.333,
+   "spoken_end": 126.408,
+   "seg_end": 127.058,
+   "audio_dur": 8.594,
+   "spoken_dur": 8.075,
+   "seg_dur": 9.005,
+   "timing": [
+    {
+     "text": "What is this?",
+     "start": 0.0,
+     "end": 0.917
+    },
+    {
+     "text": "A new teaching, and it comes with authority behind it.",
+     "start": 0.917,
+     "end": 4.11
+    },
+    {
+     "text": "They had come to synagogue that morning expecting an ordinary sabbath.",
+     "start": 4.11,
+     "end": 8.545
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s9-fame-through-galilee.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And right away the news of him went out everywhere, through all the country round about Galilee. Wherever the story was carried, people heard that one had come whose word even the darkness could not resist.",
+   "seg_start": 127.058,
+   "audio_start": 127.338,
+   "spoken_end": 139.155,
+   "seg_end": 139.805,
+   "audio_dur": 12.304,
+   "spoken_dur": 11.816,
+   "seg_dur": 12.746,
+   "timing": [
+    {
+     "text": "And right away the news of him went out everywhere, through all the country round about Galilee.",
+     "start": 0.0,
+     "end": 5.178
+    },
+    {
+     "text": "Wherever the story was carried, people heard that one had come whose word even the darkness could not resist.",
+     "start": 5.178,
+     "end": 12.26
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "The same voice that spoke into that man's torment still speaks today. There is no darkness in you so deep that his word cannot reach it, and nothing holding you that has to stay when he says come out. What is he asking you to let him set free?",
+  "seg_start": 139.805,
+  "audio_start": 140.085,
+  "seg_dur": 16.853
+ },
+ "total": 156.657
+}

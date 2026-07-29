@@ -1,0 +1,425 @@
+{
+ "row": 110,
+ "slug": "build-110-lords-prayer",
+ "v1_dir": "media-production/build-110-lords-prayer",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-they-asked-how-to-pray.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "One day his followers asked him a simple question.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 2.479,
+   "seg_end": 3.129,
+   "audio_dur": 2.638,
+   "spoken_dur": 2.199,
+   "seg_dur": 3.129,
+   "timing": [
+    {
+     "text": "One day his followers asked him a simple question.",
+     "start": 0.0,
+     "end": 2.601
+    }
+   ]
+  },
+  {
+   "seg": "s11",
+   "v1_still": "s1-they-asked-how-to-pray.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Lord, teach us to pray, as John also taught his disciples.",
+   "seg_start": 3.129,
+   "audio_start": 3.409,
+   "spoken_end": 6.489,
+   "seg_end": 8.089,
+   "audio_dur": 3.474,
+   "spoken_dur": 3.08,
+   "seg_dur": 4.96,
+   "timing": [
+    {
+     "text": "Lord, teach us to pray, as John also taught his disciples.",
+     "start": 0.0,
+     "end": 3.437
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s1-they-asked-how-to-pray.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "They expected, maybe, a technique. A ritual. Instead, Jesus gave them a family word.",
+   "seg_start": 8.089,
+   "audio_start": 8.369,
+   "spoken_end": 13.528,
+   "seg_end": 14.178,
+   "audio_dur": 5.616,
+   "spoken_dur": 5.159,
+   "seg_dur": 6.089,
+   "timing": [
+    {
+     "text": "They expected, maybe, a technique.",
+     "start": 0.0,
+     "end": 1.788
+    },
+    {
+     "text": "A ritual.",
+     "start": 1.788,
+     "end": 2.891
+    },
+    {
+     "text": "Instead, Jesus gave them a family word.",
+     "start": 2.891,
+     "end": 5.573
+    }
+   ]
+  },
+  {
+   "seg": "jv9a",
+   "v1_still": "s2-our-father.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "After this manner therefore pray ye:",
+   "seg_start": 14.178,
+   "audio_start": 14.458,
+   "spoken_end": 16.408,
+   "seg_end": 18.008,
+   "audio_dur": 2.325,
+   "spoken_dur": 1.95,
+   "seg_dur": 3.83,
+   "timing": [
+    {
+     "text": "After this manner therefore pray ye:",
+     "start": 0.0,
+     "end": 2.276
+    }
+   ]
+  },
+  {
+   "seg": "jv9",
+   "v1_still": "s2-our-father.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Our Father which art in heaven, Hallowed be thy name. Thy kingdom come. Thy will be done in earth, as it is in heaven.",
+   "seg_start": 18.008,
+   "audio_start": 18.288,
+   "spoken_end": 26.263,
+   "seg_end": 27.863,
+   "audio_dur": 8.359,
+   "spoken_dur": 7.975,
+   "seg_dur": 9.855,
+   "timing": [
+    {
+     "text": "Our Father which art in heaven, Hallowed be thy name.",
+     "start": 0.0,
+     "end": 3.03
+    },
+    {
+     "text": "Thy kingdom come.",
+     "start": 3.03,
+     "end": 4.841
+    },
+    {
+     "text": "Thy will be done in earth, as it is in heaven.",
+     "start": 4.841,
+     "end": 8.313
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s3-thy-kingdom-come.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Not a distant judge. Not a force. A Father you belong to. And the very first thing you long for, once you know him, is not for yourself at all \u2014 that his name be honoured, and his good kingdom come, everywhere.",
+   "seg_start": 27.863,
+   "audio_start": 28.143,
+   "spoken_end": 44.069,
+   "seg_end": 44.719,
+   "audio_dur": 16.379,
+   "spoken_dur": 15.926,
+   "seg_dur": 16.856,
+   "timing": [
+    {
+     "text": "Not a distant judge.",
+     "start": 0.0,
+     "end": 1.416
+    },
+    {
+     "text": "Not a force.",
+     "start": 1.416,
+     "end": 2.844
+    },
+    {
+     "text": "A Father you belong to.",
+     "start": 2.844,
+     "end": 4.992
+    },
+    {
+     "text": "And the very first thing you long for, once you know him, is not for yourself at all \u2014 that his name be honoured, and his good kingdom come, everywhere.",
+     "start": 4.992,
+     "end": 16.347
+    }
+   ]
+  },
+  {
+   "seg": "jv11",
+   "v1_still": "s4-daily-bread.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Give us this day our daily bread. And forgive us our debts, as we forgive our debtors.",
+   "seg_start": 44.719,
+   "audio_start": 44.999,
+   "spoken_end": 50.276,
+   "seg_end": 51.876,
+   "audio_dur": 5.46,
+   "spoken_dur": 5.277,
+   "seg_dur": 7.157,
+   "timing": [
+    {
+     "text": "Give us this day our daily bread.",
+     "start": 0.0,
+     "end": 1.892
+    },
+    {
+     "text": "And forgive us our debts, as we forgive our debtors.",
+     "start": 1.892,
+     "end": 5.433
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s5-forgive-us.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then the plain, honest things. Bread \u2014 it is fine to ask for the ordinary needs of the day. And forgiveness \u2014 asked for, and passed on. We receive mercy with the same hands we use to give it away.",
+   "seg_start": 51.876,
+   "audio_start": 52.156,
+   "spoken_end": 65.412,
+   "seg_end": 66.062,
+   "audio_dur": 13.688,
+   "spoken_dur": 13.256,
+   "seg_dur": 14.186,
+   "timing": [
+    {
+     "text": "Then the plain, honest things.",
+     "start": 0.0,
+     "end": 1.765
+    },
+    {
+     "text": "Bread \u2014 it is fine to ask for the ordinary needs of the day.",
+     "start": 1.765,
+     "end": 6.211
+    },
+    {
+     "text": "And forgiveness \u2014 asked for, and passed on.",
+     "start": 6.211,
+     "end": 9.474
+    },
+    {
+     "text": "We receive mercy with the same hands we use to give it away.",
+     "start": 9.474,
+     "end": 13.653
+    }
+   ]
+  },
+  {
+   "seg": "jv13",
+   "v1_still": "s6-deliver-us.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "And lead us not into temptation, but deliver us from evil: For thine is the kingdom, and the power, and the glory, for ever. Amen.",
+   "seg_start": 66.062,
+   "audio_start": 66.342,
+   "spoken_end": 76.339,
+   "seg_end": 77.939,
+   "audio_dur": 10.397,
+   "spoken_dur": 9.996,
+   "seg_dur": 11.876,
+   "timing": [
+    {
+     "text": "And lead us not into temptation, but deliver us from evil: For thine is the kingdom, and the power, and the glory, forever.",
+     "start": 0.0,
+     "end": 9.265
+    },
+    {
+     "text": "Amen.",
+     "start": 9.265,
+     "end": 10.356
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s7-not-many-words.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Keep me safe. Lead me away from what would harm me. And it ends where it began \u2014 with him: Short. Honest. Nothing showy.",
+   "seg_start": 77.939,
+   "audio_start": 78.219,
+   "spoken_end": 87.933,
+   "seg_end": 88.583,
+   "audio_dur": 10.162,
+   "spoken_dur": 9.715,
+   "seg_dur": 10.645,
+   "timing": [
+    {
+     "text": "Keep me safe.",
+     "start": 0.0,
+     "end": 1.126
+    },
+    {
+     "text": "Lead me away from what would harm me.",
+     "start": 1.126,
+     "end": 3.088
+    },
+    {
+     "text": "And it ends where it began \u2014 with him: Short.",
+     "start": 3.088,
+     "end": 7.372
+    },
+    {
+     "text": "Honest.",
+     "start": 7.372,
+     "end": 8.487
+    },
+    {
+     "text": "Nothing showy.",
+     "start": 8.487,
+     "end": 10.124
+    }
+   ]
+  },
+  {
+   "seg": "jv7",
+   "v1_still": "s7-not-many-words.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "But when ye pray, use not vain repetitions, as the heathen do: for they think that they shall be heard for their much speaking.",
+   "seg_start": 88.583,
+   "audio_start": 88.863,
+   "spoken_end": 96.982,
+   "seg_end": 98.582,
+   "audio_dur": 8.542,
+   "spoken_dur": 8.118,
+   "seg_dur": 9.998,
+   "timing": [
+    {
+     "text": "But when ye pray, use not vain repetitions, as the heathen do: for they think that they shall be heard for their much speaking.",
+     "start": 0.0,
+     "end": 8.499
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s8-a-child-prays.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That was his warning, just before this: prayer is not a performance. Not many clever words, not standing on a corner to be admired. The prayer God loves most may be the simplest one a child ever whispered.",
+   "seg_start": 98.582,
+   "audio_start": 98.862,
+   "spoken_end": 111.421,
+   "seg_end": 112.071,
+   "audio_dur": 12.983,
+   "spoken_dur": 12.56,
+   "seg_dur": 13.49,
+   "timing": [
+    {
+     "text": "That was his warning, just before this: prayer is not a performance.",
+     "start": 0.0,
+     "end": 4.528
+    },
+    {
+     "text": "Not many clever words, not standing on a corner to be admired.",
+     "start": 4.528,
+     "end": 8.382
+    },
+    {
+     "text": "The prayer God loves most may be the simplest one a child ever whispered.",
+     "start": 8.382,
+     "end": 12.957
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s9-the-circle-prays.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That is really all it is. Not a speech to impress heaven. A child, climbing into the lap of a good Father, and simply talking to him.",
+   "seg_start": 112.071,
+   "audio_start": 112.351,
+   "spoken_end": 120.596,
+   "seg_end": 121.246,
+   "audio_dur": 8.673,
+   "spoken_dur": 8.244,
+   "seg_dur": 9.174,
+   "timing": [
+    {
+     "text": "That is really all it is.",
+     "start": 0.0,
+     "end": 1.509
+    },
+    {
+     "text": "Not a speech to impress heaven.",
+     "start": 1.509,
+     "end": 3.518
+    },
+    {
+     "text": "A child, climbing into the lap of a good Father, and simply talking to him.",
+     "start": 3.518,
+     "end": 8.638
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s10-you-can-call-him-father.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So you do not need the right words. You only need to begin. And the beginning is just two words, the ones he gave them first of all: Our Father.",
+   "seg_start": 121.246,
+   "audio_start": 121.526,
+   "spoken_end": 129.738,
+   "seg_end": 130.388,
+   "audio_dur": 8.62,
+   "spoken_dur": 8.212,
+   "seg_dur": 9.142,
+   "timing": [
+    {
+     "text": "So you do not need the right words.",
+     "start": 0.0,
+     "end": 2.043
+    },
+    {
+     "text": "You only need to begin.",
+     "start": 2.043,
+     "end": 3.587
+    },
+    {
+     "text": "And the beginning is just two words, the ones he gave them first of all: Our Father.",
+     "start": 3.587,
+     "end": 8.591
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "Jesus said you can talk to God the way a child talks to a good Father \u2014 simply, honestly, no performance. It starts with two words: Our Father. What would you say to him, if you began today?",
+  "seg_start": 130.388,
+  "audio_start": 130.668,
+  "seg_dur": 14.684
+ },
+ "total": 145.072
+}

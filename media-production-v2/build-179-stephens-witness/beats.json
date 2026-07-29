@@ -1,0 +1,240 @@
+{
+ "row": 179,
+ "slug": "build-179-stephens-witness",
+ "v1_dir": "media-production/build-179-stephens-witness",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-before-the-council.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Stephen, full of the Holy Spirit, was dragged before the council for speaking the truth. He told them the whole story of Israel \u2014 and they boiled with rage.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 9.195,
+   "seg_end": 9.845,
+   "audio_dur": 9.326,
+   "spoken_dur": 8.915,
+   "seg_dur": 9.845,
+   "timing": [
+    {
+     "text": "Stephen, full of the Holy Spirit, was dragged before the council for speaking the truth.",
+     "start": 0.0,
+     "end": 4.656
+    },
+    {
+     "text": "He told them the whole story of Israel \u2014 and they boiled with rage.",
+     "start": 4.656,
+     "end": 9.288
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-he-looked-up.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But Stephen didn't look at his accusers. He looked up, and what he saw changed everything.",
+   "seg_start": 9.845,
+   "audio_start": 10.125,
+   "spoken_end": 14.929,
+   "seg_end": 15.579,
+   "audio_dur": 5.251,
+   "spoken_dur": 4.804,
+   "seg_dur": 5.734,
+   "timing": [
+    {
+     "text": "But Stephen didn't look at his accusers.",
+     "start": 0.0,
+     "end": 1.904
+    },
+    {
+     "text": "He looked up, and what he saw changed everything.",
+     "start": 1.904,
+     "end": 5.201
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s3-the-standing-witness.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He saw the glory of God \u2014 and Jesus, standing at the right hand of the Father. And he said so, out loud:",
+   "seg_start": 15.579,
+   "audio_start": 15.859,
+   "spoken_end": 21.64,
+   "seg_end": 22.29,
+   "audio_dur": 6.165,
+   "spoken_dur": 5.781,
+   "seg_dur": 6.711,
+   "timing": [
+    {
+     "text": "He saw the glory of God \u2014 and Jesus, standing at the right hand of the Father.",
+     "start": 0.0,
+     "end": 3.634
+    },
+    {
+     "text": "And he said so, out loud:",
+     "start": 4.11,
+     "end": 6.13
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "v1_still": "s5-i-see-him.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Behold, I see the heavens opened, and the Son of man standing on the right hand of God.",
+   "seg_start": 22.29,
+   "audio_start": 22.57,
+   "spoken_end": 26.942,
+   "seg_end": 28.542,
+   "audio_dur": 4.728,
+   "spoken_dur": 4.372,
+   "seg_dur": 6.252,
+   "timing": [
+    {
+     "text": "Behold, I see the heavens opened, and the Son of man standing on the right hand of God.",
+     "start": 0.0,
+     "end": 4.69
+    }
+   ]
+  },
+  {
+   "seg": "n3a",
+   "v1_still": "s6-outside-the-walls.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "They would not hear it. They rushed him out.",
+   "seg_start": 28.542,
+   "audio_start": 28.822,
+   "spoken_end": 30.966,
+   "seg_end": 31.616,
+   "audio_dur": 2.586,
+   "spoken_dur": 2.144,
+   "seg_dur": 3.074,
+   "timing": [
+    {
+     "text": "They would not hear it.",
+     "start": 0.0,
+     "end": 1.091
+    },
+    {
+     "text": "They rushed him out.",
+     "start": 1.091,
+     "end": 2.554
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s7-the-face-of-an-angel.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "But Stephen's face was the face of an angel \u2014 at peace, not afraid. The court could condemn him, but it could not make him face death alone.",
+   "seg_start": 31.616,
+   "audio_start": 31.896,
+   "spoken_end": 40.154,
+   "seg_end": 40.804,
+   "audio_dur": 8.673,
+   "spoken_dur": 8.258,
+   "seg_dur": 9.188,
+   "timing": [
+    {
+     "text": "But Stephen's face was the face of an angel \u2014 at peace, not afraid.",
+     "start": 0.0,
+     "end": 4.145
+    },
+    {
+     "text": "The court could condemn him, but it could not make him face death alone.",
+     "start": 4.145,
+     "end": 8.638
+    }
+   ]
+  },
+  {
+   "seg": "n4a",
+   "v1_still": "s9-peace-not-horror.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then he knelt down, with the stones still coming, and his last words asked mercy for the ones throwing them.",
+   "seg_start": 40.804,
+   "audio_start": 41.084,
+   "spoken_end": 46.975,
+   "seg_end": 47.625,
+   "audio_dur": 6.296,
+   "spoken_dur": 5.891,
+   "seg_dur": 6.821,
+   "timing": [
+    {
+     "text": "Then he knelt down, with the stones still coming, and his last words asked mercy for the ones throwing them.",
+     "start": 0.0,
+     "end": 6.269
+    }
+   ]
+  },
+  {
+   "seg": "s60",
+   "v1_still": "s9-peace-not-horror.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Lord, lay not this sin to their charge.",
+   "seg_start": 47.625,
+   "audio_start": 47.905,
+   "spoken_end": 50.111,
+   "seg_end": 51.711,
+   "audio_dur": 2.325,
+   "spoken_dur": 2.205,
+   "seg_dur": 4.085,
+   "timing": [
+    {
+     "text": "Lord, lay not this sin to their charge.",
+     "start": 0.0,
+     "end": 2.276
+    }
+   ]
+  },
+  {
+   "seg": "n4b",
+   "v1_still": "s8-received-into-glory.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Don't hold this against them, he prayed. And then he fell asleep.",
+   "seg_start": 51.711,
+   "audio_start": 51.991,
+   "spoken_end": 55.09,
+   "seg_end": 55.74,
+   "audio_dur": 3.579,
+   "spoken_dur": 3.099,
+   "seg_dur": 4.029,
+   "timing": [
+    {
+     "text": "Don't hold this against them, he prayed.",
+     "start": 0.0,
+     "end": 1.788
+    },
+    {
+     "text": "And then he fell asleep.",
+     "start": 1.788,
+     "end": 3.529
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He saw the Son of man standing to receive him. You can face your end with that same peace.",
+  "seg_start": 55.74,
+  "audio_start": 56.02,
+  "seg_dur": 7.161
+ },
+ "total": 62.901
+}

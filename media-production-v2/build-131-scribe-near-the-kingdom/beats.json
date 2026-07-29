@@ -1,0 +1,261 @@
+{
+ "row": 131,
+ "slug": "build-131-scribe-near-the-kingdom",
+ "v1_dir": "media-production/build-131-scribe-near-the-kingdom",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0a",
+   "v1_still": "s1-a-real-question.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "A teacher of the law came to Jesus with a real question, not a trap \u2014",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 4.308,
+   "seg_end": 5.028,
+   "audio_dur": 4.415,
+   "spoken_dur": 4.028,
+   "seg_dur": 5.028,
+   "timing": [
+    {
+     "text": "A teacher of the law came to Jesus with a real question, not a trap \u2014",
+     "start": 0.0,
+     "end": 4.365
+    }
+   ]
+  },
+  {
+   "seg": "s28",
+   "v1_still": "s1-a-real-question.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Which is the first commandment of all?",
+   "seg_start": 5.028,
+   "audio_start": 5.308,
+   "spoken_end": 7.03,
+   "seg_end": 8.63,
+   "audio_dur": 2.168,
+   "spoken_dur": 1.722,
+   "seg_dur": 3.602,
+   "timing": [
+    {
+     "text": "Which is the first commandment of all?",
+     "start": 0.0,
+     "end": 2.136
+    }
+   ]
+  },
+  {
+   "seg": "n0b",
+   "v1_still": "s3-wanting-the-truth.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus answered from words the scribe had known by heart for years.",
+   "seg_start": 8.63,
+   "audio_start": 8.91,
+   "spoken_end": 12.389,
+   "seg_end": 13.109,
+   "audio_dur": 3.788,
+   "spoken_dur": 3.479,
+   "seg_dur": 4.479,
+   "timing": [
+    {
+     "text": "Jesus answered from words the scribe had known by heart for years.",
+     "start": 0.0,
+     "end": 3.762
+    }
+   ]
+  },
+  {
+   "seg": "jv29",
+   "v1_still": "s4-the-two-commands.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "The first of all the commandments is, Hear, O Israel; The Lord our God is one Lord: And thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind, and with all thy strength: this is the first commandment. And the second is like, namely this, Thou shalt love thy neighbour as thyself. There is none other commandment greater than these.",
+   "seg_start": 13.109,
+   "audio_start": 13.389,
+   "spoken_end": 41.596,
+   "seg_end": 43.196,
+   "audio_dur": 28.656,
+   "spoken_dur": 28.207,
+   "seg_dur": 30.087,
+   "timing": [
+    {
+     "text": "The first of all the commandments is, Hear, O Israel; The Lord our God is one Lord: And thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind, and with all thy strength: this is the first commandment.",
+     "start": 0.0,
+     "end": 18.89
+    },
+    {
+     "text": "And the second is like, namely this, Thou shalt love thy neighbour as thyself.",
+     "start": 18.89,
+     "end": 25.124
+    },
+    {
+     "text": "There is none other commandment greater than these.",
+     "start": 25.124,
+     "end": 28.607
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s4-the-two-commands.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "The answer was not merely an idea to admire. It measured every other act of devotion.",
+   "seg_start": 43.196,
+   "audio_start": 43.476,
+   "spoken_end": 48.658,
+   "seg_end": 49.378,
+   "audio_dur": 5.616,
+   "spoken_dur": 5.182,
+   "seg_dur": 6.182,
+   "timing": [
+    {
+     "text": "The answer was not merely an idea to admire.",
+     "start": 0.0,
+     "end": 2.694
+    },
+    {
+     "text": "It measured every other act of devotion.",
+     "start": 2.694,
+     "end": 5.573
+    }
+   ]
+  },
+  {
+   "seg": "s32",
+   "v1_still": "s5-the-answer-lands.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Well, Master, thou hast said the truth: for there is one God; and there is none other but he: And to love him with all the heart, and with all the understanding, and with all the soul, and with all the strength, and to love his neighbour as himself, is more than all whole burnt offerings and sacrifices.",
+   "seg_start": 49.378,
+   "audio_start": 49.658,
+   "spoken_end": 68.207,
+   "seg_end": 69.807,
+   "audio_dur": 18.939,
+   "spoken_dur": 18.549,
+   "seg_dur": 20.429,
+   "timing": [
+    {
+     "text": "Well, Master, thou hast said the truth: for there is one God; and there is none other but he: And to love him with all the heart, and with all the understanding, and with all the soul, and with all the strength, and to love his neighbour as himself, is more than all whole burnt offerings and sacrifices.",
+     "start": 0.0,
+     "end": 18.901
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s6-honest-agreement.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The scribe had not merely repeated Jesus. He understood the weight of the answer.",
+   "seg_start": 69.807,
+   "audio_start": 70.087,
+   "spoken_end": 74.504,
+   "seg_end": 75.224,
+   "audio_dur": 4.833,
+   "spoken_dur": 4.417,
+   "seg_dur": 5.417,
+   "timing": [
+    {
+     "text": "The scribe had not merely repeated Jesus.",
+     "start": 0.0,
+     "end": 2.589
+    },
+    {
+     "text": "He understood the weight of the answer.",
+     "start": 2.589,
+     "end": 4.783
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s7-recognition.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus looked at him and saw a man thinking clearly, with an open heart.",
+   "seg_start": 75.224,
+   "audio_start": 75.504,
+   "spoken_end": 79.144,
+   "seg_end": 79.864,
+   "audio_dur": 4.127,
+   "spoken_dur": 3.64,
+   "seg_dur": 4.64,
+   "timing": [
+    {
+     "text": "Jesus looked at him and saw a man thinking clearly, with an open heart.",
+     "start": 0.0,
+     "end": 4.087
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s10-not-far-from-the-door.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Thou art not far from the kingdom of God.",
+   "seg_start": 79.864,
+   "audio_start": 80.144,
+   "spoken_end": 82.376,
+   "seg_end": 83.976,
+   "audio_dur": 2.586,
+   "spoken_dur": 2.232,
+   "seg_dur": 4.112,
+   "timing": [
+    {
+     "text": "Thou art not far from the kingdom of God.",
+     "start": 0.0,
+     "end": 2.554
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s9-no-more-questions.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That was both recognition and invitation. Understanding had brought the man to the threshold; now he had to enter. And no one dared question Jesus after that.",
+   "seg_start": 83.976,
+   "audio_start": 84.256,
+   "spoken_end": 94.215,
+   "seg_end": 94.935,
+   "audio_dur": 10.449,
+   "spoken_dur": 9.959,
+   "seg_dur": 10.959,
+   "timing": [
+    {
+     "text": "That was both recognition and invitation.",
+     "start": 0.0,
+     "end": 2.798
+    },
+    {
+     "text": "Understanding had brought the man to the threshold; now he had to enter.",
+     "start": 2.798,
+     "end": 7.326
+    },
+    {
+     "text": "And no one dared question Jesus after that.",
+     "start": 7.326,
+     "end": 10.403
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "You may be closer than you think. Love God, love your neighbor \u2014 and step through the door.",
+  "seg_start": 94.935,
+  "audio_start": 95.215,
+  "seg_dur": 7.527
+ },
+ "total": 102.462
+}

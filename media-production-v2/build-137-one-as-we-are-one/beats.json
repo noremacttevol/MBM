@@ -1,0 +1,182 @@
+{
+ "row": 137,
+ "slug": "build-137-one-as-we-are-one",
+ "v1_dir": "media-production/build-137-one-as-we-are-one",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-the-night-path.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The night before he died, Jesus stopped to pray. And in that prayer, he prayed for someone you might not expect \u2014 for everyone who would ever believe. That includes you.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 10.058,
+   "seg_end": 10.708,
+   "audio_dur": 10.214,
+   "spoken_dur": 9.778,
+   "seg_dur": 10.708,
+   "timing": [
+    {
+     "text": "The night before he died, Jesus stopped to pray.",
+     "start": 0.0,
+     "end": 2.461
+    },
+    {
+     "text": "And in that prayer, he prayed for someone you might not expect \u2014 for everyone who would ever believe.",
+     "start": 2.461,
+     "end": 8.742
+    },
+    {
+     "text": "That includes you.",
+     "start": 8.742,
+     "end": 10.17
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s2-he-stopped-to-pray.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Neither pray I for these alone, but for them also which shall believe on me through their word; that they all may be one; as thou, Father, art in me, and I in thee, that they also may be one in us.",
+   "seg_start": 10.708,
+   "audio_start": 10.988,
+   "spoken_end": 26.193,
+   "seg_end": 27.793,
+   "audio_dur": 15.595,
+   "spoken_dur": 15.205,
+   "seg_dur": 17.085,
+   "timing": [
+    {
+     "text": "Neither pray I for these alone, but for them also which shall believe on me through their word; that they all may be one; as thou, Father, art in me, and I in thee, that they also may be one in us.",
+     "start": 0.0,
+     "end": 15.557
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s3-the-listening-sky.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Listen to how he asks. He prays that his followers will be one \u2014 the same way he and his Father are one.",
+   "seg_start": 27.793,
+   "audio_start": 28.073,
+   "spoken_end": 33.96,
+   "seg_end": 34.61,
+   "audio_dur": 6.296,
+   "spoken_dur": 5.887,
+   "seg_dur": 6.817,
+   "timing": [
+    {
+     "text": "Listen to how he asks.",
+     "start": 0.0,
+     "end": 1.3
+    },
+    {
+     "text": "He prays that his followers will be one \u2014 the same way he and his Father are one.",
+     "start": 1.3,
+     "end": 6.269
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-two-flames.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "If that oneness meant one single being, this prayer would be asking millions of believers to melt into one person. It doesn't ask that. It asks for perfect unity between distinct persons.",
+   "seg_start": 34.61,
+   "audio_start": 34.89,
+   "spoken_end": 46.515,
+   "seg_end": 47.165,
+   "audio_dur": 12.016,
+   "spoken_dur": 11.625,
+   "seg_dur": 12.555,
+   "timing": [
+    {
+     "text": "If that oneness meant one single being, this prayer would be asking millions of believers to melt into one person.",
+     "start": 0.0,
+     "end": 6.966
+    },
+    {
+     "text": "It doesn't ask that.",
+     "start": 6.966,
+     "end": 8.533
+    },
+    {
+     "text": "It asks for perfect unity between distinct persons.",
+     "start": 8.533,
+     "end": 11.981
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s5-hands-open.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "And the glory which thou gavest me I have given them; that they may be one, even as we are one: I in them, and thou in me, that they may be made perfect in one.",
+   "seg_start": 47.165,
+   "audio_start": 47.445,
+   "spoken_end": 59.693,
+   "seg_end": 61.293,
+   "audio_dur": 12.565,
+   "spoken_dur": 12.249,
+   "seg_dur": 14.129,
+   "timing": [
+    {
+     "text": "And the glory which thou gavest me I have given them; that they may be one, even as we are one: I in them, and thou in me, that they may be made perfect in one.",
+     "start": 0.0,
+     "end": 12.539
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s6-one-light.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "The Father and the Son are perfectly one \u2014 one in purpose, one in love, one in glory. Two persons, one heart. And Jesus prayed that you would be brought into that same oneness.",
+   "seg_start": 61.293,
+   "audio_start": 61.573,
+   "spoken_end": 74.047,
+   "seg_end": 74.697,
+   "audio_dur": 12.852,
+   "spoken_dur": 12.474,
+   "seg_dur": 13.404,
+   "timing": [
+    {
+     "text": "The Father and the Son are perfectly one \u2014 one in purpose, one in love, one in glory.",
+     "start": 0.0,
+     "end": 6.002
+    },
+    {
+     "text": "Two persons, one heart.",
+     "start": 6.002,
+     "end": 8.371
+    },
+    {
+     "text": "And Jesus prayed that you would be brought into that same oneness.",
+     "start": 8.371,
+     "end": 12.817
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "The night before he died, he prayed for you \u2014 that you would be one with them, as they are one with each other.",
+  "seg_start": 74.697,
+  "audio_start": 74.977,
+  "seg_dur": 8.232
+ },
+ "total": 82.93
+}

@@ -1,0 +1,210 @@
+{
+ "row": 193,
+ "slug": "build-193-the-comforter",
+ "v1_dir": "media-production/build-193-the-comforter",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-not-left-alone.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "On the night before He died, Jesus sat with His disciples and told them they would not be left alone.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 5.844,
+   "seg_end": 6.494,
+   "audio_dur": 5.93,
+   "spoken_dur": 5.564,
+   "seg_dur": 6.494,
+   "timing": [
+    {
+     "text": "On the night before He died, Jesus sat with His disciples and told them they would not be left alone.",
+     "start": 0.0,
+     "end": 5.898
+    }
+   ]
+  },
+  {
+   "seg": "j0",
+   "v1_still": "s1-not-left-alone.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "I will not leave you comfortless: I will come to you.",
+   "seg_start": 6.494,
+   "audio_start": 6.774,
+   "spoken_end": 10.287,
+   "seg_end": 11.887,
+   "audio_dur": 3.892,
+   "spoken_dur": 3.513,
+   "seg_dur": 5.393,
+   "timing": [
+    {
+     "text": "I will not leave you comfortless: I will come to you.",
+     "start": 0.0,
+     "end": 3.855
+    }
+   ]
+  },
+  {
+   "seg": "n0b",
+   "v1_still": "s2-the-promise-spoken.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He was hours from the cross, and He was the one doing the comforting \u2014 promising that whatever else they lost that week, they would not be left on their own.",
+   "seg_start": 11.887,
+   "audio_start": 12.167,
+   "spoken_end": 21.083,
+   "seg_end": 21.733,
+   "audio_dur": 9.326,
+   "spoken_dur": 8.916,
+   "seg_dur": 9.846,
+   "timing": [
+    {
+     "text": "He was hours from the cross, and He was the one doing the comforting \u2014 promising that whatever else they lost that week, they would not be left on their own.",
+     "start": 0.0,
+     "end": 9.288
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-the-promise-spoken.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He promised another Helper would come \u2014 the Holy Ghost, sent by the Father in His name.",
+   "seg_start": 21.733,
+   "audio_start": 22.013,
+   "spoken_end": 27.207,
+   "seg_end": 27.857,
+   "audio_dur": 5.564,
+   "spoken_dur": 5.194,
+   "seg_dur": 6.124,
+   "timing": [
+    {
+     "text": "He promised another Helper would come \u2014 the Holy Ghost, sent by the Father in His name.",
+     "start": 0.0,
+     "end": 5.526
+    }
+   ]
+  },
+  {
+   "seg": "n2a",
+   "v1_still": "s3-receiving.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "This Helper would do two things: teach them everything,",
+   "seg_start": 27.857,
+   "audio_start": 28.137,
+   "spoken_end": 31.21,
+   "seg_end": 31.86,
+   "audio_dur": 3.474,
+   "spoken_dur": 3.073,
+   "seg_dur": 4.003,
+   "timing": [
+    {
+     "text": "This Helper would do two things: teach them everything,",
+     "start": 0.0,
+     "end": 3.437
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s6-held-in-memory.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "and bring every word Jesus had spoken back to their minds.",
+   "seg_start": 31.86,
+   "audio_start": 32.14,
+   "spoken_end": 35.536,
+   "seg_end": 36.186,
+   "audio_dur": 3.762,
+   "spoken_dur": 3.395,
+   "seg_dur": 4.325,
+   "timing": [
+    {
+     "text": "and bring every word Jesus had spoken back to their minds.",
+     "start": 0.0,
+     "end": 3.715
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s4-the-hinted-comforter.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "But the Comforter, which is the Holy Ghost, whom the Father will send in my name, he shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you.",
+   "seg_start": 36.186,
+   "audio_start": 36.466,
+   "spoken_end": 48.74,
+   "seg_end": 50.34,
+   "audio_dur": 12.722,
+   "spoken_dur": 12.274,
+   "seg_dur": 14.154,
+   "timing": [
+    {
+     "text": "But the Comforter, which is the Holy Ghost, whom the Father will send in my name, he shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you.",
+     "start": 0.0,
+     "end": 12.678
+    }
+   ]
+  },
+  {
+   "seg": "n3a",
+   "v1_still": "s5-open-hands.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The promise still stands.",
+   "seg_start": 50.34,
+   "audio_start": 50.62,
+   "spoken_end": 51.95,
+   "seg_end": 52.6,
+   "audio_dur": 1.698,
+   "spoken_dur": 1.33,
+   "seg_dur": 2.26,
+   "timing": [
+    {
+     "text": "The promise still stands.",
+     "start": 0.0,
+     "end": 1.672
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s7-let-him-teach-you.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The Spirit who taught them then teaches everyone who listens now.",
+   "seg_start": 52.6,
+   "audio_start": 52.88,
+   "spoken_end": 56.388,
+   "seg_end": 57.038,
+   "audio_dur": 3.944,
+   "spoken_dur": 3.508,
+   "seg_dur": 4.438,
+   "timing": [
+    {
+     "text": "The Spirit who taught them then teaches everyone who listens now.",
+     "start": 0.0,
+     "end": 3.901
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "You are not left to remember alone. The Comforter is here \u2014 let Him teach you.",
+  "seg_start": 57.038,
+  "audio_start": 57.318,
+  "seg_dur": 7.161
+ },
+ "total": 64.199
+}

@@ -1,0 +1,349 @@
+{
+ "row": 169,
+ "slug": "build-169-fulfil-righteousness",
+ "v1_dir": "media-production/build-169-fulfil-righteousness",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-comes-to-jordan.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Something startling happens at the very start of it all. Jesus, who had no sin to wash away, walks down to the river Jordan and asks John to baptize him \u2014 the sinless One, lining up for the sinner's ordinance.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 12.908,
+   "seg_end": 13.558,
+   "audio_dur": 13.035,
+   "spoken_dur": 12.628,
+   "seg_dur": 13.558,
+   "timing": [
+    {
+     "text": "Something startling happens at the very start of it all.",
+     "start": 0.0,
+     "end": 2.635
+    },
+    {
+     "text": "Jesus, who had no sin to wash away, walks down to the river Jordan and asks John to baptize him \u2014 the sinless One, lining up for the sinner's ordinance.",
+     "start": 2.635,
+     "end": 13.003
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-john-hesitates.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "John was stunned, and tried to stop him. He felt the whole thing backwards: surely he was the one who needed to be baptized by Jesus, not Jesus by him. Who was he to baptize the Lord?",
+   "seg_start": 13.558,
+   "audio_start": 13.838,
+   "spoken_end": 24.982,
+   "seg_end": 25.632,
+   "audio_dur": 11.546,
+   "spoken_dur": 11.144,
+   "seg_dur": 12.074,
+   "timing": [
+    {
+     "text": "John was stunned, and tried to stop him.",
+     "start": 0.0,
+     "end": 1.927
+    },
+    {
+     "text": "He felt the whole thing backwards: surely he was the one who needed to be baptized by Jesus, not Jesus by him.",
+     "start": 1.927,
+     "end": 9.16
+    },
+    {
+     "text": "Who was he to baptize the Lord?",
+     "start": 9.16,
+     "end": 11.517
+    }
+   ]
+  },
+  {
+   "seg": "s14",
+   "v1_still": "s2-john-hesitates.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "I have need to be baptized of thee, and comest thou to me?",
+   "seg_start": 25.632,
+   "audio_start": 25.912,
+   "spoken_end": 28.916,
+   "seg_end": 30.516,
+   "audio_dur": 3.37,
+   "spoken_dur": 3.004,
+   "seg_dur": 4.884,
+   "timing": [
+    {
+     "text": "I have need to be baptized of thee, and comest thou to me?",
+     "start": 0.0,
+     "end": 3.344
+    }
+   ]
+  },
+  {
+   "seg": "kv15",
+   "v1_still": "s3-fulfil-righteousness.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And Jesus answering said unto him,",
+   "seg_start": 30.516,
+   "audio_start": 30.796,
+   "spoken_end": 32.745,
+   "seg_end": 34.345,
+   "audio_dur": 2.273,
+   "spoken_dur": 1.948,
+   "seg_dur": 3.828,
+   "timing": [
+    {
+     "text": "And Jesus answering said unto him,",
+     "start": 0.0,
+     "end": 2.229
+    }
+   ]
+  },
+  {
+   "seg": "kv15b",
+   "v1_still": "s3-fulfil-righteousness.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Suffer it to be so now: for thus it becometh us to fulfil all righteousness.",
+   "seg_start": 34.345,
+   "audio_start": 34.625,
+   "spoken_end": 39.496,
+   "seg_end": 41.096,
+   "audio_dur": 5.251,
+   "spoken_dur": 4.872,
+   "seg_dur": 6.752,
+   "timing": [
+    {
+     "text": "Suffer it to be so now: for thus it becometh us to fulfil all righteousness.",
+     "start": 0.0,
+     "end": 5.201
+    }
+   ]
+  },
+  {
+   "seg": "kv15c",
+   "v1_still": "s3-fulfil-righteousness.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Then he suffered him.",
+   "seg_start": 41.096,
+   "audio_start": 41.376,
+   "spoken_end": 42.419,
+   "seg_end": 44.019,
+   "audio_dur": 1.384,
+   "spoken_dur": 1.042,
+   "seg_dur": 2.922,
+   "timing": [
+    {
+     "text": "Then he suffered him.",
+     "start": 0.0,
+     "end": 1.347
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s4-the-baptism.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So even the perfect One went down into the water. Not because he needed cleansing, but to fulfil all righteousness \u2014 to walk the path himself, and leave us an example that this gate is the way in, for everyone.",
+   "seg_start": 44.019,
+   "audio_start": 44.299,
+   "spoken_end": 57.879,
+   "seg_end": 58.529,
+   "audio_dur": 14.028,
+   "spoken_dur": 13.58,
+   "seg_dur": 14.51,
+   "timing": [
+    {
+     "text": "So even the perfect One went down into the water.",
+     "start": 0.0,
+     "end": 2.856
+    },
+    {
+     "text": "Not because he needed cleansing, but to fulfil all righteousness \u2014 to walk the path himself, and leave us an example that this gate is the way in, for everyone.",
+     "start": 2.856,
+     "end": 13.978
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s5-heavens-open-dove.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And as he came up out of the water, heaven itself answered. The skies opened, and the Spirit of God came down gently, like a dove, and rested upon him in the warm light.",
+   "seg_start": 58.529,
+   "audio_start": 58.809,
+   "spoken_end": 69.668,
+   "seg_end": 70.318,
+   "audio_dur": 11.311,
+   "spoken_dur": 10.858,
+   "seg_dur": 11.788,
+   "timing": [
+    {
+     "text": "And as he came up out of the water, heaven itself answered.",
+     "start": 0.0,
+     "end": 3.773
+    },
+    {
+     "text": "The skies opened, and the Spirit of God came down gently, like a dove, and rested upon him in the warm light.",
+     "start": 3.773,
+     "end": 11.285
+    }
+   ]
+  },
+  {
+   "seg": "kv17",
+   "v1_still": "s6-voice-from-heaven.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "And lo a voice from heaven, saying,",
+   "seg_start": 70.318,
+   "audio_start": 70.598,
+   "spoken_end": 72.702,
+   "seg_end": 74.302,
+   "audio_dur": 2.403,
+   "spoken_dur": 2.105,
+   "seg_dur": 3.985,
+   "timing": [
+    {
+     "text": "And lo a voice from heaven, saying,",
+     "start": 0.0,
+     "end": 2.368
+    }
+   ]
+  },
+  {
+   "seg": "gv17",
+   "v1_still": "s6-voice-from-heaven.jpeg",
+   "zoom": "out",
+   "speaker": "god",
+   "text": "This is my beloved Son, in whom I am well pleased.",
+   "seg_start": 74.302,
+   "audio_start": 74.582,
+   "spoken_end": 78.372,
+   "seg_end": 79.972,
+   "audio_dur": 4.18,
+   "spoken_dur": 3.79,
+   "seg_dur": 5.67,
+   "timing": [
+    {
+     "text": "This is my beloved Son, in whom I am well pleased.",
+     "start": 0.0,
+     "end": 4.133
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s7-godhead-distinct.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Look closely at that one moment, because it opens a window into who God is. Three were there at once, and each was distinct: the Son standing in the river, the Spirit resting as the dove, and the Father speaking from the opened heaven.",
+   "seg_start": 79.972,
+   "audio_start": 80.252,
+   "spoken_end": 94.568,
+   "seg_end": 95.218,
+   "audio_dur": 14.707,
+   "spoken_dur": 14.316,
+   "seg_dur": 15.246,
+   "timing": [
+    {
+     "text": "Look closely at that one moment, because it opens a window into who God is.",
+     "start": 0.0,
+     "end": 4.505
+    },
+    {
+     "text": "Three were there at once, and each was distinct: the Son standing in the river, the Spirit resting as the dove, and the Father speaking from the opened heaven.",
+     "start": 4.505,
+     "end": 14.675
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s7-godhead-distinct.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Here is the quiet study gem. This was not one person changing costumes. It was three distinct persons, together, each doing his own part \u2014 the Godhead, standing plain to see. And notice: even He was baptized.",
+   "seg_start": 95.218,
+   "audio_start": 95.498,
+   "spoken_end": 110.878,
+   "seg_end": 111.528,
+   "audio_dur": 15.83,
+   "spoken_dur": 15.38,
+   "seg_dur": 16.31,
+   "timing": [
+    {
+     "text": "Here is the quiet study gem.",
+     "start": 0.0,
+     "end": 1.602
+    },
+    {
+     "text": "This was not one person changing costumes.",
+     "start": 1.602,
+     "end": 4.4
+    },
+    {
+     "text": "It was three distinct persons, together, each doing his own part \u2014 the Godhead, standing plain to see.",
+     "start": 4.4,
+     "end": 12.492
+    },
+    {
+     "text": "And notice: even He was baptized.",
+     "start": 12.492,
+     "end": 15.79
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s8-the-way-for-you.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And that settles it for the rest of us. If the one man who never needed it still went down into the water to fulfil all righteousness, then the way is surely open, and good, for you. When you come to that same water, will you go down into it?",
+   "seg_start": 111.528,
+   "audio_start": 111.808,
+   "spoken_end": 126.811,
+   "seg_end": 127.461,
+   "audio_dur": 15.464,
+   "spoken_dur": 15.003,
+   "seg_dur": 15.933,
+   "timing": [
+    {
+     "text": "And that settles it for the rest of us.",
+     "start": 0.0,
+     "end": 1.823
+    },
+    {
+     "text": "If the one man who never needed it still went down into the water to fulfil all righteousness, then the way is surely open, and good, for you.",
+     "start": 1.823,
+     "end": 11.111
+    },
+    {
+     "text": "When you come to that same water, will you go down into it?",
+     "start": 11.111,
+     "end": 15.418
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "Even the Sinless One was baptized, to fulfil all righteousness \u2014 and there the Godhead stood revealed: the Son, the Spirit, and the Father, three and distinct. When you come to that same water, will you go down into it?",
+  "seg_start": 127.461,
+  "audio_start": 127.741,
+  "seg_dur": 18.629
+ },
+ "total": 146.09
+}

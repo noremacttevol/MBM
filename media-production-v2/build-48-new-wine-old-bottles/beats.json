@@ -1,0 +1,481 @@
+{
+ "row": 48,
+ "slug": "build-48-new-wine-old-bottles",
+ "v1_dir": "media-production/build-48-new-wine-old-bottles",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-the-question.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Some very sincere, very religious men came to him with an honest question.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 4.378,
+   "seg_end": 5.028,
+   "audio_dur": 4.545,
+   "spoken_dur": 4.098,
+   "seg_dur": 5.028,
+   "timing": [
+    {
+     "text": "Some very sincere, very religious men came to him with an honest question.",
+     "start": 0.0,
+     "end": 4.505
+    }
+   ]
+  },
+  {
+   "seg": "s18",
+   "v1_still": "s1-the-question.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "Why do the disciples of John and of the Pharisees fast, but thy disciples fast not?",
+   "seg_start": 5.028,
+   "audio_start": 5.308,
+   "spoken_end": 10.335,
+   "seg_end": 11.935,
+   "audio_dur": 5.433,
+   "spoken_dur": 5.027,
+   "seg_dur": 6.907,
+   "timing": [
+    {
+     "text": "Why do the disciples of John and of the Pharisees fast, but thy disciples fast not?",
+     "start": 0.0,
+     "end": 5.387
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s1-the-question.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "It was a fair question, asked plainly.",
+   "seg_start": 11.935,
+   "audio_start": 12.215,
+   "spoken_end": 14.138,
+   "seg_end": 14.788,
+   "audio_dur": 2.325,
+   "spoken_dur": 1.923,
+   "seg_dur": 2.853,
+   "timing": [
+    {
+     "text": "It was a fair question, asked plainly.",
+     "start": 0.0,
+     "end": 2.276
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-the-fasting-men.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Fasting was how you showed God you were serious. These were good men, going hungry to draw close to him. And here were his disciples, not fasting at all. It looked careless. His answer was not what they expected.",
+   "seg_start": 14.788,
+   "audio_start": 15.068,
+   "spoken_end": 28.598,
+   "seg_end": 29.248,
+   "audio_dur": 13.871,
+   "spoken_dur": 13.529,
+   "seg_dur": 14.459,
+   "timing": [
+    {
+     "text": "Fasting was how you showed God you were serious.",
+     "start": 0.0,
+     "end": 3.065
+    },
+    {
+     "text": "These were good men, going hungry to draw close to him.",
+     "start": 3.065,
+     "end": 6.281
+    },
+    {
+     "text": "And here were his disciples, not fasting at all.",
+     "start": 6.281,
+     "end": 9.59
+    },
+    {
+     "text": "It looked careless.",
+     "start": 9.59,
+     "end": 11.134
+    },
+    {
+     "text": "His answer was not what they expected.",
+     "start": 11.134,
+     "end": 13.839
+    }
+   ]
+  },
+  {
+   "seg": "jv19",
+   "v1_still": "s3-the-wedding-feast.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Can the children of the bridechamber fast, while the bridegroom is with them? as long as they have the bridegroom with them, they cannot fast.",
+   "seg_start": 29.248,
+   "audio_start": 29.528,
+   "spoken_end": 38.608,
+   "seg_end": 40.208,
+   "audio_dur": 9.456,
+   "spoken_dur": 9.08,
+   "seg_dur": 10.96,
+   "timing": [
+    {
+     "text": "Can the children of the bridechamber fast, while the bridegroom is with them?",
+     "start": 0.0,
+     "end": 4.748
+    },
+    {
+     "text": "as long as they have the bridegroom with them, they cannot fast.",
+     "start": 4.748,
+     "end": 9.427
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s3-the-wedding-feast.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "He points them at a wedding. Nobody starves themselves at a wedding feast. While the groom is right there in the room, the only fitting thing to do is celebrate. And that was the quiet, staggering claim underneath it. The groom is here. He was talking about himself.",
+   "seg_start": 40.208,
+   "audio_start": 40.488,
+   "spoken_end": 56.508,
+   "seg_end": 57.158,
+   "audio_dur": 16.431,
+   "spoken_dur": 16.02,
+   "seg_dur": 16.95,
+   "timing": [
+    {
+     "text": "He points them at a wedding.",
+     "start": 0.0,
+     "end": 1.393
+    },
+    {
+     "text": "Nobody starves themselves at a wedding feast.",
+     "start": 1.393,
+     "end": 4.447
+    },
+    {
+     "text": "While the groom is right there in the room, the only fitting thing to do is celebrate.",
+     "start": 4.447,
+     "end": 9.497
+    },
+    {
+     "text": "And that was the quiet, staggering claim underneath it.",
+     "start": 9.497,
+     "end": 13.003
+    },
+    {
+     "text": "The groom is here.",
+     "start": 13.003,
+     "end": 14.327
+    },
+    {
+     "text": "He was talking about himself.",
+     "start": 14.327,
+     "end": 16.393
+    }
+   ]
+  },
+  {
+   "seg": "jv20",
+   "v1_still": "s4-the-bridegroom-taken.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "But the days will come, when the bridegroom shall be taken away from them, and then shall they fast in those days.",
+   "seg_start": 57.158,
+   "audio_start": 57.438,
+   "spoken_end": 64.468,
+   "seg_end": 66.068,
+   "audio_dur": 7.419,
+   "spoken_dur": 7.03,
+   "seg_dur": 8.91,
+   "timing": [
+    {
+     "text": "But the days will come, when the bridegroom shall be taken away from them, and then shall they fast in those days.",
+     "start": 0.0,
+     "end": 7.384
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s4-the-bridegroom-taken.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Then he says something that must have landed strangely. A day is coming when the groom will be gone. He is looking straight past this moment to the cross. There will be a time to mourn, and a time to fast. But not now, not while he is standing in front of them.",
+   "seg_start": 66.068,
+   "audio_start": 66.348,
+   "spoken_end": 81.89,
+   "seg_end": 82.54,
+   "audio_dur": 15.909,
+   "spoken_dur": 15.543,
+   "seg_dur": 16.473,
+   "timing": [
+    {
+     "text": "Then he says something that must have landed strangely.",
+     "start": 0.0,
+     "end": 2.473
+    },
+    {
+     "text": "A day is coming when the groom will be gone.",
+     "start": 2.473,
+     "end": 5.19
+    },
+    {
+     "text": "He is looking straight past this moment to the cross.",
+     "start": 5.19,
+     "end": 8.44
+    },
+    {
+     "text": "There will be a time to mourn, and a time to fast.",
+     "start": 8.44,
+     "end": 12.028
+    },
+    {
+     "text": "But not now, not while he is standing in front of them.",
+     "start": 12.028,
+     "end": 15.882
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s5-the-old-garment.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then he gives them two small pictures from everyday life. The first one is about mending clothes. You do not sew a stiff, brand-new scrap onto a soft, worn-out old coat.",
+   "seg_start": 82.54,
+   "audio_start": 82.82,
+   "spoken_end": 94.039,
+   "seg_end": 94.689,
+   "audio_dur": 11.651,
+   "spoken_dur": 11.218,
+   "seg_dur": 12.148,
+   "timing": [
+    {
+     "text": "Then he gives them two small pictures from everyday life.",
+     "start": 0.0,
+     "end": 3.03
+    },
+    {
+     "text": "The first one is about mending clothes.",
+     "start": 3.03,
+     "end": 5.445
+    },
+    {
+     "text": "You do not sew a stiff, brand-new scrap onto a soft, worn-out old coat.",
+     "start": 5.445,
+     "end": 11.61
+    }
+   ]
+  },
+  {
+   "seg": "jv21",
+   "v1_still": "s6-the-rent-made-worse.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "No man also seweth a piece of new cloth on an old garment: else the new piece that filled it up taketh away from the old, and the rent is made worse.",
+   "seg_start": 94.689,
+   "audio_start": 94.969,
+   "spoken_end": 105.082,
+   "seg_end": 106.682,
+   "audio_dur": 10.292,
+   "spoken_dur": 10.113,
+   "seg_dur": 11.993,
+   "timing": [
+    {
+     "text": "No man also seweth a piece of new cloth on an old garment: else the new piece that filled it up taketh away from the old, and the rent is made worse.",
+     "start": 0.0,
+     "end": 10.263
+    }
+   ]
+  },
+  {
+   "seg": "n5b",
+   "v1_still": "s6-the-rent-made-worse.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Put a stiff new patch on a worn-out coat and the new cloth pulls against the old, and it tears the hole wider than it was before you started. You end up worse off for having tried to fix it that way.",
+   "seg_start": 106.682,
+   "audio_start": 106.962,
+   "spoken_end": 118.692,
+   "seg_end": 119.342,
+   "audio_dur": 12.147,
+   "spoken_dur": 11.731,
+   "seg_dur": 12.661,
+   "timing": [
+    {
+     "text": "Put a stiff new patch on a worn-out coat and the new cloth pulls against the old, and it tears the hole wider than it was before you started.",
+     "start": 0.0,
+     "end": 8.44
+    },
+    {
+     "text": "You end up worse off for having tried to fix it that way.",
+     "start": 8.44,
+     "end": 12.121
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s7-the-old-wineskin.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The second picture is about wine. In that world you kept your wine in bottles made of leather, of whole animal skins. A fresh skin was soft and it could stretch. But an old skin had gone hard and brittle, and new wine, still working and giving off gas, needs room to swell.",
+   "seg_start": 119.342,
+   "audio_start": 119.622,
+   "spoken_end": 137.285,
+   "seg_end": 137.935,
+   "audio_dur": 18.051,
+   "spoken_dur": 17.662,
+   "seg_dur": 18.592,
+   "timing": [
+    {
+     "text": "The second picture is about wine.",
+     "start": 0.0,
+     "end": 2.101
+    },
+    {
+     "text": "In that world you kept your wine in bottles made of leather, of whole animal skins.",
+     "start": 2.101,
+     "end": 7.001
+    },
+    {
+     "text": "A fresh skin was soft and it could stretch.",
+     "start": 7.001,
+     "end": 10.112
+    },
+    {
+     "text": "But an old skin had gone hard and brittle, and new wine, still working and giving off gas, needs room to swell.",
+     "start": 10.112,
+     "end": 18.019
+    }
+   ]
+  },
+  {
+   "seg": "jv22",
+   "v1_still": "s8-new-wine-bursts.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "And no man putteth new wine into old bottles: else the new wine doth burst the bottles, and the wine is spilled, and the bottles will be marred: but new wine must be put into new bottles.",
+   "seg_start": 137.935,
+   "audio_start": 138.215,
+   "spoken_end": 151.07,
+   "seg_end": 152.67,
+   "audio_dur": 13.218,
+   "spoken_dur": 12.856,
+   "seg_dur": 14.736,
+   "timing": [
+    {
+     "text": "And no man putteth new wine into old bottles: else the new wine doth burst the bottles, and the wine is spilled, and the bottles will be marred: but new wine must be put into new bottles.",
+     "start": 0.0,
+     "end": 13.189
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s9-new-wine-new-skins.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So you never pour fresh, living wine into a stiff old skin. The wine keeps growing, the hard leather cannot give, and the whole thing tears open and everything is lost. Fresh wine belongs in a fresh skin, one that can stretch along with it. That is what he is telling them. God is doing something so new and so alive that the old rigid forms simply cannot hold it. Not a patch on the old religion. A whole new thing.",
+   "seg_start": 152.67,
+   "audio_start": 152.95,
+   "spoken_end": 180.374,
+   "seg_end": 181.024,
+   "audio_dur": 27.847,
+   "spoken_dur": 27.424,
+   "seg_dur": 28.354,
+   "timing": [
+    {
+     "text": "So you never pour fresh, living wine into a stiff old skin.",
+     "start": 0.0,
+     "end": 3.959
+    },
+    {
+     "text": "The wine keeps growing, the hard leather cannot give, and the whole thing tears open and everything is lost.",
+     "start": 3.959,
+     "end": 11.111
+    },
+    {
+     "text": "Fresh wine belongs in a fresh skin, one that can stretch along with it.",
+     "start": 11.111,
+     "end": 16.173
+    },
+    {
+     "text": "That is what he is telling them.",
+     "start": 16.173,
+     "end": 18.146
+    },
+    {
+     "text": "God is doing something so new and so alive that the old rigid forms simply cannot hold it.",
+     "start": 18.146,
+     "end": 23.963
+    },
+    {
+     "text": "Not a patch on the old religion.",
+     "start": 23.963,
+     "end": 26.273
+    },
+    {
+     "text": "A whole new thing.",
+     "start": 26.273,
+     "end": 27.817
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s10-the-answer.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That is the good news hiding inside a question about fasting. God was not tinkering with the old rules. He was pouring out something brand new, full of life and joy, and he was standing right there to give it. The only thing he asks is a heart soft enough to hold it.",
+   "seg_start": 181.024,
+   "audio_start": 181.304,
+   "spoken_end": 196.732,
+   "seg_end": 197.382,
+   "audio_dur": 15.882,
+   "spoken_dur": 15.428,
+   "seg_dur": 16.358,
+   "timing": [
+    {
+     "text": "That is the good news hiding inside a question about fasting.",
+     "start": 0.0,
+     "end": 3.135
+    },
+    {
+     "text": "God was not tinkering with the old rules.",
+     "start": 3.135,
+     "end": 6.002
+    },
+    {
+     "text": "He was pouring out something brand new, full of life and joy, and he was standing right there to give it.",
+     "start": 6.002,
+     "end": 12.156
+    },
+    {
+     "text": "The only thing he asks is a heart soft enough to hold it.",
+     "start": 12.156,
+     "end": 15.836
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "They came asking about a rule, and he answered with a wedding. God is doing a new thing, and it is full of joy. Where is he offering you something new, if you will only make room for it?",
+  "seg_start": 197.382,
+  "audio_start": 197.662,
+  "seg_dur": 12.83
+ },
+ "total": 210.212
+}

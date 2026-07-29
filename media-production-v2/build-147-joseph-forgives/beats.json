@@ -1,0 +1,266 @@
+{
+ "row": 147,
+ "slug": "build-147-joseph-forgives",
+ "v1_dir": "media-production/build-147-joseph-forgives",
+ "constants": {
+  "LEAD": 0.4,
+  "GAP": 1.45,
+  "KJV_GAP": 1.9,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0a",
+   "v1_still": "s1-the-caravan-to-egypt.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Years before, Joseph's own brothers had sold him into slavery out of jealousy.",
+   "seg_start": 0.0,
+   "audio_start": 0.4,
+   "spoken_end": 4.406,
+   "seg_end": 5.856,
+   "audio_dur": 4.415,
+   "spoken_dur": 4.006,
+   "seg_dur": 5.856,
+   "timing": [
+    {
+     "text": "Years before, Joseph's own brothers had sold him into slavery out of jealousy.",
+     "start": 0.0,
+     "end": 4.415
+    }
+   ]
+  },
+  {
+   "seg": "n0b",
+   "v1_still": "s2-before-the-governor.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Now he was second only to Pharaoh in all Egypt.",
+   "seg_start": 5.856,
+   "audio_start": 6.256,
+   "spoken_end": 8.609,
+   "seg_end": 10.059,
+   "audio_dur": 2.821,
+   "spoken_dur": 2.353,
+   "seg_dur": 4.203,
+   "timing": [
+    {
+     "text": "Now he was second only to Pharaoh in all Egypt.",
+     "start": 0.0,
+     "end": 2.821
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s3-i-am-joseph.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "When the brothers came begging for food in the famine, they didn't recognize the brother they'd betrayed. Then he sent every Egyptian out of the room, and told them.",
+   "seg_start": 10.059,
+   "audio_start": 10.459,
+   "spoken_end": 19.025,
+   "seg_end": 20.475,
+   "audio_dur": 8.96,
+   "spoken_dur": 8.566,
+   "seg_dur": 10.416,
+   "timing": [
+    {
+     "text": "When the brothers came begging for food in the famine, they didn't recognize the brother they'd betrayed.",
+     "start": 0.0,
+     "end": 5.737
+    },
+    {
+     "text": "Then he sent every Egyptian out of the room, and told them.",
+     "start": 5.737,
+     "end": 8.96
+    }
+   ]
+  },
+  {
+   "seg": "s0",
+   "v1_still": "s3-i-am-joseph.jpeg",
+   "zoom": "out",
+   "speaker": "scripture",
+   "text": "I am Joseph your brother, whom ye sold into Egypt.",
+   "seg_start": 20.475,
+   "audio_start": 20.875,
+   "spoken_end": 23.498,
+   "seg_end": 25.398,
+   "audio_dur": 2.952,
+   "spoken_dur": 2.624,
+   "seg_dur": 4.924,
+   "timing": [
+    {
+     "text": "I am Joseph your brother, whom ye sold into Egypt.",
+     "start": 0.0,
+     "end": 2.952
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s3-i-am-joseph.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He didn't soften it and he didn't skip it \u2014 he said the worst thing they ever did straight to their faces, and then he kept talking.",
+   "seg_start": 25.398,
+   "audio_start": 25.798,
+   "spoken_end": 33.23,
+   "seg_end": 34.68,
+   "audio_dur": 7.837,
+   "spoken_dur": 7.432,
+   "seg_dur": 9.282,
+   "timing": [
+    {
+     "text": "He didn't soften it and he didn't skip it \u2014 he said the worst thing they ever did straight to their faces, and then he kept talking.",
+     "start": 0.0,
+     "end": 7.837
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "v1_still": "s4-the-embrace.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Now therefore be not grieved, nor angry with yourselves, that ye sold me hither: for God did send me before you to preserve life.",
+   "seg_start": 34.68,
+   "audio_start": 35.08,
+   "spoken_end": 42.306,
+   "seg_end": 44.206,
+   "audio_dur": 7.706,
+   "spoken_dur": 7.226,
+   "seg_dur": 9.526,
+   "timing": [
+    {
+     "text": "Now therefore be not grieved, nor angry with yourselves, that ye sold me hither: for God did send me before you to preserve life.",
+     "start": 0.0,
+     "end": 7.706
+    }
+   ]
+  },
+  {
+   "seg": "n1c",
+   "v1_still": "s4-the-embrace.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Don't tear yourselves up over it, he said. Don't be angry at yourselves that you sold me here. God sent me ahead of you \u2014 to keep people alive. He gave them the one thing they could not give themselves: permission to stop hating themselves.",
+   "seg_start": 44.206,
+   "audio_start": 44.606,
+   "spoken_end": 58.337,
+   "seg_end": 59.787,
+   "audio_dur": 14.106,
+   "spoken_dur": 13.731,
+   "seg_dur": 15.581,
+   "timing": [
+    {
+     "text": "Don't tear yourselves up over it, he said.",
+     "start": 0.0,
+     "end": 2.5
+    },
+    {
+     "text": "Don't be angry at yourselves that you sold me here.",
+     "start": 2.5,
+     "end": 5.535
+    },
+    {
+     "text": "God sent me ahead of you \u2014 to keep people alive.",
+     "start": 5.535,
+     "end": 8.392
+    },
+    {
+     "text": "He gave them the one thing they could not give themselves: permission to stop hating themselves.",
+     "start": 8.392,
+     "end": 14.106
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s6-peace-over-their-fear.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Much later, when their father died and the brothers feared revenge, Joseph spoke the line that closes the wound.",
+   "seg_start": 59.787,
+   "audio_start": 60.187,
+   "spoken_end": 65.712,
+   "seg_end": 67.162,
+   "audio_dur": 5.878,
+   "spoken_dur": 5.525,
+   "seg_dur": 7.375,
+   "timing": [
+    {
+     "text": "Much later, when their father died and the brothers feared revenge, Joseph spoke the line that closes the wound.",
+     "start": 0.0,
+     "end": 5.878
+    }
+   ]
+  },
+  {
+   "seg": "s2",
+   "v1_still": "s5-grain-for-the-hungry.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive.",
+   "seg_start": 67.162,
+   "audio_start": 67.562,
+   "spoken_end": 75.803,
+   "seg_end": 77.703,
+   "audio_dur": 8.62,
+   "spoken_dur": 8.241,
+   "seg_dur": 10.541,
+   "timing": [
+    {
+     "text": "But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive.",
+     "start": 0.0,
+     "end": 8.62
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s7-hands-clasped.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "You meant it for evil, he told them \u2014 I'm not going to call it anything else. a whole lot of people are still alive. He didn't pretend it hadn't hurt. He saw God's hand turning their evil into rescue.",
+   "seg_start": 77.703,
+   "audio_start": 78.103,
+   "spoken_end": 89.871,
+   "seg_end": 91.321,
+   "audio_dur": 12.147,
+   "spoken_dur": 11.768,
+   "seg_dur": 13.618,
+   "timing": [
+    {
+     "text": "You meant it for evil, he told them \u2014 I'm not going to call it anything else.",
+     "start": 0.0,
+     "end": 4.748
+    },
+    {
+     "text": "a whole lot of people are still alive.",
+     "start": 4.748,
+     "end": 7.091
+    },
+    {
+     "text": "He didn't pretend it hadn't hurt.",
+     "start": 7.091,
+     "end": 9.126
+    },
+    {
+     "text": "He saw God's hand turning their evil into rescue.",
+     "start": 9.126,
+     "end": 12.147
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "What others meant for harm, God can mean for good. Let it go.",
+  "seg_start": 91.321,
+  "audio_start": 91.721,
+  "seg_dur": 5.27
+ },
+ "total": 96.591
+}
