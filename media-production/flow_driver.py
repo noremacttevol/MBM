@@ -371,6 +371,10 @@ def _leaf_spot(page, tok):
         " return cand[0]||null; }", tok)
 
 
+class UpscaleFailed(Exception):
+    """Flow's 2K/4K upscaler failed; the 1K original is still available."""
+
+
 def download_variant(page, name, size, out):
     """Download a gallery image at Flow's 2K/4K size via the viewer's Download menu.
 
@@ -412,17 +416,46 @@ def download_variant(page, name, size, out):
     try:
         with page.expect_download(timeout=75000) as dl:
             page.mouse.click(sspot["x"], sspot["y"])
+        dl.value.save_as(out)
+        return size
     except Exception:
-        diag = Path(out).with_suffix(".FAILED")
+        body = ""
+        try:
+            body = page.evaluate("() => document.body.innerText.slice(0, 4000)") or ""
+        except Exception:
+            pass
+        # UPSCALER FALLBACK (Machine A, 2026-07-29). Generation stalled at 10:19
+        # after 175 good pictures; the self-diagnosing dump above showed the page
+        # saying "Upscaling Failed!". The IMAGE is fine — it is Flow's 2K UPSCALE
+        # that is failing, so no download event ever fires and we lose a picture
+        # that already exists. A 1K original on disk beats a 2K that never
+        # arrives: we take the original, and record the size we actually got so
+        # the row can be re-pulled at 2K later when Flow's upscaler recovers.
+        if size != "1K" and "Upscaling Failed" in body:
+            # Do NOT try to drive the size menu again here. The captured page dump
+            # showed no size options present at all after the error — the menu is
+            # gone, so clicking for a "1K" leaf was clicking at nothing. The driver
+            # already HAS a reliable 1K path that needs no menu: cmd_gen fetches the
+            # gallery <img> src directly, which is always the 1K original. Signal
+            # up to the caller and let it use that.
+            print("  Flow upscaling FAILED — falling back to the 1K original",
+                  flush=True)
+            try:
+                d = _leaf_spot(page, "Dismiss")
+                if d:
+                    page.mouse.click(d["x"], d["y"])
+                    page.wait_for_timeout(600)
+            except Exception:
+                pass
+            raise UpscaleFailed()
+        diag = Path(out)
         try:
             page.screenshot(path=str(diag.with_suffix(".FAILED.png")), full_page=False)
-            txt = page.evaluate("() => document.body.innerText.slice(0, 4000)")
-            diag.with_suffix(".FAILED.txt").write_text(txt or "(no body text)")
+            diag.with_suffix(".FAILED.txt").write_text(body or "(no body text)")
             print(f"  DIAG: wrote {diag.with_suffix('.FAILED.png').name} and .txt", flush=True)
         except Exception as e:
             print(f"  DIAG: could not capture page state: {e}", flush=True)
         raise
-    dl.value.save_as(out)
 
 
 def cmd_gen(prompt, out, refs, model=None, model_required=True, size="2K"):
@@ -554,8 +587,18 @@ def cmd_gen(prompt, out, refs, model=None, model_required=True, size="2K"):
             raise SystemExit("No new image appeared within 6 minutes.")
         page.wait_for_timeout(2000)
         if size and size != "1K":
-            download_variant(page, newest, size, out)
-            data = None
+            try:
+                download_variant(page, newest, size, out)
+                data = None
+            except UpscaleFailed:
+                # Flow's upscaler is down but the picture itself exists. Take the
+                # 1K original rather than losing it, and drop a .size marker so a
+                # later pass can find every still that is not at the intended size
+                # and re-pull it when the upscaler recovers.
+                data = page.evaluate(FETCH_JS, newest)
+                Path(out).parent.mkdir(parents=True, exist_ok=True)
+                Path(out).with_suffix(".size").write_text("1K")
+                print("  taking the 1K original instead", flush=True)
         else:
             data = page.evaluate(FETCH_JS, newest)
         ctx.close()
