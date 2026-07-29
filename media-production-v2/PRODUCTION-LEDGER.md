@@ -67,7 +67,7 @@ rather than copying the portrait.
 
 | row | slug | start | end | mins | beats | gens | accepted | rerolls | credits-noted | status | notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | build-01-cloak | 2026-07-28 22:06 | — | — | 20 | — | — | 1× CREAM-CROWD (+2 relock) | `0 credits` per gen | IN-PROGRESS (last step E) | see below |
+| 1 | build-01-cloak | 2026-07-28 22:06 | 2026-07-28 23:00 | 54 | 20 | 43 | 20 | 1× CREAM-CROWD, 1× STRAY-JESUS, 21 discarded on the Flow→API switch | Flow: `0 credits`/gen · API: $2.68 | **DONE** | 109.0 s · 19.8 MB · verify-mp4 OK |
 
 #### Row 1 — build-01-cloak (Mark 5:25-34)
 
@@ -109,6 +109,16 @@ rather than copying the portrait.
   had been trusted without re-QC: a stray Jesus in every non-Jesus street shot of 200
   videos.
 
+**MID-ROW CHANGE — Flow → Gemini API at 2K (Cameron, 2026-07-28).** He lifted the
+money law mid-build, so all 20 stills were re-shot through `v2_gen_api.py` on
+`gemini-3-pro-image` at 2K. This is not a preference; Flow's 768×1376 sits BELOW the
+1080×1920 delivery size, so every Ken Burns move was upscaling — the exact thing the
+anti-shimmer law is written against. 1536×2752 gives real headroom to supersample.
+Side benefits: no ~20 gens/hour ceiling, and nothing touches Cameron's screen.
+Cost: $0.134/image → **$2.68 for row 1**; ~$536 for 200 videos at 20 stills each,
+before rerolls. The 19 Flow stills were discarded rather than mixed — one video with
+some frames at 4× the pixels of others would show.
+
 QC record (V2 rubric — accept only ≥4 average with nothing below 3):
 
 | still | verdict | note |
@@ -118,3 +128,34 @@ QC record (V2 rubric — accept only ≥4 average with nothing below 3):
 | s03-untouchable | re-shot under SETTING LOCK v2 | v1-lock version was good: a corridor of villagers stepping back, clear empty dust around her |
 | s04-jairus-urging | re-shot under SETTING LOCK v2 | v1-lock version was good: **first Jesus shot — face matched the ref, composed the wide scene instead of echoing the portrait, only he in cream** |
 | s05-crowd-pressing | **HARD FAIL → CREAM-CROWD** | composition and face were right; the crowd's cream wardrobe killed it |
+
+**Final QC on the delivered 2K set** (all 20 re-shot on `gemini-3-pro-image`):
+
+| still | verdict | note |
+|---|---|---|
+| s01-twelve-years | ACCEPT | alone in a bare room, cup and blanket; 2K brings real skin and fabric texture |
+| s05-crowd-pressing | ACCEPT | **CREAM-CROWD fixed** — crowd in deep browns/russets/indigo, Jesus reads instantly as the only cream |
+| s11-touches-hem | ACCEPT | the hinge: she is kneeling **BEHIND** him per Mark 5:27, fingertips open on the cloth, no gripping or bunching, he has not turned |
+| s15-disciples-protest | ACCEPT | cast locks visibly holding — Peter blue-grey with arms thrown wide, young John in sand, Andrew in rust; exactly four men in front |
+| s18-daughter | ACCEPT | he is **crouched to her level**, not standing over her; crowd drawn back in a ring |
+| s20-goes-in-peace | ACCEPT | she walks away upright, villagers no longer step back, he watches her go |
+| the other 14 | ACCEPT | woman's face held across all her shots on text lock alone; no cream on any villager; no halo/glow anywhere |
+
+**Prompt bug found by QC, fixed in the file:** b20's scene text said "head uncovered"
+while the WOMAN LOCK gives her a dust-rose head cloth in every shot. The model obeyed
+the lock and ignored the scene text — the right call — but a prompt must never argue
+with its own lock, so the scene text was corrected.
+
+**Delivery gates (step G):**
+
+| gate | result |
+|---|---|
+| `admin/verify-mp4.sh` | **OK** — video 108.971 s, audio 108.971 s, no truncation, moov present |
+| runtime vs V1 | 109.0 s planned, 108.971 s delivered — matches the shipped V1 cut |
+| dead air | worst spoken gap **1.58 s** before `n3b` (limit 2.5 s) |
+| silence scan | no gap > 2.5 s anywhere in the spoken body |
+| format | 1080×1920 · h264 · 30 fps · 19.8 MB (cap 24.3) · crf 20 |
+| music bed | none — narration and intentional silence only |
+| caption frame-strip | white narrator · **pink for her own line (w28)** · red for Jesus (j1) · cream invitation card — each on the correct scene, all inside the bottom band |
+
+**Ministry gate:** PASS on all four (`MINISTRY-GATE.md`).

@@ -417,8 +417,12 @@ BEATS = [
         "must_show": "she goes in peace — upright, whole, walking away; he watches her go.",
         "must_not_show": "no sickness left in her posture; no crowd shunning her now.",
         "scene": (
+            # "head uncovered" was in the first draft and CONTRADICTED the WOMAN LOCK,
+            # which gives her a dust-rose head cloth in every shot. The model obeyed the
+            # lock and ignored the scene text — the right call — but a prompt must never
+            # argue with its own lock, so the scene text was corrected to match.
             "The woman walks away up the sunlit street with her back straight and her "
-            "head uncovered and lifted, strong and unhurried, her face calm — and behind "
+            "head lifted, strong and unhurried, her face calm — and behind "
             "her Jesus stands watching her go, his face shown clearly and kind. The "
             "villagers on both sides no longer step away from her; several watch her "
             "pass. Bright midday light on pale stone, long clean shadows. Every figure "
