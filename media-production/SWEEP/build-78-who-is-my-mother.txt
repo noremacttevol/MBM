@@ -1,0 +1,36 @@
+[OK   ] build-78-who-is-my-mother/n0
+    caption: Jesus was inside a packed house, teaching, when word came in from the edge of the crowd.
+    heard  : Jesus was inside a packed house, teaching when word came in from the edge of the crowd.
+[OK   ] build-78-who-is-my-mother/n1a
+    caption: His mother and his brothers were standing outside, asking for him.
+    heard  : His mother and his brothers were standing outside, asking for him.
+[OK   ] build-78-who-is-my-mother/n1b
+    caption: The people sitting around him passed it forward, and Mark writes down exactly what they said:
+    heard  : The people sitting around him passed it forward, and Mark writes down exactly what they said.
+[OK   ] build-78-who-is-my-mother/s32
+    caption: Behold, thy mother and thy brethren without seek for thee.
+    heard  : Behold thy mother and thy brethren without seek for thee.
+[OK   ] build-78-who-is-my-mother/n1c
+    caption: Look — your mother and your brothers are outside, and they're asking for you. Everyone in that room knew what 
+    heard  : Look, your mother and your brothers are outside, and they're asking for you.  Everyone in that room knew what 
+[OK   ] build-78-who-is-my-mother/j1
+    caption: Who is my mother, or my brethren?
+    heard  : Who is my mother or my brethren?
+[OK   ] build-78-who-is-my-mother/n2
+    caption: Nobody expected that. Then he looked slowly around at the ordinary people sitting in a circle right in front o
+    heard  : Nobody expected that. Then he looked slowly around at the ordinary people sitting in a circle right in front o
+[OK   ] build-78-who-is-my-mother/j2
+    caption: Behold my mother and my brethren!
+    heard  : Behold my mother and my brethren.
+[OK   ] build-78-who-is-my-mother/j3
+    caption: For whosoever shall do the will of God, the same is my brother, and my sister, and mother.
+    heard  : For whosoever shall do the will of God, the same is my brother, and my sister, and mother."
+[BAD  ] build-78-who-is-my-mother/n3
+    caption: Here is my mother, he said. Here are my brothers. Anyone who does what God wants — that person is my brother, 
+    heard  : Here is my mother, he said. Here are my brothers. Anyone who does what God wants. That person is my  brother a
+     !! 'they' -> heard 'that'   (sound match 67%)
+[OK   ] build-78-who-is-my-mother/card
+    caption: He drew the family line around whoever would come. That door is open to you too.
+    heard  : He drew the family line around whoever would come. That door is open to you too.
+
+1 segment(s) need an ear-check in build-78-who-is-my-mother

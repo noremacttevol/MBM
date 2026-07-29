@@ -1,0 +1,70 @@
+[BAD  ] build-14-ten-lepers/n0
+    caption: On the way to Jerusalem, Jesus walked the borderland between Samaria and Galilee — the seam between two people
+    heard  : On the way to Jerusalem, Jesus walked the borderland between Samaria and Galilee,  the scene between two peopl
+     !! 'seam' -> heard 'scene'   (sound match 40%)
+[BAD  ] build-14-ten-lepers/n1
+    caption: As he reached a village, ten men met him — but they stopped far off, strung along a rise, and came no closer. 
+    heard  : As he reached a village, 10 men met him, but they stopped far off, strung along a rise,  and came no closer. T
+     !! 'ten' -> heard '-'   (sound match 0%)
+     !! 'ten' -> heard '-'   (sound match 0%)
+[OK   ] build-14-ten-lepers/s13
+    caption: Jesus, Master, have mercy on us.
+    heard  : Jesus, Master, have mercy on us.
+[OK   ] build-14-ten-lepers/n2
+    caption: So they did the only thing the distance left them. They lifted up their voices together and called across the 
+    heard  : So they did the only thing the distance left them. They lifted up their voices together and called  across the
+[OK   ] build-14-ten-lepers/n3
+    caption: When he saw them, he did not close the distance. He did not touch them, and he did not announce that they were
+    heard  : When he saw them, he did not close the distance. He did not touch them, and he did not announce that  they wer
+[minor] build-14-ten-lepers/j1
+    caption: Go shew yourselves unto the priests.
+    heard  : Go shoe yourselves unto the priests.
+      ~ 'shew' -> heard 'shoe'   (sound match 80%)
+[OK   ] build-14-ten-lepers/n4
+    caption: Now, why send them to a priest? Because in Israel the priest was the only inspector who could certify a leper 
+    heard  : Now, why send them to a priest?  Because in Israel the priest was the only inspector who could certify a leper
+[minor] build-14-ten-lepers/n5
+    caption: But nothing had changed yet. They looked at each other, at their own still-bandaged hands, at the long road to
+    heard  : But nothing had changed yet. They looked at each other at their own still bandaged hands.  At the long road to
+      ~ 'stillbandaged' -> heard 'still bandaged'   (sound match 100%)
+[OK   ] build-14-ten-lepers/n6
+    caption: And as they went — on the road, mid-step, in the middle of obeying, before there was one thing to see — they w
+    heard  : And as they went on the road mid-step in the middle of obeying before there was one thing to see, they were ma
+[OK   ] build-14-ten-lepers/n7
+    caption: The linen loosened and fell. New skin underneath. Nine of them ran on toward the city, toward the priests, tow
+    heard  : The linen loosened and fell, new skin underneath. Nine of them ran on toward the city,  toward the priests, to
+[OK   ] build-14-ten-lepers/n8
+    caption: And he turned around. He came back the way he came, running, praising God at the top of his voice — the whole 
+    heard  : and he turned around. He came back the way he came, running, praising God at the top of his voice,  the whole 
+[minor] build-14-ten-lepers/n9
+    caption: He threw himself face-down in the dust at Jesus's feet and poured out his thanks. And Luke adds one detail tha
+    heard  : He threw himself face down in the dust at Jesus' feet and poured out his thanks.  And Luke adds one detail tha
+      ~ 'facedown' -> heard 'face down'   (sound match 100%)
+      ~ 'jesuss' -> heard 'jesus'   (sound match 100%)
+[OK   ] build-14-ten-lepers/n10
+    caption: Jesus looked at the empty road where the other nine had gone, and asked:
+    heard  : Jesus looked at the empty road where the other nine had gone, and asked.
+[OK   ] build-14-ten-lepers/j2
+    caption: Were there not ten cleansed? but where are the nine? There are not found that returned to give glory to God, s
+    heard  : Were there not ten cleansed?  But where are the nine?  There are not found that returned to give glory to God,
+[OK   ] build-14-ten-lepers/n11
+    caption: Except this stranger. This outsider. This is not wounded pride — the nine did nothing wrong. They obeyed, and 
+    heard  : Except this stranger. This outsider. This is not wounded pride. The nine did nothing wrong.  They obeyed and t
+[OK   ] build-14-ten-lepers/n12
+    caption: Then Jesus reached down to the man still trembling at his feet, and lifted him with a word:
+    heard  : Then Jesus reached down to the man still trembling at his feet and lifted him with a word.
+[OK   ] build-14-ten-lepers/j3
+    caption: Arise, go thy way: thy faith hath made thee whole.
+    heard  : Arise, go thy way, thy faith hath made thee whole.
+[minor] build-14-ten-lepers/n13
+    caption: Hear the two different words. All ten were cleansed — out on the road, before any of them said thank you. But 
+    heard  : Hear the two different words. All ten were cleansed, out on the road, before any of them said thank you.  But 
+      ~ 'cleansed' -> heard 'cleanse'   (sound match 89%)
+[OK   ] build-14-ten-lepers/n14
+    caption: And he rose and walked home a whole man, the old wrappings left behind him in the road.
+    heard  : and he rose and walked home a whole man. The old wrappings left behind him in the road.  //
+[OK   ] build-14-ten-lepers/n15
+    caption: The healing happened while they walked, before they could see it. Have you ever had to move forward on nothing
+    heard  : The healing happened while they walked, before they could see it. Have you ever had to move  forward on nothin
+
+2 segment(s) need an ear-check in build-14-ten-lepers

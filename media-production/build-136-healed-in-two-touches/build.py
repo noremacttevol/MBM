@@ -50,7 +50,7 @@ ST5 = "s5-the-second-touch.jpeg"
 ST6 = "s6-every-face-every-leaf.jpeg"
 ST7 = "s7-seeing-the-world.jpeg"
 
-TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
+TEXT = {s[0]: (s[4] if len(s) >= 5 else s[2]) for s in make_narration.SEGMENTS}
 KJV = {"j1"}   # Mark 8:26, Jesus voice — cream italic
 # Long holds: the marked s5 silence after n3 and s6 silence after n4.
 LONG_HOLD = {"n3", "n4"}

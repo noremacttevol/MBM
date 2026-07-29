@@ -1,0 +1,41 @@
+[OK   ] build-154-everlasting-gospel/n1
+    caption: For long stretches of history, whole peoples lived without it — the good news about God, misplaced, buried, or
+    heard  : For long stretches of history, whole peoples lived without it.  The good news about God, misplaced, buried, or
+[OK   ] build-154-everlasting-gospel/n2
+    caption: And then, in a vision, John of Patmos saw heaven open, and something come. Not an army, not a storm, but an an
+    heard  : And then, in a vision, John of Patmos saw heaven open and something come, not an army, not a storm,  but an an
+[OK   ] build-154-everlasting-gospel/n3
+    caption: The angel flew across the height of heaven for all to see, holding out an open book: the good news about God, 
+    heard  : The angel flew across the height of heaven for all to see, holding out an open book,  the good news about God,
+[BAD  ] build-154-everlasting-gospel/kv6
+    caption: And I saw another angel fly in the midst of heaven, having the everlasting gospel to preach unto them that dwe
+    heard  : And I saw another angel fly in the midst of heaven,  having the everlasting gospel to preach unto them that dw
+     !! 'tongue' -> heard 'town'   (sound match 67%)
+[BAD  ] build-154-everlasting-gospel/n4
+    caption: Notice the word: everlasting. This good news was never really invented, or improved, by anyone. It is older th
+    heard  : Notice the word everlasting. This good news was never really invented or improved by anyone.  It is older than
+     !! 'carried' -> heard 'carry'   (sound match 67%)
+      ~ 'offered' -> heard 'offer'   (sound match 80%)
+[minor] build-154-everlasting-gospel/n5
+    caption: And notice who it is for. Not one favoured people, not one language or land, but every nation, every family, e
+    heard  : And notice who it is for. Not one favored people, not one language or land, but every nation,  every family, e
+      ~ 'favoured' -> heard 'favored'   (sound match 100%)
+[minor] build-154-everlasting-gospel/n6
+    caption: The angel's call is simple and clean. Honour God, give him the glory, and worship the One who made it all — th
+    heard  : The angel's call is simple and clean. Honor God. Give him the glory and worship the one who made it all.  The 
+      ~ 'honour' -> heard 'honor'   (sound match 100%)
+[OK   ] build-154-everlasting-gospel/kv7
+    caption: Saying with a loud voice, Fear God, and give glory to him; for the hour of his judgment is come: worship him t
+    heard  : Saying with a loud voice, fear God, and give glory to Him,  for the hour of His judgment is come, worship Him 
+[OK   ] build-154-everlasting-gospel/n7
+    caption: It is a call to come home to the God of creation — the same God who set the stars in place and filled the seas
+    heard  : It is a call to come home to the God of Creation, the same God who set the stars in place and filled  the seas
+[minor] build-154-everlasting-gospel/n8
+    caption: So here is the quiet wonder of this verse. The good news was never abandoned for good. Heaven sent it out agai
+    heard  : So here's the quiet wonder of this verse. The good news was never abandoned for good. Heaven  sent it out agai
+      ~ 'here is' -> heard 'heres'   (sound match 100%)
+[OK   ] build-154-everlasting-gospel/card
+    caption: The gospel was never lost for good. Heaven sent an angel to carry it back to every nation, kindred, and tongue
+    heard  : The gospel was never lost for good. Heaven sent an angel to carry it back to every nation,  kindred, and tongu
+
+2 segment(s) need an ear-check in build-154-everlasting-gospel

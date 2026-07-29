@@ -1,0 +1,55 @@
+[OK   ] build-35-great-banquet/s16
+    caption: Then said he unto him,
+    heard  : Then said he unto him.
+[OK   ] build-35-great-banquet/j16
+    caption: A certain man made a great supper, and bade many:
+    heard  : A certain man made a great supper and bade many.
+[minor] build-35-great-banquet/n1
+    caption: A man threw a great feast. He prepared everything, the finest food, the tables set, every place ready, and he 
+    heard  : A man threw a great feast. He prepared everything, the finest food, the table set,  every place ready, and he 
+      ~ 'tables' -> heard 'table'   (sound match 86%)
+[OK   ] build-35-great-banquet/n2
+    caption: When the feast was ready, he sent his servant to tell the invited guests, come, for everything is ready now.
+    heard  : When the feast was ready, he sent his servant to tell the invited guests,  come, for everything is ready now.
+[minor] build-35-great-banquet/j18
+    caption: I have bought a piece of ground, and I must needs go and see it: I pray thee have me excused.
+    heard  : I have bought a piece of ground, and I must needs go and see it, I pray they have me excused.
+      ~ 'thee' -> heard 'they'   (sound match 80%)
+[OK   ] build-35-great-banquet/n3
+    caption: But one by one, they all made excuses. One had just bought a field and had to go see it. One had bought oxen a
+    heard  : But one by one, they all made excuses. One had just bought a field and had to go see it.  One had bought oxen 
+[OK   ] build-35-great-banquet/n4
+    caption: They were not evil people. They were just busy. Their own plans felt more urgent than the joy waiting for them
+    heard  : They were not evil people. They were just busy. Their own plans felt more urgent than the joy  waiting for the
+[OK   ] build-35-great-banquet/n5
+    caption: The servant came back alone. And here is where you would expect the host to cancel the feast, hurt and offende
+    heard  : The servant came back alone. And here is where you would expect the host to cancel the feast,  hurt, and offen
+[OK   ] build-35-great-banquet/j1
+    caption: Go out quickly into the streets and lanes of the city, and bring in hither the poor, and the maimed, and the h
+    heard  : Go out quickly into the streets and lanes of the city, and bring in hither the poor, and the maimed, and the h
+[OK   ] build-35-great-banquet/n6
+    caption: Go out into the streets, he said, and bring in the poor, the crippled, the blind, everyone the respectable gue
+    heard  : Go out into the streets, he said, and bring in the poor, the crippled, the blind.  Everyone the respectable gu
+[OK   ] build-35-great-banquet/n7
+    caption: So the servant went and found them, the overlooked and the left out, and told them there was a seat with their
+    heard  : So the servant went and found them, the overlooked and the left out, and told them there was a seat  with thei
+[OK   ] build-35-great-banquet/j22
+    caption: Lord, it is done as thou hast commanded, and yet there is room.
+    heard  : Lord, it is done as thou hast commanded, and yet there is room.
+[OK   ] build-35-great-banquet/n8
+    caption: And there was still room.
+    heard  : And there was still room.
+[OK   ] build-35-great-banquet/j2
+    caption: Go out into the highways and hedges, and compel them to come in, that my house may be filled.
+    heard  : Go out into the highways and hedges, and compel them to come in, that my house may be filled.
+[OK   ] build-35-great-banquet/n9
+    caption: Go further out, he said, to the roads and the edges of town, and do not take no for an answer. Make sure they 
+    heard  : Go further out," he said, to the roads and the edges of town, and do not take no for an answer.  Make sure the
+[OK   ] build-35-great-banquet/n10
+    caption: That is how good he is. When the ones who should have come turned him down, he did not shrink his table. He op
+    heard  : That is how good he is. When the ones who should have come turned him down, he did not shrink his  table. He o
+[OK   ] build-35-great-banquet/card
+    caption: The table is set, and there is a seat with your name on it. What excuse have you been giving for not sitting d
+    heard  : The table is set, and there is a seat with your name on it.  What excuse have you been giving for not sitting 
+
+0 segment(s) need an ear-check in build-35-great-banquet

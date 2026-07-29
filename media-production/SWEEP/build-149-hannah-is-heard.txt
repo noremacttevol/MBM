@@ -1,0 +1,56 @@
+[OK   ] build-149-hannah-is-heard/n0a
+    caption: Year after year, Hannah went to the house of the LORD and came away with an empty lap.
+    heard  : Year after year, Hannah went to the house of the Lord and came away with an empty lap.  //  //  //  //  //  //
+[OK   ] build-149-hannah-is-heard/n0b
+    caption: The other wife mocked her for it.
+    heard  : The other wife mocked her for it.
+[OK   ] build-149-hannah-is-heard/n1
+    caption: One year at Shiloh, Hannah slipped to the door of the tabernacle and prayed with a voice no one could hear — o
+    heard  : One year at Shiloh, Hannah slipped to the door of the tabernacle and prayed with a voice no one could hear.  O
+[BAD  ] build-149-hannah-is-heard/w1a
+    caption: O LORD of hosts, if thou wilt indeed look on the affliction of thine handmaid, and remember me, and not forget
+    heard  : Oh Lord of hosts, if thou wilt indeed look on the affliction of thine handmade, and remember me, and not forge
+     !! 'o' -> heard 'oh'   (sound match 0%)
+      ~ 'handmaid' -> heard 'handmade'   (sound match 100%)
+      ~ 'handmaid' -> heard 'handmade'   (sound match 100%)
+[minor] build-149-hannah-is-heard/w1b
+    caption: but wilt give unto thine handmaid a man child, then I will give him unto the LORD all the days of his life.
+    heard  : But wilt give unto thine hand made a man child,  then I will give him unto the Lord all the days of his life.
+      ~ 'handmaid' -> heard 'hand made'   (sound match 100%)
+[OK   ] build-149-hannah-is-heard/n2
+    caption: Just look at me, she was saying. Remember me. Don't forget me. Give me a son — and I will give him back to You
+    heard  : Just look at me, she was saying, remember me, don't forget me, give me a son, and I will give him  back to you
+[OK   ] build-149-hannah-is-heard/n3a
+    caption: Eli the priest watched her lips move with no sound coming out, and thought she was drunk.
+    spoken : Eli the priest wotched her lips move with no sound coming out, and thought she was drunk.
+    heard  : Eli the priest watched her lips move with no sound coming out and thought she was drunk.
+[OK   ] build-149-hannah-is-heard/w2
+    caption: No, my lord, I am a woman of a sorrowful spirit: I have drunk neither wine nor strong drink, but have poured o
+    heard  : No, my Lord, I am a woman of a sorrowful spirit.  I have drunk neither wine nor strong drink, but have poured 
+[OK   ] build-149-hannah-is-heard/n3b
+    caption: No, my lord, she told him. I haven't been drinking. I'm a woman with a heavy heart, and I've been pouring my s
+    heard  : No, my Lord, she told him, I haven't been drinking. I'm a woman with a heavy heart, and  I've been pouring my 
+[OK   ] build-149-hannah-is-heard/s1
+    caption: Go in peace: and the God of Israel grant thee thy petition that thou hast asked of him.
+    heard  : Go in peace, and the God of Israel grant thee thy petition that thou hast asked of him.
+[OK   ] build-149-hannah-is-heard/n4
+    caption: Go in peace, Eli said — and may the God of Israel give you the very thing you asked for. She went away, and he
+    heard  : Go in peace, Eli said, and may the God of Israel give you the very thing you asked for.  She went away, and he
+[OK   ] build-149-hannah-is-heard/w3
+    caption: Because I have asked him of the LORD.
+    heard  : Because I have asked him of the Lord.
+[OK   ] build-149-hannah-is-heard/n5
+    caption: A boy was born, and she named him Samuel — because I asked God for him. Every time anyone said that child's na
+    heard  : A boy was born and she named him Samuel because I asked God for him. Every time anyone said that  child's name
+[minor] build-149-hannah-is-heard/w4
+    caption: Therefore also I have lent him to the LORD; as long as he liveth he shall be lent to the LORD.
+    heard  : Therefore also I have lent him to the Lord,  as long as he liveeth he shall be lent to the Lord.
+      ~ 'liveth' -> heard 'liveeth'   (sound match 100%)
+[OK   ] build-149-hannah-is-heard/n6
+    caption: She kept her word. I have lent him to the Lord, she said — for as long as he lives. When he was weaned, she br
+    heard  : She kept her word. I have lent him to the Lord. She said, for as long as he lives. When he was  weaned, she br
+[OK   ] build-149-hannah-is-heard/card
+    caption: Hannah prayed the prayer no one else could hear, and God answered. Your quiet prayers are heard too.
+    heard  : Hannah prayed the prayer no one else could hear, and God answered. Your quiet prayers are heard too.
+
+1 segment(s) need an ear-check in build-149-hannah-is-heard

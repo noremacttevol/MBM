@@ -1,0 +1,50 @@
+[minor] build-121-salt-and-light/n1
+    caption: Jesus sat on a green hillside above the Sea of Galilee, an ordinary crowd gathered on the grass around him — f
+    heard  : Jesus sat on a green hillside above the sea of Galilee.  An ordinary crowd gathered on the grass around him.  
+      ~ 'fishermen' -> heard 'fisherman'   (sound match 100%)
+[minor] build-121-salt-and-light/jv13
+    caption: Ye are the salt of the earth: but if the salt have lost his savour, wherewith shall it be salted? it is thence
+    heard  : Year the salt of the earth. But if the salt have lost his savour, wherewith shall it be salted?  It is thencef
+      ~ 'ye are' -> heard 'year'   (sound match 100%)
+[OK   ] build-121-salt-and-light/n2
+    caption: In that world salt was precious. It kept food from spoiling and it made plain things taste good. That, he told
+    heard  : In that world salt was precious. It kept food from spoiling and it made plain things taste good.  That, he tol
+[minor] build-121-salt-and-light/n3
+    caption: But salt has one job, and if it goes flat and loses its flavour it is no use to anyone — it just gets swept ou
+    heard  : But Salt has one job, and if it goes flat and loses its flavor it is no use to anyone.  It just gets swept out
+      ~ 'flavour' -> heard 'flavor'   (sound match 100%)
+[BAD  ] build-121-salt-and-light/jv14
+    caption: Ye are the light of the world. A city that is set on an hill cannot be hid.
+    heard  : Ye are the light of the world. A city that is set on and hill cannot be hid.
+     !! 'an' -> heard 'and'   (sound match 67%)
+[OK   ] build-121-salt-and-light/n4
+    caption: Then he pointed them to light. A town built up on a hilltop, its lamps lit at dusk, can be seen for miles — th
+    heard  : Then he pointed them to light. A town built up on a hilltop, its lamps lit at dusk, can be seen for  miles. Th
+[minor] build-121-salt-and-light/jv15
+    caption: Neither do men light a candle, and put it under a bushel, but on a candlestick; and it giveth light unto all t
+    heard  : Neither do men light a candle and put it under a bushel, but on a candlestick, and it give  a flight unto all 
+      ~ 'giveth light' -> heard 'give a flight'   (sound match 80%)
+[OK   ] build-121-salt-and-light/n5
+    caption: Nobody lights a lamp and then hides it under a basket. That would be pointless — smothering the very thing the
+    heard  : Nobody lights a lamp and then hides it under a basket.  That would be pointless smothering the very thing they
+[OK   ] build-121-salt-and-light/n6
+    caption: You set it up high, on a stand, so its light reaches into every corner and everyone in the house can see. Your
+    heard  : You set it up high on a stand so its light reaches into every corner and everyone in the house can see.  Your 
+[OK   ] build-121-salt-and-light/jv16
+    caption: Let your light so shine before men, that they may see your good works, and glorify your Father which is in hea
+    heard  : Let your light so shine before men that they may see your good works and glorify your Father which is in heave
+[OK   ] build-121-salt-and-light/n7
+    caption: So let it shine, he said. Live openly good — kind, honest, generous — right out where people can see it.
+    heard  : So let it shine, he said. Live openly good. Kind, honest, generous, right out where people can see it.
+[OK   ] build-121-salt-and-light/n8
+    caption: But notice the reason. Not so they will admire you. So that when they see the good you do, their eyes will lif
+    heard  : But notice the reason, not so they will admire you, so that when they see the good you do,  their eyes will li
+[minor] build-121-salt-and-light/n9
+    caption: That is the whole charge, and it is a gentle one. You do not have to become something you are not. You already
+    heard  : That is the whole charge and it is a gentle one. You do not have to become something you are not.  You already
+      ~ 'savour' -> heard 'savor'   (sound match 100%)
+[OK   ] build-121-salt-and-light/card
+    caption: You are the salt of the earth. You are the light of the world. Not someday, if you are good enough — right now
+    heard  : You are the salt of the earth. You are the light of the world. Not someday, if you are good enough,  right now
+
+1 segment(s) need an ear-check in build-121-salt-and-light

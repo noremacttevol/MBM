@@ -1,0 +1,45 @@
+[OK   ] build-177-make-me-a-sanctuary/n0
+    caption: While Israel camped in the wilderness, the LORD gave Moses a strange instruction — have the people build me a 
+    heard  : While Israel camped in the wilderness, the Lord gave Moses a strange instruction,  Have the people build me a 
+[minor] build-177-make-me-a-sanctuary/s1
+    caption: And let them make me a sanctuary; that I may dwell among them.
+    heard  : and let them make me a sanctuary that I made well among them.
+      ~ 'may dwell' -> heard 'made well'   (sound match 89%)
+[minor] build-177-make-me-a-sanctuary/n0b
+    caption: Build me a place, God said, so that I can live right there with you. Not a palace on a far-off hill. A tent, p
+    heard  : Build me a place, God said, so that I can live right there with you. Not a palace on a far-off  hill. A tent p
+      ~ 'tents' -> heard 'tent'   (sound match 86%)
+[BAD  ] build-177-make-me-a-sanctuary/n2a
+    caption: He told them exactly how — the ark, the table, the lampstand —
+    heard  : He told them exactly how. The arc, the table, the lampstand.
+     !! 'ark' -> heard 'arc'   (sound match 50%)
+[minor] build-177-make-me-a-sanctuary/g22
+    caption: And there I will meet with thee, and I will commune with thee from above the mercy seat, from between the two 
+    heard  : And there I will meet with thee, and I will commune with thee from above the mercy seat,  from between the two
+      ~ 'cherubims' -> heard 'cherubins'   (sound match 83%)
+[OK   ] build-177-make-me-a-sanctuary/n2r
+    caption: That is what all the measurements were for. There, God said — right there, above that lid, between those two c
+    heard  : That is what all the measurements were for. There, God said, right there, above that lid,  between those two c
+[OK   ] build-177-make-me-a-sanctuary/n2b
+    caption: every detail meant to say: I am near.
+    heard  : Every detail meant to say, I am near.
+[OK   ] build-177-make-me-a-sanctuary/n1a
+    caption: Not for his sake. For theirs.
+    heard  : Not for his sake. For theirs.
+[OK   ] build-177-make-me-a-sanctuary/n1b
+    caption: So that he could dwell among them in the middle of their ordinary days.
+    heard  : so that he could dwell among them in the middle of their ordinary days.
+[OK   ] build-177-make-me-a-sanctuary/n3a
+    caption: The pattern was carried by a people on the move,
+    heard  : The pattern was carried by a people on the move.
+[OK   ] build-177-make-me-a-sanctuary/n3b
+    caption: yet the promise was fixed — God with his people.
+    heard  : Yet the promise was fixed, God with His people.
+[OK   ] build-177-make-me-a-sanctuary/n4
+    caption: Centuries later that promise would take a face. But here it begins as a tent in the desert, God pitching his t
+    heard  : Centuries later that promise would take a face.  But here it begins as a tent in the desert.  God pitching his
+[OK   ] build-177-make-me-a-sanctuary/card
+    caption: He wanted to live among his people then. He wants to live among you now.
+    heard  : He wanted to live among his people then. He wants to live among you now.  //
+
+1 segment(s) need an ear-check in build-177-make-me-a-sanctuary

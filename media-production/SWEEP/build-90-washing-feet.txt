@@ -1,0 +1,43 @@
+[OK   ] build-90-washing-feet/n0
+    caption: At that last supper, knowing he was about to leave the world, Jesus did something no master would ever do for 
+    heard  : At that last supper, knowing he was about to leave the world, Jesus did something no Master  would ever do for
+[OK   ] build-90-washing-feet/n1a
+    caption: He got up from the table, wrapped a towel around his waist, and poured water into a basin.
+    heard  : He got up from the table, wrapped a towel around his waist, and poured water into a basin.
+[OK   ] build-90-washing-feet/n1b
+    caption: And he began to wash his disciples' feet — one by one.
+    heard  : and he began to wash his disciples' feet one by one.
+[OK   ] build-90-washing-feet/n2
+    caption: When he came to Peter, Peter pulled back.
+    heard  : When he came to Peter, Peter pulled back.
+[OK   ] build-90-washing-feet/s8
+    caption: Thou shalt never wash my feet.
+    heard  : Thou shalt never wash my feet.
+[OK   ] build-90-washing-feet/n2b
+    caption: You will never wash my feet, Peter said. Not you. Not for me. And Jesus answered him gently, but he did not ba
+    heard  : You will never wash my feet," Peter said.  Not you, not for me.  And Jesus answered him gently, but he did not
+[minor] build-90-washing-feet/j1
+    caption: If I wash thee not, thou hast no part with me.
+    heard  : If I wash the knot, thou hast no part with me.
+      ~ 'thee not' -> heard 'the knot'   (sound match 89%)
+[minor] build-90-washing-feet/n2c
+    caption: If I don't wash you, he said, you have no part with me. That is how serious this is. Peter thought he was prot
+    heard  : If I don't wash you, he said, you have no part with me. That is how serious this is.  Peter thought he was pro
+      ~ 'jesuss' -> heard 'jesus'   (sound match 100%)
+[OK   ] build-90-washing-feet/n3
+    caption: When he had finished, he dried their feet with the towel at his waist, sat back down, and asked if they unders
+    heard  : When he had finished, he dried their feet with the towel at his waist, sat back down,  and asked if they under
+[OK   ] build-90-washing-feet/j2
+    caption: If I then, your Lord and Master, have washed your feet; ye also ought to wash one another's feet.
+    heard  : If I then, your Lord and Master, have washed your feet, ye also ought to wash one another's feet.
+[OK   ] build-90-washing-feet/n3b
+    caption: If I, your Lord and your Teacher, have washed your feet, he said, then you ought to wash each other's. Whateve
+    heard  : If I, your Lord and your teacher, have washed your feet, he said, then you ought to wash  each other's.  Whate
+[OK   ] build-90-washing-feet/n4
+    caption: The greatest one in the room knelt at the dirtiest job in the house. That is the kind of king he is.
+    heard  : The greatest one in the room knelt at the dirtiest job in the house. That is the kind of king he is.
+[OK   ] build-90-washing-feet/card
+    caption: He kneels to serve the ones he loves. Will you let him near enough to do it for you?
+    heard  : He kneels to serve the ones he loves. Will you let him near enough to do it for you?  //  //
+
+0 segment(s) need an ear-check in build-90-washing-feet

@@ -1,0 +1,62 @@
+[OK   ] build-47-houses-on-rock-and-sand/n1
+    caption: He had been teaching all afternoon, and he ended with a story about two men and two houses. It sounds simple. 
+    heard  : He had been teaching all afternoon, and he ended with a story about two men and two houses.  It sounds simple.
+[minor] build-47-houses-on-rock-and-sand/n2
+    caption: Picture two men in that crowd. Both of them heard him. Every word. That matters, so hold onto it: both men hea
+    heard  : Picture two men in that crowd. Both of them heard him. Every word. That matters, so hold on to it.  Both men h
+      ~ 'onto' -> heard 'on to'   (sound match 100%)
+[OK   ] build-47-houses-on-rock-and-sand/n3
+    caption: The first man goes home to build. In that country you build in the dry season, and the easy ground is the smoo
+    heard  : The first man goes home to build. In that country you build in the dry season,  and the easy ground is the smo
+[OK   ] build-47-houses-on-rock-and-sand/n4
+    caption: He digs. Down through the loose soil, all the way to bedrock, and he lays his foundation on the stone. It is s
+    heard  : He digs, down through the loose soil, all the way to bedrock, and he lays his foundation on the  stone. It is 
+[OK   ] build-47-houses-on-rock-and-sand/jv24
+    caption: Therefore whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which bui
+    heard  : Therefore whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which bui
+[minor] build-47-houses-on-rock-and-sand/n5
+    caption: His house goes up on the rock. It takes longer. And for a while, in the good weather, it does not look one bit
+    heard  : His house goes up on the rock. It takes longer. And for a while, in the good weather,  it does not look one bi
+      ~ 'plain' -> heard 'plane'   (sound match 100%)
+[OK   ] build-47-houses-on-rock-and-sand/jv25
+    caption: And the rain descended, and the floods came, and the winds blew, and beat upon that house; and it fell not: fo
+    heard  : And the rain descended, and the floods came, and the winds blew, and beat upon that house, and it fell not, fo
+[OK   ] build-47-houses-on-rock-and-sand/n6
+    caption: The storm hit it with everything, and the house did not even move. Because of what was underneath it.
+    heard  : The storm hit it with everything, and the house did not even move. Because of what was underneath it.
+[OK   ] build-47-houses-on-rock-and-sand/n7
+    caption: Now the second man. He heard the very same words. But when he goes home, he builds the fast, easy way, straigh
+    heard  : Now the second man, he heard the very same words. But when he goes home, he builds the fast,  easy way straigh
+[minor] build-47-houses-on-rock-and-sand/jv26
+    caption: And every one that heareth these sayings of mine, and doeth them not, shall be likened unto a foolish man, whi
+    heard  : And everyone that heareth these sayings of mine, and doeth them not, shall be likened unto a foolish man, whic
+      ~ 'every one' -> heard 'everyone'   (sound match 100%)
+[OK   ] build-47-houses-on-rock-and-sand/n8
+    caption: And here is the thing. His house looked fine. It went up faster, it stood there in the sunshine, and you could
+    heard  : And here is the thing. His house looked fine. It went up faster. It stood there in the sunshine,  and you coul
+[OK   ] build-47-houses-on-rock-and-sand/jv27
+    caption: And the rain descended, and the floods came, and the winds blew, and beat upon that house; and it fell: and gr
+    heard  : And the rain descended, and the floods came, and the winds blew, and beat upon that house, and it fell, and gr
+[OK   ] build-47-houses-on-rock-and-sand/n9
+    caption: The same dry riverbed became a wall of water, it tore the sand out from under the house, and there was nothing
+    heard  : The same dry riverbed became a wall of water. It tore the sand out from under the house,  and there was nothin
+[OK   ] build-47-houses-on-rock-and-sand/n10
+    caption: Two houses. One storm. One standing, one swept away. And the only difference between them was down in the foun
+    heard  : Two houses. One storm. One standing. One swept away. And the only difference between them was  down in the fou
+[OK   ] build-47-houses-on-rock-and-sand/s28
+    caption: And it came to pass, when Jesus had ended these sayings, the people were astonished at his doctrine: For he ta
+    heard  : And it came to pass, when Jesus had ended these sayings, the people were astonished at His doctrine,  for He t
+[OK   ] build-47-houses-on-rock-and-sand/n11a
+    caption: When he finished, the crowd just sat there. They had never heard anyone teach like that. Their own scholars qu
+    heard  : When he finished, the crowd just sat there. They had never heard anyone teach like that.  Their own scholars q
+[OK   ] build-47-houses-on-rock-and-sand/n11
+    caption: Do not miss what he is actually saying. Both men heard him. Hearing was never the thing that made the differen
+    heard  : Do not miss what he is actually saying. Both men heard him. Hearing was never the thing that  made the differe
+[OK   ] build-47-houses-on-rock-and-sand/n12
+    caption: That is the whole invitation. Not to admire what he said, and not to be afraid of the storm, but to build your
+    heard  : That is the whole invitation. Not to admire what he said, and not to be afraid of the storm,  but to build you
+[OK   ] build-47-houses-on-rock-and-sand/card
+    caption: Everybody on that hillside heard the very same words. The one whose house stood was the one who went home and 
+    heard  : Everybody on that hillside heard the very same words.  The one whose house stood was the one who went home and
+
+0 segment(s) need an ear-check in build-47-houses-on-rock-and-sand

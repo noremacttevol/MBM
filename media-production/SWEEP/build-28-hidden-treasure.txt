@@ -1,0 +1,51 @@
+[OK   ] build-28-hidden-treasure/n0
+    caption: Jesus once told a very short story — about a man, and a field.
+    heard  : Jesus once told a very short story about a man and a field.
+[OK   ] build-28-hidden-treasure/n1
+    caption: He was a hired worker, out digging in a field that wasn't even his own.
+    heard  : He was a hired worker, out digging in a field that wasn't even his own.
+[OK   ] build-28-hidden-treasure/n2
+    caption: And on one ordinary day, his spade struck something hard, buried in the ground.
+    heard  : And on one ordinary day, his spade struck something hard, buried in the ground.
+[OK   ] build-28-hidden-treasure/n3
+    caption: He cleared away the dirt — and there it was. A treasure. Hidden, forgotten, and worth more than he had ever se
+    heard  : He cleared away the dirt, and there it was. A treasure, hidden, forgotten, and worth more than  he had ever se
+[OK   ] build-28-hidden-treasure/n4
+    caption: His heart pounded. Quickly, quietly, he covered it back over — and told no one.
+    heard  : His heart pounded. Quickly, quietly, he covered it back over and told no one.
+[minor] build-28-hidden-treasure/j1
+    caption: Again, the kingdom of heaven is like unto treasure hid in a field; the which when a man hath found, he hideth,
+    heard  : Again, the kingdom of heaven is like unto treasure-hit in a field, the witch when a man hath found, he hideeth
+      ~ 'treasure hid' -> heard 'treasurehit'   (sound match 83%)
+      ~ 'which' -> heard 'witch'   (sound match 86%)
+      ~ 'hideth' -> heard 'hideeth'   (sound match 100%)
+[minor] build-28-hidden-treasure/j1b
+    caption: and for joy thereof goeth and selleth all that he hath, and buyeth that field.
+    heard  : and for joy thereof goeth and selleth all that he hath, and byeth that field.
+      ~ 'buyeth' -> heard 'byeth'   (sound match 100%)
+[OK   ] build-28-hidden-treasure/n5
+    caption: Did you catch what he did? He went home and sold everything he owned.
+    heard  : Did you catch what he did? He went home and sold everything he owned.
+[OK   ] build-28-hidden-treasure/n6
+    caption: His house. His tools. All of it — gladly, without a second thought.
+    heard  : His house, his tools, all of it, gladly, without a second thought.  //  //
+[OK   ] build-28-hidden-treasure/n7
+    caption: And with every coin he had, he bought that one field for himself.
+    heard  : And with every coin he had, he bought that one field for himself.
+[OK   ] build-28-hidden-treasure/n8
+    caption: Because he knew what was waiting under the soil. That field was worth more than everything else he owned, put 
+    heard  : Because he knew what was waiting under the soil, that field was worth more than everything else he owned, put 
+[OK   ] build-28-hidden-treasure/n9
+    caption: That, Jesus said, is what God's kingdom is like.
+    heard  : That, Jesus said, is what God's kingdom is like.
+[OK   ] build-28-hidden-treasure/n10
+    caption: At first it can look like an ordinary field. But once you catch sight of the treasure in it — once you truly s
+    heard  : At first it can look like an ordinary field, but once you catch sight of the treasure in it,  once you truly s
+[OK   ] build-28-hidden-treasure/n11
+    caption: And you don't give everything up sadly. You do it out of pure joy — because you've found the one thing worth h
+    heard  : and you don't give everything up sadly. You do it out of pure joy because you've found the one thing  worth ha
+[OK   ] build-28-hidden-treasure/card
+    caption: The man sold all he had — and called it the best trade of his life. If you have found the treasure, what is he
+    heard  : The man sold all he had and called it the best trade of his life. If you have found the treasure,  what is he 
+
+0 segment(s) need an ear-check in build-28-hidden-treasure

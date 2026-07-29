@@ -1,0 +1,79 @@
+[OK   ] build-25-wheat-and-tares/s24
+    caption: Another parable put he forth unto them, saying,
+    heard  : Another parable put he forth unto them, saying,
+[OK   ] build-25-wheat-and-tares/j24
+    caption: The kingdom of heaven is likened unto a man which sowed good seed in his field:
+    spoken : The kingdom of heaven is likened unto a man which sohd good seed in his field:
+    heard  : The kingdom of heaven is likened unto a man which sowed good seed in his field.
+[OK   ] build-25-wheat-and-tares/n1
+    caption: The kingdom of heaven, he said, is like a farmer who sowed good seed all across his field.
+    spoken : The kingdom of heaven, he said, is like a farmer who sohd good seed all across his field.
+    heard  : The kingdom of heaven, he said, is like a farmer who sowed good seed all across his field.
+[OK   ] build-25-wheat-and-tares/n2
+    caption: It was clean, good wheat seed. He wanted a good harvest, and he did everything right.
+    heard  : It was clean, good wheat seed. He wanted a good harvest and he did everything right.
+[minor] build-25-wheat-and-tares/j25
+    caption: But while men slept, his enemy came and sowed tares among the wheat, and went his way.
+    spoken : But while men slept, his enemy came and sohd tares among the wheat, and went his way.
+    heard  : But while men slept, his enemy came and sewed tears among the wheat, and went his way.
+      ~ 'sowed tares' -> heard 'sewed tears'   (sound match 100%)
+[OK   ] build-25-wheat-and-tares/n3
+    caption: But that night, while everyone was asleep, an enemy of his crept into the field and scattered weed seeds all t
+    heard  : But that night, while everyone was asleep, an enemy of his crept into the field and scattered  weed seeds all 
+[OK   ] build-25-wheat-and-tares/n4
+    caption: The weed he chose looks almost exactly like young wheat. You cannot tell them apart until they grow up and the
+    heard  : The weed he chose looks almost exactly like young wheat.  You cannot tell them apart until they grow up and th
+[OK   ] build-25-wheat-and-tares/n5
+    caption: So the wheat came up green and strong, and right in the middle of it, so did the weeds. Now anyone could see t
+    heard  : So the wheat came up green and strong, and right in the middle of it, so did the weeds.  Now anyone could see 
+[BAD  ] build-25-wheat-and-tares/j27
+    caption: Sir, didst thou not sow good seed in thy field? from whence then hath it tares?
+    spoken : Sir, didst thou not soh good seed in thy field? from whence then hath it tares?
+    heard  : Sir, didst thou not so good seed in thy field?  From whence then hath it tears?
+     !! 'sow' -> heard 'so'   (sound match 67%)
+      ~ 'tares' -> heard 'tears'   (sound match 100%)
+[OK   ] build-25-wheat-and-tares/n6
+    caption: The workers were upset. They came to the farmer and said, did you not plant good seed? Where did all these wee
+    heard  : The workers were upset. They came to the farmer and said,  did you not plant good seed? Where did all these we
+[OK   ] build-25-wheat-and-tares/n7
+    caption: He told them, an enemy has done this. And they asked, do you want us to go and pull all the weeds out right no
+    heard  : He told them, an enemy has done this.  And they asked, do you want us to go and pull all the weeds out right n
+[OK   ] build-25-wheat-and-tares/n8
+    caption: And here is where you see what kind of man he is. He did not send them tearing through the field. He said, no.
+    heard  : And here is where you see what kind of man he is. He did not send them tearing through the field.  He said no.
+[minor] build-25-wheat-and-tares/j1
+    caption: Nay; lest while ye gather up the tares, ye root up also the wheat with them. Let both grow together until the 
+    heard  : Nay, lest while you gather up the tears, you root up also the wheat with them.  Let both grow together until t
+      ~ 'tares ye' -> heard 'tears you'   (sound match 100%)
+[OK   ] build-25-wheat-and-tares/n9
+    caption: In other words: if you rip the weeds out now, their roots are tangled around the wheat, and you will tear up t
+    heard  : In other words, if you rip the weeds out now, their roots are tangled around the wheat,  and you will tear up 
+[OK   ] build-25-wheat-and-tares/n10
+    caption: So the farmer waited. All season long the wheat and the weeds grew up side by side, and he let them, because h
+    heard  : So the farmer waited. All season long the wheat and the weeds grew up side by side.  And he let them because h
+[minor] build-25-wheat-and-tares/j30
+    caption: Gather ye together first the tares, and bind them in bundles to burn them: but gather the wheat into my barn.
+    heard  : Gather ye together first the tears, and bind them in bundles to burn them, but gather the wheat into my barn.
+      ~ 'tares' -> heard 'tears'   (sound match 100%)
+[OK   ] build-25-wheat-and-tares/n11
+    caption: Then harvest came. And at harvest, the two are finally easy to tell apart. The reapers gathered the weeds and 
+    heard  : Then harvest came, and at harvest the two are finally easy to tell apart. The reapers gathered  the weeds and 
+[OK   ] build-25-wheat-and-tares/n12
+    caption: Nothing good was lost. Everything the farmer had waited and hoped for came safely home.
+    heard  : Nothing good was lost. Everything the farmer had waited and hoped for came safely home.
+[OK   ] build-25-wheat-and-tares/n13
+    caption: Jesus said that is how God works with the world. He is not quick to rip things up. He gives time, because his 
+    heard  : Jesus said that is how God works with the world.  He is not quick to rip things up.  He gives time because his
+[minor] build-25-wheat-and-tares/j2
+    caption: Then shall the righteous shine forth as the sun in the kingdom of their Father. Who hath ears to hear, let him
+    heard  : Then shall the righteous shine forth as the Son and the Kingdom of their Father.  Who hath ears to hear, let h
+      ~ 'sun in' -> heard 'son and'   (sound match 80%)
+[minor] build-25-wheat-and-tares/n14
+    caption: The people who belong to him will shine like the sun. That is how good he is. He is patient enough to wait for
+    heard  : The people who belong to him will shine like the sun. That is how good he is. He is patient  enough to wait fo
+      ~ 'stalk' -> heard 'stock'   (sound match 75%)
+[OK   ] build-25-wheat-and-tares/card
+    caption: He is patient enough to wait for you. Will you grow toward the light?
+    heard  : He is patient enough to wait for you. Will you grow toward the light?  //
+
+1 segment(s) need an ear-check in build-25-wheat-and-tares

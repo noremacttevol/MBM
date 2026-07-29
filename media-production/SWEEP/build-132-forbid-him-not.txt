@@ -1,0 +1,39 @@
+[BAD  ] build-132-forbid-him-not/s38
+    caption: Master, we saw one casting out devils in thy name, and he followeth not us: and we forbad him, because he foll
+    heard  : Master, we saw one casting out Devil's Nine name, and he followed not us, and we forbade him, because he follo
+     !! 'in thy' -> heard 'nine'   (sound match 40%)
+     !! 'followeth' -> heard 'followed'   (sound match 67%)
+      ~ 'forbad' -> heard 'forbade'   (sound match 100%)
+     !! 'followeth' -> heard 'followed'   (sound match 67%)
+[OK   ] build-132-forbid-him-not/n0
+    caption: John came to Jesus with a complaint. They'd seen someone driving out demons using Jesus's name — and the man w
+    heard  : John came to Jesus with a complaint. They'd seen someone driving out demons using Jesus's name,  and the man w
+[OK   ] build-132-forbid-him-not/n1
+    caption: John thought he was protecting the cause. The man wasn't with them, so he shouldn't be using the name.
+    heard  : John thought he was protecting the cause. The man wasn't with them, so he shouldn't be using the name.
+[OK   ] build-132-forbid-him-not/n2
+    caption: Jesus didn't take John's side. He went after the instinct underneath the complaint.
+    heard  : Jesus didn't take John's side. He went after the instinct underneath the complaint.
+[OK   ] build-132-forbid-him-not/j1
+    caption: Forbid him not: for there is no man which shall do a miracle in my name, that can lightly speak evil of me. Fo
+    heard  : Forbid him not, for there is no man which shall do a miracle in my name, that can lightly speak evil of me.  F
+[OK   ] build-132-forbid-him-not/n2b
+    caption: Don't stop him, He said. Nobody works a miracle in My name and then turns around and speaks against Me. Whoeve
+    heard  : Don't stop him, he said. Nobody works a miracle in my name, and then turns around and speaks against  me. Whoe
+[OK   ] build-132-forbid-him-not/jv41
+    caption: For whosoever shall give you a cup of water to drink in my name, because ye belong to Christ, verily I say unt
+    heard  : For whosoever shall give you a cup of water to drink in my name, because ye belong to Christ,  Verily I say un
+[OK   ] build-132-forbid-him-not/n3a
+    caption: Whoever gives a cup of water in His name won't lose his reward.
+    heard  : Whoever gives a cup of water in his name won't lose his reward.
+[OK   ] build-132-forbid-him-not/n3b
+    caption: The work isn't about belonging to a team — it's about Him.
+    heard  : The work isn't about belonging to a team, it's about him.
+[OK   ] build-132-forbid-him-not/n4
+    caption: John learned a lesson that day: the kingdom is bigger than the inner circle.
+    heard  : John learned a lesson that day. The kingdom is bigger than the inner circle.  //  //  //  //  //  //  //  //  
+[OK   ] build-132-forbid-him-not/card
+    caption: Don't draw the circle too small. Whoever works in His name is on your side.
+    heard  : Don't draw the circle too small. Whoever works in his name is on your side.
+
+1 segment(s) need an ear-check in build-132-forbid-him-not

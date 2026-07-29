@@ -1,0 +1,51 @@
+[OK   ] build-111-lilies-and-sparrows/n1
+    caption: He was talking to people who knew what it was to worry. Where the next meal would come from. Whether there wou
+    heard  : He was talking to people who knew what it was to worry, where the next meal would come from,  whether there wo
+[minor] build-111-lilies-and-sparrows/jv26
+    caption: Behold the fowls of the air: for they sow not, neither do they reap, nor gather into barns; yet your heavenly 
+    heard  : Behold the fouls of the air, for they sow not, neither do they reap, nor gather into  barns, yet your heavenly
+      ~ 'fowls' -> heard 'fouls'   (sound match 86%)
+[OK   ] build-111-lilies-and-sparrows/n2
+    caption: Look at the little sparrows, he says. No barns. No savings. No plans for next winter. And not one of them goes
+    heard  : Look at the little sparrows, he says. No barns. No savings. No plans for next winter.  And not one of them goe
+[OK   ] build-111-lilies-and-sparrows/n3
+    caption: Then he reaches down to the wildflowers scattered through the grass at their feet.
+    heard  : Then he reaches down to the wildflowers scattered through the grass at their feet.
+[minor] build-111-lilies-and-sparrows/jv2829
+    caption: Consider the lilies of the field, how they grow; they toil not, neither do they spin: And yet I say unto you, 
+    heard  : Consider the lilies of the field, how they grow, they toil not, neither do they spin, and yet I say unto you, 
+      ~ 'arrayed' -> heard 'a raid'   (sound match 80%)
+[OK   ] build-111-lilies-and-sparrows/n4
+    caption: These flowers do not work a single day. They just grow where they are planted. And yet the richest king who ev
+    heard  : These flowers do not work a single day. They just grow where they are planted, and yet the richest  king who e
+[BAD  ] build-111-lilies-and-sparrows/jv30
+    caption: Wherefore, if God so clothe the grass of the field, which to day is, and to morrow is cast into the oven, shal
+    heard  : Therefore, if God so clothe the grass of the field, which today is, and tomorrow is cast into the oven, shall 
+     !! 'wherefore' -> heard 'therefore'   (sound match 67%)
+      ~ 'to day' -> heard 'today'   (sound match 100%)
+      ~ 'to morrow' -> heard 'tomorrow'   (sound match 100%)
+[OK   ] build-111-lilies-and-sparrows/n5
+    caption: Here is his point, gentle and steady: if God feeds the birds and dresses the grass that is here today and gone
+    heard  : Here is his point, gentle and steady.  If God feeds the birds and dresses the grass that is here today and gon
+[OK   ] build-111-lilies-and-sparrows/jv34
+    caption: Take therefore no thought for the morrow: for the morrow shall take thought for the things of itself. Sufficie
+    heard  : Take therefore no thought for the morrow, for the morrow shall take thought for the things of itself.  Suffici
+[OK   ] build-111-lilies-and-sparrows/n5b
+    caption: Don't go out to meet tomorrow. Tomorrow will look after itself, and today has enough in it already. Your anxio
+    heard  : Don't go out to meet tomorrow. Tomorrow will look after itself, and today has enough in it already.  Your anxi
+[OK   ] build-111-lilies-and-sparrows/n6
+    caption: He is not scolding the worry. He knows life is hard and needs are real. He is gently loosening your grip, one 
+    heard  : He is not scolding the worry. He knows life is hard and needs are real. He is gently loosening  your grip, one
+[BAD  ] build-111-lilies-and-sparrows/jv33
+    caption: But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you.
+    heard  : But Sikhi first the Kingdom of God, and his righteousness,  and all these things shall be added unto you.
+     !! 'seek ye' -> heard 'sikhi'   (sound match 67%)
+[BAD  ] build-111-lilies-and-sparrows/n7
+    caption: Put him first, he says, and stop bracing against tomorrow all by yourself. The same Father who has not forgott
+    heard  : Put him first, he says, and stop bracing against tomorrow all by yourself. The same father who has  not forgot
+     !! 'are' -> heard 'were'   (sound match 67%)
+[OK   ] build-111-lilies-and-sparrows/card
+    caption: God feeds the birds and clothes the wildflowers, and Jesus says you matter far more to your Father than these.
+    heard  : God feeds the birds and clothes the wildflowers.  And Jesus says you matter far more to your Father than these
+
+3 segment(s) need an ear-check in build-111-lilies-and-sparrows

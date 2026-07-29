@@ -1,0 +1,49 @@
+[OK   ] build-81-render-unto-caesar/n0
+    caption: Some officials came to Jesus with a question built to trap him — flattering him first, so he'd let his guard d
+    heard  : Some officials came to Jesus with a question built to trap him, flattering him first, so he'd let his guard do
+[BAD  ] build-81-render-unto-caesar/s14
+    caption: Master, we know that thou art true, and carest for no man: for thou regardest not the person of men, but teach
+    heard  : Master, we know that thou art true and carest for no man,  for thou regardest not the person of men,  but teac
+     !! 'in' -> heard 'and'   (sound match 67%)
+[OK   ] build-81-render-unto-caesar/n1
+    caption: Is it lawful to pay taxes to Caesar, or not? Say yes, and the crowd turns on you. Say no, and Rome arrests you
+    heard  : Is it lawful to pay taxes to Caesar or not?  Say yes, and the crowd turns on you.  Say no, and Rome arrests yo
+[OK   ] build-81-render-unto-caesar/n2
+    caption: Jesus saw straight through it.
+    heard  : Jesus saw straight through it.
+[OK   ] build-81-render-unto-caesar/s15
+    caption: But he, knowing their hypocrisy, said unto them,
+    heard  : but he, knowing their hypocrisy, said unto them.
+[BAD  ] build-81-render-unto-caesar/j1
+    caption: Why tempt ye me? bring me a penny, that I may see it.
+    heard  : Why tempt me?  Bring me a penny, that I may see it.
+     !! 'ye' -> heard '-'   (sound match 0%)
+[OK   ] build-81-render-unto-caesar/n3
+    caption: They brought one — a small silver Roman coin. He held it up where everyone could see.
+    heard  : They brought one, a small silver Roman coin. He held it up where everyone could see.  //  //
+[BAD  ] build-81-render-unto-caesar/j2
+    caption: Whose is this image and superscription?
+    heard  : Who's is this image in superscription?
+      ~ 'whose' -> heard 'whos'   (sound match 100%)
+     !! 'and' -> heard 'in'   (sound match 67%)
+[OK   ] build-81-render-unto-caesar/s16
+    caption: And they said unto him, Caesar's.
+    heard  : and they said unto him, Caesars.
+[OK   ] build-81-render-unto-caesar/n4
+    caption: Whose face is this, he asked them, and whose name. They said it was Caesar's. And with that, the trap they had
+    heard  : whose face is this, he asked them and whose name. They said it was Caesars. And with that,  the trap they had 
+[OK   ] build-81-render-unto-caesar/s17
+    caption: And Jesus answering said unto them,
+    heard  : And Jesus answering said unto them,
+[OK   ] build-81-render-unto-caesar/j3
+    caption: Render to Caesar the things that are Caesar's, and to God the things that are God's.
+    heard  : Render to Caesar the things that are Caesars, and to God the things that are Gods.
+[OK   ] build-81-render-unto-caesar/n5
+    caption: The coin bore Caesar's image, so give it back to Caesar. But you bear God's image — so the real question is wh
+    heard  : The coin bore Caesar's image, so give it back to Caesar.  But you bear God's image, so the real question is wh
+[minor] build-81-render-unto-caesar/card
+    caption: The coin belonged to Caesar because it bore his face. You bear God's. What does that make you worth to him?
+    heard  : The coin belonged to Caesar because it bore his face. You bear gods. What does that make you worth, Tim?
+      ~ 'to him' -> heard 'tim'   (sound match 80%)
+
+3 segment(s) need an ear-check in build-81-render-unto-caesar

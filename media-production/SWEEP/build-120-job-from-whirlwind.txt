@@ -1,0 +1,79 @@
+[OK   ] build-120-job-from-whirlwind/n1
+    caption: Job was a good man — honest, generous, devoted to God — and for most of his life that goodness and a happy, pr
+    heard  : Job was a good man, honest, generous, devoted to God, and for most of his life that goodness  and a happy, pro
+[OK   ] build-120-job-from-whirlwind/n2
+    caption: And then, in a single devastating stretch, it was all taken. His wealth, his health, and — most unbearable of 
+    heard  : And then, in a single devastating stretch, it was all taken. His wealth, his health, and  most unbearable of a
+[BAD  ] build-120-job-from-whirlwind/s121
+    caption: Naked came I out of my mother's womb, and naked shall I return thither: the LORD gave, and the LORD hath taken
+    heard  : Naked came I out of my mother's womb, and naked shall I return to the earth.  The Lord gave, and the Lord hath
+     !! 'thither' -> heard 'to the earth'   (sound match 60%)
+[OK   ] build-120-job-from-whirlwind/n2b
+    caption: I came into this world with nothing and I will leave with nothing. God gave it and God has taken it, and I wil
+    heard  : I came into this world with nothing, and I will leave with nothing. God gave it, and God has taken it,  and I 
+[OK   ] build-120-job-from-whirlwind/n3
+    caption: He sat down in the ashes, sick and broken, and he did not pretend to be all right. He grieved out loud. And sc
+    heard  : He sat down in the ashes, sick and broken, and he did not pretend to be all right.  He grieved out loud, and s
+[minor] build-120-job-from-whirlwind/n4
+    caption: His friends came, and at first they simply sat with him — which was the best thing they did. Then they started
+    heard  : His friends came, and at first they simply sat with him, which was the best thing they did.  Then they started
+      ~ 'deepened' -> heard 'deepen'   (sound match 86%)
+[OK   ] build-120-job-from-whirlwind/n5
+    caption: But Job would not accept easy lies about God or about himself. He did something braver than pretending. He too
+    heard  : But Job would not accept easy lies about God or about Himself. He did something braver than  pretending. He to
+[minor] build-120-job-from-whirlwind/s1925
+    caption: For I know that my redeemer liveth, and that he shall stand at the latter day upon the earth.
+    heard  : For I know that my Redeemer liveeth, and that he shall stand at the latter day upon the earth.
+      ~ 'liveth' -> heard 'liveeth'   (sound match 100%)
+[OK   ] build-120-job-from-whirlwind/n5b
+    caption: I know my redeemer is alive, he says, and one day he will stand right here on this earth. That is a man in the
+    heard  : I know my Redeemer is alive. He says, and one day he will stand right here on this earth.  That is a man in th
+[OK   ] build-120-job-from-whirlwind/n6
+    caption: And God answered — though not in the way anyone expected. Out of a great whirlwind, the Maker of everything fi
+    heard  : and God answered, though not in the way anyone expected, out of a great whirlwind, the maker  of everything fi
+[minor] build-120-job-from-whirlwind/jvA
+    caption: Where wast thou when I laid the foundations of the earth? declare, if thou hast understanding.
+    heard  : Where was thou when I laid the foundations of the earth?  Declare if thou hast understanding.
+      ~ 'wast' -> heard 'was'   (sound match 80%)
+[OK   ] build-120-job-from-whirlwind/n6b
+    caption: Where were you when I laid the foundations of the earth? It sounds like a rebuke, and it is not. God is doing 
+    heard  : Where were you when I laid the foundations of the earth? It sounds like a rebuke, and it is not.  God is doing
+[OK   ] build-120-job-from-whirlwind/jv387
+    caption: When the morning stars sang together, and all the sons of God shouted for joy.
+    heard  : When the morning stars sang together, and all the sons of God shouted for joy.
+[minor] build-120-job-from-whirlwind/n7a
+    caption: The morning stars sang together, and all the sons of God shouted for joy. That is God describing the day the w
+    heard  : The Morning Stars sang together, and all the sons of God shouted for joy,  that as God describing the day the 
+      ~ 'is' -> heard 'as'   (sound match 100%)
+[BAD  ] build-120-job-from-whirlwind/jvB
+    caption: Canst thou bind the sweet influences of Pleiades, or loose the bands of Orion?
+    heard  : Can't stop buying the sweet influences of Pleiades or loose the bands of Orion?
+     !! 'canst thou bind' -> heard 'cant stop buying'   (sound match 67%)
+[minor] build-120-job-from-whirlwind/n7b
+    caption: Can you tie up the Pleiades, God asks, or unfasten Orion's belt? On and on it goes — the sea, the snow, the wi
+    heard  : Can you tie up the Pleiades? God asks or unfastenerines belt? On and on it goes, the sea, the snow,  the wild 
+      ~ 'unfasten orions' -> heard 'unfastenerines'   (sound match 100%)
+[BAD  ] build-120-job-from-whirlwind/s404
+    caption: Behold, I am vile; what shall I answer thee? I will lay mine hand upon my mouth. Once have I spoken; but I wil
+    heard  : Behold, I am vile.  What shall I answer thee?  I will lay mine hand upon my mouth.  Once have I spoken, but I 
+     !! 'yea' -> heard 'yet'   (sound match 67%)
+[minor] build-120-job-from-whirlwind/n7
+    caption: I have nothing to say, Job answers. I am putting my hand over my mouth. I have said my piece and I will not sa
+    heard  : I have nothing to say, job answers. I am putting my hand over my mouth. I have said my peace,  and I will not 
+      ~ 'piece' -> heard 'peace'   (sound match 100%)
+[BAD  ] build-120-job-from-whirlwind/s425
+    caption: I have heard of thee by the hearing of the ear: but now mine eye seeth thee.
+    heard  : I have heard of thee by the hearing of the year, but now mine I see thee.
+     !! 'ear' -> heard 'year'   (sound match 67%)
+     !! 'eye seeth' -> heard 'i see'   (sound match 40%)
+[OK   ] build-120-job-from-whirlwind/n7c
+    caption: I had only ever heard about you, Job says. Now I have seen you with my own eyes. That is the ending. Not becau
+    heard  : I had only ever heard about you, Job says. Now I have seen you with my own eyes. That is the ending.  Not beca
+[OK   ] build-120-job-from-whirlwind/n8
+    caption: The suffering was never fully explained — not to Job, and not to us. But Job was no longer alone in it. The Go
+    heard  : The suffering was never fully explained, not to Job and not to us. But Job was no longer alone  in it. The God
+[OK   ] build-120-job-from-whirlwind/card
+    caption: Job's comfort was never a reason for his pain. It was a Person who showed up in it. If you are in the ashes ri
+    heard  : Job's comfort was never a reason for his pain. It was a person who showed up in it. If you are in  the ashes r
+
+4 segment(s) need an ear-check in build-120-job-from-whirlwind

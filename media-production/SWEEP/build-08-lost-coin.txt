@@ -1,0 +1,46 @@
+[OK   ] build-08-lost-coin/n0
+    caption: When Jesus wanted to show how God feels about one lost soul, he didn't talk about crowds. He told this story.
+    heard  : When Jesus wanted to show how God feels about one lost soul, he didn't talk about crowds.  He told this story.
+[BAD  ] build-08-lost-coin/jv8
+    caption: Either what woman having ten pieces of silver, if she lose one piece, doth not light a candle, and sweep the h
+    heard  : Either what woman having ten pieces of silver, if she lose one piece, does not light a candle, and sweep the h
+     !! 'doth' -> heard 'does'   (sound match 40%)
+[BAD  ] build-08-lost-coin/n1
+    caption: A woman has ten coins. She loses one.
+    heard  : A woman has 10 coins. She loses one.
+     !! 'ten' -> heard '-'   (sound match 0%)
+[OK   ] build-08-lost-coin/n2a
+    caption: She lights a lamp. She sweeps the whole house.
+    heard  : She lights a lamp. She sweeps the whole house.
+[OK   ] build-08-lost-coin/n2b
+    caption: She searches carefully — not casually, carefully — until she finds it.
+    heard  : She searches carefully, not casually, carefully, until she finds it.
+[minor] build-08-lost-coin/jv9a
+    caption: And when she hath found it, she calleth her friends and her neighbours together, saying,
+    heard  : And when she hath found it, she calleth her friends and her neighbors together, saying,
+      ~ 'neighbours' -> heard 'neighbors'   (sound match 100%)
+[minor] build-08-lost-coin/j1
+    caption: Rejoice with me; for I have found the piece which I had lost.
+    heard  : Rejoice with me, for I have found the peace which I had lost.
+      ~ 'piece' -> heard 'peace'   (sound match 100%)
+[OK   ] build-08-lost-coin/n3
+    caption: Then she calls her neighbors and friends to celebrate.
+    heard  : Then she calls her neighbors and friends to celebrate.
+[BAD  ] build-08-lost-coin/n4
+    caption: One coin. Out of ten. The joy is disproportionate to the value of the coin.
+    heard  : 1 coin. Out of 10, the joy is disproportionate to the value of the coin.
+     !! 'one' -> heard '-'   (sound match 0%)
+     !! 'ten' -> heard '-'   (sound match 0%)
+[OK   ] build-08-lost-coin/j2
+    caption: Likewise, I say unto you, there is joy in the presence of the angels of God over one sinner that repenteth.
+    heard  : Likewise, I say unto you, there is joy in the presence of the angels of God over one sinner that repenteth.
+[BAD  ] build-08-lost-coin/n5
+    caption: Over one. Not a crowd. One.
+    heard  : Over 1. Not a crowd. 1.
+     !! 'one' -> heard '-'   (sound match 0%)
+     !! 'one' -> heard '-'   (sound match 0%)
+[OK   ] build-08-lost-coin/card
+    caption: Have you ever felt like the thing that got lost, rather than the one doing the searching?
+    heard  : Have you ever felt like the thing that got lost rather than the one doing the searching?  //  //
+
+4 segment(s) need an ear-check in build-08-lost-coin

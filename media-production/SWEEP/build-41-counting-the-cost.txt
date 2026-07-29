@@ -1,0 +1,102 @@
+[OK   ] build-41-counting-the-cost/n1
+    caption: By now the crowd walking with him was enormous. Not a dozen men. Thousands, filling the road, more joining at 
+    heard  : By now the crowd walking with him was enormous. Not a dozen men, thousands filling the road,  more joining at 
+[OK   ] build-41-counting-the-cost/s25
+    caption: And there went great multitudes with him: and he turned, and said unto them,
+    heard  : and there went great multitudes with him, and he turned and said unto them.
+[OK   ] build-41-counting-the-cost/n2
+    caption: And then he turned around. And he did the last thing you would expect from a man with a crowd that size. He st
+    heard  : and then he turned around, and he did the last thing you would expect from a man with a crowd that  size. He s
+[BAD  ] build-41-counting-the-cost/j1
+    caption: If any man come to me, and hate not his father, and mother, and wife, and children, and brethren, and sisters,
+    heard  : If any man come to me, and hate not his father, and mother, and wife, and children, and brethren, and sisters,
+     !! 'yea' -> heard 'yeah'   (sound match 67%)
+[minor] build-41-counting-the-cost/n3
+    caption: That word stops people cold. But in the language he spoke, there was no way to say love less. You said hate, a
+    heard  : That word stops people cold, but in the language he spoke, there was no way to say love less.  You said hate, 
+      ~ 'more' -> heard 'moore'   (sound match 100%)
+[OK   ] build-41-counting-the-cost/n4
+    caption: And he was not softening it. First place is the one seat you cannot give to two people. For most of us, what k
+    heard  : and he was not softening it. First place is the one seat you cannot give to two people.  For most of us, what 
+[BAD  ] build-41-counting-the-cost/j2
+    caption: And whosoever doth not bear his cross, and come after me, cannot be my disciple.
+    heard  : and whosoever does not bear his cross, and come after me, cannot be my disciple.
+     !! 'doth' -> heard 'does'   (sound match 40%)
+[OK   ] build-41-counting-the-cost/n5
+    caption: Nobody in that road heard a figure of speech. Rome crucified people along the highways of Galilee, out in the 
+    heard  : Nobody in that road heard a figure of speech. Rome crucified people along the highways of Galilee,  out in the
+[minor] build-41-counting-the-cost/j3
+    caption: For which of you, intending to build a tower, sitteth not down first, and counteth the cost, whether he have s
+    heard  : For which of you, intending to build a tower, siteth not down first, and counteth the cost, whether he have su
+      ~ 'sitteth' -> heard 'siteth'   (sound match 100%)
+[OK   ] build-41-counting-the-cost/n6
+    caption: A watchtower in a vineyard guarded the harvest you had worked all year for. Everyone there had built something
+    heard  : A watchtower in a vineyard guarded the harvest you had worked all year for.  Everyone there had built somethin
+[minor] build-41-counting-the-cost/jv29
+    caption: Lest haply, after he hath laid the foundation, and is not able to finish it, all that behold it begin to mock 
+    heard  : Lest happily, after he hath laid the foundation, and is not able to finish it, all that behold  it begin to mo
+      ~ 'haply' -> heard 'happily'   (sound match 100%)
+[OK   ] build-41-counting-the-cost/n7
+    caption: Because half a tower is worse than none. An empty field is just a field. A foundation with three courses of st
+    heard  : Because half a tower is worse than none. An empty field is just a field. A foundation with three courses of st
+[BAD  ] build-41-counting-the-cost/j5
+    caption: Or what king, going to make war against another king, sitteth not down first, and consulteth whether he be abl
+    heard  : Or what king, going to make war against another king,  Siddith not down first, and consulteth whether he be ab
+      ~ 'sitteth' -> heard 'siddith'   (sound match 86%)
+     !! 'ten thousand' -> heard '-'   (sound match 0%)
+     !! 'twenty thousand' -> heard '-'   (sound match 0%)
+[BAD  ] build-41-counting-the-cost/n8
+    caption: Second picture, higher stakes. And look at what he asks about the king. Not whether he is brave. Whether he ca
+    heard  : 2nd picture, Higher Stakes.  And look at what he asks about the King.  Not whether he is brave.  Whether he ca
+     !! 'second' -> heard 'nd'   (sound match 67%)
+     !! 'ten thousand' -> heard '-'   (sound match 0%)
+     !! 'twenty thousand' -> heard '-'   (sound match 0%)
+[minor] build-41-counting-the-cost/j6
+    caption: Or else, while the other is yet a great way off, he sendeth an ambassage, and desireth conditions of peace.
+    heard  : Or else, while the other is yet a great way off, he sendeth an ambosage and desireth conditions of peace.
+      ~ 'ambassage' -> heard 'ambosage'   (sound match 100%)
+[OK   ] build-41-counting-the-cost/n9
+    caption: And the wise king does not win the war. He does not fight it. He sends men to ask for terms while there is sti
+    heard  : and the wise king does not win the war. He does not fight it. He sends men to ask for  terms while there is st
+[minor] build-41-counting-the-cost/j7
+    caption: So likewise, whosoever he be of you that forsaketh not all that he hath, he cannot be my disciple.
+    heard  : So likewise, whosoever he be of you that for sakith not all that he hath, he cannot be my disciple.
+      ~ 'forsaketh' -> heard 'for sakith'   (sound match 100%)
+[OK   ] build-41-counting-the-cost/n10
+    caption: He was not telling them to sell their houses in the road that afternoon. The word means letting go of your cla
+    heard  : He was not telling them to sell their houses in the road that afternoon.  The word means letting go of your cl
+[OK   ] build-41-counting-the-cost/n11
+    caption: And it worked, the way he meant it to. The crowd got smaller. People who had walked with him all morning went 
+    heard  : and it worked the way he meant it to. The crowd got smaller. People who had walked with him  all morning went 
+[minor] build-41-counting-the-cost/j8
+    caption: Salt is good: but if the salt have lost his savour, wherewith shall it be seasoned? It is neither fit for the 
+    heard  : Salt is good, but if the salt have lost his savour, wherewith shall it be seasoned?  It is neither fit for the
+      ~ 'dunghill' -> heard 'dung hill'   (sound match 100%)
+[BAD  ] build-41-counting-the-cost/n12
+    caption: Salt from the Dead Sea marshes was never pure. Leave it in the damp and the salt leaches away, and what is lef
+    heard  : Salt from the dead seemed marshes was never pure.  Leave it in the damp and the salt leeches away, and what is
+     !! 'sea' -> heard 'seemed'   (sound match 50%)
+      ~ 'leaches' -> heard 'leeches'   (sound match 100%)
+[minor] build-41-counting-the-cost/n13a
+    caption: So here is the question. Why would a man who came to save the world take the biggest crowd he ever had, and tr
+    heard  : So here's the question. Why would a man who came to save the world take the biggest crowd he ever had and try 
+      ~ 'here is' -> heard 'heres'   (sound match 100%)
+[BAD  ] build-41-counting-the-cost/n13b
+    caption: Because he will not let you sign before you have read it. Think what else in your life ever did that. The loan
+    heard  : Because he will not let you sign before you have read it. Think what else in your life ever did that.  The loa
+     !! 'a' -> heard 'the'   (sound match 0%)
+[OK   ] build-41-counting-the-cost/n14
+    caption: He is not trying to keep you out. He is trying to keep you from a half- built life. He tells you what it costs
+    heard  : He is not trying to keep you out. He is trying to keep you from a half built life. He tells you  what it costs
+[OK   ] build-41-counting-the-cost/n15
+    caption: And one more thing. The man asking that crowd to count what it would cost them had already counted what it wou
+    heard  : And one more thing. The man asking that crowd to count what it would cost them had already  counted what it wo
+[OK   ] build-41-counting-the-cost/n16
+    caption: So he is not waiting at the end of that road with a bill. He is standing at the start of it, telling you the t
+    heard  : So he is not waiting at the end of that road with a bill. He is standing at the start of it,  telling you the 
+[BAD  ] build-41-counting-the-cost/card
+    caption: He told a crowd the whole price before a single one of them said yes. Nothing else in your life has done that 
+    heard  : He told the crowd the whole price before a single one of them said yes.  Nothing else in your life has done th
+     !! 'a' -> heard 'the'   (sound match 0%)
+
+7 segment(s) need an ear-check in build-41-counting-the-cost

@@ -1,0 +1,69 @@
+[OK   ] build-74-woman-washed-his-feet/n0
+    caption: A Pharisee named Simon invited Jesus to dinner. It was a careful, respectable house — and it was about to be i
+    heard  : A Pharisee named Simon invited Jesus to dinner. It was a careful, respectable house. And it was about  to be i
+[OK   ] build-74-woman-washed-his-feet/n1
+    caption: A woman from the town — a woman everyone in that room knew by her reputation — came in uninvited. She carried 
+    heard  : A woman from the town, a woman everyone in that room knew by her reputation, came in uninvited.  She carried a
+[OK   ] build-74-woman-washed-his-feet/n2
+    caption: She stood behind him at his feet — guests reclined at meals like this, their feet stretched away from the tabl
+    heard  : She stood behind him at his feet.  Guests reclined at meals like this.  Their feet stretched away from the tab
+[BAD  ] build-74-woman-washed-his-feet/s39
+    caption: This man, if he were a prophet, would have known who and what manner of woman this is that toucheth him: for s
+    heard  : This man, if he were a prophet, would have known who and what manner of woman this is that touch with him, for
+      ~ 'toucheth' -> heard 'touch with'   (sound match 91%)
+     !! 'a' -> heard 'the'   (sound match 0%)
+[OK   ] build-74-woman-washed-his-feet/n3
+    caption: Simon thought to himself: if this man were really a prophet, he would know what kind of woman is touching him.
+    heard  : Simon thought to himself, if this man were really a prophet, he would know what kind of  woman is touching him
+[OK   ] build-74-woman-washed-his-feet/j40
+    caption: Simon, I have somewhat to say unto thee.
+    heard  : Simon, I have somewhat to say unto thee.
+[minor] build-74-woman-washed-his-feet/s40
+    caption: Master, say on.
+    heard  : Master Seon
+      ~ 'say on' -> heard 'seon'   (sound match 80%)
+[BAD  ] build-74-woman-washed-his-feet/j41
+    caption: There was a certain creditor which had two debtors: the one owed five hundred pence, and the other fifty. And 
+    heard  : There was a certain creditor which had two debtors, the one owed 500 pence, and the other 50.  And when they h
+     !! 'five hundred' -> heard '-'   (sound match 0%)
+     !! 'fifty' -> heard '-'   (sound match 0%)
+[OK   ] build-74-woman-washed-his-feet/s43
+    caption: I suppose that he, to whom he forgave most.
+    heard  : I suppose that he, to whom he forgave most.
+[BAD  ] build-74-woman-washed-his-feet/n4
+    caption: Jesus answered the thought Simon never said out loud — with a small story. Two men were in debt. One owed ten 
+    heard  : Jesus answered the thought Simon never set out loud with a small story. Two men were in debt.  One owed 10 tim
+     !! 'said' -> heard 'set'   (sound match 50%)
+     !! 'ten' -> heard '-'   (sound match 0%)
+[BAD  ] build-74-woman-washed-his-feet/j44
+    caption: Seest thou this woman? I entered into thine house, thou gavest me no water for my feet: but she hath washed my
+    heard  : Sayest thou this woman?  I entered into thine house, thou gavest me no water for my feet, but she hath washed 
+     !! 'seest' -> heard 'sayest'   (sound match 67%)
+[OK   ] build-74-woman-washed-his-feet/n5
+    caption: Then he turned toward the woman — but kept talking to Simon. Look at her, he said. When I walked into your hou
+    heard  : Then he turned toward the woman, but kept talking to Simon.  Look at her, he said.  When I walked into your ho
+[OK   ] build-74-woman-washed-his-feet/j1
+    caption: Her sins, which are many, are forgiven; for she loved much: but to whom little is forgiven, the same loveth li
+    heard  : Her sins, which are many, are forgiven, for she loved much, but to whom little is forgiven, the same loveth li
+[OK   ] build-74-woman-washed-his-feet/n5b
+    caption: Her sins are many, he said, and they are forgiven — and that is exactly why she loves like this. The one who t
+    heard  : Her sins are many, he said, and they are forgiven, and that is exactly why she loves like this.  The one who t
+[OK   ] build-74-woman-washed-his-feet/j2
+    caption: Thy sins are forgiven.
+    heard  : Thy sins are forgiven.
+[BAD  ] build-74-woman-washed-his-feet/s49
+    caption: Who is this that forgiveth sins also?
+    heard  : Who is this that forgives sins also?
+     !! 'forgiveth' -> heard 'forgives'   (sound match 73%)
+[OK   ] build-74-woman-washed-his-feet/n6
+    caption: The table stirred — who is this, who even forgives sins? He did not answer them. He was still looking at her.
+    heard  : The table stirred. Who is this? Who even forgives sins? He did not answer them. He was still looking at her.
+[OK   ] build-74-woman-washed-his-feet/j3
+    caption: Thy faith hath saved thee; go in peace.
+    heard  : Thy faith hath saved thee, go in peace.
+[minor] build-74-woman-washed-his-feet/card
+    caption: She was known for the worst thing she'd done. He knew her for her love. Which name would you rather answer to?
+    heard  : She was known for the worst things she'd done. He knew her for her love. Which name would you rather answer to
+      ~ 'thing' -> heard 'things'   (sound match 89%)
+
+5 segment(s) need an ear-check in build-74-woman-washed-his-feet

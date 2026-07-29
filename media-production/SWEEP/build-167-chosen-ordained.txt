@@ -1,0 +1,39 @@
+[minor] build-167-chosen-ordained/n1
+    caption: The people God calls to his work rarely go looking for the honour. They are usually found doing something ordi
+    heard  : The people God calls to his work rarely go looking for the honor. They are usually found doing  something ordi
+      ~ 'honour' -> heard 'honor'   (sound match 100%)
+[BAD  ] build-167-chosen-ordained/kv16a
+    caption: Ye have not chosen me, but I have chosen you, and ordained you,
+    heard  : He have not chosen me, but I have chosen you, and ordained you.
+     !! 'ye' -> heard 'he'   (sound match 0%)
+[OK   ] build-167-chosen-ordained/n2
+    caption: Notice the direction of it. The choosing runs from heaven down to us, not the other way. He picks a person out
+    heard  : Notice the direction of it. The choosing runs from heaven down to us, not the other way.  He picks a person ou
+[minor] build-167-chosen-ordained/n3
+    caption: And a calling is never just a title to wear. It is a sending. Those he chose were meant to go — out to the roa
+    heard  : and a calling is never just a title to wear. It is ascending. Those he chose were meant to go,  out to the roa
+      ~ 'a sending' -> heard 'ascending'   (sound match 91%)
+[OK   ] build-167-chosen-ordained/n4
+    caption: The measure of it would be simple and real: fruit. Not applause, not a position, but honest results — good wor
+    heard  : The measure of it would be simple and real, fruit, not applause, not a position, but honest results,  good wor
+[OK   ] build-167-chosen-ordained/kv16b
+    caption: that ye should go and bring forth fruit, and that your fruit should remain: that whatsoever ye shall ask of th
+    heard  : that ye should go and bring forth fruit, and that your fruit should remain,  that whatsoever ye shall ask of t
+[BAD  ] build-167-chosen-ordained/n5
+    caption: And what fruit it was to be: not a flash that fades, but a harvest that lasts. Better still, the calling came 
+    heard  : And what fruit it was to be, not a flash that fades, but a harvest that lasts. Better still,  the calling came
+      ~ 'backed' -> heard 'back'   (sound match 86%)
+      ~ 'that' -> heard 'thats'   (sound match 86%)
+     !! 'and give' -> heard 'in gift'   (sound match 50%)
+[BAD  ] build-167-chosen-ordained/n6
+    caption: Here is the quiet study gem. You do not license yourself into God's service, and you do not have to. He calls 
+    heard  : Here is the quiet study, Jim. You do not license yourself into God's service, and you do not have to.  He call
+     !! 'gem' -> heard 'jim'   (sound match 50%)
+[OK   ] build-167-chosen-ordained/n7
+    caption: And that call still goes out, still by name, still to ordinary people who never went looking for it. When heav
+    heard  : And that call still goes out, still by name, still to ordinary people who never went looking for it.  When hea
+[OK   ] build-167-chosen-ordained/card
+    caption: You do not choose yourself into God's work — he chooses and ordains, by name, for fruit that lasts. When heave
+    heard  : You do not choose yourself into God's work. He chooses and ordains by name for fruit that lasts.  When heaven 
+
+3 segment(s) need an ear-check in build-167-chosen-ordained

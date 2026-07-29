@@ -1,0 +1,69 @@
+[OK   ] build-117-hosea-buys-her-back/n1
+    caption: Love is easy to picture at the beginning. A man and a woman, hands joined, a covenant freely given, a home wit
+    heard  : Love is easy to picture at the beginning.  A man and a woman, hands joined, a covenant freely given, a home wi
+[minor] build-117-hosea-buys-her-back/n2
+    caption: But she wandered. Not because he stopped being good to her — he never did — but because her heart drifted. And
+    heard  : But she wondered. Not because he stopped being good to her. He never did, but because her heart  drifted. And 
+      ~ 'wandered' -> heard 'wondered'   (sound match 100%)
+[OK   ] build-117-hosea-buys-her-back/w1
+    caption: I will go after my lovers, that give me my bread and my water, my wool and my flax, mine oil and my drink.
+    heard  : I will go after my lovers, that give me my bread and my water, my wool and my flax, mine oil and my drink.
+[OK   ] build-117-hosea-buys-her-back/n2b
+    caption: I am going after the ones who give me what I want, she said. My food, my water, my clothes. She did not think 
+    heard  : I am going after the ones who give me what I want," she said.  My food, my water, my clothes. She did not thin
+[minor] build-117-hosea-buys-her-back/gv1
+    caption: Go yet, love a woman beloved of her friend, yet an adulteress, according to the love of the LORD toward the ch
+    heard  : Go yet, love a woman beloved of her friend, yet an adulterous, according to the love of  the Lord toward the c
+      ~ 'adulteress' -> heard 'adulterous'   (sound match 100%)
+[OK   ] build-117-hosea-buys-her-back/n3
+    caption: And here the story stops being like any other. God did not tell Hosea to forget her. Go and love her still, he
+    heard  : And here the story stops being like any other. God did not tell Hosea to forget her. Go and love  her still. H
+[minor] build-117-hosea-buys-her-back/n4
+    caption: By the time he found where she had ended up, she had lost nearly everything. Brought low, sitting at the edge 
+    heard  : By the time he found where she had ended up, she had lost nearly everything. Brought low,  sitting at the edge
+      ~ 'far' -> heard 'farm'   (sound match 80%)
+[OK   ] build-117-hosea-buys-her-back/n5
+    caption: He could have let her stay lost. Instead he came looking. He walked all that way into a place that was not his
+    heard  : He could have let her stay lost. Instead, he came looking. He walked all that way into a place that  was not h
+[BAD  ] build-117-hosea-buys-her-back/s32
+    caption: So I bought her to me for fifteen pieces of silver, and for an homer of barley, and an half homer of barley.
+    heard  : So I'd bought her to me for 15 pieces of silver, and for an homer of barley, and in half homer of barley.
+     !! 'i' -> heard 'id'   (sound match 0%)
+     !! 'fifteen' -> heard '-'   (sound match 0%)
+      ~ 'an' -> heard 'in'   (sound match 100%)
+[BAD  ] build-117-hosea-buys-her-back/n6
+    caption: And when he found her, he did not lecture her. He paid for her. Fifteen pieces of silver and a load of barley,
+    heard  : And when he found her, he did not lecture her. He paid for her.  15 pieces of silver and a load of barley coun
+     !! 'fifteen' -> heard '-'   (sound match 0%)
+[OK   ] build-117-hosea-buys-her-back/n7
+    caption: He lifted her up off the ground with his own hands, drew his cloak around her shoulders, and covered her — no 
+    heard  : He lifted her up off the ground with his own hands, drew his cloak around her shoulders,  and covered her. No 
+[OK   ] build-117-hosea-buys-her-back/jvA
+    caption: I will allure her, and bring her into the wilderness, and speak comfortably unto her.
+    heard  : I will allure her and bring her into the wilderness and speak comfortably unto her.
+[OK   ] build-117-hosea-buys-her-back/n7b
+    caption: I will win her back, God says. I will take her out where it is quiet, away from all the noise, and I will spea
+    heard  : I will win her back, God says. I will take her out where it is quiet, away from all the noise,  and I will spe
+[OK   ] build-117-hosea-buys-her-back/w2
+    caption: I will go and return to my first husband; for then was it better with me than now.
+    heard  : I will go and return to my first husband. For then was it better with me than now?
+[BAD  ] build-117-hosea-buys-her-back/n8w
+    caption: I am going back to my first husband, she says, because it was better with me then than it is now. That is the 
+    heard  : I am going back to my first husband, she says, because it was better with me than it is now.  That is the whol
+     !! 'then' -> heard '-'   (sound match 0%)
+[minor] build-117-hosea-buys-her-back/jvB
+    caption: And I will betroth thee unto me for ever; yea, I will betroth thee unto me in righteousness, and in judgment, 
+    heard  : And I will betrot the unto me forever, yeah, I will betrot the unto me in righteousness,  and in judgment, and
+      ~ 'betroth thee' -> heard 'betrot the'   (sound match 83%)
+      ~ 'for ever yea' -> heard 'forever yeah'   (sound match 91%)
+      ~ 'betroth thee' -> heard 'betrot the'   (sound match 83%)
+      ~ 'betroth thee' -> heard 'betrot the'   (sound match 83%)
+[minor] build-117-hosea-buys-her-back/n8
+    caption: Betrothed for ever. Not taken back on probation — married again, in righteousness and mercy and faithfulness, 
+    heard  : betrothed forever, not taken back on probation, married again, in righteousness and mercy and  faithfulness, f
+      ~ 'for ever' -> heard 'forever'   (sound match 100%)
+[OK   ] build-117-hosea-buys-her-back/card
+    caption: God dramatized his own love with a marriage: however far she wandered, he went and bought her back and brought
+    heard  : God dramatized his own love with a marriage. However far she wandered, he went and bought her back  and brough
+
+3 segment(s) need an ear-check in build-117-hosea-buys-her-back

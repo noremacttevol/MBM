@@ -1,0 +1,44 @@
+[BAD  ] build-26-mustard-seed/n0
+    caption: Jesus told a story about the smallest seed a farmer knew.
+    heard  : Jesus told a story about the smallest seed of farmer new.
+     !! 'a' -> heard 'of'   (sound match 0%)
+      ~ 'knew' -> heard 'new'   (sound match 80%)
+[OK   ] build-26-mustard-seed/n1
+    caption: It was a mustard seed — so tiny it could be lost in the palm of your hand.
+    heard  : It was a mustard seed, so tiny it could be lost in the palm of your hand.
+[OK   ] build-26-mustard-seed/n2
+    caption: A man took that one little seed and planted it in his field.
+    heard  : A man took that one little seed and planted it in his field.
+[OK   ] build-26-mustard-seed/n3
+    caption: Of all the seeds he could have sown, it was just about the smallest of them all.
+    heard  : Of all the seeds he could have sown, it was just about the smallest of them all.  //  //
+[OK   ] build-26-mustard-seed/j1
+    caption: The kingdom of heaven is like to a grain of mustard seed, which a man took, and sowed in his field: which inde
+    heard  : The kingdom of heaven is like to a grain of mustard seed, which a man took, and sowed in his field, which inde
+[BAD  ] build-26-mustard-seed/j1b
+    caption: but when it is grown, it is the greatest among herbs, and becometh a tree, so that the birds of the air come a
+    heard  : But when it is grown, it is the greatest among herbs, and become of a tree,  so that the birds of the air come
+     !! 'becometh' -> heard 'become of'   (sound match 67%)
+[OK   ] build-26-mustard-seed/n4
+    caption: But that tiny seed did not stay small. Quietly, slowly, it began to grow.
+    heard  : But that tiny seed did not stay small. Quietly, slowly, it began to grow.
+[OK   ] build-26-mustard-seed/n5
+    caption: Up out of the ground, higher and higher, until it became the largest plant in the whole garden — a tall, sprea
+    heard  : Up out of the ground, higher and higher, until it became the largest plant in the whole garden,  a tall, sprea
+[OK   ] build-26-mustard-seed/n6
+    caption: And the wild birds came and built their nests in its broad, sheltering branches.
+    heard  : And the wild birds came and built their nests in its broad, sheltering branches.  //
+[OK   ] build-26-mustard-seed/n7
+    caption: That, Jesus said, is what God's kingdom is like.
+    heard  : That, Jesus said, is what God's kingdom is like.
+[OK   ] build-26-mustard-seed/n8
+    caption: It almost never begins big. It begins small — a whispered prayer, a single kind act, one quiet change of heart
+    heard  : It almost never begins big. It begins small, a whispered prayer, a single kind act, one quiet change of heart.
+[OK   ] build-26-mustard-seed/n9
+    caption: But God takes that smallest beginning and grows it into something far greater than anyone could have imagined.
+    heard  : But God takes that smallest beginning and grows it into something far greater than anyone could have imagined.
+[OK   ] build-26-mustard-seed/card
+    caption: God does enormous things from the smallest of starts. What small seed is he asking you to plant today?
+    heard  : God does enormous things from the smallest of starts.  What small seed is He asking you to plant today?
+
+2 segment(s) need an ear-check in build-26-mustard-seed

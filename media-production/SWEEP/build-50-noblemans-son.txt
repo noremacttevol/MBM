@@ -1,0 +1,76 @@
+[minor] build-50-noblemans-son/n1
+    caption: Jesus came back to Cana, the little town where he had turned the water into wine. And word of it was spreading
+    spoken : Jesus came back to Kaynuh, the little town where he had turned the water into wine. And word of it was spreadi
+    heard  : Jesus came back to Canoe, the little town where He had turned the water into wine.  And word of it was spreadi
+      ~ 'cana' -> heard 'canoe'   (sound match 100%)
+[BAD  ] build-50-noblemans-son/n2
+    caption: About twenty miles away, in Capernaum, a royal official sat by his son's bed. A man of rank, used to giving or
+    heard  : About 20 miles away, in Capernaum, a royal official sat by his son's bed, a man of rank,  used to giving order
+     !! 'twenty' -> heard '-'   (sound match 0%)
+     !! 'obeyed' -> heard 'a bait'   (sound match 40%)
+[minor] build-50-noblemans-son/n3
+    caption: Then he heard the healer was in Cana, a full day's walk uphill. So this powerful man dropped everything and we
+    spoken : Then he heard the healer was in Kaynuh, a full day's walk uphill. So this powerful man dropped everything and 
+    heard  : Then he heard the healer was in Canu, a full day's walk uphill. So this powerful man dropped  everything and w
+      ~ 'cana' -> heard 'canu'   (sound match 100%)
+[minor] build-50-noblemans-son/n4
+    caption: He found Jesus and begged him to come down to Capernaum and heal his boy before it was too late. A father with
+    heard  : He found Jesus and begged him to come down to Capronom and heal his boy before it was too late.  A father with
+      ~ 'capernaum' -> heard 'capronom'   (sound match 100%)
+[OK   ] build-50-noblemans-son/jv48
+    caption: Except ye see signs and wonders, ye will not believe.
+    heard  : Except you see signs and wonders, you will not believe.
+[OK   ] build-50-noblemans-son/n5
+    caption: It can sound like a scolding, but it was not. Jesus was reaching past the man's panic for something deeper. He
+    heard  : It can sound like a scolding, but it was not.  Jesus was reaching past the man's panic for something deeper.  
+[OK   ] build-50-noblemans-son/n6
+    caption: The father does not argue about it. He does not defend himself. He just says it again, plain and breaking.
+    heard  : The father does not argue about it. He does not defend himself. He just says it again,  plain and breaking.
+[BAD  ] build-50-noblemans-son/s49
+    caption: Sir, come down ere my child die.
+    heard  : Sir, come down there my child, die.
+     !! 'ere' -> heard 'there'   (sound match 50%)
+[OK   ] build-50-noblemans-son/n6b
+    caption: Sir, come down before my child dies. That is the whole prayer. No argument, no explaining himself, nothing cle
+    heard  : Sir, come down before my child dies.  That is the whole prayer.  No argument.  No explaining himself.  Nothing
+[OK   ] build-50-noblemans-son/jv50
+    caption: Go thy way; thy son liveth.
+    spoken : Go thy way; thy son livveth.
+    heard  : Go thy way, thy son liveth.
+[minor] build-50-noblemans-son/n7
+    caption: No trip to Capernaum. No hand laid on the boy. Just a word, spoken over a sick child a day's journey away. And
+    heard  : No trip to Capernaum. No hand laid on the boy. Just a word, spoken over a sick  childhood day's journey away. 
+      ~ 'child a' -> heard 'childhood'   (sound match 80%)
+[OK   ] build-50-noblemans-son/n8
+    caption: Think about that walk. A whole day on the road with no proof in his hands, nothing to hold but a stranger's wo
+    heard  : Think about that walk. A whole day on the road with no proof in his hands. Nothing to hold,  but a stranger's 
+[OK   ] build-50-noblemans-son/n9
+    caption: The next day, still on the road, he saw his own servants running toward him.
+    heard  : The next day, still on the road, he saw his own servants running toward him.
+[minor] build-50-noblemans-son/s51
+    caption: Thy son liveth.
+    spoken : Thy son livveth.
+    heard  : Thy Son liveeth.
+      ~ 'liveth' -> heard 'liveeth'   (sound match 100%)
+[BAD  ] build-50-noblemans-son/n9b
+    caption: Your boy is alive. The very same two words Jesus had said to him a day before, coming back to him now from his
+    heard  : Your boy is alive. The very same two words Jesus had said to him a day before,  coming back to him now from hi
+     !! 'say' -> heard 'save'   (sound match 50%)
+[OK   ] build-50-noblemans-son/n10
+    caption: So he asked them exactly when the boy had started to mend.
+    heard  : So he asked them exactly when the boy had started to mend.
+[OK   ] build-50-noblemans-son/s52
+    caption: Yesterday at the seventh hour the fever left him.
+    heard  : Yesterday at the seventh hour the fever left him.
+[OK   ] build-50-noblemans-son/n10b
+    caption: Yesterday, at the seventh hour, they told him. And he knew that hour. It was the exact hour Jesus had stood in
+    spoken : Yesterday, at the seventh hour, they told him. And he knew that hour. It was the exact hour Jesus had stood in
+    heard  : Yesterday, at the seventh hour, they told him. And he knew that hour. It was the exact hour Jesus  had stood i
+[OK   ] build-50-noblemans-son/n11
+    caption: And that settled it. The man believed, and his whole household believed with him. The word had been true the e
+    heard  : and that settled it. The man believed, and his whole household believed with him.  The word had been true the 
+[OK   ] build-50-noblemans-son/card
+    caption: He healed a boy he never touched, with a word that was already true before anyone could prove it. If his word 
+    heard  : He healed a boy he never touched, with a word that was already true before anyone could prove it.  If his word
+
+3 segment(s) need an ear-check in build-50-noblemans-son

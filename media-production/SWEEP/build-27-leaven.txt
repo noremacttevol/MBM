@@ -1,0 +1,42 @@
+[OK   ] build-27-leaven/n1
+    caption: Jesus said the kingdom of God is like something a woman does every week, in her own kitchen, with her own hand
+    heard  : Jesus said the kingdom of God is like something a woman does every week in her own kitchen with her own hands.
+[BAD  ] build-27-leaven/s33
+    caption: Another parable spake he unto them;
+    heard  : Another parable spay key unto them.
+     !! 'spake he' -> heard 'spay key'   (sound match 67%)
+[OK   ] build-27-leaven/j1
+    caption: The kingdom of heaven is like unto leaven, which a woman took, and hid in three measures of meal, till the who
+    heard  : The kingdom of heaven is like unto leaven, which a woman took, and hid in three measures of meal, till the who
+[minor] build-27-leaven/n2
+    caption: Leaven is just a little piece of old, living dough, what we would call a sourdough starter. Small. Plain. Easy
+    spoken : Leaven is just a little piece of old, living doh, what we would call a sourdough starter. Small. Plain. Easy t
+    heard  : Levin is just a little piece of old, living dough, what we would call a sourdough starter.  Small, plain, easy
+      ~ 'leaven' -> heard 'levin'   (sound match 100%)
+[BAD  ] build-27-leaven/n3
+    caption: And three measures of meal is not a small bowl. It is an enormous amount of flour, enough bread to feed a hund
+    heard  : And three measures of meal is not a small bowl.  It is an enormous amount of flour, enough bread to feed 100 p
+     !! 'a hundred' -> heard '-'   (sound match 0%)
+[OK   ] build-27-leaven/n4
+    caption: She takes that tiny bit of leaven and works it down deep into the whole mass, hiding it, until you cannot even
+    heard  : She takes that tiny bit of leaven and works it down deep into the whole mass, hiding it,  until you cannot eve
+[BAD  ] build-27-leaven/n5
+    caption: Then she covers it and waits. Nothing looks like it is happening. No noise, no show, no spectacle. Just quiet,
+    heard  : Then she covers it in weights. Nothing looks like it is happening. No noise, no show, no spectacle.  Just quie
+     !! 'and waits' -> heard 'in weights'   (sound match 73%)
+[minor] build-27-leaven/n6
+    caption: But inside, the leaven is spreading through every part of the dough. And by morning the whole heavy mass has r
+    spoken : But inside, the leaven is spreading through every part of the doh. And by morning the whole heavy mass has ris
+    heard  : But inside, the leaven is spreading through every part of the dough, and by mourning the whole heavy mass has 
+      ~ 'morning' -> heard 'mourning'   (sound match 100%)
+[OK   ] build-27-leaven/n7
+    caption: That, Jesus said, is how the kingdom of God works. Not by force. Not by noise. It starts small and hidden, and
+    heard  : That, Jesus said, is how the Kingdom of God works.  Not by force, not by noise.  It starts small and hidden, a
+[OK   ] build-27-leaven/n8
+    caption: That is how good he is. He does not overpower you. He works gently, patiently, from within, until the whole of
+    heard  : That is how good he is. He does not overpower you. He works gently, patiently, from within,  until the whole o
+[OK   ] build-27-leaven/card
+    caption: God is often working quietest right where you cannot see it yet. Where might he already be at work inside you?
+    heard  : God is often working quietest right where you cannot see it yet.  Where might He already be at work inside you
+
+3 segment(s) need an ear-check in build-27-leaven

@@ -1,0 +1,48 @@
+[BAD  ] build-75-woman-taken-in-adultery/n0
+    caption: Early morning at the temple, Jesus was teaching a crowd, when a knot of religious leaders shoved their way thr
+    heard  : Early morning at the temple, Jesus was teaching a crowd when a nod of religious leaders shoved  their way thro
+     !! 'knot' -> heard 'nod'   (sound match 40%)
+[OK   ] build-75-woman-taken-in-adultery/n1
+    caption: They stood her in the middle of everyone, where no one could look away. They had caught her, they said, in the
+    heard  : They stood her in the middle of everyone, where no one could look away. They had caught her.  They said, in th
+[BAD  ] build-75-woman-taken-in-adultery/s4
+    caption: Master, this woman was taken in adultery, in the very act. Now Moses in the law commanded us, that such should
+    heard  : Master, this woman was taken in adultery, in the very act.  Now Moses and the law commanded us, that such shou
+     !! 'in' -> heard 'and'   (sound match 67%)
+[OK   ] build-75-woman-taken-in-adultery/n2
+    caption: It was a trap. Say let her go, and he breaks the law. Say stone her, and he's just another man with a rock.
+    heard  : It was a trap. Say let her go, and he breaks the law. Say stone her, and he's just another man with a rock.
+[OK   ] build-75-woman-taken-in-adultery/n3
+    caption: Jesus said nothing at first. He bent down and wrote in the dust with his finger. Then he straightened up.
+    heard  : Jesus said nothing at first.  He bent down and wrote in the dust with his finger.  Then he straightened up.
+[OK   ] build-75-woman-taken-in-adultery/j1
+    caption: He that is without sin among you, let him first cast a stone at her.
+    heard  : He that is without sin among you, let him first cast a stone at her.
+[OK   ] build-75-woman-taken-in-adultery/n4a
+    caption: Whichever one of you has never sinned, he said — you go first. He did not argue the law with them. He just han
+    heard  : Whichever one of you has never sinned, he said, you go first. He did not argue the law with them.  He just han
+[OK   ] build-75-woman-taken-in-adultery/s9
+    caption: And they which heard it, being convicted by their own conscience, went out one by one, beginning at the eldest
+    heard  : and they which heard it being convicted by their own conscience.  Went out one by one, beginning at the eldest
+[BAD  ] build-75-woman-taken-in-adultery/n4
+    caption: And he bent down and wrote again. They dropped their stones and walked away, one by one — the oldest first — u
+    heard  : and he bent down and rode again. They dropped their stones and walked away one by one, the oldest  first, unti
+     !! 'wrote' -> heard 'rode'   (sound match 40%)
+[OK   ] build-75-woman-taken-in-adultery/j2
+    caption: Woman, where are those thine accusers? hath no man condemned thee?
+    heard  : Woman, where are those thine accusers?  Hath no man condemned thee?
+[OK   ] build-75-woman-taken-in-adultery/w11
+    caption: No man, Lord.
+    heard  : No man, Lord.
+[OK   ] build-75-woman-taken-in-adultery/n5
+    caption: Where are the ones accusing you, he asked her. Has no one condemned you? No man, Lord, she said. Three words —
+    heard  : Where are the ones accusing you?" he asked her.  Has no one condemned you?  No man.  Lord, she said.  Three wo
+[minor] build-75-woman-taken-in-adultery/j3
+    caption: Neither do I condemn thee: go, and sin no more.
+    heard  : Neither do I condemn the, go, and sin no more.
+      ~ 'thee' -> heard 'the'   (sound match 100%)
+[OK   ] build-75-woman-taken-in-adultery/card
+    caption: The only one with the right to condemn her, wouldn't. What would it change to hear him say that to you?
+    heard  : The only one with the right to condemn her wouldn't. What would it change to hear him say that to you?
+
+3 segment(s) need an ear-check in build-75-woman-taken-in-adultery

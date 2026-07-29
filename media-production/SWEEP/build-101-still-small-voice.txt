@@ -1,0 +1,59 @@
+[OK   ] build-101-still-small-voice/n1
+    caption: Elijah had just won the greatest victory of his life. And then a single threat sent him running for the wilder
+    heard  : Elijah had just won the greatest victory of his life, and then a single threat sent him running for  the wilde
+[OK   ] build-101-still-small-voice/n2
+    caption: God did not scold him. While he slept, warm bread was baked for him and a jar of water set by his head. Twice 
+    heard  : God did not scold him. While he slept, warm bread was baked for him, and a jar of water set by his  head. Twic
+[OK   ] build-101-still-small-voice/n3
+    caption: In that strength he walked forty days across the wilderness, all the way to the mountain of God, and found a c
+    heard  : In that strength he walked forty days across the wilderness, all the way to the mountain of God,  and found a 
+[BAD  ] build-101-still-small-voice/jv9
+    caption: What doest thou here, Elijah?
+    heard  : What do I style here, Elijah?
+     !! 'doest thou' -> heard 'do i style'   (sound match 67%)
+[BAD  ] build-101-still-small-voice/s10
+    caption: I have been very jealous for the LORD God of hosts: for the children of Israel have forsaken thy covenant, thr
+    heard  : I have been very jealous for the Lord God of hosts, for the children of Israel have forsaken  my covenant, thr
+     !! 'thy' -> heard 'my'   (sound match 40%)
+     !! 'thine' -> heard 'nine'   (sound match 50%)
+[minor] build-101-still-small-voice/n4
+    caption: And out it all poured. I have given everything for you, he said. They have torn down your altars and killed yo
+    heard  : and out at all poured. I have given everything for you," he said.  They have torn down your altars and killed 
+      ~ 'it' -> heard 'at'   (sound match 100%)
+      ~ 'prophets' -> heard 'profits'   (sound match 100%)
+[OK   ] build-101-still-small-voice/jv11a
+    caption: Go forth, and stand upon the mount before the LORD.
+    heard  : Go forth, and stand upon the Mount before the Lord.
+[minor] build-101-still-small-voice/jv11c
+    caption: And, behold, the LORD passed by, and a great and strong wind rent the mountains, and brake in pieces the rocks
+    heard  : And behold, the Lord passed by, and a great and strong wind rent the mountains,  and break in pieces the rocks
+      ~ 'brake' -> heard 'break'   (sound match 100%)
+[BAD  ] build-101-still-small-voice/jv11b
+    caption: and after the wind an earthquake; but the LORD was not in the earthquake:
+    heard  : and after the wind and earthquake, but the Lord was not in the earthquake.
+     !! 'an' -> heard 'and'   (sound match 67%)
+[OK   ] build-101-still-small-voice/n5
+    caption: A wind strong enough to tear the mountain apart. Then an earthquake that split the rock under his feet. Then a
+    heard  : A wind strong enough to tear the mountain apart, then an earthquake that split the rock under his  feet, then 
+[BAD  ] build-101-still-small-voice/jv12
+    caption: And after the fire a still small voice.
+    heard  : and after the fire is still small voice.
+     !! 'a' -> heard 'is'   (sound match 0%)
+[OK   ] build-101-still-small-voice/n6
+    caption: After all the noise and power, everything went quiet. And in the quiet came a low, gentle whisper. That was wh
+    heard  : After all the noise and power, everything went quiet, and in the quiet came a low, gentle whisper.  That was w
+[minor] build-101-still-small-voice/n7
+    caption: The whisper did not shame him for being afraid. It asked him again what troubled him, let him say it all a sec
+    heard  : The whisper did not shame him for being afraid. It asked him again what troubled him.  Let him say it all a se
+      ~ 'steadied' -> heard 'studied'   (sound match 100%)
+[OK   ] build-101-still-small-voice/jv18
+    caption: Yet I have left me seven thousand in Israel, all the knees which have not bowed unto Baal, and every mouth whi
+    heard  : Yet I have left me seven thousand in Israel, all the knees which have not bowed unto Baal, and every mouth whi
+[OK   ] build-101-still-small-voice/n8
+    caption: You are not the only one, God told him. Scattered across the land are thousands who have never bent the knee t
+    heard  : You are not the only one, God told him. Scattered across the land are thousands who have never  bent the knee 
+[OK   ] build-101-still-small-voice/card
+    caption: The wind, the earthquake and the fire were not God. The whisper was. When you are worn out and sure you are th
+    heard  : The wind, the earthquake, and the fire were not God. The whisper was,  when you are worn out and sure you are 
+
+4 segment(s) need an ear-check in build-101-still-small-voice

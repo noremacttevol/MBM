@@ -1,0 +1,45 @@
+[minor] build-153-restitution/n1
+    caption: After a lame man was healed at the temple gate, a crowd came running, amazed. And Peter, a fisherman turned pr
+    heard  : After a lame man was healed at the temple gate, a crowd came running, amazed.  And Peter, a fisherman-turned-p
+      ~ 'fisherman turned preacher' -> heard 'fishermanturnedpreacher'   (sound match 100%)
+[minor] build-153-restitution/s6
+    caption: Silver and gold have I none; but such as I have give I thee: In the name of Jesus Christ of Nazareth rise up a
+    heard  : Silver and gold have I none.  But such as I have given I thee,  in the name of Jesus Christ of Nazareth, rise 
+      ~ 'give' -> heard 'given'   (sound match 80%)
+[OK   ] build-153-restitution/n1b
+    caption: I have no money, Peter told him. But what I do have, I give you. And in the name of Jesus Christ of Nazareth, 
+    heard  : I have no money, Peter told him. But what I do have, I give you. And in the name of Jesus Christ  of Nazareth,
+[OK   ] build-153-restitution/n2
+    caption: His message was not complicated. Turn back to God, he said. Change your direction, let your wrongs be wiped aw
+    heard  : His message was not complicated. Turn back to God. He said,  change your direction, let your wrongs be wiped a
+[OK   ] build-153-restitution/n3
+    caption: Picture that word: refreshing. Like cool rain on cracked ground, like a deep breath after a long, hard road. T
+    heard  : Picture that word, refreshing, like cool rain on cracked ground, like a deep breath after a long,  hard road. 
+[OK   ] build-153-restitution/kv19
+    caption: Repent ye therefore, and be converted, that your sins may be blotted out, when the times of refreshing shall c
+    heard  : Repent you therefore, and be converted, that your sins may be blotted out  when the times of refreshing shall 
+[OK   ] build-153-restitution/n4
+    caption: But Peter pointed to something even larger than one person's fresh start. He spoke of a day when everything th
+    heard  : But Peter pointed to something even larger than one person's fresh start. He spoke of a day when  everything t
+[OK   ] build-153-restitution/n5
+    caption: Until that day, he said, heaven itself is keeping the promise safe, the way you hold back the best gift for ex
+    heard  : Until that day, he said, Heaven itself is keeping the promise safe, the way you hold back the best gift for ex
+[minor] build-153-restitution/n6
+    caption: And this was not some new idea Peter dreamed up. Every true prophet, all the way back to the beginning, had pr
+    heard  : And this was not some new idea Peter dreamed up. Every true profit, all the way back to the beginning,  had pr
+      ~ 'prophet' -> heard 'profit'   (sound match 100%)
+      ~ 'puttingright' -> heard 'putting right'   (sound match 100%)
+[OK   ] build-153-restitution/kv21
+    caption: Whom the heaven must receive until the times of restitution of all things, which God hath spoken by the mouth 
+    heard  : whom the heaven must receive until the times of restitution of all things,  which God hath spoken by the mouth
+[OK   ] build-153-restitution/n7
+    caption: Restitution means giving back what was lost, restoring what was broken to the way it was always meant to be. N
+    heard  : Restitution means giving back what was lost, restoring what was broken to the way it was  always meant to be. 
+[OK   ] build-153-restitution/n8
+    caption: So this verse is a promise you can lean your full weight on. The world is not just sliding into ruin; it is he
+    heard  : So this verse is a promise you can lean your full weight on. The world is not just sliding into  ruin. It is h
+[OK   ] build-153-restitution/card
+    caption: The world is not ending in ruin. It is heading toward a restoration of all things, promised by every prophet s
+    heard  : The world is not ending in ruin. It is heading toward a restoration of all things, promised by  every prophet 
+
+0 segment(s) need an ear-check in build-153-restitution

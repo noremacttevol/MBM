@@ -1,0 +1,36 @@
+[OK   ] build-181-morning-stars-sang/n0
+    caption: Job had asked God hard questions. And God answered — not with explanations, but by taking Job back to the very
+    heard  : Job had asked God hard questions, and God answered, not with explanations, but by taking  job back to the very
+[OK   ] build-181-morning-stars-sang/n1a
+    caption: Before there were people to suffer or to doubt,
+    heard  : before there were people to suffer or to doubt.
+[OK   ] build-181-morning-stars-sang/n1b
+    caption: the foundations of the earth were being laid.
+    heard  : The foundations of the earth were being laid.
+[minor] build-181-morning-stars-sang/g4
+    caption: Where wast thou when I laid the foundations of the earth? declare, if thou hast understanding.
+    heard  : Where was thou when I laid the foundations of the earth?  Declare if thou hast understanding.
+      ~ 'wast' -> heard 'was'   (sound match 80%)
+[OK   ] build-181-morning-stars-sang/n1r
+    caption: Where were you, God asked him, when I laid the foundations of the earth? Tell me, if you know. It sounds sever
+    heard  : Where were you, God asked him, when I laid the foundations of the earth? Tell me, if you know.  It sounds seve
+[OK   ] build-181-morning-stars-sang/n2
+    caption: And when that happened, something astonishing broke out in the sky.
+    heard  : And when that happened, something astonishing broke out in the sky.
+[minor] build-181-morning-stars-sang/s1
+    caption: When the morning stars sang together, and all the sons of God shouted for joy?
+    heard  : When the Morning Star is sang together, and all the sons of God shouted for joy,
+      ~ 'stars' -> heard 'star is'   (sound match 100%)
+[OK   ] build-181-morning-stars-sang/n3
+    caption: The stars themselves broke into song. Creation was not a cold accident — it was a celebration.
+    heard  : The stars themselves broke into song. Creation was not a cold accident. It was a celebration.
+[minor] build-181-morning-stars-sang/n4
+    caption: The God who sang the world into being is the same one listening to your questions today.
+    heard  : The God who's saying the world into being is the same one listening to your questions today.
+      ~ 'who sang' -> heard 'whos saying'   (sound match 89%)
+[minor] build-181-morning-stars-sang/card
+    caption: The stars sang when the world began. Your story is still being written by the same hand.
+    heard  : The star sang when the world began. Your story is still being written by the same hand.  //  //  //  //  //  /
+      ~ 'stars' -> heard 'star'   (sound match 86%)
+
+0 segment(s) need an ear-check in build-181-morning-stars-sang

@@ -1,0 +1,37 @@
+[OK   ] build-156-famine-of-hearing/n1
+    caption: The prophet Amos gave his people a strange warning. A famine is coming, he said. But not the kind you are pict
+    heard  : The prophet Amos gave his people a strange warning.  A famine is coming, he said.  But not the kind you are pi
+[OK   ] build-156-famine-of-hearing/n2
+    caption: It would be a famine of a different kind — a hunger for the word of God. A time when the living voice from hea
+    heard  : It would be a famine of a different kind, a hunger for the Word of God, a time when the  living voice from hea
+[OK   ] build-156-famine-of-hearing/n3
+    caption: You could go about your days, eat your fill, and still feel a hollow place inside that no meal could reach — a
+    heard  : You could go about your days, eat your fill, and still feel a hollow place inside that no meal could  reach, a
+[minor] build-156-famine-of-hearing/kv11
+    caption: Behold, the days come, saith the Lord GOD, that I will send a famine in the land, not a famine of bread, nor a
+    heard  : Behold, the days come, set the Lord God that I will send a famine in the land, not a famine  of bread, nor a t
+      ~ 'saith' -> heard 'set'   (sound match 80%)
+[OK   ] build-156-famine-of-hearing/n4
+    caption: And when people feel that kind of hunger, they do what hungry people do. They go looking. They search high and
+    heard  : And when people feel that kind of hunger, they do what hungry people do. They go looking. They search  high an
+[OK   ] build-156-famine-of-hearing/n5
+    caption: Amos saw them wandering from one end of the world to the other, running here and there, chasing every rumor of
+    heard  : Amos saw them wandering from one end of the world to the other, running here and there,  chasing every rumor o
+[OK   ] build-156-famine-of-hearing/n6
+    caption: But in a famine of the word, the seeking alone does not satisfy. They looked, and looked, and could not lay ho
+    heard  : But in a famine of the word, the seeking alone does not satisfy. They looked and looked and could  not lay hol
+[OK   ] build-156-famine-of-hearing/kv12
+    caption: And they shall wander from sea to sea, and from the north even to the east, they shall run to and fro to seek 
+    heard  : and they shall wander from sea to sea, and from the north even to the east,  they shall run to and fro to seek
+[BAD  ] build-156-famine-of-hearing/n7
+    caption: But think about what that hunger really means. You do not ache for what was never real. The very fact that a s
+    heard  : But think about what that hunger really means.  You do not egg for what was never real.  The very fact that a 
+     !! 'ache' -> heard 'egg'   (sound match 0%)
+[OK   ] build-156-famine-of-hearing/n8
+    caption: So a famine is never the end of the story; it is the ache that comes right before the harvest. God does not le
+    heard  : So a famine is never the end of the story.  It is the ache that comes right before the harvest.  God does not 
+[OK   ] build-156-famine-of-hearing/card
+    caption: Amos foretold a famine — not of bread, but of hearing the word of God. Yet a hunger like that is a promise: yo
+    heard  : Amos foretold a famine, not of bread, but of hearing the Word of God. Yet a hunger like that is a promise.  Yo
+
+1 segment(s) need an ear-check in build-156-famine-of-hearing

@@ -1,0 +1,49 @@
+[BAD  ] build-01-cloak/n1
+    caption: There was a woman who had been suffering for twelve years.
+    heard  : There was a woman who had been suffering for 12 years.
+     !! 'twelve' -> heard '-'   (sound match 0%)
+[OK   ] build-01-cloak/n2
+    caption: She had spent everything on doctors. Nothing helped. She was exhausted, desperate — and by the rules of her ti
+    heard  : She had spent everything on doctors. Nothing helped. She was exhausted, desperate, and by the rules of her tim
+[BAD  ] build-01-cloak/n2b
+    caption: That day, Jesus was already on his way to save someone else — a ruler's daughter, twelve years old, and dying.
+    heard  : That day, Jesus was already on his way to save someone else, a ruler's daughter, 12 years old,  and dying. The
+     !! 'twelve' -> heard '-'   (sound match 0%)
+[OK   ] build-01-cloak/n3a
+    caption: She heard Jesus was nearby. She did not ask permission. She did not make a speech. She said only one thing, an
+    heard  : She heard Jesus was nearby. She did not ask permission. She did not make a speech. She said only one thing, an
+[OK   ] build-01-cloak/w28
+    caption: If I may touch but his clothes, I shall be whole.
+    heard  : If I may touch but his clothes, I shall be whole.
+[OK   ] build-01-cloak/n3b
+    caption: If I can just touch his clothes, she told herself, I will be well. That was the whole of her plan. She pressed
+    heard  : If I can just touch his clothes, she told herself, I will be well. That was the whole of her plan.  She presse
+[OK   ] build-01-cloak/n4a
+    caption: He stopped. He had felt it — power had gone out of him. The healing was already hers, given the moment she tou
+    heard  : He stopped. He had felt it. Power had gone out of him. The healing was already hers,  given the moment she tou
+[OK   ] build-01-cloak/j0
+    caption: Who touched my clothes?
+    heard  : Who touched my clothes?
+[BAD  ] build-01-cloak/s31
+    caption: Thou seest the multitude thronging thee, and sayest thou, Who touched me?
+    heard  : Thou seest the multitude throngingly, and seest thou who touched me?
+      ~ 'thronging thee' -> heard 'throngingly'   (sound match 78%)
+     !! 'sayest' -> heard 'seest'   (sound match 67%)
+[OK   ] build-01-cloak/n4c
+    caption: His disciples thought the question made no sense. The whole crowd was pressing against him — who hadn't touche
+    heard  : His disciples thought the question made no sense. The whole crowd was pressing against him. Who hadn't  touche
+[OK   ] build-01-cloak/n4b
+    caption: He looked for her until he found her.
+    heard  : He looked for her until he found her.
+[OK   ] build-01-cloak/j1
+    caption: Daughter, thy faith hath made thee whole; go in peace, and be whole of thy plague.
+    heard  : Daughter, thy faith hath made thee whole, go in peace, and be whole of thy plague.
+[BAD  ] build-01-cloak/n5
+    caption: Be whole of thy plague — be free of what has been hurting you. Twelve years of it. Over, in a sentence. And th
+    heard  : Be whole of thy plague, be free of what has been hurting you. 12 years of it, over in a sentence,  and the fir
+     !! 'twelve' -> heard '-'   (sound match 0%)
+[OK   ] build-01-cloak/card
+    caption: Whatever you have carried for years — reach for him. He stops for the one. He calls you his own.
+    heard  : Whatever you have carried for years, reach for him. He stops for the one. He calls you his own.
+
+4 segment(s) need an ear-check in build-01-cloak

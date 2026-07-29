@@ -1,0 +1,63 @@
+[OK   ] build-11-storm/n0
+    caption: Evening, on the Sea of Galilee. Jesus had been teaching crowds on the shore all day — story after story, until
+    heard  : evening, on the sea of Galilee. Jesus had been teaching crowds on the shore all day,  story after story, until
+[minor] build-11-storm/j0
+    caption: Let us pass over unto the other side.
+    heard  : Let us pass over onto the other side.
+      ~ 'unto' -> heard 'onto'   (sound match 100%)
+[OK   ] build-11-storm/n1
+    caption: So they took him, Mark says, even as he was — no rest, no supper, straight from the last word into the boat. O
+    heard  : So they took him, Mark says, even as he was, no rest, no supper, straight from the last word into the boat.  O
+[BAD  ] build-11-storm/n2
+    caption: Then the lake turned on them. The Sea of Galilee lies seven hundred feet below sea level, in a bowl of hills —
+    heard  : Then the lake turned on them. The sea of Galilee lies 700 feet below sea level, in a bowl of hills,  when cold
+     !! 'seven hundred' -> heard '-'   (sound match 0%)
+      ~ 'lakes' -> heard 'lake'   (sound match 80%)
+     !! 'a hundred' -> heard '-'   (sound match 0%)
+[OK   ] build-11-storm/n3
+    caption: And Jesus was asleep. In the stern, on the steersman's cushion, soaked with spray, rising and falling with the
+    heard  : And Jesus was asleep, in the stern on the Steersman's cushion soaked with spray, rising  and falling with the 
+[OK   ] build-11-storm/n4
+    caption: So they woke him. Rough hands on his shoulder, screaming over the wind the question people have been asking in
+    heard  : So they woke him, rough hands on his shoulder, screaming over the wind the question people  have been asking i
+[minor] build-11-storm/s38
+    caption: Master, carest thou not that we perish?
+    heard  : Master, caristown out that we perish?
+      ~ 'carest thou not' -> heard 'caristown out'   (sound match 86%)
+[OK   ] build-11-storm/n4b
+    caption: Don't you care that we are going down? Listen to what they were really saying. They never doubted his power. T
+    heard  : Don't you care that we are going down? Listen to what they were really saying. They never  doubted his power. 
+[OK   ] build-11-storm/n5
+    caption: He got up. He stood in the stern of a sinking boat, in the middle of the worst storm those fishermen had ever 
+    heard  : He got up. He stood in the stern of a sinking boat. In the middle of the worst storm those  fishermen had ever
+[OK   ] build-11-storm/j1
+    caption: Peace, be still.
+    heard  : Peace, be still.
+[OK   ] build-11-storm/n6
+    caption: And the wind quit. The sea fell flat — glass flat — with stars where the storm had been, and the only sound le
+    heard  : and the wind quit. The sea fell flat, glass flat, with stars where the storm had been,  and the only sound lef
+[OK   ] build-11-storm/n7
+    caption: Then he turned to his friends — soaked, shaking, still gripping the ropes — and he asked them, gently:
+    heard  : Then he turned to his friends, soaked, shaking, still gripping the ropes, and he asked them gently.
+[OK   ] build-11-storm/j2
+    caption: Why are ye so fearful? how is it that ye have no faith?
+    heard  : Why are you so fearful?  How is it that you have no faith?
+[minor] build-11-storm/n8
+    caption: Hear where he asked that from. Standing in their boat, on the sea he had just flattened to save them. He didn'
+    heard  : Here where he asked that from, standing in their boat. On the sea he had just flattened to save them.  He didn
+      ~ 'hear' -> heard 'here'   (sound match 100%)
+[OK   ] build-11-storm/n9
+    caption: And then a strange thing happened: the fear didn't leave the boat — it changed direction. Mark says they feare
+    heard  : And then a strange thing happened. The fear didn't leave the boat. It changed direction.  Mark says they feare
+[minor] build-11-storm/s41
+    caption: What manner of man is this, that even the wind and the sea obey him?
+    heard  : What manner of man is this, that even the wind and the seal bay him?
+      ~ 'sea obey' -> heard 'seal bay'   (sound match 86%)
+[OK   ] build-11-storm/n9b
+    caption: What kind of man is this, that even the wind and the sea do what he says? These men knew their scriptures. The
+    heard  : What kind of man is this, that even the wind and the sea do what he says? These men knew their  scriptures. Th
+[OK   ] build-11-storm/n10
+    caption: Whatever storm you are in tonight, hear this: the same Jesus is still in the boat with you. He has not left yo
+    heard  : Whatever storm you are in tonight, hear this, the same Jesus is still in the boat with you.  He has not left y
+
+1 segment(s) need an ear-check in build-11-storm

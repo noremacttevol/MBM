@@ -71,7 +71,6 @@ CARD_TEXT = ("The gospel reaches beyond the grave. No one is outside the "
 BEATS = [
     ("n0", ST1, "in"),
     ("s1", ST2, "in"),
-    ("n1a", ST5, "in"),
     ("n1b", ST3, "in"),
     ("n2", ST4, "in"),
     ("s19", ST6, "in"),

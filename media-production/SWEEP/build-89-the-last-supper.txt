@@ -1,0 +1,45 @@
+[OK   ] build-89-the-last-supper/n0a
+    caption: The Passover had come.
+    heard  : The Passover had come.
+[OK   ] build-89-the-last-supper/n0b
+    caption: Jesus gathered his closest friends around one table in an upper room, knowing the night would change everythin
+    heard  : Jesus gathered his closest friends around one table in an upper room,  knowing the night would change everythi
+[OK   ] build-89-the-last-supper/jv15
+    caption: With desire I have desired to eat this passover with you before I suffer.
+    heard  : With desire I have desired to eat this Passover with you before I suffer.
+[OK   ] build-89-the-last-supper/n1
+    caption: I have wanted this meal with you, he told them — wanted it badly — before the hard thing happens. He knew what
+    heard  : I have wanted this meal with you," he told them.  Wanted it badly before the hard thing happens.  He knew what
+[OK   ] build-89-the-last-supper/n2
+    caption: Then he took the bread, gave thanks, broke it, and gave it to them.
+    heard  : Then he took the bread, gave thanks, broke it, and gave it to them.
+[minor] build-89-the-last-supper/j1
+    caption: This is my body which is given for you: this do in remembrance of me.
+    heard  : This is my body which is given for you, this due in remembrance of me.
+      ~ 'do' -> heard 'due'   (sound match 100%)
+[OK   ] build-89-the-last-supper/n2b
+    caption: This is my body, he said, and it is given for you. Do this to remember me. Not a symbol he was explaining — a 
+    heard  : This is my body, he said, and it is given for you. Do this to remember me. Not a symbol he was explaining, a g
+[OK   ] build-89-the-last-supper/n3
+    caption: After the meal he lifted the cup, and gave it to them, too.
+    heard  : After the meal, he lifted the cup and gave it to them, too.
+[OK   ] build-89-the-last-supper/j2
+    caption: This cup is the new testament in my blood, which is shed for you.
+    heard  : This cup is the new testament in my blood, which is shed for you.
+[OK   ] build-89-the-last-supper/n3b
+    caption: This cup is the new covenant in my blood, he said — poured out for you. A brand new promise between God and pe
+    heard  : This cup is the new covenant in my blood. He said, poured out for you, a brand new promise  between God and pe
+[OK   ] build-89-the-last-supper/jv18
+    caption: For I say unto you, I will not drink of the fruit of the vine, until the kingdom of God shall come.
+    heard  : For I say unto you, I will not drink of the fruit of the vine, until the kingdom of God shall come."
+[OK   ] build-89-the-last-supper/n4
+    caption: He said he would not drink the fruit of the vine again until the kingdom of God arrives. He was telling them t
+    heard  : He said he would not drink the fruit of the vine again until the kingdom of God arrives.  He was telling them 
+[OK   ] build-89-the-last-supper/n5
+    caption: The bread and the cup, still on the table — a gift to remember him by.
+    heard  : The bread and the cup still on the table, a gift to remember him by.
+[OK   ] build-89-the-last-supper/card
+    caption: He left a simple meal to remember him by. Come to his table — he is still the host.
+    heard  : He left a simple meal to remember him by. Come to his table. He is still the host.  //
+
+0 segment(s) need an ear-check in build-89-the-last-supper

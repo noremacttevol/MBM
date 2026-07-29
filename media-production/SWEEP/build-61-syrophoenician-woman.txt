@@ -1,0 +1,51 @@
+[BAD  ] build-61-syrophoenician-woman/n0
+    caption: Jesus went north — out of Jewish land entirely, up to the coast around Tyre. Gentile country. He slipped into 
+    heard  : Jesus went north, out of Jewish land entirely, up to the coast around Tyre.  Gentile country, he slipped into 
+     !! 'mark' -> heard 'marx'   (sound match 67%)
+[OK   ] build-61-syrophoenician-woman/n1
+    caption: And one woman heard it. A Greek, born in that country — a Syrophoenician, which is Mark's way of saying: not o
+    heard  : and one woman heard it. A Greek, born in that country, a syrophoenician, which is Mark's way of saying,  not o
+[OK   ] build-61-syrophoenician-woman/n2
+    caption: She found the house. She came in uninvited, fell down at his feet, and begged him — cast this thing out of my 
+    heard  : She found the house. She came in uninvited, fell down at his feet, and begged him,  cast this thing out of my 
+[OK   ] build-61-syrophoenician-woman/n3
+    caption: What Jesus said next sounds harsh — until you hear it the way she heard it.
+    heard  : What Jesus said next sounds harsh, until you hear it the way she heard it.
+[minor] build-61-syrophoenician-woman/j1
+    caption: Let the children first be filled: for it is not meet to take the children's bread, and to cast it unto the dog
+    heard  : Let the children first be filled, for it is not meat to take the children's bread, and to cast it onto the dog
+      ~ 'meet' -> heard 'meat'   (sound match 100%)
+      ~ 'unto' -> heard 'onto'   (sound match 100%)
+[OK   ] build-61-syrophoenician-woman/n4
+    caption: Here is the why. Let the children be fed first — that was his mission order: Israel first, then the whole worl
+    heard  : Here is the why. Let the children be fed first. That was his mission order. Israel first,  then the whole worl
+[OK   ] build-61-syrophoenician-woman/n5
+    caption: She did not argue with him. She stepped right into the picture he had painted, and answered him:
+    heard  : She did not argue with him. She stepped right into the picture he had painted and answered him.  //  //
+[OK   ] build-61-syrophoenician-woman/w28
+    caption: Yes, Lord: yet the dogs under the table eat of the children's crumbs.
+    heard  : Yes, Lord, yet the dogs under the table eat of the children's crumbs.
+[minor] build-61-syrophoenician-woman/n5b
+    caption: Yes, Lord — but even the pups under the table get what the children drop. She did not ask him to change the or
+    heard  : Yes, Lord, but even the pups under the table get what the children drop.  She did not ask Him to change the or
+      ~ 'an' -> heard 'in'   (sound match 100%)
+[OK   ] build-61-syrophoenician-woman/n6
+    caption: He answered her:
+    heard  : He answered her.
+[OK   ] build-61-syrophoenician-woman/j2
+    caption: For this saying go thy way; the devil is gone out of thy daughter.
+    heard  : For this saying go thy way, the devil is gone out of thy daughter.
+[OK   ] build-61-syrophoenician-woman/n7
+    caption: Because you said that — go on home. It is already done. Notice what he did not do. He did not walk to her hous
+    heard  : Because you said that, go on home. It is already done. Notice what he did not do. He did not walk  to her hous
+[OK   ] build-61-syrophoenician-woman/n8
+    caption: She came to her door and found her daughter lying on the bed, resting — quiet, and whole. The dark thing was g
+    heard  : She came to her door and found her daughter lying on the bed, resting, quiet, and whole.  The dark thing was g
+[OK   ] build-61-syrophoenician-woman/n9
+    caption: The first outsider in Mark's gospel to be told yes was a Gentile mother with no credentials, no standing, and 
+    heard  : The first outsider in Mark's Gospel to be told yes was a Gentile mother with no credentials,  no standing, and
+[OK   ] build-61-syrophoenician-woman/card
+    caption: She refused to believe there was no room for her at his table. There is room for you.
+    heard  : She refused to believe there was no room for her at his table. There is room for you.
+
+1 segment(s) need an ear-check in build-61-syrophoenician-woman

@@ -1,0 +1,51 @@
+[OK   ] build-30-net/n1
+    caption: Jesus told one more short story about the kingdom of heaven, and this time he set it out on the water.
+    heard  : Jesus told one more short story about the Kingdom of Heaven, and this time He set it out on the water.  //
+[OK   ] build-30-net/j1
+    caption: Again, the kingdom of heaven is like unto a net, that was cast into the sea, and gathered of every kind:
+    heard  : Again, the kingdom of heaven is like unto a net that was cast into the sea, and gathered  of every kind.
+[OK   ] build-30-net/n2
+    caption: Picture fishermen throwing a great wide net off the side of the boat, letting it sink down and drag through th
+    heard  : Picture fishermen throwing a great wide net off the side of the boat, letting it sink down  and drag through t
+[OK   ] build-30-net/n3
+    caption: And here is the first beautiful thing. That net does not pick and choose. It sweeps up every kind of fish ther
+    heard  : And here is the first beautiful thing. That net does not pick and choose. It sweeps up every kind of fish ther
+[minor] build-30-net/n4
+    caption: The net is not fussy about who gets caught up in it. The gathering is wide open. Nobody swimming in that sea i
+    heard  : The net is not fussy about who gets caught up in it. The gathering is wide open. Nobody's swimming  in that se
+      ~ 'nobody' -> heard 'nobodys'   (sound match 89%)
+[OK   ] build-30-net/j48
+    caption: Which, when it was full, they drew to shore, and sat down, and gathered the good into vessels, but cast the ba
+    heard  : Which, when it was full, they drew to shore and sat down and gathered the good into vessels, but cast the bad 
+[OK   ] build-30-net/n5
+    caption: When the net is full, the fishermen drag the whole heavy thing up onto the shore, and they sit down beside it.
+    heard  : When the net is full, the fishermen drag the whole heavy thing up onto the shore, and they sit down  beside it
+[OK   ] build-30-net/n6
+    caption: They gather the good fish carefully into baskets, keeping them, valuing them, not losing a single one.
+    heard  : They gather the good fish carefully into baskets, keeping them, valuing them, not losing a single one.
+[OK   ] build-30-net/n7
+    caption: And the ones that cannot be kept, they set aside. Jesus said that is a picture of how things finally end.
+    heard  : and the ones that cannot be kept, they set aside. Jesus said that is a picture of how things finally end.
+[OK   ] build-30-net/j2
+    caption: So shall it be at the end of the world: the angels shall come forth, and sever the wicked from among the just
+    heard  : So shall it be at the end of the world, the angels shall come forth, and sever the wicked from among the just.
+[OK   ] build-30-net/j50
+    caption: And shall cast them into the furnace of fire: there shall be wailing and gnashing of teeth.
+    heard  : and shall cast them into the furnace of fire, there shall be wailing and gnashing of teeth.
+[OK   ] build-30-net/n8
+    caption: There is a real end, and a real sorting. But notice whose job it is. The angels do it. God does it. At the ver
+    heard  : There is a real end and a real sorting. But notice whose job it is. The angels do it.  God does it. At the ver
+[OK   ] build-30-net/n9
+    caption: So here is what the little story leaves you with. You do not have to spend your life deciding who belongs and 
+    heard  : So here is what the little story leaves you with. You do not have to spend your life deciding who belongs  and
+[OK   ] build-30-net/n10
+    caption: Your part is simply this: the net was cast for the whole sea, and it was cast for you. The gathering came firs
+    heard  : Your part is simply this. The net was cast for the whole sea, and it was cast for you.  The gathering came fir
+[OK   ] build-30-net/n11
+    caption: That is how good he is. He threw the net over the whole ocean of us, of every kind, so that not one soul who w
+    heard  : That is how good he is. He threw the net over the whole ocean of U.S. of every kind,  so that not one soul who
+[OK   ] build-30-net/card
+    caption: The net was cast wide enough to gather you in. Will you let yourself be caught up in his grace?
+    heard  : The net was cast wide enough to gather you in. Will you let yourself be caught up in his grace?
+
+0 segment(s) need an ear-check in build-30-net

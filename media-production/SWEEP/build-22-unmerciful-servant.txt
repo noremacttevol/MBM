@@ -1,0 +1,89 @@
+[OK   ] build-22-unmerciful-servant/n0
+    caption: One day Peter came to Jesus with a question that had been sitting heavy on his heart. It was about forgiveness
+    heard  : One day Peter came to Jesus with a question that had been sitting heavy on his heart.  It was about forgivenes
+[OK   ] build-22-unmerciful-servant/s21
+    caption: Lord, how oft shall my brother sin against me, and I forgive him? till seven times?
+    heard  : Lord, how oft shall my brother sin against me, and I forgive him?  Till seven times?
+[OK   ] build-22-unmerciful-servant/n1
+    caption: Lord, he asked, how many times do I have to forgive my brother when he keeps sinning against me? Would seven t
+    heard  : Lord, he asked, how many times do I have to forgive my brother when he keeps sinning  against me?  Would seven
+[OK   ] build-22-unmerciful-servant/j1
+    caption: I say not unto thee, Until seven times: but, Until seventy times seven.
+    heard  : I say not unto thee until seven times, but until seventy times seven.
+[BAD  ] build-22-unmerciful-servant/n2
+    caption: In other words, stop counting. Real forgiveness doesn't keep a ledger. And then, to show them what he meant, J
+    heard  : In other words, stop counting. Real forgiveness doesn't keep a ledger. And then, to show them what  he meant, 
+     !! 'a' -> heard 'the'   (sound match 0%)
+[OK   ] build-22-unmerciful-servant/n3
+    caption: There was once a king who decided to settle his accounts. One by one, his servants were brought in to answer f
+    heard  : There was once a king who decided to settle his accounts. One by one, his servants were  brought in to answer 
+[BAD  ] build-22-unmerciful-servant/n4
+    caption: One man was dragged forward who owed the king ten thousand talents. It was a staggering fortune — more money t
+    heard  : One man was dragged forward who owed the king 10,000 talents.  It was a staggering fortune.  More money than a
+     !! 'ten thousand' -> heard '-'   (sound match 0%)
+     !! 'ten thousand' -> heard '-'   (sound match 0%)
+[OK   ] build-22-unmerciful-servant/n5
+    caption: The man had nothing to pay with. So the king ordered that he be sold — his wife, his children, everything he o
+    heard  : The man had nothing to pay with, so the king ordered that he be sold, his wife, his children,  everything he o
+[OK   ] build-22-unmerciful-servant/n6
+    caption: The servant threw himself down on the ground and begged. Please, he cried, be patient with me, and I will pay 
+    heard  : The servant threw himself down on the ground and begged.  Please, he cried, be patient with me, and I will pay
+[minor] build-22-unmerciful-servant/j3
+    caption: Lord, have patience with me, and I will pay thee all.
+    heard  : Lord, have patience with me, and I will pay the all.
+      ~ 'thee' -> heard 'the'   (sound match 100%)
+[OK   ] build-22-unmerciful-servant/n7
+    caption: And the king looked at this desperate man crumpled before him — and his heart broke with compassion. He did so
+    heard  : And the king looked at this desperate man crumpled before him, and his heart broke with compassion.  He did so
+[minor] build-22-unmerciful-servant/n8
+    caption: He didn't just give him more time. He cancelled the whole debt. Every last coin of that impossible fortune — f
+    heard  : He didn't just give him more time. He canceled the whole debt. Every last coin of that impossible  fortune for
+      ~ 'cancelled' -> heard 'canceled'   (sound match 100%)
+[OK   ] build-22-unmerciful-servant/n9
+    caption: But then that same servant walked outside. And there he found one of his fellow servants — a man who owed him 
+    heard  : But then that same servant walked outside. And there he found one of his fellow servants,  a man who owed him 
+[OK   ] build-22-unmerciful-servant/n10
+    caption: He grabbed the man by the throat and started to choke him. Pay me what you owe me! he snarled. Pay me now!
+    heard  : He grabbed the man by the throat and started to choke him.  Pay me what you owe me.  He snarled.  Pay me now.
+[minor] build-22-unmerciful-servant/j4
+    caption: Pay me that thou owest.
+    spoken : Pay me that thou ohest.
+    heard  : Pay me that thou owe haste.
+      ~ 'owest' -> heard 'owe haste'   (sound match 86%)
+[OK   ] build-22-unmerciful-servant/n11
+    caption: His fellow servant fell down at his feet and begged him with the very same words he himself had used only mome
+    heard  : His fellow servant fell down at his feet and begged him with the very same words he himself  had used only mom
+[OK   ] build-22-unmerciful-servant/n12
+    caption: But he refused. He would not listen. He had the man thrown into prison until he could pay back every penny.
+    heard  : but he refused. He would not listen. He had the man thrown into prison until he could pay back every penny.
+[OK   ] build-22-unmerciful-servant/n13
+    caption: The other servants saw the whole thing, and it grieved them deeply. They went and told the king everything tha
+    heard  : The other servants saw the whole thing, and it grieved them deeply. They went and told the king  everything th
+[OK   ] build-22-unmerciful-servant/n14
+    caption: The king summoned him back. You wicked servant! he said. I forgave you that enormous debt because you begged m
+    heard  : The king summoned him back. You wicked servant. He said, I forgave you that enormous debt  because you begged 
+[BAD  ] build-22-unmerciful-servant/j5
+    caption: O thou wicked servant, I forgave thee all that debt, because thou desiredst me: Shouldest not thou also have h
+    heard  : Oh thou wicked servant, I forgave thee all that debt, because thou desirced me, shouldest  not thou also have 
+     !! 'o' -> heard 'oh'   (sound match 0%)
+     !! 'desiredst' -> heard 'desirced'   (sound match 73%)
+      ~ 'fellowservant' -> heard 'fellow servant'   (sound match 100%)
+[OK   ] build-22-unmerciful-servant/n15
+    caption: And in his anger the king handed him over to be punished until he should pay back all that he owed. Then Jesus
+    heard  : And in his anger, the king handed him over to be punished until he should pay back all that he owed.  Then Jes
+[minor] build-22-unmerciful-servant/j2
+    caption: So likewise shall my heavenly Father do also unto you, if ye from your hearts forgive not every one his brothe
+    heard  : So likewise shall my heavenly Father do also unto you, if ye from your hearts forgive not everyone his brother
+      ~ 'every one' -> heard 'everyone'   (sound match 100%)
+[OK   ] build-22-unmerciful-servant/n16
+    caption: Here is the whole point of the story. Look at the two debts side by side. The mountain that was forgiven us, a
+    heard  : Here is the whole point of the story. Look at the two debts side by side. The mountain that was  forgiven us a
+[OK   ] build-22-unmerciful-servant/n17
+    caption: We forgive the small things because of the mountain we've been forgiven. To be handed an ocean of mercy, and t
+    heard  : We forgive the small things because of the mountain we've been forgiven. To be handed an ocean of mercy,  and 
+[BAD  ] build-22-unmerciful-servant/card
+    caption: You were forgiven a debt you could never repay. Who is holding a small one against you — that you could let go
+    heard  : You were forgiven a debt you could never repay. Who was holding a small one against you,  that you could let g
+     !! 'is' -> heard 'was'   (sound match 67%)
+
+4 segment(s) need an ear-check in build-22-unmerciful-servant

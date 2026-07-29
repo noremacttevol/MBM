@@ -1,0 +1,82 @@
+[OK   ] build-45-wicked-tenants/s1
+    caption: And he began to speak unto them by parables.
+    heard  : and he began to speak unto them by parables.
+[OK   ] build-45-wicked-tenants/n1
+    caption: He told this one in the temple, standing in front of the very men who were plotting against him. And underneat
+    heard  : He told this one in the temple, standing in front of the very men who were plotting against him.  And undernea
+[BAD  ] build-45-wicked-tenants/jv1
+    caption: A certain man planted a vineyard, and set an hedge about it, and digged a place for the winefat, and built a t
+    heard  : A certain man planted a vineyard and sat in hedge about it and dig the place for the  wine fat and built a tow
+      ~ 'set an' -> heard 'sat in'   (sound match 100%)
+     !! 'digged a' -> heard 'dig the'   (sound match 57%)
+      ~ 'winefat' -> heard 'wine fat'   (sound match 100%)
+[OK   ] build-45-wicked-tenants/n2
+    caption: Picture how much he put into it. He broke the ground and set in the young vines, ringed it with a wall to guar
+    heard  : Picture how much he put into it. He broke the ground and set in the young vines,  ringed it with a wall to gua
+[OK   ] build-45-wicked-tenants/n3
+    caption: And he left. That is the setup. The owner is far away, the workers have the run of the place, and all he asked
+    heard  : and he left. That is the setup. The owner is far away. The workers have the run of the place,  and all he aske
+[minor] build-45-wicked-tenants/jv2
+    caption: And at the season he sent to the husbandmen a servant, that he might receive from the husbandmen of the fruit 
+    heard  : And at the season he sent to the husbandman a servant that he might receive from the husbandman of the fruit o
+      ~ 'husbandmen' -> heard 'husbandman'   (sound match 100%)
+      ~ 'husbandmen' -> heard 'husbandman'   (sound match 100%)
+[OK   ] build-45-wicked-tenants/n4
+    caption: So when the season came, he sent a man to collect his share. Not soldiers. One messenger, walking up the road 
+    heard  : So when the season came, he sent a man to collect his share, not soldiers, one messenger,  walking up the road
+[OK   ] build-45-wicked-tenants/jv3
+    caption: And they caught him, and beat him, and sent him away empty.
+    heard  : and they caught him, and beat him, and sent him away empty.
+[minor] build-45-wicked-tenants/n5
+    caption: And the man came back with the basket still empty, and shaken. They had handled him roughly and sent him off w
+    heard  : And the man came back with the basket still empty and shaken. They had handled him roughly  and sent him off w
+      ~ 'law' -> heard 'lawn'   (sound match 80%)
+[OK   ] build-45-wicked-tenants/jv4_5
+    caption: And again he sent unto them another servant; and at him they cast stones, and wounded him in the head, and sen
+    heard  : And again he sent unto them another servant, and at him they cast stones, and wounded him in the head, and sen
+[OK   ] build-45-wicked-tenants/n6
+    caption: And they treated that one worse. So he sent another. And another after that. Message after message, season aft
+    heard  : and they treated that one worse. So he sent another. And another after that.  Message after message, season af
+[minor] build-45-wicked-tenants/n7
+    caption: Stop and feel how strange that is. Every reasonable line was crossed a long time ago. He had every right to co
+    heard  : Stop and feel how strange that is.  Every reasonable line was crossed a long time ago.  He had every right to 
+      ~ 'end it' -> heard 'ended'   (sound match 80%)
+[minor] build-45-wicked-tenants/jv6
+    caption: Having yet therefore one son, his wellbeloved, he sent him also last unto them, saying, They will reverence my
+    heard  : Having yet therefore one son, his well beloved, he sent him also last unto them, saying, they will reverence m
+      ~ 'wellbeloved' -> heard 'well beloved'   (sound match 100%)
+[OK   ] build-45-wicked-tenants/n8
+    caption: He had one person left. His son. The one he loved most in the world. And he sent him too, holding on to a hope
+    heard  : He had one person left. His son, the one he loved most in the world. And he sent him too,  holding on to a hop
+[BAD  ] build-45-wicked-tenants/jv7
+    caption: But those husbandmen said among themselves, This is the heir; come, let us kill him, and the inheritance shall
+    heard  : But those husband men said among themselves, this is the air, come, let us kill him, and the inheritance shall
+      ~ 'husbandmen' -> heard 'husband men'   (sound match 100%)
+     !! 'heir' -> heard 'air'   (sound match 67%)
+
+Traceback (most recent call last):
+  File "/home/noremacttevol/Desktop/MBM/media-production/check_pronunciation.py", line 171, in <module>
+    check_build(d)
+  File "/home/noremacttevol/Desktop/MBM/media-production/check_pronunciation.py", line 152, in check_build
+    if check_line(text, spoken, voice, rate, pitch, label=f"{os.path.basename(bdir)}/{name}"):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noremacttevol/Desktop/MBM/media-production/check_pronunciation.py", line 109, in check_line
+    asyncio.run(say(spoken or caption, voice, rate, pitch, mp3))
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/noremacttevol/Desktop/MBM/media-production/check_pronunciation.py", line 47, in say
+    await edge_tts.Communicate(text, voice, rate=rate, pitch=pitch).save(out)
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/edge_tts/communicate.py", line 613, in save
+    async for message in self.stream():
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/edge_tts/communicate.py", line 588, in stream
+    async for message in self.__stream():
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/edge_tts/communicate.py", line 562, in __stream
+    raise NoAudioReceived(
+edge_tts.exceptions.NoAudioReceived: No audio was received. Please verify that your parameters are correct.

@@ -1,0 +1,43 @@
+[OK   ] build-173-dead-shall-hear/n0
+    caption: Jesus said a time was coming — and had already begun — when something impossible would happen.
+    heard  : Jesus said a time was coming and had already begun when something impossible would happen.
+[OK   ] build-173-dead-shall-hear/n1
+    caption: The dead would hear a voice. Not a rumor of a voice. His voice.
+    heard  : The dead would hear a voice, not a rumor of a voice, his voice.
+[minor] build-173-dead-shall-hear/j21
+    caption: For as the Father raiseth up the dead, and quickeneth them; even so the Son quickeneth whom he will.
+    heard  : For as the father rice set up the dead, and quickneth them, even so the son quickneth whom he will.
+      ~ 'raiseth' -> heard 'rice set'   (sound match 75%)
+      ~ 'quickeneth' -> heard 'quickneth'   (sound match 100%)
+      ~ 'quickeneth' -> heard 'quickneth'   (sound match 100%)
+[OK   ] build-173-dead-shall-hear/n21
+    caption: The Father raises the dead and gives them their life back. And the Son, he said, does the very same thing — fr
+    heard  : The Father raises the dead and gives them their life back. And the Son, He said, does the very same  thing, fr
+[OK   ] build-173-dead-shall-hear/j24
+    caption: Verily, verily, I say unto you, He that heareth my word, and believeth on him that sent me, hath everlasting l
+    heard  : Verily, verily, I say unto you, He that heareth my word, and believeth on Him that sent me,  hath everlasting 
+[minor] build-173-dead-shall-hear/n24
+    caption: Listen to the tense. Not will have life someday — has it, already. Whoever hears him and trusts the Father who
+    heard  : Listen to the tense. Now we'll have life someday. Has it already? Whoever hears him and trusts  the Father who
+      ~ 'not will' -> heard 'now well'   (sound match 86%)
+[OK   ] build-173-dead-shall-hear/j1a
+    caption: Verily, verily, I say unto you, The hour is coming, and now is,
+    heard  : Verily, verily, I say unto you, the hour is coming, and now is.
+[OK   ] build-173-dead-shall-hear/j1b
+    caption: when the dead shall hear the voice of the Son of God:
+    heard  : when the dead shall hear the voice of the Son of God.
+[minor] build-173-dead-shall-hear/j1c
+    caption: and they that hear shall live.
+    heard  : And they that here shall live.
+      ~ 'hear' -> heard 'here'   (sound match 100%)
+[OK   ] build-173-dead-shall-hear/n2a
+    caption: The One who made life is the One who calls it back.
+    heard  : The one who made life is the one who calls it back.
+[OK   ] build-173-dead-shall-hear/n2b
+    caption: To hear him is to live.
+    heard  : to hear him is to live.
+[OK   ] build-173-dead-shall-hear/card
+    caption: He speaks, and death loses its grip. Lean in and listen — and live.
+    heard  : He speaks, and death loses its grip. Lean in and listen, and live.
+
+0 segment(s) need an ear-check in build-173-dead-shall-hear

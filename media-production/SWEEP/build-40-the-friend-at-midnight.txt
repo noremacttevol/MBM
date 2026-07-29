@@ -1,0 +1,108 @@
+[OK   ] build-40-the-friend-at-midnight/s1
+    caption: And it came to pass, that, as he was praying in a certain place, when he ceased, one of his disciples said unt
+    heard  : And it came to pass that, as he was praying in a certain place, when he ceased, one of his disciples said unto
+[OK   ] build-40-the-friend-at-midnight/n1
+    caption: His disciples had watched him pray for years, and watched him come back from it different. So one morning they
+    heard  : His disciples had watched him pray for years, and watched him come back from it different.  So one morning the
+[BAD  ] build-40-the-friend-at-midnight/n2
+    caption: So he gave them a prayer. And the first word of it was not Lord, and it was not God. It was the word a small c
+    heard  : So he gave them a prayer, and the first word of it was not Lord, and it was not God. It was the word of small 
+     !! 'a' -> heard 'of'   (sound match 0%)
+[OK   ] build-40-the-friend-at-midnight/j0
+    caption: When ye pray, say, Our Father which art in heaven, Hallowed be thy name.
+    heard  : When ye pray, say, Our Father which art in heaven, hallowed be thy name.
+[OK   ] build-40-the-friend-at-midnight/n3
+    caption: He taught them to walk up to God and call him Father. And then, to show them what kind of Father he meant, he 
+    heard  : He taught them to walk up to God and call him Father. And then, to show them what kind of Father  he meant, he
+[minor] build-40-the-friend-at-midnight/n4
+    caption: People travelled at night there, because the daytime heat could kill you. So a friend really could turn up at 
+    heard  : People travel that night there because the daytime heat could kill you.  So a friend really could turn up at m
+      ~ 'travelled at' -> heard 'travel that'   (sound match 77%)
+[BAD  ] build-40-the-friend-at-midnight/n5
+    caption: So a man opens his door at midnight to a friend who has walked all day. Then he looks at his own shelf, and th
+    heard  : So a man opens his door at midnight to a friend who is walked all day. Then he looks at his own shelf,  and th
+     !! 'has' -> heard 'is'   (sound match 67%)
+      ~ 'crumb' -> heard 'chrome'   (sound match 75%)
+[OK   ] build-40-the-friend-at-midnight/n6
+    caption: So he picks up his little clay lamp and walks out into a sleeping village, toward the one door he knows still 
+    heard  : So he picks up his little clay lamp and walks out into a sleeping village.  Toward the one door, he knows stil
+[OK   ] build-40-the-friend-at-midnight/jv5
+    caption: Which of you shall have a friend, and shall go unto him at midnight, and say unto him,
+    heard  : Which of you shall have a friend, and shall go unto him at midnight, and say unto him?"
+[BAD  ] build-40-the-friend-at-midnight/j1
+    caption: Friend, lend me three loaves; for a friend of mine in his journey is come to me, and I have nothing to set bef
+    heard  : Friend, lend me three loaves, for a friend of mine in his journey has come to me, and I have nothing to set be
+     !! 'is' -> heard 'has'   (sound match 67%)
+[OK   ] build-40-the-friend-at-midnight/n7
+    caption: Notice who he is asking for. He is standing out there in the dark, begging for bread he will not eat.
+    heard  : Notice who he is asking for. He is standing out there in the dark, begging for bread he will not eat.
+[minor] build-40-the-friend-at-midnight/n8
+    caption: And look at what is on the other side of that door. A village house was one room. The whole family slept on on
+    heard  : and look at what is on the other side of that door. A village house was one room. The whole family  slept on o
+      ~ 'meant' -> heard 'mint'   (sound match 100%)
+[OK   ] build-40-the-friend-at-midnight/j2
+    caption: Trouble me not: the door is now shut, and my children are with me in bed; I cannot rise and give thee.
+    heard  : Trouble me not, the door is now shut, and my children are with me in bed, I cannot rise and give thee.
+[OK   ] build-40-the-friend-at-midnight/n9
+    caption: That is a no. And it is not a lazy no. That is a tired man with sleeping children and a real reason.
+    heard  : That is a no, and it is not a lazy no. That is a tired man with sleeping children and a real reason.
+[minor] build-40-the-friend-at-midnight/n10
+    caption: So the man outside does the thing nobody expected. He knocks again. Louder. Shutters bang open up the street. 
+    heard  : So the man outside does the thing nobody expected. He knocks again. Louder. Shudders bang open up the street. 
+      ~ 'shutters' -> heard 'shudders'   (sound match 80%)
+[OK   ] build-40-the-friend-at-midnight/n11
+    caption: The word Luke uses here shows up nowhere else in the whole New Testament. Most Bibles turn it into the word pe
+    heard  : The word Luke uses here shows up nowhere else in the whole New Testament.  Most Bibles turn it into the word p
+[OK   ] build-40-the-friend-at-midnight/j3
+    caption: I say unto you, Though he will not rise and give him, because he is his friend, yet because of his importunity
+    heard  : I say unto you, though he will not rise and give him, because he is his friend, yet because  of his importunit
+[minor] build-40-the-friend-at-midnight/n12
+    caption: He went for enough bread to feed one man. He came home with an armful. And notice why. The neighbour did not g
+    heard  : He went for enough bread to feed one man. He came home with an armful. And notice why.  The neighbor did not g
+      ~ 'neighbour' -> heard 'neighbor'   (sound match 100%)
+[OK   ] build-40-the-friend-at-midnight/n13
+    caption: And in a dark house at midnight, a tired stranger ate a meal he never knew somebody had fought for.
+    heard  : and in a dark house at midnight, a tired stranger ate a meal he never knew somebody had fought for.
+[BAD  ] build-40-the-friend-at-midnight/n14a
+    caption: Here is where almost everybody gets this story wrong. People hear it and think God is the man behind the door.
+    heard  : Here is where almost everybody gets this story wrong.  People hear it and think God is the man behind the door
+     !! 'annoyed asleep' -> heard 'anoint a sleep'   (sound match 73%)
+[minor] build-40-the-friend-at-midnight/n14b
+    caption: That is the opposite of what he said. The neighbour is not a picture of God. The neighbour is the contrast. If
+    heard  : That is the opposite of what he said. The neighbor is not a picture of God. The neighbor is the  contrast. If 
+      ~ 'neighbour' -> heard 'neighbor'   (sound match 100%)
+      ~ 'neighbour' -> heard 'neighbor'   (sound match 100%)
+      ~ 'barred' -> heard 'bar'   (sound match 80%)
+[OK   ] build-40-the-friend-at-midnight/j4
+    caption: Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you.
+    heard  : Ask, and it shall be given you, seek, and ye shall find, knock, and it shall be opened unto you.
+[OK   ] build-40-the-friend-at-midnight/n15
+    caption: In the Greek, none of those is a one-time act. Every one of them means keep coming back.
+    heard  : In the Greek, none of those is a one-time act. Every one of them means keep coming back.  //
+[OK   ] build-40-the-friend-at-midnight/jv11
+    caption: If a son shall ask bread of any of you that is a father, will he give him a stone? or if he ask a fish, will h
+    heard  : If a son shall ask bread of any of you that is a father, will he give him a stone?  Or if he ask a fish, will 
+[OK   ] build-40-the-friend-at-midnight/n16a
+    caption: Then he asked them a question. If your son asked you for bread, would you put a rock in his hand? If he asked 
+    heard  : Then he asked them a question. If your son asked you for bread, would you put a rock in his hand?  If he asked
+[BAD  ] build-40-the-friend-at-midnight/n16b
+    caption: Every pair is a lookalike. A smooth river stone is the size and shape of a flat loaf. A scorpion curls up pale
+    heard  : Every pair is a lookalike. A smooth river stone is the size and shape of a flat loaf.  A scorpion curls up pal
+     !! 'a' -> heard 'to'   (sound match 0%)
+     !! 'would ever' -> heard 'whatever'   (sound match 67%)
+[OK   ] build-40-the-friend-at-midnight/j5
+    caption: If ye then, being evil, know how to give good gifts unto your children: how much more shall your heavenly Fath
+    heard  : If ye then, being evil, know how to give good gifts unto your children.  How much more shall your heavenly Fat
+[OK   ] build-40-the-friend-at-midnight/n17
+    caption: You already know how to be good to your kids. And you are not half as good as he is. That is the whole argumen
+    heard  : You already know how to be good to your kids, and you are not half as good as he is.  That is the whole argume
+[BAD  ] build-40-the-friend-at-midnight/n18
+    caption: The man in the story was knocking on a door with somebody asleep behind it. You are not. Whatever you quit ask
+    heard  : The man in the story was knocking on a door with somebody asleep behind it. You are not.  Whatever you quit as
+     !! 'was' -> heard 'is'   (sound match 67%)
+      ~ 'bread' -> heard 'bred'   (sound match 100%)
+[OK   ] build-40-the-friend-at-midnight/card
+    caption: The man at the door was not asking for himself, and he was not too proud to look foolish. What would you ask G
+    heard  : The man at the door was not asking for himself, and he was not too proud to look foolish.  What would you ask 
+
+6 segment(s) need an ear-check in build-40-the-friend-at-midnight

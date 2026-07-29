@@ -1,0 +1,55 @@
+[OK   ] build-84-no-room-manger/sv1
+    caption: And it came to pass in those days, that there went out a decree from Caesar Augustus, that all the world shoul
+    heard  : And it came to pass in those days that there went out a decree from Caesar Augustus that all the world should 
+[minor] build-84-no-room-manger/n1
+    caption: In those days a decree went out from Caesar Augustus, the emperor in far-off Rome, that the whole known world 
+    heard  : In those days a decree went out from Caesar Augustus, the emperor in Far Off Rome, that the whole known world 
+      ~ 'faroff' -> heard 'far off'   (sound match 100%)
+[BAD  ] build-84-no-room-manger/n2
+    caption: For a young woman named Mary and a carpenter named Joseph, that meant a long, hard road. Ninety miles of hill 
+    heard  : For a young woman named Mary and a carpenter named Joseph that meant a long, hard road.  90 miles of hill coun
+     !! 'ninety' -> heard '-'   (sound match 0%)
+      ~ 'travelling' -> heard 'traveling'   (sound match 100%)
+[BAD  ] build-84-no-room-manger/n3
+    caption: When they finally reached Bethlehem, the little town was bursting. Everyone with roots there had come back for
+    heard  : When they finally reached Bethlehem, the little town was bursting. Everyone with roots there had  come back fo
+     !! 'and' -> heard 'in'   (sound match 67%)
+[OK   ] build-84-no-room-manger/n4
+    caption: Door after door, the answer was the same. Not out of cruelty. The town was just full. And somewhere in that se
+    heard  : Door after door, the answer was the same. Not out of cruelty. The town was just full.  And somewhere in that s
+[minor] build-84-no-room-manger/n5
+    caption: So the King of all creation was born in a stable. A cave of rough stone, straw on the floor, an ox and a donke
+    heard  : So the king of all creation was born in a stable, a cave of rough stone, straw on the floor,  an ox and a donk
+      ~ 'feedtrough' -> heard 'feed trough'   (sound match 100%)
+[OK   ] build-84-no-room-manger/n6
+    caption: And there, in the quiet, with no midwife and no crowd, Mary gave birth to her first son. She wrapped him tight
+    heard  : And there, in the quiet, with no midwife and no crowd, Mary gave birth to her first son.  She wrapped him tigh
+[OK   ] build-84-no-room-manger/v7
+    caption: And she brought forth her firstborn son, and wrapped him in swaddling clothes, and laid him in a manger; becau
+    heard  : And she brought forth her firstborn son and wrapped him in swaddling clothes and laid him in a manger  because
+[minor] build-84-no-room-manger/n7
+    caption: She had her first son, wrapped him up, and laid him in a feed trough, because there was no room for them anywh
+    heard  : She had her first son, wrapped him up, and laid him in a feed trough, because there was  no room for them anyw
+      ~ 'halfway' -> heard 'half way'   (sound match 100%)
+[BAD  ] build-84-no-room-manger/n8
+    caption: And his mother and the man who would raise him knelt in the straw and simply looked at him. No trumpets. No pa
+    heard  : and his mother and the man who would raise him knelt in the straw and simply looked at him.  No trumpets, no p
+     !! 'two' -> heard 'too'   (sound match 67%)
+[OK   ] build-84-no-room-manger/n9
+    caption: That is the scandal and the sweetness of it. The King everyone was too busy to make room for did not force his
+    heard  : That is the scandal and the sweetness of it. The king, everyone was too busy to make room for  did not force h
+[OK   ] build-84-no-room-manger/n10
+    caption: And the town slept on, not knowing. Every crowded house with no room, every window dark, while a few streets o
+    heard  : and the town slept on, not knowing. Every crowded house with no room, every window dark,  while a few streets 
+[OK   ] build-84-no-room-manger/n11
+    caption: There is something in that you were meant to see. The room the world would not give him, heaven filled with li
+    heard  : There is something in that you were meant to see. The room the world would not give him,  heaven filled with l
+[OK   ] build-84-no-room-manger/n12
+    caption: Because that is the whole reason he came down so low. There was no room for him, once, so that there would alw
+    heard  : Because that is the whole reason he came down so low. There was no room for him,  once, so that there would al
+[minor] build-84-no-room-manger/card
+    caption: There was no room for him in the whole town, on the night he came to save it. If he was willing to be born in 
+    heard  : There was no room for him in the whole town. On the night, he came to save it. If he was willing to  be born i
+      ~ 'cattlestall' -> heard 'cattle stall'   (sound match 100%)
+
+3 segment(s) need an ear-check in build-84-no-room-manger

@@ -1,0 +1,55 @@
+[minor] build-51-first-catch-of-fish/n1
+    caption: By the lake of Gennesaret, a crowd pressed in around him, hungry to hear the word of God. Two empty boats sat 
+    spoken : By the lake of Gunnessuhret, a crowd pressed in around him, hungry to hear the word of God. Two empty boats sa
+    heard  : By the lake of Gunnar-Shiret, a crowd pressed in around him, hungry to hear the word of God.  Two empty boats 
+      ~ 'gennesaret' -> heard 'gunnarshiret'   (sound match 83%)
+[OK   ] build-51-first-catch-of-fish/n2
+    caption: He stepped into one of the boats. It belonged to a fisherman named Simon. He asked him to push out a little wa
+    heard  : He stepped into one of the boats. It belonged to a fisherman named Simon. He asked him to push  out a little w
+[BAD  ] build-51-first-catch-of-fish/jv4
+    caption: Launch out into the deep, and let down your nets for a draught.
+    heard  : Launch out into the deep, and let down your nets for a draft.
+     !! 'draught' -> heard 'draft'   (sound match 67%)
+[minor] build-51-first-catch-of-fish/n3
+    caption: Simon was bone-tired. They had worked that water all night and come back with nothing, and every instinct a fi
+    heard  : Simon was bone tired. They had worked that water all night and come back with nothing,  and every instinct a f
+      ~ 'bonetired' -> heard 'bone tired'   (sound match 100%)
+[BAD  ] build-51-first-catch-of-fish/s5
+    caption: Master, we have toiled all the night, and have taken nothing: nevertheless at thy word I will let down the net
+    heard  : Master, we have toiled all the night, and have taken nothing. Nevertheless, that thy  word I will let down the
+     !! 'at' -> heard 'that'   (sound match 50%)
+[BAD  ] build-51-first-catch-of-fish/n3b
+    caption: Master, we worked that lake all night and caught nothing. But because you say so, I will put the net down agai
+    heard  : Master, we worked that leg all night and caught nothing.  But because you say so, I will put the net down agai
+     !! 'lake' -> heard 'leg'   (sound match 50%)
+[OK   ] build-51-first-catch-of-fish/n4
+    caption: The moment the nets went down, they filled. A great shining mass of fish, far more than the ropes were made to
+    heard  : The moment the nets went down, they filled. A great shining mass of fish, far more than the  ropes were made t
+[OK   ] build-51-first-catch-of-fish/n5
+    caption: There were too many for one boat. They waved to their partners, James and John, in the other boat to come and 
+    heard  : There were too many for one boat. They waved to their partners, James and John,  in the other boat to come and
+[OK   ] build-51-first-catch-of-fish/n6
+    caption: When Simon Peter saw it, he fell down at Jesus' knees. He did not feel worthy of any of it, and what came out 
+    heard  : When Simon Peter saw it, he fell down at Jesus' knees. He did not feel worthy of any of it,  and what came out
+[OK   ] build-51-first-catch-of-fish/s8
+    caption: Depart from me; for I am a sinful man, O Lord.
+    heard  : Depart from me, for I am a sinful man, O Lord.
+[OK   ] build-51-first-catch-of-fish/n6b
+    caption: Go away from me, Lord. I am a sinful man. On the best morning of his working life, kneeling in fish, the first
+    heard  : Go away from me, Lord. I am a sinful man. On the best morning of his working life,  kneeling in fish, the firs
+[OK   ] build-51-first-catch-of-fish/jv10
+    caption: Fear not; from henceforth thou shalt catch men.
+    heard  : Fear not, from henceforth thou shalt catch men.
+[OK   ] build-51-first-catch-of-fish/n7
+    caption: He does not send Peter away. He calls him. The trembling fisherman who begged him to leave is the very man he 
+    heard  : He does not send Peter away. He calls him. The trembling fisherman who begged him to leave  is the very man he
+[OK   ] build-51-first-catch-of-fish/n8
+    caption: And that was enough. They brought the boats to land, left the greatest catch of their lives lying there on the
+    spoken : And that was enough. They brought the boats to land, left the greatest catch of their lives lying there on the
+    heard  : And that was enough. They brought the boats to land, left the greatest catch of their lives  lying there on th
+[BAD  ] build-51-first-catch-of-fish/card
+    caption: He met them at their emptiest, a whole night of work and nothing to show, and filled their hands past overflow
+    heard  : He met them at their emptiest, a whole night of work and nothing to show, and filled their hands  passed overf
+     !! 'past' -> heard 'passed'   (sound match 67%)
+
+4 segment(s) need an ear-check in build-51-first-catch-of-fish

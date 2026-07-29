@@ -1,0 +1,67 @@
+[OK   ] build-10-well/n0
+    caption: A woman walked out to a well at noon — the hottest, emptiest hour of the day. You need to understand what that
+    heard  : A woman walked out to a well at noon, the hottest, emptiest hour of the day. You need to understand  what that
+[BAD  ] build-10-well/n1
+    caption: But this day, somebody was there. A traveler sat by the well, worn out from the road — a Jewish man, resting i
+    heard  : But this day somebody was there. A traveler sat by the well, worn out from the road. A Jewish  man, resting in
+     !! 'seven hundred' -> heard '-'   (sound match 0%)
+[OK   ] build-10-well/n2
+    caption: Then he spoke to her. He asked her for a drink. Understand how impossible that sentence was. A rabbi did not s
+    heard  : Then he spoke to her. He asked her for a drink. Understand how impossible that sentence was.  A rabbi did not 
+[OK   ] build-10-well/w9
+    caption: How is it that thou, being a Jew, askest drink of me, which am a woman of Samaria?
+    heard  : How is it that thou, being a Jew, askest drink of me, which am a woman of Samaria?
+[OK   ] build-10-well/w11
+    caption: Sir, thou hast nothing to draw with, and the well is deep: from whence then hast thou that living water?
+    heard  : Sir, thou hast nothing to draw with, and the well is deep, from whence then hast thou  that living water?
+[OK   ] build-10-well/n3
+    caption: She pointed out the obvious — the well is deep, sir, and you don't even have a rope. This well came from Jacob
+    heard  : She pointed out the obvious, the well is deep, sir, and you don't even have a rope.  This well came from Jacob
+[OK   ] build-10-well/j1
+    caption: Whosoever drinketh of this water shall thirst again: But whosoever drinketh of the water that I shall give him
+    heard  : Whosoever drinketh of this water shall thirst again, but whosoever drinketh of the water that I shall give him
+[OK   ] build-10-well/n4
+    caption: A well inside you — springing up, not running dry. He wasn't talking about the water in the jar. He was talkin
+    heard  : A well inside you, springing up, not running dry. He wasn't talking about the water in the jar.  He was talkin
+[OK   ] build-10-well/w15
+    caption: Sir, give me this water, that I thirst not, neither come hither to draw.
+    heard  : Sir, give me this water, that I thirst not, neither come hither to draw.
+[OK   ] build-10-well/n5
+    caption: Then he said: go get your husband. And the whole conversation changed. I have no husband, she said. And he agr
+    heard  : Then he said, go get your husband, and the whole conversation changed. I have no husband,  she said, and he ag
+[OK   ] build-10-well/w19
+    caption: Sir, I perceive that thou art a prophet.
+    heard  : Sir, I perceive that thou art a prophet.
+[OK   ] build-10-well/n6
+    caption: She called him a prophet. She asked him her people's oldest question — which mountain is the right one to wors
+    heard  : She called him a prophet. She asked him her people's oldest question, which mountain is the right one to worsh
+[minor] build-10-well/w25
+    caption: I know that Messias cometh, which is called Christ: when he is come, he will tell us all things.
+    heard  : I know that Meshes comeeth, which is called Christ.  When He is come, He will tell us all things.
+      ~ 'messias cometh' -> heard 'meshes comeeth'   (sound match 86%)
+[minor] build-10-well/j2
+    caption: I that speak unto thee am he.
+    heard  : I that speak unto the Amhi.
+      ~ 'thee am he' -> heard 'the amhi'   (sound match 100%)
+[OK   ] build-10-well/n7
+    caption: The first person Jesus ever told plainly that he was the Messiah — not a king, not a priest, not even one of h
+    heard  : The first person Jesus ever told plainly that he was the Messiah, not a king, not a priest,  not even one of h
+[minor] build-10-well/n8
+    caption: And look what she did. She left the jar. The thing she walked all that way in the heat to fill — she left it s
+    heard  : And look what she did. She left the jar. The things she walked all that way in the heat to fill.  She left it 
+      ~ 'thing' -> heard 'things'   (sound match 89%)
+[OK   ] build-10-well/n8b
+    caption: Ran toward the town she had spent years avoiding, to the very people she came out at noon to miss, shouting: c
+    heard  : Ran toward the town she had spent years avoiding.  To the very people she came out at noon to miss, shouting, 
+[OK   ] build-10-well/w29
+    caption: Come, see a man, which told me all things that ever I did: is not this the Christ?
+    heard  : Come, see a man, which told me all things that ever I did, is not this the Christ?
+[minor] build-10-well/n9
+    caption: And they came. The town that whispered about her followed her up the road to see for themselves. Many believed
+    heard  : And they came, the town that whispered about her followed her up the road to see for themselves.  Many believe
+      ~ 'believed' -> heard 'believe'   (sound match 86%)
+[OK   ] build-10-well/n10
+    caption: She came for one thing, and found out she was thirsty for something much deeper. Have you ever been searching 
+    heard  : She came for one thing, and found out she was thirsty for something much deeper.  Have you ever been searching
+
+1 segment(s) need an ear-check in build-10-well

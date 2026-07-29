@@ -1,0 +1,63 @@
+[OK   ] build-36-shrewd-steward/s1
+    caption: And he said also unto his disciples,
+    heard  : and he said also unto his disciples.
+[OK   ] build-36-shrewd-steward/j0
+    caption: There was a certain rich man, which had a steward; and the same was accused unto him that he had wasted his go
+    heard  : There was a certain rich man, which had a steward, and the same was accused unto him that he had wasted his go
+[OK   ] build-36-shrewd-steward/n1
+    caption: Jesus told a story about a rich man and the manager who ran everything he owned. Word came to the rich man tha
+    heard  : Jesus told a story about a rich man and the manager who ran everything he owned.  Word came to the rich man th
+[OK   ] build-36-shrewd-steward/n2
+    caption: So he called the manager in and said, give an account of your work, because you cannot be my manager any longe
+    heard  : So he called the manager in and said,  give an account of your work because you cannot be my manager any longe
+[minor] build-36-shrewd-steward/j3
+    caption: What shall I do? for my lord taketh away from me the stewardship: I cannot dig; to beg I am ashamed.
+    heard  : What shall I do?  For my Lord takeeth away from me the stewardship, I cannot dig, to beg I am ashamed.
+      ~ 'taketh' -> heard 'takeeth'   (sound match 100%)
+[OK   ] build-36-shrewd-steward/n3
+    caption: And the manager panicked. I am not strong enough to dig ditches, he thought, and I am too ashamed to beg. He h
+    heard  : and the manager panicked. I am not strong enough to dig ditches, he thought, and I am too ashamed  to beg. He 
+[OK   ] build-36-shrewd-steward/n4
+    caption: So while he still could, he quickly called in every person who owed his employer money, one after another, to 
+    heard  : So while he still could, he quickly called in every person who owed his employer money,  one after another, to
+[BAD  ] build-36-shrewd-steward/j6
+    caption: Take thy bill, and sit down quickly, and write fifty.
+    heard  : Take thy bill, and sit down quickly, and write 50.
+     !! 'fifty' -> heard '-'   (sound match 0%)
+[BAD  ] build-36-shrewd-steward/n5
+    caption: How much do you owe? he asked the first man. A hundred jugs of olive oil. Quick, said the manager, take your b
+    heard  : How much do you owe? He asked the first man, 100 jugs of olive oil.  Quick said the manager, take your bill an
+     !! 'a hundred' -> heard '-'   (sound match 0%)
+     !! 'fifty' -> heard '-'   (sound match 0%)
+[BAD  ] build-36-shrewd-steward/n6
+    caption: And you? A hundred measures of wheat. Take your bill, he said, and write down eighty. One after another he mad
+    heard  : and you? A hundred measures of wheat. Take your bill," he said, and write down 80. One  after another he made 
+     !! 'eighty' -> heard '-'   (sound match 0%)
+[OK   ] build-36-shrewd-steward/j1
+    caption: And the lord commended the unjust steward, because he had done wisely: for the children of this world are in t
+    heard  : And the Lord commended the unjust steward, because He had done wisely, for the children of this world are in t
+[OK   ] build-36-shrewd-steward/n7
+    caption: Even his employer had to admire it. And here is the strange point Jesus was making. He was not praising the ch
+    heard  : Even his employer had to admire it. And here is the strange point Jesus was making.  He was not praising the c
+[OK   ] build-36-shrewd-steward/j2
+    caption: And I say unto you, Make to yourselves friends of the mammon of unrighteousness; that, when ye fail, they may 
+    heard  : And I say unto you, make to yourselves friends of the mammon of unrighteousness, that, when  ye fail, they may
+[OK   ] build-36-shrewd-steward/n8
+    caption: Use your money, he said, use your things, use whatever you have, to love people now. Those friendships are the
+    heard  : Use your money. He said, use your things, use whatever you have to love people now.  Those friendships are the
+[BAD  ] build-36-shrewd-steward/j13
+    caption: No servant can serve two masters: for either he will hate the one, and love the other; or else he will hold to
+    heard  : No servant can serve two masters, for either he will hate the one, and love the other, or else he will hold to
+     !! 'ye' -> heard 'he'   (sound match 0%)
+[BAD  ] build-36-shrewd-steward/n9
+    caption: Then he said the line that ties it all together. You cannot serve God and money. You will end up loving one an
+    heard  : Then he said the line that ties it all together. You cannot serve God in money. You will end up  loving one an
+     !! 'and' -> heard 'in'   (sound match 67%)
+[OK   ] build-36-shrewd-steward/n10
+    caption: That is how good he is. He is not after your money. He is after you. He wants your heart free of that cruel li
+    heard  : That is how good he is. He is not after your money. He is after you. He wants your heart free of  that cruel l
+[OK   ] build-36-shrewd-steward/card
+    caption: He is not after your money. He is after you. What are you being urgent about?
+    heard  : He is not after your money. He is after you. What are you being urgent about?
+
+5 segment(s) need an ear-check in build-36-shrewd-steward

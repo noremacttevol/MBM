@@ -1,0 +1,49 @@
+[minor] build-109-ask-seek-knock/n1
+    caption: People have always wondered how prayer really works. Do you have to say it just right? Wear God down? Jesus, t
+    heard  : People have always wondered how prayer really works. Do you have to say it just right? We're  God down. Jesus,
+      ~ 'wear' -> heard 'were'   (sound match 100%)
+[OK   ] build-109-ask-seek-knock/jv7
+    caption: Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you:
+    heard  : Ask and it shall be given you, seek and ye shall find, knock, and it shall be opened unto you.
+[BAD  ] build-109-ask-seek-knock/n2
+    caption: Three words, and each one is warmer and more personal than the last. Ask — like a child who simply puts out it
+    heard  : 3 words, and each one is warmer and more personal than the last.  Ask, like a child who simply puts out its ha
+     !! 'three' -> heard '-'   (sound match 0%)
+[OK   ] build-109-ask-seek-knock/n3
+    caption: Seek — more than a word now; it is getting up and searching, patient and hopeful, sure that what you are looki
+    heard  : Seek more than a word now. It is getting up and searching  patient and hopeful sure that what you are looking 
+[minor] build-109-ask-seek-knock/jv8
+    caption: For every one that asketh receiveth; and he that seeketh findeth; and to him that knocketh it shall be opened.
+    spoken : For every one that asketh receiveth; and he that seeketh fyndeth; and to him that knocketh it shall be opened.
+    heard  : For everyone that askseth receiveth, and he that seeketh findeth, and to him that knocketh it shall be opened.
+      ~ 'every one' -> heard 'everyone'   (sound match 100%)
+      ~ 'asketh' -> heard 'askseth'   (sound match 89%)
+[minor] build-109-ask-seek-knock/n4
+    caption: Knock — and keep knocking — on a door you cannot yet see behind. And the promise is that the door does open. N
+    heard  : Knock, and keep knocking on a door you cannot yet see behind.  And the promise is that the door does open.  No
+      ~ 'every one' -> heard 'everyone'   (sound match 100%)
+[OK   ] build-109-ask-seek-knock/n5
+    caption: Then Jesus makes it personal with a picture from any home.
+    heard  : Then Jesus makes it personal with a picture from any home.
+[OK   ] build-109-ask-seek-knock/jv910
+    caption: Or what man is there of you, whom if his son ask bread, will he give him a stone? Or if he ask a fish, will he
+    heard  : Or what man is there of you, whom if his son ask bread, will he give him a stone?  Or if he ask a fish, will h
+[OK   ] build-109-ask-seek-knock/n5b
+    caption: A child asks its father for bread. What kind of father hands his hungry child a stone instead? Or a snake when
+    heard  : A child asks its father for bread. What kind of father hands his hungry child a stone instead,  or a snake whe
+[OK   ] build-109-ask-seek-knock/jv11
+    caption: If ye then, being evil, know how to give good gifts unto your children, how much more shall your Father which 
+    heard  : If ye then, being evil, know how to give good gifts unto your children.  How much more shall your father which
+[OK   ] build-109-ask-seek-knock/n6
+    caption: How much more. If flawed, tired, imperfect parents still love to give their kids good things — how much more d
+    heard  : How much more? If flawed, tired, imperfect parents still love to give their kids good things.  How much more d
+[OK   ] build-109-ask-seek-knock/n7
+    caption: So the invitation is just this: ask. Not perfectly. Not impressively. Simply, honestly, like a child. The Fath
+    heard  : So the invitation is just this. Ask. Not perfectly. Not impressively. Simply, honestly, like a child.  The fat
+[minor] build-109-ask-seek-knock/card
+    caption: Ask, seek, knock. Jesus says your Father in heaven is far kinder than the best parent you can imagine, and gla
+    spoken : Ask, seek, knock. Jesus says your Father in heaven is far kynder than the best parent you can imagine, and gla
+    heard  : Ask Sikh, Nok.  Jesus says your Father in Heaven is far kinder than the best parent you can imagine and glad t
+      ~ 'seek knock' -> heard 'sikh nok'   (sound match 80%)
+
+1 segment(s) need an ear-check in build-109-ask-seek-knock

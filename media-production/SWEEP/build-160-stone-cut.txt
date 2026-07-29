@@ -1,0 +1,42 @@
+[OK   ] build-160-stone-cut/n1
+    caption: The king of Babylon had a dream that troubled him deeply, and none of his wise men could tell him what it mean
+    heard  : The King of Babylon had a dream that troubled him deeply, and none of his wise men could tell him  what it mea
+[minor] build-160-stone-cut/n2
+    caption: In the dream, the king had seen an enormous statue, dazzling and terrible — a head of gold, chest of silver, b
+    heard  : In the dream, the king had seen an enormous statue, dazzling and terrible, ahead of gold,  chest of silver, be
+      ~ 'a head' -> heard 'ahead'   (sound match 100%)
+[OK   ] build-160-stone-cut/n3
+    caption: And then, in the dream, something small appeared. A single stone, cut out of a mountain — but cut by no human 
+    heard  : And then, in the dream, something small appeared.  A single stone cut out of a mountain, but cut by no human h
+[BAD  ] build-160-stone-cut/kv45
+    caption: Forasmuch as thou sawest that the stone was cut out of the mountain without hands, and that it brake in pieces
+    heard  : For as much as thou sauced that the stone was cut out of the mountain without hands,  and that it break in pie
+      ~ 'forasmuch' -> heard 'for as much'   (sound match 100%)
+     !! 'sawest' -> heard 'sauced'   (sound match 29%)
+      ~ 'brake' -> heard 'break'   (sound match 100%)
+[minor] build-160-stone-cut/n4
+    caption: That little stone, made by God and not by men, struck the great statue at its feet — and the whole towering th
+    heard  : That little stone, made by God and not by man, struck the great statue at its feet,  and the whole towering th
+      ~ 'men' -> heard 'man'   (sound match 100%)
+[OK   ] build-160-stone-cut/n5
+    caption: But the stone did not stop. It began to grow. It became a mountain, and then a greater mountain, until it fill
+    heard  : But the stone did not stop. It began to grow. It became a mountain and then a greater mountain  until it fille
+[OK   ] build-160-stone-cut/n6
+    caption: Daniel told the king what it meant. Every human empire, however golden, would rise and then fall and be forgot
+    heard  : Daniel told the king what it meant. Every human empire, however golden, would rise and then fall  and be forgo
+[minor] build-160-stone-cut/kv44
+    caption: And in the days of these kings shall the God of heaven set up a kingdom, which shall never be destroyed: and t
+    heard  : And in the days of these kings shall the God of heaven set up a kingdom,  which shall never be destroyed,  and
+      ~ 'for ever' -> heard 'forever'   (sound match 100%)
+[OK   ] build-160-stone-cut/n7
+    caption: Never destroyed. Never handed off to someone else. Not built by human hands, and so not able to be torn down b
+    heard  : Never destroyed, never handed off to someone else, not built by human hands, and so not able to  be torn down 
+[OK   ] build-160-stone-cut/n8
+    caption: So this ancient dream is really a promise you can build your life on. The kingdoms of men come and go, but God
+    heard  : So this ancient dream is really a promise you can build your life on.  The kingdoms of men come and go, but Go
+[minor] build-160-stone-cut/card
+    caption: God showed a king a stone cut without hands that shattered every empire and grew to fill the earth — his own k
+    heard  : God showed a king a stone cut without hands that shattered every empire and grew to fill the earth,  his own k
+      ~ 'for ever' -> heard 'forever'   (sound match 100%)
+
+1 segment(s) need an ear-check in build-160-stone-cut

@@ -1,0 +1,26 @@
+[minor] build-189-to-him-that-overcometh/n0
+    caption: To a church that had grown comfortable and half-asleep, Jesus sent a knock at the door — not a storm, just a k
+    heard  : to a church that had grown comfortable and half asleep. Jesus sent a knock at the door,  not a storm, just a k
+      ~ 'halfasleep' -> heard 'half asleep'   (sound match 100%)
+[minor] build-189-to-him-that-overcometh/j1
+    caption: Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him, an
+    heard  : Behold, I stand at the door and knock.  If any man hear my voice and open the door, I will come into him and w
+      ~ 'in to' -> heard 'into'   (sound match 100%)
+[OK   ] build-189-to-him-that-overcometh/n1
+    caption: He does not break the door. He waits to be invited in.
+    heard  : He does not break the door. He waits to be invited in.
+[OK   ] build-189-to-him-that-overcometh/n2
+    caption: And to the one who opens, who keeps opening, he promises a seat no empire can give.
+    heard  : And to the one who opens, who keeps opening, he promises a seat no empire can give.
+[OK   ] build-189-to-him-that-overcometh/j2
+    caption: To him that overcometh will I grant to sit with me in my throne, even as I also overcame, and am set down with
+    heard  : To him that over-cometh will I grant to sit with me in my throne, even as I also overcame, and am set down wit
+[OK   ] build-189-to-him-that-overcometh/n3
+    caption: The one who overcomes doesn't earn a throne by being flawless. He shares the one Christ already won.
+    heard  : The one who overcomes doesn't earn a throne by being flawless. He shares the one Christ already won.
+[minor] build-189-to-him-that-overcometh/card
+    caption: He is knocking right now. Open, and you will eat with him — and reign with him.
+    heard  : He is knocking right now, open, and you will eat with him, and rain with him.
+      ~ 'reign' -> heard 'rain'   (sound match 80%)
+
+0 segment(s) need an ear-check in build-189-to-him-that-overcometh

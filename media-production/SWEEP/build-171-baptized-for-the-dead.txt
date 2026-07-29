@@ -1,0 +1,41 @@
+[OK   ] build-171-baptized-for-the-dead/n0
+    caption: Paul asked a striking question: if the dead don't rise at all, why would anyone be baptized on their behalf?
+    heard  : Paul asked a striking question, if the dead don't rise at all, why would anyone be baptized  on their behalf?
+[OK   ] build-171-baptized-for-the-dead/s1
+    caption: Else what shall they do which are baptized for the dead, if the dead rise not at all? why are they then baptiz
+    heard  : Else what shall they do which are baptized for the dead, if the dead rise not at all?  Why are they then bapti
+[OK   ] build-171-baptized-for-the-dead/n1
+    caption: The only reason to do such a thing is the quiet hope that the dead are not gone forever.
+    heard  : The only reason to do such a thing is the quiet hope that the dead are not gone forever.  //  //  //  //  //  
+[OK   ] build-171-baptized-for-the-dead/n2
+    caption: Baptism stands for new life — a beginning, not an end.
+    heard  : Baptism stands for new life, a beginning, not an end.
+[OK   ] build-171-baptized-for-the-dead/n3
+    caption: So the work done for those who've passed is built on one promise: that death is not the last word.
+    heard  : So the work done for those who've passed is built on one promise. That death is not the last word.
+[BAD  ] build-171-baptized-for-the-dead/s20
+    caption: But now is Christ risen from the dead, and become the firstfruits of them that slept.
+    heard  : But now is Christ risen from the dead and become the first fruits of them that sucked.
+      ~ 'firstfruits' -> heard 'first fruits'   (sound match 100%)
+     !! 'slept' -> heard 'sucked'   (sound match 25%)
+[OK   ] build-171-baptized-for-the-dead/n4a
+    caption: Christ rose.
+    heard  : Christ rose.
+[OK   ] build-171-baptized-for-the-dead/n4b
+    caption: And because He rose, the grave loses its grip — for Him first, and then for all who belong to Him.
+    heard  : And because he rose, the grave loses its grip for him first, and then for all who belong to him.
+[OK   ] build-171-baptized-for-the-dead/s22
+    caption: For as in Adam all die, even so in Christ shall all be made alive.
+    heard  : For as in Adam all die, even so in Christ shall all be made alive.
+[BAD  ] build-171-baptized-for-the-dead/n5a
+    caption: The ordinance done in love reaches across the veil.
+    heard  : The ordinance, done and love, reaches across the veil.
+     !! 'in' -> heard 'and'   (sound match 67%)
+[OK   ] build-171-baptized-for-the-dead/n5b
+    caption: Offering every soul the chance to choose.
+    heard  : offering every soul the chance to choose.
+[OK   ] build-171-baptized-for-the-dead/card
+    caption: Death separates for a while, not forever. Because He lives, there is hope for every name on the other side of 
+    heard  : Death separates for a while, not forever. Because he lives, there is hope for every name on the other side of 
+
+2 segment(s) need an ear-check in build-171-baptized-for-the-dead

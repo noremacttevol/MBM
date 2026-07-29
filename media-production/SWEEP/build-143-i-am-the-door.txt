@@ -1,0 +1,33 @@
+[BAD  ] build-143-i-am-the-door/n0
+    caption: Jesus used a picture the crowd knew well — a sheepfold with one opening, and a shepherd who guards it.
+    heard  : Jesus used a picture of the crowd new well, a sheep fold with one opening, and a shepherd  who guards it.  // 
+     !! '-' -> heard 'of'   (sound match 0%)
+      ~ 'knew' -> heard 'new'   (sound match 80%)
+      ~ 'sheepfold' -> heard 'sheep fold'   (sound match 100%)
+[minor] build-143-i-am-the-door/j0
+    caption: Verily, verily, I say unto you, He that entereth not by the door into the sheepfold, but climbeth up some othe
+    heard  : Verily, verily, I say unto you, He that entereth not by the door into the sheepfold,  but climbeth up some oth
+      ~ 'is' -> heard 'as'   (sound match 100%)
+[OK   ] build-143-i-am-the-door/n1a
+    caption: Anyone who climbs in some other way is there to take, not to care.
+    heard  : Anyone who climbs in some other way is there to take, not to care.
+[OK   ] build-143-i-am-the-door/s7
+    caption: Then said Jesus unto them again,
+    heard  : Then said Jesus unto them again.
+[OK   ] build-143-i-am-the-door/j1
+    caption: Verily, verily, I say unto you, I am the door of the sheep.
+    heard  : Verily, verily, I say unto you, I am the door of the sheep.
+[OK   ] build-143-i-am-the-door/n1b
+    caption: But the door? The door lets the flock in safe.
+    heard  : But the door? The door lets the flock in safe.
+[OK   ] build-143-i-am-the-door/j2
+    caption: I am the door: by me if any man enter in, he shall be saved, and shall go in and out, and find pasture.
+    heard  : I am the door, by me if any man enter in, he shall be saved, and shall go in and out and find pasture.
+[OK   ] build-143-i-am-the-door/n2
+    caption: Through Him you come in and you go out — free, fed, not trapped. He's the way in, and the way to everything go
+    heard  : Through him you come in and you go out, free, fed, not trapped.  He's the way in and the way to everything goo
+[OK   ] build-143-i-am-the-door/card
+    caption: There's one door. Knock, and walk through.
+    heard  : There's one door. Knock and walk through.
+
+1 segment(s) need an ear-check in build-143-i-am-the-door

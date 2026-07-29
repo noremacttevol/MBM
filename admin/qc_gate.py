@@ -42,6 +42,10 @@ import sys
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MP = os.path.join(REPO, "media-production")
 VERIFY = os.path.join(REPO, "admin", "verify-mp4.sh")
+sys.path.insert(0, MP)
+from corpus import find_main_mp4 as corpus_find_main_mp4  # noqa: E402
+from corpus import load_build_segments  # noqa: E402
+from render_receipt import verify as verify_render_receipt  # noqa: E402
 
 OLD_VOICE_HZ = 24000      # edge-tts / the retired voice
 NEW_VOICE_HZ = 44100      # ElevenLabs
@@ -87,20 +91,11 @@ def ffprobe_sample_rate(path):
 
 def load_segments(bdir):
     """[(id, speaker, text), ...] from make_narration.py, or None."""
-    code = ("import make_narration as m,json;"
-            "print(json.dumps([[s[0],s[1],s[2]] for s in m.SEGMENTS]))")
-    r = subprocess.run([sys.executable, "-c", code], cwd=bdir,
-                       capture_output=True, text=True)
-    try:
-        return json.loads(r.stdout.strip().splitlines()[-1])
-    except Exception:
-        return None
+    return load_build_segments(bdir, executable=sys.executable)
 
 
 def find_main_mp4(bdir):
-    hits = [p for p in glob.glob(os.path.join(bdir, "*.mp4"))
-            if re.match(r"^[0-9a-z]+(-[0-9a-z]+)*-\d+_.*\.mp4$", os.path.basename(p))]
-    return sorted(hits)[0] if hits else None
+    return corpus_find_main_mp4(bdir)
 
 
 # ---- the checks -------------------------------------------------------------
@@ -109,6 +104,12 @@ def check_playable(mp4):
     if r.returncode != 0:
         return [f"PLAYABLE: {r.stdout.strip() or r.stderr.strip() or 'verify-mp4 failed'}"]
     return []
+
+
+def check_render_freshness(bdir, mp4):
+    """Prove that this MP4 came from the exact current code/audio/still bytes."""
+    ok, detail = verify_render_receipt(bdir, mp4)
+    return [] if ok else [f"RENDER FRESH: {detail}"]
 
 
 def check_voice_and_complete(bdir, segs):
@@ -133,6 +134,33 @@ def check_voice_and_complete(bdir, segs):
         fails.append(f"NEW VOICE: {len(old)} clip(s) are the OLD voice (not 44100 Hz "
                      f"ElevenLabs): {', '.join(map(str, old[:8]))}")
     return fails
+
+
+def check_jesus_voice(bdir):
+    """CAMERON'S RULE (2026-07-25): nothing reaches the board unless Jesus is the
+    APPROVED voice (Alexander). Checking "is it ElevenLabs / 44100 Hz" is NOT enough —
+    that passes wave-1 audio voiced by Chris, which is exactly the trash he kept being
+    shown as 'ready'. The verdict comes from admin/jesus_voice_audit.py, which reads
+    ElevenLabs' own history (the pause-tag signature only the Alexander pipeline
+    produces), never a marker or timestamp.
+
+    Fails CLOSED: if the audit has no verdict for this build, it does not ship."""
+    m = re.search(r"build-(\d+)-", os.path.basename(bdir.rstrip("/")))
+    if not m:
+        return []
+    num = str(int(m.group(1)))
+    path = os.path.join(MP, "JESUS-VOICE.json")
+    try:
+        with open(path, encoding="utf-8") as f:
+            audit = json.load(f)
+    except (FileNotFoundError, ValueError):
+        return ["JESUS VOICE: no audit yet — run `python3 admin/jesus_voice_audit.py`"]
+    v = audit.get(num)
+    if not v:
+        return [f"JESUS VOICE: build #{num} has no audit verdict — run jesus_voice_audit.py"]
+    if v.get("ok"):
+        return []
+    return [f"JESUS VOICE: {v.get('how', 'not the approved Jesus voice')} — re-voice with Alexander"]
 
 
 def check_script_echo(segs):
@@ -179,13 +207,28 @@ def transcribe(mp4):
             pass
 
 
-def check_audio_truth(mp4):
+def _one_segment_holds(a, b, seg_wordsets):
+    """True if some SINGLE written segment contains both spoken sentences (their
+    content words), tolerating one whisper miss each. When that holds, the two
+    'sentences' are just whisper splitting ONE written line at its internal
+    punctuation (e.g. the colon inside John 4:14 'thirst again: But whosoever...')
+    — a scripture verse's own parallelism, NOT the narrator-restates-scripture echo
+    Cameron hates. A real echo restates ACROSS two segments, so no single segment
+    holds both halves and it stays flagged."""
+    for sw in seg_wordsets:
+        if len(a - sw) <= 1 and len(b - sw) <= 1:
+            return True
+    return False
+
+
+def check_audio_truth(mp4, segs=None):
     """Transcribe the real audio and flag back-to-back sentences that repeat the
     same content — the echo as ACTUALLY SPOKEN, regardless of clean text files.
     Returns (fails, ran) where ran=False means whisper wasn't available."""
     spoken = transcribe(mp4)
     if spoken is None:
         return [], False
+    seg_wordsets = [set(words(s[2])) for s in (segs or [])]
     sents = sentences(spoken)
     bad = []
     for i in range(len(sents) - 1):
@@ -196,6 +239,10 @@ def check_audio_truth(mp4):
         # strict: only a real restatement (>=3 shared content words AND >=65% of
         # the shorter sentence) — avoids flagging a merely-similar next line.
         if shared >= 3 and shared / min(len(a), len(b)) >= 0.65:
+            # ...unless both halves live in ONE written segment: then it's a single
+            # verse whisper split, not a cross-segment echo. See _one_segment_holds.
+            if _one_segment_holds(a, b, seg_wordsets):
+                continue
             bad.append((sents[i][:60], sents[i + 1][:60]))
     if bad:
         return [f"AUDIO ECHO (what it actually says): {len(bad)} spoken repeat(s), "
@@ -216,17 +263,19 @@ def gate(bdir, fast=False):
                 "reasons": ["PLAYABLE: no finished scripture-named mp4 in the build folder"]}
 
     reasons += check_playable(mp4)
+    reasons += check_render_freshness(bdir, mp4)
 
     segs = load_segments(bdir)
     if not segs:
         reasons.append("SCRIPT: make_narration.py has no readable SEGMENTS")
     else:
         reasons += check_voice_and_complete(bdir, segs)
+        reasons += check_jesus_voice(bdir)
         reasons += check_script_echo(segs)
 
     whisper_ran = False
     if not fast:
-        af, whisper_ran = check_audio_truth(mp4)
+        af, whisper_ran = check_audio_truth(mp4, segs)
         reasons += af
 
     return {"build": name, "pass": len(reasons) == 0,

@@ -1,0 +1,39 @@
+[OK   ] build-76-suffer-the-little-children/n0
+    caption: Parents were bringing their little kids to Jesus, just so he could put his hands on them and bless them.
+    heard  : Parents were bringing their little kids to Jesus, just so he could put his hands on them and bless them.
+[OK   ] build-76-suffer-the-little-children/s13
+    caption: And they brought young children to him, that he should touch them: and his disciples rebuked those that brough
+    heard  : and they brought young children to him that he should touch them,  and his disciples rebuked those that brough
+[minor] build-76-suffer-the-little-children/n1
+    caption: The disciples tried to wave them off — the Teacher is busy, this is grown-up work, not the place for children.
+    heard  : The disciples tried to wave them off. The teacher is busy. This has grown up work, not the place for  children
+      ~ 'is grownup' -> heard 'has grown up'   (sound match 92%)
+[OK   ] build-76-suffer-the-little-children/n2
+    caption: But he saw them do it. And Mark does not soften how he took it.
+    heard  : but he saw them do it and Mark does not soften how he took it.
+[OK   ] build-76-suffer-the-little-children/s14
+    caption: But when Jesus saw it, he was much displeased, and said unto them,
+    heard  : But when Jesus saw it, He was much displeased and said unto them.
+[OK   ] build-76-suffer-the-little-children/j1
+    caption: Suffer the little children to come unto me, and forbid them not: for of such is the kingdom of God.
+    heard  : suffer the little children to come unto me, and forbid them not, for of such is the kingdom of God.
+[OK   ] build-76-suffer-the-little-children/n3
+    caption: That old word suffer just means let. Let them come. Don't stand in their way. Then he went further.
+    heard  : That old word suffer just means let. Let them come. Don't stand in their way. Then he went further.
+[OK   ] build-76-suffer-the-little-children/j2
+    caption: Verily I say unto you, Whosoever shall not receive the kingdom of God as a little child, he shall not enter th
+    heard  : Verily I say unto you, whosoever shall not receive the kingdom of God as a little child, he shall not enter th
+[OK   ] build-76-suffer-the-little-children/n4
+    caption: He meant: nobody earns their way into the kingdom of God. You receive it the way a child receives a gift — wit
+    heard  : He meant, nobody earns their way into the kingdom of God.  You receive it the way a child receives a gift with
+[OK   ] build-76-suffer-the-little-children/s16
+    caption: And he took them up in his arms, put his hands upon them, and blessed them.
+    heard  : And he took them up in his arms, put his hands upon them, and blessed them.
+[OK   ] build-76-suffer-the-little-children/n5
+    caption: Then he gathered them up in his arms and blessed them, one at a time, unhurried — like there was nowhere else 
+    heard  : Then he gathered them up in his arms and blessed them, one at a time, unhurried, like there was nowhere  else 
+[OK   ] build-76-suffer-the-little-children/card
+    caption: He had time for the smallest and least important person in the room. That includes you.
+    heard  : He had time for the smallest and least important person in the room. That includes you.
+
+0 segment(s) need an ear-check in build-76-suffer-the-little-children

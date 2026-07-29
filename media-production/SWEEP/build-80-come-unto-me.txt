@@ -1,0 +1,39 @@
+[OK   ] build-80-come-unto-me/n0a
+    caption: To a crowd of people worn down by work, by rules, by just getting through the day,
+    heard  : to a crowd of people worn down by work, by rules, by just getting through the day.  //  //  //  //  //  //  //
+[OK   ] build-80-come-unto-me/n0b
+    caption: Jesus made one of the gentlest offers ever spoken.
+    heard  : Jesus made one of the gentlest offers ever spoken.
+[minor] build-80-come-unto-me/j1
+    caption: Come unto me, all ye that labour and are heavy laden, and I will give you rest.
+    heard  : Come onto me, all ye that labor and are heavy laden, and I will give you rest.
+      ~ 'unto' -> heard 'onto'   (sound match 100%)
+      ~ 'labour' -> heard 'labor'   (sound match 100%)
+[OK   ] build-80-come-unto-me/n0c
+    caption: Come to me, all of you who are worn out and carrying too much — and I will give you rest. He does not say come
+    heard  : Come to me, all of you who are worn out and carrying too much, and I will give you rest.  He does not say come
+[OK   ] build-80-come-unto-me/n1
+    caption: A yoke was the wooden beam that let two oxen pull a load together, so no single animal carried it alone.
+    heard  : A yoke was the wooden beam that let two oxen pull a load together, so no single animal carried it alone.
+[OK   ] build-80-come-unto-me/j2
+    caption: Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your sou
+    heard  : Take my yoke upon you, and learn of me, for I am meek and lowly in heart, and ye shall find rest unto your sou
+[OK   ] build-80-come-unto-me/j3
+    caption: For my yoke is easy, and my burden is light.
+    heard  : For my yoke is easy, and my burden is light.
+[minor] build-80-come-unto-me/n1b
+    caption: Take my yoke on you, he said, and learn from me, because I am gentle and I am humble — and you will find rest 
+    heard  : Take my yoke on you," he said, and learned from me, because I am gentle and I am humble,  and you will find re
+      ~ 'learn' -> heard 'learned'   (sound match 86%)
+[OK   ] build-80-come-unto-me/n2a
+    caption: He wasn't promising a life with nothing to carry.
+    heard  : He wasn't promising a life with nothing to carry.
+[minor] build-80-come-unto-me/n2b
+    caption: He was promising to get under the load with you, so it never has to be carried alone again.
+    heard  : He was promising to get under the load with you, so it never has to be carried along again.
+      ~ 'alone' -> heard 'along'   (sound match 80%)
+[OK   ] build-80-come-unto-me/card
+    caption: Whatever you've been carrying by yourself — he's offering to take the other side of it. Come.
+    heard  : Whatever you've been carrying by yourself, he's offering to take the other side of it. Come.  //
+
+0 segment(s) need an ear-check in build-80-come-unto-me

@@ -1,0 +1,87 @@
+[OK   ] build-17-lazarus/n0
+    caption: In a village called Bethany, close enough to Jerusalem to walk, there lived two sisters, Martha and Mary, and 
+    heard  : In a village called Bethany, close enough to Jerusalem to walk, there lived two sisters,  Martha and Mary, and
+[minor] build-17-lazarus/w3
+    caption: Lord, behold, he whom thou lovest is sick.
+    heard  : Lord, behold, He whom thou loveest is sick.
+      ~ 'lovest' -> heard 'loveest'   (sound match 100%)
+[OK   ] build-17-lazarus/n1
+    caption: You would expect him to drop everything and run. He did the opposite. When the news reached him, he stayed whe
+    heard  : You would expect him to drop everything and run. He did the opposite. When the news reached him,  he stayed wh
+[OK   ] build-17-lazarus/j1
+    caption: This sickness is not unto death, but for the glory of God, that the Son of God might be glorified thereby.
+    heard  : This sickness is not unto death, but for the glory of God, that the Son of God might be glorified thereby.
+[OK   ] build-17-lazarus/n1b
+    caption: He was not being careless with the people he loved. He was reaching for something deeper than a quick rescue —
+    heard  : He was not being careless with the people he loved. He was reaching for something deeper than a quick  rescue,
+[minor] build-17-lazarus/n2
+    caption: By the time Jesus started for Bethany, the message had changed. Lazarus was not sick anymore. Lazarus was dead
+    heard  : By the time Jesus started for Bethany, the message had changed. Lazarus was not sick anymore.  Lazarus was dea
+      ~ 'four' -> heard 'for'   (sound match 100%)
+      ~ 'four' -> heard 'for'   (sound match 100%)
+[BAD  ] build-17-lazarus/w21
+    caption: Lord, if thou hadst been here, my brother had not died. But I know, that even now, whatsoever thou wilt ask of
+    heard  : Lord, if thou had spent here, my brother had not died.  But I know that even now, whatsoever thou wilt ask of 
+     !! 'hadst been' -> heard 'had spent'   (sound match 67%)
+[OK   ] build-17-lazarus/n3
+    caption: Martha heard he was finally near and ran out to meet him on the road, before he even reached the town. What sh
+    heard  : Martha heard he was finally near and ran out to meet him on the road, before he even reached the town.  What s
+[OK   ] build-17-lazarus/n4
+    caption: Jesus told her, your brother will rise again. Martha nodded the way we nod at things we believe but cannot fee
+    heard  : Jesus told her, your brother will rise again.  Martha nodded the way we nod at things we believe, but cannot f
+[minor] build-17-lazarus/j2
+    caption: I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live: And whos
+    heard  : I am the resurrection and the life, he that believeth in me, though he were dead, yet shall he live, and whoso
+      ~ 'liveth' -> heard 'liveeth'   (sound match 100%)
+      ~ 'believest' -> heard 'believeth'   (sound match 80%)
+[BAD  ] build-17-lazarus/w27
+    caption: Yea, Lord: I believe that thou art the Christ, the Son of God, which should come into the world.
+    heard  : Yeah, Lord, I believe that thou art the Christ, the Son of God, which should come into the world.
+     !! 'yea' -> heard 'yeah'   (sound match 67%)
+[OK   ] build-17-lazarus/n5
+    caption: He did not offer her a doctrine to file away until the last day. He offered her himself, right there in the du
+    heard  : He did not offer her a doctrine to file away until the last day. He offered her himself,  right there in the d
+[BAD  ] build-17-lazarus/w32
+    caption: Lord, if thou hadst been here, my brother had not died.
+    heard  : Lord, if thou had spent here, my brother had not died.
+     !! 'hadst been' -> heard 'had spent'   (sound match 67%)
+[BAD  ] build-17-lazarus/n6
+    caption: And then comes the shortest verse in the whole Bible, and one of the most staggering. Jesus wept. Sit with tha
+    heard  : and then comes the shortest verse in the whole Bible, and one of the most staggering. Jesus  wept. Sit with th
+     !! 'there' -> heard 'or'   (sound match 50%)
+[OK   ] build-17-lazarus/n7
+    caption: The tomb was a cave with a heavy stone rolled across its mouth. Jesus said, take away the stone. Practical, ca
+    heard  : The tomb was a cave with a heavy stone rolled across its mouth. Jesus said,  take away the stone. Practical, c
+[minor] build-17-lazarus/w39
+    caption: Lord, by this time he stinketh: for he hath been dead four days.
+    heard  : Lord, by this time He's stinks, for He hath been dead four days.
+      ~ 'he stinketh' -> heard 'hes stinks'   (sound match 77%)
+[OK   ] build-17-lazarus/j3
+    caption: Said I not unto thee, that, if thou wouldest believe, thou shouldest see the glory of God?
+    heard  : said I not unto thee, that, if thou wouldest believe, thou shouldest see the glory of God.
+[OK   ] build-17-lazarus/n7b
+    caption: So they leaned into the great stone and rolled it back, and the dark mouth of the grave stood open to the dayl
+    heard  : So they leaned into the great stone and rolled it back, and the dark mouth of the grave stood open to the dayl
+[OK   ] build-17-lazarus/n8
+    caption: He lifted his eyes and prayed out loud — not because heaven was hard of hearing, but because he wanted the cro
+    heard  : He lifted his eyes and prayed out loud. Not because heaven was hard of hearing,  but because he wanted the cro
+[OK   ] build-17-lazarus/j4
+    caption: Lazarus, come forth.
+    heard  : Lazarus, come forth.
+[minor] build-17-lazarus/n9
+    caption: And the dead man came out. Bound hand and foot in strips of grave-linen, his face still wrapped, Lazarus stood
+    heard  : and the dead man came out. Bound hand and foot in strips of grave linen, his face still wrapped,  Lazarus stoo
+      ~ 'gravelinen' -> heard 'grave linen'   (sound match 100%)
+      ~ 'four' -> heard 'for'   (sound match 100%)
+[OK   ] build-17-lazarus/j5
+    caption: Loose him, and let him go.
+    heard  : Loose him and let him go.
+[minor] build-17-lazarus/n10
+    caption: Unwrap him. Take the grave-linen off a living man and let him walk home to dinner. This was the last great sig
+    heard  : Unwrap him, take the grave linen off a living man and let him walk home to dinner.  This was the last great si
+      ~ 'gravelinen' -> heard 'grave linen'   (sound match 100%)
+[OK   ] build-17-lazarus/n11
+    caption: He wept at the grave, even though he was about to open it. Is there a grief you are carrying that he would not
+    heard  : He wept at the grave, even though he was about to open it. Is there a grief you are carrying that  he would no
+
+4 segment(s) need an ear-check in build-17-lazarus

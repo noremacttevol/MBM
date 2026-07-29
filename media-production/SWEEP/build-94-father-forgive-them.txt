@@ -1,0 +1,36 @@
+[BAD  ] build-94-father-forgive-them/s33
+    caption: And when they were come to the place, which is called Calvary, there they crucified him, and the malefactors, 
+    heard  : And when they would come to the place, which is called Calvary,  there they crucified him, and the malefactors
+     !! 'were' -> heard 'would'   (sound match 40%)
+[OK   ] build-94-father-forgive-them/n0
+    caption: They brought him to a place called Calvary, and there they crucified him — between two criminals, at the hands
+    heard  : They brought him to a place called Calvary, and there they crucified him, between two criminals  at the hands 
+[OK   ] build-94-father-forgive-them/n1
+    caption: He had every reason to curse them. Every right to call down judgment.
+    heard  : He had every reason to curse them, every right to call down judgment.
+[OK   ] build-94-father-forgive-them/s34b
+    caption: And they parted his raiment, and cast lots.
+    heard  : and they parted his raiment and cast lots.
+[OK   ] build-94-father-forgive-them/n2b
+    caption: While he hung there, the soldiers divided up his clothes and threw dice for them, right at the foot of the cro
+    heard  : While he hung there, the soldiers divided up his clothes and threw dice for them,  right at the foot of the cr
+[OK   ] build-94-father-forgive-them/n2
+    caption: And instead of a curse, the first words out of his mouth on the cross were a prayer — for the very people driv
+    heard  : And instead of a curse, the first words out of his mouth on the cross were a prayer,  for the very people driv
+[OK   ] build-94-father-forgive-them/j1
+    caption: Father, forgive them; for they know not what they do.
+    heard  : Father, forgive them, for they know not what they do.
+[OK   ] build-94-father-forgive-them/n3
+    caption: Not, forgive them later, if they're sorry. Forgive them now — while it's still happening.
+    heard  : Not, forgive them later if they're sorry.  Forgive them now while it's still happening.
+[OK   ] build-94-father-forgive-them/n4a
+    caption: That is how far his mercy reaches. If it covered the ones killing him,
+    heard  : That is how far his mercy reaches, if it covered the ones killing him.  //  //
+[OK   ] build-94-father-forgive-them/n4b
+    caption: there is no one, and nothing you've done, it can't cover.
+    heard  : There is no one and nothing you've done. It can't cover.
+[OK   ] build-94-father-forgive-them/card
+    caption: His first words on the cross were mercy for the ones who put him there. That mercy has your name in it too.
+    heard  : His first words on the cross were mercy for the ones who put him there.  That mercy has your name in it too.  
+
+1 segment(s) need an ear-check in build-94-father-forgive-them

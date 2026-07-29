@@ -1,0 +1,30 @@
+[OK   ] build-175-mountain-of-the-lords-house/n0
+    caption: In the last days, a mountain would rise above all mountains — not by height, but by drawing every people to it
+    heard  : In the last days, a mountain would rise above all mountains, not by height, but by drawing every people to it.
+[OK   ] build-175-mountain-of-the-lords-house/s1
+    caption: And it shall come to pass in the last days, that the mountain of the LORD's house shall be established in the 
+    heard  : And it shall come to pass in the last days  that the mountain of the Lord's house  shall be established in the
+[OK   ] build-175-mountain-of-the-lords-house/n0b
+    caption: That is Isaiah writing, not God speaking — a prophet describing what he was shown. In the last days, he says, 
+    heard  : That is Isaiah writing, not God speaking, a prophet describing what he was shown. In the last days,  he says, 
+[OK   ] build-175-mountain-of-the-lords-house/s2a
+    caption: And many people shall go and say, Come ye, and let us go up to the mountain of the LORD, to the house of the G
+    heard  : And many people shall go and say,  Come ye, and let us go up to the mountain of the Lord,  to the house of the
+[BAD  ] build-175-mountain-of-the-lords-house/s2b
+    caption: for out of Zion shall go forth the law, and the word of the LORD from Jerusalem.
+    heard  : 4 out of Zion shall go forth the law, and the word of the Lord from Jerusalem.
+     !! 'for' -> heard '-'   (sound match 0%)
+[OK   ] build-175-mountain-of-the-lords-house/n1
+    caption: Nations streaming uphill — not summoned by force, but drawn by invitation. The mountain everyone chooses to cl
+    heard  : Nations streaming uphill, not summoned by force, but drawn by invitation.  The mountain everyone chooses to cl
+[OK   ] build-175-mountain-of-the-lords-house/n2a
+    caption: And from that high place, God's teaching would go out
+    heard  : And from that high place, God's teaching would go out.
+[OK   ] build-175-mountain-of-the-lords-house/n2b
+    caption: to everyone, everywhere.
+    heard  : to everyone everywhere.
+[OK   ] build-175-mountain-of-the-lords-house/card
+    caption: The mountain is open to you. Come, and walk in his paths.
+    heard  : The mountain is open to you. Come and walk in his paths.
+
+1 segment(s) need an ear-check in build-175-mountain-of-the-lords-house

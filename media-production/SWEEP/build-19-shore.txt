@@ -1,0 +1,73 @@
+[OK   ] build-19-shore/n1
+    caption: Peter had sworn he would die before he would ever deny Jesus.
+    heard  : Peter had sworn he would die before he would ever deny Jesus.
+[OK   ] build-19-shore/n2
+    caption: Then, in one terrible night, he denied him three times. The rooster crowed, Jesus turned and looked at him, an
+    heard  : Then, in one terrible night, he denied him three times.  The rooster crowed, Jesus turned and looked at him, a
+[OK   ] build-19-shore/n3
+    caption: After the resurrection, Peter went back to fishing. Back to the old life.
+    heard  : After the resurrection, Peter went back to fishing. Back to the old life.
+[OK   ] build-19-shore/n4
+    caption: It is what people do with a failure they cannot carry. They go back to what they knew before it happened. And 
+    heard  : It is what people do with a failure they cannot carry.  They go back to what they knew before it happened.  An
+[OK   ] build-19-shore/n5
+    caption: At dawn, a figure on the shore called out across the water to the boat.
+    heard  : At dawn, a figure on the shore called out across the water to the boat.
+[OK   ] build-19-shore/j0a
+    caption: Children, have ye any meat?
+    heard  : Children, have ye any meat?
+[OK   ] build-19-shore/n5b
+    caption: Have you caught anything, he called. And they had to say it out loud to a stranger — no. Nothing. All night, n
+    heard  : Have you caught anything he called? And they had to say it out loud to a stranger. No? Nothing.  All night, no
+[OK   ] build-19-shore/j0b
+    caption: Cast the net on the right side of the ship, and ye shall find.
+    heard  : Cast the net on the right side of the ship, and you shall find.
+[OK   ] build-19-shore/n5c
+    caption: Put the net over the right side, he told them, and you will find some. They did — and it came up so full they 
+    heard  : Put the net over the right side, he told them, and you will find some.  They did, and it came up so full they 
+[minor] build-19-shore/n6
+    caption: Then one of them went very still and said, it is the Lord. And Peter did not wait for the boat. He threw himse
+    heard  : Then one of them went very still and said,  It is the Lord. And Peter did not wait for the boat. He threw hims
+      ~ 'shore' -> heard 'sure'   (sound match 80%)
+[minor] build-19-shore/n7
+    caption: When he waded out of the water, he stopped cold. On the sand was a charcoal fire, with fish already laid over 
+    heard  : When he waited out of the water, he stopped cold. On the sand was a charcoal fire,  with fish already laid ove
+      ~ 'waded' -> heard 'waited'   (sound match 80%)
+      ~ 'bread' -> heard 'bred'   (sound match 100%)
+[OK   ] build-19-shore/n8
+    caption: A charcoal fire. The same kind of fire Peter had stood beside in the courtyard the night he denied him. The sm
+    heard  : A charcoal fire. The same kind of fire Peter had stood beside in the courtyard the night,  he denied him. The 
+[OK   ] build-19-shore/n9
+    caption: Jesus did not bring up the denial. He simply had breakfast waiting, and they ate together on the shore in the 
+    heard  : Jesus did not bring up the denial.  He simply had breakfast waiting,  and they ate together on the shore in th
+[OK   ] build-19-shore/n10
+    caption: When breakfast was over, Jesus turned to Peter. Three times, once it seems for each denial, he asked him the s
+    heard  : When breakfast was over, Jesus turned to Peter. Three times, once it seems for each denial,  he asked him the 
+[minor] build-19-shore/j1
+    caption: Simon, son of Jonas, lovest thou me?
+    heard  : Simon, son of Jonas, love his thou me.
+      ~ 'lovest' -> heard 'love his'   (sound match 75%)
+[OK   ] build-19-shore/n11
+    caption: Simon, son of Jonas, do you love me. Not, how could you. Not, prove it. Not one word thrown back at him about 
+    heard  : Simon, son of Jonas, do you love me?  Not, how could you?  Not, prove it.  Not one word thrown back at him abo
+[BAD  ] build-19-shore/s16
+    caption: Yea, Lord; thou knowest that I love thee.
+    heard  : Yeah, Lord, thou knowest that I love thee.
+     !! 'yea' -> heard 'yeah'   (sound match 67%)
+[OK   ] build-19-shore/n12
+    caption: Three times Peter answered him, yes, Lord, you know that I love you. Each time it cost him more, and each time
+    heard  : Three times Peter answered him, Yes, Lord, you know that I love you.  Each time it cost him more, and each tim
+[OK   ] build-19-shore/j2
+    caption: Feed my sheep.
+    heard  : Feed my sheep
+[OK   ] build-19-shore/n13
+    caption: Feed my sheep. To the man who had failed him worst, Jesus handed the biggest job of all. He did not only forgi
+    heard  : Feed my sheep to the man who had failed him worst. Jesus handed the biggest job of all.  He did not only forgi
+[OK   ] build-19-shore/n14
+    caption: That is how good he is. He takes your worst night and hands you back your life, with a purpose bigger than the
+    heard  : That is how good he is. He takes your worst night and hands you back your life,  with a purpose bigger than th
+[OK   ] build-19-shore/card
+    caption: Peter went back to fishing because he thought his failure was final. Is there a failure you have quietly decid
+    heard  : Peter went back to fishing because he thought his failure was final.  Is there a failure you have quietly deci
+
+1 segment(s) need an ear-check in build-19-shore

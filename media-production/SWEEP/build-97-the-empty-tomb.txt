@@ -1,0 +1,43 @@
+[OK   ] build-97-the-empty-tomb/n0
+    caption: Very early on the first day of the week, while it was still dark, the women who loved him came to the tomb car
+    heard  : Very early on the first day of the week, while it was still dark, the women who loved him  came to the tomb ca
+[OK   ] build-97-the-empty-tomb/w3
+    caption: Who shall roll us away the stone from the door of the sepulchre?
+    heard  : Who shall roll us away the stone from the door of the sepulchre?
+[BAD  ] build-97-the-empty-tomb/n0b
+    caption: Who is going to roll the stone away for us? It took several men to move it, and there were only a few women wa
+    heard  : who was going to roll the stone away for us. It took several men to move it, and there were  only a few women 
+     !! 'is' -> heard 'was'   (sound match 67%)
+[OK   ] build-97-the-empty-tomb/n1
+    caption: But when they arrived, the huge stone that had sealed the tomb was rolled away.
+    heard  : But when they arrived, the huge stone that had sealed the tomb was rolled away.
+[OK   ] build-97-the-empty-tomb/n2a
+    caption: They stepped inside — and the body was gone.
+    heard  : They stepped inside and the body was gone.
+[OK   ] build-97-the-empty-tomb/n2b
+    caption: They stood there, confused and afraid.
+    heard  : They stood there, confused and afraid.
+[BAD  ] build-97-the-empty-tomb/n3
+    caption: Then two figures in dazzling clothing stood beside them, and asked a question that has echoed for two thousand
+    heard  : Then two figures in dazzling clothing stood beside them, and asked a question that has  echoed for 2,000 years
+     !! 'two thousand' -> heard '-'   (sound match 0%)
+[OK   ] build-97-the-empty-tomb/s5
+    caption: Why seek ye the living among the dead? He is not here, but is risen:
+    heard  : Why seek ye the living among the dead?  He is not here, but is risen.
+[OK   ] build-97-the-empty-tomb/n4
+    caption: Why do you look for the living among the dead? He is not here — he is risen.
+    heard  : Why do you look for the living among the dead? He is not here. He is risen.
+[OK   ] build-97-the-empty-tomb/s6
+    caption: remember how he spake unto you when he was yet in Galilee, Saying, The Son of man must be delivered into the h
+    heard  : Remember how he spake unto you when he was yet in Galilee, saying,  The Son of Man must be delivered into the 
+[OK   ] build-97-the-empty-tomb/n5a
+    caption: Remember, they said, what he told you back in Galilee — that he would be handed over to sinful men, and crucif
+    heard  : Remember, they said, what he told you back in Galilee, that he would be handed over to  sinful men and crucifi
+[OK   ] build-97-the-empty-tomb/n5b
+    caption: And they remembered.
+    heard  : and they remembered.
+[OK   ] build-97-the-empty-tomb/card
+    caption: The tomb couldn't hold him. Whatever feels dead and sealed shut in your life — he's the God of the rolled-away
+    heard  : The tomb couldn't hold him. Whatever feels dead and sealed shut in your life. He's the god of the  rolled-away
+
+2 segment(s) need an ear-check in build-97-the-empty-tomb

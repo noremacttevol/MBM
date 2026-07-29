@@ -1,0 +1,62 @@
+[OK   ] build-59-feeding-4000/n1
+    caption: Another huge crowd had come to Jesus, this time in a remote and rugged place far from any town. They had been 
+    heard  : Another huge crowd had come to Jesus. This time in a remote and rugged place far from any town.  They had been
+[OK   ] build-59-feeding-4000/jv2
+    caption: I have compassion on the multitude, because they have now been with me three days, and have nothing to eat.
+    heard  : I have compassion on the multitude, because they have now been with me three days, and have nothing to eat.
+[OK   ] build-59-feeding-4000/j3
+    caption: And if I send them away fasting to their own houses, they will faint by the way: for divers of them came from 
+    heard  : And if I send them away fasting to their own houses, they will faint by the way, for divers of them came from 
+[OK   ] build-59-feeding-4000/n1b
+    caption: I feel for these people, he said. They have been with me three days and they have nothing left to eat. And if 
+    heard  : I feel for these people," he said.  They have been with me three days, and they have nothing left to eat.  And
+[OK   ] build-59-feeding-4000/n2
+    caption: He would not just send them off. So he turned to his disciples; but they were baffled.
+    heard  : He would not just send them off. So he turned to his disciples, but they were baffled.
+[BAD  ] build-59-feeding-4000/s4
+    caption: From whence can a man satisfy these men with bread here in the wilderness?
+    heard  : From what's can a man satisfy these men with bread here in the wilderness?
+     !! 'whence' -> heard 'whats'   (sound match 33%)
+[BAD  ] build-59-feeding-4000/n2b
+    caption: Where out here, they said, could anybody get enough bread to fill a crowd this size? They were standing in a w
+    heard  : We're out here," they said.  Could anybody get enough bread to fill a crowd this size?  They were standing in 
+      ~ 'where' -> heard 'were'   (sound match 100%)
+     !! 'five thousand' -> heard '-'   (sound match 0%)
+[OK   ] build-59-feeding-4000/n3
+    caption: Jesus did not scold them for it. He just asked them what they already had.
+    heard  : Jesus did not scold them for it.  He just asked them what they already had.
+[OK   ] build-59-feeding-4000/j5
+    caption: How many loaves have ye?
+    heard  : How many loaves have ye?
+[BAD  ] build-59-feeding-4000/s5
+    caption: Seven.
+    heard  : 7.
+     !! 'seven' -> heard '-'   (sound match 0%)
+[BAD  ] build-59-feeding-4000/n3b
+    caption: How many loaves do you have, he asked. Seven, they said — and a few small fish. It was almost nothing against 
+    heard  : How many loaves do you have?" he asked.  7. They said, in a few small fish.  It was almost nothing against so 
+     !! 'seven' -> heard '-'   (sound match 0%)
+     !! 'and' -> heard 'in'   (sound match 67%)
+[OK   ] build-59-feeding-4000/nbless
+    caption: He had the people sit down on the ground. Then he took the seven loaves, and gave thanks, and broke them, and 
+    heard  : He had the people sit down on the ground. Then he took the seven loaves and gave thanks,  and broke them, and 
+[OK   ] build-59-feeding-4000/n4
+    caption: And once again the food did not run out. The disciples carried bread and fish through the whole multitude, and
+    heard  : And once again the food did not run out. The disciples carried bread and fish through the whole multitude  and
+[OK   ] build-59-feeding-4000/n5
+    caption: When they gathered up what was left over, they filled seven large baskets with the broken pieces. There was fa
+    heard  : When they gathered up what was left over, they filled seven large baskets with the broken pieces.  There was f
+[BAD  ] build-59-feeding-4000/n6
+    caption: About four thousand people were there that day, and every single one of them went home full. Then he sent them
+    heard  : About 4,000 people were there that day, and every single one of them went home full.  Then he sent them away, 
+     !! 'four thousand' -> heard '-'   (sound match 0%)
+     !! 'in' -> heard 'and'   (sound match 67%)
+[OK   ] build-59-feeding-4000/n7
+    caption: He did not owe them a meal. But he saw tired, hungry people a long way from home, and he could not bear to sen
+    heard  : He did not owe them a meal, but he saw tired, hungry people a long way from home,  and he could not bear to se
+[BAD  ] build-59-feeding-4000/card
+    caption: He notices what everyone else overlooks, that you are tired, that you are running on empty, that you have come
+    heard  : He notices what everyone else overlooks, that you are tired, that you are running on empty,  that you have com
+     !! 'faint' -> heard 'feign'   (sound match 67%)
+
+6 segment(s) need an ear-check in build-59-feeding-4000

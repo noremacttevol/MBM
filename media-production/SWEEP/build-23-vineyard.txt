@@ -1,0 +1,74 @@
+[OK   ] build-23-vineyard/n1
+    caption: Jesus said the kingdom of heaven is like a landowner who went out at first light to hire workers for his viney
+    heard  : Jesus said the Kingdom of Heaven is like a landowner who went out at first light to hire workers for his viney
+[minor] build-23-vineyard/n2
+    caption: He agreed with the first crew on a penny for the day — a full day's fair wage — and sent them out into the row
+    heard  : He agreed with the first crew on a penny for the day, a full day's fair wage, and sent them out into the rose.
+      ~ 'rows' -> heard 'rose'   (sound match 80%)
+[OK   ] build-23-vineyard/n3
+    caption: A few hours later he went back to the market and found more men just standing around with no work. He sent the
+    heard  : A few hours later he went back to the market and found more men just standing around with no work.  He sent th
+[OK   ] build-23-vineyard/n4
+    caption: He did the same thing again at noon, and again in the middle of the afternoon. More workers, the same promise.
+    heard  : He did the same thing again at noon and again in the middle of the afternoon. More workers,  the same promise.
+[OK   ] build-23-vineyard/n5
+    caption: Then, with only one hour of daylight left, he went out a final time and found still more men standing idle.
+    heard  : Then, with only one hour of daylight left, he went out a final time and found still more  men standing idle.
+[OK   ] build-23-vineyard/j6
+    caption: Why stand ye here all the day idle?
+    heard  : Why stand ye here all the day idle?
+[OK   ] build-23-vineyard/j7a
+    caption: Because no man hath hired us.
+    heard  : Because no man hath hired us.
+[OK   ] build-23-vineyard/n5b
+    caption: Why have you stood here all day doing nothing, he asked them. Because no one hired us, they said. Not lazy. No
+    heard  : Why have you stood here all day doing nothing?" he asked them.  Because no one hired us. They said. Not lazy. 
+[OK   ] build-23-vineyard/j7b
+    caption: Go ye also into the vineyard; and whatsoever is right, that shall ye receive.
+    heard  : Go ye also into the vineyard, and whatsoever is right, that shall ye receive.
+[OK   ] build-23-vineyard/n6
+    caption: You go into the vineyard too, he told them, and whatever is right, that is what you will get. One hour of dayl
+    heard  : You go into the vineyard too, he told them, and whatever is right, that is what you will get.  One hour of day
+[OK   ] build-23-vineyard/n7
+    caption: When evening came, the owner told his foreman to call the workers and pay them — starting, strangely, with the
+    heard  : When evening came, the owner told his foreman to call the workers and pay them, starting  strangely with the o
+[OK   ] build-23-vineyard/n8
+    caption: The men who had worked a single hour came up first, and each of them was handed a full day's pay. A whole penn
+    heard  : The men who had worked a single hour came up first, and each of them was handed a full day's pay,  a whole pen
+[OK   ] build-23-vineyard/n9
+    caption: You can guess what the men who had worked since dawn were thinking. If the one-hour crew got a full penny, sur
+    heard  : You can guess what the men who had worked since dawn were thinking. If the one-hour crew got a full  penny, su
+[OK   ] build-23-vineyard/n10
+    caption: But when their turn came, they got the very same — one penny. And they were furious.
+    heard  : But when their turn came, they got the very same, one penny, and they were furious.  //
+[OK   ] build-23-vineyard/j12
+    caption: These last have wrought but one hour, and thou hast made them equal unto us, which have borne the burden and h
+    heard  : These last have wrought but one hour, and thou hast made them equal unto us, which have borne the burden and h
+[OK   ] build-23-vineyard/n10b
+    caption: These men worked one hour, they said, and you have made them equal to us — and we carried the whole day and th
+    heard  : These men worked one hour, they said, and you have made them equal to us, and we carried  the whole day and th
+[OK   ] build-23-vineyard/n11
+    caption: The owner turned to one of them, and he was not harsh about it. He called him friend.
+    heard  : The owner turned to one of them, and he was not harsh about it. He called him friend.  //
+[BAD  ] build-23-vineyard/j1
+    caption: Friend, I do thee no wrong: didst not thou agree with me for a penny? Take that thine is, and go thy way: I wi
+    heard  : Friend, I do thee know wrong, didst not thou agree with me for a penny?  Take that thine is, and go thy way, I
+     !! 'no' -> heard 'know'   (sound match 50%)
+     !! 'eye' -> heard 'i'   (sound match 0%)
+[OK   ] build-23-vineyard/n12
+    caption: In other words: I have not cheated you. You got exactly what we agreed on. Why is my kindness to someone else 
+    heard  : In other words, I have not cheated you. You got exactly what we agreed on. Why is my kindness to  someone else
+[OK   ] build-23-vineyard/n13
+    caption: That is the whole point. The first men were not underpaid. They got everything they were promised. What stung 
+    heard  : That is the whole point. The first men were not underpaid. They got everything they were promised.  What stung
+[OK   ] build-23-vineyard/j2
+    caption: So the last shall be first, and the first last: for many be called, but few chosen.
+    heard  : So the last shall be first, and the first last, for many be called, but few chosen.
+[OK   ] build-23-vineyard/n14
+    caption: God does not run low on generosity when he spends it on someone who came late. His goodness is never used up. 
+    heard  : God does not run low on generosity when He spends it on someone who came late. His goodness is never  used up.
+[OK   ] build-23-vineyard/card
+    caption: You have not missed your chance by coming late. Will you come into the vineyard now?
+    heard  : You have not missed your chance by coming late. Will you come into the vineyard now?  //
+
+1 segment(s) need an ear-check in build-23-vineyard

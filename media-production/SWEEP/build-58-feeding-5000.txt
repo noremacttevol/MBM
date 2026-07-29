@@ -1,0 +1,62 @@
+[OK   ] build-58-feeding-5000/n1
+    caption: A huge crowd had followed Jesus to a lonely green hillside beside the lake, hungry to hear him and to be heale
+    heard  : A huge crowd had followed Jesus to a lonely green hillside beside the lake, hungry to hear him and to be heale
+[OK   ] build-58-feeding-5000/n2
+    caption: His disciples grew anxious as the light went. But Jesus turned it back on them. He looked up at the crowd comi
+    heard  : His disciples grew anxious as the light went, but Jesus turned it back on them.  He looked up at the crowd com
+[minor] build-58-feeding-5000/j5
+    caption: Whence shall we buy bread, that these may eat?
+    heard  : When shall we buy bread that these may eat?
+      ~ 'whence' -> heard 'when'   (sound match 80%)
+[OK   ] build-58-feeding-5000/n2b
+    caption: Where are we going to buy bread for these people to eat? He was not worried. John tells us plainly that he alr
+    heard  : Where are we going to buy bread for these people to eat? He was not worried. John tells us plainly  that he al
+[OK   ] build-58-feeding-5000/n3
+    caption: There was only one lunch in the whole crowd. Andrew, Simon Peter's brother, brought a boy to Jesus, almost emb
+    heard  : There was only one lunch in the whole crowd. Andrew, Simon Peter's brother, brought a boy to Jesus.  Almost em
+[BAD  ] build-58-feeding-5000/s9
+    caption: There is a lad here, which hath five barley loaves, and two small fishes: but what are they among so many?
+    heard  : There is a lad here, which have five barley loaves and two small fishes.  But what are they among so many?
+     !! 'hath' -> heard 'have'   (sound match 40%)
+[OK   ] build-58-feeding-5000/n3b
+    caption: There's a boy here with five little barley loaves and two small fish, he said — but what is that among so many
+    heard  : There's a boy here with five little barley loaves and two small fish, he said. But what  is that among so many
+[OK   ] build-58-feeding-5000/n4
+    caption: Jesus was not troubled by how little there was. He said simply:
+    heard  : Jesus was not troubled by how little there was.  He said simply,
+[OK   ] build-58-feeding-5000/j10
+    caption: Make the men sit down.
+    heard  : Make the men sit down.
+[BAD  ] build-58-feeding-5000/n4b
+    caption: Have everyone sit down. And they settled in groups on the green grass, five thousand men, besides women and ch
+    heard  : Have everyone sit down, and they settled in groups on the green grass, 5,000 men, besides  women and children,
+     !! 'five thousand' -> heard '-'   (sound match 0%)
+[OK   ] build-58-feeding-5000/nbless
+    caption: Then he took the five loaves and the two fish, and looking up to heaven, he gave thanks, and broke the bread.
+    heard  : Then he took the five loaves and the two fish, and looking up to heaven, he gave thanks and broke the bread.
+[OK   ] build-58-feeding-5000/n5
+    caption: And the food did not run out. The disciples carried it through the crowd, and it kept coming, bread and fish, 
+    heard  : and the food did not run out. The disciples carried it through the crowd,  and it kept coming bread and fish m
+[OK   ] build-58-feeding-5000/jv12
+    caption: Gather up the fragments that remain, that nothing be lost.
+    heard  : Gather up the fragments that remain, that nothing be lost.
+[OK   ] build-58-feeding-5000/n6
+    caption: Pick up every scrap that's left, he said. Let nothing go to waste. So they went through the crowd and gathered
+    heard  : Pick up every scrap that's left, he said. Let nothing go to waste. So they went through the crowd and  gathere
+[OK   ] build-58-feeding-5000/n7
+    caption: When the people saw the sign, they were amazed, and began to say:
+    heard  : When the people saw the sign, they were amazed and began to say,
+[minor] build-58-feeding-5000/s14
+    caption: This is of a truth that prophet that should come into the world.
+    heard  : This is of a truth, that profit, that should come into the world.
+      ~ 'prophet' -> heard 'profit'   (sound match 100%)
+[OK   ] build-58-feeding-5000/n7b
+    caption: This really is the Prophet who was promised, they said — the one who was to come into the world. He had taken 
+    heard  : This really is the prophet who was promised, they said, the one who was to come into the world.  He had taken 
+[minor] build-58-feeding-5000/card
+    caption: He still takes the little you have, the not-enough, the barely-anything, the lunch you are embarrassed to offe
+    heard  : He still takes the little you have, the not enough, the barely anything, the lunch you are  embarrassed to off
+      ~ 'notenough' -> heard 'not enough'   (sound match 100%)
+      ~ 'barelyanything' -> heard 'barely anything'   (sound match 100%)
+
+2 segment(s) need an ear-check in build-58-feeding-5000

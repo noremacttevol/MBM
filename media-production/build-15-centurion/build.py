@@ -54,7 +54,7 @@ S11 = "s11-healing.jpeg"
 S12 = "s12-reunion.jpeg"
 
 # Caption text = verbatim spoken text, keyed by segment name.
-TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
+TEXT = {s[0]: (s[4] if len(s) >= 5 else s[2]) for s in make_narration.SEGMENTS}
 KJV = {"j1", "j2", "j2b", "j3"}
 
 # BEATS: (segment_name, still, zoom_dir). One still-drift beat per narration

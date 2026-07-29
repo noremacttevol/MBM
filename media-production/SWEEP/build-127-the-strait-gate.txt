@@ -1,0 +1,34 @@
+[OK   ] build-127-the-strait-gate/n0
+    caption: Jesus stood before the crowd and described two roads — two ways that every person gets to choose.
+    heard  : Jesus stood before the crowd and described two roads, two ways that every person gets to choose.
+[minor] build-127-the-strait-gate/j1
+    caption: Enter ye in at the strait gate: for wide is the gate, and broad is the way, that leadeth to destruction, and m
+    spoken : Enter ye in at the strait gate: for wide is the gate, and broad is the way, that leedeth to destruction, and m
+    heard  : Enter ye in at the straight gate, for wide is the gate, and broad is the way, that leadeth to destruction, and
+      ~ 'strait' -> heard 'straight'   (sound match 80%)
+      ~ 'thereat' -> heard 'there at'   (sound match 100%)
+[OK   ] build-127-the-strait-gate/n1
+    caption: One road looks easy. The gate is wide, the path is broad, and a lot of people walk that way.
+    heard  : One road looks easy. The gate is wide, the path is broad, and a lot of people walk that way.
+[minor] build-127-the-strait-gate/j2
+    caption: Because strait is the gate, and narrow is the way, which leadeth unto life, and few there be that find it.
+    spoken : Because strait is the gate, and narrow is the way, which leedeth unto life, and few there be that find it.
+    heard  : Because straight is the gate, and narrow is the way, which leadeth unto life, and few there be that find it.
+      ~ 'strait' -> heard 'straight'   (sound match 80%)
+[OK   ] build-127-the-strait-gate/n2
+    caption: The other road looks harder. The gate is narrow, the path is tight, and far fewer find it.
+    heard  : The other road looks harder. The gate is narrow, the path is tight, and far fewer find it.
+[OK   ] build-127-the-strait-gate/n3a
+    caption: He wasn't describing geography. He was describing a decision.
+    heard  : He wasn't describing geography. He was describing a decision.  //
+[OK   ] build-127-the-strait-gate/n3b
+    caption: A narrow gate that leads to life, found by the few who choose it.
+    heard  : A narrow gate that leads to life, found by the few who choose it.
+[OK   ] build-127-the-strait-gate/n4
+    caption: He never said the narrow way would be crowded. He said it leads to life. Both gates are standing open right no
+    heard  : He never said the narrow way would be crowded. He said it leads to life. Both gates are standing  open right n
+[OK   ] build-127-the-strait-gate/card
+    caption: There are two gates, and one choice. He said the narrow way is worth finding. Step through.
+    heard  : There are two gates and one choice. He said the narrow way is worth finding. Step through.
+
+0 segment(s) need an ear-check in build-127-the-strait-gate

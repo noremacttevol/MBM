@@ -1,0 +1,1773 @@
+[
+ {
+  "build": "build-01-cloak",
+  "segment": "build-01-cloak/n1",
+  "word": "twelve",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-01-cloak",
+  "segment": "build-01-cloak/n2b",
+  "word": "twelve",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-01-cloak",
+  "segment": "build-01-cloak/n5",
+  "word": "twelve",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-05-bent-woman",
+  "segment": "build-05-bent-woman/n0",
+  "word": "eighteen",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-05-bent-woman",
+  "segment": "build-05-bent-woman/n0",
+  "word": "eighteen",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-05-bent-woman",
+  "segment": "build-05-bent-woman/n0",
+  "word": "eighteen",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-05-bent-woman",
+  "segment": "build-05-bent-woman/n5b",
+  "word": "eighteen",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-05-bent-woman",
+  "segment": "build-05-bent-woman/n6",
+  "word": "eighteen",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-05-bent-woman",
+  "segment": "build-05-bent-woman/n7b",
+  "word": "eighteen",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-05-bent-woman",
+  "segment": "build-05-bent-woman/n10",
+  "word": "eighteen",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-07-peter-water",
+  "segment": "build-07-peter-water/n0",
+  "word": "five thousand",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-07-peter-water",
+  "segment": "build-07-peter-water/n10",
+  "word": "had",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-08-lost-coin",
+  "segment": "build-08-lost-coin/n1",
+  "word": "ten",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-08-lost-coin",
+  "segment": "build-08-lost-coin/n4",
+  "word": "one",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-08-lost-coin",
+  "segment": "build-08-lost-coin/n4",
+  "word": "ten",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-08-lost-coin",
+  "segment": "build-08-lost-coin/n5",
+  "word": "one",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-08-lost-coin",
+  "segment": "build-08-lost-coin/n5",
+  "word": "one",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-10-well",
+  "segment": "build-10-well/n1",
+  "word": "seven hundred",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-109-ask-seek-knock",
+  "segment": "build-109-ask-seek-knock/n2",
+  "word": "three",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-11-storm",
+  "segment": "build-11-storm/n2",
+  "word": "seven hundred",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-11-storm",
+  "segment": "build-11-storm/n2",
+  "word": "a hundred",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-114-abraham-sodom",
+  "segment": "build-114-abraham-sodom/jv32",
+  "word": "tens",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-114-abraham-sodom",
+  "segment": "build-114-abraham-sodom/n6b",
+  "word": "ten",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-114-abraham-sodom",
+  "segment": "build-114-abraham-sodom/n6b",
+  "word": "ten",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-117-hosea-buys-her-back",
+  "segment": "build-117-hosea-buys-her-back/s32",
+  "word": "fifteen",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-117-hosea-buys-her-back",
+  "segment": "build-117-hosea-buys-her-back/n6",
+  "word": "fifteen",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-117-hosea-buys-her-back",
+  "segment": "build-117-hosea-buys-her-back/n8w",
+  "word": "then",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-118-jonah-god-who-relents",
+  "segment": "build-118-jonah-god-who-relents/n9",
+  "word": "a hundred and twenty thousand",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-118-jonah-god-who-relents",
+  "segment": "build-118-jonah-god-who-relents/card",
+  "word": "a hundred thousand",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-119-fourth-man-in-fire",
+  "segment": "build-119-fourth-man-in-fire/n1",
+  "word": "ninety",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-13-roof",
+  "segment": "build-13-roof/s7",
+  "word": "thus",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-14-ten-lepers",
+  "segment": "build-14-ten-lepers/n1",
+  "word": "ten",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-14-ten-lepers",
+  "segment": "build-14-ten-lepers/n1",
+  "word": "ten",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-150-shepherd-psalm",
+  "segment": "build-150-shepherd-psalm/n0",
+  "word": "three thousand",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-156-famine-of-hearing",
+  "segment": "build-156-famine-of-hearing/n7",
+  "word": "ache",
+  "heard": "egg",
+  "score": 0
+ },
+ {
+  "build": "build-165-laying-on-hands",
+  "segment": "build-165-laying-on-hands/kv17",
+  "word": "they",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-196-would-god-all-were-prophets",
+  "segment": "build-196-would-god-all-were-prophets/n1a",
+  "word": "seventy",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-21-lost-sheep",
+  "segment": "build-21-lost-sheep/j1",
+  "word": "ninety",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-21-lost-sheep",
+  "segment": "build-21-lost-sheep/j1",
+  "word": "nine",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-21-lost-sheep",
+  "segment": "build-21-lost-sheep/n4",
+  "word": "ninetynine",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-21-lost-sheep",
+  "segment": "build-21-lost-sheep/n5",
+  "word": "ninetynine",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-22-unmerciful-servant",
+  "segment": "build-22-unmerciful-servant/n4",
+  "word": "ten thousand",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-22-unmerciful-servant",
+  "segment": "build-22-unmerciful-servant/n4",
+  "word": "ten thousand",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-23-vineyard",
+  "segment": "build-23-vineyard/j1",
+  "word": "eye",
+  "heard": "i",
+  "score": 0
+ },
+ {
+  "build": "build-27-leaven",
+  "segment": "build-27-leaven/n3",
+  "word": "a hundred",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-31-ten-virgins",
+  "segment": "build-31-ten-virgins/n0",
+  "word": "ten",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-31-ten-virgins",
+  "segment": "build-31-ten-virgins/n2",
+  "word": "ten",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-31-ten-virgins",
+  "segment": "build-31-ten-virgins/n5",
+  "word": "ten",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-36-shrewd-steward",
+  "segment": "build-36-shrewd-steward/j6",
+  "word": "fifty",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-36-shrewd-steward",
+  "segment": "build-36-shrewd-steward/n5",
+  "word": "a hundred",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-36-shrewd-steward",
+  "segment": "build-36-shrewd-steward/n5",
+  "word": "fifty",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-36-shrewd-steward",
+  "segment": "build-36-shrewd-steward/n6",
+  "word": "eighty",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-38-persistent-widow",
+  "segment": "build-38-persistent-widow/s1",
+  "word": "ought",
+  "heard": "are",
+  "score": 0
+ },
+ {
+  "build": "build-41-counting-the-cost",
+  "segment": "build-41-counting-the-cost/j5",
+  "word": "ten thousand",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-41-counting-the-cost",
+  "segment": "build-41-counting-the-cost/j5",
+  "word": "twenty thousand",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-41-counting-the-cost",
+  "segment": "build-41-counting-the-cost/n8",
+  "word": "ten thousand",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-41-counting-the-cost",
+  "segment": "build-41-counting-the-cost/n8",
+  "word": "twenty thousand",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-44-two-debtors",
+  "segment": "build-44-two-debtors/j2",
+  "word": "five hundred",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-44-two-debtors",
+  "segment": "build-44-two-debtors/j2",
+  "word": "fifty",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-49-water-to-wine",
+  "segment": "build-49-water-to-wine/n7",
+  "word": "twenty",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-49-water-to-wine",
+  "segment": "build-49-water-to-wine/n7",
+  "word": "thirty",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-50-noblemans-son",
+  "segment": "build-50-noblemans-son/n2",
+  "word": "twenty",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-57-jairus-daughter",
+  "segment": "build-57-jairus-daughter/n1b",
+  "word": "twelve",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-57-jairus-daughter",
+  "segment": "build-57-jairus-daughter/n6",
+  "word": "twelve",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-58-feeding-5000",
+  "segment": "build-58-feeding-5000/n4b",
+  "word": "five thousand",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-59-feeding-4000",
+  "segment": "build-59-feeding-4000/n2b",
+  "word": "five thousand",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-59-feeding-4000",
+  "segment": "build-59-feeding-4000/s5",
+  "word": "seven",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-59-feeding-4000",
+  "segment": "build-59-feeding-4000/n3b",
+  "word": "seven",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-59-feeding-4000",
+  "segment": "build-59-feeding-4000/n6",
+  "word": "four thousand",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-60-gerasene-demoniac",
+  "segment": "build-60-gerasene-demoniac/n6",
+  "word": "two thousand",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-60-gerasene-demoniac",
+  "segment": "build-60-gerasene-demoniac/n7",
+  "word": "two thousand",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-60-gerasene-demoniac",
+  "segment": "build-60-gerasene-demoniac/n9",
+  "word": "ten",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-64-pool-of-bethesda",
+  "segment": "build-64-pool-of-bethesda/n1",
+  "word": "thirtyeight",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-64-pool-of-bethesda",
+  "segment": "build-64-pool-of-bethesda/n3",
+  "word": "thirtyeight",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-64-pool-of-bethesda",
+  "segment": "build-64-pool-of-bethesda/n4",
+  "word": "thirtyeight",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-64-pool-of-bethesda",
+  "segment": "build-64-pool-of-bethesda/n5b",
+  "word": "thirtyeight",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-65-help-mine-unbelief",
+  "segment": "build-65-help-mine-unbelief/n1",
+  "word": "boy",
+  "heard": "voice",
+  "score": 0
+ },
+ {
+  "build": "build-66-malchus-ear",
+  "segment": "build-66-malchus-ear/n3",
+  "word": "twelve",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-69-baptism",
+  "segment": "build-69-baptism/n6",
+  "word": "three",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-70-temptations",
+  "segment": "build-70-temptations/n1",
+  "word": "forty",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-70-temptations",
+  "segment": "build-70-temptations/n1",
+  "word": "forty",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-74-woman-washed-his-feet",
+  "segment": "build-74-woman-washed-his-feet/j41",
+  "word": "five hundred",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-74-woman-washed-his-feet",
+  "segment": "build-74-woman-washed-his-feet/j41",
+  "word": "fifty",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-74-woman-washed-his-feet",
+  "segment": "build-74-woman-washed-his-feet/n4",
+  "word": "ten",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-79-the-seventy-sent",
+  "segment": "build-79-the-seventy-sent/n0",
+  "word": "seventy",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-79-the-seventy-sent",
+  "segment": "build-79-the-seventy-sent/n0",
+  "word": "two",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-79-the-seventy-sent",
+  "segment": "build-79-the-seventy-sent/n0",
+  "word": "two",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-82-anointing-at-bethany",
+  "segment": "build-82-anointing-at-bethany/s4",
+  "word": "three hundred",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-82-anointing-at-bethany",
+  "segment": "build-82-anointing-at-bethany/n2b",
+  "word": "three hundred",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-84-no-room-manger",
+  "segment": "build-84-no-room-manger/n2",
+  "word": "ninety",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-87-boy-in-the-temple",
+  "segment": "build-87-boy-in-the-temple/n0a",
+  "word": "twelve",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-87-boy-in-the-temple",
+  "segment": "build-87-boy-in-the-temple/n2c",
+  "word": "twelve",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-88-triumphal-entry",
+  "segment": "build-88-triumphal-entry/jv2",
+  "word": "ought",
+  "heard": "odd",
+  "score": 0
+ },
+ {
+  "build": "build-97-the-empty-tomb",
+  "segment": "build-97-the-empty-tomb/n3",
+  "word": "two thousand",
+  "heard": "-",
+  "score": 0
+ },
+ {
+  "build": "build-171-baptized-for-the-dead",
+  "segment": "build-171-baptized-for-the-dead/s20",
+  "word": "slept",
+  "heard": "sucked",
+  "score": 25
+ },
+ {
+  "build": "build-160-stone-cut",
+  "segment": "build-160-stone-cut/kv45",
+  "word": "sawest",
+  "heard": "sauced",
+  "score": 29
+ },
+ {
+  "build": "build-92-peters-denial",
+  "segment": "build-92-peters-denial/n5b",
+  "word": "wept",
+  "heard": "walked",
+  "score": 29
+ },
+ {
+  "build": "build-129-nazareth-only-a-few",
+  "segment": "build-129-nazareth-only-a-few/n3b",
+  "word": "is all",
+  "heard": "his own",
+  "score": 33
+ },
+ {
+  "build": "build-196-would-god-all-were-prophets",
+  "segment": "build-196-would-god-all-were-prophets/n2",
+  "word": "seventy",
+  "heard": "s",
+  "score": 33
+ },
+ {
+  "build": "build-59-feeding-4000",
+  "segment": "build-59-feeding-4000/s4",
+  "word": "whence",
+  "heard": "whats",
+  "score": 33
+ },
+ {
+  "build": "build-72-calling-matthew",
+  "segment": "build-72-calling-matthew/s11",
+  "word": "eateth",
+  "heard": "you test",
+  "score": 33
+ },
+ {
+  "build": "build-104-boy-samuel",
+  "segment": "build-104-boy-samuel/n3",
+  "word": "eli",
+  "heard": "elying",
+  "score": 40
+ },
+ {
+  "build": "build-106-god-spake-by-prophets",
+  "segment": "build-106-god-spake-by-prophets/n3",
+  "word": "write",
+  "heard": "ride",
+  "score": 40
+ },
+ {
+  "build": "build-120-job-from-whirlwind",
+  "segment": "build-120-job-from-whirlwind/s425",
+  "word": "eye seeth",
+  "heard": "i see",
+  "score": 40
+ },
+ {
+  "build": "build-132-forbid-him-not",
+  "segment": "build-132-forbid-him-not/s38",
+  "word": "in thy",
+  "heard": "nine",
+  "score": 40
+ },
+ {
+  "build": "build-14-ten-lepers",
+  "segment": "build-14-ten-lepers/n0",
+  "word": "seam",
+  "heard": "scene",
+  "score": 40
+ },
+ {
+  "build": "build-148-ruth-and-the-redeemer",
+  "segment": "build-148-ruth-and-the-redeemer/w1b",
+  "word": "ought",
+  "heard": "awt",
+  "score": 40
+ },
+ {
+  "build": "build-161-called-of-god",
+  "segment": "build-161-called-of-god/n8",
+  "word": "a bowed",
+  "heard": "about",
+  "score": 40
+ },
+ {
+  "build": "build-165-laying-on-hands",
+  "segment": "build-165-laying-on-hands/s15",
+  "word": "were",
+  "heard": "would",
+  "score": 40
+ },
+ {
+  "build": "build-49-water-to-wine",
+  "segment": "build-49-water-to-wine/n2",
+  "word": "cana",
+  "heard": "knew",
+  "score": 40
+ },
+ {
+  "build": "build-50-noblemans-son",
+  "segment": "build-50-noblemans-son/n2",
+  "word": "obeyed",
+  "heard": "a bait",
+  "score": 40
+ },
+ {
+  "build": "build-62-ephphatha",
+  "segment": "build-62-ephphatha/n5",
+  "word": "knot",
+  "heard": "nod",
+  "score": 40
+ },
+ {
+  "build": "build-73-this-day-fulfilled",
+  "segment": "build-73-this-day-fulfilled/s17",
+  "word": "esaias",
+  "heard": "as he wise",
+  "score": 40
+ },
+ {
+  "build": "build-75-woman-taken-in-adultery",
+  "segment": "build-75-woman-taken-in-adultery/n0",
+  "word": "knot",
+  "heard": "nod",
+  "score": 40
+ },
+ {
+  "build": "build-75-woman-taken-in-adultery",
+  "segment": "build-75-woman-taken-in-adultery/n4",
+  "word": "wrote",
+  "heard": "rode",
+  "score": 40
+ },
+ {
+  "build": "build-88-triumphal-entry",
+  "segment": "build-88-triumphal-entry/n2",
+  "word": "rode",
+  "heard": "wrote",
+  "score": 40
+ },
+ {
+  "build": "build-94-father-forgive-them",
+  "segment": "build-94-father-forgive-them/s33",
+  "word": "were",
+  "heard": "would",
+  "score": 40
+ },
+ {
+  "build": "build-07-peter-water",
+  "segment": "build-07-peter-water/n10",
+  "word": "minutes",
+  "heard": "men who had",
+  "score": 44
+ },
+ {
+  "build": "build-114-abraham-sodom",
+  "segment": "build-114-abraham-sodom/s23",
+  "word": "do right",
+  "heard": "to write",
+  "score": 44
+ },
+ {
+  "build": "build-07-peter-water",
+  "segment": "build-07-peter-water/n1",
+  "word": "sea",
+  "heard": "scene",
+  "score": 50
+ },
+ {
+  "build": "build-103-peters-confession",
+  "segment": "build-103-peters-confession/n5",
+  "word": "said",
+  "heard": "set",
+  "score": 50
+ },
+ {
+  "build": "build-104-boy-samuel",
+  "segment": "build-104-boy-samuel/n6",
+  "word": "lay",
+  "heard": "laid",
+  "score": 50
+ },
+ {
+  "build": "build-110-lords-prayer",
+  "segment": "build-110-lords-prayer/n4",
+  "word": "lead",
+  "heard": "leave",
+  "score": 50
+ },
+ {
+  "build": "build-115-ram-in-the-thicket",
+  "segment": "build-115-ram-in-the-thicket/jv12",
+  "word": "fearest",
+  "heard": "fierced",
+  "score": 50
+ },
+ {
+  "build": "build-116-graven-on-his-palms",
+  "segment": "build-116-graven-on-his-palms/jv16",
+  "word": "palms",
+  "heard": "pawns",
+  "score": 50
+ },
+ {
+  "build": "build-119-fourth-man-in-fire",
+  "segment": "build-119-fourth-man-in-fire/n6",
+  "word": "said",
+  "heard": "set",
+  "score": 50
+ },
+ {
+  "build": "build-12-bartimaeus",
+  "segment": "build-12-bartimaeus/n6",
+  "word": "had",
+  "heard": "have",
+  "score": 50
+ },
+ {
+  "build": "build-122-mote-and-beam",
+  "segment": "build-122-mote-and-beam/jv4",
+  "word": "mote",
+  "heard": "mode",
+  "score": 50
+ },
+ {
+  "build": "build-122-mote-and-beam",
+  "segment": "build-122-mote-and-beam/jvB",
+  "word": "mote",
+  "heard": "mode",
+  "score": 50
+ },
+ {
+  "build": "build-148-ruth-and-the-redeemer",
+  "segment": "build-148-ruth-and-the-redeemer/n3",
+  "word": "boaz",
+  "heard": "boass",
+  "score": 50
+ },
+ {
+  "build": "build-150-shepherd-psalm",
+  "segment": "build-150-shepherd-psalm/s5a",
+  "word": "mine",
+  "heard": "my",
+  "score": 50
+ },
+ {
+  "build": "build-157-marvellous-work",
+  "segment": "build-157-marvellous-work/kv14",
+  "word": "hid",
+  "heard": "hit",
+  "score": 50
+ },
+ {
+  "build": "build-16-mary-martha",
+  "segment": "build-16-mary-martha/n7",
+  "word": "said",
+  "heard": "set",
+  "score": 50
+ },
+ {
+  "build": "build-16-mary-martha",
+  "segment": "build-16-mary-martha/w40",
+  "word": "bid",
+  "heard": "bit",
+  "score": 50
+ },
+ {
+  "build": "build-164-unity-of-faith",
+  "segment": "build-164-unity-of-faith/n6",
+  "word": "gem",
+  "heard": "jim",
+  "score": 50
+ },
+ {
+  "build": "build-165-laying-on-hands",
+  "segment": "build-165-laying-on-hands/n6",
+  "word": "gem",
+  "heard": "jim",
+  "score": 50
+ },
+ {
+  "build": "build-166-baptized-properly",
+  "segment": "build-166-baptized-properly/n4",
+  "word": "set",
+  "heard": "said",
+  "score": 50
+ },
+ {
+  "build": "build-166-baptized-properly",
+  "segment": "build-166-baptized-properly/n6",
+  "word": "gem",
+  "heard": "jim",
+  "score": 50
+ },
+ {
+  "build": "build-167-chosen-ordained",
+  "segment": "build-167-chosen-ordained/n5",
+  "word": "and give",
+  "heard": "in gift",
+  "score": 50
+ },
+ {
+  "build": "build-167-chosen-ordained",
+  "segment": "build-167-chosen-ordained/n6",
+  "word": "gem",
+  "heard": "jim",
+  "score": 50
+ },
+ {
+  "build": "build-168-born-water-spirit",
+  "segment": "build-168-born-water-spirit/n6",
+  "word": "gem",
+  "heard": "jim",
+  "score": 50
+ },
+ {
+  "build": "build-169-fulfil-righteousness",
+  "segment": "build-169-fulfil-righteousness/kv17",
+  "word": "lo a",
+  "heard": "lower",
+  "score": 50
+ },
+ {
+  "build": "build-177-make-me-a-sanctuary",
+  "segment": "build-177-make-me-a-sanctuary/n2a",
+  "word": "ark",
+  "heard": "arc",
+  "score": 50
+ },
+ {
+  "build": "build-184-third-heaven",
+  "segment": "build-184-third-heaven/n1",
+  "word": "god",
+  "heard": "got",
+  "score": 50
+ },
+ {
+  "build": "build-31-ten-virgins",
+  "segment": "build-31-ten-virgins/j4",
+  "word": "sell",
+  "heard": "cell",
+  "score": 50
+ },
+ {
+  "build": "build-41-counting-the-cost",
+  "segment": "build-41-counting-the-cost/n12",
+  "word": "sea",
+  "heard": "seemed",
+  "score": 50
+ },
+ {
+  "build": "build-44-two-debtors",
+  "segment": "build-44-two-debtors/n9b",
+  "word": "said",
+  "heard": "set",
+  "score": 50
+ },
+ {
+  "build": "build-48-new-wine-old-bottles",
+  "segment": "build-48-new-wine-old-bottles/n5b",
+  "word": "hole",
+  "heard": "whole",
+  "score": 50
+ },
+ {
+  "build": "build-50-noblemans-son",
+  "segment": "build-50-noblemans-son/n9b",
+  "word": "say",
+  "heard": "save",
+  "score": 50
+ },
+ {
+  "build": "build-51-first-catch-of-fish",
+  "segment": "build-51-first-catch-of-fish/n3b",
+  "word": "lake",
+  "heard": "leg",
+  "score": 50
+ },
+ {
+  "build": "build-57-jairus-daughter",
+  "segment": "build-57-jairus-daughter/n4b",
+  "word": "why",
+  "heard": "while",
+  "score": 50
+ },
+ {
+  "build": "build-66-malchus-ear",
+  "segment": "build-66-malchus-ear/n1",
+  "word": "luke",
+  "heard": "loop",
+  "score": 50
+ },
+ {
+  "build": "build-68-multitudes-mountain",
+  "segment": "build-68-multitudes-mountain/s31",
+  "word": "maimed",
+  "heard": "main",
+  "score": 50
+ },
+ {
+  "build": "build-69-baptism",
+  "segment": "build-69-baptism/s17",
+  "word": "lo a",
+  "heard": "lower",
+  "score": 50
+ },
+ {
+  "build": "build-74-woman-washed-his-feet",
+  "segment": "build-74-woman-washed-his-feet/n4",
+  "word": "said",
+  "heard": "set",
+  "score": 50
+ },
+ {
+  "build": "build-85-shepherds-and-angels",
+  "segment": "build-85-shepherds-and-angels/n2b",
+  "word": "said",
+  "heard": "set",
+  "score": 50
+ },
+ {
+  "build": "build-93-barabbas-goes-free",
+  "segment": "build-93-barabbas-goes-free/n2c",
+  "word": "said",
+  "heard": "set",
+  "score": 50
+ },
+ {
+  "build": "build-184-third-heaven",
+  "segment": "build-184-third-heaven/s1",
+  "word": "knoweth",
+  "heard": "noah",
+  "score": 57
+ },
+ {
+  "build": "build-186-joint-heirs",
+  "segment": "build-186-joint-heirs/s1",
+  "word": "beareth",
+  "heard": "bears",
+  "score": 57
+ },
+ {
+  "build": "build-45-wicked-tenants",
+  "segment": "build-45-wicked-tenants/jv1",
+  "word": "digged a",
+  "heard": "dig the",
+  "score": 57
+ },
+ {
+  "build": "build-77-widows-mite",
+  "segment": "build-77-widows-mite/s42",
+  "word": "and there",
+  "heard": "annette",
+  "score": 57
+ },
+ {
+  "build": "build-120-job-from-whirlwind",
+  "segment": "build-120-job-from-whirlwind/s121",
+  "word": "thither",
+  "heard": "to the earth",
+  "score": 60
+ },
+ {
+  "build": "build-114-abraham-sodom",
+  "segment": "build-114-abraham-sodom/card",
+  "word": "interceding",
+  "heard": "inner seating",
+  "score": 62
+ },
+ {
+  "build": "build-136-healed-in-two-touches",
+  "segment": "build-136-healed-in-two-touches/n0",
+  "word": "in bethsaida",
+  "heard": "and beth ceta",
+  "score": 62
+ },
+ {
+  "build": "build-01-cloak",
+  "segment": "build-01-cloak/s31",
+  "word": "sayest",
+  "heard": "seest",
+  "score": 67
+ },
+ {
+  "build": "build-03-zacchaeus",
+  "segment": "build-03-zacchaeus/s7",
+  "word": "guest",
+  "heard": "guessed",
+  "score": 67
+ },
+ {
+  "build": "build-05-bent-woman",
+  "segment": "build-05-bent-woman/n5a",
+  "word": "knotted",
+  "heard": "nodded",
+  "score": 67
+ },
+ {
+  "build": "build-101-still-small-voice",
+  "segment": "build-101-still-small-voice/jv9",
+  "word": "doest thou",
+  "heard": "do i style",
+  "score": 67
+ },
+ {
+  "build": "build-103-peters-confession",
+  "segment": "build-103-peters-confession/n3",
+  "word": "are",
+  "heard": "were",
+  "score": 67
+ },
+ {
+  "build": "build-106-god-spake-by-prophets",
+  "segment": "build-106-god-spake-by-prophets/card",
+  "word": "where",
+  "heard": "or",
+  "score": 67
+ },
+ {
+  "build": "build-111-lilies-and-sparrows",
+  "segment": "build-111-lilies-and-sparrows/jv30",
+  "word": "wherefore",
+  "heard": "therefore",
+  "score": 67
+ },
+ {
+  "build": "build-111-lilies-and-sparrows",
+  "segment": "build-111-lilies-and-sparrows/jv33",
+  "word": "seek ye",
+  "heard": "sikhi",
+  "score": 67
+ },
+ {
+  "build": "build-111-lilies-and-sparrows",
+  "segment": "build-111-lilies-and-sparrows/n7",
+  "word": "are",
+  "heard": "were",
+  "score": 67
+ },
+ {
+  "build": "build-115-ram-in-the-thicket",
+  "segment": "build-115-ram-in-the-thicket/n3",
+  "word": "climbed",
+  "heard": "cloned",
+  "score": 67
+ },
+ {
+  "build": "build-115-ram-in-the-thicket",
+  "segment": "build-115-ram-in-the-thicket/n3",
+  "word": "climbed",
+  "heard": "cloned",
+  "score": 67
+ },
+ {
+  "build": "build-116-graven-on-his-palms",
+  "segment": "build-116-graven-on-his-palms/jv15",
+  "word": "yea",
+  "heard": "yeah",
+  "score": 67
+ },
+ {
+  "build": "build-118-jonah-god-who-relents",
+  "segment": "build-118-jonah-god-who-relents/n5",
+  "word": "hard",
+  "heard": "heart",
+  "score": 67
+ },
+ {
+  "build": "build-12-bartimaeus",
+  "segment": "build-12-bartimaeus/n3",
+  "word": "mark",
+  "heard": "marx",
+  "score": 67
+ },
+ {
+  "build": "build-120-job-from-whirlwind",
+  "segment": "build-120-job-from-whirlwind/jvB",
+  "word": "canst thou bind",
+  "heard": "cant stop buying",
+  "score": 67
+ },
+ {
+  "build": "build-120-job-from-whirlwind",
+  "segment": "build-120-job-from-whirlwind/s404",
+  "word": "yea",
+  "heard": "yet",
+  "score": 67
+ },
+ {
+  "build": "build-120-job-from-whirlwind",
+  "segment": "build-120-job-from-whirlwind/s425",
+  "word": "ear",
+  "heard": "year",
+  "score": 67
+ },
+ {
+  "build": "build-132-forbid-him-not",
+  "segment": "build-132-forbid-him-not/s38",
+  "word": "followeth",
+  "heard": "followed",
+  "score": 67
+ },
+ {
+  "build": "build-132-forbid-him-not",
+  "segment": "build-132-forbid-him-not/s38",
+  "word": "followeth",
+  "heard": "followed",
+  "score": 67
+ },
+ {
+  "build": "build-135-rainbow-covenant",
+  "segment": "build-135-rainbow-covenant/n2b",
+  "word": "fill it",
+  "heard": "philip",
+  "score": 67
+ },
+ {
+  "build": "build-144-resurrection-and-the-life",
+  "segment": "build-144-resurrection-and-the-life/w21",
+  "word": "hadst been",
+  "heard": "had spent",
+  "score": 67
+ },
+ {
+  "build": "build-144-resurrection-and-the-life",
+  "segment": "build-144-resurrection-and-the-life/w27",
+  "word": "yea",
+  "heard": "yeah",
+  "score": 67
+ },
+ {
+  "build": "build-148-ruth-and-the-redeemer",
+  "segment": "build-148-ruth-and-the-redeemer/w1a",
+  "word": "where",
+  "heard": "wither",
+  "score": 67
+ },
+ {
+  "build": "build-150-shepherd-psalm",
+  "segment": "build-150-shepherd-psalm/s4",
+  "word": "yea",
+  "heard": "yeah",
+  "score": 67
+ },
+ {
+  "build": "build-154-everlasting-gospel",
+  "segment": "build-154-everlasting-gospel/kv6",
+  "word": "tongue",
+  "heard": "town",
+  "score": 67
+ },
+ {
+  "build": "build-154-everlasting-gospel",
+  "segment": "build-154-everlasting-gospel/n4",
+  "word": "carried",
+  "heard": "carry",
+  "score": 67
+ },
+ {
+  "build": "build-161-called-of-god",
+  "segment": "build-161-called-of-god/n3",
+  "word": "holy",
+  "heard": "wholly",
+  "score": 67
+ },
+ {
+  "build": "build-163-apostles-prophets",
+  "segment": "build-163-apostles-prophets/n1",
+  "word": "writing",
+  "heard": "riding",
+  "score": 67
+ },
+ {
+  "build": "build-164-unity-of-faith",
+  "segment": "build-164-unity-of-faith/n7",
+  "word": "are",
+  "heard": "were",
+  "score": 67
+ },
+ {
+  "build": "build-17-lazarus",
+  "segment": "build-17-lazarus/w21",
+  "word": "hadst been",
+  "heard": "had spent",
+  "score": 67
+ },
+ {
+  "build": "build-17-lazarus",
+  "segment": "build-17-lazarus/w27",
+  "word": "yea",
+  "heard": "yeah",
+  "score": 67
+ },
+ {
+  "build": "build-17-lazarus",
+  "segment": "build-17-lazarus/w32",
+  "word": "hadst been",
+  "heard": "had spent",
+  "score": 67
+ },
+ {
+  "build": "build-170-sacrament-worthily",
+  "segment": "build-170-sacrament-worthily/kv25",
+  "word": "do ye",
+  "heard": "de",
+  "score": 67
+ },
+ {
+  "build": "build-186-joint-heirs",
+  "segment": "build-186-joint-heirs/card",
+  "word": "heir",
+  "heard": "air",
+  "score": 67
+ },
+ {
+  "build": "build-19-shore",
+  "segment": "build-19-shore/s16",
+  "word": "yea",
+  "heard": "yeah",
+  "score": 67
+ },
+ {
+  "build": "build-192-the-fast-god-has-chosen",
+  "segment": "build-192-the-fast-god-has-chosen/g7",
+  "word": "seest",
+  "heard": "sayest",
+  "score": 67
+ },
+ {
+  "build": "build-194-fruit-of-the-spirit",
+  "segment": "build-194-fruit-of-the-spirit/n2",
+  "word": "patience",
+  "heard": "patients",
+  "score": 67
+ },
+ {
+  "build": "build-195-prove-all-things",
+  "segment": "build-195-prove-all-things/n1",
+  "word": "weigh it",
+  "heard": "wait",
+  "score": 67
+ },
+ {
+  "build": "build-195-prove-all-things",
+  "segment": "build-195-prove-all-things/card",
+  "word": "weigh it",
+  "heard": "wait",
+  "score": 67
+ },
+ {
+  "build": "build-20-samaritan",
+  "segment": "build-20-samaritan/n2",
+  "word": "are",
+  "heard": "were",
+  "score": 67
+ },
+ {
+  "build": "build-21-lost-sheep",
+  "segment": "build-21-lost-sheep/s2",
+  "word": "receiveth",
+  "heard": "receives",
+  "score": 67
+ },
+ {
+  "build": "build-21-lost-sheep",
+  "segment": "build-21-lost-sheep/s2",
+  "word": "eateth",
+  "heard": "eatseth",
+  "score": 67
+ },
+ {
+  "build": "build-26-mustard-seed",
+  "segment": "build-26-mustard-seed/j1b",
+  "word": "becometh",
+  "heard": "become of",
+  "score": 67
+ },
+ {
+  "build": "build-27-leaven",
+  "segment": "build-27-leaven/s33",
+  "word": "spake he",
+  "heard": "spay key",
+  "score": 67
+ },
+ {
+  "build": "build-29-pearl",
+  "segment": "build-29-pearl/card",
+  "word": "are",
+  "heard": "were",
+  "score": 67
+ },
+ {
+  "build": "build-31-ten-virgins",
+  "segment": "build-31-ten-virgins/n2",
+  "word": "dusk",
+  "heard": "dust",
+  "score": 67
+ },
+ {
+  "build": "build-34-rich-fool",
+  "segment": "build-34-rich-fool/j1",
+  "word": "whose",
+  "heard": "who",
+  "score": 67
+ },
+ {
+  "build": "build-37-rich-man-lazarus",
+  "segment": "build-37-rich-man-lazarus/n9",
+  "word": "send",
+  "heard": "sent",
+  "score": 67
+ },
+ {
+  "build": "build-40-the-friend-at-midnight",
+  "segment": "build-40-the-friend-at-midnight/n16b",
+  "word": "would ever",
+  "heard": "whatever",
+  "score": 67
+ },
+ {
+  "build": "build-41-counting-the-cost",
+  "segment": "build-41-counting-the-cost/j1",
+  "word": "yea",
+  "heard": "yeah",
+  "score": 67
+ },
+ {
+  "build": "build-41-counting-the-cost",
+  "segment": "build-41-counting-the-cost/n8",
+  "word": "second",
+  "heard": "nd",
+  "score": 67
+ },
+ {
+  "build": "build-44-two-debtors",
+  "segment": "build-44-two-debtors/jv44",
+  "word": "seest",
+  "heard": "sayest",
+  "score": 67
+ },
+ {
+  "build": "build-45-wicked-tenants",
+  "segment": "build-45-wicked-tenants/jv7",
+  "word": "heir",
+  "heard": "air",
+  "score": 67
+ },
+ {
+  "build": "build-49-water-to-wine",
+  "segment": "build-49-water-to-wine/n11",
+  "word": "poured",
+  "heard": "port",
+  "score": 67
+ },
+ {
+  "build": "build-51-first-catch-of-fish",
+  "segment": "build-51-first-catch-of-fish/jv4",
+  "word": "draught",
+  "heard": "draft",
+  "score": 67
+ },
+ {
+  "build": "build-51-first-catch-of-fish",
+  "segment": "build-51-first-catch-of-fish/card",
+  "word": "past",
+  "heard": "passed",
+  "score": 67
+ },
+ {
+  "build": "build-52-demoniac-synagogue",
+  "segment": "build-52-demoniac-synagogue/n2",
+  "word": "weight",
+  "heard": "wait",
+  "score": 67
+ },
+ {
+  "build": "build-55-withered-hand",
+  "segment": "build-55-withered-hand/jv5",
+  "word": "forth",
+  "heard": "th",
+  "score": 67
+ },
+ {
+  "build": "build-57-jairus-daughter",
+  "segment": "build-57-jairus-daughter/card",
+  "word": "too",
+  "heard": "two",
+  "score": 67
+ },
+ {
+  "build": "build-59-feeding-4000",
+  "segment": "build-59-feeding-4000/card",
+  "word": "faint",
+  "heard": "feign",
+  "score": 67
+ },
+ {
+  "build": "build-61-syrophoenician-woman",
+  "segment": "build-61-syrophoenician-woman/n0",
+  "word": "mark",
+  "heard": "marx",
+  "score": 67
+ },
+ {
+  "build": "build-63-man-born-blind",
+  "segment": "build-63-man-born-blind/s38",
+  "word": "lord",
+  "heard": "lower",
+  "score": 67
+ },
+ {
+  "build": "build-64-pool-of-bethesda",
+  "segment": "build-64-pool-of-bethesda/n2",
+  "word": "past",
+  "heard": "passed",
+  "score": 67
+ },
+ {
+  "build": "build-65-help-mine-unbelief",
+  "segment": "build-65-help-mine-unbelief/n1",
+  "word": "hurt",
+  "heard": "heard",
+  "score": 67
+ },
+ {
+  "build": "build-66-malchus-ear",
+  "segment": "build-66-malchus-ear/n6",
+  "word": "it whole",
+  "heard": "at hole",
+  "score": 67
+ },
+ {
+  "build": "build-67-transfiguration",
+  "segment": "build-67-transfiguration/n1",
+  "word": "mark",
+  "heard": "marx",
+  "score": 67
+ },
+ {
+  "build": "build-69-baptism",
+  "segment": "build-69-baptism/card",
+  "word": "one",
+  "heard": "when",
+  "score": 67
+ },
+ {
+  "build": "build-71-calling-the-fishermen",
+  "segment": "build-71-calling-the-fishermen/n8",
+  "word": "too",
+  "heard": "two",
+  "score": 67
+ },
+ {
+  "build": "build-72-calling-matthew",
+  "segment": "build-72-calling-matthew/n4",
+  "word": "prove",
+  "heard": "proof",
+  "score": 67
+ },
+ {
+  "build": "build-74-woman-washed-his-feet",
+  "segment": "build-74-woman-washed-his-feet/j44",
+  "word": "seest",
+  "heard": "sayest",
+  "score": 67
+ },
+ {
+  "build": "build-83-weeping-over-jerusalem",
+  "segment": "build-83-weeping-over-jerusalem/s41",
+  "word": "wept",
+  "heard": "leapt",
+  "score": 67
+ },
+ {
+  "build": "build-84-no-room-manger",
+  "segment": "build-84-no-room-manger/n8",
+  "word": "two",
+  "heard": "too",
+  "score": 67
+ },
+ {
+  "build": "build-87-boy-in-the-temple",
+  "segment": "build-87-boy-in-the-temple/j1",
+  "word": "wist",
+  "heard": "wish",
+  "score": 67
+ },
+ {
+  "build": "build-88-triumphal-entry",
+  "segment": "build-88-triumphal-entry/s5",
+  "word": "sion",
+  "heard": "shown",
+  "score": 67
+ },
+ {
+  "build": "build-96-it-is-finished",
+  "segment": "build-96-it-is-finished/s51",
+  "word": "in twain",
+  "heard": "entrained",
+  "score": 67
+ },
+ {
+  "build": "build-104-boy-samuel",
+  "segment": "build-104-boy-samuel/s5a",
+  "word": "thou calledst",
+  "heard": "theyll call us",
+  "score": 71
+ },
+ {
+  "build": "build-196-would-god-all-were-prophets",
+  "segment": "build-196-would-god-all-were-prophets/s1",
+  "word": "enviest thou me",
+  "heard": "and the asthami",
+  "score": 71
+ },
+ {
+  "build": "build-106-god-spake-by-prophets",
+  "segment": "build-106-god-spake-by-prophets/jv1",
+  "word": "past unto",
+  "heard": "pass them to",
+  "score": 73
+ },
+ {
+  "build": "build-12-bartimaeus",
+  "segment": "build-12-bartimaeus/s49",
+  "word": "calleth thee",
+  "heard": "callathy",
+  "score": 73
+ },
+ {
+  "build": "build-150-shepherd-psalm",
+  "segment": "build-150-shepherd-psalm/s2",
+  "word": "maketh",
+  "heard": "mocked with",
+  "score": 73
+ },
+ {
+  "build": "build-150-shepherd-psalm",
+  "segment": "build-150-shepherd-psalm/s3a",
+  "word": "restoreth",
+  "heard": "restored",
+  "score": 73
+ },
+ {
+  "build": "build-169-fulfil-righteousness",
+  "segment": "build-169-fulfil-righteousness/s14",
+  "word": "comest thou",
+  "heard": "comastyle",
+  "score": 73
+ },
+ {
+  "build": "build-22-unmerciful-servant",
+  "segment": "build-22-unmerciful-servant/j5",
+  "word": "desiredst",
+  "heard": "desirced",
+  "score": 73
+ },
+ {
+  "build": "build-27-leaven",
+  "segment": "build-27-leaven/n5",
+  "word": "and waits",
+  "heard": "in weights",
+  "score": 73
+ },
+ {
+  "build": "build-39-the-pharisee-and-the-publican",
+  "segment": "build-39-the-pharisee-and-the-publican/j3",
+  "word": "humbleth",
+  "heard": "humbled",
+  "score": 73
+ },
+ {
+  "build": "build-40-the-friend-at-midnight",
+  "segment": "build-40-the-friend-at-midnight/n14a",
+  "word": "annoyed asleep",
+  "heard": "anoint a sleep",
+  "score": 73
+ },
+ {
+  "build": "build-62-ephphatha",
+  "segment": "build-62-ephphatha/n0",
+  "word": "ten gentile",
+  "heard": "gentiles",
+  "score": 73
+ },
+ {
+  "build": "build-69-baptism",
+  "segment": "build-69-baptism/s14",
+  "word": "comest thou",
+  "heard": "comastyle",
+  "score": 73
+ },
+ {
+  "build": "build-74-woman-washed-his-feet",
+  "segment": "build-74-woman-washed-his-feet/s49",
+  "word": "forgiveth",
+  "heard": "forgives",
+  "score": 73
+ }
+]

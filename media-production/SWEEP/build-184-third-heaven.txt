@@ -1,0 +1,31 @@
+[OK   ] build-184-third-heaven/n0
+    caption: Paul wrote of a man he knew — caught up, in a single moment, far beyond the everyday world.
+    heard  : Paul wrote of a man he knew, caught up in a single moment, far beyond the everyday world.
+[BAD  ] build-184-third-heaven/s1
+    caption: I knew a man in Christ above fourteen years ago, (whether in the body, I cannot tell; or whether out of the bo
+    spoken : I knew a man in Christ above fourteen years ago, whether in the body, I cannot tell; or whether out of the bod
+    heard  : I knew a man in Christ above fourteen years ago.  Whether in the body I cannot tell, or whether out of the bod
+     !! 'knoweth' -> heard 'noah'   (sound match 57%)
+      ~ 'an' -> heard 'in'   (sound match 100%)
+[BAD  ] build-184-third-heaven/n1
+    caption: Whether in the body or out of it, Paul could not say; God alone knew. And from that height, he was carried fur
+    heard  : Whether in the body or out of it, Paul could not say, got alone new.  And from that height, he was carried fur
+     !! 'god' -> heard 'got'   (sound match 50%)
+      ~ 'knew' -> heard 'new'   (sound match 80%)
+[OK   ] build-184-third-heaven/s2
+    caption: How that he was caught up into paradise, and heard unspeakable words, which it is not lawful for a man to utte
+    heard  : How that he was caught up into paradise, and heard unspeakable words, which it is not lawful for a man to utte
+[OK   ] build-184-third-heaven/n2
+    caption: He heard things he was not allowed to repeat — words a person is not permitted to say out loud. He could have 
+    heard  : He heard things he was not allowed to repeat. Words a person is not permitted to say out loud.  He could have 
+[OK   ] build-184-third-heaven/j1
+    caption: My grace is sufficient for thee: for my strength is made perfect in weakness.
+    heard  : My grace is sufficient for thee, for my strength is made perfect in weakness.
+[OK   ] build-184-third-heaven/n3
+    caption: What I give you is enough, the Lord told him. My strength does its best work in the places where you are weake
+    heard  : What I give you is enough, the Lord told him. My strength does its best work in the places where  you are weak
+[OK   ] build-184-third-heaven/card
+    caption: Paul was shown more than words can hold — and still pointed back to grace. There is more ahead than you can im
+    heard  : Paul was shown more than words can hold, and still pointed back to grace. There is more ahead than you can ima
+
+2 segment(s) need an ear-check in build-184-third-heaven

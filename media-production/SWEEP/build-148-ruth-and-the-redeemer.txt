@@ -1,0 +1,65 @@
+[OK   ] build-148-ruth-and-the-redeemer/n0
+    caption: A widow named Naomi lost everything in a foreign land — her husband and both sons buried there.
+    heard  : A widow named Naomi lost everything in a foreign land. Her husband and both sons buried there.
+[OK   ] build-148-ruth-and-the-redeemer/n1
+    caption: She told her two daughters-in-law to go home to their own people. One kissed her and left. But Ruth clung to h
+    heard  : She told her two daughters-in-law to go home to their own people.  One kissed her and left, but Ruth clung to 
+[BAD  ] build-148-ruth-and-the-redeemer/w1a
+    caption: Intreat me not to leave thee, or to return from following after thee: for whither thou goest, I will go; and w
+    spoken : in-treat me not to leave thee, or to return from following after thee: for whither thou goest, I will go; and 
+    heard  : Intreat me not to leave thee, or to return from following after thee.  For wither thou goest, I will go, and w
+      ~ 'whither' -> heard 'wither'   (sound match 100%)
+     !! 'where' -> heard 'wither'   (sound match 67%)
+      ~ 'lodgest' -> heard 'logist'   (sound match 89%)
+[BAD  ] build-148-ruth-and-the-redeemer/w1b
+    caption: Where thou diest, will I die, and there will I be buried: the LORD do so to me, and more also, if ought but de
+    spoken : Where thou diest, will I die, and there will I be buried: the LORD do so to me, and more also, if awt but deat
+    heard  : Without Deest, will I die, and there will I be buried, the Lord do so to me, and more also, if A.W.T. but deat
+      ~ 'where thou diest' -> heard 'without deest'   (sound match 86%)
+     !! 'ought' -> heard 'awt'   (sound match 40%)
+     !! 'and' -> heard 'in'   (sound match 67%)
+[OK   ] build-148-ruth-and-the-redeemer/n2
+    caption: Don't ask me to leave you, Ruth said. Wherever you go, I'm going. Wherever you stay, I'm staying. Your people 
+    heard  : Don't ask me to leave you. Ruth said, wherever you go, I'm going. Wherever you stay, I'm staying.  Your people
+[BAD  ] build-148-ruth-and-the-redeemer/w2a
+    caption: Call me not Naomi, call me Mara: for the Almighty hath dealt very bitterly with me.
+    heard  : Call me not Naomi, call me Mara, for the almighty half dealt very bitterly with me.
+     !! 'hath' -> heard 'half'   (sound match 33%)
+[OK   ] build-148-ruth-and-the-redeemer/w2b
+    caption: I went out full, and the LORD hath brought me home again empty.
+    heard  : I went out full, and the Lord hath brought me home again empty.
+[OK   ] build-148-ruth-and-the-redeemer/n2b
+    caption: Naomi means pleasant. Don't call me that anymore, she said when she got home — call me bitter. I went out with
+    heard  : Naomi means pleasant. Don't call me that anymore. She said when she got home, call me bitter.  I went out with
+[BAD  ] build-148-ruth-and-the-redeemer/n3
+    caption: Ruth gleaned grain in the fields behind the harvesters to keep Naomi fed — and the field belonged to a man nam
+    heard  : Ruth gleaned grain in the fields behind the harvesters to keep Naomi Fed,  and the field belonged to a man nam
+     !! 'boaz' -> heard 'boass'   (sound match 50%)
+[OK   ] build-148-ruth-and-the-redeemer/s1
+    caption: The LORD recompense thy work, and a full reward be given thee of the LORD God of Israel, under whose wings tho
+    heard  : The Lord recompense thy work, and a full reward be given thee of the Lord God of Israel,  under whose wings th
+[BAD  ] build-148-ruth-and-the-redeemer/n4
+    caption: May the Lord pay you back for what you've done, Boaz told her, and may He give you a full reward — the God of 
+    heard  : May the Lord pay you back for what you've done," Boaz told her,  and may he give you a full reward. The God of
+     !! 'a' -> heard 'in'   (sound match 0%)
+[OK   ] build-148-ruth-and-the-redeemer/s2
+    caption: For all the city of my people doth know that thou art a virtuous woman.
+    heard  : For all the city of my people doth know that thou art a virtuous woman.
+[OK   ] build-148-ruth-and-the-redeemer/n5
+    caption: The whole town knows what kind of woman you are, he said. At the threshing floor Ruth had asked him to cover h
+    heard  : The whole town knows what kind of woman you are," he said. At the threshing floor Ruth had asked him  to cover
+[OK   ] build-148-ruth-and-the-redeemer/n6a
+    caption: Before the town gate, in front of witnesses, Boaz bought the right to marry Ruth.
+    heard  : Before the town gate, in front of witnesses, Boaz bought the right to marry Ruth.
+[minor] build-148-ruth-and-the-redeemer/n6b
+    caption: Naomi's emptiness was filled; a son was born, and the neighbour women laid him in her lap.
+    heard  : Naomi's emptiness was filled, a son was born, and the neighbor women laid him in her lap.
+      ~ 'neighbour' -> heard 'neighbor'   (sound match 100%)
+[OK   ] build-148-ruth-and-the-redeemer/n7
+    caption: That boy became the grandfather of King David — and part of the line that leads to the greater Redeemer still 
+    heard  : That boy became the grandfather of King David, and part of the line that leads to the greater  redeemer still 
+[OK   ] build-148-ruth-and-the-redeemer/card
+    caption: Ruth gave up everything to follow the God she'd come to love. He never let her go. Neither will He let you go.
+    heard  : Ruth gave up everything to follow the God she'd come to love.  He never let her go.  Neither will he let you g
+
+5 segment(s) need an ear-check in build-148-ruth-and-the-redeemer

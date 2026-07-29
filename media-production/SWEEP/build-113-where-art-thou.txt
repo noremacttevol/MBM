@@ -1,0 +1,48 @@
+[OK   ] build-113-where-art-thou/n1
+    caption: In the beginning there was a garden, and in the garden, peace. People and God walking together in the cool of 
+    heard  : In the beginning there was a garden, and in the garden, peace.  People and God walking together in the cool of
+[OK   ] build-113-where-art-thou/n2
+    caption: There was only one thing they were asked not to do. And, as people do, they did it anyway — reaching for the o
+    heard  : There was only one thing they were asked not to do, and, as people do, they did it anyway.  Reaching for the o
+[OK   ] build-113-where-art-thou/n3
+    caption: And everything changed. For the first time they felt shame. They saw themselves, and did not like what they sa
+    heard  : and everything changed. For the first time they felt shame, they saw themselves and did not like  what they sa
+[OK   ] build-113-where-art-thou/n4
+    caption: And then they heard him coming — the warm presence of God moving through the garden in the cool of the evening
+    heard  : And then they heard him coming, the warm presence of God moving through the garden in the cool of  the evening
+[BAD  ] build-113-where-art-thou/jv9
+    caption: Where art thou?
+    heard  : Where are thou?
+     !! 'art' -> heard 'are'   (sound match 67%)
+[OK   ] build-113-where-art-thou/n5
+    caption: Where are you. Not, what have you done. Not, how dare you. Where are you — the cry of a Father looking for a c
+    heard  : Where are you? Not. What have you done? Not. How dare you? Where are you? The cry of a father  looking for a c
+[OK   ] build-113-where-art-thou/s10
+    caption: I heard thy voice in the garden, and I was afraid, because I was naked; and I hid myself.
+    heard  : I heard thy voice in the garden, and I was afraid, because I was naked, and I hid myself.
+[OK   ] build-113-where-art-thou/n5b
+    caption: I heard you, and I was afraid, and I hid. That is the whole of it. Not defiance — fear. Shame has never once m
+    heard  : I heard you, and I was afraid, and I hid. That is the whole of it. Not defiance, fear.  Shame has never once m
+[OK   ] build-113-where-art-thou/jv13
+    caption: What is this that thou hast done?
+    heard  : What is this that thou hast done?
+[OK   ] build-113-where-art-thou/w13
+    caption: The serpent beguiled me, and I did eat.
+    heard  : The serpent beguiled me, and I did eat.
+[OK   ] build-113-where-art-thou/n6
+    caption: I was deceived, she said, and I ate. No excuses left — just the truth, spoken out loud at last. There were con
+    heard  : I was deceived, she said, and I ate. No excuses left, just the truth, spoken out loud at last.  There were con
+[OK   ] build-113-where-art-thou/n7
+    caption: And instead, God did something they never expected. He made them clothes. With his own care he covered their s
+    heard  : And instead, God did something they never expected. He made them clothes. With his own care, he covered  their
+[OK   ] build-113-where-art-thou/n8
+    caption: Then he sent them out into the wide world — but not naked, and not alone, and not without a promise. Clothed b
+    heard  : Then he sent them out into the wide world, but not naked and not alone and not without a promise,  clothed by 
+[OK   ] build-113-where-art-thou/n9
+    caption: That is the God of the very first story. Not one who waits for you to clean yourself up and come find him. One
+    heard  : That is the God of the very first story.  Not one who waits for you to clean yourself up and come find him.  O
+[OK   ] build-113-where-art-thou/card
+    caption: The first thing God said to hiding people was not a scolding — it was, where are you? He still comes seeking, 
+    heard  : The first thing God said to hiding people was not a scolding. It was, where are you? He still  comes seeking a
+
+1 segment(s) need an ear-check in build-113-where-art-thou

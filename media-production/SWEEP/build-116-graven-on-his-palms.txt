@@ -1,0 +1,41 @@
+[minor] build-116-graven-on-his-palms/n1
+    caption: There is a particular loneliness that comes from feeling forgotten. Not hated. Just overlooked. Slipped from s
+    heard  : There is a particular loneliness that comes from feeling forgotten. Not hate it. Just overlooked.  Slipped fro
+      ~ 'hated' -> heard 'hate it'   (sound match 80%)
+[OK   ] build-116-graven-on-his-palms/s14
+    caption: But Zion said, The LORD hath forsaken me, and my Lord hath forgotten me.
+    heard  : But Zion said, the Lord hath forsaken me, and my Lord hath forgotten me.
+[OK   ] build-116-graven-on-his-palms/n2
+    caption: That is exactly how God's people felt, and they said it out loud — the Lord has walked away from me, and my Go
+    heard  : That is exactly how God's people felt, and they said it out loud.  The Lord has walked away from me, and my Go
+[OK   ] build-116-graven-on-his-palms/n3
+    caption: He points to the strongest, most instinctive love a human being knows — a mother with her newborn, unable to l
+    heard  : He points to the strongest, most instinctive love a human being knows. A mother with her newborn.  Unable to l
+[BAD  ] build-116-graven-on-his-palms/jv15
+    caption: Can a woman forget her sucking child, that she should not have compassion on the son of her womb? yea, they ma
+    heard  : Can a woman forget her sucking child that she should not have compassion on the son of her womb?  Yeah, they m
+     !! 'yea' -> heard 'yeah'   (sound match 67%)
+[OK   ] build-116-graven-on-his-palms/n4
+    caption: Even if a mother somehow could forget — I never will. And then he says something almost too intimate to imagin
+    heard  : Even if a mother somehow could forget, I never will. And then he says something almost too intimate to  imagin
+[BAD  ] build-116-graven-on-his-palms/jv16
+    caption: Behold, I have graven thee upon the palms of my hands; thy walls are continually before me.
+    heard  : Behold, I have graven thee upon the pawns of my hands, thy walls are continually before  me.
+     !! 'palms' -> heard 'pawns'   (sound match 50%)
+[OK   ] build-116-graven-on-his-palms/n5
+    caption: Graven — engraved, cut in deep, permanent. Not a note he might lose. You are written into the very hands of Go
+    heard  : graven, engraved, cut in deep, permanent. Not a note he might lose. You are written into the very  hands of Go
+[OK   ] build-116-graven-on-his-palms/n6
+    caption: And that changes the person who thought she had been left behind. The same God she feared had forgotten her wa
+    heard  : And that changes the person who thought she had been left behind.  The same God she feared had forgotten her w
+[OK   ] build-116-graven-on-his-palms/n7
+    caption: So if you have ever felt like the one who gets forgotten — the one nobody keeps in mind — hear this slowly.
+    heard  : So if you have ever felt like the one who gets forgotten, the one nobody keeps in mind.  Hear this slowly.
+[OK   ] build-116-graven-on-his-palms/n7b
+    caption: You are not out of sight. You are not out of mind. You are graven on the hands of God, and he has never once l
+    heard  : You are not out of sight. You are not out of mind. You are graven on the hands of God,  and He has never once 
+[OK   ] build-116-graven-on-his-palms/card
+    caption: God told the ones who felt forgotten that he had carved them into his own hands, always before his eyes. You a
+    heard  : God told the ones who felt forgotten that He had carved them into His own hands,  always before His eyes. You 
+
+2 segment(s) need an ear-check in build-116-graven-on-his-palms

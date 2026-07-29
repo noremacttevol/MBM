@@ -1,0 +1,48 @@
+[OK   ] build-122-mote-and-beam/n1
+    caption: Of all the things Jesus taught on that hillside, one of them cuts straight to how we treat each other — and it
+    heard  : Of all the things Jesus taught on that hillside, one of them cuts straight to how we treat each other,  and it
+[minor] build-122-mote-and-beam/jvA
+    caption: Judge not, that ye be not judged. For with what judgment ye judge, ye shall be judged: and with what measure y
+    heard  : Judge not, that ye be not judged.  For with what judgment ye judge, ye shall be judged,  and with what measure
+      ~ 'mete' -> heard 'meet'   (sound match 100%)
+[minor] build-122-mote-and-beam/n2
+    caption: Don't set yourself up as the judge, he said, because whatever standard you hold other people to is the one tha
+    heard  : Don't set yourself up as the judge," he said, because whatever standard you hold other people to is the one th
+      ~ 'mote' -> heard 'moat'   (sound match 100%)
+[minor] build-122-mote-and-beam/jv3
+    caption: And why beholdest thou the mote that is in thy brother's eye, but considerest not the beam that is in thine ow
+    heard  : And why beholdest thou the moat that is in thy brother's eye, but considerest not the beam that is in thine ow
+      ~ 'mote' -> heard 'moat'   (sound match 100%)
+[minor] build-122-mote-and-beam/n3
+    caption: Why do you stare at the speck of sawdust in your brother's eye, he asked, and never once notice the plank in y
+    heard  : Why do you stare at the speck of sawdust in your brother's eye? He asked, and never once  noticed the plank in
+      ~ 'notice' -> heard 'noticed'   (sound match 86%)
+[BAD  ] build-122-mote-and-beam/jv4
+    caption: Or how wilt thou say to thy brother, Let me pull out the mote out of thine eye; and, behold, a beam is in thin
+    heard  : Or how wilt thou say to thy brother, Let me pull out the mode out of thine eye, And, behold, a beam is in thin
+     !! 'mote' -> heard 'mode'   (sound match 50%)
+[OK   ] build-122-mote-and-beam/n4
+    caption: Picture it. A man leaning in, saying hold still, let me get that little speck out for you — with an entire woo
+    heard  : Picture it, a man leaning in, saying hold still, let me get that little speck out for you,  with an entire woo
+[OK   ] build-122-mote-and-beam/n5
+    caption: And then, if we are honest, the moment finally comes when we catch sight of the beam. Not his. Ours. The one w
+    heard  : And then, if we are honest, the moment finally comes when we catch sight of the beam.  Not his.  Ours.  The on
+[BAD  ] build-122-mote-and-beam/jvB
+    caption: Thou hypocrite, first cast out the beam out of thine own eye; and then shalt thou see clearly to cast out the 
+    heard  : Thou hypocrite, first cast out the beam out of thine own eye, and then shalt thou see clearly to cast out the 
+     !! 'mote' -> heard 'mode'   (sound match 50%)
+[OK   ] build-122-mote-and-beam/n6
+    caption: Take the beam out of your own eye first, he said, and then you will see clearly enough to help your brother wi
+    heard  : Take the beam out of your own eye first. He said, and then you will see clearly enough to help your  brother w
+[OK   ] build-122-mote-and-beam/n7
+    caption: The goal was never to stop caring about each other. It was to come to each other humble instead of superior — 
+    heard  : The goal was never to stop caring about each other. It was to come to each other humble instead of  superior a
+[OK   ] build-122-mote-and-beam/n8
+    caption: The measure you use is the measure you will get back. So Jesus offers a better one: mercy. Deal honestly with 
+    heard  : The measure you use is the measure you will get back. So Jesus offers a better one, mercy,  deal honestly with
+[minor] build-122-mote-and-beam/card
+    caption: Jesus was not telling us to stop seeing clearly — he was telling us where to start: with the beam in our own e
+    heard  : Jesus was not telling us to stop seeing clearly.  He was telling us where to start with the beam in our own ey
+      ~ 'speck' -> heard 'spec'   (sound match 86%)
+
+2 segment(s) need an ear-check in build-122-mote-and-beam

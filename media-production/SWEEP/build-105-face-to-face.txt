@@ -1,0 +1,58 @@
+[OK   ] build-105-face-to-face/n1
+    caption: Moses pitched a tent a little way outside the camp and called it the Tent of Meeting. It was the place he went
+    heard  : Moses pitched a tent a little way outside the camp and called it the tent of meeting.  It was the place he wen
+[OK   ] build-105-face-to-face/n2
+    caption: Whenever Moses walked out to that tent, something happened that had never happened for anyone.
+    heard  : Whenever Moses walked out to that tent, something happened that had never happened for anyone.
+[OK   ] build-105-face-to-face/n3
+    caption: All the people would rise and stand, each at the door of their own tent, and watch him go, and worship — becau
+    heard  : All the people would rise and stand, each at the door of their own tent, and watch him go,  and worship becaus
+[OK   ] build-105-face-to-face/n4
+    caption: As Moses reached the tent, a great pillar of cloud would come down and stand at the door — the presence of God
+    heard  : As Moses reached the tent, a great pillar of cloud would come down and stand at the door.  The presence of God
+[minor] build-105-face-to-face/sface
+    caption: And the LORD spake unto Moses face to face, as a man speaketh unto his friend.
+    heard  : and the Lord's spake unto Moses face to face, as a man speaketh unto his friend.
+      ~ 'lord' -> heard 'lords'   (sound match 86%)
+[OK   ] build-105-face-to-face/n5
+    caption: Face to face. As a man speaks with his friend. Not a master barking at a servant. Not a king across a vast thr
+    heard  : face to face, as a man speaks with his friend, not a master barking at a servant,  not a king across a vast th
+[OK   ] build-105-face-to-face/g14
+    caption: My presence shall go with thee, and I will give thee rest.
+    heard  : My presence shall go with thee, and I will give thee rest.
+[OK   ] build-105-face-to-face/n5b
+    caption: I will go with you myself, and I will give you rest. Not send someone ahead. Not watch from somewhere far off.
+    heard  : I will go with you myself and I will give you rest.  Not send someone ahead.  Not watch from somewhere far off
+[OK   ] build-105-face-to-face/n6
+    caption: And that friendship made Moses bold. He asked for the one thing no one had ever dared to ask.
+    heard  : and that friendship made Moses bold. He asked for the one thing no one had ever dared to ask.
+[minor] build-105-face-to-face/s18
+    caption: I beseech thee, shew me thy glory.
+    heard  : I beseech thee, shoo me thy glory.
+      ~ 'shew' -> heard 'shoo'   (sound match 80%)
+[OK   ] build-105-face-to-face/g19
+    caption: I will make all my goodness pass before thee, and I will proclaim the name of the LORD before thee.
+    heard  : I will make all my goodness pass before thee, and I will proclaim the name of the Lord before thee.
+[OK   ] build-105-face-to-face/n6b
+    caption: Show me your glory, Moses asked. And God answered — I will make all my goodness pass in front of you. Not his 
+    heard  : Show me your glory, Moses asked.  And God answered,  I will make all my goodness pass in front of you.  Not hi
+[OK   ] build-105-face-to-face/g20
+    caption: Thou canst not see my face: for there shall no man see me, and live.
+    heard  : Thou canst not see my face, for there shall no man see me, and live.
+[OK   ] build-105-face-to-face/n6c
+    caption: You cannot see my face and live. That was not a refusal. It was care — the way you would not hand a child some
+    heard  : You cannot see my face and live. That was not a refusal. It was care. The way you would not hand  a child some
+[OK   ] build-105-face-to-face/n7
+    caption: So God did the gentlest thing. He tucked Moses into a cleft in the rock, and covered him with his own hand, an
+    heard  : So God did the gentlest thing.  He tucked Moses into a cleft in the rock and covered him with his own hand, an
+[OK   ] build-105-face-to-face/n8
+    caption: And when Moses came back down, his face was shining. He did not even know it.
+    heard  : And when Moses came back down, his face was shining. He did not even know it.
+[OK   ] build-105-face-to-face/n9
+    caption: That is what happens to someone who spends time close to God — you start, quietly, to glow with a little of hi
+    heard  : That is what happens to someone who spends time close to God. You start quietly to glow with a  little of him.
+[OK   ] build-105-face-to-face/card
+    caption: God spoke with a man as with a friend, and hid him in a rock to keep him safe from too much glory. He still wa
+    heard  : God spoke with a man as with a friend and hid him in a rock to keep him safe from too much glory.  He still wa
+
+0 segment(s) need an ear-check in build-105-face-to-face

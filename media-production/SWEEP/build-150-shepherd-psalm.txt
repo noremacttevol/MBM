@@ -1,0 +1,78 @@
+[BAD  ] build-150-shepherd-psalm/n0
+    caption: Three thousand years ago a shepherd-king wrote a song about being shepherded himself. It starts like this:
+    heard  : 3000 years ago, a Shepherd King wrote a song about being shepherded himself.  It starts like this.
+     !! 'three thousand' -> heard '-'   (sound match 0%)
+      ~ 'shepherdking' -> heard 'shepherd king'   (sound match 100%)
+[OK   ] build-150-shepherd-psalm/s1
+    caption: The LORD is my shepherd; I shall not want.
+    heard  : The Lord is my shepherd, I shall not want.
+[OK   ] build-150-shepherd-psalm/n0b
+    caption: The Lord takes care of me. There is nothing I need that I won't have. That is the whole psalm in one line — ev
+    heard  : The Lord takes care of me. There is nothing I need that I won't have. That is the whole Psalm  in one line. Ev
+[BAD  ] build-150-shepherd-psalm/s2
+    caption: He maketh me to lie down in green pastures: he leadeth me beside the still waters.
+    spoken : He maketh me to lie down in green pastures: he leedeth me beside the still waters.
+    heard  : He mocked with me to lie down in green pastures. He leeteth me beside the still waters.
+     !! 'maketh' -> heard 'mocked with'   (sound match 73%)
+      ~ 'leadeth' -> heard 'leeteth'   (sound match 86%)
+[OK   ] build-150-shepherd-psalm/n1a
+    caption: He leads me to quiet water and green places to rest.
+    heard  : He leads me to quiet water and green places to rest.
+[BAD  ] build-150-shepherd-psalm/s3a
+    caption: He restoreth my soul:
+    heard  : He restored my soul.
+     !! 'restoreth' -> heard 'restored'   (sound match 73%)
+[OK   ] build-150-shepherd-psalm/n1b
+    caption: He puts my life back together.
+    heard  : He puts my life back together.
+[OK   ] build-150-shepherd-psalm/s3b
+    caption: he leadeth me in the paths of righteousness for his name's sake.
+    spoken : he leedeth me in the paths of righteousness for his name's sake.
+    heard  : He leadeth me in the paths of righteousness for his name's sake.
+[OK   ] build-150-shepherd-psalm/n2
+    caption: He guides me down the right paths, for His name's sake — not because I earned the guiding, but because of who 
+    heard  : He guides me down the right paths, for his name's sake. Not because I earned the guiding,  but because of who 
+[BAD  ] build-150-shepherd-psalm/s4
+    caption: Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy r
+    heard  : Yeah, though I walk through the valley of the shadow of death, I will fear no evil, for thou art with me, thy 
+     !! 'yea' -> heard 'yeah'   (sound match 67%)
+      ~ 'staff' -> heard 'staffs'   (sound match 86%)
+[minor] build-150-shepherd-psalm/n3
+    caption: Even in the darkest valley, I'm not afraid. You are with me — Your rod and staff steady me. And notice what ch
+    heard  : Even in the darkest valley, I'm not afraid. You are with me. You're Rod and Staff steady me.  And notice what 
+      ~ 'your' -> heard 'youre'   (sound match 100%)
+[BAD  ] build-150-shepherd-psalm/s5a
+    caption: Thou preparest a table before me in the presence of mine enemies:
+    heard  : Thou preparest the table before me in the presence of my enemies.
+     !! 'a' -> heard 'the'   (sound match 0%)
+     !! 'mine' -> heard 'my'   (sound match 50%)
+[BAD  ] build-150-shepherd-psalm/n4a
+    caption: You set a table for me right in front of my enemies.
+    heard  : He set a table for me right in front of my enemies.
+     !! 'you' -> heard 'he'   (sound match 0%)
+[OK   ] build-150-shepherd-psalm/s5b
+    caption: thou anointest my head with oil; my cup runneth over.
+    heard  : Thou anointest my head with oil. My cup runneth over.
+[OK   ] build-150-shepherd-psalm/n4b
+    caption: You honor me; my cup runs over.
+    heard  : You honor me. My cup runs over.
+[OK   ] build-150-shepherd-psalm/s6a
+    caption: Surely goodness and mercy shall follow me all the days of my life:
+    heard  : Surely goodness and mercy shall follow me all the days of my life.
+[OK   ] build-150-shepherd-psalm/n5a
+    caption: Your goodness and Your mercy will chase me down every day I have.
+    heard  : Your goodness and your mercy will chase me down every day I have.
+[minor] build-150-shepherd-psalm/s6b
+    caption: and I will dwell in the house of the LORD for ever.
+    spoken : and I will dwell in the house of the LORD forever.
+    heard  : and I would dwell in the house of the Lord forever.
+      ~ 'will' -> heard 'would'   (sound match 80%)
+      ~ 'for ever' -> heard 'forever'   (sound match 100%)
+[OK   ] build-150-shepherd-psalm/n5b
+    caption: And I'll be home with You forever.
+    heard  : and I'll be home with you forever.
+[OK   ] build-150-shepherd-psalm/card
+    caption: The Shepherd who leads, restores, and walks the dark valley with you is the same One who invites you home. Let
+    heard  : The shepherd who leads, restores, and walks the dark valley with you is the same one who invites you home.  Le
+
+6 segment(s) need an ear-check in build-150-shepherd-psalm

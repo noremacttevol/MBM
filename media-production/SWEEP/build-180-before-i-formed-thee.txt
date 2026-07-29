@@ -1,0 +1,39 @@
+[OK   ] build-180-before-i-formed-thee/n0
+    caption: A young man named Jeremiah felt far too small for the job. God was calling him to speak to nations, and he was
+    heard  : A young man named Jeremiah felt far too small for the job. God was calling him to speak to  nations, and he wa
+[OK   ] build-180-before-i-formed-thee/n1
+    caption: But the call did not begin the day he heard it. Long before he was born, before he ever drew a breath, the pla
+    heard  : But the call did not begin the day he heard it. Long before he was born, before he ever drew a breath,  the pl
+[OK   ] build-180-before-i-formed-thee/n2
+    caption: The God who made him had already chosen him — and blessing, not pressure, was the shape of it.
+    heard  : The God who made him had already chosen him, and blessing, not pressure, was the shape of it.
+[OK   ] build-180-before-i-formed-thee/s1
+    caption: Before I formed thee in the belly I knew thee; and before thou camest forth out of the womb I sanctified thee,
+    heard  : Before I formed thee in the belly I knew thee, and before thou camest forth out of the womb I sanctified thee,
+[OK   ] build-180-before-i-formed-thee/n1r
+    caption: Read that again slowly. Before I made your body, I knew you. Before you were ever born, I set you apart, and I
+    heard  : Read that again slowly.  Before I made your body, I knew you.  Before you were ever born, I set you apart, and
+[OK   ] build-180-before-i-formed-thee/s1b
+    caption: Ah, Lord GOD! behold, I cannot speak: for I am a child.
+    heard  : Ah, Lord God, behold I cannot speak for I am a child.
+[OK   ] build-180-before-i-formed-thee/n3a
+    caption: Jeremiah answered that he was only a child.
+    heard  : Jeremiah answered that he was only a child.
+[OK   ] build-180-before-i-formed-thee/g7
+    caption: Say not, I am a child: for thou shalt go to all that I shall send thee, and whatsoever I command thee thou sha
+    heard  : Say not, I am a child, for thou shalt go to all that I shall send thee, and whatsoever  I command thee thou sh
+[OK   ] build-180-before-i-formed-thee/n3b
+    caption: The LORD replied — go where I send you, speak what I command, and do not be afraid, for I am with you to deliv
+    heard  : The Lord replied, Go where I send you, speak what I command, and do not be afraid, for I am with you to  deliv
+[minor] build-180-before-i-formed-thee/s2
+    caption: Be not afraid of their faces: for I am with thee to deliver thee, saith the LORD.
+    heard  : Be not afraid of their faces, for I am with thee to deliver thee, set the Lord.
+      ~ 'saith' -> heard 'set'   (sound match 80%)
+[OK   ] build-180-before-i-formed-thee/n4
+    caption: The same God who knew you before you were born is the one who walks with you now. The calling is His; the cour
+    heard  : The same God who knew you before you were born is the one who walks with you now.  The calling is his. The cou
+[OK   ] build-180-before-i-formed-thee/card
+    caption: You were known before you were born. You are not too small for what He has for you.
+    heard  : You were known before you were born. You are not too small for what he has for you.
+
+0 segment(s) need an ear-check in build-180-before-i-formed-thee

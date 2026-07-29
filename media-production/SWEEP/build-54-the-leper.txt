@@ -1,0 +1,49 @@
+[OK   ] build-54-the-leper/n1
+    caption: In those days there was no lonelier life than a leper's. The disease wasted his skin, and the law kept him apa
+    heard  : In those days there was no lonelier life than a leper's. The disease wasted his skin,  and the law kept him ap
+[OK   ] build-54-the-leper/n2
+    caption: When he heard that Jesus was near, he did the forbidden thing: he came close. He fell on his knees and begged 
+    heard  : When he heard that Jesus was near, he did the forbidden thing. He came close. He fell on his knees and begged 
+[OK   ] build-54-the-leper/s40
+    caption: If thou wilt, thou canst make me clean.
+    heard  : If thou wilt thou canst make me clean.
+[OK   ] build-54-the-leper/n2b
+    caption: If you are willing, he said, you can make me clean. He never doubted the power. He only wondered about the wil
+    heard  : If you are willing, he said, you can make me clean. He never doubted the power. He only wondered  about the wi
+[OK   ] build-54-the-leper/n3
+    caption: And Jesus was moved with compassion. He did not step back from the man everyone else stepped back from. He rea
+    heard  : And Jesus was moved with compassion.  He did not step back from the man everyone else stepped back from.  He r
+[OK   ] build-54-the-leper/s41a
+    caption: And Jesus, moved with compassion, put forth his hand, and touched him, and saith unto him,
+    heard  : And Jesus moved with compassion, put forth his hand, and touched him, and saith unto him.
+[OK   ] build-54-the-leper/jv41
+    caption: I will; be thou clean.
+    heard  : I will, be thou clean.
+[minor] build-54-the-leper/n4
+    caption: I will. Two words, and the wondering was over. And he touched him. Before the healing had even come, the untou
+    heard  : I will, two words, and the wandering was over, and he touched him.  Before the healing had even come, the unto
+      ~ 'wondering' -> heard 'wandering'   (sound match 100%)
+[OK   ] build-54-the-leper/n5
+    caption: The sores were gone. The pale, wasted skin was warm and whole again, like the skin of a young child. In a mome
+    heard  : The sores were gone. The pale, wasted skin was warm and whole again, like the skin of a young child.  In a mom
+[OK   ] build-54-the-leper/n6
+    caption: Then Jesus sent him away with strict instructions.
+    heard  : Then Jesus sent him away with strict instructions.
+[minor] build-54-the-leper/j44
+    caption: See thou say nothing to any man: but go thy way, shew thyself to the priest, and offer for thy cleansing those
+    heard  : See thou say nothing to any man, but go thy way, shoe thyself to the priest, and offer for thy cleansing those
+      ~ 'shew' -> heard 'shoe'   (sound match 80%)
+[OK   ] build-54-the-leper/n6b
+    caption: Say nothing to anyone, he told him. Just go and show yourself to the priest, and make the offering Moses comma
+    heard  : Say nothing to anyone, he told him, just go and show yourself to the priest and make the  offering Moses comma
+[OK   ] build-54-the-leper/n7
+    caption: But the man could not hold it in. He went out and told everyone, freely, everywhere; how could he not? The mer
+    heard  : But the man could not hold it in. He went out and told everyone. Freely. Everywhere.  How could he not? The me
+[OK   ] build-54-the-leper/n8
+    caption: And so the news ran ahead of him, until he could hardly walk into a town in the open, and people came to him f
+    heard  : And so the news ran ahead of him until he could hardly walk into a town in the open,  and people came to him f
+[OK   ] build-54-the-leper/card
+    caption: He is still willing. There is no part of you so unclean, so far gone, so long untouched, that he will draw bac
+    heard  : He is still willing. There is no part of you so unclean, so far gone, so long untouched,  that he will draw ba
+
+0 segment(s) need an ear-check in build-54-the-leper

@@ -1,0 +1,37 @@
+[OK   ] build-133-many-mansions/n0a
+    caption: Jesus was preparing His disciples for a hard goodbye.
+    heard  : Jesus was preparing his disciples for a hard goodbye.
+[OK   ] build-133-many-mansions/n0b
+    caption: His words could have brought fear — instead they brought comfort.
+    heard  : His words could have brought fear. Instead, they brought comfort.  //
+[OK   ] build-133-many-mansions/n1
+    caption: He could see it on their faces. So the very first thing He did was tell them not to be afraid.
+    heard  : He could see it on their faces. So the very first thing he did was tell them not to be afraid.
+[OK   ] build-133-many-mansions/j1
+    caption: Let not your heart be troubled: ye believe in God, believe also in me. In my Father's house are many mansions:
+    heard  : Let not your heart be troubled, ye believe in God, believe also in me.  In my father's house are many mansions
+[OK   ] build-133-many-mansions/n2
+    caption: He described a home they couldn't see yet — a place He was going to make ready for them, room for each one.
+    heard  : He described a home they couldn't see yet, a place he was going to make ready for them, room for each one.
+[OK   ] build-133-many-mansions/jv3
+    caption: And if I go and prepare a place for you, I will come again, and receive you unto myself; that where I am, ther
+    heard  : And if I go and prepare a place for you, I will come again, and receive you unto myself, that where I am, ther
+[OK   ] build-133-many-mansions/n3
+    caption: And then the promise that undoes every fear: I'm coming back. I'll bring you to Myself, so you're where I am.
+    heard  : And then the promise that undoes every fear. I'm coming back. I'll bring you to myself, so you're where I am.
+[minor] build-133-many-mansions/s5
+    caption: Lord, we know not whither thou goest; and how can we know the way?
+    heard  : Lord, we know not whether thou goest, and how can we know the way?
+      ~ 'whither' -> heard 'whether'   (sound match 100%)
+[minor] build-133-many-mansions/jv6
+    caption: I am the way, the truth, and the life: no man cometh unto the Father, but by me.
+    heard  : I am the way, the truth, and the life.  No man comeeth unto the Father, but by me.
+      ~ 'cometh' -> heard 'comeeth'   (sound match 100%)
+[OK   ] build-133-many-mansions/n4
+    caption: We don't even know where you're going, Thomas said. How can we know the way? And Jesus told him: I am the way.
+    heard  : We don't even know where you're going. Thomas said, how can we know the way? And Jesus told  him, I am the way
+[OK   ] build-133-many-mansions/card
+    caption: He's preparing a place — and He's coming back for you. Don't let your heart be troubled.
+    heard  : He's preparing a place, and he's coming back for you. Don't let your heart be troubled.  //
+
+0 segment(s) need an ear-check in build-133-many-mansions

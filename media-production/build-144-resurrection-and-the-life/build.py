@@ -48,7 +48,7 @@ S6 = "s6-believest-thou-this.jpeg"
 S7 = "s7-the-weight-lifting.jpeg"
 S8 = "s8-out-of-the-tomb.jpeg"
 
-TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
+TEXT = {s[0]: (s[4] if len(s) >= 5 else s[2]) for s in make_narration.SEGMENTS}
 KJV = {"j1", "j2"}
 CARD_TEXT = "Death is not the end of the story. He is the life."
 

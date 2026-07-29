@@ -1,0 +1,48 @@
+[minor] build-93-barabbas-goes-free/n0
+    caption: It was the custom at Passover for the governor to release one prisoner the crowd chose. Pilate had two men: Je
+    heard  : It was the custom at Passover for the Governor to release one prisoner the crowd chose.  Pilot had two men, Je
+      ~ 'pilate' -> heard 'pilot'   (sound match 100%)
+[OK   ] build-93-barabbas-goes-free/n1a
+    caption: Pilate could see Jesus had done nothing worth death. So he put the choice to the crowd himself.
+    heard  : Pilate could see Jesus had done nothing worth death, so he put the choice to the crowd himself.  //  //
+[OK   ] build-93-barabbas-goes-free/s9
+    caption: Will ye that I release unto you the King of the Jews?
+    heard  : Will you that I release unto you the king of the Jews?
+[OK   ] build-93-barabbas-goes-free/n1a2
+    caption: Do you want me to release the King of the Jews to you? He was almost offering it to them.
+    heard  : Do you want me to release the King of the Jews to you? He was almost offering it to them.  //
+[OK   ] build-93-barabbas-goes-free/n1b
+    caption: He thought the crowd would surely pick the innocent one.
+    heard  : He thought the crowd would surely pick the innocent one.
+[OK   ] build-93-barabbas-goes-free/n2
+    caption: But the chief priests worked the crowd, and they shouted for Barabbas instead. Pilate asked them what he shoul
+    heard  : But the chief priests worked the crowd, and they shouted for Barabbas instead.  Pilate asked them what he shou
+[OK   ] build-93-barabbas-goes-free/s13
+    caption: Crucify him.
+    heard  : Crucify him.
+[OK   ] build-93-barabbas-goes-free/n2b
+    caption: Crucify him. That was it. That was the answer. And Pilate could not make sense of it.
+    heard  : Crucify him. That was it. That was the answer. And Pilate could not make sense of it.  //
+[BAD  ] build-93-barabbas-goes-free/s14
+    caption: Why, what evil hath he done?
+    heard  : Why, what evil has he done?
+     !! 'hath' -> heard 'has'   (sound match 40%)
+[BAD  ] build-93-barabbas-goes-free/n2c
+    caption: Why? he asked them. What has he actually done? The man holding all the power in that courtyard said out loud t
+    heard  : Why? He asked them. What has he actually done? The man holding all the power in that courtyard  set out loud t
+     !! 'said' -> heard 'set'   (sound match 50%)
+[OK   ] build-93-barabbas-goes-free/n3
+    caption: So the guilty man walked free, and the innocent one was handed over in his place.
+    heard  : So the guilty man walked free and the innocent one was handed over in his place.
+[OK   ] build-93-barabbas-goes-free/n4
+    caption: Think about what Barabbas got: he was condemned, and then someone else took his exact sentence. He walked out 
+    heard  : Think about what Barabbas got. He was condemned, and then someone else took his exact sentence.  He walked out
+[minor] build-93-barabbas-goes-free/n5
+    caption: That's not just Barabbas's story. That's the whole gospel in one swap — the innocent for the guilty, so the gu
+    heard  : That's not just Barabbas' story. That's the whole gospel in one swap. The innocent for the guilty,  so the gui
+      ~ 'barabbass' -> heard 'barabbas'   (sound match 100%)
+[OK   ] build-93-barabbas-goes-free/card
+    caption: Barabbas walked free because the Son of God took his place. So can you. That's the whole point.
+    heard  : Barabbas walked free because the Son of God took his place. So can you. That's the whole point.
+
+2 segment(s) need an ear-check in build-93-barabbas-goes-free

@@ -1,0 +1,54 @@
+[minor] build-144-resurrection-and-the-life/n0
+    caption: Lazarus had been in the tomb four days. His sister Martha came to Jesus, heavy with grief but still full of fa
+    heard  : Lazarus had been in the tomb for days. His sister Martha came to Jesus, heavy with grief, but still full of fa
+      ~ 'four' -> heard 'for'   (sound match 100%)
+[BAD  ] build-144-resurrection-and-the-life/w21
+    caption: Lord, if thou hadst been here, my brother had not died. But I know, that even now, whatsoever thou wilt ask of
+    heard  : Lord, if thou had spent here, my brother had not died.  But I know that even now, whatsoever thou wilt ask of 
+     !! 'hadst been' -> heard 'had spent'   (sound match 67%)
+[minor] build-144-resurrection-and-the-life/n0b
+    caption: If You had been here, my brother wouldn't have died, she told Him. And then, in the same breath — but even now
+    heard  : If you had been here, my brother wouldn't have died, she told him. And then, in the same breath,  but even now
+      ~ 'four' -> heard 'for'   (sound match 100%)
+[OK   ] build-144-resurrection-and-the-life/j23
+    caption: Thy brother shall rise again.
+    heard  : thy brother shall rise again.
+[OK   ] build-144-resurrection-and-the-life/n1a
+    caption: Your brother will rise again, He told her. And Martha said she believed that — someday, at the end of everythi
+    heard  : Your brother will rise again," he told her. And Martha said she believed that someday at the end of  everythin
+[OK   ] build-144-resurrection-and-the-life/w24
+    caption: I know that he shall rise again in the resurrection at the last day.
+    heard  : I know that he shall rise again in the resurrection at the last day.
+[minor] build-144-resurrection-and-the-life/n1b
+    caption: It was a real faith, but a faraway one — comfort filed away for the last day. Jesus answered with a promise bi
+    heard  : It was a real faith, but a far away one.  Comfort filed away for the last day.  Jesus answered with a promise 
+      ~ 'faraway' -> heard 'far away'   (sound match 100%)
+[OK   ] build-144-resurrection-and-the-life/j1
+    caption: I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live:
+    heard  : I am the resurrection and the life, he that believeth in me, though he were dead, yet shall he live."
+[OK   ] build-144-resurrection-and-the-life/n2
+    caption: Not a theory about life after death. He said He Himself is the life — and that trusting Him beats the grave.
+    heard  : Not a theory about life after death. He said he himself is the life, and that trusting him  beats the grave.
+[minor] build-144-resurrection-and-the-life/j2
+    caption: And whosoever liveth and believeth in me shall never die. Believest thou this?
+    heard  : and whosoever liveeth and believeth in me shall never die.  Believeth thou this?
+      ~ 'liveth' -> heard 'liveeth'   (sound match 100%)
+      ~ 'believest' -> heard 'believeth'   (sound match 80%)
+[BAD  ] build-144-resurrection-and-the-life/w27
+    caption: Yea, Lord: I believe that thou art the Christ, the Son of God, which should come into the world.
+    heard  : Yeah, Lord, I believe that thou art the Christ, the Son of God, which should come into the world.
+     !! 'yea' -> heard 'yeah'   (sound match 67%)
+[OK   ] build-144-resurrection-and-the-life/n3a
+    caption: Do you believe this, He asked her. Yes, Lord, she said — I believe You are the Christ, the Son of God. Standin
+    heard  : Do you believe this? He asked her. Yes, Lord, she said, I believe you are the Christ,  the Son of God. Standin
+[OK   ] build-144-resurrection-and-the-life/j43
+    caption: Lazarus, come forth.
+    heard  : Lazarus, come forth.
+[OK   ] build-144-resurrection-and-the-life/n3b
+    caption: Three words at the mouth of a sealed tomb — Lazarus, come out. And moments later, her brother walked out of th
+    heard  : Three words at the mouth of a sealed tomb, Lazarus, come out.  And moments later, her brother walked out of th
+[OK   ] build-144-resurrection-and-the-life/card
+    caption: Death is not the end of the story. He is the life.
+    heard  : Death is not the end of the story. He is the life.
+
+2 segment(s) need an ear-check in build-144-resurrection-and-the-life

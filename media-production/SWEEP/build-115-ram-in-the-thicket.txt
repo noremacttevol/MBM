@@ -1,0 +1,58 @@
+[OK   ] build-115-ram-in-the-thicket/n1
+    caption: It is one of the hardest stories in the Bible, and one of the most misread. God asks Abraham for the thing he 
+    heard  : It is one of the hardest stories in the Bible and one of the most misread.  God asks Abraham for the thing he 
+[OK   ] build-115-ram-in-the-thicket/n2
+    caption: Now watch closely, because everything the story means is in how it ends. Abraham believed, somehow, that God w
+    heard  : Now watch closely because everything the story means is in how it ends.  Abraham believed somehow that God was
+[BAD  ] build-115-ram-in-the-thicket/n3
+    caption: Father and son climbed the mountain together, the boy carrying the wood, the old man carrying the fire and a h
+    heard  : Father and Son cloned the mountain together, the boy carrying the wood, the old man carrying  the fire and a h
+     !! 'climbed' -> heard 'cloned'   (sound match 67%)
+     !! 'climbed' -> heard 'cloned'   (sound match 67%)
+[OK   ] build-115-ram-in-the-thicket/s7
+    caption: Behold the fire and the wood: but where is the lamb for a burnt offering?
+    heard  : Behold the fire and the wood, but where is the lamb for a burnt offering?
+[OK   ] build-115-ram-in-the-thicket/s8
+    caption: My son, God will provide himself a lamb for a burnt offering.
+    heard  : My Son, God will provide Himself a lamb for a burnt offering.
+[OK   ] build-115-ram-in-the-thicket/n4
+    caption: Father, the boy said — we've got the fire and we've got the wood, but where's the lamb? And Abraham answered w
+    heard  : Father, the boy said, we've got the fire and we've got the wood, but where's the lamb?  And Abraham answered w
+[OK   ] build-115-ram-in-the-thicket/n5
+    caption: God will provide. Abraham did not fully understand how. He only trusted that the God he loved would not, in th
+    heard  : God will provide. Abraham did not fully understand how. He only trusted that the God he loved would not,  in t
+[OK   ] build-115-ram-in-the-thicket/jv11
+    caption: Abraham, Abraham.
+    heard  : Abraham, Abraham
+[OK   ] build-115-ram-in-the-thicket/s11
+    caption: Here am I.
+    heard  : Here am I.
+[OK   ] build-115-ram-in-the-thicket/n5b
+    caption: His name, twice, out of the sky. And the old man answered the way he always had — here I am. Then came the wor
+    heard  : His name, twice, out of the sky, and the old man answered the way he always had. Here I am.  Then came the wor
+[BAD  ] build-115-ram-in-the-thicket/jv12
+    caption: Lay not thine hand upon the lad, neither do thou any thing unto him: for now I know that thou fearest God.
+    heard  : Lay not thine hand upon the lad, neither do thou anything unto him. For now I know that thou fierced God.
+      ~ 'any thing' -> heard 'anything'   (sound match 100%)
+     !! 'fearest' -> heard 'fierced'   (sound match 50%)
+[OK   ] build-115-ram-in-the-thicket/n6
+    caption: Don't lay a hand on the boy. Don't do anything to him at all. Stop. God never wanted the child. He never did. 
+    heard  : Don't lay a hand on the boy. Don't do anything to him at all. Stop. God never wanted the child.  He never did.
+[minor] build-115-ram-in-the-thicket/n7
+    caption: And the old father gathered his living son into his arms and held him, and wept, and would not let go. God had
+    heard  : And the old father gathered his living son into his arms and held him, and wept, and would not let go.  God ha
+      ~ 'generation since' -> heard 'generations sense'   (sound match 88%)
+[OK   ] build-115-ram-in-the-thicket/jv17
+    caption: In blessing I will bless thee, and in multiplying I will multiply thy seed as the stars of the heaven, and as 
+    heard  : In blessing I will bless thee, and in multiplying I will multiply thy seed as the stars of the heaven,  and as
+[OK   ] build-115-ram-in-the-thicket/n7b
+    caption: I will bless you and bless you again, God told him. Your family will outnumber the stars over your head and th
+    heard  : I will bless you and bless you again," God told him.  Your family will outnumber the stars over your head and 
+[OK   ] build-115-ram-in-the-thicket/n8
+    caption: This was never a story about a God who takes. It is about a God who provides — who steps in at the last moment
+    heard  : This was never a story about a God who takes. It is about a God who provides, who steps in at  the last moment
+[OK   ] build-115-ram-in-the-thicket/card
+    caption: God never wanted the child; he wanted to show he provides. He stopped the hand and gave the ram, and the boy w
+    heard  : God never wanted the child. He wanted to show He provides. He stopped the hand and gave the ram,  and the boy 
+
+2 segment(s) need an ear-check in build-115-ram-in-the-thicket

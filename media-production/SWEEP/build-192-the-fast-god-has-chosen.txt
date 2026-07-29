@@ -1,0 +1,34 @@
+[OK   ] build-192-the-fast-god-has-chosen/n0
+    caption: Isaiah told God's people what kind of fast the LORD actually wants — not just going hungry to look holy.
+    heard  : Isaiah told God's people what kind of fast the Lord actually wants, not just going hungry to look holy.
+[BAD  ] build-192-the-fast-god-has-chosen/s1
+    caption: Is not this the fast that I have chosen? to loose the bands of wickedness, to undo the heavy burdens, and to l
+    heard  : is not this the fast that I have chosen.  To lose the bands of wickedness, to undo the heavy burdens,  and to 
+      ~ 'loose' -> heard 'lose'   (sound match 100%)
+     !! 'that' -> heard 'let'   (sound match 40%)
+[BAD  ] build-192-the-fast-god-has-chosen/g7
+    caption: Is it not to deal thy bread to the hungry, and that thou bring the poor that are cast out to thy house? when t
+    heard  : Is it not to deal thy bread to the hungry, and that thou bring the poor that are cast out to thy house?  When 
+     !! 'seest' -> heard 'sayest'   (sound match 67%)
+[OK   ] build-192-the-fast-god-has-chosen/n1a
+    caption: Share your bread with the hungry.
+    heard  : Share your bread with the hungry.
+[OK   ] build-192-the-fast-god-has-chosen/n1b
+    caption: Bring the poor, the ones with nowhere to go, into your home.
+    heard  : Bring the poor, the ones with nowhere to go, into your home.  //  //
+[OK   ] build-192-the-fast-god-has-chosen/n2
+    caption: When you see someone with no clothes, cover them. Don't turn away from your own family.
+    heard  : When you see someone with no clothes, cover them. Don't turn away from your own family.
+[OK   ] build-192-the-fast-god-has-chosen/s2
+    caption: Then shall thy light break forth as the morning, and thine health shall spring forth speedily:
+    heard  : Then shall thy light break forth as the morning, and thine health shall spring forth speedily.
+[minor] build-192-the-fast-god-has-chosen/n3
+    caption: The LORD promises — call, and He answers. Help others, and your own darkness becomes noonday.
+    heard  : The Lord promises, call, and He answers. Help others, and your own darkness becomes noon day.
+      ~ 'noonday' -> heard 'noon day'   (sound match 100%)
+[minor] build-192-the-fast-god-has-chosen/card
+    caption: The fast God chooses is a hand opened to the hurting. Open yours — He meets you there.
+    heard  : The fast God chooses is a hand open to the hurting. Open yours, He meets you there.
+      ~ 'opened' -> heard 'open'   (sound match 80%)
+
+2 segment(s) need an ear-check in build-192-the-fast-god-has-chosen

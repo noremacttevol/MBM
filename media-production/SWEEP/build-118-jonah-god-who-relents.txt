@@ -1,0 +1,81 @@
+[OK   ] build-118-jonah-god-who-relents/n1
+    caption: God had a hard errand for a man named Jonah. He was to go to Nineveh — a huge, violent, foreign city, the capi
+    heard  : God had a hard errand for a man named Jonah. He was to go to Nineveh, a huge, violent,  foreign city. The capi
+[BAD  ] build-118-jonah-god-who-relents/gv1
+    caption: Arise, go to Nineveh, that great city, and cry against it; for their wickedness is come up before me.
+    heard  : Arise, go to Nineveh, that great city, and cry against it, for their wickedness has come  up before me.
+     !! 'is' -> heard 'has'   (sound match 67%)
+[OK   ] build-118-jonah-god-who-relents/n1b
+    caption: Go to that great city and preach against it, God said, because I have seen how bad it has gotten. Notice what 
+    heard  : Go to that great city and preach against it.  God said, because I have seen how bad it has gotten.  Notice wha
+[OK   ] build-118-jonah-god-who-relents/n2
+    caption: But Jonah did not want mercy for people like that. So he ran. He found a ship going the exact opposite way and
+    heard  : But Jonah did not want mercy for people like that. So he ran. He found a ship going the exact  opposite way an
+[OK   ] build-118-jonah-god-who-relents/n3
+    caption: A great storm caught the ship, so fierce the sailors were sure they would all drown. They cast lots to find ou
+    heard  : A great storm caught the ship, so fierce the sailors were sure they would all drown.  They cast lots to find o
+[minor] build-118-jonah-god-who-relents/s112
+    caption: Take me up, and cast me forth into the sea; so shall the sea be calm unto you: for I know that for my sake thi
+    heard  : Take me up, and cast me forth into the sea.  So shall the sea be common to you,  for I know that for my sick t
+      ~ 'calm unto' -> heard 'common to'   (sound match 89%)
+      ~ 'sake' -> heard 'sick'   (sound match 80%)
+[minor] build-118-jonah-god-who-relents/n3b
+    caption: Throw me in, he said. The sea will go quiet, because this storm is on me, not on you. He would rather drown th
+    heard  : Throw me in," he said.  The sea will go quiet, because this storm is on me, not on you.  He would rather drown
+      ~ 'boatful' -> heard 'boat full'   (sound match 100%)
+[OK   ] build-118-jonah-god-who-relents/n4
+    caption: And here is the first surprise of this story. The sea should have been the end of him. Instead, God sent a gre
+    heard  : And here is the first surprise of this story. The sea should have been the end of him. Instead,  God sent a gr
+[BAD  ] build-118-jonah-god-who-relents/n5
+    caption: For three days and three nights, in the dark, Jonah finally stopped running. From the belly of the fish he pra
+    heard  : For three days and three nights, in the dark, Jonah finally stopped running.  From the belly of the fish he pr
+     !! 'hard' -> heard 'heart'   (sound match 67%)
+[OK   ] build-118-jonah-god-who-relents/s29
+    caption: Salvation is of the LORD.
+    heard  : Salvation is of the Lord.
+[OK   ] build-118-jonah-god-who-relents/n5b
+    caption: Rescue belongs to God. That is the whole lesson of the fish, and Jonah says it from the one place on earth whe
+    heard  : Rescue belongs to God. That is the whole lesson of the fish. And Jonah says it from the one place  on Earth wh
+[OK   ] build-118-jonah-god-who-relents/jvA
+    caption: Arise, go unto Nineveh, that great city, and preach unto it the preaching that I bid thee.
+    heard  : Arise, go unto Nineveh, that great city, and preach unto it the preaching that I bid thee.
+[OK   ] build-118-jonah-god-who-relents/n6
+    caption: The fish set him safe on dry land, and God gave him the exact same errand a second time — no mention of the ru
+    heard  : The fish set him safe on dry land, and God gave him the exact same errand a second time.  No mention of the ru
+[BAD  ] build-118-jonah-god-who-relents/s34
+    caption: Yet forty days, and Nineveh shall be overthrown.
+    heard  : Yet forty days, an Nineveh shall be overthrown.
+     !! 'and' -> heard 'an'   (sound match 67%)
+[minor] build-118-jonah-god-who-relents/n6b
+    caption: Forty more days and this city is finished. That was the entire sermon. No comfort in it anywhere, no invitatio
+    heard  : Forty more days, and this city is finished.  That was the entire sermon.  No comfort in it anywhere.  No invit
+      ~ 'a countdown' -> heard 'to count down'   (sound match 92%)
+[BAD  ] build-118-jonah-god-who-relents/n7
+    caption: And the second surprise is bigger than the first. They listened. From the king on his throne down to the poore
+    heard  : And the second surprise is bigger than the first. They listened. From the king on his throne down  to the poor
+      ~ 'sackcloth' -> heard 'sat cloth'   (sound match 77%)
+     !! 'and' -> heard 'an'   (sound match 67%)
+[OK   ] build-118-jonah-god-who-relents/n8
+    caption: And God, who had been looking for a reason to spare them all along, saw that they turned from their evil — and
+    heard  : and God, who had been looking for a reason to spare them all along, saw that they turned  from their evil, and
+[minor] build-118-jonah-god-who-relents/s42
+    caption: I knew that thou art a gracious God, and merciful, slow to anger, and of great kindness, and repentest thee of
+    heard  : I knew that thou art a gracious God, and merciful, slow to anger, and of great kindness, and repentisty of the
+      ~ 'repentest thee' -> heard 'repentisty'   (sound match 86%)
+[OK   ] build-118-jonah-god-who-relents/n8b
+    caption: I knew it, he says. I knew you were gracious and merciful and slow to anger. I knew you would forgive them. Th
+    heard  : I knew it, he says. I knew you were gracious and merciful and slow to anger. I knew you would  forgive them. T
+[minor] build-118-jonah-god-who-relents/jvB
+    caption: And should not I spare Nineveh, that great city, wherein are more than sixscore thousand persons that cannot d
+    heard  : and should not I spare Nineveh, that great city, wherein are more than six-core thousand persons  that cannot 
+      ~ 'sixscore' -> heard 'sixcore'   (sound match 89%)
+[BAD  ] build-118-jonah-god-who-relents/n9
+    caption: Should I not spare Nineveh? A hundred and twenty thousand people who cannot tell their right hand from their l
+    heard  : Should I not spare Nineveh? 120,000 people who cannot tell their right hand from their left  and the animals t
+     !! 'a hundred and twenty thousand' -> heard '-'   (sound match 0%)
+[BAD  ] build-118-jonah-god-who-relents/card
+    caption: The whole book of Jonah exists to answer one question: is God eager to destroy, or eager to spare? He spared a
+    heard  : The whole book of Jonah exists to answer one question. Is God eager to destroy or eager to spare?  He spared a
+     !! 'a hundred thousand' -> heard '-'   (sound match 0%)
+
+6 segment(s) need an ear-check in build-118-jonah-god-who-relents

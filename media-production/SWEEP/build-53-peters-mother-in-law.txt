@@ -1,0 +1,34 @@
+[OK   ] build-53-peters-mother-in-law/n1
+    caption: When Jesus came out of the synagogue that sabbath, he did not go off alone. He went home with his friends, int
+    heard  : When Jesus came out of the synagogue that Sabbath, he did not go off alone. He went home with his  friends int
+[OK   ] build-53-peters-mother-in-law/n2
+    caption: It was an ordinary house, the kind of place where real life happens. But that day the house was heavy, because
+    heard  : It was an ordinary house, the kind of place where real life happens.  But that day the house was heavy because
+[OK   ] build-53-peters-mother-in-law/n3
+    caption: Simon's wife's mother lay in a back room, sick with a fever. In those days a fever like that could take a life
+    heard  : Simon's wife's mother lay in a back room, sick with a fever.  In those days a fever like that could take a lif
+[OK   ] build-53-peters-mother-in-law/n4
+    caption: So they told Jesus about her. They did not make a speech or a grand request; they simply brought their trouble
+    heard  : So they told Jesus about her. They did not make a speech or a grand request. They simply  brought their troubl
+[minor] build-53-peters-mother-in-law/n5
+    caption: And he went in to where she was lying. What happened next, Mark tells in a single sentence.
+    heard  : and he went into where she was lying. What happened next? Mark tells in a single sentence.  //
+      ~ 'in to' -> heard 'into'   (sound match 100%)
+[OK   ] build-53-peters-mother-in-law/s31
+    caption: And he came and took her by the hand, and lifted her up; and immediately the fever left her, and she ministere
+    heard  : And he came and took her by the hand and lifted her up.  And immediately the fever left her, and she ministere
+[OK   ] build-53-peters-mother-in-law/n6
+    caption: He took her by the hand and lifted her up, and in that moment the fever simply left her. No slow recovery, no 
+    heard  : He took her by the hand and lifted her up, and in that moment the fever simply left her.  No slow recovery, no
+[OK   ] build-53-peters-mother-in-law/n7
+    caption: And the first thing she did was rise and serve them. With her strength fully back, she cared for the very ones
+    heard  : And the first thing she did was rise and serve them. With her strength fully back,  she cared for the very one
+[minor] build-53-peters-mother-in-law/n8
+    caption: It is a small, quiet miracle, tucked into an ordinary house. No crowd and no spectacle; only a tired family, a
+    heard  : It is a small, quiet miracle tucked into an ordinary house. No crowd and no spectacle.  Only a tired family, a
+      ~ 'sickbed' -> heard 'sick bed'   (sound match 100%)
+[OK   ] build-53-peters-mother-in-law/card
+    caption: He still comes into ordinary houses and ordinary lives. You do not need the right words or a grand request; yo
+    heard  : He still comes into ordinary houses and ordinary lives. You do not need the right words or a grand  request. Y
+
+0 segment(s) need an ear-check in build-53-peters-mother-in-law

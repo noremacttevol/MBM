@@ -1,0 +1,47 @@
+[OK   ] build-52-demoniac-synagogue/n1
+    caption: On the sabbath day, Jesus went into the synagogue at Capernaum and stood up to teach. The people had gathered 
+    heard  : On the Sabbath day, Jesus went into the synagogue at Capernaum and stood up to teach. The people  had gathered
+[BAD  ] build-52-demoniac-synagogue/n2
+    caption: But this was different. He taught them as one who had authority of his own, not leaning on teacher after teach
+    heard  : But this was different. He taught them as one who had a 40 of his own, not leaning on teacher  after teacher t
+     !! 'authority' -> heard 'a'   (sound match 0%)
+     !! 'weight' -> heard 'wait'   (sound match 67%)
+[OK   ] build-52-demoniac-synagogue/n3
+    caption: There in the congregation was a man held by an unclean spirit. Something dark had bound him for a long time, a
+    heard  : There in the congregation was a man held by an unclean spirit. Something dark had bound him for a  long time, 
+[OK   ] build-52-demoniac-synagogue/n4
+    caption: And the voice that broke out of him was not his own.
+    heard  : and the voice that broke out of him was not his own.
+[OK   ] build-52-demoniac-synagogue/s24
+    caption: Let us alone; what have we to do with thee, thou Jesus of Nazareth? art thou come to destroy us? I know thee w
+    heard  : Let us alone. What have we to do with thee, thou Jesus of Nazareth?  Art thou come to destroy us?  I know thee
+[OK   ] build-52-demoniac-synagogue/n4b
+    caption: Leave us alone. What do you want with us, Jesus of Nazareth? Have you come to destroy us? And then, almost tre
+    heard  : Leave us alone. What do you want with us? Jesus of Nazareth. Have you come to destroy us?  And then, almost tr
+[OK   ] build-52-demoniac-synagogue/jv25
+    caption: Hold thy peace, and come out of him.
+    heard  : Hold thy peace, and come out of him.
+[OK   ] build-52-demoniac-synagogue/n5
+    caption: Be quiet, and come out of him. Six words. There was no long battle, no struggle of equals. At his word the spi
+    heard  : Be quiet and come out of him. Six words. There was no long battle, no struggle of equals.  At his word the Spi
+[OK   ] build-52-demoniac-synagogue/n6
+    caption: And the man was free. The torment had drained from his face, and he stood there quiet and whole, himself again
+    heard  : and the man was free. The torment had drained from his face, and he stood there quiet and whole,  himself agai
+[OK   ] build-52-demoniac-synagogue/n7
+    caption: The people were amazed, and they turned to one another asking:
+    heard  : The people were amazed and they turned to one another asking.
+[minor] build-52-demoniac-synagogue/s27
+    caption: What thing is this? what new doctrine is this? for with authority commandeth he even the unclean spirits, and 
+    heard  : What thing is this?  What new doctrine is this?  For with authority, common death, he even the unclean spirits
+      ~ 'commandeth' -> heard 'common death'   (sound match 100%)
+[OK   ] build-52-demoniac-synagogue/n7b
+    caption: What is this? A new teaching, and it comes with authority behind it. He gives an order to the unclean spirits,
+    heard  : What is this? A new teaching, and it comes with authority behind it. He gives an order to the  unclean spirits
+[OK   ] build-52-demoniac-synagogue/n8
+    caption: And right away the news of him went out everywhere, through all the country round about Galilee. Wherever the 
+    heard  : And right away the news of him went out everywhere, through all the country round about Galilee.  Wherever the
+[OK   ] build-52-demoniac-synagogue/card
+    caption: The same voice that spoke into that man's torment still speaks today. There is no darkness in you so deep that
+    heard  : The same voice that spoke into that man's torment still speaks today. There is no darkness in you  so deep tha
+
+1 segment(s) need an ear-check in build-52-demoniac-synagogue

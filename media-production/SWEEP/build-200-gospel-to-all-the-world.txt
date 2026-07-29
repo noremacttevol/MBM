@@ -1,0 +1,29 @@
+[OK   ] build-200-gospel-to-all-the-world/n0a
+    caption: Jesus sat with his disciples on the Mount of Olives, telling them what the long road ahead would hold —
+    heard  : Jesus sat with his disciples on the Mount of Olives, telling them what the long road ahead would hold.
+[OK   ] build-200-gospel-to-all-the-world/n0b
+    caption: wars, rumors, hardship, and patience under strain.
+    heard  : Wars, rumors, hardship, and patience under strain.
+[OK   ] build-200-gospel-to-all-the-world/n1a
+    caption: Then he turned to the one thing that would outlast all of it:
+    heard  : Then he turned to the one thing that would outlast all of it.
+[OK   ] build-200-gospel-to-all-the-world/n1b
+    caption: a message carried to every corner of the earth.
+    heard  : A message carried to every corner of the Earth.
+[OK   ] build-200-gospel-to-all-the-world/n2a
+    caption: Not a secret kept for a few.
+    heard  : Not a secret kept for a few.
+[OK   ] build-200-gospel-to-all-the-world/n2b
+    caption: A witness given to all nations — the good news of the kingdom going out until the very end.
+    heard  : A witness given to all nations. The good news of the kingdom going out until the very end.
+[OK   ] build-200-gospel-to-all-the-world/j1
+    caption: And this gospel of the kingdom shall be preached in all the world for a witness unto all nations; and then sha
+    heard  : And this gospel of the kingdom shall be preached in all the world for a witness unto all nations,  and then sh
+[OK   ] build-200-gospel-to-all-the-world/n3
+    caption: The task he gave is still the task we carry: tell it, show it, live it — until the promise is fulfilled.
+    heard  : The task he gave is still the task we carry. Tell it, show it, live it, until the promise is fulfilled.
+[OK   ] build-200-gospel-to-all-the-world/card
+    caption: The good news was meant for the whole world — and for you. Come, hear it, and carry it on.
+    heard  : The good news was meant for the whole world and for you. Come, hear it, and carry it on.  //
+
+0 segment(s) need an ear-check in build-200-gospel-to-all-the-world

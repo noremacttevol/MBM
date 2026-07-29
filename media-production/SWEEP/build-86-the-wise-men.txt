@@ -1,0 +1,51 @@
+[OK   ] build-86-the-wise-men/n0
+    caption: Some time after Jesus was born, travelers came from the east — scholars who had read the skies. They had seen 
+    heard  : Some time after Jesus was born, travelers came from the east, scholars who had read the skies.  They had seen 
+[OK   ] build-86-the-wise-men/j1
+    caption: Where is he that is born King of the Jews? for we have seen his star in the east, and are come to worship him.
+    heard  : Where is he that is born king of the Jews?  For we have seen his star in the east, and are come to worship him
+[BAD  ] build-86-the-wise-men/n0b
+    caption: Where is the one who has been born King of the Jews? We saw his star in the east, and we have come to worship 
+    heard  : Where is the one who has been born king of the Jews? We saw a star in the east,  and we have come to worship h
+     !! 'his' -> heard 'a'   (sound match 0%)
+[OK   ] build-86-the-wise-men/n1
+    caption: Herod was frightened, and he was clever about it. He sent them on to Bethlehem with an errand of his own:
+    heard  : Herod was frightened, and he was clever about it. He sent them on to Bethlehem with an errand of his own.
+[OK   ] build-86-the-wise-men/s8
+    caption: Go and search diligently for the young child; and when ye have found him, bring me word again, that I may come
+    heard  : Go and search diligently for the young child, and when you have found him,  bring me word again that I may com
+[minor] build-86-the-wise-men/n1b
+    caption: Go and look carefully for the child, he said, and when you find him, come back and tell me, so that I can come
+    heard  : Go and look carefully for the child. He said, and when you find him, come back and tell me, so that I can come
+      ~ 'worshipping' -> heard 'worshiping'   (sound match 100%)
+[minor] build-86-the-wise-men/n2a
+    caption: They were led at last to a house in Bethlehem.
+    heard  : They were let it last to a house in Bethlehem.
+      ~ 'led at' -> heard 'let it'   (sound match 80%)
+[OK   ] build-86-the-wise-men/n2b
+    caption: And there he was — not in a palace, but with his mother.
+    heard  : And there he was, not in a palace, but with his mother.
+[OK   ] build-86-the-wise-men/n3
+    caption: The wise men knelt before the little child — everything their long journey had been for. Matthew writes it dow
+    heard  : The wise men knelt before the little child. Everything their long journey had been for.  Matthew writes it dow
+[minor] build-86-the-wise-men/j2
+    caption: And when they were come into the house, they saw the young child with Mary his mother, and fell down, and wors
+    heard  : And when they were coming to the house, they saw the young child with Mary his mother,  and fell down, and wor
+      ~ 'come into' -> heard 'coming to'   (sound match 89%)
+      ~ 'worshipped' -> heard 'worshiped'   (sound match 100%)
+[BAD  ] build-86-the-wise-men/n3b
+    caption: They came into the house, they saw the little boy with his mother Mary, and they went straight down on the flo
+    heard  : They came into the house. They saw the little boy with his mother Mary, and they went straight  down on the fl
+      ~ 'worshipped' -> heard 'worshiped'   (sound match 100%)
+     !! 'in' -> heard 'and'   (sound match 67%)
+[OK   ] build-86-the-wise-men/n4a
+    caption: God warned them in a dream not to go back to Herod. So they went home another way, and the king never got his 
+    heard  : God warned them in a dream not to go back to Herod, so they went home another way,  and the king never got his
+[OK   ] build-86-the-wise-men/n4b
+    caption: The nations had come to bow to the King.
+    heard  : The nations had come to bow to the king.
+[OK   ] build-86-the-wise-men/card
+    caption: Strangers from far away recognized him first. The door is open — you're invited to worship too.
+    heard  : Strangers from far away recognized him first.  The door is open.  You're invited to worship too.
+
+2 segment(s) need an ear-check in build-86-the-wise-men

@@ -1,0 +1,53 @@
+[OK   ] build-169-fulfil-righteousness/n1
+    caption: Something startling happens at the very start of it all. Jesus, who had no sin to wash away, walks down to the
+    heard  : Something startling happens at the very start of it all.  Jesus, who had no sin to wash away, walks down to th
+[OK   ] build-169-fulfil-righteousness/n2
+    caption: John was stunned, and tried to stop him. He felt the whole thing backwards: surely he was the one who needed t
+    heard  : John was stunned and tried to stop him.  He felt the whole thing backwards.  Surely he was the one who needed 
+[BAD  ] build-169-fulfil-righteousness/s14
+    caption: I have need to be baptized of thee, and comest thou to me?
+    heard  : I have need to be baptized with thee, and coma-style to me?
+     !! 'of' -> heard 'with'   (sound match 0%)
+     !! 'comest thou' -> heard 'comastyle'   (sound match 73%)
+[OK   ] build-169-fulfil-righteousness/kv15
+    caption: And Jesus answering said unto him,
+    heard  : And Jesus answering said unto him,
+[minor] build-169-fulfil-righteousness/kv15b
+    caption: Suffer it to be so now: for thus it becometh us to fulfil all righteousness.
+    heard  : Suffer it to be so now, for thus it become a thus to fulfill all righteousness.
+      ~ 'becometh us' -> heard 'become a thus'   (sound match 100%)
+      ~ 'fulfil' -> heard 'fulfill'   (sound match 100%)
+[OK   ] build-169-fulfil-righteousness/kv15c
+    caption: Then he suffered him.
+    heard  : Then he suffered him.
+[minor] build-169-fulfil-righteousness/n3
+    caption: So even the perfect One went down into the water. Not because he needed cleansing, but to fulfil all righteous
+    heard  : So even the perfect one went down into the water, not because he needed cleansing,  but to fulfill all righteo
+      ~ 'fulfil' -> heard 'fulfill'   (sound match 100%)
+[OK   ] build-169-fulfil-righteousness/n4
+    caption: And as he came up out of the water, heaven itself answered. The skies opened, and the Spirit of God came down 
+    heard  : And as he came up out of the water, heaven itself answered. The skies opened,  and the Spirit of God came down
+[BAD  ] build-169-fulfil-righteousness/kv17
+    caption: And lo a voice from heaven, saying,
+    heard  : and lower voice from heaven saying.
+     !! 'lo a' -> heard 'lower'   (sound match 50%)
+[OK   ] build-169-fulfil-righteousness/gv17
+    caption: This is my beloved Son, in whom I am well pleased.
+    heard  : This is my beloved son, in whom I am well pleased.
+[minor] build-169-fulfil-righteousness/n5
+    caption: Look closely at that one moment, because it opens a window into who God is. Three were there at once, and each
+    heard  : Look closely at that one moment, because it opens a window into who God is.  Three were there at once, and eac
+      ~ 'son' -> heard 'sun'   (sound match 100%)
+[OK   ] build-169-fulfil-righteousness/n6
+    caption: Here is the quiet study gem. This was not one person changing costumes. It was three distinct persons, togethe
+    heard  : Here is the quiet study gem. This was not one person changing costumes. It was three distinct  persons togethe
+[minor] build-169-fulfil-righteousness/n7
+    caption: And that settles it for the rest of us. If the one man who never needed it still went down into the water to f
+    heard  : And that settles it for the rest of us. If the one man who never needed it still went down into  the water to 
+      ~ 'fulfil' -> heard 'fulfill'   (sound match 100%)
+[minor] build-169-fulfil-righteousness/card
+    caption: Even the Sinless One was baptized, to fulfil all righteousness — and there the Godhead stood revealed: the Son
+    heard  : Even the sinless one was baptized to fulfill all righteousness, and there the Godhead stood  revealed, the Son
+      ~ 'fulfil' -> heard 'fulfill'   (sound match 100%)
+
+2 segment(s) need an ear-check in build-169-fulfil-righteousness

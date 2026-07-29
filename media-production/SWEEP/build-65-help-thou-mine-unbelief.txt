@@ -1,0 +1,27 @@
+[BAD  ] build-65-help-thou-mine-unbelief/n0
+    caption: Jesus came down from the mountain to find a crowd in an uproar — scribes arguing, his disciples cornered, and 
+    heard  : Jesus came down from the mountain to find a crowd in an uproar, scribes arguing, his disciples  cornered, and 
+     !! 'a' -> heard 'of'   (sound match 0%)
+[OK   ] build-65-help-thou-mine-unbelief/n1
+    caption: His only son had suffered for years, and the disciples hadn't been able to help. The father turned to Jesus wi
+    heard  : His only son had suffered for years, and the disciples hadn't been able to help.  The Father turned to Jesus w
+[OK   ] build-65-help-thou-mine-unbelief/n2
+    caption: Jesus answered him gently.
+    heard  : Jesus answered him gently.
+[OK   ] build-65-help-thou-mine-unbelief/j1
+    caption: If thou canst believe, all things are possible to him that believeth.
+    heard  : If thou canst believe, all things are possible to him that believeth.
+[OK   ] build-65-help-thou-mine-unbelief/n3
+    caption: And the father cried out the most honest prayer in the whole Bible — faith and doubt in the same breath.
+    heard  : And the Father cried out the most honest prayer in the whole Bible, faith and doubt in the same breath.
+[OK   ] build-65-help-thou-mine-unbelief/j2
+    caption: Lord, I believe; help thou mine unbelief.
+    heard  : Lord, I believe, help thou mine unbelief.
+[OK   ] build-65-help-thou-mine-unbelief/n4
+    caption: It was enough. Jesus took the boy by the hand, lifted him up, and gave him back to his father — well, and whol
+    heard  : It was enough. Jesus took the boy by the hand, lifted him up, and gave him back to his father.  Well, and whol
+[OK   ] build-65-help-thou-mine-unbelief/card
+    caption: He didn't wait for perfect faith. Bring him the little you have — and ask him to help the rest.
+    heard  : He didn't wait for perfect faith. Bring him the little you have and ask him to help the rest.
+
+1 segment(s) need an ear-check in build-65-help-thou-mine-unbelief

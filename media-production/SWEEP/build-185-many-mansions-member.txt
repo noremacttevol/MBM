@@ -1,0 +1,30 @@
+[OK   ] build-185-many-mansions-member/n0
+    caption: On the night before everything changed, Jesus sat with his disciples and told them not to let their hearts be 
+    heard  : On the night before everything changed, Jesus sat with His disciples and told them not to let  their hearts be
+[OK   ] build-185-many-mansions-member/jv1
+    caption: Let not your heart be troubled: ye believe in God, believe also in me.
+    heard  : Let not your heart be troubled, ye believe in God, believe also in me.
+[OK   ] build-185-many-mansions-member/n1
+    caption: He was going somewhere — but not to leave them behind. He was going to get a place ready.
+    heard  : He was going somewhere, but not to leave them behind. He was going to get a place ready.
+[OK   ] build-185-many-mansions-member/j1
+    caption: In my Father's house are many mansions: if it were not so, I would have told you. I go to prepare a place for 
+    heard  : In my father's house are many mansions, if it were not so, I would have told you.  I go to prepare a place for
+[OK   ] build-185-many-mansions-member/n2
+    caption: A house with room for everyone. He said it plainly — if it were not true, he would have told them.
+    heard  : A house with room for everyone. He said it plainly. If it were not true, he would have told them.  //
+[OK   ] build-185-many-mansions-member/j2
+    caption: And if I go and prepare a place for you, I will come again, and receive you unto myself; that where I am, ther
+    heard  : And if I go and prepare a place for you, I will come again, and receive you unto myself, that where I am, ther
+[minor] build-185-many-mansions-member/n3a
+    caption: He was not describing a far-off maybe.
+    heard  : He was not describing a far off maybe.
+      ~ 'faroff' -> heard 'far off'   (sound match 100%)
+[OK   ] build-185-many-mansions-member/n3b
+    caption: He was promising to come back and carry them home himself.
+    heard  : He was promising to come back and carry them home himself.
+[OK   ] build-185-many-mansions-member/card
+    caption: He went to prepare a place — and he's coming back for you. You are not forgotten.
+    heard  : He went to prepare a place, and he's coming back for you. You are not forgotten.  //
+
+0 segment(s) need an ear-check in build-185-many-mansions-member

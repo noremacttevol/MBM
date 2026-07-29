@@ -1,0 +1,56 @@
+[OK   ] build-98-mary-her-name/n0
+    caption: Mary Magdalene stayed behind at the tomb, weeping. When she was asked why she was crying, all she had was one 
+    heard  : Mary Magdalene stayed behind at the tomb, weeping, when she was asked why she was crying. All  she had was one
+[OK   ] build-98-mary-her-name/w13
+    caption: They have taken away my Lord, and I know not where they have laid him.
+    heard  : They have taken away my Lord, and I know not where they have laid Him.
+[OK   ] build-98-mary-her-name/n0b
+    caption: They have taken away my Lord, she said, and I don't know where they've put him. She had lost him once already.
+    heard  : They have taken away my lord. She said, and I don't know where they've put him. She had lost  him once already
+[OK   ] build-98-mary-her-name/n1a
+    caption: She turned and saw a man standing there.
+    heard  : She turned, and saw a man standing there.
+[OK   ] build-98-mary-her-name/jv15
+    caption: Woman, why weepest thou? whom seekest thou?
+    heard  : Woman, why weepest thou?  Whom seekest thou?
+[BAD  ] build-98-mary-her-name/n1a2
+    caption: Why are you crying? he asked her. Who is it you're looking for? She did not know the voice yet. Through the te
+    heard  : Why are you crying? He asked her. Who was it you're looking for? She did not know the voice yet.  Through the 
+     !! 'is' -> heard 'was'   (sound match 67%)
+[OK   ] build-98-mary-her-name/n1b
+    caption: Thinking he was the gardener, she pleaded with him.
+    heard  : Thinking he was the gardener, she pleaded with him.
+[OK   ] build-98-mary-her-name/w15
+    caption: Sir, if thou have borne him hence, tell me where thou hast laid him, and I will take him away.
+    heard  : Sir, if thou have borne him hence, tell me where thou hast laid him, and I will take him away.
+[OK   ] build-98-mary-her-name/n1b2
+    caption: Sir, if you carried him off, just tell me where you put him, and I will go and get him. She was a woman offeri
+    heard  : Sir, if you carried him off, just tell me where you put him, and I will go and get him.  She was a woman offer
+[OK   ] build-98-mary-her-name/n2
+    caption: He said one word. Her name.
+    heard  : He said one word, her name.
+[OK   ] build-98-mary-her-name/j1
+    caption: Mary.
+    heard  : Mary
+[minor] build-98-mary-her-name/w16
+    caption: Rabboni.
+    heard  : Raboni
+      ~ 'rabboni' -> heard 'raboni'   (sound match 100%)
+[minor] build-98-mary-her-name/n3
+    caption: Mary. And she answered him — Rabboni. It means Master, in her own language, the word she had always called him
+    heard  : Mary, and she answered him, Raboni. It means master in her own language, the word she had  always called him. 
+      ~ 'rabboni' -> heard 'raboni'   (sound match 100%)
+[OK   ] build-98-mary-her-name/jv17
+    caption: Touch me not; for I am not yet ascended to my Father: but go to my brethren, and say unto them, I ascend unto 
+    heard  : Touch me not, for I am not yet ascended to my Father, but go to my brethren, and say unto them,  I ascend unto
+[OK   ] build-98-mary-her-name/n4a
+    caption: Don't hold on to me yet, he told her — I haven't gone up to my Father. Go to my brothers and tell them I'm goi
+    heard  : Don't hold on to me yet, he told her, I haven't gone up to my father. Go to my brothers and tell  them I'm goi
+[OK   ] build-98-mary-her-name/n4b
+    caption: The first person to see the risen Lord, and the first preacher of the resurrection, was a weeping woman he cal
+    heard  : The first person to see the risen Lord and the first preacher of the resurrection was a weeping  woman he call
+[OK   ] build-98-mary-her-name/card
+    caption: He knows your name — and he speaks it even in your grief. Listen for it.
+    heard  : He knows your name, and he speaks it even in your grief. Listen for it.
+
+1 segment(s) need an ear-check in build-98-mary-her-name

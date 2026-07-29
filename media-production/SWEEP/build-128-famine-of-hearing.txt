@@ -1,0 +1,30 @@
+[OK   ] build-128-famine-of-hearing/n0a
+    caption: The prophet Amos carried a warning from the Lord —
+    heard  : The prophet Amos carried a warning from the Lord.
+[OK   ] build-128-famine-of-hearing/n0b
+    caption: not about food, but about something people would miss even more.
+    heard  : Not about food, but about something people would miss even more.
+[OK   ] build-128-famine-of-hearing/n1
+    caption: A day would come when God's voice would seem far away — not because He stopped speaking, but because people st
+    heard  : A day would come when God's voice would seem far away.  Not because He stopped speaking, but because people st
+[minor] build-128-famine-of-hearing/s1
+    caption: Behold, the days come, saith the Lord GOD, that I will send a famine in the land, not a famine of bread, nor a
+    heard  : Behold, the days come, set the Lord God that I will send a famine in the land, not a famine  of bread, nor a t
+      ~ 'saith' -> heard 'set'   (sound match 80%)
+[OK   ] build-128-famine-of-hearing/s2
+    caption: And they shall wander from sea to sea, and from the north even to the east, they shall run to and fro to seek 
+    heard  : and they shall wander from sea to sea, and from the north even to the east,  they shall run to and fro to seek
+[OK   ] build-128-famine-of-hearing/n2
+    caption: The deepest hunger isn't in the stomach. It's the ache of a soul that can't find a word from God.
+    heard  : The deepest hunger isn't in the stomach. It's the ache of a soul that can't find a word from God.
+[OK   ] build-128-famine-of-hearing/n3a
+    caption: The cure was never far.
+    heard  : The cure was never far.
+[OK   ] build-128-famine-of-hearing/n3b
+    caption: It was to listen while His voice could still be heard.
+    heard  : It was to listen while his voice could still be heard.
+[OK   ] build-128-famine-of-hearing/card
+    caption: When His word is near, don't let it pass. Listen now — the famine is the silence we choose.
+    heard  : When his word is near, don't let it pass. Listen now, the famine is the silence we choose.
+
+0 segment(s) need an ear-check in build-128-famine-of-hearing

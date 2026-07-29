@@ -1,0 +1,57 @@
+[OK   ] build-48-new-wine-old-bottles/n1
+    caption: Some very sincere, very religious men came to him with an honest question.
+    heard  : Some very sincere, very religious men came to him with an honest question.
+[OK   ] build-48-new-wine-old-bottles/s18
+    caption: Why do the disciples of John and of the Pharisees fast, but thy disciples fast not?
+    heard  : Why do the disciples of John and of the Pharisees fast, but thy disciples fast not?
+[OK   ] build-48-new-wine-old-bottles/n1b
+    caption: John's followers fasted. The Pharisees fasted. So why, they asked, did his own disciples not fast like everyon
+    heard  : John's followers fasted. The Pharisees fasted. So why, they asked, did his own disciples not  fast like everyo
+[OK   ] build-48-new-wine-old-bottles/n2
+    caption: Fasting was how you showed God you were serious. These were good men, going hungry to draw close to him. And h
+    heard  : Fasting was how you showed God you were serious.  These were good men, going hungry to draw close to him.  And
+[minor] build-48-new-wine-old-bottles/jv19
+    caption: Can the children of the bridechamber fast, while the bridegroom is with them? as long as they have the bridegr
+    heard  : Can the children of the bride chamber fast, while the bridegroom is with them?  As long as they have the bride
+      ~ 'bridechamber' -> heard 'bride chamber'   (sound match 100%)
+[OK   ] build-48-new-wine-old-bottles/n3
+    caption: He points them at a wedding. Nobody starves themselves at a wedding feast. While the groom is right there in t
+    heard  : He points them at a wedding. Nobody starves themselves at a wedding feast.  While the groom is right there in 
+[OK   ] build-48-new-wine-old-bottles/jv20
+    caption: But the days will come, when the bridegroom shall be taken away from them, and then shall they fast in those d
+    heard  : But the days will come when the bridegroom shall be taken away from them, and then shall they fast in those da
+[OK   ] build-48-new-wine-old-bottles/n4
+    caption: Then he says something that must have landed strangely. A day is coming when the groom will be gone. He is loo
+    heard  : Then he says something that must have landed strangely. A day is coming when the groom will be  gone. He is lo
+[minor] build-48-new-wine-old-bottles/n5
+    caption: Then he gives them two small pictures from everyday life. The first one is about mending clothes. You do not s
+    heard  : Then he gives them two small pictures from everyday life.  The first one is about mending clothes. You do not 
+      ~ 'brandnew' -> heard 'brand new'   (sound match 100%)
+      ~ 'wornout' -> heard 'worn out'   (sound match 100%)
+[minor] build-48-new-wine-old-bottles/jv21
+    caption: No man also seweth a piece of new cloth on an old garment: else the new piece that filled it up taketh away fr
+    heard  : No man also saw the piece of new cloth on an old garment, else the new piece that filled it up takeeth away fr
+      ~ 'seweth a' -> heard 'saw the'   (sound match 100%)
+      ~ 'taketh' -> heard 'takeeth'   (sound match 100%)
+[BAD  ] build-48-new-wine-old-bottles/n5b
+    caption: Put a stiff new patch on a worn-out coat and the new cloth pulls against the old, and it tears the hole wider 
+    heard  : Put a stiff new patch on a worn out coat and the new cloth pulls against the old,  and it tears the whole wide
+      ~ 'wornout' -> heard 'worn out'   (sound match 100%)
+     !! 'hole' -> heard 'whole'   (sound match 50%)
+[OK   ] build-48-new-wine-old-bottles/n6
+    caption: The second picture is about wine. In that world you kept your wine in bottles made of leather, of whole animal
+    heard  : The second picture is about wine. In that world, you kept your wine in bottles made of leather,  of whole anim
+[OK   ] build-48-new-wine-old-bottles/jv22
+    caption: And no man putteth new wine into old bottles: else the new wine doth burst the bottles, and the wine is spille
+    heard  : And no man putteth new wine into old bottles, else the new wine doth burst the bottles, and the wine is spille
+[OK   ] build-48-new-wine-old-bottles/n7
+    caption: So you never pour fresh, living wine into a stiff old skin. The wine keeps growing, the hard leather cannot gi
+    heard  : So you never pour fresh, living wine into a stiff old skin. The wine keeps growing, the hard leather cannot gi
+[OK   ] build-48-new-wine-old-bottles/n8
+    caption: That is the good news hiding inside a question about fasting. God was not tinkering with the old rules. He was
+    heard  : That is the good news hiding inside a question about fasting.  God was not tinkering with the old rules. He wa
+[OK   ] build-48-new-wine-old-bottles/card
+    caption: They came asking about a rule, and he answered with a wedding. God is doing a new thing, and it is full of joy
+    heard  : They came asking about a rule, and he answered with a wedding,  God is doing a new thing, and it is full of jo
+
+1 segment(s) need an ear-check in build-48-new-wine-old-bottles

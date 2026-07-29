@@ -1,0 +1,38 @@
+[OK   ] build-137-stephen-sees-him-standing/n0a
+    caption: The council was furious. They dragged Stephen out and hurled stones.
+    spoken : The council was furious. They dragged Steevun out and hurled stones.
+    heard  : The council was furious. They dragged Stephen out and hurled stones.
+[OK   ] build-137-stephen-sees-him-standing/s54
+    caption: When they heard these things, they were cut to the heart, and they gnashed on him with their teeth.
+    heard  : When they heard these things, they were cut to the heart, and they gnashed on him with their teeth.
+[OK   ] build-137-stephen-sees-him-standing/n54
+    caption: The truth went straight through them. And instead of letting it change them, they turned the wound into rage.
+    heard  : The truth went straight through them, and instead of letting it change them, they turned the wound  into rage.
+[OK   ] build-137-stephen-sees-him-standing/n0b
+    caption: But Stephen was looking somewhere else entirely.
+    spoken : But Steevun was looking somewhere else entirely.
+    heard  : But Stephen was looking somewhere else entirely.
+[OK   ] build-137-stephen-sees-him-standing/n1
+    caption: Full of the Holy Ghost, he gazed up into heaven — and saw the glory of God.
+    heard  : Full of the Holy Ghost, He gazed up into Heaven and saw the glory of God.  //
+[OK   ] build-137-stephen-sees-him-standing/s1
+    caption: Behold, I see the heavens opened, and the Son of man standing on the right hand of God.
+    heard  : Behold, I see the heavens opened and the Son of Man standing on the right hand of God.
+[OK   ] build-137-stephen-sees-him-standing/n2
+    caption: Look, he said — I can see heaven open, and the Son of man standing at God's right hand. Not sitting. Standing.
+    heard  : Look, he said, I can see heaven open and the Son of Man standing at God's right hand.  Not sitting, standing, 
+[OK   ] build-137-stephen-sees-him-standing/n3
+    caption: The vision held him steady while the stones fell. He saw his Savior standing for him.
+    heard  : The vision held him steady while the stones fell. He saw his Savior standing for him.
+[minor] build-137-stephen-sees-him-standing/s59
+    caption: And they stoned Stephen, calling upon God, and saying, Lord Jesus, receive my spirit.
+    heard  : and they stone Stephen, calling upon God, and saying,  Lord Jesus, receive my Spirit.
+      ~ 'stoned' -> heard 'stone'   (sound match 86%)
+[OK   ] build-137-stephen-sees-him-standing/n59
+    caption: He answered the thing he was seeing. Lord Jesus, take me — I am ready. He had watched heaven stand up for him,
+    heard  : He answered the thing he was seeing. Lord Jesus, take me, I am ready. He had watched heaven stand  up for him 
+[OK   ] build-137-stephen-sees-him-standing/card
+    caption: He stands for you too. Whatever falls on you today, you are not alone.
+    heard  : He stands for you too. Whatever falls on you today, you are not alone.
+
+0 segment(s) need an ear-check in build-137-stephen-sees-him-standing

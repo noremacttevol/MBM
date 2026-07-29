@@ -1,0 +1,57 @@
+[OK   ] build-71-calling-the-fishermen/n1
+    caption: It is early morning on the Sea of Galilee. Not a temple, not a synagogue, not a hall full of scholars. Just a 
+    heard  : It is early morning on the Sea of Galilee, not a temple, not a synagogue, not a hall full of scholars,  just a
+[OK   ] build-71-calling-the-fishermen/n2
+    caption: Two brothers are out in the shallows, Simon and Andrew, throwing a net the way they had a thousand mornings be
+    heard  : Two brothers are out in the shallows, Simon and Andrew.  Throwing a net the way they had a thousand mornings b
+[OK   ] build-71-calling-the-fishermen/n3
+    caption: And this is where he comes. Not waiting in a holy place for the right people to find him. Walking the shorelin
+    heard  : And this is where he comes, not waiting in a holy place for the right people to find him,  walking the shoreli
+[OK   ] build-71-calling-the-fishermen/j1
+    caption: Follow me, and I will make you fishers of men.
+    heard  : Follow me, and I will make you fishers of men.
+[OK   ] build-71-calling-the-fishermen/n4
+    caption: Notice what he does not say. He does not tell them to become someone else first. He does not ask them to be sc
+    heard  : Notice what he does not say. He does not tell them to become someone else first. He does not ask them to be sc
+[OK   ] build-71-calling-the-fishermen/n5
+    caption: Think about what it would take to make a man like Simon put his net down. He was not a boy with nothing to los
+    heard  : Think about what it would take to make a man like Simon put his net down. He was not a boy with  nothing to lo
+[minor] build-71-calling-the-fishermen/s20
+    caption: And they straightway left their nets, and followed him.
+    heard  : and they straightaway left their nets and followed him.
+      ~ 'straightway' -> heard 'straightaway'   (sound match 100%)
+[OK   ] build-71-calling-the-fishermen/n6
+    caption: And they went at once. Not next season, not once they had saved a little more. That very morning, with the net
+    heard  : and they went at once. Not next season, not once they had saved a little more. That very morning,  with the ne
+[OK   ] build-71-calling-the-fishermen/n7
+    caption: A little further along, two more brothers, James and John, sat in a boat mending the day's torn nets beside Ze
+    spoken : A little further along, two more brothers, James and John, sat in a boat mending the day's torn nets beside Ze
+    heard  : A little further along, two more brothers, James and John, sat in a boat mending the day's  torn nets beside Z
+[BAD  ] build-71-calling-the-fishermen/n8
+    caption: And he called them too. The same voice, the same invitation, held out to two more ordinary men doing ordinary 
+    heard  : And he called them two. The same voice, the same invitation, held out to two more ordinary men  doing ordinary
+     !! 'too' -> heard 'two'   (sound match 67%)
+[OK   ] build-71-calling-the-fishermen/s22
+    caption: And they immediately left the ship and their father, and followed him.
+    heard  : and they immediately left the ship and their father and followed him.
+[OK   ] build-71-calling-the-fishermen/n9
+    caption: And they did the same thing. Right then they climbed out of the boat, left the half-mended nets in the hull, a
+    spoken : And they did the same thing. Right then they climbed out of the boat, left the half-mended nets in the hull, a
+    heard  : And they did the same thing. Right then they climbed out of the boat, left the half-mended nets in the  hull, 
+[minor] build-71-calling-the-fishermen/n10
+    caption: So the ones who followed him down the shore that morning were four fishermen. No titles, no training, no crede
+    heard  : So the ones who followed him down the shore that morning were for fishermen. No titles, no training,  no crede
+      ~ 'four' -> heard 'for'   (sound match 100%)
+      ~ 'were' -> heard 'where'   (sound match 100%)
+[minor] build-71-calling-the-fishermen/n11
+    caption: That is the good news hiding in this small story. He did not go looking for the qualified. He went looking for
+    heard  : That is the good news hiding in this small story. He did not go looking for the qualified.  He went looking fo
+      ~ 'the men' -> heard 'them in'   (sound match 100%)
+[OK   ] build-71-calling-the-fishermen/n12
+    caption: And the strange thing is, that shoreline is not closed. The same voice that walked up to men at their nets sti
+    heard  : And the strange thing is, that shoreline is not closed. The same voice that walked up to men at  their nets st
+[OK   ] build-71-calling-the-fishermen/card
+    caption: He walked up to four working men on a normal morning and made them part of the greatest story ever told, exact
+    heard  : He walked up to four working men on a normal morning and made them part of the greatest story  ever told, exac
+
+1 segment(s) need an ear-check in build-71-calling-the-fishermen

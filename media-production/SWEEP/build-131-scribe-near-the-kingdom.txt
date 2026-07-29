@@ -1,0 +1,40 @@
+[OK   ] build-131-scribe-near-the-kingdom/n0a
+    caption: A teacher of the law came to Jesus with a real question, not a trap —
+    heard  : A teacher of the law came to Jesus with a real question, not a trap.
+[OK   ] build-131-scribe-near-the-kingdom/s28
+    caption: Which is the first commandment of all?
+    heard  : Which is the first commandment of all?
+[OK   ] build-131-scribe-near-the-kingdom/n0b
+    caption: which commandment matters most of all?
+    heard  : Which commandment matters most of all.
+[minor] build-131-scribe-near-the-kingdom/jv29
+    caption: The first of all the commandments is, Hear, O Israel; The Lord our God is one Lord: And thou shalt love the Lo
+    heard  : The first of all the commandments is,  here, O Israel, the Lord our God is one Lord,  and thou shalt love the 
+      ~ 'hear' -> heard 'here'   (sound match 100%)
+      ~ 'neighbour' -> heard 'neighbor'   (sound match 100%)
+[OK   ] build-131-scribe-near-the-kingdom/n1
+    caption: Jesus answered without hesitation. Love God with everything you are. And love your neighbor as yourself. Every
+    heard  : Jesus answered without hesitation,  love God with everything you are,  and love your neighbor as yourself.  Ev
+[minor] build-131-scribe-near-the-kingdom/s32
+    caption: Well, Master, thou hast said the truth: for there is one God; and there is none other but he: And to love him 
+    heard  : Well, Master, thou hast said the truth, for there is one God, and there is none other but He,  and to love Him
+      ~ 'neighbour' -> heard 'neighbor'   (sound match 100%)
+      ~ 'burnt' -> heard 'burn'   (sound match 86%)
+[minor] build-131-scribe-near-the-kingdom/n2
+    caption: The scribe agreed — and added something honest: to love God and neighbor is worth more than any burnt offering
+    heard  : The scribe agreed and added something honest, to love God and neighbor is worth more than any  burn offering.
+      ~ 'burnt' -> heard 'burn'   (sound match 86%)
+[OK   ] build-131-scribe-near-the-kingdom/n3
+    caption: Jesus looked at him and saw a man thinking clearly, with an open heart.
+    heard  : Jesus looked at him and saw a man thinking clearly with an open heart.
+[OK   ] build-131-scribe-near-the-kingdom/j1
+    caption: Thou art not far from the kingdom of God.
+    heard  : Thou art not far from the kingdom of God.
+[OK   ] build-131-scribe-near-the-kingdom/n4
+    caption: Not far. The man was close — a step from the door. And no one dared question Jesus after that.
+    heard  : Not far. The man was close, a step from the door. And no one dared question Jesus after that.
+[OK   ] build-131-scribe-near-the-kingdom/card
+    caption: You may be closer than you think. Love God, love your neighbor — and step through the door.
+    heard  : You may be closer than you think. Love God. Love your neighbor and step through the door.
+
+0 segment(s) need an ear-check in build-131-scribe-near-the-kingdom

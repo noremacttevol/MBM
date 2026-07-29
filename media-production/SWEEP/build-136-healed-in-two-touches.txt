@@ -1,0 +1,33 @@
+[BAD  ] build-136-healed-in-two-touches/n0
+    caption: Friends brought a blind man to Jesus in Bethsaida and begged Him just to touch him.
+    heard  : Friends brought a blind man to Jesus and Beth Ceta and begged him just to touch him.
+     !! 'in bethsaida' -> heard 'and beth ceta'   (sound match 62%)
+[OK   ] build-136-healed-in-two-touches/n1a
+    caption: Jesus took the man by the hand and walked him outside the village.
+    heard  : Jesus took the man by the hand and walked him outside the village.
+[OK   ] build-136-healed-in-two-touches/n1b
+    caption: He spit on the man's eyes and laid His hands on him, then asked if he could see anything yet.
+    heard  : He spit on the man's eyes and laid his hands on him, then asked if he could see anything yet.
+[OK   ] build-136-healed-in-two-touches/s24
+    caption: I see men as trees, walking.
+    heard  : I see men as trees walking.
+[OK   ] build-136-healed-in-two-touches/n2
+    caption: The man looked up and said the strangest thing — he could see, but only halfway. People looked like trees walk
+    heard  : The man looked up and said the strangest thing. He could see, but only halfway. People looked  like trees walk
+[OK   ] build-136-healed-in-two-touches/n3
+    caption: So Jesus put His hands on the man's eyes a second time and told him to look up again.
+    heard  : So Jesus put his hands on the man's eyes a second time and told him to look up again.
+[OK   ] build-136-healed-in-two-touches/n4
+    caption: And this time he saw everything clearly — every face, every leaf. The second touch finished what the first had
+    heard  : And this time he saw everything clearly, every face, every leaf.  The second touch finished what the first had
+[OK   ] build-136-healed-in-two-touches/j1
+    caption: Neither go into the town, nor tell it to any in the town.
+    heard  : Neither go into the town, nor tell it to any in the town.
+[OK   ] build-136-healed-in-two-touches/n5
+    caption: Don't go back into the town, Jesus told him, and don't tell anybody there. The healing was for the man himself
+    heard  : Don't go back into the town. Jesus told him, and don't tell anybody there. The healing was for the  man himsel
+[OK   ] build-136-healed-in-two-touches/card
+    caption: Maybe your faith came in stages too. He is patient enough to touch you twice.
+    heard  : Maybe your faith came in stages too. He is patient enough to touch you twice.
+
+1 segment(s) need an ear-check in build-136-healed-in-two-touches

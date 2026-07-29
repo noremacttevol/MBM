@@ -48,7 +48,7 @@ S6 = "s6-but-by-me.jpeg"
 S7 = "s7-the-room-at-peace.jpeg"
 S8 = "s8-standing-in-the-doorway.jpeg"
 
-TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
+TEXT = {s[0]: (s[4] if len(s) >= 5 else s[2]) for s in make_narration.SEGMENTS}
 KJV = {"j1a", "j1b"}
 CARD_TEXT = "Stop looking for the road. Walk with Him."
 

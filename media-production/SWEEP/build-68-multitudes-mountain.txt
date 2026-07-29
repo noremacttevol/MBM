@@ -1,0 +1,51 @@
+[OK   ] build-68-multitudes-mountain/n0
+    caption: After the coast, Jesus came back toward the Sea of Galilee, climbed partway up a mountain, and sat down. That'
+    heard  : After the coast, Jesus came back toward the Sea of Galilee, climbed partway up a mountain,  and sat down. That
+[OK   ] build-68-multitudes-mountain/n1
+    caption: Matthew says great multitudes came — and they did not come empty-handed. They came carrying people. Think abou
+    heard  : Matthew says great multitudes came, and they did not come empty-handed.  They came carrying people.  Think abo
+[OK   ] build-68-multitudes-mountain/n2
+    caption: And they laid them down at his feet. Here is exactly how Matthew writes it:
+    heard  : and they laid them down at his feet. Here is exactly how Matthew writes it.  //  //
+[OK   ] build-68-multitudes-mountain/s30
+    caption: And great multitudes came unto him, having with them those that were lame, blind, dumb, maimed, and many other
+    heard  : And great multitudes came unto Him, having with them those that were lame, blind, dumb, maimed,  and many othe
+[OK   ] build-68-multitudes-mountain/n3
+    caption: The lame, the blind, the mute, the maimed — he stacks up the words until you can see it: the pain of an entire
+    heard  : The lame, the blind, the mute, the maimed. He stacks up the words until you can see it.  The pain of an entire
+[minor] build-68-multitudes-mountain/n4
+    caption: Somewhere on that mountain, a woman who had never spoken said her husband's name for the first time. Somewhere
+    heard  : Somewhere on that mountain, a woman who had never spoken said her husband's name for the first time.  Somewher
+      ~ 'an' -> heard 'in'   (sound match 100%)
+[OK   ] build-68-multitudes-mountain/n5
+    caption: And Matthew tells you what the crowd did with it:
+    heard  : And Matthew tells you what the crowd did with it.
+[BAD  ] build-68-multitudes-mountain/s31
+    caption: Insomuch that the multitude wondered, when they saw the dumb to speak, the maimed to be whole, the lame to wal
+    heard  : In so much that the multitude wondered, when they saw the dumb to speak,  the main to be whole, the lame to wa
+      ~ 'insomuch' -> heard 'in so much'   (sound match 100%)
+     !! 'maimed' -> heard 'main'   (sound match 50%)
+[OK   ] build-68-multitudes-mountain/n5b
+    caption: They could not believe their eyes — people who had never spoken were talking, broken bodies were whole, the la
+    heard  : They could not believe their eyes. People who had never spoken were talking, broken bodies were whole.  The la
+[minor] build-68-multitudes-mountain/n6
+    caption: And here is the detail people miss: they stayed. Three days, on a mountainside, until the food ran out — and n
+    heard  : And here is the detail people miss. They stayed. Three days on a mountain side until the food ran out,  and no
+      ~ 'mountainside' -> heard 'mountain side'   (sound match 100%)
+[OK   ] build-68-multitudes-mountain/j1
+    caption: I have compassion on the multitude, because they continue with me now three days, and have nothing to eat: and
+    spoken : I have compassion on the multitude, because they continue with me now three days, and have nothing to eat: and
+    heard  : I have compassion on the multitude, because they continue with me now three days, and have nothing to eat, and
+[OK   ] build-68-multitudes-mountain/n6b
+    caption: I feel for these people, he said. They have been with me three days now and they have nothing to eat, and I am
+    heard  : I feel for these people," he said.  They have been with me three days now and they have nothing to eat, and I 
+[minor] build-68-multitudes-mountain/n7
+    caption: He noticed their stomachs. He had just remade their bodies, and he was thinking about their lunch. That is who
+    spoken : He noticed their stomachs. He had just remade their bodies, and he was thinking about their lunch. That is who
+    heard  : He noticed their stomachs. He had just remade their bodies, and he was thinking about their launch.  That is w
+      ~ 'lunch' -> heard 'launch'   (sound match 100%)
+[OK   ] build-68-multitudes-mountain/card
+    caption: Thousands were healed that day whose names nobody wrote down. He remembers every one of them. He will not lose
+    heard  : Thousands were healed that day, whose names nobody wrote down.  He remembers every one of them.  He will not l
+
+1 segment(s) need an ear-check in build-68-multitudes-mountain

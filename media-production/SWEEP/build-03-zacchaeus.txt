@@ -1,0 +1,71 @@
+[OK   ] build-03-zacchaeus/n0
+    caption: In Jericho there lived a man named Zacchaeus. And if you're thinking of Matthew — the tax collector who became
+    heard  : In Jericho there lived a man named Zacchaeus. And if you're thinking of Matthew, the tax collector  who became
+[BAD  ] build-03-zacchaeus/n1
+    caption: Here's why that mattered. Tax collectors worked for Rome — the empire occupying their own people — and they go
+    heard  : Here's why that mattered. Tax collectors worked for Rome. The empire occupying their own people,  and they got
+     !! 'to' -> heard 'do'   (sound match 0%)
+[OK   ] build-03-zacchaeus/n2
+    caption: When Jesus came to Jericho, the whole city pressed into the street to see him. And Zacchaeus had a problem. He
+    heard  : When Jesus came to Jericho, the whole city pressed into the street to see him.  And Zacchaeus had a problem. H
+[OK   ] build-03-zacchaeus/n3a
+    caption: So this small, wealthy man did something no respectable person would ever do. He gathered up his fine robes, a
+    heard  : So this small, wealthy man did something no respectable person would ever do.  He gathered up his fine robes a
+[OK   ] build-03-zacchaeus/n3b
+    caption: And he climbed a sycamore tree, like a child. Bible students love this detail. In that world, a grown man runn
+    heard  : And he climbed a sycamore tree like a child.  Bible students love this detail.  In that world, a grown man run
+[OK   ] build-03-zacchaeus/n4
+    caption: He got far more. Jesus stopped — under that exact tree — looked up, and called him by name.
+    heard  : He got far more. Jesus stopped under that exact tree, looked up and called him by name.
+[OK   ] build-03-zacchaeus/j1a
+    caption: Zacchaeus, make haste, and come down;
+    heard  : Zacchaeus, make haste and come down.
+[BAD  ] build-03-zacchaeus/j1b
+    caption: for to day I must abide at thy house.
+    heard  : For today I must abide at my house.
+      ~ 'to day' -> heard 'today'   (sound match 100%)
+     !! 'thy' -> heard 'my'   (sound match 40%)
+[OK   ] build-03-zacchaeus/n5
+    caption: Now — why would Jesus do that? Understand what a meal meant back then. To eat at a man's house was to publicly
+    heard  : Now, why would Jesus do that? Understand what a meal meant back then.  To eat at a man's house was to publicly
+[OK   ] build-03-zacchaeus/n6
+    caption: Zacchaeus came down faster than he had climbed up, and welcomed him with joy. But the crowd was appalled, and 
+    heard  : Zacchaeus came down faster than he had climbed up and welcomed him with joy.  But the crowd was appalled and t
+[BAD  ] build-03-zacchaeus/s7
+    caption: That he was gone to be guest with a man that is a sinner.
+    heard  : that he was gone to be guessed with a man that is a sinner.
+     !! 'guest' -> heard 'guessed'   (sound match 67%)
+[OK   ] build-03-zacchaeus/n6b
+    caption: He has gone to be the guest of a sinner. Of every house in Jericho, he had chosen the worst man's. In their ru
+    heard  : He has gone to be the guest of a sinner. Of every house in Jericho, he had chosen the worst  man's. In their r
+[OK   ] build-03-zacchaeus/n7a
+    caption: Then, at that table, it happened. Zacchaeus stood up in front of everyone.
+    heard  : Then, at that table, it happened.  Zacchaeus stood up in front of everyone.
+[minor] build-03-zacchaeus/s8
+    caption: Behold, Lord, the half of my goods I give to the poor; and if I have taken any thing from any man by false acc
+    heard  : Behold, Lord, the half of my goods I give to the poor, and if I have taken anything from  any man by false acc
+      ~ 'any thing' -> heard 'anything'   (sound match 100%)
+[OK   ] build-03-zacchaeus/n7b
+    caption: Half of everything I own goes to the poor, he said — and anyone I have cheated, I will pay back four times ove
+    heard  : Half of everything I own goes to the poor, he said, and anyone I have cheated, I will  pay back four times ove
+[OK   ] build-03-zacchaeus/n7c
+    caption: And Jesus answered him with the words this story was written to keep.
+    heard  : And Jesus answered him with the words this story was written to keep.
+[minor] build-03-zacchaeus/j2a
+    caption: This day is salvation come to this house, forsomuch as he also is a son of Abraham.
+    heard  : This day is salvation come to this house, for so much as he also is a son of Abraham.
+      ~ 'forsomuch' -> heard 'for so much'   (sound match 100%)
+[OK   ] build-03-zacchaeus/j2b
+    caption: For the Son of man is come to seek and to save that which was lost.
+    heard  : For the Son of Man is come to seek and to save that which was lost.
+[OK   ] build-03-zacchaeus/n8
+    caption: A son of Abraham — with those words, Jesus gave him back his place in the family his whole city said he had fo
+    heard  : A son of Abraham. With those words, Jesus gave him back his place in the family his whole city,  said he had f
+[OK   ] build-03-zacchaeus/n9
+    caption: And that last line is the key to everything. Jesus was not stuck in that crowd by accident. He was seeking. Th
+    heard  : And that last line is the key to everything. Jesus was not stuck in that crowd by accident.  He was seeking. T
+[OK   ] build-03-zacchaeus/n10
+    caption: Jesus called him by name before he changed anything. What would it mean to you — to be wanted like that, exact
+    heard  : Jesus called him by name before he changed anything.  What would it mean to you to be wanted like that exactly
+
+3 segment(s) need an ear-check in build-03-zacchaeus

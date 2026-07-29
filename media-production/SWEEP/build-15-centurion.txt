@@ -1,0 +1,102 @@
+[OK   ] build-15-centurion/n1
+    caption: This is Capernaum, a fishing town on the Sea of Galilee, where Jesus often stayed and taught. It was also fill
+    heard  : This is Capernaum, a fishing town on the Sea of Galilee, where Jesus often stayed and taught.  It was also fil
+[minor] build-15-centurion/n2
+    caption: So the Jews here had every reason to hate Rome. Hold on to that, because the man this story is about wears a R
+    heard  : So the Jews here had every reason to hate Rome. Hold on to that, because the man this story is about  where's 
+      ~ 'wears' -> heard 'wheres'   (sound match 100%)
+[OK   ] build-15-centurion/n3
+    caption: In one of those Roman houses, a young servant was dying. His body had gone stiff and useless, and he was in te
+    heard  : In one of those Roman houses, a young servant was dying. His body had gone stiff and useless,  and he was in t
+[OK   ] build-15-centurion/n4
+    caption: A servant in those days was treated as property. If he died, most masters would simply replace him. But this m
+    heard  : A servant in those days was treated as property. If he died, most masters would simply replace him.  But this 
+[minor] build-15-centurion/n5
+    caption: The master was a centurion — a Roman officer in command of a hundred soldiers. A powerful man, and to the Jews
+    heard  : The Master was a Centurion, a Roman officer in command of a hundred soldiers, a powerful man  into the Jews, t
+      ~ 'and to' -> heard 'into'   (sound match 80%)
+[OK   ] build-15-centurion/n6
+    caption: Yet he left his house and went straight to Jesus, a Jewish teacher, to beg for help. Not for himself. Not even
+    heard  : Yet he left his house and went straight to Jesus, a Jewish teacher, to beg for help, not for himself,  not eve
+[OK   ] build-15-centurion/n7
+    caption: He came humbly, head bowed, and told Jesus the plain truth: his servant was at home, unable to move, in agony.
+    heard  : He came humbly, head bowed, and told Jesus the plain truth. His servant was at home, unable to move  in agony.
+[OK   ] build-15-centurion/n8
+    caption: Jesus did not hesitate for a moment. He answered that he would go to the house himself.
+    heard  : Jesus did not hesitate for a moment.  He answered that He would go to the house Himself.
+[OK   ] build-15-centurion/j1
+    caption: I will come and heal him.
+    heard  : I will come and heal him.
+[OK   ] build-15-centurion/n9
+    caption: Stop and see what that means. Jesus was willing to walk into the home of a Roman — the enemy — for the sake of
+    heard  : Stop and see what that means.  Jesus was willing to walk into the home of a Roman.  The enemy for the sake of 
+[OK   ] build-15-centurion/n10
+    caption: But the officer stopped him.
+    heard  : But the officer stopped him.
+[OK   ] build-15-centurion/s8
+    caption: Lord, I am not worthy that thou shouldest come under my roof: but speak the word only, and my servant shall be
+    heard  : Lord, I am not worthy that thou shouldest come under my roof,  but speak the word only, and my servant shall b
+[OK   ] build-15-centurion/n10b
+    caption: Lord, I am not worthy to have you come under my roof, he said. Only say the word, and my servant will be heale
+    heard  : Lord, I am not worthy to have you come under my roof," he said.  Only say the word, and my servant will be hea
+[minor] build-15-centurion/n11
+    caption: He was not just being polite. He truly believed Jesus did not need to be there at all. He believed that Jesus'
+    heard  : He was not just being polite. He truly believed Jesus did not need to be there at all.  He believed that Jesus
+      ~ 'jesuss' -> heard 'jesus'   (sound match 100%)
+[OK   ] build-15-centurion/n12
+    caption: And he explained why, in the only language a soldier knows.
+    heard  : And he explained why in the only language a soldier knows.
+[minor] build-15-centurion/s9
+    caption: For I am a man under authority, having soldiers under me: and I say to this man, Go, and he goeth; and to anot
+    heard  : For I am a man under authority, having soldiers under me, and I say to this man,  Go, and he goeth, and to ano
+      ~ 'cometh' -> heard 'comeeth'   (sound match 100%)
+[OK   ] build-15-centurion/n12b
+    caption: I am a man under authority, he said. I tell one soldier, Go, and he goes. I tell another, Come, and he comes. 
+    heard  : I am a man under authority," he said.  I tell one soldier, go, and he goes.  I tell another, come, and he come
+[minor] build-15-centurion/n13
+    caption: He never has to go himself; his word alone carries his power across the whole camp. He was certain Jesus's wor
+    heard  : He never has to go himself. His word alone carries his power across the whole camp.  He was certain Jesus' wor
+      ~ 'jesuss' -> heard 'jesus'   (sound match 100%)
+[OK   ] build-15-centurion/n14
+    caption: And this amazed Jesus. The Gospels almost never say that anyone surprised him, yet the faith of this Roman out
+    heard  : And this amazed Jesus. The Gospels almost never say that anyone surprised him,  yet the faith of this Roman ou
+[OK   ] build-15-centurion/j2
+    caption: Verily I say unto you, I have not found so great faith, no, not in Israel.
+    heard  : Verily I say unto you, I have not found so great faith, no, not in Israel.
+[OK   ] build-15-centurion/n15
+    caption: In plain words: no one among his own people, the ones who should have known God best, had ever trusted him the
+    heard  : In plain words, no one among his own people, the ones who should have known God best,  had ever trusted him th
+[OK   ] build-15-centurion/n16
+    caption: Then Jesus opened heaven wider than anyone listening expected:
+    heard  : Then Jesus opened heaven wider than anyone listening expected.  //  //
+[OK   ] build-15-centurion/j2b
+    caption: And I say unto you, That many shall come from the east and west, and shall sit down with Abraham, and Isaac, a
+    heard  : And I say unto you, that many shall come from the east and west, and shall sit down with Abraham, and Isaac, a
+[OK   ] build-15-centurion/n17
+    caption: He meant that people from every nation on earth would be welcomed to God's table. What brings you in is not wh
+    heard  : He meant that people from every nation on earth would be welcomed to God's table.  What brings you in is not w
+[OK   ] build-15-centurion/n18
+    caption: Then Jesus turned back to the soldier and gave him the one thing he had asked for — a single word.
+    heard  : Then Jesus turned back to the soldier and gave him the one thing he had asked for, a single word.
+[OK   ] build-15-centurion/j3
+    caption: Go thy way; and as thou hast believed, so be it done unto thee.
+    heard  : Go thy way, and as thou hast believed, so be it done unto thee.
+[OK   ] build-15-centurion/n19
+    caption: Go home; it has already happened, just as you trusted it would. No touch, no visit — only his word, sent acros
+    heard  : Go home. It has already happened just as you trusted it would. No touch, no visit. Only his word  sent across 
+[OK   ] build-15-centurion/n20
+    caption: And in that very hour, far away in the Roman house, the young servant drew a deep, clean breath. The color flo
+    heard  : And in that very hour, far away in the Roman house, the young servant drew a deep, clean breath.  The color fl
+[OK   ] build-15-centurion/n21
+    caption: No one was in the room with him. He was made whole by nothing but the word of a man he had never even met.
+    heard  : No one was in the room with him. He was made whole by nothing but the word of a man he had never even met.
+[minor] build-15-centurion/n22
+    caption: When the officer reached home, his servant rose to meet him at the door, alive and well. This hardened soldier
+    heard  : When the officer reached home, his servant rose to meet him at the door, alive and well.  This hardened soldie
+      ~ 'jesuss' -> heard 'jesus'   (sound match 100%)
+[minor] build-15-centurion/card
+    caption: This Roman soldier trusted Jesus before he saw any proof at all. Is there something in your life you would pla
+    heard  : This Roman soldier trusted Jesus before he saw any proof at all.  Is there something in your life you would pl
+      ~ 'jesuss' -> heard 'jesus'   (sound match 100%)
+
+0 segment(s) need an ear-check in build-15-centurion

@@ -52,7 +52,7 @@ ST6 = "s6-every-corner.jpeg"
 ST7 = "s7-seeing-the-whole-world.jpeg"
 ST8 = "s8-for-all-nations.jpeg"
 
-TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
+TEXT = {s[0]: (s[4] if len(s) >= 5 else s[2]) for s in make_narration.SEGMENTS}
 KJV = {"j1"}
 
 # MEMBER shelf: one-line Gospel Library pointer under the closing invitation.

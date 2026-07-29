@@ -1,0 +1,41 @@
+[OK   ] build-151-ask-of-god/n1
+    caption: Sooner or later, every one of us reaches a question too big for us. A fork in the road, a choice we cannot rea
+    heard  : Sooner or later, every one of us reaches a question too big for us.  A fork in the road, a choice we cannot re
+[OK   ] build-151-ask-of-god/n2
+    caption: When that happens, most of us ask everyone around us. Friends, teachers, the loudest voices in the crowd. And 
+    heard  : When that happens, most of us ask everyone around us. Friends, teachers, the loudest voices in the crowd.  And
+[OK   ] build-151-ask-of-god/n3
+    caption: But there is another door, and it has been standing open the whole time. You can go straight to the One who ma
+    heard  : But there is another door, and it has been standing open the whole time.  You can go straight to the one who m
+[minor] build-151-ask-of-god/kv5
+    caption: If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it sh
+    heard  : If any of you lack wisdom, let him ask of God that giveth to all men liberally,  and upbraeeth is not, and it 
+      ~ 'upbraideth' -> heard 'upbraeeth is'   (sound match 83%)
+[OK   ] build-151-ask-of-god/n4
+    caption: So a young man does the plainest thing there is. He finds a quiet place away from the noise, he kneels down, a
+    spoken : So a young man does the plainest thing there is. He finds a quiet place away from the noise, he neels down, an
+    heard  : So a young man does the plainest thing there is. He finds a quiet place away from the noise,  he kneels down, 
+[OK   ] build-151-ask-of-god/n5
+    caption: Now look at how God is described here. He gives to everyone who asks. Not grudgingly, not a thin trickle measu
+    heard  : Now look at how God is described here. He gives to everyone who asks,  not grudgingly, not a thin, trickle mea
+[OK   ] build-151-ask-of-god/n6
+    caption: And he does not scold. He does not shame you for not knowing, or hold your past against you, or make you feel 
+    heard  : and he does not scold, he does not shame you for not knowing, or hold your past against you,  or make you feel
+[OK   ] build-151-ask-of-god/kv6
+    caption: But let him ask in faith, nothing wavering.
+    heard  : But let him ask in faith, nothing wavering.
+[minor] build-151-ask-of-god/s6b
+    caption: For he that wavereth is like a wave of the sea driven with the wind and tossed.
+    heard  : For he that waverth is like a wave of the sea driven with the wind and tossed.
+      ~ 'wavereth' -> heard 'waverth'   (sound match 100%)
+[OK   ] build-151-ask-of-god/n7
+    caption: There is one thing asked of us in return, and it is not cleverness. It is faith. To ask believing that he trul
+    heard  : There is one thing asked of us in return, and it is not cleverness. It is faith to ask believing  that he trul
+[OK   ] build-151-ask-of-god/n8
+    caption: And the promise on the end of that verse is not a maybe. It shall be given him. Wisdom you could never argue y
+    heard  : And the promise on the end of that verse is not a maybe. It shall be given him.  Wisdom you could never argue 
+[OK   ] build-151-ask-of-god/card
+    caption: You do not have to stay stuck. If you lack wisdom, ask of God. He gives to all, openly, and does not scold. As
+    heard  : You do not have to stay stuck. If you lack wisdom, ask of God. He gives to all, openly,  and does not scold. A
+
+0 segment(s) need an ear-check in build-151-ask-of-god

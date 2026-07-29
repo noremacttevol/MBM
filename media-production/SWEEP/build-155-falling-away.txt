@@ -1,0 +1,41 @@
+[minor] build-155-falling-away/n1
+    caption: The young believers in Thessalonica were rattled. Rumors were flying that the great Day of the Lord had alread
+    heard  : The young believers in Thessalonica were rattled. Rumors were flying that the great day of the Lord  had alrea
+      ~ 'steadying' -> heard 'studying'   (sound match 100%)
+[minor] build-155-falling-away/n2
+    caption: His first word to them was calm. Do not let yourselves be shaken or alarmed, he said, by every excited rumor a
+    heard  : His first word to them was calm. Do not let yourselves be shaken or alarmed. He said,  by every excited rumor 
+      ~ 'secondhand' -> heard 'second hand'   (sound match 100%)
+      ~ 'stampeded' -> heard 'stampede it'   (sound match 91%)
+[minor] build-155-falling-away/n3
+    caption: He wanted them anchored, not tossed around by the loudest voice in the room. Feelings and hearsay are not the 
+    heard  : He wanted the mancurred, not tossed around by the loudest voice in the room. Feelings and hearsay  are not the
+      ~ 'them anchored' -> heard 'the mancurred'   (sound match 93%)
+[minor] build-155-falling-away/kv2
+    caption: That ye be not soon shaken in mind, or be troubled, neither by spirit, nor by word, nor by letter as from us, 
+    heard  : That ye be not soon shaken in mind, or be troubled, either by Spirit, nor by Word, nor by letter as from us,  
+      ~ 'neither' -> heard 'either'   (sound match 86%)
+[OK   ] build-155-falling-away/n4
+    caption: Then Paul told them plainly what to watch for. That day, he said, would not arrive until something else happen
+    heard  : Then Paul told them plainly what to watch for. That day, he said, would not arrive until something  else happe
+[minor] build-155-falling-away/n5
+    caption: A drifting from the truth. A dimming of the light that had been lit. Many hearts, over time, turning away from
+    heard  : Adrifting from the truth, a dimming of the light that had been lit, many hearts, over time,  turning away from
+      ~ 'a drifting' -> heard 'adrifting'   (sound match 100%)
+[OK   ] build-155-falling-away/n6
+    caption: But here is the part that turns dread into hope. Paul is telling them ahead of time. A falling away would not 
+    heard  : But here is the part that turns dread into hope.  Paul is telling them ahead of time.  A falling away would no
+[OK   ] build-155-falling-away/kv3
+    caption: Let no man deceive you by any means: for that day shall not come, except there come a falling away first, and 
+    heard  : Let no man deceive you by any means, for that day shall not come,  except there come a falling away first, and
+[OK   ] build-155-falling-away/n7
+    caption: And you do not warn people about a night unless a morning is meant to follow. A falling away only makes sense 
+    heard  : And you do not warn people about a night unless a morning is meant to follow.  A falling away only makes sense
+[OK   ] build-155-falling-away/n8
+    caption: So this hard little verse is really a quiet promise. The dimming was foretold, which means the returning was a
+    heard  : So this hard little verse is really a quiet promise. The dimming was foretold, which means the returning was a
+[OK   ] build-155-falling-away/card
+    caption: Paul warned that a falling away would come first — not because God failed, but because he foretold it. And wha
+    heard  : Paul warned that a falling away would come first, not because God failed, but because  he foretold it.  And wh
+
+0 segment(s) need an ear-check in build-155-falling-away

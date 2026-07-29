@@ -1,0 +1,55 @@
+[OK   ] build-88-triumphal-entry/n0a
+    caption: As Jesus came near Jerusalem, he sent two disciples ahead into the village with a strange errand.
+    heard  : As Jesus came near Jerusalem, He sent two disciples ahead into the village with a strange errand.
+[BAD  ] build-88-triumphal-entry/jv2
+    caption: Go into the village over against you, and straightway ye shall find an ass tied, and a colt with her: loose th
+    heard  : Go into the village over against you, and straightway ye shall find an ass tied, and a  colt with her, loose t
+     !! 'ought' -> heard 'odd'   (sound match 0%)
+     !! 'he' -> heard 'ye'   (sound match 0%)
+[minor] build-88-triumphal-entry/n0a2
+    caption: Go into the village, he told them. You'll find a donkey tied there with her colt. Untie them and bring them to
+    heard  : Go into the village, he told them. You'll find a donkey tied there with her cult.  Untie them and bring them t
+      ~ 'colt' -> heard 'cult'   (sound match 100%)
+[OK   ] build-88-triumphal-entry/n0b
+    caption: They went, and it happened exactly as he said. And all of it was exactly as the old prophecy had said, too.
+    heard  : They went, and it happened exactly as he said. And all of it was exactly as the old prophecy had said, too.
+[BAD  ] build-88-triumphal-entry/s5
+    caption: Tell ye the daughter of Sion, Behold, thy King cometh unto thee, meek, and sitting upon an ass, and a colt the
+    heard  : Tell you the daughter of Shown, behold thy king cometh unto thee, meek, and sitting upon an ass, and a cult of
+     !! 'sion' -> heard 'shown'   (sound match 67%)
+      ~ 'colt the foal' -> heard 'cult of full'   (sound match 91%)
+[OK   ] build-88-triumphal-entry/n1b
+    caption: The King was coming — but not the kind they expected.
+    heard  : The king was coming, but not the kind they expected.
+[OK   ] build-88-triumphal-entry/n1a
+    caption: The crowds spread their cloaks on the road, and cut branches from the trees, and lined his path.
+    heard  : The crowds spread their cloaks on the road and cut branches from the trees and lined his path.
+[BAD  ] build-88-triumphal-entry/n2
+    caption: And the people shouted as he rode in:
+    heard  : and the people shouted as he wrote in.
+     !! 'rode' -> heard 'wrote'   (sound match 40%)
+[OK   ] build-88-triumphal-entry/j1
+    caption: Hosanna to the son of David: Blessed is he that cometh in the name of the Lord; Hosanna in the highest.
+    heard  : Hosanna to the son of David, blessed is he that cometh in the name of the Lord.  Hosanna in the highest.
+[OK   ] build-88-triumphal-entry/n2b
+    caption: Hosanna means save us now. Save us now, Son of David — blessed is the one coming in the name of the Lord. They
+    heard  : Hosanna means save us now. Save us now, son of David. Blessed is the one coming in the name of the  Lord. They
+[OK   ] build-88-triumphal-entry/n3
+    caption: The whole city was stirred. When they asked who this was, the crowd answered plainly.
+    heard  : The whole city was stirred. When they asked who this was, the crowd answered plainly.
+[minor] build-88-triumphal-entry/j2
+    caption: And when he was come into Jerusalem, all the city was moved, saying, Who is this? And the multitude said, This
+    heard  : And when He was coming to Jerusalem, all the city was moved, saying,  Who is this? And the multitude said, Thi
+      ~ 'come into' -> heard 'coming to'   (sound match 89%)
+[OK   ] build-88-triumphal-entry/n3b
+    caption: Who is this? the city asked. And the answer came back from the road — this is Jesus, the prophet, out of Nazar
+    heard  : Who is this? The city asked. And the answer came back from the road. This is Jesus, the prophet,  out of Nazar
+[OK   ] build-88-triumphal-entry/n4
+    caption: He came not with swords but with peace — riding on a donkey, the humble King the scriptures had promised.
+    heard  : He came not with swords, but with peace. Riding on a donkey, the humble king the scriptures had promised.
+[minor] build-88-triumphal-entry/card
+    caption: The King rode in on a donkey, not a warhorse. His kingdom is peace. You're welcome in it.
+    heard  : The King rode in on a donkey, not a war horse. His kingdom is peace. You're welcome in it.
+      ~ 'warhorse' -> heard 'war horse'   (sound match 100%)
+
+3 segment(s) need an ear-check in build-88-triumphal-entry

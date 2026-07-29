@@ -1,0 +1,88 @@
+[OK   ] build-43-the-wedding-garment/s1
+    caption: And Jesus answered and spake unto them again by parables, and said,
+    heard  : And Jesus answered and spake unto them again by parables and said,
+[OK   ] build-43-the-wedding-garment/n1
+    caption: He was teaching in the temple, and the men who were hunting for a way to arrest him were standing right in fro
+    heard  : He was teaching in the temple, and the men who were hunting for a way to arrest him were standing  right in fr
+[OK   ] build-43-the-wedding-garment/jv2
+    caption: The kingdom of heaven is like unto a certain king, which made a marriage for his son,
+    heard  : The kingdom of heaven is like unto a certain king, which made a marriage for his son.
+[OK   ] build-43-the-wedding-garment/n2
+    caption: A king was giving a wedding feast for his son. The oxen were prepared, the tables were loaded, the hall was fu
+    heard  : A king was giving a wedding feast for his son. The oxen were prepared, the tables were loaded,  the hall was f
+[OK   ] build-43-the-wedding-garment/jv3
+    caption: And sent forth his servants to call them that were bidden to the wedding: and they would not come.
+    heard  : and sent forth his servants to call them that were bidden to the wedding, and they would not come.
+[OK   ] build-43-the-wedding-garment/n3
+    caption: So when the day arrived, the king sent his servants to go and bring them in.
+    heard  : So when the day arrived, the king sent his servants to go and bring them in.
+[minor] build-43-the-wedding-garment/jv4
+    caption: Behold, I have prepared my dinner: my oxen and my fatlings are killed, and all things are ready: come unto the
+    heard  : Behold, I have prepared my dinner, my oxen and my fatlings are killed, and all things are ready. Come on to th
+      ~ 'unto' -> heard 'on to'   (sound match 100%)
+[OK   ] build-43-the-wedding-garment/n4
+    caption: And they would not come. Not one of them. They had said yes, and now, with everything ready and waiting, they 
+    heard  : and they would not come. Not one of them. They had said yes, and now, with everything ready and waiting,  they
+[OK   ] build-43-the-wedding-garment/jv5_6
+    caption: But they made light of it, and went their ways, one to his farm, another to his merchandise: And the remnant t
+    heard  : But they made light of it, and went their ways, one to his farm, another to his merchandise,  and the remnant 
+[OK   ] build-43-the-wedding-garment/n5
+    caption: They all had something else. A field to go look at. A shop to keep. The king's own guests looked at his son's 
+    heard  : They all had something else. A field to go look at. A shop to keep. The king's own guests  looked at his son's
+[BAD  ] build-43-the-wedding-garment/n6
+    caption: And some of them did worse. They turned on the servants who came to invite them. It was the kind of insult a k
+    heard  : And some of them did worse. They turned on the servants who came to invite them. It was the kind  of insult th
+     !! 'a' -> heard 'that'   (sound match 0%)
+[OK   ] build-43-the-wedding-garment/n7
+    caption: But the feast was still ready. The food was still hot. And a hall built for a wedding was standing empty. So t
+    heard  : but the feast was still ready. The food was still hot, and a hall built for a wedding was  standing empty, so 
+[minor] build-43-the-wedding-garment/jv8_9
+    caption: The wedding is ready, but they which were bidden were not worthy. Go ye therefore into the highways, and as ma
+    heard  : The wedding is ready, but they which were biden were not worthy.  Go ye therefore into the highways, and as ma
+      ~ 'bidden' -> heard 'biden'   (sound match 100%)
+[OK   ] build-43-the-wedding-garment/n8
+    caption: Out to the roads. Not the guest list. The roads. Whoever happened to be out there. The day laborers, the begga
+    heard  : Out to the roads, not the guest list. The roads, whoever happened to be out there. The day laborers,  the begg
+[OK   ] build-43-the-wedding-garment/jv10
+    caption: So those servants went out into the highways, and gathered together all as many as they found, both bad and go
+    heard  : So those servants went out into the highways, and gathered together all as many as they found, both bad and go
+[OK   ] build-43-the-wedding-garment/n9
+    caption: They brought in everyone they could find. The story does not clean it up. It says both the bad and the good, a
+    heard  : They brought in everyone they could find. The story does not clean it up. It says both the bad  and the good a
+[BAD  ] build-43-the-wedding-garment/n10
+    caption: And here is the part almost everyone misses. Nobody dragged in off the street owned wedding clothes. At a king
+    heard  : And here is the part almost everyone misses. Nobody dragged in off the street on wedding clothes.  At a king's
+     !! 'owned' -> heard 'on'   (sound match 50%)
+[OK   ] build-43-the-wedding-garment/n11
+    caption: Then the king came in to meet his guests. And he found one man still in his own dusty road clothes. Not becaus
+    heard  : Then the king came in to meet his guests, and he found one man still in his own dusty road clothes.  Not becau
+[minor] build-43-the-wedding-garment/jv12
+    caption: Friend, how camest thou in hither not having a wedding garment?
+    heard  : Friend, how came a stow and hither not having a wedding garment?
+      ~ 'camest thou in' -> heard 'came a stow and'   (sound match 77%)
+[OK   ] build-43-the-wedding-garment/n12
+    caption: Friend. That is what the king called him. Not intruder. Not thief. Friend, and a question, and every chance in
+    heard  : Friend, that is what the king called him.  Not intruder, not thief, friend, and a question and every chance in
+[OK   ] build-43-the-wedding-garment/n13
+    caption: He had come to the feast and refused the one thing that made him a guest. So he ended up where he had chosen t
+    heard  : He had come to the feast and refused the one thing that made him a guest.  So he ended up where he had chosen 
+[OK   ] build-43-the-wedding-garment/jv13
+    caption: Bind him hand and foot, and take him away, and cast him into outer darkness.
+    heard  : Bind him hand and foot, and take him away, and cast him into outer darkness.
+[OK   ] build-43-the-wedding-garment/n14
+    caption: The men listening knew exactly who the story was about. They were the invited guests, the ones who had said ye
+    heard  : The men listening knew exactly who the story was about. They were the invited guests,  the ones who had said y
+[OK   ] build-43-the-wedding-garment/jv14
+    caption: For many are called, but few are chosen.
+    heard  : For many are called, but few are chosen.
+[OK   ] build-43-the-wedding-garment/n15
+    caption: Everyone is invited. That is the whole world. The ones who end up at the table are simply the ones who came, a
+    heard  : Everyone is invited. That is the whole world. The ones who end up at the table are simply the ones who came,  
+[OK   ] build-43-the-wedding-garment/n16
+    caption: You do not have to make yourself presentable first. Nobody in that hall could have, and neither can you. The i
+    heard  : You do not have to make yourself presentable first. Nobody in that hall could have, and neither can you.  The 
+[OK   ] build-43-the-wedding-garment/card
+    caption: The King fills his hall with people straight off the road, and hands each one clean clothes at the door. What 
+    heard  : The king fills his hall with people straight off the road, and hands each one clean clothes  at the door. What
+
+2 segment(s) need an ear-check in build-43-the-wedding-garment

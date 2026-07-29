@@ -1,0 +1,76 @@
+[BAD  ] build-07-peter-water/n0
+    caption: Jesus had just fed more than five thousand people with a few loaves of bread and two small fish. And when it w
+    heard  : Jesus had just fed more than 5,000 people with a few loaves of bread and two small fish.  And when it was done
+     !! 'five thousand' -> heard '-'   (sound match 0%)
+[BAD  ] build-07-peter-water/n1
+    caption: Out on the water, the wind turned against the boat. The waves rose. The disciples — several of them fishermen 
+    heard  : Out on the water, the wind turned against the boat. The waves rose. The disciples,  several of them fishermen 
+      ~ 'rowed' -> heard 'rode'   (sound match 80%)
+     !! 'sea' -> heard 'scene'   (sound match 50%)
+[OK   ] build-07-peter-water/n2
+    caption: And then, through the spray and the dark, they saw something that made grown fishermen scream. A figure. Walki
+    heard  : And then, through the spray and the dark, they saw something that made grown fishermen scream.  A figure walki
+[OK   ] build-07-peter-water/j1
+    caption: Be of good cheer; it is I; be not afraid.
+    heard  : Be of good cheer, it is I, be not afraid.
+[OK   ] build-07-peter-water/n3
+    caption: Take heart. It's me. Don't be afraid. And Peter — impulsive, big-hearted Peter — called back across the storm:
+    heard  : Take heart. It's me. Don't be afraid. And Peter, impulsive, big-hearted Peter, called back across the  storm. 
+[OK   ] build-07-peter-water/s28
+    caption: Lord, if it be thou, bid me come unto thee on the water.
+    heard  : Lord, if it be thou, bid me come unto thee on the water.
+[OK   ] build-07-peter-water/j2
+    caption: Come.
+    heard  : Come.
+[OK   ] build-07-peter-water/n4
+    caption: One word. And Peter put his leg over the side of that pitching boat, and stood up on the sea.
+    heard  : One word, and Peter put his leg over the side of that pitching boat and stood up on the sea.  //  //  //  //  
+[OK   ] build-07-peter-water/n4b
+    caption: And he was doing it. Step after step on the moving water, his eyes fixed on Jesus. For a moment, an ordinary f
+    heard  : and he was doing it. Step after step on the moving water, his eyes fixed on Jesus.  For a moment, an ordinary 
+[OK   ] build-07-peter-water/n5
+    caption: Then he noticed the wind tearing at him. He looked down at the waves instead of ahead at Jesus.
+    heard  : Then he noticed the wind tearing at him. He looked down at the waves instead of ahead at Jesus.
+[OK   ] build-07-peter-water/n5b
+    caption: And the moment his eyes moved, the water stopped holding him. He dropped to his waist, mid-stride, and cried o
+    heard  : And the moment his eyes moved, the water stopped holding him. He dropped to his waist,  mid-stride, and cried 
+[OK   ] build-07-peter-water/s30
+    caption: Lord, save me.
+    heard  : Lord, save me!
+[OK   ] build-07-peter-water/n6
+    caption: And Jesus caught him. Immediately.
+    heard  : And Jesus caught him immediately.
+[OK   ] build-07-peter-water/n7
+    caption: Matthew uses that exact word. There was no pause. No lesson first. No letting him go under to teach him someth
+    heard  : Matthew uses that exact word. There was no pause, no lesson first, no letting him go under to teach him someth
+[OK   ] build-07-peter-water/j3
+    caption: O thou of little faith, wherefore didst thou doubt?
+    heard  : O thou of little faith, wherefore didst thou doubt?
+[minor] build-07-peter-water/n8
+    caption: Why did you doubt? Hear how he asked it. Not from the shore. Not after pulling him into the boat. From the han
+    heard  : Why did you doubt? Here how he asked it. Not from the shore. Not after pulling him into the boat.  From the ha
+      ~ 'hear' -> heard 'here'   (sound match 100%)
+[OK   ] build-07-peter-water/n9
+    caption: The two of them came back to the boat across the water together. And the moment they climbed in, the wind stop
+    heard  : The two of them came back to the boat across the water together, and the moment they climbed in,  the wind sto
+[OK   ] build-07-peter-water/n9b
+    caption: Not slowly. Not eventually. The sea that had fought them all night simply lay down flat under the stars.
+    heard  : Not slowly, not eventually, the sea that had fought them all night simply lay down flat  under the stars.
+[BAD  ] build-07-peter-water/n10
+    caption: And the men in that boat — the same men who minutes earlier had screamed that he was a ghost — knelt down wher
+    heard  : And the men in that boat, the same men who men who had earlier screamed that he was a ghost,  knelt down where
+     !! 'minutes' -> heard 'men who had'   (sound match 44%)
+     !! 'had' -> heard '-'   (sound match 0%)
+      ~ 'worshipped' -> heard 'worshiped'   (sound match 100%)
+[BAD  ] build-07-peter-water/s33
+    caption: Of a truth thou art the Son of God.
+    heard  : of the truth thou art the Son of God.
+     !! 'a' -> heard 'the'   (sound match 0%)
+[OK   ] build-07-peter-water/n10b
+    caption: You really are the Son of God, they said. The storm had taught them who he was. And notice what the story reme
+    heard  : You really are the Son of God," they said. The storm had taught them who he was.  And notice what the story re
+[OK   ] build-07-peter-water/n11
+    caption: When your storm gets loud and your faith slips, look back up — the same hand is already reaching for you. Keep
+    heard  : When your storm gets loud and your faith slips, look back up. The same hand is already reaching for you.  Keep
+
+4 segment(s) need an ear-check in build-07-peter-water

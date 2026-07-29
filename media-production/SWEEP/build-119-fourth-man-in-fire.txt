@@ -1,0 +1,72 @@
+[BAD  ] build-119-fourth-man-in-fire/n1
+    caption: A king built a golden statue ninety feet high and made one rule: when the music plays, everyone bows. And ever
+    spoken : A king built a golden statue ninety feet high and made one rule: when the music plays, everyone boughs. And ev
+    heard  : A king built a golden statue 90 feet high and made one rule. When the music plays,  everyone bows. And everyon
+     !! 'ninety' -> heard '-'   (sound match 0%)
+      ~ 'plain' -> heard 'plane'   (sound match 100%)
+      ~ 'facedown' -> heard 'face down'   (sound match 100%)
+[minor] build-119-fourth-man-in-fire/n2
+    caption: Shadrach, Meshach, and Abednego would not bow to anything but God. So they were dragged before the furious kin
+    spoken : SHAD-rak, Meshach, and Abednego would not bough to anything but God. So they were dragged before the furious k
+    heard  : Shadrach, Meschach, and Abednego would not bow to anything but God.  So they were dragged before the Furious K
+      ~ 'meshach' -> heard 'meschach'   (sound match 91%)
+[OK   ] build-119-fourth-man-in-fire/s315
+    caption: But if ye worship not, ye shall be cast the same hour into the midst of a burning fiery furnace; and who is th
+    heard  : But if you worship not, you shall be cast the same hour into the midst of a burning fiery furnace.  And who is
+[OK   ] build-119-fourth-man-in-fire/n2b
+    caption: Bow, or burn. And who is this God of yours who could possibly get you out of my hands? Hold on to that questio
+    spoken : Bough, or burn. And who is this God of yours who could possibly get you out of my hands? Hold on to that quest
+    heard  : Bow, or burn.  And who is this God of yours who could possibly get you out of my hands?  Hold on to that quest
+[OK   ] build-119-fourth-man-in-fire/s317
+    caption: Our God whom we serve is able to deliver us from the burning fiery furnace, and he will deliver us out of thin
+    heard  : Our God whom we serve is able to deliver us from the burning fiery furnace,  and He will deliver us out of thi
+[BAD  ] build-119-fourth-man-in-fire/n3
+    caption: Our God can save us, they said, and we believe he will. But if not — if he does not — we still will not bow. T
+    spoken : Our God can save us, they said, and we believe he will. But if not — if he does not — we still will not bough.
+    heard  : Our God can save us, they said, and we believe He will. But if not, if He does not, we still will  not bow. Th
+     !! 'a' -> heard 'to'   (sound match 0%)
+[OK   ] build-119-fourth-man-in-fire/n4
+    caption: So the king had the furnace stoked seven times hotter than ever and had the three cast in, still bound hand an
+    heard  : So the king had the furnace stoked seven times hotter than ever and had the three cast in,  still bound hand a
+[OK   ] build-119-fourth-man-in-fire/n5
+    caption: And that is exactly when the impossible began. The ropes burned away, but the men did not. They stood up insid
+    heard  : And that is exactly when the impossible began. The ropes burned away, but the men did not.  They stood up insi
+[BAD  ] build-119-fourth-man-in-fire/n6
+    caption: Then the king leapt up off his seat in astonishment. He had thrown in three men, bound. Now he was counting fo
+    heard  : Then the king leapt up off his seat in astonishment. He had thrown in three men, bound. Now he was  counting f
+      ~ 'four' -> heard 'for'   (sound match 100%)
+     !! 'said' -> heard 'set'   (sound match 50%)
+[OK   ] build-119-fourth-man-in-fire/s325
+    caption: Lo, I see four men loose, walking in the midst of the fire, and they have no hurt; and the form of the fourth 
+    heard  : Lo, I see four men loose, walking in the midst of the fire, and they have no hurt,  and the form of the fourth
+[minor] build-119-fourth-man-in-fire/n6b
+    caption: Four men, loose, walking in the middle of the fire, and none of them hurt. And the fourth one, the king says, 
+    heard  : for men, loose, walking in the middle of the fire, and none of them hurt.  And the fourth one, the king says, 
+      ~ 'four' -> heard 'for'   (sound match 100%)
+[OK   ] build-119-fourth-man-in-fire/n7
+    caption: They were not alone in the fire. Whatever else that fourth figure was, it walked with them, and where it walke
+    heard  : They were not alone in the fire. Whatever else that fourth figure was, it walked with them,  and where it walk
+[OK   ] build-119-fourth-man-in-fire/s326
+    caption: Shadrach, Meshach, and Abednego, ye servants of the most high God, come forth, and come hither.
+    spoken : SHAD-rak, Meeshak, and Abednego, ye servants of the most high God, come forth, and come hither.
+    heard  : Shadrach, Meshach, and Abednego, you servants of the Most High God, come forth and come hither.
+[OK   ] build-119-fourth-man-in-fire/n8
+    caption: Come out, he called them — servants of the most high God. The man who demanded they call his statue god is now
+    heard  : Come out, he called them servants of the Most High God. The man who demanded they call his  statue God is now 
+[OK   ] build-119-fourth-man-in-fire/n9
+    caption: The officials crowded around and could not believe it. Not a hair of their heads was singed, their coats were 
+    heard  : The officials crowded around and could not believe it. Not a hair of their heads was  singed. Their coats were
+[minor] build-119-fourth-man-in-fire/s328
+    caption: Blessed be the God of Shadrach, Meshach, and Abednego, who hath sent his angel, and delivered his servants tha
+    spoken : Blessed be the God of SHAD-rak, Meeshak, and Abednego, who hath sent his angel, and delivered his servants tha
+    heard  : Bless be the God of Shadrach, Meshach, and Abednego, who hath sent his angel and delivered his servants that t
+      ~ 'blessed' -> heard 'bless'   (sound match 86%)
+[OK   ] build-119-fourth-man-in-fire/n10
+    caption: Blessed be their God, the proud king says, who sent his angel and rescued the servants that trusted him. That 
+    heard  : Blessed be their God, the proud King says, who sent his angel and rescued the servants that trusted him.  That
+[minor] build-119-fourth-man-in-fire/card
+    caption: God never promised these three that they would not face the fire. He promised something better — that he would
+    heard  : God never promised these three that they would not face the fire.  He promised something better that He would 
+      ~ 'believed' -> heard 'believe'   (sound match 86%)
+
+3 segment(s) need an ear-check in build-119-fourth-man-in-fire

@@ -1,0 +1,25 @@
+[OK   ] build-191-windows-of-heaven/n0
+    caption: Through the prophet Malachi, the LORD made a strange offer to a people holding back — bring everything in, and
+    heard  : Through the prophet Malachi, the Lord made a strange offer to a people holding back,  bring everything in and 
+[OK   ] build-191-windows-of-heaven/n1
+    caption: The storehouse was the place set apart for the Lord's house, and the tithe was the part meant for him.
+    heard  : The storehouse was the place set apart for the Lord's house, and the tithe was the part meant for him.
+[minor] build-191-windows-of-heaven/s1
+    caption: Bring ye all the tithes into the storehouse, that there may be meat in mine house, and prove me now herewith, 
+    heard  : Bring ye all the tithes into the storehouse, that there may be meat in minehouse, and prove me now herewith,  
+      ~ 'mine house' -> heard 'minehouse'   (sound match 100%)
+      ~ 'saith' -> heard 'set'   (sound match 80%)
+[OK   ] build-191-windows-of-heaven/n2
+    caption: A dare no king could make — test me, and see if I don't open the windows.
+    heard  : A dare no king could make. Test me and see if I don't open the windows.
+[OK   ] build-191-windows-of-heaven/n3a
+    caption: Not a trickle.
+    heard  : Not a trickle.
+[OK   ] build-191-windows-of-heaven/n3b
+    caption: A pouring out, more than there is room to hold.
+    heard  : A pouring out more than there is room to hold.
+[OK   ] build-191-windows-of-heaven/card
+    caption: He invites you to test his goodness. Bring it all, and watch the windows open.
+    heard  : He invites you to test his goodness. Bring it all and watch the windows open.
+
+0 segment(s) need an ear-check in build-191-windows-of-heaven

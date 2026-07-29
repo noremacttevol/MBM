@@ -1,0 +1,62 @@
+[OK   ] build-42-barren-fig-tree/n1
+    caption: He told them a short story about a tree that was not doing its job. It sounds at first like a warning. Stay wi
+    heard  : He told them a short story about a tree that was not doing its job. It sounds at first like a  warning. Stay w
+[OK   ] build-42-barren-fig-tree/s6a
+    caption: He spake also this parable;
+    heard  : He spake also this parable.
+[OK   ] build-42-barren-fig-tree/jv6
+    caption: A certain man had a fig tree planted in his vineyard; and he came and sought fruit thereon, and found none.
+    heard  : A certain man had a fig tree planted in his vineyard, and he came and sought fruit thereon, and found none.
+[OK   ] build-42-barren-fig-tree/n2
+    caption: A fig tree in a vineyard had the best spot on the whole property. Deep worked soil, water meant for the grapes
+    heard  : A fig tree in a vineyard had the best spot on the whole property.  Deep worked soil, water meant for the grape
+[OK   ] build-42-barren-fig-tree/n3
+    caption: So the owner came out to pick a few, the way you would. And there was nothing on it. Not a small crop. Not a l
+    heard  : So the owner came out to pick a few the way you would, and there was nothing on it.  Not a small crop, not a l
+[OK   ] build-42-barren-fig-tree/n4
+    caption: And this was not the first time. Coming up on three seasons now he had walked out to that same tree expecting 
+    heard  : And this was not the first time. Coming up on three seasons now he had walked out to that same  tree expecting
+[minor] build-42-barren-fig-tree/jv7
+    caption: Then said he unto the dresser of his vineyard, Behold, these three years I come seeking fruit on this fig tree
+    heard  : Then said he unto the dresser of his vineyard, Behold, these three years I come seeking fruit on this fig tree
+      ~ 'cumbereth it' -> heard 'come breath at'   (sound match 100%)
+[OK   ] build-42-barren-fig-tree/n5
+    caption: And you can hear that he is not being cruel. His last words are just plain sense. The tree is holding a place 
+    heard  : and you can hear that he is not being cruel. His last words are just plain sense.  The tree is holding a place
+[OK   ] build-42-barren-fig-tree/jv8
+    caption: And he answering said unto him, Lord, let it alone this year also, till I shall dig about it, and dung it:
+    heard  : And he answering said unto him, Lord, let it alone this year also, till I shall dig about it and dung it.
+[OK   ] build-42-barren-fig-tree/n6
+    caption: And then someone speaks up for the tree. The man who tends it. He does not argue that the owner is wrong. He j
+    heard  : and then someone speaks up for the tree, the man who tends it. He does not argue that the owner is  wrong. He 
+[OK   ] build-42-barren-fig-tree/n7
+    caption: And look at what he offers to do with that year. Get down and break up the hard, packed earth around the roots
+    heard  : And look at what he offers to do with that year. Get down and break up the hard,  packed earth around the root
+[OK   ] build-42-barren-fig-tree/n8
+    caption: And then feed it. The lowest, messiest job on the whole farm, done by hand at the foot of a tree that has give
+    heard  : and then feed it, the lowest messiest job on the whole farm, done by hand at the foot of a tree  that has give
+[OK   ] build-42-barren-fig-tree/jv9
+    caption: And if it bear fruit, well: and if not, then after that thou shalt cut it down.
+    heard  : And if it bear fruit, well, and if not, then after that thou shalt cut it down.
+[OK   ] build-42-barren-fig-tree/n9
+    caption: And if it comes to life, wonderful. And if it does not, we will face that when it comes. But not today. The ax
+    heard  : and if it comes to life, wonderful. And if it does not, we will face that when it comes.  But not today. The a
+[OK   ] build-42-barren-fig-tree/n10
+    caption: Here is the part worth sitting with. The tree had not changed. It had not turned itself around or grown a sing
+    heard  : Here is the part worth sitting with. The tree had not changed. It had not turned itself around,  or grown a si
+[minor] build-42-barren-fig-tree/n10b
+    caption: That is the whole picture. Not a tree earning its keep. A gardener buying it time it could never have bought f
+    heard  : That is the whole picture. Not a tree earning its keep. A gardener buying at time it could never  have bought 
+      ~ 'it' -> heard 'at'   (sound match 100%)
+[minor] build-42-barren-fig-tree/n11
+    caption: He never tells us who the gardener is. He does not have to. Everyone listening knew what it felt like to be th
+    heard  : He never tells us who the gardener is. He does not have to. Everyone listening knew what it felt like  to be t
+      ~ 'barren' -> heard 'baron'   (sound match 100%)
+[OK   ] build-42-barren-fig-tree/n12
+    caption: So the story he told to warn them turns out to be the story that saves them. The owner had every right to the 
+    heard  : So the story he told to warn them turns out to be the story that saves them. The owner had  every right to the
+[OK   ] build-42-barren-fig-tree/card
+    caption: He told a story where the tree that had earned the axe got another year instead, because someone knelt down in
+    heard  : He told a story where the tree that had earned the axe got another year instead, because someone  knelt down i
+
+0 segment(s) need an ear-check in build-42-barren-fig-tree

@@ -1,0 +1,44 @@
+[BAD  ] build-87-boy-in-the-temple/n0a
+    caption: Every year Jesus's family went to Jerusalem for the Passover. When he was twelve, they made the trip as usual.
+    heard  : Every year Jesus' family went to Jerusalem for the Passover.  When he was 12, they made the trip as usual.
+      ~ 'jesuss' -> heard 'jesus'   (sound match 100%)
+     !! 'twelve' -> heard '-'   (sound match 0%)
+[OK   ] build-87-boy-in-the-temple/n0b
+    caption: On the way home, they realized he wasn't with them.
+    heard  : On the way home, they realized he wasn't with them.
+[minor] build-87-boy-in-the-temple/n1a
+    caption: They turned back, searching for three days.
+    heard  : They turn back, searching for three days.
+      ~ 'turned' -> heard 'turn'   (sound match 86%)
+[OK   ] build-87-boy-in-the-temple/n1b
+    caption: And they found him in the temple, sitting among the teachers, listening,
+    heard  : and they found him in the temple, sitting among the teachers, listening.
+[OK   ] build-87-boy-in-the-temple/n1c
+    caption: and asking questions that amazed everyone.
+    heard  : and asking questions that amazed everyone.
+[OK   ] build-87-boy-in-the-temple/n2
+    caption: His mother was the one who spoke. Relieved, and frightened, and hurt, Mary said this:
+    heard  : His mother was the one who spoke, relieved and frightened and hurt. Mary said this.
+[OK   ] build-87-boy-in-the-temple/w48
+    caption: Son, why hast thou thus dealt with us? behold, thy father and I have sought thee sorrowing.
+    heard  : Son, why hast thou thus dealt with us?  Behold, thy father and I have sought thee sorrowing.
+[OK   ] build-87-boy-in-the-temple/n2b
+    caption: Son, why have you done this to us? she said. Your father and I have been looking for you, sick with worry. Lis
+    heard  : Son, why have you done this to us?  She said, your father and I have been looking for you.  Sick with worry.  
+[BAD  ] build-87-boy-in-the-temple/j1
+    caption: How is it that ye sought me? wist ye not that I must be about my Father's business?
+    heard  : How is it that you sought me?  Wish ye not that I must be about my father's business.
+     !! 'wist' -> heard 'wish'   (sound match 67%)
+[BAD  ] build-87-boy-in-the-temple/n2c
+    caption: Why were you out looking for me? he said. Didn't you know I had to be in my Father's house, about my Father's 
+    heard  : Why were you out looking for me? He said, didn't you know I had to be in my father's house,  about my father's
+     !! 'twelve' -> heard '-'   (sound match 0%)
+[BAD  ] build-87-boy-in-the-temple/n3
+    caption: They didn't fully understand. But he went home with them and obeyed them — and he kept growing in wisdom, in s
+    heard  : They didn't fully understand, but he went home with them and obeyed them, and he kept growing in  wisdom and s
+     !! 'in' -> heard 'and'   (sound match 67%)
+[OK   ] build-87-boy-in-the-temple/card
+    caption: Even as a boy he knew where he belonged. You were made for the Father's house too — come find your place.
+    heard  : Even as a boy he knew where he belonged, you were made for the father's house too. Come find your place.
+
+4 segment(s) need an ear-check in build-87-boy-in-the-temple

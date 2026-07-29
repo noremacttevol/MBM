@@ -1,0 +1,30 @@
+[OK   ] build-130-what-manner-of-spirit/n0
+    caption: As Jesus traveled toward Jerusalem, a Samaritan village refused to welcome Him. The disciples James and John w
+    heard  : As Jesus traveled toward Jerusalem, a Samaritan village refused to welcome him.  The disciples James and John 
+[OK   ] build-130-what-manner-of-spirit/s54
+    caption: Lord, wilt thou that we command fire to come down from heaven, and consume them, even as Elias did?
+    heard  : Lord, wilt thou that we command fire to come down from heaven and consume them, even as  Elias did?
+[OK   ] build-130-what-manner-of-spirit/n1
+    caption: They asked if they should call down fire from heaven to burn the place. They wanted judgment.
+    heard  : They asked if they should call down fire from heaven to burn the place.  They wanted judgment.  //
+[OK   ] build-130-what-manner-of-spirit/n2
+    caption: Jesus turned and rebuked them — not the village, but His own disciples' hearts.
+    heard  : Jesus turned and rebuked them, not the village, but His own disciples' hearts.
+[BAD  ] build-130-what-manner-of-spirit/j1
+    caption: Ye know not what manner of spirit ye are of. For the Son of man is not come to destroy men's lives, but to sav
+    heard  : He know not what manner of spirit ye are of.  For the Son of Man is not come to destroy men's lives, but to sa
+     !! 'ye' -> heard 'he'   (sound match 0%)
+[OK   ] build-130-what-manner-of-spirit/n3
+    caption: He didn't come to burn. He came to rescue. The fire in the disciples' hearts was the wrong kind.
+    heard  : He didn't come to burn. He came to rescue. The fire in the disciple's hearts was the wrong kind.
+[OK   ] build-130-what-manner-of-spirit/n3b
+    caption: And then they simply walked on to the next village. No fire. No answer to the insult at all — just the road, a
+    heard  : and then they simply walked on to the next village. No fire. No answer to the insult at all,  just the road, a
+[OK   ] build-130-what-manner-of-spirit/n4
+    caption: Anger that wants to destroy isn't from Him. The spirit He brings saves.
+    heard  : Anger that wants to destroy isn't from him. The spirit he brings saves.  //  //
+[OK   ] build-130-what-manner-of-spirit/card
+    caption: He came to save, not to burn. Let His Spirit — the saving one — shape yours.
+    heard  : He came to save not to burn, let his spirit, the saving one, shape yours.
+
+1 segment(s) need an ear-check in build-130-what-manner-of-spirit

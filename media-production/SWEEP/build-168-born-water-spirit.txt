@@ -1,0 +1,43 @@
+[OK   ] build-168-born-water-spirit/n1
+    caption: Nicodemus was a ruler and a respected teacher, a man near the top of his world. And yet, one night, he slipped
+    heard  : Nicodemus was a ruler and a respected teacher, a man near the top of his world.  And yet, one night, he slippe
+[OK   ] build-168-born-water-spirit/n2
+    caption: He came to the light and listened. And what he heard turned his careful world upside down. It was not a small 
+    heard  : He came to the light and listened, and what he heard turned his careful world upside down.  It was not a small
+[OK   ] build-168-born-water-spirit/kv3
+    caption: Jesus answered and said unto him,
+    heard  : Jesus answered and said unto him,
+[OK   ] build-168-born-water-spirit/kv3b
+    caption: Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God.
+    heard  : Verily, verily, I say unto thee, except a man be born again, he cannot see the kingdom of God.
+[OK   ] build-168-born-water-spirit/s4
+    caption: How can a man be born when he is old? can he enter the second time into his mother's womb, and be born?
+    heard  : How can a man be born when he is old?  Can he enter the second time into his mother's womb and be born?
+[OK   ] build-168-born-water-spirit/n3
+    caption: Nicodemus took it literally, and was baffled. How could a grown man possibly be born a second time? He could n
+    heard  : Nicodemus took it literally and was baffled. How could a grown man possibly be born a second time?  He could n
+[OK   ] build-168-born-water-spirit/n4
+    caption: But the new birth was never meant to be physical. To be born again is first to be born of water — to go down i
+    heard  : But the new birth was never meant to be physical. To be born again is first to be born of water,  to go down i
+[OK   ] build-168-born-water-spirit/n5
+    caption: And there was a second half to it, not water only. To be born of the Spirit is to receive the gift of the Holy
+    heard  : And there was a second half to it, not water only. To be born of the Spirit is to receive  the gift of the Hol
+[OK   ] build-168-born-water-spirit/kv5
+    caption: Jesus answered,
+    heard  : Jesus answered.
+[OK   ] build-168-born-water-spirit/kv5b
+    caption: Verily, verily, I say unto thee, Except a man be born of water and of the Spirit, he cannot enter into the kin
+    heard  : Verily, verily, I say unto thee, except a man be born of water and of the Spirit,  he cannot enter into the ki
+[BAD  ] build-168-born-water-spirit/n6
+    caption: Here is the quiet study gem. Notice he did not say this was one good option among many. He said a person canno
+    heard  : Here is the quiet study Jim. Notice he did not say this was one good option among many.  He said a person cann
+     !! 'gem' -> heard 'jim'   (sound match 50%)
+[OK   ] build-168-born-water-spirit/n7
+    caption: And that same single gate still stands open before you: born of water, and born of the Spirit. The door is not
+    heard  : And that same single gate still stands open before you, born of water and born of the Spirit.  The door is not
+[BAD  ] build-168-born-water-spirit/card
+    caption: To enter the kingdom, a person must be born again — born of water in baptism, and of the Spirit from above. Th
+    heard  : To enter the kingdom, a person must be born again, born of water and baptism, and of the  spirit from above. T
+     !! 'in' -> heard 'and'   (sound match 67%)
+
+2 segment(s) need an ear-check in build-168-born-water-spirit

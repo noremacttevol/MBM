@@ -1,0 +1,25 @@
+[OK   ] build-198-ensign-for-the-nations/n0
+    caption: The prophet Isaiah pointed far ahead to a figure he called the root of Jesse — David's family tree, springing 
+    heard  : The Prophet Isaiah pointed far ahead to a figure he called the root of Jesse.  David's family tree, springing 
+[OK   ] build-198-ensign-for-the-nations/n1
+    caption: This one would stand as a banner, a signal, lifted up so the nations could find their way to Him. Not hidden. 
+    heard  : This one would stand as a banner, a signal, lifted up so the nations could find their way  to him.  Not hidden
+[OK   ] build-198-ensign-for-the-nations/s1
+    caption: And it shall come to pass in that day, that the Lord shall set his hand again the second time to recover the r
+    heard  : And it shall come to pass in that day that the Lord shall set His hand again the second time  to recover the r
+[minor] build-198-ensign-for-the-nations/s2
+    caption: And he shall set up an ensign for the nations, and shall assemble the outcasts of Israel, and gather together 
+    heard  : and he shall set up an end sign for the nations,  and shall assemble the outcasts of Israel,  and gather toget
+      ~ 'ensign' -> heard 'end sign'   (sound match 89%)
+[minor] build-198-ensign-for-the-nations/n2
+    caption: Exiles in every direction, lifted out of every nation, brought home. The ensign is the invitation; the gatheri
+    heard  : Exiles in every direction lifted out of every nation brought home.  The end sign is the invitation. The gather
+      ~ 'ensign' -> heard 'end sign'   (sound match 89%)
+[OK   ] build-198-ensign-for-the-nations/n3
+    caption: The banner is raised — and the seeking ones, from every people, come home.
+    heard  : The banner is raised and the seeking ones from every people come home.
+[OK   ] build-198-ensign-for-the-nations/card
+    caption: A banner was raised so you could find your way. Seek Him, and you'll be gathered in.
+    heard  : A banner was raised so you could find your way. Seek him and you'll be gathered in.
+
+0 segment(s) need an ear-check in build-198-ensign-for-the-nations

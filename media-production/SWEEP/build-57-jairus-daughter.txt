@@ -1,0 +1,71 @@
+[minor] build-57-jairus-daughter/n1
+    caption: A man named Jairus, a leader of the synagogue, pushed through the crowd and fell down at Jesus' feet, and begg
+    heard  : A man named Jarius, a leader of the synagogue, pushed through the crowd and fell down at Jesus' feet and begge
+      ~ 'jairus' -> heard 'jarius'   (sound match 100%)
+[minor] build-57-jairus-daughter/s23
+    caption: My little daughter lieth at the point of death: I pray thee, come and lay thy hands on her, that she may be he
+    heard  : My little daughter leith at the point of death, I pray thee,  Come and lay thy hands on her, that she may be h
+      ~ 'lieth' -> heard 'leith'   (sound match 100%)
+[BAD  ] build-57-jairus-daughter/n1b
+    caption: My little girl is dying, he said. Please come and lay your hands on her, so she'll be healed and live. His onl
+    heard  : My little girl is dying," he said.  Please come and lay your hands on her, so she'll be healed and live.  His 
+     !! 'twelve' -> heard '-'   (sound match 0%)
+[OK   ] build-57-jairus-daughter/n2
+    caption: So Jesus went with him. A great crowd pressed in on every side as they hurried toward the house, the desperate
+    heard  : So Jesus went with him. A great crowd pressed in on every side as they hurried toward the house.  The desperat
+[minor] build-57-jairus-daughter/n3
+    caption: But before they arrived, messengers came from the house with the worst news a father can hear.
+    heard  : But before they arrived, messengers came from the house with the worst news of fatherkin here.
+      ~ 'a father can hear' -> heard 'of fatherkin here'   (sound match 88%)
+[minor] build-57-jairus-daughter/s35
+    caption: Thy daughter is dead: why troublest thou the Master any further?
+    heard  : Thy daughter is dead. Why troubles thou the master any further?
+      ~ 'troublest' -> heard 'troubles'   (sound match 91%)
+[minor] build-57-jairus-daughter/n3b
+    caption: Your daughter is dead, they said. Why bother the Teacher any further? And Jairus' heart broke in the middle of
+    heard  : Your daughter is dead, they said. Why bother the teacher any further? And Jerry's heart broke  in the middle o
+      ~ 'jairus' -> heard 'jerrys'   (sound match 86%)
+[OK   ] build-57-jairus-daughter/jv36
+    caption: Be not afraid, only believe.
+    heard  : Be not afraid, only believe.
+[OK   ] build-57-jairus-daughter/n3c
+    caption: Don't be afraid. Just keep believing. The worst thing had already happened, and Jesus told him to keep believi
+    heard  : Don't be afraid. Just keep believing. The worst thing had already happened, and Jesus told  him to keep believ
+[minor] build-57-jairus-daughter/n4
+    caption: At the house the mourning had already begun, people weeping and wailing loudly for the little girl. And Jesus 
+    heard  : At the house the morning had already begun, people weeping and wailing loudly for the little girl.  And Jesus 
+      ~ 'mourning' -> heard 'morning'   (sound match 100%)
+[minor] build-57-jairus-daughter/j39
+    caption: Why make ye this ado, and weep? the damsel is not dead, but sleepeth.
+    heard  : Why make you this a do, and weep?  The damsel is not dead, but sleepeth.
+      ~ 'ado' -> heard 'a do'   (sound match 100%)
+[BAD  ] build-57-jairus-daughter/n4b
+    caption: Why all this noise and crying, he asked. The child is not dead. She's asleep. And they laughed at him, certain
+    heard  : While all this noise and crying, he asked. The child is not dead. She's asleep. And they laughed at him, certa
+     !! 'why' -> heard 'while'   (sound match 50%)
+[OK   ] build-57-jairus-daughter/n5
+    caption: He put them all outside. Then he took the girl's father and mother, and three of his closest friends, and went
+    heard  : He put them all outside. Then he took the girl's father and mother, and three of his closest friends,  and wen
+[minor] build-57-jairus-daughter/jtal
+    caption: Talitha cumi.
+    heard  : Talatha Kumi
+      ~ 'talitha cumi' -> heard 'talatha kumi'   (sound match 83%)
+[OK   ] build-57-jairus-daughter/s41i
+    caption: which is, being interpreted,
+    heard  : which is being interpreted.
+[OK   ] build-57-jairus-daughter/jv41
+    caption: Damsel, I say unto thee, arise.
+    heard  : Damsel, I say unto thee, arise.
+[BAD  ] build-57-jairus-daughter/n6
+    caption: Two words in his own everyday Aramaic — little girl, get up. It is the kind of thing a parent says on a school
+    heard  : Two words in his own everyday Aramaic, little girl, get up.  It is the kind of thing a parent says on a school
+     !! 'twelve' -> heard '-'   (sound match 0%)
+[OK   ] build-57-jairus-daughter/n7
+    caption: And then Jesus said the most tender, ordinary thing: give her something to eat. He had just raised her from de
+    heard  : And then Jesus said the most tender, ordinary thing. Give her something to eat. He had just raised  her from d
+[BAD  ] build-57-jairus-daughter/card
+    caption: He is never too late, even when everyone says he is. He walks into the room the world has already given up on,
+    heard  : He is never too late, even when everyone says he is. He walks into the room the world has already  given up on
+     !! 'too' -> heard 'two'   (sound match 67%)
+
+4 segment(s) need an ear-check in build-57-jairus-daughter

@@ -1,0 +1,45 @@
+[OK   ] build-187-ye-are-gods/n0
+    caption: The religious leaders were circling Jesus, demanding he say plainly who he claimed to be.
+    heard  : The religious leaders were circling Jesus, demanding He say plainly who He claimed to be.
+[OK   ] build-187-ye-are-gods/n1
+    caption: Instead of backing down, he reached into their own scriptures — to a psalm where God calls mere men gods.
+    spoken : Instead of backing down, he reached into their own scriptures — to a sahm where God calls mere men gods.
+    heard  : Instead of backing down, he reached into their own scriptures, to a Psalm where God calls mere men gods.
+[minor] build-187-ye-are-gods/s82a
+    caption: God standeth in the congregation of the mighty; he judgeth among the gods.
+    heard  : God standeth in the congregation of the mighty. He judgeeth among the gods.
+      ~ 'judgeth' -> heard 'judgeeth'   (sound match 100%)
+[OK   ] build-187-ye-are-gods/n82a
+    caption: The psalm opens in a courtroom. God stands up in the middle of Israel's judges — and starts judging the judges
+    spoken : The sahm opens in a courtroom. God stands up in the middle of Israel's judges — and starts judging the judges.
+    heard  : The Psalm opens in a courtroom. God stands up in the middle of Israel's judges and starts judging the judges.
+[OK   ] build-187-ye-are-gods/g82b
+    caption: How long will ye judge unjustly, and accept the persons of the wicked?
+    heard  : How long will you judge unjustly, and accept the persons of the wicked?
+[OK   ] build-187-ye-are-gods/n82b
+    caption: How long, he asks them, will you rule crooked and keep taking the side of the people doing the harm?
+    heard  : How long? He asks them, will you rule crooked and keep taking the side of the people doing  the harm.  //
+[OK   ] build-187-ye-are-gods/j1
+    caption: I have said, Ye are gods; and all of you are children of the most High.
+    heard  : I have said, ye are gods, and all of you are children of the Most High.
+[OK   ] build-187-ye-are-gods/n2
+    caption: His point was sharp: if scripture called men gods because God's word came to them, how could they condemn the 
+    heard  : His point was sharp. If scripture called men gods because God's word came to them,  how could they condemn the
+[OK   ] build-187-ye-are-gods/g82g
+    caption: But ye shall die like men, and fall like one of the princes.
+    heard  : But ye shall die like men, and fall like one of the princes.
+[OK   ] build-187-ye-are-gods/n82g
+    caption: And read the next line. The same psalm that called them gods tells them they will die like anybody else. The t
+    spoken : And read the next line. The same sahm that called them gods tells them they will die like anybody else. The ti
+    heard  : and read the next line. The same Psalm that called them gods tells them they will die like anybody  else. The 
+[OK   ] build-187-ye-are-gods/n3a
+    caption: He was not making himself a second God.
+    heard  : He was not making himself a second god.
+[OK   ] build-187-ye-are-gods/n3b
+    caption: He was showing them their own book exposed their logic.
+    heard  : He was showing them their own book exposed their logic.
+[OK   ] build-187-ye-are-gods/card
+    caption: He stood on the scriptures they claimed to love. Come know him as he truly is.
+    heard  : He stood on the scriptures they claimed to love. Come know him as he truly is.  //  //
+
+0 segment(s) need an ear-check in build-187-ye-are-gods

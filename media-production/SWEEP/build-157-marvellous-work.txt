@@ -1,0 +1,52 @@
+[OK   ] build-157-marvellous-work/n1
+    caption: The prophet Isaiah painted a strange, almost sad picture of his people. The truth of God, he said, had become 
+    heard  : The prophet Isaiah painted a strange, almost sad picture of his people. The truth of God,  he said, had become
+[OK   ] build-157-marvellous-work/n2
+    caption: Imagine a precious book, clasped and sealed, that no one around can open. Everyone senses it matters. No one c
+    heard  : Imagine a precious book clasped and sealed that no one around can open. Everyone senses it matters.  No one ca
+[OK   ] build-157-marvellous-work/n3
+    caption: So they carry it to their most educated man, the scholar everyone respects, and they say, please, read this fo
+    heard  : So they carry it to their most educated man. The scholar everyone respects and they say,  please read this for
+[BAD  ] build-157-marvellous-work/kv11
+    caption: And the vision of all is become unto you as the words of a book that is sealed, which men deliver to one that 
+    heard  : And the vision of all has become unto you as the words of a book that is sealed,  which men deliver to one tha
+     !! 'is' -> heard 'has'   (sound match 67%)
+[OK   ] build-157-marvellous-work/n4
+    caption: Then they hand it to a plain, unschooled man, hoping simple honesty might succeed where learning failed. But h
+    heard  : Then they hand it to a plain, unschooled man, hoping simple honesty might succeed where learning failed.  But 
+[OK   ] build-157-marvellous-work/kv13a
+    caption: Wherefore the Lord said,
+    heard  : Wherefore the Lord said,
+[minor] build-157-marvellous-work/kv13b
+    caption: Forasmuch as this people draw near me with their mouth, and with their lips do honour me, but have removed the
+    heard  : For as much as this people draw near me with their mouth, and with their lips do honor me,  but have removed t
+      ~ 'forasmuch' -> heard 'for as much'   (sound match 100%)
+      ~ 'honour' -> heard 'honor'   (sound match 100%)
+[minor] build-157-marvellous-work/n5
+    caption: Isaiah saw the deeper trouble underneath. The people still said the right words and kept the outward forms, ho
+    heard  : Isaiah saw the deeper trouble underneath. The people still said the right words and kept the  outward forms, h
+      ~ 'honouring' -> heard 'honoring'   (sound match 100%)
+[OK   ] build-157-marvellous-work/n6
+    caption: And no amount of human cleverness was going to fix that. The wisdom of the wise had run to the very end of its
+    heard  : And no amount of human cleverness was going to fix that. The wisdom of the wise had run to the very end of its
+[BAD  ] build-157-marvellous-work/kv14
+    caption: Therefore, behold, I will proceed to do a marvellous work among this people, even a marvellous work and a wond
+    heard  : Therefore, behold, I will proceed to do a marvelous work among these people, even a marvelous work and a wonde
+      ~ 'marvellous' -> heard 'marvelous'   (sound match 100%)
+      ~ 'this' -> heard 'these'   (sound match 100%)
+      ~ 'marvellous' -> heard 'marvelous'   (sound match 100%)
+     !! 'hid' -> heard 'hit'   (sound match 50%)
+[minor] build-157-marvellous-work/n7
+    caption: So God promised to step in himself and do something marvellous — a genuine wonder. Not one more lecture from t
+    heard  : So God promised to step in Himself and do something marvelous, a genuine wonder, not one  more lecture from th
+      ~ 'marvellous' -> heard 'marvelous'   (sound match 100%)
+[minor] build-157-marvellous-work/n8
+    caption: That is the beautiful turn in this verse. When human wisdom hits its limit, God is only getting started. He is
+    heard  : That is the beautiful turn in this verse. When human wisdom hits its limit, God is only getting  started. He i
+      ~ 'marvellous' -> heard 'marvelous'   (sound match 100%)
+[minor] build-157-marvellous-work/card
+    caption: When human wisdom runs dry and the book is sealed, God promises a marvellous work and a wonder — opening what 
+    heard  : When human wisdom runs dry and the book is sealed, God promises a marvelous work and a wonder,  opening what m
+      ~ 'marvellous' -> heard 'marvelous'   (sound match 100%)
+
+2 segment(s) need an ear-check in build-157-marvellous-work

@@ -1,0 +1,30 @@
+[OK   ] build-172-gospel-preached-to-the-dead/n0
+    caption: Some who heard the good news had already died before they could finish their lives in the body.
+    heard  : Some who heard the good news had already died before they could finish their lives in the body.
+[BAD  ] build-172-gospel-preached-to-the-dead/s1
+    caption: For for this cause was the gospel preached also to them that are dead, that they might be judged according to 
+    heard  : 4 for this cause was the gospel preached also to them that are dead, that they might be judged according to me
+     !! 'for' -> heard '-'   (sound match 0%)
+[OK   ] build-172-gospel-preached-to-the-dead/n1a
+    caption: The gospel was preached to them too.
+    heard  : The Gospel was preached to them too.
+[OK   ] build-172-gospel-preached-to-the-dead/n1b
+    caption: Not in vain, not too late.
+    heard  : Not in vain, not too late.
+[OK   ] build-172-gospel-preached-to-the-dead/n2
+    caption: They might be judged by men's measure in the flesh — and yet be alive by God's measure in the spirit.
+    heard  : They might be judged by men's measure in the flesh, and yet be alive by God's measure in the Spirit.
+[OK   ] build-172-gospel-preached-to-the-dead/s19
+    caption: For Christ also hath once suffered for sins, the just for the unjust, that he might bring us to God, being put
+    heard  : For Christ also hath once suffered for sins, the just for the unjust, that He might bring us to God,  being pu
+[OK   ] build-172-gospel-preached-to-the-dead/n3a
+    caption: Death did not close the door.
+    heard  : Death did not close the door.
+[OK   ] build-172-gospel-preached-to-the-dead/n3b
+    caption: The message crossed over.
+    heard  : The message crossed over.
+[OK   ] build-172-gospel-preached-to-the-dead/card
+    caption: The gospel reaches beyond the grave. No one is outside the reach of his mercy.
+    heard  : The Gospel reaches beyond the grave. No one is outside the reach of His mercy.
+
+1 segment(s) need an ear-check in build-172-gospel-preached-to-the-dead

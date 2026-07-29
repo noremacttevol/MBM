@@ -63,7 +63,6 @@ GL_POINTER = "Learn more — Gospel Library: Creation"
 BEATS = [
     ("n0", ST0, "in"),
     ("n1a", ST2, "in"),
-    ("n1b", ST4, "in"),
     ("g4", ST4, "out"),
     ("n1r", ST0, "out"),
     ("n2", ST6, "out"),

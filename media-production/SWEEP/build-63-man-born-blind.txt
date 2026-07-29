@@ -1,0 +1,82 @@
+[minor] build-63-man-born-blind/n0
+    caption: In Jerusalem there was a man who begged at his same spot every day, because he had been blind since the day he
+    heard  : In Jerusalem, there was a man who begged at his same spot every day because he had been blind  since the day h
+      ~ 'morning' -> heard 'mourning'   (sound match 100%)
+[minor] build-63-man-born-blind/s2
+    caption: Master, who did sin, this man, or his parents, that he was born blind?
+    heard  : Master, who did sinned this man or his parents that he was born blind?
+      ~ 'sin' -> heard 'sinned'   (sound match 80%)
+[OK   ] build-63-man-born-blind/n0b
+    caption: Who sinned, Teacher — this man, or his parents — for him to be born blind? Notice they did not ask whether som
+    heard  : who sinned, teacher, this man, or his parents, for him to be born blind. Notice they did not ask  whether some
+[OK   ] build-63-man-born-blind/n1
+    caption: It was the standard theology of the day: if you are suffering, somebody must have earned it. People still run 
+    heard  : It was the standard theology of the day. If you are suffering, somebody must have earned it.  People still run
+[OK   ] build-63-man-born-blind/j1
+    caption: Neither hath this man sinned, nor his parents: but that the works of God should be made manifest in him.
+    heard  : Neither hath this man sinned, nor his parents, but that the works of God should be made manifest in him.
+[OK   ] build-63-man-born-blind/n2
+    caption: Nobody's fault. Not a punishment. Jesus refused to explain the man's suffering — and instead announced what it
+    heard  : Nobody's fault. Not a punishment. Jesus refused to explain the man's suffering,  and instead announced what it
+[minor] build-63-man-born-blind/n3
+    caption: Why clay? Bible students hear an echo: in the beginning, God formed man from the dust of the ground. Whatever 
+    heard  : Why Clay? Bible students here in Echo. In the beginning, God formed man from the dust of the  ground. Whatever
+      ~ 'hear an' -> heard 'here in'   (sound match 100%)
+[minor] build-63-man-born-blind/j2
+    caption: Go, wash in the pool of Siloam.
+    spoken : Go, wash in the pool of Sylohum.
+    heard  : Go, wash in the pool of silo hum.
+      ~ 'siloam' -> heard 'silo hum'   (sound match 86%)
+[OK   ] build-63-man-born-blind/n4
+    caption: Go and wash in the pool of Siloam. Understand what was asked of him. A blind man, eyes packed with mud, feelin
+    spoken : Go and wash in the pool of Sylohum. Understand what was asked of him. A blind man, eyes packed with mud, feeli
+    heard  : Go and wash in the pool of Siloam. Understand what was asked of him. A blind man.  Eyes packed with mud. Feeli
+[minor] build-63-man-born-blind/n5
+    caption: He knelt at the pool of Siloam and washed the clay away. And light came pouring in where there had never been 
+    spoken : He knelt at the pool of Sylohum and washed the clay away. And light came pouring in where there had never been
+    heard  : He knelt at the pool of silo-hum and washed the clay away, and light came pouring in where there  had never be
+      ~ 'siloam' -> heard 'silohum'   (sound match 86%)
+[OK   ] build-63-man-born-blind/n6
+    caption: And then the trouble started. The neighbors argued about whether he was even the same man. The religious leade
+    heard  : and then the trouble started. The neighbors argued about whether he was even the same man.  The religious lead
+[OK   ] build-63-man-born-blind/s25
+    caption: Whether he be a sinner or no, I know not: one thing I know, that, whereas I was blind, now I see.
+    heard  : Whether he be a sinner or no, I know not. One thing I know, that, whereas I was blind, now I see.
+[minor] build-63-man-born-blind/n6b
+    caption: Whether he's a sinner, I don't know. One thing I know: I was blind, and now I see. He would not argue theology
+    heard  : Whether he's a sinner, I don't know. One thing I know, I was blind, and now I see. He would not  argue theolog
+      ~ 'trained men' -> heard 'trainmen'   (sound match 91%)
+[OK   ] build-63-man-born-blind/n7
+    caption: They could not shake him, so they threw him out — cast out of the synagogue, cut off from the whole religious 
+    heard  : They could not shake him, so they threw him out, cast out of the synagogue,  cut off from the whole religious 
+[OK   ] build-63-man-born-blind/j3
+    caption: Dost thou believe on the Son of God?
+    heard  : Dost thou believe on the Son of God?
+[OK   ] build-63-man-born-blind/n8
+    caption: Do you believe on the Son of God? And the man — who wants to, and does not know who that is — answers:
+    heard  : Do you believe on the Son of God? And the man who wants to and does not know who that is?  Answers.
+[OK   ] build-63-man-born-blind/s36
+    caption: Who is he, Lord, that I might believe on him?
+    heard  : Who is he, Lord, that I might believe on him?
+[OK   ] build-63-man-born-blind/n8b
+    caption: Who is he, sir? Tell me, so I can believe in him. He is not stalling. He is asking for a name so he can give h
+    heard  : Who is he, sir? Tell me, so I can believe in him. He is not stalling. He is asking for a name so he  can give 
+[OK   ] build-63-man-born-blind/j4
+    caption: Thou hast both seen him, and it is he that talketh with thee.
+    heard  : Thou hast both seen him, and it is he that talketh with thee.
+[OK   ] build-63-man-born-blind/n9
+    caption: You have seen him — and he is the one talking with you right now. The first face this man ever truly studied w
+    heard  : You have seen him, and he is the one talking with you right now. The first face this man  ever truly studied w
+[BAD  ] build-63-man-born-blind/s38
+    caption: Lord, I believe.
+    heard  : Lower, I believe.
+     !! 'lord' -> heard 'lower'   (sound match 67%)
+[minor] build-63-man-born-blind/n9b
+    caption: Lord, I believe — and he worshipped him, right there in the street the religious world had just thrown him out
+    heard  : Lord, I believe, and He worshiped Him. Right there in the street the religious world had  just thrown Him out 
+      ~ 'worshipped' -> heard 'worshiped'   (sound match 100%)
+[OK   ] build-63-man-born-blind/card
+    caption: You may never get the why for what you carry. But when the world shuts you out, he comes and finds you.
+    heard  : You may never get the why for what you carry, but when the world shuts you out, he comes and finds you.
+
+1 segment(s) need an ear-check in build-63-man-born-blind

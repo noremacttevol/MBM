@@ -1,0 +1,57 @@
+[OK   ] build-34-rich-fool/n0
+    caption: Jesus told a story about a rich man who had a very good year.
+    heard  : Jesus told a story about a rich man who had a very good year.
+[OK   ] build-34-rich-fool/n1
+    caption: His fields produced an enormous harvest — more grain and fruit than he had ever gathered in his life.
+    heard  : His fields produced an enormous harvest, more grain and fruit than he had ever gathered in his life.
+[OK   ] build-34-rich-fool/n2
+    caption: In fact, he had so much that he ran out of room to store it all.
+    heard  : In fact, he had so much that he ran out of room to store it all.  //  //  //  //  //  //  //  //  //  //  //  
+[OK   ] build-34-rich-fool/j3
+    caption: This will I do: I will pull down my barns, and build greater; and there will I bestow all my fruits and my goo
+    heard  : This will I do, I will pull down my barns, and build greater, and there will I bestow all my fruits and my goo
+[OK   ] build-34-rich-fool/n3
+    caption: So he thought to himself: What should I do? I know — I will tear down my barns and build bigger ones.
+    heard  : So he thought to himself, what should I do? I know, I will tear down my barns and build bigger ones.
+[OK   ] build-34-rich-fool/n4
+    caption: There I will store up all my grain and all my goods.
+    heard  : There I will store up all my grain and all my goods.
+[OK   ] build-34-rich-fool/j4
+    caption: And I will say to my soul, Soul, thou hast much goods laid up for many years; take thine ease, eat, drink, and
+    heard  : And I will say to my soul, soul, thou hast much goods laid up for many years, take thine  ease, eat, drink, an
+[OK   ] build-34-rich-fool/n5
+    caption: And then I will say to myself: You have plenty saved up for years to come. Relax. Eat, drink, and enjoy your l
+    heard  : And then I will say to myself, you have plenty saved up for years to come. Relax, eat, drink,  and enjoy your 
+[OK   ] build-34-rich-fool/n6
+    caption: He had it all figured out. Every single plan was about himself — his barns, his goods, his own comfort.
+    heard  : He had it all figured out. Every single plan was about himself. His barns, his goods, his own comfort.
+[OK   ] build-34-rich-fool/n7
+    caption: But there was one thing he had never planned for. And that very night, God spoke to him.
+    heard  : But there was one thing he had never planned for. And that very night, God spoke to him.
+[BAD  ] build-34-rich-fool/j1
+    caption: Thou fool, this night thy soul shall be required of thee: then whose shall those things be, which thou hast pr
+    heard  : Thou fool, this night thy soul shall be required of thee, then who shall those things be, which  thou hast pro
+     !! 'whose' -> heard 'who'   (sound match 67%)
+[OK   ] build-34-rich-fool/n8
+    caption: That night, his life was over. And everything he had piled up — the barns, the grain, all of it — would simply
+    heard  : That night, his life was over, and everything he had piled up, the barns, the grain, all of it,  would simply 
+[OK   ] build-34-rich-fool/n9
+    caption: He had planned for everything except the one thing that was certain: that one day he would stand before God.
+    heard  : He had planned for everything except the one thing that was certain.  That one day he would stand before God.
+[OK   ] build-34-rich-fool/n10
+    caption: And Jesus ended the story with these words.
+    heard  : And Jesus ended the story with these words.
+[OK   ] build-34-rich-fool/j2
+    caption: So is he that layeth up treasure for himself, and is not rich toward God.
+    heard  : So is he that layeth up treasure for himself, and is not rich toward God?
+[OK   ] build-34-rich-fool/n11
+    caption: His barns were full, but his soul was empty. He was rich in things — and poor in the only wealth that lasts.
+    heard  : His barns were full, but his soul was empty. He was rich in things, and poor in the only wealth that lasts.
+[OK   ] build-34-rich-fool/n12
+    caption: There is nothing wrong with a good harvest. The real question is quieter than that: are you only storing up fo
+    heard  : There is nothing wrong with a good harvest. The real question is quieter than that.  Are you only storing up f
+[OK   ] build-34-rich-fool/card
+    caption: His barns were full. His soul was empty. What are you storing up for yourself — and what are you storing up wi
+    heard  : His barns were full, his soul was empty. What are you storing up for yourself? And what are you  storing up wi
+
+1 segment(s) need an ear-check in build-34-rich-fool

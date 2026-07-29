@@ -1,0 +1,44 @@
+[minor] build-178-in-our-image/n0
+    caption: At the start of all things, before any person drew breath, a counsel happened in the Godhead — let us make man
+    heard  : At the start of all things, before any person drew breath, a council happened in the Godhead.  Let us make man
+      ~ 'counsel' -> heard 'council'   (sound match 75%)
+[OK   ] build-178-in-our-image/s1
+    caption: And God said,
+    heard  : And God said...
+[OK   ] build-178-in-our-image/g26
+    caption: Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and ove
+    heard  : Let us make man in our image, after our likeness, and let them have dominion over the fish of the sea, and ove
+[OK   ] build-178-in-our-image/n0b
+    caption: Hear the word us. Let us make man in our image. God is not talking to himself there — he is talking with someo
+    heard  : Hear the word us. Let us make man in our image. God is not talking to himself there. He is talking  with someo
+[BAD  ] build-178-in-our-image/s2
+    caption: So God created man in his own image, in the image of God created he him; male and female created he them.
+    heard  : So God created man in his own image, in the image of God created him, male and female created he them.
+     !! 'he' -> heard '-'   (sound match 0%)
+[OK   ] build-178-in-our-image/n0c
+    caption: And then he did it. Moses says it three times in one sentence, like he cannot get over it — in his own image, 
+    heard  : And then he did it. Moses says it three times in one sentence, like he cannot get over it.  In his own image, 
+[OK   ] build-178-in-our-image/s3
+    caption: And the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and 
+    heard  : and the Lord God formed man of the dust of the ground  and breathed into his nostrils the breath of life,  and
+[OK   ] build-178-in-our-image/n3
+    caption: Then the act: God shaped a man from the dust of the ground and filled him with breath — and the man came alive
+    heard  : Then the act, God shaped a man from the dust of the ground and filled him with breath,  and the man came alive
+[minor] build-178-in-our-image/n2
+    caption: The plan included dominion — over fish, birds, cattle, and all the earth. Stewards, not owners.
+    heard  : The plan included dominion over fish, birds, cattle, and all the earth.  Stewart's not owners.
+      ~ 'stewards' -> heard 'stewarts'   (sound match 83%)
+[OK   ] build-178-in-our-image/n1a
+    caption: Not in the shape of any creature, but bearing something of God himself:
+    heard  : Not in the shape of any creature, but bearing something of God Himself.  //  //
+[OK   ] build-178-in-our-image/n1b
+    caption: the capacity to know him, to choose him, to reflect him.
+    heard  : the capacity to know him, to choose him, to reflect him.  //  //
+[OK   ] build-178-in-our-image/n4
+    caption: Every person since carries that original dignity — made in the image, loved into being.
+    heard  : Every person since carries that original dignity made in the image loved into being.
+[OK   ] build-178-in-our-image/card
+    caption: You are made in his image. That is worth more than you know.
+    heard  : You are made in his image. That is worth more than you know.
+
+1 segment(s) need an ear-check in build-178-in-our-image

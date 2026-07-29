@@ -1,0 +1,37 @@
+[OK   ] build-186-joint-heirs/n0
+    caption: Paul wrote to the believers in Rome about who they really were — not strangers, not outsiders.
+    heard  : Paul wrote to the believers in Rome about who they really were, not strangers, not outsiders.
+[BAD  ] build-186-joint-heirs/s1
+    caption: The Spirit itself beareth witness with our spirit, that we are the children of God:
+    heard  : The Spirit itself bears witness with our Spirit that we are the children of God.
+     !! 'beareth' -> heard 'bears'   (sound match 57%)
+[minor] build-186-joint-heirs/n0b
+    caption: God's own Spirit tells your spirit the truth about you. Not a rumour, not a hope — a witness, given straight t
+    heard  : God's own Spirit tells your Spirit the truth about you.  Not a rumor, not a hope, a witness given straight to 
+      ~ 'rumour' -> heard 'rumor'   (sound match 100%)
+[minor] build-186-joint-heirs/s2
+    caption: And if children, then heirs; heirs of God, and joint-heirs with Christ; if so be that we suffer with him, that
+    heard  : And if children then heirs, heirs of God, and joined heirs with Christ,  if so be that we suffer with Him, tha
+      ~ 'jointheirs' -> heard 'joined heirs'   (sound match 83%)
+[minor] build-186-joint-heirs/n1
+    caption: Children first — and because children, inheritors. What the Father has belongs to the family, and the family i
+    heard  : Children first, and because children and heriters.  What the Father has belongs to the family, and the family 
+      ~ 'inheritors' -> heard 'and heriters'   (sound match 92%)
+[OK   ] build-186-joint-heirs/n2
+    caption: The terms were honest: share in his suffering, and you will share in his glory too.
+    heard  : The terms were honest. Share in his suffering, and you will share in his glory too.  //
+[OK   ] build-186-joint-heirs/n3a
+    caption: Not earned by effort. Received by belonging.
+    heard  : Not earned by effort.  Received by belonging.  //
+[minor] build-186-joint-heirs/n3b
+    caption: Heirs together with the Son.
+    heard  : Heirs together with the sun.
+      ~ 'son' -> heard 'sun'   (sound match 100%)
+[BAD  ] build-186-joint-heirs/card
+    caption: You're not a visitor at the table — you're family. Heir with the Son. Come home.
+    heard  : You're not a visitor at the table. Your family. Air with the sun. Come home.
+      ~ 'youre' -> heard 'your'   (sound match 100%)
+     !! 'heir' -> heard 'air'   (sound match 67%)
+      ~ 'son' -> heard 'sun'   (sound match 100%)
+
+2 segment(s) need an ear-check in build-186-joint-heirs

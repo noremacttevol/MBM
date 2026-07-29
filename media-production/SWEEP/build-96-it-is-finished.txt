@@ -1,0 +1,46 @@
+[OK   ] build-96-it-is-finished/n0
+    caption: At the very end, Jesus knew everything had now been accomplished. He wasn't a victim losing a fight — he was f
+    heard  : At the very end, Jesus knew everything had now been accomplished. He wasn't a victim losing a fight. He was fi
+[OK   ] build-96-it-is-finished/n1
+    caption: With his last breath he spoke three words that weren't a cry of defeat, but a declaration of completion.
+    heard  : With his last breath, he spoke three words that weren't a cry of defeat, but a declaration of completion.
+[OK   ] build-96-it-is-finished/j1
+    caption: It is finished.
+    heard  : It is finished.
+[OK   ] build-96-it-is-finished/n1b
+    caption: It is finished. Not I am finished. The thing he came to do was done — completed, paid in full, nothing left ow
+    heard  : It is finished. Not I am finished. The thing he came to do was done, completed, paid in full,  nothing left ow
+[OK   ] build-96-it-is-finished/jv46
+    caption: Father, into thy hands I commend my spirit.
+    heard  : Father, into Thy hands I commend My Spirit.
+[OK   ] build-96-it-is-finished/n1c
+    caption: Father, I put my spirit in your hands. The last words he said were words of trust, spoken to the Father he had
+    heard  : Father, I put my spirit in your hands.  The last words he said were words of trust, spoken to the Father he ha
+[OK   ] build-96-it-is-finished/s30b
+    caption: And he bowed his head, and gave up the ghost.
+    heard  : and he bowed his head and gave up the ghost.
+[OK   ] build-96-it-is-finished/n2
+    caption: And he bowed his head and gave up the spirit — on his own terms, not theirs. Nobody took his life from him. He
+    heard  : and he bowed his head and gave up the Spirit on his own terms, not theirs. Nobody took his life from him.  He 
+[BAD  ] build-96-it-is-finished/s51
+    caption: And, behold, the veil of the temple was rent in twain from the top to the bottom.
+    heard  : And behold, the veil of the temple was rent entrained from the top to the bottom.
+     !! 'in twain' -> heard 'entrained'   (sound match 67%)
+[OK   ] build-96-it-is-finished/n3a
+    caption: At that moment, in the temple across the city, the great veil that walled off the holiest place was torn in tw
+    heard  : At that moment, in the temple across the city, the great veil that walled off the holiest place was torn in tw
+[OK   ] build-96-it-is-finished/n3b
+    caption: as if torn by a hand from above.
+    heard  : as if torn by a hand from above.
+[OK   ] build-96-it-is-finished/n4a
+    caption: That curtain had kept people out of God's presence for centuries. The instant he died, it was ripped open.
+    heard  : that curtain had kept people out of God's presence for centuries. The instant he died,  it was ripped open.
+[OK   ] build-96-it-is-finished/n4b
+    caption: The way in was thrown wide — for everyone.
+    heard  : The way in was thrown wide for everyone.
+[minor] build-96-it-is-finished/card
+    caption: The curtain that kept you out was torn open the moment he died. The way to God is open. Walk in.
+    heard  : The curtain that kept you out was torn opened the moment he died. The way to God is open. Walk in.
+      ~ 'open' -> heard 'opened'   (sound match 80%)
+
+1 segment(s) need an ear-check in build-96-it-is-finished

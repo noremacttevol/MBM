@@ -1,0 +1,52 @@
+[OK   ] build-92-peters-denial/n0
+    caption: After they arrested Jesus, Peter followed at a distance and warmed himself by a fire in the courtyard, trying 
+    heard  : After they arrested Jesus, Peter followed at a distance and warmed himself by a fire in the courtyard, trying 
+[minor] build-92-peters-denial/n1
+    caption: A servant girl saw his face in the firelight, looked hard at him, and said it out loud.
+    heard  : A servant girl saw his face in the fire light, looked hard at him, and said it out loud.  //  //
+      ~ 'firelight' -> heard 'fire light'   (sound match 100%)
+[OK   ] build-92-peters-denial/w56
+    caption: This man was also with him.
+    heard  : This man was also with him.
+[OK   ] build-92-peters-denial/n1b
+    caption: This one was with him too, she said. Not an accusation — just a girl recognizing a face. And Peter answered he
+    heard  : This one was with him too. She said, not an accusation, just a girl recognizing a face.  And Peter answered he
+[OK   ] build-92-peters-denial/s57
+    caption: Woman, I know him not.
+    heard  : Woman, I know him not.
+[OK   ] build-92-peters-denial/n2
+    caption: Woman, I don't know him. A little later, someone else said the same thing. Then a third man, an hour after tha
+    heard  : Woman, I don't know him. A little later, someone else said the same thing. Then a third man,  an hour after th
+[OK   ] build-92-peters-denial/s60
+    caption: Man, I know not what thou sayest.
+    heard  : Man, I know not what thou sayest.
+[OK   ] build-92-peters-denial/n2b
+    caption: I don't know what you're talking about. Three times now, out loud, in front of strangers, he had said he had n
+    heard  : I don't know what you're talking about. Three times now, out loud, in front of strangers,  he had said he had 
+[OK   ] build-92-peters-denial/n3
+    caption: And right then, while the words were still in his mouth, a rooster crowed.
+    heard  : And right then, while the words were still in his mouth, a rooster crowed.
+[OK   ] build-92-peters-denial/n4
+    caption: Across the courtyard, Jesus turned and looked straight at Peter. Just looked at him.
+    heard  : Across the courtyard, Jesus turned and looked straight at Peter.  Just looked at him.  //
+[OK   ] build-92-peters-denial/n5a
+    caption: And Peter remembered. Jesus had said this to his face, that very night, and Peter had sworn it would never hap
+    heard  : And Peter remembered, Jesus had said this to his face that very night, and Peter had sworn it would  never hap
+[OK   ] build-92-peters-denial/jv61
+    caption: Before the cock crow, thou shalt deny me thrice.
+    heard  : Before the cock crow, thou shalt deny me thrice.
+[OK   ] build-92-peters-denial/n5a2
+    caption: Before the rooster crows, you will say three times that you don't know me. He had told him. And now the rooste
+    heard  : Before the rooster crows, you will say three times that you don't know me. He had told him,  and now the roost
+[BAD  ] build-92-peters-denial/n5b
+    caption: He went outside and wept bitterly.
+    heard  : He went outside and walked bitterly.
+     !! 'wept' -> heard 'walked'   (sound match 29%)
+[OK   ] build-92-peters-denial/n5c
+    caption: But the look wasn't scorn. It was the face of someone who already knew, and already loved him anyway.
+    heard  : But the look wasn't scorn. It was the face of someone who already knew, and already loved him anyway.
+[OK   ] build-92-peters-denial/card
+    caption: He looked at Peter in his worst moment — and still chose him. He looks at you the same way.
+    heard  : He looked at Peter in his worst moment and still chose him. He looks at you the same way.
+
+1 segment(s) need an ear-check in build-92-peters-denial

@@ -1,0 +1,58 @@
+[OK   ] build-85-shepherds-and-angels/n0
+    caption: Outside Bethlehem, shepherds were keeping watch over their flocks by night — ordinary men working the late shi
+    heard  : Outside Bethlehem, shepherds were keeping watch over their flocks by night. Ordinary men working the  late shi
+[OK   ] build-85-shepherds-and-angels/n1
+    caption: Suddenly an angel of the Lord stood before them, and the glory of the Lord blazed all around. They were terrif
+    heard  : Suddenly an angel of the Lord stood before them, and the glory of the Lord blazed all  around.  They were terr
+[minor] build-85-shepherds-and-angels/j1
+    caption: Fear not: for, behold, I bring you good tidings of great joy, which shall be to all people. For unto you is bo
+    heard  : Fear not, for, behold, I bring you good tidings of great joy, which shall be to all people.  Fore unto you is 
+      ~ 'for' -> heard 'fore'   (sound match 100%)
+      ~ 'saviour' -> heard 'savior'   (sound match 100%)
+[minor] build-85-shepherds-and-angels/n1b
+    caption: Don't be afraid, he told them — I'm bringing you good news, and it's going to be a joy to everybody. Today, in
+    heard  : Don't be afraid, he told them, I'm bringing you good news, and it's going to be a joy to everybody.  Today, in
+      ~ 'saviour' -> heard 'savior'   (sound match 100%)
+[OK   ] build-85-shepherds-and-angels/n2
+    caption: And in a moment the one angel became a vast multitude of the heavenly host, filling the whole sky.
+    heard  : And in a moment the one angel became a vast multitude of the heavenly host, filling the whole sky.
+[OK   ] build-85-shepherds-and-angels/j2
+    caption: Glory to God in the highest, and on earth peace, good will toward men.
+    heard  : Glory to God in the highest and on earth peace, good will toward men.
+[BAD  ] build-85-shepherds-and-angels/n2b
+    caption: Glory to God in the highest, and on earth, peace, and good will toward people. That is what the sky said. Not 
+    heard  : Glory to God in the highest and on earth, peace and good will toward people. That is what the sky  said, not a
+      ~ 'good will' -> heard 'goodwill'   (sound match 100%)
+     !! 'said' -> heard 'set'   (sound match 50%)
+[OK   ] build-85-shepherds-and-angels/n3
+    caption: When the angels had gone away into heaven, the shepherds said to one another:
+    heard  : When the angels had gone away into heaven, the shepherds said to one another.
+[BAD  ] build-85-shepherds-and-angels/s15
+    caption: Let us now go even unto Bethlehem, and see this thing which is come to pass, which the Lord hath made known un
+    heard  : Let us now go even unto Bethlehem and see this thing which has come to pass,  which the Lord hath made known u
+     !! 'is' -> heard 'has'   (sound match 67%)
+[OK   ] build-85-shepherds-and-angels/n3b
+    caption: Let's go over to Bethlehem right now and see this thing that has happened, that the Lord has told us about. Th
+    heard  : Let's go over to Bethlehem right now and see this thing that has happened that the Lord has told us about.  Th
+[OK   ] build-85-shepherds-and-angels/n4
+    caption: They found Mary and Joseph, and the baby lying in the manger — exactly as they had been told.
+    heard  : They found Mary and Joseph, and the baby lying in the manger, exactly as they had been told.
+[minor] build-85-shepherds-and-angels/n5
+    caption: There he was: the Saviour of the world, a tiny newborn asleep in a feed trough, wrapped in strips of cloth.
+    heard  : There he was, the Savior of the world, a tiny newborn asleep in a feed trough, wrapped in strips of cloth.
+      ~ 'saviour' -> heard 'savior'   (sound match 100%)
+[OK   ] build-85-shepherds-and-angels/n6
+    caption: The shepherds could not keep it in. They went out glorifying and praising God, telling everyone they met what 
+    heard  : The shepherds could not keep it in. They went out glorifying and praising God, telling everyone  they met what
+[OK   ] build-85-shepherds-and-angels/n7
+    caption: But Mary kept all these things, and pondered them in her heart.
+    heard  : But Mary kept all these things and pondered them in her heart.
+[OK   ] build-85-shepherds-and-angels/n7b
+    caption: In a story full of people shouting, Luke stops to tell you about the one person who said nothing. She gathered
+    heard  : In a story full of people shouting, Luke stops to tell you about the one person who said nothing.  She gathere
+[minor] build-85-shepherds-and-angels/card
+    caption: The first birth announcement in history went to night-shift workers on a hillside. Good news of great joy, for
+    heard  : The first birth announcement in history went to night shift workers on a hillside.  Good news of great joy for
+      ~ 'nightshift' -> heard 'night shift'   (sound match 100%)
+
+2 segment(s) need an ear-check in build-85-shepherds-and-angels

@@ -1,0 +1,36 @@
+[OK   ] build-73-this-day-fulfilled/n0
+    caption: He came back to Nazareth — the town that raised him — and on the Sabbath he walked into the synagogue like he 
+    heard  : He came back to Nazareth, the town that raised him, and on the Sabbath he walked into the synagogue  like he a
+[BAD  ] build-73-this-day-fulfilled/s17
+    caption: And there was delivered unto him the book of the prophet Esaias. And when he had opened the book, he found the
+    spoken : And there was delivered unto him the book of the prophet eh-ZAY-us. And when he had opened the book, he found 
+    heard  : and there was delivered unto him the book of the prophet as he wise.  And when he had opened the book, he foun
+     !! 'esaias' -> heard 'as he wise'   (sound match 40%)
+[OK   ] build-73-this-day-fulfilled/n1
+    caption: They handed him the scroll of Isaiah. He found the place, and read it out loud.
+    heard  : They handed him the scroll of Isaiah. He found the place and read it out loud.
+[OK   ] build-73-this-day-fulfilled/j1
+    caption: The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent 
+    heard  : The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor.  He hath sent
+[minor] build-73-this-day-fulfilled/n1b
+    caption: The Spirit of the Lord is on me, he read, because he anointed me — to bring good news to the poor, to bind up 
+    heard  : The spirit of the Lord is on me. He read, because he anointed me, to bring good news to the poor,  to bind up 
+      ~ 'blind their' -> heard 'blinders'   (sound match 77%)
+[minor] build-73-this-day-fulfilled/s20
+    caption: And he closed the book, and he gave it again to the minister, and sat down. And the eyes of all them that were
+    heard  : And he closed the book, and he gave it again to the minister, and sat down.  And the eyes of all them that wer
+      ~ 'the' -> heard 'this'   (sound match 80%)
+[OK   ] build-73-this-day-fulfilled/n2
+    caption: Then he rolled the scroll up, handed it back, and sat down. Every eye in the room was fixed on him — this was 
+    heard  : Then he rolled the scroll up, handed it back, and sat down. Every eye in the room was fixed on him.  This was 
+[OK   ] build-73-this-day-fulfilled/j2
+    caption: This day is this scripture fulfilled in your ears.
+    heard  : This day is this scripture fulfilled in your ears.
+[OK   ] build-73-this-day-fulfilled/n3
+    caption: The promise Israel had waited on for centuries — the healing, the freedom, the good news for the poor — he sai
+    heard  : The promise Israel had waited on for centuries, the healing, the freedom, the good news for the poor.  He said
+[OK   ] build-73-this-day-fulfilled/card
+    caption: He still reads it as today. What would it mean if that promise were meant for you, right now?
+    heard  : He still reads it as today. What would it mean if that promise were meant for you right now?
+
+1 segment(s) need an ear-check in build-73-this-day-fulfilled

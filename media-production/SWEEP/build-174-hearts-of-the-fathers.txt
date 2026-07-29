@@ -1,0 +1,29 @@
+[OK   ] build-174-hearts-of-the-fathers/n0
+    caption: Before the great day, a messenger would come first — Elijah, the prophet, sent ahead.
+    heard  : Before the great day, a messenger would come first. Elijah, the prophet, sent ahead.
+[OK   ] build-174-hearts-of-the-fathers/s1a
+    caption: Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the LORD:
+    heard  : Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the Lord.
+[OK   ] build-174-hearts-of-the-fathers/n0b
+    caption: Listen to who is talking there. That is God himself, making a promise out loud: before the last great day arri
+    heard  : Listen to who is talking there. That is God Himself making a promise out loud. Before the last  great day arri
+[OK   ] build-174-hearts-of-the-fathers/s1b
+    caption: And he shall turn the heart of the fathers to the children, and the heart of the children to their fathers, le
+    heard  : And he shall turn the heart of the fathers to the children,  and the heart of the children to their fathers,  
+[OK   ] build-174-hearts-of-the-fathers/n1
+    caption: His work was not to thunder, but to mend. To turn the hearts of fathers back to their children, and children b
+    heard  : His work was not to thunder, but to mend, to turn the hearts of fathers back to their children  and children b
+[OK   ] build-174-hearts-of-the-fathers/n3
+    caption: The same spirit would later rest on John, preparing the way.
+    heard  : The same spirit would later rest on John, preparing the way.
+[OK   ] build-174-hearts-of-the-fathers/n2a
+    caption: So that when the Lord came, families would be ready.
+    heard  : So that when the Lord came, families would be ready.
+[OK   ] build-174-hearts-of-the-fathers/n2b
+    caption: Not divided, but whole.
+    heard  : not divided, but whole.
+[OK   ] build-174-hearts-of-the-fathers/card
+    caption: He cares about your family. Let the healing start with your own heart.
+    heard  : He cares about your family. Let the healing start with your own heart.  //
+
+0 segment(s) need an ear-check in build-174-hearts-of-the-fathers

@@ -47,7 +47,7 @@ ST5 = "s5-the-created-world.jpeg"
 ST6 = "s6-conviction-and-gentleness.jpeg"
 ST7 = "s7-the-unknown-god-named-by-light.jpeg"
 
-TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
+TEXT = {s[0]: (s[4] if len(s) >= 5 else s[2]) for s in make_narration.SEGMENTS}
 KJV = {"p1"}   # Acts 17:28, scripture voice — cream italic
 # Long holds: the KJV on the creation still (marked s5 silence) and the
 # repentance hold after n3.

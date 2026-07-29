@@ -1,0 +1,86 @@
+[BAD  ] build-31-ten-virgins/n0
+    caption: Jesus told a story about ten young women waiting for a wedding.
+    heard  : Jesus told a story about 10 young women waiting for a wedding.  //  //  //  //  //  //  //  //  //  //  //  //
+     !! 'ten' -> heard '-'   (sound match 0%)
+[minor] build-31-ten-virgins/n1
+    caption: In those days, a whole village would wait for the bridegroom to come, late in the evening, and lead everyone i
+    heard  : In those days, a whole village would wait for the bridegroom to come late in the evening  and lead everyone in
+      ~ 'in to' -> heard 'into'   (sound match 100%)
+[BAD  ] build-31-ten-virgins/n2
+    caption: So ten young women took their oil lamps and went out into the dusk to meet him.
+    heard  : So 10 young women took their oil lamps and went out into the dust to meet him.
+     !! 'ten' -> heard '-'   (sound match 0%)
+     !! 'dusk' -> heard 'dust'   (sound match 67%)
+[OK   ] build-31-ten-virgins/n3
+    caption: Five of them were wise. Along with their lamps, they each carried a small jar of extra oil.
+    heard  : Five of them were wise.  Along with their lamps, they each carried a small jar of extra oil.
+[OK   ] build-31-ten-virgins/n4
+    caption: The other five were foolish. They brought their lamps — but no extra oil at all.
+    heard  : The other five were foolish. They brought their lamps, but no extra oil at all.
+[BAD  ] build-31-ten-virgins/n5
+    caption: The bridegroom was delayed. Hour after hour slipped by, and one by one, all ten women grew drowsy and fell asl
+    heard  : The bridegroom was delayed. Hour after hour slipped by and one by one. All 10 women grew  drowsy and fell asle
+     !! 'ten' -> heard '-'   (sound match 0%)
+[OK   ] build-31-ten-virgins/j2
+    caption: Behold, the bridegroom cometh; go ye out to meet him.
+    heard  : Behold, the bridegroom cometh, go ye out to meet him.
+[BAD  ] build-31-ten-virgins/n6
+    caption: Then, at midnight, a cry rang out: The bridegroom is coming! Come out to meet him!
+    heard  : Then, at midnight, a cry rang out.  The bridegroom is coming.  Come out and meet him.
+     !! 'to' -> heard 'and'   (sound match 0%)
+[OK   ] build-31-ten-virgins/n7
+    caption: They all woke and reached for their lamps. The wise trimmed theirs, and they burned warm and bright.
+    heard  : They all woke and reached for their lamps.  The wise trimmed theirs and they burned warm and bright.
+[BAD  ] build-31-ten-virgins/n8
+    caption: But the foolish looked down in dismay. Their lamps were sputtering out — they had no oil left.
+    heard  : But the foolish looked down and dismay. Their lamps were sputtering out. They had no oil left.
+     !! 'in' -> heard 'and'   (sound match 67%)
+[OK   ] build-31-ten-virgins/j3
+    caption: Give us of your oil; for our lamps are gone out.
+    heard  : Give us of your oil, for our lamps are gone out.
+[OK   ] build-31-ten-virgins/n9
+    caption: Please, they cried out to the others — give us some of your oil!
+    heard  : Please, they cried out to the others.  Give us some of your oil.
+[BAD  ] build-31-ten-virgins/j4
+    caption: Not so; lest there be not enough for us and you: but go ye rather to them that sell, and buy for yourselves.
+    heard  : Not so, lest there be not enough for us in you, but go ye rather to them that cell, and buy for yourselves.
+     !! 'and' -> heard 'in'   (sound match 67%)
+     !! 'sell' -> heard 'cell'   (sound match 50%)
+[minor] build-31-ten-virgins/n10
+    caption: But the wise couldn't. There isn't enough for all of us, they said. Hurry — go and buy your own.
+    heard  : But the whys couldn't. There isn't enough for all of us, they said. Hurry, go and buy your own.
+      ~ 'wise' -> heard 'whys'   (sound match 80%)
+[OK   ] build-31-ten-virgins/n11
+    caption: And while the foolish rushed off into the dark to find oil, the bridegroom arrived.
+    heard  : And while the foolish rushed off into the dark to find oil, the bridegroom arrived.
+[minor] build-31-ten-virgins/n12
+    caption: The ones who were ready went in with him to the wedding feast. And the door was shut.
+    heard  : The ones who were ready went in with him to the wedding feast. And the door was shot.
+      ~ 'shut' -> heard 'shot'   (sound match 100%)
+[OK   ] build-31-ten-virgins/j5
+    caption: Lord, Lord, open to us.
+    heard  : Lord, Lord, open to us.
+[OK   ] build-31-ten-virgins/j6
+    caption: Verily I say unto you, I know you not.
+    heard  : Verily I say unto you, I know you not.
+[minor] build-31-ten-virgins/n13
+    caption: Later the others came back, knocking. Lord, they called, open the door for us! But the answer came from inside
+    heard  : Later the others came back, knocking. Lord, they called, opened the door for us. But the answer  came from ins
+      ~ 'open' -> heard 'opened'   (sound match 80%)
+[OK   ] build-31-ten-virgins/n14
+    caption: Then Jesus told them why he had shared this story.
+    heard  : Then Jesus told them why he had shared this story.
+[OK   ] build-31-ten-virgins/j1
+    caption: Watch therefore, for ye know neither the day nor the hour wherein the Son of man cometh.
+    heard  : Watch therefore, for ye know neither the day nor the hour wherein the Son of Man cometh.
+[OK   ] build-31-ten-virgins/n15
+    caption: The oil is the one thing you cannot borrow at the last minute — a heart that is truly ready, a faith that is r
+    heard  : The oil is the one thing you cannot borrow at the last minute. A heart that is truly ready.  A faith that is r
+[OK   ] build-31-ten-virgins/n16
+    caption: And here is the good news: the door is still open now. Tonight, your lamp can be filled. He is worth being rea
+    heard  : And here is the good news. The door is still open now. Tonight, your lamp can be filled.  He is worth being re
+[OK   ] build-31-ten-virgins/card
+    caption: You cannot borrow someone else's oil. Is your own lamp burning — are you ready to meet him?
+    heard  : You cannot borrow someone else's oil. Is your own lamp burning. Are you ready to meet him?  //
+
+6 segment(s) need an ear-check in build-31-ten-virgins

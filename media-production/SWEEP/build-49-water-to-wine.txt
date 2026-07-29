@@ -1,0 +1,79 @@
+[OK   ] build-49-water-to-wine/n1
+    caption: The very first miracle he ever did was not what you would guess. Not a healing. Not calming a storm. He saved 
+    heard  : The very first miracle he ever did was not what you would guess. Not a healing. Not calming a storm.  He saved
+[BAD  ] build-49-water-to-wine/n2
+    caption: He was there as a guest, with his mother and his friends. A wedding in a small town like Cana ran for days, an
+    spoken : He was there as a guest, with his mother and his friends. A wedding in a small town like Kaynuh ran for days, 
+    heard  : He was there as a guest with his mother and his friends. A wedding in a small town like  Knew ran for days and
+     !! 'cana' -> heard 'knew'   (sound match 40%)
+[OK   ] build-49-water-to-wine/n3
+    caption: And then, quietly, disaster. The wine ran out. To us that sounds small. To that family it was a public shame t
+    heard  : And then quietly disaster. The wine ran out. To us that sounds small. To that family, it was a public shame th
+[OK   ] build-49-water-to-wine/n4
+    caption: His mother noticed before anyone else did. And she did not go to the host, or the kitchen. She went straight t
+    heard  : His mother noticed before anyone else did, and she did not go to the host or the kitchen.  She went straight t
+[OK   ] build-49-water-to-wine/w3
+    caption: They have no wine.
+    heard  : They have no wine.
+[minor] build-49-water-to-wine/n4b
+    caption: Four words. They have no wine. She did not tell him what to do about it, and she did not ask him for anything.
+    heard  : For words, they have no wine. She did not tell him what to do about it, and she did not ask him for anything. 
+      ~ 'four' -> heard 'for'   (sound match 100%)
+[OK   ] build-49-water-to-wine/jv4
+    caption: Woman, what have I to do with thee? mine hour is not yet come.
+    heard  : Woman, what have I to do with thee?  Mine hour is not yet come.
+[OK   ] build-49-water-to-wine/n5
+    caption: That sounds sharp in English, but it was not. Woman was a word of respect, and the phrase was a gentle old idi
+    heard  : That sounds sharp in English, but it was not. Woman was a word of respect, and the phrase was  a gentle old id
+[OK   ] build-49-water-to-wine/n6
+    caption: And his mother, who knew him better than anyone alive, did not argue with him. She just turned to the servants
+    heard  : And his mother, who knew him better than anyone alive, did not argue with him.  She just turned to the servant
+[OK   ] build-49-water-to-wine/w5
+    caption: Whatsoever he saith unto you, do it.
+    heard  : Whatsoever he saith unto you, do it.
+[OK   ] build-49-water-to-wine/n6b
+    caption: Whatever he tells you, do it. That is all of it. She did not explain, and she did not stay to supervise. She h
+    heard  : Whatever he tells you, do it. That is all of it. She did not explain, and she did not stay to  supervise. She 
+[BAD  ] build-49-water-to-wine/n7
+    caption: Standing nearby were six big stone jars, the kind kept for the washing rituals, each one holding twenty or thi
+    heard  : Standing nearby were six big stone jars, the kind kept for the washing rituals, each one  holding 20 or 30 gal
+     !! 'twenty' -> heard '-'   (sound match 0%)
+     !! 'thirty' -> heard '-'   (sound match 0%)
+[minor] build-49-water-to-wine/jv7
+    caption: Fill the waterpots with water.
+    heard  : Fill the water pots with water.
+      ~ 'waterpots' -> heard 'water pots'   (sound match 100%)
+[OK   ] build-49-water-to-wine/n8
+    caption: Not wine. Water. The plainest thing there is, from the nearest well. The servants filled all six to the very t
+    heard  : Not wine. Water. The plainest thing there is, from the nearest well. The servants filled  all six to the very 
+[OK   ] build-49-water-to-wine/jv8
+    caption: Draw out now, and bear unto the governor of the feast.
+    heard  : Draw out now, and bear unto the governor of the feast.
+[minor] build-49-water-to-wine/n9
+    caption: No lightning. No words spoken over the jars. No show at all. He simply told them to dip a cup and carry it to 
+    heard  : No lightning. No words spoken over the jars. No show it all. He simply told them to dip a cup  and carry it to
+      ~ 'at' -> heard 'it'   (sound match 100%)
+[OK   ] build-49-water-to-wine/n10
+    caption: The steward tasted it and had no idea where it came from. He pulled the bridegroom aside, half laughing.
+    heard  : The steward tasted it and had no idea where it came from. He pulled the bridegroom aside, half laughing.
+[BAD  ] build-49-water-to-wine/s10
+    caption: Every man at the beginning doth set forth good wine; and when men have well drunk, then that which is worse: b
+    heard  : Every man at the beginning does set forth good wine,  and when men have well drunk, then that which is worse, 
+     !! 'doth' -> heard 'does'   (sound match 40%)
+[minor] build-49-water-to-wine/n10b
+    caption: Everybody serves the good wine first, he said, and brings out the cheap stuff once the guests have stopped pay
+    heard  : Everybody serves the good wine first, he said, and brings out the cheap stuff once the guests have stopped pay
+      ~ 'saved' -> heard 'save'   (sound match 80%)
+[BAD  ] build-49-water-to-wine/n11
+    caption: And that is the line to hold on to. He saved the best for last. Not a bare rescue, not just barely enough to g
+    heard  : And that is the line to hold on to. He saved the best for last. Not a bear rescue. Not just  barely enough to 
+      ~ 'bare' -> heard 'bear'   (sound match 100%)
+     !! 'poured' -> heard 'port'   (sound match 67%)
+[OK   ] build-49-water-to-wine/n12
+    caption: That is the God this story is showing you. His first move in the whole world was not to frighten anyone or set
+    heard  : That is the God this story is showing you. His first move in the whole world was not to frighten  anyone or se
+[OK   ] build-49-water-to-wine/card
+    caption: His very first miracle was making a good day even better, for people who never asked and never knew. If that i
+    heard  : His very first miracle was making a good day even better for people who never asked and never knew.  If that i
+
+4 segment(s) need an ear-check in build-49-water-to-wine

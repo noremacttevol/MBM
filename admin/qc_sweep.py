@@ -25,6 +25,8 @@ import qc_gate  # noqa: E402
 REPO = qc_gate.REPO
 MP = qc_gate.MP
 OUT = os.path.join(MP, "QC-STATUS.json")
+sys.path.insert(0, MP)
+from corpus import canonical_builds  # noqa: E402
 
 
 def build_num(path):
@@ -37,7 +39,7 @@ def main():
     deep = "--deep" in sys.argv
     only = {int(a) for a in args} if args else None
 
-    dirs = sorted(glob.glob(os.path.join(MP, "build-[0-9]*")))
+    dirs = [path for _number, path in sorted(canonical_builds(MP).items())]
     status = {}
     passed = blocked = 0
     for d in dirs:

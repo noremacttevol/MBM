@@ -1,0 +1,37 @@
+[OK   ] build-67-transfiguration/n0
+    caption: About a week after Jesus first told his friends plainly that he was going to Jerusalem to suffer and die, he t
+    heard  : About a week after Jesus first told his friends plainly that he was going to Jerusalem to suffer  and die, he 
+[BAD  ] build-67-transfiguration/n1
+    caption: And there, as he was praying, it happened. The gospel writers reach for words and almost run out. His face cha
+    heard  : And there, as he was praying, it happened.  The gospel writers reach for words and almost run out.  His face c
+     !! 'mark' -> heard 'marx'   (sound match 67%)
+[OK   ] build-67-transfiguration/n2
+    caption: This is worth sitting with. The disciples had been following a carpenter from Nazareth — dusty feet, tired eye
+    heard  : This is worth sitting with. The disciples had been following a carpenter from Nazareth,  dusty feet, tired eye
+[OK   ] build-67-transfiguration/n3
+    caption: And he was not alone. Two men from the old scriptures stood with him and talked with him: Moses, who gave the 
+    heard  : And he was not alone. Two men from the old scriptures stood with him and talked with him.  Moses, who gave the
+[OK   ] build-67-transfiguration/n4
+    caption: Peter, being Peter, could not just be still. He blurted out that they should build three shelters — one for Je
+    heard  : Peter, being Peter, could not just be still.  He blurted out that they should build three shelters, one for Je
+[OK   ] build-67-transfiguration/n5
+    caption: And while he was still talking, a bright cloud came down and wrapped the whole peak — the same kind of cloud t
+    heard  : And while he was still talking, a bright cloud came down and wrapped the whole peak,  the same kind of cloud t
+[OK   ] build-67-transfiguration/jv1
+    caption: This is my beloved Son, in whom I am well pleased; hear ye him.
+    heard  : This is my beloved son, in whom I am well pleased, hear ye him.
+[minor] build-67-transfiguration/n6
+    caption: Hear ye him. It was a gentle correction to Peter's plan. Do not build three equal shelters — there are not thr
+    heard  : Hear ye him. It was a gentle correction to Peter's plan. Do not build three equal shelters.  There are not thr
+      ~ 'here' -> heard 'hear'   (sound match 100%)
+[OK   ] build-67-transfiguration/j1
+    caption: Arise, and be not afraid.
+    heard  : Arise and be not afraid.
+[OK   ] build-67-transfiguration/n7
+    caption: He came over, and touched them, and told them not to be afraid. And when they lifted their eyes, the light had
+    heard  : He came over and touched them and told them not to be afraid. And when they lifted their eyes,  the light had 
+[OK   ] build-67-transfiguration/card
+    caption: The Father said it as plainly as it can be said: this is my Son — hear him. Whatever else is shouting at you, 
+    heard  : The father said it as plainly as it can be said,  This is my son, hear him. Whatever else is shouting at you, 
+
+1 segment(s) need an ear-check in build-67-transfiguration

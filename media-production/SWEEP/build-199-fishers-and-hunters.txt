@@ -1,0 +1,25 @@
+[OK   ] build-199-fishers-and-hunters/n0
+    caption: The prophet Jeremiah spoke a hard word to a people who would not turn. The LORD said He would send searchers —
+    heard  : The prophet Jeremiah spoke a hard word to a people who would not turn. The Lord said he would  send searchers,
+[minor] build-199-fishers-and-hunters/s1
+    caption: Behold, I will send for many fishers, saith the LORD, and they shall fish them; and after will I send for many
+    heard  : Behold, I will send for many fishers, set the Lord, and they shall fish them, and after  will I send for many 
+      ~ 'saith' -> heard 'set'   (sound match 80%)
+[OK   ] build-199-fishers-and-hunters/n1
+    caption: It is a picture of judgment — the nets and the hunt find everyone.
+    heard  : It is a picture of judgment, the nets, and the hunt find everyone.
+[OK   ] build-199-fishers-and-hunters/n2
+    caption: But hear the mercy underneath: the same God who sends the search is the one who wants them found, not lost. Ju
+    heard  : But hear the mercy underneath. The same God who sends the search is the one who wants them found,  not lost. J
+[OK   ] build-199-fishers-and-hunters/n3
+    caption: The point was never the catching — it was that a holy God would not let His people slip away unnamed. He seeks
+    heard  : The point was never the catching. It was that a holy God would not let his people slip away unnamed.  He seeks
+[minor] build-199-fishers-and-hunters/n4
+    caption: For us the picture flips into hope: the Fisher of men searches still, not to condemn, but to bring home whoeve
+    heard  : For us the picture flips into hope. The Fisher of Men's search is still, not to condemn, but to bring home who
+      ~ 'men searches' -> heard 'mens search is'   (sound match 100%)
+[OK   ] build-199-fishers-and-hunters/card
+    caption: The hunt was a wake-up, not a goodbye. He's still searching for you — let yourself be found.
+    heard  : The hunt was a wake-up, not a goodbye. He's still searching for you. Let yourself be found.  //
+
+0 segment(s) need an ear-check in build-199-fishers-and-hunters

@@ -51,7 +51,7 @@ ST5 = "s5-bread-that-lasts.jpeg"
 ST6 = "s6-given-for-the-world.jpeg"
 ST7 = "s7-come-hungry.jpeg"
 
-TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
+TEXT = {s[0]: (s[4] if len(s) >= 5 else s[2]) for s in make_narration.SEGMENTS}
 KJV = {"j1", "j2", "j3"}   # John 6:35/48/51, Jesus voice — cream italic
 # Long holds: every KJV line (reverent) + the marked silence after n1 (s3).
 LONG_HOLD = {"j1", "j2", "j3", "n1"}

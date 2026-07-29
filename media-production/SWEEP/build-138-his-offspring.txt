@@ -1,0 +1,30 @@
+[OK   ] build-138-his-offspring/n0a
+    caption: Paul stood in the middle of Athens, surrounded by statues to every god they could think of —
+    heard  : Paul stood in the middle of Athens, surrounded by statues to every god they could think of.  //  //  //  //  /
+[OK   ] build-138-his-offspring/n0b
+    caption: and one altar that simply said, To the unknown God.
+    heard  : and one altar that simply said to the unknown God.
+[OK   ] build-138-his-offspring/s23
+    caption: Whom therefore ye ignorantly worship, him declare I unto you.
+    heard  : whom therefore ye ignorantly worship him declare I unto you.
+[minor] build-138-his-offspring/n1
+    caption: The one you already worship without knowing his name, Paul told them — that is the one I have come to tell you
+    heard  : The one you already worship without knowing his name, Paul told them,  that is the one I have come to tell you
+      ~ 'theyd' -> heard 'they'   (sound match 86%)
+[OK   ] build-138-his-offspring/n2
+    caption: In Him, Paul said, we live and move and have our being. He even quoted their own poets: we are His children.
+    heard  : In him, Paul said, we live and move and have our being. He even quoted their own poets. We are his children.
+[OK   ] build-138-his-offspring/p1
+    caption: For in him we live, and move, and have our being; as certain also of your own poets have said, For we are also
+    heard  : For in him we live, and move, and have our being,  as certain also of your own poets have said,  for we are al
+[OK   ] build-138-his-offspring/n3
+    caption: Everything you are, you are inside him — and even your own writers said it: we come from him. God overlooked t
+    heard  : Everything you are, you are inside Him, and even your own writers said it.  We come from Him.  God overlooked 
+[OK   ] build-138-his-offspring/n4
+    caption: The unknown God was never unknown to Him. He had been near the whole time.
+    heard  : The unknown God was never unknown to him. He had been near the whole time.  //  //
+[OK   ] build-138-his-offspring/card
+    caption: You were made to be His. Reach out — He is not far.
+    heard  : You were made to be his. Reach out, he is not far.
+
+0 segment(s) need an ear-check in build-138-his-offspring

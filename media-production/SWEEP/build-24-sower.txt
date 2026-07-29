@@ -1,0 +1,69 @@
+[OK   ] build-24-sower/n1
+    caption: So many people crowded the shore to hear Jesus that he pushed a small boat out onto the water and taught them 
+    heard  : So many people crowded the shore to hear Jesus that he pushed a small boat out onto the water and taught them 
+[OK   ] build-24-sower/n2
+    caption: And he told them a story about a farmer, and four kinds of ground.
+    heard  : and he told them a story about a farmer and four kinds of ground.
+[OK   ] build-24-sower/s3
+    caption: And he spake many things unto them in parables, saying,
+    heard  : And he spake many things unto them in parables, saying,
+[minor] build-24-sower/j1
+    caption: Behold, a sower went forth to sow;
+    spoken : Behold, a sower went forth to soh;
+    heard  : Behold, a sewer went forth to sew.
+      ~ 'sower' -> heard 'sewer'   (sound match 100%)
+      ~ 'sow' -> heard 'sew'   (sound match 100%)
+[OK   ] build-24-sower/n3
+    caption: A farmer went out to scatter his seed. He did not measure it out grain by grain. He flung it wide, across ever
+    heard  : A farmer went out to scatter his seed. He did not measure it out grain by grain. He flung it wide,  across eve
+[minor] build-24-sower/j4
+    caption: And when he sowed, some seeds fell by the way side, and the fowls came and devoured them up:
+    spoken : And when he sohd, some seeds fell by the way side, and the fowls came and devoured them up:
+    heard  : And when he sewed, some seeds fell by the way side, and the fowls came and devoured them up.
+      ~ 'sowed' -> heard 'sewed'   (sound match 100%)
+[OK   ] build-24-sower/n4
+    caption: Some fell on the hard path, packed down by every foot that had ever walked it. It never sank in, and the birds
+    heard  : Some fell on the hard path, packed down by every foot that had ever walked it.  It never sank in, and the bird
+[minor] build-24-sower/n5
+    caption: That, he said, is a heart so hardened that the word never gets below the surface before it is snatched away.
+    heard  : That, he said, is a heart so hard in that the word never gets below the surface before  it is snatched away.
+      ~ 'hardened' -> heard 'hard in'   (sound match 89%)
+[OK   ] build-24-sower/n6
+    caption: Some fell on thin soil over rock. It sprang up fast, green and hopeful, but it had no root, and when the sun g
+    heard  : Some fell on thin soil over rock. It sprang up fast, green and hopeful, but it had no root,  and when the sun 
+[OK   ] build-24-sower/n7
+    caption: That is the heart that says yes with joy, but has nothing underneath to hold it when things get hard.
+    heard  : That is the heart that says yes with joy, but has nothing underneath to hold it when things get hard.
+[OK   ] build-24-sower/n8
+    caption: Some fell among thorns. The seed grew, but so did the weeds, and the worries and wants of this life crowded in
+    heard  : Some fell among thorns. The seed grew, but so did the weeds, and the worries and wants of this life crowded in
+[minor] build-24-sower/j8
+    caption: But other fell into good ground, and brought forth fruit, some an hundredfold, some sixtyfold, some thirtyfold
+    heard  : But other fell into good ground, and brought forth fruit, some in hundred fold, some sixty fold, some thirty f
+      ~ 'an hundredfold' -> heard 'in hundred fold'   (sound match 100%)
+      ~ 'sixtyfold' -> heard 'sixty fold'   (sound match 100%)
+      ~ 'thirtyfold' -> heard 'thirty fold'   (sound match 100%)
+[OK   ] build-24-sower/n9
+    caption: But some fell on good ground, open and soft and ready. It took root, and grew, and gave back a harvest many ti
+    heard  : but some fell on good ground, open and soft and ready. It took root and grew and gave back a harvest  many tim
+[OK   ] build-24-sower/j3
+    caption: But he that received seed into the good ground is he that heareth the word, and understandeth it; which also b
+    heard  : But he that received seed into the good ground is he that heareth the word and understandeth it,  which also b
+[OK   ] build-24-sower/n10
+    caption: The good ground is simply the heart that hears him, takes it in, and holds on. And it gives back far more than
+    heard  : The good ground is simply the heart that hears him, takes it in, and holds on.  And it gives back far more tha
+[OK   ] build-24-sower/n11
+    caption: Notice the farmer did not skip the hard path or the rocky places. He threw seed everywhere, on every heart, ho
+    heard  : Notice the farmer did not skip the hard path or the rocky places.  He threw seed everywhere on every heart,  h
+[OK   ] build-24-sower/j2
+    caption: Who hath ears to hear, let him hear.
+    heard  : Who hath ears to hear, let him hear?
+[minor] build-24-sower/n12
+    caption: And ground can change. A hard path can be broken up. Rocky soil can be cleared. That is how good he is. He kee
+    heard  : And ground can change. A hard path can be broken up. Rocky's soil can be cleared. That is how good he is.  He 
+      ~ 'rocky' -> heard 'rockys'   (sound match 89%)
+[OK   ] build-24-sower/card
+    caption: None of these soils are fixed forever. What is the soil of your heart today?
+    heard  : None of these soils are fixed forever. What is the soil of your heart today?  //  //
+
+0 segment(s) need an ear-check in build-24-sower

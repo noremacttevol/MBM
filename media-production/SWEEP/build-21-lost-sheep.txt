@@ -1,0 +1,65 @@
+[BAD  ] build-21-lost-sheep/n1
+    caption: The people everyone else had written off — the cheats, the outcasts, the ones with a past — kept crowding in c
+    heard  : The people everyone else had written off. The cheats, the outcasts, the ones with the past,  kept crowding in 
+     !! 'a' -> heard 'the'   (sound match 0%)
+[OK   ] build-21-lost-sheep/n2
+    caption: And the religious men muttered about it.
+    heard  : and the religious men muttered about it.
+[BAD  ] build-21-lost-sheep/s2
+    caption: This man receiveth sinners, and eateth with them.
+    heard  : This man receives sinners and eatseth with them.
+     !! 'receiveth' -> heard 'receives'   (sound match 67%)
+     !! 'eateth' -> heard 'eatseth'   (sound match 67%)
+[OK   ] build-21-lost-sheep/n2b
+    caption: This man welcomes sinners, they said, and even eats with them.
+    heard  : This man welcomes sinners, they said, and even eats with them.  //  //  //  //  //  //  //  //  //  //  //  //
+[OK   ] build-21-lost-sheep/n3
+    caption: So Jesus told them a story about how heaven really feels about one lost person.
+    heard  : So Jesus told them a story about how heaven really feels about one lost person.
+[BAD  ] build-21-lost-sheep/j1
+    caption: What man of you, having an hundred sheep, if he lose one of them, doth not leave the ninety and nine in the wi
+    heard  : What man of you, having an hundred sheep, if he lose one of them, does not leave the 90 and 9 in the wildernes
+     !! 'doth' -> heard 'does'   (sound match 40%)
+     !! 'ninety' -> heard '-'   (sound match 0%)
+     !! 'nine' -> heard '-'   (sound match 0%)
+      ~ 'find' -> heard 'finds'   (sound match 86%)
+[BAD  ] build-21-lost-sheep/n4
+    caption: Which of you, he asks, with a hundred sheep, would not leave the ninety-nine behind to go after the one that w
+    heard  : Which of you, he asks, with a hundred sheep, would not leave the 99 behind to go after the one that wandered o
+     !! 'ninetynine' -> heard '-'   (sound match 0%)
+[BAD  ] build-21-lost-sheep/n5
+    caption: He does not stand there counting what he still has. He leaves the ninety-nine behind to go out after the one t
+    heard  : He does not stand there counting what he still has. He leaves the 99 behind to go out after the one that is go
+     !! 'ninetynine' -> heard '-'   (sound match 0%)
+[OK   ] build-21-lost-sheep/n6
+    caption: He searches through the night, over the rocks and the ravines, calling into the dark, because to him that one 
+    heard  : He searches through the night, over the rocks and the ravines, calling into the dark,  because to him that one
+[OK   ] build-21-lost-sheep/n7
+    caption: And when he finds it — frightened, tangled in the thorns, too worn out to walk — he does not scold it, and he 
+    heard  : And when he finds it, frightened, tangled in the thorns, too worn out to walk, he does not scold it,  and he d
+[OK   ] build-21-lost-sheep/j2
+    caption: And when he hath found it, he layeth it on his shoulders, rejoicing.
+    heard  : And when he hath found it, he layeth it on his shoulders, rejoicing.
+[OK   ] build-21-lost-sheep/n8
+    caption: He lifts it up, lays it across his own shoulders, and carries it the whole way home, rejoicing. Not relieved. 
+    heard  : He lifts it up, lays it across his own shoulders, and carries it the whole way home, rejoicing.  Not relieved,
+[OK   ] build-21-lost-sheep/n9
+    caption: Then he calls everyone together — friends, neighbors, the whole village — and throws a celebration.
+    heard  : Then he calls everyone together, friends, neighbors, the whole village, and throws a celebration.
+[OK   ] build-21-lost-sheep/j3
+    caption: Rejoice with me; for I have found my sheep which was lost.
+    heard  : Rejoice with me, for I have found my sheep which was lost.
+[OK   ] build-21-lost-sheep/n9b
+    caption: Be glad with me, he tells them. I have found my sheep, the one that was lost. Not, I got my property back. My 
+    heard  : Be glad with me, he tells them. I have found my sheep, the one that was lost.  Not, I got my property back. My
+[OK   ] build-21-lost-sheep/j4
+    caption: I say unto you, that likewise joy shall be in heaven over one sinner that repenteth, more than over ninety and
+    heard  : I say unto you, that likewise joy shall be in heaven over one sinner that repenteth,  more than over ninety an
+[OK   ] build-21-lost-sheep/n10
+    caption: That is how good he is. Heaven throws a party over one person turning back. Not a lecture. Not a grudge. Joy.
+    heard  : That is how good he is. Heaven throws a party over one person turning back. Not a lecture. Not a  grudge. Joy.
+[OK   ] build-21-lost-sheep/card
+    caption: To him, you were never one of a crowd. Have you ever felt like the one who wandered too far to be worth coming
+    heard  : To him, you were never one of a crowd. Have you ever felt like the one who wandered too far to be  worth comin
+
+5 segment(s) need an ear-check in build-21-lost-sheep

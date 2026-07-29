@@ -1,0 +1,41 @@
+[OK   ] build-95-thief-on-the-cross/n0a
+    caption: Two criminals were crucified with Jesus, one on each side.
+    heard  : Two criminals were crucified with Jesus, one on each side.  //  //  //  //  //  //  //  //  //  //  //  //  //
+[BAD  ] build-95-thief-on-the-cross/s39
+    caption: If thou be Christ, save thyself and us.
+    heard  : If they'll be Christ, save thyself and us.
+     !! 'thou' -> heard 'theyll'   (sound match 67%)
+[minor] build-95-thief-on-the-cross/n0b
+    caption: If you're really the Christ, save yourself — and us. That was one of them, sneering at him from the next cross
+    heard  : If you're really the Christ, save yourself and us. That was one of them, sneering at him from the next crossov
+      ~ 'cross over' -> heard 'crossover'   (sound match 100%)
+[OK   ] build-95-thief-on-the-cross/s40
+    caption: Dost not thou fear God, seeing thou art in the same condemnation? And we indeed justly; for we receive the due
+    heard  : Dost not thou fear God, seeing thou art in the same condemnation?  And we indeed justly, for we receive the du
+[OK   ] build-95-thief-on-the-cross/n1
+    caption: But the other one stopped him. We're getting what we deserve, he said. This man has done nothing wrong.
+    heard  : But the other one stopped him.  We're getting what we deserve, he said.  This man has done nothing wrong.
+[OK   ] build-95-thief-on-the-cross/n2
+    caption: Then he turned his head toward Jesus and asked for the smallest thing he could think of.
+    heard  : Then he turned his head toward Jesus and asked for the smallest thing he could think of.
+[BAD  ] build-95-thief-on-the-cross/s42
+    caption: Lord, remember me when thou comest into thy kingdom.
+    heard  : Lord, remember me when now comest into thy kingdom.
+     !! 'thou' -> heard 'now'   (sound match 0%)
+[OK   ] build-95-thief-on-the-cross/n3
+    caption: Lord, remember me when you come into your kingdom. No good deeds to offer. No time left to fix his life. Just 
+    heard  : Lord, remember me when you come into your kingdom.  No good deeds to offer.  No time left to fix his life.  Ju
+[minor] build-95-thief-on-the-cross/j1
+    caption: Verily I say unto thee, To day shalt thou be with me in paradise.
+    spoken : Verily I say unto thee, today shalt thou be with me in paradise.
+    heard  : Verily I say unto thee, today shalt thou be with me in paradise.
+      ~ 'to day' -> heard 'today'   (sound match 100%)
+[minor] build-95-thief-on-the-cross/n4
+    caption: Today. Not someday, not after you've earned it. Today. The last-minute faith of a criminal was enough.
+    heard  : Today, not someday, not after you've earned it.  Today, the last minute faith of a criminal was enough.
+      ~ 'lastminute' -> heard 'last minute'   (sound match 100%)
+[OK   ] build-95-thief-on-the-cross/card
+    caption: He saved a man who had nothing to give but a request. It's never too late to ask.
+    heard  : He saved a man who had nothing to give but a request. It's never too late to ask.
+
+2 segment(s) need an ear-check in build-95-thief-on-the-cross

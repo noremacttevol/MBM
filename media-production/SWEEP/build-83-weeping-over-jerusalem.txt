@@ -1,0 +1,34 @@
+[OK   ] build-83-weeping-over-jerusalem/n0
+    caption: As Jesus came over the hill and the whole city of Jerusalem opened up in front of him, he did something the cr
+    heard  : As Jesus came over the hill and the whole city of Jerusalem opened up in front of him,  he did something the c
+[OK   ] build-83-weeping-over-jerusalem/n1a
+    caption: He stopped. Luke writes it in one plain sentence:
+    heard  : He stopped. Luke writes it in one plain sentence.
+[BAD  ] build-83-weeping-over-jerusalem/s41
+    caption: And when he was come near, he beheld the city, and wept over it.
+    heard  : And when he was come near, he beheld the city and leapt over it.
+     !! 'wept' -> heard 'leapt'   (sound match 67%)
+[OK   ] build-83-weeping-over-jerusalem/n1b
+    caption: He came close, he looked at the city, and he cried over it. Not for himself. For them.
+    heard  : He came close, he looked at the city and he cried over it, not for himself, for them.
+[minor] build-83-weeping-over-jerusalem/n2
+    caption: The peace they had been aching for had walked right up to their gates — and the city was too busy to see it.
+    heard  : The piece they had been aching for had walked right up to their gates, and the city was too busy to see it.
+      ~ 'peace' -> heard 'piece'   (sound match 100%)
+[OK   ] build-83-weeping-over-jerusalem/j1
+    caption: If thou hadst known, even thou, at least in this thy day, the things which belong unto thy peace! but now they
+    heard  : If thou hadst known, even thou, at least in this thy day, the things which belong unto thy peace.  But now the
+[OK   ] build-83-weeping-over-jerusalem/n2b
+    caption: If only you had known — even you, even today — what would have brought you peace. But now it's hidden from you
+    heard  : If only you had known, even you, even today, what would have brought you peace?  But now it's hidden from your
+[OK   ] build-83-weeping-over-jerusalem/n3a
+    caption: He could see what was coming for the city he loved — armies and ruin, a generation away.
+    heard  : He could see what was coming for the city he loved. Armies and ruin. A generation away.
+[OK   ] build-83-weeping-over-jerusalem/n3b
+    caption: His tears weren't anger. They were the grief of love that sees exactly what could have been.
+    heard  : His tears weren't anger. They were the grief of love that sees exactly what could have been.  //  //  //  //  
+[OK   ] build-83-weeping-over-jerusalem/card
+    caption: He wept because he loved the city that couldn't see him. He sees you clearly. Don't look away.
+    heard  : He wept because he loved the city that couldn't see him. He sees you clearly. Don't look away.
+
+1 segment(s) need an ear-check in build-83-weeping-over-jerusalem

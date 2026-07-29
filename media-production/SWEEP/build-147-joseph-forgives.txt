@@ -1,0 +1,38 @@
+[OK   ] build-147-joseph-forgives/n0a
+    caption: Years before, Joseph's own brothers had sold him into slavery out of jealousy.
+    heard  : Years before, Joseph's own brothers had sold him into slavery out of jealousy.
+[OK   ] build-147-joseph-forgives/n0b
+    caption: Now he was second only to Pharaoh in all Egypt.
+    heard  : Now he was second only to Pharaoh in all Egypt.
+[minor] build-147-joseph-forgives/n1
+    caption: When the brothers came begging for food in the famine, they didn't recognize the brother they'd betrayed. Then
+    heard  : When the brothers came begging for food in the famine, they didn't recognize the brother they  betrayed. Then 
+      ~ 'theyd' -> heard 'they'   (sound match 86%)
+[BAD  ] build-147-joseph-forgives/s0
+    caption: I am Joseph your brother, whom ye sold into Egypt.
+    heard  : I am Joseph your brother whom he sold into Egypt
+     !! 'ye' -> heard 'he'   (sound match 0%)
+[OK   ] build-147-joseph-forgives/n1b
+    caption: I'm Joseph. Your brother. The one you sold. He didn't soften it and he didn't skip it — he said the worst thin
+    heard  : I'm Joseph. Your brother. The one you sold. He didn't soften it, and he didn't skip it.  He said the worst thi
+[OK   ] build-147-joseph-forgives/s1
+    caption: Now therefore be not grieved, nor angry with yourselves, that ye sold me hither: for God did send me before yo
+    heard  : Now therefore be not grieved, nor angry with yourselves, that you sold me hither,  for God did send me before 
+[OK   ] build-147-joseph-forgives/n1c
+    caption: Don't tear yourselves up over it, he said. Don't be angry at yourselves that you sold me here. God sent me ahe
+    heard  : Don't tear yourselves up over it," he said.  Don't be angry at yourselves that you sold me here.  God sent me 
+[OK   ] build-147-joseph-forgives/n2
+    caption: Much later, when their father died and the brothers feared revenge, Joseph spoke the line that closes the woun
+    heard  : Much later, when their father died and the brothers feared revenge, Joseph spoke the line that closes the woun
+[BAD  ] build-147-joseph-forgives/s2
+    caption: But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, t
+    heard  : But as for you, he thought evil against me.  But God meant it unto good, to bring to pass,  as it is this day,
+     !! 'ye' -> heard 'he'   (sound match 0%)
+[OK   ] build-147-joseph-forgives/n3
+    caption: You meant it for evil, he told them — I'm not going to call it anything else. But God meant it for good, and l
+    heard  : You meant it for evil. He told them, I'm not going to call it anything else. But God meant it for good.  And l
+[OK   ] build-147-joseph-forgives/card
+    caption: What others meant for harm, God can mean for good. Let it go.
+    heard  : What others meant for harm. God can mean for good. Let it go.  //
+
+2 segment(s) need an ear-check in build-147-joseph-forgives

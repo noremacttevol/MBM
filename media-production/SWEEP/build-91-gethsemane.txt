@@ -1,0 +1,55 @@
+[OK   ] build-91-gethsemane/n1
+    caption: It was late on the night before he died. The supper was over, the songs were sung, and Jesus led his friends o
+    heard  : It was late on the night before he died. The supper was over, the songs were sung,  and Jesus led his friends 
+[OK   ] build-91-gethsemane/n2
+    caption: At the edge of the garden he stopped, and asked most of them to sit and wait while he went ahead to pray. He t
+    heard  : At the edge of the garden he stopped and asked most of them to sit and wait while he went ahead  to pray. He t
+[OK   ] build-91-gethsemane/n3
+    caption: He took only three with him — Peter, James, and John, the ones who had been closest to him. And as he walked, 
+    heard  : He took only three with him, Peter, James, and John, the ones who had been closest to him.  And as he walked, 
+[minor] build-91-gethsemane/jv38
+    caption: My soul is exceeding sorrowful, even unto death: tarry ye here, and watch with me.
+    heard  : My soul is exceeding sorrowful, even unto death.  Tariya here, and watch with me.
+      ~ 'tarry ye' -> heard 'tariya'   (sound match 100%)
+[OK   ] build-91-gethsemane/n4
+    caption: He did not hide it from them. He told them plainly how heavy his heart was — heavy enough, he said, to crush t
+    heard  : He did not hide it from them. He told them plainly how heavy his heart was.  Heavy enough, he said, to crush t
+[OK   ] build-91-gethsemane/n5
+    caption: Then he went on a little further by himself, about as far as a man can throw a stone, and he sank down onto th
+    heard  : Then he went on a little further by himself, about as far as a man can throw a stone,  and he sank down onto t
+[OK   ] build-91-gethsemane/jv42
+    caption: Father, if thou be willing, remove this cup from me: nevertheless not my will, but thine, be done.
+    heard  : Father, if thou be willing, remove this cup from me, nevertheless not my will, but thine be done.
+[OK   ] build-91-gethsemane/n6
+    caption: He asked, honestly, if there were any other way — if this cup of suffering could pass from him, let it pass. B
+    heard  : He asked, honestly, if there were any other way, if this cup of suffering could pass from  him, let it pass.  
+[OK   ] build-91-gethsemane/n7
+    caption: This was no calm, quiet moment. Luke, who was a physician, tells us that as he prayed in that anguish, his swe
+    heard  : This was no calm, quiet moment. Luke, who was a physician, tells us that as he prayed in that  anguish, his sw
+[OK   ] build-91-gethsemane/n8
+    caption: And heaven did not leave him there alone. An angel came to him out of the darkness and strengthened him. God's
+    heard  : and heaven did not leave him there alone. An angel came to him out of the darkness and strengthened  him. God'
+[OK   ] build-91-gethsemane/n9
+    caption: When he rose and came back to his three friends, he found them fast asleep. Not from carelessness — Luke says 
+    heard  : When he rose and came back to his three friends, he found them fast asleep, not from carelessness.  Luke says 
+[OK   ] build-91-gethsemane/jv41
+    caption: Watch and pray, that ye enter not into temptation: the spirit indeed is willing, but the flesh is weak.
+    heard  : Watch and pray that ye enter not into temptation, the Spirit indeed is willing, but the flesh is weak.
+[OK   ] build-91-gethsemane/n10
+    caption: He woke them, but he did not scold them. He understood exactly what they were made of. Their hearts longed to 
+    heard  : He woke them, but he did not scold them. He understood exactly what they were made of.  Their hearts longed to
+[OK   ] build-91-gethsemane/n11
+    caption: He went back and prayed again, and a third time, the very same words, until his heart was fully settled. The s
+    heard  : He went back and prayed again, and a third time, the very same words, until his heart was fully  settled. The 
+[OK   ] build-91-gethsemane/jv46
+    caption: Rise, let us be going: behold, he is at hand that doth betray me.
+    heard  : Rise, let us be going, behold, he is at hand that doth betray me.
+[minor] build-91-gethsemane/n12
+    caption: Across the valley, torches were already winding up the hill — the men who had come to arrest him. He did not r
+    heard  : Across the valley, torches were already winding up the hill. The men who had come to arrest him.  He did not r
+      ~ 'with in' -> heard 'within'   (sound match 100%)
+[OK   ] build-91-gethsemane/card
+    caption: On the hardest night of his life, Jesus asked his Father for another way — and then trusted him with the answe
+    heard  : On the hardest night of his life, Jesus asked his father for another way and then trusted him with the answer.
+
+0 segment(s) need an ear-check in build-91-gethsemane

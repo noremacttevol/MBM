@@ -1,0 +1,39 @@
+[OK   ] build-100-the-ascension/n0
+    caption: In his last moments with them, the disciples asked Jesus if he was going to restore the kingdom right then. He
+    heard  : In his last moments with them, the disciples asked Jesus if he was going to restore the  kingdom right then.  
+[OK   ] build-100-the-ascension/j0
+    caption: It is not for you to know the times or the seasons, which the Father hath put in his own power.
+    heard  : It is not for you to know the times or the seasons, which the Father hath put in his own power.
+[minor] build-100-the-ascension/j1
+    caption: But ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be witnesses unto me both
+    spoken : But ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be witnesses unto me both
+    heard  : But ye shall receive power, after that the Holy Ghost is come upon you,  and ye shall be witnesses unto me bot
+      ~ 'judaea' -> heard 'judea'   (sound match 100%)
+[OK   ] build-100-the-ascension/n1
+    caption: That is not a no. It is a redirection. The timing belongs to the Father, he told them, and it is not yours to 
+    heard  : That is not a no. It is a redirection. The timing belongs to the Father. He told them,  and it is not yours to
+[OK   ] build-100-the-ascension/n2a
+    caption: While they watched, he was lifted up,
+    heard  : While they watched, he was lifted up.
+[OK   ] build-100-the-ascension/n2b
+    caption: and a cloud received him out of their sight. They stood there staring into the sky, stunned.
+    heard  : and a cloud received him out of their sight. They stood there staring into the sky, stunned.
+[BAD  ] build-100-the-ascension/n3
+    caption: Then two figures in white stood beside them with a promise:
+    heard  : Then two figures and white stood beside them with a promise.
+     !! 'in' -> heard 'and'   (sound match 67%)
+[OK   ] build-100-the-ascension/s11
+    caption: Ye men of Galilee, why stand ye gazing up into heaven? this same Jesus, which is taken up from you into heaven
+    heard  : You men of Galilee, why stand ye gazing up into heaven?  This same Jesus, which is taken up from you into heav
+[BAD  ] build-100-the-ascension/n4
+    caption: This same Jesus, who was taken up from you into heaven, will come back the same way you've seen him go.
+    heard  : This same Jesus, who has taken up from you into heaven,  will come back the same way you've seen him go.
+     !! 'was' -> heard 'has'   (sound match 50%)
+[OK   ] build-100-the-ascension/n5
+    caption: He did not abandon them. He left them a mission, a promise, and the sure word that he's coming again.
+    heard  : He did not abandon them. He left them a mission, a promise, and the sure word that he's coming again.
+[OK   ] build-100-the-ascension/card
+    caption: He's coming back the same way he left. Until then, you're not alone — and you're not without purpose.
+    heard  : He's coming back the same way he left. Until then, you're not alone, and you're not without purpose.
+
+2 segment(s) need an ear-check in build-100-the-ascension

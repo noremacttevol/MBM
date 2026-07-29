@@ -1,0 +1,33 @@
+[OK   ] build-193-the-comforter/n0
+    caption: On the night before He died, Jesus sat with His disciples and told them they would not be left alone.
+    heard  : On the night before he died, Jesus sat with his disciples and told them they would not be left alone.
+[OK   ] build-193-the-comforter/j0
+    caption: I will not leave you comfortless: I will come to you.
+    heard  : I will not leave you comfortless, I will come to you.
+[minor] build-193-the-comforter/n0b
+    caption: I will not leave you comfortless. He was hours from the cross, and He was the one doing the comforting — promi
+    heard  : I will not leave you comfortless. He was ours from the cross. And he was the one doing the comforting.  Promis
+      ~ 'hours' -> heard 'ours'   (sound match 80%)
+[OK   ] build-193-the-comforter/n1
+    caption: He promised another Helper would come — the Holy Ghost, sent by the Father in His name.
+    heard  : He promised another helper would come, the Holy Ghost sent by the Father in his name.
+[OK   ] build-193-the-comforter/n2a
+    caption: This Helper would do two things: teach them everything,
+    heard  : This helper would do two things. Teach them everything.
+[OK   ] build-193-the-comforter/n2b
+    caption: and bring every word Jesus had spoken back to their minds.
+    heard  : and bring every word Jesus had spoken back to their minds.
+[OK   ] build-193-the-comforter/j1
+    caption: But the Comforter, which is the Holy Ghost, whom the Father will send in my name, he shall teach you all thing
+    heard  : But the comforter, which is the holy ghost, whom the Father will send in my name,  He shall teach you all thin
+[OK   ] build-193-the-comforter/n3a
+    caption: The promise still stands.
+    heard  : The promise still stands.
+[OK   ] build-193-the-comforter/n3b
+    caption: The Spirit who taught them then teaches everyone who listens now.
+    heard  : The Spirit who taught them then teaches everyone who listens now.  //  //  //  //
+[OK   ] build-193-the-comforter/card
+    caption: You are not left to remember alone. The Comforter is here — let Him teach you.
+    heard  : You are not left to remember alone. The comforter is here. Let him teach you.
+
+0 segment(s) need an ear-check in build-193-the-comforter

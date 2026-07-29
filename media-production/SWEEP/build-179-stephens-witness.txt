@@ -1,0 +1,36 @@
+[OK   ] build-179-stephens-witness/n0
+    caption: Stephen, full of the Holy Spirit, was dragged before the council for speaking the truth. He told them the whol
+    spoken : Steevun, full of the Holy Spirit, was dragged before the council for speaking the truth. He told them the whol
+    heard  : Stephen, full of the Holy Spirit, was dragged before the Council for speaking the truth.  He told them the who
+[OK   ] build-179-stephens-witness/n1
+    caption: But Stephen didn't look at his accusers. He looked up, and what he saw changed everything.
+    spoken : But Steevun didn't look at his accusers. He looked up, and what he saw changed everything.
+    heard  : But Stephen didn't look at his accusers. He looked up and what he saw changed everything.  //
+[OK   ] build-179-stephens-witness/n2
+    caption: He saw the glory of God — and Jesus, standing at the right hand of the Father. And he said so, out loud:
+    heard  : He saw the glory of God and Jesus standing at the right hand of the Father, and He said so out loud.
+[OK   ] build-179-stephens-witness/s1
+    caption: Behold, I see the heavens opened, and the Son of man standing on the right hand of God.
+    heard  : Behold, I see the heavens opened and the Son of Man standing on the right hand of God.
+[OK   ] build-179-stephens-witness/n3a
+    caption: Look, he told them — heaven is open, and the Son of man is standing at God's right hand. They would not hear i
+    heard  : Look, he told them, heaven is open and the Son of Man is standing at God's right hand.  They would not hear it
+[OK   ] build-179-stephens-witness/n3b
+    caption: But Stephen's face was the face of an angel — at peace, not afraid.
+    spoken : But Steevun's face was the face of an angel — at peace, not afraid.
+    heard  : But Stephen's face was the face of an angel, at peace, not afraid.
+[OK   ] build-179-stephens-witness/n4a
+    caption: Then he knelt down, with the stones still coming, and his last words asked mercy for the ones throwing them.
+    heard  : Then he knelt down, with the stones still coming, and his last words asked mercy for the ones throwing them.
+[OK   ] build-179-stephens-witness/s60
+    caption: Lord, lay not this sin to their charge.
+    heard  : Lord, lay not this sin to their charge.
+[OK   ] build-179-stephens-witness/n4b
+    caption: Don't hold this against them, he prayed. And then he fell asleep.
+    heard  : Don't hold this against them, he prayed. And then he fell asleep.
+[minor] build-179-stephens-witness/card
+    caption: He saw the Son of man standing to receive him. You can face your end with that same peace.
+    heard  : He saw the Son of Man standing to receive him. You can face your end with that same piece.
+      ~ 'peace' -> heard 'piece'   (sound match 100%)
+
+0 segment(s) need an ear-check in build-179-stephens-witness

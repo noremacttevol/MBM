@@ -1,0 +1,67 @@
+[minor] build-135-rainbow-covenant/n1
+    caption: The rain had stopped. For the better part of a year, one family and a great wooden boat full of animals had ri
+    heard  : The rain had stopped. For the better part of a year, one family and a great wooden boat full of  animals had r
+      ~ 'ark sat' -> heard 'arkset'   (sound match 100%)
+      ~ 'new' -> heard 'knew'   (sound match 80%)
+[OK   ] build-135-rainbow-covenant/n2
+    caption: Noah and his family stepped out onto wet grass under an open sky. There were eight of them, and everything the
+    heard  : Noah and his family stepped out onto wet grass under an open sky.  There were eight of them, and everything th
+[OK   ] build-135-rainbow-covenant/gv91
+    caption: Be fruitful, and multiply, and replenish the earth.
+    heard  : Be fruitful, and multiply, and replenish the Earth.
+[BAD  ] build-135-rainbow-covenant/n2b
+    caption: Fill it back up. Go live. Eight people standing in the wreckage of a drowned world, and God's opening word to 
+    heard  : Philip back up, go live. Eight people standing in the wreckage of a drowned world,  and God's opening word to 
+     !! 'fill it' -> heard 'philip'   (sound match 67%)
+      ~ 'it' -> heard 'at'   (sound match 100%)
+[OK   ] build-135-rainbow-covenant/n3
+    caption: Here is the first thing Noah built in the new world. Not a house. Not a fence. He gathered stones and built an
+    heard  : Here is the first thing Noah built in the new world. Not a house, not a fence. He gathered stones  and built a
+[minor] build-135-rainbow-covenant/jv22
+    caption: While the earth remaineth, seedtime and harvest, and cold and heat, and summer and winter, and day and night s
+    heard  : While the earth remaineth, seed time and harvest, and cold and heat, and summer and winter, and day and night 
+      ~ 'seedtime' -> heard 'seed time'   (sound match 100%)
+[OK   ] build-135-rainbow-covenant/n4
+    caption: Planting time and gathering time, winter and summer, morning and night. The world would keep its rhythm for as
+    heard  : Planting time and gathering time, winter and summer, morning and night. The world would keep its  rhythm for a
+[OK   ] build-135-rainbow-covenant/n5
+    caption: Think about the first time clouds rolled in after the flood. For Noah's family, a dark sky was no longer just 
+    heard  : Think about the first time clouds rolled in after the flood. For Noah's family, a dark sky was no  longer just
+[OK   ] build-135-rainbow-covenant/jv9
+    caption: And I, behold, I establish my covenant with you, and with your seed after you.
+    heard  : And I, behold, I establish my covenant with you, and with your seed after you.
+[OK   ] build-135-rainbow-covenant/n6
+    caption: A covenant is the Bible's most serious word for a promise, one that binds the person who makes it. And notice 
+    heard  : A covenant is the Bible's most serious word for a promise, one that binds the person who makes it.  And notice
+[OK   ] build-135-rainbow-covenant/jv11
+    caption: And I will establish my covenant with you; neither shall all flesh be cut off any more by the waters of a floo
+    heard  : And I will establish my covenant with you.  Neither shall all flesh be cut off any more by the waters of a flo
+[OK   ] build-135-rainbow-covenant/n7
+    caption: Never again. That is the whole promise, with no conditions attached and no expiration date. And then God does 
+    heard  : Never again. That is the whole promise, with no conditions attached and no expiration date.  And then God does
+[OK   ] build-135-rainbow-covenant/jv13
+    caption: I do set my bow in the cloud, and it shall be for a token of a covenant between me and the earth.
+    spoken : I do set my boh in the cloud, and it shall be for a token of a covenant between me and the earth.
+    heard  : I do set my bow in the cloud, and it shall be for a token of a covenant between me and the Earth.
+[OK   ] build-135-rainbow-covenant/n8
+    caption: The word there is simply bow, and it is the same word the Bible uses for a battle bow, a weapon of war. God ha
+    spoken : The word there is simply boh, and it is the same word the Bible uses for a battle boh, a weapon of war. God ha
+    heard  : The word there is simply bow, and it is the same word the Bible uses for a battle bow,  a weapon of war. God h
+[OK   ] build-135-rainbow-covenant/jv16
+    caption: And the bow shall be in the cloud; and I will look upon it, that I may remember the everlasting covenant betwe
+    spoken : And the boh shall be in the cloud; and I will look upon it, that I may remember the everlasting covenant betwe
+    heard  : And the bow shall be in the cloud, and I will look upon it,  that I may remember the everlasting covenant betw
+[OK   ] build-135-rainbow-covenant/n9
+    caption: Did you catch who the sign is for? God set the reminder where he would see it. The rainbow is the string God t
+    heard  : Did you catch who the sign is for? God set the reminder where he would see it. The rainbow is the  string God 
+[OK   ] build-135-rainbow-covenant/n10
+    caption: And the promise held. Rain has come and gone for thousands of years since that mountainside, and when the show
+    heard  : And the promise held. Rain has come and gone for thousands of years since that mountainside,  and when the sho
+[OK   ] build-135-rainbow-covenant/n11
+    caption: This is the God the whole story has been about. A God who knows exactly what frightens his people, and answers
+    heard  : This is the God the whole story has been about. A God who knows exactly what frightens his people  and answers
+[OK   ] build-135-rainbow-covenant/card
+    caption: After the flood, God made a one-way promise, and hung the reminder where he himself would see it. The next rai
+    heard  : After the flood, God made a one-way promise and hung the reminder where He Himself would see it.  The next rai
+
+1 segment(s) need an ear-check in build-135-rainbow-covenant

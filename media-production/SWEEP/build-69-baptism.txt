@@ -1,0 +1,54 @@
+[minor] build-69-baptism/n0
+    caption: Down at the Jordan river, John was baptizing. He was rough as the desert he came from — a coat of camel's hair
+    heard  : Down at the Jordan River, John was baptizing. He was rough as the desert he came from,  a coat of camel's hair
+      ~ 'countryside' -> heard 'country side'   (sound match 100%)
+      ~ 'lined' -> heard 'line'   (sound match 80%)
+[OK   ] build-69-baptism/n1
+    caption: Jesus walked from Galilee — days on foot — specifically to be baptized by John. And John, the wild man who was
+    heard  : Jesus walked from Galilee, days on foot, specifically to be baptized by John.  And John, the wild man who was 
+[BAD  ] build-69-baptism/s14
+    caption: I have need to be baptized of thee, and comest thou to me?
+    heard  : I have need to be baptized with thee, and coma-style to me?
+     !! 'of' -> heard 'with'   (sound match 0%)
+     !! 'comest thou' -> heard 'comastyle'   (sound match 73%)
+[OK   ] build-69-baptism/n1b
+    caption: I'm the one who needs what you have, he said — and you're coming to me? It should be the other way around. You
+    heard  : I'm the one who needs what you have," he said.  And you're coming to me?  It should be the other way around.  
+[OK   ] build-69-baptism/n2
+    caption: And John was right — it did not make sense. Baptism was for washing sins away, and Jesus had none. So listen c
+    heard  : And John was right, it did not make sense. Baptism was for washing sins away, and Jesus had none.  So listen c
+[minor] build-69-baptism/j1
+    caption: Suffer it to be so now: for thus it becometh us to fulfil all righteousness.
+    heard  : Suffer it to be so now, for thus it become a thus to fulfill all righteousness.
+      ~ 'becometh us' -> heard 'become a thus'   (sound match 100%)
+      ~ 'fulfil' -> heard 'fulfill'   (sound match 100%)
+[OK   ] build-69-baptism/n3
+    caption: Let it happen, John — this is how we do everything right, together. He was not washing anything away. He was s
+    heard  : Let it happen. John, this is how we do everything right together. He was not washing anything away.  He was st
+[OK   ] build-69-baptism/n4
+    caption: So John baptized him — lowered him under the water of the Jordan, and raised him up again. And as Jesus came s
+    heard  : So John baptized him, lowered him under the water of the Jordan, and raised him up again.  And as Jesus came s
+[OK   ] build-69-baptism/n5
+    caption: The Spirit of God came down through the opened heavens like a dove, gentle as falling light, and rested on him
+    heard  : The Spirit of God came down through the opened heavens like a dove, gentle as falling light,  and rested on hi
+[BAD  ] build-69-baptism/s17
+    caption: And lo a voice from heaven, saying,
+    heard  : and lower voice from heaven saying.
+     !! 'lo a' -> heard 'lower'   (sound match 50%)
+[OK   ] build-69-baptism/jv1
+    caption: This is my beloved Son, in whom I am well pleased.
+    heard  : This is my beloved son, in whom I am well pleased.
+[BAD  ] build-69-baptism/n6
+    caption: Stand on that riverbank for a second. The Son is standing in the water. The Spirit is descending upon him. The
+    heard  : Stand on that riverbank for a second. The sun is standing in the water. The Spirit is descending upon him.  Th
+      ~ 'son' -> heard 'sun'   (sound match 100%)
+     !! 'three' -> heard '-'   (sound match 0%)
+[OK   ] build-69-baptism/n7
+    caption: Jesus began everything from that sentence. Not working TOWARD being loved — working FROM it. And the doorway h
+    heard  : Jesus began everything from that sentence, not working toward being loved, working from it.  And the doorway H
+[BAD  ] build-69-baptism/card
+    caption: He walked through the door first, so you would never face one he hadn't. The way in is still open.
+    heard  : He walked through the door first, so you would never face when he hadn't. The way in is still open.
+     !! 'one' -> heard 'when'   (sound match 67%)
+
+4 segment(s) need an ear-check in build-69-baptism

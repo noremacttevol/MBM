@@ -1,0 +1,61 @@
+[OK   ] build-12-bartimaeus/n0
+    caption: The road out of Jericho, on a loud and dusty day. Jericho was the last stop before the climb up to Jerusalem, 
+    heard  : The road out of Jericho on a loud and dusty day. Jericho was the last stop before the climb  up to Jerusalem, 
+[OK   ] build-12-bartimaeus/n1
+    caption: But this day the sound was different. A procession was coming out of the city — a moving wall of voices — and 
+    heard  : But this day the sound was different. A procession was coming out of the city, a moving wall of voices,  and i
+[OK   ] build-12-bartimaeus/s47
+    caption: Jesus, thou Son of David, have mercy on me.
+    heard  : Jesus, thou son of David, have mercy on me.
+[minor] build-12-bartimaeus/n2
+    caption: So he used it. He pulled in all the air his body would hold and shouted: Jesus, Son of David — have mercy on m
+    heard  : So he used it. He pulled in all the air his body would hold and shout it. Jesus, son of David,  have mercy on 
+      ~ 'shouted' -> heard 'shout it'   (sound match 86%)
+[BAD  ] build-12-bartimaeus/n3
+    caption: And the crowd turned on him. Many voices — Mark says many — told one desperate man to be quiet. Understand why
+    heard  : and the crowd turned on him. Many voices, Marx says many, told one desperate man to be quiet,  understand why.
+     !! 'mark' -> heard 'marx'   (sound match 67%)
+[OK   ] build-12-bartimaeus/n4
+    caption: He shouted louder.
+    heard  : He shouted louder.
+[OK   ] build-12-bartimaeus/n5
+    caption: And Jesus stood still. The whole procession stopped around him — hundreds of feet going quiet in the dust. Rem
+    heard  : And Jesus stood still. The whole procession stopped around him, hundreds of feet going quiet in the dust.  Rem
+[BAD  ] build-12-bartimaeus/s49
+    caption: Be of good comfort, rise; he calleth thee.
+    heard  : Be of good comfort rise, he callathy.
+     !! 'calleth thee' -> heard 'callathy'   (sound match 73%)
+[BAD  ] build-12-bartimaeus/n6
+    caption: And listen to the crowd change its tune. The same voices that had been hushing him now crowded in with: take h
+    heard  : and listen to the crowd change its tune. The same voices that have been hushing him now crowded in  with. Take
+     !! 'had' -> heard 'have'   (sound match 50%)
+[OK   ] build-12-bartimaeus/n7
+    caption: What happened next is one small verse, and it holds the whole man. He threw off his cloak, jumped up, and came
+    heard  : What happened next is one small verse, and it holds the whole man. He threw off his cloak,  jumped up, and cam
+[OK   ] build-12-bartimaeus/n8
+    caption: So he came, hands out in front of him, through a corridor of staring people, and stood breathing hard in front
+    heard  : So he came, hands out in front of him, through a corridor of staring people,  and stood breathing hard in fron
+[minor] build-12-bartimaeus/j1
+    caption: What wilt thou that I should do unto thee?
+    heard  : What will thou that I should do unto thee?
+      ~ 'wilt' -> heard 'will'   (sound match 80%)
+[OK   ] build-12-bartimaeus/n9
+    caption: As if it weren't obvious. A blind man, standing in a beggar's tunic. But he asked anyway — because he wanted t
+    heard  : As if it weren't obvious, a blind man standing in a beggar's tunic. But he asked anyway,  because he wanted th
+[OK   ] build-12-bartimaeus/s51
+    caption: Lord, that I might receive my sight.
+    heard  : Lord, that I might receive my sight.
+[OK   ] build-12-bartimaeus/j2
+    caption: Go thy way; thy faith hath made thee whole.
+    heard  : Go thy way, thy faith hath made thee whole.
+[OK   ] build-12-bartimaeus/n10
+    caption: And immediately, Mark says, he saw. The clouds in his eyes cleared like silt settling out of water, and the fi
+    heard  : And immediately, Mark says he saw the clouds in his eyes cleared like silt settling out of water,  and the fir
+[OK   ] build-12-bartimaeus/n11
+    caption: And here is the ending Mark wants you to catch. Free to go anywhere, with brand new eyes and no cloak to go ba
+    heard  : And here is the ending Mark wants you to catch. Free to go anywhere. With brand new eyes and no  cloak to go b
+[OK   ] build-12-bartimaeus/n12
+    caption: The crowd told him to keep quiet, and he shouted louder. What is the thing you would shout for, if no one coul
+    heard  : The crowd told him to keep quiet, and he shouted louder.  What is the thing you would shout for if no one coul
+
+3 segment(s) need an ear-check in build-12-bartimaeus

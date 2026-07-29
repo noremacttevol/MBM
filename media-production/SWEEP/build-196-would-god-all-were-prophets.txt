@@ -1,0 +1,37 @@
+[OK   ] build-196-would-god-all-were-prophets/n0
+    caption: The weight of leading a whole nation was crushing Moses. He told the LORD he could not carry the people alone,
+    heard  : The weight of leading a whole nation was crushing Moses.  He told the Lord he could not carry the people alone
+[BAD  ] build-196-would-god-all-were-prophets/n1a
+    caption: So God told Moses to gather seventy trusted men.
+    heard  : So God told Moses to gather 70 trusted men.
+     !! 'seventy' -> heard '-'   (sound match 0%)
+[OK   ] build-196-would-god-all-were-prophets/n1b
+    caption: He would take some of the Spirit that rested on Moses and share it with them, and together they would help bea
+    heard  : He would take some of the Spirit that rested on Moses and share it with them,  and together they would help be
+[BAD  ] build-196-would-god-all-were-prophets/n2
+    caption: When the Spirit came down on those seventy, they began to speak God's words. But two men, Eldad and Medad, had
+    heard  : When the Spirit came down on those 70s, they began to speak God's words. But two men,  Eldad and Medad, had st
+     !! 'seventy' -> heard 's'   (sound match 33%)
+[OK   ] build-196-would-god-all-were-prophets/n3a
+    caption: A runner hurried to Moses with the news.
+    heard  : A runner hurried to Moses with the news.
+[minor] build-196-would-god-all-were-prophets/n3b
+    caption: Joshua, Moses's right-hand man, was worried — stop them, he said. That is not how it is supposed to work.
+    heard  : Joshua, Moses' right-hand man, was worried, stopped them, he said.  That is not how it is supposed to work.
+      ~ 'mosess' -> heard 'moses'   (sound match 100%)
+      ~ 'stop' -> heard 'stopped'   (sound match 86%)
+[OK   ] build-196-would-god-all-were-prophets/s0
+    caption: My lord Moses, forbid them.
+    heard  : My Lord Moses forbid them.
+[BAD  ] build-196-would-god-all-were-prophets/s1
+    caption: Enviest thou me for my sake? would God that all the LORD's people were prophets, and that the LORD would put h
+    heard  : and the asthami for my sake,  would God that all the Lord's people were prophets,  and that the Lord would put
+     !! 'enviest thou me' -> heard 'and the asthami'   (sound match 71%)
+[OK   ] build-196-would-god-all-were-prophets/n4
+    caption: One of the most generous answers in all of scripture. Moses did not guard the gift — he wished it wider.
+    heard  : One of the most generous answers in all of scripture. Moses did not guard the gift. He  wished it wider.
+[OK   ] build-196-would-god-all-were-prophets/card
+    caption: Moses did not guard the gift — he wished it for everyone. The same Spirit is offered to you. Ask, and receive.
+    heard  : Moses did not guard the gift, he wished it for everyone.  The same spirit is offered to you.  Ask and receive.
+
+3 segment(s) need an ear-check in build-196-would-god-all-were-prophets

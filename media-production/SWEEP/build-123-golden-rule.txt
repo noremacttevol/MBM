@@ -1,0 +1,38 @@
+[OK   ] build-123-golden-rule/n1
+    caption: Of everything Jesus taught on that hillside, he gave the whole law of how to treat each other in a single sent
+    heard  : Of everything Jesus taught on that hillside, he gave the whole law of how to treat each other  in a single sen
+[BAD  ] build-123-golden-rule/jvA
+    caption: Therefore all things whatsoever ye would that men should do to you, do ye even so to them: for this is the law
+    heard  : Therefore all things whatsoever you would that men should do to you, do even so to them, for this is the law a
+     !! 'ye' -> heard '-'   (sound match 0%)
+[minor] build-123-golden-rule/n2
+    caption: However you wish people would treat you, he said — go and treat them that way. That is the law and the prophet
+    heard  : However you wish people would treat you, he said, go and treat them that way. That is the law and  the profits
+      ~ 'prophets' -> heard 'profits'   (sound match 100%)
+[OK   ] build-123-golden-rule/n3
+    caption: So Jesus turns it outward. The bread you wish someone would hand you when you are empty — hand it to the next 
+    heard  : So Jesus turns it outward.  The bread you wish someone would hand you when you are empty.  Hand it to the next
+[OK   ] build-123-golden-rule/n4
+    caption: The cool drink you would want on a long, dusty road — be the one who holds it out to the stranger before he ev
+    heard  : The cool drink you would want on a long, dusty road. Be the one who holds it out to the stranger  before he ev
+[OK   ] build-123-golden-rule/n5
+    caption: And the mercy you would ache for if it were your own mistake laid bare — give that first, and give it fully, t
+    heard  : And the mercy you would ache for if it were your own mistake laid bare. Give that first,  and give it fully to
+[OK   ] build-123-golden-rule/n6
+    caption: When someone stumbles on the road ahead of you, do not step around him. Lift him the way you would want to be 
+    heard  : When someone stumbles on the road ahead of you, do not step around him. Lift him the way you would  want to be
+[minor] build-123-golden-rule/jvB
+    caption: Give, and it shall be given unto you; good measure, pressed down, and shaken together, and running over, shall
+    heard  : Give, and it shall be given unto you. Good measure, press down, and shaken together, and running over, shall m
+      ~ 'pressed' -> heard 'press'   (sound match 86%)
+[OK   ] build-123-golden-rule/n7
+    caption: Give, he said, and it will be given back to you — a full measure, packed down, shaken together to make room fo
+    heard  : Give, he said, and it will be given back to you, a full measure, packed down, shaken together  to make room fo
+[OK   ] build-123-golden-rule/n8
+    caption: The golden rule is not a weight Jesus laid on us. It is the shortest way to everything the law was ever trying
+    heard  : The golden rule is not a weight Jesus laid on us. It is the shortest way to everything the law was  ever tryin
+[OK   ] build-123-golden-rule/card
+    caption: Jesus folded the whole law into one line you can start living today. Before you decide how to treat someone, p
+    heard  : Jesus folded the whole law into one line, you can start living today.  Before you decide how to treat someone,
+
+1 segment(s) need an ear-check in build-123-golden-rule

@@ -1,0 +1,30 @@
+[OK   ] build-190-faith-without-works/n0
+    caption: James wrote plainly to the early church: a faith that stays only in the head is already dead.
+    heard  : James wrote plainly to the early church. A faith that stays only in the head is already dead.
+[OK   ] build-190-faith-without-works/n1
+    caption: He asked the sharp question — if a brother or sister has no clothes and no food, and you wish them well but gi
+    heard  : He asked the sharp question, if a brother or sister has no clothes and no food, and you wish them well, but gi
+[OK   ] build-190-faith-without-works/s1
+    caption: Even so faith, if it hath not works, is dead, being alone.
+    heard  : Even so faith, if it hath not works, is dead being alone.
+[OK   ] build-190-faith-without-works/n2
+    caption: Then he pointed to Abraham, who showed his faith by what he did — offering his son on the altar.
+    heard  : Then he pointed to Abraham, who showed his faith by what he did, offering his son on the altar.
+[OK   ] build-190-faith-without-works/n3
+    caption: And to Rahab, who hid the spies and was counted righteous by her action, not just her words.
+    heard  : and to Rahab, who hid the spies and was counted righteous by her action, not just her words.
+[OK   ] build-190-faith-without-works/s26
+    caption: For as the body without the spirit is dead, so faith without works is dead also.
+    heard  : For as the body without the Spirit is dead, so faith without works is dead also.
+[OK   ] build-190-faith-without-works/n4a
+    caption: Belief that never moves a muscle isn't belief yet.
+    heard  : Belief that never moves a muscle isn't belief yet.
+[OK   ] build-190-faith-without-works/n4b
+    caption: Faith and life belong together.
+    heard  : Faith and life belong together.
+[BAD  ] build-190-faith-without-works/card
+    caption: Real faith reaches out a hand. Let yours move — he sees every small, true thing you do.
+    heard  : Real faith reaches out of hand. Let yours move. He sees every small, true thing you do.
+     !! 'a' -> heard 'of'   (sound match 0%)
+
+1 segment(s) need an ear-check in build-190-faith-without-works

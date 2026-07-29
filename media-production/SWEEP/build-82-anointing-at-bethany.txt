@@ -1,0 +1,64 @@
+[OK   ] build-82-anointing-at-bethany/n0a
+    caption: In a house in Bethany, days before the end, a woman came to Jesus at the table.
+    heard  : In a house in Bethany, days before the end, a woman came to Jesus at the table.
+[OK   ] build-82-anointing-at-bethany/n0b
+    caption: She carried an alabaster jar of pure, costly perfume.
+    heard  : She carried an alabaster jar of pure, costly perfume.  //  //  //  //  //  //  //  //  //  //  //  //  //  // 
+[OK   ] build-82-anointing-at-bethany/n1a
+    caption: She broke the jar open,
+    heard  : She broke the jar open.
+[OK   ] build-82-anointing-at-bethany/n1b
+    caption: and poured all of it over his head — a year's wages, gone in a moment.
+    heard  : and poured all of it over his head, a year's wages gone in a moment.
+[OK   ] build-82-anointing-at-bethany/n2
+    caption: Some of the men at the table were furious. Mark writes down what they said:
+    heard  : Some of the men at the table were furious. Mark writes down what they said.  //  //
+[BAD  ] build-82-anointing-at-bethany/s4
+    caption: Why was this waste of the ointment made? For it might have been sold for more than three hundred pence, and ha
+    heard  : Why was this waste of the ointment made?  For it might have been sold for more than 300 pence, and have been g
+     !! 'three hundred' -> heard '-'   (sound match 0%)
+[BAD  ] build-82-anointing-at-bethany/n2b
+    caption: Why has this been wasted? they said. It could have been sold for more than three hundred silver coins — nearly
+    heard  : Why has this been wasted? They said it could have been sold for more than 300 silver coins,  nearly a year's p
+     !! 'three hundred' -> heard '-'   (sound match 0%)
+[OK   ] build-82-anointing-at-bethany/n3
+    caption: Jesus stopped them cold, and defended her.
+    heard  : Jesus stopped them cold and defended her.
+[OK   ] build-82-anointing-at-bethany/j1
+    caption: Let her alone; why trouble ye her? she hath wrought a good work on me.
+    heard  : Let her alone, why trouble ye her?  She hath wrought a good work on me.
+[OK   ] build-82-anointing-at-bethany/n3b
+    caption: Leave her alone. Why are you giving her a hard time? She has done a beautiful thing for me. Not a wasteful thi
+    heard  : Leave her alone. Why are you giving her a hard time? She has done a beautiful thing for me.  Not a wasteful th
+[OK   ] build-82-anointing-at-bethany/n4
+    caption: And then he answered the argument about the money directly:
+    heard  : And then he answered the argument about the money directly.
+[minor] build-82-anointing-at-bethany/j1b
+    caption: For ye have the poor with you always, and whensoever ye will ye may do them good: but me ye have not always.
+    heard  : For ye have the poor with you always, and when so ever ye may do them good, but me ye have not always.
+      ~ 'whensoever ye will' -> heard 'when so ever'   (sound match 77%)
+[OK   ] build-82-anointing-at-bethany/n4b
+    caption: You will always have the poor with you, he said, and any time you want to, you can do good for them. But you w
+    heard  : You will always have the poor with you," he said, and any time you want to, you can do good for them.  But you
+[BAD  ] build-82-anointing-at-bethany/j2
+    caption: She hath done what she could: she is come aforehand to anoint my body to the burying.
+    heard  : She hath done what she could, she has come a forehand to anoint my body to the burying.
+     !! 'is' -> heard 'has'   (sound match 67%)
+      ~ 'aforehand' -> heard 'a forehand'   (sound match 100%)
+[OK   ] build-82-anointing-at-bethany/n4c
+    caption: She did what she was able to do, he said. She has come ahead of time to prepare my body for burial. Nobody els
+    heard  : She did what she was able to do, he said. She has come ahead of time to prepare my body for burial.  Nobody el
+[OK   ] build-82-anointing-at-bethany/n5
+    caption: Whether she fully knew it or not, she was the only one in that room who had prepared him for what was coming.
+    heard  : Whether she fully knew it or not, she was the only one in that room who had prepared him for what was coming.
+[OK   ] build-82-anointing-at-bethany/j3
+    caption: Verily I say unto you, Wheresoever this gospel shall be preached throughout the whole world, this also that sh
+    heard  : Verily I say unto you, wheresoever this gospel shall be preached throughout the whole world,  this also that s
+[OK   ] build-82-anointing-at-bethany/n6
+    caption: Wherever this good news is told, anywhere in the world, what she did today will be told with it, so she is rem
+    heard  : Wherever this good news is told, anywhere in the world, what she did today will be told with it.  So she is re
+[OK   ] build-82-anointing-at-bethany/card
+    caption: She gave him her best and he called it beautiful. What would it mean to stop holding back from him?
+    heard  : She gave him her best and he called it beautiful. What would it mean to stop holding back from him?  //
+
+3 segment(s) need an ear-check in build-82-anointing-at-bethany

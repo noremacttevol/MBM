@@ -1,0 +1,39 @@
+[OK   ] build-146-vine-and-branches/n0a
+    caption: Jesus used a picture His friends would know —
+    heard  : Jesus used a picture his friends would know.
+[OK   ] build-146-vine-and-branches/n0b
+    caption: a vine, and the branches that grow from it.
+    heard  : a vine and the branches that grow from it.
+[OK   ] build-146-vine-and-branches/j0
+    caption: Abide in me, and I in you. As the branch cannot bear fruit of itself, except it abide in the vine; no more can
+    heard  : Abide in me and I in you.  As the branch cannot bear fruit of itself,  except it abide in the vine,  no more c
+[OK   ] build-146-vine-and-branches/n0d
+    caption: Stay in me, he said, and I will stay in you. A branch cannot make fruit on its own. It has never once done it.
+    heard  : Stay in me. He said and I will stay in you a branch cannot make fruit on its own  It has never once done it al
+[OK   ] build-146-vine-and-branches/j1a
+    caption: I am the vine, ye are the branches:
+    heard  : I am the vine, ye are the branches.
+[OK   ] build-146-vine-and-branches/n0c
+    caption: I am the vine, he said. You are the branches. Not visitors. Not hired hands. Branches — part of the same livin
+    heard  : I am the vine," he said.  You are the branches.  Not visitors.  Not hired hands.  Branches.  Part of the same 
+[minor] build-146-vine-and-branches/j1b
+    caption: He that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing.
+    heard  : He that abbadeth in me, and I in him, the same bringeth forth much fruit, for without me ye can do nothing.
+      ~ 'abideth' -> heard 'abbadeth'   (sound match 100%)
+[OK   ] build-146-vine-and-branches/n1
+    caption: A branch cut off from the vine doesn't dry up because it's weak. It dries up because it's disconnected.
+    heard  : A branch cut off from the vine doesn't dry up because it's weak.  It dries up because it's disconnected.
+[OK   ] build-146-vine-and-branches/n2
+    caption: Stay joined to Him, and the life flows. Try to bear fruit on your own, and there's nothing there.
+    heard  : Stay joined to him and the life flows.  Try to bear fruit on your own and there's nothing there.
+[OK   ] build-146-vine-and-branches/n3a
+    caption: He wasn't asking for effort.
+    heard  : He wasn't asking for effort.
+[OK   ] build-146-vine-and-branches/n3b
+    caption: He was offering connection.
+    heard  : He was offering connection.
+[OK   ] build-146-vine-and-branches/card
+    caption: Stay connected to the Vine. Let His life flow through you.
+    heard  : Stay connected to the vine. Let his life flow through you.
+
+0 segment(s) need an ear-check in build-146-vine-and-branches

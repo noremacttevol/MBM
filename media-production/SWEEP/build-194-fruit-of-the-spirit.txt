@@ -1,0 +1,30 @@
+[OK   ] build-194-fruit-of-the-spirit/n0
+    caption: Paul wrote that when God's Spirit lives in a person, a harvest grows — not crops, but character.
+    heard  : Paul wrote that when God's spirit lives in a person, a harvest grows, not crops, but character.
+[minor] build-194-fruit-of-the-spirit/s1
+    caption: But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, tempera
+    heard  : But the fruit of the Spirit is love, joy, peace, long suffering, gentleness, goodness, faith,  meekness, tempe
+      ~ 'longsuffering' -> heard 'long suffering'   (sound match 100%)
+[minor] build-194-fruit-of-the-spirit/n1a
+    caption: First, love. Then joy.
+    heard  : First love. Enjoy.
+      ~ 'then joy' -> heard 'enjoy'   (sound match 75%)
+[OK   ] build-194-fruit-of-the-spirit/n1b
+    caption: Then peace — the kind that doesn't depend on circumstances.
+    heard  : Then peace, the kind that doesn't depend on circumstances.  //  //
+[BAD  ] build-194-fruit-of-the-spirit/n2
+    caption: Longsuffering next — patience that doesn't quit. Then gentleness, and goodness, and faith that holds.
+    heard  : Long suffering next, patients that doesn't quit, then gentleness and goodness and faith  that holds.
+      ~ 'longsuffering' -> heard 'long suffering'   (sound match 100%)
+     !! 'patience' -> heard 'patients'   (sound match 67%)
+[OK   ] build-194-fruit-of-the-spirit/n3
+    caption: Meekness, and temperance — self-control that masters the storms inside.
+    heard  : meekness and temperance, self-control that masters the storms inside.
+[OK   ] build-194-fruit-of-the-spirit/n4
+    caption: And no law anywhere forbids any of it. These are the things that can't be overdone.
+    heard  : and no law anywhere forbids any of it. These are the things that can't be overdone.
+[OK   ] build-194-fruit-of-the-spirit/card
+    caption: This fruit isn't grown by strain. Ask the Spirit — and let it ripen in you.
+    heard  : This fruit isn't grown by strain. Ask the spirit and let it ripen in you.
+
+1 segment(s) need an ear-check in build-194-fruit-of-the-spirit

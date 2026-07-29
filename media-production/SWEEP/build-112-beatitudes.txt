@@ -1,0 +1,41 @@
+[OK   ] build-112-beatitudes/n1
+    caption: The crowds came up the mountain expecting, maybe, the usual — that God blesses the strong, the rich, the winne
+    heard  : The crowds came up the mountain expecting, maybe the usual, that God blesses the strong,  the rich, the winner
+[OK   ] build-112-beatitudes/s1f
+    caption: And seeing the multitudes, he went up into a mountain: and when he was set, his disciples came unto him: And h
+    heard  : And seeing the multitudes, he went up into a mountain.  And when he was set, his disciples came unto him.  And
+[OK   ] build-112-beatitudes/n1b
+    caption: He saw the crowd coming, climbed the hillside, and sat down. His friends gathered in close around him. And the
+    heard  : He saw the crowd coming, climbed the hillside, and sat down. His friends gathered in close around him,  and th
+[OK   ] build-112-beatitudes/jv3
+    caption: Blessed are the poor in spirit: for theirs is the kingdom of heaven.
+    heard  : Blessed are the poor in spirit, for theirs is the kingdom of heaven.
+[OK   ] build-112-beatitudes/n2
+    caption: He starts with the very people the world walks past. Not the self-made and self-assured — the ones who know th
+    heard  : He starts with the very people the world walks past, not the self-made and self-assured,  the ones who know th
+[OK   ] build-112-beatitudes/jv456
+    caption: Blessed are they that mourn: for they shall be comforted. Blessed are the meek: for they shall inherit the ear
+    heard  : Blessed are they that mourn, for they shall be comforted.  Blessed are the meek, for they shall inherit the ea
+[OK   ] build-112-beatitudes/n3
+    caption: The grieving will be comforted. The gentle, who never push to the front, will inherit everything. Those aching
+    heard  : The grieving will be comforted. The gentle, who never push to the front, will inherit everything.  Those achin
+[OK   ] build-112-beatitudes/jv78
+    caption: Blessed are the merciful: for they shall obtain mercy. Blessed are the pure in heart: for they shall see God.
+    heard  : Blessed are the merciful, for they shall obtain mercy.  Blessed are the pure in heart, for they shall see God.
+[OK   ] build-112-beatitudes/n4
+    caption: The merciful will be shown mercy. The pure in heart — the simple, honest, unguarded ones — will actually see G
+    heard  : The merciful will be shown mercy. The pure in heart, the simple, honest, unguarded ones,  will actually see Go
+[OK   ] build-112-beatitudes/jv910
+    caption: Blessed are the peacemakers: for they shall be called the children of God. Blessed are they which are persecut
+    heard  : Blessed are the peacemakers, for they shall be called the children of God.  Blessed are they which are persecu
+[OK   ] build-112-beatitudes/n5
+    caption: The ones who make peace instead of winning fights are called God's own children. And even those pushed aside f
+    heard  : The ones who make peace instead of winning fights are called God's own children.  And even those pushed aside 
+[OK   ] build-112-beatitudes/n6
+    caption: So if you have ever felt small, unseen, worn thin, or passed over — listen closely. In his kingdom, you are no
+    heard  : So if you have ever felt small, unseen, worn thin, or passed over, listen closely.  In his kingdom, you are no
+[OK   ] build-112-beatitudes/card
+    caption: The world blesses the winners; Jesus blesses the overlooked — the poor, the grieving, the gentle, the merciful
+    heard  : The world blesses the winners. Jesus blesses the overlooked, the poor, the grieving, the gentle,  the merciful
+
+0 segment(s) need an ear-check in build-112-beatitudes

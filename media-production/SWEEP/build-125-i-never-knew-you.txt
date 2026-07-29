@@ -1,0 +1,27 @@
+[OK   ] build-125-i-never-knew-you/n0
+    caption: Jesus warned that saying the right words is not the same as knowing him. The door is not opened by a name we r
+    heard  : Jesus warned that saying the right words is not the same as knowing Him.  The door is not opened by a name we 
+[minor] build-125-i-never-knew-you/j1
+    caption: Not every one that saith unto me, Lord, Lord, shall enter into the kingdom of heaven; but he that doeth the wi
+    heard  : Not everyone that saith unto me, Lord, Lord, shall enter into the kingdom of heaven,  but he that doeth the wi
+      ~ 'every one' -> heard 'everyone'   (sound match 100%)
+[OK   ] build-125-i-never-knew-you/n1
+    caption: Not everyone who calls me Lord will come into the kingdom, he said — only the one who actually does what my Fa
+    heard  : Not everyone who calls me Lord will come into the kingdom.  He said,  Only the one who actually does what my f
+[OK   ] build-125-i-never-knew-you/j2
+    caption: Many will say to me in that day, Lord, Lord, have we not prophesied in thy name? and in thy name have cast out
+    heard  : Many will say to me in that day, Lord, Lord, have we not prophesied in thy name?  And in thy name have cast ou
+[OK   ] build-125-i-never-knew-you/n2
+    caption: Lord, they will say, didn't we prophesy in your name? Didn't we drive out devils in your name? Didn't we do al
+    heard  : Lord, they will say, didn't we prophesy in your name?  Didn't we drive out devils in your name?  Didn't we do 
+[OK   ] build-125-i-never-knew-you/j3
+    caption: And then will I profess unto them, I never knew you: depart from me, ye that work iniquity.
+    heard  : And then will I profess unto them, I never knew you, depart from me, ye that work iniquity.
+[OK   ] build-125-i-never-knew-you/n3
+    caption: I never knew you. Not, I never heard of your works — I never knew you. He is not weighing the size of anyone's
+    heard  : I never knew you. Not. I never heard of your works. I never knew you. He is not weighing the  size of anyone's
+[OK   ] build-125-i-never-knew-you/card
+    caption: He wants to know you, not just be named by you. Come close, and let him know you.
+    heard  : He wants to know you, not just be named by you. Come close and let him know you.
+
+0 segment(s) need an ear-check in build-125-i-never-knew-you

@@ -1,0 +1,44 @@
+[OK   ] build-29-pearl/n1
+    caption: Jesus told one more short story, only two lines long. The kingdom of heaven, he said, is like a merchant.
+    heard  : Jesus told one more short story, only two lines long.  The Kingdom of Heaven, he said, is like a merchant.
+[OK   ] build-29-pearl/j1
+    caption: Again, the kingdom of heaven is like unto a merchant man, seeking goodly pearls:
+    heard  : Again, the Kingdom of Heaven is like unto a merchant man, seeking goodly pearls.
+[OK   ] build-29-pearl/n2
+    caption: This was a man who knew pearls. He spent his whole life traveling and searching, handling the finest pearls in
+    heard  : This was a man who knew pearls. He spent his whole life traveling and searching, handling the finest  pearls i
+[OK   ] build-29-pearl/n3
+    caption: He had seen a lot of beautiful pearls. Good ones. Costly ones. But he kept looking, because not one of them wa
+    heard  : He had seen a lot of beautiful pearls. Good ones. Costly ones. But he kept looking because not one of  them wa
+[OK   ] build-29-pearl/n4
+    caption: And then one day, he found it. A single pearl, more perfect and more precious than anything he had ever held. 
+    heard  : And then one day he found it. A single pearl, more perfect and more precious than anything he  had ever held. 
+[OK   ] build-29-pearl/n5
+    caption: And he knew, the moment he saw it, exactly what he was going to do.
+    heard  : And he knew the moment he saw it. Exactly what he was going to do.  //  //
+[OK   ] build-29-pearl/j2
+    caption: Who, when he had found one pearl of great price, went and sold all that he had, and bought it.
+    heard  : Who, when he had found one pearl of great price, went and sold all that he had, and bought it?
+[OK   ] build-29-pearl/n6
+    caption: He went home and sold everything. His house, his goods, every other pearl he owned. All of it, gone, to buy th
+    heard  : He went home and sold everything. His house, his goods, every other pearl he owned. All of it  gone to buy the
+[minor] build-29-pearl/n7
+    caption: And here is the thing. He did not do it grieving. He did not feel robbed. He gave up everything he had, gladly
+    heard  : And here's the thing. He did not do it grieving. He did not feel robbed. He gave up everything he had  gladly 
+      ~ 'here is' -> heard 'heres'   (sound match 100%)
+[OK   ] build-29-pearl/n8
+    caption: That is what finding the real thing does. When you finally find what your whole life was looking for, letting 
+    heard  : That is what finding the real thing does. When you finally find what your whole life was looking for,  letting
+[OK   ] build-29-pearl/n9
+    caption: And there is one more wonder hidden in this little story. Some have read it the other way around, and it is ju
+    heard  : And there is one more wonder hidden in this little story. Some have read it the other way around,  and it is j
+[minor] build-29-pearl/n10
+    caption: That he is the merchant who went looking, who found you, and who gave up everything he had, his own life, glad
+    heard  : that he is the merchant who went looking, who found you, and who gave up everything he had,  his own life, gla
+      ~ 'to him' -> heard 'tim'   (sound match 80%)
+[BAD  ] build-29-pearl/card
+    caption: To him, you were the pearl worth everything. Have you seen how much you are worth to him?
+    heard  : To him, you were the Pearl worth everything. Have you seen how much you were worth to him?  //  //
+     !! 'are' -> heard 'were'   (sound match 67%)
+
+1 segment(s) need an ear-check in build-29-pearl

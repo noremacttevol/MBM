@@ -1,0 +1,42 @@
+[OK   ] build-158-two-sticks/n1
+    caption: Among the exiles by the river, the prophet Ezekiel received an unusual assignment from God — not a sermon to p
+    heard  : Among the exiles by the river, the prophet Ezekiel received an unusual assignment from God,  not a sermon to p
+[minor] build-158-two-sticks/n2
+    caption: Take a stick, God told him — a flat wooden writing-rod — and mark it with a name: for Judah, and for the peopl
+    heard  : Take a stick God told him, a flat wooden writing rod, and mark it with a name for Judah and for  the people ga
+      ~ 'writingrod' -> heard 'writing rod'   (sound match 100%)
+[OK   ] build-158-two-sticks/n3
+    caption: Then take a second stick, God said, and mark it with another name: for Joseph. A separate record, belonging to
+    heard  : Then take a second stick, God said, and mark it with another name, for Joseph.  A separate record belonging to
+[minor] build-158-two-sticks/kv16
+    caption: Moreover, thou son of man, take thee one stick, and write upon it, For Judah, and for the children of Israel h
+    heard  : Moreover, thou son of man, take the one stick and write upon it, for Judah, and for the children of Israel his
+      ~ 'thee' -> heard 'the'   (sound match 100%)
+[OK   ] build-158-two-sticks/kv17
+    caption: And join them one to another into one stick; and they shall become one in thine hand.
+    heard  : and join them one to another into one stick, and they shall become one in thine hand.
+[OK   ] build-158-two-sticks/n4
+    caption: Now here is the part that made people stop and stare. Bring the two sticks together, God said, and join them —
+    heard  : Now here is the part that made people stop and stare. Bring the two sticks together,  God said, and join them 
+[OK   ] build-158-two-sticks/n5
+    caption: Two separate records, from two separated peoples, brought together and made one. Not one erasing the other, bu
+    heard  : Two separate records from two separated peoples brought together and made one, not one erasing  the other, but
+[OK   ] build-158-two-sticks/n6
+    caption: And of course the people came asking, what do you mean by this? Why two sticks made one? What are you trying t
+    heard  : And of course the people came asking, what do you mean by this?  Why two sticks made one?  What are you trying
+[minor] build-158-two-sticks/kv19
+    caption: Say unto them, Thus saith the Lord GOD; Behold, I will take the stick of Joseph, which is in the hand of Ephra
+    heard  : Say unto them, Thus set the Lord God, Behold, I will take the stick of Joseph,  which is in the hand of Ephrai
+      ~ 'saith' -> heard 'set'   (sound match 80%)
+[OK   ] build-158-two-sticks/n7
+    caption: Notice whose hand does the joining. God says, they shall be one in mine hand. He is the one who gathers the sc
+    heard  : Notice whose hand does the joining. God says, they shall be one in mine hand. He is the one who  gathers the s
+[OK   ] build-158-two-sticks/n8
+    caption: So this strange little sign is really a promise of gathering. God does not leave his family, or his words to t
+    heard  : So this strange little sign is really a promise of gathering.  God does not leave His family or His words to t
+[minor] build-158-two-sticks/card
+    caption: God had Ezekiel join two records into one stick — two witnesses made one in his hand. He gathers what was scat
+    heard  : God had Ezekiel joined two records into one stick, two witnesses made one in his hand.  He gathers what was sc
+      ~ 'join' -> heard 'joined'   (sound match 80%)
+
+0 segment(s) need an ear-check in build-158-two-sticks

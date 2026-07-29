@@ -1,0 +1,37 @@
+[OK   ] build-159-other-sheep/n1
+    caption: On a hillside, surrounded by his listeners, Jesus reached for the most familiar picture they had — a shepherd 
+    heard  : On a hillside, surrounded by his listeners, Jesus reached for the most familiar picture they had,  a shepherd 
+[OK   ] build-159-other-sheep/n2
+    caption: It is a tender thing to be known like that. Not counted as part of a crowd, but known — each one, by name, by 
+    heard  : It is a tender thing to be known like that. Not counted as part of a crowd, but known. Each one,  by name, by 
+[OK   ] build-159-other-sheep/n3
+    caption: And the knowing runs both ways. His own know him too — the sound of his voice, the shape of his care — the way
+    heard  : And the knowing runs both ways. His own know him too. The sound of his voice, the shape of his care.  The way 
+[OK   ] build-159-other-sheep/kv14
+    caption: I am the good shepherd, and know my sheep, and am known of mine.
+    heard  : I am the good shepherd, and know my sheep, and am known of mine.
+[OK   ] build-159-other-sheep/n4
+    caption: But then Jesus said something that must have stopped them cold. This flock, right here in front of me, he told
+    heard  : But then Jesus said something that must have stopped them cold.  This flock, right here in front of me, he tol
+[OK   ] build-159-other-sheep/n5
+    caption: People they had never met, in lands they had never seen, who also belonged to him and were waiting to be broug
+    heard  : People they had never met in lands they had never seen, who also belonged to him and were waiting to be brough
+[minor] build-159-other-sheep/n6
+    caption: Not two rival flocks. Not one favoured and one forgotten. In the end, one fold and one shepherd — every scatte
+    heard  : Not two rival flocks. Not one favored and one forgotten. In the end, one fold and one shepherd.  Every scatter
+      ~ 'favoured' -> heard 'favored'   (sound match 100%)
+[OK   ] build-159-other-sheep/kv16
+    caption: And other sheep I have, which are not of this fold: them also I must bring, and they shall hear my voice; and 
+    heard  : and other sheep I have, which are not of this fold, them also I must bring, and they shall hear my voice,  and
+[OK   ] build-159-other-sheep/n7
+    caption: So if you have ever felt like an outsider — like one of the other sheep, far from where the story seemed to be
+    heard  : So, if you have ever felt like an outsider, like one of the other sheep, far from where  the story seemed to b
+[BAD  ] build-159-other-sheep/n8
+    caption: That is the wide, patient heart of the Good Shepherd. He has sheep the crowd never counted, and he will not re
+    heard  : That is the wide, patient heart of the good shepherd. He is sheep the crowd never counted,  and he will not re
+     !! 'has' -> heard 'is'   (sound match 67%)
+[OK   ] build-159-other-sheep/card
+    caption: Jesus said he has other sheep, not of this fold — and they too will hear his voice, until there is one fold an
+    heard  : Jesus said He has other sheep, not of this fold, and they too will hear His voice until  there is one fold and
+
+1 segment(s) need an ear-check in build-159-other-sheep

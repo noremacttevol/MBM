@@ -1,0 +1,28 @@
+[OK   ] build-183-sun-moon-and-stars/n0
+    caption: When Paul wrote about the resurrection, people asked him what kind of body the dead could possibly rise with. 
+    heard  : When Paul wrote about the resurrection, people asked him what kind of body the dead could possibly rise with. 
+[OK   ] build-183-sun-moon-and-stars/n1
+    caption: Look up, he said. Not everything that shines shines the same way. There are different kinds of bodies, and dif
+    heard  : Look up, he said. Not everything that shines shines the same way. There are different kinds of bodies and diff
+[minor] build-183-sun-moon-and-stars/s1
+    caption: There is one glory of the sun, and another glory of the moon, and another glory of the stars: for one star dif
+    heard  : There is one glory of the Sun and another glory of the Moon and another glory of the Stars,  for one star diff
+      ~ 'differeth' -> heard 'different'   (sound match 80%)
+[OK   ] build-183-sun-moon-and-stars/n2
+    caption: The sun has its own brightness. The moon has another. And no two stars burn quite alike. Then Paul said the as
+    heard  : The sun has its own brightness. The moon has another, and no two stars burn quite alike.  Then Paul said the a
+[minor] build-183-sun-moon-and-stars/s2
+    caption: So also is the resurrection of the dead. It is sown in corruption; it is raised in incorruption:
+    heard  : So also is the resurrection of the dead.  It is sown in corruption. It is raised in corruption.
+      ~ 'incorruption' -> heard 'corruption'   (sound match 91%)
+[OK   ] build-183-sun-moon-and-stars/n3
+    caption: That is what rising is like, he said. What goes into the ground breaks down; what comes back out never will ag
+    heard  : That is what rising is like, he said. What goes into the ground breaks down. What comes back out  never will a
+[OK   ] build-183-sun-moon-and-stars/n4
+    caption: The same God who hung the sun, the moon, and every different star is preparing a brightness for you.
+    heard  : The same God who hung the sun, the moon, and every different star is preparing a brightness for you.
+[OK   ] build-183-sun-moon-and-stars/card
+    caption: The heavens hold more than one kind of glory. Reach for the brightest — you were made for light.
+    heard  : The heavens hold more than one kind of glory. Reach for the brightest you were made for light.  //
+
+0 segment(s) need an ear-check in build-183-sun-moon-and-stars

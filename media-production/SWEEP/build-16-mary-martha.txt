@@ -1,0 +1,52 @@
+[OK   ] build-16-mary-martha/n1
+    caption: This is the little village of Bethany, just outside Jerusalem. One evening, Jesus came here to the home of two
+    heard  : This is the little village of Bethany, just outside Jerusalem.  One evening, Jesus came here to the home of tw
+[OK   ] build-16-mary-martha/n2
+    caption: In that day, hosting a guest like this was a real honor, and a great deal of work. There was a meal to cook, w
+    heard  : In that day, hosting a guest like this was a real honor and a great deal of work. There was a meal to  cook, w
+[OK   ] build-16-mary-martha/n3
+    caption: So Martha threw herself into the serving. Stirring, carrying, cleaning, fixing, moving without a pause, giving
+    heard  : So Martha threw herself into the serving, stirring, carrying, cleaning, fixing, moving  without a pause, givin
+[minor] build-16-mary-martha/n4
+    caption: But little by little, the joy of having him there got buried under the weight of getting it all just right. He
+    heard  : But little by little, the joy of having him there got buried under the weight of getting it all just right.  H
+      ~ 'hands' -> heard 'hand'   (sound match 86%)
+[minor] build-16-mary-martha/n5
+    caption: Her sister Mary had made a completely different choice. She sat down on the floor at Jesus's feet, and she sim
+    heard  : Her sister Mary had made a completely different choice.  She sat down on the floor at Jesus' feet, and she sim
+      ~ 'jesuss' -> heard 'jesus'   (sound match 100%)
+[OK   ] build-16-mary-martha/n6
+    caption: Back then, sitting at a teacher's feet was the place a student sat, and it was not a place people expected a w
+    heard  : Back then, sitting at a teacher's feet was the place a student sat, and it was not a place  people expected a 
+[BAD  ] build-16-mary-martha/n7
+    caption: Meanwhile Martha, worn thin, finally reached her breaking point. She stopped, looked at her sister just sittin
+    heard  : Meanwhile Martha, worn thin, finally reached her breaking point. She stopped, looked at  her sister just sitti
+     !! 'said' -> heard 'set'   (sound match 50%)
+[BAD  ] build-16-mary-martha/w40
+    caption: Lord, dost thou not care that my sister hath left me to serve alone? bid her therefore that she help me.
+    heard  : Lord, dost thou not care that my sister hath left me to serve alone?  Bit her therefore that she helped me.
+     !! 'bid' -> heard 'bit'   (sound match 50%)
+      ~ 'help' -> heard 'helped'   (sound match 86%)
+[OK   ] build-16-mary-martha/n8
+    caption: Lord, don't you care that my sister has left me to do all of this work by myself? Tell her to get up and help 
+    heard  : Lord, don't you care that my sister has left me to do all of this work by myself?  Tell her to get up and help
+[OK   ] build-16-mary-martha/n9
+    caption: The whole room went quiet. And Jesus answered her, not with a scolding, but with her own name, said twice, and
+    heard  : The whole room went quiet, and Jesus answered her, not with a scolding, but with her own name,  said twice, an
+[OK   ] build-16-mary-martha/j1
+    caption: Martha, Martha, thou art careful and troubled about many things: But one thing is needful: and Mary hath chose
+    heard  : Martha, Martha, thou art careful and troubled about many things, but one thing is needful,  and Mary hath chos
+[OK   ] build-16-mary-martha/n10
+    caption: He did not scold her for serving, and he was never upset that she worked so hard. What troubled him was the wo
+    heard  : He did not scold her for serving, and he was never upset that she worked so hard.  What troubled him was the w
+[OK   ] build-16-mary-martha/n11
+    caption: He was not picking one sister over the other. He was telling a woman he loved that she did not have to earn he
+    heard  : He was not picking one sister over the other. He was telling a woman he loved that she did not  have to earn h
+[OK   ] build-16-mary-martha/n12
+    caption: He never scolded the serving. He worried about the worry. That is the kind of God he is.
+    heard  : He never scolded the serving. He worried about the worry. That is the kind of God he is.  //  //
+[OK   ] build-16-mary-martha/card
+    caption: Worried and troubled about many things, or sitting down long enough to listen. Which one sounds more like your
+    heard  : Worried and troubled about many things, or sitting down long enough to listen, which one sounds more like your
+
+2 segment(s) need an ear-check in build-16-mary-martha

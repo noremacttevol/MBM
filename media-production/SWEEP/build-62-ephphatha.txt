@@ -1,0 +1,49 @@
+[BAD  ] build-62-ephphatha/n0
+    caption: Jesus came back from the coast by a long road — down through the Decapolis, the ten Gentile cities. Remember t
+    heard  : Jesus came back from the coast by a long road, down through the Decapolis, the 10 Gentiles  cities.  Remember 
+     !! 'ten gentile' -> heard 'gentiles'   (sound match 73%)
+[OK   ] build-62-ephphatha/n1
+    caption: And they brought him a man who was deaf, and whose speech was tangled because of it. Think about what deafness
+    heard  : and they brought him a man who was deaf, and whose speech was tangled because of it. Think about  what deafnes
+[OK   ] build-62-ephphatha/n2
+    caption: His friends begged Jesus just to touch him. Jesus did something better. He took the man by the hand and led hi
+    heard  : His friends begged Jesus just to touch him. Jesus did something better. He took the man by the hand  and led h
+[OK   ] build-62-ephphatha/n3
+    caption: Then Jesus did something beautiful. He could not explain anything with words — the man could not hear them. So
+    heard  : Then Jesus did something beautiful. He could not explain anything with words.  The man could not hear them. So
+[OK   ] build-62-ephphatha/n4
+    caption: And then Mark records a small, stunning detail — one that has nothing to do with the healing at all. Listen to
+    heard  : and then mark records a small, stunning detail, one that has nothing to do with the healing at all.  Listen to
+[OK   ] build-62-ephphatha/s34a
+    caption: And looking up to heaven, he sighed, and saith unto him,
+    heard  : And looking up to heaven, He sighed and saith unto Him.
+[minor] build-62-ephphatha/j1
+    caption: Ephphatha.
+    spoken : Effathah.
+    heard  : F is there.
+      ~ 'ephphatha' -> heard 'f is there'   (sound match 75%)
+[BAD  ] build-62-ephphatha/n5
+    caption: He sighed. Before the word, he sighed. He felt the weight of it — a world so broken that a man could go a whol
+    heard  : He sighed. Before the word, he sighed. He felt the weight of it. A world so broken that a man  could go a whol
+      ~ 'sigh' -> heard 'sight'   (sound match 86%)
+      ~ 'birdsong' -> heard 'bird song'   (sound match 100%)
+     !! 'knot' -> heard 'nod'   (sound match 40%)
+[OK   ] build-62-ephphatha/n6
+    caption: Jesus asked them to keep it quiet. They could not. The more he asked, the more they told everyone — and honest
+    heard  : Jesus asked them to keep it quiet.  They could not.  The more he asked, the more they told everyone.  And hone
+[minor] build-62-ephphatha/s37
+    caption: He hath done all things well: he maketh both the deaf to hear, and the dumb to speak.
+    heard  : He hath done all things well. He mocketh both the deaf to hear, and the dumb to speak.
+      ~ 'maketh' -> heard 'mocketh'   (sound match 89%)
+[minor] build-62-ephphatha/n6b
+    caption: He has done everything well, they said. He makes the deaf hear, and he gives the speechless their voice. Not a
+    heard  : He has done everything well," they said. He makes the death here, and he gives the speechless  their voice. No
+      ~ 'deaf hear' -> heard 'death here'   (sound match 75%)
+[OK   ] build-62-ephphatha/n7
+    caption: Notice what kind of healer he is. He did not shout over the crowd. He took one man aside, met him inside his s
+    heard  : Notice what kind of healer he is. He did not shout over the crowd. He took one man aside,  met him inside his 
+[OK   ] build-62-ephphatha/card
+    caption: He does not heal for an audience. He takes you aside, meets you in your silence, and opens what was shut.
+    heard  : He does not heal for an audience. He takes you aside, meets you in your silence, and opens what was shut.
+
+2 segment(s) need an ear-check in build-62-ephphatha

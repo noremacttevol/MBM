@@ -1,0 +1,73 @@
+[BAD  ] build-05-bent-woman/n0
+    caption: There was a woman who had been bent over for eighteen years. She could not straighten up at all. Eighteen year
+    heard  : There was a woman who had been bent over for 18 years. She could not straighten up at all.  18 years of lookin
+     !! 'eighteen' -> heard '-'   (sound match 0%)
+     !! 'eighteen' -> heard '-'   (sound match 0%)
+     !! 'eighteen' -> heard '-'   (sound match 0%)
+[OK   ] build-05-bent-woman/n1
+    caption: One sabbath day, Jesus was teaching in a synagogue, and she was there — at the back, by the wall, folded over 
+    heard  : One Sabbath day, Jesus was teaching in a synagogue, and she was there, at the back, by the wall, folded over h
+[OK   ] build-05-bent-woman/n2
+    caption: And in the middle of his teaching, Jesus stopped. He looked past every face in the room, all the way to the ba
+    heard  : And in the middle of his teaching, Jesus stopped. He looked past every face in the room,  all the way to the b
+[OK   ] build-05-bent-woman/n3
+    caption: Notice what did not happen. She did not push through a crowd. She did not call out to him. She did not ask. He
+    heard  : Notice what did not happen. She did not push through a crowd. She did not call out to him.  She did not ask. H
+[OK   ] build-05-bent-woman/n4
+    caption: She made her slow way up the middle of that room, her stick tapping the stone floor, every eye on her. And whe
+    heard  : She made her slow way up the middle of that room.  Her stick tapping the stone floor, every eye on her.  And w
+[OK   ] build-05-bent-woman/j1
+    caption: Woman, thou art loosed from thine infirmity.
+    heard  : Woman, thou art loosed from thine infirmity.
+[BAD  ] build-05-bent-woman/n5a
+    caption: Loosed. In their language it was an everyday word. It meant untied — the same word a farmer used when he untie
+    heard  : Loosed. In their language, it was an everyday word. It meant untied. The same word a farmer  used when he unti
+     !! 'knotted' -> heard 'nodded'   (sound match 67%)
+[BAD  ] build-05-bent-woman/n5b
+    caption: He laid his hands on her. And slowly — for the first time in eighteen years — she stood up straight.
+    heard  : He laid his hands on her, and slowly, for the first time in 18 years, she stood up straight.
+     !! 'eighteen' -> heard '-'   (sound match 0%)
+[BAD  ] build-05-bent-woman/n6
+    caption: The first thing she did with a straight back was praise God. Out loud, right there in the middle of the meetin
+    heard  : The first thing she did with a straight back was praise God. Out loud, right there in the middle  of the meeti
+     !! 'eighteen' -> heard '-'   (sound match 0%)
+[OK   ] build-05-bent-woman/n7
+    caption: But not everyone rejoiced. The ruler of the synagogue — the man in charge of that meeting — was angry. In his 
+    heard  : but not everyone rejoiced. The ruler of the synagogue, the man in charge of that meeting,  was angry. In his m
+[BAD  ] build-05-bent-woman/s14
+    caption: There are six days in which men ought to work: in them therefore come and be healed, and not on the sabbath da
+    heard  : There are six days in which men ought to work, and them therefore come and be healed, and not on the Sabbath d
+     !! 'in' -> heard 'and'   (sound match 67%)
+[BAD  ] build-05-bent-woman/n7b
+    caption: There are six working days, he told them. Come and be healed on one of those. As if her freedom could have wai
+    heard  : There are six working days, he told them. Come and be healed on one of those.  As if her freedom could have wa
+     !! 'eighteen' -> heard '-'   (sound match 0%)
+[OK   ] build-05-bent-woman/n8
+    caption: Jesus turned to him. And he did not soften it.
+    heard  : Jesus turned to him, and he did not soften it.
+[OK   ] build-05-bent-woman/j2
+    caption: Thou hypocrite, doth not each one of you on the sabbath loose his ox or his ass from the stall, and lead him a
+    heard  : Thou hypocrite, doth not each one of you on the Sabbath loose his ox or his ass from the stall, and lead him a
+[OK   ] build-05-bent-woman/n9
+    caption: Every man in that room did exactly that on the sabbath. He untied his ox or his donkey and led it to water, an
+    heard  : Every man in that room did exactly that on the Sabbath.  He untied his ox or his donkey and led it to water, a
+[BAD  ] build-05-bent-woman/n10
+    caption: And listen to what he called her. A daughter of Abraham. In that room, those words were a declaration — family
+    heard  : and listened to what he called her, a daughter of Abraham. In that room, those words were a declaration,  fami
+      ~ 'listen' -> heard 'listened'   (sound match 89%)
+     !! 'eighteen' -> heard '-'   (sound match 0%)
+      ~ 'notice' -> heard 'noticed'   (sound match 86%)
+[OK   ] build-05-bent-woman/n11
+    caption: Luke tells us how the day ended.
+    heard  : Luke tells us how the day ended.
+[OK   ] build-05-bent-woman/s17
+    caption: And when he had said these things, all his adversaries were ashamed: and all the people rejoiced for all the g
+    heard  : And when he had said these things, all his adversaries were ashamed, and all the people  rejoiced for all the 
+[OK   ] build-05-bent-woman/n11b
+    caption: The ones who had stood against Jesus were ashamed, and the whole crowd rejoiced at the glorious things he was 
+    heard  : The ones who had stood against Jesus were ashamed, and the whole crowd rejoiced at the glorious things he was 
+[OK   ] build-05-bent-woman/n12
+    caption: Is there something you have been carrying so long that you have stopped expecting it to change? He saw her at 
+    heard  : Is there something you have been carrying so long that you have stopped expecting it to change?  He saw her at
+
+7 segment(s) need an ear-check in build-05-bent-woman

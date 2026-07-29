@@ -1,0 +1,32 @@
+[OK   ] build-134-other-sheep-i-have/n0
+    caption: Jesus used a picture His listeners knew well — a shepherd and his sheep, out on the open hill.
+    heard  : Jesus used a picture His listeners knew well, a shepherd and his sheep out on the open hill.
+[OK   ] build-134-other-sheep-i-have/jv14
+    caption: I am the good shepherd, and know my sheep, and am known of mine.
+    heard  : I am the good shepherd, and know my sheep, and am known of mine.
+[OK   ] build-134-other-sheep-i-have/n0b
+    caption: I am the good shepherd, He said. I know My sheep, and My sheep know Me. Not a hired hand counting a herd — a s
+    heard  : I am the good shepherd," he said.  I know my sheep and my sheep know me.  Not a hired hand counting a herd.  A
+[OK   ] build-134-other-sheep-i-have/n1a
+    caption: But the flock was bigger than the people standing in front of Him.
+    heard  : But the flock was bigger than the people standing in front of him.
+[OK   ] build-134-other-sheep-i-have/j1
+    caption: And other sheep I have, which are not of this fold: them also I must bring, and they shall hear my voice; and 
+    heard  : and other sheep I have, which are not of this fold, them also I must bring, and they shall hear my voice,  and
+[OK   ] build-134-other-sheep-i-have/n1b
+    caption: There were other sheep, not of that pen, that He would also bring.
+    heard  : There were other sheep, not of that pen, that he would also bring.
+[OK   ] build-134-other-sheep-i-have/n2
+    caption: They would hear His voice. And the result would be one flock, one Shepherd.
+    heard  : They would hear his voice, and the result would be one flock, one shepherd.
+[OK   ] build-134-other-sheep-i-have/n3
+    caption: Not divided by nation or wall. One voice, one care, one Shepherd over all who listen.
+    heard  : Not divided by nation or wall.  One voice.  One care.  One shepherd over all who listen.
+[OK   ] build-134-other-sheep-i-have/n4
+    caption: Whoever hears Him belongs — wherever they're from.
+    heard  : Whoever hears him belongs, wherever they're from.
+[OK   ] build-134-other-sheep-i-have/card
+    caption: His voice reaches further than you think. Hear Him, and you're in the fold.
+    heard  : His voice reaches further than you think. Hear him, and you're in the fold.  //  //
+
+0 segment(s) need an ear-check in build-134-other-sheep-i-have

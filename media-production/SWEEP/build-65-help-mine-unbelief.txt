@@ -1,0 +1,69 @@
+[OK   ] build-65-help-mine-unbelief/n0
+    caption: Jesus came down from the mountain and walked straight into a mess. A crowd was arguing. His own disciples were
+    heard  : Jesus came down from the mountain and walked straight into a mess.  A crowd was arguing.  His own disciples we
+[BAD  ] build-65-help-mine-unbelief/n1
+    caption: The father pushed through to Jesus and told him the whole story. His only son had been tormented since he was 
+    heard  : The Father pushed through to Jesus and told him the whole story. His only Son had been tormented  since He was
+     !! 'hurt' -> heard 'heard'   (sound match 67%)
+     !! 'boy' -> heard 'voice'   (sound match 0%)
+[OK   ] build-65-help-mine-unbelief/n2
+    caption: And then he said the most honest thing in the story. He looked at Jesus, and this is exactly how Mark writes d
+    heard  : And then he said the most honest thing in the story. He looked at Jesus, and this is exactly how Mark writes d
+[minor] build-65-help-mine-unbelief/s22
+    caption: If thou canst do any thing, have compassion on us, and help us.
+    heard  : If thou can'ts do anything, have compassion on us and help us.
+      ~ 'canst' -> heard 'cants'   (sound match 75%)
+      ~ 'any thing' -> heard 'anything'   (sound match 100%)
+[OK   ] build-65-help-mine-unbelief/n2b
+    caption: If you can do anything — anything at all — have compassion on us, and help us. If. After all those years of di
+    heard  : If you can do anything, anything at all, have compassion on us and help us. If, after all those  years of disa
+[minor] build-65-help-mine-unbelief/j1
+    caption: If thou canst believe, all things are possible to him that believeth.
+    heard  : If thou can't believe, all things are possible to him that believeth.
+      ~ 'canst' -> heard 'cant'   (sound match 86%)
+[BAD  ] build-65-help-mine-unbelief/n3
+    caption: And now comes the moment this whole story is remembered for. The father did not pretend. He did not put on a b
+    heard  : And now comes the moment this whole story is remembered for. The Father did not pretend.  He did not put on a 
+     !! 'a' -> heard 'of'   (sound match 0%)
+[OK   ] build-65-help-mine-unbelief/fv1
+    caption: Lord, I believe; help thou mine unbelief.
+    heard  : Lord, I believe, help thou mine unbelief.
+[OK   ] build-65-help-mine-unbelief/n3b
+    caption: Lord, I believe, he said. Help me where I don't. He did not hand Jesus a finished faith. He handed him a crack
+    heard  : Lord, I believe He said, help me where I don't.  He did not hand Jesus a finished faith.  He handed Him a crac
+[minor] build-65-help-mine-unbelief/n4
+    caption: Think about what he just did. He brought Jesus the little bit of faith he had AND the unbelief he was ashamed 
+    heard  : Think about what he just did. He brought Jesus the little bit of faith he had and the unbelief he  was ashamed
+      ~ 'crackedopen' -> heard 'cracked open'   (sound match 100%)
+      ~ 'halffull' -> heard 'half full'   (sound match 100%)
+[minor] build-65-help-mine-unbelief/n5
+    caption: Jesus saw the crowd rushing in to gawk, and he did not wait. He spoke directly to the thing that had stolen th
+    heard  : Jesus saw the crowd rushing into gawk, and he did not wait.  He spoke directly to the thing that had stolen th
+      ~ 'in to' -> heard 'into'   (sound match 100%)
+[OK   ] build-65-help-mine-unbelief/j2
+    caption: Thou dumb and deaf spirit, I charge thee, come out of him, and enter no more into him.
+    heard  : Thou dumb and deaf spirit, I charge thee, come out of him, and enter no more into him.
+[OK   ] build-65-help-mine-unbelief/n5b
+    caption: You spirit that has kept him silent and shut his ears — I command you: come out of him, and never come back in
+    heard  : You spirit that has kept him silent and shut his ears. I command you. Come out of him,  and never come back in
+[OK   ] build-65-help-mine-unbelief/n6a
+    caption: It left. The boy went so still that people whispered he was dead. But Jesus reached down, took him by the hand
+    heard  : It left. The boy went so still that people whispered he was dead, but Jesus reached down,  took him by the han
+[minor] build-65-help-mine-unbelief/n6b
+    caption: And he gave him back to his father. The tormented childhood was over. It ended with a hand reaching down into 
+    heard  : and he gave him back to his father. The tormented childhood was over. It ended with a hand reaching  down into
+      ~ 'son' -> heard 'sun'   (sound match 100%)
+[OK   ] build-65-help-mine-unbelief/n7
+    caption: Later, alone in the house, the disciples asked him why they had failed. And Jesus gave them one sentence:
+    heard  : Later, alone in the house, the disciples asked him why they had failed, and Jesus gave them  one sentence.  //
+[OK   ] build-65-help-mine-unbelief/j3
+    caption: This kind can come forth by nothing, but by prayer and fasting.
+    heard  : This kind can come forth by nothing, but by prayer and fasting.
+[OK   ] build-65-help-mine-unbelief/n7b
+    caption: Nothing gets this out except prayer and fasting, he told them — meaning this was never about their technique. 
+    heard  : Nothing gets this out except prayer and fasting, he told them, meaning this was never about their  technique. 
+[OK   ] build-65-help-mine-unbelief/card
+    caption: You do not need perfect faith to come to him. Bring the little you have — and the doubt you're ashamed of — an
+    heard  : You do not need perfect faith to come to him. Bring the little you have and the doubt you're  ashamed of and a
+
+2 segment(s) need an ear-check in build-65-help-mine-unbelief

@@ -1,0 +1,32 @@
+[OK   ] build-142-light-of-the-world/n0
+    caption: Jesus stood among the temple courts and spoke into the noise of the crowd.
+    heard  : Jesus stood among the temple courts and spoke into the noise of the crowd.
+[OK   ] build-142-light-of-the-world/s12
+    caption: Then spake Jesus again unto them, saying,
+    heard  : Then spake Jesus again unto them, saying,
+[OK   ] build-142-light-of-the-world/j1
+    caption: I am the light of the world: he that followeth me shall not walk in darkness, but shall have the light of life
+    heard  : I am the light of the world, he that followeth me shall not walk in darkness, but shall have the light of life
+[OK   ] build-142-light-of-the-world/n1
+    caption: Not a lamp that burns out. A light that walks with you, so you're never feeling your way blind.
+    heard  : Not a lamp that burns out. A light that walks with you, so you're never feeling your way blind.
+[OK   ] build-142-light-of-the-world/n2
+    caption: Later, as He met a man born blind, He said it again.
+    heard  : Later, as he met a man born blind, he said it again.
+[OK   ] build-142-light-of-the-world/j2
+    caption: As long as I am in the world, I am the light of the world.
+    heard  : As long as I am in the world, I am the light of the world.
+[OK   ] build-142-light-of-the-world/n2b
+    caption: While I am here in the world, He said, I am the light of it. Then He knelt down in the dirt in front of a man 
+    heard  : While I am here in the world, he said, I am the light of it. Then he knelt down in the dirt in  front of a man
+[OK   ] build-142-light-of-the-world/s25
+    caption: One thing I know, that, whereas I was blind, now I see.
+    heard  : One thing I know, that whereas I was blind, now I see.
+[OK   ] build-142-light-of-the-world/n3
+    caption: One thing I know, the man told them afterward — I was blind, and now I see. He didn't just describe light. He 
+    heard  : One thing I know, the man told them afterward, I was blind, and now I see.  He didn't just describe light.  He
+[OK   ] build-142-light-of-the-world/card
+    caption: Stop groping in the dark. Walk with the Light.
+    heard  : Stop groping in the dark. Walk with the light.
+
+0 segment(s) need an ear-check in build-142-light-of-the-world

@@ -1,0 +1,63 @@
+[minor] build-18-emmaus/n0
+    caption: It was the same Sunday. The tomb was empty, the rumors were flying, and two of Jesus's followers had given up 
+    heard  : It was the same Sunday. The tomb was empty, the rumors were flying, and two of Jesus' followers  had given up 
+      ~ 'jesuss' -> heard 'jesus'   (sound match 100%)
+      ~ 'emmaus' -> heard 'amaeus'   (sound match 100%)
+[OK   ] build-18-emmaus/n1
+    caption: As they walked and argued and grieved, a stranger came up alongside them and fell into step. And Luke tells us
+    heard  : As they walked and argued and grieved, a stranger came up alongside them and fell into step.  And Luke tells u
+[minor] build-18-emmaus/n2
+    caption: He asked them what they were talking about that had them so heavy. They stopped in the road, faces stricken. O
+    heard  : He asked them what they were talking about that had them so heavy.  They stopped in the road, faces stricken. 
+      ~ 'cleopas' -> heard 'cleopah'   (sound match 75%)
+[OK   ] build-18-emmaus/s18
+    caption: Art thou only a stranger in Jerusalem, and hast not known the things which are come to pass there in these day
+    heard  : art thou only a stranger in Jerusalem, and hast not known the things which are come to pass there in these day
+[OK   ] build-18-emmaus/n3
+    caption: And it all poured out. Jesus of Nazareth — a prophet mighty in word and deed — handed over and crucified. And 
+    heard  : And it all poured out. Jesus of Nazareth, a prophet mighty in word and deed, handed over  and crucified, and t
+[OK   ] build-18-emmaus/s21
+    caption: But we trusted that it had been he which should have redeemed Israel.
+    heard  : But we trusted that it had been he which should have redeemed Israel.
+[OK   ] build-18-emmaus/n4a
+    caption: The stranger listened to all of it. And then he answered them:
+    heard  : The stranger listened to all of it, and then he answered them.
+[OK   ] build-18-emmaus/j1
+    caption: O fools, and slow of heart to believe all that the prophets have spoken: Ought not Christ to have suffered the
+    heard  : O fools, and slow of heart to believe all that the prophets have spoken, ought not Christ to  have suffered th
+[OK   ] build-18-emmaus/n4b
+    caption: And then, starting all the way back at Moses, walking through prophet after prophet, he opened the scriptures 
+    heard  : And then, starting all the way back at Moses, walking through Prophet after Prophet, he  opened the Scriptures
+[OK   ] build-18-emmaus/n5
+    caption: They reached Emmaus as the sun was going down, and the stranger acted as if he would keep walking on into the 
+    heard  : They reached Emmaus as the sun was going down, and the stranger acted as if he would keep walking on into the 
+[minor] build-18-emmaus/s29
+    caption: Abide with us: for it is toward evening, and the day is far spent.
+    spoken : Abied with us: for it is toward evening, and the day is far spent.
+    heard  : Abbed with us, for it is toward evening, and the day is far spent.
+      ~ 'abide' -> heard 'abbed'   (sound match 100%)
+[minor] build-18-emmaus/n6
+    caption: They sat down to the table. And then their guest did the one thing only the host of the house should do. He to
+    heard  : They sat down to the table, and then their guests did the one thing only the host of the house should do.  He 
+      ~ 'guest' -> heard 'guests'   (sound match 86%)
+[OK   ] build-18-emmaus/n7
+    caption: And in that motion — the taking, the blessing, the breaking of the bread — their eyes were opened, and they kn
+    heard  : And in that motion, the taking, the blessing, the breaking of the bread, their eyes were opened and they knew 
+[minor] build-18-emmaus/n8
+    caption: They turned to each other, stunned. Weren't our hearts burning inside us, they said, the whole time he was tal
+    heard  : They turned to each other, stunned, worn our hearts burning inside us. They said,  the whole time he was talki
+      ~ 'werent' -> heard 'worn'   (sound match 86%)
+[OK   ] build-18-emmaus/s32
+    caption: Did not our heart burn within us, while he talked with us by the way, and while he opened to us the scriptures
+    heard  : did not our heart burn within us while he talked with us by the way, and while he opened to us the Scriptures,
+[OK   ] build-18-emmaus/n9
+    caption: They did not wait for morning. That same hour they got up and ran the seven dark miles back to Jerusalem, foun
+    heard  : They did not wait for morning. That same hour they got up and ran the seven dark miles back to  Jerusalem, fou
+[OK   ] build-18-emmaus/n10
+    caption: Notice how the risen Jesus spent that first afternoon. Not with kings. Not with crowds. On a dusty road, with 
+    heard  : Notice how the risen Jesus spent that first afternoon, not with kings, not with crowds.  On a dusty road, with
+[OK   ] build-18-emmaus/n11
+    caption: He walked with them a long way before they knew who he was. Is it possible he has been walking with you — in a
+    heard  : He walked with them a long way before they knew who he was. Is it possible he has been walking with you?  In a
+
+0 segment(s) need an ear-check in build-18-emmaus

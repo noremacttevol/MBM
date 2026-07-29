@@ -1,0 +1,30 @@
+[OK   ] build-139-lamp-on-a-stand/n0
+    caption: Jesus was teaching a crowd on a mountainside. He told them who they were before He told them what to do.
+    heard  : Jesus was teaching a crowd on a mountainside.  He told them who they were before he told them what to do.
+[OK   ] build-139-lamp-on-a-stand/j1
+    caption: Ye are the light of the world. A city that is set on an hill cannot be hid.
+    heard  : Ye are the light of the world.  A city that is set on an hill cannot be hid.
+[OK   ] build-139-lamp-on-a-stand/n0b
+    caption: You are the light of the world, He told them. Picture a town built up on a hilltop at night — nobody has to po
+    heard  : You are the light of the world, he told them. Picture a town built up on a hilltop at night.  Nobody has to po
+[minor] build-139-lamp-on-a-stand/j2
+    caption: Neither do men light a candle, and put it under a bushel, but on a candlestick; and it giveth light unto all t
+    heard  : Neither do men light a candle and put it under a bushel, but on a candlestick, and it give  a flight unto all 
+      ~ 'giveth light' -> heard 'give a flight'   (sound match 80%)
+[OK   ] build-139-lamp-on-a-stand/n1
+    caption: Nobody lights a lamp and then hides it under a bowl. You put it up where it can light the whole room.
+    heard  : Nobody lights a lamp and then hides it under a bowl.  You put it up where it can light the whole room.
+[OK   ] build-139-lamp-on-a-stand/j3
+    caption: Let your light so shine before men, that they may see your good works, and glorify your Father which is in hea
+    heard  : Let your light so shine before men that they may see your good works and glorify your Father which is in heave
+[OK   ] build-139-lamp-on-a-stand/n2
+    caption: So let your light shine, He said — not to show off, but so people see the good and look up to your Father.
+    heard  : So let your light shine. He said not to show off, but so people see the good and look up to your father.
+[OK   ] build-139-lamp-on-a-stand/n3
+    caption: You were lit on purpose. You were put on the stand on purpose.
+    heard  : You were lit on purpose. You were put on the stand on purpose.  //
+[OK   ] build-139-lamp-on-a-stand/card
+    caption: You were made to be seen for good. Let it shine.
+    heard  : You were made to be seen for good. Let it shine.
+
+0 segment(s) need an ear-check in build-139-lamp-on-a-stand

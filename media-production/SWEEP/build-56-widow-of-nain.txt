@@ -1,0 +1,55 @@
+[OK   ] build-56-widow-of-nain/n1
+    caption: As Jesus came near the town of Nain, a great crowd walked along with him. It was an ordinary day on an ordinar
+    heard  : As Jesus came near the town of Nain, a great crowd walked along with him. It was an ordinary day on  an ordina
+[minor] build-56-widow-of-nain/n2
+    caption: Out of the gate came a funeral. A young man had died, carried out on an open bier, and behind him walked his m
+    heard  : Out of the gate came a funeral. A young man had died, carried out on an open beer,  and behind him walked his 
+      ~ 'bier' -> heard 'beer'   (sound match 100%)
+[OK   ] build-56-widow-of-nain/n3
+    caption: Here is what Luke does not record: a single word from her. She never asks him for anything. She does not know 
+    heard  : Here is what Luke does not record a single word from her. She never asks him for anything.  She does not know 
+[OK   ] build-56-widow-of-nain/s13a
+    caption: And when the Lord saw her, he had compassion on her, and said unto her,
+    heard  : And when the Lord saw her, He had compassion on her and said unto her,
+[OK   ] build-56-widow-of-nain/jv13
+    caption: Weep not.
+    heard  : weep not
+[OK   ] build-56-widow-of-nain/n3b
+    caption: Don't cry. Two words, to the one woman in that whole procession nobody could comfort. No one there had asked h
+    heard  : Don't cry. Two words to the one woman in that whole procession nobody could comfort.  No one there had asked h
+[OK   ] build-56-widow-of-nain/n4
+    caption: Then he did something no one does at a funeral.
+    heard  : Then he did something no one does at a funeral.
+[minor] build-56-widow-of-nain/s14a
+    caption: And he came and touched the bier: and they that bare him stood still. And he said,
+    heard  : And he came and touched the beer, and they that bear him stood still.  And he said...
+      ~ 'bier' -> heard 'beer'   (sound match 100%)
+      ~ 'bare' -> heard 'bear'   (sound match 100%)
+[OK   ] build-56-widow-of-nain/jv14
+    caption: Young man, I say unto thee, Arise.
+    heard  : Young man, I say unto thee, Arise.
+[minor] build-56-widow-of-nain/n4b
+    caption: He walked up and put his hand on the open bier, and the men carrying it stopped dead. The whole procession hel
+    heard  : He walked up and put his hand on the open beer, and the men carrying it stopped dead. The whole  procession he
+      ~ 'bier' -> heard 'beer'   (sound match 100%)
+[OK   ] build-56-widow-of-nain/n5
+    caption: And the young man who had been dead sat up, and began to speak. Life poured back into him at the sound of that
+    heard  : And the young man who had been dead sat up and began to speak. Life poured back into him at the  sound of that
+[OK   ] build-56-widow-of-nain/n6
+    caption: And Jesus took him by the hand and gave him back to his mother. He did not keep him or make a spectacle of him
+    heard  : And Jesus took him by the hand and gave him back to his mother.  He did not keep him or make a spectacle of hi
+[OK   ] build-56-widow-of-nain/n7
+    caption: A holy fear fell on everyone there, and they praised God, saying:
+    heard  : A holy fear fell on everyone there, and they praised God, saying,
+[BAD  ] build-56-widow-of-nain/s16
+    caption: That a great prophet is risen up among us; and, That God hath visited his people.
+    heard  : that a great prophet is risen up among us, and that God has visited his people.
+     !! 'hath' -> heard 'has'   (sound match 40%)
+[OK   ] build-56-widow-of-nain/n7b
+    caption: A great prophet has risen among us, they said. God has come to his own people. And the news of it went out thr
+    heard  : A great prophet has risen among us, they said.  God has come to his own people, and the news of it went out th
+[OK   ] build-56-widow-of-nain/card
+    caption: He still meets us at the gate, on the worst day, in the middle of a grief no one can fix. He is not put off by
+    heard  : He still meets us at the gate on the worst day in the middle of a grief no one can fix.  He is not put off by 
+
+1 segment(s) need an ear-check in build-56-widow-of-nain

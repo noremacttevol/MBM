@@ -1,0 +1,43 @@
+[OK   ] build-166-baptized-properly/n1
+    caption: Paul came through the inland country and arrived at Ephesus, where he found a small group of disciples. They w
+    heard  : Paul came through the inland country and arrived at Ephesus, where he found a small group of disciples.  They 
+[OK   ] build-166-baptized-properly/s2
+    caption: He said unto them, Have ye received the Holy Ghost since ye believed? And they said unto him, We have not so m
+    heard  : He said unto them, Have you received the Holy Ghost since you believed?  And they said unto him, We have not s
+[OK   ] build-166-baptized-properly/n2
+    caption: But Paul asked them a searching question: had they received the Holy Ghost since they believed? And their answ
+    heard  : But Paul asked them a searching question. Had they received the Holy Ghost since they believed?  And their ans
+[OK   ] build-166-baptized-properly/s4
+    caption: Then said Paul, John verily baptized with the baptism of repentance, saying unto the people, that they should 
+    heard  : Then said Paul, John verily baptized with the baptism of repentance,  saying unto the people that they should 
+[OK   ] build-166-baptized-properly/n3
+    caption: So Paul asked what baptism they had been given. They had known only the baptism of John — a real and honest ba
+    heard  : So Paul asked what baptism they had been given. They had known only the baptism of John,  a real and honest ba
+[BAD  ] build-166-baptized-properly/n4
+    caption: Here is the tender thing: these were good, believing people, and yet something was genuinely missing. Their ba
+    heard  : Here is the tender thing. These were good, believing people, and yet something was genuinely missing.  Their b
+     !! 'set' -> heard 'said'   (sound match 50%)
+[OK   ] build-166-baptized-properly/kv5
+    caption: When they heard this, they were baptized in the name of the Lord Jesus.
+    heard  : When they heard this, they were baptized in the name of the Lord Jesus.
+[OK   ] build-166-baptized-properly/n5
+    caption: And baptism was not the final step. There was one thing more, the same step we have seen before: the laying on
+    heard  : And baptism was not the final step. There was one thing more, the same step we have seen before.  The laying o
+[minor] build-166-baptized-properly/kv6
+    caption: And when Paul had laid his hands upon them, the Holy Ghost came on them; and they spake with tongues, and prop
+    heard  : And when Paul had laid his hands upon them, the holy ghosts came on them, and they spaked with tongues and pro
+      ~ 'ghost' -> heard 'ghosts'   (sound match 89%)
+      ~ 'spake' -> heard 'spaked'   (sound match 86%)
+[BAD  ] build-166-baptized-properly/n6
+    caption: Here is the quiet study gem. Their sincerity was never in doubt, and it was never enough on its own. The ordin
+    heard  : Here is the quiet study, Jim. Their sincerity was never in doubt, and it was never enough on its own.  The ord
+     !! 'gem' -> heard 'jim'   (sound match 50%)
+[OK   ] build-166-baptized-properly/n7
+    caption: And the same careful pattern is offered to you: not a vague good feeling, but a real baptism by proper authori
+    heard  : And the same careful pattern is offered to you. Not a vague good feeling, but a real baptism by  proper author
+[minor] build-166-baptized-properly/card
+    caption: Sincere disciples at Ephesus were baptized again, properly, and received the Holy Ghost when Paul laid his han
+    heard  : Sincere disciples at Ephesus were baptized again, properly, and received the Holy Ghost  when Paul laid his ha
+      ~ 'sincerity' -> heard 'sincereity'   (sound match 100%)
+
+2 segment(s) need an ear-check in build-166-baptized-properly

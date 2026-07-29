@@ -1,0 +1,61 @@
+[OK   ] build-02-prodigal/n0
+    caption: When religious men complained that Jesus spent his time with sinners, he didn't argue with them. He answered w
+    heard  : When religious men complained that Jesus spent his time with sinners, he didn't argue with them.  He answered 
+[OK   ] build-02-prodigal/n1
+    caption: The younger son asked for his inheritance early — as if to say he wished his father were already dead. Then he
+    heard  : The younger son asked for his inheritance early. As if to say he wished his father were already  dead. Then he
+[OK   ] build-02-prodigal/n2
+    caption: When the money was gone, a famine came. He ended up feeding pigs, so hungry he would have eaten what they ate.
+    heard  : When the money was gone, a famine came. He ended up feeding pigs, so hungry he would have eaten what  they ate
+[OK   ] build-02-prodigal/n3
+    caption: So he started walking home, rehearsing a speech the whole way. Father, I am not worthy to be called your son. 
+    heard  : So he started walking home, rehearsing a speech the whole way.  Father, I am not worthy to be called your son.
+[OK   ] build-02-prodigal/j3
+    caption: I will arise and go to my father, and will say unto him, Father, I have sinned against heaven, and before thee
+    heard  : I will arise and go to my Father, and will say unto Him, Father, I have sinned against Heaven,  and before the
+[OK   ] build-02-prodigal/n4
+    caption: He was still a long way off... when his father saw him.
+    heard  : He was still a long way off when his father saw him.
+[OK   ] build-02-prodigal/n5a
+    caption: The father ran.
+    heard  : The father ran.
+[OK   ] build-02-prodigal/n5b
+    caption: Old men in that world did not run. It was beneath their dignity. He ran anyway.
+    heard  : Old men in that world did not run. It was beneath their dignity. He ran anyway.
+[OK   ] build-02-prodigal/n6
+    caption: He didn't wait for the speech. He wrapped his arms around his son before a single word was said.
+    heard  : He didn't wait for the speech. He wrapped his arms around his son before a single word was said.
+[OK   ] build-02-prodigal/n7
+    caption: That night the father dressed him in the finest robe, put a ring on his hand, and called for a feast — and he 
+    heard  : That night the father dressed him in the finest robe, put a ring on his hand, and called for a feast,  and he 
+[OK   ] build-02-prodigal/j1
+    caption: For this my son was dead, and is alive again; he was lost, and is found.
+    heard  : For this my son was dead, and is alive again, he was lost, and is found.
+[OK   ] build-02-prodigal/n9
+    caption: But Jesus wasn't finished. The older son was still out in the field, like always. When he came near the house 
+    heard  : But Jesus wasn't finished. The older son was still out in the field, like always.  When he came near the house
+[OK   ] build-02-prodigal/n10a
+    caption: So the father left his own feast, and went out again — this time to the son who had never left.
+    heard  : So the father left his own feast and went out again, this time to the son who had never left.
+[OK   ] build-02-prodigal/n10b
+    caption: The older son's hurt poured out. All these years I have served you. I never disobeyed you. And you never gave 
+    heard  : The older son's hurt poured out. All these years I have served you. I never disobeyed you.  And you never gave
+[minor] build-02-prodigal/j4
+    caption: Lo, these many years do I serve thee, neither transgressed I at any time thy commandment: and yet thou never g
+    heard  : Lo, these many years do I serve thee, neither transgressed I at any time thy commandment,  and yet thou never 
+      ~ 'gavest' -> heard 'gaveest'   (sound match 100%)
+[OK   ] build-02-prodigal/n11
+    caption: The father didn't argue with him, either. Jesus gave him the last words of the story.
+    heard  : The Father didn't argue with Him, either. Jesus gave Him the last words of the story.  //
+[OK   ] build-02-prodigal/j2a
+    caption: Son, thou art ever with me, and all that I have is thine.
+    heard  : Son, thou art ever with me, and all that I have is thine.
+[minor] build-02-prodigal/j2b
+    caption: It was meet that we should make merry, and be glad: for this thy brother was dead, and is alive again; and was
+    heard  : It was meat that we should make merry, and be glad, for this thy brother was dead, and is alive again, and was
+      ~ 'meet' -> heard 'meat'   (sound match 100%)
+[OK   ] build-02-prodigal/n8
+    caption: Which one feels closest to where you are right now — the son who left, the father who ran to meet him, or the 
+    heard  : Which one feels closest to where you are right now. The son who left, the father who ran to meet  him, or the 
+
+0 segment(s) need an ear-check in build-02-prodigal

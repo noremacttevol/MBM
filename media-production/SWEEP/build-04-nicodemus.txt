@@ -1,0 +1,108 @@
+[OK   ] build-04-nicodemus/n0
+    caption: In Jerusalem there was a man named Nicodemus. He was a Pharisee, and more than that — a ruler of the Jews, a m
+    heard  : In Jerusalem, there was a man named Nicodemus. He was a Pharisee, and more than that, a ruler of  the Jews, a 
+[OK   ] build-04-nicodemus/n1
+    caption: So he came at night.
+    heard  : So he came at night.
+[OK   ] build-04-nicodemus/n2
+    caption: He knocked on the door in the dark, and the first thing he said was this.
+    heard  : He knocked on the door in the dark, and the first thing he said was this.
+[OK   ] build-04-nicodemus/s2
+    caption: Rabbi, we know that thou art a teacher come from God: for no man can do these miracles that thou doest, except
+    heard  : Rabbi, we know that thou art a teacher come from God,  for no man can do these miracles that thou doest, excep
+[OK   ] build-04-nicodemus/n2b
+    caption: Teacher, we know you have come from God, because no one could do what you do unless God were with him. Bible s
+    heard  : Teacher, we know you have come from God, because no one could do what you do unless God were  with him.  Bible
+[OK   ] build-04-nicodemus/n3a
+    caption: And Jesus didn't turn him away for coming at night. He didn't point out the fear. He skipped past the complime
+    heard  : And Jesus didn't turn him away for coming at night.  He didn't point out the fear.  He skipped past the compli
+[OK   ] build-04-nicodemus/j1
+    caption: Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God.
+    heard  : Verily, verily, I say unto thee, except a man be born again, he cannot see the kingdom of God.
+[OK   ] build-04-nicodemus/n3b
+    caption: That's where the phrase comes from — this conversation, this night. And notice who heard it first. Not a harde
+    heard  : That's where the phrase comes from. This conversation, this night. And notice who heard it first.  Not a harde
+[OK   ] build-04-nicodemus/n4
+    caption: Nicodemus took it literally.
+    heard  : Nicodemus took it literally.
+[OK   ] build-04-nicodemus/s4
+    caption: How can a man be born when he is old? can he enter the second time into his mother's womb, and be born?
+    heard  : How can a man be born when he is old?  Can he enter the second time into his mother's womb and be born?
+[OK   ] build-04-nicodemus/n4b
+    caption: How can a man be born when he is old, he asked — can he go back a second time and start over? Here was a maste
+    heard  : How can a man be born when he is old? He asked. Can he go back a second time and start over?  Here was a maste
+[minor] build-04-nicodemus/j2
+    caption: The wind bloweth where it listeth, and thou hearest the sound thereof, but canst not tell whence it cometh, an
+    heard  : The wind blowerth were at listeth, and thou hearest the sound thereof,  but canst not tell whence it cometh, a
+      ~ 'bloweth where it' -> heard 'blowerth were at'   (sound match 94%)
+      ~ 'whither' -> heard 'wither'   (sound match 100%)
+[OK   ] build-04-nicodemus/n5
+    caption: You can't see the wind. You only see what it moves — the trees bending, the flame leaning. That, Jesus said, i
+    heard  : You can't see the wind. You only see what it moves, the trees bending, the flame leaning.  That, Jesus said, i
+[minor] build-04-nicodemus/n6
+    caption: And something in Nicodemus gave way. Three words at a time, the formal questions of a scholar were falling awa
+    heard  : and something Enicademus gave way. Three words at a time. The formal questions of a scholar were  falling away
+      ~ 'in nicodemus' -> heard 'enicademus'   (sound match 100%)
+[OK   ] build-04-nicodemus/s9
+    caption: How can these things be?
+    heard  : How can these things be?
+[OK   ] build-04-nicodemus/n6b
+    caption: How can these things be. No title on it. No argument behind it. Just a tired, honest man finally asking what h
+    heard  : How can these things be? No title on it. No argument behind it. Just a tired, honest man finally asking  what 
+[OK   ] build-04-nicodemus/n7a
+    caption: And then Jesus said the words. The ones the whole world would come to know.
+    heard  : And then Jesus said the words, the ones the whole world would come to know.  //  //  //  //  //  //  //  //  /
+[OK   ] build-04-nicodemus/j3
+    caption: For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not per
+    heard  : For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not per
+[OK   ] build-04-nicodemus/n7b
+    caption: Those words weren't preached to a stadium. They were said quietly, at night, to one scared man who came with q
+    heard  : Those words weren't preached to a stadium. They were said quietly, at night, to one scared  man who came with 
+[OK   ] build-04-nicodemus/n8
+    caption: Then Jesus spoke about light and darkness — how people hide in the dark when they're afraid of what the light 
+    heard  : Then Jesus spoke about light and darkness, how people hide in the dark when they're afraid of what the light w
+[OK   ] build-04-nicodemus/n9
+    caption: Here's a detail worth keeping. Every time John's gospel mentions Nicodemus again, it adds the same tag — the o
+    heard  : Here's a detail worth keeping. Every time John's gospel mentions Nicodemus again,  it adds the same tag, the o
+[OK   ] build-04-nicodemus/n10
+    caption: Months later, the council met in broad daylight, furious, ready to condemn Jesus without a hearing. And one vo
+    heard  : Months later, the council met in broad daylight, furious, ready to condemn Jesus without a hearing,  and one v
+[minor] build-04-nicodemus/s51
+    caption: Doth our law judge any man, before it hear him, and know what he doeth?
+    heard  : Dothar law Judge any man, before it hear him, and know what he doeth?
+      ~ 'doth our' -> heard 'dothar'   (sound match 100%)
+[OK   ] build-04-nicodemus/n10b
+    caption: Does our law judge a man, he asked, before it hears him? It sounds mild. It wasn't. He was defending Jesus to 
+    heard  : Does our law judge a man? He asked before it hears him. It sounds mild. It wasn't. He was  defending Jesus to 
+
+Traceback (most recent call last):
+  File "/home/noremacttevol/Desktop/MBM/media-production/check_pronunciation.py", line 181, in <module>
+    check_build(d)
+  File "/home/noremacttevol/Desktop/MBM/media-production/check_pronunciation.py", line 162, in check_build
+    if check_line(text, spoken, voice, rate, pitch, label=f"{os.path.basename(bdir)}/{name}"):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noremacttevol/Desktop/MBM/media-production/check_pronunciation.py", line 117, in check_line
+    asyncio.run(say(spoken or caption, voice, rate, pitch, mp3))
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/noremacttevol/Desktop/MBM/media-production/check_pronunciation.py", line 55, in say
+    await edge_tts.Communicate(text, voice, rate=rate, pitch=pitch).save(out)
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/edge_tts/communicate.py", line 613, in save
+    async for message in self.stream():
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/edge_tts/communicate.py", line 588, in stream
+    async for message in self.__stream():
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/edge_tts/communicate.py", line 461, in __stream
+    async with aiohttp.ClientSession(
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/aiohttp/client.py", line 1488, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/aiohttp/client.py", line 1084, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 503, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=c050d4fa5b5647d7921600133820ce8f&Sec-MS-GEC=627671726B711FD3F1FD849D67ECACFDB452750D30D47F02BB59D6B3A929BA46&Sec-MS-GEC-Version=1-143.0.3650.75'

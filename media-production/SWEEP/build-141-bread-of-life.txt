@@ -1,0 +1,34 @@
+[OK   ] build-141-bread-of-life/n0
+    caption: A crowd had followed Jesus after He fed thousands with a few loaves. They wanted more bread. He gave them some
+    heard  : A crowd had followed Jesus after he fed thousands with a few loaves. They wanted more bread. He gave  them som
+[OK   ] build-141-bread-of-life/j1
+    caption: I am the bread of life: he that cometh to me shall never hunger; and he that believeth on me shall never thirs
+    heard  : I am the bread of life, he that cometh to me shall never hunger, and he that believeth on me shall never thirs
+[OK   ] build-141-bread-of-life/n1
+    caption: Not the kind you chew. The kind that satisfies the part of you food can't reach.
+    heard  : Not the kind you chew. The kind that satisfies the part of you food can't reach.
+[OK   ] build-141-bread-of-life/j2
+    caption: I am that bread of life.
+    heard  : I am that bread of life.
+[OK   ] build-141-bread-of-life/n2
+    caption: He said it again, plain and short. Not a man handing out bread — the bread itself. And then He reminded them w
+    heard  : He said it again, plain and short, not a man handing out bread, the bread itself.  And then he reminded them w
+[OK   ] build-141-bread-of-life/j49
+    caption: Your fathers did eat manna in the wilderness, and are dead.
+    heard  : Your fathers did eat manna in the wilderness, and are dead.
+[OK   ] build-141-bread-of-life/n2b
+    caption: Your ancestors ate bread out of heaven every morning in the desert, He told them, and they still died. That br
+    heard  : Your ancestors ate bread out of heaven every morning in the desert.  He told them, and they still died. That b
+[minor] build-141-bread-of-life/j3
+    caption: I am the living bread which came down from heaven: if any man eat of this bread, he shall live for ever: and t
+    heard  : I am the living bread which came down from heaven.  If any man eat of this bread, he shall live forever,  and 
+      ~ 'for ever' -> heard 'forever'   (sound match 100%)
+[minor] build-141-bread-of-life/n3
+    caption: He was speaking of Himself — given, like bread broken, so the world could have life.
+    heard  : He was speaking of himself, given, like breadbroken, so the world could have life.
+      ~ 'bread broken' -> heard 'breadbroken'   (sound match 100%)
+[OK   ] build-141-bread-of-life/card
+    caption: Come hungry. He is the bread that actually fills you.
+    heard  : Come hungry. He is the bread that actually fills you.
+
+0 segment(s) need an ear-check in build-141-bread-of-life

@@ -1,0 +1,60 @@
+[OK   ] build-64-pool-of-bethesda/n0
+    caption: By the sheep gate in Jerusalem there was a pool called Bethesda, ringed by five covered porches. And those por
+    heard  : By the sheep gate in Jerusalem, there was a pool called Bethesda,  ringed by five covered porches. And those p
+[BAD  ] build-64-pool-of-bethesda/n1
+    caption: One man had been lying there thirty-eight years. Let that number land. That was longer than most people in tha
+    heard  : One man had been lying there 38 years. Let that number land. That was longer than most people in  that world e
+     !! 'thirtyeight' -> heard '-'   (sound match 0%)
+[BAD  ] build-64-pool-of-bethesda/n2
+    caption: Jesus walked those porches, past hundreds of the suffering, and stopped at this one man. John says he knew — k
+    heard  : Jesus walked those porches, passed hundreds of the suffering, and stopped at this one man.  John says he knew.
+     !! 'past' -> heard 'passed'   (sound match 67%)
+[minor] build-64-pool-of-bethesda/j1
+    caption: Wilt thou be made whole?
+    heard  : Will thou be made whole?
+      ~ 'wilt' -> heard 'will'   (sound match 80%)
+[BAD  ] build-64-pool-of-bethesda/n3
+    caption: Do you want to be made well? After thirty-eight years, that is a real question. Healing would mean a new name,
+    heard  : Do you want to be made well? After 38 years, that is a real question. Healing would mean a new name,  new work
+     !! 'thirtyeight' -> heard '-'   (sound match 0%)
+[minor] build-64-pool-of-bethesda/s7
+    caption: Sir, I have no man, when the water is troubled, to put me into the pool: but while I am coming, another steppe
+    heard  : Sir, I have no man when the water is troubled to put me into the pool, but while I am coming,  another stepeth
+      ~ 'steppeth' -> heard 'stepeth'   (sound match 100%)
+[OK   ] build-64-pool-of-bethesda/n3b
+    caption: Sir, I have nobody to put me in the water when it stirs, he said. While I'm dragging myself toward it, somebod
+    heard  : Sir, I have nobody to put me in the water when it stirs," he said.  While I'm dragging myself toward it, someb
+[OK   ] build-64-pool-of-bethesda/j2
+    caption: Rise, take up thy bed, and walk.
+    heard  : Rise, take up thy bed, and walk.
+[BAD  ] build-64-pool-of-bethesda/n4
+    caption: Get up. Pick up your mat. Walk. No angel. No water. No race. The pool had nothing to do with it. And immediate
+    heard  : Get up, pick up your mat, walk, no angel, no water, no race, the pool had nothing to do with it,  and immediat
+     !! 'thirtyeight' -> heard '-'   (sound match 0%)
+[OK   ] build-64-pool-of-bethesda/n5
+    caption: It was the sabbath, so the rule-keepers stopped him at once — not to celebrate him, but to tell him:
+    heard  : It was the Sabbath, so the rulekeepers stopped him at once. Not to celebrate him, but to tell him.
+[OK   ] build-64-pool-of-bethesda/s10
+    caption: It is the sabbath day: it is not lawful for thee to carry thy bed.
+    heard  : It is the Sabbath day. It is not lawful for thee to carry thy bed.
+[BAD  ] build-64-pool-of-bethesda/n5b
+    caption: It's the sabbath. You're not allowed to carry that mat. A man walks for the first time in thirty-eight years a
+    heard  : It's the Sabbath. You're not allowed to carry that mat. A man walks for the first time in 38  years, and the f
+     !! 'thirtyeight' -> heard '-'   (sound match 0%)
+[OK   ] build-64-pool-of-bethesda/n6
+    caption: Later, Jesus found him in the temple — found him, again, the way he found the man born blind — and said to him
+    heard  : Later, Jesus found him in the temple, found him again the way he found the man born blind  and said to him.
+[OK   ] build-64-pool-of-bethesda/j14
+    caption: Behold, thou art made whole: sin no more, lest a worse thing come unto thee.
+    heard  : Behold, thou art made whole, sin no more, lest a worse thing come unto thee.
+[OK   ] build-64-pool-of-bethesda/n6b
+    caption: Look at you — you are whole. Now don't go back to the things that were destroying you. It is not a threat. It 
+    heard  : Look at you, you are whole. Now don't go back to the things that were destroying you.  It is not a threat. It 
+[OK   ] build-64-pool-of-bethesda/n7
+    caption: Thirty-eight years, and one question. Not: why are you still here. Not: whose fault is this. Just — do you wan
+    heard  : Thirty-eight years and one question.  Not, why are you still here?  Not, whose fault is this?  Just, do you wa
+[OK   ] build-64-pool-of-bethesda/card
+    caption: However long it has been for you — he is not put off by the years. He is still asking: do you want to be whole
+    heard  : However long it has been for you. He is not put off by the years. He is still asking,  do you want to be whole
+
+5 segment(s) need an ear-check in build-64-pool-of-bethesda

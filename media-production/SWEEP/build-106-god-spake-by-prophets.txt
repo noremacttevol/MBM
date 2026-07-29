@@ -1,0 +1,58 @@
+[OK   ] build-106-god-spake-by-prophets/n1
+    caption: For thousands of years, God had been speaking. Never all at once. Never the whole picture. But always, patient
+    heard  : For thousands of years, God had been speaking, never all at once, never the whole picture,  but always, patien
+[BAD  ] build-106-god-spake-by-prophets/jv1
+    caption: God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets,
+    heard  : God, who at sundry times and endivers manors spake in time,  pass them to the fathers by the prophets.
+      ~ 'in divers manners' -> heard 'endivers manors'   (sound match 100%)
+     !! 'past unto' -> heard 'pass them to'   (sound match 73%)
+[OK   ] build-106-god-spake-by-prophets/n2
+    caption: In many times, and in many different ways. To one he spoke from a bush that burned but would not burn up. To a
+    heard  : in many times and in many different ways, to one he spoke from a bush that burned but would not burn up,  to a
+[BAD  ] build-106-god-spake-by-prophets/n3
+    caption: To one he gave words to write on a scroll in the lamplight. Another he sent to cry out in the city gate to peo
+    heard  : to one he gave words to ride on a scroll in the lamplight. Another he sent to cry out in the city  gate to peo
+     !! 'write' -> heard 'ride'   (sound match 40%)
+[OK   ] build-106-god-spake-by-prophets/n4
+    caption: Century after century, messenger after messenger, each one carrying a piece of it. Never quite the whole. Neve
+    heard  : Century after century, messenger after messenger, each one carrying a piece of it.  Never quite the whole.  Ne
+[OK   ] build-106-god-spake-by-prophets/n5
+    caption: And then, after all the fragments, God did something he had never done. He stopped sending messages about hims
+    heard  : And then, after all the fragments, God did something he had never done.  He stopped sending messages about him
+[BAD  ] build-106-god-spake-by-prophets/jv2
+    caption: Hath in these last days spoken unto us by his Son.
+    heard  : Half in these last days spoken unto us by his son.
+     !! 'hath' -> heard 'half'   (sound match 33%)
+[minor] build-106-god-spake-by-prophets/sv5
+    caption: For unto which of the angels said he at any time,
+    heard  : Forend to which of the angels said he at any time.
+      ~ 'for unto' -> heard 'forend to'   (sound match 89%)
+[OK   ] build-106-god-spake-by-prophets/gv5
+    caption: Thou art my Son, this day have I begotten thee?
+    heard  : Thou art my son, this day have I begotten thee.
+[OK   ] build-106-god-spake-by-prophets/sv5b
+    caption: And again,
+    heard  : And again.
+[OK   ] build-106-god-spake-by-prophets/gv5b
+    caption: I will be to him a Father, and he shall be to me a Son?
+    heard  : I will be to him a father, and he shall be to me a son.
+[BAD  ] build-106-god-spake-by-prophets/nA
+    caption: Listen to who is talking there. That is the Father's own voice, saying it out loud: you are my Son. I will be 
+    heard  : Listen to who is talking there. That is the Father's own voice, saying it out loud.  You are my Son. I will be
+     !! 'a' -> heard 'his'   (sound match 0%)
+[minor] build-106-god-spake-by-prophets/n6
+    caption: Not another prophet with another piece. The Son. God's own last and clearest word, spoken not in fire on a mou
+    heard  : Not another prophet with another peace. The son, God's own last and clearest word,  spoken not in fire on a mo
+      ~ 'piece' -> heard 'peace'   (sound match 100%)
+[OK   ] build-106-god-spake-by-prophets/jv3
+    caption: Who being the brightness of his glory, and the express image of his person, and upholding all things by the wo
+    heard  : who being the brightness of his glory, and the express image of his person,  and upholding all things by the w
+[OK   ] build-106-god-spake-by-prophets/n7
+    caption: The exact likeness of God, in a face you could actually look at. If you have ever wondered what God is really 
+    heard  : the exact likeness of God in a face you could actually look at.  If you have ever wondered what God is really 
+[BAD  ] build-106-god-spake-by-prophets/card
+    caption: For ages God spoke in fragments; then he said it all in a Son. His clearest word about himself is a warm human
+    heard  : For ages, God spoke in fragments.  Then He said it all in a son.  His clearest word about Himself is a warm hu
+     !! 'where' -> heard 'or'   (sound match 67%)
+
+5 segment(s) need an ear-check in build-106-god-spake-by-prophets

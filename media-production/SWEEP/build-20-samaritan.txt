@@ -1,0 +1,77 @@
+[OK   ] build-20-samaritan/n1
+    caption: A scholar of the law stood up to test Jesus, and asked him a question.
+    heard  : A scholar of the law stood up to test Jesus and asked him a question.
+[OK   ] build-20-samaritan/s25
+    caption: Master, what shall I do to inherit eternal life?
+    heard  : Master, what shall I do to inherit eternal life?
+[OK   ] build-20-samaritan/n1b
+    caption: Teacher, what must I do to inherit eternal life? Jesus turned it straight back on him — what does the law say?
+    heard  : Teacher, what must I do to inherit eternal life?  Jesus turned it straight back on him.  What does the law say
+[minor] build-20-samaritan/s29
+    caption: And who is my neighbour?
+    heard  : And who is my neighbor?
+      ~ 'neighbour' -> heard 'neighbor'   (sound match 100%)
+[BAD  ] build-20-samaritan/n2
+    caption: It was the kind of question you ask when you are hoping the answer has limits. He wanted a line drawn, so he c
+    heard  : It was the kind of question you asked when you were hoping the answer has limits.  He wanted a line drawn, so 
+      ~ 'ask' -> heard 'asked'   (sound match 80%)
+     !! 'are' -> heard 'were'   (sound match 67%)
+[OK   ] build-20-samaritan/n3
+    caption: Jesus answered with a story. A man was traveling the steep, lonely road down to Jericho, a road so full of rob
+    heard  : Jesus answered with a story. A man was traveling the steep, lonely road down to Jericho, a road  so full of ro
+[OK   ] build-20-samaritan/n4
+    caption: Robbers were exactly what he found. They stripped him, beat him, and left him half dead in the dust beside the
+    heard  : robbers were exactly what he found. They stripped him, beat him, and left him half dead in the dust beside the
+[OK   ] build-20-samaritan/n5
+    caption: A priest came down that same road, saw the man, and crossed to the far side. Then a temple assistant came, loo
+    heard  : A priest came down that same road, saw the man, and crossed to the far side.  Then a temple assistant came, lo
+[OK   ] build-20-samaritan/n6
+    caption: These were the religious professionals, the men who knew the law best. Maybe they feared a bloody body would m
+    heard  : These were the religious professionals, the men who knew the law best.  Maybe they feared a bloody body would 
+[BAD  ] build-20-samaritan/n7
+    caption: Then a Samaritan came down the road. And the crowd listening to Jesus was raised to despise Samaritans. Differ
+    heard  : Then a Samaritan came down the road, and the crowd listening to Jesus was raised to  despise Samaritans. Diffe
+     !! 'an' -> heard 'and'   (sound match 67%)
+[OK   ] build-20-samaritan/n8
+    caption: A Samaritan was the last man in the world they expected to be the hero of the story.
+    heard  : A Samaritan was the last man in the world they expected to be the hero of the story.
+[OK   ] build-20-samaritan/n9
+    caption: He saw the beaten stranger. And the text says he was moved with compassion.
+    heard  : He saw the beaten stranger, and the text says he was moved with compassion.
+[OK   ] build-20-samaritan/n10
+    caption: He knelt down in the dirt beside a man his people were supposed to hate. He cleaned and bound the wounds, lift
+    heard  : He knelt down in the dirt beside a man his people were supposed to hate. He cleaned and  bound the wounds, lif
+[OK   ] build-20-samaritan/n11
+    caption: He brought him to an inn and cared for him through the night. In the morning he pressed two silver coins into 
+    heard  : He brought him to an inn and cared for him through the night. In the morning, he pressed  two silver coins int
+[OK   ] build-20-samaritan/j35
+    caption: Take care of him; and whatsoever thou spendest more, when I come again, I will repay thee.
+    heard  : Take care of him, and whatsoever thou spendest more, when I come again, I will repay thee."
+[OK   ] build-20-samaritan/n12
+    caption: And whatever more it costs, when I come back, I will repay you myself. He did not just help and move on. He ti
+    heard  : And whatever more it costs, when I come back, I will repay you myself. He did not just help and  move on. He t
+[OK   ] build-20-samaritan/n13
+    caption: Then Jesus turned the scholar's own question back on him, and asked which of the three men had been the neighb
+    heard  : Then Jesus turned the scholar's own question back on him, and asked which of the three men had been the neighb
+[OK   ] build-20-samaritan/j1
+    caption: Which now of these three, thinkest thou, was neighbour unto him that fell among the thieves?
+    heard  : Which now of these three, Thinkest thou, was neighbour unto him that fell among the thieves?
+[minor] build-20-samaritan/s37
+    caption: He that shewed mercy on him.
+    heard  : He that should mercy on him.
+      ~ 'shewed' -> heard 'should'   (sound match 75%)
+[OK   ] build-20-samaritan/n14
+    caption: The scholar could not even say the word Samaritan. He answered, the one who showed mercy. Jesus had flipped th
+    heard  : The scholar could not even say the word Samaritan. He answered, the one who showed mercy. Jesus  had flipped t
+[OK   ] build-20-samaritan/j2
+    caption: Go, and do thou likewise.
+    heard  : Go, and do thou likewise.
+[OK   ] build-20-samaritan/n15
+    caption: Stop asking who you are allowed to walk past. Go, and be the neighbor. That is how good he is. He will not eve
+    heard  : Stop asking who you are allowed to walk past.  Go and be the neighbor.  That is how good he is.  He will not e
+[minor] build-20-samaritan/card
+    caption: Everyone finds themselves somewhere on that road. Where are you on it right now?
+    heard  : Everyone finds themselves somewhere on that road.  Were you on it right now?
+      ~ 'where are' -> heard 'were'   (sound match 100%)
+
+2 segment(s) need an ear-check in build-20-samaritan

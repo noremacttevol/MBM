@@ -1,0 +1,69 @@
+[OK   ] build-70-temptations/n0
+    caption: Straight from the river, still carrying his Father's words — this is my beloved Son — Jesus was led by the Spi
+    heard  : Straight from the river, still carrying his father's words,  this is my beloved son.  Jesus was led by the Spi
+[BAD  ] build-70-temptations/n1
+    caption: He fasted forty days and forty nights. Mark that: he was not floating above any of it. He got hungrier every s
+    heard  : He fasted 40 days and 40 nights. Mark that. He was not floating above any of it. He got  hungrier every single
+     !! 'forty' -> heard '-'   (sound match 0%)
+     !! 'forty' -> heard '-'   (sound match 0%)
+[OK   ] build-70-temptations/s3
+    caption: If thou be the Son of God, command that these stones be made bread.
+    heard  : If thou be the Son of God, command that these stones be made bread.
+[OK   ] build-70-temptations/n2
+    caption: Hear what that little word IF is doing. Heaven had just said, this IS my Son. The very first attack was aimed 
+    heard  : Hear what that little word if is doing. Heaven had just said, this I.S. my son. The very first  attack was aim
+[OK   ] build-70-temptations/j1
+    caption: It is written, Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God.
+    heard  : It is written, Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God.
+[OK   ] build-70-temptations/n3
+    caption: Notice what he did NOT do. He did not argue. He did not use his own power. He answered with a line of scriptur
+    heard  : Notice what he did not do. He did not argue. He did not use his own power. He answered with a  line of Scriptu
+[minor] build-70-temptations/n4
+    caption: The second try was stranger. In a flash he was at the highest corner of the temple, the city far below — and t
+    heard  : The second triwist stranger, in a flash he was at the highest corner of the temple,  the city far below, and t
+      ~ 'try was' -> heard 'triwist'   (sound match 80%)
+[BAD  ] build-70-temptations/s6
+    caption: If thou be the Son of God, cast thyself down: for it is written, He shall give his angels charge concerning th
+    heard  : If thou be the Son of God cast thyself down, for it is written,  he shall give his angels charge concerning th
+     !! 'a' -> heard 'the'   (sound match 0%)
+[BAD  ] build-70-temptations/n4b
+    caption: Throw yourself down, it said — the angels are promised to catch you. Force your Father to prove himself, publi
+    heard  : Throw yourself down. It's said the angels are promised to catch you.  Force your father to prove himself publi
+     !! 'it' -> heard 'its'   (sound match 67%)
+[OK   ] build-70-temptations/j2
+    caption: It is written again, Thou shalt not tempt the Lord thy God.
+    heard  : It is written again, thou shalt not tempt the Lord thy God.
+[OK   ] build-70-temptations/n5
+    caption: Trust does not run experiments on the one it trusts. Then came the last offer, the biggest one. From a high mo
+    heard  : Trust does not run experiments on the one it trusts.  Then came the last offer, the biggest one.  From a high 
+[OK   ] build-70-temptations/s9
+    caption: All these things will I give thee, if thou wilt fall down and worship me.
+    heard  : All these things will I give thee, if thou wilt fall down and worship me.
+[OK   ] build-70-temptations/n5b
+    caption: All of it, yours, right now — one bow, to me. It was the crown without the cross. Everything he came to win, o
+    heard  : All of it, yours, right now, one bow to me.  It was the crown without the cross.  Everything he came to win, o
+[minor] build-70-temptations/j3
+    caption: Get thee hence, Satan: for it is written, Thou shalt worship the Lord thy God, and him only shalt thou serve.
+    heard  : Get the hence, Satan, for it is written, Thou shalt worship the Lord thy God, and Him only shalt thou serve.
+      ~ 'thee' -> heard 'the'   (sound match 100%)
+[OK   ] build-70-temptations/n6a
+    caption: Get away from me. Worship the Lord your God, and serve him only. He did not haggle with the offer, and he did 
+    heard  : Get away from me, worship the Lord your God, and serve Him only. He did not haggle with the offer,  and He did
+[minor] build-70-temptations/s11
+    caption: Then the devil leaveth him, and, behold, angels came and ministered unto him.
+    heard  : Then the devil leave with him, and behold, angels came and ministered unto him.
+      ~ 'leaveth' -> heard 'leave with'   (sound match 89%)
+[OK   ] build-70-temptations/n6
+    caption: And it was over. The devil left him — for a season. And angels came and ministered to him, the way dawn comes 
+    heard  : and it was over. The devil left him for a season. And Angels came and ministered to him.  The way dawn comes a
+[OK   ] build-70-temptations/s415
+    caption: For we have not an high priest which cannot be touched with the feeling of our infirmities; but was in all poi
+    heard  : for we have not an high priest which cannot be touched with the feeling of our infirmities,  but was in all po
+[OK   ] build-70-temptations/n7
+    caption: That is what the book of Hebrews is saying. We do not have a Savior who cannot understand our weakness — he wa
+    heard  : That is what the book of Hebrews is saying. We do not have a Savior who cannot understand  our weakness. He wa
+[OK   ] build-70-temptations/card
+    caption: He has stood where you stand — hungry, alone, offered every shortcut — and he held. Ask him. He knows how to h
+    heard  : He has stood where you stand. Hungry, alone, offered every shortcut, and he held. Ask him.  He knows how to he
+
+3 segment(s) need an ear-check in build-70-temptations

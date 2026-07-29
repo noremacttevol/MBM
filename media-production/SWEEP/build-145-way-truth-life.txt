@@ -1,0 +1,43 @@
+[OK   ] build-145-way-truth-life/n0
+    caption: In the upper room, the night before the cross, Jesus told His disciples He was going to prepare a place for th
+    heard  : In the upper room, the night before the cross, Jesus told his disciples he was going to prepare a place for th
+[OK   ] build-145-way-truth-life/jv2
+    caption: In my Father's house are many mansions: if it were not so, I would have told you. I go to prepare a place for 
+    heard  : In my father's house are many mansions, if it were not so, I would have told you.  I go to prepare a place for
+[OK   ] build-145-way-truth-life/n0b
+    caption: There's plenty of room in my Father's house, He told them. I'm going ahead to get your place ready — and I'm c
+    heard  : There's plenty of room in my father's house, he told them.  I'm going ahead to get your place ready, and I'm c
+[minor] build-145-way-truth-life/s5
+    caption: Lord, we know not whither thou goest; and how can we know the way?
+    heard  : Lord, we know not whether thou goest, and how can we know the way?
+      ~ 'whither' -> heard 'whether'   (sound match 100%)
+[OK   ] build-145-way-truth-life/n1
+    caption: Thomas spoke up — Lord, we don't know where You're going, so how can we know the way?
+    heard  : Thomas spoke up,  Lord, we don't know where you're going.  So how can we know the way?  //
+[BAD  ] build-145-way-truth-life/sf6
+    caption: Jesus saith unto him,
+    heard  : Jesus said unto him.
+     !! 'saith' -> heard 'said'   (sound match 40%)
+[OK   ] build-145-way-truth-life/j1a
+    caption: I am the way, the truth, and the life:
+    heard  : I am the way, the truth, and the life.
+[OK   ] build-145-way-truth-life/n2a
+    caption: Not one way among many.
+    heard  : Not one way among many.
+[OK   ] build-145-way-truth-life/n2b
+    caption: The way itself. The truth itself. The life itself — standing right there in the room with them.
+    heard  : The way itself. The truth itself. The life itself, standing right there in the room with them.
+[OK   ] build-145-way-truth-life/j1b
+    caption: no man cometh unto the Father, but by me.
+    heard  : No man cometh unto the Father, but by me.
+[OK   ] build-145-way-truth-life/n3a
+    caption: The door to the Father isn't a map to find.
+    heard  : The door to the Father isn't a map to find.
+[OK   ] build-145-way-truth-life/n3b
+    caption: It's a person to follow.
+    heard  : It's a person to follow.
+[OK   ] build-145-way-truth-life/card
+    caption: Stop looking for the road. Walk with Him.
+    heard  : Stop looking for the road. Walk with him.
+
+1 segment(s) need an ear-check in build-145-way-truth-life

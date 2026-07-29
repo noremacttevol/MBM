@@ -1,0 +1,51 @@
+[OK   ] build-104-boy-samuel/n1
+    caption: In those days the word of the Lord was rare. People had stopped hearing from God, and it was a quiet, dim time
+    heard  : In those days the word of the Lord was rare. People had stopped hearing from God,  and it was a quiet, dim tim
+[OK   ] build-104-boy-samuel/n2
+    caption: Samuel was only a child, given to serve in the tabernacle. He lay asleep on his mat near the holy place while 
+    heard  : Samuel was only a child, given to serve in the tabernacle.  He lay asleep on his mat near the holy place while
+[BAD  ] build-104-boy-samuel/n3
+    caption: And in the dark, a voice called his name. Samuel. He sat straight up. He thought it was old Eli needing him, s
+    heard  : and in the dark, a voice called his name. Samuel, he sat straight up. He thought it was old,  e-lying needing 
+     !! 'eli' -> heard 'elying'   (sound match 40%)
+[BAD  ] build-104-boy-samuel/s5a
+    caption: Here am I; for thou calledst me.
+    heard  : Here am I, for they'll call us me.
+     !! 'thou calledst' -> heard 'theyll call us'   (sound match 71%)
+[OK   ] build-104-boy-samuel/n4a
+    caption: Here I am — you called me. A boy standing in the doorway in the middle of the night, ready to work. But the ol
+    heard  : Here I am. You called me. A boy standing in the doorway in the middle of the night, ready to work.  But the ol
+[OK   ] build-104-boy-samuel/s5b
+    caption: I called not; lie down again.
+    heard  : I called not. Lie down again.
+[OK   ] build-104-boy-samuel/n4
+    caption: But Eli said, I did not call you. Go back and lie down. So he did. And the voice came again — Samuel — and aga
+    heard  : But Eli said, I did not call you. Go back and lie down. So he did. And the voice came again.  Samuel. And agai
+[OK   ] build-104-boy-samuel/n5
+    caption: Then Eli understood. This was no dream, and it was not his voice. It was God himself, calling the child. So th
+    heard  : Then Eli understood. This was no dream, and it was not his voice. It was God himself, calling the child.  So t
+[OK   ] build-104-boy-samuel/s9
+    caption: Go, lie down: and it shall be, if he call thee, that thou shalt say, Speak, LORD; for thy servant heareth.
+    heard  : Go lie down, and it shall be,  if he call thee, that thou shalt say, speak, Lord, for thy servant heareth.
+[BAD  ] build-104-boy-samuel/n6
+    caption: Do not run to me, Eli told him. Go lie back down. And if the voice comes again, answer it yourself — say, spea
+    heard  : Do not run to me, Eli told him. Go lie back down. And if the voice comes again, answer it yourself.  Say, spea
+     !! 'lay' -> heard 'laid'   (sound match 50%)
+[OK   ] build-104-boy-samuel/jv10
+    caption: Samuel, Samuel.
+    heard  : Samuel, Samuel
+[minor] build-104-boy-samuel/ns
+    caption: Speak; for thy servant heareth.
+    heard  : Speak, for thy servant hereth.
+      ~ 'heareth' -> heard 'hereth'   (sound match 100%)
+[OK   ] build-104-boy-samuel/n7
+    caption: Speak — I am listening. That was all God had been waiting for. A heart small enough and open enough to stop ru
+    heard  : Speak, I am listening.  That was all God had been waiting for.  A heart small enough and open enough to stop r
+[OK   ] build-104-boy-samuel/n8
+    caption: Samuel grew, and the Lord was with him, and let none of his words fall to the ground. The child who learned to
+    heard  : Samuel grew, and the Lord was with him, and let none of his words fall to the ground.  The child who learned t
+[OK   ] build-104-boy-samuel/card
+    caption: God called a child by name, in the dark, and waited until he was ready to listen. He is patient like that stil
+    heard  : God called a child by name in the dark and waited until he was ready to listen.  He is patient like that still
+
+3 segment(s) need an ear-check in build-104-boy-samuel

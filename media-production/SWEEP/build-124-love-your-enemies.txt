@@ -1,0 +1,48 @@
+[OK   ] build-124-love-your-enemies/n1
+    caption: On a green hillside above the Sea of Galilee, Jesus sat down to teach, and a whole countryside climbed up to l
+    heard  : On a green hillside above the Sea of Galilee, Jesus sat down to teach, and a whole countryside  climbed up to 
+[minor] build-124-love-your-enemies/jv43
+    caption: Ye have heard that it hath been said, Thou shalt love thy neighbour, and hate thine enemy.
+    heard  : ye have heard that it hath been said, thou shalt love thy neighbor, and hate thine enemy.
+      ~ 'neighbour' -> heard 'neighbor'   (sound match 100%)
+[minor] build-124-love-your-enemies/n2
+    caption: You have heard it said, he began — love your neighbour, and hate your enemy. Everyone on that hillside knew th
+    heard  : You have heard it said, He began, love your neighbor, and hate your enemy. Everyone on that  hillside knew tha
+      ~ 'neighbour' -> heard 'neighbor'   (sound match 100%)
+[OK   ] build-124-love-your-enemies/jvA
+    caption: But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for 
+    heard  : But I say unto you, love your enemies, bless them that curse you, do good to them that hate you, and pray for 
+[minor] build-124-love-your-enemies/n3
+    caption: Not tolerate them. Not stay out of their way. Bless. Do good. Pray. Every one of those is something you go and
+    heard  : Not tolerate them. Not stay out of their way. Bless. Do good. Pray. Every one of those is something  you go an
+      ~ 'aimed straight at' -> heard 'amstrate it'   (sound match 77%)
+[minor] build-124-love-your-enemies/n4
+    caption: He has every right to answer coldness with coldness. That is the old arithmetic, and nobody would blame him fo
+    heard  : He has every right to answer coldness with coldness. That is the old arithmetic, and nobody would blame  him f
+      ~ 'rains' -> heard 'reins'   (sound match 100%)
+[OK   ] build-124-love-your-enemies/n5
+    caption: And at night, when the work is done and no one is watching, he does the thing Jesus asked that no one ever see
+    heard  : And at night, when the work is done and no one is watching,  he does the thing Jesus asked that no one ever se
+[OK   ] build-124-love-your-enemies/n6
+    caption: Why would Jesus ask for something this unreasonable? He was not pretending enemies don't hurt. He gave his rea
+    heard  : Why would Jesus ask for something this unreasonable? He was not pretending enemies don't hurt.  He gave his re
+[minor] build-124-love-your-enemies/jvB
+    caption: That ye may be the children of your Father which is in heaven: for he maketh his sun to rise on the evil and o
+    heard  : That ye may be the children of your Father which is in heaven, for he mocketh his son to rise on the evil and 
+      ~ 'maketh' -> heard 'mocketh'   (sound match 89%)
+      ~ 'sun' -> heard 'son'   (sound match 100%)
+[minor] build-124-love-your-enemies/n7
+    caption: Look at the sky, he was saying. Your Father's sun came up this morning over every field in the valley — the ki
+    heard  : Look at the sky, he was saying. Your father's son came up this morning over every field in the  valley, the ki
+      ~ 'sun' -> heard 'son'   (sound match 100%)
+[OK   ] build-124-love-your-enemies/jv46
+    caption: For if ye love them which love you, what reward have ye? do not even the publicans the same?
+    heard  : For if you love them which love you, what reward have ye?  Do not even the publicans the same.
+[OK   ] build-124-love-your-enemies/n8
+    caption: If you only love the people who love you back, he asked, what credit is that? Even the tax collectors manage t
+    heard  : If you only love the people who love you back, he asked, what credit is that? Even the tax collectors manage t
+[OK   ] build-124-love-your-enemies/card
+    caption: Jesus never said your enemy deserves it. He said this is how the family likeness shows. Who is the hardest per
+    heard  : Jesus never said your enemy deserves it.  He said this is how the family likeness shows.  Who is the hardest p
+
+0 segment(s) need an ear-check in build-124-love-your-enemies

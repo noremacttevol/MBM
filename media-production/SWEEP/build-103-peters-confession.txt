@@ -1,0 +1,54 @@
+[BAD  ] build-103-peters-confession/n1
+    caption: Jesus had brought his disciples a long way north, to a quiet place far from the crowds, up under a great cliff
+    heard  : Jesus had brought his disciples a long way north to a quiet place far from the crowds,  up under a great cliff
+     !! '-' -> heard 'jesus had brought his disciples a long way north to a quiet place far from the crowds'   (sound match 0%)
+[OK   ] build-103-peters-confession/jv13
+    caption: Whom do men say that I the Son of man am?
+    heard  : Whom do men say that I the Son of Man am?
+[OK   ] build-103-peters-confession/n2
+    caption: It was an easy question at first. What are people saying? And they had plenty of answers ready.
+    heard  : It was an easy question at first. What are people saying? And they had plenty of answers ready.
+[minor] build-103-peters-confession/s14
+    caption: Some say that thou art John the Baptist: some, Elias; and others, Jeremias, or one of the prophets.
+    heard  : Some say that thou art John the Baptist, some Elias, and others Jeremiah's, or one of the prophets.
+      ~ 'jeremias' -> heard 'jeremiahs'   (sound match 89%)
+[BAD  ] build-103-peters-confession/n3
+    caption: Some say you are John the Baptist, they told him. Some say Elijah come back. Others, Jeremiah, or one of the o
+    heard  : Some say you were John the Baptist, they told him. Some say Elijah come back. Others, Jeremiah,  or one of the
+     !! 'are' -> heard 'were'   (sound match 67%)
+[OK   ] build-103-peters-confession/jv15
+    caption: But whom say ye that I am?
+    heard  : But whom say ye that I am?
+[OK   ] build-103-peters-confession/n4
+    caption: And there it was. Not what have you heard. Not what is the crowd saying. But you — who do you say that I am? T
+    heard  : And there it was. Not what have you heard. Not what is the crowd saying. But you, who do you say that I am?  T
+[OK   ] build-103-peters-confession/np
+    caption: And Simon Peter answered him.
+    heard  : And Simon Peter answered him.
+[OK   ] build-103-peters-confession/sp16
+    caption: Thou art the Christ, the Son of the living God.
+    heard  : Thou art the Christ, the Son of the living God.
+[BAD  ] build-103-peters-confession/n5
+    caption: Not a prophet. Not a teacher. The Christ — the promised one — the Son of the living God himself. Peter said ou
+    heard  : Not a prophet, not a teacher, the Christ, the Promised One, the Son of the Living God Himself.  Peter set out 
+     !! 'said' -> heard 'set'   (sound match 50%)
+      ~ 'halfdared' -> heard 'half dared'   (sound match 100%)
+[minor] build-103-peters-confession/jv17
+    caption: Blessed art thou, Simon Barjona: for flesh and blood hath not revealed it unto thee, but my Father which is in
+    heard  : Blessed art thou, Simon bargeona, for flesh and blood hath not revealed it unto thee, but my Father which is i
+      ~ 'barjona' -> heard 'bargeona'   (sound match 75%)
+[minor] build-103-peters-confession/n6
+    caption: You did not work this out on your own, Jesus told him. My Father in heaven showed it to you. This kind of know
+    heard  : You did not work this out on your own. Jesus told them, my Father in heaven showed it to you.  This kind of kn
+      ~ 'him' -> heard 'them'   (sound match 80%)
+[OK   ] build-103-peters-confession/jv18
+    caption: And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hel
+    heard  : And I say also unto thee, that thou art Peter, and upon this rock I will build my church,  and the gates of he
+[OK   ] build-103-peters-confession/n7
+    caption: On this — on knowing who he really is — he would build something that hell itself could never tear down. Every
+    heard  : on this, on knowing who he really is. He would build something that hell itself could never tear down.  Everyt
+[OK   ] build-103-peters-confession/card
+    caption: The crowds had their opinions; Peter had an answer he would stake his life on. Jesus is still asking the one q
+    heard  : The crowds had their opinions. Peter had an answer he would stake his life on. Jesus is still asking  the one 
+
+3 segment(s) need an ear-check in build-103-peters-confession

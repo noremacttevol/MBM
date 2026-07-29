@@ -1,0 +1,42 @@
+[OK   ] build-165-laying-on-hands/n1
+    caption: A wave of faith had swept through Samaria. Whole crowds had heard the good news, believed it with glad hearts,
+    heard  : A wave of faith had swept through Samaria. Whole crowds had heard the good news,  believed it with glad hearts
+[OK   ] build-165-laying-on-hands/n2
+    caption: Word of it reached the apostles back in Jerusalem. And notice their response: they did not simply send a lette
+    heard  : Word of it reached the apostles back in Jerusalem. And notice their response. They did not simply  send a lett
+[OK   ] build-165-laying-on-hands/kv14
+    caption: Now when the apostles which were at Jerusalem heard that Samaria had received the word of God, they sent unto 
+    heard  : Now, when the apostles which were at Jerusalem heard that Samaria had received the word of God,  they sent unt
+[BAD  ] build-165-laying-on-hands/s15
+    caption: Who, when they were come down, prayed for them, that they might receive the Holy Ghost:
+    heard  : Who, when they would come down, prayed for them that they might receive the Holy Ghost?
+     !! 'were' -> heard 'would'   (sound match 40%)
+[OK   ] build-165-laying-on-hands/n3
+    caption: When the two arrived, they prayed over the new believers, asking that they might receive the Holy Ghost. And h
+    heard  : When the two arrived, they prayed over the new believers, asking that they might receive the holy  ghost. And 
+[OK   ] build-165-laying-on-hands/s16
+    caption: For as yet he was fallen upon none of them: only they were baptized in the name of the Lord Jesus.
+    heard  : For as yet he was fallen upon none of them. Only they were baptized in the name of the Lord Jesus.
+[OK   ] build-165-laying-on-hands/n4
+    caption: So the water alone had not been enough. Their faith was sincere and their baptism was real, yet the promised g
+    heard  : So the water alone had not been enough. Their faith was sincere and their baptism was real,  yet the promised 
+[OK   ] build-165-laying-on-hands/n5
+    caption: Then Peter and John did the simple, deliberate thing Luke records so plainly. They laid their hands on each be
+    heard  : Then Peter and John did the simple, deliberate thing Luke records so plainly. They laid their hands on each be
+[BAD  ] build-165-laying-on-hands/kv17
+    caption: Then laid they their hands on them, and they received the Holy Ghost.
+    heard  : Then laid their hands on them and they received the holy ghost.
+     !! 'they' -> heard '-'   (sound match 0%)
+[BAD  ] build-165-laying-on-hands/n6
+    caption: Here is the quiet study gem. The gift of the Holy Ghost did not arrive by sincerity alone, or by baptism alone
+    heard  : Here is the quiet study, Jim. The gift of the Holy Ghost did not arrive by sincerity alone,  or by baptism alo
+     !! 'gem' -> heard 'jim'   (sound match 50%)
+      ~ 'travelled' -> heard 'traveled'   (sound match 100%)
+[OK   ] build-165-laying-on-hands/n7
+    caption: And that same gift is still offered to you, by that same pattern. Faith and baptism open the door, and then, b
+    heard  : And that same gift is still offered to you by that same pattern. Faith and baptism open the door,  and then by
+[OK   ] build-165-laying-on-hands/card
+    caption: Samaria believed and was baptized, but the Holy Ghost came only when the apostles laid their hands on them. Th
+    heard  : Samaria believed and was baptized, but the Holy Ghost came only when the Apostles laid  their hands on them.  
+
+3 segment(s) need an ear-check in build-165-laying-on-hands

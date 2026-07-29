@@ -1,0 +1,42 @@
+[OK   ] build-129-nazareth-only-a-few/n0
+    caption: Jesus went back to Nazareth, the town that watched Him grow up. He taught in the synagogue.
+    heard  : Jesus went back to Nazareth, the town that watched him grow up.  He taught in the synagogue.
+[minor] build-129-nazareth-only-a-few/s3
+    caption: Is not this the carpenter, the son of Mary, the brother of James, and Joses, and of Juda, and Simon? and are n
+    heard  : Is not this the carpenter, the son of Mary, the brother of James, and Jose's, and of Judah, and Simon,  and ar
+      ~ 'juda' -> heard 'judah'   (sound match 80%)
+[OK   ] build-129-nazareth-only-a-few/n1
+    caption: But the people who'd known Him as a boy couldn't believe. They took offense at Him — and their unbelief became
+    heard  : But the people who'd known him as a boy couldn't believe. They took offense at him, and their unbelief became 
+[minor] build-129-nazareth-only-a-few/jv4
+    caption: A prophet is not without honour, but in his own country, and among his own kin, and in his own house.
+    heard  : A prophet is not without honor, but in his own country, and among his own kin, and in his own house.
+      ~ 'honour' -> heard 'honor'   (sound match 100%)
+[OK   ] build-129-nazareth-only-a-few/n1b
+    caption: A prophet gets honored everywhere, He said — everywhere except home. Except among his own relatives. Except in
+    heard  : A prophet gets honored everywhere. He said, everywhere except home. Except among his own relatives.  Except in
+[OK   ] build-129-nazareth-only-a-few/n2
+    caption: He could do only a few mighty works there. Not because His power ran out, but because they wouldn't receive it
+    heard  : He could do only a few mighty works there. Not because his power ran out, but because they wouldn't  receive i
+[BAD  ] build-129-nazareth-only-a-few/s1
+    caption: And he could there do no mighty work, save that he laid his hands upon a few sick folk, and healed them. And h
+    heard  : And he could they do no mighty work, save that he laid his hands upon a few sick folk, and heal them.  And he 
+     !! 'there' -> heard 'they'   (sound match 67%)
+      ~ 'healed' -> heard 'heal'   (sound match 80%)
+      ~ 'marvelled' -> heard 'marveled'   (sound match 100%)
+[OK   ] build-129-nazareth-only-a-few/n3
+    caption: He still healed the few who came. Even amazement at their doubt didn't stop His mercy.
+    heard  : He still healed the few who came. Even amazement at their doubt didn't stop his mercy.  //  //  //  //  //  //
+[BAD  ] build-129-nazareth-only-a-few/n3b
+    caption: A few sick folk. That is all Nazareth brought Him, and He laid His hands on every one of them. The mercy never
+    heard  : A fusic folk that his own Nazareth brought him, and he laid his hands on every one of them.  The mercy never s
+      ~ 'few sick' -> heard 'fusic'   (sound match 75%)
+     !! 'is all' -> heard 'his own'   (sound match 33%)
+[OK   ] build-129-nazareth-only-a-few/n4
+    caption: Faith opens the door. Where people believed, even a little, He worked.
+    heard  : Faith opens the door, where people believed, even a little, he worked.
+[OK   ] build-129-nazareth-only-a-few/card
+    caption: He healed the few who reached out. The door is the same today — believe, and let Him work.
+    heard  : He healed the few who reached out. The door is the same today, believe, and let him work.
+
+2 segment(s) need an ear-check in build-129-nazareth-only-a-few

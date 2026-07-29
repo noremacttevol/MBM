@@ -1,0 +1,40 @@
+[OK   ] build-164-unity-of-faith/n1
+    caption: When the risen Lord returned to heaven, he did not leave his church leaderless and on its own. From above, he 
+    heard  : When the risen Lord returned to heaven, He did not leave His church leaderless and on its own.  From above, He
+[OK   ] build-164-unity-of-faith/kv11
+    caption: And he gave some, apostles; and some, prophets; and some, evangelists; and some, pastors and teachers;
+    heard  : And he gave some apostles and some prophets and some evangelists and some pastors and teachers.
+[OK   ] build-164-unity-of-faith/n2
+    caption: He gave them for a reason. Their whole calling was to mend and mature the ordinary believers — to do the work 
+    heard  : He gave them for a reason. Their whole calling was to mend and mature the ordinary believers,  to do the work 
+[OK   ] build-164-unity-of-faith/n3
+    caption: So the people were never meant to be a scattered crowd. Taught and strengthened, they were knit together, grow
+    heard  : So the people were never meant to be a scattered crowd.  Taught and strengthened.  They were knit together, gr
+[OK   ] build-164-unity-of-faith/n4
+    caption: And there was a destination in view. All of them were being drawn toward the same place — one shared faith, on
+    heard  : And there was a destination in view. All of them were being drawn toward the same place.  One shared faith, on
+[minor] build-164-unity-of-faith/kv13
+    caption: Till we all come in the unity of the faith, and of the knowledge of the Son of God, unto a perfect man, unto t
+    heard  : Till we all come in the unity of the faith, and of the knowledge of the Son of God unto  a perfect man unto th
+      ~ 'fulness' -> heard 'fullness'   (sound match 100%)
+[minor] build-164-unity-of-faith/s14
+    caption: That we henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine, by t
+    heard  : that we henceforth be no more children, tossed to and fro,  and carried about with every wind of doctrine by t
+      ~ 'sleight' -> heard 'slight'   (sound match 100%)
+[minor] build-164-unity-of-faith/n5
+    caption: Paul set the opposite right beside it. Without that steady leading, believers stay children — pushed back and 
+    heard  : Paul set the opposite right beside it. Without that steady leading, believers stayed children,  pushed back an
+      ~ 'stay' -> heard 'stayed'   (sound match 86%)
+[BAD  ] build-164-unity-of-faith/n6
+    caption: Here is the quiet study gem. If those leaders were given until we ALL arrive at that unity, and the church has
+    heard  : Here is the quiet study, Jim. If those leaders were given until we all arrive at that unity,  and the Church h
+     !! 'gem' -> heard 'jim'   (sound match 50%)
+[BAD  ] build-164-unity-of-faith/n7
+    caption: And that is where it leaves you. You were never meant to grow up alone, or to be blown about by whatever is ne
+    heard  : And that is where it leaves you. You were never meant to grow up alone, or to be blown about by  whatever is n
+     !! 'are' -> heard 'were'   (sound match 67%)
+[OK   ] build-164-unity-of-faith/card
+    caption: The risen Lord gave his church apostles and prophets, pastors and teachers — to build his people up until they
+    heard  : The risen Lord gave His church apostles and prophets, pastors and teachers, to build His people  up until they
+
+2 segment(s) need an ear-check in build-164-unity-of-faith

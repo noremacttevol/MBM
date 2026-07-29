@@ -1,0 +1,25 @@
+[minor] build-197-sons-and-daughters-prophesy/n0
+    caption: The prophet Joel looked down the long corridor of time and described a day the LORD promised — not for a few i
+    heard  : The Prophet Joel looked down the long corridor of time and described today the Lord promised,  not for a few i
+      ~ 'a day' -> heard 'today'   (sound match 80%)
+[OK   ] build-197-sons-and-daughters-prophesy/s1
+    caption: And it shall come to pass afterward, that I will pour out my spirit upon all flesh; and your sons and your dau
+    heard  : and it shall come to pass afterward that I will pour out my spirit upon all flesh,  and your sons and your dau
+[minor] build-197-sons-and-daughters-prophesy/s2
+    caption: And also upon the servants and upon the handmaids in those days will I pour out my spirit.
+    heard  : and also upon the servants and upon the handmaids in those days while I pour out my Spirit.
+      ~ 'will' -> heard 'while'   (sound match 100%)
+[OK   ] build-197-sons-and-daughters-prophesy/n1
+    caption: Not stopped by age or status — every kind of person, filled with the same Spirit.
+    heard  : Not stopped by age or status. Every kind of person, filled with the same spirit.
+[OK   ] build-197-sons-and-daughters-prophesy/n2
+    caption: Decades later, on the day of Pentecost, the apostle Peter stood and said this promise had arrived. The Spirit 
+    heard  : Decades later, on the day of Pentecost, the apostle Peter stood and said this promise had  arrived.  The Spiri
+[OK   ] build-197-sons-and-daughters-prophesy/n3
+    caption: The promise was never meant to be locked in one building or one office. It was poured out — freely, widely, fo
+    heard  : The promise was never meant to be locked in one building or one office. It was poured out, freely,  widely, fo
+[OK   ] build-197-sons-and-daughters-prophesy/card
+    caption: The promise was all flesh. That includes you. The Spirit is offered — receive Him.
+    heard  : The promise was all flesh. That includes you. The Spirit is offered. Receive Him.
+
+0 segment(s) need an ear-check in build-197-sons-and-daughters-prophesy

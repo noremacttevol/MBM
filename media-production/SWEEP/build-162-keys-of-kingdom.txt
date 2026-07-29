@@ -1,0 +1,45 @@
+[OK   ] build-162-keys-of-kingdom/n1
+    caption: Far to the north, at a rocky place called Caesarea Philippi, Jesus stopped with his disciples and put a pierci
+    heard  : Far to the north, at a rocky place called Caesarea Philippi, Jesus stopped with his disciples  and put a pierc
+[OK   ] build-162-keys-of-kingdom/jv15
+    caption: But whom say ye that I am?
+    heard  : But whom say ye that I am?
+[OK   ] build-162-keys-of-kingdom/s16
+    caption: Thou art the Christ, the Son of the living God.
+    heard  : Thou art the Christ, the Son of the living God.
+[OK   ] build-162-keys-of-kingdom/n2
+    caption: It was Simon Peter, the fisherman, who answered for them all. You are the Christ, he said, the Son of the livi
+    heard  : It was Simon Peter, the fisherman, who answered for them all,  you are the Christ, he said, the Son of the liv
+[OK   ] build-162-keys-of-kingdom/n3
+    caption: Then Jesus said something that would change Simon's life. He gave him a new name — Peter, which means a rock —
+    heard  : Then Jesus said something that would change Simon's life. He gave him a new name. Peter,  which means a rock, 
+[OK   ] build-162-keys-of-kingdom/kv18
+    caption: And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hel
+    heard  : And I say also unto thee, that thou art Peter, and upon this rock I will build my church,  and the gates of he
+[OK   ] build-162-keys-of-kingdom/n4
+    caption: His church, he called it — his own gathered people, built on a firm foundation, and so strong that not even th
+    heard  : His church, he called it, his own gathered people, built on a firm foundation, and so strong that  not even th
+[minor] build-162-keys-of-kingdom/n5
+    caption: That is a staggering promise. Empires would fall, storms would come, the powers of the grave itself would batt
+    heard  : That is a staggering promise. Empires would fall, storms would come, the powers of the grave itself  would bat
+      ~ 'men' -> heard 'man'   (sound match 100%)
+[OK   ] build-162-keys-of-kingdom/n6
+    caption: But Jesus was not finished. He would not leave his church without a way to be led. So he turned to Peter and p
+    heard  : But Jesus was not finished. He would not leave his church without a way to be led.  So he turned to Peter and 
+[OK   ] build-162-keys-of-kingdom/kv19
+    caption: And I will give unto thee the keys of the kingdom of heaven: and whatsoever thou shalt bind on earth shall be 
+    heard  : and I will give unto thee the keys of the kingdom of heaven,  and whatsoever thou shalt bind on earth shall be
+[minor] build-162-keys-of-kingdom/n7
+    caption: Keys open and close, lock and unlock, admit and secure. To hold the keys of the kingdom is to carry real autho
+    heard  : Keys open and close, lock and unlock, admit and secure.  To hold the keys of the kingdom is to carry real auth
+      ~ 'honoured' -> heard 'honored'   (sound match 100%)
+      ~ 'men' -> heard 'man'   (sound match 100%)
+[OK   ] build-162-keys-of-kingdom/n8
+    caption: So Jesus did not leave his people leaderless, or his church without authority. He built it on rock and placed 
+    heard  : So Jesus did not leave his people leaderless, or his church without authority.  He built it on rock and placed
+[minor] build-162-keys-of-kingdom/card
+    caption: Jesus built his church on rock and gave Peter the keys of the kingdom — real authority, binding on earth and i
+    heard  : Jesus built His church on rock and gave Peter the keys of the kingdom, real authority, binding  on earth and i
+      ~ 'men' -> heard 'man'   (sound match 100%)
+
+0 segment(s) need an ear-check in build-162-keys-of-kingdom

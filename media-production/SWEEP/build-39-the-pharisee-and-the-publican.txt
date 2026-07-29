@@ -1,0 +1,71 @@
+[OK   ] build-39-the-pharisee-and-the-publican/s9
+    caption: And he spake this parable unto certain which trusted in themselves that they were righteous, and despised othe
+    heard  : And he spake this parable unto certain which trusted in themselves that they were righteous, and despised othe
+[minor] build-39-the-pharisee-and-the-publican/n1
+    caption: Jesus told this story to a certain kind of man. The kind who was sure he was one of the good ones, and just as
+    heard  : Jesus told this story to a certain kind of man, the kind who was sure he was one of the good ones,  and just a
+      ~ 'as sure' -> heard 'assured'   (sound match 80%)
+[OK   ] build-39-the-pharisee-and-the-publican/jv10
+    caption: Two men went up into the temple to pray; the one a Pharisee, and the other a publican.
+    heard  : Two men went up into the temple to pray, the one a Pharisee, and the other a publican.
+[OK   ] build-39-the-pharisee-and-the-publican/n2
+    caption: Two men went up to the temple to pray. One was a Pharisee. The other was a tax collector. And to anyone watchi
+    heard  : Two men went up to the temple to pray. One was a Pharisee, the other was a tax collector,  and to anyone watch
+[OK   ] build-39-the-pharisee-and-the-publican/n3
+    caption: The Pharisee was not a fake. God had asked for one fast a year, and this man fasted twice a week. He gave away
+    heard  : The Pharisee was not a fake. God had asked for one fast a year, and this man fasted twice a week.  He gave awa
+[minor] build-39-the-pharisee-and-the-publican/n4
+    caption: The tax collector was exactly what everyone thought he was. He worked for Rome, the empire occupying his own c
+    heard  : The tax collector was exactly what everyone thought he was. He worked for Rome, the empire  occupying his own 
+      ~ 'traitor' -> heard 'trader'   (sound match 75%)
+[OK   ] build-39-the-pharisee-and-the-publican/n5
+    caption: The Pharisee took his place out in the open, where he could be seen, and lifted his hands to pray. Listen to w
+    heard  : The Pharisee took his place out in the open, where he could be seen and lifted his hands to pray.  Listen to w
+[OK   ] build-39-the-pharisee-and-the-publican/j1
+    caption: God, I thank thee, that I am not as other men are, extortioners, unjust, adulterers, or even as this publican.
+    heard  : God, I thank thee that I am not as other men are, extortioners, unjust, adulterers, or even as this publican. 
+[OK   ] build-39-the-pharisee-and-the-publican/n6
+    caption: He is not asking God for anything. He is handing God a list of his own achievements. In one short prayer, he s
+    heard  : He is not asking God for anything. He is handing God a list of His own achievements.  In one short prayer, He 
+[OK   ] build-39-the-pharisee-and-the-publican/jv13a
+    caption: And the publican, standing afar off, would not lift up so much as his eyes unto heaven, but smote upon his bre
+    heard  : And the publican, standing afar off, would not lift up so much as his eyes unto heaven, but smote upon his bre
+[OK   ] build-39-the-pharisee-and-the-publican/n7
+    caption: The tax collector did not go up front. He stopped at the very back, as far as a man could get and still be in 
+    heard  : The tax collector did not go up front. He stopped at the very back, as far as a man could get,  and still be i
+[OK   ] build-39-the-pharisee-and-the-publican/j2
+    caption: God be merciful to me a sinner.
+    heard  : God be merciful to me a sinner.
+[OK   ] build-39-the-pharisee-and-the-publican/n8a
+    caption: There is more in that prayer than it sounds like. He is standing in the temple at the hour of sacrifice, while
+    heard  : There is more in that prayer than it sounds like. He is standing in the temple at the hour of  sacrifice, whil
+[OK   ] build-39-the-pharisee-and-the-publican/n8b
+    caption: And in Luke's Greek, he does not count himself as one guilty man among many. He speaks as if he were the only 
+    heard  : And in Luke's Greek, he does not count himself as one guilty man among many. He speaks as if he  were the only
+[OK   ] build-39-the-pharisee-and-the-publican/n9
+    caption: Two men. The same temple. The same God. One of them doing all the talking, the other barely able to speak. And
+    heard  : Two men, the same temple, the same God, one of them doing all the talking, the other barely  able to speak. An
+[BAD  ] build-39-the-pharisee-and-the-publican/j3
+    caption: I tell you, this man went down to his house justified rather than the other: for every one that exalteth himse
+    heard  : I tell you, this man went down to his house justified rather than the other, for everyone  that exalted himsel
+      ~ 'every one' -> heard 'everyone'   (sound match 100%)
+      ~ 'exalteth' -> heard 'exalted'   (sound match 75%)
+     !! 'humbleth' -> heard 'humbled'   (sound match 73%)
+[OK   ] build-39-the-pharisee-and-the-publican/n10
+    caption: The traitor walked home right with God. The good man walked home exactly as he came. Not because God is impres
+    heard  : The traitor walked home right with God. The good man walked home exactly as he came.  Not because God is impre
+[OK   ] build-39-the-pharisee-and-the-publican/n11
+    caption: He went down those steps a different man, and he had not done one thing to earn it. He had nothing to offer, a
+    heard  : He went down those steps a different man, and he had not done one thing to earn it.  He had nothing to offer, 
+[OK   ] build-39-the-pharisee-and-the-publican/n12
+    caption: And the Pharisee? He is still standing there. Still praying. Still certain. Still fine. That is the saddest pa
+    heard  : and the Pharisee? He is still standing there, still praying, still certain, still fine. That  is the saddest p
+[OK   ] build-39-the-pharisee-and-the-publican/n13
+    caption: Jesus did not tell this story to shame the good men listening. He told it to let them in too. The door is not 
+    heard  : Jesus did not tell this story to shame the good men listening.  He told it to let them in too.  The door is no
+[BAD  ] build-39-the-pharisee-and-the-publican/card
+    caption: One man brought God his record. The other brought God the truth. If you stopped performing for a moment, what 
+    heard  : One man brought God as record.  The other brought God the truth.  If you stopped performing for a moment, what
+     !! 'his' -> heard 'as'   (sound match 67%)
+
+2 segment(s) need an ear-check in build-39-the-pharisee-and-the-publican

@@ -1,0 +1,40 @@
+[OK   ] build-77-widows-mite/n0
+    caption: Jesus sat down across from the temple treasury and just watched people give.
+    heard  : Jesus sat down across from the temple treasury and just watched people give.  //  //  //  //  //  //  //  //  
+[OK   ] build-77-widows-mite/s41
+    caption: And Jesus sat over against the treasury, and beheld how the people cast money into the treasury: and many that
+    heard  : And Jesus sat over against the treasury, and beheld how the people cast money into the treasury,  and many tha
+[OK   ] build-77-widows-mite/n1a
+    caption: He sat down facing the collection boxes and watched how people put their money in. And the rich came through a
+    heard  : He sat down facing the collection boxes and watched how people put their money in,  and the rich came through 
+[OK   ] build-77-widows-mite/n1b
+    caption: You could hear the coins land, and everyone noticed.
+    heard  : You could hear the coins land and everyone noticed.
+[OK   ] build-77-widows-mite/n2a
+    caption: Then a poor widow came, small and unnoticed.
+    heard  : Then a poor widow came small and unnoticed.
+[BAD  ] build-77-widows-mite/s42
+    caption: And there came a certain poor widow, and she threw in two mites, which make a farthing.
+    heard  : Annette came a certain poor widow and she threw in two mites which make a farthing.
+     !! 'and there' -> heard 'annette'   (sound match 57%)
+[OK   ] build-77-widows-mite/n2b
+    caption: She put in two tiny copper coins — together worth less than a penny. That is the whole of what Mark records ab
+    heard  : She put in two tiny copper coins, together worth less than a penny. That is the whole of what Mark records abo
+[OK   ] build-77-widows-mite/n3
+    caption: Jesus called his disciples over, like he had just seen the most important thing all day.
+    heard  : Jesus called his disciples over, like he had just seen the most important thing all day.  //  //
+[OK   ] build-77-widows-mite/j1
+    caption: Verily I say unto you, That this poor widow hath cast more in, than all they which have cast into the treasury
+    heard  : Verily I say unto you, that this poor widow hath cast more in, than all they which have cast into the treasury
+[minor] build-77-widows-mite/n4a
+    caption: I'm telling you the truth, he said — this poor widow has put in more than every one of them. They gave out of 
+    heard  : I'm telling you the truth," he said.  This poor widow has put in more than every one of them.  They gave out o
+      ~ 'spare' -> heard 'spared'   (sound match 86%)
+[OK   ] build-77-widows-mite/n4b
+    caption: Heaven does the math differently than we do.
+    heard  : Heaven does the math differently than we do.
+[OK   ] build-77-widows-mite/card
+    caption: He noticed the gift no one else did. What might he already see in you that others overlook?
+    heard  : He noticed the gift no one else did. What might he already see in you that others overlook?
+
+1 segment(s) need an ear-check in build-77-widows-mite

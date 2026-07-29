@@ -1,0 +1,34 @@
+[OK   ] build-182-spirit-returns-to-god/n0
+    caption: The Teacher, Solomon, wrote honestly about the end of life. The body grows old, the days grow dim, and then — 
+    heard  : The teacher, Solomon, wrote honestly about the end of life. The body grows old, the days grow dim,  and then t
+[BAD  ] build-182-spirit-returns-to-god/s0
+    caption: Remember now thy Creator in the days of thy youth, while the evil days come not, nor the years draw nigh, when
+    heard  : Remember now that Creator in the days of Thy youth, while the evil days come not, nor the years drawn  I, when
+     !! 'thy' -> heard 'that'   (sound match 67%)
+      ~ 'draw nigh' -> heard 'drawn i'   (sound match 80%)
+[OK   ] build-182-spirit-returns-to-god/n0b
+    caption: That is how he opens it. Remember your Maker while you are still young, he says — before the hard years arrive
+    heard  : That is how he opens it. Remember your maker while you are still young. He says,  before the hard years arrive
+[OK   ] build-182-spirit-returns-to-god/n1
+    caption: He did not leave it there in the dark. He pointed plainly to where the breath goes.
+    heard  : He did not leave it there in the dark. He pointed plainly to where the breath goes.  //  //  //  //  //  //  /
+[OK   ] build-182-spirit-returns-to-god/s1
+    caption: Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.
+    heard  : Then shall the dust return to the earth as it was, and the Spirit shall return unto God who gave it.
+[OK   ] build-182-spirit-returns-to-god/n2
+    caption: The body, made from dust, goes back to the ground. But the part of you that is from God goes home to Him.
+    heard  : The body, made from dust, goes back to the ground. But the part of you that is from God goes home to him.
+[OK   ] build-182-spirit-returns-to-god/n3
+    caption: Death is not the end of the story. It is the spirit's quiet return to the One who lent it.
+    heard  : Death is not the end of the story. It is the Spirit's quiet return to the One who lent it.
+[OK   ] build-182-spirit-returns-to-god/n4a
+    caption: And the Giver who receives it back is the same Giver who first breathed it into you —
+    heard  : And the giver who receives it back is the same giver who first breathed it into you.
+[OK   ] build-182-spirit-returns-to-god/n4b
+    caption: — with mercy, not anger.
+    heard  : With mercy, not anger.
+[OK   ] build-182-spirit-returns-to-god/card
+    caption: You were given breath by God. He is ready to receive it — and ready to give you more.
+    heard  : You were given breath by God. He is ready to receive it and ready to give you more.
+
+1 segment(s) need an ear-check in build-182-spirit-returns-to-god

@@ -1,0 +1,36 @@
+[OK   ] build-67-the-transfiguration/n0
+    caption: Jesus took three of his closest friends — Peter, James, and John — up a high mountain, away from everyone.
+    heard  : Jesus took three of His closest friends, Peter, James, and John up a high mountain away from everyone.
+[OK   ] build-67-the-transfiguration/n1
+    caption: And there, in front of them, he changed. His clothes turned a blinding white, brighter than anything on earth,
+    heard  : And there, in front of them, he changed.  His clothes turned a blinding white, brighter than anything on Earth
+[OK   ] build-67-the-transfiguration/n2a
+    caption: Two of the greatest prophets, Moses and Elijah, appeared and stood talking with him.
+    heard  : Two of the greatest prophets, Moses and Elijah, appeared and stood talking with him.
+[OK   ] build-67-the-transfiguration/n2b
+    caption: Peter, overwhelmed, blurted out the first thing that came to him.
+    heard  : Peter, overwhelmed, blurted out the first thing that came to him.
+[minor] build-67-the-transfiguration/j1
+    caption: Master, it is good for us to be here: and let us make three tabernacles; one for thee, and one for Moses, and 
+    heard  : Master, it is good for us to be here, and let us make three tabernacles, one for the, and one for Moses, and o
+      ~ 'thee' -> heard 'the'   (sound match 100%)
+[OK   ] build-67-the-transfiguration/n2c
+    caption: Master, it's good that we're here — let us put up three shelters, one for you, one for Moses, one for Elijah. 
+    heard  : Master, it's good that we're here.  Let us put up three shelters, one for you, one for Moses, one for Elijah. 
+[OK   ] build-67-the-transfiguration/n3
+    caption: Then a bright cloud settled over the mountain, and out of it came a voice.
+    heard  : Then a bright cloud settled over the mountain, and out of it came a voice.
+[OK   ] build-67-the-transfiguration/j2
+    caption: This is my beloved Son: hear him.
+    heard  : This is my beloved son, hear him.
+[OK   ] build-67-the-transfiguration/n3b
+    caption: This is my Son, whom I love. Listen to him. Not build for him. Not stay up here with him. Listen to him. Of ev
+    heard  : This is my son, whom I love. Listen to him. Not build for him. Not stay up here with him. Listen to him.  Of e
+[OK   ] build-67-the-transfiguration/n4
+    caption: And then it was over. The light faded, the cloud lifted, and Jesus stood there alone — the same gentle friend,
+    heard  : And then it was over. The light faded, the cloud lifted, and Jesus stood there alone,  the same gentle friend,
+[OK   ] build-67-the-transfiguration/card
+    caption: For one moment they saw who he really is — and heaven said, hear him. That invitation still stands.
+    heard  : For one moment they saw who he really is, and Heaven said, hear him. That invitation still stands.
+
+0 segment(s) need an ear-check in build-67-the-transfiguration

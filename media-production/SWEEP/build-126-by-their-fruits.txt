@@ -1,0 +1,37 @@
+[OK   ] build-126-by-their-fruits/n0
+    caption: Jesus taught how to tell what is true — look at what grows from it.
+    heard  : Jesus taught how to tell what is true. Look at what grows from it.
+[OK   ] build-126-by-their-fruits/j1a
+    caption: Beware of false prophets, which come to you in sheep's clothing, but inwardly they are ravening wolves.
+    heard  : Beware of false prophets, which come to you in sheep's clothing, but inwardly they are ravening wolves.
+[OK   ] build-126-by-their-fruits/j1b
+    caption: Watch out, he said. Some of them will come to you looking like part of the flock — gentle, harmless, one of yo
+    heard  : Watch out, he said. Some of them will come to you looking like part of the flock.  Gentle, harmless, one of yo
+[OK   ] build-126-by-their-fruits/n1
+    caption: A tree shows what it is by what it bears. You don't guess at a tree by its bark.
+    heard  : A tree shows what it is by what it bears. You don't guess at a tree by its bark.  //
+[OK   ] build-126-by-their-fruits/j2
+    caption: Ye shall know them by their fruits. Do men gather grapes of thorns, or figs of thistles? Even so every good tr
+    heard  : ye shall know them by their fruits.  Do men gather grapes of thorns, or figs of thistles?  Even so every good 
+[OK   ] build-126-by-their-fruits/n2
+    caption: Nobody picks grapes off a thorn bush. Nobody gathers figs off a thistle. You already know how this works — a g
+    heard  : Nobody picks grapes off a thorn bush. Nobody gathers figs off a thistle. You already know how this works. A go
+[OK   ] build-126-by-their-fruits/jv18
+    caption: A good tree cannot bring forth evil fruit, neither can a corrupt tree bring forth good fruit.
+    heard  : A good tree cannot bring forth evil fruit, neither can a corrupt tree bring forth good fruit.
+[OK   ] build-126-by-their-fruits/n2b
+    caption: Cannot. Not will not — cannot. The good and the rotten cannot switch places. What is inside comes out in the o
+    heard  : Cannot. Not will not. Cannot. The good and the rotten cannot switch places. What is inside comes out in the op
+[OK   ] build-126-by-their-fruits/j3
+    caption: Every tree that bringeth not forth good fruit is hewn down, and cast into the fire. Wherefore by their fruits 
+    heard  : Every tree that bringeth not forth good fruit is hewn down, and cast into the fire.  Wherefore by their fruits
+[OK   ] build-126-by-their-fruits/n3
+    caption: A tree that never gives anything worth eating gets cut down. So watch the fruit. Not the clothes, not the conf
+    heard  : A tree that never gives anything worth eating gets cut down.  So watch the fruit.  Not the clothes.  Not the c
+[minor] build-126-by-their-fruits/card
+    caption: What grows from a life with him is good fruit — love, kindness, truth. Abide in him, and let it show.
+    spoken : What grows from a life with him is good fruit — love, kindness, truth. Abied in him, and let it show.
+    heard  : What grows from a life with Him is good fruit, love, kindness, truth, abbeyed in Him and let it show.
+      ~ 'abide' -> heard 'abbeyed'   (sound match 80%)
+
+0 segment(s) need an ear-check in build-126-by-their-fruits

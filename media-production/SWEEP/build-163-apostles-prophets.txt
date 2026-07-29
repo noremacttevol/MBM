@@ -1,0 +1,39 @@
+[BAD  ] build-163-apostles-prophets/n1
+    caption: The people Paul was writing to had once been outsiders — foreigners, strangers, on the far edge of God's promi
+    heard  : The people Paul was riding to had once been outsiders, foreigners, strangers, on the far edge  of God's promis
+     !! 'writing' -> heard 'riding'   (sound match 67%)
+[OK   ] build-163-apostles-prophets/n2
+    caption: But something had changed everything. The door had been thrown open, and those who were far off had been broug
+    heard  : But something had changed everything. The door had been thrown open, and those who were far off  had been brou
+[OK   ] build-163-apostles-prophets/n3
+    caption: Paul reached for a beautiful picture: they were now part of a household — the very household of God. Not a cro
+    heard  : Paul reached for a beautiful picture. They were now part of a household, the very household of God,  not a cro
+[minor] build-163-apostles-prophets/kv19
+    caption: Now therefore ye are no more strangers and foreigners, but fellowcitizens with the saints, and of the househol
+    heard  : Now therefore ye are no more strangers and foreigners,  but fellow citizens with the saints and of the househo
+      ~ 'fellowcitizens' -> heard 'fellow citizens'   (sound match 100%)
+[OK   ] build-163-apostles-prophets/n4
+    caption: But a household needs a house — and a house needs to be built, and built right. So Paul changed the picture fr
+    heard  : but a household needs a house, and a house needs to be built and built right. So Paul changed the  picture fro
+[OK   ] build-163-apostles-prophets/n5
+    caption: Every real building rests on a foundation. And this one, Paul said, was laid on the apostles and the prophets 
+    heard  : Every real building rests on a foundation.  And this one, Paul said, was laid on the apostles and the prophets
+[OK   ] build-163-apostles-prophets/n6
+    caption: And at the most important place of all — the cornerstone, the stone that sets the angle, holds two walls toget
+    heard  : and at the most important place of all. The cornerstone, the stone that sets the angle,  holds two walls toget
+[minor] build-163-apostles-prophets/kv20
+    caption: And are built upon the foundation of the apostles and prophets, Jesus Christ himself being the chief corner st
+    heard  : and are built upon the foundation of the apostles and prophets,  Jesus Christ Himself being the chief cornerst
+      ~ 'corner stone' -> heard 'cornerstone'   (sound match 100%)
+[OK   ] build-163-apostles-prophets/n7
+    caption: So the church was never meant to be a loose, shapeless crowd. It has a design — a foundation of apostles and p
+    heard  : So the church was never meant to be a loose, shapeless crowd. It has a design, a foundation  of apostles and p
+[OK   ] build-163-apostles-prophets/n8
+    caption: And the best part is where that leaves you. You are not a stranger at the door. In this house you have a place
+    heard  : And the best part is where that leaves you. You are not a stranger at the door. In this house,  you have a pla
+[minor] build-163-apostles-prophets/card
+    caption: You are no longer a stranger, but part of the household of God — a building laid on apostles and prophets, wit
+    heard  : You are no longer a stranger, but part of the household of God, a building laid on apostles and  prophets, wit
+      ~ 'all together' -> heard 'altogether'   (sound match 100%)
+
+1 segment(s) need an ear-check in build-163-apostles-prophets

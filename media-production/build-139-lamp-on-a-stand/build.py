@@ -51,7 +51,7 @@ ST5 = "s5-out-from-under-the-bushel.jpeg"
 ST6 = "s6-something-kindling.jpeg"
 ST7 = "s7-light-to-every-corner.jpeg"
 
-TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
+TEXT = {s[0]: (s[4] if len(s) >= 5 else s[2]) for s in make_narration.SEGMENTS}
 KJV = {"j1", "j2", "j3"}   # Matt 5:14/15/16, Jesus voice — cream italic
 # Long holds: every KJV line (reverent) + the marked silence after n2.
 LONG_HOLD = {"j1", "j2", "j3", "n2"}

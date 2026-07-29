@@ -1,0 +1,46 @@
+[OK   ] build-107-john-baptist-doubt/n1
+    caption: John the Baptist had spent his whole life preparing the way. He had pointed to Jesus and said, behold, the Lam
+    heard  : John the Baptist had spent his whole life preparing the way. He had pointed to Jesus and said,  behold, the La
+[OK   ] build-107-john-baptist-doubt/n2
+    caption: If Jesus really was the promised one, why was John still in chains? Where was the rescue? So he did something 
+    heard  : If Jesus really was the promised one, why was John still in chains? Where was the rescue?  So he did something
+[BAD  ] build-107-john-baptist-doubt/nq
+    caption: Art thou he that should come, or do we look for another?
+    heard  : Are thou he that should come, or do we look for another?
+     !! 'art' -> heard 'are'   (sound match 67%)
+[minor] build-107-john-baptist-doubt/n3
+    caption: It is one of the most human questions in the whole Bible. Are you really who I hoped you were? And notice — Je
+    heard  : It is one of the most human questions in the whole Bible. Are you really who I hope you were?  And notice Jesu
+      ~ 'hoped' -> heard 'hope'   (sound match 80%)
+[OK   ] build-107-john-baptist-doubt/s4a
+    caption: Jesus answered and said unto them,
+    heard  : Jesus answered and said unto them,
+[BAD  ] build-107-john-baptist-doubt/jv4
+    caption: Go and shew John again those things which ye do hear and see: The blind receive their sight, and the lame walk
+    heard  : Go and shoot John again those things which he do here and see, the blind receive their sight, and the lame wal
+     !! 'shew' -> heard 'shoot'   (sound match 67%)
+     !! 'ye' -> heard 'he'   (sound match 0%)
+      ~ 'hear' -> heard 'here'   (sound match 100%)
+[OK   ] build-107-john-baptist-doubt/n4
+    caption: He did not send back an argument. He sent back a scene. Go and tell John what you see happening — right here, 
+    heard  : He did not send back an argument. He sent back a scene. Go and tell John what you see happening.  Right here, 
+[OK   ] build-107-john-baptist-doubt/n5
+    caption: Not overthrowing an empire. Not breaking open a prison. But healing, one by one, the people everyone else step
+    heard  : Not overthrowing an empire, not breaking open a prison, but healing one by one.  The people everyone else step
+[OK   ] build-107-john-baptist-doubt/jv6
+    caption: And blessed is he, whosoever shall not be offended in me.
+    heard  : And blessed is he, whosoever shall not be offended in me.
+[OK   ] build-107-john-baptist-doubt/n6
+    caption: It was tender, not sharp. Blessed is the one who does not give up on me when I do not look the way he expected
+    heard  : It was tender, not sharp. Blessed is the one who does not give up on me when I do not look the way  he expecte
+[OK   ] build-107-john-baptist-doubt/n7
+    caption: The answer came back to the cell, and John was at peace. Not rescued — but no longer alone in the dark, and no
+    heard  : The answer came back to the cell, and John was at peace. Not rescued, but no longer alone in the dark,  and no
+[OK   ] build-107-john-baptist-doubt/n7b
+    caption: Sometimes the answer to our doubt is not the thing we asked for. It is simply, quietly: look at the love. It i
+    heard  : Sometimes the answer to our doubt is not the thing we asked for.  It is simply quietly, look at the love.  It 
+[OK   ] build-107-john-baptist-doubt/card
+    caption: Even the strongest believer sometimes sits in the dark and wonders. Jesus did not shame John for asking; he an
+    heard  : Even the strongest believer sometimes sits in the dark and wonders. Jesus did not shame John for  asking. He a
+
+2 segment(s) need an ear-check in build-107-john-baptist-doubt

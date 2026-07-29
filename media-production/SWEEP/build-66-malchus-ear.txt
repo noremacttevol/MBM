@@ -1,0 +1,44 @@
+[OK   ] build-66-malchus-ear/n0
+    caption: It was the middle of the night, in a garden called Gethsemane. Jesus had just finished praying — and now torch
+    heard  : It was the middle of the night, in a garden called Gethsemane. Jesus had just finished praying,  and now torch
+[BAD  ] build-66-malchus-ear/n1
+    caption: And his friends could not stand it. Luke says they saw what was about to happen, and they asked him first:
+    heard  : and his friends could not stand it.  Loop says they saw what was about to happen, and they asked him first.
+     !! 'luke' -> heard 'loop'   (sound match 50%)
+[OK   ] build-66-malchus-ear/s49
+    caption: Lord, shall we smite with the sword?
+    heard  : Lord, shall we smite with the sword?
+[OK   ] build-66-malchus-ear/n1b
+    caption: Lord — should we fight? they said. And then they did not wait for the answer. Impulsive, loyal, terrified Pete
+    heard  : Lord, should we fight?  They said, and then they did not wait for the answer.  Impulsive, loyal, terrified Pet
+[OK   ] build-66-malchus-ear/n2
+    caption: Understand Peter's math. Twelve tired men against an armed mob. He was not being smart — he was being brave an
+    heard  : Understand Peter's math.  Twelve tired men against an armed mob.  He was not being smart.  He was being brave 
+[OK   ] build-66-malchus-ear/j1
+    caption: Put up again thy sword into his place: for all they that take the sword shall perish with the sword.
+    heard  : Put up again thy sword into his place, for all they that take the sword shall perish with the sword.
+[BAD  ] build-66-malchus-ear/n3
+    caption: Put it away, Peter. This is not that kind of kingdom. He said he could call down more than twelve legions of a
+    heard  : Put it away, Peter. This is not that kind of kingdom. He said he could call down more than 12  legions of ange
+     !! 'twelve' -> heard '-'   (sound match 0%)
+[OK   ] build-66-malchus-ear/n4
+    caption: And then he did the most extraordinary thing in the whole arrest. With the mob closing in to seize him, with h
+    heard  : And then he did the most extraordinary thing in the whole arrest.  With the mob closing in to seize him, with 
+[OK   ] build-66-malchus-ear/j2
+    caption: Suffer ye thus far.
+    heard  : Suffer you thus far.
+[OK   ] build-66-malchus-ear/n5
+    caption: Let me do this one last thing. And he reached out, touched the side of the man's head, and made him whole. The
+    heard  : Let me do this one last thing. And he reached out, touched the side of the man's head, and made him whole.  Th
+[BAD  ] build-66-malchus-ear/n6
+    caption: Think about what Malchus carried home that night. He had come with a mob to seize a man — and that man healed 
+    heard  : Think about what Malchus carried home that night. He had come with a mob to seize a man,  and that man healed 
+     !! 'it whole' -> heard 'at hole'   (sound match 67%)
+[OK   ] build-66-malchus-ear/n7
+    caption: This is who he is, even at his own arrest, even on the worst night of his life: he will not let the moment be 
+    heard  : This is who he is, even at his own arrest, even on the worst night of his life.  He will not let the moment be
+[OK   ] build-66-malchus-ear/card
+    caption: He healed the man sent to seize him. There is no enemy too far for his mercy — including the one you're afraid
+    heard  : He healed the man sent to seize him. There is no enemy too far for his mercy, including the one you're afraid 
+
+3 segment(s) need an ear-check in build-66-malchus-ear

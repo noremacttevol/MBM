@@ -1,0 +1,52 @@
+[OK   ] build-46-seed-growing/n1
+    caption: This might be the most restful thing he ever said. It is about a farmer, and a field, and the one part of the 
+    heard  : This might be the most restful thing he ever said. It is about a farmer and a field and the one part of the wh
+[OK   ] build-46-seed-growing/jv26
+    caption: So is the kingdom of God, as if a man should cast seed into the ground;
+    heard  : So is the kingdom of God, as if a man should cast seed into the ground.
+[OK   ] build-46-seed-growing/n2
+    caption: A man walks out and scatters seed across his field. That is his job. He does it well, he does it by hand, and 
+    heard  : A man walks out and scatters seed across his field. That is his job. He does it well. He does it by hand.  And
+[OK   ] build-46-seed-growing/jv27
+    caption: And should sleep, and rise night and day, and the seed should spring and grow up, he knoweth not how.
+    heard  : and should sleep, and rise night and day, and the seed should spring and grow up, he knoweth not how.
+[OK   ] build-46-seed-growing/n3
+    caption: And then he lives his life. He sleeps at night and gets up in the morning. Ordinary weeks go by. And the whole
+    heard  : And then he lives his life. He sleeps at night and gets up in the morning. Ordinary weeks go by,  and the whol
+[minor] build-46-seed-growing/n4
+    caption: Notice what he is not doing. He is not out there at midnight pulling on the shoots to stretch them longer. He 
+    heard  : Notice what he is not doing. He is not out there at midnight pulling on the  shoots to stretch them longer. He
+      ~ 'forgot' -> heard 'for god'   (sound match 75%)
+[OK   ] build-46-seed-growing/n5
+    caption: And the gentlest words in the whole story are about that. He does not even grasp the miracle he is leaning on.
+    heard  : And the gentlest words in the whole story are about that. He does not even grasp the miracle he  is leaning on
+[OK   ] build-46-seed-growing/jv28
+    caption: For the earth bringeth forth fruit of herself; first the blade, then the ear, after that the full corn in the 
+    heard  : For the earth bringeth forth fruit of herself, first the blade, then the ear, after that the full corn in the 
+[OK   ] build-46-seed-growing/n6
+    caption: And it comes in its own order, on its own clock. The first tender shoots. Then the heads of grain. Then the wh
+    heard  : and it comes in its own order on its own clock. The first tender shoots, then the heads of grain,  then the wh
+[OK   ] build-46-seed-growing/n7
+    caption: You cannot hurry a field. You cannot argue a seed into sprouting faster. Everything good that has ever grown i
+    heard  : You cannot hurry a field. You cannot argue a seed into sprouting faster. Everything good that has  ever grown 
+[OK   ] build-46-seed-growing/n8
+    caption: So if you planted something good and you still cannot see it, this is the story for you. Hidden is not the sam
+    heard  : So if you planted something good and you still cannot see it, this is the story for you.  Hidden is not the sa
+[OK   ] build-46-seed-growing/jv29
+    caption: But when the fruit is brought forth, immediately he putteth in the sickle, because the harvest is come.
+    heard  : But when the fruit is brought forth, immediately he putteth in the sickle, because the harvest is come.
+[OK   ] build-46-seed-growing/n9
+    caption: And then one morning it is ready, and the waiting is over, and there is nothing left to do but go out with joy
+    heard  : And then one morning it is ready, and the waiting is over, and there is nothing left to do,  but go out with j
+[OK   ] build-46-seed-growing/n10
+    caption: Here is the rest he is holding out to you. The kingdom of God is not a thing you have to force into the world 
+    heard  : Here is the rest he is holding out to you. The kingdom of God is not a thing you have to force  into the world
+[OK   ] build-46-seed-growing/n11
+    caption: So you can actually sleep tonight. The seed is not waiting on your worry. It is doing, down in the dark, exact
+    heard  : So you can actually sleep tonight. The seed is not waiting on your worry. It is doing,  down in the dark, exac
+[BAD  ] build-46-seed-growing/card
+    caption: He told a whole crowd that the growing was never on their shoulders. That the harvest was already coming, whet
+    heard  : He told the whole crowd that the growing was never on their shoulders, that the harvest was  already coming, w
+     !! 'a' -> heard 'the'   (sound match 0%)
+
+1 segment(s) need an ear-check in build-46-seed-growing

@@ -1,0 +1,49 @@
+[OK   ] build-102-jacobs-ladder/n1
+    caption: Jacob was running. He had lied to his blind father and cheated his own brother, and now he was fleeing for his
+    heard  : Jacob was running. He had lied to his blind father and cheated his own brother, and now he was fleeing for his
+[OK   ] build-102-jacobs-ladder/n2
+    caption: When the sun went down he was in the middle of nowhere. No home, no bed, no welcome. He took a stone, put it u
+    heard  : When the sun went down, he was in the middle of nowhere. No home, no bed, no welcome. He took a  stone, put it
+[OK   ] build-102-jacobs-ladder/n3
+    caption: And there, in the last place he would have expected it, God came to him in a dream. He saw a great stairway ri
+    heard  : And there, in the last place he would have expected it, God came to him in a dream.  He saw a great stairway r
+[minor] build-102-jacobs-ladder/n4
+    caption: And on it the angels of God were going up and coming down, moving between heaven and this lonely patch of dirt
+    heard  : And on at the angels of God were going up and coming down. Moving between heaven and this lonely  patch of dir
+      ~ 'it' -> heard 'at'   (sound match 100%)
+      ~ 'where' -> heard 'were'   (sound match 100%)
+[minor] build-102-jacobs-ladder/jv13
+    caption: I am the LORD God of Abraham thy father, and the God of Isaac: the land whereon thou liest, to thee will I giv
+    heard  : I am the Lord God of Abraham thy father, and the God of Isaac, the land where on thou  least, to thee will I g
+      ~ 'whereon' -> heard 'where on'   (sound match 100%)
+      ~ 'liest' -> heard 'least'   (sound match 100%)
+[OK   ] build-102-jacobs-ladder/n5
+    caption: God did not scold him for what he had done. He stood above the stairway and made him a promise — the same prom
+    heard  : God did not scold him for what he had done. He stood above the stairway and made him a promise.  The same prom
+[minor] build-102-jacobs-ladder/jv15
+    caption: And, behold, I am with thee, and will keep thee in all places whither thou goest, and will bring thee again in
+    heard  : And, behold, I am with thee, and will keep thee in all places with or thou goest, and  will bring thee again i
+      ~ 'whither' -> heard 'with or'   (sound match 100%)
+[OK   ] build-102-jacobs-ladder/n6
+    caption: I am with thee. I will keep thee. I will not leave thee. To a man who had just thrown his whole life away and 
+    heard  : I am with thee. I will keep thee. I will not leave thee. To a man who had just thrown his whole  life away and
+[OK   ] build-102-jacobs-ladder/s16
+    caption: Surely the LORD is in this place; and I knew it not. How dreadful is this place! this is none other but the ho
+    heard  : Surely the Lord is in this place, and I knew it not.  How dreadful is this place.  This is none other but the 
+[OK   ] build-102-jacobs-ladder/n7
+    caption: Jacob woke with a start, shaken to his core. Surely the Lord is in this place, he said, and I did not even kno
+    heard  : Jacob woke with a start, shaken to his core.  Surely the Lord is in this place.  He said, and I did not even k
+[OK   ] build-102-jacobs-ladder/n8
+    caption: So he took the stone that had been his pillow and stood it up on end as a pillar, a marker of the place where 
+    heard  : So he took the stone that had been his pillow and stood it up on end as a pillar,  a marker of the place where
+[OK   ] build-102-jacobs-ladder/n8b
+    caption: And he poured oil over the top of it to set it apart as holy, and he called that place Bethel — the house of G
+    heard  : And he poured oil over the top of it to set it apart as holy, and he called that place Bethel,  the house of G
+[OK   ] build-102-jacobs-ladder/n9
+    caption: Then he went on his way — the same road, the same troubles waiting ahead, but a different man. Not because he 
+    heard  : Then he went on his way. The same road. The same troubles waiting ahead, but a different man.  Not because he 
+[OK   ] build-102-jacobs-ladder/card
+    caption: God met a runaway with a rock for a pillow, and promised to go with him and never leave. If heaven is that nea
+    heard  : God met a runaway with a rock for a pillow and promised to go with him and never leave.  If heaven is that nea
+
+0 segment(s) need an ear-check in build-102-jacobs-ladder

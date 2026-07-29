@@ -69,8 +69,8 @@ KJV = {"s1", "s2"}            # cream-italic verses (Psalm 24:3 and 24:4)
 # white, Jesus red, God green, scripture LIGHT BLUE, women pink. The old RED
 # boolean forced every non-Jesus line to white and swallowed the blue.
 RED = set()          # kept for reference; no longer drives caption colour
-FLOW = {"n3a", "n4a"}         # each gate line flows into its second half: tight flow gap
-SACRED = {"s1", "s2", "n3b"}  # both verse holds + the pack's sacred pause after n3
+FLOW = set()
+SACRED = {"s1", "s2"}         # deliberate holds after the opening question and answer
 CARD_TEXT = ("The door is open to the one with a clean heart. Come and "
              "stand in his presence.")
 
@@ -80,10 +80,8 @@ BEATS = [
     ("s2", S3, "in"),
     ("n1", S4, "in"),
     ("s4", S5, "in"),
-    ("n3a", S5, "out"),
-    ("n3b", S6, "in"),
+    ("n3a", S6, "in"),
     ("s5", S7, "in"),
-    ("n4a", S7, "out"),
     ("n4b", S8, "in"),
     ("s3", S9, "in"),
     ("n2", S9, "out"),

@@ -1,0 +1,46 @@
+[minor] build-195-prove-all-things/n0
+    caption: Paul gave the early church a short, sharp command about what to believe and what to keep.
+    heard  : Paul gave the early churches short, sharp command about what to believe, and what to keep.
+      ~ 'church a' -> heard 'churches'   (sound match 91%)
+[minor] build-195-prove-all-things/s19
+    caption: Quench not the Spirit. Despise not prophesyings.
+    spoken : Kwench not the Spirit. Despise not prophesyings.
+    heard  : Quench not the Spirit.  Dispise not prophesying.
+      ~ 'despise' -> heard 'dispise'   (sound match 100%)
+      ~ 'prophesyings' -> heard 'prophesying'   (sound match 93%)
+[OK   ] build-195-prove-all-things/n0b
+    caption: Don't put out the Spirit's fire, he said. And don't wave away a word from God just because it came through a p
+    heard  : Don't put out the Spirit's fire, he said. And don't wave away a word from God just because it  came through a 
+[BAD  ] build-195-prove-all-things/s1
+    caption: Prove all things; hold fast that which is good.
+    heard  : Prove all things. Hold fast at which is good.
+     !! 'that' -> heard 'at'   (sound match 50%)
+[BAD  ] build-195-prove-all-things/n1
+    caption: Test everything, he said. Don't swallow every voice — weigh it, hold it up to the light.
+    heard  : Test everything, he said. Don't swallow every voice. Wait. Hold it up to the light.
+     !! 'weigh it' -> heard 'wait'   (sound match 67%)
+[OK   ] build-195-prove-all-things/n2
+    caption: And when you find what is genuinely good, cling to it. Don't let it slip.
+    heard  : And when you find what is genuinely good, cling to it. Don't let it slip.
+[OK   ] build-195-prove-all-things/n3
+    caption: He paired it with a warning — and it's the shortest fence he ever built:
+    heard  : He paired it with a warning, and it's the shortest fence he ever built.  //
+[OK   ] build-195-prove-all-things/s2
+    caption: Abstain from all appearance of evil.
+    heard  : Abstain from all appearance of evil.
+[OK   ] build-195-prove-all-things/n4
+    caption: The same word fits now: a faith that checks, then commits — that's steady, not gullible.
+    heard  : The same word fits now. A faith that checks, then commits. That's steady, not gullible.
+[minor] build-195-prove-all-things/s24
+    caption: Faithful is he that calleth you, who also will do it.
+    heard  : Faithful is he that calisthe you, who also will do it.
+      ~ 'calleth' -> heard 'calisthe'   (sound match 89%)
+[OK   ] build-195-prove-all-things/n5
+    caption: The One who calls you is faithful — and He will finish what He started in you. You are not asked to weigh it a
+    heard  : The one who calls you is faithful, and he will finish what he started in you. You are not asked  to weigh it a
+[BAD  ] build-195-prove-all-things/card
+    caption: Weigh it, then hold it. The good He shows you is worth keeping — reach for it.
+    heard  : Wait, then hold it.  The good he shows you is worth keeping.  Reach for it.
+     !! 'weigh it' -> heard 'wait'   (sound match 67%)
+
+3 segment(s) need an ear-check in build-195-prove-all-things

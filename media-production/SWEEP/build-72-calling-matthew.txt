@@ -1,0 +1,60 @@
+[OK   ] build-72-calling-matthew/n1
+    caption: There was one job in every Galilee town that made you a traitor to your own people. Tax collector. You worked 
+    heard  : There was one job in every Galilee town that made you a traitor to your own people.  Tax collector. You worked
+[OK   ] build-72-calling-matthew/n2
+    caption: So Matthew had money, and Matthew had no one. The devout would not touch him. His old friends were long gone. 
+    heard  : So Matthew had money, and Matthew had no one.  The devout would not touch him.  His old friends were long gone
+[OK   ] build-72-calling-matthew/n3
+    caption: And this is the man Jesus walked up to. Not around. Up to. Past everyone who would have been a safer, more res
+    heard  : And this is the man Jesus walked up to, not around, up to, past everyone who would have been a safer,  more re
+[OK   ] build-72-calling-matthew/j1
+    caption: Follow me.
+    heard  : Follow me.
+[BAD  ] build-72-calling-matthew/n4
+    caption: Two words. And notice what is missing from them. No pay it all back first. No prove you have changed. No list 
+    heard  : Two words, and notice what is missing from them.  No pay it all back first.  No proof you have changed.  No li
+     !! 'prove' -> heard 'proof'   (sound match 67%)
+[OK   ] build-72-calling-matthew/s9
+    caption: And he arose, and followed him.
+    heard  : and he arose and followed him.
+[OK   ] build-72-calling-matthew/n5
+    caption: He got up, and he left it. The coins, the scales, the ledgers, the whole profitable, lonely life, sitting righ
+    heard  : He got up and he left it. The coins, the scales, the ledgers, the whole profitable, lonely life,  sitting righ
+[OK   ] build-72-calling-matthew/n6
+    caption: And then something even stranger. Jesus went to Matthew's house for dinner. And the room filled up with Matthe
+    heard  : and then something even stranger. Jesus went to Matthew's house for dinner,  and the room filled up with Matth
+[OK   ] build-72-calling-matthew/n7
+    caption: Look at who is at that table. Not the respectable. Not the qualified. The people who were used to being turned
+    heard  : Look at who is at that table, not the respectable, not the qualified, the people who were used to  being turne
+[OK   ] build-72-calling-matthew/n8
+    caption: The religious men could not stand it. They stood at the door, too clean to come in, and asked his disciples th
+    heard  : The religious men could not stand it. They stood at the door, too clean to come in,  and asked his disciples t
+[BAD  ] build-72-calling-matthew/s11
+    caption: Why eateth your Master with publicans and sinners?
+    heard  : Why you test your master with publicans and sinners?
+     !! 'eateth' -> heard 'you test'   (sound match 33%)
+[OK   ] build-72-calling-matthew/n8b
+    caption: Why does your teacher eat with tax collectors and sinners? They did not ask it to learn anything. They asked i
+    heard  : Why does your teacher eat with tax collectors and sinners? They did not ask it to learn anything.  They asked 
+[OK   ] build-72-calling-matthew/j2
+    caption: They that be whole need not a physician, but they that are sick. But go ye and learn what that meaneth, I will
+    heard  : They that be whole need not a physician, but they that are sick.  But go ye and learn what that meaneth, I wil
+[OK   ] build-72-calling-matthew/n9
+    caption: A doctor does not spend his day with the healthy. He goes where the sickness is. Go and learn what this means,
+    heard  : A doctor does not spend his day with the healthy. He goes where the sickness is.  Go and learn what this means
+[OK   ] build-72-calling-matthew/n10
+    caption: And that is the quiet turn in the story. The outcasts were close to him because they knew they needed him. The
+    heard  : And that is the quiet turn in the story. The outcasts were close to him because they knew they needed  him. Th
+[minor] build-72-calling-matthew/n11
+    caption: As for Matthew, the man who had spent his life writing down what other people owed became a writer of a very d
+    heard  : As for Matthew, the man who had spent his life writing down what other people owed became a writer of a very d
+      ~ 'jesuss' -> heard 'jesus'   (sound match 100%)
+[OK   ] build-72-calling-matthew/n12
+    caption: And the table he sat at is still set. The same door is still open, the same welcome still held out to exactly 
+    heard  : and the table he sat at is still set. The same door is still open, the same welcome still held out  to exactly
+[minor] build-72-calling-matthew/card
+    caption: He walked past every respectable man in town to sit down with the one nobody else would. If the door was open 
+    heard  : He walked past every respectable man in town to sit down with the one nobody else would.  If the door was open
+      ~ 'closed' -> heard 'close'   (sound match 86%)
+
+2 segment(s) need an ear-check in build-72-calling-matthew

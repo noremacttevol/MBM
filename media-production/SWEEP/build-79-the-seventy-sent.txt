@@ -1,0 +1,49 @@
+[BAD  ] build-79-the-seventy-sent/n0
+    caption: Jesus picked seventy of his followers and sent them out two by two, ahead of him, into every town he was about
+    heard  : Jesus picked 70 of His followers and sent them out 2 by 2 ahead of Him into every town He was about to visit.
+     !! 'seventy' -> heard '-'   (sound match 0%)
+     !! 'two' -> heard '-'   (sound match 0%)
+     !! 'two' -> heard '-'   (sound match 0%)
+[BAD  ] build-79-the-seventy-sent/n1
+    caption: He didn't send them with much — no extra bag, no spare sandals, no backup plan. Just each other, and a message
+    heard  : He didn't send them with much, no extra bag, no spare sandals, no backup plan, just each  other in a message.
+     !! 'and' -> heard 'in'   (sound match 67%)
+[minor] build-79-the-seventy-sent/j1
+    caption: The harvest truly is great, but the labourers are few: pray ye therefore the Lord of the harvest, that he woul
+    heard  : The harvest truly is great, but the laborers are few,  pray ye therefore the Lord of the harvest,  that he wou
+      ~ 'labourers' -> heard 'laborers'   (sound match 100%)
+      ~ 'labourers' -> heard 'laborers'   (sound match 100%)
+[minor] build-79-the-seventy-sent/n1b
+    caption: There is so much to bring in, he told them, and hardly anyone to do it — so ask the owner of the harvest to se
+    heard  : There is so much to bring in, he told them, and hardly anyone to do it, so asked the owner of the  harvest to 
+      ~ 'ask' -> heard 'asked'   (sound match 80%)
+[OK   ] build-79-the-seventy-sent/n2
+    caption: Wherever they were welcomed, they were to heal the sick and say the same simple thing.
+    heard  : Wherever they were welcomed, they were to heal the sick and say the same simple thing.
+[OK   ] build-79-the-seventy-sent/j2
+    caption: The kingdom of God is come nigh unto you.
+    heard  : The Kingdom of God is come nigh unto you.
+[OK   ] build-79-the-seventy-sent/n2b
+    caption: God's kingdom has come close to you. That was the whole message. Not a warning, not a threat — an announcement
+    heard  : God's kingdom has come close to you. That was the whole message. Not a warning, not a threat,  an announcement
+[OK   ] build-79-the-seventy-sent/n3
+    caption: And they came back with joy, amazed at what had happened when they used his name:
+    heard  : And they came back with joy, amazed at what had happened when they used his name.
+[OK   ] build-79-the-seventy-sent/s17
+    caption: Lord, even the devils are subject unto us through thy name.
+    heard  : Lord, even the devils are subject unto us through thy name.
+[OK   ] build-79-the-seventy-sent/n3b
+    caption: Lord, even the evil spirits obey us when we use your name. They were thrilled, and they had every right to be.
+    heard  : Lord, even the evil spirits obey us when we use your name.  They were thrilled, and they had every right to be
+[minor] build-79-the-seventy-sent/j3
+    caption: Notwithstanding in this rejoice not, that the spirits are subject unto you; but rather rejoice, because your n
+    heard  : Not withstanding in this rejoice not that the spirits are subject unto you, but rather rejoice, because your n
+      ~ 'notwithstanding' -> heard 'not withstanding'   (sound match 100%)
+[OK   ] build-79-the-seventy-sent/n3c
+    caption: Don't be glad about that, he said. Don't let the power be the thing that thrills you. Be glad about this inste
+    heard  : Don't be glad about that," he said.  Don't let the power be the thing that thrills you.  Be glad about this in
+[OK   ] build-79-the-seventy-sent/card
+    caption: Your name, written in heaven — that's the joy he wanted them to keep. It's meant for you as well.
+    heard  : Your name, written in heaven, that's the joy He wanted them to keep. It's meant for you as well.
+
+2 segment(s) need an ear-check in build-79-the-seventy-sent

@@ -1,0 +1,53 @@
+[OK   ] build-161-called-of-god/n1
+    caption: In ancient Israel, one man stood between the people and God. The high priest carried their gifts and their sin
+    heard  : In ancient Israel, one man stood between the people and God. The high priest carried their gifts  and their si
+[BAD  ] build-161-called-of-god/kv1
+    caption: For every high priest taken from among men is ordained for men in things pertaining to God, that he may offer 
+    heard  : For every high priest taken from among men is ordained for men and things pertaining to God,  that he may offe
+     !! 'in' -> heard 'and'   (sound match 67%)
+[OK   ] build-161-called-of-god/n2
+    caption: And here is a tender thing. The high priest was not a distant, perfect being. He was a weak man himself, who k
+    heard  : And here is a tender thing. The high priest was not a distant, perfect being. He was a weak man  himself, who 
+[BAD  ] build-161-called-of-god/n3
+    caption: But an office that holy could not simply be claimed. However sincere a man was, however gifted, he could not r
+    heard  : but an office that wholly could not simply be claimed. However, since Sira-Man was,  however gifted, he could 
+     !! 'holy' -> heard 'wholly'   (sound match 67%)
+      ~ 'sincere a man' -> heard 'since siraman'   (sound match 92%)
+[minor] build-161-called-of-god/kv4
+    caption: And no man taketh this honour unto himself, but he that is called of God, as was Aaron.
+    heard  : And no man takeeth this honor unto himself, but he that is called of God as was Aaron.
+      ~ 'taketh' -> heard 'takeeth'   (sound match 100%)
+      ~ 'honour' -> heard 'honor'   (sound match 100%)
+[minor] build-161-called-of-god/n4
+    caption: Think of how Aaron became high priest. He did not campaign for it or seize it. God named him, and Moses brough
+    heard  : Think of how Aaron became high priest. He did not campaign for it or seize it. God named him,  and Moses broug
+      ~ 'honour' -> heard 'honor'   (sound match 100%)
+[BAD  ] build-161-called-of-god/n5
+    caption: And notice how it was done. Not with a ceremony he arranged for himself, but with another man's hands laid on 
+    heard  : and notice how it was done, not with the ceremony he arranged for himself, but with another man's  hands laid 
+     !! 'a' -> heard 'the'   (sound match 0%)
+[OK   ] build-161-called-of-god/n6
+    caption: Then the holy oil was poured over him, running down, and Aaron was consecrated, set apart, given. Everything a
+    heard  : Then the holy oil was poured over him, running down, and Aaron was consecrated, set apart,  given. Everything 
+[minor] build-161-called-of-god/kv5
+    caption: So also Christ glorified not himself to be made an high priest; but he that said unto him,
+    heard  : So also Christ glorified not himself to be made in high priests, but he that said unto him.
+      ~ 'an' -> heard 'in'   (sound match 100%)
+      ~ 'priest' -> heard 'priests'   (sound match 89%)
+[minor] build-161-called-of-god/gv5
+    caption: Thou art my Son, to day have I begotten thee.
+    heard  : Thou art my son, to-day have I begotten thee.
+      ~ 'to day' -> heard 'today'   (sound match 100%)
+[OK   ] build-161-called-of-god/n7
+    caption: And this is the astonishing part. Even the Lord himself did not make himself a high priest. The Father gave hi
+    heard  : And this is the astonishing part. Even the Lord Himself did not make Himself a high priest.  The Father gave H
+[BAD  ] build-161-called-of-god/n8
+    caption: And that is the quiet good news in this verse. The right to speak and act for God has always come the same way
+    heard  : And that is the quiet good news in this verse. The right to speak and act for God has always  come the same wa
+     !! 'a bowed' -> heard 'about'   (sound match 40%)
+[minor] build-161-called-of-god/card
+    caption: No one hands themselves the things of God. Aaron was called, and even Christ was called. That same authority i
+    heard  : No one hands themselves the things of God.  Aaron was called, and even Christ was called.  That same authority
+      ~ 'layingon' -> heard 'laying on'   (sound match 100%)
+
+4 segment(s) need an ear-check in build-161-called-of-god

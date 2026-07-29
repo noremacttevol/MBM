@@ -1,0 +1,67 @@
+[OK   ] build-60-gerasene-demoniac/n0
+    caption: The boat touched the far shore of the Sea of Galilee at first light — the disciples still shaking from the sto
+    heard  : The boat touched the far shore of the sea of Galilee at first light. The disciples still shaking from  the sto
+[OK   ] build-60-gerasene-demoniac/n1
+    caption: Because one man lived there — if you could call it living. He made his home among the tombs, the caves where t
+    heard  : Because one man lived there, if you could call it living. He made his home among the tombs,  the caves where t
+[OK   ] build-60-gerasene-demoniac/n2
+    caption: And when that man saw Jesus step out of the boat, far down the shore, he ran. Not to attack him. He ran and fe
+    heard  : And when that man saw Jesus step out of the boat, far down the shore, he ran. Not to attack him.  He ran and f
+[minor] build-60-gerasene-demoniac/s7
+    caption: What have I to do with thee, Jesus, thou Son of the most high God? I adjure thee by God, that thou torment me 
+    heard  : What have I to do with thee, Jesus, thou son of the Most High God?  I adjur thee by God, that thou torment me 
+      ~ 'adjure' -> heard 'adjur'   (sound match 100%)
+[OK   ] build-60-gerasene-demoniac/n2b
+    caption: What do you want with me, Jesus, Son of the most high God? Swear to me you won't torture me. Hear what just ha
+    heard  : What do you want with me, Jesus, Son of the Most High God?  Swear to me, you won't torture me.  Hear what just
+[OK   ] build-60-gerasene-demoniac/n3
+    caption: Jesus did not step back. He was not afraid of him. He spoke straight past the man, to the thing that held him.
+    heard  : Jesus did not step back. He was not afraid of him. He spoke straight past the man to the thing that held him.
+[OK   ] build-60-gerasene-demoniac/j1
+    caption: Come out of the man, thou unclean spirit.
+    heard  : Come out of the man, thou unclean spirit.
+[OK   ] build-60-gerasene-demoniac/n4
+    caption: Come out of him. Not a negotiation, not a ritual — one sentence, aimed past the man at the thing wearing him. 
+    heard  : come out of him, not a negotiation, not a ritual, one sentence, aimed past the man at the thing wearing  him. 
+[OK   ] build-60-gerasene-demoniac/j2
+    caption: What is thy name?
+    heard  : What is thy name?
+[OK   ] build-60-gerasene-demoniac/s9
+    caption: My name is Legion: for we are many.
+    heard  : My name is Legion, for we are many.
+[BAD  ] build-60-gerasene-demoniac/n5
+    caption: My name is Legion, it said, for we are many. Legion was a Roman army word — thousands of soldiers. That is how
+    heard  : My name is Legion. It's said, for we are many. Legion was a Roman army word, thousands of soldiers.  That is h
+     !! 'it' -> heard 'its'   (sound match 67%)
+[BAD  ] build-60-gerasene-demoniac/n6
+    caption: On the hillside above them, a herd of about two thousand pigs was feeding — remember, this was Gentile land; n
+    heard  : On the hillside above them, a herd of about 2,000 pigs was feeding. Remember, this was Gentile land.  No Jewis
+     !! 'two thousand' -> heard '-'   (sound match 0%)
+[OK   ] build-60-gerasene-demoniac/s12
+    caption: Send us into the swine, that we may enter into them.
+    heard  : Send us into the swine that we may enter into them.
+[OK   ] build-60-gerasene-demoniac/n6b
+    caption: Send us into the pigs, they said. Let us go into them. And Jesus gave them leave. In an instant the whole herd
+    heard  : Send us into the pigs, they said.  Let us go into them.  And Jesus gave them leave.  In an instant, the whole 
+[BAD  ] build-60-gerasene-demoniac/n7
+    caption: The whole town came out to see. And what they found was the man they had chained and lost and buried in their 
+    heard  : The whole town came out to see, and what they found was the man they had chained and lost,  and buried in thei
+      ~ 'clothed' -> heard 'cloth'   (sound match 89%)
+     !! 'two thousand' -> heard '-'   (sound match 0%)
+[minor] build-60-gerasene-demoniac/n8
+    caption: And he did. He never argues his way in where he is not wanted. But as he climbed into the boat, the healed man
+    heard  : And he did. He never argues his way in where he is not wanted. But as he climbed into the boat,  the healed ma
+      ~ 'gospels' -> heard 'gospel'   (sound match 89%)
+[OK   ] build-60-gerasene-demoniac/j3
+    caption: Go home to thy friends, and tell them how great things the Lord hath done for thee, and hath had compassion on
+    heard  : Go home to thy friends, and tell them how great things the Lord hath done for thee, and hath had compassion on
+[BAD  ] build-60-gerasene-demoniac/n9
+    caption: Go home. To the town that chained you. To the people who gave up on you. Tell them what God did for you, and h
+    heard  : Go home to the town that changed you, to the people who gave up on you. Tell them what God  did for you and ho
+      ~ 'chained' -> heard 'changed'   (sound match 89%)
+     !! 'ten' -> heard '-'   (sound match 0%)
+[OK   ] build-60-gerasene-demoniac/card
+    caption: He crossed a sea in a storm for one man everyone else had given up on. There is no distance he will not cross 
+    heard  : He crossed a sea in a storm for one man everyone else had given up on. There is no distance he will  not cross
+
+4 segment(s) need an ear-check in build-60-gerasene-demoniac

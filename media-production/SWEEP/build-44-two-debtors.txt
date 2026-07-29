@@ -1,0 +1,76 @@
+[OK   ] build-44-two-debtors/n1
+    caption: A Pharisee named Simon invited Jesus to dinner. It was a careful, respectable house, and having a well-known t
+    heard  : A Pharisee named Simon invited Jesus to dinner. It was a careful, respectable house,  and having a well-known 
+[OK   ] build-44-two-debtors/n2
+    caption: Then the door opened, and a woman came in who did not belong there. Everyone in that town knew what she was. S
+    heard  : Then the door opened, and a woman came in who did not belong there. Everyone in that town knew what  she was. 
+[OK   ] build-44-two-debtors/n3
+    caption: She went straight to his feet. And there, in front of every important man in the room, she broke. She wept unt
+    heard  : She went straight to his feet, and there, in front of every important man in the room, she broke.  She wept un
+[OK   ] build-44-two-debtors/n4
+    caption: Simon watched, and said nothing out loud. But inside, he had already made up his mind. If this man were really
+    heard  : Simon watched, and said nothing out loud.  But inside, he had already made up his mind.  If this man were real
+[OK   ] build-44-two-debtors/j1
+    caption: Simon, I have somewhat to say unto thee.
+    heard  : Simon, I have somewhat to say unto thee.
+[minor] build-44-two-debtors/s40
+    caption: Master, say on.
+    heard  : Master Seon
+      ~ 'say on' -> heard 'seon'   (sound match 80%)
+[OK   ] build-44-two-debtors/n4b
+    caption: Simon, there is something I want to say to you. Say it, teacher, Simon answered. He had been thinking it, not 
+    heard  : Simon, there is something I want to say to you.  Say it.  Teacher, Simon answered.  He had been thinking it, n
+[OK   ] build-44-two-debtors/n5
+    caption: And instead of scolding anyone, Jesus told him a small story. There was a man who lent money, and two people o
+    heard  : And instead of scolding anyone, Jesus told him a small story. There was a man who lent money,  and two people 
+[BAD  ] build-44-two-debtors/j2
+    caption: There was a certain creditor which had two debtors: the one owed five hundred pence, and the other fifty.
+    heard  : There was a certain creditor which had two debtors, the one owed 500 pence, and the other 50.
+     !! 'five hundred' -> heard '-'   (sound match 0%)
+     !! 'fifty' -> heard '-'   (sound match 0%)
+[OK   ] build-44-two-debtors/n6
+    caption: One of them owed about two years of wages. The other owed a couple of months. Very different weights around th
+    heard  : One of them owed about two years of wages. The other owed a couple of months. Very different  weights around t
+[OK   ] build-44-two-debtors/j3
+    caption: And when they had nothing to pay, he frankly forgave them both. Tell me therefore, which of them will love him
+    heard  : And when they had nothing to pay, he frankly forgave them both.  Tell me therefore which of them will love him
+[OK   ] build-44-two-debtors/s43
+    caption: I suppose that he, to whom he forgave most.
+    heard  : I suppose that he, to whom he forgave most.
+[OK   ] build-44-two-debtors/j3b
+    caption: Thou hast rightly judged.
+    heard  : Thou hast rightly judged.
+[OK   ] build-44-two-debtors/n7
+    caption: To forgive them frankly meant he simply let it go. He did not lower the payments. He tore both debts up and as
+    heard  : To forgive them frankly meant he simply let it go. He did not lower the payments. He tore both  debts up and a
+[BAD  ] build-44-two-debtors/jv44
+    caption: Seest thou this woman? I entered into thine house, thou gavest me no water for my feet: but she hath washed my
+    heard  : Sayest thou this woman?  I entered into thine house, thou gavest me no water for my feet, but she hath washed 
+     !! 'seest' -> heard 'sayest'   (sound match 67%)
+[OK   ] build-44-two-debtors/n8
+    caption: Then Jesus turned and looked at the woman, but he kept speaking to Simon. He set the two of them side by side.
+    heard  : Then Jesus turned and looked at the woman, but he kept speaking to Simon.  He set the two of them side by side
+[OK   ] build-44-two-debtors/j4
+    caption: Her sins, which are many, are forgiven; for she loved much: but to whom little is forgiven, the same loveth li
+    heard  : Her sins, which are many, are forgiven, for she loved much, but to whom little is forgiven, the same loveth li
+[OK   ] build-44-two-debtors/n9
+    caption: Read that slowly, because it is easy to turn it backwards. She was not forgiven because she loved so much. She
+    heard  : Read that slowly because it is easy to turn it backwards. She was not forgiven because she loved so much. She 
+[OK   ] build-44-two-debtors/jv48
+    caption: Thy sins are forgiven.
+    heard  : Thy sins are forgiven.
+[BAD  ] build-44-two-debtors/n9b
+    caption: Your sins are forgiven. He said it out loud, at a full table, in front of every important man in that town, to
+    heard  : Your sins are forgiven. He set it out loud at a full table in front of every important man in that  town to th
+     !! 'said' -> heard 'set'   (sound match 50%)
+[OK   ] build-44-two-debtors/j5
+    caption: Thy faith hath saved thee; go in peace.
+    heard  : Thy faith hath saved thee, go in peace.
+[OK   ] build-44-two-debtors/n10
+    caption: She came in as the woman everybody had already judged. She walked out saved, and at peace, and loved. And here
+    heard  : She came in as the woman everybody had already judged.  She walked out saved and at peace and loved.  And here
+[OK   ] build-44-two-debtors/card
+    caption: The woman knew exactly how much she had been forgiven, and it made her fearless with love. How much do you bel
+    heard  : The woman knew exactly how much she had been forgiven, and it made her fearless with love.  How much do you be
+
+3 segment(s) need an ear-check in build-44-two-debtors

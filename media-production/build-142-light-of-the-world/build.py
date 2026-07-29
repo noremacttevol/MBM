@@ -48,7 +48,7 @@ ST5 = "s5-eyes-opening.jpeg"
 ST6 = "s6-tender-and-certain.jpeg"
 ST7 = "s7-every-corner.jpeg"
 
-TEXT = {s[0]: s[4] for s in make_narration.SEGMENTS}
+TEXT = {s[0]: (s[4] if len(s) >= 5 else s[2]) for s in make_narration.SEGMENTS}
 KJV = {"j1", "j2"}   # John 8:12 / 9:5, Jesus voice — cream italic
 # Long holds: both KJV lines + the marked silences after n1 (s3) and n3 (s5).
 LONG_HOLD = {"j1", "j2", "n1", "n3"}

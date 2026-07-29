@@ -1,0 +1,49 @@
+[OK   ] build-140-road-runs-both-ways/n0
+    caption: Jesus told a story about a father and two sons. The younger one wanted his share of the inheritance now — and 
+    heard  : Jesus told a story about a father and two sons.  The younger one wanted his share of the inheritance now, and 
+[OK   ] build-140-road-runs-both-ways/j1
+    caption: And he said, A certain man had two sons:
+    heard  : And he said, a certain man had two sons.
+[OK   ] build-140-road-runs-both-ways/n1
+    caption: He left home and went to a country far away. There he spent everything on a life that looked free and felt emp
+    heard  : He left home and went to a country far away. There he spent everything on a life that looked  free and felt em
+[OK   ] build-140-road-runs-both-ways/n2
+    caption: A hard season came. He was hungry, alone, and tending pigs — and he came to himself.
+    heard  : A hard season came. He was hungry, alone, and tending pigs, and he came to himself.
+[OK   ] build-140-road-runs-both-ways/j18
+    caption: I will arise and go to my father, and will say unto him, Father, I have sinned against heaven, and before thee
+    heard  : I will arise and go to my Father, and will say unto Him, Father, I have sinned against Heaven,  and before the
+[OK   ] build-140-road-runs-both-ways/n3a
+    caption: He decided to go back.
+    heard  : He decided to go back.
+[OK   ] build-140-road-runs-both-ways/n3b
+    caption: Not as a son claiming rights, but as a servant asking for a place.
+    heard  : not as a son claiming rights, but as a servant asking for a place.
+[OK   ] build-140-road-runs-both-ways/j20
+    caption: But when he was yet a great way off, his father saw him, and had compassion, and ran, and fell on his neck, an
+    heard  : But when he was yet a great way off, his father saw him, and had compassion, and ran, and fell on his neck, an
+[OK   ] build-140-road-runs-both-ways/n4
+    caption: But while he was still far off, his father saw him and ran. No lecture. No waiting for the apology. He threw h
+    heard  : But while he was still far off, his father saw him and ran. No lecture. No waiting for the apology.  He threw 
+[OK   ] build-140-road-runs-both-ways/j22
+    caption: But the father said to his servants, Bring forth the best robe, and put it on him; and put a ring on his hand,
+    heard  : But the father said to his servants, bring forth the best robe, and put it on him, and put a ring on his hand,
+[minor] build-140-road-runs-both-ways/n5
+    caption: The father gave him the robe, the ring, the sandals — belonging, not probation. And there was a feast, because
+    heard  : The Father gave him the robe, the ring, the sandals, the longing, not probation, and there was a feast  becaus
+      ~ 'belonging' -> heard 'the longing'   (sound match 77%)
+[OK   ] build-140-road-runs-both-ways/n6
+    caption: But the older brother stood outside, angry that grace looked so easy. The door ran both ways — it was open for
+    heard  : But the older brother stood outside, angry that Grace looked so easy. The door ran both ways.  It was open for
+[minor] build-140-road-runs-both-ways/j31
+    caption: Son, thou art ever with me, and all that I have is thine. It was meet that we should make merry, and be glad: 
+    heard  : Son, thou art ever with me, and all that I have is thine.  It was meat that we should make merry, and be glad,
+      ~ 'meet' -> heard 'meat'   (sound match 100%)
+[OK   ] build-140-road-runs-both-ways/n7
+    caption: Son, you have always been with me, the father told him, and everything I have is already yours. Then he went r
+    heard  : Son, you have always been with me. The father told him, and everything I have is already  yours. Then he went 
+[OK   ] build-140-road-runs-both-ways/card
+    caption: The road home is always open. However far you've gone, turn around — He's already running to meet you.
+    heard  : The road home is always open. However far you've gone, turn around. He's already running to meet you.
+
+0 segment(s) need an ear-check in build-140-road-runs-both-ways

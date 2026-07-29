@@ -1,0 +1,63 @@
+[OK   ] build-06-two-sons/n0
+    caption: Jesus told this story to religious leaders — people who were sure they had already said yes to God. He told it
+    heard  : Jesus told this story to religious leaders, people who were sure they had already said yes to God.  He told it
+[minor] build-06-two-sons/j28
+    caption: But what think ye? A certain man had two sons; and he came to the first, and said, Son, go work to day in my v
+    spoken : But what think ye? A certain man had two sons; and he came to the first, and said, Son, go work today in my vi
+    heard  : But what thing ye?  A certain man had two sons, and he came to the first, and said,  Son, go work today in my 
+      ~ 'think' -> heard 'thing'   (sound match 75%)
+      ~ 'to day' -> heard 'today'   (sound match 100%)
+[OK   ] build-06-two-sons/n1
+    caption: A father told his first son: go work in the vineyard today. And the son answered him flat.
+    heard  : A father told his first son, go work in the vineyard today, and the son answered him flat.
+[OK   ] build-06-two-sons/j29
+    caption: He answered and said, I will not.
+    heard  : He answered and said, I will not.
+[OK   ] build-06-two-sons/n1b
+    caption: I will not. No excuse offered, nothing softened. Just no.
+    heard  : I will not. No excuse offered. Nothing softened. Just no.
+[OK   ] build-06-two-sons/n2
+    caption: Then the father went to his second son and asked him the same thing.
+    heard  : Then the father went to his second son and asked him the same thing.
+[OK   ] build-06-two-sons/j30
+    caption: And he came to the second, and said likewise. And he answered and said, I go, sir: and went not.
+    heard  : and he came to the second and said likewise.  And he answered and said, I go, sir, and went not.
+[OK   ] build-06-two-sons/n2b
+    caption: Yes sir, that one said. I'm going. And didn't.
+    heard  : Yes sir, that one said, I'm going, and didn't.
+[OK   ] build-06-two-sons/n2c
+    caption: The first son meant his no. But it wouldn't leave him alone. All morning, the vineyard kept pulling at him.
+    heard  : The first son meant his no, but it wouldn't leave him alone. All morning, the vineyard kept pulling at him.
+[OK   ] build-06-two-sons/j29b
+    caption: but afterward he repented, and went.
+    heard  : but afterward he repented and went.
+[OK   ] build-06-two-sons/n2d
+    caption: So he got up. And he went. No announcement, no apology. He went back to the vineyard, and he worked.
+    heard  : So he got up, and he went. No announcement, no apology. He went back to the vineyard,  and he worked.
+[OK   ] build-06-two-sons/n3
+    caption: The row the second son promised to work stayed empty all day. Then Jesus asked the crowd a question.
+    heard  : The row the second son promised to work stayed empty all day. Then Jesus asked the crowd a question.
+[OK   ] build-06-two-sons/j1
+    caption: Whether of them twain did the will of his father?
+    heard  : Whether of them twain did the will of his father.
+[OK   ] build-06-two-sons/n4
+    caption: He was asking: which of the two actually did what his father wanted? And the crowd answered him.
+    heard  : He was asking, which of the two actually did what his father wanted? And the crowd answered him.
+[OK   ] build-06-two-sons/s31
+    caption: They say unto him, The first.
+    heard  : They say unto him the first.
+[OK   ] build-06-two-sons/n5
+    caption: The first one, they said. The one who started with no. Then he turned to the religious leaders — the ones who 
+    heard  : The first one, they said, the one who started with no. Then he turned to the religious leaders.  The ones who 
+[OK   ] build-06-two-sons/j2
+    caption: Verily I say unto you, That the publicans and the harlots go into the kingdom of God before you.
+    heard  : Verily I say unto you, that the publicans and the harlots go into the kingdom of God before you.
+[minor] build-06-two-sons/n5b
+    caption: The tax collectors and the worst-thought-of people in town are going in ahead of you. Not because their lives 
+    heard  : The tax collectors and the worst thought of people in town are going in ahead of you.  Not because their lives
+      ~ 'worstthoughtof' -> heard 'worst thought of'   (sound match 100%)
+[OK   ] build-06-two-sons/n6
+    caption: Have you ever said no to something — maybe loudly — and found yourself moving toward it anyway, because part o
+    heard  : Have you ever said no to something?  Maybe loudly, and found yourself moving toward it anyway, because part of
+
+0 segment(s) need an ear-check in build-06-two-sons

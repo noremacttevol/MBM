@@ -1,0 +1,45 @@
+[OK   ] build-55-withered-hand/n1
+    caption: On another sabbath Jesus went into the synagogue to teach, and there in the crowd was a man whose hand was wit
+    heard  : On another Sabbath, Jesus went into the synagogue to teach, and there in the crowd was a man whose  hand was w
+[OK   ] build-55-withered-hand/n2
+    caption: But others in the room were watching — not the man, but Jesus. Some of the religious leaders felt sure he woul
+    heard  : But others in the room were watching, not the man, but Jesus. Some of the religious leaders  felt sure he woul
+[OK   ] build-55-withered-hand/n3
+    caption: Jesus knew exactly what was in their hearts. He did not hide the moment away in a corner. He said to the man w
+    heard  : Jesus knew exactly what was in their hearts.  He did not hide the moment away in a corner.  He said to the man
+[OK   ] build-55-withered-hand/j3
+    caption: Stand forth.
+    heard  : Stand forth.
+[OK   ] build-55-withered-hand/n3b
+    caption: Stand up. Come out here, into the middle, where everyone can see you. The man everybody in that room had learn
+    heard  : Stand up. Come out here, into the middle, where everyone can see you. The man everybody in that  room had lear
+[OK   ] build-55-withered-hand/jv4
+    caption: Is it lawful to do good on the sabbath days, or to do evil? to save life, or to kill?
+    heard  : Is it lawful to do good on the Sabbath days, or to do evil?  To save life, or to kill?
+[OK   ] build-55-withered-hand/n4
+    caption: Is it lawful to do good on the sabbath, or to do harm? To save a life, or to kill one? It was a simple questio
+    heard  : Is it lawful to do good on the Sabbath or to do harm, to save a life or to kill one?  It was a simple question
+[OK   ] build-55-withered-hand/s5a
+    caption: And when he had looked round about on them with anger, being grieved for the hardness of their hearts, he sait
+    heard  : And when he had looked round about on them with anger, being grieved for the hardness of their hearts, he sait
+[BAD  ] build-55-withered-hand/jv5
+    caption: Stretch forth thine hand.
+    heard  : Stretch 4th Thine Hand
+     !! 'forth' -> heard 'th'   (sound match 67%)
+[OK   ] build-55-withered-hand/n4b
+    caption: He looked around at every one of them, angry, and grieved to the heart at how hard they had let themselves bec
+    heard  : He looked around at every one of them, angry and grieved to the heart at how hard they had  let themselves bec
+[OK   ] build-55-withered-hand/n5
+    caption: And the man stretched out the hand he could not use — and as he reached, it was made whole, restored, strong a
+    heard  : And the man stretched out the hand he could not use, and as he reached, it was made whole,  restored, strong, 
+[OK   ] build-55-withered-hand/n6
+    caption: But the leaders were not amazed; they were furious. They walked out and began, that very day, to plot together
+    heard  : But the leaders were not amazed. They were furious. They walked out and began that very day to plot  together 
+[OK   ] build-55-withered-hand/n7
+    caption: Faced with a rule on one side and a suffering man on the other, Jesus never wavered. He will always move towar
+    heard  : Faced with a rule on one side and a suffering man on the other, Jesus never wavered.  He will always move towa
+[OK   ] build-55-withered-hand/card
+    caption: There will always be people upset that he loves you without conditions. Let them be. He looks past every rule 
+    heard  : There will always be people upset that he loves you without conditions.  Let them be.  He looks past every rul
+
+1 segment(s) need an ear-check in build-55-withered-hand

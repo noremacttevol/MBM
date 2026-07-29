@@ -1,0 +1,52 @@
+[minor] build-32-talents/j14
+    caption: For the kingdom of heaven is as a man travelling into a far country, who called his own servants, and delivere
+    heard  : For the kingdom of heaven is as a man traveling into a far country, who called his own servants, and delivered
+      ~ 'travelling' -> heard 'traveling'   (sound match 100%)
+[OK   ] build-32-talents/n1
+    caption: Jesus told a story about a wealthy man who, before a long journey, entrusted his servants with his own fortune
+    heard  : Jesus told a story about a wealthy man who, before a long journey, entrusted his servants with his own fortune
+[OK   ] build-32-talents/n2
+    caption: It was a staggering amount of trust. He handed his wealth to his servants and left them free to use it.
+    heard  : It was a staggering amount of trust. He handed his wealth to his servants, and left them free to use it.
+[OK   ] build-32-talents/n3
+    caption: The servant with five bags went straight to work, trading and investing, and doubled everything he had been gi
+    heard  : The servant with five bags went straight to work, trading and investing, and doubled everything he had been gi
+[OK   ] build-32-talents/n4
+    caption: The servant with two bags did the same, and doubled his as well. Neither one played it safe. They took what th
+    heard  : The servant with two bags did the same and doubled his as well. Neither one played it safe.  They took what th
+[OK   ] build-32-talents/n5
+    caption: But the servant with one bag was afraid. So he dug a hole in the ground, buried the silver, and did nothing wi
+    heard  : but the servant with one bag was afraid. So he dug a hole in the ground, buried the silver,  and did nothing w
+[OK   ] build-32-talents/n6
+    caption: When the master came home, the first two servants showed him what they had made. And he was overjoyed.
+    heard  : When the master came home, the first two servants showed him what they had made, and he was overjoyed.
+[OK   ] build-32-talents/j1
+    caption: Well done, thou good and faithful servant: thou hast been faithful over a few things, I will make thee ruler o
+    heard  : Well done, thou good and faithful servant. Thou hast been faithful over a few things,  I will make thee ruler 
+[OK   ] build-32-talents/n7
+    caption: Enter into the joy of your master. He did not just reward them, he shared his own joy with them, and welcomed 
+    heard  : Enter into the joy of your master. He did not just reward them. He shared his own joy with them and welcomed t
+[minor] build-32-talents/n8
+    caption: Then the last servant came, dug up his one buried bag, and handed it back untouched. And listen to why he had 
+    heard  : Then the last servant came, dug up his one buried bag, and handed it back untouched,  and listened to why he h
+      ~ 'listen' -> heard 'listened'   (sound match 89%)
+[minor] build-32-talents/j24
+    caption: Lord, I knew thee that thou art an hard man, reaping where thou hast not sown, and strawing where thou hast no
+    heard  : Lord, I knew thee that thou art an hard man, reaping where thou hast not sown, and strong  where thou hast not
+      ~ 'strawing' -> heard 'strong'   (sound match 91%)
+      ~ 'strawed' -> heard 'strud'   (sound match 89%)
+[OK   ] build-32-talents/j2
+    caption: And I was afraid, and went and hid thy talent in the earth: lo, there thou hast that is thine.
+    heard  : And I was afraid, and went and hid thy talent in the earth.  Lo, there thou hast that is thine.
+[OK   ] build-32-talents/n9
+    caption: There it is. He buried the gift because he believed his master was harsh and cruel. He was wrong about him. Hi
+    heard  : There it is. He buried the gift because he believed his master was harsh and cruel.  He was wrong about him. H
+[minor] build-32-talents/n10
+    caption: That is the real tragedy of the story. Not that he had little, but that he so badly misjudged the heart of the
+    heard  : That is the real tragedy of the story, not that he had little, but that he so badly misjudged  the heart of th
+      ~ 'servant' -> heard 'serve and'   (sound match 80%)
+[OK   ] build-32-talents/card
+    caption: What has God trusted you with that fear has kept you from using? What if he is kinder than you think?
+    heard  : What has God trusted you with that fear has kept you from using?  What if He is kinder than you think?
+
+0 segment(s) need an ear-check in build-32-talents
