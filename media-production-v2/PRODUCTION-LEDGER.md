@@ -349,3 +349,19 @@ Read at full resolution: s02 (FAIL, rotated — fixed above), s11, s17.
 
 - No mp4 assembled (steps G/H suspended by the pictures-only order).
 - Push still blocked by this box's 12.7 GB backlog; all work committed locally.
+
+---
+
+## Session 5 — 2026-07-29 (rows 50+ picture pass)
+
+- **Model:** Fable 5 (Claude Code)
+- **Machine:** Machine A — hostname `Dev`
+- **Job:** V2-SESSION-FROM-50 — pictures only, rows 50 upward. **Machine A claims
+  rows 50-70.** Runner `v2_run_all.py --first 50` started (log `/tmp/v2-run-50.log`).
+- Repo found mid-stale-rebase (807 pending, conflicts on build-08 mp3s) with
+  origin/main already an ancestor of local main — aborted the rebase, main restored
+  to 5cc5e963b, nothing lost.
+
+| row | build | status |
+|---|---|---|
+| 50 | build-50-noblemans-son | beats_v2.py authored, 27 beats, checker PASS · generating |
