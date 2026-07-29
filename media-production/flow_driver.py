@@ -397,9 +397,31 @@ def download_variant(page, name, size, out):
     sspot = _leaf_spot(page, size)
     if not sspot:
         raise SystemExit(f"viewer: size option {size!r} not found")
-    with page.expect_download(timeout=180000) as dl:
-        page.mouse.click(sspot["x"], sspot["y"])
+    # SELF-DIAGNOSING TIMEOUT (Machine A, 2026-07-29). Downloads stopped working
+    # at 10:19 after 175 successful pictures: the image still generates, the
+    # viewer opens, "download" and the size option are both found and clicked,
+    # and then no download event ever fires. Because the driver runs its own
+    # Playwright browser, nothing about that page is visible from outside it, so
+    # every failure was costing 180 s and telling us nothing. On timeout we now
+    # dump a screenshot and the visible page text next to the intended output, so
+    # the NEXT failure explains itself instead of needing a live Chrome session.
+    # Timeout dropped 180 s -> 75 s: a real download starts within a couple of
+    # seconds, so the extra 105 s only ever bought dead air, and at a ~95% failure
+    # rate that was most of the wall clock.
     Path(out).parent.mkdir(parents=True, exist_ok=True)
+    try:
+        with page.expect_download(timeout=75000) as dl:
+            page.mouse.click(sspot["x"], sspot["y"])
+    except Exception:
+        diag = Path(out).with_suffix(".FAILED")
+        try:
+            page.screenshot(path=str(diag.with_suffix(".FAILED.png")), full_page=False)
+            txt = page.evaluate("() => document.body.innerText.slice(0, 4000)")
+            diag.with_suffix(".FAILED.txt").write_text(txt or "(no body text)")
+            print(f"  DIAG: wrote {diag.with_suffix('.FAILED.png').name} and .txt", flush=True)
+        except Exception as e:
+            print(f"  DIAG: could not capture page state: {e}", flush=True)
+        raise
     dl.value.save_as(out)
 
 
