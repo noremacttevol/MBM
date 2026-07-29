@@ -165,8 +165,74 @@ def cmd_check():
     sys.exit(0 if ok and proj else 1)
 
 
-def ensure_settings(page):
-    """Set Image · 9:16 · 1x on the settings chip and report credit cost.
+def ensure_model(page, want, open_chip, chip_text):
+    """Select the image model by name (e.g. 'Nano Banana Pro') on the settings chip.
+
+    Added 2026-07-28 (Machine A, V2 production). Before this, the driver used
+    whatever model the project happened to remember and only ever VERIFIED the
+    chip said 'Nano Banana'. V2 requires Nano Banana Pro for every shot with
+    Jesus, a close face, or a crowd (V2-KICKOFF step E), so the model has to be
+    selectable per generation, not set by hand once.
+
+    Returns True if the chip ends up naming `want`. Best-effort by design: the
+    caller decides whether a miss is fatal (for V2 it is — a Pro shot silently
+    made on a lesser model is a wasted QC pass, not a saving).
+    """
+    if not want:
+        return True
+    # Print the chip ALWAYS (2026-07-28): the first V2 run silently short-circuited
+    # here and produced 768x1376 stills — Nano Banana 2's size — with no line in the
+    # log saying which model ran. A generation you cannot attribute to a model is a
+    # generation you cannot trust, so the chip text goes in the log every time.
+    first = (chip_text() or "?").strip().splitlines()[0]
+    print(f"  model chip reads: {first!r} (want {want!r})")
+    if want.lower() in first.lower():
+        return True
+
+    CLICK_BY_TEXT = (
+        "(name) => {"
+        " const n = name.toLowerCase();"
+        " const cand = [...document.querySelectorAll('*')]"
+        "   .filter(e => e.offsetParent !== null)"
+        "   .map(e => ({e, t:(e.innerText||'').trim(), r:e.getBoundingClientRect()}))"
+        "   .filter(o => o.t.toLowerCase() === n"
+        "             || o.t.toLowerCase().startsWith(n + '\\n'))"
+        "   .filter(o => o.r.width > 0 && o.r.height > 0 && o.r.width < 520)"
+        "   .sort((a,b) => a.t.length - b.t.length);"
+        " const o = cand[0]; if (!o) return null;"
+        " return {x:o.r.x + o.r.width/2, y:o.r.y + o.r.height/2}; }")
+
+    for attempt in range(4):
+        open_chip()
+        # The model list may sit behind a sub-dropdown that shows the CURRENT
+        # model. If the wanted name isn't on screen, click the current-model
+        # row first to expand the list, then look again.
+        target = page.evaluate(CLICK_BY_TEXT, want)
+        if not target:
+            cur = (chip_text() or "").strip().split("\n")[0]
+            if cur:
+                spot = page.evaluate(CLICK_BY_TEXT, cur)
+                if spot:
+                    page.mouse.click(spot["x"], spot["y"])
+                    page.wait_for_timeout(900)
+            target = page.evaluate(CLICK_BY_TEXT, want)
+        if target:
+            page.mouse.click(target["x"], target["y"])
+            page.wait_for_timeout(1200)
+            if want.lower() in (chip_text() or "").lower():
+                page.keyboard.press("Escape")
+                page.wait_for_timeout(400)
+                print(f"  model: {want}")
+                return True
+        page.keyboard.press("Escape")
+        page.wait_for_timeout(400)
+    print(f"  WARNING: could not select model '{want}' "
+          f"(chip says: {(chip_text() or '?').splitlines()[0]})")
+    return False
+
+
+def ensure_settings(page, model=None):
+    """Set model · Image · 9:16 · 1x on the settings chip and report credit cost.
 
     The chip popup (found 2026-07-15, Machine C) lays out material-icon buttons whose
     innerText is 'icon\\nlabel': mode row 'image\\nImage' / 'play_circle\\nVideo';
@@ -232,6 +298,10 @@ def ensure_settings(page):
         page.mouse.click(c["x"], c["y"])
         return True
 
+    # model FIRST — switching model can reset aspect/count, so it must happen
+    # before 9:16 is set (2026-07-28, Machine A).
+    model_ok = ensure_model(page, model, open_chip, chip_text)
+
     # set 9:16, verifying against the chip text; retry a few times (the aspect row
     # only exists while the popup is open, and the popup re-renders on each click)
     aspect_ok = "crop_9_16" in chip_text()
@@ -261,9 +331,10 @@ def ensure_settings(page):
         # it actually came out landscape.
         print("  WARNING: could not confirm 9:16 on the chip — continuing anyway; "
               "verify the saved jpeg is portrait and reroll only if it is landscape.")
+    return model_ok
 
 
-def cmd_gen(prompt, out, refs):
+def cmd_gen(prompt, out, refs, model=None, model_required=True):
     url = CONF.read_text().strip() if CONF.exists() else ""
     if not url:
         raise SystemExit("No saved project. Run: flow_driver.py open")
@@ -278,9 +349,16 @@ def cmd_gen(prompt, out, refs):
         if "accounts.google.com" in page.url:
             raise SystemExit("Not logged in — run: flow_driver.py open")
         try:  # settings are best-effort — defaults still generate; never block on UI
-            ensure_settings(page)
+            model_ok = ensure_settings(page, model)
         except Exception as e:
             print(f"  (settings skipped: {e})")
+            model_ok = not model
+        if model and model_required and not model_ok:
+            # A named model is a deliberate spend decision (V2: Pro for every
+            # face/crowd). Silently generating on a lesser model wastes the QC
+            # pass instead of saving anything, so stop and say so.
+            ctx.close()
+            raise SystemExit(f"Could not select model '{model}' — nothing generated.")
 
         pre = page.evaluate(NAMES_JS) or []
         for ref in refs or []:
@@ -399,12 +477,19 @@ def main():
     sub.add_parser("open")
     sub.add_parser("check")
     sub.add_parser("show")
+    sub.add_parser("models")
     gr = sub.add_parser("grab")
     gr.add_argument("--out", required=True)
     g = sub.add_parser("gen")
     g.add_argument("--prompt", required=True)
     g.add_argument("--out", required=True)
     g.add_argument("--ref", action="append", default=[])
+    g.add_argument("--model", default=None,
+                   help="Image model to select on the chip, e.g. 'Nano Banana Pro'. "
+                        "Omit to use whatever the project remembers.")
+    g.add_argument("--model-best-effort", action="store_true",
+                   help="Generate anyway if --model can't be confirmed "
+                        "(default: abort rather than spend on the wrong model).")
     a = ap.parse_args()
     if a.cmd == "open":
         cmd_open()
@@ -412,12 +497,53 @@ def main():
         cmd_check()
     elif a.cmd == "show":
         cmd_show()
+    elif a.cmd == "models":
+        cmd_models()
     elif a.cmd == "grab":
         cmd_grab(a.out)
     else:
-        cmd_gen(a.prompt, a.out, a.ref)
+        cmd_gen(a.prompt, a.out, a.ref, a.model, not a.model_best_effort)
 
 
+
+
+def cmd_models():
+    """Dump the settings chip text and every model option in its popover.
+
+    Added 2026-07-28 (Machine A): `gen --model` needs to know what the options are
+    actually called before it can click one, and a run whose model can't be named
+    afterwards is a run you can't trust. Read-only — opens the popover, prints, quits.
+    """
+    url = CONF.read_text().strip() if CONF.exists() else FLOW
+    with profile_lock(), sync_playwright() as p:
+        ctx = launch(p, headless=False)
+        page = ctx.pages[0] if ctx.pages else ctx.new_page()
+        page.goto(url, wait_until="domcontentloaded")
+        page.wait_for_timeout(6000)
+        FIND_CHIP = ("() => { const has = e => (e.innerText||'').includes('Nano Banana');"
+                     " let el = [...document.querySelectorAll('button')].find(has);"
+                     " if(!el){ const els=[...document.querySelectorAll('[role=button],div,span')]"
+                     "   .filter(has); els.sort((a,b)=>a.innerText.length-b.innerText.length);"
+                     "   el = els[0]; }"
+                     " if(!el) return null; const r=el.getBoundingClientRect();"
+                     " return {x:r.x+r.width/2, y:r.y+r.height/2, t:el.innerText}; }")
+        c = page.evaluate(FIND_CHIP)
+        print(f"CHIP TEXT: {(c or {}).get('t')!r}")
+        if c:
+            page.mouse.click(c["x"], c["y"])
+            page.wait_for_timeout(1500)
+        opts = page.evaluate(
+            "() => [...document.querySelectorAll('*')]"
+            "  .filter(e => e.offsetParent !== null && !e.children.length)"
+            "  .map(e => (e.innerText||'').trim())"
+            "  .filter(t => t && t.length < 60)"
+            "  .filter((t,i,a) => a.indexOf(t) === i)")
+        print("POPOVER LEAF TEXTS:")
+        for o in opts:
+            print(f"  - {o!r}")
+        c2 = page.evaluate(FIND_CHIP)
+        print(f"CHIP TEXT (popover open): {(c2 or {}).get('t')!r}")
+        ctx.close()
 
 
 def cmd_show(minutes=15):

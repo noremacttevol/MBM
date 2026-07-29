@@ -1,0 +1,378 @@
+{
+ "row": 1,
+ "slug": "build-01-cloak",
+ "v1_dir": "media-production/build-01-cloak",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.3,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": "s1-suffering.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "There was a woman who had been suffering for twelve years.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 3.327,
+   "seg_end": 4.047,
+   "audio_dur": 3.422,
+   "spoken_dur": 3.047,
+   "seg_dur": 4.047,
+   "timing": [
+    {
+     "text": "There was a woman who had been suffering for twelve years.",
+     "start": 0.0,
+     "end": 3.39
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-spent-all.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "She had spent everything on doctors. Nothing helped. She was exhausted, desperate \u2014 and by the rules of her time, considered untouchable.",
+   "seg_start": 4.047,
+   "audio_start": 4.327,
+   "spoken_end": 14.108,
+   "seg_end": 14.828,
+   "audio_dur": 10.214,
+   "spoken_dur": 9.781,
+   "seg_dur": 10.781,
+   "timing": [
+    {
+     "text": "She had spent everything on doctors.",
+     "start": 0.0,
+     "end": 2.206
+    },
+    {
+     "text": "Nothing helped.",
+     "start": 2.206,
+     "end": 3.355
+    },
+    {
+     "text": "She was exhausted, desperate \u2014 and by the rules of her time, considered untouchable.",
+     "start": 3.355,
+     "end": 10.17
+    }
+   ]
+  },
+  {
+   "seg": "n2b",
+   "v1_still": "s3-on-his-way.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That day, Jesus was already on his way to save someone else \u2014 a ruler's daughter, twelve years old, and dying. The crowd pressed around him on every side. Almost no one would have noticed one more sick woman at its edge.",
+   "seg_start": 14.828,
+   "audio_start": 15.108,
+   "spoken_end": 28.844,
+   "seg_end": 29.564,
+   "audio_dur": 14.158,
+   "spoken_dur": 13.735,
+   "seg_dur": 14.735,
+   "timing": [
+    {
+     "text": "That day, Jesus was already on his way to save someone else \u2014 a ruler's daughter, twelve years old, and dying.",
+     "start": 0.0,
+     "end": 7.279
+    },
+    {
+     "text": "The crowd pressed around him on every side.",
+     "start": 7.279,
+     "end": 9.996
+    },
+    {
+     "text": "Almost no one would have noticed one more sick woman at its edge.",
+     "start": 9.996,
+     "end": 14.118
+    }
+   ]
+  },
+  {
+   "seg": "n3a",
+   "v1_still": "s4-she-heard.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "She heard Jesus was nearby. She did not ask permission. She did not make a speech. She said only one thing, and she said it to herself.",
+   "seg_start": 29.564,
+   "audio_start": 29.844,
+   "spoken_end": 37.936,
+   "seg_end": 38.656,
+   "audio_dur": 8.594,
+   "spoken_dur": 8.093,
+   "seg_dur": 9.093,
+   "timing": [
+    {
+     "text": "She heard Jesus was nearby.",
+     "start": 0.0,
+     "end": 1.823
+    },
+    {
+     "text": "She did not ask permission.",
+     "start": 1.823,
+     "end": 3.529
+    },
+    {
+     "text": "She did not make a speech.",
+     "start": 3.529,
+     "end": 5.19
+    },
+    {
+     "text": "She said only one thing, and she said it to herself.",
+     "start": 5.19,
+     "end": 8.545
+    }
+   ]
+  },
+  {
+   "seg": "w28",
+   "v1_still": "s4-she-heard.jpeg",
+   "zoom": "out",
+   "speaker": "woman",
+   "text": "If I may touch but his clothes, I shall be whole.",
+   "seg_start": 38.656,
+   "audio_start": 38.936,
+   "spoken_end": 41.515,
+   "seg_end": 42.815,
+   "audio_dur": 3.004,
+   "spoken_dur": 2.579,
+   "seg_dur": 4.159,
+   "timing": [
+    {
+     "text": "If I may touch but his clothes, I shall be whole.",
+     "start": 0.0,
+     "end": 2.972
+    }
+   ]
+  },
+  {
+   "seg": "n3b",
+   "v1_still": "s5-reaches-hem.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "If I can just touch his clothes, she told herself, I will be well. That was the whole of her plan. She pressed through the crowd and reached out to touch the edge of his cloak.",
+   "seg_start": 42.815,
+   "audio_start": 43.095,
+   "spoken_end": 52.958,
+   "seg_end": 53.678,
+   "audio_dur": 10.292,
+   "spoken_dur": 9.863,
+   "seg_dur": 10.863,
+   "timing": [
+    {
+     "text": "If I can just touch his clothes, she told herself, I will be well.",
+     "start": 0.0,
+     "end": 4.331
+    },
+    {
+     "text": "That was the whole of her plan.",
+     "start": 4.331,
+     "end": 6.362
+    },
+    {
+     "text": "She pressed through the crowd and reached out to touch the edge of his cloak.",
+     "start": 6.362,
+     "end": 10.263
+    }
+   ]
+  },
+  {
+   "seg": "n4a",
+   "v1_still": "s6-power-gone.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He stopped. He had felt it \u2014 power had gone out of him. The healing was already hers, given the moment she touched him.",
+   "seg_start": 53.678,
+   "audio_start": 53.958,
+   "spoken_end": 61.168,
+   "seg_end": 61.888,
+   "audio_dur": 7.602,
+   "spoken_dur": 7.21,
+   "seg_dur": 8.21,
+   "timing": [
+    {
+     "text": "He stopped.",
+     "start": 0.0,
+     "end": 0.673
+    },
+    {
+     "text": "He had felt it \u2014 power had gone out of him.",
+     "start": 0.673,
+     "end": 4.075
+    },
+    {
+     "text": "The healing was already hers, given the moment she touched him.",
+     "start": 4.075,
+     "end": 7.57
+    }
+   ]
+  },
+  {
+   "seg": "j0",
+   "v1_still": "s7-who-touched.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Who touched my clothes?",
+   "seg_start": 61.888,
+   "audio_start": 62.168,
+   "spoken_end": 63.43,
+   "seg_end": 64.73,
+   "audio_dur": 1.62,
+   "spoken_dur": 1.262,
+   "seg_dur": 2.842,
+   "timing": [
+    {
+     "text": "Who touched my clothes?",
+     "start": 0.0,
+     "end": 1.579
+    }
+   ]
+  },
+  {
+   "seg": "s31",
+   "v1_still": "s8-disciples-puzzled.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Thou seest the multitude thronging thee, and sayest thou, Who touched me?",
+   "seg_start": 64.73,
+   "audio_start": 65.01,
+   "spoken_end": 68.976,
+   "seg_end": 70.276,
+   "audio_dur": 4.31,
+   "spoken_dur": 3.966,
+   "seg_dur": 5.546,
+   "timing": [
+    {
+     "text": "Thou seest the multitude thronging thee, and sayest thou, Who touched me?",
+     "start": 0.0,
+     "end": 4.272
+    }
+   ]
+  },
+  {
+   "seg": "n4c",
+   "v1_still": "s8-disciples-puzzled.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "His disciples thought the question made no sense. The whole crowd was pressing against him \u2014 who hadn't touched him? He ignored them. He was already needed somewhere else, and he stopped anyway.",
+   "seg_start": 70.276,
+   "audio_start": 70.556,
+   "spoken_end": 81.748,
+   "seg_end": 82.468,
+   "audio_dur": 11.598,
+   "spoken_dur": 11.192,
+   "seg_dur": 12.192,
+   "timing": [
+    {
+     "text": "His disciples thought the question made no sense.",
+     "start": 0.0,
+     "end": 2.485
+    },
+    {
+     "text": "The whole crowd was pressing against him \u2014 who hadn't touched him?",
+     "start": 2.485,
+     "end": 6.653
+    },
+    {
+     "text": "He ignored them.",
+     "start": 6.653,
+     "end": 7.906
+    },
+    {
+     "text": "He was already needed somewhere else, and he stopped anyway.",
+     "start": 7.906,
+     "end": 11.564
+    }
+   ]
+  },
+  {
+   "seg": "n4b",
+   "v1_still": "s9-found-her.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He looked for her until he found her.",
+   "seg_start": 82.468,
+   "audio_start": 82.748,
+   "spoken_end": 84.195,
+   "seg_end": 84.915,
+   "audio_dur": 1.802,
+   "spoken_dur": 1.446,
+   "seg_dur": 2.446,
+   "timing": [
+    {
+     "text": "He looked for her until he found her.",
+     "start": 0.0,
+     "end": 1.765
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s10-daughter.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Daughter, thy faith hath made thee whole; go in peace, and be whole of thy plague.",
+   "seg_start": 84.915,
+   "audio_start": 85.195,
+   "spoken_end": 90.228,
+   "seg_end": 91.528,
+   "audio_dur": 5.433,
+   "spoken_dur": 5.034,
+   "seg_dur": 6.614,
+   "timing": [
+    {
+     "text": "Daughter, thy faith hath made thee whole; go in peace, and be whole of thy plague.",
+     "start": 0.0,
+     "end": 5.387
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s11-made-whole.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Be whole of thy plague \u2014 be free of what has been hurting you. Twelve years of it. Over, in a sentence. And the first word he chose was daughter.",
+   "seg_start": 91.528,
+   "audio_start": 91.808,
+   "spoken_end": 100.108,
+   "seg_end": 100.828,
+   "audio_dur": 8.725,
+   "spoken_dur": 8.3,
+   "seg_dur": 9.3,
+   "timing": [
+    {
+     "text": "Be whole of thy plague \u2014 be free of what has been hurting you.",
+     "start": 0.0,
+     "end": 3.471
+    },
+    {
+     "text": "Twelve years of it.",
+     "start": 3.471,
+     "end": 4.946
+    },
+    {
+     "text": "Over, in a sentence.",
+     "start": 4.946,
+     "end": 6.304
+    },
+    {
+     "text": "And the first word he chose was daughter.",
+     "start": 6.304,
+     "end": 8.684
+    }
+   ]
+  }
+ ],
+ "card": {
+  "text": "Whatever you have carried for years \u2014 reach for him. He stops for the one. He calls you his own.",
+  "seg_start": 100.828,
+  "audio_start": 101.108,
+  "seg_dur": 8.128
+ },
+ "total": 108.956
+}
