@@ -89,6 +89,29 @@ order with the unattended runner left alive the whole time.
   during this session read "dead" when the runner was alive, and starting a second one
   put two processes on the same Chrome. Only ever run one. Then author rows 15+
   (`v2_prep_row.py --status`).
+- 🛑 **THE GENERATOR WAS DEAD FOR FOUR HOURS AND I DID NOT NOTICE — READ THIS.**
+  Pictures stopped at **10:19** after 175 good ones. The runner still *looked*
+  healthy: it walked the beats, logged progress, stayed alive. But every attempt
+  failed the same way and only **1 picture landed between 10:19 and 14:19**. The
+  lesson for every future session: **`ps aux | grep v2_run_all` proves nothing.
+  Check the SAVE RATE** — `ls -t media-production-v2/build-*/assets/*.jpeg | head`
+  and look at the timestamps. A live process producing nothing looks identical to
+  a working one in the log.
+- **ROOT CAUSE: Flow's 2K UPSCALER broke.** The image generates correctly every
+  time; the *upscale* fails, so no download event fires and a picture that already
+  exists is thrown away. Found by adding a self-diagnosing timeout to
+  `flow_driver.download_variant` — on failure it now writes a screenshot and the
+  page text beside the intended output, which said `Upscaling Failed!`. Before
+  that, each loss cost 180 s and told us nothing, and the driver's browser is not
+  inspectable from outside it.
+- **FIX (verified live, v2-r011-b07 exit=0): fall back to the 1K original.** The
+  driver already had a menu-free 1K path — `cmd_gen` fetches the gallery `<img>`
+  src directly — so `download_variant` now raises `UpscaleFailed` and the caller
+  uses it. A first attempt tried to re-drive the size menu for a "1K" leaf and
+  also failed; the page dump showed no size options present after the error, so it
+  was clicking at nothing. A **`.size` marker** is written beside every downgraded
+  still so a later pass can re-pull them at 2K when Flow recovers — Cameron's 2K
+  order is deferred for those, not abandoned. Timeout also cut 180 s -> 75 s.
 - **Known non-fatal generator failure:** individual beats occasionally die with a
   Playwright `Timeout ... waiting for event "download"` (Flow hiccup, unrelated to the
   model-chip race fixed this session). The runner logs `exit=1`, moves on, and picks the
