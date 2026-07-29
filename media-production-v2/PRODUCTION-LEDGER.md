@@ -68,7 +68,7 @@ rather than copying the portrait.
 | row | slug | start | end | mins | beats | gens | accepted | rerolls | credits-noted | status | notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | 1 | build-01-cloak | 2026-07-28 22:06 | 2026-07-28 23:00 | 54 | 20 | 43 | 20 | 1× CREAM-CROWD, 1× STRAY-JESUS, 21 discarded on the Flow→API switch | Flow: `0 credits`/gen · API: $2.68 | **DONE · APPROVED by Cameron 2026-07-28** | 109.0 s · 19.8 MB · verify-mp4 OK |
-| 2 | build-02-prodigal | 2026-07-28 23:07 | — | — | 24 | — | — | — | API $0.134/img | IN-PROGRESS (last step E) | 158.4 s plan · 24 stills vs V1's 10 · markers verified · Alexander voice verified via jesus_voice_audit |
+| 2 | build-02-prodigal | 2026-07-28 23:07 | — | — | 24 | 19 | — | — | API ~$2.55 so far | IN-PROGRESS (step E, STOPPED by Cameron 2026-07-28 23:2x — resumable) | 19/24 stills on disk; v2_gen_api skips existing files, so the next session finishes b16–b24, QCs all 24, then steps G–I. Markers verified; build.py written; Alexander voice verified via jesus_voice_audit |
 
 #### Row 1 — build-01-cloak (Mark 5:25-34)
 
