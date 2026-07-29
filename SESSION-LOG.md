@@ -3,7 +3,15 @@
 Commit: 1283299a6 (the chain link this session verified). Continued the pictures-only
 order with the unattended runner left alive the whole time.
 
-- **TEN beat maps authored and checker-clean: rows 5-14 — 286 pictures queued.**
+- **FIFTEEN beat maps authored and checker-clean: rows 5-16, 18, 19, 20 — 447
+  pictures queued** (~18 hours of runway for the generator). Row 17 is skipped on
+  purpose: Cameron deferred it to last. Later additions: row 15 centurion 41 ·
+  row 16 mary-martha 25 · row 18 emmaus 38 · row 19 shore 27 · row 20 samaritan 30.
+  Row 19 is the John 21 build Cameron named as the burst-coverage example, and the
+  realize/leap/swim chain gets four frames across eleven seconds. Row 20 applies
+  the RESTRAINT LAW although it is unflagged — the robbery is never shown, the
+  wound-binding frame contains no visible wound.
+- **TEN beat maps authored earlier: rows 5-14 — 286 pictures queued.**
   (Rows 12/13/14 added after Cameron said *"just make the pictures why cant you just
   listen to me"* — correctly; the git detour had eaten the middle of the session.)
   Row 12 build-12-bartimaeus 44 · row 13 build-13-roof 45 · row 14 build-14-ten-lepers 35.
