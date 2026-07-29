@@ -69,7 +69,7 @@ rather than copying the portrait.
 | row | slug | start | end | mins | beats | gens | accepted | rerolls | credits-noted | status | notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | 1 | build-01-cloak | 2026-07-28 22:06 | 2026-07-28 23:00 | 54 | 20 | 43 | 20 | 1× CREAM-CROWD, 1× STRAY-JESUS, 21 discarded on the Flow→API switch | Flow: `0 credits`/gen · API: $2.68 | **DONE · APPROVED by Cameron 2026-07-28** | 109.0 s · 19.8 MB · verify-mp4 OK |
-| 2 | build-02-prodigal | 2026-07-28 23:07 | — | — | 24 | 19 | — | — | API ~$2.55 so far | IN-PROGRESS (step E, STOPPED by Cameron 2026-07-28 23:2x — resumable) | 19/24 stills on disk; v2_gen_api skips existing files, so the next session finishes b16–b24, QCs all 24, then steps G–I. Markers verified; build.py written; Alexander voice verified via jesus_voice_audit |
+| 2 | build-02-prodigal | 2026-07-28 23:07 | 2026-07-29 00:5x | ~110 | 24 | 43 | 24 | 2× CREAM-CROWD · 4× WRONG-DIRECTION · 3× WARDROBE-DRIFT · 3× CAST-DRIFT · 2× CGI-STYLE · 1× ROTATED · 1× BLACK-BAND | API $2.55 (19 gens, then credits depleted) · Flow: `0 credits`/gen × 24 | **DONE — awaiting Cameron's approval** | 158.4 s · 19.9 MB · verify-mp4 OK · 24 stills |
 
 #### Row 1 — build-01-cloak (Mark 5:25-34)
 
@@ -203,3 +203,49 @@ wide-shot problem.
 **ACCEPTED from the API pass (6, kept as-is):** s03 · s05 · s06 · s08 · s14 · s16.
 All 13 rejects are preserved in `assets/_rejected/` — if a reroll comes back worse,
 the better picture wins and the discrepancy gets recorded here honestly (row-1 rule).
+
+### Flow reroll pass — 13 re-shot, then a second pass on 5
+
+The lock/camera/ref fixes landed on the first try for 8 of the 13. Five needed one
+more attempt, and the second attempt fixed all five:
+
+| beat | first reroll | second reroll |
+|---|---|---|
+| b04 `he left` | composition fixed (father from behind at the gate) but the son still faced the camera, so "Then he left" STILL read as arriving | "SEEN FROM DIRECTLY BEHIND… HIS FACE ENTIRELY HIDDEN" → he now walks away up the road. **ACCEPT** |
+| b11 `the father ran` | came back as a CGI illustration AND still running away from his son | recomposed from BEHIND the father, running away from camera toward the distant son. **ACCEPT — and it is now the best picture in the video** |
+| b13 `the embrace` | wardrobe + bare feet fixed, but both men stood side by side facing the lens: a posed portrait, not "he fell on his neck" | "NEITHER MAN LOOKING AT THE CAMERA — this is a collision, not a portrait… COLLAPSED FORWARD INTO HIS SON" → **ACCEPT** |
+| b19 `father came out` | CGI drift again | added the same photographic anchor sentence that had already fixed b12. **ACCEPT** |
+| b20 `the hurt poured out` | **BLACK-BAND** — bottom third of the frame rendered solid black, unusable | full frame. **ACCEPT** (father's gaze drifts camera-ward rather than to his son; accepted as best-available under the three-reroll rule, noted honestly) |
+
+**FINAL: 24/24 accepted.** Two lessons worth carrying to row 3:
+1. **Stating the action is not enough; state the CAMERA.** Four separate frames put a
+   travelling figure the wrong way round because the beat said what happened but not
+   where the lens was. "Shot from behind X, facing away from us" is the fix, and it
+   has to be in the beat, not in a QC note.
+2. **A negation is a suggestion; a stated positive is an instruction.** This is now
+   the same lesson three times (row 1 SETTING lock, row 2 PHARISEES lock, row 2
+   CGI drift). "Never cream" fails; "the same saturated dark wool, darker than the
+   wall behind them" works. "Not plastic CGI" fails; "real weathered skin, real
+   coarse wool, photographed on location with a real camera" works.
+
+**Delivery gates (step G):**
+
+| gate | result |
+|---|---|
+| `admin/verify-mp4.sh` | **OK** — video 158.406 s, audio 158.406 s, no truncation |
+| dead air | silencedetect at −45 dB / 2.5 s found **nothing** in the spoken body |
+| format | 1080×1920 · h264 · 30 fps · 19.9 MB · crf 20 |
+| music bed | none — narration and intentional silence only |
+| markers | all 7 word-anchored switches resolve against the timing sidecars (verified BEFORE render) |
+| caption frame-strip | white narrator · **red for every KJV line in Jesus's voice** (he is the one telling the parable) · cream question card — each on the correct scene, all inside the bottom band |
+| V1 read-only | verified untouched — no file in `media-production/build-02-prodigal` modified this session |
+
+**Ministry gate:** PASS on all four (`MINISTRY-GATE.md`).
+
+**Open item for Cameron:** the Gemini API prepay balance is empty. Row 2 finished on
+Flow, whose 2K is an upscale of 768×1376 rather than native 2K. **18 of the 24
+delivered frames are Flow 2K; 6 are API-native 2K** (s03, s05, s06, s08, s14, s16 —
+the ones QC accepted before the credits ran out). All 24 are 1536×2752 on disk, so
+the mix is invisible in dimensions but the API six carry more real detail. If he
+refills the API the whole row can be re-shot for pixel parity;
+if not, Flow at 2K is the standing path and rows 3+ will be uniform.
