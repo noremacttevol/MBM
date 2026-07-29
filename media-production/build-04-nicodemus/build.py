@@ -41,6 +41,13 @@ S8 = "s8-for-god-so-loved.jpeg"
 S9 = "s9-light-darkness.jpeg"
 S10 = "s10-council.jpeg"
 S11 = "s11-burial.jpeg"
+# coverage 2026-07-29: composition-breaking stills wired into BEATS
+S3B = "s3b-the-greeting-at-the-threshold.jpeg"   # the greeting itself (s2, n2b)
+S4B = "s4b-everyone-has-to-start-over.jpeg"      # temple courts, a lifetime of religion (n3b)
+S6B = "s6b-you-only-see-what-it-moves.jpeg"      # wind bending trees and flame (n5)
+S8B = "s8b-not-preached-to-a-stadium.jpeg"       # one lit window in a sleeping city (n7b)
+S9B = "s9b-into-the-light.jpeg"                  # man stepping gladly into daylight (n8)
+S11B = "s11b-behind-locked-doors.jpeg"           # apostles hiding, darkest day (n11)
 
 TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
 # SPEAKER-LAW: declared once in make_narration, so the caption colour
@@ -55,28 +62,29 @@ BEATS = [
     ("n0", S1, "in"),
     ("n1", S2, "in"),
     ("n2", S3, "in"),
-    ("s2", S3, "out"),
-    ("n2b", S3, "in"),
+    ("s2", S3B, "in"),     # coverage 2026-07-29: the greeting itself, hood pushed back
+    ("n2b", S3B, "out"),   # coverage 2026-07-29: "we know" — half in, half out the door
     ("n3a", S4, "in"),
     ("j1", S4, "out"),
-    ("n3b", S4, "in"),
+    ("n3b", S4B, "in"),    # coverage 2026-07-29: all his learning could not do it
     ("n4", S5, "in"),
     ("s4", S5, "out"),
     ("n4b", S5, "in"),
     ("j2", S6, "in"),
-    ("n5", S6, "out"),
+    ("n5", S6B, "out"),    # coverage 2026-07-29: you only see what the wind moves
     ("n6", S7, "in"),
     ("s9", S7, "out"),
     ("n6b", S7, "in"),
     ("n7a", S8, "in"),
     ("j3", S8, "out"),
-    ("n7b", S8, "in"),
-    ("n8", S9, "in"),
+    ("n7b", S8B, "in"),    # coverage 2026-07-29: one lit window in a sleeping city
+    ("n8", S9B, "in"),     # coverage 2026-07-29: stepping gladly into the light
     ("n9", S9, "out"),
     ("n10", S10, "in"),
     ("s51", S10, "out"),
     ("n10b", S10, "in"),
-    ("n11", S11, "in"),
+    ("n11", S11B, "in"),   # coverage 2026-07-29: apostles hiding behind locked doors
+    ("n11b", S11, "out"),  # split off n11 (after sentence 3): the burial itself
 ]
 
 LEAD = 0.28
