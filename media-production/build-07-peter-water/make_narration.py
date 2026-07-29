@@ -26,8 +26,10 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, "Jesus had just fed more than five thousand people with a few loaves of bread and two small fish. And when it was done, he told his disciples to take the boat and cross the lake ahead of him. He sent the crowds home. And then he climbed a mountain, alone, to pray. That is where the night found him. Not in the boat. On the mountain, talking with his Father."),
-    ("n1", NARRATOR, "Out on the water, the wind turned against the boat. The waves rose. The disciples — several of them fishermen who had worked this lake their whole lives — rowed against it for hours. Matthew tells us it was the fourth watch of the night when help came. That means between three and six in the morning. They had been fighting that sea nearly all night."),
+    ("n0", NARRATOR, "Jesus had just fed more than five thousand people with a few loaves of bread and two small fish. And when it was done, he told his disciples to take the boat and cross the lake ahead of him. He sent the crowds home."),
+    ("n0b", NARRATOR, "And then he climbed a mountain, alone, to pray. That is where the night found him. Not in the boat. On the mountain, talking with his Father."),
+    ("n1", NARRATOR, "Out on the water, the wind turned against the boat. The waves rose."),
+    ("n1b", NARRATOR, "The disciples — several of them fishermen who had worked this lake their whole lives — rowed against it for hours. Matthew tells us it was the fourth watch of the night when help came. That means between three and six in the morning. They had been fighting that sea nearly all night."),
     ("n2", NARRATOR, "And then, through the spray and the dark, they saw something that made grown fishermen scream. A figure. Walking toward them. On top of the water. They cried out that it was a ghost — because nobody walks on the sea. But the voice that came back across the water was one they knew."),
     # Matthew 14:27
     ("j1", JESUS, "Be of good cheer; it is I; be not afraid."),
