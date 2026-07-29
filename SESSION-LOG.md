@@ -3,10 +3,13 @@
 Commit: 1283299a6 (the chain link this session verified). Continued the pictures-only
 order with the unattended runner left alive the whole time.
 
-- **FIFTEEN beat maps authored and checker-clean: rows 5-16, 18, 19, 20 — 447
+- **SIXTEEN beat maps authored and checker-clean: rows 5-16, 18, 19, 20, 21 — 468
   pictures queued** (~18 hours of runway for the generator). Row 17 is skipped on
   purpose: Cameron deferred it to last. Later additions: row 15 centurion 41 ·
-  row 16 mary-martha 25 · row 18 emmaus 38 · row 19 shore 27 · row 20 samaritan 30.
+  row 16 mary-martha 25 · row 18 emmaus 38 · row 19 shore 27 · row 20 samaritan 30 · row 21 lost-sheep 21.
+  Row 21 is the THIRD build off the Luke 15 occasion (with rows 2 and 8), so its
+  frame story is staged in a third distinct room — inside a house with the
+  religious men out in the doorway — to avoid repeating either earlier opening.
   Row 19 is the John 21 build Cameron named as the burst-coverage example, and the
   realize/leap/swim chain gets four frames across eleven seconds. Row 20 applies
   the RESTRAINT LAW although it is unflagged — the robbery is never shown, the
