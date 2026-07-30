@@ -1,9 +1,20 @@
 ## 2026-07-30 — SALVAGE: Cameron stopped the failed session; everything valuable committed (Machine A / `Dev`)
 
-Commit: (this commit — the new chain link). Cameron stopped work after the failed
-session (postmortem commit 1fbfc84c3, "13 pictures shown, 0 approved, ~$9 spent")
-and said to save anything still valuable before he runs again. This session did
-only that: no generation, no spend, no pictures shown.
+Commit: afa08f02a (salvage) + da5ee1dc9 (merge of Machine C's 9) — the new chain
+links. Cameron stopped work after the failed session (postmortem commit 1fbfc84c3,
+"13 pictures shown, 0 approved, ~$9 spent") and said to save anything still
+valuable before he runs again. This session did only that: no generation, no
+spend, no pictures shown.
+
+- **EVERYTHING VALUABLE IS OFF THIS MACHINE AND ON GITHUB — via a rescue branch.**
+  Main still cannot push (830 commits / 65 GiB history; HTTPS upload was still
+  running at the 9-minute mark, SSH key still `Permission denied`). So the salvage
+  went up as branch **`salvage-2026-07-30-faces-and-handoff`** — based on
+  origin/main, one ~85 MB commit holding every salvage file. Pushed clean. Do NOT
+  merge that branch into main from another machine; Machine A's real main
+  supersedes it the moment its push unblocks. The two unblock paths are unchanged
+  from the 2026-07-29 entry and are Cameron's decision: register the SSH key on
+  GitHub, or slim the tracked-media history.
 
 - **THE GITIGNORE TRAP, now closed: `media-production-v2/.gitignore` line 1 is a
   blanket `*.jpeg`, and it was silently excluding THE V2 MASTER FACE.**
