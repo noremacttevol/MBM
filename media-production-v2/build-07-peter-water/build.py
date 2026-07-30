@@ -25,7 +25,7 @@ import make_narration
 from mbm_caption_timing import caption_filter
 from mbm_speakers import is_scripture
 
-A = "assets"
+A = "assets-v3"
 S = "segs"
 FPS = 30
 FF = "ffmpeg"
@@ -37,43 +37,24 @@ INK = "0x3B2A1E"
 ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "16",
        "-pix_fmt", "yuv420p", "-r", str(FPS), "-an"]
 
-S01 = "s01-he-sent-them-ahead.jpeg"
-S02 = "s02-alone-up-the-hill.jpeg"
-S03 = "s03-talking-with-his-father.jpeg"
-S04 = "s04-the-wind-was-contrary.jpeg"
-S05 = "s05-the-fourth-watch.jpeg"
-S06 = "s06-something-out-there.jpeg"
-S07 = "s07-on-top-of-the-water.jpeg"
-S08 = "s08-they-cried-out.jpeg"
-S09 = "s09-a-voice-they-knew.jpeg"
-S10 = "s10-be-not-afraid.jpeg"
-S11 = "s11-what-peter-wanted.jpeg"
-S12 = "s12-bid-me-come.jpeg"
-S13 = "s13-come.jpeg"
-S14 = "s14-leg-over-the-side.jpeg"
-S15 = "s15-stood-up-on-the-sea.jpeg"
-S16 = "s16-step-after-step.jpeg"
-S17 = "s17-where-only-god-can-walk.jpeg"
-S18 = "s18-the-wind-tearing-at-him.jpeg"
-S19 = "s19-he-looked-down.jpeg"
-S20 = "s20-the-water-stopped-holding.jpeg"
-S21 = "s21-down-to-his-waist.jpeg"
-S22 = "s22-lord-save-me.jpeg"
-S23 = "s23-and-jesus-caught-him.jpeg"
-S24 = "s24-there-was-no-pause.jpeg"
-S25 = "s25-holding-him-above-it.jpeg"
-S26 = "s26-wherefore-didst-thou-doubt.jpeg"
-S27 = "s27-not-from-the-shore.jpeg"
-S28 = "s28-you-were-doing-it.jpeg"
-S29 = "s29-back-to-the-boat-together.jpeg"
-S30 = "s30-they-climbed-in.jpeg"
-S31 = "s31-not-slowly.jpeg"
-S32 = "s32-flat-under-the-stars.jpeg"
-S33 = "s33-soaked-and-shaking.jpeg"
-S34 = "s34-they-worshipped-him.jpeg"
-S35 = "s35-thou-art-the-son-of-god.jpeg"
-S36 = "s36-the-storm-taught-them.jpeg"
-S37 = "s37-that-he-walked-and-was-caught.jpeg"
+S01 = "s01-sent-them-ahead.jpeg"
+S02 = "s02-alone-praying.jpeg"
+S03 = "s03-wind-contrary.jpeg"
+S04 = "s04-something-on-the-water.jpeg"
+S05 = "s05-be-not-afraid.jpeg"
+S06 = "s06-bid-me-come.jpeg"
+S07 = "s07-come.jpeg"
+S08 = "s08-leg-over-the-side.jpeg"
+S09 = "s09-walking-on-the-sea.jpeg"
+S10 = "s10-wind-boisterous.jpeg"
+S11 = "s11-beginning-to-sink.jpeg"
+S12 = "s12-lord-save-me.jpeg"
+S13 = "s13-caught-him.jpeg"
+S14 = "s14-why-did-you-doubt.jpeg"
+S15 = "s15-walking-back-together.jpeg"
+S16 = "s16-into-the-boat.jpeg"
+S17 = "s17-the-wind-ceased.jpeg"
+S18 = "s18-worshipped-him.jpeg"
 
 TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
 SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
@@ -82,27 +63,27 @@ SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 # carries the zoom direction; later pairs carry the MARKER WORDS at which the
 # picture switches inside that segment (matched against the timing sidecar).
 BEATS = [
-    ("n0", [(S01, "in"), (S02, "He sent the crowds home."), (S03, "That is where the night")], "in"),
-    ("n1", [(S04, "in"), (S05, "Matthew tells us it was")], "in"),
-    ("n2", [(S06, "in"), (S07, "On top of the water."), (S08, "They cried out that it"), (S09, "But the voice that came")], "in"),
-    ("j1", [(S10, "in")], "in"),
-    ("n3", [(S11, "in")], "in"),
-    ("s28", [(S12, "in")], "in"),
-    ("j2", [(S13, "in")], "in"),
-    ("n4", [(S14, "in"), (S15, "that pitching boat, and stood")], "in"),
-    ("n4b", [(S16, "in"), (S17, "For a moment, an ordinary")], "in"),
-    ("n5", [(S18, "in"), (S19, "He looked down at the")], "in"),
-    ("n5b", [(S20, "in"), (S21, "He dropped to his waist,")], "in"),
-    ("s30", [(S22, "in")], "in"),
-    ("n6", [(S23, "in")], "in"),
-    ("n7", [(S24, "in"), (S25, "And from that grip \u2014")], "in"),
-    ("j3", [(S26, "in")], "in"),
-    ("n8", [(S27, "in"), (S28, "It's a real question, from")], "in"),
-    ("n9", [(S29, "in"), (S30, "And the moment they climbed")], "in"),
-    ("n9b", [(S31, "in"), (S32, "The sea that had fought")], "in"),
-    ("n10", [(S33, "in"), (S34, "he was a ghost \u2014")], "in"),
-    ("s33", [(S35, "in")], "in"),
-    ("n10b", [(S36, "in"), (S37, "Not that he sank.")], "in"),
+    ("n0",  [(S01, "in"), (S02, "He sent the crowds home")], "in"),
+    ("n1",  [(S03, "in")], "in"),
+    ("n2",  [(S04, "in")], "in"),
+    ("j1",  [(S05, "in")], "in"),
+    ("n3",  [(S06, "in")], "in"),
+    ("s28", [(S06, "out")], "out"),
+    ("j2",  [(S07, "in")], "in"),
+    ("n4",  [(S08, "in")], "in"),
+    ("n4b", [(S09, "in")], "in"),
+    ("n5",  [(S10, "in")], "in"),
+    ("n5b", [(S11, "in")], "in"),
+    ("s30", [(S12, "in")], "in"),
+    ("n6",  [(S13, "in")], "in"),
+    ("n7",  [(S13, "out")], "out"),
+    ("j3",  [(S14, "in")], "in"),
+    ("n8",  [(S15, "in")], "in"),
+    ("n9",  [(S15, "out"), (S16, "the moment they climbed in")], "out"),
+    ("n9b", [(S17, "in")], "in"),
+    ("n10", [(S18, "in")], "in"),
+    ("s33", [(S18, "out")], "out"),
+    ("n10b",[(S09, "in"), (S13, "And notice what the story remembers")], "in"),
 ]
 
 # The closing question card is narrated by n8 in this build (V1: CARD = "n8").
