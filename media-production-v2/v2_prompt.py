@@ -47,6 +47,52 @@ STYLE_V2 = (
 )
 
 # JESUS LOCK v4 — byte-identical in every prompt where Jesus appears.
+# JESUS LOCK v5 — Cameron, 2026-07-30. Supersedes v4 once a face candidate is picked.
+#
+# His order: *"we need to make Jesus look more like the prince of peace 1 and 2 in MBM
+# folder for examples and to mix that with what we know he might look like to detere
+# the people who think he had to be middle eastern and to make sure that he has the
+# 'his eyes as like a flame of fire'"*
+#
+# THIS REVERSES v4's own hard line ("Never Caucasian, never pale"), which Cameron wrote
+# on 2026-07-15 and rejected finished work over. It is his call and it is recorded here
+# so no future session "corrects" it back.
+#
+# ON THE TWO REFERENCE PAINTINGS: `Prince of peace 1.jpg` and `Prince of peace 2 .jpg`
+# are Akiane Kramarik's paintings — the second is signed and watermarked. They are NOT
+# attached as generation refs and the model is never told to match her work, because
+# this ships in an app and that would make ~3,000 derivative copies of a living
+# artist's paintings. What IS taken from them is a description of the QUALITIES
+# Cameron is pointing at, which gets the same look without copying the paintings:
+# longer tousled mid-brown hair with warm golden lights (not blue-black), a warm
+# fair-olive complexion, pale luminous GREEN eyes, a straight noble nose, and above
+# all a gentle, peaceful, unguarded expression rather than a grim reconstruction.
+#
+# ON "EYES AS A FLAME OF FIRE" (Revelation 1:14): that verse describes the GLORIFIED
+# Christ in vision, and the no-halo/no-glow law still binds every mortal-ministry
+# scene. So the fire is IN the iris — pale green shot through with amber and gold, lit
+# from within, arresting — and the eyes do NOT emit light onto the face or surroundings.
+# Literal glowing eyes across ~3,000 street-level scenes would read as horror, not
+# reverence, and would break the anti-glow law on every frame.
+JESUS_LOCK_V5 = (
+    "JESUS LOCK v5: the SAME man as the attached JESUS-V2-REF image — identical face, "
+    "hair and beard in every picture: a Jewish man of the first century about "
+    "thirty-three years old, of the eastern Mediterranean but notably fair for it — "
+    "warm light olive complexion with a healthy sun-touched ruddiness, not dark and "
+    "not pallid. Long thick tousled wavy hair to below the shoulders in MID-BROWN shot "
+    "through with warm honey and gold lights, never blue-black and never blond. A "
+    "full but well-kept brown beard with lighter sun-touched strands. A straight "
+    "noble nose, high cheekbones, a broad calm forehead. His EYES ARE THE FEATURE OF "
+    "HIS FACE: large, wide-set, PALE LUMINOUS GREEN shot through with amber and gold "
+    "so that the iris looks lit from within like a flame — piercing, alive and "
+    "arresting, holding whoever meets them. The eyes themselves cast NO light onto "
+    "his skin or surroundings. His expression is gentle, peaceful and unguarded — "
+    "kindness and quiet strength, never stern, never grim. One plain undyed "
+    "off-white cream wool robe with a simple mantle and cloth sash (only he wears "
+    "cream), leather sandals. No halo, no glow, no rim-light, no light coming off "
+    "him. Never blue-eyed, never blond, never a pale sickly white."
+)
+
 JESUS_LOCK_V4 = (
     "JESUS LOCK v4: the SAME man as the attached JESUS-V2-REF image — identical face, "
     "hair and beard in every picture: a Middle Eastern Jewish man of about thirty-three, "

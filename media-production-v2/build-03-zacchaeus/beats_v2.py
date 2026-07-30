@@ -57,11 +57,21 @@ LOCKS = {
     # gets disarrayed, so his lock CAN carry his garment — unlike the prodigal.
     # His SHORTNESS is scripture (v3) and is therefore in the lock, stated as a
     # comparison so it survives into every crowd frame.
+    # HEIGHT BUG, fixed 2026-07-30 after Cameron: *"the 03 zacchaeus story that flow
+    # made was trash because it kept making zacchaeus too short and everything weird."*
+    # He is right and it was my prompt, not Flow. v1 of this lock said he was "a full
+    # head shorter than every other adult around him ... always the smallest grown man
+    # in the frame" — inside the LOCK, so it applied to close-ups and solo shots where
+    # there is nobody to be shorter THAN. The model resolved "always the smallest" the
+    # only way it could: by making him dwarfish in every frame.
+    # SAME LESSON AS THE PRODIGAL'S CLOTHING: a lock may only carry what is true in
+    # EVERY frame. Height is a property of him (short, slight); height RELATIVE TO A
+    # CROWD is a fact about certain frames, so it now lives in those beats only —
+    # b07 (v3, the crowd as a wall), b08 (nobody makes room) and b18 (the welcome).
     "ZAC": (
         "ZACCHAEUS LOCK: Zacchaeus is the same man in every shot — a Middle Eastern "
-        "Jewish man of about forty-five, NOTICEABLY SHORT, a full head shorter than "
-        "every other adult around him and slight in build, so that he is always the "
-        "smallest grown man in the frame. Neatly trimmed dark beard going grey at the "
+        "Jewish man of about forty-five, a SHORT and slightly built man of small "
+        "stature with normal adult proportions. Neatly trimmed dark beard going grey at the "
         "chin, receding dark hair, quick intelligent eyes, a soft well-fed face. He "
         "wears an EXPENSIVE DEEP WINE-BURGUNDY wool robe with a woven gold-thread "
         "border and a wide embroidered sash, fine leather sandals and a heavy gold "
