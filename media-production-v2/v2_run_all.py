@@ -68,11 +68,17 @@ def missing_for(path):
     except SystemExit as e:
         print(f"  ! beats_v2.py unusable: {e}", flush=True)
         return []
+    sys.path.insert(0, HERE)
+    from v2_prompt import _below_2k  # noqa: E402
     assets = os.path.join(path, "assets")
     miss = []
     for bid, out in beats:
         f = os.path.join(assets, out)
-        if not (os.path.exists(f) and os.path.getsize(f) > 50000):
+        # Sub-2K counts as MISSING. flow_driver silently falls back to the 1K
+        # original when Flow's upscaler is down, and 159 of the first 424 pictures
+        # (rows 10-13 entirely) were left at 768x1376 — below the 1080x1920
+        # delivery size. Re-pulling them is not optional.
+        if not (os.path.exists(f) and os.path.getsize(f) > 50000) or _below_2k(f):
             miss.append(bid)
     return miss
 

@@ -200,6 +200,37 @@ def dump(build_dir, mod):
     print(f"wrote {out} ({len(mod.BEATS)} prompts)")
 
 
+def _below_2k(path):
+    """True if a still is smaller than Flow's 2K (1536x2752) 9:16 download.
+
+    Checked from the JPEG header directly so it works with no Pillow dependency and
+    costs nothing. A `.size` marker beside the file (written by flow_driver when it
+    falls back) counts too, in case a file is unreadable.
+    """
+    if os.path.exists(os.path.splitext(path)[0] + ".size"):
+        return True
+    try:
+        with open(path, "rb") as fh:
+            data = fh.read(200000)
+        i = 2
+        while i < len(data) - 9:
+            if data[i] != 0xFF:
+                i += 1
+                continue
+            m = data[i + 1]
+            if m in (0xC0, 0xC1, 0xC2, 0xC3, 0xC5, 0xC6, 0xC7,
+                     0xC9, 0xCA, 0xCB, 0xCD, 0xCE, 0xCF):
+                w = int.from_bytes(data[i + 7:i + 9], "big")
+                return w < 1536
+            if m in (0xD8, 0x01) or 0xD0 <= m <= 0xD7:
+                i += 2
+                continue
+            i += 2 + int.from_bytes(data[i + 2:i + 4], "big")
+    except Exception:
+        return False
+    return False
+
+
 def gen(build_dir, mod, only, redo_suffix=""):
     assets = os.path.join(build_dir, "assets")
     os.makedirs(assets, exist_ok=True)
@@ -207,9 +238,19 @@ def gen(build_dir, mod, only, redo_suffix=""):
         if only and beat["id"] not in only:
             continue
         dest = os.path.join(assets, beat["out"])
-        if not redo_suffix and os.path.exists(dest) and os.path.getsize(dest) > 50000:
+        if not redo_suffix and os.path.exists(dest) and os.path.getsize(dest) > 50000 \
+                and not _below_2k(dest):
             print(f"= {beat['id']} already present, skipping")
             continue
+        if os.path.exists(dest) and _below_2k(dest):
+            # A 1K still counts as MISSING, not as done. flow_driver falls back to
+            # the 1K original when Flow's upscaler is down and drops a .size marker
+            # so "a later pass can re-pull it" — but no later pass existed, so 159
+            # of the first 424 pictures (rows 10-13 entirely) sat at 768x1376,
+            # BELOW the 1080x1920 delivery size. That is the exact upscaling the
+            # anti-shimmer law forbids. Treating sub-2K as missing makes every
+            # runner lap re-pull them automatically until they come back at 2K.
+            print(f"~ {beat['id']} is BELOW 2K — re-pulling", flush=True)
         cmd = [sys.executable, FLOW_DRIVER, "gen",
                "--size", "2K",
                "--model", beat.get("model", "Nano Banana Pro"),
