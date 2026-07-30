@@ -173,7 +173,34 @@ def extract(row):
     with tempfile.TemporaryDirectory() as tmpdir:
         t = 0.0
         for name, still, zdir in beats:
+            if name == "HUSH":
+                # V1 convention (e.g. build-74): a HUSH beat is a short SILENT
+                # still with no audio file; its tuple's third field is the
+                # duration in seconds (parsed into zdir here).
+                hdur = float(zdir) if not isinstance(zdir, str) else 1.6
+                out["beats"].append({
+                    "seg": name, "v1_still": still, "zoom": "in",
+                    "speaker": "silence", "text": "",
+                    "seg_start": round(t, 3),
+                    "audio_start": round(t, 3),
+                    "spoken_end": round(t, 3),
+                    "seg_end": round(t + hdur, 3),
+                    "audio_dur": 0.0, "spoken_dur": 0.0,
+                    "seg_dur": round(hdur, 3),
+                    "timing": [],
+                })
+                t += hdur
+                continue
             mp3 = os.path.join(bdir, "audio", f"{name}.mp3")
+            if not os.path.exists(mp3) and name not in text:
+                # Orphaned BEATS row: the echo-delete cleanup (b39d30a19,
+                # 2026-07-23) removed stale clips on #100/134/172/176/181 to
+                # match the trimmed transcripts, but the V1 build.py still
+                # lists the beat. No audio AND no SEGMENTS text = stale row;
+                # skip it rather than crash (V1 is read-only, can't fix there).
+                print(f"  ! skipping stale beat {name!r} — no mp3 and no "
+                      f"SEGMENTS text (echo-delete orphan)", file=sys.stderr)
+                continue
             adur = dur_of(mp3)
             sdur = spoken_of(mp3, tmpdir)
             spk = speaker.get(name, "narrator")

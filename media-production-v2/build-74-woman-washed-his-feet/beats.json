@@ -1,0 +1,617 @@
+{
+ "row": 74,
+ "slug": "build-74-woman-washed-his-feet",
+ "v1_dir": "media-production/build-74-woman-washed-his-feet",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.5,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": [
+    [
+     "s1-dinner-at-simons.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "A Pharisee named Simon invited Jesus to dinner. It was a careful, respectable house \u2014 and it was about to be interrupted.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 9.527,
+   "seg_end": 10.247,
+   "audio_dur": 9.696,
+   "spoken_dur": 9.247,
+   "seg_dur": 10.247,
+   "timing": [
+    {
+     "text": "A Pharisee named Simon invited Jesus to dinner.",
+     "start": 0.05,
+     "end": 4.0156249
+    },
+    {
+     "text": "It was a careful, respectable house \u2014 and it was about to be interrupted.",
+     "start": 4.0156249,
+     "end": 9.6249998
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": [
+    [
+     "s2-the-doorway.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "A woman from the town \u2014 a woman everyone in that room knew by her reputation \u2014 came in uninvited. She carried an alabaster jar of costly perfume.",
+   "seg_start": 10.247,
+   "audio_start": 10.527,
+   "spoken_end": 21.926,
+   "seg_end": 22.646,
+   "audio_dur": 11.832,
+   "spoken_dur": 11.399,
+   "seg_dur": 12.399,
+   "timing": [
+    {
+     "text": "A woman from the town \u2014 a woman everyone in that room knew by her reputation \u2014 came in uninvited.",
+     "start": 0.05,
+     "end": 7.890624799999999
+    },
+    {
+     "text": "She carried an alabaster jar of costly perfume.",
+     "start": 7.8906248,
+     "end": 11.7656247
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": [
+    [
+     "s3-at-his-feet.jpeg",
+     "in"
+    ],
+    [
+     "s4-hair-and-tears.jpeg",
+     "in"
+    ],
+    [
+     "s5-the-pouring.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": 1.5,
+   "speaker": "narrator",
+   "text": "She stood behind him at his feet \u2014 guests reclined at meals like this, their feet stretched away from the table \u2014 and she was weeping. Her tears fell on his feet. She wiped them with her hair, kissed them, and poured out the perfume.",
+   "seg_start": 22.646,
+   "audio_start": 22.926,
+   "spoken_end": 39.035,
+   "seg_end": 39.755,
+   "audio_dur": 16.536,
+   "spoken_dur": 16.109,
+   "seg_dur": 17.109,
+   "timing": [
+    {
+     "text": "She stood behind him at his feet \u2014 guests reclined at meals like this, their feet stretched away from the table \u2014 and she was weeping.",
+     "start": 0.05,
+     "end": 9.546874800000001
+    },
+    {
+     "text": "Her tears fell on his feet.",
+     "start": 9.5468748,
+     "end": 11.6562497
+    },
+    {
+     "text": "She wiped them with her hair, kissed them, and poured out the perfume.",
+     "start": 11.6562498,
+     "end": 16.4687497
+    }
+   ]
+  },
+  {
+   "seg": "s39",
+   "v1_still": [
+    [
+     "s6-simons-face.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "scripture",
+   "text": "This man, if he were a prophet, would have known who and what manner of woman this is that toucheth him: for she is a sinner.",
+   "seg_start": 39.755,
+   "audio_start": 40.035,
+   "spoken_end": 48.92,
+   "seg_end": 50.42,
+   "audio_dur": 9.984,
+   "spoken_dur": 8.885,
+   "seg_dur": 10.665,
+   "timing": [
+    {
+     "text": "This man, if he were a prophet, would have known who and what manner of woman this is that toucheth him: for she is a sinner.",
+     "start": 0.1,
+     "end": 9.973779799999999
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": [
+    [
+     "s6-simons-face.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "Simon thought to himself: if this man were really a prophet, he would know what kind of woman is touching him. He never said a word of it out loud.",
+   "seg_start": 50.42,
+   "audio_start": 50.7,
+   "spoken_end": 60.41,
+   "seg_end": 61.13,
+   "audio_dur": 10.152,
+   "spoken_dur": 9.71,
+   "seg_dur": 10.71,
+   "timing": [
+    {
+     "text": "Simon thought to himself: if this man were really a prophet, he would know what kind of woman is touching him.",
+     "start": 0.05,
+     "end": 7.718749799999999
+    },
+    {
+     "text": "He never said a word of it out loud.",
+     "start": 7.7187498,
+     "end": 10.0937497
+    }
+   ]
+  },
+  {
+   "seg": "j40",
+   "v1_still": [
+    [
+     "s7-two-debtors.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "jesus",
+   "text": "Simon, I have somewhat to say unto thee.",
+   "seg_start": 61.13,
+   "audio_start": 61.41,
+   "spoken_end": 64.814,
+   "seg_end": 66.314,
+   "audio_dur": 4.56,
+   "spoken_dur": 3.405,
+   "seg_dur": 5.185,
+   "timing": [
+    {
+     "text": "Simon, I have somewhat to say unto thee.",
+     "start": 0.1,
+     "end": 4.5371796
+    }
+   ]
+  },
+  {
+   "seg": "s40",
+   "v1_still": [
+    [
+     "s7-two-debtors.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "scripture",
+   "text": "Master, say on.",
+   "seg_start": 66.314,
+   "audio_start": 66.594,
+   "spoken_end": 67.971,
+   "seg_end": 69.471,
+   "audio_dur": 2.472,
+   "spoken_dur": 1.377,
+   "seg_dur": 3.157,
+   "timing": [
+    {
+     "text": "Master, say on.",
+     "start": 0.1,
+     "end": 2.4585364000000003
+    }
+   ]
+  },
+  {
+   "seg": "j41",
+   "v1_still": [
+    [
+     "s7-two-debtors.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "jesus",
+   "text": "There was a certain creditor which had two debtors: the one owed five hundred pence, and the other fifty. And when they had nothing to pay, he frankly forgave them both. Tell me therefore, which of them will love him most?",
+   "seg_start": 69.471,
+   "audio_start": 69.751,
+   "spoken_end": 87.034,
+   "seg_end": 88.534,
+   "audio_dur": 18.432,
+   "spoken_dur": 17.282,
+   "seg_dur": 19.062,
+   "timing": [
+    {
+     "text": "There was a certain creditor which had two debtors: the one owed five hundred pence, and the other fifty.",
+     "start": 0.1,
+     "end": 8.4474362
+    },
+    {
+     "text": "And when they had nothing to pay, he frankly forgave them both.",
+     "start": 8.3974362,
+     "end": 13.8782056
+    },
+    {
+     "text": "Tell me therefore, which of them will love him most?",
+     "start": 13.8782056,
+     "end": 18.3653852
+    }
+   ]
+  },
+  {
+   "seg": "s43",
+   "v1_still": [
+    [
+     "s7-two-debtors.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "scripture",
+   "text": "I suppose that he, to whom he forgave most.",
+   "seg_start": 88.534,
+   "audio_start": 88.814,
+   "spoken_end": 92.247,
+   "seg_end": 93.747,
+   "audio_dur": 4.536,
+   "spoken_dur": 3.433,
+   "seg_dur": 5.213,
+   "timing": [
+    {
+     "text": "I suppose that he, to whom he forgave most.",
+     "start": 0.1,
+     "end": 4.516463099999999
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": [
+    [
+     "s7-two-debtors.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "Jesus answered the thought Simon never said out loud \u2014 with a small story. Two men were in debt. One owed ten times what the other did, and neither of them could pay a penny of it, so the lender wiped out both debts. Which one will love him more? Simon gave the only answer there was: the one who was forgiven more. And he was right \u2014 he just had not noticed he was talking about the woman on the floor.",
+   "seg_start": 93.747,
+   "audio_start": 94.027,
+   "spoken_end": 122.033,
+   "seg_end": 122.753,
+   "audio_dur": 28.464,
+   "spoken_dur": 28.006,
+   "seg_dur": 29.006,
+   "timing": [
+    {
+     "text": "Jesus answered the thought Simon never said out loud \u2014 with a small story.",
+     "start": 0.05,
+     "end": 5.7656249
+    },
+    {
+     "text": "Two men were in debt.",
+     "start": 5.7656249,
+     "end": 7.499999799999999
+    },
+    {
+     "text": "One owed ten times what the other did, and neither of them could pay a penny of it, so the lender wiped out both debts.",
+     "start": 7.4999998,
+     "end": 16.1093746
+    },
+    {
+     "text": "Which one will love him more?",
+     "start": 16.1093747,
+     "end": 17.9687496
+    },
+    {
+     "text": "Simon gave the only answer there was: the one who was forgiven more.",
+     "start": 17.9687497,
+     "end": 22.9374996
+    },
+    {
+     "text": "And he was right \u2014 he just had not noticed he was talking about the woman on the floor.",
+     "start": 22.9374996,
+     "end": 28.390624499999998
+    }
+   ]
+  },
+  {
+   "seg": "j44",
+   "v1_still": [
+    [
+     "s3-at-his-feet.jpeg",
+     "out"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "jesus",
+   "text": "Seest thou this woman? I entered into thine house, thou gavest me no water for my feet: but she hath washed my feet with tears, and wiped them with the hairs of her head.",
+   "seg_start": 122.753,
+   "audio_start": 123.033,
+   "spoken_end": 136.512,
+   "seg_end": 138.012,
+   "audio_dur": 14.616,
+   "spoken_dur": 13.478,
+   "seg_dur": 15.258,
+   "timing": [
+    {
+     "text": "Seest thou this woman?",
+     "start": 0.1,
+     "end": 2.9346154
+    },
+    {
+     "text": "I entered into thine house, thou gavest me no water for my feet: but she hath washed my feet with tears, and wiped them with the hairs of her head.",
+     "start": 2.8846154,
+     "end": 14.5512824
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": [
+    [
+     "s3-at-his-feet.jpeg",
+     "out"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "Then he turned toward the woman \u2014 but kept talking to Simon. Look at her, he said. When I walked into your house, you offered me no water for my feet, no welcome, no oil. She has done nothing else since she came in.",
+   "seg_start": 138.012,
+   "audio_start": 138.292,
+   "spoken_end": 154.129,
+   "seg_end": 154.849,
+   "audio_dur": 16.248,
+   "spoken_dur": 15.837,
+   "seg_dur": 16.837,
+   "timing": [
+    {
+     "text": "Then he turned toward the woman \u2014 but kept talking to Simon.",
+     "start": 0.05,
+     "end": 4.2656249
+    },
+    {
+     "text": "Look at her, he said.",
+     "start": 4.2656249,
+     "end": 5.953124799999999
+    },
+    {
+     "text": "When I walked into your house, you offered me no water for my feet, no welcome, no oil.",
+     "start": 5.9531249,
+     "end": 13.2968747
+    },
+    {
+     "text": "She has done nothing else since she came in.",
+     "start": 13.2968748,
+     "end": 16.1874997
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": [
+    [
+     "s7-two-debtors.jpeg",
+     "out"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "jesus",
+   "text": "Her sins, which are many, are forgiven; for she loved much: but to whom little is forgiven, the same loveth little.",
+   "seg_start": 154.849,
+   "audio_start": 155.129,
+   "spoken_end": 164.286,
+   "seg_end": 165.786,
+   "audio_dur": 10.32,
+   "spoken_dur": 9.158,
+   "seg_dur": 10.938,
+   "timing": [
+    {
+     "text": "Her sins, which are many, are forgiven; for she loved much: but to whom little is forgiven, the same loveth little.",
+     "start": 0.1,
+     "end": 10.3064106
+    }
+   ]
+  },
+  {
+   "seg": "n5b",
+   "v1_still": [
+    [
+     "s7-two-debtors.jpeg",
+     "out"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "Her sins are many, he said, and they are forgiven \u2014 and that is exactly why she loves like this. Simon had been sitting there the whole meal, certain he was the clean one.",
+   "seg_start": 165.786,
+   "audio_start": 166.066,
+   "spoken_end": 182.7,
+   "seg_end": 183.42,
+   "audio_dur": 17.04,
+   "spoken_dur": 16.634,
+   "seg_dur": 17.634,
+   "timing": [
+    {
+     "text": "Her sins are many, he said, and they are forgiven \u2014 and that is exactly why she loves like this.",
+     "start": 0.05,
+     "end": 7.781249799999999
+    },
+    {
+     "text": "The one who thinks he has been forgiven little, loves little.",
+     "start": 7.7812498,
+     "end": 11.9687497
+    },
+    {
+     "text": "Simon had been sitting there the whole meal, certain he was the clean one.",
+     "start": 11.9687498,
+     "end": 16.9843747
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": [
+    [
+     "s8-thy-sins-are-forgiven.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "jesus",
+   "text": "Thy sins are forgiven.",
+   "seg_start": 183.42,
+   "audio_start": 183.7,
+   "spoken_end": 185.567,
+   "seg_end": 187.067,
+   "audio_dur": 2.976,
+   "spoken_dur": 1.867,
+   "seg_dur": 3.647,
+   "timing": [
+    {
+     "text": "Thy sins are forgiven.",
+     "start": 0.1,
+     "end": 2.9666667
+    }
+   ]
+  },
+  {
+   "seg": "s49",
+   "v1_still": [
+    [
+     "s1-dinner-at-simons.jpeg",
+     "out"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "scripture",
+   "text": "Who is this that forgiveth sins also?",
+   "seg_start": 187.067,
+   "audio_start": 187.347,
+   "spoken_end": 190.124,
+   "seg_end": 191.624,
+   "audio_dur": 3.864,
+   "spoken_dur": 2.777,
+   "seg_dur": 4.557,
+   "timing": [
+    {
+     "text": "Who is this that forgiveth sins also?",
+     "start": 0.1,
+     "end": 3.8609753
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": [
+    [
+     "s1-dinner-at-simons.jpeg",
+     "out"
+    ]
+   ],
+   "zoom": null,
+   "speaker": "narrator",
+   "text": "The table stirred \u2014 who is this, who even forgives sins? He did not answer them. He was still looking at her.",
+   "seg_start": 191.624,
+   "audio_start": 191.904,
+   "spoken_end": 200.412,
+   "seg_end": 201.132,
+   "audio_dur": 8.976,
+   "spoken_dur": 8.507,
+   "seg_dur": 9.507,
+   "timing": [
+    {
+     "text": "The table stirred \u2014 who is this, who even forgives sins?",
+     "start": 0.05,
+     "end": 5.5781249
+    },
+    {
+     "text": "He did not answer them.",
+     "start": 5.5781249,
+     "end": 7.093749799999999
+    },
+    {
+     "text": "He was still looking at her.",
+     "start": 7.0937498,
+     "end": 8.9062497
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": [
+    [
+     "s8-thy-sins-are-forgiven.jpeg",
+     "out"
+    ]
+   ],
+   "zoom": 0.4,
+   "speaker": "jesus",
+   "text": "Thy faith hath saved thee; go in peace.",
+   "seg_start": 201.132,
+   "audio_start": 201.412,
+   "spoken_end": 204.825,
+   "seg_end": 206.325,
+   "audio_dur": 4.56,
+   "spoken_dur": 3.414,
+   "seg_dur": 5.194,
+   "timing": [
+    {
+     "text": "Thy faith hath saved thee; go in peace.",
+     "start": 0.1,
+     "end": 4.5532052
+    }
+   ]
+  },
+  {
+   "seg": "HUSH",
+   "v1_still": [
+    [
+     "s9-go-in-peace.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": "in",
+   "speaker": "silence",
+   "text": "",
+   "seg_start": 206.325,
+   "audio_start": 206.325,
+   "spoken_end": 206.325,
+   "seg_end": 207.925,
+   "audio_dur": 0.0,
+   "spoken_dur": 0.0,
+   "seg_dur": 1.6,
+   "timing": []
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "She was known for the worst thing she'd done. He knew her for her love. Which name would you rather answer to?",
+  "seg_start": 207.925,
+  "audio_start": 208.205,
+  "seg_dur": 8.716
+ },
+ "total": 216.641
+}

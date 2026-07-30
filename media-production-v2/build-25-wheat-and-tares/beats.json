@@ -1,0 +1,572 @@
+{
+ "row": 25,
+ "slug": "build-25-wheat-and-tares",
+ "v1_dir": "media-production/build-25-wheat-and-tares",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 1.15,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "s24",
+   "v1_still": "s1-sowing.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Another parable put he forth unto them, saying,",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 2.499,
+   "seg_end": 3.649,
+   "audio_dur": 2.638,
+   "spoken_dur": 2.219,
+   "seg_dur": 3.649,
+   "timing": [
+    {
+     "text": "Another parable put he forth unto them, saying,",
+     "start": 0.0,
+     "end": 2.601
+    }
+   ]
+  },
+  {
+   "seg": "j24",
+   "v1_still": "s1-sowing.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "The kingdom of heaven is likened unto a man which sowed good seed in his field:",
+   "seg_start": 3.649,
+   "audio_start": 3.929,
+   "spoken_end": 7.516,
+   "seg_end": 8.666,
+   "audio_dur": 3.997,
+   "spoken_dur": 3.587,
+   "seg_dur": 5.017,
+   "timing": [
+    {
+     "text": "The kingdom of heaven is likened unto a man which sowed good seed in his field:",
+     "start": 0.0,
+     "end": 3.947
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s1-sowing.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "",
+   "seg_start": 8.666,
+   "audio_start": 8.946,
+   "spoken_end": 16.068,
+   "seg_end": 16.788,
+   "audio_dur": 7.584,
+   "spoken_dur": 7.122,
+   "seg_dur": 8.122,
+   "timing": [
+    {
+     "text": "The kingdom of heaven, he said, is like a farmer who sohd good seed all across his field.",
+     "start": 0.05,
+     "end": 7.515624799999999
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s1-sowing.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "It was clean, good wheat seed. He wanted a good harvest, and he did everything right.",
+   "seg_start": 16.788,
+   "audio_start": 17.068,
+   "spoken_end": 21.306,
+   "seg_end": 22.026,
+   "audio_dur": 4.676,
+   "spoken_dur": 4.238,
+   "seg_dur": 5.238,
+   "timing": [
+    {
+     "text": "It was clean, good wheat seed.",
+     "start": 0.0,
+     "end": 1.846
+    },
+    {
+     "text": "He wanted a good harvest, and he did everything right.",
+     "start": 1.846,
+     "end": 4.644
+    }
+   ]
+  },
+  {
+   "seg": "j25",
+   "v1_still": "s2-enemy-night.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "But while men slept, his enemy came and sowed tares among the wheat, and went his way.",
+   "seg_start": 22.026,
+   "audio_start": 22.306,
+   "spoken_end": 26.218,
+   "seg_end": 27.368,
+   "audio_dur": 4.31,
+   "spoken_dur": 3.911,
+   "seg_dur": 5.341,
+   "timing": [
+    {
+     "text": "But while men slept, his enemy came and sowed tares among the wheat, and went his way.",
+     "start": 0.0,
+     "end": 4.272
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s2-enemy-night.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "But that night, while everyone was asleep, an enemy of his crept into the field and scattered weed seeds all through the wheat. Then he slipped away, and no one saw.",
+   "seg_start": 27.368,
+   "audio_start": 27.648,
+   "spoken_end": 37.335,
+   "seg_end": 38.055,
+   "audio_dur": 10.031,
+   "spoken_dur": 9.688,
+   "seg_dur": 10.688,
+   "timing": [
+    {
+     "text": "But that night, while everyone was asleep, an enemy of his crept into the field and scattered weed seeds all through the wheat.",
+     "start": 0.0,
+     "end": 6.896
+    },
+    {
+     "text": "Then he slipped away, and no one saw.",
+     "start": 6.896,
+     "end": 9.985
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s2-enemy-night.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The weed he chose looks almost exactly like young wheat. You cannot tell them apart until they grow up and the heads appear.",
+   "seg_start": 38.055,
+   "audio_start": 38.335,
+   "spoken_end": 44.59,
+   "seg_end": 45.31,
+   "audio_dur": 6.635,
+   "spoken_dur": 6.255,
+   "seg_dur": 7.255,
+   "timing": [
+    {
+     "text": "The weed he chose looks almost exactly like young wheat.",
+     "start": 0.0,
+     "end": 3.053
+    },
+    {
+     "text": "You cannot tell them apart until they grow up and the heads appear.",
+     "start": 3.053,
+     "end": 6.594
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s3-both-appear.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So the wheat came up green and strong, and right in the middle of it, so did the weeds. Now anyone could see the field was full of both.",
+   "seg_start": 45.31,
+   "audio_start": 45.59,
+   "spoken_end": 52.908,
+   "seg_end": 53.628,
+   "audio_dur": 7.784,
+   "spoken_dur": 7.318,
+   "seg_dur": 8.318,
+   "timing": [
+    {
+     "text": "So the wheat came up green and strong, and right in the middle of it, so did the weeds.",
+     "start": 0.0,
+     "end": 4.748
+    },
+    {
+     "text": "Now anyone could see the field was full of both.",
+     "start": 4.748,
+     "end": 7.755
+    }
+   ]
+  },
+  {
+   "seg": "j27",
+   "v1_still": "s4-servants-ask.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Sir, didst thou not sow good seed in thy field? from whence then hath it tares?",
+   "seg_start": 53.628,
+   "audio_start": 53.908,
+   "spoken_end": 58.046,
+   "seg_end": 59.196,
+   "audio_dur": 4.493,
+   "spoken_dur": 4.138,
+   "seg_dur": 5.568,
+   "timing": [
+    {
+     "text": "Sir, didst thou not sow good seed in thy field?",
+     "start": 0.0,
+     "end": 2.589
+    },
+    {
+     "text": "from whence then hath it tares?",
+     "start": 2.589,
+     "end": 4.458
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s4-servants-ask.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "The workers were upset. They came to the farmer and said, did you not plant good seed? Where did all these weeds come from?",
+   "seg_start": 59.196,
+   "audio_start": 59.476,
+   "spoken_end": 66.169,
+   "seg_end": 66.889,
+   "audio_dur": 7.053,
+   "spoken_dur": 6.693,
+   "seg_dur": 7.693,
+   "timing": [
+    {
+     "text": "The workers were upset.",
+     "start": 0.0,
+     "end": 1.196
+    },
+    {
+     "text": "They came to the farmer and said, did you not plant good seed?",
+     "start": 1.196,
+     "end": 4.748
+    },
+    {
+     "text": "Where did all these weeds come from?",
+     "start": 4.748,
+     "end": 7.012
+    }
+   ]
+  },
+  {
+   "seg": "n7",
+   "v1_still": "s4-servants-ask.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He told them, an enemy has done this. And they asked, do you want us to go and pull all the weeds out right now?",
+   "seg_start": 66.889,
+   "audio_start": 67.169,
+   "spoken_end": 73.595,
+   "seg_end": 74.315,
+   "audio_dur": 6.713,
+   "spoken_dur": 6.426,
+   "seg_dur": 7.426,
+   "timing": [
+    {
+     "text": "He told them, an enemy has done this.",
+     "start": 0.0,
+     "end": 2.694
+    },
+    {
+     "text": "And they asked, do you want us to go and pull all the weeds out right now?",
+     "start": 2.694,
+     "end": 6.687
+    }
+   ]
+  },
+  {
+   "seg": "n8",
+   "v1_still": "s5-let-grow.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "And here is where you see what kind of man he is. He did not send them tearing through the field. He said, no.",
+   "seg_start": 74.315,
+   "audio_start": 74.595,
+   "spoken_end": 80.777,
+   "seg_end": 81.497,
+   "audio_dur": 6.583,
+   "spoken_dur": 6.182,
+   "seg_dur": 7.182,
+   "timing": [
+    {
+     "text": "And here is where you see what kind of man he is.",
+     "start": 0.0,
+     "end": 2.612
+    },
+    {
+     "text": "He did not send them tearing through the field.",
+     "start": 2.612,
+     "end": 5.329
+    },
+    {
+     "text": "He said, no.",
+     "start": 5.329,
+     "end": 6.548
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s5-let-grow.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Nay; lest while ye gather up the tares, ye root up also the wheat with them. Let both grow together until the harvest.",
+   "seg_start": 81.497,
+   "audio_start": 81.777,
+   "spoken_end": 88.197,
+   "seg_end": 89.347,
+   "audio_dur": 6.922,
+   "spoken_dur": 6.419,
+   "seg_dur": 7.849,
+   "timing": [
+    {
+     "text": "Nay; lest while ye gather up the tares, ye root up also the wheat with them.",
+     "start": 0.0,
+     "end": 4.122
+    },
+    {
+     "text": "Let both grow together until the harvest.",
+     "start": 4.122,
+     "end": 6.873
+    }
+   ]
+  },
+  {
+   "seg": "n9",
+   "v1_still": "s5-let-grow.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "In other words: if you rip the weeds out now, their roots are tangled around the wheat, and you will tear up the good plants along with them. He would rather wait than lose a single stalk of wheat.",
+   "seg_start": 89.347,
+   "audio_start": 89.627,
+   "spoken_end": 99.906,
+   "seg_end": 100.626,
+   "audio_dur": 10.71,
+   "spoken_dur": 10.28,
+   "seg_dur": 11.28,
+   "timing": [
+    {
+     "text": "In other words: if you rip the weeds out now, their roots are tangled around the wheat, and you will tear up the good plants along with them.",
+     "start": 0.0,
+     "end": 7.372
+    },
+    {
+     "text": "He would rather wait than lose a single stalk of wheat.",
+     "start": 7.372,
+     "end": 10.681
+    }
+   ]
+  },
+  {
+   "seg": "n10",
+   "v1_still": "s6-grow-together.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So the farmer waited. All season long the wheat and the weeds grew up side by side, and he let them, because his patience was protecting the crop he loved.",
+   "seg_start": 100.626,
+   "audio_start": 100.906,
+   "spoken_end": 109.457,
+   "seg_end": 110.177,
+   "audio_dur": 8.96,
+   "spoken_dur": 8.55,
+   "seg_dur": 9.55,
+   "timing": [
+    {
+     "text": "So the farmer waited.",
+     "start": 0.0,
+     "end": 1.242
+    },
+    {
+     "text": "All season long the wheat and the weeds grew up side by side, and he let them, because his patience was protecting the crop he loved.",
+     "start": 1.242,
+     "end": 8.916
+    }
+   ]
+  },
+  {
+   "seg": "j30",
+   "v1_still": "s7-harvest.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Gather ye together first the tares, and bind them in bundles to burn them: but gather the wheat into my barn.",
+   "seg_start": 110.177,
+   "audio_start": 110.457,
+   "spoken_end": 116.376,
+   "seg_end": 117.526,
+   "audio_dur": 6.348,
+   "spoken_dur": 5.92,
+   "seg_dur": 7.35,
+   "timing": [
+    {
+     "text": "Gather ye together first the tares, and bind them in bundles to burn them: but gather the wheat into my barn.",
+     "start": 0.0,
+     "end": 6.316
+    }
+   ]
+  },
+  {
+   "seg": "n11",
+   "v1_still": "s7-harvest.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Then harvest came. And at harvest, the two are finally easy to tell apart. The reapers gathered the weeds and bundled them away, and then gathered all the good wheat safely into the barn.",
+   "seg_start": 117.526,
+   "audio_start": 117.806,
+   "spoken_end": 127.551,
+   "seg_end": 128.271,
+   "audio_dur": 10.162,
+   "spoken_dur": 9.745,
+   "seg_dur": 10.745,
+   "timing": [
+    {
+     "text": "Then harvest came.",
+     "start": 0.0,
+     "end": 1.033
+    },
+    {
+     "text": "And at harvest, the two are finally easy to tell apart.",
+     "start": 1.033,
+     "end": 4.075
+    },
+    {
+     "text": "The reapers gathered the weeds and bundled them away, and then gathered all the good wheat safely into the barn.",
+     "start": 4.075,
+     "end": 10.124
+    }
+   ]
+  },
+  {
+   "seg": "n12",
+   "v1_still": "s7-harvest.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Nothing good was lost. Everything the farmer had waited and hoped for came safely home.",
+   "seg_start": 128.271,
+   "audio_start": 128.551,
+   "spoken_end": 133.295,
+   "seg_end": 134.015,
+   "audio_dur": 5.146,
+   "spoken_dur": 4.744,
+   "seg_dur": 5.744,
+   "timing": [
+    {
+     "text": "Nothing good was lost.",
+     "start": 0.0,
+     "end": 1.265
+    },
+    {
+     "text": "Everything the farmer had waited and hoped for came safely home.",
+     "start": 1.265,
+     "end": 5.108
+    }
+   ]
+  },
+  {
+   "seg": "n13",
+   "v1_still": "s8-shine.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus said that is how God works with the world. He is not quick to rip things up. He gives time, because his patience is mercy. And in the end,",
+   "seg_start": 134.015,
+   "audio_start": 134.295,
+   "spoken_end": 143.264,
+   "seg_end": 143.984,
+   "audio_dur": 9.326,
+   "spoken_dur": 8.97,
+   "seg_dur": 9.97,
+   "timing": [
+    {
+     "text": "Jesus said that is how God works with the world.",
+     "start": 0.0,
+     "end": 2.519
+    },
+    {
+     "text": "He is not quick to rip things up.",
+     "start": 2.519,
+     "end": 4.865
+    },
+    {
+     "text": "He gives time, because his patience is mercy.",
+     "start": 4.865,
+     "end": 7.906
+    },
+    {
+     "text": "And in the end,",
+     "start": 8.185,
+     "end": 9.288
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s8-shine.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Then shall the righteous shine forth as the sun in the kingdom of their Father. Who hath ears to hear, let him hear.",
+   "seg_start": 143.984,
+   "audio_start": 144.264,
+   "spoken_end": 149.728,
+   "seg_end": 150.878,
+   "audio_dur": 5.851,
+   "spoken_dur": 5.463,
+   "seg_dur": 6.893,
+   "timing": [
+    {
+     "text": "Then shall the righteous shine forth as the sun in the kingdom of their Father.",
+     "start": 0.0,
+     "end": 3.39
+    },
+    {
+     "text": "Who hath ears to hear, let him hear.",
+     "start": 3.39,
+     "end": 5.805
+    }
+   ]
+  },
+  {
+   "seg": "n14",
+   "v1_still": "s8-shine.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The people who belong to him will shine like the sun. That is how good he is. He is patient enough to wait for you, and he will not let one good stalk be lost.",
+   "seg_start": 150.878,
+   "audio_start": 151.158,
+   "spoken_end": 160.312,
+   "seg_end": 161.032,
+   "audio_dur": 9.509,
+   "spoken_dur": 9.154,
+   "seg_dur": 10.154,
+   "timing": [
+    {
+     "text": "The people who belong to him will shine like the sun.",
+     "start": 0.0,
+     "end": 2.601
+    },
+    {
+     "text": "That is how good he is.",
+     "start": 2.601,
+     "end": 4.307
+    },
+    {
+     "text": "He is patient enough to wait for you, and he will not let one good stalk be lost.",
+     "start": 4.307,
+     "end": 9.474
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "He is patient enough to wait for you. Will you grow toward the light?",
+  "seg_start": 161.032,
+  "audio_start": 161.312,
+  "seg_dur": 5.96
+ },
+ "total": 166.991
+}

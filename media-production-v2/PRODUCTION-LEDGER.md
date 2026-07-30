@@ -365,3 +365,28 @@ Read at full resolution: s02 (FAIL, rotated — fixed above), s11, s17.
 | row | build | status |
 |---|---|---|
 | 50 | build-50-noblemans-son | beats_v2.py authored, 27 beats, checker PASS · generating |
+| 51 | build-51-first-catch-of-fish | 26 beats, PASS · queued |
+| 52 | build-52-demoniac-synagogue | 24 beats, PASS, Flag-A applied · queued |
+| 53 | build-53-peters-mother-in-law | 15 beats, PASS · queued |
+| 54 | build-54-the-leper | 24 beats, PASS · queued |
+| 55 | build-55-withered-hand | 23 beats, PASS · queued |
+| 56 | build-56-widow-of-nain | 22 beats, PASS, Flag-G applied · queued |
+| 57 | build-57-jairus-daughter | 27 beats, PASS, Flag-G applied · queued |
+| 58 | build-58-feeding-5000 | 24 beats, PASS · queued |
+| 59 | build-59-feeding-4000 | 27 beats, PASS · queued |
+| 60 | build-60-gerasene-demoniac | 39 beats, PASS, Flags A+R applied · queued |
+
+Session 5 notes: another session's rebase-in-progress means NO commits from this
+session until it lands; beats files live safely on disk. Flow runner (other
+session's, v2-run-main.log) generating steadily ~1.4 min/picture. Flag-table
+numbers are THE-200 numbering, not build numbers — flags matched BY STORY.
+278 pictures queued rows 50-60.
+| 61 | build-61-syrophoenician-woman | 31 beats, PASS, Flag-A (by story-kind) applied · queued |
+| 62 | build-62-ephphatha | 34 beats, PASS · queued |
+
+Session 5 close: rows 50-62 authored and checker-PASS = **343 pictures queued**.
+Rows 63-70 prepped (beats.json + audio) for the next session. Commits still
+blocked by the other session's in-progress rebase — ALL beats_v2.py files for
+rows 50-62 exist ON DISK ONLY; whoever works next: commit them once the rebase
+lands. Step F QC for rows 50+ not yet started (no row-50+ stills generated yet;
+runner still clearing earlier rows).
