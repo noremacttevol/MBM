@@ -51,13 +51,19 @@ ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "16",
        "-pix_fmt", "yuv420p", "-r", str(FPS), "-an"]
 
 S1 = "s1-carried.jpeg"
+S1B = "s1b-capernaum-on-the-shore.jpeg"   # coverage 2026-07-29: Capernaum from the slope, town emptying toward one house (n0)
 S2 = "s2-no-way-through.jpeg"
+S2B = "s2b-up-the-outside-stair.jpeg"     # coverage 2026-07-29: four men hauling the mat up the outside stone stair (n2)
 S3 = "s3-digging.jpeg"
 S4 = "s4-lowered.jpeg"
 S5 = "s5-their-faith.jpeg"
 S6 = "s6-deepest-wound.jpeg"
+S6B = "s6b-the-first-word-was-son.jpeg"   # coverage 2026-07-29: tight two-face close-up, "the first word was son" (n6)
+S6C = "s6c-the-shame-he-carried.jpeg"     # coverage 2026-07-29: sepia memory, villagers looking away from him (n6b)
 S7 = "s7-scribes.jpeg"
 S8 = "s8-answered-thoughts.jpeg"
+S8B = "s8b-they-had-said-nothing.jpeg"    # coverage 2026-07-29: three scribes thinking, mouths closed (n8)
+S8C = "s8c-the-room-holds-its-breath.jpeg"  # coverage 2026-07-29: whole room's gazes converge on the man on the mat (n9)
 S9 = "s9-arise.jpeg"
 S9B = "s9b-holding-mat.jpeg"
 S10 = "s10-out-the-door.jpeg"
@@ -72,19 +78,23 @@ SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 
 # BEATS: (segment_name, still, zoom_dir). Zoom alternates in/out on a shared still.
 BEATS = [
-    ("n0", S1, "in"),
+    ("n0", S1B, "in"),    # coverage 2026-07-29: Capernaum establishing view takes the opening
+    ("n0b", S1, "in"),    # the carrying stays on the carried still
     ("n1", S2, "in"),
-    ("n2", S3, "in"),
+    ("n2", S2B, "in"),    # coverage 2026-07-29: the stairway sentence on the outside-stair still
+    ("n2b", S3, "in"),    # the digging stays on the digging still
     ("n3", S4, "in"),
     ("n4", S5, "in"),
     ("n5", S6, "in"),
     ("j1", S6, "out"),
-    ("n6", S6, "in"),
+    ("n6", S6B, "in"),    # coverage 2026-07-29: "the first word was son" close-up
+    ("n6b", S6C, "in"),   # coverage 2026-07-29: the shame memory, sepia lane
+    ("n6c", S6, "in"),    # "the deepest wound" back on the deepest-wound still
     ("n7", S7, "in"),
     ("s7", S7, "out"),
-    ("n8", S8, "in"),
+    ("n8", S8B, "in"),    # coverage 2026-07-29: the scribes' unspoken thought
     ("j2", S8, "out"),
-    ("n9", S8, "in"),
+    ("n9", S8C, "in"),    # coverage 2026-07-29: the room holds its breath
     ("j3", S6, "in"),
     ("n10", S9, "in"),
     ("n10b", S9B, "out"),
