@@ -1,0 +1,281 @@
+=== CAST V2 burst start Thu Jul 30 12:47:34 AM EDT 2026 ===
+=== gen peter-front 00:47:34 ===
+  model chip reads: '🍌 Nano Banana Pro' (want 'Nano Banana Pro')
+  credit cost: 0 credits; aspect_9_16=True
+  prompt box: DIV
+  prompt in box: 1306 chars
+  submitted (Enter), waiting for the image...
+saved media-production-v2/CAST-V2-REF/peter-front.jpeg (3116 KB, 2K)
+    OK peter-front
+=== gen peter-quarter 00:48:25 ===
+  model chip reads: '🍌 Nano Banana Pro' (want 'Nano Banana Pro')
+  credit cost: 0 credits; aspect_9_16=True
+  prompt box: DIV
+  prompt in box: 1352 chars
+  submitted (Enter), waiting for the image...
+saved media-production-v2/CAST-V2-REF/peter-quarter.jpeg (3163 KB, 2K)
+    OK peter-quarter
+=== gen andrew-front 00:49:16 ===
+  model chip reads: '🍌 Nano Banana Pro' (want 'Nano Banana Pro')
+  credit cost: 0 credits; aspect_9_16=True
+  prompt box: DIV
+  prompt in box: 1259 chars
+  submitted (Enter), waiting for the image...
+saved media-production-v2/CAST-V2-REF/andrew-front.jpeg (3274 KB, 2K)
+    OK andrew-front
+=== gen andrew-quarter 00:50:06 ===
+  model chip reads: '🍌 Nano Banana Pro' (want 'Nano Banana Pro')
+  credit cost: 0 credits; aspect_9_16=True
+  prompt box: DIV
+  prompt in box: 1305 chars
+  submitted (Enter), waiting for the image...
+saved media-production-v2/CAST-V2-REF/andrew-quarter.jpeg (3304 KB, 2K)
+    OK andrew-quarter
+=== gen james-z-front 00:50:57 ===
+  model chip reads: '🍌 Nano Banana Pro' (want 'Nano Banana Pro')
+  credit cost: 0 credits; aspect_9_16=True
+  prompt box: DIV
+  prompt in box: 1259 chars
+  submitted (Enter), waiting for the image...
+saved media-production-v2/CAST-V2-REF/james-z-front.jpeg (3005 KB, 2K)
+    OK james-z-front
+=== gen james-z-quarter 00:51:48 ===
+  model chip reads: '🍌 Nano Banana Pro' (want 'Nano Banana Pro')
+  credit cost: 0 credits; aspect_9_16=True
+  prompt box: DIV
+  prompt in box: 1305 chars
+  submitted (Enter), waiting for the image...
+saved media-production-v2/CAST-V2-REF/james-z-quarter.jpeg (780 KB, 2K)
+    OK james-z-quarter
+=== gen john-front 00:52:33 ===
+  model chip reads: '🍌 Nano Banana Pro' (want 'Nano Banana Pro')
+  credit cost: 0 credits; aspect_9_16=True
+  prompt box: DIV
+  prompt in box: 1270 chars
+  submitted (Enter), waiting for the image...
+saved media-production-v2/CAST-V2-REF/john-front.jpeg (3326 KB, 2K)
+    OK john-front
+=== gen john-quarter 00:53:29 ===
+  model chip reads: '🍌 Nano Banana Pro' (want 'Nano Banana Pro')
+  credit cost: 0 credits; aspect_9_16=True
+  prompt box: DIV
+  prompt in box: 1316 chars
+  submitted (Enter), waiting for the image...
+saved media-production-v2/CAST-V2-REF/john-quarter.jpeg (3246 KB, 2K)
+    OK john-quarter
+=== gen philip-front 00:54:20 ===
+  model chip reads: '🍌 Nano Banana Pro' (want 'Nano Banana Pro')
+  credit cost: 0 credits; aspect_9_16=True
+  prompt box: DIV
+  prompt in box: 1229 chars
+  submitted (Enter), waiting for the image...
+saved media-production-v2/CAST-V2-REF/philip-front.jpeg (3472 KB, 2K)
+    OK philip-front
+=== gen philip-quarter 00:55:11 ===
+  model chip reads: '🍌 Nano Banana Pro' (want 'Nano Banana Pro')
+  credit cost: 0 credits; aspect_9_16=True
+  prompt box: DIV
+  prompt in box: 1275 chars
+  submitted (Enter), waiting for the image...
+saved media-production-v2/CAST-V2-REF/philip-quarter.jpeg (3198 KB, 2K)
+    OK philip-quarter
+=== gen bartholomew-front 00:56:03 ===
+  model chip reads: '🍌 Nano Banana Pro' (want 'Nano Banana Pro')
+  credit cost: 0 credits; aspect_9_16=True
+  prompt box: DIV
+  prompt in box: 1264 chars
+  submitted (Enter), waiting for the image...
+saved media-production-v2/CAST-V2-REF/bartholomew-front.jpeg (3123 KB, 2K)
+    OK bartholomew-front
+=== gen bartholomew-quarter 00:56:56 ===
+  model chip reads: '🍌 Nano Banana Pro' (want 'Nano Banana Pro')
+  credit cost: 0 credits; aspect_9_16=True
+  prompt box: DIV
+  prompt in box: 1310 chars
+  submitted (Enter), waiting for the image...
+saved media-production-v2/CAST-V2-REF/bartholomew-quarter.jpeg (3377 KB, 2K)
+    OK bartholomew-quarter
+=== gen thomas-front 00:57:47 ===
+  model chip reads: '🍌 Nano Banana Pro' (want 'Nano Banana Pro')
+  credit cost: 0 credits; aspect_9_16=True
+  prompt box: DIV
+  prompt in box: 1286 chars
+  submitted (Enter), waiting for the image...
+saved media-production-v2/CAST-V2-REF/thomas-front.jpeg (3255 KB, 2K)
+    OK thomas-front
+=== gen thomas-quarter 00:58:44 ===
+  model chip reads: '🍌 Nano Banana Pro' (want 'Nano Banana Pro')
+  credit cost: 0 credits; aspect_9_16=True
+  prompt box: DIV
+Traceback (most recent call last):
+  File "/home/noremacttevol/Desktop/MBM/media-production/flow_driver.py", line 739, in <module>
+    main()
+  File "/home/noremacttevol/Desktop/MBM/media-production/flow_driver.py", line 647, in main
+    cmd_gen(a.prompt, a.out, a.ref, a.model, not a.model_best_effort, a.size)
+  File "/home/noremacttevol/Desktop/MBM/media-production/flow_driver.py", line 549, in cmd_gen
+    got = page.evaluate(
+          ^^^^^^^^^^^^^^
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 8566, in evaluate
+    self._sync(
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/playwright/_impl/_page.py", line 464, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 320, in evaluate
+    await self._channel.send(
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'value')
+    at eval (eval at evaluate (:290:30), <anonymous>:1:179)
+    at UtilityScript.evaluate (<anonymous>:297:18)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+    FAILED thomas-quarter (see log)
+=== gen matthew-front 00:59:04 ===
+  model chip reads: '🍌 Nano Banana Pro' (want 'Nano Banana Pro')
+  credit cost: 0 credits; aspect_9_16=True
+  prompt box: DIV
+  prompt in box: 1265 chars
+  submitted (Enter), waiting for the image...
+saved media-production-v2/CAST-V2-REF/matthew-front.jpeg (2955 KB, 2K)
+    OK matthew-front
+=== gen matthew-quarter 00:59:57 ===
+  model chip reads: '🍌 Nano Banana Pro' (want 'Nano Banana Pro')
+  credit cost: 0 credits; aspect_9_16=True
+  prompt box: DIV
+  prompt in box: 1311 chars
+  submitted (Enter), waiting for the image...
+saved media-production-v2/CAST-V2-REF/matthew-quarter.jpeg (2955 KB, 2K)
+    OK matthew-quarter
+=== gen james-a-front 01:00:42 ===
+  model chip reads: '🍌 Nano Banana Pro' (want 'Nano Banana Pro')
+  credit cost: 0 credits; aspect_9_16=True
+  prompt box: DIV
+  prompt in box: 1229 chars
+  submitted (Enter), waiting for the image...
+saved media-production-v2/CAST-V2-REF/james-a-front.jpeg (3569 KB, 2K)
+    OK james-a-front
+=== gen james-a-quarter 01:01:32 ===
+  model chip reads: '🍌 Nano Banana Pro' (want 'Nano Banana Pro')
+  credit cost: 0 credits; aspect_9_16=True
+  prompt box: DIV
+  prompt in box: 1275 chars
+  submitted (Enter), waiting for the image...
+saved media-production-v2/CAST-V2-REF/james-a-quarter.jpeg (3236 KB, 2K)
+    OK james-a-quarter
+=== gen thaddaeus-front 01:02:23 ===
+  model chip reads: '🍌 Nano Banana Pro' (want 'Nano Banana Pro')
+  credit cost: 0 credits; aspect_9_16=True
+  prompt box: DIV
+  prompt in box: 1258 chars
+  submitted (Enter), waiting for the image...
+saved media-production-v2/CAST-V2-REF/thaddaeus-front.jpeg (3273 KB, 2K)
+    OK thaddaeus-front
+=== gen thaddaeus-quarter 01:03:20 ===
+  model chip reads: '🍌 Nano Banana Pro' (want 'Nano Banana Pro')
+  credit cost: 0 credits; aspect_9_16=True
+  prompt box: DIV
+  prompt in box: 1304 chars
+  submitted (Enter), waiting for the image...
+saved media-production-v2/CAST-V2-REF/thaddaeus-quarter.jpeg (3578 KB, 2K)
+    OK thaddaeus-quarter
+=== gen simon-z-front 01:04:11 ===
+  model chip reads: '🍌 Nano Banana Pro' (want 'Nano Banana Pro')
+  credit cost: 0 credits; aspect_9_16=True
+  prompt box: DIV
+  prompt in box: 1245 chars
+  submitted (Enter), waiting for the image...
+saved media-production-v2/CAST-V2-REF/simon-z-front.jpeg (3070 KB, 2K)
+    OK simon-z-front
+=== gen simon-z-quarter 01:05:02 ===
+  model chip reads: '🍌 Nano Banana Pro' (want 'Nano Banana Pro')
+  credit cost: 0 credits; aspect_9_16=True
+  prompt box: DIV
+  prompt in box: 1291 chars
+  submitted (Enter), waiting for the image...
+saved media-production-v2/CAST-V2-REF/simon-z-quarter.jpeg (3163 KB, 2K)
+    OK simon-z-quarter
+=== gen judas-front 01:05:53 ===
+=== CAST V2 burst start Thu Jul 30 01:17:36 AM EDT 2026 ===
+skip peter-front (exists)
+skip peter-quarter (exists)
+skip andrew-front (exists)
+skip andrew-quarter (exists)
+skip james-z-front (exists)
+skip james-z-quarter (exists)
+skip john-front (exists)
+skip john-quarter (exists)
+skip philip-front (exists)
+skip philip-quarter (exists)
+skip bartholomew-front (exists)
+skip bartholomew-quarter (exists)
+skip thomas-front (exists)
+=== gen thomas-quarter 01:17:36 ===
+Traceback (most recent call last):
+  File "/home/noremacttevol/Desktop/MBM/media-production/flow_driver.py", line 739, in <module>
+    main()
+  File "/home/noremacttevol/Desktop/MBM/media-production/flow_driver.py", line 647, in main
+    cmd_gen(a.prompt, a.out, a.ref, a.model, not a.model_best_effort, a.size)
+  File "/home/noremacttevol/Desktop/MBM/media-production/flow_driver.py", line 472, in cmd_gen
+    page.wait_for_timeout(6000)
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 11536, in wait_for_timeout
+    self._sync(self._impl_obj.wait_for_timeout(timeout=timeout))
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/playwright/_impl/_page.py", line 1101, in wait_for_timeout
+    await self._main_frame.wait_for_timeout(timeout)
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 862, in wait_for_timeout
+    await self._channel.send("waitForTimeout", None, {"waitTimeout": timeout})
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.wait_for_timeout: Target page, context or browser has been closed
+    attempt 1 failed for thomas-quarter; cooling 180s
+  model chip reads: '🍌 Nano Banana Pro' (want 'Nano Banana Pro')
+  credit cost: 0 credits; aspect_9_16=True
+  prompt box: DIV
+  prompt in box: 1332 chars
+  submitted (Enter), waiting for the image...
+viewer: download button not found
+    attempt 2 failed for thomas-quarter; cooling 180s
+    FAILED thomas-quarter (see log)
+skip matthew-front (exists)
+skip matthew-quarter (exists)
+skip james-a-front (exists)
+skip james-a-quarter (exists)
+skip thaddaeus-front (exists)
+skip thaddaeus-quarter (exists)
+skip simon-z-front (exists)
+skip simon-z-quarter (exists)
+=== gen judas-front 01:26:40 ===
+  (flow profile busy — another session is generating; waiting…)
+Traceback (most recent call last):
+  File "/home/noremacttevol/Desktop/MBM/media-production/flow_driver.py", line 739, in <module>
+    main()
+  File "/home/noremacttevol/Desktop/MBM/media-production/flow_driver.py", line 647, in main
+    cmd_gen(a.prompt, a.out, a.ref, a.model, not a.model_best_effort, a.size)
+  File "/home/noremacttevol/Desktop/MBM/media-production/flow_driver.py", line 472, in cmd_gen
+    page.wait_for_timeout(6000)
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 11536, in wait_for_timeout
+    self._sync(self._impl_obj.wait_for_timeout(timeout=timeout))
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/playwright/_impl/_page.py", line 1101, in wait_for_timeout
+    await self._main_frame.wait_for_timeout(timeout)
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 862, in wait_for_timeout
+    await self._channel.send("waitForTimeout", None, {"waitTimeout": timeout})
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/noremacttevol/.local/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.wait_for_timeout: Target page, context or browser has been closed
+    attempt 1 failed for judas-front; cooling 180s

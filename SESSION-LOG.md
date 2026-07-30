@@ -1,3 +1,42 @@
+## 2026-07-30 — SALVAGE: Cameron stopped the failed session; everything valuable committed (Machine A / `Dev`)
+
+Commit: (this commit — the new chain link). Cameron stopped work after the failed
+session (postmortem commit 1fbfc84c3, "13 pictures shown, 0 approved, ~$9 spent")
+and said to save anything still valuable before he runs again. This session did
+only that: no generation, no spend, no pictures shown.
+
+- **THE GITIGNORE TRAP, now closed: `media-production-v2/.gitignore` line 1 is a
+  blanket `*.jpeg`, and it was silently excluding THE V2 MASTER FACE.**
+  `JESUS-V2-REF/jesus-v2-face.jpeg` — the ONE locked face Cameron picked — and all
+  24 CAST-V2-REF face sheets (the Twelve, front + quarter) existed ONLY on this
+  machine's disk. A dead drive would have erased the entire V2 visual identity, and
+  no other machine could enforce Law 1 or Law 7 because they never had the files.
+  All reference faces are now force-added (`git add -f`) and in the repo: the master
+  face + 3 angle refs, the full CAST-V2-REF set with its gen script and log. RULE
+  FOR FUTURE SESSIONS: any new reference image under `media-production-v2/` must be
+  `git add -f`-ed — plain `git add` silently skips it and tells you nothing.
+- **The failed session's real work products are saved:** `HANDOFF-TO-ANY-AI.md`
+  (Cameron's requested any-AI handoff — kept at repo root); the `v2_gen_api.py`
+  rewrite (wires the CAST-V2 face locks into every beat naming a `locks` token and
+  adds `--dry-run` pricing — the two fixes the postmortem said were missing);
+  `v2_review_diff.py`; `api-spend.jsonl` (the spend ledger); build-07
+  `prompts-v3.json` (the 18 director-style prompts the handoff points to) +
+  `_gen_table.txt` + updated `beats_v2.py`/`ASSEMBLED-PROMPTS.txt`; build-120
+  `beats_v2.py`; segs caption/concat sidecars (317 txt) for builds 01–07; the codex
+  pilot spec + its 2 evidence frames; Cameron's two "Prince of peace" jpgs and the
+  Marketing-Launch-Kit page art. All python compiles clean.
+- **Deliberately NOT committed (unchanged from before, all regenerable or stale):**
+  generated pictures in `build-*/assets/` and segs binary intermediates (gitignored
+  by design), `site/fixed/` mp4s (2.8 GB), `_stale-dupes/`, `VOICE-SAMPLER/`,
+  HOLD-pentecost audio — all predate this session.
+- **Runner is DEAD and that is correct** — Cameron stopped the session. Both
+  `ps` checks empty; last picture saved 04:21 (build-07 s16). Nothing was restarted.
+- **Push state on entry: ahead 829 / behind 9.** The 9 incoming are Machine C's V1
+  coverage-still work (builds 04/07/13/27/60) — zero overlap with V2. Merge + push
+  result recorded below in this entry's follow-up line.
+
+---
+
 ## 2026-07-29 — PICTURES-ONLY: rows 5-11 authored (216 pictures), two silent defects killed (Machine A / `Dev`)
 
 Commit: 1283299a6 (the chain link this session verified). Continued the pictures-only
