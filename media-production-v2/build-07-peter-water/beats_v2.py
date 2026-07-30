@@ -91,14 +91,37 @@ LOCKS = {
         "timbers, and one small clay oil lamp guttering in a shelter at the bow. The "
         "deck planking is always visible under the men's feet."
     ),
+    # Cameron, 2026-07-30: "the boat must always have a mast and look the same and it
+    # needs to have all of his disciples in it and how they look should come from the
+    # reference book, and it shouldn't change much."
+    # v1 said "the same seven or eight throughout", which let both the COUNT and the
+    # faces move between frames. The crew is now a fixed, stated number.
+    #
+    # Peter also had NO lock at all in this build, so nothing held HIS face still —
+    # in the story where he is the second lead. Naming PETER in a beat's locks also
+    # makes the API engine attach his CAST-V2-REF sheets, which is what actually holds
+    # a face (the lesson row 2 paid for when the elder son came back as three men).
+    "PETER": (
+        "PETER LOCK: Peter is the same man in every shot — a sturdy Galilean fisherman "
+        "in his late thirties, broad and powerfully built, thick dark curly hair "
+        "plastered flat with water, a full dark beard, weathered warm-olive skin, deep "
+        "brown eyes, heavy honest features. He wears a soaked BLUE-GREY wool tunic "
+        "with a plain rope belt and is BAREFOOT (never cream, never off-white). His "
+        "face is shown clearly and does not change between frames."
+    ),
     "DISCIPLES": (
-        "DISCIPLES LOCK: the other men in the boat are the same seven or eight "
-        "throughout — Galilean fishermen and working men between twenty and forty, "
+        "DISCIPLES LOCK: the boat carries ELEVEN other men besides Peter — the same "
+        "eleven in every single frame, never more and never fewer, so the crew never "
+        "changes size between pictures. Each man keeps the SAME face, the same hair "
+        "and the same tunic colour in every frame he appears in. They are "
+        "Galilean fishermen and working men between twenty and forty, "
         "dark hair and beards plastered flat with water, weathered olive skin, big "
         "rope-scarred hands. They wear soaked wool tunics in SATURATED DEEP colours "
         "— rust-brown, deep russet, dark olive, blue-grey and dusty indigo — belted "
-        "with rope or leather. None of them wears off-white, ivory or any near-white "
-        "cloth. Their faces are shown clearly."
+        "with rope or leather. EVERY SINGLE TUNIC IN THE BOAT IS PLAINLY AND OBVIOUSLY "
+        "DARKER THAN THE ONE CREAM ROBE JESUS WEARS, so that he is the only pale figure "
+        "anywhere in the picture — none of them wears off-white, ivory, cream, beige, "
+        "tan or any near-white cloth. Their faces are shown clearly."
     ),
     "SHORE": (
         "SHORE LOCK: the grassy north-east shore of the lake at dusk — trodden green "
@@ -163,7 +186,7 @@ BEATS = [
     {
         "id": "v2-r007-b03", "out": "s03-talking-with-his-father.jpeg", "seg": "n0 p5-p7",
         "window": "16.50-22.80", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["MOUNTAIN"],
+        "locks": ["MOUNTAIN", "BOAT", "DISCIPLES"],
         "narration": ("That is where the night found him. Not in the boat. On the "
                       "mountain, talking with his Father."),
         "must_show": "him kneeling in prayer high on the rock at night — and far below in the same frame, the black lake with one tiny point of lamplight on it where the boat is.",
@@ -294,7 +317,7 @@ BEATS = [
         "scene": (
             "Jesus is close in now, standing on the open water off the boat's bow "
             "with both bare feet ON TOP of the unbroken surface, ripple rings "
-            "spreading from each foot, his soaked robe and hair driven sideways by "
+            "spreading from each foot, his dry robe and hair driven sideways by "
             "the wind, his face plainly and unmistakably his own in the lamplight and "
             "the broken moonlight. In the boat every man has gone completely still — "
             "mouths still open from shouting but no sound left in them, one man's "
@@ -307,14 +330,20 @@ BEATS = [
     {
         "id": "v2-r007-b10", "out": "s10-be-not-afraid.jpeg", "seg": "j1",
         "window": "64.61-67.53", "wide": False, "jesus": True, "ref": REF,
-        "locks": ["SEA-NIGHT"],
+        "locks": ["PETER", "SEA-NIGHT", "BOAT", "DISCIPLES"],
         "narration": "Be of good cheer; it is I; be not afraid. (Matthew 14:27)",
         "must_show": "close on Jesus out on the water speaking across to them — calm, steady, entirely ordinary in the middle of a storm.",
         "must_not_show": "no halo, glare or rim-light; no strain or shouting in his face; his feet are not in frame here, so nothing about them can go wrong.",
         "scene": (
+            "JESUS IS STANDING ON TOP OF THE WATER: his bare feet rest ON the "
+            "unbroken surface taking his full weight, with clean rings of ripple "
+            "spreading outward from each sole, and NO part of his feet, ankles, "
+            "shins or robe hem is below the surface. He never sinks, never wades "
+            "and is never submerged. "
+
             "Close on Jesus from the chest up, out on the open water in the dark, "
             "speaking toward the boat. Water runs off his hair and beard and the wind "
-            "drags his soaked robe sideways, and his face is completely calm — level "
+            "drags his dry robe sideways, and his face is completely calm — level "
             "eyes, an easy mouth, a man saying something reassuring in the middle of "
             "a gale as though it cost him nothing. One hand is lifted a little in "
             "front of him. Black water and white foam run past behind him under "
@@ -325,7 +354,7 @@ BEATS = [
     {
         "id": "v2-r007-b11", "out": "s11-what-peter-wanted.jpeg", "seg": "n3",
         "window": "69.09-76.66", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER", "BOAT", "SEA-NIGHT"],
+        "locks": ["PETER", "BOAT", "SEA-NIGHT", "DISCIPLES"],
         "narration": ("Think about what Peter was asking for. Not for the storm to "
                       "stop. To come out into it — to where Jesus stood."),
         "must_show": "close on Peter at the gunwale, both hands locked on the rail, leaning out into the wind and looking off at the water — the want plain on his face.",
@@ -364,23 +393,40 @@ BEATS = [
     {
         "id": "v2-r007-b13", "out": "s13-come.jpeg", "seg": "j2 + n4 p1",
         "window": "82.05-85.06", "wide": False, "jesus": True, "ref": REF,
-        "locks": ["SEA-NIGHT"],
+        "locks": ["SEA-NIGHT", "BOAT", "DISCIPLES"],
         "narration": "Come. (Matthew 14:29) — One word.",
         "must_show": "close on Jesus saying the single word, one hand come open and out toward the boat in the same movement — welcome, not command.",
         "must_not_show": "no halo, glare or rim-light; nothing dramatic in the gesture; it is small and easy, which is the point.",
         "scene": (
-            "Close on Jesus out on the water in the dark, saying one short word. His "
-            "near hand has come open and reached out low toward the boat, palm up, an "
-            "easy unhurried movement, and his face is warm and certain and slightly "
-            "amused. Water streams from his hair. Black waves and white foam run past "
-            "behind him under the broken moon. His hand has five fingers."
+            "JESUS IS STANDING ON TOP OF THE WATER: his bare feet rest ON the "
+            "unbroken surface taking his full weight, with clean rings of ripple "
+            "spreading outward from each sole, and NO part of his feet, ankles, "
+            "shins or robe hem is below the surface. He never sinks, never wades "
+            "and is never submerged. "
+
+            "A WIDE SIDE-ON view across the open sea, the camera at a distance and "
+            "level with the horizon. Jesus stands FAR OUT on the open water, well "
+            "clear of the boat with many paces of black water between them, seen full "
+            "length from his head down to his feet on the surface. He has just spoken "
+            "one short word. HIS HEAD IS TURNED TOWARD THE BOAT AND HIS EYES ARE "
+            "LOOKING DIRECTLY AT PETER — straight at the man in the boat, NOT at the "
+            "camera and NOT out to sea. His face and shoulders are angled toward the "
+            "boat, and his near hand is open and low, palm upward, reaching toward "
+            "Peter in an unhurried invitation. His face is warm and certain and "
+            "quietly glad. "
+            "The fishing boat sits to one side of the frame with its mast up, and "
+            "ELEVEN other men are CLEARLY VISIBLE crowded inside it along the gunwale "
+            "— faces lit by the lamp, all of them staring out at the water — while "
+            "Peter is swinging one leg over the side to come down to him. The boat is "
+            "never empty. Black waves and white foam run past "
+            "under the broken moon. His hand has five fingers."
         ),
     },
     # ------------------------------------------------- n4 — out of the boat ----
     {
         "id": "v2-r007-b14", "out": "s14-leg-over-the-side.jpeg", "seg": "n4 p2a",
         "window": "85.06-87.4", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER", "BOAT", "SEA-NIGHT"],
+        "locks": ["PETER", "BOAT", "SEA-NIGHT", "DISCIPLES"],
         "narration": "And Peter put his leg over the side of that pitching boat,",
         "must_show": "the physical act: one bare leg swung right over the gunwale, both hands white-knuckled on the rail taking his weight, his bare foot reaching down toward the water surface below.",
         "must_not_show": "nobody is helping or lifting him — v29 says he came down out of the ship himself; his foot has not touched the water yet.",
@@ -397,7 +443,7 @@ BEATS = [
     {
         "id": "v2-r007-b15", "out": "s15-stood-up-on-the-sea.jpeg", "seg": "n4 p2b",
         "window": "87.4-89.73", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER", "BOAT", "SEA-NIGHT"],
+        "locks": ["PETER", "BOAT", "SEA-NIGHT", "DISCIPLES"],
         "narration": "and stood up on the sea.",
         "must_show": "both of Peter's bare feet ON TOP of the unbroken water taking his weight, ripple rings spreading from each sole, one hand still hanging onto the boat's rail behind him.",
         "must_not_show": "NOT ankle-deep, NOT knee-deep, NOT wading — the surface is whole beneath both soles; he has not let go of the boat yet.",
@@ -417,7 +463,7 @@ BEATS = [
     {
         "id": "v2-r007-b16", "out": "s16-step-after-step.jpeg", "seg": "n4b p1-p2",
         "window": "90.31-95.89", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["PETER", "SEA-NIGHT"],
+        "locks": ["PETER", "SEA-NIGHT", "BOAT", "DISCIPLES"],
         "narration": ("And he was doing it. Step after step on the moving water, his "
                       "eyes fixed on Jesus."),
         "must_show": "SIDE VIEW, camera level with the sea. PETER IS ON THE LEFT OF THE FRAME AND JESUS ON THE RIGHT, and Peter is walking LEFT TO RIGHT toward Jesus, mid-stride, both men's feet on top of the water.",
@@ -439,12 +485,18 @@ BEATS = [
     {
         "id": "v2-r007-b17", "out": "s17-where-only-god-can-walk.jpeg", "seg": "n4b p3",
         "window": "95.89-100.34", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["PETER", "BOAT", "SEA-NIGHT"],
+        "locks": ["PETER", "BOAT", "SEA-NIGHT", "DISCIPLES"],
         "narration": ("For a moment, an ordinary fisherman walked where only God can "
                       "walk."),
         "must_show": "a wide, pulled-right-back view: two small human figures standing out on an enormous black sea under torn cloud, the boat small behind them — the scale of what is happening.",
         "must_not_show": "no halo, glare or rim-light; both men's feet stay on top of the surface even at this distance; no dawn colour in the sky.",
         "scene": (
+            "JESUS IS STANDING ON TOP OF THE WATER: his bare feet rest ON the "
+            "unbroken surface taking his full weight, with clean rings of ripple "
+            "spreading outward from each sole, and NO part of his feet, ankles, "
+            "shins or robe hem is below the surface. He never sinks, never wades "
+            "and is never submerged. "
+
             "The camera is pulled far back and slightly up. Two small human figures "
             "stand out on an enormous running black sea — Peter mid-stride and Jesus "
             "waiting a little ahead of him — both plainly ON TOP of the water with "
@@ -481,6 +533,12 @@ BEATS = [
         "must_show": "SIDE VIEW again, Peter LEFT and Jesus RIGHT: Peter's head and eyes are turned DOWN at the water at his feet, and Jesus is still ahead of him, out of his eyeline.",
         "must_not_show": "he has not begun to sink in this frame — his feet are still on top of the surface; the failure is in where he is looking, and that must be unmistakable.",
         "scene": (
+            "JESUS IS STANDING ON TOP OF THE WATER: his bare feet rest ON the "
+            "unbroken surface taking his full weight, with clean rings of ripple "
+            "spreading outward from each sole, and NO part of his feet, ankles, "
+            "shins or robe hem is below the surface. He never sinks, never wades "
+            "and is never submerged. "
+
             "The same SIDE VIEW at sea level, PETER ON THE LEFT and JESUS ON THE "
             "RIGHT. Peter has stopped mid-stride and his head has dropped — his chin "
             "is down on his chest and his eyes are fixed straight down at the steep "
@@ -558,6 +616,12 @@ BEATS = [
         "must_show": "THE CATCH — Jesus's hand clamped hard around Peter's forearm, wrist to wrist, the grip visibly taking his whole weight out of the sea.",
         "must_not_show": "no halo, glare or rim-light; no light at the point of contact; it is a plain hard physical grab, and it has already happened.",
         "scene": (
+            "JESUS IS STANDING ON TOP OF THE WATER: his bare feet rest ON the "
+            "unbroken surface taking his full weight, with clean rings of ripple "
+            "spreading outward from each sole, and NO part of his feet, ankles, "
+            "shins or robe hem is below the surface. He never sinks, never wades "
+            "and is never submerged. "
+
             "Close on two forearms locked together above the black water. Jesus's hand "
             "is clamped hard around Peter's wrist and Peter's hand around his, the "
             "grip so tight the knuckles have gone pale and the tendons stand out along "
@@ -577,6 +641,12 @@ BEATS = [
         "must_show": "Peter's face looking up out of the water at Jesus while the grip holds him — held, not yet lifted, and not sinking any further.",
         "must_not_show": "he must NOT be going under; the water level on him does not rise past the waist from here on; no halo, glare or rim-light.",
         "scene": (
+            "JESUS IS STANDING ON TOP OF THE WATER: his bare feet rest ON the "
+            "unbroken surface taking his full weight, with clean rings of ripple "
+            "spreading outward from each sole, and NO part of his feet, ankles, "
+            "shins or robe hem is below the surface. He never sinks, never wades "
+            "and is never submerged. "
+
             "Close on Peter held in the water, the sea around him at his waist and "
             "going no higher, his face turned right up out of it. He is soaked and "
             "gasping and his eyes are fixed up on Jesus with something breaking open "
@@ -589,7 +659,7 @@ BEATS = [
     {
         "id": "v2-r007-b25", "out": "s25-holding-him-above-it.jpeg", "seg": "n7 p6",
         "window": "131.49-137.25", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["PETER", "SEA-NIGHT"],
+        "locks": ["PETER", "SEA-NIGHT", "BOAT", "DISCIPLES"],
         "narration": ("And from that grip — holding him above the water — Jesus asked "
                       "him one question."),
         "must_show": "Jesus has pulled him up so Peter is out of the sea and standing again — the two of them face to face on the surface, the grip still unbroken between them.",
@@ -609,12 +679,18 @@ BEATS = [
     {
         "id": "v2-r007-b26", "out": "s26-wherefore-didst-thou-doubt.jpeg", "seg": "j3",
         "window": "137.82-140.84", "wide": False, "jesus": True, "ref": REF,
-        "locks": ["SEA-NIGHT"],
+        "locks": ["PETER", "SEA-NIGHT"],
         "narration": ("O thou of little faith, wherefore didst thou doubt? "
                       "(Matthew 14:31)"),
         "must_show": "close on Jesus's face asking it — genuinely asking, warm, almost puzzled; a real question and not a rebuke.",
         "must_not_show": "NO scolding, NO disappointment, NO hard eyes — the whole narration hangs on how this is asked; get this face wrong and the video's point is lost. No halo, glare or rim-light.",
         "scene": (
+            "JESUS IS STANDING ON TOP OF THE WATER: his bare feet rest ON the "
+            "unbroken surface taking his full weight, with clean rings of ripple "
+            "spreading outward from each sole, and NO part of his feet, ankles, "
+            "shins or robe hem is below the surface. He never sinks, never wades "
+            "and is never submerged. "
+
             "Very close on Jesus's face out on the dark water, streaming wet, speaking "
             "to the man he is holding. His expression is warm and open and very "
             "slightly puzzled — brows lifted rather than drawn down, the mouth soft, "
@@ -628,13 +704,19 @@ BEATS = [
     {
         "id": "v2-r007-b27", "out": "s27-not-from-the-shore.jpeg", "seg": "n8 p1-p6",
         "window": "142.34-153.67", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["PETER", "BOAT", "SEA-NIGHT"],
+        "locks": ["PETER", "BOAT", "SEA-NIGHT", "DISCIPLES"],
         "narration": ("Why did you doubt? Hear how he asked it. Not from the shore. "
                       "Not after pulling him into the boat. From the hand already "
                       "holding him. It isn't a scolding."),
         "must_show": "a very wide view proving WHERE this is happening: the two men still out in the middle of the black sea, hands still joined, with the boat and the far shore both a long way off.",
         "must_not_show": "they must NOT be at the boat or anywhere near land — the distance from both is the entire argument of this beat; no dawn colour in the sky.",
         "scene": (
+            "JESUS IS STANDING ON TOP OF THE WATER: his bare feet rest ON the "
+            "unbroken surface taking his full weight, with clean rings of ripple "
+            "spreading outward from each sole, and NO part of his feet, ankles, "
+            "shins or robe hem is below the surface. He never sinks, never wades "
+            "and is never submerged. "
+
             "A very wide view, the camera far back and a little above the sea. The two "
             "men stand together far out in the middle of an enormous black running "
             "sea, small against it, their hands still joined — and both the fishing "
@@ -654,6 +736,12 @@ BEATS = [
         "must_show": "the two faces close together, both soaked — Jesus asking with kindness, Peter's face beginning to break with the answer he does not have.",
         "must_not_show": "no halo, glare or rim-light; nobody is angry and nobody is grovelling.",
         "scene": (
+            "JESUS IS STANDING ON TOP OF THE WATER: his bare feet rest ON the "
+            "unbroken surface taking his full weight, with clean rings of ripple "
+            "spreading outward from each sole, and NO part of his feet, ankles, "
+            "shins or robe hem is below the surface. He never sinks, never wades "
+            "and is never submerged. "
+
             "Close on the two faces near together in the dark, both streaming with "
             "sea water. Jesus is looking directly into Peter's eyes with that same "
             "warm, unhurried, genuinely questioning expression, waiting. Peter's face "
@@ -667,7 +755,7 @@ BEATS = [
     {
         "id": "v2-r007-b29", "out": "s29-back-to-the-boat-together.jpeg", "seg": "n9 p1",
         "window": "163.08-165.84", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["PETER", "BOAT", "SEA-NIGHT"],
+        "locks": ["PETER", "BOAT", "SEA-NIGHT", "DISCIPLES"],
         "narration": "The two of them came back to the boat across the water together.",
         "must_show": "SIDE VIEW, camera level with the sea: BOTH men walking LEFT TO RIGHT toward the boat, which sits on the RIGHT of the frame — Jesus's hand still on Peter's arm, all four feet on top of the water.",
         "must_not_show": "NEVER head-on — the direction of travel must be unmistakable, which is what V1 was rebuilt to fix. Nobody is in the water.",
@@ -703,7 +791,7 @@ BEATS = [
     {
         "id": "v2-r007-b31", "out": "s31-not-slowly.jpeg", "seg": "n9b p1-p2",
         "window": "169.52-171.39", "wide": True, "jesus": False, "ref": False,
-        "locks": ["BOAT", "SEA-NIGHT"],
+        "locks": ["BOAT", "SEA-NIGHT", "DISCIPLES"],
         "narration": "Not slowly. Not eventually.",
         "must_show": "the instant of the change caught mid-air — the last wave collapsing in on itself, thrown spray still hanging above a sea that has already gone slack beneath it.",
         "must_not_show": "not calm yet and not stormy either — this frame is the exact hinge; do not put Jesus in it.",
@@ -719,7 +807,7 @@ BEATS = [
     {
         "id": "v2-r007-b32", "out": "s32-flat-under-the-stars.jpeg", "seg": "n9b p3",
         "window": "171.39-176.30", "wide": True, "jesus": False, "ref": False,
-        "locks": ["BOAT", "SEA-NIGHT"],
+        "locks": ["BOAT", "SEA-NIGHT", "DISCIPLES"],
         "narration": ("The sea that had fought them all night simply lay down flat "
                       "under the stars."),
         "must_show": "DEAD FLAT WATER under a sky full of stars — the boat sitting motionless on black glass with the stars reflected whole underneath it.",
@@ -793,7 +881,7 @@ BEATS = [
     {
         "id": "v2-r007-b36", "out": "s36-the-storm-taught-them.jpeg", "seg": "n10b p1-p2",
         "window": "191.66-196.34", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["DISCIPLES", "BOAT", "SEA-NIGHT"],
+        "locks": ["PETER", "DISCIPLES", "BOAT", "SEA-NIGHT"],
         "narration": ("The storm had taught them who he was. And notice what the story "
                       "remembers about Peter."),
         "must_show": "a wide, quiet view of the whole boat from off the water — one small lit boat with kneeling men and Jesus standing in it, alone on a black mirror under the stars.",
@@ -811,7 +899,7 @@ BEATS = [
     {
         "id": "v2-r007-b37", "out": "s37-that-he-walked-and-was-caught.jpeg", "seg": "n10b p3-p5",
         "window": "196.34-201.83", "wide": False, "jesus": True, "ref": REF,
-        "locks": ["PETER", "BOAT", "SEA-NIGHT"],
+        "locks": ["PETER", "BOAT", "SEA-NIGHT", "DISCIPLES"],
         "narration": ("Not that he sank. That he walked. And that when he fell, he was "
                       "caught."),
         "must_show": "the closing frame: Peter kneeling soaked in the boat looking back out at the flat water he crossed, and Jesus's hand resting on his shoulder.",

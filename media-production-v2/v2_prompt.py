@@ -76,21 +76,26 @@ STYLE_V2 = (
 # reverence, and would break the anti-glow law on every frame.
 JESUS_LOCK_V5 = (
     "JESUS LOCK v5: the SAME man as the attached JESUS-V2-REF image — identical face, "
-    "hair and beard in every picture: a Jewish man of the first century about "
-    "thirty-three years old, of the eastern Mediterranean but notably fair for it — "
-    "warm light olive complexion with a healthy sun-touched ruddiness, not dark and "
-    "not pallid. Long thick tousled wavy hair to below the shoulders in MID-BROWN shot "
-    "through with warm honey and gold lights, never blue-black and never blond. A "
-    "full but well-kept brown beard with lighter sun-touched strands. A straight "
-    "noble nose, high cheekbones, a broad calm forehead. His EYES ARE THE FEATURE OF "
-    "HIS FACE: large, wide-set, PALE LUMINOUS GREEN shot through with amber and gold "
-    "so that the iris looks lit from within like a flame — piercing, alive and "
-    "arresting, holding whoever meets them. The eyes themselves cast NO light onto "
-    "his skin or surroundings. His expression is gentle, peaceful and unguarded — "
-    "kindness and quiet strength, never stern, never grim. One plain undyed "
-    "off-white cream wool robe with a simple mantle and cloth sash (only he wears "
-    "cream), leather sandals. No halo, no glow, no rim-light, no light coming off "
-    "him. Never blue-eyed, never blond, never a pale sickly white."
+    "hair and beard in every picture: a MIDDLE EASTERN JEWISH man of the first century "
+    "about thirty-three years old, born and weathered in the Judean sun. His skin is "
+    "WARM OLIVE-BROWN, sun-darkened and richly toned — clearly Middle Eastern, never "
+    "fair, never pale, never European-looking. Strong Semitic features: a prominent "
+    "aquiline nose, deep-set eyes under strong dark brows, high cheekbones, a broad "
+    "weathered brow. Long thick tousled wavy hair to below the shoulders in DARK BROWN "
+    "with warm sun-bleached bronze lights through it. A full dark brown beard. His "
+    "EYES ARE THE FEATURE OF HIS FACE: large and deep-set, a LUMINOUS INDETERMINATE "
+    "COLOUR you cannot quite name — green and amber and gold at once, lit from within "
+    "like a flame of fire, piercing and alive and arresting, holding whoever meets "
+    "them. The eyes themselves cast NO light onto his skin or surroundings. His "
+    "expression is gentle, peaceful and unguarded — kindness and quiet strength, "
+    "never stern, never grim. One plain undyed off-white cream wool robe with a simple "
+    "mantle and cloth sash (only he wears cream), leather sandals. No halo, no glow, "
+    "no rim-light, no light coming off him. Never Caucasian, never pale, never "
+    "blue-eyed, never blond. "
+    "HE IS ALWAYS COMPLETELY DRY unless the scripture has actually put him in water: "
+    "his robe, hair and beard are dry, and there are NO water droplets, drips, "
+    "streams, runnels or wet strands anywhere on him. When he walks on water he is on "
+    "TOP of it and therefore not wet at all."
 )
 
 JESUS_LOCK_V4 = (
@@ -183,7 +188,10 @@ def assemble(beat, local_locks):
             raise SystemExit(f"{beat['id']}: unknown lock {name!r}")
         parts.append(block)
     if beat.get("jesus"):
-        parts.append(JESUS_LOCK_V4)
+        # LOCK v5 is the live lock (Cameron picked face E, 2026-07-30).
+        # This line said V4 while v5 sat unused above it, so every prompt
+        # kept describing the OLD face and fought the new reference image.
+        parts.append(JESUS_LOCK_V5)
     parts.append(beat["scene"])
     parts.append(CLOSER)
     return " ".join(" ".join(p.split()) for p in parts)
@@ -198,14 +206,14 @@ def check(build_dir, mod):
         if not p.startswith(STYLE_V2):
             fails.append(f"{beat['id']}: prompt does not open with STYLE-V2")
         if beat.get("jesus"):
-            if JESUS_LOCK_V4 not in p:
+            if JESUS_LOCK_V5 not in p:
                 fails.append(f"{beat['id']}: Jesus shot missing byte-identical LOCK v4")
             if not beat.get("ref"):
                 fails.append(f"{beat['id']}: Jesus shot missing the REF line")
         for w in DRIFT_WORDS:
             # "never blue-eyed / never pale" inside the lock are the lock's own
             # negations, not drift — only flag them outside the lock text.
-            outside = p.replace(JESUS_LOCK_V4, "").lower()
+            outside = p.replace(JESUS_LOCK_V5, "").lower()
             if w in outside:
                 fails.append(f"{beat['id']}: drift word {w!r} in the scene text")
         if "cream" in low:
