@@ -6,15 +6,23 @@ links. Cameron stopped work after the failed session (postmortem commit 1fbfc84c
 valuable before he runs again. This session did only that: no generation, no
 spend, no pictures shown.
 
-- **EVERYTHING VALUABLE IS OFF THIS MACHINE AND ON GITHUB — via a rescue branch.**
-  Main still cannot push (830 commits / 65 GiB history; HTTPS upload was still
-  running at the 9-minute mark, SSH key still `Permission denied`). So the salvage
-  went up as branch **`salvage-2026-07-30-faces-and-handoff`** — based on
-  origin/main, one ~85 MB commit holding every salvage file. Pushed clean. Do NOT
-  merge that branch into main from another machine; Machine A's real main
-  supersedes it the moment its push unblocks. The two unblock paths are unchanged
-  from the 2026-07-29 entry and are Cameron's decision: register the SSH key on
-  GitHub, or slim the tracked-media history.
+- **THE PUSH BLOCKER IS DEAD — MAIN IS FULLY ON GITHUB.** Cameron challenged the
+  "push is impossible" claim and he was right: the 2026-07-29 conclusion was wrong.
+  GitHub was never refusing the repo; it 500s on any SINGLE push much over ~2 GiB,
+  and we kept sending 11.6 GiB in one shot. **The fix (write this down, it works):
+  push intermediate commits of the backlog to a THROWAWAY ref in slices** —
+  `git push -f origin <sha>:refs/heads/tmp-sync-machine-a` every ~40 commits,
+  oldest to newest — each slice deposits its objects; the final
+  `git push origin main` then only sends the remainder and fast-forwards clean.
+  (The 07-29 entry's "chunked pushes don't work" only ruled out chunks pushed AS
+  main; a temp ref has no fast-forward requirement.) 833 commits / 11.6 GiB went
+  up in ~65 min with one self-healed hiccup; script kept at
+  the session scratchpad as `chunked_push.sh` pattern — halve the step on failure.
+  Verified: origin/main == local main == 9b4d7fc54. No file in history exceeds
+  90 MB, so GitHub's 100 MB hard limit is not a factor. The SSH key is no longer
+  needed for this. An earlier rescue branch
+  (`salvage-2026-07-30-faces-and-handoff`) was pushed while main was still stuck;
+  main now supersedes it and the branch was deleted from origin.
 
 - **THE GITIGNORE TRAP, now closed: `media-production-v2/.gitignore` line 1 is a
   blanket `*.jpeg`, and it was silently excluding THE V2 MASTER FACE.**
