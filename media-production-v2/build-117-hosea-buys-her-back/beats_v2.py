@@ -276,7 +276,7 @@ BEATS = [
             "dark eyes bright with "
             "the arithmetic of the "
             "givers ahead — love "
-            "re-理解 as a market, "
+            "reimagined as a market, "
             "affection priced in bread "
             "and oil, the best deal "
             "waiting always somewhere "
