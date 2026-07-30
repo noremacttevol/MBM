@@ -22,15 +22,26 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, "Capernaum, on the north shore of the Sea of Galilee. Jesus was home — and the word got out. By the time four men came up the street carrying their friend on a sleeping mat, one at each corner, the house he was teaching in had already swallowed half the town. The man on the mat was paralyzed. He could not walk to Jesus. So the people who loved him decided he would get there anyway."),
+    # coverage 2026-07-29: n0 split after "the word got out" so the new Capernaum
+    # establishing still can carry the opening (split_segment.py, approved mp3 cut).
+    ("n0", NARRATOR, "Capernaum, on the north shore of the Sea of Galilee. Jesus was home — and the word got out."),
+    ("n0b", NARRATOR, "By the time four men came up the street carrying their friend on a sleeping mat, one at each corner, the house he was teaching in had already swallowed half the town. The man on the mat was paralyzed. He could not walk to Jesus. So the people who loved him decided he would get there anyway."),
     ("n1", NARRATOR, "But the doorway was a wall of backs. People packed the room, packed the doorway, spilled into the street — no one was giving up a spot, not even for a man on a mat. Four friends stood there breathing hard, holding their friend, staring at an impossible crowd. And then one of them looked up. At the roof."),
-    ("n2", NARRATOR, "Here is something worth knowing: houses there had flat roofs of packed clay over reeds and beams, with a stairway up the outside wall. You could dig through one with your hands in a few minutes — and patch it in a day. Which is exactly what they did. Four men on a stranger's roof, tearing through the clay, coughing in the dust, grinning at each other like men doing something magnificent and slightly insane."),
+    # coverage 2026-07-29: n2 split after the stairway sentence so the new
+    # outside-stair still carries it; the digging stays on the digging still.
+    ("n2", NARRATOR, "Here is something worth knowing: houses there had flat roofs of packed clay over reeds and beams, with a stairway up the outside wall."),
+    ("n2b", NARRATOR, "You could dig through one with your hands in a few minutes — and patch it in a day. Which is exactly what they did. Four men on a stranger's roof, tearing through the clay, coughing in the dust, grinning at each other like men doing something magnificent and slightly insane."),
     ("n3", NARRATOR, "Below them, in the middle of the sermon, the ceiling cracked open. Daylight poured into the dark room through falling dust and straw. And down through that column of light, swaying on four ropes, lowered with enormous care, came a man on a mat — landing right at the feet of Jesus."),
     ("n4", NARRATOR, "Now listen to what the story says next, because it is easy to miss. When Jesus saw their faith — theirs. The friends'. The four sweat-streaked faces ringing the hole in the roof. The man on the mat hadn't said a word. His friends' faith counted for him. He was carried there — and heaven honored the carrying."),
     ("n5", NARRATOR, "And Jesus looked at the man lying in the dusty light — a man braced for words about his legs — and the first thing he said was not about his legs at all."),
     # Mark 2:5
     ("j1", JESUS, "Son, thy sins be forgiven thee."),
-    ("n6", NARRATOR, "The first word was son. Not a diagnosis. Not a lecture about his legs. Son — and then forgiveness. In that world, everyone assumed a body like his was the proof of some hidden guilt — he had carried the shame along with the paralysis his whole life. Jesus went to the deepest wound first. His legs had not moved yet. And it was already the miracle."),
+    # coverage 2026-07-29: n6 split three ways (split_segment.py x2, approved mp3
+    # cuts) — "the first word was son" on the new close-up, the shame memory on
+    # the new sepia flashback, "the deepest wound" back on the deepest-wound still.
+    ("n6", NARRATOR, "The first word was son. Not a diagnosis. Not a lecture about his legs. Son — and then forgiveness."),
+    ("n6b", NARRATOR, "In that world, everyone assumed a body like his was the proof of some hidden guilt — he had carried the shame along with the paralysis his whole life."),
+    ("n6c", NARRATOR, "Jesus went to the deepest wound first. His legs had not moved yet. And it was already the miracle."),
     ("n7", NARRATOR, "But in the corner sat the scribes — the religious experts — and nothing about this made them glad. They didn't say a word out loud. They reasoned it in their hearts: this is blasphemy. And on the logic, they were exactly right. That was the point they refused to see."),
     # Mark 2:7
     ("s7", SCRIPTURE, "Why doth this man thus speak blasphemies? who can forgive sins but God only?"),

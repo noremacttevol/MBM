@@ -51,21 +51,28 @@ ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "16",
 # 2026-07-11 REDO (Machine C): pictures-only (no AI clips) + Jesus face NEVER shown,
 # no glow, real Middle Eastern man from behind. All Jesus stills regenerated under
 # The Standing Laws. The two former Veo clips (walking, sinking) are now stills.
-S1 = "s1-mountain-prayer.jpeg"      # v3 face-shown: Jesus prays, face lifted, moonlit mountain
-S2 = "s2-boat-storm.jpeg"           # disciples' boat in the storm (boat/crew lock)
+S1 = "s1-mountain-prayer.jpeg"
+S1B = "s1b-the-crowds-went-home.jpeg"  # coverage 2026-07-29: the emptying hillside (n0 first half)      # v3 face-shown: Jesus prays, face lifted, moonlit mountain
+S2 = "s2-boat-storm.jpeg"
+S2B = "s2b-the-fourth-watch.jpeg"     # coverage 2026-07-29: exhausted rowers, fourth watch (n1b)           # disciples' boat in the storm (boat/crew lock)
 # v4 REROLLS (Machine C, 2026-07-17, Cameron's 3rd rejection): every sea still now
 # shows feet ON the water surface (ON-THE-WATER law), the walk direction is locked by
 # side-view geometry to match the narration, Peter is barefoot in every water shot for
 # continuity, and the end card renders per-line (no tofu). Kept: s1, s2, s4, s10, s11, s12.
-S3 = "s3-fix.jpeg"                  # Jesus distant, ON the water (feet on surface, ripples)
-S4 = "s4-over-gunwale.jpeg"         # they cry "it is a spirit" — crew pointing (boat/crew lock)
+S3 = "s3-fix.jpeg"
+S3B = "s3b-it-is-i.jpeg"             # coverage 2026-07-29: the faces as the voice reaches them (j1)                  # Jesus distant, ON the water (feet on surface, ripples)
+S4 = "s4-over-gunwale.jpeg"
+S4B = "s4b-bid-me-come.jpeg"         # coverage 2026-07-29: Peter calling back (n3)         # they cry "it is a spirit" — crew pointing (boat/crew lock)
 WALK = "s5-fix.jpeg"               # side view: Peter walks left->right TOWARD Jesus, both on the water
 S6 = "s6-fix.jpeg"                  # Peter doubts, barefoot, still on the surface
 SINK = "s7-fix.jpeg"               # Peter sinking (only he is in the water); Jesus reaches, on the surface
-S8 = "s8-fix.jpeg"                 # the catch: Peter lifted clear, Jesus on the surface, open sea (no shore)
+S8 = "s8-fix.jpeg"
+S8B = "s8b-the-grip.jpeg"            # coverage 2026-07-29: the immediate catch close (n6+n7)
+S8C = "s8c-the-question.jpeg"        # coverage 2026-07-29: asked from the holding hand (j3+n8)                 # the catch: Peter lifted clear, Jesus on the surface, open sea (no shore)
 S9 = "s9-fix.jpeg"                  # side view: both walk left->right back TOWARD the boat, on the water
 S10 = "s10-calm-sea.jpeg"           # wide calm moonlit sea, the boat at rest (boat/crew lock)
-S11 = "s11-worship.jpeg"            # v3 face-shown: Jesus among the kneeling, worshipping disciples
+S11 = "s11-worship.jpeg"
+S11B = "s11b-soaked-and-shaking.jpeg" # coverage 2026-07-29: the soaked men kneeling (n10)            # v3 face-shown: Jesus among the kneeling, worshipping disciples
 S12 = "s12-worship.jpeg"            # v3 face-shown: closing worship, Jesus at the boat's center
 
 TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
@@ -78,11 +85,13 @@ SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 
 # BEATS: (segment_name, still, zoom_dir). Zoom alternates in/out on a shared still.
 BEATS = [
-    ("n0", S1, "in"),
+    ("n0", S1B, "in"),
+    ("n0b", S1, "in"),
     ("n1", S2, "in"),
+    ("n1b", S2B, "in"),
     ("n2", S3, "in"),
-    ("j1", S3, "in"),
-    ("n3", S4, "in"),
+    ("j1", S3B, "in"),
+    ("n3", S4B, "in"),
     ("s28", S4, "out"),
     ("j2", S4, "in"),
     ("n4", S4, "out"),
@@ -91,12 +100,12 @@ BEATS = [
     ("n5b", SINK, "out"),
     ("s30", SINK, "in"),
     ("n6", S8, "in"),
-    ("n7", S8, "out"),
-    ("j3", S8, "in"),
-    ("n8", S8, "out"),
+    ("n7", S8B, "out"),
+    ("j3", S8C, "in"),
+    ("n8", S8C, "out"),
     ("n9", S9, "in"),
     ("n9b", S10, "out"),
-    ("n10", S11, "in"),
+    ("n10", S11B, "in"),
     ("s33", S11, "out"),
     ("n10b", S12, "out"),
 ]

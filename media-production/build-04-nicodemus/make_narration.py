@@ -81,7 +81,10 @@ SEGMENTS = [
     # John 7:51
     ("s51", SCRIPTURE, "Doth our law judge any man, before it hear him, and know what he doeth?"),
     ("n10b", NARRATOR, "Does our law judge a man, he asked, before it hears him? It sounds mild. It wasn't. He was defending Jesus to the most powerful men in the nation — the very room he had everything to lose in. They turned on him for it. The man who once came at night was starting to speak in the light."),
-    ("n11", NARRATOR, "And then came the darkest day. Jesus was dead. His own apostles were hiding behind locked doors. And Nicodemus came — openly, in the daylight, when believing could no longer gain anyone anything — carrying a hundred pounds of myrrh and aloes for the burial. A hundred pounds. That was a quantity fit for royalty. The man who had crept to Jesus in the dark gave him a king's burial in the open."),
+    # coverage 2026-07-29: n11 split after sentence 3 (split_segment.py, approved mp3
+    # cut — never re-TTS'd) so the locked-doors still can hold the first half.
+    ("n11", NARRATOR, "And then came the darkest day. Jesus was dead. His own apostles were hiding behind locked doors."),
+    ("n11b", NARRATOR, "And Nicodemus came — openly, in the daylight, when believing could no longer gain anyone anything — carrying a hundred pounds of myrrh and aloes for the burial. A hundred pounds. That was a quantity fit for royalty. The man who had crept to Jesus in the dark gave him a king's burial in the open."),
     ("n12", NARRATOR, "Jesus never shamed the fear, and never shamed the night. He just answered the real question underneath — and let the courage grow on its own. Have you ever felt drawn toward something, and been afraid to let anyone else see it?"),
 ]
 

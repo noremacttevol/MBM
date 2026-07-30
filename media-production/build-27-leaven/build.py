@@ -41,6 +41,7 @@ ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "16",
        "-pix_fmt", "yuv420p", "-r", str(FPS), "-an"]
 
 S1 = "s1-takes-leaven.jpeg"
+S1B = "s1b-the-leaven-itself.jpeg"  # coverage split 2026-07-29: j1 + n2 (was a 31.6s hold on S1)
 S2 = "s2-three-measures.jpeg"
 S3 = "s3-hides-it-in.jpeg"
 S4 = "s4-covered-waiting.jpeg"
@@ -60,8 +61,8 @@ PEAK = "n6"   # the risen/transformed dough — music goes to silence around thi
 BEATS = [
     ("n1", S1, "in"),
     ("s33", S1, "out"),
-    ("j1", S1, "in"),
-    ("n2", S1, "out"),
+    ("j1", S1B, "in"),
+    ("n2", S1B, "out"),
     ("n3", S2, "in"),
     ("n4", S3, "in"),
     ("n5", S4, "in"),
