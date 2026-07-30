@@ -390,3 +390,101 @@ blocked by the other session's in-progress rebase — ALL beats_v2.py files for
 rows 50-62 exist ON DISK ONLY; whoever works next: commit them once the rebase
 lands. Step F QC for rows 50+ not yet started (no row-50+ stills generated yet;
 runner still clearing earlier rows).
+
+---
+
+## Session 6 — 2026-07-30 — CAMERON REJECTED THE V2 LOOK (Machine A / Dev)
+
+**Cameron's words: the pictures look horrible; the redo attempt wasted his day.
+This entry is the standing correction until a new pilot is approved.**
+
+- **REJECTED: all V2 stills generated through 2026-07-29 (~443 across 15 builds).**
+  Verified by eye on cloak s06, prodigal s06, zacchaeus s07 — same disease in each:
+  flat noon light on every frame, figures posed and static like extras waiting for
+  direction, Jesus looking into the camera, wide crowd-wallpaper of dozens of samey
+  AI faces (mushy at distance), and the ONE emotion each beat exists for (desperate /
+  rock-bottom / too-small-to-see) not landing on any face.
+- **Root cause is the shared recipe, not Flow variance:** STYLE-V2 says "cinematic /
+  depth of field" (words the model ignores) while the enforced FORCED-WIDE line
+  ("never a portrait, never a close-up") pushes every multi-figure beat into a wide
+  posed crowd; no per-beat light direction/time-of-day, no lens/DOF language, no
+  mid-action requirement, no "nobody looks at the camera" rule. Every prompt shares
+  the block, so every picture shares the failure.
+- **LAW until further notice: NO mass generation. No Flow credits on V2 stills until
+  Cameron approves a re-piloted strip from a rebuilt recipe.** Runner stays down.
+- Open fork for Cameron: fix the photoreal-film direction (real cinematography:
+  directional light, lenses, close-ups allowed, emotion-first) vs return toward the
+  painted look. His call; it rewrites STYLE-V2 either way.
+
+### Session 6 continued — CAMERON REVERSED FLOW-ONLY: THE API IS THE ENGINE (2026-07-30)
+
+**Cameron, same session, his words:** *"the first ones you did were good becasue we
+used and api key from gemini. i want to use that fro all 200 just so i get this done
+and over with faster."* This supersedes the 2026-07-29 FLOW-ONLY order AND this
+session's earlier "no generation until re-piloted recipe" line. The standing law now:
+
+1. **`v2_gen_api.py` is UN-RETIRED** — gemini-3-pro-image, native 2K, the engine for
+   all 200. Rebuilt with: hard `--ceiling` (refuses any image that would pass the
+   cap), cross-session spend meter `api-spend.jsonl`, `--all` row-order mode, and
+   automatic CAST-V2 reference attachment (front+quarter) whenever a beat's locks
+   name a library character. Paid runs REQUIRE --ceiling; --dry-run prices free.
+2. **Flow's only remaining job: character reference sheets.** `CAST-V2-REF/
+   gen_cast_v2.sh` generates the library — 15 recurring characters x 2 angles
+   (the Twelve + Mary mother + Mary Magdalene + John the Baptist), identities and
+   wardrobe colours carried over from V1 CAST-BIBLE, photoreal, 2K, Nano Banana Pro.
+   Sheets land in ~/Desktop/CAST-V2-APPROVAL for Cameron's approval; ONLY approved
+   sheets get used as API locks.
+3. **Curation-by-deletion replaces the blanket rejection of the 443.** All 443
+   existing V2 stills are copied to ~/Desktop/V2-PICTURE-REVIEW named
+   `<row-slug>__<shot>.jpeg`. Cameron deletes the bad ones; `v2_review_diff.py
+   --apply` moves those originals to `_replaced/` and the API runner re-shoots
+   exactly that set. Nothing is destroyed.
+4. **Money, measured tonight:** 119 beat maps authored → 3,267 pictures spec'd →
+   2,801 still to generate = **$375.33** at $0.134/image. Remaining ~81 rows to
+   author at the same density ≈ $300 more. Replacements + rerolls ≈ $100-190.
+   **Realistic all-in ≈ $800.** Credits are DEPLETED since row 2 — Cameron must top
+   up Google AI Studio billing before any paid run; the first paid batch re-verifies
+   $0.134 against the real bill.
+
+---
+
+## 🛑 RESOLUTION AUDIT — 2026-07-30, Machine A (`Dev`): 159 of 424 pictures were 1K
+
+Cameron asked what had actually been made this session. Counting it turned up a defect
+nobody had looked for.
+
+| resolution | count |
+|---|---|
+| 1536x2752 (2K, correct) | 265 |
+| **768x1376 (1K — BELOW the 1080x1920 delivery size)** | **159 (37%)** |
+
+**Affected stories:** `10-well` 32/32 · `11-storm` 32/32 · `12-bartimaeus` 35/35 ·
+`13-roof` 43/43 · `14-ten-lepers` 14/31 · `05-bent-woman` 3/37. Rows 10-13 are
+*entirely* 1K, which means Flow's upscaler was down for a long unbroken window and
+every picture generated in it took the fallback.
+
+**Cause, and why it went unnoticed.** `flow_driver.cmd_gen` catches `UpscaleFailed`,
+takes the 1K original rather than losing the picture, and writes a `.size` marker
+beside it so that — in its own words — *"a later pass can find every still that is not
+at the intended size and re-pull it."* The fallback is the right call. **The later pass
+was never written.** 158 markers accumulated and nothing ever read one, while both
+`v2_prompt.gen()` and `v2_run_all` counted any file over 50 KB as DONE. So the library
+quietly filled with pictures that will upscale on every Ken Burns move — the exact
+thing the anti-shimmer law and Cameron's "same quality from Flow" order exist to stop.
+
+**Fix (commit 4c3b11a45): a sub-2K still now counts as MISSING, not done.** Both the
+single-row generator and the all-rows runner re-pull it on every lap until it comes
+back at 2K, so the library self-heals with no list to maintain. The detector reads the
+JPEG SOF header directly (no Pillow dependency), also honours a `.size` marker, and
+was verified against Pillow on all 424 files — 424 agreements, 0 disagreements.
+
+**Second failure, worth recording:** `v2_run_all` died at 2026-07-29 16:05 and nothing
+restarted it, so Flow sat idle for ~9 hours. The runner was built to stop the browser
+ever idling and then failed on exactly that, because it had no supervisor. A restarting
+wrapper is the obvious next fix.
+
+**Pictures generated this session by processes this machine started: 224.** Row 2 (22
+Flow gens over two QC passes), row 3 zacchaeus (26), and 178 via the runner as other
+sessions authored rows 4-11. The 3 Gemini API calls at the start saved nothing — all
+failed on depleted credits, which is what led to the FLOW-ONLY law.
+
