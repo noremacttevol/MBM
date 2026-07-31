@@ -17,12 +17,11 @@ They are written into the beats below because prose did not hold them last time:
        · b01-b04 (the shore, before they sail) are LAST LIGHT — the sun already
          gone, the west going out. That much evening is correct and is what the
          narration asks for ("until the light was going").
-       · FROM b05 TO THE LAST FRAME IT IS NIGHT. Broken moon behind torn cloud,
-         cold stars in the gaps, lightning on the far hills, one lamp in the
-         boat. There is NO sunset band, NO sunrise, NO warm horizon, and NO
+       · FROM b05 TO THE LAST FRAME IT IS NIGHT. The crossing, storm, and
+         post-command calm have separate locks so violent waves and lightning
+         can never leak into the "great calm." There are no boat lamps or glass
+         lanterns. There is NO sunset band, NO sunrise, NO warm horizon, and NO
          golden light on the water anywhere from b05 onward.
-     The SEA-STORM-NIGHT lock states this positively rather than as a negation,
-     because negations do not hold (row 2's PHARISEES lesson).
 
   2. ACTION-LOGIC LAW (Cameron — storm V1 rejected). The first build had
      fishermen who appeared to pour water INTO their own boat, and a rope that
@@ -79,8 +78,26 @@ LOCKS = {
         "lightning flickering blue-white over the black hills that ring the lake. The "
         "water is deep blue-black, running in steep breaking waves with white foam "
         "torn off the tops, and cold spray fills the air. Every colour in the frame is "
-        "cold — silver, black, blue-black, storm-grey and foam white. There is no warm "
-        "light anywhere except one small orange lamp in the boat."
+        "cold — silver, black, blue-black, storm-grey and foam white. Lighting comes "
+        "only from the moon and distant lightning. There is no lamp, lantern, glass, "
+        "fire, orange light, sunset band, sunrise, or warm horizon."
+    ),
+    "SEA-CROSSING-NIGHT": (
+        "SEA-CROSSING-NIGHT LOCK: the Sea of Galilee at NIGHT before the squall. The "
+        "water is dark blue-black and only moderately choppy, the far hills are a low "
+        "black line, and cold moonlight and stars reflect in broken silver strips. "
+        "The sail is fully furled and the men row with the oars outside the hull. "
+        "There is no storm yet: no lightning, breaking wave, heavy rain or panic. "
+        "There is also no lamp, lantern, glass, fire, orange light, sunset or sunrise."
+    ),
+    "SEA-CALM-NIGHT": (
+        "SEA-CALM-NIGHT LOCK: the same Sea of Galilee at NIGHT after Jesus has spoken. "
+        "The storm is completely over. The water is perfectly mirror-flat right to "
+        "the hull, the sail and every loose cloth hang slack, ropes hang straight, "
+        "and stars and moonlight reflect unbroken in the water. Soaked clothing, "
+        "puddles and dripping rope are the only remnants of the squall. There are "
+        "absolutely no waves, spray, wind, rain, lightning, storm action, lamp, "
+        "lantern, glass, fire, orange light, sunset or sunrise."
     ),
     "BOAT": (
         "BOAT LOCK: one open first-century Galilean fishing boat about eight paces "
@@ -89,10 +106,9 @@ LOCKS = {
         "sail hauled down and lashed, long oars through leather-strapped tholes along "
         "both sides, coiled rope, folded nets, wooden bailing scoops and a stone "
         "anchor stowed on the deck timbers, a raised steering platform in the stern "
-        "with a leather-covered steersman's cushion on it, and one small clay oil lamp "
-        "in a shelter at the bow. Every rope in the boat runs to the mast or to the "
-        "rigging inside the hull. The deck planking is always visible under the men's "
-        "feet."
+        "with a leather-covered steersman's cushion on it. Every rope in the boat runs "
+        "to the mast or to the rigging inside the hull. The deck planking is always "
+        "visible under the men's feet. No lamp, lantern or glass lighting is aboard."
     ),
     "DISCIPLES": (
         "DISCIPLES LOCK: the other men in the boat are the same seven or eight "
@@ -186,15 +202,15 @@ BEATS = [
     {
         "id": "v2-r011-b05", "out": "s05-other-little-boats.jpeg", "seg": "n1 p2",
         "window": "27.42-29.75", "wide": True, "jesus": False, "ref": False,
-        "locks": ["BOAT", "SEA-STORM-NIGHT"],
+        "locks": ["BOAT", "SEA-CROSSING-NIGHT"],
         "narration": "Other little boats followed them out.",
         "must_show": "SCRIPTURE DETAIL almost every telling drops (v36): two or three other small boats out on the dark water behind theirs, following.",
         "must_not_show": "NIGHT BEGINS HERE — no sunset band, no warm horizon, no golden water from this frame on. Do not put Jesus in this frame.",
         "scene": (
             "Out on the open lake at night. The fishing boat pulls away from the "
             "shore under a black sky, and behind it two or three other small boats "
-            "follow, strung out across the dark water, each with a tiny point of lamp "
-            "light and the pale flicker of oars. The water is still only choppy. Cold "
+            "follow, strung out across the dark water, each outlined by moonlight with "
+            "the pale flicker of oars. The water is still only choppy. Cold "
             "moonlight comes through breaks in the moving cloud and lays silver on the "
             "swell; there is no warm colour anywhere. The camera is back far enough to "
             "hold all the boats. Every figure has two arms, two hands and one head."
@@ -204,7 +220,7 @@ BEATS = [
     {
         "id": "v2-r011-b06", "out": "s06-men-at-the-oars.jpeg", "seg": "n1b p1",
         "window": "30.36-36.02", "wide": True, "jesus": False, "ref": False,
-        "locks": ["PETER", "DISCIPLES", "BOAT", "SEA-STORM-NIGHT"],
+        "locks": ["PETER", "DISCIPLES", "BOAT", "SEA-CROSSING-NIGHT"],
         "narration": ("And here is something worth knowing about the men at the oars: "
                       "at least four of them were professional fishermen."),
         "must_show": "ACTION-LOGIC: men rowing properly — oar blades biting the water OUTSIDE the hull, both hands on each loom, feet braced on the deck, easy practised rhythm.",
@@ -214,8 +230,8 @@ BEATS = [
             "rhythm — each with both hands closed on the loom, shoulders rolling back "
             "into the stroke, feet braced against the deck timbers, the blades dipping "
             "and biting the black water outside the hull and lifting again together. "
-            "Peter is nearest, pulling steadily. Nobody is straining. The small bow "
-            "lamp throws warm light up into their faces against the cold night. The "
+            "Peter is nearest, pulling steadily. Nobody is straining. Cold moonlight "
+            "reflecting off the water reveals their faces against the night. The "
             "camera is back far enough to see the men and the oars. Every figure has "
             "two arms, two hands and one head."
         ),
@@ -223,14 +239,14 @@ BEATS = [
     {
         "id": "v2-r011-b07", "out": "s07-peter-andrew-james-john.jpeg", "seg": "n1b p2",
         "window": "36.02-40.88", "wide": True, "jesus": False, "ref": False,
-        "locks": ["PETER", "ANDREW", "JOHN", "JAMES-Z", "BOAT", "SEA-STORM-NIGHT"],
+        "locks": ["PETER", "ANDREW", "JOHN", "JAMES-Z", "BOAT", "SEA-CROSSING-NIGHT"],
         "narration": ("Peter and his brother Andrew, and James and John, the sons of "
                       "Zebedee."),
         "must_show": "the four named men together and individually readable — Peter and Andrew on one side, James and John on the other, all four at the oars.",
         "must_not_show": "do not put Jesus in this frame; all four faces must be visible and distinct, since the narration names them.",
         "scene": (
             "The four fishermen at the oars, framed so each face is clearly readable "
-            "in the lamplight — Peter and Andrew pulling together on one side of the "
+            "in reflected moonlight — Peter and Andrew pulling together on one side of the "
             "boat, James and John opposite them on the other, all four leaning into "
             "the stroke in time. Their tunics are already dark with spray. The mast "
             "and the lashed sail stand between them and the black sky. The camera is "
@@ -241,13 +257,13 @@ BEATS = [
     {
         "id": "v2-r011-b08", "out": "s08-this-lake-was-their-workplace.jpeg", "seg": "n1b p3-p5",
         "window": "40.88-48.00", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER", "ANDREW", "BOAT", "SEA-STORM-NIGHT"],
+        "locks": ["PETER", "ANDREW", "BOAT", "SEA-CROSSING-NIGHT"],
         "narration": ("This lake was their workplace. They had crossed it at night "
                       "their whole lives. Nothing about dark water scared them."),
         "must_show": "unbothered competence — one man talking over his shoulder mid-stroke, another half smiling, completely at home on black water at night.",
         "must_not_show": "no fear or tension anywhere in this frame — it exists purely so the next one lands. Do not put Jesus in it.",
         "scene": (
-            "Close on Peter and Andrew at the oars in the lamplight. Peter has turned "
+            "Close on Peter and Andrew at the oars in the moonlight. Peter has turned "
             "his head to say something back over his shoulder mid-stroke, entirely "
             "unbothered, and Andrew is answering with the beginning of a grin, both "
             "still pulling without looking at what their hands are doing. Their faces "
@@ -330,8 +346,8 @@ BEATS = [
             "across the deck timbers well up the men's shins, sloshing against the "
             "ribs of the boat with each roll, and a coil of rope and a folded net are "
             "lifting and turning in it. A wooden bailing scoop floats past on its side. "
-            "The planking is barely visible under the water. The small bow lamp throws "
-            "broken orange light across the moving surface inside the boat against the "
+            "The planking is barely visible under the water. Cold moonlight and "
+            "distant lightning reveal the moving surface inside the boat against the "
             "black night beyond the rail."
         ),
     },
@@ -443,8 +459,8 @@ BEATS = [
         "must_not_show": "do not put Jesus in this frame; the look must be wounded as well as frightened — that is the narration's whole point.",
         "scene": (
             "Inside the swamped boat, the men have all turned back toward the stern at "
-            "once. Four or five soaked faces are lit from below by the guttering bow "
-            "lamp, all fixed on the same spot out of frame — mouths open, eyes wide, "
+            "once. Four or five soaked faces are caught by cold moonlight and distant "
+            "lightning, all fixed on the same spot out of frame — mouths open, eyes wide, "
             "and in every face something more than fear: the hurt of people who "
             "believe they have been left. One has both hands out, palms up, "
             "questioning. Water sloshes over the deck around their legs. Night, spray, "
@@ -511,7 +527,7 @@ BEATS = [
     {
         "id": "v2-r011-b22", "out": "s22-the-wind-quit.jpeg", "seg": "n6 p1",
         "window": "121.59-122.55", "wide": True, "jesus": False, "ref": False,
-        "locks": ["BOAT", "SEA-STORM-NIGHT"],
+        "locks": ["BOAT", "SEA-CALM-NIGHT"],
         "narration": "And the wind quit.",
         "must_show": "the instant of stopping caught mid-air — the last wave collapsing with nothing holding it up, spray still hanging, the sail's lashings gone slack.",
         "must_not_show": "not still stormy and not yet calm — this frame is the exact hinge; do not put Jesus in it.",
@@ -528,7 +544,7 @@ BEATS = [
     {
         "id": "v2-r011-b23", "out": "s23-glass-flat-under-stars.jpeg", "seg": "n6 p2",
         "window": "122.55-131.07", "wide": True, "jesus": False, "ref": False,
-        "locks": ["BOAT", "SEA-STORM-NIGHT"],
+        "locks": ["BOAT", "SEA-CALM-NIGHT"],
         "narration": ("The sea fell flat — glass flat — with stars where the storm had "
                       "been, and the only sound left was water dripping off the ropes."),
         "must_show": "DEAD FLAT BLACK WATER under a sky full of stars, the boat motionless, and water still dripping off the slack rigging.",
@@ -540,14 +556,14 @@ BEATS = [
             "stars, every one of them reflected unbroken below, so the boat sits "
             "motionless between two skies. Water still runs and drips from the slack "
             "ropes and the lashed sail, each drop making one small ring in the "
-            "mirror. The bow lamp lays one long unwavering line of orange down the "
-            "water. There is no light at all on the horizon."
+            "mirror. Moonlight lays one long unwavering silver line down the water. "
+            "There is no light at all on the horizon."
         ),
     },
     {
         "id": "v2-r011-b24", "out": "s24-it-obeyed.jpeg", "seg": "n6 p3-p6",
         "window": "131.07-140.25", "wide": True, "jesus": False, "ref": False,
-        "locks": ["BOAT", "SEA-STORM-NIGHT"],
+        "locks": ["BOAT", "SEA-CALM-NIGHT"],
         "narration": ("Sailors will tell you the waves keep rolling for hours after a "
                       "wind dies. These didn't. The lake did not calm down. It obeyed."),
         "must_show": "the water RIGHT AT THE HULL — no swell at all, not even a residual roll; the waterline against the planks perfectly still, as if painted.",
@@ -559,15 +575,14 @@ BEATS = [
             "waterline sitting as still and hard-edged as if it had been painted on. "
             "Stars are reflected perfectly in the black glass right up to the planks. "
             "A single drop falls from the rail above and its rings spread out across "
-            "an otherwise flawless mirror. Cold starlight, and one warm edge of "
-            "lamplight lying along the wet wood."
+            "an otherwise flawless mirror. Cold starlight lies along the wet wood."
         ),
     },
     # -------------------------------------------- n7 / j2 — he turned to them ----
     {
         "id": "v2-r011-b25", "out": "s25-he-turned-to-his-friends.jpeg", "seg": "n7",
         "window": "140.87-147.93", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["PETER", "DISCIPLES", "BOAT", "SEA-STORM-NIGHT"],
+        "locks": ["PETER", "DISCIPLES", "BOAT", "SEA-CALM-NIGHT"],
         "narration": ("Then he turned to his friends — soaked, shaking, still gripping "
                       "the ropes — and he asked them, gently:"),
         "must_show": "he turns back from the sea to face the men, who are still braced and gripping ropes and rails for a storm that has already stopped.",
@@ -586,7 +601,7 @@ BEATS = [
     {
         "id": "v2-r011-b26", "out": "s26-why-are-ye-so-fearful.jpeg", "seg": "j2",
         "window": "148.62-151.64", "wide": False, "jesus": True, "ref": REF,
-        "locks": ["SEA-STORM-NIGHT"],
+        "locks": ["SEA-CALM-NIGHT"],
         "narration": ("Why are ye so fearful? how is it that ye have no faith? "
                       "(Mark 4:40)"),
         "must_show": "⚠️ THE NARRATION SAYS HE ASKED IT GENTLY. Close on Jesus asking — warm, puzzled, genuinely questioning, no rebuke anywhere in the face.",
@@ -604,7 +619,7 @@ BEATS = [
     {
         "id": "v2-r011-b27", "out": "s27-standing-in-their-boat.jpeg", "seg": "n8 p1-p2",
         "window": "152.62-157.80", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["DISCIPLES", "BOAT", "SEA-STORM-NIGHT"],
+        "locks": ["DISCIPLES", "BOAT", "SEA-CALM-NIGHT"],
         "narration": ("Hear where he asked that from. Standing in their boat, on the "
                       "sea he had just flattened to save them."),
         "must_show": "him standing IN the swamped boat with them — water still over the deck around everyone's feet, the flat sea he just stilled all around.",
@@ -622,7 +637,7 @@ BEATS = [
     {
         "id": "v2-r011-b28", "out": "s28-he-came-through-it-with-them.jpeg", "seg": "n8 p3-p4",
         "window": "157.80-165.01", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["BOAT", "SEA-STORM-NIGHT"],
+        "locks": ["BOAT", "SEA-CALM-NIGHT"],
         "narration": ("He didn't ask it from the shore. He came through the storm with "
                       "them — and then he asked why the fear had gotten so much bigger "
                       "than their trust."),
@@ -631,7 +646,7 @@ BEATS = [
         "scene": (
             "A very wide night view from well back and a little above. The single "
             "fishing boat sits alone far out in the middle of an enormous flat black "
-            "lake, its one small lamp burning straight, the men inside it only small "
+            "lake, its wet hull outlined by moonlight, the men inside it only small "
             "shapes. The black hills that ring the water stand a long way off on every "
             "side with no light on them at all. The whole sky of hard cold stars "
             "stands above and is reflected below. There is nothing else anywhere. "
@@ -641,7 +656,7 @@ BEATS = [
     {
         "id": "v2-r011-b29", "out": "s29-bigger-than-it.jpeg", "seg": "n8 p5-p7",
         "window": "165.01-171.29", "wide": False, "jesus": True, "ref": REF,
-        "locks": ["PETER", "SEA-STORM-NIGHT"],
+        "locks": ["PETER", "SEA-CALM-NIGHT"],
         "narration": ("He never said the storm wasn't real. He never scolded them for "
                       "waking them. He was simply bigger than it."),
         "must_show": "Jesus's hand come to rest on Peter's shoulder — the storm acknowledged, the man not corrected; steadiness rather than reproach.",
@@ -660,7 +675,7 @@ BEATS = [
     {
         "id": "v2-r011-b30", "out": "s30-it-changed-direction.jpeg", "seg": "n9 p1",
         "window": "171.94-176.85", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER", "JOHN", "SEA-STORM-NIGHT"],
+        "locks": ["PETER", "JOHN", "SEA-CALM-NIGHT"],
         "narration": ("And then a strange thing happened: the fear didn't leave the "
                       "boat — it changed direction."),
         "must_show": "the faces changing — the terror of the storm becoming something else entirely: awe, and a new and different fear, aimed at the man in the boat.",
@@ -679,7 +694,7 @@ BEATS = [
     {
         "id": "v2-r011-b31", "out": "s31-they-asked-each-other.jpeg", "seg": "n9 p2",
         "window": "177.45-184.10", "wide": True, "jesus": False, "ref": False,
-        "locks": ["PETER", "ANDREW", "JOHN", "DISCIPLES", "BOAT", "SEA-STORM-NIGHT"],
+        "locks": ["PETER", "ANDREW", "JOHN", "DISCIPLES", "BOAT", "SEA-CALM-NIGHT"],
         "narration": ("Mark says they feared exceedingly — more awe after the calm than "
                       "in the storm — and they asked each other:"),
         "must_show": "the men turned to EACH OTHER rather than to him — heads together, low urgent talk, glancing back over their shoulders at the stern.",
@@ -690,7 +705,7 @@ BEATS = [
             "with their hands moving. Two of them are glancing back over their "
             "shoulders toward the stern out of frame as they speak. Nobody is looking "
             "at anybody else's face for long. The water lies dead flat and starlit "
-            "beyond the gunwale and the bow lamp lights them from below. The camera is "
+            "beyond the gunwale and moonlight catches their wet faces. The camera is "
             "back far enough to hold the group inside the hull. Every figure has two "
             "arms, two hands and one head."
         ),
@@ -698,13 +713,13 @@ BEATS = [
     {
         "id": "v2-r011-b32", "out": "s32-what-manner-of-man.jpeg", "seg": "s41",
         "window": "184.78-188.59", "wide": False, "jesus": False, "ref": False,
-        "locks": ["ANDREW", "SEA-STORM-NIGHT"],
+        "locks": ["ANDREW", "SEA-CALM-NIGHT"],
         "narration": ("What manner of man is this, that even the wind and the sea obey "
                       "him? (Mark 4:41)"),
         "must_show": "close on one man saying it to the others — the question genuinely open, spoken low, nobody with an answer.",
         "must_not_show": "no triumph or celebration in the face; do not put Jesus in this frame.",
         "scene": (
-            "Close on Andrew's face in the lamplight, turned toward the men beside "
+            "Close on Andrew's face in the moonlight, turned toward the men beside "
             "him, speaking low. His soaked hair is flat to his head, his eyes are wide "
             "and searching and moving from one face to another, and his mouth is "
             "mid-question. There is no answer in his expression and none in the "
@@ -716,7 +731,7 @@ BEATS = [
     {
         "id": "v2-r011-b33", "out": "s33-they-knew-the-psalm.jpeg", "seg": "n9b p1-p2",
         "window": "189.74-195.29", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER", "SEA-STORM-NIGHT"],
+        "locks": ["PETER", "SEA-CALM-NIGHT"],
         "narration": ("These men knew their scriptures. They knew the old psalm that "
                       "says it is God who stills the storm to a whisper."),
         "must_show": "the recognition arriving — a face going slowly slack as an old remembered line lines up with what he has just watched happen.",
@@ -733,7 +748,7 @@ BEATS = [
     {
         "id": "v2-r011-b34", "out": "s34-a-man-in-dripping-clothes.jpeg", "seg": "n9b p3",
         "window": "195.29-199.45", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["PETER", "DISCIPLES", "BOAT", "SEA-STORM-NIGHT"],
+        "locks": ["PETER", "DISCIPLES", "BOAT", "SEA-CALM-NIGHT"],
         "narration": ("And now they were staring at a man in dripping clothes who had "
                       "just done it."),
         "must_show": "the closing frame: every man in the boat staring at Jesus — and Jesus completely ordinary, soaked, dishevelled, wringing water out of his sleeve, entirely unremarkable.",

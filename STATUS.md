@@ -18,6 +18,7 @@ reverent standard Cameron approved on 2026-07-30.
 | # | Story | V2 state | Reviewer candidate |
 |---|-------|----------|--------------------|
 | 07 | Peter Walks on Water (Matthew 14) | **V6 awaiting Cameron** 🟡 — all seven glass/artificial boat lamps removed; moonlight only; complete authoritative Alexander audio remains packet-identical | [▶ Peter V6](media-production-v2/codex-test-07-peter-water/video-build/peter-walks-on-water-codex-test-v6.mp4) |
+| 11 | Calming the Storm (Mark 4) | **V2 awaiting Cameron** 🟡 — 34 realistic pictures; launch and other little boats restored; bailing direction and mast action checked; post-command sea remains calm; complete authoritative audio remains packet-identical | [▶ Storm V2](media-production-v2/build-11-storm/mark-4_calming-the-storm.mp4) |
 
 New V2 cuts are published to the Firebase reviewer at
 `https://milk-b4-meat.web.app/review.html`. That board shows only this new visual

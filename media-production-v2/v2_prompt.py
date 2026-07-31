@@ -108,10 +108,12 @@ JESUS_LOCK_V5 = (
     "mantle and cloth sash (only he wears cream), leather sandals. No halo, no glow, "
     "no rim-light, no light coming off him. Never Caucasian, never pale, never "
     "blue-eyed, never blond. "
-    "HE IS ALWAYS COMPLETELY DRY unless the scripture has actually put him in water: "
-    "his robe, hair and beard are dry, and there are NO water droplets, drips, "
-    "streams, runnels or wet strands anywhere on him. When he walks on water he is on "
-    "TOP of it and therefore not wet at all."
+    "HE IS DRY unless the narrated physical conditions actually wet him — rain, "
+    "spray, immersion, washing, or another explicit water contact. In a dry scene his "
+    "robe, hair and beard have no water droplets, drips, streams, runnels or wet "
+    "strands. When he walks on water he is on TOP of it and therefore not wet; when "
+    "he rides inside a boat through a breaking-wave storm, the spray correctly soaks "
+    "him."
 )
 
 JESUS_LOCK_V4 = (
