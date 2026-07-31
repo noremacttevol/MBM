@@ -36,6 +36,7 @@ V1 = os.path.join(ROOT, "media-production")
 # Dup-numbered rows: the one build folder that is canonical for that row.
 # Mirrors media-production/corpus.py CANONICAL_BUILD_SLUGS.
 CANONICAL_BUILD_SLUGS = {
+    44: "two-debtors",
     65: "help-mine-unbelief",
     67: "the-transfiguration",
     86: "the-wise-men",

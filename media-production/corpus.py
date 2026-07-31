@@ -31,6 +31,7 @@ FINAL_MP4_RE = re.compile(r"^[0-9a-z]+(?:-[0-9a-z]+)*-\d+_.+\.mp4$")
 # Rows with two root-level folders.  The other folder is historical and must never
 # be selected by QC, re-voice, rebuild, or publish tooling.
 CANONICAL_BUILD_SLUGS: dict[int, str] = {
+    44: "two-debtors",
     65: "help-mine-unbelief",
     67: "the-transfiguration",
     86: "the-wise-men",
@@ -131,7 +132,7 @@ def canonical_builds(media_root: str) -> dict[int, str]:
 
 def transcript_paths(media_root: str) -> dict[int, str]:
     """Return row -> canonical transcript JSON path."""
-    paths: dict[int, str] = {}
+    grouped: dict[int, list[str]] = {}
     pattern = os.path.join(media_root, "TRANSCRIPTS", "[0-9][0-9][0-9]-*.json")
     for path in sorted(glob.glob(pattern)):
         try:
@@ -139,12 +140,27 @@ def transcript_paths(media_root: str) -> dict[int, str]:
             row = int(data["row"])
         except (OSError, ValueError, KeyError, TypeError, json.JSONDecodeError) as exc:
             raise RuntimeError(f"cannot read transcript {path}: {exc}") from exc
-        if row in paths:
+        grouped.setdefault(row, []).append(path)
+
+    paths: dict[int, str] = {}
+    for row, candidates in grouped.items():
+        wanted = CANONICAL_BUILD_SLUGS.get(row)
+        if wanted:
+            exact = [
+                path for path in candidates
+                if re.sub(r"^\d+-", "", os.path.splitext(os.path.basename(path))[0])
+                == wanted
+            ]
+            if len(exact) == 1:
+                paths[row] = exact[0]
+                continue
+        if len(candidates) == 1:
+            paths[row] = candidates[0]
+        else:
             raise RuntimeError(
                 f"row {row}: duplicate transcript JSON files "
-                f"{os.path.basename(paths[row])}, {os.path.basename(path)}"
+                + ", ".join(os.path.basename(path) for path in candidates)
             )
-        paths[row] = path
     return paths
 
 

@@ -25,9 +25,9 @@ Hard rejections during this test included the original hull-intersection frame,
 a posed first walking attempt, two return shots that read as ankle-deep wading,
 and one return shot where Jesus looked toward the camera.
 
-## Rendered-video review
+## V5 rendered-video review
 
-All 24 rendered picture slots and the closing card were extracted after the
+All 26 rendered picture slots and the closing card were extracted after the
 final crop, Ken Burns motion, and caption burn-in. They passed:
 
 - story/shot correspondence
@@ -37,17 +37,24 @@ final crop, Ken Burns motion, and caption burn-in. They passed:
 - deep-water walking versus wading
 - caption placement, wrapping, speaker colour, and legibility
 - closing-card wrapping and safe margins
+- Peter's complete request is present and captioned before Jesus says “Come”
 
 ## Technical verification
 
-- Project MP4 verifier: passed
 - Full video/audio decode: passed
 - Resolution: 1080×1920
 - Frame rate: 30 fps
 - Video/audio codecs: H.264/AAC
-- Runtime: 212.633 seconds
-- File size: 18,806,180 bytes
+- Runtime: 225.167 seconds
+- File size: 19,092,099 bytes
 - Silence longer than 2.5 seconds: none
-- All 44 narration and timing files: byte-for-byte identical to Story 07
-- SHA-256:
-  `252874b632bb01db9a42e7c277ddbdbc422d71ba077863791e432537d240ccb2`
+- V1 audio-stream SHA-256:
+  `7602933755c1b8716ca3a2614565674a635c3d3766bacba56021976a6908b2bd`
+- V5 audio-stream SHA-256:
+  `7602933755c1b8716ca3a2614565674a635c3d3766bacba56021976a6908b2bd`
+- V5 file SHA-256:
+  `1fdf4caa578ac7df23cf6a225821ee2b8de8560333e1d3572d23ac0774fe2c3e`
+
+The matching audio-stream hashes prove the delivered V5 contains the exact
+authoritative final audio packets. No voice, word, pause, gain, or encoding was
+changed by the visual rebuild.

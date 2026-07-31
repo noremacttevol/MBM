@@ -20,6 +20,7 @@ import pathlib
 import sys
 
 V2 = pathlib.Path(__file__).resolve().parent
+REVIEW_LESSONS = V2 / "REVIEW-LESSONS.json"
 
 
 def find_build(arg: str) -> pathlib.Path:
@@ -41,6 +42,12 @@ def main() -> int:
 
     print(f"row {data['row']}  {data['slug']}")
     print(f"constants: {data['constants']}")
+    if REVIEW_LESSONS.is_file():
+        lessons = json.loads(REVIEW_LESSONS.read_text())
+        lesson = lessons.get(str(data["row"]))
+        if lesson:
+            state = "OPEN — MUST BE FIXED" if lesson["open"] else "RESOLVED — DO NOT REGRESS"
+            print(f"prior reviewer lesson [{state}]: {lesson['latest']}")
     total = 0.0
     n_phrases = 0
     for b in data["beats"]:

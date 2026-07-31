@@ -181,11 +181,23 @@ They are rules. Build toward them; do not walk them back.
 
 - **Do not change the mobile app while doing this rebuild.** The app is good; this
   work is reviewer-only content production until Cameron approves a cut.
-- The existing stories, chosen voices, narration, music, timing, and captions are
-  already good and stay locked unless Cameron reports a specific problem. The
-  current job is a full visual rebuild of the story pictures.
-- The benchmark is the Cameron-approved Peter Walks on Water V4 at
-  `media-production-v2/codex-test-07-peter-water/video-build/peter-walks-on-water-codex-test-v4.mp4`.
+- The existing stories, narration, music, timing, and captions are already good
+  and stay locked unless Cameron reports a specific problem. The current job is a
+  full visual rebuild of the story pictures.
+- Reuse the authoritative existing ElevenLabs audio in `media-production/build-*`
+  read-only. Cameron's locked cast is Brian (narrator), Alexander (Jesus), Bill
+  (God), Roger (scripture), and Matilda (woman). Never regenerate, substitute, or
+  silently re-time these voices during a picture rebuild. Verify the audio in the
+  final rendered MP4, not merely the source clips.
+- **Audio immutability means the final encoded stream, not a remembered script or
+  a copied folder.** `v2_assemble.py` must stream-copy audio from the authoritative
+  V1 final and fail unless the V1 and V2 encoded-audio hashes match. Never rebuild
+  a V2 audio mix from clips.
+- Peter Walks on Water V4 proved the realistic visual direction, but it is
+  **rejected as a finished video** because its special test folder contained a
+  shortened audio copy. V5 restores the complete authoritative audio and is the
+  current reviewer candidate; it does not become the benchmark until Cameron
+  approves that exact cut.
 - Use realistic, high-quality, reverent biblical imagery—not the former cartoon-like
   treatment. Keep the approved V2 Jesus and recurring-cast references locked across
   every story. Jesus has the approved green-eyed V2 appearance; do not redesign him
@@ -197,6 +209,9 @@ They are rules. Build toward them; do not walk them back.
   AI artifact before assembly.
 - QC the generated source images and the actual rendered video frames. A prompt
   sounding correct is not proof that the picture or final video is correct.
+- Read `media-production-v2/V2-REBUILD-RUBRIC.md` and the row's entry in
+  `media-production-v2/REVIEW-LESSONS.json` before authoring pictures. These retain
+  Cameron's earlier complaints so the same defect is not handed back to him.
 - New cuts go to `site/review.html`, which is the version-locked review board for
   this wave. Its states are **Unwatched**, **Approved**, and **Complained About**.
   A complaint remains open through replacement cuts until Cameron approves the

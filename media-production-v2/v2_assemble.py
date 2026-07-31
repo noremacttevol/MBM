@@ -8,8 +8,10 @@ Reuses the V1 build's proven machinery instead of reinventing it:
   - The V1 build folder's own mbm_caption_timing.caption_filter draws the
     captions (same fonts, colours, band, SPEAKER-LAW) — imported via sys.path,
     never copied, never modified.
-  - The V1 audio files are used read-only through a symlink; nothing is ever
+  - Captions are timed from the V1 audio files read-only; nothing is ever
     written into the V1 folder (V2-KICKOFF hard protection #1).
+  - The finished V1 MP4's AAC stream is copied packet-for-packet into V2.
+    V2 never regenerates, re-times, mixes, gains, shortens, or re-encodes audio.
 
 What is new: the video track. V1 shows ONE still per narration segment; V2
 shows SEVERAL (the beats_v2.py windows). Each V2 beat becomes a supersampled
@@ -18,8 +20,8 @@ to the next beat's start, chunks are concatenated, and then every segment's
 caption filter is applied over the full track with its enable= times shifted
 from segment-local to global (between(t,..) -> between(t-SEG_START,..)).
 
-Card, audio placement, dead-air check, loudness law (-15 LUFS) and the crf
-step-up size ladder are V1's, verbatim.
+The closing card and visual duration follow V1. The final audio hash must equal
+V1 exactly or the build fails.
 
 Usage:  python3 media-production-v2/v2_assemble.py 7
 Output: <v2-build-dir>/<v1-mp4-name>  (e.g. matthew-14_peter-walks-on-water.mp4)
@@ -50,6 +52,23 @@ ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "16",
 def run(cmd):
     print(">>", " ".join(str(c) for c in cmd)[:160], flush=True)
     subprocess.run(cmd, check=True, capture_output=True)
+
+
+def duration_of(path):
+    probe = subprocess.run(
+        [FF, "-v", "error", "-show_entries", "format=duration",
+         "-of", "csv=p=0", path],
+        capture_output=True, text=True, check=True)
+    return float(probe.stdout.strip())
+
+
+def audio_stream_hash(path):
+    """Hash encoded audio packets, independent of the MP4 container."""
+    probe = subprocess.run(
+        [FF, "-v", "error", "-i", path, "-map", "0:a:0", "-c", "copy",
+         "-f", "hash", "-hash", "sha256", "-"],
+        capture_output=True, text=True, check=True)
+    return probe.stdout.strip()
 
 
 def v2_dir_of(row):
@@ -194,52 +213,35 @@ def main():
          "-i", os.path.join(segs, "concat.txt"),
          "-c", "copy", os.path.join(segs, "video_silent.mp4")])
 
-    # ---- audio: narration at derived offsets (no beds — Cameron 2026-07-16) ----
-    audio_place = [(f"audio/{s['seg']}.mp3", s["audio_start"])
-                   for s in data["beats"] if s["speaker"] != "silence"]
-    audio_place.append((f"audio/{data['card']['seg']}.mp3",
-                        data["card"]["audio_start"]))
-    inputs, filts, labels = [], [], []
-    for i, (path, start) in enumerate(audio_place):
-        inputs += ["-i", path]
-        ms = int(start * 1000)
-        filts.append(f"[{i}:a]aresample=44100,adelay={ms}|{ms},volume=1.0[a{i}]")
-        labels.append(f"[a{i}]")
-    filts.append("".join(labels) +
-                 f"amix=inputs={len(labels)}:duration=longest:normalize=0,"
-                 f"apad=whole_dur={total:.2f}[aout]")
-    run([FF, "-y"] + inputs + ["-filter_complex", ";".join(filts),
-         "-map", "[aout]", "-t", f"{total:.2f}", "-c:a", "aac", "-b:a", "160k",
-         os.path.join(segs, "audio_mix.m4a")])
-
-    # ---- loudness law: measure EBU R128, lift toward -15 LUFS ----
-    probe = subprocess.run(
-        [FF, "-i", os.path.join(segs, "audio_mix.m4a"), "-af", "ebur128",
-         "-f", "null", "-"], capture_output=True, text=True)
-    lufs = None
-    for line in probe.stderr.splitlines():
-        line = line.strip()
-        if line.startswith("I:") and "LUFS" in line:
-            lufs = float(line.split()[1])
-    gain = 0.0
-    if lufs is not None:
-        gain = max(-6.0, min(16.0, -15.0 - lufs))
-    print(f"loudness: measured {lufs} LUFS, applying {gain:+.1f} dB", flush=True)
-
-    # ---- final mux: runtime-computed rate cap (V1 size ladder) ----
+    # ---- final mux: pictures change; the finished V1 audio cannot ----
     v1_mp4 = [f for f in os.listdir(v1dir) if f.endswith(".mp4")]
-    out_name = v1_mp4[0] if len(v1_mp4) == 1 else f"v2-row{row}.mp4"
-    vcap = max(300, int(24.5 * 8000 / total) - 145)
+    if len(v1_mp4) != 1:
+        raise SystemExit(
+            f"AUDIO LOCK: row {row} needs exactly one authoritative V1 MP4, "
+            f"found {v1_mp4}")
+    out_name = v1_mp4[0]
+    locked_final = os.path.join(v1dir, out_name)
+    locked_duration = duration_of(locked_final)
+    if abs(total - locked_duration) > 1.0:
+        raise SystemExit(
+            f"AUDIO LOCK: extracted timeline is {total:.3f}s but the "
+            f"authoritative V1 final is {locked_duration:.3f}s")
+    locked_hash = audio_stream_hash(locked_final)
+    vcap = max(300, int(24.5 * 8000 / locked_duration) - 145)
     run([FF, "-y", "-i", os.path.join(segs, "video_silent.mp4"),
-         "-i", os.path.join(segs, "audio_mix.m4a"),
-         "-af", f"volume={gain:.1f}dB",
+         "-i", locked_final, "-map", "0:v:0", "-map", "1:a:0",
          "-c:v", "libx264", "-preset", "medium", "-crf", "19",
          "-maxrate", f"{vcap}k", "-bufsize", f"{2*vcap}k",
          "-pix_fmt", "yuv420p", "-r", str(FPS),
-         "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart",
-         "-t", f"{total:.2f}", out_name])
+         "-c:a", "copy", "-movflags", "+faststart",
+         "-t", f"{locked_duration:.6f}", out_name])
+    rebuilt_hash = audio_stream_hash(out_name)
+    if rebuilt_hash != locked_hash:
+        raise SystemExit(
+            f"AUDIO LOCK FAILED: V1 {locked_hash}, V2 {rebuilt_hash}")
     size = os.path.getsize(out_name) / 1e6
-    print(f"DONE {out_name}  {size:.1f} MB  {total:.1f}s", flush=True)
+    print(f"AUDIO LOCK PASS: {rebuilt_hash}", flush=True)
+    print(f"DONE {out_name}  {size:.1f} MB  {locked_duration:.1f}s", flush=True)
 
 
 if __name__ == "__main__":

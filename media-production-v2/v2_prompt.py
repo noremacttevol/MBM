@@ -46,6 +46,22 @@ STYLE_V2 = (
     "captions, borders, panels, watermarks, or modern objects anywhere in the image."
 )
 
+# Lessons distilled from Cameron's retained review complaints. This is included
+# byte-identically in every prompt so a good scene description cannot accidentally
+# omit the basic continuity and physical-reality rules.
+QUALITY_LOCK = (
+    "CONTINUITY AND PHYSICAL-REALITY LOCK: every recurring person keeps the same "
+    "face, age, build, hair, beard, and clothing colours from shot to shot. People "
+    "remain at believable human scale relative to one another and the setting. Every "
+    "visible person has one coherent body with exactly two arms and two legs, complete "
+    "natural hands and feet, and clear joints. Limbs, clothing, and bodies remain "
+    "outside solid wood, stone, furniture, boats, and other people. Feet and knees "
+    "make correct contact with ground, deck, furniture, or water exactly as the story "
+    "requires. Gaze, travel direction, object placement, cause and effect, and the "
+    "number of named people must match the narrated moment. Reject any image that "
+    "breaks these rules."
+)
+
 # JESUS LOCK v4 — byte-identical in every prompt where Jesus appears.
 # JESUS LOCK v5 — Cameron, 2026-07-30. Supersedes v4 once a face candidate is picked.
 #
@@ -174,7 +190,7 @@ def load_beats(build_dir):
 
 def assemble(beat, local_locks):
     """Build the full prompt string for one beat."""
-    parts = [STYLE_V2]
+    parts = [STYLE_V2, QUALITY_LOCK]
     if beat.get("wide"):
         parts.append(WIDE_DEFENSE)
     # ANTI-PANEL ON EVERY BEAT, not just wide ones (row 2, b18). It used to ride
@@ -192,6 +208,10 @@ def assemble(beat, local_locks):
         # This line said V4 while v5 sat unused above it, so every prompt
         # kept describing the OLD face and fought the new reference image.
         parts.append(JESUS_LOCK_V5)
+    if beat.get("must_show"):
+        parts.append("STORY MUST SHOW: " + beat["must_show"])
+    if beat.get("must_not_show"):
+        parts.append("HARD REJECTION CONDITIONS: " + beat["must_not_show"])
     parts.append(beat["scene"])
     parts.append(CLOSER)
     return " ".join(" ".join(p.split()) for p in parts)
@@ -210,11 +230,14 @@ def check(build_dir, mod):
                 fails.append(f"{beat['id']}: Jesus shot missing byte-identical LOCK v4")
             if not beat.get("ref"):
                 fails.append(f"{beat['id']}: Jesus shot missing the REF line")
+        for field in ("must_show", "must_not_show"):
+            value = str(beat.get(field, "")).strip()
+            if not value or "TODO" in value:
+                fails.append(f"{beat['id']}: {field} is missing or unfinished")
         for w in DRIFT_WORDS:
-            # "never blue-eyed / never pale" inside the lock are the lock's own
-            # negations, not drift — only flag them outside the lock text.
-            outside = p.replace(JESUS_LOCK_V5, "").lower()
-            if w in outside:
+            # Negative terms are lawful in must_not_show. Drift words in the scene
+            # itself still fail because scene prose is what the model depicts.
+            if w in beat["scene"].lower():
                 fails.append(f"{beat['id']}: drift word {w!r} in the scene text")
         if "cream" in low:
             for line in beat["scene"].split(". "):

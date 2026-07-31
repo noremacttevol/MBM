@@ -17,7 +17,7 @@ reverent standard Cameron approved on 2026-07-30.
 
 | # | Story | V2 state | Reviewer candidate |
 |---|-------|----------|--------------------|
-| 07 | Peter Walks on Water (Matthew 14) | **APPROVED by Cameron as the quality benchmark** ✅ | [▶ Peter V4](media-production-v2/codex-test-07-peter-water/video-build/peter-walks-on-water-codex-test-v4.mp4) |
+| 07 | Peter Walks on Water (Matthew 14) | **V5 awaiting Cameron** 🟡 — V4 visuals retained; rejected shortened audio replaced with the complete authoritative stream | [▶ Peter V5](media-production-v2/codex-test-07-peter-water/video-build/peter-walks-on-water-codex-test-v5.mp4) |
 
 New V2 cuts are published to the Firebase reviewer at
 `https://milk-b4-meat.web.app/review.html`. That board shows only this new visual
@@ -73,7 +73,7 @@ this file is the at-a-glance summary of it.
 | 10 | Woman at the Well (John 4) | 5:11 | **APPROVED** ✅ | [▶ watch](media-production/build-10-well/john-4_woman-at-the-well.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-10-well/john-4_woman-at-the-well.mp4) |
 | 17 | Lazarus (John 11) | 6:12 | **APPROVED** ✅ | [▶ watch](media-production/build-17-lazarus/john-11_lazarus.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-17-lazarus/john-11_lazarus.mp4) |
 | 06 | Two Sons (Matthew 21) | 1:44 | **APPROVED** ✅ | [▶ watch](media-production/build-06-two-sons/matthew-21_two-sons.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-06-two-sons/matthew-21_two-sons.mp4) |
-| 07 | Peter Walks on Water (Matthew 14) | 4:16 | **built — awaiting Cameron** 🟡 (s3 fix) | [▶ watch](media-production/build-07-peter-water/matthew-14_peter-walks-on-water.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-07-peter-water/matthew-14_peter-walks-on-water.mp4) |
+| 07 | Peter Walks on Water (Matthew 14) | 3:45 | **built — awaiting Cameron** 🟡 (complete current ElevenLabs narration) | [▶ watch](media-production/build-07-peter-water/matthew-14_peter-walks-on-water.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-07-peter-water/matthew-14_peter-walks-on-water.mp4) |
 | 13 | Man Through the Roof (Mark 2) | 5:34 | **APPROVED** ✅ | [▶ watch](media-production/build-13-roof/mark-2_man-through-the-roof.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-13-roof/mark-2_man-through-the-roof.mp4) |
 | 14 | Ten Lepers (Luke 17) | 4:34 | **APPROVED** ✅ | [▶ watch](media-production/build-14-ten-lepers/luke-17_ten-lepers.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-14-ten-lepers/luke-17_ten-lepers.mp4) |
 | 15 | Centurion's Servant (Matthew 8) | 5:08 | **APPROVED** ✅ | [▶ watch](media-production/build-15-centurion/matthew-8_centurion.mp4) · [⬇ download](https://github.com/noremacttevol/MBM/raw/main/media-production/build-15-centurion/matthew-8_centurion.mp4) |

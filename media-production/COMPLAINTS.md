@@ -10,17 +10,17 @@ touching anything else. Do NOT edit by hand.
 
 | # | Status | What Cameron said |
 |---|---|---|
-| 1 | newer cut shipped — VERIFY fixed | Back ground sound problem again when Jesus was talking. |
+| 1 | UNFIXED | Back ground sound problem again when Jesus was talking. |
 | 4 | newer cut shipped — VERIFY fixed | Captions are messed up at 38 - 46 seconds |
-| 6 | newer cut shipped — VERIFY fixed | Your shortening of the videos has gotten out of hand. In this one the father didnt really ask either son anything and thats not how Jesus tsught it. It can be shorter than the original but it has to hit all of the points well. And here you cut out the original thing the father asked the sons |
-| 7 | newer cut shipped — VERIFY fixed | 1:03 audio problem.  He speaks way to fast. |
-| 10 | newer cut shipped — VERIFY fixed | Still to short |
+| 6 | UNFIXED | Your shortening of the videos has gotten out of hand. In this one the father didnt really ask either son anything and thats not how Jesus tsught it. It can be shorter than the original but it has to hit all of the points well. And here you cut out the original thing the father asked the sons |
+| 7 | UNFIXED | 1:05 — Peter asking Jesus to bid/call him out onto the water is missing. V2 must preserve the original full-length audio and words; upgrade the visuals only and remove nothing. |
+| 10 | UNFIXED | Still to short |
 | 12 | newer cut shipped — VERIFY fixed | Captions are off at 1 minute |
 | 13 | newer cut shipped — VERIFY fixed | Some of the pictures need to be redone. I hope you can figure out which ones if not i will get.you to design a bot or find a better ai |
 | 14 | newer cut shipped — VERIFY fixed | The first half needs better pictures |
-| 15 | newer cut shipped — VERIFY fixed | Old voice still this isn't the newest one i picked |
+| 15 | UNFIXED | Old voice still this isn't the newest one i picked |
 | 16 | newer cut shipped — VERIFY fixed | That's not how you pronounce wound |
-| 17 | newer cut shipped — VERIFY fixed | At 23 seconds it shows the wrong captions from.the older version for a split second before going to the new edit where it has the pink captions |
+| 17 | UNFIXED | At 23 seconds it shows the wrong captions from.the older version for a split second before going to the new edit where it has the pink captions |
 | 18 | newer cut shipped — VERIFY fixed | Not real new voice |
 | 19 | newer cut shipped — VERIFY fixed | The clothes of peter and his look and all of the people in the boat keep changing and then picture jesus looks like he's burning something out of his hand all of these pictures look like they've been made by AI and I get that they have , but let's try our best not to make you look stupid. So redo them all |
 | 20 | newer cut shipped — VERIFY fixed | Not real new voice |
@@ -48,8 +48,8 @@ touching anything else. Do NOT edit by hand.
 | 86 | newer cut shipped — VERIFY fixed | 13 extra seconds on the end of this video too those can be cut off as soon as the voice in the video stops talking. make sure its not before it cut 11 seconds off jut to be careful if you cant be sure |
 | 90 | newer cut shipped — VERIFY fixed | Why does every disciple look the fucking same. |
 | 91 | newer cut shipped — VERIFY fixed | The pictures of the disciples did not stay the same. One grew a beard with in seconds |
-| 92 | newer cut shipped — VERIFY fixed | Old voice still |
-| 99 | UNFIXED | Old audio needs updating and i belive the thomas character is off |
+| 92 | UNFIXED | Old voice still |
+| 99 | newer cut shipped — VERIFY fixed | Old audio needs updating and i belive the thomas character is off |
 | 102 | newer cut shipped — VERIFY fixed | Jacob doesnt have a beard and then does. We need to make a qc just for beards dissapeaering or appearing it throws people off the story |
 | 103 | newer cut shipped — VERIFY fixed | This is where peter got his name but it called him simon before and the pictures are all bad they keep changing and are not remade with the character ref in this |
 | 107 | newer cut shipped — VERIFY fixed | Needs better pictures the disciples shluld be some of Jesus' disciples and shouldnt look exactly alike but also Jesus and John the baptist are bigger then other people like giants in some pictures. Just redo all of them and research who the people John sent were and if they are important enough to be the characters because i thought they were and if not just dont make them look like tiwns and have everyone be the same size |
@@ -76,4 +76,4 @@ touching anything else. Do NOT edit by hand.
 | 189 | newer cut shipped — VERIFY fixed | Pronounce overcometh as OH-vur-kuh-muhth 0:38 |
 | 191 | UNFIXED | Not real new voice |
 | 198 | UNFIXED | Not new audio |
-| 200 | UNFIXED | Still the wrong audio. Im pissed |
+| 200 | newer cut shipped — VERIFY fixed | Still the wrong audio. Im pissed |

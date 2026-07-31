@@ -19,6 +19,11 @@ const sa = JSON.parse(readFileSync(join(here, 'serviceAccount.json'), 'utf8'));
 admin.initializeApp({ credential: admin.credential.cert(sa) });
 const db = admin.firestore();
 
+function numericKeyOrder(obj) {
+  return Object.fromEntries(
+    Object.keys(obj).sort((a, b) => +a - +b).map((key) => [key, obj[key]]));
+}
+
 // current git blob hash of every finished mp4 -> {num: hash}
 const hashes = {};
 // maxBuffer: the repo outgrew execSync's default 1 MB and this threw ENOBUFS,
@@ -46,6 +51,7 @@ for (const match of reviewHtml.matchAll(reviewCard)) {
 const snap = await db.collection('reviews').get();
 const approvals = {};
 const complaints = [];
+const reviewLessons = {};
 snap.forEach((doc) => {
   const n = doc.id;
   const d = doc.data();
@@ -64,6 +70,32 @@ snap.forEach((doc) => {
   // it so the fixer re-verifies the complaint against the current cut.
   const complaintOpen = typeof d.complaintOpen === 'boolean'
     ? d.complaintOpen : !!(d.complaint && !d.approved);
+  if (d.complaint) {
+    const history = Array.isArray(d.complaintHistory)
+      ? d.complaintHistory.map((item) => ({
+          text: String(item.text || ''),
+          hash: item.hash || null,
+          createdAt: item.createdAt || null,
+        })).filter((item) => item.text)
+      : [];
+    if (!history.some((item) => item.text === d.complaint
+        && item.hash === (d.complaintHash || null))) {
+      history.push({
+        text: d.complaint,
+        hash: d.complaintHash || null,
+        createdAt: d.complaintAt && d.complaintAt.toDate
+          ? d.complaintAt.toDate().toISOString() : null,
+      });
+    }
+    reviewLessons[n] = {
+      open: complaintOpen,
+      latest: d.complaint,
+      reportedAgainst: d.complaintHash || null,
+      resolvedBy: complaintOpen ? null
+        : (d.complaintResolvedHash || (d.approved ? d.approvedHash : null) || null),
+      history,
+    };
+  }
   if (d.complaint && complaintOpen) {
     const shippedSince = d.complaintHash && d.complaintHash !== cur;
     complaints.push({ num: +n, text: d.complaint, shippedSince });
@@ -72,7 +104,7 @@ snap.forEach((doc) => {
 
 writeFileSync(
   join(REPO, 'media-production', 'approvals.json'),
-  JSON.stringify(approvals, Object.keys(approvals).sort((a, b) => +a - +b), 2) + '\n');
+  JSON.stringify(numericKeyOrder(approvals), null, 2) + '\n');
 
 complaints.sort((a, b) => a.num - b.num);
 let md = '# ACTIVE COMPLAINTS — Cameron flagged these from the review page\n\n';
@@ -90,6 +122,9 @@ for (const c of complaints) {
   md += `| ${c.num} | ${st} | ${c.text.replace(/\n/g, ' ').replace(/\|/g, '/')} |\n`;
 }
 writeFileSync(join(REPO, 'media-production', 'COMPLAINTS.md'), md);
+writeFileSync(
+  join(REPO, 'media-production-v2', 'REVIEW-LESSONS.json'),
+  JSON.stringify(numericKeyOrder(reviewLessons), null, 2) + '\n');
 
-console.log(`synced: ${Object.keys(approvals).length} approved, ${complaints.length} active complaints`);
+console.log(`synced: ${Object.keys(approvals).length} approved, ${complaints.length} active complaints, ${Object.keys(reviewLessons).length} retained review lessons`);
 process.exit(0);

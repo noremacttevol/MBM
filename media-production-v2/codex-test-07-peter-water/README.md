@@ -6,10 +6,15 @@ timing.
 
 ## Deliverable
 
-`video-build/peter-walks-on-water-codex-test-v4.mp4`
+`video-build/peter-walks-on-water-codex-test-v5.mp4`
 
-The video contains 18 distinct Codex-directed story pictures used across 24
+The video contains 18 distinct Codex-directed story pictures used across 26
 timed picture slots, plus the existing closing card.
+
+V4 is retained only as the visual-test history. It is rejected as a finished
+cut because its special build folder contained a shortened audio copy. V5 reads
+the authoritative Story 7 text and timing in place and stream-copies the
+authoritative final AAC audio without re-encoding it.
 
 ## Supporting material
 
