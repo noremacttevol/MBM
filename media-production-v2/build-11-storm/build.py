@@ -27,10 +27,10 @@ import textwrap
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))
 V1 = os.path.join(ROOT, "media-production", "build-11-storm")
-ASSETS = os.path.join(HERE, "assets")
+ASSETS = os.path.join(HERE, "assets-realistic")
 SEGS = os.path.join(HERE, "segs-v2")
 LOCKED_FINAL = os.path.join(V1, "mark-4_calming-the-storm.mp4")
-OUT = os.path.join(HERE, "mark-4_calming-the-storm.mp4")
+OUT = os.path.join(HERE, "mark-4_calming-the-storm-realistic-v3.mp4")
 
 FF = shutil.which("ffmpeg") or "ffmpeg"
 FPROBE = shutil.which("ffprobe") or "ffprobe"
@@ -109,7 +109,12 @@ def phrase_number(spec):
 def build_chunk(index, picture, frames, zoom, first, last):
     out = os.path.join(SEGS, f"c{index:03d}.mp4")
     expected = frames / FPS
-    if os.path.isfile(out) and abs(duration_of(out) - expected) < 0.06:
+    source = os.path.join(ASSETS, picture)
+    if (
+        os.path.isfile(out)
+        and os.path.getmtime(out) >= os.path.getmtime(source)
+        and abs(duration_of(out) - expected) < 0.06
+    ):
         print(f"== reuse {os.path.basename(out)} ({expected:.3f}s)", flush=True)
         return out
 
@@ -130,7 +135,7 @@ def build_chunk(index, picture, frames, zoom, first, last):
     run(
         [
             FF, "-y", "-loglevel", "error", "-loop", "1",
-            "-i", os.path.join(ASSETS, picture), "-vf", vf,
+            "-i", source, "-vf", vf,
             "-frames:v", str(frames),
         ]
         + BASE_ENC

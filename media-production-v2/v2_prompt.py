@@ -58,8 +58,12 @@ QUALITY_LOCK = (
     "outside solid wood, stone, furniture, boats, and other people. Feet and knees "
     "make correct contact with ground, deck, furniture, or water exactly as the story "
     "requires. Gaze, travel direction, object placement, cause and effect, and the "
-    "number of named people must match the narrated moment. Reject any image that "
-    "breaks these rules."
+    "number of named people must match the narrated moment. ROUGH-DRAFT CONTINUITY "
+    "LAW: when an earlier story frame is supplied as the first reference, treat its "
+    "camera angle, blocking, character positions, action, direction of travel and "
+    "major objects as the approved rough draft. Improve photographic realism and "
+    "repair named defects without reinventing the composition or staging. Reject any "
+    "image that breaks these rules."
 )
 
 # JESUS LOCK v4 — byte-identical in every prompt where Jesus appears.
@@ -144,35 +148,47 @@ ANTI_PANEL = (
 
 CLOSER = "One single continuous scene edge to edge, no border. 9:16 vertical."
 
-# Recurring cast — copied byte-identical from media-production/CAST-REF/CAST-BIBLE.md,
-# which wins over CHARACTER-LAW.md where they disagree (V2-KICKOFF).
-CAST_LOCKS = {
-    "PETER": (
-        "PETER LOCK: Peter is the same man in every shot — a sturdy Galilean fisherman "
-        "in his late thirties, broad and strong, thick dark curly hair going a little "
-        "wild, a full dark beard, weathered warm-olive skin, deep brown eyes, heavy "
-        "honest features. He wears a dusty BLUE-GREY wool tunic with a plain rope belt "
-        "(never cream). His face is shown clearly."
-    ),
-    "ANDREW": (
-        "ANDREW LOCK: Andrew is the same man in every shot — Peter's younger brother, "
-        "early thirties, similar sturdy build but leaner, short dark curly hair, a "
-        "shorter rounded dark beard, warm-olive skin, open kind eyes. He wears a "
-        "RUST-BROWN wool tunic with a cord belt (never cream). His face is shown clearly."
-    ),
-    "JOHN": (
-        "JOHN LOCK: John is the same man in every shot — the youngest disciple, early "
-        "twenties, smooth-featured and gentle, wavy chestnut-brown hair to the jaw, only "
-        "a soft light beard, warm tan skin, large calm dark eyes. He wears a SAND / "
-        "warm-tan wool tunic with a woven sash (never cream). His face is shown clearly."
-    ),
-    "JAMES-Z": (
-        "JAMES-Z LOCK: James is the same man in every shot — tall and strong, mid "
-        "thirties, dark hair pulled back off the face, a thick full black beard, "
-        "deep-olive skin, a steady bold gaze. He wears a DEEP-OLIVE (forest brown-green) "
-        "wool tunic with a leather belt (never cream). His face is shown clearly."
-    ),
-}
+# Recurring cast comes from the one canonical CHARACTER LAW source.  The old
+# V2 dictionary described only four apostles and contradicted the approved
+# sheets (for example: it gave clean-shaven John a beard and changed Andrew's
+# locked olive-drab tunic to rust).  A group scene must never invent the other
+# eight men as generic bearded fishermen.
+def _canonical_cast_locks():
+    path = os.path.join(
+        ROOT, "media-production", "CHARACTERS", "character_refs.py"
+    )
+    spec = importlib.util.spec_from_file_location("mbm_character_refs", path)
+    refs_mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(refs_mod)
+
+    key_to_slug = {
+        "PETER": "peter",
+        "ANDREW": "andrew",
+        "JAMES-Z": "james",
+        "JOHN": "john-beloved",
+        "PHILIP": "philip",
+        "BARTHOLOMEW": "bartholomew",
+        "MATTHEW": "matthew",
+        "THOMAS": "thomas",
+        "JAMES-A": "james-son-of-alphaeus",
+        "THADDAEUS": "thaddaeus",
+        "SIMON-Z": "simon-the-zealot",
+        "JUDAS-I": "judas-iscariot",
+    }
+    locks = {
+        key: refs_mod.lock_text(slug) for key, slug in key_to_slug.items()
+    }
+    roster = " ".join(locks[key] for key in key_to_slug)
+    locks["TWELVE-CANONICAL"] = (
+        "TWELVE CANONICAL-CAST LOCK: the companions are exactly the Twelve in "
+        "their approved gospel order. Every named man below keeps his own locked "
+        "face, age, build, hair, beard state and tunic; no two are interchangeable, "
+        "no face is cloned, and clean-shaven John never grows a beard. " + roster
+    )
+    return locks
+
+
+CAST_LOCKS = _canonical_cast_locks()
 
 # Words that mean the wrong Jesus. Any of these in a prompt fails the checklist.
 DRIFT_WORDS = ["caucasian", "pale skin", "blue-eyed", "blue eyes", "blond", "blonde",
@@ -256,6 +272,12 @@ def check(build_dir, mod):
             path = cref if os.path.isabs(cref) else os.path.join(build_dir, cref)
             if not os.path.isfile(path):
                 fails.append(f"{beat['id']}: char_ref missing on disk: {cref}")
+        rough_ref = beat.get("rough_ref")
+        if rough_ref:
+            path = rough_ref if os.path.isabs(rough_ref) \
+                else os.path.join(build_dir, rough_ref)
+            if not os.path.isfile(path):
+                fails.append(f"{beat['id']}: rough_ref missing on disk: {rough_ref}")
     print(f"checked {len(mod.BEATS)} beats in {os.path.basename(build_dir)}")
     for w in warns:
         print(f"  WARN  {w}")
@@ -274,6 +296,7 @@ def dump(build_dir, mod):
             f.write(f"# window {beat['window']}  seg {beat['seg']}  "
                     f"model {beat.get('model', 'Nano Banana Pro')}"
                     f"{'  REF ' + JESUS_REF if beat.get('ref') else ''}"
+                    f"{'  ROUGH-REF ' + beat['rough_ref'] if beat.get('rough_ref') else ''}"
                     f"{''.join('  CHAR-REF ' + c for c in beat.get('char_refs', []))}\n")
             f.write(assemble(beat, mod.LOCKS) + "\n\n")
     print(f"wrote {out} ({len(mod.BEATS)} prompts)")
@@ -310,14 +333,16 @@ def _below_2k(path):
     return False
 
 
-def gen(build_dir, mod, only, redo_suffix=""):
-    assets = os.path.join(build_dir, "assets")
+def gen(build_dir, mod, only, redo=False):
+    assets = os.path.join(
+        build_dir, getattr(mod, "OUTPUT_ASSET_DIR", "assets")
+    )
     os.makedirs(assets, exist_ok=True)
     for beat in mod.BEATS:
         if only and beat["id"] not in only:
             continue
         dest = os.path.join(assets, beat["out"])
-        if not redo_suffix and os.path.exists(dest) and os.path.getsize(dest) > 50000 \
+        if not redo and os.path.exists(dest) and os.path.getsize(dest) > 50000 \
                 and not _below_2k(dest):
             print(f"= {beat['id']} already present, skipping")
             continue
@@ -330,11 +355,28 @@ def gen(build_dir, mod, only, redo_suffix=""):
             # anti-shimmer law forbids. Treating sub-2K as missing makes every
             # runner lap re-pull them automatically until they come back at 2K.
             print(f"~ {beat['id']} is BELOW 2K — re-pulling", flush=True)
+        prompt = assemble(beat, mod.LOCKS)
+        if redo and beat.get("redo_prompt"):
+            prompt += (
+                " CORRECTION PASS: Preserve every part of the supplied current "
+                "production frame that is not explicitly changed below. "
+                + beat["redo_prompt"]
+            )
         cmd = [sys.executable, FLOW_DRIVER, "gen",
                "--size", "2K",
                "--model", beat.get("model", "Nano Banana Pro"),
-               "--prompt", assemble(beat, mod.LOCKS),
+               "--prompt", prompt,
                "--out", dest]
+        # The prior still is the approved rough-draft composition.  Attach it
+        # first so a realism rebuild improves the picture instead of inventing
+        # unrelated blocking and boat mechanics.
+        redo_source = beat.get("redo_source", "current") if redo else "rough"
+        if redo and redo_source == "current" and os.path.isfile(dest):
+            cmd += ["--ref", dest]
+        elif redo_source == "rough" and beat.get("rough_ref"):
+            path = beat["rough_ref"] if os.path.isabs(beat["rough_ref"]) \
+                else os.path.join(build_dir, beat["rough_ref"])
+            cmd += ["--ref", path]
         if beat.get("ref"):
             cmd += ["--ref", os.path.join(ROOT, JESUS_REF)]
         # Character locks by IMAGE (CAST-BIBLE principle). Text locks alone did NOT
@@ -357,6 +399,10 @@ def main():
     ap.add_argument("--dump", action="store_true")
     ap.add_argument("--check", action="store_true")
     ap.add_argument("--gen", action="store_true")
+    ap.add_argument(
+        "--redo", action="store_true",
+        help="regenerate selected existing outputs, using each beat's correction note",
+    )
     ap.add_argument("--only", nargs="*", default=None)
     a = ap.parse_args()
     bdir = os.path.abspath(a.build_dir)
@@ -367,7 +413,7 @@ def main():
         dump(bdir, mod)
     if a.gen:
         check(bdir, mod)
-        gen(bdir, mod, a.only)
+        gen(bdir, mod, a.only, redo=a.redo)
 
 
 if __name__ == "__main__":

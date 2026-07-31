@@ -60,6 +60,25 @@ CONTENT-CARE: row 11 is not in the §3 flag table = GREEN. The terror is real bu
 stays on faces and effort; nobody is injured, nothing is gruesome.
 """
 
+from pathlib import Path
+
+CHARACTERS = Path(__file__).resolve().parents[2] / "media-production" / "CHARACTERS"
+
+
+def _sheet(slug):
+    """All three canonical views required by CHARACTER LAW rule 3."""
+    return [str(CHARACTERS / slug / f"{view}.jpeg") for view in (
+        "face-front", "three-quarter", "full-body"
+    )]
+
+
+EARLY_COMPANY = ("peter", "andrew", "james", "john-beloved", "matthew")
+OUTPUT_ASSET_DIR = "assets-realistic"
+EARLY_COMPANY_REFS = [str(
+    Path(__file__).resolve().parents[1]
+    / "CAST-V2-REF" / "early-company-reference-board.jpg"
+)]
+
 LOCKS = {
     # SETTING LOCKS NAME NO CHARACTER (STRAY-JESUS defect).
     "SHORE-EVENING": (
@@ -107,16 +126,31 @@ LOCKS = {
         "both sides, coiled rope, folded nets, wooden bailing scoops and a stone "
         "anchor stowed on the deck timbers, a raised steering platform in the stern "
         "with a leather-covered steersman's cushion on it. Every rope in the boat runs "
-        "to the mast or to the rigging inside the hull. The deck planking is always "
-        "visible under the men's feet. No lamp, lantern or glass lighting is aboard."
+        "to the mast or to the rigging inside the hull, with both ends physically "
+        "accounted for; no rope drops into the lake or ties to a purposeless post. "
+        "Every oar passes through one believable side thole and extends out that SAME "
+        "side of the hull; an oar never stretches across the boat or exits the opposite "
+        "side. The mast is the only tall upright post. The deck planking is always "
+        "visible under the men's feet. No lamp, lantern or glass lighting is aboard. "
+        "Whenever the whole travelling company is visible, the main boat contains the "
+        "same EIGHT adult men total: Jesus; Peter; Andrew; James the son of Zebedee; "
+        "John the beloved; Matthew; and the same two unnamed early followers. This is "
+        "an early-ministry boat company, not a posed picture of all Twelve. A tighter "
+        "shot may frame only a clearly cropped subset."
     ),
     "DISCIPLES": (
-        "DISCIPLES LOCK: the other men in the boat are the same seven or eight "
-        "throughout — Galilean working men between twenty and forty, dark hair and "
-        "beards soaked flat, weathered olive skin, big rope-scarred hands. They wear "
-        "soaked wool tunics in SATURATED DEEP colours — rust-brown, deep russet, dark "
-        "olive, blue-grey and dusty indigo — belted with rope or leather. None of them "
-        "wears off-white, ivory or any near-white cloth. Their faces are shown clearly."
+        "EARLY-BOAT-COMPANY LOCK: the same seven companions travel with Jesus in every "
+        "whole-boat shot: Peter, Andrew, James the son of Zebedee, John the beloved, "
+        "Matthew, and the same two unnamed early followers. Together with Jesus that "
+        "makes EIGHT men in the full company, no more and no fewer. Peter, Andrew, "
+        "James, John and Matthew must match their attached canonical CHARACTER sheets; "
+        "their different ages, faces, builds, hair, beard states and tunic colours are "
+        "not interchangeable. John remains the youngest and clean-shaven. Matthew is a "
+        "non-sailor and does not expertly work the mast or oars. Peter may steer; "
+        "Andrew, James and John may handle familiar fishing-boat work. The two unnamed "
+        "followers remain two distinct recurring men and never become twins. Nobody "
+        "poses, circles Jesus, or looks toward him unless that exact narrated moment "
+        "requires it. Worship is conveyed through the truthful story, not a tableau."
     ),
 }
 
@@ -320,8 +354,8 @@ BEATS = [
         "window": "63.73-66.76", "wide": True, "jesus": False, "ref": False,
         "locks": ["DISCIPLES", "BOAT", "SEA-STORM-NIGHT"],
         "narration": "Waves broke over the side faster than the men could bail.",
-        "must_show": "⚠️ ACTION-LOGIC, THE DEFECT THAT GOT V1 REJECTED: the bailing water is being flung OUT OVER THE GUNWALE AND AWAY FROM THE BOAT, out into the sea. The scoop is on its outward throw and the thrown water is OUTSIDE the hull.",
-        "must_not_show": "the water must NEVER appear to be poured INTO the boat or toward the deck. If the thrown water lands inside the hull the frame is a hard fail. Do not put Jesus in this frame.",
+        "must_show": "⚠️ ACTION-LOGIC, THE DEFECT THAT GOT V1 REJECTED: the storm is visibly violent enough to justify emergency bailing — a breaking wave is entering over the opposite gunwale and deep water already covers the deck. The bailing water is being flung OUT OVER THE GUNWALE AND AWAY FROM THE BOAT, out into the sea. The scoop is on its outward throw and the thrown water is OUTSIDE the hull.",
+        "must_not_show": "the water must NEVER appear to be poured INTO the boat or toward the deck. If the thrown water lands inside the hull, or the lake looks too mild to justify bailing, the frame is a hard fail. Do not put Jesus in this frame.",
         "scene": (
             "Two men are bailing hard. The nearest is caught at the very end of his "
             "OUTWARD throw — his wooden scoop is up and over the top of the gunwale "
@@ -759,11 +793,134 @@ BEATS = [
             "to the skin, his hair plastered flat and dripping, his robe hanging heavy "
             "and dark with water, in the middle of the small ordinary act of squeezing "
             "the water out of one sleeve with his other hand, not even looking up. "
-            "Around him seven or eight soaked men are frozen in place watching him do "
-            "it, none of them moving. The dead flat sea and the reflected stars "
+            "Around him the same seven soaked companions are naturally distributed "
+            "through the boat, pausing in the places where the storm left them rather "
+            "than forming a circle or a posed tableau. The "
+            "dead flat sea and the reflected stars "
             "surround the boat. The camera is back far enough to hold the whole boat "
             "and every figure head to feet. Every figure has two arms, two hands and "
             "one head."
         ),
     },
 ]
+
+# Every generated beat attaches the actual canonical sheets for the named people
+# it depicts.  Text descriptions alone were the cause of the changing faces and
+# beards in the rejected videos.
+_REF_BY_LOCK = {
+    "PETER": _sheet("peter"),
+    "ANDREW": _sheet("andrew"),
+    "JAMES-Z": _sheet("james"),
+    "JOHN": _sheet("john-beloved"),
+}
+for _beat in BEATS:
+    _locks = _beat.get("locks", [])
+    _refs = list(_beat.get("char_refs", []))
+    if "DISCIPLES" in _locks:
+        _refs.extend(EARLY_COMPANY_REFS)
+    else:
+        for _lock in _locks:
+            _refs.extend(_REF_BY_LOCK.get(_lock, []))
+    # Stable de-duplication preserves the gospel roster order.
+    _beat["char_refs"] = list(dict.fromkeys(_refs))
+    _asset = Path(__file__).resolve().parent / "assets" / _beat["out"]
+    if _asset.is_file():
+        _beat["rough_ref"] = str(_asset)
+
+# First-pass visual QC corrections.  `v2_prompt.py --redo` attaches the current
+# production frame first and makes only the named repair.  These are kept in the
+# beat source so the accepted frame is reproducible instead of depending on an
+# unrecorded chat instruction.
+_REDO_PROMPTS = {
+    "v2-r011-b17": (
+        "Reframe only slightly wider, from close face to chest-up. Keep Peter's "
+        "canonical face, soaked blue-grey tunic, terror and accusation, but show a "
+        "clear strip of the wet wooden gunwale and deck behind and below him so he is "
+        "unmistakably standing inside the boat, never in the lake. No lamp or fire."
+    ),
+    "v2-r011-b18": (
+        "Keep the same storm, camera direction and wounded reaction, but replace the "
+        "near-duplicate men with a clearly cropped subset of five distinct companions "
+        "from the attached cast board: different faces, ages, hair, beard states, "
+        "builds and locked tunic colours. John is the young clean-shaven man. They are "
+        "not a posed row and do not become twins. No lamp or fire."
+    ),
+    "v2-r011-b19": (
+        "Keep Jesus standing at the stern and preserve the rough boat action, but the "
+        "whole visible boat must contain exactly EIGHT men total: Jesus plus exactly "
+        "seven distinct companions. Add the one missing companion in an open working "
+        "space without crowding anyone. Only Jesus wears cream. Match Peter, Andrew, "
+        "James, clean-shaven John and Matthew to the attached cast board; nobody is a "
+        "clone and nobody forms a circle. No modern metal anchor."
+    ),
+    "v2-r011-b20": (
+        "Preserve this successful wide photograph, Jesus's position, the boat and the "
+        "storm. Correct only the headcount: exactly EIGHT adult men total, Jesus plus "
+        "seven companions. Remove the extra rearmost disciple cleanly and reconstruct "
+        "the boat behind him. Do not add or move anyone else. Only Jesus wears cream."
+    ),
+    "v2-r011-b22": (
+        "Replace the failed giant curling wave with a tight environmental detail of "
+        "only the wet bow, the lower furled sail, slack rope and nearby water. Show one "
+        "LOW remnant crest, no more than knee-high, collapsing into flat water while "
+        "spray drops vertically. No towering breaker, no frozen wall of water and no "
+        "people in frame. Every rope remains attached inside the boat and none enters "
+        "the lake."
+    ),
+    "v2-r011-b25": (
+        "Preserve the exact eight-man composition and calm setting. Peter's visible "
+        "hand must be a natural bare wet hand with normal skin, not white, wrapped, "
+        "bandaged or injured. Replace the modern metal anchor at the bow with one "
+        "plain first-century stone anchor. Do not change any face, garment or pose."
+    ),
+    "v2-r011-b26": (
+        "Keep the gentle close composition but correct Jesus to the exact attached "
+        "Jesus reference face, long wet dark-brown hair, full beard and natural "
+        "green-amber eyes. The sail behind him is fully furled and lashed to the mast, "
+        "never raised. Keep the gunwale visible so he remains clearly inside the boat."
+    ),
+    "v2-r011-b27": (
+        "Restage the same exact EIGHT men as a candid post-storm moment, not a circle "
+        "or devotional tableau. Put Jesus off-centre near the stern. Peter sits by the "
+        "steering position; Andrew coils a rope inside the hull; James gathers a wet "
+        "net; clean-shaven John bails remaining deck water outward; frightened Matthew "
+        "sits catching his breath; the two unnamed men separately check the gunwale "
+        "and wring a soaked mantle. At most two men glance toward Jesus. Use the "
+        "attached canonical faces and blue-grey, olive, ochre, pale-blue and teal "
+        "wardrobes. Only Jesus wears cream. Replace any metal anchor with a stone one."
+    ),
+    "v2-r011-b29": (
+        "Preserve both men, their faces, positions and clothing colours. Correct only "
+        "the post-storm continuity: Jesus's cream robe and Peter's blue-grey tunic are "
+        "visibly soaked, heavy and darker in irregular wet patches; their hair and "
+        "beards are plastered wet and dripping. Do not change their faces or pose."
+    ),
+    "v2-r011-b32": (
+        "Preserve Andrew's canonical face, expression, olive tunic and the surrounding "
+        "cropped companions. Remove the rope draped over the gunwale and into the lake, "
+        "reconstructing clean wet wood and flat reflected water. No rope crosses the "
+        "rail or touches the lake."
+    ),
+    "v2-r011-b33": (
+        "Correct Peter to the exact attached canonical Peter: a sturdy mid-thirties "
+        "man with thick dark curly hair, full DARK beard without grey, weathered olive "
+        "skin and his blue-grey tunic. Preserve the close composition, wet skin and "
+        "quiet remembering expression. He must not look elderly or pale."
+    ),
+    "v2-r011-b34": (
+        "Preserve the exact eight-man distribution, Jesus wringing his sleeve and the "
+        "men's unposed positions. Jesus alone wears his recognizable undyed CREAM robe; "
+        "it is soaked and darkened by water but remains visibly cream, never brown. "
+        "Match his attached face. Remove the rope tied at the bow and dropping into the "
+        "lake, reconstructing the bow and mirror-flat water. No rope touches the lake."
+    ),
+}
+for _beat in BEATS:
+    if _beat["id"] in _REDO_PROMPTS:
+        _beat["redo_prompt"] = _REDO_PROMPTS[_beat["id"]]
+
+# The failed b22 first pass is too structurally wrong to preserve as an edit
+# reference.  Generate its corrected close environmental detail from the prompt.
+for _beat in BEATS:
+    if _beat["id"] == "v2-r011-b22":
+        _beat["redo_source"] = "none"

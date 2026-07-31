@@ -397,9 +397,28 @@ def download_variant(page, name, size, out):
     if not dspot:
         raise SystemExit("viewer: download button not found")
     page.mouse.click(dspot["x"], dspot["y"])
-    page.wait_for_timeout(1200)
-    sspot = _leaf_spot(page, size)
+    # The size submenu sometimes arrives several seconds after the download menu
+    # itself (especially after a reference-heavy edit).  A fixed 1.2 s wait made
+    # an otherwise completed image look like a generation failure.  Poll the
+    # actual option instead; successful menus still proceed immediately.
+    sspot = None
+    for _ in range(15):
+        page.wait_for_timeout(1000)
+        sspot = _leaf_spot(page, size)
+        if sspot:
+            break
     if not sspot:
+        try:
+            diag = Path(out)
+            diag.parent.mkdir(parents=True, exist_ok=True)
+            page.screenshot(path=str(diag.with_suffix(".FAILED.png")), full_page=False)
+            body = page.evaluate("() => document.body.innerText.slice(0, 4000)") or ""
+            diag.with_suffix(".FAILED.txt").write_text(body or "(no body text)")
+        except Exception:
+            pass
+        if size != "1K" and _leaf_spot(page, "1K"):
+            print(f"  viewer offers only 1K; {size} upscale is unavailable", flush=True)
+            raise UpscaleFailed()
         raise SystemExit(f"viewer: size option {size!r} not found")
     # SELF-DIAGNOSING TIMEOUT (Machine A, 2026-07-29). Downloads stopped working
     # at 10:19 after 175 successful pictures: the image still generates, the
@@ -472,6 +491,23 @@ def cmd_gen(prompt, out, refs, model=None, model_required=True, size="2K"):
         page.wait_for_timeout(6000)
         if "accounts.google.com" in page.url:
             raise SystemExit("Not logged in — run: flow_driver.py open")
+        # A failed download can leave Flow reopening the last image's media editor
+        # on the next browser launch.  That editor also has a contenteditable box,
+        # but it truncates our full production prompt to a short "What do you want
+        # to change?" instruction and then never creates a gallery image.  Return
+        # to the project canvas before selecting settings or attaching references.
+        for _ in range(3):
+            body = page.evaluate("() => document.body.innerText.slice(0, 2000)") or ""
+            if "What do you want to change?" not in body:
+                break
+            page.keyboard.press("Escape")
+            page.wait_for_timeout(800)
+            body = page.evaluate("() => document.body.innerText.slice(0, 2000)") or ""
+            if "What do you want to change?" in body:
+                back = _leaf_spot(page, "Back")
+                if back:
+                    page.mouse.click(back["x"], back["y"])
+                    page.wait_for_timeout(1800)
         try:  # settings are best-effort — defaults still generate; never block on UI
             model_ok = ensure_settings(page, model)
         except Exception as e:
@@ -554,8 +590,10 @@ def cmd_gen(prompt, out, refs, model=None, model_required=True, size="2K"):
             " const el = els[els.length - 1];"
             " return (el.value ?? el.innerText ?? '').length; }")
         print(f"  prompt in box: {got} chars")
-        if not got:
-            raise SystemExit("prompt box still empty after typing")
+        if not got or got < min(1000, int(len(prompt) * 0.5)):
+            raise SystemExit(
+                f"prompt box incomplete after typing: expected {len(prompt)} chars, got {got}"
+            )
         page.keyboard.press("Enter")
         print("  submitted (Enter), waiting for the image...")
 
@@ -586,6 +624,7 @@ def cmd_gen(prompt, out, refs, model=None, model_required=True, size="2K"):
         if not newest:
             raise SystemExit("No new image appeared within 6 minutes.")
         page.wait_for_timeout(2000)
+        actual_size = size
         if size and size != "1K":
             try:
                 download_variant(page, newest, size, out)
@@ -598,6 +637,7 @@ def cmd_gen(prompt, out, refs, model=None, model_required=True, size="2K"):
                 data = page.evaluate(FETCH_JS, newest)
                 Path(out).parent.mkdir(parents=True, exist_ok=True)
                 Path(out).with_suffix(".size").write_text("1K")
+                actual_size = "1K"
                 print("  taking the 1K original instead", flush=True)
         else:
             data = page.evaluate(FETCH_JS, newest)
@@ -607,7 +647,7 @@ def cmd_gen(prompt, out, refs, model=None, model_required=True, size="2K"):
             raise SystemExit("Download failed (empty data URL).")
         Path(out).parent.mkdir(parents=True, exist_ok=True)
         Path(out).write_bytes(base64.b64decode(data.split(",", 1)[1]))
-    print(f"saved {out} ({Path(out).stat().st_size // 1024} KB, {size})")
+    print(f"saved {out} ({Path(out).stat().st_size // 1024} KB, {actual_size})")
 
 
 def main():
