@@ -6,12 +6,13 @@ Upright 9:16 frame from a reverent biblical epic photographed on location on
 35mm film. Photoreal actors, real skin, wet woven wool, weathered first-century
 wood, restrained grain, natural depth of field and directional light. Fourth
 watch of the night on the deep Sea of Galilee. Cold moonlight through broken
-storm cloud; one practical oil lamp only when the boat is present. Nobody poses
-or looks into the camera. Jesus uses the locked Jesus references and is the only
-person in cream. Peter uses the locked Peter references and wears a soaked
-blue-grey tunic. No halo, glow, divine beam, text, border, painting, cartoon,
-glossy CGI, modern objects, duplicate people, fused anatomy, or body/object
-intersections.
+storm cloud; moonlight is the only visible light source. Do not show a lantern,
+glass lamp, oil lamp, flame, torch, or artificial orange glow anywhere on the
+boat. Nobody poses or looks into the camera. Jesus uses the locked Jesus
+references and is the only person in cream. Peter uses the locked Peter
+references and wears a soaked blue-grey tunic. No halo, glow, divine beam, text,
+border, painting, cartoon, glossy CGI, modern objects, duplicate people, fused
+anatomy, or body/object intersections.
 
 ## Shot prompts
 
@@ -33,8 +34,8 @@ ground.
 
 A first-century fishing boat fights a deep-water gale, bow climbing a steep
 black swell as spray bursts over six drenched disciples working ropes and oars.
-The mast is secure, sail tightly furled, and one protected lamp remains lit.
-Jesus is absent.
+The mast is secure and the sail tightly furled. Moonlight is the only light;
+there is no lantern, lamp, flame, or artificial glow. Jesus is absent.
 
 ### 04 — Something on the water
 
@@ -126,8 +127,8 @@ one hand on the rail, preparing to board; crop before Jesus’s feet.
 
 Wide view of a single first-century boat resting motionless on a black glass
 sea. One moon and a field of stars reflect in perfectly calm water; clouds
-peel back and one warm boat lamp remains. The small boat sits low beneath an
-enormous quiet sky.
+peel back. Moonlight is the only light; the boat has no lantern, lamp, flame,
+or artificial glow. The small boat sits low beneath an enormous quiet sky.
 
 ### 18 — Worshipped him
 

@@ -13,7 +13,7 @@ touching anything else. Do NOT edit by hand.
 | 1 | UNFIXED | Back ground sound problem again when Jesus was talking. |
 | 4 | newer cut shipped — VERIFY fixed | Captions are messed up at 38 - 46 seconds |
 | 6 | UNFIXED | Your shortening of the videos has gotten out of hand. In this one the father didnt really ask either son anything and thats not how Jesus tsught it. It can be shorter than the original but it has to hit all of the points well. And here you cut out the original thing the father asked the sons |
-| 7 | UNFIXED | 1:05 — Peter asking Jesus to bid/call him out onto the water is missing. V2 must preserve the original full-length audio and words; upgrade the visuals only and remove nothing. |
+| 7 | newer cut shipped — VERIFY fixed | The boat should not have modern glass lamps. Remove every glass/artificial boat lamp and its orange glow, use moonlight only, and study the Matthew 14 scene more carefully. |
 | 10 | UNFIXED | Still to short |
 | 12 | newer cut shipped — VERIFY fixed | Captions are off at 1 minute |
 | 13 | newer cut shipped — VERIFY fixed | Some of the pictures need to be redone. I hope you can figure out which ones if not i will get.you to design a bot or find a better ai |

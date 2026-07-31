@@ -79,8 +79,8 @@
   },
   "7": {
     "open": true,
-    "latest": "1:05 — Peter asking Jesus to bid/call him out onto the water is missing. V2 must preserve the original full-length audio and words; upgrade the visuals only and remove nothing.",
-    "reportedAgainst": "47880b1a8927cfdceaf5ff1f29b21cdc08aadaf4",
+    "latest": "The boat should not have modern glass lamps. Remove every glass/artificial boat lamp and its orange glow, use moonlight only, and study the Matthew 14 scene more carefully.",
+    "reportedAgainst": "4461d3edff0187be42c0cf6f309d417099c693bd",
     "resolvedBy": null,
     "history": [
       {
@@ -92,6 +92,11 @@
         "text": "1:05 — Peter asking Jesus to bid/call him out onto the water is missing. V2 must preserve the original full-length audio and words; upgrade the visuals only and remove nothing.",
         "hash": "47880b1a8927cfdceaf5ff1f29b21cdc08aadaf4",
         "createdAt": "2026-07-31T01:36:42.447Z"
+      },
+      {
+        "text": "The boat should not have modern glass lamps. Remove every glass/artificial boat lamp and its orange glow, use moonlight only, and study the Matthew 14 scene more carefully.",
+        "hash": "4461d3edff0187be42c0cf6f309d417099c693bd",
+        "createdAt": "2026-07-31T06:39:05.802Z"
       }
     ]
   },

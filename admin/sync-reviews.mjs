@@ -75,7 +75,9 @@ snap.forEach((doc) => {
       ? d.complaintHistory.map((item) => ({
           text: String(item.text || ''),
           hash: item.hash || null,
-          createdAt: item.createdAt || null,
+          createdAt: item.createdAt && item.createdAt.toDate
+            ? item.createdAt.toDate().toISOString()
+            : (item.createdAt || null),
         })).filter((item) => item.text)
       : [];
     if (!history.some((item) => item.text === d.complaint

@@ -17,13 +17,14 @@ reverent standard Cameron approved on 2026-07-30.
 
 | # | Story | V2 state | Reviewer candidate |
 |---|-------|----------|--------------------|
-| 07 | Peter Walks on Water (Matthew 14) | **V5 awaiting Cameron** 🟡 — V4 visuals retained; rejected shortened audio replaced with the complete authoritative stream | [▶ Peter V5](media-production-v2/codex-test-07-peter-water/video-build/peter-walks-on-water-codex-test-v5.mp4) |
+| 07 | Peter Walks on Water (Matthew 14) | **V6 awaiting Cameron** 🟡 — all seven glass/artificial boat lamps removed; moonlight only; complete authoritative Alexander audio remains packet-identical | [▶ Peter V6](media-production-v2/codex-test-07-peter-water/video-build/peter-walks-on-water-codex-test-v6.mp4) |
 
 New V2 cuts are published to the Firebase reviewer at
 `https://milk-b4-meat.web.app/review.html`. That board shows only this new visual
 wave and keeps each exact cut in **Unwatched**, **Approved**, or
-**Complained About**. Complaints remain attached through replacement cuts until
-Cameron approves the exact version that fixed them.
+**Complained About**. The exact cut Cameron reported stays in **Complained
+About**. A replacement returns to **Unwatched**, while retaining the earlier
+complaint for Cameron to check, until he approves or reports that replacement.
 
 The July 11 tables below are the historical V1 production record. Their former
 "never show Jesus's face" rule is superseded for this V2 rebuild by the approved,

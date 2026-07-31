@@ -63,7 +63,7 @@
 <header>
   <h1>Milk Before Meat — Video Review</h1>
   <p class="sub">This page now shows only the <b>new high-quality visual rebuilds</b>. Watch each cut, tap <b>Approve</b> if it is ready, or <b>Report a problem</b> and type exactly what needs fixing. Every decision saves immediately.</p>
-  <p class="sub">A complaint stays attached to that story and remains in <b>Complained About</b> through every replacement cut until you approve the exact version that fixed it. This review page does not change the app.</p>
+  <p class="sub">A complaint stays attached to that story. The exact cut you reported stays in <b>Complained About</b>; each replacement returns to <b>Unwatched</b> so you can judge it fresh. This review page does not change the app.</p>
   <p id="status" class="sub">Connecting…</p>
 </header>
 <div class="wrap">
@@ -120,11 +120,11 @@
 <div class="actions"><button class="approve" id="appbtn6" onclick="toggleApprove(6)">Approve</button><button class="cbtn" onclick="toggleBox(6)">🚩 Report a problem</button></div>
 <div class="cbox" id="cbox6" hidden><textarea id="ctext6" rows="2" placeholder="What is wrong with this video?"></textarea><br><button class="csave" onclick="saveComplaint(6)">Save complaint</button></div>
 <div class="cshow" id="cshow6"></div></div>
-<div class="card" id="v7" data-num="7" data-hash="4461d3edff0187be42c0cf6f309d417099c693bd" data-review-wave="realistic-v2"><p class="title">07 — Peter Walks on Water<span class="meta"> · Matthew 14 · 3:45</span></p>
-<div class="flag voice">✅ V5 AUDIO-LOCKED — its complete audio stream is byte-for-byte identical to the authoritative Story 7 final</div>
-<div class="flag fixed">🛠 Fixed 2026-07-30: restored Peter asking Jesus to call him onto the water, including both the full narration and Matthew 14:28. The realistic V4 pictures remain; only the rejected shortened audio was replaced.</div>
+<div class="card" id="v7" data-num="7" data-hash="74212be464a366a1762deac958063b557209f522" data-review-wave="realistic-v2"><p class="title">07 — Peter Walks on Water<span class="meta"> · Matthew 14 · 3:45</span></p>
+<div class="flag voice">✅ V6 AUDIO-LOCKED — Jesus is Alexander; the complete audio stream is byte-for-byte identical to the authoritative Story 7 final</div>
+<div class="flag fixed">🛠 Fixed 2026-07-31: removed all seven glass/artificial boat lamps and their orange light; the scene now uses moonlight only. Peter’s complete request and Matthew 14:28 remain unchanged.</div>
 <div class="flags" id="flags7"></div>
-<video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production-v2/codex-test-07-peter-water/video-build/peter-walks-on-water-codex-test-v5.mp4?v=4461d3edff01"></video>
+<video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production-v2/codex-test-07-peter-water/video-build/peter-walks-on-water-codex-test-v6.mp4?v=74212be464a3"></video>
 <div class="actions"><button class="approve" id="appbtn7" onclick="toggleApprove(7)">Approve</button><button class="cbtn" onclick="toggleBox(7)">🚩 Report a problem</button></div>
 <div class="cbox" id="cbox7" hidden><textarea id="ctext7" rows="2" placeholder="What is wrong with this video?"></textarea><br><button class="csave" onclick="saveComplaint(7)">Save complaint</button></div>
 <div class="cshow" id="cshow7"></div></div>
@@ -1689,9 +1689,11 @@ function place(){
     var approvedNow = d.approved && d.approvedHash===hash;
     var complaintOpen = typeof d.complaintOpen === 'boolean'
       ? d.complaintOpen : !!(d.complaint && !d.approved);
-    var complaintActive = !!(d.complaint && complaintOpen);
+    var complaintForThisCut = !!(d.complaint && complaintOpen
+      && (!d.complaintHash || d.complaintHash===hash));
+    var replacementForComplaint = !!(d.complaint && complaintOpen
+      && d.complaintHash && d.complaintHash!==hash);
     var rebuiltAfterAppr = d.approved && d.approvedHash && d.approvedHash!==hash;
-    var fixedByNewCut = complaintActive && d.complaintHash && d.complaintHash!==hash;
     var machineReason = card.dataset.machineReason || "";
 
     var btn=document.getElementById('appbtn'+num);
@@ -1700,22 +1702,25 @@ function place(){
     card.className = "card" + (approvedNow?" approved":"");
 
     var flags=document.getElementById('flags'+num); flags.innerHTML='';
-    if(fixedByNewCut)
-      flags.innerHTML += '<div class="flag fixed">\u2705 A newer cut is ready. Re-watch it; your original complaint stays open until you approve.</div>';
+    if(replacementForComplaint)
+      flags.innerHTML += '<div class="flag fixed">\ud83c\udd95 Replacement cut \u2014 returned to Unwatched. Re-watch it against your earlier complaint.</div>';
     if(rebuiltAfterAppr)
       flags.innerHTML += '<div class="flag new">\ud83d\udd01 NEW cut \u2014 changed since you approved it. Re-watch.</div>';
 
     var cshow=document.getElementById('cshow'+num); cshow.innerHTML='';
-    if(complaintActive)
+    if(complaintForThisCut)
       cshow.innerHTML += '<div class="cmsg">\ud83d\udea9 Your complaint: '+esc(d.complaint)
-        +'<br><b>This stays open until you approve the fixed cut.</b></div>';
+        +'<br><b>This is the exact cut you reported.</b></div>';
+    else if(replacementForComplaint)
+      cshow.innerHTML += '<div class="cmsg">\ud83d\udccb Previous complaint to check in this replacement: '
+        +esc(d.complaint)+'</div>';
     else if(approvedNow && d.complaint)
       cshow.innerHTML += '<div class="cmsg resolved">\u2705 Previously reported and now approved: '
         +esc(d.complaint)+'</div>';
     if(machineReason)
       cshow.innerHTML += '<div class="cmsg">\ud83d\udd27 '+esc(machineReason)+'</div>';
 
-    var dest = (machineReason || complaintActive) ? rework : (approvedNow ? approved : review);
+    var dest = (machineReason || complaintForThisCut) ? rework : (approvedNow ? approved : review);
     if(dest===review){ (card.dataset.reviewWave==='realistic-v2' ? reviewNew : reviewOld).push(card); nR++; }
     else { dest.appendChild(card); if(dest===approved) nA++; else nW++; }
   });

@@ -58,3 +58,42 @@ final crop, Ken Burns motion, and caption burn-in. They passed:
 The matching audio-stream hashes prove the delivered V5 contains the exact
 authoritative final audio packets. No voice, word, pause, gain, or encoding was
 changed by the visual rebuild.
+
+## V6 lamp correction and rendered-video review
+
+V6 removes the modern glass/artificial boat lamps from shots 03, 04, 06, 08,
+16, 17, and 18. Each edit was compared with its prior source before assembly.
+The accepted edits retain the people, faces, limbs, clothing, boat geometry,
+weather, and framing while reconstructing only the lamp area. Moonlight is the
+only visible light source.
+
+Rendered frames from all seven affected picture slots were extracted after the
+final crop, motion, and captions. They contain no glass lamp or artificial
+orange lamp glow. Shot 08 still shows Peter's leg passing cleanly over the
+gunwale, and shot 16 still shows two complete legs without a hull intersection.
+
+### V6 technical verification
+
+- Full video/audio decode: passed
+- Resolution: 1080×1920
+- Frame rate: 30 fps
+- Video/audio codecs: H.264/AAC
+- Runtime: 225.167 seconds
+- File size: 19,153,727 bytes
+- Black interval longer than 0.5 seconds: none
+- Silence longer than 2.5 seconds: none
+- V6 audio-stream SHA-256:
+  `7602933755c1b8716ca3a2614565674a635c3d3766bacba56021976a6908b2bd`
+- V6 file SHA-256:
+  `b621f7cb6b2962a5815f714f9c45897055276133b3ddca6063fe5628c3fff15d`
+
+The V1, V5, and V6 audio-stream hashes match exactly. V6 changes pictures only.
+
+## Jesus voice verification
+
+The three current Story 7 Jesus clips (`j1`, `j2`, and `j3`) are the exact files
+committed in the 2026-07-24 Story 7 voice render. That render's voice mapping is
+Alexander (`UMnEnzK9QLLdRwnUyxMW`), and the ElevenLabs account history records
+the same three lines under Alexander immediately before the files were
+committed. The repository-wide Jesus voice audit also records all three Story 7
+lines as Alexander matches.

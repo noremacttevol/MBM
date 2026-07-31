@@ -214,9 +214,10 @@ They are rules. Build toward them; do not walk them back.
   Cameron's earlier complaints so the same defect is not handed back to him.
 - New cuts go to `site/review.html`, which is the version-locked review board for
   this wave. Its states are **Unwatched**, **Approved**, and **Complained About**.
-  A complaint remains open through replacement cuts until Cameron approves the
-  exact fixed version. Do not replace an app video merely because a candidate
-  rendered successfully.
+  The exact cut Cameron reported stays in **Complained About**. A replacement
+  hash returns to **Unwatched**, with the earlier complaint still attached for
+  comparison, until Cameron approves or reports the replacement. Do not replace
+  an app video merely because a candidate rendered successfully.
 
 1. **Short onboarding, then a story on every cold open.** First launch is a FAST
    opening that collects only the basics (chiefly a past/present faith-background

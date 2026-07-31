@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Assemble Peter Walks on Water V5 with the complete locked V1 audio.
+"""Assemble a Peter Walks on Water visual cut with the complete locked V1 audio.
 
 V2 PICTURE REBUILD. Only the pictures change. The segment text, timing sidecars,
 and final AAC stream are read directly from the authoritative V1 build. No audio
@@ -13,8 +13,11 @@ the marker words are actually spoken.
 Captions burn in over the new stills; caption law unchanged (bottom band only,
 chunked in sync). NO music bed — narration and intentional silence only.
 
-Output: peter-walks-on-water-codex-test-v5.mp4,
+Default output: peter-walks-on-water-codex-test-v5.mp4,
 1080x1920 H.264 30fps, <25MB.
+
+Set MBM_CUT=v6 to build the matching assets-v6/segs-v6/output-v6 files with
+the same assembler and audio lock.
 """
 import importlib.util
 import json
@@ -40,8 +43,15 @@ _spec.loader.exec_module(make_narration)
 from mbm_caption_timing import caption_filter
 from mbm_speakers import is_scripture
 
-A = str(HERE / "assets-v4")
-S = str(HERE / "segs-v5")
+CUT = os.environ.get("MBM_CUT", "v5")
+if not re.fullmatch(r"v[0-9]+", CUT):
+    raise SystemExit(f"invalid MBM_CUT: {CUT!r}")
+ASSET_CUT = os.environ.get("MBM_ASSET_CUT", "v4" if CUT == "v5" else CUT)
+if not re.fullmatch(r"v[0-9]+", ASSET_CUT):
+    raise SystemExit(f"invalid MBM_ASSET_CUT: {ASSET_CUT!r}")
+A = HERE / f"assets-{ASSET_CUT}"
+A_FALLBACK = HERE / "assets-v4"
+S = str(HERE / f"segs-{CUT}")
 FPS = 30
 FF = "ffmpeg"
 FPROBE = "ffprobe"
@@ -118,6 +128,14 @@ def run(cmd):
     subprocess.run(cmd, check=True, capture_output=True)
 
 
+def asset_file(name):
+    """Use a cut-specific override when present, otherwise the locked V4 still."""
+    override = A / name
+    if override.exists():
+        return str(override)
+    return str(A_FALLBACK / name)
+
+
 def dur_of(path):
     out = subprocess.run(
         [FPROBE, "-v", "error", "-show_entries", "format=duration",
@@ -184,7 +202,7 @@ def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, speaker, first, la
     if len(src) == 1:
         img = src[0][0]
         fc = f"[0:v]{_zoompan(zdir, int(dur * FPS))}{cap}{tail}[v]"
-        run([FF, "-y", "-loop", "1", "-i", f"{A}/{img}", "-t", str(dur),
+        run([FF, "-y", "-loop", "1", "-i", asset_file(img), "-t", str(dur),
              "-filter_complex", fc, "-map", "[v]"] + ENC + [f"{S}/{seg_id}.mp4"])
         return
     cuts = [0.0] + [LEAD + marker_time(seg_id, m) for _s, m in src[1:]] + [dur]
@@ -195,7 +213,7 @@ def build_still(seg_id, src, dur, zdir, spoken_end, cap_text, speaker, first, la
             raise SystemExit(f"STORY-COVERAGE: switch times out of order in {seg_id}")
         zd = zdir if i % 2 == 0 else ("out" if zdir == "in" else "in")
         out = f"{S}/{seg_id}_p{i}.mp4"
-        run([FF, "-y", "-loop", "1", "-i", f"{A}/{img}", "-t", f"{d:.3f}",
+        run([FF, "-y", "-loop", "1", "-i", asset_file(img), "-t", f"{d:.3f}",
              "-filter_complex", f"[0:v]{_zoompan(zd, max(1, int(d * FPS)))}[v]",
              "-map", "[v]"] + ENC + [out])
         subs.append(out)
@@ -251,7 +269,7 @@ def main():
         raise SystemExit(f"locked V1 final is missing: {LOCKED_FINAL}")
 
     missing = [img for _s, src, _z in BEATS for img, _m in src
-               if not os.path.exists(f"{A}/{img}")]
+               if not os.path.exists(asset_file(img))]
     if missing:
         raise SystemExit("missing stills: " + ", ".join(sorted(set(missing))))
 
@@ -319,9 +337,9 @@ def main():
          "-c", "copy", f"{S}/video_silent.mp4"])
 
     # AUDIO LOCK: stream-copy the already-approved final audio from V1. This is
-    # stronger than rebuilding a mix from the same clips: the AAC packets in V5
-    # must hash exactly the same as V1.
-    OUT = str(HERE / "peter-walks-on-water-codex-test-v5.mp4")
+    # stronger than rebuilding a mix from the same clips: the AAC packets in
+    # every visual cut must hash exactly the same as V1.
+    OUT = str(HERE / f"peter-walks-on-water-codex-test-{CUT}.mp4")
     A_KBPS, MUX = 128, 20
     vcap = max(500, int(24.0 * 8000 / total) - A_KBPS - MUX)
     size, crf = 0.0, 20

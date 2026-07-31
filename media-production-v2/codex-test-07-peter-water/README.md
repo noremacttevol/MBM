@@ -6,7 +6,7 @@ timing.
 
 ## Deliverable
 
-`video-build/peter-walks-on-water-codex-test-v5.mp4`
+`video-build/peter-walks-on-water-codex-test-v6.mp4`
 
 The video contains 18 distinct Codex-directed story pictures used across 26
 timed picture slots, plus the existing closing card.
@@ -16,12 +16,18 @@ cut because its special build folder contained a shortened audio copy. V5 reads
 the authoritative Story 7 text and timing in place and stream-copies the
 authoritative final AAC audio without re-encoding it.
 
+V6 uses that same locked build path and packet-identical audio. It removes the
+seven modern glass/artificial boat lamps identified after V5, retains the
+accepted people and compositions, and uses moonlight as the only visible light
+source.
+
 ## Supporting material
 
 - `PROMPTS.md` — final shared direction and all 18 shot prompts
 - `QC.md` — source-picture, rendered-shot, and technical verification
-- `assets-source/` — accepted generated PNG sources
-- `video-build/assets-v4/` — normalized build pictures
+- `assets-source-v6/` — seven accepted lamp-removal source edits
+- `video-build/assets-v6/` — seven normalized V6 overrides; the assembler falls
+  back to the locked V4 picture for every unchanged shot
 
 ## Resolution note
 
