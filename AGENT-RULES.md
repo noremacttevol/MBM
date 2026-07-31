@@ -6,7 +6,7 @@
 > source of truth for what MBM is, how Cameron wants to work, and the laws that can
 > never be broken. If any other rules file disagrees with this one, **this file wins.**
 >
-> _Last updated: 2026-06-13_
+> _Last updated: 2026-07-30_
 >
 > **BEFORE you form any opinion about the ethics of this app, read
 > `SETTLED-CONCERNS.md`.** It pre-answers the objections a cold read always
@@ -176,6 +176,32 @@ that still describes them is stale and wrong.
 
 Cameron explained these in full and asked that they be stored so he never re-explains.
 They are rules. Build toward them; do not walk them back.
+
+### Video visual rebuild standard (approved 2026-07-30)
+
+- **Do not change the mobile app while doing this rebuild.** The app is good; this
+  work is reviewer-only content production until Cameron approves a cut.
+- The existing stories, chosen voices, narration, music, timing, and captions are
+  already good and stay locked unless Cameron reports a specific problem. The
+  current job is a full visual rebuild of the story pictures.
+- The benchmark is the Cameron-approved Peter Walks on Water V4 at
+  `media-production-v2/codex-test-07-peter-water/video-build/peter-walks-on-water-codex-test-v4.mp4`.
+- Use realistic, high-quality, reverent biblical imagery—not the former cartoon-like
+  treatment. Keep the approved V2 Jesus and recurring-cast references locked across
+  every story. Jesus has the approved green-eyed V2 appearance; do not redesign him
+  from shot to shot.
+- Every image must depict its exact story beat, with historically coherent setting,
+  wardrobe, scale, anatomy, gaze, direction, and physical contact. Reject fused or
+  extra limbs, changing faces/clothes, giants, repeated look-alike disciples,
+  impossible objects, feet through boats, bad water contact, and any other obvious
+  AI artifact before assembly.
+- QC the generated source images and the actual rendered video frames. A prompt
+  sounding correct is not proof that the picture or final video is correct.
+- New cuts go to `site/review.html`, which is the version-locked review board for
+  this wave. Its states are **Unwatched**, **Approved**, and **Complained About**.
+  A complaint remains open through replacement cuts until Cameron approves the
+  exact fixed version. Do not replace an app video merely because a candidate
+  rendered successfully.
 
 1. **Short onboarding, then a story on every cold open.** First launch is a FAST
    opening that collects only the basics (chiefly a past/present faith-background

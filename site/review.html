@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MBM — Story Videos</title>
+<title>MBM — Video Review</title>
 <style>
   :root { color-scheme: dark; }
   * { box-sizing: border-box; }
@@ -48,9 +48,7 @@
            border: 0; border-radius: 8px; padding: 8px 12px; font-weight: 600; }
   .cshow .cmsg { border-radius: 8px; padding: 8px 10px; margin: 8px 0 0; font-size: 13px;
                  background: #2a1414; border: 1px solid #6a2a2a; color: #f0b4b4; }
-  .cshow .cmsg .clear { margin-left: 6px; font-size: 12px; background: transparent;
-                        color: #f0b4b4; border: 1px solid #6a2a2a; border-radius: 6px;
-                        padding: 2px 6px; cursor: pointer; }
+  .cshow .cmsg.resolved { background: #14210f; border-color: #2e5a24; color: #b6e6a4; }
   .flag { border-radius: 8px; padding: 8px 10px; margin: 0 0 8px; font-size: 13px; font-weight: 600; }
   .flag.new { background: #2a2410; border: 1px solid #6a5a1e; color: #e8cf7a; }
   .flag.fixed { background: #14210f; border: 1px solid #2e5a24; color: #b6e6a4; }
@@ -63,17 +61,18 @@
 </head>
 <body>
 <header>
-  <h1>Milk Before Meat — New-Caption Review</h1>
-  <p class="sub">These are the videos re-done with the <b>new captions</b> — the only ones here. Watch each, tap <b>Approve</b> if the captions are good, or <b>Report a problem</b> to flag it. Both save the second you tap. More appear as they're re-captioned.</p>
-  <p class="sub">201 passed QC and are ready to review · 2 held back (still old voice / not fully re-made) so you never watch a bad one.</p>
+  <h1>Milk Before Meat — Video Review</h1>
+  <p class="sub">This page now shows only the <b>new high-quality visual rebuilds</b>. Watch each cut, tap <b>Approve</b> if it is ready, or <b>Report a problem</b> and type exactly what needs fixing. Every decision saves immediately.</p>
+  <p class="sub">A complaint stays attached to that story and remains in <b>Complained About</b> through every replacement cut until you approve the exact version that fixed it. This review page does not change the app.</p>
   <p id="status" class="sub">Connecting…</p>
 </header>
 <div class="wrap">
-  <h2 id="rh">🟡 Needs your review</h2>
+  <h2 id="rh">🟡 Unwatched</h2>
   <div id="review"></div>
-  <h2 class="done-head">Done — tap to open</h2>
+  <p id="review-empty" class="note" hidden>Nothing is waiting right now. New rebuilds will appear here automatically.</p>
+  <h2 class="done-head">Sorted — tap to open</h2>
   <details><summary id="ah">✅ Approved</summary><div id="approved"></div></details>
-  <details><summary id="wh">🔧 Being reworked</summary><div id="rework"></div></details>
+  <details><summary id="wh">🚩 Complained About</summary><div id="rework"></div></details>
   <div id="pool" hidden>
 <div class="card" id="v1" data-num="1" data-hash="a3c6aa6415aee3f7804688aa9e1b0b2e8acf6a0e" data-newvoice="1"><p class="title">01 — Woman Who Touched His Cloak<span class="meta"> · Mark 5 · 1:49</span></p>
 <div class="flag voice">✅ QC-VERIFIED — real new voice, no scripture echo, plays start to finish</div>
@@ -121,11 +120,11 @@
 <div class="actions"><button class="approve" id="appbtn6" onclick="toggleApprove(6)">Approve</button><button class="cbtn" onclick="toggleBox(6)">🚩 Report a problem</button></div>
 <div class="cbox" id="cbox6" hidden><textarea id="ctext6" rows="2" placeholder="What is wrong with this video?"></textarea><br><button class="csave" onclick="saveComplaint(6)">Save complaint</button></div>
 <div class="cshow" id="cshow6"></div></div>
-<div class="card" id="v7" data-num="7" data-hash="59ea85d54bd3653e773d4d57c9f80caa3cb72b62" data-newvoice="1"><p class="title">07 — Peter Walks on Water<span class="meta"> · Matthew 14 · 3:32</span></p>
-<div class="flag voice">✅ QC-VERIFIED — real new voice, no scripture echo, plays start to finish</div>
-<div class="flag fixed">🛠 What this cut changed (2026-07-28): narration re-recorded; build script updated</div>
+<div class="card" id="v7" data-num="7" data-hash="47880b1a8927cfdceaf5ff1f29b21cdc08aadaf4" data-review-wave="realistic-v2"><p class="title">07 — Peter Walks on Water<span class="meta"> · Matthew 14 · 3:32</span></p>
+<div class="flag voice">✅ NEW QUALITY STANDARD — realistic, reverent imagery; original approved story, voices, timing, music, and captions preserved</div>
+<div class="flag fixed">🛠 What this cut changed (2026-07-30): every story image was rebuilt and visually checked, including boat and water contact. No app files were changed.</div>
 <div class="flags" id="flags7"></div>
-<video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production/build-07-peter-water/matthew-14_peter-walks-on-water.mp4?v=59ea85d54bd3"></video>
+<video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production-v2/codex-test-07-peter-water/video-build/peter-walks-on-water-codex-test-v4.mp4?v=47880b1a8927"></video>
 <div class="actions"><button class="approve" id="appbtn7" onclick="toggleApprove(7)">Approve</button><button class="cbtn" onclick="toggleBox(7)">🚩 Report a problem</button></div>
 <div class="cbox" id="cbox7" hidden><textarea id="ctext7" rows="2" placeholder="What is wrong with this video?"></textarea><br><button class="csave" onclick="saveComplaint(7)">Save complaint</button></div>
 <div class="cshow" id="cshow7"></div></div>
@@ -1676,7 +1675,6 @@
 <script>
 
 var CFG = {"apiKey": "AIzaSyC9xaj2MNJMf1pmTWC8Q5Rh3bDkYJZ8-eo", "authDomain": "milk-b4-meat.firebaseapp.com", "projectId": "milk-b4-meat", "storageBucket": "milk-b4-meat.firebasestorage.app", "messagingSenderId": "626094743218", "appId": "1:626094743218:web:acaa328d38c6aaf04f33ab"};
-var REJECTED = {"32": "NARRATION-ONLY (2026-07-17): \"kinder\" at 2:39 pronounced \"Kender\". Same narration-only fix. Was live \u2014 repost after fix.", "7": "\u2705 FIXED (Machine C 2026-07-17): all four items. (1)+(3) 6 sea stills rerolled \u2014 zoom-QC'd waterline, every figure's feet ON the surface with ripple rings, only sinking Peter in the water; walk direction locked by SIDE-VIEW geometry (Peter L\u2192R toward Jesus in s5, both L\u2192R toward the boat in s9). (2) the weird stills replaced, cleaner v4 art. (4) end card re-rendered per-line drawtext (build_card) \u2014 verified NO tofu. Bonus: Peter barefoot in every water shot for continuity. 20.2MB/4:16, decode-verified. Awaiting Cameron's re-watch.", "41": "\u2705 FIXED (Machine C 2026-07-17): \"forsaketh\" respelled \"forsayketh\" for TTS \u2014 whisper heard the rejected audio as \"for Saccath\" and hears the fix as the exact KJV word for-SAY-keth, verified in the final mix. Caption/KJV text untouched. End card per-line (no tofu). Rebuilt 24.9MB/6:17. Awaiting repost.", "17": "REJECTED 2026-07-17 \u2014 Cameron: not good. **DEFERRED \u2014 do NOT pick this up until ALL other videos are built and fixed.** Redo it last.", "179": "REGENERATED Machine A 2026-07-21 per Cameron's Firestore prompt: the Acts 7:55-56 vision now shows TWO distinct embodied personages (Father from locked sheet + Son at his right hand from master ref), no dove/symbol, milk-level; rebuilt, gated, shipped 22:15. Original directive preserved in git history.", "30": "\u2705 FIXED (Machine C 2026-07-17): the old \"uhs\" respell was the defect (read as \"Oz\"); new SPOKEN fix keeps the real word \"us\" with a clause-final period \u2014 whisper-verified \"of us\" in the final mix. End card re-rendered per-line (no tofu). Rebuilt 20.1MB/3:02, \u221215 LUFS, silences lawful. Awaiting repost."};
 var db = null, ready = false, STATE = {};
 
 function esc(s){ var d=document.createElement('div'); d.textContent=s||""; return d.innerHTML; }
@@ -1686,13 +1684,15 @@ function place(){
   var approved=document.getElementById('approved');
   var rework=document.getElementById('rework');
   var nR=0,nA=0,nW=0, reviewNew=[], reviewOld=[];
-  document.querySelectorAll('.card').forEach(function(card){
+  document.querySelectorAll('.card[data-review-wave="realistic-v2"]').forEach(function(card){
     var num=card.dataset.num, hash=card.dataset.hash, d=STATE[num]||{};
     var approvedNow = d.approved && d.approvedHash===hash;
-    var complaintActive = d.complaint && d.complaintHash===hash;
+    var complaintOpen = typeof d.complaintOpen === 'boolean'
+      ? d.complaintOpen : !!(d.complaint && !d.approved);
+    var complaintActive = !!(d.complaint && complaintOpen);
     var rebuiltAfterAppr = d.approved && d.approvedHash && d.approvedHash!==hash;
-    var fixedByNewCut = d.complaint && d.complaintHash && d.complaintHash!==hash;
-    var machineReason = REJECTED[num];
+    var fixedByNewCut = complaintActive && d.complaintHash && d.complaintHash!==hash;
+    var machineReason = card.dataset.machineReason || "";
 
     var btn=document.getElementById('appbtn'+num);
     btn.textContent = approvedNow ? "\u2713 Approved \u2014 tap to undo" : "Approve";
@@ -1700,54 +1700,69 @@ function place(){
     card.className = "card" + (approvedNow?" approved":"");
 
     var flags=document.getElementById('flags'+num); flags.innerHTML='';
-    if(fixedByNewCut && !complaintActive)
-      flags.innerHTML += '<div class="flag fixed">\u2705 Your complaint was addressed by a newer cut \u2014 re-watch to confirm.</div>';
+    if(fixedByNewCut)
+      flags.innerHTML += '<div class="flag fixed">\u2705 A newer cut is ready. Re-watch it; your original complaint stays open until you approve.</div>';
     if(rebuiltAfterAppr)
       flags.innerHTML += '<div class="flag new">\ud83d\udd01 NEW cut \u2014 changed since you approved it. Re-watch.</div>';
 
     var cshow=document.getElementById('cshow'+num); cshow.innerHTML='';
     if(complaintActive)
       cshow.innerHTML += '<div class="cmsg">\ud83d\udea9 Your complaint: '+esc(d.complaint)
-        +' <button class="clear" onclick="clearComplaint('+num+')">mark resolved</button></div>';
+        +'<br><b>This stays open until you approve the fixed cut.</b></div>';
+    else if(approvedNow && d.complaint)
+      cshow.innerHTML += '<div class="cmsg resolved">\u2705 Previously reported and now approved: '
+        +esc(d.complaint)+'</div>';
     if(machineReason)
       cshow.innerHTML += '<div class="cmsg">\ud83d\udd27 '+esc(machineReason)+'</div>';
 
     var dest = (machineReason || complaintActive) ? rework : (approvedNow ? approved : review);
-    if(dest===review){ (card.dataset.newvoice==='1' ? reviewNew : reviewOld).push(card); nR++; }
+    if(dest===review){ (card.dataset.reviewWave==='realistic-v2' ? reviewNew : reviewOld).push(card); nR++; }
     else { dest.appendChild(card); if(dest===approved) nA++; else nW++; }
   });
-  // New-voice re-makes go FIRST so Cameron sees what's actually ready.
+  // The newest visual rebuilds go first.
   reviewNew.forEach(function(c){ review.appendChild(c); });
   reviewOld.forEach(function(c){ review.appendChild(c); });
-  var vTxt = reviewNew.length ? (" \u2014 "+reviewNew.length+" with the NEW VOICES on top") : "";
-  document.getElementById('rh').textContent = "\ud83d\udfe1 Needs your review ("+nR+")"+vTxt;
+  document.getElementById('rh').textContent = "\ud83d\udfe1 Unwatched ("+nR+")";
   document.getElementById('ah').textContent = "\u2705 Approved ("+nA+")";
-  document.getElementById('wh').textContent = "\ud83d\udd27 Being reworked ("+nW+")";
+  document.getElementById('wh').textContent = "\ud83d\udea9 Complained About ("+nW+")";
+  document.getElementById('review-empty').hidden = nR !== 0;
 }
 
 function toggleApprove(num){
   if(!ready){ alert("Still connecting \u2014 give it a second, then tap again."); return; }
   var card=document.getElementById('v'+num), hash=card.dataset.hash, d=STATE[num]||{};
   var approvedNow = d.approved && d.approvedHash===hash;
-  db.collection('reviews').doc(String(num)).set({
+  var update = {
     approved: !approvedNow, approvedHash: hash,
     approvedAt: firebase.firestore.FieldValue.serverTimestamp()
-  }, {merge:true}).catch(function(e){ alert("Save failed: "+e.message); });
+  };
+  if(!approvedNow && d.complaint){
+    update.complaintOpen = false;
+    update.complaintResolvedHash = hash;
+    update.complaintResolvedAt = firebase.firestore.FieldValue.serverTimestamp();
+  }
+  db.collection('reviews').doc(String(num)).set(update, {merge:true})
+    .catch(function(e){ alert("Save failed: "+e.message); });
 }
-function toggleBox(num){ var b=document.getElementById('cbox'+num); b.hidden=!b.hidden; }
+function toggleBox(num){
+  var b=document.getElementById('cbox'+num); b.hidden=!b.hidden;
+  if(!b.hidden && STATE[num] && STATE[num].complaint)
+    document.getElementById('ctext'+num).value = STATE[num].complaint;
+}
 function saveComplaint(num){
   if(!ready){ alert("Still connecting \u2014 give it a second, then save again."); return; }
   var t=document.getElementById('ctext'+num).value.trim(); if(!t) return;
   var hash=document.getElementById('v'+num).dataset.hash;
   db.collection('reviews').doc(String(num)).set({
+    approved: false,
+    complaintOpen: true,
     complaint: t, complaintHash: hash,
-    complaintAt: firebase.firestore.FieldValue.serverTimestamp()
+    complaintAt: firebase.firestore.FieldValue.serverTimestamp(),
+    complaintHistory: firebase.firestore.FieldValue.arrayUnion({
+      text: t, hash: hash, createdAt: new Date().toISOString()
+    })
   }, {merge:true}).then(function(){ document.getElementById('cbox'+num).hidden=true; })
    .catch(function(e){ alert("Save failed: "+e.message); });
-}
-function clearComplaint(num){
-  if(!ready) return;
-  db.collection('reviews').doc(String(num)).set({ complaint:"", complaintHash:"" }, {merge:true});
 }
 
 place();  // show everything (in review) immediately, before the cloud loads

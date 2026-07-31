@@ -34,6 +34,15 @@ execSync('git ls-tree -r HEAD -- media-production',
     if (m) hashes[+m[1]] = h;
   });
 
+// The review page can point at a newer, reviewer-only candidate without
+// replacing the app's current media. Those cards are the source of truth for
+// this review wave, so their version-lock hashes override the app-media hashes.
+const reviewHtml = readFileSync(join(REPO, 'site', 'review.html'), 'utf8');
+const reviewCard = /<div class="card"[^>]*data-num="(\d+)"[^>]*data-hash="([0-9a-f]+)"[^>]*data-review-wave="realistic-v2"[^>]*>/g;
+for (const match of reviewHtml.matchAll(reviewCard)) {
+  hashes[+match[1]] = match[2];
+}
+
 const snap = await db.collection('reviews').get();
 const approvals = {};
 const complaints = [];
@@ -53,7 +62,9 @@ snap.forEach((doc) => {
   // complained about weeks-old and "cleared". Only his approval clears it now.
   // A hash mismatch just means a newer cut shipped SINCE the complaint — flag
   // it so the fixer re-verifies the complaint against the current cut.
-  if (d.complaint && !d.approved) {
+  const complaintOpen = typeof d.complaintOpen === 'boolean'
+    ? d.complaintOpen : !!(d.complaint && !d.approved);
+  if (d.complaint && complaintOpen) {
     const shippedSince = d.complaintHash && d.complaintHash !== cur;
     complaints.push({ num: +n, text: d.complaint, shippedSince });
   }

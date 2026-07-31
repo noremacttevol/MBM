@@ -2,9 +2,32 @@
 
 **This is the one file to look at. It shows what is DONE, what is IN PROGRESS,
 and what is still TO DO — with a link to watch or download every finished
-video.** Updated 2026-07-11.
+video.** Updated 2026-07-30.
 
 Repo: `github.com/noremacttevol/MBM`
+
+---
+
+## 🎬 CURRENT WORK — realistic V2 visual rebuild
+
+The mobile app is intentionally untouched. The existing scripts, chosen voices,
+narration, music, timing, and captions stay locked unless Cameron reports a
+specific defect. The story pictures are being fully rebuilt to the realistic,
+reverent standard Cameron approved on 2026-07-30.
+
+| # | Story | V2 state | Reviewer candidate |
+|---|-------|----------|--------------------|
+| 07 | Peter Walks on Water (Matthew 14) | **APPROVED by Cameron as the quality benchmark** ✅ | [▶ Peter V4](media-production-v2/codex-test-07-peter-water/video-build/peter-walks-on-water-codex-test-v4.mp4) |
+
+New V2 cuts are published to the Firebase reviewer at
+`https://milk-b4-meat.web.app/review.html`. That board shows only this new visual
+wave and keeps each exact cut in **Unwatched**, **Approved**, or
+**Complained About**. Complaints remain attached through replacement cuts until
+Cameron approves the exact version that fixed them.
+
+The July 11 tables below are the historical V1 production record. Their former
+"never show Jesus's face" rule is superseded for this V2 rebuild by the approved,
+locked V2 Jesus reference and the visual rules in `AGENT-RULES.md`.
 
 ---
 
@@ -25,7 +48,7 @@ dashboard. The detailed per-machine claim mechanics live in
 [`media-production/VIDEO-ASSIGNMENTS.md`](media-production/VIDEO-ASSIGNMENTS.md);
 this file is the at-a-glance summary of it.
 
-**The two current standards every finished video must meet (Cameron, 2026-07-11):**
+**Historical V1 standards (Cameron, 2026-07-11; superseded for V2):**
 1. **Jesus's face is NEVER shown** — real Middle-Eastern man seen only from
    behind / over-the-shoulder / at a distance (no white, no hood, no glow).
 2. **Phase 1 = STILLS ONLY** — pictures + narration, NO AI motion clips (they
