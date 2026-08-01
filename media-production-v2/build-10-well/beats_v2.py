@@ -53,17 +53,63 @@ emptiness is the POINT: she chose the hour with nobody in it. The one deliberate
 exception is b02, which shows the cool of the MORNING as the contrast the
 narration explicitly draws. The last three frames move to late afternoon as the
 town comes out and he stays — the narration takes it there ("by sundown").
+
+REALISTIC REBUILD (Session 10, 2026-08-01). The 32 stills in `assets/` are the
+2026-07-29 set: ALL 768x1376 (the resolution audit — this entire row generated
+inside Flow's upscaler-down window) AND under the Session 6 blanket rejection.
+They stay untouched as ROUGH-DRAFT composition references where their staging
+is defect-free; the realistic set generates fresh at native 2K into
+`assets-realistic/`. Roughs were individually reviewed 2026-08-01 and kept for
+ONLY six beats (b18 well curb, b32 fully-known wide, b40 two-alone wide, b42
+jar release, b43 jar + her running, b48 evening meal). Every other rough was
+DROPPED: camera-gaze (s17, s21, s34), an extra bystander mid-private-
+conversation (s24, s26), disciples talking instead of struck dumb (s41), and —
+the row's own defect class — THE JAR SHE LEFT reappearing in her hands after
+John 4:28 (s44, s45, s46, s47, s49). That jar-echo came from this file's own
+WOMAN lock ("She carries a large rounded clay water jar"), so per the row-9
+corollary the TEXT was hardened in the same edit: the jar clause is out of the
+lock, the early scenes carry the jar explicitly, and b44-b49 state her hands
+are empty. Expression close-ups generate free (the row-9 policy).
+
+TIMING (2026-08-01): all 49 windows verified against the FIXED extract_beats.py
+— every segment boundary and phrase split already matched the absolute times
+(audio_start + raw phrase time) to within 0.01 s, EXCEPT three intra-phrase
+sub-splits which sat 1.2-2.6 s late and were re-placed on the real pauses
+measured with faster-whisper + silencedetect on the actual V1 mp3s (which agree
+with the extractor's phrase ends): j1 a/b 116.0 -> 114.2 (the pause after
+"thirst again:"), j1 b/c 121.0 -> 118.4 (the pause after "shall never
+thirst;"), n6 b34/b35 187.0 -> 185.8 (the pause after "to worship on ---").
+The b39/b40 split (221.0) sits correctly in the measured pause after "his
+twelve ---" and was kept.
 """
 
+OUTPUT_ASSET_DIR = "assets-realistic"
+OUTPUT_VIDEO_NAME = "john-4_woman-at-the-well-realistic-v2.mp4"
+
+# Identity anchor by IMAGE (CAST-BIBLE principle; the row-2 CAST-DRIFT lesson —
+# text locks alone do not hold a face across 30+ frames). The Samaritan woman
+# is the row's one new recurring character; Jesus rides on JESUS-V2-REF and
+# Peter/John in b41 ride on the CAST-V2-REF library sheets.
+REFS = {
+    "WOMAN": "CAST-REF-V2/woman-ref.jpeg",
+}
+
 LOCKS = {
+    "CAMERA": (
+        "CAMERA LOCK: photographed like a real film still on location with a real "
+        "cinema lens — light arrives from ONE believable direction and models "
+        "faces with true shadow, shallow depth of field holds the subject sharp "
+        "while the background falls gently away, and every person is caught "
+        "mid-action in a truthful candid instant, never posed, never lined up, "
+        "and NEVER looking at the camera."
+    ),
     "WOMAN": (
         "SAMARITAN WOMAN LOCK: the woman is the same person in every shot — a "
         "Samaritan woman of about thirty-five, warm olive-brown skin, a strong "
         "handsome tired face with fine lines at the eyes, dark arched brows, and "
         "watchful guarded dark eyes. Her dark hair is bound back under a faded "
         "DUSTY-OCHRE headcloth. She wears a worn DEEP TERRACOTTA-RED wool robe with "
-        "a plain woven sash and old leather sandals (never cream, never white). She "
-        "carries a large rounded clay water jar. Her face is shown clearly."
+        "a plain woven sash and old leather sandals (never cream, never white). Her face is shown clearly."
     ),
     # SETTING LOCKS NAME NO CHARACTER (STRAY-JESUS defect).
     "WELL": (
@@ -103,7 +149,7 @@ BEATS = [
     {
         "id": "v2-r010-b01", "out": "s01-a-woman-at-noon.jpeg", "seg": "n0 p1",
         "window": "0.28-5.30", "wide": True, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "WELL"],
+        "locks": ["CAMERA", "WOMAN", "WELL"],
         "narration": ("A woman walked out to a well at noon — the hottest, emptiest "
                       "hour of the day."),
         "must_show": "one woman alone on a dusty road under a straight-overhead sun, jar on her shoulder, and an entirely empty landscape around her.",
@@ -122,7 +168,7 @@ BEATS = [
     {
         "id": "v2-r010-b02", "out": "s02-the-cool-of-the-morning.jpeg", "seg": "n0 p2-p3",
         "window": "5.30-12.07", "wide": True, "jesus": False, "ref": False,
-        "locks": ["WELL", "TOWN"],
+        "locks": ["CAMERA", "WELL", "TOWN"],
         "narration": ("You need to understand what that hour means. Women drew their "
                       "water in the cool of the morning, together."),
         "must_show": "THE CONTRAST FRAME — the same well in the cool early morning, busy with a dozen women drawing water together, talking and laughing.",
@@ -141,7 +187,7 @@ BEATS = [
     {
         "id": "v2-r010-b03", "out": "s03-where-the-talk-happened.jpeg", "seg": "n0 p4",
         "window": "12.07-14.09", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WELL"],
+        "locks": ["CAMERA", "WELL"],
         "narration": "It was where the talk happened.",
         "must_show": "close on three of the morning women with their heads together — one talking behind her hand, another's eyebrows going up, the third glancing off to the side.",
         "must_not_show": "not cartoonish gossip faces; ordinary women doing an ordinary human thing that happens to be lethal to somebody.",
@@ -158,7 +204,7 @@ BEATS = [
     {
         "id": "v2-r010-b04", "out": "s04-she-came-at-noon.jpeg", "seg": "n0 p5",
         "window": "14.09-16.50", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "WELL"],
+        "locks": ["CAMERA", "WOMAN", "WELL"],
         "narration": "She came at noon because of the talk.",
         "must_show": "close on her face on the noon road — set, closed, carrying it; a woman who has worked out exactly what hour costs her the least.",
         "must_not_show": "not weeping and not self-pitying — this is a practical arrangement she made with her own life.",
@@ -174,7 +220,7 @@ BEATS = [
     {
         "id": "v2-r010-b05", "out": "s05-the-whole-town-knew.jpeg", "seg": "n0 p6",
         "window": "16.50-23.80", "wide": True, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "TOWN"],
+        "locks": ["CAMERA", "WOMAN", "TOWN"],
         "narration": ("Five marriages behind her, living now with a man who wasn't her "
                       "husband — and the whole town knew every chapter."),
         "must_show": "her walking out through the town lane with her jar while women in doorways watch her go — eyes following, a head turning aside, one saying something to another.",
@@ -194,7 +240,7 @@ BEATS = [
     {
         "id": "v2-r010-b06", "out": "s06-the-hour-with-nobody-in-it.jpeg", "seg": "n0 p7-p8",
         "window": "23.80-27.71", "wide": True, "jesus": False, "ref": False,
-        "locks": ["WELL"],
+        "locks": ["CAMERA", "WELL"],
         "narration": "Noon was the hour with nobody in it. She chose it on purpose.",
         "must_show": "the well at noon, completely deserted — bleached stone, heat shimmer, not one person anywhere.",
         "must_not_show": "not one human figure in this frame, not even distant; the emptiness is the entire picture.",
@@ -211,7 +257,7 @@ BEATS = [
     {
         "id": "v2-r010-b07", "out": "s07-somebody-was-there.jpeg", "seg": "n1 p1",
         "window": "28.29-30.61", "wide": True, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "WELL"],
+        "locks": ["CAMERA", "WOMAN", "WELL"],
         "narration": "But this day, somebody was there.",
         "must_show": "her stopping on the rise as she catches sight of a seated figure at the well ahead — the figure small and distant, her body checking mid-step.",
         "must_not_show": "his face is not readable at this distance; do not attach a Jesus lock or ref to this beat.",
@@ -228,7 +274,7 @@ BEATS = [
     {
         "id": "v2-r010-b08", "out": "s08-worn-out-from-the-road.jpeg", "seg": "n1 p2",
         "window": "30.61-36.67", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["WELL"],
+        "locks": ["CAMERA", "WELL"],
         "narration": ("A traveler sat by the well, worn out from the road — a Jewish "
                       "man, resting in Samaria."),
         "must_show": "GENUINE EXHAUSTION: Jesus sitting slumped on the stone curb of the well in the noon heat, dusty, sweating, forearms on his knees — a tired man at the end of a long walk.",
@@ -248,7 +294,7 @@ BEATS = [
     {
         "id": "v2-r010-b09", "out": "s09-seven-hundred-years.jpeg", "seg": "n1 p3-p4",
         "window": "36.67-44.28", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN"],
+        "locks": ["CAMERA", "WOMAN"],
         "narration": ("That detail matters more than it sounds. Jews and Samaritans "
                       "had despised each other for seven hundred years."),
         "must_show": "her face changing as she takes in what he is — recognition, then a cold wary shutting-down.",
@@ -265,7 +311,7 @@ BEATS = [
     {
         "id": "v2-r010-b10", "out": "s10-everything-said-turn-around.jpeg", "seg": "n1 p5-p6",
         "window": "44.28-54.28", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["WOMAN", "WELL"],
+        "locks": ["CAMERA", "WOMAN", "WELL"],
         "narration": ("They didn't share roads if they could help it, didn't share "
                       "tables, and certainly didn't share water. Everything in her "
                       "body said: turn around."),
@@ -287,7 +333,7 @@ BEATS = [
     {
         "id": "v2-r010-b11", "out": "s11-he-asked-her-for-a-drink.jpeg", "seg": "n2 p1-p2",
         "window": "54.82-57.72", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["WOMAN", "WELL"],
+        "locks": ["CAMERA", "WOMAN", "WELL"],
         "narration": "Then he spoke to her. He asked her for a drink.",
         "must_show": "Jesus lifting his head and speaking to her across the ground, one hand come open toward the well — asking for something, not offering.",
         "must_not_show": "no halo, glare or rim-light; his posture must read as a REQUEST from a tired man, never as a teacher summoning someone.",
@@ -304,7 +350,7 @@ BEATS = [
     {
         "id": "v2-r010-b12", "out": "s12-how-impossible.jpeg", "seg": "n2 p3-p4",
         "window": "57.72-66.57", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN"],
+        "locks": ["CAMERA", "WOMAN"],
         "narration": ("Understand how impossible that sentence was. A rabbi did not "
                       "speak to an unknown woman in public — and no Jew asked a "
                       "Samaritan for anything."),
@@ -322,7 +368,7 @@ BEATS = [
     {
         "id": "v2-r010-b13", "out": "s13-he-needed-her-help.jpeg", "seg": "n2 p5",
         "window": "66.57-70.55", "wide": False, "jesus": True, "ref": REF,
-        "locks": ["WELL"],
+        "locks": ["CAMERA", "WELL"],
         "narration": ("He broke both walls at once, and he did it by needing her help."),
         "must_show": "close on Jesus — the ask is genuine, he is actually thirsty, and his open empty hands prove he has nothing to draw with.",
         "must_not_show": "no halo, glare or rim-light; no strategy or cleverness on his face — he really does want the water.",
@@ -339,7 +385,7 @@ BEATS = [
     {
         "id": "v2-r010-b14", "out": "s14-she-almost-laughed.jpeg", "seg": "n2 p6-p7",
         "window": "70.55-74.91", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN"],
+        "locks": ["CAMERA", "WOMAN"],
         "narration": ("She almost laughed. How is it that you, a Jew, would ask me for "
                       "water?"),
         "must_show": "a startled half-laugh breaking across her face — the first crack in the guard, disbelief turning into something almost amused.",
@@ -356,7 +402,7 @@ BEATS = [
     {
         "id": "v2-r010-b15", "out": "s15-living-water-offered.jpeg", "seg": "n2 p8",
         "window": "74.91-82.30", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["WOMAN", "WELL"],
+        "locks": ["CAMERA", "WOMAN", "WELL"],
         "narration": ("And he answered that if she knew who was asking, she would have "
                       "asked him — and he would have given her living water."),
         "must_show": "she has come closer — the gap from b10 visibly shorter — and he is speaking with an open hand, the conversation now genuinely underway.",
@@ -375,7 +421,7 @@ BEATS = [
     {
         "id": "v2-r010-b16", "out": "s16-a-woman-of-samaria.jpeg", "seg": "w9",
         "window": "82.82-88.02", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN"],
+        "locks": ["CAMERA", "WOMAN"],
         "narration": ("How is it that thou, being a Jew, askest drink of me, which am "
                       "a woman of Samaria? (John 4:9)"),
         "must_show": "close on her asking it — one hand turned up and out in a plain 'look at me' gesture, naming what she is.",
@@ -391,7 +437,7 @@ BEATS = [
     {
         "id": "v2-r010-b17", "out": "s17-the-well-is-deep.jpeg", "seg": "w11",
         "window": "89.52-96.34", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "WELL"],
+        "locks": ["CAMERA", "WOMAN", "WELL"],
         "narration": ("Sir, thou hast nothing to draw with, and the well is deep: from "
                       "whence then hast thou that living water? (John 4:11)"),
         "must_show": "her leaning over the well mouth and gesturing down into it — the dark shaft dropping away out of sight, and no rope or bucket anywhere near him.",
@@ -410,7 +456,8 @@ BEATS = [
     {
         "id": "v2-r010-b18", "out": "s18-jacobs-well.jpeg", "seg": "n3 p1-p2",
         "window": "97.84-105.64", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WELL"],
+        "locks": ["CAMERA", "WELL"],
+        "rough_ref": "assets/s18-jacobs-well.jpeg",
         "narration": ("She pointed out the obvious — the well is deep, sir, and you "
                       "don't even have a rope. This well came from Jacob himself."),
         "must_show": "the WELL ITSELF as the oldest thing in the frame — the massive curb worn into deep smooth rope grooves by centuries of hands.",
@@ -427,7 +474,7 @@ BEATS = [
     {
         "id": "v2-r010-b19", "out": "s19-are-you-greater.jpeg", "seg": "n3 p3-p4",
         "window": "105.64-109.09", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN"],
+        "locks": ["CAMERA", "WOMAN"],
         "narration": "Are you greater than Jacob? She meant it as a corner.",
         "must_show": "her chin up, one brow raised, testing him — a woman who has put a question in front of someone to see what he does with it.",
         "must_not_show": "not hostile — sharp and clever; do not put Jesus in this frame.",
@@ -442,7 +489,7 @@ BEATS = [
     {
         "id": "v2-r010-b20", "out": "s20-he-stepped-into-it.jpeg", "seg": "n3 p5",
         "window": "109.09-110.74", "wide": False, "jesus": True, "ref": REF,
-        "locks": ["WELL"],
+        "locks": ["CAMERA", "WELL"],
         "narration": "He stepped right into it.",
         "must_show": "Jesus leaning forward off the curb toward the question, entirely unbothered, the beginnings of a smile — a man walking straight into the trap on purpose.",
         "must_not_show": "no halo, glare or rim-light; no smugness — warmth and interest.",
@@ -458,8 +505,8 @@ BEATS = [
     # ------------------------------------------------------ j1 — living water ----
     {
         "id": "v2-r010-b21", "out": "s21-shall-thirst-again.jpeg", "seg": "j1 a",
-        "window": "111.28-116.0", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["WOMAN", "WELL"],
+        "window": "111.28-114.2", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "WOMAN", "WELL"],
         "narration": ("Whosoever drinketh of this water shall thirst again: (John 4:13)"),
         "must_show": "Jesus indicating the well and her jar as he says it — this water, the one she carries a jar for.",
         "must_not_show": "no halo, glare or rim-light; nothing supernatural in or above the well.",
@@ -474,8 +521,8 @@ BEATS = [
     },
     {
         "id": "v2-r010-b22", "out": "s22-shall-never-thirst.jpeg", "seg": "j1 b",
-        "window": "116.0-121.0", "wide": False, "jesus": True, "ref": REF,
-        "locks": [],
+        "window": "114.2-118.4", "wide": False, "jesus": True, "ref": REF,
+        "locks": ["CAMERA"],
         "narration": ("But whosoever drinketh of the water that I shall give him shall "
                       "never thirst; (John 4:14)"),
         "must_show": "close on Jesus saying it — quiet, certain, entirely serious, looking straight at her.",
@@ -491,8 +538,8 @@ BEATS = [
     },
     {
         "id": "v2-r010-b23", "out": "s23-springing-up.jpeg", "seg": "j1 c",
-        "window": "121.0-125.33", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN"],
+        "window": "118.4-125.33", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "WOMAN"],
         "narration": ("but the water that I shall give him shall be in him a well of "
                       "water springing up into everlasting life. (John 4:14)"),
         "must_show": "her face as the image lands — brows drawn, eyes searching his, working to follow something just past her reach.",
@@ -510,7 +557,7 @@ BEATS = [
     {
         "id": "v2-r010-b24", "out": "s24-not-the-water-in-the-jar.jpeg", "seg": "n4 p1-p2",
         "window": "126.70-132.43", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "WELL"],
+        "locks": ["CAMERA", "WOMAN", "WELL"],
         "narration": ("A well inside you — springing up, not running dry. He wasn't "
                       "talking about the water in the jar."),
         "must_show": "the clay jar set down on the stones and forgotten, still empty, with her feet beside it — she came here for this and has stopped thinking about it.",
@@ -528,7 +575,7 @@ BEATS = [
     {
         "id": "v2-r010-b25", "out": "s25-the-thirst-underneath.jpeg", "seg": "n4 p3-p4",
         "window": "132.43-138.40", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN"],
+        "locks": ["CAMERA", "WOMAN"],
         "narration": ("He was talking about the thirst underneath the thirst. The one "
                       "you can't carry a jar big enough for."),
         "must_show": "close on her face with the guard fully down for the first time — something old and tired and wanting showing through.",
@@ -545,7 +592,7 @@ BEATS = [
     {
         "id": "v2-r010-b26", "out": "s26-give-me-this-water.jpeg", "seg": "w15",
         "window": "138.93-143.79", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN"],
+        "locks": ["CAMERA", "WOMAN"],
         "narration": ("Sir, give me this water, that I thirst not, neither come hither "
                       "to draw. (John 4:15)"),
         "must_show": "her asking — leaning in, both hands come open toward him, the first thing she has genuinely wanted out loud in this conversation.",
@@ -562,7 +609,7 @@ BEATS = [
     {
         "id": "v2-r010-b27", "out": "s27-go-get-your-husband.jpeg", "seg": "n5 p1-p2",
         "window": "145.31-149.76", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["WOMAN", "WELL"],
+        "locks": ["CAMERA", "WOMAN", "WELL"],
         "narration": ("Then he said: go get your husband. And the whole conversation "
                       "changed.",),
         "must_show": "the simple question asked, and the temperature of the scene dropping — his face open and easy, hers going instantly still.",
@@ -580,7 +627,7 @@ BEATS = [
     {
         "id": "v2-r010-b28", "out": "s28-i-have-no-husband.jpeg", "seg": "n5 p3",
         "window": "149.76-151.56", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN"],
+        "locks": ["CAMERA", "WOMAN"],
         "narration": "I have no husband, she said.",
         "must_show": "close on her giving the short careful answer — eyes gone sideways off his face, chin down, the guard slamming back up.",
         "must_not_show": "she is not lying and does not look like a liar — she is giving the smallest true answer she can; do not put Jesus in this frame.",
@@ -595,7 +642,7 @@ BEATS = [
     {
         "id": "v2-r010-b29", "out": "s29-five-husbands.jpeg", "seg": "n5 p4-p6",
         "window": "151.56-158.45", "wide": False, "jesus": True, "ref": REF,
-        "locks": [],
+        "locks": ["CAMERA"],
         "narration": ("And he agreed with her — gently, and completely. Five husbands, "
                       "he said. And the man you have now is not one."),
         "must_show": "close on Jesus saying the hardest facts of her life — and the face saying them is GENTLE, with no accusation anywhere in it.",
@@ -612,7 +659,7 @@ BEATS = [
     {
         "id": "v2-r010-b30", "out": "s30-he-already-knew.jpeg", "seg": "n5 p7-p9",
         "window": "158.45-164.90", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN"],
+        "locks": ["CAMERA", "WOMAN"],
         "narration": ("He already knew. All of it. Every chapter the town whispered "
                       "about — he said it out loud, to her face."),
         "must_show": "her face completely exposed — stripped, braced, waiting for the disgust she has met a hundred times before.",
@@ -629,7 +676,7 @@ BEATS = [
     {
         "id": "v2-r010-b31", "out": "s31-he-did-not-turn-away.jpeg", "seg": "n5 p10-p11",
         "window": "164.90-168.44", "wide": False, "jesus": True, "ref": REF,
-        "locks": [],
+        "locks": ["CAMERA"],
         "narration": "And he did not turn away. He stayed in the conversation.",
         "must_show": "⚠️ THE FRAME THE WHOLE EXCHANGE EXISTS FOR. Jesus still looking straight at her, unchanged — no recoil, no shift, nothing withdrawn.",
         "must_not_show": "he must NOT look away, lean back, harden, or soften into pity. He simply stays. If anything in his face has changed since b29, regenerate. No halo, glare or rim-light.",
@@ -645,7 +692,8 @@ BEATS = [
     {
         "id": "v2-r010-b32", "out": "s32-fully-known.jpeg", "seg": "n5 p12",
         "window": "168.44-173.92", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["WOMAN", "WELL"],
+        "locks": ["CAMERA", "WOMAN", "WELL"],
+        "rough_ref": "assets/s32-fully-known.jpeg",
         "narration": ("She came for water, and found herself fully known — and still "
                       "spoken to with respect."),
         "must_show": "the two of them still together at the well, the conversation plainly continuing — nobody has walked away, and the empty jar sits forgotten on the stones.",
@@ -664,7 +712,7 @@ BEATS = [
     {
         "id": "v2-r010-b33", "out": "s33-thou-art-a-prophet.jpeg", "seg": "w19",
         "window": "174.47-177.21", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN"],
+        "locks": ["CAMERA", "WOMAN"],
         "narration": "Sir, I perceive that thou art a prophet. (John 4:19)",
         "must_show": "close on her saying it — the wariness entirely gone, replaced by careful, dawning recognition.",
         "must_not_show": "no fear and no flattery — she is working something out in front of him; do not put Jesus in this frame.",
@@ -679,8 +727,8 @@ BEATS = [
     # ------------------------------------------------- n6 — which mountain ----
     {
         "id": "v2-r010-b34", "out": "s34-which-mountain.jpeg", "seg": "n6 p1-p2a",
-        "window": "178.68-187.0", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["WOMAN", "WELL"],
+        "window": "178.68-185.8", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "WOMAN", "WELL"],
         "narration": ("She called him a prophet. She asked him her people's oldest "
                       "question — which mountain is the right one to worship on —"),
         "must_show": "her turning and gesturing up at the flank of MOUNT GERIZIM standing right there behind the well, asking the old question with the mountain itself in frame.",
@@ -698,8 +746,8 @@ BEATS = [
     },
     {
         "id": "v2-r010-b35", "out": "s35-god-is-spirit.jpeg", "seg": "n6 p2b",
-        "window": "187.0-194.35", "wide": False, "jesus": True, "ref": REF,
-        "locks": [],
+        "window": "185.8-194.35", "wide": False, "jesus": True, "ref": REF,
+        "locks": ["CAMERA"],
         "narration": ("and he told her the day was coming when the question itself "
                       "would be old news: God is spirit, and what he wants is the "
                       "heart."),
@@ -717,7 +765,7 @@ BEATS = [
     {
         "id": "v2-r010-b36", "out": "s36-when-he-comes.jpeg", "seg": "n6 p3-p4",
         "window": "194.35-201.70", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN"],
+        "locks": ["CAMERA", "WOMAN"],
         "narration": ("Then she said, almost to herself: When he comes, he'll explain "
                       "everything. And the tired traveler at the well said:"),
         "must_show": "her looking off and away as she says it, almost to herself — the hope of her whole people said out loud without expecting anything.",
@@ -734,7 +782,7 @@ BEATS = [
     {
         "id": "v2-r010-b37", "out": "s37-i-know-that-messiah-cometh.jpeg", "seg": "w25",
         "window": "202.32-208.12", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN"],
+        "locks": ["CAMERA", "WOMAN"],
         "narration": ("I know that Messiah cometh, which is called Christ: when he is "
                       "come, he will tell us all things. (John 4:25)"),
         "must_show": "close on her face saying it — quiet certainty about a thing she has believed her whole life and never expected to see.",
@@ -750,7 +798,7 @@ BEATS = [
     {
         "id": "v2-r010-b38", "out": "s38-i-that-speak-unto-thee.jpeg", "seg": "j2",
         "window": "209.92-211.59", "wide": False, "jesus": True, "ref": REF,
-        "locks": [],
+        "locks": ["CAMERA"],
         "narration": "I that speak unto thee am he. (John 4:26)",
         "must_show": "⚠️ THE DECLARATION. Close on Jesus saying it — quiet, plain, certain, looking straight at her. The first time he says it plainly to anyone.",
         "must_not_show": "no halo, glare or rim-light; NO grandeur, no raised chin, no proclamation — it is said quietly by a dusty exhausted man sitting on a well. That contrast is the entire point.",
@@ -768,7 +816,7 @@ BEATS = [
     {
         "id": "v2-r010-b39", "out": "s39-the-first-person-told.jpeg", "seg": "n7 p1a",
         "window": "213.11-221.0", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN"],
+        "locks": ["CAMERA", "WOMAN"],
         "narration": ("The first person Jesus ever told plainly that he was the "
                       "Messiah — not a king, not a priest, not even one of his twelve —"),
         "must_show": "her face receiving it — absolutely motionless, eyes enormous, everything arriving at once.",
@@ -784,7 +832,8 @@ BEATS = [
     {
         "id": "v2-r010-b40", "out": "s40-bottom-of-every-list.jpeg", "seg": "n7 p1b",
         "window": "221.0-227.98", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["WOMAN", "WELL"],
+        "locks": ["CAMERA", "WOMAN", "WELL"],
+        "rough_ref": "assets/s40-bottom-of-every-list.jpeg",
         "narration": ("a Samaritan woman with five marriages behind her, at the bottom "
                       "of every list her world kept."),
         "must_show": "the two of them alone in an enormous empty landscape — one tired man on a well and one ordinary woman, and nobody else in the world present for it.",
@@ -802,7 +851,7 @@ BEATS = [
     {
         "id": "v2-r010-b41", "out": "s41-the-disciples-came-back.jpeg", "seg": "n7 p2-p3",
         "window": "227.98-237.25", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["WOMAN", "DISCIPLES", "WELL"],
+        "locks": ["CAMERA", "WOMAN", "PETER", "JOHN", "DISCIPLES", "WELL"],
         "narration": ("Right then his followers came back from town, and stopped short "
                       "— stunned that he was talking with her at all. Nobody dared say "
                       "a word."),
@@ -811,8 +860,8 @@ BEATS = [
         "scene": (
             "The disciples have come up the road from town carrying bread and a basket "
             "of provisions and have stopped dead in a clump some way off, bunched "
-            "together. Every one of them is staring at the well — one has halted "
-            "mid-step with his foot still up, another's loaf has come down to his side "
+            "together. Every one of them is staring at the well — Peter at the front of the clump has halted "
+            "mid-step with his foot still up, young John's loaf has come down to his side "
             "forgotten, a third has turned to look at the man beside him with his "
             "eyebrows up. Not one of them is speaking or moving forward. At the well "
             "Jesus and the woman are still turned toward each other, undisturbed. Hard "
@@ -824,7 +873,8 @@ BEATS = [
     {
         "id": "v2-r010-b42", "out": "s42-she-left-the-jar.jpeg", "seg": "n8 p1-p2",
         "window": "237.78-240.35", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "WELL"],
+        "locks": ["CAMERA", "WOMAN", "WELL"],
+        "rough_ref": "assets/s42-she-left-the-jar.jpeg",
         "narration": "And look what she did. She left the jar.",
         "must_show": "her hands releasing the jar and leaving it on the stones — the moment of letting go of the thing she came for.",
         "must_not_show": "not dropping or breaking it — she sets it down and lets go; do not put Jesus in this frame.",
@@ -840,7 +890,8 @@ BEATS = [
     {
         "id": "v2-r010-b43", "out": "s43-and-she-ran.jpeg", "seg": "n8 p3",
         "window": "240.35-247.06", "wide": True, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "WELL"],
+        "locks": ["CAMERA", "WOMAN", "WELL"],
+        "rough_ref": "assets/s43-and-she-ran.jpeg",
         "narration": ("The thing she walked all that way in the heat to fill — she "
                       "left it standing at the well, and she ran.",),
         "must_show": "the empty jar standing alone on the well stones in the foreground, and her already running away up the road toward the town in the distance.",
@@ -859,11 +910,11 @@ BEATS = [
     {
         "id": "v2-r010-b44", "out": "s44-toward-the-town-she-avoided.jpeg", "seg": "n8b",
         "window": "247.65-253.58", "wide": True, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "TOWN"],
+        "locks": ["CAMERA", "WOMAN", "TOWN"],
         "narration": ("Ran toward the town she had spent years avoiding, to the very "
                       "people she came out at noon to miss, shouting:"),
         "must_show": "her running IN through the town gateway and up the lane — into the exact doorways whose eyes she walked past at the start.",
-        "must_not_show": "no shame in her posture at all; head up, going straight at them; do not put Jesus in this frame.",
+        "must_not_show": "no shame in her posture at all; head up, going straight at them; do not put Jesus in this frame. HER HANDS ARE EMPTY — the water jar was LEFT at the well and must not appear anywhere in this frame.",
         "scene": (
             "The woman comes running in through the low arched gateway and up the "
             "narrow lane of the town, her robe caught up in one hand and her other arm "
@@ -879,11 +930,11 @@ BEATS = [
     {
         "id": "v2-r010-b45", "out": "s45-come-see-a-man.jpeg", "seg": "w29",
         "window": "254.16-259.67", "wide": True, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "TOWN"],
+        "locks": ["CAMERA", "WOMAN", "TOWN"],
         "narration": ("Come, see a man, which told me all things that ever I did: is "
                       "not this the Christ? (John 4:29)"),
         "must_show": "her in the town square calling it out to everyone — both arms up, face blazing — and the townspeople gathering around her and actually listening.",
-        "must_not_show": "nobody is turning away from her or shushing her; this is the woman they whispered about, and they are listening; do not put Jesus in this frame.",
+        "must_not_show": "nobody is turning away from her or shushing her; this is the woman they whispered about, and they are listening; do not put Jesus in this frame. HER HANDS ARE EMPTY and hold nothing — the water jar was LEFT at the well and must not appear anywhere in this frame.",
         "scene": (
             "The woman stands in the middle of the small town square under the old fig "
             "tree with both arms up and out, her head back, shouting to everyone at "
@@ -899,11 +950,11 @@ BEATS = [
     {
         "id": "v2-r010-b46", "out": "s46-and-they-came.jpeg", "seg": "n9 p1-p2",
         "window": "261.18-266.76", "wide": True, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "TOWN"],
+        "locks": ["CAMERA", "WOMAN", "TOWN"],
         "narration": ("And they came. The town that whispered about her followed her "
                       "up the road to see for themselves."),
         "must_show": "the town pouring out through the gateway onto the road — a long straggling crowd of every kind of person, following her.",
-        "must_not_show": "do not put Jesus in this frame; she is in FRONT, leading, not trailing behind them.",
+        "must_not_show": "do not put Jesus in this frame; she is in FRONT, leading, not trailing behind them. She carries NOTHING — the water jar was LEFT at the well and must not appear anywhere in this frame.",
         "scene": (
             "The townspeople stream out through the arched gateway and onto the dusty "
             "road in a long straggling crowd — men, women, children, an old man being "
@@ -918,12 +969,12 @@ BEATS = [
     {
         "id": "v2-r010-b47", "out": "s47-she-met-their-eyes.jpeg", "seg": "n9 p3",
         "window": "266.76-274.99", "wide": True, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "TOWN"],
+        "locks": ["CAMERA", "WOMAN", "TOWN"],
         "narration": ("Many believed because of her word — the woman who wouldn't meet "
                       "their eyes at sunrise became the first missionary in that "
                       "gospel by sundown."),
         "must_show": "THE INVERSE OF b05: she has turned to face the crowd on the road and is LOOKING STRAIGHT AT THEM, talking, meeting the eyes that used to follow her — and they are listening to her.",
-        "must_not_show": "no averted eyes anywhere in this frame; the composition must plainly answer the frame where they watched her walk past. Do not put Jesus in it.",
+        "must_not_show": "no averted eyes anywhere in this frame; the composition must plainly answer the frame where they watched her walk past. Do not put Jesus in it. Her hands are empty and busy TALKING — no water jar anywhere in this frame.",
         "scene": (
             "On the open road the woman has stopped and turned back to face the crowd "
             "following her, and she is talking to them with both hands moving, her "
@@ -939,7 +990,8 @@ BEATS = [
     {
         "id": "v2-r010-b48", "out": "s48-he-stayed-two-days.jpeg", "seg": "n9 p4",
         "window": "274.99-278.81", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["TOWN"],
+        "locks": ["CAMERA", "TOWN"],
+        "rough_ref": "assets/s48-he-stayed-two-days.jpeg",
         "narration": ("They asked him to stay, and he stayed two days — with Samaritans."),
         "must_show": "Jesus inside the Samaritan town, sitting and eating among Samaritan families in the square — completely at ease, a guest in a place no Jewish teacher would stay.",
         "must_not_show": "no halo, glare or rim-light; he is not teaching from a height or set apart — he is at the table among them.",
@@ -957,10 +1009,10 @@ BEATS = [
     {
         "id": "v2-r010-b49", "out": "s49-we-have-heard-him-ourselves.jpeg", "seg": "n9 p5-p6",
         "window": "278.81-282.15", "wide": True, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "TOWN"],
+        "locks": ["CAMERA", "WOMAN", "TOWN"],
         "narration": ("And they told her: now we've heard him ourselves. We know.",),
         "must_show": "the closing frame: the townspeople turned to HER, telling her — hands on her arms, faces glad — and her standing among them, one of them at last.",
-        "must_not_show": "do not put Jesus in this frame; she is not apart, not at the edge, and not looking down.",
+        "must_not_show": "do not put Jesus in this frame; she is not apart, not at the edge, and not looking down. Her hands are empty — no water jar anywhere in this frame.",
         "scene": (
             "In the lamplit square at dusk the townspeople have gathered in around the "
             "woman and are telling her something — a man with both hands on her "
