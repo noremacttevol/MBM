@@ -121,7 +121,17 @@ LOCKS = {
         "summer fields and stony ground stretch away on every side. IT IS NOON: the "
         "sun is almost straight overhead, shadows are very short and pooled directly "
         "under things, the light is hard and bleached, and heat shimmers off the "
-        "stony ground. The landscape is empty."
+        "stony ground. The landscape is empty. No rope and no bucket hangs at the "
+        "well or lies anywhere on its stones — a traveller must bring his own, and "
+        "only the worn grooves remain."
+    ),
+    "WELL-MORNING": (
+        "WELL LOCK: Jacob's well in the open country outside the town — an ancient "
+        "round stone well head with a massive worn curb, its rim cut with deep "
+        "grooves worn by centuries of rope, a long hollowed stone trough beside it, "
+        "and one old olive tree throwing a small hard patch of shade. A dusty road "
+        "runs past. The broad flank of Mount Gerizim rises close behind, and dry "
+        "summer fields and stony ground stretch away on every side."
     ),
     "TOWN": (
         "TOWN LOCK: the Samaritan town of Sychar — flat-roofed houses of rough "
@@ -161,14 +171,14 @@ BEATS = [
             "directly beneath her feet. The light is hard and bleached, heat shimmers "
             "off the stony ground, and the dry fields stretch away completely empty in "
             "every direction with Mount Gerizim standing behind. There is no other "
-            "person anywhere. The camera is back far enough to see her head to sandals "
+            "person anywhere. The camera watches from well off to one side of the road so she passes at a three-quarter angle, her eyes fixed far down the road ahead of her and never toward the camera, back far enough to see her head to sandals "
             "against the emptiness. She has two arms, two hands and one head."
         ),
     },
     {
         "id": "v2-r010-b02", "out": "s02-the-cool-of-the-morning.jpeg", "seg": "n0 p2-p3",
         "window": "5.30-12.07", "wide": True, "jesus": False, "ref": False,
-        "locks": ["CAMERA", "WELL", "TOWN"],
+        "locks": ["CAMERA", "WELL-MORNING", "TOWN"],
         "narration": ("You need to understand what that hour means. Women drew their "
                       "water in the cool of the morning, together."),
         "must_show": "THE CONTRAST FRAME — the same well in the cool early morning, busy with a dozen women drawing water together, talking and laughing.",
@@ -209,8 +219,10 @@ BEATS = [
         "must_show": "close on her face on the noon road — set, closed, carrying it; a woman who has worked out exactly what hour costs her the least.",
         "must_not_show": "not weeping and not self-pitying — this is a practical arrangement she made with her own life.",
         "scene": (
-            "Close on the woman's face and shoulders as she walks the noon road, the "
-            "clay jar against her shoulder. Her expression is set and closed — jaw "
+            "Close on the woman's face and shoulders in three-quarter view from beside "
+            "the road as she walks the noon road, the clay jar against her shoulder. "
+            "Her eyes are aimed up the road past the edge of the frame, never toward "
+            "the camera. Her expression is set and closed — jaw "
             "firm, eyes fixed ahead on the road and not on anything else, a face that "
             "long ago stopped expecting company. Sweat on her temple, dust on her "
             "cheek, hard white noon light straight down on her. The empty bleached "
@@ -243,7 +255,7 @@ BEATS = [
         "locks": ["CAMERA", "WELL"],
         "narration": "Noon was the hour with nobody in it. She chose it on purpose.",
         "must_show": "the well at noon, completely deserted — bleached stone, heat shimmer, not one person anywhere.",
-        "must_not_show": "not one human figure in this frame, not even distant; the emptiness is the entire picture.",
+        "must_not_show": "not one human figure in this frame, not even distant; the emptiness is the entire picture. NO carved ornament and NO rope-pattern molding on the well — plain massive weathered blocks, with the rope-wear grooves worn into the top edge of the rim only.",
         "scene": (
             "The well head stands alone in the glare of noon with not a single person "
             "anywhere in the frame. The massive stone curb is bleached white in the "
@@ -278,7 +290,7 @@ BEATS = [
         "narration": ("A traveler sat by the well, worn out from the road — a Jewish "
                       "man, resting in Samaria."),
         "must_show": "GENUINE EXHAUSTION: Jesus sitting slumped on the stone curb of the well in the noon heat, dusty, sweating, forearms on his knees — a tired man at the end of a long walk.",
-        "must_not_show": "no halo, glare or rim-light; he is NOT composed, upright and dignified here — v6 says he was wearied, and the frame has to look it. Nobody else is present.",
+        "must_not_show": "no halo, glare or rim-light; he is NOT composed, upright and dignified here — v6 says he was wearied, and the frame has to look it. Nobody else is present. NO rope, NO bucket and NO vessel anywhere in the frame — not on the rim, not tied to the stones — the story turns on him having nothing to draw with.",
         "scene": (
             "Jesus sits on the massive stone curb of the well in the full noon heat, "
             "worn out. His shoulders are down, his forearms rest across his knees with "
@@ -298,7 +310,7 @@ BEATS = [
         "narration": ("That detail matters more than it sounds. Jews and Samaritans "
                       "had despised each other for seven hundred years."),
         "must_show": "her face changing as she takes in what he is — recognition, then a cold wary shutting-down.",
-        "must_not_show": "not hatred and not fear exactly — the guarded look of someone who has learned what this kind of encounter costs; do not put Jesus in this frame.",
+        "must_not_show": "not hatred and not fear exactly — the guarded look of someone who has learned what this kind of encounter costs; do not put Jesus in this frame. She appears exactly ONCE — no second woman, no duplicate of her face or headcloth anywhere in the background.",
         "scene": (
             "Close on the woman's face as she looks down the slope at the seated "
             "stranger. Recognition moves across it and then closes it — her eyes "
@@ -320,8 +332,10 @@ BEATS = [
         "scene": (
             "A wide view holding both of them with a long stretch of bleached stony "
             "ground between. On one side of the frame the woman stands checked on the "
-            "road with her jar, her feet still pointed forward but her shoulders and "
-            "head already turning back toward the town, on the very edge of leaving. "
+            "road with her jar, her torso and shoulders twisted visibly BACK toward the "
+            "town behind her and her head half turned over her shoulder, caught in "
+            "the physical act of turning around to leave — anyone glancing at the "
+            "picture must see a woman about to walk away, not a woman standing still. "
             "On the other side Jesus sits slumped and dusty on the well curb, not "
             "moving. Neither has closed any of the distance. The empty road, the heat "
             "shimmer and Mount Gerizim behind. The camera is back far enough to hold "
@@ -526,7 +540,7 @@ BEATS = [
         "narration": ("But whosoever drinketh of the water that I shall give him shall "
                       "never thirst; (John 4:14)"),
         "must_show": "close on Jesus saying it — quiet, certain, entirely serious, looking straight at her.",
-        "must_not_show": "no halo, glare or rim-light; no grand oratory — this is said quietly to one person.",
+        "must_not_show": "no halo, glare or rim-light; no grand oratory — this is said quietly to one person. Jesus is the ONLY person visible in the frame — the woman he addresses stands out of frame; no second figure, no shoulder, no head, and no other cream or white cloth anywhere at the frame edge.",
         "scene": (
             "Close on Jesus's face and shoulders in the hard noon light, speaking "
             "quietly and directly to the person standing over him. His dusty face is "
@@ -596,7 +610,7 @@ BEATS = [
         "narration": ("Sir, give me this water, that I thirst not, neither come hither "
                       "to draw. (John 4:15)"),
         "must_show": "her asking — leaning in, both hands come open toward him, the first thing she has genuinely wanted out loud in this conversation.",
-        "must_not_show": "no sarcasm left in the face at all; do not put Jesus in this frame.",
+        "must_not_show": "no sarcasm left in the face at all; do not put Jesus in this frame — she is the ONLY person visible, the man she asks is entirely out of frame, and no part of another person and no cream or white cloth appears at any edge of the picture.",
         "scene": (
             "Close on the woman leaning down and in toward the seated man, both thin "
             "hands come open and forward in front of her. Her face is entirely without "
@@ -668,7 +682,8 @@ BEATS = [
             "Very close on the woman's face, laid completely bare. Her eyes have come "
             "back up to his and gone wide and glassy, her lips have parted, and her "
             "whole body has braced — shoulders drawn up and back, one hand come "
-            "half-way to her chest. It is the face of someone waiting for the "
+            "half-way to her chest. Her eyes are fixed on the man's face just past the "
+            "camera's left shoulder — near the lens but plainly NOT into it. It is the face of someone waiting for the "
             "expression she has seen on every other face that ever learned this about "
             "her. Hard noon light with nowhere to hide in it."
         ),
@@ -682,7 +697,8 @@ BEATS = [
         "must_not_show": "he must NOT look away, lean back, harden, or soften into pity. He simply stays. If anything in his face has changed since b29, regenerate. No halo, glare or rim-light.",
         "scene": (
             "Close on Jesus's face, holding exactly where it was. His eyes are still "
-            "level on hers, warm and completely steady, and he has not leaned back or "
+            "level on hers — her face is just past the camera's right shoulder, so his "
+            "gaze is near the lens but plainly NOT into it — warm and completely steady, and he has not leaned back or "
             "turned a degree away — his head is still inclined toward her, his hands "
             "still open, his expression unchanged by anything he just said. There is "
             "no recoil in it and no pity either. He is simply still there, still "
@@ -715,7 +731,7 @@ BEATS = [
         "locks": ["CAMERA", "WOMAN"],
         "narration": "Sir, I perceive that thou art a prophet. (John 4:19)",
         "must_show": "close on her saying it — the wariness entirely gone, replaced by careful, dawning recognition.",
-        "must_not_show": "no fear and no flattery — she is working something out in front of him; do not put Jesus in this frame.",
+        "must_not_show": "no fear and no flattery — she is working something out in front of him; do not put Jesus in this frame. She is the ONLY person visible — no part of another person, no dark hair and no cream or white cloth at any edge of the frame.",
         "scene": (
             "Close on the woman speaking. Her head has come slightly to one side and "
             "her eyes have narrowed a little in concentration, moving over the face in "
@@ -769,7 +785,7 @@ BEATS = [
         "narration": ("Then she said, almost to herself: When he comes, he'll explain "
                       "everything. And the tired traveler at the well said:"),
         "must_show": "her looking off and away as she says it, almost to herself — the hope of her whole people said out loud without expecting anything.",
-        "must_not_show": "she is NOT looking at him when she says this; do not put Jesus in this frame.",
+        "must_not_show": "she is NOT looking at him when she says this; do not put Jesus in this frame. She is the ONLY person visible — no part of another person, no dark hair and no cream or white cloth at any edge of the frame.",
         "scene": (
             "Close on the woman looking away out over the bleached empty fields, not "
             "at the man beside her. Her eyes are distant and her mouth is moving on "
@@ -786,7 +802,7 @@ BEATS = [
         "narration": ("I know that Messiah cometh, which is called Christ: when he is "
                       "come, he will tell us all things. (John 4:25)"),
         "must_show": "close on her face saying it — quiet certainty about a thing she has believed her whole life and never expected to see.",
-        "must_not_show": "no drama; this is a plain, worn, held belief; do not put Jesus in this frame.",
+        "must_not_show": "no drama; this is a plain, worn, held belief; do not put Jesus in this frame. She is the ONLY person visible — no part of another person, no dark hair and no cream or white cloth at any edge of the frame.",
         "scene": (
             "Close on the woman's face, still turned partly away, speaking quietly. "
             "Her expression is settled and certain in a worn, long-held way — the look "
@@ -804,7 +820,9 @@ BEATS = [
         "must_not_show": "no halo, glare or rim-light; NO grandeur, no raised chin, no proclamation — it is said quietly by a dusty exhausted man sitting on a well. That contrast is the entire point.",
         "scene": (
             "Very close on Jesus's face, filling the frame, saying it. He is looking "
-            "directly up at her, and his expression is completely quiet and completely "
+            "directly up at her — her face is above and just past the top edge of the "
+            "frame, so his eyes are lifted visibly UPWARD past the camera, never into "
+            "the lens — and his expression is completely quiet and completely "
             "certain — level eyes, an ordinary mouth, no lift of the chin and no "
             "performance of any kind. Sweat and road dust are still on his skin and "
             "his hair is damp at the temples. A dusty tired man on a stone well saying "
@@ -820,10 +838,11 @@ BEATS = [
         "narration": ("The first person Jesus ever told plainly that he was the "
                       "Messiah — not a king, not a priest, not even one of his twelve —"),
         "must_show": "her face receiving it — absolutely motionless, eyes enormous, everything arriving at once.",
-        "must_not_show": "not collapsing and not shouting — utter stillness; do not put Jesus in this frame.",
+        "must_not_show": "not collapsing and not shouting — utter stillness; do not put Jesus in this frame. She is the ONLY person visible — no part of another person, no dark hair and no cream or white cloth at any edge of the frame.",
         "scene": (
-            "Very close on the woman's face, entirely motionless. Her eyes have gone "
-            "wide and are fixed and brimming, her lips are parted with no sound coming "
+            "Very close on the woman's face in three-quarter view, entirely motionless. "
+            "Her eyes have gone wide and are fixed and brimming on the man's face just "
+            "past the camera's left shoulder — near the lens but plainly NOT into it, her lips are parted with no sound coming "
             "out of them, and every line of her weathered face has gone slack with "
             "what she has just been handed. She has not moved a muscle. Hard noon "
             "light straight down on her, everything behind her burned out and soft."
@@ -860,7 +879,9 @@ BEATS = [
         "scene": (
             "The disciples have come up the road from town carrying bread and a basket "
             "of provisions and have stopped dead in a clump some way off, bunched "
-            "together. Every one of them is staring at the well — Peter at the front of the clump has halted "
+            "together, seen from BEHIND and beside so their backs and profiles are to "
+            "the camera and their faces are turned AWAY toward the well ahead of them. "
+            "Every one of them is staring at the well and the two figures beside it — nobody faces the camera and nobody looks at his neighbour. Peter at the front of the clump has halted "
             "mid-step with his foot still up, young John's loaf has come down to his side "
             "forgotten, a third has turned to look at the man beside him with his "
             "eyebrows up. Not one of them is speaking or moving forward. At the well "
@@ -877,7 +898,7 @@ BEATS = [
         "rough_ref": "assets/s42-she-left-the-jar.jpeg",
         "narration": "And look what she did. She left the jar.",
         "must_show": "her hands releasing the jar and leaving it on the stones — the moment of letting go of the thing she came for.",
-        "must_not_show": "not dropping or breaking it — she sets it down and lets go; do not put Jesus in this frame.",
+        "must_not_show": "not dropping or breaking it — she sets it down and lets go; do not put Jesus in this frame. Exactly ONE woman — the reaching hands, the sleeve and the turning hem all belong to the same single person, and no second figure or second red robe appears anywhere.",
         "scene": (
             "Close on the woman's hands and the big clay jar. She has set it down onto "
             "the bleached stone beside the well and her fingers are just lifting away "
