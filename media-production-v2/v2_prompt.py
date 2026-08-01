@@ -66,6 +66,51 @@ QUALITY_LOCK = (
     "image that breaks these rules."
 )
 
+# DEFECT LOCK — added 2026-08-01 (Claude worker 8) after the reroll rate held at
+# ~30% across builds 05/06/07/08/09/10 at a flat $0.134/image, i.e. $2-3 of pure
+# waste per video. The SAME four defect families caused nearly every reroll:
+#   1. the subject looking into the lens        (rows 9 s01/s09/s22/s28/s31, row 10 s01/s04/s31/s38)
+#   2. a stray unlocked figure at the frame edge, usually in CREAM, i.e. a second
+#      unlocked Jesus                            (row 9 s14, row 10 s22 x2, s26, s31)
+#   3. uncountable quantities                    (row 8, the ten coins)
+#   4. recurring cast drifting off their sheets  (row 9 s21: short-haired John)
+#
+# The wording below is PORTED, not invented — each sentence is the phrasing that
+# measurably fixed the defect in the QC.md of the build named above. The key
+# lesson, learned the expensive way on row 10 s22 (a bare prohibition failed
+# TWICE, the geometry fixed it in one pass): state the GEOMETRY — where the
+# camera sits relative to the eyeline and which frame edge the gaze exits
+# through — instead of only forbidding "looking at the camera".
+DEFECT_LOCK = (
+    "CANDID-FRAME LOCK: this is a photograph of something happening, not a posed "
+    "portrait. NOBODY IN THE PICTURE LOOKS INTO THE LENS. Every person's gaze is "
+    "aimed at another person, an object, or a point off the frame, and exits the "
+    "picture through a named edge — above, below, left or right of the camera — so "
+    "no one's pupils are ever centred on the lens. When a figure faces the camera "
+    "the head is turned off the camera axis and the eyes travel clearly past it. "
+    "No one acknowledges being photographed, poses, or presents themselves to the "
+    "viewer. "
+    "CAST-CLOSURE LOCK: the frame contains only the people the scene actually calls "
+    "for — the named figures plus any background people the scene itself describes, "
+    "and nobody else. In particular no unexplained extra body, shoulder, arm, head, "
+    "hair, headscarf or back crowds into the EDGES of the picture, in the foreground "
+    "or the background, in focus or out of focus, and no blurred stranger passes "
+    "through the frame. NO CREAM OR OFF-WHITE CLOTH APPEARS ON "
+    "ANYONE BUT JESUS anywhere in the frame, including out-of-focus edges — a pale "
+    "shoulder at the edge of a shot reads as a second, unlocked Jesus and fails the "
+    "picture. "
+    "COUNT-AS-GEOMETRY LOCK: any quantity the narration names must be literally "
+    "COUNTABLE in the picture — laid out separated and individually visible, never "
+    "a vague handful, heap or crowd standing in for a number. If the story says a "
+    "number, the viewer must be able to count that exact number of objects or "
+    "people, and no extra ones. "
+    "ANCHOR-RESTATEMENT LOCK: every recurring person carries their own locked "
+    "description into THIS frame — face, age, build, hair length, beard state and "
+    "garment colour exactly as locked, even when they are small, distant, "
+    "out of focus, or seen from behind. No locked character is ever redrawn as a "
+    "generic bystander and no two of them are given the same face."
+)
+
 # JESUS LOCK v4 — byte-identical in every prompt where Jesus appears.
 # JESUS LOCK v5 — Cameron, 2026-07-30. Supersedes v4 once a face candidate is picked.
 #
@@ -208,7 +253,7 @@ def load_beats(build_dir):
 
 def assemble(beat, local_locks):
     """Build the full prompt string for one beat."""
-    parts = [STYLE_V2, QUALITY_LOCK]
+    parts = [STYLE_V2, QUALITY_LOCK, DEFECT_LOCK]
     if beat.get("wide"):
         parts.append(WIDE_DEFENSE)
     # ANTI-PANEL ON EVERY BEAT, not just wide ones (row 2, b18). It used to ride
