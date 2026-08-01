@@ -1,6 +1,6 @@
 ## 2026-08-01 — Video 6 (Two Sons): father's-ask complaint fixed + full realistic rebuild shipped (Claude worker 4)
 
-Commit: (this commit). Claimed row 6 by push (28764d3d0) before any spend.
+Commit: 994a7a28f (ship) · 662c41d0a (audio-restore rebuild) · 28764d3d0 (claim). Claimed row 6 by push before any spend.
 Cameron's OPEN complaint ("you cut out the original thing the father asked
 the sons") root-caused as an ASSEMBLY bug, not a script bug: the 2026-07-24
 REDO voiced the complete script — j28 the father's KJV ask, j29/j30 both
