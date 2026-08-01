@@ -126,3 +126,7 @@ media-production/build-*/*.pre-speaker
 # NEVER commit the ElevenLabs API key — repo is public, providers auto-revoke leaked keys
 elevenlabs*KEY*.txt
 media-production/elevenlabs*KEY*.txt
+
+# archive/dupe-dirs holds superseded duplicate build folders kept only as local
+# reference — their audio was never tracked and should not clutter git status.
+archive/dupe-dirs/**/*.mp3

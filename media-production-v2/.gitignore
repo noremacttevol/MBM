@@ -7,3 +7,10 @@
 *.m4a
 *.mov
 *.ttf
+
+# flow_driver sidecars — machine-local generation state, never source.
+# .size marks a still that came back sub-2K (upscaler down); v2_prompt._below_2k
+# reads it (and the JPEG header) to re-pull on the next lap. .FAILED.txt is a
+# leftover from the retired 1K-fallback era; nothing reads it anymore.
+*.size
+*.FAILED.txt
