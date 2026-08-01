@@ -1,0 +1,796 @@
+{
+  "asset_dir": "assets-realistic",
+  "board_dir": "identity-boards",
+  "notes": [
+    "Only clear, auditable face appearances are included; distant, occluded, and back-of-head appearances are excluded.",
+    "A pass is valid only while both the source-frame and canonical-anchor SHA-256 hashes remain unchanged."
+  ],
+  "identities": {
+    "paralysed-man": {
+      "anchor": "character-refs/paralysed-man-face.jpeg",
+      "appearances": [
+        {
+          "file": "s02-one-at-each-corner.jpeg",
+          "crop": [
+            0.42,
+            0.45,
+            0.61,
+            0.6
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "891d27f336cf5b689a02fa0f7d92d982e58c7a516f6441cd2fa5efcf8d0e5c30",
+          "approved_anchor_sha256": "4454fffc0fd56fe1bf485fd2dedeaf2bd416ebedbcd1294994b554a580274134"
+        },
+        {
+          "file": "s03-he-could-not-walk.jpeg",
+          "crop": [
+            0.1,
+            0.05,
+            0.4,
+            0.27
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "e865c205bbef721eaca69be0d599c9df60819070745416401981b91a750a1f73",
+          "approved_anchor_sha256": "4454fffc0fd56fe1bf485fd2dedeaf2bd416ebedbcd1294994b554a580274134"
+        },
+        {
+          "file": "s04-they-decided-anyway.jpeg",
+          "crop": [
+            0.34,
+            0.44,
+            0.61,
+            0.61
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "0d99b7fbe81c7bc30e8ee32d3b6d2b2343de784a1a2bc5919d952c9022a38e18",
+          "approved_anchor_sha256": "4454fffc0fd56fe1bf485fd2dedeaf2bd416ebedbcd1294994b554a580274134"
+        },
+        {
+          "file": "s07-breathing-hard.jpeg",
+          "crop": [
+            0.42,
+            0.39,
+            0.61,
+            0.54
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "a726341773d0c20db7164d38318b6a0d588d33384a78a729806ec5dfd2a453d5",
+          "approved_anchor_sha256": "4454fffc0fd56fe1bf485fd2dedeaf2bd416ebedbcd1294994b554a580274134"
+        },
+        {
+          "file": "s10-dig-it-with-your-hands.jpeg",
+          "crop": [
+            0.42,
+            0.27,
+            0.61,
+            0.42
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "04a99927d2c1fdd2aadba87e65da0c29a6c1edb125e649777a321e7f03eddadb",
+          "approved_anchor_sha256": "4454fffc0fd56fe1bf485fd2dedeaf2bd416ebedbcd1294994b554a580274134"
+        },
+        {
+          "file": "s15-swaying-on-four-ropes.jpeg",
+          "crop": [
+            0.41,
+            0.25,
+            0.6,
+            0.37
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "ab5ed765668e9f2f6f4f73f077a0f695af4581a79d56a3b79c355e0e0e1814af",
+          "approved_anchor_sha256": "4454fffc0fd56fe1bf485fd2dedeaf2bd416ebedbcd1294994b554a580274134"
+        },
+        {
+          "file": "s16-at-the-feet-of-jesus.jpeg",
+          "crop": [
+            0.37,
+            0.65,
+            0.63,
+            0.79
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "dace731e9abf706e7b8b0d5f1aeb475508a4635e7a7216f68b957a5e235d5f03",
+          "approved_anchor_sha256": "4454fffc0fd56fe1bf485fd2dedeaf2bd416ebedbcd1294994b554a580274134"
+        },
+        {
+          "file": "s19-he-hadnt-said-a-word.jpeg",
+          "crop": [
+            0.35,
+            0.52,
+            0.7,
+            0.71
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "15502c1c8540e6baba953ed436064b3c62b5868a708cd40e95a90c975f8fe01e",
+          "approved_anchor_sha256": "4454fffc0fd56fe1bf485fd2dedeaf2bd416ebedbcd1294994b554a580274134"
+        },
+        {
+          "file": "s20-braced-for-words-about-his-legs.jpeg",
+          "crop": [
+            0.59,
+            0.43,
+            0.82,
+            0.59
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "ef7d1c7f063a1f2e27ae5e7ac04e8b4e4302af1a427ddfc8f786130f40e12150",
+          "approved_anchor_sha256": "4454fffc0fd56fe1bf485fd2dedeaf2bd416ebedbcd1294994b554a580274134"
+        },
+        {
+          "file": "s22-the-first-word-was-son.jpeg",
+          "crop": [
+            0.22,
+            0.13,
+            0.77,
+            0.54
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "212d9be9bbc645d1bf9495306d1c0e7fe3a2ee1e3bff0a7a8f1a115af0e1c399",
+          "approved_anchor_sha256": "4454fffc0fd56fe1bf485fd2dedeaf2bd416ebedbcd1294994b554a580274134"
+        },
+        {
+          "file": "s24-the-deepest-wound-first.jpeg",
+          "crop": [
+            0.58,
+            0.27,
+            0.95,
+            0.56
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "1f40ad947f33a60445cd42a2883f61663bfcae936d1a54211027304f358c6b4c",
+          "approved_anchor_sha256": "4454fffc0fd56fe1bf485fd2dedeaf2bd416ebedbcd1294994b554a580274134"
+        },
+        {
+          "file": "s25-already-the-miracle.jpeg",
+          "crop": [
+            0.46,
+            0.29,
+            0.73,
+            0.48
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "43b78e8e8a3018131c060da36df5b7297b310fd14d3606957c85f7e76b0ea9ef",
+          "approved_anchor_sha256": "4454fffc0fd56fe1bf485fd2dedeaf2bd416ebedbcd1294994b554a580274134"
+        },
+        {
+          "file": "s33-or-to-say-arise-and-walk.jpeg",
+          "crop": [
+            0.2,
+            0.54,
+            0.4,
+            0.68
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "f2f94363a8ec110d88735197a7ade3c07fc73af09490b0b0aae0419b5b584aff",
+          "approved_anchor_sha256": "4454fffc0fd56fe1bf485fd2dedeaf2bd416ebedbcd1294994b554a580274134"
+        },
+        {
+          "file": "s35-everyone-finds-out.jpeg",
+          "crop": [
+            0.46,
+            0.32,
+            0.7,
+            0.5
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "c55c50601c1474bf92c167c8f665fbae6fce8f64e0d37ef833f96ed960eaa8d7",
+          "approved_anchor_sha256": "4454fffc0fd56fe1bf485fd2dedeaf2bd416ebedbcd1294994b554a580274134"
+        },
+        {
+          "file": "s36-so-that-you-will-know.jpeg",
+          "crop": [
+            0.5,
+            0.31,
+            0.92,
+            0.61
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "edb4f5acb7802c2c32f16743715fca3b7a884966a5006b438bfe3b270086051c",
+          "approved_anchor_sha256": "4454fffc0fd56fe1bf485fd2dedeaf2bd416ebedbcd1294994b554a580274134"
+        },
+        {
+          "file": "s38-and-immediately-he-did.jpeg",
+          "crop": [
+            0.49,
+            0.03,
+            0.83,
+            0.3
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "7e98e6fe8628942fecc317b9d03720e284ffb86dc2a85c32ac0c046577b29ec7",
+          "approved_anchor_sha256": "4454fffc0fd56fe1bf485fd2dedeaf2bd416ebedbcd1294994b554a580274134"
+        },
+        {
+          "file": "s39-legs-like-a-newborn-colt.jpeg",
+          "crop": [
+            0.3,
+            0.29,
+            0.51,
+            0.43
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "133aef288055c090204b7f6edf9f91755b13d860a9cca566b3cbbedefc72af2a",
+          "approved_anchor_sha256": "4454fffc0fd56fe1bf485fd2dedeaf2bd416ebedbcd1294994b554a580274134"
+        },
+        {
+          "file": "s40-he-rolled-up-his-mat.jpeg",
+          "crop": [
+            0.47,
+            0.25,
+            0.73,
+            0.48
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "a5f601adbcdd3612f02926c211f424bfc7de256fb05e713d0045a7573cb35577",
+          "approved_anchor_sha256": "4454fffc0fd56fe1bf485fd2dedeaf2bd416ebedbcd1294994b554a580274134"
+        },
+        {
+          "file": "s41-the-bed-that-carried-him.jpeg",
+          "crop": [
+            0.24,
+            0.11,
+            0.62,
+            0.36
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "30c62a53fc06e8a8ef5add4ec85be2d03b2cc5b0f8d3bed2abd6f6e53f46300c",
+          "approved_anchor_sha256": "4454fffc0fd56fe1bf485fd2dedeaf2bd416ebedbcd1294994b554a580274134"
+        },
+        {
+          "file": "s42-they-made-room-now.jpeg",
+          "crop": [
+            0.37,
+            0.27,
+            0.61,
+            0.44
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "d23bf70a3bc0d31a86041700c59704e71edabb89643bdb7680769237f92855c4",
+          "approved_anchor_sha256": "4454fffc0fd56fe1bf485fd2dedeaf2bd416ebedbcd1294994b554a580274134"
+        }
+      ]
+    },
+    "friend-broad-black-beard": {
+      "anchor": "character-refs/friend-broad-black-beard.jpeg",
+      "appearances": [
+        {
+          "file": "s02-one-at-each-corner.jpeg",
+          "crop": [
+            0.01,
+            0.43,
+            0.34,
+            0.72
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "891d27f336cf5b689a02fa0f7d92d982e58c7a516f6441cd2fa5efcf8d0e5c30",
+          "approved_anchor_sha256": "6d2fc4ff9ebe3a17bec561f82026c943d87b3b6753bbd45da37aa57d1e56d32b"
+        },
+        {
+          "file": "s04-they-decided-anyway.jpeg",
+          "crop": [
+            0.0,
+            0.19,
+            0.33,
+            0.5
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "0d99b7fbe81c7bc30e8ee32d3b6d2b2343de784a1a2bc5919d952c9022a38e18",
+          "approved_anchor_sha256": "6d2fc4ff9ebe3a17bec561f82026c943d87b3b6753bbd45da37aa57d1e56d32b"
+        },
+        {
+          "file": "s07-breathing-hard.jpeg",
+          "crop": [
+            0.05,
+            0.33,
+            0.35,
+            0.55
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "a726341773d0c20db7164d38318b6a0d588d33384a78a729806ec5dfd2a453d5",
+          "approved_anchor_sha256": "6d2fc4ff9ebe3a17bec561f82026c943d87b3b6753bbd45da37aa57d1e56d32b"
+        },
+        {
+          "file": "s10-dig-it-with-your-hands.jpeg",
+          "crop": [
+            0.11,
+            0.36,
+            0.42,
+            0.6
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "04a99927d2c1fdd2aadba87e65da0c29a6c1edb125e649777a321e7f03eddadb",
+          "approved_anchor_sha256": "6d2fc4ff9ebe3a17bec561f82026c943d87b3b6753bbd45da37aa57d1e56d32b"
+        },
+        {
+          "file": "s14-four-faces-at-the-hole.jpeg",
+          "crop": [
+            0.1,
+            0.11,
+            0.43,
+            0.37
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "950d621d657855f9fe16b9a5994b25335316d5dc5dd81a143ee8a098560a642f",
+          "approved_anchor_sha256": "6d2fc4ff9ebe3a17bec561f82026c943d87b3b6753bbd45da37aa57d1e56d32b"
+        },
+        {
+          "file": "s17-easy-to-miss.jpeg",
+          "crop": [
+            0.17,
+            0.05,
+            0.43,
+            0.23
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "2eb92e7a7cf462993864c6a1861b5a9ff5fd5bb2a3575f36a324876874d2f23e",
+          "approved_anchor_sha256": "6d2fc4ff9ebe3a17bec561f82026c943d87b3b6753bbd45da37aa57d1e56d32b"
+        },
+        {
+          "file": "s18-the-four-sweat-streaked-faces.jpeg",
+          "crop": [
+            0.09,
+            0.15,
+            0.46,
+            0.4
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "77d4c2172be92844563d6d6e53b3690038d327f52fa79fb9ceebf64d7be1f91d",
+          "approved_anchor_sha256": "6d2fc4ff9ebe3a17bec561f82026c943d87b3b6753bbd45da37aa57d1e56d32b"
+        },
+        {
+          "file": "s19-he-hadnt-said-a-word.jpeg",
+          "crop": [
+            0.03,
+            0.03,
+            0.31,
+            0.26
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "15502c1c8540e6baba953ed436064b3c62b5868a708cd40e95a90c975f8fe01e",
+          "approved_anchor_sha256": "6d2fc4ff9ebe3a17bec561f82026c943d87b3b6753bbd45da37aa57d1e56d32b"
+        }
+      ]
+    },
+    "friend-wiry-grey-hair": {
+      "anchor": "character-refs/friend-wiry-grey-hair.jpeg",
+      "appearances": [
+        {
+          "file": "s02-one-at-each-corner.jpeg",
+          "crop": [
+            0.22,
+            0.31,
+            0.48,
+            0.56
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "891d27f336cf5b689a02fa0f7d92d982e58c7a516f6441cd2fa5efcf8d0e5c30",
+          "approved_anchor_sha256": "920a7b7a1617086defb8650258ac3e6483d4e125b0aaf499cd292a269bd5080d"
+        },
+        {
+          "file": "s04-they-decided-anyway.jpeg",
+          "crop": [
+            0.27,
+            0.2,
+            0.57,
+            0.46
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "0d99b7fbe81c7bc30e8ee32d3b6d2b2343de784a1a2bc5919d952c9022a38e18",
+          "approved_anchor_sha256": "920a7b7a1617086defb8650258ac3e6483d4e125b0aaf499cd292a269bd5080d"
+        },
+        {
+          "file": "s07-breathing-hard.jpeg",
+          "crop": [
+            0.2,
+            0.25,
+            0.48,
+            0.47
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "a726341773d0c20db7164d38318b6a0d588d33384a78a729806ec5dfd2a453d5",
+          "approved_anchor_sha256": "920a7b7a1617086defb8650258ac3e6483d4e125b0aaf499cd292a269bd5080d"
+        },
+        {
+          "file": "s10-dig-it-with-your-hands.jpeg",
+          "crop": [
+            0.23,
+            0.05,
+            0.5,
+            0.29
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "04a99927d2c1fdd2aadba87e65da0c29a6c1edb125e649777a321e7f03eddadb",
+          "approved_anchor_sha256": "920a7b7a1617086defb8650258ac3e6483d4e125b0aaf499cd292a269bd5080d"
+        },
+        {
+          "file": "s14-four-faces-at-the-hole.jpeg",
+          "crop": [
+            0.37,
+            0.18,
+            0.61,
+            0.39
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "950d621d657855f9fe16b9a5994b25335316d5dc5dd81a143ee8a098560a642f",
+          "approved_anchor_sha256": "920a7b7a1617086defb8650258ac3e6483d4e125b0aaf499cd292a269bd5080d"
+        },
+        {
+          "file": "s17-easy-to-miss.jpeg",
+          "crop": [
+            0.36,
+            0.07,
+            0.56,
+            0.24
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "2eb92e7a7cf462993864c6a1861b5a9ff5fd5bb2a3575f36a324876874d2f23e",
+          "approved_anchor_sha256": "920a7b7a1617086defb8650258ac3e6483d4e125b0aaf499cd292a269bd5080d"
+        },
+        {
+          "file": "s18-the-four-sweat-streaked-faces.jpeg",
+          "crop": [
+            0.35,
+            0.25,
+            0.65,
+            0.47
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "77d4c2172be92844563d6d6e53b3690038d327f52fa79fb9ceebf64d7be1f91d",
+          "approved_anchor_sha256": "920a7b7a1617086defb8650258ac3e6483d4e125b0aaf499cd292a269bd5080d"
+        },
+        {
+          "file": "s19-he-hadnt-said-a-word.jpeg",
+          "crop": [
+            0.25,
+            0.09,
+            0.51,
+            0.32
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "15502c1c8540e6baba953ed436064b3c62b5868a708cd40e95a90c975f8fe01e",
+          "approved_anchor_sha256": "920a7b7a1617086defb8650258ac3e6483d4e125b0aaf499cd292a269bd5080d"
+        }
+      ]
+    },
+    "friend-young-thin-beard": {
+      "anchor": "character-refs/friend-young-thin-beard.jpeg",
+      "appearances": [
+        {
+          "file": "s02-one-at-each-corner.jpeg",
+          "crop": [
+            0.52,
+            0.31,
+            0.78,
+            0.56
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "891d27f336cf5b689a02fa0f7d92d982e58c7a516f6441cd2fa5efcf8d0e5c30",
+          "approved_anchor_sha256": "b93ef20d76e5e5309539f392194d38ab126442c0c87ac174e0d9d5a997ea1de8"
+        },
+        {
+          "file": "s04-they-decided-anyway.jpeg",
+          "crop": [
+            0.53,
+            0.22,
+            0.79,
+            0.48
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "0d99b7fbe81c7bc30e8ee32d3b6d2b2343de784a1a2bc5919d952c9022a38e18",
+          "approved_anchor_sha256": "b93ef20d76e5e5309539f392194d38ab126442c0c87ac174e0d9d5a997ea1de8"
+        },
+        {
+          "file": "s07-breathing-hard.jpeg",
+          "crop": [
+            0.59,
+            0.27,
+            0.84,
+            0.49
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "a726341773d0c20db7164d38318b6a0d588d33384a78a729806ec5dfd2a453d5",
+          "approved_anchor_sha256": "b93ef20d76e5e5309539f392194d38ab126442c0c87ac174e0d9d5a997ea1de8"
+        },
+        {
+          "file": "s10-dig-it-with-your-hands.jpeg",
+          "crop": [
+            0.51,
+            0.05,
+            0.79,
+            0.29
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "04a99927d2c1fdd2aadba87e65da0c29a6c1edb125e649777a321e7f03eddadb",
+          "approved_anchor_sha256": "b93ef20d76e5e5309539f392194d38ab126442c0c87ac174e0d9d5a997ea1de8"
+        },
+        {
+          "file": "s14-four-faces-at-the-hole.jpeg",
+          "crop": [
+            0.53,
+            0.2,
+            0.77,
+            0.41
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "950d621d657855f9fe16b9a5994b25335316d5dc5dd81a143ee8a098560a642f",
+          "approved_anchor_sha256": "b93ef20d76e5e5309539f392194d38ab126442c0c87ac174e0d9d5a997ea1de8"
+        },
+        {
+          "file": "s17-easy-to-miss.jpeg",
+          "crop": [
+            0.48,
+            0.09,
+            0.65,
+            0.24
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "2eb92e7a7cf462993864c6a1861b5a9ff5fd5bb2a3575f36a324876874d2f23e",
+          "approved_anchor_sha256": "b93ef20d76e5e5309539f392194d38ab126442c0c87ac174e0d9d5a997ea1de8"
+        },
+        {
+          "file": "s18-the-four-sweat-streaked-faces.jpeg",
+          "crop": [
+            0.58,
+            0.3,
+            0.82,
+            0.51
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "77d4c2172be92844563d6d6e53b3690038d327f52fa79fb9ceebf64d7be1f91d",
+          "approved_anchor_sha256": "b93ef20d76e5e5309539f392194d38ab126442c0c87ac174e0d9d5a997ea1de8"
+        },
+        {
+          "file": "s19-he-hadnt-said-a-word.jpeg",
+          "crop": [
+            0.47,
+            0.08,
+            0.75,
+            0.31
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "15502c1c8540e6baba953ed436064b3c62b5868a708cd40e95a90c975f8fe01e",
+          "approved_anchor_sha256": "b93ef20d76e5e5309539f392194d38ab126442c0c87ac174e0d9d5a997ea1de8"
+        }
+      ]
+    },
+    "friend-shaved-stocky": {
+      "anchor": "character-refs/friend-shaved-stocky.jpeg",
+      "appearances": [
+        {
+          "file": "s02-one-at-each-corner.jpeg",
+          "crop": [
+            0.67,
+            0.43,
+            0.99,
+            0.72
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "891d27f336cf5b689a02fa0f7d92d982e58c7a516f6441cd2fa5efcf8d0e5c30",
+          "approved_anchor_sha256": "27368e67a321e8789f2f74b6e957adfd0681762b8e4e1f24132d31ede802783b"
+        },
+        {
+          "file": "s04-they-decided-anyway.jpeg",
+          "crop": [
+            0.72,
+            0.19,
+            1.0,
+            0.5
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "0d99b7fbe81c7bc30e8ee32d3b6d2b2343de784a1a2bc5919d952c9022a38e18",
+          "approved_anchor_sha256": "27368e67a321e8789f2f74b6e957adfd0681762b8e4e1f24132d31ede802783b"
+        },
+        {
+          "file": "s07-breathing-hard.jpeg",
+          "crop": [
+            0.67,
+            0.35,
+            0.96,
+            0.59
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "a726341773d0c20db7164d38318b6a0d588d33384a78a729806ec5dfd2a453d5",
+          "approved_anchor_sha256": "27368e67a321e8789f2f74b6e957adfd0681762b8e4e1f24132d31ede802783b"
+        },
+        {
+          "file": "s10-dig-it-with-your-hands.jpeg",
+          "crop": [
+            0.55,
+            0.36,
+            0.87,
+            0.61
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "04a99927d2c1fdd2aadba87e65da0c29a6c1edb125e649777a321e7f03eddadb",
+          "approved_anchor_sha256": "27368e67a321e8789f2f74b6e957adfd0681762b8e4e1f24132d31ede802783b"
+        },
+        {
+          "file": "s14-four-faces-at-the-hole.jpeg",
+          "crop": [
+            0.68,
+            0.15,
+            0.98,
+            0.41
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "950d621d657855f9fe16b9a5994b25335316d5dc5dd81a143ee8a098560a642f",
+          "approved_anchor_sha256": "27368e67a321e8789f2f74b6e957adfd0681762b8e4e1f24132d31ede802783b"
+        },
+        {
+          "file": "s17-easy-to-miss.jpeg",
+          "crop": [
+            0.55,
+            0.06,
+            0.77,
+            0.23
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "2eb92e7a7cf462993864c6a1861b5a9ff5fd5bb2a3575f36a324876874d2f23e",
+          "approved_anchor_sha256": "27368e67a321e8789f2f74b6e957adfd0681762b8e4e1f24132d31ede802783b"
+        },
+        {
+          "file": "s18-the-four-sweat-streaked-faces.jpeg",
+          "crop": [
+            0.71,
+            0.23,
+            0.98,
+            0.47
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "77d4c2172be92844563d6d6e53b3690038d327f52fa79fb9ceebf64d7be1f91d",
+          "approved_anchor_sha256": "27368e67a321e8789f2f74b6e957adfd0681762b8e4e1f24132d31ede802783b"
+        },
+        {
+          "file": "s19-he-hadnt-said-a-word.jpeg",
+          "crop": [
+            0.67,
+            0.02,
+            0.97,
+            0.27
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "15502c1c8540e6baba953ed436064b3c62b5868a708cd40e95a90c975f8fe01e",
+          "approved_anchor_sha256": "27368e67a321e8789f2f74b6e957adfd0681762b8e4e1f24132d31ede802783b"
+        }
+      ]
+    },
+    "jesus": {
+      "anchor": "../JESUS-V2-REF/jesus-v2-face.jpeg",
+      "appearances": [
+        {
+          "file": "s15-swaying-on-four-ropes.jpeg",
+          "crop": [
+            0.39,
+            0.43,
+            0.62,
+            0.6
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "ab5ed765668e9f2f6f4f73f077a0f695af4581a79d56a3b79c355e0e0e1814af",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s16-at-the-feet-of-jesus.jpeg",
+          "crop": [
+            0.52,
+            0.25,
+            0.77,
+            0.44
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "dace731e9abf706e7b8b0d5f1aeb475508a4635e7a7216f68b957a5e235d5f03",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s17-easy-to-miss.jpeg",
+          "crop": [
+            0.48,
+            0.39,
+            0.85,
+            0.64
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "2eb92e7a7cf462993864c6a1861b5a9ff5fd5bb2a3575f36a324876874d2f23e",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s20-braced-for-words-about-his-legs.jpeg",
+          "crop": [
+            0.25,
+            0.36,
+            0.55,
+            0.57
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "ef7d1c7f063a1f2e27ae5e7ac04e8b4e4302af1a427ddfc8f786130f40e12150",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s21-son-thy-sins-be-forgiven.jpeg",
+          "crop": [
+            0.12,
+            0.05,
+            0.86,
+            0.59
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "082422a3b54c2501b811778d3698c550a895072c1e3d1e688b7b3cdafc7db0eb",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s24-the-deepest-wound-first.jpeg",
+          "crop": [
+            0.04,
+            0.09,
+            0.5,
+            0.48
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "1f40ad947f33a60445cd42a2883f61663bfcae936d1a54211027304f358c6b4c",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s32-whether-is-it-easier.jpeg",
+          "crop": [
+            0.27,
+            0.24,
+            0.5,
+            0.4
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "d51973efa036d7806b447f81b4bc0666fec0e713f0eff9a4de889f63195db7ba",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s36-so-that-you-will-know.jpeg",
+          "crop": [
+            0.01,
+            0.06,
+            0.54,
+            0.52
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "edb4f5acb7802c2c32f16743715fca3b7a884966a5006b438bfe3b270086051c",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s37-arise-take-up-thy-bed.jpeg",
+          "crop": [
+            0.12,
+            0.06,
+            0.86,
+            0.57
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "182af965e0b2576b04f5d74ea46fd8de95f68df7f7040fac5cea70191105b672",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s39-legs-like-a-newborn-colt.jpeg",
+          "crop": [
+            0.65,
+            0.29,
+            0.87,
+            0.44
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "133aef288055c090204b7f6edf9f91755b13d860a9cca566b3cbbedefc72af2a",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s43-they-were-all-amazed.jpeg",
+          "crop": [
+            0.52,
+            0.36,
+            0.73,
+            0.51
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "0b525634dd5086974bd213d41d2ac2ddbbb719a34d83f17177fa573a7aa94bb8",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        }
+      ]
+    }
+  }
+}
