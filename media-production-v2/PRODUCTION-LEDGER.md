@@ -486,6 +486,21 @@ session's earlier "no generation until re-piloted recipe" line. The standing law
 
 ---
 
+## Session 8 — 2026-08-01 — CLAIM: story 05 (bent-over woman) realistic rebuild (Machine A / `Dev`)
+
+- **Model:** Fable 5 (Claude Code) · **Machine:** Machine A — hostname `Dev`
+- **CLAIM (2026-08-01): story 05 build-05-bent-woman for the REALISTIC rebuild** —
+  next open V2 wave row (02/03/07/11/13 shipped, 04 claimed by Codex). Row 5's 37
+  existing V2 stills (Jul 29) fall under the Session 6 blanket rejection of the old
+  look — 3 of them additionally 1K undersized per the resolution audit. They stay in
+  `assets/` untouched as rough-draft composition refs; the realistic set generates to
+  `assets-realistic/` via `v2_gen_api.py` (gemini-3-pro-image, native 2K, hard
+  ceiling), build-02 pattern. Audio stays LOCKED to the authoritative narration;
+  no re-voicing. Ships to Reviewer only; app feed untouched.
+- Session results are appended below when the row closes.
+
+---
+
 ## 🛑 RESOLUTION AUDIT — 2026-07-30, Machine A (`Dev`): 159 of 424 pictures were 1K
 
 Cameron asked what had actually been made this session. Counting it turned up a defect

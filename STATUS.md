@@ -16,6 +16,8 @@ Repo: `github.com/noremacttevol/MBM`
 | Claude worker 1 | Story 07 Peter — "immediately" re-voice | ✅ shipped V7 to reviewer (2c0c66159) |
 | Claude worker 2 | Story 11 Storm — 3 pictures + "Peace, be still" pacing | ✅ shipped realistic V4 to reviewer (f8acb3acc) |
 | Claude worker 3 | Story 02 Prodigal — full realistic rebuild | ✅ shipped realistic V2 cut to reviewer (2026-08-01) |
+| Claude worker 4 | Story 06 Two Sons — full realistic rebuild | in progress — claimed 2026-08-01. Old V2 stills fall under the Session 6 blanket rejection; regenerating to the realistic standard on the Gemini API engine (build-02 pattern). Audio stays LOCKED to the V1 final. |
+| Claude worker 4 (Machine A, Dev) | Story 05 (Bent-Over Woman) full realistic rebuild | in progress — claimed 2026-08-01. Old V2 stills fall under the Session 6 blanket rejection; regenerating all beats to the realistic standard on the Gemini API engine (build-02 pattern). Audio stays LOCKED; app feed untouched. |
 
 Coordination law for ALL workers (Codex included — it reads AGENTS.md): claim by push
 BEFORE building, commit only your own files, update your row here in the same commit,
