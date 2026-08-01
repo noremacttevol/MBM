@@ -6,7 +6,7 @@
   "LEAD": 0.28,
   "GAP": 0.72,
   "KJV_GAP": 1.2,
-  "TAIL": 1.5
+  "TAIL": 4.2
  },
  "beats": [
   {
@@ -17,42 +17,120 @@
    "text": "Jesus told this story to religious leaders \u2014 people who were sure they had already said yes to God. He told it so they would hear themselves in it.",
    "seg_start": 0.0,
    "audio_start": 0.28,
-   "spoken_end": 7.896,
-   "seg_end": 8.616,
-   "audio_dur": 8.072,
-   "spoken_dur": 7.616,
-   "seg_dur": 8.616,
+   "spoken_end": 8.462,
+   "seg_end": 9.182,
+   "audio_dur": 8.62,
+   "spoken_dur": 8.182,
+   "seg_dur": 9.182,
    "timing": [
     {
      "text": "Jesus told this story to religious leaders \u2014 people who were sure they had already said yes to God.",
      "start": 0.0,
-     "end": 5.224
+     "end": 5.526
     },
     {
      "text": "He told it so they would hear themselves in it.",
-     "start": 5.224,
-     "end": 8.034
+     "start": 5.526,
+     "end": 8.591
+    }
+   ]
+  },
+  {
+   "seg": "j28",
+   "v1_still": "s2-first-refuses.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "But what think ye? A certain man had two sons; and he came to the first, and said, Son, go work to day in my vineyard.",
+   "seg_start": 9.182,
+   "audio_start": 9.462,
+   "spoken_end": 17.755,
+   "seg_end": 18.955,
+   "audio_dur": 8.673,
+   "spoken_dur": 8.293,
+   "seg_dur": 9.773,
+   "timing": [
+    {
+     "text": "But what think ye?",
+     "start": 0.0,
+     "end": 1.138
+    },
+    {
+     "text": "A certain man had two sons; and he came to the first, and said, Son, go work today in my vineyard.",
+     "start": 1.138,
+     "end": 8.638
     }
    ]
   },
   {
    "seg": "n1",
    "v1_still": "s2-first-refuses.jpeg",
-   "zoom": "in",
+   "zoom": "out",
    "speaker": "narrator",
-   "text": "The first answer was blunt.",
-   "seg_start": 8.616,
-   "audio_start": 8.896,
-   "spoken_end": 10.12,
-   "seg_end": 10.84,
-   "audio_dur": 1.672,
-   "spoken_dur": 1.224,
-   "seg_dur": 2.224,
+   "text": "A father told his first son: And the son answered him flat.",
+   "seg_start": 18.955,
+   "audio_start": 19.235,
+   "spoken_end": 22.659,
+   "seg_end": 23.379,
+   "audio_dur": 3.892,
+   "spoken_dur": 3.424,
+   "seg_dur": 4.424,
    "timing": [
     {
-     "text": "The first answer was blunt.",
+     "text": "A father told his first son: And the son answered him flat.",
      "start": 0.0,
-     "end": 1.625
+     "end": 3.855
+    }
+   ]
+  },
+  {
+   "seg": "j29",
+   "v1_still": "s2-first-refuses.jpeg",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "He answered and said, I will not.",
+   "seg_start": 23.379,
+   "audio_start": 23.659,
+   "spoken_end": 26.18,
+   "seg_end": 27.38,
+   "audio_dur": 2.926,
+   "spoken_dur": 2.521,
+   "seg_dur": 4.001,
+   "timing": [
+    {
+     "text": "He answered and said, I will not.",
+     "start": 0.0,
+     "end": 2.879
+    }
+   ]
+  },
+  {
+   "seg": "n1b",
+   "v1_still": "s2-first-refuses.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "I will not. No excuse offered, nothing softened. Just no.",
+   "seg_start": 27.38,
+   "audio_start": 27.66,
+   "spoken_end": 31.465,
+   "seg_end": 32.185,
+   "audio_dur": 4.258,
+   "spoken_dur": 3.804,
+   "seg_dur": 4.804,
+   "timing": [
+    {
+     "text": "I will not.",
+     "start": 0.0,
+     "end": 0.778
+    },
+    {
+     "text": "No excuse offered, nothing softened.",
+     "start": 0.778,
+     "end": 3.17
+    },
+    {
+     "text": "Just no.",
+     "start": 3.17,
+     "end": 4.226
     }
    ]
   },
@@ -61,40 +139,76 @@
    "v1_still": "s3-second-yes.jpeg",
    "zoom": "in",
    "speaker": "narrator",
-   "text": "The answer from the other son sounded much better.",
-   "seg_start": 10.84,
-   "audio_start": 11.12,
-   "spoken_end": 13.199,
-   "seg_end": 13.919,
-   "audio_dur": 2.508,
-   "spoken_dur": 2.079,
-   "seg_dur": 3.079,
+   "text": "Then the father went to his second son and asked him the same thing.",
+   "seg_start": 32.185,
+   "audio_start": 32.465,
+   "spoken_end": 35.577,
+   "seg_end": 36.297,
+   "audio_dur": 3.579,
+   "spoken_dur": 3.112,
+   "seg_dur": 4.112,
    "timing": [
     {
-     "text": "The answer from the other son sounded much better.",
+     "text": "Then the father went to his second son and asked him the same thing.",
      "start": 0.0,
-     "end": 2.461
+     "end": 3.529
+    }
+   ]
+  },
+  {
+   "seg": "j30",
+   "v1_still": "s3-second-yes.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "And he came to the second, and said likewise. And he answered and said, I go, sir: and went not.",
+   "seg_start": 36.297,
+   "audio_start": 36.577,
+   "spoken_end": 42.939,
+   "seg_end": 44.139,
+   "audio_dur": 6.635,
+   "spoken_dur": 6.363,
+   "seg_dur": 7.843,
+   "timing": [
+    {
+     "text": "And he came to the second, and said likewise.",
+     "start": 0.0,
+     "end": 2.485
+    },
+    {
+     "text": "And he answered and said, I go, sir: and went not.",
+     "start": 2.485,
+     "end": 6.594
     }
    ]
   },
   {
    "seg": "n2b",
    "v1_still": "s3-second-yes.jpeg",
-   "zoom": "out",
+   "zoom": "in",
    "speaker": "narrator",
-   "text": "The promise sounded respectful, but it never became obedience.",
-   "seg_start": 13.919,
-   "audio_start": 14.199,
-   "spoken_end": 17.738,
-   "seg_end": 18.458,
-   "audio_dur": 3.997,
-   "spoken_dur": 3.539,
-   "seg_dur": 4.539,
+   "text": "Yes sir, that one said. I'm going. And didn't.",
+   "seg_start": 44.139,
+   "audio_start": 44.419,
+   "spoken_end": 46.986,
+   "seg_end": 47.706,
+   "audio_dur": 3.004,
+   "spoken_dur": 2.567,
+   "seg_dur": 3.567,
    "timing": [
     {
-     "text": "The promise sounded respectful, but it never became obedience.",
+     "text": "Yes sir, that one said.",
      "start": 0.0,
-     "end": 3.947
+     "end": 1.405
+    },
+    {
+     "text": "I'm going.",
+     "start": 1.405,
+     "end": 2.032
+    },
+    {
+     "text": "And didn't.",
+     "start": 2.032,
+     "end": 2.972
     }
    ]
   },
@@ -104,64 +218,85 @@
    "zoom": "in",
    "speaker": "narrator",
    "text": "The first son meant his no. But it wouldn't leave him alone. All morning, the vineyard kept pulling at him.",
-   "seg_start": 18.458,
-   "audio_start": 18.738,
-   "spoken_end": 24.856,
-   "seg_end": 25.576,
-   "audio_dur": 6.531,
-   "spoken_dur": 6.118,
-   "seg_dur": 7.118,
+   "seg_start": 47.706,
+   "audio_start": 47.986,
+   "spoken_end": 54.199,
+   "seg_end": 54.919,
+   "audio_dur": 6.635,
+   "spoken_dur": 6.213,
+   "seg_dur": 7.213,
    "timing": [
     {
      "text": "The first son meant his no.",
      "start": 0.0,
-     "end": 1.823
+     "end": 1.811
     },
     {
      "text": "But it wouldn't leave him alone.",
-     "start": 1.823,
-     "end": 3.587
+     "start": 1.811,
+     "end": 3.483
     },
     {
      "text": "All morning, the vineyard kept pulling at him.",
-     "start": 3.587,
-     "end": 6.502
+     "start": 3.483,
+     "end": 6.594
+    }
+   ]
+  },
+  {
+   "seg": "j29b",
+   "v1_still": "s4-first-relents.jpeg",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "but afterward he repented, and went.",
+   "seg_start": 54.919,
+   "audio_start": 55.199,
+   "spoken_end": 57.183,
+   "seg_end": 58.383,
+   "audio_dur": 2.325,
+   "spoken_dur": 1.983,
+   "seg_dur": 3.463,
+   "timing": [
+    {
+     "text": "but afterward he repented, and went.",
+     "start": 0.0,
+     "end": 2.276
     }
    ]
   },
   {
    "seg": "n2d",
    "v1_still": "s4-first-relents.jpeg",
-   "zoom": "out",
+   "zoom": "in",
    "speaker": "narrator",
    "text": "So he got up. And he went. No announcement, no apology. He went back to the vineyard, and he worked.",
-   "seg_start": 25.576,
-   "audio_start": 25.856,
-   "spoken_end": 32.7,
-   "seg_end": 33.42,
-   "audio_dur": 7.288,
-   "spoken_dur": 6.844,
-   "seg_dur": 7.844,
+   "seg_start": 58.383,
+   "audio_start": 58.663,
+   "spoken_end": 65.098,
+   "seg_end": 65.818,
+   "audio_dur": 6.87,
+   "spoken_dur": 6.435,
+   "seg_dur": 7.435,
    "timing": [
     {
      "text": "So he got up.",
      "start": 0.0,
-     "end": 0.882
+     "end": 0.836
     },
     {
      "text": "And he went.",
-     "start": 0.882,
-     "end": 1.927
+     "start": 0.836,
+     "end": 1.834
     },
     {
      "text": "No announcement, no apology.",
-     "start": 1.927,
-     "end": 4.493
+     "start": 1.834,
+     "end": 4.261
     },
     {
      "text": "He went back to the vineyard, and he worked.",
-     "start": 4.493,
-     "end": 7.245
+     "start": 4.261,
+     "end": 6.827
     }
    ]
   },
@@ -171,23 +306,23 @@
    "zoom": "in",
    "speaker": "narrator",
    "text": "The row the second son promised to work stayed empty all day. Then Jesus asked the crowd a question.",
-   "seg_start": 33.42,
-   "audio_start": 33.7,
-   "spoken_end": 39.657,
-   "seg_end": 40.377,
-   "audio_dur": 6.348,
-   "spoken_dur": 5.957,
-   "seg_dur": 6.957,
+   "seg_start": 65.818,
+   "audio_start": 66.098,
+   "spoken_end": 71.711,
+   "seg_end": 72.431,
+   "audio_dur": 6.034,
+   "spoken_dur": 5.613,
+   "seg_dur": 6.613,
    "timing": [
     {
      "text": "The row the second son promised to work stayed empty all day.",
      "start": 0.0,
-     "end": 3.193
+     "end": 2.995
     },
     {
      "text": "Then Jesus asked the crowd a question.",
-     "start": 3.193,
-     "end": 6.316
+     "start": 2.995,
+     "end": 5.991
     }
    ]
   },
@@ -197,13 +332,13 @@
    "zoom": "in",
    "speaker": "jesus",
    "text": "Whether of them twain did the will of his father?",
-   "seg_start": 40.377,
-   "audio_start": 40.657,
-   "spoken_end": 43.1,
-   "seg_end": 44.3,
+   "seg_start": 72.431,
+   "audio_start": 72.711,
+   "spoken_end": 75.122,
+   "seg_end": 76.322,
    "audio_dur": 2.821,
-   "spoken_dur": 2.443,
-   "seg_dur": 3.923,
+   "spoken_dur": 2.411,
+   "seg_dur": 3.891,
    "timing": [
     {
      "text": "Whether of them twain did the will of his father?",
@@ -217,24 +352,45 @@
    "v1_still": "s6-jesus-asks.jpeg",
    "zoom": "out",
    "speaker": "narrator",
-   "text": "The difference was not what the sons said; it was what they finally did. The crowd knew the answer.",
-   "seg_start": 44.3,
-   "audio_start": 44.58,
-   "spoken_end": 50.633,
-   "seg_end": 51.353,
-   "audio_dur": 6.504,
-   "spoken_dur": 6.053,
-   "seg_dur": 7.053,
+   "text": "He was asking: which of the two actually did what his father wanted? And the crowd answered him.",
+   "seg_start": 76.322,
+   "audio_start": 76.602,
+   "spoken_end": 82.365,
+   "seg_end": 83.085,
+   "audio_dur": 6.087,
+   "spoken_dur": 5.763,
+   "seg_dur": 6.763,
    "timing": [
     {
-     "text": "The difference was not what the sons said; it was what they finally did.",
+     "text": "He was asking: which of the two actually did what his father wanted?",
      "start": 0.0,
-     "end": 4.261
+     "end": 4.133
     },
     {
-     "text": "The crowd knew the answer.",
-     "start": 4.261,
-     "end": 6.455
+     "text": "And the crowd answered him.",
+     "start": 4.133,
+     "end": 6.037
+    }
+   ]
+  },
+  {
+   "seg": "s31",
+   "v1_still": "s6-jesus-asks.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "They say unto him, The first.",
+   "seg_start": 83.085,
+   "audio_start": 83.365,
+   "spoken_end": 84.924,
+   "seg_end": 86.124,
+   "audio_dur": 1.933,
+   "spoken_dur": 1.56,
+   "seg_dur": 3.04,
+   "timing": [
+    {
+     "text": "They say unto him, The first.",
+     "start": 0.0,
+     "end": 1.904
     }
    ]
   },
@@ -243,29 +399,29 @@
    "v1_still": "s7-turns-leaders.jpeg",
    "zoom": "in",
    "speaker": "narrator",
-   "text": "Their answer condemned their own confidence. The son who began in rebellion had changed direction; the polite son had not. Then Jesus turned to the religious leaders \u2014 the ones who were sure they were the second son.",
-   "seg_start": 51.353,
-   "audio_start": 51.633,
-   "spoken_end": 64.881,
-   "seg_end": 65.601,
-   "audio_dur": 13.61,
-   "spoken_dur": 13.248,
-   "seg_dur": 14.248,
+   "text": "The first one, they said. The one who started with no. Then he turned to the religious leaders \u2014 the ones who were sure they were the second son.",
+   "seg_start": 86.124,
+   "audio_start": 86.404,
+   "spoken_end": 94.241,
+   "seg_end": 94.961,
+   "audio_dur": 8.202,
+   "spoken_dur": 7.837,
+   "seg_dur": 8.837,
    "timing": [
     {
-     "text": "Their answer condemned their own confidence.",
+     "text": "The first one, they said.",
      "start": 0.0,
-     "end": 1.997
+     "end": 1.219
     },
     {
-     "text": "The son who began in rebellion had changed direction; the polite son had not.",
-     "start": 1.997,
-     "end": 7.396
+     "text": "The one who started with no.",
+     "start": 1.219,
+     "end": 3.123
     },
     {
-     "text": "Then Jesus turned to the religious leaders \u2014 the ones who were sure they were the second son.",
-     "start": 7.396,
-     "end": 13.56
+     "text": "Then he turned to the religious leaders \u2014 the ones who were sure they were the second son.",
+     "start": 3.123,
+     "end": 8.173
     }
    ]
   },
@@ -275,18 +431,49 @@
    "zoom": "in",
    "speaker": "jesus",
    "text": "Verily I say unto you, That the publicans and the harlots go into the kingdom of God before you.",
-   "seg_start": 65.601,
-   "audio_start": 65.881,
-   "spoken_end": 71.918,
-   "seg_end": 73.118,
-   "audio_dur": 6.4,
-   "spoken_dur": 6.037,
-   "seg_dur": 7.517,
+   "seg_start": 94.961,
+   "audio_start": 95.241,
+   "spoken_end": 101.381,
+   "seg_end": 102.581,
+   "audio_dur": 6.583,
+   "spoken_dur": 6.14,
+   "seg_dur": 7.62,
    "timing": [
     {
      "text": "Verily I say unto you, That the publicans and the harlots go into the kingdom of God before you.",
      "start": 0.0,
-     "end": 6.362
+     "end": 6.548
+    }
+   ]
+  },
+  {
+   "seg": "n5b",
+   "v1_still": "s8-verdict.jpeg",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "The tax collectors and the worst-thought-of people in town are going in ahead of you. Not because their lives were tidier. Because when they finally heard, they turned around and went.",
+   "seg_start": 102.581,
+   "audio_start": 102.861,
+   "spoken_end": 111.992,
+   "seg_end": 112.712,
+   "audio_dur": 9.613,
+   "spoken_dur": 9.131,
+   "seg_dur": 10.131,
+   "timing": [
+    {
+     "text": "The tax collectors and the worst-thought-of people in town are going in ahead of you.",
+     "start": 0.0,
+     "end": 4.017
+    },
+    {
+     "text": "Not because their lives were tidier.",
+     "start": 4.017,
+     "end": 6.269
+    },
+    {
+     "text": "Because when they finally heard, they turned around and went.",
+     "start": 6.269,
+     "end": 9.567
     }
    ]
   }
@@ -294,9 +481,9 @@
  "card": {
   "seg": "n6",
   "text": "Have you ever said no to something \u2014 maybe loudly \u2014 and found yourself moving toward it anyway, because part of you couldn't let it go?",
-  "seg_start": 73.118,
-  "audio_start": 73.398,
-  "seg_dur": 10.218
+  "seg_start": 112.712,
+  "audio_start": 112.992,
+  "seg_dur": 13.074
  },
- "total": 83.336
+ "total": 125.786
 }

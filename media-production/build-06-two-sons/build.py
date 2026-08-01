@@ -43,23 +43,37 @@ S7 = "s7-turns-leaders.jpeg"
 S8 = "s8-verdict.jpeg"
 
 TEXT = {s[0]: s[2] for s in make_narration.SEGMENTS}
-KJV = {"j1", "j2"}
+SPEAKER = {s[0]: s[1] for s in make_narration.SEGMENTS}
 PEAK = "n4"   # the crowd's answer — sacred silence
 CARD_TEXT = ("It was never about the perfect yes. The son who changed his "
              "mind is the one who went. It is not too late to turn and go.")
 
+# COMPLAINT FIX (Cameron, 2026-07-28: "you cut out the original thing the
+# father asked the sons"): the 2026-07-24 REDO voiced the complete script —
+# j28 (the father's KJV ask), j29/j30 (both sons' KJV answers), n1b, n2b,
+# j29b, s31 (the crowd's KJV answer) and n5b (publican/harlot explained in
+# modern terms) — but this BEATS list was never updated, so the assembled cut
+# silently dropped them. Every voiced segment is now on the timeline, in
+# make_narration.SEGMENTS order. Audio files untouched; assembly-only fix.
 BEATS = [
     ("n0", S1, "in"),
-    ("n1", S2, "in"),
+    ("j28", S2, "in"),
+    ("n1", S2, "out"),
+    ("j29", S2, "in"),
+    ("n1b", S2, "out"),
     ("n2", S3, "in"),
-    ("n2b", S3, "out"),
+    ("j30", S3, "out"),
+    ("n2b", S3, "in"),
     ("n2c", S4, "in"),
-    ("n2d", S4, "out"),
+    ("j29b", S4, "out"),
+    ("n2d", S4, "in"),
     ("n3", S5, "in"),
     ("j1", S6, "in"),
     ("n4", S6, "out"),
+    ("s31", S6, "in"),
     ("n5", S7, "in"),
     ("j2", S8, "in"),
+    ("n5b", S8, "out"),
 ]
 
 LEAD = 0.28
@@ -197,8 +211,10 @@ def main():
     audio_place = []
     peak_start = None
     for name, still, zdir in BEATS:
-        kjv = name in KJV
-        gap = KJV_GAP if kjv else GAP
+        # Speaker-aware gap, matching media-production-v2/extract_beats.py
+        # exactly: every non-narrator line breathes with the KJV gap.
+        kjv = SPEAKER[name]
+        gap = KJV_GAP if kjv != "narrator" else GAP
         vdur = LEAD + spoken[name] + gap
         a_start = t + LEAD
         audio_place.append((f"audio/{name}.mp3", a_start))
