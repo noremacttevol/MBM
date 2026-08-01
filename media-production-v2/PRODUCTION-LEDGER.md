@@ -560,6 +560,24 @@ session's earlier "no generation until re-piloted recipe" line. The standing law
 
 ---
 
+## Session 9 — 2026-08-01 — CLAIM: story 08 (lost coin) realistic rebuild (Claude worker 5, Machine A / `Dev`)
+
+- **Model:** Fable 5 (Claude Code) · **Machine:** Machine A — hostname `Dev`
+- **CLAIM (2026-08-01): story 08 build-08-lost-coin for the REALISTIC rebuild** —
+  next open V2 wave row (a parallel worker takes 09). Row 8's existing 11 untracked
+  stills (+1 FAILED) are all 1536x2752 but predate the realistic wave close-out;
+  each is QC'd against the realistic rubric at full size and reused ONLY if it
+  genuinely passes — the rest regenerate to `assets/` via `v2_gen_api.py`
+  (gemini-3-pro-image, native 2K, hard per-run ceiling recomputed from the live
+  shared meter, `--only` slices). Prior reviewer lesson on this row ("cut the
+  original video short") is RESOLVED — the full 58.2 s audio stays LOCKED via the
+  v2_assemble encoded-audio hash lock; no re-voicing. Windows re-verified from the
+  fixed `extract_beats.py` against the real audio with silencedetect. Ships to
+  Reviewer only; app feed untouched.
+- Session results are appended below when the row closes.
+
+---
+
 ## 🛑 RESOLUTION AUDIT — 2026-07-30, Machine A (`Dev`): 159 of 424 pictures were 1K
 
 Cameron asked what had actually been made this session. Counting it turned up a defect
