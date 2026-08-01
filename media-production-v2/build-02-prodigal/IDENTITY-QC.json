@@ -1,0 +1,415 @@
+{
+  "asset_dir": "assets-realistic-v3",
+  "board_dir": "identity-boards-v3",
+  "notes": [
+    "Only clear, auditable face appearances are included; backs of heads and fully distant figures are excluded.",
+    "A pass is valid only while both the source-frame and canonical-anchor SHA-256 hashes remain unchanged.",
+    "The six already-correct composition frames remain byte-identical to realistic V2; the other listed appearances were identity-repaired against one canonical anchor per person."
+  ],
+  "identities": {
+    "jesus": {
+      "anchor": "character-refs-v3/jesus-face.jpeg",
+      "appearances": [
+        {
+          "file": "s01-they-murmured.jpeg",
+          "crop": [
+            0.59,
+            0.34,
+            0.82,
+            0.52
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "16ec69913094c6962378042b018657789ca5e639b152632ddabf13a06a5b0000",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s02-he-answered-with-a-story.jpeg",
+          "crop": [
+            0.52,
+            0.33,
+            0.71,
+            0.48
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "10401e4a3bf506628dded0dca793574b4f8e0c31f20bb9c9f4b9a089d0198a7f",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        }
+      ]
+    },
+    "father": {
+      "anchor": "character-refs-v3/father-face.jpeg",
+      "appearances": [
+        {
+          "file": "s03-the-ask.jpeg",
+          "crop": [
+            0.5,
+            0.25,
+            0.82,
+            0.51
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "c6a27b162b317d438d9ebefccb4a14a42cb49853731e8b65e76def55ac665afe",
+          "approved_anchor_sha256": "333dfb3156ad0c8a1792d48bbb1feea8f806188d001556ac2818b06bd4cc9112"
+        },
+        {
+          "file": "s10-father-saw-him.jpeg",
+          "crop": [
+            0.54,
+            0.25,
+            0.74,
+            0.41
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "128046087e2e1f607af9874aba033bf6d28a5d4062b2893cec18a8dc1b70b4b0",
+          "approved_anchor_sha256": "333dfb3156ad0c8a1792d48bbb1feea8f806188d001556ac2818b06bd4cc9112"
+        },
+        {
+          "file": "s13-the-embrace.jpeg",
+          "crop": [
+            0.48,
+            0.31,
+            0.76,
+            0.5
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "52ee0b042c5a31e7dfcc444c922c17d77220773c75ea3eb175629542c78ad1ae",
+          "approved_anchor_sha256": "333dfb3156ad0c8a1792d48bbb1feea8f806188d001556ac2818b06bd4cc9112"
+        },
+        {
+          "file": "s14-robe-ring-shoes.jpeg",
+          "crop": [
+            0.2,
+            0.21,
+            0.42,
+            0.41
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "64adff4af587b680d121762329d90ebbc730dec3b46d8ea38239926260d0edda",
+          "approved_anchor_sha256": "333dfb3156ad0c8a1792d48bbb1feea8f806188d001556ac2818b06bd4cc9112"
+        },
+        {
+          "file": "s15-my-son-was-dead.jpeg",
+          "crop": [
+            0.43,
+            0.38,
+            0.62,
+            0.56
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "b07752e94b17f9bfab9af10a260bad7fc3761ad9fd94f1297d413188994aeca1",
+          "approved_anchor_sha256": "333dfb3156ad0c8a1792d48bbb1feea8f806188d001556ac2818b06bd4cc9112"
+        },
+        {
+          "file": "s19-father-came-out.jpeg",
+          "crop": [
+            0.25,
+            0.34,
+            0.47,
+            0.52
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "7c61f103b80399bf59b207dfc8e839989f1e19c8dc876033294a2d9ec6a3b4dc",
+          "approved_anchor_sha256": "333dfb3156ad0c8a1792d48bbb1feea8f806188d001556ac2818b06bd4cc9112"
+        },
+        {
+          "file": "s20-the-hurt-poured-out.jpeg",
+          "crop": [
+            0.56,
+            0.37,
+            0.77,
+            0.56
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "9fc3f353e782fe6c2b970515dcaebe61bd8e042743f415fb558cb2cd11bc1d21",
+          "approved_anchor_sha256": "333dfb3156ad0c8a1792d48bbb1feea8f806188d001556ac2818b06bd4cc9112"
+        },
+        {
+          "file": "s21-lo-these-many-years.jpeg",
+          "crop": [
+            0.62,
+            0.08,
+            0.99,
+            0.46
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "a669568c8decbaf86598c04536cd884dbd215cae852dca40cf893b7972cf677c",
+          "approved_anchor_sha256": "333dfb3156ad0c8a1792d48bbb1feea8f806188d001556ac2818b06bd4cc9112"
+        },
+        {
+          "file": "s22-the-last-words.jpeg",
+          "crop": [
+            0.22,
+            0.25,
+            0.43,
+            0.42
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "535863a35faa6ceec5f8d8e0b9310819fb1fadfdb6c6bb24ec4fc2339f6a1612",
+          "approved_anchor_sha256": "333dfb3156ad0c8a1792d48bbb1feea8f806188d001556ac2818b06bd4cc9112"
+        },
+        {
+          "file": "s23-all-that-i-have-is-thine.jpeg",
+          "crop": [
+            0.13,
+            0.14,
+            0.61,
+            0.57
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "560e6cd833d8756b0475dbf9291389b9fd9d94e1317500db16fed4c2aef31ce0",
+          "approved_anchor_sha256": "333dfb3156ad0c8a1792d48bbb1feea8f806188d001556ac2818b06bd4cc9112"
+        },
+        {
+          "file": "s24-the-open-door.jpeg",
+          "crop": [
+            0.63,
+            0.32,
+            0.84,
+            0.52
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "4084d89c3ee5cdef24877f48d6fe802aff04372149996c0e1324e127018a7b48",
+          "approved_anchor_sha256": "333dfb3156ad0c8a1792d48bbb1feea8f806188d001556ac2818b06bd4cc9112"
+        }
+      ]
+    },
+    "younger-son": {
+      "anchor": "character-refs-v3/younger-face.jpeg",
+      "appearances": [
+        {
+          "file": "s03-the-ask.jpeg",
+          "crop": [
+            0.22,
+            0.13,
+            0.45,
+            0.32
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "c6a27b162b317d438d9ebefccb4a14a42cb49853731e8b65e76def55ac665afe",
+          "approved_anchor_sha256": "efbbb561770e75ca75aa35c300818a3b13204dbc809784039e38f4512db43e98"
+        },
+        {
+          "file": "s05-money-gone-famine.jpeg",
+          "crop": [
+            0.33,
+            0.2,
+            0.71,
+            0.49
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "18861bbae2a231b2c2075e5a039b77f6ee15efedefa3a174ce39e4d9f3a400ce",
+          "approved_anchor_sha256": "efbbb561770e75ca75aa35c300818a3b13204dbc809784039e38f4512db43e98"
+        },
+        {
+          "file": "s06-feeding-pigs.jpeg",
+          "crop": [
+            0.43,
+            0.18,
+            0.72,
+            0.39
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "2bd05ba066338ecb7387dce162701983f965b8fce9bef401bd2544d45ebf0683",
+          "approved_anchor_sha256": "efbbb561770e75ca75aa35c300818a3b13204dbc809784039e38f4512db43e98"
+        },
+        {
+          "file": "s07-came-to-his-senses.jpeg",
+          "crop": [
+            0.39,
+            0.23,
+            0.68,
+            0.47
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "b540fad3a9e48a2f6d56d4ddc21f6a53e1b8ead2354ffc1b4d737d5ea4601b46",
+          "approved_anchor_sha256": "efbbb561770e75ca75aa35c300818a3b13204dbc809784039e38f4512db43e98"
+        },
+        {
+          "file": "s08-walking-home.jpeg",
+          "crop": [
+            0.21,
+            0.35,
+            0.37,
+            0.51
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "b920630b501f72934a88e6d2b513af554a04c0187c984ba87726ca3ff2b7fccd",
+          "approved_anchor_sha256": "efbbb561770e75ca75aa35c300818a3b13204dbc809784039e38f4512db43e98"
+        },
+        {
+          "file": "s09-the-rehearsed-speech.jpeg",
+          "crop": [
+            0.33,
+            0.14,
+            0.72,
+            0.44
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "8d6fddae478c184b7ddca2e5c7065c12cdfd57267000bdb0a036464e5a631891",
+          "approved_anchor_sha256": "efbbb561770e75ca75aa35c300818a3b13204dbc809784039e38f4512db43e98"
+        },
+        {
+          "file": "s13-the-embrace.jpeg",
+          "crop": [
+            0.57,
+            0.23,
+            0.8,
+            0.41
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "52ee0b042c5a31e7dfcc444c922c17d77220773c75ea3eb175629542c78ad1ae",
+          "approved_anchor_sha256": "efbbb561770e75ca75aa35c300818a3b13204dbc809784039e38f4512db43e98"
+        },
+        {
+          "file": "s14-robe-ring-shoes.jpeg",
+          "crop": [
+            0.47,
+            0.23,
+            0.7,
+            0.42
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "64adff4af587b680d121762329d90ebbc730dec3b46d8ea38239926260d0edda",
+          "approved_anchor_sha256": "efbbb561770e75ca75aa35c300818a3b13204dbc809784039e38f4512db43e98"
+        },
+        {
+          "file": "s15-my-son-was-dead.jpeg",
+          "crop": [
+            0.2,
+            0.37,
+            0.4,
+            0.56
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "b07752e94b17f9bfab9af10a260bad7fc3761ad9fd94f1297d413188994aeca1",
+          "approved_anchor_sha256": "efbbb561770e75ca75aa35c300818a3b13204dbc809784039e38f4512db43e98"
+        },
+        {
+          "file": "s24-the-open-door.jpeg",
+          "crop": [
+            0.11,
+            0.34,
+            0.27,
+            0.51
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "4084d89c3ee5cdef24877f48d6fe802aff04372149996c0e1324e127018a7b48",
+          "approved_anchor_sha256": "efbbb561770e75ca75aa35c300818a3b13204dbc809784039e38f4512db43e98"
+        }
+      ]
+    },
+    "elder-son": {
+      "anchor": "character-refs-v3/elder-face.jpeg",
+      "appearances": [
+        {
+          "file": "s16-elder-in-the-field.jpeg",
+          "crop": [
+            0.46,
+            0.26,
+            0.74,
+            0.48
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "9b7a221ebe046c9b5e93db61e4771f3c59076aac68d40e9546632777d2a3e9ed",
+          "approved_anchor_sha256": "e343fdb31f05230db4839c47ff8e90816fd439eb3248da96a52c48e747d9799a"
+        },
+        {
+          "file": "s17-musick-and-dancing.jpeg",
+          "crop": [
+            0.2,
+            0.42,
+            0.42,
+            0.62
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "6ecbc4917e3947731313cfe2a959a08fc99e18e457a6aa2891c7ff5cdbb202a0",
+          "approved_anchor_sha256": "e343fdb31f05230db4839c47ff8e90816fd439eb3248da96a52c48e747d9799a"
+        },
+        {
+          "file": "s18-would-not-go-in.jpeg",
+          "crop": [
+            0.39,
+            0.29,
+            0.68,
+            0.51
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "8f8a10363a2f3dee86d3d5ff6932a49a85f107d5e76a1644be59a751b416ef1b",
+          "approved_anchor_sha256": "e343fdb31f05230db4839c47ff8e90816fd439eb3248da96a52c48e747d9799a"
+        },
+        {
+          "file": "s19-father-came-out.jpeg",
+          "crop": [
+            0.65,
+            0.35,
+            0.87,
+            0.54
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "7c61f103b80399bf59b207dfc8e839989f1e19c8dc876033294a2d9ec6a3b4dc",
+          "approved_anchor_sha256": "e343fdb31f05230db4839c47ff8e90816fd439eb3248da96a52c48e747d9799a"
+        },
+        {
+          "file": "s20-the-hurt-poured-out.jpeg",
+          "crop": [
+            0.27,
+            0.36,
+            0.49,
+            0.56
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "9fc3f353e782fe6c2b970515dcaebe61bd8e042743f415fb558cb2cd11bc1d21",
+          "approved_anchor_sha256": "e343fdb31f05230db4839c47ff8e90816fd439eb3248da96a52c48e747d9799a"
+        },
+        {
+          "file": "s21-lo-these-many-years.jpeg",
+          "crop": [
+            0.0,
+            0.03,
+            0.47,
+            0.48
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "a669568c8decbaf86598c04536cd884dbd215cae852dca40cf893b7972cf677c",
+          "approved_anchor_sha256": "e343fdb31f05230db4839c47ff8e90816fd439eb3248da96a52c48e747d9799a"
+        },
+        {
+          "file": "s22-the-last-words.jpeg",
+          "crop": [
+            0.49,
+            0.23,
+            0.72,
+            0.43
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "535863a35faa6ceec5f8d8e0b9310819fb1fadfdb6c6bb24ec4fc2339f6a1612",
+          "approved_anchor_sha256": "e343fdb31f05230db4839c47ff8e90816fd439eb3248da96a52c48e747d9799a"
+        },
+        {
+          "file": "s23-all-that-i-have-is-thine.jpeg",
+          "crop": [
+            0.58,
+            0.0,
+            1.0,
+            0.57
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "560e6cd833d8756b0475dbf9291389b9fd9d94e1317500db16fed4c2aef31ce0",
+          "approved_anchor_sha256": "e343fdb31f05230db4839c47ff8e90816fd439eb3248da96a52c48e747d9799a"
+        },
+        {
+          "file": "s24-the-open-door.jpeg",
+          "crop": [
+            0.38,
+            0.31,
+            0.59,
+            0.52
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "4084d89c3ee5cdef24877f48d6fe802aff04372149996c0e1324e127018a7b48",
+          "approved_anchor_sha256": "e343fdb31f05230db4839c47ff8e90816fd439eb3248da96a52c48e747d9799a"
+        }
+      ]
+    }
+  }
+}

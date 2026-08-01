@@ -61,8 +61,11 @@ TIME-OF-DAY ARC (self-consistent; the parable states none):
 
 from pathlib import Path
 
-OUTPUT_ASSET_DIR = "assets-realistic"
-OUTPUT_VIDEO_NAME = "luke-15_prodigal-son-realistic-v2.mp4"
+# Cameron denied the first realistic cut because all recurring faces drifted.
+# V3 keeps that cut's approved scene plan and locked audio, but reads the
+# selectively identity-repaired stills that passed IDENTITY-QC.json.
+OUTPUT_ASSET_DIR = "assets-realistic-v3"
+OUTPUT_VIDEO_NAME = "luke-15_prodigal-son-realistic-v3.mp4"
 
 # Identity anchors by IMAGE (CAST-BIBLE principle; row-2 CAST-DRIFT lesson —
 # the elder son came back as three different men on text locks alone). These
