@@ -499,6 +499,31 @@ session's earlier "no generation until re-piloted recipe" line. The standing law
   no re-voicing. Ships to Reviewer only; app feed untouched.
 - Session results are appended below when the row closes.
 
+### Row 5 close — realistic rebuild DONE, cut shipped (2026-08-01)
+
+| row | slug | start | end | beats | gens | accepted | rerolls | spend | status | notes |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 5 | build-05-bent-woman | 2026-08-01 ~11:20 | 2026-08-01 ~12:45 | 37 | 56 | 39 (37 beats + 2 anchors) | 2× FERRULE (s02/s05) · 2× JESUS-BLACK-HAIR (s08/s12) · 1× CAMERA-GAZE (s08) · 1× ROUGH-ECHO + 1× DUPLICATE (s09) · 2× RULER-DRIFT (s25/s27) · 1× FARMER-DRIFT (s26) · 4× STICK-CONTINUITY (s30/s31/s32/s36) · 1× GROUP-PHOTO (s35) · 2× WARDROBE-GREEN (s02) | $7.50 this build (formula ~$6.27; overage = the 17 defect-fix passes) | **DONE — realistic cut shipped, awaiting Cameron** | 247.8 s · 20.8 MB · AUDIO LOCK PASS 83916bed… · verify-mp4 OK |
+
+- **ALL 37 windows re-timed** — the old beats_v2 windows carried the storm-11
+  formula defect (total 236.7 s vs the real 247.7 s, ~13 s drift by the end).
+  Recomputed as absolute phrase times from the fixed `extract_beats.py` and
+  verified against the real audio with silencedetect (every boundary within 0.1 s).
+- **Shared-meter lesson:** the api-spend meter is cross-session; a concurrent
+  story-06 worker was spending in parallel, so a fixed `--ceiling` on the GLOBAL
+  meter got eaten from outside and stopped the main run at 34/37. Slice runs with
+  `--only` (item count caps your own spend) and treat the ceiling as the runaway
+  brake, recomputing it per run from the live meter.
+- **Stick continuity designed, not patched:** she keeps the 18-year stick until it
+  falls exactly on "loosed from this bond" (s27); every frame that regenerated it
+  back into her hands afterwards was identity-edited clean.
+- QC record: `build-05-bent-woman/QC.md` · hash-locked boards `IDENTITY-QC.json`
+  (52 appearances) · rejected takes in `assets-realistic/_rejected/` (from the
+  edit passes on; the first four `--redo` rerolls overwrote in place — recorded
+  honestly).
+- Board card v5 → new hash `93738754…` (returns to Unwatched); sync-reviews run;
+  board redeployed to Firebase. App-feed V1 untouched.
+
 ---
 
 ## Session 8 — 2026-08-01 — CLAIM: story 06 (two sons) realistic rebuild (Claude worker 4)
@@ -511,6 +536,27 @@ session's earlier "no generation until re-piloted recipe" line. The standing law
   ceiling). Audio stays LOCKED to the V1 final; no re-voicing. Build-02
   (Session 7) is the template.
 - Session results are appended below when the row closes.
+
+### Row 6 close — realistic rebuild DONE, complaint fixed, cut shipped (2026-08-01)
+
+| row | slug | beats | gens | accepted | rerolls | spend | status | notes |
+|---|---|---|---|---|---|---|---|---|
+| 6 | build-06-two-sons | 23 | 32 (4 anchors + 23 beats + 5 rerolls) | 23 | b01 PRIEST-COUNT · b10 EDGE-INTRUDER (defective rough dropped) · b14 CAMERA-GAZE · b16 TRIPTYCH (rough was ITSELF a triptych, dropped) · b22 STRAY-DISTANT-JESUS | ≈$4.29 | **DONE — realistic V2 shipped, awaiting Cameron** | 125.8 s · 19.9 MB · AUDIO LOCK PASS · verify-mp4 OK |
+
+- **The real fix was upstream of the pictures.** Cameron's OPEN row-6 complaint
+  (father's ask cut out) was an ASSEMBLY bug, not a script bug: the 2026-07-24
+  REDO voiced the complete script (j28/j29/j29b/j30/s31/n1b/n2b/n5b) but V1
+  build.py BEATS was never updated, so the 82.7 s cut silently dropped every
+  new segment while the takes sat unused in audio/. BEATS now carries all 18
+  segments with speaker-aware KJV gaps matching extract_beats; V1 final rebuilt
+  at 125.8 s, whisper ear-check all-pass. Zero re-voicing.
+- **Lesson worth carrying:** when a complaint says words are MISSING, diff the
+  build's BEATS list against make_narration.SEGMENTS before assuming the script
+  needs re-voicing — the audio may already exist. And the rough-defect lesson
+  recurred TWICE (b10, b16): check the rough for the defect before blaming the
+  model; a rough that is itself a triptych begets triptychs.
+- QC record: `build-06-two-sons/QC.md`. Board card v6 → new hash `c660e5de…`
+  (returns to Unwatched, complaint retained); sync-reviews run; board deployed.
 
 ---
 

@@ -1,3 +1,32 @@
+## 2026-08-01 — Video 6 (Two Sons): father's-ask complaint fixed + full realistic rebuild shipped (Claude worker 4)
+
+Commit: (this commit). Claimed row 6 by push (28764d3d0) before any spend.
+Cameron's OPEN complaint ("you cut out the original thing the father asked
+the sons") root-caused as an ASSEMBLY bug, not a script bug: the 2026-07-24
+REDO voiced the complete script — j28 the father's KJV ask, j29/j30 both
+sons' KJV answers, n1b, n2b, j29b, s31 "The first", n5b the modern-terms
+publican/harlot line from Cameron's QUEUE note — but V1 build.py BEATS was
+never updated, so the shipped 1:23 cut silently dropped every one of those
+segments while the takes sat unused in audio/. Fix was assembly-only, ZERO
+re-voicing: BEATS now carries all 18 segments in SEGMENTS order with
+speaker-aware KJV gaps matching extract_beats exactly; V1 final rebuilt at
+2:06 and whisper ear-checked line by line (662c41d0a). Then the full
+realistic rebuild: beats.json re-extracted, beats_v2.py rewritten to the
+realistic rubric (23 beats, per-beat light direction, lens/DOF, mid-action,
+nobody at the camera), 4 fresh image anchors (father, first son, second son,
+priests) + JESUS LOCK v5, all 23 finals generated on gemini-3-pro-image at
+native 2K under hard ceilings (32 gens ≈ $4.29) and eyeballed at full size.
+5 rerolls: priest count, edge intruder, camera gaze, a hard-fail triptych,
+and a stray distant unlocked Jesus — the intruder and the triptych were both
+traced to their ROUGHS carrying those exact defects (prodigal b20 lesson,
+twice), roughs dropped. Assembled with v2_assemble (AUDIO LOCK PASS,
+packet-identical to the rebuilt V1 final; no bed), verify-mp4 OK, rendered
+frames pulled at 10 timestamps (red KJV / blue scripture / white narrator
+captions all land in sync in the bottom band). Board card v6 repointed to
+matthew-21_two-sons-realistic-v2.mp4 (hash c660e5de…, Unwatched, complaint
+retained), sync-reviews run, board deployed to Firebase. QC record in
+media-production-v2/build-06-two-sons/QC.md; ledger Session 8 closed.
+
 ## 2026-08-01 — Repo hygiene: gitignored flow_driver sidecars + archive audio; cleared stale rebase (Machine A / `Dev`)
 
 Commit: 2db020e8e. Cameron asked for the untracked `.size` / `.FAILED.txt` /
