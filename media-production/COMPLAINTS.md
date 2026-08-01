@@ -11,7 +11,7 @@ touching anything else. Do NOT edit by hand.
 | # | Status | What Cameron said |
 |---|---|---|
 | 1 | UNFIXED | Back ground sound problem again when Jesus was talking. |
-| 2 | UNFIXED | All Faces changes too much |
+| 2 | newer cut shipped — VERIFY fixed | All Faces changes too much |
 | 4 | newer cut shipped — VERIFY fixed | Captions are messed up at 38 - 46 seconds |
 | 6 | UNFIXED | Your shortening of the videos has gotten out of hand. In this one the father didnt really ask either son anything and thats not how Jesus tsught it. It can be shorter than the original but it has to hit all of the points well. And here you cut out the original thing the father asked the sons |
 | 7 | newer cut shipped — VERIFY fixed | The boat should not have modern glass lamps. Remove every glass/artificial boat lamp and its orange glow, use moonlight only, and study the Matthew 14 scene more carefully..... Immediatly is pronounced wrong and these old complaints chouldnt be here in this box. |
