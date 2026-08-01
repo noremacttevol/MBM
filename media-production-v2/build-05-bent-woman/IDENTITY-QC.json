@@ -1,0 +1,290 @@
+{
+ "asset_dir": "assets-realistic",
+ "board_note": "Boards reviewed 2026-08-01 (Machine A, Fable 5) as downscaled per-identity contact strips of the full frames; every appearance was also Read individually at 2K during per-still QC. A pass is valid only while the frame and anchor SHA-256 hashes are unchanged.",
+ "identities": {
+  "woman": {
+   "anchor": "CAST-REF-V2/woman-ref.jpeg",
+   "anchor_sha256": "8567844f5b31c4ae383a8dc79e58a530815477581742b514d4965d940d54d27f",
+   "appearances": [
+    {
+     "file": "s01-bent-eighteen-years.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "f6c65ff266518bd6104ed8ca89c87fd28fd0bbfc3504f1256903e9a44338230b"
+    },
+    {
+     "file": "s02-sandals-instead-of-faces.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "c83fe6e6f0c5ed761aaa1988e7f2c929ed74859dbbacf36e9c8ec8fb7d944df6"
+    },
+    {
+     "file": "s03-no-one-could-help.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "fdc1646276582fc0cfb5981701f21d3dc1656261e74b7c8134bf12396e928be0"
+    },
+    {
+     "file": "s05-present-and-unseen.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "2cc41f4fd5dfd56c55e32aac25dcfdba7412ab59e60f2db9f80b5e2ca4a3aa18"
+    },
+    {
+     "file": "s10-the-slow-walk.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "d47d9168f75cf41bc69128d512502bcca0abf103d782deb541eb785ea81261ca"
+    },
+    {
+     "file": "s11-he-came-down-to-her.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "705fe4d601c2106ee5bb80593a37eed9da5534355834658778fce93e490bc666"
+    },
+    {
+     "file": "s12-thou-art-loosed.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "e0a3d6e4ce66ca687eb00f4a72b4c0f82fbda065c028dfdb1e48e9cc6501f56a"
+    },
+    {
+     "file": "s16-halfway-up.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "0ee961d0e74d16cedfe7e7581efe56490ce0ef2cf242bdf66090c7f44ff820e3"
+    },
+    {
+     "file": "s17-she-stood-up-straight.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "56d81e22e4ea32e295a43a0b449d8cd40ee935acf72972f7d1070d81578f5528"
+    },
+    {
+     "file": "s18-she-praised-god.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "46fb6efe9ebd98c34aea9bd989f6003d09919fbc38d7b02dd39dc6087e9e06b1"
+    },
+    {
+     "file": "s19-nobody-could-stop-it.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "70aec7590e3936aee5f742e625efc7274b367ffde073abcc6d5de91ae10bc80b"
+    },
+    {
+     "file": "s22-six-days-to-work.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "67bbf6c5c28c8df5f2c6313fda2f449191d9986e5332f9dc465a40127907c4b9"
+    },
+    {
+     "file": "s23-one-more-day.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "7890a24a99142a1a2887b619e5a1a375b7419f5642c54e0abf0b5b91835b695e"
+    },
+    {
+     "file": "s27-a-daughter-of-abraham.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "12c2fdb41d9be6b5637ecfae4c989f8b71f71d49f032132ed0949dcf77dd76d5"
+    },
+    {
+     "file": "s30-untie-a-daughter.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "982060039b75f186ef727141838748abaa9abc6aab1403e47d6b64d2284cb802"
+    },
+    {
+     "file": "s31-family-of-the-covenant.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "d731ab1d787774cbcb46a8579822c1b1007f8ab97b24d80df74130cd4d9b6a12"
+    },
+    {
+     "file": "s32-he-gave-her-back-her-name.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "b3298f006c79495f393570094090d9887eefb25156d37f35459d38e6f7205a25"
+    },
+    {
+     "file": "s33-she-had-always-belonged.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "69c7353fbbfe87434eaa074872c67dd253a8834097fdac4551d8b34e17086f66"
+    },
+    {
+     "file": "s35-the-people-rejoiced.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "1f7456c6387919b111f0200b17135caefb4527411881c14cbf1f7265ca0b6ac5"
+    },
+    {
+     "file": "s36-faces-instead-of-sandals.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "38664ba9128183b7bde98e7e896e0d449c57e4d34d78e4c34df4652ddf614339"
+    },
+    {
+     "file": "s37-straight-as-the-truth.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "951c9122299061f9948c27080436beceda184f43c1a4e505c7c48e164e2a14af"
+    }
+   ]
+  },
+  "jesus": {
+   "anchor": "../JESUS-V2-REF/jesus-v2-face.jpeg",
+   "anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82",
+   "appearances": [
+    {
+     "file": "s04-teaching-on-the-sabbath.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "b5f9e8a31fc25ad3c6fd9bd6d9358887dde6612d677b84e1284775bd6dbc4d29"
+    },
+    {
+     "file": "s06-he-stopped.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "1774fb21d8f1c418d883215d830e4287bab0d7db2ded8103187647b998bc27b7"
+    },
+    {
+     "file": "s07-past-every-face.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "b8dee8289be2e814ace7d7992eebb358f86f38597ed1ae8c8c260f571c6ded55"
+    },
+    {
+     "file": "s08-he-saw-her.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "c30fde78f96f7834a43dca7d076c0352ca142d6e3809c62209ad0419e31b3c6a"
+    },
+    {
+     "file": "s09-he-called-her-first.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "2cf0aa4d41242e8a45e832784d38c4b51d960cfc5119475449f91e0957060171"
+    },
+    {
+     "file": "s10-the-slow-walk.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "d47d9168f75cf41bc69128d512502bcca0abf103d782deb541eb785ea81261ca"
+    },
+    {
+     "file": "s11-he-came-down-to-her.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "705fe4d601c2106ee5bb80593a37eed9da5534355834658778fce93e490bc666"
+    },
+    {
+     "file": "s12-thou-art-loosed.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "e0a3d6e4ce66ca687eb00f4a72b4c0f82fbda065c028dfdb1e48e9cc6501f56a"
+    },
+    {
+     "file": "s15-he-laid-his-hands.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "56a123f6b3cf91191d23c65ba80b56fc0ef6106b1e76b08766142544087b1e98"
+    },
+    {
+     "file": "s16-halfway-up.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "0ee961d0e74d16cedfe7e7581efe56490ce0ef2cf242bdf66090c7f44ff820e3"
+    },
+    {
+     "file": "s17-she-stood-up-straight.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "56d81e22e4ea32e295a43a0b449d8cd40ee935acf72972f7d1070d81578f5528"
+    },
+    {
+     "file": "s19-nobody-could-stop-it.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "70aec7590e3936aee5f742e625efc7274b367ffde073abcc6d5de91ae10bc80b"
+    },
+    {
+     "file": "s21-he-turned-to-the-people.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "14ad494318ee03e49d55df8d5407d476c58e143732e3286e5e869814d7073a1b"
+    },
+    {
+     "file": "s24-he-did-not-soften-it.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "0d58c464f331805ee764dab058e7c1527a6470df1cac04340a9b7f9f2bb41ae9"
+    },
+    {
+     "file": "s25-thou-hypocrite.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "e2810cdef79ab8a45a9a77ac9c2030ba43cd488a3f48bbb6d904c6957fb1be86"
+    },
+    {
+     "file": "s27-a-daughter-of-abraham.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "12c2fdb41d9be6b5637ecfae4c989f8b71f71d49f032132ed0949dcf77dd76d5"
+    },
+    {
+     "file": "s30-untie-a-daughter.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "982060039b75f186ef727141838748abaa9abc6aab1403e47d6b64d2284cb802"
+    },
+    {
+     "file": "s31-family-of-the-covenant.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "d731ab1d787774cbcb46a8579822c1b1007f8ab97b24d80df74130cd4d9b6a12"
+    },
+    {
+     "file": "s32-he-gave-her-back-her-name.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "b3298f006c79495f393570094090d9887eefb25156d37f35459d38e6f7205a25"
+    },
+    {
+     "file": "s35-the-people-rejoiced.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "1f7456c6387919b111f0200b17135caefb4527411881c14cbf1f7265ca0b6ac5"
+    }
+   ]
+  },
+  "ruler": {
+   "anchor": "CAST-REF-V2/ruler-ref.jpeg",
+   "anchor_sha256": "de94af3c6fb1ec82a79de3a5d4e9b01cb832d7e5aa3247aaaeb8d8a42d52b931",
+   "appearances": [
+    {
+     "file": "s19-nobody-could-stop-it.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "70aec7590e3936aee5f742e625efc7274b367ffde073abcc6d5de91ae10bc80b"
+    },
+    {
+     "file": "s20-the-ruler-was-angry.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "35b1e54cf07426bf7db881aab58119fd5b80f07aebf6c88ad2c0415e4090f9a0"
+    },
+    {
+     "file": "s21-he-turned-to-the-people.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "14ad494318ee03e49d55df8d5407d476c58e143732e3286e5e869814d7073a1b"
+    },
+    {
+     "file": "s22-six-days-to-work.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "67bbf6c5c28c8df5f2c6313fda2f449191d9986e5332f9dc465a40127907c4b9"
+    },
+    {
+     "file": "s25-thou-hypocrite.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "e2810cdef79ab8a45a9a77ac9c2030ba43cd488a3f48bbb6d904c6957fb1be86"
+    },
+    {
+     "file": "s27-a-daughter-of-abraham.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "12c2fdb41d9be6b5637ecfae4c989f8b71f71d49f032132ed0949dcf77dd76d5"
+    },
+    {
+     "file": "s30-untie-a-daughter.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "982060039b75f186ef727141838748abaa9abc6aab1403e47d6b64d2284cb802"
+    },
+    {
+     "file": "s34-adversaries-ashamed.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "a459b227c71336c8271ac9afc7ffd4bd6eaf0856b8ef7437e274fc826763fd18"
+    }
+   ]
+  },
+  "farmer": {
+   "anchor": "assets-realistic/s14-untied-from-the-stall.jpeg",
+   "anchor_sha256": "d73c3ab1d6218e0dd7c13fa8229a82ce6e7f1cec2638a0c64e775411bfe51a4c",
+   "appearances": [
+    {
+     "file": "s14-untied-from-the-stall.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "d73c3ab1d6218e0dd7c13fa8229a82ce6e7f1cec2638a0c64e775411bfe51a4c"
+    },
+    {
+     "file": "s26-loose-him-from-the-stall.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "37e6e36b626047e529b3eaf2631ab90c9c2bb272e592a3352aa20913369b3d8e"
+    },
+    {
+     "file": "s29-led-it-to-water.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "4e00f6838197b245e91bcbe757f64d96510fe8604f51877241a883880e658ca3"
+    }
+   ]
+  }
+ }
+}

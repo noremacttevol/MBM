@@ -1,9 +1,27 @@
 #!/usr/bin/env python3
-"""V2 beat map — row 5, build-05-bent-woman (Luke 13:10-17).
+"""V2 beat map — row 5, build-05-bent-woman (Luke 13:10-17) — REALISTIC REBUILD.
 
-Consumed by media-production-v2/v2_prompt.py. STYLE-V2, the forced-wide defense
-line, the anti-panel clause and JESUS LOCK v4 are prepended by the assembler so
-they stay byte-identical across every prompt.
+Consumed by media-production-v2/v2_prompt.py (--check/--dump) and
+media-production-v2/v2_gen_api.py (generation). STYLE-V2, the QUALITY LOCK, the
+anti-panel clause and JESUS LOCK v5 are prepended by the assembler so they stay
+byte-identical across every prompt.
+
+REALISTIC REBUILD (Session 8, 2026-08-01). The 37 stills in `assets/` are the
+2026-07-29 set that falls under the Session 6 blanket rejection of the old V2
+look (3 of them additionally 1K undersized). They are kept untouched as
+ROUGH-DRAFT composition references — their staging, camera angles and travel
+directions were bought with the 2026-07-29 authoring pass (the ROTATION-TRAP
+lesson at b02 among them) — while the realistic set generates fresh at native
+2K into `assets-realistic/`. Per the Session 6 root-cause list, every prompt
+now carries the byte-identical CAMERA lock: light from ONE believable
+direction, real lens depth of field, people caught MID-ACTION, and NOBODY
+looking at the camera.
+
+TIMING: windows recomputed 2026-08-01 from the fixed extract_beats.py (reads
+this build's own timeline formulas) — absolute audio phrase times, card at
+236.68 s, total 247.69 s, matching the authoritative V1 cut (247.77 s). The
+previous windows drifted up to ~13 s by the end (the storm-11 defect) and were
+all replaced.
 
 COVERAGE (STORY-COVERAGE-LAW): 36 pictures against V1's 11 unique stills.
 Runtime is 223 s (3.7 min), so the law's "~15 per 100 seconds, scaled by runtime"
@@ -59,7 +77,39 @@ the synagogue's high windows; the three farmyard cutaways are the same morning
 outdoors. No lamps, no torches, no evening anywhere in this build.
 """
 
+from pathlib import Path
+
+OUTPUT_ASSET_DIR = "assets-realistic"
+OUTPUT_VIDEO_NAME = "luke-13_bent-woman-realistic-v2.mp4"
+
+# Identity anchors by IMAGE (CAST-BIBLE principle; row-2 CAST-DRIFT lesson —
+# text locks alone do not hold a recurring face across 20+ shots). Each
+# recurring character has ONE canonical anchor; every beat naming the lock
+# attaches it automatically. The anchors are neutral bust portraits (upright —
+# the WOMAN lock says nothing about posture, so the anchor must not either;
+# posture comes from each beat, same reason the lock omits it).
+REFS = {
+    "WOMAN": "CAST-REF-V2/woman-ref.jpeg",
+    "RULER": "CAST-REF-V2/ruler-ref.jpeg",
+    # The farmer drifted between the three farmyard cutaways (s14 salt-and-pepper
+    # vs s26 white-bearded elder). The accepted s14 take is his canonical anchor;
+    # any beat naming STALL now carries it (rubric: one canonical anchor per
+    # recurring person, anchored by IMAGE not prose).
+    "STALL": "assets-realistic/s14-untied-from-the-stall.jpeg",
+}
+
 LOCKS = {
+    # Realistic-cinematography lock, byte-identical wherever named (build-02
+    # pattern): the Session 6 rejection was flat noon light, posed extras and
+    # camera-gaze on every frame.
+    "CAMERA": (
+        "CAMERA LOCK: photographed like a real film still on location with a real "
+        "cinema lens — light arrives from ONE believable direction and models "
+        "faces with true shadow, shallow depth of field holds the subject sharp "
+        "while the background falls gently away, and every person is caught "
+        "mid-action in a truthful candid instant, never posed, never lined up, "
+        "and NEVER looking at the camera."
+    ),
     # Posture is deliberately absent — see the POSTURE ARC note above.
     "WOMAN": (
         "WOMAN LOCK: the woman is the same person in every shot — a Galilean Jewish "
@@ -122,8 +172,8 @@ BEATS = [
     # ------------------------------------------------ n0 — eighteen years ----
     {
         "id": "v2-r005-b01", "out": "s01-bent-eighteen-years.jpeg", "seg": "n0 p1-p2",
-        "window": "0.28-4.97", "wide": True, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "VILLAGE"],
+        "window": "0.28-5.46", "wide": True, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "WOMAN", "VILLAGE"],
         "narration": ("There was a woman who had been bent over for eighteen years. "
                       "She could not straighten up at all."),
         "must_show": "her bent DOUBLE at the waist, face toward the ground, both hands on the stick, moving through an ordinary village morning.",
@@ -141,8 +191,8 @@ BEATS = [
     },
     {
         "id": "v2-r005-b02", "out": "s02-sandals-instead-of-faces.jpeg", "seg": "n0 p3-p4",
-        "window": "4.97-11.77", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "VILLAGE"],
+        "window": "5.46-12.20", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "WOMAN", "VILLAGE"],
         "narration": ("Eighteen years of looking at the ground. Eighteen years of "
                       "knowing people by their sandals instead of their faces."),
         "must_show": "THE WORLD SHE ACTUALLY SEES — a low camera near the street stones: passing sandals, dusty feet and robe hems, and her own downturned face at the frame edge.",
@@ -171,8 +221,8 @@ BEATS = [
     },
     {
         "id": "v2-r005-b03", "out": "s03-no-one-could-help.jpeg", "seg": "n0 p5",
-        "window": "11.77-15.60", "wide": True, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "VILLAGE"],
+        "window": "12.20-16.78", "wide": True, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "WOMAN", "VILLAGE"],
         "narration": "And in all that time, no one had been able to help her.",
         "must_show": "the village going on all around her while she rests folded over her stick against a wall — near people, and entirely alone.",
         "must_not_show": "nobody cruel, nobody mocking — this is indifference, not persecution.",
@@ -190,8 +240,8 @@ BEATS = [
     # ------------------------------------------- n1 — the sabbath synagogue ----
     {
         "id": "v2-r005-b04", "out": "s04-teaching-on-the-sabbath.jpeg", "seg": "n1 p1a",
-        "window": "16.31-24.0", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["SYNAGOGUE"],
+        "window": "16.78-20.30", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "SYNAGOGUE"],
         "narration": "One sabbath day, Jesus was teaching in a synagogue,",
         "must_show": "the whole room: Jesus seated and teaching at the front, the congregation on the stone benches listening, sabbath light from the high windows.",
         "must_not_show": "no halo, no rim-light; he is not detached at the frame edge — every listening face is turned toward him.",
@@ -208,8 +258,8 @@ BEATS = [
     },
     {
         "id": "v2-r005-b05", "out": "s05-present-and-unseen.jpeg", "seg": "n1 p1b-p4",
-        "window": "24.0-34.23", "wide": True, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "SYNAGOGUE"],
+        "window": "20.30-35.89", "wide": True, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "WOMAN", "SYNAGOGUE"],
         "narration": ("and she was there — at the back, by the wall, folded over her "
                       "walking stick. She had not come to ask him for anything. She "
                       "was simply there, the way she had been there for years. "
@@ -230,8 +280,8 @@ BEATS = [
     # ------------------------------------------------- n2 — he sees her ----
     {
         "id": "v2-r005-b06", "out": "s06-he-stopped.jpeg", "seg": "n2 p1",
-        "window": "34.93-37.51", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["SYNAGOGUE"],
+        "window": "35.89-38.33", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "SYNAGOGUE"],
         "narration": "And in the middle of his teaching, Jesus stopped.",
         "must_show": "the exact moment he goes still mid-sentence — hand still half-raised in the gesture, but his attention already gone somewhere past the front rows.",
         "must_not_show": "no alarm, no drama; a quiet stop. No halo or rim-light.",
@@ -247,8 +297,8 @@ BEATS = [
     },
     {
         "id": "v2-r005-b07", "out": "s07-past-every-face.jpeg", "seg": "n2 p2",
-        "window": "37.51-41.65", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["WOMAN", "SYNAGOGUE"],
+        "window": "38.33-42.60", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "WOMAN", "SYNAGOGUE"],
         "narration": "He looked past every face in the room, all the way to the back wall.",
         "must_show": "the LENGTH of the room from behind Jesus's shoulder — rows of faces between him and the dim back wall where her small folded shape stands.",
         "must_not_show": "no halo or rim-light; his look must clearly travel PAST the near faces, not rest on them.",
@@ -264,46 +314,53 @@ BEATS = [
     },
     {
         "id": "v2-r005-b08", "out": "s08-he-saw-her.jpeg", "seg": "n2 p3-p4",
-        "window": "41.65-44.13", "wide": False, "jesus": True, "ref": REF,
-        "locks": ["SYNAGOGUE"],
+        "window": "42.60-45.98", "wide": False, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "SYNAGOGUE"],
         "narration": "He saw her. And he called her over.",
         "must_show": "HIS FACE — recognition landing, warm and certain, and his hand opening toward the back of the room in the call.",
-        "must_not_show": "no halo, glare or rim-light of any kind; no pity that looks like sorrow — this is recognition and welcome.",
+        "must_not_show": "no halo, glare or rim-light of any kind; no pity that looks like sorrow — this is recognition and welcome; his eyes are NOT on the camera.",
         "scene": (
-            "Close on Jesus's face and shoulders as he looks the length of the room at "
-            "her. His expression has changed — he has found what he was looking for, "
-            "and his eyes are steady, warm and completely certain. His near hand has "
-            "come open and lifted toward the back of the room, calling her forward. "
-            "Behind him the sunlit synagogue wall and the edge of the reading platform "
-            "are soft with distance. His hand has five fingers."
+            "Close on Jesus IN PROFILE-TO-THREE-QUARTER VIEW from beside him, his face "
+            "and shoulders turned AWAY from the camera toward the far back corner of "
+            "the room, so that his gaze travels clearly PAST the camera's side of the "
+            "room and never toward the lens. His expression has changed — he has found "
+            "what he was looking for, and his eyes are steady, warm and completely "
+            "certain, fixed on the distant back wall. His near hand has come open and "
+            "lifted toward the back of the room, calling her forward. His hair is DARK "
+            "BROWN with warm sun-bleached bronze lights, never black. Behind him the "
+            "sunlit synagogue wall and the edge of the reading platform are soft with "
+            "distance. His hand has five fingers."
         ),
     },
     # ------------------------------------------ n3 — she never asked ----
     {
         "id": "v2-r005-b09", "out": "s09-he-called-her-first.jpeg", "seg": "n3 p1-p6",
-        "window": "44.77-56.01", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["WOMAN", "SYNAGOGUE"],
+        "window": "45.98-58.26", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "WOMAN", "SYNAGOGUE"],
         "narration": ("Notice what did not happen. She did not push through a crowd. "
                       "She did not call out to him. She did not ask. He called her "
                       "first. Before she said one word, he had already decided."),
         "must_show": "the whole room in one frame: Jesus at the front with his hand out toward her, she still motionless at the back wall, the unmoved crowd between them.",
-        "must_not_show": "she must NOT be moving, reaching or calling out yet; the crowd is not parting for her; the initiative is entirely his.",
+        "must_not_show": "she must NOT be moving, reaching or calling out yet; the crowd is not parting for her; the initiative is entirely his; she appears EXACTLY ONCE in the frame — no second bent or stick-carrying figure anywhere.",
         "scene": (
             "A wide view down the synagogue holding both ends of the room at once. At "
             "the front Jesus stands with his arm extended the full length of the room "
-            "toward the back wall, palm open, waiting. At the far end the woman is "
-            "still folded over her stick exactly where she was, not yet moving, her "
-            "face toward the floor. Between them the congregation sit on their benches "
-            "and heads are beginning to turn to follow his outstretched hand. Sabbath "
-            "daylight crosses the room in hard shafts. Every figure has two arms, two "
-            "hands and one head."
+            "toward the back wall, palm open, waiting. At the far end, small with "
+            "distance against the back wall, the woman is still folded over her stick "
+            "exactly where she was, not yet moving, her face toward the floor — SHE IS "
+            "THE ONLY bent figure and the ONLY person with a walking stick in the "
+            "whole room, and she appears exactly once. The open middle aisle between "
+            "the benches is EMPTY bare stone floor with nobody standing in it. Between "
+            "them the congregation sit on their benches and heads are beginning to "
+            "turn to follow his outstretched hand. Sabbath daylight crosses the room "
+            "in hard shafts. Every figure has two arms, two hands and one head."
         ),
     },
     # ------------------------------------------------ n4 — the long walk ----
     {
         "id": "v2-r005-b10", "out": "s10-the-slow-walk.jpeg", "seg": "n4 p1",
-        "window": "56.68-62.90", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["WOMAN", "SYNAGOGUE"],
+        "window": "58.26-64.47", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "WOMAN", "SYNAGOGUE"],
         "narration": ("She made her slow way up the middle of that room, her stick "
                       "tapping the stone floor, every eye on her."),
         "must_show": "her making her way up the open middle of the room, still folded double, stick planted ahead of her — and every face on both sides turned to watch.",
@@ -320,8 +377,8 @@ BEATS = [
     },
     {
         "id": "v2-r005-b11", "out": "s11-he-came-down-to-her.jpeg", "seg": "n4 p2",
-        "window": "62.90-69.87", "wide": False, "jesus": True, "ref": REF,
-        "locks": ["WOMAN", "SYNAGOGUE"],
+        "window": "64.47-72.58", "wide": False, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "WOMAN", "SYNAGOGUE"],
         "narration": ("And when she finally stood in front of him — still bent, still "
                       "staring at the ground — he said this."),
         "must_show": "he has BENT DOWN to her level so his face comes into her line of sight near the floor — she cannot come up to him, so he goes down to her.",
@@ -340,8 +397,8 @@ BEATS = [
     # ------------------------------------------------------ j1 — the words ----
     {
         "id": "v2-r005-b12", "out": "s12-thou-art-loosed.jpeg", "seg": "j1",
-        "window": "70.52-72.75", "wide": False, "jesus": True, "ref": REF,
-        "locks": ["WOMAN", "SYNAGOGUE"],
+        "window": "72.58-76.44", "wide": False, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "WOMAN", "SYNAGOGUE"],
         "narration": "Woman, thou art loosed from thine infirmity. (Luke 13:12)",
         "must_show": "the two faces close together near the floor — he is speaking the sentence and she is hearing it, her eyes on his for the first time.",
         "must_not_show": "no halo, glare or rim-light; nothing supernatural in the air; the moment is quiet and human.",
@@ -358,8 +415,8 @@ BEATS = [
     # ------------------------------------------- n5a — loosed = untied ----
     {
         "id": "v2-r005-b13", "out": "s13-an-everyday-word.jpeg", "seg": "n5a p1-p2",
-        "window": "73.83-79.0", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN"],
+        "window": "76.44-80.16", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "WOMAN"],
         "narration": ("Loosed. In their language it was an everyday word."),
         "must_show": "her hands and the stick — eighteen years of holding on, seen up close, as the word sits in the air.",
         "must_not_show": "no faces needed; keep it on the hands and the worn wood.",
@@ -375,8 +432,8 @@ BEATS = [
     },
     {
         "id": "v2-r005-b14", "out": "s14-untied-from-the-stall.jpeg", "seg": "n5a p3-p4",
-        "window": "79.0-87.80", "wide": False, "jesus": False, "ref": False,
-        "locks": ["STALL"],
+        "window": "80.16-91.76", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "STALL"],
         "narration": ("It meant untied — the same word a farmer used when he untied "
                       "his animal from its stall. Something that had been knotted for "
                       "eighteen years was coming undone."),
@@ -394,8 +451,8 @@ BEATS = [
     # ------------------------------------ n5b — the healing (core burst) ----
     {
         "id": "v2-r005-b15", "out": "s15-he-laid-his-hands.jpeg", "seg": "n5b p1",
-        "window": "88.48-90.3", "wide": False, "jesus": True, "ref": REF,
-        "locks": ["WOMAN", "SYNAGOGUE"],
+        "window": "91.76-93.06", "wide": False, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "WOMAN", "SYNAGOGUE"],
         "narration": "He laid his hands on her.",
         "must_show": "both his hands coming to rest on her bowed back and shoulder while she is STILL bent double.",
         "must_not_show": "no light, spark, glare or rim-light at his hands — nothing supernatural is depicted; she has NOT begun to rise yet.",
@@ -410,8 +467,8 @@ BEATS = [
     },
     {
         "id": "v2-r005-b16", "out": "s16-halfway-up.jpeg", "seg": "n5b p2a",
-        "window": "90.3-92.6", "wide": False, "jesus": True, "ref": REF,
-        "locks": ["WOMAN", "SYNAGOGUE"],
+        "window": "93.06-94.60", "wide": False, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "WOMAN", "SYNAGOGUE"],
         "narration": "And slowly —",
         "must_show": "MID-UNFOLD — she is HALFWAY up, spine partly opened, one hand come off the stick, her face rising past his chest toward his face.",
         "must_not_show": "not bent double any more and not yet upright — this frame exists ONLY to show the middle of the movement; no halo or rim-light.",
@@ -428,8 +485,8 @@ BEATS = [
     },
     {
         "id": "v2-r005-b17", "out": "s17-she-stood-up-straight.jpeg", "seg": "n5b p2b",
-        "window": "92.6-94.80", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["WOMAN", "SYNAGOGUE"],
+        "window": "94.60-98.24", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "WOMAN", "SYNAGOGUE"],
         "narration": "for the first time in eighteen years — she stood up straight.",
         "must_show": "FULLY STRAIGHT — shoulders back, chin level, standing to her true height face to face with Jesus, the stick hanging forgotten in one hand.",
         "must_not_show": "no trace of the bend left; nothing supernatural in the air; the congregation behind is frozen mid-reaction, not cheering yet.",
@@ -448,8 +505,8 @@ BEATS = [
     # ----------------------------------------------------- n6 — the praise ----
     {
         "id": "v2-r005-b18", "out": "s18-she-praised-god.jpeg", "seg": "n6 p1",
-        "window": "95.46-100.75", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "SYNAGOGUE"],
+        "window": "98.24-101.13", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "WOMAN", "SYNAGOGUE"],
         "narration": "The first thing she did with a straight back was praise God.",
         "must_show": "her face lifted UP toward the high window light, both hands open and raised, praising out loud — the first thing she does with her new body.",
         "must_not_show": "she is not looking at Jesus or the crowd here — she is looking UP; no halo or rim-light on her.",
@@ -464,8 +521,8 @@ BEATS = [
     },
     {
         "id": "v2-r005-b19", "out": "s19-nobody-could-stop-it.jpeg", "seg": "n6 p2-p3",
-        "window": "100.75-105.40", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["WOMAN", "RULER", "SYNAGOGUE"],
+        "window": "101.13-108.93", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "WOMAN", "RULER", "SYNAGOGUE"],
         "narration": ("Out loud, right there in the middle of the meeting. Eighteen "
                       "years of silence turned into worship that nobody could stop."),
         "must_show": "the whole room: she stands straight in the middle praising aloud, the congregation on their feet in wonder — and the ruler stiff and dark at the front, the one still figure.",
@@ -485,8 +542,8 @@ BEATS = [
     # ------------------------------------------------------- n7 — the ruler ----
     {
         "id": "v2-r005-b20", "out": "s20-the-ruler-was-angry.jpeg", "seg": "n7 p1-p2",
-        "window": "106.02-112.09", "wide": False, "jesus": False, "ref": False,
-        "locks": ["RULER", "SYNAGOGUE"],
+        "window": "108.93-115.49", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "RULER", "SYNAGOGUE"],
         "narration": ("But not everyone rejoiced. The ruler of the synagogue — the "
                       "man in charge of that meeting — was angry."),
         "must_show": "the ruler's face and upper body — indignation, one hand gripping the edge of the wooden reading stand, the joy of the room shut out of him.",
@@ -503,8 +560,8 @@ BEATS = [
     },
     {
         "id": "v2-r005-b21", "out": "s21-he-turned-to-the-people.jpeg", "seg": "n7 p3-p4",
-        "window": "112.09-118.69", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["RULER", "SYNAGOGUE"],
+        "window": "115.49-123.35", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "RULER", "SYNAGOGUE"],
         "narration": ("In his mind, healing counted as work, and the sabbath was the "
                       "day of rest. And he said this to the people."),
         "must_show": "SCRIPTURE-EXACT: he turns his back on Jesus and addresses THE PEOPLE — arm raised to the congregation, deliberately not looking at the man he is angry with.",
@@ -523,8 +580,8 @@ BEATS = [
     # ------------------------------------------------- s14 — the KJV rebuke ----
     {
         "id": "v2-r005-b22", "out": "s22-six-days-to-work.jpeg", "seg": "s14",
-        "window": "119.34-125.56", "wide": True, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "RULER", "SYNAGOGUE"],
+        "window": "123.35-131.54", "wide": True, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "WOMAN", "RULER", "SYNAGOGUE"],
         "narration": ("There are six days in which men ought to work: in them "
                       "therefore come and be healed, and not on the sabbath day. "
                       "(Luke 13:14)"),
@@ -543,8 +600,8 @@ BEATS = [
     # -------------------------------------------------- n7b — it had waited ----
     {
         "id": "v2-r005-b23", "out": "s23-one-more-day.jpeg", "seg": "n7b",
-        "window": "126.68-132.35", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "SYNAGOGUE"],
+        "window": "131.54-137.94", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "WOMAN", "SYNAGOGUE"],
         "narration": ("As if her freedom could have waited one more day. As if it had "
                       "not already waited eighteen years."),
         "must_show": "close on HER — standing straight but shrinking inside, one hand come up to her own chest, hearing her freedom argued about as an inconvenience.",
@@ -560,8 +617,8 @@ BEATS = [
     # --------------------------------------------------- n8 — Jesus answers ----
     {
         "id": "v2-r005-b24", "out": "s24-he-did-not-soften-it.jpeg", "seg": "n8",
-        "window": "132.98-135.91", "wide": False, "jesus": True, "ref": REF,
-        "locks": ["SYNAGOGUE"],
+        "window": "137.94-141.42", "wide": False, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "SYNAGOGUE"],
         "narration": "Jesus turned to him. And he did not soften it.",
         "must_show": "Jesus turning and squaring toward the ruler — his face steady, level and completely unsparing.",
         "must_not_show": "no snarl, no glare, no clenched fist — this is immovable, not hot-tempered; no halo or rim-light.",
@@ -577,8 +634,8 @@ BEATS = [
     # ------------------------------------------------- j2 — thou hypocrite ----
     {
         "id": "v2-r005-b25", "out": "s25-thou-hypocrite.jpeg", "seg": "j2 p1a",
-        "window": "136.56-141.0", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["RULER", "SYNAGOGUE"],
+        "window": "141.42-147.80", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "RULER", "SYNAGOGUE"],
         "narration": ("Thou hypocrite, doth not each one of you on the sabbath loose "
                       "his ox or his ass from the stall, (Luke 13:15)"),
         "must_show": "the confrontation across the open floor — Jesus speaking directly to the ruler, the whole congregation silent and still around them.",
@@ -586,33 +643,40 @@ BEATS = [
         "scene": (
             "Jesus faces the ruler across the open floor of the synagogue, speaking, "
             "one hand lifted in the plain gesture of a man stating an obvious fact. "
-            "The ruler stands squared to him now, chin up, holding his ground, his "
-            "dark robes stark against the sunlit limestone. All around them the "
-            "congregation have gone completely still on and around the benches, every "
-            "head turned to the two men, nobody moving. Hard shafts of daylight cross "
-            "the space between them. Every figure has two arms, two hands and one head."
+            "The ruler — the SAME man as the attached RULER reference: about sixty, "
+            "heavy-set, THICK GREY HAIR, a LONG CAREFULLY COMBED GREY BEARD, thick "
+            "grey brows, in his NEAR-BLACK INDIGO robe with the woven DARK-RED border "
+            "and dark prayer shawl, never a different elder — stands squared to him "
+            "now, chin up, holding his ground, his dark robes stark against the sunlit "
+            "limestone. All around them the congregation have gone completely still on "
+            "and around the benches, every head turned to the two men, nobody moving. "
+            "Hard shafts of daylight cross the space between them. Every figure has "
+            "two arms, two hands and one head."
         ),
     },
     {
         "id": "v2-r005-b26", "out": "s26-loose-him-from-the-stall.jpeg", "seg": "j2 p1b",
-        "window": "141.0-145.0", "wide": False, "jesus": False, "ref": False,
-        "locks": ["STALL"],
+        "window": "147.80-150.00", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "STALL"],
         "narration": "and lead him away to watering? (Luke 13:15)",
         "must_show": "the farmer leading his ox OUT of the stall by the loosed rope, walking it away toward the water — the ordinary sabbath thing every man in that room does.",
         "must_not_show": "no synagogue, no story characters; not the same framing as the earlier knot close-up — this one is wider and moving.",
         "scene": (
-            "In the farmyard, the village farmer walks his heavy brown ox out from "
-            "under the brush roof of the stall into the morning sunlight, the loosed "
-            "rope halter slack in his hand, the animal following easily at his "
-            "shoulder. Ahead of them the long hollowed stone water trough waits "
-            "against the low wall. Straw, dust and clear morning light; the olive "
-            "trees and dry hills behind. He has two arms, two hands and one head."
+            "In the farmyard, the village farmer — the SAME man as in the attached "
+            "farmyard photograph: middle-aged with a short salt-and-pepper beard and "
+            "a dark head cloth, in the same dark earth-brown wool tunic, never an old "
+            "white-bearded man — walks his heavy brown ox out from under the brush "
+            "roof of the stall into the morning sunlight, the loosed rope halter "
+            "slack in his hand, the animal following easily at his shoulder. Ahead of "
+            "them the long hollowed stone water trough waits against the low wall. "
+            "Straw, dust and clear morning light; the olive trees and dry hills "
+            "behind. He has two arms, two hands and one head."
         ),
     },
     {
         "id": "v2-r005-b27", "out": "s27-a-daughter-of-abraham.jpeg", "seg": "j2 p2",
-        "window": "145.0-153.51", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["WOMAN", "RULER", "SYNAGOGUE"],
+        "window": "150.00-163.02", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "WOMAN", "RULER", "SYNAGOGUE"],
         "narration": ("And ought not this woman, being a daughter of Abraham, whom "
                       "Satan hath bound, lo, these eighteen years, be loosed from this "
                       "bond on the sabbath day? (Luke 13:16)"),
@@ -632,8 +696,8 @@ BEATS = [
     # ------------------------------------------- n9 — every man does this ----
     {
         "id": "v2-r005-b28", "out": "s28-every-man-in-that-room.jpeg", "seg": "n9 p1",
-        "window": "154.66-157.48", "wide": True, "jesus": False, "ref": False,
-        "locks": ["SYNAGOGUE"],
+        "window": "163.02-166.06", "wide": True, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "SYNAGOGUE"],
         "narration": "Every man in that room did exactly that on the sabbath.",
         "must_show": "the men of the congregation caught out — recognition on their faces, eyes dropping, one or two glancing sideways at each other.",
         "must_not_show": "no shame played for comedy; these are decent men recognising something true.",
@@ -649,8 +713,8 @@ BEATS = [
     },
     {
         "id": "v2-r005-b29", "out": "s29-led-it-to-water.jpeg", "seg": "n9 p2",
-        "window": "157.48-165.99", "wide": False, "jesus": False, "ref": False,
-        "locks": ["STALL"],
+        "window": "166.06-175.60", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "STALL"],
         "narration": ("He untied his ox or his donkey and led it to water, and the "
                       "rules allowed it — simple kindness to an animal was never "
                       "against the day of rest."),
@@ -667,8 +731,8 @@ BEATS = [
     },
     {
         "id": "v2-r005-b30", "out": "s30-untie-a-daughter.jpeg", "seg": "n9 p3-p4",
-        "window": "165.99-173.93", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["WOMAN", "RULER", "SYNAGOGUE"],
+        "window": "175.60-185.28", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "WOMAN", "RULER", "SYNAGOGUE"],
         "narration": ("So Jesus asked the only question left. If you will untie an "
                       "animal on the sabbath, how could it be wrong to untie a "
                       "daughter?"),
@@ -688,8 +752,8 @@ BEATS = [
     # ------------------------------------------ n10 — he gave her a name ----
     {
         "id": "v2-r005-b31", "out": "s31-family-of-the-covenant.jpeg", "seg": "n10 p1-p3",
-        "window": "174.58-183.84", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["WOMAN", "SYNAGOGUE"],
+        "window": "185.28-194.74", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "WOMAN", "SYNAGOGUE"],
         "narration": ("And listen to what he called her. A daughter of Abraham. In "
                       "that room, those words were a declaration — family of the "
                       "covenant, a child of the promise."),
@@ -708,8 +772,8 @@ BEATS = [
     },
     {
         "id": "v2-r005-b32", "out": "s32-he-gave-her-back-her-name.jpeg", "seg": "n10 p4-p7",
-        "window": "183.84-193.0", "wide": False, "jesus": True, "ref": REF,
-        "locks": ["WOMAN", "SYNAGOGUE"],
+        "window": "194.74-207.62", "wide": False, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "WOMAN", "SYNAGOGUE"],
         "narration": ("For eighteen years she had been the bent woman, the one people "
                       "stepped around. Now, in front of everyone, he gave her back "
                       "her name. And notice the order. He did not say she became a "
@@ -727,8 +791,8 @@ BEATS = [
     },
     {
         "id": "v2-r005-b33", "out": "s33-she-had-always-belonged.jpeg", "seg": "n10 p8-p10",
-        "window": "193.0-202.96", "wide": True, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "SYNAGOGUE"],
+        "window": "207.62-216.28", "wide": True, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "WOMAN", "SYNAGOGUE"],
         "narration": ("She was healed because of who she already was. Her worth came "
                       "first. She belonged — she had always belonged."),
         "must_show": "the women and older men of the congregation coming to her — hands on her arms and shoulders, faces close to hers, taken back into her own people.",
@@ -746,8 +810,8 @@ BEATS = [
     # ------------------------------------------- n11 + s17 — the room splits ----
     {
         "id": "v2-r005-b34", "out": "s34-adversaries-ashamed.jpeg", "seg": "n11 + s17 p1a",
-        "window": "203.55-209.7", "wide": True, "jesus": False, "ref": False,
-        "locks": ["RULER", "SYNAGOGUE"],
+        "window": "216.28-222.60", "wide": True, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "RULER", "SYNAGOGUE"],
         "narration": ("Luke tells us how the day ended. And when he had said these "
                       "things, all his adversaries were ashamed: (Luke 13:17)"),
         "must_show": "the ruler and the two or three men with him — heads down, faces burning, unable to look up at the room.",
@@ -764,28 +828,31 @@ BEATS = [
     },
     {
         "id": "v2-r005-b35", "out": "s35-the-people-rejoiced.jpeg", "seg": "s17 p1b",
-        "window": "209.7-213.64", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["WOMAN", "SYNAGOGUE"],
+        "window": "222.60-228.40", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "WOMAN", "SYNAGOGUE"],
         "narration": ("and all the people rejoiced for all the glorious things that "
                       "were done by him. (Luke 13:17)"),
         "must_show": "the congregation rejoicing — hands up, faces bright, the sabbath meeting turned into gladness, Jesus among them and not apart.",
-        "must_not_show": "no halo or rim-light on Jesus; he is IN the crowd, not standing separate at the edge; every gaze is toward him or the woman.",
+        "must_not_show": "no halo or rim-light on Jesus; he is IN the crowd, not standing separate at the edge; every gaze is toward him or the woman; NOBODY in the frame looks at or near the camera — not Jesus, not the woman, no one; the woman's hands are EMPTY, with NO walking stick anywhere in the frame.",
         "scene": (
             "The whole synagogue is on its feet and glad — hands lifted, faces open "
             "and shining, an old man gripping a younger man's shoulder, children up on "
-            "the stone benches to see. Jesus stands in among them, not apart, and the "
-            "faces around him are turned toward him and toward the woman standing "
-            "straight nearby. The hard shafts of sabbath daylight come down through "
-            "the dust over all of them. The camera is back far enough to hold the "
-            "whole room head to sandals. Every figure has two arms, two hands and one "
-            "head."
+            "the stone benches to see — a candid instant in the middle of the "
+            "commotion, no one posed, no one aware of any camera. Jesus stands in "
+            "among them, seen in three-quarter view with his face turned TOWARD THE "
+            "WOMAN, laughing gladly with the people around him. The woman stands "
+            "straight nearby with her empty hands lifted, her face turned to the "
+            "rejoicing people around her. The hard shafts of sabbath daylight come "
+            "down through the dust over all of them. The camera is back far enough to "
+            "hold the whole room head to sandals. Every figure has two arms, two "
+            "hands and one head."
         ),
     },
     # ---------------------------------------------- n11b — the closing rhyme ----
     {
         "id": "v2-r005-b36", "out": "s36-faces-instead-of-sandals.jpeg", "seg": "n11b p1a",
-        "window": "214.82-218.7", "wide": True, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "SYNAGOGUE"],
+        "window": "228.40-232.60", "wide": True, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "WOMAN", "SYNAGOGUE"],
         "narration": ("And somewhere in that crowd stood a woman seeing faces instead "
                       "of sandals"),
         "must_show": "THE DELIBERATE INVERSE OF FRAME 2 — camera at standing head height now, and she is looking around at the FACES of the people, all of them visible to her.",
@@ -802,8 +869,8 @@ BEATS = [
     },
     {
         "id": "v2-r005-b37", "out": "s37-straight-as-the-truth.jpeg", "seg": "n11b p1b",
-        "window": "218.7-222.58", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "SYNAGOGUE"],
+        "window": "232.60-236.68", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "WOMAN", "SYNAGOGUE"],
         "narration": "— standing as straight as the truth he had just told about her.",
         "must_show": "the final frame: her alone in the light, absolutely upright, chin level, empty hands at her sides, no stick anywhere.",
         "must_not_show": "no stick in frame at all; no bend, no lean; nothing supernatural; the crowd is soft and distant behind her.",
@@ -818,3 +885,21 @@ BEATS = [
         ),
     },
 ]
+
+# ROUGH-DRAFT CONTINUITY (build-02 pattern): the rejected-look still for a
+# beat, when it exists, is attached as the approved rough draft — its camera
+# angle, blocking, positions and travel directions were bought with the
+# 2026-07-29 authoring pass and must not be reinvented. Faces and identity
+# always come from the FACE/CHARACTER lock images, never from the draft.
+# A beat whose rough itself contains the defect being fixed goes in _NO_ROUGH
+# (the row-2 b20 lesson: a rough carries its defects as faithfully as its
+# virtues).
+# b08's rough was a black-haired near-camera close-up (both defects copied on
+# take 1); b09's rough contains the kneeling-woman wrong moment (copied
+# faithfully, the row-2 b20 lesson); b25/b26 roughs carry the old set's OWN
+# drifted ruler/farmer, which fought the identity anchors. Prose + anchors win.
+_NO_ROUGH = {"v2-r005-b08", "v2-r005-b09", "v2-r005-b25", "v2-r005-b26"}
+for _beat in BEATS:
+    _asset = Path(__file__).resolve().parent / "assets" / _beat["out"]
+    if _asset.is_file() and _beat["id"] not in _NO_ROUGH:
+        _beat["rough_ref"] = str(_asset)
