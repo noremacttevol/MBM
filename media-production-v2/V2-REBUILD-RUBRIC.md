@@ -29,6 +29,10 @@ direction, but V4 is rejected as a final because its copied audio was shortened.
 2. **Locked cast.** Every recurring person keeps the same face, apparent age,
    build, hair, beard, clothing, and scale. Attach the accepted character image
    reference to every later shot; a text description alone is not enough.
+   One person has one canonical identity anchor: never mix a group image whose
+   version of that face disagrees with the person's individual anchor. Generating
+   each scene independently is not proof of identity, even when every prompt had
+   a reference attached.
 3. **Human variety.** Disciples and crowds are distinct people, not twins or one
    repeated face. Named people remain recognizable without making everyone else
    look identical.
@@ -52,6 +56,15 @@ direction, but V4 is rejected as a final because its copied audio was shortened.
    video frame after crop, zoom, captions, and encoding. Check caption sync and
    colour, closing-card margins, audio, silence, and tail length in the delivered
    MP4—not just the inputs.
+10. **Face-board truth.** Before assembly, group every still by recurring person
+    and compare the visible face side-by-side with that person's one canonical
+    anchor. Hairline, skull/face shape, eyes, nose, cheekbones, ears, age, beard,
+    and skin tone must read as one actor. If a normal viewer can see the actor
+    change, the still fails even if its prompt contained the right lock text and
+    reference. Correct drift with an identity-preserving edit that changes only
+    that person's face/hair, then recheck the entire edited frame for changed crop,
+    pose, anatomy, people, props, lighting, and scene geometry. A face fix that
+    damages the scene is still a failure.
 
 ## Per-story workflow
 
@@ -67,9 +80,12 @@ direction, but V4 is rejected as a final because its copied audio was shortened.
 5. Run `v2_prompt.py --check` before generation. Generate at native 2K.
 6. Reject any source that misses the beat or violates this rubric. Do not repair a
    visibly wrong idea with crop or captions.
-7. Assemble with `v2_assemble.py`, which reads the canonical V1 audio without
+7. Build and inspect the per-character face board. Identity-edit every drifted
+   frame against one non-conflicting canonical anchor, and repeat the face-board
+   plus full-frame geometry checks until all recurring characters pass.
+8. Assemble with `v2_assemble.py`, which reads the canonical V1 audio without
    altering it.
-8. Review every rendered beat and run the technical gates.
-9. Publish only the candidate to `site/review.html`. Do not replace the app video.
-10. Cameron's exact-version approval is the only release decision. A complaint
+9. Review every rendered beat and run the technical gates.
+10. Publish only the candidate to `site/review.html`. Do not replace the app video.
+11. Cameron's exact-version approval is the only release decision. A complaint
     remains attached through every replacement cut until he approves the fixed one.

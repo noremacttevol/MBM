@@ -334,6 +334,16 @@ colours, and byte-identical text locks: [`CAST-REF/CAST-BIBLE.md`](./CAST-REF/CA
   line (e.g. `REF: cast/peter` — and `jesus-master-ref` too when Jesus shares the shot),
   and paste that character's byte-identical LOCK paragraph from CAST-BIBLE. The picture is
   the face; the prose only keeps wardrobe and behaviour straight.
+- **One non-conflicting identity anchor per person, then a face board (Cameron,
+  2026-08-01).** A REF line is an input, not proof that the result kept the actor.
+  Never condition one person on an individual reference and a group reference that
+  show two different versions of that face. Before assembly, compare every visible
+  appearance of each recurring person side-by-side with the single canonical anchor.
+  Hairline, skull/face shape, eyes, nose, cheekbones, ears, age, beard, and skin tone
+  must read as one actor. If the actor changes, use an identity-preserving edit that
+  changes only the face/hair; then recheck the whole edited frame because the edit may
+  alter crop, anatomy, people, props, lighting, or scene geometry. No video reaches the
+  reviewer until both its per-character face board and its full-frame recheck pass.
 - **Wardrobe is fixed per person and never cream.** Each man has one signature tunic colour
   (Peter blue-grey, Andrew rust-brown, James-Z deep-olive, John sand, …). **Only Jesus wears
   cream/off-white/white** — no disciple ever does, so no one is mistaken for the Lord.
@@ -643,6 +653,14 @@ works. Then scale the motion budget per story as the Story-Fit Rule allows.
       hairline, same beard, same age. One drifted still = regenerate that
       still; never ship "close enough," because look-drift across pictures is
       what makes a video feel broken end to end.
+- [ ] IDENTITY-PRESERVING FACE BOARD (tightened 2026-08-01 after Story 13's
+      realistic draft still changed actors): for EACH recurring person, make one
+      board containing the single canonical anchor plus every still where that
+      person's face is visible. A group reference that disagrees with the individual
+      anchor is forbidden. If the actor changes, identity-edit only the face/hair;
+      then recheck the complete edited frame for crop, pose, anatomy, headcount,
+      clothing, props, lighting, and geometry. Lock text and attached refs do not
+      override visible evidence. One drifted face or one scene regression = FAIL.
 - [ ] TRAIT VERIFIED IN EVERY FRAME, NOT JUST THE LOCK TEXT (added 2026-07-16,
       video #3 v3 rejection — the SECOND proportion failure on this video:
       the 07-15 rebuild wrote "short adult, head level with men's shoulders"
