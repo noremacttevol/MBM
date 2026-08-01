@@ -1,3 +1,35 @@
+## 2026-08-01 — Video 11 (Calming the Storm): all 4 denied-cut complaints fixed, realistic V4 shipped (Machine A / `Dev`)
+
+Commit: f8acb3acc. Cameron DENIED the storm cut (board sync 2026-08-01, COMPLAINTS
+row 11): bad first picture ("fine before"), a man climbing the mast, men pouring
+water INTO the boat, and "Peace, be still" too fast. All four fixed and shipped as
+`media-production-v2/build-11-storm/mark-4_calming-the-storm-realistic-v4.mp4`:
+s01 regenerated at 2K from the approved earlier composition (Jesus set apart at
+the water's edge, crowd facing him — the old 768px rough was below delivery size,
+so restored-by-regeneration, rough attached as the composition draft); s10 redone
+with every man LOW in the hull, feet on deck, nobody touching the mast (beat
+prompt now forbids climbing); s11 redone with the bailing water thrown OUT past
+the rail falling to the sea, nothing arcing over the deck. j1 re-rendered on the
+same ElevenLabs Jesus voice (same model/pipeline, no time-stretch) at speed 0.8
+with a real 0.42s caesura — 2.32s vs the rushed 1.44s — ear-checked with
+faster-whisper ("Peace. Be still."), exact KJV kept; the V1 final was rebuilt by
+its own build.py and V4 carries that audio packet-for-packet (AUDIO LOCK PASS).
+FOUND + FIXED IN PASSING: extract_beats.py assumed silence-trimmed segment math
+for every build, but 17 V1 builds (this one included) use RAW mp3 durations — the
+denied V3 cut had been assembled on a timeline 7.9s short, drifting captions and
+picture switches up to ~8s ahead of the voice; extract_beats now reads each
+build's own formulas from its build.py, and all 34 beat windows in beats_v2.py
+were re-timed from per-sentence ElevenLabs timing so every picture lands on the
+sentence it illustrates. Gates: v2_prompt --check PASS (34 beats, JESUS LOCK v5)
+before the 3 API generations ($0.40, ledger updated); verified the finished cut
+by extracting frames (s01/s10/s11 in their windows, red "Peace, be still."
+caption exactly on the slowed line, card ends with the 1.5s TAIL, no dead air).
+Board card v11 -> V4 with new hash (returns to Unwatched, complaint kept for
+re-check); STATUS row 11, COMPLAINTS row 11 ("newer cut shipped — VERIFY fixed"),
+QC.md rewritten for V4, FIXNOTE.txt dropped. sync-reviews run and the board
+redeployed to Firebase (milk-b4-meat.web.app) — Cameron's board now shows the V4
+card. He only needs to watch it once.
+
 ## 2026-08-01 — Video 7 (Peter Walks on Water): "immediately" re-voiced, V7 shipped to the board (Machine A / `Dev`)
 
 Commit: 2c0c66159. Cameron's COMPLAINTS row 7 fix: the n6 line "And Jesus
