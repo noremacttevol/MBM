@@ -1,6 +1,6 @@
 ## 2026-08-01 — Video 8 (The Lost Coin): full realistic rebuild shipped to the board (Machine A / `Dev`, Claude worker 5)
 
-Commit: (ship — this commit) · c035f59f2 (claim). Claimed row 8 by push BEFORE
+Commit: ef4ab787b (ship) · c035f59f2 (claim). Claimed row 8 by push BEFORE
 any spend (a parallel worker took row 9 the same hour). All 12 pictures
 regenerated on gemini-3-pro-image at native 2K from the build-02/05 pattern:
 the 2026-07-29 leftover set (11 stills, all 2K) was checked for reuse but
