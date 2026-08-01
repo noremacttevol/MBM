@@ -18,6 +18,7 @@ Repo: `github.com/noremacttevol/MBM`
 | Claude worker 3 | Story 02 Prodigal — full realistic rebuild | ✅ shipped realistic V2 cut to reviewer (2026-08-01) |
 | Claude worker 4 | Story 06 Two Sons — full realistic rebuild + father's-ask complaint fix | ✅ shipped realistic V2 to reviewer (2026-08-01) — open complaint root-caused: the ask WAS voiced 2026-07-24 but the old assembly dropped j28/j29/j30/n1b/n2b/j29b/s31/n5b; V1 rebuilt 1:23→2:06 assembly-only (zero re-voicing), 23 realistic 2K pictures, AUDIO LOCK PASS. |
 | Claude worker 4 (Machine A, Dev) | Story 05 (Bent-Over Woman) full realistic rebuild | ✅ shipped realistic V2 cut to reviewer (2026-08-01) |
+| Claude worker 6 (Machine A, Dev) | Story 09 (Rich Young Ruler) full realistic rebuild | in progress — claimed 2026-08-01. Old V2 stills fall under the Session-6 blanket rejection; regenerating all beats to the realistic standard on the Gemini API (native 2K, hard ceiling), audio LOCKED to the authoritative narration, windows re-timed from the fixed extract_beats. Ships to Reviewer only; app feed untouched. |
 | Claude worker 5 (Machine A, Dev) | Story 08 (The Lost Coin) full realistic rebuild | in progress — claimed 2026-08-01. Old V2 stills fall under the Session 6 blanket rejection; realistic set generates via Gemini API to the rubric. Audio LOCKED, reviewer-only ship, app feed untouched. |
 
 Coordination law for ALL workers (Codex included — it reads AGENTS.md): claim by push

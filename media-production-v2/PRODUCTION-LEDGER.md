@@ -578,6 +578,27 @@ session's earlier "no generation until re-piloted recipe" line. The standing law
 
 ---
 
+## Session 9 — 2026-08-01 — CLAIM: story 09 (rich young ruler) realistic rebuild (Claude worker 6, Machine A / `Dev`)
+
+- **Model:** Fable 5 (Claude Code) · **Machine:** Machine A — hostname `Dev`
+- **CLAIM (2026-08-01): story 09 build-09-rich-ruler for the REALISTIC rebuild** —
+  assigned row (a parallel worker holds 08). Row 9's 21 existing V2 stills
+  (Jul 29, partial — 31 beats authored, only 21 generated) fall under the
+  Session 6 blanket rejection of the old look. They stay in `assets/` untouched
+  as rough-draft composition refs (ROUGH-DRAFT CONTINUITY LAW); the realistic
+  set generates to `assets-realistic/` via `v2_gen_api.py` (gemini-3-pro-image,
+  native 2K, hard per-run ceiling recomputed from the live shared meter,
+  `--only` slices). Audio stays LOCKED to the authoritative V1 narration
+  (196.8 s) via the v2_assemble encoded-audio hash lock; no re-voicing. All 31
+  windows re-timed from the fixed `extract_beats.py` (the Jul 29 windows carry
+  the raw-vs-trimmed drift — old card at ~177 s vs real 189.0 s) and verified
+  with silencedetect. The two weight-bearing frames (b12 "loved him", b29
+  watching him go) QC to the beat map's love-not-pity standard before anything
+  else ships. Ships to Reviewer only; app feed untouched.
+- Session results are appended below when the row closes.
+
+---
+
 ## 🛑 RESOLUTION AUDIT — 2026-07-30, Machine A (`Dev`): 159 of 424 pictures were 1K
 
 Cameron asked what had actually been made this session. Counting it turned up a defect
