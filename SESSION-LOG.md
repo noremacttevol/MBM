@@ -1,3 +1,38 @@
+## 2026-08-01 — Video 9 (Rich Young Ruler): full realistic rebuild shipped to the board (Machine A / `Dev`, Claude worker 6)
+
+Commit: be5d75213 (ship) · 68446d47d (claim). Claimed row 9 by push BEFORE any
+spend (the parallel worker held row 8). This is the app's FOUNDING STORY —
+MBM's own CLAUDE.md argues its whole no-pressure gospel from these six verses
+— so the two weight-bearing frames were QC'd hardest: b12 "Jesus, looking at
+him, loved him" (take 2: eyes OPEN, unmistakably love, not pity/lowered lids)
+and b29 watching him walk away (take 1: real tears, love + grief, no relief,
+no crossed arms). All 31 pictures generated on gemini-3-pro-image at native
+2K from the build-02/05 pattern: the Jul-29 21-still leftover set (Session-6
+rejected look) served only as rough composition drafts — 10 roughs DROPPED
+up-front for carrying their beat's own defect, and s02/s03 proved the lesson's
+new corollary: the model reproduced the dropped rough's jog from the scene
+text alone, so the text itself must be hardened when a rough is dropped.
+Fresh RULER image anchor (CAST-REF-V2/ruler-ref.jpeg) held one likeable rich
+young man across all 21 appearances; V2 Jesus in 17; Peter/Andrew/James/John
+in s21 match the CAST-V2-REF sheets (take 1 failed the cast law on John's
+hair). FOUND + FIXED: the Jul-29 windows carried the raw-vs-trimmed drift
+(card ~177 s vs real 189.03 s) — all 31 re-timed as absolute phrase times from
+the fixed extract_beats (leading silence rides inside each mp3, so
+audio_start + raw time IS absolute), sub-splits placed on silencedetect-
+measured pauses. 14 reroll passes total (gaze/drift/ornament s01, sprint-echo
+s02/s03, seated s08, stray blurred Jesus s14, camera gazes s22/s28, action-
+logic s27 ×3 incl. one reroll wasted on an unapplied prompt edit — recorded
+honestly, wrong-facing s31); the shared spend meter was eaten twice by the
+concurrent row-8 worker and every run resumed under a recomputed --ceiling.
+Spend ≈$6.16 / 46 gens for 32 accepted images. Assembly: v2_assemble.py 9 →
+mark-10_rich-ruler-realistic-v2.mp4, AUDIO LOCK PASS (925aaf90…, byte-
+identical approved audio, no music bed), verify-mp4 OK 196.8 s / 21.9 MB, 14
+rendered frames checked (white narrator, blue scripture voice, red only on
+Jesus's KJV — "give to the poor" lands ON the frame of the poor; sunset only
+after "The sun went down"; clean card). Board card v9 → hash e8cb3734…
+(Unwatched), sync-reviews run, Firebase deployed, live card + raw mp4 (206,
+range OK) verified. STATUS/QUEUE/ledger updated. App-feed V1 untouched.
+
 ## 2026-08-01 — Video 8 (The Lost Coin): full realistic rebuild shipped to the board (Machine A / `Dev`, Claude worker 5)
 
 Commit: ef4ab787b (ship) · c035f59f2 (claim). Claimed row 8 by push BEFORE
