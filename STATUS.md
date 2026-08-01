@@ -8,6 +8,19 @@ Repo: `github.com/noremacttevol/MBM`
 
 ---
 
+## 👷 ACTIVE WORKERS RIGHT NOW (2026-08-01 — every agent updates its own row; a row older than a day is stale, reclaim it)
+
+| Worker | On | State |
+|---|---|---|
+| Codex (VS Code, Machine A) | Stories 12 (Bartimaeus) + 13 (Roof) face-consistency rework | in progress — **work is UNCOMMITTED on Machine A; Codex must commit+push so others can see it** |
+| Claude worker 1 | Story 07 Peter — "immediately" re-voice | ✅ shipped V7 to reviewer (2c0c66159) |
+| Claude worker 2 | Story 11 Storm — 3 pictures + "Peace, be still" pacing | ✅ shipped realistic V4 to reviewer (f8acb3acc) |
+| Claude worker 3 | Next open realistic-rebuild row (not 07/11/12/13) — claims by push before spending | in progress |
+
+Coordination law for ALL workers (Codex included — it reads AGENTS.md): claim by push
+BEFORE building, commit only your own files, update your row here in the same commit,
+and push as you go. Work that isn't pushed is invisible and will be collided with.
+
 ## 🎬 CURRENT WORK — realistic V2 visual rebuild
 
 The mobile app is intentionally untouched. The existing scripts, chosen voices,
