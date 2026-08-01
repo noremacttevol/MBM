@@ -299,7 +299,9 @@ BEATS = [
             "his hair is damp at the temples and his face is sheened with sweat. His "
             "travel bag is dropped on the stones beside him. He is entirely alone in "
             "the empty bleached landscape and there is no rope or bucket anywhere near "
-            "him. The camera is back far enough to see him head to sandals. He has two "
+            "him. The stone rim of the well beside him and behind him is BARE weathered "
+            "stone with nothing lying on it — no rope, no cord, no bucket, nothing "
+            "coiled anywhere. The camera is back far enough to see him head to sandals. He has two "
             "arms, two hands and one head."
         ),
     },
