@@ -75,6 +75,10 @@ LOCKS = {
 
 REF = True  # every Jesus shot attaches JESUS-V2-REF/jesus-v2-face.jpeg
 
+# Reviewer-only realistic replacement. The approved app/V1 media remains untouched.
+OUTPUT_ASSET_DIR = "assets-realistic-v3"
+OUTPUT_VIDEO_NAME = "mark-5_woman-touches-his-cloak-realistic-v3.mp4"
+
 BEATS = [
     {
         "id": "v2-r001-b01", "out": "s01-twelve-years.jpeg", "seg": "n1",

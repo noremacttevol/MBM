@@ -1,0 +1,333 @@
+{
+  "asset_dir": "assets-realistic-v3",
+  "board_dir": "identity-boards-v3",
+  "notes": [
+    "Only clear, auditable faces are included; backs of heads and figures too distant for a normal viewer to identify are excluded.",
+    "A pass remains valid only while both the source-frame and canonical-anchor SHA-256 hashes remain unchanged.",
+    "The global approved V2 Jesus portrait is the Jesus anchor. The clear frontal s08 portrait is the woman's single canonical anchor."
+  ],
+  "identities": {
+    "jesus": {
+      "anchor": "character-refs-v3/jesus-face.jpeg",
+      "anchor_crop": [
+        0.16,
+        0.04,
+        0.91,
+        0.67
+      ],
+      "appearances": [
+        {
+          "file": "s04-jairus-urging.jpeg",
+          "crop": [
+            0.5,
+            0.17,
+            0.76,
+            0.39
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "46e310bc74de30265c8a0b7796703a59ae06d5cdda159a142d3bac4fe48b5681",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s05-crowd-pressing.jpeg",
+          "crop": [
+            0.36,
+            0.3,
+            0.65,
+            0.52
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "257f51d7e9139a5cc642b4625c8d7a5b3ab8953c62e01929dbd3f5e668de5b77",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s06-woman-at-edge.jpeg",
+          "crop": [
+            0.24,
+            0.31,
+            0.46,
+            0.48
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "696fbaa38e283015340bc657817bda87aa1c32376201f6da4f67c618a4c4c2d4",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s11-touches-hem.jpeg",
+          "crop": [
+            0.62,
+            0.24,
+            0.88,
+            0.43
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "277bcdb7434fd4c5549f3fb1757693eda46757805b1cb6564ac4b6cb40426f84",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s12-he-stops.jpeg",
+          "crop": [
+            0.34,
+            0.34,
+            0.64,
+            0.57
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "0e54c97f3d9f33d57d73145e6e558c64d7019663242b1d0a7d4b9ddb5f3a8a5a",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s14-who-touched.jpeg",
+          "crop": [
+            0.31,
+            0.31,
+            0.59,
+            0.54
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "b1e01ea8c4887cb2185685c74a79263b22904df832de865a9c480cc7154f8a51",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s15-disciples-protest.jpeg",
+          "crop": [
+            0.3,
+            0.36,
+            0.53,
+            0.56
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "ad89e694c99565a7176829237cca7545dd1284c9f3b7683344d43f6538b59fb8",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s16-searching.jpeg",
+          "crop": [
+            0.34,
+            0.29,
+            0.65,
+            0.52
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "64df4241eae8782d1934ce57ba9699e00e558331360da707e3b4349e03a77f0c",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s17-found-her.jpeg",
+          "crop": [
+            0.36,
+            0.28,
+            0.65,
+            0.5
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "e9792b62aa9319205d734b234748a4edfad933730792b2bd8e5a39911c51fa5e",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s18-daughter.jpeg",
+          "crop": [
+            0.5,
+            0.39,
+            0.77,
+            0.59
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "c7b7ffd15a19510cf1780f40c8f99484699367df10fbd1d8bfde50986add5cf1",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s20-goes-in-peace.jpeg",
+          "crop": [
+            0.51,
+            0.31,
+            0.78,
+            0.52
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "e5b145f45ae8db2eee692b02073b852c0bc47d1c1eeb11b7a4fcae5603e714dc",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        }
+      ]
+    },
+    "woman": {
+      "anchor": "character-refs-v3/woman-face.jpeg",
+      "anchor_crop": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "appearances": [
+        {
+          "file": "s01-twelve-years.jpeg",
+          "crop": [
+            0.18,
+            0.15,
+            0.7,
+            0.5
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "fc5404e46524a982cd6c9721610e27a3e8a212042412b6c8805d84c3e832f3e2",
+          "approved_anchor_sha256": "5f33c344190b57fa9c5b5762b4c1260837fc75c8526dc143d00ac5c068504127"
+        },
+        {
+          "file": "s02-physicians.jpeg",
+          "crop": [
+            0.17,
+            0.13,
+            0.71,
+            0.48
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "4888bd25480dd3bf7653a9a4d8ee2b00e4bb561c2957eddca516832ecee1c63e",
+          "approved_anchor_sha256": "5f33c344190b57fa9c5b5762b4c1260837fc75c8526dc143d00ac5c068504127"
+        },
+        {
+          "file": "s03-untouchable.jpeg",
+          "crop": [
+            0.41,
+            0.28,
+            0.65,
+            0.45
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "2c7530c8a5cb607eec27d378256282ddb8a0338ef63c4d7aaaad0215516bb3e1",
+          "approved_anchor_sha256": "5f33c344190b57fa9c5b5762b4c1260837fc75c8526dc143d00ac5c068504127"
+        },
+        {
+          "file": "s06-woman-at-edge.jpeg",
+          "crop": [
+            0.66,
+            0.42,
+            0.95,
+            0.64
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "696fbaa38e283015340bc657817bda87aa1c32376201f6da4f67c618a4c4c2d4",
+          "approved_anchor_sha256": "5f33c344190b57fa9c5b5762b4c1260837fc75c8526dc143d00ac5c068504127"
+        },
+        {
+          "file": "s07-she-hears.jpeg",
+          "crop": [
+            0.13,
+            0.06,
+            0.82,
+            0.5
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "f1d6f30b8afa6b5d9293e558c10e9215655e8cd71e035dba8aff6698c42eb70f",
+          "approved_anchor_sha256": "5f33c344190b57fa9c5b5762b4c1260837fc75c8526dc143d00ac5c068504127"
+        },
+        {
+          "file": "s08-she-says-it.jpeg",
+          "crop": [
+            0.12,
+            0.07,
+            0.88,
+            0.58
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "7d50de2e779d938b3f5ecc148f2e8cd1098c95f0add95f4505252525786f540a",
+          "approved_anchor_sha256": "5f33c344190b57fa9c5b5762b4c1260837fc75c8526dc143d00ac5c068504127"
+        },
+        {
+          "file": "s09-her-plan.jpeg",
+          "crop": [
+            0.08,
+            0.37,
+            0.38,
+            0.59
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "6398a39471c5f3a61db81f40a0a175b50fdf786007a6610da8fc7d0ba88a5c1c",
+          "approved_anchor_sha256": "5f33c344190b57fa9c5b5762b4c1260837fc75c8526dc143d00ac5c068504127"
+        },
+        {
+          "file": "s10-pressing-through.jpeg",
+          "crop": [
+            0.37,
+            0.33,
+            0.69,
+            0.56
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "a529b3197d59ba971c21086b2b37262342cd14699cef9209973a66aec7ff4bda",
+          "approved_anchor_sha256": "5f33c344190b57fa9c5b5762b4c1260837fc75c8526dc143d00ac5c068504127"
+        },
+        {
+          "file": "s11-touches-hem.jpeg",
+          "crop": [
+            0.28,
+            0.55,
+            0.53,
+            0.73
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "277bcdb7434fd4c5549f3fb1757693eda46757805b1cb6564ac4b6cb40426f84",
+          "approved_anchor_sha256": "5f33c344190b57fa9c5b5762b4c1260837fc75c8526dc143d00ac5c068504127"
+        },
+        {
+          "file": "s13-healed-in-her-body.jpeg",
+          "crop": [
+            0.22,
+            0.09,
+            0.77,
+            0.49
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "865f057f09cedb915e3ac14dce77722ba278fa09057d71d9c17061c2ada5f3f8",
+          "approved_anchor_sha256": "5f33c344190b57fa9c5b5762b4c1260837fc75c8526dc143d00ac5c068504127"
+        },
+        {
+          "file": "s17-found-her.jpeg",
+          "crop": [
+            0.43,
+            0.39,
+            0.72,
+            0.59
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "e9792b62aa9319205d734b234748a4edfad933730792b2bd8e5a39911c51fa5e",
+          "approved_anchor_sha256": "5f33c344190b57fa9c5b5762b4c1260837fc75c8526dc143d00ac5c068504127"
+        },
+        {
+          "file": "s18-daughter.jpeg",
+          "crop": [
+            0.13,
+            0.37,
+            0.43,
+            0.6
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "c7b7ffd15a19510cf1780f40c8f99484699367df10fbd1d8bfde50986add5cf1",
+          "approved_anchor_sha256": "5f33c344190b57fa9c5b5762b4c1260837fc75c8526dc143d00ac5c068504127"
+        },
+        {
+          "file": "s19-it-lands.jpeg",
+          "crop": [
+            0.09,
+            0.06,
+            0.91,
+            0.58
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "705665dd59ad0a430360bfaf68df3d2a942e57f55e9fa0ea9c1feb39b2b5d349",
+          "approved_anchor_sha256": "5f33c344190b57fa9c5b5762b4c1260837fc75c8526dc143d00ac5c068504127"
+        },
+        {
+          "file": "s20-goes-in-peace.jpeg",
+          "crop": [
+            0.31,
+            0.33,
+            0.58,
+            0.54
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "e5b145f45ae8db2eee692b02073b852c0bc47d1c1eeb11b7a4fcae5603e714dc",
+          "approved_anchor_sha256": "5f33c344190b57fa9c5b5762b4c1260837fc75c8526dc143d00ac5c068504127"
+        }
+      ]
+    }
+  }
+}
