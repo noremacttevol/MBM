@@ -79,8 +79,8 @@
   },
   "7": {
     "open": true,
-    "latest": "The boat should not have modern glass lamps. Remove every glass/artificial boat lamp and its orange glow, use moonlight only, and study the Matthew 14 scene more carefully.",
-    "reportedAgainst": "4461d3edff0187be42c0cf6f309d417099c693bd",
+    "latest": "The boat should not have modern glass lamps. Remove every glass/artificial boat lamp and its orange glow, use moonlight only, and study the Matthew 14 scene more carefully..... Immediatly is pronounced wrong and these old complaints chouldnt be here in this box.",
+    "reportedAgainst": "74212be464a366a1762deac958063b557209f522",
     "resolvedBy": null,
     "history": [
       {
@@ -97,6 +97,11 @@
         "text": "The boat should not have modern glass lamps. Remove every glass/artificial boat lamp and its orange glow, use moonlight only, and study the Matthew 14 scene more carefully.",
         "hash": "4461d3edff0187be42c0cf6f309d417099c693bd",
         "createdAt": "2026-07-31T06:39:05.802Z"
+      },
+      {
+        "text": "The boat should not have modern glass lamps. Remove every glass/artificial boat lamp and its orange glow, use moonlight only, and study the Matthew 14 scene more carefully..... Immediatly is pronounced wrong and these old complaints chouldnt be here in this box.",
+        "hash": "74212be464a366a1762deac958063b557209f522",
+        "createdAt": "2026-08-01T00:12:19.553Z"
       }
     ]
   },
@@ -140,15 +145,15 @@
     ]
   },
   "11": {
-    "open": false,
-    "latest": "The first picture is messed up. I dont see how you messed it up this bad it was fine before. Another picture has someone climbing up that mast, thats stupid.  The next has people pouring water inside the boat.",
-    "reportedAgainst": "01a9f8ec4899cd273d69335aeae144aeee9f2fc4",
-    "resolvedBy": "5dca5872f59c90dc9b2de992cea1b0b70d56120f",
+    "open": true,
+    "latest": "The first picture is messed up. I dont see how you messed it up this bad it was fine before. Another picture has someone climbing up that mast, thats stupid.  The next has people pouring water inside the boat... idk if this is alex talking or not but its obviojs that jesus didnt say peace, be still that fast. We need to fix it .",
+    "reportedAgainst": "9888f562885168b378df14c64bb3d9c43c0f58ad",
+    "resolvedBy": null,
     "history": [
       {
-        "text": "The first picture is messed up. I dont see how you messed it up this bad it was fine before. Another picture has someone climbing up that mast, thats stupid.  The next has people pouring water inside the boat.",
-        "hash": "01a9f8ec4899cd273d69335aeae144aeee9f2fc4",
-        "createdAt": "2026-07-24T20:53:12.391Z"
+        "text": "The first picture is messed up. I dont see how you messed it up this bad it was fine before. Another picture has someone climbing up that mast, thats stupid.  The next has people pouring water inside the boat... idk if this is alex talking or not but its obviojs that jesus didnt say peace, be still that fast. We need to fix it .",
+        "hash": "9888f562885168b378df14c64bb3d9c43c0f58ad",
+        "createdAt": "2026-08-01T00:17:46.711Z"
       }
     ]
   },

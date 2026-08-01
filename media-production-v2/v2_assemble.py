@@ -33,6 +33,7 @@ import re
 import shutil
 import subprocess
 import sys
+import tempfile
 import textwrap
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -41,6 +42,7 @@ sys.path.insert(0, HERE)
 import extract_beats  # noqa: E402
 
 FF = shutil.which("ffmpeg") or "ffmpeg"
+FFPROBE = shutil.which("ffprobe") or "ffprobe"
 FPS = 30
 SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
 CREAM = "0xF7F2E9"
@@ -56,7 +58,7 @@ def run(cmd):
 
 def duration_of(path):
     probe = subprocess.run(
-        [FF, "-v", "error", "-show_entries", "format=duration",
+        [FFPROBE, "-v", "error", "-show_entries", "format=duration",
          "-of", "csv=p=0", path],
         capture_output=True, text=True, check=True)
     return float(probe.stdout.strip())
@@ -72,8 +74,10 @@ def audio_stream_hash(path):
 
 
 def v2_dir_of(row):
-    cands = sorted(glob.glob(os.path.join(HERE, f"build-{row}-*"))
-                   + glob.glob(os.path.join(HERE, f"build-{row:02d}-*")))
+    cands = sorted(set(
+        glob.glob(os.path.join(HERE, f"build-{row}-*"))
+        + glob.glob(os.path.join(HERE, f"build-{row:02d}-*"))
+    ))
     cands = [c for c in cands if os.path.isfile(os.path.join(c, "beats_v2.py"))]
     if len(cands) != 1:
         raise SystemExit(f"row {row}: expected exactly one v2 build dir with "
@@ -91,10 +95,14 @@ def load_beats_v2(v2dir):
         a, z = b["window"].split("-")
         beats.append({"out": b["out"], "start": float(a), "end": float(z)})
     beats.sort(key=lambda b: b["start"])
-    return beats
+    return (
+        beats,
+        getattr(mod, "OUTPUT_ASSET_DIR", "assets"),
+        getattr(mod, "OUTPUT_VIDEO_NAME", None),
+    )
 
 
-def build_chunk(v2dir, idx, src, dur, zdir, first, last, segs):
+def build_chunk(v2dir, assets_dir, idx, src, dur, zdir, first, last, segs):
     frames = max(1, int(round(dur * FPS)))
     if zdir == "in":
         z = f"1.001+0.10*on/{frames}"
@@ -110,7 +118,7 @@ def build_chunk(v2dir, idx, src, dur, zdir, first, last, segs):
     if last and dur > 1.4:
         tail = f",fade=t=out:st={dur-1.2}:d=1.2"
     out = os.path.join(segs, f"c{idx:03d}.mp4")
-    run([FF, "-y", "-loop", "1", "-i", os.path.join("assets", src),
+    run([FF, "-y", "-loop", "1", "-i", os.path.join(assets_dir, src),
          "-t", f"{dur:.3f}", "-filter_complex", f"{base}{tail}[v]",
          "-map", "[v]"] + ENC + [out])
     return out
@@ -143,22 +151,26 @@ def build_card(segs, dur, text):
 
 def main():
     row = int(sys.argv[1])
+    resume_base = "--resume-base" in sys.argv[2:]
+    base_only = "--base-only" in sys.argv[2:]
+    prepare_only = "--prepare-only" in sys.argv[2:]
     data = extract_beats.extract(row)
     v1dir = os.path.join(ROOT, data["v1_dir"])
     v2dir = v2_dir_of(row)
     sys.path.insert(0, v1dir)  # mbm_caption_timing + mbm_speakers, V1's own
     from mbm_caption_timing import caption_filter  # noqa: E402
 
-    # V1 audio through a read-only symlink; segs/ scratch lives in the V2 dir.
+    # segs/ scratch lives in the V2 dir.  Do not trust a build-local audio/
+    # directory: older V2 attempts may contain stale narration files.  Caption
+    # timing gets an isolated, read-only view of the authoritative V1 audio
+    # below, while the finished AAC is still copied from the V1 final MP4.
     os.chdir(v2dir)
-    if not os.path.exists("audio"):
-        os.symlink(os.path.join(v1dir, "audio"), "audio")
     os.makedirs("segs", exist_ok=True)
     segs = "segs"
 
-    beats = load_beats_v2(v2dir)
+    beats, assets_dir, configured_output_name = load_beats_v2(v2dir)
     for b in beats:
-        p = os.path.join("assets", b["out"])
+        p = os.path.join(assets_dir, b["out"])
         if not os.path.isfile(p):
             raise SystemExit(f"missing picture: {p} — row not fully generated")
 
@@ -166,39 +178,57 @@ def main():
     total = data["total"]
 
     # ---- video chunks: each beat holds the screen until the next begins ----
-    chunk_files = []
-    for i, b in enumerate(beats):
-        start = 0.0 if i == 0 else b["start"]
-        end = beats[i + 1]["start"] if i + 1 < len(beats) else card_start
-        dur = end - start
-        if dur <= 0.05:
-            continue
-        zdir = "in" if i % 2 == 0 else "out"
-        chunk_files.append(build_chunk(
-            v2dir, i, b["out"], dur, zdir,
-            first=(i == 0), last=(i + 1 == len(beats)), segs=segs))
+    base_path = os.path.join(segs, "base.mp4")
+    if resume_base:
+        if not os.path.isfile(base_path):
+            raise SystemExit("--resume-base requested but segs/base.mp4 is missing")
+        print(f"RESUME BASE: {base_path}", flush=True)
+    else:
+        chunk_files = []
+        for i, b in enumerate(beats):
+            start = 0.0 if i == 0 else b["start"]
+            end = beats[i + 1]["start"] if i + 1 < len(beats) else card_start
+            dur = end - start
+            if dur <= 0.05:
+                continue
+            zdir = "in" if i % 2 == 0 else "out"
+            chunk_files.append(build_chunk(
+                v2dir, assets_dir, i, b["out"], dur, zdir,
+                first=(i == 0), last=(i + 1 == len(beats)), segs=segs))
 
-    with open(os.path.join(segs, "concat_base.txt"), "w") as f:
-        for c in chunk_files:
-            f.write(f"file '{os.path.basename(c)}'\n")
-    run([FF, "-y", "-f", "concat", "-safe", "0",
-         "-i", os.path.join(segs, "concat_base.txt"),
-         "-c", "copy", os.path.join(segs, "base.mp4")])
+        with open(os.path.join(segs, "concat_base.txt"), "w") as f:
+            for c in chunk_files:
+                f.write(f"file '{os.path.basename(c)}'\n")
+        run([FF, "-y", "-f", "concat", "-safe", "0",
+             "-i", os.path.join(segs, "concat_base.txt"),
+             "-c", "copy", base_path])
+
+    if base_only:
+        print("BASE ONLY: motion master is ready", flush=True)
+        return
 
     # ---- captions: every segment's V1 filter, shifted to global time ----
     filters = []
-    for s in data["beats"]:
-        if s["speaker"] == "silence" or not s["text"]:
-            continue
-        local_dur = s["seg_dur"]
-        local_spoken_end = s["spoken_end"] - s["seg_start"]
-        f = caption_filter(s["seg"], local_dur, local_spoken_end,
-                           s["text"], s["speaker"])
-        if not f:
-            continue
-        off = s["seg_start"]
-        f = f.replace("between(t,", f"between(t-{off:.3f},")
-        filters.append(f.lstrip(","))
+    with tempfile.TemporaryDirectory(prefix=".caption-context-", dir=v2dir) as ctx:
+        os.symlink(os.path.join(v1dir, "audio"), os.path.join(ctx, "audio"))
+        os.symlink(os.path.join(v2dir, segs), os.path.join(ctx, "segs"))
+        prior_cwd = os.getcwd()
+        os.chdir(ctx)
+        try:
+            for s in data["beats"]:
+                if s["speaker"] == "silence" or not s["text"]:
+                    continue
+                local_dur = s["seg_dur"]
+                local_spoken_end = s["spoken_end"] - s["seg_start"]
+                f = caption_filter(s["seg"], local_dur, local_spoken_end,
+                                   s["text"], s["speaker"])
+                if not f:
+                    continue
+                off = s["seg_start"]
+                f = f.replace("between(t,", f"between(t-{off:.3f},")
+                filters.append(f.lstrip(","))
+        finally:
+            os.chdir(prior_cwd)
     chain = "[0:v]" + ",".join(filters) + "[v]"
     run([FF, "-y", "-i", os.path.join(segs, "base.mp4"),
          "-filter_complex", chain, "-map", "[v]"] + ENC +
@@ -213,14 +243,19 @@ def main():
          "-i", os.path.join(segs, "concat.txt"),
          "-c", "copy", os.path.join(segs, "video_silent.mp4")])
 
+    if prepare_only:
+        print("PREPARE ONLY: silent master is ready", flush=True)
+        return
+
     # ---- final mux: pictures change; the finished V1 audio cannot ----
     v1_mp4 = [f for f in os.listdir(v1dir) if f.endswith(".mp4")]
     if len(v1_mp4) != 1:
         raise SystemExit(
             f"AUDIO LOCK: row {row} needs exactly one authoritative V1 MP4, "
             f"found {v1_mp4}")
-    out_name = v1_mp4[0]
-    locked_final = os.path.join(v1dir, out_name)
+    locked_v1_name = v1_mp4[0]
+    out_name = configured_output_name or locked_v1_name
+    locked_final = os.path.join(v1dir, locked_v1_name)
     locked_duration = duration_of(locked_final)
     if abs(total - locked_duration) > 1.0:
         raise SystemExit(
