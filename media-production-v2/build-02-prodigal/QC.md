@@ -1,3 +1,61 @@
+# Story 2 Realistic V3 QC — The Prodigal Son
+
+Final candidate: `luke-15_prodigal-son-realistic-v3.mp4`
+
+## Delivery proof
+
+- 24 realistic 9:16 source pictures in `assets-realistic-v3/`.
+- 18 pictures received identity-only repairs; the six already-correct pictures
+  (`s03`, `s04`, `s05`, `s11`, `s12`, and `s16`) remain byte-for-byte identical
+  to the V2 sources.
+- Final: 1080×1920 H.264, 30 fps, 157.900 seconds, 20,830,937 bytes.
+- Final Git blob SHA-1: `9a7ae96a2c369e431dc5b6e93622fc558a18ea0a`.
+- Final SHA-256: `4ed5f9c0ffb99cc796bb7b6fb93922dbeb0b4c112280d58dc640234f14245735`.
+- Encoded-audio packet SHA-256: `de312e96bcfb5f85961eb680279c7e78618efdf4e6e6cc66f9563eb718173766`.
+- `v2_prompt.py --check`: PASS, all 24 beats pass the V4 checklist.
+- `v2_identity_board.py --check`: PASS for all four recurring identities and
+  all 32 face appearances.
+- One decoded frame from each beat and the closing card was inspected in
+  `DECODED-QC-V3.jpg`; critical action frames were also inspected full-size.
+
+## Audio and script fidelity
+
+- No narration was generated, shortened, substituted, or rewritten. The V3
+  assembler stream-copied the complete AAC audio from the authoritative V1
+  final, `media-production/build-02-prodigal/luke-15_prodigal-son.mp4`.
+- The authoritative V1 and V3 candidate have exactly the same encoded-audio
+  packet SHA-256 shown above. Story, speaker takes, pauses, captions, and timing
+  therefore remain unchanged.
+
+## Face-consistency repair
+
+- Cameron's reported defect was: “All Faces changes too much.”
+- Four clean canonical references were established for Jesus, the father, the
+  younger son, and the elder son. Every visible recurring face was compared
+  side-by-side against its reference on hash-backed contact boards.
+- Identity edits changed only visible face, hair, and beard. The existing V2
+  composition, camera, crop, lighting, bodies, poses, hands, clothing, props,
+  people count, and story action were locked in every edit prompt.
+- The final father is consistent across 11 appearances, the younger son across
+  10, the elder son across 9, and Jesus across 2.
+- A first `s22` repair was rejected because one of the father's hands became
+  hidden. The accepted revision visibly keeps one father hand on each of the
+  elder son's shoulders.
+- `s14` retains the signet-ring action on the younger son's raised hand and the
+  servant fitting his sandal. `s24` retains all three recurring family members,
+  the feast, and the open-door invitation; an anachronistic glass chimney lamp
+  was corrected to a period clay oil lamp.
+- Encoded-frame checks confirm the ring, both shoulder contacts, open-door
+  staging, stable recurring faces, readable captions, and correct beat order.
+
+Publishing this candidate under a new hash returns Story 2 to **Unwatched**
+while keeping Cameron's V2 face complaint visible for comparison. The mobile
+app and app-feed video remain unchanged.
+
+---
+
+## Superseded V2 generation record
+
 # QC — row 2, build-02-prodigal — REALISTIC rebuild (2026-08-01, Machine A `Dev`)
 
 Cut: `luke-15_prodigal-son-realistic-v2.mp4` · 24 stills, `assets-realistic/`,

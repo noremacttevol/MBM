@@ -1,0 +1,11 @@
+{
+  "row": 2,
+  "policy": "No narration was regenerated, shortened, substituted, or rewritten. The candidate stream-copies the authoritative V1 AAC packets.",
+  "authoritative_v1": "media-production/build-02-prodigal/luke-15_prodigal-son.mp4",
+  "candidate": "media-production-v2/build-02-prodigal/luke-15_prodigal-son-realistic-v3.mp4",
+  "duration_seconds": 157.9,
+  "candidate_file_sha256": "4ed5f9c0ffb99cc796bb7b6fb93922dbeb0b4c112280d58dc640234f14245735",
+  "locked_audio_packet_sha256": "de312e96bcfb5f85961eb680279c7e78618efdf4e6e6cc66f9563eb718173766",
+  "candidate_audio_packet_sha256": "de312e96bcfb5f85961eb680279c7e78618efdf4e6e6cc66f9563eb718173766",
+  "match": true
+}
