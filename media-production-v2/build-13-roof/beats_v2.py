@@ -41,6 +41,24 @@ daylight into it at b16. That contrast is the build's best visual idea and must
 survive: dark room, one shaft of hard daylight, dust and straw falling through it.
 """
 
+from pathlib import Path
+
+OUTPUT_ASSET_DIR = "assets-realistic"
+OUTPUT_VIDEO_NAME = "mark-2_man-through-the-roof-realistic-v2.mp4"
+_BUILD = Path(__file__).resolve().parent
+
+# Stable, accepted identity anchors for this one-story cast. Each person has
+# exactly one non-conflicting face image. The old five-man group image remains
+# useful as provenance, but it contains a different version of the paralysed
+# man and therefore must never be supplied to generation or repair.
+FRIEND_REFS = [
+    str(_BUILD / "character-refs" / "friend-broad-black-beard.jpeg"),
+    str(_BUILD / "character-refs" / "friend-wiry-grey-hair.jpeg"),
+    str(_BUILD / "character-refs" / "friend-young-thin-beard.jpeg"),
+    str(_BUILD / "character-refs" / "friend-shaved-stocky.jpeg"),
+]
+PARALYTIC_REF = str(_BUILD / "character-refs" / "paralysed-man.jpeg")
+
 LOCKS = {
     "PARALYTIC": (
         "PARALYSED MAN LOCK: the man on the mat is the same person in every shot — a "
@@ -354,7 +372,7 @@ BEATS = [
     {
         "id": "v2-r013-b15", "out": "s15-swaying-on-four-ropes.jpeg", "seg": "n3 p3b",
         "window": "81.5-84.2", "wide": True, "jesus": False, "ref": False,
-        "locks": ["PARALYTIC", "MAT", "CROWD", "HOUSE"],
+        "locks": ["PARALYTIC", "FRIENDS", "MAT", "CROWD", "HOUSE"],
         "narration": "swaying on four ropes, lowered with enormous care,",
         "must_show": "the mat halfway down inside the shaft of light, hanging level on four corner ropes, turning slowly, the crowd pressed back beneath it.",
         "must_not_show": "the mat must hang LEVEL and controlled — never tipping or dropping; the care is the point.",
@@ -754,7 +772,7 @@ BEATS = [
         "locks": ["PARALYTIC", "MAT"],
         "narration": "And immediately, he did.",
         "must_show": "⚠️ THE TURN: the legs MOVING for the first time — one knee drawing up, a foot pressing flat against the reed mat, muscles engaging.",
-        "must_not_show": "he is not upright yet; this is the first movement, and it must be plainly legs that were dead a second ago; do not put Jesus in this frame.",
+        "must_not_show": "he is not upright yet; this is the first movement, and it must be plainly his previously motionless legs responding; do not put Jesus in this frame.",
         "scene": (
             "Close and low on the young man's legs on the mat. One knee has DRAWN UP "
             "and a bare foot has come flat and pressed down hard against the woven "
@@ -875,7 +893,7 @@ BEATS = [
     {
         "id": "v2-r013-b45", "out": "s45-we-never-saw-it-on-this-fashion.jpeg", "seg": "s12",
         "window": "254.54-256.40", "wide": True, "jesus": False, "ref": False,
-        "locks": ["PARALYTIC", "MAT", "CROWD", "HOUSE"],
+        "locks": ["PARALYTIC", "FRIENDS", "MAT", "CROWD", "HOUSE"],
         "narration": "We never saw it on this fashion. (Mark 2:12)",
         "must_show": "the closing frame from the street: the young man walking away up the sunlit lane with his mat under his arm, the crowd pouring out of the door behind him.",
         "must_not_show": "do not put Jesus in this frame; the last image belongs to the man walking home.",
@@ -891,3 +909,78 @@ BEATS = [
         ),
     },
 ]
+
+# The first V2 draft inherited windows from an older, shortened render.  The
+# current story source contains all 23 existing narration/scripture clips, so
+# every visual beat is locked here to that complete 298.817-second timeline.
+# This table is intentionally explicit: it is also a reviewable guard against
+# images drifting ahead of the words (especially the healing, mat, and exit).
+CURRENT_AUDIO_TIMING = {
+    "s01-capernaum.jpeg": ("n0", 0.280, 7.078),
+    "s02-one-at-each-corner.jpeg": ("n0b", 7.078, 16.855),
+    "s03-he-could-not-walk.jpeg": ("n0b", 16.855, 20.390),
+    "s04-they-decided-anyway.jpeg": ("n0b", 20.390, 24.544),
+    "s05-a-wall-of-backs.jpeg": ("n1", 24.544, 27.266),
+    "s06-no-one-giving-up-a-spot.jpeg": ("n1", 27.266, 36.898),
+    "s07-breathing-hard.jpeg": ("n1", 36.898, 44.022),
+    "s08-one-of-them-looked-up.jpeg": ("n1", 44.022, 47.561),
+    "s09-clay-over-reeds.jpeg": ("n2", 47.561, 57.304),
+    "s10-dig-it-with-your-hands.jpeg": ("n2b", 57.304, 65.069),
+    "s11-tearing-through-the-clay.jpeg": ("n2b", 65.069, 76.491),
+    "s12-the-ceiling-cracked-open.jpeg": ("n3", 76.491, 80.982),
+    "s13-daylight-poured-in.jpeg": ("n3", 80.982, 85.483),
+    "s14-four-faces-at-the-hole.jpeg": ("n3", 85.483, 89.985),
+    "s15-swaying-on-four-ropes.jpeg": ("n3", 89.985, 92.886),
+    "s16-at-the-feet-of-jesus.jpeg": ("n3", 92.886, 96.109),
+    "s17-easy-to-miss.jpeg": ("n4", 96.109, 103.412),
+    "s18-the-four-sweat-streaked-faces.jpeg": ("n4", 103.412, 108.528),
+    "s19-he-hadnt-said-a-word.jpeg": ("n4", 108.528, 118.232),
+    "s20-braced-for-words-about-his-legs.jpeg": ("n5", 118.232, 128.406),
+    "s21-son-thy-sins-be-forgiven.jpeg": ("j1", 128.406, 132.066),
+    "s22-the-first-word-was-son.jpeg": ("n6", 132.066, 141.382),
+    "s23-the-shame-he-carried.jpeg": ("n6b", 141.382, 151.877),
+    "s24-the-deepest-wound-first.jpeg": ("n6c", 151.877, 154.742),
+    "s25-already-the-miracle.jpeg": ("n6c", 154.742, 159.670),
+    "s26-in-the-corner-sat-the-scribes.jpeg": ("n7", 159.670, 166.220),
+    "s27-reasoned-in-their-hearts.jpeg": ("n7", 166.220, 177.765),
+    "s28-why-doth-this-man-speak.jpeg": ("s7", 177.765, 180.646),
+    "s29-who-can-forgive-sins-but-god.jpeg": ("s7", 180.646, 184.743),
+    "s30-stranger-than-the-ceiling.jpeg": ("n8", 184.743, 191.641),
+    "s31-they-had-said-nothing.jpeg": ("n8", 191.641, 195.408),
+    "s32-whether-is-it-easier.jpeg": ("j2", 195.408, 200.194),
+    "s33-or-to-say-arise-and-walk.jpeg": ("j2", 200.194, 206.675),
+    "s34-which-is-easier-to-say.jpeg": ("n9", 206.675, 214.029),
+    "s35-everyone-finds-out.jpeg": ("n9", 214.029, 221.592),
+    "s36-so-that-you-will-know.jpeg": ("n9", 221.592, 229.961),
+    "s37-arise-take-up-thy-bed.jpeg": ("j3", 229.961, 237.196),
+    "s38-and-immediately-he-did.jpeg": ("n10", 237.196, 238.811),
+    "s39-legs-like-a-newborn-colt.jpeg": ("n10", 238.811, 247.153),
+    "s40-he-rolled-up-his-mat.jpeg": ("n10b", 247.153, 251.252),
+    "s41-the-bed-that-carried-him.jpeg": ("n10b", 251.252, 254.764),
+    "s42-they-made-room-now.jpeg": ("n11", 254.764, 262.162),
+    "s43-they-were-all-amazed.jpeg": ("n11", 262.162, 269.163),
+    "s44-four-friends-on-the-roofline.jpeg": ("n11", 269.163, 276.116),
+    "s45-we-never-saw-it-on-this-fashion.jpeg": ("s12", 276.116, 279.404),
+}
+
+if set(CURRENT_AUDIO_TIMING) != {beat["out"] for beat in BEATS}:
+    raise RuntimeError("CURRENT_AUDIO_TIMING must cover every Story 13 image exactly")
+for _beat in BEATS:
+    _seg, _start, _end = CURRENT_AUDIO_TIMING[_beat["out"]]
+    _beat["seg"] = _seg
+    _beat["window"] = f"{_start:.3f}-{_end:.3f}"
+
+# Preserve each earlier frame's useful camera/blocking as a rough draft while
+# regenerating the final photograph. Friend shots receive four individual
+# anchors; man shots receive his one isolated identity anchor.
+_ROUGH = _BUILD / "assets"
+for _beat in BEATS:
+    _rough = _ROUGH / _beat["out"]
+    if _rough.is_file():
+        _beat["rough_ref"] = str(_rough)
+    _locks = set(_beat.get("locks", []))
+    _beat["char_refs"] = []
+    if "FRIENDS" in _locks:
+        _beat["char_refs"].extend(FRIEND_REFS)
+    if "PARALYTIC" in _locks:
+        _beat["char_refs"].append(PARALYTIC_REF)
