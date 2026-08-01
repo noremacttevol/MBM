@@ -1,6 +1,6 @@
 ## 2026-08-01 — Video 7 (Peter Walks on Water): "immediately" re-voiced, V7 shipped to the board (Machine A / `Dev`)
 
-Commit: (this commit). Cameron's COMPLAINTS row 7 fix: the n6 line "And Jesus
+Commit: 2c0c66159. Cameron's COMPLAINTS row 7 fix: the n6 line "And Jesus
 caught him. Immediately." slurred the word into 0.54s in the shipped ElevenLabs
 Brian take. Ran the PRONUNCIATION-LAW in-context A/B (round2_fixes.py pattern,
 faster-whisper round-trip on the real line): plain retakes stayed clipped
@@ -616,7 +616,7 @@ prior sessions and look good now — only a few had live defects.
 
 ## 2026-07-23 — GIT RECONCILE (orphan lineage → healthy peer) + AUTO-FIX LOOP: 3 shipped, audit of the rest (Machine C)
 
-Commit: (this commit). Ran AUTO-LOOP-KICKOFF.md (the auto-fix loop). First had to
+Commit: 2c0c66159. Ran AUTO-LOOP-KICKOFF.md (the auto-fix loop). First had to
 un-block shipping from this box.
 
 - **GIT: this box was an ORPHAN LINEAGE.** `git merge-base HEAD origin/main` = NO
@@ -651,7 +651,7 @@ un-block shipping from this box.
 
 ## 2026-07-21 (night) — COMPLAINT BURN-DOWN: all 32 rows proven, 15 rebuilt, #140 Naaman BUILT (Machine A)
 
-Commit: (this commit). Verify-first pass over every COMPLAINTS.md row in number
+Commit: 2c0c66159. Verify-first pass over every COMPLAINTS.md row in number
 order. Every row now has proof-before AND proof-after (whisper word-isolation,
 acoustic vowel tests against same-voice references, or extracted frames) in
 FIXNOTES.json / the per-video ship notes. #17 stayed DEFERRED per Cameron.
@@ -683,7 +683,7 @@ FIXNOTES.json / the per-video ship notes. #17 stayed DEFERRED per Cameron.
 
 ## 2026-07-21 — CHARACTER SHEETS APPROVED + WIRED INTO THE PIPELINE (Machine A)
 
-Commit: (this commit). Cameron approved the whole roster ("okay characters are all
+Commit: 2c0c66159. Cameron approved the whole roster ("okay characters are all
 good"). All 63 sheets are now LOCKED refs alongside JESUS-MASTER-REF.
 
 - Approval stamped in all 63 CHARACTERS/*/SPEC.md (status 🔒 LOCKED, approved
@@ -709,7 +709,7 @@ good"). All 63 sheets are now LOCKED refs alongside JESUS-MASTER-REF.
 
 ## 2026-07-21 (later) — TIMING/HEALTH SWEEP ROUND 2: re-render batch checked, 2 fixes, source hardened
 
-Commit: (this commit). Audit: media-production/AUDITS/TIMING-HEALTH-SWEEP-2026-07-21.md
+Commit: 2c0c66159. Audit: media-production/AUDITS/TIMING-HEALTH-SWEEP-2026-07-21.md
 
 - The narration re-render batch rebuilt **144 of the 200** videos after round 1,
   invalidating those measurements and UNDOING the #70 size fix. Re-measured all 144.
