@@ -82,6 +82,15 @@ CHAR_LOCK_TEXT = (
     "recolour or re-age them. Only their pose, action and surroundings may change, and "
     "the framing and background of the attached photographs must NOT be copied."
 )
+ROUGH_DRAFT_TEXT = (
+    "The LAST attached photograph is a ROUGH COMPOSITION DRAFT of this exact shot. "
+    "Keep its camera angle, blocking, character positions, actions and directions of "
+    "travel — they are approved. Rebuild it as the fully realistic photograph the text "
+    "below describes: true directional light, real lens depth of field, candid "
+    "mid-action feel. Every person's face and identity comes from the FACE and "
+    "CHARACTER lock photographs and the written locks, NEVER from this draft, and the "
+    "draft's style must not be copied."
+)
 
 
 def load_key():
@@ -121,7 +130,7 @@ def b64_file(path):
     return base64.b64encode(open(path, "rb").read()).decode()
 
 
-def generate(key, prompt, face_b64=None, char_b64=None, retries=4):
+def generate(key, prompt, face_b64=None, char_b64=None, rough_b64=None, retries=4):
     parts = []
     preamble = []
     if face_b64:
@@ -131,6 +140,10 @@ def generate(key, prompt, face_b64=None, char_b64=None, retries=4):
         parts.append({"inline_data": {"mime_type": "image/jpeg", "data": c}})
     if char_b64:
         preamble.append(CHAR_LOCK_TEXT)
+    if rough_b64:
+        # Attached LAST so the face/character locks keep their stated positions.
+        parts.append({"inline_data": {"mime_type": "image/jpeg", "data": rough_b64}})
+        preamble.append(ROUGH_DRAFT_TEXT)
     text = ("\n\n".join(preamble) + "\n\n" + prompt) if preamble else prompt
     parts.append({"text": text})
     payload = json.dumps({
@@ -201,7 +214,12 @@ def cast_refs_for(beat, build_refs_cache):
 
 def build_todo(bdir, only, redo):
     mod = load_beats(bdir)
-    assets = os.path.join(bdir, "assets")
+    # Honour the build's own OUTPUT_ASSET_DIR (v2_prompt.gen and v2_assemble
+    # already do). A realistic rebuild keeps its rejected-look roughs in
+    # `assets/` as ROUGH-DRAFT refs and generates into `assets-realistic/`;
+    # hardcoding "assets" here made the API runner skip every beat whose old
+    # rough existed and could silently overwrite the rough refs on --redo.
+    assets = os.path.join(bdir, getattr(mod, "OUTPUT_ASSET_DIR", "assets"))
     os.makedirs(assets, exist_ok=True)
     todo = []
     for beat in mod.BEATS:
@@ -255,14 +273,21 @@ def run(todo, ceiling, dry_run):
                     cache[name] = blobs
             refs_cache_by_mod[id(mod)] = cache
         chars, labels = cast_refs_for(beat, refs_cache_by_mod[id(mod)])
+        rough_b64 = None
+        rough = beat.get("rough_ref")
+        if rough:
+            rpath = rough if os.path.isabs(rough) else os.path.join(mod.__bdir__, rough)
+            if os.path.isfile(rpath):
+                rough_b64 = b64_file(rpath)
         bname = os.path.basename(os.path.dirname(os.path.dirname(dest)))
         print(f"=== {bname} {beat['id']} -> {beat['out']} ==="
               + (f"  [face lock]" if beat.get("ref") else "")
-              + (f"  [+{len(labels)} char ref: {', '.join(labels)}]" if labels else ""),
+              + (f"  [+{len(labels)} char ref: {', '.join(labels)}]" if labels else "")
+              + ("  [rough draft]" if rough_b64 else ""),
               flush=True)
         try:
             img = generate(key, assemble(beat, mod.LOCKS),
-                           face_b64 if beat.get("ref") else None, chars)
+                           face_b64 if beat.get("ref") else None, chars, rough_b64)
         except SystemExit:
             raise
         except Exception as e:

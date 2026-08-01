@@ -462,6 +462,28 @@ session's earlier "no generation until re-piloted recipe" line. The standing law
   ceiling). Audio stays LOCKED to the V1 final; no re-voicing.
 - Session results are appended below when the row closes.
 
+### Row 2 close — realistic rebuild DONE, cut shipped (2026-08-01)
+
+| row | slug | start | end | beats | gens | accepted | rerolls | spend | status | notes |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2 | build-02-prodigal | 2026-08-01 ~02:35 | 2026-08-01 ~03:20 | 24 | 28 | 24 | 1× RING-ON-WRONG-HAND (b14) · 2× HEADCOUNT-EDGE-FIGURE (b20) · 1× CAST-DRIFT (b24) | $3.75 (meter $10.72) | **DONE — realistic cut shipped, awaiting Cameron** | 157.9 s · 20.6 MB · AUDIO LOCK PASS · verify-mp4 OK |
+
+- **Windows re-timed** from the fixed `extract_beats.py` (per-build formulas) and
+  cross-checked against the real V1 audio with silencedetect — segment
+  boundaries matched within 0.1 s, so row 2 never had storm-11's 8 s drift.
+- **Tooling:** `v2_gen_api.py` now honours a build's `OUTPUT_ASSET_DIR` (it
+  hardcoded `assets/`, which would have skipped every beat whose rejected-look
+  rough existed) and attaches a beat's `rough_ref` as a ROUGH COMPOSITION DRAFT
+  with its own preamble (faces always come from the face/character locks).
+- **Lesson worth carrying (b20):** a rough draft carries its DEFECTS as
+  faithfully as its virtues — the take-1/take-2 edge intruder was being copied
+  from the rough itself; the fix was removing that beat's rough (`_NO_ROUGH`),
+  not stronger prose. Check the rough for the defect before blaming the model.
+- QC record: `build-02-prodigal/QC.md`. Rejected takes in
+  `assets-realistic/_rejected/`. Ministry gate re-affirmed with a realistic
+  addendum. Board card v2 → new hash `6dc2f2f5…` (returns to Unwatched);
+  sync-reviews run; board redeployed to Firebase.
+
 ---
 
 ## 🛑 RESOLUTION AUDIT — 2026-07-30, Machine A (`Dev`): 159 of 424 pictures were 1K

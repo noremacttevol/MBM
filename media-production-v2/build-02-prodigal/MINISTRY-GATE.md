@@ -1,5 +1,13 @@
 # MINISTRY GATE — row 2, build-02-prodigal (Luke 15:11-32) · V2
 
+> **REALISTIC REBUILD ADDENDUM (2026-08-01, Machine A `Dev`):** every one of the
+> 24 pictures was regenerated to the realistic standard (gemini-3-pro-image,
+> native 2K, JESUS LOCK v5, image identity anchors, per-beat directional light
+> and candid mid-action staging). The narration, captions, timing, beats and the
+> closing question are unchanged, so the four answers below still describe this
+> cut truthfully. The s11 reviewer note now applies to the realistic take, which
+> preserves the same from-behind running composition.
+
 Answered per PRODUCTION-BIBLE §5, as the target viewer for rows 1–100: **a stranger
 with no faith background**, who did not go looking for this and is deciding in the
 first eight seconds whether to keep watching.
