@@ -13,15 +13,15 @@
     ]
   },
   "2": {
-    "open": false,
-    "latest": "Background sound problem",
-    "reportedAgainst": "1f784cb74043977886f4c74b9fbb8f79aa02b969",
-    "resolvedBy": "5f859fa27e6dd4168b0c20c2c123c6c5bf703842",
+    "open": true,
+    "latest": "All Faces changes too much",
+    "reportedAgainst": "6dc2f2f54166b06758c323ecff43426d26a2eeef",
+    "resolvedBy": null,
     "history": [
       {
-        "text": "Background sound problem",
-        "hash": "1f784cb74043977886f4c74b9fbb8f79aa02b969",
-        "createdAt": "2026-07-28T06:02:53.363Z"
+        "text": "All Faces changes too much",
+        "hash": "6dc2f2f54166b06758c323ecff43426d26a2eeef",
+        "createdAt": "2026-08-01T07:13:32.913Z"
       }
     ]
   },

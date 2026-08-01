@@ -44,7 +44,7 @@ survive: dark room, one shaft of hard daylight, dust and straw falling through i
 from pathlib import Path
 
 OUTPUT_ASSET_DIR = "assets-realistic"
-OUTPUT_VIDEO_NAME = "mark-2_man-through-the-roof-realistic-v2.mp4"
+OUTPUT_VIDEO_NAME = "mark-2_man-through-the-roof-realistic-v3.mp4"
 _BUILD = Path(__file__).resolve().parent
 
 # Stable, accepted identity anchors for this one-story cast. Each person has

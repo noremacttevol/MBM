@@ -166,7 +166,7 @@ Eve) · 179 (Stephen, the Father — also in Fix queue) · 180 (Jeremiah) · 184
 | 10 | The woman at the well | John 4 | ✅ | ✅ | ⬜ | ⬜ | APPROVED 2026-07-17 (Cameron) |
 | 11 | Calming the storm | Mark 4 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 12 | Blind Bartimaeus | Mark 10 | ✅ | ✅ | ⬜ | ⬜ | APPROVED 2026-07-17 (Cameron) |
-| 13 | Through the roof | Mark 2 | ✅ | ✅ | ⬜ | ⬜ | **V2 FACE-CONSISTENCY REWORK CLAIMED — Codex Dev — 2026-08-01.** Preserve the approved complete audio; realistic picture rebuild is blocked from reviewer publication until the recurring man, four friends, and Jesus pass identity-preserving edit + face-board QC. Prior approval note: APPROVED 2026-07-17 (Cameron). |
+| 13 | Through the roof | Mark 2 | ✅ | ✅ | ⬜ | ⬜ | **REALISTIC V3 SHIPPED TO REVIEWER — Codex Dev — 2026-08-01.** 45 final pictures pass full-frame QC; the paralysed man, four distinct friends, and Jesus pass hash-backed identity boards; exactly four carriers/four ropes and the complete mat/healing sequence are retained. Full 4:59 existing script/audio present; Jesus source clips proven byte-identical to the locked Alexander take. Replacement returns to Unwatched with the prior picture complaint retained. App feed unchanged. |
 | 14 | The ten lepers | Luke 17 | ✅ | ✅ | ⬜ | ⬜ | APPROVED 2026-07-17 (Cameron) — FIX-LATER: ~0:55 lepers look like giants vs Jesus/disciples, fix scale |
 | 15 | The centurion | Matt 8 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 16 | Mary and Martha | Luke 10 | ✅ | ✅ | ⬜ | ⬜ | APPROVED 2026-07-17 (Cameron) |

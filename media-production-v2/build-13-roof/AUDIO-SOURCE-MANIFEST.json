@@ -1,0 +1,191 @@
+{
+  "row": 13,
+  "timeline_duration": 298.817,
+  "source_segment_count": 23,
+  "voice_provenance": {
+    "jesus_voice": "Alexander",
+    "elevenlabs_voice_id": "UMnEnzK9QLLdRwnUyxMW",
+    "proven_commit": "e0542b1341c14609c3127f7ca76393bfba5b5135",
+    "proof": "At proven_commit the shared narration engine maps JESUS to Alexander and the three committed Jesus MP3s are byte-for-byte identical to the current tracked source clips.",
+    "jesus_source_sha256": {
+      "j1": "413a56322e4477514f84d003b7b516d5b2706415749655e382b10059ac921e5c",
+      "j2": "da8dee12dc933a87d4c7118510ae0c76dac4b8b4a206c11ee91c489a40787837",
+      "j3": "acefb585d596a7475eec861d46ea230eef0ac4ce43fa8b09cdb1338ad3f9ec75"
+    },
+    "measured_internal_pauses_seconds": {
+      "j2_after_sick_of_the_palsy": 0.567,
+      "j2_after_thy_sins_be_forgiven_thee": 0.878,
+      "j2_after_or_to_say": 0.416,
+      "j3_after_i_say_unto_thee_arise": 0.625
+    },
+    "branch_warning": "Commit 048e23003 contains a non-ancestral Chris regeneration and a stale build-local mbm_eleven.py. Those Chris MP3 blobs are not the current Story 13 source clips and are not used by this candidate."
+  },
+  "source_segments": [
+    {
+      "seg": "n0",
+      "timeline_start": 0.28,
+      "duration": 6.112653,
+      "sha256": "e4b980d52c167c6150d2e8021474752d2b53af2ddee7e28749518939b17e92a8",
+      "source": "media-production/build-13-roof/audio/n0.mp3"
+    },
+    {
+      "seg": "n0b",
+      "timeline_start": 7.078,
+      "duration": 16.979592,
+      "sha256": "431fb2cf8138d4bf2312da80ebaa3edb8b79979639561aec88e207fd1a7197b8",
+      "source": "media-production/build-13-roof/audio/n0b.mp3"
+    },
+    {
+      "seg": "n1",
+      "timeline_start": 24.544,
+      "duration": 22.752653,
+      "sha256": "30ccf038c78a83da90e9a6513e04c959e8b37044e5a67ee1e87e7f7d6bbd1163",
+      "source": "media-production/build-13-roof/audio/n1.mp3"
+    },
+    {
+      "seg": "n2",
+      "timeline_start": 47.561,
+      "duration": 9.038367,
+      "sha256": "0259a7eebcc743b14270e5377dda40533723943ebd6a113f2641941895cb211d",
+      "source": "media-production/build-13-roof/audio/n2.mp3"
+    },
+    {
+      "seg": "n2b",
+      "timeline_start": 57.304,
+      "duration": 18.337959,
+      "sha256": "027bf883a4a965a273f99c0bd758b5b61cf707c696efab3f847812e94d10ef4a",
+      "source": "media-production/build-13-roof/audio/n2b.mp3"
+    },
+    {
+      "seg": "n3",
+      "timeline_start": 76.491,
+      "duration": 19.069388,
+      "sha256": "13bbc110dd971a2079d97f2820a9789c1cb1b7aa1a5b668b7a54715d99c04fdc",
+      "source": "media-production/build-13-roof/audio/n3.mp3"
+    },
+    {
+      "seg": "n4",
+      "timeline_start": 96.109,
+      "duration": 21.577143,
+      "sha256": "5c281a464202b7986da12458259e751a6a89146647b67e268320ab0db461950f",
+      "source": "media-production/build-13-roof/audio/n4.mp3"
+    },
+    {
+      "seg": "n5",
+      "timeline_start": 118.232,
+      "duration": 9.639184,
+      "sha256": "a92dc32f06652823c7576aca78a416dbcbdf76b7c78192ab88566264c4f37052",
+      "source": "media-production/build-13-roof/audio/n5.mp3"
+    },
+    {
+      "seg": "j1",
+      "timeline_start": 128.406,
+      "duration": 2.220408,
+      "sha256": "413a56322e4477514f84d003b7b516d5b2706415749655e382b10059ac921e5c",
+      "source": "media-production/build-13-roof/audio/j1.mp3"
+    },
+    {
+      "seg": "n6",
+      "timeline_start": 132.066,
+      "duration": 8.594286,
+      "sha256": "5488426be72f9056ad266639118d697558d8cd0080b5940881ee9e9896015db5",
+      "source": "media-production/build-13-roof/audio/n6.mp3"
+    },
+    {
+      "seg": "n6b",
+      "timeline_start": 141.382,
+      "duration": 9.795918,
+      "sha256": "6c765c124844b246ea2706de224dd45f8b8d77a7691d6c7f59c314168a12b2c4",
+      "source": "media-production/build-13-roof/audio/n6b.mp3"
+    },
+    {
+      "seg": "n6c",
+      "timeline_start": 151.877,
+      "duration": 7.340408,
+      "sha256": "621680d6ba8a5f3ec31b84f4b443ae0290cdcd4838fad80423754a2c2954b05f",
+      "source": "media-production/build-13-roof/audio/n6c.mp3"
+    },
+    {
+      "seg": "n7",
+      "timeline_start": 159.67,
+      "duration": 17.580408,
+      "sha256": "582f886b664e6289b227e76d33bb6cbd4fddb2f7850973c029da9580c4bb7865",
+      "source": "media-production/build-13-roof/audio/n7.mp3"
+    },
+    {
+      "seg": "s7",
+      "timeline_start": 177.765,
+      "duration": 5.511837,
+      "sha256": "502f31f738976052c39fa0f65333788e8ebdef4428fea200d76b50ce1bae1445",
+      "source": "media-production/build-13-roof/audio/s7.mp3"
+    },
+    {
+      "seg": "n8",
+      "timeline_start": 184.743,
+      "duration": 10.161633,
+      "sha256": "e8eb7ce604027a40e47ec4c480325a5c1695ab8416b5bf81c1bc06a6c31a95ff",
+      "source": "media-production/build-13-roof/audio/n8.mp3"
+    },
+    {
+      "seg": "j2",
+      "timeline_start": 195.408,
+      "duration": 9.795918,
+      "sha256": "da8dee12dc933a87d4c7118510ae0c76dac4b8b4a206c11ee91c489a40787837",
+      "source": "media-production/build-13-roof/audio/j2.mp3"
+    },
+    {
+      "seg": "n9",
+      "timeline_start": 206.675,
+      "duration": 22.804898,
+      "sha256": "632a1648bc912ecfe857084cba26d2f6a7387e2fd9750d53c023f4f220fb630d",
+      "source": "media-production/build-13-roof/audio/n9.mp3"
+    },
+    {
+      "seg": "j3",
+      "timeline_start": 229.961,
+      "duration": 5.564082,
+      "sha256": "acefb585d596a7475eec861d46ea230eef0ac4ce43fa8b09cdb1338ad3f9ec75",
+      "source": "media-production/build-13-roof/audio/j3.mp3"
+    },
+    {
+      "seg": "n10",
+      "timeline_start": 237.196,
+      "duration": 9.508571,
+      "sha256": "109732fc3dd9181daeabb955c1d113e83d489e790ec77f8b12a2d81e412ce024",
+      "source": "media-production/build-13-roof/audio/n10.mp3"
+    },
+    {
+      "seg": "n10b",
+      "timeline_start": 247.153,
+      "duration": 7.105306,
+      "sha256": "39847dc9b6a383f86e49d7f558404eeb1a31490c8b6ed7a48e44cc6b8e3aa0aa",
+      "source": "media-production/build-13-roof/audio/n10b.mp3"
+    },
+    {
+      "seg": "n11",
+      "timeline_start": 254.764,
+      "duration": 20.845714,
+      "sha256": "37fe3c53109e95d5e2788070d2d5ab4b4e1ef746b1e2435721697631719cd700",
+      "source": "media-production/build-13-roof/audio/n11.mp3"
+    },
+    {
+      "seg": "s12",
+      "timeline_start": 276.116,
+      "duration": 2.089796,
+      "sha256": "5909e3a795e3f3d6bbe6df595ab6e4465ad8b746b25e06e85471a79b7f3fbe12",
+      "source": "media-production/build-13-roof/audio/s12.mp3"
+    },
+    {
+      "seg": "n12",
+      "timeline_start": 279.684,
+      "duration": 17.632653,
+      "sha256": "3c3d07b73eeef148cf20626128ad0562077a44b2ceda456569c63bb3ae107e6c",
+      "source": "media-production/build-13-roof/audio/n12.mp3"
+    }
+  ],
+  "measured_lufs": -23.8,
+  "applied_gain_db": 8.8,
+  "locked_audio": "media-production-v2/build-13-roof/segs/source-audio-complete-locked.m4a",
+  "locked_audio_duration": 298.817007,
+  "locked_audio_packet_sha256": "1f7b80dfc50649b95e935efe939161f3b3f4b56965e6c219da84b8a4fb8b46a8"
+}
