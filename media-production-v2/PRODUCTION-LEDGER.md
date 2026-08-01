@@ -448,6 +448,22 @@ session's earlier "no generation until re-piloted recipe" line. The standing law
 
 ---
 
+## Session 7 — 2026-08-01 — CLAIM: story 02 (prodigal) realistic rebuild (Machine A / `Dev`)
+
+- **Model:** Fable 5 (Claude Code) · **Machine:** Machine A — hostname `Dev`
+- **CLAIM (2026-08-01): story 02 build-02-prodigal for the REALISTIC rebuild** —
+  the lowest-numbered story with no realistic-standard cut on the reviewer
+  (01 is APPROVED by Cameron 2026-07-28 and is not redone; 07 and 11 are shipped
+  realistic cuts awaiting Cameron; 12 and 13 are claimed by Codex). Row 2's 24
+  existing V2 stills fall under the Session 6 blanket rejection of the old look;
+  they are kept in `assets/` untouched as rough-draft composition refs
+  (ROUGH-DRAFT CONTINUITY LAW) and the realistic set generates to
+  `assets-realistic/` via `v2_gen_api.py` (gemini-3-pro-image, native 2K, hard
+  ceiling). Audio stays LOCKED to the V1 final; no re-voicing.
+- Session results are appended below when the row closes.
+
+---
+
 ## 🛑 RESOLUTION AUDIT — 2026-07-30, Machine A (`Dev`): 159 of 424 pictures were 1K
 
 Cameron asked what had actually been made this session. Counting it turned up a defect
