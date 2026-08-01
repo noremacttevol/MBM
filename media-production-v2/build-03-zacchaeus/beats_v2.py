@@ -52,6 +52,9 @@ where the lens is and which way the figure faces. Without it the model composes
 hero-shots facing the camera and the geography inverts.
 """
 
+OUTPUT_ASSET_DIR = "assets-realistic-v3"
+OUTPUT_VIDEO_NAME = "luke-19_zacchaeus-realistic-v3.mp4"
+
 LOCKS = {
     # Zacchaeus's clothing does NOT change until the table, and even there it only
     # gets disarrayed, so his lock CAN carry his garment — unlike the prodigal.

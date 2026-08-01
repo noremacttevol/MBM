@@ -1,0 +1,417 @@
+{
+  "asset_dir": "assets-realistic-v3",
+  "board_dir": "identity-boards-v3",
+  "notes": [
+    "Only clear, auditable faces are included; backs of heads and figures too distant for a normal viewer to identify are excluded.",
+    "A pass remains valid only while both the source-frame and canonical-anchor SHA-256 hashes remain unchanged.",
+    "The global approved V2 Jesus portrait is the Jesus anchor. The neutral Zacchaeus portrait created from the realistic source face is the Zacchaeus anchor."
+  ],
+  "identities": {
+    "jesus": {
+      "anchor": "character-refs-v3/jesus-face.jpeg",
+      "anchor_crop": [
+        0.16,
+        0.04,
+        0.91,
+        0.67
+      ],
+      "appearances": [
+        {
+          "file": "s06-the-city-pressed-in.jpeg",
+          "crop": [
+            0.39,
+            0.34,
+            0.67,
+            0.57
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "03842fd9d6a97905f8b90bdf13f0c91dc335fb52ac5a101bc3ab5dae4765c6b5",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s12-jesus-stopped.jpeg",
+          "crop": [
+            0.38,
+            0.5,
+            0.67,
+            0.72
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "78a7d206af4b6ec7d1732f71add513620d179af06a742b29b2c3d3f24249828e",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s13-looked-up.jpeg",
+          "crop": [
+            0.08,
+            0.41,
+            0.49,
+            0.73
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "9b93e534863bd4c806ee098852a117f57fc8afca5287147ba454b0e0d38aa411",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s14-make-haste-come-down.jpeg",
+          "crop": [
+            0.18,
+            0.31,
+            0.63,
+            0.65
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "bc07dc9847dbfe288463d4cd764e0fbf028eee032dede146ef4f4ec62963e073",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s16-what-a-meal-meant.jpeg",
+          "crop": [
+            0.44,
+            0.39,
+            0.69,
+            0.6
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "c425946de401209ca67bce96da4002821e786f627aa94ad356e91317778ccace",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s17-jesus-moves-first.jpeg",
+          "crop": [
+            0.35,
+            0.48,
+            0.62,
+            0.7
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "c5493a97cf591c9679039748d2d9ff0bc22841ee79fff51748cc641efd25622f",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s18-received-him-joyfully.jpeg",
+          "crop": [
+            0.54,
+            0.24,
+            0.8,
+            0.48
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "306431e4a4e4abae86a1caa4fa8a96de2b4a18c95d3277d9c2de0155fef13e6a",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s20-to-the-worst-mans-house.jpeg",
+          "crop": [
+            0.33,
+            0.3,
+            0.52,
+            0.46
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "361dcfbaf4cab4f3094adecd0b0d9a8485975ac0d8d108c2e960d4e904379b3e",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s21-zacchaeus-stood.jpeg",
+          "crop": [
+            0.67,
+            0.49,
+            0.9,
+            0.72
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "a89079a801dd2f8ef0db6476090ebd30310c8b840e7953f871684a28ce8f05a1",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s24-salvation-this-house.jpeg",
+          "crop": [
+            0.17,
+            0.25,
+            0.45,
+            0.49
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "9630ea219071fb75810da34c5bca76bd2b8491809af752ca6be7fa1822351c2f",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s25-seek-and-to-save.jpeg",
+          "crop": [
+            0.16,
+            0.21,
+            0.45,
+            0.47
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "b38fedfb3de9e527f3fa4be0c59718b43f2256537feab357ebdd08e309739805",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s26-he-was-seeking.jpeg",
+          "crop": [
+            0.25,
+            0.18,
+            0.64,
+            0.48
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "041256a67e41131cb03b30f2648a99c15d29142353086c2e36cce28c89c7d91d",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        }
+      ]
+    },
+    "zacchaeus": {
+      "anchor": "character-refs-v3/zacchaeus-face.png",
+      "anchor_crop": [
+        0.03,
+        0.02,
+        0.97,
+        0.92
+      ],
+      "appearances": [
+        {
+          "file": "s01-the-tax-office.jpeg",
+          "crop": [
+            0.1,
+            0.28,
+            0.35,
+            0.49
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "35cc7c6a10476f1ea15078b561d01bba4f8c561c25b5640ffafa087450c16263",
+          "approved_anchor_sha256": "4db1ae5b2da6be96894ffda90a744f2e64f5d11296e8824659bb59bb9ee150c8"
+        },
+        {
+          "file": "s02-chief-and-rich.jpeg",
+          "crop": [
+            0.34,
+            0.25,
+            0.63,
+            0.46
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "965c6dcd071f3d297d8ae9a9ceb2339047b8bbe4ad9ca23d111b4386ec07dfd2",
+          "approved_anchor_sha256": "4db1ae5b2da6be96894ffda90a744f2e64f5d11296e8824659bb59bb9ee150c8"
+        },
+        {
+          "file": "s03-working-for-rome.jpeg",
+          "crop": [
+            0.48,
+            0.27,
+            0.76,
+            0.5
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "b117647589b1bb747843551c5a272b05bd8ad8f1fafc90c696dbaec6653bdb78",
+          "approved_anchor_sha256": "4db1ae5b2da6be96894ffda90a744f2e64f5d11296e8824659bb59bb9ee150c8"
+        },
+        {
+          "file": "s04-no-one-greeted-him.jpeg",
+          "crop": [
+            0.4,
+            0.43,
+            0.6,
+            0.57
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "0d5be744646dc674686bd57216b566a02f4cd430e9ba9997e2ccfddb19d60116",
+          "approved_anchor_sha256": "4db1ae5b2da6be96894ffda90a744f2e64f5d11296e8824659bb59bb9ee150c8"
+        },
+        {
+          "file": "s05-no-table.jpeg",
+          "crop": [
+            0.55,
+            0.24,
+            0.86,
+            0.47
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "abfa8e274b7a14b2fc133d8561190b5494b11f83732cd350ab735fc33f904b9f",
+          "approved_anchor_sha256": "4db1ae5b2da6be96894ffda90a744f2e64f5d11296e8824659bb59bb9ee150c8"
+        },
+        {
+          "file": "s08-not-one-made-room.jpeg",
+          "crop": [
+            0.15,
+            0.46,
+            0.38,
+            0.64
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "4c2491cd17c677ac5ae1dc7a2ac929c0e66bc1a4ce526b3b4bb0cbca848b24b6",
+          "approved_anchor_sha256": "4db1ae5b2da6be96894ffda90a744f2e64f5d11296e8824659bb59bb9ee150c8"
+        },
+        {
+          "file": "s09-he-ran.jpeg",
+          "crop": [
+            0.28,
+            0.29,
+            0.55,
+            0.49
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "7e07e995fd8a5d314c6e4d69e436f37e6a3c224f913553e6ab310dd3517086dd",
+          "approved_anchor_sha256": "4db1ae5b2da6be96894ffda90a744f2e64f5d11296e8824659bb59bb9ee150c8"
+        },
+        {
+          "file": "s10-climbs-the-tree.jpeg",
+          "crop": [
+            0.4,
+            0.12,
+            0.68,
+            0.34
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "e0976de5ea489892337519471811430d3fd0d6a2551c5fa110d0a7bcd3aac9cf",
+          "approved_anchor_sha256": "4db1ae5b2da6be96894ffda90a744f2e64f5d11296e8824659bb59bb9ee150c8"
+        },
+        {
+          "file": "s11-traded-his-dignity.jpeg",
+          "crop": [
+            0.5,
+            0.23,
+            0.78,
+            0.45
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "128f6b4811ebeb8e4d80416323a5511cd8a86c8a3bfe193095afb262f8d2fd90",
+          "approved_anchor_sha256": "4db1ae5b2da6be96894ffda90a744f2e64f5d11296e8824659bb59bb9ee150c8"
+        },
+        {
+          "file": "s12-jesus-stopped.jpeg",
+          "crop": [
+            0.65,
+            0.07,
+            0.87,
+            0.22
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "78a7d206af4b6ec7d1732f71add513620d179af06a742b29b2c3d3f24249828e",
+          "approved_anchor_sha256": "4db1ae5b2da6be96894ffda90a744f2e64f5d11296e8824659bb59bb9ee150c8"
+        },
+        {
+          "file": "s13-looked-up.jpeg",
+          "crop": [
+            0.3,
+            0.03,
+            0.56,
+            0.22
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "9b93e534863bd4c806ee098852a117f57fc8afca5287147ba454b0e0d38aa411",
+          "approved_anchor_sha256": "4db1ae5b2da6be96894ffda90a744f2e64f5d11296e8824659bb59bb9ee150c8"
+        },
+        {
+          "file": "s15-abide-at-thy-house.jpeg",
+          "crop": [
+            0.31,
+            0.14,
+            0.67,
+            0.42
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "e05b02ec48b654960d2c7b599031e2effa9fe8f1f95526cc8fa8fe2cb49ed4d4",
+          "approved_anchor_sha256": "4db1ae5b2da6be96894ffda90a744f2e64f5d11296e8824659bb59bb9ee150c8"
+        },
+        {
+          "file": "s17-jesus-moves-first.jpeg",
+          "crop": [
+            0.51,
+            0.19,
+            0.8,
+            0.45
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "c5493a97cf591c9679039748d2d9ff0bc22841ee79fff51748cc641efd25622f",
+          "approved_anchor_sha256": "4db1ae5b2da6be96894ffda90a744f2e64f5d11296e8824659bb59bb9ee150c8"
+        },
+        {
+          "file": "s18-received-him-joyfully.jpeg",
+          "crop": [
+            0.2,
+            0.3,
+            0.49,
+            0.55
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "306431e4a4e4abae86a1caa4fa8a96de2b4a18c95d3277d9c2de0155fef13e6a",
+          "approved_anchor_sha256": "4db1ae5b2da6be96894ffda90a744f2e64f5d11296e8824659bb59bb9ee150c8"
+        },
+        {
+          "file": "s20-to-the-worst-mans-house.jpeg",
+          "crop": [
+            0.49,
+            0.32,
+            0.68,
+            0.48
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "361dcfbaf4cab4f3094adecd0b0d9a8485975ac0d8d108c2e960d4e904379b3e",
+          "approved_anchor_sha256": "4db1ae5b2da6be96894ffda90a744f2e64f5d11296e8824659bb59bb9ee150c8"
+        },
+        {
+          "file": "s21-zacchaeus-stood.jpeg",
+          "crop": [
+            0.24,
+            0.31,
+            0.5,
+            0.51
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "a89079a801dd2f8ef0db6476090ebd30310c8b840e7953f871684a28ce8f05a1",
+          "approved_anchor_sha256": "4db1ae5b2da6be96894ffda90a744f2e64f5d11296e8824659bb59bb9ee150c8"
+        },
+        {
+          "file": "s22-the-half-of-my-goods.jpeg",
+          "crop": [
+            0.33,
+            0.29,
+            0.64,
+            0.52
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "18dfd893036dc496cc1ab400a3e70fff64f16c2db89f0879baafe1fe17b8db00",
+          "approved_anchor_sha256": "4db1ae5b2da6be96894ffda90a744f2e64f5d11296e8824659bb59bb9ee150c8"
+        },
+        {
+          "file": "s23-restores-fourfold.jpeg",
+          "crop": [
+            0.2,
+            0.27,
+            0.5,
+            0.5
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "818023aaa940ace7380c4251a3e4fc0823e788c01b85f13bb6ae8f8c53037cfa",
+          "approved_anchor_sha256": "4db1ae5b2da6be96894ffda90a744f2e64f5d11296e8824659bb59bb9ee150c8"
+        },
+        {
+          "file": "s24-salvation-this-house.jpeg",
+          "crop": [
+            0.58,
+            0.28,
+            0.82,
+            0.5
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "9630ea219071fb75810da34c5bca76bd2b8491809af752ca6be7fa1822351c2f",
+          "approved_anchor_sha256": "4db1ae5b2da6be96894ffda90a744f2e64f5d11296e8824659bb59bb9ee150c8"
+        },
+        {
+          "file": "s25-seek-and-to-save.jpeg",
+          "crop": [
+            0.62,
+            0.38,
+            0.9,
+            0.59
+          ],
+          "result": "pass",
+          "approved_frame_sha256": "b38fedfb3de9e527f3fa4be0c59718b43f2256537feab357ebdd08e309739805",
+          "approved_anchor_sha256": "4db1ae5b2da6be96894ffda90a744f2e64f5d11296e8824659bb59bb9ee150c8"
+        }
+      ]
+    }
+  }
+}
