@@ -59,7 +59,13 @@ SEGMENTS = [
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
-SPOKEN = {}
+# "Immediately" (Cameron denial 2026-08-01, COMPLAINTS row 7: "Immediatly is
+# pronounced wrong"): the shipped ElevenLabs Brian take slurred the word into
+# 0.54s. In-context A/B (2026-08-01, round2_fixes.py pattern, faster-whisper
+# round-trip on the exact n6 line): plain retakes stayed clipped (0.50-0.58s,
+# p .86-.94); "imediately" rendered the full word 3/3 takes (0.64-0.92s,
+# p .92-.95) and transcribed back as exactly "immediately" every time.
+SPOKEN = {"Immediately": "imediately"}
 
 
 async def main():

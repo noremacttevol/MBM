@@ -1,3 +1,24 @@
+## 2026-08-01 — Video 7 (Peter Walks on Water): "immediately" re-voiced, V7 shipped to the board (Machine A / `Dev`)
+
+Commit: (this commit). Cameron's COMPLAINTS row 7 fix: the n6 line "And Jesus
+caught him. Immediately." slurred the word into 0.54s in the shipped ElevenLabs
+Brian take. Ran the PRONUNCIATION-LAW in-context A/B (round2_fixes.py pattern,
+faster-whisper round-trip on the real line): plain retakes stayed clipped
+(0.50-0.58s); SPOKEN respelling "imediately" rendered the full word 3/3 takes
+(0.64-0.92s) and transcribed back as exactly "immediately" every time — adopted
+into build-07's SPOKEN dict (V1 + V2 copies, caption spelling unchanged).
+Re-rendered ONLY n6, rebuilt the authoritative V1 final (audio mix), then the V7
+reviewer cut via the existing v2 assembler (MBM_CUT=v7, assets-v6 — the lamp-free
+pictures, untouched). QC: verify-mp4 OK (225.6s, audio to 225.5s), single
+narration-only AAC stream (no music bed), caption in bottom band with true
+spelling, whisper hears "immediately" in full (0.78s) in the cut, 1.7s tail.
+Board: card v7 now points at the V7 mp4 with its new blob hash + ?v= cache-buster,
+so it returns to Unwatched as a Replacement cut with the prior complaint retained
+for re-check (the designed flow for "old complaints in the box"); sync-reviews run
+(row 7 -> "newer cut shipped — VERIFY fixed" — verified fixed here), board
+redeployed to Firebase. STATUS.md row 07 updated; FIXNOTE.txt dropped in the
+codex-test-07 folder. No pictures generated, no image credits spent.
+
 ## 2026-07-30 — SALVAGE: Cameron stopped the failed session; everything valuable committed (Machine A / `Dev`)
 
 Commit: afa08f02a (salvage) + da5ee1dc9 (merge of Machine C's 9) — the new chain
