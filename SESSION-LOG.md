@@ -1,3 +1,32 @@
+## 2026-08-01 — Video 2 (Prodigal Son): full realistic rebuild shipped to the board (Machine A / `Dev`)
+
+Commit: d22eac3cc. "Continue on to the next" → picked story 02 as the lowest
+row with no realistic-standard cut (01 APPROVED 2026-07-28 and not redone; 07/11
+already shipped realistic cuts; 12/13 are Codex's), claimed by push
+(b5d57191d) BEFORE any spend. All 24 pictures regenerated on gemini-3-pro-image
+at native 2K under a hard ceiling — $3.75 for 28 gens (meter $10.72). The
+row-2 reroll-war compositions were preserved by attaching the rejected-look
+stills as ROUGH COMPOSITION DRAFTS (new v2_gen_api support; faces always from
+the face/character locks), with the realistic recipe layered per beat:
+directional light matching the time-of-day arc, real-lens DOF, candid
+mid-action, nobody looking at the camera, one stated emotion per frame.
+Windows re-timed from the FIXED extract_beats (per-build formulas) and
+verified against the real V1 audio — no storm-style drift existed in row 2.
+QC (every frame Read at 2K, QC.md): 4 rerolls — b14 signet ring was seated on
+the FATHER's finger (now sliding onto the SON's), b20 came back twice with a
+partial torch-bearer at the frame edge until the ROUGH itself was found to
+contain him (b20 now carries no rough — lesson: a rough transmits its defects
+as faithfully as its virtues), b24 replaced the father with a dark-haired
+stranger (CAST-DRIFT, fixed by restating the anchor identity). Assembly:
+v2_assemble.py 2 → luke-15_prodigal-son-realistic-v2.mp4, AUDIO LOCK PASS
+(byte-identical V1 audio, silence-scanned: no music bed, no dead air),
+verify-mp4 OK 157.9s/20.6MB, captions verified on 9 extracted frames (white
+narrator, red KJV in Jesus's voice, cream question card, bottom band only).
+Board card v2 → new hash 6dc2f2f5 (returns to Unwatched), sync-reviews run
+(12 approved / 68 active complaints), Firebase hosting redeployed —
+milk-b4-meat.web.app shows the realistic Prodigal card. STATUS row 02 +
+workers table, ledger Session 7 closed. Cameron only needs to watch it once.
+
 ## 2026-08-01 — Video 11 (Calming the Storm): all 4 denied-cut complaints fixed, realistic V4 shipped (Machine A / `Dev`)
 
 Commit: f8acb3acc. Cameron DENIED the storm cut (board sync 2026-08-01, COMPLAINTS
