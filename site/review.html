@@ -90,11 +90,11 @@
 <div class="actions"><button class="approve" id="appbtn2" onclick="toggleApprove(2)">Approve</button><button class="cbtn" onclick="toggleBox(2)">🚩 Report a problem</button></div>
 <div class="cbox" id="cbox2" hidden><textarea id="ctext2" rows="2" placeholder="What is wrong with this video?"></textarea><br><button class="csave" onclick="saveComplaint(2)">Save complaint</button></div>
 <div class="cshow" id="cshow2"></div></div>
-<div class="card" id="v3" data-num="3" data-hash="048141dadd1b8cc64c3d45fa2ab41ccc95fc86dc" data-newvoice="1"><p class="title">03 — Zacchaeus<span class="meta"> · Luke 19 · 3:42</span></p>
-<div class="flag voice">✅ QC-VERIFIED — real new voice, no scripture echo, plays start to finish</div>
-<div class="flag fixed">🛠 What this cut changed (2026-07-21): Fixed Jesus&#x27;s line &quot;for to day I must abide at thy house&quot; (Luke 19:5) — the old audio said &quot;I must ABBEY at thy house&quot;. Now reads &quot;abide&quot; correctly. Captions unchanged.</div>
+<div class="card" id="v3" data-num="3" data-hash="39c19f7e284afab4d757a304167e676799a99e0b" data-review-wave="realistic-v2"><p class="title">03 — Zacchaeus<span class="meta"> · Luke 19 · 3:42</span></p>
+<div class="flag voice">✅ AUDIO-LOCKED + ALEXANDER-CONFIRMED — the complete 3:42 encoded audio is packet-for-packet identical to the approved original; all four Jesus lines are the proven Alexander takes. No TTS, rewriting, shortening or retiming.</div>
+<div class="flag fixed">🛠 Realistic V3, 2026-08-01 — all 26 high-resolution pictures follow the complete script in order: 24 identity/action repairs and 2 correct frames retained byte-identical. Jesus and Zacchaeus pass hash-backed face boards; the run, usable tree climb, invitation-before-vow order, money-free vow, later three-person restitution, captions and closing card were rechecked after encoding.</div>
 <div class="flags" id="flags3"></div>
-<video controls preload="none" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production/build-03-zacchaeus/luke-19_zacchaeus.mp4?v=048141dadd1b"></video>
+<video controls preload="metadata" playsinline src="https://github.com/noremacttevol/MBM/raw/main/media-production-v2/build-03-zacchaeus/luke-19_zacchaeus-realistic-v3.mp4?v=39c19f7e284a"></video>
 <div class="actions"><button class="approve" id="appbtn3" onclick="toggleApprove(3)">Approve</button><button class="cbtn" onclick="toggleBox(3)">🚩 Report a problem</button></div>
 <div class="cbox" id="cbox3" hidden><textarea id="ctext3" rows="2" placeholder="What is wrong with this video?"></textarea><br><button class="csave" onclick="saveComplaint(3)">Save complaint</button></div>
 <div class="cshow" id="cshow3"></div></div>
@@ -1714,6 +1714,9 @@ function place(){
     else if(replacementForComplaint)
       cshow.innerHTML += '<div class="cmsg">\ud83d\udccb Previous complaint to check in this replacement: '
         +esc(d.complaint)+'</div>';
+    else if(!approvedNow && d.complaint && !complaintOpen)
+      cshow.innerHTML += '<div class="cmsg resolved">\ud83d\udccb Retained complaint history: '
+        +esc(d.complaint)+'<br>Previously resolved in an earlier cut; kept here for tracking.</div>';
     else if(approvedNow && d.complaint)
       cshow.innerHTML += '<div class="cmsg resolved">\u2705 Previously reported and now approved: '
         +esc(d.complaint)+'</div>';
