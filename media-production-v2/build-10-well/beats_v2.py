@@ -544,12 +544,19 @@ BEATS = [
         "must_show": "close on Jesus saying it — quiet, certain, entirely serious, looking straight at her.",
         "must_not_show": "no halo, glare or rim-light; no grand oratory — this is said quietly to one person. Jesus is the ONLY person visible in the frame — the woman he addresses stands out of frame; no second figure, no shoulder, no head, and no other cream or white cloth anywhere at the frame edge.",
         "scene": (
-            "Close on Jesus's face and shoulders in the hard noon light, speaking "
-            "quietly and directly to the person standing over him. His dusty face is "
+            "A tight SIDE three-quarter view of Jesus's face and shoulders in the hard "
+            "noon light, the camera set well off to his left so his head is turned "
+            "clearly across the frame and his eyes travel off the right-hand edge of "
+            "the picture at someone standing out of shot — his pupils are never "
+            "centred on the lens and this must not read as a portrait facing the "
+            "viewer. He is speaking quietly. His dusty face is "
             "completely serious, his eyes steady and certain, his voice plainly low — "
             "a man telling one person something enormous without raising his voice at "
             "all. His hand has come up open between them. The bleached stone of the "
-            "well is soft behind him."
+            "well is soft behind him. NOTHING AND NOBODY ELSE IS IN THE FRAME: no "
+            "second person anywhere in the picture, no shoulder, arm, head, hair or "
+            "back at any edge, foreground or background, in focus or out of focus, "
+            "and no cream, white or pale cloth of any kind other than his own robe."
         ),
     },
     {
@@ -704,7 +711,14 @@ BEATS = [
             "turned a degree away — his head is still inclined toward her, his hands "
             "still open, his expression unchanged by anything he just said. There is "
             "no recoil in it and no pity either. He is simply still there, still "
-            "listening, waiting for her to speak next. Hard noon light on his face."
+            "listening, waiting for her to speak next. His head is turned roughly "
+            "twenty degrees off the camera axis and his eyes are clearly directed "
+            "off-frame to the right at her face — his pupils are never centred on "
+            "the lens and this must NOT read as a portrait of a man looking at the "
+            "viewer. NOBODY ELSE IS IN THE FRAME: no second person anywhere in the "
+            "picture, no shoulder, head, hair, headscarf or back at any edge, in focus "
+            "or out of focus, and no white or cream cloth other than his own robe. "
+            "Hard noon light on his face."
         ),
     },
     {
@@ -828,7 +842,12 @@ BEATS = [
             "certain — level eyes, an ordinary mouth, no lift of the chin and no "
             "performance of any kind. Sweat and road dust are still on his skin and "
             "his hair is damp at the temples. A dusty tired man on a stone well saying "
-            "the largest sentence in the world in the plainest possible way. Hard noon "
+            "the largest sentence in the world in the plainest possible way. The camera "
+            "sits BELOW his eyeline looking up at him while he looks up and past it: "
+            "his eyes are aimed clearly ABOVE and to the left of the lens at the woman "
+            "standing over him, white visible under the irises — his pupils are never "
+            "centred on the lens and this must NOT read as a portrait staring at the "
+            "viewer. Hard noon "
             "light. Nothing else in the frame."
         ),
     },
