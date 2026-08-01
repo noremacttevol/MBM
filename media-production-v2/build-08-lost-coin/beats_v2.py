@@ -2,8 +2,15 @@
 """V2 beat map — row 8, build-08-lost-coin (Luke 15:8-10).
 
 Consumed by media-production-v2/v2_prompt.py. STYLE-V2, the forced-wide defense
-line, the anti-panel clause and JESUS LOCK v4 are prepended by the assembler so
-they stay byte-identical across every prompt.
+line, the anti-panel clause and JESUS LOCK v5 (the live lock) are prepended by
+the assembler so they stay byte-identical across every prompt.
+
+WINDOWS RE-TIMED 2026-08-01 from the FIXED extract_beats.py (the old windows
+carried the raw-vs-trimmed drift — up to 4.2 s late by n5). All starts are
+absolute phrase times verified against the real V1 audio with silencedetect
+(every boundary within 0.1 s). The b02/b03 split inside jv8 (10.60) sits in the
+measured mid-sentence pause after "silver," (raw jv8.mp3 silence 2.80-3.50 →
+absolute 10.25-10.95).
 
 COVERAGE (STORY-COVERAGE-LAW): 12 pictures against V1's 6 unique stills, over
 58.2 s — the shortest row in the queue, and the only one where the scaled target
@@ -55,7 +62,32 @@ noon to look for a coin. The celebration at the end is in that same daylight
 outside her door.
 """
 
+from pathlib import Path
+
+OUTPUT_ASSET_DIR = "assets-realistic"
+OUTPUT_VIDEO_NAME = "luke-15_lost-coin-realistic-v2.mp4"
+
+# Identity anchor by IMAGE (CAST-BIBLE principle; row-2 CAST-DRIFT lesson —
+# text locks alone do not hold a recurring face across 10 shots). The woman is
+# the only story-local recurring character; her ONE canonical anchor is a
+# neutral bust portrait generated this session, and every beat naming the
+# WOMAN lock attaches it automatically.
+REFS = {
+    "WOMAN": "CAST-REF-V2/woman-ref.jpeg",
+}
+
 LOCKS = {
+    # Realistic-cinematography lock, byte-identical wherever named (build-02
+    # pattern): the Session 6 rejection was flat noon light, posed extras and
+    # camera-gaze on every frame.
+    "CAMERA": (
+        "CAMERA LOCK: photographed like a real film still on location with a real "
+        "cinema lens — light arrives from ONE believable direction and models "
+        "faces with true shadow, shallow depth of field holds the subject sharp "
+        "while the background falls gently away, and every person is caught "
+        "mid-action in a truthful candid instant, never posed, never lined up, "
+        "and NEVER looking at the camera."
+    ),
     "WOMAN": (
         "WOMAN LOCK: the woman is the same person in every shot — a poor Galilean "
         "village woman of about forty, small and thin and strong, a sun-weathered "
@@ -102,12 +134,12 @@ BEATS = [
     # -------------------------------------------------- n0 — the frame story ----
     {
         "id": "v2-r008-b01", "out": "s01-he-told-this-story.jpeg", "seg": "n0",
-        "window": "0.28-6.92", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["LISTENERS", "LANE"],
+        "window": "0.28-7.45", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "LISTENERS", "LANE"],
         "narration": ("When Jesus wanted to show how God feels about one lost soul, "
                       "he didn't talk about crowds. He told this story."),
         "must_show": "Jesus sitting low among ordinary people in a village courtyard, beginning a story with an open hand — everyone close in and listening.",
-        "must_not_show": "no halo, glare or rim-light; he is not raised above them or set apart at the frame edge — he is down at their level and every gaze converges on him.",
+        "must_not_show": "no halo, glare or rim-light; he is not raised above them or set apart at the frame edge — he is down at their level and every gaze converges on him. NOBODY — Jesus included — looks toward the camera; he looks at the people he is talking to.",
         "scene": (
             "In a small village courtyard under a fig tree in bright daylight, Jesus "
             "sits on a low stone wall with ordinary working people gathered close "
@@ -122,34 +154,37 @@ BEATS = [
     # ------------------------------------------------ jv8 — the ten and the gap ----
     {
         "id": "v2-r008-b02", "out": "s02-ten-pieces-of-silver.jpeg", "seg": "jv8 p1a",
-        "window": "6.93-12.0", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "HOUSE"],
+        "window": "7.45-10.60", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "WOMAN", "HOUSE"],
         "narration": ("Either what woman having ten pieces of silver, (Luke 15:8)"),
         "must_show": "TEN countable silver coins — laid out in a row on a worn cloth across her knees, her hands touching them, everything she has.",
         "must_not_show": "not a vague handful and not a purse of money — the viewer must be able to count them; nothing rich or ornamental anywhere in the frame.",
         "scene": (
             "Close on the woman sitting on the floor of her house in the single hard "
             "shaft of daylight from the high window, a worn dark cloth spread across "
-            "her knees. Laid out on it in a neat row are TEN small dull silver coins, "
-            "clearly countable, worn smooth with handling. One of her thin hands rests "
-            "over them and the other is turning a single coin between finger and "
-            "thumb. Her weathered face is quiet and careful — this is everything she "
+            "her knees. Laid out on it in ONE single straight row are EXACTLY NINE small dull "
+            "silver coins — count them, nine in a line, evenly spaced, every coin "
+            "flat and fully visible, none overlapping, none on its edge — and she "
+            "holds the TENTH coin up between finger and thumb above the end of the "
+            "row: nine and one, ten pieces of silver and not one more. Neither of "
+            "her hands covers any coin in the row. Her weathered face is quiet and careful — this is everything she "
             "has. The dark room falls away around the shaft of light. Each hand has "
             "five fingers."
         ),
     },
     {
         "id": "v2-r008-b03", "out": "s03-one-is-missing.jpeg", "seg": "jv8 p1b",
-        "window": "12.0-17.29", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "HOUSE"],
+        "window": "10.60-19.26", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "WOMAN", "HOUSE"],
         "narration": ("if she lose one piece, doth not light a candle, and sweep the "
                       "house, and seek diligently till she find it? (Luke 15:8)"),
         "must_show": "NINE coins and an obvious empty gap in the row where the tenth should be — her hand stopped over it, her face gone still.",
         "must_not_show": "no panic yet and no tears — this is the quiet second before, and the gap in the row has to be unmistakable.",
         "scene": (
-            "The same cloth, closer. There are now NINE silver coins in the row and a "
-            "bare empty space in the middle of them where the tenth should be, the "
-            "worn weave of the cloth showing through the gap. The woman's hand has "
+            "The same cloth, closer. There are now EXACTLY NINE silver coins in the row — FIVE to the left "
+            "of a bare empty space and FOUR to the right of it, none overlapping — "
+            "where the tenth coin should be, the worn weave of the cloth showing "
+            "through the gap. The woman's hand has "
             "stopped dead just above that space, fingers slightly spread. Above the "
             "cloth her weathered face has gone completely still, her eyes fixed down "
             "on the gap, all the colour of the moment draining out of her. The shaft "
@@ -159,8 +194,8 @@ BEATS = [
     # ------------------------------------------- n1 / n2a / n2b — the search ----
     {
         "id": "v2-r008-b04", "out": "s04-she-loses-one.jpeg", "seg": "n1",
-        "window": "18.76-20.11", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "HOUSE"],
+        "window": "19.26-21.18", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "WOMAN", "HOUSE"],
         "narration": "She loses one.",
         "must_show": "her hands scrabbling through the folds of the cloth and shaking it out, checking the floor at her feet — the first frantic seconds.",
         "must_not_show": "she has not begun the real search yet; no lamp lit in this frame.",
@@ -178,8 +213,8 @@ BEATS = [
     },
     {
         "id": "v2-r008-b05", "out": "s05-she-lights-a-lamp.jpeg", "seg": "n2a p1",
-        "window": "20.52-21.51", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "HOUSE"],
+        "window": "21.18-22.17", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "WOMAN", "HOUSE"],
         "narration": "She lights a lamp.",
         "must_show": "a small CLAY OIL LAMP with its wick just catching in her cupped hands, the tiny flame the brightest thing in a dark room.",
         "must_not_show": "NEVER a wax candle — the KJV 'candle' is an oil lamp; no lantern, no torch, no modern light of any kind.",
@@ -195,11 +230,11 @@ BEATS = [
     },
     {
         "id": "v2-r008-b06", "out": "s06-she-sweeps-the-house.jpeg", "seg": "n2a p2",
-        "window": "21.51-23.36", "wide": True, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "HOUSE"],
+        "window": "22.17-24.59", "wide": True, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "WOMAN", "HOUSE"],
         "narration": "She sweeps the whole house.",
         "must_show": "ACTION-LOGIC: the twig broom actually IN CONTACT with the floor mid-stroke, dust and chaff lifting ahead of it, the lamp set down low on the stones nearby.",
-        "must_not_show": "no broom held in the air doing nothing; she is not standing idle — the stroke must be visibly happening.",
+        "must_not_show": "no broom held in the air doing nothing; she is not standing idle — the stroke must be visibly happening. She is COMPLETELY ALONE in her house: no other person, no face, no figure in any doorway or shadow anywhere in the frame.",
         "scene": (
             "The woman sweeps the flagstone floor of the single room, the bundled twig "
             "broom pressed down hard against the stone mid-stroke and a low cloud of "
@@ -213,14 +248,16 @@ BEATS = [
     },
     {
         "id": "v2-r008-b07", "out": "s07-seek-diligently.jpeg", "seg": "n2b",
-        "window": "24.06-29.17", "wide": True, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "HOUSE"],
+        "window": "24.59-30.23", "wide": True, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "WOMAN", "HOUSE"],
         "narration": ("She searches carefully — not casually, carefully — until she "
                       "finds it."),
         "must_show": "DILIGENCE MADE VISIBLE: down on hands and knees with her cheek near the floor, the lamp held low along the stones, a heavy storage jar shifted out from the wall behind her.",
-        "must_not_show": "nothing casual anywhere in the frame — no standing and glancing about; the room must look like it has been taken apart.",
+        "must_not_show": "nothing casual anywhere in the frame — no standing and glancing about; the room must look like it has been taken apart. She is COMPLETELY ALONE: if the doorway or lane shows at all it is EMPTY — no person, no animal, no figure outside.",
         "scene": (
-            "The woman is down on her hands and knees on the flagstones with her "
+            "An upright vertical photograph with the floor at the bottom of the "
+            "frame and the walls standing vertical — the picture is the right way "
+            "up, never rotated. The woman is down on her hands and knees on the flagstones with her "
             "shoulder almost on the floor and her cheek turned low, holding the little "
             "clay lamp out at arm's length so its light rakes flat along the stone and "
             "throws every crack and gap into hard relief. Her other hand is pushed "
@@ -235,8 +272,8 @@ BEATS = [
     # ------------------------------------------------- jv9a / j1 / n3 — found ----
     {
         "id": "v2-r008-b08", "out": "s08-she-found-it.jpeg", "seg": "jv9a",
-        "window": "29.40-33.81", "wide": False, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "HOUSE"],
+        "window": "30.23-36.12", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "WOMAN", "HOUSE"],
         "narration": ("And when she hath found it, she calleth her friends and her "
                       "neighbours together, saying, (Luke 15:9)"),
         "must_show": "THE FIND — the small silver coin pinched up between her finger and thumb in the lamplight, and her whole face breaking open above it.",
@@ -253,8 +290,8 @@ BEATS = [
     },
     {
         "id": "v2-r008-b09", "out": "s09-rejoice-with-me.jpeg", "seg": "j1 + n3",
-        "window": "35.32-42.72", "wide": True, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "LANE"],
+        "window": "36.12-44.84", "wide": True, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "WOMAN", "LANE"],
         "narration": ("Rejoice with me; for I have found the piece which I had lost. "
                       "(Luke 15:9) — Then she calls her neighbors and friends to "
                       "celebrate."),
@@ -274,8 +311,8 @@ BEATS = [
     },
     {
         "id": "v2-r008-b10", "out": "s10-all-this-over-one.jpeg", "seg": "n4",
-        "window": "43.19-48.44", "wide": True, "jesus": False, "ref": False,
-        "locks": ["WOMAN", "LANE"],
+        "window": "44.84-50.64", "wide": True, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "WOMAN", "LANE"],
         "narration": ("One coin. Out of ten. The joy is disproportionate to the value "
                       "of the coin."),
         "must_show": "a full celebration in the little courtyard — a dozen neighbours crowded around her, laughing, clapping, food already coming out — over one small coin.",
@@ -295,12 +332,12 @@ BEATS = [
     # ------------------------------------------------------ j2 / n5 — the point ----
     {
         "id": "v2-r008-b11", "out": "s11-joy-over-one-sinner.jpeg", "seg": "j2",
-        "window": "48.38-55.70", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["LISTENERS", "LANE"],
+        "window": "50.64-59.94", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "LISTENERS", "LANE"],
         "narration": ("Likewise, I say unto you, there is joy in the presence of the "
                       "angels of God over one sinner that repenteth. (Luke 15:10)"),
         "must_show": "back in the courtyard with Jesus finishing the story — his face warm and glad as he says it, the listening faces around him beginning to understand.",
-        "must_not_show": "CONTENT-CARE — do NOT paint the angels, heaven, a heavenly host, or any shaft of light from the sky; nothing supernatural is in this frame. No halo, glare or rim-light on Jesus.",
+        "must_not_show": "CONTENT-CARE — do NOT paint the angels, heaven, a heavenly host, or any shaft of light from the sky; nothing supernatural is in this frame. No halo, glare or rim-light on Jesus. His eyes rest on the LISTENERS beside and below him, in profile-to-three-quarter — he NEVER looks toward the camera, and neither does anyone else.",
         "scene": (
             "Back in the village courtyard in daylight. Jesus is finishing the story, "
             "leaning forward from the low wall with both hands open, and his face is "
@@ -315,8 +352,8 @@ BEATS = [
     },
     {
         "id": "v2-r008-b12", "out": "s12-over-one.jpeg", "seg": "n5",
-        "window": "55.70-57.70", "wide": False, "jesus": False, "ref": False,
-        "locks": ["LISTENERS"],
+        "window": "59.94-62.27", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "LISTENERS"],
         "narration": "Over one. Not a crowd. One.",
         "must_show": "ONE FACE. Close on a single ordinary person in that crowd — a tax collector — realising the story was about him.",
         "must_not_show": "no crowd, no wide shot, nothing abstract and no starfield — the whole beat is one human face; do not put Jesus in the frame.",
@@ -331,3 +368,17 @@ BEATS = [
         ),
     },
 ]
+
+# ROUGH-DRAFT CONTINUITY (build-02/05 pattern): the rejected-look 2026-07-29
+# still for a beat, when it exists, is attached as the approved rough draft —
+# its camera angle, blocking and travel directions stand; faces and identity
+# always come from the FACE/CHARACTER lock images, never from the draft.
+# b11's old take FAILED at generation (no jpeg exists), so it wires nothing.
+# The two Jesus beats (b01/b11) keep their roughs on trial: their old Jesus is
+# the pre-V5 face, so QC watches those two frames for face-echo and the rough
+# is dropped on any reroll (the row-2 b20 lesson).
+_NO_ROUGH = {"v2-r008-b01", "v2-r008-b02", "v2-r008-b03", "v2-r008-b07"}  # b01 rough echoed the pre-V5 Jesus face; b02/b03 roughs carry uncountable coin piles; b07 rough drew two 90-degree-rotated takes (ROTATION-TRAP)
+for _beat in BEATS:
+    _asset = Path(__file__).resolve().parent / "assets" / _beat["out"]
+    if _asset.is_file() and _beat["id"] not in _NO_ROUGH:
+        _beat["rough_ref"] = str(_asset)

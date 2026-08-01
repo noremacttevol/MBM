@@ -1,0 +1,82 @@
+{
+  "asset_dir": "assets-realistic",
+  "board_note": "Boards reviewed 2026-08-01 (Machine A, Fable 5) as per-identity contact strips of the full frames; every appearance was also Read individually at 2K during per-still QC. A pass is valid only while the frame and anchor SHA-256 hashes are unchanged.",
+  "identities": {
+    "woman": {
+      "anchor": "CAST-REF-V2/woman-ref.jpeg",
+      "appearances": [
+        {
+          "file": "s02-ten-pieces-of-silver.jpeg",
+          "result": "pass",
+          "approved_frame_sha256": "8e1103017550f9e48e1c96c5b06931f129a42948135b9d1a05d97ed46a3d277a",
+          "approved_anchor_sha256": "d00b6c6433a588709269e8fa5593f17f24d6ffa2326bbd2722bba6ce97acee88"
+        },
+        {
+          "file": "s03-one-is-missing.jpeg",
+          "result": "pass",
+          "approved_frame_sha256": "e36c875d8f6a491832f19ab4817131db781da062f49adc15e7f5120f668421eb",
+          "approved_anchor_sha256": "d00b6c6433a588709269e8fa5593f17f24d6ffa2326bbd2722bba6ce97acee88"
+        },
+        {
+          "file": "s04-she-loses-one.jpeg",
+          "result": "pass",
+          "approved_frame_sha256": "2af192aec595315fdf33afccc7ece44c2bdb92853b36fa558427f280dad4d5a0",
+          "approved_anchor_sha256": "d00b6c6433a588709269e8fa5593f17f24d6ffa2326bbd2722bba6ce97acee88"
+        },
+        {
+          "file": "s05-she-lights-a-lamp.jpeg",
+          "result": "pass",
+          "approved_frame_sha256": "7280ad16a5ab7907bcd6fa823aa9cda0a3df3bc5883116434c766e2f208e0615",
+          "approved_anchor_sha256": "d00b6c6433a588709269e8fa5593f17f24d6ffa2326bbd2722bba6ce97acee88"
+        },
+        {
+          "file": "s06-she-sweeps-the-house.jpeg",
+          "result": "pass",
+          "approved_frame_sha256": "c9fe18493bf8211f269ce314a6c85b2ca6b39505bdc1a4cc2633cab13c41d770",
+          "approved_anchor_sha256": "d00b6c6433a588709269e8fa5593f17f24d6ffa2326bbd2722bba6ce97acee88"
+        },
+        {
+          "file": "s07-seek-diligently.jpeg",
+          "result": "pass",
+          "approved_frame_sha256": "ca9fb764bbd067bc8f76c6595ea689d811ac6cbe477d520355f2517074630a77",
+          "approved_anchor_sha256": "d00b6c6433a588709269e8fa5593f17f24d6ffa2326bbd2722bba6ce97acee88"
+        },
+        {
+          "file": "s08-she-found-it.jpeg",
+          "result": "pass",
+          "approved_frame_sha256": "42fc94a791e6e806a718c3ac1b28f682cc8bdc6307595acd5509106288bbd33a",
+          "approved_anchor_sha256": "d00b6c6433a588709269e8fa5593f17f24d6ffa2326bbd2722bba6ce97acee88"
+        },
+        {
+          "file": "s09-rejoice-with-me.jpeg",
+          "result": "pass",
+          "approved_frame_sha256": "736f8f9d865dd4b5a26fce0823b3c097b191dc926a3baf90302bc9c737215447",
+          "approved_anchor_sha256": "d00b6c6433a588709269e8fa5593f17f24d6ffa2326bbd2722bba6ce97acee88"
+        },
+        {
+          "file": "s10-all-this-over-one.jpeg",
+          "result": "pass",
+          "approved_frame_sha256": "fa8e02b17948bf4338b853501cc5d3dccf21c02c556996cd1546a13e2ff82751",
+          "approved_anchor_sha256": "d00b6c6433a588709269e8fa5593f17f24d6ffa2326bbd2722bba6ce97acee88"
+        }
+      ]
+    },
+    "jesus": {
+      "anchor": "../JESUS-V2-REF/jesus-v2-face.jpeg",
+      "appearances": [
+        {
+          "file": "s01-he-told-this-story.jpeg",
+          "result": "pass",
+          "approved_frame_sha256": "4aa175a644daa2b9534a3bf7f1d3bd91c545929ba6c1d68b38c1d2e942efae7a",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        },
+        {
+          "file": "s11-joy-over-one-sinner.jpeg",
+          "result": "pass",
+          "approved_frame_sha256": "e61addc75c10000873157ff66416d0295055c86713c11c6e92158ae9d5292d58",
+          "approved_anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82"
+        }
+      ]
+    }
+  }
+}

@@ -578,6 +578,32 @@ session's earlier "no generation until re-piloted recipe" line. The standing law
 
 ---
 
+### Row 8 close — realistic rebuild DONE, cut shipped (2026-08-01)
+
+| row | slug | beats | gens | accepted | rerolls | spend | status | notes |
+|---|---|---|---|---|---|---|---|---|
+| 8 | build-08-lost-coin | 12 | 23 (1 anchor + 12 beats + 10 rerolls) | 13 | s01 ROUGH-ECHO pre-V5 Jesus (rough dropped) · s02 COIN-COUNT ×2 (fixed by restating as nine-in-a-row + tenth in her fingers) · s03 COIN-COUNT (fixed as five-gap-four) · s06 EDGE-INTRUDER · s07 ROTATION ×2 + an unclothed blurred figure outside the door (rough dropped, ROTATION-TRAP) · s11 CAMERA-GAZE Jesus, then GROUP-PHOTO crowd | $2.95 | **DONE — realistic V2 shipped, awaiting Cameron** | 68.8 s · 19.9 MB · AUDIO LOCK PASS e219f876… · verify-mp4 OK |
+
+- **ALL 12 windows re-timed** from the fixed `extract_beats.py` — the stale
+  beats.json/windows drifted up to 4.2 s by n5 (55.70 vs real 59.94); every
+  segment onset now matches silencedetect within 0.1 s. The jv8 b02/b03 split
+  (10.60) sits in the measured mid-sentence pause after "silver,".
+- **Counting lesson worth carrying:** the model cannot count a pile — "TEN
+  countable coins" failed twice at 12 coins. What worked was restating the
+  count as a COMPOSITION: "nine in a straight row, none overlapping, and she
+  holds the tenth between finger and thumb" (and for the loss frame "five left
+  of the gap, four right"). State object counts as geometry, not totals.
+- Prior reviewer lesson ("cut the original video short", RESOLVED) not
+  regressed: v2_assemble stream-copied the approved audio, hash lock PASS.
+- QC record: `build-08-lost-coin/QC.md` · hash-locked boards `IDENTITY-QC.json`
+  (11 appearances: woman 9, Jesus 2) · rejected takes in
+  `assets-realistic/_rejected/` (7 preserved).
+- Board card v8 → new blob hash `5bcb2b44…` (returns to Unwatched);
+  sync-reviews run; board redeployed to Firebase. App-feed V1 untouched.
+
+---
+
+
 ## Session 9 — 2026-08-01 — CLAIM: story 09 (rich young ruler) realistic rebuild (Claude worker 6, Machine A / `Dev`)
 
 - **Model:** Fable 5 (Claude Code) · **Machine:** Machine A — hostname `Dev`
@@ -596,8 +622,6 @@ session's earlier "no generation until re-piloted recipe" line. The standing law
   watching him go) QC to the beat map's love-not-pity standard before anything
   else ships. Ships to Reviewer only; app feed untouched.
 - Session results are appended below when the row closes.
-
----
 
 ## 🛑 RESOLUTION AUDIT — 2026-07-30, Machine A (`Dev`): 159 of 424 pictures were 1K
 

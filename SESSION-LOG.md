@@ -1,3 +1,36 @@
+## 2026-08-01 — Video 8 (The Lost Coin): full realistic rebuild shipped to the board (Machine A / `Dev`, Claude worker 5)
+
+Commit: (ship — this commit) · c035f59f2 (claim). Claimed row 8 by push BEFORE
+any spend (a parallel worker took row 9 the same hour). All 12 pictures
+regenerated on gemini-3-pro-image at native 2K from the build-02/05 pattern:
+the 2026-07-29 leftover set (11 stills, all 2K) was checked for reuse but
+carries the pre-V5 Jesus face and the Session-6 look, so it served only as
+ROUGH COMPOSITION DRAFTS; byte-identical CAMERA lock added; WOMAN identity
+anchor generated first (CAST-REF-V2/woman-ref.jpeg) and attached to all 9 of
+her beats. v2_prompt --check PASS before every paid run; every run carried a
+hard --ceiling recomputed from the live shared meter and sliced with --only.
+FOUND + FIXED: the stale beats.json/windows carried the raw-vs-trimmed drift
+(up to 4.2 s late by n5) — all 12 windows re-timed as absolute phrase times
+from the fixed extract_beats, verified with silencedetect (onsets within
+0.1 s); the jv8 split (b02/b03, 10.60) sits in the measured pause after
+"silver,". QC (every frame Read at 2K, coin counts verified on zoom crops,
+boards hash-locked in IDENTITY-QC.json, 11 appearances): 10 reroll passes —
+rough-echoed pre-V5 Jesus (s01), the model failing to COUNT (12 coins twice on
+s02, ten-not-nine on s03; fixed by restating counts as geometry: nine in a
+row + the tenth in her fingers / five-gap-four), a stray man sitting in her
+house (s06), two 90-degree rotations plus a blurred unclothed figure outside
+the door (s07, rough dropped), Jesus looking into the lens then two crowd
+women doing the same (s11). CONTENT-CARE held: Luke 15:10's angels are not
+painted; the close lands on one tax collector's face instead of V1's
+starfield. Spend $2.95 / 23 gens for 13 accepted images, logged to the shared
+meter. Assembly: v2_assemble.py 8 -> luke-15_lost-coin-realistic-v2.mp4,
+AUDIO LOCK PASS (byte-identical approved fixed-calleth audio — the "cut the
+original video short" complaint stays resolved; no music bed), verify-mp4 OK
+68.8 s / 19.9 MB, 13 rendered frames checked (white narrator, red only on
+Jesus's KJV, bottom band only, clean question card, 1.5 s tail). Board card
+v8 -> new blob hash 5bcb2b44 (returns to Unwatched), sync-reviews run,
+Firebase hosting redeployed, live card verified. App-feed V1 untouched.
+
 ## 2026-08-01 — Video 5 (Bent-Over Woman): full realistic rebuild shipped to the board (Machine A / `Dev`)
 
 Commit: 6ed6735ab (ship) · be53cef7b (claim). Claimed row 5 by push BEFORE any
