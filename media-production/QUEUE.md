@@ -154,7 +154,7 @@ Eve) · 179 (Stephen, the Father — also in Fix queue) · 180 (Jeremiah) · 184
 
 | # | Story | Ref | Prep | Built | Appr | Post | Claim / notes |
 |---|---|---|---|---|---|---|---|
-| 1 | Woman who touched his cloak | Mark 5 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) |
+| 1 | Woman who touched his cloak | Mark 5 | ✅ | ✅ | ⬜ | ✅ | **REALISTIC REPLACEMENT CLAIMED — Codex Dev — 2026-08-01.** Audit the existing 20-picture V2 draft rather than regenerating blindly. Fix Cameron's open complaint, “Back ground sound problem again when Jesus was talking,” while preserving the complete script, locked voices and timing; run face boards and rendered-frame QC; publish only to reviewer Unwatched with complaint history retained; app feed untouched. |
 | 2 | The Prodigal Son | Luke 15 | ✅ | ✅ | ⬜ | ✅ | **REALISTIC V3 SHIPPED TO REVIEWER — Codex Dev — 2026-08-01; awaiting Cameron.** Fixed Cameron's “All Faces changes too much” complaint with identity-only edits: 18 drifting frames repaired, 6 correct frames preserved byte-identical, all 32 Jesus/father/younger/elder appearances passed hash-backed boards, and the authoritative V1 audio packets remain exact. Replacement returned to Unwatched with complaint history retained; app feed untouched. |
 | 3 | Zacchaeus | Luke 19 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron — v4 look-locked rebuild is good) |
 | 4 | Nicodemus at night | John 3 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) |
