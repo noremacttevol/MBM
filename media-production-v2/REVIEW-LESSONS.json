@@ -1,22 +1,22 @@
 {
   "1": {
     "open": true,
-    "latest": "Back ground sound problem again when Jesus was talking.",
-    "reportedAgainst": "a3c6aa6415aee3f7804688aa9e1b0b2e8acf6a0e",
+    "latest": "1:10 picture has Jesus’s eyes looking weird",
+    "reportedAgainst": "ce61e1856757c0370d1acd14e4ea022903f54add",
     "resolvedBy": null,
     "history": [
       {
-        "text": "Back ground sound problem again when Jesus was talking.",
-        "hash": "a3c6aa6415aee3f7804688aa9e1b0b2e8acf6a0e",
-        "createdAt": "2026-07-28T06:02:09.395Z"
+        "text": "1:10 picture has Jesus’s eyes looking weird",
+        "hash": "ce61e1856757c0370d1acd14e4ea022903f54add",
+        "createdAt": "2026-08-01T14:54:06.228Z"
       }
     ]
   },
   "2": {
-    "open": true,
+    "open": false,
     "latest": "All Faces changes too much",
     "reportedAgainst": "6dc2f2f54166b06758c323ecff43426d26a2eeef",
-    "resolvedBy": null,
+    "resolvedBy": "9a7ae96a2c369e431dc5b6e93622fc558a18ea0a",
     "history": [
       {
         "text": "All Faces changes too much",
