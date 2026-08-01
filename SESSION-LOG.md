@@ -1,3 +1,37 @@
+## 2026-08-01 — Video 5 (Bent-Over Woman): full realistic rebuild shipped to the board (Machine A / `Dev`)
+
+Commit: 6ed6735ab (ship) · be53cef7b (claim). Claimed row 5 by push BEFORE any
+spend — next open V2 wave row (01/02/03/07/11/13 shipped, 04 Codex, 06 taken by
+the concurrent worker mid-session). All 37 pictures regenerated on
+gemini-3-pro-image at native 2K from the build-02 pattern: rejected-look
+Jul-29 stills attached as ROUGH COMPOSITION DRAFTS, byte-identical CAMERA lock
+(directional light, real-lens DOF, mid-action, nobody at the camera), WOMAN +
+RULER identity anchors generated first (`CAST-REF-V2/`), FARMER anchored to
+the accepted s14 frame. `v2_prompt --check` PASS before every paid run.
+FOUND + FIXED: the old beats_v2 windows carried the storm-11 timeline defect
+(236.7 s vs the real 247.7 s — ~13 s caption/picture drift by the end); all 37
+windows re-timed as absolute phrase times from the fixed extract_beats and
+verified with silencedetect (every boundary within 0.1 s). QC (every frame
+Read at 2K + per-identity contact boards, hash-locked in IDENTITY-QC.json, 52
+appearances): 17 defect-fix passes — modern ferrule cane tips (s02/s05),
+jet-black-hair Jesus (s08/s12), Jesus camera-gaze (s08), s09's rough carried a
+kneeling-woman wrong moment AND the retake duplicated her (both fixed), ruler
+and farmer cast-drift (s25/s27/s26), a group-photo posed finale (s35), and the
+STICK CONTINUITY arc locked: she carries the 18-year stick until it falls
+exactly on "loosed from this bond" (s27) and it never reappears (s30/s31/s32/
+s36 edited clean). Spend $7.50 / 56 gens for 39 accepted images, itemised in
+the ledger (the shared api-spend meter was being consumed in parallel by the
+story-06 worker — lesson recorded: slice runs with --only, recompute the
+ceiling per run). Assembly: v2_assemble.py 5 → luke-13_bent-woman-realistic-v2
+.mp4, AUDIO LOCK PASS (byte-identical approved audio, no music bed), verify-
+mp4 OK 247.7 s / 20.8 MB, 15 rendered frames checked (white narrator, red only
+on Jesus's KJV, bottom band only, clean question card, 1.5 s tail). Board card
+v5 → new hash 93738754 (returns to Unwatched), sync-reviews run, Firebase
+hosting redeployed — deploy first hit the Hosting storage quota (429); pruned
+463 old hosting versions via the REST API (kept the 3 newest releases) and the
+deploy went through; live card + raw mp4 URL verified (200, range support).
+Cameron only needs to watch it once.
+
 ## 2026-08-01 — Video 6 (Two Sons): father's-ask complaint fixed + full realistic rebuild shipped (Claude worker 4)
 
 Commit: 994a7a28f (ship) · 662c41d0a (audio-restore rebuild) · 28764d3d0 (claim). Claimed row 6 by push before any spend.
