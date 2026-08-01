@@ -14,7 +14,7 @@ touching anything else. Do NOT edit by hand.
 | 4 | newer cut shipped — VERIFY fixed | Captions are messed up at 38 - 46 seconds |
 | 6 | newer cut shipped — VERIFY fixed | Your shortening of the videos has gotten out of hand. In this one the father didnt really ask either son anything and thats not how Jesus tsught it. It can be shorter than the original but it has to hit all of the points well. And here you cut out the original thing the father asked the sons |
 | 7 | newer cut shipped — VERIFY fixed | The boat should not have modern glass lamps. Remove every glass/artificial boat lamp and its orange glow, use moonlight only, and study the Matthew 14 scene more carefully..... Immediatly is pronounced wrong and these old complaints chouldnt be here in this box. |
-| 10 | UNFIXED | Still to short |
+| 10 | newer cut shipped — VERIFY fixed | Still to short |
 | 11 | newer cut shipped — VERIFY fixed | The first picture is messed up. I dont see how you messed it up this bad it was fine before. Another picture has someone climbing up that mast, thats stupid.  The next has people pouring water inside the boat... idk if this is alex talking or not but its obviojs that jesus didnt say peace, be still that fast. We need to fix it . |
 | 12 | newer cut shipped — VERIFY fixed | Captions are off at 1 minute |
 | 13 | newer cut shipped — VERIFY fixed | Some of the pictures need to be redone. I hope you can figure out which ones if not i will get.you to design a bot or find a better ai |

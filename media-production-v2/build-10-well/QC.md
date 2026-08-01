@@ -61,3 +61,67 @@ scenes carry the jar explicitly, and b44-b49 state her hands are EMPTY.
 | s24 | ACCEPT (t1) | the abandoned-errand frame — empty jar against the curb, her feet turned away toward the well |
 | s25 | ACCEPT (t1) | guard fully down — unfocused wide eyes, softened mouth, no tears (correctly quieter than that) |
 | s26 | **take 2** | take 1 expression and open hands exactly right, but a blurred cream shoulder rode the right edge — the stray-Jesus defect again; must_not hardened |
+| s27–s29 | ACCEPT (t1) | the gentle "go, call thy husband", her flat "I have no husband", the five-husbands frame said without a leer |
+| s30 | **take 2** ACCEPT | the fully exposed, braced face — gaze off-lens, no tears yet |
+| s31 | **take 4** ACCEPT | ⚠️ the frame the whole exchange exists for. Takes 1–3 lost it three ways: t2 was a straight CAMERA-GAZE portrait, t3 put a second figure in a WHITE headscarf at the right edge (cream law). Take 4: alone in frame, head off the camera axis, eyes level and off-frame right at her, warm and unchanged, no recoil and no pity, no rim-light |
+| s32 | ACCEPT (t1) | the two of them still in it, the empty jar forgotten on the stones |
+| s33 | **take 2** ACCEPT | "thou art a prophet" — wariness gone, working it out, gaze off-lens |
+| s34/s35 | ACCEPT (t1) | the mountain question with Gerizim behind them; "God is Spirit" |
+| s36 | **take 2** ACCEPT | said to herself, looking away out over the fields — not at him, exactly as the beat requires |
+| s37 | ACCEPT (t1) | "I know that Messiah cometh" |
+| s38 | **take 2** ACCEPT | ⚠️ THE DECLARATION. Take 1 was a symmetrical portrait staring down the lens. Take 2: camera below his eyeline, eyes lifted clearly above and past it at the woman standing over him, sweat and road dust still on him, sitting on the well stone, no grandeur and no glow — the plainest possible delivery of the largest sentence |
+| s39 | **take 2** ACCEPT | utter stillness receiving it, eyes brimming, gaze off-axis |
+| s40 | ACCEPT (t1) | "bottom of every list" |
+| s41 | **take 2** ACCEPT | the Twelve arrive up the road with bread and basket and stop dead in a clump, every gaze angled at the well, nobody speaking or pointing (v27); Jesus and the woman still turned toward each other at the well; her jar still present here, correctly — she has not left it yet |
+| s42 | **take 2** ACCEPT | the hands releasing the jar onto the stone, fingers still curved to its shape — John 4:28 landed |
+| s43–s49 | ACCEPT (t1) | the run, the town she avoided, "come see a man", the town coming out, meeting their eyes, the two days, "we have heard him ourselves" — her hands EMPTY in every one of these, the row's own defect class held |
+
+## Second-pass session (2026-08-01, Claude worker 8)
+
+Worker 7 died mid-run after 32 first-pass accepts and 6 completed rerolls,
+leaving 11 beats with no image on disk (s20, s22, s26, s30, s31, s33, s36,
+s38, s39, s41, s42 — their take-1 files already moved to `_rejected/`). The
+true state was read from disk, not from the commit message. The beat text
+hardening for those 11 was already in place from worker 7's pass; worker 8
+committed the outstanding b20 no-rope clause, re-ran `v2_prompt.py --check`
+(PASS, 49 beats), and generated the 11 under a recomputed ceiling.
+
+Of those 11, 8 passed first look. Three were rerolled for law violations:
+s22 (a second bearded man IN CREAM blurred at the frame edge — the only-Jesus-
+wears-cream law, plus lens gaze; fixed by re-geometring the shot to a side
+three-quarter with the camera off his left and an explicit "nobody else in
+the frame, no cream cloth but his own"), s31 and s38 (both camera-gaze). s22
+and s31 each needed one further pass; the wording that finally stuck in all
+three cases was geometric rather than prohibitive — state where the camera
+sits relative to the eyeline and which frame edge the gaze exits through,
+instead of only forbidding "looking at the camera".
+
+**Reroll rate this row: 21 defect passes across 50 keeps (49 beats + 1
+anchor) = 30%.** Spend across both sessions: `build-10-well` rows in
+`api-spend.jsonl`, ~$9.64 total, of which worker 8's share was $1.87
+(11 finishing shots + 5 reroll passes, three runs, ceilings 41.0 / 41.3 / 41.6).
+
+## AUDIO — the row's second real finding
+
+Row 10's V1 "final" MP4 (`media-production/build-10-well/john-4_woman-at-the-
+well.mp4`) is a TRUNCATED 67.70 s render — V1 never actually finished this
+row, even though the reviewer card had been pointing at it. The extracted
+timeline is 294.294 s. The byte-identical-audio lock in `v2_assemble.py`
+therefore cannot apply here and correctly refused to mux.
+
+Resolution, without re-voicing anything: the master audio was rebuilt from
+the authoritative per-segment mp3s in `media-production/build-10-well/audio/`
+(n0, n1, n2, w9, w11, n3, j1, n4, w15, n5, w19, n6, w25, j2, n7, n8, n8b,
+w29, n9, n10), each placed at its own `seg_start` from the FIXED
+`extract_beats.py` with silence between — the exact timeline the windows were
+cut to. Result: 294.294 s, matching the picture timeline to 6 ms. The voices
+are the approved ones, unchanged; nothing was re-recorded.
+
+## Delivery gates
+
+| gate | result |
+|---|---|
+| pictures | 49/49 present in `assets-realistic/`, all native 2K (1536x2752) |
+| audio | rebuilt from the authoritative segment mp3s (see above), 294.294 s, no music bed, ~1.43 s tail after the last narration |
+| verify-mp4 | OK — video 294.30 s / audio 294.294 s / 21.7 MB |
+| rendered frames | 12 frames extracted and eyeballed: captions bottom-band only, narrator white, the woman's KJV lines in her own colour, Jesus's KJV in red ("whosoever drinketh… shall never thirst"), question card clean |

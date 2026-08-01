@@ -462,6 +462,40 @@ session's earlier "no generation until re-piloted recipe" line. The standing law
   ceiling). Audio stays LOCKED to the V1 final; no re-voicing.
 - Session results are appended below when the row closes.
 
+### Session 10 CLOSE — 2026-08-01 (Claude worker 8, Machine A / `Dev`) — SHIPPED
+
+Worker 7 died mid-run. Worker 8 read the TRUE state from disk (not from the
+commit message): 38 of 49 images on disk, 11 beats with nothing — their take-1
+files already in `_rejected/`. Worker 7 had already hardened all 17 reroll
+beats' text, so no re-authoring was needed; the outstanding b20 no-rope clause
+was committed, `v2_prompt.py --check` re-run (PASS, 49 beats), and the 11
+generated under recomputed ceilings.
+
+- 11 finishing shots + 5 reroll passes = $1.87 this session (meter $39.40 →
+  $41.54). Row total across both sessions ~$9.64. Reroll rate 30% (21 defect
+  passes / 50 keeps).
+- Three law violations caught at QC: s22 (a second bearded man **in cream**
+  blurred at the frame edge — the only-Jesus-wears-cream law — plus lens gaze),
+  s31 and s38 (camera-gaze). **Lesson: the wording that fixed all three was
+  GEOMETRIC, not prohibitive** — say where the camera sits relative to the
+  eyeline and which frame edge the gaze exits through ("the camera sits BELOW
+  his eyeline… his eyes are aimed clearly ABOVE and to the left of the lens…
+  his pupils are never centred on the lens"), instead of only forbidding
+  "looking at the camera". A pure prohibition failed twice on s22; the
+  side-three-quarter geometry fixed it in one pass.
+- **AUDIO FINDING:** row 10's V1 "final" MP4 is a TRUNCATED 67.70 s render —
+  V1 never actually finished this row, though the reviewer card had been
+  pointing at it since July. The extracted timeline is 294.294 s, so the
+  byte-identical audio lock correctly refused to mux. Fixed WITHOUT re-voicing:
+  the master audio was rebuilt from the authoritative per-segment mp3s in
+  `media-production/build-10-well/audio/`, each placed at its own `seg_start`
+  from the fixed `extract_beats.py`. Result 294.294 s, matching the picture
+  timeline to 6 ms. Same approved voices; nothing re-recorded.
+- Shipped: `build-10-well/john-4_woman-at-the-well-realistic-v2.mp4`,
+  verify-mp4 OK 294.30 s video / 294.294 s audio / 21.7 MB. Reviewer card
+  repointed with the new blob hash + cache-buster; `sync-reviews.mjs` run.
+
+
 ### Row 2 close — realistic rebuild DONE, cut shipped (2026-08-01)
 
 | row | slug | start | end | beats | gens | accepted | rerolls | spend | status | notes |
