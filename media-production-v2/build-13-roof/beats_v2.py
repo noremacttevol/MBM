@@ -57,7 +57,7 @@ FRIEND_REFS = [
     str(_BUILD / "character-refs" / "friend-young-thin-beard.jpeg"),
     str(_BUILD / "character-refs" / "friend-shaved-stocky.jpeg"),
 ]
-PARALYTIC_REF = str(_BUILD / "character-refs" / "paralysed-man.jpeg")
+PARALYTIC_REF = str(_BUILD / "character-refs" / "paralysed-man-face.jpeg")
 
 LOCKS = {
     "PARALYTIC": (
@@ -441,7 +441,7 @@ BEATS = [
     {
         "id": "v2-r013-b19", "out": "s19-he-hadnt-said-a-word.jpeg", "seg": "n4 p5-p7",
         "window": "98.73-107.16", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PARALYTIC", "MAT"],
+        "locks": ["PARALYTIC", "FRIENDS", "MAT"],
         "narration": ("The man on the mat hadn't said a word. His friends' faith counted "
                       "for him. He was carried there — and heaven honored the carrying."),
         "must_show": "close on the man on the mat in the light — silent, mouth closed, eyes moving between the faces above and the man in front of him.",
