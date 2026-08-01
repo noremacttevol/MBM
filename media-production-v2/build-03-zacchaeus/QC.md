@@ -60,6 +60,8 @@ Final candidate: `luke-19_zacchaeus-realistic-v3.mp4`
 - The decoded sheet confirms all speaker-color captions are readable within the
   safe bottom band, and the complete closing invitation card is present.
 
-Publishing this new hash must return Story 3 to **Unwatched** while retaining
-the earlier resolved complaint for comparison. The mobile app and app-feed
-video must remain unchanged.
+The new hash is live at `https://milk-b4-meat.web.app/review.html` under
+**Unwatched**. A live raw download matches the tested SHA-256 exactly. The
+Firestore record still retains Cameron's earlier 1:48 complaint and approved
+old-cut hash, while the Reviewer UI keeps this replacement out of Complained
+About. The mobile app and app-feed video remain unchanged.
