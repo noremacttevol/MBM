@@ -74,6 +74,10 @@ def _sheet(slug):
 
 EARLY_COMPANY = ("peter", "andrew", "james", "john-beloved", "matthew")
 OUTPUT_ASSET_DIR = "assets-realistic"
+# Reviewer cut name. v3 was DENIED by Cameron (board sync 2026-08-01): bad first
+# picture, a man who read as climbing the mast (b10), bailing that read as pouring
+# water INTO the boat (b11), and "Peace, be still" spoken too fast. v4 is the fix.
+OUTPUT_VIDEO_NAME = "mark-4_calming-the-storm-realistic-v4.mp4"
 EARLY_COMPANY_REFS = [str(
     Path(__file__).resolve().parents[1]
     / "CAST-V2-REF" / "early-company-reference-board.jpg"
@@ -160,7 +164,7 @@ BEATS = [
     # ------------------------------------------------- n0 — the last story ----
     {
         "id": "v2-r011-b01", "out": "s01-teaching-till-the-light-went.jpeg", "seg": "n0 p1-p2",
-        "window": "0.28-10.66", "wide": True, "jesus": True, "ref": REF,
+        "window": "0.00-11.02", "wide": True, "jesus": True, "ref": REF,
         "locks": ["DISCIPLES", "SHORE-EVENING"],
         "narration": ("Evening, on the Sea of Galilee. Jesus had been teaching crowds "
                       "on the shore all day — story after story, until the light was "
@@ -180,7 +184,7 @@ BEATS = [
     },
     {
         "id": "v2-r011-b02", "out": "s02-worn-through.jpeg", "seg": "n0 p3-p4",
-        "window": "10.66-15.88", "wide": False, "jesus": True, "ref": REF,
+        "window": "11.02-17.01", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SHORE-EVENING"],
         "narration": ("He was worn through. And when the last story was told, he said "
                       "to his friends:"),
@@ -197,7 +201,7 @@ BEATS = [
     },
     {
         "id": "v2-r011-b03", "out": "s03-unto-the-other-side.jpeg", "seg": "j0",
-        "window": "16.57-18.66", "wide": True, "jesus": True, "ref": REF,
+        "window": "17.01-20.95", "wide": True, "jesus": True, "ref": REF,
         "locks": ["PETER", "DISCIPLES", "SHORE-EVENING"],
         "narration": "Let us pass over unto the other side. (Mark 4:35)",
         "must_show": "Jesus gesturing out across the darkening water toward the far shore, the men beside him looking where he points.",
@@ -215,7 +219,7 @@ BEATS = [
     # ------------------------------------------------- n1 — even as he was ----
     {
         "id": "v2-r011-b04", "out": "s04-even-as-he-was.jpeg", "seg": "n1 p1",
-        "window": "19.68-27.42", "wide": True, "jesus": True, "ref": REF,
+        "window": "20.95-29.81", "wide": True, "jesus": True, "ref": REF,
         "locks": ["PETER", "DISCIPLES", "BOAT", "SHORE-EVENING"],
         "narration": ("So they took him, Mark says, even as he was — no rest, no "
                       "supper, straight from the last word into the boat."),
@@ -235,7 +239,7 @@ BEATS = [
     },
     {
         "id": "v2-r011-b05", "out": "s05-other-little-boats.jpeg", "seg": "n1 p2",
-        "window": "27.42-29.75", "wide": True, "jesus": False, "ref": False,
+        "window": "29.81-33.37", "wide": True, "jesus": False, "ref": False,
         "locks": ["BOAT", "SEA-CROSSING-NIGHT"],
         "narration": "Other little boats followed them out.",
         "must_show": "SCRIPTURE DETAIL almost every telling drops (v36): two or three other small boats out on the dark water behind theirs, following.",
@@ -253,7 +257,7 @@ BEATS = [
     # ----------------------------------------------- n1b — the fishermen ----
     {
         "id": "v2-r011-b06", "out": "s06-men-at-the-oars.jpeg", "seg": "n1b p1",
-        "window": "30.36-36.02", "wide": True, "jesus": False, "ref": False,
+        "window": "33.37-39.24", "wide": True, "jesus": False, "ref": False,
         "locks": ["PETER", "DISCIPLES", "BOAT", "SEA-CROSSING-NIGHT"],
         "narration": ("And here is something worth knowing about the men at the oars: "
                       "at least four of them were professional fishermen."),
@@ -272,7 +276,7 @@ BEATS = [
     },
     {
         "id": "v2-r011-b07", "out": "s07-peter-andrew-james-john.jpeg", "seg": "n1b p2",
-        "window": "36.02-40.88", "wide": True, "jesus": False, "ref": False,
+        "window": "39.24-44.95", "wide": True, "jesus": False, "ref": False,
         "locks": ["PETER", "ANDREW", "JOHN", "JAMES-Z", "BOAT", "SEA-CROSSING-NIGHT"],
         "narration": ("Peter and his brother Andrew, and James and John, the sons of "
                       "Zebedee."),
@@ -290,7 +294,7 @@ BEATS = [
     },
     {
         "id": "v2-r011-b08", "out": "s08-this-lake-was-their-workplace.jpeg", "seg": "n1b p3-p5",
-        "window": "40.88-48.00", "wide": False, "jesus": False, "ref": False,
+        "window": "44.95-53.77", "wide": False, "jesus": False, "ref": False,
         "locks": ["PETER", "ANDREW", "BOAT", "SEA-CROSSING-NIGHT"],
         "narration": ("This lake was their workplace. They had crossed it at night "
                       "their whole lives. Nothing about dark water scared them."),
@@ -309,7 +313,7 @@ BEATS = [
     # ---------------------------------------------------- n2 — the squall ----
     {
         "id": "v2-r011-b09", "out": "s09-the-lake-turned.jpeg", "seg": "n2 p1-p2",
-        "window": "48.65-59.65", "wide": True, "jesus": False, "ref": False,
+        "window": "53.77-65.49", "wide": True, "jesus": False, "ref": False,
         "locks": ["BOAT", "SEA-STORM-NIGHT"],
         "narration": ("Then the lake turned on them. The Sea of Galilee lies seven "
                       "hundred feet below sea level, in a bowl of hills — when cold "
@@ -331,46 +335,52 @@ BEATS = [
     },
     {
         "id": "v2-r011-b10", "out": "s10-savage-even-for-that-lake.jpeg", "seg": "n2 p3",
-        "window": "59.65-63.09", "wide": True, "jesus": False, "ref": False,
+        "window": "65.49-69.77", "wide": True, "jesus": False, "ref": False,
         "locks": ["PETER", "DISCIPLES", "BOAT", "SEA-STORM-NIGHT"],
         "narration": "This storm was savage even by that lake's standard.",
-        "must_show": "the boat in the worst of it — heeled hard over, a wave standing above the gunwale, the mast raked, men grabbing for whatever is fixed.",
-        "must_not_show": "nobody outside the hull; no rope leading off the boat to nothing — every line runs to the mast or the rigging inside. Do not put Jesus in this frame.",
+        "must_show": "the boat in the worst of it — heeled hard over, a wave standing above the gunwale, the mast raked, men crouched low and grabbing for whatever is fixed.",
+        "must_not_show": "⚠️ NOBODY CLIMBS. Cameron rejected this frame because a man read as climbing the mast. No man touches the mast, hangs from a rope overhead, or has a foot off the deck — every man is LOW, knees bent, feet flat on the deck planking, hands gripping the gunwale, a thwart, or a rope at chest height or lower. Nobody outside the hull; no rope leading off the boat to nothing — every line runs to the mast or the rigging inside. Do not put Jesus in this frame.",
         "scene": (
             "The boat is heeled hard over in the middle of the squall, its mast raked "
             "steeply against the torn black sky, as a steep wave stands up higher than "
-            "the gunwale on the windward side. Men are grabbing for whatever is fixed "
-            "— one has both arms locked around the mast, another is braced with a hand "
-            "on the thwart and a foot jammed against the hull, a third hauls on a rope "
-            "that runs plainly up to the rigging at the masthead inside the boat. "
-            "Every man is inside the hull with the deck under him. Driving spray, "
-            "white foam, lightning on the far hills. Every figure has two arms, two "
-            "hands and one head."
+            "the gunwale on the windward side. The men are all DOWN LOW in the hull, "
+            "crouched with their knees bent and both feet flat on the deck planking — "
+            "one grips the near gunwale with both hands, another is braced with a hand "
+            "on a thwart and a foot jammed against a rib of the hull, a third crouches "
+            "with one fist closed on a rope at his chest. No man touches the mast, no "
+            "man reaches above his own head, and no man's feet leave the deck. Every "
+            "man is inside the hull with the deck under him. Driving spray, white "
+            "foam, lightning on the far hills. Every figure has two arms, two hands "
+            "and one head."
         ),
     },
     # ------------------------------------------------- n2b — the boat fills ----
     {
         "id": "v2-r011-b11", "out": "s11-bailing.jpeg", "seg": "n2b p1",
-        "window": "63.73-66.76", "wide": True, "jesus": False, "ref": False,
+        "window": "69.77-73.20", "wide": True, "jesus": False, "ref": False,
         "locks": ["DISCIPLES", "BOAT", "SEA-STORM-NIGHT"],
         "narration": "Waves broke over the side faster than the men could bail.",
-        "must_show": "⚠️ ACTION-LOGIC, THE DEFECT THAT GOT V1 REJECTED: the storm is visibly violent enough to justify emergency bailing — a breaking wave is entering over the opposite gunwale and deep water already covers the deck. The bailing water is being flung OUT OVER THE GUNWALE AND AWAY FROM THE BOAT, out into the sea. The scoop is on its outward throw and the thrown water is OUTSIDE the hull.",
-        "must_not_show": "the water must NEVER appear to be poured INTO the boat or toward the deck. If the thrown water lands inside the hull, or the lake looks too mild to justify bailing, the frame is a hard fail. Do not put Jesus in this frame.",
+        "must_show": "⚠️ ACTION-LOGIC, THE DEFECT THAT GOT V1 AND V3 REJECTED: two men bailing, and the direction of every drop of moving water must read correctly at one glance. The bailing water is being flung OUT OVER THE GUNWALE AND AWAY FROM THE BOAT — the scoop is past the rail on its outward throw and the whole sheet of thrown water is OUTSIDE the hull, falling down toward the open sea, visibly clear of and beyond the wooden rail. Deep water already covers the deck around their shins to justify the bailing.",
+        "must_not_show": "⚠️ Cameron rejected two cuts over this exact frame. NO wave may be breaking into the boat in this picture, NO water may arc over the men or over the deck, and NO thrown water may hang between the men or above the hull — any of those reads as men pouring water INTO their own boat and is a hard fail. The only airborne water is the one sheet leaving the near man's scoop, already outside the rail, falling toward the sea. Nobody pours anything toward the deck. Do not put Jesus in this frame.",
         "scene": (
-            "Two men are bailing hard. The nearest is caught at the very end of his "
-            "OUTWARD throw — his wooden scoop is up and over the top of the gunwale "
-            "with its mouth turned outward and away from the boat, and the sheet of "
-            "water leaving it is flying OUT beyond the hull and down into the sea, "
-            "well clear of the deck. His other hand grips the rail as he swings. "
-            "Behind him the second man is bent low filling his scoop from the water "
-            "sloshing around their shins on the deck timbers. A wave is breaking in "
-            "over the far gunwale behind them at the same moment. Night, spray, cold "
-            "broken moonlight. Every figure has two arms, two hands and one head."
+            "Two men are bailing hard, seen from inside the boat looking outward over "
+            "the near gunwale so the sea is beyond the rail. The nearest man is caught "
+            "at the very end of his OUTWARD throw — his wooden scoop has crossed above "
+            "the top of the gunwale with its mouth turned outward and downward, away "
+            "from the boat, and the single sheet of water leaving it is entirely "
+            "OUTSIDE the hull, beyond the rail, falling away down toward the sea. No "
+            "part of the thrown water is over the deck or over any man. His other hand "
+            "grips the rail as he swings. Behind him the second man is bent low, his "
+            "scoop dipped INTO the black water sloshing around their shins on the deck "
+            "timbers, filling it for his own throw. The sea beyond the rail runs in "
+            "steep white-torn waves but no wave is breaking into the boat in this "
+            "instant. Night, spray, cold broken moonlight. Every figure has two arms, "
+            "two hands and one head."
         ),
     },
     {
         "id": "v2-r011-b12", "out": "s12-the-boat-was-filling.jpeg", "seg": "n2b p2",
-        "window": "66.76-68.22", "wide": False, "jesus": False, "ref": False,
+        "window": "73.20-74.62", "wide": False, "jesus": False, "ref": False,
         "locks": ["BOAT", "SEA-STORM-NIGHT"],
         "narration": "The boat was filling.",
         "must_show": "the water level INSIDE the hull — black water surging around the men's shins over the deck planking, nets and rope floating in it.",
@@ -387,7 +397,7 @@ BEATS = [
     },
     {
         "id": "v2-r011-b13", "out": "s13-their-last-storm.jpeg", "seg": "n2b p3",
-        "window": "68.22-75.15", "wide": True, "jesus": False, "ref": False,
+        "window": "74.62-82.19", "wide": True, "jesus": False, "ref": False,
         "locks": ["PETER", "ANDREW", "JOHN", "DISCIPLES", "BOAT", "SEA-STORM-NIGHT"],
         "narration": ("And the fishermen who had survived a hundred storms looked at "
                       "this one — and believed it was going to be their last."),
@@ -408,7 +418,7 @@ BEATS = [
     # ------------------------------------------------------ n3 — asleep ----
     {
         "id": "v2-r011-b14", "out": "s14-asleep-in-the-stern.jpeg", "seg": "n3 p1-p2",
-        "window": "75.81-83.98", "wide": True, "jesus": True, "ref": REF,
+        "window": "82.19-91.78", "wide": True, "jesus": True, "ref": REF,
         "locks": ["BOAT", "SEA-STORM-NIGHT"],
         "narration": ("And Jesus was asleep. In the stern, on the steersman's cushion, "
                       "soaked with spray, rising and falling with the pitching deck — "
@@ -429,7 +439,7 @@ BEATS = [
     },
     {
         "id": "v2-r011-b15", "out": "s15-not-afraid-of-it.jpeg", "seg": "n3 p3-p4",
-        "window": "83.98-88.62", "wide": False, "jesus": True, "ref": REF,
+        "window": "91.78-97.63", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SEA-STORM-NIGHT"],
         "narration": ("Not because he didn't know what was happening. Because he "
                       "wasn't afraid of it.",),
@@ -448,7 +458,7 @@ BEATS = [
     # ---------------------------------------------- n4 — carest thou not ----
     {
         "id": "v2-r011-b16", "out": "s16-they-woke-him.jpeg", "seg": "n4",
-        "window": "89.29-96.35", "wide": True, "jesus": True, "ref": REF,
+        "window": "97.63-105.58", "wide": True, "jesus": True, "ref": REF,
         "locks": ["PETER", "DISCIPLES", "BOAT", "SEA-STORM-NIGHT"],
         "narration": ("So they woke him. Rough hands on his shoulder, screaming over "
                       "the wind the question people have been asking in storms ever "
@@ -468,7 +478,7 @@ BEATS = [
     },
     {
         "id": "v2-r011-b17", "out": "s17-carest-thou-not.jpeg", "seg": "s38",
-        "window": "96.98-99.35", "wide": False, "jesus": False, "ref": False,
+        "window": "105.58-109.54", "wide": False, "jesus": False, "ref": False,
         "locks": ["PETER", "SEA-STORM-NIGHT"],
         "narration": "Master, carest thou not that we perish? (Mark 4:38)",
         "must_show": "close on Peter's face shouting the question — terror and accusation together, soaked, mouth wide.",
@@ -484,7 +494,7 @@ BEATS = [
     },
     {
         "id": "v2-r011-b18", "out": "s18-they-doubted-his-heart.jpeg", "seg": "n4b",
-        "window": "100.46-108.17", "wide": True, "jesus": False, "ref": False,
+        "window": "109.54-118.93", "wide": True, "jesus": False, "ref": False,
         "locks": ["DISCIPLES", "BOAT", "SEA-STORM-NIGHT"],
         "narration": ("Don't you care that we are going down? Listen to what they were "
                       "really saying. They never doubted his power. They doubted his "
@@ -504,7 +514,7 @@ BEATS = [
     # ------------------------------------------------- n5 — he stood up ----
     {
         "id": "v2-r011-b19", "out": "s19-he-stood-in-the-stern.jpeg", "seg": "n5 p1-p2",
-        "window": "108.84-115.11", "wide": True, "jesus": True, "ref": REF,
+        "window": "118.93-125.81", "wide": True, "jesus": True, "ref": REF,
         "locks": ["DISCIPLES", "BOAT", "SEA-STORM-NIGHT"],
         "narration": ("He got up. He stood in the stern of a sinking boat, in the "
                       "middle of the worst storm those fishermen had ever seen."),
@@ -524,7 +534,7 @@ BEATS = [
     },
     {
         "id": "v2-r011-b20", "out": "s20-he-spoke-to-the-storm.jpeg", "seg": "n5 p3-p4",
-        "window": "115.11-118.69", "wide": True, "jesus": True, "ref": REF,
+        "window": "125.81-130.74", "wide": True, "jesus": True, "ref": REF,
         "locks": ["BOAT", "SEA-STORM-NIGHT"],
         "narration": "And he did not speak to the men. He spoke to the storm.",
         "must_show": "SCRIPTURE-EXACT (v39): he has turned AWAY from the disciples to face out into the wind and the sea — his back or shoulder to them, addressing the storm itself.",
@@ -542,7 +552,7 @@ BEATS = [
     },
     {
         "id": "v2-r011-b21", "out": "s21-peace-be-still.jpeg", "seg": "j1",
-        "window": "119.36-120.52", "wide": False, "jesus": True, "ref": REF,
+        "window": "130.74-134.50", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SEA-STORM-NIGHT"],
         "narration": "Peace, be still. (Mark 4:39)",
         "must_show": "close on Jesus speaking the words out into the storm — calm, level, quiet authority, one hand come up.",
@@ -560,7 +570,7 @@ BEATS = [
     # ------------------------------------------------- n6 — the great calm ----
     {
         "id": "v2-r011-b22", "out": "s22-the-wind-quit.jpeg", "seg": "n6 p1",
-        "window": "121.59-122.55", "wide": True, "jesus": False, "ref": False,
+        "window": "134.50-135.82", "wide": True, "jesus": False, "ref": False,
         "locks": ["BOAT", "SEA-CALM-NIGHT"],
         "narration": "And the wind quit.",
         "must_show": "the instant of stopping caught mid-air — the last wave collapsing with nothing holding it up, spray still hanging, the sail's lashings gone slack.",
@@ -577,7 +587,7 @@ BEATS = [
     },
     {
         "id": "v2-r011-b23", "out": "s23-glass-flat-under-stars.jpeg", "seg": "n6 p2",
-        "window": "122.55-131.07", "wide": True, "jesus": False, "ref": False,
+        "window": "135.82-145.27", "wide": True, "jesus": False, "ref": False,
         "locks": ["BOAT", "SEA-CALM-NIGHT"],
         "narration": ("The sea fell flat — glass flat — with stars where the storm had "
                       "been, and the only sound left was water dripping off the ropes."),
@@ -596,7 +606,7 @@ BEATS = [
     },
     {
         "id": "v2-r011-b24", "out": "s24-it-obeyed.jpeg", "seg": "n6 p3-p6",
-        "window": "131.07-140.25", "wide": True, "jesus": False, "ref": False,
+        "window": "145.27-155.56", "wide": True, "jesus": False, "ref": False,
         "locks": ["BOAT", "SEA-CALM-NIGHT"],
         "narration": ("Sailors will tell you the waves keep rolling for hours after a "
                       "wind dies. These didn't. The lake did not calm down. It obeyed."),
@@ -615,7 +625,7 @@ BEATS = [
     # -------------------------------------------- n7 / j2 — he turned to them ----
     {
         "id": "v2-r011-b25", "out": "s25-he-turned-to-his-friends.jpeg", "seg": "n7",
-        "window": "140.87-147.93", "wide": True, "jesus": True, "ref": REF,
+        "window": "155.56-162.78", "wide": True, "jesus": True, "ref": REF,
         "locks": ["PETER", "DISCIPLES", "BOAT", "SEA-CALM-NIGHT"],
         "narration": ("Then he turned to his friends — soaked, shaking, still gripping "
                       "the ropes — and he asked them, gently:"),
@@ -634,7 +644,7 @@ BEATS = [
     },
     {
         "id": "v2-r011-b26", "out": "s26-why-are-ye-so-fearful.jpeg", "seg": "j2",
-        "window": "148.62-151.64", "wide": False, "jesus": True, "ref": REF,
+        "window": "162.78-168.20", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SEA-CALM-NIGHT"],
         "narration": ("Why are ye so fearful? how is it that ye have no faith? "
                       "(Mark 4:40)"),
@@ -652,7 +662,7 @@ BEATS = [
     # ---------------------------------------- n8 — where he asked it from ----
     {
         "id": "v2-r011-b27", "out": "s27-standing-in-their-boat.jpeg", "seg": "n8 p1-p2",
-        "window": "152.62-157.80", "wide": True, "jesus": True, "ref": REF,
+        "window": "168.20-174.07", "wide": True, "jesus": True, "ref": REF,
         "locks": ["DISCIPLES", "BOAT", "SEA-CALM-NIGHT"],
         "narration": ("Hear where he asked that from. Standing in their boat, on the "
                       "sea he had just flattened to save them."),
@@ -670,7 +680,7 @@ BEATS = [
     },
     {
         "id": "v2-r011-b28", "out": "s28-he-came-through-it-with-them.jpeg", "seg": "n8 p3-p4",
-        "window": "157.80-165.01", "wide": True, "jesus": True, "ref": REF,
+        "window": "174.07-182.28", "wide": True, "jesus": True, "ref": REF,
         "locks": ["BOAT", "SEA-CALM-NIGHT"],
         "narration": ("He didn't ask it from the shore. He came through the storm with "
                       "them — and then he asked why the fear had gotten so much bigger "
@@ -689,7 +699,7 @@ BEATS = [
     },
     {
         "id": "v2-r011-b29", "out": "s29-bigger-than-it.jpeg", "seg": "n8 p5-p7",
-        "window": "165.01-171.29", "wide": False, "jesus": True, "ref": REF,
+        "window": "182.28-189.68", "wide": False, "jesus": True, "ref": REF,
         "locks": ["PETER", "SEA-CALM-NIGHT"],
         "narration": ("He never said the storm wasn't real. He never scolded them for "
                       "waking them. He was simply bigger than it."),
@@ -708,7 +718,7 @@ BEATS = [
     # -------------------------------------- n9 — the fear changed direction ----
     {
         "id": "v2-r011-b30", "out": "s30-it-changed-direction.jpeg", "seg": "n9 p1",
-        "window": "171.94-176.85", "wide": False, "jesus": False, "ref": False,
+        "window": "189.68-195.97", "wide": False, "jesus": False, "ref": False,
         "locks": ["PETER", "JOHN", "SEA-CALM-NIGHT"],
         "narration": ("And then a strange thing happened: the fear didn't leave the "
                       "boat — it changed direction."),
@@ -727,7 +737,7 @@ BEATS = [
     },
     {
         "id": "v2-r011-b31", "out": "s31-they-asked-each-other.jpeg", "seg": "n9 p2",
-        "window": "177.45-184.10", "wide": True, "jesus": False, "ref": False,
+        "window": "195.97-204.01", "wide": True, "jesus": False, "ref": False,
         "locks": ["PETER", "ANDREW", "JOHN", "DISCIPLES", "BOAT", "SEA-CALM-NIGHT"],
         "narration": ("Mark says they feared exceedingly — more awe after the calm than "
                       "in the storm — and they asked each other:"),
@@ -746,7 +756,7 @@ BEATS = [
     },
     {
         "id": "v2-r011-b32", "out": "s32-what-manner-of-man.jpeg", "seg": "s41",
-        "window": "184.78-188.59", "wide": False, "jesus": False, "ref": False,
+        "window": "204.01-209.88", "wide": False, "jesus": False, "ref": False,
         "locks": ["ANDREW", "SEA-CALM-NIGHT"],
         "narration": ("What manner of man is this, that even the wind and the sea obey "
                       "him? (Mark 4:41)"),
@@ -764,7 +774,7 @@ BEATS = [
     # ------------------------------------------------- n9b — the old psalm ----
     {
         "id": "v2-r011-b33", "out": "s33-they-knew-the-psalm.jpeg", "seg": "n9b p1-p2",
-        "window": "189.74-195.29", "wide": False, "jesus": False, "ref": False,
+        "window": "209.88-216.29", "wide": False, "jesus": False, "ref": False,
         "locks": ["PETER", "SEA-CALM-NIGHT"],
         "narration": ("These men knew their scriptures. They knew the old psalm that "
                       "says it is God who stills the storm to a whisper."),
@@ -781,7 +791,7 @@ BEATS = [
     },
     {
         "id": "v2-r011-b34", "out": "s34-a-man-in-dripping-clothes.jpeg", "seg": "n9b p3",
-        "window": "195.29-199.45", "wide": True, "jesus": True, "ref": REF,
+        "window": "216.29-221.35", "wide": True, "jesus": True, "ref": REF,
         "locks": ["PETER", "DISCIPLES", "BOAT", "SEA-CALM-NIGHT"],
         "narration": ("And now they were staring at a man in dripping clothes who had "
                       "just done it."),

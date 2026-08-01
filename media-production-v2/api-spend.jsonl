@@ -47,3 +47,6 @@
 {"ts": "2026-07-30 04:16:32", "build": "build-07-peter-water", "beat": "v2-r007-b16", "out": "s16-step-after-step.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
 {"ts": "2026-07-30 04:19:22", "build": "build-07-peter-water", "beat": "v2-r007-b16", "out": "s16-step-after-step.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
 {"ts": "2026-07-30 04:21:03", "build": "build-07-peter-water", "beat": "v2-r007-b16", "out": "s16-step-after-step.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-01 01:56:20", "build": "build-11-storm", "beat": "v2-r011-b10", "out": "s10-savage-even-for-that-lake.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-01 01:56:45", "build": "build-11-storm", "beat": "v2-r011-b11", "out": "s11-bailing.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-01 01:58:05", "build": "build-11-storm", "beat": "v2-r011-b01", "out": "s01-teaching-till-the-light-went.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}

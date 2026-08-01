@@ -165,6 +165,22 @@ def extract(row):
     kjv_gap = float(bconsts.get("KJV_GAP", gap))
     tail = float(bconsts.get("TAIL", 1.5))
 
+    # READ THAT BUILD'S OWN TIMELINE FORMULAS — never assume (2026-08-01 fix).
+    # 184 builds compute `vdur = LEAD + spoken[name] + gap` (trailing silence
+    # trimmed), but 17 (e.g. build-11-storm) use the RAW mp3 duration:
+    # `vdur = LEAD + audio_dur[name] + gap`. Assuming "trimmed" for a raw build
+    # shrank row 11's extracted timeline by 7.9 s vs its finished mp4, failing
+    # the v2_assemble AUDIO LOCK and drifting every caption/picture window.
+    # The card line varies the same way (card_spoken vs card_dur, TAIL vs
+    # CARD_HOLD), so both are read from build.py source here.
+    bsrc = open(os.path.join(bdir, "build.py")).read()
+    vdur_raw = re.search(r"vdur\s*=\s*LEAD\s*\+\s*audio_dur\b", bsrc) is not None
+    card_trimmed = re.search(r"card_vdur\s*=\s*LEAD\s*\+\s*card_spoken\b",
+                             bsrc) is not None
+    if re.search(r"card_vdur\s*=\s*LEAD\s*\+\s*card_(?:spoken|dur)\s*\+\s*CARD_HOLD\b",
+                 bsrc):
+        tail = float(bconsts.get("CARD_HOLD", tail))
+
     out = {
         "row": row, "slug": slug, "v1_dir": os.path.relpath(bdir, ROOT),
         "constants": {"LEAD": lead, "GAP": gap, "KJV_GAP": kjv_gap, "TAIL": tail},
@@ -206,7 +222,7 @@ def extract(row):
             sdur = spoken_of(mp3, tmpdir)
             spk = speaker.get(name, "narrator")
             g = kjv_gap if spk != "narrator" else gap
-            vdur = lead + sdur + g
+            vdur = lead + (adur if vdur_raw else sdur) + g
             timing_path = os.path.join(bdir, "audio", f"{name}.timing.json")
             timing = json.load(open(timing_path)) if os.path.exists(timing_path) else []
             out["beats"].append({
@@ -240,7 +256,7 @@ def extract(row):
             raise SystemExit(
                 f"card segment {card_id!r} has no mp3 in {bdir}/audio — "
                 f"read that build's build.py and pass the right id")
-        card_dur = dur_of(card_mp3)
+        card_dur = spoken_of(card_mp3, tmpdir) if card_trimmed else dur_of(card_mp3)
         out["card"] = {
             "seg": card_id,
             "text": text.get(card_id, ""),
