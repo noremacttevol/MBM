@@ -1,0 +1,252 @@
+{
+ "asset_dir": "assets-realistic",
+ "board_note": "Boards reviewed 2026-08-01 (Machine A, Fable 5, Claude worker 6) as per-identity contact strips and 100%-scale face crops of the full frames; the two weight-bearing frames (s12, s29) and every retake were Read individually at 2K. A pass is valid only while the frame and anchor SHA-256 hashes are unchanged.",
+ "identities": {
+  "jesus": {
+   "anchor": "../JESUS-V2-REF/jesus-v2-face.jpeg",
+   "anchor_sha256": "f681114a29ccb60cfe849bfa3a71ae2eae211d51b8d8d630581b9e0883d5ae82",
+   "appearances": [
+    {
+     "file": "s01-setting-out.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "ee660c2035e681df4c936f75eccf12788665df4802cbff4d52d01113f35796b1"
+    },
+    {
+     "file": "s04-he-reached-him.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "35c77d522dc5573698a747a67af16ab292f38ee2089566e67fb8968565fd5de0"
+    },
+    {
+     "file": "s05-knees-in-the-dust.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "a42bc338bc4ecf5d69abd04bc1de0e24cff627d337f6bbca200a2eb4ea4cfc33"
+    },
+    {
+     "file": "s07-the-question-he-carried.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "83f2ba909a7c2517bd62458020163c275c268726c667c5ed8c2ad6fba6ab17ec"
+    },
+    {
+     "file": "s08-the-commandments.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "4687b3a23150bb1ae3e8b2e7f05ef36dbae520a354c0d76601f1d89ab872e939"
+    },
+    {
+     "file": "s10-he-meant-it.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "f17e6c1082496e23718426f2ab6a5e980dfd40619861b185df50f54d805406fd"
+    },
+    {
+     "file": "s12-looking-at-him-loved-him.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "d4a652f94398c87218c581bbe8371650d457931b8aa39ab898625536f594f085"
+    },
+    {
+     "file": "s13-the-two-of-them.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "3529e8d9c03d26f1bbf21276f7b8df8c969bb8cafeaf2b0f6dd5e936831a1a30"
+    },
+    {
+     "file": "s15-with-love-in-his-voice.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "4bbd6ce3e19d34552b5f33836124e7facd29db98315c096980aa136b9adaab93"
+    },
+    {
+     "file": "s16-sell-whatsoever-thou-hast.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "54fd2ae5f9fabfdc7d9b5c1a85091c6ca53d81dd0f90499b0da6da4f5a89f330"
+    },
+    {
+     "file": "s18-come-follow-me.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "b6446a1d02f5c8b331e7ae1d36f5d1803d28154f1bd128d3d38c09953c8dd01a"
+    },
+    {
+     "file": "s20-and-then-come.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "ec1db2dfb306830bb12b3a366b329c11417bf55a67e8b48ba3eac1b14596728a"
+    },
+    {
+     "file": "s24-he-did-not-argue.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "a8a94e02e6d3370c619dacd5f75dcba0a3138dbc1f94577a0ec1bc4f594ea57e"
+    },
+    {
+     "file": "s27-he-let-him-go.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "c6f1c030db25167b465099ec2f65f8befe1c0557455875806bb9bfe46b48324a"
+    },
+    {
+     "file": "s28-he-did-not-chase-him.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "55d28bca8790e0a71c3d328d415921f1b95851d28093f2959b4176a58b9da0b0"
+    },
+    {
+     "file": "s29-loved-him-the-whole-time.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "86d3ea60cc96a02199a2e3e15647bddf30ab5cc3880e40b4f0d10bb7f7d1912d"
+    },
+    {
+     "file": "s31-a-love-that-will-not-force-you.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "3b7211065db457baf0bddfa2b0b573d706988effa9d79631f59a8a4f8870ab9b"
+    }
+   ]
+  },
+  "rich-young-man": {
+   "anchor": "CAST-REF-V2/ruler-ref.jpeg",
+   "anchor_sha256": "cd9db51c71a72fd7c178d8a80db58fecce2935dd690775363129aa5d18f8bcc1",
+   "appearances": [
+    {
+     "file": "s02-running.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "c23574da2a63e1c91b246d4ad50a7396fdff1641333cca180837670a8bb1be21"
+    },
+    {
+     "file": "s03-beneath-them.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "e158a10d2cbbb8c9d242529cef615d84643a24afd3f4e56be44918ae20d92e18"
+    },
+    {
+     "file": "s04-he-reached-him.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "35c77d522dc5573698a747a67af16ab292f38ee2089566e67fb8968565fd5de0"
+    },
+    {
+     "file": "s05-knees-in-the-dust.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "a42bc338bc4ecf5d69abd04bc1de0e24cff627d337f6bbca200a2eb4ea4cfc33"
+    },
+    {
+     "file": "s06-good-master.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "79fe4d2935c337713295e5d6b970c177cdb1fc895e01bd36b1c03c2ba1fe2986"
+    },
+    {
+     "file": "s07-the-question-he-carried.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "83f2ba909a7c2517bd62458020163c275c268726c667c5ed8c2ad6fba6ab17ec"
+    },
+    {
+     "file": "s08-the-commandments.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "4687b3a23150bb1ae3e8b2e7f05ef36dbae520a354c0d76601f1d89ab872e939"
+    },
+    {
+     "file": "s09-since-i-was-a-boy.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "8f4b23018e627358a153477cfa029d17e7e9bf35a995eb5fc7de261ce483d8af"
+    },
+    {
+     "file": "s10-he-meant-it.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "f17e6c1082496e23718426f2ab6a5e980dfd40619861b185df50f54d805406fd"
+    },
+    {
+     "file": "s11-from-my-youth.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "5cdb013202c41865c46c4591eac7d55884a8b412a187608ac348356b861ecce9"
+    },
+    {
+     "file": "s13-the-two-of-them.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "3529e8d9c03d26f1bbf21276f7b8df8c969bb8cafeaf2b0f6dd5e936831a1a30"
+    },
+    {
+     "file": "s14-what-jesus-saw.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "463ab4c1409d52010d6aab4e975c3d4d6214f690c60a617ecdb2644c6e026fc9"
+    },
+    {
+     "file": "s16-sell-whatsoever-thou-hast.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "54fd2ae5f9fabfdc7d9b5c1a85091c6ca53d81dd0f90499b0da6da4f5a89f330"
+    },
+    {
+     "file": "s18-come-follow-me.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "b6446a1d02f5c8b331e7ae1d36f5d1803d28154f1bd128d3d38c09953c8dd01a"
+    },
+    {
+     "file": "s19-one-thing-between.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "5d320c18f4747975ce0f48837b885eba131d9f27d0c5c8feb0be2f78d7edc97c"
+    },
+    {
+     "file": "s22-could-not-put-it-down.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "02e5a9c88d696d00309257eaba9b673540e90230100f58578faa35fa3aa9b7a7"
+    },
+    {
+     "file": "s23-his-face-fell.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "e293a2243c65059c4ded5260fb91fd9d578d51cfa6cb8465ade6d6ca69abf231"
+    },
+    {
+     "file": "s24-he-did-not-argue.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "a8a94e02e6d3370c619dacd5f75dcba0a3138dbc1f94577a0ec1bc4f594ea57e"
+    },
+    {
+     "file": "s25-he-believed-every-word.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "6998f334974f4d94b80e78acd326aa7f8872feb97c64c65ad720717fff5bc842"
+    },
+    {
+     "file": "s26-back-down-that-road.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "cc0db712bbef76d456fca58fee17b5f880e40e737373ef135199dab88205418f"
+    },
+    {
+     "file": "s27-he-let-him-go.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "c6f1c030db25167b465099ec2f65f8befe1c0557455875806bb9bfe46b48324a"
+    }
+   ]
+  },
+  "peter": {
+   "anchor": "../CAST-V2-REF/peter-front.jpeg",
+   "anchor_sha256": "65243767a1b7241fc8fe0188f1fedb0e67f6d707a0f4133f1a0a9622b257e17e",
+   "appearances": [
+    {
+     "file": "s21-the-same-words.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "344df17ba0fb74a4278e3a86ef5bd6d781ecf0b009af048694ba1219247d7f52"
+    }
+   ]
+  },
+  "andrew": {
+   "anchor": "../CAST-V2-REF/andrew-front.jpeg",
+   "anchor_sha256": "0a6083838c6fecb55e36657da64aacfdddaf9cba69ae56468294d4393a159933",
+   "appearances": [
+    {
+     "file": "s21-the-same-words.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "344df17ba0fb74a4278e3a86ef5bd6d781ecf0b009af048694ba1219247d7f52"
+    }
+   ]
+  },
+  "james-z": {
+   "anchor": "../CAST-V2-REF/james-z-front.jpeg",
+   "anchor_sha256": "319fcb06a4a7d2481045a0e0b20bf47cc7adb12c941ed281cd88aaf381df28c6",
+   "appearances": [
+    {
+     "file": "s21-the-same-words.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "344df17ba0fb74a4278e3a86ef5bd6d781ecf0b009af048694ba1219247d7f52"
+    }
+   ]
+  },
+  "john": {
+   "anchor": "../CAST-V2-REF/john-front.jpeg",
+   "anchor_sha256": "5438e918b4851957db3f8ae37c1b86b5855d746fef8b20931b5b27b11d94e137",
+   "appearances": [
+    {
+     "file": "s21-the-same-words.jpeg",
+     "result": "pass",
+     "approved_frame_sha256": "344df17ba0fb74a4278e3a86ef5bd6d781ecf0b009af048694ba1219247d7f52"
+    }
+   ]
+  }
+ }
+}

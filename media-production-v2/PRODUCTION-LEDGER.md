@@ -623,6 +623,34 @@ session's earlier "no generation until re-piloted recipe" line. The standing law
   else ships. Ships to Reviewer only; app feed untouched.
 - Session results are appended below when the row closes.
 
+### Row 9 close — realistic rebuild DONE, cut shipped (2026-08-01)
+
+| row | slug | beats | gens | accepted | rerolls | spend | status | notes |
+|---|---|---|---|---|---|---|---|---|
+| 9 | build-09-rich-ruler | 31 | 46 (1 anchor + 31 beats + 14 reroll passes) | 32 | s01 GAZE+DRIFT+ORNAMENT · s02/s03 SPRINT-ECHO · s08 SEATED-STAGING · s09 t2 rejected (t1 restored) · s12 LOWERED-LIDS (love frame retake) · s14 STRAY-BLURRED-JESUS · s21 CAST-LAW (John's hair) · s22 CAMERA-GAZE · s27 ×3 (direction logic, three-stranger read, one WASTED reroll on an unapplied prompt edit — recorded honestly) · s28 ×2 (gaze, chase-read) · s31 WRONG-FACING | ≈$6.16 | **DONE — realistic V2 shipped, awaiting Cameron** | 196.8 s · 21.9 MB · AUDIO LOCK PASS 925aaf90… · verify-mp4 OK |
+
+- **All 31 windows re-timed** from the fixed `extract_beats.py` — the Jul 29
+  windows put the card at ~177 s vs the real 189.03 s. Key discovery worth
+  keeping: the V1 mp3s keep their LEADING silence (only trailing is trimmed),
+  so `audio_start + raw phrase time` IS the absolute time — no lead-trim
+  arithmetic. Sub-phrase splits (n0b "everyone," / j1's KJV clauses) were
+  placed on real breath pauses measured with silencedetect.
+- **Shared-meter lesson held:** the concurrent story-08 worker ate two of this
+  build's `--ceiling`s mid-run; `--only` slices with per-run recomputed
+  ceilings resumed cleanly each time, exactly as Session 8 prescribed.
+- **Rough-echo lesson recurred in a new form:** s02/s03's roughs were DROPPED
+  for the jog defect and the model still reproduced the jog from the scene
+  text alone — when a rough is dropped for a defect, the scene text must be
+  hardened against that same defect in the same edit.
+- The founding-story frames: b12 take 2 (eyes open, unmistakable love) and b29
+  take 1 (tears, love + grief, no relief) both pass the beat map's own
+  standard; both Read individually at 2K.
+- QC record: `build-09-rich-ruler/QC.md` · hash-locked boards
+  `IDENTITY-QC.json` (42 appearances) · rejected takes in
+  `assets-realistic/_rejected/`.
+- Board card v9 → new hash `e8cb3734…` (returns to Unwatched); sync-reviews
+  run; board deployed to Firebase. App-feed V1 untouched.
+
 ## 🛑 RESOLUTION AUDIT — 2026-07-30, Machine A (`Dev`): 159 of 424 pictures were 1K
 
 Cameron asked what had actually been made this session. Counting it turned up a defect

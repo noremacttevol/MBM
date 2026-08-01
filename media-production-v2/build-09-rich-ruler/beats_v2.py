@@ -1,12 +1,35 @@
 #!/usr/bin/env python3
 """V2 beat map — row 9, build-09-rich-ruler (Mark 10:17-22).
 
-Consumed by media-production-v2/v2_prompt.py. STYLE-V2, the forced-wide defense
-line, the anti-panel clause and JESUS LOCK v4 are prepended by the assembler so
-they stay byte-identical across every prompt.
+Consumed by media-production-v2/v2_prompt.py (--check/--dump) and
+media-production-v2/v2_gen_api.py (generation). STYLE-V2, the QUALITY LOCK, the
+anti-panel clause and JESUS LOCK v5 are prepended by the assembler so they stay
+byte-identical across every prompt.
+
+REALISTIC REBUILD (Session 9, 2026-08-01). The 21 stills in `assets/` are the
+2026-07-29 partial set (31 beats authored, 21 generated) that falls under the
+Session 6 blanket rejection of the old V2 look. They are kept untouched as
+ROUGH-DRAFT composition references where their staging is defect-free, while
+the realistic set generates fresh at native 2K into `assets-realistic/`.
+Roughs were individually reviewed 2026-08-01 and DROPPED for the beats where
+the rough itself carries the defect the beat must avoid (the rough-echo
+lesson, rows 2/5/6): b02/b03 (jog instead of a flat sprint), b08 (seated
+finger-sign staging instead of standing over the kneeling man), b09/b11/b19/b21
+(camera gaze or wrong hand business), b12/b15 (expression is the entire beat —
+generated free), b14 (standing instead of kneeling). Every prompt carries the
+byte-identical CAMERA lock: light from ONE believable direction, real lens
+depth of field, people caught MID-ACTION, and NOBODY looking at the camera.
+
+TIMING: windows recomputed 2026-08-01 from the fixed extract_beats.py —
+absolute audio phrase times (leading silence rides inside each segment's mp3,
+so raw phrase time + audio_start IS the absolute time), card at 189.03 s,
+total 196.8 s, matching the authoritative V1 cut. The Jul 29 windows carried
+the raw-vs-trimmed drift (their card sat at ~177 s, ~12 s early) and were all
+replaced. Sub-phrase splits (n0b p4a/p4b, j1 a/b/c) were placed on the real
+breath pauses measured with silencedetect.
 
 COVERAGE (STORY-COVERAGE-LAW): 31 pictures against V1's 8 unique stills, over
-177.4 s — 5.7 s per picture, the band rows 5-8 shipped at.
+189.0 s — 6.1 s per picture, the band rows 2-8 shipped at.
 
 ⚠️ THIS IS THE APP'S FOUNDING STORY. MBM's own CLAUDE.md ends its gospel
 principles with the sentence "Jesus let the rich young ruler walk away. This app
@@ -58,7 +81,26 @@ villain, and that reading destroys the story — Jesus loved him, and the viewer
 has to be able to see why.
 """
 
+OUTPUT_ASSET_DIR = "assets-realistic"
+OUTPUT_VIDEO_NAME = "mark-10_rich-ruler-realistic-v2.mp4"
+
+# Identity anchors by IMAGE (CAST-BIBLE principle; the row-2 CAST-DRIFT lesson —
+# text locks alone do not hold a face across 20+ frames). The young man is the
+# only new recurring character; Jesus rides on JESUS-V2-REF and the four named
+# disciples in b21 ride on the CAST-V2-REF library sheets.
+REFS = {
+    "RULER": "CAST-REF-V2/ruler-ref.jpeg",
+}
+
 LOCKS = {
+    "CAMERA": (
+        "CAMERA LOCK: photographed like a real film still on location with a real "
+        "cinema lens — light arrives from ONE believable direction and models "
+        "faces with true shadow, shallow depth of field holds the subject sharp "
+        "while the background falls gently away, and every person is caught "
+        "mid-action in a truthful candid instant, never posed, never lined up, "
+        "and NEVER looking at the camera."
+    ),
     "RULER": (
         "RICH YOUNG MAN LOCK: the young man is the same person in every shot — a "
         "Jewish man of about thirty-two, handsome and well-kept, warm olive skin, a "
@@ -105,8 +147,9 @@ BEATS = [
     # ------------------------------------------------------ n0 — the running ----
     {
         "id": "v2-r009-b01", "out": "s01-setting-out.jpeg", "seg": "n0 p1",
-        "window": "0.28-4.38", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["DISCIPLES", "ROAD"],
+        "window": "0.28-4.51", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "DISCIPLES", "ROAD"],
+        "rough_ref": "assets/s01-setting-out.jpeg",
         "narration": ("Jesus was setting out on a journey when a young man came "
                       "running down the road after him."),
         "must_show": "Jesus and the disciples already on the road out of town, and far behind them a small figure running to catch up.",
@@ -124,13 +167,14 @@ BEATS = [
     },
     {
         "id": "v2-r009-b02", "out": "s02-running.jpeg", "seg": "n0 p2-p3",
-        "window": "4.38-7.99", "wide": True, "jesus": False, "ref": False,
-        "locks": ["RULER", "ROAD"],
+        "window": "4.51-8.59", "wide": True, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "RULER", "ROAD"],
         "narration": "Running. You need to understand what that looked like.",
         "must_show": "him at FULL RUN — expensive robe hauled up out of his own way, gold rings on the pumping hand, dust flying, dignity abandoned — while townspeople turn and stare.",
         "must_not_show": "not a dignified jog; he is genuinely sprinting and it looks undignified, which is the point. Do not put Jesus in this frame.",
         "scene": (
-            "The young man is at a flat sprint up the middle of the road, caught "
+            "The young man is at a genuine flat-out SPRINT up the middle of the road — "
+            "torso driving forward, long urgent stride like a runner at full speed, caught "
             "mid-stride with both feet off the ground. He has dragged the skirt of his "
             "fine deep-purple robe up in one fist to free his legs, the embroidered "
             "hem swinging, his other hand pumping with the gold rings flashing on it, "
@@ -143,14 +187,15 @@ BEATS = [
     },
     {
         "id": "v2-r009-b03", "out": "s03-beneath-them.jpeg", "seg": "n0b p1-p3",
-        "window": "8.49-17.26", "wide": True, "jesus": False, "ref": False,
-        "locks": ["RULER", "ROAD"],
+        "window": "8.59-18.47", "wide": True, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "RULER", "ROAD"],
         "narration": ("This man was wealthy — fine robes, gold rings, a name people "
                       "knew. Men like that did not run in public. It was beneath them."),
         "must_show": "the social cost: he runs past two other well-dressed men of his own class who have stopped dead and are watching him with open disapproval, one saying something to the other.",
         "must_not_show": "the two rich men are not comic and not cruel — just embarrassed for him; and the young man does not care, which is what makes him worth loving.",
         "scene": (
-            "Still running, the young man passes two other well-dressed men of his own "
+            "Still at a full sprint — both feet clear of the ground, the skirt of his "
+            "purple robe gripped up in one fist — the young man passes two other well-dressed men of his own "
             "rank standing at the roadside in good dark robes with silver at their "
             "belts and servants behind them. Both have stopped dead to watch him go "
             "by — one with his brows up and his mouth open, the other leaning in to "
@@ -162,8 +207,9 @@ BEATS = [
     },
     {
         "id": "v2-r009-b04", "out": "s04-he-reached-him.jpeg", "seg": "n0b p4a",
-        "window": "17.26-19.8", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["RULER", "DISCIPLES", "ROAD"],
+        "window": "18.47-21.20", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "RULER", "DISCIPLES", "ROAD"],
+        "rough_ref": "assets/s04-he-reached-him.jpeg",
         "narration": "He ran anyway, in front of everyone,",
         "must_show": "he arrives — pulling up hard in front of Jesus, chest heaving, out of breath; the disciples turning in surprise.",
         "must_not_show": "no halo, glare or rim-light; he has not knelt yet.",
@@ -180,8 +226,9 @@ BEATS = [
     },
     {
         "id": "v2-r009-b05", "out": "s05-knees-in-the-dust.jpeg", "seg": "n0b p4b",
-        "window": "19.8-22.42", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["RULER", "DISCIPLES", "ROAD"],
+        "window": "21.20-24.93", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "RULER", "DISCIPLES", "ROAD"],
+        "rough_ref": "assets/s05-knees-in-the-dust.jpeg",
         "narration": "and dropped to his knees in the dust at Jesus's feet.",
         "must_show": "the expensive purple robe going down into the dirt of the road — both knees in the dust at Jesus's feet, in front of everyone.",
         "must_not_show": "no halo, glare or rim-light; nobody is helping him up or pushing him down; the dust on the fine cloth must be visible and must read as costly.",
@@ -198,8 +245,9 @@ BEATS = [
     },
     {
         "id": "v2-r009-b06", "out": "s06-good-master.jpeg", "seg": "s17",
-        "window": "22.95-26.30", "wide": False, "jesus": False, "ref": False,
-        "locks": ["RULER"],
+        "window": "24.93-29.80", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "RULER"],
+        "rough_ref": "assets/s06-good-master.jpeg",
         "narration": ("Good Master, what shall I do that I may inherit eternal life? "
                       "(Mark 10:17)"),
         "must_show": "close on his upturned face from his knees — earnest, breathless, hungry; a man asking the question of his life.",
@@ -217,8 +265,9 @@ BEATS = [
     # -------------------------------------------- n1 — the commandments ----
     {
         "id": "v2-r009-b07", "out": "s07-the-question-he-carried.jpeg", "seg": "n1 p1-p2",
-        "window": "27.72-35.06", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["RULER", "DISCIPLES", "ROAD"],
+        "window": "29.80-36.92", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "RULER", "DISCIPLES", "ROAD"],
+        "rough_ref": "assets/s07-the-question-he-carried.jpeg",
         "narration": ("He asked the question he had been carrying, maybe his whole "
                       "life. Good teacher — what do I have to do to live forever with "
                       "God?"),
@@ -236,14 +285,15 @@ BEATS = [
     },
     {
         "id": "v2-r009-b08", "out": "s08-the-commandments.jpeg", "seg": "n1 p3-p7",
-        "window": "35.06-43.60", "wide": False, "jesus": True, "ref": REF,
-        "locks": ["RULER"],
+        "window": "36.92-46.03", "wide": False, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "RULER"],
         "narration": ("Jesus pointed him to the commandments. Don't cheat anyone. "
                       "Don't steal. Don't lie. Honor your father and your mother."),
         "must_show": "Jesus counting them off on his fingers, plainly and without severity — and the young man's face lifting slightly with each one, nodding, recognising ground he has already covered.",
-        "must_not_show": "no halo, glare or rim-light; this is not a test or an accusation — Jesus is being straightforward and the man is not being caught out.",
+        "must_not_show": "Jesus is NOT seated — he remains standing on the road as in the surrounding frames; no halo, glare or rim-light; this is not a test or an accusation — Jesus is being straightforward and the man is not being caught out.",
         "scene": (
-            "Close on Jesus and the kneeling young man together. Jesus has one hand "
+            "Close on Jesus and the kneeling young man together. Jesus is STANDING over "
+            "him on the road, never seated, bending very slightly toward him, and has one hand "
             "raised between them and is counting the commandments off on his fingers, "
             "two folded down and a third going, his expression plain and matter of "
             "fact with no severity in it at all. Below and in front of him the young "
@@ -255,8 +305,8 @@ BEATS = [
     },
     {
         "id": "v2-r009-b09", "out": "s09-since-i-was-a-boy.jpeg", "seg": "n1 p8",
-        "window": "43.60-49.17", "wide": False, "jesus": False, "ref": False,
-        "locks": ["RULER"],
+        "window": "46.03-51.51", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "RULER"],
         "narration": ("And the young man answered: Teacher, I have kept every one of "
                       "them since I was a boy."),
         "must_show": "his face answering — open, direct, meeting Jesus's eyes, telling the simple truth about his own life.",
@@ -267,13 +317,16 @@ BEATS = [
             "expression is completely open and simple — no pride in it, no performance, "
             "just a plain statement of fact and, underneath it, a hopeful searching "
             "look, as if he is waiting to be told it is enough. Dust on his cheek and "
-            "his fine collar. The sunlit road soft behind him."
+            "his fine collar. Behind him is the open sunlit ROAD falling far out of "
+            "focus — pale dust, a low field wall and dry hills, never a building wall "
+            "close behind his head."
         ),
     },
     {
         "id": "v2-r009-b10", "out": "s10-he-meant-it.jpeg", "seg": "n1 p9-p12",
-        "window": "49.17-59.77", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["RULER", "DISCIPLES", "ROAD"],
+        "window": "51.51-63.38", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "RULER", "DISCIPLES", "ROAD"],
+        "rough_ref": "assets/s10-he-meant-it.jpeg",
         "narration": ("And here is the thing. He meant it. This was not a proud man "
                       "showing off. This was a student who had done all the homework, "
                       "kneeling in the dirt, asking if it was enough."),
@@ -292,8 +345,8 @@ BEATS = [
     },
     {
         "id": "v2-r009-b11", "out": "s11-from-my-youth.jpeg", "seg": "s20",
-        "window": "60.28-62.88", "wide": False, "jesus": False, "ref": False,
-        "locks": ["RULER"],
+        "window": "63.38-67.84", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "RULER"],
         "narration": ("Master, all these have I observed from my youth. (Mark 10:20)"),
         "must_show": "very close on his face saying it — quiet, honest, and underneath the honesty a real fear that it still is not enough.",
         "must_not_show": "no pride and no defiance anywhere in the face; do not put Jesus in this frame.",
@@ -309,15 +362,15 @@ BEATS = [
     # ------------------------------------------------ n2 — THE LOOK ----
     {
         "id": "v2-r009-b12", "out": "s12-looking-at-him-loved-him.jpeg", "seg": "n2 p1-p2",
-        "window": "64.61-70.02", "wide": False, "jesus": True, "ref": REF,
-        "locks": [],
+        "window": "67.84-73.49", "wide": False, "jesus": True, "ref": REF,
+        "locks": ["CAMERA"],
         "narration": ("Mark writes what happened next in five words. Jesus, looking at "
                       "him, loved him."),
         "must_show": "⚠️ THE MOST IMPORTANT FRAME IN THIS VIDEO. Close on Jesus's face looking down at him, and the expression is unmistakably LOVE — warm, moved, tender, his eyes soft and completely fixed on the man.",
         "must_not_show": "NOT pity. NOT sadness. NOT disappointment. NOT sternness. NOT a knowing look. If this face reads as anything other than love for the person in front of him, the frame is a hard fail and must be regenerated. No halo, glare or rim-light.",
         "scene": (
             "Very close on Jesus's face, filling the frame, looking down and slightly "
-            "off camera at the man kneeling in front of him. His eyes have gone soft "
+            "off camera at the man kneeling in front of him. His eyes are OPEN, soft "
             "and warm and are completely fixed, and there is a small, moved, tender "
             "set to his mouth — the unguarded expression of someone looking at a "
             "person he has just come to love. His head is tipped a little toward the "
@@ -327,8 +380,9 @@ BEATS = [
     },
     {
         "id": "v2-r009-b13", "out": "s13-the-two-of-them.jpeg", "seg": "n2 p3",
-        "window": "70.02-74.80", "wide": False, "jesus": True, "ref": REF,
-        "locks": ["RULER"],
+        "window": "73.49-78.49", "wide": False, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "RULER"],
+        "rough_ref": "assets/s13-the-two-of-them.jpeg",
         "narration": ("Of all the people in Mark's story, this is the one he says it "
                       "about, straight out."),
         "must_show": "the two of them together and held — Jesus looking down with that same love, the young man looking up, the road and everyone else forgotten.",
@@ -345,12 +399,12 @@ BEATS = [
     },
     {
         "id": "v2-r009-b14", "out": "s14-what-jesus-saw.jpeg", "seg": "n2 p4",
-        "window": "74.80-80.17", "wide": False, "jesus": False, "ref": False,
-        "locks": ["RULER"],
+        "window": "78.49-85.57", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "RULER"],
         "narration": ("Jesus looked at this man — his sincerity, his gold rings, his "
                       "hope — and loved him."),
         "must_show": "exactly what the narration lists, in one frame: the upturned sincere face, the gold rings on his clasped hands, and the hope in his eyes.",
-        "must_not_show": "the rings are not sinister and not emphasised as greed — they are simply part of him; do not put Jesus in this frame.",
+        "must_not_show": "the rings are not sinister and not emphasised as greed — they are simply part of him; NOBODY else appears anywhere in the frame, not even out of focus at an edge — no shoulder, no head, no cream cloth; the young man is entirely alone in the picture.",
         "scene": (
             "Close on the young man from Jesus's own eye level, taking in all of him "
             "at once — his upturned earnest face with the dust on it, his hands "
@@ -363,8 +417,8 @@ BEATS = [
     },
     {
         "id": "v2-r009-b15", "out": "s15-with-love-in-his-voice.jpeg", "seg": "n2 p5",
-        "window": "80.17-84.86", "wide": False, "jesus": True, "ref": REF,
-        "locks": [],
+        "window": "85.57-91.28", "wide": False, "jesus": True, "ref": REF,
+        "locks": ["CAMERA"],
         "narration": ("And then, with love in his voice, he said the hardest sentence "
                       "in the book."),
         "must_show": "Jesus beginning to speak — the same warmth still on his face, and something costly arriving behind his eyes because of what he is about to say.",
@@ -381,8 +435,9 @@ BEATS = [
     # ------------------------------------------------- j1 — one thing ----
     {
         "id": "v2-r009-b16", "out": "s16-sell-whatsoever-thou-hast.jpeg", "seg": "j1 a",
-        "window": "85.35-89.0", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["RULER", "DISCIPLES", "ROAD"],
+        "window": "91.28-97.15", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "RULER", "DISCIPLES", "ROAD"],
+        "rough_ref": "assets/s16-sell-whatsoever-thou-hast.jpeg",
         "narration": ("One thing thou lackest: go thy way, sell whatsoever thou hast, "
                       "(Mark 10:21)"),
         "must_show": "Jesus speaking it down to him plainly, the disciples' heads coming up sharply as they hear the terms.",
@@ -399,8 +454,9 @@ BEATS = [
     },
     {
         "id": "v2-r009-b17", "out": "s17-give-to-the-poor.jpeg", "seg": "j1 b",
-        "window": "89.0-92.0", "wide": True, "jesus": False, "ref": False,
-        "locks": ["POOR", "ROAD"],
+        "window": "97.15-98.80", "wide": True, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "POOR", "ROAD"],
+        "rough_ref": "assets/s17-give-to-the-poor.jpeg",
         "narration": "and give to the poor, (Mark 10:21)",
         "must_show": "who 'the poor' actually are — the beggars and poor families along the wall by the town gateway, real faces, close enough to matter.",
         "must_not_show": "CONTENT-CARE: painted with dignity, never as grotesque or as pitiable spectacle; nobody is being given anything yet; do not put Jesus in this frame.",
@@ -418,8 +474,9 @@ BEATS = [
     },
     {
         "id": "v2-r009-b18", "out": "s18-come-follow-me.jpeg", "seg": "j1 c",
-        "window": "92.0-95.05", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["RULER", "ROAD"],
+        "window": "98.80-106.14", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "RULER", "ROAD"],
+        "rough_ref": "assets/s18-come-follow-me.jpeg",
         "narration": ("and thou shalt have treasure in heaven: and come, take up the "
                       "cross, and follow me. (Mark 10:21)"),
         "must_show": "THE INVITATION — Jesus's hand out toward him in open welcome, and the open road behind Jesus running away toward the hills, the way he would be going.",
@@ -437,8 +494,8 @@ BEATS = [
     # ---------------------------------------------- n3 — the one thing ----
     {
         "id": "v2-r009-b19", "out": "s19-one-thing-between.jpeg", "seg": "n3 p1-p5",
-        "window": "96.57-105.66", "wide": False, "jesus": False, "ref": False,
-        "locks": ["RULER"],
+        "window": "106.14-115.59", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "RULER"],
         "narration": ("You're missing one thing. Not one more rule. One thing standing "
                       "between you and God. Sell what you have. Give it to the people "
                       "who have nothing."),
@@ -456,8 +513,9 @@ BEATS = [
     },
     {
         "id": "v2-r009-b20", "out": "s20-and-then-come.jpeg", "seg": "n3 p6",
-        "window": "105.66-108.69", "wide": False, "jesus": True, "ref": REF,
-        "locks": [],
+        "window": "115.59-118.82", "wide": False, "jesus": True, "ref": REF,
+        "locks": ["CAMERA"],
+        "rough_ref": "assets/s20-and-then-come.jpeg",
         "narration": "And then — come, follow me.",
         "must_show": "close on Jesus's open offered hand held steady in the air, waiting, and his face above it still warm.",
         "must_not_show": "no halo, glare or rim-light; the hand is not withdrawn and not insistent — it simply waits.",
@@ -472,17 +530,22 @@ BEATS = [
     # ------------------------------------------- n3b — the same call ----
     {
         "id": "v2-r009-b21", "out": "s21-the-same-words.jpeg", "seg": "n3b p1-p4",
-        "window": "109.24-119.01", "wide": True, "jesus": False, "ref": False,
-        "locks": ["PETER", "ANDREW", "JOHN", "JAMES-Z", "ROAD"],
+        "window": "118.82-129.29", "wide": True, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "PETER", "ANDREW", "JOHN", "JAMES-Z", "ROAD"],
         "narration": ("Hear that last part. It was an invitation. The same words Jesus "
                       "used to call Peter, and Andrew, and James, and John. He was "
                       "being invited into the inner circle."),
         "must_show": "the four men who got this identical call and took it — Peter, Andrew, James and John standing together on the road watching, with an open gap among them where a fifth man could stand.",
         "must_not_show": "they are not smug or possessive about their place — they are watching with real sympathy; do not put Jesus in this frame.",
         "scene": (
-            "Four of the disciples stand together at the roadside watching what is "
-            "happening — Peter with his arms folded and his heavy brows down, Andrew "
-            "beside him, James tall behind them, and young John at the end with his "
+            "Four of the disciples stand together at the roadside, every one of them "
+            "turned toward and intently watching something happening BEYOND THE LEFT "
+            "EDGE of the frame — all four gazes angled clearly off-frame to the left, "
+            "never toward the camera. It is "
+            "Peter with his arms folded and his heavy brows down, Andrew "
+            "beside him in his olive tunic, James tall behind them with his long dark "
+            "hair, and young clean-shaven John at the end — his LONG flowing light-brown "
+            "hair to his shoulders — with his "
             "face open and troubled. All four are dusty from the road with their bags "
             "on their shoulders, ordinary working men who once heard these same words "
             "and followed. Between Peter and John there is a clear open gap in their "
@@ -494,8 +557,8 @@ BEATS = [
     },
     {
         "id": "v2-r009-b22", "out": "s22-could-not-put-it-down.jpeg", "seg": "n3b p5",
-        "window": "119.01-122.90", "wide": True, "jesus": False, "ref": False,
-        "locks": ["RULER", "ROAD"],
+        "window": "129.29-134.01", "wide": True, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "RULER", "ROAD"],
         "narration": ("It just came wrapped in the one thing this man could not put "
                       "down."),
         "must_show": "his eyes gone away from Jesus and back down the road toward the town — toward the house, the land, the life that is already pulling at him.",
@@ -507,15 +570,16 @@ BEATS = [
             "olive terraces of everything he owns lie spread out in the sunlight. His "
             "face is stricken. One hand is still closed around the rings on the other. "
             "The camera is behind and beside him so both his turned face and the town "
-            "he is looking at are in the same frame. He has two arms, two hands and "
+            "he is looking at are in the same frame — his face in lost profile turned "
+            "away toward the town, never toward the camera. He has two arms, two hands and "
             "one head."
         ),
     },
     # --------------------------------------------------- n4 — he grieves ----
     {
         "id": "v2-r009-b23", "out": "s23-his-face-fell.jpeg", "seg": "n4 p1-p2",
-        "window": "123.51-128.64", "wide": False, "jesus": False, "ref": False,
-        "locks": ["RULER"],
+        "window": "134.01-138.67", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "RULER"],
         "narration": ("His face fell. And he walked away grieved — because he was very "
                       "rich."),
         "must_show": "THE EXACT MOMENT his face falls — the light going out of it, his eyes dropping, the beginning of the turn away.",
@@ -531,8 +595,8 @@ BEATS = [
     },
     {
         "id": "v2-r009-b24", "out": "s24-he-did-not-argue.jpeg", "seg": "n4 p3-p5",
-        "window": "128.64-135.40", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["RULER", "DISCIPLES", "ROAD"],
+        "window": "138.67-146.39", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "RULER", "DISCIPLES", "ROAD"],
         "narration": ("Notice what the text does not say. It does not say he stopped "
                       "believing. It does not say he argued."),
         "must_show": "him back on his feet, standing in front of Jesus with his head down and nothing to say — no argument, no defence, no protest.",
@@ -550,8 +614,8 @@ BEATS = [
     },
     {
         "id": "v2-r009-b25", "out": "s25-he-believed-every-word.jpeg", "seg": "n4b p1",
-        "window": "135.99-141.67", "wide": False, "jesus": False, "ref": False,
-        "locks": ["RULER"],
+        "window": "146.39-151.62", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "RULER"],
         "narration": ("He grieved — because he believed every word, and the price was "
                       "the thing he loved most."),
         "must_show": "close on his face as he turns to go — wet eyes, mouth working, belief and loss on him at the same time.",
@@ -567,8 +631,8 @@ BEATS = [
     },
     {
         "id": "v2-r009-b26", "out": "s26-back-down-that-road.jpeg", "seg": "n4b p2",
-        "window": "141.67-145.83", "wide": True, "jesus": False, "ref": False,
-        "locks": ["RULER", "ROAD"],
+        "window": "151.62-156.58", "wide": True, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "RULER", "ROAD"],
         "narration": ("He turned around, and he walked back down that road toward "
                       "everything he owned."),
         "must_show": "SHOT FROM BEHIND HIM: the young man walking away down the road toward the town, seen from the back, his face hidden, already small with distance.",
@@ -586,14 +650,18 @@ BEATS = [
     # -------------------------------------- n5 — and Jesus let him go ----
     {
         "id": "v2-r009-b27", "out": "s27-he-let-him-go.jpeg", "seg": "n5 p1-p2",
-        "window": "146.46-149.73", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["ROAD"],
+        "window": "156.58-159.86", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "ROAD"],
         "narration": "And Jesus let him go. He did not lower the bar.",
         "must_show": "Jesus standing completely still on the road where he was, not moving, not calling out — watching.",
         "must_not_show": "no halo, glare or rim-light; he does NOT reach after him, does not open his mouth, does not take a step; his arms are not crossed.",
         "scene": (
-            "Jesus stands still on the road exactly where he was, facing the way the "
-            "young man has gone. He has not moved a step and his arms hang loose and "
+            "Seen from behind and a little to one side: Jesus stands still on the road "
+            "exactly where he was, his back and shoulder toward the camera, his face "
+            "turned away in quarter profile, watching down the road the way the "
+            "young man has gone. Far down that road, small with distance, the solitary "
+            "figure of the young man in his deep-purple robe walks away from him — "
+            "NOBODY else is anywhere on the road. Jesus has not moved a step and his arms hang loose and "
             "open at his sides — not folded, not reaching. He is simply standing there "
             "watching, his weight settled, making no move to follow and saying nothing. "
             "The dusty road runs away from him toward the distant town. The camera is "
@@ -603,8 +671,8 @@ BEATS = [
     },
     {
         "id": "v2-r009-b28", "out": "s28-he-did-not-chase-him.jpeg", "seg": "n5 p3-p4",
-        "window": "149.73-153.99", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["DISCIPLES", "ROAD"],
+        "window": "159.86-164.21", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "DISCIPLES", "ROAD"],
         "narration": "He did not soften the terms. He did not chase him down the road.",
         "must_show": "the disciples looking at Jesus — one half-turned as if to ask whether they should go after him — and Jesus not moving.",
         "must_not_show": "no halo, glare or rim-light; nobody actually sets off after the man; Jesus is not defensive or explaining himself.",
@@ -613,16 +681,18 @@ BEATS = [
             "to look at Jesus. One has taken half a step after the young man and "
             "stopped, his hand out and his face turned back questioningly; Peter's "
             "brows are down; another has his hands open in a plain unspoken question. "
-            "Jesus stands among them completely unmoved, still looking down the road, "
-            "answering none of them. Nobody goes after the man. Bright afternoon light "
+            "Jesus stands among them completely unmoved, his face in profile, his gaze "
+            "fixed away down the road after the man and never toward the camera, "
+            "answering none of them. Nobody goes after the man and the road beyond the "
+            "group is COMPLETELY EMPTY — not one walking figure anywhere on it. Bright afternoon light "
             "and dust. The camera is back far enough to hold the group head to "
             "sandals. Every figure has two arms, two hands and one head."
         ),
     },
     {
         "id": "v2-r009-b29", "out": "s29-loved-him-the-whole-time.jpeg", "seg": "n5 p5",
-        "window": "153.99-159.51", "wide": False, "jesus": True, "ref": REF,
-        "locks": [],
+        "window": "164.21-170.83", "wide": False, "jesus": True, "ref": REF,
+        "locks": ["CAMERA"],
         "narration": ("He stood there, and he watched him walk away — and he loved him "
                       "the whole time."),
         "must_show": "⚠️ THE SECOND MOST IMPORTANT FRAME IN THIS VIDEO. Close on Jesus's face watching him go: the SAME love as b12 still plainly on it, now carrying grief of his own.",
@@ -641,8 +711,8 @@ BEATS = [
     # ---------------------------------------------- n6 — the road empties ----
     {
         "id": "v2-r009-b30", "out": "s30-the-road-emptied.jpeg", "seg": "n6 p1-p4",
-        "window": "160.10-169.85", "wide": True, "jesus": False, "ref": False,
-        "locks": ["ROAD"],
+        "window": "170.83-180.92", "wide": True, "jesus": False, "ref": False,
+        "locks": ["CAMERA", "ROAD"],
         "narration": ("The road emptied. The sun went down. And the story just ends "
                       "there — Mark leaves it exactly that sad, on purpose. Sit with it."),
         "must_show": "an EMPTY road at sunset — nobody on it at all, the town small and far off, long shadows, the day ending.",
@@ -659,14 +729,16 @@ BEATS = [
     },
     {
         "id": "v2-r009-b31", "out": "s31-a-love-that-will-not-force-you.jpeg", "seg": "n6 p5-p6",
-        "window": "169.85-177.09", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["ROAD"],
+        "window": "180.92-189.03", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["CAMERA", "ROAD"],
         "narration": ("A love that will not force you. Is that weakness — or is it the "
                       "deepest respect you have ever been shown?"),
         "must_show": "the closing image: Jesus alone on the road in the last of the light, still looking the way the man went, having let him.",
         "must_not_show": "no halo, glare or rim-light; nobody else in the frame; no resolution and no comfort — the story ends unresolved and the picture must too.",
         "scene": (
             "The last of the sunset. Jesus stands alone on the empty road, seen from "
+            "some way BEHIND him — his back mostly to the camera, his face turned away "
+            "toward the distant town — and from "
             "some way back and slightly to the side, a single small figure against the "
             "long gold light, still turned toward the distant town and still looking "
             "the way the young man went. His hands hang open at his sides. The road, "
