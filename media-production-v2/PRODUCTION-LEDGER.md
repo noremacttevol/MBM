@@ -651,6 +651,30 @@ session's earlier "no generation until re-piloted recipe" line. The standing law
 - Board card v9 → new hash `e8cb3734…` (returns to Unwatched); sync-reviews
   run; board deployed to Firebase. App-feed V1 untouched.
 
+## Session 10 — 2026-08-01 — CLAIM: story 10 (woman at the well) realistic rebuild (Claude worker 7, Machine A / `Dev`)
+
+- **Model:** Fable 5 (Claude Code) · **Machine:** Machine A — hostname `Dev`
+- **CLAIM (2026-08-01): story 10 build-10-well for the REALISTIC rebuild** —
+  assigned row (parallel workers hold 04/08/09 etc.). Row 10's 32 existing V2
+  stills are ALL 768x1376 (the resolution audit below: the entire row generated
+  inside Flow's upscaler-down window) AND fall under the Session 6 blanket
+  rejection — none can ship. They stay in `assets/` untouched as rough-draft
+  composition refs at most (ROUGH-DRAFT CONTINUITY LAW; rough-echo corollary
+  from row 9 applies — if a dropped rough's defect reproduces from scene text,
+  the scene text gets hardened in the same edit). The realistic set generates
+  to `assets-realistic/` via `v2_gen_api.py` (gemini-3-pro-image, native 2K,
+  hard per-run ceiling recomputed from the live shared meter, `--only` slices).
+  Audio stays LOCKED to the authoritative narration — this is one of the app's
+  FOUNDING stories (the onboarding uses it); no re-voicing, encoded-audio hash
+  lock at assembly. This row carries a WOMAN speaker (w9/w11/w15/w19/w25/w29
+  KJV lines) alongside narrator + Jesus. All windows re-timed from the fixed
+  `extract_beats.py` (the old windows carry the raw-vs-trimmed drift) and
+  verified with silencedetect. NOON light is CORRECT here ("the sixth hour").
+  Ships to Reviewer only; app feed untouched.
+- Session results are appended below when the row closes.
+
+---
+
 ## 🛑 RESOLUTION AUDIT — 2026-07-30, Machine A (`Dev`): 159 of 424 pictures were 1K
 
 Cameron asked what had actually been made this session. Counting it turned up a defect
