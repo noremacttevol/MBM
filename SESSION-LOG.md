@@ -1,3 +1,24 @@
+## 2026-08-01 — Repo hygiene: gitignored flow_driver sidecars + archive audio; cleared stale rebase (Machine A / `Dev`)
+
+Commit: 2db020e8e. Cameron asked for the untracked `.size` / `.FAILED.txt` /
+archive-audio clutter in git status to be resolved per v2 conventions. Audit
+first, delete second: all 158 `.size` markers were checked against their
+neighbor jpeg's real SOF-header width — every single one sits beside a
+genuine 768px sub-2K still, so NONE were stale and none were deleted (they
+are live re-pull signals for `v2_prompt._below_2k`, which reads the marker
+BEFORE the header — a stale one would cause endless re-pulls, but there are
+none). `*.FAILED.txt` is confirmed dead: nothing in current code reads or
+writes it (retired Flow 1K-fallback era; contents are browser-scrape junk) —
+deleted the 10 outside build-12/build-13, left the 10 inside those builds
+untouched (Codex has uncommitted work there). Both patterns added to
+media-production-v2/.gitignore; `archive/dupe-dirs/**/*.mp3` added to the
+root .gitignore (superseded reference audio — ignored, never deleted). Also
+found and safely removed a stale `.git/rebase-merge` dir abandoned
+2026-07-29 mid history-rewrite (810 todo commands): verified its orig-head
+is an ancestor of current main before `rm -rf` — a `git rebase --abort`
+would have reset main 3 days back. No jpeg/mp3/mp4 touched; other machines'
+modified files stashed and restored around the push.
+
 ## 2026-08-01 — Video 2 (Prodigal Son): full realistic rebuild shipped to the board (Machine A / `Dev`)
 
 Commit: d22eac3cc. "Continue on to the next" → picked story 02 as the lowest
