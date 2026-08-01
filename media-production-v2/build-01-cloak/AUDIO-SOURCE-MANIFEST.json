@@ -1,0 +1,50 @@
+{
+  "row": 1,
+  "policy": "The authoritative V1 final remains the base audio. Only the two exact Jesus source windows named by Cameron's room-noise complaint are replaced by the same Alexander takes after the shared MBM denoise filter. No TTS request, rewrite, shortening, retiming, or other-speaker change occurs.",
+  "authoritative_v1": {
+    "path": "media-production/build-01-cloak/mark-5_woman-touches-his-cloak.mp4",
+    "git_blob_sha1": "a3c6aa6415aee3f7804688aa9e1b0b2e8acf6a0e",
+    "file_sha256": "3cea29ce37c2943f9578f5d2f99fd473c1c53358a49a102d93595b7b4ec54d91",
+    "audio_packet_sha256": "63014156f0cf69c1f43c1c1ba9524d79e55a7ea559af8a133ebd9c7eb7c74269"
+  },
+  "candidate": {
+    "path": "media-production-v2/build-01-cloak/mark-5_woman-touches-his-cloak-realistic-v3.mp4",
+    "git_blob_sha1": "ce61e1856757c0370d1acd14e4ea022903f54add",
+    "file_sha256": "f32d742ff644deb6c9cc222482cbd45fa7f076b25816e623a9dc376324053c25",
+    "audio_packet_sha256": "d88c1fe8beb1dabcbea63b8664e41d4173d8a84345a386a95a8be3e1a32097b9",
+    "duration_seconds": 108.833333
+  },
+  "approved_jesus_voice": {
+    "name": "Alexander",
+    "voice_id": "UMnEnzK9QLLdRwnUyxMW"
+  },
+  "repairs": [
+    {
+      "segment": "j0",
+      "text": "Who touched my clothes?",
+      "source": "media-production/build-01-cloak/audio/j0.mp3",
+      "source_sha256": "263c8ac528f79f44ec0aca32acec2522c80820b364e1f9461ef535e8d75f096c",
+      "elevenlabs_history_unix": 1784933626,
+      "timeline_start_seconds": 62.12,
+      "timeline_end_seconds": 63.74,
+      "gain_db": 7.0
+    },
+    {
+      "segment": "j1",
+      "text": "Daughter, thy faith hath made thee whole; go in peace, and be whole of thy plague.",
+      "source": "media-production/build-01-cloak/audio/j1.mp3",
+      "source_sha256": "15bd6f0b0c126df5ff3249bca03e0819a80b61a0281936bd8ad7256e0093abd7",
+      "elevenlabs_history_unix": 1784933631,
+      "timeline_start_seconds": 85.072,
+      "timeline_end_seconds": 90.505,
+      "gain_db": 7.8
+    }
+  ],
+  "filter": "highpass=f=75,afftdn=nf=-32:nt=w",
+  "non_repair_audio_base": "decoded authoritative V1 final, muted only during the two replacement windows",
+  "tts_requests_made": 0,
+  "script_changed": false,
+  "timeline_changed": false,
+  "audio_packet_match_to_v1": false,
+  "audio_packet_difference_reason": "intentional selective denoise authorized by the open reviewer complaint"
+}

@@ -1,5 +1,13 @@
 # MINISTRY GATE — row 1, build-01-cloak (V2)
 
+> **REALISTIC V3 ADDENDUM (2026-08-01, Codex):** the 20-picture story and all
+> compositions remain the approved V2 plan. Seventeen visible identity drifts
+> were repaired against one Jesus and one woman reference; three already-correct
+> frames remain byte-identical. Cameron's open background-sound complaint was
+> isolated to the two existing Alexander Jesus takes, which were selectively
+> denoised without generating a voice, changing a word, shortening a pause, or
+> moving anything on the timeline. The answers below remain true for this cut.
+
 PRODUCTION-BIBLE §5. Answered honestly, in writing, before the cut goes to Cameron.
 Target viewer for rows 1–100: **a stranger with no faith background.** Viewed once,
 straight through, as that person.
@@ -40,8 +48,10 @@ not an added claim.
 Yes, and this is where V2 differs most from V1. Nothing was compressed to close a
 row; the coverage went UP where the story needed it:
 
-- **20 pictures against V1's 11**, on identical audio. No beat was shortened; the
-  narration, timing and captions are the shipped V1 assets untouched.
+- **20 pictures against V1's 11**, on the same complete audio and timeline. No
+  beat was shortened; narration, wording, pauses, timing, and captions are
+  unchanged. Only the room tone inside the two complained-about Alexander Jesus
+  windows was selectively denoised.
 - Her one spoken line in the whole chapter had **no picture of its own** in V1 — it
   shared a still with the narration before it. It has its own frame now.
 - "Reached out to touch the edge of his cloak" — the hinge of the entire story —
