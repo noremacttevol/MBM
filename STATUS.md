@@ -17,8 +17,8 @@ reverent standard Cameron approved on 2026-07-30.
 
 | # | Story | V2 state | Reviewer candidate |
 |---|-------|----------|--------------------|
-| 07 | Peter Walks on Water (Matthew 14) | **V6 awaiting Cameron** 🟡 — all seven glass/artificial boat lamps removed; moonlight only; complete authoritative Alexander audio remains packet-identical | [▶ Peter V6](media-production-v2/codex-test-07-peter-water/video-build/peter-walks-on-water-codex-test-v6.mp4) |
-| 11 | Calming the Storm (Mark 4) | **V2 awaiting Cameron** 🟡 — 34 realistic pictures; launch and other little boats restored; bailing direction and mast action checked; post-command sea remains calm; complete authoritative audio remains packet-identical | [▶ Storm V2](media-production-v2/build-11-storm/mark-4_calming-the-storm.mp4) |
+| 07 | Peter Walks on Water (Matthew 14) | **DENIED by Cameron (board sync 2026-08-01)** 🔴 — his complaint: glass/artificial boat lamps with orange glow still present in the cut he saw; "immediately" mispronounced; old complaint text must not linger in the board's box. Fix owed: verify the lamp-free V6 actually shipped to the board (the cut he watched had lamps), re-render the "immediately" narration line, clear stale complaint text. | [▶ Peter V6](media-production-v2/codex-test-07-peter-water/video-build/peter-walks-on-water-codex-test-v6.mp4) |
+| 11 | Calming the Storm (Mark 4) | **DENIED by Cameron (board sync 2026-08-01)** 🔴 — his complaint: first picture is messed up (was fine before); one picture has a man climbing the mast; one picture shows men pouring water INTO the boat (action-logic law violated again); "Peace, be still" is spoken too fast. Fix owed: redo those three pictures, re-time the Jesus line. | [▶ Storm V2](media-production-v2/build-11-storm/mark-4_calming-the-storm.mp4) |
 
 New V2 cuts are published to the Firebase reviewer at
 `https://milk-b4-meat.web.app/review.html`. That board shows only this new visual
