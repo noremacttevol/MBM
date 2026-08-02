@@ -47,9 +47,15 @@ TIME OF DAY: one bright day throughout. No night, no sunset.
 # WHO IS TALKING (2026-08-01). This row's V1 predates the SPEAKER SYSTEM, so its
 # SEGMENTS carry raw edge-tts voice names instead of speaker constants. The four
 # j-segments are Jesus's own KJV words and must caption in the red-letter red;
-# everything else is the narrator. NOTE: the AUDIO for those four lines is still
-# the old en-US-ChristopherNeural take, NOT the current Jesus voice — under the
-# REDO-ALL law this row cannot go to the reviewer until it is re-voiced.
+# everything else is the narrator.
+#
+# VOICE PROVENANCE (measured 2026-08-01, correcting an earlier note here): the
+# make_narration.py docstring still says en-US-AndrewNeural / en-US-ChristopherNeural,
+# but that docstring was never updated after the ElevenLabs migration. The mp3s on
+# disk are 44.1 kHz / 128 kbps — the ElevenLabs mp3_44100_128 format — while edge-tts
+# emits 24 kHz mono / 48 kbps, and JESUS-VOICE.json independently records all four
+# Jesus lines as Alexander. This row ALREADY carries the current voices; it does NOT
+# need re-voicing under REDO-ALL.
 SPEAKER_OVERRIDES = {"j1": "jesus", "j2": "jesus", "j2b": "jesus", "j3": "jesus"}
 
 OUTPUT_ASSET_DIR = "assets-realistic"
@@ -137,7 +143,7 @@ BEATS = [
         # longest hold in the row. The narration turns hard at "It was also filled
         # with Roman soldiers", so the picture turns with it.
         "id": "v2-r015-b01b", "out": "s01b-the-army-that-ruled-them.jpeg", "seg": "n1 p2",
-        "window": "5.85-12.77", "wide": True, "jesus": False, "ref": False,
+        "window": "5.85-13.82", "wide": True, "jesus": False, "ref": False,
         "locks": ["CAPERNAUM", "SOLDIERS"],
         "narration": ("It was also filled with Roman soldiers — the army that had "
                       "conquered these people and now ruled them by force."),
@@ -160,7 +166,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b02", "out": "s02-every-reason-to-hate-rome.jpeg", "seg": "n2 p1",
-        "window": "14.25-16.71", "wide": False, "jesus": False, "ref": False,
+        "window": "13.82-16.28", "wide": False, "jesus": False, "ref": False,
         "locks": ["CAPERNAUM", "SOLDIERS"],
         "narration": "So the Jews here had every reason to hate Rome.",
         "must_show": "a Galilean man's face as he passes armoured soldiers — eyes down, jaw tight, resentment held in.",
@@ -177,7 +183,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b03", "out": "s03-this-man-wears-the-uniform.jpeg", "seg": "n2 p2",
-        "window": "16.71-21.17", "wide": True, "jesus": False, "ref": False,
+        "window": "16.28-21.77", "wide": True, "jesus": False, "ref": False,
         "locks": ["CENTURION", "CAPERNAUM"],
         "narration": ("Hold on to that, because the man this story is about wears a "
                       "Roman uniform."),
@@ -198,7 +204,7 @@ BEATS = [
     # ------------------------------------------------- n3/n4 — the servant ----
     {
         "id": "v2-r015-b04", "out": "s04-a-servant-was-dying.jpeg", "seg": "n3",
-        "window": "22.63-30.10", "wide": True, "jesus": False, "ref": False,
+        "window": "21.77-30.29", "wide": True, "jesus": False, "ref": False,
         "locks": ["SERVANT", "ROMAN-HOUSE"],
         "narration": ("In one of those Roman houses, a young servant was dying. His body "
                       "had gone stiff and useless, and he was in terrible pain."),
@@ -218,7 +224,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b05", "out": "s05-treated-as-property.jpeg", "seg": "n4 p1-p2",
-        "window": "31.58-37.50", "wide": False, "jesus": False, "ref": False,
+        "window": "30.29-36.21", "wide": False, "jesus": False, "ref": False,
         "locks": ["SERVANT"],
         "char_refs": ['assets-realistic/s04-a-servant-was-dying.jpeg'],
         "narration": ("A servant in those days was treated as property. If he died, "
@@ -236,7 +242,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b06", "out": "s06-he-could-not-walk-away.jpeg", "seg": "n4 p3",
-        "window": "37.50-40.96", "wide": True, "jesus": False, "ref": False,
+        "window": "36.21-40.72", "wide": True, "jesus": False, "ref": False,
         "locks": ["CENTURION", "SERVANT", "ROMAN-HOUSE"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg', 'assets-realistic/s04-a-servant-was-dying.jpeg'],
         "narration": "But this master could not bring himself to walk away.",
@@ -257,7 +263,7 @@ BEATS = [
     # ------------------------------------------------- n5/n6 — he goes ----
     {
         "id": "v2-r015-b07", "out": "s07-a-hundred-soldiers.jpeg", "seg": "n5",
-        "window": "42.44-50.66", "wide": True, "jesus": False, "ref": False,
+        "window": "40.72-49.98", "wide": True, "jesus": False, "ref": False,
         "locks": ["CENTURION", "SOLDIERS"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("The master was a centurion — a Roman officer in command of a "
@@ -277,7 +283,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b08", "out": "s08-he-went-straight-to-jesus.jpeg", "seg": "n6 p1",
-        "window": "52.13-56.60", "wide": True, "jesus": True, "ref": REF,
+        "window": "49.98-54.45", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CROWD", "CAPERNAUM"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("Yet he left his house and went straight to Jesus, a Jewish "
@@ -297,7 +303,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b09", "out": "s09-not-even-his-own-son.jpeg", "seg": "n6 p2-p4",
-        "window": "56.60-61.23", "wide": False, "jesus": False, "ref": False,
+        "window": "54.45-60.12", "wide": False, "jesus": False, "ref": False,
         "locks": ["CENTURION", "CROWD"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": "Not for himself. Not even for his own son. For a servant.",
@@ -316,7 +322,7 @@ BEATS = [
     # ---------------------------------------------------- n7 — the plea ----
     {
         "id": "v2-r015-b10", "out": "s10-he-came-humbly.jpeg", "seg": "n7 p1",
-        "window": "62.70-70.27", "wide": True, "jesus": True, "ref": REF,
+        "window": "60.12-67.69", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CROWD"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("He came humbly, head bowed, and told Jesus the plain truth: his "
@@ -337,7 +343,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b11", "out": "s11-could-you-help-him.jpeg", "seg": "n7 p2",
-        "window": "70.27-72.03", "wide": False, "jesus": False, "ref": False,
+        "window": "67.69-70.50", "wide": False, "jesus": False, "ref": False,
         "locks": ["CENTURION"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": "Could Jesus help him?",
@@ -356,7 +362,7 @@ BEATS = [
     # ----------------------------------------------- n8 / j1 — I will come ----
     {
         "id": "v2-r015-b12", "out": "s12-not-a-moments-hesitation.jpeg", "seg": "n8",
-        "window": "73.51-78.10", "wide": True, "jesus": True, "ref": REF,
+        "window": "70.50-76.12", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CROWD"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("Jesus did not hesitate for a moment. He answered that he would go "
@@ -376,7 +382,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b13", "out": "s13-i-will-come-and-heal-him.jpeg", "seg": "j1",
-        "window": "79.56-80.86", "wide": False, "jesus": True, "ref": REF,
+        "window": "76.12-78.88", "wide": False, "jesus": True, "ref": REF,
         "locks": [],
         "narration": "I will come and heal him. (Matthew 8:7)",
         "must_show": "close on Jesus saying it — simple, warm, entirely without calculation.",
@@ -392,7 +398,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b14", "out": "s14-into-the-enemys-house.jpeg", "seg": "n9 p1-p2",
-        "window": "82.32-91.89", "wide": True, "jesus": True, "ref": REF,
+        "window": "78.88-88.45", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CROWD", "CAPERNAUM"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("Stop and see what that means. Jesus was willing to walk into the "
@@ -414,7 +420,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b15", "out": "s15-that-is-who-jesus-is.jpeg", "seg": "n9 p3",
-        "window": "91.89-93.89", "wide": False, "jesus": True, "ref": REF,
+        "window": "88.45-91.48", "wide": False, "jesus": True, "ref": REF,
         "locks": [],
         "narration": "That is who Jesus is.",
         "must_show": "close on Jesus walking — untroubled, unhurried, going where he said he would go.",
@@ -430,7 +436,7 @@ BEATS = [
     # ------------------------------------------- n10/n11 — speak the word ----
     {
         "id": "v2-r015-b16", "out": "s16-but-the-officer-stopped-him.jpeg", "seg": "n10 p1",
-        "window": "95.35-96.73", "wide": True, "jesus": True, "ref": REF,
+        "window": "91.48-92.86", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": "But the officer stopped him.",
@@ -448,7 +454,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b17", "out": "s17-i-am-not-worthy.jpeg", "seg": "n10 p2",
-        "window": "96.73-100.96", "wide": True, "jesus": True, "ref": REF,
+        "window": "92.86-97.09", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CROWD"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("Lord, he said, I am not worthy to have you come into my home."),
@@ -468,7 +474,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b18", "out": "s18-only-speak-the-word.jpeg", "seg": "n10 p3",
-        "window": "100.96-104.31", "wide": False, "jesus": False, "ref": False,
+        "window": "97.09-101.49", "wide": False, "jesus": False, "ref": False,
         "locks": ["CENTURION"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("Only speak the word, and my servant will be healed."),
@@ -485,7 +491,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b19", "out": "s19-his-word-was-enough.jpeg", "seg": "n11",
-        "window": "105.79-114.57", "wide": True, "jesus": True, "ref": REF,
+        "window": "101.49-111.30", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CROWD"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("He was not just being polite. He truly believed Jesus did not "
@@ -507,7 +513,7 @@ BEATS = [
     # ------------------------------------------------- n12/n13 — authority ----
     {
         "id": "v2-r015-b20", "out": "s20-a-man-under-authority.jpeg", "seg": "n12 p1-p2",
-        "window": "116.03-121.58", "wide": False, "jesus": False, "ref": False,
+        "window": "111.30-116.85", "wide": False, "jesus": False, "ref": False,
         "locks": ["CENTURION"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("And he explained why, in the only language a soldier knows. I am "
@@ -525,7 +531,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b21", "out": "s21-i-say-go-and-he-goeth.jpeg", "seg": "n12 p3-p4",
-        "window": "121.58-128.29", "wide": True, "jesus": False, "ref": False,
+        "window": "116.85-124.60", "wide": True, "jesus": False, "ref": False,
         "locks": ["SOLDIERS", "CAPERNAUM"],
         "narration": ("I tell one soldier, Go, and he goes. I tell another, Come, and he "
                       "comes."),
@@ -545,7 +551,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b22", "out": "s22-his-word-crosses-the-camp.jpeg", "seg": "n13 p1",
-        "window": "129.76-134.26", "wide": True, "jesus": False, "ref": False,
+        "window": "124.60-129.10", "wide": True, "jesus": False, "ref": False,
         "locks": ["SOLDIERS"],
         "narration": ("He never has to go himself; his word alone carries his power "
                       "across the whole camp."),
@@ -563,7 +569,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b23", "out": "s23-it-could-reach-across-the-town.jpeg", "seg": "n13 p2",
-        "window": "134.26-140.44", "wide": True, "jesus": True, "ref": REF,
+        "window": "129.10-136.31", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CAPERNAUM"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("He was certain Jesus's word worked the same way — that it could "
@@ -584,7 +590,7 @@ BEATS = [
     # -------------------------------------------------- n14 / j2 — he marvelled ----
     {
         "id": "v2-r015-b24", "out": "s24-and-this-amazed-jesus.jpeg", "seg": "n14 p1-p2",
-        "window": "141.90-149.60", "wide": False, "jesus": True, "ref": REF,
+        "window": "136.31-144.45", "wide": False, "jesus": True, "ref": REF,
         "locks": [],
         "narration": ("And this amazed Jesus. The Gospels almost never say that anyone "
                       "surprised him, yet the faith of this Roman outsider stopped him."),
@@ -602,7 +608,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b25", "out": "s25-he-turned-to-the-crowd.jpeg", "seg": "n14 p3",
-        "window": "150.04-151.65", "wide": True, "jesus": True, "ref": REF,
+        "window": "144.45-147.11", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CROWD", "CENTURION"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": "He turned to the crowd and said:",
@@ -621,7 +627,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b26", "out": "s26-not-in-israel.jpeg", "seg": "j2",
-        "window": "153.13-157.35", "wide": True, "jesus": True, "ref": REF,
+        "window": "147.11-152.79", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CROWD", "CENTURION"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("Verily I say unto you, I have not found so great faith, no, not "
@@ -641,7 +647,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b27", "out": "s27-no-one-among-his-own-people.jpeg", "seg": "n15",
-        "window": "158.81-167.64", "wide": True, "jesus": False, "ref": False,
+        "window": "152.79-162.65", "wide": True, "jesus": False, "ref": False,
         "locks": ["CROWD", "CENTURION"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("In plain words: no one among his own people, the ones who should "
@@ -663,7 +669,7 @@ BEATS = [
     # ------------------------------------------------ n16 / j2b — east and west ----
     {
         "id": "v2-r015-b28", "out": "s28-wider-than-expected.jpeg", "seg": "n16",
-        "window": "169.10-172.35", "wide": False, "jesus": True, "ref": REF,
+        "window": "162.65-166.94", "wide": False, "jesus": True, "ref": REF,
         "locks": [],
         "narration": ("Then Jesus opened heaven wider than anyone listening expected:"),
         "must_show": "close on Jesus about to say something large — both hands beginning to open outward.",
@@ -679,7 +685,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b29", "out": "s29-from-east-and-west.jpeg", "seg": "j2b a",
-        "window": "173.82-177.47", "wide": True, "jesus": True, "ref": REF,
+        "window": "166.94-170.59", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CROWD", "CAPERNAUM"],
         "narration": ("And I say unto you, That many shall come from the east and west, "
                       "(Matthew 8:11)"),
@@ -698,7 +704,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b30", "out": "s30-sit-down-with-abraham.jpeg", "seg": "j2b b",
-        "window": "177.47-181.85", "wide": True, "jesus": False, "ref": False,
+        "window": "170.59-176.44", "wide": True, "jesus": False, "ref": False,
         "locks": [],
         "narration": ("and shall sit down with Abraham, and Isaac, and Jacob, in the "
                       "kingdom of heaven. (Matthew 8:11)"),
@@ -716,7 +722,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b31", "out": "s31-every-nation-welcomed.jpeg", "seg": "n17 p1",
-        "window": "183.32-187.04", "wide": True, "jesus": False, "ref": False,
+        "window": "176.44-180.16", "wide": True, "jesus": False, "ref": False,
         "locks": [],
         "narration": ("He meant that people from every nation on earth would be welcomed "
                       "to God's table."),
@@ -735,7 +741,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b32", "out": "s32-it-is-whether-you-trust-him.jpeg", "seg": "n17 p2-p3",
-        "window": "187.04-193.91", "wide": True, "jesus": True, "ref": REF,
+        "window": "180.16-188.07", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CROWD"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("What brings you in is not where you were born, or which group you "
@@ -755,7 +761,7 @@ BEATS = [
     # ---------------------------------------------- n18 / j3 — go thy way ----
     {
         "id": "v2-r015-b33", "out": "s33-he-turned-back-to-the-soldier.jpeg", "seg": "n18",
-        "window": "195.38-200.77", "wide": True, "jesus": True, "ref": REF,
+        "window": "188.07-194.51", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("Then Jesus turned back to the soldier and gave him the one thing "
@@ -774,7 +780,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b34", "out": "s34-as-thou-hast-believed.jpeg", "seg": "j3",
-        "window": "202.25-205.87", "wide": False, "jesus": True, "ref": REF,
+        "window": "194.51-199.60", "wide": False, "jesus": True, "ref": REF,
         "locks": [],
         "narration": ("Go thy way; and as thou hast believed, so be it done unto thee. "
                       "(Matthew 8:13)"),
@@ -791,7 +797,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b35", "out": "s35-no-touch-no-visit.jpeg", "seg": "n19",
-        "window": "207.34-215.00", "wide": True, "jesus": True, "ref": REF,
+        "window": "199.60-208.30", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CAPERNAUM"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("Go home; it has already happened, just as you trusted it would. "
@@ -812,7 +818,7 @@ BEATS = [
     # -------------------------------------------------- n20/n21 — the house ----
     {
         "id": "v2-r015-b36", "out": "s36-a-deep-clean-breath.jpeg", "seg": "n20 p1",
-        "window": "216.47-222.31", "wide": False, "jesus": False, "ref": False,
+        "window": "208.30-214.14", "wide": False, "jesus": False, "ref": False,
         "locks": ["SERVANT", "ROMAN-HOUSE"],
         "char_refs": ['assets-realistic/s04-a-servant-was-dying.jpeg'],
         "narration": ("And in that very hour, far away in the Roman house, the young "
@@ -831,7 +837,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b37", "out": "s37-he-sat-up-completely-well.jpeg", "seg": "n20 p2",
-        "window": "222.31-228.27", "wide": True, "jesus": False, "ref": False,
+        "window": "214.14-221.14", "wide": True, "jesus": False, "ref": False,
         "locks": ["SERVANT", "ROMAN-HOUSE"],
         "char_refs": ['assets-realistic/s04-a-servant-was-dying.jpeg'],
         "narration": ("The color flowed back into his face, his body loosened, and he "
@@ -852,7 +858,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b38", "out": "s38-no-one-was-in-the-room.jpeg", "seg": "n21",
-        "window": "229.74-235.68", "wide": True, "jesus": False, "ref": False,
+        "window": "221.14-228.12", "wide": True, "jesus": False, "ref": False,
         "locks": ["SERVANT", "ROMAN-HOUSE"],
         "char_refs": ['assets-realistic/s04-a-servant-was-dying.jpeg'],
         "narration": ("No one was in the room with him. He was made whole by nothing but "
@@ -873,7 +879,7 @@ BEATS = [
     # ------------------------------------------------------ n22 — the reunion ----
     {
         "id": "v2-r015-b39", "out": "s39-he-rose-to-meet-him.jpeg", "seg": "n22 p1",
-        "window": "237.15-242.56", "wide": True, "jesus": False, "ref": False,
+        "window": "228.12-233.53", "wide": True, "jesus": False, "ref": False,
         "locks": ["CENTURION", "SERVANT", "ROMAN-HOUSE"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg', 'assets-realistic/s04-a-servant-was-dying.jpeg'],
         "narration": ("When the officer reached home, his servant rose to meet him at "
@@ -893,7 +899,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b40", "out": "s40-the-soldier-came-apart.jpeg", "seg": "n22 p2",
-        "window": "242.56-246.20", "wide": False, "jesus": False, "ref": False,
+        "window": "233.53-237.17", "wide": False, "jesus": False, "ref": False,
         "locks": ["CENTURION"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("This hardened soldier, who commanded a hundred men, came apart."),
@@ -911,7 +917,7 @@ BEATS = [
     },
     {
         "id": "v2-r015-b41", "out": "s41-the-word-had-been-enough.jpeg", "seg": "n22 p3",
-        "window": "246.20-249.92", "wide": True, "jesus": False, "ref": False,
+        "window": "237.17-241.64", "wide": True, "jesus": False, "ref": False,
         "locks": ["CENTURION", "SERVANT", "ROMAN-HOUSE"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg', 'assets-realistic/s04-a-servant-was-dying.jpeg'],
         "narration": ("He had trusted Jesus's word, and the word had been enough."),

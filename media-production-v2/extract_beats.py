@@ -157,7 +157,15 @@ def extract(row):
     segments = parse_list_of_tuples(ntree, "SEGMENTS", nconsts)
     beats = parse_list_of_tuples(btree, "BEATS", bconsts)
 
-    text = {s[0]: s[2] for s in segments}
+    # SEGMENTS has two shapes and the caption text is in a different slot in each
+    # (2026-08-01 fix, row 15 — this is V1 build.py's own TEXT line, copied):
+    #   post-SPEAKER-LAW : (id, speaker, text)                  -> s[2]
+    #   pre-SPEAKER-LAW  : (id, voice, rate, pitch, text)       -> s[4]
+    # Taking s[2] unconditionally handed every pre-speaker-law build its TTS RATE
+    # string ("-15%") as the caption. ffmpeg's drawtext then died on "Stray %" and
+    # silently drew nothing, so row 15's V2 cut came out with caption BANDS and no
+    # words in them at all.
+    text = {s[0]: (s[4] if len(s) >= 5 else s[2]) for s in segments}
     speaker = {s[0]: s[1] for s in segments}
 
     lead = float(bconsts.get("LEAD", 0.28))
@@ -175,6 +183,21 @@ def extract(row):
     # CARD_HOLD), so both are read from build.py source here.
     bsrc = open(os.path.join(bdir, "build.py")).read()
     vdur_raw = re.search(r"vdur\s*=\s*LEAD\s*\+\s*audio_dur\b", bsrc) is not None
+
+    # WHICH BEATS GET THE LONGER, REVERENT KJV_GAP — read the build, never assume
+    # (2026-08-01 fix, row 15). Post-SPEAKER-LAW builds declare a speaker constant
+    # per segment, so `speaker != narrator` is the right test. PRE-speaker-law
+    # builds put the raw edge-tts voice name ("en-US-AndrewNeural") in that slot,
+    # so that test was true for EVERY segment and handed all 26 of row 15's beats
+    # the 1.15 s KJV pad instead of the 0.72 s normal one — inflating the extracted
+    # timeline by 0.43 s per narrator beat (+9.45 s total, 265.451 s against the
+    # 256.000 s the build actually renders). That looked like a truncated final and
+    # dragged every re-derived picture window forward with it. Those builds instead
+    # carry a literal `KJV = {...}` set in build.py, which is the real source of
+    # truth for both the pad and the red-letter captions, so use it.
+    _kjv_m = re.search(r"^KJV\s*=\s*\{(.*?)\}", bsrc, re.M | re.S)
+    kjv_ids = set(re.findall(r"[\"']([A-Za-z0-9_]+)[\"']", _kjv_m.group(1))) \
+        if _kjv_m else set()
     card_trimmed = re.search(r"card_vdur\s*=\s*LEAD\s*\+\s*card_spoken\b",
                              bsrc) is not None
     if re.search(r"card_vdur\s*=\s*LEAD\s*\+\s*card_(?:spoken|dur)\s*\+\s*CARD_HOLD\b",
@@ -221,7 +244,13 @@ def extract(row):
             adur = dur_of(mp3)
             sdur = spoken_of(mp3, tmpdir)
             spk = speaker.get(name, "narrator")
-            g = kjv_gap if spk != "narrator" else gap
+            if spk in SPEAKER_CONSTS.values():
+                is_kjv = spk != "narrator"
+            else:
+                # pre-SPEAKER-LAW build: the slot holds a raw voice name, so the
+                # build's own KJV set decides (see the note above).
+                is_kjv = name in kjv_ids
+            g = kjv_gap if is_kjv else gap
             vdur = lead + (adur if vdur_raw else sdur) + g
             timing_path = os.path.join(bdir, "audio", f"{name}.timing.json")
             timing = json.load(open(timing_path)) if os.path.exists(timing_path) else []
