@@ -1,6 +1,6 @@
 ## 2026-08-02 — Video 19 (Breakfast on the Shore, John 21): realistic V2 shipped to the reviewer (Machine A / `Dev`, Claude worker 13)
 
-Commit: 037e6a4cb (cut + reviewer card) · d2ee4b0 pending (bookkeeping). Row 19 claimed
+Commit: 037e6a4cb (cut + reviewer card) · 2bc097315 (bookkeeping). Row 19 claimed
 by push before a cent was spent, built end to end, and deployed live.
 
 37 pictures at native 2K against V1's 16. The inherited beat map was scaffolded on a
