@@ -105,23 +105,23 @@ BEATS = [
         "window": "0.28-3.63", "wide": True, "jesus": False, "ref": False,
         "locks": ["HOUSE"],
         "narration": "This is the little village of Bethany, just outside Jerusalem.",
-        "must_show": "the small village on its hillside at dusk, lamps beginning to show in doorways, Jerusalem's walls distant beyond.",
+        "must_show": "a quiet first-century village lane at dusk with lamplight showing in two low doorways.",
         "must_not_show": "no people needed; establish the place and the hour.",
         "scene": (
-            "A wide view of a small village of honey-coloured stone houses on a "
-            "hillside at dusk, olive trees and terraces around it, the sky gone deep "
-            "blue with the last light low behind the ridge. Warm orange lamplight is "
-            "beginning to show in one or two low doorways. Far off across the valley "
-            "FIRST-CENTURY JERUSALEM OF ABOUT AD 30 AND NOTHING LATER stands dark "
-            "against the last of the light: long Herodian ashlar walls, flat "
-            "mud-and-timber roofs, and the white-and-gold Second Temple platform above "
-            "the city. The village too is flat-roofed mud-plastered stone. The only "
-            "lights in the whole picture are firelight and oil-lamp glimmers in a few "
-            "doorways. No domes, no minarets, no pitched or tiled roofs, no poles, "
-            "wires, aerials, dishes, water tanks, vehicles, paved roads or electric "
-            "lamps appear anywhere in the frame, near or far. The last of the "
-            "light. Quiet and settling into night."
-            " The camera looks down over the terraces from the hillside above and behind the village, so the houses are seen from their backs and roofs and the valley falls away past them; nobody stands near the lens. "
+            "A narrow village lane in Bethany at dusk, photographed from ground level "
+            "with the camera standing at the bottom of the lane looking up it, so the "
+            "low flat-roofed houses of rough honey-coloured stone crowd in on both sides "
+            "and their walls run away from the lens toward the top of the rise. Old "
+            "olive trees and a dry stone terrace wall on the left. The sky above the "
+            "roofline is deep blue with the last warm light gone off the ridge. Warm "
+            "orange firelight and small oil-lamp light spill out of two low open "
+            "doorways onto the packed earth of the lane. Nobody is in the lane. Every "
+            "roof is FLAT mud-and-timber; there are no domes, no towers, no minarets, no "
+            "pitched or tiled roofs, no poles, wires, aerials, dishes, water tanks, "
+            "glass windows, vehicles, paved road or electric lamps anywhere in the "
+            "frame. Shot on a wide prime lens at dusk, deep focus, real film grain — one "
+            "single photograph filling the whole 9:16 frame edge to edge with no black "
+            "or grey bars, borders, letterboxing or padding on any side."
         ),
     },
     {
