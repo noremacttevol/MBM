@@ -971,3 +971,54 @@ is 243.322 s and carries only EIGHT distinct stills for the whole story (S9B/S10
 authored and then dropped from BEATS), so this row needs a full realistic beat map, not a
 repair. All 18 narration segments are already ElevenLabs (44.1 kHz / 128 kbps) — audio is
 LOCKED and will not be re-voiced.
+
+**SHIPPED 2026-08-01** — `luke-24_emmaus-realistic-v2.mp4`, 243.3 s / 21.4 MB, AUDIO LOCK
+PASS (SHA256 6827c039…), verify-mp4 OK, blob `e0e3e726…` live on the reviewer.
+41 pictures, ≈$12.06, reroll rate 39% (16 of 41).
+
+WHAT THIS ROW COST AND WHY — read this before the next one:
+
+1. **~$4 of the $12.06 was pure operational waste, not rerolls.** A `v2_gen_api.py` run
+   was moved to the background by the harness; `pgrep` showed nothing and the log file was
+   empty, so it was judged dead and restarted. It was not dead. Worse, the restart command
+   was issued TWICE (the first one's `tail` failed on an unexpanded variable, which read as
+   the whole command failing when only the tail had). Three processes then generated the
+   same beats concurrently and every one of them was billed: 90 images were charged for 41
+   keepers. **An empty log file and a silent pgrep are NOT proof a paid process is dead.
+   Confirm by the artefacts it is writing (the asset mtimes), and never issue a second
+   start command without first proving the first one is gone.**
+
+2. **Reroll families, all fixed in SHARED locks (row-16 lesson holding):**
+   - *Anachronistic Jerusalem.* The skyline came back with a minaret, a church campanile
+     and red pitched tile roofs. New `JERUSALEM` lock states the AD 33 city positively
+     (dressed limestone, square crenellated towers, flat roofs, the Second Temple highest).
+   - *Direction of travel reversed.* The walled city rendered at the END of the road in
+     front of the men, so the picture read as walking TO Jerusalem. New `OUTBOUND` lock:
+     "THE ROAD AHEAD ENDS IN EMPTY HILLS, NOT IN A CITY," attached to all 15 outbound beats.
+   - *Glass kerosene lamps in tight interiors.* Exactly row 16's failure, in a build whose
+     HOUSE lock named clay lamps but never forbade glass. The full prohibition now rides
+     the HOUSE lock so tight shots inherit it.
+   - *Recurring-character drift.* The companion rendered as a beardless youth three times.
+     Root cause worth recording: **both image anchors showed him only from BEHIND, so no
+     anchor carried his face.** An anchor that does not show the character's face does not
+     hold the character. Fixed by writing the invariant into his lock AND swapping the
+     anchor to a frame where both disciples' faces are clearly visible.
+
+3. **A beat's own scene text must not contradict the shared locks — and I wrote the
+   contradiction myself.** The b01 geometry sentence said the men's backs faced "the camera
+   and Jerusalem", which puts the city where the lens is. The model resolved that
+   impossibility by moving the city in front of them, defeating the OUTBOUND lock. When a
+   beat needs both a character's back AND a landmark they are leaving, the camera has to go
+   to an elevated or side vantage; it cannot stand where the landmark is.
+
+4. **`site/review.html` flag strings are NOT unique** — `🛠 What this cut changed
+   (2026-07-28): narration re-recorded` appears 132 times. A bare `str.replace(old,new,1)`
+   silently edited **row 17's** card (the deferred Lazarus row). Caught and reverted before
+   commit. **Always slice the card out by its `id="vNN"` boundaries and edit inside that
+   slice**, then check `git diff` line counts before committing.
+
+5. Two beats needed a second reroll after the first fix: b28 (the profile framing let the
+   model reinvent Jesus's face younger and shorter-haired — cured by naming the reference's
+   hair and beard explicitly in the beat) and b35 (the upper room returned as a stacked
+   three-panel strip — cured by the recorded "ONE SINGLE PHOTOGRAPH FILLING THE WHOLE 9:16
+   FRAME, not two or three stacked horizontal panels" sentence in the beat's own text).

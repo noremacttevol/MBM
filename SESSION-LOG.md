@@ -44,6 +44,33 @@ The lesson, twice this month now: read the artefact, not the prose about it.
 
 ---
 
+
+## 2026-08-01 — Row 18 (The Road to Emmaus) realistic V2 rebuild — SHIPPED
+**Commit:** (this commit) · Machine A `Dev` · Claude worker 12
+
+Claimed row 18 by push before any spend, rebuilt all pictures, shipped to the reviewer.
+
+- **41 pictures at native 2K against V1's EIGHT.** V1 gave the whole 243 s story only eight
+  stills; the V2 cut now runs 5.7 s per picture.
+- **Every window re-timed.** The inherited `beats_v2.py` ran on a 219.5 s timeline against
+  the real 232.62 s — adrift by up to 13 s. All 38 inherited windows were recomputed from
+  the fixed `extract_beats.py` plus each segment's own phrase timings, and 3 new beats were
+  authored where one picture sat over too much narration. Contiguous, zero gaps.
+- **Audio untouched.** All 18 segments were already ElevenLabs (44.1 kHz/128 kbps), so no
+  re-voicing was needed. AUDIO LOCK PASS, SHA256 6827c039…; V1 is byte-unchanged.
+- **Reroll rate 39%**, every family fixed in a shared lock: a minaret-and-campanile
+  Jerusalem skyline (new JERUSALEM lock), the city rendered ahead of the men so the
+  direction of travel reversed (new OUTBOUND lock), glass kerosene lamps in tight interiors
+  (period-light rule moved into HOUSE), and the companion drifting to a beardless youth
+  because both image anchors showed only his back.
+- **Two mistakes recorded in the ledger so they are not repeated:** ~$4 was wasted running
+  three concurrent generator processes after wrongly judging a backgrounded run dead (90
+  images charged for 41 keepers), and a non-unique flag string in `site/review.html` caused
+  an edit to land on row 17's card — caught and reverted before commit.
+- Delivered 243.3 s / 21.4 MB, verify-mp4 OK, captions confirmed on 14 extracted frames
+  (white narrator, red Jesus, blue KJV, bottom band only), closing card carries words.
+  Live on the reviewer at blob `e0e3e726…`; row 17 and the app feed untouched.
+
 ## 2026-08-01 — Row 16 (Mary and Martha) realistic V2 rebuild — Claude worker 11, Machine A (`Dev`)
 
 **Commit:** 48e970c0a (card repoint) / 43c9d5716 (the cut)
