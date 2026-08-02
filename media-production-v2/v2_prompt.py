@@ -150,6 +150,36 @@ PERIOD_MATERIALS_LOCK = (
     "fleece, velour or quilted fabric anywhere."
 )
 
+# HAND-IRRIGATION — promoted into the shared recipe 2026-08-02 (row 26, the mustard
+# seed, the first V2 build staged in a WALLED KITCHEN GARDEN). Rows 16/18 paid for
+# interior lighting, row 19 for boat fittings, row 22 for city skylines; a garden's own
+# anachronism is MODERN BLACK DRIP-IRRIGATION HOSE — thin dark tubing lying along the
+# beds, present in 4 of the first 24 frames (b10 b11 b17 b21) and invisible until you
+# crop in. Nothing in PERIOD-MATERIALS covers it, because it is not a lamp, a fitting or
+# a garment — it is a LINE ON THE GROUND. Ported byte-for-byte from the row 26 GARDEN
+# lock, where it killed all four in ONE pass. Stated POSITIVELY per the row-10 geometry
+# lesson. Any build staged in a garden, orchard, vineyard or irrigated field names
+# "HAND-IRRIGATION" in that beat's `locks` list before the first paid image.
+HAND_IRRIGATION_LOCK = (
+    "HAND-IRRIGATION LOCK: ALL the water in this cultivated ground moves by hand and by "
+    "gravity alone. The ONLY things that carry water are shallow open channels scraped "
+    "into the bare earth between the beds and rows, a stone-lined cistern or well, and "
+    "fired-clay jars carried by hand. Along every bed, row and path the ground is BARE "
+    "SOIL, unbroken, with nothing lying on it or running across it. There is NO tube, "
+    "hose, pipe, line, cord, wire, cable, tape, stake or fitting of any kind lying along "
+    "or across any bed, row, path or channel, in focus or out of focus, in the "
+    "foreground or the background; nothing black, dark grey or glossy runs in a straight "
+    "line anywhere on the ground; and there is no drip irrigation, no sprinkler, no "
+    "spigot, no valve and no pump anywhere in the picture."
+)
+
+# Shared SETTING locks a build opts into by name in a beat's `locks` list. Unlike the
+# blocks above they are NOT appended to every prompt — a boat scene has no irrigation —
+# but they live here so the next garden does not have to re-learn the lesson.
+SHARED_SETTING_LOCKS = {
+    "HAND-IRRIGATION": HAND_IRRIGATION_LOCK,
+}
+
 # JESUS LOCK v4 — byte-identical in every prompt where Jesus appears.
 # JESUS LOCK v5 — Cameron, 2026-07-30. Supersedes v4 once a face candidate is picked.
 #
@@ -350,7 +380,8 @@ def assemble(beat, local_locks):
     # like a second panel. A panel artifact is not a wide-shot problem.
     parts.append(ANTI_PANEL)
     for name in beat.get("locks", []):
-        block = local_locks.get(name) or CAST_LOCKS.get(name)
+        block = (local_locks.get(name) or CAST_LOCKS.get(name)
+                 or SHARED_SETTING_LOCKS.get(name))
         if block is None:
             raise SystemExit(f"{beat['id']}: unknown lock {name!r}")
         parts.append(block)
