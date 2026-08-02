@@ -1,3 +1,36 @@
+## 2026-08-02 — Row 31 (The Ten Virgins, Matthew 25:1-13) realistic V2 rebuild — Claude worker 25, Machine A `Dev`
+
+**Commit: 1ab42c698** (the MP4) · card repoint 8f38c12b2 · meter 132a465dc
+
+Shipped the realistic V2 cut of story 31 to the reviewer. 40 pictures rebuilt at native
+2K against V1's SEVEN; V1 held one still for THIRTY-THREE SECONDS across both middle
+red-letter verses and ran the entire closing application on recycled stills. The
+inherited 25-picture scaffold (5.93 s/picture) was discarded against the wave's measured
+3.1-4.9. AUDIO LOCK PASS byte-identical, 148.306 s / 20,851,954 bytes, audio stream MD5
+matching the V1 MP4 exactly — nothing re-voiced. Windows rebuilt from extract_beats plus
+faster-whisper word timings (all 24 sidecars hold one phrase and were useless):
+contiguous 0.280 → 141.115 s, zero gaps, 3.52 s/picture, all 24 speech onsets verified
+inside their windows, 147 windows of true silence proving no music bed. Reroll rate
+10/50 = 20%, ≈$6.70.
+
+NEW SHARED LOCK — **NIGHT-LAMPLIGHT** in `v2_prompt.py`: the wave's first all-night
+story. A flame carried near a face haloes the head by PHYSICS, so the lock beats it with
+GEOMETRY (flame low, in front, nearer the camera than the head) instead of a prohibition,
+and pins the fixture as a shallow terracotta lamp with a pinched spout and one bare wick.
+
+Two re-stages worth remembering: the bridegroom's myrtle CIRCLET rendered as a CROWN OF
+THORNS (deleted from his lock rather than re-described — a parable figure must never read
+as the crucified Christ), and naming Jerusalem from the Mount of Olives reproduced the
+MODERN tourist photograph (dome, minaret, Ottoman crenellations, tower blocks) twice, so
+the city was deleted from the frame staging entirely.
+
+⚠️ OPEN FOR CAMERON: his standing note on this row asks for exactly ten virgins in every
+picture. The five-only frames are exact (s05 five wise each with a jar, s07 five foolish
+with empty hands) and carry his point; but the model will not reliably count TEN in one
+9:16 frame — after three attempts the wide group frames land at eight or nine. Flagged
+rather than hidden, and not chased further on his credits.
+
+
 ## 2026-08-02 — Row 30 (The Net / Dragnet, Matthew 13:47-50) realistic V2 rebuild — Claude worker 24, Machine A `Dev`
 
 **Commit:** fa61edcfa (build) · ccda3433d (reviewer card)
