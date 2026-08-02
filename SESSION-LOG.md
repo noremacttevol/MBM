@@ -1,3 +1,19 @@
+## 2026-08-02 — Row 34 The Rich Fool (Luke 12) realistic V2 rebuild — Claude worker 28, Machine A `Dev`
+
+Claimed row 34 by push before any spend, then built and shipped the full realistic V2 cut.
+
+- **35 pictures at native 2K** against V1's SEVEN, two of which V1 REUSED — V1 held one picture for 20 s across Luke 12:18, another for 25 s across 12:19, and re-showed an already-seen picture for the whole closing question. The inherited 21-picture/5.7 s scaffold was discarded against the wave's measured 3.1-4.9 s.
+- **AUDIO LOCK PASS, byte-identical to V1** (audio stream MD5 6bd82085…, 128.133 s). Nothing re-voiced, V1 never written to. All 18 segments transcribed with faster-whisper against the live script; the only apparent difference was whisper mis-hearing the archaic 'whose'. No TEXT_OVERRIDES.
+- **Windows rebuilt from scratch** from extract_beats + measured word timings (12 of 18 sidecars were unusable, holding one phrase per segment). Contiguous 0.000 → 119.216, zero gaps, 3.41 s/picture, all 17 speech onsets inside their windows. 31 true silence windows below -60 dB prove no music bed.
+- **Content care:** 'this night thy soul shall be required of thee' is the most direct death line in the 200 and NO death, soul, angel, throne or afterlife is painted, and God is never depicted. The parable's own images carry it — the full barns, the barns torn down, the man alone, and the morning that comes without him.
+- **Reroll rate 1 of 36 = 2.8%**, the wave's lowest. The one cure: the anchor's granary came back with a battened plank door on iron strap hinges, caused by my own new lock's phrase 'a plank of adzed timber'; cured by deleting the object (open mud-brick mouth, or one wedged limestone slab) and applied preventively to all 21 barn prompts in the same pass.
+- **New shared lock: GRANARY-BARN** in `v2_prompt.py` — a barn is architecture, so PERIOD-MATERIALS cannot reach it, the same way a road surface (row 29) and a prison cell (row 33) slipped through.
+- ≈$4.83 spend (36 images), meter $162.140 → $166.964. Live on the reviewer with `data-review-wave="realistic-v2"`; raw URL verified serving 21,239,615 bytes.
+
+Commit: `8dc077d03` (cut) — board/bookkeeping commit follows.
+
+---
+
 ## 2026-08-02 — Row 33 The Sheep and the Goats rebuilt realistic and shipped (Machine A `Dev`, Claude worker 27)
 
 Commit: (this entry's own commit)
