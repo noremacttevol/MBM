@@ -1,865 +1,1311 @@
 #!/usr/bin/env python3
-"""V2 beat map — row 22, build-22-unmerciful-servant (Matthew 18:21-35).
+"""V2 beat map — row 22, build-22-unmerciful-servant (Matthew 18:21-35), realistic.
 
-COVERAGE: 38 pictures over 216.1 s = 5.7 s/picture (matches the library density).
+COVERAGE: 48 pictures against V1's EIGHT, over 215.82 s = 4.50 s/picture. V1 held
+`s1.jpeg` on screen from 0.28 s to 35.4 s — THIRTY-FIVE SECONDS on one picture
+across five separate segments (n0, s21, n1, j1, n2), and `s8.jpeg` for another
+39 s. Eight pictures for a 3:45 video is one still per 28 seconds.
+
+⚠️ WINDOWS COMPUTED FROM SCRATCH 2026-08-02 (Claude worker 16) with the fixed
+`extract_beats.py` reading the V1 build, then split inside each segment on its own
+`audio/*.timing.json` phrase boundaries. Contiguous 0.28 s → 216.10 s (the card
+start), zero gaps, zero overlaps. Extracted total 225.033 s against the V1 mp4's
+225.033 s — exact.
+
+The INHERITED beat map that was in this file (38 beats, dated 2026-07-29) was
+discarded, not re-timed. It had three beats whose windows were copy-paste wrecks
+(b29 122.03-123.52, b31 13.45-15.09, b34 19.62-25.38 — all pointing back into the
+first thirty seconds of the video while sitting at the END of the story), and a
+7.79 s hole at 19.10-26.89 where the single most important line in the row — Jesus
+saying "until seventy times seven" — had NO PICTURE AT ALL.
+
+⚠️ SOURCING TRAP CHECKED AND CAUGHT (the row-20 lesson). This build carries both a
+`make_narration.py.pre-echo` and a `.pre-speaker` sibling, and the live script
+disagrees with `.pre-echo` on TWO segments (n1 and n14). Both shipped mp3s were
+transcribed with faster-whisper to settle it, and THEY SPLIT:
+
+  n14  the LIVE script is right. Spoken: "The king summoned him back. He said,
+       shouldn't you have shown the same mercy to your fellow servant that I
+       showed to you?" — the `.pre-echo` line ("You wicked servant! ... I forgave
+       you that enormous debt because you begged me to") is NOT in the audio.
+
+  n1   NEITHER file is right. The live script's caption text opens with a
+       retelling ("Lord, he asked, how many times do I have to forgive my brother
+       when he keeps sinning against me?") that is NOT spoken — n1.mp3 is 2.534 s
+       long and contains only "Peter must have thought he was being generous."
+       Its own timing.json agrees (one phrase, 2.508 s). Printing the script text
+       would have drawn a caption of words nobody says, over the wrong span, and
+       mistimed every caption in that segment because `timed_windows` matches
+       caption text against the timing sidecar character by character.
+
+So n1 is corrected through the shared `TEXT_OVERRIDES` hook (added on row 20),
+opt-in, per-build, with the read-only V1 build never edited.
 
 SCRIPTURE FACTS (Matthew 18:21-35 KJV):
-  v21   "Then came PETER to him" — the frame story is Peter's own question,
-        asked privately-ish among the disciples. Matthew 18 opens in Capernaum,
-        in a house (Mark 9:33), so the frame is staged in a Capernaum house
-        courtyard, late golden afternoon.
-  v22   "I say not unto thee, Until seven times: but, Until seventy times
-        seven" — the answer is a number meant to end counting.
-  v23   "a certain KING, which would take account of his servants" — a royal
-        audience hall, a reckoning with written accounts.
-  v24   "one was brought unto him, which OWED HIM ten thousand talents" —
-        BROUGHT, not walking in freely; the debt is beyond all paying.
-  v25   "he had not to pay ... commanded him TO BE SOLD, and his wife, and
-        children, and all that he had" — the family is present in that beat.
-  v26   "the servant therefore FELL DOWN, and WORSHIPPED him, saying, Lord,
-        have patience with me, and I will pay thee all."
-  v27   "the lord of that servant was MOVED WITH COMPASSION, and loosed him,
-        and FORGAVE HIM THE DEBT" — compassion FIRST, total cancellation,
-        more than the man even asked for. ⚑ Flag J: the king forgave FIRST,
-        at unasked scale — the compassion beats are the biggest, warmest
-        frames in the row.
-  v28   "the same servant WENT OUT, and found one of his fellowservants,
-        which owed him an hundred pence: and he LAID HANDS ON HIM, and TOOK
-        HIM BY THE THROAT" — outside, immediately after, a hundred pence.
-  v29   "his fellowservant FELL DOWN AT HIS FEET, and besought him" — a
-        deliberate visual MIRROR of v26; the compositions echo on purpose.
+  v21   "Then came PETER to him" — the frame story is Peter's own question. Matthew
+        18 is set in Capernaum, in a house (Mark 9:33), so the frame is staged at a
+        Capernaum house in late golden afternoon.
+  v22   "I say not unto thee, Until seven times: but, Until seventy times seven" —
+        a number meant to END counting, not a larger quota.
+  v23   "a certain KING, which would take account of his servants" — a reckoning
+        with written accounts, in an audience hall.
+  v24   "one was BROUGHT unto him, which owed him ten thousand talents" — brought,
+        not walking in freely; the debt is beyond all paying.
+  v25   "he had not to pay ... commanded him TO BE SOLD, and his wife, and his
+        children" — the family is present in that beat.
+  v26   "the servant therefore FELL DOWN, and WORSHIPPED him."
+  v27   "MOVED WITH COMPASSION ... and FORGAVE HIM THE DEBT" — compassion first,
+        and the king cancels far more than the man asked for. He asked for TIME;
+        he was given the whole debt. That gap is the hinge of the parable and the
+        biggest, warmest frames in the row sit on it (b20-b24).
+  v28   "the same servant WENT OUT ... and TOOK HIM BY THE THROAT."
+  v29   "his fellowservant FELL DOWN AT HIS FEET, and besought him" — a deliberate
+        visual MIRROR of v26. b32 repeats b17's composition on purpose, from the
+        same camera height, so the rhyme is visible without a word of narration.
   v30   "he would not: and went and CAST HIM INTO PRISON."
-  v31   "his fellowservants SAW what was done, and THEY WERE VERY SORRY, and
-        came and TOLD unto their lord."
-  v32-33 "O thou wicked servant..." — the king's own summary of the row.
-  v34   "delivered him to the tormentors, till he should pay all" —
-        ⚑ Flag J (CONTENT-CARE §3 row 22): shown RESTRAINED — guards leading
-        him away through a dark doorway; no instruments, no violence, no
-        blood, nothing graphic. The grief of it, not the mechanics.
-  v35   "So likewise shall my heavenly Father do also unto you, if ye from
-        your hearts forgive not every one his brother their trespasses."
+  v31   "his fellowservants SAW what was done, and were VERY SORRY, and TOLD."
+  v32-33 "O thou wicked servant..." — the king's own summary.
+  v34   "delivered him to the tormentors" — CONTENT-CARE: shown RESTRAINED. Guards
+        walking him away through a dark doorway. No instruments, no violence, no
+        blood, nothing graphic anywhere in this row.
+  v35   "So likewise shall my heavenly Father do also unto you."
 
-TIME OF DAY: frame story is late golden afternoon in the Capernaum courtyard,
-sliding toward warm dusk by the closing beats. The parable is one continuous
-day: bright midday shafts in the audience hall, hard sunlight in the outer
-palace courtyard for the choking, dim barred shadow for the prison, and the
-same hall (afternoon light, lower and graver) for the second summons.
+STAGING ACROSS THE LIBRARY — this row must not repeat a composition already used:
+  row 2  (prodigal, Luke 15)  outdoor COURTYARD TABLE, three standing Pharisees
+  row 8  (lost coin, Luke 15) Jesus on a LOW WALL UNDER A FIG TREE
+  row 21 (lost sheep, Luke 15) INSIDE a village house at a crowded meal
+  row 16 (Mary & Martha)      a lamplit evening INTERIOR
+So this frame story is staged OUTSIDE on the broad basalt DOORSTEP AND STREET-SIDE
+BENCH of a Capernaum house, with the lake's flat light beyond the roofline — and
+Capernaum is built of BLACK BASALT, not the honey limestone every other row uses,
+which makes this row's frame instantly distinguishable from all of them.
 
-CHANGING CONDITION (kept OUT of the locks): the debtor's STATE changes —
-dragged and desperate → forgiven and light → snarling → condemned. His
-clothing never changes; only posture and face carry the arc.
+TIME OF DAY IS THE STORY'S OWN CLOCK:
+  b01-b09, b42-b48   the FRAME story — late golden afternoon on the basalt step,
+                     the sun already low and raking along the street, sliding to
+                     the last warm dusk by b48. Never night, never a lamp lit.
+  b10-b24            the audience hall — high hard MIDDAY shafts through the
+                     clerestory slots, the reckoning done in full light.
+  b25-b34            the outer courtyard — hard bright afternoon sun, black-edged
+                     column shadows on hot flagstones.
+  b35-b41            the hall again, LOWER and graver late-afternoon light, plus
+                     one dim prison doorway.
+No sunset palette anywhere; no sunrise anywhere.
 
-CONTENT-CARE: row 22 flag J (above). The choking beats show a fist gripping
-the collar and throat of a tunic — fear and force, but no injury, no blood,
-no bulging agony. The selling-the-family beat is a guard's hand on a
-shoulder and a huddled family, nothing worse.
+CHANGING CONDITION (deliberately kept OUT of the locks, which are invariants): the
+debtor's STATE changes across the row — dragged and desperate → forgiven and light
+→ snarling → condemned. His clothing never changes. Only posture and face carry it.
+
+CAST NOTE — ANCHOR-FIRST (the row-20/21 lesson that took the reroll rate to 12-21%).
+Three story beats are also the identity ANCHORS and are generated in their OWN run
+before anything else: b10 (the king's face), b14 (the debtor's face) and b28 (the
+fellow servant's face). Each accepted anchor is then wired into REFS below so every
+later frame naming that lock gets the image attached. `v2_gen_api` builds its REFS
+cache ONCE per run, so an anchor generated in the same run as its dependants does
+not exist yet when they are built — it must be a separate invocation.
+PETER's images come from the shared CAST-V2-REF library automatically.
+
+A FACE SHEET ALONE DOES NOT HOLD A CHARACTER WHO IS SMALL IN FRAME (row 19, Peter
+drifting into a grey-haired old man in three wide shots). So every lock below
+states age, build, hair and beard as explicit invariants, and those invariants ride
+into every beat that names the lock, wide or tight.
 """
 
-# LOCKS: one entry per recurring person and per setting. Setting locks must
-# NEVER name a character. Clothing colours stated POSITIVELY and dark — only
-# Jesus wears cream. PETER comes from the shared CAST_LOCKS in v2_prompt.py.
+# LOCKS: one entry per recurring person and per setting. Setting locks NEVER name a
+# character. Clothing colours are stated POSITIVELY and DARK — the two or three
+# figures nearest the camera are pinned to deep umber, dark indigo or deep russet,
+# because they are the biggest shapes in the frame and a pale garment there reads as
+# a second, unlocked Jesus. The phrase "undyed grey-brown wool" is deliberately NOT
+# used anywhere in this file: on row 21 it rendered near-white every time.
+# PETER comes from the shared CAST_LOCKS in v2_prompt.py.
 LOCKS = {
     "KING": (
-        "KING LOCK: the king is the same man in every shot — in his sixties, "
-        "tall and broad through the shoulders, with a full silver-white beard, "
-        "deep-set dark eyes and a face capable of both great warmth and great "
-        "severity. He wears a floor-length robe of DEEP CRIMSON wool with wide "
-        "borders of dark gold embroidery over a DARK PURPLE under-tunic, a "
-        "heavy gold chain across his chest and a gold signet ring (never cream, "
-        "never white). His face is shown clearly."
+        "KING LOCK: the king is the SAME man in every shot and these are invariants "
+        "that hold even when he is small, distant or out of focus — a man of about "
+        "sixty, tall and heavy through the shoulders and chest, a broad lined "
+        "olive-brown face, deep-set dark brown eyes under heavy brows, a strong "
+        "straight nose, and a FULL SILVER-WHITE BEARD cut square at the jaw with "
+        "thick silver-grey hair to the collar. He wears a floor-length robe of DEEP "
+        "CRIMSON wool with wide borders of dark gold thread over a DARK PURPLE "
+        "under-tunic, a heavy twisted gold chain across his chest, a gold signet "
+        "ring on his right hand, and dark leather sandals. His garments are never "
+        "cream, never off-white, never pale. His face is shown clearly and is "
+        "capable of both great warmth and great severity."
     ),
     "DEBTOR": (
-        "DEBTOR LOCK: the forgiven servant is the same man in every shot — "
-        "about forty, wiry and hollow-cheeked, with a thin black beard, cropped "
-        "dark hair and quick anxious dark eyes. He wears a DARK OLIVE-GREY wool "
-        "tunic under a frayed RUST-BROWN mantle, a worn leather belt and dusty "
-        "sandals (never cream, never white). His clothing never changes across "
-        "the story. His face is shown clearly."
+        "DEBTOR LOCK: the forgiven servant is the SAME man in every shot and these "
+        "are invariants that hold even when he is small, distant or out of focus — "
+        "about forty, wiry and lean with hollow cheeks and a sharp jaw, weathered "
+        "olive-brown skin, quick anxious dark eyes set close, a THIN BLACK BEARD "
+        "trimmed short and CROPPED BLACK HAIR receding at the temples. He wears a "
+        "DARK OLIVE-GREY wool tunic to mid-calf under a frayed DEEP RUST-BROWN "
+        "mantle, a worn leather belt and dusty sandals. His clothing is identical in "
+        "every frame of the story and is never cream, never off-white, never pale. "
+        "His face is shown clearly. Only his posture and his expression change."
     ),
     "FELLOW": (
-        "FELLOW-SERVANT LOCK: the fellow servant is the same man in every shot "
-        "— mid-twenties, slight and mild-faced, with a short dark beard and "
-        "gentle dark eyes. He wears a patched DUSTY INDIGO wool tunic with a "
-        "plain rope belt and worn sandals (never cream, never white). His face "
+        "FELLOW-SERVANT LOCK: the fellow servant is the SAME man in every shot and "
+        "these are invariants that hold even when he is small, distant or out of "
+        "focus — mid-twenties, slight and narrow-shouldered, a smooth mild "
+        "olive-brown face, large gentle dark eyes, a SHORT SPARSE BLACK BEARD that "
+        "has not filled in, and thick black hair curling at the neck. He wears a "
+        "patched DARK INDIGO wool tunic with a plain twisted rope belt and worn "
+        "sandals. His clothing is never cream, never off-white, never pale. His face "
         "is shown clearly."
     ),
-    "HALL": (
-        "AUDIENCE HALL LOCK: a great stone audience hall — pale honey-stone "
-        "columns down both sides, high clerestory windows throwing long slanted "
-        "shafts of daylight across a polished stone floor, a raised stone dais "
-        "with a heavy carved wooden seat, patterned dark rugs on the steps, "
-        "bronze lampstands, and low scribes' tables to one side stacked with "
-        "rolled account scrolls, ink pots and a bronze balance scale."
+    "WIFE": (
+        "WIFE-AND-CHILDREN LOCK: the debtor's wife is a woman of about thirty-five "
+        "with a broad tired olive-brown face and dark hair bound up under a DEEP "
+        "UMBER headcloth, in a DARK MADDER-RED wool dress. Two children stand "
+        "against her — a boy of about nine in a DARK BROWN tunic and a girl of about "
+        "six in DUSTY INDIGO. Exactly three of them, never more, never fewer. None "
+        "of them wears cream or off-white. They are frightened and dignified, never "
+        "wailing, never theatrical."
     ),
-    "PALACE-YARD": (
-        "PALACE COURTYARD LOCK: the sunlit outer courtyard of the palace — wide "
-        "worn flagstones, a shaded colonnade along one side, a great arched "
-        "gate to the street, clay jars and bundled sacks by the walls, and hard "
-        "bright daylight with sharp column shadows across the stones."
+    "COURT-SERVANTS": (
+        "COURT-SERVANTS LOCK: the household servants of the palace are ordinary "
+        "working men and women of many ages with dark hair, dressed in SATURATED "
+        "DARK working colours — deep umber brown, dark olive, dusty indigo, deep "
+        "russet and dark ochre wool. NOT ONE of them wears cream, off-white, pale "
+        "grey or any near-white cloth, including at the blurred edges of the frame. "
+        "Their heads are bare or bound in dark cloth."
     ),
-    "PRISON": (
-        "PRISON LOCK: a low stone gatehouse cell at the courtyard's far corner "
-        "— a heavy door of dark iron-strapped timber with a small barred "
-        "opening, rough shadowed stone, and one narrow slot of daylight. No "
-        "instruments of any kind are visible, only stone, timber and iron bars."
-    ),
-    "COURTYARD": (
-        "CAPERNAUM COURTYARD LOCK: the small courtyard of a Capernaum house — "
-        "honey-coloured stone walls, a low doorway into the dark cool of the "
-        "house, a spreading fig tree throwing dappled shade, low stone benches "
-        "and a rolled fishing net over one wall, in warm late-afternoon golden "
-        "light."
+    "GUARDS": (
+        "GUARDS LOCK: the palace guards are two broad heavy-set men in knee-length "
+        "DARK BROWN leather over DEEP RED wool tunics, with plain hammered bronze "
+        "belt plates, hand-forged short blades sheathed and never drawn, and thick "
+        "sandals laced to the calf. No cream, no off-white, no polished or machined "
+        "armour, no helmets with plumes. They handle people firmly and without "
+        "cruelty; they never strike anyone."
     ),
     "DISCIPLES": (
-        "DISCIPLES LOCK: the listening disciples are weathered working "
-        "Galilean men of various ages with dark hair and full dark beards, "
-        "dressed in SATURATED DEEP earth colours — dark chocolate brown, deep "
-        "russet, dark olive, burnt ochre and dusty indigo wool (never cream, "
-        "never white; only Jesus wears cream). Their faces are shown clearly."
+        "DISCIPLES LOCK: the listening disciples are weathered working Galilean men "
+        "of various ages, all with dark hair and full dark beards except one younger "
+        "clean-shaven man, dressed in SATURATED DEEP earth colours — dark chocolate "
+        "brown, deep russet, dark olive, burnt ochre and dark indigo wool. NOT ONE "
+        "of them wears cream, off-white or pale cloth anywhere in the frame, "
+        "including out-of-focus edges; only Jesus wears cream. Their faces are shown "
+        "clearly and no two of them share a face."
+    ),
+    "CAPERNAUM": (
+        "CAPERNAUM LOCK: a first-century lakeside town built of BLACK BASALT — dark "
+        "grey-black volcanic stone walls laid in rough courses, flat roofs of "
+        "packed mud over palm-trunk beams and brushwood, low square doorways with "
+        "plain basalt lintels, an unpaved street of pale dust that throws the dark "
+        "walls into strong contrast. A broad worn basalt doorstep and a low basalt "
+        "bench beside the door. Woven reed baskets, a stone hand-mill, and dark "
+        "flax fishing net drying over a line. Beyond the low roofline lies the flat "
+        "silver water of the lake and the bare brown hills across it. Every surface "
+        "is stone, mud plaster, timber, reed or cloth. There is no dome, no tower, "
+        "no minaret, no bell tower, no arch of cut voussoirs, no tiled roof, no "
+        "window glass, no pipe, vent, cable or wire, and nothing painted."
+    ),
+    "HALL": (
+        "AUDIENCE HALL LOCK: a great first-century audience hall — walls of dressed "
+        "limestone blocks finished in smooth lime plaster with a broad painted "
+        "dark-red ochre band at the base, a row of plain square stone piers down "
+        "each side, and a flat ceiling of massive squared CEDAR beams. High narrow "
+        "clerestory slots cut near the ceiling throw hard slanted shafts of daylight "
+        "across a floor of large worn stone slabs; the air between them holds "
+        "drifting dust. A raised stone dais of three steps carries a heavy carved "
+        "wooden seat with a dark crimson cushion, and thick dark patterned wool rugs "
+        "lie over the steps. To one side stand low wooden scribes' tables stacked "
+        "with rolled papyrus and parchment account scrolls, clay ink pots, cut reed "
+        "pens, a hand-forged bronze balance scale and stone weights. Light at night "
+        "would come from clay oil lamps, but this hall is lit only by daylight. "
+        "There is no glass, no candle, no candelabra, no hanging fixture, no dome, "
+        "no arch, no mosaic floor, no gilding, and no writing legible anywhere."
+    ),
+    "PALACE-YARD": (
+        "PALACE COURTYARD LOCK: the outer courtyard of the palace in hard bright "
+        "afternoon sun — wide worn flagstones scored by cart wheels, a shaded "
+        "colonnade of plain square stone piers along one side throwing hard "
+        "black-edged shadows, a heavy timber gate to the street, big fired clay "
+        "storage jars and bundled sacks stacked along the walls, and a stone water "
+        "trough. Everything is stone, fired clay, timber, rope and cloth; nothing is "
+        "painted, moulded, machined or manufactured."
+    ),
+    "PRISON": (
+        "PRISON LOCK: a low stone lock-up built into the far corner of the "
+        "courtyard — a heavy door of dark timber strapped with hand-forged iron, a "
+        "small barred opening in it, rough shadowed stone around it and one narrow "
+        "slot of daylight falling inside onto bare packed earth. Nothing else is "
+        "there: no instrument of any kind, no chain, no rack, no fire, no blood, "
+        "no mark on any wall — only stone, timber, iron bars and shadow."
     ),
 }
 
 REF = True
 
+# OUTPUT: this build has no earlier V2 stills, so the realistic set generates into
+# the standard assets dir.
+OUTPUT_ASSET_DIR = "assets"
+
+# TEXT_OVERRIDES — see the SOURCING TRAP note in the docstring. The V1 build is
+# read-only; this is the opt-in hook v2_assemble honours so the captions carry the
+# words that are actually spoken. Proved by faster-whisper transcription of the
+# shipped mp3 plus its own timing.json.
+TEXT_OVERRIDES = {
+    "n1": "Peter must have thought he was being generous.",
+}
+
+# REFS — wired in AFTER the three anchor beats (b10, b14, b28) are generated in
+# their own run and pass QC. Until then these paths do not exist and v2_gen_api
+# prints "character lock MISSING (skipped)" and carries on, which is exactly why
+# the anchors must be generated first.
+REFS = {
+    "KING": "assets/s10-a-king-settled-accounts.jpeg",
+    "DEBTOR": "assets/s14-could-never-be-repaid.jpeg",
+    "FELLOW": "assets/s28-nothing-next-to-the-ocean.jpeg",
+}
+
 BEATS = [
-    # ------------------------------------------- n0/s21 — Peter's question ----
+    # ================================ FRAME STORY — the Capernaum doorstep ====
     {
-        "id": "v2-r022-b01", "out": "s01-one-day-peter-came-to.jpeg", "seg": "n0",
+        "id": "v2-r022-b01", "out": "s01-peter-came-with-a-question.jpeg", "seg": "n0",
         "window": "0.28-4.82", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["PETER", "DISCIPLES", "COURTYARD"],
-        "narration": (
-            "One day Peter came to Jesus with a question that had been sitting "
-            "heavy on his heart."
-        ),
-        "must_show": "Peter crossing the courtyard TOWARD Jesus, who sits on a low stone bench in the fig-tree shade — Peter mid-stride, purposeful, something clearly on his mind.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; Peter is not angry — burdened, not hostile.",
+        "locks": ["PETER", "DISCIPLES", "CAPERNAUM"],
+        "narration": "One day Peter came to Jesus with a question that had been sitting heavy on his heart.",
+        "must_show": "Peter coming to Jesus on the broad basalt doorstep of a Capernaum house in low late-afternoon light, carrying something he has clearly been chewing on for days.",
+        "must_not_show": "no halo, no glow, no rim-light, no light coming off Jesus; no synagogue, no temple, no raised platform, no lamp lit, no cream or off-white cloth on anybody but Jesus, and nobody looking into the lens.",
         "scene": (
-            "In the warm golden late afternoon of the small courtyard, Jesus sits "
-            "on a low stone bench in the dappled shade of the fig tree, two other "
-            "disciples seated on the ground near him in quiet conversation. Peter "
-            "is crossing the flagstones toward him, caught mid-stride, his brow "
-            "drawn and his mouth set — a man carrying a question he has turned "
-            "over too many times. Jesus is already looking up at him. The camera "
-            "stands back far enough to hold the whole courtyard. Every figure has "
-            "two arms, two hands and one head."
+            "One photograph, 35mm lens, low raking late-afternoon sunlight, fine film "
+            "grain. THE CAMERA STANDS OUT IN THE DUSTY STREET BEHIND TWO SEATED "
+            "DISCIPLES AND SHOOTS PAST THEIR BACKS toward the house: their dark umber "
+            "and dark indigo shoulders fill the near left and near right of the frame, "
+            "soft and out of focus, and NOT ONE FACE IS TURNED TOWARD THE LENS. Beyond "
+            "them, sharp, Jesus sits on the worn black basalt doorstep with his "
+            "forearms on his knees, his head turned up and to his right toward Peter, "
+            "who has just crossed the street and stopped a pace short of the step with "
+            "one hand half-raised, mid-question. Jesus's eyes are fixed on Peter's "
+            "face and travel out of the frame past the right shoulder of the near "
+            "disciple, well off the camera axis. The low sun comes from the left along "
+            "the street, lays a long gold bar of light across the dust and the lower "
+            "half of the basalt wall, and leaves the doorway behind Jesus in deep cool "
+            "shadow."
         ),
     },
     {
-        "id": "v2-r022-b02", "out": "s02-it-was-about-forgiveness-and.jpeg", "seg": "n0",
-        "window": "4.82-9.43", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER"],
+        "id": "v2-r022-b02", "out": "s02-someone-who-kept-hurting-him.jpeg", "seg": "n0",
+        "window": "4.82-9.75", "wide": False, "jesus": False, "ref": False,
+        "locks": ["PETER", "CAPERNAUM"],
         "narration": "It was about forgiveness — and about someone who kept hurting him.",
-        "must_show": "a close portrait of Peter's weathered face — hurt and frustration held under control, eyes down and away, jaw tight.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; no rage or theatrics — this is old, worn hurt, not fresh fury.",
+        "must_show": "Peter's face alone, working on an old private grievance — the hurt is in the jaw and the eyes, not in a gesture.",
+        "must_not_show": "Jesus is not in this frame. No cream or off-white cloth anywhere, no second face in focus, and his pupils are nowhere near the lens.",
         "scene": (
-            "A close head-and-shoulders portrait of Peter in warm late-afternoon "
-            "light, his eyes lowered and fixed on nothing, his jaw tight beneath "
-            "the dark beard, the fine creases around his eyes deepened. It is the "
-            "face of a man who has forgiven the same person before and is tired. "
-            "Soft golden courtyard stone out of focus behind him. Every figure "
-            "has two arms, two hands and one head."
+            "One photograph, 85mm prime lens at f/2, shallow depth of field, low "
+            "late-afternoon sun, fine grain. Tight on Peter from the chest up, standing "
+            "in the street and turned three quarters to his own left so the raking "
+            "light crosses his face and every feature is plainly readable. His mouth is "
+            "closed hard, his brows are drawn, and his eyes are lowered and fixed on "
+            "the worn basalt step in front of him, so his gaze travels down and out "
+            "through the LOWER LEFT edge of the frame, far off the camera axis. One "
+            "weathered hand is closed loosely at his chest. The black basalt wall "
+            "behind him is a soft dark wash with the gold bar of low sunlight blurred "
+            "across it. He has one head and two complete hands."
         ),
     },
     {
-        "id": "v2-r022-b03", "out": "s03-lord-how-oft-shall-my.jpeg", "seg": "s21",
-        "window": "10.03-13.45", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["PETER", "COURTYARD"],
+        "id": "v2-r022-b03", "out": "s03-how-oft-shall-my-brother-sin.jpeg", "seg": "s21",
+        "window": "9.75-13.45", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["PETER", "DISCIPLES", "CAPERNAUM"],
         "narration": "Lord, how oft shall my brother sin against me, and I forgive him?",
-        "must_show": "SCRIPTURE-EXACT: Peter standing before the seated Jesus, asking — hands open in question, leaning slightly in; Jesus's full attention on him.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; Peter does not kneel — he stands and asks, man to master.",
+        "must_show": "Peter actually asking it out loud, and Jesus listening to him with complete attention — the question is taken seriously, never indulged.",
+        "must_not_show": "no halo, no glow, no rim-light; nobody is laughing at Peter; no cream or off-white cloth on anybody but Jesus; no face turned toward the lens.",
         "scene": (
-            "Peter stands before Jesus in the golden courtyard, bent slightly "
-            "toward him with both hands open at his waist, palms up, in the "
-            "middle of his question. Jesus sits on the low stone bench looking "
-            "up into Peter's face with complete, unhurried attention, his hands "
-            "at rest in his lap. The fig-tree shade dapples the stones between "
-            "them. The camera holds both men in profile, close enough to read "
-            "both faces. Every figure has two arms, two hands and one head."
+            "One photograph, 50mm lens, low late-afternoon sun, fine grain. THE CAMERA "
+            "SITS LOW AND CLOSE BESIDE THE BASALT BENCH AND SHOOTS ALONG THE FRONT OF "
+            "THE HOUSE, so the near disciple is seen from directly behind — the back of "
+            "his dark umber shoulder and head fill the near right of the frame, out of "
+            "focus — and NOT ONE FACE IS TURNED TOWARD THE LENS. Peter stands at the "
+            "left in three-quarter profile, weight on one foot, both hands open at "
+            "waist height, plainly mid-sentence. Jesus is seated on the step at the "
+            "right, sharp, leaning slightly forward with his elbows on his knees and "
+            "his whole face lifted to Peter; his eyes are locked on Peter's eyes across "
+            "the frame. Three other disciples sit and stand along the bench between "
+            "them, all watching Peter. The low sun rakes in from the left; the dust of "
+            "the street is bright with it and the doorway is deep shadow."
         ),
     },
     {
-        "id": "v2-r022-b04", "out": "s04-peter-must-have-thought-he.jpeg", "seg": "n1",
-        "window": "16.59-19.10", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER"],
-        "narration": "Peter must have thought he was being generous.",
-        "must_show": "a close shot of Peter's face with the faint self-satisfaction of a man who believes his offer is a big one — chin slightly lifted, a small expectant almost-smile.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; not smug or unlikeable — earnest, expecting approval.",
-        "scene": (
-            "A close portrait of Peter in the warm afternoon light, his chin "
-            "lifted a little and one eyebrow slightly raised, the smallest "
-            "expectant almost-smile inside his beard — the look of an earnest "
-            "man who has just offered what he believes is a generous number and "
-            "is waiting to be told so. Soft courtyard colour behind him. Every "
-            "figure has two arms, two hands and one head."
-        ),
-    },
-    {
-        "id": "v2-r022-b05", "out": "s05-in-other-words-stop-counting.jpeg", "seg": "n2",
-        "window": "26.89-28.45", "wide": False, "jesus": True, "ref": REF,
-        "locks": [],
-        "narration": "In other words, stop counting.",
-        "must_show": "a close, calm portrait of Jesus — steady warm eyes on Peter, the gentle gravity of a teacher resetting the whole question.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; no sternness — kindness with weight.",
-        "scene": (
-            "A close head-and-shoulders portrait of Jesus in the warm dappled "
-            "light beneath the fig tree, his warm brown eyes level and steady on "
-            "someone just past the camera, his expression gentle and utterly "
-            "unhurried — the calm of a teacher about to move the whole question "
-            "somewhere larger. Soft golden stone and green leaf shadow behind "
-            "him. Every figure has two arms, two hands and one head."
-        ),
-    },
-    {
-        "id": "v2-r022-b06", "out": "s06-real-forgiveness-keep-a-ledger.jpeg", "seg": "n2",
-        "window": "28.45-35.11", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["PETER", "DISCIPLES", "COURTYARD"],
-        "narration": (
-            "Real forgiveness doesn't keep a ledger. And then, to show them "
-            "what he meant, Jesus told a story."
-        ),
-        "must_show": "the disciples settling in around the seated Jesus as he begins the story — Peter now seated too, the whole group leaning in.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; he must not be set apart on a height — same level, close circle.",
-        "scene": (
-            "In the golden courtyard the disciples have gathered close around "
-            "Jesus — Peter now seated on the flagstones near his feet, four "
-            "others on benches and on the ground, all leaning in. Jesus sits "
-            "forward on the low bench, one hand lifted mid-gesture, in the first "
-            "words of a story. The late light is turning deeper gold on the "
-            "honey stone. The camera stands back to hold the whole circle. "
-            "Every figure has two arms, two hands and one head."
-        ),
-    },
-    # --------------------------------------------- n3-n5 — the great reckoning ----
-    {
-        "id": "v2-r022-b07", "out": "s07-there-was-once-a-king.jpeg", "seg": "n3",
-        "window": "35.66-38.44", "wide": True, "jesus": False, "ref": False,
-        "locks": ["KING", "HALL"],
-        "narration": "There was once a king who decided to settle his accounts.",
-        "must_show": "the king seated on the carved seat of the dais in the great hall, scribes at their scroll-stacked tables — a reckoning being prepared.",
-        "must_not_show": "no halo, glare or rim-light; the king is not cruel-faced — grave, sovereign, composed.",
-        "scene": (
-            "The great audience hall in bright midday, long shafts of daylight "
-            "slanting from the high windows across the polished floor. The king "
-            "sits upright on the heavy carved seat of the dais, both hands on "
-            "its arms, grave and composed, while at the low tables to one side "
-            "two scribes unroll account scrolls and set out the bronze balance "
-            "scale. The camera stands at the far end of the hall, holding the "
-            "dais and the columns in one frame. Every figure has two arms, two "
-            "hands and one head."
-        ),
-    },
-    {
-        "id": "v2-r022-b08", "out": "s08-one-by-one-his-servants.jpeg", "seg": "n3",
-        "window": "38.44-43.28", "wide": True, "jesus": False, "ref": False,
-        "locks": ["KING", "HALL"],
-        "narration": (
-            "One by one, his servants were brought in to answer for what they "
-            "owed him."
-        ),
-        "must_show": "a line of servants waiting down the length of the hall while one stands before the dais answering, a scribe reading from a scroll.",
-        "must_not_show": "no halo, glare or rim-light; the waiting men are anxious but orderly — no chains on these ordinary debtors.",
-        "scene": (
-            "Down the length of the sunlit hall a line of half a dozen servants "
-            "in dark work-worn tunics waits between the columns, heads down, "
-            "hands clasped, while at the front one man stands alone before the "
-            "dais. A scribe beside the steps reads aloud from an unrolled "
-            "scroll, and the king listens from the carved seat, chin on his "
-            "fist. The camera looks down the line toward the dais. Every figure "
-            "has two arms, two hands and one head."
-        ),
-    },
-    {
-        "id": "v2-r022-b09", "out": "s09-one-man-was-dragged-forward.jpeg", "seg": "n4",
-        "window": "43.85-53.95", "wide": True, "jesus": False, "ref": False,
-        "locks": ["KING", "DEBTOR", "HALL"],
-        "narration": (
-            "One man was dragged forward who owed the king ten thousand "
-            "talents. It was a staggering fortune — more money than a working "
-            "man could earn in ten thousand lifetimes."
-        ),
-        "must_show": "SCRIPTURE-EXACT: the debtor BROUGHT — two guards gripping his arms, hauling him stumbling before the dais; he does not walk in freely.",
-        "must_not_show": "no halo, glare or rim-light; force but no violence — gripped arms, not blows; no blood.",
-        "scene": (
-            "Two broad palace guards in dark leather over deep-red tunics haul "
-            "the debtor up the centre of the hall, one gripping each of his "
-            "arms, his sandalled feet stumbling and dragging on the polished "
-            "stone, his rust-brown mantle slipping from one shoulder. On the "
-            "dais ahead the king rises half out of the carved seat to look at "
-            "him. Long midday shafts cut across their path. The camera moves "
-            "with them, low and close to the stumbling man but upright and "
-            "level — the floor at the bottom of the frame, the hall rising to "
-            "the top, the horizon level and the picture the right way up. Every "
-            "figure has two arms, two hands and one head."
-        ),
-    },
-    {
-        "id": "v2-r022-b10", "out": "s10-a-debt-like-that-could.jpeg", "seg": "n4",
-        "window": "53.95-57.55", "wide": False, "jesus": False, "ref": False,
-        "locks": ["HALL"],
-        "narration": "A debt like that could never, ever be repaid.",
-        "must_show": "a close shot of the account scroll unrolled to an impossible length — a scribe's finger at the total, entries beyond counting.",
-        "must_not_show": "no halo, glare or rim-light; no legible modern numerals or modern writing — dense ancient script marks only.",
-        "scene": (
-            "A close shot over a scribe's shoulder: an account scroll unrolled "
-            "so far it spills off the low table and curls onto the stone floor, "
-            "crowded from edge to edge with dense columns of small dark "
-            "handwritten entries. The scribe's ink-stained finger rests at the "
-            "final line. Beside the scroll one pan of the bronze balance scale "
-            "sits weighted down flat with tally-stones. Slanted daylight rakes "
-            "the parchment. Every figure has two arms, two hands and one head."
-        ),
-    },
-    {
-        "id": "v2-r022-b11", "out": "s11-the-man-had-nothing-to.jpeg", "seg": "n5",
-        "window": "58.14-59.66", "wide": False, "jesus": False, "ref": False,
-        "locks": ["DEBTOR"],
-        "narration": "The man had nothing to pay with.",
-        "must_show": "a close shot of the debtor's two empty hands held open before him, palms up, work-scarred and utterly empty; his stricken face above them.",
-        "must_not_show": "no halo, glare or rim-light; the hands hold NOTHING — no coins, no pouch.",
-        "scene": (
-            "A close shot of the debtor's two open hands held out before his "
-            "chest, palms up, work-scarred, calloused and completely empty — "
-            "and above them, softly out of focus, his hollow-cheeked face gone "
-            "grey with fear. A shaft of hall daylight falls across the empty "
-            "palms. Every figure has two arms, two hands and one head."
-        ),
-    },
-    {
-        "id": "v2-r022-b12", "out": "s12-so-the-king-ordered-that.jpeg", "seg": "n5",
-        "window": "59.66-67.84", "wide": True, "jesus": False, "ref": False,
-        "locks": ["KING", "DEBTOR", "HALL"],
-        "narration": (
-            "So the king ordered that he be sold — his wife, his children, "
-            "everything he owned — to recover even a fraction of it."
-        ),
-        "must_show": "SCRIPTURE-EXACT: the sentence pronounced — the king's arm extended in command; near the columns the debtor's wife and two children huddled together, a guard's hand on the wife's shoulder.",
-        "must_not_show": "no halo, glare or rim-light; RESTRAINED — no weeping chaos, no rough handling of the children, no chains; one guard's hand on a shoulder is the whole force shown.",
-        "scene": (
-            "The king stands before the carved seat with one arm extended in "
-            "formal command toward the debtor, who has gone rigid in the grip "
-            "of the two guards. By the columns at the hall's edge a woman in a "
-            "dark madder-red mantle draws two small children in against her "
-            "skirts, a single guard's hand resting on her shoulder, her face "
-            "turned toward her husband across the wide sunlit floor. The "
-            "camera stands to the side, holding the sentence and the family in "
-            "one frame with the long shafts of daylight between them. Every "
-            "figure has two arms, two hands and one head."
-        ),
-    },
-    # --------------------------------------------- n6-n8 — mercy at full scale ----
-    {
-        "id": "v2-r022-b13", "out": "s13-the-servant-threw-himself-down.jpeg", "seg": "n6",
-        "window": "68.31-75.74", "wide": True, "jesus": False, "ref": False,
-        "locks": ["KING", "DEBTOR", "HALL"],
-        "narration": (
-            "The servant threw himself down on the ground and begged. Please, "
-            "he cried, be patient with me, and I will pay back everything!"
-        ),
-        "must_show": "SCRIPTURE-EXACT: the debtor flat down on the stone at the foot of the dais steps, arms outstretched toward the king above him — full prostration, not kneeling.",
-        "must_not_show": "no halo, glare or rim-light; the guards have released him — he throws HIMSELF down.",
-        "scene": (
-            "The debtor lies thrown flat on the polished stone at the foot of "
-            "the dais steps, his whole body stretched out, both arms flung "
-            "forward up the steps toward the king, his face lifted just off the "
-            "floor, mouth open mid-cry. The two guards have stepped back a "
-            "pace. Above him the king stands very still before the carved "
-            "seat, looking down. A single shaft of midday light falls across "
-            "the prostrate man. The camera is level and upright, the floor at "
-            "the bottom of the frame and the dais rising to the top. Every "
-            "figure has two arms, two hands and one head."
-        ),
-    },
-    {
-        "id": "v2-r022-b14", "out": "s14-lord-have-patience-with-me.jpeg", "seg": "j3",
-        "window": "76.30-79.13", "wide": False, "jesus": False, "ref": False,
-        "locks": ["DEBTOR"],
-        "narration": "Lord, have patience with me, and I will pay thee all.",
-        "must_show": "SCRIPTURE-EXACT: a close shot of the debtor's upturned pleading face, hands clasped and raised, tears standing in his eyes.",
-        "must_not_show": "no halo, glare or rim-light; desperate but dignified — a man begging for his family's life.",
-        "scene": (
-            "A close shot from just above: the debtor's upturned face, tears "
-            "standing in his dark eyes, brows knotted, lips parted in the "
-            "middle of his plea, both hands clasped together and raised before "
-            "his chin. The hall's daylight falls on his face; the blurred edge "
-            "of the dais steps rises behind him. Every figure has two arms, "
-            "two hands and one head."
-        ),
-    },
-    {
-        "id": "v2-r022-b15", "out": "s15-and-the-king-looked-at.jpeg", "seg": "n7",
-        "window": "80.67-86.26", "wide": False, "jesus": False, "ref": False,
-        "locks": ["KING"],
-        "narration": (
-            "And the king looked at this desperate man crumpled before him — "
-            "and his heart broke with compassion."
-        ),
-        "must_show": "a close portrait of the king's face as severity breaks into compassion — eyes suddenly soft and wet, the hard line of his mouth undone.",
-        "must_not_show": "no halo, glare or rim-light; not pity from a height — genuine grief for the man; this is the warmest face in the row.",
-        "scene": (
-            "A close portrait of the king looking down past the camera, the "
-            "moment severity gives way: his deep-set eyes gone soft and "
-            "glistening, silver brows drawn together in grief rather than "
-            "anger, the hard line of his mouth undone behind the white beard. "
-            "The gold chain catches the hall light at his chest. Every figure "
-            "has two arms, two hands and one head."
-        ),
-    },
-    {
-        "id": "v2-r022-b16", "out": "s16-he-did-something-no-one.jpeg", "seg": "n7 + n8",
-        "window": "86.26-91.16", "wide": True, "jesus": False, "ref": False,
-        "locks": ["KING", "DEBTOR", "HALL"],
-        "narration": (
-            "He did something no one expected. He didn't just give him more "
-            "time."
-        ),
-        "must_show": "the king COMING DOWN the dais steps toward the prostrate man — descending to him, robe gathering on the steps, guards astonished.",
-        "must_not_show": "no halo, glare or rim-light; the king does not summon the man up — HE comes down; that is the whole beat.",
-        "scene": (
-            "The king is descending the dais steps toward the man still "
-            "prostrate on the stone below, his crimson robe gathering behind "
-            "him on the steps, one hand already reaching down. The two guards "
-            "have turned to each other, mouths open. The scribes have stopped, "
-            "quills lifted. Midday shafts cross the space between the "
-            "descending king and the man on the floor. The camera holds the "
-            "whole descent from the side. Every figure has two arms, two hands "
-            "and one head."
-        ),
-    },
-    {
-        "id": "v2-r022-b17", "out": "s17-he-cancelled-the-whole-debt.jpeg", "seg": "n8",
-        "window": "91.16-98.96", "wide": True, "jesus": False, "ref": False,
-        "locks": ["KING", "DEBTOR", "HALL"],
-        "narration": (
-            "He cancelled the whole debt. Every last coin of that impossible "
-            "fortune — forgiven, wiped away, gone."
-        ),
-        "must_show": "SCRIPTURE-EXACT: the cancellation made visible — the king with the great account scroll TORN THROUGH in his two hands, the debtor risen to his knees staring in disbelief.",
-        "must_not_show": "no halo, glare or rim-light; the debtor's face is disbelief and dawning joy, not composure.",
-        "scene": (
-            "At the foot of the dais the king stands over the kneeling debtor "
-            "holding the long account scroll torn clean through, one ragged "
-            "half in each hand, the dense-written parchment hanging in ribbons. "
-            "The debtor has risen onto his knees, sitting back on his heels, "
-            "staring up at the torn halves with his mouth open and both hands "
-            "loose at his sides — disbelief just turning to joy. A scribe "
-            "behind them presses both hands to his head. Bright shafts of "
-            "midday light fall over the torn parchment. Every figure has two "
-            "arms, two hands and one head."
-        ),
-    },
-    {
-        "id": "v2-r022-b18", "out": "s18-the-man-was-free.jpeg", "seg": "n8",
-        "window": "98.96-100.84", "wide": False, "jesus": False, "ref": False,
-        "locks": ["DEBTOR", "HALL"],
-        "narration": "The man was free.",
-        "must_show": "the debtor alone, standing, unburdened — shoulders dropped, face lifted into the light, a man given his life back.",
-        "must_not_show": "no halo, glare or rim-light; joy and lightness, not triumph.",
-        "scene": (
-            "The debtor stands alone in one of the long shafts of daylight in "
-            "the hall, his face lifted into the light with his eyes closed, "
-            "shoulders fallen loose, both hands open at his sides — a man "
-            "feeling the whole weight go. The columns and the bright doorway "
-            "to the courtyard stand soft behind him. Every figure has two "
-            "arms, two hands and one head."
-        ),
-    },
-    # ------------------------------------- n9-n13 — the hundred pence, the mirror ----
-    {
-        "id": "v2-r022-b19", "out": "s19-but-then-that-same-servant.jpeg", "seg": "n9",
-        "window": "101.44-109.72", "wide": True, "jesus": False, "ref": False,
-        "locks": ["DEBTOR", "FELLOW", "PALACE-YARD"],
-        "narration": (
-            "But then that same servant walked outside. And there he found one "
-            "of his fellow servants — a man who owed him a hundred silver "
-            "coins."
-        ),
-        "must_show": "SCRIPTURE-EXACT: the forgiven man just OUTSIDE in the hard sunlight, catching sight of the fellow servant across the courtyard — the moment of spotting him, face already changing.",
-        "must_not_show": "no halo, glare or rim-light; the change must read at a glance — relief curdling into calculation.",
-        "scene": (
-            "In the hard bright sunlight of the outer palace courtyard the "
-            "forgiven debtor has stopped mid-stride on the flagstones, his head "
-            "turned sharply toward the colonnade where the young fellow servant "
-            "in the patched indigo tunic is crossing with a clay jar on his "
-            "shoulder, unaware. The debtor's eyes have narrowed and his relief "
-            "has curdled into something colder. Sharp column shadows cut the "
-            "stones between them. The camera holds both men and the distance "
-            "between them. Every figure has two arms, two hands and one head."
-        ),
-    },
-    {
-        "id": "v2-r022-b20", "out": "s20-a-few-months-wages.jpeg", "seg": "n9",
-        "window": "109.72-111.42", "wide": False, "jesus": False, "ref": False,
-        "locks": [],
-        "narration": "A few months' wages.",
-        "must_show": "a close still shot of a small worn leather pouch with a modest scatter of ancient silver coins — small, countable, ordinary.",
-        "must_not_show": "no halo, glare or rim-light; the pile must look SMALL — a handful, nothing like a fortune; no modern coins.",
-        "scene": (
-            "A close still shot on sun-warmed flagstone: a small worn leather "
-            "pouch tipped on its side with a modest scatter of rough-struck "
-            "ancient silver coins spilled beside it — a countable little "
-            "handful, no more. Hard courtyard daylight throws each small coin's "
-            "shadow across the stone. Every figure has two arms, two hands and "
-            "one head."
-        ),
-    },
-    {
-        "id": "v2-r022-b21", "out": "s21-real-money-yes-but-nothing.jpeg", "seg": "n9 + n10",
-        "window": "111.42-119.58", "wide": True, "jesus": False, "ref": False,
-        "locks": ["DEBTOR", "FELLOW", "PALACE-YARD"],
-        "narration": (
-            "Real money, yes — but nothing next to the ocean he'd just been "
-            "forgiven. He grabbed the man by the throat and started to choke "
-            "him."
-        ),
-        "must_show": "SCRIPTURE-EXACT: the seizing — the debtor's fist twisted into the collar of the fellow servant's tunic at the throat, the clay jar shattered on the stones, the smaller man bent backward.",
-        "must_not_show": "no halo, glare or rim-light; force without gore — a fist in the gathered collar, the young man's hands gripping that wrist; no blood, no injury.",
-        "scene": (
-            "In the hard sunlight the debtor has seized the young fellow "
-            "servant, his right fist twisted deep into the gathered collar of "
-            "the indigo tunic at the throat, driving him bent backward over "
-            "the flagstones; the clay jar lies shattered around their feet in "
-            "a dark splash of water. The young man's both hands clamp the "
-            "gripping wrist, his face shocked. The camera stands close and "
-            "level with the struggle. Every figure has two arms, two hands "
-            "and one head."
-        ),
-    },
-    {
-        "id": "v2-r022-b22", "out": "s22-pay-me-what-you-owe.jpeg", "seg": "n10",
-        "window": "119.58-122.03", "wide": False, "jesus": False, "ref": False,
-        "locks": ["DEBTOR"],
-        "narration": "Pay me what you owe me! he snarled.",
-        "must_show": "a tight close-up of the debtor's snarling face — teeth bared, the same face that wept on the floor now twisted with fury.",
-        "must_not_show": "no halo, glare or rim-light; recognisably the SAME man as the pleading close-up — the mirror is the point.",
-        "scene": (
-            "A tight close-up of the debtor's face in the hard courtyard light, "
-            "teeth bared inside the thin black beard, brows crushed down, "
-            "spittle at the corner of his shouting mouth — the same "
-            "hollow-cheeked face that was upturned and weeping an hour before, "
-            "now twisted with fury. Every figure has two arms, two hands and "
-            "one head."
-        ),
-    },
-    {
-        "id": "v2-r022-b23", "out": "s23-pay-me-that-thou-owest.jpeg", "seg": "j4",
-        "window": "124.10-125.81", "wide": False, "jesus": False, "ref": False,
-        "locks": ["DEBTOR", "FELLOW"],
-        "narration": "Pay me that thou owest.",
-        "must_show": "SCRIPTURE-EXACT: the two faces inches apart — the debtor's fist still in the collar, the young man pinned back against a column, fear against fury in profile.",
-        "must_not_show": "no halo, glare or rim-light; no blows struck, no blood — the grip and the faces carry it all.",
-        "scene": (
-            "A close two-shot in profile: the young fellow servant pinned back "
-            "against a courtyard column, and the debtor's furious face pushed "
-            "to within inches of his, fist still knotted in the indigo collar "
-            "at his throat. The young man's eyes are wide, his chin turned "
-            "away. Hard sunlight rakes across both faces. Every figure has two "
-            "arms, two hands and one head."
-        ),
-    },
-    {
-        "id": "v2-r022-b24", "out": "s24-his-fellow-servant-fell-down.jpeg", "seg": "n11",
-        "window": "127.36-137.30", "wide": True, "jesus": False, "ref": False,
-        "locks": ["DEBTOR", "FELLOW", "PALACE-YARD"],
-        "narration": (
-            "His fellow servant fell down at his feet and begged him with the "
-            "very same words he himself had used only moments before: Please, "
-            "be patient with me, and I will pay you back!"
-        ),
-        "must_show": "SCRIPTURE-EXACT: the deliberate MIRROR of the throne-room plea — the young man thrown down flat at the debtor's feet on the flagstones, arms stretched toward him, exactly the posture the debtor himself held.",
-        "must_not_show": "no halo, glare or rim-light; the composition must visibly echo the earlier prostration beat — same pose, meaner setting.",
-        "scene": (
-            "On the sunlit flagstones the young fellow servant lies thrown "
-            "flat at the debtor's feet, his whole body stretched out, both "
-            "arms flung forward toward the man's dusty sandals, face lifted "
-            "just off the stone, pleading — precisely the posture of the "
-            "throne-room floor, replayed in a courtyard. The debtor stands "
-            "over him, arms folded, looking down. Sharp column shadows bar the "
-            "stones. The camera is level and upright, the flagstones at the "
-            "bottom of the frame and the colonnade rising to the top. Every "
-            "figure has two arms, two hands and one head."
-        ),
-    },
-    {
-        "id": "v2-r022-b25", "out": "s25-but-he-refused-he-would.jpeg", "seg": "n12",
-        "window": "137.82-139.95", "wide": False, "jesus": False, "ref": False,
-        "locks": ["DEBTOR"],
-        "narration": "But he refused. He would not listen.",
-        "must_show": "the debtor with his face deliberately TURNED AWAY from the unseen pleading below, arms crossed hard, jaw set — refusal made visible.",
-        "must_not_show": "no halo, glare or rim-light; cold refusal, not rage — the fury has settled into something worse.",
-        "scene": (
-            "A close three-quarter shot of the debtor standing in the hard "
-            "light, arms crossed hard over the rust-brown mantle, his face "
-            "deliberately turned away and his eyes fixed on the far wall — "
-            "cold, shut, finished listening — while at the very bottom edge of "
-            "the frame two pleading hands reach up toward him out of focus. "
-            "Every figure has two arms, two hands and one head."
-        ),
-    },
-    {
-        "id": "v2-r022-b26", "out": "s26-he-had-the-man-thrown.jpeg", "seg": "n12 + n13",
-        "window": "139.95-148.76", "wide": True, "jesus": False, "ref": False,
-        "locks": ["DEBTOR", "FELLOW", "PRISON", "PALACE-YARD"],
-        "narration": (
-            "He had the man thrown into prison until he could pay back every "
-            "penny. The other servants saw the whole thing, and it grieved them "
-            "deeply."
-        ),
-        "must_show": "SCRIPTURE-EXACT: the young man pushed in at the dark gatehouse cell door by a warder while the debtor points the order — and to the side a knot of other servants watching, stricken.",
-        "must_not_show": "no halo, glare or rim-light; RESTRAINED — a hand on the shoulder pushing him through the doorway, no beating, no chains, no blood.",
-        "scene": (
-            "At the shadowed corner of the courtyard a thick-set warder pushes "
-            "the young fellow servant through the heavy iron-strapped cell "
-            "door, one hand flat between his shoulders, the young man's head "
-            "bowed as the darkness takes him. The debtor stands a few paces "
-            "off with his arm still extended in the order. To the side, three "
-            "other servants in dark work tunics have stopped their carrying "
-            "and stand close together, faces fallen, one woman's hand pressed "
-            "over her mouth. Hard light outside, deep shadow in the doorway. "
-            "Every figure has two arms, two hands and one head."
-        ),
-    },
-    {
-        "id": "v2-r022-b27", "out": "s27-they-went-and-told-the.jpeg", "seg": "n13 + n14",
-        "window": "148.76-153.89", "wide": True, "jesus": False, "ref": False,
-        "locks": ["KING", "HALL"],
-        "narration": (
-            "They went and told the king everything that had happened. The king "
-            "summoned him back."
-        ),
-        "must_show": "SCRIPTURE-EXACT: the grieved servants before the dais, mid-report — one gesturing back toward the courtyard — and the king rising from the seat, his face darkening.",
-        "must_not_show": "no halo, glare or rim-light; the servants report in grief, not gossip — earnest, distressed faces.",
-        "scene": (
-            "In the hall, now lit by lower afternoon shafts, three servants in "
-            "dark work tunics stand close together before the dais, one man "
-            "mid-sentence with his arm flung back toward the courtyard door, "
-            "the woman beside him with her hands knotted at her chest. The "
-            "king has risen from the carved seat and stands at the top of the "
-            "steps, gripping the seat's arm, his face darkening as he "
-            "listens. The camera holds the reporting group and the rising king "
-            "in one frame. Every figure has two arms, two hands and one head."
-        ),
-    },
-    {
-        "id": "v2-r022-b28", "out": "s28-he-said-you-have-shown.jpeg", "seg": "n14",
-        "window": "153.89-159.34", "wide": True, "jesus": False, "ref": False,
-        "locks": ["KING", "DEBTOR", "HALL"],
-        "narration": (
-            "he said. Shouldn't you have shown the same mercy to your fellow "
-            "servant that I showed to you?"
-        ),
-        "must_show": "the debtor back before the dais — alone, shrunken — and the king pointing down at him in grieved accusation.",
-        "must_not_show": "no halo, glare or rim-light; the king's anger carries GRIEF in it — betrayed mercy, not mere rage.",
-        "scene": (
-            "The debtor stands alone and shrunken at the foot of the dais, "
-            "shoulders curled, eyes on the floor, while above him the king "
-            "stands at the top of the steps pointing down at him, silver brows "
-            "drawn in an anger that is half grief. The scribes at their tables "
-            "keep their heads bowed. The low afternoon shafts fall long and "
-            "amber across the stone between them. Every figure has two arms, "
-            "two hands and one head."
-        ),
-    },
-    {
-        "id": "v2-r022-b29", "out": "s29-pay-me-now.jpeg", "seg": "n10",
-        "window": "122.03-123.52", "wide": True, "jesus": False, "ref": False,
-        "locks": ["DEBTOR", "FELLOW", "PALACE-YARD"],
-        "narration": "Pay me now!",
-        "must_show": "the burst continues — the debtor SHAKING the young man by the gripped collar, the smaller man's feet staggering, heels dragging on the stones.",
-        "must_not_show": "no halo, glare or rim-light; violent motion but no injury — no blows, no blood.",
-        "scene": (
-            "Mid-shake: the debtor hauls the gripped collar so hard that the "
-            "young fellow servant staggers sideways across the flagstones, "
-            "heels scraping, one arm flailing out for balance, the indigo "
-            "tunic wrenched tight at his throat. The debtor's shoulders are "
-            "thrown into the pull, mouth open in a shout. Shards of the broken "
-            "jar scatter the wet stones at their feet. The camera is close, "
-            "level and upright. Every figure has two arms, two hands and one "
-            "head."
-        ),
-    },
-    {
-        "id": "v2-r022-b30", "out": "s30-o-thou-wicked-servant-i.jpeg", "seg": "j5",
-        "window": "159.95-172.53", "wide": True, "jesus": False, "ref": False,
-        "locks": ["KING", "DEBTOR", "HALL"],
-        "narration": (
-            "O thou wicked servant, I forgave thee all that debt, because thou "
-            "desiredst me: Shouldest not thou also have had compassion on thy "
-            "fellowservant, even as I had pity on thee?"
-        ),
-        "must_show": "SCRIPTURE-EXACT: the king's full judgment — he has come DOWN the steps to stand over the debtor, holding up the two torn halves of the cancelled scroll between them as the evidence of what was given.",
-        "must_not_show": "no halo, glare or rim-light; the torn scroll halves must match the earlier cancellation beat — same ragged tear.",
-        "scene": (
-            "The king has come down the dais steps and stands over the "
-            "cowering debtor, holding up before his face the two ragged torn "
-            "halves of the great account scroll — the same tear, the ribboned "
-            "parchment — his eyes blazing and wet at once above the white "
-            "beard. The debtor has half-turned his face away, hands raised "
-            "uselessly. Behind them the carved seat stands empty in the amber "
-            "afternoon shafts. The camera is close and level on the two men "
-            "and the torn parchment between them. Every figure has two arms, "
-            "two hands and one head."
-        ),
-    },
-    {
-        "id": "v2-r022-b31", "out": "s31-till-seven-times.jpeg", "seg": "s21",
-        "window": "13.45-15.09", "wide": False, "jesus": False, "ref": False,
+        "id": "v2-r022-b04", "out": "s04-till-seven-times.jpeg", "seg": "s21",
+        "window": "13.45-16.31", "wide": False, "jesus": False, "ref": False,
         "locks": ["PETER"],
         "narration": "till seven times?",
-        "must_show": "a close shot of Peter finishing the question — both hands lifted open before his chest, palms up, offering his number, eyebrows raised expectantly.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; do NOT show counted fingers or a specific number of raised fingers — open offering hands only.",
+        "must_show": "Peter's own hands held up, offering a number — the fingers must be countable and the count must read as SEVEN across two hands.",
+        "must_not_show": "Jesus is not in this frame. No face fills the frame, no cream or off-white cloth, no writing, no coins.",
         "scene": (
-            "A close shot of Peter in the golden courtyard light, both hands "
-            "lifted open before his chest, palms up as though offering "
-            "something weighed and settled, his eyebrows raised and his head "
-            "tipped slightly — a man naming a figure he believes is generous "
-            "and waiting for the verdict. Warm dappled fig-tree shade behind "
-            "him. Every figure has two arms, two hands and one head."
+            "One photograph, 85mm prime lens at f/2.8, shallow depth of field, low "
+            "late-afternoon sun, fine grain. Tight on Peter's two weathered hands held "
+            "up at chest height in front of his own dark russet tunic: the left hand is "
+            "fully open with all five thick calloused fingers spread and separated "
+            "against the dark cloth, and the right hand has exactly two fingers raised "
+            "with the rest folded down — five and two, individually visible and easy to "
+            "count. Sunlight rakes across the backs of the hands from the left and "
+            "picks out the scars and the grain of the skin. His face is above the top "
+            "edge of the frame and is not visible; the blurred black basalt wall fills "
+            "the background. Exactly two hands appear in the picture."
         ),
     },
     {
-        "id": "v2-r022-b32", "out": "s32-and-in-his-anger-the.jpeg", "seg": "n15",
-        "window": "174.05-182.22", "wide": True, "jesus": False, "ref": False,
+        "id": "v2-r022-b05", "out": "s05-he-thought-he-was-generous.jpeg", "seg": "n1",
+        "window": "16.31-19.34", "wide": False, "jesus": False, "ref": False,
+        "locks": ["PETER", "DISCIPLES"],
+        "narration": "Peter must have thought he was being generous.",
+        "must_show": "the small pleased hopefulness on Peter's face in the half-second after he names his number — generosity he is proud of, never smugness or mockery.",
+        "must_not_show": "Jesus is not in this frame. Nobody is sneering; no cream or off-white cloth anywhere; his eyes are nowhere near the lens.",
+        "scene": (
+            "One photograph, 85mm prime lens at f/2, shallow depth of field, low "
+            "late-afternoon sun, fine grain. Tight on Peter's face and shoulders from "
+            "slightly below and to his left, so his chin is lifted a little. His "
+            "eyebrows are up, there is the beginning of a pleased half-smile at one "
+            "corner of his mouth, and his eyes are fixed slightly downward and to his "
+            "own right on a seated figure lower and further away, so his gaze exits "
+            "through the RIGHT edge of the frame, clearly past the camera. Behind his "
+            "shoulder, badly out of focus, a dark-olive disciple's shape leans in. The "
+            "raking gold light catches the side of his beard and the bridge of his "
+            "nose."
+        ),
+    },
+    {
+        "id": "v2-r022-b06", "out": "s06-i-say-not-unto-thee.jpeg", "seg": "j1",
+        "window": "19.34-22.98", "wide": False, "jesus": True, "ref": REF,
+        "locks": ["CAPERNAUM"],
+        "narration": "I say not unto thee, Until seven times:",
+        "must_show": "Jesus answering — close enough that his face carries the whole line. Kindness and total seriousness at once, never rebuke, never amusement.",
+        "must_not_show": "no halo, no glow, no rim-light, no light coming off him; no crowd, no second face in focus; his pupils are not on the lens.",
+        "scene": (
+            "One photograph, 85mm prime lens at f/2, shallow depth of field, low "
+            "late-afternoon sun, fine grain. Tight on Jesus from the chest up, seated "
+            "on the black basalt doorstep and turned three quarters to his own left so "
+            "the low gold light crosses his face from the left and the far side of his "
+            "face falls into soft shadow. He is mid-sentence, lips parted, his head "
+            "tilted very slightly up; his eyes are steady on Peter, who stands above "
+            "him and out of frame to the left, so his gaze travels up and out through "
+            "the UPPER LEFT edge of the picture, far off the camera axis. One hand is "
+            "open and low near his knee. The dark basalt doorway behind him is a deep "
+            "unreadable shadow. There is no light on him except the sunlight from the "
+            "street."
+        ),
+    },
+    {
+        "id": "v2-r022-b07", "out": "s07-until-seventy-times-seven.jpeg", "seg": "j1",
+        "window": "22.98-26.61", "wide": True, "jesus": False, "ref": False,
+        "locks": ["PETER", "DISCIPLES", "CAPERNAUM"],
+        "narration": "but, Until seventy times seven.",
+        "must_show": "the number landing on the men who heard it — the arithmetic visibly dying on their faces as they realise it cannot be counted.",
+        "must_not_show": "Jesus is not in this frame. Nobody is laughing; no cream or off-white cloth on anybody anywhere in the frame, including blurred edges; no face turned toward the lens.",
+        "scene": (
+            "One photograph, 35mm lens, low late-afternoon sun, fine grain. THE CAMERA "
+            "STANDS BEHIND JESUS'S EMPTY SIDE OF THE STEP AND SHOOTS PAST THE DARK "
+            "SHADOWED EDGE OF THE DOORWAY toward the men in the street, so the near "
+            "frame is a soft black basalt wall and the men are all seen at a slight "
+            "angle from the front-left, none of them squared to the lens and NOT ONE "
+            "FACE TURNED TOWARD IT. Peter stands at the centre in three-quarter view, "
+            "hands dropped to his sides, mouth slightly open, blinking; two disciples "
+            "on the bench have stopped mid-movement, one with a piece of bread halfway "
+            "to his mouth, both looking past Peter toward the step at the right edge of "
+            "the frame. Their eyelines all converge on that same point beyond the "
+            "frame's right edge. Low gold light rakes along the row of them and their "
+            "long shadows run away to the right across the pale dust."
+        ),
+    },
+    {
+        "id": "v2-r022-b08", "out": "s08-forgiveness-keeps-no-ledger.jpeg", "seg": "n2",
+        "window": "26.61-30.86", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAPERNAUM"],
+        "narration": "In other words, stop counting. Real forgiveness doesn't keep a ledger.",
+        "must_show": "a tally of wrongs being given up — a hand smoothing the scratched marks off a wax tally board so the count is gone.",
+        "must_not_show": "no people's faces, no coins, no writing that forms readable words or numerals, nothing modern, no paper, no book.",
+        "scene": (
+            "One photograph, 100mm macro lens at f/2.8, very shallow depth of field, "
+            "low late-afternoon sun, fine grain. Tight and low on a small hand-cut "
+            "wooden tally board resting on a man's knee in dark umber wool: its "
+            "shallow wax face is covered in short scratched tick marks, and a broad "
+            "weathered thumb is dragging across them, smoothing the wax flat and "
+            "wiping the marks out — half the board is already blank and soft. The "
+            "scratches are plain notches, not letters or numerals. Raking gold "
+            "sunlight comes low from the left and grazes the wax so the marks and the "
+            "smoothed part are both clearly readable. The rest of the picture falls "
+            "away to a blurred dark basalt wall. Exactly one hand is visible."
+        ),
+    },
+    {
+        "id": "v2-r022-b09", "out": "s09-jesus-told-a-story.jpeg", "seg": "n2",
+        "window": "30.86-35.38", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["PETER", "DISCIPLES", "CAPERNAUM"],
+        "narration": "And then, to show them what he meant, Jesus told a story.",
+        "must_show": "the exact moment a story begins — every man settling in toward Jesus, the street's business forgotten.",
+        "must_not_show": "no halo, no glow, no rim-light; nobody standing apart or bored; no cream or off-white cloth on anybody but Jesus; no face turned toward the lens.",
+        "scene": (
+            "One photograph, 35mm lens, low late-afternoon sun, fine grain. THE CAMERA "
+            "IS SET BACK IN THE STREET BEHIND THE HALF-CIRCLE OF MEN AND SHOOTS PAST "
+            "THEIR BACKS AND SHOULDERS toward the doorstep: three dark umber and dark "
+            "indigo backs occupy the near third of the frame, out of focus, and NOT ONE "
+            "FACE IS TURNED TOWARD THE LENS. Beyond them Jesus sits on the basalt step, "
+            "sharp and small in the frame, leaning forward with both forearms on his "
+            "knees and one hand lifted and open, plainly beginning to speak; his gaze "
+            "is level and travels across the half-circle toward the nearest listener at "
+            "the left. Peter has lowered himself onto the low basalt bench at the left "
+            "edge, in profile, still. The low sun comes from the left along the street "
+            "and throws the long shadows of all the seated men back toward the camera "
+            "across the pale dust. The lake's flat silver water shows over the roofline "
+            "behind the house."
+        ),
+    },
+
+    # ============================= THE PARABLE — the audience hall, midday ====
+    {
+        "id": "v2-r022-b10", "out": "s10-a-king-settled-accounts.jpeg", "seg": "n3",
+        "window": "35.38-38.44", "wide": False, "jesus": False, "ref": False,
+        "locks": ["KING", "HALL"],
+        "narration": "There was once a king who decided to settle his accounts.",
+        "must_show": "a sharply readable close study of the KING's FACE on the day of reckoning — this frame is the identity anchor for him and every feature must be plainly legible: about sixty, full silver-white beard, deep-set dark eyes, deep crimson robe.",
+        "must_not_show": "Jesus is not in this frame. No cream or off-white cloth anywhere, no crown, no second face in focus, no legible writing, and his pupils are nowhere near the lens.",
+        "scene": (
+            "One photograph, 85mm prime lens at f/2, shallow depth of field, hard "
+            "midday daylight from a high clerestory slot, fine grain. Tight on the king "
+            "from the chest up, seated on the carved wooden seat and turned three "
+            "quarters to his own right so a hard shaft of daylight crosses his face "
+            "from the upper left and every feature — the heavy brows, the deep-set dark "
+            "eyes, the broad nose, the square silver-white beard — is plainly readable, "
+            "with the far cheek in deep shadow. His head is slightly lowered, his mouth "
+            "is closed and level, and his eyes are fixed downward and to his own right "
+            "on a scroll being held up by a scribe standing lower and further away, so "
+            "his gaze exits through the LOWER RIGHT edge of the frame, well off the "
+            "camera axis. The gold chain lies heavy on the deep crimson wool. Behind "
+            "him the plastered wall and the dark cedar ceiling beams fall away into a "
+            "soft dim wash."
+        ),
+    },
+    {
+        "id": "v2-r022-b11", "out": "s11-servants-brought-in-one-by-one.jpeg", "seg": "n3",
+        "window": "38.44-43.57", "wide": True, "jesus": False, "ref": False,
+        "locks": ["KING", "COURT-SERVANTS", "HALL"],
+        "narration": "One by one, his servants were brought in to answer for what they owed him.",
+        "must_show": "the machinery of a reckoning — a line of waiting servants, scribes at their tables with the account scrolls, one man at the foot of the dais being dealt with now.",
+        "must_not_show": "Jesus is not in this frame. Nobody is being struck or shouted at; no cream, off-white or pale cloth on any servant anywhere in the frame including blurred edges; no face turned toward the lens; no legible writing.",
+        "scene": (
+            "One photograph, 28mm lens, hard midday shafts from the high clerestory "
+            "slots, fine grain. THE CAMERA STANDS AT THE BACK OF THE HALL BEHIND THE "
+            "WAITING LINE AND SHOOTS UP THE ROOM PAST THEIR BACKS: seven or eight "
+            "servants in deep umber, dark olive and dusty indigo wool are seen from "
+            "directly behind, shoulder to shoulder along the left-hand piers, their "
+            "heads all turned away up the hall, and NOT ONE FACE IS TURNED TOWARD THE "
+            "LENS. Far ahead of them, small in the frame and sharp, the king sits on "
+            "the dais with one hand resting on the arm of the seat, looking down at a "
+            "servant kneeling at the foot of the steps. At the right, two scribes sit "
+            "at low wooden tables with rolled scrolls and clay ink pots, one unrolling "
+            "a scroll and both looking toward the dais. Every eyeline in the picture "
+            "runs up the hall to the king. Four hard slanted bars of daylight cross the "
+            "worn stone floor between the camera and the dais and the dust turns in "
+            "them."
+        ),
+    },
+    {
+        "id": "v2-r022-b12", "out": "s12-one-man-dragged-forward.jpeg", "seg": "n4",
+        "window": "43.57-47.76", "wide": True, "jesus": False, "ref": False,
+        "locks": ["KING", "DEBTOR", "GUARDS", "HALL"],
+        "narration": "One man was dragged forward who owed the king ten thousand talents.",
+        "must_show": "the debtor BROUGHT, not walking in freely — two guards holding him by the arms, his feet stumbling and dragging on the stone.",
+        "must_not_show": "Jesus is not in this frame. Nobody is being beaten, no blood, no drawn weapon; no cream or off-white cloth anywhere; no face turned toward the lens.",
+        "scene": (
+            "One photograph, 35mm lens, hard midday shafts from the high clerestory "
+            "slots, fine grain. THE CAMERA MOVES WITH THE GROUP FROM BEHIND AND TO ONE "
+            "SIDE, low and close, so the two guards are seen from three-quarters behind "
+            "and the debtor is caught in profile between them; no face is turned toward "
+            "the lens and the horizon of the floor stays level. One guard grips each of "
+            "the debtor's upper arms; his sandalled feet are skidding and dragging "
+            "across the polished stone slabs and his deep rust-brown mantle has slipped "
+            "off one shoulder and trails. He is looking ahead and up toward the dais at "
+            "the far end of the hall. Ahead of them the king has risen half out of the "
+            "carved seat, small and sharp in the distance, watching the man come. A "
+            "hard bar of daylight cuts across their path and lights the dust their feet "
+            "throw up. Every figure has two arms, two hands and one head."
+        ),
+    },
+    {
+        "id": "v2-r022-b13", "out": "s13-a-staggering-fortune.jpeg", "seg": "n4",
+        "window": "47.76-53.95", "wide": False, "jesus": False, "ref": False,
+        "locks": ["HALL"],
+        "narration": "It was a staggering fortune — more money than a working man could earn in ten thousand lifetimes.",
+        "must_show": "the SIZE of the debt made physical — the scribes' table buried under account scrolls, the bronze balance scale with its heaviest stone weights, one scroll unrolled and hanging to the floor.",
+        "must_not_show": "no people's faces in focus; no coins, no treasure, no gold heaped anywhere — the debt is paperwork, not a pile of money; no legible writing or numerals; nothing modern.",
+        "scene": (
+            "One photograph, 50mm lens at f/2.8, shallow depth of field, a hard shaft "
+            "of midday daylight from the high clerestory slot falling across the "
+            "subject, fine grain. Low and close across the top of a low wooden scribes' "
+            "table: rolled papyrus and parchment account scrolls are stacked deep in a "
+            "worn wicker tray and heaped beside it, one of them unrolled and spilling "
+            "over the table edge to lie across the stone floor, its surface covered in "
+            "close dense ink strokes that are indistinct and unreadable at this focus. "
+            "Beside them stands a hand-forged bronze balance scale, one pan loaded with "
+            "three heavy stone weights so it sits hard down on the tabletop, the other "
+            "pan riding empty and high. A scribe's dark-sleeved forearm and hand rest "
+            "at the edge of the frame, out of focus; no face is visible. The hard "
+            "daylight rakes across the scroll edges and the dust turns in the air above "
+            "them; the dim hall behind is a soft brown wash."
+        ),
+    },
+    {
+        "id": "v2-r022-b14", "out": "s14-could-never-be-repaid.jpeg", "seg": "n4",
+        "window": "53.95-57.86", "wide": False, "jesus": False, "ref": False,
+        "locks": ["DEBTOR", "HALL"],
+        "narration": "A debt like that could never, ever be repaid.",
+        "must_show": "a sharply readable close study of the DEBTOR's FACE as the total is read out — this frame is the identity anchor for him and every feature must be plainly legible: about forty, wiry, hollow-cheeked, thin black beard, cropped receding black hair, dark olive-grey tunic under a deep rust-brown mantle.",
+        "must_not_show": "Jesus is not in this frame. No cream or off-white cloth anywhere, no second face in focus, no tears streaming theatrically, and his pupils are nowhere near the lens.",
+        "scene": (
+            "One photograph, 85mm prime lens at f/2, shallow depth of field, hard "
+            "midday daylight from a high clerestory slot, fine grain. Tight on the "
+            "debtor from the chest up, standing between the guards and turned three "
+            "quarters to his own left so the hard shaft of daylight crosses his face "
+            "from the left and every feature — the hollow cheeks, the sharp jaw, the "
+            "close-set dark eyes, the thin black beard, the cropped receding hair — is "
+            "plainly readable, with the far side of his face in deep shadow. His lips "
+            "are parted, his throat is working, and his eyes are lifted and fixed on "
+            "the king seated higher and further away to his left, so his gaze travels "
+            "up and out through the UPPER LEFT edge of the frame, far off the camera "
+            "axis. Sweat stands on his temple. The dim hall and a blurred guard's dark "
+            "red shoulder fill the background as an unreadable wash."
+        ),
+    },
+    {
+        "id": "v2-r022-b15", "out": "s15-nothing-to-pay-with.jpeg", "seg": "n5",
+        "window": "57.86-63.84", "wide": True, "jesus": False, "ref": False,
         "locks": ["KING", "DEBTOR", "HALL"],
-        "narration": (
-            "And in his anger the king handed him over to be punished until he "
-            "should pay back all that he owed. Then Jesus turned the story "
-            "toward every one of us."
-        ),
-        "must_show": "⚑ Flag J, RESTRAINED: the two guards leading the debtor away toward a dark doorway at the hall's edge — his head bowed, the king turned away toward the carved seat, grief in the set of his shoulders.",
-        "must_not_show": "no halo, glare or rim-light; NOTHING graphic — no instruments, no chains, no violence, no visible cell; a man led away through a dark door, nothing more.",
+        "narration": "The man had nothing to pay with. So the king ordered that he be sold.",
+        "must_show": "the debtor's empty hands turned up and open in front of him, and the king giving the order from the dais — the sentence being passed, plainly and without pleasure.",
+        "must_not_show": "Jesus is not in this frame. The king is not gloating or shouting; no cream or off-white cloth anywhere; no face turned toward the lens; no weapon drawn.",
         "scene": (
-            "The two guards walk the debtor away across the long amber-lit "
-            "floor toward a dark narrow doorway at the far edge of the hall, "
-            "one at each arm, his head hanging and his feet heavy. In the "
-            "foreground the king has turned his back on the departure, one "
-            "hand braced on the arm of the carved seat, his silver head bowed "
-            "— anger and grief together in the set of his shoulders. The low "
-            "shafts stretch the three walking shadows long across the stone. "
-            "Every figure has two arms, two hands and one head."
+            "One photograph, 35mm lens, hard midday shafts from the high clerestory "
+            "slots, fine grain. THE CAMERA STANDS LOW AND CLOSE BEHIND THE DEBTOR AND "
+            "SHOOTS PAST HIM UP AT THE DAIS: his back, his shoulders and the back of "
+            "his cropped head fill the near left of the frame, dark and out of focus, "
+            "and his two empty hands are held up and out from his sides into the light "
+            "with the palms turned up and open, sharp and clearly visible past his own "
+            "hip. NOT ONE FACE IS TURNED TOWARD THE LENS. Beyond him, up three stone "
+            "steps and sharp, the king stands at the front edge of the dais in his deep "
+            "crimson robe, one arm extended and the hand turned down in a plain flat "
+            "gesture of command, his face grave and level and directed down at the "
+            "debtor. A scribe at the right has stopped writing to look up at the king. "
+            "A hard bar of daylight falls between the two men across the worn stone."
         ),
     },
     {
-        "id": "v2-r022-b33", "out": "s33-so-likewise-shall-my-heavenly.jpeg", "seg": "j2",
-        "window": "182.81-191.78", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["PETER", "DISCIPLES", "COURTYARD"],
-        "narration": (
-            "So likewise shall my heavenly Father do also unto you, if ye from "
-            "your hearts forgive not every one his brother their trespasses."
-        ),
-        "must_show": "SCRIPTURE-EXACT: back in the courtyard — Jesus delivering the story's point to the circle, grave and tender at once; the disciples utterly still, Peter's eyes locked on him.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; no wagging finger — gravity carried in stillness and the faces.",
+        "id": "v2-r022-b16", "out": "s16-his-wife-his-children.jpeg", "seg": "n5",
+        "window": "63.84-68.03", "wide": True, "jesus": False, "ref": False,
+        "locks": ["WIFE", "GUARDS", "HALL"],
+        "narration": "His wife, his children, everything he owned — to recover even a fraction of it.",
+        "must_show": "exactly three family members — the wife and two children — standing together at the side of the hall as part of the sentence, with a guard's hand resting on the wife's shoulder. Frightened and dignified.",
+        "must_not_show": "Jesus is not in this frame. Nobody is struck, dragged by the hair, bound, weeping theatrically or screaming; no cream or off-white cloth anywhere; no face turned toward the lens; not a fourth family member.",
         "scene": (
-            "The courtyard light has deepened toward dusk-gold. Jesus sits "
-            "forward on the low bench, elbows on knees, hands loosely joined, "
-            "his face grave and very gentle as he finishes the story's point. "
-            "The circle of disciples is utterly still around him — no one "
-            "moves — and Peter, seated on the flagstones, watches him without "
-            "blinking. The fig leaves hang motionless overhead. The camera "
-            "holds the quiet circle from just outside it. Every figure has two "
-            "arms, two hands and one head."
+            "One photograph, 50mm lens, hard midday daylight from the high clerestory "
+            "slots, fine grain. THE CAMERA STANDS BEHIND THE GUARD AND SHOOTS PAST HIS "
+            "DARK LEATHER SHOULDER AND UPPER ARM, which fill the near right of the "
+            "frame out of focus, so his broad back masks a third of the picture and NOT "
+            "ONE FACE IS TURNED TOWARD THE LENS. Beyond his shoulder, sharp and small "
+            "against a plastered wall with its painted dark-red ochre band, exactly "
+            "three people stand close together: the wife in a dark madder-red dress and "
+            "deep umber headcloth with the boy of nine pressed against her left hip and "
+            "the girl of six holding her right hand. Her chin is up and her eyes are "
+            "fixed across the hall on her husband, out of frame to the left, so all "
+            "three of their eyelines run out through the LEFT edge of the picture. The "
+            "guard's open hand rests flat and still on her shoulder without gripping. A "
+            "slanted bar of daylight lies on the floor just short of their feet, "
+            "leaving them in the cooler shade."
         ),
     },
     {
-        "id": "v2-r022-b34", "out": "s34-i-say-not-unto-thee.jpeg", "seg": "j1",
-        "window": "19.62-25.38", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["PETER", "COURTYARD"],
-        "narration": (
-            "I say not unto thee, Until seven times: but, Until seventy times "
-            "seven."
-        ),
-        "must_show": "SCRIPTURE-EXACT: Jesus answering Peter — a slight warmth at the corner of his mouth, one hand lifted in easy emphasis; Peter's expectant face beginning to fall into astonishment.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; no counted fingers anywhere in the frame.",
+        "id": "v2-r022-b17", "out": "s17-he-threw-himself-down.jpeg", "seg": "n6",
+        "window": "68.03-70.75", "wide": True, "jesus": False, "ref": False,
+        "locks": ["KING", "DEBTOR", "HALL"],
+        "narration": "The servant threw himself down on the ground and begged.",
+        "must_show": "the debtor face down on the stone at the foot of the dais steps, arms stretched out toward the king — the full weight of a man giving up every claim. THIS COMPOSITION IS REPEATED EXACTLY IN THE LATER FRAME WHERE THE FELLOW SERVANT BEGS HIM.",
+        "must_not_show": "Jesus is not in this frame. No violence, nobody pushing him down; no cream or off-white cloth anywhere; no face turned toward the lens.",
         "scene": (
-            "In the golden courtyard Jesus looks up at the standing Peter with "
-            "the faintest warmth at the corner of his mouth, one hand lifted "
-            "palm-open in easy emphasis as he answers. Peter's expectant "
-            "expression is just beginning to fall open into astonishment, his "
-            "offering hands sinking. The two are close, in profile, the "
-            "fig-tree shade dappling the stones around the bench. Every figure "
-            "has two arms, two hands and one head."
-        ),
-    },
-    # ------------------------------------------------ n16/n17 — the two debts ----
-    {
-        "id": "v2-r022-b35", "out": "s35-here-is-the-whole-point.jpeg", "seg": "n16",
-        "window": "193.47-197.76", "wide": False, "jesus": False, "ref": False,
-        "locks": ["HALL"],
-        "narration": (
-            "Here is the whole point of the story. Look at the two debts side "
-            "by side."
-        ),
-        "must_show": "a close still-life: the two torn halves of the immense account scroll laid on the scribes' table, and beside them the one small pouch with its little scatter of silver — the two debts literally side by side.",
-        "must_not_show": "no halo, glare or rim-light; the scale contrast must be unmistakable — a vast written fortune against a child-sized handful.",
-        "scene": (
-            "A close still-life on the scribes' low table in a slant of amber "
-            "light: the two ragged torn halves of the immense account scroll "
-            "laid out flat, dense dark entries running off both torn edges — "
-            "and set beside them, small enough to sit in one palm, the worn "
-            "leather pouch with its modest scatter of rough silver coins. "
-            "Nothing else on the table. The contrast in scale tells the whole "
-            "story at a glance. Every figure has two arms, two hands and one "
-            "head."
+            "One photograph, 35mm lens at chest height, hard midday shafts from the "
+            "high clerestory slots, fine grain. THE CAMERA STANDS BACK AND TO THE LEFT "
+            "OF THE FALLEN MAN AND LOOKS ALONG THE FLOOR TOWARD THE DAIS, so the "
+            "debtor is seen from behind and slightly above with the soles of his dusty "
+            "sandals nearest the camera and NO FACE TURNED TOWARD THE LENS. He is "
+            "stretched full length face down on the worn stone slabs, his deep "
+            "rust-brown mantle spread and rucked across his back, both arms reaching "
+            "forward up the first step, his fingers open on the stone. Three steps "
+            "above him the king stands looking down, small and sharp in the frame, his "
+            "deep crimson robe falling straight, one hand half-lifted. A hard bar of "
+            "daylight from the clerestory lies across the debtor's back and across the "
+            "steps between them. The rest of the hall falls away into cool dim shadow."
         ),
     },
     {
-        "id": "v2-r022-b36", "out": "s36-the-mountain-that-was-forgiven.jpeg", "seg": "n16",
-        "window": "197.76-204.25", "wide": True, "jesus": False, "ref": False,
-        "locks": ["HALL"],
-        "narration": (
-            "The mountain that was forgiven us, and the small handful we're "
-            "asked to forgive each other. They aren't even close."
-        ),
-        "must_show": "the same contrast at full width — the torn scroll's halves unrolled RIGHT ACROSS the floor of the hall, yards of dense entries, and the tiny pouch of coins sitting alone at its edge.",
-        "must_not_show": "no halo, glare or rim-light; no figures needed — let the two objects and the empty hall carry it.",
+        "id": "v2-r022-b18", "out": "s18-be-patient-with-me.jpeg", "seg": "n6",
+        "window": "70.75-76.02", "wide": False, "jesus": False, "ref": False,
+        "locks": ["DEBTOR", "HALL"],
+        "narration": "Please, he cried, be patient with me, and I will pay back everything!",
+        "must_show": "the debtor's face at floor level, cheek near the stone, mid-plea — the whole picture is one desperate man's face.",
+        "must_not_show": "Jesus is not in this frame. No blood, no injury, no bulging theatrical agony; no cream or off-white cloth; his pupils are nowhere near the lens.",
         "scene": (
-            "The empty audience hall in low amber light: the torn account "
-            "scroll unrolled in two great ragged lengths right across the "
-            "polished floor between the columns, yard after yard of dense dark "
-            "entries running away toward the dais — and beside the near edge, "
-            "tiny against the stone, the single worn pouch with its little "
-            "spill of silver coins. The carved seat stands empty in the "
-            "distance. The camera looks down the length of the unrolled "
-            "fortune. Every figure has two arms, two hands and one head."
+            "One photograph, 85mm prime lens at f/2, camera set down almost ON the "
+            "floor at the debtor's own level, very shallow depth of field, hard midday "
+            "daylight, fine grain. Tight on the debtor's face and one outstretched "
+            "hand: he has lifted his head off the stone, his cheek and beard still "
+            "close to it, his mouth open mid-word, his brows driven together and his "
+            "eyes wide and fixed upward and to his own left on the king standing above "
+            "and beyond him, so his gaze exits through the UPPER LEFT edge of the "
+            "frame, far off the camera axis. His outstretched hand is sharp in the "
+            "near foreground, fingers spread on the worn stone. Dust from the floor "
+            "clings to his beard and his cheek. A hard bar of daylight crosses the "
+            "stone just beyond his hand and the dim hall behind falls to an unreadable "
+            "brown wash."
         ),
     },
     {
-        "id": "v2-r022-b37", "out": "s37-we-forgive-the-small-things.jpeg", "seg": "n17",
-        "window": "204.83-208.27", "wide": False, "jesus": True, "ref": REF,
+        "id": "v2-r022-b19", "out": "s19-lord-have-patience-with-me.jpeg", "seg": "j3",
+        "window": "76.02-80.39", "wide": False, "jesus": False, "ref": False,
+        "locks": ["DEBTOR", "KING", "HALL"],
+        "narration": "Lord, have patience with me, and I will pay thee all.",
+        "must_show": "the debtor's hands taking hold of the very hem of the king's crimson robe where it lies on the step — the physical act of a man with nothing left to offer.",
+        "must_not_show": "Jesus is not in this frame. No faces in focus, no cream or off-white cloth anywhere, no violence, no gold, no coins.",
+        "scene": (
+            "One photograph, 100mm macro lens at f/2.8, very shallow depth of field, "
+            "camera set on the stone step itself, hard midday daylight, fine grain. "
+            "Tight and low on two weathered dust-grimed hands closing on the heavy "
+            "border of deep crimson wool where the king's robe lies across the edge of "
+            "the top step — the gold-thread border and the wool's coarse weave sharp "
+            "under the fingers, the knuckles white with grip. The king's dark leather "
+            "sandal and the hem of his dark purple under-tunic show just beyond, at the "
+            "edge of focus. Behind the hands, badly out of focus, the debtor's dark "
+            "olive-grey shoulder and lowered head are a soft shape; no face is "
+            "readable. A hard slant of daylight from the clerestory falls directly "
+            "across the hands and the crimson wool. Exactly two hands are visible."
+        ),
+    },
+    {
+        "id": "v2-r022-b20", "out": "s20-his-heart-broke-with-compassion.jpeg", "seg": "n7",
+        "window": "80.39-86.26", "wide": False, "jesus": False, "ref": False,
+        "locks": ["KING", "HALL"],
+        "narration": "And the king looked at this desperate man crumpled before him — and his heart broke with compassion.",
+        "must_show": "the king's face changing — the severity going out of it and real grief for the man arriving. This is the hinge of the whole parable and it must read as COMPASSION, never as pity from a height, never as weakness.",
+        "must_not_show": "Jesus is not in this frame. No tears streaming theatrically, no smile, no anger; no cream or off-white cloth; his pupils are nowhere near the lens.",
+        "scene": (
+            "One photograph, 85mm prime lens at f/1.8, very shallow depth of field, "
+            "hard midday daylight from a high clerestory slot, fine grain. Tight on the "
+            "king's face from just below his own eye level, turned three quarters to "
+            "his own left, the hard shaft of light crossing his brow and the square "
+            "silver-white beard and the far cheek dropping into shadow. His jaw has "
+            "loosened, his mouth is slightly open, the lines between his brows have "
+            "gone soft, and his eyes are lowered and fixed on the man lying on the "
+            "floor below him and to his left, so his gaze travels sharply down and out "
+            "through the LOWER LEFT edge of the frame, nowhere near the camera. One "
+            "hand has come up to the front of his deep crimson robe, open. The hall "
+            "behind him is a dim unreadable wash of stone and cedar shadow."
+        ),
+    },
+    {
+        "id": "v2-r022-b21", "out": "s21-something-no-one-expected.jpeg", "seg": "n7",
+        "window": "86.26-89.23", "wide": True, "jesus": False, "ref": False,
+        "locks": ["KING", "DEBTOR", "COURT-SERVANTS", "HALL"],
+        "narration": "He did something no one expected.",
+        "must_show": "the king coming DOWN the dais steps toward the man on the floor — a king leaving his seat, with the watching court frozen by it.",
+        "must_not_show": "Jesus is not in this frame. Nobody kneels to the king in this frame; no cream or off-white cloth on anyone anywhere including blurred edges; no face turned toward the lens.",
+        "scene": (
+            "One photograph, 35mm lens, hard midday shafts from the high clerestory "
+            "slots, fine grain. THE CAMERA STANDS AMONG THE WATCHING SERVANTS AT THE "
+            "SIDE OF THE HALL AND SHOOTS PAST TWO OF THEIR BACKS, whose deep umber and "
+            "dark olive shoulders fill the near left of the frame out of focus, so NOT "
+            "ONE FACE IS TURNED TOWARD THE LENS. Beyond them, sharp, the king is "
+            "halfway down the three stone steps of the dais, mid-stride, his deep "
+            "crimson robe swinging with the movement and one hand out toward the man "
+            "lying face down on the floor below; he is looking straight at the fallen "
+            "man. A scribe at the right has half-risen from his low table, scroll "
+            "forgotten in his hand, staring at the king. Every eyeline in the picture "
+            "converges on the king on the steps. Hard bars of daylight cross the floor "
+            "between the camera and the dais."
+        ),
+    },
+    {
+        "id": "v2-r022-b22", "out": "s22-he-didnt-just-give-him-time.jpeg", "seg": "n8",
+        "window": "89.23-93.02", "wide": True, "jesus": False, "ref": False,
+        "locks": ["KING", "DEBTOR", "HALL"],
+        "narration": "He didn't just give him more time. He cancelled the whole debt.",
+        "must_show": "the king with both hands lifting the debtor bodily up off the floor onto his feet — the raising is the picture.",
+        "must_not_show": "Jesus is not in this frame. Nobody is embracing theatrically; no cream or off-white cloth anywhere; no face turned toward the lens; the debtor is not still lying down.",
+        "scene": (
+            "One photograph, 35mm lens, hard midday shafts from the high clerestory "
+            "slots, fine grain. THE CAMERA STANDS BEHIND AND BELOW THE TWO MEN AT THE "
+            "FOOT OF THE STEPS AND SHOOTS PAST THE DEBTOR'S BACK, so his deep "
+            "rust-brown mantle and the back of his head fill the near right of the "
+            "frame, and NOT ONE FACE IS TURNED TOWARD THE LENS. The king has come right "
+            "down onto the floor with him; both of the king's hands have closed on the "
+            "debtor's upper arms and he is drawing him up, the debtor half-risen with "
+            "one knee still on the stone and his weight visibly in the king's grip. The "
+            "king's face is in three-quarter view, sharp, looking directly into the "
+            "debtor's face a hand's breadth away. Their two heads are the same height "
+            "for the first time in the row. A hard bar of daylight from the clerestory "
+            "falls across both men and the empty steps rise behind them."
+        ),
+    },
+    {
+        "id": "v2-r022-b23", "out": "s23-forgiven-wiped-away-gone.jpeg", "seg": "n8",
+        "window": "93.02-98.96", "wide": False, "jesus": False, "ref": False,
+        "locks": ["KING", "HALL"],
+        "narration": "Every last coin of that impossible fortune — forgiven, wiped away, gone.",
+        "must_show": "the account itself being destroyed — the king's own ringed hands tearing the debt scroll across, so the cancellation is a physical fact.",
+        "must_not_show": "Jesus is not in this frame. No faces in focus; no fire, nothing burning; no cream or off-white cloth; no legible writing or numerals; no coins.",
+        "scene": (
+            "One photograph, 100mm macro lens at f/2.8, very shallow depth of field, a "
+            "hard shaft of midday daylight falling directly across the subject, fine "
+            "grain. Tight on the king's two hands at chest height against his deep "
+            "crimson robe, the heavy gold signet ring sharp on the right hand: they "
+            "have taken a thick papyrus account scroll and torn it clean across, and "
+            "the two ragged halves are separating, fibres pulling apart along the tear, "
+            "one half already tipping and falling out of the bottom of the frame toward "
+            "the stone. The ink strokes on the papyrus are dense and completely "
+            "unreadable at this focus. Dust and torn papyrus fibre hang in the hard "
+            "shaft of light. Behind the hands the hall is an unreadable dim wash; no "
+            "face is visible anywhere in the picture."
+        ),
+    },
+    {
+        "id": "v2-r022-b24", "out": "s24-the-man-was-free.jpeg", "seg": "n8",
+        "window": "98.96-101.16", "wide": False, "jesus": False, "ref": False,
+        "locks": ["DEBTOR", "HALL"],
+        "narration": "The man was free.",
+        "must_show": "the debtor's face in the first second of being free — stunned, not yet joyful, unable to take it in.",
+        "must_not_show": "Jesus is not in this frame. He is not grinning or celebrating; no cream or off-white cloth; his pupils are nowhere near the lens.",
+        "scene": (
+            "One photograph, 85mm prime lens at f/1.8, very shallow depth of field, "
+            "hard midday daylight, fine grain. Tight on the debtor's face from slightly "
+            "to his right, standing now, the hard shaft of clerestory light full on the "
+            "hollow of his cheek. His mouth is open, his breathing shallow and visible "
+            "in the lift of his chest, dust still on his beard and one cheek. His eyes "
+            "are wide and fixed on the king standing close beside him and out of frame "
+            "to his own right, so his gaze exits through the RIGHT edge of the frame, "
+            "well past the camera. One of his hands is half-lifted toward his own chest "
+            "as if checking he is still there. The dim hall behind him is a soft "
+            "unreadable brown wash."
+        ),
+    },
+
+    # ======================== THE PARABLE — the outer courtyard, hard sun ====
+    {
+        "id": "v2-r022-b25", "out": "s25-that-same-servant-walked-out.jpeg", "seg": "n9",
+        "window": "101.16-103.88", "wide": True, "jesus": False, "ref": False,
+        "locks": ["DEBTOR", "PALACE-YARD"],
+        "narration": "But then that same servant walked outside.",
+        "must_show": "the forgiven man stepping out of the dark doorway of the hall into hard bright courtyard sunlight, seen from behind, walking away from the camera.",
+        "must_not_show": "Jesus is not in this frame. No other person's face; no cream or off-white cloth; no face turned toward the lens; not a sunset or sunrise sky.",
+        "scene": (
+            "One photograph, 35mm lens, hard high afternoon sun, fine grain. THE CAMERA "
+            "STANDS BACK INSIDE THE DIM DOORWAY OF THE HALL AND SHOOTS OUT PAST THE "
+            "DEBTOR'S BACK: he is seen from directly behind, walking away from the "
+            "camera through the heavy timber doorframe into the courtyard, so the whole "
+            "near frame is dark stone and his dark silhouette, and NO FACE IS TURNED "
+            "TOWARD THE LENS. His deep rust-brown mantle hangs straight, his shoulders "
+            "are square and easy, and his shadow runs back toward the camera across the "
+            "threshold stone. Beyond him the courtyard flagstones are washed flat and "
+            "hot with hard overhead sun, with the black-edged shadows of the colonnade "
+            "piers falling in bars across them and clay jars stacked along the far "
+            "wall. The sky above the courtyard wall is a pale bleached blue, high and "
+            "midday, with no colour of sunset or dawn in it."
+        ),
+    },
+    {
+        "id": "v2-r022-b26", "out": "s26-he-found-a-fellow-servant.jpeg", "seg": "n9",
+        "window": "103.88-109.72", "wide": True, "jesus": False, "ref": False,
+        "locks": ["DEBTOR", "FELLOW", "PALACE-YARD"],
+        "narration": "And there he found one of his fellow servants — a man who owed him a hundred silver coins.",
+        "must_show": "the moment of spotting — the forgiven man stopped mid-courtyard with his head turned, and the fellow servant across the yard working, unaware.",
+        "must_not_show": "Jesus is not in this frame. Nobody has touched anybody yet; no cream or off-white cloth on either man or anywhere in the frame; no face turned toward the lens.",
+        "scene": (
+            "One photograph, 35mm lens, hard high afternoon sun, fine grain. THE CAMERA "
+            "STANDS BEHIND AND SLIGHTLY LEFT OF THE DEBTOR AND SHOOTS ACROSS THE "
+            "COURTYARD PAST HIS SHOULDER: his back and the side of his head fill the "
+            "near left third of the frame, and his face is turned away in sharp profile "
+            "toward the far side of the yard, so NO FACE IS TURNED TOWARD THE LENS. He "
+            "has stopped mid-stride, one foot still lifted, his whole head swung "
+            "right. Across the hot flagstones, small and sharp in the middle distance, "
+            "the fellow servant crouches in the strip of shade under the colonnade with "
+            "a fired clay jar between his hands, working, his head down, unaware. The "
+            "debtor's eyeline runs straight across the frame to that crouching man. "
+            "Hard black-edged pier shadows lie in bars across the empty stones between "
+            "them and the two men's shadows are short and directly beneath them."
+        ),
+    },
+    {
+        "id": "v2-r022-b27", "out": "s27-a-few-months-wages.jpeg", "seg": "n9",
+        "window": "109.72-111.42", "wide": False, "jesus": False, "ref": False,
+        "locks": ["FELLOW", "PALACE-YARD"],
+        "narration": "A few months' wages.",
+        "must_show": "the smallness of the second debt made physical — one small worn cloth purse in the fellow servant's working hands, nothing more.",
+        "must_not_show": "no faces; no heap of money, no chest, no gold; no countable quantity is named or implied; no cream or off-white cloth; nothing modern.",
+        "scene": (
+            "One photograph, 100mm macro lens at f/2.8, very shallow depth of field, "
+            "hard high afternoon sun, fine grain. Tight and low on the fellow servant's "
+            "two working hands cupped in his own lap over the patched dark indigo wool "
+            "of his tunic, holding a small worn drawstring purse of coarse brown cloth "
+            "no bigger than his palm, its neck pulled shut with a twisted flax cord. "
+            "The cloth is limp and nearly flat. Hard sunlight falls across the hands "
+            "from the upper left and the shade of the colonnade cuts a hard dark edge "
+            "across his forearm. His face is above the top edge of the frame and is not "
+            "visible; the flagstones behind are a blown-out blur. Exactly two hands and "
+            "one purse are in the picture."
+        ),
+    },
+    {
+        "id": "v2-r022-b28", "out": "s28-nothing-next-to-the-ocean.jpeg", "seg": "n9",
+        "window": "111.42-116.69", "wide": False, "jesus": False, "ref": False,
+        "locks": ["FELLOW", "PALACE-YARD"],
+        "narration": "Real money, yes — but nothing next to the ocean he'd just been forgiven.",
+        "must_show": "a sharply readable close study of the FELLOW SERVANT's FACE looking up as a shadow falls over him — this frame is the identity anchor for him and every feature must be plainly legible: mid-twenties, slight, smooth face, large gentle dark eyes, short sparse black beard, thick black hair, patched dark indigo tunic.",
+        "must_not_show": "Jesus is not in this frame. Nobody is touching him yet; no cream or off-white cloth anywhere; no second face in focus; his pupils are nowhere near the lens.",
+        "scene": (
+            "One photograph, 85mm prime lens at f/2, shallow depth of field, hard high "
+            "afternoon sun, fine grain. Tight on the fellow servant from the chest up, "
+            "crouched in the strip of colonnade shade and turned three quarters to his "
+            "own right, his face lifted and every feature plainly readable in the "
+            "bright bounce off the sunlit flagstones — the smooth young cheeks, the "
+            "large dark eyes, the short sparse black beard, the thick black hair "
+            "curling at the neck. He has just begun to look up, chin rising, brows "
+            "starting to lift; his eyes are fixed on someone standing over him and "
+            "further away to his right, so his gaze travels up and out through the "
+            "UPPER RIGHT edge of the frame, well off the camera axis. The hard-edged "
+            "shadow of a standing man has fallen across his chest and the stones beside "
+            "him. The blown-out courtyard behind is an unreadable pale blur."
+        ),
+    },
+    {
+        "id": "v2-r022-b29", "out": "s29-he-took-him-by-the-throat.jpeg", "seg": "n10",
+        "window": "116.69-122.03", "wide": True, "jesus": False, "ref": False,
+        "locks": ["DEBTOR", "FELLOW", "PALACE-YARD"],
+        "narration": "He grabbed the man by the throat and started to choke him.",
+        "must_show": "one fist closed in the gathered collar of the fellow servant's tunic at the base of his throat, the younger man hauled up onto his toes against a pier. Force and fear, RESTRAINED.",
+        "must_not_show": "Jesus is not in this frame. NO injury, no blood, no bulging eyes, no bruising, no weapon, nothing graphic; no cream or off-white cloth anywhere; no face turned toward the lens.",
+        "scene": (
+            "One photograph, 35mm lens, hard high afternoon sun, fine grain. THE CAMERA "
+            "STANDS BEHIND AND BESIDE THE DEBTOR AND SHOOTS PAST HIS SHOULDER AND "
+            "RAISED ARM, so his back and the back of his cropped head fill the near "
+            "right of the frame and NO FACE IS TURNED TOWARD THE LENS. His right fist "
+            "has closed in the gathered dark indigo cloth at the base of the fellow "
+            "servant's throat and driven him back against a square stone pier; the "
+            "younger man's heels have come off the ground, both of his hands are up "
+            "gripping the wrist at his collar, his head is tipped back against the "
+            "stone and his face is turned away toward the bright yard beyond. His "
+            "clay jar lies on its side on the flagstones by their feet, unbroken, "
+            "rocking. Hard overhead sun throws both men's shadows sharp and short onto "
+            "the stones. There is no mark or injury on either man."
+        ),
+    },
+    {
+        "id": "v2-r022-b30", "out": "s30-pay-me-now.jpeg", "seg": "n10",
+        "window": "122.03-123.82", "wide": False, "jesus": False, "ref": False,
+        "locks": ["DEBTOR", "PALACE-YARD"],
+        "narration": "Pay me now!",
+        "must_show": "the forgiven man's own face in the act of choking someone — the same face from the hall, now snarling. The whole point of the row is that this is the SAME man.",
+        "must_not_show": "Jesus is not in this frame. No blood, no injury, nothing graphic; no cream or off-white cloth; his pupils are nowhere near the lens.",
+        "scene": (
+            "One photograph, 85mm prime lens at f/1.8, very shallow depth of field, "
+            "hard high afternoon sun, fine grain. Tight on the debtor's face from "
+            "slightly below and to his left, hard sun full on it from overhead so the "
+            "hollow cheeks and the thin black beard are sharply lit and the eye sockets "
+            "are in shadow. His lips are pulled back off his teeth mid-shout, the cords "
+            "standing in his neck, and his eyes are fixed straight ahead and slightly "
+            "up on the face of the man he is holding, just out of frame to his own "
+            "right, so his gaze exits through the RIGHT edge of the picture, clearly "
+            "past the camera. His raised forearm and closed fist gripping dark indigo "
+            "cloth cross the bottom corner of the frame, out of focus. The blown-out "
+            "courtyard behind is an unreadable pale blur."
+        ),
+    },
+    {
+        "id": "v2-r022-b31", "out": "s31-pay-me-that-thou-owest.jpeg", "seg": "j4",
+        "window": "123.82-127.08", "wide": True, "jesus": False, "ref": False,
+        "locks": ["DEBTOR", "FELLOW", "PALACE-YARD"],
+        "narration": "Pay me that thou owest.",
+        "must_show": "both men in one frame at the pier — the gripping fist and the younger man's fear held together, so the size of the wrong is visible in one look.",
+        "must_not_show": "Jesus is not in this frame. No injury, no blood, no weapon, nothing graphic; no cream or off-white cloth anywhere; no face turned toward the lens.",
+        "scene": (
+            "One photograph, 50mm lens, hard high afternoon sun, fine grain. THE CAMERA "
+            "STANDS OUT IN THE OPEN COURTYARD AND SHOOTS IN AT THE PAIR FROM THE SIDE, "
+            "so both men are in near profile against the square stone pier and NEITHER "
+            "FACE IS TURNED TOWARD THE LENS. At the left the debtor leans in, one fist "
+            "shut in the gathered dark indigo collar, his other hand flat on the pier "
+            "beside the younger man's head, his face thrust forward and his eyes locked "
+            "on the fellow servant's eyes. At the right the fellow servant is pinned "
+            "back against the stone, both hands on the wrist at his throat, his chin "
+            "up, looking straight back at the man holding him. Their two eyelines meet "
+            "in the middle of the frame. The hard edge of the colonnade shadow cuts "
+            "diagonally across the pier behind them and the sunlit flagstones fill the "
+            "bottom of the picture. Neither man is marked or injured."
+        ),
+    },
+    {
+        "id": "v2-r022-b32", "out": "s32-he-fell-down-at-his-feet.jpeg", "seg": "n11",
+        "window": "127.08-132.31", "wide": True, "jesus": False, "ref": False,
+        "locks": ["DEBTOR", "FELLOW", "PALACE-YARD"],
+        "narration": "His fellow servant fell down at his feet and begged him.",
+        "must_show": "THE DELIBERATE MIRROR of the earlier frame where the debtor lay face down before the king: the same camera height, the same seen-from-behind stretched-out posture, the same reaching arms — now with the forgiven man standing where the king stood.",
+        "must_not_show": "Jesus is not in this frame. Nobody is kicking or striking; no injury, no blood; no cream or off-white cloth anywhere; no face turned toward the lens.",
+        "scene": (
+            "One photograph, 35mm lens at chest height, hard high afternoon sun, fine "
+            "grain. THE CAMERA STANDS BACK AND TO THE LEFT OF THE FALLEN MAN AND LOOKS "
+            "ALONG THE FLAGSTONES TOWARD THE MAN STANDING OVER HIM — the same camera "
+            "position and height as the earlier hall frame, so the picture rhymes with "
+            "it. The fellow servant is stretched full length face down on the hot "
+            "stones, seen from behind and slightly above with the soles of his worn "
+            "sandals nearest the camera, his patched dark indigo tunic rucked across "
+            "his back, both arms reaching forward toward the standing man's feet, "
+            "fingers open on the stone; NO FACE IS TURNED TOWARD THE LENS. Above him "
+            "the debtor stands square and unmoved in his deep rust-brown mantle, arms "
+            "at his sides, looking down at the man on the ground. Hard overhead sun "
+            "throws the standing man's short black shadow across the fallen man's "
+            "reaching hands."
+        ),
+    },
+    {
+        "id": "v2-r022-b33", "out": "s33-the-very-same-words.jpeg", "seg": "n11",
+        "window": "132.31-137.54", "wide": False, "jesus": False, "ref": False,
+        "locks": ["FELLOW", "PALACE-YARD"],
+        "narration": "…with the very same words he himself had used only moments before.",
+        "must_show": "the fellow servant's face at ground level mid-plea — deliberately framed like the earlier close of the debtor begging on the hall floor, so the two faces echo.",
+        "must_not_show": "Jesus is not in this frame. No injury, no blood, nothing graphic; no cream or off-white cloth; his pupils are nowhere near the lens.",
+        "scene": (
+            "One photograph, 85mm prime lens at f/2, camera set down almost ON the "
+            "flagstones at the fallen man's own level, very shallow depth of field, "
+            "hard high afternoon sun, fine grain. Tight on the fellow servant's face "
+            "and one outstretched hand: he has lifted his head off the hot stone, his "
+            "cheek and the short sparse beard still close to it, his mouth open "
+            "mid-word, his brows driven together and his eyes wide and fixed upward and "
+            "to his own left on the man standing over him, so his gaze exits through "
+            "the UPPER LEFT edge of the frame, far off the camera axis. His outstretched "
+            "hand is sharp in the near foreground, fingers spread on the stone. Grit "
+            "from the flagstones clings to his cheek. The sunlit yard behind him is an "
+            "unreadable blown-out blur."
+        ),
+    },
+    {
+        "id": "v2-r022-b34", "out": "s34-cast-him-into-prison.jpeg", "seg": "n12",
+        "window": "137.54-144.65", "wide": True, "jesus": False, "ref": False,
+        "locks": ["DEBTOR", "FELLOW", "GUARDS", "PRISON", "PALACE-YARD"],
+        "narration": "But he refused. He would not listen. He had the man thrown into prison until he could pay back every penny.",
+        "must_show": "the fellow servant being walked into the corner lock-up by a guard while the forgiven man stands and watches it happen — the refusal made final.",
+        "must_not_show": "Jesus is not in this frame. No violence, no blood, no chains, no instruments of any kind, nothing graphic; no cream or off-white cloth anywhere; no face turned toward the lens.",
+        "scene": (
+            "One photograph, 35mm lens, hard high afternoon sun, fine grain. THE CAMERA "
+            "STANDS BEHIND THE DEBTOR AND SHOOTS PAST HIM ACROSS THE YARD toward the "
+            "corner lock-up, so his back, shoulders and the back of his cropped head "
+            "fill the near right third of the frame, dark and sharp against the bright "
+            "stones, and NO FACE IS TURNED TOWARD THE LENS. He stands with his arms "
+            "folded, unmoving, watching. Beyond him, small in the frame, a guard walks "
+            "the fellow servant through the open iron-strapped timber door of the "
+            "lock-up with one hand on his upper arm — no grip on the neck, no shove — "
+            "and the younger man's head is turned back over his shoulder toward the "
+            "watching debtor, so his eyeline runs back across the yard to the near "
+            "figure. The doorway inside is deep black shadow with one narrow slot of "
+            "daylight on bare earth. Nothing is inside it but stone and shadow."
+        ),
+    },
+    {
+        "id": "v2-r022-b35", "out": "s35-the-other-servants-saw.jpeg", "seg": "n13",
+        "window": "144.65-148.76", "wide": True, "jesus": False, "ref": False,
+        "locks": ["COURT-SERVANTS", "PALACE-YARD"],
+        "narration": "The other servants saw the whole thing, and it grieved them deeply.",
+        "must_show": "three or four fellow servants standing under the colonnade having watched it all — grief and shock on their faces, not gossip and not glee.",
+        "must_not_show": "Jesus is not in this frame. Nobody points, laughs or whispers behind a hand; no cream, off-white or pale cloth on anybody anywhere including blurred edges; no face turned toward the lens.",
+        "scene": (
+            "One photograph, 50mm lens, hard high afternoon sun, fine grain. THE CAMERA "
+            "STANDS OUT IN THE BRIGHT YARD LOOKING INTO THE SHADE OF THE COLONNADE AND "
+            "SHOOTS ALONG THE ROW OF PIERS, so the four servants are seen from the side "
+            "in three-quarter view, all of them facing away across the yard and NOT ONE "
+            "FACE TURNED TOWARD THE LENS. They stand still in the strip of shade in "
+            "deep umber, dark olive and dusty indigo wool: an older man with his hand "
+            "over his mouth, a woman with a water jar lowered forgotten against her "
+            "hip, two younger men side by side. Every one of them is looking across the "
+            "yard toward the dark lock-up doorway at the far right of the frame, and "
+            "their eyelines all converge on it. The hard edge between shade and blazing "
+            "sunlight cuts across the picture at their feet."
+        ),
+    },
+    {
+        "id": "v2-r022-b36", "out": "s36-they-went-and-told-the-king.jpeg", "seg": "n13",
+        "window": "148.76-152.09", "wide": True, "jesus": False, "ref": False,
+        "locks": ["KING", "COURT-SERVANTS", "HALL"],
+        "narration": "They went and told the king everything that had happened.",
+        "must_show": "two servants standing before the dais telling it, and the king listening — his face beginning to change as he hears it.",
+        "must_not_show": "Jesus is not in this frame. Nobody is grovelling or accusing theatrically; no cream or off-white cloth anywhere; no face turned toward the lens.",
+        "scene": (
+            "One photograph, 35mm lens, lower and graver late-afternoon daylight now "
+            "slanting more steeply through the high clerestory slots, fine grain. THE "
+            "CAMERA STANDS BEHIND THE TWO SERVANTS AND SHOOTS PAST THEIR BACKS UP AT "
+            "THE DAIS: their deep umber and dark olive shoulders and the backs of their "
+            "heads fill the near frame left and right, out of focus, and NO FACE IS "
+            "TURNED TOWARD THE LENS. Between them, sharp and higher up, the king sits "
+            "forward on the carved seat with one hand gripping its arm, his head "
+            "inclined toward the nearer of the two men, listening; his eyes are fixed "
+            "down on that servant's face. The older servant's hand is half-lifted, "
+            "mid-sentence. The light in the hall is warmer and lower than before and "
+            "the shafts lie at a longer slant across the worn stone floor."
+        ),
+    },
+    {
+        "id": "v2-r022-b37", "out": "s37-the-king-summoned-him-back.jpeg", "seg": "n14",
+        "window": "152.09-159.67", "wide": True, "jesus": False, "ref": False,
+        "locks": ["KING", "DEBTOR", "GUARDS", "HALL"],
+        "narration": "The king summoned him back. Shouldn't you have shown the same mercy to your fellow servant that I showed to you?",
+        "must_show": "the debtor standing alone in the middle of the hall floor in front of the dais — the same room, the same man, brought back a second time, and this time nobody is holding him.",
+        "must_not_show": "Jesus is not in this frame. No violence, no blood, no weapon drawn; no cream or off-white cloth anywhere; no face turned toward the lens.",
+        "scene": (
+            "One photograph, 28mm lens, low grave late-afternoon daylight slanting "
+            "steeply through the high clerestory slots, fine grain. THE CAMERA STANDS "
+            "FAR BACK AT THE DOOR END OF THE HALL, BEHIND AND PAST A GUARD "
+            "STANDING JUST INSIDE THE DOORWAY WHO IS SEEN FROM DIRECTLY BEHIND, whose dark leather back and shoulder "
+            "fill the near left edge of the frame out of focus, and NO FACE IS TURNED "
+            "TOWARD THE LENS. Far up the empty hall the debtor stands alone on the bare "
+            "stone floor, small in the frame and sharp, his arms at his sides and his "
+            "head up, facing the dais; nobody is touching him. Beyond him the king "
+            "stands at the edge of the dais, taller in the frame by the height of the "
+            "three steps, one hand out toward him mid-question. The long low light "
+            "throws the debtor's shadow far back down the hall toward the camera across "
+            "the empty stone. The scribes' tables at the side are deserted."
+        ),
+    },
+    {
+        "id": "v2-r022-b38", "out": "s38-o-thou-wicked-servant.jpeg", "seg": "j5",
+        "window": "159.67-164.37", "wide": False, "jesus": False, "ref": False,
+        "locks": ["KING", "HALL"],
+        "narration": "O thou wicked servant, I forgave thee all that debt, because thou desiredst me:",
+        "must_show": "the king's face delivering the sentence — grief and severity together. He is not enjoying this and he is not raging; the compassion of the earlier frame is still visible underneath.",
+        "must_not_show": "Jesus is not in this frame. No spittle, no bulging veins, no theatrical fury; no cream or off-white cloth; his pupils are nowhere near the lens.",
+        "scene": (
+            "One photograph, 85mm prime lens at f/2, shallow depth of field, low grave "
+            "late-afternoon daylight from a high clerestory slot, fine grain. Tight on "
+            "the king's face from just below, turned three quarters to his own right, "
+            "the long low shaft of light coming from behind the camera's right and "
+            "raking hard across the square silver-white beard and the deep-set eyes, "
+            "the far cheek in heavy shadow. His mouth is open mid-word, his jaw set, "
+            "his brows low — but the eyes are wet and grieved, not furious. He is "
+            "looking down and to his own right at the man standing on the floor below, "
+            "so his gaze exits through the LOWER RIGHT edge of the frame, nowhere near "
+            "the camera. The dim hall behind him is an unreadable brown wash of stone "
+            "and cedar shadow."
+        ),
+    },
+    {
+        "id": "v2-r022-b39", "out": "s39-shouldest-not-thou-also.jpeg", "seg": "j5",
+        "window": "164.37-169.07", "wide": False, "jesus": False, "ref": False,
+        "locks": ["DEBTOR", "HALL"],
+        "narration": "Shouldest not thou also have had compassion on thy fellowservant,",
+        "must_show": "the debtor's face taking the question — recognition arriving, no defence left in him.",
+        "must_not_show": "Jesus is not in this frame. He is not snarling now and not weeping theatrically; no cream or off-white cloth; his pupils are nowhere near the lens.",
+        "scene": (
+            "One photograph, 85mm prime lens at f/2, shallow depth of field, low grave "
+            "late-afternoon daylight, fine grain. Tight on the debtor's face from "
+            "slightly above his own eye level, turned three quarters to his own left, "
+            "the long low shaft of clerestory light crossing only the upper half of his "
+            "face and leaving his mouth and jaw in shadow. His mouth is closed hard, "
+            "the corners pulled down, and his eyes are lifted and fixed on the king "
+            "standing higher and further away to his left, so his gaze travels up and "
+            "out through the UPPER LEFT edge of the frame, far off the camera axis. His "
+            "hands hang open and empty at his sides at the bottom edge of the picture. "
+            "The dim hall behind him is a soft unreadable brown wash."
+        ),
+    },
+    {
+        "id": "v2-r022-b40", "out": "s40-even-as-i-had-pity-on-thee.jpeg", "seg": "j5",
+        "window": "169.07-173.77", "wide": True, "jesus": False, "ref": False,
+        "locks": ["KING", "DEBTOR", "COURT-SERVANTS", "HALL"],
+        "narration": "even as I had pity on thee?",
+        "must_show": "the whole hall in one frame with the two men and the silent watching court — the picture that holds the parable's comparison: what he was given against what he refused.",
+        "must_not_show": "Jesus is not in this frame. Nobody is jeering; no cream, off-white or pale cloth on anyone anywhere including blurred edges; no face turned toward the lens.",
+        "scene": (
+            "One photograph, 28mm lens, low grave late-afternoon daylight slanting "
+            "steeply through the high clerestory slots, fine grain. THE CAMERA STANDS "
+            "AMONG THE WATCHING COURT SERVANTS AT THE SIDE OF THE HALL AND SHOOTS PAST "
+            "THREE OF THEIR BACKS, whose deep umber and dark indigo shoulders fill the "
+            "near left of the frame out of focus, and NOT ONE FACE IS TURNED TOWARD THE "
+            "LENS. Across the open floor, sharp, the debtor stands alone with his head "
+            "lowered, and above him on the dais the king stands with one arm still "
+            "extended toward him. The torn halves of a papyrus scroll lie on the "
+            "stone by the foot of the steps. Every eyeline in the picture — the "
+            "servants', the scribes' — converges on the two men. Long low bars of "
+            "daylight cross the floor between them and the dust hangs still in the air."
+        ),
+    },
+    {
+        "id": "v2-r022-b41", "out": "s41-handed-him-over.jpeg", "seg": "n15",
+        "window": "173.77-179.06", "wide": True, "jesus": False, "ref": False,
+        "locks": ["DEBTOR", "GUARDS", "HALL"],
+        "narration": "And in his anger the king handed him over to be punished until he should pay back all that he owed.",
+        "must_show": "RESTRAINED: two guards walking the debtor away from the dais toward a dark doorway at the end of the hall, seen from behind, going away from the camera. The grief of it, not the mechanics.",
+        "must_not_show": "Jesus is not in this frame. NO instruments of any kind, no chains, no blood, no injury, no violence, nobody struck, nothing graphic whatsoever; no cream or off-white cloth; no face turned toward the lens.",
+        "scene": (
+            "One photograph, 35mm lens, low grave late-afternoon daylight slanting "
+            "through the high clerestory slots, fine grain. THE CAMERA STANDS BACK BY "
+            "THE FOOT OF THE DAIS AND SHOOTS DOWN THE HALL AFTER THE THREE MEN, all of "
+            "them seen from directly behind and walking away from the camera, so NO "
+            "FACE IS VISIBLE ANYWHERE in the picture. The debtor walks between the two "
+            "guards, unbound, his head down and his shoulders dropped, his deep "
+            "rust-brown mantle hanging straight; one guard's hand rests on his upper "
+            "arm without gripping. Ahead of them the doorway at the far end of the hall "
+            "is a plain rectangle of deep shadow. Their three long shadows stretch back "
+            "toward the camera across the worn stone. The last low bar of daylight from "
+            "the clerestory falls across the floor behind them, and the hall is empty "
+            "on both sides."
+        ),
+    },
+
+    # ================================ BACK TO THE FRAME — Capernaum, dusk ====
+    {
+        "id": "v2-r022-b42", "out": "s42-jesus-turned-the-story-to-us.jpeg", "seg": "n15",
+        "window": "179.06-182.53", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["PETER", "DISCIPLES", "CAPERNAUM"],
+        "narration": "Then Jesus turned the story toward every one of us.",
+        "must_show": "the story ending and Jesus turning it on the listeners — back on the basalt doorstep, the light noticeably lower and warmer than the opening frames.",
+        "must_not_show": "no halo, no glow, no rim-light; no lamp lit; no cream or off-white cloth on anybody but Jesus; no face turned toward the lens; not a red sunset sky.",
+        "scene": (
+            "One photograph, 35mm lens, the last low warm daylight of the afternoon, "
+            "fine grain. THE CAMERA STANDS IN THE STREET BEHIND THE SEATED DISCIPLES "
+            "AND SHOOTS PAST THEIR BACKS toward the doorstep, so two dark umber and "
+            "deep russet backs fill the near frame out of focus and NOT ONE FACE IS "
+            "TURNED TOWARD THE LENS. Beyond them Jesus has straightened up from his "
+            "forward lean on the basalt step, sharp, his head lifted and turned toward "
+            "the men in front of him, one hand open and level at chest height; his eyes "
+            "are on Peter at the left edge of the group. The men have gone completely "
+            "still. The sun is almost off the street now — one narrow band of warm "
+            "light still lies along the top of the basalt wall behind him and the rest "
+            "of the frame has cooled into soft blue shade. The sky above the roofline "
+            "is a pale even blue with no red or orange in it."
+        ),
+    },
+    {
+        "id": "v2-r022-b43", "out": "s43-so-likewise-shall-my-father.jpeg", "seg": "j2",
+        "window": "182.53-187.86", "wide": False, "jesus": True, "ref": REF,
+        "locks": ["CAPERNAUM"],
+        "narration": "So likewise shall my heavenly Father do also unto you,",
+        "must_show": "Jesus's face carrying the hardest line in the row — spoken as warning given in love, never as threat, never cold.",
+        "must_not_show": "no halo, no glow, no rim-light, no light coming off him; no crowd in focus; no lamp lit; his pupils are not on the lens.",
+        "scene": (
+            "One photograph, 85mm prime lens at f/1.8, very shallow depth of field, the "
+            "last low warm daylight, fine grain. Tight on Jesus from the shoulders up, "
+            "seated on the black basalt step, turned three quarters to his own right so "
+            "the last warm light reaches only the left side of his face and the rest "
+            "falls into soft cool shade. He is mid-sentence, lips parted, his chin "
+            "level; his eyes are steady and grieved and fixed on a man seated lower and "
+            "further away to his right, so his gaze exits through the LOWER RIGHT edge "
+            "of the frame, well off the camera axis. One hand rests open on his knee at "
+            "the bottom edge of the picture. Behind him the dark basalt wall and the "
+            "black doorway are an unreadable soft shadow. No light comes off his skin "
+            "or his hair."
+        ),
+    },
+    {
+        "id": "v2-r022-b44", "out": "s44-if-ye-forgive-not-your-brother.jpeg", "seg": "j2",
+        "window": "187.86-193.19", "wide": True, "jesus": False, "ref": False,
+        "locks": ["PETER", "DISCIPLES", "CAPERNAUM"],
+        "narration": "if ye from your hearts forgive not every one his brother their trespasses.",
+        "must_show": "the line landing on the disciples — each man taking it personally, one of them looking at the ground.",
+        "must_not_show": "Jesus is not in this frame. Nobody is frightened or cringing; no cream, off-white or pale cloth on anybody anywhere including blurred edges; no face turned toward the lens; no lamp lit.",
+        "scene": (
+            "One photograph, 35mm lens, the last low warm daylight, fine grain. THE "
+            "CAMERA STANDS BESIDE THE DOORSTEP AT JESUS'S OWN SHOULDER AND SHOOTS "
+            "ALONG THE ROW OF LISTENING MEN FROM THE SIDE, so all of them are seen in "
+            "profile or three-quarter from the front-left and NOT ONE FACE IS TURNED "
+            "TOWARD THE LENS. Four disciples sit and stand along the low basalt bench "
+            "in deep russet, dark olive and dark indigo wool: the nearest has dropped "
+            "his eyes to the dust between his own sandals, the next is looking past him "
+            "at nothing with his jaw working, the two beyond are both looking left "
+            "toward the doorstep at the frame's left edge. Their eyelines all run to "
+            "that point. The street is in blue shade now with one band of warm light "
+            "along the top of the wall behind them, and the flat silver lake shows over "
+            "the low roofline."
+        ),
+    },
+    {
+        "id": "v2-r022-b45", "out": "s45-the-two-debts-side-by-side.jpeg", "seg": "n16",
+        "window": "193.19-197.76", "wide": False, "jesus": False, "ref": False,
+        "locks": ["CAPERNAUM"],
+        "narration": "Here is the whole point of the story. Look at the two debts side by side.",
+        "must_show": "the two debts as one still-life on the basalt step: the great torn account scroll on one side, and the small limp cloth purse on the other. The size difference IS the picture.",
+        "must_not_show": "no people's faces; no coins spilled and countable; no legible writing or numerals; no cream or off-white cloth; nothing modern; no lamp.",
+        "scene": (
+            "One photograph, 50mm lens at f/2.8, shallow depth of field, the last low "
+            "warm daylight raking in from the left, fine grain. Low and close on the "
+            "worn black basalt doorstep, camera almost at step height. On the left lies "
+            "a thick heavy roll of papyrus account scroll, torn across, its ragged end "
+            "spilling open — big enough that it runs off the left edge of the frame — "
+            "its dense ink strokes indistinct and unreadable. A hand's breadth to the "
+            "right of it lies the small worn drawstring purse of coarse brown cloth, "
+            "limp and nearly flat, its flax cord loose. Nothing else is on the step. "
+            "The low raking light comes across both objects and throws their long "
+            "shadows to the right along the dark stone; the blurred street beyond is "
+            "cool blue shade. Exactly two objects are in the picture and no hand or "
+            "face is visible."
+        ),
+    },
+    {
+        "id": "v2-r022-b46", "out": "s46-they-arent-even-close.jpeg", "seg": "n16",
+        "window": "197.76-204.55", "wide": True, "jesus": False, "ref": False,
+        "locks": ["PETER", "DISCIPLES", "CAPERNAUM"],
+        "narration": "The mountain that was forgiven us, and the small handful we're asked to forgive each other. They aren't even close.",
+        "must_show": "Peter working it out — the men quiet, the comparison doing its work without a word spoken.",
+        "must_not_show": "Jesus is not in this frame. Nobody is arguing or gesturing; no cream, off-white or pale cloth anywhere including blurred edges; no face turned toward the lens; no lamp lit.",
+        "scene": (
+            "One photograph, 35mm lens, the last low warm daylight, fine grain. THE "
+            "CAMERA STANDS OUT IN THE STREET BEHIND AND TO THE RIGHT OF PETER AND "
+            "SHOOTS PAST HIS SHOULDER, so his dark russet back and the side of his "
+            "lowered head fill the near right of the frame and NO FACE IS TURNED TOWARD "
+            "THE LENS. He is seated on the low basalt bench, elbows on his knees, both "
+            "weathered hands hanging loose and open between them, his head down and his "
+            "eyes on the two objects lying on the doorstep across from him. Beyond him "
+            "three other disciples sit quiet in deep earth colours, one with his chin "
+            "on his fist, all of them looking at the same step. Every eyeline in the "
+            "picture converges there. The street is in cool blue shade with the last "
+            "warm band of light along the wall tops and the long shadows of the seated "
+            "men running away to the right."
+        ),
+    },
+    {
+        "id": "v2-r022-b47", "out": "s47-because-of-the-mountain.jpeg", "seg": "n17",
+        "window": "204.55-208.26", "wide": False, "jesus": False, "ref": False,
         "locks": ["PETER"],
-        "narration": (
-            "We forgive the small things because of the mountain we've been "
-            "forgiven."
-        ),
-        "must_show": "a close two-shot in the dusk-gold courtyard — Peter's face changed, softened, the tiredness gone out of it, and Jesus beside him watching him kindly.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; Peter's change must read at a glance — the burden from the opening portrait visibly lifted.",
+        "narration": "We forgive the small things because of the mountain we've been forgiven.",
+        "must_show": "Peter's face in the moment the answer lands — the grievance from the opening frame visibly letting go. The row opens and closes on this same face.",
+        "must_not_show": "Jesus is not in this frame. No tears streaming theatrically, no smile yet; no cream or off-white cloth; his pupils are nowhere near the lens.",
         "scene": (
-            "A close two-shot in the last dusk-gold light: Peter's weathered "
-            "face turned slightly down and inward, softened and unknotted — "
-            "the worn hurt from the day's first question visibly gone out of "
-            "it — and beside him Jesus watching him with quiet kindness, "
-            "saying nothing. The courtyard stone behind them holds the day's "
-            "last warmth. Every figure has two arms, two hands and one head."
+            "One photograph, 85mm prime lens at f/1.8, very shallow depth of field, the "
+            "last low warm daylight, fine grain. Tight on Peter's face from the chest "
+            "up, seated and turned three quarters to his own left — the same framing as "
+            "the second picture of this story, so the two rhyme. The hard set has gone "
+            "out of his jaw, his brows have lifted and softened, his lips are slightly "
+            "parted, and his eyes are lowered and fixed on the doorstep a little way in "
+            "front of him, so his gaze travels down and out through the LOWER LEFT edge "
+            "of the frame, far off the camera axis. One open hand rests on his own "
+            "knee at the bottom of the picture. The last warm light catches only the "
+            "edge of his cheek and beard; the basalt wall behind him has gone to soft "
+            "blue shade."
         ),
     },
     {
-        "id": "v2-r022-b38", "out": "s38-to-be-handed-an-ocean.jpeg", "seg": "n17",
-        "window": "208.27-215.79", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["PETER", "DISCIPLES", "COURTYARD"],
-        "narration": (
-            "To be handed an ocean of mercy, and then choke someone over a cup "
-            "of it — that is the one thing this King cannot bear."
-        ),
-        "must_show": "the closing frame — the quiet circle in the dusk courtyard, Jesus at rest among them, and Peter looking down at his own two open hands in his lap.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; no sky imagery, no ocean painted literally — the courtyard and the hands carry the line.",
+        "id": "v2-r022-b48", "out": "s48-an-ocean-of-mercy.jpeg", "seg": "n17",
+        "window": "208.26-216.10", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["PETER", "DISCIPLES", "CAPERNAUM"],
+        "narration": "To be handed an ocean of mercy, and then choke someone over a cup of it — that is the one thing this King cannot bear.",
+        "must_show": "the closing image of the row: Jesus and Peter still together on the step in the last of the light, the question answered and the men staying rather than leaving.",
+        "must_not_show": "no halo, no glow, no rim-light, no light coming off Jesus; no lamp lit; no cream or off-white cloth on anybody but Jesus; no face turned toward the lens; no red or orange sunset sky.",
         "scene": (
-            "The courtyard at deep dusk-gold, the first cool blue gathering in "
-            "the corners. The circle of disciples sits quiet and unmoving "
-            "around Jesus, who is at rest on the low bench, the story told. In "
-            "the foreground Peter sits on the flagstones looking down at his "
-            "own two open hands cupped together in his lap, as though weighing "
-            "what has been put into them. The fig tree stands black against "
-            "the last warm light on the wall. The camera holds the whole still "
-            "circle. Every figure has two arms, two hands and one head."
+            "One photograph, 35mm lens, the last cool-warm daylight after the sun is "
+            "off the street, fine grain. THE CAMERA STANDS WELL BACK DOWN THE STREET "
+            "AND SHOOTS THE WHOLE GROUP FROM THE SIDE, so every man is seen in profile "
+            "or three-quarter and NOT ONE FACE IS TURNED TOWARD THE LENS. Jesus sits at "
+            "the right on the black basalt doorstep, small in the frame and sharp, his "
+            "head turned toward Peter; Peter sits on the low bench a few feet from him, "
+            "leaning in with his forearms on his knees, looking back at Jesus, and the "
+            "other disciples are settled around them on the step and the dust. The two "
+            "men's eyelines meet across the gap between them. Nobody has got up to "
+            "leave. The lake beyond the low roofline is flat pewter, the sky above it a "
+            "pale even blue going grey with no red or orange in it, and the whole "
+            "street is in soft even blue shade with one last warm band along the top of "
+            "the basalt wall."
         ),
     },
 ]
