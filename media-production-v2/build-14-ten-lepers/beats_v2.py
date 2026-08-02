@@ -85,6 +85,8 @@ LOCKS = {
     ),
 }
 
+OUTPUT_ASSET_DIR = "assets-realistic"
+
 REF = True
 # The relational scale sentence, used verbatim in every frame that holds both the
 # ten and the travellers. See the header note on the V1 giants defect.
@@ -96,7 +98,7 @@ BEATS = [
     # ------------------------------------------------------ n0 — the seam ----
     {
         "id": "v2-r014-b01", "out": "s01-the-borderland.jpeg", "seg": "n0 p1",
-        "window": "0.28-7.78", "wide": True, "jesus": True, "ref": REF,
+        "window": "0.28-7.97", "wide": True, "jesus": True, "ref": REF,
         "locks": ["DISCIPLES", "BORDERLAND"],
         "narration": ("On the way to Jerusalem, Jesus walked the borderland between "
                       "Samaria and Galilee — the seam between two peoples who despised "
@@ -115,7 +117,7 @@ BEATS = [
     },
     {
         "id": "v2-r014-b02", "out": "s02-keep-that-seam-in-mind.jpeg", "seg": "n0 p2-p3",
-        "window": "7.78-11.84", "wide": True, "jesus": False, "ref": False,
+        "window": "7.97-12.81", "wide": True, "jesus": False, "ref": False,
         "locks": ["BORDERLAND"],
         "narration": "Keep that seam in mind. It matters at the end of this story.",
         "must_show": "the border itself as landscape — the road running along a ridge with different country falling away on either side.",
@@ -132,7 +134,7 @@ BEATS = [
     # -------------------------------------------------- n1 — ten, afar off ----
     {
         "id": "v2-r014-b03", "out": "s03-ten-men-afar-off.jpeg", "seg": "n1 p1-p2",
-        "window": "12.42-20.49", "wide": True, "jesus": True, "ref": REF,
+        "window": "12.81-21.15", "wide": True, "jesus": True, "ref": REF,
         "locks": ["LEPERS", "DISCIPLES", "BORDERLAND"],
         "narration": ("As he reached a village, ten men met him — but they stopped far "
                       "off, strung along a rise, and came no closer. They were lepers."),
@@ -151,7 +153,7 @@ BEATS = [
     },
     {
         "id": "v2-r014-b04", "out": "s04-the-gap-was-the-law.jpeg", "seg": "n1 p3-p5",
-        "window": "20.49-31.18", "wide": True, "jesus": True, "ref": REF,
+        "window": "21.15-33.49", "wide": True, "jesus": True, "ref": REF,
         "locks": ["LEPERS", "DISCIPLES", "BORDERLAND"],
         "narration": ("The Law of Moses required them to live outside the town and to "
                       "warn everyone away. That gap of empty ground between them and "
@@ -171,7 +173,7 @@ BEATS = [
     },
     {
         "id": "v2-r014-b05", "out": "s05-no-one-had-touched-them.jpeg", "seg": "n1 p6",
-        "window": "31.18-34.57", "wide": True, "jesus": False, "ref": False,
+        "window": "33.49-37.59", "wide": True, "jesus": False, "ref": False,
         "locks": ["LEPERS", "BORDERLAND"],
         "narration": "These were ten men no one had touched in years.",
         "must_show": "the ten alone on their rise, close enough now to read their faces above the grey wrappings — worn, tired, holding together.",
@@ -189,7 +191,7 @@ BEATS = [
     },
     {
         "id": "v2-r014-b06", "out": "s06-have-mercy-on-us.jpeg", "seg": "s13",
-        "window": "35.17-37.02", "wide": True, "jesus": True, "ref": REF,
+        "window": "37.59-41.35", "wide": True, "jesus": True, "ref": REF,
         "locks": ["LEPERS", "DISCIPLES", "BORDERLAND"],
         "narration": "Jesus, Master, have mercy on us. (Luke 17:13)",
         "must_show": "⚠️ SCALE: the ten small and distant on their rise with arms raised and heads back, shouting across the gap toward the large foreground figures.",
@@ -207,7 +209,7 @@ BEATS = [
     },
     {
         "id": "v2-r014-b07", "out": "s07-the-only-thing-left.jpeg", "seg": "n2",
-        "window": "38.81-44.89", "wide": True, "jesus": False, "ref": False,
+        "window": "41.35-48.13", "wide": True, "jesus": False, "ref": False,
         "locks": ["LEPERS", "SAMARITAN", "BORDERLAND"],
         "narration": ("So they did the only thing the distance left them. They lifted "
                       "up their voices together and called across the gap:"),
@@ -226,7 +228,7 @@ BEATS = [
     # ------------------------------------------------ n3 / j1 — the instruction ----
     {
         "id": "v2-r014-b08", "out": "s08-he-did-not-close-the-distance.jpeg", "seg": "n3 p1-p2",
-        "window": "45.39-51.37", "wide": True, "jesus": True, "ref": REF,
+        "window": "48.13-54.87", "wide": True, "jesus": True, "ref": REF,
         "locks": ["LEPERS", "DISCIPLES", "BORDERLAND"],
         "narration": ("When he saw them, he did not close the distance. He did not "
                       "touch them, and he did not announce that they were healed."),
@@ -245,7 +247,7 @@ BEATS = [
     },
     {
         "id": "v2-r014-b09", "out": "s09-he-gave-an-instruction.jpeg", "seg": "n3 p3",
-        "window": "51.81-53.66", "wide": False, "jesus": True, "ref": REF,
+        "window": "54.87-57.53", "wide": False, "jesus": True, "ref": REF,
         "locks": [],
         "narration": "He simply gave them an instruction:",
         "must_show": "close on Jesus calling across the distance — one hand lifted and pointing off toward the road to the city, matter of fact.",
@@ -261,7 +263,7 @@ BEATS = [
     },
     {
         "id": "v2-r014-b10", "out": "s10-shew-yourselves-to-the-priests.jpeg", "seg": "j1",
-        "window": "54.28-56.05", "wide": True, "jesus": True, "ref": REF,
+        "window": "57.53-61.35", "wide": True, "jesus": True, "ref": REF,
         "locks": ["LEPERS", "BORDERLAND"],
         "narration": "Go shew yourselves unto the priests. (Luke 17:14)",
         "must_show": "⚠️ SCALE: the instruction crossing the gap — Jesus's pointing arm in the near frame, the small distant ten receiving it and turning to look at each other.",
@@ -279,7 +281,7 @@ BEATS = [
     # ---------------------------------------------- n4 — why a priest ----
     {
         "id": "v2-r014-b11", "out": "s11-why-a-priest.jpeg", "seg": "n4 p1-p2",
-        "window": "57.75-67.49", "wide": True, "jesus": False, "ref": False,
+        "window": "61.35-71.00", "wide": True, "jesus": False, "ref": False,
         "locks": ["BORDERLAND"],
         "narration": ("Now, why send them to a priest? Because in Israel the priest was "
                       "the only inspector who could certify a leper clean and let him "
@@ -296,7 +298,7 @@ BEATS = [
     },
     {
         "id": "v2-r014-b12", "out": "s12-a-promise-in-disguise.jpeg", "seg": "n4 p3-p4",
-        "window": "67.49-75.25", "wide": True, "jesus": True, "ref": REF,
+        "window": "71.00-79.75", "wide": True, "jesus": True, "ref": REF,
         "locks": ["LEPERS", "BORDERLAND"],
         "narration": ("Sending them was a promise in disguise. That errand only made "
                       "sense one way: if they would be clean by the time they arrived."),
@@ -316,7 +318,7 @@ BEATS = [
     # ------------------------------------------- n5 — nothing had changed ----
     {
         "id": "v2-r014-b13", "out": "s13-nothing-had-changed-yet.jpeg", "seg": "n5 p1",
-        "window": "75.75-77.25", "wide": False, "jesus": False, "ref": False,
+        "window": "79.75-81.13", "wide": False, "jesus": False, "ref": False,
         "locks": ["LEPERS"],
         "narration": "But nothing had changed yet.",
         "must_show": "close on bound hands held up and turned over — the grey linen exactly as it was, nothing altered.",
@@ -332,7 +334,7 @@ BEATS = [
     },
     {
         "id": "v2-r014-b14", "out": "s14-no-proof-of-welcome.jpeg", "seg": "n5 p2",
-        "window": "77.25-84.60", "wide": True, "jesus": False, "ref": False,
+        "window": "81.13-88.78", "wide": True, "jesus": False, "ref": False,
         "locks": ["LEPERS", "SAMARITAN", "BORDERLAND"],
         "narration": ("They looked at each other, at their own still-bandaged hands, at "
                       "the long road to a city they had no proof they would be welcome "
@@ -351,7 +353,7 @@ BEATS = [
     },
     {
         "id": "v2-r014-b15", "out": "s15-they-started-walking-anyway.jpeg", "seg": "n5 p3",
-        "window": "84.60-88.25", "wide": True, "jesus": False, "ref": False,
+        "window": "88.78-93.20", "wide": True, "jesus": False, "ref": False,
         "locks": ["LEPERS", "SAMARITAN", "BORDERLAND"],
         "narration": "And then, one by one, they turned and started walking anyway.",
         "must_show": "the group breaking into movement — turning away toward the city road, first one, then others following, still wrapped, nothing healed.",
@@ -369,7 +371,7 @@ BEATS = [
     # ------------------------------------------------ n6/n7 — as they went ----
     {
         "id": "v2-r014-b16", "out": "s16-as-they-went.jpeg", "seg": "n6 a",
-        "window": "88.85-93.0", "wide": True, "jesus": False, "ref": False,
+        "window": "93.20-97.93", "wide": True, "jesus": False, "ref": False,
         "locks": ["LEPERS", "BORDERLAND"],
         "narration": ("And as they went — on the road, mid-step, in the middle of "
                       "obeying,"),
@@ -387,7 +389,7 @@ BEATS = [
     },
     {
         "id": "v2-r014-b17", "out": "s17-they-were-made-clean.jpeg", "seg": "n6 b",
-        "window": "93.0-96.69", "wide": True, "jesus": False, "ref": False,
+        "window": "97.93-102.15", "wide": True, "jesus": False, "ref": False,
         "locks": ["LEPERS", "BORDERLAND"],
         "narration": "before there was one thing to see — they were made clean.",
         "must_show": "the moment mid-stride — men stopping dead in the road, looking down at themselves, one grabbing another's arm.",
@@ -404,7 +406,7 @@ BEATS = [
     },
     {
         "id": "v2-r014-b18", "out": "s18-the-linen-fell.jpeg", "seg": "n7 p1-p2",
-        "window": "97.30-100.87", "wide": False, "jesus": False, "ref": False,
+        "window": "102.15-105.73", "wide": False, "jesus": False, "ref": False,
         "locks": ["LEPERS"],
         "narration": "The linen loosened and fell. New skin underneath.",
         "must_show": "⚠️ THE TURN: grey wrappings unwinding and dropping off a forearm and hand, and CLEAN WHOLE SKIN beneath — healthy, unmarked, ordinary.",
@@ -420,7 +422,7 @@ BEATS = [
     },
     {
         "id": "v2-r014-b19", "out": "s19-nine-ran-on.jpeg", "seg": "n7 p3",
-        "window": "100.87-106.11", "wide": True, "jesus": False, "ref": False,
+        "window": "105.73-112.03", "wide": True, "jesus": False, "ref": False,
         "locks": ["LEPERS", "BORDERLAND"],
         "narration": ("Nine of them ran on toward the city, toward the priests, toward "
                       "their old lives handed back."),
@@ -437,7 +439,7 @@ BEATS = [
     },
     {
         "id": "v2-r014-b20", "out": "s20-but-one-of-them-stopped.jpeg", "seg": "n7 p4",
-        "window": "106.11-110.39", "wide": True, "jesus": False, "ref": False,
+        "window": "112.03-116.72", "wide": True, "jesus": False, "ref": False,
         "locks": ["SAMARITAN", "BORDERLAND"],
         "narration": ("But one of them, when he saw what had happened to him, stopped "
                       "in the road."),
@@ -456,7 +458,7 @@ BEATS = [
     # ---------------------------------------------------- n8 — he came back ----
     {
         "id": "v2-r014-b21", "out": "s21-he-turned-around.jpeg", "seg": "n8 p1",
-        "window": "110.95-112.05", "wide": False, "jesus": False, "ref": False,
+        "window": "116.72-117.72", "wide": False, "jesus": False, "ref": False,
         "locks": ["SAMARITAN"],
         "narration": "And he turned around.",
         "must_show": "close on him mid-turn — head and shoulders coming round, away from the city and back the way he came.",
@@ -472,7 +474,7 @@ BEATS = [
     },
     {
         "id": "v2-r014-b22", "out": "s22-running-and-praising.jpeg", "seg": "n8 p2",
-        "window": "112.05-119.19", "wide": True, "jesus": False, "ref": False,
+        "window": "117.72-125.03", "wide": True, "jesus": False, "ref": False,
         "locks": ["SAMARITAN", "BORDERLAND"],
         "narration": ("He came back the way he came, running, praising God at the top "
                       "of his voice — the whole road hearing it."),
@@ -490,7 +492,7 @@ BEATS = [
     # ------------------------------------------------- n9 — at his feet ----
     {
         "id": "v2-r014-b23", "out": "s23-face-down-at-his-feet.jpeg", "seg": "n9 p1",
-        "window": "119.73-124.53", "wide": True, "jesus": True, "ref": REF,
+        "window": "125.03-129.21", "wide": True, "jesus": True, "ref": REF,
         "locks": ["SAMARITAN", "DISCIPLES", "BORDERLAND"],
         "narration": ("He threw himself face-down in the dust at Jesus's feet and poured "
                       "out his thanks."),
@@ -507,12 +509,11 @@ BEATS = [
         ),
     },
     {
-        "id": "v2-r014-b24", "out": "s24-he-was-a-samaritan.jpeg", "seg": "n9 p2-p4",
-        "window": "124.53-135.15", "wide": True, "jesus": False, "ref": False,
+        "id": "v2-r014-b24", "out": "s24-he-was-a-samaritan.jpeg", "seg": "n9 p2",
+        "window": "129.21-135.38", "wide": True, "jesus": False, "ref": False,
         "locks": ["SAMARITAN", "DISCIPLES"],
         "narration": ("And Luke adds one detail that would have stunned everyone "
-                      "listening: he was a Samaritan. The outsider. The one the religion "
-                      "of the day said did not belong."),
+                      "listening: he was a Samaritan."),
         "must_show": "the detail landing on the watching disciples — recognition on their faces that the man in the dust is a Samaritan.",
         "must_not_show": "nobody is hostile to him; it is surprise, not contempt. Do not put Jesus in this frame.",
         "scene": (
@@ -526,10 +527,34 @@ BEATS = [
             "two hands and one head."
         ),
     },
+    {
+        # NEW (2026-08-01 re-time audit): n9 p3-p4 had no picture of its own —
+        # b24 was holding one frame across 11.9 s of narration.
+        "id": "v2-r014-b24b", "out": "s24b-the-one-who-did-not-belong.jpeg",
+        "seg": "n9 p3-p4",
+        "window": "135.38-141.14", "wide": True, "jesus": False, "ref": False,
+        "locks": ["SAMARITAN", "DISCIPLES"],
+        "narration": ("The outsider. The one the religion of the day said did not "
+                      "belong."),
+        "must_show": "the outsider alone on the ground — one man face-down in the dust with the ring of Galilean men standing over him, the difference between him and them plain.",
+        "must_not_show": "nobody is sneering or turning away; do not put Jesus in this frame.",
+        "scene": (
+            "The camera stands behind and just above the shoulders of two disciples "
+            "at the near edge of the ring, looking steeply DOWN past them at the "
+            "Samaritan lying full length face-down in the pale dust of the road, the "
+            "faded deep-teal cloth across his back, his arms stretched out ahead of "
+            "him. The disciples' faces are turned down toward him and their eyes exit "
+            "the picture through the bottom edge, well below the camera. He is small "
+            "on the wide bare ground and completely alone in the middle of the open "
+            "circle they have left around him. Hard bright afternoon daylight, long "
+            "shadows across the dust, shallow depth of field on the near shoulders. "
+            "Every figure has two arms, two hands and one head."
+        ),
+    },
     # --------------------------------------------------- n10 / j2 — the nine ----
     {
         "id": "v2-r014-b25", "out": "s25-the-empty-road.jpeg", "seg": "n10",
-        "window": "135.74-139.78", "wide": True, "jesus": True, "ref": REF,
+        "window": "141.14-145.54", "wide": True, "jesus": True, "ref": REF,
         "locks": ["BORDERLAND"],
         "narration": ("Jesus looked at the empty road where the other nine had gone, "
                       "and asked:"),
@@ -547,7 +572,7 @@ BEATS = [
     },
     {
         "id": "v2-r014-b26", "out": "s26-where-are-the-nine.jpeg", "seg": "j2 p1-p2",
-        "window": "140.33-143.24", "wide": False, "jesus": True, "ref": REF,
+        "window": "145.54-149.06", "wide": False, "jesus": True, "ref": REF,
         "locks": [],
         "narration": ("Were there not ten cleansed? but where are the nine? "
                       "(Luke 17:17)"),
@@ -564,7 +589,7 @@ BEATS = [
     },
     {
         "id": "v2-r014-b27", "out": "s27-save-this-stranger.jpeg", "seg": "j2 p3",
-        "window": "143.24-147.66", "wide": True, "jesus": True, "ref": REF,
+        "window": "149.06-156.30", "wide": True, "jesus": True, "ref": REF,
         "locks": ["SAMARITAN", "DISCIPLES"],
         "narration": ("There are not found that returned to give glory to God, save this "
                       "stranger. (Luke 17:18)"),
@@ -582,7 +607,7 @@ BEATS = [
     # ------------------------------------------------- n11 — grief not scolding ----
     {
         "id": "v2-r014-b28", "out": "s28-this-outsider.jpeg", "seg": "n11 p1-p2",
-        "window": "149.21-151.60", "wide": False, "jesus": False, "ref": False,
+        "window": "156.30-159.08", "wide": False, "jesus": False, "ref": False,
         "locks": ["SAMARITAN"],
         "narration": "Except this stranger. This outsider.",
         "must_show": "close on the Samaritan's face lifted from the dust — wet, dirty, wide open with gratitude.",
@@ -597,7 +622,7 @@ BEATS = [
     },
     {
         "id": "v2-r014-b29", "out": "s29-the-nine-did-nothing-wrong.jpeg", "seg": "n11 p3-p4",
-        "window": "151.60-158.44", "wide": True, "jesus": False, "ref": False,
+        "window": "159.08-166.28", "wide": True, "jesus": False, "ref": False,
         "locks": ["LEPERS", "BORDERLAND"],
         "narration": ("This is not wounded pride — the nine did nothing wrong. They "
                       "obeyed, and they were healed, every one of them."),
@@ -614,12 +639,34 @@ BEATS = [
         ),
     },
     {
-        "id": "v2-r014-b30", "out": "s30-they-missed-the-giver.jpeg", "seg": "n11 p5-p6",
-        "window": "158.44-168.01", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["SAMARITAN", "BORDERLAND"],
+        "id": "v2-r014-b30", "out": "s30-they-missed-the-giver.jpeg", "seg": "n11 p5",
+        "window": "166.28-173.33", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["BORDERLAND"],
         "narration": ("His question is grief, not a scolding: they got the gift and kept "
-                      "walking, and they missed the giver. Only the one everyone counted "
-                      "out came back to find him."),
+                      "walking, and they missed the giver."),
+        "must_show": "⚠️ SCALE + direction: Jesus large in the near foreground with his back three-quarters to the camera, and the nine already tiny far up the road, walking AWAY and not one of them looking back.",
+        "must_not_show": "⚠️ HARD FAIL if any of the nine is near the height of Jesus in the frame, or if any of them is facing back toward him. No halo, glare or rim-light.",
+        "scene": (
+            "The camera stands behind and to one side of Jesus at shoulder height, so "
+            "he fills the near left of the frame from waist to head with his back "
+            "three-quarters turned, and the long dusty road runs away past him into "
+            "the distance. Far up that road the nine are TINY — each of them no taller "
+            "in the frame than the width of Jesus's hand, small specks with distance — "
+            "walking away toward the far walled city with their backs to him, not one "
+            "head turned round. His face is in quarter profile, his eyes following "
+            "them up the road and out of the picture through the far edge, past the "
+            "camera and well to the side of it. Discarded grey linen strips lie in the "
+            "dust in the near foreground. Hard bright afternoon light, heat shimmer "
+            "over the empty ground. Every figure has two arms, two hands and one head."
+        ),
+    },
+    {
+        # NEW (2026-08-01 re-time audit): n11 p6 had no picture of its own —
+        # b30 was holding one frame across 11.5 s of narration.
+        "id": "v2-r014-b30b", "out": "s30b-came-back-to-find-him.jpeg", "seg": "n11 p6",
+        "window": "173.33-177.80", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["SAMARITAN", "BORDERLAND"],
+        "narration": ("Only the one everyone counted out came back to find him."),
         "must_show": "the two of them together on the empty road — the one man who came back and the man he came back to, with the whole empty distance behind them.",
         "must_not_show": "no halo, glare or rim-light; nothing triumphant — it is quiet.",
         "scene": (
@@ -636,7 +683,7 @@ BEATS = [
     # -------------------------------------------------- n12 / j3 — arise ----
     {
         "id": "v2-r014-b31", "out": "s31-he-reached-down.jpeg", "seg": "n12",
-        "window": "168.55-173.43", "wide": False, "jesus": True, "ref": REF,
+        "window": "177.80-183.26", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SAMARITAN"],
         "narration": ("Then Jesus reached down to the man still trembling at his feet, "
                       "and lifted him with a word:"),
@@ -654,7 +701,7 @@ BEATS = [
     },
     {
         "id": "v2-r014-b32", "out": "s32-thy-faith-hath-made-thee-whole.jpeg", "seg": "j3",
-        "window": "174.00-176.70", "wide": True, "jesus": True, "ref": REF,
+        "window": "183.26-188.62", "wide": True, "jesus": True, "ref": REF,
         "locks": ["SAMARITAN"],
         "narration": ("Arise, go thy way: thy faith hath made thee whole. (Luke 17:19)"),
         "must_show": "the man coming up onto his feet with Jesus's hand still holding him — the two of them face to face and level.",
@@ -672,7 +719,7 @@ BEATS = [
     # ------------------------------------------ n13 — cleansed vs whole ----
     {
         "id": "v2-r014-b33", "out": "s33-all-ten-were-cleansed.jpeg", "seg": "n13 p1-p2",
-        "window": "178.17-183.79", "wide": True, "jesus": False, "ref": False,
+        "window": "188.62-194.37", "wide": True, "jesus": False, "ref": False,
         "locks": ["BORDERLAND"],
         "narration": ("Hear the two different words. All ten were cleansed — out on the "
                       "road, before any of them said thank you."),
@@ -688,7 +735,7 @@ BEATS = [
     },
     {
         "id": "v2-r014-b34", "out": "s34-cleansed-and-whole.jpeg", "seg": "n13 p3-p5",
-        "window": "183.79-191.73", "wide": False, "jesus": False, "ref": False,
+        "window": "194.37-203.85", "wide": False, "jesus": False, "ref": False,
         "locks": ["SAMARITAN"],
         "narration": ("But only this one, the one who came back, was made whole. "
                       "Cleansed happened to his skin. Whole happened to all of him."),
@@ -705,7 +752,7 @@ BEATS = [
     },
     {
         "id": "v2-r014-b35", "out": "s35-he-walked-home-a-whole-man.jpeg", "seg": "n14",
-        "window": "192.31-197.37", "wide": True, "jesus": False, "ref": False,
+        "window": "203.85-209.51", "wide": True, "jesus": False, "ref": False,
         "locks": ["SAMARITAN", "BORDERLAND"],
         "narration": ("And he rose and walked home a whole man, the old wrappings left "
                       "behind him in the road."),
