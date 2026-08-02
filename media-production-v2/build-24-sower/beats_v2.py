@@ -804,12 +804,18 @@ BEATS = [
         "locks": ["BOAT", "LAKESHORE"],
         "narration": "But he that received seed into the good ground is he that heareth the word,",
         "must_show": "Jesus in the boat naming the good ground — leaning forward on the thwart with one hand open toward the people on the beach, his whole face given to them.",
-        "must_not_show": "no halo, no glow, no rim-light, no light coming off Jesus; no night, no sunset, no scroll or book, no raised platform, no standing on the water, and Jesus never looks into the lens.",
+        "must_not_show": "no halo, no glow, no rim-light, no light coming off Jesus; no night, no sunset, no scroll or book, no raised platform, no standing on the water, NO SECOND PERSON ANYWHERE IN THE FRAME — no shoulder, back, arm, head or garment of anybody else in the foreground, near edge or background, sharp or blurred — no cream, off-white, pale or bleached cloth anywhere in the picture except on Jesus himself, and Jesus never looks into the lens.",
         "scene": (
             "One photograph, 85mm prime lens at a wide aperture, very shallow depth of "
             "field, bright late-morning sun from high on the right, fine film grain. "
-            "The camera floats low off the boat's shoreward quarter, close in, and "
-            "Jesus is seen in three-quarter from his left. He has come forward off the "
+            "JESUS IS THE ONLY PERSON IN THIS PICTURE AND THE NEAR FOREGROUND IS OPEN "
+            "WATER: the camera floats low on the lake itself off the boat's shoreward "
+            "quarter with nothing between it and the hull but a hand's depth of clear "
+            "shallow water and the pale stony bottom, so the bottom of the frame is "
+            "water and wet planking and nothing else. Nobody stands, wades, kneels or "
+            "passes between the camera and the boat, and no part of any other body is "
+            "in the shot. Jesus is seen in three-quarter from his left. He has come "
+            "forward off the "
             "thwart until his elbows are on his knees, and his right hand is out and "
             "open toward the shore, palm up and fingers spread, held low over the "
             "water. His face is warm and lit and entirely given away: brows lifted a "
