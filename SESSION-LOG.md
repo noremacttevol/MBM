@@ -1,3 +1,46 @@
+## 2026-08-02 — Video 21 (The Lost Sheep, Luke 15): realistic V2 shipped to the reviewer (Machine A / `Dev`, Claude worker 15)
+
+Commit: 0e0a1cd (cut + reviewer card) · this entry (bookkeeping). Row 21 claimed by push
+before a cent was spent, built end to end, deployed live, and the live card verified.
+
+33 pictures at native 2K against V1's SEVEN — V1 held one still on screen from 96.6 s to
+138.5 s, nearly 42 seconds across four separate segments. Every window was computed from
+the fixed extract_beats reading the V1 build and split on each segment's own phrase
+timings: contiguous 0.28 s → 138.451 s, zero gaps, 4.19 s a picture, and all 17 segment
+speech-starts verified to land inside the window written for them. Extracted total
+147.232 s against the V1 mp4's 147.237 s.
+
+The sourcing trap was checked and cleared rather than assumed. This build carries BOTH a
+`make_narration.py.pre-echo` and a `.pre-speaker` sibling and they disagree with the live
+script on n9b, so the mp3 was transcribed with faster-whisper: the LIVE script is what is
+actually spoken and its timing sidecar agrees, so no TEXT_OVERRIDES were needed.
+
+Staging call: Luke 15 holds the prodigal (row 2), the lost coin (row 8) and this parable,
+told at one sitting to one audience. Rows 2 and 8 already staged that opening outdoors,
+so this one is set INSIDE a village house at the meal with the religious men standing in
+the doorway refusing to cross it — which is also the truest reading of Luke 15:2, since
+the offence is specifically that he EATS with them.
+
+Anchor-first casting (3 face-showing anchors generated in their own run, then wired into
+REFS) held the reroll rate to 21 % (7 of 33), and every cause went into a SHARED lock:
+the phrase "undyed grey-brown wool" was what made crowd garments come back near-white, so
+it is gone from both crowd palettes and the figures nearest the camera are now pinned to
+umber and indigo; the shepherd's sheepskin rendered as a large cream fleece on a
+non-Jesus figure, so the garment was deleted from his lock outright; plastic ear tags on
+the sheep, galvanised pipes and a plastic roof vent on the village skyline, and a printed
+page seam across one frame each got a positively-stated clause in FLOCK, ONE-SHEEP,
+VILLAGE and the beat itself. The row-19/20 lens-gaze cure — give the gaze a target inside
+the frame — fixed the celebration wide in one pass for the third row running.
+
+AUDIO LOCK PASS (SHA256 cec51e8c…), 147.237 s / 20.9 MB, the same duration as V1 to the
+millisecond; nothing was re-voiced. Captions confirmed on rendered frames (white
+narrator, red Jesus KJV, light-blue scripture, bottom band only) and the closing question
+card carries its words. ≈$5.36 spend, meter $87.37 → $92.73, no duplicate billing.
+
+Note for the next worker: `media-production-v2/.gitignore` ignores `*.mp4`, so the
+delivered cut needs `git add -f`; a plain `git add` of the build folder silently commits
+nothing and the reviewer link 404s.
+
 ## 2026-08-02 — Video 20 (The Good Samaritan, Luke 10): realistic V2 shipped to the reviewer (Machine A / `Dev`, Claude worker 14)
 
 Commit: 4fc9e6916 (cut + reviewer card) · b47fedffe (bookkeeping). Row 20 claimed by

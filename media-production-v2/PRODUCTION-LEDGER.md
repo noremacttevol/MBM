@@ -1138,8 +1138,69 @@ Reroll rate 32% (12 of 37). Full detail in `build-19-shore/QC.md`.
 
 ---
 
-## ROW 21 — The Lost Sheep (Luke 15) — IN PROGRESS
+## ROW 21 — The Lost Sheep (Luke 15) — DONE 2026-08-02
 
-Claude worker 15, Machine A `Dev`, claimed 2026-08-02 by push before any spend.
-Audio locked to `media-production/build-21-lost-sheep/audio/`; every picture rebuilt at
-native 2K, anchor-first casting per the row-20 lesson.
+Claude worker 15, Machine A `Dev`. 33 pictures at native 2K against V1's SEVEN.
+Delivered `media-production-v2/build-21-lost-sheep/luke-15_lost-sheep-realistic-v2.mp4`,
+147.237 s / 20.9 MB, AUDIO LOCK PASS (SHA256 `cec51e8c…`), blob `a57264ac…` live on the
+reviewer. **≈$5.36** (meter $87.37 → $92.73): 3 anchors $0.40, 2 anchor rerolls $0.27,
+30-shot main pass $4.02, 5 beat rerolls $0.67. One generator process at a time, a hard
+`--ceiling` recomputed from the live meter on every paid run, no duplicate billing.
+
+1. **The sourcing check paid off by NOT costing anything.** This build carries BOTH a
+   `make_narration.py.pre-echo` and a `.pre-speaker` sibling, and `.pre-echo` disagrees
+   with the live script on n9b. Rather than trust either file, the mp3 was transcribed
+   with faster-whisper: the LIVE script is what is spoken, and its `timing.json` agrees
+   (3 phrases, 5.759 s against a 5.799 s file). No `TEXT_OVERRIDES`. **The cheap tell
+   from row 20 generalises — compare the timing sidecar's phrase text against the script
+   before assuming either file is right.**
+
+2. **V1's picture starvation was the worst yet on any row so far:** ONE still held the
+   screen from 96.6 s to 138.5 s — 42 seconds across four separate segments.
+
+3. **A repeated STORY needs a different ROOM.** Luke 15 holds the prodigal (row 2), the
+   lost coin (row 8) and this parable, told at one sitting to one audience. Rows 2 and 8
+   already staged that opening outdoors, so row 21 is staged INSIDE a village house at
+   the meal with the religious men standing in the doorway refusing to cross it — which
+   is also the truest reading of v2, since the offence is that he EATS with them. **Check
+   what the library already shows before staging a shared occasion.**
+
+4. **Anchor-first casting again: 21 % reroll (7 of 33).** Higher than row 20's 12 %,
+   entirely because this row invented three new settings at once (a house interior, a
+   dry-stone fold, a hill village) and each one minted its own anachronism, exactly as
+   the ledger predicted. The anchors themselves held: the shepherd is the same man in
+   all 15 of his frames, near, far, front and back.
+
+5. **THE PHRASE "UNDYED GREY-BROWN WOOL" IS WHAT MAKES CROWDS COME BACK NEAR-WHITE.**
+   Both crowd locks listed it as a lawful earth colour while the same sentence forbade
+   cream, and the model resolved it as pale oatmeal — two enormous near-white backs in
+   the foreground of the opening wide. Removed from both palettes, plus a new clause
+   pinning the ONE OR TWO FIGURES NEAREST THE CAMERA (the biggest shapes in the picture)
+   to deep umber and dark indigo. **A colour lock has to name what the biggest shape in
+   the frame IS, not just what nobody may wear.**
+
+6. **The same trap bit the shepherd's own costume.** His lock gave him a "sheepskin
+   over-mantle of dark brown fleece"; it rendered as a large CREAM fleece across the
+   chest of the video's central recurring character. The garment was deleted from the
+   lock outright rather than re-described — the cheapest fix for a garment that keeps
+   coming back the wrong colour is to not put it in the scene.
+
+7. **New settings, new anachronisms, all cured POSITIVELY and in a SHARED lock:**
+   plastic ear tags on the sheep → a no-modern-marks clause in FLOCK and ONE-SHEEP;
+   galvanised pipes and a plastic roof vent on the village skyline → VILLAGE now states
+   what a first-century roof carries and that nothing else projects from it; a printed
+   page seam and gutter down one frame → an explicit one-photograph-edge-to-edge sentence
+   (the anti-panel clause alone did not catch a *page* seam).
+
+8. **The lens-gaze cure worked first time for the third row running.** The celebration
+   wide came back with the shepherd's pupils on the lens; giving his gaze a named target
+   inside the frame (the old man beside him) fixed it in one pass, and the same move
+   turned the lane shot from advancing-into-camera into a cross-frame stride.
+
+9. **Review-board edit, done safely:** anchored on row 21's old `data-hash`, its V1 mp4
+   path, and a flag line located strictly between the v21 card tag and `id="v22"`, then
+   diffed — exactly 3 lines changed, all on the v21 card, rows 12 and 17 byte-identical.
+   The card carries `data-review-wave="realistic-v2"`, verified on the LIVE page after
+   deploy. Note for the next worker: `media-production-v2/.gitignore` ignores `*.mp4`,
+   so the delivered cut needs `git add -f` — a plain `git add` of the build folder
+   silently commits nothing.
