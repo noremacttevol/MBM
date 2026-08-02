@@ -1352,7 +1352,11 @@ to V1 to the millisecond; AUDIO LOCK PASS (SHA256 25ee3f63…). Git blob 35c29eb
    TERRACED HILLSIDE ABOVE THE VINEYARD ITSELF — the parable's own landscape behind the man
    telling it, which no other row uses.
 
-9. **Firebase note for future workers:** worker 16 reported row 22 blocked on an HTTP 429 Hosting
-   storage quota and warned the CLI had no way out. The next deploy simply succeeded, and it
-   published row 22's card as well as row 23's. `media-production/prune_hosting_versions.py` is
-   the sanctioned tool if it recurs — it was not needed here. Retry before treating 429 as a blocker.
+9. **Firebase note for future workers — CORRECTED 2026-08-02 (main session).** Worker 16 hit a real
+   HTTP 429 Hosting storage quota on row 22 and correctly declined to delete release history on its
+   own. The main session then ran `python3 media-production/prune_hosting_versions.py` (output:
+   "pruned 7 old versions; live version kept: 86f38f18a869136a") and the redeploy succeeded,
+   publishing row 22's card — verified live. Worker 17's later deploy succeeded because the quota
+   had ALREADY been pruned, not because 429 is transient. **Do NOT conclude 429 clears on retry.**
+   When the quota is genuinely full, retrying forever will not help: run the prune tool, then deploy.
+   The prune is safe — hosting release versions are stale copies of a site fully reproducible from git.
