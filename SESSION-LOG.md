@@ -1,3 +1,66 @@
+## 2026-08-02 — Row 37 The Rich Man and Lazarus: full realistic V2 rebuild shipped — Claude worker 32, Machine A `Dev`
+
+Luke 16:19-31 — **the one story in the 200 whose narration goes past death**, which made
+it the hardest content call of the wave. **49 pictures at native 2K against V1's EIGHT**,
+and V1 *reused* one of those eight: `s6.jpeg` held 32.0 s and was then shown again for the
+ending, so **Abraham's final answer — "neither will they be persuaded, though one rose from
+the dead", the line the whole parable exists to deliver — had no picture of its own.**
+`s5.jpeg` held 33.0 s across the rich man's death, his burial, his waking in torment and
+the whole red-letter plea of Luke 16:24. V2 gives all nineteen spoken segments their own
+pictures: 3.19 s/picture, shortest 1.75 s, longest 4.82 s.
+
+- **AUDIO LOCK PASS, verified independently of the assembler's own report.** The finished
+  cut's audio stream MD5 (`634404ebcc21fc6c2c70f514b42d874a`) matches the V1 MP4 exactly.
+  165.372 s / 22,153,426 bytes. 44 windows of true silence below −60 dB: no music bed.
+- **A LIVE SOURCING TRAP, caught and cleared.** `make_narration.py` is *newer than its own
+  audio* and its commit says "narration re-recorded" — it rewrote `n13`. All twenty
+  segments were transcribed and **the audio carries the short n13**, so the live script is
+  the one that matches. Three apparent differences were whisper's; n7's "Across" → "He
+  crossed" was settled from the **word timings** (one 380 ms word split at the unstressed
+  leading schwa), not by opinion. No TEXT_OVERRIDES.
+- **The inherited scaffold was discarded**: 27 pictures at 5.25 s, **22 dead intervals**,
+  covering only 141.750 s of the 156.525 s that need pictures.
+
+**Content care — staged in Latter-day Saint terms, not medieval Christendom's.** Every
+other row was told to paint no heaven, hell, angel or torment *because the narration does
+not state it*; Luke 16 states it outright, so the rule became **stage only what the text
+says and nothing it does not**. There is **no devil, horn, pitchfork, chain, cauldron, lake
+of fire, crowd of the damned, hellmouth or skull anywhere, and no fire at all in the cut** —
+"I am tormented in this flame" is staged as **heat, glare and parched air**, shot through
+boiling haze with a mirage dissolving on the horizon. The place of torment is bare cracked
+ground empty to the horizon with **the man alone in every frame of it**, his suffering on
+his own face. **Abraham's bosom is nearness and rest** — deep shade, still open water, and
+the "comforted" of 16:25 staged as an old hand resting on a shoulder. The great gulf is
+literal geology with both rims in frame. **The angels are two ordinary men** in dark wool,
+and the wing-and-halo risk was killed by *geometry* — the camera stands behind and above
+them — rather than by prohibition. **God is never depicted, and Jesus never appears inside
+the parable**: all five red-letter segments are the rich man and Abraham speaking within
+it, so each is staged where the words are said.
+
+**Reroll rate 4 of 53 = 7.5%.** The cures: a **glazed window with a timber sash** in the
+rich man's anchor (PERIOD-MATERIALS cannot reach it — a window is *architecture*), cured by
+front-loading the opening geometry and deleting the opening outright; Abraham's anchor
+landing on **arid hillside instead of the place of rest**, cured by stating that ground
+positively; and `s35`/`s42` coming back with **eight and six men against "my five
+brothers"**, which was **my own prompt's fault** — "shoots past the two nearest" plus "the
+three beyond" read as additive — cured by geometry: near side of the table empty of people,
+camera behind the bare tabletop, all five ranged along the far side with a gap between each.
+Both fixed in one pass. All anchors regenerated composition-level, never `--redo`.
+
+**New shared locks:** `SPIRIT-WORLD` (the afterlife stated positively, refusing both
+Dante's inferno and painted-heaven kitsch — these are *theology*, which no materials lock
+reaches) and `COURTYARD-GATE` (row 36 cured the same defect by *deleting* a gateway; this
+story cannot, because the gate is the parable).
+
+LIVE on the reviewer with `data-review-wave="realistic-v2"`, raw URL serving 22,153,426
+bytes, Firebase deployed and the live card verified. Prior approval is VOID under REDO-ALL;
+awaiting Cameron.
+
+Commit: `e94b14ab5` (cut) · `8b7c7fbc1` claim · `779a60219` beat map + shared locks ·
+`8d1144dc4` anchors + cures · `4160943ae` 49 pictures + recount cure.
+
+---
+
 ## 2026-08-02 — Row 36 The Shrewd Steward: full realistic V2 rebuild shipped — Claude worker 31, Machine A `Dev`
 
 Luke 16:1-13, the hardest parable in the gospels to stage honestly. **47 pictures at
