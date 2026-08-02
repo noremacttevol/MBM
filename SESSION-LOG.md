@@ -32,6 +32,54 @@ frame, so the teaching and the parable share one place and only the plant change
 frames extracted and viewed, raw GitHub URL verified at 20,288,189 bytes, live card carries
 `data-review-wave="realistic-v2"`. Awaiting Cameron.
 
+## 2026-08-02 — Row 29 (The Pearl of Great Price) realistic V2 rebuild — SHIPPED
+
+**Commits:** `77e1bcfa0` (build + shared locks) · `d9d877430` (reviewer card) · this entry.
+**Machine:** A (`Dev`). **Worker:** Claude worker 23.
+
+Rebuilt story 29 end to end and shipped it to the reviewer. **36 pictures at native
+2K against V1's SIX** (3.03 s/picture). V1 gave the entire closing turn — n9 and n10,
+the "read it the other way round, to Jesus YOU are the pearl" reading the whole video
+exists to deliver — **one held still for 23.5 seconds**; it now has seven frames of
+its own.
+
+**Audio untouched and byte-identical** (AUDIO LOCK PASS, SHA256 `f240ba9f…`, 115.8 s /
+21.5 MB). The V1 MP4 and every mp3 share one git content date, so neither staleness
+tripwire fired. All 13 segments were transcribed with faster-whisper and match the live
+`make_narration.py`; the two apparent mismatches proved to be whisper's own errors (it
+hears the KJV "like unto" as "likened to" on both base.en and small.en), so no
+`TEXT_OVERRIDES` were needed. Windows were recomputed from `extract_beats` and split on
+measured word timings — contiguous 0.280 → 109.270 s, zero gaps, every speech onset
+verified inside its own window with silencedetect.
+
+**The inherited scaffold was discarded**, on measured grounds: 18 pictures at 5.8 s
+each against a wave now shipping at 3.1-4.9; the frame staged in a house interior that
+row 16 already owns and row 28 had already rejected on this same argument; per-beat
+free choice of time of day, throwing away the clock; a lock that made the merchant's
+rings a deliberate variable; and a "flawless, perfectly round" pearl, i.e. a CGI sphere.
+
+**Staged in four places new to the wave** — a bare limestone shelf above a dry wadi
+(frame), a caravan road, a quayside market, and the merchant's dressed-stone courtyard
+being stripped. The courtyard was checked deliberately against row 28, which also has a
+man selling everything, and differs in material, class and emotional direction.
+"His own life, gladly" is carried by Jesus's upturned empty palms — nothing graphic.
+
+**Reroll rate 14.3% (6 of 42), ≈$5.63.** Two new SHARED setting locks came out of the
+row and are in `v2_prompt.py` for every future build: **ANCIENT-ROAD** (a road's own
+anachronism is the surface and what lines it, which PERIOD-MATERIALS cannot reach
+because a road surface is not an object) and **MARKET-TOWN** (a market's own anachronism
+is the stall, with row 22's city-skyline lesson folded in).
+
+> ⚠️ **Tooling lesson worth carrying forward:** verifying a prompt-text edit with
+> `grep "iron ring"` returned ZERO and was WRONG — the phrase was split across a Python
+> line break in a wrapped string literal, one beat kept the text, and the image came
+> back with a modern machined ring. Grep the distinctive single word, or search the
+> assembled prompt, never a multi-word phrase in wrapped source.
+
+Live on the reviewer, verified with `data-review-wave="realistic-v2"` and the raw URL
+serving 21,451,026 bytes. Awaiting Cameron's watch.
+
+
 ## 2026-08-02 — Row 28 (Hidden Treasure, Matthew 13:44) realistic V2 shipped
 **Commit:** `42b855efe50851b4fff75d82d7a241a736d05dc1`
 **Machine:** A (`Dev`) · Claude worker 22

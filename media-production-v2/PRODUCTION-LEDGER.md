@@ -1859,9 +1859,92 @@ the legend and the head, and it is right.)
 
 ## Row 29 — The Pearl of Great Price (Matthew 13:45-46) — Claude worker 23, Machine A `Dev`, 2026-08-02
 
-🟡 **CLAIMED 2026-08-02** before any spend. V1 `matthew-13_pearl-of-great-price.mp4`
-runs 115.798 s / 19,828,134 bytes on SIX stills (`s1-merchant` … `s6-pearl-radiant`)
-for 13 narration segments — n1, j1 (13:45), n2-n5, j2 (13:46), n6-n10, card. Full
-realistic V2 rebuild in progress: audio locked, windows recomputed from
-`extract_beats` and measured word timings, anchor-first casting, staged so it
-repeats no setting already used in the wave.
+✅ **SHIPPED 2026-08-02.** Commits `77e1bcfa0` (build) and `d9d877430` (card).
+36 pictures at native 2K over 108.99 s of story = **3.03 s/picture**, against V1's
+SIX. V1's `s1-merchant.jpeg` covered n1, j1 AND n2 (0.28→19.36 s); `s4-sells-all`
+covered n5, j2 AND n6 (22.6 s); `s5-buys-it` covered n7 and n8 (24.5 s); and
+`s6-pearl-radiant` covered n9 AND n10 — 85.48→109.27, **23.5 seconds, the entire
+closing turn the video exists to deliver**, on one held frame.
+
+**THE INHERITED SCAFFOLD WAS DISCARDED** (saved to scratch first), for reasons
+measured rather than assumed: 18 pictures at 5.8 s each called "library density"
+when rows 24-28 shipped at 3.1-4.9; the frame staged in a HOUSE INTERIOR, which
+row 16 owns and row 28 had already examined and rejected on this exact argument,
+with the frame beats recurring ELEVEN times here; "each searching beat may pick
+its own hour", discarding the clock rows 23-28 proved is the wave's strongest
+tool; a MERCHANT lock that made gold rings a deliberate VARIABLE, the exact drift
+a lock exists to prevent; and a PEARL lock reading "flawless, perfectly round",
+which is a machined CGI sphere.
+
+**AUDIO** — LOCK PASS, byte-identical, SHA256 `f240ba9f…`, 115.8 s / 21,451,026 B.
+The V1 MP4 and every mp3 share ONE git content date (2026-07-27T22:46:55), so
+neither staleness tripwire fired. SOURCING TRAP CLEARED: all 13 segments
+transcribed with faster-whisper against the LIVE `make_narration.py`. Two apparent
+mismatches were chased and are **whisper's, not the audio's** — it renders the KJV
+"like unto" as "likened to" in j1 on BOTH base.en and small.en, and contracts
+"here is"→"here's" in n7. The CARD was re-run on small.en because base.en gave
+"you ARE the pearl" against the script's "you WERE the pearl"; small.en returns
+the script exactly. **No TEXT_OVERRIDES; `AUDIO_FROM_V1_SEGMENTS` stayed off.**
+
+**WINDOWS** recomputed from `extract_beats` and split on word timings measured
+from each mp3 (sidecars not trusted; this build has no `.mp3.words.json`).
+Segment-boundary contiguous 0.280 → 109.270 s, zero gaps, zero overlaps, shortest
+1.36 s, longest 4.74 s. All 13 segment onsets and the intra-segment splits
+re-measured with silencedetect and verified inside their own windows.
+
+**STAGING — four places, none used in the wave.** A BARE LIMESTONE SHELF above a
+dry wadi for the frame (open rock, no tree, no canopy, no wall — deliberately the
+opposite of row 28's olive grove, which is *defined* by canopy and dapple); a
+CARAVAN ROAD; a stone-flagged QUAYSIDE MARKET; and the merchant's own DRESSED-
+LIMESTONE COURTYARD. That last was checked deliberately against row 28, which also
+has a man selling everything: 28's is a POOR MUD-BRICK hut on a dirt slope with a
+thorn pen and a village crowd; this is a PROSPEROUS DRESSED-STONE town house being
+STRIPPED — different material, class, and emotional direction (28 gains, 29
+empties). The clock carries the argument: hard white midday on the road, cold blue
+first light for the years of searching, bright morning for the finding, hard noon
+for the selling and the stripping, and the first warm gold of dawn for the
+gladness. The n9/n10 turn stays inside the frame story and "his own life, gladly"
+is carried by Jesus's **upturned empty palms**, never by any depiction of the cross.
+
+**REROLL RATE 14.3% (6 of 42), ≈$5.63.** Two were the anchors; four were beats.
+
+> ⚠️ **THE SHARPEST LESSON HERE IS A TOOLING ONE AND IT COST AN IMAGE.** After
+> editing the ring out of the prompts I verified with `grep "iron ring"`, got
+> ZERO, and believed it. The phrase was **split across a Python line break**
+> (`"…dark iron "` / `"ring on…"`), so one beat kept the text and rendered a
+> glossy machined black band. **Never verify a prompt-text edit with a grep for a
+> multi-word phrase in a file of wrapped string literals — grep the distinctive
+> SINGLE word, or assemble the prompt and search the assembled output.**
+
+Other defect families and their cures, all by delete-file + fresh generation,
+never `--redo`:
+  * **The ring** — cured by DELETING the object from the MERCHANT lock and stating
+    the hands are BARE, per the row-28 rule that a twice-failed prohibition must be
+    re-staged rather than restated.
+  * **Pale canvas awnings and pale-clad background figures** in the market — cured
+    in the MARKET lock by pinning every awning to VERY DARK BROWN-BLACK goat hair
+    and every person in the market to dark saturated colour.
+  * **The merchant rendering BARE-HEADED** in two frames although the head cloth
+    was named — cured by making the head cloth *do something in the composition*
+    (its long loose end hanging down over the shoulder), so it cannot be dropped.
+  * **Painted blue-and-white boat hulls** in the harbour — cured by RE-STAGING: the
+    MARKET lock now states the sea is empty to the horizon, and the beat turns the
+    camera inland so no water is in the frame at all.
+  * **Pitched terracotta tile roofs** on the skyline above the courtyard — cured by
+    tilting the camera down so there is no skyline in the frame to put a roof on.
+
+**TWO NEW SHARED SETTING LOCKS** promoted into `v2_prompt.py`:
+  * **ANCIENT-ROAD** — a road's own anachronism is THE SURFACE AND WHAT LINES IT
+    (tarmac, kerbs, painted lines, tyre ruts, poles, wire, guardrails, signposts).
+    PERIOD-MATERIALS cannot reach it, because a road surface is not an *object* —
+    it is the ground. Roads recur constantly across the 200 (rows 09 and 20 both
+    live on one), so this belongs in the shared file, not a ninth build-local copy.
+  * **MARKET-TOWN** — a market's own anachronism is THE STALL (trestles, metal
+    poles, striped or printed awnings, plastic crates, price boards), with row 22's
+    city-skyline lesson (minaret, bell tower, tiled roof) folded in so no future
+    town has to re-learn it.
+
+Captions verified on extracted frames — red Jesus KJV on j1/j2, white narrator,
+bottom band only, never over the art; the closing card carries its words. LIVE on
+the reviewer with `data-review-wave="realistic-v2"`, raw URL serving 21,451,026
+bytes, matching the local file exactly.
