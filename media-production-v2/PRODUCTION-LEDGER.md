@@ -1666,3 +1666,80 @@ human-scale, the visual opposite of row 25's grain plain and row 24's beach. **T
 grows in the SAME corner bed in every frame**, so the teaching and the parable share one
 continuous place and the closing wide shot puts Jesus and the grown plant in one picture
 without inventing anything. Terrain is the invariant; only growth stage and light move.
+
+---
+
+## ROW 27 — THE LEAVEN (Matthew 13:33), realistic V2 — shipped 2026-08-02 (Claude worker 19)
+
+29 pictures at native 2K against V1's EIGHT. 104.47 s / 20.3 MB. Reroll rate **27.6 % (8 of 29)**.
+Spend ≈ **$5.09**. AUDIO LOCK PASS, SHA256 `3c20c13a…`.
+
+### The timing trap on this row: BOTH sidecar sources are unusable
+`.timing.json` carries ONE phrase spanning the whole segment for n1, s33, j1 and n4 — four of the
+ten story segments — so it cannot supply an interior split at all. And the `.mp3.words.json` files
+that already sit in the V1 `audio/` folder are **wrong**: n1's last word ends at 8.52 s inside a
+6.295 s file, j1's at 8.92 s inside an 8.072 s file, at *different* ratios, so they are not a
+rescalable artefact of the real audio either. Every window came from faster-whisper
+`word_timestamps=True` run on the mp3s themselves. **Do not trust a build's `.mp3.words.json`
+without checking its last word against the file duration first — it costs one ffprobe.**
+
+### NEW SHARED LESSON — a tight shot's anachronism is the FABRIC, and a macro's is the WHOLE ROOM
+Rows 16/18 paid for interior lighting, 19 for boat fittings, 22 for city skylines, 26 for garden
+irrigation. This row's family was different because half its pictures are macro:
+
+* **Two sleeves came back as MODERN KNITWEAR** — b12 as a ribbed sweater cuff, b23 as brushed polar
+  fleece. `GARMENT-CONSTRUCTION` forbids modern *shapes* (collars, plackets, cuffs) but said nothing
+  about how the cloth is *made*, so a correctly-shaped indigo sleeve rendered in jersey knit passed
+  every check. Cure, now a **shared `WOVEN-CLOTH LOCK` in `v2_prompt.py`**:
+
+  > every piece of cloth in the frame is WOVEN ON A LOOM and shows it — a visible over-and-under grid
+  > of warp and weft threads, slightly irregular, with a flat matte surface. NO CLOTH IS KNITTED OR
+  > MACHINE-MADE: no knit stitch, purl, rib, cable, jersey, seed stitch, stretchy cuff or collar band,
+  > no felted, fleeced, brushed, napped or looped pile, and no sweater, jumper or sweatshirt texture
+  > anywhere, including at a rolled sleeve, a wrist, a hem or a blurred edge. A close macro shot of a
+  > sleeve must still read as coarse hand-woven wool or linen, never as knitwear.
+
+  It fixed b12 in one pass. b23 needed a second pass and is the sharper lesson: on an extreme macro
+  where the cloth fills a third of the frame, the shared lock alone was not enough — the beat text
+  had to restate the sleeve itself as coarse flat hand-woven wool with a frayed cut edge.
+* **Two macro food shots came back as PRESENT-DAY PHOTOGRAPHY** — b14 as a smartphone snapshot of a
+  proving basket on a garden deck with a white railing, b25 as studio food photography of artisan
+  boules on a bamboo mat against a bright white kitchen. Nothing in the frame was a "prop" the locks
+  could catch; the whole *room* was modern. The cure is to state where the camera is standing in the
+  world, not just what it is pointed at: **"THE WHOLE PICTURE IS OUTDOORS INSIDE THE FIRST-CENTURY
+  BAKING YARD, ON BARE SWEPT EARTH BESIDE A ROUGH TAN MUD-BRICK WALL"**, plus a tilt that puts a band
+  of that earth and wall in frame so the model has to render it. Both fixed in one pass.
+  **Whoever shoots the next tight macro: an object lock protects the object, not the room. Say where
+  the camera is standing.**
+
+### The other four
+* **b04** — lens gaze on the KJV wide, the classic. Fixed by the eight-for-eight cure: camera fully
+  SIDE-ON to the group so the whole conversation runs horizontally, Jesus at one edge in clean profile
+  and the listeners at the other, every eyeline exiting through a named side edge.
+* **b06** — the rows 24/25/26 defect again: the out-of-focus near-foreground listener beside Jesus in
+  cream. Naming a garment was not enough; what worked was pinning the ENTIRE figure — "back, shoulder,
+  arm, sleeve, lap, knee and head cloth are DEEP INDIGO, ONE SINGLE UNBROKEN DARK NAVY MASS".
+* **b11** — a corrugated SHEET-METAL roof edge above the yard wall, invisible until you crop the top
+  right corner. `PERIOD-MATERIALS` forbids sheet metal but the skyline is where it hides. Cure stated
+  positively: "ABOVE THE WALLS THERE IS NOTHING BUT OPEN SKY AND THE ROUNDED WEATHERED TOP OF THE MUD
+  BRICK ITSELF".
+* **b27** — two large WHITE woven-plastic feed sacks behind the oven. Cure: every sack in the picture,
+  sharp or blurred, near or far, is coarse dark brown-black goat-hair cloth tied with flax cord.
+
+### Also promoted this session
+The **HAND-IRRIGATION LOCK** row 26 left "ready to paste" in this ledger is now a named shared SETTING
+lock in `v2_prompt.py` (`SHARED_SETTING_LOCKS`), opted into by naming `HAND-IRRIGATION` in a beat's
+`locks` list. It is not appended to every prompt — a boat scene has no irrigation — but the next
+garden, orchard, vineyard or irrigated field no longer has to re-learn it.
+
+### Staging
+Two places, neither used by any other row. THE FRAME: the long stone bench built along the sunlit
+outer wall of a village synagogue, flat bright mid-afternoon, listeners on the bench and the worn
+steps — Matthew 13:33 opens "ANOTHER parable spake he unto them", so he is mid-sequence with a settled
+audience, which the bench gives without borrowing row 24's boat for a fourth consecutive row (the
+inherited scaffold wanted exactly that and called it "the sixth composition"). THE STORY: a small
+walled baking yard — a beehive clay oven, a hollowed olive-wood kneading trough on a stone stand,
+goat-hair meal sacks, a covered clay starter jar. **The clock is the plot and it is on the screen**,
+because the parable is about hidden time passing: low afternoon sun as she mixes, dusk as she covers
+the trough, full night lit by one clay lamp with nothing happening, first grey dawn with the cloth
+domed from beneath, then bright morning as she bakes and hands the loaves out at her gate.
