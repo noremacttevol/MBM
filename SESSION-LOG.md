@@ -1,3 +1,49 @@
+## 2026-08-02 — Video 20 (The Good Samaritan, Luke 10): realistic V2 shipped to the reviewer (Machine A / `Dev`, Claude worker 14)
+
+Commit: 4fc9e6916 (cut + reviewer card) · b47fedffe (bookkeeping). Row 20 claimed by
+push before a cent was spent, built end to end, deployed live, and the live card
+verified in the browser-facing HTML.
+
+42 pictures at native 2K against V1's EIGHT — V1 left one still on screen for 22 s at a
+stretch, so the parable now gets a frame per micro-beat at 4.28 s a picture. The
+inherited 30-beat map ran to 172.63 s against the real 180.035 s card start and was
+adrift from its very first beat, so every window was recomputed from the fixed
+extract_beats reading the V1 build and split on each segment's own phrase timings:
+contiguous 0.28 s → 180.035 s, zero gaps or overlaps.
+
+**The real defect on this row was the SCRIPT, not the pictures.** The V1 folder's own
+`make_narration.py` was rewritten programmatically AFTER the voices were cut (its string
+quoting flipped from double to single throughout) and the rewrite stripped the
+plain-English retellings out of four segments — n1b, n12, n14 and n15. All four are
+audibly present in the mp3s that ship in the approved V1 video; `make_narration.py.pre-echo`
+is the file that matches. Since captions are drawn from that script AND their on-screen
+timing is matched character-by-character against the timing sidecar, using it would have
+printed words nobody says over four segments and mistimed them as well. Fixed in the
+SHARED tool: `v2_assemble.py` now honours a build-declared `TEXT_OVERRIDES`, opt-in, with
+V1 itself never edited. Session 19's rule was "never read a build's script from the V2
+folder"; row 20 extends it — the V1 folder's script can be stale too, and the tell is a
+`.pre-echo` sibling that disagrees with it.
+
+Casting was done anchor-first: six face-showing beats generated as their own run,
+inspected, then wired into REFS so all 36 remaining frames carried every recurring face.
+That held the reroll rate to 12 % (5 of 42) against row 19's 32 % and row 16's 49 %. One
+caveat now in the ledger: `v2_gen_api` builds its REFS cache once per run, so anchors must
+be a separate invocation — the one beat generated in the same run as its anchor came back
+with the Samaritan as a grey-haired old man.
+
+Story laws on screen: Luke 10:30's "went DOWN to Jericho" descends in every travel frame;
+the priest and the Levite are staged so the crossing is visible, with the road's full width
+empty between them and the man in the dust; v34 shows both the oil and the wine and puts
+the Samaritan on his own feet beside the loaded donkey; v35's "two pence" is exactly two
+countable hand-struck coins. Content-care AMBER handled — the robbery is before-and-after
+only, no blow lands on camera and the stripped man keeps his torn undertunic throughout.
+
+AUDIO LOCK PASS (SHA256 d3fe79df…, byte-identical approved audio), 186.7 s / 21.5 MB.
+Captions confirmed on rendered frames — white narrator, red Jesus-voice KJV, light-blue
+scripture, bottom band only — and the closing question card carries its words. ≈$6.30
+spend, meter $81.07 → $87.37, no duplicate billing. Rows 12 and 17 untouched; exactly
+three lines of `site/review.html` changed, all on the v20 card.
+
 ## 2026-08-02 — Video 19 (Breakfast on the Shore, John 21): realistic V2 shipped to the reviewer (Machine A / `Dev`, Claude worker 13)
 
 Commit: 037e6a4cb (cut + reviewer card) · 2bc097315 (bookkeeping). Row 19 claimed
