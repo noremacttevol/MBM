@@ -57,7 +57,7 @@ SHA256 d380ba61…, 166.8 s / 20.3 MB. Captions verified white for the narrator 
 Jesus's KJV in the bottom band on rendered frames, and the closing question card carries
 its words.
 
-Reroll rate 49% (51 paid generations for 26 finals, ≈$4.98). Every reroll was a real law
+Reroll rate 49% (51 paid generations for 26 finals, ≈$6.83). Every reroll was a real law
 violation, and the fixes went into the SHARED locks rather than single prompts — see
 media-production-v2/PRODUCTION-LEDGER.md for the four failure families and the two tool
 gotchas found (`--only` matches beat ids by substring; the AUDIO LOCK needs exactly one

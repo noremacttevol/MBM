@@ -935,7 +935,7 @@ narration — nothing re-voiced. Plan: `v2_prompt.py --check` PASS, generate at 
 `extract_beats.py`, assemble, verify rendered frames, ship to the Reviewer only.
 
 **Shipped 2026-08-01 (43c9d5716 / 48e970c0a).** 26 pictures at native 2K; 51 paid
-generations for 26 finals (49% reroll), ≈$4.98, meter $61.37. Every reroll was a law
+generations for 26 finals (49% reroll), ≈$6.83, meter $62.44. Every reroll was a law
 violation, and the same four families accounted for nearly all of them:
 
 1. **Period-wrong light.** Glass kerosene hurricane lamps, a modern hanging fixture and
