@@ -44,6 +44,9 @@ grey exhaustion and pain on a face — no convulsions, no medical detail.
 TIME OF DAY: one bright day throughout. No night, no sunset.
 """
 
+OUTPUT_ASSET_DIR = "assets-realistic"
+OUTPUT_VIDEO_NAME = "matthew-8_centurion-realistic-v2.mp4"
+
 LOCKS = {
     "CENTURION": (
         "CENTURION LOCK: the Roman officer is the same man in every shot — about "
@@ -99,29 +102,56 @@ REF = True
 BEATS = [
     # ------------------------------------------------- n1/n2 — occupied town ----
     {
-        "id": "v2-r015-b01", "out": "s01-capernaum-occupied.jpeg", "seg": "n1",
-        "window": "0.28-12.77", "wide": True, "jesus": False, "ref": False,
-        "locks": ["CAPERNAUM", "SOLDIERS"],
+        "id": "v2-r015-b01", "out": "s01-capernaum-occupied.jpeg", "seg": "n1 p1",
+        "window": "0.28-5.85", "wide": True, "jesus": False, "ref": False,
+        "locks": ["CAPERNAUM"],
         "narration": ("This is Capernaum, a fishing town on the Sea of Galilee, where "
-                      "Jesus often stayed and taught. It was also filled with Roman "
-                      "soldiers — the army that had conquered these people and now "
-                      "ruled them by force."),
-        "must_show": "the fishing town with Roman soldiers standing in it — armed pairs on the lanes, local people working around them.",
-        "must_not_show": "no violence and no abuse; the occupation reads as armed presence and everyone's careful distance.",
+                      "Jesus often stayed and taught."),
+        "must_show": "the working fishing town on the lake shore — nets, boats, basalt lanes, ordinary Galileans at work.",
+        "must_not_show": "no soldiers yet in this frame — the occupation arrives on the next picture. No violence.",
         "scene": (
             "A wide view of the basalt fishing town along the lake shore in bright "
-            "morning — nets on frames, boats on the shingle, people carrying baskets "
-            "up the lanes. Standing among all of it are pairs of Roman soldiers in "
-            "iron helmets and armour with spears grounded, watching the street. The "
-            "townspeople move around them without looking at them. Nothing violent is "
-            "happening; the armour is simply everywhere. The camera is back far enough "
-            "to hold the lane and the lake. Every figure has two arms, two hands and "
+            "morning — nets stretched on frames, boats drawn up on the shingle, women "
+            "carrying baskets up the lanes, two men bent over a net mending it, the "
+            "flat blue lake and the far hills beyond. It is an ordinary working "
+            "morning in an ordinary town. Every figure has two arms, two hands and "
             "one head."
+            " The low morning sun comes in from the left off the lake, throwing long "
+            "shadows up the lane. Shot on a 35mm lens at chest height from the mouth "
+            "of the lane, standing behind two townspeople whose backs and "
+            "shoulder-baskets fill the near corner soft and out of focus, deep focus "
+            "holding the lane and the far shoreline sharp beyond them."
+        ),
+    },
+    {
+        # AUTHORED 2026-08-01 (Claude worker 10): n1 was one 12.49 s picture, the
+        # longest hold in the row. The narration turns hard at "It was also filled
+        # with Roman soldiers", so the picture turns with it.
+        "id": "v2-r015-b01b", "out": "s01b-the-army-that-ruled-them.jpeg", "seg": "n1 p2",
+        "window": "5.85-12.77", "wide": True, "jesus": False, "ref": False,
+        "locks": ["CAPERNAUM", "SOLDIERS"],
+        "narration": ("It was also filled with Roman soldiers — the army that had "
+                      "conquered these people and now ruled them by force."),
+        "must_show": "the same town with the occupation in it — armed pairs of Roman soldiers standing in the lanes while the local people work around them and keep their distance.",
+        "must_not_show": "no violence and no abuse; the occupation reads as armed presence and everyone's careful distance.",
+        "scene": (
+            "The same basalt lane in the same bright morning, but now pairs of Roman "
+            "soldiers in iron helmets and segmented armour stand through it with "
+            "their spears grounded, watching the street. The Galilean townspeople "
+            "carry their baskets and nets around them without once looking at them, "
+            "leaving a careful arc of empty ground around every pair. Nothing violent "
+            "is happening; the armour is simply everywhere. Every figure has two "
+            "arms, two hands and one head. The low morning sun from the left throws "
+            "the long shadows of the soldiers across the lane ahead of the people "
+            "walking. Shot on a 35mm lens at chest height from behind a Galilean "
+            "woman whose back and head-cloth fill the near frame soft and out of "
+            "focus, the soldiers sharp in the middle distance and seen in profile, "
+            "not one face turned toward the lens."
         ),
     },
     {
         "id": "v2-r015-b02", "out": "s02-every-reason-to-hate-rome.jpeg", "seg": "n2 p1",
-        "window": "13.81-16.27", "wide": False, "jesus": False, "ref": False,
+        "window": "14.25-16.71", "wide": False, "jesus": False, "ref": False,
         "locks": ["CAPERNAUM", "SOLDIERS"],
         "narration": "So the Jews here had every reason to hate Rome.",
         "must_show": "a Galilean man's face as he passes armoured soldiers — eyes down, jaw tight, resentment held in.",
@@ -133,11 +163,12 @@ BEATS = [
             "turned very slightly to give them room. The blurred iron and red of the "
             "soldiers fills the frame behind him. Nothing is said. Hard morning light. "
             "Every figure has two arms, two hands and one head."
+            " Shot on an 85mm lens wide open: his face sharp from temple to jaw, the soldiers behind him dissolved into blurred iron and red. The low morning sun rakes across his cheek from the left."
         ),
     },
     {
         "id": "v2-r015-b03", "out": "s03-this-man-wears-the-uniform.jpeg", "seg": "n2 p2",
-        "window": "16.27-20.73", "wide": True, "jesus": False, "ref": False,
+        "window": "16.71-21.17", "wide": True, "jesus": False, "ref": False,
         "locks": ["CENTURION", "CAPERNAUM"],
         "narration": ("Hold on to that, because the man this story is about wears a "
                       "Roman uniform."),
@@ -152,12 +183,13 @@ BEATS = [
             "cruel about him. Townspeople give him a wide berth in the background. "
             "Hard morning light on the iron. The camera is back far enough to see him "
             "head to boots. He has two arms, two hands and one head."
+            " Shot on a 50mm lens from across the lane at eye height, just behind a townsman who is turning away, his shoulder large and soft in the near frame; the officer stands in clean profile in the middle distance and the lane falls gently soft behind him. Low morning sun from the left throws the hard shadow of his crest along the wall."
         ),
     },
     # ------------------------------------------------- n3/n4 — the servant ----
     {
         "id": "v2-r015-b04", "out": "s04-a-servant-was-dying.jpeg", "seg": "n3",
-        "window": "21.80-29.28", "wide": True, "jesus": False, "ref": False,
+        "window": "22.63-30.10", "wide": True, "jesus": False, "ref": False,
         "locks": ["SERVANT", "ROMAN-HOUSE"],
         "narration": ("In one of those Roman houses, a young servant was dying. His body "
                       "had gone stiff and useless, and he was in terrible pain."),
@@ -172,11 +204,12 @@ BEATS = [
             "untouched beside the bed. There is nobody else in the room. The camera is "
             "back far enough to see him and the room. He has two arms, two hands and "
             "one head."
+            " Shot on a 35mm lens from the foot of the bed at seated height, the bed's end post dark and soft in the near frame, the boy sharp, the far wall gently soft. The only light is hard morning sun through the shutter from the right, laid across him in level bars."
         ),
     },
     {
         "id": "v2-r015-b05", "out": "s05-treated-as-property.jpeg", "seg": "n4 p1-p2",
-        "window": "30.39-36.31", "wide": False, "jesus": False, "ref": False,
+        "window": "31.58-37.50", "wide": False, "jesus": False, "ref": False,
         "locks": ["SERVANT"],
         "narration": ("A servant in those days was treated as property. If he died, "
                       "most masters would simply replace him."),
@@ -188,11 +221,12 @@ BEATS = [
             "closed eyes, his mouth slightly open as he breathes shallowly. His plain "
             "undyed servant's tunic is worn thin at the collar. Bars of hard daylight "
             "fall across him. He has one head."
+            " Shot on a 100mm lens wide open: his face sharp from the damp curls to the open mouth, the blanket and the room falling away into soft grey."
         ),
     },
     {
         "id": "v2-r015-b06", "out": "s06-he-could-not-walk-away.jpeg", "seg": "n4 p3",
-        "window": "36.31-39.77", "wide": True, "jesus": False, "ref": False,
+        "window": "37.50-40.96", "wide": True, "jesus": False, "ref": False,
         "locks": ["CENTURION", "SERVANT", "ROMAN-HOUSE"],
         "narration": "But this master could not bring himself to walk away.",
         "must_show": "⚠️ THE FRAME THE WHOLE STORY RESTS ON: the officer sitting at the slave's bedside, helmet set aside, watching him — an armoured man keeping vigil over property.",
@@ -206,12 +240,13 @@ BEATS = [
             "plainly been sitting there a long time. Bars of daylight cross the room. "
             "The camera is back far enough to hold both men. Every figure has two "
             "arms, two hands and one head."
+            " Shot on a 40mm lens from behind and beside the centurion, his armoured back and shoulder large and soft in the near frame and his worn face visible in three-quarter from behind, the boy's grey face sharp beyond his knee; neither man's face is turned toward the lens. Hard morning sun from the right in bars."
         ),
     },
     # ------------------------------------------------- n5/n6 — he goes ----
     {
         "id": "v2-r015-b07", "out": "s07-a-hundred-soldiers.jpeg", "seg": "n5",
-        "window": "40.84-49.06", "wide": True, "jesus": False, "ref": False,
+        "window": "42.44-50.66", "wide": True, "jesus": False, "ref": False,
         "locks": ["CENTURION", "SOLDIERS"],
         "narration": ("The master was a centurion — a Roman officer in command of a "
                       "hundred soldiers. A powerful man, and to the Jews, the enemy."),
@@ -225,11 +260,12 @@ BEATS = [
             "shoulder. The scale of what obeys him is plain. Hard morning light on "
             "iron and red wool. The camera is back far enough to hold him and the "
             "formation. Every figure has two arms, two hands and one head."
+            " Shot on a 35mm lens from inside the ranks, over the backs and helmets of two soldiers who fill the lower corners soft and out of focus, the centurion beyond them half turned in profile, the formation running away sharp behind him. Hard morning sun from the left."
         ),
     },
     {
         "id": "v2-r015-b08", "out": "s08-he-went-straight-to-jesus.jpeg", "seg": "n6 p1",
-        "window": "50.12-54.59", "wide": True, "jesus": True, "ref": REF,
+        "window": "52.13-56.60", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CROWD", "CAPERNAUM"],
         "narration": ("Yet he left his house and went straight to Jesus, a Jewish "
                       "teacher, to beg for help."),
@@ -243,11 +279,12 @@ BEATS = [
             "people are drawing back to let him through. Ahead of him Jesus has turned "
             "to face him. Hard morning light. The camera is back far enough to hold "
             "the lane. Every figure has two arms, two hands and one head."
+            " Shot on a 35mm lens from inside the crowd, past the backs, head-cloths and shoulders of Galileans that fill the near frame, the officer coming up the lane in three-quarter profile beyond them. Hard morning sun from the left down the length of the lane."
         ),
     },
     {
         "id": "v2-r015-b09", "out": "s09-not-even-his-own-son.jpeg", "seg": "n6 p2-p4",
-        "window": "54.59-59.22", "wide": False, "jesus": False, "ref": False,
+        "window": "56.60-61.23", "wide": False, "jesus": False, "ref": False,
         "locks": ["CENTURION", "CROWD"],
         "narration": "Not for himself. Not even for his own son. For a servant.",
         "must_show": "close on the centurion's face in the hostile crowd — set, humbled, going through with it anyway.",
@@ -259,12 +296,13 @@ BEATS = [
             "face of a man who has decided to do something humiliating and is doing "
             "it. The blurred wary faces of Galileans press close on both sides. Hard "
             "light on the iron at his shoulder. He has one head."
+            " Shot on an 85mm lens wide open: his weathered face sharp, the wary Galilean faces on both sides blurred to shapes and colour."
         ),
     },
     # ---------------------------------------------------- n7 — the plea ----
     {
         "id": "v2-r015-b10", "out": "s10-he-came-humbly.jpeg", "seg": "n7 p1",
-        "window": "60.28-67.85", "wide": True, "jesus": True, "ref": REF,
+        "window": "62.70-70.27", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CROWD"],
         "narration": ("He came humbly, head bowed, and told Jesus the plain truth: his "
                       "servant was at home, unable to move, in agony."),
@@ -279,11 +317,12 @@ BEATS = [
             "gone silent and is staring. Hard morning light. The camera is back far "
             "enough to see both men head to feet. Every figure has two arms, two hands "
             "and one head."
+            " Shot on a 40mm lens from the edge of the crowd, past the backs of two watching Galileans soft in the near frame, both men standing in profile to each other in the middle distance so neither faces the lens. Hard morning sun from the left."
         ),
     },
     {
         "id": "v2-r015-b11", "out": "s11-could-you-help-him.jpeg", "seg": "n7 p2",
-        "window": "67.85-69.61", "wide": False, "jesus": False, "ref": False,
+        "window": "70.27-72.03", "wide": False, "jesus": False, "ref": False,
         "locks": ["CENTURION"],
         "narration": "Could Jesus help him?",
         "must_show": "close on the officer's face asking — a commander of a hundred men asking for something he cannot order.",
@@ -295,12 +334,13 @@ BEATS = [
             "shape under his arm at the frame's edge. It is the face of a man who "
             "gives orders for a living and has nothing to order here. Hard light on "
             "his scarred jaw. He has one head."
+            " Shot on a 100mm lens wide open: his bare grey head and asking eyes sharp, the helmet under his arm a dark soft shape at the frame's edge, the lane behind him gone to soft light."
         ),
     },
     # ----------------------------------------------- n8 / j1 — I will come ----
     {
         "id": "v2-r015-b12", "out": "s12-not-a-moments-hesitation.jpeg", "seg": "n8",
-        "window": "70.74-75.34", "wide": True, "jesus": True, "ref": REF,
+        "window": "73.51-78.10", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CROWD"],
         "narration": ("Jesus did not hesitate for a moment. He answered that he would go "
                       "to the house himself."),
@@ -314,11 +354,12 @@ BEATS = [
             "startled reaction — heads turning to each other, one man's arm half "
             "raised in protest, mouths open. The centurion stands holding his helmet. "
             "Hard morning light. Every figure has two arms, two hands and one head."
+            " Shot on a 35mm lens from beside the centurion, his armoured shoulder soft in the near right, Jesus in three-quarter as he turns and steps away from the lens, the reacting crowd sharp behind him. Hard morning sun from the left."
         ),
     },
     {
         "id": "v2-r015-b13", "out": "s13-i-will-come-and-heal-him.jpeg", "seg": "j1",
-        "window": "76.42-77.72", "wide": False, "jesus": True, "ref": REF,
+        "window": "79.56-80.86", "wide": False, "jesus": True, "ref": REF,
         "locks": [],
         "narration": "I will come and heal him. (Matthew 8:7)",
         "must_show": "close on Jesus saying it — simple, warm, entirely without calculation.",
@@ -329,11 +370,12 @@ BEATS = [
             "already starting — a man agreeing to something without weighing it at "
             "all. His hand is open and lifted at his side. The blurred crowd and dark "
             "basalt wall are soft behind him."
+            " Shot on an 85mm lens wide open, the morning sun from the left along his cheek, his eyes travelling to the man in front of him and past the camera's right shoulder."
         ),
     },
     {
         "id": "v2-r015-b14", "out": "s14-into-the-enemys-house.jpeg", "seg": "n9 p1-p2",
-        "window": "78.78-88.34", "wide": True, "jesus": True, "ref": REF,
+        "window": "82.32-91.89", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CROWD", "CAPERNAUM"],
         "narration": ("Stop and see what that means. Jesus was willing to walk into the "
                       "home of a Roman — the enemy — for the sake of one dying servant "
@@ -349,11 +391,12 @@ BEATS = [
             "standing soldier are visible at the end of the lane. Hard light. The "
             "camera is back far enough to hold the walkers and the reacting crowd. "
             "Every figure has two arms, two hands and one head."
+            " Shot on a 35mm lens from behind the crowd: the two walkers are seen from directly behind, going away up the lane, and the Galilean faces between the camera and them are in profile and three-quarter, not one of them turned toward the lens. Hard morning sun down the lane."
         ),
     },
     {
         "id": "v2-r015-b15", "out": "s15-that-is-who-jesus-is.jpeg", "seg": "n9 p3",
-        "window": "88.34-90.34", "wide": False, "jesus": True, "ref": REF,
+        "window": "91.89-93.89", "wide": False, "jesus": True, "ref": REF,
         "locks": [],
         "narration": "That is who Jesus is.",
         "must_show": "close on Jesus walking — untroubled, unhurried, going where he said he would go.",
@@ -363,12 +406,13 @@ BEATS = [
             "faintly warm, his eyes on the road ahead. There is no defiance in it and "
             "no drama — he is simply going where he said he would go, and it costs him "
             "nothing. Hard morning light along his cheek and the blurred lane behind."
+            " Shot on a 100mm lens wide open in clean side profile, morning sun along his cheekbone, the lane behind him a soft wash."
         ),
     },
     # ------------------------------------------- n10/n11 — speak the word ----
     {
         "id": "v2-r015-b16", "out": "s16-but-the-officer-stopped-him.jpeg", "seg": "n10 p1",
-        "window": "91.39-92.77", "wide": True, "jesus": True, "ref": REF,
+        "window": "95.35-96.73", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION"],
         "narration": "But the officer stopped him.",
         "must_show": "the centurion's hand coming up to halt Jesus — stopping the very thing he came to ask for.",
@@ -380,11 +424,12 @@ BEATS = [
             "halted mid-stride and is looking at him. The helmet is still under the "
             "officer's other arm. Hard light in the lane. Every figure has two arms, "
             "two hands and one head."
+            " Shot on a 50mm lens from the side of the lane so both men are in clean profile facing each other, neither turned toward the lens; hard morning sun from the left, the raised palm catching it."
         ),
     },
     {
         "id": "v2-r015-b17", "out": "s17-i-am-not-worthy.jpeg", "seg": "n10 p2",
-        "window": "92.77-97.00", "wide": True, "jesus": True, "ref": REF,
+        "window": "96.73-100.96", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CROWD"],
         "narration": ("Lord, he said, I am not worthy to have you come into my home."),
         "must_show": "⚠️ THE INVERSION: the Roman officer lowering himself before a Galilean carpenter — head down, shoulders bowed, in front of a whole street.",
@@ -398,11 +443,12 @@ BEATS = [
             "watching crowd has gone completely still with astonishment. Hard morning "
             "light. The camera is back far enough to hold both men and the near crowd. "
             "Every figure has two arms, two hands and one head."
+            " Shot on a 40mm lens from just behind Jesus's shoulder, his back and shoulder soft in the near frame, the officer's bowed bare grey head sharp beyond him, and the near crowd seen in three-quarter from behind. Hard morning sun from the left."
         ),
     },
     {
         "id": "v2-r015-b18", "out": "s18-only-speak-the-word.jpeg", "seg": "n10 p3",
-        "window": "97.00-100.35", "wide": False, "jesus": False, "ref": False,
+        "window": "100.96-104.31", "wide": False, "jesus": False, "ref": False,
         "locks": ["CENTURION"],
         "narration": ("Only speak the word, and my servant will be healed."),
         "must_show": "close on the officer's face saying it — absolute certainty, no doubt anywhere in it.",
@@ -413,11 +459,12 @@ BEATS = [
             "expression is not pleading at all — it is flat, certain conviction, the "
             "look of a professional stating something he knows to be true. His mouth "
             "shapes the words plainly. Hard light on his scarred cheek. He has one head."
+            " Shot on a 100mm lens wide open: his lowered head and lifted grey eyes sharp, the eyes travelling to the man in front of him and out past the camera's left shoulder, everything behind him soft."
         ),
     },
     {
         "id": "v2-r015-b19", "out": "s19-his-word-was-enough.jpeg", "seg": "n11",
-        "window": "101.39-110.17", "wide": True, "jesus": True, "ref": REF,
+        "window": "105.79-114.57", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CROWD"],
         "narration": ("He was not just being polite. He truly believed Jesus did not "
                       "need to be there at all. He believed that Jesus's word, by "
@@ -432,12 +479,13 @@ BEATS = [
             "starting to lift. The silent crowd rings them at a distance. Hard morning "
             "light on iron and stone. The camera is back far enough to see both head to "
             "feet. Every figure has two arms, two hands and one head."
+            " Shot on a 50mm lens from the side of the pair so both stand in clean profile to each other, the ringed crowd soft and distant behind them. Hard late-morning sun from the left."
         ),
     },
     # ------------------------------------------------- n12/n13 — authority ----
     {
         "id": "v2-r015-b20", "out": "s20-a-man-under-authority.jpeg", "seg": "n12 p1-p2",
-        "window": "111.22-116.77", "wide": False, "jesus": False, "ref": False,
+        "window": "116.03-121.58", "wide": False, "jesus": False, "ref": False,
         "locks": ["CENTURION"],
         "narration": ("And he explained why, in the only language a soldier knows. I am "
                       "a man under authority, he said."),
@@ -449,11 +497,12 @@ BEATS = [
             "is plain and practical and slightly earnest — a soldier explaining how "
             "his own world works, using the only argument he has. Hard light on his "
             "cuirass and bare grey head. Each hand has five fingers."
+            " Shot on an 85mm lens wide open: his face and the flat scarred hand sharp, his cuirass and the lane soft behind."
         ),
     },
     {
         "id": "v2-r015-b21", "out": "s21-i-say-go-and-he-goeth.jpeg", "seg": "n12 p3-p4",
-        "window": "116.77-123.48", "wide": True, "jesus": False, "ref": False,
+        "window": "121.58-128.29", "wide": True, "jesus": False, "ref": False,
         "locks": ["SOLDIERS", "CAPERNAUM"],
         "narration": ("I tell one soldier, Go, and he goes. I tell another, Come, and he "
                       "comes."),
@@ -463,15 +512,17 @@ BEATS = [
             "In the packed ground outside the garrison, two Roman soldiers are caught "
             "in the middle of opposite movements — one has turned on his heel and is "
             "striding away toward the gate with his spear shouldered, the other is "
-            "stepping forward toward the camera to attention, chin up. Neither is "
+            "stepping forward across the frame to attention, chin up, his eyes fixed on a "
+            "point well past the camera's left shoulder. Neither is "
             "looking at anyone. Behind them the ranks stand unmoving. Hard daylight on "
             "iron. The camera is back far enough to see both men head to boots. Every "
             "figure has two arms, two hands and one head."
+            " Shot on a 35mm lens from the side of the parade ground, both moving men crossing the frame in profile, the standing ranks sharp behind them. Hard high sun straight down on the iron."
         ),
     },
     {
         "id": "v2-r015-b22", "out": "s22-his-word-crosses-the-camp.jpeg", "seg": "n13 p1",
-        "window": "124.59-129.10", "wide": True, "jesus": False, "ref": False,
+        "window": "129.76-134.26", "wide": True, "jesus": False, "ref": False,
         "locks": ["SOLDIERS"],
         "narration": ("He never has to go himself; his word alone carries his power "
                       "across the whole camp."),
@@ -484,11 +535,12 @@ BEATS = [
             "rack. Every man is doing something he was told to do. There is no officer "
             "anywhere in the frame at all. Hard bright daylight on iron and packed "
             "earth. Every figure has two arms, two hands and one head."
+            " Shot on a 28mm lens from a corner of the camp at standing height, deep focus so every working man across the ground is legible, all of them moving across or away from the camera. Hard high midday sun, short black shadows."
         ),
     },
     {
         "id": "v2-r015-b23", "out": "s23-it-could-reach-across-the-town.jpeg", "seg": "n13 p2",
-        "window": "129.10-135.27", "wide": True, "jesus": True, "ref": REF,
+        "window": "134.26-140.44", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CAPERNAUM"],
         "narration": ("He was certain Jesus's word worked the same way — that it could "
                       "reach across the town and heal on its own."),
@@ -502,12 +554,13 @@ BEATS = [
             "roofs, the lake beyond. Jesus follows the line of his arm. Hard midday "
             "light. The camera is back far enough to hold both men and the distance "
             "they are looking across. Every figure has two arms, two hands and one head."
+            " Shot on a 28mm lens from behind and below the two men, their backs and the officer's fully extended arm large in the near frame, the rooftops and the far Roman quarter sharp beyond his hand. Hard high midday sun."
         ),
     },
     # -------------------------------------------------- n14 / j2 — he marvelled ----
     {
         "id": "v2-r015-b24", "out": "s24-and-this-amazed-jesus.jpeg", "seg": "n14 p1-p2",
-        "window": "136.39-144.09", "wide": False, "jesus": True, "ref": REF,
+        "window": "141.90-149.60", "wide": False, "jesus": True, "ref": REF,
         "locks": [],
         "narration": ("And this amazed Jesus. The Gospels almost never say that anyone "
                       "surprised him, yet the faith of this Roman outsider stopped him."),
@@ -520,11 +573,12 @@ BEATS = [
             "the completely unguarded face of someone who has just been surprised and "
             "is delighted by it. There is nothing composed or knowing in it. Hard "
             "midday light, the blurred lane behind."
+            " Shot on an 85mm lens wide open: his astonished face sharp edge to edge, his eyes gone to the officer and clear off the camera axis, the lane behind melted to soft light. Hard midday sun from above and the left."
         ),
     },
     {
         "id": "v2-r015-b25", "out": "s25-he-turned-to-the-crowd.jpeg", "seg": "n14 p3",
-        "window": "144.53-146.15", "wide": True, "jesus": True, "ref": REF,
+        "window": "150.04-151.65", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CROWD", "CENTURION"],
         "narration": "He turned to the crowd and said:",
         "must_show": "Jesus turning away from the officer to address the watching Galileans, arm sweeping toward them.",
@@ -537,11 +591,12 @@ BEATS = [
             "helmet at his chest. Hard midday light. The camera is back far enough to "
             "hold Jesus, the crowd and the officer. Every figure has two arms, two "
             "hands and one head."
+            " Shot on a 35mm lens from the side of the lane so Jesus is in clean profile as he turns, and the near crowd is seen from behind, their heads and shoulders filling the lower frame. Hard midday sun."
         ),
     },
     {
         "id": "v2-r015-b26", "out": "s26-not-in-israel.jpeg", "seg": "j2",
-        "window": "147.27-151.49", "wide": True, "jesus": True, "ref": REF,
+        "window": "153.13-157.35", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CROWD", "CENTURION"],
         "narration": ("Verily I say unto you, I have not found so great faith, no, not "
                       "in Israel. (Matthew 8:10)"),
@@ -555,11 +610,12 @@ BEATS = [
             "works at it. Nobody looks shamed; they look reordered. The centurion "
             "stands bare-headed under all those eyes. Hard midday light. Every figure "
             "has two arms, two hands and one head."
+            " Shot on a 35mm lens from the side, Jesus in profile, the near crowd seen in three-quarter from behind as their heads swing round to the officer, so not one face is turned toward the lens. Hard midday sun."
         ),
     },
     {
         "id": "v2-r015-b27", "out": "s27-no-one-among-his-own-people.jpeg", "seg": "n15",
-        "window": "152.51-161.34", "wide": True, "jesus": False, "ref": False,
+        "window": "158.81-167.64", "wide": True, "jesus": False, "ref": False,
         "locks": ["CROWD", "CENTURION"],
         "narration": ("In plain words: no one among his own people, the ones who should "
                       "have known God best, had ever trusted him the way this outsider "
@@ -574,12 +630,13 @@ BEATS = [
             "crowd is hostile any more — they are studying him. Hard midday light. The "
             "camera is back far enough to hold both. Every figure has two arms, two "
             "hands and one head."
+            " Shot on a 28mm lens from the side at eye height, the open ground running across the frame between the two groups; the crowd is seen in three-quarter from behind and the officer stands in profile, neither turned to the lens. Hard midday sun, short shadows."
         ),
     },
     # ------------------------------------------------ n16 / j2b — east and west ----
     {
         "id": "v2-r015-b28", "out": "s28-wider-than-expected.jpeg", "seg": "n16",
-        "window": "162.42-165.67", "wide": False, "jesus": True, "ref": REF,
+        "window": "169.10-172.35", "wide": False, "jesus": True, "ref": REF,
         "locks": [],
         "narration": ("Then Jesus opened heaven wider than anyone listening expected:"),
         "must_show": "close on Jesus about to say something large — both hands beginning to open outward.",
@@ -590,11 +647,12 @@ BEATS = [
             "warm — a man opening up to say something much bigger than the question he "
             "was asked. There is nothing at all in the sky above him. Hard midday "
             "light. Each hand has five fingers."
+            " Shot on an 85mm lens wide open: his lifting face and opening hands sharp, the bright lane behind him soft and empty. Hard midday sun from above."
         ),
     },
     {
         "id": "v2-r015-b29", "out": "s29-from-east-and-west.jpeg", "seg": "j2b a",
-        "window": "166.72-170.7", "wide": True, "jesus": True, "ref": REF,
+        "window": "173.82-177.47", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CROWD", "CAPERNAUM"],
         "narration": ("And I say unto you, That many shall come from the east and west, "
                       "(Matthew 8:11)"),
@@ -608,11 +666,12 @@ BEATS = [
             "other. The sky above is an ordinary bright midday sky with nothing in it. "
             "The camera is back far enough to see him head to sandals with both "
             "horizons in frame. Every figure has two arms, two hands and one head."
+            " Shot on a 24mm lens low and from beside him, Jesus in three-quarter with his face turned up and away from the lens, both horizons held in the frame, the crowd around him sharp enough to read and turned away following his arms. Hard midday sun overhead."
         ),
     },
     {
         "id": "v2-r015-b30", "out": "s30-sit-down-with-abraham.jpeg", "seg": "j2b b",
-        "window": "170.7-174.76", "wide": True, "jesus": False, "ref": False,
+        "window": "177.47-181.85", "wide": True, "jesus": False, "ref": False,
         "locks": [],
         "narration": ("and shall sit down with Abraham, and Isaac, and Jacob, in the "
                       "kingdom of heaven. (Matthew 8:11)"),
@@ -625,11 +684,12 @@ BEATS = [
             "is EMPTY and waiting, more places than could be counted, the table "
             "running away out of the frame. Warm daylight across the cloth. There are "
             "no people in the frame and nothing whatever in the sky."
+            " Shot on a 35mm lens low along the length of the table so it runs away to a soft vanishing point, the near cups and bread sharp. Warm high sun from the right throws the long shadow of every empty cup across the cloth."
         ),
     },
     {
         "id": "v2-r015-b31", "out": "s31-every-nation-welcomed.jpeg", "seg": "n17 p1",
-        "window": "175.78-179.50", "wide": True, "jesus": False, "ref": False,
+        "window": "183.32-187.04", "wide": True, "jesus": False, "ref": False,
         "locks": [],
         "narration": ("He meant that people from every nation on earth would be welcomed "
                       "to God's table."),
@@ -643,11 +703,12 @@ BEATS = [
             "an old man laughing. Nothing about the scene is heavenly; it is a very "
             "good meal. Warm daylight. The camera is back far enough to hold the "
             "length of the table. Every figure has two arms, two hands and one head."
+            " Shot on a 35mm lens from the end of the table, just behind a seated diner whose back and shoulders fill the near frame soft and out of focus; everyone at the table is turned to one another and not one face is toward the lens. Warm high sun from the right."
         ),
     },
     {
         "id": "v2-r015-b32", "out": "s32-it-is-whether-you-trust-him.jpeg", "seg": "n17 p2-p3",
-        "window": "179.50-186.37", "wide": True, "jesus": True, "ref": REF,
+        "window": "187.04-193.91", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CROWD"],
         "narration": ("What brings you in is not where you were born, or which group you "
                       "belong to. It is whether you trust him."),
@@ -660,12 +721,13 @@ BEATS = [
             "brown wool and iron armour standing shoulder to shoulder, everyone facing "
             "the same way. Hard midday light. The camera is back far enough to hold "
             "the whole group. Every figure has two arms, two hands and one head."
+            " Shot on a 35mm lens from behind the whole group, their backs and shoulders filling the near frame as they all face the same way up the lane, so no face is turned toward the lens. Hard midday sun."
         ),
     },
     # ---------------------------------------------- n18 / j3 — go thy way ----
     {
         "id": "v2-r015-b33", "out": "s33-he-turned-back-to-the-soldier.jpeg", "seg": "n18",
-        "window": "187.45-192.83", "wide": True, "jesus": True, "ref": REF,
+        "window": "195.38-200.77", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION"],
         "narration": ("Then Jesus turned back to the soldier and gave him the one thing "
                       "he had asked for — a single word."),
@@ -678,11 +740,12 @@ BEATS = [
             "other and there is a clear space between them. The crowd is soft and "
             "quiet behind. Hard midday light. Every figure has two arms, two hands and "
             "one head."
+            " Shot on a 50mm lens from the side so both men stand in clean profile facing each other, the crowd soft behind them. Hard midday sun from the left."
         ),
     },
     {
         "id": "v2-r015-b34", "out": "s34-as-thou-hast-believed.jpeg", "seg": "j3",
-        "window": "193.95-197.57", "wide": False, "jesus": True, "ref": REF,
+        "window": "202.25-205.87", "wide": False, "jesus": True, "ref": REF,
         "locks": [],
         "narration": ("Go thy way; and as thou hast believed, so be it done unto thee. "
                       "(Matthew 8:13)"),
@@ -694,11 +757,12 @@ BEATS = [
             "undramatic — steady eyes, an easy mouth, the faintest smile. His hands "
             "are down at his sides and he is making no gesture of any kind. Nothing is "
             "happening in the air around him. Hard midday light on his face."
+            " Shot on an 85mm lens wide open: his face sharp, his eyes level on the man in front of him and clear off the camera axis, the lane behind gone to soft light. Hard midday sun."
         ),
     },
     {
         "id": "v2-r015-b35", "out": "s35-no-touch-no-visit.jpeg", "seg": "n19",
-        "window": "198.58-206.24", "wide": True, "jesus": True, "ref": REF,
+        "window": "207.34-215.00", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CAPERNAUM"],
         "narration": ("Go home; it has already happened, just as you trusted it would. "
                       "No touch, no visit — only his word, sent across the town."),
@@ -712,12 +776,13 @@ BEATS = [
             "is completely ordinary and completely empty — nothing is moving through "
             "it. Hard midday light. The camera is back far enough to hold both men and "
             "the distant quarter. Every figure has two arms, two hands and one head."
+            " Shot on a 28mm lens from the side and a little behind the centurion, his back and cloak soft in the near frame, Jesus in profile a clear pace away, the far Roman quarter sharp over the rooftops beyond. Hard midday sun."
         ),
     },
     # -------------------------------------------------- n20/n21 — the house ----
     {
         "id": "v2-r015-b36", "out": "s36-a-deep-clean-breath.jpeg", "seg": "n20 p1",
-        "window": "207.34-213.18", "wide": False, "jesus": False, "ref": False,
+        "window": "216.47-222.31", "wide": False, "jesus": False, "ref": False,
         "locks": ["SERVANT", "ROMAN-HOUSE"],
         "narration": ("And in that very hour, far away in the Roman house, the young "
                       "servant drew a deep, clean breath."),
@@ -730,11 +795,12 @@ BEATS = [
             "— the first unrestricted breath in a long time. His eyes are still closed. "
             "Bars of hard ordinary daylight lie across the blanket from the shuttered "
             "window. Nothing else is happening in the room. He has one head."
+            " Shot on an 85mm lens wide open: his face and rising chest sharp, the room behind him soft. The only light is the hard afternoon sun through the shutter from the right in level bars."
         ),
     },
     {
         "id": "v2-r015-b37", "out": "s37-he-sat-up-completely-well.jpeg", "seg": "n20 p2",
-        "window": "213.18-219.13", "wide": True, "jesus": False, "ref": False,
+        "window": "222.31-228.27", "wide": True, "jesus": False, "ref": False,
         "locks": ["SERVANT", "ROMAN-HOUSE"],
         "narration": ("The color flowed back into his face, his body loosened, and he "
                       "sat up, completely well."),
@@ -749,11 +815,12 @@ BEATS = [
             "him is empty and ordinary. Bars of daylight from the shutter. The camera "
             "is back far enough to see him and the whole room. He has two arms, two "
             "hands and one head."
+            " Shot on a 35mm lens from the doorway, the dark jamb soft in the near frame, the boy in three-quarter with his eyes down on his own hands, the empty room sharp around him. Hard afternoon sun in bars from the right."
         ),
     },
     {
         "id": "v2-r015-b38", "out": "s38-no-one-was-in-the-room.jpeg", "seg": "n21",
-        "window": "220.24-226.18", "wide": True, "jesus": False, "ref": False,
+        "window": "229.74-235.68", "wide": True, "jesus": False, "ref": False,
         "locks": ["SERVANT", "ROMAN-HOUSE"],
         "narration": ("No one was in the room with him. He was made whole by nothing but "
                       "the word of a man he had never even met."),
@@ -767,12 +834,13 @@ BEATS = [
             "peg. There is no other person and no shadow of one anywhere in the frame. "
             "Hard ordinary daylight comes through the shutter in bars. He has two "
             "arms, two hands and one head."
+            " Shot on a 24mm lens from the far corner at standing height, deep focus so every corner, the shut door and the vacant stool are all legible and plainly empty. Hard afternoon sun through the shutter."
         ),
     },
     # ------------------------------------------------------ n22 — the reunion ----
     {
         "id": "v2-r015-b39", "out": "s39-he-rose-to-meet-him.jpeg", "seg": "n22 p1",
-        "window": "227.23-232.64", "wide": True, "jesus": False, "ref": False,
+        "window": "237.15-242.56", "wide": True, "jesus": False, "ref": False,
         "locks": ["CENTURION", "SERVANT", "ROMAN-HOUSE"],
         "narration": ("When the officer reached home, his servant rose to meet him at "
                       "the door, alive and well."),
@@ -786,11 +854,12 @@ BEATS = [
             "officer's whole body has frozen mid-step. Hard afternoon daylight across "
             "the tiles between them. The camera is back far enough to see both men "
             "head to feet. Every figure has two arms, two hands and one head."
+            " Shot on a 35mm lens from inside the room and to the side of both men: the officer is seen in three-quarter from behind, frozen on the threshold, and the boy's face is sharp beyond him in the inner doorway. Warm afternoon daylight across the tiles between them."
         ),
     },
     {
         "id": "v2-r015-b40", "out": "s40-the-soldier-came-apart.jpeg", "seg": "n22 p2",
-        "window": "232.64-236.28", "wide": False, "jesus": False, "ref": False,
+        "window": "242.56-246.20", "wide": False, "jesus": False, "ref": False,
         "locks": ["CENTURION"],
         "narration": ("This hardened soldier, who commanded a hundred men, came apart."),
         "must_show": "close on the officer's face breaking — twenty years of discipline collapsing all at once.",
@@ -802,11 +871,12 @@ BEATS = [
             "shaking — twenty years of discipline gone in one second. The helmet has "
             "slipped and he is gripping the doorframe with his other hand. Hard "
             "afternoon light on his face. He has one head."
+            " Shot on a 100mm lens wide open: his breaking face sharp, his screwed-shut eyes and shaking chin filling the frame, the doorway behind him soft."
         ),
     },
     {
         "id": "v2-r015-b41", "out": "s41-the-word-had-been-enough.jpeg", "seg": "n22 p3",
-        "window": "236.28-240.00", "wide": True, "jesus": False, "ref": False,
+        "window": "246.20-249.92", "wide": True, "jesus": False, "ref": False,
         "locks": ["CENTURION", "SERVANT", "ROMAN-HOUSE"],
         "narration": ("He had trusted Jesus's word, and the word had been enough."),
         "must_show": "the closing frame: the officer holding the boy — an armoured Roman with both arms around a slave.",
@@ -820,6 +890,7 @@ BEATS = [
             "perform it for. Warm afternoon light through the shutter. The camera is "
             "back far enough to hold both of them and the quiet room. Every figure has "
             "two arms, two hands and one head."
+            " Shot on a 35mm lens from the side and a little behind the officer, his armoured back large in the near frame and the boy's face over his shoulder, neither of them turned toward the lens. Warm low afternoon sun through the shutter from the right."
         ),
     },
 ]

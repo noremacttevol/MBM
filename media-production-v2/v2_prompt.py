@@ -366,8 +366,9 @@ def check(build_dir, mod):
         # subjects' backs, or the model composes a posed line facing the lens.
         if beat.get("wide"):
             scene_low = beat["scene"].lower()
-            if "camera" not in scene_low or not any(
-                k in scene_low for k in ("behind", "past them", "backs", "from the side")
+            if not any(k in scene_low for k in ("camera", "lens", "shot on")) or not any(
+                k in scene_low for k in ("behind", "past them", "backs", "from the side",
+                                         "profile", "three-quarter", "away from the")
             ):
                 warns.append(
                     f"{beat['id']}: wide beat does not state camera-to-back geometry "
