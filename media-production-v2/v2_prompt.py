@@ -181,11 +181,42 @@ HAND_IRRIGATION_LOCK = (
     "spigot, no valve and no pump anywhere in the picture."
 )
 
+# HAND-TOOLS — promoted into the shared recipe 2026-08-02 (row 28, hidden treasure, the
+# first V2 build whose STORY TURNS ON A DIGGING TOOL: "his spade struck something hard").
+# Rows 16/18 paid for interior lighting, row 19 for boat fittings, row 22 for city
+# skylines, row 26 for irrigation hose, row 27 for knitted fabric. A working scene's own
+# anachronism is THE TOOL IN THE HAND, and PERIOD-MATERIALS does not reach it: it says
+# tools are "hand-forged iron or bronze showing hammer marks", which a modern steel garden
+# spade with a D-handle and a foot tread satisfies perfectly while still being an object
+# from a garden centre. The tool is also the largest, sharpest, most central object in a
+# digging frame, so it is the one thing a viewer cannot fail to see. Stated POSITIVELY
+# (what the tool IS and how it is built) per the row-10 geometry lesson. Any build where
+# somebody digs, chops, reaps, hoes or carries names "HAND-TOOLS" in that beat's `locks`
+# list before the first paid image.
+HAND_TOOLS_LOCK = (
+    "HAND-TOOLS LOCK: every tool in this frame is a first-century hand tool and is "
+    "built the way a village smith and a carpenter build one. A DIGGING TOOL is a "
+    "MATTOCK: one straight rough-hewn wooden haft about an arm and a half long, "
+    "unpainted and unvarnished, with a single heavy hand-forged iron blade socketed or "
+    "wedged onto its head at an angle, the iron dark grey, uneven, pitted and showing "
+    "hammer marks, its working edge bright and worn thin from use. A basket is "
+    "hand-woven from split reed or willow; a sack is coarse dark goat-hair cloth; a "
+    "water vessel is fired clay. THE TOOLS ARE NOT MODERN AND NOT MANUFACTURED: there "
+    "is no steel garden spade or shovel, no flat pressed-steel blade, no D-handle, no "
+    "T-handle, no moulded grip, no foot tread or step on the shoulder of any blade, no "
+    "shaft of tubular metal or fibreglass, no painted or powder-coated tool, no "
+    "stainless or chromed metal, no machine-milled edge, no rivets, screws, bolts, "
+    "clamps, collars or ferrules of stamped metal, no wheelbarrow, no pitchfork of "
+    "welded tines, and no printing, lettering, numerals or maker's stamp on any tool "
+    "anywhere in the picture."
+)
+
 # Shared SETTING locks a build opts into by name in a beat's `locks` list. Unlike the
 # blocks above they are NOT appended to every prompt — a boat scene has no irrigation —
 # but they live here so the next garden does not have to re-learn the lesson.
 SHARED_SETTING_LOCKS = {
     "HAND-IRRIGATION": HAND_IRRIGATION_LOCK,
+    "HAND-TOOLS": HAND_TOOLS_LOCK,
 }
 
 # JESUS LOCK v4 — byte-identical in every prompt where Jesus appears.
