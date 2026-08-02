@@ -183,7 +183,10 @@ LOCKS = {
         "shoulder, cut from a single branch with the bark still on it. HE WEARS NO "
         "ANIMAL SKIN, NO FLEECE AND NO PALE CLOTH OF ANY KIND: nothing on him is "
         "cream, off-white, ivory, buff, beige, sand, khaki, white or pale grey, and "
-        "he carries no bag, horn, sling or vessel."
+        "he carries no bag, horn, sling or vessel. HIS CLOAK HANGS FROM HIS SHOULDERS "
+        "BY ITS OWN WEIGHT ALONE and is closed by nothing: there is no brooch, pin, "
+        "clasp, buckle, button, toggle, ring, hook or fastening of any kind at his "
+        "throat, chest or shoulder, and no hood."
     ),
     "MIRIAM": (
         "MIRIAM LOCK: the woman is the SAME WOMAN in every picture she appears in — "
@@ -239,6 +242,21 @@ LOCKS = {
         "is barefoot. NOTHING ON HIM IS CREAM, OFF-WHITE, IVORY, BUFF, BEIGE, TAUPE, "
         "SAND, KHAKI, WHITE OR PALE GREY."
     ),
+    "CLEAR-EDGES": (
+        "CLEAR-EDGES LOCK: the corners and edges of this picture are FILLED, and "
+        "what fills them is stated POSITIVELY. Every one of the four corners of the "
+        "frame, and the whole border all the way round it, is COMPLETELY OCCUPIED by "
+        "the setting itself and by the named figures' own bodies and cloth — wall, "
+        "stone, earth, dust, sky, or a continuous unbroken mass of one named figure's "
+        "own garment running right off the edge of the picture. Nothing is left "
+        "empty for a stranger to stand in. THERE IS NO SHOULDER, ARM, ELBOW, HAND, "
+        "BACK, HEAD, "
+        "HAIR, HEAD COVERING OR BODY OF ANY OTHER PERSON at any edge or in any "
+        "corner of this picture, in focus or out of focus, sharp or blurred, and no "
+        "pale, cream, off-white, ivory, buff, beige, grey or light-toned shape of "
+        "any kind intrudes from outside the frame. Only the people the scene names "
+        "are in the photograph, and nothing else crowds in past them."
+    ),
     # ------------------------------------------------------------ settings ---
     "OLIVET-STAIR": (
         "OLIVET-STAIR LOCK: the place is a STAIRWAY OF WORN LIMESTONE STEPS cut and "
@@ -263,8 +281,16 @@ LOCKS = {
         "of dry-laid unmortared field stones piled to chest height with a rough "
         "uneven crest of thorn branches along the top, and ONE NARROW GAP in the "
         "wall just wide enough for one animal at a time, its two jambs worn smooth. "
-        "The ground inside is bare trodden dust; outside it is dry tawny grass and "
-        "low thorn scrub running away over bare rounded hills. THE ANIMALS ARE REAL "
+        "THIS IS THE JUDEAN HILL COUNTRY OF THE NEAR EAST AT THE END OF A LONG DRY "
+        "SUMMER AND THE LAND SHOWS IT: the ground inside the fold is bare trodden "
+        "dust, and outside it every slope is SCORCHED STRAW-GOLD AND BARE — dead "
+        "sun-bleached grass standing thin and sparse with pale limestone bedrock, "
+        "chalky white stones and bare tan dust showing through it everywhere, a few "
+        "grey thorn bushes, and beyond them bare rounded tan-and-grey hills with no "
+        "trees on them. THERE IS NO GREEN ANYWHERE IN THIS LANDSCAPE: no green grass, "
+        "no turf, no sward, no meadow, no pasture field, no bracken, no heather, no "
+        "moor, no fell, no upland, no lush or damp ground, and nothing resembling "
+        "northern Europe, Britain, Ireland or an alpine valley. THE ANIMALS ARE REAL "
         "NEAR-EASTERN STOCK: the sheep are fat-tailed Awassi ewes with heavy "
         "creamy-brown and dun fleeces, broad drooping ears and no horns; the goats "
         "are lean black-and-brown Levantine goats with long straight hair, "
@@ -420,20 +446,35 @@ BEATS = [
             "turned across the frame; his head is turned down and to his own right and "
             "HIS GAZE IS FIXED ON THE HEAD OF THE GOAT AT HIS KNEE, well below and "
             "left of the camera, exiting the picture through the LOWER LEFT EDGE. He "
-            "is the same lean forty-year-old herdsman with the full black beard and "
-            "thick black hair to the nape, in his knee-length dark olive-brown tunic, "
-            "deep umber wool cloak and charcoal head cloth, his hewn staff held "
-            "upright in his left hand. His right hand is out low and open, palm down, "
-            "turning a long-haired black-and-brown goat aside to his right, while a "
-            "heavy creamy-brown fat-tailed ewe presses past his left knee into the "
-            "gap. Mid-action, caught between two animals, unposed."
+            "IS A MIDDLE EASTERN JEWISH HERDSMAN OF THE FIRST CENTURY, about forty, "
+            "lean and wiry, his skin DEEPLY SUN-DARKENED OLIVE-BROWN — never fair, "
+            "never pinkish, never European-looking. His hair is THICK, BLACK AND "
+            "STRAIGHT, cut to the nape and showing at his temples and at the back of "
+            "his neck, never short-cropped and never grey; his beard is FULL AND "
+            "BLACK, cut square at the jaw, never grizzled and never grey. A CHARCOAL "
+            "WOVEN HEAD CLOTH IS ON HIS HEAD, draped over the crown and down behind "
+            "both ears and held by a plain twisted dark cord. He wears his "
+            "knee-length dark olive-brown tunic and his deep umber wool cloak, which "
+            "hangs from his shoulders by its own weight and is closed by NOTHING — no "
+            "brooch, pin, clasp, buckle or fastening at the throat, chest or "
+            "shoulder — and his hewn staff stands upright in his left hand. HE STANDS "
+            "SQUARELY IN THE NARROW GAP OF THE DRY-STONE WALL, its two worn stone "
+            "jambs rising close on either side of him so the wall runs out of frame "
+            "left and right behind his shoulders. His right hand is out low and open, "
+            "palm down, turning a long-haired black-and-brown goat aside to his "
+            "right, while a heavy creamy-brown fat-tailed ewe presses past his left "
+            "knee into the gap. EVERY SCRAP OF GROUND AND HILLSIDE VISIBLE PAST HIM "
+            "IS SCORCHED STRAW-GOLD AND BARE — dead sun-bleached grass, chalky pale "
+            "stones and tan dust over bare treeless hills — with NO green grass, "
+            "turf, meadow, moor or damp upland anywhere in the picture. Mid-action, "
+            "caught between two animals, unposed."
         ),
     },
     # ================ j32 — the red-letter verse on the stair ================
     {
         "id": "v2-r033-b04", "out": "s04-before-him-gathered.jpeg",
         "seg": "j32", "window": "10.691-14.171", "wide": False, "jesus": True, "ref": REF,
-        "locks": ["OLIVET-STAIR", "JESUS-SEATED"],
+        "locks": ["CLEAR-EDGES", "OLIVET-STAIR", "JESUS-SEATED"],
         "narration": "And before him shall be gathered all nations:",
         "must_show": "Jesus alone in the frame, sitting on the worn limestone step in strict side-on profile, speaking, the gold evening light full on the front of his face.",
         "must_not_show": _NO_HALO + _NO_CITY + _NO_JUDGEMENT + _NO_NIGHT + "no other person, shoulder, arm, head or body anywhere in the frame; no object at all in his hands; " + _GAZE,
@@ -456,7 +497,7 @@ BEATS = [
     {
         "id": "v2-r033-b05", "out": "s05-one-from-another.jpeg",
         "seg": "j32", "window": "14.171-18.011", "wide": False, "jesus": False,
-        "locks": ["SHEPHERD", "FOLD"],
+        "locks": ["CLEAR-EDGES", "SHEPHERD", "FOLD"],
         "narration": "and he shall separate them one from another, as a",
         "must_show": "The shepherd's two weathered male hands and forearms working low in the gap of the fold wall, one palm on a goat's shoulder pushing it left, the other guiding a ewe right, the two animals visibly parting.",
         "must_not_show": _NO_HALO + _NO_CITY + _NO_JUDGEMENT + _NO_NIGHT + "no face and no head of any person in the frame; no female hand, no smooth young hand and no child's hand; no rope, tether, collar, bell, ear tag or paint mark on any animal; " + _NO_CREAM + _GAZE,
@@ -509,7 +550,7 @@ BEATS = [
     {
         "id": "v2-r033-b07", "out": "s07-shepherd-at-evening.jpeg",
         "seg": "n2", "window": "21.917-25.857", "wide": False, "jesus": False,
-        "locks": ["SHEPHERD", "FOLD"],
+        "locks": ["CLEAR-EDGES", "SHEPHERD", "FOLD"],
         "narration": "Like a shepherd at evening quietly dividing his flock, the",
         "must_show": "The shepherd moving quietly among the animals inside the fold at deep dusk, seen from the side, his hand resting on a ewe's back as she passes, his face calm and lit only by the last colour left in the sky.",
         "must_not_show": _NO_HALO + _NO_CITY + _NO_JUDGEMENT + "no lamp, torch, fire or flame anywhere in the frame; no second person; no sheepskin, fleece or pale garment on the shepherd; " + _NO_CREAM + _GAZE,
@@ -612,7 +653,7 @@ BEATS = [
     {
         "id": "v2-r033-b11", "out": "s11-come-ye-blessed.jpeg",
         "seg": "j1", "window": "38.755-42.695", "wide": False, "jesus": True, "ref": REF,
-        "locks": ["OLIVET-STAIR", "JESUS-SEATED"],
+        "locks": ["CLEAR-EDGES", "OLIVET-STAIR", "JESUS-SEATED"],
         "narration": "Come, ye blessed of my Father, inherit the kingdom prepared",
         "must_show": "Jesus alone, close, in strict side-on profile on the step, mid-word, the gold evening light full on the front of his face.",
         "must_not_show": _NO_HALO + _NO_CITY + _NO_JUDGEMENT + _NO_NIGHT + "no other person, shoulder, arm or head anywhere in the frame; no crown, throne or object of rank; " + _GAZE,
@@ -661,7 +702,7 @@ BEATS = [
     {
         "id": "v2-r033-b13", "out": "s13-hungred-gave-me-meat.jpeg",
         "seg": "j1", "window": "46.315-49.395", "wide": False, "jesus": False,
-        "locks": ["MIRIAM", "ELI", "ALLEY", "MARKET-TOWN", "BACKGROUND-CAST"],
+        "locks": ["CLEAR-EDGES", "MIRIAM", "ELI", "ALLEY", "MARKET-TOWN", "BACKGROUND-CAST"],
         "narration": "I was an hungred, and ye gave me meat.",
         "must_show": "Miriam crouched down on her heels in the alley putting a round flat barley loaf into the two open hands of Eli, who sits back against the mud-brick wall, in bright midday light.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + _NO_NIGHT + "no Jesus in this frame and nobody in cream, off-white or pale cloth of any kind; no coin, purse or money changing hands; no bare, bald or shaven head on the woman; " + _NO_CREAM + _GAZE,
@@ -692,7 +733,7 @@ BEATS = [
     {
         "id": "v2-r033-b14", "out": "s14-thirsty-gave-me-drink.jpeg",
         "seg": "j1", "window": "49.395-52.735", "wide": False, "jesus": False,
-        "locks": ["TOBIAH", "ROADSIDE", "ANCIENT-ROAD", "BACKGROUND-CAST"],
+        "locks": ["CLEAR-EDGES", "TOBIAH", "ROADSIDE", "ANCIENT-ROAD", "BACKGROUND-CAST"],
         "narration": "I was thirsty, and ye gave me drink.",
         "must_show": "Tobiah standing over a spent old traveller sitting on the roadside rock, tipping a fired-clay water jar so a bright thread of water falls into the old man's cupped hands, in hard afternoon light under the thorn tree.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + _NO_NIGHT + "no Jesus in this frame and nobody in cream, off-white or pale cloth of any kind; no bare, bald or shaven head on the boy and no beard or moustache on him; no metal, glass or plastic vessel of any kind; " + _NO_CREAM + _GAZE,
@@ -720,7 +761,7 @@ BEATS = [
     {
         "id": "v2-r033-b15", "out": "s15-stranger-took-me-in.jpeg",
         "seg": "j1", "window": "52.735-56.475", "wide": False, "jesus": False,
-        "locks": ["THRESHOLD", "MARKET-TOWN"] + _NIGHT,
+        "locks": ["CLEAR-EDGES", "THRESHOLD", "MARKET-TOWN"] + _NIGHT,
         "narration": "I was a stranger, and ye took me in,",
         "must_show": "A householder standing well aside in his own lit doorway with one arm holding the goat-hair door cloth back, while a dusty foreign traveller with a bundle on his shoulder steps up over the worn threshold slab out of the night.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + "no Jesus in this frame and nobody in cream, off-white or pale cloth of any kind; " + _NO_MODERN_LAMP + "no light source standing behind or above either man's head; " + _NO_CREAM + _GAZE,
@@ -752,7 +793,7 @@ BEATS = [
     {
         "id": "v2-r033-b16", "out": "s16-naked-ye-clothed-me.jpeg",
         "seg": "j1", "window": "56.475-58.775", "wide": False, "jesus": False,
-        "locks": ["MIRIAM", "CISTERN", "BACKGROUND-CAST"],
+        "locks": ["CLEAR-EDGES", "MIRIAM", "CISTERN", "BACKGROUND-CAST"],
         "narration": "naked, and ye clothed me.",
         "must_show": "Miriam leaning in to draw her own dark rust-brown wool mantle round the shoulders of a shivering man hunched on the cistern step in the cold grey dawn.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + _NO_NIGHT + "no Jesus in this frame and nobody in cream, off-white or pale cloth of any kind; no nudity and no bare torso — the man keeps a torn tunic on throughout; no bare, bald or shaven head on the woman; " + _NO_CREAM + _GAZE,
@@ -782,7 +823,7 @@ BEATS = [
     {
         "id": "v2-r033-b17", "out": "s17-sick-ye-visited-me.jpeg",
         "seg": "j1", "window": "58.775-61.415", "wide": False, "jesus": False,
-        "locks": ["SICKROOM"] + _NIGHT,
+        "locks": ["CLEAR-EDGES", "SICKROOM"] + _NIGHT,
         "narration": "I was sick, and ye visited me.",
         "must_show": "A young woman kneeling on the earth floor beside a straw sleeping mat holding a fired-clay cup to the lips of an old woman lying under a dark blanket, lit only by one small clay lamp standing low on a stone block in front of them.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + "no Jesus in this frame and nobody in cream, off-white or pale cloth of any kind; " + _NO_MODERN_LAMP + "no bed frame, cot, chair, table or shelf; no light source standing behind or above either head; " + _NO_CREAM + _GAZE,
@@ -813,7 +854,7 @@ BEATS = [
     {
         "id": "v2-r033-b18", "out": "s18-prison-came-unto-me.jpeg",
         "seg": "j1", "window": "61.415-65.210", "wide": False, "jesus": False,
-        "locks": ["MIRIAM", "TOBIAH", "ANCIENT-PRISON"] + _NIGHT,
+        "locks": ["CLEAR-EDGES", "MIRIAM", "TOBIAH", "ANCIENT-PRISON"] + _NIGHT,
         "narration": "I was in prison, and ye came unto me.",
         "must_show": "Miriam crouched at the timber-barred opening of the prison undercroft passing a round barley loaf between two thick timber bars into the hands of a shackled man inside, with Tobiah kneeling beside her holding the reed basket, lit by one small clay lamp set on the stone at their feet.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + "no Jesus in this frame and nobody in cream, off-white or pale cloth of any kind; no round machined steel bars, welded grid, hinged barred door, lock plate, padlock, keyhole, bunk or cell corridor; no guard, weapon, whip or person being struck; " + _NO_MODERN_LAMP + _NO_CREAM + _GAZE,
@@ -849,7 +890,7 @@ BEATS = [
     {
         "id": "v2-r033-b19", "out": "s19-you-fed-me.jpeg",
         "seg": "n4", "window": "65.210-69.890", "wide": False, "jesus": False,
-        "locks": ["ALLEY"],
+        "locks": ["CLEAR-EDGES", "ALLEY"],
         "narration": "You fed me when I was hungry, he said. You clothed me, you sat",
         "must_show": "An extreme close view of one weathered older male hand closing round a broken half of a barley loaf while a woman's hand withdraws from it, nothing else in frame but dust and the alley floor.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + _NO_NIGHT + "no face, head or full figure of any person in the frame; no coin, purse or money; no ring, bracelet or jewellery on either hand; no wound, scar, nail mark or blood on either hand; " + _NO_CREAM + _GAZE,
@@ -874,7 +915,7 @@ BEATS = [
     {
         "id": "v2-r033-b20", "out": "s20-when-i-was-locked-away.jpeg",
         "seg": "n4", "window": "69.890-74.465", "wide": False, "jesus": False,
-        "locks": ["ANCIENT-PRISON"] + _NIGHT,
+        "locks": ["CLEAR-EDGES", "ANCIENT-PRISON"] + _NIGHT,
         "narration": "with me when I was sick. You came to me when I was locked away.",
         "must_show": "An extreme close view of one male prisoner's hand gripped through the gap between two thick timber bars by a woman's hand, the hand-forged iron shackle and a little straw just visible, lit low from the front by a clay lamp.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + "no face, head or full figure of any person in the frame; no round machined steel bars, welded grid, lock plate, padlock or keyhole; " + _NO_MODERN_LAMP + "no light source behind or above the hands; no wound, scar, nail mark or blood on either hand; " + _NO_CREAM + _GAZE,
@@ -902,7 +943,7 @@ BEATS = [
     {
         "id": "v2-r033-b21", "out": "s21-when-saw-we-thee-hungred.jpeg",
         "seg": "j37", "window": "74.465-79.165", "wide": False, "jesus": False,
-        "locks": ["MIRIAM", "ALLEY", "BACKGROUND-CAST"],
+        "locks": ["CLEAR-EDGES", "MIRIAM", "ALLEY", "BACKGROUND-CAST"],
         "narration": "Lord, when saw we thee an hungred, and fed thee,",
         "must_show": "Miriam standing back up in the empty alley with her hands hanging open and empty at her sides, looking down at the patch of bare dust where the man had been sitting, her brow drawn in honest puzzlement.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + _NO_NIGHT + "no Jesus in this frame and nobody in cream, off-white or pale cloth of any kind; no second person in the alley; no bare, bald or shaven head on her; " + _NO_CREAM + _GAZE,
@@ -928,7 +969,7 @@ BEATS = [
     {
         "id": "v2-r033-b22", "out": "s22-or-thirsty.jpeg",
         "seg": "j37", "window": "79.165-81.825", "wide": False, "jesus": False,
-        "locks": ["TOBIAH", "ROADSIDE", "ANCIENT-ROAD", "BACKGROUND-CAST"],
+        "locks": ["CLEAR-EDGES", "TOBIAH", "ROADSIDE", "ANCIENT-ROAD", "BACKGROUND-CAST"],
         "narration": "or thirsty and gave thee drink?",
         "must_show": "Tobiah standing alone under the thorn tree with the empty clay jar hanging from one hand at his hip, looking off down the empty caravan track, in hot late afternoon light.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + _NO_NIGHT + "no Jesus in this frame and nobody in cream, off-white or pale cloth of any kind; no second person on the road; no bare, bald or shaven head and no beard or moustache on the boy; " + _NO_CREAM + _GAZE,
@@ -955,7 +996,7 @@ BEATS = [
     {
         "id": "v2-r033-b23", "out": "s23-when-saw-we-thee-a-stranger.jpeg",
         "seg": "j37", "window": "81.825-85.405", "wide": False, "jesus": False,
-        "locks": ["THRESHOLD", "MARKET-TOWN", "BACKGROUND-CAST"],
+        "locks": ["CLEAR-EDGES", "THRESHOLD", "MARKET-TOWN", "BACKGROUND-CAST"],
         "narration": "When saw we thee a stranger and took thee in,",
         "must_show": "The householder standing alone in his own doorway in the first flat grey light of morning, one shoulder against the timber jamb, looking out along the empty packed-earth street.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + "no Jesus in this frame and nobody in cream, off-white or pale cloth of any kind; no lamp, flame, candle or lantern alight anywhere; no second person in the street; " + _NO_CREAM + _GAZE,
@@ -981,7 +1022,7 @@ BEATS = [
     {
         "id": "v2-r033-b24", "out": "s24-or-naked-and-clothed-thee.jpeg",
         "seg": "j37", "window": "85.405-87.765", "wide": False, "jesus": False,
-        "locks": ["MIRIAM", "CISTERN"],
+        "locks": ["CLEAR-EDGES", "MIRIAM", "CISTERN"],
         "narration": "or naked and clothed thee?",
         "must_show": "A close view of Miriam's two hands at the cistern step folding her dark rust-brown wool mantle back over her forearm, her face above them tilted down and slightly frowning.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + _NO_NIGHT + "no Jesus in this frame and nobody in cream, off-white or pale cloth of any kind; no second person; no bare, bald or shaven head on her; no ring, bracelet or jewellery; " + _NO_CREAM + _GAZE,
@@ -1007,7 +1048,7 @@ BEATS = [
     {
         "id": "v2-r033-b25", "out": "s25-sick-or-in-prison.jpeg",
         "seg": "j37", "window": "87.765-92.796", "wide": False, "jesus": False,
-        "locks": ["MIRIAM", "ANCIENT-PRISON"],
+        "locks": ["CLEAR-EDGES", "MIRIAM", "ANCIENT-PRISON"],
         "narration": "Or when saw we thee sick or in prison and came unto thee?",
         "must_show": "Miriam climbing the worn stone stair up out of the prison undercroft toward the daylight opening above, seen from below and behind, the empty reed basket on her hip.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + "no Jesus in this frame and nobody in cream, off-white or pale cloth of any kind; no round machined steel bars, welded grid, lock plate, padlock, keyhole or cell corridor; no guard, weapon or person being struck; no bare, bald, shaven or short-cropped head on her; no bright rim, outline or halo around her head or shoulders; " + _NO_CREAM + _GAZE,
@@ -1065,7 +1106,7 @@ BEATS = [
     {
         "id": "v2-r033-b27", "out": "s27-when-did-we-ever-see-you.jpeg",
         "seg": "n5", "window": "96.996-100.616", "wide": False, "jesus": False,
-        "locks": ["MIRIAM", "ALLEY"],
+        "locks": ["CLEAR-EDGES", "MIRIAM", "ALLEY"],
         "narration": "They say, Lord, when did we ever see you hungry or thirsty or sick",
         "must_show": "A close three-quarter view of Miriam's face mid-question, brows drawn together, mouth open on a word, warm late light on the front of her face.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + _NO_NIGHT + "no Jesus in this frame and nobody in cream, off-white or pale cloth of any kind; no second person, shoulder, arm or head in the frame; no bare, bald or shaven head; no jewellery; " + _NO_CREAM + _GAZE,
@@ -1074,11 +1115,20 @@ BEATS = [
             "light coming in from the LEFT and lighting the whole front of her face, "
             "the sun out of frame, the mud-brick wall behind dissolving into soft warm "
             "blur, fine film grain, very shallow true depth of field. THE CAMERA IS "
-            "SET AT HER OWN EYE HEIGHT AND WELL ROUND TO HER LEFT, so she is seen in a "
-            "deep THREE-QUARTER view turned away from the lens: her head is turned up "
+            "CLOSE IN AND SET AT HER OWN EYE HEIGHT AND WELL ROUND TO HER LEFT, WITH "
+            "HER BACK ALMOST AGAINST THE MUD-BRICK WALL so there is no space behind "
+            "or beside her for anybody to stand: she is seen in a deep THREE-QUARTER "
+            "view turned away from the lens, her head is turned up "
             "and away to her own right and HER GAZE TRAVELS PAST THE CAMERA AND OUT "
             "THROUGH THE UPPER RIGHT EDGE of the picture, clearly aimed above and "
-            "beyond the lens and never centred on it. Framed from the shoulders up. "
+            "beyond the lens and never centred on it. THIS IS A TIGHT "
+            "HEAD-AND-SHOULDERS CROP AND HER OWN BODY AND CLOTH FILL THE WHOLE LOWER "
+            "FRAME: her head fills the upper middle of the picture, the blurred "
+            "mud-brick wall fills both upper corners completely, and her own DARK "
+            "RUST-BROWN woven wool mantle and DEEP INDIGO tunic run as ONE CONTINUOUS "
+            "UNBROKEN MASS OF CLOTH across the entire bottom third of the frame, "
+            "corner to corner, passing straight off both the LEFT and the RIGHT edge "
+            "so that no gap of any kind is left at either bottom corner. "
             "She is MIRIAM, the same thirty-five-year-old woman: warm olive-brown "
             "skin, an oval face with a firm rounded jaw, wide-set dark brown eyes "
             "under straight dark brows, one small vertical crease standing between "
@@ -1093,7 +1143,7 @@ BEATS = [
     {
         "id": "v2-r033-b28", "out": "s28-do-not-even-remember.jpeg",
         "seg": "n5", "window": "100.616-104.036", "wide": False, "jesus": False,
-        "locks": ["TOBIAH", "ALLEY"],
+        "locks": ["CLEAR-EDGES", "TOBIAH", "ALLEY"],
         "narration": "or in prison? They do not even remember doing anything",
         "must_show": "Tobiah standing in the alley with both hands turned open and empty at his waist and his shoulders lifted in a small honest shrug, his face tilted up and off to the side.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + _NO_NIGHT + "no Jesus in this frame and nobody in cream, off-white or pale cloth of any kind; no second person; no bare, bald or shaven head and no beard or moustache on the boy; " + _NO_CREAM + _GAZE,
@@ -1152,7 +1202,7 @@ BEATS = [
     {
         "id": "v2-r033-b30", "out": "s30-not-keeping-score.jpeg",
         "seg": "n6", "window": "108.190-111.770", "wide": False, "jesus": False,
-        "locks": ["ALLEY"],
+        "locks": ["CLEAR-EDGES", "ALLEY"],
         "narration": "They were not keeping score. They were not trying to earn",
         "must_show": "A close view of two adult female hands rinsing a fired-clay bowl in a shallow basin of water on the alley doorstep, entirely absorbed in ordinary work, with no face in the frame.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + _NO_NIGHT + "no face or head of any person in the frame; no coin, purse, money, tally, scratch mark, written list, scroll or record of any kind; no ring, bracelet or jewellery; " + _NO_CREAM + _GAZE,
@@ -1176,7 +1226,7 @@ BEATS = [
     {
         "id": "v2-r033-b31", "out": "s31-kindness-was-their-reflex.jpeg",
         "seg": "n6", "window": "111.770-115.870", "wide": False, "jesus": False,
-        "locks": ["TOBIAH", "ALLEY", "BACKGROUND-CAST"],
+        "locks": ["CLEAR-EDGES", "TOBIAH", "ALLEY", "BACKGROUND-CAST"],
         "narration": "anything. Kindness was simply their reflex. And then the",
         "must_show": "Tobiah putting out one hand to steady an old man's elbow on the uneven alley step without breaking stride or even looking round, the reed basket still on his other hip.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + _NO_NIGHT + "no Jesus in this frame and nobody in cream, off-white or pale cloth of any kind; no bare, bald or shaven head and no beard on the boy; no third person; no fall, injury or distress; " + _NO_CREAM + _GAZE,
@@ -1230,7 +1280,7 @@ BEATS = [
     {
         "id": "v2-r033-b33", "out": "s33-inasmuch-as-ye-have-done-it.jpeg",
         "seg": "j2", "window": "119.586-124.366", "wide": False, "jesus": True, "ref": REF,
-        "locks": ["OLIVET-STAIR", "JESUS-SEATED"],
+        "locks": ["CLEAR-EDGES", "OLIVET-STAIR", "JESUS-SEATED"],
         "narration": "Verily I say unto you, Inasmuch as ye have done it unto one of the",
         "must_show": "Jesus close and alone in strict side-on profile on the step, speaking quietly and deliberately, the last gold light on the front of his face.",
         "must_not_show": _NO_HALO + _NO_CITY + _NO_JUDGEMENT + _NO_NIGHT + "no other person, shoulder, arm or head anywhere in the frame; no crown, throne, sceptre or object of rank; " + _GAZE,
@@ -1253,7 +1303,7 @@ BEATS = [
     {
         "id": "v2-r033-b34", "out": "s34-ye-have-done-it-unto-me.jpeg",
         "seg": "j2", "window": "124.366-129.323", "wide": False, "jesus": True, "ref": REF,
-        "locks": ["OLIVET-STAIR", "JESUS-SEATED"],
+        "locks": ["CLEAR-EDGES", "OLIVET-STAIR", "JESUS-SEATED"],
         "narration": "least of these, my brethren, ye have done it unto me.",
         "must_show": "Jesus seated on the step laying his own open right hand flat against his own chest as he finishes the sentence, his head turned down toward the men below him.",
         "must_not_show": _NO_HALO + _NO_CITY + _NO_JUDGEMENT + _NO_NIGHT + "no crown, throne, sceptre or robe of state; no wound, scar, nail mark or blood on his hands or body; no other person's face in the frame; " + _GAZE,
@@ -1279,7 +1329,7 @@ BEATS = [
     {
         "id": "v2-r033-b35", "out": "s35-every-hungry-person.jpeg",
         "seg": "n7", "window": "129.323-133.143", "wide": False, "jesus": False,
-        "locks": ["ELI", "ALLEY"],
+        "locks": ["CLEAR-EDGES", "ELI", "ALLEY"],
         "narration": "He was in them the whole time. Every hungry person,",
         "must_show": "A close three-quarter view of Eli's face in the shaded alley, quiet and tired, his gaze travelling off along the foot of the wall, the bread already gone.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + _NO_NIGHT + "no Jesus in this frame and nobody in cream, off-white or pale cloth of any kind; no second person; nothing to suggest this man is Christ — no halo, no glow, no bright outline, no wound, no scar, no blood and no crown of thorns; " + _NO_CREAM + _GAZE,
@@ -1307,7 +1357,7 @@ BEATS = [
     {
         "id": "v2-r033-b36", "out": "s36-every-stranger.jpeg",
         "seg": "n7", "window": "133.143-137.203", "wide": False, "jesus": False,
-        "locks": ["THRESHOLD", "MARKET-TOWN"] + _NIGHT,
+        "locks": ["CLEAR-EDGES", "THRESHOLD", "MARKET-TOWN"] + _NIGHT,
         "narration": "every stranger, every sick and forgotten and locked away person",
         "must_show": "The dusty traveller stopped just inside the lit doorway and half turning back over his shoulder toward the dark street, his bundle still roped on, lit low from the front by the clay lamp.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + "no Jesus in this frame and nobody in cream, off-white or pale cloth of any kind; " + _NO_MODERN_LAMP + "no light source behind or above his head and no bright rim or outline on his hair or shoulders; no second person's face; " + _NO_CREAM + _GAZE,
@@ -1334,7 +1384,7 @@ BEATS = [
     {
         "id": "v2-r033-b37", "out": "s37-wearing-a-disguise.jpeg",
         "seg": "n7", "window": "137.203-140.772", "wide": False, "jesus": False,
-        "locks": ["ANCIENT-PRISON"] + _NIGHT,
+        "locks": ["CLEAR-EDGES", "ANCIENT-PRISON"] + _NIGHT,
         "narration": "was him wearing a disguise.",
         "must_show": "The prisoner's face close behind two thick timber bars, half of it lit from below by the clay lamp and half lost in black, his eyes down on the bread in his own hands.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + "no Jesus in this frame and nobody in cream, off-white or pale cloth of any kind; no round machined steel bars, welded grid, lock plate, padlock or keyhole; nothing to suggest this man is Christ — no halo, no glow, no bright outline, no wound, no scar, no blood, no crown of thorns and no cream cloth; " + _NO_MODERN_LAMP + _NO_CREAM + _GAZE,
@@ -1424,7 +1474,7 @@ BEATS = [
     {
         "id": "v2-r033-b40", "out": "s40-someone-who-needed-help.jpeg",
         "seg": "n8", "window": "149.792-154.389", "wide": False, "jesus": False,
-        "locks": ["ELI", "ALLEY"],
+        "locks": ["CLEAR-EDGES", "ELI", "ALLEY"],
         "narration": "look like a king. He looked like someone who needed help.",
         "must_show": "Eli alone against the mud-brick wall of the empty alley, seen close and a little from the side, weary and entirely unremarkable, in the last low light of the day.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + _NO_NIGHT + "no Jesus in this frame and nobody in cream, off-white or pale cloth of any kind; no second person; no crown, throne or sign of rank; nothing to suggest this man is Christ — no glow, no bright outline, no wound, no scar, no blood and no crown of thorns; " + _NO_CREAM + _GAZE,
@@ -1481,7 +1531,7 @@ BEATS = [
     {
         "id": "v2-r033-b42", "out": "s42-something-impressive.jpeg",
         "seg": "n9", "window": "158.329-161.649", "wide": False, "jesus": False,
-        "locks": ["ELI", "ALLEY"],
+        "locks": ["CLEAR-EDGES", "ELI", "ALLEY"],
         "narration": "something impressive. He hid in the people easiest to",
         "must_show": "An extreme close view of Eli's two worn empty male hands lying open in his lap, cracked and dust-grey, with the frayed hem of his charcoal-brown tunic across his knees.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + _NO_NIGHT + "no face or head of any person in the frame; no wound, scar, nail mark, blood or piercing on either hand; no ring, bracelet or jewellery; no coin or money; " + _NO_CREAM + _GAZE,
@@ -1505,7 +1555,7 @@ BEATS = [
     {
         "id": "v2-r033-b43", "out": "s43-ordinary-kindness.jpeg",
         "seg": "n9", "window": "161.649-165.509", "wide": False, "jesus": False,
-        "locks": ["MIRIAM", "ELI", "ALLEY", "BACKGROUND-CAST"],
+        "locks": ["CLEAR-EDGES", "MIRIAM", "ELI", "ALLEY", "BACKGROUND-CAST"],
         "narration": "overlook, so that plain, ordinary kindness would always reach",
         "must_show": "Miriam crouching down again to Eli at the foot of the alley wall, seen from behind her shoulder, offering a fired-clay cup, the whole thing small and unremarkable in the warm last light.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + _NO_NIGHT + "no Jesus in this frame and nobody in cream, off-white or pale cloth of any kind; no third person; no bare, bald or shaven head on the woman; no bright outline or rim around her head or shoulders; " + _NO_CREAM + _GAZE,
@@ -1533,7 +1583,7 @@ BEATS = [
     {
         "id": "v2-r033-b44", "out": "s44-stands-in-front-of-you.jpeg",
         "seg": "n9", "window": "165.509-169.109", "wide": False, "jesus": False,
-        "locks": ["ALLEY", "MARKET-TOWN"],
+        "locks": ["CLEAR-EDGES", "ALLEY", "MARKET-TOWN"],
         "narration": "him. So when someone small and needy stands in front of",
         "must_show": "A small barefoot child standing still in a village doorway in flat overcast daylight, seen from outside and slightly below, waiting, with nobody else in the frame.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + _NO_NIGHT + "no Jesus in this frame and nobody in cream, off-white or pale cloth of any kind; no second person; no bright rim, outline or halo around the child's head, hair or shoulders and no light source behind or above the head; no glass, shutter, hinge or door of planks; " + _NO_CREAM + _GAZE,
@@ -1561,7 +1611,7 @@ BEATS = [
     {
         "id": "v2-r033-b45", "out": "s45-it-might-be-him.jpeg",
         "seg": "n9", "window": "169.109-173.179", "wide": False, "jesus": False,
-        "locks": ["ALLEY"],
+        "locks": ["CLEAR-EDGES", "ALLEY"],
         "narration": "you, that is not an interruption. It might be him.",
         "must_show": "An extreme close view of a small child's two hands closing around a fired-clay cup as an adult woman's two hands let go of it, warm last light on the clay, nothing else in frame.",
         "must_not_show": _NO_HALO + _NO_JUDGEMENT + _NO_NIGHT + "no face or head of any person in the frame; no wound, scar, nail mark or blood on any hand; no ring, bracelet or jewellery; no coin or money; " + _NO_CREAM + _GAZE,
