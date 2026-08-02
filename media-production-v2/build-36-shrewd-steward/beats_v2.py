@@ -611,6 +611,16 @@ BEATS = [
         "must_show": "Jesus sitting on a village rooftop in clear morning light, turning to the four men sitting with him as he begins to speak; the camera is behind the listeners and shoots past their backs.",
         "must_not_show": _NO_HALO + _NO_HEAVEN + _NO_CREAM + _NO_MODERN_TOWN + _NO_GREEN + _NO_NIGHT + _GAZE,
         "scene": (
+            "LENS-AXIS GEOMETRY, STATED FIRST BECAUSE IT GOVERNS THIS FRAME: "
+            "the man Jesus is speaking to is NOT behind the camera — he sits "
+            "far out at the RIGHT EDGE of the picture, so Jesus's head is "
+            "turned a quarter-turn away from the lens and STAYS there. The "
+            "camera sees the SIDE of his face, the near cheek broad and the far "
+            "cheek foreshortened with the far eye narrowed behind the bridge of "
+            "his nose, and his eyeline runs LATERALLY ACROSS the frame and out "
+            "through the RIGHT EDGE. HIS PUPILS NEVER COME ROUND ONTO THE LENS "
+            "AXIS, HE NEVER FACES THE VIEWER SQUARE-ON, AND HE NEVER LOOKS INTO "
+            "THE CAMERA. "
             "One photograph, 35mm lens, clear hard mid-morning sun coming in "
             "low and level from the LEFT across the roof deck, the sun itself "
             "well out of frame and NEVER behind any head, fine film grain, true "
@@ -1519,6 +1529,16 @@ BEATS += [
         "must_not_show": _NO_HALO + _NO_HEAVEN + _NO_CREAM + _NO_MODERN_TOWN + _NO_GREEN + _NO_NIGHT
         + "nobody smiles slyly or approvingly, nobody winks, and no money, coin, purse or bill appears anywhere in this frame; " + _GAZE,
         "scene": (
+            "LENS-AXIS GEOMETRY, STATED FIRST BECAUSE IT GOVERNS THIS FRAME: "
+            "the man Jesus is speaking to is NOT behind the camera — he sits "
+            "far out at the LEFT EDGE of the picture, so Jesus's head is turned "
+            "a quarter-turn away from the lens and STAYS there. The camera sees "
+            "the SIDE of his face, the near cheek broad and the far cheek "
+            "foreshortened with the far eye narrowed behind the bridge of his "
+            "nose, and his eyeline runs LATERALLY ACROSS the frame and out "
+            "through the LEFT EDGE. HIS PUPILS NEVER COME ROUND ONTO THE LENS "
+            "AXIS, HE NEVER FACES THE VIEWER SQUARE-ON, AND HE NEVER LOOKS INTO "
+            "THE CAMERA. "
             "One photograph, 50mm lens, clear late-morning sun coming in low "
             "and level from the LEFT across the roof deck, the sun well out of "
             "frame and NEVER behind any head, fine film grain, true depth of "
@@ -1620,6 +1640,16 @@ BEATS += [
         "must_show": "Jesus standing up from the parapet on the rooftop and turning back to the listeners, one hand out level toward them, beginning the thing he actually wants them to do.",
         "must_not_show": _NO_HALO + _NO_HEAVEN + _NO_CREAM + _NO_MODERN_TOWN + _NO_GREEN + _NO_NIGHT + _GAZE,
         "scene": (
+            "LENS-AXIS GEOMETRY, STATED FIRST BECAUSE IT GOVERNS THIS FRAME: "
+            "the man Jesus is speaking to is NOT behind the camera — he sits "
+            "far out at the LEFT EDGE of the picture, so Jesus's head is turned "
+            "a quarter-turn away from the lens and STAYS there. The camera sees "
+            "the SIDE of his face, the near cheek broad and the far cheek "
+            "foreshortened with the far eye narrowed behind the bridge of his "
+            "nose, and his eyeline runs LATERALLY ACROSS the frame and out "
+            "through the LEFT EDGE. HIS PUPILS NEVER COME ROUND ONTO THE LENS "
+            "AXIS, HE NEVER FACES THE VIEWER SQUARE-ON, AND HE NEVER LOOKS INTO "
+            "THE CAMERA. "
             "One photograph, 35mm lens, clear late-morning sun coming in low "
             "and level from the LEFT across the roof deck, the sun well out of "
             "frame and NEVER behind any head, fine film grain, true depth of "
@@ -1785,6 +1815,16 @@ BEATS += [
         "must_not_show": _NO_HALO + _NO_HEAVEN + _NO_CREAM + _NO_MODERN_TOWN + _NO_GREEN + _NO_NIGHT
         + "nobody dies, falls, lies down, is carried, is mourned or is buried, and there is no deathbed, grave, tomb, shroud, bier, mourner or departing spirit anywhere; " + _GAZE,
         "scene": (
+            "LENS-AXIS GEOMETRY, STATED FIRST BECAUSE IT GOVERNS THIS FRAME: "
+            "the man Jesus is speaking to is NOT behind the camera — he sits "
+            "far out at the LEFT EDGE of the picture, so Jesus's head is turned "
+            "a quarter-turn away from the lens and STAYS there. The camera sees "
+            "the SIDE of his face, the near cheek broad and the far cheek "
+            "foreshortened with the far eye narrowed behind the bridge of his "
+            "nose, and his eyeline runs LATERALLY ACROSS the frame and out "
+            "through the LEFT EDGE. HIS PUPILS NEVER COME ROUND ONTO THE LENS "
+            "AXIS, HE NEVER FACES THE VIEWER SQUARE-ON, AND HE NEVER LOOKS INTO "
+            "THE CAMERA. "
             "One photograph, 50mm lens, clear late-morning sun coming in low "
             "and level from the LEFT across the roof deck, the sun well out of "
             "frame and NEVER behind any head, fine film grain, true depth of "
@@ -1852,6 +1892,16 @@ BEATS += [
         "must_not_show": _NO_HALO + _NO_HEAVEN + _NO_CREAM + _NO_MODERN_TOWN + _NO_GREEN + _NO_NIGHT
         + "no money, coin, purse, scales, idol, statue, altar or symbolic object appears anywhere in this frame; " + _GAZE,
         "scene": (
+            "LENS-AXIS GEOMETRY, STATED FIRST BECAUSE IT GOVERNS THIS FRAME: "
+            "the man Jesus is speaking to is NOT behind the camera — he sits "
+            "far out at the LEFT EDGE of the picture, so Jesus's head is turned "
+            "a quarter-turn away from the lens and STAYS there. The camera sees "
+            "the SIDE of his face, the near cheek broad and the far cheek "
+            "foreshortened with the far eye narrowed behind the bridge of his "
+            "nose, and his eyeline runs LATERALLY ACROSS the frame and out "
+            "through the LEFT EDGE. HIS PUPILS NEVER COME ROUND ONTO THE LENS "
+            "AXIS, HE NEVER FACES THE VIEWER SQUARE-ON, AND HE NEVER LOOKS INTO "
+            "THE CAMERA. "
             "One photograph, 35mm lens, clear late-morning sun coming in low "
             "and level from the LEFT across the roof deck, the sun well out of "
             "frame and NEVER behind any head, fine film grain, true depth of "
@@ -1983,6 +2033,16 @@ BEATS += [
         "must_show": "The rooftop from further back and lower, Jesus standing still among the seated listeners after the saying, the whole group quiet, the village spread out beyond the parapet.",
         "must_not_show": _NO_HALO + _NO_HEAVEN + _NO_CREAM + _NO_MODERN_TOWN + _NO_GREEN + _NO_NIGHT + _GAZE,
         "scene": (
+            "LENS-AXIS GEOMETRY, STATED FIRST BECAUSE IT GOVERNS THIS FRAME: "
+            "the man Jesus is speaking to is NOT behind the camera — he sits "
+            "far out at the LEFT EDGE of the picture, so Jesus's head is turned "
+            "a quarter-turn away from the lens and STAYS there. The camera sees "
+            "the SIDE of his face, the near cheek broad and the far cheek "
+            "foreshortened with the far eye narrowed behind the bridge of his "
+            "nose, and his eyeline runs LATERALLY ACROSS the frame and out "
+            "through the LEFT EDGE. HIS PUPILS NEVER COME ROUND ONTO THE LENS "
+            "AXIS, HE NEVER FACES THE VIEWER SQUARE-ON, AND HE NEVER LOOKS INTO "
+            "THE CAMERA. "
             "One photograph, 28mm lens, clear late-morning sun from the LEFT "
             "laying long shapes of shadow across the swept plaster roof deck, "
             "the sun well out of frame and NEVER behind any head, fine film "
@@ -2119,6 +2179,16 @@ BEATS += [
         "must_not_show": _NO_HALO + _NO_HEAVEN + _NO_CREAM + _NO_MODERN_TOWN + _NO_GREEN + _NO_NIGHT
         + "no money, coin, purse, bill, scales or treasure appears anywhere in this frame, and nobody holds out a hand to receive anything; " + _GAZE,
         "scene": (
+            "LENS-AXIS GEOMETRY, STATED FIRST BECAUSE IT GOVERNS THIS FRAME: "
+            "the man Jesus is speaking to is NOT behind the camera — he sits "
+            "far out at the LEFT EDGE of the picture, so Jesus's head is turned "
+            "a quarter-turn away from the lens and STAYS there. The camera sees "
+            "the SIDE of his face, the near cheek broad and the far cheek "
+            "foreshortened with the far eye narrowed behind the bridge of his "
+            "nose, and his eyeline runs LATERALLY ACROSS the frame and out "
+            "through the LEFT EDGE. HIS PUPILS NEVER COME ROUND ONTO THE LENS "
+            "AXIS, HE NEVER FACES THE VIEWER SQUARE-ON, AND HE NEVER LOOKS INTO "
+            "THE CAMERA. "
             "One photograph, 50mm lens, clear late-morning sun coming in low "
             "and level from the LEFT across the roof deck, the sun well out of "
             "frame and NEVER behind any head, fine film grain, true depth of "
