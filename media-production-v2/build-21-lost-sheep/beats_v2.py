@@ -147,9 +147,13 @@ LOCKS = {
         "EVERY GARMENT, HEAD-CLOTH, SHAWL AND MANTLE IN THE FRAME, including the "
         "large out-of-focus ones and the ones cut off by the frame edges, is a named "
         "saturated earth colour — umber brown, madder red, dull ochre, olive green, "
-        "indigo, soot grey or undyed grey-brown wool. NOT ONE OF THEM WEARS CREAM, "
+        "indigo or soot grey — NEVER undyed, natural, oatmeal or unbleached wool. "
+        "NOT ONE OF THEM WEARS CREAM, "
         "OFF-WHITE, IVORY OR ANY NEAR-WHITE CLOTH; a pale shoulder at the edge of the "
-        "frame reads as a second, unlocked Jesus and fails the picture. They lean IN "
+        "frame reads as a second, unlocked Jesus and fails the picture. THE ONE OR TWO "
+        "FIGURES NEAREST THE CAMERA ARE THE BIGGEST SHAPES IN THE PICTURE AND THIS "
+        "APPLIES TO THEM FIRST: their backs and shoulders are DEEP UMBER BROWN and DARK "
+        "INDIGO, never pale. They lean IN "
         "toward the centre, close enough to touch, never arranged in a neat ring "
         "facing outward."
     ),
@@ -159,7 +163,7 @@ LOCKS = {
         "worn leather sandals. EVERY tunic, mantle, head-cloth and shawl in the "
         "frame, near or far, sharp or blurred, whole or cut off by the frame edge, is "
         "a named saturated earth colour: umber brown, madder red, dull ochre, olive "
-        "green, indigo or undyed grey-brown wool. NOBODY IN THE FRAME WEARS CREAM, "
+        "green or indigo — NEVER undyed, natural, oatmeal or unbleached wool. NOBODY IN THE FRAME WEARS CREAM, "
         "OFF-WHITE, IVORY OR ANY NEAR-WHITE CLOTH. Their joy is physical and unposed "
         "— hands raised, arms around shoulders, a child running, people talking over "
         "one another."
@@ -174,7 +178,9 @@ LOCKS = {
         "one crowded moving mass of backs and shoulders that runs straight out of the "
         "frame on both sides and into the dark or the haze at the back, so no viewer "
         "could or should count them, and they are never laid out in a countable grid, "
-        "row or tidy arc. No two sheep are identical copies of each other."
+        "row or tidy arc. No two sheep are identical copies of each other. NO ANIMAL "
+        "CARRIES A MODERN MARK OF ANY KIND: no plastic or metal ear tag, no numbered "
+        "button in the ear, no paint stripe, no brand, no collar, no rope halter."
     ),
     "ONE-SHEEP": (
         "LOST-SHEEP LOCK: ONE single ewe, alone, and never more than one — a young "
@@ -185,7 +191,8 @@ LOCKS = {
         "burrs snagged along her flank, her eyes wide and her breathing hard. She is "
         "never bleeding, never wounded, never injured — only worn out and afraid. "
         "Exactly one sheep and no second sheep anywhere in the frames that name this "
-        "lock."
+        "lock. She carries no ear tag, no numbered button, no paint mark, no collar "
+        "and no halter."
     ),
     # ------------------------------------------------------------ places ----
     "HOUSE-MEAL": (
@@ -261,9 +268,15 @@ LOCKS = {
         "between the houses, dry stone terrace walls up the slope behind. THE SKYLINE "
         "BEHIND THE VILLAGE IS BARE HILL AND OPEN SKY: no dome, no minaret, no tower, "
         "no bell tower, no arch, no tiled roof, no plastered white walls, no city "
-        "wall, and no aerial, pole or wire of any kind."
+        "wall, and no aerial, pole or wire of any kind. EVERY ROOF CARRIES ONLY WHAT A "
+        "FIRST-CENTURY ROOF CARRIES — round wooden beams, brush, packed earth and a low "
+        "mud parapet — and nothing else stands on or projects from it: no pipe, no "
+        "chimney, no flue, no vent, no tank, no duct, no mast, no cable and no metal of "
+        "any kind anywhere on the skyline."
     ),
 }
+
+OUTPUT_VIDEO_NAME = "luke-15_lost-sheep-realistic-v2.mp4"
 
 # The V1 script is authoritative on this row — the transcript check is in the
 # docstring above — so nothing is overridden.
@@ -500,7 +513,9 @@ BEATS = [
             "the last of the light is a cold pale band low on the horizon with no "
             "colour in it. At the very edge of the fold, small and sharp, one man's "
             "back in a dark brown tunic and umber mantle is turned away from the flock "
-            "and toward those hills."
+            "and toward those hills. This is ONE single photograph exposed edge to edge: no "
+            "seam, fold, gutter, page edge, border or vertical dividing line anywhere in "
+            "the picture."
         ),
     },
     {
@@ -836,9 +851,10 @@ BEATS = [
         "must_not_show": "he is NOT old or grey; no cream or off-white cloth on anybody; no dome, minaret or tower; his gaze is not on the lens.",
         "scene": (
             "One photograph, 35mm lens at f/4, full morning light, fine grain. The "
-            "shepherd from the waist up in the narrow village lane, three quarters "
-            "toward his own right, the ewe still across both shoulders and her legs "
-            "in his fists. His head is thrown back and his mouth is wide open in a "
+            "shepherd from the waist up in the narrow village lane, SEEN FROM THE SIDE "
+            "AND SLIGHTLY BEHIND as he strides ACROSS the frame from left to right, "
+            "never toward the camera, the ewe still across both shoulders and her "
+            "legs in his fists. His head is thrown back and his mouth is wide open in a "
             "shout up the lane to his right — face split with it, eyes crinkled — so "
             "his look goes up and out through the RIGHT edge of the frame, past the "
             "camera. He is a lean, dust-covered man of thirty-five with black hair to "
@@ -866,7 +882,12 @@ BEATS = [
             "ONE FACE IS TURNED TOWARD THE LENS. In the middle of the open ground by "
             "the stone-kerbed well the shepherd stands sharp and surrounded, the ewe "
             "still across his shoulders, laughing, with a hand on his arm from one "
-            "side and a hand on the sheep's flank from the other. Around him "
+            "side and a hand on the sheep's flank from the other. HIS HEAD IS "
+            "TURNED HARD TO HIS OWN LEFT AND HE IS LAUGHING AT THE OLD MAN STANDING "
+            "BESIDE HIM INSIDE THE FRAME, so his eyes are locked on that man and his "
+            "face is three-quarter away from the camera; his pupils are nowhere near "
+            "the lens and no other villager in the picture is looking at the camera "
+            "either. Around him "
             "twenty-odd villagers of every age converge — a woman carrying out a wide "
             "clay platter of flat bread, an old man with a clay jug under his arm, "
             "two children running in from the left, a man stepping over the low "
