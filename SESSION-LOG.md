@@ -1,3 +1,37 @@
+## 2026-08-02 — Row 26 (The Mustard Seed, Matt 13) rebuilt realistic V2 and shipped to the reviewer
+
+Commit: 4d22e0f3f
+
+24 native-2K pictures against V1's SIX. V1 reused its opening still three separate times and its
+tree still three more, and gave each of the two red-letter segments — j1 at 10.9 s and j1b at
+12.1 s, the two longest stretches in the video — a single picture.
+
+**The inherited beat map was discarded, and it was proved wrong from the files.** Its fourteen
+windows ran `audio_start`→`spoken_end` instead of segment to segment, which leaves a DEAD GAP at
+every one of the twelve segment joins — about 5.9 s of narration with no picture assigned at all.
+Windows were recomputed from the fixed `extract_beats.py` and split on WORD timings measured with
+faster-whisper, because nine of this row's twelve `.timing.json` sidecars hold only ONE phrase and
+cannot supply an interior split. Result: contiguous 0.280 → 79.419 s, zero gaps, zero overlaps,
+shortest window 2.10 s.
+
+Audio was clean and locked byte-identical — the V1 MP4 and every mp3 last changed bytes in the same
+commit, and the MP4 runs 0.052 s past the summed timeline. Nothing re-voiced, `TEXT_OVERRIDES` not
+needed (seven segments transcribed and matched word for word).
+
+Spend **$4.15** (31 images), reroll rate 7/31 = **23%**. Four of the seven were ONE new defect:
+a walled kitchen garden is a new kind of setting, and it invents **modern black drip-irrigation
+hose** lying along the beds. A positively-stated HAND-IRRIGATION LOCK — open earth channels, the
+cistern and carried clay jars only, nothing dark and straight on the ground — killed it in one pass
+on all four. That block is in the ledger for the next garden, orchard, vineyard or irrigated field.
+The other three were the familiar lens-gaze (cured side-on), a pale near-foreground shoulder
+(cured by pinning the whole figure, not just the head cloth), and one render that came back as a
+different beat from the same build (cured by naming the subject first).
+
+Staged in one small walled kitchen garden with the mustard growing in the SAME corner bed in every
+frame, so the teaching and the parable share one place and only the plant changes. 87.0 s / 20.3 MB,
+frames extracted and viewed, raw GitHub URL verified at 20,288,189 bytes, live card carries
+`data-review-wave="realistic-v2"`. Awaiting Cameron.
+
 ## 2026-08-02 — URGENT AUDIT: stale V1 audio in shipped V2 cuts — all 23 rows CLEAN; AUDIO LOCK now guarded
 
 Commit: a5d3488dc
