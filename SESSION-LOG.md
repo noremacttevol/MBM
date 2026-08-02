@@ -1,3 +1,37 @@
+## 2026-08-02 — URGENT AUDIT: stale V1 audio in shipped V2 cuts — all 23 rows CLEAN; AUDIO LOCK now guarded
+
+Commit: a5d3488dc
+
+Row 25 proved that `v2_assemble.py`'s AUDIO LOCK copies the V1 MP4's AAC stream blind, and that a V1
+MP4 can predate the ElevenLabs re-voice or the echo-delete sweep. This session audited **every shipped
+realistic-V2 cut on the reviewer** — rows 01-11, 13-16, 18-25, 23 in all — to find out how far that had
+spread.
+
+**It had not spread. 23 CLEAN, 0 STALE-AUDIO, 0 OLD-VOICE.** No cut was rebuilt, no picture was
+generated, spend was $0. Full measured table in `media-production-v2/STALE-AUDIO-AUDIT.md`.
+
+Measured from artefacts only: ffprobe durations, `ffmpeg -f md5` audio-stream hashes, silencedetect
+onsets against the extract_beats offsets, faster-whisper on the TAIL beats of the widest-delta rows,
+and git CONTENT dates. Rows **10, 13 and 25** are the only shipped rows whose V1 MP4 predates its own
+mp3s — and they are exactly the three whose V2 audio is not bit-identical to that MP4, each already
+rebuilt from the V1 segment mp3s. Every placed mp3 in every shipped row is 44.1 kHz ElevenLabs.
+
+**Do not audit this repo with mtime.** Four machines pull it, so a checkout stamps a 2026-07-22 render
+as 2026-07-29 and every mp3 in the library shares one timestamp. The commit that last changed a file's
+bytes is the only honest render date.
+
+The defect is dormant rather than absent: **54 V1 builds** have a finished MP4 older than an mp3 in
+their `audio/` folder, so any future rebuild through the AUDIO LOCK was a coin flip. `v2_assemble.py`
+now calls `assert_v1_final_is_current()` before the lock copies anything — it refuses when any PLACED
+mp3 is newer than the V1 MP4, or when that stream runs more than 0.75 s past the summed timeline, and
+both errors name the fix (`AUDIO_FROM_V1_SEGMENTS = True`). Shared tool, no per-build opt-in; verified
+to pass the 20 legitimate lock rows and block exactly 10, 13 and 25.
+
+Rows 12 and 17 were reported, not touched — both still sit on their V1 cut. Row 17's V1 final is
+genuinely 120.33 s short of its own timeline (`n11` voiced and never placed): a real outstanding
+defect, but a different one. `AUDIO-AUDIT.md` now opens with a banner stating exactly what its "clean"
+verdict does and does not prove.
+
 ## 2026-08-02 — Row 25 (Wheat and Tares) realistic V2 shipped; assembler learns the stale-V1-final audio path
 
 Commit: 773f74f82 (card) / 98e2604ad (cut)

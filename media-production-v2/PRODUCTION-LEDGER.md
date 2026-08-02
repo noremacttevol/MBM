@@ -1506,3 +1506,82 @@ Cut: `media-production-v2/build-25-wheat-and-tares/matthew-13_wheat-and-tares.mp
    diffed to a three-line change proving only row 25 moved (rows 12 and 17 byte-identical), carries
    `data-review-wave="realistic-v2"`, deployed first try (no 429), and confirmed live with the raw
    GitHub URL serving the matching byte size.
+
+---
+
+## Session — 2026-08-02 · URGENT AUDIT: is stale V1 audio locked into any shipped V2 cut? · Claude worker 20
+
+**Status: DONE. Result: all 23 shipped realistic-V2 rows are CLEAN. Zero rows rebuilt,
+zero pictures generated, $0 spend.** Full measured table:
+[`STALE-AUDIO-AUDIT.md`](./STALE-AUDIO-AUDIT.md).
+
+### What was suspected
+
+Row 25 proved the AUDIO LOCK copies the V1 MP4's AAC stream blind, and that a V1 MP4
+can predate the 2026-07-23/24 ElevenLabs re-voice or the echo-delete sweep. The fear
+was that other shipped cuts had quietly inherited pre-REDO-ALL voices, restored deleted
+echoes, or a caption timeline a minute adrift — with `AUDIO-AUDIT.md` calling them
+"clean" because it only ever tested the mp3s, never the MP4 those cuts were locked to.
+
+### What was measured (artefacts only — no prose, no prior verdicts)
+
+Per row: git CONTENT date of the V1 MP4 vs every mp3 the build actually places;
+`ffprobe` durations of the V1 MP4, the summed `extract_beats` timeline and the shipped
+V2 cut; `ffmpeg -f md5` of both audio streams to see whether the AUDIO LOCK was even
+the path taken; sample rate of every placed mp3 (24 kHz = old edge-tts voice, 44.1 kHz
+= ElevenLabs); `silencedetect` onsets against the beat offsets; and faster-whisper on
+the TAIL beats of the four widest-delta rows, because drift accumulates and the tail is
+where a stale track cannot hide.
+
+### Findings
+
+1. **0 STALE-AUDIO, 0 OLD-VOICE, 23 CLEAN.** Every placed mp3 in every shipped row is
+   44.1 kHz ElevenLabs. Every shipped cut's onsets track its beat offsets with a median
+   deviation of 0.04–0.10 s. Nothing needed fixing, so nothing was rebuilt.
+
+2. **Rows 10, 13 and 25 are the only shipped rows whose V1 MP4 predates its own mp3s —
+   and they are exactly the three whose V2 audio is NOT bit-identical to that MP4.**
+   Each was caught at build time by the existing ±1.0 s runtime check (67.7 s vs
+   294.3 s; 259.0 s vs 298.3 s; 229.0 s vs 166.8 s) and rebuilt from the V1 segment
+   mp3s. Row 01 also differs from V1, for the separately documented Jesus-line denoise.
+
+3. **MTIME IS WORTHLESS IN THIS REPO — do not audit with it.** Four machines clone and
+   pull, so a checkout stamps a 2026-07-22 render as "2026-07-29 09:46". Every mp3 in
+   the library shares one such timestamp. The commit that last changed a file's bytes
+   is the only honest render date; mtime carries information only for untracked or
+   dirty files. Any future audit that ranks renders by mtime will get this backwards.
+
+4. **The defect is dormant, not absent: 54 V1 builds** have a finished MP4 older than
+   at least one mp3 in their `audio/` folder. Any of them rebuilt through the AUDIO
+   LOCK before today would have shipped a stale stream. Reproducible scan in
+   `STALE-AUDIO-AUDIT.md`.
+
+5. **Rows 12 and 17 — reported, not touched.** Both still sit on their V1 cut
+   (`data-newvoice="1"`, not `realistic-v2`). Row 12 has an unshipped V2 cut on disk.
+   Row 17's V1 final is genuinely **120.33 s short** of its own timeline (`n11` voiced
+   and never placed) — a real outstanding defect, but not this defect.
+
+### Shared-tool fix
+
+`v2_assemble.py` gained `content_time()` and `assert_v1_final_is_current()`, called
+before the AUDIO LOCK copies anything. Two independent tripwires:
+
+- **Recency** — any PLACED mp3 newer than the V1 MP4 ⇒ refuse. This is the one that
+  matters: a re-voice or a text trim that leaves the runtime almost unchanged is
+  invisible to every duration check ever written.
+- **Runtime excess** — V1 stream more than 0.75 s longer than the summed timeline ⇒
+  refuse. Shortfalls keep the looser 1.0 s tolerance, because V1 finals routinely land
+  a couple of tenths under the recomputed timeline through trailing-silence trimming.
+
+Both errors name the fix: `AUDIO_FROM_V1_SEGMENTS = True`. V1 is never edited and
+nothing is ever re-voiced. Verified against all 23 shipped rows — passes the 20 that
+legitimately used the lock, blocks exactly 10, 13 and 25. Zero false positives.
+
+### Lesson for the next worker
+
+**A "clean" verdict is only clean for what it actually tested.** `AUDIO-AUDIT.md` swept
+210 builds and said REDO-ALL was satisfied library-wide — true, and it still could not
+have caught row 25, because it never looked at the MP4 the V2 cut was locked to. Its
+own table listed row 25 with a `+64.37` delta and the word "clean" on the same line.
+That file now carries a banner at the top saying exactly what it does and does not
+prove. Write that banner on your own audits too.
