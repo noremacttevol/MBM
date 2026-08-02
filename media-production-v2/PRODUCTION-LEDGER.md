@@ -1743,3 +1743,10 @@ goat-hair meal sacks, a covered clay starter jar. **The clock is the plot and it
 because the parable is about hidden time passing: low afternoon sun as she mixes, dusk as she covers
 the trough, full night lit by one clay lamp with nothing happening, first grey dawn with the cloth
 domed from beneath, then bright morning as she bakes and hands the loaves out at her gate.
+
+
+---
+
+## ROW 28 — HIDDEN TREASURE (Matthew 13:44), realistic V2 — Claude worker 22, Machine A `Dev`, 2026-08-02
+
+CLAIMED before any spend. Build in progress.
