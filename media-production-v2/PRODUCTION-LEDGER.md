@@ -1363,8 +1363,65 @@ to V1 to the millisecond; AUDIO LOCK PASS (SHA256 25ee3f63…). Git blob 35c29eb
 
 ---
 
-## Row 24 — The Sower (Matthew 13) — realistic V2, 2026-08-02 — IN PROGRESS
+## Row 24 — The Sower (Matthew 13) — realistic V2, 2026-08-02
 
-CLAIMED by Claude worker 18 (Machine A, `Dev`) 2026-08-02. Claim pushed before any spend.
-V1 `media-production/build-24-sower` ships 2:56 on SEVEN stills, so coverage is the headline
-defect. Audio is LOCKED and will not be re-voiced. Entry completed at ship.
+**Spend ≈$4.82** (3 anchors $0.40 + 32 beats $4.29 + 1 reroll $0.13). Meter after: $110.95.
+**Reroll rate 2.9% (1 of 35) — the lowest of the wave.** 35 pictures against V1's EIGHT;
+167.6 s delivered, identical to V1 to the millisecond; AUDIO LOCK PASS (SHA256 e9a026c8…).
+Git blob f3fc5125…
+
+1. **V1's real defect was coverage.** `s6-good-harvest.jpeg` held the screen from 87.37 s to
+   132.21 s — FORTY-FOUR SECONDS across four segments (j8, n9, j3, n10). That one still
+   covered the whole good-ground half of the parable, including Jesus's own fifteen-second
+   explanation in j3. `s3-wayside-birds.jpeg` held another 25 s across j4, n4 and n5.
+
+2. **The inherited 25-beat map was DISCARDED, not re-timed** — it ran on a 140.8 s timeline
+   against the real 167.5 s, adrift by nearly twenty-seven seconds by the end. Every window
+   recomputed from the fixed `extract_beats.py` and split on each segment's own `timing.json`
+   phrase boundaries: contiguous 0.28 s → 161.223 s, zero gaps, 4.60 s/picture, all 18
+   segment speech-starts verified with silencedetect to fall inside the window written for
+   them, and no segment left without a picture.
+
+3. **SOURCING TRAP checked and CLEARED.** The live script and the `.pre-speaker` sibling DO
+   disagree: the SPEAKER-LAW rebuild ADDED three segments the sibling has never heard of
+   (s3 = the black-letter frame of Matt 13:3, j4 = Matt 13:4, j8 = Matt 13:8) and all three
+   mp3s exist in `audio/`. Six segments (n1, n3, n8, n11, n12, card) were transcribed with
+   faster-whisper and every one matches the LIVE script word for word. No `TEXT_OVERRIDES`.
+
+4. **NEW SHARED LESSON — SEASON IS NOT ALWAYS A GLOBAL LOCK.** Row 23 established that a
+   story revisiting one outdoor location across one day must pin the SEASON in the setting
+   lock. Row 24 is the counter-case and refines the rule: this parable spans a whole growing
+   season on ONE field, so a global season lock would be a lie. **The general rule for the
+   library: pin the TERRAIN as the invariant and let each beat state its own GROWTH STAGE.**
+   Here the `FIELD` lock fixes the positions of the beaten path, the limestone shelf, the
+   thorn brake and the dark tilled corner and then says in as many words that the growth
+   stage is stated separately by each scene and is the only thing that changes. Bare earth →
+   green shoots → ripe gold barley → cut stubble all read as the same field.
+
+5. **Anchor-first casting took the rate to 2.9%** — three face-showing anchors (the SOWER
+   stepping through the field gate, the YOUNG MAN lit up with joy, the WOMAN at the moment
+   she understands) generated in their OWN run, then wired into REFS. Every beat naming a
+   locked person also restates that person positively in its own scene text.
+
+6. **The single reroll, and why it was NOT a `--redo`.** b24 came back with a large
+   out-of-focus CREAM shoulder and back filling the near foreground beside Jesus — a second,
+   unlocked figure in cream, which the CAST-CLOSURE lock names as failing the picture. That
+   is a COMPOSITION defect, and `--redo` would have attached the defective frame as a
+   rough-draft ref and preserved it. Fixed by deleting the file and restating the near
+   foreground POSITIVELY ("the camera floats low on the lake itself … nothing between it and
+   the hull but a hand's depth of clear shallow water and the pale stony bottom … nobody
+   stands, wades, kneels or passes between the camera and the boat"). One pass.
+
+7. **STAGING checked across the library.** The frame story sits in the moored boat off a
+   bright daylit shingle beach exactly where Matthew 13:1-2 puts it. Daylight and flat water
+   separate it from row 11's night gale and row 19's dawn shore with the charcoal fire, and
+   it repeats none of the Luke 15 teaching settings of rows 2, 8 and 21, row 16's lamplit
+   interior, row 22's basalt doorstep or row 23's terraced hillside.
+
+8. **Delivered and verified.** verify-mp4 OK 167.555 s / 21,681,837 bytes; captions checked
+   on 17 rendered frames (white narrator, light-blue scripture on s3, red Jesus KJV, bottom
+   band only, never over the art) and the closing card carries its words. Reviewer card
+   repointed with a unique anchor, diffed to prove only row 24 moved (rows 12 and 17
+   untouched), carries `data-review-wave="realistic-v2"`, deployed, and confirmed live with
+   the raw GitHub URL serving the matching byte size. Firebase deployed first try — the
+   quota pruned on 2026-08-02 is still holding.

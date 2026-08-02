@@ -1,3 +1,43 @@
+## 2026-08-02 — Video 24 (The Sower, Matt 13): realistic V2 shipped to the reviewer (Machine A / `Dev`, Claude worker 18)
+
+Commit: 9e728364c (claim) · fdd30fef1 (cut) · c2161ca6e (board) · this entry. Row 24 rebuilt end
+to end at native 2K: **35 pictures against V1's EIGHT**, where `s6-good-harvest.jpeg` had held the
+screen for FORTY-FOUR SECONDS across four segments (j8, n9, j3, n10) — swallowing the entire
+good-ground half of the parable including Jesus's own fifteen-second explanation of it. The
+sourcing trap was checked and cleared: the live script and the `.pre-speaker` sibling genuinely
+disagree (the SPEAKER-LAW rebuild ADDED s3, j4 and j8, whose mp3s all exist), so six segments were
+transcribed with faster-whisper and every one matches the LIVE script word for word — no
+TEXT_OVERRIDES needed. The inherited 25-beat map was discarded rather than re-timed (140.8 s
+timeline against the real 167.5 s) and every window recomputed from the fixed extract_beats and
+split on each segment's own phrase timings: contiguous 0.28 s → 161.223 s, zero gaps,
+4.60 s/picture, all 18 speech-starts verified inside their windows with silencedetect, and no
+segment left without a picture.
+
+**New shared lesson — SEASON IS NOT ALWAYS A GLOBAL LOCK.** Row 23 learned that a story revisiting
+one place across one day must pin the season. Row 24 is the counter-case: this parable spans a
+whole growing season on one field, so the rule generalises to *pin the TERRAIN as the invariant and
+let each beat state its own GROWTH STAGE*. The `FIELD` lock fixes where the beaten path, the
+limestone shelf, the thorn brake and the dark tilled corner are and says outright that the growth
+stage is the only thing that changes — bare earth, green shoots, ripe gold, cut stubble, all
+plainly the same field.
+
+Anchor-first casting (three face-showing anchors — the sower, the young man, the woman — in their
+own run) held the reroll rate to **2.9%, one picture in thirty-five, the lowest of the wave**. That
+one reroll was b24, where a large out-of-focus CREAM shoulder filled the near foreground beside
+Jesus — a second unlocked figure in cream. It was fixed at composition level (file deleted, near
+foreground restated positively as open water and stony bottom with nobody between camera and hull),
+never with `--redo`, which would have preserved the defect as a rough-draft ref. Staging: the frame
+sits in the moored boat off a bright daylit beach exactly where Matthew 13:1-2 puts it, repeating
+neither row 11's night gale, row 19's dawn shore, nor any earlier teaching setting.
+
+AUDIO LOCK PASS (SHA256 e9a026c8…), 167.6 s / 21.7 MB — the same duration as V1 to the
+millisecond. verify-mp4 OK; captions confirmed on 17 rendered frames (white narrator, light-blue
+scripture, red Jesus KJV, bottom band only) and the closing card carries its words. ≈$4.82 spend,
+meter now $110.95. The reviewer card was repointed on a unique anchor and diffed to prove only row
+24 moved (rows 12 and 17 byte-identical), carries `data-review-wave="realistic-v2"`, deployed to
+Firebase first try, and is confirmed live with the raw GitHub URL serving the matching 21,681,837
+bytes. App feed untouched.
+
 ## 2026-08-02 — Video 23 (The Workers in the Vineyard, Matt 20): realistic V2 shipped to the reviewer (Machine A / `Dev`, Claude worker 17)
 
 Commit: ee61af0a4 (claim) · c58003072 (40 pictures) · this entry (cut + board). Row 23 rebuilt
