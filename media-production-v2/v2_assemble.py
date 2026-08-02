@@ -112,6 +112,26 @@ def _speaker_overrides(v2dir):
     return dict(getattr(mod, "SPEAKER_OVERRIDES", {}))
 
 
+def _text_overrides(v2dir):
+    """TEXT_OVERRIDES from a build's beats_v2.py, if it declares any.
+
+    Captions are drawn from the V1 narration SCRIPT, but on some rows that script
+    was rewritten AFTER the voices were cut and no longer matches the mp3s that
+    actually ship (row 20: a programmatic rewrite stripped the plain-English
+    retellings out of n1b / n12 / n14 / n15, all four of which are audibly present
+    in the approved audio — confirmed by transcribing the real files). Using the
+    stale text prints words nobody says and throws that segment's caption timing
+    off as well, because the windows are matched character-by-character against the
+    timing sidecar. A build may declare TEXT_OVERRIDES = {"n12": "...", ...} with
+    the text that is genuinely spoken. V1 is never edited (hard protection #1).
+    """
+    spec = importlib.util.spec_from_file_location(
+        "beats_v2_text", os.path.join(v2dir, "beats_v2.py"))
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return dict(getattr(mod, "TEXT_OVERRIDES", {}))
+
+
 def mbm_speakers_names(v1dir):
     """The speaker constants this build's own mbm_speakers module knows."""
     spec = importlib.util.spec_from_file_location(
@@ -196,6 +216,7 @@ def main():
     # SPEAKER_OVERRIDES = {"j1": "jesus", ...} to say who is actually talking;
     # anything else that is not already a known speaker falls back to narrator.
     overrides = _speaker_overrides(v2dir)
+    text_fixes = _text_overrides(v2dir)
     known = set(mbm_speakers_names(v1dir))
     for b in data["beats"] + [data["card"]]:
         spk = b.get("speaker")
@@ -203,6 +224,10 @@ def main():
             b["speaker"] = overrides[b["seg"]]
         elif spk not in known and spk != "silence":
             b["speaker"] = "narrator"
+        if b["seg"] in text_fixes:
+            print(f"TEXT OVERRIDE {b['seg']}: caption text taken from the build's "
+                  f"beats_v2.py (the V1 script disagrees with the shipped audio)")
+            b["text"] = text_fixes[b["seg"]]
     for b in beats:
         p = os.path.join(assets_dir, b["out"])
         if not os.path.isfile(p):
