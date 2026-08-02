@@ -1135,3 +1135,11 @@ Reroll rate 32% (12 of 37). Full detail in `build-19-shore/QC.md`.
    `data-review-wave="realistic-v2"` attribute that `admin/sync-reviews.mjs` requires for the
    version lock; **note that row 19's card is still missing it**, so row 19's hash is not being
    overridden in the sync and someone should fix that card.
+
+---
+
+## ROW 21 — The Lost Sheep (Luke 15) — IN PROGRESS
+
+Claude worker 15, Machine A `Dev`, claimed 2026-08-02 by push before any spend.
+Audio locked to `media-production/build-21-lost-sheep/audio/`; every picture rebuilt at
+native 2K, anchor-first casting per the row-20 lesson.
