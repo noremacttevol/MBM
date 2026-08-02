@@ -61,7 +61,8 @@ LOCKS = {
     "SERVANT": (
         "SERVANT LOCK: the sick young man is the same person in every shot — about "
         "eighteen, slight and thin, warm olive-brown skin gone grey and waxy with "
-        "illness, dark curling hair damp at the forehead, a smooth young face with "
+        "illness, short dark hair damp and pushed off the forehead, a smooth young "
+        "face with "
         "dark shadows under the eyes. He wears a simple undyed sand-brown wool "
         "servant's tunic (never cream, never white). His face is shown clearly. No "
         "wounds, sores or medical detail are ever visible."
@@ -211,6 +212,7 @@ BEATS = [
         "id": "v2-r015-b05", "out": "s05-treated-as-property.jpeg", "seg": "n4 p1-p2",
         "window": "31.58-37.50", "wide": False, "jesus": False, "ref": False,
         "locks": ["SERVANT"],
+        "char_refs": ['assets-realistic/s04-a-servant-was-dying.jpeg'],
         "narration": ("A servant in those days was treated as property. If he died, "
                       "most masters would simply replace him."),
         "must_show": "close on the young servant's face — a boy, and plainly nobody important to the world.",
@@ -228,6 +230,7 @@ BEATS = [
         "id": "v2-r015-b06", "out": "s06-he-could-not-walk-away.jpeg", "seg": "n4 p3",
         "window": "37.50-40.96", "wide": True, "jesus": False, "ref": False,
         "locks": ["CENTURION", "SERVANT", "ROMAN-HOUSE"],
+        "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg', 'assets-realistic/s04-a-servant-was-dying.jpeg'],
         "narration": "But this master could not bring himself to walk away.",
         "must_show": "⚠️ THE FRAME THE WHOLE STORY RESTS ON: the officer sitting at the slave's bedside, helmet set aside, watching him — an armoured man keeping vigil over property.",
         "must_not_show": "no sentimentality and no weeping; it is a hard man sitting still in a chair for hours.",
@@ -240,7 +243,7 @@ BEATS = [
             "plainly been sitting there a long time. Bars of daylight cross the room. "
             "The camera is back far enough to hold both men. Every figure has two "
             "arms, two hands and one head."
-            " Shot on a 40mm lens from behind and beside the centurion, his armoured back and shoulder large and soft in the near frame and his worn face visible in three-quarter from behind, the boy's grey face sharp beyond his knee; neither man's face is turned toward the lens. Hard morning sun from the right in bars."
+            " THERE ARE EXACTLY TWO PEOPLE IN THIS ROOM AND NO THIRD: the seated officer and the boy on the bed. No second soldier, and no shoulder, arm or helmet of another man anywhere in the frame, in focus or out of focus. The boy is the SAME young man as the attached photograph — same face, same short dark hair, same sand-brown tunic. Shot on a 40mm lens from the foot of the bed at seated height, the officer in clean side profile on his stool and the boy's grey face sharp beyond him, neither face turned toward the lens. Hard morning sun from the right in bars."
         ),
     },
     # ------------------------------------------------- n5/n6 — he goes ----
@@ -248,6 +251,7 @@ BEATS = [
         "id": "v2-r015-b07", "out": "s07-a-hundred-soldiers.jpeg", "seg": "n5",
         "window": "42.44-50.66", "wide": True, "jesus": False, "ref": False,
         "locks": ["CENTURION", "SOLDIERS"],
+        "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("The master was a centurion — a Roman officer in command of a "
                       "hundred soldiers. A powerful man, and to the Jews, the enemy."),
         "must_show": "his rank made visible — the centurion at the head of a formed body of troops, men waiting on his word.",
@@ -267,6 +271,7 @@ BEATS = [
         "id": "v2-r015-b08", "out": "s08-he-went-straight-to-jesus.jpeg", "seg": "n6 p1",
         "window": "52.13-56.60", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CROWD", "CAPERNAUM"],
+        "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("Yet he left his house and went straight to Jesus, a Jewish "
                       "teacher, to beg for help."),
         "must_show": "the officer walking alone into a Galilean crowd toward Jesus — armour among unarmoured people, every head turning.",
@@ -279,13 +284,14 @@ BEATS = [
             "people are drawing back to let him through. Ahead of him Jesus has turned "
             "to face him. Hard morning light. The camera is back far enough to hold "
             "the lane. Every figure has two arms, two hands and one head."
-            " Shot on a 35mm lens from inside the crowd, past the backs, head-cloths and shoulders of Galileans that fill the near frame, the officer coming up the lane in three-quarter profile beyond them. Hard morning sun from the left down the length of the lane."
+            " THE CAMERA STANDS ON THE LANE BEHIND THE CENTURION AND SHOOTS PAST HIM: his armoured BACK, red cloak and the back of his head fill the near frame, large and out of focus, and he is walking directly AWAY from the lens up the lane, so his face is not visible at all. Beyond him the Galileans stand along both sides in profile and three-quarter, turning to watch him pass, and Jesus waits at the far end of the lane. Not one person in the picture is facing the camera. Shot on a 35mm lens at chest height. Hard morning sun from the left down the length of the lane."
         ),
     },
     {
         "id": "v2-r015-b09", "out": "s09-not-even-his-own-son.jpeg", "seg": "n6 p2-p4",
         "window": "56.60-61.23", "wide": False, "jesus": False, "ref": False,
         "locks": ["CENTURION", "CROWD"],
+        "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": "Not for himself. Not even for his own son. For a servant.",
         "must_show": "close on the centurion's face in the hostile crowd — set, humbled, going through with it anyway.",
         "must_not_show": "no arrogance and no fear; grim determination on behalf of somebody else.",
@@ -296,7 +302,7 @@ BEATS = [
             "face of a man who has decided to do something humiliating and is doing "
             "it. The blurred wary faces of Galileans press close on both sides. Hard "
             "light on the iron at his shoulder. He has one head."
-            " Shot on an 85mm lens wide open: his weathered face sharp, the wary Galilean faces on both sides blurred to shapes and colour."
+            " HIS HEAD IS IN CLEAN SIDE PROFILE TO THE CAMERA and his eyes travel straight out of the LEFT edge of the frame toward the far end of the lane, so his pupils are nowhere near the lens. Shot on an 85mm lens wide open: his weathered profile sharp, the wary Galilean faces on both sides blurred to shapes and colour."
         ),
     },
     # ---------------------------------------------------- n7 — the plea ----
@@ -304,6 +310,7 @@ BEATS = [
         "id": "v2-r015-b10", "out": "s10-he-came-humbly.jpeg", "seg": "n7 p1",
         "window": "62.70-70.27", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CROWD"],
+        "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("He came humbly, head bowed, and told Jesus the plain truth: his "
                       "servant was at home, unable to move, in agony."),
         "must_show": "⚠️ THE HELMET COMES OFF: the centurion standing before Jesus with his crested helmet OFF and held under his arm, head bowed, speaking.",
@@ -317,13 +324,14 @@ BEATS = [
             "gone silent and is staring. Hard morning light. The camera is back far "
             "enough to see both men head to feet. Every figure has two arms, two hands "
             "and one head."
-            " Shot on a 40mm lens from the edge of the crowd, past the backs of two watching Galileans soft in the near frame, both men standing in profile to each other in the middle distance so neither faces the lens. Hard morning sun from the left."
+            " HE IS IN FULL OFFICER'S KIT AS LOCKED — the segmented iron cuirass over the deep-red tunic, the red cloak pinned at the shoulder, the wide studded belt and hobnailed boots — with ONLY the helmet removed and clamped under his arm. Shot on a 40mm lens from the edge of the crowd, past the backs of two watching Galileans soft in the near frame, both men standing in profile to each other in the middle distance so neither faces the lens. Hard morning sun from the left."
         ),
     },
     {
         "id": "v2-r015-b11", "out": "s11-could-you-help-him.jpeg", "seg": "n7 p2",
         "window": "70.27-72.03", "wide": False, "jesus": False, "ref": False,
         "locks": ["CENTURION"],
+        "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": "Could Jesus help him?",
         "must_show": "close on the officer's face asking — a commander of a hundred men asking for something he cannot order.",
         "must_not_show": "do not put Jesus in this frame.",
@@ -342,6 +350,7 @@ BEATS = [
         "id": "v2-r015-b12", "out": "s12-not-a-moments-hesitation.jpeg", "seg": "n8",
         "window": "73.51-78.10", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CROWD"],
+        "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("Jesus did not hesitate for a moment. He answered that he would go "
                       "to the house himself."),
         "must_show": "Jesus already turning and stepping toward the Roman quarter — the answer given with his feet, and the crowd reacting to it.",
@@ -377,6 +386,7 @@ BEATS = [
         "id": "v2-r015-b14", "out": "s14-into-the-enemys-house.jpeg", "seg": "n9 p1-p2",
         "window": "82.32-91.89", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CROWD", "CAPERNAUM"],
+        "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("Stop and see what that means. Jesus was willing to walk into the "
                       "home of a Roman — the enemy — for the sake of one dying servant "
                       "nobody else valued."),
@@ -414,6 +424,7 @@ BEATS = [
         "id": "v2-r015-b16", "out": "s16-but-the-officer-stopped-him.jpeg", "seg": "n10 p1",
         "window": "95.35-96.73", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION"],
+        "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": "But the officer stopped him.",
         "must_show": "the centurion's hand coming up to halt Jesus — stopping the very thing he came to ask for.",
         "must_not_show": "no halo, glare or rim-light; the gesture is respectful, not commanding.",
@@ -431,6 +442,7 @@ BEATS = [
         "id": "v2-r015-b17", "out": "s17-i-am-not-worthy.jpeg", "seg": "n10 p2",
         "window": "96.73-100.96", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CROWD"],
+        "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("Lord, he said, I am not worthy to have you come into my home."),
         "must_show": "⚠️ THE INVERSION: the Roman officer lowering himself before a Galilean carpenter — head down, shoulders bowed, in front of a whole street.",
         "must_not_show": "no halo, glare or rim-light; the crowd's reaction is astonishment, not triumph.",
@@ -443,13 +455,14 @@ BEATS = [
             "watching crowd has gone completely still with astonishment. Hard morning "
             "light. The camera is back far enough to hold both men and the near crowd. "
             "Every figure has two arms, two hands and one head."
-            " Shot on a 40mm lens from just behind Jesus's shoulder, his back and shoulder soft in the near frame, the officer's bowed bare grey head sharp beyond him, and the near crowd seen in three-quarter from behind. Hard morning sun from the left."
+            " EVERY GARMENT IN THE NEAR FOREGROUND IS A SATURATED DEEP EARTH COLOUR — dark chocolate brown, deep russet, burnt ochre, dark olive or dusty indigo — and there is NO pale, ivory, sand or cream cloth anywhere in the frame except on Jesus himself. Shot on a 40mm lens from just behind the shoulder of a russet-clad Galilean, his back soft in the near frame, the officer's bowed bare grey head sharp beyond him, and the near crowd seen in three-quarter from behind. Hard morning sun from the left."
         ),
     },
     {
         "id": "v2-r015-b18", "out": "s18-only-speak-the-word.jpeg", "seg": "n10 p3",
         "window": "100.96-104.31", "wide": False, "jesus": False, "ref": False,
         "locks": ["CENTURION"],
+        "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("Only speak the word, and my servant will be healed."),
         "must_show": "close on the officer's face saying it — absolute certainty, no doubt anywhere in it.",
         "must_not_show": "do not put Jesus in this frame; no pleading — this is a statement of fact.",
@@ -466,6 +479,7 @@ BEATS = [
         "id": "v2-r015-b19", "out": "s19-his-word-was-enough.jpeg", "seg": "n11",
         "window": "105.79-114.57", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CROWD"],
+        "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("He was not just being polite. He truly believed Jesus did not "
                       "need to be there at all. He believed that Jesus's word, by "
                       "itself, was enough."),
@@ -487,6 +501,7 @@ BEATS = [
         "id": "v2-r015-b20", "out": "s20-a-man-under-authority.jpeg", "seg": "n12 p1-p2",
         "window": "116.03-121.58", "wide": False, "jesus": False, "ref": False,
         "locks": ["CENTURION"],
+        "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("And he explained why, in the only language a soldier knows. I am "
                       "a man under authority, he said."),
         "must_show": "the officer explaining with a soldier's plainness — one hand flat, laying out a chain of command.",
@@ -542,6 +557,7 @@ BEATS = [
         "id": "v2-r015-b23", "out": "s23-it-could-reach-across-the-town.jpeg", "seg": "n13 p2",
         "window": "134.26-140.44", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CAPERNAUM"],
+        "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("He was certain Jesus's word worked the same way — that it could "
                       "reach across the town and heal on its own."),
         "must_show": "the officer's hand pointing away across the rooftops toward his own house — naming the distance the word has to cross.",
@@ -573,13 +589,14 @@ BEATS = [
             "the completely unguarded face of someone who has just been surprised and "
             "is delighted by it. There is nothing composed or knowing in it. Hard "
             "midday light, the blurred lane behind."
-            " Shot on an 85mm lens wide open: his astonished face sharp edge to edge, his eyes gone to the officer and clear off the camera axis, the lane behind melted to soft light. Hard midday sun from above and the left."
+            " HIS HEAD IS TURNED WELL OFF THE CAMERA AXIS INTO THREE-QUARTER and his eyes are fixed on the officer standing away to his right, travelling clearly out through the RIGHT edge of the frame — his pupils are nowhere near the lens and he is not looking at the viewer at any point. Shot on an 85mm lens wide open: his astonished face sharp edge to edge, the lane behind melted to soft light. Hard midday sun from above and the left."
         ),
     },
     {
         "id": "v2-r015-b25", "out": "s25-he-turned-to-the-crowd.jpeg", "seg": "n14 p3",
         "window": "150.04-151.65", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CROWD", "CENTURION"],
+        "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": "He turned to the crowd and said:",
         "must_show": "Jesus turning away from the officer to address the watching Galileans, arm sweeping toward them.",
         "must_not_show": "no halo, glare or rim-light; the centurion stays where he is, bare-headed.",
@@ -598,6 +615,7 @@ BEATS = [
         "id": "v2-r015-b26", "out": "s26-not-in-israel.jpeg", "seg": "j2",
         "window": "153.13-157.35", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CROWD", "CENTURION"],
+        "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("Verily I say unto you, I have not found so great faith, no, not "
                       "in Israel. (Matthew 8:10)"),
         "must_show": "the sentence landing on the Galilean crowd — faces turning to look at the Roman standing behind him, expressions reordering.",
@@ -617,6 +635,7 @@ BEATS = [
         "id": "v2-r015-b27", "out": "s27-no-one-among-his-own-people.jpeg", "seg": "n15",
         "window": "158.81-167.64", "wide": True, "jesus": False, "ref": False,
         "locks": ["CROWD", "CENTURION"],
+        "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("In plain words: no one among his own people, the ones who should "
                       "have known God best, had ever trusted him the way this outsider "
                       "just had."),
@@ -710,6 +729,7 @@ BEATS = [
         "id": "v2-r015-b32", "out": "s32-it-is-whether-you-trust-him.jpeg", "seg": "n17 p2-p3",
         "window": "187.04-193.91", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CROWD"],
+        "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("What brings you in is not where you were born, or which group you "
                       "belong to. It is whether you trust him."),
         "must_show": "back in the lane: Jesus, the Roman and the Galileans in one frame with nobody separated from anybody.",
@@ -729,6 +749,7 @@ BEATS = [
         "id": "v2-r015-b33", "out": "s33-he-turned-back-to-the-soldier.jpeg", "seg": "n18",
         "window": "195.38-200.77", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION"],
+        "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("Then Jesus turned back to the soldier and gave him the one thing "
                       "he had asked for — a single word."),
         "must_show": "the two of them face to face and close, Jesus turning his full attention back onto the officer.",
@@ -764,6 +785,7 @@ BEATS = [
         "id": "v2-r015-b35", "out": "s35-no-touch-no-visit.jpeg", "seg": "n19",
         "window": "207.34-215.00", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CENTURION", "CAPERNAUM"],
+        "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("Go home; it has already happened, just as you trusted it would. "
                       "No touch, no visit — only his word, sent across the town."),
         "must_show": "the two men standing apart with clear air between them and the rooftops of the far Roman quarter visible beyond — nothing has crossed the space but a sentence.",
@@ -784,6 +806,7 @@ BEATS = [
         "id": "v2-r015-b36", "out": "s36-a-deep-clean-breath.jpeg", "seg": "n20 p1",
         "window": "216.47-222.31", "wide": False, "jesus": False, "ref": False,
         "locks": ["SERVANT", "ROMAN-HOUSE"],
+        "char_refs": ['assets-realistic/s04-a-servant-was-dying.jpeg'],
         "narration": ("And in that very hour, far away in the Roman house, the young "
                       "servant drew a deep, clean breath."),
         "must_show": "⚠️ NO JESUS IN THIS FRAME. Close on the boy alone on the bed as his chest rises in a full deep breath for the first time.",
@@ -802,6 +825,7 @@ BEATS = [
         "id": "v2-r015-b37", "out": "s37-he-sat-up-completely-well.jpeg", "seg": "n20 p2",
         "window": "222.31-228.27", "wide": True, "jesus": False, "ref": False,
         "locks": ["SERVANT", "ROMAN-HOUSE"],
+        "char_refs": ['assets-realistic/s04-a-servant-was-dying.jpeg'],
         "narration": ("The color flowed back into his face, his body loosened, and he "
                       "sat up, completely well."),
         "must_show": "him sitting up on the edge of the bed on his own — rigid limbs loosened, colour back in his face, looking at his own hands.",
@@ -822,6 +846,7 @@ BEATS = [
         "id": "v2-r015-b38", "out": "s38-no-one-was-in-the-room.jpeg", "seg": "n21",
         "window": "229.74-235.68", "wide": True, "jesus": False, "ref": False,
         "locks": ["SERVANT", "ROMAN-HOUSE"],
+        "char_refs": ['assets-realistic/s04-a-servant-was-dying.jpeg'],
         "narration": ("No one was in the room with him. He was made whole by nothing but "
                       "the word of a man he had never even met."),
         "must_show": "⚠️ THE EMPTY ROOM — a wide frame proving he is completely alone: the door shut, the stool empty, nobody there.",
@@ -834,7 +859,7 @@ BEATS = [
             "peg. There is no other person and no shadow of one anywhere in the frame. "
             "Hard ordinary daylight comes through the shutter in bars. He has two "
             "arms, two hands and one head."
-            " Shot on a 24mm lens from the far corner at standing height, deep focus so every corner, the shut door and the vacant stool are all legible and plainly empty. Hard afternoon sun through the shutter."
+            " HE IS THE SAME YOUNG MAN AS THE ATTACHED PHOTOGRAPH — identical face, identical short dark hair, identical fair-toned complexion with the colour just returned to it, identical sand-brown servant's tunic. Shot on a 24mm lens from the far corner at standing height, deep focus so every corner, the shut door and the vacant stool are all legible and plainly empty. Hard afternoon sun through the shutter."
         ),
     },
     # ------------------------------------------------------ n22 — the reunion ----
@@ -842,6 +867,7 @@ BEATS = [
         "id": "v2-r015-b39", "out": "s39-he-rose-to-meet-him.jpeg", "seg": "n22 p1",
         "window": "237.15-242.56", "wide": True, "jesus": False, "ref": False,
         "locks": ["CENTURION", "SERVANT", "ROMAN-HOUSE"],
+        "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg', 'assets-realistic/s04-a-servant-was-dying.jpeg'],
         "narration": ("When the officer reached home, his servant rose to meet him at "
                       "the door, alive and well."),
         "must_show": "the boy standing in the doorway on his own legs as the officer arrives — the master stopped dead on the threshold.",
@@ -861,6 +887,7 @@ BEATS = [
         "id": "v2-r015-b40", "out": "s40-the-soldier-came-apart.jpeg", "seg": "n22 p2",
         "window": "242.56-246.20", "wide": False, "jesus": False, "ref": False,
         "locks": ["CENTURION"],
+        "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg'],
         "narration": ("This hardened soldier, who commanded a hundred men, came apart."),
         "must_show": "close on the officer's face breaking — twenty years of discipline collapsing all at once.",
         "must_not_show": "do not put Jesus in this frame; this is not dignified weeping — it is a hard man losing hold of himself.",
@@ -878,6 +905,7 @@ BEATS = [
         "id": "v2-r015-b41", "out": "s41-the-word-had-been-enough.jpeg", "seg": "n22 p3",
         "window": "246.20-249.92", "wide": True, "jesus": False, "ref": False,
         "locks": ["CENTURION", "SERVANT", "ROMAN-HOUSE"],
+        "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg', 'assets-realistic/s04-a-servant-was-dying.jpeg'],
         "narration": ("He had trusted Jesus's word, and the word had been enough."),
         "must_show": "the closing frame: the officer holding the boy — an armoured Roman with both arms around a slave.",
         "must_not_show": "do not put Jesus in this frame; nobody else is present. The whole story ends with the two people it was about.",
