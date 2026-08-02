@@ -32,6 +32,23 @@ frame, so the teaching and the parable share one place and only the plant change
 frames extracted and viewed, raw GitHub URL verified at 20,288,189 bytes, live card carries
 `data-review-wave="realistic-v2"`. Awaiting Cameron.
 
+## 2026-08-02 — Row 28 (Hidden Treasure, Matthew 13:44) realistic V2 shipped
+**Commit:** `42b855efe50851b4fff75d82d7a241a736d05dc1`
+**Machine:** A (`Dev`) · Claude worker 22
+
+Claimed row 28 by push before any spend, then built and shipped the realistic V2 cut.
+29 pictures at native 2K against V1's SEVEN — V1 held one still for the last 22.5
+seconds, across the entire meaning of the parable. AUDIO LOCK PASS byte-identical
+(SHA256 e11dfb5a…), 98.8 s / 20.9 MB; windows recomputed from extract_beats and split
+on measured word timings, contiguous with zero gaps, every speech onset verified inside
+its own window. Staged in an olive grove, a walled stony field and a poor mud-brick
+dooryard — none of them used elsewhere in the wave. Reroll rate 25.6% (10 of 39),
+≈$5.22. New shared **HAND-TOOLS** lock added to `v2_prompt.py` (a working scene's own
+anachronism is the tool in the hand, which PERIOD-MATERIALS does not reach). Live on
+the reviewer with `data-review-wave="realistic-v2"`, raw URL serving 20,879,508 bytes.
+Full detail, including a PERIOD-MATERIALS coin exception the next worker should make,
+in `media-production-v2/PRODUCTION-LEDGER.md`.
+
 ## 2026-08-02 — Row 27 (The Leaven) realistic V2 shipped + two shared locks promoted
 **Machine:** A (Dev) · **Worker:** Claude worker 19 · **Commit:** dacfcc37e
 
