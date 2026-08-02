@@ -111,6 +111,36 @@ DEFECT_LOCK = (
     "generic bystander and no two of them are given the same face."
 )
 
+# PERIOD-MATERIALS — promoted into the shared recipe 2026-08-01 (Claude worker 13) on
+# row 19, the first V2 build whose second half lives in an open BOAT on a SHORE. Rows
+# 16 and 18 already paid for the interior half of this lesson twice (glass kerosene
+# lamps, a wrought-iron candelabra, a modern fixture) and each time the fix was pushed
+# into ONE build's HOUSE lock, so the next new setting had no protection at all. The
+# defect family is the same one every time and it is not "lighting" — it is that a
+# NEW SETTING invents MANUFACTURED OBJECTS: machined boat fittings, nylon rope,
+# monofilament net, moulded floats, a painted hull, a metal cooking grill. Stated
+# POSITIVELY (what everything IS made of) rather than as a prohibition list, per the
+# row-10/row-14 geometry lesson.
+PERIOD_MATERIALS_LOCK = (
+    "PERIOD-MATERIALS LOCK: every object in the frame is something a first-century "
+    "household or working crew could make by hand. Wood is hewn, adzed and pegged; "
+    "rope and cord are twisted natural flax or hemp fibre; nets and baskets are "
+    "hand-knotted or woven from plant fibre; vessels, lamps and jars are fired clay; "
+    "blades, nails and tools are hand-forged iron or bronze showing hammer marks; "
+    "cloth is hand-woven wool or linen in dyes of that place and century. EVERY OPEN "
+    "FLAME IN THE FRAME, near or far, sharp or blurred, is either a bare wick standing "
+    "in a shallow clay oil lamp, a torch, or a fire of wood or charcoal directly open "
+    "to the air. NOTHING IN THE PICTURE IS MANUFACTURED, MOULDED, MACHINED OR "
+    "INDUSTRIAL: no plastic, nylon, monofilament, synthetic cord or foam; no glass of "
+    "any kind, no glass chimney, globe, lantern or kerosene lamp; no candle, "
+    "candlestick, candelabra or hanging fixture; no machined metal fitting, cleat, "
+    "screw, bolt, hinge, buckle, zip, wire, chain-link or sheet metal; no painted, "
+    "varnished, fibreglass or white-hulled boat; no engine, motor or propeller; no "
+    "cooking grill, grate, tripod or pan; no printed, stencilled or repeating-pattern "
+    "fabric; no rubber, no cardboard, no paper label, and no writing, lettering or "
+    "numerals on any object."
+)
+
 # JESUS LOCK v4 — byte-identical in every prompt where Jesus appears.
 # JESUS LOCK v5 — Cameron, 2026-07-30. Supersedes v4 once a face candidate is picked.
 #
@@ -300,7 +330,8 @@ def load_beats(build_dir):
 
 def assemble(beat, local_locks):
     """Build the full prompt string for one beat."""
-    parts = [STYLE_V2, QUALITY_LOCK, DEFECT_LOCK, POSITIVE_INVENTORY_LOCK]
+    parts = [STYLE_V2, QUALITY_LOCK, DEFECT_LOCK, POSITIVE_INVENTORY_LOCK,
+             PERIOD_MATERIALS_LOCK]
     if beat.get("wide"):
         parts.append(WIDE_DEFENSE)
         parts.append(WIDE_GEOMETRY_LOCK)
