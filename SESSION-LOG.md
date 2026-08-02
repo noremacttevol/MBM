@@ -1,3 +1,39 @@
+## 2026-08-02 — Video 19 (Breakfast on the Shore, John 21): realistic V2 shipped to the reviewer (Machine A / `Dev`, Claude worker 13)
+
+Commit: 037e6a4cb (cut + reviewer card) · d2ee4b0 pending (bookkeeping). Row 19 claimed
+by push before a cent was spent, built end to end, and deployed live.
+
+37 pictures at native 2K against V1's 16. The inherited beat map was scaffolded on a
+136.1 s timeline against the real 157.8 s, so every window was recomputed from the fixed
+extract_beats reading the V1 build, then split on each segment's own phrase timings:
+contiguous 0.28 s → 149.583 s, zero gaps or overlaps, 4.0 s a picture. That density is
+deliberate — this is the story Cameron named as the burst-coverage example (not knowing
+it's Jesus → being told → realising → leaping out of the boat → swimming), and each of
+those micro-beats now has its own frame.
+
+A trap worth remembering: the copy of make_narration.py and audio/ sitting in the V2
+folder is STALE and is missing four retellings that ARE spoken in the shipped audio.
+A beat map written from it would have been wrong about four segments. Read the V1 build.
+
+Audio was never touched — 44.1 kHz/128 kbps ElevenLabs throughout, AUDIO LOCK PASS
+(SHA256 e88bb8af…), and the delivered 156.967 s matches the V1 mp4 to the millisecond.
+
+Reroll rate 32% (12 of 37) and the defect family was the SETTING: this is the first V2
+build living in an open boat, on a shore, at a charcoal fire. Two new blocks now ride on
+EVERY V2 prompt — PERIOD-MATERIALS (what everything is made of, stated positively) and
+GARMENT-CONSTRUCTION (no dressing-gown collars, lapels or bow sashes) — after a modern
+cast net with moulded floats and a bathrobe-shaped robe came back. Peter drifted into a
+grey-haired old man in three shots, all of them wide: a face sheet does not hold a figure
+the size of a thumbnail, so an explicit age-and-hair invariant is now attached to every
+beat that names him. Two background faces rendered as light SOURCES around night coals.
+And the "lovest thou me" frame only stopped staring down the lens when the gaze was given
+a target inside the picture — an over-the-shoulder two-shot.
+
+Spend $6.56, one generator process at a time, every run under a hard ceiling recomputed
+from the live meter (meter $74.50 → $81.07, zero duplicate billing). The reviewer card
+was sliced out by its own id boundaries and diffed: 3 lines changed, all inside v19, with
+v12 and v17 verified byte-identical. Live card checked on milk-b4-meat.web.app.
+
 ## 2026-08-01 — Video 15 (The Centurion's Servant): shipped; two "blocking" audio defects were misdiagnoses (Machine A / `Dev`, Claude worker 11)
 
 Commit: 846cd540a (ship) · e64cad10f (reviewer) · b5cf0418e (audit). Row 15 was

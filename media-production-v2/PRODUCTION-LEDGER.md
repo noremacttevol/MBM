@@ -1027,6 +1027,52 @@ WHAT THIS ROW COST AND WHY — read this before the next one:
 
 ## Row 19 — Breakfast on the Shore (John 21) — Claude worker 13, Machine A `Dev`, 2026-08-01
 
-Claimed before any spend. Audio LOCKED (reused unchanged, never re-voiced). Every
-picture rebuilt at native 2K to the realistic standard; every window re-timed from
-the fixed `extract_beats.py`. Spend and lessons appended below as the row proceeds.
+SHIPPED to the reviewer 2026-08-02. Audio LOCKED (reused unchanged, never re-voiced).
+37 pictures at native 2K against V1's 16; every window recomputed from the fixed
+`extract_beats.py`. **Spend $6.56** — $4.96 first pass (37 images), $1.47 rerolls (11),
+$0.13 a second reroll of b27. One generator process at a time, every run under a hard
+`--ceiling` recomputed from the live meter; meter $74.50 → $81.07, zero duplicate billing.
+Reroll rate 32% (12 of 37). Full detail in `build-19-shore/QC.md`.
+
+### Lessons this row paid for
+
+1. **A NEW SETTING is where the money goes, and the fix belongs in the SHARED recipe.**
+   Rows 16 and 18 both paid for the interior half of this lesson (glass kerosene lamps, a
+   candelabra, a modern fixture) and both times the fix went into ONE build's HOUSE lock —
+   so row 19, the first build set in an open boat on a shore, had no protection at all and
+   invented a modern circular cast net with moulded floats and a dressing-gown robe. Two new
+   shared blocks now ride on EVERY V2 prompt: **PERIOD-MATERIALS** (what everything IS made
+   of — hewn wood, twisted flax, fired clay, hand-forged iron, hand-woven wool; every open
+   flame a bare wick or a wood/charcoal fire) and **GARMENT-CONSTRUCTION** (a garment is a
+   straight woven rectangle; no shawl collar, lapel, placket, cuff, buttons or bow-tied sash).
+
+2. **An approved character sheet does not hold a character who is SMALL in the frame.**
+   Peter came back as a grey-haired old man in three shots — every one of them a wide or
+   middle-distance frame — while every close-up matched the sheet perfectly. The CAST-V2
+   images are face sheets, so their weight collapses with subject size. Cure: an explicit
+   AGE-AND-HAIR INVARIANT in text (`PETER-HOLD`), attached to every beat that names him,
+   restating the invariant "near, far, sharp or blurred". Row 18 learned that an anchor must
+   SHOW the face; row 19 adds that an anchor cannot carry a figure the size of a thumbnail.
+
+3. **A face can come back as a light SOURCE.** Two background figures around night coals
+   rendered as burning red masks. The scene said "faces lit orange from below", and the model
+   resolved "lit" as "luminous". The COURTYARD lock now says a face receives light and never
+   emits it — worth porting to any future night-fire build.
+
+4. **The lens-gaze defect can survive a correctly-worded fix.** b27 (the "lovest thou me"
+   frame) kept putting Jesus's pupils on the lens even after the geometry sentence named the
+   camera's position. What finally cured it was giving the gaze a TARGET INSIDE THE FRAME:
+   an over-the-shoulder two-shot with Peter's out-of-focus shoulder in the near frame. When a
+   tight shot of one person keeps looking at the viewer, put the other person in the picture.
+
+5. **The V2 folder's copy of a build's narration script can be STALE.** build-19-shore's V2
+   copy of `make_narration.py` and `audio/` predate the V1 folder's by a day and are missing
+   four retellings that ARE in the shipped audio. `extract_beats.py` reads the V1 build, which
+   is correct; a beat map written from the V2 folder's script would have been wrong about four
+   segments. Never read a build's script from the V2 folder.
+
+6. **`site/review.html` card edit, done safely:** the card was sliced out by its `id="v19"` /
+   `id="v20"` boundaries, edited inside that slice, and the result diffed — exactly 3 lines
+   changed, all inside v19, and the v12, v17, v18, v20 and v21 cards verified byte-identical
+   by SHA-256 before commit.
+
