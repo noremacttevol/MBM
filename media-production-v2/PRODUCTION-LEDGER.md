@@ -1856,3 +1856,12 @@ a rim legend and an emperor's portrait head, and Jesus himself points at one and
 the historically CORRECT object and the beat kept rejecting it. Carve out an explicit
 coin exception in PERIOD-MATERIALS rather than re-learning this. (The final s25 keeps
 the legend and the head, and it is right.)
+
+## Row 29 — The Pearl of Great Price (Matthew 13:45-46) — Claude worker 23, Machine A `Dev`, 2026-08-02
+
+🟡 **CLAIMED 2026-08-02** before any spend. V1 `matthew-13_pearl-of-great-price.mp4`
+runs 115.798 s / 19,828,134 bytes on SIX stills (`s1-merchant` … `s6-pearl-radiant`)
+for 13 narration segments — n1, j1 (13:45), n2-n5, j2 (13:46), n6-n10, card. Full
+realistic V2 rebuild in progress: audio locked, windows recomputed from
+`extract_beats` and measured word timings, anchor-first casting, staged so it
+repeats no setting already used in the wave.
