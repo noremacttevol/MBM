@@ -1425,3 +1425,9 @@ Git blob f3fc5125…
    untouched), carries `data-review-wave="realistic-v2"`, deployed, and confirmed live with
    the raw GitHub URL serving the matching byte size. Firebase deployed first try — the
    quota pruned on 2026-08-02 is still holding.
+
+---
+
+## Row 25 — Wheat and Tares (Matthew 13) — realistic V2 rebuild
+
+**Claimed 2026-08-02 (Machine A, Dev — Claude worker 19).** Claim pushed before any spend.
