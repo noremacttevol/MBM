@@ -12,14 +12,12 @@ touching anything else. Do NOT edit by hand.
 |---|---|---|
 | 1 | UNFIXED | 1:10 picture has Jesus’s eyes looking weird |
 | 4 | newer cut shipped — VERIFY fixed | Captions are messed up at 38 - 46 seconds |
-| 6 | newer cut shipped — VERIFY fixed | Your shortening of the videos has gotten out of hand. In this one the father didnt really ask either son anything and thats not how Jesus tsught it. It can be shorter than the original but it has to hit all of the points well. And here you cut out the original thing the father asked the sons |
-| 7 | newer cut shipped — VERIFY fixed | The boat should not have modern glass lamps. Remove every glass/artificial boat lamp and its orange glow, use moonlight only, and study the Matthew 14 scene more carefully..... Immediatly is pronounced wrong and these old complaints chouldnt be here in this box. |
 | 10 | newer cut shipped — VERIFY fixed | Still to short |
-| 11 | newer cut shipped — VERIFY fixed | The first picture is messed up. I dont see how you messed it up this bad it was fine before. Another picture has someone climbing up that mast, thats stupid.  The next has people pouring water inside the boat... idk if this is alex talking or not but its obviojs that jesus didnt say peace, be still that fast. We need to fix it . |
+| 11 | UNFIXED | too many pictures that are different then each other. like there are 10 pictures of 4 people in one kind of boat and10 picturse of5 people in a differe nt kind of boast and10 pictures of6 people in a differe nt kind of boat. every pictuereneeds to be uniform because some pictures dont have jesusintheboat at alland somehave himin the frontandsomehave him inthe back . alsothe onethat says they wakehim  with rough hans has someone else  jesus being woken with rough hands so all the pictures are bad basically we need to have you check them for unifromity which i know you can do becaseu you can look at each of these pictures and tell me how many people are in them so why does it change? |
 | 12 | newer cut shipped — VERIFY fixed | Captions are off at 1 minute |
-| 13 | newer cut shipped — VERIFY fixed | Some of the pictures need to be redone. I hope you can figure out which ones if not i will get.you to design a bot or find a better ai |
+| 13 | UNFIXED | 1:37 picture is missing the man on the mat |
 | 14 | newer cut shipped — VERIFY fixed | The first half needs better pictures |
-| 15 | newer cut shipped — VERIFY fixed | Old voice still this isn't the newest one i picked |
+| 15 | UNFIXED | the sick boy's age keeps changing and he looks too grey to be a human and partially alive like he shouldnt be that grey and his age should stay the same |
 | 16 | newer cut shipped — VERIFY fixed | That's not how you pronounce wound |
 | 17 | UNFIXED | At 23 seconds it shows the wrong captions from.the older version for a split second before going to the new edit where it has the pink captions |
 | 18 | newer cut shipped — VERIFY fixed | Not real new voice |
