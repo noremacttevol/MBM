@@ -117,6 +117,14 @@ media-production/build-*/qc/
 # staged here only for Firebase Hosting deploy (regenerate by copying finals in).
 site/story-videos/
 
+# Hosting artifacts staged for deploy — 2.8 GB of duplicate cuts. A single
+# `git add -A site/` swept these in on 2026-08-02 and the push died with HTTP 500,
+# which is the same failure that cost this repo days in July. They are copies of
+# tracked finals; never commit them. (site/fixed/SERVE-LOCAL.txt stays tracked.)
+site/fixed/*.mp4
+site/*.mp4
+!site/Milk-Before-Meat-Explainer.mp4
+
 # SPEAKER-LAW working files — audition audio and the generated page are large
 # and machine-local; the law, the survey and the stills work-order are tracked.
 media-production/SPEAKER-LAW/auditions/
