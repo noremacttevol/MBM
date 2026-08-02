@@ -167,7 +167,7 @@ Eve) · 179 (Stephen, the Father — also in Fix queue) · 180 (Jeremiah) · 184
 | 11 | Calming the storm | Mark 4 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 12 | Blind Bartimaeus | Mark 10 | ✅ | ✅ | ⬜ | ⬜ | APPROVED 2026-07-17 (Cameron) |
 | 13 | Through the roof | Mark 2 | ✅ | ✅ | ⬜ | ⬜ | **REALISTIC V3 SHIPPED TO REVIEWER — Codex Dev — 2026-08-01.** 45 final pictures pass full-frame QC; the paralysed man, four distinct friends, and Jesus pass hash-backed identity boards; exactly four carriers/four ropes and the complete mat/healing sequence are retained. Full 4:59 existing script/audio present; Jesus source clips proven byte-identical to the locked Alexander take. Replacement returns to Unwatched with the prior picture complaint retained. App feed unchanged. |
-| 14 | The ten lepers | Luke 17 | ✅ | ✅ | ⬜ | ⬜ | APPROVED 2026-07-17 (Cameron) — FIX-LATER: ~0:55 lepers look like giants vs Jesus/disciples, fix scale |
+| 14 | The ten lepers | Luke 17 | ✅ | ✅ | ⬜ | ⬜ | APPROVED 2026-07-17 (Cameron) — FIX-LATER: ~0:55 lepers look like giants vs Jesus/disciples, fix scale. **CLAIMED 2026-08-01 — Claude worker 9, Machine A (`Dev`) — realistic V2 rebuild in progress.** |
 | 15 | The centurion | Matt 8 | ✅ | ✅ | ⬜ | ✅ | APPROVED 2026-07-17 (Cameron) |
 | 16 | Mary and Martha | Luke 10 | ✅ | ✅ | ⬜ | ⬜ | APPROVED 2026-07-17 (Cameron) |
 | 17 | Jesus wept (Lazarus) | John 11 | ✅ | ⬜ | ⬜ | ⬜ | REJECTED 2026-07-17 (Cameron) — not good; DEFERRED redo: get to it only after ALL other videos are done (see Fix queue) |

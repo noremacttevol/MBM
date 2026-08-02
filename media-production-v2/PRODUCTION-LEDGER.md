@@ -736,6 +736,23 @@ three-quarter angle with his head turned away from the lens" fixed it.
 
 ---
 
+## Session 11 — 2026-08-01 — CLAIM: story 14 (ten lepers) realistic rebuild (Claude worker 9, Machine A / `Dev`)
+
+- **Model:** Opus 5 (Claude Code) · **Machine:** Machine A — hostname `Dev`
+- **CLAIM (2026-08-01): story 14 `build-14-ten-lepers` for the REALISTIC rebuild.**
+  Row 14 carries an open Cameron FIX-LATER ("~0:55 the ten lepers look like GIANTS
+  next to Jesus and the disciples; fix the scale") — the rebuild must fix the scale
+  by stating the geometry (where the camera stands, how far up each group of figures
+  reaches in frame), not by forbidding "giants". 14 of its 31 existing V2 stills are
+  768x1376 per the resolution audit; all fall under the Session 6 blanket rejection.
+  New set generates to `assets-realistic/` via `v2_gen_api.py` (gemini-3-pro-image,
+  native 2K, hard per-run ceiling from the live shared meter, `--only` slices).
+  Audio LOCKED to the authoritative narration — no re-voicing. Windows re-timed from
+  the fixed `extract_beats.py` and verified with silencedetect. Ships to Reviewer only.
+- Session results are appended below when the row closes.
+
+---
+
 ## Session 10 — 2026-08-01 — CLAIM: story 10 (woman at the well) realistic rebuild (Claude worker 7, Machine A / `Dev`)
 
 - **Model:** Fable 5 (Claude Code) · **Machine:** Machine A — hostname `Dev`
