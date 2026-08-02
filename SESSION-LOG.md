@@ -1,3 +1,72 @@
+## 2026-08-02 — Row 36 The Shrewd Steward: full realistic V2 rebuild shipped — Claude worker 31, Machine A `Dev`
+
+Luke 16:1-13, the hardest parable in the gospels to stage honestly. **47 pictures at
+native 2K against V1's EIGHT.** V1's holds were among the worst in the wave:
+`s8-two-masters.jpeg` held **35.0 s** (136.48-171.49 s) carrying the whole two-masters
+saying, the line that ties the story together AND the entire closing application — so
+the closing had **no picture of its own at all**; `s1-accused.jpeg` held **32.3 s**
+across six separate events. V2 gives all seventeen spoken segments their own pictures:
+3.65 s/picture, shortest 1.78 s, longest 5.03 s.
+
+- **AUDIO LOCK PASS, verified independently of the assembler's own report.** The
+  finished cut's audio stream MD5 (`7359e55f07f2211b3a838bb2cffe3695`) matches the V1
+  MP4 exactly. 177.900 s / 21,914,195 bytes. Nothing re-voiced, V1 never written to.
+- **The inherited scaffold was discarded** (kept as `beats_v2.py.inherited-scaffold`):
+  31 pictures at 5.7 s each against the wave's measured 3.1-4.9, and its windows were
+  not even contiguous — it left six dead intervals with no picture declared.
+- **Windows rebuilt from scratch** from `extract_beats` plus faster-whisper word
+  timings; the `.timing.json` sidecars were not trusted. Contiguous 0.000 → 171.494,
+  zero gaps, all seventeen speech onsets inside their own windows. Four apparent
+  transcript differences were chased down and every one is whisper's, not the audio's.
+  No TEXT_OVERRIDES.
+
+**Content care.** A `_NO_HEIST` clause rides every parable beat so no frame winks at
+the cheating — the master commends the **shrewdness, not the dishonesty**, and the
+commendation beat is his rueful, complicated look, never a triumph or a reward.
+Nothing of heaven, hell, throne, judgement, death or afterlife is painted. **God is
+never depicted as any figure, face, form or light**: "Ye cannot serve God and mammon"
+lands on Jesus's own face, and the two-masters saying is illustrated by two *ordinary
+human householders* with no idol, altar or personified money. "Everlasting habitations"
+is a real house at dusk taking a traveller in, never a sky-city. Jesus carries only the
+frames he speaks in as himself — Luke 16:3 and 16:6 are the **steward** talking inside
+the parable and are staged there, because putting his face under a caption of a
+panicking man planning a write-down would invert the line.
+
+**Reroll rate 16.1% (9 of 56, $7.50).** Every cure was ported preventively to all
+remaining beats in the same pass rather than paid for frame by frame:
+
+1. The steward anchor came back in a **felted fleece** — the largest cloth surface in
+   ~20 of his frames. Weave stated positively inside the STEWARD lock itself. One image.
+2. Jesus **looked into the lens** on the first rooftop frame. The geometry caused it:
+   with the camera behind the listeners he faces them and therefore faces the camera.
+   Re-staged, not prohibited — the man he addresses sits far out at one edge, his head
+   turned a quarter-turn off the lens axis. Applied to **all seven** rooftop Jesus beats
+   before any generated: **1 paid, 6 saved**.
+3. A **hinged plank door** appeared centre-frame; the ESTATE lock's clause was buried
+   deep in a long block. The empty-opening geometry was **front-loaded**, before the
+   remaining thirteen estate beats generated.
+4. **Pale neck scarves** on the listeners — the necks are now stated positively (bare
+   skin above a plain dark slit neckline).
+5. The steward was drawn once as a **pale European boy in a grey cloak**; an identity
+   floor was added that holds when he is small, distant or seen from behind.
+
+**Per the row-35 lesson, frames generated BEFORE each cure were re-inspected in the
+same pass** rather than assumed safe. That caught `s02`, whose gateway produced a gate
+leaf **twice**; per the twice-failed-prohibition rule the gateway was **deleted from the
+composition entirely** rather than prohibited a third time. `s03`, `s04` and `s06` were
+checked against the same cure and were clean.
+
+Verified on the artefact, not the exit code: real frames extracted and looked at —
+captions drawn in the bottom band only, **light-blue** scripture / **red** parable
+speech / **white** narrator, closing card carries its words; `silencedetect` shows true
+silence windows up to 1.83 s, proving there is no music or tone bed. Live card carries
+`data-review-wave="realistic-v2"` and the raw URL returns 21,914,195 bytes matching
+local.
+
+**Commit:** `eff437481` (mp4), review card + boards in the follow-up commit.
+
+---
+
 ## 2026-08-02 — Row 35 continuity fix (host anchor drape) + ESTATE-ACCOUNTS shared lock — Claude worker 30, Machine A `Dev`
 
 Worker 29 shipped row 35 and logged one known defect as "accepted, not a law violation
