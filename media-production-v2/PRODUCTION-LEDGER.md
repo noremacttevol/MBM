@@ -749,7 +749,27 @@ three-quarter angle with his head turned away from the lens" fixed it.
   native 2K, hard per-run ceiling from the live shared meter, `--only` slices).
   Audio LOCKED to the authoritative narration — no re-voicing. Windows re-timed from
   the fixed `extract_beats.py` and verified with silencedetect. Ships to Reviewer only.
-- Session results are appended below when the row closes.
+### Session 11 CLOSE — 2026-08-01 (Claude worker 9, Machine A / `Dev`) — SHIPPED
+
+| step | result |
+|---|---|
+| claim | pushed before any spend (STATUS + QUEUE + ledger, own files only) |
+| timeline | V1 final is 219.133 s and NOT truncated — but the inherited `beats_v2.py` was written against a 197.7 s timeline, so **every one of its 35 windows was wrong**, drifting up to ~9 s by the end (j3 sat at 174.00 when the line actually starts at 183.26). All 37 re-derived as `audio_start + raw phrase start` from the fixed `extract_beats`, and `n6`'s single phrase sub-split with silencedetect (pause 4.24–4.73 s → 97.93 absolute). |
+| coverage holes | two beats were holding one picture across 11.9 s (`n9 p3-p4`) and 11.5 s (`n11 p5-p6`). Authored `b24b` (the outsider alone in the circle they left around him) and `b30b`, and rewrote `b30` as the nine tiny and walking away. |
+| pictures | 37 at native 2K (1536×2752), `gemini-3-pro-image`, ceilings $48.00 / $49.30 / $49.20 recomputed from the live meter each run |
+| reroll rate | **9 of 37 = 24%** (b19/b29 twice → 48 paid images, ≈$6.43) |
+| defects found | camera gaze on 5 wide travelling shots (b01 b04 b05 b12 b26) — the model's default for "group in the foreground" is a posed line facing the lens; **a SECOND, UNLOCKED JESUS standing in the middle of the line of ten lepers in b08** (long loose hair, bare face, pale robe); cast drift on b20 (a different, younger, black-bearded Samaritan than b21/b22/b28); reversed travel direction on b19 (the nine running *toward* camera, which destroys the "and he turned around" reversal) and b29 (walking *away* from the gate they were supposed to be entering) |
+| what fixed them | the DEFECT_LOCK's own lesson, applied per beat: **state the geometry, not the prohibition.** "THE CAMERA STANDS BEHIND JESUS AND THE DISCIPLES AND SHOOTS PAST THEM: their BACKS fill the near frame … not one face is turned toward the lens" fixed b04 in one pass where a bare no-camera-gaze rule had already failed. For b08 the fix was positive inventory — "HE IS THE ONLY MAN IN CREAM AND THE ONLY MAN WITH LONG LOOSE HAIR AND AN UNCOVERED FACE … TEN men and no eleventh, every one with a strip of grey linen across the lower half of his face". For b20, text alone never held the Samaritan; the accepted `s21` was attached as a `char_refs` image anchor. For b19/b29, naming which way the *backs* face ("the viewer sees NINE BACKS … and NOT ONE FACE"). |
+| assembly | `v2_assemble.py 14` — AUDIO LOCK PASS, SHA256 `5da3ec2951b0a294389f2739f75570b30f72f56ece33bbac8e615bab504db35c`; 1080×1920, 219.133 s, 22.1 MB; captions checked on 11 extracted frames (bottom band only, white narrator, red KJV Jesus, question card intact) |
+| ship | card `v14` repointed to the new blob hash `cd69c450…` with cache-buster, `sync-reviews.mjs` run, Firebase hosting deployed, live card verified serving the new hash |
+
+**Lesson for the shared recipe (worth porting):** in any wide shot where named
+figures stand in the foreground, the model's default is a posed line facing the
+lens — the DEFECT_LOCK alone does not beat it, because the scene text says
+"stand in the foreground" and the model resolves that as a portrait. Naming the
+camera's position relative to their BACKS beats it every time, and usually makes
+a better picture: b04 shot past the travellers' shoulders turned the empty gap
+itself into the subject, which is exactly what that beat is about.
 
 ---
 

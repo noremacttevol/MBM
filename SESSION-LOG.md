@@ -1,3 +1,36 @@
+## 2026-08-01 — Video 14 (The Ten Lepers): realistic V2 shipped, giants complaint fixed (Machine A / `Dev`, Claude worker 9)
+
+Commit: 0ff45a9b0 (ship) · c8ca (claim). Claimed row 14 by push before any
+spend. Cameron's open FIX-LATER on this row was "~0:55 the ten lepers look like
+GIANTS next to Jesus and the disciples; fix the scale." That is fixed, and the
+way it got fixed is the thing worth remembering: prose like "in the distance"
+never works, and neither does a bare prohibition. What works is stating the
+GEOMETRY — where the camera stands, whose backs are in the near frame, and how
+tall the far figures are relative to the near ones. Several of those frames are
+now shot past the travellers' shoulders, which makes the empty gap between the
+two groups the subject of the picture instead of a background detail. That is
+what the beat is actually about, so the law and the storytelling pulled the
+same direction.
+
+Three other real defects turned up in QC and were rerolled: a SECOND, UNLOCKED
+JESUS standing in the middle of the line of ten lepers (b08); the Samaritan
+coming back as a different, younger man in the pivot frame where he stops in
+the road (fixed with an image anchor, since text alone never held him); and the
+nine running the wrong way down the road, which would have destroyed the "and
+he turned around" reversal the whole story turns on. Reroll rate 24% — higher
+than row 4's 12%, because this row is almost entirely wide travelling-group
+shots, which is exactly where the model defaults to a posed line facing the
+lens.
+
+Also found and fixed: the inherited beat map had been written against a 197.7 s
+timeline when the real audio is 219.1 s, so all 35 windows were wrong, drifting
+up to ~9 s by the end. Every window was re-derived from the fixed
+extract_beats and verified, and two new beats were authored where narration had
+been holding a single picture for nearly 12 seconds. The approved audio is
+byte-identical (AUDIO LOCK PASS); nothing was re-voiced. 37 pictures at native
+2K, ≈$6.43, verify-mp4 OK 3:39/22.1 MB. Card v14 repointed to the new blob
+hash, reviews synced, Firebase deployed and the live card verified.
+
 ## 2026-08-01 — Video 9 (Rich Young Ruler): full realistic rebuild shipped to the board (Machine A / `Dev`, Claude worker 6)
 
 Commit: be5d75213 (ship) · 68446d47d (claim). Claimed row 9 by push BEFORE any
