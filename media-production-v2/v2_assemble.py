@@ -132,6 +132,82 @@ def _text_overrides(v2dir):
     return dict(getattr(mod, "TEXT_OVERRIDES", {}))
 
 
+def _audio_from_segments(v2dir):
+    """AUDIO_FROM_V1_SEGMENTS flag from a build's beats_v2.py.
+
+    WHY THIS EXISTS (2026-08-02, row 25 — wheat and tares). The AUDIO LOCK copies
+    the finished V1 MP4's AAC stream, which is right whenever that MP4 is the
+    current render of the current narration. On row 25 it is NOT: the MP4 was
+    rendered 2026-07-22, the ElevenLabs re-voice ran 2026-07-23, and the
+    echo-delete sweep then removed `n1` (a narrator echo of j24's own KJV line,
+    "the kingdom of heaven … sowed good seed in his field") and trimmed "So let
+    them both grow" out of n9 (an echo of j1). The mp3 set on disk carries all of
+    that; the MP4 carries none of it and runs 229.033 s against the real 166.8 s
+    timeline. Copying it would ship pre-REDO-ALL voices, re-insert the echoes the
+    sweep deleted, and throw every caption 60+ s adrift.
+
+    V1 stays read-only (hard protection #1), so instead of re-rendering the V1
+    build, a V2 build may declare AUDIO_FROM_V1_SEGMENTS = True. The finished
+    audio is then assembled from the V1 build's OWN mp3 files, placed at exactly
+    the offsets extract_beats computes from that build's own constants — the same
+    arithmetic V1's build.py performs. Nothing is re-voiced, re-timed, gained per
+    segment, or resynthesised: each mp3 is delayed and summed, byte-for-byte the
+    source the V1 build would have used had it been re-rendered.
+    """
+    spec = importlib.util.spec_from_file_location(
+        "beats_v2_audio", os.path.join(v2dir, "beats_v2.py"))
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return bool(getattr(mod, "AUDIO_FROM_V1_SEGMENTS", False))
+
+
+def rebuild_audio_from_segments(v1dir, segs, data):
+    """Render the authoritative narration track from the V1 build's own mp3s.
+
+    Mirrors V1 build.py's audio stage: every segment delayed to its computed
+    audio_start, summed with amix(normalize=0), padded to the full runtime, then
+    loudness-trimmed toward -15 LUFS exactly as V1 does. The 'music beds' V1 still
+    lists are amplitude-zeroed (HUM PURGE, 2026-07-16) and therefore contribute
+    nothing, so they are simply not built — narration + silence only.
+    """
+    total = data["total"]
+    places = [(os.path.join(v1dir, "audio", f"{b['seg']}.mp3"), b["audio_start"])
+              for b in data["beats"] if b["speaker"] != "silence"]
+    places.append((os.path.join(v1dir, "audio", f"{data['card']['seg']}.mp3"),
+                   data["card"]["audio_start"]))
+    inputs, filters, labels = [], [], []
+    for i, (path, start) in enumerate(places):
+        if not os.path.isfile(path):
+            raise SystemExit(f"AUDIO REBUILD: missing V1 segment audio {path}")
+        inputs += ["-i", path]
+        ms = int(start * 1000)
+        filters.append(f"[{i}:a]aresample=44100,adelay={ms}|{ms},volume=1.0[a{i}]")
+        labels.append(f"[a{i}]")
+    filters.append("".join(labels) +
+                   f"amix=inputs={len(labels)}:duration=longest:normalize=0,"
+                   f"apad=whole_dur={total:.2f}[aout]")
+    mix = os.path.join(segs, "audio_v1_rebuilt.m4a")
+    run([FF, "-y"] + inputs + ["-filter_complex", ";".join(filters),
+         "-map", "[aout]", "-t", f"{total:.2f}",
+         "-c:a", "aac", "-b:a", "160k", mix])
+
+    probe = subprocess.run([FF, "-i", mix, "-af", "ebur128", "-f", "null", "-"],
+                           capture_output=True, text=True)
+    lufs = None
+    for line in probe.stderr.splitlines():
+        line = line.strip()
+        if line.startswith("I:") and "LUFS" in line:
+            lufs = float(line.split()[1])
+    gain = max(-6.0, min(16.0, -15.0 - lufs)) if lufs is not None else 0.0
+    final = os.path.join(segs, "audio_v1_final.m4a")
+    run([FF, "-y", "-i", mix,
+         "-af", f"volume={gain:.1f}dB,alimiter=limit=0.95",
+         "-c:a", "aac", "-b:a", "128k", "-t", f"{total:.6f}", final])
+    print(f"AUDIO REBUILT from {len(places)} V1 segment mp3s "
+          f"({lufs} LUFS -> {gain:+.1f} dB), {duration_of(final):.3f}s", flush=True)
+    return final
+
+
 def mbm_speakers_names(v1dir):
     """The speaker constants this build's own mbm_speakers module knows."""
     spec = importlib.util.spec_from_file_location(
@@ -314,6 +390,39 @@ def main():
     # render). Globbing every .mp4 made the AUDIO LOCK refuse to run at all. A
     # `.orig.mp4` / `.bak.mp4` / `.old.mp4` sibling is a backup by definition, so it
     # is excluded here rather than deleted — V1 stays read-only.
+    if _audio_from_segments(v2dir):
+        # STALE-V1-FINAL PATH (row 25). The V1 MP4 predates this build's current
+        # narration, so the authoritative audio is rebuilt from the V1 mp3s at the
+        # extract_beats offsets. See _audio_from_segments for why.
+        locked_v1_name = None
+        for f in sorted(os.listdir(v1dir)):
+            if f.endswith(".mp4") and not f.endswith(
+                    (".orig.mp4", ".bak.mp4", ".old.mp4", ".prev.mp4")):
+                locked_v1_name = f
+                break
+        out_name = configured_output_name or locked_v1_name
+        track = rebuild_audio_from_segments(v1dir, segs, data)
+        locked_duration = duration_of(track)
+        if abs(total - locked_duration) > 0.5:
+            raise SystemExit(
+                f"AUDIO REBUILD: timeline {total:.3f}s vs rebuilt track "
+                f"{locked_duration:.3f}s")
+        vcap = max(300, int(24.5 * 8000 / locked_duration) - 145)
+        run([FF, "-y", "-i", os.path.join(segs, "video_silent.mp4"),
+             "-i", track, "-map", "0:v:0", "-map", "1:a:0",
+             "-c:v", "libx264", "-preset", "medium", "-crf", "19",
+             "-maxrate", f"{vcap}k", "-bufsize", f"{2*vcap}k",
+             "-pix_fmt", "yuv420p", "-r", str(FPS),
+             "-c:a", "copy", "-movflags", "+faststart",
+             "-t", f"{locked_duration:.6f}", out_name])
+        if audio_stream_hash(out_name) != audio_stream_hash(track):
+            raise SystemExit("AUDIO REBUILD: muxed track does not match the "
+                             "rebuilt narration bit-for-bit")
+        size = os.path.getsize(out_name) / 1e6
+        print(f"AUDIO REBUILD PASS: {audio_stream_hash(out_name)}", flush=True)
+        print(f"DONE {out_name}  {size:.1f} MB  {locked_duration:.1f}s", flush=True)
+        return
+
     _BACKUP_MARKERS = (".orig.mp4", ".bak.mp4", ".old.mp4", ".prev.mp4")
     v1_mp4 = [f for f in os.listdir(v1dir)
               if f.endswith(".mp4") and not f.endswith(_BACKUP_MARKERS)]
