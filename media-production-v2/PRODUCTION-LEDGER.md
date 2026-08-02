@@ -736,6 +736,28 @@ three-quarter angle with his head turned away from the lens" fixed it.
 
 ---
 
+## Session 12 — 2026-08-01 — RECIPE PROMOTION + CLAIM: story 15 (centurion's servant) realistic rebuild (Claude worker 10, Machine A / `Dev`)
+
+- **Model:** Opus 5 (Claude Code) · **Machine:** Machine A — hostname `Dev`
+- **RECIPE PROMOTION (commit `e2504586a`), done before any spend:** row 14's measured
+  lesson is now in the shared `v2_prompt.py` recipe, so every later row gets it free.
+  `WIDE_GEOMETRY_LOCK` is appended to every `wide` beat (ported byte-for-byte from row
+  14's accepted b04/b19/b29 prompts), `POSITIVE_INVENTORY_LOCK` states headcount as
+  what IS present ("ten men and no eleventh"), `JESUS_INVENTORY_LOCK` ("the only man
+  in cream anywhere in the frame") rides only on beats Jesus is actually in, and
+  `--check` now WARNs when a wide beat's own scene text never names the camera's
+  position relative to the subjects' backs.
+- **CLAIM (2026-08-01): story 15 `build-15-centurion` for the REALISTIC rebuild.**
+  41 beats already prepped. New set generates to `assets-realistic/` via
+  `v2_gen_api.py` (gemini-3-pro-image, native 2K, hard per-run ceiling recomputed from
+  the live shared meter, `--only` slices). Audio LOCKED — no re-voicing. Windows
+  re-timed from the fixed `extract_beats.py` and verified with silencedetect. The
+  centurion carries ONE identity anchor (Roman officer, period-correct uniform, never
+  cream); his soldiers and the Jewish elders stay visibly distinct groups. Ships to
+  Reviewer only.
+
+---
+
 ## Session 11 — 2026-08-01 — CLAIM: story 14 (ten lepers) realistic rebuild (Claude worker 9, Machine A / `Dev`)
 
 - **Model:** Opus 5 (Claude Code) · **Machine:** Machine A — hostname `Dev`

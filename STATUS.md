@@ -12,6 +12,7 @@ Repo: `github.com/noremacttevol/MBM`
 
 | Worker | On | State |
 |---|---|---|
+| Claude worker 10 (Machine A, Dev) | Story 15 (Centurion's Servant) full realistic rebuild | in progress — claimed 2026-08-01. Row 15's V2 stills are from the pre-V5 wave; regenerating to the realistic standard on the Gemini API at native 2K into `assets-realistic/`, audio LOCKED to the authoritative narration, all windows re-timed from the fixed extract_beats and verified with silencedetect. Also promoted row 14's wide-shot camera-geometry + positive-inventory lessons into the shared `v2_prompt.py` recipe (e2504586a). Ships to Reviewer only. |
 | Claude worker 1 | Story 07 Peter — "immediately" re-voice | ✅ shipped V7 to reviewer (2c0c66159) |
 | Claude worker 2 | Story 11 Storm — 3 pictures + "Peace, be still" pacing | ✅ shipped realistic V4 to reviewer (f8acb3acc) |
 | Claude worker 3 | Story 02 Prodigal — full realistic rebuild | ✅ shipped realistic V2 cut to reviewer (2026-08-01) |
